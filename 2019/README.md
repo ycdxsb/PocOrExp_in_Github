@@ -992,15 +992,13 @@
 
 - [https://github.com/ynots0ups/CVE-2019-16113](https://github.com/ynots0ups/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/ynots0ups/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/ynots0ups/CVE-2019-16113.svg)
 
-- [https://github.com/hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC) :  ![starts](https://img.shields.io/github/stars/hg8/CVE-2019-16113-PoC.svg) ![forks](https://img.shields.io/github/forks/hg8/CVE-2019-16113-PoC.svg)
+- [https://github.com/noroh4xy/CVE-2019-16113](https://github.com/noroh4xy/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/noroh4xy/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/noroh4xy/CVE-2019-16113.svg)
 
 - [https://github.com/itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/itsjeffersonli/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/itsjeffersonli/CVE-2019-16113.svg)
 
 - [https://github.com/DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/DXY0411/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/DXY0411/CVE-2019-16113.svg)
 
 - [https://github.com/Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile) :  ![starts](https://img.shields.io/github/stars/Kenun99/CVE-2019-16113-Dockerfile.svg) ![forks](https://img.shields.io/github/forks/Kenun99/CVE-2019-16113-Dockerfile.svg)
-
-- [https://github.com/noroh4xy/CVE-2019-16113](https://github.com/noroh4xy/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/noroh4xy/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/noroh4xy/CVE-2019-16113.svg)
 
 - [https://github.com/west-tek/CVE-2019-16113-PoC](https://github.com/west-tek/CVE-2019-16113-PoC) :  ![starts](https://img.shields.io/github/stars/west-tek/CVE-2019-16113-PoC.svg) ![forks](https://img.shields.io/github/forks/west-tek/CVE-2019-16113-PoC.svg)
 
@@ -2682,15 +2680,6 @@
 
 - [https://github.com/area1/exim-cve-2019-10149-data](https://github.com/area1/exim-cve-2019-10149-data) :  ![starts](https://img.shields.io/github/stars/area1/exim-cve-2019-10149-data.svg) ![forks](https://img.shields.io/github/forks/area1/exim-cve-2019-10149-data.svg)
 
-## CVE-2019-10102
- JetBrains Ktor framework (created using the Kotlin IDE template) versions before 1.1.0 were resolving artifacts using an http connection during the build process, potentially allowing an MITM attack. This issue was fixed in Kotlin plugin version 1.3.30.
-
-
-
-- [https://github.com/RKX1209/CVE-2019-1010298](https://github.com/RKX1209/CVE-2019-1010298) :  ![starts](https://img.shields.io/github/stars/RKX1209/CVE-2019-1010298.svg) ![forks](https://img.shields.io/github/forks/RKX1209/CVE-2019-1010298.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-1010266](https://github.com/ossf-cve-benchmark/CVE-2019-1010266) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-1010266.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-1010266.svg)
-
 ## CVE-2019-10100
  In JetBrains YouTrack Confluence plugin versions before 1.8.1.3, it was possible to achieve Server Side Template Injection. The attacker could add an Issue macro to the page in Confluence, and use a combination of a valid id field and specially crafted code in the link-text-template field to execute code remotely.
 
@@ -4282,15 +4271,6 @@
 
 - [https://github.com/apidotmy/CVE-2019-16759](https://github.com/apidotmy/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/apidotmy/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/apidotmy/CVE-2019-16759.svg)
 
-## CVE-2019-1666
- A vulnerability in the Graphite service of Cisco HyperFlex software could allow an unauthenticated, remote attacker to retrieve data from the Graphite service. The vulnerability is due to insufficient authentication controls. An attacker could exploit this vulnerability by sending crafted requests to the Graphite service. A successful exploit could allow the attacker to retrieve any statistics from the Graphite service. Versions prior to 3.5(2a) are affected.
-
-
-
-- [https://github.com/mhaskar/CVE-2019-16662](https://github.com/mhaskar/CVE-2019-16662) :  ![starts](https://img.shields.io/github/stars/mhaskar/CVE-2019-16662.svg) ![forks](https://img.shields.io/github/forks/mhaskar/CVE-2019-16662.svg)
-
-- [https://github.com/mhaskar/CVE-2019-16663](https://github.com/mhaskar/CVE-2019-16663) :  ![starts](https://img.shields.io/github/stars/mhaskar/CVE-2019-16663.svg) ![forks](https://img.shields.io/github/forks/mhaskar/CVE-2019-16663.svg)
-
 ## CVE-2019-1653
  A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.
 
@@ -4849,20 +4829,6 @@
 
 - [https://github.com/oldthree3/CVE-2019-12735-VIM-NEOVIM](https://github.com/oldthree3/CVE-2019-12735-VIM-NEOVIM) :  ![starts](https://img.shields.io/github/stars/oldthree3/CVE-2019-12735-VIM-NEOVIM.svg) ![forks](https://img.shields.io/github/forks/oldthree3/CVE-2019-12735-VIM-NEOVIM.svg)
 
-## CVE-2019-1259
- A spoofing vulnerability exists in Microsoft SharePoint when it improperly handles requests to authorize applications, resulting in cross-site request forgery (CSRF).To exploit this vulnerability, an attacker would need to create a page specifically designed to cause a cross-site request, aka 'Microsoft SharePoint Spoofing Vulnerability'. This CVE ID is unique from CVE-2019-1261.
-
-
-
-- [https://github.com/Alexandre-Bartel/CVE-2019-12594](https://github.com/Alexandre-Bartel/CVE-2019-12594) :  ![starts](https://img.shields.io/github/stars/Alexandre-Bartel/CVE-2019-12594.svg) ![forks](https://img.shields.io/github/forks/Alexandre-Bartel/CVE-2019-12594.svg)
-
-## CVE-2019-1256
- An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1285.
-
-
-
-- [https://github.com/MAYASEVEN/CVE-2019-12562](https://github.com/MAYASEVEN/CVE-2019-12562) :  ![starts](https://img.shields.io/github/stars/MAYASEVEN/CVE-2019-12562.svg) ![forks](https://img.shields.io/github/forks/MAYASEVEN/CVE-2019-12562.svg)
-
 ## CVE-2019-1253
  An elevation of privilege vulnerability exists when the Windows AppX Deployment Server improperly handles junctions.To exploit this vulnerability, an attacker would first have to gain execution on the victim system, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1215, CVE-2019-1278, CVE-2019-1303.
 
@@ -5323,13 +5289,6 @@
 - [https://github.com/RKX1209/CVE-2019-1010298](https://github.com/RKX1209/CVE-2019-1010298) :  ![starts](https://img.shields.io/github/stars/RKX1209/CVE-2019-1010298.svg) ![forks](https://img.shields.io/github/forks/RKX1209/CVE-2019-1010298.svg)
 
 - [https://github.com/ossf-cve-benchmark/CVE-2019-1010266](https://github.com/ossf-cve-benchmark/CVE-2019-1010266) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-1010266.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-1010266.svg)
-
-## CVE-2019-1009
- An information disclosure vulnerability exists when the Windows GDI component improperly discloses the contents of its memory, aka 'Windows GDI Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-0968, CVE-2019-0977, CVE-2019-1010, CVE-2019-1011, CVE-2019-1012, CVE-2019-1013, CVE-2019-1015, CVE-2019-1016, CVE-2019-1046, CVE-2019-1047, CVE-2019-1048, CVE-2019-1049, CVE-2019-1050.
-
-
-
-- [https://github.com/motikan2010/CVE-2019-10092_Docker](https://github.com/motikan2010/CVE-2019-10092_Docker) :  ![starts](https://img.shields.io/github/stars/motikan2010/CVE-2019-10092_Docker.svg) ![forks](https://img.shields.io/github/forks/motikan2010/CVE-2019-10092_Docker.svg)
 
 ## CVE-2019-1008
  A security feature bypass vulnerability exists in Dynamics On Premise, aka 'Microsoft Dynamics On-Premise Security Feature Bypass'.
