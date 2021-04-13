@@ -16,6 +16,7 @@
 ```
 usage: exp.py [-h]
               [-y {1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,all}]
+              [-i {y,n}]
 
 CVE Details and Collect PocOrExp in Github
 
@@ -23,7 +24,12 @@ optional arguments:
   -h, --help            show this help message and exit
   -y {1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,all}, --year {1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,all}
                         get Poc or CVE of certain year or all years
+  -i {y,n}, --init {y,n}
+                        init or not
 ```
+参数说明:
+- -y指定处理某年的CVE
+- -i说明是否为首次初始化，y表示初次，对于已处理的CVE不会处理，n表示否，会处理已处理的CVE
 
 - STEP1：安装依赖
 
@@ -40,8 +46,8 @@ optional arguments:
 - STEP3：处理cve信息
 
   ```
-  处理某一年：python3 exp.py -y 2021
-  处理全部：python3 exp.py -y all
+  python3 exp.py -y 2021 -i y
+  python3 exp.py -y all -i y
   ```
 
 - 如果想要加快速度，可使用异步版脚本exp_async.py
