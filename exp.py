@@ -213,7 +213,7 @@ def process_cve_all(init = True):
 
 def init():
     if(not os.path.exists(DOWNLOAD_DIR)):
-        shutil.rmtree(DOWNLOAD_DIR)
+        os.mkdir(DOWNLOAD_DIR)
     for year in range(1999, datetime.datetime.now().year+1):
         if(not os.path.exists(str(year))):
             os.mkdir(str(year))
