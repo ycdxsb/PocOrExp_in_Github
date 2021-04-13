@@ -2851,35 +2851,6 @@
 
 - [https://github.com/ossf-cve-benchmark/CVE-2017-10910](https://github.com/ossf-cve-benchmark/CVE-2017-10910) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-10910.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-10910.svg)
 
-## CVE-2017-1000
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/c0d3z3r0/sudo-CVE-2017-1000367](https://github.com/c0d3z3r0/sudo-CVE-2017-1000367) :  ![starts](https://img.shields.io/github/stars/c0d3z3r0/sudo-CVE-2017-1000367.svg) ![forks](https://img.shields.io/github/forks/c0d3z3r0/sudo-CVE-2017-1000367.svg)
-
-- [https://github.com/pimps/CVE-2017-1000486](https://github.com/pimps/CVE-2017-1000486) :  ![starts](https://img.shields.io/github/stars/pimps/CVE-2017-1000486.svg) ![forks](https://img.shields.io/github/forks/pimps/CVE-2017-1000486.svg)
-
-- [https://github.com/vulhub/CVE-2017-1000353](https://github.com/vulhub/CVE-2017-1000353) :  ![starts](https://img.shields.io/github/stars/vulhub/CVE-2017-1000353.svg) ![forks](https://img.shields.io/github/forks/vulhub/CVE-2017-1000353.svg)
-
-- [https://github.com/hayzamjs/Blueborne-CVE-2017-1000251](https://github.com/hayzamjs/Blueborne-CVE-2017-1000251) :  ![starts](https://img.shields.io/github/stars/hayzamjs/Blueborne-CVE-2017-1000251.svg) ![forks](https://img.shields.io/github/forks/hayzamjs/Blueborne-CVE-2017-1000251.svg)
-
-- [https://github.com/olav-st/CVE-2017-1000250-PoC](https://github.com/olav-st/CVE-2017-1000250-PoC) :  ![starts](https://img.shields.io/github/stars/olav-st/CVE-2017-1000250-PoC.svg) ![forks](https://img.shields.io/github/forks/olav-st/CVE-2017-1000250-PoC.svg)
-
-- [https://github.com/mogwailabs/CVE-2017-1000486](https://github.com/mogwailabs/CVE-2017-1000486) :  ![starts](https://img.shields.io/github/stars/mogwailabs/CVE-2017-1000486.svg) ![forks](https://img.shields.io/github/forks/mogwailabs/CVE-2017-1000486.svg)
-
-- [https://github.com/marcinguy/blueborne-CVE-2017-1000251](https://github.com/marcinguy/blueborne-CVE-2017-1000251) :  ![starts](https://img.shields.io/github/stars/marcinguy/blueborne-CVE-2017-1000251.svg) ![forks](https://img.shields.io/github/forks/marcinguy/blueborne-CVE-2017-1000251.svg)
-
-- [https://github.com/own2pwn/blueborne-CVE-2017-1000251-POC](https://github.com/own2pwn/blueborne-CVE-2017-1000251-POC) :  ![starts](https://img.shields.io/github/stars/own2pwn/blueborne-CVE-2017-1000251-POC.svg) ![forks](https://img.shields.io/github/forks/own2pwn/blueborne-CVE-2017-1000251-POC.svg)
-
-- [https://github.com/homjxi0e/CVE-2017-1000367](https://github.com/homjxi0e/CVE-2017-1000367) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-1000367.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-1000367.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2017-1000219](https://github.com/ossf-cve-benchmark/CVE-2017-1000219) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-1000219.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-1000219.svg)
-
-- [https://github.com/cved-sources/cve-2017-1000486](https://github.com/cved-sources/cve-2017-1000486) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2017-1000486.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2017-1000486.svg)
-
-- [https://github.com/tlatkdgus1/blueborne-CVE-2017-1000251](https://github.com/tlatkdgus1/blueborne-CVE-2017-1000251) :  ![starts](https://img.shields.io/github/stars/tlatkdgus1/blueborne-CVE-2017-1000251.svg) ![forks](https://img.shields.io/github/forks/tlatkdgus1/blueborne-CVE-2017-1000251.svg)
-
 ## CVE-2017-0931
  html-janitor node module suffers from a Cross-Site Scripting (XSS) vulnerability via clean() accepting user-controlled values.
 
