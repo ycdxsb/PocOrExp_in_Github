@@ -21867,6 +21867,61 @@
 
 
 ## 2011
+## CVE-2011-4919
+ mpack 1.6 has information disclosure via eavesdropping on mails sent by other users
+
+
+
+- [https://github.com/hartwork/mpacktrafficripper](https://github.com/hartwork/mpacktrafficripper) :  ![starts](https://img.shields.io/github/stars/hartwork/mpacktrafficripper.svg) ![forks](https://img.shields.io/github/forks/hartwork/mpacktrafficripper.svg)
+
+## CVE-2011-4862
+ Buffer overflow in libtelnet/encrypt.c in telnetd in FreeBSD 7.3 through 9.0, MIT Kerberos Version 5 Applications (aka krb5-appl) 1.0.2 and earlier, Heimdal 1.5.1 and earlier, GNU inetutils, and possibly other products allows remote attackers to execute arbitrary code via a long encryption key, as exploited in the wild in December 2011.
+
+
+
+- [https://github.com/hdbreaker/GO-CVE-2011-4862](https://github.com/hdbreaker/GO-CVE-2011-4862) :  ![starts](https://img.shields.io/github/stars/hdbreaker/GO-CVE-2011-4862.svg) ![forks](https://img.shields.io/github/forks/hdbreaker/GO-CVE-2011-4862.svg)
+
+- [https://github.com/kpawar2410/CVE-2011-4862](https://github.com/kpawar2410/CVE-2011-4862) :  ![starts](https://img.shields.io/github/stars/kpawar2410/CVE-2011-4862.svg) ![forks](https://img.shields.io/github/forks/kpawar2410/CVE-2011-4862.svg)
+
+- [https://github.com/lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862) :  ![starts](https://img.shields.io/github/stars/lol-fi/cve-2011-4862.svg) ![forks](https://img.shields.io/github/forks/lol-fi/cve-2011-4862.svg)
+
+## CVE-2011-4107
+ The simplexml_load_string function in the XML import plug-in (libraries/import/xml.php) in phpMyAdmin 3.4.x before 3.4.7.1 and 3.3.x before 3.3.10.5 allows remote authenticated users to read arbitrary files via XML data containing external entity references, aka an XML external entity (XXE) injection attack.
+
+
+
+- [https://github.com/SECFORCE/CVE-2011-4107](https://github.com/SECFORCE/CVE-2011-4107) :  ![starts](https://img.shields.io/github/stars/SECFORCE/CVE-2011-4107.svg) ![forks](https://img.shields.io/github/forks/SECFORCE/CVE-2011-4107.svg)
+
+## CVE-2011-3872
+ Puppet 2.6.x before 2.6.12 and 2.7.x before 2.7.6, and Puppet Enterprise (PE) Users 1.0, 1.1, and 1.2 before 1.2.4, when signing an agent certificate, adds the Puppet master's certdnsnames values to the X.509 Subject Alternative Name field of the certificate, which allows remote attackers to spoof a Puppet master via a man-in-the-middle (MITM) attack against an agent that uses an alternate DNS name for the master, aka &quot;AltNames Vulnerability.&quot;
+
+
+
+- [https://github.com/puppetlabs/puppetlabs-cve20113872](https://github.com/puppetlabs/puppetlabs-cve20113872) :  ![starts](https://img.shields.io/github/stars/puppetlabs/puppetlabs-cve20113872.svg) ![forks](https://img.shields.io/github/forks/puppetlabs/puppetlabs-cve20113872.svg)
+
+## CVE-2011-3556
+ Unspecified vulnerability in the Java Runtime Environment component in Oracle Java SE JDK and JRE 7, 6 Update 27 and earlier, 5.0 Update 31 and earlier, 1.4.2_33 and earlier, and JRockit R28.1.4 and earlier allows remote attackers to affect confidentiality, integrity, and availability, related to RMI, a different vulnerability than CVE-2011-3557.
+
+
+
+- [https://github.com/sk4la/cve_2011_3556](https://github.com/sk4la/cve_2011_3556) :  ![starts](https://img.shields.io/github/stars/sk4la/cve_2011_3556.svg) ![forks](https://img.shields.io/github/forks/sk4la/cve_2011_3556.svg)
+
+## CVE-2011-3389
+ The SSL protocol, as used in certain configurations in Microsoft Windows and Microsoft Internet Explorer, Mozilla Firefox, Google Chrome, Opera, and other products, encrypts data by using CBC mode with chained initialization vectors, which allows man-in-the-middle attackers to obtain plaintext HTTP headers via a blockwise chosen-boundary attack (BCBA) on an HTTPS session, in conjunction with JavaScript code that uses (1) the HTML5 WebSocket API, (2) the Java URLConnection API, or (3) the Silverlight WebClient API, aka a &quot;BEAST&quot; attack.
+
+
+
+- [https://github.com/mpgn/BEAST-PoC](https://github.com/mpgn/BEAST-PoC) :  ![starts](https://img.shields.io/github/stars/mpgn/BEAST-PoC.svg) ![forks](https://img.shields.io/github/forks/mpgn/BEAST-PoC.svg)
+
+## CVE-2011-3368
+ The mod_proxy module in the Apache HTTP Server 1.3.x through 1.3.42, 2.0.x through 2.0.64, and 2.2.x through 2.2.21 does not properly interact with use of (1) RewriteRule and (2) ProxyPassMatch pattern matches for configuration of a reverse proxy, which allows remote attackers to send requests to intranet servers via a malformed URI containing an initial @ (at sign) character.
+
+
+
+- [https://github.com/SECFORCE/CVE-2011-3368](https://github.com/SECFORCE/CVE-2011-3368) :  ![starts](https://img.shields.io/github/stars/SECFORCE/CVE-2011-3368.svg) ![forks](https://img.shields.io/github/forks/SECFORCE/CVE-2011-3368.svg)
+
+- [https://github.com/colorblindpentester/CVE-2011-3368](https://github.com/colorblindpentester/CVE-2011-3368) :  ![starts](https://img.shields.io/github/stars/colorblindpentester/CVE-2011-3368.svg) ![forks](https://img.shields.io/github/forks/colorblindpentester/CVE-2011-3368.svg)
+
 ## CVE-2011-3192
  The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 2.2.x through 2.2.19 allows remote attackers to cause a denial of service (memory and CPU consumption) via a Range header that expresses multiple overlapping ranges, as exploited in the wild in August 2011, a different vulnerability than CVE-2007-0086.
 
@@ -21985,9 +22040,269 @@
 
 
 ## 2010
+## CVE-2010-5230
+ Multiple untrusted search path vulnerabilities in MicroStation 7.1 allow local users to gain privileges via a Trojan horse (1) mptools.dll, (2) baseman.dll, (3) wintab32.dll, or (4) wintab.dll file in the current working directory, as demonstrated by a directory that contains a .hln or .rdl file.  NOTE: some of these details are obtained from third party information.
+
+
+
+- [https://github.com/otofoto/CVE-2010-5230](https://github.com/otofoto/CVE-2010-5230) :  ![starts](https://img.shields.io/github/stars/otofoto/CVE-2010-5230.svg) ![forks](https://img.shields.io/github/forks/otofoto/CVE-2010-5230.svg)
+
+## CVE-2010-4804
+ The Android browser in Android before 2.3.4 allows remote attackers to obtain SD card contents via crafted content:// URIs, related to (1) BrowserActivity.java and (2) BrowserSettings.java in com/android/browser/.
+
+
+
+- [https://github.com/thomascannon/android-cve-2010-4804](https://github.com/thomascannon/android-cve-2010-4804) :  ![starts](https://img.shields.io/github/stars/thomascannon/android-cve-2010-4804.svg) ![forks](https://img.shields.io/github/forks/thomascannon/android-cve-2010-4804.svg)
+
+## CVE-2010-4669
+ The Neighbor Discovery (ND) protocol implementation in the IPv6 stack in Microsoft Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7 allows remote attackers to cause a denial of service (CPU consumption and system hang) by sending many Router Advertisement (RA) messages with different source addresses, as demonstrated by the flood_router6 program in the thc-ipv6 package.
+
+
+
+- [https://github.com/quinn-samuel-perry/CVE-2010-4669](https://github.com/quinn-samuel-perry/CVE-2010-4669) :  ![starts](https://img.shields.io/github/stars/quinn-samuel-perry/CVE-2010-4669.svg) ![forks](https://img.shields.io/github/forks/quinn-samuel-perry/CVE-2010-4669.svg)
+
+## CVE-2010-4476
+ The Double.parseDouble method in Java Runtime Environment (JRE) in Oracle Java SE and Java for Business 6 Update 23 and earlier, 5.0 Update 27 and earlier, and 1.4.2_29 and earlier, as used in OpenJDK, Apache, JBossweb, and other products, allows remote attackers to cause a denial of service via a crafted string that triggers an infinite loop of estimations during conversion to a double-precision binary floating-point number, as demonstrated using 2.2250738585072012e-308.
+
+
+
+- [https://github.com/grzegorzblaszczyk/CVE-2010-4476-check](https://github.com/grzegorzblaszczyk/CVE-2010-4476-check) :  ![starts](https://img.shields.io/github/stars/grzegorzblaszczyk/CVE-2010-4476-check.svg) ![forks](https://img.shields.io/github/forks/grzegorzblaszczyk/CVE-2010-4476-check.svg)
+
+## CVE-2010-4258
+ The do_exit function in kernel/exit.c in the Linux kernel before 2.6.36.2 does not properly handle a KERNEL_DS get_fs value, which allows local users to bypass intended access_ok restrictions, overwrite arbitrary kernel memory locations, and gain privileges by leveraging a (1) BUG, (2) NULL pointer dereference, or (3) page fault, as demonstrated by vectors involving the clear_child_tid feature and the splice system call.
+
+
+
+- [https://github.com/johnreginald/CVE-2010-4258](https://github.com/johnreginald/CVE-2010-4258) :  ![starts](https://img.shields.io/github/stars/johnreginald/CVE-2010-4258.svg) ![forks](https://img.shields.io/github/forks/johnreginald/CVE-2010-4258.svg)
+
+## CVE-2010-4221
+ Multiple stack-based buffer overflows in the pr_netio_telnet_gets function in netio.c in ProFTPD before 1.3.3c allow remote attackers to execute arbitrary code via vectors involving a TELNET IAC escape character to a (1) FTP or (2) FTPS server.
+
+
+
+- [https://github.com/M31MOTH/cve-2010-4221](https://github.com/M31MOTH/cve-2010-4221) :  ![starts](https://img.shields.io/github/stars/M31MOTH/cve-2010-4221.svg) ![forks](https://img.shields.io/github/forks/M31MOTH/cve-2010-4221.svg)
+
+## CVE-2010-3971
+ Use-after-free vulnerability in the CSharedStyleSheet::Notify function in the Cascading Style Sheets (CSS) parser in mshtml.dll, as used in Microsoft Internet Explorer 6 through 8 and other products, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a self-referential @import rule in a stylesheet, aka &quot;CSS Memory Corruption Vulnerability.&quot;
+
+
+
+- [https://github.com/nektra/CVE-2010-3971-hotpatch](https://github.com/nektra/CVE-2010-3971-hotpatch) :  ![starts](https://img.shields.io/github/stars/nektra/CVE-2010-3971-hotpatch.svg) ![forks](https://img.shields.io/github/forks/nektra/CVE-2010-3971-hotpatch.svg)
+
+## CVE-2010-3904
+ The rds_page_copy_user function in net/rds/page.c in the Reliable Datagram Sockets (RDS) protocol implementation in the Linux kernel before 2.6.36 does not properly validate addresses obtained from user space, which allows local users to gain privileges via crafted use of the sendmsg and recvmsg system calls.
+
+
+
+- [https://github.com/redhatkaty/-cve-2010-3904-report](https://github.com/redhatkaty/-cve-2010-3904-report) :  ![starts](https://img.shields.io/github/stars/redhatkaty/-cve-2010-3904-report.svg) ![forks](https://img.shields.io/github/forks/redhatkaty/-cve-2010-3904-report.svg)
+
+## CVE-2010-3847
+ elf/dl-load.c in ld.so in the GNU C Library (aka glibc or libc6) through 2.11.2, and 2.12.x through 2.12.1, does not properly handle a value of $ORIGIN for the LD_AUDIT environment variable, which allows local users to gain privileges via a crafted dynamic shared object (DSO) located in an arbitrary directory.
+
+
+
+- [https://github.com/magisterquis/cve-2010-3847](https://github.com/magisterquis/cve-2010-3847) :  ![starts](https://img.shields.io/github/stars/magisterquis/cve-2010-3847.svg) ![forks](https://img.shields.io/github/forks/magisterquis/cve-2010-3847.svg)
+
+## CVE-2010-3600
+ Unspecified vulnerability in the Client System Analyzer component in Oracle Database Server 11.1.0.7 and 11.2.0.1 and Enterprise Manager Grid Control 10.2.0.5 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors. NOTE: the previous information was obtained from the January 2011 CPU.  Oracle has not commented on claims from a reliable third party coordinator that this issue involves an exposed JSP script that accepts XML uploads in conjunction with NULL bytes in an unspecified parameter that allow execution of arbitrary code.
+
+
+
+- [https://github.com/LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2](https://github.com/LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2) :  ![starts](https://img.shields.io/github/stars/LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2.svg) ![forks](https://img.shields.io/github/forks/LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2.svg)
+
+## CVE-2010-3490
+ Directory traversal vulnerability in page.recordings.php in the System Recordings component in the configuration interface in FreePBX 2.8.0 and earlier allows remote authenticated administrators to create arbitrary files via a .. (dot dot) in the usersnum parameter to admin/config.php, as demonstrated by creating a .php file under the web root.
+
+
+
+- [https://github.com/moayadalmalat/CVE-2010-3490](https://github.com/moayadalmalat/CVE-2010-3490) :  ![starts](https://img.shields.io/github/stars/moayadalmalat/CVE-2010-3490.svg) ![forks](https://img.shields.io/github/forks/moayadalmalat/CVE-2010-3490.svg)
+
+## CVE-2010-3437
+ Integer signedness error in the pkt_find_dev_from_minor function in drivers/block/pktcdvd.c in the Linux kernel before 2.6.36-rc6 allows local users to obtain sensitive information from kernel memory or cause a denial of service (invalid pointer dereference and system crash) via a crafted index value in a PKT_CTRL_CMD_STATUS ioctl call.
+
+
+
+- [https://github.com/huang-emily/CVE-2010-3437](https://github.com/huang-emily/CVE-2010-3437) :  ![starts](https://img.shields.io/github/stars/huang-emily/CVE-2010-3437.svg) ![forks](https://img.shields.io/github/forks/huang-emily/CVE-2010-3437.svg)
+
+## CVE-2010-3333
+ Stack-based buffer overflow in Microsoft Office XP SP3, Office 2003 SP3, Office 2007 SP2, Office 2010, Office 2004 and 2008 for Mac, Office for Mac 2011, and Open XML File Format Converter for Mac allows remote attackers to execute arbitrary code via crafted RTF data, aka &quot;RTF Stack Buffer Overflow Vulnerability.&quot;
+
+
+
+- [https://github.com/whiteHat001/cve-2010-3333](https://github.com/whiteHat001/cve-2010-3333) :  ![starts](https://img.shields.io/github/stars/whiteHat001/cve-2010-3333.svg) ![forks](https://img.shields.io/github/forks/whiteHat001/cve-2010-3333.svg)
+
+## CVE-2010-3332
+ Microsoft .NET Framework 1.1 SP1, 2.0 SP1 and SP2, 3.5, 3.5 SP1, 3.5.1, and 4.0, as used for ASP.NET in Microsoft Internet Information Services (IIS), provides detailed error codes during decryption attempts, which allows remote attackers to decrypt and modify encrypted View State (aka __VIEWSTATE) form data, and possibly forge cookies or read application files, via a padding oracle attack, aka &quot;ASP.NET Padding Oracle Vulnerability.&quot;
+
+
+
+- [https://github.com/bongbongco/MS10-070](https://github.com/bongbongco/MS10-070) :  ![starts](https://img.shields.io/github/stars/bongbongco/MS10-070.svg) ![forks](https://img.shields.io/github/forks/bongbongco/MS10-070.svg)
+
+## CVE-2010-3301
+ The IA32 system call emulation functionality in arch/x86/ia32/ia32entry.S in the Linux kernel before 2.6.36-rc4-git2 on the x86_64 platform does not zero extend the %eax register after the 32-bit entry path to ptrace is used, which allows local users to gain privileges by triggering an out-of-bounds access to the system call table using the %rax register.  NOTE: this vulnerability exists because of a CVE-2007-4573 regression.
+
+
+
+- [https://github.com/n0lann/CVE2010-3301_compiled](https://github.com/n0lann/CVE2010-3301_compiled) :  ![starts](https://img.shields.io/github/stars/n0lann/CVE2010-3301_compiled.svg) ![forks](https://img.shields.io/github/forks/n0lann/CVE2010-3301_compiled.svg)
+
+## CVE-2010-2333
+ LiteSpeed Technologies LiteSpeed Web Server 4.0.x before 4.0.15 allows remote attackers to read the source code of scripts via an HTTP request with a null byte followed by a .txt file extension.
+
+
+
+- [https://github.com/aforakjackson/cve2010-2333](https://github.com/aforakjackson/cve2010-2333) :  ![starts](https://img.shields.io/github/stars/aforakjackson/cve2010-2333.svg) ![forks](https://img.shields.io/github/forks/aforakjackson/cve2010-2333.svg)
+
+## CVE-2010-2075
+ UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 through June 2010, contains an externally introduced modification (Trojan Horse) in the DEBUG3_DOLOG_SYSTEM macro, which allows remote attackers to execute arbitrary commands.
+
+
+
+- [https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE) :  ![starts](https://img.shields.io/github/stars/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg) ![forks](https://img.shields.io/github/forks/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg)
+
+## CVE-2010-1411
+ Multiple integer overflows in the Fax3SetupState function in tif_fax3.c in the FAX3 decoder in LibTIFF before 3.9.3, as used in ImageIO in Apple Mac OS X 10.5.8 and Mac OS X 10.6 before 10.6.4, allow remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted TIFF file that triggers a heap-based buffer overflow.
+
+
+
+- [https://github.com/MAVProxyUser/httpfuzz-robomiller](https://github.com/MAVProxyUser/httpfuzz-robomiller) :  ![starts](https://img.shields.io/github/stars/MAVProxyUser/httpfuzz-robomiller.svg) ![forks](https://img.shields.io/github/forks/MAVProxyUser/httpfuzz-robomiller.svg)
+
+## CVE-2010-1205
+ Buffer overflow in pngpread.c in libpng before 1.2.44 and 1.4.x before 1.4.3, as used in progressive applications, might allow remote attackers to execute arbitrary code via a PNG image that triggers an additional data row.
+
+
+
+- [https://github.com/mk219533/CVE-2010-1205](https://github.com/mk219533/CVE-2010-1205) :  ![starts](https://img.shields.io/github/stars/mk219533/CVE-2010-1205.svg) ![forks](https://img.shields.io/github/forks/mk219533/CVE-2010-1205.svg)
+
+## CVE-2010-0738
+ The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to send requests to this application's GET handler by using a different method.
+
+
+
+- [https://github.com/ChristianPapathanasiou/jboss-autopwn](https://github.com/ChristianPapathanasiou/jboss-autopwn) :  ![starts](https://img.shields.io/github/stars/ChristianPapathanasiou/jboss-autopwn.svg) ![forks](https://img.shields.io/github/forks/ChristianPapathanasiou/jboss-autopwn.svg)
+
+- [https://github.com/gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn) :  ![starts](https://img.shields.io/github/stars/gitcollect/jboss-autopwn.svg) ![forks](https://img.shields.io/github/forks/gitcollect/jboss-autopwn.svg)
+
+## CVE-2010-0426
+ sudo 1.6.x before 1.6.9p21 and 1.7.x before 1.7.2p4, when a pseudo-command is enabled, permits a match between the name of the pseudo-command and the name of an executable file in an arbitrary directory, which allows local users to gain privileges via a crafted executable file, as demonstrated by a file named sudoedit in a user's home directory.
+
+
+
+- [https://github.com/t0kx/privesc-CVE-2010-0426](https://github.com/t0kx/privesc-CVE-2010-0426) :  ![starts](https://img.shields.io/github/stars/t0kx/privesc-CVE-2010-0426.svg) ![forks](https://img.shields.io/github/forks/t0kx/privesc-CVE-2010-0426.svg)
+
+- [https://github.com/cved-sources/cve-2010-0426](https://github.com/cved-sources/cve-2010-0426) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2010-0426.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2010-0426.svg)
+
 
 
 ## 2009
+## CVE-2009-3548
+ The Windows installer for Apache Tomcat 6.0.0 through 6.0.20, 5.5.0 through 5.5.28, and possibly earlier versions uses a blank default password for the administrative user, which allows remote attackers to gain privileges.
+
+
+
+- [https://github.com/cocomelonc/vulnexipy](https://github.com/cocomelonc/vulnexipy) :  ![starts](https://img.shields.io/github/stars/cocomelonc/vulnexipy.svg) ![forks](https://img.shields.io/github/forks/cocomelonc/vulnexipy.svg)
+
+## CVE-2009-3103
+ Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a denial of service (system crash) via an &amp; (ampersand) character in a Process ID High header field in a NEGOTIATE PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location, aka &quot;SMBv2 Negotiation Vulnerability.&quot; NOTE: some of these details are obtained from third party information.
+
+
+
+- [https://github.com/mazding/ms09050](https://github.com/mazding/ms09050) :  ![starts](https://img.shields.io/github/stars/mazding/ms09050.svg) ![forks](https://img.shields.io/github/forks/mazding/ms09050.svg)
+
+## CVE-2009-2698
+ The udp_sendmsg function in the UDP implementation in (1) net/ipv4/udp.c and (2) net/ipv6/udp.c in the Linux kernel before 2.6.19 allows local users to gain privileges or cause a denial of service (NULL pointer dereference and system crash) via vectors involving the MSG_MORE flag and a UDP socket.
+
+
+
+- [https://github.com/xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698) :  ![starts](https://img.shields.io/github/stars/xiaoxiaoleo/CVE-2009-2698.svg) ![forks](https://img.shields.io/github/forks/xiaoxiaoleo/CVE-2009-2698.svg)
+
+## CVE-2009-2692
+ The Linux kernel 2.6.0 through 2.6.30.4, and 2.4.4 through 2.4.37.4, does not initialize all function pointers for socket operations in proto_ops structures, which allows local users to trigger a NULL pointer dereference and gain privileges by using mmap to map page zero, placing arbitrary code on this page, and then invoking an unavailable operation, as demonstrated by the sendpage operation (sock_sendpage function) on a PF_PPPOX socket.
+
+
+
+- [https://github.com/jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692) :  ![starts](https://img.shields.io/github/stars/jdvalentini/CVE-2009-2692.svg) ![forks](https://img.shields.io/github/forks/jdvalentini/CVE-2009-2692.svg)
+
+## CVE-2009-2585
+ SQL injection vulnerability in index.php in Mlffat 2.2 allows remote attackers to execute arbitrary SQL commands via a member cookie in an account editprofile action, a different vector than CVE-2009-1731.
+
+
+
+- [https://github.com/n4xh4ck5/CVE2009-2585_HP_Power_Manager_BoF](https://github.com/n4xh4ck5/CVE2009-2585_HP_Power_Manager_BoF) :  ![starts](https://img.shields.io/github/stars/n4xh4ck5/CVE2009-2585_HP_Power_Manager_BoF.svg) ![forks](https://img.shields.io/github/forks/n4xh4ck5/CVE2009-2585_HP_Power_Manager_BoF.svg)
+
+## CVE-2009-2265
+ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow remote attackers to create executable files in arbitrary directories via directory traversal sequences in the input to unspecified connector modules, as exploited in the wild for remote code execution in July 2009, related to the file browser and the editor/filemanager/connectors/ directory.
+
+
+
+- [https://github.com/zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion) :  ![starts](https://img.shields.io/github/stars/zaphoxx/zaphoxx-coldfusion.svg) ![forks](https://img.shields.io/github/forks/zaphoxx/zaphoxx-coldfusion.svg)
+
+## CVE-2009-1904
+ The BigDecimal library in Ruby 1.8.6 before p369 and 1.8.7 before p173 allows context-dependent attackers to cause a denial of service (application crash) via a string argument that represents a large number, as demonstrated by an attempted conversion to the Float data type.
+
+
+
+- [https://github.com/NZKoz/bigdecimal-segfault-fix](https://github.com/NZKoz/bigdecimal-segfault-fix) :  ![starts](https://img.shields.io/github/stars/NZKoz/bigdecimal-segfault-fix.svg) ![forks](https://img.shields.io/github/forks/NZKoz/bigdecimal-segfault-fix.svg)
+
+## CVE-2009-1437
+ Stack-based buffer overflow in PortableApps CoolPlayer Portable (aka CoolPlayer+ Portable) 2.19.6 and earlier allows remote attackers to execute arbitrary code via a long string in a malformed playlist (.m3u) file. NOTE: this may overlap CVE-2008-3408.
+
+
+
+- [https://github.com/HanseSecure/CVE-2009-1437](https://github.com/HanseSecure/CVE-2009-1437) :  ![starts](https://img.shields.io/github/stars/HanseSecure/CVE-2009-1437.svg) ![forks](https://img.shields.io/github/forks/HanseSecure/CVE-2009-1437.svg)
+
+## CVE-2009-1330
+ Stack-based buffer overflow in Easy RM to MP3 Converter allows remote attackers to execute arbitrary code via a long filename in a playlist (.pls) file.
+
+
+
+- [https://github.com/adenkiewicz/CVE-2009-1330](https://github.com/adenkiewicz/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2009-1330.svg)
+
+- [https://github.com/war4uthor/CVE-2009-1330](https://github.com/war4uthor/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2009-1330.svg)
+
+- [https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter](https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter) :  ![starts](https://img.shields.io/github/stars/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter.svg) ![forks](https://img.shields.io/github/forks/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter.svg)
+
+## CVE-2009-1324
+ Stack-based buffer overflow in Mini-stream ASX to MP3 Converter 3.0.0.7 allows remote attackers to execute arbitrary code via a long URI in a playlist (.m3u) file.
+
+
+
+- [https://github.com/war4uthor/CVE-2009-1324](https://github.com/war4uthor/CVE-2009-1324) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2009-1324.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2009-1324.svg)
+
+## CVE-2009-1244
+ Unspecified vulnerability in the virtual machine display function in VMware Workstation 6.5.1 and earlier; VMware Player 2.5.1 and earlier; VMware ACE 2.5.1 and earlier; VMware Server 1.x before 1.0.9 build 156507 and 2.x before 2.0.1 build 156745; VMware Fusion before 2.0.4 build 159196; VMware ESXi 3.5; and VMware ESX 3.0.2, 3.0.3, and 3.5 allows guest OS users to execute arbitrary code on the host OS via unknown vectors, a different vulnerability than CVE-2008-4916.
+
+
+
+- [https://github.com/piotrbania/vmware_exploit_pack_CVE-2009-1244](https://github.com/piotrbania/vmware_exploit_pack_CVE-2009-1244) :  ![starts](https://img.shields.io/github/stars/piotrbania/vmware_exploit_pack_CVE-2009-1244.svg) ![forks](https://img.shields.io/github/forks/piotrbania/vmware_exploit_pack_CVE-2009-1244.svg)
+
+## CVE-2009-1151
+ Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.11.9.5 and 3.x before 3.1.3.1 allows remote attackers to inject arbitrary PHP code into a configuration file via the save action.
+
+
+
+- [https://github.com/minervais/pocs](https://github.com/minervais/pocs) :  ![starts](https://img.shields.io/github/stars/minervais/pocs.svg) ![forks](https://img.shields.io/github/forks/minervais/pocs.svg)
+
+## CVE-2009-0689
+ Array index error in the (1) dtoa implementation in dtoa.c (aka pdtoa.c) and the (2) gdtoa (aka new dtoa) implementation in gdtoa/misc.c in libc, as used in multiple operating systems and products including in FreeBSD 6.4 and 7.2, NetBSD 5.0, OpenBSD 4.5, Mozilla Firefox 3.0.x before 3.0.15 and 3.5.x before 3.5.4, K-Meleon 1.5.3, SeaMonkey 1.1.8, and other products, allows context-dependent attackers to cause a denial of service (application crash) and possibly execute arbitrary code via a large precision value in the format argument to a printf function, which triggers incorrect memory allocation and a heap-based buffer overflow during conversion to a floating-point number.
+
+
+
+- [https://github.com/Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax) :  ![starts](https://img.shields.io/github/stars/Fullmetal5/str2hax.svg) ![forks](https://img.shields.io/github/forks/Fullmetal5/str2hax.svg)
+
+## CVE-2009-0473
+ Open redirect vulnerability in the web interface in the Rockwell Automation ControlLogix 1756-ENBT/A EtherNet/IP Bridge Module allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.
+
+
+
+- [https://github.com/akbarq/CVE-2009-0473-check](https://github.com/akbarq/CVE-2009-0473-check) :  ![starts](https://img.shields.io/github/stars/akbarq/CVE-2009-0473-check.svg) ![forks](https://img.shields.io/github/forks/akbarq/CVE-2009-0473-check.svg)
+
+## CVE-2009-0229
+ The Windows Printing Service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP2, Vista Gold, SP1, and SP2, and Server 2008 SP2 allows local users to read arbitrary files via a crafted separator page, aka &quot;Print Spooler Read File Vulnerability.&quot;
+
+
+
+- [https://github.com/zveriu/CVE-2009-0229-PoC](https://github.com/zveriu/CVE-2009-0229-PoC) :  ![starts](https://img.shields.io/github/stars/zveriu/CVE-2009-0229-PoC.svg) ![forks](https://img.shields.io/github/forks/zveriu/CVE-2009-0229-PoC.svg)
+
 
 
 ## 2008

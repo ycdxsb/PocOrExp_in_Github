@@ -1,3 +1,58 @@
+## CVE-2011-4919
+ mpack 1.6 has information disclosure via eavesdropping on mails sent by other users
+
+
+
+- [https://github.com/hartwork/mpacktrafficripper](https://github.com/hartwork/mpacktrafficripper) :  ![starts](https://img.shields.io/github/stars/hartwork/mpacktrafficripper.svg) ![forks](https://img.shields.io/github/forks/hartwork/mpacktrafficripper.svg)
+
+## CVE-2011-4862
+ Buffer overflow in libtelnet/encrypt.c in telnetd in FreeBSD 7.3 through 9.0, MIT Kerberos Version 5 Applications (aka krb5-appl) 1.0.2 and earlier, Heimdal 1.5.1 and earlier, GNU inetutils, and possibly other products allows remote attackers to execute arbitrary code via a long encryption key, as exploited in the wild in December 2011.
+
+
+
+- [https://github.com/hdbreaker/GO-CVE-2011-4862](https://github.com/hdbreaker/GO-CVE-2011-4862) :  ![starts](https://img.shields.io/github/stars/hdbreaker/GO-CVE-2011-4862.svg) ![forks](https://img.shields.io/github/forks/hdbreaker/GO-CVE-2011-4862.svg)
+
+- [https://github.com/kpawar2410/CVE-2011-4862](https://github.com/kpawar2410/CVE-2011-4862) :  ![starts](https://img.shields.io/github/stars/kpawar2410/CVE-2011-4862.svg) ![forks](https://img.shields.io/github/forks/kpawar2410/CVE-2011-4862.svg)
+
+- [https://github.com/lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862) :  ![starts](https://img.shields.io/github/stars/lol-fi/cve-2011-4862.svg) ![forks](https://img.shields.io/github/forks/lol-fi/cve-2011-4862.svg)
+
+## CVE-2011-4107
+ The simplexml_load_string function in the XML import plug-in (libraries/import/xml.php) in phpMyAdmin 3.4.x before 3.4.7.1 and 3.3.x before 3.3.10.5 allows remote authenticated users to read arbitrary files via XML data containing external entity references, aka an XML external entity (XXE) injection attack.
+
+
+
+- [https://github.com/SECFORCE/CVE-2011-4107](https://github.com/SECFORCE/CVE-2011-4107) :  ![starts](https://img.shields.io/github/stars/SECFORCE/CVE-2011-4107.svg) ![forks](https://img.shields.io/github/forks/SECFORCE/CVE-2011-4107.svg)
+
+## CVE-2011-3872
+ Puppet 2.6.x before 2.6.12 and 2.7.x before 2.7.6, and Puppet Enterprise (PE) Users 1.0, 1.1, and 1.2 before 1.2.4, when signing an agent certificate, adds the Puppet master's certdnsnames values to the X.509 Subject Alternative Name field of the certificate, which allows remote attackers to spoof a Puppet master via a man-in-the-middle (MITM) attack against an agent that uses an alternate DNS name for the master, aka &quot;AltNames Vulnerability.&quot;
+
+
+
+- [https://github.com/puppetlabs/puppetlabs-cve20113872](https://github.com/puppetlabs/puppetlabs-cve20113872) :  ![starts](https://img.shields.io/github/stars/puppetlabs/puppetlabs-cve20113872.svg) ![forks](https://img.shields.io/github/forks/puppetlabs/puppetlabs-cve20113872.svg)
+
+## CVE-2011-3556
+ Unspecified vulnerability in the Java Runtime Environment component in Oracle Java SE JDK and JRE 7, 6 Update 27 and earlier, 5.0 Update 31 and earlier, 1.4.2_33 and earlier, and JRockit R28.1.4 and earlier allows remote attackers to affect confidentiality, integrity, and availability, related to RMI, a different vulnerability than CVE-2011-3557.
+
+
+
+- [https://github.com/sk4la/cve_2011_3556](https://github.com/sk4la/cve_2011_3556) :  ![starts](https://img.shields.io/github/stars/sk4la/cve_2011_3556.svg) ![forks](https://img.shields.io/github/forks/sk4la/cve_2011_3556.svg)
+
+## CVE-2011-3389
+ The SSL protocol, as used in certain configurations in Microsoft Windows and Microsoft Internet Explorer, Mozilla Firefox, Google Chrome, Opera, and other products, encrypts data by using CBC mode with chained initialization vectors, which allows man-in-the-middle attackers to obtain plaintext HTTP headers via a blockwise chosen-boundary attack (BCBA) on an HTTPS session, in conjunction with JavaScript code that uses (1) the HTML5 WebSocket API, (2) the Java URLConnection API, or (3) the Silverlight WebClient API, aka a &quot;BEAST&quot; attack.
+
+
+
+- [https://github.com/mpgn/BEAST-PoC](https://github.com/mpgn/BEAST-PoC) :  ![starts](https://img.shields.io/github/stars/mpgn/BEAST-PoC.svg) ![forks](https://img.shields.io/github/forks/mpgn/BEAST-PoC.svg)
+
+## CVE-2011-3368
+ The mod_proxy module in the Apache HTTP Server 1.3.x through 1.3.42, 2.0.x through 2.0.64, and 2.2.x through 2.2.21 does not properly interact with use of (1) RewriteRule and (2) ProxyPassMatch pattern matches for configuration of a reverse proxy, which allows remote attackers to send requests to intranet servers via a malformed URI containing an initial @ (at sign) character.
+
+
+
+- [https://github.com/SECFORCE/CVE-2011-3368](https://github.com/SECFORCE/CVE-2011-3368) :  ![starts](https://img.shields.io/github/stars/SECFORCE/CVE-2011-3368.svg) ![forks](https://img.shields.io/github/forks/SECFORCE/CVE-2011-3368.svg)
+
+- [https://github.com/colorblindpentester/CVE-2011-3368](https://github.com/colorblindpentester/CVE-2011-3368) :  ![starts](https://img.shields.io/github/stars/colorblindpentester/CVE-2011-3368.svg) ![forks](https://img.shields.io/github/forks/colorblindpentester/CVE-2011-3368.svg)
+
 ## CVE-2011-3192
  The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 2.2.x through 2.2.19 allows remote attackers to cause a denial of service (memory and CPU consumption) via a Range header that expresses multiple overlapping ranges, as exploited in the wild in August 2011, a different vulnerability than CVE-2007-0086.
 
