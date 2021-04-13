@@ -1,3 +1,54 @@
+## CVE-2009-5147
+ DL::dlopen in Ruby 1.8, 1.9.0, 1.9.2, 1.9.3, 2.0.0 before patchlevel 648, and 2.1 before 2.1.8 opens libraries with tainted names.
+
+
+
+- [https://github.com/vpereira/CVE-2009-5147](https://github.com/vpereira/CVE-2009-5147) :  ![starts](https://img.shields.io/github/stars/vpereira/CVE-2009-5147.svg) ![forks](https://img.shields.io/github/forks/vpereira/CVE-2009-5147.svg)
+
+- [https://github.com/zhangyongbo100/-Ruby-dl-handle.c-CVE-2009-5147-](https://github.com/zhangyongbo100/-Ruby-dl-handle.c-CVE-2009-5147-) :  ![starts](https://img.shields.io/github/stars/zhangyongbo100/-Ruby-dl-handle.c-CVE-2009-5147-.svg) ![forks](https://img.shields.io/github/forks/zhangyongbo100/-Ruby-dl-handle.c-CVE-2009-5147-.svg)
+
+## CVE-2009-4660
+ Stack-based buffer overflow in the AntServer Module (AntServer.exe) in BigAnt IM Server 2.50 allows remote attackers to execute arbitrary code via a long GET request to TCP port 6660.
+
+
+
+- [https://github.com/war4uthor/CVE-2009-4660](https://github.com/war4uthor/CVE-2009-4660) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2009-4660.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2009-4660.svg)
+
+## CVE-2009-4496
+ Boa 0.94.14rc21 writes data to a log file without sanitizing non-printable characters, which might allow remote attackers to modify a window's title, or possibly execute arbitrary commands or overwrite files, via an HTTP request containing an escape sequence for a terminal emulator.
+
+
+
+- [https://github.com/shrugly/boa-0.94.13](https://github.com/shrugly/boa-0.94.13) :  ![starts](https://img.shields.io/github/stars/shrugly/boa-0.94.13.svg) ![forks](https://img.shields.io/github/forks/shrugly/boa-0.94.13.svg)
+
+## CVE-2009-4140
+ Unrestricted file upload vulnerability in ofc_upload_image.php in Open Flash Chart v2 Beta 1 through v2 Lug Wyrm Charmer, as used in Piwik 0.2.35 through 0.4.3, Woopra Analytics Plugin before 1.4.3.2, and possibly other products, when register_globals is enabled, allows remote authenticated users to execute arbitrary code by uploading a file with an executable extension through the name parameter with the code in the HTTP_RAW_POST_DATA parameter, then accessing it via a direct request to the file in tmp-upload-images/.
+
+
+
+- [https://github.com/Alexeyan/CVE-2009-4137](https://github.com/Alexeyan/CVE-2009-4137) :  ![starts](https://img.shields.io/github/stars/Alexeyan/CVE-2009-4137.svg) ![forks](https://img.shields.io/github/forks/Alexeyan/CVE-2009-4137.svg)
+
+## CVE-2009-4137
+ The loadContentFromCookie function in core/Cookie.php in Piwik before 0.5 does not validate strings obtained from cookies before calling the unserialize function, which allows remote attackers to execute arbitrary code or upload arbitrary files via vectors related to the __destruct function in the Piwik_Config class; php://filter URIs; the __destruct functions in Zend Framework, as demonstrated by the Zend_Log destructor; the shutdown functions in Zend Framework, as demonstrated by the Zend_Log_Writer_Mail class; the render function in the Piwik_View class; Smarty templates; and the _eval function in Smarty.
+
+
+
+- [https://github.com/Alexeyan/CVE-2009-4137](https://github.com/Alexeyan/CVE-2009-4137) :  ![starts](https://img.shields.io/github/stars/Alexeyan/CVE-2009-4137.svg) ![forks](https://img.shields.io/github/forks/Alexeyan/CVE-2009-4137.svg)
+
+## CVE-2009-4118
+ The StartServiceCtrlDispatcher function in the cvpnd service (cvpnd.exe) in Cisco VPN client for Windows before 5.0.06.0100 does not properly handle an ERROR_FAILED_SERVICE_CONTROLLER_CONNECT error, which allows local users to cause a denial of service (service crash and VPN connection loss) via a manual start of cvpnd.exe while the cvpnd service is running.
+
+
+
+- [https://github.com/alt3kx/CVE-2009-4118](https://github.com/alt3kx/CVE-2009-4118) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2009-4118.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2009-4118.svg)
+
+## CVE-2009-4092
+ Cross-site request forgery (CSRF) vulnerability in user.php in Simplog 0.9.3.2, and possibly earlier, allows remote attackers to hijack the authentication of administrators and users for requests that change passwords.
+
+
+
+- [https://github.com/xiaoyu-iid/Simplog-Exploit](https://github.com/xiaoyu-iid/Simplog-Exploit) :  ![starts](https://img.shields.io/github/stars/xiaoyu-iid/Simplog-Exploit.svg) ![forks](https://img.shields.io/github/forks/xiaoyu-iid/Simplog-Exploit.svg)
+
 ## CVE-2009-3548
  The Windows installer for Apache Tomcat 6.0.0 through 6.0.20, 5.5.0 through 5.5.28, and possibly earlier versions uses a blank default password for the administrative user, which allows remote attackers to gain privileges.
 
