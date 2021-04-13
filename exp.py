@@ -97,10 +97,8 @@ def get_PocOrExp_in_github(CVE_ID,Other_ID = None):
         api = 'https://api.github.com/search/repositories?q="%s"&sort=stars' % CVE_ID
     else:
         api = 'https://api.github.com/search/repositories?q="%s" NOT "%s"&sort=stars' % (CVE_ID,Other_ID)
-    if(len(tokens)>=4):
-        windows = 0
-    else:
-        windows = 0.8/len(tokens)
+    
+    windows = 0
     while(True):
         time.sleep(windows)
         TOKEN = sample(tokens,1)[0]
@@ -135,6 +133,7 @@ def parse_arg():
         description='CVE Details and Collect PocOrExp in Github')
     parser.add_argument('-y', '--year',required=False,default=None, choices=list(map(str,range(1999,datetime.datetime.now().year+1)))+['all'],
                         help="get Poc or CVE of certain year or all years")
+    parser.add_argument('-i','--init',required=False,default='n',choices=['y','n'],help = "init or not")
     args = parser.parse_args()
     return args
 
@@ -213,9 +212,8 @@ def process_cve_all(init = True):
         process_cve_year(year,init)
 
 def init():
-    if(os.path.exists(DOWNLOAD_DIR)):
+    if(not os.path.exists(DOWNLOAD_DIR)):
         shutil.rmtree(DOWNLOAD_DIR)
-    os.mkdir(DOWNLOAD_DIR)
     for year in range(1999, datetime.datetime.now().year+1):
         if(not os.path.exists(str(year))):
             os.mkdir(str(year))
@@ -238,9 +236,15 @@ def main():
     init()
     print(args)
     if(args.year == "all"):
-        process_cve_all()
+        if(args.init == "y"):
+            process_cve_all()
+        elif(args.init == "n"):
+            process_cve_all(False)
     elif(args.year):
-        process_cve_year(int(args.year))
+        if(args.init == "y"):
+            process_cve_year(int(args.year))
+        elif(args.init == "n"):
+            process_cve_year(int(args.year),False)
     
 if __name__=="__main__":
     main()

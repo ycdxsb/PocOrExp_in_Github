@@ -129,14 +129,15 @@ async def get_PocOrExp_in_github(CVE_ID,Other_ID = None,token=None):
         })
     return PocOrExps
 
-
 def parse_arg():
     parser = argparse.ArgumentParser(
         description='CVE Details and Collect PocOrExp in Github')
     parser.add_argument('-y', '--year',required=False,default=None, choices=list(map(str,range(1999,datetime.datetime.now().year+1)))+['all'],
                         help="get Poc or CVE of certain year or all years")
+    parser.add_argument('-i','--init',required=False,default='n',choices=['y','n'],help = "init or not")
     args = parser.parse_args()
     return args
+
 
 def is_prefix(cve_ids,CVE_ID):
     for cve_id in cve_ids:
@@ -247,10 +248,15 @@ def main():
     init()
     print(args)
     if(args.year == "all"):
-        process_cve_all()
+        if(args.init == "y"):
+            process_cve_all()
+        elif(args.init == "n"):
+            process_cve_all(False)
     elif(args.year):
-        process_cve_year(int(args.year))
-    
+        if(args.init == "y"):
+            process_cve_year(int(args.year))
+        elif(args.init == "n"):
+            process_cve_year(int(args.year),False) 
     
 if __name__=="__main__":
     main()
