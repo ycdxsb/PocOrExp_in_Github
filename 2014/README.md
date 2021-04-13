@@ -5,6 +5,292 @@
 
 - [https://github.com/Manouchehri/hitron-cfg-decrypter](https://github.com/Manouchehri/hitron-cfg-decrypter) :  ![starts](https://img.shields.io/github/stars/Manouchehri/hitron-cfg-decrypter.svg) ![forks](https://img.shields.io/github/forks/Manouchehri/hitron-cfg-decrypter.svg)
 
+## CVE-2014-9707
+ EmbedThis GoAhead 3.0.0 through 3.4.1 does not properly handle path segments starting with a . (dot), which allows remote attackers to conduct directory traversal attacks, cause a denial of service (heap-based buffer overflow and crash), or possibly execute arbitrary code via a crafted URI.
+
+
+
+- [https://github.com/irain1987/cve-2014-9707](https://github.com/irain1987/cve-2014-9707) :  ![starts](https://img.shields.io/github/stars/irain1987/cve-2014-9707.svg) ![forks](https://img.shields.io/github/forks/irain1987/cve-2014-9707.svg)
+
+## CVE-2014-9390
+ Git before 1.8.5.6, 1.9.x before 1.9.5, 2.0.x before 2.0.5, 2.1.x before 2.1.4, and 2.2.x before 2.2.1 on Windows and OS X; Mercurial before 3.2.3 on Windows and OS X; Apple Xcode before 6.2 beta 3; mine all versions before 08-12-2014; libgit2 all versions up to 0.21.2; Egit all versions before 08-12-2014; and JGit all versions before 08-12-2014 allow remote Git servers to execute arbitrary commands via a tree containing a crafted .git/config file with (1) an ignorable Unicode codepoint, (2) a git~1/config representation, or (3) mixed case that is improperly handled on a case-insensitive filesystem.
+
+
+
+- [https://github.com/mdisec/CVE-2014-9390](https://github.com/mdisec/CVE-2014-9390) :  ![starts](https://img.shields.io/github/stars/mdisec/CVE-2014-9390.svg) ![forks](https://img.shields.io/github/forks/mdisec/CVE-2014-9390.svg)
+
+- [https://github.com/hakatashi/CVE-2014-9390](https://github.com/hakatashi/CVE-2014-9390) :  ![starts](https://img.shields.io/github/stars/hakatashi/CVE-2014-9390.svg) ![forks](https://img.shields.io/github/forks/hakatashi/CVE-2014-9390.svg)
+
+## CVE-2014-9322
+ arch/x86/kernel/entry_64.S in the Linux kernel before 3.17.5 does not properly handle faults associated with the Stack Segment (SS) segment register, which allows local users to gain privileges by triggering an IRET instruction that leads to access to a GS Base address from the wrong space.
+
+
+
+- [https://github.com/RKX1209/CVE-2014-9322](https://github.com/RKX1209/CVE-2014-9322) :  ![starts](https://img.shields.io/github/stars/RKX1209/CVE-2014-9322.svg) ![forks](https://img.shields.io/github/forks/RKX1209/CVE-2014-9322.svg)
+
+## CVE-2014-9301
+ Server-side request forgery (SSRF) vulnerability in the proxy servlet in Alfresco Community Edition before 5.0.a allows remote attackers to trigger outbound requests to intranet servers, conduct port scans, and read arbitrary files via a crafted URI in the endpoint parameter.
+
+
+
+- [https://github.com/ottimo/burp-alfresco-referer-proxy-cve-2014-9301](https://github.com/ottimo/burp-alfresco-referer-proxy-cve-2014-9301) :  ![starts](https://img.shields.io/github/stars/ottimo/burp-alfresco-referer-proxy-cve-2014-9301.svg) ![forks](https://img.shields.io/github/forks/ottimo/burp-alfresco-referer-proxy-cve-2014-9301.svg)
+
+## CVE-2014-9295
+ Multiple stack-based buffer overflows in ntpd in NTP before 4.2.8 allow remote attackers to execute arbitrary code via a crafted packet, related to (1) the crypto_recv function when the Autokey Authentication feature is used, (2) the ctl_putdata function, and (3) the configure function.
+
+
+
+- [https://github.com/MacMiniVault/NTPUpdateSnowLeopard](https://github.com/MacMiniVault/NTPUpdateSnowLeopard) :  ![starts](https://img.shields.io/github/stars/MacMiniVault/NTPUpdateSnowLeopard.svg) ![forks](https://img.shields.io/github/forks/MacMiniVault/NTPUpdateSnowLeopard.svg)
+
+## CVE-2014-9222
+ AllegroSoft RomPager 4.34 and earlier, as used in Huawei Home Gateway products and other vendors and products, allows remote attackers to gain privileges via a crafted cookie that triggers memory corruption, aka the &quot;Misfortune Cookie&quot; vulnerability.
+
+
+
+- [https://github.com/BenChaliah/MIPS-CVE-2014-9222](https://github.com/BenChaliah/MIPS-CVE-2014-9222) :  ![starts](https://img.shields.io/github/stars/BenChaliah/MIPS-CVE-2014-9222.svg) ![forks](https://img.shields.io/github/forks/BenChaliah/MIPS-CVE-2014-9222.svg)
+
+## CVE-2014-9034
+ wp-includes/class-phpass.php in WordPress before 3.7.5, 3.8.x before 3.8.5, 3.9.x before 3.9.3, and 4.x before 4.0.1 allows remote attackers to cause a denial of service (CPU consumption) via a long password that is improperly handled during hashing, a similar issue to CVE-2014-9016.
+
+
+
+- [https://github.com/c0r3dump3d/wp_drupal_timing_attack](https://github.com/c0r3dump3d/wp_drupal_timing_attack) :  ![starts](https://img.shields.io/github/stars/c0r3dump3d/wp_drupal_timing_attack.svg) ![forks](https://img.shields.io/github/forks/c0r3dump3d/wp_drupal_timing_attack.svg)
+
+## CVE-2014-9016
+ The password hashing API in Drupal 7.x before 7.34 and the Secure Password Hashes (aka phpass) module 6.x-2.x before 6.x-2.1 for Drupal allows remote attackers to cause a denial of service (CPU and memory consumption) via a crafted request.
+
+
+
+- [https://github.com/c0r3dump3d/wp_drupal_timing_attack](https://github.com/c0r3dump3d/wp_drupal_timing_attack) :  ![starts](https://img.shields.io/github/stars/c0r3dump3d/wp_drupal_timing_attack.svg) ![forks](https://img.shields.io/github/forks/c0r3dump3d/wp_drupal_timing_attack.svg)
+
+- [https://github.com/Primus27/WordPress-Long-Password-Denial-of-Service](https://github.com/Primus27/WordPress-Long-Password-Denial-of-Service) :  ![starts](https://img.shields.io/github/stars/Primus27/WordPress-Long-Password-Denial-of-Service.svg) ![forks](https://img.shields.io/github/forks/Primus27/WordPress-Long-Password-Denial-of-Service.svg)
+
+## CVE-2014-8757
+ LG On-Screen Phone (OSP) before 4.3.010 allows remote attackers to bypass authorization via a crafted request.
+
+
+
+- [https://github.com/irsl/lgosp-poc](https://github.com/irsl/lgosp-poc) :  ![starts](https://img.shields.io/github/stars/irsl/lgosp-poc.svg) ![forks](https://img.shields.io/github/forks/irsl/lgosp-poc.svg)
+
+## CVE-2014-8729
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/inso-/TORQUE-Resource-Manager-2.5.x-2.5.13-stack-based-buffer-overflow-exploit-CVE-2014-8729-CVE-2014-878](https://github.com/inso-/TORQUE-Resource-Manager-2.5.x-2.5.13-stack-based-buffer-overflow-exploit-CVE-2014-8729-CVE-2014-878) :  ![starts](https://img.shields.io/github/stars/inso-/TORQUE-Resource-Manager-2.5.x-2.5.13-stack-based-buffer-overflow-exploit-CVE-2014-8729-CVE-2014-878.svg) ![forks](https://img.shields.io/github/forks/inso-/TORQUE-Resource-Manager-2.5.x-2.5.13-stack-based-buffer-overflow-exploit-CVE-2014-8729-CVE-2014-878.svg)
+
+## CVE-2014-8682
+ Multiple SQL injection vulnerabilities in Gogs (aka Go Git Service) 0.3.1-9 through 0.5.x before 0.5.6.1105 Beta allow remote attackers to execute arbitrary SQL commands via the q parameter to (1) api/v1/repos/search, which is not properly handled in models/repo.go, or (2) api/v1/users/search, which is not properly handled in models/user.go.
+
+
+
+- [https://github.com/nihal1306/gogs](https://github.com/nihal1306/gogs) :  ![starts](https://img.shields.io/github/stars/nihal1306/gogs.svg) ![forks](https://img.shields.io/github/forks/nihal1306/gogs.svg)
+
+## CVE-2014-8609
+ The addAccount method in src/com/android/settings/accounts/AddAccountSettings.java in the Settings application in Android before 5.0.0 does not properly create a PendingIntent, which allows attackers to use the SYSTEM uid for broadcasting an intent with arbitrary component, action, or category information via a third-party authenticator in a crafted application, aka Bug 17356824.
+
+
+
+- [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) :  ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
+
+## CVE-2014-8244
+ Linksys SMART WiFi firmware on EA2700 and EA3500 devices; before 2.1.41 build 162351 on E4200v2 and EA4500 devices; before 1.1.41 build 162599 on EA6200 devices; before 1.1.40 build 160989 on EA6300, EA6400, EA6500, and EA6700 devices; and before 1.1.42 build 161129 on EA6900 devices allows remote attackers to obtain sensitive information or modify data via a JNAP action in a JNAP/ HTTP request.
+
+
+
+- [https://github.com/JollyJumbuckk/LinksysLeaks](https://github.com/JollyJumbuckk/LinksysLeaks) :  ![starts](https://img.shields.io/github/stars/JollyJumbuckk/LinksysLeaks.svg) ![forks](https://img.shields.io/github/forks/JollyJumbuckk/LinksysLeaks.svg)
+
+## CVE-2014-8142
+ Use-after-free vulnerability in the process_nested_data function in ext/standard/var_unserializer.re in PHP before 5.4.36, 5.5.x before 5.5.20, and 5.6.x before 5.6.4 allows remote attackers to execute arbitrary code via a crafted unserialize call that leverages improper handling of duplicate keys within the serialized properties of an object, a different vulnerability than CVE-2004-1019.
+
+
+
+- [https://github.com/3xp10it/php_cve-2014-8142_cve-2015-0231](https://github.com/3xp10it/php_cve-2014-8142_cve-2015-0231) :  ![starts](https://img.shields.io/github/stars/3xp10it/php_cve-2014-8142_cve-2015-0231.svg) ![forks](https://img.shields.io/github/forks/3xp10it/php_cve-2014-8142_cve-2015-0231.svg)
+
+## CVE-2014-8110
+ Multiple cross-site scripting (XSS) vulnerabilities in the web based administration console in Apache ActiveMQ 5.x before 5.10.1 allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+
+
+
+- [https://github.com/tafamace/CVE-2014-8110](https://github.com/tafamace/CVE-2014-8110) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2014-8110.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2014-8110.svg)
+
+## CVE-2014-7921
+ mediaserver in Android 4.0.3 through 5.x before 5.1 allows attackers to gain privileges.  NOTE: This is a different vulnerability than CVE-2014-7920.
+
+
+
+- [https://github.com/laginimaineb/cve-2014-7920-7921](https://github.com/laginimaineb/cve-2014-7920-7921) :  ![starts](https://img.shields.io/github/stars/laginimaineb/cve-2014-7920-7921.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/cve-2014-7920-7921.svg)
+
+## CVE-2014-7920
+ mediaserver in Android 2.2 through 5.x before 5.1 allows attackers to gain privileges.  NOTE: This is a different vulnerability than CVE-2014-7921.
+
+
+
+- [https://github.com/laginimaineb/cve-2014-7920-7921](https://github.com/laginimaineb/cve-2014-7920-7921) :  ![starts](https://img.shields.io/github/stars/laginimaineb/cve-2014-7920-7921.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/cve-2014-7920-7921.svg)
+
+- [https://github.com/Vinc3nt4H/cve-2014-7920-7921_update](https://github.com/Vinc3nt4H/cve-2014-7920-7921_update) :  ![starts](https://img.shields.io/github/stars/Vinc3nt4H/cve-2014-7920-7921_update.svg) ![forks](https://img.shields.io/github/forks/Vinc3nt4H/cve-2014-7920-7921_update.svg)
+
+## CVE-2014-7911
+ luni/src/main/java/java/io/ObjectInputStream.java in the java.io.ObjectInputStream implementation in Android before 5.0.0 does not verify that deserialization will result in an object that met the requirements for serialization, which allows attackers to execute arbitrary code via a crafted finalize method for a serialized object in an ArrayMap Parcel within an intent sent to system_service, as demonstrated by the finalize method of android.os.BinderProxy, aka Bug 15874291.
+
+
+
+- [https://github.com/retme7/CVE-2014-7911_poc](https://github.com/retme7/CVE-2014-7911_poc) :  ![starts](https://img.shields.io/github/stars/retme7/CVE-2014-7911_poc.svg) ![forks](https://img.shields.io/github/forks/retme7/CVE-2014-7911_poc.svg)
+
+- [https://github.com/retme7/CVE-2014-4322_poc](https://github.com/retme7/CVE-2014-4322_poc) :  ![starts](https://img.shields.io/github/stars/retme7/CVE-2014-4322_poc.svg) ![forks](https://img.shields.io/github/forks/retme7/CVE-2014-4322_poc.svg)
+
+- [https://github.com/GeneBlue/cve-2014-7911-exp](https://github.com/GeneBlue/cve-2014-7911-exp) :  ![starts](https://img.shields.io/github/stars/GeneBlue/cve-2014-7911-exp.svg) ![forks](https://img.shields.io/github/forks/GeneBlue/cve-2014-7911-exp.svg)
+
+- [https://github.com/heeeeen/CVE-2014-7911poc](https://github.com/heeeeen/CVE-2014-7911poc) :  ![starts](https://img.shields.io/github/stars/heeeeen/CVE-2014-7911poc.svg) ![forks](https://img.shields.io/github/forks/heeeeen/CVE-2014-7911poc.svg)
+
+- [https://github.com/ele7enxxh/CVE-2014-7911](https://github.com/ele7enxxh/CVE-2014-7911) :  ![starts](https://img.shields.io/github/stars/ele7enxxh/CVE-2014-7911.svg) ![forks](https://img.shields.io/github/forks/ele7enxxh/CVE-2014-7911.svg)
+
+- [https://github.com/mabin004/cve-2014-7911](https://github.com/mabin004/cve-2014-7911) :  ![starts](https://img.shields.io/github/stars/mabin004/cve-2014-7911.svg) ![forks](https://img.shields.io/github/forks/mabin004/cve-2014-7911.svg)
+
+- [https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege](https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege) :  ![starts](https://img.shields.io/github/stars/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege.svg) ![forks](https://img.shields.io/github/forks/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege.svg)
+
+- [https://github.com/koozxcv/CVE-2014-7911](https://github.com/koozxcv/CVE-2014-7911) :  ![starts](https://img.shields.io/github/stars/koozxcv/CVE-2014-7911.svg) ![forks](https://img.shields.io/github/forks/koozxcv/CVE-2014-7911.svg)
+
+- [https://github.com/CytQ/CVE-2014-7911_poc](https://github.com/CytQ/CVE-2014-7911_poc) :  ![starts](https://img.shields.io/github/stars/CytQ/CVE-2014-7911_poc.svg) ![forks](https://img.shields.io/github/forks/CytQ/CVE-2014-7911_poc.svg)
+
+## CVE-2014-7236
+ Eval injection vulnerability in lib/TWiki/Plugins.pm in TWiki before 6.0.1 allows remote attackers to execute arbitrary Perl code via the debugenableplugins parameter to do/view/Main/WebHome.
+
+
+
+- [https://github.com/m0nad/CVE-2014-7236_Exploit](https://github.com/m0nad/CVE-2014-7236_Exploit) :  ![starts](https://img.shields.io/github/stars/m0nad/CVE-2014-7236_Exploit.svg) ![forks](https://img.shields.io/github/forks/m0nad/CVE-2014-7236_Exploit.svg)
+
+## CVE-2014-7205
+ Eval injection vulnerability in the internals.batch function in lib/batch.js in the bassmaster plugin before 1.5.2 for the hapi server framework for Node.js allows remote attackers to execute arbitrary Javascript code via unspecified vectors.
+
+
+
+- [https://github.com/maximilianmarx/bassmaster-rce](https://github.com/maximilianmarx/bassmaster-rce) :  ![starts](https://img.shields.io/github/stars/maximilianmarx/bassmaster-rce.svg) ![forks](https://img.shields.io/github/forks/maximilianmarx/bassmaster-rce.svg)
+
+## CVE-2014-7169
+ GNU Bash through 4.3 bash43-025 processes trailing strings after certain malformed function definitions in the values of environment variables, which allows remote attackers to write to files or possibly have unknown other impact via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-6271.
+
+
+
+- [https://github.com/chef-boneyard/bash-shellshock](https://github.com/chef-boneyard/bash-shellshock) :  ![starts](https://img.shields.io/github/stars/chef-boneyard/bash-shellshock.svg) ![forks](https://img.shields.io/github/forks/chef-boneyard/bash-shellshock.svg)
+
+- [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) :  ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
+
+- [https://github.com/gina-alaska/bash-cve-2014-7169-cookbook](https://github.com/gina-alaska/bash-cve-2014-7169-cookbook) :  ![starts](https://img.shields.io/github/stars/gina-alaska/bash-cve-2014-7169-cookbook.svg) ![forks](https://img.shields.io/github/forks/gina-alaska/bash-cve-2014-7169-cookbook.svg)
+
+## CVE-2014-6598
+ Unspecified vulnerability in the Oracle Communications Diameter Signaling Router component in Oracle Communications Applications 3.x, 4.x, and 5.0 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to Signaling - DPI.
+
+
+
+- [https://github.com/KPN-CISO/DRA_writeup](https://github.com/KPN-CISO/DRA_writeup) :  ![starts](https://img.shields.io/github/stars/KPN-CISO/DRA_writeup.svg) ![forks](https://img.shields.io/github/forks/KPN-CISO/DRA_writeup.svg)
+
+## CVE-2014-6577
+ Unspecified vulnerability in the XML Developer's Kit for C component in Oracle Database Server 11.2.0.3, 11.2.0.4, 12.1.0.1, and 12.1.0.2 allows remote authenticated users to affect confidentiality via unknown vectors.  NOTE: the previous information is from the January 2015 CPU. Oracle has not commented on the original researcher's claim that this is an XML external entity (XXE) vulnerability in the XML parser, which allows attackers to conduct internal port scanning, perform SSRF attacks, or cause a denial of service via a crafted (1) http: or (2) ftp: URI.
+
+
+
+- [https://github.com/SecurityArtWork/oracle-xxe-sqli](https://github.com/SecurityArtWork/oracle-xxe-sqli) :  ![starts](https://img.shields.io/github/stars/SecurityArtWork/oracle-xxe-sqli.svg) ![forks](https://img.shields.io/github/forks/SecurityArtWork/oracle-xxe-sqli.svg)
+
+## CVE-2014-6332
+ OleAut32.dll in OLE in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows remote attackers to execute arbitrary code via a crafted web site, as demonstrated by an array-redimensioning attempt that triggers improper handling of a size value in the SafeArrayDimen function, aka &quot;Windows OLE Automation Array Remote Code Execution Vulnerability.&quot;
+
+
+
+- [https://github.com/MarkoArmitage/metasploit-framework](https://github.com/MarkoArmitage/metasploit-framework) :  ![starts](https://img.shields.io/github/stars/MarkoArmitage/metasploit-framework.svg) ![forks](https://img.shields.io/github/forks/MarkoArmitage/metasploit-framework.svg)
+
+- [https://github.com/mourr/CVE-2014-6332](https://github.com/mourr/CVE-2014-6332) :  ![starts](https://img.shields.io/github/stars/mourr/CVE-2014-6332.svg) ![forks](https://img.shields.io/github/forks/mourr/CVE-2014-6332.svg)
+
+- [https://github.com/tjjh89017/cve-2014-6332](https://github.com/tjjh89017/cve-2014-6332) :  ![starts](https://img.shields.io/github/stars/tjjh89017/cve-2014-6332.svg) ![forks](https://img.shields.io/github/forks/tjjh89017/cve-2014-6332.svg)
+
+## CVE-2014-6287
+ The findMacroMarker function in parserLib.pas in Rejetto HTTP File Server (aks HFS or HttpFileServer) 2.3x before 2.3c allows remote attackers to execute arbitrary programs via a %00 sequence in a search action.
+
+
+
+- [https://github.com/roughiz/cve-2014-6287.py](https://github.com/roughiz/cve-2014-6287.py) :  ![starts](https://img.shields.io/github/stars/roughiz/cve-2014-6287.py.svg) ![forks](https://img.shields.io/github/forks/roughiz/cve-2014-6287.py.svg)
+
+- [https://github.com/Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287](https://github.com/Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287.svg)
+
+## CVE-2014-6271
+ GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
+
+
+
+- [https://github.com/opsxcq/exploit-CVE-2014-6271](https://github.com/opsxcq/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/opsxcq/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/opsxcq/exploit-CVE-2014-6271.svg)
+
+- [https://github.com/capture0x/XSHOCK](https://github.com/capture0x/XSHOCK) :  ![starts](https://img.shields.io/github/stars/capture0x/XSHOCK.svg) ![forks](https://img.shields.io/github/forks/capture0x/XSHOCK.svg)
+
+- [https://github.com/scottjpack/shellshock_scanner](https://github.com/scottjpack/shellshock_scanner) :  ![starts](https://img.shields.io/github/stars/scottjpack/shellshock_scanner.svg) ![forks](https://img.shields.io/github/forks/scottjpack/shellshock_scanner.svg)
+
+- [https://github.com/hmlio/vaas-cve-2014-6271](https://github.com/hmlio/vaas-cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/hmlio/vaas-cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/hmlio/vaas-cve-2014-6271.svg)
+
+- [https://github.com/cj1324/CGIShell](https://github.com/cj1324/CGIShell) :  ![starts](https://img.shields.io/github/stars/cj1324/CGIShell.svg) ![forks](https://img.shields.io/github/forks/cj1324/CGIShell.svg)
+
+- [https://github.com/francisck/shellshock-cgi](https://github.com/francisck/shellshock-cgi) :  ![starts](https://img.shields.io/github/stars/francisck/shellshock-cgi.svg) ![forks](https://img.shields.io/github/forks/francisck/shellshock-cgi.svg)
+
+- [https://github.com/indiandragon/Shellshock-Vulnerability-Scan](https://github.com/indiandragon/Shellshock-Vulnerability-Scan) :  ![starts](https://img.shields.io/github/stars/indiandragon/Shellshock-Vulnerability-Scan.svg) ![forks](https://img.shields.io/github/forks/indiandragon/Shellshock-Vulnerability-Scan.svg)
+
+- [https://github.com/npm/ansible-bashpocalypse](https://github.com/npm/ansible-bashpocalypse) :  ![starts](https://img.shields.io/github/stars/npm/ansible-bashpocalypse.svg) ![forks](https://img.shields.io/github/forks/npm/ansible-bashpocalypse.svg)
+
+- [https://github.com/P0cL4bs/ShellShock-CGI-Scan](https://github.com/P0cL4bs/ShellShock-CGI-Scan) :  ![starts](https://img.shields.io/github/stars/P0cL4bs/ShellShock-CGI-Scan.svg) ![forks](https://img.shields.io/github/forks/P0cL4bs/ShellShock-CGI-Scan.svg)
+
+- [https://github.com/ksang/shellshock](https://github.com/ksang/shellshock) :  ![starts](https://img.shields.io/github/stars/ksang/shellshock.svg) ![forks](https://img.shields.io/github/forks/ksang/shellshock.svg)
+
+- [https://github.com/securusglobal/BadBash](https://github.com/securusglobal/BadBash) :  ![starts](https://img.shields.io/github/stars/securusglobal/BadBash.svg) ![forks](https://img.shields.io/github/forks/securusglobal/BadBash.svg)
+
+- [https://github.com/akiraaisha/shellshocker-python](https://github.com/akiraaisha/shellshocker-python) :  ![starts](https://img.shields.io/github/stars/akiraaisha/shellshocker-python.svg) ![forks](https://img.shields.io/github/forks/akiraaisha/shellshocker-python.svg)
+
+- [https://github.com/0x00-0x00/CVE-2014-6271](https://github.com/0x00-0x00/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2014-6271.svg)
+
+- [https://github.com/RainMak3r/Rainstorm](https://github.com/RainMak3r/Rainstorm) :  ![starts](https://img.shields.io/github/stars/RainMak3r/Rainstorm.svg) ![forks](https://img.shields.io/github/forks/RainMak3r/Rainstorm.svg)
+
+- [https://github.com/sch3m4/RIS](https://github.com/sch3m4/RIS) :  ![starts](https://img.shields.io/github/stars/sch3m4/RIS.svg) ![forks](https://img.shields.io/github/forks/sch3m4/RIS.svg)
+
+- [https://github.com/r4z0r5/SwissArmyShellshocker](https://github.com/r4z0r5/SwissArmyShellshocker) :  ![starts](https://img.shields.io/github/stars/r4z0r5/SwissArmyShellshocker.svg) ![forks](https://img.shields.io/github/forks/r4z0r5/SwissArmyShellshocker.svg)
+
+- [https://github.com/ramnes/pyshellshock](https://github.com/ramnes/pyshellshock) :  ![starts](https://img.shields.io/github/stars/ramnes/pyshellshock.svg) ![forks](https://img.shields.io/github/forks/ramnes/pyshellshock.svg)
+
+- [https://github.com/Anklebiter87/Cgi-bin_bash_Reverse](https://github.com/Anklebiter87/Cgi-bin_bash_Reverse) :  ![starts](https://img.shields.io/github/stars/Anklebiter87/Cgi-bin_bash_Reverse.svg) ![forks](https://img.shields.io/github/forks/Anklebiter87/Cgi-bin_bash_Reverse.svg)
+
+- [https://github.com/proclnas/ShellShock-CGI-Scan](https://github.com/proclnas/ShellShock-CGI-Scan) :  ![starts](https://img.shields.io/github/stars/proclnas/ShellShock-CGI-Scan.svg) ![forks](https://img.shields.io/github/forks/proclnas/ShellShock-CGI-Scan.svg)
+
+- [https://github.com/ryeyao/CVE-2014-6271_Test](https://github.com/ryeyao/CVE-2014-6271_Test) :  ![starts](https://img.shields.io/github/stars/ryeyao/CVE-2014-6271_Test.svg) ![forks](https://img.shields.io/github/forks/ryeyao/CVE-2014-6271_Test.svg)
+
+- [https://github.com/zalalov/CVE-2014-6271](https://github.com/zalalov/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/zalalov/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/zalalov/CVE-2014-6271.svg)
+
+- [https://github.com/Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2014-6271.svg)
+
+- [https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271](https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/w4fz5uck5/ShockZaum-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/w4fz5uck5/ShockZaum-CVE-2014-6271.svg)
+
+- [https://github.com/APSL/salt-shellshock](https://github.com/APSL/salt-shellshock) :  ![starts](https://img.shields.io/github/stars/APSL/salt-shellshock.svg) ![forks](https://img.shields.io/github/forks/APSL/salt-shellshock.svg)
+
+- [https://github.com/gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww) :  ![starts](https://img.shields.io/github/stars/gabemarshall/shocknaww.svg) ![forks](https://img.shields.io/github/forks/gabemarshall/shocknaww.svg)
+
+- [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) :  ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
+
+- [https://github.com/themson/shellshock](https://github.com/themson/shellshock) :  ![starts](https://img.shields.io/github/stars/themson/shellshock.svg) ![forks](https://img.shields.io/github/forks/themson/shellshock.svg)
+
+- [https://github.com/pwnGuy/shellshock-shell](https://github.com/pwnGuy/shellshock-shell) :  ![starts](https://img.shields.io/github/stars/pwnGuy/shellshock-shell.svg) ![forks](https://img.shields.io/github/forks/pwnGuy/shellshock-shell.svg)
+
+- [https://github.com/sunnyjiang/shellshocker-android](https://github.com/sunnyjiang/shellshocker-android) :  ![starts](https://img.shields.io/github/stars/sunnyjiang/shellshocker-android.svg) ![forks](https://img.shields.io/github/forks/sunnyjiang/shellshocker-android.svg)
+
+- [https://github.com/vonnyfly/shellshock_crawler](https://github.com/vonnyfly/shellshock_crawler) :  ![starts](https://img.shields.io/github/stars/vonnyfly/shellshock_crawler.svg) ![forks](https://img.shields.io/github/forks/vonnyfly/shellshock_crawler.svg)
+
+## CVE-2014-5301
+ Directory traversal vulnerability in ServiceDesk Plus MSP v5 to v9.0 v9030; AssetExplorer v4 to v6.1; SupportCenter v5 to v7.9; IT360 v8 to v10.4.
+
+
+
+- [https://github.com/AndyCyberSec/OSCP](https://github.com/AndyCyberSec/OSCP) :  ![starts](https://img.shields.io/github/stars/AndyCyberSec/OSCP.svg) ![forks](https://img.shields.io/github/forks/AndyCyberSec/OSCP.svg)
+
+## CVE-2014-5284
+ host-deny.sh in OSSEC before 2.8.1 writes to temporary files with predictable filenames without verifying ownership, which allows local users to modify access restrictions in hosts.deny and gain root privileges by creating the temporary files before automatic IP blocking is performed.
+
+
+
+- [https://github.com/mbadanoiu/CVE-2014-5284](https://github.com/mbadanoiu/CVE-2014-5284) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2014-5284.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2014-5284.svg)
+
 ## CVE-2014-4943
  The PPPoL2TP feature in net/l2tp/l2tp_ppp.c in the Linux kernel through 3.15.6 allows local users to gain privileges by leveraging data-structure differences between an l2tp socket and an inet socket.
 
