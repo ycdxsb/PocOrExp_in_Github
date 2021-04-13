@@ -1,3 +1,30 @@
+## CVE-2018-1002204
+ adm-zip npm library before 0.4.9 is vulnerable to directory traversal, allowing attackers to write to arbitrary files via a ../ (dot dot slash) in a Zip archive entry that is mishandled during extraction. This vulnerability is also known as 'Zip-Slip'.
+
+
+
+- [https://github.com/ossf-cve-benchmark/CVE-2018-1002204](https://github.com/ossf-cve-benchmark/CVE-2018-1002204) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2018-1002204.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2018-1002204.svg)
+
+## CVE-2018-1002203
+ unzipper npm library before 0.8.13 is vulnerable to directory traversal, allowing attackers to write to arbitrary files via a ../ (dot dot slash) in a Zip archive entry that is mishandled during extraction. This vulnerability is also known as 'Zip-Slip'.
+
+
+
+- [https://github.com/ossf-cve-benchmark/CVE-2018-1002203](https://github.com/ossf-cve-benchmark/CVE-2018-1002203) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2018-1002203.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2018-1002203.svg)
+
+## CVE-2018-1002105
+ In all Kubernetes versions prior to v1.10.11, v1.11.5, and v1.12.3, incorrect handling of error responses to proxied upgrade requests in the kube-apiserver allowed specially crafted requests to establish a connection through the Kubernetes API server to backend servers, then send arbitrary requests over the same connection directly to the backend, authenticated with the Kubernetes API server's TLS credentials used to establish the backend connection.
+
+
+
+- [https://github.com/evict/poc_CVE-2018-1002105](https://github.com/evict/poc_CVE-2018-1002105) :  ![starts](https://img.shields.io/github/stars/evict/poc_CVE-2018-1002105.svg) ![forks](https://img.shields.io/github/forks/evict/poc_CVE-2018-1002105.svg)
+
+- [https://github.com/gravitational/cve-2018-1002105](https://github.com/gravitational/cve-2018-1002105) :  ![starts](https://img.shields.io/github/stars/gravitational/cve-2018-1002105.svg) ![forks](https://img.shields.io/github/forks/gravitational/cve-2018-1002105.svg)
+
+- [https://github.com/imlzw/Kubernetes-1.12.3-all-auto-install](https://github.com/imlzw/Kubernetes-1.12.3-all-auto-install) :  ![starts](https://img.shields.io/github/stars/imlzw/Kubernetes-1.12.3-all-auto-install.svg) ![forks](https://img.shields.io/github/forks/imlzw/Kubernetes-1.12.3-all-auto-install.svg)
+
+- [https://github.com/bgeesaman/cve-2018-1002105](https://github.com/bgeesaman/cve-2018-1002105) :  ![starts](https://img.shields.io/github/stars/bgeesaman/cve-2018-1002105.svg) ![forks](https://img.shields.io/github/forks/bgeesaman/cve-2018-1002105.svg)
+
 ## CVE-2018-1000861
  A code execution vulnerability exists in the Stapler web framework used by Jenkins 2.153 and earlier, LTS 2.138.3 and earlier in stapler/core/src/main/java/org/kohsuke/stapler/MetaClass.java that allows attackers to invoke some methods on Java objects by accessing crafted URLs that were not intended to be invoked this way.
 
@@ -124,6 +151,48 @@
 - [https://github.com/5H311-1NJ3C706/local-root-exploits](https://github.com/5H311-1NJ3C706/local-root-exploits) :  ![starts](https://img.shields.io/github/stars/5H311-1NJ3C706/local-root-exploits.svg) ![forks](https://img.shields.io/github/forks/5H311-1NJ3C706/local-root-exploits.svg)
 
 - [https://github.com/0x00-0x00/CVE-2018-1000001](https://github.com/0x00-0x00/CVE-2018-1000001) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2018-1000001.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2018-1000001.svg)
+
+## CVE-2018-10118
+ Monstra CMS 3.0.4 has Stored XSS via the Name field on the Create New Page screen under the admin/index.php?id=pages URI, related to plugins/box/pages/pages.admin.php.
+
+
+
+- [https://github.com/GeunSam2/CVE-2018-10118](https://github.com/GeunSam2/CVE-2018-10118) :  ![starts](https://img.shields.io/github/stars/GeunSam2/CVE-2018-10118.svg) ![forks](https://img.shields.io/github/forks/GeunSam2/CVE-2018-10118.svg)
+
+## CVE-2018-10058
+ The remote management interface of cgminer 4.10.0 and bfgminer 5.5.0 allows an authenticated remote attacker to execute arbitrary code due to a stack-based buffer overflow in the addpool, failover-only, poolquota, and save command handlers.
+
+
+
+- [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
+
+## CVE-2018-10057
+ The remote management interface of cgminer 4.10.0 and bfgminer 5.5.0 allows an authenticated remote attacker to write the miner configuration file to arbitrary locations on the server due to missing basedir restrictions (absolute directory traversal).
+
+
+
+- [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
+
+## CVE-2018-1026
+ A remote code execution vulnerability exists in Microsoft Office software when the software fails to properly handle objects in memory, aka &quot;Microsoft Office Remote Code Execution Vulnerability.&quot; This affects Microsoft Office. This CVE ID is unique from CVE-2018-1030.
+
+
+
+- [https://github.com/ymgh96/Detecting-the-CVE-2018-1026-and-its-patch](https://github.com/ymgh96/Detecting-the-CVE-2018-1026-and-its-patch) :  ![starts](https://img.shields.io/github/stars/ymgh96/Detecting-the-CVE-2018-1026-and-its-patch.svg) ![forks](https://img.shields.io/github/forks/ymgh96/Detecting-the-CVE-2018-1026-and-its-patch.svg)
+
+## CVE-2018-1011
+ A remote code execution vulnerability exists in Microsoft Excel software when the software fails to properly handle objects in memory, aka &quot;Microsoft Excel Remote Code Execution Vulnerability.&quot; This affects Microsoft Excel. This CVE ID is unique from CVE-2018-0920, CVE-2018-1027, CVE-2018-1029.
+
+
+
+- [https://github.com/GeunSam2/CVE-2018-10118](https://github.com/GeunSam2/CVE-2018-10118) :  ![starts](https://img.shields.io/github/stars/GeunSam2/CVE-2018-10118.svg) ![forks](https://img.shields.io/github/forks/GeunSam2/CVE-2018-10118.svg)
+
+## CVE-2018-1010
+ A remote code execution vulnerability exists when the Windows font library improperly handles specially crafted embedded fonts, aka &quot;Microsoft Graphics Remote Code Execution Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-1012, CVE-2018-1013, CVE-2018-1015, CVE-2018-1016.
+
+
+
+- [https://github.com/ymgh96/Detecting-the-patch-of-CVE-2018-1010](https://github.com/ymgh96/Detecting-the-patch-of-CVE-2018-1010) :  ![starts](https://img.shields.io/github/stars/ymgh96/Detecting-the-patch-of-CVE-2018-1010.svg) ![forks](https://img.shields.io/github/forks/ymgh96/Detecting-the-patch-of-CVE-2018-1010.svg)
 
 ## CVE-2018-0952
  An Elevation of Privilege vulnerability exists when Diagnostics Hub Standard Collector allows file creation in arbitrary locations, aka &quot;Diagnostic Hub Standard Collector Elevation Of Privilege Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Microsoft Visual Studio, Windows 10 Servers.
