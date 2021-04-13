@@ -19420,6 +19420,533 @@
 
 
 ## 2015
+## CVE-2015-9251
+ jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed.
+
+
+
+- [https://github.com/halkichi0308/CVE-2015-9251](https://github.com/halkichi0308/CVE-2015-9251) :  ![starts](https://img.shields.io/github/stars/halkichi0308/CVE-2015-9251.svg) ![forks](https://img.shields.io/github/forks/halkichi0308/CVE-2015-9251.svg)
+
+## CVE-2015-8710
+ The htmlParseComment function in HTMLparser.c in libxml2 allows attackers to obtain sensitive information, cause a denial of service (out-of-bounds heap memory access and application crash), or possibly have unspecified other impact via an unclosed HTML comment.
+
+
+
+- [https://github.com/Karm/CVE-2015-8710](https://github.com/Karm/CVE-2015-8710) :  ![starts](https://img.shields.io/github/stars/Karm/CVE-2015-8710.svg) ![forks](https://img.shields.io/github/forks/Karm/CVE-2015-8710.svg)
+
+## CVE-2015-8660
+ The ovl_setattr function in fs/overlayfs/inode.c in the Linux kernel through 4.3.3 attempts to merge distinct setattr operations, which allows local users to bypass intended access restrictions and modify the attributes of arbitrary overlay files via a crafted application.
+
+
+
+- [https://github.com/whu-enjoy/CVE-2015-8660](https://github.com/whu-enjoy/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/whu-enjoy/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/whu-enjoy/CVE-2015-8660.svg)
+
+## CVE-2015-8651
+ Integer overflow in Adobe Flash Player before 18.0.0.324 and 19.x and 20.x before 20.0.0.267 on Windows and OS X and before 11.2.202.559 on Linux, Adobe AIR before 20.0.0.233, Adobe AIR SDK before 20.0.0.233, and Adobe AIR SDK &amp; Compiler before 20.0.0.233 allows attackers to execute arbitrary code via unspecified vectors.
+
+
+
+- [https://github.com/Gitlabpro/The-analysis-of-the-cve-2015-8651](https://github.com/Gitlabpro/The-analysis-of-the-cve-2015-8651) :  ![starts](https://img.shields.io/github/stars/Gitlabpro/The-analysis-of-the-cve-2015-8651.svg) ![forks](https://img.shields.io/github/forks/Gitlabpro/The-analysis-of-the-cve-2015-8651.svg)
+
+## CVE-2015-8562
+ Joomla! 1.5.x, 2.x, and 3.x before 3.4.6 allow remote attackers to conduct PHP object injection attacks and execute arbitrary PHP code via the HTTP User-Agent header, as exploited in the wild in December 2015.
+
+
+
+- [https://github.com/paralelo14/JoomlaMassExploiter](https://github.com/paralelo14/JoomlaMassExploiter) :  ![starts](https://img.shields.io/github/stars/paralelo14/JoomlaMassExploiter.svg) ![forks](https://img.shields.io/github/forks/paralelo14/JoomlaMassExploiter.svg)
+
+- [https://github.com/ZaleHack/joomla_rce_CVE-2015-8562](https://github.com/ZaleHack/joomla_rce_CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/ZaleHack/joomla_rce_CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/ZaleHack/joomla_rce_CVE-2015-8562.svg)
+
+- [https://github.com/paralelo14/CVE-2015-8562](https://github.com/paralelo14/CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/paralelo14/CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/paralelo14/CVE-2015-8562.svg)
+
+- [https://github.com/VoidSec/Joomla_CVE-2015-8562](https://github.com/VoidSec/Joomla_CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/VoidSec/Joomla_CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/VoidSec/Joomla_CVE-2015-8562.svg)
+
+- [https://github.com/atcasanova/cve-2015-8562-exploit](https://github.com/atcasanova/cve-2015-8562-exploit) :  ![starts](https://img.shields.io/github/stars/atcasanova/cve-2015-8562-exploit.svg) ![forks](https://img.shields.io/github/forks/atcasanova/cve-2015-8562-exploit.svg)
+
+- [https://github.com/RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC](https://github.com/RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC) :  ![starts](https://img.shields.io/github/stars/RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC.svg) ![forks](https://img.shields.io/github/forks/RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC.svg)
+
+- [https://github.com/xnorkl/Joomla_Payload](https://github.com/xnorkl/Joomla_Payload) :  ![starts](https://img.shields.io/github/stars/xnorkl/Joomla_Payload.svg) ![forks](https://img.shields.io/github/forks/xnorkl/Joomla_Payload.svg)
+
+- [https://github.com/guanjivip/CVE-2015-8562](https://github.com/guanjivip/CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/guanjivip/CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/guanjivip/CVE-2015-8562.svg)
+
+- [https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562](https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/thejackerz/scanner-exploit-joomla-CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/thejackerz/scanner-exploit-joomla-CVE-2015-8562.svg)
+
+## CVE-2015-8543
+ The networking implementation in the Linux kernel through 4.3.3, as used in Android and other products, does not validate protocol identifiers for certain protocol families, which allows local users to cause a denial of service (NULL function pointer dereference and system crash) or possibly gain privileges by leveraging CLONE_NEWUSER support to execute a crafted SOCK_RAW application.
+
+
+
+- [https://github.com/bittorrent3389/CVE-2015-8543_for_SLE12SP1](https://github.com/bittorrent3389/CVE-2015-8543_for_SLE12SP1) :  ![starts](https://img.shields.io/github/stars/bittorrent3389/CVE-2015-8543_for_SLE12SP1.svg) ![forks](https://img.shields.io/github/forks/bittorrent3389/CVE-2015-8543_for_SLE12SP1.svg)
+
+## CVE-2015-8299
+ Buffer overflow in the Group messages monitor (Falcon) in KNX ETS 4.1.5 (Build 3246) allows remote attackers to execute arbitrary code via a crafted KNXnet/IP UDP packet.
+
+
+
+- [https://github.com/kernoelpanic/CVE-2015-8299](https://github.com/kernoelpanic/CVE-2015-8299) :  ![starts](https://img.shields.io/github/stars/kernoelpanic/CVE-2015-8299.svg) ![forks](https://img.shields.io/github/forks/kernoelpanic/CVE-2015-8299.svg)
+
+## CVE-2015-8277
+ Multiple buffer overflows in (1) lmgrd and (2) Vendor Daemon in Flexera FlexNet Publisher before 11.13.1.2 Security Update 1 allow remote attackers to execute arbitrary code via a crafted packet with opcode (a) 0x107 or (b) 0x10a.
+
+
+
+- [https://github.com/securifera/CVE-2015-8277-Exploit](https://github.com/securifera/CVE-2015-8277-Exploit) :  ![starts](https://img.shields.io/github/stars/securifera/CVE-2015-8277-Exploit.svg) ![forks](https://img.shields.io/github/forks/securifera/CVE-2015-8277-Exploit.svg)
+
+## CVE-2015-8239
+ The SHA-2 digest support in the sudoers plugin in sudo after 1.8.7 allows local users with write permissions to parts of the called command to replace them before it is executed.
+
+
+
+- [https://github.com/justinsteven/sudo_digest_toctou_poc_CVE-2015-8239](https://github.com/justinsteven/sudo_digest_toctou_poc_CVE-2015-8239) :  ![starts](https://img.shields.io/github/stars/justinsteven/sudo_digest_toctou_poc_CVE-2015-8239.svg) ![forks](https://img.shields.io/github/forks/justinsteven/sudo_digest_toctou_poc_CVE-2015-8239.svg)
+
+## CVE-2015-8103
+ The Jenkins CLI subsystem in Jenkins before 1.638 and LTS before 1.625.2 allows remote attackers to execute arbitrary code via a crafted serialized Java object, related to a problematic webapps/ROOT/WEB-INF/lib/commons-collections-*.jar file and the &quot;Groovy variant in 'ysoserial'&quot;.
+
+
+
+- [https://github.com/cved-sources/cve-2015-8103](https://github.com/cved-sources/cve-2015-8103) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-8103.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-8103.svg)
+
+## CVE-2015-8088
+ Heap-based buffer overflow in the HIFI driver in Huawei Mate 7 phones with software MT7-UL00 before MT7-UL00C17B354, MT7-TL10 before MT7-TL10C00B354, MT7-TL00 before MT7-TL00C01B354, and MT7-CL00 before MT7-CL00C92B354 and P8 phones with software GRA-TL00 before GRA-TL00C01B220SP01, GRA-CL00 before GRA-CL00C92B220, GRA-CL10 before GRA-CL10C92B220, GRA-UL00 before GRA-UL00C00B220, and GRA-UL10 before GRA-UL10C00B220 allows attackers to cause a denial of service (reboot) or execute arbitrary code via a crafted application.
+
+
+
+- [https://github.com/Pray3r/CVE-2015-8088](https://github.com/Pray3r/CVE-2015-8088) :  ![starts](https://img.shields.io/github/stars/Pray3r/CVE-2015-8088.svg) ![forks](https://img.shields.io/github/forks/Pray3r/CVE-2015-8088.svg)
+
+## CVE-2015-7858
+ SQL injection vulnerability in Joomla! 3.2 before 3.4.4 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, a different vulnerability than CVE-2015-7297.
+
+
+
+- [https://github.com/kally-life/exploit-joomla](https://github.com/kally-life/exploit-joomla) :  ![starts](https://img.shields.io/github/stars/kally-life/exploit-joomla.svg) ![forks](https://img.shields.io/github/forks/kally-life/exploit-joomla.svg)
+
+- [https://github.com/CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory) :  ![starts](https://img.shields.io/github/stars/CCrashBandicot/ContentHistory.svg) ![forks](https://img.shields.io/github/forks/CCrashBandicot/ContentHistory.svg)
+
+## CVE-2015-7857
+ SQL injection vulnerability in the getListQuery function in administrator/components/com_contenthistory/models/history.php in Joomla! 3.2 before 3.4.5 allows remote attackers to execute arbitrary SQL commands via the list[select] parameter to index.php.
+
+
+
+- [https://github.com/kally-life/exploit-joomla](https://github.com/kally-life/exploit-joomla) :  ![starts](https://img.shields.io/github/stars/kally-life/exploit-joomla.svg) ![forks](https://img.shields.io/github/forks/kally-life/exploit-joomla.svg)
+
+- [https://github.com/CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory) :  ![starts](https://img.shields.io/github/stars/CCrashBandicot/ContentHistory.svg) ![forks](https://img.shields.io/github/forks/CCrashBandicot/ContentHistory.svg)
+
+## CVE-2015-7808
+ The vB_Api_Hook::decodeArguments method in vBulletin 5 Connect 5.1.2 through 5.1.9 allows remote attackers to conduct PHP object injection attacks and execute arbitrary PHP code via a crafted serialized object in the arguments parameter to ajax/api/hook/decodeArguments.
+
+
+
+- [https://github.com/Prajithp/CVE-2015-7808](https://github.com/Prajithp/CVE-2015-7808) :  ![starts](https://img.shields.io/github/stars/Prajithp/CVE-2015-7808.svg) ![forks](https://img.shields.io/github/forks/Prajithp/CVE-2015-7808.svg)
+
+## CVE-2015-7756
+ The encryption implementation in Juniper ScreenOS 6.2.0r15 through 6.2.0r18, 6.3.0r12 before 6.3.0r12b, 6.3.0r13 before 6.3.0r13b, 6.3.0r14 before 6.3.0r14b, 6.3.0r15 before 6.3.0r15b, 6.3.0r16 before 6.3.0r16b, 6.3.0r17 before 6.3.0r17b, 6.3.0r18 before 6.3.0r18b, 6.3.0r19 before 6.3.0r19b, and 6.3.0r20 before 6.3.0r21 makes it easier for remote attackers to discover the plaintext content of VPN sessions by sniffing the network for ciphertext data and conducting an unspecified decryption attack.
+
+
+
+- [https://github.com/hdm/juniper-cve-2015-7755](https://github.com/hdm/juniper-cve-2015-7755) :  ![starts](https://img.shields.io/github/stars/hdm/juniper-cve-2015-7755.svg) ![forks](https://img.shields.io/github/forks/hdm/juniper-cve-2015-7755.svg)
+
+## CVE-2015-7755
+ Juniper ScreenOS 6.2.0r15 through 6.2.0r18, 6.3.0r12 before 6.3.0r12b, 6.3.0r13 before 6.3.0r13b, 6.3.0r14 before 6.3.0r14b, 6.3.0r15 before 6.3.0r15b, 6.3.0r16 before 6.3.0r16b, 6.3.0r17 before 6.3.0r17b, 6.3.0r18 before 6.3.0r18b, 6.3.0r19 before 6.3.0r19b, and 6.3.0r20 before 6.3.0r21 allows remote attackers to obtain administrative access by entering an unspecified password during a (1) SSH or (2) TELNET session.
+
+
+
+- [https://github.com/hdm/juniper-cve-2015-7755](https://github.com/hdm/juniper-cve-2015-7755) :  ![starts](https://img.shields.io/github/stars/hdm/juniper-cve-2015-7755.svg) ![forks](https://img.shields.io/github/forks/hdm/juniper-cve-2015-7755.svg)
+
+- [https://github.com/cinno/CVE-2015-7755-POC](https://github.com/cinno/CVE-2015-7755-POC) :  ![starts](https://img.shields.io/github/stars/cinno/CVE-2015-7755-POC.svg) ![forks](https://img.shields.io/github/forks/cinno/CVE-2015-7755-POC.svg)
+
+## CVE-2015-7576
+ The http_basic_authenticate_with method in actionpack/lib/action_controller/metal/http_authentication.rb in the Basic Authentication implementation in Action Controller in Ruby on Rails before 3.2.22.1, 4.0.x and 4.1.x before 4.1.14.1, 4.2.x before 4.2.5.1, and 5.x before 5.0.0.beta1.1 does not use a constant-time algorithm for verifying credentials, which makes it easier for remote attackers to bypass authentication by measuring timing differences.
+
+
+
+- [https://github.com/yield-c/CVE2015-7576](https://github.com/yield-c/CVE2015-7576) :  ![starts](https://img.shields.io/github/stars/yield-c/CVE2015-7576.svg) ![forks](https://img.shields.io/github/forks/yield-c/CVE2015-7576.svg)
+
+## CVE-2015-7547
+ Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functions in the libresolv library in the GNU C Library (aka glibc or libc6) before 2.23 allow remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via a crafted DNS response that triggers a call to the getaddrinfo function with the AF_UNSPEC or AF_INET6 address family, related to performing &quot;dual A/AAAA DNS queries&quot; and the libnss_dns.so.2 NSS module.
+
+
+
+- [https://github.com/fjserna/CVE-2015-7547](https://github.com/fjserna/CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/fjserna/CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/fjserna/CVE-2015-7547.svg)
+
+- [https://github.com/eSentire/cve-2015-7547-public](https://github.com/eSentire/cve-2015-7547-public) :  ![starts](https://img.shields.io/github/stars/eSentire/cve-2015-7547-public.svg) ![forks](https://img.shields.io/github/forks/eSentire/cve-2015-7547-public.svg)
+
+- [https://github.com/jgajek/cve-2015-7547](https://github.com/jgajek/cve-2015-7547) :  ![starts](https://img.shields.io/github/stars/jgajek/cve-2015-7547.svg) ![forks](https://img.shields.io/github/forks/jgajek/cve-2015-7547.svg)
+
+- [https://github.com/cakuzo/CVE-2015-7547](https://github.com/cakuzo/CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/cakuzo/CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/cakuzo/CVE-2015-7547.svg)
+
+- [https://github.com/t0r0t0r0/CVE-2015-7547](https://github.com/t0r0t0r0/CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/t0r0t0r0/CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/t0r0t0r0/CVE-2015-7547.svg)
+
+- [https://github.com/Stick-U235/CVE-2015-7547](https://github.com/Stick-U235/CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/Stick-U235/CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/Stick-U235/CVE-2015-7547.svg)
+
+- [https://github.com/miracle03/CVE-2015-7547-master](https://github.com/miracle03/CVE-2015-7547-master) :  ![starts](https://img.shields.io/github/stars/miracle03/CVE-2015-7547-master.svg) ![forks](https://img.shields.io/github/forks/miracle03/CVE-2015-7547-master.svg)
+
+- [https://github.com/babykillerblack/CVE-2015-7547](https://github.com/babykillerblack/CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/babykillerblack/CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/babykillerblack/CVE-2015-7547.svg)
+
+- [https://github.com/JustDenisYT/glibc-patcher](https://github.com/JustDenisYT/glibc-patcher) :  ![starts](https://img.shields.io/github/stars/JustDenisYT/glibc-patcher.svg) ![forks](https://img.shields.io/github/forks/JustDenisYT/glibc-patcher.svg)
+
+- [https://github.com/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547](https://github.com/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547.svg)
+
+- [https://github.com/bluebluelan/CVE-2015-7547-proj-master](https://github.com/bluebluelan/CVE-2015-7547-proj-master) :  ![starts](https://img.shields.io/github/stars/bluebluelan/CVE-2015-7547-proj-master.svg) ![forks](https://img.shields.io/github/forks/bluebluelan/CVE-2015-7547-proj-master.svg)
+
+- [https://github.com/rexifiles/rex-sec-glibc](https://github.com/rexifiles/rex-sec-glibc) :  ![starts](https://img.shields.io/github/stars/rexifiles/rex-sec-glibc.svg) ![forks](https://img.shields.io/github/forks/rexifiles/rex-sec-glibc.svg)
+
+## CVE-2015-7545
+ The (1) git-remote-ext and (2) unspecified other remote helper programs in Git before 2.3.10, 2.4.x before 2.4.10, 2.5.x before 2.5.4, and 2.6.x before 2.6.1 do not properly restrict the allowed protocols, which might allow remote attackers to execute arbitrary code via a URL in a (a) .gitmodules file or (b) unknown other sources in a submodule.
+
+
+
+- [https://github.com/avuserow/bug-free-chainsaw](https://github.com/avuserow/bug-free-chainsaw) :  ![starts](https://img.shields.io/github/stars/avuserow/bug-free-chainsaw.svg) ![forks](https://img.shields.io/github/forks/avuserow/bug-free-chainsaw.svg)
+
+## CVE-2015-7501
+ Red Hat JBoss A-MQ 6.x; BPM Suite (BPMS) 6.x; BRMS 6.x and 5.x; Data Grid (JDG) 6.x; Data Virtualization (JDV) 6.x and 5.x; Enterprise Application Platform 6.x, 5.x, and 4.3.x; Fuse 6.x; Fuse Service Works (FSW) 6.x; Operations Network (JBoss ON) 3.x; Portal 6.x; SOA Platform (SOA-P) 5.x; Web Server (JWS) 3.x; Red Hat OpenShift/xPAAS 3.x; and Red Hat Subscription Asset Manager 1.3 allow remote attackers to execute arbitrary commands via a crafted serialized Java object, related to the Apache Commons Collections (ACC) library.
+
+
+
+- [https://github.com/ianxtianxt/CVE-2015-7501](https://github.com/ianxtianxt/CVE-2015-7501) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2015-7501.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2015-7501.svg)
+
+## CVE-2015-7297
+ SQL injection vulnerability in Joomla! 3.2 before 3.4.4 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, a different vulnerability than CVE-2015-7858.
+
+
+
+- [https://github.com/kally-life/exploit-joomla](https://github.com/kally-life/exploit-joomla) :  ![starts](https://img.shields.io/github/stars/kally-life/exploit-joomla.svg) ![forks](https://img.shields.io/github/forks/kally-life/exploit-joomla.svg)
+
+- [https://github.com/CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory) :  ![starts](https://img.shields.io/github/stars/CCrashBandicot/ContentHistory.svg) ![forks](https://img.shields.io/github/forks/CCrashBandicot/ContentHistory.svg)
+
+## CVE-2015-7214
+ Mozilla Firefox before 43.0 and Firefox ESR 38.x before 38.5 allow remote attackers to bypass the Same Origin Policy via data: and view-source: URIs.
+
+
+
+- [https://github.com/llamakko/CVE-2015-7214](https://github.com/llamakko/CVE-2015-7214) :  ![starts](https://img.shields.io/github/stars/llamakko/CVE-2015-7214.svg) ![forks](https://img.shields.io/github/forks/llamakko/CVE-2015-7214.svg)
+
+## CVE-2015-6967
+ Unrestricted file upload vulnerability in the My Image plugin in Nibbleblog before 4.0.5 allows remote administrators to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in content/private/plugins/my_image/image.php.
+
+
+
+- [https://github.com/VanTekken/CVE-2015-6967](https://github.com/VanTekken/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/VanTekken/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/VanTekken/CVE-2015-6967.svg)
+
+- [https://github.com/dix0nym/CVE-2015-6967](https://github.com/dix0nym/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/dix0nym/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/dix0nym/CVE-2015-6967.svg)
+
+## CVE-2015-6835
+ The session deserializer in PHP before 5.4.45, 5.5.x before 5.5.29, and 5.6.x before 5.6.13 mishandles multiple php_var_unserialize calls, which allow remote attackers to execute arbitrary code or cause a denial of service (use-after-free) via crafted session content.
+
+
+
+- [https://github.com/ockeghem/CVE-2015-6835-checker](https://github.com/ockeghem/CVE-2015-6835-checker) :  ![starts](https://img.shields.io/github/stars/ockeghem/CVE-2015-6835-checker.svg) ![forks](https://img.shields.io/github/forks/ockeghem/CVE-2015-6835-checker.svg)
+
+## CVE-2015-6640
+ The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 does not ensure that only one vma is accessed in a certain update action, which allows attackers to gain privileges or cause a denial of service (vma list corruption) via a crafted application, aka internal bug 20017123.
+
+
+
+- [https://github.com/betalphafai/CVE-2015-6640](https://github.com/betalphafai/CVE-2015-6640) :  ![starts](https://img.shields.io/github/stars/betalphafai/CVE-2015-6640.svg) ![forks](https://img.shields.io/github/forks/betalphafai/CVE-2015-6640.svg)
+
+## CVE-2015-6639
+ The Widevine QSEE TrustZone application in Android 5.x before 5.1.1 LMY49F and 6.0 before 2016-01-01 allows attackers to gain privileges via a crafted application that leverages QSEECOM access, aka internal bug 24446875.
+
+
+
+- [https://github.com/laginimaineb/ExtractKeyMaster](https://github.com/laginimaineb/ExtractKeyMaster) :  ![starts](https://img.shields.io/github/stars/laginimaineb/ExtractKeyMaster.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/ExtractKeyMaster.svg)
+
+- [https://github.com/laginimaineb/cve-2015-6639](https://github.com/laginimaineb/cve-2015-6639) :  ![starts](https://img.shields.io/github/stars/laginimaineb/cve-2015-6639.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/cve-2015-6639.svg)
+
+## CVE-2015-6637
+ The MediaTek misc-sd driver in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 allows attackers to gain privileges via a crafted application, aka internal bug 25307013.
+
+
+
+- [https://github.com/betalphafai/CVE-2015-6637](https://github.com/betalphafai/CVE-2015-6637) :  ![starts](https://img.shields.io/github/stars/betalphafai/CVE-2015-6637.svg) ![forks](https://img.shields.io/github/forks/betalphafai/CVE-2015-6637.svg)
+
+## CVE-2015-6620
+ libstagefright in Android before 5.1.1 LMY48Z and 6.0 before 2015-12-01 allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bugs 24123723 and 24445127.
+
+
+
+- [https://github.com/flankerhqd/mediacodecoob](https://github.com/flankerhqd/mediacodecoob) :  ![starts](https://img.shields.io/github/stars/flankerhqd/mediacodecoob.svg) ![forks](https://img.shields.io/github/forks/flankerhqd/mediacodecoob.svg)
+
+- [https://github.com/flankerhqd/CVE-2015-6620-POC](https://github.com/flankerhqd/CVE-2015-6620-POC) :  ![starts](https://img.shields.io/github/stars/flankerhqd/CVE-2015-6620-POC.svg) ![forks](https://img.shields.io/github/forks/flankerhqd/CVE-2015-6620-POC.svg)
+
+## CVE-2015-6612
+ libmedia in Android before 5.1.1 LMY48X and 6.0 before 2015-11-01 allows attackers to gain privileges via a crafted application, aka internal bug 23540426.
+
+
+
+- [https://github.com/secmob/CVE-2015-6612](https://github.com/secmob/CVE-2015-6612) :  ![starts](https://img.shields.io/github/stars/secmob/CVE-2015-6612.svg) ![forks](https://img.shields.io/github/forks/secmob/CVE-2015-6612.svg)
+
+- [https://github.com/flankerhqd/cve-2015-6612poc-forM](https://github.com/flankerhqd/cve-2015-6612poc-forM) :  ![starts](https://img.shields.io/github/stars/flankerhqd/cve-2015-6612poc-forM.svg) ![forks](https://img.shields.io/github/forks/flankerhqd/cve-2015-6612poc-forM.svg)
+
+## CVE-2015-6606
+ The Secure Element Evaluation Kit (aka SEEK or SmartCard API) plugin in Android before 5.1.1 LMY48T allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bug 22301786.
+
+
+
+- [https://github.com/michaelroland/omapi-cve-2015-6606-exploit](https://github.com/michaelroland/omapi-cve-2015-6606-exploit) :  ![starts](https://img.shields.io/github/stars/michaelroland/omapi-cve-2015-6606-exploit.svg) ![forks](https://img.shields.io/github/forks/michaelroland/omapi-cve-2015-6606-exploit.svg)
+
+## CVE-2015-6576
+ Bamboo 2.2 before 5.8.5 and 5.9.x before 5.9.7 allows remote attackers with access to the Bamboo web interface to execute arbitrary Java code via an unspecified resource.
+
+
+
+- [https://github.com/CallMeJonas/CVE-2015-6576](https://github.com/CallMeJonas/CVE-2015-6576) :  ![starts](https://img.shields.io/github/stars/CallMeJonas/CVE-2015-6576.svg) ![forks](https://img.shields.io/github/forks/CallMeJonas/CVE-2015-6576.svg)
+
+## CVE-2015-6357
+ The rule-update feature in Cisco FireSIGHT Management Center (MC) 5.2 through 5.4.0.1 does not verify the X.509 certificate of the support.sourcefire.com SSL server, which allows man-in-the-middle attackers to spoof this server and provide an invalid package, and consequently execute arbitrary code, via a crafted certificate, aka Bug ID CSCuw06444.
+
+
+
+- [https://github.com/mattimustang/firepwner](https://github.com/mattimustang/firepwner) :  ![starts](https://img.shields.io/github/stars/mattimustang/firepwner.svg) ![forks](https://img.shields.io/github/forks/mattimustang/firepwner.svg)
+
+## CVE-2015-6132
+ Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 Gold and 1511 mishandle library loading, which allows local users to gain privileges via a crafted application, aka &quot;Windows Library Loading Remote Code Execution Vulnerability.&quot;
+
+
+
+- [https://github.com/hexx0r/CVE-2015-6132](https://github.com/hexx0r/CVE-2015-6132) :  ![starts](https://img.shields.io/github/stars/hexx0r/CVE-2015-6132.svg) ![forks](https://img.shields.io/github/forks/hexx0r/CVE-2015-6132.svg)
+
+## CVE-2015-6095
+ Kerberos in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 Gold and 1511 mishandles password changes, which allows physically proximate attackers to bypass authentication, and conduct decryption attacks against certain BitLocker configurations, by connecting to an unintended Key Distribution Center (KDC), aka &quot;Windows Kerberos Security Feature Bypass.&quot;
+
+
+
+- [https://github.com/JackOfMostTrades/bluebox](https://github.com/JackOfMostTrades/bluebox) :  ![starts](https://img.shields.io/github/stars/JackOfMostTrades/bluebox.svg) ![forks](https://img.shields.io/github/forks/JackOfMostTrades/bluebox.svg)
+
+## CVE-2015-6086
+ Microsoft Internet Explorer 9 through 11 allows remote attackers to obtain sensitive information from process memory via a crafted web site, aka &quot;Internet Explorer Information Disclosure Vulnerability.&quot;
+
+
+
+- [https://github.com/payatu/CVE-2015-6086](https://github.com/payatu/CVE-2015-6086) :  ![starts](https://img.shields.io/github/stars/payatu/CVE-2015-6086.svg) ![forks](https://img.shields.io/github/forks/payatu/CVE-2015-6086.svg)
+
+## CVE-2015-5995
+ Mediabridge Medialink MWN-WAPR300N devices with firmware 5.07.50 and Tenda N3 Wireless N150 devices allow remote attackers to obtain administrative access via a certain admin substring in an HTTP Cookie header.
+
+
+
+- [https://github.com/shaheemirza/TendaSpill](https://github.com/shaheemirza/TendaSpill) :  ![starts](https://img.shields.io/github/stars/shaheemirza/TendaSpill.svg) ![forks](https://img.shields.io/github/forks/shaheemirza/TendaSpill.svg)
+
+## CVE-2015-5932
+ The kernel in Apple OS X before 10.11.1 allows local users to gain privileges by leveraging an unspecified &quot;type confusion&quot; during Mach task processing.
+
+
+
+- [https://github.com/jndok/tpwn-bis](https://github.com/jndok/tpwn-bis) :  ![starts](https://img.shields.io/github/stars/jndok/tpwn-bis.svg) ![forks](https://img.shields.io/github/forks/jndok/tpwn-bis.svg)
+
+## CVE-2015-5864
+ IOAudioFamily in Apple OS X before 10.11 allows local users to obtain sensitive kernel memory-layout information via unspecified vectors.
+
+
+
+- [https://github.com/jndok/tpwn-bis](https://github.com/jndok/tpwn-bis) :  ![starts](https://img.shields.io/github/stars/jndok/tpwn-bis.svg) ![forks](https://img.shields.io/github/forks/jndok/tpwn-bis.svg)
+
+## CVE-2015-5847
+ The Disk Images component in Apple iOS before 9 allows local users to gain privileges or cause a denial of service (memory corruption) via unspecified vectors.
+
+
+
+- [https://github.com/jndok/tpwn-bis](https://github.com/jndok/tpwn-bis) :  ![starts](https://img.shields.io/github/stars/jndok/tpwn-bis.svg) ![forks](https://img.shields.io/github/forks/jndok/tpwn-bis.svg)
+
+## CVE-2015-5602
+ sudoedit in Sudo before 1.8.15 allows local users to gain privileges via a symlink attack on a file whose full path is defined using multiple wildcards in /etc/sudoers, as demonstrated by &quot;/home/*/*/file.txt.&quot;
+
+
+
+- [https://github.com/t0kx/privesc-CVE-2015-5602](https://github.com/t0kx/privesc-CVE-2015-5602) :  ![starts](https://img.shields.io/github/stars/t0kx/privesc-CVE-2015-5602.svg) ![forks](https://img.shields.io/github/forks/t0kx/privesc-CVE-2015-5602.svg)
+
+- [https://github.com/cved-sources/cve-2015-5602](https://github.com/cved-sources/cve-2015-5602) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-5602.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-5602.svg)
+
+## CVE-2015-5477
+ named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote attackers to cause a denial of service (REQUIRE assertion failure and daemon exit) via TKEY queries.
+
+
+
+- [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
+
+- [https://github.com/robertdavidgraham/cve-2015-5477](https://github.com/robertdavidgraham/cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/robertdavidgraham/cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/robertdavidgraham/cve-2015-5477.svg)
+
+- [https://github.com/elceef/tkeypoc](https://github.com/elceef/tkeypoc) :  ![starts](https://img.shields.io/github/stars/elceef/tkeypoc.svg) ![forks](https://img.shields.io/github/forks/elceef/tkeypoc.svg)
+
+- [https://github.com/ilanyu/cve-2015-5477](https://github.com/ilanyu/cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/ilanyu/cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/ilanyu/cve-2015-5477.svg)
+
+- [https://github.com/knqyf263/cve-2015-5477](https://github.com/knqyf263/cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/knqyf263/cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/knqyf263/cve-2015-5477.svg)
+
+- [https://github.com/hmlio/vaas-cve-2015-5477](https://github.com/hmlio/vaas-cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/hmlio/vaas-cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/hmlio/vaas-cve-2015-5477.svg)
+
+- [https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit](https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit) :  ![starts](https://img.shields.io/github/stars/xycloops123/TKEY-remote-DoS-vulnerability-exploit.svg) ![forks](https://img.shields.io/github/forks/xycloops123/TKEY-remote-DoS-vulnerability-exploit.svg)
+
+- [https://github.com/likescam/ShareDoc_cve-2015-5477](https://github.com/likescam/ShareDoc_cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/likescam/ShareDoc_cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/likescam/ShareDoc_cve-2015-5477.svg)
+
+## CVE-2015-5383
+ Roundcube Webmail 1.1.x before 1.1.2 allows remote attackers to obtain sensitive information by reading files in the (1) config, (2) temp, or (3) logs directory.
+
+
+
+- [https://github.com/starnightcyber/Exploit-Database-For-Webmail](https://github.com/starnightcyber/Exploit-Database-For-Webmail) :  ![starts](https://img.shields.io/github/stars/starnightcyber/Exploit-Database-For-Webmail.svg) ![forks](https://img.shields.io/github/forks/starnightcyber/Exploit-Database-For-Webmail.svg)
+
+## CVE-2015-5381
+ Cross-site scripting (XSS) vulnerability in program/include/rcmail.php in Roundcube Webmail 1.1.x before 1.1.2 allows remote attackers to inject arbitrary web script or HTML via the _mbox parameter to the default URI.
+
+
+
+- [https://github.com/starnightcyber/Exploit-Database-For-Webmail](https://github.com/starnightcyber/Exploit-Database-For-Webmail) :  ![starts](https://img.shields.io/github/stars/starnightcyber/Exploit-Database-For-Webmail.svg) ![forks](https://img.shields.io/github/forks/starnightcyber/Exploit-Database-For-Webmail.svg)
+
+## CVE-2015-5377
+ ** DISPUTED ** Elasticsearch before 1.6.1 allows remote attackers to execute arbitrary code via unspecified vectors involving the transport protocol.  NOTE: ZDI appears to claim that CVE-2015-3253 and CVE-2015-5377 are the same vulnerability.
+
+
+
+- [https://github.com/fierobot/elasticsearch_CVE-2015-5377](https://github.com/fierobot/elasticsearch_CVE-2015-5377) :  ![starts](https://img.shields.io/github/stars/fierobot/elasticsearch_CVE-2015-5377.svg) ![forks](https://img.shields.io/github/forks/fierobot/elasticsearch_CVE-2015-5377.svg)
+
+## CVE-2015-5374
+ A vulnerability has been identified in Firmware variant PROFINET IO for EN100 Ethernet module : All versions &lt; V1.04.01; Firmware variant Modbus TCP for EN100 Ethernet module : All versions &lt; V1.11.00; Firmware variant DNP3 TCP for EN100 Ethernet module : All versions &lt; V1.03; Firmware variant IEC 104 for EN100 Ethernet module : All versions &lt; V1.21; EN100 Ethernet module included in SIPROTEC Merging Unit 6MU80 : All versions &lt; 1.02.02. Specially crafted packets sent to port 50000/UDP could cause a denial-of-service of the affected device. A manual reboot may be required to recover the service of the device.
+
+
+
+- [https://github.com/can/CVE-2015-5374-DoS-PoC](https://github.com/can/CVE-2015-5374-DoS-PoC) :  ![starts](https://img.shields.io/github/stars/can/CVE-2015-5374-DoS-PoC.svg) ![forks](https://img.shields.io/github/forks/can/CVE-2015-5374-DoS-PoC.svg)
+
+## CVE-2015-5347
+ Cross-site scripting (XSS) vulnerability in the getWindowOpenJavaScript function in org.apache.wicket.extensions.ajax.markup.html.modal.ModalWindow in Apache Wicket 1.5.x before 1.5.15, 6.x before 6.22.0, and 7.x before 7.2.0 might allow remote attackers to inject arbitrary web script or HTML via a ModalWindow title.
+
+
+
+- [https://github.com/alexanderkjall/wicker-cve-2015-5347](https://github.com/alexanderkjall/wicker-cve-2015-5347) :  ![starts](https://img.shields.io/github/stars/alexanderkjall/wicker-cve-2015-5347.svg) ![forks](https://img.shields.io/github/forks/alexanderkjall/wicker-cve-2015-5347.svg)
+
+## CVE-2015-5290
+ A Denial of Service vulnerability exists in ircd-ratbox 3.0.9 in the MONITOR Command Handler.
+
+
+
+- [https://github.com/sariyamelody/CVE-2015-5290](https://github.com/sariyamelody/CVE-2015-5290) :  ![starts](https://img.shields.io/github/stars/sariyamelody/CVE-2015-5290.svg) ![forks](https://img.shields.io/github/forks/sariyamelody/CVE-2015-5290.svg)
+
+## CVE-2015-5254
+ Apache ActiveMQ 5.x before 5.13.0 does not restrict the classes that can be serialized in the broker, which allows remote attackers to execute arbitrary code via a crafted serialized Java Message Service (JMS) ObjectMessage object.
+
+
+
+- [https://github.com/jas502n/CVE-2015-5254](https://github.com/jas502n/CVE-2015-5254) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2015-5254.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2015-5254.svg)
+
+- [https://github.com/gsheller/ActiveMQ_CVE-2015-5254](https://github.com/gsheller/ActiveMQ_CVE-2015-5254) :  ![starts](https://img.shields.io/github/stars/gsheller/ActiveMQ_CVE-2015-5254.svg) ![forks](https://img.shields.io/github/forks/gsheller/ActiveMQ_CVE-2015-5254.svg)
+
+## CVE-2015-5195
+ ntp_openssl.m4 in ntpd in NTP before 4.2.7p112 allows remote attackers to cause a denial of service (segmentation fault) via a crafted statistics or filegen configuration command that is not enabled during compilation.
+
+
+
+- [https://github.com/theglife214/CVE-2015-5195](https://github.com/theglife214/CVE-2015-5195) :  ![starts](https://img.shields.io/github/stars/theglife214/CVE-2015-5195.svg) ![forks](https://img.shields.io/github/forks/theglife214/CVE-2015-5195.svg)
+
+## CVE-2015-5119
+ Use-after-free vulnerability in the ByteArray class in the ActionScript 3 (AS3) implementation in Adobe Flash Player 13.x through 13.0.0.296 and 14.x through 18.0.0.194 on Windows and OS X and 11.x through 11.2.202.468 on Linux allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted Flash content that overrides a valueOf function, as exploited in the wild in July 2015.
+
+
+
+- [https://github.com/CiscoCXSecurity/CVE-2015-5119_walkthrough](https://github.com/CiscoCXSecurity/CVE-2015-5119_walkthrough) :  ![starts](https://img.shields.io/github/stars/CiscoCXSecurity/CVE-2015-5119_walkthrough.svg) ![forks](https://img.shields.io/github/forks/CiscoCXSecurity/CVE-2015-5119_walkthrough.svg)
+
+- [https://github.com/jvazquez-r7/CVE-2015-5119](https://github.com/jvazquez-r7/CVE-2015-5119) :  ![starts](https://img.shields.io/github/stars/jvazquez-r7/CVE-2015-5119.svg) ![forks](https://img.shields.io/github/forks/jvazquez-r7/CVE-2015-5119.svg)
+
+- [https://github.com/dangokyo/CVE-2015-5119](https://github.com/dangokyo/CVE-2015-5119) :  ![starts](https://img.shields.io/github/stars/dangokyo/CVE-2015-5119.svg) ![forks](https://img.shields.io/github/forks/dangokyo/CVE-2015-5119.svg)
+
+## CVE-2015-4870
+ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Parser.
+
+
+
+- [https://github.com/OsandaMalith/CVE-2015-4870](https://github.com/OsandaMalith/CVE-2015-4870) :  ![starts](https://img.shields.io/github/stars/OsandaMalith/CVE-2015-4870.svg) ![forks](https://img.shields.io/github/forks/OsandaMalith/CVE-2015-4870.svg)
+
+## CVE-2015-4852
+ The WLS Security component in Oracle WebLogic Server 10.3.6.0, 12.1.2.0, 12.1.3.0, and 12.2.1.0 allows remote attackers to execute arbitrary commands via a crafted serialized Java object in T3 protocol traffic to TCP port 7001, related to oracle_common/modules/com.bea.core.apache.commons.collections.jar. NOTE: the scope of this CVE is limited to the WebLogic Server product.
+
+
+
+- [https://github.com/roo7break/serialator](https://github.com/roo7break/serialator) :  ![starts](https://img.shields.io/github/stars/roo7break/serialator.svg) ![forks](https://img.shields.io/github/forks/roo7break/serialator.svg)
+
+- [https://github.com/zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln) :  ![starts](https://img.shields.io/github/stars/zhzhdoai/Weblogic_Vuln.svg) ![forks](https://img.shields.io/github/forks/zhzhdoai/Weblogic_Vuln.svg)
+
+- [https://github.com/AndersonSingh/serialization-vulnerability-scanner](https://github.com/AndersonSingh/serialization-vulnerability-scanner) :  ![starts](https://img.shields.io/github/stars/AndersonSingh/serialization-vulnerability-scanner.svg) ![forks](https://img.shields.io/github/forks/AndersonSingh/serialization-vulnerability-scanner.svg)
+
+- [https://github.com/nex1less/CVE-2015-4852](https://github.com/nex1less/CVE-2015-4852) :  ![starts](https://img.shields.io/github/stars/nex1less/CVE-2015-4852.svg) ![forks](https://img.shields.io/github/forks/nex1less/CVE-2015-4852.svg)
+
+## CVE-2015-4495
+ The PDF reader in Mozilla Firefox before 39.0.3, Firefox ESR 38.x before 38.1.1, and Firefox OS before 2.2 allows remote attackers to bypass the Same Origin Policy, and read arbitrary files or gain privileges, via vectors involving crafted JavaScript code and a native setter, as exploited in the wild in August 2015.
+
+
+
+- [https://github.com/vincd/CVE-2015-4495](https://github.com/vincd/CVE-2015-4495) :  ![starts](https://img.shields.io/github/stars/vincd/CVE-2015-4495.svg) ![forks](https://img.shields.io/github/forks/vincd/CVE-2015-4495.svg)
+
+## CVE-2015-4024
+ Algorithmic complexity vulnerability in the multipart_buffer_headers function in main/rfc1867.c in PHP before 5.4.41, 5.5.x before 5.5.25, and 5.6.x before 5.6.9 allows remote attackers to cause a denial of service (CPU consumption) via crafted form data that triggers an improper order-of-growth outcome.
+
+
+
+- [https://github.com/typcn/php-load-test](https://github.com/typcn/php-load-test) :  ![starts](https://img.shields.io/github/stars/typcn/php-load-test.svg) ![forks](https://img.shields.io/github/forks/typcn/php-load-test.svg)
+
+## CVE-2015-4000
+ The TLS protocol 1.2 and earlier, when a DHE_EXPORT ciphersuite is enabled on a server but not on a client, does not properly convey a DHE_EXPORT choice, which allows man-in-the-middle attackers to conduct cipher-downgrade attacks by rewriting a ClientHello with DHE replaced by DHE_EXPORT and then rewriting a ServerHello with DHE_EXPORT replaced by DHE, aka the &quot;Logjam&quot; issue.
+
+
+
+- [https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/nyc-tophile/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/nyc-tophile/A2SV--SSL-VUL-Scan.svg)
+
+## CVE-2015-3864
+ Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.cpp in libstagefright in mediaserver in Android before 5.1.1 LMY48M allows remote attackers to execute arbitrary code via crafted MPEG-4 data, aka internal bug 23034759.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-3824.
+
+
+
+- [https://github.com/eudemonics/scaredycat](https://github.com/eudemonics/scaredycat) :  ![starts](https://img.shields.io/github/stars/eudemonics/scaredycat.svg) ![forks](https://img.shields.io/github/forks/eudemonics/scaredycat.svg)
+
+- [https://github.com/pwnaccelerator/stagefright-cve-2015-3864](https://github.com/pwnaccelerator/stagefright-cve-2015-3864) :  ![starts](https://img.shields.io/github/stars/pwnaccelerator/stagefright-cve-2015-3864.svg) ![forks](https://img.shields.io/github/forks/pwnaccelerator/stagefright-cve-2015-3864.svg)
+
+- [https://github.com/HenryVHuang/CVE-2015-3864](https://github.com/HenryVHuang/CVE-2015-3864) :  ![starts](https://img.shields.io/github/stars/HenryVHuang/CVE-2015-3864.svg) ![forks](https://img.shields.io/github/forks/HenryVHuang/CVE-2015-3864.svg)
+
+## CVE-2015-3839
+ The updateMessageStatus function in Android 5.1.1 and earlier allows local users to cause a denial of service (NULL pointer exception and process crash).
+
+
+
+- [https://github.com/mabin004/cve-2015-3839_PoC](https://github.com/mabin004/cve-2015-3839_PoC) :  ![starts](https://img.shields.io/github/stars/mabin004/cve-2015-3839_PoC.svg) ![forks](https://img.shields.io/github/forks/mabin004/cve-2015-3839_PoC.svg)
+
+## CVE-2015-3837
+ The OpenSSLX509Certificate class in org/conscrypt/OpenSSLX509Certificate.java in Android before 5.1.1 LMY48I improperly includes certain context data during serialization and deserialization, which allows attackers to execute arbitrary code via an application that sends a crafted Intent, aka internal bug 21437603.
+
+
+
+- [https://github.com/roeeh/conscryptchecker](https://github.com/roeeh/conscryptchecker) :  ![starts](https://img.shields.io/github/stars/roeeh/conscryptchecker.svg) ![forks](https://img.shields.io/github/forks/roeeh/conscryptchecker.svg)
+
+- [https://github.com/itibs/IsildursBane](https://github.com/itibs/IsildursBane) :  ![starts](https://img.shields.io/github/stars/itibs/IsildursBane.svg) ![forks](https://img.shields.io/github/forks/itibs/IsildursBane.svg)
+
+## CVE-2015-3825
+ ** RE
+
+
+
+- [https://github.com/roeeh/conscryptchecker](https://github.com/roeeh/conscryptchecker) :  ![starts](https://img.shields.io/github/stars/roeeh/conscryptchecker.svg) ![forks](https://img.shields.io/github/forks/roeeh/conscryptchecker.svg)
+
+## CVE-2015-3673
+ Admin Framework in Apple OS X before 10.10.4 does not properly restrict the location of writeconfig clients, which allows local users to obtain root privileges by moving and then modifying Directory Utility.
+
+
+
+- [https://github.com/sideeffect42/RootPipeTester](https://github.com/sideeffect42/RootPipeTester) :  ![starts](https://img.shields.io/github/stars/sideeffect42/RootPipeTester.svg) ![forks](https://img.shields.io/github/forks/sideeffect42/RootPipeTester.svg)
+
+## CVE-2015-3636
+ The ping_unhash function in net/ipv4/ping.c in the Linux kernel before 4.0.3 does not initialize a certain list data structure during an unhash operation, which allows local users to gain privileges or cause a denial of service (use-after-free and system crash) by leveraging the ability to make a SOCK_DGRAM socket system call for the IPPROTO_ICMP or IPPROTO_ICMPV6 protocol, and then making a connect system call after a disconnect.
+
+
+
+- [https://github.com/fi01/CVE-2015-3636](https://github.com/fi01/CVE-2015-3636) :  ![starts](https://img.shields.io/github/stars/fi01/CVE-2015-3636.svg) ![forks](https://img.shields.io/github/forks/fi01/CVE-2015-3636.svg)
+
+- [https://github.com/android-rooting-tools/libpingpong_exploit](https://github.com/android-rooting-tools/libpingpong_exploit) :  ![starts](https://img.shields.io/github/stars/android-rooting-tools/libpingpong_exploit.svg) ![forks](https://img.shields.io/github/forks/android-rooting-tools/libpingpong_exploit.svg)
+
+- [https://github.com/a7vinx/CVE-2015-3636](https://github.com/a7vinx/CVE-2015-3636) :  ![starts](https://img.shields.io/github/stars/a7vinx/CVE-2015-3636.svg) ![forks](https://img.shields.io/github/forks/a7vinx/CVE-2015-3636.svg)
+
+- [https://github.com/betalphafai/cve-2015-3636_crash](https://github.com/betalphafai/cve-2015-3636_crash) :  ![starts](https://img.shields.io/github/stars/betalphafai/cve-2015-3636_crash.svg) ![forks](https://img.shields.io/github/forks/betalphafai/cve-2015-3636_crash.svg)
+
+- [https://github.com/askk/libping_unhash_exploit_POC](https://github.com/askk/libping_unhash_exploit_POC) :  ![starts](https://img.shields.io/github/stars/askk/libping_unhash_exploit_POC.svg) ![forks](https://img.shields.io/github/forks/askk/libping_unhash_exploit_POC.svg)
+
+- [https://github.com/debugfan/rattle_root](https://github.com/debugfan/rattle_root) :  ![starts](https://img.shields.io/github/stars/debugfan/rattle_root.svg) ![forks](https://img.shields.io/github/forks/debugfan/rattle_root.svg)
+
+- [https://github.com/ludongxu/cve-2015-3636](https://github.com/ludongxu/cve-2015-3636) :  ![starts](https://img.shields.io/github/stars/ludongxu/cve-2015-3636.svg) ![forks](https://img.shields.io/github/forks/ludongxu/cve-2015-3636.svg)
+
 ## CVE-2015-3456
  The Floppy Disk Controller (FDC) in QEMU, as used in Xen 4.5.x and earlier and KVM, allows local guest users to cause a denial of service (out-of-bounds write and guest crash) or possibly execute arbitrary code via the (1) FD_CMD_READ_ID, (2) FD_CMD_DRIVE_SPECIFICATION_COMMAND, or other unspecified commands, aka VENOM.
 
@@ -19864,6 +20391,551 @@
 
 
 ## 2014
+## CVE-2014-10069
+ Hitron CVE-30360 devices use a 578A958E3DD933FC DES key that is shared across different customers' installations, which makes it easier for attackers to obtain sensitive information by decrypting a backup configuration file, as demonstrated by a password hash in the um_auth_account_password field.
+
+
+
+- [https://github.com/Manouchehri/hitron-cfg-decrypter](https://github.com/Manouchehri/hitron-cfg-decrypter) :  ![starts](https://img.shields.io/github/stars/Manouchehri/hitron-cfg-decrypter.svg) ![forks](https://img.shields.io/github/forks/Manouchehri/hitron-cfg-decrypter.svg)
+
+## CVE-2014-4943
+ The PPPoL2TP feature in net/l2tp/l2tp_ppp.c in the Linux kernel through 3.15.6 allows local users to gain privileges by leveraging data-structure differences between an l2tp socket and an inet socket.
+
+
+
+- [https://github.com/redes-2015/l2tp-socket-bug](https://github.com/redes-2015/l2tp-socket-bug) :  ![starts](https://img.shields.io/github/stars/redes-2015/l2tp-socket-bug.svg) ![forks](https://img.shields.io/github/forks/redes-2015/l2tp-socket-bug.svg)
+
+## CVE-2014-4936
+ The upgrade functionality in Malwarebytes Anti-Malware (MBAM) consumer before 2.0.3 and Malwarebytes Anti-Exploit (MBAE) consumer 1.04.1.1012 and earlier allow man-in-the-middle attackers to execute arbitrary code by spoofing the update server and uploading an executable.
+
+
+
+- [https://github.com/0x3a/CVE-2014-4936](https://github.com/0x3a/CVE-2014-4936) :  ![starts](https://img.shields.io/github/stars/0x3a/CVE-2014-4936.svg) ![forks](https://img.shields.io/github/forks/0x3a/CVE-2014-4936.svg)
+
+## CVE-2014-4699
+ The Linux kernel before 3.15.4 on Intel processors does not properly restrict use of a non-canonical value for the saved RIP address in the case of a system call that does not use IRET, which allows local users to leverage a race condition and gain privileges, or cause a denial of service (double fault), via a crafted application that makes ptrace and fork system calls.
+
+
+
+- [https://github.com/vnik5287/cve-2014-4699-ptrace](https://github.com/vnik5287/cve-2014-4699-ptrace) :  ![starts](https://img.shields.io/github/stars/vnik5287/cve-2014-4699-ptrace.svg) ![forks](https://img.shields.io/github/forks/vnik5287/cve-2014-4699-ptrace.svg)
+
+## CVE-2014-4688
+ pfSense before 2.1.4 allows remote authenticated users to execute arbitrary commands via (1) the hostname value to diag_dns.php in a Create Alias action, (2) the smartmonemail value to diag_smart.php, or (3) the database value to status_rrd_graph_img.php.
+
+
+
+- [https://github.com/AndyFeiLi/CVE-2014-4688](https://github.com/AndyFeiLi/CVE-2014-4688) :  ![starts](https://img.shields.io/github/stars/AndyFeiLi/CVE-2014-4688.svg) ![forks](https://img.shields.io/github/forks/AndyFeiLi/CVE-2014-4688.svg)
+
+## CVE-2014-4671
+ Adobe Flash Player before 13.0.0.231 and 14.x before 14.0.0.145 on Windows and OS X and before 11.2.202.394 on Linux, Adobe AIR before 14.0.0.137 on Android, Adobe AIR SDK before 14.0.0.137, and Adobe AIR SDK &amp; Compiler before 14.0.0.137 do not properly restrict the SWF file format, which allows remote attackers to conduct cross-site request forgery (CSRF) attacks against JSONP endpoints, and obtain sensitive information, via a crafted OBJECT element with SWF content satisfying the character-set requirements of a callback API.
+
+
+
+- [https://github.com/cph/rabl-old](https://github.com/cph/rabl-old) :  ![starts](https://img.shields.io/github/stars/cph/rabl-old.svg) ![forks](https://img.shields.io/github/forks/cph/rabl-old.svg)
+
+## CVE-2014-4511
+ Gitlist before 0.5.0 allows remote attackers to execute arbitrary commands via shell metacharacters in the file name in the URI of a request for a (1) blame, (2) file, or (3) stats page, as demonstrated by requests to blame/master/, master/, and stats/master/.
+
+
+
+- [https://github.com/michaelsss1/gitlist-RCE](https://github.com/michaelsss1/gitlist-RCE) :  ![starts](https://img.shields.io/github/stars/michaelsss1/gitlist-RCE.svg) ![forks](https://img.shields.io/github/forks/michaelsss1/gitlist-RCE.svg)
+
+## CVE-2014-4481
+ Integer overflow in CoreGraphics in Apple iOS before 8.1.3, Apple OS X before 10.10.2, and Apple TV before 7.0.3 allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted PDF document.
+
+
+
+- [https://github.com/feliam/CVE-2014-4481](https://github.com/feliam/CVE-2014-4481) :  ![starts](https://img.shields.io/github/stars/feliam/CVE-2014-4481.svg) ![forks](https://img.shields.io/github/forks/feliam/CVE-2014-4481.svg)
+
+## CVE-2014-4378
+ CoreGraphics in Apple iOS before 8 and Apple TV before 7 allows remote attackers to obtain sensitive information or cause a denial of service (out-of-bounds read and application crash) via a crafted PDF document.
+
+
+
+- [https://github.com/feliam/CVE-2014-4378](https://github.com/feliam/CVE-2014-4378) :  ![starts](https://img.shields.io/github/stars/feliam/CVE-2014-4378.svg) ![forks](https://img.shields.io/github/forks/feliam/CVE-2014-4378.svg)
+
+## CVE-2014-4377
+ Integer overflow in CoreGraphics in Apple iOS before 8 and Apple TV before 7 allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted PDF document.
+
+
+
+- [https://github.com/feliam/CVE-2014-4377](https://github.com/feliam/CVE-2014-4377) :  ![starts](https://img.shields.io/github/stars/feliam/CVE-2014-4377.svg) ![forks](https://img.shields.io/github/forks/feliam/CVE-2014-4377.svg)
+
+- [https://github.com/davidmurray/CVE-2014-4377](https://github.com/davidmurray/CVE-2014-4377) :  ![starts](https://img.shields.io/github/stars/davidmurray/CVE-2014-4377.svg) ![forks](https://img.shields.io/github/forks/davidmurray/CVE-2014-4377.svg)
+
+## CVE-2014-4323
+ The mdp_lut_hw_update function in drivers/video/msm/mdp.c in the MDP display driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, does not validate certain start and length values within an ioctl call, which allows attackers to gain privileges via a crafted application.
+
+
+
+- [https://github.com/marcograss/cve-2014-4323](https://github.com/marcograss/cve-2014-4323) :  ![starts](https://img.shields.io/github/stars/marcograss/cve-2014-4323.svg) ![forks](https://img.shields.io/github/forks/marcograss/cve-2014-4323.svg)
+
+## CVE-2014-4322
+ drivers/misc/qseecom.c in the QSEECOM driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, does not validate certain offset, length, and base values within an ioctl call, which allows attackers to gain privileges or cause a denial of service (memory corruption) via a crafted application.
+
+
+
+- [https://github.com/retme7/CVE-2014-4322_poc](https://github.com/retme7/CVE-2014-4322_poc) :  ![starts](https://img.shields.io/github/stars/retme7/CVE-2014-4322_poc.svg) ![forks](https://img.shields.io/github/forks/retme7/CVE-2014-4322_poc.svg)
+
+- [https://github.com/laginimaineb/cve-2014-4322](https://github.com/laginimaineb/cve-2014-4322) :  ![starts](https://img.shields.io/github/stars/laginimaineb/cve-2014-4322.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/cve-2014-4322.svg)
+
+- [https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege](https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege) :  ![starts](https://img.shields.io/github/stars/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege.svg) ![forks](https://img.shields.io/github/forks/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege.svg)
+
+- [https://github.com/koozxcv/CVE-2014-4322](https://github.com/koozxcv/CVE-2014-4322) :  ![starts](https://img.shields.io/github/stars/koozxcv/CVE-2014-4322.svg) ![forks](https://img.shields.io/github/forks/koozxcv/CVE-2014-4322.svg)
+
+- [https://github.com/askk/CVE-2014-4322_adaptation](https://github.com/askk/CVE-2014-4322_adaptation) :  ![starts](https://img.shields.io/github/stars/askk/CVE-2014-4322_adaptation.svg) ![forks](https://img.shields.io/github/forks/askk/CVE-2014-4322_adaptation.svg)
+
+## CVE-2014-4321
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/android-rooting-tools/libmsm_vfe_read_exploit](https://github.com/android-rooting-tools/libmsm_vfe_read_exploit) :  ![starts](https://img.shields.io/github/stars/android-rooting-tools/libmsm_vfe_read_exploit.svg) ![forks](https://img.shields.io/github/forks/android-rooting-tools/libmsm_vfe_read_exploit.svg)
+
+## CVE-2014-4210
+ Unspecified vulnerability in the Oracle WebLogic Server component in Oracle Fusion Middleware 10.0.2.0 and 10.3.6.0 allows remote attackers to affect confidentiality via vectors related to WLS - Web Services.
+
+
+
+- [https://github.com/0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner) :  ![starts](https://img.shields.io/github/stars/0xn0ne/weblogicScanner.svg) ![forks](https://img.shields.io/github/forks/0xn0ne/weblogicScanner.svg)
+
+- [https://github.com/NoneNotNull/SSRFX](https://github.com/NoneNotNull/SSRFX) :  ![starts](https://img.shields.io/github/stars/NoneNotNull/SSRFX.svg) ![forks](https://img.shields.io/github/forks/NoneNotNull/SSRFX.svg)
+
+- [https://github.com/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC](https://github.com/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC) :  ![starts](https://img.shields.io/github/stars/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC.svg) ![forks](https://img.shields.io/github/forks/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC.svg)
+
+- [https://github.com/NHPT/WebLogic-SSRF_CVE-2014-4210](https://github.com/NHPT/WebLogic-SSRF_CVE-2014-4210) :  ![starts](https://img.shields.io/github/stars/NHPT/WebLogic-SSRF_CVE-2014-4210.svg) ![forks](https://img.shields.io/github/forks/NHPT/WebLogic-SSRF_CVE-2014-4210.svg)
+
+## CVE-2014-4140
+ Microsoft Internet Explorer 8 through 11 allows remote attackers to bypass the ASLR protection mechanism via a crafted web site, aka &quot;Internet Explorer ASLR Bypass Vulnerability.&quot;
+
+
+
+- [https://github.com/day6reak/CVE-2014-4140](https://github.com/day6reak/CVE-2014-4140) :  ![starts](https://img.shields.io/github/stars/day6reak/CVE-2014-4140.svg) ![forks](https://img.shields.io/github/forks/day6reak/CVE-2014-4140.svg)
+
+## CVE-2014-4113
+ win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, as exploited in the wild in October 2014, aka &quot;Win32k.sys Elevation of Privilege Vulnerability.&quot;
+
+
+
+- [https://github.com/sam-b/CVE-2014-4113](https://github.com/sam-b/CVE-2014-4113) :  ![starts](https://img.shields.io/github/stars/sam-b/CVE-2014-4113.svg) ![forks](https://img.shields.io/github/forks/sam-b/CVE-2014-4113.svg)
+
+- [https://github.com/nsxz/Exploit-CVE-2014-4113](https://github.com/nsxz/Exploit-CVE-2014-4113) :  ![starts](https://img.shields.io/github/stars/nsxz/Exploit-CVE-2014-4113.svg) ![forks](https://img.shields.io/github/forks/nsxz/Exploit-CVE-2014-4113.svg)
+
+- [https://github.com/johnjohnsp1/CVE-2014-4113](https://github.com/johnjohnsp1/CVE-2014-4113) :  ![starts](https://img.shields.io/github/stars/johnjohnsp1/CVE-2014-4113.svg) ![forks](https://img.shields.io/github/forks/johnjohnsp1/CVE-2014-4113.svg)
+
+- [https://github.com/wikiZ/cve-2014-4113](https://github.com/wikiZ/cve-2014-4113) :  ![starts](https://img.shields.io/github/stars/wikiZ/cve-2014-4113.svg) ![forks](https://img.shields.io/github/forks/wikiZ/cve-2014-4113.svg)
+
+## CVE-2014-4109
+ Microsoft Internet Explorer 6 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2014-2799, CVE-2014-4059, CVE-2014-4065, CVE-2014-4079, CVE-2014-4081, CVE-2014-4083, CVE-2014-4085, CVE-2014-4088, CVE-2014-4090, CVE-2014-4094, CVE-2014-4097, CVE-2014-4100, CVE-2014-4103, CVE-2014-4104, CVE-2014-4105, CVE-2014-4106, CVE-2014-4107, CVE-2014-4108, CVE-2014-4110, and CVE-2014-4111.
+
+
+
+- [https://github.com/day6reak/CVE-2014-4109](https://github.com/day6reak/CVE-2014-4109) :  ![starts](https://img.shields.io/github/stars/day6reak/CVE-2014-4109.svg) ![forks](https://img.shields.io/github/forks/day6reak/CVE-2014-4109.svg)
+
+## CVE-2014-4076
+ Microsoft Windows Server 2003 SP2 allows local users to gain privileges via a crafted IOCTL call to (1) tcpip.sys or (2) tcpip6.sys, aka &quot;TCP/IP Elevation of Privilege Vulnerability.&quot;
+
+
+
+- [https://github.com/fungoshacks/CVE-2014-4076](https://github.com/fungoshacks/CVE-2014-4076) :  ![starts](https://img.shields.io/github/stars/fungoshacks/CVE-2014-4076.svg) ![forks](https://img.shields.io/github/forks/fungoshacks/CVE-2014-4076.svg)
+
+## CVE-2014-4014
+ The capabilities implementation in the Linux kernel before 3.14.8 does not properly consider that namespaces are inapplicable to inodes, which allows local users to bypass intended chmod restrictions by first creating a user namespace, as demonstrated by setting the setgid bit on a file with group ownership of root.
+
+
+
+- [https://github.com/vnik5287/cve-2014-4014-privesc](https://github.com/vnik5287/cve-2014-4014-privesc) :  ![starts](https://img.shields.io/github/stars/vnik5287/cve-2014-4014-privesc.svg) ![forks](https://img.shields.io/github/forks/vnik5287/cve-2014-4014-privesc.svg)
+
+## CVE-2014-3704
+ The expandArguments function in the database abstraction API in Drupal core 7.x before 7.32 does not properly construct prepared statements, which allows remote attackers to conduct SQL injection attacks via an array containing crafted keys.
+
+
+
+- [https://github.com/happynote3966/CVE-2014-3704](https://github.com/happynote3966/CVE-2014-3704) :  ![starts](https://img.shields.io/github/stars/happynote3966/CVE-2014-3704.svg) ![forks](https://img.shields.io/github/forks/happynote3966/CVE-2014-3704.svg)
+
+## CVE-2014-3625
+ Directory traversal vulnerability in Pivotal Spring Framework 3.0.4 through 3.2.x before 3.2.12, 4.0.x before 4.0.8, and 4.1.x before 4.1.2 allows remote attackers to read arbitrary files via unspecified vectors, related to static resource handling.
+
+
+
+- [https://github.com/ilmila/springcss-cve-2014-3625](https://github.com/ilmila/springcss-cve-2014-3625) :  ![starts](https://img.shields.io/github/stars/ilmila/springcss-cve-2014-3625.svg) ![forks](https://img.shields.io/github/forks/ilmila/springcss-cve-2014-3625.svg)
+
+- [https://github.com/gforresu/SpringPathTraversal](https://github.com/gforresu/SpringPathTraversal) :  ![starts](https://img.shields.io/github/stars/gforresu/SpringPathTraversal.svg) ![forks](https://img.shields.io/github/forks/gforresu/SpringPathTraversal.svg)
+
+## CVE-2014-3566
+ The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other products, uses nondeterministic CBC padding, which makes it easier for man-in-the-middle attackers to obtain cleartext data via a padding-oracle attack, aka the &quot;POODLE&quot; issue.
+
+
+
+- [https://github.com/mpgn/poodle-PoC](https://github.com/mpgn/poodle-PoC) :  ![starts](https://img.shields.io/github/stars/mpgn/poodle-PoC.svg) ![forks](https://img.shields.io/github/forks/mpgn/poodle-PoC.svg)
+
+- [https://github.com/stdevel/poodle_protector](https://github.com/stdevel/poodle_protector) :  ![starts](https://img.shields.io/github/stars/stdevel/poodle_protector.svg) ![forks](https://img.shields.io/github/forks/stdevel/poodle_protector.svg)
+
+- [https://github.com/mikesplain/CVE-2014-3566-poodle-cookbook](https://github.com/mikesplain/CVE-2014-3566-poodle-cookbook) :  ![starts](https://img.shields.io/github/stars/mikesplain/CVE-2014-3566-poodle-cookbook.svg) ![forks](https://img.shields.io/github/forks/mikesplain/CVE-2014-3566-poodle-cookbook.svg)
+
+- [https://github.com/ashmastaflash/mangy-beast](https://github.com/ashmastaflash/mangy-beast) :  ![starts](https://img.shields.io/github/stars/ashmastaflash/mangy-beast.svg) ![forks](https://img.shields.io/github/forks/ashmastaflash/mangy-beast.svg)
+
+- [https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/nyc-tophile/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/nyc-tophile/A2SV--SSL-VUL-Scan.svg)
+
+## CVE-2014-3551
+ Multiple cross-site scripting (XSS) vulnerabilities in the advanced-grading implementation in Moodle through 2.3.11, 2.4.x before 2.4.11, 2.5.x before 2.5.7, 2.6.x before 2.6.4, and 2.7.x before 2.7.1 allow remote authenticated users to inject arbitrary web script or HTML via a crafted (1) qualification or (2) rating field in a rubric.
+
+
+
+- [https://github.com/JavaGarcia/CVE-2014-3551](https://github.com/JavaGarcia/CVE-2014-3551) :  ![starts](https://img.shields.io/github/stars/JavaGarcia/CVE-2014-3551.svg) ![forks](https://img.shields.io/github/forks/JavaGarcia/CVE-2014-3551.svg)
+
+## CVE-2014-3466
+ Buffer overflow in the read_server_hello function in lib/gnutls_handshake.c in GnuTLS before 3.1.25, 3.2.x before 3.2.15, and 3.3.x before 3.3.4 allows remote servers to cause a denial of service (memory corruption) or possibly execute arbitrary code via a long session id in a ServerHello message.
+
+
+
+- [https://github.com/azet/CVE-2014-3466_PoC](https://github.com/azet/CVE-2014-3466_PoC) :  ![starts](https://img.shields.io/github/stars/azet/CVE-2014-3466_PoC.svg) ![forks](https://img.shields.io/github/forks/azet/CVE-2014-3466_PoC.svg)
+
+## CVE-2014-3341
+ The SNMP module in Cisco NX-OS 7.0(3)N1(1) and earlier on Nexus 5000 and 6000 devices provides different error messages for invalid requests depending on whether the VLAN ID exists, which allows remote attackers to enumerate VLANs via a series of requests, aka Bug ID CSCup85616.
+
+
+
+- [https://github.com/ehabhussein/snmpvlan](https://github.com/ehabhussein/snmpvlan) :  ![starts](https://img.shields.io/github/stars/ehabhussein/snmpvlan.svg) ![forks](https://img.shields.io/github/forks/ehabhussein/snmpvlan.svg)
+
+## CVE-2014-3153
+ The futex_requeue function in kernel/futex.c in the Linux kernel through 3.14.5 does not ensure that calls have two different futex addresses, which allows local users to gain privileges via a crafted FUTEX_REQUEUE command that facilitates unsafe waiter modification.
+
+
+
+- [https://github.com/timwr/CVE-2014-3153](https://github.com/timwr/CVE-2014-3153) :  ![starts](https://img.shields.io/github/stars/timwr/CVE-2014-3153.svg) ![forks](https://img.shields.io/github/forks/timwr/CVE-2014-3153.svg)
+
+- [https://github.com/geekben/towelroot](https://github.com/geekben/towelroot) :  ![starts](https://img.shields.io/github/stars/geekben/towelroot.svg) ![forks](https://img.shields.io/github/forks/geekben/towelroot.svg)
+
+- [https://github.com/android-rooting-tools/libfutex_exploit](https://github.com/android-rooting-tools/libfutex_exploit) :  ![starts](https://img.shields.io/github/stars/android-rooting-tools/libfutex_exploit.svg) ![forks](https://img.shields.io/github/forks/android-rooting-tools/libfutex_exploit.svg)
+
+- [https://github.com/lieanu/CVE-2014-3153](https://github.com/lieanu/CVE-2014-3153) :  ![starts](https://img.shields.io/github/stars/lieanu/CVE-2014-3153.svg) ![forks](https://img.shields.io/github/forks/lieanu/CVE-2014-3153.svg)
+
+- [https://github.com/dangtunguyen/TowelRoot](https://github.com/dangtunguyen/TowelRoot) :  ![starts](https://img.shields.io/github/stars/dangtunguyen/TowelRoot.svg) ![forks](https://img.shields.io/github/forks/dangtunguyen/TowelRoot.svg)
+
+- [https://github.com/zerodavinci/CVE-2014-3153-exploit](https://github.com/zerodavinci/CVE-2014-3153-exploit) :  ![starts](https://img.shields.io/github/stars/zerodavinci/CVE-2014-3153-exploit.svg) ![forks](https://img.shields.io/github/forks/zerodavinci/CVE-2014-3153-exploit.svg)
+
+- [https://github.com/elongl/CVE-2014-3153](https://github.com/elongl/CVE-2014-3153) :  ![starts](https://img.shields.io/github/stars/elongl/CVE-2014-3153.svg) ![forks](https://img.shields.io/github/forks/elongl/CVE-2014-3153.svg)
+
+- [https://github.com/sin4ts/CVE2014-3153](https://github.com/sin4ts/CVE2014-3153) :  ![starts](https://img.shields.io/github/stars/sin4ts/CVE2014-3153.svg) ![forks](https://img.shields.io/github/forks/sin4ts/CVE2014-3153.svg)
+
+- [https://github.com/c3c/CVE-2014-3153](https://github.com/c3c/CVE-2014-3153) :  ![starts](https://img.shields.io/github/stars/c3c/CVE-2014-3153.svg) ![forks](https://img.shields.io/github/forks/c3c/CVE-2014-3153.svg)
+
+## CVE-2014-3120
+ The default configuration in Elasticsearch before 1.2 enables dynamic scripting, which allows remote attackers to execute arbitrary MVEL expressions and Java code via the source parameter to _search.  NOTE: this only violates the vendor's intended security policy if the user does not run Elasticsearch in its own independent virtual machine.
+
+
+
+- [https://github.com/echohtp/ElasticSearch-CVE-2014-3120](https://github.com/echohtp/ElasticSearch-CVE-2014-3120) :  ![starts](https://img.shields.io/github/stars/echohtp/ElasticSearch-CVE-2014-3120.svg) ![forks](https://img.shields.io/github/forks/echohtp/ElasticSearch-CVE-2014-3120.svg)
+
+- [https://github.com/jeffgeiger/es_inject](https://github.com/jeffgeiger/es_inject) :  ![starts](https://img.shields.io/github/stars/jeffgeiger/es_inject.svg) ![forks](https://img.shields.io/github/forks/jeffgeiger/es_inject.svg)
+
+## CVE-2014-2734
+ ** DISPUTED ** The openssl extension in Ruby 2.x does not properly maintain the state of process memory after a file is reopened, which allows remote attackers to spoof signatures within the context of a Ruby script that attempts signature verification after performing a certain sequence of filesystem operations.  NOTE: this issue has been disputed by the Ruby OpenSSL team and third parties, who state that the original demonstration PoC contains errors and redundant or unnecessarily-complex code that does not appear to be related to a demonstration of the issue. As of 20140502, CVE is not aware of any public comment by the original researcher.
+
+
+
+- [https://github.com/adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734) :  ![starts](https://img.shields.io/github/stars/adrienthebo/cve-2014-2734.svg) ![forks](https://img.shields.io/github/forks/adrienthebo/cve-2014-2734.svg)
+
+- [https://github.com/gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734) :  ![starts](https://img.shields.io/github/stars/gdisneyleugers/CVE-2014-2734.svg) ![forks](https://img.shields.io/github/forks/gdisneyleugers/CVE-2014-2734.svg)
+
+## CVE-2014-2630
+ Unspecified vulnerability in HP Operations Agent 11.00, when Glance is used, allows local users to gain privileges via unknown vectors.
+
+
+
+- [https://github.com/redtimmy/perf-exploiter](https://github.com/redtimmy/perf-exploiter) :  ![starts](https://img.shields.io/github/stars/redtimmy/perf-exploiter.svg) ![forks](https://img.shields.io/github/forks/redtimmy/perf-exploiter.svg)
+
+## CVE-2014-2324
+ Multiple directory traversal vulnerabilities in (1) mod_evhost and (2) mod_simple_vhost in lighttpd before 1.4.35 allow remote attackers to read arbitrary files via a .. (dot dot) in the host name, related to request_check_hostname.
+
+
+
+- [https://github.com/sp4c30x1/uc_httpd_exploit](https://github.com/sp4c30x1/uc_httpd_exploit) :  ![starts](https://img.shields.io/github/stars/sp4c30x1/uc_httpd_exploit.svg) ![forks](https://img.shields.io/github/forks/sp4c30x1/uc_httpd_exploit.svg)
+
+## CVE-2014-2323
+ SQL injection vulnerability in mod_mysql_vhost.c in lighttpd before 1.4.35 allows remote attackers to execute arbitrary SQL commands via the host name, related to request_check_hostname.
+
+
+
+- [https://github.com/cirocosta/lighty-sqlinj-demo](https://github.com/cirocosta/lighty-sqlinj-demo) :  ![starts](https://img.shields.io/github/stars/cirocosta/lighty-sqlinj-demo.svg) ![forks](https://img.shields.io/github/forks/cirocosta/lighty-sqlinj-demo.svg)
+
+## CVE-2014-2064
+ The loadUserByUsername function in hudson/security/HudsonPrivateSecurityRealm.java in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to determine whether a user exists via vectors related to failed login attempts.
+
+
+
+- [https://github.com/Naramsim/Offensive](https://github.com/Naramsim/Offensive) :  ![starts](https://img.shields.io/github/stars/Naramsim/Offensive.svg) ![forks](https://img.shields.io/github/forks/Naramsim/Offensive.svg)
+
+## CVE-2014-2023
+ Multiple SQL injection vulnerabilities in the Tapatalk plugin 4.9.0 and earlier and 5.x through 5.2.1 for vBulletin allow remote attackers to execute arbitrary SQL commands via a crafted xmlrpc API request to (1) unsubscribe_forum.php or (2) unsubscribe_topic.php in mobiquo/functions/.
+
+
+
+- [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
+
+## CVE-2014-2022
+ SQL injection vulnerability in includes/api/4/breadcrumbs_create.php in vBulletin 4.2.2, 4.2.1, 4.2.0 PL2, and earlier allows remote authenticated users to execute arbitrary SQL commands via the conceptid argument in an xmlrpc API request.
+
+
+
+- [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
+
+## CVE-2014-2021
+ Cross-site scripting (XSS) vulnerability in admincp/apilog.php in vBulletin 4.2.2 and earlier, and 5.0.x through 5.0.5 allows remote authenticated users to inject arbitrary web script or HTML via a crafted XMLRPC API request, as demonstrated using the client name.
+
+
+
+- [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
+
+## CVE-2014-1904
+ Cross-site scripting (XSS) vulnerability in web/servlet/tags/form/FormTag.java in Spring MVC in Spring Framework 3.0.0 before 3.2.8 and 4.0.0 before 4.0.2 allows remote attackers to inject arbitrary web script or HTML via the requested URI in a default action.
+
+
+
+- [https://github.com/Naramsim/Offensive](https://github.com/Naramsim/Offensive) :  ![starts](https://img.shields.io/github/stars/Naramsim/Offensive.svg) ![forks](https://img.shields.io/github/forks/Naramsim/Offensive.svg)
+
+## CVE-2014-1773
+ Microsoft Internet Explorer 9 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2014-1783, CVE-2014-1784, CVE-2014-1786, CVE-2014-1795, CVE-2014-1805, CVE-2014-2758, CVE-2014-2759, CVE-2014-2765, CVE-2014-2766, and CVE-2014-2775.
+
+
+
+- [https://github.com/day6reak/CVE-2014-1773](https://github.com/day6reak/CVE-2014-1773) :  ![starts](https://img.shields.io/github/stars/day6reak/CVE-2014-1773.svg) ![forks](https://img.shields.io/github/forks/day6reak/CVE-2014-1773.svg)
+
+## CVE-2014-1677
+ Technicolor TC7200 with firmware STD6.01.12 could allow remote attackers to obtain sensitive information.
+
+
+
+- [https://github.com/tihmstar/freePW_tc7200Eploit](https://github.com/tihmstar/freePW_tc7200Eploit) :  ![starts](https://img.shields.io/github/stars/tihmstar/freePW_tc7200Eploit.svg) ![forks](https://img.shields.io/github/forks/tihmstar/freePW_tc7200Eploit.svg)
+
+## CVE-2014-1447
+ Race condition in the virNetServerClientStartKeepAlive function in libvirt before 1.2.1 allows remote attackers to cause a denial of service (libvirtd crash) by closing a connection before a keepalive response is sent.
+
+
+
+- [https://github.com/tagatac/libvirt-CVE-2014-1447](https://github.com/tagatac/libvirt-CVE-2014-1447) :  ![starts](https://img.shields.io/github/stars/tagatac/libvirt-CVE-2014-1447.svg) ![forks](https://img.shields.io/github/forks/tagatac/libvirt-CVE-2014-1447.svg)
+
+## CVE-2014-1322
+ The kernel in Apple OS X through 10.9.2 places a kernel pointer into an XNU object data structure accessible from user space, which makes it easier for local users to bypass the ASLR protection mechanism by reading an unspecified attribute of the object.
+
+
+
+- [https://github.com/raymondpittman/IPC-Memory-Mac-OSX-Exploit](https://github.com/raymondpittman/IPC-Memory-Mac-OSX-Exploit) :  ![starts](https://img.shields.io/github/stars/raymondpittman/IPC-Memory-Mac-OSX-Exploit.svg) ![forks](https://img.shields.io/github/forks/raymondpittman/IPC-Memory-Mac-OSX-Exploit.svg)
+
+## CVE-2014-1303
+ Heap-based buffer overflow in Apple Safari 7.0.2 allows remote attackers to execute arbitrary code and bypass a sandbox protection mechanism via unspecified vectors, as demonstrated by Liang Chen during a Pwn2Own competition at CanSecWest 2014.
+
+
+
+- [https://github.com/RKX1209/CVE-2014-1303](https://github.com/RKX1209/CVE-2014-1303) :  ![starts](https://img.shields.io/github/stars/RKX1209/CVE-2014-1303.svg) ![forks](https://img.shields.io/github/forks/RKX1209/CVE-2014-1303.svg)
+
+## CVE-2014-1266
+ The SSLVerifySignedServerKeyExchange function in libsecurity_ssl/lib/sslKeyExchange.c in the Secure Transport feature in the Data Security component in Apple iOS 6.x before 6.1.6 and 7.x before 7.0.6, Apple TV 6.x before 6.0.2, and Apple OS X 10.9.x before 10.9.2 does not check the signature in a TLS Server Key Exchange message, which allows man-in-the-middle attackers to spoof SSL servers by (1) using an arbitrary private key for the signing step or (2) omitting the signing step.
+
+
+
+- [https://github.com/gabrielg/CVE-2014-1266-poc](https://github.com/gabrielg/CVE-2014-1266-poc) :  ![starts](https://img.shields.io/github/stars/gabrielg/CVE-2014-1266-poc.svg) ![forks](https://img.shields.io/github/forks/gabrielg/CVE-2014-1266-poc.svg)
+
+- [https://github.com/landonf/Testability-CVE-2014-1266](https://github.com/landonf/Testability-CVE-2014-1266) :  ![starts](https://img.shields.io/github/stars/landonf/Testability-CVE-2014-1266.svg) ![forks](https://img.shields.io/github/forks/landonf/Testability-CVE-2014-1266.svg)
+
+- [https://github.com/linusyang/SSLPatch](https://github.com/linusyang/SSLPatch) :  ![starts](https://img.shields.io/github/stars/linusyang/SSLPatch.svg) ![forks](https://img.shields.io/github/forks/linusyang/SSLPatch.svg)
+
+## CVE-2014-0994
+ Heap-based buffer overflow in the ReadDIB function in the Vcl.Graphics.TPicture.Bitmap implementation in the Visual Component Library (VCL) in Embarcadero Delphi XE6 20.0.15596.9843 and C++ Builder XE6 20.0.15596.9843 allows context-dependent attackers to execute arbitrary code via the BITMAPINFOHEADER.biClrUsed field in a BMP file.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-0993.
+
+
+
+- [https://github.com/helpsystems/Embarcadero-Workaround](https://github.com/helpsystems/Embarcadero-Workaround) :  ![starts](https://img.shields.io/github/stars/helpsystems/Embarcadero-Workaround.svg) ![forks](https://img.shields.io/github/forks/helpsystems/Embarcadero-Workaround.svg)
+
+## CVE-2014-0993
+ Buffer overflow in the Vcl.Graphics.TPicture.Bitmap implementation in the Visual Component Library (VCL) in Embarcadero Delphi XE6 20.0.15596.9843 and C++ Builder XE6 20.0.15596.9843 allows remote attackers to execute arbitrary code via a crafted BMP file.
+
+
+
+- [https://github.com/helpsystems/Embarcadero-Workaround](https://github.com/helpsystems/Embarcadero-Workaround) :  ![starts](https://img.shields.io/github/stars/helpsystems/Embarcadero-Workaround.svg) ![forks](https://img.shields.io/github/forks/helpsystems/Embarcadero-Workaround.svg)
+
+## CVE-2014-0816
+ Unspecified vulnerability in Norman Security Suite 10.1 and earlier allows local users to gain privileges via unknown vectors.
+
+
+
+- [https://github.com/tandasat/CVE-2014-0816](https://github.com/tandasat/CVE-2014-0816) :  ![starts](https://img.shields.io/github/stars/tandasat/CVE-2014-0816.svg) ![forks](https://img.shields.io/github/forks/tandasat/CVE-2014-0816.svg)
+
+## CVE-2014-0521
+ Adobe Reader and Acrobat 10.x before 10.1.10 and 11.x before 11.0.07 on Windows and OS X do not properly implement JavaScript APIs, which allows remote attackers to obtain sensitive information via a crafted PDF document.
+
+
+
+- [https://github.com/molnarg/cve-2014-0521](https://github.com/molnarg/cve-2014-0521) :  ![starts](https://img.shields.io/github/stars/molnarg/cve-2014-0521.svg) ![forks](https://img.shields.io/github/forks/molnarg/cve-2014-0521.svg)
+
+## CVE-2014-0472
+ The django.core.urlresolvers.reverse function in Django before 1.4.11, 1.5.x before 1.5.6, 1.6.x before 1.6.3, and 1.7.x before 1.7 beta 2 allows remote attackers to import and execute arbitrary Python modules by leveraging a view that constructs URLs using user input and a &quot;dotted Python path.&quot;
+
+
+
+- [https://github.com/christasa/CVE-2014-0472](https://github.com/christasa/CVE-2014-0472) :  ![starts](https://img.shields.io/github/stars/christasa/CVE-2014-0472.svg) ![forks](https://img.shields.io/github/forks/christasa/CVE-2014-0472.svg)
+
+## CVE-2014-0291
+ ** RE
+
+
+
+- [https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204) :  ![starts](https://img.shields.io/github/stars/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204.svg) ![forks](https://img.shields.io/github/forks/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204.svg)
+
+## CVE-2014-0226
+ Race condition in the mod_status module in the Apache HTTP Server before 2.4.10 allows remote attackers to cause a denial of service (heap-based buffer overflow), or possibly obtain sensitive credential information or execute arbitrary code, via a crafted request that triggers improper scoreboard handling within the status_handler function in modules/generators/mod_status.c and the lua_ap_scoreboard_worker function in modules/lua/lua_request.c.
+
+
+
+- [https://github.com/shreesh1/CVE-2014-0226-poc](https://github.com/shreesh1/CVE-2014-0226-poc) :  ![starts](https://img.shields.io/github/stars/shreesh1/CVE-2014-0226-poc.svg) ![forks](https://img.shields.io/github/forks/shreesh1/CVE-2014-0226-poc.svg)
+
+## CVE-2014-0224
+ OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not properly restrict processing of ChangeCipherSpec messages, which allows man-in-the-middle attackers to trigger use of a zero-length master key in certain OpenSSL-to-OpenSSL communications, and consequently hijack sessions or obtain sensitive information, via a crafted TLS handshake, aka the &quot;CCS Injection&quot; vulnerability.
+
+
+
+- [https://github.com/Tripwire/OpenSSL-CCS-Inject-Test](https://github.com/Tripwire/OpenSSL-CCS-Inject-Test) :  ![starts](https://img.shields.io/github/stars/Tripwire/OpenSSL-CCS-Inject-Test.svg) ![forks](https://img.shields.io/github/forks/Tripwire/OpenSSL-CCS-Inject-Test.svg)
+
+- [https://github.com/ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224) :  ![starts](https://img.shields.io/github/stars/ssllabs/openssl-ccs-cve-2014-0224.svg) ![forks](https://img.shields.io/github/forks/ssllabs/openssl-ccs-cve-2014-0224.svg)
+
+- [https://github.com/secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224) :  ![starts](https://img.shields.io/github/stars/secretnonempty/CVE-2014-0224.svg) ![forks](https://img.shields.io/github/forks/secretnonempty/CVE-2014-0224.svg)
+
+- [https://github.com/iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224) :  ![starts](https://img.shields.io/github/stars/iph0n3/CVE-2014-0224.svg) ![forks](https://img.shields.io/github/forks/iph0n3/CVE-2014-0224.svg)
+
+- [https://github.com/droptables/ccs-eval](https://github.com/droptables/ccs-eval) :  ![starts](https://img.shields.io/github/stars/droptables/ccs-eval.svg) ![forks](https://img.shields.io/github/forks/droptables/ccs-eval.svg)
+
+- [https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/nyc-tophile/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/nyc-tophile/A2SV--SSL-VUL-Scan.svg)
+
+## CVE-2014-0196
+ The n_tty_write function in drivers/tty/n_tty.c in the Linux kernel through 3.14.3 does not properly manage tty driver access in the &quot;LECHO &amp; !OPOST&quot; case, which allows local users to cause a denial of service (memory corruption and system crash) or gain privileges by triggering a race condition involving read and write operations with long strings.
+
+
+
+- [https://github.com/tempbottle/CVE-2014-0196](https://github.com/tempbottle/CVE-2014-0196) :  ![starts](https://img.shields.io/github/stars/tempbottle/CVE-2014-0196.svg) ![forks](https://img.shields.io/github/forks/tempbottle/CVE-2014-0196.svg)
+
+- [https://github.com/SunRain/CVE-2014-0196](https://github.com/SunRain/CVE-2014-0196) :  ![starts](https://img.shields.io/github/stars/SunRain/CVE-2014-0196.svg) ![forks](https://img.shields.io/github/forks/SunRain/CVE-2014-0196.svg)
+
+## CVE-2014-0195
+ The dtls1_reassemble_fragment function in d1_both.c in OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not properly validate fragment lengths in DTLS ClientHello messages, which allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow and application crash) via a long non-initial fragment.
+
+
+
+- [https://github.com/ricedu/CVE-2014-0195](https://github.com/ricedu/CVE-2014-0195) :  ![starts](https://img.shields.io/github/stars/ricedu/CVE-2014-0195.svg) ![forks](https://img.shields.io/github/forks/ricedu/CVE-2014-0195.svg)
+
+## CVE-2014-0166
+ The wp_validate_auth_cookie function in wp-includes/pluggable.php in WordPress before 3.7.2 and 3.8.x before 3.8.2 does not properly determine the validity of authentication cookies, which makes it easier for remote attackers to obtain access via a forged cookie.
+
+
+
+- [https://github.com/Ettack/POC-CVE-2014-0166](https://github.com/Ettack/POC-CVE-2014-0166) :  ![starts](https://img.shields.io/github/stars/Ettack/POC-CVE-2014-0166.svg) ![forks](https://img.shields.io/github/forks/Ettack/POC-CVE-2014-0166.svg)
+
+## CVE-2014-0160
+ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not properly handle Heartbeat Extension packets, which allows remote attackers to obtain sensitive information from process memory via crafted packets that trigger a buffer over-read, as demonstrated by reading private keys, related to d1_both.c and t1_lib.c, aka the Heartbleed bug.
+
+
+
+- [https://github.com/FiloSottile/Heartbleed](https://github.com/FiloSottile/Heartbleed) :  ![starts](https://img.shields.io/github/stars/FiloSottile/Heartbleed.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/Heartbleed.svg)
+
+- [https://github.com/musalbas/heartbleed-masstest](https://github.com/musalbas/heartbleed-masstest) :  ![starts](https://img.shields.io/github/stars/musalbas/heartbleed-masstest.svg) ![forks](https://img.shields.io/github/forks/musalbas/heartbleed-masstest.svg)
+
+- [https://github.com/titanous/heartbleeder](https://github.com/titanous/heartbleeder) :  ![starts](https://img.shields.io/github/stars/titanous/heartbleeder.svg) ![forks](https://img.shields.io/github/forks/titanous/heartbleeder.svg)
+
+- [https://github.com/Lekensteyn/pacemaker](https://github.com/Lekensteyn/pacemaker) :  ![starts](https://img.shields.io/github/stars/Lekensteyn/pacemaker.svg) ![forks](https://img.shields.io/github/forks/Lekensteyn/pacemaker.svg)
+
+- [https://github.com/sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc) :  ![starts](https://img.shields.io/github/stars/sensepost/heartbleed-poc.svg) ![forks](https://img.shields.io/github/forks/sensepost/heartbleed-poc.svg)
+
+- [https://github.com/einaros/heartbleed-tools](https://github.com/einaros/heartbleed-tools) :  ![starts](https://img.shields.io/github/stars/einaros/heartbleed-tools.svg) ![forks](https://img.shields.io/github/forks/einaros/heartbleed-tools.svg)
+
+- [https://github.com/mpgn/heartbleed-PoC](https://github.com/mpgn/heartbleed-PoC) :  ![starts](https://img.shields.io/github/stars/mpgn/heartbleed-PoC.svg) ![forks](https://img.shields.io/github/forks/mpgn/heartbleed-PoC.svg)
+
+- [https://github.com/isgroup-srl/openmagic](https://github.com/isgroup-srl/openmagic) :  ![starts](https://img.shields.io/github/stars/isgroup-srl/openmagic.svg) ![forks](https://img.shields.io/github/forks/isgroup-srl/openmagic.svg)
+
+- [https://github.com/jdauphant/patch-openssl-CVE-2014-0160](https://github.com/jdauphant/patch-openssl-CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/jdauphant/patch-openssl-CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/jdauphant/patch-openssl-CVE-2014-0160.svg)
+
+- [https://github.com/OffensivePython/HeartLeak](https://github.com/OffensivePython/HeartLeak) :  ![starts](https://img.shields.io/github/stars/OffensivePython/HeartLeak.svg) ![forks](https://img.shields.io/github/forks/OffensivePython/HeartLeak.svg)
+
+- [https://github.com/DisK0nn3cT/MaltegoHeartbleed](https://github.com/DisK0nn3cT/MaltegoHeartbleed) :  ![starts](https://img.shields.io/github/stars/DisK0nn3cT/MaltegoHeartbleed.svg) ![forks](https://img.shields.io/github/forks/DisK0nn3cT/MaltegoHeartbleed.svg)
+
+- [https://github.com/hybridus/heartbleedscanner](https://github.com/hybridus/heartbleedscanner) :  ![starts](https://img.shields.io/github/stars/hybridus/heartbleedscanner.svg) ![forks](https://img.shields.io/github/forks/hybridus/heartbleedscanner.svg)
+
+- [https://github.com/hmlio/vaas-cve-2014-0160](https://github.com/hmlio/vaas-cve-2014-0160) :  ![starts](https://img.shields.io/github/stars/hmlio/vaas-cve-2014-0160.svg) ![forks](https://img.shields.io/github/forks/hmlio/vaas-cve-2014-0160.svg)
+
+- [https://github.com/DominikTo/bleed](https://github.com/DominikTo/bleed) :  ![starts](https://img.shields.io/github/stars/DominikTo/bleed.svg) ![forks](https://img.shields.io/github/forks/DominikTo/bleed.svg)
+
+- [https://github.com/0x90/CVE-2014-0160](https://github.com/0x90/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/0x90/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/0x90/CVE-2014-0160.svg)
+
+- [https://github.com/hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls) :  ![starts](https://img.shields.io/github/stars/hreese/heartbleed-dtls.svg) ![forks](https://img.shields.io/github/forks/hreese/heartbleed-dtls.svg)
+
+- [https://github.com/wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions) :  ![starts](https://img.shields.io/github/stars/wwwiretap/bleeding_onions.svg) ![forks](https://img.shields.io/github/forks/wwwiretap/bleeding_onions.svg)
+
+- [https://github.com/yryz/heartbleed.js](https://github.com/yryz/heartbleed.js) :  ![starts](https://img.shields.io/github/stars/yryz/heartbleed.js.svg) ![forks](https://img.shields.io/github/forks/yryz/heartbleed.js.svg)
+
+- [https://github.com/mozilla-services/Heartbleed](https://github.com/mozilla-services/Heartbleed) :  ![starts](https://img.shields.io/github/stars/mozilla-services/Heartbleed.svg) ![forks](https://img.shields.io/github/forks/mozilla-services/Heartbleed.svg)
+
+- [https://github.com/cyphar/heartthreader](https://github.com/cyphar/heartthreader) :  ![starts](https://img.shields.io/github/stars/cyphar/heartthreader.svg) ![forks](https://img.shields.io/github/forks/cyphar/heartthreader.svg)
+
+- [https://github.com/ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us) :  ![starts](https://img.shields.io/github/stars/ingochris/heartpatch.us.svg) ![forks](https://img.shields.io/github/forks/ingochris/heartpatch.us.svg)
+
+- [https://github.com/GeeksXtreme/ssl-heartbleed.nse](https://github.com/GeeksXtreme/ssl-heartbleed.nse) :  ![starts](https://img.shields.io/github/stars/GeeksXtreme/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/GeeksXtreme/ssl-heartbleed.nse.svg)
+
+- [https://github.com/zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed) :  ![starts](https://img.shields.io/github/stars/zouguangxian/heartbleed.svg) ![forks](https://img.shields.io/github/forks/zouguangxian/heartbleed.svg)
+
+- [https://github.com/Saymeis/HeartBleed](https://github.com/Saymeis/HeartBleed) :  ![starts](https://img.shields.io/github/stars/Saymeis/HeartBleed.svg) ![forks](https://img.shields.io/github/forks/Saymeis/HeartBleed.svg)
+
+- [https://github.com/vortextube/ssl_scanner](https://github.com/vortextube/ssl_scanner) :  ![starts](https://img.shields.io/github/stars/vortextube/ssl_scanner.svg) ![forks](https://img.shields.io/github/forks/vortextube/ssl_scanner.svg)
+
+- [https://github.com/sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix) :  ![starts](https://img.shields.io/github/stars/sammyfung/openssl-heartbleed-fix.svg) ![forks](https://img.shields.io/github/forks/sammyfung/openssl-heartbleed-fix.svg)
+
+- [https://github.com/proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention) :  ![starts](https://img.shields.io/github/stars/proactiveRISK/heartbleed-extention.svg) ![forks](https://img.shields.io/github/forks/proactiveRISK/heartbleed-extention.svg)
+
+- [https://github.com/GuillermoEscobero/heartbleed](https://github.com/GuillermoEscobero/heartbleed) :  ![starts](https://img.shields.io/github/stars/GuillermoEscobero/heartbleed.svg) ![forks](https://img.shields.io/github/forks/GuillermoEscobero/heartbleed.svg)
+
+- [https://github.com/xlucas/heartbleed](https://github.com/xlucas/heartbleed) :  ![starts](https://img.shields.io/github/stars/xlucas/heartbleed.svg) ![forks](https://img.shields.io/github/forks/xlucas/heartbleed.svg)
+
+- [https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker](https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker) :  ![starts](https://img.shields.io/github/stars/waqasjamal-zz/HeartBleed-Vulnerability-Checker.svg) ![forks](https://img.shields.io/github/forks/waqasjamal-zz/HeartBleed-Vulnerability-Checker.svg)
+
+## CVE-2014-0130
+ Directory traversal vulnerability in actionpack/lib/abstract_controller/base.rb in the implicit-render implementation in Ruby on Rails before 3.2.18, 4.0.x before 4.0.5, and 4.1.x before 4.1.1, when certain route globbing configurations are enabled, allows remote attackers to read arbitrary files via a crafted request.
+
+
+
+- [https://github.com/omarkurt/cve-2014-0130](https://github.com/omarkurt/cve-2014-0130) :  ![starts](https://img.shields.io/github/stars/omarkurt/cve-2014-0130.svg) ![forks](https://img.shields.io/github/forks/omarkurt/cve-2014-0130.svg)
+
+## CVE-2014-0114
+ Apache Commons BeanUtils, as distributed in lib/commons-beanutils-1.8.0.jar in Apache Struts 1.x through 1.3.10 and in other products requiring commons-beanutils through 1.9.2, does not suppress the class property, which allows remote attackers to &quot;manipulate&quot; the ClassLoader and execute arbitrary code via the class parameter, as demonstrated by the passing of this parameter to the getClass method of the ActionForm object in Struts 1.
+
+
+
+- [https://github.com/rgielen/struts1filter](https://github.com/rgielen/struts1filter) :  ![starts](https://img.shields.io/github/stars/rgielen/struts1filter.svg) ![forks](https://img.shields.io/github/forks/rgielen/struts1filter.svg)
+
+- [https://github.com/ricedu/struts1-patch](https://github.com/ricedu/struts1-patch) :  ![starts](https://img.shields.io/github/stars/ricedu/struts1-patch.svg) ![forks](https://img.shields.io/github/forks/ricedu/struts1-patch.svg)
+
+- [https://github.com/aenlr/strutt-cve-2014-0114](https://github.com/aenlr/strutt-cve-2014-0114) :  ![starts](https://img.shields.io/github/stars/aenlr/strutt-cve-2014-0114.svg) ![forks](https://img.shields.io/github/forks/aenlr/strutt-cve-2014-0114.svg)
+
+## CVE-2014-0094
+ The ParametersInterceptor in Apache Struts before 2.3.16.2 allows remote attackers to &quot;manipulate&quot; the ClassLoader via the class parameter, which is passed to the getClass method.
+
+
+
+- [https://github.com/HasegawaTadamitsu/CVE-2014-0094-test-program-for-struts1](https://github.com/HasegawaTadamitsu/CVE-2014-0094-test-program-for-struts1) :  ![starts](https://img.shields.io/github/stars/HasegawaTadamitsu/CVE-2014-0094-test-program-for-struts1.svg) ![forks](https://img.shields.io/github/forks/HasegawaTadamitsu/CVE-2014-0094-test-program-for-struts1.svg)
+
+## CVE-2014-0050
+ MultipartStream.java in Apache Commons FileUpload before 1.3.1, as used in Apache Tomcat, JBoss Web, and other products, allows remote attackers to cause a denial of service (infinite loop and CPU consumption) via a crafted Content-Type header that bypasses a loop's intended exit conditions.
+
+
+
+- [https://github.com/jrrdev/cve-2014-0050](https://github.com/jrrdev/cve-2014-0050) :  ![starts](https://img.shields.io/github/stars/jrrdev/cve-2014-0050.svg) ![forks](https://img.shields.io/github/forks/jrrdev/cve-2014-0050.svg)
+
+## CVE-2014-0038
+ The compat_sys_recvmmsg function in net/compat.c in the Linux kernel before 3.13.2, when CONFIG_X86_X32 is enabled, allows local users to gain privileges via a recvmmsg system call with a crafted timeout pointer parameter.
+
+
+
+- [https://github.com/saelo/cve-2014-0038](https://github.com/saelo/cve-2014-0038) :  ![starts](https://img.shields.io/github/stars/saelo/cve-2014-0038.svg) ![forks](https://img.shields.io/github/forks/saelo/cve-2014-0038.svg)
+
+- [https://github.com/kiruthikan99/IT19115276](https://github.com/kiruthikan99/IT19115276) :  ![starts](https://img.shields.io/github/stars/kiruthikan99/IT19115276.svg) ![forks](https://img.shields.io/github/forks/kiruthikan99/IT19115276.svg)
+
 
 
 ## 2013
