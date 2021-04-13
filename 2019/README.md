@@ -2733,6 +2733,562 @@
 
 - [https://github.com/FlameOfIgnis/CVE-2019-10008](https://github.com/FlameOfIgnis/CVE-2019-10008) :  ![starts](https://img.shields.io/github/stars/FlameOfIgnis/CVE-2019-10008.svg) ![forks](https://img.shields.io/github/forks/FlameOfIgnis/CVE-2019-10008.svg)
 
+## CVE-2019-9978
+ The social-warfare plugin before 3.5.3 for WordPress has stored XSS via the wp-admin/admin-post.php?swp_debug=load_options swp_url parameter, as exploited in the wild in March 2019. This affects Social Warfare and Social Warfare Pro.
+
+
+
+- [https://github.com/hash3liZer/CVE-2019-9978](https://github.com/hash3liZer/CVE-2019-9978) :  ![starts](https://img.shields.io/github/stars/hash3liZer/CVE-2019-9978.svg) ![forks](https://img.shields.io/github/forks/hash3liZer/CVE-2019-9978.svg)
+
+- [https://github.com/mpgn/CVE-2019-9978](https://github.com/mpgn/CVE-2019-9978) :  ![starts](https://img.shields.io/github/stars/mpgn/CVE-2019-9978.svg) ![forks](https://img.shields.io/github/forks/mpgn/CVE-2019-9978.svg)
+
+- [https://github.com/KTN1990/CVE-2019-9978](https://github.com/KTN1990/CVE-2019-9978) :  ![starts](https://img.shields.io/github/stars/KTN1990/CVE-2019-9978.svg) ![forks](https://img.shields.io/github/forks/KTN1990/CVE-2019-9978.svg)
+
+- [https://github.com/cved-sources/cve-2019-9978](https://github.com/cved-sources/cve-2019-9978) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2019-9978.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2019-9978.svg)
+
+## CVE-2019-9896
+ In PuTTY versions before 0.71 on Windows, local attackers could hijack the application by putting a malicious help file in the same directory as the executable.
+
+
+
+- [https://github.com/yasinyilmaz/vuln-chm-hijack](https://github.com/yasinyilmaz/vuln-chm-hijack) :  ![starts](https://img.shields.io/github/stars/yasinyilmaz/vuln-chm-hijack.svg) ![forks](https://img.shields.io/github/forks/yasinyilmaz/vuln-chm-hijack.svg)
+
+## CVE-2019-9844
+ simple-markdown.js in Khan Academy simple-markdown before 0.4.4 allows XSS via a data: or vbscript: URI.
+
+
+
+- [https://github.com/ossf-cve-benchmark/CVE-2019-9844](https://github.com/ossf-cve-benchmark/CVE-2019-9844) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-9844.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-9844.svg)
+
+## CVE-2019-9810
+ Incorrect alias information in IonMonkey JIT compiler for Array.prototype.slice method may lead to missing bounds check and a buffer overflow. This vulnerability affects Firefox &lt; 66.0.1, Firefox ESR &lt; 60.6.1, and Thunderbird &lt; 60.6.1.
+
+
+
+- [https://github.com/0vercl0k/CVE-2019-11708](https://github.com/0vercl0k/CVE-2019-11708) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2019-11708.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2019-11708.svg)
+
+- [https://github.com/0vercl0k/CVE-2019-9810](https://github.com/0vercl0k/CVE-2019-9810) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2019-9810.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2019-9810.svg)
+
+- [https://github.com/xuechiyaobai/CVE-2019-9810-PoC](https://github.com/xuechiyaobai/CVE-2019-9810-PoC) :  ![starts](https://img.shields.io/github/stars/xuechiyaobai/CVE-2019-9810-PoC.svg) ![forks](https://img.shields.io/github/forks/xuechiyaobai/CVE-2019-9810-PoC.svg)
+
+## CVE-2019-9787
+ WordPress before 5.1.1 does not properly filter comment content, leading to Remote Code Execution by unauthenticated users in a default configuration. This occurs because CSRF protection is mishandled, and because Search Engine Optimization of A elements is performed incorrectly, leading to XSS. The XSS results in administrative access, which allows arbitrary changes to .php files. This is related to wp-admin/includes/ajax-actions.php and wp-includes/comment.php.
+
+
+
+- [https://github.com/rkatogit/cve-2019-9787_csrf_poc](https://github.com/rkatogit/cve-2019-9787_csrf_poc) :  ![starts](https://img.shields.io/github/stars/rkatogit/cve-2019-9787_csrf_poc.svg) ![forks](https://img.shields.io/github/forks/rkatogit/cve-2019-9787_csrf_poc.svg)
+
+- [https://github.com/matinciel/Wordpress_CVE-2019-9787](https://github.com/matinciel/Wordpress_CVE-2019-9787) :  ![starts](https://img.shields.io/github/stars/matinciel/Wordpress_CVE-2019-9787.svg) ![forks](https://img.shields.io/github/forks/matinciel/Wordpress_CVE-2019-9787.svg)
+
+- [https://github.com/sijiahi/Wordpress_cve-2019-9787_defense](https://github.com/sijiahi/Wordpress_cve-2019-9787_defense) :  ![starts](https://img.shields.io/github/stars/sijiahi/Wordpress_cve-2019-9787_defense.svg) ![forks](https://img.shields.io/github/forks/sijiahi/Wordpress_cve-2019-9787_defense.svg)
+
+- [https://github.com/PalmTreeForest/CodePath_Week_7-8](https://github.com/PalmTreeForest/CodePath_Week_7-8) :  ![starts](https://img.shields.io/github/stars/PalmTreeForest/CodePath_Week_7-8.svg) ![forks](https://img.shields.io/github/forks/PalmTreeForest/CodePath_Week_7-8.svg)
+
+## CVE-2019-9766
+ Stack-based buffer overflow in Free MP3 CD Ripper 2.6, when converting a file, allows user-assisted remote attackers to execute arbitrary code via a crafted .mp3 file.
+
+
+
+- [https://github.com/moonheadobj/CVE-2019-9766](https://github.com/moonheadobj/CVE-2019-9766) :  ![starts](https://img.shields.io/github/stars/moonheadobj/CVE-2019-9766.svg) ![forks](https://img.shields.io/github/forks/moonheadobj/CVE-2019-9766.svg)
+
+## CVE-2019-9745
+ CloudCTI HIP Integrator Recognition Configuration Tool allows privilege escalation via its EXQUISE integration. This tool communicates with a service (Recognition Update Client Service) via an insecure communication channel (Named Pipe). The data (JSON) sent via this channel is used to import data from CRM software using plugins (.dll files). The plugin to import data from the EXQUISE software (DatasourceExquiseExporter.dll) can be persuaded to start arbitrary programs (including batch files) that are executed using the same privileges as Recognition Update Client Service (NT AUTHORITY\SYSTEM), thus elevating privileges. This occurs because a higher-privileged process executes scripts from a directory writable by a lower-privileged user.
+
+
+
+- [https://github.com/KPN-CISO/CVE-2019-9745](https://github.com/KPN-CISO/CVE-2019-9745) :  ![starts](https://img.shields.io/github/stars/KPN-CISO/CVE-2019-9745.svg) ![forks](https://img.shields.io/github/forks/KPN-CISO/CVE-2019-9745.svg)
+
+## CVE-2019-9730
+ Incorrect access control in the CxUtilSvc component of the Synaptics Sound Device drivers prior to version 2.29 allows a local attacker to increase access privileges to the Windows Registry via an unpublished API.
+
+
+
+- [https://github.com/jthuraisamy/CVE-2019-9730](https://github.com/jthuraisamy/CVE-2019-9730) :  ![starts](https://img.shields.io/github/stars/jthuraisamy/CVE-2019-9730.svg) ![forks](https://img.shields.io/github/forks/jthuraisamy/CVE-2019-9730.svg)
+
+## CVE-2019-9729
+ In Shanda MapleStory Online V160, the SdoKeyCrypt.sys driver allows privilege escalation to NT AUTHORITY\SYSTEM because of not validating the IOCtl 0x8000c01c input value, leading to an integer signedness error and a heap-based buffer underflow.
+
+
+
+- [https://github.com/HyperSine/SdoKeyCrypt-sys-local-privilege-elevation](https://github.com/HyperSine/SdoKeyCrypt-sys-local-privilege-elevation) :  ![starts](https://img.shields.io/github/stars/HyperSine/SdoKeyCrypt-sys-local-privilege-elevation.svg) ![forks](https://img.shields.io/github/forks/HyperSine/SdoKeyCrypt-sys-local-privilege-elevation.svg)
+
+## CVE-2019-9673
+ Freenet 1483 has a MIME type bypass that allows arbitrary JavaScript execution via a crafted Freenet URI.
+
+
+
+- [https://github.com/mgrube/CVE-2019-9673](https://github.com/mgrube/CVE-2019-9673) :  ![starts](https://img.shields.io/github/stars/mgrube/CVE-2019-9673.svg) ![forks](https://img.shields.io/github/forks/mgrube/CVE-2019-9673.svg)
+
+## CVE-2019-9670
+ mailboxd component in Synacor Zimbra Collaboration Suite 8.7.x before 8.7.11p10 has an XML External Entity injection (XXE) vulnerability.
+
+
+
+- [https://github.com/rek7/Zimbra-RCE](https://github.com/rek7/Zimbra-RCE) :  ![starts](https://img.shields.io/github/stars/rek7/Zimbra-RCE.svg) ![forks](https://img.shields.io/github/forks/rek7/Zimbra-RCE.svg)
+
+- [https://github.com/attackgithub/Zimbra-RCE](https://github.com/attackgithub/Zimbra-RCE) :  ![starts](https://img.shields.io/github/stars/attackgithub/Zimbra-RCE.svg) ![forks](https://img.shields.io/github/forks/attackgithub/Zimbra-RCE.svg)
+
+## CVE-2019-9653
+ NUUO Network Video Recorder Firmware 1.7.x through 3.3.x allows unauthenticated attackers to execute arbitrary commands via shell metacharacters to handle_load_config.php.
+
+
+
+- [https://github.com/grayoneday/CVE-2019-9653](https://github.com/grayoneday/CVE-2019-9653) :  ![starts](https://img.shields.io/github/stars/grayoneday/CVE-2019-9653.svg) ![forks](https://img.shields.io/github/forks/grayoneday/CVE-2019-9653.svg)
+
+## CVE-2019-9621
+ Zimbra Collaboration Suite before 8.6 patch 13, 8.7.x before 8.7.11 patch 10, and 8.8.x before 8.8.10 patch 7 or 8.8.x before 8.8.11 patch 3 allows SSRF via the ProxyServlet component.
+
+
+
+- [https://github.com/k8gege/ZimbraExploit](https://github.com/k8gege/ZimbraExploit) :  ![starts](https://img.shields.io/github/stars/k8gege/ZimbraExploit.svg) ![forks](https://img.shields.io/github/forks/k8gege/ZimbraExploit.svg)
+
+## CVE-2019-9599
+ The AirDroid application through 4.2.1.6 for Android allows remote attackers to cause a denial of service (service crash) via many simultaneous sdctl/comm/lite_auth/ requests.
+
+
+
+- [https://github.com/s4vitar/AirDroidPwner](https://github.com/s4vitar/AirDroidPwner) :  ![starts](https://img.shields.io/github/stars/s4vitar/AirDroidPwner.svg) ![forks](https://img.shields.io/github/forks/s4vitar/AirDroidPwner.svg)
+
+## CVE-2019-9597
+ Darktrace Enterprise Immune System before 3.1 allows CSRF via the /config endpoint.
+
+
+
+- [https://github.com/gerwout/CVE-2019-9596-and-CVE-2019-9597](https://github.com/gerwout/CVE-2019-9596-and-CVE-2019-9597) :  ![starts](https://img.shields.io/github/stars/gerwout/CVE-2019-9596-and-CVE-2019-9597.svg) ![forks](https://img.shields.io/github/forks/gerwout/CVE-2019-9596-and-CVE-2019-9597.svg)
+
+## CVE-2019-9596
+ Darktrace Enterprise Immune System before 3.1 allows CSRF via the /whitelisteddomains endpoint.
+
+
+
+- [https://github.com/gerwout/CVE-2019-9596-and-CVE-2019-9597](https://github.com/gerwout/CVE-2019-9596-and-CVE-2019-9597) :  ![starts](https://img.shields.io/github/stars/gerwout/CVE-2019-9596-and-CVE-2019-9597.svg) ![forks](https://img.shields.io/github/forks/gerwout/CVE-2019-9596-and-CVE-2019-9597.svg)
+
+## CVE-2019-9580
+ In st2web in StackStorm Web UI before 2.9.3 and 2.10.x before 2.10.3, it is possible to bypass the CORS protection mechanism via a &quot;null&quot; origin value, potentially leading to XSS.
+
+
+
+- [https://github.com/mpgn/CVE-2019-9580](https://github.com/mpgn/CVE-2019-9580) :  ![starts](https://img.shields.io/github/stars/mpgn/CVE-2019-9580.svg) ![forks](https://img.shields.io/github/forks/mpgn/CVE-2019-9580.svg)
+
+## CVE-2019-9516
+ Some HTTP/2 implementations are vulnerable to a header leak, potentially leading to a denial of service. The attacker sends a stream of headers with a 0-length header name and 0-length header value, optionally Huffman encoded into 1-byte or greater headers. Some implementations allocate memory for these headers and keep the allocation alive until the session dies. This can consume excess memory.
+
+
+
+- [https://github.com/flyniu666/ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/ingress-nginx-0.21-1.19.5) :  ![starts](https://img.shields.io/github/stars/flyniu666/ingress-nginx-0.21-1.19.5.svg) ![forks](https://img.shields.io/github/forks/flyniu666/ingress-nginx-0.21-1.19.5.svg)
+
+## CVE-2019-9513
+ Some HTTP/2 implementations are vulnerable to resource loops, potentially leading to a denial of service. The attacker creates multiple request streams and continually shuffles the priority of the streams in a way that causes substantial churn to the priority tree. This can consume excess CPU.
+
+
+
+- [https://github.com/flyniu666/ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/ingress-nginx-0.21-1.19.5) :  ![starts](https://img.shields.io/github/stars/flyniu666/ingress-nginx-0.21-1.19.5.svg) ![forks](https://img.shields.io/github/forks/flyniu666/ingress-nginx-0.21-1.19.5.svg)
+
+## CVE-2019-9511
+ Some HTTP/2 implementations are vulnerable to window size manipulation and stream prioritization manipulation, potentially leading to a denial of service. The attacker requests a large amount of data from a specified resource over multiple streams. They manipulate window size and stream priority to force the server to queue the data in 1-byte chunks. Depending on how efficiently this data is queued, this can consume excess CPU, memory, or both.
+
+
+
+- [https://github.com/flyniu666/ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/ingress-nginx-0.21-1.19.5) :  ![starts](https://img.shields.io/github/stars/flyniu666/ingress-nginx-0.21-1.19.5.svg) ![forks](https://img.shields.io/github/forks/flyniu666/ingress-nginx-0.21-1.19.5.svg)
+
+## CVE-2019-9506
+ The Bluetooth BR/EDR specification up to and including version 5.1 permits sufficiently low encryption key length and does not prevent an attacker from influencing the key length negotiation. This allows practical brute-force attacks (aka &quot;KNOB&quot;) that can decrypt traffic and inject arbitrary ciphertext without the victim noticing.
+
+
+
+- [https://github.com/francozappa/knob](https://github.com/francozappa/knob) :  ![starts](https://img.shields.io/github/stars/francozappa/knob.svg) ![forks](https://img.shields.io/github/forks/francozappa/knob.svg)
+
+## CVE-2019-9465
+ In the Titan M handling of cryptographic operations, there is a possible information disclosure due to an unusual root cause. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. Product: Android Versions: Android-10 Android ID: A-133258003
+
+
+
+- [https://github.com/alexbakker/CVE-2019-9465](https://github.com/alexbakker/CVE-2019-9465) :  ![starts](https://img.shields.io/github/stars/alexbakker/CVE-2019-9465.svg) ![forks](https://img.shields.io/github/forks/alexbakker/CVE-2019-9465.svg)
+
+## CVE-2019-9202
+ Nagios IM (component of Nagios XI) before 2.2.7 allows authenticated users to execute arbitrary code via API key issues.
+
+
+
+- [https://github.com/polict/CVE-2019-9202](https://github.com/polict/CVE-2019-9202) :  ![starts](https://img.shields.io/github/stars/polict/CVE-2019-9202.svg) ![forks](https://img.shields.io/github/forks/polict/CVE-2019-9202.svg)
+
+## CVE-2019-9194
+ elFinder before 2.1.48 has a command injection vulnerability in the PHP connector.
+
+
+
+- [https://github.com/cved-sources/cve-2019-9194](https://github.com/cved-sources/cve-2019-9194) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2019-9194.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2019-9194.svg)
+
+## CVE-2019-9193
+ ** DISPUTED ** In PostgreSQL 9.3 through 11.2, the &quot;COPY TO/FROM PROGRAM&quot; function allows superusers and users in the 'pg_execute_server_program' group to execute arbitrary code in the context of the database's operating system user. This functionality is enabled by default and can be abused to run arbitrary operating system commands on Windows, Linux, and macOS. NOTE: Third parties claim/state this is not an issue because PostgreSQL functionality for &#8216;COPY TO/FROM PROGRAM&#8217; is acting as intended. References state that in PostgreSQL, a superuser can execute commands as the server user without using the &#8216;COPY FROM PROGRAM&#8217;.
+
+
+
+- [https://github.com/wkjung0624/CVE-2019-9193](https://github.com/wkjung0624/CVE-2019-9193) :  ![starts](https://img.shields.io/github/stars/wkjung0624/CVE-2019-9193.svg) ![forks](https://img.shields.io/github/forks/wkjung0624/CVE-2019-9193.svg)
+
+- [https://github.com/X-x-X-0/CVE-2019-9193](https://github.com/X-x-X-0/CVE-2019-9193) :  ![starts](https://img.shields.io/github/stars/X-x-X-0/CVE-2019-9193.svg) ![forks](https://img.shields.io/github/forks/X-x-X-0/CVE-2019-9193.svg)
+
+## CVE-2019-9184
+ SQL injection vulnerability in the J2Store plugin 3.x before 3.3.7 for Joomla! allows remote attackers to execute arbitrary SQL commands via the product_option[] parameter.
+
+
+
+- [https://github.com/cved-sources/cve-2019-9184](https://github.com/cved-sources/cve-2019-9184) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2019-9184.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2019-9184.svg)
+
+## CVE-2019-9153
+ Improper Verification of a Cryptographic Signature in OpenPGP.js &lt;=4.1.2 allows an attacker to forge signed messages by replacing its signatures with a &quot;standalone&quot; or &quot;timestamp&quot; signature.
+
+
+
+- [https://github.com/ZenyWay/opgp-service-cve-2019-9153](https://github.com/ZenyWay/opgp-service-cve-2019-9153) :  ![starts](https://img.shields.io/github/stars/ZenyWay/opgp-service-cve-2019-9153.svg) ![forks](https://img.shields.io/github/forks/ZenyWay/opgp-service-cve-2019-9153.svg)
+
+## CVE-2019-8997
+ An XML External Entity Injection (XXE) vulnerability in the Management System (console) of BlackBerry AtHoc versions earlier than 7.6 HF-567 could allow an attacker to potentially read arbitrary local files from the application server or make requests on the network by entering maliciously crafted XML in an existing field.
+
+
+
+- [https://github.com/nxkennedy/CVE-2019-8997](https://github.com/nxkennedy/CVE-2019-8997) :  ![starts](https://img.shields.io/github/stars/nxkennedy/CVE-2019-8997.svg) ![forks](https://img.shields.io/github/forks/nxkennedy/CVE-2019-8997.svg)
+
+## CVE-2019-8979
+ Kohana through 3.3.6 has SQL Injection when the order_by() parameter can be controlled.
+
+
+
+- [https://github.com/seb-elttam/ko7demo](https://github.com/seb-elttam/ko7demo) :  ![starts](https://img.shields.io/github/stars/seb-elttam/ko7demo.svg) ![forks](https://img.shields.io/github/forks/seb-elttam/ko7demo.svg)
+
+## CVE-2019-8978
+ An improper authentication vulnerability can be exploited through a race condition that occurs in Ellucian Banner Web Tailor 8.8.3, 8.8.4, and 8.9 and Banner Enterprise Identity Services 8.3, 8.3.1, 8.3.2, and 8.4, in conjunction with SSO Manager. This vulnerability allows remote attackers to steal a victim's session (and cause a denial of service) by repeatedly requesting the initial Banner Web Tailor main page with the IDMSESSID cookie set to the victim's UDCID, which in the case tested is the institutional ID. During a login attempt by a victim, the attacker can leverage the race condition and will be issued the SESSID that was meant for this victim.
+
+
+
+- [https://github.com/JoshuaMulliken/CVE-2019-8978](https://github.com/JoshuaMulliken/CVE-2019-8978) :  ![starts](https://img.shields.io/github/stars/JoshuaMulliken/CVE-2019-8978.svg) ![forks](https://img.shields.io/github/forks/JoshuaMulliken/CVE-2019-8978.svg)
+
+## CVE-2019-8956
+ In the Linux Kernel before versions 4.20.8 and 4.19.21 a use-after-free error in the &quot;sctp_sendmsg()&quot; function (net/sctp/socket.c) when handling SCTP_SENDALL flag can be exploited to corrupt memory.
+
+
+
+- [https://github.com/butterflyhack/CVE-2019-8956](https://github.com/butterflyhack/CVE-2019-8956) :  ![starts](https://img.shields.io/github/stars/butterflyhack/CVE-2019-8956.svg) ![forks](https://img.shields.io/github/forks/butterflyhack/CVE-2019-8956.svg)
+
+## CVE-2019-8943
+ WordPress through 5.0.3 allows Path Traversal in wp_crop_image(). An attacker (who has privileges to crop an image) can write the output image to an arbitrary directory via a filename containing two image extensions and ../ sequences, such as a filename ending with the .jpg?/../../file.jpg substring.
+
+
+
+- [https://github.com/brianwrf/WordPress_4.9.8_RCE_POC](https://github.com/brianwrf/WordPress_4.9.8_RCE_POC) :  ![starts](https://img.shields.io/github/stars/brianwrf/WordPress_4.9.8_RCE_POC.svg) ![forks](https://img.shields.io/github/forks/brianwrf/WordPress_4.9.8_RCE_POC.svg)
+
+- [https://github.com/v0lck3r/CVE-2019-8943](https://github.com/v0lck3r/CVE-2019-8943) :  ![starts](https://img.shields.io/github/stars/v0lck3r/CVE-2019-8943.svg) ![forks](https://img.shields.io/github/forks/v0lck3r/CVE-2019-8943.svg)
+
+## CVE-2019-8942
+ WordPress before 4.9.9 and 5.x before 5.0.1 allows remote code execution because an _wp_attached_file Post Meta entry can be changed to an arbitrary string, such as one ending with a .jpg?file.php substring. An attacker with author privileges can execute arbitrary code by uploading a crafted image containing PHP code in the Exif metadata. Exploitation can leverage CVE-2019-8943.
+
+
+
+- [https://github.com/brianwrf/WordPress_4.9.8_RCE_POC](https://github.com/brianwrf/WordPress_4.9.8_RCE_POC) :  ![starts](https://img.shields.io/github/stars/brianwrf/WordPress_4.9.8_RCE_POC.svg) ![forks](https://img.shields.io/github/forks/brianwrf/WordPress_4.9.8_RCE_POC.svg)
+
+- [https://github.com/synacktiv/CVE-2019-8942](https://github.com/synacktiv/CVE-2019-8942) :  ![starts](https://img.shields.io/github/stars/synacktiv/CVE-2019-8942.svg) ![forks](https://img.shields.io/github/forks/synacktiv/CVE-2019-8942.svg)
+
+- [https://github.com/v0lck3r/CVE-2019-8943](https://github.com/v0lck3r/CVE-2019-8943) :  ![starts](https://img.shields.io/github/stars/v0lck3r/CVE-2019-8943.svg) ![forks](https://img.shields.io/github/forks/v0lck3r/CVE-2019-8943.svg)
+
+## CVE-2019-8936
+ NTP through 4.2.8p12 has a NULL Pointer Dereference.
+
+
+
+- [https://github.com/snappyJack/CVE-2019-8936](https://github.com/snappyJack/CVE-2019-8936) :  ![starts](https://img.shields.io/github/stars/snappyJack/CVE-2019-8936.svg) ![forks](https://img.shields.io/github/forks/snappyJack/CVE-2019-8936.svg)
+
+## CVE-2019-8903
+ index.js in Total.js Platform before 3.2.3 allows path traversal.
+
+
+
+- [https://github.com/ossf-cve-benchmark/CVE-2019-8903](https://github.com/ossf-cve-benchmark/CVE-2019-8903) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-8903.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-8903.svg)
+
+## CVE-2019-8792
+ An injection issue was addressed with improved validation. This issue is fixed in Shazam Android App Version 9.25.0, Shazam iOS App Version 12.11.0. Processing a maliciously crafted URL may lead to arbitrary javascript code execution.
+
+
+
+- [https://github.com/ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792](https://github.com/ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792) :  ![starts](https://img.shields.io/github/stars/ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792.svg) ![forks](https://img.shields.io/github/forks/ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792.svg)
+
+## CVE-2019-8791
+ An issue existed in the parsing of URL schemes. This issue was addressed with improved URL validation. This issue is fixed in Shazam Android App Version 9.25.0, Shazam iOS App Version 12.11.0. Processing a maliciously crafted URL may lead to an open redirect.
+
+
+
+- [https://github.com/ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792](https://github.com/ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792) :  ![starts](https://img.shields.io/github/stars/ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792.svg) ![forks](https://img.shields.io/github/forks/ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792.svg)
+
+## CVE-2019-8781
+ A memory corruption issue was addressed with improved state management. This issue is fixed in macOS Catalina 10.15. An application may be able to execute arbitrary code with kernel privileges.
+
+
+
+- [https://github.com/A2nkF/macOS-Kernel-Exploit](https://github.com/A2nkF/macOS-Kernel-Exploit) :  ![starts](https://img.shields.io/github/stars/A2nkF/macOS-Kernel-Exploit.svg) ![forks](https://img.shields.io/github/forks/A2nkF/macOS-Kernel-Exploit.svg)
+
+- [https://github.com/TrungNguyen1909/CVE-2019-8781-macOS](https://github.com/TrungNguyen1909/CVE-2019-8781-macOS) :  ![starts](https://img.shields.io/github/stars/TrungNguyen1909/CVE-2019-8781-macOS.svg) ![forks](https://img.shields.io/github/forks/TrungNguyen1909/CVE-2019-8781-macOS.svg)
+
+## CVE-2019-8718
+ A memory corruption issue was addressed with improved memory handling. This issue is fixed in watchOS 6, iOS 13, tvOS 13. An application may be able to execute arbitrary code with kernel privileges.
+
+
+
+- [https://github.com/userlandkernel/USBusted](https://github.com/userlandkernel/USBusted) :  ![starts](https://img.shields.io/github/stars/userlandkernel/USBusted.svg) ![forks](https://img.shields.io/github/forks/userlandkernel/USBusted.svg)
+
+## CVE-2019-8656
+ This was addressed with additional checks by Gatekeeper on files mounted through a network share. This issue is fixed in macOS Mojave 10.14.6, Security Update 2019-004 High Sierra, Security Update 2019-004 Sierra. Extracting a zip file containing a symbolic link to an endpoint in an NFS mount that is attacker controlled may bypass Gatekeeper.
+
+
+
+- [https://github.com/D00MFist/CVE-2019-8656](https://github.com/D00MFist/CVE-2019-8656) :  ![starts](https://img.shields.io/github/stars/D00MFist/CVE-2019-8656.svg) ![forks](https://img.shields.io/github/forks/D00MFist/CVE-2019-8656.svg)
+
+## CVE-2019-8641
+ An out-of-bounds read was addressed with improved input validation.
+
+
+
+- [https://github.com/chia33164/CVE-2019-8641-reproduction](https://github.com/chia33164/CVE-2019-8641-reproduction) :  ![starts](https://img.shields.io/github/stars/chia33164/CVE-2019-8641-reproduction.svg) ![forks](https://img.shields.io/github/forks/chia33164/CVE-2019-8641-reproduction.svg)
+
+## CVE-2019-8627
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/maldiohead/CVE-2019-8627](https://github.com/maldiohead/CVE-2019-8627) :  ![starts](https://img.shields.io/github/stars/maldiohead/CVE-2019-8627.svg) ![forks](https://img.shields.io/github/forks/maldiohead/CVE-2019-8627.svg)
+
+## CVE-2019-8605
+ A use after free issue was addressed with improved memory management. This issue is fixed in iOS 12.3, macOS Mojave 10.14.5, tvOS 12.3, watchOS 5.2.1. A malicious application may be able to execute arbitrary code with system privileges.
+
+
+
+- [https://github.com/jsherman212/used_sock](https://github.com/jsherman212/used_sock) :  ![starts](https://img.shields.io/github/stars/jsherman212/used_sock.svg) ![forks](https://img.shields.io/github/forks/jsherman212/used_sock.svg)
+
+- [https://github.com/1nteger-c/CVE-2019-8605](https://github.com/1nteger-c/CVE-2019-8605) :  ![starts](https://img.shields.io/github/stars/1nteger-c/CVE-2019-8605.svg) ![forks](https://img.shields.io/github/forks/1nteger-c/CVE-2019-8605.svg)
+
+## CVE-2019-8601
+ Multiple memory corruption issues were addressed with improved memory handling. This issue is fixed in iOS 12.3, macOS Mojave 10.14.5, tvOS 12.3, watchOS 5.2.1, Safari 12.1.1, iTunes for Windows 12.9.5, iCloud for Windows 7.12. Processing maliciously crafted web content may lead to arbitrary code execution.
+
+
+
+- [https://github.com/BadAccess11/CVE-2019-8601](https://github.com/BadAccess11/CVE-2019-8601) :  ![starts](https://img.shields.io/github/stars/BadAccess11/CVE-2019-8601.svg) ![forks](https://img.shields.io/github/forks/BadAccess11/CVE-2019-8601.svg)
+
+## CVE-2019-8591
+ A type confusion issue was addressed with improved memory handling. This issue is fixed in iOS 12.3, macOS Mojave 10.14.5, tvOS 12.3, watchOS 5.2.1. An application may be able to cause unexpected system termination or write kernel memory.
+
+
+
+- [https://github.com/jsherman212/used_sock](https://github.com/jsherman212/used_sock) :  ![starts](https://img.shields.io/github/stars/jsherman212/used_sock.svg) ![forks](https://img.shields.io/github/forks/jsherman212/used_sock.svg)
+
+## CVE-2019-8565
+ A race condition was addressed with additional validation. This issue is fixed in iOS 12.2, macOS Mojave 10.14.4. A malicious application may be able to gain root privileges.
+
+
+
+- [https://github.com/genknife/cve-2019-8565](https://github.com/genknife/cve-2019-8565) :  ![starts](https://img.shields.io/github/stars/genknife/cve-2019-8565.svg) ![forks](https://img.shields.io/github/forks/genknife/cve-2019-8565.svg)
+
+## CVE-2019-8540
+ A memory initialization issue was addressed with improved memory handling. This issue is fixed in iOS 12.2, macOS Mojave 10.14.4, tvOS 12.2, watchOS 5.2. A malicious application may be able to determine kernel memory layout.
+
+
+
+- [https://github.com/maldiohead/CVE-2019-8540](https://github.com/maldiohead/CVE-2019-8540) :  ![starts](https://img.shields.io/github/stars/maldiohead/CVE-2019-8540.svg) ![forks](https://img.shields.io/github/forks/maldiohead/CVE-2019-8540.svg)
+
+## CVE-2019-8513
+ This issue was addressed with improved checks. This issue is fixed in macOS Mojave 10.14.4. A local user may be able to execute arbitrary shell commands.
+
+
+
+- [https://github.com/genknife/cve-2019-8513](https://github.com/genknife/cve-2019-8513) :  ![starts](https://img.shields.io/github/stars/genknife/cve-2019-8513.svg) ![forks](https://img.shields.io/github/forks/genknife/cve-2019-8513.svg)
+
+## CVE-2019-8451
+ The /plugins/servlet/gadgets/makeRequest resource in Jira before version 8.4.0 allows remote attackers to access the content of internal network resources via a Server Side Request Forgery (SSRF) vulnerability due to a logic bug in the JiraWhitelist class.
+
+
+
+- [https://github.com/jas502n/CVE-2019-8451](https://github.com/jas502n/CVE-2019-8451) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-8451.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-8451.svg)
+
+- [https://github.com/0xbug/CVE-2019-8451](https://github.com/0xbug/CVE-2019-8451) :  ![starts](https://img.shields.io/github/stars/0xbug/CVE-2019-8451.svg) ![forks](https://img.shields.io/github/forks/0xbug/CVE-2019-8451.svg)
+
+- [https://github.com/h0ffayyy/Jira-CVE-2019-8451](https://github.com/h0ffayyy/Jira-CVE-2019-8451) :  ![starts](https://img.shields.io/github/stars/h0ffayyy/Jira-CVE-2019-8451.svg) ![forks](https://img.shields.io/github/forks/h0ffayyy/Jira-CVE-2019-8451.svg)
+
+- [https://github.com/ianxtianxt/CVE-2019-8451](https://github.com/ianxtianxt/CVE-2019-8451) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2019-8451.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2019-8451.svg)
+
+## CVE-2019-8449
+ The /rest/api/latest/groupuserpicker resource in Jira before version 8.4.0 allows remote attackers to enumerate usernames via an information disclosure vulnerability.
+
+
+
+- [https://github.com/mufeedvh/CVE-2019-8449](https://github.com/mufeedvh/CVE-2019-8449) :  ![starts](https://img.shields.io/github/stars/mufeedvh/CVE-2019-8449.svg) ![forks](https://img.shields.io/github/forks/mufeedvh/CVE-2019-8449.svg)
+
+- [https://github.com/r0lh/CVE-2019-8449](https://github.com/r0lh/CVE-2019-8449) :  ![starts](https://img.shields.io/github/stars/r0lh/CVE-2019-8449.svg) ![forks](https://img.shields.io/github/forks/r0lh/CVE-2019-8449.svg)
+
+## CVE-2019-8446
+ The /rest/issueNav/1/issueTable resource in Jira before version 8.3.2 allows remote attackers to enumerate usernames via an incorrect authorisation check.
+
+
+
+- [https://github.com/CyberTrashPanda/CVE-2019-8446](https://github.com/CyberTrashPanda/CVE-2019-8446) :  ![starts](https://img.shields.io/github/stars/CyberTrashPanda/CVE-2019-8446.svg) ![forks](https://img.shields.io/github/forks/CyberTrashPanda/CVE-2019-8446.svg)
+
+## CVE-2019-8389
+ A file-read vulnerability was identified in the Wi-Fi transfer feature of Musicloud 1.6. By default, the application runs a transfer service on port 8080, accessible by everyone on the same Wi-Fi network. An attacker can send the POST parameters downfiles and cur-folder (with a crafted ../ payload) to the download.script endpoint. This will create a MusicPlayerArchive.zip archive that is publicly accessible and includes the content of any requested file (such as the /etc/passwd file).
+
+
+
+- [https://github.com/shawarkhanethicalhacker/CVE-2019-8389](https://github.com/shawarkhanethicalhacker/CVE-2019-8389) :  ![starts](https://img.shields.io/github/stars/shawarkhanethicalhacker/CVE-2019-8389.svg) ![forks](https://img.shields.io/github/forks/shawarkhanethicalhacker/CVE-2019-8389.svg)
+
+## CVE-2019-8331
+ In Bootstrap before 3.4.1 and 4.3.x before 4.3.1, XSS is possible in the tooltip or popover data-template attribute.
+
+
+
+- [https://github.com/ossf-cve-benchmark/CVE-2019-8331](https://github.com/ossf-cve-benchmark/CVE-2019-8331) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-8331.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-8331.svg)
+
+## CVE-2019-7839
+ ColdFusion versions Update 3 and earlier, Update 10 and earlier, and Update 18 and earlier have a command injection vulnerability. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/securifera/CVE-2019-7839](https://github.com/securifera/CVE-2019-7839) :  ![starts](https://img.shields.io/github/stars/securifera/CVE-2019-7839.svg) ![forks](https://img.shields.io/github/forks/securifera/CVE-2019-7839.svg)
+
+## CVE-2019-7642
+ D-Link routers with the mydlink feature have some web interfaces without authentication requirements. An attacker can remotely obtain users' DNS query logs and login logs. Vulnerable targets include but are not limited to the latest firmware versions of DIR-817LW (A1-1.04), DIR-816L (B1-2.06), DIR-816 (B1-2.06?), DIR-850L (A1-1.09), and DIR-868L (A1-1.10).
+
+
+
+- [https://github.com/xw77cve/CVE-2019-7642](https://github.com/xw77cve/CVE-2019-7642) :  ![starts](https://img.shields.io/github/stars/xw77cve/CVE-2019-7642.svg) ![forks](https://img.shields.io/github/forks/xw77cve/CVE-2019-7642.svg)
+
+## CVE-2019-7616
+ Kibana versions before 6.8.2 and 7.2.1 contain a server side request forgery (SSRF) flaw in the graphite integration for Timelion visualizer. An attacker with administrative Kibana access could set the timelion:graphite.url configuration option to an arbitrary URL. This could possibly lead to an attacker accessing external URL resources as the Kibana process on the host system.
+
+
+
+- [https://github.com/random-robbie/CVE-2019-7616](https://github.com/random-robbie/CVE-2019-7616) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2019-7616.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2019-7616.svg)
+
+## CVE-2019-7610
+ Kibana versions before 6.6.1 contain an arbitrary code execution flaw in the security audit logger. If a Kibana instance has the setting xpack.security.audit.enabled set to true, an attacker could send a request that will attempt to execute javascript code. This could possibly lead to an attacker executing arbitrary commands with permissions of the Kibana process on the host system.
+
+
+
+- [https://github.com/whoami0622/CVE-2019-7610](https://github.com/whoami0622/CVE-2019-7610) :  ![starts](https://img.shields.io/github/stars/whoami0622/CVE-2019-7610.svg) ![forks](https://img.shields.io/github/forks/whoami0622/CVE-2019-7610.svg)
+
+## CVE-2019-7609
+ Kibana versions before 5.6.15 and 6.6.1 contain an arbitrary code execution flaw in the Timelion visualizer. An attacker with access to the Timelion application could send a request that will attempt to execute javascript code. This could possibly lead to an attacker executing arbitrary commands with permissions of the Kibana process on the host system.
+
+
+
+- [https://github.com/LandGrey/CVE-2019-7609](https://github.com/LandGrey/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/LandGrey/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/LandGrey/CVE-2019-7609.svg)
+
+- [https://github.com/jas502n/kibana-RCE](https://github.com/jas502n/kibana-RCE) :  ![starts](https://img.shields.io/github/stars/jas502n/kibana-RCE.svg) ![forks](https://img.shields.io/github/forks/jas502n/kibana-RCE.svg)
+
+- [https://github.com/mpgn/CVE-2019-7609](https://github.com/mpgn/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/mpgn/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/mpgn/CVE-2019-7609.svg)
+
+- [https://github.com/hekadan/CVE-2019-7609](https://github.com/hekadan/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/hekadan/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/hekadan/CVE-2019-7609.svg)
+
+- [https://github.com/rhbb/CVE-2019-7609](https://github.com/rhbb/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/rhbb/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/rhbb/CVE-2019-7609.svg)
+
+## CVE-2019-7482
+ Stack-based buffer overflow in SonicWall SMA100 allows an unauthenticated user to execute arbitrary code in function libSys.so. This vulnerability impacted SMA100 version 9.0.0.3 and earlier.
+
+
+
+- [https://github.com/b4bay/CVE-2019-7482](https://github.com/b4bay/CVE-2019-7482) :  ![starts](https://img.shields.io/github/stars/b4bay/CVE-2019-7482.svg) ![forks](https://img.shields.io/github/forks/b4bay/CVE-2019-7482.svg)
+
+- [https://github.com/w0lfzhang/sonicwall-cve-2019-7482](https://github.com/w0lfzhang/sonicwall-cve-2019-7482) :  ![starts](https://img.shields.io/github/stars/w0lfzhang/sonicwall-cve-2019-7482.svg) ![forks](https://img.shields.io/github/forks/w0lfzhang/sonicwall-cve-2019-7482.svg)
+
+- [https://github.com/singletrackseeker/CVE-2019-7482](https://github.com/singletrackseeker/CVE-2019-7482) :  ![starts](https://img.shields.io/github/stars/singletrackseeker/CVE-2019-7482.svg) ![forks](https://img.shields.io/github/forks/singletrackseeker/CVE-2019-7482.svg)
+
+## CVE-2019-7357
+ Subrion CMS 4.2.1 has CSRF in panel/modules/plugins/. The attacker can remotely activate/deactivate the plugins.
+
+
+
+- [https://github.com/ngpentest007/CVE-2019-7357](https://github.com/ngpentest007/CVE-2019-7357) :  ![starts](https://img.shields.io/github/stars/ngpentest007/CVE-2019-7357.svg) ![forks](https://img.shields.io/github/forks/ngpentest007/CVE-2019-7357.svg)
+
+## CVE-2019-7356
+ Subrion CMS v4.2.1 allows XSS via the panel/phrases/ VALUE parameter.
+
+
+
+- [https://github.com/ngpentest007/CVE-2019-7356](https://github.com/ngpentest007/CVE-2019-7356) :  ![starts](https://img.shields.io/github/stars/ngpentest007/CVE-2019-7356.svg) ![forks](https://img.shields.io/github/forks/ngpentest007/CVE-2019-7356.svg)
+
+## CVE-2019-7304
+ Canonical snapd before version 2.37.1 incorrectly performed socket owner validation, allowing an attacker to run arbitrary commands as root. This issue affects: Canonical snapd versions prior to 2.37.1.
+
+
+
+- [https://github.com/initstring/dirty_sock](https://github.com/initstring/dirty_sock) :  ![starts](https://img.shields.io/github/stars/initstring/dirty_sock.svg) ![forks](https://img.shields.io/github/forks/initstring/dirty_sock.svg)
+
+- [https://github.com/SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock) :  ![starts](https://img.shields.io/github/stars/SecuritySi/CVE-2019-7304_DirtySock.svg) ![forks](https://img.shields.io/github/forks/SecuritySi/CVE-2019-7304_DirtySock.svg)
+
+- [https://github.com/bendalisoftpro/snap_priv_esc](https://github.com/bendalisoftpro/snap_priv_esc) :  ![starts](https://img.shields.io/github/stars/bendalisoftpro/snap_priv_esc.svg) ![forks](https://img.shields.io/github/forks/bendalisoftpro/snap_priv_esc.svg)
+
+## CVE-2019-7238
+ Sonatype Nexus Repository Manager before 3.15.0 has Incorrect Access Control.
+
+
+
+- [https://github.com/mpgn/CVE-2019-7238](https://github.com/mpgn/CVE-2019-7238) :  ![starts](https://img.shields.io/github/stars/mpgn/CVE-2019-7238.svg) ![forks](https://img.shields.io/github/forks/mpgn/CVE-2019-7238.svg)
+
+- [https://github.com/jas502n/CVE-2019-7238](https://github.com/jas502n/CVE-2019-7238) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-7238.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-7238.svg)
+
+- [https://github.com/verctor/nexus_rce_CVE-2019-7238](https://github.com/verctor/nexus_rce_CVE-2019-7238) :  ![starts](https://img.shields.io/github/stars/verctor/nexus_rce_CVE-2019-7238.svg) ![forks](https://img.shields.io/github/forks/verctor/nexus_rce_CVE-2019-7238.svg)
+
+- [https://github.com/magicming200/CVE-2019-7238_Nexus_RCE_Tool](https://github.com/magicming200/CVE-2019-7238_Nexus_RCE_Tool) :  ![starts](https://img.shields.io/github/stars/magicming200/CVE-2019-7238_Nexus_RCE_Tool.svg) ![forks](https://img.shields.io/github/forks/magicming200/CVE-2019-7238_Nexus_RCE_Tool.svg)
+
+## CVE-2019-7219
+ Unauthenticated reflected cross-site scripting (XSS) exists in Zarafa Webapp 2.0.1.47791 and earlier. NOTE: this is a discontinued product. The issue was fixed in later Zarafa Webapp versions; however, some former Zarafa Webapp customers use the related Kopano product instead.
+
+
+
+- [https://github.com/verifysecurity/CVE-2019-7219](https://github.com/verifysecurity/CVE-2019-7219) :  ![starts](https://img.shields.io/github/stars/verifysecurity/CVE-2019-7219.svg) ![forks](https://img.shields.io/github/forks/verifysecurity/CVE-2019-7219.svg)
+
+## CVE-2019-7216
+ An issue was discovered in FileChucker 4.99e-free-e02. filechucker.cgi has a filter bypass that allows a malicious user to upload any type of file by using % characters within the extension, e.g., file.%ph%p becomes file.php.
+
+
+
+- [https://github.com/Ekultek/CVE-2019-7216](https://github.com/Ekultek/CVE-2019-7216) :  ![starts](https://img.shields.io/github/stars/Ekultek/CVE-2019-7216.svg) ![forks](https://img.shields.io/github/forks/Ekultek/CVE-2019-7216.svg)
+
+## CVE-2019-7214
+ SmarterTools SmarterMail 16.x before build 6985 allows deserialization of untrusted data. An unauthenticated attacker could run commands on the server when port 17001 was remotely accessible. This port is not accessible remotely by default after applying the Build 6985 patch.
+
+
+
+- [https://github.com/AndyFeiLi/-CVE-2019-7214](https://github.com/AndyFeiLi/-CVE-2019-7214) :  ![starts](https://img.shields.io/github/stars/AndyFeiLi/-CVE-2019-7214.svg) ![forks](https://img.shields.io/github/forks/AndyFeiLi/-CVE-2019-7214.svg)
+
+- [https://github.com/devzspy/CVE-2019-7214](https://github.com/devzspy/CVE-2019-7214) :  ![starts](https://img.shields.io/github/stars/devzspy/CVE-2019-7214.svg) ![forks](https://img.shields.io/github/forks/devzspy/CVE-2019-7214.svg)
+
+## CVE-2019-7195
+ This external control of file name or path vulnerability allows remote attackers to access or modify system files. To fix the vulnerability, QNAP recommend updating Photo Station to their latest versions.
+
+
+
+- [https://github.com/th3gundy/CVE-2019-7192_QNAP_Exploit](https://github.com/th3gundy/CVE-2019-7192_QNAP_Exploit) :  ![starts](https://img.shields.io/github/stars/th3gundy/CVE-2019-7192_QNAP_Exploit.svg) ![forks](https://img.shields.io/github/forks/th3gundy/CVE-2019-7192_QNAP_Exploit.svg)
+
+- [https://github.com/cycraft-corp/cve-2019-7192-check](https://github.com/cycraft-corp/cve-2019-7192-check) :  ![starts](https://img.shields.io/github/stars/cycraft-corp/cve-2019-7192-check.svg) ![forks](https://img.shields.io/github/forks/cycraft-corp/cve-2019-7192-check.svg)
+
+## CVE-2019-7192
+ This improper access control vulnerability allows remote attackers to gain unauthorized access to the system. To fix these vulnerabilities, QNAP recommend updating Photo Station to their latest versions.
+
+
+
+- [https://github.com/th3gundy/CVE-2019-7192_QNAP_Exploit](https://github.com/th3gundy/CVE-2019-7192_QNAP_Exploit) :  ![starts](https://img.shields.io/github/stars/th3gundy/CVE-2019-7192_QNAP_Exploit.svg) ![forks](https://img.shields.io/github/forks/th3gundy/CVE-2019-7192_QNAP_Exploit.svg)
+
+- [https://github.com/cycraft-corp/cve-2019-7192-check](https://github.com/cycraft-corp/cve-2019-7192-check) :  ![starts](https://img.shields.io/github/stars/cycraft-corp/cve-2019-7192-check.svg) ![forks](https://img.shields.io/github/forks/cycraft-corp/cve-2019-7192-check.svg)
+
+## CVE-2019-7176
+ An issue was discovered in GitLab Community and Enterprise Edition 8.x (starting in 8.9), 9.x, 10.x, and 11.x before 11.5.9, 11.6.x before 11.6.7, and 11.7.x before 11.7.2. It has Incorrect Access Control. Guest users are able to add reaction emojis on comments to which they have no visibility.
+
+
+
+- [https://github.com/JinBean/CVE-Extension](https://github.com/JinBean/CVE-Extension) :  ![starts](https://img.shields.io/github/stars/JinBean/CVE-Extension.svg) ![forks](https://img.shields.io/github/forks/JinBean/CVE-Extension.svg)
+
+## CVE-2019-6977
+ gdImageColorMatch in gd_color_match.c in the GD Graphics Library (aka LibGD) 2.2.5, as used in the imagecolormatch function in PHP before 5.6.40, 7.x before 7.1.26, 7.2.x before 7.2.14, and 7.3.x before 7.3.1, has a heap-based buffer overflow. This can be exploited by an attacker who is able to trigger imagecolormatch calls with crafted image data.
+
+
+
+- [https://github.com/ozkanbilge/Apache-Exploit-2019](https://github.com/ozkanbilge/Apache-Exploit-2019) :  ![starts](https://img.shields.io/github/stars/ozkanbilge/Apache-Exploit-2019.svg) ![forks](https://img.shields.io/github/forks/ozkanbilge/Apache-Exploit-2019.svg)
+
 ## CVE-2019-6715
  pub/sns.php in the W3 Total Cache plugin before 0.9.4 for WordPress allows remote attackers to read arbitrary files via the SubscribeURL field in SubscriptionConfirmation JSON data.
 
