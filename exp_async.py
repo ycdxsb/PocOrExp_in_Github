@@ -211,8 +211,9 @@ def process_cve_year(year,init = True):
                 continue
             else:
                 tmp.append(item)
+        cve_infos = tmp
     step = len(tokens)
-    cve_infos_slice = [tmp[i:i+step] for i in range(0,len(tmp),step)]
+    cve_infos_slice = [cve_infos[i:i+step] for i in range(0,len(cve_infos),step)]
     for cve_infos in tqdm(cve_infos_slice):
         process_cve(cve_infos,init)
     generate_markdown()

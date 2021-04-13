@@ -204,7 +204,7 @@ def process_cve_year(year,init = True):
                 continue
             else:
                 tmp.append(item)
-    cve_infos = tmp
+        cve_infos = tmp
     process_cve(cve_infos,init)
     generate_markdown()
     
