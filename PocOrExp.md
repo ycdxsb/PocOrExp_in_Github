@@ -22485,6 +22485,79 @@
 
 
 ## 2007
+## CVE-2007-6638
+ March Networks DVR 3204 stores sensitive information under the web root with insufficient access control, which allows remote attackers to obtain usernames, passwords, device names, and IP addresses via a direct request for scripts/logfiles.tar.gz.
+
+
+
+- [https://github.com/alt3kx/CVE-2007-6638](https://github.com/alt3kx/CVE-2007-6638) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2007-6638.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2007-6638.svg)
+
+## CVE-2007-6377
+ Stack-based buffer overflow in the PassThru functionality in ext.dll in BadBlue 2.72b and earlier allows remote attackers to execute arbitrary code via a long query string.
+
+
+
+- [https://github.com/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377](https://github.com/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377) :  ![starts](https://img.shields.io/github/stars/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377.svg) ![forks](https://img.shields.io/github/forks/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377.svg)
+
+## CVE-2007-5036
+ Multiple buffer overflows in the AirDefense Airsensor M520 with firmware 4.3.1.1 and 4.4.1.4 allow remote authenticated users to cause a denial of service (HTTPS service outage) via a crafted query string in an HTTPS request to (1) adLog.cgi, (2) post.cgi, or (3) ad.cgi, related to the &quot;files filter.&quot;
+
+
+
+- [https://github.com/alt3kx/CVE-2007-5036](https://github.com/alt3kx/CVE-2007-5036) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2007-5036.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2007-5036.svg)
+
+## CVE-2007-4607
+ Buffer overflow in the EasyMailSMTPObj ActiveX control in emsmtp.dll 6.0.1 in the Quiksoft EasyMail SMTP Object, as used in Postcast Server Pro 3.0.61 and other products, allows remote attackers to execute arbitrary code via a long argument to the SubmitToExpress method, a different vulnerability than CVE-2007-1029. NOTE: this may have been fixed in version 6.0.3.15.
+
+
+
+- [https://github.com/joeyrideout/CVE-2007-4607](https://github.com/joeyrideout/CVE-2007-4607) :  ![starts](https://img.shields.io/github/stars/joeyrideout/CVE-2007-4607.svg) ![forks](https://img.shields.io/github/forks/joeyrideout/CVE-2007-4607.svg)
+
+## CVE-2007-3831
+ PHP remote file inclusion in main.php in ISS Proventia Network IPS GX5108 1.3 and GX5008 1.5 allows remote attackers to execute arbitrary PHP code via a URL in the page parameter.
+
+
+
+- [https://github.com/alt3kx/CVE-2007-3831](https://github.com/alt3kx/CVE-2007-3831) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2007-3831.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2007-3831.svg)
+
+## CVE-2007-3830
+ Cross-site scripting (XSS) vulnerability in alert.php in ISS Proventia Network IPS GX5108 1.3 and GX5008 1.5 allows remote attackers to inject arbitrary web script or HTML via the reminder parameter.
+
+
+
+- [https://github.com/alt3kx/CVE-2007-3830](https://github.com/alt3kx/CVE-2007-3830) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2007-3830.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2007-3830.svg)
+
+## CVE-2007-2447
+ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
+
+
+
+- [https://github.com/amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/amriunix/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/amriunix/CVE-2007-2447.svg)
+
+- [https://github.com/Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script) :  ![starts](https://img.shields.io/github/stars/Unam3dd/exploit_smb_usermap_script.svg) ![forks](https://img.shields.io/github/forks/Unam3dd/exploit_smb_usermap_script.svg)
+
+- [https://github.com/3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/3x1t1um/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/3x1t1um/CVE-2007-2447.svg)
+
+- [https://github.com/ozuma/CVE-2007-2447](https://github.com/ozuma/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/ozuma/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/ozuma/CVE-2007-2447.svg)
+
+- [https://github.com/Unix13/metasploitable2](https://github.com/Unix13/metasploitable2) :  ![starts](https://img.shields.io/github/stars/Unix13/metasploitable2.svg) ![forks](https://img.shields.io/github/forks/Unix13/metasploitable2.svg)
+
+- [https://github.com/JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/JoseBarrios/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/JoseBarrios/CVE-2007-2447.svg)
+
+- [https://github.com/xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xlcc4096/exploit-CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xlcc4096/exploit-CVE-2007-2447.svg)
+
+- [https://github.com/0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xKn/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xKn/CVE-2007-2447.svg)
+
+- [https://github.com/Un4gi/CVE-2007-2447](https://github.com/Un4gi/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Un4gi/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Un4gi/CVE-2007-2447.svg)
+
+- [https://github.com/b1fair/smb_usermap](https://github.com/b1fair/smb_usermap) :  ![starts](https://img.shields.io/github/stars/b1fair/smb_usermap.svg) ![forks](https://img.shields.io/github/forks/b1fair/smb_usermap.svg)
+
+- [https://github.com/Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python) :  ![starts](https://img.shields.io/github/stars/Ziemni/CVE-2007-2447-in-Python.svg) ![forks](https://img.shields.io/github/forks/Ziemni/CVE-2007-2447-in-Python.svg)
+
+- [https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3) :  ![starts](https://img.shields.io/github/stars/WildfootW/CVE-2007-2447_Samba_3.0.25rc3.svg) ![forks](https://img.shields.io/github/forks/WildfootW/CVE-2007-2447_Samba_3.0.25rc3.svg)
+
+- [https://github.com/nickvourd/smb-usermap-destroyer](https://github.com/nickvourd/smb-usermap-destroyer) :  ![starts](https://img.shields.io/github/stars/nickvourd/smb-usermap-destroyer.svg) ![forks](https://img.shields.io/github/forks/nickvourd/smb-usermap-destroyer.svg)
+
 ## CVE-2007-1858
  The default SSL cipher configuration in Apache Tomcat 4.1.28 through 4.1.31, 5.0.0 through 5.0.30, and 5.5.0 through 5.5.17 uses certain insecure ciphers, including the anonymous cipher, which allows remote attackers to obtain sensitive information or have other, unspecified impacts.
 
@@ -22518,6 +22591,68 @@
 
 
 ## 2006
+## CVE-2006-6184
+ Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
+
+
+
+- [https://github.com/shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184) :  ![starts](https://img.shields.io/github/stars/shauntdergrigorian/cve-2006-6184.svg) ![forks](https://img.shields.io/github/forks/shauntdergrigorian/cve-2006-6184.svg)
+
+- [https://github.com/b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184) :  ![starts](https://img.shields.io/github/stars/b03902043/CVE-2006-6184.svg) ![forks](https://img.shields.io/github/forks/b03902043/CVE-2006-6184.svg)
+
+## CVE-2006-4814
+ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock access to user space, which has unspecified impact and attack vectors, possibly related to a deadlock.
+
+
+
+- [https://github.com/tagatac/linux-CVE-2006-4814](https://github.com/tagatac/linux-CVE-2006-4814) :  ![starts](https://img.shields.io/github/stars/tagatac/linux-CVE-2006-4814.svg) ![forks](https://img.shields.io/github/forks/tagatac/linux-CVE-2006-4814.svg)
+
+## CVE-2006-4777
+ Heap-based buffer overflow in the DirectAnimation Path Control (DirectAnimation.PathControl) COM object (daxctle.ocx) for Internet Explorer 6.0 SP1, on Chinese and possibly other Windows distributions, allows remote attackers to execute arbitrary code via unknown manipulations in arguments to the KeyFrame method, possibly related to an integer overflow, as demonstrated by daxctle2, and a different vulnerability than CVE-2006-4446.
+
+
+
+- [https://github.com/Mario1234/js-driveby-download-CVE-2006-4777](https://github.com/Mario1234/js-driveby-download-CVE-2006-4777) :  ![starts](https://img.shields.io/github/stars/Mario1234/js-driveby-download-CVE-2006-4777.svg) ![forks](https://img.shields.io/github/forks/Mario1234/js-driveby-download-CVE-2006-4777.svg)
+
+## CVE-2006-3747
+ Off-by-one error in the ldap scheme handling in the Rewrite module (mod_rewrite) in Apache 1.3 from 1.3.28, 2.0.46 and other versions before 2.0.59, and 2.2, when RewriteEngine is enabled, allows remote attackers to cause a denial of service (application crash) and possibly execute arbitrary code via crafted URLs that are not properly handled using certain rewrite rules.
+
+
+
+- [https://github.com/defensahacker/CVE-2006-3747](https://github.com/defensahacker/CVE-2006-3747) :  ![starts](https://img.shields.io/github/stars/defensahacker/CVE-2006-3747.svg) ![forks](https://img.shields.io/github/forks/defensahacker/CVE-2006-3747.svg)
+
+## CVE-2006-3592
+ Unspecified vulnerability in the command line interface (CLI) in Cisco Unified CallManager (CUCM) 5.0(1) through 5.0(3a) allows local users to execute arbitrary commands with elevated privileges via unspecified vectors, involving &quot;certain CLI commands,&quot; aka bug CSCse11005.
+
+
+
+- [https://github.com/adenkiewicz/CVE-2006-3592](https://github.com/adenkiewicz/CVE-2006-3592) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2006-3592.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2006-3592.svg)
+
+## CVE-2006-3392
+ Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
+
+
+
+- [https://github.com/IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/IvanGlinkin/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/IvanGlinkin/CVE-2006-3392.svg)
+
+- [https://github.com/0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/0xtz/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/0xtz/CVE-2006-3392.svg)
+
+- [https://github.com/notclement/cve-2006-3392](https://github.com/notclement/cve-2006-3392) :  ![starts](https://img.shields.io/github/stars/notclement/cve-2006-3392.svg) ![forks](https://img.shields.io/github/forks/notclement/cve-2006-3392.svg)
+
+## CVE-2006-1236
+ Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
+
+
+
+- [https://github.com/Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236) :  ![starts](https://img.shields.io/github/stars/Axua/CVE-2006-1236.svg) ![forks](https://img.shields.io/github/forks/Axua/CVE-2006-1236.svg)
+
+## CVE-2006-0450
+ phpBB 2.0.19 and earlier allows remote attackers to cause a denial of service (application crash) by (1) registering many users through profile.php or (2) using search.php to search in a certain way that confuses the database.
+
+
+
+- [https://github.com/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities](https://github.com/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities) :  ![starts](https://img.shields.io/github/stars/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities.svg) ![forks](https://img.shields.io/github/forks/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities.svg)
+
 
 
 ## 2005
