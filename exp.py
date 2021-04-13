@@ -151,10 +151,7 @@ def get_all_startswith_CVE_ID(cve_ids,CVE_ID):
             result.append(cve_id)
     return result
 
-def process_cve(cve_infos,init = True):
-    cve_ids = []
-    for item in cve_infos:
-        cve_ids.append(item['CVE_ID'])
+def process_cve(cve_infos,cve_ids,init = True):
     for item in tqdm(cve_infos):
         CVE_ID = item['CVE_ID']
         year = item['CVE_ID'].split("-")[1]
@@ -194,6 +191,9 @@ def process_cve_year(year,init = True):
     filename = "allitems-cvrf-year-%d.xml"%year
     download_cve_xml(filename)
     cve_infos = parse_cve_xml(filename)
+    cve_ids = []
+    for item in cve_infos:
+        cve_ids.append(item['CVE_ID'])
     tmp = []
     if(init):
         for item in cve_infos:
@@ -205,7 +205,7 @@ def process_cve_year(year,init = True):
             else:
                 tmp.append(item)
         cve_infos = tmp
-    process_cve(cve_infos,init)
+    process_cve(cve_infos,cve_ids,init)
     generate_markdown()
     
 def process_cve_all(init = True):

@@ -186,10 +186,7 @@ async def process_single_cve(cve_ids,item,token):
         json.dump(cve_info, f)
 
 
-def process_cve(cve_infos,init = True):
-    cve_ids = []
-    for item in cve_infos:
-        cve_ids.append(item['CVE_ID'])
+def process_cve(cve_infos,cve_ids,init = True):
     tasks = []
     for i in range(len(cve_infos)):
         tasks.append(asyncio.ensure_future(process_single_cve(cve_ids,cve_infos[i],tokens[i])))
@@ -200,7 +197,9 @@ def process_cve_year(year,init = True):
     filename = "allitems-cvrf-year-%d.xml"%year
     download_cve_xml(filename)
     cve_infos = parse_cve_xml(filename)
-    cve_infos = parse_cve_xml(filename)
+    cve_ids = []
+    for item in cve_infos:
+        cve_ids.append(item['CVE_ID'])
     tmp = []
     if(init):
         for item in cve_infos:
@@ -215,7 +214,7 @@ def process_cve_year(year,init = True):
     step = len(tokens)
     cve_infos_slice = [cve_infos[i:i+step] for i in range(0,len(cve_infos),step)]
     for cve_infos in tqdm(cve_infos_slice):
-        process_cve(cve_infos,init)
+        process_cve(cve_infos,cve_ids,init)
     generate_markdown()
     
 def process_cve_all(init = True):
