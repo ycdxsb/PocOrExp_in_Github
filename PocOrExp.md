@@ -22656,12 +22656,128 @@
 
 
 ## 2005
+## CVE-2005-3299
+ PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and 2.6.4-pl1 allows remote attackers to include local files via the $__redirect parameter, possibly involving the subform array.
+
+
+
+- [https://github.com/aforakjackson/cve2005-3299](https://github.com/aforakjackson/cve2005-3299) :  ![starts](https://img.shields.io/github/stars/aforakjackson/cve2005-3299.svg) ![forks](https://img.shields.io/github/forks/aforakjackson/cve2005-3299.svg)
+
+## CVE-2005-2428
+ Lotus Domino R5 and R6 WebMail, with &quot;Generate HTML for all fields&quot; enabled, stores sensitive data from names.nsf in hidden form fields, which allows remote attackers to read the HTML source to obtain sensitive information such as (1) the password hash in the HTTPPassword field, (2) the password change date in the HTTPPasswordChangeDate field, (3) the client platform in the ClntPltfrm field, (4) the client machine name in the ClntMachine field, and (5) the client Lotus Domino release in the ClntBld field, a different vulnerability than CVE-2005-2696.
+
+
+
+- [https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit) :  ![starts](https://img.shields.io/github/stars/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit.svg) ![forks](https://img.shields.io/github/forks/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit.svg)
+
+## CVE-2005-1125
+ Race condition in libsafe 2.0.16 and earlier, when running in multi-threaded applications, allows attackers to bypass libsafe protection and exploit other vulnerabilities before the _libsafe_die function call is completed.
+
+
+
+- [https://github.com/tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125) :  ![starts](https://img.shields.io/github/stars/tagatac/libsafe-CVE-2005-1125.svg) ![forks](https://img.shields.io/github/forks/tagatac/libsafe-CVE-2005-1125.svg)
+
+## CVE-2005-0603
+ viewtopic.php in phpBB 2.0.12 and earlier allows remote attackers to obtain sensitive information via a highlight parameter containing invalid regular expression syntax, which reveals the path in a PHP error message.
+
+
+
+- [https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure](https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure) :  ![starts](https://img.shields.io/github/stars/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure.svg) ![forks](https://img.shields.io/github/forks/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure.svg)
+
 
 
 ## 2004
+## CVE-2004-2549
+ Nortel Wireless LAN (WLAN) Access Point (AP) 2220, 2221, and 2225 allow remote attackers to cause a denial of service (service crash) via a TCP request with a large string, followed by 8 newline characters, to (1) the Telnet service on TCP port 23 and (2) the HTTP service on TCP port 80, possibly due to a buffer overflow.
+
+
+
+- [https://github.com/alt3kx/CVE-2004-2549](https://github.com/alt3kx/CVE-2004-2549) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2004-2549.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2004-2549.svg)
+
+## CVE-2004-2271
+ Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.
+
+
+
+- [https://github.com/kkirsche/CVE-2004-2271](https://github.com/kkirsche/CVE-2004-2271) :  ![starts](https://img.shields.io/github/stars/kkirsche/CVE-2004-2271.svg) ![forks](https://img.shields.io/github/forks/kkirsche/CVE-2004-2271.svg)
+
+- [https://github.com/war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2004-2271.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2004-2271.svg)
+
+- [https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF) :  ![starts](https://img.shields.io/github/stars/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF.svg) ![forks](https://img.shields.io/github/forks/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF.svg)
+
+- [https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow](https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow) :  ![starts](https://img.shields.io/github/stars/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow.svg) ![forks](https://img.shields.io/github/forks/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow.svg)
+
+## CVE-2004-2167
+ Multiple buffer overflows in LaTeX2rtf 1.9.15, and possibly other versions, allow remote attackers to execute arbitrary code via (1) the expandmacro function, and possibly (2) Environments and (3) TranslateCommand.
+
+
+
+- [https://github.com/uzzzval/cve-2004-2167](https://github.com/uzzzval/cve-2004-2167) :  ![starts](https://img.shields.io/github/stars/uzzzval/cve-2004-2167.svg) ![forks](https://img.shields.io/github/forks/uzzzval/cve-2004-2167.svg)
+
+## CVE-2004-1769
+ The &quot;Allow cPanel users to reset their password via email&quot; feature in cPanel 9.1.0 build 34 and earlier, including 8.x, allows remote attackers to execute arbitrary code via the user parameter to resetpass.
+
+
+
+- [https://github.com/sinkaroid/shiguresh](https://github.com/sinkaroid/shiguresh) :  ![starts](https://img.shields.io/github/stars/sinkaroid/shiguresh.svg) ![forks](https://img.shields.io/github/forks/sinkaroid/shiguresh.svg)
+
+- [https://github.com/Redsplit/shiguresh](https://github.com/Redsplit/shiguresh) :  ![starts](https://img.shields.io/github/stars/Redsplit/shiguresh.svg) ![forks](https://img.shields.io/github/forks/Redsplit/shiguresh.svg)
+
+## CVE-2004-1561
+ Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute arbitrary code via an HTTP request with a large number of headers.
+
+
+
+- [https://github.com/ivanitlearning/CVE-2004-1561](https://github.com/ivanitlearning/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/ivanitlearning/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/ivanitlearning/CVE-2004-1561.svg)
+
+- [https://github.com/darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/darrynb89/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/darrynb89/CVE-2004-1561.svg)
+
+## CVE-2004-0558
+ The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows remote attackers to cause a denial of service (service hang) via a certain UDP packet to the IPP port.
+
+
+
+- [https://github.com/fibonascii/CVE-2004-0558](https://github.com/fibonascii/CVE-2004-0558) :  ![starts](https://img.shields.io/github/stars/fibonascii/CVE-2004-0558.svg) ![forks](https://img.shields.io/github/forks/fibonascii/CVE-2004-0558.svg)
+
 
 
 ## 2003
+## CVE-2003-0282
+ Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
+
+
+
+- [https://github.com/lushann/cve-2003-0282](https://github.com/lushann/cve-2003-0282) :  ![starts](https://img.shields.io/github/stars/lushann/cve-2003-0282.svg) ![forks](https://img.shields.io/github/forks/lushann/cve-2003-0282.svg)
+
+## CVE-2003-0264
+ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execute arbitrary code via (1) a long EHLO argument to slmail.exe, (2) a long XTRN argument to slmail.exe, (3) a long string to POPPASSWD, or (4) a long password to the POP3 server.
+
+
+
+- [https://github.com/fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit) :  ![starts](https://img.shields.io/github/stars/fyoderxx/slmail-exploit.svg) ![forks](https://img.shields.io/github/forks/fyoderxx/slmail-exploit.svg)
+
+- [https://github.com/war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2003-0264.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2003-0264.svg)
+
+- [https://github.com/SxNade/CVE-2003-0264_EXPLOIT](https://github.com/SxNade/CVE-2003-0264_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/SxNade/CVE-2003-0264_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/SxNade/CVE-2003-0264_EXPLOIT.svg)
+
+- [https://github.com/adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2003-0264.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2003-0264.svg)
+
+- [https://github.com/pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5) :  ![starts](https://img.shields.io/github/stars/pwncone/CVE-2003-0264-SLmail-5.5.svg) ![forks](https://img.shields.io/github/forks/pwncone/CVE-2003-0264-SLmail-5.5.svg)
+
+## CVE-2003-0222
+ Stack-based buffer overflow in Oracle Net Services for Oracle Database Server 9i release 2 and earlier allows attackers to execute arbitrary code via a &quot;CREATE DATABASE LINK&quot; query containing a connect string with a long USING parameter.
+
+
+
+- [https://github.com/phamthanhsang280477/CVE-2003-0222](https://github.com/phamthanhsang280477/CVE-2003-0222) :  ![starts](https://img.shields.io/github/stars/phamthanhsang280477/CVE-2003-0222.svg) ![forks](https://img.shields.io/github/forks/phamthanhsang280477/CVE-2003-0222.svg)
+
+## CVE-2003-0201
+ Buffer overflow in the call_trans2open function in trans2.c for Samba 2.2.x before 2.2.8a, 2.0.10 and earlier 2.0.x versions, and Samba-TNG before 0.3.2, allows remote attackers to execute arbitrary code.
+
+
+
+- [https://github.com/KernelPan1k/trans2open-CVE-2003-0201](https://github.com/KernelPan1k/trans2open-CVE-2003-0201) :  ![starts](https://img.shields.io/github/stars/KernelPan1k/trans2open-CVE-2003-0201.svg) ![forks](https://img.shields.io/github/forks/KernelPan1k/trans2open-CVE-2003-0201.svg)
+
 
 
 ## 2002
