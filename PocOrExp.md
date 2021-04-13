@@ -7815,13 +7815,7 @@
 
 
 
-- [https://github.com/jas502n/CVE-2019-13272](https://github.com/jas502n/CVE-2019-13272) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-13272.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-13272.svg)
-
-- [https://github.com/Al1ex/LinuxEelvation](https://github.com/Al1ex/LinuxEelvation) :  ![starts](https://img.shields.io/github/stars/Al1ex/LinuxEelvation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/LinuxEelvation.svg)
-
 - [https://github.com/Cyc1eC/CVE-2019-13272](https://github.com/Cyc1eC/CVE-2019-13272) :  ![starts](https://img.shields.io/github/stars/Cyc1eC/CVE-2019-13272.svg) ![forks](https://img.shields.io/github/forks/Cyc1eC/CVE-2019-13272.svg)
-
-- [https://github.com/oneoy/CVE-2019-13272](https://github.com/oneoy/CVE-2019-13272) :  ![starts](https://img.shields.io/github/stars/oneoy/CVE-2019-13272.svg) ![forks](https://img.shields.io/github/forks/oneoy/CVE-2019-13272.svg)
 
 - [https://github.com/Huandtx/CVE-2019-13272](https://github.com/Huandtx/CVE-2019-13272) :  ![starts](https://img.shields.io/github/stars/Huandtx/CVE-2019-13272.svg) ![forks](https://img.shields.io/github/forks/Huandtx/CVE-2019-13272.svg)
 
@@ -7830,8 +7824,6 @@
 - [https://github.com/Tharana/Exploiting-a-Linux-kernel-vulnerability](https://github.com/Tharana/Exploiting-a-Linux-kernel-vulnerability) :  ![starts](https://img.shields.io/github/stars/Tharana/Exploiting-a-Linux-kernel-vulnerability.svg) ![forks](https://img.shields.io/github/forks/Tharana/Exploiting-a-Linux-kernel-vulnerability.svg)
 
 - [https://github.com/Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation) :  ![starts](https://img.shields.io/github/stars/Tharana/vulnerability-exploitation.svg) ![forks](https://img.shields.io/github/forks/Tharana/vulnerability-exploitation.svg)
-
-- [https://github.com/Thathsarani24/CVE2019-13272](https://github.com/Thathsarani24/CVE2019-13272) :  ![starts](https://img.shields.io/github/stars/Thathsarani24/CVE2019-13272.svg) ![forks](https://img.shields.io/github/forks/Thathsarani24/CVE2019-13272.svg)
 
 - [https://github.com/polosec/CVE-2019-13272](https://github.com/polosec/CVE-2019-13272) :  ![starts](https://img.shields.io/github/stars/polosec/CVE-2019-13272.svg) ![forks](https://img.shields.io/github/forks/polosec/CVE-2019-13272.svg)
 
@@ -8842,15 +8834,6 @@
 
 - [https://github.com/butterflyhack/CVE-2019-10207](https://github.com/butterflyhack/CVE-2019-10207) :  ![starts](https://img.shields.io/github/stars/butterflyhack/CVE-2019-10207.svg) ![forks](https://img.shields.io/github/forks/butterflyhack/CVE-2019-10207.svg)
 
-## CVE-2019-10200
- A flaw was discovered in OpenShift Container Platform 4 where, by default, users with access to create pods also have the ability to schedule workloads on master nodes. Pods with permission to access the host network, running on master nodes, can retrieve security credentials for the master AWS IAM role, allowing management access to AWS resources. With access to the security credentials, the user then has access to the entire infrastructure. Impact to data and system availability is high.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-1020012](https://github.com/ossf-cve-benchmark/CVE-2019-1020012) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-1020012.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-1020012.svg)
-
-- [https://github.com/DXY0411/CVE-2019-1020010](https://github.com/DXY0411/CVE-2019-1020010) :  ![starts](https://img.shields.io/github/stars/DXY0411/CVE-2019-1020010.svg) ![forks](https://img.shields.io/github/forks/DXY0411/CVE-2019-1020010.svg)
-
 ## CVE-2019-10172
  A flaw was found in org.codehaus.jackson:jackson-mapper-asl:1.9.x libraries. XML external entity vulnerabilities similar CVE-2016-3720 also affects codehaus jackson-mapper-asl libraries but in different classes.
 
@@ -8884,13 +8867,6 @@
 - [https://github.com/Dilshan-Eranda/CVE-2019-10149](https://github.com/Dilshan-Eranda/CVE-2019-10149) :  ![starts](https://img.shields.io/github/stars/Dilshan-Eranda/CVE-2019-10149.svg) ![forks](https://img.shields.io/github/forks/Dilshan-Eranda/CVE-2019-10149.svg)
 
 - [https://github.com/area1/exim-cve-2019-10149-data](https://github.com/area1/exim-cve-2019-10149-data) :  ![starts](https://img.shields.io/github/stars/area1/exim-cve-2019-10149-data.svg) ![forks](https://img.shields.io/github/forks/area1/exim-cve-2019-10149-data.svg)
-
-## CVE-2019-10100
- In JetBrains YouTrack Confluence plugin versions before 1.8.1.3, it was possible to achieve Server Side Template Injection. The attacker could add an Issue macro to the page in Confluence, and use a combination of a valid id field and specially crafted code in the link-text-template field to execute code remotely.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-1010091](https://github.com/ossf-cve-benchmark/CVE-2019-1010091) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-1010091.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-1010091.svg)
 
 ## CVE-2019-10092
  In Apache HTTP Server 2.4.0-2.4.39, a limited cross-site scripting issue was reported affecting the mod_proxy error page. An attacker could cause the link on the error page to be malformed and instead point to a page of their choice. This would only be exploitable where a server was set up with proxying enabled but was misconfigured in such a way that the Proxy Error page was displayed.
@@ -9411,6 +9387,8 @@
 
 - [https://github.com/initstring/dirty_sock](https://github.com/initstring/dirty_sock) :  ![starts](https://img.shields.io/github/stars/initstring/dirty_sock.svg) ![forks](https://img.shields.io/github/forks/initstring/dirty_sock.svg)
 
+- [https://github.com/Al1ex/LinuxEelvation](https://github.com/Al1ex/LinuxEelvation) :  ![starts](https://img.shields.io/github/stars/Al1ex/LinuxEelvation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/LinuxEelvation.svg)
+
 - [https://github.com/SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock) :  ![starts](https://img.shields.io/github/stars/SecuritySi/CVE-2019-7304_DirtySock.svg) ![forks](https://img.shields.io/github/forks/SecuritySi/CVE-2019-7304_DirtySock.svg)
 
 - [https://github.com/bendalisoftpro/snap_priv_esc](https://github.com/bendalisoftpro/snap_priv_esc) :  ![starts](https://img.shields.io/github/stars/bendalisoftpro/snap_priv_esc.svg) ![forks](https://img.shields.io/github/forks/bendalisoftpro/snap_priv_esc.svg)
@@ -9725,9 +9703,9 @@
 
 - [https://github.com/zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC) :  ![starts](https://img.shields.io/github/stars/zyriuse75/CVE-2019-5736-PoC.svg) ![forks](https://img.shields.io/github/forks/zyriuse75/CVE-2019-5736-PoC.svg)
 
-- [https://github.com/Lee-SungYoung/cve-2019-5736-study](https://github.com/Lee-SungYoung/cve-2019-5736-study) :  ![starts](https://img.shields.io/github/stars/Lee-SungYoung/cve-2019-5736-study.svg) ![forks](https://img.shields.io/github/forks/Lee-SungYoung/cve-2019-5736-study.svg)
-
 - [https://github.com/likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2019-5736.svg)
+
+- [https://github.com/Lee-SungYoung/cve-2019-5736-study](https://github.com/Lee-SungYoung/cve-2019-5736-study) :  ![starts](https://img.shields.io/github/stars/Lee-SungYoung/cve-2019-5736-study.svg) ![forks](https://img.shields.io/github/forks/Lee-SungYoung/cve-2019-5736-study.svg)
 
 - [https://github.com/likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc) :  ![starts](https://img.shields.io/github/stars/likescam/cve-2019-5736-poc.svg) ![forks](https://img.shields.io/github/forks/likescam/cve-2019-5736-poc.svg)
 
@@ -10281,28 +10259,12 @@
 
 - [https://github.com/infiniteLoopers/CVE-2019-2107](https://github.com/infiniteLoopers/CVE-2019-2107) :  ![starts](https://img.shields.io/github/stars/infiniteLoopers/CVE-2019-2107.svg) ![forks](https://img.shields.io/github/forks/infiniteLoopers/CVE-2019-2107.svg)
 
-## CVE-2019-2036
- In okToConnect of HidHostService.java, there is a possible permission bypass due to an incorrect state check. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-79703832
-
-
-
-- [https://github.com/jerrylewis9/CVE-2019-20361-EXPLOIT](https://github.com/jerrylewis9/CVE-2019-20361-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/jerrylewis9/CVE-2019-20361-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/jerrylewis9/CVE-2019-20361-EXPLOIT.svg)
-
 ## CVE-2019-2025
  In binder_thread_read of binder.c, there is a possible use-after-free due to improper locking. This could lead to local escalation of privilege in the kernel with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-116855682References: Upstream kernel
 
 
 
 - [https://github.com/jltxgcy/CVE_2019_2025_EXP](https://github.com/jltxgcy/CVE_2019_2025_EXP) :  ![starts](https://img.shields.io/github/stars/jltxgcy/CVE_2019_2025_EXP.svg) ![forks](https://img.shields.io/github/forks/jltxgcy/CVE_2019_2025_EXP.svg)
-
-## CVE-2019-2019
- In ce_t4t_data_cback of ce_t4t.cc, there is a possible out-of-bound read due to a missing bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-7.0 Android-7.1.1 Android-7.1.2 Android-8.0 Android-8.1 Android-9Android ID: A-115635871
-
-
-
-- [https://github.com/jas502n/CVE-2019-20197](https://github.com/jas502n/CVE-2019-20197) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-20197.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-20197.svg)
-
-- [https://github.com/lp008/CVE-2019-20197](https://github.com/lp008/CVE-2019-20197) :  ![starts](https://img.shields.io/github/stars/lp008/CVE-2019-20197.svg) ![forks](https://img.shields.io/github/forks/lp008/CVE-2019-20197.svg)
 
 ## CVE-2019-2017
  In rw_t2t_handle_tlv_detect_rsp of rw_t2t_ndef.cc, there is a possible out-of-bound write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-7.0 Android-7.1.1 Android-7.1.2 Android-8.0 Android-8.1 Android-9Android ID: A-121035711
@@ -10311,77 +10273,12 @@
 
 - [https://github.com/grmono/CVE2019-2017_POC](https://github.com/grmono/CVE2019-2017_POC) :  ![starts](https://img.shields.io/github/stars/grmono/CVE2019-2017_POC.svg) ![forks](https://img.shields.io/github/forks/grmono/CVE2019-2017_POC.svg)
 
-## CVE-2019-2005
- In onPermissionGrantResult of GrantPermissionsActivity.java, there is a possible incorrectly granted permission due to a missing permission check. This could lead to local escalation of privilege on a locked device with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9Android ID: A-68777217
-
-
-
-- [https://github.com/jra89/CVE-2019-20059](https://github.com/jra89/CVE-2019-20059) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-20059.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-20059.svg)
-
-## CVE-2019-1963
- A vulnerability in the Simple Network Management Protocol (SNMP) input packet processor of Cisco FXOS Software and Cisco NX-OS Software could allow an authenticated, remote attacker to cause the SNMP application on an affected device to restart unexpectedly. The vulnerability is due to improper validation of Abstract Syntax Notation One (ASN.1)-encoded variables in SNMP packets. An attacker could exploit this vulnerability by sending a crafted SNMP packet to the SNMP daemon on the affected device. A successful exploit could allow the attacker to cause the SNMP application to restart multiple times, leading to a system-level restart and a denial of service (DoS) condition.
-
-
-
-- [https://github.com/jra89/CVE-2019-19634](https://github.com/jra89/CVE-2019-19634) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19634.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19634.svg)
-
-- [https://github.com/jra89/CVE-2019-19633](https://github.com/jra89/CVE-2019-19633) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19633.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19633.svg)
-
-## CVE-2019-1951
- A vulnerability in the packet filtering features of Cisco SD-WAN Solution could allow an unauthenticated, remote attacker to bypass L3 and L4 traffic filters. The vulnerability is due to improper traffic filtering conditions on an affected device. An attacker could exploit this vulnerability by crafting a malicious TCP packet with specific characteristics and sending it to a target device. A successful exploit could allow the attacker to bypass the L3 and L4 traffic filters and inject an arbitrary packet in the network.
-
-
-
-- [https://github.com/jra89/CVE-2019-19511](https://github.com/jra89/CVE-2019-19511) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19511.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19511.svg)
-
-## CVE-2019-1936
- A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) Supervisor, Cisco UCS Director, and Cisco UCS Director Express for Big Data could allow an authenticated, remote attacker to execute arbitrary commands on the underlying Linux shell as the root user. Exploitation of this vulnerability requires privileged access to an affected device. The vulnerability is due to insufficient validation of user-supplied input by the web-based management interface. An attacker could exploit this vulnerability by logging in to the web-based management interface with administrator privileges and then sending a malicious request to a certain part of the interface.
-
-
-
-- [https://github.com/TheCyberGeek/CVE-2019-19369](https://github.com/TheCyberGeek/CVE-2019-19369) :  ![starts](https://img.shields.io/github/stars/TheCyberGeek/CVE-2019-19369.svg) ![forks](https://img.shields.io/github/forks/TheCyberGeek/CVE-2019-19369.svg)
-
-## CVE-2019-1926
- Multiple vulnerabilities in Cisco Webex Network Recording Player for Microsoft Windows and Cisco Webex Player for Microsoft Windows could allow an attacker to execute arbitrary code on an affected system. The vulnerabilities exist because the affected software improperly validates Advanced Recording Format (ARF) and Webex Recording Format (WRF) files. An attacker could exploit these vulnerabilities by sending a user a malicious ARF or WRF file through a link or email attachment and persuading the user to open the file with the affected software on the local system. A successful exploit could allow the attacker to execute arbitrary code on the affected system with the privileges of the targeted user.
-
-
-
-- [https://github.com/TheCyberGeek/CVE-2019-19268](https://github.com/TheCyberGeek/CVE-2019-19268) :  ![starts](https://img.shields.io/github/stars/TheCyberGeek/CVE-2019-19268.svg) ![forks](https://img.shields.io/github/forks/TheCyberGeek/CVE-2019-19268.svg)
-
-## CVE-2019-1903
- A vulnerability in Cisco Security Manager could allow an unauthenticated, remote attacker to access sensitive information or cause a denial of service (DoS) condition. The vulnerability is due to improper restrictions on XML entities. An attacker could exploit this vulnerability by sending malicious requests to a targeted system that contain references within XML entities. An exploit could allow the attacker to retrieve files from the local system, resulting in the disclosure of sensitive information, or cause the application to consume available resources, resulting in a DoS condition.
-
-
-
-- [https://github.com/ricardojoserf/CVE-2019-19033](https://github.com/ricardojoserf/CVE-2019-19033) :  ![starts](https://img.shields.io/github/stars/ricardojoserf/CVE-2019-19033.svg) ![forks](https://img.shields.io/github/forks/ricardojoserf/CVE-2019-19033.svg)
-
-## CVE-2019-1895
- A vulnerability in the Virtual Network Computing (VNC) console implementation of Cisco Enterprise NFV Infrastructure Software (NFVIS) could allow an unauthenticated, remote attacker to access the VNC console session of an administrative user on an affected device. The vulnerability is due to an insufficient authentication mechanism used to establish a VNC session. An attacker could exploit this vulnerability by intercepting an administrator VNC session request prior to login. A successful exploit could allow the attacker to watch the administrator console session or interact with it, allowing admin access to the affected device.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-18954](https://github.com/ossf-cve-benchmark/CVE-2019-18954) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-18954.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-18954.svg)
-
-## CVE-2019-1888
- A vulnerability in the Administration Web Interface of Cisco Unified Contact Center Express (Unified CCX) could allow an authenticated, remote attacker to upload arbitrary files and execute commands on the underlying operating system. To exploit this vulnerability, an attacker needs valid Administrator credentials. The vulnerability is due to insufficient restrictions for the content uploaded to an affected system. An attacker could exploit this vulnerability by uploading arbitrary files containing operating system commands that will be executed by an affected system. A successful exploit could allow the attacker to execute arbitrary commands with the privileges of the web interface and then elevate their privileges to root.
-
-
-
-- [https://github.com/bobfuzzer/CVE-2019-18885](https://github.com/bobfuzzer/CVE-2019-18885) :  ![starts](https://img.shields.io/github/stars/bobfuzzer/CVE-2019-18885.svg) ![forks](https://img.shields.io/github/forks/bobfuzzer/CVE-2019-18885.svg)
-
 ## CVE-2019-1881
  A vulnerability in the web-based management interface of Cisco Industrial Network Director (IND) could allow an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack and perform arbitrary actions on an affected device. The vulnerability is due to insufficient CSRF protections for the web-based management interface of the affected device. An attacker could exploit this vulnerability by persuading a user of the interface to follow a malicious link. A successful exploit could allow the attacker to use a web browser and the privileges of the user to perform arbitrary actions on an affected device. For more information about CSRF attacks and potential mitigations, see Understanding Cross-Site Request Forgery Threat Vectors.
 
 
 
 - [https://github.com/ossf-cve-benchmark/CVE-2019-18818](https://github.com/ossf-cve-benchmark/CVE-2019-18818) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-18818.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-18818.svg)
-
-## CVE-2019-1865
- A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) Software could allow an authenticated, remote attacker to inject arbitrary commands that are executed with root privileges on an affected device. The vulnerability is due to insufficient validation of user-supplied input by the affected software. An attacker could exploit this vulnerability by invoking an interface monitoring mechanism with a crafted argument on the affected software. A successful exploit could allow the attacker to inject and execute arbitrary, system-level commands with root privileges on an affected device.
-
-
-
-- [https://github.com/0xhuesca/CVE-2019-18655](https://github.com/0xhuesca/CVE-2019-18655) :  ![starts](https://img.shields.io/github/stars/0xhuesca/CVE-2019-18655.svg) ![forks](https://img.shields.io/github/forks/0xhuesca/CVE-2019-18655.svg)
 
 ## CVE-2019-1821
  A vulnerability in the web-based management interface of Cisco Prime Infrastructure (PI) and Cisco Evolved Programmable Network (EPN) Manager could allow an authenticated, remote attacker to execute code with root-level privileges on the underlying operating system. This vulnerability exist because the software improperly validates user-supplied input. An attacker could exploit this vulnerability by uploading a malicious file to the administrative web interface. A successful exploit could allow the attacker to execute code with root-level privileges on the underlying operating system.
@@ -10390,91 +10287,12 @@
 
 - [https://github.com/k8gege/CiscoExploit](https://github.com/k8gege/CiscoExploit) :  ![starts](https://img.shields.io/github/stars/k8gege/CiscoExploit.svg) ![forks](https://img.shields.io/github/forks/k8gege/CiscoExploit.svg)
 
-## CVE-2019-1765
- A vulnerability in the web-based management interface of Session Initiation Protocol (SIP) Software for Cisco IP Phone 8800 Series could allow an authenticated, remote attacker to write arbitrary files to the filesystem. The vulnerability is due to insufficient input validation and file-level permissions. An attacker could exploit this vulnerability by uploading invalid files to an affected device. A successful exploit could allow the attacker to write files in arbitrary locations on the filesystem. This vulnerability affects Cisco IP Phone 8800 Series products running a SIP Software release prior to 11.0(5) for Wireless IP Phone 8821 and 8821-EX; and 12.5(1)SR1 for the IP Conference Phone 8832 and the rest of the IP Phone 8800 Series.
-
-
-
-- [https://github.com/Ibonok/CVE-2019-17658](https://github.com/Ibonok/CVE-2019-17658) :  ![starts](https://img.shields.io/github/stars/Ibonok/CVE-2019-17658.svg) ![forks](https://img.shields.io/github/forks/Ibonok/CVE-2019-17658.svg)
-
 ## CVE-2019-1759
  A vulnerability in access control list (ACL) functionality of the Gigabit Ethernet Management interface of Cisco IOS XE Software could allow an unauthenticated, remote attacker to reach the configured IP addresses on the Gigabit Ethernet Management interface. The vulnerability is due to a logic error that was introduced in the Cisco IOS XE Software 16.1.1 Release, which prevents the ACL from working when applied against the management interface. An attacker could exploit this issue by attempting to access the device via the management interface.
 
 
 
 - [https://github.com/r3m0t3nu11/CVE-2019-1759-csrf-js-rce](https://github.com/r3m0t3nu11/CVE-2019-1759-csrf-js-rce) :  ![starts](https://img.shields.io/github/stars/r3m0t3nu11/CVE-2019-1759-csrf-js-rce.svg) ![forks](https://img.shields.io/github/forks/r3m0t3nu11/CVE-2019-1759-csrf-js-rce.svg)
-
-## CVE-2019-1756
- A vulnerability in Cisco IOS XE Software could allow an authenticated, remote attacker to execute commands on the underlying Linux shell of an affected device with root privileges. The vulnerability occurs because the affected software improperly sanitizes user-supplied input. An attacker who has valid administrator access to an affected device could exploit this vulnerability by supplying a username with a malicious payload in the web UI and subsequently making a request to a specific endpoint in the web UI. A successful exploit could allow the attacker to run arbitrary commands as the root user, allowing complete compromise of the system.
-
-
-
-- [https://github.com/Dor-Tumarkin/CVE-2019-17564-FastJson-Gadget](https://github.com/Dor-Tumarkin/CVE-2019-17564-FastJson-Gadget) :  ![starts](https://img.shields.io/github/stars/Dor-Tumarkin/CVE-2019-17564-FastJson-Gadget.svg) ![forks](https://img.shields.io/github/forks/Dor-Tumarkin/CVE-2019-17564-FastJson-Gadget.svg)
-
-- [https://github.com/fairyming/CVE-2019-17564](https://github.com/fairyming/CVE-2019-17564) :  ![starts](https://img.shields.io/github/stars/fairyming/CVE-2019-17564.svg) ![forks](https://img.shields.io/github/forks/fairyming/CVE-2019-17564.svg)
-
-- [https://github.com/Jaky5155/CVE-2019-17564](https://github.com/Jaky5155/CVE-2019-17564) :  ![starts](https://img.shields.io/github/stars/Jaky5155/CVE-2019-17564.svg) ![forks](https://img.shields.io/github/forks/Jaky5155/CVE-2019-17564.svg)
-
-- [https://github.com/Hu3sky/CVE-2019-17564](https://github.com/Hu3sky/CVE-2019-17564) :  ![starts](https://img.shields.io/github/stars/Hu3sky/CVE-2019-17564.svg) ![forks](https://img.shields.io/github/forks/Hu3sky/CVE-2019-17564.svg)
-
-- [https://github.com/r00t4dm/CVE-2019-17564](https://github.com/r00t4dm/CVE-2019-17564) :  ![starts](https://img.shields.io/github/stars/r00t4dm/CVE-2019-17564.svg) ![forks](https://img.shields.io/github/forks/r00t4dm/CVE-2019-17564.svg)
-
-- [https://github.com/Exploit-3389/CVE-2019-17564](https://github.com/Exploit-3389/CVE-2019-17564) :  ![starts](https://img.shields.io/github/stars/Exploit-3389/CVE-2019-17564.svg) ![forks](https://img.shields.io/github/forks/Exploit-3389/CVE-2019-17564.svg)
-
-## CVE-2019-1749
- A vulnerability in the ingress traffic validation of Cisco IOS XE Software for Cisco Aggregation Services Router (ASR) 900 Route Switch Processor 3 (RSP3) could allow an unauthenticated, adjacent attacker to trigger a reload of an affected device, resulting in a denial of service (DoS) condition. The vulnerability exists because the software insufficiently validates ingress traffic on the ASIC used on the RSP3 platform. An attacker could exploit this vulnerability by sending a malformed OSPF version 2 (OSPFv2) message to an affected device. A successful exploit could allow the attacker to cause a reload of the iosd process, triggering a reload of the affected device and resulting in a DoS condition.
-
-
-
-- [https://github.com/SecT0uch/CVE-2019-17495-test](https://github.com/SecT0uch/CVE-2019-17495-test) :  ![starts](https://img.shields.io/github/stars/SecT0uch/CVE-2019-17495-test.svg) ![forks](https://img.shields.io/github/forks/SecT0uch/CVE-2019-17495-test.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-17495](https://github.com/ossf-cve-benchmark/CVE-2019-17495) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-17495.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-17495.svg)
-
-## CVE-2019-1742
- A vulnerability in the web UI of Cisco IOS XE Software could allow an unauthenticated, remote attacker to access sensitive configuration information. The vulnerability is due to improper access control to files within the web UI. An attacker could exploit this vulnerability by sending a malicious request to an affected device. A successful exploit could allow the attacker to gain access to sensitive configuration information.
-
-
-
-- [https://github.com/guywhataguy/CVE-2019-17424](https://github.com/guywhataguy/CVE-2019-17424) :  ![starts](https://img.shields.io/github/stars/guywhataguy/CVE-2019-17424.svg) ![forks](https://img.shields.io/github/forks/guywhataguy/CVE-2019-17424.svg)
-
-- [https://github.com/RealLinkers/CVE-2019-17427](https://github.com/RealLinkers/CVE-2019-17427) :  ![starts](https://img.shields.io/github/stars/RealLinkers/CVE-2019-17427.svg) ![forks](https://img.shields.io/github/forks/RealLinkers/CVE-2019-17427.svg)
-
-## CVE-2019-1723
- A vulnerability in the Cisco Common Services Platform Collector (CSPC) could allow an unauthenticated, remote attacker to access an affected device by using an account that has a default, static password. This account does not have administrator privileges. The vulnerability exists because the affected software has a user account with a default, static password. An attacker could exploit this vulnerability by remotely connecting to the affected system using this account. A successful exploit could allow the attacker to log in to the CSPC using the default account. For Cisco CSPC 2.7.x, Cisco fixed this vulnerability in Release 2.7.4.6. For Cisco CSPC 2.8.x, Cisco fixed this vulnerability in Release 2.8.1.2.
-
-
-
-- [https://github.com/administra1tor/CVE-2019-17234b-Exploit](https://github.com/administra1tor/CVE-2019-17234b-Exploit) :  ![starts](https://img.shields.io/github/stars/administra1tor/CVE-2019-17234b-Exploit.svg) ![forks](https://img.shields.io/github/forks/administra1tor/CVE-2019-17234b-Exploit.svg)
-
-## CVE-2019-1712
- A vulnerability in the Protocol Independent Multicast (PIM) feature of Cisco IOS XR Software could allow an unauthenticated, remote attacker to cause the PIM process to restart, resulting in a denial of service condition on an affected device. The vulnerability is due to the incorrect processing of crafted AutoRP packets. An attacker could exploit this vulnerability by sending crafted packets to port UDP 496 on a reachable IP address on the device. A successful exploit could allow the attacker to cause the PIM process to restart. Software versions prior to 6.2.3, 6.3.2, 6.4.0, and 6.5.1 are affected.
-
-
-
-- [https://github.com/hessandrew/CVE-2019-17124](https://github.com/hessandrew/CVE-2019-17124) :  ![starts](https://img.shields.io/github/stars/hessandrew/CVE-2019-17124.svg) ![forks](https://img.shields.io/github/forks/hessandrew/CVE-2019-17124.svg)
-
-## CVE-2019-1675
- A vulnerability in the default configuration of the Cisco Aironet Active Sensor could allow an unauthenticated, remote attacker to restart the sensor. The vulnerability is due to a default local account with a static password. The account has privileges only to reboot the device. An attacker could exploit this vulnerability by guessing the account name and password to access the CLI. A successful exploit could allow the attacker to reboot the device repeatedly, creating a denial of service (DoS) condition. It is not possible to change the configuration or view sensitive data with this account. Versions prior to DNAC1.2.8 are affected.
-
-
-
-- [https://github.com/jas502n/CVE-2019-16759](https://github.com/jas502n/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-16759.svg)
-
-- [https://github.com/M0sterHxck/CVE-2019-16759-Vbulletin-rce-exploit](https://github.com/M0sterHxck/CVE-2019-16759-Vbulletin-rce-exploit) :  ![starts](https://img.shields.io/github/stars/M0sterHxck/CVE-2019-16759-Vbulletin-rce-exploit.svg) ![forks](https://img.shields.io/github/forks/M0sterHxck/CVE-2019-16759-Vbulletin-rce-exploit.svg)
-
-- [https://github.com/mas1337/CVE-2019-16759](https://github.com/mas1337/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/mas1337/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/mas1337/CVE-2019-16759.svg)
-
-- [https://github.com/FarjaalAhmad/CVE-2019-16759](https://github.com/FarjaalAhmad/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/FarjaalAhmad/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/FarjaalAhmad/CVE-2019-16759.svg)
-
-- [https://github.com/r00tpgp/http-vuln-CVE-2019-16759](https://github.com/r00tpgp/http-vuln-CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/r00tpgp/http-vuln-CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/r00tpgp/http-vuln-CVE-2019-16759.svg)
-
-- [https://github.com/nako48/CVE-2019-16759](https://github.com/nako48/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/nako48/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/nako48/CVE-2019-16759.svg)
-
-- [https://github.com/jd-961/CVE-2019-16759-bypass](https://github.com/jd-961/CVE-2019-16759-bypass) :  ![starts](https://img.shields.io/github/stars/jd-961/CVE-2019-16759-bypass.svg) ![forks](https://img.shields.io/github/forks/jd-961/CVE-2019-16759-bypass.svg)
-
-- [https://github.com/sunian19/CVE-2019-16759](https://github.com/sunian19/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/sunian19/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/sunian19/CVE-2019-16759.svg)
-
-- [https://github.com/apidotmy/CVE-2019-16759](https://github.com/apidotmy/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/apidotmy/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/apidotmy/CVE-2019-16759.svg)
 
 ## CVE-2019-1653
  A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.
@@ -10496,96 +10314,6 @@
 
 - [https://github.com/0x27/CiscoRV320Dump](https://github.com/0x27/CiscoRV320Dump) :  ![starts](https://img.shields.io/github/stars/0x27/CiscoRV320Dump.svg) ![forks](https://img.shields.io/github/forks/0x27/CiscoRV320Dump.svg)
 
-## CVE-2019-1637
- A vulnerability in the Cisco Webex Network Recording Player for Microsoft Windows and the Cisco Webex Player for Microsoft Windows could allow an attacker to execute arbitrary code on an affected system. The vulnerability exist because the affected software improperly validates Advanced Recording Format (ARF) and Webex Recording Format (WRF) files. An attacker could exploit this vulnerability by sending a user a malicious ARF or WRF file via a link or email attachment and persuading the user to open the file with the affected software. Successful exploitation could allow the attacker to execute arbitrary code on the affected system.
-
-
-
-- [https://github.com/IAG0110/CVE-2019-16374](https://github.com/IAG0110/CVE-2019-16374) :  ![starts](https://img.shields.io/github/stars/IAG0110/CVE-2019-16374.svg) ![forks](https://img.shields.io/github/forks/IAG0110/CVE-2019-16374.svg)
-
-## CVE-2019-1627
- A vulnerability in the Server Utilities of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker to gain unauthorized access to sensitive user information from the configuration data that is stored on the affected system. The vulnerability is due to insufficient protection of data in the configuration file. An attacker could exploit this vulnerability by downloading the configuration file. An exploit could allow the attacker to use the sensitive information from the file to elevate privileges.
-
-
-
-- [https://github.com/jas502n/CVE-2019-16278](https://github.com/jas502n/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-16278.svg)
-
-- [https://github.com/imjdl/CVE-2019-16278-PoC](https://github.com/imjdl/CVE-2019-16278-PoC) :  ![starts](https://img.shields.io/github/stars/imjdl/CVE-2019-16278-PoC.svg) ![forks](https://img.shields.io/github/forks/imjdl/CVE-2019-16278-PoC.svg)
-
-- [https://github.com/ianxtianxt/CVE-2019-16278](https://github.com/ianxtianxt/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2019-16278.svg)
-
-- [https://github.com/AnubisSec/CVE-2019-16278](https://github.com/AnubisSec/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/AnubisSec/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/AnubisSec/CVE-2019-16278.svg)
-
-- [https://github.com/Kr0ff/cve-2019-16278](https://github.com/Kr0ff/cve-2019-16278) :  ![starts](https://img.shields.io/github/stars/Kr0ff/cve-2019-16278.svg) ![forks](https://img.shields.io/github/forks/Kr0ff/cve-2019-16278.svg)
-
-- [https://github.com/sunnet-cyber/CVE2019_16278](https://github.com/sunnet-cyber/CVE2019_16278) :  ![starts](https://img.shields.io/github/stars/sunnet-cyber/CVE2019_16278.svg) ![forks](https://img.shields.io/github/forks/sunnet-cyber/CVE2019_16278.svg)
-
-- [https://github.com/ianxtianxt/CVE-2019-16279](https://github.com/ianxtianxt/CVE-2019-16279) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2019-16279.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2019-16279.svg)
-
-- [https://github.com/NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/NHPT/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/NHPT/CVE-2019-16278.svg)
-
-- [https://github.com/keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278) :  ![starts](https://img.shields.io/github/stars/keshiba/cve-2019-16278.svg) ![forks](https://img.shields.io/github/forks/keshiba/cve-2019-16278.svg)
-
-- [https://github.com/theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE](https://github.com/theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE) :  ![starts](https://img.shields.io/github/stars/theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE.svg) ![forks](https://img.shields.io/github/forks/theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE.svg)
-
-## CVE-2019-1611
- A vulnerability in the CLI of Cisco NX-OS Software and Cisco FXOS Software could allow an authenticated, local attacker to execute arbitrary commands on the underlying operating system of an affected device. The vulnerability is due to insufficient validation of arguments passed to certain CLI commands. An attacker could exploit this vulnerability by including malicious input as the argument of an affected command. A successful exploit could allow the attacker to execute arbitrary commands on the underlying operating system with elevated privileges. An attacker would need valid administrator credentials to exploit this vulnerability. Firepower 4100 Series Next-Generation Firewalls are affected running software versions prior to 2.2.2.91, 2.3.1.110, and 2.4.1.222. Firepower 9300 Security Appliance are affected running software versions prior to 2.2.2.91, 2.3.1.110, and 2.4.1.222. MDS 9000 Series Multilayer Switches are affected running software versions prior to 6.2(25) and 8.3(1). Nexus 3000 Series Switches are affected running software versions prior to 7.0(3)I4(9) and 7.0(3)I7(5). Nexus 3500 Platform Switches are affected running software versions prior to 7.0(3)I7(5). Nexus 3600 Platform Switches are affected running software versions prior to 7.0(3)F3(5). Nexus 2000, 5500, 5600, and 6000 Series Switches are affected running software versions prior to 7.1(5)N1(1b) and 7.3(4)N1(1). Nexus 7000 and 7700 Series Switches are affected running software versions prior to 6.2(22), 7.3(3)D1(1), 8.2(3). Nexus 9000 Series Switches in Standalone NX-OS Mode are affected running software versions prior to 7.0(3)I4(9) and 7.0(3)I7(5). Nexus 9500 R-Series Line Cards and Fabric Modules are affected running software versions prior to 7.0(3)F3(5).
-
-
-
-- [https://github.com/cybervaca/CVE-2019-16113](https://github.com/cybervaca/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/cybervaca/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/cybervaca/CVE-2019-16113.svg)
-
-- [https://github.com/ynots0ups/CVE-2019-16113](https://github.com/ynots0ups/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/ynots0ups/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/ynots0ups/CVE-2019-16113.svg)
-
-- [https://github.com/hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC) :  ![starts](https://img.shields.io/github/stars/hg8/CVE-2019-16113-PoC.svg) ![forks](https://img.shields.io/github/forks/hg8/CVE-2019-16113-PoC.svg)
-
-- [https://github.com/Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile) :  ![starts](https://img.shields.io/github/stars/Kenun99/CVE-2019-16113-Dockerfile.svg) ![forks](https://img.shields.io/github/forks/Kenun99/CVE-2019-16113-Dockerfile.svg)
-
-- [https://github.com/itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/itsjeffersonli/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/itsjeffersonli/CVE-2019-16113.svg)
-
-- [https://github.com/noroh4xy/CVE-2019-16113](https://github.com/noroh4xy/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/noroh4xy/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/noroh4xy/CVE-2019-16113.svg)
-
-- [https://github.com/DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/DXY0411/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/DXY0411/CVE-2019-16113.svg)
-
-- [https://github.com/west-tek/CVE-2019-16113-PoC](https://github.com/west-tek/CVE-2019-16113-PoC) :  ![starts](https://img.shields.io/github/stars/west-tek/CVE-2019-16113-PoC.svg) ![forks](https://img.shields.io/github/forks/west-tek/CVE-2019-16113-PoC.svg)
-
-## CVE-2019-1609
- A vulnerability in the CLI of Cisco NX-OS Software could allow an authenticated, local attacker to execute arbitrary commands on the underlying operating system of an affected device. The vulnerability is due to insufficient validation of arguments passed to certain CLI commands. An attacker could exploit this vulnerability by including malicious input as the argument of an affected command. A successful exploit could allow the attacker to execute arbitrary commands on the underlying operating system with elevated privileges. An attacker would need valid administrator credentials to exploit this vulnerability. MDS 9000 Series Multilayer Switches are affected in versions prior to 6.2(27), 8.1(1b), and 8.3(2). Nexus 3500 Platform Switches are affected in versions prior to 7.0(3)I7(6). Nexus 3000 Series Switches are affected in versions prior to 7.0(3)I4(9) and 7.0(3)I7(6). Nexus 3600 Platform Switches are affected in versions prior to 7.0(3)F3(5). Nexus 7000 and 7700 Series Switches are affected in versions prior to 6.2(22), 7.3(3)D1(1), 8.2(3), and 8.3(2). Nexus 9000 Series Switches in Standalone NX-OS Mode are affected in versions prior to 7.0(3)I4(9) and7.0(3)I7(6). Nexus 9500 R-Series Line Cards and Fabric Modules are affected in versions prior to 7.0(3)F3(5).
-
-
-
-- [https://github.com/Barakat/CVE-2019-16098](https://github.com/Barakat/CVE-2019-16098) :  ![starts](https://img.shields.io/github/stars/Barakat/CVE-2019-16098.svg) ![forks](https://img.shields.io/github/forks/Barakat/CVE-2019-16098.svg)
-
-- [https://github.com/evilAdan0s/CVE-2019-16097](https://github.com/evilAdan0s/CVE-2019-16097) :  ![starts](https://img.shields.io/github/stars/evilAdan0s/CVE-2019-16097.svg) ![forks](https://img.shields.io/github/forks/evilAdan0s/CVE-2019-16097.svg)
-
-- [https://github.com/rockmelodies/CVE-2019-16097-batch](https://github.com/rockmelodies/CVE-2019-16097-batch) :  ![starts](https://img.shields.io/github/stars/rockmelodies/CVE-2019-16097-batch.svg) ![forks](https://img.shields.io/github/forks/rockmelodies/CVE-2019-16097-batch.svg)
-
-- [https://github.com/luckybool1020/CVE-2019-16097](https://github.com/luckybool1020/CVE-2019-16097) :  ![starts](https://img.shields.io/github/stars/luckybool1020/CVE-2019-16097.svg) ![forks](https://img.shields.io/github/forks/luckybool1020/CVE-2019-16097.svg)
-
-- [https://github.com/dacade/cve-2019-16097](https://github.com/dacade/cve-2019-16097) :  ![starts](https://img.shields.io/github/stars/dacade/cve-2019-16097.svg) ![forks](https://img.shields.io/github/forks/dacade/cve-2019-16097.svg)
-
-- [https://github.com/ianxtianxt/CVE-2019-16097](https://github.com/ianxtianxt/CVE-2019-16097) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2019-16097.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2019-16097.svg)
-
-## CVE-2019-1584
- A security vulnerability exists in Zingbox Inspector version 1.293 and earlier, that allows for remote code execution if the Inspector were sent a malicious command from the Zingbox cloud, or if the Zingbox Inspector were tampered with to connect to an attacker's cloud endpoint.
-
-
-
-- [https://github.com/synacktiv/Exim-CVE-2019-15846](https://github.com/synacktiv/Exim-CVE-2019-15846) :  ![starts](https://img.shields.io/github/stars/synacktiv/Exim-CVE-2019-15846.svg) ![forks](https://img.shields.io/github/forks/synacktiv/Exim-CVE-2019-15846.svg)
-
-- [https://github.com/d3k4z/nmap-cve2019-15846](https://github.com/d3k4z/nmap-cve2019-15846) :  ![starts](https://img.shields.io/github/stars/d3k4z/nmap-cve2019-15846.svg) ![forks](https://img.shields.io/github/forks/d3k4z/nmap-cve2019-15846.svg)
-
-## CVE-2019-1581
- A remote code execution vulnerability in the PAN-OS SSH device management interface that can lead to unauthenticated remote users with network access to the SSH management interface gaining root access to PAN-OS. This issue affects PAN-OS 7.1 versions prior to 7.1.24-h1, 7.1.25; 8.0 versions prior to 8.0.19-h1, 8.0.20; 8.1 versions prior to 8.1.9-h4, 8.1.10; 9.0 versions prior to 9.0.3-h3, 9.0.4.
-
-
-
-- [https://github.com/iamhrishikeshpadhye/CVE-2019-15813-Exploitation](https://github.com/iamhrishikeshpadhye/CVE-2019-15813-Exploitation) :  ![starts](https://img.shields.io/github/stars/iamhrishikeshpadhye/CVE-2019-15813-Exploitation.svg) ![forks](https://img.shields.io/github/forks/iamhrishikeshpadhye/CVE-2019-15813-Exploitation.svg)
-
-- [https://github.com/Harish4948/CVE_2019_15813-lab](https://github.com/Harish4948/CVE_2019_15813-lab) :  ![starts](https://img.shields.io/github/stars/Harish4948/CVE_2019_15813-lab.svg) ![forks](https://img.shields.io/github/forks/Harish4948/CVE_2019_15813-lab.svg)
-
-- [https://github.com/wolf1892/CVE-2019-15813](https://github.com/wolf1892/CVE-2019-15813) :  ![starts](https://img.shields.io/github/stars/wolf1892/CVE-2019-15813.svg) ![forks](https://img.shields.io/github/forks/wolf1892/CVE-2019-15813.svg)
-
 ## CVE-2019-1579
  Remote Code Execution in PAN-OS 7.1.18 and earlier, PAN-OS 8.0.11-h1 and earlier, and PAN-OS 8.1.2 and earlier with GlobalProtect Portal or GlobalProtect Gateway Interface enabled may allow an unauthenticated remote attacker to execute arbitrary code.
 
@@ -10594,95 +10322,6 @@
 - [https://github.com/securifera/CVE-2019-1579](https://github.com/securifera/CVE-2019-1579) :  ![starts](https://img.shields.io/github/stars/securifera/CVE-2019-1579.svg) ![forks](https://img.shields.io/github/forks/securifera/CVE-2019-1579.svg)
 
 - [https://github.com/Elsfa7-110/CVE-2019-1579](https://github.com/Elsfa7-110/CVE-2019-1579) :  ![starts](https://img.shields.io/github/stars/Elsfa7-110/CVE-2019-1579.svg) ![forks](https://img.shields.io/github/forks/Elsfa7-110/CVE-2019-1579.svg)
-
-## CVE-2019-1564
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during [2019]. Notes: none.
-
-
-
-- [https://github.com/jas502n/CVE-2019-15642](https://github.com/jas502n/CVE-2019-15642) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-15642.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-15642.svg)
-
-## CVE-2019-1558
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during [2019]. Notes: none.
-
-
-
-- [https://github.com/lyy289065406/CVE-2019-15588](https://github.com/lyy289065406/CVE-2019-15588) :  ![starts](https://img.shields.io/github/stars/lyy289065406/CVE-2019-15588.svg) ![forks](https://img.shields.io/github/forks/lyy289065406/CVE-2019-15588.svg)
-
-## CVE-2019-1553
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during [2019]. Notes: none.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-15532](https://github.com/ossf-cve-benchmark/CVE-2019-15532) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-15532.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-15532.svg)
-
-## CVE-2019-1551
- There is an overflow bug in the x64_64 Montgomery squaring procedure used in exponentiation with 512-bit moduli. No EC algorithms are affected. Analysis suggests that attacks against 2-prime RSA1024, 3-prime RSA1536, and DSA1024 as a result of this defect would be very difficult to perform and are not believed likely. Attacks against DH512 are considered just feasible. However, for an attack the target would have to re-use the DH512 private key, which is not recommended anyway. Also applications directly using the low level API BN_mod_exp may be affected if they use BN_FLG_CONSTTIME. Fixed in OpenSSL 1.1.1e (Affected 1.1.1-1.1.1d). Fixed in OpenSSL 1.0.2u (Affected 1.0.2-1.0.2t).
-
-
-
-- [https://github.com/adenkiewicz/CVE-2019-15511](https://github.com/adenkiewicz/CVE-2019-15511) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2019-15511.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2019-15511.svg)
-
-## CVE-2019-1547
- Normally in OpenSSL EC groups always have a co-factor present and this is used in side channel resistant code paths. However, in some cases, it is possible to construct a group using explicit parameters (instead of using a named curve). In those cases it is possible that such a group does not have the cofactor present. This can occur even where all the parameters match a known named curve. If such a curve is used then OpenSSL falls back to non-side channel resistant code paths which may result in full key recovery during an ECDSA signature operation. In order to be vulnerable an attacker would have to have the ability to time the creation of a large number of signatures where explicit parameters with no co-factor present are in use by an application using libcrypto. For the avoidance of doubt libssl is not vulnerable because explicit parameters are never used. Fixed in OpenSSL 1.1.1d (Affected 1.1.1-1.1.1c). Fixed in OpenSSL 1.1.0l (Affected 1.1.0-1.1.0k). Fixed in OpenSSL 1.0.2t (Affected 1.0.2-1.0.2s).
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-15478](https://github.com/ossf-cve-benchmark/CVE-2019-15478) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-15478.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-15478.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-15479](https://github.com/ossf-cve-benchmark/CVE-2019-15479) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-15479.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-15479.svg)
-
-## CVE-2019-1510
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.
-
-
-
-- [https://github.com/jas502n/CVE-2019-15107](https://github.com/jas502n/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-15107.svg)
-
-- [https://github.com/MuirlandOracle/CVE-2019-15107](https://github.com/MuirlandOracle/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/MuirlandOracle/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/MuirlandOracle/CVE-2019-15107.svg)
-
-- [https://github.com/AleWong/WebminRCE-EXP-CVE-2019-15107-](https://github.com/AleWong/WebminRCE-EXP-CVE-2019-15107-) :  ![starts](https://img.shields.io/github/stars/AleWong/WebminRCE-EXP-CVE-2019-15107-.svg) ![forks](https://img.shields.io/github/forks/AleWong/WebminRCE-EXP-CVE-2019-15107-.svg)
-
-- [https://github.com/AdministratorGithub/CVE-2019-15107](https://github.com/AdministratorGithub/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/AdministratorGithub/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/AdministratorGithub/CVE-2019-15107.svg)
-
-- [https://github.com/g0db0x/CVE_2019_15107](https://github.com/g0db0x/CVE_2019_15107) :  ![starts](https://img.shields.io/github/stars/g0db0x/CVE_2019_15107.svg) ![forks](https://img.shields.io/github/forks/g0db0x/CVE_2019_15107.svg)
-
-- [https://github.com/ianxtianxt/CVE-2019-15107](https://github.com/ianxtianxt/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2019-15107.svg)
-
-- [https://github.com/ruthvikvegunta/CVE-2019-15107](https://github.com/ruthvikvegunta/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/ruthvikvegunta/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/ruthvikvegunta/CVE-2019-15107.svg)
-
-- [https://github.com/squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/squid22/Webmin_CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/squid22/Webmin_CVE-2019-15107.svg)
-
-- [https://github.com/diegojuan/CVE-2019-15107](https://github.com/diegojuan/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/diegojuan/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/diegojuan/CVE-2019-15107.svg)
-
-- [https://github.com/ChakoMoonFish/webmin_CVE-2019-15107](https://github.com/ChakoMoonFish/webmin_CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/ChakoMoonFish/webmin_CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/ChakoMoonFish/webmin_CVE-2019-15107.svg)
-
-- [https://github.com/Pichuuuuu/CVE-2019-15107](https://github.com/Pichuuuuu/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/Pichuuuuu/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/Pichuuuuu/CVE-2019-15107.svg)
-
-- [https://github.com/ketlerd/CVE-2019-15107](https://github.com/ketlerd/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/ketlerd/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/ketlerd/CVE-2019-15107.svg)
-
-- [https://github.com/cdedmondson/Modified-CVE-2019-15107](https://github.com/cdedmondson/Modified-CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/cdedmondson/Modified-CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/cdedmondson/Modified-CVE-2019-15107.svg)
-
-## CVE-2019-1505
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.
-
-
-
-- [https://github.com/l0nax/CVE-2019-15053](https://github.com/l0nax/CVE-2019-15053) :  ![starts](https://img.shields.io/github/stars/l0nax/CVE-2019-15053.svg) ![forks](https://img.shields.io/github/forks/l0nax/CVE-2019-15053.svg)
-
-## CVE-2019-1502
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.
-
-
-
-- [https://github.com/mhaskar/CVE-2019-15029](https://github.com/mhaskar/CVE-2019-15029) :  ![starts](https://img.shields.io/github/stars/mhaskar/CVE-2019-15029.svg) ![forks](https://img.shields.io/github/forks/mhaskar/CVE-2019-15029.svg)
-
-## CVE-2019-1486
- A spoofing vulnerability exists in Visual Studio Live Share when a guest connected to a Live Share session is redirected to an arbitrary URL specified by the session host, aka 'Visual Studio Live Share Spoofing Vulnerability'.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-14862](https://github.com/ossf-cve-benchmark/CVE-2019-14862) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-14862.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-14862.svg)
 
 ## CVE-2019-1477
  An elevation of privilege vulnerability exists when the Windows Printer Service improperly validates file paths while loading printer drivers, aka 'Windows Printer Service Elevation of Privilege Vulnerability'.
@@ -10697,13 +10336,6 @@
 
 
 - [https://github.com/sgabe/CVE-2019-1476](https://github.com/sgabe/CVE-2019-1476) :  ![starts](https://img.shields.io/github/stars/sgabe/CVE-2019-1476.svg) ![forks](https://img.shields.io/github/forks/sgabe/CVE-2019-1476.svg)
-
-## CVE-2019-1474
- An information disclosure vulnerability exists when the Windows kernel improperly handles objects in memory, aka 'Windows Kernel Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-1472.
-
-
-
-- [https://github.com/xooxo/CVE-2019-14745](https://github.com/xooxo/CVE-2019-14745) :  ![starts](https://img.shields.io/github/stars/xooxo/CVE-2019-14745.svg) ![forks](https://img.shields.io/github/forks/xooxo/CVE-2019-14745.svg)
 
 ## CVE-2019-1458
  An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'.
@@ -10720,127 +10352,12 @@
 
 - [https://github.com/Eternit7/CVE-2019-1458](https://github.com/Eternit7/CVE-2019-1458) :  ![starts](https://img.shields.io/github/stars/Eternit7/CVE-2019-1458.svg) ![forks](https://img.shields.io/github/forks/Eternit7/CVE-2019-1458.svg)
 
-## CVE-2019-1453
- A denial of service vulnerability exists in Remote Desktop Protocol (RDP) when an attacker connects to the target system using RDP and sends specially crafted requests, aka 'Windows Remote Desktop Protocol (RDP) Denial of Service Vulnerability'.
-
-
-
-- [https://github.com/Wocanilo/CVE-2019-14537](https://github.com/Wocanilo/CVE-2019-14537) :  ![starts](https://img.shields.io/github/stars/Wocanilo/CVE-2019-14537.svg) ![forks](https://img.shields.io/github/forks/Wocanilo/CVE-2019-14537.svg)
-
-## CVE-2019-1452
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.
-
-
-
-- [https://github.com/Wezery/CVE-2019-14529](https://github.com/Wezery/CVE-2019-14529) :  ![starts](https://img.shields.io/github/stars/Wezery/CVE-2019-14529.svg) ![forks](https://img.shields.io/github/forks/Wezery/CVE-2019-14529.svg)
-
-## CVE-2019-1451
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.
-
-
-
-- [https://github.com/seqred-s-a/cve-2019-14514](https://github.com/seqred-s-a/cve-2019-14514) :  ![starts](https://img.shields.io/github/stars/seqred-s-a/cve-2019-14514.svg) ![forks](https://img.shields.io/github/forks/seqred-s-a/cve-2019-14514.svg)
-
-## CVE-2019-1443
- An information disclosure vulnerability exists in Microsoft SharePoint when an attacker uploads a specially crafted file to the SharePoint Server.An authenticated attacker who successfully exploited this vulnerability could potentially leverage SharePoint functionality to obtain SMB hashes.The security update addresses the vulnerability by correcting how SharePoint checks file content., aka 'Microsoft SharePoint Information Disclosure Vulnerability'.
-
-
-
-- [https://github.com/jas502n/CVE-2019-14439](https://github.com/jas502n/CVE-2019-14439) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-14439.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-14439.svg)
-
-## CVE-2019-1433
- An elevation of privilege vulnerability exists when the Windows Graphics Component improperly handles objects in memory, aka 'Windows Graphics Component Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1407, CVE-2019-1435, CVE-2019-1437, CVE-2019-1438.
-
-
-
-- [https://github.com/0x48piraj/CVE-2019-14339](https://github.com/0x48piraj/CVE-2019-14339) :  ![starts](https://img.shields.io/github/stars/0x48piraj/CVE-2019-14339.svg) ![forks](https://img.shields.io/github/forks/0x48piraj/CVE-2019-14339.svg)
-
-## CVE-2019-1432
- An information disclosure vulnerability exists when DirectWrite improperly discloses the contents of its memory, aka 'DirectWrite Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-1411.
-
-
-
-- [https://github.com/seqred-s-a/cve-2019-14326](https://github.com/seqred-s-a/cve-2019-14326) :  ![starts](https://img.shields.io/github/stars/seqred-s-a/cve-2019-14326.svg) ![forks](https://img.shields.io/github/forks/seqred-s-a/cve-2019-14326.svg)
-
-## CVE-2019-1431
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.
-
-
-
-- [https://github.com/imthoe/CVE-2019-14314](https://github.com/imthoe/CVE-2019-14314) :  ![starts](https://img.shields.io/github/stars/imthoe/CVE-2019-14314.svg) ![forks](https://img.shields.io/github/forks/imthoe/CVE-2019-14314.svg)
-
-- [https://github.com/MelroyB/CVE-2019-14319](https://github.com/MelroyB/CVE-2019-14319) :  ![starts](https://img.shields.io/github/stars/MelroyB/CVE-2019-14319.svg) ![forks](https://img.shields.io/github/forks/MelroyB/CVE-2019-14319.svg)
-
-## CVE-2019-1428
- A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Microsoft Edge (HTML-based), aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2019-1426, CVE-2019-1427, CVE-2019-1429.
-
-
-
-- [https://github.com/CMNatic/Dockerized-CVE-2019-14287](https://github.com/CMNatic/Dockerized-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/CMNatic/Dockerized-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/CMNatic/Dockerized-CVE-2019-14287.svg)
-
-- [https://github.com/n0w4n/CVE-2019-14287](https://github.com/n0w4n/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/n0w4n/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/n0w4n/CVE-2019-14287.svg)
-
-- [https://github.com/shallvhack/Sudo-Security-Bypass-CVE-2019-14287](https://github.com/shallvhack/Sudo-Security-Bypass-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/shallvhack/Sudo-Security-Bypass-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/shallvhack/Sudo-Security-Bypass-CVE-2019-14287.svg)
-
-- [https://github.com/Unam3dd/sudo-vulnerability-CVE-2019-14287](https://github.com/Unam3dd/sudo-vulnerability-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/Unam3dd/sudo-vulnerability-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/Unam3dd/sudo-vulnerability-CVE-2019-14287.svg)
-
-- [https://github.com/kumar1100/CVE2019-14287](https://github.com/kumar1100/CVE2019-14287) :  ![starts](https://img.shields.io/github/stars/kumar1100/CVE2019-14287.svg) ![forks](https://img.shields.io/github/forks/kumar1100/CVE2019-14287.svg)
-
-- [https://github.com/FauxFaux/sudo-cve-2019-14287](https://github.com/FauxFaux/sudo-cve-2019-14287) :  ![starts](https://img.shields.io/github/stars/FauxFaux/sudo-cve-2019-14287.svg) ![forks](https://img.shields.io/github/forks/FauxFaux/sudo-cve-2019-14287.svg)
-
-- [https://github.com/CashWilliams/CVE-2019-14287-demo](https://github.com/CashWilliams/CVE-2019-14287-demo) :  ![starts](https://img.shields.io/github/stars/CashWilliams/CVE-2019-14287-demo.svg) ![forks](https://img.shields.io/github/forks/CashWilliams/CVE-2019-14287-demo.svg)
-
-- [https://github.com/Sindadziy/cve-2019-14287](https://github.com/Sindadziy/cve-2019-14287) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2019-14287.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2019-14287.svg)
-
-- [https://github.com/DewmiApsara/CVE-2019-14287](https://github.com/DewmiApsara/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/DewmiApsara/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/DewmiApsara/CVE-2019-14287.svg)
-
-- [https://github.com/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287](https://github.com/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287.svg)
-
-- [https://github.com/huang919/cve-2019-14287-PPT](https://github.com/huang919/cve-2019-14287-PPT) :  ![starts](https://img.shields.io/github/stars/huang919/cve-2019-14287-PPT.svg) ![forks](https://img.shields.io/github/forks/huang919/cve-2019-14287-PPT.svg)
-
-- [https://github.com/M108Falcon/Sudo-CVE-2019-14287](https://github.com/M108Falcon/Sudo-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/M108Falcon/Sudo-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/M108Falcon/Sudo-CVE-2019-14287.svg)
-
-- [https://github.com/Janette88/cve-2019-14287sudoexp](https://github.com/Janette88/cve-2019-14287sudoexp) :  ![starts](https://img.shields.io/github/stars/Janette88/cve-2019-14287sudoexp.svg) ![forks](https://img.shields.io/github/forks/Janette88/cve-2019-14287sudoexp.svg)
-
-- [https://github.com/gurneesh/CVE-2019-14287-write-up](https://github.com/gurneesh/CVE-2019-14287-write-up) :  ![starts](https://img.shields.io/github/stars/gurneesh/CVE-2019-14287-write-up.svg) ![forks](https://img.shields.io/github/forks/gurneesh/CVE-2019-14287-write-up.svg)
-
-- [https://github.com/HussyCool/CVE-2019-14287-IT18030372-](https://github.com/HussyCool/CVE-2019-14287-IT18030372-) :  ![starts](https://img.shields.io/github/stars/HussyCool/CVE-2019-14287-IT18030372-.svg) ![forks](https://img.shields.io/github/forks/HussyCool/CVE-2019-14287-IT18030372-.svg)
-
-- [https://github.com/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287](https://github.com/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287.svg)
-
-- [https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg)
-
-- [https://github.com/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-](https://github.com/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-) :  ![starts](https://img.shields.io/github/stars/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-.svg) ![forks](https://img.shields.io/github/forks/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-.svg)
-
-- [https://github.com/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability](https://github.com/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability) :  ![starts](https://img.shields.io/github/stars/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability.svg) ![forks](https://img.shields.io/github/forks/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability.svg)
-
-## CVE-2019-1426
- A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Microsoft Edge (HTML-based), aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2019-1427, CVE-2019-1428, CVE-2019-1429.
-
-
-
-- [https://github.com/snappyJack/pdfresurrect_CVE-2019-14267](https://github.com/snappyJack/pdfresurrect_CVE-2019-14267) :  ![starts](https://img.shields.io/github/stars/snappyJack/pdfresurrect_CVE-2019-14267.svg) ![forks](https://img.shields.io/github/forks/snappyJack/pdfresurrect_CVE-2019-14267.svg)
-
 ## CVE-2019-1422
  An elevation of privilege vulnerability exists in the way that the iphlpsvc.dll handles file creation allowing for a file overwrite, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1420, CVE-2019-1423.
 
 
 
 - [https://github.com/ze0r/cve-2019-1422](https://github.com/ze0r/cve-2019-1422) :  ![starts](https://img.shields.io/github/stars/ze0r/cve-2019-1422.svg) ![forks](https://img.shields.io/github/forks/ze0r/cve-2019-1422.svg)
-
-## CVE-2019-1420
- An elevation of privilege vulnerability exists in the way that the dssvc.dll handles file creation allowing for a file overwrite or creation in a secured location, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1422, CVE-2019-1423.
-
-
-
-- [https://github.com/security-kma/EXPLOITING-CVE-2019-14205](https://github.com/security-kma/EXPLOITING-CVE-2019-14205) :  ![starts](https://img.shields.io/github/stars/security-kma/EXPLOITING-CVE-2019-14205.svg) ![forks](https://img.shields.io/github/forks/security-kma/EXPLOITING-CVE-2019-14205.svg)
-
-## CVE-2019-1407
- An elevation of privilege vulnerability exists when the Windows Graphics Component improperly handles objects in memory, aka 'Windows Graphics Component Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1433, CVE-2019-1435, CVE-2019-1437, CVE-2019-1438.
-
-
-
-- [https://github.com/parallelbeings/CVE-2019-14079](https://github.com/parallelbeings/CVE-2019-14079) :  ![starts](https://img.shields.io/github/stars/parallelbeings/CVE-2019-14079.svg) ![forks](https://img.shields.io/github/forks/parallelbeings/CVE-2019-14079.svg)
 
 ## CVE-2019-1405
  An elevation of privilege vulnerability exists when the Windows Universal Plug and Play (UPnP) service improperly allows COM object creation, aka 'Windows UPnP Service Elevation of Privilege Vulnerability'.
@@ -10857,13 +10374,6 @@
 
 
 - [https://github.com/lauxjpn/CorruptQueryAccessWorkaround](https://github.com/lauxjpn/CorruptQueryAccessWorkaround) :  ![starts](https://img.shields.io/github/stars/lauxjpn/CorruptQueryAccessWorkaround.svg) ![forks](https://img.shields.io/github/forks/lauxjpn/CorruptQueryAccessWorkaround.svg)
-
-## CVE-2019-1395
- An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1393, CVE-2019-1394, CVE-2019-1396, CVE-2019-1408, CVE-2019-1434.
-
-
-
-- [https://github.com/rhbb/CVE-2019-13956](https://github.com/rhbb/CVE-2019-13956) :  ![starts](https://img.shields.io/github/stars/rhbb/CVE-2019-13956.svg) ![forks](https://img.shields.io/github/forks/rhbb/CVE-2019-13956.svg)
 
 ## CVE-2019-1388
  An elevation of privilege vulnerability exists in the Windows Certificate Dialog when it does not properly enforce user privileges, aka 'Windows Certificate Dialog Elevation of Privilege Vulnerability'.
@@ -10887,13 +10397,6 @@
 
 - [https://github.com/0x413x4/CVE-2019-1385](https://github.com/0x413x4/CVE-2019-1385) :  ![starts](https://img.shields.io/github/stars/0x413x4/CVE-2019-1385.svg) ![forks](https://img.shields.io/github/forks/0x413x4/CVE-2019-1385.svg)
 
-## CVE-2019-1376
- An information disclosure vulnerability exists in Microsoft SQL Server Management Studio (SSMS) when it improperly enforces permissions, aka 'SQL Server Management Studio Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-1313.
-
-
-
-- [https://github.com/CreatePhotonW/CVE-2019-5782_CVE-2019-13768](https://github.com/CreatePhotonW/CVE-2019-5782_CVE-2019-13768) :  ![starts](https://img.shields.io/github/stars/CreatePhotonW/CVE-2019-5782_CVE-2019-13768.svg) ![forks](https://img.shields.io/github/forks/CreatePhotonW/CVE-2019-5782_CVE-2019-13768.svg)
-
 ## CVE-2019-1367
  A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2019-1221.
 
@@ -10908,33 +10411,6 @@
 
 - [https://github.com/JonasDL/PruebaCVE20191351](https://github.com/JonasDL/PruebaCVE20191351) :  ![starts](https://img.shields.io/github/stars/JonasDL/PruebaCVE20191351.svg) ![forks](https://img.shields.io/github/forks/JonasDL/PruebaCVE20191351.svg)
 
-## CVE-2019-1350
- A remote code execution vulnerability exists when Git for Visual Studio improperly sanitizes input, aka 'Git for Visual Studio Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1349, CVE-2019-1352, CVE-2019-1354, CVE-2019-1387.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-13506](https://github.com/ossf-cve-benchmark/CVE-2019-13506) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-13506.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-13506.svg)
-
-## CVE-2019-1349
- A remote code execution vulnerability exists when Git for Visual Studio improperly sanitizes input, aka 'Git for Visual Studio Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1350, CVE-2019-1352, CVE-2019-1354, CVE-2019-1387.
-
-
-
-- [https://github.com/FurqanKhan1/CVE-2019-13498](https://github.com/FurqanKhan1/CVE-2019-13498) :  ![starts](https://img.shields.io/github/stars/FurqanKhan1/CVE-2019-13498.svg) ![forks](https://img.shields.io/github/forks/FurqanKhan1/CVE-2019-13498.svg)
-
-- [https://github.com/FurqanKhan1/CVE-2019-13496](https://github.com/FurqanKhan1/CVE-2019-13496) :  ![starts](https://img.shields.io/github/stars/FurqanKhan1/CVE-2019-13496.svg) ![forks](https://img.shields.io/github/forks/FurqanKhan1/CVE-2019-13496.svg)
-
-- [https://github.com/FurqanKhan1/CVE-2019-13497](https://github.com/FurqanKhan1/CVE-2019-13497) :  ![starts](https://img.shields.io/github/stars/FurqanKhan1/CVE-2019-13497.svg) ![forks](https://img.shields.io/github/forks/FurqanKhan1/CVE-2019-13497.svg)
-
-## CVE-2019-1340
- An elevation of privilege vulnerability exists in Windows AppX Deployment Server that allows file creation in arbitrary locations.To exploit the vulnerability, an attacker would first have to log on to the system, aka 'Microsoft Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1320, CVE-2019-1322.
-
-
-
-- [https://github.com/alidnf/CVE-2019-13404](https://github.com/alidnf/CVE-2019-13404) :  ![starts](https://img.shields.io/github/stars/alidnf/CVE-2019-13404.svg) ![forks](https://img.shields.io/github/forks/alidnf/CVE-2019-13404.svg)
-
-- [https://github.com/B3Bo1d/CVE-2019-13403](https://github.com/B3Bo1d/CVE-2019-13403) :  ![starts](https://img.shields.io/github/stars/B3Bo1d/CVE-2019-13403.svg) ![forks](https://img.shields.io/github/forks/B3Bo1d/CVE-2019-13403.svg)
-
 ## CVE-2019-1322
  An elevation of privilege vulnerability exists when Windows improperly handles authentication requests, aka 'Microsoft Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1320, CVE-2019-1340.
 
@@ -10942,97 +10418,12 @@
 
 - [https://github.com/apt69/COMahawk](https://github.com/apt69/COMahawk) :  ![starts](https://img.shields.io/github/stars/apt69/COMahawk.svg) ![forks](https://img.shields.io/github/forks/apt69/COMahawk.svg)
 
-## CVE-2019-1317
- A denial of service vulnerability exists when Windows improperly handles hard links, aka 'Microsoft Windows Denial of Service Vulnerability'.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-13173](https://github.com/ossf-cve-benchmark/CVE-2019-13173) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-13173.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-13173.svg)
-
 ## CVE-2019-1315
  An elevation of privilege vulnerability exists when Windows Error Reporting manager improperly handles hard links, aka 'Windows Error Reporting Manager Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1339, CVE-2019-1342.
 
 
 
 - [https://github.com/Mayter/CVE-2019-1315](https://github.com/Mayter/CVE-2019-1315) :  ![starts](https://img.shields.io/github/stars/Mayter/CVE-2019-1315.svg) ![forks](https://img.shields.io/github/forks/Mayter/CVE-2019-1315.svg)
-
-## CVE-2019-1312
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-13127](https://github.com/ossf-cve-benchmark/CVE-2019-13127) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-13127.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-13127.svg)
-
-## CVE-2019-1306
- A remote code execution vulnerability exists when Azure DevOps Server (ADO) and Team Foundation Server (TFS) fail to validate input properly, aka 'Azure DevOps and Team Foundation Server Remote Code Execution Vulnerability'.
-
-
-
-- [https://github.com/0x6b7966/CVE-2019-13063-POC](https://github.com/0x6b7966/CVE-2019-13063-POC) :  ![starts](https://img.shields.io/github/stars/0x6b7966/CVE-2019-13063-POC.svg) ![forks](https://img.shields.io/github/forks/0x6b7966/CVE-2019-13063-POC.svg)
-
-## CVE-2019-1305
- A Cross-site Scripting (XSS) vulnerability exists when Team Foundation Server does not properly sanitize user provided input, aka 'Team Foundation Server Cross-site Scripting Vulnerability'.
-
-
-
-- [https://github.com/pr0tean/CVE-2019-13051](https://github.com/pr0tean/CVE-2019-13051) :  ![starts](https://img.shields.io/github/stars/pr0tean/CVE-2019-13051.svg) ![forks](https://img.shields.io/github/forks/pr0tean/CVE-2019-13051.svg)
-
-## CVE-2019-1302
- An elevation of privilege vulnerability exists when a ASP.NET Core web application, created using vulnerable project templates, fails to properly sanitize web requests, aka 'ASP.NET Core Elevation Of Privilege Vulnerability'.
-
-
-
-- [https://github.com/x1tan/CVE-2019-13025](https://github.com/x1tan/CVE-2019-13025) :  ![starts](https://img.shields.io/github/stars/x1tan/CVE-2019-13025.svg) ![forks](https://img.shields.io/github/forks/x1tan/CVE-2019-13025.svg)
-
-- [https://github.com/mhaskar/CVE-2019-13024](https://github.com/mhaskar/CVE-2019-13024) :  ![starts](https://img.shields.io/github/stars/mhaskar/CVE-2019-13024.svg) ![forks](https://img.shields.io/github/forks/mhaskar/CVE-2019-13024.svg)
-
-- [https://github.com/IckoGZ/CVE-2019-13027](https://github.com/IckoGZ/CVE-2019-13027) :  ![starts](https://img.shields.io/github/stars/IckoGZ/CVE-2019-13027.svg) ![forks](https://img.shields.io/github/forks/IckoGZ/CVE-2019-13027.svg)
-
-## CVE-2019-1294
- A security feature bypass exists when Windows Secure Boot improperly restricts access to debugging functionality, aka 'Windows Secure Boot Security Feature Bypass Vulnerability'.
-
-
-
-- [https://github.com/tarantula-team/CVE-2019-12949](https://github.com/tarantula-team/CVE-2019-12949) :  ![starts](https://img.shields.io/github/stars/tarantula-team/CVE-2019-12949.svg) ![forks](https://img.shields.io/github/forks/tarantula-team/CVE-2019-12949.svg)
-
-## CVE-2019-1288
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.
-
-
-
-- [https://github.com/nulsect0r/CVE-2019-12889](https://github.com/nulsect0r/CVE-2019-12889) :  ![starts](https://img.shields.io/github/stars/nulsect0r/CVE-2019-12889.svg) ![forks](https://img.shields.io/github/forks/nulsect0r/CVE-2019-12889.svg)
-
-## CVE-2019-1283
- An information disclosure vulnerability exists in the way that Microsoft Graphics Components handle objects in memory, aka 'Microsoft Graphics Components Information Disclosure Vulnerability'.
-
-
-
-- [https://github.com/9lyph/CVE-2019-12836](https://github.com/9lyph/CVE-2019-12836) :  ![starts](https://img.shields.io/github/stars/9lyph/CVE-2019-12836.svg) ![forks](https://img.shields.io/github/forks/9lyph/CVE-2019-12836.svg)
-
-## CVE-2019-1281
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.
-
-
-
-- [https://github.com/KTN1990/CVE-2019-12815](https://github.com/KTN1990/CVE-2019-12815) :  ![starts](https://img.shields.io/github/stars/KTN1990/CVE-2019-12815.svg) ![forks](https://img.shields.io/github/forks/KTN1990/CVE-2019-12815.svg)
-
-- [https://github.com/Al1ex/CVE-2019-12814](https://github.com/Al1ex/CVE-2019-12814) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2019-12814.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2019-12814.svg)
-
-- [https://github.com/lcartey/proftpd-cve-2019-12815](https://github.com/lcartey/proftpd-cve-2019-12815) :  ![starts](https://img.shields.io/github/stars/lcartey/proftpd-cve-2019-12815.svg) ![forks](https://img.shields.io/github/forks/lcartey/proftpd-cve-2019-12815.svg)
-
-## CVE-2019-1279
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.
-
-
-
-- [https://github.com/PeterUpfold/CVE-2019-12796](https://github.com/PeterUpfold/CVE-2019-12796) :  ![starts](https://img.shields.io/github/stars/PeterUpfold/CVE-2019-12796.svg) ![forks](https://img.shields.io/github/forks/PeterUpfold/CVE-2019-12796.svg)
-
-## CVE-2019-1273
- A cross-site-scripting (XSS) vulnerability exists when Active Directory Federation Services (ADFS) does not properly sanitize certain error messages, aka 'Active Directory Federation Services XSS Vulnerability'.
-
-
-
-- [https://github.com/oldthree3/CVE-2019-12735-VIM-NEOVIM](https://github.com/oldthree3/CVE-2019-12735-VIM-NEOVIM) :  ![starts](https://img.shields.io/github/stars/oldthree3/CVE-2019-12735-VIM-NEOVIM.svg) ![forks](https://img.shields.io/github/forks/oldthree3/CVE-2019-12735-VIM-NEOVIM.svg)
 
 ## CVE-2019-1253
  An elevation of privilege vulnerability exists when the Windows AppX Deployment Server improperly handles junctions.To exploit this vulnerability, an attacker would first have to gain execution on the victim system, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1215, CVE-2019-1278, CVE-2019-1303.
@@ -11046,56 +10437,6 @@
 - [https://github.com/sgabe/CVE-2019-1253](https://github.com/sgabe/CVE-2019-1253) :  ![starts](https://img.shields.io/github/stars/sgabe/CVE-2019-1253.svg) ![forks](https://img.shields.io/github/forks/sgabe/CVE-2019-1253.svg)
 
 - [https://github.com/likescam/CVE-2019-1253](https://github.com/likescam/CVE-2019-1253) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2019-1253.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2019-1253.svg)
-
-- [https://github.com/tarantula-team/CVE-2019-12538](https://github.com/tarantula-team/CVE-2019-12538) :  ![starts](https://img.shields.io/github/stars/tarantula-team/CVE-2019-12538.svg) ![forks](https://img.shields.io/github/forks/tarantula-team/CVE-2019-12538.svg)
-
-## CVE-2019-1247
- A remote code execution vulnerability exists when the Windows Jet Database Engine improperly handles objects in memory, aka 'Jet Database Engine Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1240, CVE-2019-1241, CVE-2019-1242, CVE-2019-1243, CVE-2019-1246, CVE-2019-1248, CVE-2019-1249, CVE-2019-1250.
-
-
-
-- [https://github.com/0katz/CVE-2019-12476](https://github.com/0katz/CVE-2019-12476) :  ![starts](https://img.shields.io/github/stars/0katz/CVE-2019-12476.svg) ![forks](https://img.shields.io/github/forks/0katz/CVE-2019-12476.svg)
-
-- [https://github.com/undefinedmode/CVE-2019-12475](https://github.com/undefinedmode/CVE-2019-12475) :  ![starts](https://img.shields.io/github/stars/undefinedmode/CVE-2019-12475.svg) ![forks](https://img.shields.io/github/forks/undefinedmode/CVE-2019-12475.svg)
-
-## CVE-2019-1245
- An information disclosure vulnerability exists when DirectWrite improperly discloses the contents of its memory, aka 'DirectWrite Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-1244, CVE-2019-1251.
-
-
-
-- [https://github.com/undefinedmode/CVE-2019-12453](https://github.com/undefinedmode/CVE-2019-12453) :  ![starts](https://img.shields.io/github/stars/undefinedmode/CVE-2019-12453.svg) ![forks](https://img.shields.io/github/forks/undefinedmode/CVE-2019-12453.svg)
-
-## CVE-2019-1240
- A remote code execution vulnerability exists when the Windows Jet Database Engine improperly handles objects in memory, aka 'Jet Database Engine Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1241, CVE-2019-1242, CVE-2019-1243, CVE-2019-1246, CVE-2019-1247, CVE-2019-1248, CVE-2019-1249, CVE-2019-1250.
-
-
-
-- [https://github.com/jas502n/CVE-2019-12409](https://github.com/jas502n/CVE-2019-12409) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-12409.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-12409.svg)
-
-## CVE-2019-1238
- A remote code execution vulnerability exists in the way that the VBScript engine handles objects in memory, aka 'VBScript Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1239.
-
-
-
-- [https://github.com/jas502n/CVE-2019-12384](https://github.com/jas502n/CVE-2019-12384) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-12384.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-12384.svg)
-
-- [https://github.com/MagicZer0/Jackson_RCE-CVE-2019-12384](https://github.com/MagicZer0/Jackson_RCE-CVE-2019-12384) :  ![starts](https://img.shields.io/github/stars/MagicZer0/Jackson_RCE-CVE-2019-12384.svg) ![forks](https://img.shields.io/github/forks/MagicZer0/Jackson_RCE-CVE-2019-12384.svg)
-
-- [https://github.com/Sharker3312/CVE-2019-12384](https://github.com/Sharker3312/CVE-2019-12384) :  ![starts](https://img.shields.io/github/stars/Sharker3312/CVE-2019-12384.svg) ![forks](https://img.shields.io/github/forks/Sharker3312/CVE-2019-12384.svg)
-
-## CVE-2019-1234
- A spoofing vulnerability exists when Azure Stack fails to validate certain requests, aka 'Azure Stack Spoofing Vulnerability'.
-
-
-
-- [https://github.com/hu185396/cve-2019-12345](https://github.com/hu185396/cve-2019-12345) :  ![starts](https://img.shields.io/github/stars/hu185396/cve-2019-12345.svg) ![forks](https://img.shields.io/github/forks/hu185396/cve-2019-12345.svg)
-
-## CVE-2019-1225
- An information disclosure vulnerability exists when the Windows RDP server improperly discloses the contents of its memory, aka 'Remote Desktop Protocol Server Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-1224.
-
-
-
-- [https://github.com/tuyenhva/CVE-2019-12252](https://github.com/tuyenhva/CVE-2019-12252) :  ![starts](https://img.shields.io/github/stars/tuyenhva/CVE-2019-12252.svg) ![forks](https://img.shields.io/github/forks/tuyenhva/CVE-2019-12252.svg)
 
 ## CVE-2019-1221
  A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'.
@@ -11111,10 +10452,6 @@
 
 - [https://github.com/d0gukank/CVE-2019-1218](https://github.com/d0gukank/CVE-2019-1218) :  ![starts](https://img.shields.io/github/stars/d0gukank/CVE-2019-1218.svg) ![forks](https://img.shields.io/github/forks/d0gukank/CVE-2019-1218.svg)
 
-- [https://github.com/falconz/CVE-2019-12189](https://github.com/falconz/CVE-2019-12189) :  ![starts](https://img.shields.io/github/stars/falconz/CVE-2019-12189.svg) ![forks](https://img.shields.io/github/forks/falconz/CVE-2019-12189.svg)
-
-- [https://github.com/tuyenhva/CVE-2019-12189](https://github.com/tuyenhva/CVE-2019-12189) :  ![starts](https://img.shields.io/github/stars/tuyenhva/CVE-2019-12189.svg) ![forks](https://img.shields.io/github/forks/tuyenhva/CVE-2019-12189.svg)
-
 ## CVE-2019-1215
  An elevation of privilege vulnerability exists in the way that ws2ifsl.sys (Winsock) handles objects in memory, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1253, CVE-2019-1278, CVE-2019-1303.
 
@@ -11122,82 +10459,12 @@
 
 - [https://github.com/bluefrostsecurity/CVE-2019-1215](https://github.com/bluefrostsecurity/CVE-2019-1215) :  ![starts](https://img.shields.io/github/stars/bluefrostsecurity/CVE-2019-1215.svg) ![forks](https://img.shields.io/github/forks/bluefrostsecurity/CVE-2019-1215.svg)
 
-## CVE-2019-1208
- A remote code execution vulnerability exists in the way that the VBScript engine handles objects in memory, aka 'VBScript Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1236.
-
-
-
-- [https://github.com/codeplutos/CVE-2019-12086-jackson-databind-file-read](https://github.com/codeplutos/CVE-2019-12086-jackson-databind-file-read) :  ![starts](https://img.shields.io/github/stars/codeplutos/CVE-2019-12086-jackson-databind-file-read.svg) ![forks](https://img.shields.io/github/forks/codeplutos/CVE-2019-12086-jackson-databind-file-read.svg)
-
-- [https://github.com/Al1ex/CVE-2019-12086](https://github.com/Al1ex/CVE-2019-12086) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2019-12086.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2019-12086.svg)
-
-## CVE-2019-1204
- An elevation of privilege vulnerability exists when Microsoft Outlook initiates processing of incoming messages without sufficient validation of the formatting of the messages, aka 'Microsoft Outlook Elevation of Privilege Vulnerability'.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-12043](https://github.com/ossf-cve-benchmark/CVE-2019-12043) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-12043.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-12043.svg)
-
 ## CVE-2019-1181
  A remote code execution vulnerability exists in Remote Desktop Services &#8364;&#8220; formerly known as Terminal Services &#8364;&#8220; when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1182, CVE-2019-1222, CVE-2019-1226.
 
 
 
 - [https://github.com/major203/cve-2019-1181](https://github.com/major203/cve-2019-1181) :  ![starts](https://img.shields.io/github/stars/major203/cve-2019-1181.svg) ![forks](https://img.shields.io/github/forks/major203/cve-2019-1181.svg)
-
-## CVE-2019-1170
- An elevation of privilege vulnerability exists when reparse points are created by sandboxed processes allowing sandbox escape, aka 'Windows NTFS Elevation of Privilege Vulnerability'.
-
-
-
-- [https://github.com/0vercl0k/CVE-2019-11708](https://github.com/0vercl0k/CVE-2019-11708) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2019-11708.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2019-11708.svg)
-
-- [https://github.com/vigneshsrao/CVE-2019-11707](https://github.com/vigneshsrao/CVE-2019-11707) :  ![starts](https://img.shields.io/github/stars/vigneshsrao/CVE-2019-11707.svg) ![forks](https://img.shields.io/github/forks/vigneshsrao/CVE-2019-11707.svg)
-
-- [https://github.com/tunnelshade/cve-2019-11707](https://github.com/tunnelshade/cve-2019-11707) :  ![starts](https://img.shields.io/github/stars/tunnelshade/cve-2019-11707.svg) ![forks](https://img.shields.io/github/forks/tunnelshade/cve-2019-11707.svg)
-
-## CVE-2019-1153
- An information disclosure vulnerability exists when the Microsoft Windows Graphics Component improperly handles objects in memory, aka 'Microsoft Graphics Component Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-1078, CVE-2019-1148.
-
-
-
-- [https://github.com/0xDezzy/CVE-2019-11539](https://github.com/0xDezzy/CVE-2019-11539) :  ![starts](https://img.shields.io/github/stars/0xDezzy/CVE-2019-11539.svg) ![forks](https://img.shields.io/github/forks/0xDezzy/CVE-2019-11539.svg)
-
-## CVE-2019-1152
- A remote code execution vulnerability exists when the Windows font library improperly handles specially crafted embedded fonts, aka 'Microsoft Graphics Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1144, CVE-2019-1145, CVE-2019-1149, CVE-2019-1150, CVE-2019-1151.
-
-
-
-- [https://github.com/wizlab-it/anviz-m3-rfid-cve-2019-11523-poc](https://github.com/wizlab-it/anviz-m3-rfid-cve-2019-11523-poc) :  ![starts](https://img.shields.io/github/stars/wizlab-it/anviz-m3-rfid-cve-2019-11523-poc.svg) ![forks](https://img.shields.io/github/forks/wizlab-it/anviz-m3-rfid-cve-2019-11523-poc.svg)
-
-## CVE-2019-1147
- A remote code execution vulnerability exists when the Windows Jet Database Engine improperly handles objects in memory, aka 'Jet Database Engine Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1146, CVE-2019-1155, CVE-2019-1156, CVE-2019-1157.
-
-
-
-- [https://github.com/sasqwatch/cve-2019-11477-poc](https://github.com/sasqwatch/cve-2019-11477-poc) :  ![starts](https://img.shields.io/github/stars/sasqwatch/cve-2019-11477-poc.svg) ![forks](https://img.shields.io/github/forks/sasqwatch/cve-2019-11477-poc.svg)
-
-## CVE-2019-1144
- A remote code execution vulnerability exists when the Windows font library improperly handles specially crafted embedded fonts, aka 'Microsoft Graphics Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1145, CVE-2019-1149, CVE-2019-1150, CVE-2019-1151, CVE-2019-1152.
-
-
-
-- [https://github.com/CRFSlick/CVE-2019-11447-POC](https://github.com/CRFSlick/CVE-2019-11447-POC) :  ![starts](https://img.shields.io/github/stars/CRFSlick/CVE-2019-11447-POC.svg) ![forks](https://img.shields.io/github/forks/CRFSlick/CVE-2019-11447-POC.svg)
-
-- [https://github.com/khuntor/CVE-2019-11447-EXP](https://github.com/khuntor/CVE-2019-11447-EXP) :  ![starts](https://img.shields.io/github/stars/khuntor/CVE-2019-11447-EXP.svg) ![forks](https://img.shields.io/github/forks/khuntor/CVE-2019-11447-EXP.svg)
-
-- [https://github.com/thewhiteh4t/cve-2019-11447](https://github.com/thewhiteh4t/cve-2019-11447) :  ![starts](https://img.shields.io/github/stars/thewhiteh4t/cve-2019-11447.svg) ![forks](https://img.shields.io/github/forks/thewhiteh4t/cve-2019-11447.svg)
-
-- [https://github.com/mt-code/CVE-2019-11447](https://github.com/mt-code/CVE-2019-11447) :  ![starts](https://img.shields.io/github/stars/mt-code/CVE-2019-11447.svg) ![forks](https://img.shields.io/github/forks/mt-code/CVE-2019-11447.svg)
-
-- [https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE](https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE) :  ![starts](https://img.shields.io/github/stars/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE.svg) ![forks](https://img.shields.io/github/forks/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE.svg)
-
-## CVE-2019-1135
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-11358](https://github.com/ossf-cve-benchmark/CVE-2019-11358) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-11358.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-11358.svg)
 
 ## CVE-2019-1132
  An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'.
@@ -11229,71 +10496,12 @@
 
 - [https://github.com/bitdefender/swapgs-attack-poc](https://github.com/bitdefender/swapgs-attack-poc) :  ![starts](https://img.shields.io/github/stars/bitdefender/swapgs-attack-poc.svg) ![forks](https://img.shields.io/github/forks/bitdefender/swapgs-attack-poc.svg)
 
-## CVE-2019-1122
- A remote code execution vulnerability exists in the way that DirectWrite handles objects in memory, aka 'DirectWrite Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1117, CVE-2019-1118, CVE-2019-1119, CVE-2019-1120, CVE-2019-1121, CVE-2019-1123, CVE-2019-1124, CVE-2019-1127, CVE-2019-1128.
-
-
-
-- [https://github.com/AngelCtulhu/CVE-2019-11223](https://github.com/AngelCtulhu/CVE-2019-11223) :  ![starts](https://img.shields.io/github/stars/AngelCtulhu/CVE-2019-11223.svg) ![forks](https://img.shields.io/github/forks/AngelCtulhu/CVE-2019-11223.svg)
-
-- [https://github.com/Insecurities/CVE-2019-11224](https://github.com/Insecurities/CVE-2019-11224) :  ![starts](https://img.shields.io/github/stars/Insecurities/CVE-2019-11224.svg) ![forks](https://img.shields.io/github/forks/Insecurities/CVE-2019-11224.svg)
-
 ## CVE-2019-1108
  An information disclosure vulnerability exists when the Windows RDP client improperly discloses the contents of its memory, aka 'Remote Desktop Protocol Client Information Disclosure Vulnerability'.
 
 
 
 - [https://github.com/Lanph3re/cve-2019-1108](https://github.com/Lanph3re/cve-2019-1108) :  ![starts](https://img.shields.io/github/stars/Lanph3re/cve-2019-1108.svg) ![forks](https://img.shields.io/github/forks/Lanph3re/cve-2019-1108.svg)
-
-## CVE-2019-1104
- A remote code execution vulnerability exists in the way that Microsoft browsers access objects in memory, aka 'Microsoft Browser Memory Corruption Vulnerability'.
-
-
-
-- [https://github.com/theMiddleBlue/CVE-2019-11043](https://github.com/theMiddleBlue/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/theMiddleBlue/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/theMiddleBlue/CVE-2019-11043.svg)
-
-- [https://github.com/jas502n/CVE-2019-11043](https://github.com/jas502n/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-11043.svg)
-
-- [https://github.com/akamajoris/CVE-2019-11043-Docker](https://github.com/akamajoris/CVE-2019-11043-Docker) :  ![starts](https://img.shields.io/github/stars/akamajoris/CVE-2019-11043-Docker.svg) ![forks](https://img.shields.io/github/forks/akamajoris/CVE-2019-11043-Docker.svg)
-
-- [https://github.com/k8gege/CVE-2019-11043](https://github.com/k8gege/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/k8gege/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/k8gege/CVE-2019-11043.svg)
-
-- [https://github.com/0th3rs-Security-Team/CVE-2019-11043](https://github.com/0th3rs-Security-Team/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/0th3rs-Security-Team/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/0th3rs-Security-Team/CVE-2019-11043.svg)
-
-- [https://github.com/huowen/CVE-2019-11043](https://github.com/huowen/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/huowen/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/huowen/CVE-2019-11043.svg)
-
-- [https://github.com/ypereirareis/docker-CVE-2019-11043](https://github.com/ypereirareis/docker-CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/ypereirareis/docker-CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/ypereirareis/docker-CVE-2019-11043.svg)
-
-- [https://github.com/AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-](https://github.com/AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-) :  ![starts](https://img.shields.io/github/stars/AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-.svg) ![forks](https://img.shields.io/github/forks/AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-.svg)
-
-- [https://github.com/fairyming/CVE-2019-11043](https://github.com/fairyming/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/fairyming/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/fairyming/CVE-2019-11043.svg)
-
-- [https://github.com/MRdoulestar/CVE-2019-11043](https://github.com/MRdoulestar/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/MRdoulestar/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/MRdoulestar/CVE-2019-11043.svg)
-
-- [https://github.com/ianxtianxt/CVE-2019-11043](https://github.com/ianxtianxt/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2019-11043.svg)
-
-- [https://github.com/corifeo/CVE-2019-11043](https://github.com/corifeo/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/corifeo/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/corifeo/CVE-2019-11043.svg)
-
-- [https://github.com/tinker-li/CVE-2019-11043](https://github.com/tinker-li/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/tinker-li/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/tinker-li/CVE-2019-11043.svg)
-
-- [https://github.com/B1gd0g/CVE-2019-11043](https://github.com/B1gd0g/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/B1gd0g/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/B1gd0g/CVE-2019-11043.svg)
-
-- [https://github.com/moniik/CVE-2019-11043_env](https://github.com/moniik/CVE-2019-11043_env) :  ![starts](https://img.shields.io/github/stars/moniik/CVE-2019-11043_env.svg) ![forks](https://img.shields.io/github/forks/moniik/CVE-2019-11043_env.svg)
-
-- [https://github.com/alokaranasinghe/cve-2019-11043](https://github.com/alokaranasinghe/cve-2019-11043) :  ![starts](https://img.shields.io/github/stars/alokaranasinghe/cve-2019-11043.svg) ![forks](https://img.shields.io/github/forks/alokaranasinghe/cve-2019-11043.svg)
-
-- [https://github.com/kriskhub/CVE-2019-11043](https://github.com/kriskhub/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/kriskhub/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/kriskhub/CVE-2019-11043.svg)
-
-- [https://github.com/lindemer/CVE-2019-11043](https://github.com/lindemer/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/lindemer/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/lindemer/CVE-2019-11043.svg)
-
-- [https://github.com/shadow-horse/cve-2019-11043](https://github.com/shadow-horse/cve-2019-11043) :  ![starts](https://img.shields.io/github/stars/shadow-horse/cve-2019-11043.svg) ![forks](https://img.shields.io/github/forks/shadow-horse/cve-2019-11043.svg)
-
-## CVE-2019-1099
- An information disclosure vulnerability exists when the Windows GDI component improperly discloses the contents of its memory, aka 'Windows GDI Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-1094, CVE-2019-1095, CVE-2019-1098, CVE-2019-1100, CVE-2019-1101, CVE-2019-1116.
-
-
-
-- [https://github.com/tacnetsol/CVE-2019-10999](https://github.com/tacnetsol/CVE-2019-10999) :  ![starts](https://img.shields.io/github/stars/tacnetsol/CVE-2019-10999.svg) ![forks](https://img.shields.io/github/forks/tacnetsol/CVE-2019-10999.svg)
 
 ## CVE-2019-1096
  An information disclosure vulnerability exists when the win32k component improperly provides kernel information, aka 'Win32k Information Disclosure Vulnerability'.
@@ -11302,96 +10510,12 @@
 
 - [https://github.com/CrackerCat/cve-2019-1096-poc](https://github.com/CrackerCat/cve-2019-1096-poc) :  ![starts](https://img.shields.io/github/stars/CrackerCat/cve-2019-1096-poc.svg) ![forks](https://img.shields.io/github/forks/CrackerCat/cve-2019-1096-poc.svg)
 
-## CVE-2019-1091
- An information disclosure vulnerability exists when Unistore.dll fails to properly handle objects in memory, aka 'Microsoft unistore.dll Information Disclosure Vulnerability'.
-
-
-
-- [https://github.com/jiansiting/CVE-2019-10915](https://github.com/jiansiting/CVE-2019-10915) :  ![starts](https://img.shields.io/github/stars/jiansiting/CVE-2019-10915.svg) ![forks](https://img.shields.io/github/forks/jiansiting/CVE-2019-10915.svg)
-
-## CVE-2019-1086
- An elevation of privilege exists in Windows Audio Service, aka 'Windows Audio Service Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1087, CVE-2019-1088.
-
-
-
-- [https://github.com/KTN1990/CVE-2019-10869](https://github.com/KTN1990/CVE-2019-10869) :  ![starts](https://img.shields.io/github/stars/KTN1990/CVE-2019-10869.svg) ![forks](https://img.shields.io/github/forks/KTN1990/CVE-2019-10869.svg)
-
 ## CVE-2019-1083
  A denial of service vulnerability exists when Microsoft Common Object Runtime Library improperly handles web requests, aka '.NET Denial of Service Vulnerability'.
 
 
 
 - [https://github.com/stevenseeley/HowCVE-2019-1083Works](https://github.com/stevenseeley/HowCVE-2019-1083Works) :  ![starts](https://img.shields.io/github/stars/stevenseeley/HowCVE-2019-1083Works.svg) ![forks](https://img.shields.io/github/forks/stevenseeley/HowCVE-2019-1083Works.svg)
-
-## CVE-2019-1078
- An information disclosure vulnerability exists when the Windows Graphics component improperly handles objects in memory, aka 'Microsoft Graphics Component Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-1148, CVE-2019-1153.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10781](https://github.com/ossf-cve-benchmark/CVE-2019-10781) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10781.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10781.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10785](https://github.com/ossf-cve-benchmark/CVE-2019-10785) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10785.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10785.svg)
-
-## CVE-2019-1077
- An elevation of privilege vulnerability exists when the Visual Studio updater service improperly handles file permissions, aka 'Visual Studio Elevation of Privilege Vulnerability'.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10776](https://github.com/ossf-cve-benchmark/CVE-2019-10776) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10776.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10776.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10771](https://github.com/ossf-cve-benchmark/CVE-2019-10771) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10771.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10771.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10775](https://github.com/ossf-cve-benchmark/CVE-2019-10775) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10775.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10775.svg)
-
-- [https://github.com/RepublicR0K/CVE-2019-10779](https://github.com/RepublicR0K/CVE-2019-10779) :  ![starts](https://img.shields.io/github/stars/RepublicR0K/CVE-2019-10779.svg) ![forks](https://img.shields.io/github/forks/RepublicR0K/CVE-2019-10779.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10777](https://github.com/ossf-cve-benchmark/CVE-2019-10777) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10777.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10777.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10778](https://github.com/ossf-cve-benchmark/CVE-2019-10778) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10778.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10778.svg)
-
-## CVE-2019-1076
- A Cross-site Scripting (XSS) vulnerability exists when Team Foundation Server does not properly sanitize user provided input, aka 'Team Foundation Server Cross-site Scripting Vulnerability'.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10765](https://github.com/ossf-cve-benchmark/CVE-2019-10765) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10765.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10765.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10767](https://github.com/ossf-cve-benchmark/CVE-2019-10767) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10767.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10767.svg)
-
-## CVE-2019-1075
- A spoofing vulnerability exists in ASP.NET Core that could lead to an open redirect, aka 'ASP.NET Core Spoofing Vulnerability'.
-
-
-
-- [https://github.com/masahiro331/CVE-2019-10758](https://github.com/masahiro331/CVE-2019-10758) :  ![starts](https://img.shields.io/github/stars/masahiro331/CVE-2019-10758.svg) ![forks](https://img.shields.io/github/forks/masahiro331/CVE-2019-10758.svg)
-
-- [https://github.com/lp008/CVE-2019-10758](https://github.com/lp008/CVE-2019-10758) :  ![starts](https://img.shields.io/github/stars/lp008/CVE-2019-10758.svg) ![forks](https://img.shields.io/github/forks/lp008/CVE-2019-10758.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10759](https://github.com/ossf-cve-benchmark/CVE-2019-10759) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10759.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10759.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10757](https://github.com/ossf-cve-benchmark/CVE-2019-10757) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10757.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10757.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10758](https://github.com/ossf-cve-benchmark/CVE-2019-10758) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10758.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10758.svg)
-
-## CVE-2019-1074
- An elevation of privilege vulnerability exists in Microsoft Windows where certain folders, with local service privilege, are vulnerable to symbolic link attack. An attacker who successfully exploited this vulnerability could potentially access unauthorized information. The update addresses this vulnerability by not allowing symbolic links in these scenarios., aka 'Microsoft Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1082.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10744](https://github.com/ossf-cve-benchmark/CVE-2019-10744) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10744.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10744.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10746](https://github.com/ossf-cve-benchmark/CVE-2019-10746) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10746.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10746.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10745](https://github.com/ossf-cve-benchmark/CVE-2019-10745) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10745.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10745.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10747](https://github.com/ossf-cve-benchmark/CVE-2019-10747) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10747.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10747.svg)
-
-## CVE-2019-1070
- A cross-site-scripting (XSS) vulnerability exists when Microsoft SharePoint Server does not properly sanitize a specially crafted web request to an affected SharePoint server, aka 'Microsoft Office SharePoint XSS Vulnerability'.
-
-
-
-- [https://github.com/stavhaygn/CVE-2019-10708](https://github.com/stavhaygn/CVE-2019-10708) :  ![starts](https://img.shields.io/github/stars/stavhaygn/CVE-2019-10708.svg) ![forks](https://img.shields.io/github/forks/stavhaygn/CVE-2019-10708.svg)
 
 ## CVE-2019-1069
  An elevation of privilege vulnerability exists in the way the Task Scheduler Service validates certain file operations, aka 'Task Scheduler Elevation of Privilege Vulnerability'.
@@ -11405,16 +10529,7 @@
 
 
 
-- [https://github.com/alt3kx/CVE-2019-10685](https://github.com/alt3kx/CVE-2019-10685) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2019-10685.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2019-10685.svg)
-
 - [https://github.com/Vulnerability-Playground/CVE-2019-1068](https://github.com/Vulnerability-Playground/CVE-2019-1068) :  ![starts](https://img.shields.io/github/stars/Vulnerability-Playground/CVE-2019-1068.svg) ![forks](https://img.shields.io/github/forks/Vulnerability-Playground/CVE-2019-1068.svg)
-
-## CVE-2019-1067
- An elevation of privilege vulnerability exists when the Windows kernel fails to properly handle objects in memory, aka 'Windows Kernel Elevation of Privilege Vulnerability'.
-
-
-
-- [https://github.com/cved-sources/cve-2019-10678](https://github.com/cved-sources/cve-2019-10678) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2019-10678.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2019-10678.svg)
 
 ## CVE-2019-1064
  An elevation of privilege vulnerability exists when Windows AppX Deployment Service (AppXSVC) improperly handles hard links, aka 'Windows Elevation of Privilege Vulnerability'.
@@ -11426,13 +10541,6 @@
 - [https://github.com/0x00-0x00/CVE-2019-1064](https://github.com/0x00-0x00/CVE-2019-1064) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2019-1064.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2019-1064.svg)
 
 - [https://github.com/attackgithub/CVE-2019-1064](https://github.com/attackgithub/CVE-2019-1064) :  ![starts](https://img.shields.io/github/stars/attackgithub/CVE-2019-1064.svg) ![forks](https://img.shields.io/github/forks/attackgithub/CVE-2019-1064.svg)
-
-## CVE-2019-1047
- An information disclosure vulnerability exists when the Windows GDI component improperly discloses the contents of its memory, aka 'Windows GDI Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-0968, CVE-2019-0977, CVE-2019-1009, CVE-2019-1010, CVE-2019-1011, CVE-2019-1012, CVE-2019-1013, CVE-2019-1015, CVE-2019-1016, CVE-2019-1046, CVE-2019-1048, CVE-2019-1049, CVE-2019-1050.
-
-
-
-- [https://github.com/vesche/CVE-2019-10475](https://github.com/vesche/CVE-2019-10475) :  ![starts](https://img.shields.io/github/stars/vesche/CVE-2019-10475.svg) ![forks](https://img.shields.io/github/forks/vesche/CVE-2019-10475.svg)
 
 ## CVE-2019-1040
  A tampering vulnerability exists in Microsoft Windows when a man-in-the-middle attacker is able to successfully bypass the NTLM MIC (Message Integrity Check) protection, aka 'Windows NTLM Tampering Vulnerability'.
@@ -11450,78 +10558,6 @@
 - [https://github.com/lazaars/UltraRealy_with_CVE-2019-1040](https://github.com/lazaars/UltraRealy_with_CVE-2019-1040) :  ![starts](https://img.shields.io/github/stars/lazaars/UltraRealy_with_CVE-2019-1040.svg) ![forks](https://img.shields.io/github/forks/lazaars/UltraRealy_with_CVE-2019-1040.svg)
 
 - [https://github.com/wzxmt/CVE-2019-1040](https://github.com/wzxmt/CVE-2019-1040) :  ![starts](https://img.shields.io/github/stars/wzxmt/CVE-2019-1040.svg) ![forks](https://img.shields.io/github/forks/wzxmt/CVE-2019-1040.svg)
-
-## CVE-2019-1020
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2019. Notes: none.
-
-
-
-- [https://github.com/butterflyhack/CVE-2019-10207](https://github.com/butterflyhack/CVE-2019-10207) :  ![starts](https://img.shields.io/github/stars/butterflyhack/CVE-2019-10207.svg) ![forks](https://img.shields.io/github/forks/butterflyhack/CVE-2019-10207.svg)
-
-## CVE-2019-1017
- An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0960, CVE-2019-1014.
-
-
-
-- [https://github.com/rusakovichma/CVE-2019-10172](https://github.com/rusakovichma/CVE-2019-10172) :  ![starts](https://img.shields.io/github/stars/rusakovichma/CVE-2019-10172.svg) ![forks](https://img.shields.io/github/forks/rusakovichma/CVE-2019-10172.svg)
-
-## CVE-2019-1014
- An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0960, CVE-2019-1017.
-
-
-
-- [https://github.com/MNEMO-CERT/PoC--CVE-2019-10149_Exim](https://github.com/MNEMO-CERT/PoC--CVE-2019-10149_Exim) :  ![starts](https://img.shields.io/github/stars/MNEMO-CERT/PoC--CVE-2019-10149_Exim.svg) ![forks](https://img.shields.io/github/forks/MNEMO-CERT/PoC--CVE-2019-10149_Exim.svg)
-
-- [https://github.com/cowbe0x004/eximrce-CVE-2019-10149](https://github.com/cowbe0x004/eximrce-CVE-2019-10149) :  ![starts](https://img.shields.io/github/stars/cowbe0x004/eximrce-CVE-2019-10149.svg) ![forks](https://img.shields.io/github/forks/cowbe0x004/eximrce-CVE-2019-10149.svg)
-
-- [https://github.com/Diefunction/CVE-2019-10149](https://github.com/Diefunction/CVE-2019-10149) :  ![starts](https://img.shields.io/github/stars/Diefunction/CVE-2019-10149.svg) ![forks](https://img.shields.io/github/forks/Diefunction/CVE-2019-10149.svg)
-
-- [https://github.com/AzizMea/CVE-2019-10149-privilege-escalation](https://github.com/AzizMea/CVE-2019-10149-privilege-escalation) :  ![starts](https://img.shields.io/github/stars/AzizMea/CVE-2019-10149-privilege-escalation.svg) ![forks](https://img.shields.io/github/forks/AzizMea/CVE-2019-10149-privilege-escalation.svg)
-
-- [https://github.com/darsigovrustam/CVE-2019-10149](https://github.com/darsigovrustam/CVE-2019-10149) :  ![starts](https://img.shields.io/github/stars/darsigovrustam/CVE-2019-10149.svg) ![forks](https://img.shields.io/github/forks/darsigovrustam/CVE-2019-10149.svg)
-
-- [https://github.com/aishee/CVE-2019-10149-quick](https://github.com/aishee/CVE-2019-10149-quick) :  ![starts](https://img.shields.io/github/stars/aishee/CVE-2019-10149-quick.svg) ![forks](https://img.shields.io/github/forks/aishee/CVE-2019-10149-quick.svg)
-
-- [https://github.com/Dilshan-Eranda/CVE-2019-10149](https://github.com/Dilshan-Eranda/CVE-2019-10149) :  ![starts](https://img.shields.io/github/stars/Dilshan-Eranda/CVE-2019-10149.svg) ![forks](https://img.shields.io/github/forks/Dilshan-Eranda/CVE-2019-10149.svg)
-
-- [https://github.com/area1/exim-cve-2019-10149-data](https://github.com/area1/exim-cve-2019-10149-data) :  ![starts](https://img.shields.io/github/stars/area1/exim-cve-2019-10149-data.svg) ![forks](https://img.shields.io/github/forks/area1/exim-cve-2019-10149-data.svg)
-
-## CVE-2019-1010
- An information disclosure vulnerability exists when the Windows GDI component improperly discloses the contents of its memory, aka 'Windows GDI Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-0968, CVE-2019-0977, CVE-2019-1009, CVE-2019-1011, CVE-2019-1012, CVE-2019-1013, CVE-2019-1015, CVE-2019-1016, CVE-2019-1046, CVE-2019-1047, CVE-2019-1048, CVE-2019-1049, CVE-2019-1050.
-
-
-
-- [https://github.com/RKX1209/CVE-2019-1010298](https://github.com/RKX1209/CVE-2019-1010298) :  ![starts](https://img.shields.io/github/stars/RKX1209/CVE-2019-1010298.svg) ![forks](https://img.shields.io/github/forks/RKX1209/CVE-2019-1010298.svg)
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-1010266](https://github.com/ossf-cve-benchmark/CVE-2019-1010266) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-1010266.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-1010266.svg)
-
-## CVE-2019-1008
- A security feature bypass vulnerability exists in Dynamics On Premise, aka 'Microsoft Dynamics On-Premise Security Feature Bypass'.
-
-
-
-- [https://github.com/evilangelplus/CVE-2019-10086](https://github.com/evilangelplus/CVE-2019-10086) :  ![starts](https://img.shields.io/github/stars/evilangelplus/CVE-2019-10086.svg) ![forks](https://img.shields.io/github/forks/evilangelplus/CVE-2019-10086.svg)
-
-## CVE-2019-1006
- An authentication bypass vulnerability exists in Windows Communication Foundation (WCF) and Windows Identity Foundation (WIF), allowing signing of SAML tokens with arbitrary symmetric keys, aka 'WCF/WIF SAML Token Authentication Bypass Vulnerability'.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-10061](https://github.com/ossf-cve-benchmark/CVE-2019-10061) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10061.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10061.svg)
-
-## CVE-2019-1002
- A remote code execution vulnerability exists in the way that the Chakra scripting engine handles objects in memory in Microsoft Edge, aka 'Chakra Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2019-0989, CVE-2019-0991, CVE-2019-0992, CVE-2019-0993, CVE-2019-1003, CVE-2019-1024, CVE-2019-1051, CVE-2019-1052.
-
-
-
-- [https://github.com/brompwnie/CVE-2019-1002101-Helpers](https://github.com/brompwnie/CVE-2019-1002101-Helpers) :  ![starts](https://img.shields.io/github/stars/brompwnie/CVE-2019-1002101-Helpers.svg) ![forks](https://img.shields.io/github/forks/brompwnie/CVE-2019-1002101-Helpers.svg)
-
-## CVE-2019-1000
- An elevation of privilege vulnerability exists in Microsoft Azure Active Directory Connect build 1.3.20.0, which allows an attacker to execute two PowerShell cmdlets in context of a privileged account, and perform privileged actions.To exploit this, an attacker would need to authenticate to the Azure&#8218; AD Connect server, aka 'Microsoft Azure AD Connect Elevation of Privilege Vulnerability'.
-
-
-
-- [https://github.com/FlameOfIgnis/CVE-2019-10008](https://github.com/FlameOfIgnis/CVE-2019-10008) :  ![starts](https://img.shields.io/github/stars/FlameOfIgnis/CVE-2019-10008.svg) ![forks](https://img.shields.io/github/forks/FlameOfIgnis/CVE-2019-10008.svg)
 
 ## CVE-2019-0986
  An elevation of privilege vulnerability exists when the Windows User Profile Service (ProfSvc) improperly handles symlinks, aka 'Windows User Profile Service Elevation of Privilege Vulnerability'.
@@ -17898,6 +16934,1237 @@
 
 - [https://github.com/matlink/cve-2017-1000083-atril-nautilus](https://github.com/matlink/cve-2017-1000083-atril-nautilus) :  ![starts](https://img.shields.io/github/stars/matlink/cve-2017-1000083-atril-nautilus.svg) ![forks](https://img.shields.io/github/forks/matlink/cve-2017-1000083-atril-nautilus.svg)
 
+## CVE-2017-9999
+ ** RE
+
+
+
+- [https://github.com/homjxi0e/CVE-2017-9999_bypassing_General_Firefox](https://github.com/homjxi0e/CVE-2017-9999_bypassing_General_Firefox) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-9999_bypassing_General_Firefox.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-9999_bypassing_General_Firefox.svg)
+
+## CVE-2017-9934
+ Missing CSRF token checks and improper input validation in Joomla! CMS 1.7.3 through 3.7.2 lead to an XSS vulnerability.
+
+
+
+- [https://github.com/xyringe/CVE-2017-9934](https://github.com/xyringe/CVE-2017-9934) :  ![starts](https://img.shields.io/github/stars/xyringe/CVE-2017-9934.svg) ![forks](https://img.shields.io/github/forks/xyringe/CVE-2017-9934.svg)
+
+## CVE-2017-9841
+ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows remote attackers to execute arbitrary PHP code via HTTP POST data beginning with a &quot;&lt;?php &quot; substring, as demonstrated by an attack on a site with an exposed /vendor folder, i.e., external access to the /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php URI.
+
+
+
+- [https://github.com/RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/phpunit-brute.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/phpunit-brute.svg)
+
+- [https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE) :  ![starts](https://img.shields.io/github/stars/ludy-dev/PHPUnit_eval-stdin_RCE.svg) ![forks](https://img.shields.io/github/forks/ludy-dev/PHPUnit_eval-stdin_RCE.svg)
+
+- [https://github.com/mbrasile/CVE-2017-9841](https://github.com/mbrasile/CVE-2017-9841) :  ![starts](https://img.shields.io/github/stars/mbrasile/CVE-2017-9841.svg) ![forks](https://img.shields.io/github/forks/mbrasile/CVE-2017-9841.svg)
+
+- [https://github.com/z3ox1s/PHPUnit-CVE-2017-9841](https://github.com/z3ox1s/PHPUnit-CVE-2017-9841) :  ![starts](https://img.shields.io/github/stars/z3ox1s/PHPUnit-CVE-2017-9841.svg) ![forks](https://img.shields.io/github/forks/z3ox1s/PHPUnit-CVE-2017-9841.svg)
+
+- [https://github.com/cyberharsh/Php-unit-CVE-2017-9841](https://github.com/cyberharsh/Php-unit-CVE-2017-9841) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Php-unit-CVE-2017-9841.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Php-unit-CVE-2017-9841.svg)
+
+## CVE-2017-9830
+ Remote Code Execution is possible in Code42 CrashPlan 5.4.x via the org.apache.commons.ssl.rmi.DateRMI Java class, because (upon instantiation) it creates an RMI server that listens on a TCP port and deserializes objects sent by TCP clients.
+
+
+
+- [https://github.com/securifera/CVE-2017-9830](https://github.com/securifera/CVE-2017-9830) :  ![starts](https://img.shields.io/github/stars/securifera/CVE-2017-9830.svg) ![forks](https://img.shields.io/github/forks/securifera/CVE-2017-9830.svg)
+
+## CVE-2017-9822
+ DNN (aka DotNetNuke) before 9.1.1 has Remote Code Execution via a cookie, aka &quot;2017-08 (Critical) Possible remote code execution on DNN sites.&quot;
+
+
+
+- [https://github.com/murataydemir/CVE-2017-9822](https://github.com/murataydemir/CVE-2017-9822) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2017-9822.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2017-9822.svg)
+
+## CVE-2017-9805
+ The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x before 2.5.13 uses an XStreamHandler with an instance of XStream for deserialization without any type filtering, which can lead to Remote Code Execution when deserializing XML payloads.
+
+
+
+- [https://github.com/mazen160/struts-pwn_CVE-2017-9805](https://github.com/mazen160/struts-pwn_CVE-2017-9805) :  ![starts](https://img.shields.io/github/stars/mazen160/struts-pwn_CVE-2017-9805.svg) ![forks](https://img.shields.io/github/forks/mazen160/struts-pwn_CVE-2017-9805.svg)
+
+- [https://github.com/luc10/struts-rce-cve-2017-9805](https://github.com/luc10/struts-rce-cve-2017-9805) :  ![starts](https://img.shields.io/github/stars/luc10/struts-rce-cve-2017-9805.svg) ![forks](https://img.shields.io/github/forks/luc10/struts-rce-cve-2017-9805.svg)
+
+- [https://github.com/chrisjd20/cve-2017-9805.py](https://github.com/chrisjd20/cve-2017-9805.py) :  ![starts](https://img.shields.io/github/stars/chrisjd20/cve-2017-9805.py.svg) ![forks](https://img.shields.io/github/forks/chrisjd20/cve-2017-9805.py.svg)
+
+- [https://github.com/0x00-0x00/-CVE-2017-9805](https://github.com/0x00-0x00/-CVE-2017-9805) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/-CVE-2017-9805.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/-CVE-2017-9805.svg)
+
+- [https://github.com/Lone-Ranger/apache-struts-pwn_CVE-2017-9805](https://github.com/Lone-Ranger/apache-struts-pwn_CVE-2017-9805) :  ![starts](https://img.shields.io/github/stars/Lone-Ranger/apache-struts-pwn_CVE-2017-9805.svg) ![forks](https://img.shields.io/github/forks/Lone-Ranger/apache-struts-pwn_CVE-2017-9805.svg)
+
+- [https://github.com/hahwul/struts2-rce-cve-2017-9805-ruby](https://github.com/hahwul/struts2-rce-cve-2017-9805-ruby) :  ![starts](https://img.shields.io/github/stars/hahwul/struts2-rce-cve-2017-9805-ruby.svg) ![forks](https://img.shields.io/github/forks/hahwul/struts2-rce-cve-2017-9805-ruby.svg)
+
+- [https://github.com/BeyondCy/S2-052](https://github.com/BeyondCy/S2-052) :  ![starts](https://img.shields.io/github/stars/BeyondCy/S2-052.svg) ![forks](https://img.shields.io/github/forks/BeyondCy/S2-052.svg)
+
+- [https://github.com/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-](https://github.com/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-) :  ![starts](https://img.shields.io/github/stars/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-.svg) ![forks](https://img.shields.io/github/forks/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-.svg)
+
+- [https://github.com/0xd3vil/CVE-2017-9805-Exploit](https://github.com/0xd3vil/CVE-2017-9805-Exploit) :  ![starts](https://img.shields.io/github/stars/0xd3vil/CVE-2017-9805-Exploit.svg) ![forks](https://img.shields.io/github/forks/0xd3vil/CVE-2017-9805-Exploit.svg)
+
+- [https://github.com/z3bd/CVE-2017-9805](https://github.com/z3bd/CVE-2017-9805) :  ![starts](https://img.shields.io/github/stars/z3bd/CVE-2017-9805.svg) ![forks](https://img.shields.io/github/forks/z3bd/CVE-2017-9805.svg)
+
+- [https://github.com/wifido/CVE-2017-9805-Exploit](https://github.com/wifido/CVE-2017-9805-Exploit) :  ![starts](https://img.shields.io/github/stars/wifido/CVE-2017-9805-Exploit.svg) ![forks](https://img.shields.io/github/forks/wifido/CVE-2017-9805-Exploit.svg)
+
+- [https://github.com/jongmartinez/-CVE-2017-9805-](https://github.com/jongmartinez/-CVE-2017-9805-) :  ![starts](https://img.shields.io/github/stars/jongmartinez/-CVE-2017-9805-.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/-CVE-2017-9805-.svg)
+
+- [https://github.com/rvermeulen/apache-struts-cve-2017-9805](https://github.com/rvermeulen/apache-struts-cve-2017-9805) :  ![starts](https://img.shields.io/github/stars/rvermeulen/apache-struts-cve-2017-9805.svg) ![forks](https://img.shields.io/github/forks/rvermeulen/apache-struts-cve-2017-9805.svg)
+
+- [https://github.com/AvishkaSenadheera/CVE-2017-9805---Documentation---IT19143378](https://github.com/AvishkaSenadheera/CVE-2017-9805---Documentation---IT19143378) :  ![starts](https://img.shields.io/github/stars/AvishkaSenadheera/CVE-2017-9805---Documentation---IT19143378.svg) ![forks](https://img.shields.io/github/forks/AvishkaSenadheera/CVE-2017-9805---Documentation---IT19143378.svg)
+
+- [https://github.com/UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit](https://github.com/UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit) :  ![starts](https://img.shields.io/github/stars/UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit.svg) ![forks](https://img.shields.io/github/forks/UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit.svg)
+
+## CVE-2017-9798
+ Apache httpd allows remote attackers to read secret data from process memory if the Limit directive can be set in a user's .htaccess file, or if httpd.conf has certain misconfigurations, aka Optionsbleed. This affects the Apache HTTP Server through 2.2.34 and 2.4.x through 2.4.27. The attacker sends an unauthenticated OPTIONS HTTP request when attempting to read secret data. This is a use-after-free issue and thus secret data is not always sent, and the specific data depends on many factors including configuration. Exploitation with .htaccess can be blocked with a patch to the ap_limit_section function in server/core.c.
+
+
+
+- [https://github.com/brokensound77/OptionsBleed-POC-Scanner](https://github.com/brokensound77/OptionsBleed-POC-Scanner) :  ![starts](https://img.shields.io/github/stars/brokensound77/OptionsBleed-POC-Scanner.svg) ![forks](https://img.shields.io/github/forks/brokensound77/OptionsBleed-POC-Scanner.svg)
+
+- [https://github.com/nitrado/CVE-2017-9798](https://github.com/nitrado/CVE-2017-9798) :  ![starts](https://img.shields.io/github/stars/nitrado/CVE-2017-9798.svg) ![forks](https://img.shields.io/github/forks/nitrado/CVE-2017-9798.svg)
+
+- [https://github.com/pabloec20/optionsbleed](https://github.com/pabloec20/optionsbleed) :  ![starts](https://img.shields.io/github/stars/pabloec20/optionsbleed.svg) ![forks](https://img.shields.io/github/forks/pabloec20/optionsbleed.svg)
+
+- [https://github.com/l0n3rs/CVE-2017-9798](https://github.com/l0n3rs/CVE-2017-9798) :  ![starts](https://img.shields.io/github/stars/l0n3rs/CVE-2017-9798.svg) ![forks](https://img.shields.io/github/forks/l0n3rs/CVE-2017-9798.svg)
+
+## CVE-2017-9791
+ The Struts 1 plugin in Apache Struts 2.1.x and 2.3.x might allow remote code execution via a malicious field value passed in a raw message to the ActionMessage.
+
+
+
+- [https://github.com/dragoneeg/Struts2-048](https://github.com/dragoneeg/Struts2-048) :  ![starts](https://img.shields.io/github/stars/dragoneeg/Struts2-048.svg) ![forks](https://img.shields.io/github/forks/dragoneeg/Struts2-048.svg)
+
+- [https://github.com/IanSmith123/s2-048](https://github.com/IanSmith123/s2-048) :  ![starts](https://img.shields.io/github/stars/IanSmith123/s2-048.svg) ![forks](https://img.shields.io/github/forks/IanSmith123/s2-048.svg)
+
+- [https://github.com/xfer0/CVE-2017-9791](https://github.com/xfer0/CVE-2017-9791) :  ![starts](https://img.shields.io/github/stars/xfer0/CVE-2017-9791.svg) ![forks](https://img.shields.io/github/forks/xfer0/CVE-2017-9791.svg)
+
+- [https://github.com/gh0st27/Struts2Scanner](https://github.com/gh0st27/Struts2Scanner) :  ![starts](https://img.shields.io/github/stars/gh0st27/Struts2Scanner.svg) ![forks](https://img.shields.io/github/forks/gh0st27/Struts2Scanner.svg)
+
+## CVE-2017-9779
+ OCaml compiler allows attackers to have unspecified impact via unknown vectors, a similar issue to CVE-2017-9772 &quot;but with much less impact.&quot;
+
+
+
+- [https://github.com/homjxi0e/CVE-2017-9779](https://github.com/homjxi0e/CVE-2017-9779) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-9779.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-9779.svg)
+
+## CVE-2017-9769
+ A specially crafted IOCTL can be issued to the rzpnk.sys driver in Razer Synapse 2.20.15.1104 that is forwarded to ZwOpenProcess allowing a handle to be opened to an arbitrary process.
+
+
+
+- [https://github.com/kkent030315/CVE-2017-9769](https://github.com/kkent030315/CVE-2017-9769) :  ![starts](https://img.shields.io/github/stars/kkent030315/CVE-2017-9769.svg) ![forks](https://img.shields.io/github/forks/kkent030315/CVE-2017-9769.svg)
+
+## CVE-2017-9631
+ A Null Pointer Dereference issue was discovered in Schneider Electric Wonderware ArchestrA Logger, versions 2017.426.2307.1 and prior. The null pointer dereference vulnerability could allow an attacker to crash the logger process, causing a denial of service for logging and log-viewing (applications that use the Wonderware ArchestrA Logger continue to run when the Wonderware ArchestrA Logger service is unavailable).
+
+
+
+- [https://github.com/USSCltd/aaLogger](https://github.com/USSCltd/aaLogger) :  ![starts](https://img.shields.io/github/stars/USSCltd/aaLogger.svg) ![forks](https://img.shields.io/github/forks/USSCltd/aaLogger.svg)
+
+## CVE-2017-9629
+ A Stack-Based Buffer Overflow issue was discovered in Schneider Electric Wonderware ArchestrA Logger, versions 2017.426.2307.1 and prior. The stack-based buffer overflow vulnerability has been identified, which may allow a remote attacker to execute arbitrary code in the context of a highly privileged account.
+
+
+
+- [https://github.com/USSCltd/aaLogger](https://github.com/USSCltd/aaLogger) :  ![starts](https://img.shields.io/github/stars/USSCltd/aaLogger.svg) ![forks](https://img.shields.io/github/forks/USSCltd/aaLogger.svg)
+
+## CVE-2017-9627
+ An Uncontrolled Resource Consumption issue was discovered in Schneider Electric Wonderware ArchestrA Logger, versions 2017.426.2307.1 and prior. The uncontrolled resource consumption vulnerability could allow an attacker to exhaust the memory resources of the machine, causing a denial of service.
+
+
+
+- [https://github.com/USSCltd/aaLogger](https://github.com/USSCltd/aaLogger) :  ![starts](https://img.shields.io/github/stars/USSCltd/aaLogger.svg) ![forks](https://img.shields.io/github/forks/USSCltd/aaLogger.svg)
+
+## CVE-2017-9609
+ Cross-site scripting (XSS) vulnerability in Blackcat CMS 1.2 allows remote authenticated users to inject arbitrary web script or HTML via the map_language parameter to backend/pages/lang_settings.php.
+
+
+
+- [https://github.com/faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc](https://github.com/faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc) :  ![starts](https://img.shields.io/github/stars/faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc.svg) ![forks](https://img.shields.io/github/forks/faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc.svg)
+
+## CVE-2017-9606
+ Infotecs ViPNet Client and Coordinator before 4.3.2-42442 allow local users to gain privileges by placing a Trojan horse ViPNet update file in the update folder. The attack succeeds because of incorrect folder permissions in conjunction with a lack of integrity and authenticity checks.
+
+
+
+- [https://github.com/Houl777/CVE-2017-9606](https://github.com/Houl777/CVE-2017-9606) :  ![starts](https://img.shields.io/github/stars/Houl777/CVE-2017-9606.svg) ![forks](https://img.shields.io/github/forks/Houl777/CVE-2017-9606.svg)
+
+## CVE-2017-9554
+ An information exposure vulnerability in forget_passwd.cgi in Synology DiskStation Manager (DSM) before 6.1.3-15152 allows remote attackers to enumerate valid usernames via unspecified vectors.
+
+
+
+- [https://github.com/rfcl/Synology-DiskStation-User-Enumeration-CVE-2017-9554-](https://github.com/rfcl/Synology-DiskStation-User-Enumeration-CVE-2017-9554-) :  ![starts](https://img.shields.io/github/stars/rfcl/Synology-DiskStation-User-Enumeration-CVE-2017-9554-.svg) ![forks](https://img.shields.io/github/forks/rfcl/Synology-DiskStation-User-Enumeration-CVE-2017-9554-.svg)
+
+## CVE-2017-9544
+ There is a remote stack-based buffer overflow (SEH) in register.ghp in EFS Software Easy Chat Server versions 2.0 to 3.1. By sending an overly long username string to registresult.htm for registering the user, an attacker may be able to execute arbitrary code.
+
+
+
+- [https://github.com/adenkiewicz/CVE-2017-9544](https://github.com/adenkiewicz/CVE-2017-9544) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2017-9544.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2017-9544.svg)
+
+## CVE-2017-9506
+ The IconUriServlet of the Atlassian OAuth Plugin from version 1.3.0 before version 1.9.12 and from version 2.0.0 before version 2.0.4 allows remote attackers to access the content of internal network resources and/or perform an XSS attack via Server Side Request Forgery (SSRF).
+
+
+
+- [https://github.com/random-robbie/Jira-Scan](https://github.com/random-robbie/Jira-Scan) :  ![starts](https://img.shields.io/github/stars/random-robbie/Jira-Scan.svg) ![forks](https://img.shields.io/github/forks/random-robbie/Jira-Scan.svg)
+
+- [https://github.com/pwn1sher/jira-ssrf](https://github.com/pwn1sher/jira-ssrf) :  ![starts](https://img.shields.io/github/stars/pwn1sher/jira-ssrf.svg) ![forks](https://img.shields.io/github/forks/pwn1sher/jira-ssrf.svg)
+
+## CVE-2017-9476
+ The Comcast firmware on Cisco DPC3939 (firmware version dpc3939-P20-18-v303r20421733-160420a-CMCST); Cisco DPC3939 (firmware version dpc3939-P20-18-v303r20421746-170221a-CMCST); and Arris TG1682G (eMTA&amp;DOCSIS version 10.0.132.SIP.PC20.CT, software version TG1682_2.2p7s2_PROD_sey) devices makes it easy for remote attackers to determine the hidden SSID and passphrase for a Home Security Wi-Fi network.
+
+
+
+- [https://github.com/wiire-a/CVE-2017-9476](https://github.com/wiire-a/CVE-2017-9476) :  ![starts](https://img.shields.io/github/stars/wiire-a/CVE-2017-9476.svg) ![forks](https://img.shields.io/github/forks/wiire-a/CVE-2017-9476.svg)
+
+## CVE-2017-9430
+ Stack-based buffer overflow in dnstracer through 1.9 allows attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a command line with a long name argument that is mishandled in a strcpy call for argv[0]. An example threat model is a web application that launches dnstracer with an untrusted name string.
+
+
+
+- [https://github.com/j0lama/Dnstracer-1.9-Fix](https://github.com/j0lama/Dnstracer-1.9-Fix) :  ![starts](https://img.shields.io/github/stars/j0lama/Dnstracer-1.9-Fix.svg) ![forks](https://img.shields.io/github/forks/j0lama/Dnstracer-1.9-Fix.svg)
+
+- [https://github.com/homjxi0e/CVE-2017-9430](https://github.com/homjxi0e/CVE-2017-9430) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-9430.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-9430.svg)
+
+## CVE-2017-9417
+ Broadcom BCM43xx Wi-Fi chips allow remote attackers to execute arbitrary code via unspecified vectors, aka the &quot;Broadpwn&quot; issue.
+
+
+
+- [https://github.com/mailinneberg/Broadpwn](https://github.com/mailinneberg/Broadpwn) :  ![starts](https://img.shields.io/github/stars/mailinneberg/Broadpwn.svg) ![forks](https://img.shields.io/github/forks/mailinneberg/Broadpwn.svg)
+
+## CVE-2017-9248
+ Telerik.Web.UI.dll in Progress Telerik UI for ASP.NET AJAX before R2 2017 SP1 and Sitefinity before 10.0.6412.0 does not properly protect Telerik.Web.UI.DialogParametersEncryptionKey or the MachineKey, which makes it easier for remote attackers to defeat cryptographic protection mechanisms, leading to a MachineKey leak, arbitrary file uploads or downloads, XSS, or ASP.NET ViewState compromise.
+
+
+
+- [https://github.com/bao7uo/dp_crypto](https://github.com/bao7uo/dp_crypto) :  ![starts](https://img.shields.io/github/stars/bao7uo/dp_crypto.svg) ![forks](https://img.shields.io/github/forks/bao7uo/dp_crypto.svg)
+
+- [https://github.com/capt-meelo/Telewreck](https://github.com/capt-meelo/Telewreck) :  ![starts](https://img.shields.io/github/stars/capt-meelo/Telewreck.svg) ![forks](https://img.shields.io/github/forks/capt-meelo/Telewreck.svg)
+
+- [https://github.com/shacojx/dp](https://github.com/shacojx/dp) :  ![starts](https://img.shields.io/github/stars/shacojx/dp.svg) ![forks](https://img.shields.io/github/forks/shacojx/dp.svg)
+
+- [https://github.com/ictnamanh/CVE-2017-9248](https://github.com/ictnamanh/CVE-2017-9248) :  ![starts](https://img.shields.io/github/stars/ictnamanh/CVE-2017-9248.svg) ![forks](https://img.shields.io/github/forks/ictnamanh/CVE-2017-9248.svg)
+
+## CVE-2017-9101
+ import.php (aka the Phonebook import feature) in PlaySMS 1.4 allows remote code execution via vectors involving the User-Agent HTTP header and PHP code in the name of a file.
+
+
+
+- [https://github.com/jasperla/CVE-2017-9101](https://github.com/jasperla/CVE-2017-9101) :  ![starts](https://img.shields.io/github/stars/jasperla/CVE-2017-9101.svg) ![forks](https://img.shields.io/github/forks/jasperla/CVE-2017-9101.svg)
+
+## CVE-2017-9097
+ In Anti-Web through 3.8.7, as used on NetBiter FGW200 devices through 3.21.2, WS100 devices through 3.30.5, EC150 devices through 1.40.0, WS200 devices through 3.30.4, EC250 devices through 1.40.0, and other products, an LFI vulnerability allows a remote attacker to read or modify files through a path traversal technique, as demonstrated by reading the password file, or using the template parameter to cgi-bin/write.cgi to write to an arbitrary file.
+
+
+
+- [https://github.com/MDudek-ICS/AntiWeb_testing-Suite](https://github.com/MDudek-ICS/AntiWeb_testing-Suite) :  ![starts](https://img.shields.io/github/stars/MDudek-ICS/AntiWeb_testing-Suite.svg) ![forks](https://img.shields.io/github/forks/MDudek-ICS/AntiWeb_testing-Suite.svg)
+
+## CVE-2017-8917
+ SQL injection vulnerability in Joomla! 3.7.x before 3.7.1 allows attackers to execute arbitrary SQL commands via unspecified vectors.
+
+
+
+- [https://github.com/stefanlucas/Exploit-Joomla](https://github.com/stefanlucas/Exploit-Joomla) :  ![starts](https://img.shields.io/github/stars/stefanlucas/Exploit-Joomla.svg) ![forks](https://img.shields.io/github/forks/stefanlucas/Exploit-Joomla.svg)
+
+- [https://github.com/brianwrf/Joomla3.7-SQLi-CVE-2017-8917](https://github.com/brianwrf/Joomla3.7-SQLi-CVE-2017-8917) :  ![starts](https://img.shields.io/github/stars/brianwrf/Joomla3.7-SQLi-CVE-2017-8917.svg) ![forks](https://img.shields.io/github/forks/brianwrf/Joomla3.7-SQLi-CVE-2017-8917.svg)
+
+- [https://github.com/cved-sources/cve-2017-8917](https://github.com/cved-sources/cve-2017-8917) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2017-8917.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2017-8917.svg)
+
+## CVE-2017-8890
+ The inet_csk_clone_lock function in net/ipv4/inet_connection_sock.c in the Linux kernel through 4.10.15 allows attackers to cause a denial of service (double free) or possibly have unspecified other impact by leveraging use of the accept system call.
+
+
+
+- [https://github.com/thinkycx/CVE-2017-8890](https://github.com/thinkycx/CVE-2017-8890) :  ![starts](https://img.shields.io/github/stars/thinkycx/CVE-2017-8890.svg) ![forks](https://img.shields.io/github/forks/thinkycx/CVE-2017-8890.svg)
+
+- [https://github.com/beraphin/CVE-2017-8890](https://github.com/beraphin/CVE-2017-8890) :  ![starts](https://img.shields.io/github/stars/beraphin/CVE-2017-8890.svg) ![forks](https://img.shields.io/github/forks/beraphin/CVE-2017-8890.svg)
+
+- [https://github.com/7043mcgeep/cve-2017-8890-msf](https://github.com/7043mcgeep/cve-2017-8890-msf) :  ![starts](https://img.shields.io/github/stars/7043mcgeep/cve-2017-8890-msf.svg) ![forks](https://img.shields.io/github/forks/7043mcgeep/cve-2017-8890-msf.svg)
+
+## CVE-2017-8809
+ api.php in MediaWiki before 1.27.4, 1.28.x before 1.28.3, and 1.29.x before 1.29.2 has a Reflected File Download vulnerability.
+
+
+
+- [https://github.com/motikan2010/CVE-2017-8809_MediaWiki_RFD](https://github.com/motikan2010/CVE-2017-8809_MediaWiki_RFD) :  ![starts](https://img.shields.io/github/stars/motikan2010/CVE-2017-8809_MediaWiki_RFD.svg) ![forks](https://img.shields.io/github/forks/motikan2010/CVE-2017-8809_MediaWiki_RFD.svg)
+
+## CVE-2017-8802
+ Cross-site scripting (XSS) vulnerability in Zimbra Collaboration Suite (aka ZCS) before 8.8.0 Beta2 might allow remote attackers to inject arbitrary web script or HTML via vectors related to the &quot;Show Snippet&quot; functionality.
+
+
+
+- [https://github.com/ozzi-/Zimbra-CVE-2017-8802-Hotifx](https://github.com/ozzi-/Zimbra-CVE-2017-8802-Hotifx) :  ![starts](https://img.shields.io/github/stars/ozzi-/Zimbra-CVE-2017-8802-Hotifx.svg) ![forks](https://img.shields.io/github/forks/ozzi-/Zimbra-CVE-2017-8802-Hotifx.svg)
+
+## CVE-2017-8798
+ Integer signedness error in MiniUPnP MiniUPnPc v1.4.20101221 through v2.0 allows remote attackers to cause a denial of service or possibly have unspecified other impact.
+
+
+
+- [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
+
+## CVE-2017-8779
+ rpcbind through 0.2.4, LIBTIRPC through 1.0.1 and 1.0.2-rc through 1.0.2-rc3, and NTIRPC through 1.4.3 do not consider the maximum RPC data size during memory allocation for XDR strings, which allows remote attackers to cause a denial of service (memory consumption with no subsequent free) via a crafted UDP packet to port 111, aka rpcbomb.
+
+
+
+- [https://github.com/drbothen/GO-RPCBOMB](https://github.com/drbothen/GO-RPCBOMB) :  ![starts](https://img.shields.io/github/stars/drbothen/GO-RPCBOMB.svg) ![forks](https://img.shields.io/github/forks/drbothen/GO-RPCBOMB.svg)
+
+## CVE-2017-8760
+ An issue was discovered on Accellion FTA devices before FTA_9_12_180. There is XSS in courier/1000@/index.html with the auth_params parameter. The device tries to use internal WAF filters to stop specific XSS Vulnerabilities. However, these can be bypassed by using some modifications to the payloads, e.g., URL encoding.
+
+
+
+- [https://github.com/Voraka/cve-2017-8760](https://github.com/Voraka/cve-2017-8760) :  ![starts](https://img.shields.io/github/stars/Voraka/cve-2017-8760.svg) ![forks](https://img.shields.io/github/forks/Voraka/cve-2017-8760.svg)
+
+## CVE-2017-8759
+ Microsoft .NET Framework 2.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2 and 4.7 allow an attacker to execute code remotely via a malicious document or application, aka &quot;.NET Framework Remote Code Execution Vulnerability.&quot;
+
+
+
+- [https://github.com/bhdresh/CVE-2017-8759](https://github.com/bhdresh/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/bhdresh/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/bhdresh/CVE-2017-8759.svg)
+
+- [https://github.com/Voulnet/CVE-2017-8759-Exploit-sample](https://github.com/Voulnet/CVE-2017-8759-Exploit-sample) :  ![starts](https://img.shields.io/github/stars/Voulnet/CVE-2017-8759-Exploit-sample.svg) ![forks](https://img.shields.io/github/forks/Voulnet/CVE-2017-8759-Exploit-sample.svg)
+
+- [https://github.com/vysecurity/CVE-2017-8759](https://github.com/vysecurity/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/vysecurity/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/vysecurity/CVE-2017-8759.svg)
+
+- [https://github.com/nccgroup/CVE-2017-8759](https://github.com/nccgroup/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/nccgroup/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/nccgroup/CVE-2017-8759.svg)
+
+- [https://github.com/Lz1y/CVE-2017-8759](https://github.com/Lz1y/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/Lz1y/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/Lz1y/CVE-2017-8759.svg)
+
+- [https://github.com/JonasUliana/CVE-2017-8759](https://github.com/JonasUliana/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/JonasUliana/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/JonasUliana/CVE-2017-8759.svg)
+
+- [https://github.com/jacobsoo/RTF-Cleaner](https://github.com/jacobsoo/RTF-Cleaner) :  ![starts](https://img.shields.io/github/stars/jacobsoo/RTF-Cleaner.svg) ![forks](https://img.shields.io/github/forks/jacobsoo/RTF-Cleaner.svg)
+
+- [https://github.com/ashr/CVE-2017-8759-exploits](https://github.com/ashr/CVE-2017-8759-exploits) :  ![starts](https://img.shields.io/github/stars/ashr/CVE-2017-8759-exploits.svg) ![forks](https://img.shields.io/github/forks/ashr/CVE-2017-8759-exploits.svg)
+
+- [https://github.com/homjxi0e/CVE-2017-8759_-SOAP_WSDL](https://github.com/homjxi0e/CVE-2017-8759_-SOAP_WSDL) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-8759_-SOAP_WSDL.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-8759_-SOAP_WSDL.svg)
+
+- [https://github.com/BasuCert/CVE-2017-8759](https://github.com/BasuCert/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/BasuCert/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/BasuCert/CVE-2017-8759.svg)
+
+- [https://github.com/ChaitanyaHaritash/CVE-2017-8759](https://github.com/ChaitanyaHaritash/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/ChaitanyaHaritash/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/ChaitanyaHaritash/CVE-2017-8759.svg)
+
+- [https://github.com/Securitykid/CVE-2017-8759](https://github.com/Securitykid/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/Securitykid/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/Securitykid/CVE-2017-8759.svg)
+
+- [https://github.com/zhengkook/CVE-2017-8759](https://github.com/zhengkook/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/zhengkook/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/zhengkook/CVE-2017-8759.svg)
+
+- [https://github.com/adeljck/CVE-2017-8759](https://github.com/adeljck/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/adeljck/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/adeljck/CVE-2017-8759.svg)
+
+- [https://github.com/smashinu/CVE-2017-8759Expoit](https://github.com/smashinu/CVE-2017-8759Expoit) :  ![starts](https://img.shields.io/github/stars/smashinu/CVE-2017-8759Expoit.svg) ![forks](https://img.shields.io/github/forks/smashinu/CVE-2017-8759Expoit.svg)
+
+- [https://github.com/l0n3rs/CVE-2017-8759](https://github.com/l0n3rs/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/l0n3rs/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/l0n3rs/CVE-2017-8759.svg)
+
+- [https://github.com/Winter3un/cve_2017_8759](https://github.com/Winter3un/cve_2017_8759) :  ![starts](https://img.shields.io/github/stars/Winter3un/cve_2017_8759.svg) ![forks](https://img.shields.io/github/forks/Winter3un/cve_2017_8759.svg)
+
+- [https://github.com/tahisaad6/CVE-2017-8759-Exploit-sample2](https://github.com/tahisaad6/CVE-2017-8759-Exploit-sample2) :  ![starts](https://img.shields.io/github/stars/tahisaad6/CVE-2017-8759-Exploit-sample2.svg) ![forks](https://img.shields.io/github/forks/tahisaad6/CVE-2017-8759-Exploit-sample2.svg)
+
+- [https://github.com/GayashanM/OHTS](https://github.com/GayashanM/OHTS) :  ![starts](https://img.shields.io/github/stars/GayashanM/OHTS.svg) ![forks](https://img.shields.io/github/forks/GayashanM/OHTS.svg)
+
+- [https://github.com/varunsaru/SNP](https://github.com/varunsaru/SNP) :  ![starts](https://img.shields.io/github/stars/varunsaru/SNP.svg) ![forks](https://img.shields.io/github/forks/varunsaru/SNP.svg)
+
+## CVE-2017-8641
+ Microsoft browsers in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8.1 and Windows RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allow an attacker to execute arbitrary code in the context of the current user due to the way that Microsoft browser JavaScript engines render when handling objects in memory, aka &quot;Scripting Engine Memory Corruption Vulnerability&quot;. This CVE ID is unique from CVE-2017-8634, CVE-2017-8635, CVE-2017-8636, CVE-2017-8638, CVE-2017-8639, CVE-2017-8640, CVE-2017-8645, CVE-2017-8646, CVE-2017-8647, CVE-2017-8655, CVE-2017-8656, CVE-2017-8657, CVE-2017-8670, CVE-2017-8671, CVE-2017-8672, and CVE-2017-8674.
+
+
+
+- [https://github.com/homjxi0e/CVE-2017-8641_chakra_Js_GlobalObject](https://github.com/homjxi0e/CVE-2017-8641_chakra_Js_GlobalObject) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-8641_chakra_Js_GlobalObject.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-8641_chakra_Js_GlobalObject.svg)
+
+## CVE-2017-8625
+ Internet Explorer in Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allows an attacker to bypass Device Guard User Mode Code Integrity (UMCI) policies due to Internet Explorer failing to validate UMCI policies, aka &quot;Internet Explorer Security Feature Bypass Vulnerability&quot;.
+
+
+
+- [https://github.com/homjxi0e/CVE-2017-8625_Bypass_UMCI](https://github.com/homjxi0e/CVE-2017-8625_Bypass_UMCI) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-8625_Bypass_UMCI.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-8625_Bypass_UMCI.svg)
+
+## CVE-2017-8570
+ Microsoft Office allows a remote code execution vulnerability due to the way that it handles objects in memory, aka &quot;Microsoft Office Remote Code Execution Vulnerability&quot;. This CVE ID is unique from CVE-2017-0243.
+
+
+
+- [https://github.com/rxwx/CVE-2017-8570](https://github.com/rxwx/CVE-2017-8570) :  ![starts](https://img.shields.io/github/stars/rxwx/CVE-2017-8570.svg) ![forks](https://img.shields.io/github/forks/rxwx/CVE-2017-8570.svg)
+
+- [https://github.com/temesgeny/ppsx-file-generator](https://github.com/temesgeny/ppsx-file-generator) :  ![starts](https://img.shields.io/github/stars/temesgeny/ppsx-file-generator.svg) ![forks](https://img.shields.io/github/forks/temesgeny/ppsx-file-generator.svg)
+
+- [https://github.com/dcsync/rtfkit](https://github.com/dcsync/rtfkit) :  ![starts](https://img.shields.io/github/stars/dcsync/rtfkit.svg) ![forks](https://img.shields.io/github/forks/dcsync/rtfkit.svg)
+
+- [https://github.com/SwordSheath/CVE-2017-8570](https://github.com/SwordSheath/CVE-2017-8570) :  ![starts](https://img.shields.io/github/stars/SwordSheath/CVE-2017-8570.svg) ![forks](https://img.shields.io/github/forks/SwordSheath/CVE-2017-8570.svg)
+
+- [https://github.com/Drac0nids/CVE-2017-8570](https://github.com/Drac0nids/CVE-2017-8570) :  ![starts](https://img.shields.io/github/stars/Drac0nids/CVE-2017-8570.svg) ![forks](https://img.shields.io/github/forks/Drac0nids/CVE-2017-8570.svg)
+
+- [https://github.com/erfze/CVE-2017-8570](https://github.com/erfze/CVE-2017-8570) :  ![starts](https://img.shields.io/github/stars/erfze/CVE-2017-8570.svg) ![forks](https://img.shields.io/github/forks/erfze/CVE-2017-8570.svg)
+
+- [https://github.com/MaxSecurity/Office-CVE-2017-8570](https://github.com/MaxSecurity/Office-CVE-2017-8570) :  ![starts](https://img.shields.io/github/stars/MaxSecurity/Office-CVE-2017-8570.svg) ![forks](https://img.shields.io/github/forks/MaxSecurity/Office-CVE-2017-8570.svg)
+
+- [https://github.com/sasqwatch/CVE-2017-8570](https://github.com/sasqwatch/CVE-2017-8570) :  ![starts](https://img.shields.io/github/stars/sasqwatch/CVE-2017-8570.svg) ![forks](https://img.shields.io/github/forks/sasqwatch/CVE-2017-8570.svg)
+
+- [https://github.com/erfze/CVE-2017-0261](https://github.com/erfze/CVE-2017-0261) :  ![starts](https://img.shields.io/github/stars/erfze/CVE-2017-0261.svg) ![forks](https://img.shields.io/github/forks/erfze/CVE-2017-0261.svg)
+
+## CVE-2017-8543
+ Microsoft Windows XP SP3, Windows XP x64 XP2, Windows Server 2003 SP2, Windows Vista, Windows 7 SP1, Windows Server 2008 SP2 and R2 SP1, Windows 8, Windows 8.1 and Windows RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, and 1703, and Windows Server 2016 allow an attacker to take control of the affected system when Windows Search fails to handle objects in memory, aka &quot;Windows Search Remote Code Execution Vulnerability&quot;.
+
+
+
+- [https://github.com/americanhanko/windows-security-cve-2017-8543](https://github.com/americanhanko/windows-security-cve-2017-8543) :  ![starts](https://img.shields.io/github/stars/americanhanko/windows-security-cve-2017-8543.svg) ![forks](https://img.shields.io/github/forks/americanhanko/windows-security-cve-2017-8543.svg)
+
+## CVE-2017-8529
+ Internet Explorer in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8.1 and Windows RT 8.1, and Windows Server 2012 and R2 allow an attacker to detect specific files on the user's computer when affected Microsoft scripting engines do not properly handle objects in memory, aka &quot;Microsoft Browser Information Disclosure Vulnerability&quot;.
+
+
+
+- [https://github.com/sfitpro/cve-2017-8529](https://github.com/sfitpro/cve-2017-8529) :  ![starts](https://img.shields.io/github/stars/sfitpro/cve-2017-8529.svg) ![forks](https://img.shields.io/github/forks/sfitpro/cve-2017-8529.svg)
+
+- [https://github.com/Lynggaard91/windows2016fixCVE-2017-8529](https://github.com/Lynggaard91/windows2016fixCVE-2017-8529) :  ![starts](https://img.shields.io/github/stars/Lynggaard91/windows2016fixCVE-2017-8529.svg) ![forks](https://img.shields.io/github/forks/Lynggaard91/windows2016fixCVE-2017-8529.svg)
+
+## CVE-2017-8486
+ Microsoft Windows 7 SP1, Windows Server 2008 SP2 and R2 SP1, Windows 8.1 and Windows RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allows an information disclosure due to the way it handles objects in memory, aka &quot;Win32k Information Disclosure Vulnerability&quot;.
+
+
+
+- [https://github.com/Securitykid/CVE-2017-8464-exp-generator](https://github.com/Securitykid/CVE-2017-8464-exp-generator) :  ![starts](https://img.shields.io/github/stars/Securitykid/CVE-2017-8464-exp-generator.svg) ![forks](https://img.shields.io/github/forks/Securitykid/CVE-2017-8464-exp-generator.svg)
+
+## CVE-2017-8465
+ Microsoft Windows 8.1 and Windows RT 8.1, Windows Server 2012 R2, Windows 10 Gold, 1511, 1607, and 1703, and Windows Server 2016 allow an attacker to run processes in an elevated context when the Windows kernel improperly handles objects in memory, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot; This CVE ID is unique from CVE-2017-8468.
+
+
+
+- [https://github.com/nghiadt1098/CVE-2017-8465](https://github.com/nghiadt1098/CVE-2017-8465) :  ![starts](https://img.shields.io/github/stars/nghiadt1098/CVE-2017-8465.svg) ![forks](https://img.shields.io/github/forks/nghiadt1098/CVE-2017-8465.svg)
+
+## CVE-2017-8464
+ Windows Shell in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allows local users or remote attackers to execute arbitrary code via a crafted .LNK file, which is not properly handled during icon display in Windows Explorer or any other application that parses the icon of the shortcut. aka &quot;LNK Remote Code Execution Vulnerability.&quot;
+
+
+
+- [https://github.com/3gstudent/CVE-2017-8464-EXP](https://github.com/3gstudent/CVE-2017-8464-EXP) :  ![starts](https://img.shields.io/github/stars/3gstudent/CVE-2017-8464-EXP.svg) ![forks](https://img.shields.io/github/forks/3gstudent/CVE-2017-8464-EXP.svg)
+
+- [https://github.com/Securitykid/CVE-2017-8464-exp-generator](https://github.com/Securitykid/CVE-2017-8464-exp-generator) :  ![starts](https://img.shields.io/github/stars/Securitykid/CVE-2017-8464-exp-generator.svg) ![forks](https://img.shields.io/github/forks/Securitykid/CVE-2017-8464-exp-generator.svg)
+
+- [https://github.com/Elm0D/CVE-2017-8464](https://github.com/Elm0D/CVE-2017-8464) :  ![starts](https://img.shields.io/github/stars/Elm0D/CVE-2017-8464.svg) ![forks](https://img.shields.io/github/forks/Elm0D/CVE-2017-8464.svg)
+
+- [https://github.com/xssfile/CVE-2017-8464-EXP](https://github.com/xssfile/CVE-2017-8464-EXP) :  ![starts](https://img.shields.io/github/stars/xssfile/CVE-2017-8464-EXP.svg) ![forks](https://img.shields.io/github/forks/xssfile/CVE-2017-8464-EXP.svg)
+
+- [https://github.com/X-Vector/usbhijacking](https://github.com/X-Vector/usbhijacking) :  ![starts](https://img.shields.io/github/stars/X-Vector/usbhijacking.svg) ![forks](https://img.shields.io/github/forks/X-Vector/usbhijacking.svg)
+
+## CVE-2017-8382
+ admidio 3.2.8 has CSRF in adm_program/modules/members/members_function.php with an impact of deleting arbitrary user accounts.
+
+
+
+- [https://github.com/faizzaidi/Admidio-3.2.8-CSRF-POC-by-Provensec-llc](https://github.com/faizzaidi/Admidio-3.2.8-CSRF-POC-by-Provensec-llc) :  ![starts](https://img.shields.io/github/stars/faizzaidi/Admidio-3.2.8-CSRF-POC-by-Provensec-llc.svg) ![forks](https://img.shields.io/github/forks/faizzaidi/Admidio-3.2.8-CSRF-POC-by-Provensec-llc.svg)
+
+## CVE-2017-8295
+ WordPress through 4.7.4 relies on the Host HTTP header for a password-reset e-mail message, which makes it easier for remote attackers to reset arbitrary passwords by making a crafted wp-login.php?action=lostpassword request and then arranging for this message to bounce or be resent, leading to transmission of the reset key to a mailbox on an attacker-controlled SMTP server. This is related to problematic use of the SERVER_NAME variable in wp-includes/pluggable.php in conjunction with the PHP mail function. Exploitation is not achievable in all cases because it requires at least one of the following: (1) the attacker can prevent the victim from receiving any e-mail messages for an extended period of time (such as 5 days), (2) the victim's e-mail system sends an autoresponse containing the original message, or (3) the victim manually composes a reply containing the original message.
+
+
+
+- [https://github.com/cyberheartmi9/CVE-2017-8295](https://github.com/cyberheartmi9/CVE-2017-8295) :  ![starts](https://img.shields.io/github/stars/cyberheartmi9/CVE-2017-8295.svg) ![forks](https://img.shields.io/github/forks/cyberheartmi9/CVE-2017-8295.svg)
+
+- [https://github.com/alash3al/wp-allowed-hosts](https://github.com/alash3al/wp-allowed-hosts) :  ![starts](https://img.shields.io/github/stars/alash3al/wp-allowed-hosts.svg) ![forks](https://img.shields.io/github/forks/alash3al/wp-allowed-hosts.svg)
+
+- [https://github.com/homjxi0e/CVE-2017-8295-WordPress-4.7.4---Unauthorized-Password-Reset](https://github.com/homjxi0e/CVE-2017-8295-WordPress-4.7.4---Unauthorized-Password-Reset) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-8295-WordPress-4.7.4---Unauthorized-Password-Reset.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-8295-WordPress-4.7.4---Unauthorized-Password-Reset.svg)
+
+## CVE-2017-8046
+ Malicious PATCH requests submitted to servers using Spring Data REST versions prior to 2.6.9 (Ingalls SR9), versions prior to 3.0.1 (Kay SR1) and Spring Boot versions prior to 1.5.9, 2.0 M6 can use specially crafted JSON data to run arbitrary Java code.
+
+
+
+- [https://github.com/m3ssap0/spring-break_cve-2017-8046](https://github.com/m3ssap0/spring-break_cve-2017-8046) :  ![starts](https://img.shields.io/github/stars/m3ssap0/spring-break_cve-2017-8046.svg) ![forks](https://img.shields.io/github/forks/m3ssap0/spring-break_cve-2017-8046.svg)
+
+- [https://github.com/m3ssap0/SpringBreakVulnerableApp](https://github.com/m3ssap0/SpringBreakVulnerableApp) :  ![starts](https://img.shields.io/github/stars/m3ssap0/SpringBreakVulnerableApp.svg) ![forks](https://img.shields.io/github/forks/m3ssap0/SpringBreakVulnerableApp.svg)
+
+- [https://github.com/cved-sources/cve-2017-8046](https://github.com/cved-sources/cve-2017-8046) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2017-8046.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2017-8046.svg)
+
+- [https://github.com/Soontao/CVE-2017-8046-DEMO](https://github.com/Soontao/CVE-2017-8046-DEMO) :  ![starts](https://img.shields.io/github/stars/Soontao/CVE-2017-8046-DEMO.svg) ![forks](https://img.shields.io/github/forks/Soontao/CVE-2017-8046-DEMO.svg)
+
+- [https://github.com/FixYourFace/SpringBreakPoC](https://github.com/FixYourFace/SpringBreakPoC) :  ![starts](https://img.shields.io/github/stars/FixYourFace/SpringBreakPoC.svg) ![forks](https://img.shields.io/github/forks/FixYourFace/SpringBreakPoC.svg)
+
+- [https://github.com/jkutner/spring-break-cve-2017-8046](https://github.com/jkutner/spring-break-cve-2017-8046) :  ![starts](https://img.shields.io/github/stars/jkutner/spring-break-cve-2017-8046.svg) ![forks](https://img.shields.io/github/forks/jkutner/spring-break-cve-2017-8046.svg)
+
+- [https://github.com/sj/spring-data-rest-CVE-2017-8046](https://github.com/sj/spring-data-rest-CVE-2017-8046) :  ![starts](https://img.shields.io/github/stars/sj/spring-data-rest-CVE-2017-8046.svg) ![forks](https://img.shields.io/github/forks/sj/spring-data-rest-CVE-2017-8046.svg)
+
+- [https://github.com/bkhablenko/CVE-2017-8046](https://github.com/bkhablenko/CVE-2017-8046) :  ![starts](https://img.shields.io/github/stars/bkhablenko/CVE-2017-8046.svg) ![forks](https://img.shields.io/github/forks/bkhablenko/CVE-2017-8046.svg)
+
+- [https://github.com/guanjivip/CVE-2017-8046](https://github.com/guanjivip/CVE-2017-8046) :  ![starts](https://img.shields.io/github/stars/guanjivip/CVE-2017-8046.svg) ![forks](https://img.shields.io/github/forks/guanjivip/CVE-2017-8046.svg)
+
+- [https://github.com/jsotiro/VulnerableSpringDataRest](https://github.com/jsotiro/VulnerableSpringDataRest) :  ![starts](https://img.shields.io/github/stars/jsotiro/VulnerableSpringDataRest.svg) ![forks](https://img.shields.io/github/forks/jsotiro/VulnerableSpringDataRest.svg)
+
+## CVE-2017-7998
+ Multiple cross-site scripting (XSS) vulnerabilities in Gespage before 7.4.9 allow remote attackers to inject arbitrary web script or HTML via the (1) printer name when adding a printer in the admin panel or (2) username parameter to webapp/users/user_reg.jsp.
+
+
+
+- [https://github.com/homjxi0e/CVE-2017-7998](https://github.com/homjxi0e/CVE-2017-7998) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-7998.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-7998.svg)
+
+## CVE-2017-7921
+ An Improper Authentication issue was discovered in Hikvision DS-2CD2xx2F-I Series V5.2.0 build 140721 to V5.4.0 build 160530, DS-2CD2xx0F-I Series V5.2.0 build 140721 to V5.4.0 Build 160401, DS-2CD2xx2FWD Series V5.3.1 build 150410 to V5.4.4 Build 161125, DS-2CD4x2xFWD Series V5.2.0 build 140721 to V5.4.0 Build 160414, DS-2CD4xx5 Series V5.2.0 build 140721 to V5.4.0 Build 160421, DS-2DFx Series V5.2.0 build 140805 to V5.4.5 Build 160928, and DS-2CD63xx Series V5.0.9 build 140305 to V5.3.5 Build 160106 devices. The improper authentication vulnerability occurs when an application does not adequately or correctly authenticate users. This may allow a malicious user to escalate his or her privileges on the system and gain access to sensitive information.
+
+
+
+- [https://github.com/JrDw0/CVE-2017-7921-EXP](https://github.com/JrDw0/CVE-2017-7921-EXP) :  ![starts](https://img.shields.io/github/stars/JrDw0/CVE-2017-7921-EXP.svg) ![forks](https://img.shields.io/github/forks/JrDw0/CVE-2017-7921-EXP.svg)
+
+- [https://github.com/BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921) :  ![starts](https://img.shields.io/github/stars/BurnyMcDull/CVE-2017-7921.svg) ![forks](https://img.shields.io/github/forks/BurnyMcDull/CVE-2017-7921.svg)
+
+- [https://github.com/MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang) :  ![starts](https://img.shields.io/github/stars/MisakaMikato/cve-2017-7921-golang.svg) ![forks](https://img.shields.io/github/forks/MisakaMikato/cve-2017-7921-golang.svg)
+
+- [https://github.com/A403/CVE_2017_7921_EXP](https://github.com/A403/CVE_2017_7921_EXP) :  ![starts](https://img.shields.io/github/stars/A403/CVE_2017_7921_EXP.svg) ![forks](https://img.shields.io/github/forks/A403/CVE_2017_7921_EXP.svg)
+
+- [https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor) :  ![starts](https://img.shields.io/github/stars/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor.svg) ![forks](https://img.shields.io/github/forks/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor.svg)
+
+## CVE-2017-7912
+ Hanwha Techwin SRN-4000, SRN-4000 firmware versions prior to SRN4000_v2.16_170401, A specially crafted http request and response could allow an attacker to gain access to the device management page with admin privileges without proper authentication.
+
+
+
+- [https://github.com/homjxi0e/CVE-2017-7912_Sneak](https://github.com/homjxi0e/CVE-2017-7912_Sneak) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-7912_Sneak.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-7912_Sneak.svg)
+
+## CVE-2017-7679
+ In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, mod_mime can read one byte past the end of a buffer when sending a malicious Content-Type response header.
+
+
+
+- [https://github.com/snknritr/CVE-2017-7679-in-python](https://github.com/snknritr/CVE-2017-7679-in-python) :  ![starts](https://img.shields.io/github/stars/snknritr/CVE-2017-7679-in-python.svg) ![forks](https://img.shields.io/github/forks/snknritr/CVE-2017-7679-in-python.svg)
+
+## CVE-2017-7648
+ Foscam networked devices use the same hardcoded SSL private key across different customers' installations, which allows remote attackers to defeat cryptographic protection mechanisms by leveraging knowledge of this key from another installation.
+
+
+
+- [https://github.com/notmot/CVE-2017-7648.](https://github.com/notmot/CVE-2017-7648.) :  ![starts](https://img.shields.io/github/stars/notmot/CVE-2017-7648..svg) ![forks](https://img.shields.io/github/forks/notmot/CVE-2017-7648..svg)
+
+## CVE-2017-7533
+ Race condition in the fsnotify implementation in the Linux kernel through 4.12.4 allows local users to gain privileges or cause a denial of service (memory corruption) via a crafted application that leverages simultaneous execution of the inotify_handle_event and vfs_rename functions.
+
+
+
+- [https://github.com/jltxgcy/CVE_2017_7533_EXP](https://github.com/jltxgcy/CVE_2017_7533_EXP) :  ![starts](https://img.shields.io/github/stars/jltxgcy/CVE_2017_7533_EXP.svg) ![forks](https://img.shields.io/github/forks/jltxgcy/CVE_2017_7533_EXP.svg)
+
+## CVE-2017-7529
+ Nginx versions since 0.5.6 up to and including 1.13.2 are vulnerable to integer overflow vulnerability in nginx range filter module resulting into leak of potentially sensitive information triggered by specially crafted request.
+
+
+
+- [https://github.com/en0f/CVE-2017-7529_PoC](https://github.com/en0f/CVE-2017-7529_PoC) :  ![starts](https://img.shields.io/github/stars/en0f/CVE-2017-7529_PoC.svg) ![forks](https://img.shields.io/github/forks/en0f/CVE-2017-7529_PoC.svg)
+
+- [https://github.com/liusec/CVE-2017-7529](https://github.com/liusec/CVE-2017-7529) :  ![starts](https://img.shields.io/github/stars/liusec/CVE-2017-7529.svg) ![forks](https://img.shields.io/github/forks/liusec/CVE-2017-7529.svg)
+
+- [https://github.com/cyberharsh/nginx-CVE-2017-7529](https://github.com/cyberharsh/nginx-CVE-2017-7529) :  ![starts](https://img.shields.io/github/stars/cyberharsh/nginx-CVE-2017-7529.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/nginx-CVE-2017-7529.svg)
+
+- [https://github.com/cved-sources/cve-2017-7529](https://github.com/cved-sources/cve-2017-7529) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2017-7529.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2017-7529.svg)
+
+- [https://github.com/Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability](https://github.com/Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability) :  ![starts](https://img.shields.io/github/stars/Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability.svg)
+
+- [https://github.com/cyberk1w1/CVE-2017-7529](https://github.com/cyberk1w1/CVE-2017-7529) :  ![starts](https://img.shields.io/github/stars/cyberk1w1/CVE-2017-7529.svg) ![forks](https://img.shields.io/github/forks/cyberk1w1/CVE-2017-7529.svg)
+
+- [https://github.com/MaxSecurity/CVE-2017-7529-POC](https://github.com/MaxSecurity/CVE-2017-7529-POC) :  ![starts](https://img.shields.io/github/stars/MaxSecurity/CVE-2017-7529-POC.svg) ![forks](https://img.shields.io/github/forks/MaxSecurity/CVE-2017-7529-POC.svg)
+
+- [https://github.com/daehee/nginx-overflow](https://github.com/daehee/nginx-overflow) :  ![starts](https://img.shields.io/github/stars/daehee/nginx-overflow.svg) ![forks](https://img.shields.io/github/forks/daehee/nginx-overflow.svg)
+
+- [https://github.com/ninjabuster/exploit-nginx-1.10.3](https://github.com/ninjabuster/exploit-nginx-1.10.3) :  ![starts](https://img.shields.io/github/stars/ninjabuster/exploit-nginx-1.10.3.svg) ![forks](https://img.shields.io/github/forks/ninjabuster/exploit-nginx-1.10.3.svg)
+
+- [https://github.com/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability](https://github.com/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability) :  ![starts](https://img.shields.io/github/stars/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability.svg)
+
+- [https://github.com/devansh3008/Cve_Finder_2017-7529](https://github.com/devansh3008/Cve_Finder_2017-7529) :  ![starts](https://img.shields.io/github/stars/devansh3008/Cve_Finder_2017-7529.svg) ![forks](https://img.shields.io/github/forks/devansh3008/Cve_Finder_2017-7529.svg)
+
+## CVE-2017-7525
+ A deserialization flaw was discovered in the jackson-databind, versions before 2.6.7.1, 2.7.9.1 and 2.8.9, which could allow an unauthenticated user to perform code execution by sending the maliciously crafted input to the readValue method of the ObjectMapper.
+
+
+
+- [https://github.com/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095](https://github.com/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095) :  ![starts](https://img.shields.io/github/stars/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095.svg) ![forks](https://img.shields.io/github/forks/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095.svg)
+
+- [https://github.com/JavanXD/Demo-Exploit-Jackson-RCE](https://github.com/JavanXD/Demo-Exploit-Jackson-RCE) :  ![starts](https://img.shields.io/github/stars/JavanXD/Demo-Exploit-Jackson-RCE.svg) ![forks](https://img.shields.io/github/forks/JavanXD/Demo-Exploit-Jackson-RCE.svg)
+
+- [https://github.com/47bwy/CVE-2017-7525](https://github.com/47bwy/CVE-2017-7525) :  ![starts](https://img.shields.io/github/stars/47bwy/CVE-2017-7525.svg) ![forks](https://img.shields.io/github/forks/47bwy/CVE-2017-7525.svg)
+
+- [https://github.com/Ingenuity-Fainting-Goats/CVE-2017-7525-Jackson-Deserialization-Lab](https://github.com/Ingenuity-Fainting-Goats/CVE-2017-7525-Jackson-Deserialization-Lab) :  ![starts](https://img.shields.io/github/stars/Ingenuity-Fainting-Goats/CVE-2017-7525-Jackson-Deserialization-Lab.svg) ![forks](https://img.shields.io/github/forks/Ingenuity-Fainting-Goats/CVE-2017-7525-Jackson-Deserialization-Lab.svg)
+
+- [https://github.com/BassinD/jackson-RCE](https://github.com/BassinD/jackson-RCE) :  ![starts](https://img.shields.io/github/stars/BassinD/jackson-RCE.svg) ![forks](https://img.shields.io/github/forks/BassinD/jackson-RCE.svg)
+
+- [https://github.com/Dannners/jackson-deserialization-2017-7525](https://github.com/Dannners/jackson-deserialization-2017-7525) :  ![starts](https://img.shields.io/github/stars/Dannners/jackson-deserialization-2017-7525.svg) ![forks](https://img.shields.io/github/forks/Dannners/jackson-deserialization-2017-7525.svg)
+
+- [https://github.com/Nazicc/S2-055](https://github.com/Nazicc/S2-055) :  ![starts](https://img.shields.io/github/stars/Nazicc/S2-055.svg) ![forks](https://img.shields.io/github/forks/Nazicc/S2-055.svg)
+
+## CVE-2017-7494
+ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to remote code execution vulnerability, allowing a malicious client to upload a shared library to a writable share, and then cause the server to load and execute it.
+
+
+
+- [https://github.com/opsxcq/exploit-CVE-2017-7494](https://github.com/opsxcq/exploit-CVE-2017-7494) :  ![starts](https://img.shields.io/github/stars/opsxcq/exploit-CVE-2017-7494.svg) ![forks](https://img.shields.io/github/forks/opsxcq/exploit-CVE-2017-7494.svg)
+
+- [https://github.com/joxeankoret/CVE-2017-7494](https://github.com/joxeankoret/CVE-2017-7494) :  ![starts](https://img.shields.io/github/stars/joxeankoret/CVE-2017-7494.svg) ![forks](https://img.shields.io/github/forks/joxeankoret/CVE-2017-7494.svg)
+
+- [https://github.com/betab0t/cve-2017-7494](https://github.com/betab0t/cve-2017-7494) :  ![starts](https://img.shields.io/github/stars/betab0t/cve-2017-7494.svg) ![forks](https://img.shields.io/github/forks/betab0t/cve-2017-7494.svg)
+
+- [https://github.com/Waffles-2/SambaCry](https://github.com/Waffles-2/SambaCry) :  ![starts](https://img.shields.io/github/stars/Waffles-2/SambaCry.svg) ![forks](https://img.shields.io/github/forks/Waffles-2/SambaCry.svg)
+
+- [https://github.com/brianwrf/SambaHunter](https://github.com/brianwrf/SambaHunter) :  ![starts](https://img.shields.io/github/stars/brianwrf/SambaHunter.svg) ![forks](https://img.shields.io/github/forks/brianwrf/SambaHunter.svg)
+
+- [https://github.com/Zer0d0y/Samba-CVE-2017-7494](https://github.com/Zer0d0y/Samba-CVE-2017-7494) :  ![starts](https://img.shields.io/github/stars/Zer0d0y/Samba-CVE-2017-7494.svg) ![forks](https://img.shields.io/github/forks/Zer0d0y/Samba-CVE-2017-7494.svg)
+
+- [https://github.com/homjxi0e/CVE-2017-7494](https://github.com/homjxi0e/CVE-2017-7494) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-7494.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-7494.svg)
+
+- [https://github.com/gunsan92/CVE2017-7494_quicktest](https://github.com/gunsan92/CVE2017-7494_quicktest) :  ![starts](https://img.shields.io/github/stars/gunsan92/CVE2017-7494_quicktest.svg) ![forks](https://img.shields.io/github/forks/gunsan92/CVE2017-7494_quicktest.svg)
+
+- [https://github.com/cved-sources/cve-2017-7494](https://github.com/cved-sources/cve-2017-7494) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2017-7494.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2017-7494.svg)
+
+- [https://github.com/incredible1yu/CVE-2017-7494](https://github.com/incredible1yu/CVE-2017-7494) :  ![starts](https://img.shields.io/github/stars/incredible1yu/CVE-2017-7494.svg) ![forks](https://img.shields.io/github/forks/incredible1yu/CVE-2017-7494.svg)
+
+- [https://github.com/john-80/cve-2017-7494](https://github.com/john-80/cve-2017-7494) :  ![starts](https://img.shields.io/github/stars/john-80/cve-2017-7494.svg) ![forks](https://img.shields.io/github/forks/john-80/cve-2017-7494.svg)
+
+- [https://github.com/Hansindu-M/CVE-2017-7494_IT19115344](https://github.com/Hansindu-M/CVE-2017-7494_IT19115344) :  ![starts](https://img.shields.io/github/stars/Hansindu-M/CVE-2017-7494_IT19115344.svg) ![forks](https://img.shields.io/github/forks/Hansindu-M/CVE-2017-7494_IT19115344.svg)
+
+## CVE-2017-7472
+ The KEYS subsystem in the Linux kernel before 4.10.13 allows local users to cause a denial of service (memory consumption) via a series of KEY_REQKEY_DEFL_THREAD_KEYRING keyctl_set_reqkey_keyring calls.
+
+
+
+- [https://github.com/homjxi0e/CVE-2017-7472](https://github.com/homjxi0e/CVE-2017-7472) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-7472.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-7472.svg)
+
+## CVE-2017-7376
+ Buffer overflow in libxml2 allows remote attackers to execute arbitrary code by leveraging an incorrect limit for port values when handling redirects.
+
+
+
+- [https://github.com/brahmstaedt/libxml2-exploit](https://github.com/brahmstaedt/libxml2-exploit) :  ![starts](https://img.shields.io/github/stars/brahmstaedt/libxml2-exploit.svg) ![forks](https://img.shields.io/github/forks/brahmstaedt/libxml2-exploit.svg)
+
+## CVE-2017-7374
+ Use-after-free vulnerability in fs/crypto/ in the Linux kernel before 4.10.7 allows local users to cause a denial of service (NULL pointer dereference) or possibly gain privileges by revoking keyring keys being used for ext4, f2fs, or ubifs encryption, causing cryptographic transform objects to be freed prematurely.
+
+
+
+- [https://github.com/ww9210/cve-2017-7374](https://github.com/ww9210/cve-2017-7374) :  ![starts](https://img.shields.io/github/stars/ww9210/cve-2017-7374.svg) ![forks](https://img.shields.io/github/forks/ww9210/cve-2017-7374.svg)
+
+## CVE-2017-7269
+ Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with &quot;If: &lt;http://&quot; in a PROPFIND request, as exploited in the wild in July or August 2016.
+
+
+
+- [https://github.com/zcgonvh/cve-2017-7269](https://github.com/zcgonvh/cve-2017-7269) :  ![starts](https://img.shields.io/github/stars/zcgonvh/cve-2017-7269.svg) ![forks](https://img.shields.io/github/forks/zcgonvh/cve-2017-7269.svg)
+
+- [https://github.com/zcgonvh/cve-2017-7269-tool](https://github.com/zcgonvh/cve-2017-7269-tool) :  ![starts](https://img.shields.io/github/stars/zcgonvh/cve-2017-7269-tool.svg) ![forks](https://img.shields.io/github/forks/zcgonvh/cve-2017-7269-tool.svg)
+
+- [https://github.com/lcatro/CVE-2017-7269-Echo-PoC](https://github.com/lcatro/CVE-2017-7269-Echo-PoC) :  ![starts](https://img.shields.io/github/stars/lcatro/CVE-2017-7269-Echo-PoC.svg) ![forks](https://img.shields.io/github/forks/lcatro/CVE-2017-7269-Echo-PoC.svg)
+
+- [https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269](https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/g0rx/iis6-exploit-2017-CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/g0rx/iis6-exploit-2017-CVE-2017-7269.svg)
+
+- [https://github.com/eliuha/webdav_exploit](https://github.com/eliuha/webdav_exploit) :  ![starts](https://img.shields.io/github/stars/eliuha/webdav_exploit.svg) ![forks](https://img.shields.io/github/forks/eliuha/webdav_exploit.svg)
+
+- [https://github.com/Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2017-7269.svg)
+
+- [https://github.com/slimpagey/IIS_6.0_WebDAV_Ruby](https://github.com/slimpagey/IIS_6.0_WebDAV_Ruby) :  ![starts](https://img.shields.io/github/stars/slimpagey/IIS_6.0_WebDAV_Ruby.svg) ![forks](https://img.shields.io/github/forks/slimpagey/IIS_6.0_WebDAV_Ruby.svg)
+
+- [https://github.com/caicai1355/CVE-2017-7269-exploit](https://github.com/caicai1355/CVE-2017-7269-exploit) :  ![starts](https://img.shields.io/github/stars/caicai1355/CVE-2017-7269-exploit.svg) ![forks](https://img.shields.io/github/forks/caicai1355/CVE-2017-7269-exploit.svg)
+
+- [https://github.com/jrrombaldo/CVE-2017-7269](https://github.com/jrrombaldo/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/jrrombaldo/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/jrrombaldo/CVE-2017-7269.svg)
+
+- [https://github.com/xiaovpn/CVE-2017-7269](https://github.com/xiaovpn/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/xiaovpn/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/xiaovpn/CVE-2017-7269.svg)
+
+- [https://github.com/whiteHat001/cve-2017-7269picture](https://github.com/whiteHat001/cve-2017-7269picture) :  ![starts](https://img.shields.io/github/stars/whiteHat001/cve-2017-7269picture.svg) ![forks](https://img.shields.io/github/forks/whiteHat001/cve-2017-7269picture.svg)
+
+- [https://github.com/M1a0rz/CVE-2017-7269](https://github.com/M1a0rz/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/M1a0rz/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/M1a0rz/CVE-2017-7269.svg)
+
+- [https://github.com/mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/mirrorblack/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/mirrorblack/CVE-2017-7269.svg)
+
+- [https://github.com/homjxi0e/cve-2017-7269](https://github.com/homjxi0e/cve-2017-7269) :  ![starts](https://img.shields.io/github/stars/homjxi0e/cve-2017-7269.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/cve-2017-7269.svg)
+
+## CVE-2017-7188
+ Zurmo 3.1.1 Stable allows a Cross-Site Scripting (XSS) attack with a base64-encoded SCRIPT element within a data: URL in the returnUrl parameter to default/toggleCollapse.
+
+
+
+- [https://github.com/faizzaidi/Zurmo-Stable-3.1.1-XSS-By-Provensec-LLC](https://github.com/faizzaidi/Zurmo-Stable-3.1.1-XSS-By-Provensec-LLC) :  ![starts](https://img.shields.io/github/stars/faizzaidi/Zurmo-Stable-3.1.1-XSS-By-Provensec-LLC.svg) ![forks](https://img.shields.io/github/forks/faizzaidi/Zurmo-Stable-3.1.1-XSS-By-Provensec-LLC.svg)
+
+## CVE-2017-7184
+ The xfrm_replay_verify_len function in net/xfrm/xfrm_user.c in the Linux kernel through 4.10.6 does not validate certain size data after an XFRM_MSG_NEWAE update, which allows local users to obtain root privileges or cause a denial of service (heap-based out-of-bounds access) by leveraging the CAP_NET_ADMIN capability, as demonstrated during a Pwn2Own competition at CanSecWest 2017 for the Ubuntu 16.10 linux-image-* package 4.8.0.41.52.
+
+
+
+- [https://github.com/rockl/cve-2017-7184-bak](https://github.com/rockl/cve-2017-7184-bak) :  ![starts](https://img.shields.io/github/stars/rockl/cve-2017-7184-bak.svg) ![forks](https://img.shields.io/github/forks/rockl/cve-2017-7184-bak.svg)
+
+- [https://github.com/rockl/cve-2017-7184](https://github.com/rockl/cve-2017-7184) :  ![starts](https://img.shields.io/github/stars/rockl/cve-2017-7184.svg) ![forks](https://img.shields.io/github/forks/rockl/cve-2017-7184.svg)
+
+## CVE-2017-7173
+ An issue was discovered in certain Apple products. macOS before 10.13.2 is affected. The issue involves the &quot;Kernel&quot; component. It allows attackers to bypass intended memory-read restrictions via a crafted app.
+
+
+
+- [https://github.com/bazad/sysctl_coalition_get_pid_list-dos](https://github.com/bazad/sysctl_coalition_get_pid_list-dos) :  ![starts](https://img.shields.io/github/stars/bazad/sysctl_coalition_get_pid_list-dos.svg) ![forks](https://img.shields.io/github/forks/bazad/sysctl_coalition_get_pid_list-dos.svg)
+
+## CVE-2017-7092
+ An issue was discovered in certain Apple products. iOS before 11 is affected. Safari before 11 is affected. iCloud before 7.0 on Windows is affected. iTunes before 12.7 on Windows is affected. tvOS before 11 is affected. The issue involves the &quot;WebKit&quot; component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.
+
+
+
+- [https://github.com/xuechiyaobai/CVE-2017-7092-PoC](https://github.com/xuechiyaobai/CVE-2017-7092-PoC) :  ![starts](https://img.shields.io/github/stars/xuechiyaobai/CVE-2017-7092-PoC.svg) ![forks](https://img.shields.io/github/forks/xuechiyaobai/CVE-2017-7092-PoC.svg)
+
+## CVE-2017-7089
+ An issue was discovered in certain Apple products. iOS before 11 is affected. Safari before 11 is affected. iCloud before 7.0 on Windows is affected. The issue involves the &quot;WebKit&quot; component. It allows remote attackers to conduct Universal XSS (UXSS) attacks via a crafted web site that is mishandled during parent-tab processing.
+
+
+
+- [https://github.com/Bo0oM/CVE-2017-7089](https://github.com/Bo0oM/CVE-2017-7089) :  ![starts](https://img.shields.io/github/stars/Bo0oM/CVE-2017-7089.svg) ![forks](https://img.shields.io/github/forks/Bo0oM/CVE-2017-7089.svg)
+
+- [https://github.com/aymankhalfatni/Safari_Mac](https://github.com/aymankhalfatni/Safari_Mac) :  ![starts](https://img.shields.io/github/stars/aymankhalfatni/Safari_Mac.svg) ![forks](https://img.shields.io/github/forks/aymankhalfatni/Safari_Mac.svg)
+
+## CVE-2017-7061
+ An issue was discovered in certain Apple products. iOS before 10.3.3 is affected. Safari before 10.1.2 is affected. iCloud before 6.2.2 on Windows is affected. iTunes before 12.6.2 on Windows is affected. tvOS before 10.2.2 is affected. The issue involves the &quot;WebKit&quot; component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.
+
+
+
+- [https://github.com/TheLoneHaxor/jailbreakme103](https://github.com/TheLoneHaxor/jailbreakme103) :  ![starts](https://img.shields.io/github/stars/TheLoneHaxor/jailbreakme103.svg) ![forks](https://img.shields.io/github/forks/TheLoneHaxor/jailbreakme103.svg)
+
+## CVE-2017-7047
+ An issue was discovered in certain Apple products. iOS before 10.3.3 is affected. macOS before 10.12.6 is affected. tvOS before 10.2.2 is affected. watchOS before 3.2.3 is affected. The issue involves the &quot;libxpc&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
+
+
+
+- [https://github.com/JosephShenton/Triple_Fetch-Kernel-Creds](https://github.com/JosephShenton/Triple_Fetch-Kernel-Creds) :  ![starts](https://img.shields.io/github/stars/JosephShenton/Triple_Fetch-Kernel-Creds.svg) ![forks](https://img.shields.io/github/forks/JosephShenton/Triple_Fetch-Kernel-Creds.svg)
+
+- [https://github.com/q1f3/Triple_fetch](https://github.com/q1f3/Triple_fetch) :  ![starts](https://img.shields.io/github/stars/q1f3/Triple_fetch.svg) ![forks](https://img.shields.io/github/forks/q1f3/Triple_fetch.svg)
+
+## CVE-2017-7038
+ A DOMParser XSS issue was discovered in certain Apple products. iOS before 10.3.3 is affected. Safari before 10.1.2 is affected. tvOS before 10.2.2 is affected. The issue involves the &quot;WebKit&quot; component.
+
+
+
+- [https://github.com/ansjdnakjdnajkd/CVE-2017-7038](https://github.com/ansjdnakjdnajkd/CVE-2017-7038) :  ![starts](https://img.shields.io/github/stars/ansjdnakjdnajkd/CVE-2017-7038.svg) ![forks](https://img.shields.io/github/forks/ansjdnakjdnajkd/CVE-2017-7038.svg)
+
+## CVE-2017-6971
+ AlienVault USM and OSSIM before 5.3.7 and NfSen before 1.3.8 allow remote authenticated users to execute arbitrary commands in a privileged context, or launch a reverse shell, via vectors involving the PHP session ID and the NfSen PHP code, aka AlienVault ID ENG-104862.
+
+
+
+- [https://github.com/patrickfreed/nfsen-exploit](https://github.com/patrickfreed/nfsen-exploit) :  ![starts](https://img.shields.io/github/stars/patrickfreed/nfsen-exploit.svg) ![forks](https://img.shields.io/github/forks/patrickfreed/nfsen-exploit.svg)
+
+- [https://github.com/KeyStrOke95/nfsen_1.3.7_CVE-2017-6971](https://github.com/KeyStrOke95/nfsen_1.3.7_CVE-2017-6971) :  ![starts](https://img.shields.io/github/stars/KeyStrOke95/nfsen_1.3.7_CVE-2017-6971.svg) ![forks](https://img.shields.io/github/forks/KeyStrOke95/nfsen_1.3.7_CVE-2017-6971.svg)
+
+## CVE-2017-6950
+ SAP GUI 7.2 through 7.5 allows remote attackers to bypass intended security policy restrictions and execute arbitrary code via a crafted ABAP code, aka SAP Security Note 2407616.
+
+
+
+- [https://github.com/vah13/SAP_ransomware](https://github.com/vah13/SAP_ransomware) :  ![starts](https://img.shields.io/github/stars/vah13/SAP_ransomware.svg) ![forks](https://img.shields.io/github/forks/vah13/SAP_ransomware.svg)
+
+## CVE-2017-6913
+ Cross-site scripting (XSS) vulnerability in the Open-Xchange webmail before 7.6.3-rev28 allows remote attackers to inject arbitrary web script or HTML via the event attribute in a time tag.
+
+
+
+- [https://github.com/gquere/CVE-2017-6913](https://github.com/gquere/CVE-2017-6913) :  ![starts](https://img.shields.io/github/stars/gquere/CVE-2017-6913.svg) ![forks](https://img.shields.io/github/forks/gquere/CVE-2017-6913.svg)
+
+## CVE-2017-6736
+ The Simple Network Management Protocol (SNMP) subsystem of Cisco IOS 12.0 through 12.4 and 15.0 through 15.6 and IOS XE 2.2 through 3.17 contains multiple vulnerabilities that could allow an authenticated, remote attacker to remotely execute code on an affected system or cause an affected system to reload. An attacker could exploit these vulnerabilities by sending a crafted SNMP packet to an affected system via IPv4 or IPv6. Only traffic directed to an affected system can be used to exploit these vulnerabilities. The vulnerabilities are due to a buffer overflow condition in the SNMP subsystem of the affected software. The vulnerabilities affect all versions of SNMP: Versions 1, 2c, and 3. To exploit these vulnerabilities via SNMP Version 2c or earlier, the attacker must know the SNMP read-only community string for the affected system. To exploit these vulnerabilities via SNMP Version 3, the attacker must have user credentials for the affected system. All devices that have enabled SNMP and have not explicitly excluded the affected MIBs or OIDs should be considered vulnerable. Cisco Bug IDs: CSCve57697.
+
+
+
+- [https://github.com/GarnetSunset/CiscoIOSSNMPToolkit](https://github.com/GarnetSunset/CiscoIOSSNMPToolkit) :  ![starts](https://img.shields.io/github/stars/GarnetSunset/CiscoIOSSNMPToolkit.svg) ![forks](https://img.shields.io/github/forks/GarnetSunset/CiscoIOSSNMPToolkit.svg)
+
+- [https://github.com/GarnetSunset/CiscoSpectreTakeover](https://github.com/GarnetSunset/CiscoSpectreTakeover) :  ![starts](https://img.shields.io/github/stars/GarnetSunset/CiscoSpectreTakeover.svg) ![forks](https://img.shields.io/github/forks/GarnetSunset/CiscoSpectreTakeover.svg)
+
+## CVE-2017-6640
+ A vulnerability in Cisco Prime Data Center Network Manager (DCNM) Software could allow an unauthenticated, remote attacker to log in to the administrative console of a DCNM server by using an account that has a default, static password. The account could be granted root- or system-level privileges. The vulnerability exists because the affected software has a default user account that has a default, static password. The user account is created automatically when the software is installed. An attacker could exploit this vulnerability by connecting remotely to an affected system and logging in to the affected software by using the credentials for this default user account. A successful exploit could allow the attacker to use this default user account to log in to the affected software and gain access to the administrative console of a DCNM server. This vulnerability affects Cisco Prime Data Center Network Manager (DCNM) Software releases prior to Release 10.2(1) for Microsoft Windows, Linux, and Virtual Appliance platforms. Cisco Bug IDs: CSCvd95346.
+
+
+
+- [https://github.com/hemp3l/CVE-2017-6640-POC](https://github.com/hemp3l/CVE-2017-6640-POC) :  ![starts](https://img.shields.io/github/stars/hemp3l/CVE-2017-6640-POC.svg) ![forks](https://img.shields.io/github/forks/hemp3l/CVE-2017-6640-POC.svg)
+
+## CVE-2017-6558
+ iball Baton 150M iB-WRA150N v1 00000001 1.2.6 build 110401 Rel.47776n devices are prone to an authentication bypass vulnerability that allows remote attackers to view and modify administrative router settings by reading the HTML source code of the password.cgi file.
+
+
+
+- [https://github.com/GemGeorge/iBall-UTStar-CVEChecker](https://github.com/GemGeorge/iBall-UTStar-CVEChecker) :  ![starts](https://img.shields.io/github/stars/GemGeorge/iBall-UTStar-CVEChecker.svg) ![forks](https://img.shields.io/github/forks/GemGeorge/iBall-UTStar-CVEChecker.svg)
+
+## CVE-2017-6370
+ TYPO3 7.6.15 sends an http request to an index.php?loginProvider URI in cases with an https Referer, which allows remote attackers to obtain sensitive cleartext information by sniffing the network and reading the userident and username fields.
+
+
+
+- [https://github.com/faizzaidi/TYPO3-v7.6.15-Unencrypted-Login-Request](https://github.com/faizzaidi/TYPO3-v7.6.15-Unencrypted-Login-Request) :  ![starts](https://img.shields.io/github/stars/faizzaidi/TYPO3-v7.6.15-Unencrypted-Login-Request.svg) ![forks](https://img.shields.io/github/forks/faizzaidi/TYPO3-v7.6.15-Unencrypted-Login-Request.svg)
+
+## CVE-2017-6206
+ D-Link DGS-1510-28XMP, DGS-1510-28X, DGS-1510-52X, DGS-1510-52, DGS-1510-28P, DGS-1510-28, and DGS-1510-20 Websmart devices with firmware before 1.31.B003 allow attackers to conduct Unauthenticated Information Disclosure attacks via unspecified vectors.
+
+
+
+- [https://github.com/varangamin/CVE-2017-6206](https://github.com/varangamin/CVE-2017-6206) :  ![starts](https://img.shields.io/github/stars/varangamin/CVE-2017-6206.svg) ![forks](https://img.shields.io/github/forks/varangamin/CVE-2017-6206.svg)
+
+## CVE-2017-6090
+ Unrestricted file upload vulnerability in clients/editclient.php in PhpCollab 2.5.1 and earlier allows remote authenticated users to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in logos_clients/.
+
+
+
+- [https://github.com/jlk/exploit-CVE-2017-6090](https://github.com/jlk/exploit-CVE-2017-6090) :  ![starts](https://img.shields.io/github/stars/jlk/exploit-CVE-2017-6090.svg) ![forks](https://img.shields.io/github/forks/jlk/exploit-CVE-2017-6090.svg)
+
+## CVE-2017-6079
+ The HTTP web-management application on Edgewater Networks Edgemarc appliances has a hidden page that allows for user-defined commands such as specific iptables routes, etc., to be set. You can use this page as a web shell essentially to execute commands, though you get no feedback client-side from the web application: if the command is valid, it executes. An example is the wget command. The page that allows this has been confirmed in firmware as old as 2006.
+
+
+
+- [https://github.com/MostafaSoliman/CVE-2017-6079-Blind-Command-Injection-In-Edgewater-Edgemarc-Devices-Exploit](https://github.com/MostafaSoliman/CVE-2017-6079-Blind-Command-Injection-In-Edgewater-Edgemarc-Devices-Exploit) :  ![starts](https://img.shields.io/github/stars/MostafaSoliman/CVE-2017-6079-Blind-Command-Injection-In-Edgewater-Edgemarc-Devices-Exploit.svg) ![forks](https://img.shields.io/github/forks/MostafaSoliman/CVE-2017-6079-Blind-Command-Injection-In-Edgewater-Edgemarc-Devices-Exploit.svg)
+
+## CVE-2017-6074
+ The dccp_rcv_state_process function in net/dccp/input.c in the Linux kernel through 4.9.11 mishandles DCCP_PKT_REQUEST packet data structures in the LISTEN state, which allows local users to obtain root privileges or cause a denial of service (double free) via an application that makes an IPV6_RECVPKTINFO setsockopt system call.
+
+
+
+- [https://github.com/BimsaraMalinda/Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074](https://github.com/BimsaraMalinda/Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074) :  ![starts](https://img.shields.io/github/stars/BimsaraMalinda/Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074.svg) ![forks](https://img.shields.io/github/forks/BimsaraMalinda/Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074.svg)
+
+## CVE-2017-6008
+ A kernel pool overflow in the driver hitmanpro37.sys in Sophos SurfRight HitmanPro before 3.7.20 Build 286 (included in the HitmanPro.Alert solution and Sophos Clean) allows local users to escalate privileges via a malformed IOCTL call.
+
+
+
+- [https://github.com/cbayet/Exploit-CVE-2017-6008](https://github.com/cbayet/Exploit-CVE-2017-6008) :  ![starts](https://img.shields.io/github/stars/cbayet/Exploit-CVE-2017-6008.svg) ![forks](https://img.shields.io/github/forks/cbayet/Exploit-CVE-2017-6008.svg)
+
+## CVE-2017-5954
+ An issue was discovered in the serialize-to-js package 0.5.0 for Node.js. Untrusted data passed into the deserialize() function can be exploited to achieve arbitrary code execution by passing a JavaScript Object with an Immediately Invoked Function Expression (IIFE).
+
+
+
+- [https://github.com/ossf-cve-benchmark/CVE-2017-5954](https://github.com/ossf-cve-benchmark/CVE-2017-5954) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-5954.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-5954.svg)
+
+## CVE-2017-5941
+ An issue was discovered in the node-serialize package 0.0.4 for Node.js. Untrusted data passed into the unserialize() function can be exploited to achieve arbitrary code execution by passing a JavaScript Object with an Immediately Invoked Function Expression (IIFE).
+
+
+
+- [https://github.com/p1gz/CVE-2017-5941-NodeJS-RCE](https://github.com/p1gz/CVE-2017-5941-NodeJS-RCE) :  ![starts](https://img.shields.io/github/stars/p1gz/CVE-2017-5941-NodeJS-RCE.svg) ![forks](https://img.shields.io/github/forks/p1gz/CVE-2017-5941-NodeJS-RCE.svg)
+
+## CVE-2017-5792
+ A Remote Code Execution vulnerability in HPE Intelligent Management Center (iMC) PLAT version 7.3 E0504P2 was found.
+
+
+
+- [https://github.com/scanfsec/HPE-iMC-7.3-RMI-Java-Deserialization](https://github.com/scanfsec/HPE-iMC-7.3-RMI-Java-Deserialization) :  ![starts](https://img.shields.io/github/stars/scanfsec/HPE-iMC-7.3-RMI-Java-Deserialization.svg) ![forks](https://img.shields.io/github/forks/scanfsec/HPE-iMC-7.3-RMI-Java-Deserialization.svg)
+
+## CVE-2017-5754
+ Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis of the data cache.
+
+
+
+- [https://github.com/speed47/spectre-meltdown-checker](https://github.com/speed47/spectre-meltdown-checker) :  ![starts](https://img.shields.io/github/stars/speed47/spectre-meltdown-checker.svg) ![forks](https://img.shields.io/github/forks/speed47/spectre-meltdown-checker.svg)
+
+- [https://github.com/raphaelsc/Am-I-affected-by-Meltdown](https://github.com/raphaelsc/Am-I-affected-by-Meltdown) :  ![starts](https://img.shields.io/github/stars/raphaelsc/Am-I-affected-by-Meltdown.svg) ![forks](https://img.shields.io/github/forks/raphaelsc/Am-I-affected-by-Meltdown.svg)
+
+- [https://github.com/ionescu007/SpecuCheck](https://github.com/ionescu007/SpecuCheck) :  ![starts](https://img.shields.io/github/stars/ionescu007/SpecuCheck.svg) ![forks](https://img.shields.io/github/forks/ionescu007/SpecuCheck.svg)
+
+- [https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance](https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance) :  ![starts](https://img.shields.io/github/stars/nsacyber/Hardware-and-Firmware-Security-Guidance.svg) ![forks](https://img.shields.io/github/forks/nsacyber/Hardware-and-Firmware-Security-Guidance.svg)
+
+- [https://github.com/Viralmaniar/In-Spectre-Meltdown](https://github.com/Viralmaniar/In-Spectre-Meltdown) :  ![starts](https://img.shields.io/github/stars/Viralmaniar/In-Spectre-Meltdown.svg) ![forks](https://img.shields.io/github/forks/Viralmaniar/In-Spectre-Meltdown.svg)
+
+- [https://github.com/mathse/meltdown-spectre-bios-list](https://github.com/mathse/meltdown-spectre-bios-list) :  ![starts](https://img.shields.io/github/stars/mathse/meltdown-spectre-bios-list.svg) ![forks](https://img.shields.io/github/forks/mathse/meltdown-spectre-bios-list.svg)
+
+- [https://github.com/neuhalje/presentation_meltdown_spectre](https://github.com/neuhalje/presentation_meltdown_spectre) :  ![starts](https://img.shields.io/github/stars/neuhalje/presentation_meltdown_spectre.svg) ![forks](https://img.shields.io/github/forks/neuhalje/presentation_meltdown_spectre.svg)
+
+- [https://github.com/jarmouz/spectre_meltdown](https://github.com/jarmouz/spectre_meltdown) :  ![starts](https://img.shields.io/github/stars/jarmouz/spectre_meltdown.svg) ![forks](https://img.shields.io/github/forks/jarmouz/spectre_meltdown.svg)
+
+- [https://github.com/gonoph/ansible-meltdown-spectre](https://github.com/gonoph/ansible-meltdown-spectre) :  ![starts](https://img.shields.io/github/stars/gonoph/ansible-meltdown-spectre.svg) ![forks](https://img.shields.io/github/forks/gonoph/ansible-meltdown-spectre.svg)
+
+- [https://github.com/miglen/Awesome-Meltdown-Spectre](https://github.com/miglen/Awesome-Meltdown-Spectre) :  ![starts](https://img.shields.io/github/stars/miglen/Awesome-Meltdown-Spectre.svg) ![forks](https://img.shields.io/github/forks/miglen/Awesome-Meltdown-Spectre.svg)
+
+- [https://github.com/zzado/Meltdown](https://github.com/zzado/Meltdown) :  ![starts](https://img.shields.io/github/stars/zzado/Meltdown.svg) ![forks](https://img.shields.io/github/forks/zzado/Meltdown.svg)
+
+- [https://github.com/jdmulloy/meltdown-aws-scanner](https://github.com/jdmulloy/meltdown-aws-scanner) :  ![starts](https://img.shields.io/github/stars/jdmulloy/meltdown-aws-scanner.svg) ![forks](https://img.shields.io/github/forks/jdmulloy/meltdown-aws-scanner.svg)
+
+- [https://github.com/speecyy/Am-I-affected-by-Meltdown](https://github.com/speecyy/Am-I-affected-by-Meltdown) :  ![starts](https://img.shields.io/github/stars/speecyy/Am-I-affected-by-Meltdown.svg) ![forks](https://img.shields.io/github/forks/speecyy/Am-I-affected-by-Meltdown.svg)
+
+- [https://github.com/GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment) :  ![starts](https://img.shields.io/github/stars/GregAskew/SpeculativeExecutionAssessment.svg) ![forks](https://img.shields.io/github/forks/GregAskew/SpeculativeExecutionAssessment.svg)
+
+- [https://github.com/kevincoakley/puppet-spectre_meltdown](https://github.com/kevincoakley/puppet-spectre_meltdown) :  ![starts](https://img.shields.io/github/stars/kevincoakley/puppet-spectre_meltdown.svg) ![forks](https://img.shields.io/github/forks/kevincoakley/puppet-spectre_meltdown.svg)
+
+## CVE-2017-5753
+ Systems with microprocessors utilizing speculative execution and branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
+
+
+
+- [https://github.com/speed47/spectre-meltdown-checker](https://github.com/speed47/spectre-meltdown-checker) :  ![starts](https://img.shields.io/github/stars/speed47/spectre-meltdown-checker.svg) ![forks](https://img.shields.io/github/forks/speed47/spectre-meltdown-checker.svg)
+
+- [https://github.com/Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack) :  ![starts](https://img.shields.io/github/stars/Eugnis/spectre-attack.svg) ![forks](https://img.shields.io/github/forks/Eugnis/spectre-attack.svg)
+
+- [https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance](https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance) :  ![starts](https://img.shields.io/github/stars/nsacyber/Hardware-and-Firmware-Security-Guidance.svg) ![forks](https://img.shields.io/github/forks/nsacyber/Hardware-and-Firmware-Security-Guidance.svg)
+
+- [https://github.com/mathse/meltdown-spectre-bios-list](https://github.com/mathse/meltdown-spectre-bios-list) :  ![starts](https://img.shields.io/github/stars/mathse/meltdown-spectre-bios-list.svg) ![forks](https://img.shields.io/github/forks/mathse/meltdown-spectre-bios-list.svg)
+
+- [https://github.com/poilynx/spectre-attack-example](https://github.com/poilynx/spectre-attack-example) :  ![starts](https://img.shields.io/github/stars/poilynx/spectre-attack-example.svg) ![forks](https://img.shields.io/github/forks/poilynx/spectre-attack-example.svg)
+
+- [https://github.com/neuhalje/presentation_meltdown_spectre](https://github.com/neuhalje/presentation_meltdown_spectre) :  ![starts](https://img.shields.io/github/stars/neuhalje/presentation_meltdown_spectre.svg) ![forks](https://img.shields.io/github/forks/neuhalje/presentation_meltdown_spectre.svg)
+
+- [https://github.com/ixtal23/spectreScope](https://github.com/ixtal23/spectreScope) :  ![starts](https://img.shields.io/github/stars/ixtal23/spectreScope.svg) ![forks](https://img.shields.io/github/forks/ixtal23/spectreScope.svg)
+
+- [https://github.com/EdwardOwusuAdjei/Spectre-PoC](https://github.com/EdwardOwusuAdjei/Spectre-PoC) :  ![starts](https://img.shields.io/github/stars/EdwardOwusuAdjei/Spectre-PoC.svg) ![forks](https://img.shields.io/github/forks/EdwardOwusuAdjei/Spectre-PoC.svg)
+
+- [https://github.com/GarnetSunset/CiscoSpectreTakeover](https://github.com/GarnetSunset/CiscoSpectreTakeover) :  ![starts](https://img.shields.io/github/stars/GarnetSunset/CiscoSpectreTakeover.svg) ![forks](https://img.shields.io/github/forks/GarnetSunset/CiscoSpectreTakeover.svg)
+
+- [https://github.com/gonoph/ansible-meltdown-spectre](https://github.com/gonoph/ansible-meltdown-spectre) :  ![starts](https://img.shields.io/github/stars/gonoph/ansible-meltdown-spectre.svg) ![forks](https://img.shields.io/github/forks/gonoph/ansible-meltdown-spectre.svg)
+
+- [https://github.com/miglen/Awesome-Meltdown-Spectre](https://github.com/miglen/Awesome-Meltdown-Spectre) :  ![starts](https://img.shields.io/github/stars/miglen/Awesome-Meltdown-Spectre.svg) ![forks](https://img.shields.io/github/forks/miglen/Awesome-Meltdown-Spectre.svg)
+
+- [https://github.com/albertleecn/cve-2017-5753](https://github.com/albertleecn/cve-2017-5753) :  ![starts](https://img.shields.io/github/stars/albertleecn/cve-2017-5753.svg) ![forks](https://img.shields.io/github/forks/albertleecn/cve-2017-5753.svg)
+
+- [https://github.com/pedrolucasoliva/spectre-attack-demo](https://github.com/pedrolucasoliva/spectre-attack-demo) :  ![starts](https://img.shields.io/github/stars/pedrolucasoliva/spectre-attack-demo.svg) ![forks](https://img.shields.io/github/forks/pedrolucasoliva/spectre-attack-demo.svg)
+
+- [https://github.com/sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-](https://github.com/sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-) :  ![starts](https://img.shields.io/github/stars/sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-.svg) ![forks](https://img.shields.io/github/forks/sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-.svg)
+
+- [https://github.com/GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment) :  ![starts](https://img.shields.io/github/stars/GregAskew/SpeculativeExecutionAssessment.svg) ![forks](https://img.shields.io/github/forks/GregAskew/SpeculativeExecutionAssessment.svg)
+
+## CVE-2017-5721
+ Insufficient input validation in system firmware for Intel NUC7i3BNK, NUC7i3BNH, NUC7i5BNK, NUC7i5BNH, NUC7i7BNH versions BN0049 and below allows local attackers to execute arbitrary code via manipulation of memory.
+
+
+
+- [https://github.com/embedi/smm_usbrt_poc](https://github.com/embedi/smm_usbrt_poc) :  ![starts](https://img.shields.io/github/stars/embedi/smm_usbrt_poc.svg) ![forks](https://img.shields.io/github/forks/embedi/smm_usbrt_poc.svg)
+
+## CVE-2017-5715
+ Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
+
+
+
+- [https://github.com/speed47/spectre-meltdown-checker](https://github.com/speed47/spectre-meltdown-checker) :  ![starts](https://img.shields.io/github/stars/speed47/spectre-meltdown-checker.svg) ![forks](https://img.shields.io/github/forks/speed47/spectre-meltdown-checker.svg)
+
+- [https://github.com/Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack) :  ![starts](https://img.shields.io/github/stars/Eugnis/spectre-attack.svg) ![forks](https://img.shields.io/github/forks/Eugnis/spectre-attack.svg)
+
+- [https://github.com/ionescu007/SpecuCheck](https://github.com/ionescu007/SpecuCheck) :  ![starts](https://img.shields.io/github/stars/ionescu007/SpecuCheck.svg) ![forks](https://img.shields.io/github/forks/ionescu007/SpecuCheck.svg)
+
+- [https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance](https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance) :  ![starts](https://img.shields.io/github/stars/nsacyber/Hardware-and-Firmware-Security-Guidance.svg) ![forks](https://img.shields.io/github/forks/nsacyber/Hardware-and-Firmware-Security-Guidance.svg)
+
+- [https://github.com/Viralmaniar/In-Spectre-Meltdown](https://github.com/Viralmaniar/In-Spectre-Meltdown) :  ![starts](https://img.shields.io/github/stars/Viralmaniar/In-Spectre-Meltdown.svg) ![forks](https://img.shields.io/github/forks/Viralmaniar/In-Spectre-Meltdown.svg)
+
+- [https://github.com/opsxcq/exploit-cve-2017-5715](https://github.com/opsxcq/exploit-cve-2017-5715) :  ![starts](https://img.shields.io/github/stars/opsxcq/exploit-cve-2017-5715.svg) ![forks](https://img.shields.io/github/forks/opsxcq/exploit-cve-2017-5715.svg)
+
+- [https://github.com/mathse/meltdown-spectre-bios-list](https://github.com/mathse/meltdown-spectre-bios-list) :  ![starts](https://img.shields.io/github/stars/mathse/meltdown-spectre-bios-list.svg) ![forks](https://img.shields.io/github/forks/mathse/meltdown-spectre-bios-list.svg)
+
+- [https://github.com/poilynx/spectre-attack-example](https://github.com/poilynx/spectre-attack-example) :  ![starts](https://img.shields.io/github/stars/poilynx/spectre-attack-example.svg) ![forks](https://img.shields.io/github/forks/poilynx/spectre-attack-example.svg)
+
+- [https://github.com/neuhalje/presentation_meltdown_spectre](https://github.com/neuhalje/presentation_meltdown_spectre) :  ![starts](https://img.shields.io/github/stars/neuhalje/presentation_meltdown_spectre.svg) ![forks](https://img.shields.io/github/forks/neuhalje/presentation_meltdown_spectre.svg)
+
+- [https://github.com/ixtal23/spectreScope](https://github.com/ixtal23/spectreScope) :  ![starts](https://img.shields.io/github/stars/ixtal23/spectreScope.svg) ![forks](https://img.shields.io/github/forks/ixtal23/spectreScope.svg)
+
+- [https://github.com/jarmouz/spectre_meltdown](https://github.com/jarmouz/spectre_meltdown) :  ![starts](https://img.shields.io/github/stars/jarmouz/spectre_meltdown.svg) ![forks](https://img.shields.io/github/forks/jarmouz/spectre_meltdown.svg)
+
+- [https://github.com/EdwardOwusuAdjei/Spectre-PoC](https://github.com/EdwardOwusuAdjei/Spectre-PoC) :  ![starts](https://img.shields.io/github/stars/EdwardOwusuAdjei/Spectre-PoC.svg) ![forks](https://img.shields.io/github/forks/EdwardOwusuAdjei/Spectre-PoC.svg)
+
+- [https://github.com/GarnetSunset/CiscoSpectreTakeover](https://github.com/GarnetSunset/CiscoSpectreTakeover) :  ![starts](https://img.shields.io/github/stars/GarnetSunset/CiscoSpectreTakeover.svg) ![forks](https://img.shields.io/github/forks/GarnetSunset/CiscoSpectreTakeover.svg)
+
+- [https://github.com/gonoph/ansible-meltdown-spectre](https://github.com/gonoph/ansible-meltdown-spectre) :  ![starts](https://img.shields.io/github/stars/gonoph/ansible-meltdown-spectre.svg) ![forks](https://img.shields.io/github/forks/gonoph/ansible-meltdown-spectre.svg)
+
+- [https://github.com/miglen/Awesome-Meltdown-Spectre](https://github.com/miglen/Awesome-Meltdown-Spectre) :  ![starts](https://img.shields.io/github/stars/miglen/Awesome-Meltdown-Spectre.svg) ![forks](https://img.shields.io/github/forks/miglen/Awesome-Meltdown-Spectre.svg)
+
+- [https://github.com/pedrolucasoliva/spectre-attack-demo](https://github.com/pedrolucasoliva/spectre-attack-demo) :  ![starts](https://img.shields.io/github/stars/pedrolucasoliva/spectre-attack-demo.svg) ![forks](https://img.shields.io/github/forks/pedrolucasoliva/spectre-attack-demo.svg)
+
+- [https://github.com/dmo2118/retpoline-audit](https://github.com/dmo2118/retpoline-audit) :  ![starts](https://img.shields.io/github/stars/dmo2118/retpoline-audit.svg) ![forks](https://img.shields.io/github/forks/dmo2118/retpoline-audit.svg)
+
+- [https://github.com/GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment) :  ![starts](https://img.shields.io/github/stars/GregAskew/SpeculativeExecutionAssessment.svg) ![forks](https://img.shields.io/github/forks/GregAskew/SpeculativeExecutionAssessment.svg)
+
+- [https://github.com/kevincoakley/puppet-spectre_meltdown](https://github.com/kevincoakley/puppet-spectre_meltdown) :  ![starts](https://img.shields.io/github/stars/kevincoakley/puppet-spectre_meltdown.svg) ![forks](https://img.shields.io/github/forks/kevincoakley/puppet-spectre_meltdown.svg)
+
+## CVE-2017-5693
+ Firmware in the Intel Puma 5, 6, and 7 Series might experience resource depletion or timeout, which allows a network attacker to create a denial of service via crafted network traffic.
+
+
+
+- [https://github.com/TransLunarInjection/Puma6Fail](https://github.com/TransLunarInjection/Puma6Fail) :  ![starts](https://img.shields.io/github/stars/TransLunarInjection/Puma6Fail.svg) ![forks](https://img.shields.io/github/forks/TransLunarInjection/Puma6Fail.svg)
+
+## CVE-2017-5689
+ An unprivileged network attacker could gain system privileges to provisioned Intel manageability SKUs: Intel Active Management Technology (AMT) and Intel Standard Manageability (ISM). An unprivileged local attacker could provision manageability features gaining unprivileged network or local system privileges on Intel manageability SKUs: Intel Active Management Technology (AMT), Intel Standard Manageability (ISM), and Intel Small Business Technology (SBT).
+
+
+
+- [https://github.com/bartblaze/Disable-Intel-AMT](https://github.com/bartblaze/Disable-Intel-AMT) :  ![starts](https://img.shields.io/github/stars/bartblaze/Disable-Intel-AMT.svg) ![forks](https://img.shields.io/github/forks/bartblaze/Disable-Intel-AMT.svg)
+
+- [https://github.com/embedi/amt_auth_bypass_poc](https://github.com/embedi/amt_auth_bypass_poc) :  ![starts](https://img.shields.io/github/stars/embedi/amt_auth_bypass_poc.svg) ![forks](https://img.shields.io/github/forks/embedi/amt_auth_bypass_poc.svg)
+
+- [https://github.com/CerberusSecurity/CVE-2017-5689](https://github.com/CerberusSecurity/CVE-2017-5689) :  ![starts](https://img.shields.io/github/stars/CerberusSecurity/CVE-2017-5689.svg) ![forks](https://img.shields.io/github/forks/CerberusSecurity/CVE-2017-5689.svg)
+
+- [https://github.com/x1sec/amthoneypot](https://github.com/x1sec/amthoneypot) :  ![starts](https://img.shields.io/github/stars/x1sec/amthoneypot.svg) ![forks](https://img.shields.io/github/forks/x1sec/amthoneypot.svg)
+
+- [https://github.com/Bijaye/intel_amt_bypass](https://github.com/Bijaye/intel_amt_bypass) :  ![starts](https://img.shields.io/github/stars/Bijaye/intel_amt_bypass.svg) ![forks](https://img.shields.io/github/forks/Bijaye/intel_amt_bypass.svg)
+
+- [https://github.com/baonq-me/cve2017-5689](https://github.com/baonq-me/cve2017-5689) :  ![starts](https://img.shields.io/github/stars/baonq-me/cve2017-5689.svg) ![forks](https://img.shields.io/github/forks/baonq-me/cve2017-5689.svg)
+
+## CVE-2017-5645
+ In Apache Log4j 2.x before 2.8.2, when using the TCP socket server or UDP socket server to receive serialized log events from another application, a specially crafted binary payload can be sent that, when deserialized, can execute arbitrary code.
+
+
+
+- [https://github.com/pimps/CVE-2017-5645](https://github.com/pimps/CVE-2017-5645) :  ![starts](https://img.shields.io/github/stars/pimps/CVE-2017-5645.svg) ![forks](https://img.shields.io/github/forks/pimps/CVE-2017-5645.svg)
+
+## CVE-2017-5638
+ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
+
+
+
+- [https://github.com/mazen160/struts-pwn](https://github.com/mazen160/struts-pwn) :  ![starts](https://img.shields.io/github/stars/mazen160/struts-pwn.svg) ![forks](https://img.shields.io/github/forks/mazen160/struts-pwn.svg)
+
+- [https://github.com/Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp) :  ![starts](https://img.shields.io/github/stars/Flyteas/Struts2-045-Exp.svg) ![forks](https://img.shields.io/github/forks/Flyteas/Struts2-045-Exp.svg)
+
+- [https://github.com/Z-0ne/ScanS2-045-Nmap](https://github.com/Z-0ne/ScanS2-045-Nmap) :  ![starts](https://img.shields.io/github/stars/Z-0ne/ScanS2-045-Nmap.svg) ![forks](https://img.shields.io/github/forks/Z-0ne/ScanS2-045-Nmap.svg)
+
+- [https://github.com/mthbernardes/strutszeiro](https://github.com/mthbernardes/strutszeiro) :  ![starts](https://img.shields.io/github/stars/mthbernardes/strutszeiro.svg) ![forks](https://img.shields.io/github/forks/mthbernardes/strutszeiro.svg)
+
+- [https://github.com/immunio/apache-struts2-CVE-2017-5638](https://github.com/immunio/apache-struts2-CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/immunio/apache-struts2-CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/immunio/apache-struts2-CVE-2017-5638.svg)
+
+- [https://github.com/PolarisLab/S2-045](https://github.com/PolarisLab/S2-045) :  ![starts](https://img.shields.io/github/stars/PolarisLab/S2-045.svg) ![forks](https://img.shields.io/github/forks/PolarisLab/S2-045.svg)
+
+- [https://github.com/jas502n/st2-046-poc](https://github.com/jas502n/st2-046-poc) :  ![starts](https://img.shields.io/github/stars/jas502n/st2-046-poc.svg) ![forks](https://img.shields.io/github/forks/jas502n/st2-046-poc.svg)
+
+- [https://github.com/jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS) :  ![starts](https://img.shields.io/github/stars/jas502n/S2-045-EXP-POC-TOOLS.svg) ![forks](https://img.shields.io/github/forks/jas502n/S2-045-EXP-POC-TOOLS.svg)
+
+- [https://github.com/ret2jazzy/Struts-Apache-ExploitPack](https://github.com/ret2jazzy/Struts-Apache-ExploitPack) :  ![starts](https://img.shields.io/github/stars/ret2jazzy/Struts-Apache-ExploitPack.svg) ![forks](https://img.shields.io/github/forks/ret2jazzy/Struts-Apache-ExploitPack.svg)
+
+- [https://github.com/shawnmckinney/remote-code-execution-sample](https://github.com/shawnmckinney/remote-code-execution-sample) :  ![starts](https://img.shields.io/github/stars/shawnmckinney/remote-code-execution-sample.svg) ![forks](https://img.shields.io/github/forks/shawnmckinney/remote-code-execution-sample.svg)
+
+- [https://github.com/xsscx/cve-2017-5638](https://github.com/xsscx/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/xsscx/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/xsscx/cve-2017-5638.svg)
+
+- [https://github.com/sUbc0ol/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638](https://github.com/sUbc0ol/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/sUbc0ol/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/sUbc0ol/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638.svg)
+
+- [https://github.com/jrrdev/cve-2017-5638](https://github.com/jrrdev/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/jrrdev/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jrrdev/cve-2017-5638.svg)
+
+- [https://github.com/tahmed11/strutsy](https://github.com/tahmed11/strutsy) :  ![starts](https://img.shields.io/github/stars/tahmed11/strutsy.svg) ![forks](https://img.shields.io/github/forks/tahmed11/strutsy.svg)
+
+- [https://github.com/Iletee/struts2-rce](https://github.com/Iletee/struts2-rce) :  ![starts](https://img.shields.io/github/stars/Iletee/struts2-rce.svg) ![forks](https://img.shields.io/github/forks/Iletee/struts2-rce.svg)
+
+- [https://github.com/initconf/CVE-2017-5638_struts](https://github.com/initconf/CVE-2017-5638_struts) :  ![starts](https://img.shields.io/github/stars/initconf/CVE-2017-5638_struts.svg) ![forks](https://img.shields.io/github/forks/initconf/CVE-2017-5638_struts.svg)
+
+- [https://github.com/payatu/CVE-2017-5638](https://github.com/payatu/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/payatu/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/payatu/CVE-2017-5638.svg)
+
+- [https://github.com/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-](https://github.com/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-) :  ![starts](https://img.shields.io/github/stars/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-.svg) ![forks](https://img.shields.io/github/forks/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-.svg)
+
+- [https://github.com/0x00-0x00/CVE-2017-5638](https://github.com/0x00-0x00/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2017-5638.svg)
+
+- [https://github.com/evolvesecurity/vuln-struts2-vm](https://github.com/evolvesecurity/vuln-struts2-vm) :  ![starts](https://img.shields.io/github/stars/evolvesecurity/vuln-struts2-vm.svg) ![forks](https://img.shields.io/github/forks/evolvesecurity/vuln-struts2-vm.svg)
+
+- [https://github.com/falcon-lnhg/StrutsShell](https://github.com/falcon-lnhg/StrutsShell) :  ![starts](https://img.shields.io/github/stars/falcon-lnhg/StrutsShell.svg) ![forks](https://img.shields.io/github/forks/falcon-lnhg/StrutsShell.svg)
+
+- [https://github.com/opt9/Strutshock](https://github.com/opt9/Strutshock) :  ![starts](https://img.shields.io/github/stars/opt9/Strutshock.svg) ![forks](https://img.shields.io/github/forks/opt9/Strutshock.svg)
+
+- [https://github.com/oktavianto/CVE-2017-5638-Apache-Struts2](https://github.com/oktavianto/CVE-2017-5638-Apache-Struts2) :  ![starts](https://img.shields.io/github/stars/oktavianto/CVE-2017-5638-Apache-Struts2.svg) ![forks](https://img.shields.io/github/forks/oktavianto/CVE-2017-5638-Apache-Struts2.svg)
+
+- [https://github.com/win3zz/CVE-2017-5638](https://github.com/win3zz/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/win3zz/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/win3zz/CVE-2017-5638.svg)
+
+- [https://github.com/lolwaleet/ExpStruts](https://github.com/lolwaleet/ExpStruts) :  ![starts](https://img.shields.io/github/stars/lolwaleet/ExpStruts.svg) ![forks](https://img.shields.io/github/forks/lolwaleet/ExpStruts.svg)
+
+- [https://github.com/opt9/Strutscli](https://github.com/opt9/Strutscli) :  ![starts](https://img.shields.io/github/stars/opt9/Strutscli.svg) ![forks](https://img.shields.io/github/forks/opt9/Strutscli.svg)
+
+- [https://github.com/Greynad/struts2-jakarta-inject](https://github.com/Greynad/struts2-jakarta-inject) :  ![starts](https://img.shields.io/github/stars/Greynad/struts2-jakarta-inject.svg) ![forks](https://img.shields.io/github/forks/Greynad/struts2-jakarta-inject.svg)
+
+- [https://github.com/aljazceru/CVE-2017-5638-Apache-Struts2](https://github.com/aljazceru/CVE-2017-5638-Apache-Struts2) :  ![starts](https://img.shields.io/github/stars/aljazceru/CVE-2017-5638-Apache-Struts2.svg) ![forks](https://img.shields.io/github/forks/aljazceru/CVE-2017-5638-Apache-Struts2.svg)
+
+- [https://github.com/paralelo14/CVE_2017_5638](https://github.com/paralelo14/CVE_2017_5638) :  ![starts](https://img.shields.io/github/stars/paralelo14/CVE_2017_5638.svg) ![forks](https://img.shields.io/github/forks/paralelo14/CVE_2017_5638.svg)
+
+- [https://github.com/riyazwalikar/struts-rce-cve-2017-5638](https://github.com/riyazwalikar/struts-rce-cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/riyazwalikar/struts-rce-cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/riyazwalikar/struts-rce-cve-2017-5638.svg)
+
+## CVE-2017-5633
+ Multiple cross-site request forgery (CSRF) vulnerabilities on the D-Link DI-524 Wireless Router with firmware 9.01 allow remote attackers to (1) change the admin password, (2) reboot the device, or (3) possibly have unspecified other impact via crafted requests to CGI programs.
+
+
+
+- [https://github.com/cardangi/Exploit-CVE-2017-5633](https://github.com/cardangi/Exploit-CVE-2017-5633) :  ![starts](https://img.shields.io/github/stars/cardangi/Exploit-CVE-2017-5633.svg) ![forks](https://img.shields.io/github/forks/cardangi/Exploit-CVE-2017-5633.svg)
+
+## CVE-2017-5521
+ An issue was discovered on NETGEAR R8500, R8300, R7000, R6400, R7300, R7100LG, R6300v2, WNDR3400v3, WNR3500Lv2, R6250, R6700, R6900, and R8000 devices. They are prone to password disclosure via simple crafted requests to the web management server. The bug is exploitable remotely if the remote management option is set, and can also be exploited given access to the router over LAN or WLAN. When trying to access the web panel, a user is asked to authenticate; if the authentication is canceled and password recovery is not enabled, the user is redirected to a page that exposes a password recovery token. If a user supplies the correct token to the page /passwordrecovered.cgi?id=TOKEN (and password recovery is not enabled), they will receive the admin password for the router. If password recovery is set the exploit will fail, as it will ask the user for the recovery questions that were previously set when enabling that feature. This is persistent (even after disabling the recovery option, the exploit will fail) because the router will ask for the security questions.
+
+
+
+- [https://github.com/lilloX/routerPWN](https://github.com/lilloX/routerPWN) :  ![starts](https://img.shields.io/github/stars/lilloX/routerPWN.svg) ![forks](https://img.shields.io/github/forks/lilloX/routerPWN.svg)
+
+## CVE-2017-5487
+ wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php in the REST API implementation in WordPress 4.7 before 4.7.1 does not properly restrict listings of post authors, which allows remote attackers to obtain sensitive information via a wp-json/wp/v2/users request.
+
+
+
+- [https://github.com/GeunSam2/CVE-2017-5487](https://github.com/GeunSam2/CVE-2017-5487) :  ![starts](https://img.shields.io/github/stars/GeunSam2/CVE-2017-5487.svg) ![forks](https://img.shields.io/github/forks/GeunSam2/CVE-2017-5487.svg)
+
+- [https://github.com/teambugsbunny/wpUsersScan](https://github.com/teambugsbunny/wpUsersScan) :  ![starts](https://img.shields.io/github/stars/teambugsbunny/wpUsersScan.svg) ![forks](https://img.shields.io/github/forks/teambugsbunny/wpUsersScan.svg)
+
+- [https://github.com/patilkr/wp-CVE-2017-5487-exploit](https://github.com/patilkr/wp-CVE-2017-5487-exploit) :  ![starts](https://img.shields.io/github/stars/patilkr/wp-CVE-2017-5487-exploit.svg) ![forks](https://img.shields.io/github/forks/patilkr/wp-CVE-2017-5487-exploit.svg)
+
+- [https://github.com/R3K1NG/wpUsersScan](https://github.com/R3K1NG/wpUsersScan) :  ![starts](https://img.shields.io/github/stars/R3K1NG/wpUsersScan.svg) ![forks](https://img.shields.io/github/forks/R3K1NG/wpUsersScan.svg)
+
+## CVE-2017-5415
+ An attack can use a blob URL and script to spoof an arbitrary addressbar URL prefaced by &quot;blob:&quot; as the protocol, leading to user confusion and further spoofing attacks. This vulnerability affects Firefox &lt; 52.
+
+
+
+- [https://github.com/649/CVE-2017-5415](https://github.com/649/CVE-2017-5415) :  ![starts](https://img.shields.io/github/stars/649/CVE-2017-5415.svg) ![forks](https://img.shields.io/github/forks/649/CVE-2017-5415.svg)
+
+## CVE-2017-5223
+ An issue was discovered in PHPMailer before 5.2.22. PHPMailer's msgHTML method applies transformations to an HTML document to make it usable as an email message body. One of the transformations is to convert relative image URLs into attachments using a script-provided base directory. If no base directory is provided, it resolves to /, meaning that relative image URLs get treated as absolute local file paths and added as attachments. To form a remote vulnerability, the msgHTML method must be called, passed an unfiltered, user-supplied HTML document, and must not set a base directory.
+
+
+
+- [https://github.com/cscli/CVE-2017-5223](https://github.com/cscli/CVE-2017-5223) :  ![starts](https://img.shields.io/github/stars/cscli/CVE-2017-5223.svg) ![forks](https://img.shields.io/github/forks/cscli/CVE-2017-5223.svg)
+
+## CVE-2017-5124
+ Incorrect application of sandboxing in Blink in Google Chrome prior to 62.0.3202.62 allowed a remote attacker to inject arbitrary scripts or HTML (UXSS) via a crafted MHTML page.
+
+
+
+- [https://github.com/Bo0oM/CVE-2017-5124](https://github.com/Bo0oM/CVE-2017-5124) :  ![starts](https://img.shields.io/github/stars/Bo0oM/CVE-2017-5124.svg) ![forks](https://img.shields.io/github/forks/Bo0oM/CVE-2017-5124.svg)
+
+## CVE-2017-5123
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/c3r34lk1ll3r/CVE-2017-5123](https://github.com/c3r34lk1ll3r/CVE-2017-5123) :  ![starts](https://img.shields.io/github/stars/c3r34lk1ll3r/CVE-2017-5123.svg) ![forks](https://img.shields.io/github/forks/c3r34lk1ll3r/CVE-2017-5123.svg)
+
+- [https://github.com/0x5068656e6f6c/CVE-2017-5123](https://github.com/0x5068656e6f6c/CVE-2017-5123) :  ![starts](https://img.shields.io/github/stars/0x5068656e6f6c/CVE-2017-5123.svg) ![forks](https://img.shields.io/github/forks/0x5068656e6f6c/CVE-2017-5123.svg)
+
+- [https://github.com/Synacktiv-contrib/exploiting-cve-2017-5123](https://github.com/Synacktiv-contrib/exploiting-cve-2017-5123) :  ![starts](https://img.shields.io/github/stars/Synacktiv-contrib/exploiting-cve-2017-5123.svg) ![forks](https://img.shields.io/github/forks/Synacktiv-contrib/exploiting-cve-2017-5123.svg)
+
+- [https://github.com/FloatingGuy/CVE-2017-5123](https://github.com/FloatingGuy/CVE-2017-5123) :  ![starts](https://img.shields.io/github/stars/FloatingGuy/CVE-2017-5123.svg) ![forks](https://img.shields.io/github/forks/FloatingGuy/CVE-2017-5123.svg)
+
+- [https://github.com/teawater/CVE-2017-5123](https://github.com/teawater/CVE-2017-5123) :  ![starts](https://img.shields.io/github/stars/teawater/CVE-2017-5123.svg) ![forks](https://img.shields.io/github/forks/teawater/CVE-2017-5123.svg)
+
+## CVE-2017-5007
+ Blink in Google Chrome prior to 56.0.2924.76 for Linux, Windows and Mac, and 56.0.2924.87 for Android, incorrectly handled the sequence of events when closing a page, which allowed a remote attacker to inject arbitrary scripts or HTML (UXSS) via a crafted HTML page.
+
+
+
+- [https://github.com/Ang-YC/CVE-2017-5007](https://github.com/Ang-YC/CVE-2017-5007) :  ![starts](https://img.shields.io/github/stars/Ang-YC/CVE-2017-5007.svg) ![forks](https://img.shields.io/github/forks/Ang-YC/CVE-2017-5007.svg)
+
+## CVE-2017-5005
+ Stack-based buffer overflow in Quick Heal Internet Security 10.1.0.316 and earlier, Total Security 10.1.0.316 and earlier, and AntiVirus Pro 10.1.0.316 and earlier on OS X allows remote attackers to execute arbitrary code via a crafted LC_UNIXTHREAD.cmdsize field in a Mach-O file that is mishandled during a Security Scan (aka Custom Scan) operation.
+
+
+
+- [https://github.com/payatu/QuickHeal](https://github.com/payatu/QuickHeal) :  ![starts](https://img.shields.io/github/stars/payatu/QuickHeal.svg) ![forks](https://img.shields.io/github/forks/payatu/QuickHeal.svg)
+
+## CVE-2017-4971
+ An issue was discovered in Pivotal Spring Web Flow through 2.4.4. Applications that do not change the value of the MvcViewFactoryCreator useSpringBinding property which is disabled by default (i.e., set to 'false') can be vulnerable to malicious EL expressions in view states that process form submissions but do not have a sub-element to declare explicit data binding property mappings.
+
+
+
+- [https://github.com/cved-sources/cve-2017-4971](https://github.com/cved-sources/cve-2017-4971) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2017-4971.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2017-4971.svg)
+
+## CVE-2017-4878
+ ** RE
+
+
+
+- [https://github.com/brianwrf/CVE-2017-4878-Samples](https://github.com/brianwrf/CVE-2017-4878-Samples) :  ![starts](https://img.shields.io/github/stars/brianwrf/CVE-2017-4878-Samples.svg) ![forks](https://img.shields.io/github/forks/brianwrf/CVE-2017-4878-Samples.svg)
+
+## CVE-2017-3881
+ A vulnerability in the Cisco Cluster Management Protocol (CMP) processing code in Cisco IOS and Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause a reload of an affected device or remotely execute code with elevated privileges. The Cluster Management Protocol utilizes Telnet internally as a signaling and command protocol between cluster members. The vulnerability is due to the combination of two factors: (1) the failure to restrict the use of CMP-specific Telnet options only to internal, local communications between cluster members and instead accept and process such options over any Telnet connection to an affected device; and (2) the incorrect processing of malformed CMP-specific Telnet options. An attacker could exploit this vulnerability by sending malformed CMP-specific Telnet options while establishing a Telnet session with an affected Cisco device configured to accept Telnet connections. An exploit could allow an attacker to execute arbitrary code and obtain full control of the device or cause a reload of the affected device. This affects Catalyst switches, Embedded Service 2020 switches, Enhanced Layer 2 EtherSwitch Service Module, Enhanced Layer 2/3 EtherSwitch Service Module, Gigabit Ethernet Switch Module (CGESM) for HP, IE Industrial Ethernet switches, ME 4924-10GE switch, RF Gateway 10, and SM-X Layer 2/3 EtherSwitch Service Module. Cisco Bug IDs: CSCvd48893.
+
+
+
+- [https://github.com/artkond/cisco-rce](https://github.com/artkond/cisco-rce) :  ![starts](https://img.shields.io/github/stars/artkond/cisco-rce.svg) ![forks](https://img.shields.io/github/forks/artkond/cisco-rce.svg)
+
+- [https://github.com/homjxi0e/CVE-2017-3881-exploit-cisco-](https://github.com/homjxi0e/CVE-2017-3881-exploit-cisco-) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-3881-exploit-cisco-.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-3881-exploit-cisco-.svg)
+
+- [https://github.com/1337g/CVE-2017-3881](https://github.com/1337g/CVE-2017-3881) :  ![starts](https://img.shields.io/github/stars/1337g/CVE-2017-3881.svg) ![forks](https://img.shields.io/github/forks/1337g/CVE-2017-3881.svg)
+
+- [https://github.com/zakybstrd21215/PoC-CVE-2017-3881](https://github.com/zakybstrd21215/PoC-CVE-2017-3881) :  ![starts](https://img.shields.io/github/stars/zakybstrd21215/PoC-CVE-2017-3881.svg) ![forks](https://img.shields.io/github/forks/zakybstrd21215/PoC-CVE-2017-3881.svg)
+
+- [https://github.com/homjxi0e/CVE-2017-3881-Cisco](https://github.com/homjxi0e/CVE-2017-3881-Cisco) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-3881-Cisco.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-3881-Cisco.svg)
+
+## CVE-2017-3730
+ In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
+
+
+
+- [https://github.com/guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730) :  ![starts](https://img.shields.io/github/stars/guidovranken/CVE-2017-3730.svg) ![forks](https://img.shields.io/github/forks/guidovranken/CVE-2017-3730.svg)
+
+## CVE-2017-3599
+ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Pluggable Auth). Supported versions that are affected are 5.6.35 and earlier and 5.7.17 and earlier. Easily &quot;exploitable&quot; vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 7.5 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H). NOTE: the previous information is from the April 2017 CPU. Oracle has not commented on third-party claims that this issue is an integer overflow in sql/auth/sql_authentication.cc which allows remote attackers to cause a denial of service via a crafted authentication packet.
+
+
+
+- [https://github.com/SECFORCE/CVE-2017-3599](https://github.com/SECFORCE/CVE-2017-3599) :  ![starts](https://img.shields.io/github/stars/SECFORCE/CVE-2017-3599.svg) ![forks](https://img.shields.io/github/forks/SECFORCE/CVE-2017-3599.svg)
+
+## CVE-2017-3506
+ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Web Services). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.0, 12.2.1.1 and 12.2.1.2. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle WebLogic Server accessible data as well as unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.0 Base Score 7.4 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).
+
+
+
+- [https://github.com/0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner) :  ![starts](https://img.shields.io/github/stars/0xn0ne/weblogicScanner.svg) ![forks](https://img.shields.io/github/forks/0xn0ne/weblogicScanner.svg)
+
+- [https://github.com/ianxtianxt/CVE-2017-3506](https://github.com/ianxtianxt/CVE-2017-3506) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2017-3506.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2017-3506.svg)
+
+- [https://github.com/Al1ex/CVE-2017-3506](https://github.com/Al1ex/CVE-2017-3506) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2017-3506.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2017-3506.svg)
+
+## CVE-2017-3248
+ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.0 and 12.2.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS v3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).
+
+
+
+- [https://github.com/0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner) :  ![starts](https://img.shields.io/github/stars/0xn0ne/weblogicScanner.svg) ![forks](https://img.shields.io/github/forks/0xn0ne/weblogicScanner.svg)
+
+- [https://github.com/ianxtianxt/CVE-2017-3248](https://github.com/ianxtianxt/CVE-2017-3248) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2017-3248.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2017-3248.svg)
+
+## CVE-2017-3241
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: RMI). Supported versions that are affected are Java SE: 6u131, 7u121 and 8u112; Java SE Embedded: 8u111; JRockit: R28.3.12. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. While the vulnerability is in Java SE, Java SE Embedded, JRockit, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS v3.0 Base Score 9.0 (Confidentiality, Integrity and Availability impacts).
+
+
+
+- [https://github.com/xfei3/CVE-2017-3241-POC](https://github.com/xfei3/CVE-2017-3241-POC) :  ![starts](https://img.shields.io/github/stars/xfei3/CVE-2017-3241-POC.svg) ![forks](https://img.shields.io/github/forks/xfei3/CVE-2017-3241-POC.svg)
+
+## CVE-2017-3143
+ An attacker who is able to send and receive messages to an authoritative DNS server and who has knowledge of a valid TSIG key name for the zone and service being targeted may be able to manipulate BIND into accepting an unauthorized dynamic update. Affects BIND 9.4.0-&gt;9.8.8, 9.9.0-&gt;9.9.10-P1, 9.10.0-&gt;9.10.5-P1, 9.11.0-&gt;9.11.1-P1, 9.9.3-S1-&gt;9.9.10-S2, 9.10.5-S1-&gt;9.10.5-S2.
+
+
+
+- [https://github.com/saaph/CVE-2017-3143](https://github.com/saaph/CVE-2017-3143) :  ![starts](https://img.shields.io/github/stars/saaph/CVE-2017-3143.svg) ![forks](https://img.shields.io/github/forks/saaph/CVE-2017-3143.svg)
+
+## CVE-2017-3078
+ Adobe Flash Player versions 25.0.0.171 and earlier have an exploitable memory corruption vulnerability in the Adobe Texture Format (ATF) module. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/homjxi0e/CVE-2017-3078](https://github.com/homjxi0e/CVE-2017-3078) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-3078.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-3078.svg)
+
+## CVE-2017-3066
+ Adobe ColdFusion 2016 Update 3 and earlier, ColdFusion 11 update 11 and earlier, ColdFusion 10 Update 22 and earlier have a Java deserialization vulnerability in the Apache BlazeDS library. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/codewhitesec/ColdFusionPwn](https://github.com/codewhitesec/ColdFusionPwn) :  ![starts](https://img.shields.io/github/stars/codewhitesec/ColdFusionPwn.svg) ![forks](https://img.shields.io/github/forks/codewhitesec/ColdFusionPwn.svg)
+
+- [https://github.com/cucadili/CVE-2017-3066](https://github.com/cucadili/CVE-2017-3066) :  ![starts](https://img.shields.io/github/stars/cucadili/CVE-2017-3066.svg) ![forks](https://img.shields.io/github/forks/cucadili/CVE-2017-3066.svg)
+
+## CVE-2017-3000
+ Adobe Flash Player versions 24.0.0.221 and earlier have a vulnerability in the random number generator used for constant blinding. Successful exploitation could lead to information disclosure.
+
+
+
+- [https://github.com/dangokyo/CVE-2017-3000](https://github.com/dangokyo/CVE-2017-3000) :  ![starts](https://img.shields.io/github/stars/dangokyo/CVE-2017-3000.svg) ![forks](https://img.shields.io/github/forks/dangokyo/CVE-2017-3000.svg)
+
+## CVE-2017-2793
+ An exploitable heap corruption vulnerability exists in the UnCompressUnicode functionality of Antenna House DMC HTMLFilter used by MarkLogic 8.0-6. A specially crafted xls file can cause a heap corruption resulting in arbitrary code execution. An attacker can send/provide malicious XLS file to trigger this vulnerability.
+
+
+
+- [https://github.com/sUbc0ol/Detection-for-CVE-2017-2793](https://github.com/sUbc0ol/Detection-for-CVE-2017-2793) :  ![starts](https://img.shields.io/github/stars/sUbc0ol/Detection-for-CVE-2017-2793.svg) ![forks](https://img.shields.io/github/forks/sUbc0ol/Detection-for-CVE-2017-2793.svg)
+
+## CVE-2017-2751
+ A BIOS password extraction vulnerability has been reported on certain consumer notebooks with firmware F.22 and others. The BIOS password was stored in CMOS in a way that allowed it to be extracted. This applies to consumer notebooks launched in early 2014.
+
+
+
+- [https://github.com/BaderSZ/CVE-2017-2751](https://github.com/BaderSZ/CVE-2017-2751) :  ![starts](https://img.shields.io/github/stars/BaderSZ/CVE-2017-2751.svg) ![forks](https://img.shields.io/github/forks/BaderSZ/CVE-2017-2751.svg)
+
+## CVE-2017-2671
+ The ping_unhash function in net/ipv4/ping.c in the Linux kernel through 4.10.8 is too late in obtaining a certain lock and consequently cannot ensure that disconnect function calls are safe, which allows local users to cause a denial of service (panic) by leveraging access to the protocol value of IPPROTO_ICMP in a socket system call.
+
+
+
+- [https://github.com/homjxi0e/CVE-2017-2671](https://github.com/homjxi0e/CVE-2017-2671) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-2671.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-2671.svg)
+
+## CVE-2017-2666
+ It was discovered in Undertow that the code that parsed the HTTP request line permitted invalid characters. This could be exploited, in conjunction with a proxy that also permitted the invalid characters but with a different interpretation, to inject data into the HTTP response. By manipulating the HTTP response the attacker could poison a web-cache, perform an XSS attack, or obtain sensitive information from requests other than their own.
+
+
+
+- [https://github.com/tafamace/CVE-2017-2666](https://github.com/tafamace/CVE-2017-2666) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2017-2666.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2017-2666.svg)
+
+## CVE-2017-2636
+ Race condition in drivers/tty/n_hdlc.c in the Linux kernel through 4.10.1 allows local users to gain privileges or cause a denial of service (double free) by setting the HDLC line discipline.
+
+
+
+- [https://github.com/alexzorin/cve-2017-2636-el](https://github.com/alexzorin/cve-2017-2636-el) :  ![starts](https://img.shields.io/github/stars/alexzorin/cve-2017-2636-el.svg) ![forks](https://img.shields.io/github/forks/alexzorin/cve-2017-2636-el.svg)
+
 ## CVE-2017-2388
  An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the &quot;IOFireWireFamily&quot; component. It allows attackers to cause a denial of service (NULL pointer dereference) via a crafted app.
 
@@ -18266,6 +18533,304 @@
 
 
 ## 2016
+## CVE-2016-1000229
+ swagger-ui has XSS in key names
+
+
+
+- [https://github.com/ossf-cve-benchmark/CVE-2016-1000229](https://github.com/ossf-cve-benchmark/CVE-2016-1000229) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2016-1000229.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2016-1000229.svg)
+
+## CVE-2016-1000027
+ Pivotal Spring Framework 4.1.4 suffers from a potential remote code execution (RCE) issue if used for Java deserialization of untrusted data. Depending on how the library is implemented within a product, this issue may or not occur, and authentication may be required.
+
+
+
+- [https://github.com/artem-smotrakov/cve-2016-1000027-poc](https://github.com/artem-smotrakov/cve-2016-1000027-poc) :  ![starts](https://img.shields.io/github/stars/artem-smotrakov/cve-2016-1000027-poc.svg) ![forks](https://img.shields.io/github/forks/artem-smotrakov/cve-2016-1000027-poc.svg)
+
+## CVE-2016-10725
+ In Bitcoin Core before v0.13.0, a non-final alert is able to block the special &quot;final alert&quot; (which is supposed to override all other alerts) because operations occur in the wrong order. This behavior occurs in the remote network alert system (deprecated since Q1 2016). This affects other uses of the codebase, such as Bitcoin Knots before v0.13.0.knots20160814 and many altcoins.
+
+
+
+- [https://github.com/JinBean/CVE-Extension](https://github.com/JinBean/CVE-Extension) :  ![starts](https://img.shields.io/github/stars/JinBean/CVE-Extension.svg) ![forks](https://img.shields.io/github/forks/JinBean/CVE-Extension.svg)
+
+## CVE-2016-10724
+ Bitcoin Core before v0.13.0 allows denial of service (memory exhaustion) triggered by the remote network alert system (deprecated since Q1 2016) if an attacker can sign a message with a certain private key that had been known by unintended actors, because of an infinitely sized map. This affects other uses of the codebase, such as Bitcoin Knots before v0.13.0.knots20160814 and many altcoins.
+
+
+
+- [https://github.com/JinBean/CVE-Extension](https://github.com/JinBean/CVE-Extension) :  ![starts](https://img.shields.io/github/stars/JinBean/CVE-Extension.svg) ![forks](https://img.shields.io/github/forks/JinBean/CVE-Extension.svg)
+
+## CVE-2016-10709
+ pfSense before 2.3 allows remote authenticated users to execute arbitrary OS commands via a '|' character in the status_rrd_graph_img.php graph parameter, related to _rrd_graph_img.php.
+
+
+
+- [https://github.com/wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development) :  ![starts](https://img.shields.io/github/stars/wetw0rk/Exploit-Development.svg) ![forks](https://img.shields.io/github/forks/wetw0rk/Exploit-Development.svg)
+
+## CVE-2016-10555
+ Since &quot;algorithm&quot; isn't enforced in jwt.decode()in jwt-simple 0.3.0 and earlier, a malicious user could choose what algorithm is sent sent to the server. If the server is expecting RSA but is sent HMAC-SHA with RSA's public key, the server will think the public key is actually an HMAC private key. This could be used to forge any data an attacker wants.
+
+
+
+- [https://github.com/thepcn3rd/jwtToken-CVE-2016-10555](https://github.com/thepcn3rd/jwtToken-CVE-2016-10555) :  ![starts](https://img.shields.io/github/stars/thepcn3rd/jwtToken-CVE-2016-10555.svg) ![forks](https://img.shields.io/github/forks/thepcn3rd/jwtToken-CVE-2016-10555.svg)
+
+## CVE-2016-10277
+ An elevation of privilege vulnerability in the Motorola bootloader could enable a local malicious application to execute arbitrary code within the context of the bootloader. This issue is rated as Critical due to the possibility of a local permanent device compromise, which may require reflashing the operating system to repair the device. Product: Android. Versions: Kernel-3.10, Kernel-3.18. Android ID: A-33840490.
+
+
+
+- [https://github.com/alephsecurity/initroot](https://github.com/alephsecurity/initroot) :  ![starts](https://img.shields.io/github/stars/alephsecurity/initroot.svg) ![forks](https://img.shields.io/github/forks/alephsecurity/initroot.svg)
+
+- [https://github.com/leosol/initroot](https://github.com/leosol/initroot) :  ![starts](https://img.shields.io/github/stars/leosol/initroot.svg) ![forks](https://img.shields.io/github/forks/leosol/initroot.svg)
+
+## CVE-2016-10045
+ The isMail transport in PHPMailer before 5.2.20 might allow remote attackers to pass extra parameters to the mail command and consequently execute arbitrary code by leveraging improper interaction between the escapeshellarg function and internal escaping performed in the mail function in PHP. NOTE: this vulnerability exists because of an incorrect fix for CVE-2016-10033.
+
+
+
+- [https://github.com/Zenexer/safeshell](https://github.com/Zenexer/safeshell) :  ![starts](https://img.shields.io/github/stars/Zenexer/safeshell.svg) ![forks](https://img.shields.io/github/forks/Zenexer/safeshell.svg)
+
+- [https://github.com/pedro823/cve-2016-10033-45](https://github.com/pedro823/cve-2016-10033-45) :  ![starts](https://img.shields.io/github/stars/pedro823/cve-2016-10033-45.svg) ![forks](https://img.shields.io/github/forks/pedro823/cve-2016-10033-45.svg)
+
+## CVE-2016-10034
+ The setFrom function in the Sendmail adapter in the zend-mail component before 2.4.11, 2.5.x, 2.6.x, and 2.7.x before 2.7.2, and Zend Framework before 2.4.11 might allow remote attackers to pass extra parameters to the mail command and consequently execute arbitrary code via a \&quot; (backslash double quote) in a crafted e-mail address.
+
+
+
+- [https://github.com/heikipikker/exploit-CVE-2016-10034](https://github.com/heikipikker/exploit-CVE-2016-10034) :  ![starts](https://img.shields.io/github/stars/heikipikker/exploit-CVE-2016-10034.svg) ![forks](https://img.shields.io/github/forks/heikipikker/exploit-CVE-2016-10034.svg)
+
+## CVE-2016-10033
+ The mailSend function in the isMail transport in PHPMailer before 5.2.18 might allow remote attackers to pass extra parameters to the mail command and consequently execute arbitrary code via a \&quot; (backslash double quote) in a crafted Sender property.
+
+
+
+- [https://github.com/opsxcq/exploit-CVE-2016-10033](https://github.com/opsxcq/exploit-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/opsxcq/exploit-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/opsxcq/exploit-CVE-2016-10033.svg)
+
+- [https://github.com/GeneralTesler/CVE-2016-10033](https://github.com/GeneralTesler/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/GeneralTesler/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/GeneralTesler/CVE-2016-10033.svg)
+
+- [https://github.com/Zenexer/safeshell](https://github.com/Zenexer/safeshell) :  ![starts](https://img.shields.io/github/stars/Zenexer/safeshell.svg) ![forks](https://img.shields.io/github/forks/Zenexer/safeshell.svg)
+
+- [https://github.com/0x00-0x00/CVE-2016-10033](https://github.com/0x00-0x00/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2016-10033.svg)
+
+- [https://github.com/paralelo14/CVE_2016-10033](https://github.com/paralelo14/CVE_2016-10033) :  ![starts](https://img.shields.io/github/stars/paralelo14/CVE_2016-10033.svg) ![forks](https://img.shields.io/github/forks/paralelo14/CVE_2016-10033.svg)
+
+- [https://github.com/chipironcin/CVE-2016-10033](https://github.com/chipironcin/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/chipironcin/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/chipironcin/CVE-2016-10033.svg)
+
+- [https://github.com/pedro823/cve-2016-10033-45](https://github.com/pedro823/cve-2016-10033-45) :  ![starts](https://img.shields.io/github/stars/pedro823/cve-2016-10033-45.svg) ![forks](https://img.shields.io/github/forks/pedro823/cve-2016-10033-45.svg)
+
+- [https://github.com/awidardi/opsxcq-cve-2016-10033](https://github.com/awidardi/opsxcq-cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/awidardi/opsxcq-cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/awidardi/opsxcq-cve-2016-10033.svg)
+
+- [https://github.com/cved-sources/cve-2016-10033](https://github.com/cved-sources/cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2016-10033.svg)
+
+- [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
+
+- [https://github.com/liusec/WP-CVE-2016-10033](https://github.com/liusec/WP-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/liusec/WP-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/liusec/WP-CVE-2016-10033.svg)
+
+- [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
+
+## CVE-2016-0974
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.329 and 19.x and 20.x before 20.0.0.306 on Windows and OS X and before 11.2.202.569 on Linux, Adobe AIR before 20.0.0.260, Adobe AIR SDK before 20.0.0.260, and Adobe AIR SDK &amp; Compiler before 20.0.0.260 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0973, CVE-2016-0975, CVE-2016-0982, CVE-2016-0983, and CVE-2016-0984.
+
+
+
+- [https://github.com/Fullmetal5/FlashHax](https://github.com/Fullmetal5/FlashHax) :  ![starts](https://img.shields.io/github/stars/Fullmetal5/FlashHax.svg) ![forks](https://img.shields.io/github/forks/Fullmetal5/FlashHax.svg)
+
+## CVE-2016-0856
+ Multiple stack-based buffer overflows in Advantech WebAccess before 8.1 allow remote attackers to execute arbitrary code via unspecified vectors.
+
+
+
+- [https://github.com/thezdi/PoC](https://github.com/thezdi/PoC) :  ![starts](https://img.shields.io/github/stars/thezdi/PoC.svg) ![forks](https://img.shields.io/github/forks/thezdi/PoC.svg)
+
+## CVE-2016-0846
+ libs/binder/IMemory.cpp in the IMemory Native Interface in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, and 6.x before 2016-04-01 does not properly consider the heap size, which allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bug 26877992.
+
+
+
+- [https://github.com/secmob/CVE-2016-0846](https://github.com/secmob/CVE-2016-0846) :  ![starts](https://img.shields.io/github/stars/secmob/CVE-2016-0846.svg) ![forks](https://img.shields.io/github/forks/secmob/CVE-2016-0846.svg)
+
+- [https://github.com/b0b0505/CVE-2016-0846-PoC](https://github.com/b0b0505/CVE-2016-0846-PoC) :  ![starts](https://img.shields.io/github/stars/b0b0505/CVE-2016-0846-PoC.svg) ![forks](https://img.shields.io/github/forks/b0b0505/CVE-2016-0846-PoC.svg)
+
+## CVE-2016-0805
+ The performance event manager for Qualcomm ARM processors in Android 4.x before 4.4.4, 5.x before 5.1.1 LMY49G, and 6.x before 2016-02-01 allows attackers to gain privileges via a crafted application, aka internal bug 25773204.
+
+
+
+- [https://github.com/hulovebin/cve-2016-0805](https://github.com/hulovebin/cve-2016-0805) :  ![starts](https://img.shields.io/github/stars/hulovebin/cve-2016-0805.svg) ![forks](https://img.shields.io/github/forks/hulovebin/cve-2016-0805.svg)
+
+## CVE-2016-0801
+ The Broadcom Wi-Fi driver in the kernel in Android 4.x before 4.4.4, 5.x before 5.1.1 LMY49G, and 6.x before 2016-02-01 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted wireless control message packets, aka internal bug 25662029.
+
+
+
+- [https://github.com/abdsec/CVE-2016-0801](https://github.com/abdsec/CVE-2016-0801) :  ![starts](https://img.shields.io/github/stars/abdsec/CVE-2016-0801.svg) ![forks](https://img.shields.io/github/forks/abdsec/CVE-2016-0801.svg)
+
+- [https://github.com/zsaurus/CVE-2016-0801-test](https://github.com/zsaurus/CVE-2016-0801-test) :  ![starts](https://img.shields.io/github/stars/zsaurus/CVE-2016-0801-test.svg) ![forks](https://img.shields.io/github/forks/zsaurus/CVE-2016-0801-test.svg)
+
+## CVE-2016-0800
+ The SSLv2 protocol, as used in OpenSSL before 1.0.1s and 1.0.2 before 1.0.2g and other products, requires a server to send a ServerVerify message before establishing that a client possesses certain plaintext RSA data, which makes it easier for remote attackers to decrypt TLS ciphertext data by leveraging a Bleichenbacher RSA padding oracle, aka a &quot;DROWN&quot; attack.
+
+
+
+- [https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/nyc-tophile/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/nyc-tophile/A2SV--SSL-VUL-Scan.svg)
+
+## CVE-2016-0793
+ Incomplete blacklist vulnerability in the servlet filter restriction mechanism in WildFly (formerly JBoss Application Server) before 10.0.0.Final on Windows allows remote attackers to read the sensitive files in the (1) WEB-INF or (2) META-INF directory via a request that contains (a) lowercase or (b) &quot;meaningless&quot; characters.
+
+
+
+- [https://github.com/tafamace/CVE-2016-0793](https://github.com/tafamace/CVE-2016-0793) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2016-0793.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2016-0793.svg)
+
+## CVE-2016-0792
+ Multiple unspecified API endpoints in Jenkins before 1.650 and LTS before 1.642.2 allow remote authenticated users to execute arbitrary code via serialized data in an XML file, related to XStream and groovy.util.Expando.
+
+
+
+- [https://github.com/jpiechowka/jenkins-cve-2016-0792](https://github.com/jpiechowka/jenkins-cve-2016-0792) :  ![starts](https://img.shields.io/github/stars/jpiechowka/jenkins-cve-2016-0792.svg) ![forks](https://img.shields.io/github/forks/jpiechowka/jenkins-cve-2016-0792.svg)
+
+- [https://github.com/s0wr0b1ndef/java-deserialization-exploits](https://github.com/s0wr0b1ndef/java-deserialization-exploits) :  ![starts](https://img.shields.io/github/stars/s0wr0b1ndef/java-deserialization-exploits.svg) ![forks](https://img.shields.io/github/forks/s0wr0b1ndef/java-deserialization-exploits.svg)
+
+## CVE-2016-0772
+ The smtplib library in CPython (aka Python) before 2.7.12, 3.x before 3.4.5, and 3.5.x before 3.5.2 does not return an error when StartTLS fails, which might allow man-in-the-middle attackers to bypass the TLS protections by leveraging a network position between the client and the registry to block the StartTLS command, aka a &quot;StartTLS stripping attack.&quot;
+
+
+
+- [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
+
+## CVE-2016-0752
+ Directory traversal vulnerability in Action View in Ruby on Rails before 3.2.22.1, 4.0.x and 4.1.x before 4.1.14.1, 4.2.x before 4.2.5.1, and 5.x before 5.0.0.beta1.1 allows remote attackers to read arbitrary files by leveraging an application's unrestricted use of the render method and providing a .. (dot dot) in a pathname.
+
+
+
+- [https://github.com/forced-request/rails-rce-cve-2016-0752](https://github.com/forced-request/rails-rce-cve-2016-0752) :  ![starts](https://img.shields.io/github/stars/forced-request/rails-rce-cve-2016-0752.svg) ![forks](https://img.shields.io/github/forks/forced-request/rails-rce-cve-2016-0752.svg)
+
+- [https://github.com/julianmunoz/Rails-Dynamic-Render-vuln](https://github.com/julianmunoz/Rails-Dynamic-Render-vuln) :  ![starts](https://img.shields.io/github/stars/julianmunoz/Rails-Dynamic-Render-vuln.svg) ![forks](https://img.shields.io/github/forks/julianmunoz/Rails-Dynamic-Render-vuln.svg)
+
+- [https://github.com/dachidahu/CVE-2016-0752](https://github.com/dachidahu/CVE-2016-0752) :  ![starts](https://img.shields.io/github/stars/dachidahu/CVE-2016-0752.svg) ![forks](https://img.shields.io/github/forks/dachidahu/CVE-2016-0752.svg)
+
+## CVE-2016-0728
+ The join_session_keyring function in security/keys/process_keys.c in the Linux kernel before 4.4.1 mishandles object references in a certain error case, which allows local users to gain privileges or cause a denial of service (integer overflow and use-after-free) via crafted keyctl commands.
+
+
+
+- [https://github.com/nardholio/cve-2016-0728](https://github.com/nardholio/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/nardholio/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/nardholio/cve-2016-0728.svg)
+
+- [https://github.com/bittorrent3389/cve-2016-0728](https://github.com/bittorrent3389/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/bittorrent3389/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/bittorrent3389/cve-2016-0728.svg)
+
+- [https://github.com/sunnyjiang/cve_2016_0728](https://github.com/sunnyjiang/cve_2016_0728) :  ![starts](https://img.shields.io/github/stars/sunnyjiang/cve_2016_0728.svg) ![forks](https://img.shields.io/github/forks/sunnyjiang/cve_2016_0728.svg)
+
+- [https://github.com/neuschaefer/cve-2016-0728-testbed](https://github.com/neuschaefer/cve-2016-0728-testbed) :  ![starts](https://img.shields.io/github/stars/neuschaefer/cve-2016-0728-testbed.svg) ![forks](https://img.shields.io/github/forks/neuschaefer/cve-2016-0728-testbed.svg)
+
+- [https://github.com/fochess/cve_2016_0728](https://github.com/fochess/cve_2016_0728) :  ![starts](https://img.shields.io/github/stars/fochess/cve_2016_0728.svg) ![forks](https://img.shields.io/github/forks/fochess/cve_2016_0728.svg)
+
+- [https://github.com/bjzz/cve_2016_0728_exploit](https://github.com/bjzz/cve_2016_0728_exploit) :  ![starts](https://img.shields.io/github/stars/bjzz/cve_2016_0728_exploit.svg) ![forks](https://img.shields.io/github/forks/bjzz/cve_2016_0728_exploit.svg)
+
+- [https://github.com/kennetham/cve_2016_0728](https://github.com/kennetham/cve_2016_0728) :  ![starts](https://img.shields.io/github/stars/kennetham/cve_2016_0728.svg) ![forks](https://img.shields.io/github/forks/kennetham/cve_2016_0728.svg)
+
+- [https://github.com/mfer/cve_2016_0728](https://github.com/mfer/cve_2016_0728) :  ![starts](https://img.shields.io/github/stars/mfer/cve_2016_0728.svg) ![forks](https://img.shields.io/github/forks/mfer/cve_2016_0728.svg)
+
+- [https://github.com/sugarvillela/CVE](https://github.com/sugarvillela/CVE) :  ![starts](https://img.shields.io/github/stars/sugarvillela/CVE.svg) ![forks](https://img.shields.io/github/forks/sugarvillela/CVE.svg)
+
+- [https://github.com/isnuryusuf/cve_2016_0728](https://github.com/isnuryusuf/cve_2016_0728) :  ![starts](https://img.shields.io/github/stars/isnuryusuf/cve_2016_0728.svg) ![forks](https://img.shields.io/github/forks/isnuryusuf/cve_2016_0728.svg)
+
+- [https://github.com/sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/sibilleg/exploit_cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/sibilleg/exploit_cve-2016-0728.svg)
+
+- [https://github.com/hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728) :  ![starts](https://img.shields.io/github/stars/hal0taso/CVE-2016-0728.svg) ![forks](https://img.shields.io/github/forks/hal0taso/CVE-2016-0728.svg)
+
+- [https://github.com/googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728) :  ![starts](https://img.shields.io/github/stars/googleweb/CVE-2016-0728.svg) ![forks](https://img.shields.io/github/forks/googleweb/CVE-2016-0728.svg)
+
+- [https://github.com/idl3r/cve-2016-0728](https://github.com/idl3r/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/idl3r/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/idl3r/cve-2016-0728.svg)
+
+- [https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit](https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit) :  ![starts](https://img.shields.io/github/stars/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit.svg) ![forks](https://img.shields.io/github/forks/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit.svg)
+
+## CVE-2016-0701
+ The DH_check_pub_key function in crypto/dh/dh_check.c in OpenSSL 1.0.2 before 1.0.2f does not ensure that prime numbers are appropriate for Diffie-Hellman (DH) key exchange, which makes it easier for remote attackers to discover a private DH exponent by making multiple handshakes with a peer that chose an inappropriate number, as demonstrated by a number in an X9.42 file.
+
+
+
+- [https://github.com/luanjampa/cve-2016-0701](https://github.com/luanjampa/cve-2016-0701) :  ![starts](https://img.shields.io/github/stars/luanjampa/cve-2016-0701.svg) ![forks](https://img.shields.io/github/forks/luanjampa/cve-2016-0701.svg)
+
+## CVE-2016-0638
+ Unspecified vulnerability in the Oracle WebLogic Server component in Oracle Fusion Middleware 10.3.6, 12.1.2, 12.1.3, and 12.2.1 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to Java Messaging Service.
+
+
+
+- [https://github.com/0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner) :  ![starts](https://img.shields.io/github/stars/0xn0ne/weblogicScanner.svg) ![forks](https://img.shields.io/github/forks/0xn0ne/weblogicScanner.svg)
+
+- [https://github.com/zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln) :  ![starts](https://img.shields.io/github/stars/zhzhdoai/Weblogic_Vuln.svg) ![forks](https://img.shields.io/github/forks/zhzhdoai/Weblogic_Vuln.svg)
+
+## CVE-2016-0199
+ Microsoft Internet Explorer 9 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-0200 and CVE-2016-3211.
+
+
+
+- [https://github.com/LeoonZHANG/CVE-2016-0199](https://github.com/LeoonZHANG/CVE-2016-0199) :  ![starts](https://img.shields.io/github/stars/LeoonZHANG/CVE-2016-0199.svg) ![forks](https://img.shields.io/github/forks/LeoonZHANG/CVE-2016-0199.svg)
+
+## CVE-2016-0189
+ The Microsoft (1) JScript 5.8 and (2) VBScript 5.7 and 5.8 engines, as used in Internet Explorer 9 through 11 and other products, allow remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Scripting Engine Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-0187.
+
+
+
+- [https://github.com/theori-io/cve-2016-0189](https://github.com/theori-io/cve-2016-0189) :  ![starts](https://img.shields.io/github/stars/theori-io/cve-2016-0189.svg) ![forks](https://img.shields.io/github/forks/theori-io/cve-2016-0189.svg)
+
+- [https://github.com/deamwork/MS16-051-poc](https://github.com/deamwork/MS16-051-poc) :  ![starts](https://img.shields.io/github/stars/deamwork/MS16-051-poc.svg) ![forks](https://img.shields.io/github/forks/deamwork/MS16-051-poc.svg)
+
+## CVE-2016-0100
+ Microsoft Windows Vista SP2 and Server 2008 SP2 mishandle library loading, which allows local users to gain privileges via a crafted application, aka &quot;Library Loading Input Validation Remote Code Execution Vulnerability.&quot;
+
+
+
+- [https://github.com/zi0Black/CVE-2016-010033-010045](https://github.com/zi0Black/CVE-2016-010033-010045) :  ![starts](https://img.shields.io/github/stars/zi0Black/CVE-2016-010033-010045.svg) ![forks](https://img.shields.io/github/forks/zi0Black/CVE-2016-010033-010045.svg)
+
+## CVE-2016-0099
+ The Secondary Logon Service in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 does not properly process request handles, which allows local users to gain privileges via a crafted application, aka &quot;Secondary Logon Elevation of Privilege Vulnerability.&quot;
+
+
+
+- [https://github.com/zcgonvh/MS16-032](https://github.com/zcgonvh/MS16-032) :  ![starts](https://img.shields.io/github/stars/zcgonvh/MS16-032.svg) ![forks](https://img.shields.io/github/forks/zcgonvh/MS16-032.svg)
+
+## CVE-2016-0095
+ The kernel-mode driver in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability,&quot; a different vulnerability than CVE-2016-0093, CVE-2016-0094, and CVE-2016-0096.
+
+
+
+- [https://github.com/fengjixuchui/cve-2016-0095-x64](https://github.com/fengjixuchui/cve-2016-0095-x64) :  ![starts](https://img.shields.io/github/stars/fengjixuchui/cve-2016-0095-x64.svg) ![forks](https://img.shields.io/github/forks/fengjixuchui/cve-2016-0095-x64.svg)
+
+## CVE-2016-0051
+ The WebDAV client in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows local users to gain privileges via a crafted application, aka &quot;WebDAV Elevation of Privilege Vulnerability.&quot;
+
+
+
+- [https://github.com/koczkatamas/CVE-2016-0051](https://github.com/koczkatamas/CVE-2016-0051) :  ![starts](https://img.shields.io/github/stars/koczkatamas/CVE-2016-0051.svg) ![forks](https://img.shields.io/github/forks/koczkatamas/CVE-2016-0051.svg)
+
+- [https://github.com/hexx0r/CVE-2016-0051](https://github.com/hexx0r/CVE-2016-0051) :  ![starts](https://img.shields.io/github/stars/hexx0r/CVE-2016-0051.svg) ![forks](https://img.shields.io/github/forks/hexx0r/CVE-2016-0051.svg)
+
+- [https://github.com/ganrann/CVE-2016-0051](https://github.com/ganrann/CVE-2016-0051) :  ![starts](https://img.shields.io/github/stars/ganrann/CVE-2016-0051.svg) ![forks](https://img.shields.io/github/forks/ganrann/CVE-2016-0051.svg)
+
+## CVE-2016-0049
+ Kerberos in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, and Windows 10 Gold and 1511 does not properly validate password changes, which allows remote attackers to bypass authentication by deploying a crafted Key Distribution Center (KDC) and then performing a sign-in action, aka &quot;Windows Kerberos Security Feature Bypass.&quot;
+
+
+
+- [https://github.com/JackOfMostTrades/bluebox](https://github.com/JackOfMostTrades/bluebox) :  ![starts](https://img.shields.io/github/stars/JackOfMostTrades/bluebox.svg) ![forks](https://img.shields.io/github/forks/JackOfMostTrades/bluebox.svg)
+
+## CVE-2016-0040
+ The kernel in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, and Windows 7 SP1 allows local users to gain privileges via a crafted application, aka &quot;Windows Elevation of Privilege Vulnerability.&quot;
+
+
+
+- [https://github.com/Rootkitsmm-zz/cve-2016-0040](https://github.com/Rootkitsmm-zz/cve-2016-0040) :  ![starts](https://img.shields.io/github/stars/Rootkitsmm-zz/cve-2016-0040.svg) ![forks](https://img.shields.io/github/forks/Rootkitsmm-zz/cve-2016-0040.svg)
+
+- [https://github.com/de7ec7ed/CVE-2016-0040](https://github.com/de7ec7ed/CVE-2016-0040) :  ![starts](https://img.shields.io/github/stars/de7ec7ed/CVE-2016-0040.svg) ![forks](https://img.shields.io/github/forks/de7ec7ed/CVE-2016-0040.svg)
+
+## CVE-2016-0034
+ Microsoft Silverlight 5 before 5.1.41212.0 mishandles negative offsets during decoding, which allows remote attackers to execute arbitrary code or cause a denial of service (object-header corruption) via a crafted web site, aka &quot;Silverlight Runtime Remote Code Execution Vulnerability.&quot;
+
+
+
+- [https://github.com/DiamondHunters/CVE-2016-0034-Decompile](https://github.com/DiamondHunters/CVE-2016-0034-Decompile) :  ![starts](https://img.shields.io/github/stars/DiamondHunters/CVE-2016-0034-Decompile.svg) ![forks](https://img.shields.io/github/forks/DiamondHunters/CVE-2016-0034-Decompile.svg)
+
 
 
 ## 2015
