@@ -8,7 +8,7 @@ from random import sample
 from tqdm import tqdm
 import asyncio
 import requests
-from aiohttp_requests import requests
+from aiohttp_requests import requests as aio_requests
 DOWNLOAD_DIR = 'download'
 TOKEN_FILE = 'TOKENS'
 tokens = []
@@ -103,7 +103,7 @@ async def get_PocOrExp_in_github(CVE_ID,Other_ID = None,token=None):
     while(True):
         time.sleep(windows)
         headers = {"Authorization": "token "+token}
-        req = await requests.get(api,headers = headers)
+        req = await aio_requests.get(api,headers = headers)
         req = await req.text()
         req = json.loads(req)
         print(CVE_ID, req)
