@@ -594,6 +594,13 @@
 
 - [https://github.com/whitehairman/Exploit](https://github.com/whitehairman/Exploit) :  ![starts](https://img.shields.io/github/stars/whitehairman/Exploit.svg) ![forks](https://img.shields.io/github/forks/whitehairman/Exploit.svg)
 
+## CVE-2015-2925
+ The prepend_path function in fs/dcache.c in the Linux kernel before 4.2.4 does not properly handle rename actions inside a bind mount, which allows local users to bypass an intended container protection mechanism by renaming a directory, related to a &quot;double-chroot attack.&quot;
+
+
+
+- [https://github.com/Kagami/docker_cve-2015-2925](https://github.com/Kagami/docker_cve-2015-2925) :  ![starts](https://img.shields.io/github/stars/Kagami/docker_cve-2015-2925.svg) ![forks](https://img.shields.io/github/forks/Kagami/docker_cve-2015-2925.svg)
+
 ## CVE-2015-2900
  The AddUserFinding add_userfinding2 function in Medicomp MEDCIN Engine before 2.22.20153.226 allows remote attackers to cause a denial of service (out-of-bounds write) or possibly have unspecified other impact via a crafted packet on port 8190.
 
