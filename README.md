@@ -1,7 +1,7 @@
 <h1 align="center">PocOrExp in Github</h1>
 
 <p align="center">
-  <img      src="https://img.shields.io/badge/python3-3.6-blue"/>
+  <img      src="https://img.shields.io/badge/python-3.6-blue"/>
   <img      src="https://img.shields.io/github/stars/ycdxsb/PocOrExp_in_Github"/>  
   <img      src="https://img.shields.io/github/forks/ycdxsb/PocOrExp_in_Github"/> 
   <img      src="https://img.shields.io/github/issues/ycdxsb/PocOrExp_in_Github"/> 
