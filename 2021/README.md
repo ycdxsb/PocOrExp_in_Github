@@ -104,7 +104,7 @@
 - [https://github.com/SQSamir/CVE-2021-27328](https://github.com/SQSamir/CVE-2021-27328) :  ![starts](https://img.shields.io/github/stars/SQSamir/CVE-2021-27328.svg) ![forks](https://img.shields.io/github/forks/SQSamir/CVE-2021-27328.svg)
 
 ## CVE-2021-27246
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of TP-Link Archer A7 AC1750 1.0.15 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of MAC addresses by the tdpServer endpoint. A crafted TCP message can write stack pointers to the stack. An attacker can leverage this vulnerability to execute code in the context of the root user. Was ZDI-CAN-12306.
 
 
 
@@ -198,6 +198,8 @@
 - [https://github.com/mekhalleh/exchange_proxylogon](https://github.com/mekhalleh/exchange_proxylogon) :  ![starts](https://img.shields.io/github/stars/mekhalleh/exchange_proxylogon.svg) ![forks](https://img.shields.io/github/forks/mekhalleh/exchange_proxylogon.svg)
 
 - [https://github.com/RickGeex/ProxyLogon](https://github.com/RickGeex/ProxyLogon) :  ![starts](https://img.shields.io/github/stars/RickGeex/ProxyLogon.svg) ![forks](https://img.shields.io/github/forks/RickGeex/ProxyLogon.svg)
+
+- [https://github.com/hosch3n/ProxyLogon](https://github.com/hosch3n/ProxyLogon) :  ![starts](https://img.shields.io/github/stars/hosch3n/ProxyLogon.svg) ![forks](https://img.shields.io/github/forks/hosch3n/ProxyLogon.svg)
 
 - [https://github.com/hictf/CVE-2021-26855-CVE-2021-27065](https://github.com/hictf/CVE-2021-26855-CVE-2021-27065) :  ![starts](https://img.shields.io/github/stars/hictf/CVE-2021-26855-CVE-2021-27065.svg) ![forks](https://img.shields.io/github/forks/hictf/CVE-2021-26855-CVE-2021-27065.svg)
 
@@ -303,9 +305,9 @@
 
 - [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
 
-- [https://github.com/dwisiswant0/proxylogscan](https://github.com/dwisiswant0/proxylogscan) :  ![starts](https://img.shields.io/github/stars/dwisiswant0/proxylogscan.svg) ![forks](https://img.shields.io/github/forks/dwisiswant0/proxylogscan.svg)
-
 - [https://github.com/Flangvik/SharpProxyLogon](https://github.com/Flangvik/SharpProxyLogon) :  ![starts](https://img.shields.io/github/stars/Flangvik/SharpProxyLogon.svg) ![forks](https://img.shields.io/github/forks/Flangvik/SharpProxyLogon.svg)
+
+- [https://github.com/dwisiswant0/proxylogscan](https://github.com/dwisiswant0/proxylogscan) :  ![starts](https://img.shields.io/github/stars/dwisiswant0/proxylogscan.svg) ![forks](https://img.shields.io/github/forks/dwisiswant0/proxylogscan.svg)
 
 - [https://github.com/cert-lv/exchange_webshell_detection](https://github.com/cert-lv/exchange_webshell_detection) :  ![starts](https://img.shields.io/github/stars/cert-lv/exchange_webshell_detection.svg) ![forks](https://img.shields.io/github/forks/cert-lv/exchange_webshell_detection.svg)
 
@@ -339,13 +341,13 @@
 
 - [https://github.com/Th3eCrow/CVE-2021-26855-SSRF-Exchange](https://github.com/Th3eCrow/CVE-2021-26855-SSRF-Exchange) :  ![starts](https://img.shields.io/github/stars/Th3eCrow/CVE-2021-26855-SSRF-Exchange.svg) ![forks](https://img.shields.io/github/forks/Th3eCrow/CVE-2021-26855-SSRF-Exchange.svg)
 
+- [https://github.com/srvaccount/CVE-2021-26855-PoC](https://github.com/srvaccount/CVE-2021-26855-PoC) :  ![starts](https://img.shields.io/github/stars/srvaccount/CVE-2021-26855-PoC.svg) ![forks](https://img.shields.io/github/forks/srvaccount/CVE-2021-26855-PoC.svg)
+
 - [https://github.com/mil1200/ProxyLogon-CVE-2021-26855](https://github.com/mil1200/ProxyLogon-CVE-2021-26855) :  ![starts](https://img.shields.io/github/stars/mil1200/ProxyLogon-CVE-2021-26855.svg) ![forks](https://img.shields.io/github/forks/mil1200/ProxyLogon-CVE-2021-26855.svg)
 
 - [https://github.com/sgnls/exchange-0days-202103](https://github.com/sgnls/exchange-0days-202103) :  ![starts](https://img.shields.io/github/stars/sgnls/exchange-0days-202103.svg) ![forks](https://img.shields.io/github/forks/sgnls/exchange-0days-202103.svg)
 
 - [https://github.com/Mr-xn/CVE-2021-26855-d](https://github.com/Mr-xn/CVE-2021-26855-d) :  ![starts](https://img.shields.io/github/stars/Mr-xn/CVE-2021-26855-d.svg) ![forks](https://img.shields.io/github/forks/Mr-xn/CVE-2021-26855-d.svg)
-
-- [https://github.com/srvaccount/CVE-2021-26855-PoC](https://github.com/srvaccount/CVE-2021-26855-PoC) :  ![starts](https://img.shields.io/github/stars/srvaccount/CVE-2021-26855-PoC.svg) ![forks](https://img.shields.io/github/forks/srvaccount/CVE-2021-26855-PoC.svg)
 
 - [https://github.com/achabahe/CVE-2021-26855](https://github.com/achabahe/CVE-2021-26855) :  ![starts](https://img.shields.io/github/stars/achabahe/CVE-2021-26855.svg) ![forks](https://img.shields.io/github/forks/achabahe/CVE-2021-26855.svg)
 
@@ -362,7 +364,7 @@
 - [https://github.com/shacojx/Scan-Vuln-CVE-2021-26855](https://github.com/shacojx/Scan-Vuln-CVE-2021-26855) :  ![starts](https://img.shields.io/github/stars/shacojx/Scan-Vuln-CVE-2021-26855.svg) ![forks](https://img.shields.io/github/forks/shacojx/Scan-Vuln-CVE-2021-26855.svg)
 
 ## CVE-2021-26832
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Scripting (XSS) in the &quot;Reset Password&quot; page form of Priority Enterprise Management System v8.00 allows attackers to execute javascript on behalf of the victim by sending a malicious URL or directing the victim to a malicious site.
 
 
 
@@ -400,6 +402,8 @@
 
 - [https://github.com/yumusb/CVE-2021-26295](https://github.com/yumusb/CVE-2021-26295) :  ![starts](https://img.shields.io/github/stars/yumusb/CVE-2021-26295.svg) ![forks](https://img.shields.io/github/forks/yumusb/CVE-2021-26295.svg)
 
+- [https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP](https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP) :  ![starts](https://img.shields.io/github/stars/S0por/CVE-2021-26295-Apache-OFBiz-EXP.svg) ![forks](https://img.shields.io/github/forks/S0por/CVE-2021-26295-Apache-OFBiz-EXP.svg)
+
 - [https://github.com/r0ckysec/CVE-2021-26295](https://github.com/r0ckysec/CVE-2021-26295) :  ![starts](https://img.shields.io/github/stars/r0ckysec/CVE-2021-26295.svg) ![forks](https://img.shields.io/github/forks/r0ckysec/CVE-2021-26295.svg)
 
 - [https://github.com/rakjong/CVE-2021-26295-Apache-OFBiz](https://github.com/rakjong/CVE-2021-26295-Apache-OFBiz) :  ![starts](https://img.shields.io/github/stars/rakjong/CVE-2021-26295-Apache-OFBiz.svg) ![forks](https://img.shields.io/github/forks/rakjong/CVE-2021-26295-Apache-OFBiz.svg)
@@ -436,6 +440,8 @@
 - [https://github.com/lp008/CVE-2021-25646](https://github.com/lp008/CVE-2021-25646) :  ![starts](https://img.shields.io/github/stars/lp008/CVE-2021-25646.svg) ![forks](https://img.shields.io/github/forks/lp008/CVE-2021-25646.svg)
 
 - [https://github.com/AirEvan/CVE-2021-25646-GUI](https://github.com/AirEvan/CVE-2021-25646-GUI) :  ![starts](https://img.shields.io/github/stars/AirEvan/CVE-2021-25646-GUI.svg) ![forks](https://img.shields.io/github/forks/AirEvan/CVE-2021-25646-GUI.svg)
+
+- [https://github.com/givemefivw/CVE-2021-25646](https://github.com/givemefivw/CVE-2021-25646) :  ![starts](https://img.shields.io/github/stars/givemefivw/CVE-2021-25646.svg) ![forks](https://img.shields.io/github/forks/givemefivw/CVE-2021-25646.svg)
 
 - [https://github.com/Vulnmachines/Apache-Druid-CVE-2021-25646](https://github.com/Vulnmachines/Apache-Druid-CVE-2021-25646) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/Apache-Druid-CVE-2021-25646.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/Apache-Druid-CVE-2021-25646.svg)
 
