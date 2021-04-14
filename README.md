@@ -57,13 +57,16 @@ optional arguments:
 最终结果呈现在每个年份目录下的README.md，以及根目录下的PocOrExp.md中
 
 
-## 工作日记
+## Log
 - 20200411: 修改查询语句，从原来的模糊匹配转为严格匹配
 - 20200412: 修改了github markdown渲染问题，~~可使用exp_markdown_for_github.py~~
 - 20200412: 修复了github搜索时，例如搜索CVE-2020-3618，会搜索到CVE-2020-36184的结果的问题
 - 20200412: 优化前缀搜索问题的处理方案
 - 20200413: 由于NVD官网CVE编号缺失，改用CVE官网数据，发布异步版脚本
 - 20200414: 完成第一轮PocOrExp的爬取，目前使用20个github api token，可以做到12小时内轮询所有CVE并更新
+- 20200414: 做了一些简单数据统计，见![Statistics](https://github.com/ycdxsb/PocOrExp_in_Github/Statistics/README.md)
 
 ## Reference
 - https://github.com/nomi-sec/PoC-in-GitHub
+
+
