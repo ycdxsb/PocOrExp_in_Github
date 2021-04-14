@@ -64,7 +64,7 @@ optional arguments:
 - 20200412: 优化前缀搜索问题的处理方案
 - 20200413: 由于NVD官网CVE编号缺失，改用CVE官网数据，发布异步版脚本
 - 20200414: 完成第一轮PocOrExp的爬取，目前使用20个github api token，可以做到12小时内轮询所有CVE并更新
-- 20200414: 做了一些简单数据统计，见![Statistics](https://github.com/ycdxsb/PocOrExp_in_Github/Statistics/README.md)
+- 20200414: 做了一些简单数据统计，见[Statistics](https://github.com/ycdxsb/PocOrExp_in_Github/Statistics/README.md)
 
 ## Reference
 - https://github.com/nomi-sec/PoC-in-GitHub
