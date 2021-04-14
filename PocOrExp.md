@@ -22781,13 +22781,169 @@
 
 
 ## 2002
+## CVE-2002-0991
+ Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and earlier, based on the Sharity package, allows local users to gain root privileges via long (1) -U, (2) -D, (3) -P, (4) -S, (5) -N, or (6) -u parameters.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0991](https://github.com/alt3kx/CVE-2002-0991) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0991.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0991.svg)
+
+## CVE-2002-0740
+ Buffer overflow in slrnpull for the SLRN package, when installed setuid or setgid, allows local users to gain privileges via a long -d (SPOOLDIR) argument.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0740](https://github.com/alt3kx/CVE-2002-0740) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0740.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0740.svg)
+
+## CVE-2002-0448
+ Xerver Free Web Server 2.10 and earlier allows remote attackers to cause a denial of service (crash) via an HTTP request that contains many &quot;C:/&quot; sequences.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0448](https://github.com/alt3kx/CVE-2002-0448) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0448.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0448.svg)
+
+## CVE-2002-0348
+ service.cgi in Cobalt RAQ 4 allows remote attackers to cause a denial of service, and possibly execute arbitrary code, via a long service argument.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0348](https://github.com/alt3kx/CVE-2002-0348) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0348.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0348.svg)
+
+## CVE-2002-0347
+ Directory traversal vulnerability in Cobalt RAQ 4 allows remote attackers to read password-protected files, and possibly files outside the web root, via a .. (dot dot) in an HTTP request.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0347](https://github.com/alt3kx/CVE-2002-0347) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0347.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0347.svg)
+
+## CVE-2002-0346
+ Cross-site scripting vulnerability in Cobalt RAQ 4 allows remote attackers to execute arbitrary script as other Cobalt users via Javascript in a URL to (1) service.cgi or (2) alert.cgi.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0346](https://github.com/alt3kx/CVE-2002-0346) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0346.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0346.svg)
+
+## CVE-2002-0289
+ Buffer overflow in Phusion web server 1.0 allows remote attackers to cause a denial of service and execute arbitrary code via a long HTTP request.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0289](https://github.com/alt3kx/CVE-2002-0289) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0289.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0289.svg)
+
+## CVE-2002-0288
+ Directory traversal vulnerability in Phusion web server 1.0 allows remote attackers to read arbitrary files via a ... (triple dot dot) in the HTTP request.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0288](https://github.com/alt3kx/CVE-2002-0288) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0288.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0288.svg)
+
+## CVE-2002-0201
+ Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long HTTP GET request, possibly triggering a buffer overflow.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0201](https://github.com/alt3kx/CVE-2002-0201) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0201.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0201.svg)
+
+## CVE-2002-0200
+ Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service via an HTTP request for an MS-DOS device name.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0200](https://github.com/alt3kx/CVE-2002-0200) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0200.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0200.svg)
+
 
 
 ## 2001
+## CVE-2001-1442
+ Buffer overflow in innfeed for ISC InterNetNews (INN) before 2.3.0 allows local users in the &quot;news&quot; group to gain privileges via a long -c command line argument.
+
+
+
+- [https://github.com/alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2001-1442.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2001-1442.svg)
+
+## CVE-2001-0934
+ Cooolsoft PowerFTP Server 2.03 allows remote attackers to obtain the physical path of the server root via the pwd command, which lists the full pathname.
+
+
+
+- [https://github.com/alt3kx/CVE-2001-0934](https://github.com/alt3kx/CVE-2001-0934) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2001-0934.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2001-0934.svg)
+
+## CVE-2001-0933
+ Cooolsoft PowerFTP Server 2.03 allows remote attackers to list the contents of arbitrary drives via a ls (LIST) command that includes the drive letter as an argument, e.g. &quot;ls C:&quot;.
+
+
+
+- [https://github.com/alt3kx/CVE-2001-0933](https://github.com/alt3kx/CVE-2001-0933) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2001-0933.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2001-0933.svg)
+
+## CVE-2001-0932
+ Buffer overflow in Cooolsoft PowerFTP Server 2.03 allows remote attackers to cause a denial of service and possibly execute arbitrary code via a long command.
+
+
+
+- [https://github.com/alt3kx/CVE-2001-0932](https://github.com/alt3kx/CVE-2001-0932) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2001-0932.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2001-0932.svg)
+
+## CVE-2001-0931
+ Directory traversal vulnerability in Cooolsoft PowerFTP Server 2.03 allows attackers to list or read arbitrary files and directories via a .. (dot dot) in (1) LS or (2) GET.
+
+
+
+- [https://github.com/alt3kx/CVE-2001-0931](https://github.com/alt3kx/CVE-2001-0931) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2001-0931.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2001-0931.svg)
+
+## CVE-2001-0758
+ Directory traversal vulnerability in Shambala 4.5 allows remote attackers to escape the FTP root directory via &quot;CWD ...&quot;  command.
+
+
+
+- [https://github.com/alt3kx/CVE-2001-0758](https://github.com/alt3kx/CVE-2001-0758) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2001-0758.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2001-0758.svg)
+
+## CVE-2001-0680
+ Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 allows a remote attacker to traverse directories on the web server via a &quot;dot dot&quot; attack in a LIST (ls) command.
+
+
+
+- [https://github.com/alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2001-0680.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2001-0680.svg)
+
 
 
 ## 2000
+## CVE-2000-0979
+ File and Print Sharing service in Windows 95, Windows 98, and Windows Me does not properly check the password for a file share, which allows remote attackers to bypass share access controls by sending a 1-byte password that matches the first character of the real password, aka the &quot;Share Level Password&quot; vulnerability.
+
+
+
+- [https://github.com/Z6543/CVE-2000-0979](https://github.com/Z6543/CVE-2000-0979) :  ![starts](https://img.shields.io/github/stars/Z6543/CVE-2000-0979.svg) ![forks](https://img.shields.io/github/forks/Z6543/CVE-2000-0979.svg)
+
+## CVE-2000-0649
+ IIS 4.0 allows remote attackers to obtain the internal IP address of the server via an HTTP 1.0 request for a web page which is protected by basic authentication and has no realm defined.
+
+
+
+- [https://github.com/rafaelh/CVE-2000-0649](https://github.com/rafaelh/CVE-2000-0649) :  ![starts](https://img.shields.io/github/stars/rafaelh/CVE-2000-0649.svg) ![forks](https://img.shields.io/github/forks/rafaelh/CVE-2000-0649.svg)
+
+## CVE-2000-0170
+ Buffer overflow in the man program in Linux allows local users to gain privileges via the MANPAGER environmental variable.
+
+
+
+- [https://github.com/mike182/exploit](https://github.com/mike182/exploit) :  ![starts](https://img.shields.io/github/stars/mike182/exploit.svg) ![forks](https://img.shields.io/github/forks/mike182/exploit.svg)
+
 
 
 ## 1999
+## CVE-1999-0532
+ A DNS server allows zone transfers.
+
+
+
+- [https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner](https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner) :  ![starts](https://img.shields.io/github/stars/websecnl/Bulk_CVE-1999-0532_Scanner.svg) ![forks](https://img.shields.io/github/forks/websecnl/Bulk_CVE-1999-0532_Scanner.svg)
+
+## CVE-1999-0016
+ Land IP denial of service.
+
+
+
+- [https://github.com/Pommaq/CVE-1999-0016-POC](https://github.com/Pommaq/CVE-1999-0016-POC) :  ![starts](https://img.shields.io/github/stars/Pommaq/CVE-1999-0016-POC.svg) ![forks](https://img.shields.io/github/forks/Pommaq/CVE-1999-0016-POC.svg)
+
+- [https://github.com/pexmee/CVE-1999-0016-Land-DOS-tool](https://github.com/pexmee/CVE-1999-0016-Land-DOS-tool) :  ![starts](https://img.shields.io/github/stars/pexmee/CVE-1999-0016-Land-DOS-tool.svg) ![forks](https://img.shields.io/github/forks/pexmee/CVE-1999-0016-Land-DOS-tool.svg)
+
 
