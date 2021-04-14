@@ -500,6 +500,13 @@
 
 - [https://github.com/sourceincite/CVE-2021-24085](https://github.com/sourceincite/CVE-2021-24085) :  ![starts](https://img.shields.io/github/stars/sourceincite/CVE-2021-24085.svg) ![forks](https://img.shields.io/github/forks/sourceincite/CVE-2021-24085.svg)
 
+## CVE-2021-24027
+ A cache configuration issue prior to WhatsApp for Android v2.21.4.18 and WhatsApp Business for Android v2.21.4.18 may have allowed a third party with access to the device&#8217;s external storage to read cached TLS material.
+
+
+
+- [https://github.com/CENSUS/whatsapp-mitd-mitm](https://github.com/CENSUS/whatsapp-mitd-mitm) :  ![starts](https://img.shields.io/github/stars/CENSUS/whatsapp-mitd-mitm.svg) ![forks](https://img.shields.io/github/forks/CENSUS/whatsapp-mitd-mitm.svg)
+
 ## CVE-2021-23132
  An issue was discovered in Joomla! 3.0.0 through 3.9.24. com_media allowed paths that are not intended for image uploads
 
