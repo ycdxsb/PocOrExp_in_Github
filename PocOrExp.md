@@ -15955,9 +15955,9 @@
 
 - [https://github.com/cyberharsh/Tomcat-CVE-2017-12615](https://github.com/cyberharsh/Tomcat-CVE-2017-12615) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Tomcat-CVE-2017-12615.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Tomcat-CVE-2017-12615.svg)
 
-- [https://github.com/gardenWhy/CVE-2017-12615-EXP](https://github.com/gardenWhy/CVE-2017-12615-EXP) :  ![starts](https://img.shields.io/github/stars/gardenWhy/CVE-2017-12615-EXP.svg) ![forks](https://img.shields.io/github/forks/gardenWhy/CVE-2017-12615-EXP.svg)
-
 - [https://github.com/Shellkeys/CVE-2017-12615](https://github.com/Shellkeys/CVE-2017-12615) :  ![starts](https://img.shields.io/github/stars/Shellkeys/CVE-2017-12615.svg) ![forks](https://img.shields.io/github/forks/Shellkeys/CVE-2017-12615.svg)
+
+- [https://github.com/gardenWhy/CVE-2017-12615-EXP](https://github.com/gardenWhy/CVE-2017-12615-EXP) :  ![starts](https://img.shields.io/github/stars/gardenWhy/CVE-2017-12615-EXP.svg) ![forks](https://img.shields.io/github/forks/gardenWhy/CVE-2017-12615-EXP.svg)
 
 - [https://github.com/BeyondCy/CVE-2017-12615](https://github.com/BeyondCy/CVE-2017-12615) :  ![starts](https://img.shields.io/github/stars/BeyondCy/CVE-2017-12615.svg) ![forks](https://img.shields.io/github/forks/BeyondCy/CVE-2017-12615.svg)
 
@@ -16897,9 +16897,9 @@
 
 - [https://github.com/Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability](https://github.com/Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability) :  ![starts](https://img.shields.io/github/stars/Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability.svg)
 
-- [https://github.com/MaxSecurity/CVE-2017-7529-POC](https://github.com/MaxSecurity/CVE-2017-7529-POC) :  ![starts](https://img.shields.io/github/stars/MaxSecurity/CVE-2017-7529-POC.svg) ![forks](https://img.shields.io/github/forks/MaxSecurity/CVE-2017-7529-POC.svg)
-
 - [https://github.com/cyberk1w1/CVE-2017-7529](https://github.com/cyberk1w1/CVE-2017-7529) :  ![starts](https://img.shields.io/github/stars/cyberk1w1/CVE-2017-7529.svg) ![forks](https://img.shields.io/github/forks/cyberk1w1/CVE-2017-7529.svg)
+
+- [https://github.com/MaxSecurity/CVE-2017-7529-POC](https://github.com/MaxSecurity/CVE-2017-7529-POC) :  ![starts](https://img.shields.io/github/stars/MaxSecurity/CVE-2017-7529-POC.svg) ![forks](https://img.shields.io/github/forks/MaxSecurity/CVE-2017-7529-POC.svg)
 
 - [https://github.com/daehee/nginx-overflow](https://github.com/daehee/nginx-overflow) :  ![starts](https://img.shields.io/github/stars/daehee/nginx-overflow.svg) ![forks](https://img.shields.io/github/forks/daehee/nginx-overflow.svg)
 
@@ -18042,9 +18042,9 @@
 
 - [https://github.com/chipironcin/CVE-2016-10033](https://github.com/chipironcin/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/chipironcin/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/chipironcin/CVE-2016-10033.svg)
 
-- [https://github.com/awidardi/opsxcq-cve-2016-10033](https://github.com/awidardi/opsxcq-cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/awidardi/opsxcq-cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/awidardi/opsxcq-cve-2016-10033.svg)
-
 - [https://github.com/pedro823/cve-2016-10033-45](https://github.com/pedro823/cve-2016-10033-45) :  ![starts](https://img.shields.io/github/stars/pedro823/cve-2016-10033-45.svg) ![forks](https://img.shields.io/github/forks/pedro823/cve-2016-10033-45.svg)
+
+- [https://github.com/awidardi/opsxcq-cve-2016-10033](https://github.com/awidardi/opsxcq-cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/awidardi/opsxcq-cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/awidardi/opsxcq-cve-2016-10033.svg)
 
 - [https://github.com/cved-sources/cve-2016-10033](https://github.com/cved-sources/cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2016-10033.svg)
 
@@ -18603,9 +18603,9 @@
 
 - [https://github.com/jas502n/CVE-2016-5195](https://github.com/jas502n/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2016-5195.svg)
 
-- [https://github.com/esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo) :  ![starts](https://img.shields.io/github/stars/esc0rtd3w/org.cowpoop.moooooo.svg) ![forks](https://img.shields.io/github/forks/esc0rtd3w/org.cowpoop.moooooo.svg)
-
 - [https://github.com/droidvoider/dirtycow-replacer](https://github.com/droidvoider/dirtycow-replacer) :  ![starts](https://img.shields.io/github/stars/droidvoider/dirtycow-replacer.svg) ![forks](https://img.shields.io/github/forks/droidvoider/dirtycow-replacer.svg)
+
+- [https://github.com/esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo) :  ![starts](https://img.shields.io/github/stars/esc0rtd3w/org.cowpoop.moooooo.svg) ![forks](https://img.shields.io/github/forks/esc0rtd3w/org.cowpoop.moooooo.svg)
 
 - [https://github.com/ASRTeam/CVE-2016-5195](https://github.com/ASRTeam/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ASRTeam/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ASRTeam/CVE-2016-5195.svg)
 
@@ -22341,13 +22341,6 @@
 
 - [https://github.com/followboy1999/CVE-2008-7220](https://github.com/followboy1999/CVE-2008-7220) :  ![starts](https://img.shields.io/github/stars/followboy1999/CVE-2008-7220.svg) ![forks](https://img.shields.io/github/forks/followboy1999/CVE-2008-7220.svg)
 
-## CVE-2008-6970
- SQL injection vulnerability in dosearch.inc.php in UBB.threads 7.3.1 and earlier allows remote attackers to execute arbitrary SQL commands via the Forum[] array parameter.
-
-
-
-- [https://github.com/KyomaHooin/CVE-2008-6970](https://github.com/KyomaHooin/CVE-2008-6970) :  ![starts](https://img.shields.io/github/stars/KyomaHooin/CVE-2008-6970.svg) ![forks](https://img.shields.io/github/forks/KyomaHooin/CVE-2008-6970.svg)
-
 ## CVE-2008-6827
  The ListView control in the Client GUI (AClient.exe) in Symantec Altiris Deployment Solution 6.x before 6.9.355 SP1 allows local users to gain SYSTEM privileges and execute arbitrary commands via a &quot;Shatter&quot; style attack on the &quot;command prompt&quot; hidden GUI button to (1) overwrite the CommandLine parameter to cmd.exe to use SYSTEM privileges and (2) modify the DLL that is loaded using the LoadLibrary API function.
 
@@ -22510,8 +22503,6 @@
 
 
 - [https://github.com/amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/amriunix/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/amriunix/CVE-2007-2447.svg)
-
-- [https://github.com/Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script) :  ![starts](https://img.shields.io/github/stars/Unam3dd/exploit_smb_usermap_script.svg) ![forks](https://img.shields.io/github/forks/Unam3dd/exploit_smb_usermap_script.svg)
 
 - [https://github.com/3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/3x1t1um/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/3x1t1um/CVE-2007-2447.svg)
 

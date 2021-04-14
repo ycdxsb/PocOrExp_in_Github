@@ -5,13 +5,6 @@
 
 - [https://github.com/followboy1999/CVE-2008-7220](https://github.com/followboy1999/CVE-2008-7220) :  ![starts](https://img.shields.io/github/stars/followboy1999/CVE-2008-7220.svg) ![forks](https://img.shields.io/github/forks/followboy1999/CVE-2008-7220.svg)
 
-## CVE-2008-6970
- SQL injection vulnerability in dosearch.inc.php in UBB.threads 7.3.1 and earlier allows remote attackers to execute arbitrary SQL commands via the Forum[] array parameter.
-
-
-
-- [https://github.com/KyomaHooin/CVE-2008-6970](https://github.com/KyomaHooin/CVE-2008-6970) :  ![starts](https://img.shields.io/github/stars/KyomaHooin/CVE-2008-6970.svg) ![forks](https://img.shields.io/github/forks/KyomaHooin/CVE-2008-6970.svg)
-
 ## CVE-2008-6827
  The ListView control in the Client GUI (AClient.exe) in Symantec Altiris Deployment Solution 6.x before 6.9.355 SP1 allows local users to gain SYSTEM privileges and execute arbitrary commands via a &quot;Shatter&quot; style attack on the &quot;command prompt&quot; hidden GUI button to (1) overwrite the CommandLine parameter to cmd.exe to use SYSTEM privileges and (2) modify the DLL that is loaded using the LoadLibrary API function.
 

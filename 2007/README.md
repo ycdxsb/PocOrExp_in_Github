@@ -47,8 +47,6 @@
 
 - [https://github.com/amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/amriunix/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/amriunix/CVE-2007-2447.svg)
 
-- [https://github.com/Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script) :  ![starts](https://img.shields.io/github/stars/Unam3dd/exploit_smb_usermap_script.svg) ![forks](https://img.shields.io/github/forks/Unam3dd/exploit_smb_usermap_script.svg)
-
 - [https://github.com/3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/3x1t1um/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/3x1t1um/CVE-2007-2447.svg)
 
 - [https://github.com/ozuma/CVE-2007-2447](https://github.com/ozuma/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/ozuma/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/ozuma/CVE-2007-2447.svg)
