@@ -55,6 +55,13 @@
 
 - [https://github.com/Security-AVS/CVE-2021-29267](https://github.com/Security-AVS/CVE-2021-29267) :  ![starts](https://img.shields.io/github/stars/Security-AVS/CVE-2021-29267.svg) ![forks](https://img.shields.io/github/forks/Security-AVS/CVE-2021-29267.svg)
 
+## CVE-2021-28310
+ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-27072.
+
+
+
+- [https://github.com/Rafael-Svechinskaya/IOC_for_CVE-2021-28310](https://github.com/Rafael-Svechinskaya/IOC_for_CVE-2021-28310) :  ![starts](https://img.shields.io/github/stars/Rafael-Svechinskaya/IOC_for_CVE-2021-28310.svg) ![forks](https://img.shields.io/github/forks/Rafael-Svechinskaya/IOC_for_CVE-2021-28310.svg)
+
 ## CVE-2021-27964
  SonLogger before 6.4.1 is affected by Unauthenticated Arbitrary File Upload. An attacker can send a POST request to /Config/SaveUploadedHotspotLogoFile without any authentication or session header. There is no check for the file extension or content of the uploaded file.
 
@@ -971,6 +978,8 @@
 - [https://github.com/murataydemir/CVE-2021-3019](https://github.com/murataydemir/CVE-2021-3019) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2021-3019.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2021-3019.svg)
 
 - [https://github.com/Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019) :  ![starts](https://img.shields.io/github/stars/Aoyuh/cve-2021-3019.svg) ![forks](https://img.shields.io/github/forks/Aoyuh/cve-2021-3019.svg)
+
+- [https://github.com/givemefivw/CVE-2021-3019](https://github.com/givemefivw/CVE-2021-3019) :  ![starts](https://img.shields.io/github/stars/givemefivw/CVE-2021-3019.svg) ![forks](https://img.shields.io/github/forks/givemefivw/CVE-2021-3019.svg)
 
 - [https://github.com/liuxu54898/CVE-2021-3019](https://github.com/liuxu54898/CVE-2021-3019) :  ![starts](https://img.shields.io/github/stars/liuxu54898/CVE-2021-3019.svg) ![forks](https://img.shields.io/github/forks/liuxu54898/CVE-2021-3019.svg)
 
