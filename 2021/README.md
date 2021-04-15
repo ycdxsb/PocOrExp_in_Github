@@ -560,6 +560,8 @@
 
 - [https://github.com/ZephrFish/CVE-2021-22986_Check](https://github.com/ZephrFish/CVE-2021-22986_Check) :  ![starts](https://img.shields.io/github/stars/ZephrFish/CVE-2021-22986_Check.svg) ![forks](https://img.shields.io/github/forks/ZephrFish/CVE-2021-22986_Check.svg)
 
+- [https://github.com/nice0e3/CVE-2021-22986_F5_BIG_IP_GUI_Exploit](https://github.com/nice0e3/CVE-2021-22986_F5_BIG_IP_GUI_Exploit) :  ![starts](https://img.shields.io/github/stars/nice0e3/CVE-2021-22986_F5_BIG_IP_GUI_Exploit.svg) ![forks](https://img.shields.io/github/forks/nice0e3/CVE-2021-22986_F5_BIG_IP_GUI_Exploit.svg)
+
 - [https://github.com/adminwaf/CVE-2021-22986](https://github.com/adminwaf/CVE-2021-22986) :  ![starts](https://img.shields.io/github/stars/adminwaf/CVE-2021-22986.svg) ![forks](https://img.shields.io/github/forks/adminwaf/CVE-2021-22986.svg)
 
 - [https://github.com/dotslashed/CVE-2021-22986](https://github.com/dotslashed/CVE-2021-22986) :  ![starts](https://img.shields.io/github/stars/dotslashed/CVE-2021-22986.svg) ![forks](https://img.shields.io/github/forks/dotslashed/CVE-2021-22986.svg)
