@@ -22566,6 +22566,8 @@
 
 - [https://github.com/Unix13/metasploitable2](https://github.com/Unix13/metasploitable2) :  ![starts](https://img.shields.io/github/stars/Unix13/metasploitable2.svg) ![forks](https://img.shields.io/github/forks/Unix13/metasploitable2.svg)
 
+- [https://github.com/Ki11i0n4ir3/Sambaster](https://github.com/Ki11i0n4ir3/Sambaster) :  ![starts](https://img.shields.io/github/stars/Ki11i0n4ir3/Sambaster.svg) ![forks](https://img.shields.io/github/forks/Ki11i0n4ir3/Sambaster.svg)
+
 - [https://github.com/JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/JoseBarrios/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/JoseBarrios/CVE-2007-2447.svg)
 
 - [https://github.com/xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xlcc4096/exploit-CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xlcc4096/exploit-CVE-2007-2447.svg)
