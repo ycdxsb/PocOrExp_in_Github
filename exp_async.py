@@ -135,9 +135,9 @@ def parse_arg():
     parser.add_argument('-y', '--year',required=False,default=None, choices=list(map(str,range(1999,datetime.datetime.now().year+1)))+['all'],
                         help="get Poc or CVE of certain year or all years")
     parser.add_argument('-i','--init',required=False,default='n',choices=['y','n'],help = "init or not")
+    parser.add_argument('-w','--watch',required=False,default='n',choices = ['y','n'],help = "keep an eye on them or not")
     args = parser.parse_args()
     return args
-
 
 def is_prefix(cve_ids,CVE_ID):
     for cve_id in cve_ids:
@@ -242,6 +242,30 @@ def init():
     if(len(tokens)==0):
         print("please checkout your token files")
     
+def update_year(year):
+    filenames = os.listdir('%d'%year)
+    filenames = [filename for filename in filenames if filename.startswith('CVE')]
+    cve_ids = []
+    cve_infos = []
+    for filename in filenames:
+        with open(os.path.join(str(year),filename)) as f:
+            cve_info = json.load(f)
+        cve_ids.append(cve_info['CVE_ID'])
+        if(cve_info['PocOrExp_NUM']!=0):
+            cve_infos.append({'CVE_ID':cve_info['CVE_ID'],'CVE_DESCRIPTION':cve_info['CVE_DESCRIPTION']})
+    process_cve(cve_infos,cve_ids,init)
+
+def watch():
+    '''
+    对今年以前的有Exp的CVE进行更新
+    对今年的CVE全部更新
+    '''
+    for year in list(range(1999,datetime.datetime.now().year+1))[::-1]:
+        update_year(year)
+        generate_markdown()
+    process_cve_year(datetime.datetime.now().year,False)
+    generate_markdown()
+
 def main():
     args = parse_arg()
     init()
@@ -255,7 +279,9 @@ def main():
         if(args.init == "y"):
             process_cve_year(int(args.year))
         elif(args.init == "n"):
-            process_cve_year(int(args.year),False) 
-    
+            process_cve_year(int(args.year),False)
+    if(args.watch == "y"):
+        watch()
+
 if __name__=="__main__":
     main()

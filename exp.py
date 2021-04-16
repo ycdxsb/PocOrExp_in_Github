@@ -55,7 +55,7 @@ def generate_markdown_year(year):
     string = []
     for number in cve_number:
         filename = os.path.join(year,number[1])
-        print(filename)
+        # print(filename)
         with open(filename,'r') as f:
             cve_info = json.load(f)
             if(cve_info['PocOrExp_NUM']==0):
@@ -105,7 +105,7 @@ def get_PocOrExp_in_github(CVE_ID,Other_ID = None):
         headers = {"Authorization": "token "+TOKEN}
         req = requests.get(api, headers=headers).text
         req = json.loads(req)
-        print(CVE_ID,Other_ID,req)
+        print(CVE_ID,Other_ID,TOKEN)
         if('items' in req):
             items = req['items']
             break
@@ -134,6 +134,7 @@ def parse_arg():
     parser.add_argument('-y', '--year',required=False,default=None, choices=list(map(str,range(1999,datetime.datetime.now().year+1)))+['all'],
                         help="get Poc or CVE of certain year or all years")
     parser.add_argument('-i','--init',required=False,default='n',choices=['y','n'],help = "init or not")
+    parser.add_argument('-w','--watch',required=False,default='n',choices = ['y','n'],help = "keep an eye on them or not")
     args = parser.parse_args()
     return args
 
@@ -230,7 +231,31 @@ def init():
     print(tokens)
     if(len(tokens)==0):
         print("please checkout your token files")
-    
+
+def update_year(year):
+    filenames = os.listdir('%d'%year)
+    filenames = [filename for filename in filenames if filename.startswith('CVE')]
+    cve_ids = []
+    cve_infos = []
+    for filename in filenames:
+        with open(os.path.join(str(year),filename)) as f:
+            cve_info = json.load(f)
+        cve_ids.append(cve_info['CVE_ID'])
+        if(cve_info['PocOrExp_NUM']!=0):
+            cve_infos.append({'CVE_ID':cve_info['CVE_ID'],'CVE_DESCRIPTION':cve_info['CVE_DESCRIPTION']})
+    process_cve(cve_infos,cve_ids,False)
+
+def watch():
+    '''
+    对今年以前的有Exp的CVE进行更新
+    对今年的CVE全部更新
+    '''
+    for year in list(range(1999,datetime.datetime.now().year))[::-1]:
+        update_year(year)
+        generate_markdown()
+    process_cve_year(datetime.datetime.now().year,False)
+    generate_markdown()
+
 def main():
     args = parse_arg()
     init()
@@ -245,6 +270,8 @@ def main():
             process_cve_year(int(args.year))
         elif(args.init == "n"):
             process_cve_year(int(args.year),False)
-    
+    if(args.watch == "y"):
+        watch()
+
 if __name__=="__main__":
     main()
