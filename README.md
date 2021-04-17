@@ -74,6 +74,7 @@ optional arguments:
 - 20200414: 完成第一轮PocOrExp的爬取，目前使用20个github api token，可以做到12小时内轮询所有CVE并更新
 - 20200414: 做了一些简单数据统计，见[Statistics](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Statistics/README.md)
 - 20200416: 增加-w参数
+- 20200417: 新增今日更新，见[Today](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Today.md)
 ## Reference
 - https://github.com/nomi-sec/PoC-in-GitHub
 
