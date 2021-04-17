@@ -1,5 +1,6 @@
 import os
 import subprocess
+import datetime
 
 def parse_readme(content):
     d = {}
@@ -18,6 +19,7 @@ def parse_readme(content):
          
 def render_today(update):
     string = []
+    string.append("# Update %s"%datetime.datetime.now().strftime('%Y-%m-%d'))
     for item in update:
         string.append("## %s"%item['CVE_ID'])
         for URL in item['PocOrExp']:
@@ -34,7 +36,7 @@ def render_today(update):
 
 def get_today_update():
     status,output = subprocess.getstatusoutput('rm -rf PocOrExp_in_Github')
-    status,output = subprocess.getstatusoutput('git clone https://github.com/ycdxsb/PocOrExp_in_Github.git')
+    status,output = subprocess.getstatusoutput('git clone git@github.com:ycdxsb/PocOrExp_in_Github.git')
     status,output = subprocess.getstatusoutput('cd PocOrExp_in_Github && git tag --sort=committerdate')
     tags = output.split('\n')
     print(tags)
