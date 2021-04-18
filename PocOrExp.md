@@ -62,6 +62,8 @@
 
 - [https://github.com/0xBaz/CVE-2021-29349](https://github.com/0xBaz/CVE-2021-29349) :  ![starts](https://img.shields.io/github/stars/0xBaz/CVE-2021-29349.svg) ![forks](https://img.shields.io/github/forks/0xBaz/CVE-2021-29349.svg)
 
+- [https://github.com/Vulnmachines/CVE-2021-29349](https://github.com/Vulnmachines/CVE-2021-29349) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/CVE-2021-29349.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/CVE-2021-29349.svg)
+
 ## CVE-2021-29267
  Sherlock SherlockIM through 2021-03-29 allows Cross Site Scripting (XSS) by leveraging the api/Files/Attachment URI to attack help-desk staff via the chatbot feature.
 
@@ -455,6 +457,27 @@
 
 - [https://github.com/Udyz/CVE-2021-26119](https://github.com/Udyz/CVE-2021-26119) :  ![starts](https://img.shields.io/github/stars/Udyz/CVE-2021-26119.svg) ![forks](https://img.shields.io/github/forks/Udyz/CVE-2021-26119.svg)
 
+## CVE-2021-25681
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns](https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns) :  ![starts](https://img.shields.io/github/stars/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg) ![forks](https://img.shields.io/github/forks/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg)
+
+## CVE-2021-25680
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns](https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns) :  ![starts](https://img.shields.io/github/stars/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg) ![forks](https://img.shields.io/github/forks/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg)
+
+## CVE-2021-25679
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns](https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns) :  ![starts](https://img.shields.io/github/stars/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg) ![forks](https://img.shields.io/github/forks/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg)
+
 ## CVE-2021-25646
  Apache Druid includes the ability to execute user-provided JavaScript code embedded in various types of requests. This functionality is intended for use in high-trust environments, and is disabled by default. However, in Druid 0.20.0 and earlier, it is possible for an authenticated user to send a specially-crafted request that forces Druid to run user-provided JavaScript code for that request, regardless of server configuration. This can be leveraged to execute code on the target machine with the privileges of the Druid server process.
 
@@ -569,9 +592,9 @@
 
 - [https://github.com/Udyz/CVE-2021-22986-SSRF2RCE](https://github.com/Udyz/CVE-2021-22986-SSRF2RCE) :  ![starts](https://img.shields.io/github/stars/Udyz/CVE-2021-22986-SSRF2RCE.svg) ![forks](https://img.shields.io/github/forks/Udyz/CVE-2021-22986-SSRF2RCE.svg)
 
-- [https://github.com/safesword/F5_RCE](https://github.com/safesword/F5_RCE) :  ![starts](https://img.shields.io/github/stars/safesword/F5_RCE.svg) ![forks](https://img.shields.io/github/forks/safesword/F5_RCE.svg)
-
 - [https://github.com/Tas9er/CVE-2021-22986](https://github.com/Tas9er/CVE-2021-22986) :  ![starts](https://img.shields.io/github/stars/Tas9er/CVE-2021-22986.svg) ![forks](https://img.shields.io/github/forks/Tas9er/CVE-2021-22986.svg)
+
+- [https://github.com/safesword/F5_RCE](https://github.com/safesword/F5_RCE) :  ![starts](https://img.shields.io/github/stars/safesword/F5_RCE.svg) ![forks](https://img.shields.io/github/forks/safesword/F5_RCE.svg)
 
 - [https://github.com/ZephrFish/CVE-2021-22986_Check](https://github.com/ZephrFish/CVE-2021-22986_Check) :  ![starts](https://img.shields.io/github/stars/ZephrFish/CVE-2021-22986_Check.svg) ![forks](https://img.shields.io/github/forks/ZephrFish/CVE-2021-22986_Check.svg)
 
@@ -752,9 +775,9 @@
 
 - [https://github.com/Maskhe/CVE-2021-21300](https://github.com/Maskhe/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Maskhe/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Maskhe/CVE-2021-21300.svg)
 
-- [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
-
 - [https://github.com/Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Faisal78123/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Faisal78123/CVE-2021-21300.svg)
+
+- [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
 
 - [https://github.com/1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/1uanWu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/1uanWu/CVE-2021-21300.svg)
 
@@ -928,13 +951,13 @@
 
 - [https://github.com/H4ckForJob/cve-2021-3156](https://github.com/H4ckForJob/cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/H4ckForJob/cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/H4ckForJob/cve-2021-3156.svg)
 
-- [https://github.com/kal1gh0st/CVE-2021-3156](https://github.com/kal1gh0st/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/kal1gh0st/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/kal1gh0st/CVE-2021-3156.svg)
+- [https://github.com/SantiagoSerrao/ScannerCVE-2021-3156](https://github.com/SantiagoSerrao/ScannerCVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/SantiagoSerrao/ScannerCVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/SantiagoSerrao/ScannerCVE-2021-3156.svg)
 
 - [https://github.com/binw2018/CVE-2021-3156-SCRIPT](https://github.com/binw2018/CVE-2021-3156-SCRIPT) :  ![starts](https://img.shields.io/github/stars/binw2018/CVE-2021-3156-SCRIPT.svg) ![forks](https://img.shields.io/github/forks/binw2018/CVE-2021-3156-SCRIPT.svg)
 
-- [https://github.com/nobodyatall648/CVE-2021-3156](https://github.com/nobodyatall648/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2021-3156.svg)
+- [https://github.com/kal1gh0st/CVE-2021-3156](https://github.com/kal1gh0st/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/kal1gh0st/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/kal1gh0st/CVE-2021-3156.svg)
 
-- [https://github.com/SantiagoSerrao/ScannerCVE-2021-3156](https://github.com/SantiagoSerrao/ScannerCVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/SantiagoSerrao/ScannerCVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/SantiagoSerrao/ScannerCVE-2021-3156.svg)
+- [https://github.com/nobodyatall648/CVE-2021-3156](https://github.com/nobodyatall648/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2021-3156.svg)
 
 - [https://github.com/Nokialinux/CVE-2021-3156](https://github.com/Nokialinux/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Nokialinux/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Nokialinux/CVE-2021-3156.svg)
 
