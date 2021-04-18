@@ -19525,9 +19525,9 @@
 
 - [https://github.com/ZaleHack/joomla_rce_CVE-2015-8562](https://github.com/ZaleHack/joomla_rce_CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/ZaleHack/joomla_rce_CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/ZaleHack/joomla_rce_CVE-2015-8562.svg)
 
-- [https://github.com/paralelo14/CVE-2015-8562](https://github.com/paralelo14/CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/paralelo14/CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/paralelo14/CVE-2015-8562.svg)
-
 - [https://github.com/VoidSec/Joomla_CVE-2015-8562](https://github.com/VoidSec/Joomla_CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/VoidSec/Joomla_CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/VoidSec/Joomla_CVE-2015-8562.svg)
+
+- [https://github.com/paralelo14/CVE-2015-8562](https://github.com/paralelo14/CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/paralelo14/CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/paralelo14/CVE-2015-8562.svg)
 
 - [https://github.com/atcasanova/cve-2015-8562-exploit](https://github.com/atcasanova/cve-2015-8562-exploit) :  ![starts](https://img.shields.io/github/stars/atcasanova/cve-2015-8562-exploit.svg) ![forks](https://img.shields.io/github/forks/atcasanova/cve-2015-8562-exploit.svg)
 
@@ -19879,13 +19879,6 @@
 
 
 - [https://github.com/alexanderkjall/wicker-cve-2015-5347](https://github.com/alexanderkjall/wicker-cve-2015-5347) :  ![starts](https://img.shields.io/github/stars/alexanderkjall/wicker-cve-2015-5347.svg) ![forks](https://img.shields.io/github/forks/alexanderkjall/wicker-cve-2015-5347.svg)
-
-## CVE-2015-5290
- A Denial of Service vulnerability exists in ircd-ratbox 3.0.9 in the MONITOR Command Handler.
-
-
-
-- [https://github.com/sariyamelody/CVE-2015-5290](https://github.com/sariyamelody/CVE-2015-5290) :  ![starts](https://img.shields.io/github/stars/sariyamelody/CVE-2015-5290.svg) ![forks](https://img.shields.io/github/forks/sariyamelody/CVE-2015-5290.svg)
 
 ## CVE-2015-5254
  Apache ActiveMQ 5.x before 5.13.0 does not restrict the classes that can be serialized in the broker, which allows remote attackers to execute arbitrary code via a crafted serialized Java Message Service (JMS) ObjectMessage object.
@@ -20385,9 +20378,9 @@
 
 - [https://github.com/arm13/ghost_exploit](https://github.com/arm13/ghost_exploit) :  ![starts](https://img.shields.io/github/stars/arm13/ghost_exploit.svg) ![forks](https://img.shields.io/github/forks/arm13/ghost_exploit.svg)
 
-- [https://github.com/mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook) :  ![starts](https://img.shields.io/github/stars/mikesplain/CVE-2015-0235-cookbook.svg) ![forks](https://img.shields.io/github/forks/mikesplain/CVE-2015-0235-cookbook.svg)
-
 - [https://github.com/mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST) :  ![starts](https://img.shields.io/github/stars/mholzinger/CVE-2015-0235_GHOST.svg) ![forks](https://img.shields.io/github/forks/mholzinger/CVE-2015-0235_GHOST.svg)
+
+- [https://github.com/mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook) :  ![starts](https://img.shields.io/github/stars/mikesplain/CVE-2015-0235-cookbook.svg) ![forks](https://img.shields.io/github/forks/mikesplain/CVE-2015-0235-cookbook.svg)
 
 - [https://github.com/piyokango/ghost](https://github.com/piyokango/ghost) :  ![starts](https://img.shields.io/github/stars/piyokango/ghost.svg) ![forks](https://img.shields.io/github/forks/piyokango/ghost.svg)
 
