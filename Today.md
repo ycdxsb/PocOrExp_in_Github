@@ -1,30 +1,30 @@
-# Update 2021-04-18
-## CVE-2021-29349
- Mahara 20.10 is affected by Cross Site Request Forgery (CSRF) that allows a remote attacker to remove inbox-mail on the server. The application fails to validate the CSRF token for a POST request. An attacker can craft a module/multirecipientnotification/inbox.php pieform_delete_all_notifications request, which leads to removing all messages from a mailbox.
+# Update 2021-04-19
+## CVE-2021-25281
+ An issue was discovered in through SaltStack Salt before 3002.5. salt-api does not honor eauth credentials for the wheel_async client. Thus, an attacker can remotely run any wheel modules on the master.
 
-- [https://github.com/Vulnmachines/CVE-2021-29349](https://github.com/Vulnmachines/CVE-2021-29349) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/CVE-2021-29349.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/CVE-2021-29349.svg)
-
-
-## CVE-2021-25681
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns](https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns) :  ![starts](https://img.shields.io/github/stars/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg) ![forks](https://img.shields.io/github/forks/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg)
+- [https://github.com/SkyBulk/CVE-2021-25281](https://github.com/SkyBulk/CVE-2021-25281) :  ![starts](https://img.shields.io/github/stars/SkyBulk/CVE-2021-25281.svg) ![forks](https://img.shields.io/github/forks/SkyBulk/CVE-2021-25281.svg)
 
 
-## CVE-2021-25680
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2019-8372
+ The LHA.sys driver before 1.1.1811.2101 in LG Device Manager exposes functionality that allows low-privileged users to read and write arbitrary physical memory via specially crafted IOCTL requests and elevate system privileges. This occurs because the device object has an associated symbolic link and an open DACL.
 
-- [https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns](https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns) :  ![starts](https://img.shields.io/github/stars/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg) ![forks](https://img.shields.io/github/forks/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg)
-
-
-## CVE-2021-25679
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns](https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns) :  ![starts](https://img.shields.io/github/stars/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg) ![forks](https://img.shields.io/github/forks/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg)
+- [https://github.com/hfiref0x/KDU](https://github.com/hfiref0x/KDU) :  ![starts](https://img.shields.io/github/stars/hfiref0x/KDU.svg) ![forks](https://img.shields.io/github/forks/hfiref0x/KDU.svg)
 
 
-## CVE-2020-9472
- Umbraco CMS 8.5.3 allows an authenticated file upload (and consequently Remote Code Execution) via the Install Package functionality.
+## CVE-2019-2890
+ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Web Services). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0 and 12.2.1.3.0. Easily exploitable vulnerability allows high privileged attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 7.2 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H).
 
-- [https://github.com/john-dooe/CVE-2020-9472](https://github.com/john-dooe/CVE-2020-9472) :  ![starts](https://img.shields.io/github/stars/john-dooe/CVE-2020-9472.svg) ![forks](https://img.shields.io/github/forks/john-dooe/CVE-2020-9472.svg)
+- [https://github.com/freeide/weblogic_cve-2019-2890](https://github.com/freeide/weblogic_cve-2019-2890) :  ![starts](https://img.shields.io/github/stars/freeide/weblogic_cve-2019-2890.svg) ![forks](https://img.shields.io/github/forks/freeide/weblogic_cve-2019-2890.svg)
+
+
+## CVE-2019-0604
+ A remote code execution vulnerability exists in Microsoft SharePoint when the software fails to check the source markup of an application package, aka 'Microsoft SharePoint Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-0594.
+
+- [https://github.com/tree-chtsec/weaponized-0604](https://github.com/tree-chtsec/weaponized-0604) :  ![starts](https://img.shields.io/github/stars/tree-chtsec/weaponized-0604.svg) ![forks](https://img.shields.io/github/forks/tree-chtsec/weaponized-0604.svg)
+
+
+## CVE-2018-1306
+ The PortletV3AnnotatedDemo Multipart Portlet war file code provided in Apache Pluto version 3.0.0 could allow a remote attacker to obtain sensitive information, caused by the failure to restrict path information provided during a file upload. An attacker could exploit this vulnerability to obtain configuration data and other sensitive information.
+
+- [https://github.com/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306](https://github.com/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306) :  ![starts](https://img.shields.io/github/stars/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306.svg) ![forks](https://img.shields.io/github/forks/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306.svg)
 
