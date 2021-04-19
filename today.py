@@ -48,6 +48,9 @@ def get_today_update():
     status,output = subprocess.getstatusoutput('cd PocOrExp_in_Github && git tag --sort=committerdate')
     tags = output.split('\n')
     print(tags)
+    if(tag[-1]!=datetime.datetime.now().strftime('%Y%m%d')):
+        print('date info error')
+        exit(-1)
     old_poc_or_exps = []
     new_poc_or_exps = []
     status,output = subprocess.getstatusoutput('cd PocOrExp_in_Github && git checkout %s' % tags[-2])
