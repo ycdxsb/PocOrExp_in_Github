@@ -5,6 +5,8 @@ import datetime
 def render_today(update):
     string = []
     string.append("# Update %s"%datetime.datetime.now().strftime('%Y-%m-%d'))
+    if(len(update)==0):
+        string.append('No Update Today!')
     for item in update:
         string.append("## %s"%item['CVE_ID'])
         string.append("%s" % item['CVE_DESCRIPTION'])
@@ -17,8 +19,8 @@ def render_today(update):
             forks = "![forks](https://img.shields.io/github/forks/%s/%s.svg)" %(AUTHOR,PROJECT_NAME)
             string.append(" ".join([link,stars,forks]))
         string.append('\n')
-        with open("Today.md",'w') as f:
-            f.write("\n".join(string))
+    with open("Today.md",'w') as f:
+        f.write("\n".join(string))
     return string
 
 def parse_readme(content):
