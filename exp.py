@@ -12,7 +12,7 @@ DOWNLOAD_DIR = 'download'
 TOKEN_FILE = 'TOKENS'
 BLACKLIST_FILE = 'blacklist.txt'
 tokens = []
-blacklists = []
+blacklist = []
 
 def download_cve_xml(filename):
     base_url = "https://cve.mitre.org/data/downloads/"

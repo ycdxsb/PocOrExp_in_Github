@@ -9,11 +9,12 @@ from tqdm import tqdm
 import asyncio
 import requests
 from aiohttp_requests import requests as aio_requests
+
 DOWNLOAD_DIR = 'download'
 TOKEN_FILE = 'TOKENS'
 BLACKLIST_FILE = 'blacklist.txt'
 tokens = []
-blacklists = []
+blacklist = []
 
 def download_cve_xml(filename):
     base_url = "https://cve.mitre.org/data/downloads/"
