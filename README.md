@@ -75,6 +75,7 @@ optional arguments:
 - 20200414: 做了一些简单数据统计，见[Statistics](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Statistics/README.md)
 - 20200416: 增加-w参数
 - 20200417: 新增每日更新脚本today.py，更新内容见[Today](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Today.md)，可以在上面修改，例如将`get_today_update`的返回结果通过server酱，wxpusher等发送给自己
+- 20200420: 发现一些非PoC的repo, 通过增加黑名单去除，同时更新异步脚本v2
 
 ## Reference
 - https://github.com/nomi-sec/PoC-in-GitHub

@@ -9,9 +9,12 @@ from tqdm import tqdm
 import asyncio
 import requests
 from aiohttp_requests import requests as aio_requests
+
 DOWNLOAD_DIR = 'download'
 TOKEN_FILE = 'TOKENS'
+BLACKLIST_FILE = 'blacklist.txt'
 tokens = []
+blacklists = []
 
 def download_cve_xml(filename):
     base_url = "https://cve.mitre.org/data/downloads/"
@@ -116,6 +119,8 @@ async def get_PocOrExp_in_github(CVE_ID,Other_ID = None,token=None):
     PocOrExps = []
     for item in items:
         URL = item['html_url']
+        if(URL in blacklist):
+            continue
         STARS_NUM = item['stargazers_count']
         FORKS_NUM = item['forks_count']
         DESCRIPTION = item['description']
@@ -241,7 +246,12 @@ def init():
     print(tokens)
     if(len(tokens)==0):
         print("please checkout your token files")
-    
+    global blacklist
+    for line in content:
+        line = line.strip()
+        if(line!=""):
+            blacklist.append(line)
+
 def update_year(year):
     filenames = os.listdir('%d'%year)
     filenames = [filename for filename in filenames if filename.startswith('CVE')]

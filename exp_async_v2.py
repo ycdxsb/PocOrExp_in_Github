@@ -1,13 +1,14 @@
 import json
 import os
 import shutil
-import requests
 import argparse
 import datetime
 import time
 from random import sample
 from tqdm import tqdm
-
+import asyncio
+import requests
+from aiohttp_requests import requests as aio_requests
 DOWNLOAD_DIR = 'download'
 TOKEN_FILE = 'TOKENS'
 BLACKLIST_FILE = 'blacklist.txt'
@@ -17,6 +18,7 @@ blacklists = []
 def download_cve_xml(filename):
     base_url = "https://cve.mitre.org/data/downloads/"
     url = base_url + filename
+    print(url)
     xml_content = requests.get(url, stream=True)
     with open(os.path.join(DOWNLOAD_DIR, filename), 'wb') as f:
         for chunk in xml_content:
@@ -38,7 +40,7 @@ def parse_cve_xml(filename):
         if line.startswith(b"<CVE>"):
             cve_ids.append(line[5:-6].decode(encoding='utf-8'))
         if line.startswith(b'<Note Ordinal="1" Type="Description">'):
-            cve_descriptions.append(line[37:-7].decode('utf-8',"ignore"))
+            cve_descriptions.append(line[37:-7].decode('utf-8','ignore'))
     cve_infos = []
     if(len(cve_ids)!=len(cve_descriptions)):
         print("error")
@@ -94,25 +96,26 @@ def generate_markdown():
         tmp = tmp.replace(">","")
         f.write(tmp)
 
-def get_PocOrExp_in_github(CVE_ID,Other_ID = None):
+async def get_PocOrExp_in_github(CVE_ID,Other_ID = None,token=None):
     if(Other_ID == None):
         api = 'https://api.github.com/search/repositories?q="%s"&sort=stars' % CVE_ID
     else:
         api = 'https://api.github.com/search/repositories?q="%s" NOT "%s"&sort=stars' % (CVE_ID,Other_ID)
     
-    windows = 0
+    windows = 0.3
     while(True):
         time.sleep(windows)
-        TOKEN = sample(tokens,1)[0]
-        headers = {"Authorization": "token "+TOKEN}
-        req = requests.get(api, headers=headers).text
+        headers = {"Authorization": "token "+token}
+        req = await aio_requests.get(api,headers = headers)
+        req = await req.text()
         req = json.loads(req)
-        print(CVE_ID,Other_ID,TOKEN)
+        print(CVE_ID,Other_ID,token)
         if('items' in req):
             items = req['items']
             break
         else:
-            windows = windows + 0.1
+            token = sample(tokens,1)[0]
+            windows += 0.1
     PocOrExps = []
     for item in items:
         URL = item['html_url']
@@ -130,7 +133,6 @@ def get_PocOrExp_in_github(CVE_ID,Other_ID = None):
             'UPDATE_TIME': UPDATE_TIME
         })
     return PocOrExps
-
 
 def parse_arg():
     parser = argparse.ArgumentParser(
@@ -155,41 +157,54 @@ def get_all_startswith_CVE_ID(cve_ids,CVE_ID):
             result.append(cve_id)
     return result
 
-def process_cve(cve_infos,cve_ids,init = True):
-    for item in tqdm(cve_infos):
-        CVE_ID = item['CVE_ID']
-        year = item['CVE_ID'].split("-")[1]
-        dump_file = os.path.join(year, CVE_ID + '.json')
-        PocOrExps = []
-        if(not is_prefix(cve_ids,CVE_ID)):
-            PocOrExps = get_PocOrExp_in_github(CVE_ID)
-        else:
-            PocOrExps = get_PocOrExp_in_github(CVE_ID)
-            if(len(PocOrExps)!=0):
-                other_ids = get_all_startswith_CVE_ID(cve_ids,CVE_ID)
-                PocOrExps = get_PocOrExp_in_github(CVE_ID)
-                for other_id in other_ids:
-                    tmp = get_PocOrExp_in_github(CVE_ID,other_id)
-                    urls_CVE_ID = []
-                    urls_Other_ID = []
-                    for PocOrExp in PocOrExps:
-                        urls_CVE_ID.append(PocOrExp['URL'])
-                    for PocOrExp in tmp:
-                        urls_Other_ID.append(PocOrExp['URL'])
-                    urls_CVE_ID = list(set(urls_CVE_ID) & set(urls_Other_ID))
-                    tmp = PocOrExps
-                    PocOrExps = []
-                    for PocOrExp in tmp:
-                        if(PocOrExp['URL'] in urls_CVE_ID):
-                            PocOrExps.append(PocOrExp)
-        cve_info = {}
-        cve_info['CVE_ID'] = item['CVE_ID']
-        cve_info['CVE_DESCRIPTION'] = item['CVE_DESCRIPTION']
-        cve_info['PocOrExp_NUM'] = len(PocOrExps)
-        cve_info['PocOrExp'] = PocOrExps
-        with open(dump_file, 'w') as f:
-            json.dump(cve_info, f)
+async def process_single_cve(cve_ids,item,token):
+    CVE_ID = item['CVE_ID']
+    year = item['CVE_ID'].split("-")[1]
+    dump_file = os.path.join(year, CVE_ID + '.json')
+    PocOrExps = []
+    if(not is_prefix(cve_ids,CVE_ID)):
+        PocOrExps = await get_PocOrExp_in_github(CVE_ID,None,token)
+    else:
+        PocOrExps = await get_PocOrExp_in_github(CVE_ID,None,token)
+        if(len(PocOrExps)!=0):
+            other_ids = get_all_startswith_CVE_ID(cve_ids,CVE_ID)
+            PocOrExps = await get_PocOrExp_in_github(CVE_ID,None,token)
+            for other_id in other_ids:
+                tmp = await get_PocOrExp_in_github(CVE_ID,other_id,token)
+                urls_CVE_ID = []
+                urls_Other_ID = []
+                for PocOrExp in PocOrExps:
+                    urls_CVE_ID.append(PocOrExp['URL'])
+                for PocOrExp in tmp:
+                    urls_Other_ID.append(PocOrExp['URL'])
+                urls_CVE_ID = list(set(urls_CVE_ID) & set(urls_Other_ID))
+                tmp = PocOrExps
+                PocOrExps = []
+                for PocOrExp in tmp:
+                    if(PocOrExp['URL'] in urls_CVE_ID):
+                        PocOrExps.append(PocOrExp)
+    cve_info = {}
+    cve_info['CVE_ID'] = item['CVE_ID']
+    cve_info['CVE_DESCRIPTION'] = item['CVE_DESCRIPTION']
+    cve_info['PocOrExp_NUM'] = len(PocOrExps)
+    cve_info['PocOrExp'] = PocOrExps
+    with open(dump_file, 'w') as f:
+        json.dump(cve_info, f)
 
+
+
+async def process_single_cve_async(cve_ids,cve,token,sema):
+    async with sema:
+        await process_single_cve(cve_ids,cve,token)
+    
+
+def process_cve(cve_infos,cve_ids,init = True):
+    tasks = []
+    sema = asyncio.Semaphore(len(tokens))
+    for i in range(len(cve_infos)):
+        tasks.append(asyncio.ensure_future(process_single_cve_async(cve_ids,cve_infos[i],tokens[i % len(tokens)],sema)))
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(asyncio.wait(tasks)) 
 
 def process_cve_year(year,init = True):
     filename = "allitems-cvrf-year-%d.xml"%year
@@ -228,6 +243,7 @@ def init():
     global tokens
     with open(TOKEN_FILE) as f:
         content = f.readlines()
+    global blacklist
     for line in content:
         line = line.strip()
         if line.startswith("token:"):
@@ -252,18 +268,20 @@ def update_year(year):
         cve_ids.append(cve_info['CVE_ID'])
         if(cve_info['PocOrExp_NUM']!=0):
             cve_infos.append({'CVE_ID':cve_info['CVE_ID'],'CVE_DESCRIPTION':cve_info['CVE_DESCRIPTION']})
-    process_cve(cve_infos,cve_ids,False)
+    process_cve(cve_infos,cve_ids,init)
 
 def watch():
     '''
     对今年以前的有Exp的CVE进行更新
     对今年的CVE全部更新
     '''
-    for year in list(range(1999,datetime.datetime.now().year))[::-1]:
+    for year in list(range(1999,datetime.datetime.now().year+1))[::-1]:
         update_year(year)
         generate_markdown()
     process_cve_year(datetime.datetime.now().year,False)
     generate_markdown()
+
+
 
 def main():
     args = parse_arg()
