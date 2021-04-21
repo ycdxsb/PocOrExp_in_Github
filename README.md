@@ -67,16 +67,14 @@ optional arguments:
 
 
 ## Log
-- 20200411: 修改查询语句，从原来的模糊匹配转为严格匹配
-- 20200412: 修改了github markdown渲染问题，~~可使用exp_markdown_for_github.py~~
 - 20200412: 修复了github搜索时，例如搜索CVE-2020-3618，会搜索到CVE-2020-36184的结果的问题
-- 20200412: 优化前缀搜索问题的处理方案
 - 20200413: 由于NVD官网CVE编号缺失，改用CVE官网数据，发布异步版脚本
 - 20200414: 完成第一轮PocOrExp的爬取，目前使用20个github api token，可以做到12小时内轮询所有CVE并更新
 - 20200414: 做了一些简单数据统计，见[Statistics](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Statistics/README.md)
 - 20200416: 增加-w参数
 - 20200417: 新增每日更新脚本today.py，更新内容见[Today](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Today.md)，可以在上面修改，例如将`get_today_update`的返回结果通过server酱，wxpusher等发送给自己
-- 20200420: 发现一些非PoC的repo, 通过增加黑名单去除，同时更新异步脚本v2
+- 20200420: 发现一些非PoC的repo, 通过增加黑名单去除，同时更新异步脚本v2。
+- 20200421: 发现今日更新的结果里有的repo并不是近期更新的，检查后发现是因为repo从private转为public，所以之前没有爬取到。
 
 ## Reference
 - https://github.com/nomi-sec/PoC-in-GitHub
