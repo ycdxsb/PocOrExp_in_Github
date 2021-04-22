@@ -374,7 +374,7 @@
 
 
 
-- [https://github.com/fierobot/elasticsearch_CVE-2015-5377](https://github.com/fierobot/elasticsearch_CVE-2015-5377) :  ![starts](https://img.shields.io/github/stars/fierobot/elasticsearch_CVE-2015-5377.svg) ![forks](https://img.shields.io/github/forks/fierobot/elasticsearch_CVE-2015-5377.svg)
+- [https://github.com/fi3ro/elasticsearch_CVE-2015-5377](https://github.com/fi3ro/elasticsearch_CVE-2015-5377) :  ![starts](https://img.shields.io/github/stars/fi3ro/elasticsearch_CVE-2015-5377.svg) ![forks](https://img.shields.io/github/forks/fi3ro/elasticsearch_CVE-2015-5377.svg)
 
 ## CVE-2015-5374
  A vulnerability has been identified in Firmware variant PROFINET IO for EN100 Ethernet module : All versions &lt; V1.04.01; Firmware variant Modbus TCP for EN100 Ethernet module : All versions &lt; V1.11.00; Firmware variant DNP3 TCP for EN100 Ethernet module : All versions &lt; V1.03; Firmware variant IEC 104 for EN100 Ethernet module : All versions &lt; V1.21; EN100 Ethernet module included in SIPROTEC Merging Unit 6MU80 : All versions &lt; 1.02.02. Specially crafted packets sent to port 50000/UDP could cause a denial-of-service of the affected device. A manual reboot may be required to recover the service of the device.
