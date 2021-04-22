@@ -1,30 +1,55 @@
-# Update 2021-04-21
-## CVE-2021-3493
- The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges.
+# Update 2021-04-22
+## CVE-2021-28483
+ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-28480, CVE-2021-28481, CVE-2021-28482.
 
-- [https://github.com/briskets/CVE-2021-3493](https://github.com/briskets/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/briskets/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/briskets/CVE-2021-3493.svg)
-
-
-## CVE-2020-14364
- An out-of-bounds read/write access flaw was found in the USB emulator of the QEMU in versions before 5.2.0. This issue occurs while processing USB packets from a guest when USBDevice 'setup_len' exceeds its 'data_buf[4096]' in the do_token_in, do_token_out routines. This flaw allows a guest user to crash the QEMU process, resulting in a denial of service, or the potential execution of arbitrary code with the privileges of the QEMU process on the host.
-
-- [https://github.com/gejian-iscas/CVE-2020-14364](https://github.com/gejian-iscas/CVE-2020-14364) :  ![starts](https://img.shields.io/github/stars/gejian-iscas/CVE-2020-14364.svg) ![forks](https://img.shields.io/github/forks/gejian-iscas/CVE-2020-14364.svg)
+- [https://github.com/ZephrFish/ExchangeRCE-CVE-2021-28480](https://github.com/ZephrFish/ExchangeRCE-CVE-2021-28480) :  ![starts](https://img.shields.io/github/stars/ZephrFish/ExchangeRCE-CVE-2021-28480.svg) ![forks](https://img.shields.io/github/forks/ZephrFish/ExchangeRCE-CVE-2021-28480.svg)
 
 
-## CVE-2018-11235
- In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 2.16.4, and 2.17.x before 2.17.1, remote code execution can occur. With a crafted .gitmodules file, a malicious project can execute an arbitrary script on a machine that runs &quot;git clone --recurse-submodules&quot; because submodule &quot;names&quot; are obtained from this file, and then appended to $GIT_DIR/modules, leading to directory traversal with &quot;../&quot; in a name. Finally, post-checkout hooks from a submodule are executed, bypassing the intended design in which hooks are not obtained from a remote server.
+## CVE-2021-28482
+ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-28480, CVE-2021-28481, CVE-2021-28483.
 
-- [https://github.com/Yealid/CVE-2018-11235-Git-Submodule-RCE](https://github.com/Yealid/CVE-2018-11235-Git-Submodule-RCE) :  ![starts](https://img.shields.io/github/stars/Yealid/CVE-2018-11235-Git-Submodule-RCE.svg) ![forks](https://img.shields.io/github/forks/Yealid/CVE-2018-11235-Git-Submodule-RCE.svg)
-
-
-## CVE-2018-9206
- Unauthenticated arbitrary file upload vulnerability in Blueimp jQuery-File-Upload &lt;= v9.22.0
-
-- [https://github.com/mi-hood/CVE-2018-9206](https://github.com/mi-hood/CVE-2018-9206) :  ![starts](https://img.shields.io/github/stars/mi-hood/CVE-2018-9206.svg) ![forks](https://img.shields.io/github/forks/mi-hood/CVE-2018-9206.svg)
+- [https://github.com/ZephrFish/ExchangeRCE-CVE-2021-28480](https://github.com/ZephrFish/ExchangeRCE-CVE-2021-28480) :  ![starts](https://img.shields.io/github/stars/ZephrFish/ExchangeRCE-CVE-2021-28480.svg) ![forks](https://img.shields.io/github/forks/ZephrFish/ExchangeRCE-CVE-2021-28480.svg)
 
 
-## CVE-2018-6574
- Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10rc2 allow &quot;go get&quot; remote command execution during source code build, by leveraging the gcc or clang plugin feature, because -fplugin= and -plugin= arguments were not blocked.
+## CVE-2021-28481
+ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-28480, CVE-2021-28482, CVE-2021-28483.
 
-- [https://github.com/MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-) :  ![starts](https://img.shields.io/github/stars/MohamedTarekq/test-CVE-2018-6574-.svg) ![forks](https://img.shields.io/github/forks/MohamedTarekq/test-CVE-2018-6574-.svg)
+- [https://github.com/ZephrFish/ExchangeRCE-CVE-2021-28480](https://github.com/ZephrFish/ExchangeRCE-CVE-2021-28480) :  ![starts](https://img.shields.io/github/stars/ZephrFish/ExchangeRCE-CVE-2021-28480.svg) ![forks](https://img.shields.io/github/forks/ZephrFish/ExchangeRCE-CVE-2021-28480.svg)
+
+
+## CVE-2021-28480
+ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-28481, CVE-2021-28482, CVE-2021-28483.
+
+- [https://github.com/ZephrFish/ExchangeRCE-CVE-2021-28480](https://github.com/ZephrFish/ExchangeRCE-CVE-2021-28480) :  ![starts](https://img.shields.io/github/stars/ZephrFish/ExchangeRCE-CVE-2021-28480.svg) ![forks](https://img.shields.io/github/forks/ZephrFish/ExchangeRCE-CVE-2021-28480.svg)
+
+
+## CVE-2021-27905
+ The ReplicationHandler (normally registered at &quot;/replication&quot; under a Solr core) in Apache Solr has a &quot;masterUrl&quot; (also &quot;leaderUrl&quot; alias) parameter that is used to designate another ReplicationHandler on another Solr core to replicate index data into the local core. To prevent a SSRF vulnerability, Solr ought to check these parameters against a similar configuration it uses for the &quot;shards&quot; parameter. Prior to this bug getting fixed, it did not. This problem affects essentially all Solr versions prior to it getting fixed in 8.8.2.
+
+- [https://github.com/Henry4E36/Solr-SSRF](https://github.com/Henry4E36/Solr-SSRF) :  ![starts](https://img.shields.io/github/stars/Henry4E36/Solr-SSRF.svg) ![forks](https://img.shields.io/github/forks/Henry4E36/Solr-SSRF.svg)
+
+
+## CVE-2021-22893
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893) :  ![starts](https://img.shields.io/github/stars/Mad-robot/CVE-2021-22893.svg) ![forks](https://img.shields.io/github/forks/Mad-robot/CVE-2021-22893.svg)
+- [https://github.com/ZephrFish/CVE-2021-22893](https://github.com/ZephrFish/CVE-2021-22893) :  ![starts](https://img.shields.io/github/stars/ZephrFish/CVE-2021-22893.svg) ![forks](https://img.shields.io/github/forks/ZephrFish/CVE-2021-22893.svg)
+
+
+## CVE-2019-7489
+ A vulnerability in SonicWall Email Security appliance allow an unauthenticated user to perform remote code execution. This vulnerability affected Email Security Appliance version 10.0.2 and earlier.
+
+- [https://github.com/nromsdahl/CVE-2019-7489](https://github.com/nromsdahl/CVE-2019-7489) :  ![starts](https://img.shields.io/github/stars/nromsdahl/CVE-2019-7489.svg) ![forks](https://img.shields.io/github/forks/nromsdahl/CVE-2019-7489.svg)
+
+
+## CVE-2019-7488
+ Weak default password cause vulnerability in SonicWall Email Security appliance which leads to attacker gain access to appliance database. This vulnerability affected Email Security Appliance version 10.0.2 and earlier.
+
+- [https://github.com/nromsdahl/CVE-2019-7489](https://github.com/nromsdahl/CVE-2019-7489) :  ![starts](https://img.shields.io/github/stars/nromsdahl/CVE-2019-7489.svg) ![forks](https://img.shields.io/github/forks/nromsdahl/CVE-2019-7489.svg)
+
+
+## CVE-2018-14847
+ MikroTik RouterOS through 6.42 allows unauthenticated remote attackers to read arbitrary files and remote authenticated attackers to write arbitrary files due to a directory traversal vulnerability in the WinBox interface.
+
+- [https://github.com/hacker30468/Mikrotik-router-hack](https://github.com/hacker30468/Mikrotik-router-hack) :  ![starts](https://img.shields.io/github/stars/hacker30468/Mikrotik-router-hack.svg) ![forks](https://img.shields.io/github/forks/hacker30468/Mikrotik-router-hack.svg)
 
