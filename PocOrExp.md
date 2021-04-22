@@ -7314,9 +7314,9 @@
 
 - [https://github.com/NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/NHPT/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/NHPT/CVE-2019-16278.svg)
 
-- [https://github.com/keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278) :  ![starts](https://img.shields.io/github/stars/keshiba/cve-2019-16278.svg) ![forks](https://img.shields.io/github/forks/keshiba/cve-2019-16278.svg)
-
 - [https://github.com/darkerego/Nostromo_Python3](https://github.com/darkerego/Nostromo_Python3) :  ![starts](https://img.shields.io/github/stars/darkerego/Nostromo_Python3.svg) ![forks](https://img.shields.io/github/forks/darkerego/Nostromo_Python3.svg)
+
+- [https://github.com/keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278) :  ![starts](https://img.shields.io/github/stars/keshiba/cve-2019-16278.svg) ![forks](https://img.shields.io/github/forks/keshiba/cve-2019-16278.svg)
 
 - [https://github.com/theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE](https://github.com/theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE) :  ![starts](https://img.shields.io/github/stars/theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE.svg) ![forks](https://img.shields.io/github/forks/theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE.svg)
 
@@ -7331,11 +7331,11 @@
 
 - [https://github.com/hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC) :  ![starts](https://img.shields.io/github/stars/hg8/CVE-2019-16113-PoC.svg) ![forks](https://img.shields.io/github/forks/hg8/CVE-2019-16113-PoC.svg)
 
+- [https://github.com/noroh4xy/CVE-2019-16113](https://github.com/noroh4xy/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/noroh4xy/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/noroh4xy/CVE-2019-16113.svg)
+
 - [https://github.com/itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/itsjeffersonli/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/itsjeffersonli/CVE-2019-16113.svg)
 
 - [https://github.com/DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/DXY0411/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/DXY0411/CVE-2019-16113.svg)
-
-- [https://github.com/noroh4xy/CVE-2019-16113](https://github.com/noroh4xy/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/noroh4xy/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/noroh4xy/CVE-2019-16113.svg)
 
 - [https://github.com/Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile) :  ![starts](https://img.shields.io/github/stars/Kenun99/CVE-2019-16113-Dockerfile.svg) ![forks](https://img.shields.io/github/forks/Kenun99/CVE-2019-16113-Dockerfile.svg)
 
@@ -8335,13 +8335,6 @@
 - [https://github.com/MagicZer0/Jackson_RCE-CVE-2019-12384](https://github.com/MagicZer0/Jackson_RCE-CVE-2019-12384) :  ![starts](https://img.shields.io/github/stars/MagicZer0/Jackson_RCE-CVE-2019-12384.svg) ![forks](https://img.shields.io/github/forks/MagicZer0/Jackson_RCE-CVE-2019-12384.svg)
 
 - [https://github.com/Sharker3312/CVE-2019-12384](https://github.com/Sharker3312/CVE-2019-12384) :  ![starts](https://img.shields.io/github/stars/Sharker3312/CVE-2019-12384.svg) ![forks](https://img.shields.io/github/forks/Sharker3312/CVE-2019-12384.svg)
-
-## CVE-2019-12345
- XSS exists in the Kiboko Hostel plugin before 1.1.4 for WordPress.
-
-
-
-- [https://github.com/hu185396/cve-2019-12345](https://github.com/hu185396/cve-2019-12345) :  ![starts](https://img.shields.io/github/stars/hu185396/cve-2019-12345.svg) ![forks](https://img.shields.io/github/forks/hu185396/cve-2019-12345.svg)
 
 ## CVE-2019-12314
  Deltek Maconomy 2.2.5 is prone to local file inclusion via absolute path traversal in the WS.macx1.W_MCS/ PATH_INFO, as demonstrated by a cgi-bin/Maconomy/MaconomyWS.macx1.W_MCS/etc/passwd URI.
@@ -9862,11 +9855,11 @@
 
 - [https://github.com/BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/BBRathnayaka/POC-CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/BBRathnayaka/POC-CVE-2019-5736.svg)
 
-- [https://github.com/likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2019-5736.svg)
-
 - [https://github.com/zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC) :  ![starts](https://img.shields.io/github/stars/zyriuse75/CVE-2019-5736-PoC.svg) ![forks](https://img.shields.io/github/forks/zyriuse75/CVE-2019-5736-PoC.svg)
 
 - [https://github.com/Lee-SungYoung/cve-2019-5736-study](https://github.com/Lee-SungYoung/cve-2019-5736-study) :  ![starts](https://img.shields.io/github/stars/Lee-SungYoung/cve-2019-5736-study.svg) ![forks](https://img.shields.io/github/forks/Lee-SungYoung/cve-2019-5736-study.svg)
+
+- [https://github.com/likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2019-5736.svg)
 
 - [https://github.com/likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc) :  ![starts](https://img.shields.io/github/stars/likescam/cve-2019-5736-poc.svg) ![forks](https://img.shields.io/github/forks/likescam/cve-2019-5736-poc.svg)
 
@@ -10391,9 +10384,9 @@
 
 - [https://github.com/sharif-dev/AndroidKernelVulnerability](https://github.com/sharif-dev/AndroidKernelVulnerability) :  ![starts](https://img.shields.io/github/stars/sharif-dev/AndroidKernelVulnerability.svg) ![forks](https://img.shields.io/github/forks/sharif-dev/AndroidKernelVulnerability.svg)
 
-- [https://github.com/Byte-Master-101/CVE-2019-2215](https://github.com/Byte-Master-101/CVE-2019-2215) :  ![starts](https://img.shields.io/github/stars/Byte-Master-101/CVE-2019-2215.svg) ![forks](https://img.shields.io/github/forks/Byte-Master-101/CVE-2019-2215.svg)
-
 - [https://github.com/c3r34lk1ll3r/CVE-2019-2215](https://github.com/c3r34lk1ll3r/CVE-2019-2215) :  ![starts](https://img.shields.io/github/stars/c3r34lk1ll3r/CVE-2019-2215.svg) ![forks](https://img.shields.io/github/forks/c3r34lk1ll3r/CVE-2019-2215.svg)
+
+- [https://github.com/Byte-Master-101/CVE-2019-2215](https://github.com/Byte-Master-101/CVE-2019-2215) :  ![starts](https://img.shields.io/github/stars/Byte-Master-101/CVE-2019-2215.svg) ![forks](https://img.shields.io/github/forks/Byte-Master-101/CVE-2019-2215.svg)
 
 - [https://github.com/raystyle/CVE-2019-2215](https://github.com/raystyle/CVE-2019-2215) :  ![starts](https://img.shields.io/github/stars/raystyle/CVE-2019-2215.svg) ![forks](https://img.shields.io/github/forks/raystyle/CVE-2019-2215.svg)
 
