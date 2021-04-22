@@ -1282,6 +1282,8 @@
 
 - [https://github.com/dn9uy3n/Check-WP-CVE-2020-35489](https://github.com/dn9uy3n/Check-WP-CVE-2020-35489) :  ![starts](https://img.shields.io/github/stars/dn9uy3n/Check-WP-CVE-2020-35489.svg) ![forks](https://img.shields.io/github/forks/dn9uy3n/Check-WP-CVE-2020-35489.svg)
 
+- [https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489) :  ![starts](https://img.shields.io/github/stars/X0UCYB3R/Check-WP-CVE-2020-35489.svg) ![forks](https://img.shields.io/github/forks/X0UCYB3R/Check-WP-CVE-2020-35489.svg)
+
 ## CVE-2020-35488
  The fileop module of the NXLog service in NXLog Community Edition 2.10.2150 allows remote attackers to cause a denial of service (daemon crash) via a crafted Syslog payload to the Syslog service. This attack requires a specific configuration. Also, the name of the directory created must use a Syslog field. (For example, on Linux it is not possible to create a .. directory. On Windows, it is not possible to create a CON directory.)
 
@@ -1947,9 +1949,9 @@
 
 - [https://github.com/aron-tn/0day-elFinder-2020](https://github.com/aron-tn/0day-elFinder-2020) :  ![starts](https://img.shields.io/github/stars/aron-tn/0day-elFinder-2020.svg) ![forks](https://img.shields.io/github/forks/aron-tn/0day-elFinder-2020.svg)
 
-- [https://github.com/forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress) :  ![starts](https://img.shields.io/github/stars/forse01/CVE-2020-25213-Wordpress.svg) ![forks](https://img.shields.io/github/forks/forse01/CVE-2020-25213-Wordpress.svg)
-
 - [https://github.com/k0rup710n/Wordpress-CVE-2020-25213](https://github.com/k0rup710n/Wordpress-CVE-2020-25213) :  ![starts](https://img.shields.io/github/stars/k0rup710n/Wordpress-CVE-2020-25213.svg) ![forks](https://img.shields.io/github/forks/k0rup710n/Wordpress-CVE-2020-25213.svg)
+
+- [https://github.com/forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress) :  ![starts](https://img.shields.io/github/stars/forse01/CVE-2020-25213-Wordpress.svg) ![forks](https://img.shields.io/github/forks/forse01/CVE-2020-25213-Wordpress.svg)
 
 - [https://github.com/piruprohacking/CVE-2020-25213](https://github.com/piruprohacking/CVE-2020-25213) :  ![starts](https://img.shields.io/github/stars/piruprohacking/CVE-2020-25213.svg) ![forks](https://img.shields.io/github/forks/piruprohacking/CVE-2020-25213.svg)
 
@@ -2523,6 +2525,13 @@
 
 - [https://github.com/limerencee/cs4239-cve-2020-15873](https://github.com/limerencee/cs4239-cve-2020-15873) :  ![starts](https://img.shields.io/github/stars/limerencee/cs4239-cve-2020-15873.svg) ![forks](https://img.shields.io/github/forks/limerencee/cs4239-cve-2020-15873.svg)
 
+## CVE-2020-15808
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/manucuf/CVE202015808](https://github.com/manucuf/CVE202015808) :  ![starts](https://img.shields.io/github/stars/manucuf/CVE202015808.svg) ![forks](https://img.shields.io/github/forks/manucuf/CVE202015808.svg)
+
 ## CVE-2020-15778
  ** DISPUTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;
 
@@ -2538,7 +2547,7 @@
 - [https://github.com/patois/zohocorp_dc](https://github.com/patois/zohocorp_dc) :  ![starts](https://img.shields.io/github/stars/patois/zohocorp_dc.svg) ![forks](https://img.shields.io/github/forks/patois/zohocorp_dc.svg)
 
 ## CVE-2020-15588
- An issue was discovered in the client side of Zoho ManageEngine Desktop Central 10.0.552.W. An attacker-controlled server can trigger an integer overflow in InternetSendRequestEx and InternetSendRequestByBitrate that leads to a heap-based buffer overflow and Remote Code Execution with SYSTEM privileges.
+ An issue was discovered in the client side of Zoho ManageEngine Desktop Central 10.0.552.W. An attacker-controlled server can trigger an integer overflow in InternetSendRequestEx and InternetSendRequestByBitrate that leads to a heap-based buffer overflow and Remote Code Execution with SYSTEM privileges. This issue will occur only when untrusted communication is initiated with server. In cloud, Agent will always connect with trusted communication.
 
 
 
@@ -4127,9 +4136,9 @@
 
 
 
-- [https://github.com/SnipJoe/CVE-2020-8888](https://github.com/SnipJoe/CVE-2020-8888) :  ![starts](https://img.shields.io/github/stars/SnipJoe/CVE-2020-8888.svg) ![forks](https://img.shields.io/github/forks/SnipJoe/CVE-2020-8888.svg)
-
 - [https://github.com/tdcoming/CVE-2020-88888](https://github.com/tdcoming/CVE-2020-88888) :  ![starts](https://img.shields.io/github/stars/tdcoming/CVE-2020-88888.svg) ![forks](https://img.shields.io/github/forks/tdcoming/CVE-2020-88888.svg)
+
+- [https://github.com/SnipJoe/CVE-2020-8888](https://github.com/SnipJoe/CVE-2020-8888) :  ![starts](https://img.shields.io/github/stars/SnipJoe/CVE-2020-8888.svg) ![forks](https://img.shields.io/github/forks/SnipJoe/CVE-2020-8888.svg)
 
 ## CVE-2020-8840
  FasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JNDI blocking, as demonstrated by org.apache.xbean.propertyeditor.JndiConverter.
@@ -4755,9 +4764,9 @@
 
 - [https://github.com/r0lh/CVE-2020-7247](https://github.com/r0lh/CVE-2020-7247) :  ![starts](https://img.shields.io/github/stars/r0lh/CVE-2020-7247.svg) ![forks](https://img.shields.io/github/forks/r0lh/CVE-2020-7247.svg)
 
-- [https://github.com/jopraveen/CVE-2020-7247](https://github.com/jopraveen/CVE-2020-7247) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2020-7247.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2020-7247.svg)
-
 - [https://github.com/superzerosec/cve-2020-7247](https://github.com/superzerosec/cve-2020-7247) :  ![starts](https://img.shields.io/github/stars/superzerosec/cve-2020-7247.svg) ![forks](https://img.shields.io/github/forks/superzerosec/cve-2020-7247.svg)
+
+- [https://github.com/jopraveen/CVE-2020-7247](https://github.com/jopraveen/CVE-2020-7247) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2020-7247.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2020-7247.svg)
 
 - [https://github.com/QTranspose/CVE-2020-7247-exploit](https://github.com/QTranspose/CVE-2020-7247-exploit) :  ![starts](https://img.shields.io/github/stars/QTranspose/CVE-2020-7247-exploit.svg) ![forks](https://img.shields.io/github/forks/QTranspose/CVE-2020-7247-exploit.svg)
 
@@ -5772,13 +5781,6 @@
 
 - [https://github.com/RedyOpsResearchLabs/CVE-2020-1283_Windows-Denial-of-Service-Vulnerability](https://github.com/RedyOpsResearchLabs/CVE-2020-1283_Windows-Denial-of-Service-Vulnerability) :  ![starts](https://img.shields.io/github/stars/RedyOpsResearchLabs/CVE-2020-1283_Windows-Denial-of-Service-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/RedyOpsResearchLabs/CVE-2020-1283_Windows-Denial-of-Service-Vulnerability.svg)
 
-## CVE-2020-1234
- An elevation of privilege vulnerability exists when Windows Error Reporting improperly handles objects in memory.To exploit this vulnerability, an attacker would first have to gain execution on the victim system, aka 'Windows Error Reporting Elevation of Privilege Vulnerability'.
-
-
-
-- [https://github.com/asc0t6e/Cve-20201-1234](https://github.com/asc0t6e/Cve-20201-1234) :  ![starts](https://img.shields.io/github/stars/asc0t6e/Cve-20201-1234.svg) ![forks](https://img.shields.io/github/forks/asc0t6e/Cve-20201-1234.svg)
-
 ## CVE-2020-1206
  An information disclosure vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Information Disclosure Vulnerability'.
 
@@ -6190,11 +6192,11 @@
 
 - [https://github.com/thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl) :  ![starts](https://img.shields.io/github/stars/thimelp/cve-2020-0601-Perl.svg) ![forks](https://img.shields.io/github/forks/thimelp/cve-2020-0601-Perl.svg)
 
+- [https://github.com/JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/JPurrier/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/JPurrier/CVE-2020-0601.svg)
+
 - [https://github.com/apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/apmunch/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/apmunch/CVE-2020-0601.svg)
 
 - [https://github.com/MarkusZehnle/CVE-2020-0601](https://github.com/MarkusZehnle/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/MarkusZehnle/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/MarkusZehnle/CVE-2020-0601.svg)
-
-- [https://github.com/JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/JPurrier/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/JPurrier/CVE-2020-0601.svg)
 
 - [https://github.com/Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/Ash112121/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/Ash112121/CVE-2020-0601.svg)
 
