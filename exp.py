@@ -96,9 +96,9 @@ def generate_markdown():
 
 def get_PocOrExp_in_github(CVE_ID,Other_ID = None):
     if(Other_ID == None):
-        api = 'https://api.github.com/search/repositories?q="%s"&sort=stars' % CVE_ID
+        api = 'https://api.github.com/search/repositories?q="%s"&sort=stars&per_page=100' % CVE_ID
     else:
-        api = 'https://api.github.com/search/repositories?q="%s" NOT "%s"&sort=stars' % (CVE_ID,Other_ID)
+        api = 'https://api.github.com/search/repositories?q="%s" NOT "%s"&sort=stars&per_page=100' % (CVE_ID,Other_ID)
     
     windows = 0
     while(True):

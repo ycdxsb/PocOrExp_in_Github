@@ -97,9 +97,9 @@ optional arguments:
 - 20200416: 增加-w参数
 - 20200417: 新增每日更新脚本today.py，更新内容见[Today](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Today.md)，可以在上面修改，例如将`get_today_update`的返回结果通过server酱，wxpusher等发送给自己
 - 20200420: 发现一些非PoC的repo, 通过增加黑名单去除，同时更新异步脚本v2。
-- 20200421: 发现今日更新的结果里有的repo并不是近期更新的，原因如下：
+- 20200423: 发现今日更新的结果里有的repo并不是近期更新的，原因如下：
   - 1. repo从private转public
-  - 2. 通过api查询时，脚本策略为取star数目前30的结果，因此当同一CVE的其他repo数目增加时，会进入前30列表中，表现为今日新增
+  - 2. 通过api查询时，脚本策略为取star数目前30的结果，因此当同一CVE的其他repo数目增加时，会进入前30列表中，表现为今日新增。考虑到exp数目超过100的超级大洞不多，因此不使用分页爬取所有，修改为每次取star数目前100的结果。
 
 ## Reference
 - https://github.com/nomi-sec/PoC-in-GitHub
