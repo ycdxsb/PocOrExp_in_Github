@@ -284,9 +284,9 @@
 
 - [https://github.com/joydragon/Detect-CVE-2018-20250](https://github.com/joydragon/Detect-CVE-2018-20250) :  ![starts](https://img.shields.io/github/stars/joydragon/Detect-CVE-2018-20250.svg) ![forks](https://img.shields.io/github/forks/joydragon/Detect-CVE-2018-20250.svg)
 
-- [https://github.com/likescam/CVE-2018-20250](https://github.com/likescam/CVE-2018-20250) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2018-20250.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2018-20250.svg)
-
 - [https://github.com/lxg5763/cve-2018-20250](https://github.com/lxg5763/cve-2018-20250) :  ![starts](https://img.shields.io/github/stars/lxg5763/cve-2018-20250.svg) ![forks](https://img.shields.io/github/forks/lxg5763/cve-2018-20250.svg)
+
+- [https://github.com/likescam/CVE-2018-20250](https://github.com/likescam/CVE-2018-20250) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2018-20250.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2018-20250.svg)
 
 - [https://github.com/AeolusTF/CVE-2018-20250](https://github.com/AeolusTF/CVE-2018-20250) :  ![starts](https://img.shields.io/github/stars/AeolusTF/CVE-2018-20250.svg) ![forks](https://img.shields.io/github/forks/AeolusTF/CVE-2018-20250.svg)
 
@@ -1077,9 +1077,9 @@
 
 - [https://github.com/JoeBlackSecurity/SSHUsernameBruter-SSHUB](https://github.com/JoeBlackSecurity/SSHUsernameBruter-SSHUB) :  ![starts](https://img.shields.io/github/stars/JoeBlackSecurity/SSHUsernameBruter-SSHUB.svg) ![forks](https://img.shields.io/github/forks/JoeBlackSecurity/SSHUsernameBruter-SSHUB.svg)
 
-- [https://github.com/LINYIKAI/CVE-2018-15473-exp](https://github.com/LINYIKAI/CVE-2018-15473-exp) :  ![starts](https://img.shields.io/github/stars/LINYIKAI/CVE-2018-15473-exp.svg) ![forks](https://img.shields.io/github/forks/LINYIKAI/CVE-2018-15473-exp.svg)
-
 - [https://github.com/Sait-Nuri/CVE-2018-15473](https://github.com/Sait-Nuri/CVE-2018-15473) :  ![starts](https://img.shields.io/github/stars/Sait-Nuri/CVE-2018-15473.svg) ![forks](https://img.shields.io/github/forks/Sait-Nuri/CVE-2018-15473.svg)
+
+- [https://github.com/LINYIKAI/CVE-2018-15473-exp](https://github.com/LINYIKAI/CVE-2018-15473-exp) :  ![starts](https://img.shields.io/github/stars/LINYIKAI/CVE-2018-15473-exp.svg) ![forks](https://img.shields.io/github/forks/LINYIKAI/CVE-2018-15473-exp.svg)
 
 - [https://github.com/pyperanger/CVE-2018-15473_exploit](https://github.com/pyperanger/CVE-2018-15473_exploit) :  ![starts](https://img.shields.io/github/stars/pyperanger/CVE-2018-15473_exploit.svg) ![forks](https://img.shields.io/github/forks/pyperanger/CVE-2018-15473_exploit.svg)
 
@@ -2051,13 +2051,6 @@
 
 - [https://github.com/mi-hood/CVE-2018-9206](https://github.com/mi-hood/CVE-2018-9206) :  ![starts](https://img.shields.io/github/stars/mi-hood/CVE-2018-9206.svg) ![forks](https://img.shields.io/github/forks/mi-hood/CVE-2018-9206.svg)
 
-## CVE-2018-9160
- SickRage before v2018.03.09-1 includes cleartext credentials in HTTP responses.
-
-
-
-- [https://github.com/mechanico/sickrageWTF](https://github.com/mechanico/sickrageWTF) :  ![starts](https://img.shields.io/github/stars/mechanico/sickrageWTF.svg) ![forks](https://img.shields.io/github/forks/mechanico/sickrageWTF.svg)
-
 ## CVE-2018-9075
  For some Iomega, Lenovo, LenovoEMC NAS devices versions 4.1.402.34662 and earlier, when joining a PersonalCloud setup, an attacker can craft a command injection payload using backtick &quot;``&quot; characters in the client:password parameter. As a result, arbitrary commands may be executed as the root user. The attack requires a value __c and iomega parameter.
 
@@ -2728,9 +2721,9 @@
 
 - [https://github.com/veter069/go-get-rce](https://github.com/veter069/go-get-rce) :  ![starts](https://img.shields.io/github/stars/veter069/go-get-rce.svg) ![forks](https://img.shields.io/github/forks/veter069/go-get-rce.svg)
 
-- [https://github.com/zur250/Zur-Go-GET-RCE-Solution](https://github.com/zur250/Zur-Go-GET-RCE-Solution) :  ![starts](https://img.shields.io/github/stars/zur250/Zur-Go-GET-RCE-Solution.svg) ![forks](https://img.shields.io/github/forks/zur250/Zur-Go-GET-RCE-Solution.svg)
-
 - [https://github.com/d4rkshell/go-get-rce](https://github.com/d4rkshell/go-get-rce) :  ![starts](https://img.shields.io/github/stars/d4rkshell/go-get-rce.svg) ![forks](https://img.shields.io/github/forks/d4rkshell/go-get-rce.svg)
+
+- [https://github.com/zur250/Zur-Go-GET-RCE-Solution](https://github.com/zur250/Zur-Go-GET-RCE-Solution) :  ![starts](https://img.shields.io/github/stars/zur250/Zur-Go-GET-RCE-Solution.svg) ![forks](https://img.shields.io/github/forks/zur250/Zur-Go-GET-RCE-Solution.svg)
 
 - [https://github.com/willbo4r/go-get-rce](https://github.com/willbo4r/go-get-rce) :  ![starts](https://img.shields.io/github/stars/willbo4r/go-get-rce.svg) ![forks](https://img.shields.io/github/forks/willbo4r/go-get-rce.svg)
 
@@ -2804,6 +2797,8 @@
 
 - [https://github.com/mhamed366/CVE-2018-6574](https://github.com/mhamed366/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/mhamed366/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/mhamed366/CVE-2018-6574.svg)
 
+- [https://github.com/No1zy/CVE-2018-6574-PoC](https://github.com/No1zy/CVE-2018-6574-PoC) :  ![starts](https://img.shields.io/github/stars/No1zy/CVE-2018-6574-PoC.svg) ![forks](https://img.shields.io/github/forks/No1zy/CVE-2018-6574-PoC.svg)
+
 - [https://github.com/nthuong95/CVE-2018-6574](https://github.com/nthuong95/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/nthuong95/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/nthuong95/CVE-2018-6574.svg)
 
 - [https://github.com/coblax/CVE-2018-6574](https://github.com/coblax/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/coblax/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/coblax/CVE-2018-6574.svg)
@@ -2811,8 +2806,6 @@
 - [https://github.com/lsnakazone/cve-2018-6574](https://github.com/lsnakazone/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/lsnakazone/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/lsnakazone/cve-2018-6574.svg)
 
 - [https://github.com/PLP-Orange/cve-2018-6574-exercise](https://github.com/PLP-Orange/cve-2018-6574-exercise) :  ![starts](https://img.shields.io/github/stars/PLP-Orange/cve-2018-6574-exercise.svg) ![forks](https://img.shields.io/github/forks/PLP-Orange/cve-2018-6574-exercise.svg)
-
-- [https://github.com/No1zy/CVE-2018-6574-PoC](https://github.com/No1zy/CVE-2018-6574-PoC) :  ![starts](https://img.shields.io/github/stars/No1zy/CVE-2018-6574-PoC.svg) ![forks](https://img.shields.io/github/forks/No1zy/CVE-2018-6574-PoC.svg)
 
 - [https://github.com/yitingfan/CVE-2018-6574_demo](https://github.com/yitingfan/CVE-2018-6574_demo) :  ![starts](https://img.shields.io/github/stars/yitingfan/CVE-2018-6574_demo.svg) ![forks](https://img.shields.io/github/forks/yitingfan/CVE-2018-6574_demo.svg)
 
@@ -2974,6 +2967,13 @@
 
 
 - [https://github.com/ossf-cve-benchmark/CVE-2018-6184](https://github.com/ossf-cve-benchmark/CVE-2018-6184) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2018-6184.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2018-6184.svg)
+
+## CVE-2018-6065
+ Integer overflow in computing the required allocation size when instantiating a new javascript object in V8 in Google Chrome prior to 65.0.3325.146 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+
+
+
+- [https://github.com/b1tg/wechat-0day-CVE-2018-6065-exploit](https://github.com/b1tg/wechat-0day-CVE-2018-6065-exploit) :  ![starts](https://img.shields.io/github/stars/b1tg/wechat-0day-CVE-2018-6065-exploit.svg) ![forks](https://img.shields.io/github/forks/b1tg/wechat-0day-CVE-2018-6065-exploit.svg)
 
 ## CVE-2018-5955
  An issue was discovered in GitStack through 2.3.10. User controlled input is not sufficiently filtered, allowing an unauthenticated attacker to add a user to the server via the username and password fields to the rest/user/ URI.
@@ -3140,9 +3140,9 @@
 
 - [https://github.com/lucagiovagnoli/CVE-2018-4407](https://github.com/lucagiovagnoli/CVE-2018-4407) :  ![starts](https://img.shields.io/github/stars/lucagiovagnoli/CVE-2018-4407.svg) ![forks](https://img.shields.io/github/forks/lucagiovagnoli/CVE-2018-4407.svg)
 
-- [https://github.com/5431/CVE-2018-4407](https://github.com/5431/CVE-2018-4407) :  ![starts](https://img.shields.io/github/stars/5431/CVE-2018-4407.svg) ![forks](https://img.shields.io/github/forks/5431/CVE-2018-4407.svg)
-
 - [https://github.com/Fans0n-Fan/CVE-2018-4407](https://github.com/Fans0n-Fan/CVE-2018-4407) :  ![starts](https://img.shields.io/github/stars/Fans0n-Fan/CVE-2018-4407.svg) ![forks](https://img.shields.io/github/forks/Fans0n-Fan/CVE-2018-4407.svg)
+
+- [https://github.com/5431/CVE-2018-4407](https://github.com/5431/CVE-2018-4407) :  ![starts](https://img.shields.io/github/stars/5431/CVE-2018-4407.svg) ![forks](https://img.shields.io/github/forks/5431/CVE-2018-4407.svg)
 
 - [https://github.com/s2339956/check_icmp_dos-CVE-2018-4407-](https://github.com/s2339956/check_icmp_dos-CVE-2018-4407-) :  ![starts](https://img.shields.io/github/stars/s2339956/check_icmp_dos-CVE-2018-4407-.svg) ![forks](https://img.shields.io/github/forks/s2339956/check_icmp_dos-CVE-2018-4407-.svg)
 
