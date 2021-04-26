@@ -6,3 +6,4 @@ https://github.com/hook-s3c/CVE-2019-0708-poc
 https://github.com/Jaky5155/CVE-2019-0785
 https://github.com/attackgithub/CVE-2019-1064
 https://github.com/Eternit7/CVE-2019-1458
+https://github.com/freeide/CVE-2019-0708-PoC-Exploit
