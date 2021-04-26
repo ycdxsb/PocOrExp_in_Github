@@ -1,5 +1,5 @@
 ## CVE-2021-31762
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to create a privileged user through Webmin's add users feature, and then get a reverse shell through Webmin's running process feature.
 
 
 
@@ -8,7 +8,7 @@
 - [https://github.com/electronicbots/CVE-2021-31762](https://github.com/electronicbots/CVE-2021-31762) :  ![starts](https://img.shields.io/github/stars/electronicbots/CVE-2021-31762.svg) ![forks](https://img.shields.io/github/forks/electronicbots/CVE-2021-31762.svg)
 
 ## CVE-2021-31761
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Webmin 1.973 is affected by reflected Cross Site Scripting (XSS) to achieve Remote Command Execution through Webmin's running process feature.
 
 
 
@@ -17,7 +17,7 @@
 - [https://github.com/Mesh3l911/CVE-2021-31761](https://github.com/Mesh3l911/CVE-2021-31761) :  ![starts](https://img.shields.io/github/stars/Mesh3l911/CVE-2021-31761.svg) ![forks](https://img.shields.io/github/forks/Mesh3l911/CVE-2021-31761.svg)
 
 ## CVE-2021-31760
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to achieve Remote Command Execution (RCE) through Webmin's running process feature.
 
 
 
@@ -157,6 +157,8 @@
 
 
 - [https://github.com/Henry4E36/Solr-SSRF](https://github.com/Henry4E36/Solr-SSRF) :  ![starts](https://img.shields.io/github/stars/Henry4E36/Solr-SSRF.svg) ![forks](https://img.shields.io/github/forks/Henry4E36/Solr-SSRF.svg)
+
+- [https://github.com/W2Ning/Solr-SSRF](https://github.com/W2Ning/Solr-SSRF) :  ![starts](https://img.shields.io/github/stars/W2Ning/Solr-SSRF.svg) ![forks](https://img.shields.io/github/forks/W2Ning/Solr-SSRF.svg)
 
 ## CVE-2021-27890
  SQL Injection vulnerablity in MyBB before 1.8.26 via theme properties included in theme XML files.
@@ -805,15 +807,15 @@
 
 - [https://github.com/d3sh1n/cve-2021-21972](https://github.com/d3sh1n/cve-2021-21972) :  ![starts](https://img.shields.io/github/stars/d3sh1n/cve-2021-21972.svg) ![forks](https://img.shields.io/github/forks/d3sh1n/cve-2021-21972.svg)
 
-- [https://github.com/JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/JMousqueton/Detect-CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/JMousqueton/Detect-CVE-2021-21972.svg)
-
 - [https://github.com/ByZain/CVE-2021-21972](https://github.com/ByZain/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/ByZain/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/ByZain/CVE-2021-21972.svg)
 
 - [https://github.com/murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2021-21972.svg)
 
-- [https://github.com/pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter) :  ![starts](https://img.shields.io/github/stars/pettyhacks/vSphereyeeter.svg) ![forks](https://img.shields.io/github/forks/pettyhacks/vSphereyeeter.svg)
+- [https://github.com/JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/JMousqueton/Detect-CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/JMousqueton/Detect-CVE-2021-21972.svg)
 
 - [https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg)
+
+- [https://github.com/pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter) :  ![starts](https://img.shields.io/github/stars/pettyhacks/vSphereyeeter.svg) ![forks](https://img.shields.io/github/forks/pettyhacks/vSphereyeeter.svg)
 
 ## CVE-2021-21635
  Jenkins REST List Parameter Plugin 1.3.0 and earlier does not escape a parameter name reference in embedded JavaScript, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Job/Configure permission.
@@ -862,15 +864,15 @@
 
 - [https://github.com/AlkenePan/CVE-2021-21300](https://github.com/AlkenePan/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/AlkenePan/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/AlkenePan/CVE-2021-21300.svg)
 
-- [https://github.com/Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Kirill89/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Kirill89/CVE-2021-21300.svg)
-
 - [https://github.com/erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/erranfenech/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/erranfenech/CVE-2021-21300.svg)
+
+- [https://github.com/Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Kirill89/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Kirill89/CVE-2021-21300.svg)
 
 - [https://github.com/ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/ETOCheney/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/ETOCheney/cve-2021-21300.svg)
 
-- [https://github.com/Maskhe/CVE-2021-21300](https://github.com/Maskhe/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Maskhe/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Maskhe/CVE-2021-21300.svg)
-
 - [https://github.com/Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Faisal78123/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Faisal78123/CVE-2021-21300.svg)
+
+- [https://github.com/Maskhe/CVE-2021-21300](https://github.com/Maskhe/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Maskhe/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Maskhe/CVE-2021-21300.svg)
 
 - [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
 
@@ -975,6 +977,13 @@
 
 
 - [https://github.com/Sec504/Zyxel-NBG2105-CVE-2021-3297](https://github.com/Sec504/Zyxel-NBG2105-CVE-2021-3297) :  ![starts](https://img.shields.io/github/stars/Sec504/Zyxel-NBG2105-CVE-2021-3297.svg) ![forks](https://img.shields.io/github/forks/Sec504/Zyxel-NBG2105-CVE-2021-3297.svg)
+
+## CVE-2021-3291
+ Zen Cart 1.5.7b allows admins to execute arbitrary OS commands by inspecting an HTML radio input element (within the modules edit page) and inserting a command.
+
+
+
+- [https://github.com/ImHades101/CVE-2021-3291](https://github.com/ImHades101/CVE-2021-3291) :  ![starts](https://img.shields.io/github/stars/ImHades101/CVE-2021-3291.svg) ![forks](https://img.shields.io/github/forks/ImHades101/CVE-2021-3291.svg)
 
 ## CVE-2021-3229
  Denial of service in ASUSWRT ASUS RT-AX3000 firmware versions 3.0.0.4.384_10177 and earlier versions allows an attacker to disrupt the use of device setup services via continuous login error.
@@ -1135,9 +1144,9 @@
 
 - [https://github.com/zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129) :  ![starts](https://img.shields.io/github/stars/zhzyker/CVE-2021-3129.svg) ![forks](https://img.shields.io/github/forks/zhzyker/CVE-2021-3129.svg)
 
-- [https://github.com/crisprss/Laravel_CVE-2021-3129_EXP](https://github.com/crisprss/Laravel_CVE-2021-3129_EXP) :  ![starts](https://img.shields.io/github/stars/crisprss/Laravel_CVE-2021-3129_EXP.svg) ![forks](https://img.shields.io/github/forks/crisprss/Laravel_CVE-2021-3129_EXP.svg)
-
 - [https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP](https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP) :  ![starts](https://img.shields.io/github/stars/SecPros-Team/laravel-CVE-2021-3129-EXP.svg) ![forks](https://img.shields.io/github/forks/SecPros-Team/laravel-CVE-2021-3129-EXP.svg)
+
+- [https://github.com/crisprss/Laravel_CVE-2021-3129_EXP](https://github.com/crisprss/Laravel_CVE-2021-3129_EXP) :  ![starts](https://img.shields.io/github/stars/crisprss/Laravel_CVE-2021-3129_EXP.svg) ![forks](https://img.shields.io/github/forks/crisprss/Laravel_CVE-2021-3129_EXP.svg)
 
 - [https://github.com/nth347/CVE-2021-3129_exploit](https://github.com/nth347/CVE-2021-3129_exploit) :  ![starts](https://img.shields.io/github/stars/nth347/CVE-2021-3129_exploit.svg) ![forks](https://img.shields.io/github/forks/nth347/CVE-2021-3129_exploit.svg)
 
@@ -1165,9 +1174,9 @@
 
 - [https://github.com/liuxu54898/CVE-2021-3019](https://github.com/liuxu54898/CVE-2021-3019) :  ![starts](https://img.shields.io/github/stars/liuxu54898/CVE-2021-3019.svg) ![forks](https://img.shields.io/github/forks/liuxu54898/CVE-2021-3019.svg)
 
-- [https://github.com/Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019) :  ![starts](https://img.shields.io/github/stars/Aoyuh/cve-2021-3019.svg) ![forks](https://img.shields.io/github/forks/Aoyuh/cve-2021-3019.svg)
-
 - [https://github.com/givemefivw/CVE-2021-3019](https://github.com/givemefivw/CVE-2021-3019) :  ![starts](https://img.shields.io/github/stars/givemefivw/CVE-2021-3019.svg) ![forks](https://img.shields.io/github/forks/givemefivw/CVE-2021-3019.svg)
+
+- [https://github.com/Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019) :  ![starts](https://img.shields.io/github/stars/Aoyuh/cve-2021-3019.svg) ![forks](https://img.shields.io/github/forks/Aoyuh/cve-2021-3019.svg)
 
 ## CVE-2021-2109
  Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Console). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 7.2 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H).
@@ -1240,6 +1249,8 @@
 - [https://github.com/k-k-k-k-k/CVE-2021-1732](https://github.com/k-k-k-k-k/CVE-2021-1732) :  ![starts](https://img.shields.io/github/stars/k-k-k-k-k/CVE-2021-1732.svg) ![forks](https://img.shields.io/github/forks/k-k-k-k-k/CVE-2021-1732.svg)
 
 - [https://github.com/ltfafei/CVE-2021-1732_exp](https://github.com/ltfafei/CVE-2021-1732_exp) :  ![starts](https://img.shields.io/github/stars/ltfafei/CVE-2021-1732_exp.svg) ![forks](https://img.shields.io/github/forks/ltfafei/CVE-2021-1732_exp.svg)
+
+- [https://github.com/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732](https://github.com/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732) :  ![starts](https://img.shields.io/github/stars/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732.svg) ![forks](https://img.shields.io/github/forks/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732.svg)
 
 - [https://github.com/jessica0f0116/cve_2021_1732](https://github.com/jessica0f0116/cve_2021_1732) :  ![starts](https://img.shields.io/github/stars/jessica0f0116/cve_2021_1732.svg) ![forks](https://img.shields.io/github/forks/jessica0f0116/cve_2021_1732.svg)
 
