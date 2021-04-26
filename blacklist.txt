@@ -1,2 +1,6 @@
 https://github.com/Nick-Yin12/106362522
 https://github.com/ycdxsb/WindowsPrivilegeEscalation
+https://github.com/p0p0p0/CVE-2019-0708-exploit
+https://github.com/adalenv/CVE-2019-0708-Tool
+https://github.com/hook-s3c/CVE-2019-0708-poc
+https://github.com/Jaky5155/CVE-2019-0785
