@@ -23,7 +23,7 @@
 
 
 ## TOP 10 Popular Authors
-zhzyker: stars: 3909
+zhzyker: stars: 3929
 - [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
 
 - [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
@@ -40,10 +40,10 @@ zhzyker: stars: 3909
 
 - [https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP](https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP) :  ![starts](https://img.shields.io/github/stars/zhzyker/CVE-2018-7600-Drupal-POC-EXP.svg) ![forks](https://img.shields.io/github/forks/zhzyker/CVE-2018-7600-Drupal-POC-EXP.svg)
 
-speed47: stars: 3418
+speed47: stars: 3419
 - [https://github.com/speed47/spectre-meltdown-checker](https://github.com/speed47/spectre-meltdown-checker) :  ![starts](https://img.shields.io/github/stars/speed47/spectre-meltdown-checker.svg) ![forks](https://img.shields.io/github/forks/speed47/spectre-meltdown-checker.svg)
 
-jas502n: stars: 3236
+jas502n: stars: 3289
 - [https://github.com/jas502n/CVE-2020-5902](https://github.com/jas502n/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-5902.svg)
 
 - [https://github.com/jas502n/CVE-2019-13272](https://github.com/jas502n/CVE-2019-13272) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-13272.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-13272.svg)
@@ -91,6 +91,8 @@ jas502n: stars: 3236
 - [https://github.com/jas502n/CVE-2019-0232](https://github.com/jas502n/CVE-2019-0232) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-0232.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-0232.svg)
 
 - [https://github.com/jas502n/CVE-2019-7238](https://github.com/jas502n/CVE-2019-7238) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-7238.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-7238.svg)
+
+- [https://github.com/jas502n/cve-2018-1273](https://github.com/jas502n/cve-2018-1273) :  ![starts](https://img.shields.io/github/stars/jas502n/cve-2018-1273.svg) ![forks](https://img.shields.io/github/forks/jas502n/cve-2018-1273.svg)
 
 - [https://github.com/jas502n/CVE-2019-11510-1](https://github.com/jas502n/CVE-2019-11510-1) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-11510-1.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-11510-1.svg)
 
@@ -150,22 +152,22 @@ jas502n: stars: 3236
 
 - [https://github.com/jas502n/CVE-2016-5195](https://github.com/jas502n/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2016-5195.svg)
 
-FiloSottile: stars: 2428
+FiloSottile: stars: 2427
 - [https://github.com/FiloSottile/Heartbleed](https://github.com/FiloSottile/Heartbleed) :  ![starts](https://img.shields.io/github/stars/FiloSottile/Heartbleed.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/Heartbleed.svg)
 
 - [https://github.com/FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107) :  ![starts](https://img.shields.io/github/stars/FiloSottile/CVE-2016-2107.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/CVE-2016-2107.svg)
 
-ollypwn: stars: 1688
+ollypwn: stars: 1689
 - [https://github.com/ollypwn/CurveBall](https://github.com/ollypwn/CurveBall) :  ![starts](https://img.shields.io/github/stars/ollypwn/CurveBall.svg) ![forks](https://img.shields.io/github/forks/ollypwn/CurveBall.svg)
 
 - [https://github.com/ollypwn/SMBGhost](https://github.com/ollypwn/SMBGhost) :  ![starts](https://img.shields.io/github/stars/ollypwn/SMBGhost.svg) ![forks](https://img.shields.io/github/forks/ollypwn/SMBGhost.svg)
 
 - [https://github.com/ollypwn/BlueGate](https://github.com/ollypwn/BlueGate) :  ![starts](https://img.shields.io/github/stars/ollypwn/BlueGate.svg) ![forks](https://img.shields.io/github/forks/ollypwn/BlueGate.svg)
 
-neex: stars: 1655
+neex: stars: 1653
 - [https://github.com/neex/phuip-fpizdam](https://github.com/neex/phuip-fpizdam) :  ![starts](https://img.shields.io/github/stars/neex/phuip-fpizdam.svg) ![forks](https://img.shields.io/github/forks/neex/phuip-fpizdam.svg)
 
-Ridter: stars: 1628
+Ridter: stars: 1629
 - [https://github.com/Ridter/CVE-2017-11882](https://github.com/Ridter/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/Ridter/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/Ridter/CVE-2017-11882.svg)
 
 - [https://github.com/Ridter/Exchange2domain](https://github.com/Ridter/Exchange2domain) :  ![starts](https://img.shields.io/github/stars/Ridter/Exchange2domain.svg) ![forks](https://img.shields.io/github/forks/Ridter/Exchange2domain.svg)
@@ -183,7 +185,7 @@ Ridter: stars: 1628
 SecuraBV: stars: 1271
 - [https://github.com/SecuraBV/CVE-2020-1472](https://github.com/SecuraBV/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/SecuraBV/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/SecuraBV/CVE-2020-1472.svg)
 
-mpgn: stars: 1266
+mpgn: stars: 1268
 - [https://github.com/mpgn/CVE-2019-0192](https://github.com/mpgn/CVE-2019-0192) :  ![starts](https://img.shields.io/github/stars/mpgn/CVE-2019-0192.svg) ![forks](https://img.shields.io/github/forks/mpgn/CVE-2019-0192.svg)
 
 - [https://github.com/mpgn/poodle-PoC](https://github.com/mpgn/poodle-PoC) :  ![starts](https://img.shields.io/github/stars/mpgn/poodle-PoC.svg) ![forks](https://img.shields.io/github/forks/mpgn/poodle-PoC.svg)
