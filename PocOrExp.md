@@ -16617,9 +16617,9 @@
 
 - [https://github.com/tea9/CVE-2017-13156-Janus](https://github.com/tea9/CVE-2017-13156-Janus) :  ![starts](https://img.shields.io/github/stars/tea9/CVE-2017-13156-Janus.svg) ![forks](https://img.shields.io/github/forks/tea9/CVE-2017-13156-Janus.svg)
 
-- [https://github.com/caxmd/CVE-2017-13156](https://github.com/caxmd/CVE-2017-13156) :  ![starts](https://img.shields.io/github/stars/caxmd/CVE-2017-13156.svg) ![forks](https://img.shields.io/github/forks/caxmd/CVE-2017-13156.svg)
-
 - [https://github.com/ari5ti/Janus-Vulnerability-CVE-2017-13156-Exploit-with-POC](https://github.com/ari5ti/Janus-Vulnerability-CVE-2017-13156-Exploit-with-POC) :  ![starts](https://img.shields.io/github/stars/ari5ti/Janus-Vulnerability-CVE-2017-13156-Exploit-with-POC.svg) ![forks](https://img.shields.io/github/forks/ari5ti/Janus-Vulnerability-CVE-2017-13156-Exploit-with-POC.svg)
+
+- [https://github.com/caxmd/CVE-2017-13156](https://github.com/caxmd/CVE-2017-13156) :  ![starts](https://img.shields.io/github/stars/caxmd/CVE-2017-13156.svg) ![forks](https://img.shields.io/github/forks/caxmd/CVE-2017-13156.svg)
 
 ## CVE-2017-13089
  The http.c:skip_short_body() function is called in some circumstances, such as when processing redirects. When the response is sent chunked in wget before 1.19.2, the chunk parser uses strtol() to read each chunk's length, but doesn't check that the chunk length is a non-negative number. The code then tries to skip the chunk in pieces of 512 bytes by using the MIN() macro, but ends up passing the negative chunk length to connect.c:fd_read(). As fd_read() takes an int argument, the high 32 bits of the chunk length are discarded, leaving fd_read() with a completely attacker controlled length argument.
@@ -16744,9 +16744,9 @@
 
 - [https://github.com/gardenWhy/CVE-2017-12615-EXP](https://github.com/gardenWhy/CVE-2017-12615-EXP) :  ![starts](https://img.shields.io/github/stars/gardenWhy/CVE-2017-12615-EXP.svg) ![forks](https://img.shields.io/github/forks/gardenWhy/CVE-2017-12615-EXP.svg)
 
-- [https://github.com/BeyondCy/CVE-2017-12615](https://github.com/BeyondCy/CVE-2017-12615) :  ![starts](https://img.shields.io/github/stars/BeyondCy/CVE-2017-12615.svg) ![forks](https://img.shields.io/github/forks/BeyondCy/CVE-2017-12615.svg)
-
 - [https://github.com/Shellkeys/CVE-2017-12615](https://github.com/Shellkeys/CVE-2017-12615) :  ![starts](https://img.shields.io/github/stars/Shellkeys/CVE-2017-12615.svg) ![forks](https://img.shields.io/github/forks/Shellkeys/CVE-2017-12615.svg)
+
+- [https://github.com/BeyondCy/CVE-2017-12615](https://github.com/BeyondCy/CVE-2017-12615) :  ![starts](https://img.shields.io/github/stars/BeyondCy/CVE-2017-12615.svg) ![forks](https://img.shields.io/github/forks/BeyondCy/CVE-2017-12615.svg)
 
 ## CVE-2017-12611
  In Apache Struts 2.0.0 through 2.3.33 and 2.5 through 2.5.10.1, using an unintentional expression in a Freemarker tag instead of string literals can lead to a RCE attack.
