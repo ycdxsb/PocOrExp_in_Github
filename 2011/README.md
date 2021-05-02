@@ -83,6 +83,8 @@
 
 
 
+- [https://github.com/nobodyatall648/CVE-2011-2523](https://github.com/nobodyatall648/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2011-2523.svg)
+
 - [https://github.com/HerculesRD/vsftpd2.3.4PyExploit](https://github.com/HerculesRD/vsftpd2.3.4PyExploit) :  ![starts](https://img.shields.io/github/stars/HerculesRD/vsftpd2.3.4PyExploit.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/vsftpd2.3.4PyExploit.svg)
 
 ## CVE-2011-2461
