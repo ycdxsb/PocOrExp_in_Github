@@ -2989,9 +2989,9 @@
 
 - [https://github.com/securitysqs/poc](https://github.com/securitysqs/poc) :  ![starts](https://img.shields.io/github/stars/securitysqs/poc.svg) ![forks](https://img.shields.io/github/forks/securitysqs/poc.svg)
 
-- [https://github.com/alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/alexfrancow/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/alexfrancow/CVE-2020-14882.svg)
-
 - [https://github.com/BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2020-14882.svg)
+
+- [https://github.com/alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/alexfrancow/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/alexfrancow/CVE-2020-14882.svg)
 
 - [https://github.com/AirEvan/CVE-2020-14882-GUI-Test](https://github.com/AirEvan/CVE-2020-14882-GUI-Test) :  ![starts](https://img.shields.io/github/stars/AirEvan/CVE-2020-14882-GUI-Test.svg) ![forks](https://img.shields.io/github/forks/AirEvan/CVE-2020-14882-GUI-Test.svg)
 
@@ -6191,6 +6191,13 @@
 
 - [https://github.com/klinix5/CVE-2020-0814](https://github.com/klinix5/CVE-2020-0814) :  ![starts](https://img.shields.io/github/stars/klinix5/CVE-2020-0814.svg) ![forks](https://img.shields.io/github/forks/klinix5/CVE-2020-0814.svg)
 
+## CVE-2020-0802
+ An elevation of privilege vulnerability exists in the way that the Windows Network Connections Service handles objects in memory, aka 'Windows Network Connections Service Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0778, CVE-2020-0803, CVE-2020-0804, CVE-2020-0845.
+
+
+
+- [https://github.com/5l1v3r1/cve-2020-0802](https://github.com/5l1v3r1/cve-2020-0802) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/cve-2020-0802.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/cve-2020-0802.svg)
+
 ## CVE-2020-0801
  A memory corruption vulnerability exists when Windows Media Foundation improperly handles objects in memory, aka 'Media Foundation Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2020-0807, CVE-2020-0809, CVE-2020-0869.
 
@@ -6351,13 +6358,11 @@
 
 - [https://github.com/ORCA666/CVE-2020-0796](https://github.com/ORCA666/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/ORCA666/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/ORCA666/CVE-2020-0796.svg)
 
-- [https://github.com/plorinquer/cve-2020-0796](https://github.com/plorinquer/cve-2020-0796) :  ![starts](https://img.shields.io/github/stars/plorinquer/cve-2020-0796.svg) ![forks](https://img.shields.io/github/forks/plorinquer/cve-2020-0796.svg)
+- [https://github.com/section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/section-c/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/section-c/CVE-2020-0796.svg)
 
 - [https://github.com/intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/intelliroot-tech/cve-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/intelliroot-tech/cve-2020-0796-Scanner.svg)
 
 - [https://github.com/Ken-Abruzzi/cve_2020_0796](https://github.com/Ken-Abruzzi/cve_2020_0796) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve_2020_0796.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve_2020_0796.svg)
-
-- [https://github.com/section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/section-c/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/section-c/CVE-2020-0796.svg)
 
 - [https://github.com/tripledd/cve-2020-0796-vuln](https://github.com/tripledd/cve-2020-0796-vuln) :  ![starts](https://img.shields.io/github/stars/tripledd/cve-2020-0796-vuln.svg) ![forks](https://img.shields.io/github/forks/tripledd/cve-2020-0796-vuln.svg)
 
