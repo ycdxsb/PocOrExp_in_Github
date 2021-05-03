@@ -23,7 +23,7 @@
 
 
 ## TOP 10 Popular Authors
-zhzyker: stars: 3947
+zhzyker: stars: 3949
 - [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
 
 - [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
@@ -40,7 +40,7 @@ zhzyker: stars: 3947
 
 - [https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP](https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP) :  ![starts](https://img.shields.io/github/stars/zhzyker/CVE-2018-7600-Drupal-POC-EXP.svg) ![forks](https://img.shields.io/github/forks/zhzyker/CVE-2018-7600-Drupal-POC-EXP.svg)
 
-speed47: stars: 3422
+speed47: stars: 3423
 - [https://github.com/speed47/spectre-meltdown-checker](https://github.com/speed47/spectre-meltdown-checker) :  ![starts](https://img.shields.io/github/stars/speed47/spectre-meltdown-checker.svg) ![forks](https://img.shields.io/github/forks/speed47/spectre-meltdown-checker.svg)
 
 jas502n: stars: 3289
@@ -182,6 +182,9 @@ Ridter: stars: 1631
 
 - [https://github.com/Ridter/CVE-2019-1040-dcpwn](https://github.com/Ridter/CVE-2019-1040-dcpwn) :  ![starts](https://img.shields.io/github/stars/Ridter/CVE-2019-1040-dcpwn.svg) ![forks](https://img.shields.io/github/forks/Ridter/CVE-2019-1040-dcpwn.svg)
 
+SecuraBV: stars: 1270
+- [https://github.com/SecuraBV/CVE-2020-1472](https://github.com/SecuraBV/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/SecuraBV/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/SecuraBV/CVE-2020-1472.svg)
+
 mpgn: stars: 1269
 - [https://github.com/mpgn/CVE-2019-0192](https://github.com/mpgn/CVE-2019-0192) :  ![starts](https://img.shields.io/github/stars/mpgn/CVE-2019-0192.svg) ![forks](https://img.shields.io/github/forks/mpgn/CVE-2019-0192.svg)
 
@@ -219,8 +222,5 @@ mpgn: stars: 1269
 
 - [https://github.com/mpgn/CVE-2018-11686](https://github.com/mpgn/CVE-2018-11686) :  ![starts](https://img.shields.io/github/stars/mpgn/CVE-2018-11686.svg) ![forks](https://img.shields.io/github/forks/mpgn/CVE-2018-11686.svg)
 
-SecuraBV: stars: 1269
-- [https://github.com/SecuraBV/CVE-2020-1472](https://github.com/SecuraBV/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/SecuraBV/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/SecuraBV/CVE-2020-1472.svg)
-
-Ascotbe: stars: 1210
+Ascotbe: stars: 1211
 - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
