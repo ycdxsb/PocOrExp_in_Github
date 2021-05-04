@@ -157,3 +157,10 @@
 
 
 - [https://github.com/zveriu/CVE-2009-0229-PoC](https://github.com/zveriu/CVE-2009-0229-PoC) :  ![starts](https://img.shields.io/github/stars/zveriu/CVE-2009-0229-PoC.svg) ![forks](https://img.shields.io/github/forks/zveriu/CVE-2009-0229-PoC.svg)
+
+## CVE-2009-0182
+ Buffer overflow in VUPlayer 2.49 and earlier allows user-assisted attackers to execute arbitrary code via a long URL in a File line in a .pls file, as demonstrated by an http URL on a File1 line.
+
+
+
+- [https://github.com/nobodyatall648/CVE-2009-0182](https://github.com/nobodyatall648/CVE-2009-0182) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2009-0182.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2009-0182.svg)
