@@ -1768,14 +1768,14 @@
 
 
 
-- [https://github.com/seb1055/cve-2020-27358-27359](https://github.com/seb1055/cve-2020-27358-27359) :  ![starts](https://img.shields.io/github/stars/seb1055/cve-2020-27358-27359.svg) ![forks](https://img.shields.io/github/forks/seb1055/cve-2020-27358-27359.svg)
+- [https://github.com/sebastian-mora/cve-2020-27358-27359](https://github.com/sebastian-mora/cve-2020-27358-27359) :  ![starts](https://img.shields.io/github/stars/sebastian-mora/cve-2020-27358-27359.svg) ![forks](https://img.shields.io/github/forks/sebastian-mora/cve-2020-27358-27359.svg)
 
 ## CVE-2020-27358
  An issue was discovered in REDCap 8.11.6 through 9.x before 10. The messenger's CSV feature (that allows users to export their conversation threads as CSV) allows non-privileged users to export one another's conversation threads by changing the thread_id parameter in the request to the endpoint Messenger/messenger_download_csv.php?title=Hey&amp;thread_id={THREAD_ID}.
 
 
 
-- [https://github.com/seb1055/cve-2020-27358-27359](https://github.com/seb1055/cve-2020-27358-27359) :  ![starts](https://img.shields.io/github/stars/seb1055/cve-2020-27358-27359.svg) ![forks](https://img.shields.io/github/forks/seb1055/cve-2020-27358-27359.svg)
+- [https://github.com/sebastian-mora/cve-2020-27358-27359](https://github.com/sebastian-mora/cve-2020-27358-27359) :  ![starts](https://img.shields.io/github/stars/sebastian-mora/cve-2020-27358-27359.svg) ![forks](https://img.shields.io/github/forks/sebastian-mora/cve-2020-27358-27359.svg)
 
 ## CVE-2020-27223
  In Eclipse Jetty 9.4.6.v20170531 to 9.4.36.v20210114 (inclusive), 10.0.0, and 11.0.0 when Jetty handles a request containing multiple Accept headers with a large number of &#8220;quality&#8221; (i.e. q) parameters, the server may enter a denial of service (DoS) state due to high CPU usage processing those quality values, resulting in minutes of CPU time exhausted processing those quality values.
@@ -3000,9 +3000,9 @@
 
 - [https://github.com/securitysqs/poc](https://github.com/securitysqs/poc) :  ![starts](https://img.shields.io/github/stars/securitysqs/poc.svg) ![forks](https://img.shields.io/github/forks/securitysqs/poc.svg)
 
-- [https://github.com/alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/alexfrancow/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/alexfrancow/CVE-2020-14882.svg)
-
 - [https://github.com/BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2020-14882.svg)
+
+- [https://github.com/alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/alexfrancow/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/alexfrancow/CVE-2020-14882.svg)
 
 - [https://github.com/AirEvan/CVE-2020-14882-GUI-Test](https://github.com/AirEvan/CVE-2020-14882-GUI-Test) :  ![starts](https://img.shields.io/github/stars/AirEvan/CVE-2020-14882-GUI-Test.svg) ![forks](https://img.shields.io/github/forks/AirEvan/CVE-2020-14882-GUI-Test.svg)
 
@@ -3143,6 +3143,8 @@
 - [https://github.com/Rival420/CVE-2020-14181](https://github.com/Rival420/CVE-2020-14181) :  ![starts](https://img.shields.io/github/stars/Rival420/CVE-2020-14181.svg) ![forks](https://img.shields.io/github/forks/Rival420/CVE-2020-14181.svg)
 
 - [https://github.com/bk-rao/CVE-2020-14181](https://github.com/bk-rao/CVE-2020-14181) :  ![starts](https://img.shields.io/github/stars/bk-rao/CVE-2020-14181.svg) ![forks](https://img.shields.io/github/forks/bk-rao/CVE-2020-14181.svg)
+
+- [https://github.com/und3sc0n0c1d0/UserEnumJira](https://github.com/und3sc0n0c1d0/UserEnumJira) :  ![starts](https://img.shields.io/github/stars/und3sc0n0c1d0/UserEnumJira.svg) ![forks](https://img.shields.io/github/forks/und3sc0n0c1d0/UserEnumJira.svg)
 
 ## CVE-2020-14179
  Affected versions of Atlassian Jira Server and Data Center allow remote, unauthenticated attackers to view custom field names and custom SLA names via an Information Disclosure vulnerability in the /secure/QueryComponent!Default.jspa endpoint. The affected versions are before version 8.5.8, and from version 8.6.0 before 8.11.1.
@@ -3887,11 +3889,11 @@
 
 - [https://github.com/Liath/CVE-2020-10977](https://github.com/Liath/CVE-2020-10977) :  ![starts](https://img.shields.io/github/stars/Liath/CVE-2020-10977.svg) ![forks](https://img.shields.io/github/forks/Liath/CVE-2020-10977.svg)
 
+- [https://github.com/JustMichi/CVE-2020-10977.py](https://github.com/JustMichi/CVE-2020-10977.py) :  ![starts](https://img.shields.io/github/stars/JustMichi/CVE-2020-10977.py.svg) ![forks](https://img.shields.io/github/forks/JustMichi/CVE-2020-10977.py.svg)
+
 - [https://github.com/VoxelNaut/cve-2020-10977](https://github.com/VoxelNaut/cve-2020-10977) :  ![starts](https://img.shields.io/github/stars/VoxelNaut/cve-2020-10977.svg) ![forks](https://img.shields.io/github/forks/VoxelNaut/cve-2020-10977.svg)
 
 - [https://github.com/nickvdyck/gitlab-cve-2020-10977](https://github.com/nickvdyck/gitlab-cve-2020-10977) :  ![starts](https://img.shields.io/github/stars/nickvdyck/gitlab-cve-2020-10977.svg) ![forks](https://img.shields.io/github/forks/nickvdyck/gitlab-cve-2020-10977.svg)
-
-- [https://github.com/JustMichi/CVE-2020-10977.py](https://github.com/JustMichi/CVE-2020-10977.py) :  ![starts](https://img.shields.io/github/stars/JustMichi/CVE-2020-10977.py.svg) ![forks](https://img.shields.io/github/forks/JustMichi/CVE-2020-10977.py.svg)
 
 - [https://github.com/lisp3r/cve-2020-10977-read-and-execute](https://github.com/lisp3r/cve-2020-10977-read-and-execute) :  ![starts](https://img.shields.io/github/stars/lisp3r/cve-2020-10977-read-and-execute.svg) ![forks](https://img.shields.io/github/forks/lisp3r/cve-2020-10977-read-and-execute.svg)
 
@@ -5074,6 +5076,8 @@
 - [https://github.com/ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418) :  ![starts](https://img.shields.io/github/stars/ChoKyuWon/CVE-2020-6418.svg) ![forks](https://img.shields.io/github/forks/ChoKyuWon/CVE-2020-6418.svg)
 
 - [https://github.com/Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC) :  ![starts](https://img.shields.io/github/stars/Goyotan/CVE-2020-6418-PoC.svg) ![forks](https://img.shields.io/github/forks/Goyotan/CVE-2020-6418-PoC.svg)
+
+- [https://github.com/Jabri1/cve-2020_6418-exploit](https://github.com/Jabri1/cve-2020_6418-exploit) :  ![starts](https://img.shields.io/github/stars/Jabri1/cve-2020_6418-exploit.svg) ![forks](https://img.shields.io/github/forks/Jabri1/cve-2020_6418-exploit.svg)
 
 ## CVE-2020-6308
  SAP BusinessObjects Business Intelligence Platform (Web Services) versions - 410, 420, 430, allows an unauthenticated attacker to inject arbitrary values as CMS parameters to perform lookups on the internal network which is otherwise not accessible externally. On successful exploitation, attacker can scan internal network to determine internal infrastructure and gather information for further attacks like remote file inclusion, retrieve server files, bypass firewall and force the vulnerable server to perform malicious requests, resulting in a Server-Side Request Forgery vulnerability.
@@ -6493,6 +6497,8 @@
 
 - [https://github.com/Ken-Abruzzi/cve_2020_0688](https://github.com/Ken-Abruzzi/cve_2020_0688) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve_2020_0688.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve_2020_0688.svg)
 
+- [https://github.com/ann0906/proxylogon](https://github.com/ann0906/proxylogon) :  ![starts](https://img.shields.io/github/stars/ann0906/proxylogon.svg) ![forks](https://img.shields.io/github/forks/ann0906/proxylogon.svg)
+
 ## CVE-2020-0683
  An elevation of privilege vulnerability exists in the Windows Installer when MSI packages process symbolic links, aka 'Windows Installer Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0686.
 
@@ -6625,9 +6631,9 @@
 
 - [https://github.com/apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall) :  ![starts](https://img.shields.io/github/stars/apodlosky/PoC_CurveBall.svg) ![forks](https://img.shields.io/github/forks/apodlosky/PoC_CurveBall.svg)
 
-- [https://github.com/apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/apmunch/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/apmunch/CVE-2020-0601.svg)
-
 - [https://github.com/thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl) :  ![starts](https://img.shields.io/github/stars/thimelp/cve-2020-0601-Perl.svg) ![forks](https://img.shields.io/github/forks/thimelp/cve-2020-0601-Perl.svg)
+
+- [https://github.com/apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/apmunch/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/apmunch/CVE-2020-0601.svg)
 
 - [https://github.com/exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey) :  ![starts](https://img.shields.io/github/stars/exploitblizzard/CVE-2020-0601-spoofkey.svg) ![forks](https://img.shields.io/github/forks/exploitblizzard/CVE-2020-0601-spoofkey.svg)
 
