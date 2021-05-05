@@ -15892,9 +15892,9 @@
 
 - [https://github.com/nkoneko/CVE-2017-1000117](https://github.com/nkoneko/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/nkoneko/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/nkoneko/CVE-2017-1000117.svg)
 
-- [https://github.com/AnonymKing/CVE-2017-1000117](https://github.com/AnonymKing/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/AnonymKing/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/AnonymKing/CVE-2017-1000117.svg)
-
 - [https://github.com/sasairc/CVE-2017-1000117_wasawasa](https://github.com/sasairc/CVE-2017-1000117_wasawasa) :  ![starts](https://img.shields.io/github/stars/sasairc/CVE-2017-1000117_wasawasa.svg) ![forks](https://img.shields.io/github/forks/sasairc/CVE-2017-1000117_wasawasa.svg)
+
+- [https://github.com/AnonymKing/CVE-2017-1000117](https://github.com/AnonymKing/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/AnonymKing/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/AnonymKing/CVE-2017-1000117.svg)
 
 - [https://github.com/rootclay/CVE-2017-1000117](https://github.com/rootclay/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/rootclay/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/rootclay/CVE-2017-1000117.svg)
 
@@ -16339,6 +16339,13 @@
 
 
 - [https://github.com/ossf-cve-benchmark/CVE-2017-16114](https://github.com/ossf-cve-benchmark/CVE-2017-16114) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-16114.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-16114.svg)
+
+## CVE-2017-16107
+ pooledwebsocket is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing &quot;../&quot; in the url.
+
+
+
+- [https://github.com/ossf-cve-benchmark/CVE-2017-16107](https://github.com/ossf-cve-benchmark/CVE-2017-16107) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-16107.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-16107.svg)
 
 ## CVE-2017-16100
  dns-sync is a sync/blocking dns resolver. If untrusted user input is allowed into the resolve() method then command injection is possible.
@@ -17775,9 +17782,9 @@
 
 - [https://github.com/daehee/nginx-overflow](https://github.com/daehee/nginx-overflow) :  ![starts](https://img.shields.io/github/stars/daehee/nginx-overflow.svg) ![forks](https://img.shields.io/github/forks/daehee/nginx-overflow.svg)
 
-- [https://github.com/ninjabuster/exploit-nginx-1.10.3](https://github.com/ninjabuster/exploit-nginx-1.10.3) :  ![starts](https://img.shields.io/github/stars/ninjabuster/exploit-nginx-1.10.3.svg) ![forks](https://img.shields.io/github/forks/ninjabuster/exploit-nginx-1.10.3.svg)
-
 - [https://github.com/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability](https://github.com/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability) :  ![starts](https://img.shields.io/github/stars/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability.svg)
+
+- [https://github.com/ninjabuster/exploit-nginx-1.10.3](https://github.com/ninjabuster/exploit-nginx-1.10.3) :  ![starts](https://img.shields.io/github/stars/ninjabuster/exploit-nginx-1.10.3.svg) ![forks](https://img.shields.io/github/forks/ninjabuster/exploit-nginx-1.10.3.svg)
 
 - [https://github.com/devansh3008/Cve_Finder_2017-7529](https://github.com/devansh3008/Cve_Finder_2017-7529) :  ![starts](https://img.shields.io/github/stars/devansh3008/Cve_Finder_2017-7529.svg) ![forks](https://img.shields.io/github/forks/devansh3008/Cve_Finder_2017-7529.svg)
 
@@ -18319,13 +18326,13 @@
 
 - [https://github.com/lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/lizhi16/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/lizhi16/CVE-2017-5638.svg)
 
-- [https://github.com/Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Xhendos/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Xhendos/CVE-2017-5638.svg)
-
 - [https://github.com/bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/bongbongco/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bongbongco/cve-2017-5638.svg)
 
-- [https://github.com/bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/bhagdave/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bhagdave/CVE-2017-5638.svg)
+- [https://github.com/Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Xhendos/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Xhendos/CVE-2017-5638.svg)
 
 - [https://github.com/jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jrrombaldo/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jrrombaldo/CVE-2017-5638.svg)
+
+- [https://github.com/bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/bhagdave/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bhagdave/CVE-2017-5638.svg)
 
 - [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
 
