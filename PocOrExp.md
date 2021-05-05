@@ -70,6 +70,8 @@
 
 - [https://github.com/LioTree/CVE-2021-30128-EXP](https://github.com/LioTree/CVE-2021-30128-EXP) :  ![starts](https://img.shields.io/github/stars/LioTree/CVE-2021-30128-EXP.svg) ![forks](https://img.shields.io/github/forks/LioTree/CVE-2021-30128-EXP.svg)
 
+- [https://github.com/r0ckysec/CVE-2021-30128](https://github.com/r0ckysec/CVE-2021-30128) :  ![starts](https://img.shields.io/github/stars/r0ckysec/CVE-2021-30128.svg) ![forks](https://img.shields.io/github/forks/r0ckysec/CVE-2021-30128.svg)
+
 ## CVE-2021-30109
  Froala Editor 3.2.6 is affected by Cross Site Scripting (XSS). Under certain conditions, a base64 crafted string leads to persistent Cross-site scripting (XSS) vulnerability within the hyperlink creation module.
 
@@ -195,20 +197,6 @@
 
 - [https://github.com/xiaopan233/Mybb-XSS_SQL_RCE-POC](https://github.com/xiaopan233/Mybb-XSS_SQL_RCE-POC) :  ![starts](https://img.shields.io/github/stars/xiaopan233/Mybb-XSS_SQL_RCE-POC.svg) ![forks](https://img.shields.io/github/forks/xiaopan233/Mybb-XSS_SQL_RCE-POC.svg)
 
-## CVE-2021-27553
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/sapkota2k20/CVE-2021-27553](https://github.com/sapkota2k20/CVE-2021-27553) :  ![starts](https://img.shields.io/github/stars/sapkota2k20/CVE-2021-27553.svg) ![forks](https://img.shields.io/github/forks/sapkota2k20/CVE-2021-27553.svg)
-
-## CVE-2021-27552
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/sapkota2k20/CVE-2021-27552](https://github.com/sapkota2k20/CVE-2021-27552) :  ![starts](https://img.shields.io/github/stars/sapkota2k20/CVE-2021-27552.svg) ![forks](https://img.shields.io/github/forks/sapkota2k20/CVE-2021-27552.svg)
-
 ## CVE-2021-27404
  Askey RTF8115VW BR_SV_g11.11_RTF_TEF001_V6.54_V014 devices allow injection of a Host HTTP header.
 
@@ -324,9 +312,9 @@
 
 - [https://github.com/hosch3n/ProxyLogon](https://github.com/hosch3n/ProxyLogon) :  ![starts](https://img.shields.io/github/stars/hosch3n/ProxyLogon.svg) ![forks](https://img.shields.io/github/forks/hosch3n/ProxyLogon.svg)
 
-- [https://github.com/mekhalleh/exchange_proxylogon](https://github.com/mekhalleh/exchange_proxylogon) :  ![starts](https://img.shields.io/github/stars/mekhalleh/exchange_proxylogon.svg) ![forks](https://img.shields.io/github/forks/mekhalleh/exchange_proxylogon.svg)
-
 - [https://github.com/RickGeex/ProxyLogon](https://github.com/RickGeex/ProxyLogon) :  ![starts](https://img.shields.io/github/stars/RickGeex/ProxyLogon.svg) ![forks](https://img.shields.io/github/forks/RickGeex/ProxyLogon.svg)
+
+- [https://github.com/mekhalleh/exchange_proxylogon](https://github.com/mekhalleh/exchange_proxylogon) :  ![starts](https://img.shields.io/github/stars/mekhalleh/exchange_proxylogon.svg) ![forks](https://img.shields.io/github/forks/mekhalleh/exchange_proxylogon.svg)
 
 - [https://github.com/hictf/CVE-2021-26855-CVE-2021-27065](https://github.com/hictf/CVE-2021-26855-CVE-2021-27065) :  ![starts](https://img.shields.io/github/stars/hictf/CVE-2021-26855-CVE-2021-27065.svg) ![forks](https://img.shields.io/github/forks/hictf/CVE-2021-26855-CVE-2021-27065.svg)
 
@@ -498,13 +486,13 @@
 
 - [https://github.com/Immersive-Labs-Sec/ProxyLogon](https://github.com/Immersive-Labs-Sec/ProxyLogon) :  ![starts](https://img.shields.io/github/stars/Immersive-Labs-Sec/ProxyLogon.svg) ![forks](https://img.shields.io/github/forks/Immersive-Labs-Sec/ProxyLogon.svg)
 
+- [https://github.com/RickGeex/ProxyLogon](https://github.com/RickGeex/ProxyLogon) :  ![starts](https://img.shields.io/github/stars/RickGeex/ProxyLogon.svg) ![forks](https://img.shields.io/github/forks/RickGeex/ProxyLogon.svg)
+
 - [https://github.com/Yt1g3r/CVE-2021-26855_SSRF](https://github.com/Yt1g3r/CVE-2021-26855_SSRF) :  ![starts](https://img.shields.io/github/stars/Yt1g3r/CVE-2021-26855_SSRF.svg) ![forks](https://img.shields.io/github/forks/Yt1g3r/CVE-2021-26855_SSRF.svg)
 
 - [https://github.com/shacojx/CVE_2021_26855_SSRF](https://github.com/shacojx/CVE_2021_26855_SSRF) :  ![starts](https://img.shields.io/github/stars/shacojx/CVE_2021_26855_SSRF.svg) ![forks](https://img.shields.io/github/forks/shacojx/CVE_2021_26855_SSRF.svg)
 
 - [https://github.com/mekhalleh/exchange_proxylogon](https://github.com/mekhalleh/exchange_proxylogon) :  ![starts](https://img.shields.io/github/stars/mekhalleh/exchange_proxylogon.svg) ![forks](https://img.shields.io/github/forks/mekhalleh/exchange_proxylogon.svg)
-
-- [https://github.com/RickGeex/ProxyLogon](https://github.com/RickGeex/ProxyLogon) :  ![starts](https://img.shields.io/github/stars/RickGeex/ProxyLogon.svg) ![forks](https://img.shields.io/github/forks/RickGeex/ProxyLogon.svg)
 
 - [https://github.com/r0ckysec/CVE-2021-26855_Exchange](https://github.com/r0ckysec/CVE-2021-26855_Exchange) :  ![starts](https://img.shields.io/github/stars/r0ckysec/CVE-2021-26855_Exchange.svg) ![forks](https://img.shields.io/github/forks/r0ckysec/CVE-2021-26855_Exchange.svg)
 
@@ -674,8 +662,6 @@
 
 - [https://github.com/waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098) :  ![starts](https://img.shields.io/github/stars/waleedassar/CVE-2021-24098.svg) ![forks](https://img.shields.io/github/forks/waleedassar/CVE-2021-24098.svg)
 
-- [https://github.com/Av3s/CVE-2021-24098](https://github.com/Av3s/CVE-2021-24098) :  ![starts](https://img.shields.io/github/stars/Av3s/CVE-2021-24098.svg) ![forks](https://img.shields.io/github/forks/Av3s/CVE-2021-24098.svg)
-
 ## CVE-2021-24096
  Windows Kernel Elevation of Privilege Vulnerability
 
@@ -689,8 +675,6 @@
 
 
 - [https://github.com/0vercl0k/CVE-2021-24086](https://github.com/0vercl0k/CVE-2021-24086) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2021-24086.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2021-24086.svg)
-
-- [https://github.com/Av3s/CVE-2021-24086](https://github.com/Av3s/CVE-2021-24086) :  ![starts](https://img.shields.io/github/stars/Av3s/CVE-2021-24086.svg) ![forks](https://img.shields.io/github/forks/Av3s/CVE-2021-24086.svg)
 
 ## CVE-2021-24085
  Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-2021-1730.
@@ -911,9 +895,9 @@
 
 - [https://github.com/Maskhe/CVE-2021-21300](https://github.com/Maskhe/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Maskhe/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Maskhe/CVE-2021-21300.svg)
 
-- [https://github.com/CppXL/CVE-2021-21300](https://github.com/CppXL/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/CppXL/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/CppXL/CVE-2021-21300.svg)
-
 - [https://github.com/danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/danshuizhangyu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/danshuizhangyu/CVE-2021-21300.svg)
+
+- [https://github.com/CppXL/CVE-2021-21300](https://github.com/CppXL/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/CppXL/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/CppXL/CVE-2021-21300.svg)
 
 - [https://github.com/erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/erranfenech/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/erranfenech/CVE-2021-21300.svg)
 
@@ -1024,13 +1008,6 @@
 
 - [https://github.com/Al1ex/CVE-2021-3317](https://github.com/Al1ex/CVE-2021-3317) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2021-3317.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2021-3317.svg)
 
-## CVE-2021-3297
- On Zyxel NBG2105 V1.00(AAGU.2)C0 devices, setting the login cookie to 1 provides administrator access.
-
-
-
-- [https://github.com/Sec504/Zyxel-NBG2105-CVE-2021-3297](https://github.com/Sec504/Zyxel-NBG2105-CVE-2021-3297) :  ![starts](https://img.shields.io/github/stars/Sec504/Zyxel-NBG2105-CVE-2021-3297.svg) ![forks](https://img.shields.io/github/forks/Sec504/Zyxel-NBG2105-CVE-2021-3297.svg)
-
 ## CVE-2021-3291
  Zen Cart 1.5.7b allows admins to execute arbitrary OS commands by inspecting an HTML radio input element (within the modules edit page) and inserting a command.
 
@@ -1139,9 +1116,9 @@
 
 - [https://github.com/freeFV/CVE-2021-3156](https://github.com/freeFV/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/freeFV/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/freeFV/CVE-2021-3156.svg)
 
-- [https://github.com/nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/nexcess/sudo_cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nexcess/sudo_cve-2021-3156.svg)
-
 - [https://github.com/AlexSeniorProject/CVE-2021-3156](https://github.com/AlexSeniorProject/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/AlexSeniorProject/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/AlexSeniorProject/CVE-2021-3156.svg)
+
+- [https://github.com/nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/nexcess/sudo_cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nexcess/sudo_cve-2021-3156.svg)
 
 - [https://github.com/cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/cdeletre/Serpentiel-CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/cdeletre/Serpentiel-CVE-2021-3156.svg)
 
