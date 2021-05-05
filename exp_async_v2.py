@@ -244,7 +244,6 @@ def init():
     global tokens
     with open(TOKEN_FILE) as f:
         content = f.readlines()
-    global blacklist
     for line in content:
         line = line.strip()
         if line.startswith("token:"):
@@ -253,6 +252,8 @@ def init():
     if(len(tokens)==0):
         print("please checkout your token files")
     global blacklist
+    with open(BLACKLIST_FILE) as f:
+        content = f.readlines()
     for line in content:
         line = line.strip()
         if(line!=""):
