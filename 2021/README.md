@@ -1,3 +1,10 @@
+## CVE-2021-31856
+ A SQL Injection vulnerability in the REST API in Layer5 Meshery 0.5.2 allows an attacker to execute arbitrary SQL commands via the /experimental/patternfiles endpoint (order parameter in GetMesheryPatterns in models/meshery_pattern_persister.go).
+
+
+
+- [https://github.com/ssst0n3/CVE-2021-31856](https://github.com/ssst0n3/CVE-2021-31856) :  ![starts](https://img.shields.io/github/stars/ssst0n3/CVE-2021-31856.svg) ![forks](https://img.shields.io/github/forks/ssst0n3/CVE-2021-31856.svg)
+
 ## CVE-2021-31762
  Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to create a privileged user through Webmin's add users feature, and then get a reverse shell through Webmin's running process feature.
 
@@ -24,15 +31,6 @@
 - [https://github.com/Mesh3l911/CVE-2021-31760](https://github.com/Mesh3l911/CVE-2021-31760) :  ![starts](https://img.shields.io/github/stars/Mesh3l911/CVE-2021-31760.svg) ![forks](https://img.shields.io/github/forks/Mesh3l911/CVE-2021-31760.svg)
 
 - [https://github.com/electronicbots/CVE-2021-31760](https://github.com/electronicbots/CVE-2021-31760) :  ![starts](https://img.shields.io/github/stars/electronicbots/CVE-2021-31760.svg) ![forks](https://img.shields.io/github/forks/electronicbots/CVE-2021-31760.svg)
-
-## CVE-2021-31221
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/fireaye/ioc-scanner-CVE-2021-31221](https://github.com/fireaye/ioc-scanner-CVE-2021-31221) :  ![starts](https://img.shields.io/github/stars/fireaye/ioc-scanner-CVE-2021-31221.svg) ![forks](https://img.shields.io/github/forks/fireaye/ioc-scanner-CVE-2021-31221.svg)
-
-- [https://github.com/f1reeye/ioc-scanner-CVE-2021-31221](https://github.com/f1reeye/ioc-scanner-CVE-2021-31221) :  ![starts](https://img.shields.io/github/stars/f1reeye/ioc-scanner-CVE-2021-31221.svg) ![forks](https://img.shields.io/github/forks/f1reeye/ioc-scanner-CVE-2021-31221.svg)
 
 ## CVE-2021-30481
  Valve Steam through 2021-04-10, when a Source engine game is installed, allows remote authenticated users to execute arbitrary code because of a buffer overflow that occurs for a Steam invite after one click.
@@ -319,14 +317,19 @@
 
 - [https://github.com/DCScoder/Exchange_IOC_Hunter](https://github.com/DCScoder/Exchange_IOC_Hunter) :  ![starts](https://img.shields.io/github/stars/DCScoder/Exchange_IOC_Hunter.svg) ![forks](https://img.shields.io/github/forks/DCScoder/Exchange_IOC_Hunter.svg)
 
-- [https://github.com/Nick-Yin12/106362522](https://github.com/Nick-Yin12/106362522) :  ![starts](https://img.shields.io/github/stars/Nick-Yin12/106362522.svg) ![forks](https://img.shields.io/github/forks/Nick-Yin12/106362522.svg)
-
 ## CVE-2021-26943
  The UX360CA BIOS through 303 on ASUS laptops allow an attacker (with the ring 0 privilege) to overwrite nearly arbitrary physical memory locations, including SMRAM, and execute arbitrary code in the SMM (issue 3 of 3).
 
 
 
 - [https://github.com/tandasat/SmmExploit](https://github.com/tandasat/SmmExploit) :  ![starts](https://img.shields.io/github/stars/tandasat/SmmExploit.svg) ![forks](https://img.shields.io/github/forks/tandasat/SmmExploit.svg)
+
+## CVE-2021-26909
+ Automox Agent prior to version 31 uses an insufficiently protected S3 bucket endpoint for storing sensitive files, which could be brute-forced by an attacker to subvert an organization's security program. The issue has since been fixed in version 31 of the Automox Agent.
+
+
+
+- [https://github.com/GoogleProjectZer0/CVE-2021-26909](https://github.com/GoogleProjectZer0/CVE-2021-26909) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-26909.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-26909.svg)
 
 ## CVE-2021-26904
  LMA ISIDA Retriever 5.2 allows SQL Injection.
@@ -507,8 +510,6 @@
 
 - [https://github.com/mauricelambert/ExchangeWeaknessTest](https://github.com/mauricelambert/ExchangeWeaknessTest) :  ![starts](https://img.shields.io/github/stars/mauricelambert/ExchangeWeaknessTest.svg) ![forks](https://img.shields.io/github/forks/mauricelambert/ExchangeWeaknessTest.svg)
 
-- [https://github.com/Nick-Yin12/106362522](https://github.com/Nick-Yin12/106362522) :  ![starts](https://img.shields.io/github/stars/Nick-Yin12/106362522.svg) ![forks](https://img.shields.io/github/forks/Nick-Yin12/106362522.svg)
-
 ## CVE-2021-26832
  Cross Site Scripting (XSS) in the &quot;Reset Password&quot; page form of Priority Enterprise Management System v8.00 allows attackers to execute javascript on behalf of the victim by sending a malicious URL or directing the victim to a malicious site.
 
@@ -653,6 +654,48 @@
 
 
 - [https://github.com/Parasect-Team/for-trendmciro](https://github.com/Parasect-Team/for-trendmciro) :  ![starts](https://img.shields.io/github/stars/Parasect-Team/for-trendmciro.svg) ![forks](https://img.shields.io/github/forks/Parasect-Team/for-trendmciro.svg)
+
+## CVE-2021-24276
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/GoogleProjectZer0/CVE-2021-24276](https://github.com/GoogleProjectZer0/CVE-2021-24276) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-24276.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-24276.svg)
+
+## CVE-2021-24273
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/GoogleProjectZer0/CVE-2021-24273](https://github.com/GoogleProjectZer0/CVE-2021-24273) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-24273.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-24273.svg)
+
+## CVE-2021-24268
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/GoogleProjectZer0/CVE-2021-24268](https://github.com/GoogleProjectZer0/CVE-2021-24268) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-24268.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-24268.svg)
+
+## CVE-2021-24265
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/GoogleProjectZer0/CVE-2021-24265](https://github.com/GoogleProjectZer0/CVE-2021-24265) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-24265.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-24265.svg)
+
+## CVE-2021-24260
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/GoogleProjectZer0/CVE-2021-24260](https://github.com/GoogleProjectZer0/CVE-2021-24260) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-24260.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-24260.svg)
+
+## CVE-2021-24258
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/GoogleProjectZer0/CVE-2021-24258](https://github.com/GoogleProjectZer0/CVE-2021-24258) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-24258.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-24258.svg)
 
 ## CVE-2021-24098
  Windows Console Driver Denial of Service Vulnerability
@@ -848,9 +891,9 @@
 
 - [https://github.com/JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/JMousqueton/Detect-CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/JMousqueton/Detect-CVE-2021-21972.svg)
 
-- [https://github.com/murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2021-21972.svg)
-
 - [https://github.com/ByZain/CVE-2021-21972](https://github.com/ByZain/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/ByZain/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/ByZain/CVE-2021-21972.svg)
+
+- [https://github.com/murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2021-21972.svg)
 
 - [https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg)
 
@@ -951,6 +994,13 @@
 
 
 - [https://github.com/HoangKien1020/CVE-2021-21014](https://github.com/HoangKien1020/CVE-2021-21014) :  ![starts](https://img.shields.io/github/stars/HoangKien1020/CVE-2021-21014.svg) ![forks](https://img.shields.io/github/forks/HoangKien1020/CVE-2021-21014.svg)
+
+## CVE-2021-20708
+ NEC Aterm devices (Aterm WF1200CR firmware Ver1.3.2 and earlier, Aterm WG1200CR firmware Ver1.3.3 and earlier, and Aterm WG2600HS firmware Ver1.5.1 and earlier) allow authenticated attackers to execute arbitrary OS commands by sending a specially crafted request to a specific URL.
+
+
+
+- [https://github.com/GoogleProjectZer0/CVE-2021-20708](https://github.com/GoogleProjectZer0/CVE-2021-20708) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-20708.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-20708.svg)
 
 ## CVE-2021-3493
  The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges.
@@ -1132,6 +1182,8 @@
 - [https://github.com/Ashish-dawani/CVE-2021-3156-Patch](https://github.com/Ashish-dawani/CVE-2021-3156-Patch) :  ![starts](https://img.shields.io/github/stars/Ashish-dawani/CVE-2021-3156-Patch.svg) ![forks](https://img.shields.io/github/forks/Ashish-dawani/CVE-2021-3156-Patch.svg)
 
 - [https://github.com/leterts/CVE-2021-3156-sudo-raising](https://github.com/leterts/CVE-2021-3156-sudo-raising) :  ![starts](https://img.shields.io/github/stars/leterts/CVE-2021-3156-sudo-raising.svg) ![forks](https://img.shields.io/github/forks/leterts/CVE-2021-3156-sudo-raising.svg)
+
+- [https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build) :  ![starts](https://img.shields.io/github/stars/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build.svg) ![forks](https://img.shields.io/github/forks/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build.svg)
 
 - [https://github.com/r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability](https://github.com/r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability) :  ![starts](https://img.shields.io/github/stars/r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability.svg) ![forks](https://img.shields.io/github/forks/r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability.svg)
 
