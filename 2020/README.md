@@ -324,9 +324,9 @@
 
 - [https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955](https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955.svg)
 
-- [https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go](https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go) :  ![starts](https://img.shields.io/github/stars/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go.svg) ![forks](https://img.shields.io/github/forks/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go.svg)
-
 - [https://github.com/r00t4dm/CVE-2020-27955](https://github.com/r00t4dm/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/r00t4dm/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/r00t4dm/CVE-2020-27955.svg)
+
+- [https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go](https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go) :  ![starts](https://img.shields.io/github/stars/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go.svg) ![forks](https://img.shields.io/github/forks/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go.svg)
 
 - [https://github.com/williamgoulois/git-lfs-RCE-exploit-CVE-2020-27955-revshell](https://github.com/williamgoulois/git-lfs-RCE-exploit-CVE-2020-27955-revshell) :  ![starts](https://img.shields.io/github/stars/williamgoulois/git-lfs-RCE-exploit-CVE-2020-27955-revshell.svg) ![forks](https://img.shields.io/github/forks/williamgoulois/git-lfs-RCE-exploit-CVE-2020-27955-revshell.svg)
 
@@ -341,6 +341,8 @@
 - [https://github.com/shubham0d/CVE-2020-27955](https://github.com/shubham0d/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/shubham0d/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/shubham0d/CVE-2020-27955.svg)
 
 - [https://github.com/dennyson120/CVE-2020-27955](https://github.com/dennyson120/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/dennyson120/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/dennyson120/CVE-2020-27955.svg)
+
+- [https://github.com/IanSmith123/CVE-2020-27955](https://github.com/IanSmith123/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/IanSmith123/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/IanSmith123/CVE-2020-27955.svg)
 
 - [https://github.com/yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc) :  ![starts](https://img.shields.io/github/stars/yhsung/cve-2020-27955-poc.svg) ![forks](https://img.shields.io/github/forks/yhsung/cve-2020-27955-poc.svg)
 
@@ -702,6 +704,13 @@
 
 - [https://github.com/Ko-kn3t/CVE-2020-25487](https://github.com/Ko-kn3t/CVE-2020-25487) :  ![starts](https://img.shields.io/github/stars/Ko-kn3t/CVE-2020-25487.svg) ![forks](https://img.shields.io/github/forks/Ko-kn3t/CVE-2020-25487.svg)
 
+## CVE-2020-25453
+ An issue was discovered in BlackCat CMS before 1.4. There is a CSRF vulnerability (bypass csrf_token) that allows remote arbitrary code execution.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-25453](https://github.com/JamesGeee/CVE-2020-25453) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-25453.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-25453.svg)
+
 ## CVE-2020-25399
  Stored XSS in InterMind iMind Server through 3.13.65 allows any user to hijack another user's session by sending a malicious file in the chat.
 
@@ -985,20 +994,6 @@
 
 
 - [https://github.com/Outpost24/Pyrescom-Termod-PoC](https://github.com/Outpost24/Pyrescom-Termod-PoC) :  ![starts](https://img.shields.io/github/stars/Outpost24/Pyrescom-Termod-PoC.svg) ![forks](https://img.shields.io/github/forks/Outpost24/Pyrescom-Termod-PoC.svg)
-
-## CVE-2020-22785
- Etherpad &lt; 1.8.3 is affected by a missing lock check which could cause a denial of service. Aggressively targeting random pad import endpoints with empty data would flatten all pads due to lack of rate limiting and missing ownership check.
-
-
-
-- [https://github.com/GoogleProjectZer0/CVE-2020-22785](https://github.com/GoogleProjectZer0/CVE-2020-22785) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2020-22785.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2020-22785.svg)
-
-## CVE-2020-22783
- Etherpad &lt;1.8.3 stored passwords used by users insecurely in the database and in log files. This affects every database backend supported by Etherpad.
-
-
-
-- [https://github.com/GoogleProjectZer0/CVE-2020-22783](https://github.com/GoogleProjectZer0/CVE-2020-22783) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2020-22783.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2020-22783.svg)
 
 ## CVE-2020-21224
  A Remote Code Execution vulnerability has been found in Inspur ClusterEngine V4.0. A remote attacker can send a malicious login packet to the control server
@@ -1660,9 +1655,9 @@
 
 - [https://github.com/securitysqs/poc](https://github.com/securitysqs/poc) :  ![starts](https://img.shields.io/github/stars/securitysqs/poc.svg) ![forks](https://img.shields.io/github/forks/securitysqs/poc.svg)
 
-- [https://github.com/alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/alexfrancow/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/alexfrancow/CVE-2020-14882.svg)
-
 - [https://github.com/BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2020-14882.svg)
+
+- [https://github.com/alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/alexfrancow/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/alexfrancow/CVE-2020-14882.svg)
 
 - [https://github.com/AirEvan/CVE-2020-14882-GUI-Test](https://github.com/AirEvan/CVE-2020-14882-GUI-Test) :  ![starts](https://img.shields.io/github/stars/AirEvan/CVE-2020-14882-GUI-Test.svg) ![forks](https://img.shields.io/github/forks/AirEvan/CVE-2020-14882-GUI-Test.svg)
 
@@ -2168,13 +2163,6 @@
 
 
 - [https://github.com/naren-jayram/Linux-Heap-Based-Type-Confusion-in-L2CAP](https://github.com/naren-jayram/Linux-Heap-Based-Type-Confusion-in-L2CAP) :  ![starts](https://img.shields.io/github/stars/naren-jayram/Linux-Heap-Based-Type-Confusion-in-L2CAP.svg) ![forks](https://img.shields.io/github/forks/naren-jayram/Linux-Heap-Based-Type-Confusion-in-L2CAP.svg)
-
-## CVE-2020-12345
- Improper permissions in the installer for the Intel(R) Data Center Manager Console before version 3.6.2 may allow an authenticated user to potentially enable escalation of privilege via local access.
-
-
-
-- [https://github.com/asc0t6e/cVe-2020-12345](https://github.com/asc0t6e/cVe-2020-12345) :  ![starts](https://img.shields.io/github/stars/asc0t6e/cVe-2020-12345.svg) ![forks](https://img.shields.io/github/forks/asc0t6e/cVe-2020-12345.svg)
 
 ## CVE-2020-12265
  The decompress package before 4.2.1 for Node.js is vulnerable to Arbitrary File Write via ../ in an archive member, when a symlink is used, because of Directory Traversal.
@@ -2682,9 +2670,9 @@
 
 - [https://github.com/zhzyker/CVE-2020-10199_POC-EXP](https://github.com/zhzyker/CVE-2020-10199_POC-EXP) :  ![starts](https://img.shields.io/github/stars/zhzyker/CVE-2020-10199_POC-EXP.svg) ![forks](https://img.shields.io/github/forks/zhzyker/CVE-2020-10199_POC-EXP.svg)
 
-- [https://github.com/jas502n/CVE-2020-10199](https://github.com/jas502n/CVE-2020-10199) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-10199.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-10199.svg)
-
 - [https://github.com/aleenzz/CVE-2020-10199](https://github.com/aleenzz/CVE-2020-10199) :  ![starts](https://img.shields.io/github/stars/aleenzz/CVE-2020-10199.svg) ![forks](https://img.shields.io/github/forks/aleenzz/CVE-2020-10199.svg)
+
+- [https://github.com/jas502n/CVE-2020-10199](https://github.com/jas502n/CVE-2020-10199) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-10199.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-10199.svg)
 
 - [https://github.com/magicming200/CVE-2020-10199_CVE-2020-10204](https://github.com/magicming200/CVE-2020-10199_CVE-2020-10204) :  ![starts](https://img.shields.io/github/stars/magicming200/CVE-2020-10199_CVE-2020-10204.svg) ![forks](https://img.shields.io/github/forks/magicming200/CVE-2020-10199_CVE-2020-10204.svg)
 
@@ -4627,27 +4615,27 @@
 
 - [https://github.com/itssmikefm/CVE-2020-1472](https://github.com/itssmikefm/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/itssmikefm/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/itssmikefm/CVE-2020-1472.svg)
 
-- [https://github.com/Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve-2020-1472.svg)
-
-- [https://github.com/puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2020-1472.svg)
-
 - [https://github.com/mos165/CVE-20200-1472](https://github.com/mos165/CVE-20200-1472) :  ![starts](https://img.shields.io/github/stars/mos165/CVE-20200-1472.svg) ![forks](https://img.shields.io/github/forks/mos165/CVE-20200-1472.svg)
 
 - [https://github.com/SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/SaharAttackit/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/SaharAttackit/CVE-2020-1472.svg)
+
+- [https://github.com/puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2020-1472.svg)
+
+- [https://github.com/Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve-2020-1472.svg)
 
 - [https://github.com/Tobey123/CVE-2020-1472-visualizer](https://github.com/Tobey123/CVE-2020-1472-visualizer) :  ![starts](https://img.shields.io/github/stars/Tobey123/CVE-2020-1472-visualizer.svg) ![forks](https://img.shields.io/github/forks/Tobey123/CVE-2020-1472-visualizer.svg)
 
 - [https://github.com/t31m0/CVE-2020-1472](https://github.com/t31m0/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/t31m0/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/t31m0/CVE-2020-1472.svg)
 
-- [https://github.com/b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/b1ack0wl/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/b1ack0wl/CVE-2020-1472.svg)
-
 - [https://github.com/CanciuCostin/CVE-2020-1472](https://github.com/CanciuCostin/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/CanciuCostin/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/CanciuCostin/CVE-2020-1472.svg)
 
 - [https://github.com/midpipps/CVE-2020-1472-Easy](https://github.com/midpipps/CVE-2020-1472-Easy) :  ![starts](https://img.shields.io/github/stars/midpipps/CVE-2020-1472-Easy.svg) ![forks](https://img.shields.io/github/forks/midpipps/CVE-2020-1472-Easy.svg)
 
-- [https://github.com/grupooruss/CVE-2020-1472](https://github.com/grupooruss/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/grupooruss/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/grupooruss/CVE-2020-1472.svg)
+- [https://github.com/b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/b1ack0wl/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/b1ack0wl/CVE-2020-1472.svg)
 
 - [https://github.com/Fa1c0n35/CVE-2020-1472-02-](https://github.com/Fa1c0n35/CVE-2020-1472-02-) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472-02-.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472-02-.svg)
+
+- [https://github.com/grupooruss/CVE-2020-1472](https://github.com/grupooruss/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/grupooruss/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/grupooruss/CVE-2020-1472.svg)
 
 - [https://github.com/johnpathe/zerologon-cve-2020-1472-notes](https://github.com/johnpathe/zerologon-cve-2020-1472-notes) :  ![starts](https://img.shields.io/github/stars/johnpathe/zerologon-cve-2020-1472-notes.svg) ![forks](https://img.shields.io/github/forks/johnpathe/zerologon-cve-2020-1472-notes.svg)
 
@@ -4689,9 +4677,9 @@
 
 - [https://github.com/corelight/SIGRed](https://github.com/corelight/SIGRed) :  ![starts](https://img.shields.io/github/stars/corelight/SIGRed.svg) ![forks](https://img.shields.io/github/forks/corelight/SIGRed.svg)
 
-- [https://github.com/mr-r3b00t/CVE-2020-1350](https://github.com/mr-r3b00t/CVE-2020-1350) :  ![starts](https://img.shields.io/github/stars/mr-r3b00t/CVE-2020-1350.svg) ![forks](https://img.shields.io/github/forks/mr-r3b00t/CVE-2020-1350.svg)
-
 - [https://github.com/connormcgarr/CVE-2020-1350](https://github.com/connormcgarr/CVE-2020-1350) :  ![starts](https://img.shields.io/github/stars/connormcgarr/CVE-2020-1350.svg) ![forks](https://img.shields.io/github/forks/connormcgarr/CVE-2020-1350.svg)
+
+- [https://github.com/mr-r3b00t/CVE-2020-1350](https://github.com/mr-r3b00t/CVE-2020-1350) :  ![starts](https://img.shields.io/github/stars/mr-r3b00t/CVE-2020-1350.svg) ![forks](https://img.shields.io/github/forks/mr-r3b00t/CVE-2020-1350.svg)
 
 - [https://github.com/zoomerxsec/Fake_CVE-2020-1350](https://github.com/zoomerxsec/Fake_CVE-2020-1350) :  ![starts](https://img.shields.io/github/stars/zoomerxsec/Fake_CVE-2020-1350.svg) ![forks](https://img.shields.io/github/forks/zoomerxsec/Fake_CVE-2020-1350.svg)
 
@@ -4755,13 +4743,6 @@
 
 
 - [https://github.com/RedyOpsResearchLabs/CVE-2020-1283_Windows-Denial-of-Service-Vulnerability](https://github.com/RedyOpsResearchLabs/CVE-2020-1283_Windows-Denial-of-Service-Vulnerability) :  ![starts](https://img.shields.io/github/stars/RedyOpsResearchLabs/CVE-2020-1283_Windows-Denial-of-Service-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/RedyOpsResearchLabs/CVE-2020-1283_Windows-Denial-of-Service-Vulnerability.svg)
-
-## CVE-2020-1234
- An elevation of privilege vulnerability exists when Windows Error Reporting improperly handles objects in memory.To exploit this vulnerability, an attacker would first have to gain execution on the victim system, aka 'Windows Error Reporting Elevation of Privilege Vulnerability'.
-
-
-
-- [https://github.com/asc0t6e/Cve-20201-1234](https://github.com/asc0t6e/Cve-20201-1234) :  ![starts](https://img.shields.io/github/stars/asc0t6e/Cve-20201-1234.svg) ![forks](https://img.shields.io/github/forks/asc0t6e/Cve-20201-1234.svg)
 
 ## CVE-2020-1206
  An information disclosure vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Information Disclosure Vulnerability'.
@@ -4995,9 +4976,9 @@
 
 - [https://github.com/MasterSploit/LPE---CVE-2020-0796](https://github.com/MasterSploit/LPE---CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/MasterSploit/LPE---CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/MasterSploit/LPE---CVE-2020-0796.svg)
 
-- [https://github.com/codewithpradhan/SMBGhost-CVE-2020-0796-](https://github.com/codewithpradhan/SMBGhost-CVE-2020-0796-) :  ![starts](https://img.shields.io/github/stars/codewithpradhan/SMBGhost-CVE-2020-0796-.svg) ![forks](https://img.shields.io/github/forks/codewithpradhan/SMBGhost-CVE-2020-0796-.svg)
-
 - [https://github.com/syadg123/CVE-2020-0796](https://github.com/syadg123/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/syadg123/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/syadg123/CVE-2020-0796.svg)
+
+- [https://github.com/codewithpradhan/SMBGhost-CVE-2020-0796-](https://github.com/codewithpradhan/SMBGhost-CVE-2020-0796-) :  ![starts](https://img.shields.io/github/stars/codewithpradhan/SMBGhost-CVE-2020-0796-.svg) ![forks](https://img.shields.io/github/forks/codewithpradhan/SMBGhost-CVE-2020-0796-.svg)
 
 - [https://github.com/cory-zajicek/CVE-2020-0796-DoS](https://github.com/cory-zajicek/CVE-2020-0796-DoS) :  ![starts](https://img.shields.io/github/stars/cory-zajicek/CVE-2020-0796-DoS.svg) ![forks](https://img.shields.io/github/forks/cory-zajicek/CVE-2020-0796-DoS.svg)
 
@@ -5025,17 +5006,17 @@
 
 - [https://github.com/ran-sama/CVE-2020-0796](https://github.com/ran-sama/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/ran-sama/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/ran-sama/CVE-2020-0796.svg)
 
-- [https://github.com/datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/datntsec/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/datntsec/CVE-2020-0796.svg)
-
 - [https://github.com/kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/kn6869610/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/kn6869610/CVE-2020-0796.svg)
 
 - [https://github.com/xax007/CVE-2020-0796-Scanner](https://github.com/xax007/CVE-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/xax007/CVE-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/xax007/CVE-2020-0796-Scanner.svg)
 
+- [https://github.com/datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/datntsec/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/datntsec/CVE-2020-0796.svg)
+
 - [https://github.com/TinToSer/CVE-2020-0796-LPE](https://github.com/TinToSer/CVE-2020-0796-LPE) :  ![starts](https://img.shields.io/github/stars/TinToSer/CVE-2020-0796-LPE.svg) ![forks](https://img.shields.io/github/forks/TinToSer/CVE-2020-0796-LPE.svg)
 
-- [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
-
 - [https://github.com/ORCA666/CVE-2020-0796](https://github.com/ORCA666/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/ORCA666/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/ORCA666/CVE-2020-0796.svg)
+
+- [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
 
 - [https://github.com/section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/section-c/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/section-c/CVE-2020-0796.svg)
 
@@ -5107,13 +5088,6 @@
 
 - [https://github.com/irsl/CVE-2020-0728](https://github.com/irsl/CVE-2020-0728) :  ![starts](https://img.shields.io/github/stars/irsl/CVE-2020-0728.svg) ![forks](https://img.shields.io/github/forks/irsl/CVE-2020-0728.svg)
 
-## CVE-2020-0708
- A remote code execution vulnerability exists when the Windows Imaging Library improperly handles memory.To exploit this vulnerability, an attacker would first have to coerce a victim to open a specially crafted file.The security update addresses the vulnerability by correcting how the Windows Imaging Library handles memory., aka 'Windows Imaging Library Remote Code Execution Vulnerability'.
-
-
-
-- [https://github.com/asc0t6e/CVE-2020-0708](https://github.com/asc0t6e/CVE-2020-0708) :  ![starts](https://img.shields.io/github/stars/asc0t6e/CVE-2020-0708.svg) ![forks](https://img.shields.io/github/forks/asc0t6e/CVE-2020-0708.svg)
-
 ## CVE-2020-0688
  A remote code execution vulnerability exists in Microsoft Exchange software when the software fails to properly handle objects in memory, aka 'Microsoft Exchange Memory Corruption Vulnerability'.
 
@@ -5153,9 +5127,9 @@
 
 - [https://github.com/mahyarx/Exploit_CVE-2020-0688](https://github.com/mahyarx/Exploit_CVE-2020-0688) :  ![starts](https://img.shields.io/github/stars/mahyarx/Exploit_CVE-2020-0688.svg) ![forks](https://img.shields.io/github/forks/mahyarx/Exploit_CVE-2020-0688.svg)
 
-- [https://github.com/ktpdpro/CVE-2020-0688](https://github.com/ktpdpro/CVE-2020-0688) :  ![starts](https://img.shields.io/github/stars/ktpdpro/CVE-2020-0688.svg) ![forks](https://img.shields.io/github/forks/ktpdpro/CVE-2020-0688.svg)
-
 - [https://github.com/truongtn/cve-2020-0688](https://github.com/truongtn/cve-2020-0688) :  ![starts](https://img.shields.io/github/stars/truongtn/cve-2020-0688.svg) ![forks](https://img.shields.io/github/forks/truongtn/cve-2020-0688.svg)
+
+- [https://github.com/ktpdpro/CVE-2020-0688](https://github.com/ktpdpro/CVE-2020-0688) :  ![starts](https://img.shields.io/github/stars/ktpdpro/CVE-2020-0688.svg) ![forks](https://img.shields.io/github/forks/ktpdpro/CVE-2020-0688.svg)
 
 - [https://github.com/Ken-Abruzzi/cve_2020_0688](https://github.com/Ken-Abruzzi/cve_2020_0688) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve_2020_0688.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve_2020_0688.svg)
 
@@ -5299,9 +5273,9 @@
 
 - [https://github.com/thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl) :  ![starts](https://img.shields.io/github/stars/thimelp/cve-2020-0601-Perl.svg) ![forks](https://img.shields.io/github/forks/thimelp/cve-2020-0601-Perl.svg)
 
-- [https://github.com/exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey) :  ![starts](https://img.shields.io/github/stars/exploitblizzard/CVE-2020-0601-spoofkey.svg) ![forks](https://img.shields.io/github/forks/exploitblizzard/CVE-2020-0601-spoofkey.svg)
-
 - [https://github.com/apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/apmunch/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/apmunch/CVE-2020-0601.svg)
+
+- [https://github.com/exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey) :  ![starts](https://img.shields.io/github/stars/exploitblizzard/CVE-2020-0601-spoofkey.svg) ![forks](https://img.shields.io/github/forks/exploitblizzard/CVE-2020-0601-spoofkey.svg)
 
 - [https://github.com/MarkusZehnle/CVE-2020-0601](https://github.com/MarkusZehnle/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/MarkusZehnle/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/MarkusZehnle/CVE-2020-0601.svg)
 
