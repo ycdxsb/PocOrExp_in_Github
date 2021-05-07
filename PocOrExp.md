@@ -6,6 +6,20 @@
 
 - [https://github.com/ssst0n3/CVE-2021-31856](https://github.com/ssst0n3/CVE-2021-31856) :  ![starts](https://img.shields.io/github/stars/ssst0n3/CVE-2021-31856.svg) ![forks](https://img.shields.io/github/forks/ssst0n3/CVE-2021-31856.svg)
 
+## CVE-2021-31828
+ An SSRF issue in Open Distro for Elasticsearch (ODFE) before 1.13.1.0 allows an existing privileged user to enumerate listening services or interact with configured resources via HTTP requests exceeding the Alerting plugin's intended scope.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31828](https://github.com/JamesGeee/CVE-2021-31828) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31828.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31828.svg)
+
+## CVE-2021-31795
+ The PowerVR GPU kernel driver in pvrsrvkm.ko through 2021-04-24 for the Linux kernel, as used on Alcatel 1S phones, allows attackers to overwrite heap memory via PhysmemNewRamBackedPMR.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31795](https://github.com/JamesGeee/CVE-2021-31795) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31795.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31795.svg)
+
 ## CVE-2021-31762
  Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to create a privileged user through Webmin's add users feature, and then get a reverse shell through Webmin's running process feature.
 
@@ -33,12 +47,54 @@
 
 - [https://github.com/electronicbots/CVE-2021-31760](https://github.com/electronicbots/CVE-2021-31760) :  ![starts](https://img.shields.io/github/stars/electronicbots/CVE-2021-31760.svg) ![forks](https://img.shields.io/github/forks/electronicbots/CVE-2021-31760.svg)
 
+## CVE-2021-31728
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/irql0/CVE-2021-31728](https://github.com/irql0/CVE-2021-31728) :  ![starts](https://img.shields.io/github/stars/irql0/CVE-2021-31728.svg) ![forks](https://img.shields.io/github/forks/irql0/CVE-2021-31728.svg)
+
+## CVE-2021-31420
+ This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop 16.1.0-48950. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Toolgate component. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor. Was ZDI-CAN-12220.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31420](https://github.com/JamesGeee/CVE-2021-31420) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31420.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31420.svg)
+
+## CVE-2021-31419
+ This vulnerability allows local attackers to disclose sensitive information on affected installations of Parallels Desktop 15.1.4-47270. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Toolgate component. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the hypervisor. Was ZDI-CAN-12136.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31419](https://github.com/JamesGeee/CVE-2021-31419) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31419.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31419.svg)
+
+## CVE-2021-31418
+ This vulnerability allows local attackers to disclose sensitive information on affected installations of Parallels Desktop 15.1.4-47270. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Toolgate component. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the hypervisor. Was ZDI-CAN-12221.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31418](https://github.com/JamesGeee/CVE-2021-31418) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31418.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31418.svg)
+
+## CVE-2021-31417
+ This vulnerability allows local attackers to disclose sensitive information on affected installations of Parallels Desktop 15.1.4-47270. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Toolgate component. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the hypervisor. Was ZDI-CAN-12131.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31417](https://github.com/JamesGeee/CVE-2021-31417) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31417.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31417.svg)
+
 ## CVE-2021-30481
  Valve Steam through 2021-04-10, when a Source engine game is installed, allows remote authenticated users to execute arbitrary code because of a buffer overflow that occurs for a Steam invite after one click.
 
 
 
 - [https://github.com/floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481) :  ![starts](https://img.shields.io/github/stars/floesen/CVE-2021-30481.svg) ![forks](https://img.shields.io/github/forks/floesen/CVE-2021-30481.svg)
+
+## CVE-2021-30461
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/daedalus/CVE-2021-30461](https://github.com/daedalus/CVE-2021-30461) :  ![starts](https://img.shields.io/github/stars/daedalus/CVE-2021-30461.svg) ![forks](https://img.shields.io/github/forks/daedalus/CVE-2021-30461.svg)
 
 ## CVE-2021-30150
  Composr 10.0.36 allows XSS in an XML script.
@@ -324,13 +380,6 @@
 
 
 - [https://github.com/tandasat/SmmExploit](https://github.com/tandasat/SmmExploit) :  ![starts](https://img.shields.io/github/stars/tandasat/SmmExploit.svg) ![forks](https://img.shields.io/github/forks/tandasat/SmmExploit.svg)
-
-## CVE-2021-26909
- Automox Agent prior to version 31 uses an insufficiently protected S3 bucket endpoint for storing sensitive files, which could be brute-forced by an attacker to subvert an organization's security program. The issue has since been fixed in version 31 of the Automox Agent.
-
-
-
-- [https://github.com/GoogleProjectZer0/CVE-2021-26909](https://github.com/GoogleProjectZer0/CVE-2021-26909) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-26909.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-26909.svg)
 
 ## CVE-2021-26904
  LMA ISIDA Retriever 5.2 allows SQL Injection.
@@ -656,48 +705,6 @@
 
 - [https://github.com/Parasect-Team/for-trendmciro](https://github.com/Parasect-Team/for-trendmciro) :  ![starts](https://img.shields.io/github/stars/Parasect-Team/for-trendmciro.svg) ![forks](https://img.shields.io/github/forks/Parasect-Team/for-trendmciro.svg)
 
-## CVE-2021-24276
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/GoogleProjectZer0/CVE-2021-24276](https://github.com/GoogleProjectZer0/CVE-2021-24276) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-24276.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-24276.svg)
-
-## CVE-2021-24273
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/GoogleProjectZer0/CVE-2021-24273](https://github.com/GoogleProjectZer0/CVE-2021-24273) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-24273.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-24273.svg)
-
-## CVE-2021-24268
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/GoogleProjectZer0/CVE-2021-24268](https://github.com/GoogleProjectZer0/CVE-2021-24268) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-24268.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-24268.svg)
-
-## CVE-2021-24265
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/GoogleProjectZer0/CVE-2021-24265](https://github.com/GoogleProjectZer0/CVE-2021-24265) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-24265.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-24265.svg)
-
-## CVE-2021-24260
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/GoogleProjectZer0/CVE-2021-24260](https://github.com/GoogleProjectZer0/CVE-2021-24260) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-24260.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-24260.svg)
-
-## CVE-2021-24258
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/GoogleProjectZer0/CVE-2021-24258](https://github.com/GoogleProjectZer0/CVE-2021-24258) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-24258.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-24258.svg)
-
 ## CVE-2021-24098
  Windows Console Driver Denial of Service Vulnerability
 
@@ -900,6 +907,27 @@
 
 - [https://github.com/pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter) :  ![starts](https://img.shields.io/github/stars/pettyhacks/vSphereyeeter.svg) ![forks](https://img.shields.io/github/forks/pettyhacks/vSphereyeeter.svg)
 
+## CVE-2021-21536
+ Dell Hybrid Client versions prior to 1.5 contain an information exposure vulnerability. A local unauthenticated attacker may exploit this vulnerability in order to register the client to a server in order to view sensitive information.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-21536](https://github.com/JamesGeee/CVE-2021-21536) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-21536.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-21536.svg)
+
+## CVE-2021-21535
+ Dell Hybrid Client versions prior to 1.5 contain a missing authentication for a critical function vulnerability. A local unauthenticated attacker may exploit this vulnerability in order to gain root level access to the system.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-21535](https://github.com/JamesGeee/CVE-2021-21535) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-21535.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-21535.svg)
+
+## CVE-2021-21534
+ Dell Hybrid Client versions prior to 1.5 contain an information exposure vulnerability. A local unauthenticated attacker may exploit this vulnerability in order to gain access to sensitive information via the local API.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-21534](https://github.com/JamesGeee/CVE-2021-21534) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-21534.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-21534.svg)
+
 ## CVE-2021-21402
  Jellyfin is a Free Software Media System. In Jellyfin before version 10.7.1, with certain endpoints, well crafted requests will allow arbitrary file read from a Jellyfin server's file system. This issue is more prevalent when Windows is used as the host OS. Servers that are exposed to the public Internet are potentially at risk. This is fixed in version 10.7.1. As a workaround, users may be able to restrict some access by enforcing strict security permissions on their filesystem, however, it is recommended to update as soon as possible.
 
@@ -924,8 +952,6 @@
  The System Information Library for Node.JS (npm package &quot;systeminformation&quot;) is an open source collection of functions to retrieve detailed hardware, system and OS information. In systeminformation before version 5.3.1 there is a command injection vulnerability. Problem was fixed in version 5.3.1. As a workaround instead of upgrading, be sure to check or sanitize service parameters that are passed to si.inetLatency(), si.inetChecksite(), si.services(), si.processLoad() ... do only allow strings, reject any arrays. String sanitation works as expected.
 
 
-
-- [https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC) :  ![starts](https://img.shields.io/github/stars/ForbiddenProgrammer/CVE-2021-21315-PoC.svg) ![forks](https://img.shields.io/github/forks/ForbiddenProgrammer/CVE-2021-21315-PoC.svg)
 
 - [https://github.com/cherrera0001/CVE-2021-21315v2](https://github.com/cherrera0001/CVE-2021-21315v2) :  ![starts](https://img.shields.io/github/stars/cherrera0001/CVE-2021-21315v2.svg) ![forks](https://img.shields.io/github/forks/cherrera0001/CVE-2021-21315v2.svg)
 
@@ -995,13 +1021,6 @@
 
 
 - [https://github.com/HoangKien1020/CVE-2021-21014](https://github.com/HoangKien1020/CVE-2021-21014) :  ![starts](https://img.shields.io/github/stars/HoangKien1020/CVE-2021-21014.svg) ![forks](https://img.shields.io/github/forks/HoangKien1020/CVE-2021-21014.svg)
-
-## CVE-2021-20708
- NEC Aterm devices (Aterm WF1200CR firmware Ver1.3.2 and earlier, Aterm WG1200CR firmware Ver1.3.3 and earlier, and Aterm WG2600HS firmware Ver1.5.1 and earlier) allow authenticated attackers to execute arbitrary OS commands by sending a specially crafted request to a specific URL.
-
-
-
-- [https://github.com/GoogleProjectZer0/CVE-2021-20708](https://github.com/GoogleProjectZer0/CVE-2021-20708) :  ![starts](https://img.shields.io/github/stars/GoogleProjectZer0/CVE-2021-20708.svg) ![forks](https://img.shields.io/github/forks/GoogleProjectZer0/CVE-2021-20708.svg)
 
 ## CVE-2021-3493
  The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges.
@@ -1170,17 +1189,17 @@
 
 - [https://github.com/nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/nexcess/sudo_cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nexcess/sudo_cve-2021-3156.svg)
 
-- [https://github.com/cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/cdeletre/Serpentiel-CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/cdeletre/Serpentiel-CVE-2021-3156.svg)
-
 - [https://github.com/oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/oneoy/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/oneoy/CVE-2021-3156.svg)
 
 - [https://github.com/password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/password520/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/password520/CVE-2021-3156.svg)
 
+- [https://github.com/cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/cdeletre/Serpentiel-CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/cdeletre/Serpentiel-CVE-2021-3156.svg)
+
 - [https://github.com/gmldbd94/cve-2021-3156](https://github.com/gmldbd94/cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/gmldbd94/cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/gmldbd94/cve-2021-3156.svg)
 
-- [https://github.com/voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/voidlsd/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/voidlsd/CVE-2021-3156.svg)
-
 - [https://github.com/Ashish-dawani/CVE-2021-3156-Patch](https://github.com/Ashish-dawani/CVE-2021-3156-Patch) :  ![starts](https://img.shields.io/github/stars/Ashish-dawani/CVE-2021-3156-Patch.svg) ![forks](https://img.shields.io/github/forks/Ashish-dawani/CVE-2021-3156-Patch.svg)
+
+- [https://github.com/voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/voidlsd/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/voidlsd/CVE-2021-3156.svg)
 
 - [https://github.com/leterts/CVE-2021-3156-sudo-raising](https://github.com/leterts/CVE-2021-3156-sudo-raising) :  ![starts](https://img.shields.io/github/stars/leterts/CVE-2021-3156-sudo-raising.svg) ![forks](https://img.shields.io/github/forks/leterts/CVE-2021-3156-sudo-raising.svg)
 
