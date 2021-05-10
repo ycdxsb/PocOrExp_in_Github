@@ -1,3 +1,10 @@
+## CVE-2020-36326
+ PHPMailer 6.1.8 through 6.4.0 allows object injection through Phar Deserialization via addAttachment with a UNC pathname. NOTE: this is similar to CVE-2018-19296, but arose because 6.1.8 fixed a functionality problem in which UNC pathnames were always considered unreadable by PHPMailer, even in safe contexts. As an unintended side effect, this fix eliminated the code that blocked addAttachment exploitation.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-36326](https://github.com/JamesGeee/CVE-2020-36326) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36326.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36326.svg)
+
 ## CVE-2020-36188
  FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.JNDIConnectionSource.
 
@@ -344,9 +351,9 @@
 
 - [https://github.com/IanSmith123/CVE-2020-27955](https://github.com/IanSmith123/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/IanSmith123/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/IanSmith123/CVE-2020-27955.svg)
 
-- [https://github.com/yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc) :  ![starts](https://img.shields.io/github/stars/yhsung/cve-2020-27955-poc.svg) ![forks](https://img.shields.io/github/forks/yhsung/cve-2020-27955-poc.svg)
-
 - [https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST](https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST) :  ![starts](https://img.shields.io/github/stars/SilverSkyFlyingFeather/CVE-2020-27955-TEST.svg) ![forks](https://img.shields.io/github/forks/SilverSkyFlyingFeather/CVE-2020-27955-TEST.svg)
+
+- [https://github.com/yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc) :  ![starts](https://img.shields.io/github/stars/yhsung/cve-2020-27955-poc.svg) ![forks](https://img.shields.io/github/forks/yhsung/cve-2020-27955-poc.svg)
 
 ## CVE-2020-27950
  A memory initialization issue was addressed. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.1, iOS 12.4.9, watchOS 6.2.9, Security Update 2020-006 High Sierra, Security Update 2020-006 Mojave, iOS 14.2 and iPadOS 14.2, watchOS 5.3.9, macOS Catalina 10.15.7 Supplemental Update, macOS Catalina 10.15.7 Update. A malicious application may be able to disclose kernel memory.
@@ -1214,6 +1221,8 @@
 
 - [https://github.com/jas502n/CVE-2020-17008](https://github.com/jas502n/CVE-2020-17008) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-17008.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-17008.svg)
 
+- [https://github.com/FirDragon/SrinaterTest](https://github.com/FirDragon/SrinaterTest) :  ![starts](https://img.shields.io/github/stars/FirDragon/SrinaterTest.svg) ![forks](https://img.shields.io/github/forks/FirDragon/SrinaterTest.svg)
+
 ## CVE-2020-16947
  A remote code execution vulnerability exists in Microsoft Outlook software when the software fails to properly handle objects in memory, aka 'Microsoft Outlook Remote Code Execution Vulnerability'.
 
@@ -1565,6 +1574,13 @@
 
 - [https://github.com/skr0x1c0/Blind-SSRF-CVE-2020-15002](https://github.com/skr0x1c0/Blind-SSRF-CVE-2020-15002) :  ![starts](https://img.shields.io/github/stars/skr0x1c0/Blind-SSRF-CVE-2020-15002.svg) ![forks](https://img.shields.io/github/forks/skr0x1c0/Blind-SSRF-CVE-2020-15002.svg)
 
+## CVE-2020-14979
+ The WinRing0.sys and WinRing0x64.sys drivers 1.2.0 in EVGA Precision X1 through 1.0.6 allow local users, including low integrity processes, to read and write to arbitrary memory locations. This allows any user to gain NT AUTHORITY\SYSTEM privileges by mapping \Device\PhysicalMemory into the calling process.
+
+
+
+- [https://github.com/Crystalware/CVE-2020-14979](https://github.com/Crystalware/CVE-2020-14979) :  ![starts](https://img.shields.io/github/stars/Crystalware/CVE-2020-14979.svg) ![forks](https://img.shields.io/github/forks/Crystalware/CVE-2020-14979.svg)
+
 ## CVE-2020-14965
  On TP-Link TL-WR740N v4 and TL-WR740ND v4 devices, an attacker with access to the admin panel can inject HTML code and change the HTML context of the target pages and stations in the access-control settings via targets_lists_name or hosts_lists_name. The vulnerability can also be exploited through a CSRF, requiring no authentication as an administrator.
 
@@ -1662,9 +1678,9 @@
 
 - [https://github.com/securitysqs/poc](https://github.com/securitysqs/poc) :  ![starts](https://img.shields.io/github/stars/securitysqs/poc.svg) ![forks](https://img.shields.io/github/forks/securitysqs/poc.svg)
 
-- [https://github.com/BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2020-14882.svg)
-
 - [https://github.com/alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/alexfrancow/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/alexfrancow/CVE-2020-14882.svg)
+
+- [https://github.com/BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2020-14882.svg)
 
 - [https://github.com/AirEvan/CVE-2020-14882-GUI-Test](https://github.com/AirEvan/CVE-2020-14882-GUI-Test) :  ![starts](https://img.shields.io/github/stars/AirEvan/CVE-2020-14882-GUI-Test.svg) ![forks](https://img.shields.io/github/forks/AirEvan/CVE-2020-14882-GUI-Test.svg)
 
@@ -1701,9 +1717,9 @@
 
 - [https://github.com/DSO-Lab/defvul](https://github.com/DSO-Lab/defvul) :  ![starts](https://img.shields.io/github/stars/DSO-Lab/defvul.svg) ![forks](https://img.shields.io/github/forks/DSO-Lab/defvul.svg)
 
-- [https://github.com/DaBoQuan/CVE-2020-14645](https://github.com/DaBoQuan/CVE-2020-14645) :  ![starts](https://img.shields.io/github/stars/DaBoQuan/CVE-2020-14645.svg) ![forks](https://img.shields.io/github/forks/DaBoQuan/CVE-2020-14645.svg)
-
 - [https://github.com/Schira4396/CVE-2020-14645](https://github.com/Schira4396/CVE-2020-14645) :  ![starts](https://img.shields.io/github/stars/Schira4396/CVE-2020-14645.svg) ![forks](https://img.shields.io/github/forks/Schira4396/CVE-2020-14645.svg)
+
+- [https://github.com/DaBoQuan/CVE-2020-14645](https://github.com/DaBoQuan/CVE-2020-14645) :  ![starts](https://img.shields.io/github/stars/DaBoQuan/CVE-2020-14645.svg) ![forks](https://img.shields.io/github/forks/DaBoQuan/CVE-2020-14645.svg)
 
 - [https://github.com/HYWZ36/CVE-2020-14645-code](https://github.com/HYWZ36/CVE-2020-14645-code) :  ![starts](https://img.shields.io/github/stars/HYWZ36/CVE-2020-14645-code.svg) ![forks](https://img.shields.io/github/forks/HYWZ36/CVE-2020-14645-code.svg)
 
@@ -1864,6 +1880,8 @@
 - [https://github.com/Imanfeng/Apache-Solr-RCE](https://github.com/Imanfeng/Apache-Solr-RCE) :  ![starts](https://img.shields.io/github/stars/Imanfeng/Apache-Solr-RCE.svg) ![forks](https://img.shields.io/github/forks/Imanfeng/Apache-Solr-RCE.svg)
 
 - [https://github.com/s-index/poc-list](https://github.com/s-index/poc-list) :  ![starts](https://img.shields.io/github/stars/s-index/poc-list.svg) ![forks](https://img.shields.io/github/forks/s-index/poc-list.svg)
+
+- [https://github.com/s-index/CVE-2020-13957](https://github.com/s-index/CVE-2020-13957) :  ![starts](https://img.shields.io/github/stars/s-index/CVE-2020-13957.svg) ![forks](https://img.shields.io/github/forks/s-index/CVE-2020-13957.svg)
 
 ## CVE-2020-13942
  It is possible to inject malicious OGNL or MVEL scripts into the /context.json public endpoint. This was partially fixed in 1.5.1 but a new attack vector was found. In Apache Unomi version 1.5.2 scripts are now completely filtered from the input. It is highly recommended to upgrade to the latest available version of the 1.5.x release to fix this problem.
@@ -2845,9 +2863,9 @@
 
 - [https://github.com/PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/PenTestical/CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/PenTestical/CVE-2020-9484.svg)
 
-- [https://github.com/X-x-X-0/-CVE-2020-9484-](https://github.com/X-x-X-0/-CVE-2020-9484-) :  ![starts](https://img.shields.io/github/stars/X-x-X-0/-CVE-2020-9484-.svg) ![forks](https://img.shields.io/github/forks/X-x-X-0/-CVE-2020-9484-.svg)
-
 - [https://github.com/X-x-X-0/-CVE-2020-9484](https://github.com/X-x-X-0/-CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/X-x-X-0/-CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/X-x-X-0/-CVE-2020-9484.svg)
+
+- [https://github.com/X-x-X-0/-CVE-2020-9484-](https://github.com/X-x-X-0/-CVE-2020-9484-) :  ![starts](https://img.shields.io/github/stars/X-x-X-0/-CVE-2020-9484-.svg) ![forks](https://img.shields.io/github/forks/X-x-X-0/-CVE-2020-9484-.svg)
 
 - [https://github.com/DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/DXY0411/CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/DXY0411/CVE-2020-9484.svg)
 
@@ -3887,9 +3905,9 @@
 
 - [https://github.com/ajdumanhug/CVE-2020-5902](https://github.com/ajdumanhug/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/ajdumanhug/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/ajdumanhug/CVE-2020-5902.svg)
 
-- [https://github.com/dnerzker/CVE-2020-5902](https://github.com/dnerzker/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/dnerzker/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/dnerzker/CVE-2020-5902.svg)
-
 - [https://github.com/JSec1337/RCE-CVE-2020-5902](https://github.com/JSec1337/RCE-CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/JSec1337/RCE-CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/JSec1337/RCE-CVE-2020-5902.svg)
+
+- [https://github.com/dnerzker/CVE-2020-5902](https://github.com/dnerzker/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/dnerzker/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/dnerzker/CVE-2020-5902.svg)
 
 - [https://github.com/TheCyberViking/CVE-2020-5902-Vuln-Checker](https://github.com/TheCyberViking/CVE-2020-5902-Vuln-Checker) :  ![starts](https://img.shields.io/github/stars/TheCyberViking/CVE-2020-5902-Vuln-Checker.svg) ![forks](https://img.shields.io/github/forks/TheCyberViking/CVE-2020-5902-Vuln-Checker.svg)
 
@@ -4624,13 +4642,13 @@
 
 - [https://github.com/itssmikefm/CVE-2020-1472](https://github.com/itssmikefm/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/itssmikefm/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/itssmikefm/CVE-2020-1472.svg)
 
-- [https://github.com/puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2020-1472.svg)
-
-- [https://github.com/Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve-2020-1472.svg)
-
 - [https://github.com/mos165/CVE-20200-1472](https://github.com/mos165/CVE-20200-1472) :  ![starts](https://img.shields.io/github/stars/mos165/CVE-20200-1472.svg) ![forks](https://img.shields.io/github/forks/mos165/CVE-20200-1472.svg)
 
 - [https://github.com/SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/SaharAttackit/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/SaharAttackit/CVE-2020-1472.svg)
+
+- [https://github.com/puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2020-1472.svg)
+
+- [https://github.com/Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve-2020-1472.svg)
 
 - [https://github.com/Tobey123/CVE-2020-1472-visualizer](https://github.com/Tobey123/CVE-2020-1472-visualizer) :  ![starts](https://img.shields.io/github/stars/Tobey123/CVE-2020-1472-visualizer.svg) ![forks](https://img.shields.io/github/forks/Tobey123/CVE-2020-1472-visualizer.svg)
 
@@ -4642,9 +4660,9 @@
 
 - [https://github.com/b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/b1ack0wl/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/b1ack0wl/CVE-2020-1472.svg)
 
-- [https://github.com/Fa1c0n35/CVE-2020-1472-02-](https://github.com/Fa1c0n35/CVE-2020-1472-02-) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472-02-.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472-02-.svg)
-
 - [https://github.com/grupooruss/CVE-2020-1472](https://github.com/grupooruss/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/grupooruss/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/grupooruss/CVE-2020-1472.svg)
+
+- [https://github.com/Fa1c0n35/CVE-2020-1472-02-](https://github.com/Fa1c0n35/CVE-2020-1472-02-) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472-02-.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472-02-.svg)
 
 - [https://github.com/johnpathe/zerologon-cve-2020-1472-notes](https://github.com/johnpathe/zerologon-cve-2020-1472-notes) :  ![starts](https://img.shields.io/github/stars/johnpathe/zerologon-cve-2020-1472-notes.svg) ![forks](https://img.shields.io/github/forks/johnpathe/zerologon-cve-2020-1472-notes.svg)
 
@@ -5005,21 +5023,21 @@
 
 - [https://github.com/ysyyrps123/CVE-2020-0796-exp](https://github.com/ysyyrps123/CVE-2020-0796-exp) :  ![starts](https://img.shields.io/github/stars/ysyyrps123/CVE-2020-0796-exp.svg) ![forks](https://img.shields.io/github/forks/ysyyrps123/CVE-2020-0796-exp.svg)
 
+- [https://github.com/AaronWilsonGrylls/CVE-2020-0796-POC](https://github.com/AaronWilsonGrylls/CVE-2020-0796-POC) :  ![starts](https://img.shields.io/github/stars/AaronWilsonGrylls/CVE-2020-0796-POC.svg) ![forks](https://img.shields.io/github/forks/AaronWilsonGrylls/CVE-2020-0796-POC.svg)
+
 - [https://github.com/marcinguy/CVE-2020-0796](https://github.com/marcinguy/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/marcinguy/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/marcinguy/CVE-2020-0796.svg)
 
 - [https://github.com/ysyyrps123/CVE-2020-0796](https://github.com/ysyyrps123/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/ysyyrps123/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/ysyyrps123/CVE-2020-0796.svg)
-
-- [https://github.com/AaronWilsonGrylls/CVE-2020-0796-POC](https://github.com/AaronWilsonGrylls/CVE-2020-0796-POC) :  ![starts](https://img.shields.io/github/stars/AaronWilsonGrylls/CVE-2020-0796-POC.svg) ![forks](https://img.shields.io/github/forks/AaronWilsonGrylls/CVE-2020-0796-POC.svg)
 
 - [https://github.com/DreamoneOnly/CVE-2020-0796-LPE](https://github.com/DreamoneOnly/CVE-2020-0796-LPE) :  ![starts](https://img.shields.io/github/stars/DreamoneOnly/CVE-2020-0796-LPE.svg) ![forks](https://img.shields.io/github/forks/DreamoneOnly/CVE-2020-0796-LPE.svg)
 
 - [https://github.com/ran-sama/CVE-2020-0796](https://github.com/ran-sama/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/ran-sama/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/ran-sama/CVE-2020-0796.svg)
 
+- [https://github.com/datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/datntsec/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/datntsec/CVE-2020-0796.svg)
+
 - [https://github.com/kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/kn6869610/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/kn6869610/CVE-2020-0796.svg)
 
 - [https://github.com/xax007/CVE-2020-0796-Scanner](https://github.com/xax007/CVE-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/xax007/CVE-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/xax007/CVE-2020-0796-Scanner.svg)
-
-- [https://github.com/datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/datntsec/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/datntsec/CVE-2020-0796.svg)
 
 - [https://github.com/ORCA666/CVE-2020-0796](https://github.com/ORCA666/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/ORCA666/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/ORCA666/CVE-2020-0796.svg)
 
@@ -5027,11 +5045,11 @@
 
 - [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
 
-- [https://github.com/section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/section-c/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/section-c/CVE-2020-0796.svg)
-
 - [https://github.com/intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/intelliroot-tech/cve-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/intelliroot-tech/cve-2020-0796-Scanner.svg)
 
 - [https://github.com/Ken-Abruzzi/cve_2020_0796](https://github.com/Ken-Abruzzi/cve_2020_0796) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve_2020_0796.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve_2020_0796.svg)
+
+- [https://github.com/section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/section-c/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/section-c/CVE-2020-0796.svg)
 
 - [https://github.com/tripledd/cve-2020-0796-vuln](https://github.com/tripledd/cve-2020-0796-vuln) :  ![starts](https://img.shields.io/github/stars/tripledd/cve-2020-0796-vuln.svg) ![forks](https://img.shields.io/github/forks/tripledd/cve-2020-0796-vuln.svg)
 
@@ -5280,17 +5298,17 @@
 
 - [https://github.com/apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall) :  ![starts](https://img.shields.io/github/stars/apodlosky/PoC_CurveBall.svg) ![forks](https://img.shields.io/github/forks/apodlosky/PoC_CurveBall.svg)
 
-- [https://github.com/thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl) :  ![starts](https://img.shields.io/github/stars/thimelp/cve-2020-0601-Perl.svg) ![forks](https://img.shields.io/github/forks/thimelp/cve-2020-0601-Perl.svg)
-
 - [https://github.com/apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/apmunch/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/apmunch/CVE-2020-0601.svg)
+
+- [https://github.com/thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl) :  ![starts](https://img.shields.io/github/stars/thimelp/cve-2020-0601-Perl.svg) ![forks](https://img.shields.io/github/forks/thimelp/cve-2020-0601-Perl.svg)
 
 - [https://github.com/exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey) :  ![starts](https://img.shields.io/github/stars/exploitblizzard/CVE-2020-0601-spoofkey.svg) ![forks](https://img.shields.io/github/forks/exploitblizzard/CVE-2020-0601-spoofkey.svg)
 
 - [https://github.com/MarkusZehnle/CVE-2020-0601](https://github.com/MarkusZehnle/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/MarkusZehnle/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/MarkusZehnle/CVE-2020-0601.svg)
 
-- [https://github.com/JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/JPurrier/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/JPurrier/CVE-2020-0601.svg)
-
 - [https://github.com/Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/Ash112121/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/Ash112121/CVE-2020-0601.svg)
+
+- [https://github.com/JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/JPurrier/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/JPurrier/CVE-2020-0601.svg)
 
 - [https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC](https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC) :  ![starts](https://img.shields.io/github/stars/okanulkr/CurveBall-CVE-2020-0601-PoC.svg) ![forks](https://img.shields.io/github/forks/okanulkr/CurveBall-CVE-2020-0601-PoC.svg)
 
