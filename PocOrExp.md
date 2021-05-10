@@ -13,6 +13,13 @@
 
 - [https://github.com/JamesGeee/CVE-2021-31828](https://github.com/JamesGeee/CVE-2021-31828) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31828.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31828.svg)
 
+## CVE-2021-31826
+ Shibboleth Service Provider 3.x before 3.2.2 is prone to a NULL pointer dereference flaw involving the session recovery feature. The flaw is exploitable (for a daemon crash) on systems not using this feature if a crafted cookie is supplied.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31826](https://github.com/JamesGeee/CVE-2021-31826) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31826.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31826.svg)
+
 ## CVE-2021-31795
  The PowerVR GPU kernel driver in pvrsrvkm.ko through 2021-04-24 for the Linux kernel, as used on Alcatel 1S phones, allows attackers to overwrite heap memory via PhysmemNewRamBackedPMR.
 
@@ -82,6 +89,20 @@
 
 - [https://github.com/JamesGeee/CVE-2021-31417](https://github.com/JamesGeee/CVE-2021-31417) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31417.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31417.svg)
 
+## CVE-2021-30642
+ An input validation flaw in the Symantec Security Analytics web UI 7.2 prior 7.2.7, 8.1, prior to 8.1.3-NSR3, 8.2, prior to 8.2.1-NSR2 or 8.2.2 allows a remote, unauthenticated attacker to execute arbitrary OS commands on the target with elevated privileges.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-30642](https://github.com/JamesGeee/CVE-2021-30642) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-30642.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-30642.svg)
+
+## CVE-2021-30502
+ The unofficial vscode-ghc-simple (aka Simple Glasgow Haskell Compiler) extension before 0.2.3 for Visual Studio Code allows remote code execution via a crafted workspace configuration with replCommand.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-30502](https://github.com/JamesGeee/CVE-2021-30502) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-30502.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-30502.svg)
+
 ## CVE-2021-30481
  Valve Steam through 2021-04-10, when a Source engine game is installed, allows remote authenticated users to execute arbitrary code because of a buffer overflow that occurs for a Steam invite after one click.
 
@@ -93,6 +114,8 @@
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
 
+
+- [https://github.com/Anonymous-ghost/AttackWebFrameworkTools](https://github.com/Anonymous-ghost/AttackWebFrameworkTools) :  ![starts](https://img.shields.io/github/stars/Anonymous-ghost/AttackWebFrameworkTools.svg) ![forks](https://img.shields.io/github/forks/Anonymous-ghost/AttackWebFrameworkTools.svg)
 
 - [https://github.com/Vulnmachines/CVE-2021-30461](https://github.com/Vulnmachines/CVE-2021-30461) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/CVE-2021-30461.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/CVE-2021-30461.svg)
 
@@ -217,6 +240,20 @@
 
 
 - [https://github.com/Rafael-Svechinskaya/IOC_for_CVE-2021-28310](https://github.com/Rafael-Svechinskaya/IOC_for_CVE-2021-28310) :  ![starts](https://img.shields.io/github/stars/Rafael-Svechinskaya/IOC_for_CVE-2021-28310.svg) ![forks](https://img.shields.io/github/forks/Rafael-Svechinskaya/IOC_for_CVE-2021-28310.svg)
+
+## CVE-2021-28269
+ Soyal Technology 701Client 9.0.1 is vulnerable to Insecure permissions via client.exe binary with Authenticated Users group with Full permissions.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-28269](https://github.com/JamesGeee/CVE-2021-28269) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-28269.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-28269.svg)
+
+## CVE-2021-28125
+ Apache Superset up to and including 1.0.1 allowed for the creation of an external URL that could be malicious. By not checking user input for open redirects the URL shortener functionality would allow for a malicious user to create a short URL for a dashboard that could convince the user to click the link.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-28125](https://github.com/JamesGeee/CVE-2021-28125) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-28125.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-28125.svg)
 
 ## CVE-2021-27964
  SonLogger before 6.4.1 is affected by Unauthenticated Arbitrary File Upload. An attacker can send a POST request to /Config/SaveUploadedHotspotLogoFile without any authentication or session header. There is no check for the file extension or content of the uploaded file.
@@ -973,12 +1010,16 @@
 
 - [https://github.com/s-index/poc-list](https://github.com/s-index/poc-list) :  ![starts](https://img.shields.io/github/stars/s-index/poc-list.svg) ![forks](https://img.shields.io/github/forks/s-index/poc-list.svg)
 
+- [https://github.com/s-index/CVE-2021-21349](https://github.com/s-index/CVE-2021-21349) :  ![starts](https://img.shields.io/github/stars/s-index/CVE-2021-21349.svg) ![forks](https://img.shields.io/github/forks/s-index/CVE-2021-21349.svg)
+
 ## CVE-2021-21341
  XStream is a Java library to serialize objects to XML and back again. In XStream before version 1.4.16, there is vulnerability which may allow a remote attacker to allocate 100% CPU time on the target system depending on CPU type or parallel execution of such a payload resulting in a denial of service only by manipulating the processed input stream. No user is affected who followed the recommendation to setup XStream's security framework with a whitelist limited to the minimal required types. If you rely on XStream's default blacklist of the Security Framework, you will have to use at least version 1.4.16.
 
 
 
 - [https://github.com/s-index/poc-list](https://github.com/s-index/poc-list) :  ![starts](https://img.shields.io/github/stars/s-index/poc-list.svg) ![forks](https://img.shields.io/github/forks/s-index/poc-list.svg)
+
+- [https://github.com/s-index/CVE-2021-21341](https://github.com/s-index/CVE-2021-21341) :  ![starts](https://img.shields.io/github/stars/s-index/CVE-2021-21341.svg) ![forks](https://img.shields.io/github/forks/s-index/CVE-2021-21341.svg)
 
 ## CVE-2021-21315
  The System Information Library for Node.JS (npm package &quot;systeminformation&quot;) is an open source collection of functions to retrieve detailed hardware, system and OS information. In systeminformation before version 5.3.1 there is a command injection vulnerability. Problem was fixed in version 5.3.1. As a workaround instead of upgrading, be sure to check or sanitize service parameters that are passed to si.inetLatency(), si.inetChecksite(), si.services(), si.processLoad() ... do only allow strings, reject any arrays. String sanitation works as expected.
@@ -1004,11 +1045,11 @@
 
 - [https://github.com/erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/erranfenech/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/erranfenech/CVE-2021-21300.svg)
 
-- [https://github.com/Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Kirill89/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Kirill89/CVE-2021-21300.svg)
-
 - [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
 
 - [https://github.com/ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/ETOCheney/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/ETOCheney/cve-2021-21300.svg)
+
+- [https://github.com/Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Kirill89/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Kirill89/CVE-2021-21300.svg)
 
 - [https://github.com/Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Faisal78123/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Faisal78123/CVE-2021-21300.svg)
 
@@ -1055,6 +1096,13 @@
 
 
 - [https://github.com/HoangKien1020/CVE-2021-21014](https://github.com/HoangKien1020/CVE-2021-21014) :  ![starts](https://img.shields.io/github/stars/HoangKien1020/CVE-2021-21014.svg) ![forks](https://img.shields.io/github/forks/HoangKien1020/CVE-2021-21014.svg)
+
+## CVE-2021-20716
+ Hidden functionality in multiple Buffalo network devices (BHR-4RV firmware Ver.2.55 and prior, FS-G54 firmware Ver.2.04 and prior, WBR2-B11 firmware Ver.2.32 and prior, WBR2-G54 firmware Ver.2.32 and prior, WBR2-G54-KD firmware Ver.2.32 and prior, WBR-B11 firmware Ver.2.23 and prior, WBR-G54 firmware Ver.2.23 and prior, WBR-G54L firmware Ver.2.20 and prior, WHR2-A54G54 firmware Ver.2.25 and prior, WHR2-G54 firmware Ver.2.23 and prior, WHR2-G54V firmware Ver.2.55 and prior, WHR3-AG54 firmware Ver.2.23 and prior, WHR-G54 firmware Ver.2.16 and prior, WHR-G54-NF firmware Ver.2.10 and prior, WLA2-G54 firmware Ver.2.24 and prior, WLA2-G54C firmware Ver.2.24 and prior, WLA-B11 firmware Ver.2.20 and prior, WLA-G54 firmware Ver.2.20 and prior, WLA-G54C firmware Ver.2.20 and prior, WLAH-A54G54 firmware Ver.2.54 and prior, WLAH-AM54G54 firmware Ver.2.54 and prior, WLAH-G54 firmware Ver.2.54 and prior, WLI2-TX1-AG54 firmware Ver.2.53 and prior, WLI2-TX1-AMG54 firmware Ver.2.53 and prior, WLI2-TX1-G54 firmware Ver.2.20 and prior, WLI3-TX1-AMG54 firmware Ver.2.53 and prior, WLI3-TX1-G54 firmware Ver.2.53 and prior, WLI-T1-B11 firmware Ver.2.20 and prior, WLI-TX1-G54 firmware Ver.2.20 and prior, WVR-G54-NF firmware Ver.2.02 and prior, WZR-G108 firmware Ver.2.41 and prior, WZR-G54 firmware Ver.2.41 and prior, WZR-HP-G54 firmware Ver.2.41 and prior, WZR-RS-G54 firmware Ver.2.55 and prior, and WZR-RS-G54HP firmware Ver.2.55 and prior) allows a remote attacker to enable the debug option and to execute arbitrary code or OS commands, change the configuration, and cause a denial of service (DoS) condition.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-20716](https://github.com/JamesGeee/CVE-2021-20716) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20716.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20716.svg)
 
 ## CVE-2021-3493
  The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges.
@@ -1205,9 +1253,9 @@
 
 - [https://github.com/kal1gh0st/CVE-2021-3156](https://github.com/kal1gh0st/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/kal1gh0st/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/kal1gh0st/CVE-2021-3156.svg)
 
-- [https://github.com/nobodyatall648/CVE-2021-3156](https://github.com/nobodyatall648/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2021-3156.svg)
-
 - [https://github.com/Nokialinux/CVE-2021-3156](https://github.com/Nokialinux/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Nokialinux/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Nokialinux/CVE-2021-3156.svg)
+
+- [https://github.com/nobodyatall648/CVE-2021-3156](https://github.com/nobodyatall648/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2021-3156.svg)
 
 - [https://github.com/lmol/CVE-2021-3156](https://github.com/lmol/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/lmol/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/lmol/CVE-2021-3156.svg)
 
@@ -1221,11 +1269,11 @@
 
 - [https://github.com/AlexSeniorProject/CVE-2021-3156](https://github.com/AlexSeniorProject/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/AlexSeniorProject/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/AlexSeniorProject/CVE-2021-3156.svg)
 
-- [https://github.com/cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/cdeletre/Serpentiel-CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/cdeletre/Serpentiel-CVE-2021-3156.svg)
-
 - [https://github.com/oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/oneoy/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/oneoy/CVE-2021-3156.svg)
 
 - [https://github.com/password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/password520/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/password520/CVE-2021-3156.svg)
+
+- [https://github.com/cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/cdeletre/Serpentiel-CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/cdeletre/Serpentiel-CVE-2021-3156.svg)
 
 - [https://github.com/nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/nexcess/sudo_cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nexcess/sudo_cve-2021-3156.svg)
 
