@@ -1251,9 +1251,9 @@
 
 - [https://github.com/erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/erranfenech/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/erranfenech/CVE-2021-21300.svg)
 
-- [https://github.com/ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/ETOCheney/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/ETOCheney/cve-2021-21300.svg)
-
 - [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
+
+- [https://github.com/ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/ETOCheney/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/ETOCheney/cve-2021-21300.svg)
 
 - [https://github.com/Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Kirill89/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Kirill89/CVE-2021-21300.svg)
 
@@ -1309,6 +1309,13 @@
 
 
 - [https://github.com/JamesGeee/CVE-2021-20716](https://github.com/JamesGeee/CVE-2021-20716) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20716.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20716.svg)
+
+## CVE-2021-20202
+ A flaw was found in keycloak. Directories can be created prior to the Java process creating them in the temporary directory, but with wider user permissions, allowing the attacker to have access to the contents that keycloak stores in this directory. The highest threat from this vulnerability is to data confidentiality and integrity.
+
+
+
+- [https://github.com/Jarry1sec/CVE-2021-20202](https://github.com/Jarry1sec/CVE-2021-20202) :  ![starts](https://img.shields.io/github/stars/Jarry1sec/CVE-2021-20202.svg) ![forks](https://img.shields.io/github/forks/Jarry1sec/CVE-2021-20202.svg)
 
 ## CVE-2021-3493
  The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges.
@@ -1591,6 +1598,8 @@
 
 - [https://github.com/somatrasss/weblogic2021](https://github.com/somatrasss/weblogic2021) :  ![starts](https://img.shields.io/github/stars/somatrasss/weblogic2021.svg) ![forks](https://img.shields.io/github/forks/somatrasss/weblogic2021.svg)
 
+- [https://github.com/yuaneuro/CVE-2021-2109_poc](https://github.com/yuaneuro/CVE-2021-2109_poc) :  ![starts](https://img.shields.io/github/stars/yuaneuro/CVE-2021-2109_poc.svg) ![forks](https://img.shields.io/github/forks/yuaneuro/CVE-2021-2109_poc.svg)
+
 ## CVE-2021-2108
  Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core Components). The supported version that is affected is 12.1.3.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP, T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 
@@ -1683,6 +1692,13 @@
 
 
 - [https://github.com/dmlgzs/cve-2021-1647](https://github.com/dmlgzs/cve-2021-1647) :  ![starts](https://img.shields.io/github/stars/dmlgzs/cve-2021-1647.svg) ![forks](https://img.shields.io/github/forks/dmlgzs/cve-2021-1647.svg)
+
+## CVE-2021-1456
+ Multiple vulnerabilities in the web-based management interface of Cisco Firepower Management Center (FMC) Software could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface. These vulnerabilities are due to insufficient validation of user-supplied input by the web-based management interface. An attacker could exploit these vulnerabilities by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface or access sensitive, browser-based information.
+
+
+
+- [https://github.com/Jarry1sec/CVE-2021-14562](https://github.com/Jarry1sec/CVE-2021-14562) :  ![starts](https://img.shields.io/github/stars/Jarry1sec/CVE-2021-14562.svg) ![forks](https://img.shields.io/github/forks/Jarry1sec/CVE-2021-14562.svg)
 
 ## CVE-2021-1112
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
