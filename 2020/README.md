@@ -326,6 +326,13 @@
 
 - [https://github.com/madstap/bouncy-castle-generative-test-poc](https://github.com/madstap/bouncy-castle-generative-test-poc) :  ![starts](https://img.shields.io/github/stars/madstap/bouncy-castle-generative-test-poc.svg) ![forks](https://img.shields.io/github/forks/madstap/bouncy-castle-generative-test-poc.svg)
 
+## CVE-2020-28018
+ Exim 4 before 4.94.2 allows Use After Free in smtp_reset in certain situations that may be common for builds with OpenSSL.
+
+
+
+- [https://github.com/lmol/CVE-2020-28018](https://github.com/lmol/CVE-2020-28018) :  ![starts](https://img.shields.io/github/stars/lmol/CVE-2020-28018.svg) ![forks](https://img.shields.io/github/forks/lmol/CVE-2020-28018.svg)
+
 ## CVE-2020-27976
  osCommerce Phoenix CE before 1.0.5.4 allows OS command injection remotely. Within admin/mail.php, a from POST parameter can be passed to the application. This affects the PHP mail function, and the sendmail -f option.
 
