@@ -137,6 +137,13 @@
 
 - [https://github.com/waleedassar/CVE-2021-31184](https://github.com/waleedassar/CVE-2021-31184) :  ![starts](https://img.shields.io/github/stars/waleedassar/CVE-2021-31184.svg) ![forks](https://img.shields.io/github/forks/waleedassar/CVE-2021-31184.svg)
 
+## CVE-2021-31166
+ HTTP Protocol Stack Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/0vercl0k/CVE-2021-31166](https://github.com/0vercl0k/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2021-31166.svg)
+
 ## CVE-2021-30642
  An input validation flaw in the Symantec Security Analytics web UI 7.2 prior 7.2.7, 8.1, prior to 8.1.3-NSR3, 8.2, prior to 8.2.1-NSR2 or 8.2.2 allows a remote, unauthenticated attacker to execute arbitrary OS commands on the target with elevated privileges.
 
@@ -462,6 +469,15 @@
 
 
 - [https://github.com/xiaopan233/Mybb-XSS_SQL_RCE-POC](https://github.com/xiaopan233/Mybb-XSS_SQL_RCE-POC) :  ![starts](https://img.shields.io/github/stars/xiaopan233/Mybb-XSS_SQL_RCE-POC.svg) ![forks](https://img.shields.io/github/forks/xiaopan233/Mybb-XSS_SQL_RCE-POC.svg)
+
+## CVE-2021-27651
+ In versions 8.2.1 through 8.5.2 of Pega Infinity, the password reset functionality for local accounts can be used to bypass local authentication checks.
+
+
+
+- [https://github.com/samwcyo/CVE-2021-27651-PoC](https://github.com/samwcyo/CVE-2021-27651-PoC) :  ![starts](https://img.shields.io/github/stars/samwcyo/CVE-2021-27651-PoC.svg) ![forks](https://img.shields.io/github/forks/samwcyo/CVE-2021-27651-PoC.svg)
+
+- [https://github.com/Vulnmachines/CVE-2021-27651](https://github.com/Vulnmachines/CVE-2021-27651) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/CVE-2021-27651.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/CVE-2021-27651.svg)
 
 ## CVE-2021-27480
  Delta Industrial Automation COMMGR Versions 1.12 and prior are vulnerable to a stack-based buffer overflow, which may allow an attacker to execute remote code.
@@ -1277,9 +1293,9 @@
 
 - [https://github.com/Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Kirill89/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Kirill89/CVE-2021-21300.svg)
 
-- [https://github.com/1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/1uanWu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/1uanWu/CVE-2021-21300.svg)
-
 - [https://github.com/Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Faisal78123/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Faisal78123/CVE-2021-21300.svg)
+
+- [https://github.com/1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/1uanWu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/1uanWu/CVE-2021-21300.svg)
 
 ## CVE-2021-21148
  Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
@@ -1482,11 +1498,11 @@
 
 - [https://github.com/H4ckForJob/cve-2021-3156](https://github.com/H4ckForJob/cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/H4ckForJob/cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/H4ckForJob/cve-2021-3156.svg)
 
-- [https://github.com/SantiagoSerrao/ScannerCVE-2021-3156](https://github.com/SantiagoSerrao/ScannerCVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/SantiagoSerrao/ScannerCVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/SantiagoSerrao/ScannerCVE-2021-3156.svg)
-
 - [https://github.com/binw2018/CVE-2021-3156-SCRIPT](https://github.com/binw2018/CVE-2021-3156-SCRIPT) :  ![starts](https://img.shields.io/github/stars/binw2018/CVE-2021-3156-SCRIPT.svg) ![forks](https://img.shields.io/github/forks/binw2018/CVE-2021-3156-SCRIPT.svg)
 
 - [https://github.com/kal1gh0st/CVE-2021-3156](https://github.com/kal1gh0st/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/kal1gh0st/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/kal1gh0st/CVE-2021-3156.svg)
+
+- [https://github.com/SantiagoSerrao/ScannerCVE-2021-3156](https://github.com/SantiagoSerrao/ScannerCVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/SantiagoSerrao/ScannerCVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/SantiagoSerrao/ScannerCVE-2021-3156.svg)
 
 - [https://github.com/nobodyatall648/CVE-2021-3156](https://github.com/nobodyatall648/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2021-3156.svg)
 
@@ -1502,15 +1518,15 @@
 
 - [https://github.com/freeFV/CVE-2021-3156](https://github.com/freeFV/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/freeFV/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/freeFV/CVE-2021-3156.svg)
 
-- [https://github.com/cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/cdeletre/Serpentiel-CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/cdeletre/Serpentiel-CVE-2021-3156.svg)
+- [https://github.com/nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/nexcess/sudo_cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nexcess/sudo_cve-2021-3156.svg)
 
 - [https://github.com/oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/oneoy/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/oneoy/CVE-2021-3156.svg)
 
 - [https://github.com/password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/password520/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/password520/CVE-2021-3156.svg)
 
-- [https://github.com/AlexSeniorProject/CVE-2021-3156](https://github.com/AlexSeniorProject/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/AlexSeniorProject/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/AlexSeniorProject/CVE-2021-3156.svg)
+- [https://github.com/cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/cdeletre/Serpentiel-CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/cdeletre/Serpentiel-CVE-2021-3156.svg)
 
-- [https://github.com/nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/nexcess/sudo_cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nexcess/sudo_cve-2021-3156.svg)
+- [https://github.com/AlexSeniorProject/CVE-2021-3156](https://github.com/AlexSeniorProject/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/AlexSeniorProject/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/AlexSeniorProject/CVE-2021-3156.svg)
 
 - [https://github.com/gmldbd94/cve-2021-3156](https://github.com/gmldbd94/cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/gmldbd94/cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/gmldbd94/cve-2021-3156.svg)
 
