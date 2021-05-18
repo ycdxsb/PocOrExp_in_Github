@@ -2072,7 +2072,7 @@
 
 - [https://github.com/Zer0d0y/Samba-CVE-2017-7494](https://github.com/Zer0d0y/Samba-CVE-2017-7494) :  ![starts](https://img.shields.io/github/stars/Zer0d0y/Samba-CVE-2017-7494.svg) ![forks](https://img.shields.io/github/forks/Zer0d0y/Samba-CVE-2017-7494.svg)
 
-- [https://github.com/I-Rinka/BIT-EternalBlue-for-Linux](https://github.com/I-Rinka/BIT-EternalBlue-for-Linux) :  ![starts](https://img.shields.io/github/stars/I-Rinka/BIT-EternalBlue-for-Linux.svg) ![forks](https://img.shields.io/github/forks/I-Rinka/BIT-EternalBlue-for-Linux.svg)
+- [https://github.com/I-Rinka/BIT-EternalBlue-for-macOS_Linux](https://github.com/I-Rinka/BIT-EternalBlue-for-macOS_Linux) :  ![starts](https://img.shields.io/github/stars/I-Rinka/BIT-EternalBlue-for-macOS_Linux.svg) ![forks](https://img.shields.io/github/forks/I-Rinka/BIT-EternalBlue-for-macOS_Linux.svg)
 
 - [https://github.com/homjxi0e/CVE-2017-7494](https://github.com/homjxi0e/CVE-2017-7494) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-7494.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-7494.svg)
 
