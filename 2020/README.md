@@ -2946,6 +2946,8 @@
 
 - [https://github.com/VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/VICXOR/CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/VICXOR/CVE-2020-9484.svg)
 
+- [https://github.com/RepublicR0K/CVE-2020-9484](https://github.com/RepublicR0K/CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/RepublicR0K/CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/RepublicR0K/CVE-2020-9484.svg)
+
 - [https://github.com/qerogram/CVE-2020-9484](https://github.com/qerogram/CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/qerogram/CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/qerogram/CVE-2020-9484.svg)
 
 - [https://github.com/X-x-X-0/-CVE-2020-9484-](https://github.com/X-x-X-0/-CVE-2020-9484-) :  ![starts](https://img.shields.io/github/stars/X-x-X-0/-CVE-2020-9484-.svg) ![forks](https://img.shields.io/github/forks/X-x-X-0/-CVE-2020-9484-.svg)
