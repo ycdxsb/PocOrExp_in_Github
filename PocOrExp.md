@@ -124,6 +124,20 @@
 
 - [https://github.com/irql0/CVE-2021-31728](https://github.com/irql0/CVE-2021-31728) :  ![starts](https://img.shields.io/github/stars/irql0/CVE-2021-31728.svg) ![forks](https://img.shields.io/github/forks/irql0/CVE-2021-31728.svg)
 
+## CVE-2021-31703
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/l00neyhacker/CVE-2021-31703](https://github.com/l00neyhacker/CVE-2021-31703) :  ![starts](https://img.shields.io/github/stars/l00neyhacker/CVE-2021-31703.svg) ![forks](https://img.shields.io/github/forks/l00neyhacker/CVE-2021-31703.svg)
+
+## CVE-2021-31702
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/l00neyhacker/CVE-2021-31702](https://github.com/l00neyhacker/CVE-2021-31702) :  ![starts](https://img.shields.io/github/stars/l00neyhacker/CVE-2021-31702.svg) ![forks](https://img.shields.io/github/forks/l00neyhacker/CVE-2021-31702.svg)
+
 ## CVE-2021-31420
  This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop 16.1.0-48950. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Toolgate component. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor. Was ZDI-CAN-12220.
 
@@ -151,6 +165,62 @@
 
 
 - [https://github.com/JamesGeee/CVE-2021-31417](https://github.com/JamesGeee/CVE-2021-31417) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31417.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31417.svg)
+
+## CVE-2021-31321
+ Telegram Android &lt;7.1.0 (2090), Telegram iOS &lt;7.1, and Telegram macOS &lt;7.1 are affected by a Stack Based Overflow in the gray_split_cubic function of their custom fork of the rlottie library. A remote attacker might be able to overwrite Telegram's stack memory out-of-bounds on a victim device via a malicious animated sticker.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31321](https://github.com/JamesGeee/CVE-2021-31321) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31321.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31321.svg)
+
+## CVE-2021-31320
+ Telegram Android &lt;7.1.0 (2090), Telegram iOS &lt;7.1, and Telegram macOS &lt;7.1 are affected by a Heap Buffer Overflow in the VGradientCache::generateGradientColorTable function of their custom fork of the rlottie library. A remote attacker might be able to overwrite heap memory out-of-bounds on a victim device via a malicious animated sticker.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31320](https://github.com/JamesGeee/CVE-2021-31320) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31320.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31320.svg)
+
+## CVE-2021-31319
+ Telegram Android &lt;7.1.0 (2090), Telegram iOS &lt;7.1, and Telegram macOS &lt;7.1 are affected by an Integer Overflow in the LOTGradient::populate function of their custom fork of the rlottie library. A remote attacker might be able to access heap memory out-of-bounds on a victim device via a malicious animated sticker.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31319](https://github.com/JamesGeee/CVE-2021-31319) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31319.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31319.svg)
+
+## CVE-2021-31318
+ Telegram Android &lt;7.1.0 (2090), Telegram iOS &lt;7.1, and Telegram macOS &lt;7.1 are affected by a Type Confusion in the LOTCompLayerItem::LOTCompLayerItem function of their custom fork of the rlottie library. A remote attacker might be able to access heap memory out-of-bounds on a victim device via a malicious animated sticker.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31318](https://github.com/JamesGeee/CVE-2021-31318) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31318.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31318.svg)
+
+## CVE-2021-31317
+ Telegram Android &lt;7.1.0 (2090), Telegram iOS &lt;7.1, and Telegram macOS &lt;7.1 are affected by a Type Confusion in the VDasher constructor of their custom fork of the rlottie library. A remote attacker might be able to access Telegram's heap memory out-of-bounds on a victim device via a malicious animated sticker.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31317](https://github.com/JamesGeee/CVE-2021-31317) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31317.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31317.svg)
+
+## CVE-2021-31316
+ The unprivileged user portal part of CentOS Web Panel is affected by a SQL Injection via the 'idsession' HTTP POST parameter.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31316](https://github.com/JamesGeee/CVE-2021-31316) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31316.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31316.svg)
+
+## CVE-2021-31213
+ Visual Studio Code Remote Containers Extension Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31213](https://github.com/JamesGeee/CVE-2021-31213) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31213.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31213.svg)
+
+## CVE-2021-31207
+ Microsoft Exchange Server Security Feature Bypass Vulnerability
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-31207](https://github.com/JamesGeee/CVE-2021-31207) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31207.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31207.svg)
 
 ## CVE-2021-31184
  Microsoft Windows Infrared Data Association (IrDA) Information Disclosure Vulnerability
@@ -1597,11 +1667,11 @@
 
 - [https://github.com/H4ckForJob/cve-2021-3156](https://github.com/H4ckForJob/cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/H4ckForJob/cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/H4ckForJob/cve-2021-3156.svg)
 
+- [https://github.com/SantiagoSerrao/ScannerCVE-2021-3156](https://github.com/SantiagoSerrao/ScannerCVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/SantiagoSerrao/ScannerCVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/SantiagoSerrao/ScannerCVE-2021-3156.svg)
+
 - [https://github.com/binw2018/CVE-2021-3156-SCRIPT](https://github.com/binw2018/CVE-2021-3156-SCRIPT) :  ![starts](https://img.shields.io/github/stars/binw2018/CVE-2021-3156-SCRIPT.svg) ![forks](https://img.shields.io/github/forks/binw2018/CVE-2021-3156-SCRIPT.svg)
 
 - [https://github.com/kal1gh0st/CVE-2021-3156](https://github.com/kal1gh0st/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/kal1gh0st/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/kal1gh0st/CVE-2021-3156.svg)
-
-- [https://github.com/SantiagoSerrao/ScannerCVE-2021-3156](https://github.com/SantiagoSerrao/ScannerCVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/SantiagoSerrao/ScannerCVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/SantiagoSerrao/ScannerCVE-2021-3156.svg)
 
 - [https://github.com/nobodyatall648/CVE-2021-3156](https://github.com/nobodyatall648/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2021-3156.svg)
 
@@ -1617,21 +1687,21 @@
 
 - [https://github.com/freeFV/CVE-2021-3156](https://github.com/freeFV/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/freeFV/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/freeFV/CVE-2021-3156.svg)
 
-- [https://github.com/nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/nexcess/sudo_cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nexcess/sudo_cve-2021-3156.svg)
+- [https://github.com/cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/cdeletre/Serpentiel-CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/cdeletre/Serpentiel-CVE-2021-3156.svg)
 
 - [https://github.com/oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/oneoy/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/oneoy/CVE-2021-3156.svg)
 
 - [https://github.com/password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/password520/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/password520/CVE-2021-3156.svg)
 
-- [https://github.com/cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/cdeletre/Serpentiel-CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/cdeletre/Serpentiel-CVE-2021-3156.svg)
-
 - [https://github.com/AlexSeniorProject/CVE-2021-3156](https://github.com/AlexSeniorProject/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/AlexSeniorProject/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/AlexSeniorProject/CVE-2021-3156.svg)
+
+- [https://github.com/nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/nexcess/sudo_cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nexcess/sudo_cve-2021-3156.svg)
 
 - [https://github.com/gmldbd94/cve-2021-3156](https://github.com/gmldbd94/cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/gmldbd94/cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/gmldbd94/cve-2021-3156.svg)
 
-- [https://github.com/Ashish-dawani/CVE-2021-3156-Patch](https://github.com/Ashish-dawani/CVE-2021-3156-Patch) :  ![starts](https://img.shields.io/github/stars/Ashish-dawani/CVE-2021-3156-Patch.svg) ![forks](https://img.shields.io/github/forks/Ashish-dawani/CVE-2021-3156-Patch.svg)
-
 - [https://github.com/voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/voidlsd/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/voidlsd/CVE-2021-3156.svg)
+
+- [https://github.com/Ashish-dawani/CVE-2021-3156-Patch](https://github.com/Ashish-dawani/CVE-2021-3156-Patch) :  ![starts](https://img.shields.io/github/stars/Ashish-dawani/CVE-2021-3156-Patch.svg) ![forks](https://img.shields.io/github/forks/Ashish-dawani/CVE-2021-3156-Patch.svg)
 
 - [https://github.com/leterts/CVE-2021-3156-sudo-raising](https://github.com/leterts/CVE-2021-3156-sudo-raising) :  ![starts](https://img.shields.io/github/stars/leterts/CVE-2021-3156-sudo-raising.svg) ![forks](https://img.shields.io/github/forks/leterts/CVE-2021-3156-sudo-raising.svg)
 
