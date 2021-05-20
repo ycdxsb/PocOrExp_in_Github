@@ -90,18 +90,19 @@ optional arguments:
 - [1999](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/1999/README.md)
 
 ## Log
-- 20200412: 修复了github搜索时，例如搜索CVE-2020-3618，会搜索到CVE-2020-36184的结果的问题
-- 20200413: 由于NVD官网CVE编号缺失，改用CVE官网数据，发布异步版脚本
-- 20200414: 完成第一轮PocOrExp的爬取，目前使用20个github api token，可以做到12小时内轮询所有CVE并更新
-- 20200414: 做了一些简单数据统计，见[Statistics](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Statistics/README.md)
-- 20200416: 增加-w参数
-- 20200417: 新增每日更新脚本today.py，更新内容见[Today](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Today.md)，可以在上面修改，例如将`get_today_update`的返回结果通过server酱，wxpusher等发送给自己
-- 20200420: 发现一些非PoC的repo, 通过增加黑名单去除，同时更新异步脚本v2。
-- 20200423: 发现今日更新的结果里有的repo并不是近期更新的，原因如下：
+- 20210412: 修复了github搜索时，例如搜索CVE-2020-3618，会搜索到CVE-2020-36184的结果的问题
+- 20210413: 由于NVD官网CVE编号缺失，改用CVE官网数据，发布异步版脚本
+- 20210414: 完成第一轮PocOrExp的爬取，目前使用20个github api token，可以做到12小时内轮询所有CVE并更新
+- 20210414: 做了一些简单数据统计，见[Statistics](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Statistics/README.md)
+- 20210416: 增加-w参数
+- 20210417: 新增每日更新脚本today.py，更新内容见[Today](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Today.md)，可以在上面修改，例如将`get_today_update`的返回结果通过server酱，wxpusher等发送给自己
+- 20210420: 发现一些非PoC的repo, 通过增加黑名单去除，同时更新异步脚本v2。
+- 20210423: 发现今日更新的结果里有的repo并不是近期更新的，原因如下：
   - 1. repo从private转public
   - 2. 通过api查询时，脚本策略为取star数目前30的结果，因此当同一CVE的其他repo数目增加时，会进入前30列表中，表现为今日新增。统计发现按照CVE号搜索结果超过100的大洞只有CVE-2019-0708，因此不使用分页爬取所有，修改为每次取star数目前100的结果。
-- 20200430: [download](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/download.py)下载所有PoC/Exp，防止repo被发布者删除 !!请先更新
+- 20210430: [download](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/download.py)下载所有PoC/Exp，防止repo被发布者删除 !!请先更新
 git到最新版本，防止在windows下clone时被攻击[CVE-2020-27955](https://github.com/yhsung/cve-2020-27955-poc)。
+- 20210519: 发现一些用CVE在github钓鱼的人，比如https://github.com/JamesGeee，不打算特殊处理，大家注意安全
 
 ## Reference
 - https://github.com/nomi-sec/PoC-in-GitHub
