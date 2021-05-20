@@ -102,7 +102,7 @@ optional arguments:
   - 2. 通过api查询时，脚本策略为取star数目前30的结果，因此当同一CVE的其他repo数目增加时，会进入前30列表中，表现为今日新增。统计发现按照CVE号搜索结果超过100的大洞只有CVE-2019-0708，因此不使用分页爬取所有，修改为每次取star数目前100的结果。
 - 20210430: [download](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/download.py)下载所有PoC/Exp，防止repo被发布者删除 !!请先更新
 git到最新版本，防止在windows下clone时被攻击[CVE-2020-27955](https://github.com/yhsung/cve-2020-27955-poc)。
-- 20210519: 发现一些用CVE在github钓鱼的人，比如https://github.com/JamesGeee，不打算特殊处理，大家注意安全
+- 20210519: 发现一些用CVE在github钓鱼的人，比如[JamesGee](https://github.com/JamesGeee)，不打算特殊处理，大家注意安全
 
 ## Reference
 - https://github.com/nomi-sec/PoC-in-GitHub
