@@ -1,78 +1,72 @@
-# Update 2021-05-25
-## CVE-2021-31166
- HTTP Protocol Stack Remote Code Execution Vulnerability
+# Update 2021-05-26
+## CVE-2021-33558
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/Udyz/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/Udyz/CVE-2021-31166.svg)
-
-
-## CVE-2021-29687
- IBM Security Identity Manager 7.0.2 could allow a remote user to enumerate usernames due to a difference of responses from valid and invalid login attempts. IBM X-Force ID: 200018
-
-- [https://github.com/JamesGeee/CVE-2021-29687](https://github.com/JamesGeee/CVE-2021-29687) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29687.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29687.svg)
+- [https://github.com/mdanzaruddin/CVE-2021-33558.](https://github.com/mdanzaruddin/CVE-2021-33558.) :  ![starts](https://img.shields.io/github/stars/mdanzaruddin/CVE-2021-33558..svg) ![forks](https://img.shields.io/github/forks/mdanzaruddin/CVE-2021-33558..svg)
 
 
-## CVE-2021-23841
- The OpenSSL public API function X509_issuer_and_serial_hash() attempts to create a unique hash value based on the issuer and serial number data contained within an X509 certificate. However it fails to correctly handle any errors that may occur while parsing the issuer field (which might occur if the issuer field is maliciously constructed). This may subsequently result in a NULL pointer deref and a crash leading to a potential denial of service attack. The function X509_issuer_and_serial_hash() is never directly called by OpenSSL itself so applications are only vulnerable if they use this function directly and they use it on certificates that may have been obtained from untrusted sources. OpenSSL versions 1.1.1i and below are affected by this issue. Users of these versions should upgrade to OpenSSL 1.1.1j. OpenSSL versions 1.0.2x and below are affected by this issue. However OpenSSL 1.0.2 is out of support and no longer receiving public updates. Premium support customers of OpenSSL 1.0.2 should upgrade to 1.0.2y. Other users should upgrade to 1.1.1j. Fixed in OpenSSL 1.1.1j (Affected 1.1.1-1.1.1i). Fixed in OpenSSL 1.0.2y (Affected 1.0.2-1.0.2x).
+## CVE-2021-32222
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/JamesGeee/CVE-2021-23841](https://github.com/JamesGeee/CVE-2021-23841) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-23841.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-23841.svg)
-
-
-## CVE-2021-3493
- The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges.
-
-- [https://github.com/briskets/CVE-2021-3493](https://github.com/briskets/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/briskets/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/briskets/CVE-2021-3493.svg)
+- [https://github.com/r90tpass/CVE-2021-3222222](https://github.com/r90tpass/CVE-2021-3222222) :  ![starts](https://img.shields.io/github/stars/r90tpass/CVE-2021-3222222.svg) ![forks](https://img.shields.io/github/forks/r90tpass/CVE-2021-3222222.svg)
 
 
-## CVE-2021-3310
- Western Digital My Cloud OS 5 devices before 5.10.122 mishandle Symbolic Link Following on SMB and AFP shares. This can lead to code execution and information disclosure (by reading local files).
+## CVE-2021-22893
+ Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication bypass vulnerability exposed by the Windows File Share Browser and Pulse Secure Collaboration features of Pulse Connect Secure that can allow an unauthenticated user to perform remote arbitrary code execution on the Pulse Connect Secure gateway. This vulnerability has been exploited in the wild.
 
-- [https://github.com/piffd0s/CVE-2021-3310](https://github.com/piffd0s/CVE-2021-3310) :  ![starts](https://img.shields.io/github/stars/piffd0s/CVE-2021-3310.svg) ![forks](https://img.shields.io/github/forks/piffd0s/CVE-2021-3310.svg)
-
-
-## CVE-2021-3012
- A cross-site scripting (XSS) vulnerability in the Document Link of documents in ESRI Enterprise before 10.9 allows remote authenticated users to inject arbitrary JavaScript code via a malicious HTML attribute such as onerror (in the URL field of the Parameters tab).
-
-- [https://github.com/JamesGeee/CVE-2021-3012](https://github.com/JamesGeee/CVE-2021-3012) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-3012.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-3012.svg)
+- [https://github.com/r90tpass/cve-2021-22893](https://github.com/r90tpass/cve-2021-22893) :  ![starts](https://img.shields.io/github/stars/r90tpass/cve-2021-22893.svg) ![forks](https://img.shields.io/github/forks/r90tpass/cve-2021-22893.svg)
 
 
-## CVE-2020-28948
- Archive_Tar through 1.4.10 allows an unserialization attack because phar: is blocked but PHAR: is not blocked.
+## CVE-2021-20914
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/nopdata/cve-2020-28948](https://github.com/nopdata/cve-2020-28948) :  ![starts](https://img.shields.io/github/stars/nopdata/cve-2020-28948.svg) ![forks](https://img.shields.io/github/forks/nopdata/cve-2020-28948.svg)
-
-
-## CVE-2020-24993
- There is a cross site scripting vulnerability on CmsWing 1.3.7. This vulnerability (stored XSS) is triggered when visitors access the article module.
-
-- [https://github.com/JamesGeee/CVE-2020-24993](https://github.com/JamesGeee/CVE-2020-24993) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-24993.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-24993.svg)
+- [https://github.com/Shadow0ps/CVE-2021-20914](https://github.com/Shadow0ps/CVE-2021-20914) :  ![starts](https://img.shields.io/github/stars/Shadow0ps/CVE-2021-20914.svg) ![forks](https://img.shields.io/github/forks/Shadow0ps/CVE-2021-20914.svg)
 
 
-## CVE-2020-24755
- In Ubiquiti UniFi Video v3.10.13, when the executable starts, its first library validation is in the current directory. This allows the impersonation and modification of the library to execute code on the system. This was tested in (Windows 7 x64/Windows 10 x64).
+## CVE-2020-36227
+ A flaw was discovered in OpenLDAP before 2.4.57 leading to an infinite loop in slapd with the cancel_extop Cancel operation, resulting in denial of service.
 
-- [https://github.com/JamesGeee/CVE-2020-24755](https://github.com/JamesGeee/CVE-2020-24755) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-24755.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-24755.svg)
-
-
-## CVE-2020-18220
- Weak Encoding for Password in DoraCMS v2.1.1 and earlier allows attackers to obtain sensitive information as it does not use a random salt or IV for its AES-CBC encryption, causes password encrypted for users to be susceptible to dictionary attacks.
-
-- [https://github.com/JamesGeee/CVE-2020-18220](https://github.com/JamesGeee/CVE-2020-18220) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-18220.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-18220.svg)
+- [https://github.com/JamesGeee/CVE-2020-36227](https://github.com/JamesGeee/CVE-2020-36227) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36227.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36227.svg)
 
 
-## CVE-2020-18178
- Path Traversal in HongCMS v4.0.0 allows remote attackers to view, edit, and delete arbitrary files via a crafted POST request to the component &quot;/hcms/admin/index.php/language/ajax.&quot;
+## CVE-2020-36226
+ A flaw was discovered in OpenLDAP before 2.4.57 leading to a memch-&gt;bv_len miscalculation and slapd crash in the saslAuthzTo processing, resulting in denial of service.
 
-- [https://github.com/JamesGeee/CVE-2020-18178](https://github.com/JamesGeee/CVE-2020-18178) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-18178.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-18178.svg)
-
-
-## CVE-2017-13208
- In receive_packet of libnetutils/packet.c, there is a possible out-of-bounds write due to a missing bounds check on the DHCP response. This could lead to remote code execution as a privileged process with no additional execution privileges needed. User interaction is not needed for exploitation. Product: Android. Versions: 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2, 8.0, 8.1. Android ID: A-67474440.
-
-- [https://github.com/idanshechter/CVE-2017-13208-Scanner](https://github.com/idanshechter/CVE-2017-13208-Scanner) :  ![starts](https://img.shields.io/github/stars/idanshechter/CVE-2017-13208-Scanner.svg) ![forks](https://img.shields.io/github/forks/idanshechter/CVE-2017-13208-Scanner.svg)
+- [https://github.com/JamesGeee/CVE-2020-36226](https://github.com/JamesGeee/CVE-2020-36226) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36226.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36226.svg)
 
 
-## CVE-2017-9248
- Telerik.Web.UI.dll in Progress Telerik UI for ASP.NET AJAX before R2 2017 SP1 and Sitefinity before 10.0.6412.0 does not properly protect Telerik.Web.UI.DialogParametersEncryptionKey or the MachineKey, which makes it easier for remote attackers to defeat cryptographic protection mechanisms, leading to a MachineKey leak, arbitrary file uploads or downloads, XSS, or ASP.NET ViewState compromise.
+## CVE-2020-36223
+ A flaw was discovered in OpenLDAP before 2.4.57 leading to a slapd crash in the Values Return Filter control handling, resulting in denial of service (double free and out-of-bounds read).
 
-- [https://github.com/ZhenwarX/Telerik-CVE-2017-9248-PoC](https://github.com/ZhenwarX/Telerik-CVE-2017-9248-PoC) :  ![starts](https://img.shields.io/github/stars/ZhenwarX/Telerik-CVE-2017-9248-PoC.svg) ![forks](https://img.shields.io/github/forks/ZhenwarX/Telerik-CVE-2017-9248-PoC.svg)
+- [https://github.com/JamesGeee/CVE-2020-36223](https://github.com/JamesGeee/CVE-2020-36223) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36223.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36223.svg)
+
+
+## CVE-2020-29607
+ A file upload restriction bypass vulnerability in Pluck CMS before 4.7.13 allows an admin privileged user to gain access in the host through the &quot;manage files&quot; functionality, which may result in remote code execution.
+
+- [https://github.com/Hacker5preme/CVE-2020-29607-exploit](https://github.com/Hacker5preme/CVE-2020-29607-exploit) :  ![starts](https://img.shields.io/github/stars/Hacker5preme/CVE-2020-29607-exploit.svg) ![forks](https://img.shields.io/github/forks/Hacker5preme/CVE-2020-29607-exploit.svg)
+
+
+## CVE-2020-27955
+ Git LFS 2.12.0 allows Remote Code Execution.
+
+- [https://github.com/Marsable/CVE-2020-27955-LFS](https://github.com/Marsable/CVE-2020-27955-LFS) :  ![starts](https://img.shields.io/github/stars/Marsable/CVE-2020-27955-LFS.svg) ![forks](https://img.shields.io/github/forks/Marsable/CVE-2020-27955-LFS.svg)
+
+
+## CVE-2020-8428
+ fs/namei.c in the Linux kernel before 5.5 has a may_create_in_sticky use-after-free, which allows local users to cause a denial of service (OOPS) or possibly obtain sensitive information from kernel memory, aka CID-d0cb50185ae9. One attack vector may be an open system call for a UNIX domain socket, if the socket is being moved to a new parent directory and its old parent directory is being removed.
+
+- [https://github.com/Alex-Lian/CVE-2020-8428-demo](https://github.com/Alex-Lian/CVE-2020-8428-demo) :  ![starts](https://img.shields.io/github/stars/Alex-Lian/CVE-2020-8428-demo.svg) ![forks](https://img.shields.io/github/forks/Alex-Lian/CVE-2020-8428-demo.svg)
+
+
+## CVE-2018-19423
+ Codiad 2.8.4 allows remote authenticated administrators to execute arbitrary code by uploading an executable file.
+
+- [https://github.com/Hacker5preme/CVE-2018-19423-Exploit](https://github.com/Hacker5preme/CVE-2018-19423-Exploit) :  ![starts](https://img.shields.io/github/stars/Hacker5preme/CVE-2018-19423-Exploit.svg) ![forks](https://img.shields.io/github/forks/Hacker5preme/CVE-2018-19423-Exploit.svg)
+
+
+## CVE-2018-8174
+ A remote code execution vulnerability exists in the way that the VBScript engine handles objects in memory, aka &quot;Windows VBScript Engine Remote Code Execution Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
+
+- [https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/DarkFlameMaster-bit/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/DarkFlameMaster-bit/CVE-2018-8174_EXP.svg)
 
