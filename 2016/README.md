@@ -12,6 +12,13 @@
 
 - [https://github.com/artem-smotrakov/cve-2016-1000027-poc](https://github.com/artem-smotrakov/cve-2016-1000027-poc) :  ![starts](https://img.shields.io/github/stars/artem-smotrakov/cve-2016-1000027-poc.svg) ![forks](https://img.shields.io/github/forks/artem-smotrakov/cve-2016-1000027-poc.svg)
 
+## CVE-2016-20011
+ libgrss through 0.7.0 fails to perform TLS certificate verification when downloading feeds, allowing remote attackers to manipulate the contents of feeds without detection. This occurs because of the default behavior of SoupSessionSync.
+
+
+
+- [https://github.com/JamesGeee/CVE-2016-20011](https://github.com/JamesGeee/CVE-2016-20011) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2016-20011.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2016-20011.svg)
+
 ## CVE-2016-10761
  Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing encryption, aka MouseJack.
 
@@ -709,6 +716,8 @@
 
 
 - [https://github.com/bao7uo/bmc_bladelogic](https://github.com/bao7uo/bmc_bladelogic) :  ![starts](https://img.shields.io/github/stars/bao7uo/bmc_bladelogic.svg) ![forks](https://img.shields.io/github/forks/bao7uo/bmc_bladelogic.svg)
+
+- [https://github.com/DreadFog/RSCD_CVEs](https://github.com/DreadFog/RSCD_CVEs) :  ![starts](https://img.shields.io/github/stars/DreadFog/RSCD_CVEs.svg) ![forks](https://img.shields.io/github/forks/DreadFog/RSCD_CVEs.svg)
 
 ## CVE-2016-4999
  SQL injection vulnerability in the getStringParameterSQL method in main/java/org/dashbuilder/dataprovider/sql/dialect/DefaultDialect.java in Dashbuilder before 0.6.0.Beta1 allows remote attackers to execute arbitrary SQL commands via a data set lookup filter in the (1) Data Set Authoring or (2) Displayer editor UI.
