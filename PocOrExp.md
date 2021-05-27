@@ -1,4 +1,25 @@
 ## 2021
+## CVE-2021-33575
+ The Pixar ruby-jss gem before 1.6.0 allows remote attackers to execute arbitrary code because of the Plist gem's documented behavior of using Marshal.load during XML document processing.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-33575](https://github.com/JamesGeee/CVE-2021-33575) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-33575.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-33575.svg)
+
+## CVE-2021-33574
+ The mq_notify function in the GNU C Library (aka glibc) through 2.33 has a use-after-free. It may use the notification thread attributes object (passed through its struct sigevent parameter) after it has been freed by the caller, leading to a denial of service (application crash) or possibly unspecified other impact.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-33574](https://github.com/JamesGeee/CVE-2021-33574) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-33574.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-33574.svg)
+
+## CVE-2021-33570
+ Postbird 0.8.4 allows stored XSS via the onerror attribute of an IMG element in any PostgreSQL database table. This can result in reading local files via vectors involving XMLHttpRequest and open of a file:/// URL, or discovering PostgreSQL passwords via vectors involving Window.localStorage and savedConnections.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-33570](https://github.com/JamesGeee/CVE-2021-33570) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-33570.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-33570.svg)
+
 ## CVE-2021-33558
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -19,13 +40,6 @@
 
 
 - [https://github.com/JamesGeee/CVE-2021-32259](https://github.com/JamesGeee/CVE-2021-32259) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-32259.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-32259.svg)
-
-## CVE-2021-32222
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/r90tpass/CVE-2021-3222222](https://github.com/r90tpass/CVE-2021-3222222) :  ![starts](https://img.shields.io/github/stars/r90tpass/CVE-2021-3222222.svg) ![forks](https://img.shields.io/github/forks/r90tpass/CVE-2021-3222222.svg)
 
 ## CVE-2021-31916
  An out-of-bounds (OOB) memory write flaw was found in list_devices in drivers/md/dm-ioctl.c in the Multi-device driver module in the Linux kernel before 5.12. A bound check failure allows an attacker with special user (CAP_SYS_ADMIN) privilege to gain access to out-of-bounds memory leading to a system crash or a leak of internal kernel information. The highest threat from this vulnerability is to system availability.
@@ -614,6 +628,20 @@
 
 
 - [https://github.com/JamesGeee/CVE-2021-28125](https://github.com/JamesGeee/CVE-2021-28125) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-28125.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-28125.svg)
+
+## CVE-2021-28112
+ Draeger X-Dock Firmware before 03.00.13 has Active Debug Code on a debug port, leading to remote code execution by an authenticated attacker.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-28112](https://github.com/JamesGeee/CVE-2021-28112) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-28112.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-28112.svg)
+
+## CVE-2021-28111
+ Draeger X-Dock Firmware before 03.00.13 has Hard-Coded Credentials, leading to remote code execution by an authenticated attacker.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-28111](https://github.com/JamesGeee/CVE-2021-28111) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-28111.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-28111.svg)
 
 ## CVE-2021-27964
  SonLogger before 6.4.1 is affected by Unauthenticated Arbitrary File Upload. An attacker can send a POST request to /Config/SaveUploadedHotspotLogoFile without any authentication or session header. There is no check for the file extension or content of the uploaded file.
@@ -1280,14 +1308,19 @@
 
 - [https://github.com/Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893) :  ![starts](https://img.shields.io/github/stars/Mad-robot/CVE-2021-22893.svg) ![forks](https://img.shields.io/github/forks/Mad-robot/CVE-2021-22893.svg)
 
-- [https://github.com/r90tpass/cve-2021-22893](https://github.com/r90tpass/cve-2021-22893) :  ![starts](https://img.shields.io/github/stars/r90tpass/cve-2021-22893.svg) ![forks](https://img.shields.io/github/forks/r90tpass/cve-2021-22893.svg)
-
 ## CVE-2021-22677
  An integer overflow exists in the APIs of the host MCU while trying to connect to a WIFI network may lead to issues such as a denial-of-service condition or code execution on the SimpleLink Wi-Fi (MSP432E4 SDK: v4.20.00.12 and prior, CC32XX SDK v4.30.00.06 and prior, CC13X0 SDK versions prior to v4.10.03, CC13X2 and CC26XX SDK versions prior to v4.40.00, CC3200 SDK v1.5.0 and prior, CC3100 SDK v1.3.0 and prior).
 
 
 
 - [https://github.com/JamesGeee/CVE-2021-22677](https://github.com/JamesGeee/CVE-2021-22677) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-22677.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-22677.svg)
+
+## CVE-2021-22667
+ BB-ESWGP506-2SFP-T versions 1.01.09 and prior is vulnerable due to the use of hard-coded credentials, which may allow an attacker to gain unauthorized access and permit the execution of arbitrary code on the BB-ESWGP506-2SFP-T (versions 1.01.01 and prior).
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-22667](https://github.com/JamesGeee/CVE-2021-22667) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-22667.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-22667.svg)
 
 ## CVE-2021-22660
  CNCSoft-B Versions 1.0.0.3 and prior is vulnerable to an out-of-bounds read, which may allow an attacker to execute arbitrary code.
@@ -1429,9 +1462,9 @@
 
 - [https://github.com/password520/CVE-2021-21972](https://github.com/password520/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/password520/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/password520/CVE-2021-21972.svg)
 
-- [https://github.com/JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/JMousqueton/Detect-CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/JMousqueton/Detect-CVE-2021-21972.svg)
-
 - [https://github.com/murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2021-21972.svg)
+
+- [https://github.com/JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/JMousqueton/Detect-CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/JMousqueton/Detect-CVE-2021-21972.svg)
 
 - [https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg)
 
@@ -1538,13 +1571,13 @@
 
 - [https://github.com/erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/erranfenech/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/erranfenech/CVE-2021-21300.svg)
 
-- [https://github.com/ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/ETOCheney/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/ETOCheney/cve-2021-21300.svg)
-
 - [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
 
-- [https://github.com/1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/1uanWu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/1uanWu/CVE-2021-21300.svg)
+- [https://github.com/ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/ETOCheney/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/ETOCheney/cve-2021-21300.svg)
 
 - [https://github.com/Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Kirill89/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Kirill89/CVE-2021-21300.svg)
+
+- [https://github.com/1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/1uanWu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/1uanWu/CVE-2021-21300.svg)
 
 - [https://github.com/Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Faisal78123/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Faisal78123/CVE-2021-21300.svg)
 
@@ -1792,15 +1825,15 @@
 
 - [https://github.com/freeFV/CVE-2021-3156](https://github.com/freeFV/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/freeFV/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/freeFV/CVE-2021-3156.svg)
 
+- [https://github.com/oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/oneoy/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/oneoy/CVE-2021-3156.svg)
+
 - [https://github.com/password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/password520/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/password520/CVE-2021-3156.svg)
 
 - [https://github.com/cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/cdeletre/Serpentiel-CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/cdeletre/Serpentiel-CVE-2021-3156.svg)
 
-- [https://github.com/oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/oneoy/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/oneoy/CVE-2021-3156.svg)
+- [https://github.com/nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/nexcess/sudo_cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nexcess/sudo_cve-2021-3156.svg)
 
 - [https://github.com/AlexSeniorProject/CVE-2021-3156](https://github.com/AlexSeniorProject/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/AlexSeniorProject/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/AlexSeniorProject/CVE-2021-3156.svg)
-
-- [https://github.com/nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/nexcess/sudo_cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nexcess/sudo_cve-2021-3156.svg)
 
 - [https://github.com/gmldbd94/cve-2021-3156](https://github.com/gmldbd94/cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/gmldbd94/cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/gmldbd94/cve-2021-3156.svg)
 
