@@ -8183,15 +8183,15 @@
 
 - [https://github.com/zgelici/CVE-2019-19781-Checker](https://github.com/zgelici/CVE-2019-19781-Checker) :  ![starts](https://img.shields.io/github/stars/zgelici/CVE-2019-19781-Checker.svg) ![forks](https://img.shields.io/github/forks/zgelici/CVE-2019-19781-Checker.svg)
 
-- [https://github.com/Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Castaldio86/Detect-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Castaldio86/Detect-CVE-2019-19781.svg)
-
-- [https://github.com/5l1v3r1/Citrix_CVE-2019-19781](https://github.com/5l1v3r1/Citrix_CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/Citrix_CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/Citrix_CVE-2019-19781.svg)
-
 - [https://github.com/VladRico/CVE-2019-19781](https://github.com/VladRico/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/VladRico/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/VladRico/CVE-2019-19781.svg)
 
 - [https://github.com/zenturacp/cve-2019-19781-web](https://github.com/zenturacp/cve-2019-19781-web) :  ![starts](https://img.shields.io/github/stars/zenturacp/cve-2019-19781-web.svg) ![forks](https://img.shields.io/github/forks/zenturacp/cve-2019-19781-web.svg)
 
 - [https://github.com/b510/CVE-2019-19781](https://github.com/b510/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/b510/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/b510/CVE-2019-19781.svg)
+
+- [https://github.com/Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Castaldio86/Detect-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Castaldio86/Detect-CVE-2019-19781.svg)
+
+- [https://github.com/5l1v3r1/Citrix_CVE-2019-19781](https://github.com/5l1v3r1/Citrix_CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/Citrix_CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/Citrix_CVE-2019-19781.svg)
 
 - [https://github.com/qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc) :  ![starts](https://img.shields.io/github/stars/qiong-qi/CVE-2019-19781-poc.svg) ![forks](https://img.shields.io/github/forks/qiong-qi/CVE-2019-19781-poc.svg)
 
@@ -8469,9 +8469,9 @@
 
 - [https://github.com/ThanHuuTuan/Telerik_CVE-2019-18935](https://github.com/ThanHuuTuan/Telerik_CVE-2019-18935) :  ![starts](https://img.shields.io/github/stars/ThanHuuTuan/Telerik_CVE-2019-18935.svg) ![forks](https://img.shields.io/github/forks/ThanHuuTuan/Telerik_CVE-2019-18935.svg)
 
-- [https://github.com/becrevex/Telerik_CVE-2019-18935](https://github.com/becrevex/Telerik_CVE-2019-18935) :  ![starts](https://img.shields.io/github/stars/becrevex/Telerik_CVE-2019-18935.svg) ![forks](https://img.shields.io/github/forks/becrevex/Telerik_CVE-2019-18935.svg)
-
 - [https://github.com/ThanHuuTuan/CVE_2019_18935](https://github.com/ThanHuuTuan/CVE_2019_18935) :  ![starts](https://img.shields.io/github/stars/ThanHuuTuan/CVE_2019_18935.svg) ![forks](https://img.shields.io/github/forks/ThanHuuTuan/CVE_2019_18935.svg)
+
+- [https://github.com/becrevex/Telerik_CVE-2019-18935](https://github.com/becrevex/Telerik_CVE-2019-18935) :  ![starts](https://img.shields.io/github/stars/becrevex/Telerik_CVE-2019-18935.svg) ![forks](https://img.shields.io/github/forks/becrevex/Telerik_CVE-2019-18935.svg)
 
 - [https://github.com/luuquy/DecryptRawdata_CVE_2019_18935](https://github.com/luuquy/DecryptRawdata_CVE_2019_18935) :  ![starts](https://img.shields.io/github/stars/luuquy/DecryptRawdata_CVE_2019_18935.svg) ![forks](https://img.shields.io/github/forks/luuquy/DecryptRawdata_CVE_2019_18935.svg)
 
@@ -11925,9 +11925,9 @@
 
 - [https://github.com/xiaoshuier/CVE-2019-3396](https://github.com/xiaoshuier/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/xiaoshuier/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/xiaoshuier/CVE-2019-3396.svg)
 
-- [https://github.com/46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence) :  ![starts](https://img.shields.io/github/stars/46o60/CVE-2019-3396_Confluence.svg) ![forks](https://img.shields.io/github/forks/46o60/CVE-2019-3396_Confluence.svg)
-
 - [https://github.com/JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST) :  ![starts](https://img.shields.io/github/stars/JonathanZhou348/CVE-2019-3396TEST.svg) ![forks](https://img.shields.io/github/forks/JonathanZhou348/CVE-2019-3396TEST.svg)
+
+- [https://github.com/46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence) :  ![starts](https://img.shields.io/github/stars/46o60/CVE-2019-3396_Confluence.svg) ![forks](https://img.shields.io/github/forks/46o60/CVE-2019-3396_Confluence.svg)
 
 - [https://github.com/s1xg0d/CVE-2019-3396](https://github.com/s1xg0d/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/s1xg0d/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/s1xg0d/CVE-2019-3396.svg)
 
@@ -12660,9 +12660,9 @@
 
 - [https://github.com/qing-root/CVE-2019-0708-EXP-MSF-](https://github.com/qing-root/CVE-2019-0708-EXP-MSF-) :  ![starts](https://img.shields.io/github/stars/qing-root/CVE-2019-0708-EXP-MSF-.svg) ![forks](https://img.shields.io/github/forks/qing-root/CVE-2019-0708-EXP-MSF-.svg)
 
-- [https://github.com/infiniti-team/CVE-2019-0708](https://github.com/infiniti-team/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/infiniti-team/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/infiniti-team/CVE-2019-0708.svg)
-
 - [https://github.com/major203/cve-2019-0708-scan](https://github.com/major203/cve-2019-0708-scan) :  ![starts](https://img.shields.io/github/stars/major203/cve-2019-0708-scan.svg) ![forks](https://img.shields.io/github/forks/major203/cve-2019-0708-scan.svg)
+
+- [https://github.com/infiniti-team/CVE-2019-0708](https://github.com/infiniti-team/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/infiniti-team/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/infiniti-team/CVE-2019-0708.svg)
 
 - [https://github.com/blockchainguard/CVE-2019-0708](https://github.com/blockchainguard/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/blockchainguard/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/blockchainguard/CVE-2019-0708.svg)
 
@@ -12714,15 +12714,15 @@
 
 - [https://github.com/sbkcbig/CVE-2019-0708-EXPloit](https://github.com/sbkcbig/CVE-2019-0708-EXPloit) :  ![starts](https://img.shields.io/github/stars/sbkcbig/CVE-2019-0708-EXPloit.svg) ![forks](https://img.shields.io/github/forks/sbkcbig/CVE-2019-0708-EXPloit.svg)
 
-- [https://github.com/infenet/CVE-2019-0708](https://github.com/infenet/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/infenet/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/infenet/CVE-2019-0708.svg)
-
-- [https://github.com/skommando/CVE-2019-0708](https://github.com/skommando/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/skommando/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/skommando/CVE-2019-0708.svg)
+- [https://github.com/gildaaa/CVE-2019-0708](https://github.com/gildaaa/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/gildaaa/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/gildaaa/CVE-2019-0708.svg)
 
 - [https://github.com/eastmountyxz/CVE-2019-0708-Windows](https://github.com/eastmountyxz/CVE-2019-0708-Windows) :  ![starts](https://img.shields.io/github/stars/eastmountyxz/CVE-2019-0708-Windows.svg) ![forks](https://img.shields.io/github/forks/eastmountyxz/CVE-2019-0708-Windows.svg)
 
-- [https://github.com/gildaaa/CVE-2019-0708](https://github.com/gildaaa/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/gildaaa/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/gildaaa/CVE-2019-0708.svg)
-
 - [https://github.com/ORCA666/CVE-2019-0708](https://github.com/ORCA666/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ORCA666/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ORCA666/CVE-2019-0708.svg)
+
+- [https://github.com/infenet/CVE-2019-0708](https://github.com/infenet/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/infenet/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/infenet/CVE-2019-0708.svg)
+
+- [https://github.com/skommando/CVE-2019-0708](https://github.com/skommando/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/skommando/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/skommando/CVE-2019-0708.svg)
 
 - [https://github.com/herhe/CVE-2019-0708poc](https://github.com/herhe/CVE-2019-0708poc) :  ![starts](https://img.shields.io/github/stars/herhe/CVE-2019-0708poc.svg) ![forks](https://img.shields.io/github/forks/herhe/CVE-2019-0708poc.svg)
 
@@ -12795,7 +12795,7 @@
 
 - [https://github.com/likescam/CVE-2019-0604_sharepoint_CVE](https://github.com/likescam/CVE-2019-0604_sharepoint_CVE) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2019-0604_sharepoint_CVE.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2019-0604_sharepoint_CVE.svg)
 
-- [https://github.com/tree-chtsec/weaponized-0604](https://github.com/tree-chtsec/weaponized-0604) :  ![starts](https://img.shields.io/github/stars/tree-chtsec/weaponized-0604.svg) ![forks](https://img.shields.io/github/forks/tree-chtsec/weaponized-0604.svg)
+- [https://github.com/Gh0st0ne/weaponized-0604](https://github.com/Gh0st0ne/weaponized-0604) :  ![starts](https://img.shields.io/github/stars/Gh0st0ne/weaponized-0604.svg) ![forks](https://img.shields.io/github/forks/Gh0st0ne/weaponized-0604.svg)
 
 ## CVE-2019-0541
  A remote code execution vulnerability exists in the way that the MSHTML engine inproperly validates input, aka &quot;MSHTML Engine Remote Code Execution Vulnerability.&quot; This affects Microsoft Office, Microsoft Office Word Viewer, Internet Explorer 9, Internet Explorer 11, Microsoft Excel Viewer, Internet Explorer 10, Office 365 ProPlus.
