@@ -7,6 +7,7 @@ import datetime
 import time
 from random import sample
 from tqdm import tqdm
+from loguru import logger
 
 DOWNLOAD_DIR = 'download'
 TOKEN_FILE = 'TOKENS'
@@ -41,8 +42,8 @@ def parse_cve_xml(filename):
             cve_descriptions.append(line[37:-7].decode('utf-8',"ignore"))
     cve_infos = []
     if(len(cve_ids)!=len(cve_descriptions)):
-        print("error")
-        return cve_infos
+        logger.error("xml of cve process error")
+        exit(-1)
     else:
         for i in range(len(cve_ids)):
             cve_infos.append({'CVE_ID': cve_ids[i], 'CVE_DESCRIPTION': cve_descriptions[i]})
@@ -57,7 +58,6 @@ def generate_markdown_year(year):
     string = []
     for number in cve_number:
         filename = os.path.join(year,number[1])
-        # print(filename)
         with open(filename,'r') as f:
             cve_info = json.load(f)
             if(cve_info['PocOrExp_NUM']==0):
@@ -103,11 +103,11 @@ def get_PocOrExp_in_github(CVE_ID,Other_ID = None):
     windows = 0
     while(True):
         time.sleep(windows)
-        TOKEN = sample(tokens,1)[0]
-        headers = {"Authorization": "token "+TOKEN}
+        token = sample(tokens,1)[0]
+        headers = {"Authorization": "token "+token}
         req = requests.get(api, headers=headers).text
         req = json.loads(req)
-        print(CVE_ID,Other_ID,TOKEN)
+        logger.info("CVE_ID: %s , token: %s"%(CVE_ID, token))
         if('items' in req):
             items = req['items']
             break
@@ -217,14 +217,16 @@ def process_cve_all(init = True):
         process_cve_year(year,init)
 
 def init():
+    logger.add('PocOrExps.log',format="{time} {level} {message}",rotation="10 MB")
     if(not os.path.exists(DOWNLOAD_DIR)):
         os.mkdir(DOWNLOAD_DIR)
     for year in range(1999, datetime.datetime.now().year+1):
         if(not os.path.exists(str(year))):
             os.mkdir(str(year))
     if(not os.path.exists(TOKEN_FILE)):
-        print("please checkout your token files")
+        logger.error("TOKEN FILE NOT EXISTS!")
         exit(-1)
+    
     global tokens
     with open(TOKEN_FILE) as f:
         content = f.readlines()
@@ -232,9 +234,11 @@ def init():
         line = line.strip()
         if line.startswith("token:"):
             tokens.append(line.split(":")[-1])
-    print(tokens)
+    logger.info(tokens)
     if(len(tokens)==0):
-        print("please checkout your token files")
+        logger.error("NO TOKEN IN TOKEN FILE")
+        exit(-1)
+    
     global blacklist
     with open(BLACKLIST_FILE) as f:
         content = f.readlines()

@@ -45,7 +45,7 @@ optional arguments:
 - STEP1：安装依赖
 
   ```
-  pip3 install tqdm aiohttp_requests
+  pip3 install -r requirements.txt
   ```
 
 - STEP2：申请github api token写入项目目录下的TOKENS文件中，格式如下，可以使用多个token：

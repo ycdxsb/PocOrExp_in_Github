@@ -6,6 +6,7 @@ import datetime
 import time
 from random import sample
 from tqdm import tqdm
+from loguru import logger
 import asyncio
 import requests
 from aiohttp_requests import requests as aio_requests
@@ -19,7 +20,7 @@ blacklist = []
 def download_cve_xml(filename):
     base_url = "https://cve.mitre.org/data/downloads/"
     url = base_url + filename
-    print(url)
+    logger.info(url)
     xml_content = requests.get(url, stream=True)
     with open(os.path.join(DOWNLOAD_DIR, filename), 'wb') as f:
         for chunk in xml_content:
@@ -44,8 +45,8 @@ def parse_cve_xml(filename):
             cve_descriptions.append(line[37:-7].decode('utf-8','ignore'))
     cve_infos = []
     if(len(cve_ids)!=len(cve_descriptions)):
-        print("error")
-        return cve_infos
+        logger.error("xml of cve process error")
+        exit(-1)
     else:
         for i in range(len(cve_ids)):
             cve_infos.append({'CVE_ID': cve_ids[i], 'CVE_DESCRIPTION': cve_descriptions[i]})
@@ -110,7 +111,7 @@ async def get_PocOrExp_in_github(CVE_ID,Other_ID = None,token=None):
         req = await aio_requests.get(api,headers = headers)
         req = await req.text()
         req = json.loads(req)
-        print(CVE_ID,Other_ID,token)
+        logger.info("CVE_ID: %s , token: %s"%(CVE_ID, token))
         if('items' in req):
             items = req['items']
             break
@@ -233,14 +234,16 @@ def process_cve_all(init = True):
         process_cve_year(year,init)
 
 def init():
+    logger.add('PocOrExps.log',format="{time} {level} {message}",rotation="10 MB")
     if(not os.path.exists(DOWNLOAD_DIR)):
         os.mkdir(DOWNLOAD_DIR)
     for year in range(1999, datetime.datetime.now().year+1):
         if(not os.path.exists(str(year))):
             os.mkdir(str(year))
     if(not os.path.exists(TOKEN_FILE)):
-        print("please checkout your token files")
+        logger.error("TOKEN FILE NOT EXISTS!")
         exit(-1)
+        
     global tokens
     with open(TOKEN_FILE) as f:
         content = f.readlines()
@@ -248,9 +251,11 @@ def init():
         line = line.strip()
         if line.startswith("token:"):
             tokens.append(line.split(":")[-1])
-    print(tokens)
+    logger.info(tokens)
     if(len(tokens)==0):
-        print("please checkout your token files")
+        logger.error("NO TOKEN IN TOKEN FILE")
+        exit(-1)
+        
     global blacklist
     with open(BLACKLIST_FILE) as f:
         content = f.readlines()
