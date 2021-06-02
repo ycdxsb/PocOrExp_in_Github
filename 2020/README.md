@@ -1,3 +1,73 @@
+## CVE-2020-36375
+ Stack overflow vulnerability in parse_equality Cesanta MJS 1.20.1, allows remote attackers to cause a Denial of Service (DoS) via a crafted file.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-36375](https://github.com/JamesGeee/CVE-2020-36375) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36375.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36375.svg)
+
+## CVE-2020-36374
+ Stack overflow vulnerability in parse_comparison Cesanta MJS 1.20.1, allows remote attackers to cause a Denial of Service (DoS) via a crafted file.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-36374](https://github.com/JamesGeee/CVE-2020-36374) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36374.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36374.svg)
+
+## CVE-2020-36373
+ Stack overflow vulnerability in parse_shifts Cesanta MJS 1.20.1, allows remote attackers to cause a Denial of Service (DoS) via a crafted file.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-36373](https://github.com/JamesGeee/CVE-2020-36373) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36373.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36373.svg)
+
+## CVE-2020-36372
+ Stack overflow vulnerability in parse_plus_minus Cesanta MJS 1.20.1, allows remote attackers to cause a Denial of Service (DoS) via a crafted file.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-36372](https://github.com/JamesGeee/CVE-2020-36372) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36372.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36372.svg)
+
+## CVE-2020-36371
+ Stack overflow vulnerability in parse_mul_div_rem Cesanta MJS 1.20.1, allows remote attackers to cause a Denial of Service (DoS) via a crafted file.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-36371](https://github.com/JamesGeee/CVE-2020-36371) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36371.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36371.svg)
+
+## CVE-2020-36370
+ Stack overflow vulnerability in parse_unary Cesanta MJS 1.20.1, allows remote attackers to cause a Denial of Service (DoS) via a crafted file.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-36370](https://github.com/JamesGeee/CVE-2020-36370) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36370.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36370.svg)
+
+## CVE-2020-36369
+ Stack overflow vulnerability in parse_statement_list Cesanta MJS 1.20.1, allows remote attackers to cause a Denial of Service (DoS) via a crafted file.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-36369](https://github.com/JamesGeee/CVE-2020-36369) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36369.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36369.svg)
+
+## CVE-2020-36368
+ Stack overflow vulnerability in parse_statement Cesanta MJS 1.20.1, allows remote attackers to cause a Denial of Service (DoS) via a crafted file.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-36368](https://github.com/JamesGeee/CVE-2020-36368) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36368.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36368.svg)
+
+## CVE-2020-36367
+ Stack overflow vulnerability in parse_block Cesanta MJS 1.20.1, allows remote attackers to cause a Denial of Service (DoS) via a crafted file.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-36367](https://github.com/JamesGeee/CVE-2020-36367) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36367.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36367.svg)
+
+## CVE-2020-36366
+ Stack overflow vulnerability in parse_value Cesanta MJS 1.20.1, allows remote attackers to cause a Denial of Service (DoS) via a crafted file.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-36366](https://github.com/JamesGeee/CVE-2020-36366) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-36366.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-36366.svg)
+
 ## CVE-2020-36326
  PHPMailer 6.1.8 through 6.4.0 allows object injection through Phar Deserialization via addAttachment with a UNC pathname. NOTE: this is similar to CVE-2018-19296, but arose because 6.1.8 fixed a functionality problem in which UNC pathnames were always considered unreadable by PHPMailer, even in safe contexts. As an unintended side effect, this fix eliminated the code that blocked addAttachment exploitation.
 
@@ -392,11 +462,11 @@
 
 - [https://github.com/IanSmith123/CVE-2020-27955](https://github.com/IanSmith123/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/IanSmith123/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/IanSmith123/CVE-2020-27955.svg)
 
-- [https://github.com/Marsable/CVE-2020-27955-LFS](https://github.com/Marsable/CVE-2020-27955-LFS) :  ![starts](https://img.shields.io/github/stars/Marsable/CVE-2020-27955-LFS.svg) ![forks](https://img.shields.io/github/forks/Marsable/CVE-2020-27955-LFS.svg)
+- [https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST](https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST) :  ![starts](https://img.shields.io/github/stars/SilverSkyFlyingFeather/CVE-2020-27955-TEST.svg) ![forks](https://img.shields.io/github/forks/SilverSkyFlyingFeather/CVE-2020-27955-TEST.svg)
 
 - [https://github.com/qzyqzynb/CVE-2020-27955](https://github.com/qzyqzynb/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/qzyqzynb/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/qzyqzynb/CVE-2020-27955.svg)
 
-- [https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST](https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST) :  ![starts](https://img.shields.io/github/stars/SilverSkyFlyingFeather/CVE-2020-27955-TEST.svg) ![forks](https://img.shields.io/github/forks/SilverSkyFlyingFeather/CVE-2020-27955-TEST.svg)
+- [https://github.com/Marsable/CVE-2020-27955-LFS](https://github.com/Marsable/CVE-2020-27955-LFS) :  ![starts](https://img.shields.io/github/stars/Marsable/CVE-2020-27955-LFS.svg) ![forks](https://img.shields.io/github/forks/Marsable/CVE-2020-27955-LFS.svg)
 
 - [https://github.com/yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc) :  ![starts](https://img.shields.io/github/stars/yhsung/cve-2020-27955-poc.svg) ![forks](https://img.shields.io/github/forks/yhsung/cve-2020-27955-poc.svg)
 
@@ -455,6 +525,13 @@
 
 
 - [https://github.com/ossf-cve-benchmark/CVE-2020-27666](https://github.com/ossf-cve-benchmark/CVE-2020-27666) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2020-27666.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2020-27666.svg)
+
+## CVE-2020-27619
+ In Python 3 through 3.9.0, the Lib/test/multibytecodec_support.py CJK codec tests call eval() on content retrieved via HTTP.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-27619](https://github.com/JamesGeee/CVE-2020-27619) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-27619.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-27619.svg)
 
 ## CVE-2020-27603
  BigBlueButton before 2.2.27 has an unsafe JODConverter setting in which LibreOffice document conversions can access external files.
@@ -687,6 +764,13 @@
 
 
 - [https://github.com/jet-pentest/CVE-2020-25747](https://github.com/jet-pentest/CVE-2020-25747) :  ![starts](https://img.shields.io/github/stars/jet-pentest/CVE-2020-25747.svg) ![forks](https://img.shields.io/github/forks/jet-pentest/CVE-2020-25747.svg)
+
+## CVE-2020-25710
+ A flaw was found in OpenLDAP in versions before 2.4.56. This flaw allows an attacker who sends a malicious packet processed by OpenLDAP to force a failed assertion in csnNormalize23(). The highest threat from this vulnerability is to system availability.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-25710](https://github.com/JamesGeee/CVE-2020-25710) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-25710.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-25710.svg)
 
 ## CVE-2020-25705
  A flaw in ICMP packets in the Linux kernel may allow an attacker to quickly scan open UDP ports. This flaw allows an off-path remote attacker to effectively bypass source port UDP randomization. Software that relies on UDP source port randomization are indirectly affected as well on the Linux Based Products (RUGGEDCOM RM1224: All versions between v5.0 and v6.4, SCALANCE M-800: All versions between v5.0 and v6.4, SCALANCE S615: All versions between v5.0 and v6.4, SCALANCE SC-600: All versions prior to v2.1.3, SCALANCE W1750D: v8.3.0.1, v8.6.0, and v8.7.0, SIMATIC Cloud Connect 7: All versions, SIMATIC MV500 Family: All versions, SIMATIC NET CP 1243-1 (incl. SIPLUS variants): Versions 3.1.39 and later, SIMATIC NET CP 1243-7 LTE EU: Version
@@ -1223,6 +1307,20 @@
 
 
 - [https://github.com/JamesGeee/CVE-2020-19107](https://github.com/JamesGeee/CVE-2020-19107) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-19107.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-19107.svg)
+
+## CVE-2020-18395
+ A NULL-pointer deference issue was discovered in GNU_gama::set() in ellipsoid.h in Gama 2.04 which can lead to a denial of service (DOS) via segment faults caused by crafted inputs.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-18395](https://github.com/JamesGeee/CVE-2020-18395) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-18395.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-18395.svg)
+
+## CVE-2020-18392
+ Stack overflow vulnerability in parse_array Cesanta MJS 1.20.1, allows remote attackers to cause a Denial of Service (DoS) via a crafted file.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-18392](https://github.com/JamesGeee/CVE-2020-18392) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-18392.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-18392.svg)
 
 ## CVE-2020-18220
  Weak Encoding for Password in DoraCMS v2.1.1 and earlier allows attackers to obtain sensitive information as it does not use a random salt or IV for its AES-CBC encryption, causes password encrypted for users to be susceptible to dictionary attacks.
@@ -1852,11 +1950,11 @@
 
 - [https://github.com/RedTeamWing/CVE-2020-14882](https://github.com/RedTeamWing/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/RedTeamWing/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/RedTeamWing/CVE-2020-14882.svg)
 
+- [https://github.com/nice0e3/CVE-2020-14882_Exploit_Gui](https://github.com/nice0e3/CVE-2020-14882_Exploit_Gui) :  ![starts](https://img.shields.io/github/stars/nice0e3/CVE-2020-14882_Exploit_Gui.svg) ![forks](https://img.shields.io/github/forks/nice0e3/CVE-2020-14882_Exploit_Gui.svg)
+
 - [https://github.com/NS-Sp4ce/CVE-2020-14882](https://github.com/NS-Sp4ce/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/NS-Sp4ce/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/NS-Sp4ce/CVE-2020-14882.svg)
 
 - [https://github.com/GGyao/CVE-2020-14882_POC](https://github.com/GGyao/CVE-2020-14882_POC) :  ![starts](https://img.shields.io/github/stars/GGyao/CVE-2020-14882_POC.svg) ![forks](https://img.shields.io/github/forks/GGyao/CVE-2020-14882_POC.svg)
-
-- [https://github.com/nice0e3/CVE-2020-14882_Exploit_Gui](https://github.com/nice0e3/CVE-2020-14882_Exploit_Gui) :  ![starts](https://img.shields.io/github/stars/nice0e3/CVE-2020-14882_Exploit_Gui.svg) ![forks](https://img.shields.io/github/forks/nice0e3/CVE-2020-14882_Exploit_Gui.svg)
 
 - [https://github.com/QmF0c3UK/CVE-2020-14882](https://github.com/QmF0c3UK/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/QmF0c3UK/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/QmF0c3UK/CVE-2020-14882.svg)
 
@@ -2110,6 +2208,13 @@
 - [https://github.com/s-index/poc-list](https://github.com/s-index/poc-list) :  ![starts](https://img.shields.io/github/stars/s-index/poc-list.svg) ![forks](https://img.shields.io/github/forks/s-index/poc-list.svg)
 
 - [https://github.com/s-index/CVE-2020-13957](https://github.com/s-index/CVE-2020-13957) :  ![starts](https://img.shields.io/github/stars/s-index/CVE-2020-13957.svg) ![forks](https://img.shields.io/github/forks/s-index/CVE-2020-13957.svg)
+
+## CVE-2020-13956
+ Apache HttpClient versions prior to version 4.5.13 and 5.0.3 can misinterpret malformed authority component in request URIs passed to the library as java.net.URI object and pick the wrong target host for request execution.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-13956](https://github.com/JamesGeee/CVE-2020-13956) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-13956.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-13956.svg)
 
 ## CVE-2020-13949
  In Apache Thrift 0.9.3 to 0.13.0, malicious RPC clients could send short messages which would result in a large memory allocation, potentially leading to denial of service.
@@ -2410,6 +2515,13 @@
 
 - [https://github.com/mkelepce/CVE-2020-12629](https://github.com/mkelepce/CVE-2020-12629) :  ![starts](https://img.shields.io/github/stars/mkelepce/CVE-2020-12629.svg) ![forks](https://img.shields.io/github/forks/mkelepce/CVE-2020-12629.svg)
 
+## CVE-2020-12460
+ OpenDMARC through 1.3.2 and 1.4.x through 1.4.0-Beta1 has improper null termination in the function opendmarc_xml_parse that can result in a one-byte heap overflow in opendmarc_xml when parsing a specially crafted DMARC aggregate report. This can cause remote memory corruption when a '\0' byte overwrites the heap metadata of the next chunk and its PREV_INUSE flag.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-12460](https://github.com/JamesGeee/CVE-2020-12460) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-12460.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-12460.svg)
+
 ## CVE-2020-12432
  The WOPI API integration for Vereign Collabora CODE through 4.2.2 does not properly restrict delivery of JavaScript to a victim's browser, and lacks proper MIME type access control, which could lead to XSS that steals account credentials via cookies or local storage. The attacker must first obtain an API access token, which can be accomplished if the attacker is able to upload a .docx or .odt file. The associated API endpoints for exploitation are /wopi/files and /wopi/getAccessToken.
 
@@ -2423,6 +2535,13 @@
 
 
 - [https://github.com/naren-jayram/Linux-Heap-Based-Type-Confusion-in-L2CAP](https://github.com/naren-jayram/Linux-Heap-Based-Type-Confusion-in-L2CAP) :  ![starts](https://img.shields.io/github/stars/naren-jayram/Linux-Heap-Based-Type-Confusion-in-L2CAP.svg) ![forks](https://img.shields.io/github/forks/naren-jayram/Linux-Heap-Based-Type-Confusion-in-L2CAP.svg)
+
+## CVE-2020-12272
+ OpenDMARC through 1.3.2 and 1.4.x allows attacks that inject authentication results to provide false information about the domain that originated an e-mail message. This is caused by incorrect parsing and interpretation of SPF/DKIM authentication results, as demonstrated by the example.net(.example.com substring.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-12272](https://github.com/JamesGeee/CVE-2020-12272) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-12272.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-12272.svg)
 
 ## CVE-2020-12265
  The decompress package before 4.2.1 for Node.js is vulnerable to Arbitrary File Write via ../ in an archive member, when a symlink is used, because of Directory Traversal.
@@ -2488,6 +2607,13 @@
 
 
 - [https://github.com/HYWZ36/HYWZ36-CVE-2020-11989-code](https://github.com/HYWZ36/HYWZ36-CVE-2020-11989-code) :  ![starts](https://img.shields.io/github/stars/HYWZ36/HYWZ36-CVE-2020-11989-code.svg) ![forks](https://img.shields.io/github/forks/HYWZ36/HYWZ36-CVE-2020-11989-code.svg)
+
+## CVE-2020-11978
+ An issue was found in Apache Airflow versions 1.10.10 and below. A remote code/command injection vulnerability was discovered in one of the example DAGs shipped with Airflow which would allow any authenticated user to run arbitrary commands as the user running airflow worker/scheduler (depending on the executor in use). If you already have examples disabled by setting load_examples=False in the config then you are not vulnerable.
+
+
+
+- [https://github.com/pberba/CVE-2020-11978](https://github.com/pberba/CVE-2020-11978) :  ![starts](https://img.shields.io/github/stars/pberba/CVE-2020-11978.svg) ![forks](https://img.shields.io/github/forks/pberba/CVE-2020-11978.svg)
 
 ## CVE-2020-11975
  Apache Unomi allows conditions to use OGNL scripting which offers the possibility to call static Java classes from the JDK that could execute code with the permission level of the running Java process.
@@ -2847,6 +2973,13 @@
 - [https://github.com/Al1ex/CVE-2020-10673](https://github.com/Al1ex/CVE-2020-10673) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2020-10673.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2020-10673.svg)
 
 - [https://github.com/harry1080/CVE-2020-10673](https://github.com/harry1080/CVE-2020-10673) :  ![starts](https://img.shields.io/github/stars/harry1080/CVE-2020-10673.svg) ![forks](https://img.shields.io/github/forks/harry1080/CVE-2020-10673.svg)
+
+## CVE-2020-10666
+ The restapps (aka Rest Phone apps) module for Sangoma FreePBX and PBXact 13, 14, and 15 through 15.0.19.2 allows remote code execution via a URL variable to an AMI command.
+
+
+
+- [https://github.com/JamesGeee/CVE-2020-10666](https://github.com/JamesGeee/CVE-2020-10666) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2020-10666.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2020-10666.svg)
 
 ## CVE-2020-10665
  Docker Desktop allows local privilege escalation to NT AUTHORITY\SYSTEM because it mishandles the collection of diagnostics with Administrator privileges, leading to arbitrary DACL permissions overwrites and arbitrary file writes. This affects Docker Desktop Enterprise before 2.1.0.9, Docker Desktop for Windows Stable before 2.2.0.4, and Docker Desktop for Windows Edge before 2.2.2.0.
@@ -4136,9 +4269,9 @@
 
 - [https://github.com/r0ttenbeef/cve-2020-5902](https://github.com/r0ttenbeef/cve-2020-5902) :  ![starts](https://img.shields.io/github/stars/r0ttenbeef/cve-2020-5902.svg) ![forks](https://img.shields.io/github/forks/r0ttenbeef/cve-2020-5902.svg)
 
-- [https://github.com/pwnhacker0x18/CVE-2020-5902-Mass](https://github.com/pwnhacker0x18/CVE-2020-5902-Mass) :  ![starts](https://img.shields.io/github/stars/pwnhacker0x18/CVE-2020-5902-Mass.svg) ![forks](https://img.shields.io/github/forks/pwnhacker0x18/CVE-2020-5902-Mass.svg)
-
 - [https://github.com/murataydemir/CVE-2020-5902](https://github.com/murataydemir/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2020-5902.svg)
+
+- [https://github.com/pwnhacker0x18/CVE-2020-5902-Mass](https://github.com/pwnhacker0x18/CVE-2020-5902-Mass) :  ![starts](https://img.shields.io/github/stars/pwnhacker0x18/CVE-2020-5902-Mass.svg) ![forks](https://img.shields.io/github/forks/pwnhacker0x18/CVE-2020-5902-Mass.svg)
 
 - [https://github.com/Un4gi/CVE-2020-5902](https://github.com/Un4gi/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/Un4gi/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/Un4gi/CVE-2020-5902.svg)
 
@@ -5367,15 +5500,15 @@
 
 - [https://github.com/ran-sama/CVE-2020-0796](https://github.com/ran-sama/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/ran-sama/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/ran-sama/CVE-2020-0796.svg)
 
+- [https://github.com/datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/datntsec/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/datntsec/CVE-2020-0796.svg)
+
 - [https://github.com/kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/kn6869610/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/kn6869610/CVE-2020-0796.svg)
 
 - [https://github.com/xax007/CVE-2020-0796-Scanner](https://github.com/xax007/CVE-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/xax007/CVE-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/xax007/CVE-2020-0796-Scanner.svg)
 
-- [https://github.com/datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/datntsec/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/datntsec/CVE-2020-0796.svg)
+- [https://github.com/section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/section-c/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/section-c/CVE-2020-0796.svg)
 
 - [https://github.com/ORCA666/CVE-2020-0796](https://github.com/ORCA666/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/ORCA666/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/ORCA666/CVE-2020-0796.svg)
-
-- [https://github.com/section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/section-c/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/section-c/CVE-2020-0796.svg)
 
 - [https://github.com/TinToSer/CVE-2020-0796-LPE](https://github.com/TinToSer/CVE-2020-0796-LPE) :  ![starts](https://img.shields.io/github/stars/TinToSer/CVE-2020-0796-LPE.svg) ![forks](https://img.shields.io/github/forks/TinToSer/CVE-2020-0796-LPE.svg)
 
@@ -5636,13 +5769,13 @@
 
 - [https://github.com/apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/apmunch/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/apmunch/CVE-2020-0601.svg)
 
-- [https://github.com/MarkusZehnle/CVE-2020-0601](https://github.com/MarkusZehnle/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/MarkusZehnle/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/MarkusZehnle/CVE-2020-0601.svg)
-
 - [https://github.com/thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl) :  ![starts](https://img.shields.io/github/stars/thimelp/cve-2020-0601-Perl.svg) ![forks](https://img.shields.io/github/forks/thimelp/cve-2020-0601-Perl.svg)
 
-- [https://github.com/JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/JPurrier/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/JPurrier/CVE-2020-0601.svg)
+- [https://github.com/MarkusZehnle/CVE-2020-0601](https://github.com/MarkusZehnle/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/MarkusZehnle/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/MarkusZehnle/CVE-2020-0601.svg)
 
 - [https://github.com/Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/Ash112121/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/Ash112121/CVE-2020-0601.svg)
+
+- [https://github.com/JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/JPurrier/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/JPurrier/CVE-2020-0601.svg)
 
 - [https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC](https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC) :  ![starts](https://img.shields.io/github/stars/okanulkr/CurveBall-CVE-2020-0601-PoC.svg) ![forks](https://img.shields.io/github/forks/okanulkr/CurveBall-CVE-2020-0601-PoC.svg)
 
