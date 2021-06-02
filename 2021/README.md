@@ -1,3 +1,10 @@
+## CVE-2021-33790
+ The RebornCore library before 4.7.3 allows remote code execution because it deserializes untrusted data in ObjectInputStream.readObject as part of reborncore.common.network.ExtendedPacketBuffer. An attacker can instantiate any class on the classpath with any data. A class usable for exploitation might or might not be present, depending on what Minecraft modifications are installed.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-33790](https://github.com/JamesGeee/CVE-2021-33790) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-33790.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-33790.svg)
+
 ## CVE-2021-33575
  The Pixar ruby-jss gem before 1.6.0 allows remote attackers to execute arbitrary code because of the Plist gem's documented behavior of using Marshal.load during XML document processing.
 
@@ -26,6 +33,8 @@
 
 - [https://github.com/mlr0p/CVE-2021-33564](https://github.com/mlr0p/CVE-2021-33564) :  ![starts](https://img.shields.io/github/stars/mlr0p/CVE-2021-33564.svg) ![forks](https://img.shields.io/github/forks/mlr0p/CVE-2021-33564.svg)
 
+- [https://github.com/JamesGeee/CVE-2021-33564](https://github.com/JamesGeee/CVE-2021-33564) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-33564.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-33564.svg)
+
 ## CVE-2021-33558
  Boa 0.94.13 allows remote attackers to obtain sensitive information via a misconfiguration involving backup.html, preview.html, js/log.js, log.html, email.html, online-users.html, and config.js.
 
@@ -39,6 +48,48 @@
 
 
 - [https://github.com/JamesGeee/CVE-2021-33516](https://github.com/JamesGeee/CVE-2021-33516) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-33516.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-33516.svg)
+
+## CVE-2021-33477
+ rxvt-unicode 9.22, rxvt 2.7.10, mrxvt 0.5.4, and Eterm 0.9.7 allow (potentially remote) code execution because of improper handling of certain escape sequences (ESC G Q). A response is terminated by a newline.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-33477](https://github.com/JamesGeee/CVE-2021-33477) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-33477.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-33477.svg)
+
+## CVE-2021-33038
+ An issue was discovered in management/commands/hyperkitty_import.py in HyperKitty through 1.3.4. When importing a private mailing list's archives, these archives are publicly visible for the duration of the import. For example, sensitive information might be available on the web for an hour during a large migration from Mailman 2 to Mailman 3.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-33038](https://github.com/JamesGeee/CVE-2021-33038) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-33038.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-33038.svg)
+
+## CVE-2021-32657
+ Nextcloud Server is a Nextcloud package that handles data storage. In versions of Nextcloud Server prior to 10.0.11, 20.0.10, and 21.0.2, a malicious user may be able to break the user administration page. This would disallow administrators to administrate users on the Nextcloud instance. The vulnerability is fixed in versions 19.0.11, 20.0.10, and 21.0.2. As a workaround, administrators can use the OCC command line tool to administrate the Nextcloud users.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-32657](https://github.com/JamesGeee/CVE-2021-32657) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-32657.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-32657.svg)
+
+## CVE-2021-32656
+ Nextcloud Server is a Nextcloud package that handles data storage. A vulnerability in federated share exists in versions prior to 19.0.11, 20.0.10, and 21.0.2. An attacker can gain access to basic information about users of a server by accessing a public link that a legitimate server user added as a federated share. This happens because Nextcloud supports sharing registered users with other Nextcloud servers, which can be done automatically when selecting the &quot;Add server automatically once a federated share was created successfully&quot; setting. The vulnerability is patched in versions 19.0.11, 20.0.10, and 21.0.2 As a workaround, disable &quot;Add server automatically once a federated share was created successfully&quot; in the Nextcloud settings.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-32656](https://github.com/JamesGeee/CVE-2021-32656) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-32656.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-32656.svg)
+
+## CVE-2021-32620
+ ### Impact A user disabled on a wiki using email verification for registration can re-activate himself by using the activation link provided for his registration. ### Patches The problem has been patched in the following versions of XWiki: 11.10.13, 12.6.7, 12.10.2, 13.0. ### Workarounds It's possible to workaround the issue by resetting the `validkey` property of the disabled XWiki users. This can be done by editing the user profile with object editor. ### References https://jira.xwiki.org/browse/XWIKI-17942 ### For more information If you have any questions or comments about this advisory: * Open an issue in [Jira](http://jira.xwiki.org) * Email us at [Security mailing-list](mailto:security@xwiki.org)
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-32620](https://github.com/JamesGeee/CVE-2021-32620) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-32620.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-32620.svg)
+
+## CVE-2021-32617
+ Exiv2 is a command-line utility and C++ library for reading, writing, deleting, and modifying the metadata of image files. An inefficient algorithm (quadratic complexity) was found in Exiv2 versions v0.27.3 and earlier. The inefficient algorithm is triggered when Exiv2 is used to write metadata into a crafted image file. An attacker could potentially exploit the vulnerability to cause a denial of service, if they can trick the victim into running Exiv2 on a crafted image file. The bug is fixed in version v0.27.4. Note that this bug is only triggered when _writing_ the metadata, which is a less frequently used Exiv2 operation than _reading_ the metadata. For example, to trigger the bug in the Exiv2 command-line application, you need to add an extra command-line argument such as `rm`.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-32617](https://github.com/JamesGeee/CVE-2021-32617) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-32617.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-32617.svg)
 
 ## CVE-2021-32471
  Insufficient input validation in the Marvin Minsky 1967 implementation of the Universal Turing Machine allows program users to execute arbitrary code via crafted data. For example, a tape head may have an unexpected location after the processing of input composed of As and Bs (instead of 0s and 1s). NOTE: the discoverer states &quot;this vulnerability has no real-world implications.&quot;
@@ -172,12 +223,16 @@
 
 - [https://github.com/l00neyhacker/CVE-2021-31703](https://github.com/l00neyhacker/CVE-2021-31703) :  ![starts](https://img.shields.io/github/stars/l00neyhacker/CVE-2021-31703.svg) ![forks](https://img.shields.io/github/forks/l00neyhacker/CVE-2021-31703.svg)
 
+- [https://github.com/JamesGeee/CVE-2021-31703](https://github.com/JamesGeee/CVE-2021-31703) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31703.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31703.svg)
+
 ## CVE-2021-31702
  Frontier ichris through 5.18 mishandles making a DNS request for the hostname in the HTTP Host header, as demonstrated by submitting 127.0.0.1 multiple times for DoS.
 
 
 
 - [https://github.com/l00neyhacker/CVE-2021-31702](https://github.com/l00neyhacker/CVE-2021-31702) :  ![starts](https://img.shields.io/github/stars/l00neyhacker/CVE-2021-31702.svg) ![forks](https://img.shields.io/github/forks/l00neyhacker/CVE-2021-31702.svg)
+
+- [https://github.com/JamesGeee/CVE-2021-31702](https://github.com/JamesGeee/CVE-2021-31702) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-31702.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-31702.svg)
 
 ## CVE-2021-31420
  This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop 16.1.0-48950. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Toolgate component. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor. Was ZDI-CAN-12220.
@@ -312,12 +367,26 @@
 
 - [https://github.com/JamesGeee/CVE-2021-30502](https://github.com/JamesGeee/CVE-2021-30502) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-30502.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-30502.svg)
 
+## CVE-2021-30498
+ A flaw was found in libcaca. A heap buffer overflow in export.c in function export_tga might lead to memory corruption and other potential consequences.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-30498](https://github.com/JamesGeee/CVE-2021-30498) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-30498.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-30498.svg)
+
 ## CVE-2021-30481
  Valve Steam through 2021-04-10, when a Source engine game is installed, allows remote authenticated users to execute arbitrary code because of a buffer overflow that occurs for a Steam invite after one click.
 
 
 
 - [https://github.com/floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481) :  ![starts](https://img.shields.io/github/stars/floesen/CVE-2021-30481.svg) ![forks](https://img.shields.io/github/forks/floesen/CVE-2021-30481.svg)
+
+## CVE-2021-30465
+ runc before 1.0.0-rc95 allows a Container Filesystem Breakout via Directory Traversal. To exploit the vulnerability, an attacker must be able to create multiple containers with a fairly specific mount configuration. The problem occurs via a symlink-exchange attack that relies on a race condition.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-30465](https://github.com/JamesGeee/CVE-2021-30465) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-30465.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-30465.svg)
 
 ## CVE-2021-30461
  A remote code execution issue was discovered in the web UI of VoIPmonitor before 24.61. When the recheck option is used, the user-supplied SPOOLDIR value (which might contain PHP code) is injected into config/configuration.php.
@@ -331,6 +400,8 @@
 - [https://github.com/Vulnmachines/CVE-2021-30461](https://github.com/Vulnmachines/CVE-2021-30461) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/CVE-2021-30461.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/CVE-2021-30461.svg)
 
 - [https://github.com/daedalus/CVE-2021-30461](https://github.com/daedalus/CVE-2021-30461) :  ![starts](https://img.shields.io/github/stars/daedalus/CVE-2021-30461.svg) ![forks](https://img.shields.io/github/forks/daedalus/CVE-2021-30461.svg)
+
+- [https://github.com/JamesGeee/CVE-2021-30461](https://github.com/JamesGeee/CVE-2021-30461) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-30461.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-30461.svg)
 
 ## CVE-2021-30165
  The default administrator account &amp; password of the EDIMAX wireless network camera is hard-coded. Remote attackers can disassemble firmware to obtain the privileged permission and further control the devices.
@@ -417,6 +488,13 @@
 
 - [https://github.com/raymontag/cve-2021-29627](https://github.com/raymontag/cve-2021-29627) :  ![starts](https://img.shields.io/github/stars/raymontag/cve-2021-29627.svg) ![forks](https://img.shields.io/github/forks/raymontag/cve-2021-29627.svg)
 
+## CVE-2021-29623
+ Exiv2 is a C++ library and a command-line utility to read, write, delete and modify Exif, IPTC, XMP and ICC image metadata. A read of uninitialized memory was found in Exiv2 versions v0.27.3 and earlier. Exiv2 is a command-line utility and C++ library for reading, writing, deleting, and modifying the metadata of image files. The read of uninitialized memory is triggered when Exiv2 is used to read the metadata of a crafted image file. An attacker could potentially exploit the vulnerability to leak a few bytes of stack memory, if they can trick the victim into running Exiv2 on a crafted image file. The bug is fixed in version v0.27.4.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-29623](https://github.com/JamesGeee/CVE-2021-29623) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29623.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29623.svg)
+
 ## CVE-2021-29603
  TensorFlow is an end-to-end open source platform for machine learning. A specially crafted TFLite model could trigger an OOB write on heap in the TFLite implementation of `ArgMin`/`ArgMax`(https://github.com/tensorflow/tensorflow/blob/102b211d892f3abc14f845a72047809b39cc65ab/tensorflow/lite/kernels/arg_min_max.cc#L52-L59). If `axis_value` is not a value between 0 and `NumDimensions(input)`, then the condition in the `if` is never true, so code writes past the last valid element of `output_dims-&gt;data`. The fix will be included in TensorFlow 2.5.0. We will also cherrypick this commit on TensorFlow 2.4.2, TensorFlow 2.3.3, TensorFlow 2.2.3 and TensorFlow 2.1.4, as these are also affected and still in supported range.
 
@@ -431,12 +509,33 @@
 
 - [https://github.com/JamesGeee/CVE-2021-29602](https://github.com/JamesGeee/CVE-2021-29602) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29602.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29602.svg)
 
+## CVE-2021-29507
+ ### Impact _What kind of vulnerability is it? Who is impacted?_ The vulnerable component could be crashed when the configuration file is intentionally/ unintentionally containing the special characters. All the applications which are using could fail to generate their dlt logs in system. ### Patches _Has the problem been patched? What versions should users upgrade to?_ There is solution for the problem but the patch is not integrated yet. ### Workarounds _Is there a way for users to fix or remediate the vulnerability without upgrading?_ Check the integrity of information in configuration file manually. ### References _Are there any links users can visit to find out more?_ N/A ### For more information If you have any questions or comments about this advisory: * Open an issue in [ GENIVI/dlt-daemon ](https://github.com/GENIVI/dlt-daemon/issues) * Email us at [Mailinglist](mailto:https://lists.genivi.org/mailman/listinfo/genivi-diagnostic-log-and-trace_lists.genivi.org)
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-29507](https://github.com/JamesGeee/CVE-2021-29507) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29507.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29507.svg)
+
+## CVE-2021-29505
+ ### Impact The vulnerability may allow a remote attacker has sufficient rights to execute commands of the host only by manipulating the processed input stream. No user is affected, who followed the recommendation to setup XStream's security framework with a whitelist limited to the minimal required types. ### Patches If you rely on XStream's default blacklist of the Security Framework, you will have to use at least version 1.4.17. ### Workarounds See [workarounds](https://x-stream.github.io/security.html#workaround) for the different versions covering all CVEs. ### References See full information about the nature of the vulnerability and the steps to reproduce it in XStream's documentation for [CVE-2021-xxxxx](https://x-stream.github.io/CVE-2021-xxxxx.html). ### Credits V3geB1rd, white hat hacker from Tencent Security Response Center found and reported the issue to XStream and provided the required information to reproduce it. ### For more information If you have any questions or comments about this advisory: * Open an issue in [XStream](https://github.com/x-stream/xstream/issues) * Email us at [XStream Google Group](https://groups.google.com/group/xstream-user)
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-29505](https://github.com/JamesGeee/CVE-2021-29505) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29505.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29505.svg)
+
 ## CVE-2021-29495
  Nim is a statically typed compiled systems programming language. In Nim standard library before 1.4.2, httpClient SSL/TLS certificate verification was disabled by default. Users can upgrade to version 1.4.2 to receive a patch or, as a workaround, set &quot;verifyMode = CVerifyPeer&quot; as documented.
 
 
 
 - [https://github.com/JamesGeee/CVE-2021-29495](https://github.com/JamesGeee/CVE-2021-29495) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29495.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29495.svg)
+
+## CVE-2021-29492
+ ### Description Envoy does not decode escaped slash sequences `%2F` and `%5C` in HTTP URL paths in versions 1.18.2 and before. A remote attacker may craft a path with escaped slashes, e.g. `/something%2F..%2Fadmin`, to bypass access control, e.g. a block on `/admin`. A backend server could then decode slash sequences and normalize path and provide an attacker access beyond the scope provided for by the access control policy. ### Impact Escalation of Privileges when using RBAC or JWT filters with enforcement based on URL path. Users with back end servers that interpret `%2F` and `/` and `%5C` and `\` interchangeably are impacted. ### Attack Vector URL paths containing escaped slash characters delivered by untrusted client. ### Patches Envoy versions 1.18.3, 1.17.3, 1.16.4, 1.15.5 contain new path normalization option to decode escaped slash characters. ### Workarounds If back end servers treat `%2F` and `/` and `%5C` and `\` interchangeably and a URL path based access control is configured, we recommend reconfiguring back end server to not treat `%2F` and `/` and `%5C` and `\` interchangeably if feasible. ### Credit Ruilin Yang (ruilin.yrl@gmail.com) ### References https://blog.envoyproxy.io https://github.com/envoyproxy/envoy/releases ### For more information If you have any questions or comments about this advisory: * Open an issue in [Envoy repo](https://github.com/envoyproxy/envoy/issues) * Email us at [envoy-security](mailto:envoy-security@googlegroups.com)
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-29492](https://github.com/JamesGeee/CVE-2021-29492) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29492.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29492.svg)
 
 ## CVE-2021-29488
  SABnzbd is an open source binary newsreader. A vulnerability was discovered in SABnzbd that could trick the `filesystem.renamer()` function into writing downloaded files outside the configured Download Folder via malicious PAR2 files. A patch was released as part of SABnzbd 3.2.1RC1. As a workaround, limit downloads to NZBs without PAR2 files, deny write permissions to the SABnzbd process outside areas it must access to perform its job, or update to a fixed version.
@@ -460,6 +559,8 @@
 - [https://github.com/motikan2010/CVE-2021-29447](https://github.com/motikan2010/CVE-2021-29447) :  ![starts](https://img.shields.io/github/stars/motikan2010/CVE-2021-29447.svg) ![forks](https://img.shields.io/github/forks/motikan2010/CVE-2021-29447.svg)
 
 - [https://github.com/Vulnmachines/wordpress_cve-2021-29447](https://github.com/Vulnmachines/wordpress_cve-2021-29447) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/wordpress_cve-2021-29447.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/wordpress_cve-2021-29447.svg)
+
+- [https://github.com/dnr6419/CVE-2021-29447](https://github.com/dnr6419/CVE-2021-29447) :  ![starts](https://img.shields.io/github/stars/dnr6419/CVE-2021-29447.svg) ![forks](https://img.shields.io/github/forks/dnr6419/CVE-2021-29447.svg)
 
 ## CVE-2021-29442
  Nacos is a platform designed for dynamic service discovery and configuration and service management. In Nacos before version 1.4.1, the ConfigOpsController lets the user perform management operations like querying the database or even wiping it out. While the /data/remove endpoint is properly protected with the @Secured annotation, the /derby endpoint is not protected and can be openly accessed by unauthenticated users. These endpoints are only valid when using embedded storage (derby DB) so this issue should not affect those installations using external storage (e.g. mysql)
@@ -497,6 +598,13 @@
 
 
 - [https://github.com/Security-AVS/CVE-2021-29267](https://github.com/Security-AVS/CVE-2021-29267) :  ![starts](https://img.shields.io/github/stars/Security-AVS/CVE-2021-29267.svg) ![forks](https://img.shields.io/github/forks/Security-AVS/CVE-2021-29267.svg)
+
+## CVE-2021-29252
+ RSA Archer before 6.9 SP1 P1 (6.9.1.1) contains a stored XSS vulnerability. A remote authenticated malicious Archer user with access to modify link name fields could potentially exploit this vulnerability to execute code in a victim's browser.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-29252](https://github.com/JamesGeee/CVE-2021-29252) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29252.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29252.svg)
 
 ## CVE-2021-29200
  Apache OFBiz has unsafe deserialization prior to 17.12.07 version An unauthenticated user can perform an RCE attack
@@ -1037,9 +1145,9 @@
 
 - [https://github.com/raheel0x01/eeb927d1189ad44742095f58636483984bfbfa355f69f94439e276df306d9568](https://github.com/raheel0x01/eeb927d1189ad44742095f58636483984bfbfa355f69f94439e276df306d9568) :  ![starts](https://img.shields.io/github/stars/raheel0x01/eeb927d1189ad44742095f58636483984bfbfa355f69f94439e276df306d9568.svg) ![forks](https://img.shields.io/github/forks/raheel0x01/eeb927d1189ad44742095f58636483984bfbfa355f69f94439e276df306d9568.svg)
 
-- [https://github.com/mil1200/ProxyLogon-CVE-2021-26855](https://github.com/mil1200/ProxyLogon-CVE-2021-26855) :  ![starts](https://img.shields.io/github/stars/mil1200/ProxyLogon-CVE-2021-26855.svg) ![forks](https://img.shields.io/github/forks/mil1200/ProxyLogon-CVE-2021-26855.svg)
-
 - [https://github.com/srvaccount/CVE-2021-26855-PoC](https://github.com/srvaccount/CVE-2021-26855-PoC) :  ![starts](https://img.shields.io/github/stars/srvaccount/CVE-2021-26855-PoC.svg) ![forks](https://img.shields.io/github/forks/srvaccount/CVE-2021-26855-PoC.svg)
+
+- [https://github.com/mil1200/ProxyLogon-CVE-2021-26855](https://github.com/mil1200/ProxyLogon-CVE-2021-26855) :  ![starts](https://img.shields.io/github/stars/mil1200/ProxyLogon-CVE-2021-26855.svg) ![forks](https://img.shields.io/github/forks/mil1200/ProxyLogon-CVE-2021-26855.svg)
 
 - [https://github.com/Th3eCrow/CVE-2021-26855-SSRF-Exchange](https://github.com/Th3eCrow/CVE-2021-26855-SSRF-Exchange) :  ![starts](https://img.shields.io/github/stars/Th3eCrow/CVE-2021-26855-SSRF-Exchange.svg) ![forks](https://img.shields.io/github/forks/Th3eCrow/CVE-2021-26855-SSRF-Exchange.svg)
 
@@ -1296,6 +1404,20 @@
 
 - [https://github.com/JamesGeee/CVE-2021-23841](https://github.com/JamesGeee/CVE-2021-23841) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-23841.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-23841.svg)
 
+## CVE-2021-23343
+ All versions of package path-parse are vulnerable to Regular Expression Denial of Service (ReDoS) via splitDeviceRe, splitTailRe, and splitPathRe regular expressions. ReDoS exhibits polynomial worst-case time complexity.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-23343](https://github.com/JamesGeee/CVE-2021-23343) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-23343.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-23343.svg)
+
+## CVE-2021-23336
+ The package python/cpython from 0 and before 3.6.13, from 3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from 3.9.0 and before 3.9.2 are vulnerable to Web Cache Poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a vector called parameter cloaking. When the attacker can separate query parameters using a semicolon (;), they can cause a difference in the interpretation of the request between the proxy (running with default configuration) and the server. This can result in malicious requests being cached as completely safe ones, as the proxy would usually not see the semicolon as a separator, and therefore would not include it in a cache key of an unkeyed parameter.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-23336](https://github.com/JamesGeee/CVE-2021-23336) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-23336.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-23336.svg)
+
 ## CVE-2021-23132
  An issue was discovered in Joomla! 3.0.0 through 3.9.24. com_media allowed paths that are not intended for image uploads
 
@@ -1420,6 +1542,10 @@
 
 - [https://github.com/bigbroke/CVE-2021-21985](https://github.com/bigbroke/CVE-2021-21985) :  ![starts](https://img.shields.io/github/stars/bigbroke/CVE-2021-21985.svg) ![forks](https://img.shields.io/github/forks/bigbroke/CVE-2021-21985.svg)
 
+- [https://github.com/onSec-fr/CVE-2021-21985-Checker](https://github.com/onSec-fr/CVE-2021-21985-Checker) :  ![starts](https://img.shields.io/github/stars/onSec-fr/CVE-2021-21985-Checker.svg) ![forks](https://img.shields.io/github/forks/onSec-fr/CVE-2021-21985-Checker.svg)
+
+- [https://github.com/mauricelambert/CVE-2021-21985](https://github.com/mauricelambert/CVE-2021-21985) :  ![starts](https://img.shields.io/github/stars/mauricelambert/CVE-2021-21985.svg) ![forks](https://img.shields.io/github/forks/mauricelambert/CVE-2021-21985.svg)
+
 ## CVE-2021-21983
  Arbitrary file write vulnerability in vRealize Operations Manager API (CVE-2021-21983) prior to 8.4 may allow an authenticated malicious actor with network access to the vRealize Operations Manager API can write files to arbitrary locations on the underlying photon operating system.
 
@@ -1519,11 +1645,11 @@
 
 - [https://github.com/password520/CVE-2021-21972](https://github.com/password520/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/password520/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/password520/CVE-2021-21972.svg)
 
-- [https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg)
-
 - [https://github.com/murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2021-21972.svg)
 
 - [https://github.com/JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/JMousqueton/Detect-CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/JMousqueton/Detect-CVE-2021-21972.svg)
+
+- [https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg)
 
 ## CVE-2021-21551
  Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability which may lead to escalation of privileges, denial of service, or information disclosure. Local authenticated user access is required.
@@ -1534,11 +1660,11 @@
 
 - [https://github.com/ch3rn0byl/CVE-2021-21551](https://github.com/ch3rn0byl/CVE-2021-21551) :  ![starts](https://img.shields.io/github/stars/ch3rn0byl/CVE-2021-21551.svg) ![forks](https://img.shields.io/github/forks/ch3rn0byl/CVE-2021-21551.svg)
 
-- [https://github.com/mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551) :  ![starts](https://img.shields.io/github/stars/mathisvickie/CVE-2021-21551.svg) ![forks](https://img.shields.io/github/forks/mathisvickie/CVE-2021-21551.svg)
-
 - [https://github.com/arnaudluti/PS-CVE-2021-21551](https://github.com/arnaudluti/PS-CVE-2021-21551) :  ![starts](https://img.shields.io/github/stars/arnaudluti/PS-CVE-2021-21551.svg) ![forks](https://img.shields.io/github/forks/arnaudluti/PS-CVE-2021-21551.svg)
 
 - [https://github.com/Kinsiinoo/PoshDellDBUtil](https://github.com/Kinsiinoo/PoshDellDBUtil) :  ![starts](https://img.shields.io/github/stars/Kinsiinoo/PoshDellDBUtil.svg) ![forks](https://img.shields.io/github/forks/Kinsiinoo/PoshDellDBUtil.svg)
+
+- [https://github.com/mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551) :  ![starts](https://img.shields.io/github/stars/mathisvickie/CVE-2021-21551.svg) ![forks](https://img.shields.io/github/forks/mathisvickie/CVE-2021-21551.svg)
 
 ## CVE-2021-21536
  Dell Hybrid Client versions prior to 1.5 contain an information exposure vulnerability. A local unauthenticated attacker may exploit this vulnerability in order to register the client to a server in order to view sensitive information.
@@ -1560,6 +1686,13 @@
 
 
 - [https://github.com/JamesGeee/CVE-2021-21534](https://github.com/JamesGeee/CVE-2021-21534) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-21534.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-21534.svg)
+
+## CVE-2021-21424
+ Symfony is a PHP framework for web and console applications and a set of reusable PHP components. The ability to enumerate users was possible without relevant permissions due to different handling depending on whether the user existed or not when attempting to use the switch users functionality. We now ensure that 403s are returned whether the user exists or not if a user cannot switch to a user or if the user does not exist. The patch for this issue is available for branch 3.4.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-21424](https://github.com/JamesGeee/CVE-2021-21424) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-21424.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-21424.svg)
 
 ## CVE-2021-21419
  Eventlet is a concurrent networking library for Python. A websocket peer may exhaust memory on Eventlet side by sending very large websocket frames. Malicious peer may exhaust memory on Eventlet side by sending highly compressed data frame. A patch in version 0.31.0 restricts websocket frame to reasonable limits. As a workaround, restricting memory usage via OS limits would help against overall machine exhaustion, but there is no workaround to protect Eventlet process.
@@ -1626,21 +1759,21 @@
 
 - [https://github.com/tao-sun2/CVE-2021-21300](https://github.com/tao-sun2/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/tao-sun2/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/tao-sun2/CVE-2021-21300.svg)
 
-- [https://github.com/danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/danshuizhangyu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/danshuizhangyu/CVE-2021-21300.svg)
-
 - [https://github.com/CppXL/CVE-2021-21300](https://github.com/CppXL/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/CppXL/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/CppXL/CVE-2021-21300.svg)
 
-- [https://github.com/erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/erranfenech/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/erranfenech/CVE-2021-21300.svg)
+- [https://github.com/danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/danshuizhangyu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/danshuizhangyu/CVE-2021-21300.svg)
 
-- [https://github.com/ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/ETOCheney/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/ETOCheney/cve-2021-21300.svg)
+- [https://github.com/erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/erranfenech/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/erranfenech/CVE-2021-21300.svg)
 
 - [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
 
 - [https://github.com/Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Kirill89/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Kirill89/CVE-2021-21300.svg)
 
-- [https://github.com/Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Faisal78123/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Faisal78123/CVE-2021-21300.svg)
+- [https://github.com/ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/ETOCheney/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/ETOCheney/cve-2021-21300.svg)
 
 - [https://github.com/1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/1uanWu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/1uanWu/CVE-2021-21300.svg)
+
+- [https://github.com/Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Faisal78123/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Faisal78123/CVE-2021-21300.svg)
 
 ## CVE-2021-21148
  Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
@@ -1714,6 +1847,13 @@
 
 - [https://github.com/JamesGeee/CVE-2021-20266](https://github.com/JamesGeee/CVE-2021-20266) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20266.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20266.svg)
 
+## CVE-2021-20254
+ A flaw was found in samba. The Samba smbd file server must map Windows group identities (SIDs) into unix group ids (gids). The code that performs this had a flaw that could allow it to read data beyond the end of the array in the case where a negative cache entry had been added to the mapping cache. This could cause the calling code to return those values into the process token that stores the group membership for a user. The highest threat from this vulnerability is to data confidentiality and integrity.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-20254](https://github.com/JamesGeee/CVE-2021-20254) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20254.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20254.svg)
+
 ## CVE-2021-20202
  A flaw was found in keycloak. Directories can be created prior to the Java process creating them in the temporary directory, but with wider user permissions, allowing the attacker to have access to the contents that keycloak stores in this directory. The highest threat from this vulnerability is to data confidentiality and integrity.
 
@@ -1731,6 +1871,8 @@
 - [https://github.com/oneoy/CVE-2021-3493](https://github.com/oneoy/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/oneoy/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/oneoy/CVE-2021-3493.svg)
 
 - [https://github.com/Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/Ishan3011/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/Ishan3011/CVE-2021-3493.svg)
+
+- [https://github.com/JamesGeee/CVE-2021-3493](https://github.com/JamesGeee/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-3493.svg)
 
 - [https://github.com/Abdennour-py/CVE-2021-3493](https://github.com/Abdennour-py/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/Abdennour-py/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/Abdennour-py/CVE-2021-3493.svg)
 
@@ -2064,13 +2206,6 @@
 
 - [https://github.com/TheCryingGame/CVE-2021-2021good](https://github.com/TheCryingGame/CVE-2021-2021good) :  ![starts](https://img.shields.io/github/stars/TheCryingGame/CVE-2021-2021good.svg) ![forks](https://img.shields.io/github/forks/TheCryingGame/CVE-2021-2021good.svg)
 
-## CVE-2021-1999
- Vulnerability in the Oracle ZFS Storage Appliance Kit product of Oracle Systems (component: RAS subsystems). The supported version that is affected is 8.8. Difficult to exploit vulnerability allows high privileged attacker with logon to the infrastructure where Oracle ZFS Storage Appliance Kit executes to compromise Oracle ZFS Storage Appliance Kit. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle ZFS Storage Appliance Kit, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle ZFS Storage Appliance Kit accessible data. CVSS 3.1 Base Score 5.0 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:N/I:H/A:N).
-
-
-
-- [https://github.com/dorisroot1/cve-2021-19999test-1](https://github.com/dorisroot1/cve-2021-19999test-1) :  ![starts](https://img.shields.io/github/stars/dorisroot1/cve-2021-19999test-1.svg) ![forks](https://img.shields.io/github/forks/dorisroot1/cve-2021-19999test-1.svg)
-
 ## CVE-2021-1994
  Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Web Services). Supported versions that are affected are 10.3.6.0.0 and 12.1.3.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 
@@ -2092,12 +2227,47 @@
 
 - [https://github.com/TAKIANFIF/CVE-2021-1905-CVE-2021-1906-CVE-2021-28663-CVE-2021-28664](https://github.com/TAKIANFIF/CVE-2021-1905-CVE-2021-1906-CVE-2021-28663-CVE-2021-28664) :  ![starts](https://img.shields.io/github/stars/TAKIANFIF/CVE-2021-1905-CVE-2021-1906-CVE-2021-28663-CVE-2021-28664.svg) ![forks](https://img.shields.io/github/forks/TAKIANFIF/CVE-2021-1905-CVE-2021-1906-CVE-2021-28663-CVE-2021-28664.svg)
 
+## CVE-2021-1871
+ A logic issue was addressed with improved restrictions. This issue is fixed in macOS Big Sur 11.2, Security Update 2021-001 Catalina, Security Update 2021-001 Mojave, iOS 14.4 and iPadOS 14.4. A remote attacker may be able to cause arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited..
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-1871](https://github.com/JamesGeee/CVE-2021-1871) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-1871.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-1871.svg)
+
+## CVE-2021-1844
+ A memory corruption issue was addressed with improved validation. This issue is fixed in iOS 14.4.1 and iPadOS 14.4.1, Safari 14.0.3 (v. 14610.4.3.1.7 and 15610.4.3.1.7), watchOS 7.3.2, macOS Big Sur 11.2.3. Processing maliciously crafted web content may lead to arbitrary code execution.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-1844](https://github.com/JamesGeee/CVE-2021-1844) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-1844.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-1844.svg)
+
+## CVE-2021-1788
+ A use after free issue was addressed with improved memory management. This issue is fixed in macOS Big Sur 11.2, Security Update 2021-001 Catalina, Security Update 2021-001 Mojave, tvOS 14.4, watchOS 7.3, iOS 14.4 and iPadOS 14.4, Safari 14.0.3. Processing maliciously crafted web content may lead to arbitrary code execution.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-1788](https://github.com/JamesGeee/CVE-2021-1788) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-1788.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-1788.svg)
+
 ## CVE-2021-1782
  A race condition was addressed with improved locking. This issue is fixed in macOS Big Sur 11.2, Security Update 2021-001 Catalina, Security Update 2021-001 Mojave, watchOS 7.3, tvOS 14.4, iOS 14.4 and iPadOS 14.4. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited..
 
 
 
 - [https://github.com/synacktiv/CVE-2021-1782](https://github.com/synacktiv/CVE-2021-1782) :  ![starts](https://img.shields.io/github/stars/synacktiv/CVE-2021-1782.svg) ![forks](https://img.shields.io/github/forks/synacktiv/CVE-2021-1782.svg)
+
+## CVE-2021-1738
+ An out-of-bounds write was addressed with improved input validation. This issue is fixed in macOS Big Sur 11.2, Security Update 2021-001 Catalina, Security Update 2021-001 Mojave. Processing a maliciously crafted image may lead to arbitrary code execution.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-1738](https://github.com/JamesGeee/CVE-2021-1738) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-1738.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-1738.svg)
+
+## CVE-2021-1737
+ An out-of-bounds write was addressed with improved input validation. This issue is fixed in macOS Big Sur 11.2, Security Update 2021-001 Catalina, Security Update 2021-001 Mojave. Processing a maliciously crafted image may lead to arbitrary code execution.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-1737](https://github.com/JamesGeee/CVE-2021-1737) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-1737.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-1737.svg)
 
 ## CVE-2021-1732
  Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-1698.
