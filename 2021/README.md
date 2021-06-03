@@ -56,6 +56,13 @@
 
 - [https://github.com/JamesGeee/CVE-2021-33477](https://github.com/JamesGeee/CVE-2021-33477) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-33477.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-33477.svg)
 
+## CVE-2021-33200
+ kernel/bpf/verifier.c in the Linux kernel through 5.12.7 enforces incorrect limits for pointer arithmetic operations, aka CID-bb01a1bba579. This can be abused to perform out-of-bounds reads and writes in kernel memory, leading to local privilege escalation to root. In particular, there is a corner case where the off reg causes a masking direction change, which then results in an incorrect final aux-&gt;alu_limit.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-33200](https://github.com/JamesGeee/CVE-2021-33200) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-33200.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-33200.svg)
+
 ## CVE-2021-33038
  An issue was discovered in management/commands/hyperkitty_import.py in HyperKitty through 1.3.4. When importing a private mailing list's archives, these archives are publicly visible for the duration of the import. For example, sensitive information might be available on the web for an hour during a large migration from Mailman 2 to Mailman 3.
 
@@ -76,6 +83,13 @@
 
 
 - [https://github.com/JamesGeee/CVE-2021-32656](https://github.com/JamesGeee/CVE-2021-32656) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-32656.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-32656.svg)
+
+## CVE-2021-32625
+ Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. An integer overflow bug in Redis version 6.0 or newer (on 32-bit systems ONLY) can be exploited using the `STRALGO LCS` command to corrupt the heap and potentially result with remote code execution. This is a result of an incomplete fix for CVE-2021-29477 which only addresses the problem on 64-bit systems but fails to do that for 32-bit. 64-bit systems are not affected. The problem is fixed in version 6.2.4 and 6.0.14. An additional workaround to mitigate the problem without patching the `redis-server` executable is to use ACL configuration to prevent clients from using the `STRALGO LCS` command.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-32625](https://github.com/JamesGeee/CVE-2021-32625) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-32625.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-32625.svg)
 
 ## CVE-2021-32620
  ### Impact A user disabled on a wiki using email verification for registration can re-activate himself by using the activation link provided for his registration. ### Patches The problem has been patched in the following versions of XWiki: 11.10.13, 12.6.7, 12.10.2, 13.0. ### Workarounds It's possible to workaround the issue by resetting the `validkey` property of the disabled XWiki users. This can be done by editing the user profile with object editor. ### References https://jira.xwiki.org/browse/XWIKI-17942 ### For more information If you have any questions or comments about this advisory: * Open an issue in [Jira](http://jira.xwiki.org) * Email us at [Security mailing-list](mailto:security@xwiki.org)
@@ -343,11 +357,11 @@
 
 - [https://github.com/Frankmock/CVE-2021-31166-detection-rules](https://github.com/Frankmock/CVE-2021-31166-detection-rules) :  ![starts](https://img.shields.io/github/stars/Frankmock/CVE-2021-31166-detection-rules.svg) ![forks](https://img.shields.io/github/forks/Frankmock/CVE-2021-31166-detection-rules.svg)
 
+- [https://github.com/An0ny-m0us/CVE-2021-31166](https://github.com/An0ny-m0us/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/An0ny-m0us/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/An0ny-m0us/CVE-2021-31166.svg)
+
 - [https://github.com/phil-fly/poc](https://github.com/phil-fly/poc) :  ![starts](https://img.shields.io/github/stars/phil-fly/poc.svg) ![forks](https://img.shields.io/github/forks/phil-fly/poc.svg)
 
 - [https://github.com/zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/zecopro/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/zecopro/CVE-2021-31166.svg)
-
-- [https://github.com/An0ny-m0us/CVE-2021-31166](https://github.com/An0ny-m0us/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/An0ny-m0us/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/An0ny-m0us/CVE-2021-31166.svg)
 
 - [https://github.com/Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/Udyz/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/Udyz/CVE-2021-31166.svg)
 
@@ -467,6 +481,20 @@
 
 - [https://github.com/JamesGeee/CVE-2021-29687](https://github.com/JamesGeee/CVE-2021-29687) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29687.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29687.svg)
 
+## CVE-2021-29670
+ IBM Jazz Foundation and IBM Engineering products are vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 199408.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-29670](https://github.com/JamesGeee/CVE-2021-29670) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29670.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29670.svg)
+
+## CVE-2021-29668
+ IBM Jazz Foundation and IBM Engineering products are vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 199406.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-29668](https://github.com/JamesGeee/CVE-2021-29668) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29668.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29668.svg)
+
 ## CVE-2021-29629
  In FreeBSD 13.0-STABLE before n245765-bec0d2c9c841, 12.2-STABLE before r369859, 11.4-STABLE before r369866, 13.0-RELEASE before p1, 12.2-RELEASE before p7, and 11.4-RELEASE before p10, missing message validation in libradius(3) could allow malicious clients or servers to trigger denial of service in vulnerable servers or clients respectively.
 
@@ -558,9 +586,9 @@
 
 - [https://github.com/motikan2010/CVE-2021-29447](https://github.com/motikan2010/CVE-2021-29447) :  ![starts](https://img.shields.io/github/stars/motikan2010/CVE-2021-29447.svg) ![forks](https://img.shields.io/github/forks/motikan2010/CVE-2021-29447.svg)
 
-- [https://github.com/Vulnmachines/wordpress_cve-2021-29447](https://github.com/Vulnmachines/wordpress_cve-2021-29447) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/wordpress_cve-2021-29447.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/wordpress_cve-2021-29447.svg)
-
 - [https://github.com/dnr6419/CVE-2021-29447](https://github.com/dnr6419/CVE-2021-29447) :  ![starts](https://img.shields.io/github/stars/dnr6419/CVE-2021-29447.svg) ![forks](https://img.shields.io/github/forks/dnr6419/CVE-2021-29447.svg)
+
+- [https://github.com/Vulnmachines/wordpress_cve-2021-29447](https://github.com/Vulnmachines/wordpress_cve-2021-29447) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/wordpress_cve-2021-29447.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/wordpress_cve-2021-29447.svg)
 
 ## CVE-2021-29442
  Nacos is a platform designed for dynamic service discovery and configuration and service management. In Nacos before version 1.4.1, the ConfigOpsController lets the user perform management operations like querying the database or even wiping it out. While the /data/remove endpoint is properly protected with the @Secured annotation, the /derby endpoint is not protected and can be openly accessed by unauthenticated users. These endpoints are only valid when using embedded storage (derby DB) so this issue should not affect those installations using external storage (e.g. mysql)
@@ -605,6 +633,48 @@
 
 
 - [https://github.com/JamesGeee/CVE-2021-29252](https://github.com/JamesGeee/CVE-2021-29252) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29252.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29252.svg)
+
+## CVE-2021-29208
+ A remote dom xss, crlf injection vulnerability was discovered in HPE Integrated Lights-Out 4 (iLO 4); HPE SimpliVity 380 Gen9; HPE Integrated Lights-Out 5 (iLO 5) for HPE Gen10 Servers; HPE SimpliVity 380 Gen10; HPE SimpliVity 2600; HPE SimpliVity 380 Gen10 G; HPE SimpliVity 325; HPE SimpliVity 380 Gen10 H version(s): Prior to version 2.78.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-29208](https://github.com/JamesGeee/CVE-2021-29208) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29208.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29208.svg)
+
+## CVE-2021-29206
+ A remote xss vulnerability was discovered in HPE Integrated Lights-Out 4 (iLO 4); HPE SimpliVity 380 Gen9; HPE Integrated Lights-Out 5 (iLO 5) for HPE Gen10 Servers; HPE SimpliVity 380 Gen10; HPE SimpliVity 2600; HPE SimpliVity 380 Gen10 G; HPE SimpliVity 325; HPE SimpliVity 380 Gen10 H version(s): Prior to version 2.78.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-29206](https://github.com/JamesGeee/CVE-2021-29206) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29206.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29206.svg)
+
+## CVE-2021-29205
+ A remote xss vulnerability was discovered in HPE Integrated Lights-Out 4 (iLO 4); HPE SimpliVity 380 Gen9; HPE Integrated Lights-Out 5 (iLO 5) for HPE Gen10 Servers; HPE SimpliVity 380 Gen10; HPE SimpliVity 2600; HPE SimpliVity 380 Gen10 G; HPE SimpliVity 325; HPE SimpliVity 380 Gen10 H version(s): Prior to version 2.78.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-29205](https://github.com/JamesGeee/CVE-2021-29205) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29205.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29205.svg)
+
+## CVE-2021-29204
+ A remote xss vulnerability was discovered in HPE Integrated Lights-Out 4 (iLO 4); HPE SimpliVity 380 Gen9; HPE Integrated Lights-Out 5 (iLO 5) for HPE Gen10 Servers; HPE SimpliVity 380 Gen10; HPE SimpliVity 2600; HPE SimpliVity 380 Gen10 G; HPE SimpliVity 325; HPE SimpliVity 380 Gen10 H version(s): Prior to version 2.78.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-29204](https://github.com/JamesGeee/CVE-2021-29204) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29204.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29204.svg)
+
+## CVE-2021-29202
+ A local buffer overflow vulnerability was discovered in HPE Integrated Lights-Out 4 (iLO 4); HPE SimpliVity 380 Gen9; HPE Integrated Lights-Out 5 (iLO 5) for HPE Gen10 Servers; HPE SimpliVity 380 Gen10; HPE SimpliVity 2600; HPE SimpliVity 380 Gen10 G; HPE SimpliVity 325; HPE SimpliVity 380 Gen10 H version(s): Prior to version 2.78.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-29202](https://github.com/JamesGeee/CVE-2021-29202) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29202.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29202.svg)
+
+## CVE-2021-29201
+ A remote xss vulnerability was discovered in HPE Integrated Lights-Out 4 (iLO 4); HPE SimpliVity 380 Gen9; HPE Integrated Lights-Out 5 (iLO 5) for HPE Gen10 Servers; HPE SimpliVity 380 Gen10; HPE SimpliVity 2600; HPE SimpliVity 380 Gen10 G; HPE SimpliVity 325; HPE SimpliVity 380 Gen10 H version(s): Prior to version 2.78.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-29201](https://github.com/JamesGeee/CVE-2021-29201) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-29201.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-29201.svg)
 
 ## CVE-2021-29200
  Apache OFBiz has unsafe deserialization prior to 17.12.07 version An unauthenticated user can perform an RCE attack
@@ -700,6 +770,8 @@
 
 
 - [https://github.com/0vercl0k/CVE-2021-28476](https://github.com/0vercl0k/CVE-2021-28476) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2021-28476.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2021-28476.svg)
+
+- [https://github.com/bluefrostsecurity/CVE-2021-28476](https://github.com/bluefrostsecurity/CVE-2021-28476) :  ![starts](https://img.shields.io/github/stars/bluefrostsecurity/CVE-2021-28476.svg) ![forks](https://img.shields.io/github/forks/bluefrostsecurity/CVE-2021-28476.svg)
 
 ## CVE-2021-28465
  Web Media Extensions Remote Code Execution Vulnerability
@@ -1765,15 +1837,15 @@
 
 - [https://github.com/erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/erranfenech/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/erranfenech/CVE-2021-21300.svg)
 
-- [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
+- [https://github.com/ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/ETOCheney/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/ETOCheney/cve-2021-21300.svg)
 
 - [https://github.com/Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Kirill89/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Kirill89/CVE-2021-21300.svg)
 
-- [https://github.com/ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/ETOCheney/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/ETOCheney/cve-2021-21300.svg)
-
-- [https://github.com/1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/1uanWu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/1uanWu/CVE-2021-21300.svg)
+- [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
 
 - [https://github.com/Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Faisal78123/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Faisal78123/CVE-2021-21300.svg)
+
+- [https://github.com/1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/1uanWu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/1uanWu/CVE-2021-21300.svg)
 
 ## CVE-2021-21148
  Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
@@ -1840,6 +1912,69 @@
 
 - [https://github.com/JamesGeee/CVE-2021-20716](https://github.com/JamesGeee/CVE-2021-20716) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20716.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20716.svg)
 
+## CVE-2021-20487
+ IBM Power9 Self Boot Engine(SBE) could allow a privileged user to inject malicious code and compromise the integrity of the host firmware bypassing the host firmware signature verification process.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-20487](https://github.com/JamesGeee/CVE-2021-20487) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20487.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20487.svg)
+
+## CVE-2021-20486
+ IBM Cloud Pak for Data 3.0 could allow an authenticated user to obtain sensitive information when installed with additional plugins. IBM X-Force ID: 197668.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-20486](https://github.com/JamesGeee/CVE-2021-20486) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20486.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20486.svg)
+
+## CVE-2021-20371
+ IBM Jazz Foundation and IBM Engineering products could allow a remote attacker to obtain sensitive information when an error message is returned in the browser. This information could be used in further attacks against the system. IBM X-Force ID: 195516.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-20371](https://github.com/JamesGeee/CVE-2021-20371) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20371.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20371.svg)
+
+## CVE-2021-20348
+ IBM Jazz Foundation and IBM Engineering products are vulnerable to server-side request forgery (SSRF). This may allow an authenticated attacker to send unauthorized requests from the system, potentially leading to network enumeration or facilitating other attacks. IBM X-ForceID: 194597.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-20348](https://github.com/JamesGeee/CVE-2021-20348) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20348.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20348.svg)
+
+## CVE-2021-20347
+ IBM Jazz Foundation and IBM Engineering products are vulnerable to server-side request forgery (SSRF). This may allow an authenticated attacker to send unauthorized requests from the system, potentially leading to network enumeration or facilitating other attacks. IBM X-Force ID: 194596.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-20347](https://github.com/JamesGeee/CVE-2021-20347) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20347.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20347.svg)
+
+## CVE-2021-20346
+ IBM Jazz Foundation and IBM Engineering products are vulnerable to server-side request forgery (SSRF). This may allow an authenticated attacker to send unauthorized requests from the system, potentially leading to network enumeration or facilitating other attacks. IBM X-Force ID: 194595.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-20346](https://github.com/JamesGeee/CVE-2021-20346) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20346.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20346.svg)
+
+## CVE-2021-20345
+ IBM Jazz Foundation and IBM Engineering products are vulnerable to server-side request forgery (SSRF). This may allow an authenticated attacker to send unauthorized requests from the system, potentially leading to network enumeration or facilitating other attacks. IBM X-Force ID: 194594.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-20345](https://github.com/JamesGeee/CVE-2021-20345) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20345.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20345.svg)
+
+## CVE-2021-20343
+ IBM Jazz Foundation and IBM Engineering products are vulnerable to server-side request forgery (SSRF). This may allow an authenticated attacker to send unauthorized requests from the system, potentially leading to network enumeration or facilitating other attacks. IBM X-Force ID: 194593.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-20343](https://github.com/JamesGeee/CVE-2021-20343) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20343.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20343.svg)
+
+## CVE-2021-20338
+ IBM Jazz Foundation and IBM Engineering products are vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 194449.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-20338](https://github.com/JamesGeee/CVE-2021-20338) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20338.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20338.svg)
+
 ## CVE-2021-20266
  A flaw was found in RPM's hdrblobInit() in lib/header.c. This flaw allows an attacker who can modify the rpmdb to cause an out-of-bounds read. The highest threat from this vulnerability is to system availability.
 
@@ -1860,6 +1995,13 @@
 
 
 - [https://github.com/Jarry1sec/CVE-2021-20202](https://github.com/Jarry1sec/CVE-2021-20202) :  ![starts](https://img.shields.io/github/stars/Jarry1sec/CVE-2021-20202.svg) ![forks](https://img.shields.io/github/forks/Jarry1sec/CVE-2021-20202.svg)
+
+## CVE-2021-20177
+ A flaw was found in the Linux kernel's implementation of string matching within a packet. A privileged user (with root or CAP_NET_ADMIN) when inserting iptables rules could insert a rule which can panic the system. Kernel before kernel 5.5-rc1 is affected.
+
+
+
+- [https://github.com/JamesGeee/CVE-2021-20177](https://github.com/JamesGeee/CVE-2021-20177) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2021-20177.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2021-20177.svg)
 
 ## CVE-2021-3493
  The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges.
@@ -1919,13 +2061,6 @@
 
 
 - [https://github.com/Al1ex/CVE-2021-3317](https://github.com/Al1ex/CVE-2021-3317) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2021-3317.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2021-3317.svg)
-
-## CVE-2021-3310
- Western Digital My Cloud OS 5 devices before 5.10.122 mishandle Symbolic Link Following on SMB and AFP shares. This can lead to code execution and information disclosure (by reading local files).
-
-
-
-- [https://github.com/piffd0s/CVE-2021-3310](https://github.com/piffd0s/CVE-2021-3310) :  ![starts](https://img.shields.io/github/stars/piffd0s/CVE-2021-3310.svg) ![forks](https://img.shields.io/github/forks/piffd0s/CVE-2021-3310.svg)
 
 ## CVE-2021-3291
  Zen Cart 1.5.7b allows admins to execute arbitrary OS commands by inspecting an HTML radio input element (within the modules edit page) and inserting a command.
