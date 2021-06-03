@@ -98,18 +98,18 @@
 
 
 
-- [https://github.com/kally-life/exploit-joomla](https://github.com/kally-life/exploit-joomla) :  ![starts](https://img.shields.io/github/stars/kally-life/exploit-joomla.svg) ![forks](https://img.shields.io/github/forks/kally-life/exploit-joomla.svg)
-
 - [https://github.com/CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory) :  ![starts](https://img.shields.io/github/stars/CCrashBandicot/ContentHistory.svg) ![forks](https://img.shields.io/github/forks/CCrashBandicot/ContentHistory.svg)
+
+- [https://github.com/areaventuno/exploit-joomla](https://github.com/areaventuno/exploit-joomla) :  ![starts](https://img.shields.io/github/stars/areaventuno/exploit-joomla.svg) ![forks](https://img.shields.io/github/forks/areaventuno/exploit-joomla.svg)
 
 ## CVE-2015-7857
  SQL injection vulnerability in the getListQuery function in administrator/components/com_contenthistory/models/history.php in Joomla! 3.2 before 3.4.5 allows remote attackers to execute arbitrary SQL commands via the list[select] parameter to index.php.
 
 
 
-- [https://github.com/kally-life/exploit-joomla](https://github.com/kally-life/exploit-joomla) :  ![starts](https://img.shields.io/github/stars/kally-life/exploit-joomla.svg) ![forks](https://img.shields.io/github/forks/kally-life/exploit-joomla.svg)
-
 - [https://github.com/CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory) :  ![starts](https://img.shields.io/github/stars/CCrashBandicot/ContentHistory.svg) ![forks](https://img.shields.io/github/forks/CCrashBandicot/ContentHistory.svg)
+
+- [https://github.com/areaventuno/exploit-joomla](https://github.com/areaventuno/exploit-joomla) :  ![starts](https://img.shields.io/github/stars/areaventuno/exploit-joomla.svg) ![forks](https://img.shields.io/github/forks/areaventuno/exploit-joomla.svg)
 
 ## CVE-2015-7808
  The vB_Api_Hook::decodeArguments method in vBulletin 5 Connect 5.1.2 through 5.1.9 allows remote attackers to conduct PHP object injection attacks and execute arbitrary PHP code via a crafted serialized object in the arguments parameter to ajax/api/hook/decodeArguments.
@@ -158,9 +158,9 @@
 
 - [https://github.com/Stick-U235/CVE-2015-7547](https://github.com/Stick-U235/CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/Stick-U235/CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/Stick-U235/CVE-2015-7547.svg)
 
-- [https://github.com/miracle03/CVE-2015-7547-master](https://github.com/miracle03/CVE-2015-7547-master) :  ![starts](https://img.shields.io/github/stars/miracle03/CVE-2015-7547-master.svg) ![forks](https://img.shields.io/github/forks/miracle03/CVE-2015-7547-master.svg)
-
 - [https://github.com/babykillerblack/CVE-2015-7547](https://github.com/babykillerblack/CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/babykillerblack/CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/babykillerblack/CVE-2015-7547.svg)
+
+- [https://github.com/miracle03/CVE-2015-7547-master](https://github.com/miracle03/CVE-2015-7547-master) :  ![starts](https://img.shields.io/github/stars/miracle03/CVE-2015-7547-master.svg) ![forks](https://img.shields.io/github/forks/miracle03/CVE-2015-7547-master.svg)
 
 - [https://github.com/JustDenisYT/glibc-patcher](https://github.com/JustDenisYT/glibc-patcher) :  ![starts](https://img.shields.io/github/stars/JustDenisYT/glibc-patcher.svg) ![forks](https://img.shields.io/github/forks/JustDenisYT/glibc-patcher.svg)
 
@@ -189,9 +189,9 @@
 
 
 
-- [https://github.com/kally-life/exploit-joomla](https://github.com/kally-life/exploit-joomla) :  ![starts](https://img.shields.io/github/stars/kally-life/exploit-joomla.svg) ![forks](https://img.shields.io/github/forks/kally-life/exploit-joomla.svg)
-
 - [https://github.com/CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory) :  ![starts](https://img.shields.io/github/stars/CCrashBandicot/ContentHistory.svg) ![forks](https://img.shields.io/github/forks/CCrashBandicot/ContentHistory.svg)
+
+- [https://github.com/areaventuno/exploit-joomla](https://github.com/areaventuno/exploit-joomla) :  ![starts](https://img.shields.io/github/stars/areaventuno/exploit-joomla.svg) ![forks](https://img.shields.io/github/forks/areaventuno/exploit-joomla.svg)
 
 ## CVE-2015-7214
  Mozilla Firefox before 43.0 and Firefox ESR 38.x before 38.5 allow remote attackers to bypass the Same Origin Policy via data: and view-source: URIs.
