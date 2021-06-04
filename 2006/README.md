@@ -42,6 +42,8 @@
 
 - [https://github.com/IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/IvanGlinkin/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/IvanGlinkin/CVE-2006-3392.svg)
 
+- [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
+
 - [https://github.com/notclement/cve-2006-3392](https://github.com/notclement/cve-2006-3392) :  ![starts](https://img.shields.io/github/stars/notclement/cve-2006-3392.svg) ![forks](https://img.shields.io/github/forks/notclement/cve-2006-3392.svg)
 
 - [https://github.com/0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/0xtz/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/0xtz/CVE-2006-3392.svg)
