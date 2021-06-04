@@ -103,6 +103,13 @@
 
 - [https://github.com/n0lann/CVE2010-3301_compiled](https://github.com/n0lann/CVE2010-3301_compiled) :  ![starts](https://img.shields.io/github/stars/n0lann/CVE2010-3301_compiled.svg) ![forks](https://img.shields.io/github/forks/n0lann/CVE2010-3301_compiled.svg)
 
+## CVE-2010-2626
+ index.pl in Miyabi CGI Tools SEO Links 1.02 allows remote attackers to execute arbitrary commands via shell metacharacters in the fn command. NOTE: some of these details are obtained from third party information.
+
+
+
+- [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
+
 ## CVE-2010-2333
  LiteSpeed Technologies LiteSpeed Web Server 4.0.x before 4.0.15 allows remote attackers to read the source code of scripts via an HTTP request with a null byte followed by a .txt file extension.
 
