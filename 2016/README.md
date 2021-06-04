@@ -12,13 +12,6 @@
 
 - [https://github.com/artem-smotrakov/cve-2016-1000027-poc](https://github.com/artem-smotrakov/cve-2016-1000027-poc) :  ![starts](https://img.shields.io/github/stars/artem-smotrakov/cve-2016-1000027-poc.svg) ![forks](https://img.shields.io/github/forks/artem-smotrakov/cve-2016-1000027-poc.svg)
 
-## CVE-2016-20011
- libgrss through 0.7.0 fails to perform TLS certificate verification when downloading feeds, allowing remote attackers to manipulate the contents of feeds without detection. This occurs because of the default behavior of SoupSessionSync.
-
-
-
-- [https://github.com/JamesGeee/CVE-2016-20011](https://github.com/JamesGeee/CVE-2016-20011) :  ![starts](https://img.shields.io/github/stars/JamesGeee/CVE-2016-20011.svg) ![forks](https://img.shields.io/github/forks/JamesGeee/CVE-2016-20011.svg)
-
 ## CVE-2016-10761
  Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing encryption, aka MouseJack.
 
@@ -60,6 +53,13 @@
 
 
 - [https://github.com/thepcn3rd/jwtToken-CVE-2016-10555](https://github.com/thepcn3rd/jwtToken-CVE-2016-10555) :  ![starts](https://img.shields.io/github/stars/thepcn3rd/jwtToken-CVE-2016-10555.svg) ![forks](https://img.shields.io/github/forks/thepcn3rd/jwtToken-CVE-2016-10555.svg)
+
+## CVE-2016-10401
+ ZyXEL PK5001Z devices have zyad5001 as the su password, which makes it easier for remote attackers to obtain root access if a non-root account password is known (or a non-root default account exists within an ISP's deployment of these devices).
+
+
+
+- [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
 
 ## CVE-2016-10277
  An elevation of privilege vulnerability in the Motorola bootloader could enable a local malicious application to execute arbitrary code within the context of the bootloader. This issue is rated as Critical due to the possibility of a local permanent device compromise, which may require reflashing the operating system to repair the device. Product: Android. Versions: Kernel-3.10, Kernel-3.18. Android ID: A-33840490.
