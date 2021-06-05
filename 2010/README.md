@@ -131,6 +131,13 @@
 
 - [https://github.com/MAVProxyUser/httpfuzz-robomiller](https://github.com/MAVProxyUser/httpfuzz-robomiller) :  ![starts](https://img.shields.io/github/stars/MAVProxyUser/httpfuzz-robomiller.svg) ![forks](https://img.shields.io/github/forks/MAVProxyUser/httpfuzz-robomiller.svg)
 
+## CVE-2010-1240
+ Adobe Reader and Acrobat 9.x before 9.3.3, and 8.x before 8.2.3 on Windows and Mac OS X, do not restrict the contents of one text field in the Launch File warning dialog, which makes it easier for remote attackers to trick users into executing an arbitrary local program that was specified in a PDF document, as demonstrated by a text field that claims that the Open button will enable the user to read an encrypted message.
+
+
+
+- [https://github.com/Jasmoon99/Embedded-PDF](https://github.com/Jasmoon99/Embedded-PDF) :  ![starts](https://img.shields.io/github/stars/Jasmoon99/Embedded-PDF.svg) ![forks](https://img.shields.io/github/forks/Jasmoon99/Embedded-PDF.svg)
+
 ## CVE-2010-1205
  Buffer overflow in pngpread.c in libpng before 1.2.44 and 1.4.x before 1.4.3, as used in progressive applications, might allow remote attackers to execute arbitrary code via a PNG image that triggers an additional data row.
 
