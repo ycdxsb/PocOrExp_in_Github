@@ -147,6 +147,34 @@
 
 - [https://github.com/aslanemre/CVE-2020-29364](https://github.com/aslanemre/CVE-2020-29364) :  ![starts](https://img.shields.io/github/stars/aslanemre/CVE-2020-29364.svg) ![forks](https://img.shields.io/github/forks/aslanemre/CVE-2020-29364.svg)
 
+## CVE-2020-29324
+ The DLink Router DIR-895L MFC v1.21b05 is vulnerable to credentials disclosure in telnet service through decompilation of firmware, that allows an unauthenticated attacker to gain access to the firmware and to extract sensitive data.
+
+
+
+- [https://github.com/JamesGeeee/CVE-2020-29324](https://github.com/JamesGeeee/CVE-2020-29324) :  ![starts](https://img.shields.io/github/stars/JamesGeeee/CVE-2020-29324.svg) ![forks](https://img.shields.io/github/forks/JamesGeeee/CVE-2020-29324.svg)
+
+## CVE-2020-29323
+ The D-link router DIR-885L-MFC 1.15b02, v1.21b05 is vulnerable to credentials disclosure in telnet service through decompilation of firmware, that allows an unauthenticated attacker to gain access to the firmware and to extract sensitive data.
+
+
+
+- [https://github.com/JamesGeeee/CVE-2020-29323](https://github.com/JamesGeeee/CVE-2020-29323) :  ![starts](https://img.shields.io/github/stars/JamesGeeee/CVE-2020-29323.svg) ![forks](https://img.shields.io/github/forks/JamesGeeee/CVE-2020-29323.svg)
+
+## CVE-2020-29322
+ The D-Link router DIR-880L 1.07 is vulnerable to credentials disclosure in telnet service through decompilation of firmware, that allows an unauthenticated attacker to gain access to the firmware and to extract sensitive data.
+
+
+
+- [https://github.com/JamesGeeee/CVE-2020-29322](https://github.com/JamesGeeee/CVE-2020-29322) :  ![starts](https://img.shields.io/github/stars/JamesGeeee/CVE-2020-29322.svg) ![forks](https://img.shields.io/github/forks/JamesGeeee/CVE-2020-29322.svg)
+
+## CVE-2020-29321
+ The D-Link router DIR-868L 3.01 is vulnerable to credentials disclosure in telnet service through decompilation of firmware, that allows an unauthenticated attacker to gain access to the firmware and to extract sensitive data.
+
+
+
+- [https://github.com/JamesGeeee/CVE-2020-29321](https://github.com/JamesGeeee/CVE-2020-29321) :  ![starts](https://img.shields.io/github/stars/JamesGeeee/CVE-2020-29321.svg) ![forks](https://img.shields.io/github/forks/JamesGeeee/CVE-2020-29321.svg)
+
 ## CVE-2020-29254
  TikiWiki 21.2 allows templates to be edited without CSRF protection. This could allow an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack and perform arbitrary actions on an affected system. The vulnerability is due to insufficient CSRF protections for the web-based management interface of the affected system. An attacker could exploit this vulnerability by persuading a user of the interface to follow a maliciously crafted link. A successful exploit could allow the attacker to perform arbitrary actions on an affected system with the privileges of the user. These action include allowing attackers to submit their own code through an authenticated user resulting in local file Inclusion. If an authenticated user who is able to edit TikiWiki templates visits an malicious website, template code can be edited.
 
@@ -1684,7 +1712,7 @@
 
 - [https://github.com/wsfengfan/cve-2020-14882](https://github.com/wsfengfan/cve-2020-14882) :  ![starts](https://img.shields.io/github/stars/wsfengfan/cve-2020-14882.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/cve-2020-14882.svg)
 
-- [https://github.com/x51/CVE-2020-14882](https://github.com/x51/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/x51/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/x51/CVE-2020-14882.svg)
+- [https://github.com/xwuyi/CVE-2020-14882](https://github.com/xwuyi/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/xwuyi/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/xwuyi/CVE-2020-14882.svg)
 
 - [https://github.com/ludy-dev/Weblogic_Unauthorized-bypass-RCE](https://github.com/ludy-dev/Weblogic_Unauthorized-bypass-RCE) :  ![starts](https://img.shields.io/github/stars/ludy-dev/Weblogic_Unauthorized-bypass-RCE.svg) ![forks](https://img.shields.io/github/forks/ludy-dev/Weblogic_Unauthorized-bypass-RCE.svg)
 
@@ -1927,6 +1955,13 @@
 
 - [https://github.com/s-index/CVE-2020-13957](https://github.com/s-index/CVE-2020-13957) :  ![starts](https://img.shields.io/github/stars/s-index/CVE-2020-13957.svg) ![forks](https://img.shields.io/github/forks/s-index/CVE-2020-13957.svg)
 
+## CVE-2020-13956
+ Apache HttpClient versions prior to version 4.5.13 and 5.0.3 can misinterpret malformed authority component in request URIs passed to the library as java.net.URI object and pick the wrong target host for request execution.
+
+
+
+- [https://github.com/JamesGeeee/CVE-2020-13956](https://github.com/JamesGeeee/CVE-2020-13956) :  ![starts](https://img.shields.io/github/stars/JamesGeeee/CVE-2020-13956.svg) ![forks](https://img.shields.io/github/forks/JamesGeeee/CVE-2020-13956.svg)
+
 ## CVE-2020-13942
  It is possible to inject malicious OGNL or MVEL scripts into the /context.json public endpoint. This was partially fixed in 1.5.1 but a new attack vector was found. In Apache Unomi version 1.5.2 scripts are now completely filtered from the input. It is highly recommended to upgrade to the latest available version of the 1.5.x release to fix this problem.
 
@@ -2039,6 +2074,13 @@
 
 
 - [https://github.com/asterite3/CVE-2020-13640](https://github.com/asterite3/CVE-2020-13640) :  ![starts](https://img.shields.io/github/stars/asterite3/CVE-2020-13640.svg) ![forks](https://img.shields.io/github/forks/asterite3/CVE-2020-13640.svg)
+
+## CVE-2020-13558
+ A code execution vulnerability exists in the AudioSourceProviderGStreamer functionality of Webkit WebKitGTK 2.30.1. A specially crafted web page can lead to a use after free.
+
+
+
+- [https://github.com/JamesGeeee/CVE-2020-13558](https://github.com/JamesGeeee/CVE-2020-13558) :  ![starts](https://img.shields.io/github/stars/JamesGeeee/CVE-2020-13558.svg) ![forks](https://img.shields.io/github/forks/JamesGeeee/CVE-2020-13558.svg)
 
 ## CVE-2020-13457
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -2617,11 +2659,11 @@
 
 - [https://github.com/JustMichi/CVE-2020-10977.py](https://github.com/JustMichi/CVE-2020-10977.py) :  ![starts](https://img.shields.io/github/stars/JustMichi/CVE-2020-10977.py.svg) ![forks](https://img.shields.io/github/forks/JustMichi/CVE-2020-10977.py.svg)
 
+- [https://github.com/lisp3r/cve-2020-10977-read-and-execute](https://github.com/lisp3r/cve-2020-10977-read-and-execute) :  ![starts](https://img.shields.io/github/stars/lisp3r/cve-2020-10977-read-and-execute.svg) ![forks](https://img.shields.io/github/forks/lisp3r/cve-2020-10977-read-and-execute.svg)
+
 - [https://github.com/nickvdyck/gitlab-cve-2020-10977](https://github.com/nickvdyck/gitlab-cve-2020-10977) :  ![starts](https://img.shields.io/github/stars/nickvdyck/gitlab-cve-2020-10977.svg) ![forks](https://img.shields.io/github/forks/nickvdyck/gitlab-cve-2020-10977.svg)
 
 - [https://github.com/JayHerlth/cve-2020-10977](https://github.com/JayHerlth/cve-2020-10977) :  ![starts](https://img.shields.io/github/stars/JayHerlth/cve-2020-10977.svg) ![forks](https://img.shields.io/github/forks/JayHerlth/cve-2020-10977.svg)
-
-- [https://github.com/lisp3r/cve-2020-10977-read-and-execute](https://github.com/lisp3r/cve-2020-10977-read-and-execute) :  ![starts](https://img.shields.io/github/stars/lisp3r/cve-2020-10977-read-and-execute.svg) ![forks](https://img.shields.io/github/forks/lisp3r/cve-2020-10977-read-and-execute.svg)
 
 - [https://github.com/erk3/gitlab-12.9.0-file-read](https://github.com/erk3/gitlab-12.9.0-file-read) :  ![starts](https://img.shields.io/github/stars/erk3/gitlab-12.9.0-file-read.svg) ![forks](https://img.shields.io/github/forks/erk3/gitlab-12.9.0-file-read.svg)
 
@@ -3260,9 +3302,9 @@
 
 - [https://github.com/twistlock/k8s-cve-2020-8554-mitigations](https://github.com/twistlock/k8s-cve-2020-8554-mitigations) :  ![starts](https://img.shields.io/github/stars/twistlock/k8s-cve-2020-8554-mitigations.svg) ![forks](https://img.shields.io/github/forks/twistlock/k8s-cve-2020-8554-mitigations.svg)
 
-- [https://github.com/alebedev87/gatekeeper-cve-2020-8554](https://github.com/alebedev87/gatekeeper-cve-2020-8554) :  ![starts](https://img.shields.io/github/stars/alebedev87/gatekeeper-cve-2020-8554.svg) ![forks](https://img.shields.io/github/forks/alebedev87/gatekeeper-cve-2020-8554.svg)
-
 - [https://github.com/Dviejopomata/CVE-2020-8554](https://github.com/Dviejopomata/CVE-2020-8554) :  ![starts](https://img.shields.io/github/stars/Dviejopomata/CVE-2020-8554.svg) ![forks](https://img.shields.io/github/forks/Dviejopomata/CVE-2020-8554.svg)
+
+- [https://github.com/alebedev87/gatekeeper-cve-2020-8554](https://github.com/alebedev87/gatekeeper-cve-2020-8554) :  ![starts](https://img.shields.io/github/stars/alebedev87/gatekeeper-cve-2020-8554.svg) ![forks](https://img.shields.io/github/forks/alebedev87/gatekeeper-cve-2020-8554.svg)
 
 - [https://github.com/jrmurray000/CVE-2020-8554](https://github.com/jrmurray000/CVE-2020-8554) :  ![starts](https://img.shields.io/github/stars/jrmurray000/CVE-2020-8554.svg) ![forks](https://img.shields.io/github/forks/jrmurray000/CVE-2020-8554.svg)
 
@@ -3291,9 +3333,9 @@
 
 - [https://github.com/vulncrate/wp-codesnippets-cve-2020-8417](https://github.com/vulncrate/wp-codesnippets-cve-2020-8417) :  ![starts](https://img.shields.io/github/stars/vulncrate/wp-codesnippets-cve-2020-8417.svg) ![forks](https://img.shields.io/github/forks/vulncrate/wp-codesnippets-cve-2020-8417.svg)
 
-- [https://github.com/Rapidsafeguard/codesnippets_CVE-2020-8417](https://github.com/Rapidsafeguard/codesnippets_CVE-2020-8417) :  ![starts](https://img.shields.io/github/stars/Rapidsafeguard/codesnippets_CVE-2020-8417.svg) ![forks](https://img.shields.io/github/forks/Rapidsafeguard/codesnippets_CVE-2020-8417.svg)
-
 - [https://github.com/Vulnmachines/WordPress_CVE-2020-8417](https://github.com/Vulnmachines/WordPress_CVE-2020-8417) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/WordPress_CVE-2020-8417.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/WordPress_CVE-2020-8417.svg)
+
+- [https://github.com/Rapidsafeguard/codesnippets_CVE-2020-8417](https://github.com/Rapidsafeguard/codesnippets_CVE-2020-8417) :  ![starts](https://img.shields.io/github/stars/Rapidsafeguard/codesnippets_CVE-2020-8417.svg) ![forks](https://img.shields.io/github/forks/Rapidsafeguard/codesnippets_CVE-2020-8417.svg)
 
 - [https://github.com/waleweewe12/CVE-2020-8417](https://github.com/waleweewe12/CVE-2020-8417) :  ![starts](https://img.shields.io/github/stars/waleweewe12/CVE-2020-8417.svg) ![forks](https://img.shields.io/github/forks/waleweewe12/CVE-2020-8417.svg)
 
@@ -3709,11 +3751,11 @@
 
 - [https://github.com/r0lh/CVE-2020-7247](https://github.com/r0lh/CVE-2020-7247) :  ![starts](https://img.shields.io/github/stars/r0lh/CVE-2020-7247.svg) ![forks](https://img.shields.io/github/forks/r0lh/CVE-2020-7247.svg)
 
+- [https://github.com/QTranspose/CVE-2020-7247-exploit](https://github.com/QTranspose/CVE-2020-7247-exploit) :  ![starts](https://img.shields.io/github/stars/QTranspose/CVE-2020-7247-exploit.svg) ![forks](https://img.shields.io/github/forks/QTranspose/CVE-2020-7247-exploit.svg)
+
 - [https://github.com/superzerosec/cve-2020-7247](https://github.com/superzerosec/cve-2020-7247) :  ![starts](https://img.shields.io/github/stars/superzerosec/cve-2020-7247.svg) ![forks](https://img.shields.io/github/forks/superzerosec/cve-2020-7247.svg)
 
 - [https://github.com/jopraveen/CVE-2020-7247](https://github.com/jopraveen/CVE-2020-7247) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2020-7247.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2020-7247.svg)
-
-- [https://github.com/QTranspose/CVE-2020-7247-exploit](https://github.com/QTranspose/CVE-2020-7247-exploit) :  ![starts](https://img.shields.io/github/stars/QTranspose/CVE-2020-7247-exploit.svg) ![forks](https://img.shields.io/github/forks/QTranspose/CVE-2020-7247-exploit.svg)
 
 ## CVE-2020-7246
  A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An attacker can upload a malicious PHP code file via the profile photo functionality, by leveraging a path traversal vulnerability in the users['photop_preview'] delete photo feature, allowing bypass of .htaccess protection. NOTE: this issue exists because of an incomplete fix for CVE-2015-3884.
@@ -4697,15 +4739,15 @@
 
 - [https://github.com/Whippet0/CVE-2020-1472](https://github.com/Whippet0/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/Whippet0/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Whippet0/CVE-2020-1472.svg)
 
+- [https://github.com/hectorgie/CVE-2020-1472](https://github.com/hectorgie/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/hectorgie/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/hectorgie/CVE-2020-1472.svg)
+
+- [https://github.com/itssmikefm/CVE-2020-1472](https://github.com/itssmikefm/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/itssmikefm/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/itssmikefm/CVE-2020-1472.svg)
+
 - [https://github.com/mingchen-script/CVE-2020-1472-visualizer](https://github.com/mingchen-script/CVE-2020-1472-visualizer) :  ![starts](https://img.shields.io/github/stars/mingchen-script/CVE-2020-1472-visualizer.svg) ![forks](https://img.shields.io/github/forks/mingchen-script/CVE-2020-1472-visualizer.svg)
 
 - [https://github.com/puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2020-1472.svg)
 
 - [https://github.com/Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve-2020-1472.svg)
-
-- [https://github.com/hectorgie/CVE-2020-1472](https://github.com/hectorgie/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/hectorgie/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/hectorgie/CVE-2020-1472.svg)
-
-- [https://github.com/itssmikefm/CVE-2020-1472](https://github.com/itssmikefm/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/itssmikefm/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/itssmikefm/CVE-2020-1472.svg)
 
 - [https://github.com/mos165/CVE-20200-1472](https://github.com/mos165/CVE-20200-1472) :  ![starts](https://img.shields.io/github/stars/mos165/CVE-20200-1472.svg) ![forks](https://img.shields.io/github/forks/mos165/CVE-20200-1472.svg)
 
@@ -5235,9 +5277,9 @@
 
 
 
-- [https://github.com/Al1ex/WindowsElevation](https://github.com/Al1ex/WindowsElevation) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
-
 - [https://github.com/padovah4ck/CVE-2020-0683](https://github.com/padovah4ck/CVE-2020-0683) :  ![starts](https://img.shields.io/github/stars/padovah4ck/CVE-2020-0683.svg) ![forks](https://img.shields.io/github/forks/padovah4ck/CVE-2020-0683.svg)
+
+- [https://github.com/Al1ex/WindowsElevation](https://github.com/Al1ex/WindowsElevation) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
 
 ## CVE-2020-0674
  A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2020-0673, CVE-2020-0710, CVE-2020-0711, CVE-2020-0712, CVE-2020-0713, CVE-2020-0767.
