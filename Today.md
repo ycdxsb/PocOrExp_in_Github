@@ -1,42 +1,14 @@
-# Update 2021-06-11
-## CVE-2021-33739
- Microsoft DWM Core Library Elevation of Privilege Vulnerability
+# Update 2021-06-12
+## CVE-2020-1938
+ When using the Apache JServ Protocol (AJP), care must be taken when trusting incoming connections to Apache Tomcat. Tomcat treats AJP connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited in ways that may be surprising. In Apache Tomcat 9.0.0.M1 to 9.0.0.30, 8.5.0 to 8.5.50 and 7.0.0 to 7.0.99, Tomcat shipped with an AJP Connector enabled by default that listened on all configured IP addresses. It was expected (and recommended in the security guide) that this Connector would be disabled if not required. This vulnerability report identified a mechanism that allowed: - returning arbitrary files from anywhere in the web application - processing any file in the web application as a JSP Further, if the web application allowed file upload and stored those files within the web application (or the attacker was able to control the content of the web application by some other means) then this, along with the ability to process a file as a JSP, made remote code execution possible. It is important to note that mitigation is only required if an AJP port is accessible to untrusted users. Users wishing to take a defence-in-depth approach and block the vector that permits returning arbitrary files and execution as JSP may upgrade to Apache Tomcat 9.0.31, 8.5.51 or 7.0.100 or later. A number of changes were made to the default AJP Connector configuration in 9.0.31 to harden the default configuration. It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 or later will need to make small changes to their configurations.
 
-- [https://github.com/mavillon1/CVE-2021-33739-POC](https://github.com/mavillon1/CVE-2021-33739-POC) :  ![starts](https://img.shields.io/github/stars/mavillon1/CVE-2021-33739-POC.svg) ![forks](https://img.shields.io/github/forks/mavillon1/CVE-2021-33739-POC.svg)
-
-
-## CVE-2021-24316
- The search feature of the Mediumish WordPress theme through 1.0.47 does not properly sanitise it's 's' GET parameter before output it back the page, leading to the Cross-SIte Scripting issue.
-
-- [https://github.com/JamesCVE/CVE-2021-24316](https://github.com/JamesCVE/CVE-2021-24316) :  ![starts](https://img.shields.io/github/stars/JamesCVE/CVE-2021-24316.svg) ![forks](https://img.shields.io/github/forks/JamesCVE/CVE-2021-24316.svg)
-
-
-## CVE-2021-23388
- The package forms before 1.2.1, from 1.3.0 and before 1.3.2 are vulnerable to Regular Expression Denial of Service (ReDoS) via email validation.
-
-- [https://github.com/JamesCVE/CVE-2021-23388](https://github.com/JamesCVE/CVE-2021-23388) :  ![starts](https://img.shields.io/github/stars/JamesCVE/CVE-2021-23388.svg) ![forks](https://img.shields.io/github/forks/JamesCVE/CVE-2021-23388.svg)
-
-
-## CVE-2020-3452
- A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct directory traversal attacks and read sensitive files on a targeted system. The vulnerability is due to a lack of proper input validation of URLs in HTTP requests processed by an affected device. An attacker could exploit this vulnerability by sending a crafted HTTP request containing directory traversal character sequences to an affected device. A successful exploit could allow the attacker to view arbitrary files within the web services file system on the targeted device. The web services file system is enabled when the affected device is configured with either WebVPN or AnyConnect features. This vulnerability cannot be used to obtain access to ASA or FTD system files or underlying operating system (OS) files.
-
-- [https://github.com/sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/sujaygr8/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/sujaygr8/CVE-2020-3452.svg)
-
-
-## CVE-2020-1920
- A regular expression denial of service (ReDoS) vulnerability in the validateBaseUrl function can cause the application to use excessive resources, become unresponsive, or crash. This was introduced in react-native version 0.59.0 and fixed in version 0.64.1.
-
-- [https://github.com/JamesCVE/CVE-2020-1920](https://github.com/JamesCVE/CVE-2020-1920) :  ![starts](https://img.shields.io/github/stars/JamesCVE/CVE-2020-1920.svg) ![forks](https://img.shields.io/github/forks/JamesCVE/CVE-2020-1920.svg)
-
-
-## CVE-2019-1253
- An elevation of privilege vulnerability exists when the Windows AppX Deployment Server improperly handles junctions.To exploit this vulnerability, an attacker would first have to gain execution on the victim system, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1215, CVE-2019-1278, CVE-2019-1303.
-
-- [https://github.com/sgabe/CVE-2019-1253](https://github.com/sgabe/CVE-2019-1253) :  ![starts](https://img.shields.io/github/stars/sgabe/CVE-2019-1253.svg) ![forks](https://img.shields.io/github/forks/sgabe/CVE-2019-1253.svg)
-
-
-## CVE-2018-9995
- TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in 1, Securus, Night OWL, DVR Login, HVR Login, and MDVR Login, which run re-branded versions of the original TBK DVR4104 and DVR4216 series, allow remote attackers to bypass authentication via a &quot;Cookie: uid=admin&quot; header, as demonstrated by a device.rsp?opt=user&amp;cmd=list request that provides credentials within JSON data in a response.
-
-- [https://github.com/kienquoc102/CVE-2018-9995-2](https://github.com/kienquoc102/CVE-2018-9995-2) :  ![starts](https://img.shields.io/github/stars/kienquoc102/CVE-2018-9995-2.svg) ![forks](https://img.shields.io/github/forks/kienquoc102/CVE-2018-9995-2.svg)
+- [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
+- [https://github.com/hypn0s/AJPy](https://github.com/hypn0s/AJPy) :  ![starts](https://img.shields.io/github/stars/hypn0s/AJPy.svg) ![forks](https://img.shields.io/github/forks/hypn0s/AJPy.svg)
+- [https://github.com/00theway/Ghostcat-CNVD-2020-10487](https://github.com/00theway/Ghostcat-CNVD-2020-10487) :  ![starts](https://img.shields.io/github/stars/00theway/Ghostcat-CNVD-2020-10487.svg) ![forks](https://img.shields.io/github/forks/00theway/Ghostcat-CNVD-2020-10487.svg)
+- [https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC](https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC) :  ![starts](https://img.shields.io/github/stars/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC.svg) ![forks](https://img.shields.io/github/forks/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC.svg)
+- [https://github.com/w4fz5uck5/CVE-2020-1938-Clean-Version](https://github.com/w4fz5uck5/CVE-2020-1938-Clean-Version) :  ![starts](https://img.shields.io/github/stars/w4fz5uck5/CVE-2020-1938-Clean-Version.svg) ![forks](https://img.shields.io/github/forks/w4fz5uck5/CVE-2020-1938-Clean-Version.svg)
+- [https://github.com/I-Runtime-Error/CVE-2020-1938](https://github.com/I-Runtime-Error/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/I-Runtime-Error/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/I-Runtime-Error/CVE-2020-1938.svg)
+- [https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938](https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/Zaziki1337/Ghostcat-CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/Zaziki1337/Ghostcat-CVE-2020-1938.svg)
+- [https://github.com/YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE](https://github.com/YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE) :  ![starts](https://img.shields.io/github/stars/YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE.svg) ![forks](https://img.shields.io/github/forks/YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE.svg)
+- [https://github.com/MateoSec/ghostcatch](https://github.com/MateoSec/ghostcatch) :  ![starts](https://img.shields.io/github/stars/MateoSec/ghostcatch.svg) ![forks](https://img.shields.io/github/forks/MateoSec/ghostcatch.svg)
 
