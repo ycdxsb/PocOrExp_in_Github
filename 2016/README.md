@@ -97,9 +97,9 @@
 
 - [https://github.com/Zenexer/safeshell](https://github.com/Zenexer/safeshell) :  ![starts](https://img.shields.io/github/stars/Zenexer/safeshell.svg) ![forks](https://img.shields.io/github/forks/Zenexer/safeshell.svg)
 
-- [https://github.com/0x00-0x00/CVE-2016-10033](https://github.com/0x00-0x00/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2016-10033.svg)
-
 - [https://github.com/paralelo14/CVE_2016-10033](https://github.com/paralelo14/CVE_2016-10033) :  ![starts](https://img.shields.io/github/stars/paralelo14/CVE_2016-10033.svg) ![forks](https://img.shields.io/github/forks/paralelo14/CVE_2016-10033.svg)
+
+- [https://github.com/0x00-0x00/CVE-2016-10033](https://github.com/0x00-0x00/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2016-10033.svg)
 
 - [https://github.com/chipironcin/CVE-2016-10033](https://github.com/chipironcin/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/chipironcin/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/chipironcin/CVE-2016-10033.svg)
 
