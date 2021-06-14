@@ -19658,6 +19658,8 @@
 
 - [https://github.com/thepcn3rd/jwtToken-CVE-2016-10555](https://github.com/thepcn3rd/jwtToken-CVE-2016-10555) :  ![starts](https://img.shields.io/github/stars/thepcn3rd/jwtToken-CVE-2016-10555.svg) ![forks](https://img.shields.io/github/forks/thepcn3rd/jwtToken-CVE-2016-10555.svg)
 
+- [https://github.com/FroydCod3r/poc-cve-2016-10555](https://github.com/FroydCod3r/poc-cve-2016-10555) :  ![starts](https://img.shields.io/github/stars/FroydCod3r/poc-cve-2016-10555.svg) ![forks](https://img.shields.io/github/forks/FroydCod3r/poc-cve-2016-10555.svg)
+
 ## CVE-2016-10401
  ZyXEL PK5001Z devices have zyad5001 as the su password, which makes it easier for remote attackers to obtain root access if a non-root account password is known (or a non-root default account exists within an ISP's deployment of these devices).
 
