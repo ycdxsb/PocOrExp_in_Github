@@ -24464,9 +24464,9 @@
 
 - [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
 
-- [https://github.com/notclement/cve-2006-3392](https://github.com/notclement/cve-2006-3392) :  ![starts](https://img.shields.io/github/stars/notclement/cve-2006-3392.svg) ![forks](https://img.shields.io/github/forks/notclement/cve-2006-3392.svg)
-
 - [https://github.com/0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/0xtz/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/0xtz/CVE-2006-3392.svg)
+
+- [https://github.com/notclement/cve-2006-3392](https://github.com/notclement/cve-2006-3392) :  ![starts](https://img.shields.io/github/stars/notclement/cve-2006-3392.svg) ![forks](https://img.shields.io/github/forks/notclement/cve-2006-3392.svg)
 
 ## CVE-2006-1236
  Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
