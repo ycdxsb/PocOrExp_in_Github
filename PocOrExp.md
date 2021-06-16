@@ -119,9 +119,9 @@
 
 - [https://github.com/corelight/CVE-2021-31166](https://github.com/corelight/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/corelight/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/corelight/CVE-2021-31166.svg)
 
-- [https://github.com/An0ny-m0us/CVE-2021-31166](https://github.com/An0ny-m0us/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/An0ny-m0us/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/An0ny-m0us/CVE-2021-31166.svg)
-
 - [https://github.com/Frankmock/CVE-2021-31166-detection-rules](https://github.com/Frankmock/CVE-2021-31166-detection-rules) :  ![starts](https://img.shields.io/github/stars/Frankmock/CVE-2021-31166-detection-rules.svg) ![forks](https://img.shields.io/github/forks/Frankmock/CVE-2021-31166-detection-rules.svg)
+
+- [https://github.com/An0ny-m0us/CVE-2021-31166](https://github.com/An0ny-m0us/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/An0ny-m0us/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/An0ny-m0us/CVE-2021-31166.svg)
 
 - [https://github.com/phil-fly/poc](https://github.com/phil-fly/poc) :  ![starts](https://img.shields.io/github/stars/phil-fly/poc.svg) ![forks](https://img.shields.io/github/forks/phil-fly/poc.svg)
 
@@ -717,13 +717,13 @@
 
 - [https://github.com/Immersive-Labs-Sec/ProxyLogon](https://github.com/Immersive-Labs-Sec/ProxyLogon) :  ![starts](https://img.shields.io/github/stars/Immersive-Labs-Sec/ProxyLogon.svg) ![forks](https://img.shields.io/github/forks/Immersive-Labs-Sec/ProxyLogon.svg)
 
+- [https://github.com/r0ckysec/CVE-2021-26855_Exchange](https://github.com/r0ckysec/CVE-2021-26855_Exchange) :  ![starts](https://img.shields.io/github/stars/r0ckysec/CVE-2021-26855_Exchange.svg) ![forks](https://img.shields.io/github/forks/r0ckysec/CVE-2021-26855_Exchange.svg)
+
 - [https://github.com/Yt1g3r/CVE-2021-26855_SSRF](https://github.com/Yt1g3r/CVE-2021-26855_SSRF) :  ![starts](https://img.shields.io/github/stars/Yt1g3r/CVE-2021-26855_SSRF.svg) ![forks](https://img.shields.io/github/forks/Yt1g3r/CVE-2021-26855_SSRF.svg)
 
 - [https://github.com/shacojx/CVE_2021_26855_SSRF](https://github.com/shacojx/CVE_2021_26855_SSRF) :  ![starts](https://img.shields.io/github/stars/shacojx/CVE_2021_26855_SSRF.svg) ![forks](https://img.shields.io/github/forks/shacojx/CVE_2021_26855_SSRF.svg)
 
 - [https://github.com/TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit](https://github.com/TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit) :  ![starts](https://img.shields.io/github/stars/TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit.svg) ![forks](https://img.shields.io/github/forks/TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit.svg)
-
-- [https://github.com/r0ckysec/CVE-2021-26855_Exchange](https://github.com/r0ckysec/CVE-2021-26855_Exchange) :  ![starts](https://img.shields.io/github/stars/r0ckysec/CVE-2021-26855_Exchange.svg) ![forks](https://img.shields.io/github/forks/r0ckysec/CVE-2021-26855_Exchange.svg)
 
 - [https://github.com/shacojx/CVE-2021-26855-exploit-Exchange](https://github.com/shacojx/CVE-2021-26855-exploit-Exchange) :  ![starts](https://img.shields.io/github/stars/shacojx/CVE-2021-26855-exploit-Exchange.svg) ![forks](https://img.shields.io/github/forks/shacojx/CVE-2021-26855-exploit-Exchange.svg)
 
@@ -1163,9 +1163,9 @@
 
 - [https://github.com/murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2021-21972.svg)
 
-- [https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg)
-
 - [https://github.com/JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/JMousqueton/Detect-CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/JMousqueton/Detect-CVE-2021-21972.svg)
+
+- [https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg)
 
 ## CVE-2021-21551
  Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability which may lead to escalation of privileges, denial of service, or information disclosure. Local authenticated user access is required.
@@ -1240,9 +1240,9 @@
 
 - [https://github.com/tao-sun2/CVE-2021-21300](https://github.com/tao-sun2/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/tao-sun2/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/tao-sun2/CVE-2021-21300.svg)
 
-- [https://github.com/danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/danshuizhangyu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/danshuizhangyu/CVE-2021-21300.svg)
-
 - [https://github.com/CppXL/CVE-2021-21300](https://github.com/CppXL/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/CppXL/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/CppXL/CVE-2021-21300.svg)
+
+- [https://github.com/danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/danshuizhangyu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/danshuizhangyu/CVE-2021-21300.svg)
 
 - [https://github.com/erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/erranfenech/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/erranfenech/CVE-2021-21300.svg)
 
@@ -1252,9 +1252,9 @@
 
 - [https://github.com/Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Kirill89/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Kirill89/CVE-2021-21300.svg)
 
-- [https://github.com/1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/1uanWu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/1uanWu/CVE-2021-21300.svg)
-
 - [https://github.com/Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Faisal78123/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Faisal78123/CVE-2021-21300.svg)
+
+- [https://github.com/1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/1uanWu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/1uanWu/CVE-2021-21300.svg)
 
 ## CVE-2021-21234
  spring-boot-actuator-logview in a library that adds a simple logfile viewer as spring boot actuator endpoint. It is maven package &quot;eu.hinsch:spring-boot-actuator-logview&quot;. In spring-boot-actuator-logview before version 0.2.13 there is a directory traversal vulnerability. The nature of this library is to expose a log file directory via admin (spring boot actuator) HTTP endpoints. Both the filename to view and a base folder (relative to the logging folder root) can be specified via request parameters. While the filename parameter was checked to prevent directory traversal exploits (so that `filename=../somefile` would not work), the base folder parameter was not sufficiently checked, so that `filename=somefile&amp;base=../` could access a file outside the logging base directory). The vulnerability has been patched in release 0.2.13. Any users of 0.2.12 should be able to update without any issues as there are no other changes in that release. There is no workaround to fix the vulnerability other than updating or removing the dependency. However, removing read access of the user the application is run with to any directory not required for running the application can limit the impact. Additionally, access to the logview endpoint can be limited by deploying the application behind a reverse proxy.
@@ -1407,6 +1407,13 @@
 
 - [https://github.com/Al1ex/CVE-2021-3317](https://github.com/Al1ex/CVE-2021-3317) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2021-3317.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2021-3317.svg)
 
+## CVE-2021-3310
+ Western Digital My Cloud OS 5 devices before 5.10.122 mishandle Symbolic Link Following on SMB and AFP shares. This can lead to code execution and information disclosure (by reading local files).
+
+
+
+- [https://github.com/piffd0s/CVE-2021-3310](https://github.com/piffd0s/CVE-2021-3310) :  ![starts](https://img.shields.io/github/stars/piffd0s/CVE-2021-3310.svg) ![forks](https://img.shields.io/github/forks/piffd0s/CVE-2021-3310.svg)
+
 ## CVE-2021-3291
  Zen Cart 1.5.7b allows admins to execute arbitrary OS commands by inspecting an HTML radio input element (within the modules edit page) and inserting a command.
 
@@ -1495,15 +1502,15 @@
 
 - [https://github.com/H4ckForJob/cve-2021-3156](https://github.com/H4ckForJob/cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/H4ckForJob/cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/H4ckForJob/cve-2021-3156.svg)
 
-- [https://github.com/nobodyatall648/CVE-2021-3156](https://github.com/nobodyatall648/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2021-3156.svg)
-
 - [https://github.com/SantiagoSerrao/ScannerCVE-2021-3156](https://github.com/SantiagoSerrao/ScannerCVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/SantiagoSerrao/ScannerCVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/SantiagoSerrao/ScannerCVE-2021-3156.svg)
+
+- [https://github.com/Nokialinux/CVE-2021-3156](https://github.com/Nokialinux/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Nokialinux/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Nokialinux/CVE-2021-3156.svg)
 
 - [https://github.com/binw2018/CVE-2021-3156-SCRIPT](https://github.com/binw2018/CVE-2021-3156-SCRIPT) :  ![starts](https://img.shields.io/github/stars/binw2018/CVE-2021-3156-SCRIPT.svg) ![forks](https://img.shields.io/github/forks/binw2018/CVE-2021-3156-SCRIPT.svg)
 
 - [https://github.com/kal1gh0st/CVE-2021-3156](https://github.com/kal1gh0st/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/kal1gh0st/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/kal1gh0st/CVE-2021-3156.svg)
 
-- [https://github.com/Nokialinux/CVE-2021-3156](https://github.com/Nokialinux/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Nokialinux/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Nokialinux/CVE-2021-3156.svg)
+- [https://github.com/nobodyatall648/CVE-2021-3156](https://github.com/nobodyatall648/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2021-3156.svg)
 
 - [https://github.com/lmol/CVE-2021-3156](https://github.com/lmol/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/lmol/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/lmol/CVE-2021-3156.svg)
 
@@ -1517,11 +1524,11 @@
 
 - [https://github.com/freeFV/CVE-2021-3156](https://github.com/freeFV/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/freeFV/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/freeFV/CVE-2021-3156.svg)
 
-- [https://github.com/oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/oneoy/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/oneoy/CVE-2021-3156.svg)
-
 - [https://github.com/password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/password520/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/password520/CVE-2021-3156.svg)
 
 - [https://github.com/cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/cdeletre/Serpentiel-CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/cdeletre/Serpentiel-CVE-2021-3156.svg)
+
+- [https://github.com/oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/oneoy/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/oneoy/CVE-2021-3156.svg)
 
 - [https://github.com/AlexSeniorProject/CVE-2021-3156](https://github.com/AlexSeniorProject/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/AlexSeniorProject/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/AlexSeniorProject/CVE-2021-3156.svg)
 
