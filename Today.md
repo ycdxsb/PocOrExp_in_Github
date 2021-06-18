@@ -1,24 +1,30 @@
-# Update 2021-06-17
-## CVE-2021-3310
- Western Digital My Cloud OS 5 devices before 5.10.122 mishandle Symbolic Link Following on SMB and AFP shares. This can lead to code execution and information disclosure (by reading local files).
+# Update 2021-06-18
+## CVE-2021-3560
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/piffd0s/CVE-2021-3310](https://github.com/piffd0s/CVE-2021-3310) :  ![starts](https://img.shields.io/github/stars/piffd0s/CVE-2021-3310.svg) ![forks](https://img.shields.io/github/forks/piffd0s/CVE-2021-3310.svg)
-
-
-## CVE-2020-24186
- A Remote Code Execution vulnerability exists in the gVectors wpDiscuz plugin 7.0 through 7.0.4 for WordPress, which allows unauthenticated users to upload any type of file, including PHP files via the wmuUploadFiles AJAX action.
-
-- [https://github.com/hevox/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE](https://github.com/hevox/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE) :  ![starts](https://img.shields.io/github/stars/hevox/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE.svg) ![forks](https://img.shields.io/github/forks/hevox/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE.svg)
+- [https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation](https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation) :  ![starts](https://img.shields.io/github/stars/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation.svg) ![forks](https://img.shields.io/github/forks/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation.svg)
 
 
-## CVE-2017-0143
- The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka &quot;Windows SMB Remote Code Execution Vulnerability.&quot; This vulnerability is different from those described in CVE-2017-0144, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
+## CVE-2020-17522
+ When ORT (now via atstccfg) generates ip_allow.config files in Apache Traffic Control 3.0.0 to 3.1.0 and 4.0.0 to 4.1.0, those files include permissions that allow bad actors to push arbitrary content into and remove arbitrary content from CDN cache servers. Additionally, these permissions are potentially extended to IP addresses outside the desired range, resulting in them being granted to clients possibly outside the CDN arcitechture.
 
-- [https://github.com/NatteeSetobol/Etern-blue-Windows-7-Checker](https://github.com/NatteeSetobol/Etern-blue-Windows-7-Checker) :  ![starts](https://img.shields.io/github/stars/NatteeSetobol/Etern-blue-Windows-7-Checker.svg) ![forks](https://img.shields.io/github/forks/NatteeSetobol/Etern-blue-Windows-7-Checker.svg)
+- [https://github.com/PwnCast/CVE-2020-17522](https://github.com/PwnCast/CVE-2020-17522) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-17522.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-17522.svg)
 
 
-## CVE-2015-4000
- The TLS protocol 1.2 and earlier, when a DHE_EXPORT ciphersuite is enabled on a server but not on a client, does not properly convey a DHE_EXPORT choice, which allows man-in-the-middle attackers to conduct cipher-downgrade attacks by rewriting a ClientHello with DHE replaced by DHE_EXPORT and then rewriting a ServerHello with DHE_EXPORT replaced by DHE, aka the &quot;Logjam&quot; issue.
+## CVE-2018-6574
+ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10rc2 allow &quot;go get&quot; remote command execution during source code build, by leveraging the gcc or clang plugin feature, because -fplugin= and -plugin= arguments were not blocked.
 
-- [https://github.com/fatlan/HAProxy-Keepalived-Sec-HighLoads](https://github.com/fatlan/HAProxy-Keepalived-Sec-HighLoads) :  ![starts](https://img.shields.io/github/stars/fatlan/HAProxy-Keepalived-Sec-HighLoads.svg) ![forks](https://img.shields.io/github/forks/fatlan/HAProxy-Keepalived-Sec-HighLoads.svg)
+- [https://github.com/repos13579/labCVE-2018-6574](https://github.com/repos13579/labCVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/repos13579/labCVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/repos13579/labCVE-2018-6574.svg)
+
+
+## CVE-2017-14980
+ Buffer overflow in Sync Breeze Enterprise 10.0.28 allows remote attackers to have unspecified impact via a long username parameter to /login.
+
+- [https://github.com/bmdyy/CVE-2017-14980](https://github.com/bmdyy/CVE-2017-14980) :  ![starts](https://img.shields.io/github/stars/bmdyy/CVE-2017-14980.svg) ![forks](https://img.shields.io/github/forks/bmdyy/CVE-2017-14980.svg)
+
+
+## CVE-2017-7670
+ The Traffic Router component of the incubating Apache Traffic Control project is vulnerable to a Slowloris style Denial of Service attack. TCP connections made on the configured DNS port will remain in the ESTABLISHED state until the client explicitly closes the connection or Traffic Router is restarted. If connections remain in the ESTABLISHED state indefinitely and accumulate in number to match the size of the thread pool dedicated to processing DNS requests, the thread pool becomes exhausted. Once the thread pool is exhausted, Traffic Router is unable to service any DNS request, regardless of transport protocol.
+
+- [https://github.com/PwnCast/CVE-2017-7670](https://github.com/PwnCast/CVE-2017-7670) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2017-7670.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2017-7670.svg)
 
