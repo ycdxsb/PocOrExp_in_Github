@@ -24173,6 +24173,13 @@
 
 - [https://github.com/davidlares/vsftpd-exploitation](https://github.com/davidlares/vsftpd-exploitation) :  ![starts](https://img.shields.io/github/stars/davidlares/vsftpd-exploitation.svg) ![forks](https://img.shields.io/github/forks/davidlares/vsftpd-exploitation.svg)
 
+## CVE-2011-2487
+ The implementations of PKCS#1 v1.5 key transport mechanism for XMLEncryption in JBossWS and Apache WSS4J before 1.6.5 is susceptible to a Bleichenbacher attack.
+
+
+
+- [https://github.com/PwnCast/CVE-2011-2487](https://github.com/PwnCast/CVE-2011-2487) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2011-2487.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2011-2487.svg)
+
 ## CVE-2011-2461
  Cross-site scripting (XSS) vulnerability in the Adobe Flex SDK 3.x and 4.x before 4.6 allows remote attackers to inject arbitrary web script or HTML via vectors related to the loading of modules from different domains.
 
@@ -24248,6 +24255,13 @@
 
 
 - [https://github.com/BrunoPujos/CVE-2011-1237](https://github.com/BrunoPujos/CVE-2011-1237) :  ![starts](https://img.shields.io/github/stars/BrunoPujos/CVE-2011-1237.svg) ![forks](https://img.shields.io/github/forks/BrunoPujos/CVE-2011-1237.svg)
+
+## CVE-2011-1096
+ The W3C XML Encryption Standard, as used in the JBoss Web Services (JBossWS) component in JBoss Enterprise Portal Platform before 5.2.2 and other products, when using block ciphers in cipher-block chaining (CBC) mode, allows remote attackers to obtain plaintext data via a chosen-ciphertext attack on SOAP responses, aka &quot;character encoding pattern attack.&quot;
+
+
+
+- [https://github.com/PwnCast/CVE-2011-1096](https://github.com/PwnCast/CVE-2011-1096) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2011-1096.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2011-1096.svg)
 
 ## CVE-2011-0228
  The Data Security component in Apple iOS before 4.2.10 and 4.3.x before 4.3.5 does not check the basicConstraints parameter during validation of X.509 certificate chains, which allows man-in-the-middle attackers to spoof an SSL server by using a non-CA certificate to sign a certificate for an arbitrary domain.
