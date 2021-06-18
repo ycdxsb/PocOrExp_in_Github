@@ -158,9 +158,9 @@
 
 - [https://github.com/Stick-U235/CVE-2015-7547](https://github.com/Stick-U235/CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/Stick-U235/CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/Stick-U235/CVE-2015-7547.svg)
 
-- [https://github.com/miracle03/CVE-2015-7547-master](https://github.com/miracle03/CVE-2015-7547-master) :  ![starts](https://img.shields.io/github/stars/miracle03/CVE-2015-7547-master.svg) ![forks](https://img.shields.io/github/forks/miracle03/CVE-2015-7547-master.svg)
-
 - [https://github.com/babykillerblack/CVE-2015-7547](https://github.com/babykillerblack/CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/babykillerblack/CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/babykillerblack/CVE-2015-7547.svg)
+
+- [https://github.com/miracle03/CVE-2015-7547-master](https://github.com/miracle03/CVE-2015-7547-master) :  ![starts](https://img.shields.io/github/stars/miracle03/CVE-2015-7547-master.svg) ![forks](https://img.shields.io/github/forks/miracle03/CVE-2015-7547-master.svg)
 
 - [https://github.com/JustDenisYT/glibc-patcher](https://github.com/JustDenisYT/glibc-patcher) :  ![starts](https://img.shields.io/github/stars/JustDenisYT/glibc-patcher.svg) ![forks](https://img.shields.io/github/forks/JustDenisYT/glibc-patcher.svg)
 
@@ -270,6 +270,13 @@
 
 
 - [https://github.com/CallMeJonas/CVE-2015-6576](https://github.com/CallMeJonas/CVE-2015-6576) :  ![starts](https://img.shields.io/github/stars/CallMeJonas/CVE-2015-6576.svg) ![forks](https://img.shields.io/github/forks/CallMeJonas/CVE-2015-6576.svg)
+
+## CVE-2015-6479
+ ACEmanager in Sierra Wireless ALEOS 4.4.2 and earlier on ES440, ES450, GX400, GX440, GX450, and LS300 devices allows remote attackers to read the filteredlogs.txt file, and consequently discover potentially sensitive boot-sequence information, via unspecified vectors.
+
+
+
+- [https://github.com/PwnCast/CVE-2015-6479](https://github.com/PwnCast/CVE-2015-6479) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2015-6479.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2015-6479.svg)
 
 ## CVE-2015-6357
  The rule-update feature in Cisco FireSIGHT Management Center (MC) 5.2 through 5.4.0.1 does not verify the X.509 certificate of the support.sourcefire.com SSL server, which allows man-in-the-middle attackers to spoof this server and provide an invalid package, and consequently execute arbitrary code, via a crafted certificate, aka Bug ID CSCuw06444.
@@ -401,12 +408,26 @@
 
 - [https://github.com/gsheller/ActiveMQ_CVE-2015-5254](https://github.com/gsheller/ActiveMQ_CVE-2015-5254) :  ![starts](https://img.shields.io/github/stars/gsheller/ActiveMQ_CVE-2015-5254.svg) ![forks](https://img.shields.io/github/forks/gsheller/ActiveMQ_CVE-2015-5254.svg)
 
+## CVE-2015-5253
+ The SAML Web SSO module in Apache CXF before 2.7.18, 3.0.x before 3.0.7, and 3.1.x before 3.1.3 allows remote authenticated users to bypass authentication via a crafted SAML response with a valid signed assertion, related to a &quot;wrapping attack.&quot;
+
+
+
+- [https://github.com/PwnCast/CVE-2015-5253](https://github.com/PwnCast/CVE-2015-5253) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2015-5253.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2015-5253.svg)
+
 ## CVE-2015-5195
  ntp_openssl.m4 in ntpd in NTP before 4.2.7p112 allows remote attackers to cause a denial of service (segmentation fault) via a crafted statistics or filegen configuration command that is not enabled during compilation.
 
 
 
 - [https://github.com/theglife214/CVE-2015-5195](https://github.com/theglife214/CVE-2015-5195) :  ![starts](https://img.shields.io/github/stars/theglife214/CVE-2015-5195.svg) ![forks](https://img.shields.io/github/forks/theglife214/CVE-2015-5195.svg)
+
+## CVE-2015-5175
+ Application plugins in Apache CXF Fediz before 1.1.3 and 1.2.x before 1.2.1 allow remote attackers to cause a denial of service.
+
+
+
+- [https://github.com/PwnCast/CVE-2015-5175](https://github.com/PwnCast/CVE-2015-5175) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2015-5175.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2015-5175.svg)
 
 ## CVE-2015-5119
  Use-after-free vulnerability in the ByteArray class in the ActionScript 3 (AS3) implementation in Adobe Flash Player 13.x through 13.0.0.296 and 14.x through 18.0.0.194 on Windows and OS X and 11.x through 11.2.202.468 on Linux allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted Flash content that overrides a valueOf function, as exploited in the wild in July 2015.
@@ -667,6 +688,20 @@
 
 - [https://github.com/6a6f6a6f/CVE-2015-2080](https://github.com/6a6f6a6f/CVE-2015-2080) :  ![starts](https://img.shields.io/github/stars/6a6f6a6f/CVE-2015-2080.svg) ![forks](https://img.shields.io/github/forks/6a6f6a6f/CVE-2015-2080.svg)
 
+## CVE-2015-1858
+ Multiple buffer overflows in gui/image/qbmphandler.cpp in the QtBase module in Qt before 4.8.7 and 5.x before 5.4.2 allow remote attackers to cause a denial of service (segmentation fault and crash) and possibly execute arbitrary code via a crafted BMP image.
+
+
+
+- [https://github.com/PwnCast/CVE-2015-1858](https://github.com/PwnCast/CVE-2015-1858) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2015-1858.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2015-1858.svg)
+
+## CVE-2015-1857
+ The odl-mdsal-apidocs feature in OpenDaylight Helium allow remote attackers to obtain sensitive information by leveraging missing AAA restrictions.
+
+
+
+- [https://github.com/PwnCast/CVE-2015-1857](https://github.com/PwnCast/CVE-2015-1857) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2015-1857.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2015-1857.svg)
+
 ## CVE-2015-1855
  verify_certificate_identity in the OpenSSL extension in Ruby before 2.0.0 patchlevel 645, 2.1.x before 2.1.6, and 2.2.x before 2.2.2 does not properly validate hostnames, which allows remote attackers to spoof servers via vectors related to (1) multiple wildcards, (1) wildcards in IDNA names, (3) case sensitivity, and (4) non-ASCII characters.
 
@@ -845,6 +880,13 @@
 - [https://github.com/sideeffect42/RootPipeTester](https://github.com/sideeffect42/RootPipeTester) :  ![starts](https://img.shields.io/github/stars/sideeffect42/RootPipeTester.svg) ![forks](https://img.shields.io/github/forks/sideeffect42/RootPipeTester.svg)
 
 - [https://github.com/Shmoopi/RootPipe-Demo](https://github.com/Shmoopi/RootPipe-Demo) :  ![starts](https://img.shields.io/github/stars/Shmoopi/RootPipe-Demo.svg) ![forks](https://img.shields.io/github/forks/Shmoopi/RootPipe-Demo.svg)
+
+## CVE-2015-0936
+ Ceragon FibeAir IP-10 have a default SSH public key in the authorized_keys file for the mateidu user, which allows remote attackers to obtain SSH access by leveraging knowledge of the private key.
+
+
+
+- [https://github.com/PwnCast/CVE-2015-0936](https://github.com/PwnCast/CVE-2015-0936) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2015-0936.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2015-0936.svg)
 
 ## CVE-2015-0816
  Mozilla Firefox before 37.0, Firefox ESR 31.x before 31.6, and Thunderbird before 31.6 do not properly restrict resource: URLs, which makes it easier for remote attackers to execute arbitrary JavaScript code with chrome privileges by leveraging the ability to bypass the Same Origin Policy, as demonstrated by the resource: URL associated with PDF.js.
