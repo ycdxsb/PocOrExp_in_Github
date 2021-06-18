@@ -23786,6 +23786,13 @@
 
 - [https://github.com/xckevin/AndroidWebviewInjectDemo](https://github.com/xckevin/AndroidWebviewInjectDemo) :  ![starts](https://img.shields.io/github/stars/xckevin/AndroidWebviewInjectDemo.svg) ![forks](https://img.shields.io/github/forks/xckevin/AndroidWebviewInjectDemo.svg)
 
+## CVE-2012-6093
+ The QSslSocket::sslErrors function in Qt before 4.6.5, 4.7.x before 4.7.6, 4.8.x before 4.8.5, when using certain versions of openSSL, uses an &quot;incompatible structure layout&quot; that can read memory from the wrong location, which causes Qt to report an incorrect error when certificate validation fails and might cause users to make unsafe security decisions to accept a certificate.
+
+
+
+- [https://github.com/PwnCast/CVE-2012-6093](https://github.com/PwnCast/CVE-2012-6093) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2012-6093.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2012-6093.svg)
+
 ## CVE-2012-6066
  freeSSHd.exe in freeSSHd through 1.2.6 allows remote attackers to bypass authentication via a crafted session, as demonstrated by an OpenSSH client with modified versions of ssh.c and sshconnect2.c.
 
@@ -23823,6 +23830,20 @@
 
 - [https://github.com/phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test) :  ![starts](https://img.shields.io/github/stars/phusion/rails-cve-2012-5664-test.svg) ![forks](https://img.shields.io/github/forks/phusion/rails-cve-2012-5664-test.svg)
 
+## CVE-2012-5633
+ The URIMappingInterceptor in Apache CXF before 2.5.8, 2.6.x before 2.6.5, and 2.7.x before 2.7.2, when using the WSS4JInInterceptor, bypasses WS-Security processing, which allows remote attackers to obtain access to SOAP services via an HTTP GET request.
+
+
+
+- [https://github.com/PwnCast/CVE-2012-5633](https://github.com/PwnCast/CVE-2012-5633) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2012-5633.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2012-5633.svg)
+
+## CVE-2012-5624
+ The XMLHttpRequest object in Qt before 4.8.4 enables http redirection to the file scheme, which allows man-in-the-middle attackers to force the read of arbitrary local files and possibly obtain sensitive information via a file: URL to a QML application.
+
+
+
+- [https://github.com/PwnCast/CVE-2012-5624](https://github.com/PwnCast/CVE-2012-5624) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2012-5624.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2012-5624.svg)
+
 ## CVE-2012-5613
  ** DISP
 
@@ -23836,6 +23857,8 @@
  Apache CXF 2.5.x before 2.5.10, 2.6.x before CXF 2.6.7, and 2.7.x before CXF 2.7.4 does not verify that a specified cryptographic algorithm is allowed by the WS-SecurityPolicy AlgorithmSuite definition before decrypting, which allows remote attackers to force CXF to use weaker cryptographic algorithms than intended and makes it easier to decrypt communications, aka &quot;XML Encryption backwards compatibility attack.&quot;
 
 
+
+- [https://github.com/PwnCast/CVE-2012-5575](https://github.com/PwnCast/CVE-2012-5575) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2012-5575.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2012-5575.svg)
 
 - [https://github.com/tafamace/CVE-2012-5575](https://github.com/tafamace/CVE-2012-5575) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2012-5575.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2012-5575.svg)
 
@@ -23901,6 +23924,13 @@
 
 - [https://github.com/d4rkcat/killosx](https://github.com/d4rkcat/killosx) :  ![starts](https://img.shields.io/github/stars/d4rkcat/killosx.svg) ![forks](https://img.shields.io/github/forks/d4rkcat/killosx.svg)
 
+## CVE-2012-3451
+ Apache CXF before 2.4.9, 2.5.x before 2.5.5, and 2.6.x before 2.6.2 allows remote attackers to execute unintended web-service operations by sending a header with a SOAP Action String that is inconsistent with the message body.
+
+
+
+- [https://github.com/PwnCast/CVE-2012-3451](https://github.com/PwnCast/CVE-2012-3451) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2012-3451.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2012-3451.svg)
+
 ## CVE-2012-3153
  Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fusion Middleware 11.1.1.4, 11.1.1.6, and 11.1.2.0 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Servlet.  NOTE: the previous information is from the October 2012 CPU. Oracle has not commented on claims from the original researcher that the PARSEQUERY function allows remote attackers to obtain database credentials via reports/rwservlet/parsequery, and that this issue occurs in earlier versions.  NOTE: this can be leveraged with CVE-2012-3152 to execute arbitrary code by uploading a .jsp file.
 
@@ -23943,6 +23973,20 @@
 
 
 - [https://github.com/shelld3v/CVE-2012-2688](https://github.com/shelld3v/CVE-2012-2688) :  ![starts](https://img.shields.io/github/stars/shelld3v/CVE-2012-2688.svg) ![forks](https://img.shields.io/github/forks/shelld3v/CVE-2012-2688.svg)
+
+## CVE-2012-2379
+ Apache CXF 2.4.x before 2.4.8, 2.5.x before 2.5.4, and 2.6.x before 2.6.1, when a Supporting Token specifies a child WS-SecurityPolicy 1.1 or 1.2 policy, does not properly ensure that an XML element is signed or encrypted, which has unspecified impact and attack vectors.
+
+
+
+- [https://github.com/PwnCast/CVE-2012-2379](https://github.com/PwnCast/CVE-2012-2379) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2012-2379.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2012-2379.svg)
+
+## CVE-2012-2378
+ Apache CXF 2.4.5 through 2.4.7, 2.5.1 through 2.5.3, and 2.6.x before 2.6.1, does not properly enforce child policies of a WS-SecurityPolicy 1.1 SupportingToken policy on the client side, which allows remote attackers to bypass the (1) AlgorithmSuite, (2) SignedParts, (3) SignedElements, (4) EncryptedParts, and (5) EncryptedElements policies.
+
+
+
+- [https://github.com/PwnCast/CVE-2012-2378](https://github.com/PwnCast/CVE-2012-2378) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2012-2378.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2012-2378.svg)
 
 ## CVE-2012-2122
  sql/password.c in Oracle MySQL 5.1.x before 5.1.63, 5.5.x before 5.5.24, and 5.6.x before 5.6.6, and MariaDB 5.1.x before 5.1.62, 5.2.x before 5.2.12, 5.3.x before 5.3.6, and 5.5.x before 5.5.23, when running in certain environments with certain implementations of the memcmp function, allows remote attackers to bypass authentication by repeatedly authenticating with the same incorrect password, which eventually causes a token comparison to succeed due to an improperly-checked return value.
@@ -23995,6 +24039,13 @@
 
 
 - [https://github.com/bongbongco/CVE-2012-1675](https://github.com/bongbongco/CVE-2012-1675) :  ![starts](https://img.shields.io/github/stars/bongbongco/CVE-2012-1675.svg) ![forks](https://img.shields.io/github/forks/bongbongco/CVE-2012-1675.svg)
+
+## CVE-2012-0803
+ The WS-SP UsernameToken policy in Apache CXF 2.4.5 and 2.5.1 allows remote attackers to bypass authentication by sending an empty UsernameToken as part of a SOAP request.
+
+
+
+- [https://github.com/PwnCast/CVE-2012-0803](https://github.com/PwnCast/CVE-2012-0803) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2012-0803.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2012-0803.svg)
 
 ## CVE-2012-0507
  Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, and 5.0 Update 33 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Concurrency.  NOTE: the previous information was obtained from the February 2012 Oracle CPU. Oracle has not commented on claims from a downstream vendor and third party researchers that this issue occurs because the AtomicReferenceArray class implementation does not ensure that the array is of the Object[] type, which allows attackers to cause a denial of service (JVM crash) or bypass Java sandbox restrictions.  NOTE: this issue was originally mapped to CVE-2011-3571, but that identifier was already assigned to a different issue.
