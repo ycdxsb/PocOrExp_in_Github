@@ -14,6 +14,13 @@
 
 - [https://github.com/tagatac/linux-CVE-2006-4814](https://github.com/tagatac/linux-CVE-2006-4814) :  ![starts](https://img.shields.io/github/stars/tagatac/linux-CVE-2006-4814.svg) ![forks](https://img.shields.io/github/forks/tagatac/linux-CVE-2006-4814.svg)
 
+## CVE-2006-4811
+ Integer overflow in Qt 3.3 before 3.3.7, 4.1 before 4.1.5, and 4.2 before 4.2.1, as used in the KDE khtml library, kdelibs 3.1.3, and possibly other packages, allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a crafted pixmap image.
+
+
+
+- [https://github.com/PwnCast/CVE-2006-4811](https://github.com/PwnCast/CVE-2006-4811) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2006-4811.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2006-4811.svg)
+
 ## CVE-2006-4777
  Heap-based buffer overflow in the DirectAnimation Path Control (DirectAnimation.PathControl) COM object (daxctle.ocx) for Internet Explorer 6.0 SP1, on Chinese and possibly other Windows distributions, allows remote attackers to execute arbitrary code via unknown manipulations in arguments to the KeyFrame method, possibly related to an integer overflow, as demonstrated by daxctle2, and a different vulnerability than CVE-2006-4446.
 
