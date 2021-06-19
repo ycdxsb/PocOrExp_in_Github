@@ -1,3 +1,10 @@
+## CVE-2020-36385
+ An issue was discovered in the Linux kernel before 5.10. drivers/infiniband/core/ucma.c has a use-after-free because the ctx is reached via the ctx_list in some ucma_migrate_id situations where ucma_close is called, aka CID-f5449e74802c.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-36385](https://github.com/PwnCast/CVE-2020-36385) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-36385.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-36385.svg)
+
 ## CVE-2020-36188
  FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.JNDIConnectionSource.
 
@@ -32,6 +39,34 @@
 
 
 - [https://github.com/azizalshammari/CVE-2020-36079.](https://github.com/azizalshammari/CVE-2020-36079.) :  ![starts](https://img.shields.io/github/stars/azizalshammari/CVE-2020-36079..svg) ![forks](https://img.shields.io/github/forks/azizalshammari/CVE-2020-36079..svg)
+
+## CVE-2020-35762
+ bloofoxCMS 0.5.2.1 is infected with Path traversal in the 'fileurl' parameter that allows attackers to read local files.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-35762](https://github.com/PwnCast/CVE-2020-35762) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-35762.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-35762.svg)
+
+## CVE-2020-35761
+ bloofoxCMS 0.5.2.1 is infected with XSS that allows remote attackers to execute arbitrary JS/HTML Code.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-35761](https://github.com/PwnCast/CVE-2020-35761) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-35761.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-35761.svg)
+
+## CVE-2020-35760
+ bloofoxCMS 0.5.2.1 is infected with Unrestricted File Upload that allows attackers to upload malicious files (ex: php files).
+
+
+
+- [https://github.com/PwnCast/CVE-2020-35760](https://github.com/PwnCast/CVE-2020-35760) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-35760.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-35760.svg)
+
+## CVE-2020-35759
+ bloofoxCMS 0.5.2.1 is infected with a CSRF Attack that leads to an attacker editing any file content (Locally/Remotely).
+
+
+
+- [https://github.com/PwnCast/CVE-2020-35759](https://github.com/PwnCast/CVE-2020-35759) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-35759.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-35759.svg)
 
 ## CVE-2020-35729
  KLog Server 2.4.1 allows OS command injection via shell metacharacters in the actions/authenticate.php user parameter.
@@ -105,6 +140,13 @@
 
 - [https://github.com/GuillaumePetit84/CVE-2020-35488](https://github.com/GuillaumePetit84/CVE-2020-35488) :  ![starts](https://img.shields.io/github/stars/GuillaumePetit84/CVE-2020-35488.svg) ![forks](https://img.shields.io/github/forks/GuillaumePetit84/CVE-2020-35488.svg)
 
+## CVE-2020-35452
+ Apache HTTP Server versions 2.4.0 to 2.4.46 A specially crafted Digest nonce can cause a stack overflow in mod_auth_digest. There is no report of this overflow being exploitable, nor the Apache HTTP Server team could create one, though some particular compiler and/or compilation option might make it possible, with limited consequences anyway due to the size (a single byte) and the value (zero byte) of the overflow
+
+
+
+- [https://github.com/PwnCast/CVE-2020-35452](https://github.com/PwnCast/CVE-2020-35452) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-35452.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-35452.svg)
+
 ## CVE-2020-35262
  Cross Site Scripting (XSS) vulnerability in Digisol DG-HR3400 can be exploited via the NTP server name in Time and date module and &quot;Keyword&quot; in URL Filter.
 
@@ -139,6 +181,20 @@
 
 
 - [https://github.com/ruppde/scan_CVE-2020-29583](https://github.com/ruppde/scan_CVE-2020-29583) :  ![starts](https://img.shields.io/github/stars/ruppde/scan_CVE-2020-29583.svg) ![forks](https://img.shields.io/github/forks/ruppde/scan_CVE-2020-29583.svg)
+
+## CVE-2020-29582
+ In JetBrains Kotlin before 1.4.21, a vulnerable Java API was used for temporary file and folder creation. An attacker was able to read data from such files and list directories due to insecure permissions.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-29582](https://github.com/PwnCast/CVE-2020-29582) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-29582.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-29582.svg)
+
+## CVE-2020-29445
+ Affected versions of Confluence Server before 7.4.8, and versions from 7.5.0 before 7.11.0 allow attackers to identify internal hosts and ports via a blind server-side request forgery vulnerability in Team Calendars parameters.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-29445](https://github.com/PwnCast/CVE-2020-29445) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-29445.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-29445.svg)
 
 ## CVE-2020-29364
  In NetArt News Lister 1.0.0, the news headlines vulnerable to stored xss attacks. Attackers can inject codes in news titles.
@@ -368,9 +424,9 @@
 
 - [https://github.com/IanSmith123/CVE-2020-27955](https://github.com/IanSmith123/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/IanSmith123/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/IanSmith123/CVE-2020-27955.svg)
 
-- [https://github.com/yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc) :  ![starts](https://img.shields.io/github/stars/yhsung/cve-2020-27955-poc.svg) ![forks](https://img.shields.io/github/forks/yhsung/cve-2020-27955-poc.svg)
-
 - [https://github.com/qzyqzynb/CVE-2020-27955](https://github.com/qzyqzynb/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/qzyqzynb/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/qzyqzynb/CVE-2020-27955.svg)
+
+- [https://github.com/yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc) :  ![starts](https://img.shields.io/github/stars/yhsung/cve-2020-27955-poc.svg) ![forks](https://img.shields.io/github/forks/yhsung/cve-2020-27955-poc.svg)
 
 - [https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST](https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST) :  ![starts](https://img.shields.io/github/stars/SilverSkyFlyingFeather/CVE-2020-27955-TEST.svg) ![forks](https://img.shields.io/github/forks/SilverSkyFlyingFeather/CVE-2020-27955-TEST.svg)
 
@@ -437,6 +493,27 @@
 
 - [https://github.com/hannob/CVE-2020-27603-bbb-libreoffice-poc](https://github.com/hannob/CVE-2020-27603-bbb-libreoffice-poc) :  ![starts](https://img.shields.io/github/stars/hannob/CVE-2020-27603-bbb-libreoffice-poc.svg) ![forks](https://img.shields.io/github/forks/hannob/CVE-2020-27603-bbb-libreoffice-poc.svg)
 
+## CVE-2020-27402
+ The HK1 Box S905X3 TV Box contains a vulnerability that allows a local unprivileged user to escalate to root using the /system/xbin/su binary via a serial port (UART) connection or using adb.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-27402](https://github.com/PwnCast/CVE-2020-27402) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-27402.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-27402.svg)
+
+## CVE-2020-27384
+ The Gw2-64.exe in Guild Wars 2 launcher version 106916 suffers from an elevation of privileges vulnerability which can be used by an &quot;Authenticated User&quot; to modify the existing executable file with a binary of his choice. The vulnerability exist due to the improper permissions, with the 'F' flag (Full Control) for 'Everyone' group, making the entire directory 'Guild Wars 2' and its files and sub-dirs world-writable.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-27384](https://github.com/PwnCast/CVE-2020-27384) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-27384.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-27384.svg)
+
+## CVE-2020-27383
+ Battle.net.exe in Battle.Net 1.27.1.12428 suffers from an elevation of privileges vulnerability which can be used by an &quot;Authenticated User&quot; to modify the existing executable file with a binary of his choice. The vulnerability exist due to weak set of permissions being granted to the &quot;Authenticated Users Group&quot; which grants the (F) Flag aka &quot;Full Control&quot;
+
+
+
+- [https://github.com/PwnCast/CVE-2020-27383](https://github.com/PwnCast/CVE-2020-27383) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-27383.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-27383.svg)
+
 ## CVE-2020-27368
  Directory Indexing in Login Portal of Login Portal of TOTOLINK-A702R-V1.0.0-B20161227.1023 allows attacker to access /icons/ directories via GET Parameter.
 
@@ -488,6 +565,48 @@
 
 - [https://github.com/qlh831/x-CVE-2020-27190](https://github.com/qlh831/x-CVE-2020-27190) :  ![starts](https://img.shields.io/github/stars/qlh831/x-CVE-2020-27190.svg) ![forks](https://img.shields.io/github/forks/qlh831/x-CVE-2020-27190.svg)
 
+## CVE-2020-26837
+ SAP Solution Manager 7.2 (User Experience Monitoring), version - 7.2, allows an authenticated user to upload a malicious script that can exploit an existing path traversal vulnerability to compromise confidentiality exposing elements of the file system, partially compromise integrity allowing the modification of some configurations and partially compromise availability by making certain services unavailable.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-26837](https://github.com/PwnCast/CVE-2020-26837) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-26837.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-26837.svg)
+
+## CVE-2020-26836
+ SAP Solution Manager (Trace Analysis), version - 720, allows for misuse of a parameter in the application URL leading to Open Redirect vulnerability, an attacker can enter a link to malicious site which could trick the user to enter credentials or download malicious software, as a parameter in the application URL and share it with the end user who could potentially become a victim of the attack.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-26836](https://github.com/PwnCast/CVE-2020-26836) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-26836.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-26836.svg)
+
+## CVE-2020-26830
+ SAP Solution Manager 7.2 (User Experience Monitoring), version - 7.2, does not perform necessary authorization checks for an authenticated user. Due to inadequate access control, a network attacker authenticated as a regular user can use operations which should be restricted to administrators. These operations can be used to Change the User Experience Monitoring configuration, obtain details about the configured SAP Solution Manager agents, Deploy a malicious User Experience Monitoring script.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-26830](https://github.com/PwnCast/CVE-2020-26830) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-26830.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-26830.svg)
+
+## CVE-2020-26829
+ SAP NetWeaver AS JAVA (P2P Cluster Communication), versions - 7.11, 7.20, 7.30, 7.31, 7.40, 7.50, allows arbitrary connections from processes because of missing authentication check, that are outside the cluster and even outside the network segment dedicated for the internal cluster communication. As result, an unauthenticated attacker can invoke certain functions that would otherwise be restricted to system administrators only, including access to system administration functions or shutting down the system completely.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-26829](https://github.com/PwnCast/CVE-2020-26829) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-26829.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-26829.svg)
+
+## CVE-2020-26811
+ SAP Commerce Cloud (Accelerator Payment Mock), versions - 1808, 1811, 1905, 2005, allows an unauthenticated attacker to submit a crafted request over a network to a particular SAP Commerce module URL which will be processed without further interaction, the crafted request leads to Server Side Request Forgery attack which could lead to retrieval of limited pieces of information about the service with no impact on integrity or availability.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-26811](https://github.com/PwnCast/CVE-2020-26811) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-26811.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-26811.svg)
+
+## CVE-2020-26809
+ SAP Commerce Cloud, versions- 1808,1811,1905,2005, allows an attacker to bypass existing authentication and permission checks via the '/medias' endpoint hence gaining access to Secure Media folders. This folder could contain sensitive files that results in disclosure of sensitive information and impact system configuration confidentiality.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-26809](https://github.com/PwnCast/CVE-2020-26809) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-26809.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-26809.svg)
+
 ## CVE-2020-26733
  Cross Site Scripting (XSS) in Configuration page in SKYWORTH GN542VF Hardware Version 2.0 and Software Version 2.0.0.16 allows authenticated attacker to inject their own script into the page via DDNS Configuration Section.
 
@@ -522,6 +641,13 @@
 
 
 - [https://github.com/lukaszstu/SmartAsset-SQLinj-CVE-2020-26525](https://github.com/lukaszstu/SmartAsset-SQLinj-CVE-2020-26525) :  ![starts](https://img.shields.io/github/stars/lukaszstu/SmartAsset-SQLinj-CVE-2020-26525.svg) ![forks](https://img.shields.io/github/forks/lukaszstu/SmartAsset-SQLinj-CVE-2020-26525.svg)
+
+## CVE-2020-26515
+ An insufficiently protected credentials issue was discovered in Intland codeBeamer ALM 10.x through 10.1.SP4. The remember-me cookie (CB_LOGIN) issued by the application contains the encrypted user's credentials. However, due to a bug in the application code, those credentials are encrypted using a NULL encryption key.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-26515](https://github.com/PwnCast/CVE-2020-26515) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-26515.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-26515.svg)
 
 ## CVE-2020-26259
  XStream is a Java library to serialize objects to XML and back again. In XStream before version 1.4.15, is vulnerable to an Arbitrary File Deletion on the local host when unmarshalling. The vulnerability may allow a remote attacker to delete arbitrary know files on the host as log as the executing process has sufficient rights only by manipulating the processed input stream. If you rely on XStream's default blacklist of the Security Framework, you will have to use at least version 1.4.15. The reported vulnerability does not exist running Java 15 or higher. No user is affected, who followed the recommendation to setup XStream's Security Framework with a whitelist! Anyone relying on XStream's default blacklist can immediately switch to a whilelist for the allowed types to avoid the vulnerability. Users of XStream 1.4.14 or below who still want to use XStream default blacklist can use a workaround described in more detailed in the referenced advisories.
@@ -562,6 +688,41 @@
 
 - [https://github.com/Al1ex/CVE-2020-26217](https://github.com/Al1ex/CVE-2020-26217) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2020-26217.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2020-26217.svg)
 
+## CVE-2020-26155
+ Multiple files and folders in Utimaco SecurityServer 4.20.0.4 and 4.31.1.0. are installed with Read/Write permissions for authenticated users, which allows for binaries to be manipulated by non-administrator users. Additionally, entries are made to the PATH environment variable which, in conjunction with these weak permissions, could enable an attacker to perform a DLL hijacking attack.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-26155](https://github.com/PwnCast/CVE-2020-26155) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-26155.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-26155.svg)
+
+## CVE-2020-26138
+ In SilverStripe through 4.6.0-rc1, a FormField with square brackets in the field name skips validation.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-26138](https://github.com/PwnCast/CVE-2020-26138) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-26138.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-26138.svg)
+
+## CVE-2020-26137
+ urllib3 before 1.25.9 allows CRLF injection if the attacker controls the HTTP request method, as demonstrated by inserting CR and LF control characters in the first argument of putrequest(). NOTE: this is similar to CVE-2020-26116.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-26137](https://github.com/PwnCast/CVE-2020-26137) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-26137.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-26137.svg)
+
+## CVE-2020-26136
+ In SilverStripe through 4.6.0-rc1, GraphQL doesn't honour MFA (multi-factor authentication) when using basic authentication.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-26136](https://github.com/PwnCast/CVE-2020-26136) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-26136.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-26136.svg)
+
+## CVE-2020-26116
+ http.client in Python 3.x before 3.5.10, 3.6.x before 3.6.12, 3.7.x before 3.7.9, and 3.8.x before 3.8.5 allows CRLF injection if the attacker controls the HTTP request method, as demonstrated by inserting CR and LF control characters in the first argument of HTTPConnection.request.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-26137](https://github.com/PwnCast/CVE-2020-26137) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-26137.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-26137.svg)
+
 ## CVE-2020-26061
  ClickStudios Passwordstate Password Reset Portal prior to build 8501 is affected by an authentication bypass vulnerability. The ResetPassword function does not validate whether the user has successfully authenticated using security questions. An unauthenticated, remote attacker can send a crafted HTTP request to the /account/ResetPassword page to set a new password for any registered user.
 
@@ -582,6 +743,13 @@
 
 
 - [https://github.com/rauc/rauc-1.5-integration](https://github.com/rauc/rauc-1.5-integration) :  ![starts](https://img.shields.io/github/stars/rauc/rauc-1.5-integration.svg) ![forks](https://img.shields.io/github/forks/rauc/rauc-1.5-integration.svg)
+
+## CVE-2020-25817
+ SilverStripe through 4.6.0-rc1 has an XXE Vulnerability in CSSContentParser. A developer utility meant for parsing HTML within unit tests can be vulnerable to XML External Entity (XXE) attacks. When this developer utility is misused for purposes involving external or user submitted data in custom project code, it can lead to vulnerabilities such as XSS on HTML output rendered through this custom code. This is now mitigated by disabling external entities during parsing. (The correct CVE ID year is 2020 [CVE-2020-25817, not CVE-2021-25817]).
+
+
+
+- [https://github.com/PwnCast/CVE-2020-25817](https://github.com/PwnCast/CVE-2020-25817) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-25817.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-25817.svg)
 
 ## CVE-2020-25790
  ** DISPUTED ** Typesetter CMS 5.x through 5.1 allows admins to upload and execute arbitrary PHP code via a .php file inside a ZIP archive. NOTE: the vendor disputes the significance of this report because &quot;admins are considered trustworthy&quot;; however, the behavior &quot;contradicts our security policy&quot; and is being fixed for 5.2.
@@ -680,6 +848,13 @@
 
 
 - [https://github.com/brahmiboudjema/CVE-2020-25637-libvirt-double-free](https://github.com/brahmiboudjema/CVE-2020-25637-libvirt-double-free) :  ![starts](https://img.shields.io/github/stars/brahmiboudjema/CVE-2020-25637-libvirt-double-free.svg) ![forks](https://img.shields.io/github/forks/brahmiboudjema/CVE-2020-25637-libvirt-double-free.svg)
+
+## CVE-2020-25627
+ The moodlenetprofile user profile field required extra sanitizing to prevent a stored XSS risk. This affects versions 3.9 to 3.9.1. Fixed in 3.9.2.
+
+
+
+- [https://github.com/HoangKien1020/CVE-2020-25627](https://github.com/HoangKien1020/CVE-2020-25627) :  ![starts](https://img.shields.io/github/stars/HoangKien1020/CVE-2020-25627.svg) ![forks](https://img.shields.io/github/forks/HoangKien1020/CVE-2020-25627.svg)
 
 ## CVE-2020-25540
  ThinkAdmin v6 is affected by a directory traversal vulnerability. An unauthorized attacker can read arbitrarily file on a remote server via GET request encode parameter.
@@ -872,6 +1047,13 @@
 
 - [https://github.com/Al1ex/CVE-2020-24750](https://github.com/Al1ex/CVE-2020-24750) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2020-24750.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2020-24750.svg)
 
+## CVE-2020-24662
+ SmartStream Transaction Lifecycle Management (TLM) Reconciliation Premium (RP) &lt;3.1.0 allows XSS. This was fixed in TLM RP 3.1.0.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-24662](https://github.com/PwnCast/CVE-2020-24662) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-24662.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-24662.svg)
+
 ## CVE-2020-24616
  FasterXML jackson-databind 2.x before 2.9.10.6 mishandles the interaction between serialization gadgets and typing, related to br.com.anteros.dbcp.AnterosDBCPDataSource (aka Anteros-DBCP).
 
@@ -894,6 +1076,20 @@
 - [https://github.com/lb0x/cve-2020-24572](https://github.com/lb0x/cve-2020-24572) :  ![starts](https://img.shields.io/github/stars/lb0x/cve-2020-24572.svg) ![forks](https://img.shields.io/github/forks/lb0x/cve-2020-24572.svg)
 
 - [https://github.com/gerbsec/CVE-2020-24572-POC](https://github.com/gerbsec/CVE-2020-24572-POC) :  ![starts](https://img.shields.io/github/stars/gerbsec/CVE-2020-24572-POC.svg) ![forks](https://img.shields.io/github/forks/gerbsec/CVE-2020-24572-POC.svg)
+
+## CVE-2020-24515
+ Protection mechanism failure in some Intel(R) RealSense(TM) IDs may allow an unauthenticated user to potentially enable escalation of privilege via physical access.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-24515](https://github.com/PwnCast/CVE-2020-24515) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-24515.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-24515.svg)
+
+## CVE-2020-24514
+ Improper authentication in some Intel(R) RealSense(TM) IDs may allow an unauthenticated user to potentially enable escalation of privilege via physical access.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-24514](https://github.com/PwnCast/CVE-2020-24514) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-24514.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-24514.svg)
 
 ## CVE-2020-24397
  An issue was discovered in the client side of Zoho ManageEngine Desktop Central 10.0.0.SP-534. An attacker-controlled server can trigger an integer overflow in InternetSendRequestEx and InternetSendRequestByBitrate that leads to a heap-based buffer overflow and Remote Code Execution with SYSTEM privileges.
@@ -1014,6 +1210,97 @@
 
 - [https://github.com/DXY0411/CVE-2020-23342](https://github.com/DXY0411/CVE-2020-23342) :  ![starts](https://img.shields.io/github/stars/DXY0411/CVE-2020-23342.svg) ![forks](https://img.shields.io/github/forks/DXY0411/CVE-2020-23342.svg)
 
+## CVE-2020-23323
+ There is a heap-buffer-overflow at re-parser.c in re_parse_char_escape in JerryScript 2.2.0.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-23323](https://github.com/PwnCast/CVE-2020-23323) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-23323.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-23323.svg)
+
+## CVE-2020-23322
+ There is an Assertion in 'context_p-&gt;token.type == LEXER_RIGHT_BRACE || context_p-&gt;token.type == LEXER_ASSIGN || context_p-&gt;token.type == LEXER_COMMA' in parser_parse_object_initializer in JerryScript 2.2.0.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-23322](https://github.com/PwnCast/CVE-2020-23322) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-23322.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-23322.svg)
+
+## CVE-2020-23321
+ There is a heap-buffer-overflow at lit-strings.c:431 in lit_read_code_unit_from_utf8 in JerryScript 2.2.0.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-23321](https://github.com/PwnCast/CVE-2020-23321) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-23321.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-23321.svg)
+
+## CVE-2020-23319
+ There is an Assertion in '(flags &gt;&gt; CBC_STACK_ADJUST_SHIFT) &gt;= CBC_STACK_ADJUST_BASE || (CBC_STACK_ADJUST_BASE - (flags &gt;&gt; CBC_STACK_ADJUST_SHIFT)) &lt;= context_p-&gt;stack_depth' in parser_emit_cbc_backward_branch in JerryScript 2.2.0.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-23319](https://github.com/PwnCast/CVE-2020-23319) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-23319.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-23319.svg)
+
+## CVE-2020-23314
+ There is an Assertion 'block_found' failed at js-parser-statm.c:2003 parser_parse_try_statement_end in JerryScript 2.2.0.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-23314](https://github.com/PwnCast/CVE-2020-23314) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-23314.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-23314.svg)
+
+## CVE-2020-23313
+ There is an Assertion 'scope_stack_p &gt; context_p-&gt;scope_stack_p' failed at js-scanner-util.c:2510 in scanner_literal_is_created in JerryScript 2.2.0
+
+
+
+- [https://github.com/PwnCast/CVE-2020-23313](https://github.com/PwnCast/CVE-2020-23313) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-23313.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-23313.svg)
+
+## CVE-2020-23312
+ There is an Assertion 'context.status_flags &amp; PARSER_SCANNING_SUCCESSFUL' failed at js-parser.c:2185 in parser_parse_source in JerryScript 2.2.0.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-23312](https://github.com/PwnCast/CVE-2020-23312) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-23312.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-23312.svg)
+
+## CVE-2020-23311
+ There is an Assertion 'context_p-&gt;token.type == LEXER_RIGHT_BRACE || context_p-&gt;token.type == LEXER_ASSIGN || context_p-&gt;token.type == LEXER_COMMA' failed at js-parser-expr.c:3230 in parser_parse_object_initializer in JerryScript 2.2.0.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-23311](https://github.com/PwnCast/CVE-2020-23311) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-23311.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-23311.svg)
+
+## CVE-2020-23310
+ There is an Assertion 'context_p-&gt;next_scanner_info_p-&gt;type == SCANNER_TYPE_FUNCTION' failed at js-parser-statm.c:733 in parser_parse_function_statement in JerryScript 2.2.0.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-23310](https://github.com/PwnCast/CVE-2020-23310) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-23310.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-23310.svg)
+
+## CVE-2020-23309
+ There is an Assertion 'context_p-&gt;stack_depth == context_p-&gt;context_stack_depth' failed at js-parser-statm.c:2756 in parser_parse_statements in JerryScript 2.2.0.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-23309](https://github.com/PwnCast/CVE-2020-23309) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-23309.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-23309.svg)
+
+## CVE-2020-23308
+ There is an Assertion 'context_p-&gt;stack_top_uint8 == LEXER_EXPRESSION_START' at js-parser-expr.c:3565 in parser_parse_expression in JerryScript 2.2.0.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-23308](https://github.com/PwnCast/CVE-2020-23308) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-23308.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-23308.svg)
+
+## CVE-2020-23306
+ There is a stack-overflow at ecma-regexp-object.c:535 in ecma_regexp_match in JerryScript 2.2.0.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-23306](https://github.com/PwnCast/CVE-2020-23306) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-23306.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-23306.svg)
+
+## CVE-2020-23303
+ There is a heap-buffer-overflow at jmem-poolman.c:165 in jmem_pools_collect_empty in JerryScript 2.2.0.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-23303](https://github.com/PwnCast/CVE-2020-23303) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-23303.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-23303.svg)
+
 ## CVE-2020-23162
  Sensitive information disclosure and weak encryption in Pyrescom Termod4 time management devices before 10.04k allows remote attackers to read a session-file and obtain plain-text user credentials.
 
@@ -1035,6 +1322,27 @@
 
 - [https://github.com/Outpost24/Pyrescom-Termod-PoC](https://github.com/Outpost24/Pyrescom-Termod-PoC) :  ![starts](https://img.shields.io/github/stars/Outpost24/Pyrescom-Termod-PoC.svg) ![forks](https://img.shields.io/github/forks/Outpost24/Pyrescom-Termod-PoC.svg)
 
+## CVE-2020-22790
+ Authenticated Stored XSS in FME Server versions 2019.2 and 2020.0 Beta allows a remote attacker to execute codeby injecting arbitrary web script or HTML via modifying the name of the users. The XSS is executed when an administrator access the logs.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-22790](https://github.com/PwnCast/CVE-2020-22790) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-22790.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-22790.svg)
+
+## CVE-2020-22789
+ Unauthenticated Stored XSS in FME Server versions 2019.2 and 2020.0 Beta allows a remote attacker to gain admin privileges by injecting arbitrary web script or HTML via the login page. The XSS is executed when an administrator accesses the logs.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-22789](https://github.com/PwnCast/CVE-2020-22789) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-22789.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-22789.svg)
+
+## CVE-2020-22200
+ Directory Traversal vulnerability in phpCMS 9.1.13 via the q parameter to public_get_suggest_keyword.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-22200](https://github.com/PwnCast/CVE-2020-22200) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-22200.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-22200.svg)
+
 ## CVE-2020-21224
  A Remote Code Execution vulnerability has been found in Inspur ClusterEngine V4.0. A remote attacker can send a malicious login packet to the control server
 
@@ -1048,6 +1356,13 @@
 
 
 - [https://github.com/3mrgnc3/Moodle_3.9_RCE_AutoPwn](https://github.com/3mrgnc3/Moodle_3.9_RCE_AutoPwn) :  ![starts](https://img.shields.io/github/stars/3mrgnc3/Moodle_3.9_RCE_AutoPwn.svg) ![forks](https://img.shields.io/github/forks/3mrgnc3/Moodle_3.9_RCE_AutoPwn.svg)
+
+## CVE-2020-20178
+ Ethereum 0xe933c0cd9784414d5f278c114904f5a84b396919#code.sol latest version is affected by a denial of service vulnerability in the affected payout function. Once the length of this array is too long, it will result in an exception. Attackers can make attacks by creating a series of account addresses.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-20178](https://github.com/PwnCast/CVE-2020-20178) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-20178.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-20178.svg)
 
 ## CVE-2020-19364
  OpenEMR 5.0.1 allows an authenticated attacker to upload and execute malicious PHP scripts through /controller.php.
@@ -1464,6 +1779,34 @@
 
 - [https://github.com/inflixim4be/CVE-2020-15392](https://github.com/inflixim4be/CVE-2020-15392) :  ![starts](https://img.shields.io/github/stars/inflixim4be/CVE-2020-15392.svg) ![forks](https://img.shields.io/github/forks/inflixim4be/CVE-2020-15392.svg)
 
+## CVE-2020-15386
+ Brocade Fabric OS prior to v9.0.1a and 8.2.3a and after v9.0.0 and 8.2.2d may observe high CPU load during security scanning, which could lead to a slower response to CLI commands and other operations.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-15386](https://github.com/PwnCast/CVE-2020-15386) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-15386.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-15386.svg)
+
+## CVE-2020-15383
+ Running security scans against the SAN switch can cause config and secnotify processes within the firmware before Brocade Fabric OS v9.0.0, v8.2.2d and v8.2.1e to consume all memory leading to denial of service impacts possibly including a switch panic.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-15383](https://github.com/PwnCast/CVE-2020-15383) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-15383.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-15383.svg)
+
+## CVE-2020-15382
+ Brocade SANnav before version 2.1.1 uses a hard-coded administrator account with the weak password &#8216;passw0rd&#8217; if a password is not provided for PostgreSQL at install-time.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-15382](https://github.com/PwnCast/CVE-2020-15382) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-15382.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-15382.svg)
+
+## CVE-2020-15379
+ Brocade SANnav before v.2.1.0a could allow remote attackers cause a denial-of-service condition due to a lack of proper validation, of the length of user-supplied data as name for custom field name.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-15379](https://github.com/PwnCast/CVE-2020-15379) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-15379.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-15379.svg)
+
 ## CVE-2020-15367
  Venki Supravizio BPM 10.1.2 does not limit the number of authentication attempts. An unauthenticated user may exploit this vulnerability to launch a brute-force authentication attack against the Login page.
 
@@ -1783,6 +2126,13 @@
 
 - [https://github.com/cgwalters/cve-2020-14386](https://github.com/cgwalters/cve-2020-14386) :  ![starts](https://img.shields.io/github/stars/cgwalters/cve-2020-14386.svg) ![forks](https://img.shields.io/github/forks/cgwalters/cve-2020-14386.svg)
 
+## CVE-2020-14380
+ An account takeover flaw was found in Red Hat Satellite 6.7.2 onward. A potential attacker with proper authentication to the relevant external authentication source (SSO or Open ID) can claim the privileges of already existing local users of Satellite.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-14380](https://github.com/PwnCast/CVE-2020-14380) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-14380.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-14380.svg)
+
 ## CVE-2020-14372
  A flaw was found in grub2 in versions prior to 2.06, where it incorrectly enables the usage of the ACPI command when Secure Boot is enabled. This flaw allows an attacker with privileged access to craft a Secondary System Description Table (SSDT) containing code to overwrite the Linux kernel lockdown variable content directly into memory. The table is further loaded and executed by the kernel, defeating its Secure Boot lockdown and allowing the attacker to load unsigned code. The highest threat from this vulnerability is to data confidentiality and integrity, as well as system availability.
 
@@ -1943,6 +2293,20 @@
 
 - [https://github.com/s-index/CVE-2020-13957](https://github.com/s-index/CVE-2020-13957) :  ![starts](https://img.shields.io/github/stars/s-index/CVE-2020-13957.svg) ![forks](https://img.shields.io/github/forks/s-index/CVE-2020-13957.svg)
 
+## CVE-2020-13954
+ By default, Apache CXF creates a /services page containing a listing of the available endpoint names and addresses. This webpage is vulnerable to a reflected Cross-Site Scripting (XSS) attack via the styleSheetPath, which allows a malicious actor to inject javascript into the web page. This vulnerability affects all versions of Apache CXF prior to 3.4.1 and 3.3.8. Please note that this is a separate issue to CVE-2019-17573.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-13954](https://github.com/PwnCast/CVE-2020-13954) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-13954.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-13954.svg)
+
+## CVE-2020-13950
+ Apache HTTP Server versions 2.4.41 to 2.4.46 mod_proxy_http can be made to crash (NULL pointer dereference) with specially crafted requests using both Content-Length and Transfer-Encoding headers, leading to a Denial of Service
+
+
+
+- [https://github.com/PwnCast/CVE-2020-13950](https://github.com/PwnCast/CVE-2020-13950) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-13950.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-13950.svg)
+
 ## CVE-2020-13942
  It is possible to inject malicious OGNL or MVEL scripts into the /context.json public endpoint. This was partially fixed in 1.5.1 but a new attack vector was found. In Apache Unomi version 1.5.2 scripts are now completely filtered from the input. It is highly recommended to upgrade to the latest available version of the 1.5.x release to fix this problem.
 
@@ -1963,6 +2327,13 @@
 - [https://github.com/1135/unomi_exploit](https://github.com/1135/unomi_exploit) :  ![starts](https://img.shields.io/github/stars/1135/unomi_exploit.svg) ![forks](https://img.shields.io/github/forks/1135/unomi_exploit.svg)
 
 - [https://github.com/hoanx4/apche_unomi_rce](https://github.com/hoanx4/apche_unomi_rce) :  ![starts](https://img.shields.io/github/stars/hoanx4/apche_unomi_rce.svg) ![forks](https://img.shields.io/github/forks/hoanx4/apche_unomi_rce.svg)
+
+## CVE-2020-13938
+ Apache HTTP Server versions 2.4.0 to 2.4.46 Unprivileged local users can stop httpd on Windows
+
+
+
+- [https://github.com/PwnCast/CVE-2020-13938](https://github.com/PwnCast/CVE-2020-13938) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-13938.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-13938.svg)
 
 ## CVE-2020-13937
  Apache Kylin 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.3.2, 2.4.0, 2.4.1, 2.5.0, 2.5.1, 2.5.2, 2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.6.4, 2.6.5, 2.6.6, 3.0.0-alpha, 3.0.0-alpha2, 3.0.0-beta, 3.0.0, 3.0.1, 3.0.2, 3.1.0, 4.0.0-alpha has one restful api which exposed Kylin's configuration information without any authentication, so it is dangerous because some confidential information entries will be disclosed to everyone.
@@ -2535,6 +2906,118 @@
 
 - [https://github.com/zhzyker/CVE-2020-11444](https://github.com/zhzyker/CVE-2020-11444) :  ![starts](https://img.shields.io/github/stars/zhzyker/CVE-2020-11444.svg) ![forks](https://img.shields.io/github/forks/zhzyker/CVE-2020-11444.svg)
 
+## CVE-2020-11306
+ Possible integer overflow in RPMB counter due to lack of length check on user provided data in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wired Infrastructure and Networking
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11306](https://github.com/PwnCast/CVE-2020-11306) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11306.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11306.svg)
+
+## CVE-2020-11304
+ Possible out of bound read in DRM due to improper buffer length check. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wired Infrastructure and Networking
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11304](https://github.com/PwnCast/CVE-2020-11304) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11304.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11304.svg)
+
+## CVE-2020-11298
+ While waiting for a response to a callback or listener request, non-secure clients can change permissions to shared memory buffers used by HLOS Invoke Call to secure kernel in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wired Infrastructure and Networking
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11298](https://github.com/PwnCast/CVE-2020-11298) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11298.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11298.svg)
+
+## CVE-2020-11267
+ Stack out-of-bounds write occurs while setting up a cipher device if the provided IV length exceeds the max limit value in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11267](https://github.com/PwnCast/CVE-2020-11267) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11267.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11267.svg)
+
+## CVE-2020-11266
+ Image address is dereferenced before validating its range which can cause potential QSEE information leakage in Snapdragon Wired Infrastructure and Networking
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11266](https://github.com/PwnCast/CVE-2020-11266) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11266.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11266.svg)
+
+## CVE-2020-11265
+ Information disclosure issue due to lack of validation of pointer arguments passed to TZ BSP in Snapdragon Wired Infrastructure and Networking
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11265](https://github.com/PwnCast/CVE-2020-11265) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11265.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11265.svg)
+
+## CVE-2020-11262
+ A race between command submission and destroying the context can cause an invalid context being added to the list leads to use after free issue. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11262](https://github.com/PwnCast/CVE-2020-11262) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11262.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11262.svg)
+
+## CVE-2020-11261
+ Memory corruption due to improper check to return error when user application requests memory allocation of a huge size in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11261](https://github.com/PwnCast/CVE-2020-11261) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11261.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11261.svg)
+
+## CVE-2020-11259
+ Memory corruption due to lack of validation of pointer arguments passed to Trustzone BSP in Snapdragon Wired Infrastructure and Networking
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11259](https://github.com/PwnCast/CVE-2020-11259) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11259.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11259.svg)
+
+## CVE-2020-11258
+ Memory corruption due to lack of validation of pointer arguments passed to Trustzone BSP in Snapdragon Wired Infrastructure and Networking
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11258](https://github.com/PwnCast/CVE-2020-11258) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11258.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11258.svg)
+
+## CVE-2020-11257
+ Memory corruption due to lack of validation of pointer arguments passed to TrustZone BSP in Snapdragon Wired Infrastructure and Networking
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11257](https://github.com/PwnCast/CVE-2020-11257) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11257.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11257.svg)
+
+## CVE-2020-11256
+ Memory corruption due to lack of check of validation of pointer to buffer passed to trustzone in Snapdragon Wired Infrastructure and Networking
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11256](https://github.com/PwnCast/CVE-2020-11256) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11256.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11256.svg)
+
+## CVE-2020-11239
+ Use after free issue when importing a DMA buffer by using the CPU address of the buffer due to attachment is not cleaned up properly in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11239](https://github.com/PwnCast/CVE-2020-11239) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11239.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11239.svg)
+
+## CVE-2020-11238
+ Possible Buffer over-read in ARP/NS parsing due to lack of check of packet length received in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wired Infrastructure and Networking
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11238](https://github.com/PwnCast/CVE-2020-11238) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11238.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11238.svg)
+
+## CVE-2020-11235
+ Buffer overflow might occur while parsing unified command due to lack of check of input data received in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wired Infrastructure and Networking
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11235](https://github.com/PwnCast/CVE-2020-11235) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11235.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11235.svg)
+
+## CVE-2020-11176
+ While processing server certificate from IPSec server, certificate validation for subject alternative name API can cause heap overflow which can lead to memory corruption in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile
+
+
+
+- [https://github.com/PwnCast/CVE-2020-11176](https://github.com/PwnCast/CVE-2020-11176) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-11176.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-11176.svg)
+
 ## CVE-2020-11113
  FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.openjpa.ee.WASRegistryManagedRuntime (aka openjpa).
 
@@ -2635,11 +3118,11 @@
 
 - [https://github.com/JustMichi/CVE-2020-10977.py](https://github.com/JustMichi/CVE-2020-10977.py) :  ![starts](https://img.shields.io/github/stars/JustMichi/CVE-2020-10977.py.svg) ![forks](https://img.shields.io/github/forks/JustMichi/CVE-2020-10977.py.svg)
 
+- [https://github.com/lisp3r/cve-2020-10977-read-and-execute](https://github.com/lisp3r/cve-2020-10977-read-and-execute) :  ![starts](https://img.shields.io/github/stars/lisp3r/cve-2020-10977-read-and-execute.svg) ![forks](https://img.shields.io/github/forks/lisp3r/cve-2020-10977-read-and-execute.svg)
+
 - [https://github.com/nickvdyck/gitlab-cve-2020-10977](https://github.com/nickvdyck/gitlab-cve-2020-10977) :  ![starts](https://img.shields.io/github/stars/nickvdyck/gitlab-cve-2020-10977.svg) ![forks](https://img.shields.io/github/forks/nickvdyck/gitlab-cve-2020-10977.svg)
 
 - [https://github.com/JayHerlth/cve-2020-10977](https://github.com/JayHerlth/cve-2020-10977) :  ![starts](https://img.shields.io/github/stars/JayHerlth/cve-2020-10977.svg) ![forks](https://img.shields.io/github/forks/JayHerlth/cve-2020-10977.svg)
-
-- [https://github.com/lisp3r/cve-2020-10977-read-and-execute](https://github.com/lisp3r/cve-2020-10977-read-and-execute) :  ![starts](https://img.shields.io/github/stars/lisp3r/cve-2020-10977-read-and-execute.svg) ![forks](https://img.shields.io/github/forks/lisp3r/cve-2020-10977-read-and-execute.svg)
 
 - [https://github.com/erk3/gitlab-12.9.0-file-read](https://github.com/erk3/gitlab-12.9.0-file-read) :  ![starts](https://img.shields.io/github/stars/erk3/gitlab-12.9.0-file-read.svg) ![forks](https://img.shields.io/github/forks/erk3/gitlab-12.9.0-file-read.svg)
 
@@ -2764,9 +3247,9 @@
 
 - [https://github.com/zhzyker/CVE-2020-10199_POC-EXP](https://github.com/zhzyker/CVE-2020-10199_POC-EXP) :  ![starts](https://img.shields.io/github/stars/zhzyker/CVE-2020-10199_POC-EXP.svg) ![forks](https://img.shields.io/github/forks/zhzyker/CVE-2020-10199_POC-EXP.svg)
 
-- [https://github.com/jas502n/CVE-2020-10199](https://github.com/jas502n/CVE-2020-10199) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-10199.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-10199.svg)
-
 - [https://github.com/aleenzz/CVE-2020-10199](https://github.com/aleenzz/CVE-2020-10199) :  ![starts](https://img.shields.io/github/stars/aleenzz/CVE-2020-10199.svg) ![forks](https://img.shields.io/github/forks/aleenzz/CVE-2020-10199.svg)
+
+- [https://github.com/jas502n/CVE-2020-10199](https://github.com/jas502n/CVE-2020-10199) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-10199.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-10199.svg)
 
 - [https://github.com/magicming200/CVE-2020-10199_CVE-2020-10204](https://github.com/magicming200/CVE-2020-10199_CVE-2020-10204) :  ![starts](https://img.shields.io/github/stars/magicming200/CVE-2020-10199_CVE-2020-10204.svg) ![forks](https://img.shields.io/github/forks/magicming200/CVE-2020-10199_CVE-2020-10204.svg)
 
@@ -2910,6 +3393,20 @@
 
 
 - [https://github.com/ggolawski/CVE-2020-9495](https://github.com/ggolawski/CVE-2020-9495) :  ![starts](https://img.shields.io/github/stars/ggolawski/CVE-2020-9495.svg) ![forks](https://img.shields.io/github/forks/ggolawski/CVE-2020-9495.svg)
+
+## CVE-2020-9489
+ A carefully crafted or corrupt file may trigger a System.exit in Tika's OneNote Parser. Crafted or corrupted files can also cause out of memory errors and/or infinite loops in Tika's ICNSParser, MP3Parser, MP4Parser, SAS7BDATParser, OneNoteParser and ImageParser. Apache Tika users should upgrade to 1.24.1 or later. The vulnerabilities in the MP4Parser were partially fixed by upgrading the com.googlecode:isoparser:1.1.22 dependency to org.tallison:isoparser:1.9.41.2. For unrelated security reasons, we upgraded org.apache.cxf to 3.3.6 as part of the 1.24.1 release.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-9489](https://github.com/PwnCast/CVE-2020-9489) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-9489.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-9489.svg)
+
+## CVE-2020-9488
+ Improper validation of certificate with host mismatch in Apache Log4j SMTP appender. This could allow an SMTPS connection to be intercepted by a man-in-the-middle attack which could leak any log messages sent through that appender.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-9488](https://github.com/PwnCast/CVE-2020-9488) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-9488.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-9488.svg)
 
 ## CVE-2020-9484
  When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.5.0 to 8.5.54 and 7.0.0 to 7.0.103 if a) an attacker is able to control the contents and name of a file on the server; and b) the server is configured to use the PersistenceManager with a FileStore; and c) the PersistenceManager is configured with sessionAttributeValueClassNameFilter=&quot;null&quot; (the default unless a SecurityManager is used) or a sufficiently lax filter to allow the attacker provided object to be deserialized; and d) the attacker knows the relative file path from the storage location used by FileStore to the file the attacker has control over; then, using a specifically crafted request, the attacker will be able to trigger remote code execution via deserialization of the file under their control. Note that all of conditions a) to d) must be true for the attack to succeed.
@@ -3596,6 +4093,13 @@
 
 - [https://github.com/ossf-cve-benchmark/CVE-2020-7752](https://github.com/ossf-cve-benchmark/CVE-2020-7752) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2020-7752.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2020-7752.svg)
 
+## CVE-2020-7751
+ pathval before version 1.1.1 is vulnerable to prototype pollution.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-7751](https://github.com/PwnCast/CVE-2020-7751) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-7751.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-7751.svg)
+
 ## CVE-2020-7750
  This affects the package scratch-svg-renderer before 0.2.0-prerelease.20201019174008. The loadString function does not escape SVG properly, which can be used to inject arbitrary elements into the DOM via the _transformMeasurements function.
 
@@ -3682,9 +4186,9 @@
 
 - [https://github.com/SNCKER/CVE-2020-7471](https://github.com/SNCKER/CVE-2020-7471) :  ![starts](https://img.shields.io/github/stars/SNCKER/CVE-2020-7471.svg) ![forks](https://img.shields.io/github/forks/SNCKER/CVE-2020-7471.svg)
 
-- [https://github.com/Tempuss/CTF_CVE-2020-7471](https://github.com/Tempuss/CTF_CVE-2020-7471) :  ![starts](https://img.shields.io/github/stars/Tempuss/CTF_CVE-2020-7471.svg) ![forks](https://img.shields.io/github/forks/Tempuss/CTF_CVE-2020-7471.svg)
-
 - [https://github.com/huzaifakhan771/CVE-2020-7471-Django](https://github.com/huzaifakhan771/CVE-2020-7471-Django) :  ![starts](https://img.shields.io/github/stars/huzaifakhan771/CVE-2020-7471-Django.svg) ![forks](https://img.shields.io/github/forks/huzaifakhan771/CVE-2020-7471-Django.svg)
+
+- [https://github.com/Tempuss/CTF_CVE-2020-7471](https://github.com/Tempuss/CTF_CVE-2020-7471) :  ![starts](https://img.shields.io/github/stars/Tempuss/CTF_CVE-2020-7471.svg) ![forks](https://img.shields.io/github/forks/Tempuss/CTF_CVE-2020-7471.svg)
 
 - [https://github.com/secoba/DjVul_StringAgg](https://github.com/secoba/DjVul_StringAgg) :  ![starts](https://img.shields.io/github/stars/secoba/DjVul_StringAgg.svg) ![forks](https://img.shields.io/github/forks/secoba/DjVul_StringAgg.svg)
 
@@ -3744,6 +4248,8 @@
 
 - [https://github.com/jopraveen/CVE-2020-7247](https://github.com/jopraveen/CVE-2020-7247) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2020-7247.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2020-7247.svg)
 
+- [https://github.com/f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247) :  ![starts](https://img.shields.io/github/stars/f4T1H21/CVE-2020-7247.svg) ![forks](https://img.shields.io/github/forks/f4T1H21/CVE-2020-7247.svg)
+
 ## CVE-2020-7246
  A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An attacker can upload a malicious PHP code file via the profile photo functionality, by leveraging a path traversal vulnerability in the users['photop_preview'] delete photo feature, allowing bypass of .htaccess protection. NOTE: this issue exists because of an incomplete fix for CVE-2015-3884.
 
@@ -3778,6 +4284,13 @@
 
 
 - [https://github.com/ElmouradiAmine/CVE-2020-7048](https://github.com/ElmouradiAmine/CVE-2020-7048) :  ![starts](https://img.shields.io/github/stars/ElmouradiAmine/CVE-2020-7048.svg) ![forks](https://img.shields.io/github/forks/ElmouradiAmine/CVE-2020-7048.svg)
+
+## CVE-2020-6994
+ A buffer overflow vulnerability was found in some devices of Hirschmann Automation and Control HiOS and HiSecOS. The vulnerability is due to improper parsing of URL arguments. An attacker could exploit this vulnerability by specially crafting HTTP requests to overflow an internal buffer. The following devices using HiOS Version 07.0.02 and lower are affected: RSP, RSPE, RSPS, RSPL, MSP, EES, EES, EESX, GRS, OS, RED. The following devices using HiSecOS Version 03.2.00 and lower are affected: EAGLE20/30.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-6994](https://github.com/PwnCast/CVE-2020-6994) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-6994.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-6994.svg)
 
 ## CVE-2020-6888
  ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2020. Notes: none.
@@ -3846,6 +4359,20 @@
 
 - [https://github.com/Jabri1/cve-2020_6418-exploit](https://github.com/Jabri1/cve-2020_6418-exploit) :  ![starts](https://img.shields.io/github/stars/Jabri1/cve-2020_6418-exploit.svg) ![forks](https://img.shields.io/github/forks/Jabri1/cve-2020_6418-exploit.svg)
 
+## CVE-2020-6369
+ SAP Solution Manager and SAP Focused Run (update provided in WILY_INTRO_ENTERPRISE 9.7, 10.1, 10.5, 10.7), allows an unauthenticated attackers to bypass the authentication if the default passwords for Admin and Guest have not been changed by the administrator.This may impact the confidentiality of the service.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-6369](https://github.com/PwnCast/CVE-2020-6369) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-6369.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-6369.svg)
+
+## CVE-2020-6364
+ SAP Solution Manager and SAP Focused Run (update provided in WILY_INTRO_ENTERPRISE 9.7, 10.1, 10.5, 10.7), allows an attacker to modify a cookie in a way that OS commands can be executed and potentially gain control over the host running the CA Introscope Enterprise Manager,leading to Code Injection. With this, the attacker is able to read and modify all system files and also impact system availability.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-6364](https://github.com/PwnCast/CVE-2020-6364) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-6364.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-6364.svg)
+
 ## CVE-2020-6308
  SAP BusinessObjects Business Intelligence Platform (Web Services) versions - 410, 420, 430, allows an unauthenticated attacker to inject arbitrary values as CMS parameters to perform lookups on the internal network which is otherwise not accessible externally. On successful exploitation, attacker can scan internal network to determine internal infrastructure and gather information for further attacks like remote file inclusion, retrieve server files, bypass firewall and force the vulnerable server to perform malicious requests, resulting in a Server-Side Request Forgery vulnerability.
 
@@ -3887,6 +4414,8 @@
 
 
 - [https://github.com/chipik/SAP_EEM_CVE-2020-6207](https://github.com/chipik/SAP_EEM_CVE-2020-6207) :  ![starts](https://img.shields.io/github/stars/chipik/SAP_EEM_CVE-2020-6207.svg) ![forks](https://img.shields.io/github/forks/chipik/SAP_EEM_CVE-2020-6207.svg)
+
+- [https://github.com/PwnCast/CVE-2020-6207](https://github.com/PwnCast/CVE-2020-6207) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-6207.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-6207.svg)
 
 ## CVE-2020-6096
  An exploitable signed comparison vulnerability exists in the ARMv7 memcpy() implementation of GNU glibc 2.30.9000. Calling memcpy() (on ARMv7 targets that utilize the GNU glibc implementation) with a negative value for the 'num' parameter results in a signed comparison vulnerability. If an attacker underflows the 'num' parameter to memcpy(), this vulnerability could lead to undefined behavior such as writing to out-of-bounds memory and potentially remote code execution. Furthermore, this memcpy() implementation allows for program execution to continue in scenarios where a segmentation fault or crash should have occurred. The dangers occur in that subsequent execution and iterations of this code will be executed with this corrupted data.
@@ -3967,6 +4496,8 @@
 
 - [https://github.com/jinnywc/CVE-2020-5902](https://github.com/jinnywc/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/jinnywc/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/jinnywc/CVE-2020-5902.svg)
 
+- [https://github.com/haisenberg/CVE-2020-5902](https://github.com/haisenberg/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/haisenberg/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/haisenberg/CVE-2020-5902.svg)
+
 - [https://github.com/0xAbdullah/CVE-2020-5902](https://github.com/0xAbdullah/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/0xAbdullah/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/0xAbdullah/CVE-2020-5902.svg)
 
 - [https://github.com/qlkwej/poc-CVE-2020-5902](https://github.com/qlkwej/poc-CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/qlkwej/poc-CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/qlkwej/poc-CVE-2020-5902.svg)
@@ -3989,8 +4520,6 @@
 
 - [https://github.com/qiong-qi/CVE-2020-5902-POC](https://github.com/qiong-qi/CVE-2020-5902-POC) :  ![starts](https://img.shields.io/github/stars/qiong-qi/CVE-2020-5902-POC.svg) ![forks](https://img.shields.io/github/forks/qiong-qi/CVE-2020-5902-POC.svg)
 
-- [https://github.com/haisenberg/CVE-2020-5902](https://github.com/haisenberg/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/haisenberg/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/haisenberg/CVE-2020-5902.svg)
-
 - [https://github.com/k3nundrum/CVE-2020-5902](https://github.com/k3nundrum/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/k3nundrum/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/k3nundrum/CVE-2020-5902.svg)
 
 - [https://github.com/ajdumanhug/CVE-2020-5902](https://github.com/ajdumanhug/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/ajdumanhug/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/ajdumanhug/CVE-2020-5902.svg)
@@ -4007,9 +4536,9 @@
 
 - [https://github.com/freeFV/CVE-2020-5902-fofa-scan](https://github.com/freeFV/CVE-2020-5902-fofa-scan) :  ![starts](https://img.shields.io/github/stars/freeFV/CVE-2020-5902-fofa-scan.svg) ![forks](https://img.shields.io/github/forks/freeFV/CVE-2020-5902-fofa-scan.svg)
 
-- [https://github.com/inho28/CVE-2020-5902-F5-BIGIP](https://github.com/inho28/CVE-2020-5902-F5-BIGIP) :  ![starts](https://img.shields.io/github/stars/inho28/CVE-2020-5902-F5-BIGIP.svg) ![forks](https://img.shields.io/github/forks/inho28/CVE-2020-5902-F5-BIGIP.svg)
-
 - [https://github.com/Any3ite/CVE-2020-5902-F5BIG](https://github.com/Any3ite/CVE-2020-5902-F5BIG) :  ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2020-5902-F5BIG.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2020-5902-F5BIG.svg)
+
+- [https://github.com/inho28/CVE-2020-5902-F5-BIGIP](https://github.com/inho28/CVE-2020-5902-F5-BIGIP) :  ![starts](https://img.shields.io/github/stars/inho28/CVE-2020-5902-F5-BIGIP.svg) ![forks](https://img.shields.io/github/forks/inho28/CVE-2020-5902-F5-BIGIP.svg)
 
 - [https://github.com/halencarjunior/f5scan](https://github.com/halencarjunior/f5scan) :  ![starts](https://img.shields.io/github/stars/halencarjunior/f5scan.svg) ![forks](https://img.shields.io/github/forks/halencarjunior/f5scan.svg)
 
@@ -4521,6 +5050,13 @@
 
 - [https://github.com/ggolawski/CVE-2020-1958](https://github.com/ggolawski/CVE-2020-1958) :  ![starts](https://img.shields.io/github/stars/ggolawski/CVE-2020-1958.svg) ![forks](https://img.shields.io/github/forks/ggolawski/CVE-2020-1958.svg)
 
+## CVE-2020-1954
+ Apache CXF has the ability to integrate with JMX by registering an InstrumentationManager extension with the CXF bus. If the &#8216;createMBServerConnectorFactory&#8216; property of the default InstrumentationManagerImpl is not disabled, then it is vulnerable to a man-in-the-middle (MITM) style attack. An attacker on the same host can connect to the registry and rebind the entry to another server, thus acting as a proxy to the original. They are then able to gain access to all of the information that is sent and received over JMX.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-1954](https://github.com/PwnCast/CVE-2020-1954) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-1954.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-1954.svg)
+
 ## CVE-2020-1948
  This vulnerability can affect all Dubbo users stay on version 2.7.6 or lower. An attacker can send RPC requests with unrecognized service name or method name along with some malicious parameter payloads. When the malicious parameter is deserialized, it will execute some malicious code. More details can be found below.
 
@@ -4632,6 +5168,27 @@
 
 - [https://github.com/jpts/cve-2020-1764-poc](https://github.com/jpts/cve-2020-1764-poc) :  ![starts](https://img.shields.io/github/stars/jpts/cve-2020-1764-poc.svg) ![forks](https://img.shields.io/github/forks/jpts/cve-2020-1764-poc.svg)
 
+## CVE-2020-1742
+ An insecure modification vulnerability flaw was found in containers using nmstate/kubernetes-nmstate-handler. An attacker with access to the container could use this flaw to modify /etc/passwd and escalate their privileges. Versions before kubernetes-nmstate-handler-container-v2.3.0-30 are affected.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-1742](https://github.com/PwnCast/CVE-2020-1742) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-1742.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-1742.svg)
+
+## CVE-2020-1719
+ A flaw was found in wildfly. The EJBContext principle is not popped back after invoking another EJB using a different Security Domain. The highest threat from this vulnerability is to data confidentiality and integrity. Versions before wildfly 20.0.0.Final are affected.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-1719](https://github.com/PwnCast/CVE-2020-1719) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-1719.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-1719.svg)
+
+## CVE-2020-1690
+ An improper authorization flaw was discovered in openstack-selinux's applied policy where it does not prevent a non-root user in a container from privilege escalation. A non-root attacker in one or more Red Hat OpenStack (RHOSP) containers could send messages to the dbus. With access to the dbus, the attacker could start or stop services, possibly causing a denial of service. Versions before openstack-selinux 0.8.24 are affected.
+
+
+
+- [https://github.com/PwnCast/CVE-2020-1690](https://github.com/PwnCast/CVE-2020-1690) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2020-1690.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2020-1690.svg)
+
 ## CVE-2020-1611
  A Local File Inclusion vulnerability in Juniper Networks Junos Space allows an attacker to view all files on the target when the device receives malicious HTTP packets. This issue affects: Juniper Networks Junos Space versions prior to 19.4R1.
 
@@ -4742,21 +5299,21 @@
 
 - [https://github.com/t31m0/CVE-2020-1472](https://github.com/t31m0/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/t31m0/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/t31m0/CVE-2020-1472.svg)
 
-- [https://github.com/mos165/CVE-20200-1472](https://github.com/mos165/CVE-20200-1472) :  ![starts](https://img.shields.io/github/stars/mos165/CVE-20200-1472.svg) ![forks](https://img.shields.io/github/forks/mos165/CVE-20200-1472.svg)
-
-- [https://github.com/SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/SaharAttackit/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/SaharAttackit/CVE-2020-1472.svg)
-
 - [https://github.com/CanciuCostin/CVE-2020-1472](https://github.com/CanciuCostin/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/CanciuCostin/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/CanciuCostin/CVE-2020-1472.svg)
 
 - [https://github.com/midpipps/CVE-2020-1472-Easy](https://github.com/midpipps/CVE-2020-1472-Easy) :  ![starts](https://img.shields.io/github/stars/midpipps/CVE-2020-1472-Easy.svg) ![forks](https://img.shields.io/github/forks/midpipps/CVE-2020-1472-Easy.svg)
 
-- [https://github.com/b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/b1ack0wl/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/b1ack0wl/CVE-2020-1472.svg)
+- [https://github.com/mos165/CVE-20200-1472](https://github.com/mos165/CVE-20200-1472) :  ![starts](https://img.shields.io/github/stars/mos165/CVE-20200-1472.svg) ![forks](https://img.shields.io/github/forks/mos165/CVE-20200-1472.svg)
+
+- [https://github.com/SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/SaharAttackit/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/SaharAttackit/CVE-2020-1472.svg)
 
 - [https://github.com/Tobey123/CVE-2020-1472-visualizer](https://github.com/Tobey123/CVE-2020-1472-visualizer) :  ![starts](https://img.shields.io/github/stars/Tobey123/CVE-2020-1472-visualizer.svg) ![forks](https://img.shields.io/github/forks/Tobey123/CVE-2020-1472-visualizer.svg)
 
-- [https://github.com/grupooruss/CVE-2020-1472](https://github.com/grupooruss/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/grupooruss/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/grupooruss/CVE-2020-1472.svg)
+- [https://github.com/b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/b1ack0wl/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/b1ack0wl/CVE-2020-1472.svg)
 
 - [https://github.com/Fa1c0n35/CVE-2020-1472-02-](https://github.com/Fa1c0n35/CVE-2020-1472-02-) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472-02-.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472-02-.svg)
+
+- [https://github.com/grupooruss/CVE-2020-1472](https://github.com/grupooruss/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/grupooruss/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/grupooruss/CVE-2020-1472.svg)
 
 - [https://github.com/johnpathe/zerologon-cve-2020-1472-notes](https://github.com/johnpathe/zerologon-cve-2020-1472-notes) :  ![starts](https://img.shields.io/github/stars/johnpathe/zerologon-cve-2020-1472-notes.svg) ![forks](https://img.shields.io/github/forks/johnpathe/zerologon-cve-2020-1472-notes.svg)
 
@@ -5146,19 +5703,19 @@
 
 - [https://github.com/ORCA666/CVE-2020-0796](https://github.com/ORCA666/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/ORCA666/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/ORCA666/CVE-2020-0796.svg)
 
+- [https://github.com/TinToSer/CVE-2020-0796-LPE](https://github.com/TinToSer/CVE-2020-0796-LPE) :  ![starts](https://img.shields.io/github/stars/TinToSer/CVE-2020-0796-LPE.svg) ![forks](https://img.shields.io/github/forks/TinToSer/CVE-2020-0796-LPE.svg)
+
+- [https://github.com/section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/section-c/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/section-c/CVE-2020-0796.svg)
+
 - [https://github.com/intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/intelliroot-tech/cve-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/intelliroot-tech/cve-2020-0796-Scanner.svg)
 
 - [https://github.com/Ken-Abruzzi/cve_2020_0796](https://github.com/Ken-Abruzzi/cve_2020_0796) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve_2020_0796.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve_2020_0796.svg)
 
-- [https://github.com/section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/section-c/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/section-c/CVE-2020-0796.svg)
-
-- [https://github.com/TinToSer/CVE-2020-0796-LPE](https://github.com/TinToSer/CVE-2020-0796-LPE) :  ![starts](https://img.shields.io/github/stars/TinToSer/CVE-2020-0796-LPE.svg) ![forks](https://img.shields.io/github/forks/TinToSer/CVE-2020-0796-LPE.svg)
-
-- [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
-
 - [https://github.com/tripledd/cve-2020-0796-vuln](https://github.com/tripledd/cve-2020-0796-vuln) :  ![starts](https://img.shields.io/github/stars/tripledd/cve-2020-0796-vuln.svg) ![forks](https://img.shields.io/github/forks/tripledd/cve-2020-0796-vuln.svg)
 
 - [https://github.com/halsten/CVE-2020-0796](https://github.com/halsten/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/halsten/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/halsten/CVE-2020-0796.svg)
+
+- [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
 
 - [https://github.com/5l1v3r1/smbghost-5](https://github.com/5l1v3r1/smbghost-5) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/smbghost-5.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/smbghost-5.svg)
 
@@ -5407,9 +5964,9 @@
 
 - [https://github.com/thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl) :  ![starts](https://img.shields.io/github/stars/thimelp/cve-2020-0601-Perl.svg) ![forks](https://img.shields.io/github/forks/thimelp/cve-2020-0601-Perl.svg)
 
-- [https://github.com/apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/apmunch/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/apmunch/CVE-2020-0601.svg)
-
 - [https://github.com/Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/Ash112121/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/Ash112121/CVE-2020-0601.svg)
+
+- [https://github.com/apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/apmunch/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/apmunch/CVE-2020-0601.svg)
 
 - [https://github.com/JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/JPurrier/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/JPurrier/CVE-2020-0601.svg)
 
@@ -5514,9 +6071,9 @@
 
 - [https://github.com/j4nn/CVE-2020-0041](https://github.com/j4nn/CVE-2020-0041) :  ![starts](https://img.shields.io/github/stars/j4nn/CVE-2020-0041.svg) ![forks](https://img.shields.io/github/forks/j4nn/CVE-2020-0041.svg)
 
-- [https://github.com/minutesinch/CVE-2020-0041](https://github.com/minutesinch/CVE-2020-0041) :  ![starts](https://img.shields.io/github/stars/minutesinch/CVE-2020-0041.svg) ![forks](https://img.shields.io/github/forks/minutesinch/CVE-2020-0041.svg)
-
 - [https://github.com/minutesinch/CVE-2020-0041-Original](https://github.com/minutesinch/CVE-2020-0041-Original) :  ![starts](https://img.shields.io/github/stars/minutesinch/CVE-2020-0041-Original.svg) ![forks](https://img.shields.io/github/forks/minutesinch/CVE-2020-0041-Original.svg)
+
+- [https://github.com/minutesinch/CVE-2020-0041](https://github.com/minutesinch/CVE-2020-0041) :  ![starts](https://img.shields.io/github/stars/minutesinch/CVE-2020-0041.svg) ![forks](https://img.shields.io/github/forks/minutesinch/CVE-2020-0041.svg)
 
 - [https://github.com/TechnoHT/CVE-2020-0041](https://github.com/TechnoHT/CVE-2020-0041) :  ![starts](https://img.shields.io/github/stars/TechnoHT/CVE-2020-0041.svg) ![forks](https://img.shields.io/github/forks/TechnoHT/CVE-2020-0041.svg)
 
