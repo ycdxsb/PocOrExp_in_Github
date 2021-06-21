@@ -23734,11 +23734,11 @@
 
 - [https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-](https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-) :  ![starts](https://img.shields.io/github/stars/rashmikadileeshara/CVE-2014-6271-Shellshock-.svg) ![forks](https://img.shields.io/github/forks/rashmikadileeshara/CVE-2014-6271-Shellshock-.svg)
 
+- [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
+
 - [https://github.com/mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mattclegg/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mattclegg/CVE-2014-6271.svg)
 
 - [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
-
-- [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
 
 - [https://github.com/Pilou-Pilou/docker_CVE-2014-6271.](https://github.com/Pilou-Pilou/docker_CVE-2014-6271.) :  ![starts](https://img.shields.io/github/stars/Pilou-Pilou/docker_CVE-2014-6271..svg) ![forks](https://img.shields.io/github/forks/Pilou-Pilou/docker_CVE-2014-6271..svg)
 
@@ -23954,27 +23954,6 @@
 
 - [https://github.com/gforresu/SpringPathTraversal](https://github.com/gforresu/SpringPathTraversal) :  ![starts](https://img.shields.io/github/stars/gforresu/SpringPathTraversal.svg) ![forks](https://img.shields.io/github/forks/gforresu/SpringPathTraversal.svg)
 
-## CVE-2014-3623
- Apache WSS4J before 1.6.17 and 2.x before 2.0.2, as used in Apache CXF 2.7.x before 2.7.13 and 3.0.x before 3.0.2, when using TransportBinding, does not properly enforce the SAML SubjectConfirmation method security semantics, which allows remote attackers to conduct spoofing attacks via unspecified vectors.
-
-
-
-- [https://github.com/PwnCast/CVE-2014-3623](https://github.com/PwnCast/CVE-2014-3623) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2014-3623.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2014-3623.svg)
-
-## CVE-2014-3584
- The SamlHeaderInHandler in Apache CXF before 2.6.11, 2.7.x before 2.7.8, and 3.0.x before 3.0.1 allows remote attackers to cause a denial of service (infinite loop) via a crafted SAML token in the authorization header of a request to a JAX-RS service.
-
-
-
-- [https://github.com/PwnCast/CVE-2014-3584](https://github.com/PwnCast/CVE-2014-3584) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2014-3584.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2014-3584.svg)
-
-## CVE-2014-3577
- org.apache.http.conn.ssl.AbstractVerifier in Apache HttpComponents HttpClient before 4.3.5 and HttpAsyncClient before 4.0.2 does not properly verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via a &quot;CN=&quot; string in a field in the distinguished name (DN) of a certificate, as demonstrated by the &quot;foo,CN=www.apache.org&quot; string in the O field.
-
-
-
-- [https://github.com/PwnCast/CVE-2014-3577](https://github.com/PwnCast/CVE-2014-3577) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2014-3577.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2014-3577.svg)
-
 ## CVE-2014-3566
  The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other products, uses nondeterministic CBC padding, which makes it easier for man-in-the-middle attackers to obtain cleartext data via a padding-oracle attack, aka the &quot;POODLE&quot; issue.
 
@@ -23985,8 +23964,6 @@
 - [https://github.com/stdevel/poodle_protector](https://github.com/stdevel/poodle_protector) :  ![starts](https://img.shields.io/github/stars/stdevel/poodle_protector.svg) ![forks](https://img.shields.io/github/forks/stdevel/poodle_protector.svg)
 
 - [https://github.com/mikesplain/CVE-2014-3566-poodle-cookbook](https://github.com/mikesplain/CVE-2014-3566-poodle-cookbook) :  ![starts](https://img.shields.io/github/stars/mikesplain/CVE-2014-3566-poodle-cookbook.svg) ![forks](https://img.shields.io/github/forks/mikesplain/CVE-2014-3566-poodle-cookbook.svg)
-
-- [https://github.com/PwnCast/CVE-2014-3566](https://github.com/PwnCast/CVE-2014-3566) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2014-3566.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2014-3566.svg)
 
 - [https://github.com/ashmastaflash/mangy-beast](https://github.com/ashmastaflash/mangy-beast) :  ![starts](https://img.shields.io/github/stars/ashmastaflash/mangy-beast.svg) ![forks](https://img.shields.io/github/forks/ashmastaflash/mangy-beast.svg)
 
@@ -24245,13 +24222,6 @@
 
 - [https://github.com/ricedu/CVE-2014-0195](https://github.com/ricedu/CVE-2014-0195) :  ![starts](https://img.shields.io/github/stars/ricedu/CVE-2014-0195.svg) ![forks](https://img.shields.io/github/forks/ricedu/CVE-2014-0195.svg)
 
-## CVE-2014-0190
- The GIF decoder in QtGui in Qt before 5.3 allows remote attackers to cause a denial of service (NULL pointer dereference) via invalid width and height values in a GIF image.
-
-
-
-- [https://github.com/PwnCast/CVE-2014-0190](https://github.com/PwnCast/CVE-2014-0190) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2014-0190.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2014-0190.svg)
-
 ## CVE-2014-0166
  The wp_validate_auth_cookie function in wp-includes/pluggable.php in WordPress before 3.7.2 and 3.8.x before 3.8.2 does not properly determine the validity of authentication cookies, which makes it easier for remote attackers to obtain access via a forged cookie.
 
@@ -24346,9 +24316,9 @@
 
 - [https://github.com/siddolo/knockbleed](https://github.com/siddolo/knockbleed) :  ![starts](https://img.shields.io/github/stars/siddolo/knockbleed.svg) ![forks](https://img.shields.io/github/forks/siddolo/knockbleed.svg)
 
-- [https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS) :  ![starts](https://img.shields.io/github/stars/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg) ![forks](https://img.shields.io/github/forks/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg)
-
 - [https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed](https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed) :  ![starts](https://img.shields.io/github/stars/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg)
+
+- [https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS) :  ![starts](https://img.shields.io/github/stars/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg) ![forks](https://img.shields.io/github/forks/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg)
 
 - [https://github.com/iwaffles/heartbleed-test.crx](https://github.com/iwaffles/heartbleed-test.crx) :  ![starts](https://img.shields.io/github/stars/iwaffles/heartbleed-test.crx.svg) ![forks](https://img.shields.io/github/forks/iwaffles/heartbleed-test.crx.svg)
 
@@ -24392,20 +24362,6 @@
 
 - [https://github.com/aenlr/strutt-cve-2014-0114](https://github.com/aenlr/strutt-cve-2014-0114) :  ![starts](https://img.shields.io/github/stars/aenlr/strutt-cve-2014-0114.svg) ![forks](https://img.shields.io/github/forks/aenlr/strutt-cve-2014-0114.svg)
 
-## CVE-2014-0110
- Apache CXF before 2.6.14 and 2.7.x before 2.7.11 allows remote attackers to cause a denial of service (/tmp disk consumption) via a large invalid SOAP message.
-
-
-
-- [https://github.com/PwnCast/CVE-2014-0110](https://github.com/PwnCast/CVE-2014-0110) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2014-0110.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2014-0110.svg)
-
-## CVE-2014-0109
- Apache CXF before 2.6.14 and 2.7.x before 2.7.11 allows remote attackers to cause a denial of service (memory consumption) via a large request with the Content-Type set to text/html to a SOAP endpoint, which triggers an error.
-
-
-
-- [https://github.com/PwnCast/CVE-2014-0109](https://github.com/PwnCast/CVE-2014-0109) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2014-0109.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2014-0109.svg)
-
 ## CVE-2014-0094
  The ParametersInterceptor in Apache Struts before 2.3.16.2 allows remote attackers to &quot;manipulate&quot; the ClassLoader via the class parameter, which is passed to the getClass method.
 
@@ -24428,20 +24384,6 @@
 - [https://github.com/saelo/cve-2014-0038](https://github.com/saelo/cve-2014-0038) :  ![starts](https://img.shields.io/github/stars/saelo/cve-2014-0038.svg) ![forks](https://img.shields.io/github/forks/saelo/cve-2014-0038.svg)
 
 - [https://github.com/kiruthikan99/IT19115276](https://github.com/kiruthikan99/IT19115276) :  ![starts](https://img.shields.io/github/stars/kiruthikan99/IT19115276.svg) ![forks](https://img.shields.io/github/forks/kiruthikan99/IT19115276.svg)
-
-## CVE-2014-0035
- The SymmetricBinding in Apache CXF before 2.6.13 and 2.7.x before 2.7.10, when EncryptBeforeSigning is enabled and the UsernameToken policy is set to an EncryptedSupportingToken, transmits the UsernameToken in cleartext, which allows remote attackers to obtain sensitive information by sniffing the network.
-
-
-
-- [https://github.com/PwnCast/CVE-2014-0035](https://github.com/PwnCast/CVE-2014-0035) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2014-0035.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2014-0035.svg)
-
-## CVE-2014-0034
- The SecurityTokenService (STS) in Apache CXF before 2.6.12 and 2.7.x before 2.7.9 does not properly validate SAML tokens when caching is enabled, which allows remote attackers to gain access via an invalid SAML token.
-
-
-
-- [https://github.com/PwnCast/CVE-2014-0034](https://github.com/PwnCast/CVE-2014-0034) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2014-0034.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2014-0034.svg)
 
 
 
