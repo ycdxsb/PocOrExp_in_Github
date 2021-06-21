@@ -220,33 +220,12 @@
 
 - [https://github.com/lcfpadilha/mac0352-ep4](https://github.com/lcfpadilha/mac0352-ep4) :  ![starts](https://img.shields.io/github/stars/lcfpadilha/mac0352-ep4.svg) ![forks](https://img.shields.io/github/forks/lcfpadilha/mac0352-ep4.svg)
 
-## CVE-2016-8739
- The JAX-RS module in Apache CXF prior to 3.0.12 and 3.1.x prior to 3.1.9 provides a number of Atom JAX-RS MessageBodyReaders. These readers use Apache Abdera Parser which expands XML entities by default which represents a major XXE risk.
-
-
-
-- [https://github.com/PwnCast/CVE-2016-8739](https://github.com/PwnCast/CVE-2016-8739) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2016-8739.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2016-8739.svg)
-
 ## CVE-2016-8735
  Remote code execution is possible with Apache Tomcat before 6.0.48, 7.x before 7.0.73, 8.x before 8.0.39, 8.5.x before 8.5.7, and 9.x before 9.0.0.M12 if JmxRemoteLifecycleListener is used and an attacker can reach JMX ports. The issue exists because this listener wasn't updated for consistency with the CVE-2016-3427 Oracle patch that affected credential types.
 
 
 
 - [https://github.com/ianxtianxt/CVE-2016-8735](https://github.com/ianxtianxt/CVE-2016-8735) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2016-8735.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2016-8735.svg)
-
-## CVE-2016-8713
- A remote out of bound write / memory corruption vulnerability exists in the PDF parsing functionality of Nitro Pro 10.5.9.9. A specially crafted PDF file can cause a vulnerability resulting in potential memory corruption. An attacker can send the victim a specific PDF file to trigger this vulnerability.
-
-
-
-- [https://github.com/PwnCast/CVE-2016-8713](https://github.com/PwnCast/CVE-2016-8713) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2016-8713.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2016-8713.svg)
-
-## CVE-2016-8709
- A remote out of bound write / memory corruption vulnerability exists in the PDF parsing functionality of Nitro Pro 10. A specially crafted PDF file can cause a vulnerability resulting in potential memory corruption. An attacker can send the victim a specific PDF file to trigger this vulnerability.
-
-
-
-- [https://github.com/PwnCast/CVE-2016-8709](https://github.com/PwnCast/CVE-2016-8709) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2016-8709.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2016-8709.svg)
 
 ## CVE-2016-8655
  Race condition in net/packet/af_packet.c in the Linux kernel through 4.8.12 allows local users to gain privileges or cause a denial of service (use-after-free) by leveraging the CAP_NET_RAW capability to change a socket version, related to the packet_set_ring and packet_setsockopt functions.
@@ -456,13 +435,6 @@
 
 
 - [https://github.com/KosukeShimofuji/CVE-2016-7117](https://github.com/KosukeShimofuji/CVE-2016-7117) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-7117.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-7117.svg)
-
-## CVE-2016-6812
- The HTTP transport module in Apache CXF prior to 3.0.12 and 3.1.x prior to 3.1.9 uses FormattedServiceListWriter to provide an HTML page which lists the names and absolute URL addresses of the available service endpoints. The module calculates the base URL using the current HttpServletRequest. The calculated base URL is used by FormattedServiceListWriter to build the service endpoint absolute URLs. If the unexpected matrix parameters have been injected into the request URL then these matrix parameters will find their way back to the client in the services list page which represents an XSS risk to the client.
-
-
-
-- [https://github.com/PwnCast/CVE-2016-6812](https://github.com/PwnCast/CVE-2016-6812) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2016-6812.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2016-6812.svg)
 
 ## CVE-2016-6801
  Cross-site request forgery (CSRF) vulnerability in the CSRF content-type check in Jackrabbit-Webdav in Apache Jackrabbit 2.4.x before 2.4.6, 2.6.x before 2.6.6, 2.8.x before 2.8.3, 2.10.x before 2.10.4, 2.12.x before 2.12.4, and 2.13.x before 2.13.3 allows remote attackers to hijack the authentication of unspecified victims for requests that create a resource via an HTTP POST request with a (1) missing or (2) crafted Content-Type header.
@@ -722,9 +694,9 @@
 
 - [https://github.com/DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/DanielEbert/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/DanielEbert/CVE-2016-5195.svg)
 
-- [https://github.com/linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/linhlt247/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/linhlt247/DirtyCOW_CVE-2016-5195.svg)
-
 - [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
+
+- [https://github.com/linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/linhlt247/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/linhlt247/DirtyCOW_CVE-2016-5195.svg)
 
 - [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
 
@@ -855,33 +827,12 @@
 
 - [https://github.com/hdbreaker/WebKit-CVE-2016-4622](https://github.com/hdbreaker/WebKit-CVE-2016-4622) :  ![starts](https://img.shields.io/github/stars/hdbreaker/WebKit-CVE-2016-4622.svg) ![forks](https://img.shields.io/github/forks/hdbreaker/WebKit-CVE-2016-4622.svg)
 
-## CVE-2016-4571
- The mxml_write_node function in mxml-file.c in mxml 2.9, 2.7, and possibly earlier allows remote attackers to cause a denial of service (stack consumption) via crafted xml file.
-
-
-
-- [https://github.com/PwnCast/CVE-2016-4571](https://github.com/PwnCast/CVE-2016-4571) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2016-4571.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2016-4571.svg)
-
-## CVE-2016-4570
- The mxmlDelete function in mxml-node.c in mxml 2.9, 2.7, and possibly earlier allows remote attackers to cause a denial of service (stack consumption) via crafted xml file.
-
-
-
-- [https://github.com/PwnCast/CVE-2016-4570](https://github.com/PwnCast/CVE-2016-4570) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2016-4570.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2016-4570.svg)
-
 ## CVE-2016-4468
  SQL injection vulnerability in Pivotal Cloud Foundry (PCF) before 238; UAA 2.x before 2.7.4.4, 3.x before 3.3.0.2, and 3.4.x before 3.4.1; UAA BOSH before 11.2 and 12.x before 12.2; Elastic Runtime before 1.6.29 and 1.7.x before 1.7.7; and Ops Manager 1.7.x before 1.7.8 allows remote authenticated users to execute arbitrary SQL commands via unspecified vectors.
 
 
 
 - [https://github.com/shanika04/cloudfoundry_uaa](https://github.com/shanika04/cloudfoundry_uaa) :  ![starts](https://img.shields.io/github/stars/shanika04/cloudfoundry_uaa.svg) ![forks](https://img.shields.io/github/forks/shanika04/cloudfoundry_uaa.svg)
-
-## CVE-2016-4464
- The application plugins in Apache CXF Fediz 1.2.x before 1.2.3 and 1.3.x before 1.3.1 do not match SAML AudienceRestriction values against configured audience URIs, which might allow remote attackers to have bypass intended restrictions and have unspecified other impact via a crafted SAML token with a trusted signature.
-
-
-
-- [https://github.com/PwnCast/CVE-2016-4464](https://github.com/PwnCast/CVE-2016-4464) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2016-4464.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2016-4464.svg)
 
 ## CVE-2016-4463
  Stack-based buffer overflow in Apache Xerces-C++ before 3.1.4 allows context-dependent attackers to cause a denial of service via a deeply nested DTD.
