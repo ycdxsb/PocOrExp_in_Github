@@ -85,13 +85,6 @@
 
 - [https://github.com/t0rt3ll1n0/PCmanBoF](https://github.com/t0rt3ll1n0/PCmanBoF) :  ![starts](https://img.shields.io/github/stars/t0rt3ll1n0/PCmanBoF.svg) ![forks](https://img.shields.io/github/forks/t0rt3ll1n0/PCmanBoF.svg)
 
-## CVE-2013-4549
- QXmlSimpleReader in Qt before 5.2 allows context-dependent attackers to cause a denial of service (memory consumption) via an XML Entity Expansion (XEE) attack.
-
-
-
-- [https://github.com/PwnCast/CVE-2013-4549](https://github.com/PwnCast/CVE-2013-4549) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2013-4549.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2013-4549.svg)
-
 ## CVE-2013-4547
  nginx 0.8.41 through 1.4.3 and 1.5.x before 1.5.7 allows remote attackers to bypass intended restrictions via an unescaped space character in a URI.
 
@@ -252,13 +245,6 @@
 
 - [https://github.com/SPlayer1248/Payload_CVE_2013_2186](https://github.com/SPlayer1248/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/SPlayer1248/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/SPlayer1248/Payload_CVE_2013_2186.svg)
 
-## CVE-2013-2160
- The streaming XML parser in Apache CXF 2.5.x before 2.5.10, 2.6.x before 2.6.7, and 2.7.x before 2.7.4 allows remote attackers to cause a denial of service (CPU and memory consumption) via crafted XML with a large number of (1) elements, (2) attributes, (3) nested constructs, and possibly other vectors.
-
-
-
-- [https://github.com/PwnCast/CVE-2013-2160](https://github.com/PwnCast/CVE-2013-2160) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2013-2160.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2013-2160.svg)
-
 ## CVE-2013-2094
  The perf_swevent_init function in kernel/events/core.c in the Linux kernel before 3.8.9 uses an incorrect integer data type, which allows local users to gain privileges via a crafted perf_event_open system call.
 
@@ -367,20 +353,6 @@
 
 
 - [https://github.com/heroku/heroku-CVE-2013-0269](https://github.com/heroku/heroku-CVE-2013-0269) :  ![starts](https://img.shields.io/github/stars/heroku/heroku-CVE-2013-0269.svg) ![forks](https://img.shields.io/github/forks/heroku/heroku-CVE-2013-0269.svg)
-
-## CVE-2013-0254
- The QSharedMemory class in Qt 5.0.0, 4.8.x before 4.8.5, 4.7.x before 4.7.6, and other versions including 4.4.0 uses weak permissions (world-readable and world-writable) for shared memory segments, which allows local users to read sensitive information or modify critical program data, as demonstrated by reading a pixmap being sent to an X server.
-
-
-
-- [https://github.com/PwnCast/CVE-2013-0254](https://github.com/PwnCast/CVE-2013-0254) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2013-0254.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2013-0254.svg)
-
-## CVE-2013-0239
- Apache CXF before 2.5.9, 2.6.x before 2.6.6, and 2.7.x before 2.7.3, when the plaintext UsernameToken WS-SecurityPolicy is enabled, allows remote attackers to bypass authentication via a security header of a SOAP request containing a UsernameToken element that lacks a password child element.
-
-
-
-- [https://github.com/PwnCast/CVE-2013-0239](https://github.com/PwnCast/CVE-2013-0239) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2013-0239.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2013-0239.svg)
 
 ## CVE-2013-0230
  Stack-based buffer overflow in the ExecuteSoapAction function in the SOAPAction handler in the HTTP service in MiniUPnP MiniUPnPd 1.0 allows remote attackers to execute arbitrary code via a long quoted method.
