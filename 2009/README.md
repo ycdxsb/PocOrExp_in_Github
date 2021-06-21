@@ -63,13 +63,6 @@
 
 - [https://github.com/sooklalad/ms09050](https://github.com/sooklalad/ms09050) :  ![starts](https://img.shields.io/github/stars/sooklalad/ms09050.svg) ![forks](https://img.shields.io/github/forks/sooklalad/ms09050.svg)
 
-## CVE-2009-2700
- src/network/ssl/qsslcertificate.cpp in Nokia Trolltech Qt 4.x does not properly handle a '\0' character in a domain name in the Subject Alternative Name field of an X.509 certificate, which allows man-in-the-middle attackers to spoof arbitrary SSL servers via a crafted certificate issued by a legitimate Certification Authority, a related issue to CVE-2009-2408.
-
-
-
-- [https://github.com/PwnCast/CVE-2009-2700](https://github.com/PwnCast/CVE-2009-2700) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2009-2700.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2009-2700.svg)
-
 ## CVE-2009-2698
  The udp_sendmsg function in the UDP implementation in (1) net/ipv4/udp.c and (2) net/ipv6/udp.c in the Linux kernel before 2.6.19 allows local users to gain privileges or cause a denial of service (NULL pointer dereference and system crash) via vectors involving the MSG_MORE flag and a UDP socket.
 
@@ -90,13 +83,6 @@
 
 
 - [https://github.com/n4xh4ck5/CVE2009-2585_HP_Power_Manager_BoF](https://github.com/n4xh4ck5/CVE2009-2585_HP_Power_Manager_BoF) :  ![starts](https://img.shields.io/github/stars/n4xh4ck5/CVE2009-2585_HP_Power_Manager_BoF.svg) ![forks](https://img.shields.io/github/forks/n4xh4ck5/CVE2009-2585_HP_Power_Manager_BoF.svg)
-
-## CVE-2009-2408
- Mozilla Network Security Services (NSS) before 3.12.3, Firefox before 3.0.13, Thunderbird before 2.0.0.23, and SeaMonkey before 1.1.18 do not properly handle a '\0' character in a domain name in the subject's Common Name (CN) field of an X.509 certificate, which allows man-in-the-middle attackers to spoof arbitrary SSL servers via a crafted certificate issued by a legitimate Certification Authority. NOTE: this was originally reported for Firefox before 3.5.
-
-
-
-- [https://github.com/PwnCast/CVE-2009-2700](https://github.com/PwnCast/CVE-2009-2700) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2009-2700.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2009-2700.svg)
 
 ## CVE-2009-2265
  Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow remote attackers to create executable files in arbitrary directories via directory traversal sequences in the input to unspecified connector modules, as exploited in the wild for remote code execution in July 2009, related to the file browser and the editor/filemanager/connectors/ directory.
