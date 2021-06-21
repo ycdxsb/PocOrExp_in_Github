@@ -25938,13 +25938,6 @@
 
 
 ## 2003
-## CVE-2003-1564
- libxml2, possibly before 2.5.0, does not properly detect recursion during entity expansion, which allows context-dependent attackers to cause a denial of service (memory and CPU consumption) via a crafted XML document containing a large number of nested entity references, aka the &quot;billion laughs attack.&quot;
-
-
-
-- [https://github.com/PwnCast/CVE-2017-18640](https://github.com/PwnCast/CVE-2017-18640) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2017-18640.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2017-18640.svg)
-
 ## CVE-2003-0282
  Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
 
