@@ -1,10 +1,3 @@
-## CVE-2002-1847
- Buffer overflow in mplay32.exe of Microsoft Windows Media Player (WMP) 6.3 through 7.1 allows remote attackers to execute arbitrary commands via a long mp3 filename command line argument. NOTE: since the only known attack vector requires command line access, this may not be a vulnerability.
-
-
-
-- [https://github.com/PwnCast/CVE-2002-1847](https://github.com/PwnCast/CVE-2002-1847) :  ![starts](https://img.shields.io/github/stars/PwnCast/CVE-2002-1847.svg) ![forks](https://img.shields.io/github/forks/PwnCast/CVE-2002-1847.svg)
-
 ## CVE-2002-0991
  Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and earlier, based on the Sharity package, allows local users to gain root privileges via long (1) -U, (2) -D, (3) -P, (4) -S, (5) -N, or (6) -u parameters.
 
