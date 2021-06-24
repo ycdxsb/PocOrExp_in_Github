@@ -12,9 +12,9 @@
 
 - [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
 
-- [https://github.com/SecuraBV/CVE-2020-1472](https://github.com/SecuraBV/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/SecuraBV/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/SecuraBV/CVE-2020-1472.svg)
-
 - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+- [https://github.com/SecuraBV/CVE-2020-1472](https://github.com/SecuraBV/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/SecuraBV/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/SecuraBV/CVE-2020-1472.svg)
 
 - [https://github.com/fofapro/vulfocus](https://github.com/fofapro/vulfocus) :  ![starts](https://img.shields.io/github/stars/fofapro/vulfocus.svg) ![forks](https://img.shields.io/github/forks/fofapro/vulfocus.svg)
 
@@ -23,7 +23,7 @@
 
 
 ## TOP 10 Popular Authors
-zhzyker: stars: 4161
+zhzyker: stars: 4166
 - [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
 
 - [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
@@ -152,10 +152,10 @@ jas502n: stars: 3315
 
 - [https://github.com/jas502n/CVE-2016-5195](https://github.com/jas502n/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2016-5195.svg)
 
-liamg: stars: 3249
+liamg: stars: 3282
 - [https://github.com/liamg/traitor](https://github.com/liamg/traitor) :  ![starts](https://img.shields.io/github/stars/liamg/traitor.svg) ![forks](https://img.shields.io/github/forks/liamg/traitor.svg)
 
-FiloSottile: stars: 2430
+FiloSottile: stars: 2429
 - [https://github.com/FiloSottile/Heartbleed](https://github.com/FiloSottile/Heartbleed) :  ![starts](https://img.shields.io/github/stars/FiloSottile/Heartbleed.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/Heartbleed.svg)
 
 - [https://github.com/FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107) :  ![starts](https://img.shields.io/github/stars/FiloSottile/CVE-2016-2107.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/CVE-2016-2107.svg)
@@ -171,7 +171,7 @@ FiloSottile: stars: 2430
 
 - [https://github.com/0vercl0k/CVE-2021-28476](https://github.com/0vercl0k/CVE-2021-28476) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2021-28476.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2021-28476.svg)
 
-ollypwn: stars: 1692
+ollypwn: stars: 1691
 - [https://github.com/ollypwn/CurveBall](https://github.com/ollypwn/CurveBall) :  ![starts](https://img.shields.io/github/stars/ollypwn/CurveBall.svg) ![forks](https://img.shields.io/github/forks/ollypwn/CurveBall.svg)
 
 - [https://github.com/ollypwn/SMBGhost](https://github.com/ollypwn/SMBGhost) :  ![starts](https://img.shields.io/github/stars/ollypwn/SMBGhost.svg) ![forks](https://img.shields.io/github/forks/ollypwn/SMBGhost.svg)
