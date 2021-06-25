@@ -24446,8 +24446,6 @@
 
 - [https://github.com/g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh) :  ![starts](https://img.shields.io/github/stars/g0tmi1k/debian-ssh.svg) ![forks](https://img.shields.io/github/forks/g0tmi1k/debian-ssh.svg)
 
-- [https://github.com/nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh) :  ![starts](https://img.shields.io/github/stars/nu11secur1ty/debian-ssh.svg) ![forks](https://img.shields.io/github/forks/nu11secur1ty/debian-ssh.svg)
-
 - [https://github.com/avarx/vulnkeys](https://github.com/avarx/vulnkeys) :  ![starts](https://img.shields.io/github/stars/avarx/vulnkeys.svg) ![forks](https://img.shields.io/github/forks/avarx/vulnkeys.svg)
 
 ## CVE-2008-0128
