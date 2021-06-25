@@ -1,42 +1,30 @@
-# Update 2021-06-24
-## CVE-2020-28872
- An authorization bypass vulnerability in Monitorr v1.7.6m in Monitorr/assets/config/_installation/_register.php allows an unauthorized person to create valid credentials.
+# Update 2021-06-25
+## CVE-2021-21315
+ The System Information Library for Node.JS (npm package &quot;systeminformation&quot;) is an open source collection of functions to retrieve detailed hardware, system and OS information. In systeminformation before version 5.3.1 there is a command injection vulnerability. Problem was fixed in version 5.3.1. As a workaround instead of upgrading, be sure to check or sanitize service parameters that are passed to si.inetLatency(), si.inetChecksite(), si.services(), si.processLoad() ... do only allow strings, reject any arrays. String sanitation works as expected.
 
-- [https://github.com/sec-it/monitorr-exploit-toolkit](https://github.com/sec-it/monitorr-exploit-toolkit) :  ![starts](https://img.shields.io/github/stars/sec-it/monitorr-exploit-toolkit.svg) ![forks](https://img.shields.io/github/forks/sec-it/monitorr-exploit-toolkit.svg)
-
-
-## CVE-2020-28871
- Remote code execution in Monitorr v1.7.6m in upload.php allows an unauthorized person to execute arbitrary code on the server-side via an insecure file upload.
-
-- [https://github.com/sec-it/monitorr-exploit-toolkit](https://github.com/sec-it/monitorr-exploit-toolkit) :  ![starts](https://img.shields.io/github/stars/sec-it/monitorr-exploit-toolkit.svg) ![forks](https://img.shields.io/github/forks/sec-it/monitorr-exploit-toolkit.svg)
+- [https://github.com/0UR4N05/CVE-2021-21315](https://github.com/0UR4N05/CVE-2021-21315) :  ![starts](https://img.shields.io/github/stars/0UR4N05/CVE-2021-21315.svg) ![forks](https://img.shields.io/github/forks/0UR4N05/CVE-2021-21315.svg)
 
 
-## CVE-2020-25557
- In CMSuno 1.6.2, an attacker can inject malicious PHP code as a &quot;username&quot; while changing his/her username &amp; password. After that, when attacker logs in to the application, attacker's code will be run. As a result of this vulnerability, authenticated user can run command on the server.
+## CVE-2018-15142
+ Directory traversal in portal/import_template.php in versions of OpenEMR before 5.0.1.4 allows a remote attacker authenticated in the patient portal to execute arbitrary PHP code by writing a file with a PHP extension via the &quot;docid&quot; and &quot;content&quot; parameters and accessing it in the traversed directory.
 
-- [https://github.com/sec-it/CMSUno-RCE](https://github.com/sec-it/CMSUno-RCE) :  ![starts](https://img.shields.io/github/stars/sec-it/CMSUno-RCE.svg) ![forks](https://img.shields.io/github/forks/sec-it/CMSUno-RCE.svg)
-
-
-## CVE-2020-25538
- An authenticated attacker can inject malicious code into &quot;lang&quot; parameter in /uno/central.php file in CMSuno 1.6.2 and run this PHP code in the web page. In this way, attacker can takeover the control of the server.
-
-- [https://github.com/sec-it/CMSUno-RCE](https://github.com/sec-it/CMSUno-RCE) :  ![starts](https://img.shields.io/github/stars/sec-it/CMSUno-RCE.svg) ![forks](https://img.shields.io/github/forks/sec-it/CMSUno-RCE.svg)
+- [https://github.com/noraj/OpenEMR-RCE](https://github.com/noraj/OpenEMR-RCE) :  ![starts](https://img.shields.io/github/stars/noraj/OpenEMR-RCE.svg) ![forks](https://img.shields.io/github/forks/noraj/OpenEMR-RCE.svg)
 
 
-## CVE-2018-16763
- FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter or the preview/ data parameter. This can lead to Pre-Auth Remote Code Execution.
+## CVE-2017-5638
+ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 
-- [https://github.com/noraj/fuelcms-rce](https://github.com/noraj/fuelcms-rce) :  ![starts](https://img.shields.io/github/stars/noraj/fuelcms-rce.svg) ![forks](https://img.shields.io/github/forks/noraj/fuelcms-rce.svg)
-
-
-## CVE-2018-10933
- A vulnerability was found in libssh's server-side state machine before versions 0.7.6 and 0.8.4. A malicious client could create channels without first performing authentication, resulting in unauthorized access.
-
-- [https://github.com/0xadaw/libSSH-bypass](https://github.com/0xadaw/libSSH-bypass) :  ![starts](https://img.shields.io/github/stars/0xadaw/libSSH-bypass.svg) ![forks](https://img.shields.io/github/forks/0xadaw/libSSH-bypass.svg)
+- [https://github.com/Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Badbird3/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Badbird3/CVE-2017-5638.svg)
 
 
-## CVE-2017-11783
- Microsoft Windows 8.1, Windows Server 2012 R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, and 1703, and Windows Server 2016 allows an elevation of privilege vulnerability in the way it handles calls to Advanced Local Procedure Call (ALPC), aka &quot;Windows Elevation of Privilege Vulnerability&quot;.
+## CVE-2014-2321
+ web_shell_cmd.gch on ZTE F460 and F660 cable modems allows remote attackers to obtain administrative access via sendcmd requests, as demonstrated by using &quot;set TelnetCfg&quot; commands to enable a TELNET service with specified credentials.
 
-- [https://github.com/Sheisback/CVE-2017-11783](https://github.com/Sheisback/CVE-2017-11783) :  ![starts](https://img.shields.io/github/stars/Sheisback/CVE-2017-11783.svg) ![forks](https://img.shields.io/github/forks/Sheisback/CVE-2017-11783.svg)
+- [https://github.com/injectionmethod/ZTE-Vuln-4-Skids](https://github.com/injectionmethod/ZTE-Vuln-4-Skids) :  ![starts](https://img.shields.io/github/stars/injectionmethod/ZTE-Vuln-4-Skids.svg) ![forks](https://img.shields.io/github/forks/injectionmethod/ZTE-Vuln-4-Skids.svg)
+
+
+## CVE-2009-1151
+ Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.11.9.5 and 3.x before 3.1.3.1 allows remote attackers to inject arbitrary PHP code into a configuration file via the save action.
+
+- [https://github.com/pagvac/pocs](https://github.com/pagvac/pocs) :  ![starts](https://img.shields.io/github/stars/pagvac/pocs.svg) ![forks](https://img.shields.io/github/forks/pagvac/pocs.svg)
 
