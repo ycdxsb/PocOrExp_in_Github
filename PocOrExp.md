@@ -16703,9 +16703,9 @@
 
 - [https://github.com/nkoneko/CVE-2017-1000117](https://github.com/nkoneko/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/nkoneko/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/nkoneko/CVE-2017-1000117.svg)
 
-- [https://github.com/sasairc/CVE-2017-1000117_wasawasa](https://github.com/sasairc/CVE-2017-1000117_wasawasa) :  ![starts](https://img.shields.io/github/stars/sasairc/CVE-2017-1000117_wasawasa.svg) ![forks](https://img.shields.io/github/forks/sasairc/CVE-2017-1000117_wasawasa.svg)
-
 - [https://github.com/AnonymKing/CVE-2017-1000117](https://github.com/AnonymKing/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/AnonymKing/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/AnonymKing/CVE-2017-1000117.svg)
+
+- [https://github.com/sasairc/CVE-2017-1000117_wasawasa](https://github.com/sasairc/CVE-2017-1000117_wasawasa) :  ![starts](https://img.shields.io/github/stars/sasairc/CVE-2017-1000117_wasawasa.svg) ![forks](https://img.shields.io/github/forks/sasairc/CVE-2017-1000117_wasawasa.svg)
 
 - [https://github.com/rootclay/CVE-2017-1000117](https://github.com/rootclay/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/rootclay/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/rootclay/CVE-2017-1000117.svg)
 
@@ -17661,9 +17661,9 @@
 
 - [https://github.com/gardenWhy/CVE-2017-12615-EXP](https://github.com/gardenWhy/CVE-2017-12615-EXP) :  ![starts](https://img.shields.io/github/stars/gardenWhy/CVE-2017-12615-EXP.svg) ![forks](https://img.shields.io/github/forks/gardenWhy/CVE-2017-12615-EXP.svg)
 
-- [https://github.com/BeyondCy/CVE-2017-12615](https://github.com/BeyondCy/CVE-2017-12615) :  ![starts](https://img.shields.io/github/stars/BeyondCy/CVE-2017-12615.svg) ![forks](https://img.shields.io/github/forks/BeyondCy/CVE-2017-12615.svg)
-
 - [https://github.com/Shellkeys/CVE-2017-12615](https://github.com/Shellkeys/CVE-2017-12615) :  ![starts](https://img.shields.io/github/stars/Shellkeys/CVE-2017-12615.svg) ![forks](https://img.shields.io/github/forks/Shellkeys/CVE-2017-12615.svg)
+
+- [https://github.com/BeyondCy/CVE-2017-12615](https://github.com/BeyondCy/CVE-2017-12615) :  ![starts](https://img.shields.io/github/stars/BeyondCy/CVE-2017-12615.svg) ![forks](https://img.shields.io/github/forks/BeyondCy/CVE-2017-12615.svg)
 
 ## CVE-2017-12611
  In Apache Struts 2.0.0 through 2.3.33 and 2.5 through 2.5.10.1, using an unintentional expression in a Freemarker tag instead of string literals can lead to a RCE attack.
@@ -17759,9 +17759,9 @@
 
 - [https://github.com/chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/chanbin/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/chanbin/CVE-2017-11882.svg)
 
-- [https://github.com/j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/j0lama/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/j0lama/CVE-2017-11882.svg)
-
 - [https://github.com/likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-11882.svg)
+
+- [https://github.com/j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/j0lama/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/j0lama/CVE-2017-11882.svg)
 
 - [https://github.com/ActorExpose/CVE-2017-11882](https://github.com/ActorExpose/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/ActorExpose/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/ActorExpose/CVE-2017-11882.svg)
 
@@ -18405,9 +18405,9 @@
 
 - [https://github.com/zhengkook/CVE-2017-8759](https://github.com/zhengkook/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/zhengkook/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/zhengkook/CVE-2017-8759.svg)
 
-- [https://github.com/adeljck/CVE-2017-8759](https://github.com/adeljck/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/adeljck/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/adeljck/CVE-2017-8759.svg)
-
 - [https://github.com/smashinu/CVE-2017-8759Expoit](https://github.com/smashinu/CVE-2017-8759Expoit) :  ![starts](https://img.shields.io/github/stars/smashinu/CVE-2017-8759Expoit.svg) ![forks](https://img.shields.io/github/forks/smashinu/CVE-2017-8759Expoit.svg)
+
+- [https://github.com/adeljck/CVE-2017-8759](https://github.com/adeljck/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/adeljck/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/adeljck/CVE-2017-8759.svg)
 
 - [https://github.com/l0n3rs/CVE-2017-8759](https://github.com/l0n3rs/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/l0n3rs/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/l0n3rs/CVE-2017-8759.svg)
 
@@ -18941,6 +18941,8 @@
 
 - [https://github.com/speecyy/Am-I-affected-by-Meltdown](https://github.com/speecyy/Am-I-affected-by-Meltdown) :  ![starts](https://img.shields.io/github/stars/speecyy/Am-I-affected-by-Meltdown.svg) ![forks](https://img.shields.io/github/forks/speecyy/Am-I-affected-by-Meltdown.svg)
 
+- [https://github.com/raul23/meltdown](https://github.com/raul23/meltdown) :  ![starts](https://img.shields.io/github/stars/raul23/meltdown.svg) ![forks](https://img.shields.io/github/forks/raul23/meltdown.svg)
+
 - [https://github.com/GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment) :  ![starts](https://img.shields.io/github/stars/GregAskew/SpeculativeExecutionAssessment.svg) ![forks](https://img.shields.io/github/forks/GregAskew/SpeculativeExecutionAssessment.svg)
 
 - [https://github.com/kevincoakley/puppet-spectre_meltdown](https://github.com/kevincoakley/puppet-spectre_meltdown) :  ![starts](https://img.shields.io/github/stars/kevincoakley/puppet-spectre_meltdown.svg) ![forks](https://img.shields.io/github/forks/kevincoakley/puppet-spectre_meltdown.svg)
@@ -18977,6 +18979,8 @@
 - [https://github.com/pedrolucasoliva/spectre-attack-demo](https://github.com/pedrolucasoliva/spectre-attack-demo) :  ![starts](https://img.shields.io/github/stars/pedrolucasoliva/spectre-attack-demo.svg) ![forks](https://img.shields.io/github/forks/pedrolucasoliva/spectre-attack-demo.svg)
 
 - [https://github.com/sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-](https://github.com/sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-) :  ![starts](https://img.shields.io/github/stars/sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-.svg) ![forks](https://img.shields.io/github/forks/sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-.svg)
+
+- [https://github.com/raul23/spectre](https://github.com/raul23/spectre) :  ![starts](https://img.shields.io/github/stars/raul23/spectre.svg) ![forks](https://img.shields.io/github/forks/raul23/spectre.svg)
 
 - [https://github.com/GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment) :  ![starts](https://img.shields.io/github/stars/GregAskew/SpeculativeExecutionAssessment.svg) ![forks](https://img.shields.io/github/forks/GregAskew/SpeculativeExecutionAssessment.svg)
 
@@ -19023,6 +19027,8 @@
 - [https://github.com/miglen/Awesome-Meltdown-Spectre](https://github.com/miglen/Awesome-Meltdown-Spectre) :  ![starts](https://img.shields.io/github/stars/miglen/Awesome-Meltdown-Spectre.svg) ![forks](https://img.shields.io/github/forks/miglen/Awesome-Meltdown-Spectre.svg)
 
 - [https://github.com/pedrolucasoliva/spectre-attack-demo](https://github.com/pedrolucasoliva/spectre-attack-demo) :  ![starts](https://img.shields.io/github/stars/pedrolucasoliva/spectre-attack-demo.svg) ![forks](https://img.shields.io/github/forks/pedrolucasoliva/spectre-attack-demo.svg)
+
+- [https://github.com/raul23/spectre](https://github.com/raul23/spectre) :  ![starts](https://img.shields.io/github/stars/raul23/spectre.svg) ![forks](https://img.shields.io/github/forks/raul23/spectre.svg)
 
 - [https://github.com/dmo2118/retpoline-audit](https://github.com/dmo2118/retpoline-audit) :  ![starts](https://img.shields.io/github/stars/dmo2118/retpoline-audit.svg) ![forks](https://img.shields.io/github/forks/dmo2118/retpoline-audit.svg)
 
@@ -19149,9 +19155,9 @@
 
 - [https://github.com/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner) :  ![starts](https://img.shields.io/github/stars/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner.svg) ![forks](https://img.shields.io/github/forks/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner.svg)
 
-- [https://github.com/mike-williams/Struts2Vuln](https://github.com/mike-williams/Struts2Vuln) :  ![starts](https://img.shields.io/github/stars/mike-williams/Struts2Vuln.svg) ![forks](https://img.shields.io/github/forks/mike-williams/Struts2Vuln.svg)
-
 - [https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve](https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve) :  ![starts](https://img.shields.io/github/stars/Masahiro-Yamada/OgnlContentTypeRejectorValve.svg) ![forks](https://img.shields.io/github/forks/Masahiro-Yamada/OgnlContentTypeRejectorValve.svg)
+
+- [https://github.com/mike-williams/Struts2Vuln](https://github.com/mike-williams/Struts2Vuln) :  ![starts](https://img.shields.io/github/stars/mike-williams/Struts2Vuln.svg) ![forks](https://img.shields.io/github/forks/mike-williams/Struts2Vuln.svg)
 
 - [https://github.com/KarzsGHR/S2-046_S2-045_POC](https://github.com/KarzsGHR/S2-046_S2-045_POC) :  ![starts](https://img.shields.io/github/stars/KarzsGHR/S2-046_S2-045_POC.svg) ![forks](https://img.shields.io/github/forks/KarzsGHR/S2-046_S2-045_POC.svg)
 
@@ -19668,9 +19674,9 @@
 
 - [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
 
-- [https://github.com/ryhanson/CVE-2017-0199](https://github.com/ryhanson/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/ryhanson/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/ryhanson/CVE-2017-0199.svg)
-
 - [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
+
+- [https://github.com/ryhanson/CVE-2017-0199](https://github.com/ryhanson/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/ryhanson/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/ryhanson/CVE-2017-0199.svg)
 
 - [https://github.com/Winter3un/cve_2017_0199](https://github.com/Winter3un/cve_2017_0199) :  ![starts](https://img.shields.io/github/stars/Winter3un/cve_2017_0199.svg) ![forks](https://img.shields.io/github/forks/Winter3un/cve_2017_0199.svg)
 
