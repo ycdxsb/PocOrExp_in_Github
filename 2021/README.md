@@ -1,10 +1,3 @@
-## CVE-2021-35475
- SAS Environment Manager 2.5 allows XSS through the Name field when creating/editing a server. The XSS will prompt when editing the Configuration Properties.
-
-
-
-- [https://github.com/saitamang/CVE-2021-35475](https://github.com/saitamang/CVE-2021-35475) :  ![starts](https://img.shields.io/github/stars/saitamang/CVE-2021-35475.svg) ![forks](https://img.shields.io/github/forks/saitamang/CVE-2021-35475.svg)
-
 ## CVE-2021-35448
  Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbitrary programs as Administrator by using the Image Transfer Folder feature to navigate to cmd.exe. It binds to local ports to listen for incoming connections.
 
@@ -153,11 +146,11 @@
 
 - [https://github.com/corelight/CVE-2021-31166](https://github.com/corelight/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/corelight/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/corelight/CVE-2021-31166.svg)
 
+- [https://github.com/phil-fly/poc](https://github.com/phil-fly/poc) :  ![starts](https://img.shields.io/github/stars/phil-fly/poc.svg) ![forks](https://img.shields.io/github/forks/phil-fly/poc.svg)
+
 - [https://github.com/Frankmock/CVE-2021-31166-detection-rules](https://github.com/Frankmock/CVE-2021-31166-detection-rules) :  ![starts](https://img.shields.io/github/stars/Frankmock/CVE-2021-31166-detection-rules.svg) ![forks](https://img.shields.io/github/forks/Frankmock/CVE-2021-31166-detection-rules.svg)
 
 - [https://github.com/An0ny-m0us/CVE-2021-31166](https://github.com/An0ny-m0us/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/An0ny-m0us/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/An0ny-m0us/CVE-2021-31166.svg)
-
-- [https://github.com/phil-fly/poc](https://github.com/phil-fly/poc) :  ![starts](https://img.shields.io/github/stars/phil-fly/poc.svg) ![forks](https://img.shields.io/github/forks/phil-fly/poc.svg)
 
 - [https://github.com/zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/zecopro/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/zecopro/CVE-2021-31166.svg)
 
@@ -854,6 +847,8 @@
 
 - [https://github.com/r0ckysec/CVE-2021-26295](https://github.com/r0ckysec/CVE-2021-26295) :  ![starts](https://img.shields.io/github/stars/r0ckysec/CVE-2021-26295.svg) ![forks](https://img.shields.io/github/forks/r0ckysec/CVE-2021-26295.svg)
 
+- [https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP](https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP) :  ![starts](https://img.shields.io/github/stars/S0por/CVE-2021-26295-Apache-OFBiz-EXP.svg) ![forks](https://img.shields.io/github/forks/S0por/CVE-2021-26295-Apache-OFBiz-EXP.svg)
+
 - [https://github.com/rakjong/CVE-2021-26295-Apache-OFBiz](https://github.com/rakjong/CVE-2021-26295-Apache-OFBiz) :  ![starts](https://img.shields.io/github/stars/rakjong/CVE-2021-26295-Apache-OFBiz.svg) ![forks](https://img.shields.io/github/forks/rakjong/CVE-2021-26295-Apache-OFBiz.svg)
 
 - [https://github.com/yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc) :  ![starts](https://img.shields.io/github/stars/yuaneuro/ofbiz-poc.svg) ![forks](https://img.shields.io/github/forks/yuaneuro/ofbiz-poc.svg)
@@ -1073,6 +1068,8 @@
 
 
 - [https://github.com/r0ckysec/CVE-2021-22214](https://github.com/r0ckysec/CVE-2021-22214) :  ![starts](https://img.shields.io/github/stars/r0ckysec/CVE-2021-22214.svg) ![forks](https://img.shields.io/github/forks/r0ckysec/CVE-2021-22214.svg)
+
+- [https://github.com/Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/gitlab-cve-2021-22214.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/gitlab-cve-2021-22214.svg)
 
 ## CVE-2021-22205
  An issue has been discovered in GitLab CE/EE affecting all versions starting from 11.9. GitLab was not properly validating image files that were passed to a file parser which resulted in a remote command execution.
@@ -1429,6 +1426,8 @@
 - [https://github.com/deathflash1411/CVE-2021-3560](https://github.com/deathflash1411/CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/deathflash1411/CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/deathflash1411/CVE-2021-3560.svg)
 
 - [https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation](https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation) :  ![starts](https://img.shields.io/github/stars/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation.svg) ![forks](https://img.shields.io/github/forks/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation.svg)
+
+- [https://github.com/AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/AssassinUKG/Polkit-CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/AssassinUKG/Polkit-CVE-2021-3560.svg)
 
 - [https://github.com/tyleraharrison/CVE-2021-3560_PoC](https://github.com/tyleraharrison/CVE-2021-3560_PoC) :  ![starts](https://img.shields.io/github/stars/tyleraharrison/CVE-2021-3560_PoC.svg) ![forks](https://img.shields.io/github/forks/tyleraharrison/CVE-2021-3560_PoC.svg)
 
@@ -1838,6 +1837,15 @@
 
 
 - [https://github.com/waleedassar/CVE-2021-1699](https://github.com/waleedassar/CVE-2021-1699) :  ![starts](https://img.shields.io/github/stars/waleedassar/CVE-2021-1699.svg) ![forks](https://img.shields.io/github/forks/waleedassar/CVE-2021-1699.svg)
+
+## CVE-2021-1675
+ Windows Print Spooler Elevation of Privilege Vulnerability
+
+
+
+- [https://github.com/cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2021-1675.svg)
+
+- [https://github.com/yu2u/CVE-2021-1675](https://github.com/yu2u/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/yu2u/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/yu2u/CVE-2021-1675.svg)
 
 ## CVE-2021-1656
  TPM Device Driver Information Disclosure Vulnerability
