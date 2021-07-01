@@ -1,30 +1,55 @@
-# Update 2021-06-30
-## CVE-2021-3156
- Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
+# Update 2021-07-01
+## CVE-2021-26295
+ Apache OFBiz has unsafe deserialization prior to 17.12.06. An unauthenticated attacker can use this vulnerability to successfully take over Apache OFBiz.
 
-- [https://github.com/ThomTiber/patches](https://github.com/ThomTiber/patches) :  ![starts](https://img.shields.io/github/stars/ThomTiber/patches.svg) ![forks](https://img.shields.io/github/forks/ThomTiber/patches.svg)
-
-
-## CVE-2020-15368
- AsrDrv103.sys in the ASRock RGB Driver does not properly restrict access from user space, as demonstrated by triggering a triple fault via a request to zero CR3.
-
-- [https://github.com/stong/CVE-2020-15368](https://github.com/stong/CVE-2020-15368) :  ![starts](https://img.shields.io/github/stars/stong/CVE-2020-15368.svg) ![forks](https://img.shields.io/github/forks/stong/CVE-2020-15368.svg)
+- [https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP](https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP) :  ![starts](https://img.shields.io/github/stars/S0por/CVE-2021-26295-Apache-OFBiz-EXP.svg) ![forks](https://img.shields.io/github/forks/S0por/CVE-2021-26295-Apache-OFBiz-EXP.svg)
 
 
-## CVE-2019-12725
- Zeroshell 3.9.0 is prone to a remote command execution vulnerability. Specifically, this issue occurs because the web application mishandles a few HTTP parameters. An unauthenticated attacker can exploit this issue by injecting OS commands inside the vulnerable parameters.
+## CVE-2021-22214
+ When requests to the internal network for webhooks are enabled, a server-side request forgery vulnerability in GitLab CE/EE affecting all versions starting from 10.5 was possible to exploit for an unauthenticated attacker even on a GitLab instance where registration is limited
 
-- [https://github.com/MzzdToT/CVE-2019-12725](https://github.com/MzzdToT/CVE-2019-12725) :  ![starts](https://img.shields.io/github/stars/MzzdToT/CVE-2019-12725.svg) ![forks](https://img.shields.io/github/forks/MzzdToT/CVE-2019-12725.svg)
-
-
-## CVE-2019-9787
- WordPress before 5.1.1 does not properly filter comment content, leading to Remote Code Execution by unauthenticated users in a default configuration. This occurs because CSRF protection is mishandled, and because Search Engine Optimization of A elements is performed incorrectly, leading to XSS. The XSS results in administrative access, which allows arbitrary changes to .php files. This is related to wp-admin/includes/ajax-actions.php and wp-includes/comment.php.
-
-- [https://github.com/dexXxed/CVE-2019-9787](https://github.com/dexXxed/CVE-2019-9787) :  ![starts](https://img.shields.io/github/stars/dexXxed/CVE-2019-9787.svg) ![forks](https://img.shields.io/github/forks/dexXxed/CVE-2019-9787.svg)
+- [https://github.com/Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/gitlab-cve-2021-22214.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/gitlab-cve-2021-22214.svg)
 
 
-## CVE-2019-6447
- The ES File Explorer File Manager application through 4.1.9.7.4 for Android allows remote attackers to read arbitrary files or execute applications via TCP port 59777 requests on the local Wi-Fi network. This TCP port remains open after the ES application has been launched once, and responds to unauthenticated application/json data over HTTP.
+## CVE-2021-3560
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/N3H4L/CVE-2019-6447](https://github.com/N3H4L/CVE-2019-6447) :  ![starts](https://img.shields.io/github/stars/N3H4L/CVE-2019-6447.svg) ![forks](https://img.shields.io/github/forks/N3H4L/CVE-2019-6447.svg)
+- [https://github.com/AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/AssassinUKG/Polkit-CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/AssassinUKG/Polkit-CVE-2021-3560.svg)
+
+
+## CVE-2021-1675
+ Windows Print Spooler Elevation of Privilege Vulnerability
+
+- [https://github.com/cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2021-1675.svg)
+- [https://github.com/yu2u/CVE-2021-1675](https://github.com/yu2u/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/yu2u/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/yu2u/CVE-2021-1675.svg)
+
+
+## CVE-2020-1350
+ A remote code execution vulnerability exists in Windows Domain Name System servers when they fail to properly handle requests, aka 'Windows DNS Server Remote Code Execution Vulnerability'.
+
+- [https://github.com/ejlevin99/CVE---2020---1350](https://github.com/ejlevin99/CVE---2020---1350) :  ![starts](https://img.shields.io/github/stars/ejlevin99/CVE---2020---1350.svg) ![forks](https://img.shields.io/github/forks/ejlevin99/CVE---2020---1350.svg)
+
+
+## CVE-2019-10149
+ A flaw was found in Exim versions 4.87 to 4.91 (inclusive). Improper validation of recipient address in deliver_message() function in /src/deliver.c may lead to remote command execution.
+
+- [https://github.com/Chris-dev1/exim.exp](https://github.com/Chris-dev1/exim.exp) :  ![starts](https://img.shields.io/github/stars/Chris-dev1/exim.exp.svg) ![forks](https://img.shields.io/github/forks/Chris-dev1/exim.exp.svg)
+
+
+## CVE-2018-15961
+ Adobe ColdFusion versions July 12 release (2018.0.0.310739), Update 6 and earlier, and Update 14 and earlier have an unrestricted file upload vulnerability. Successful exploitation could lead to arbitrary code execution.
+
+- [https://github.com/xbufu/CVE-2018-15961](https://github.com/xbufu/CVE-2018-15961) :  ![starts](https://img.shields.io/github/stars/xbufu/CVE-2018-15961.svg) ![forks](https://img.shields.io/github/forks/xbufu/CVE-2018-15961.svg)
+
+
+## CVE-2018-2894
+ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS - Web Services). Supported versions that are affected are 12.1.3.0, 12.2.1.2 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+
+- [https://github.com/momentn/CVE-2018-2894-Weblogic-](https://github.com/momentn/CVE-2018-2894-Weblogic-) :  ![starts](https://img.shields.io/github/stars/momentn/CVE-2018-2894-Weblogic-.svg) ![forks](https://img.shields.io/github/forks/momentn/CVE-2018-2894-Weblogic-.svg)
+
+
+## CVE-2007-2447
+ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
+
+- [https://github.com/Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Alien0ne/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Alien0ne/CVE-2007-2447.svg)
 
