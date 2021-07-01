@@ -1,3 +1,10 @@
+## CVE-2004-2687
+ distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.
+
+
+
+- [https://github.com/3hydraking/distccd_rce_CVE-2004-2687](https://github.com/3hydraking/distccd_rce_CVE-2004-2687) :  ![starts](https://img.shields.io/github/stars/3hydraking/distccd_rce_CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/3hydraking/distccd_rce_CVE-2004-2687.svg)
+
 ## CVE-2004-2549
  Nortel Wireless LAN (WLAN) Access Point (AP) 2220, 2221, and 2225 allow remote attackers to cause a denial of service (service crash) via a TCP request with a large string, followed by 8 newline characters, to (1) the Telnet service on TCP port 23 and (2) the HTTP service on TCP port 80, possibly due to a buffer overflow.
 
