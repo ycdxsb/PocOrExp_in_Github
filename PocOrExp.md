@@ -1,10 +1,17 @@
 ## 2021
-## CVE-2021-35475
- SAS Environment Manager 2.5 allows XSS through the Name field when creating/editing a server. The XSS will prompt when editing the Configuration Properties.
+## CVE-2021-35959
+ In Plone 5.0 through 5.2.4, Editors are vulnerable to XSS in the folder contents view, if a Contributor has created a folder with a SCRIPT tag in the description field.
 
 
 
-- [https://github.com/saitamang/CVE-2021-35475](https://github.com/saitamang/CVE-2021-35475) :  ![starts](https://img.shields.io/github/stars/saitamang/CVE-2021-35475.svg) ![forks](https://img.shields.io/github/forks/saitamang/CVE-2021-35475.svg)
+- [https://github.com/AlAIAL90/CVE-2021-35959](https://github.com/AlAIAL90/CVE-2021-35959) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-35959.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-35959.svg)
+
+## CVE-2021-35956
+ Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe before SP480-20210624 enables remote authenticated attackers to introduce arbitrary JavaScript via the Sensor Description, Email (from/to/cc), System Name, and System Location fields.
+
+
+
+- [https://github.com/tcbutler320/CVE-2021-35956](https://github.com/tcbutler320/CVE-2021-35956) :  ![starts](https://img.shields.io/github/stars/tcbutler320/CVE-2021-35956.svg) ![forks](https://img.shields.io/github/forks/tcbutler320/CVE-2021-35956.svg)
 
 ## CVE-2021-35464
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -21,6 +28,13 @@
 
 
 - [https://github.com/deathflash1411/CVE-2021-35448](https://github.com/deathflash1411/CVE-2021-35448) :  ![starts](https://img.shields.io/github/stars/deathflash1411/CVE-2021-35448.svg) ![forks](https://img.shields.io/github/forks/deathflash1411/CVE-2021-35448.svg)
+
+## CVE-2021-34075
+ In Artica Pandora FMS &lt;=754 in the File Manager component, there is sensitive information exposed on the client side which attackers can access.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-34075](https://github.com/AlAIAL90/CVE-2021-34075) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-34075.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-34075.svg)
 
 ## CVE-2021-33879
  Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP connection. A malicious attacker in an MITM position could spoof the contents of an XML document describing an update package, replacing a download URL with one pointing to an arbitrary Windows executable. Because the only integrity check would be a comparison of the downloaded file's MD5 checksum to the one contained within the XML document, the downloaded executable would then be executed on the victim's machine.
@@ -57,12 +71,54 @@
 
 - [https://github.com/mdanzaruddin/CVE-2021-33558.](https://github.com/mdanzaruddin/CVE-2021-33558.) :  ![starts](https://img.shields.io/github/stars/mdanzaruddin/CVE-2021-33558..svg) ![forks](https://img.shields.io/github/forks/mdanzaruddin/CVE-2021-33558..svg)
 
+## CVE-2021-33531
+ In Weidmueller Industrial WLAN devices in multiple versions an exploitable use of hard-coded credentials vulnerability exists in multiple iw_* utilities. The device operating system contains an undocumented encryption password, allowing for the creation of custom diagnostic scripts. An attacker can send diagnostic scripts while authenticated as a low privilege user to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-33531](https://github.com/AlAIAL90/CVE-2021-33531) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33531.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33531.svg)
+
+## CVE-2021-33530
+ In Weidmueller Industrial WLAN devices in multiple versions an exploitable command injection vulnerability exists in encrypted diagnostic script functionality of the devices. A specially crafted diagnostic script file can cause arbitrary busybox commands to be executed, resulting in remote control over the device. An attacker can send diagnostic while authenticated as a low privilege user to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-33530](https://github.com/AlAIAL90/CVE-2021-33530) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33530.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33530.svg)
+
+## CVE-2021-33529
+ In Weidmueller Industrial WLAN devices in multiple versions the usage of hard-coded cryptographic keys within the service agent binary allows for the decryption of captured traffic across the network from or to the device.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-33529](https://github.com/AlAIAL90/CVE-2021-33529) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33529.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33529.svg)
+
+## CVE-2021-33528
+ In Weidmueller Industrial WLAN devices in multiple versions an exploitable privilege escalation vulnerability exists in the iw_console functionality. A specially crafted menu selection string can cause an escape from the restricted console, resulting in system access as the root user. An attacker can send commands while authenticated as a low privilege user to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-33528](https://github.com/AlAIAL90/CVE-2021-33528) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33528.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33528.svg)
+
+## CVE-2021-33348
+ An issue was discovered in JFinal framework v4.9.10 and below. The &quot;set&quot; method of the &quot;Controller&quot; class of jfinal framework is not strictly filtered, which will lead to XSS vulnerabilities in some cases.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-33348](https://github.com/AlAIAL90/CVE-2021-33348) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33348.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33348.svg)
+
 ## CVE-2021-32819
  Squirrelly is a template engine implemented in JavaScript that works out of the box with ExpressJS. Squirrelly mixes pure template data with engine configuration options through the Express render API. By overwriting internal configuration options remote code execution may be triggered in downstream applications. There is currently no fix for these issues as of the publication of this CVE. The latest version of squirrelly is currently 8.0.8. For complete details refer to the referenced GHSL-2021-023.
 
 
 
 - [https://github.com/Abady0x1/CVE-2021-32819](https://github.com/Abady0x1/CVE-2021-32819) :  ![starts](https://img.shields.io/github/stars/Abady0x1/CVE-2021-32819.svg) ![forks](https://img.shields.io/github/forks/Abady0x1/CVE-2021-32819.svg)
+
+## CVE-2021-32736
+ think-helper defines a set of helper functions for ThinkJS. In versions of think-helper prior to 1.1.3, the software receives input from an upstream component that specifies attributes that are to be initialized or updated in an object, but it does not properly control modifications of attributes of the object prototype. The vulnerability is patched in version 1.1.3.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-32736](https://github.com/AlAIAL90/CVE-2021-32736) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-32736.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-32736.svg)
 
 ## CVE-2021-32537
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -147,6 +203,13 @@
 
 - [https://github.com/l00neyhacker/CVE-2021-31702](https://github.com/l00neyhacker/CVE-2021-31702) :  ![starts](https://img.shields.io/github/stars/l00neyhacker/CVE-2021-31702.svg) ![forks](https://img.shields.io/github/forks/l00neyhacker/CVE-2021-31702.svg)
 
+## CVE-2021-31506
+ This vulnerability allows remote attackers to disclose sensitive information on affected installations of OpenText Brava! Desktop Build 16.6.4.55. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Was ZDI-CAN-13674.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-31506](https://github.com/AlAIAL90/CVE-2021-31506) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-31506.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-31506.svg)
+
 ## CVE-2021-31184
  Microsoft Windows Infrared Data Association (IrDA) Information Disclosure Vulnerability
 
@@ -163,9 +226,9 @@
 
 - [https://github.com/corelight/CVE-2021-31166](https://github.com/corelight/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/corelight/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/corelight/CVE-2021-31166.svg)
 
-- [https://github.com/phil-fly/poc](https://github.com/phil-fly/poc) :  ![starts](https://img.shields.io/github/stars/phil-fly/poc.svg) ![forks](https://img.shields.io/github/forks/phil-fly/poc.svg)
-
 - [https://github.com/Frankmock/CVE-2021-31166-detection-rules](https://github.com/Frankmock/CVE-2021-31166-detection-rules) :  ![starts](https://img.shields.io/github/stars/Frankmock/CVE-2021-31166-detection-rules.svg) ![forks](https://img.shields.io/github/forks/Frankmock/CVE-2021-31166-detection-rules.svg)
+
+- [https://github.com/phil-fly/poc](https://github.com/phil-fly/poc) :  ![starts](https://img.shields.io/github/stars/phil-fly/poc.svg) ![forks](https://img.shields.io/github/forks/phil-fly/poc.svg)
 
 - [https://github.com/An0ny-m0us/CVE-2021-31166](https://github.com/An0ny-m0us/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/An0ny-m0us/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/An0ny-m0us/CVE-2021-31166.svg)
 
@@ -249,6 +312,83 @@
 
 
 - [https://github.com/atorralba/CVE-2021-30005-POC](https://github.com/atorralba/CVE-2021-30005-POC) :  ![starts](https://img.shields.io/github/stars/atorralba/CVE-2021-30005-POC.svg) ![forks](https://img.shields.io/github/forks/atorralba/CVE-2021-30005-POC.svg)
+
+## CVE-2021-29965
+ A malicious website that causes an HTTP Authentication dialog to be spawned could trick the built-in password manager to suggest passwords for the currently active website instead of the website that triggered the dialog. *This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox &lt; 89.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-29965](https://github.com/AlAIAL90/CVE-2021-29965) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-29965.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-29965.svg)
+
+## CVE-2021-29964
+ A locally-installed hostile program could send `WM_COPYDATA` messages that Firefox would process incorrectly, leading to an out-of-bounds read. *This bug only affects Firefox on Windows. Other operating systems are unaffected.*. This vulnerability affects Thunderbird &lt; 78.11, Firefox &lt; 89, and Firefox ESR &lt; 78.11.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-29964](https://github.com/AlAIAL90/CVE-2021-29964) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-29964.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-29964.svg)
+
+## CVE-2021-29961
+ When styling and rendering an oversized `&lt;select&gt;` element, Firefox did not apply correct clipping which allowed an attacker to paint over the user interface. This vulnerability affects Firefox &lt; 89.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-29961](https://github.com/AlAIAL90/CVE-2021-29961) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-29961.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-29961.svg)
+
+## CVE-2021-29956
+ OpenPGP secret keys that were imported using Thunderbird version 78.8.1 up to version 78.10.1 were stored unencrypted on the user's local disk. The master password protection was inactive for those keys. Version 78.10.2 will restore the protection mechanism for newly imported keys, and will automatically protect keys that had been imported using affected Thunderbird versions. This vulnerability affects Thunderbird &lt; 78.10.2.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-29956](https://github.com/AlAIAL90/CVE-2021-29956) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-29956.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-29956.svg)
+
+## CVE-2021-29954
+ Proxy functionality built into Hubs Cloud&#8217;s Reticulum software allowed access to internal URLs, including the metadata service. This vulnerability affects Hubs Cloud &lt; mozillareality/reticulum/1.0.1/20210428201255.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-29954](https://github.com/AlAIAL90/CVE-2021-29954) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-29954.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-29954.svg)
+
+## CVE-2021-29951
+ The Mozilla Maintenance Service granted SERVICE_START access to BUILTIN|Users which, in a domain network, grants normal remote users access to start or stop the service. This could be used to prevent the browser update service from operating (if an attacker spammed the 'Stop' command); but also exposed attack surface in the maintenance service. *Note: This issue only affected Windows operating systems older than Win 10 build 1709. Other operating systems are unaffected.*. This vulnerability affects Thunderbird &lt; 78.10.1, Firefox &lt; 87, and Firefox ESR &lt; 78.10.1.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-29951](https://github.com/AlAIAL90/CVE-2021-29951) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-29951.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-29951.svg)
+
+## CVE-2021-29949
+ When loading the shared library that provides the OTR protocol implementation, Thunderbird will initially attempt to open it using a filename that isn't distributed by Thunderbird. If a computer has already been infected with a malicious library of the alternative filename, and the malicious library has been copied to a directory that is contained in the search path for executable libraries, then Thunderbird will load the incorrect library. This vulnerability affects Thunderbird &lt; 78.9.1.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-29949](https://github.com/AlAIAL90/CVE-2021-29949) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-29949.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-29949.svg)
+
+## CVE-2021-29948
+ Signatures are written to disk before and read during verification, which might be subject to a race condition when a malicious local process or user is replacing the file. This vulnerability affects Thunderbird &lt; 78.10.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-29948](https://github.com/AlAIAL90/CVE-2021-29948) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-29948.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-29948.svg)
+
+## CVE-2021-29945
+ The WebAssembly JIT could miscalculate the size of a return type, which could lead to a null read and result in a crash. *Note: This issue only affected x86-32 platforms. Other platforms are unaffected.*. This vulnerability affects Firefox ESR &lt; 78.10, Thunderbird &lt; 78.10, and Firefox &lt; 88.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-29945](https://github.com/AlAIAL90/CVE-2021-29945) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-29945.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-29945.svg)
+
+## CVE-2021-29677
+ IBM Security Verify (IBM Security Verify Privilege Vault 10.9.66) is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-29677](https://github.com/AlAIAL90/CVE-2021-29677) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-29677.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-29677.svg)
+
+## CVE-2021-29676
+ IBM Security Verify (IBM Security Verify Privilege Vault 10.9.66) is vulnerable to link injection. By persuading a victim to click on a specially-crafted URL link, a remote attacker could exploit this vulnerability to conduct various attacks against the vulnerable system, including cross-site scripting, cache poisoning or session hijacking
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-29676](https://github.com/AlAIAL90/CVE-2021-29676) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-29676.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-29676.svg)
 
 ## CVE-2021-29627
  In FreeBSD 13.0-STABLE before n245050, 12.2-STABLE before r369525, 13.0-RC4 before p0, and 12.2-RELEASE before p6, listening socket accept filters implementing the accf_create callback incorrectly freed a process supplied argument string. Additional operations on the socket can lead to a double free or use after free.
@@ -1005,6 +1145,13 @@
 
 - [https://github.com/CENSUS/whatsapp-mitd-mitm](https://github.com/CENSUS/whatsapp-mitd-mitm) :  ![starts](https://img.shields.io/github/stars/CENSUS/whatsapp-mitd-mitm.svg) ![forks](https://img.shields.io/github/forks/CENSUS/whatsapp-mitd-mitm.svg)
 
+## CVE-2021-23398
+ All versions of package react-bootstrap-table are vulnerable to Cross-site Scripting (XSS) via the dataFormat parameter. The problem is triggered when an invalid React element is returned, leading to dangerouslySetInnerHTML being used, which does not sanitize the output.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-23398](https://github.com/AlAIAL90/CVE-2021-23398) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-23398.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-23398.svg)
+
 ## CVE-2021-23383
  The package handlebars before 4.7.7 are vulnerable to Prototype Pollution when selecting certain compiling options to compile templates coming from an untrusted source.
 
@@ -1071,6 +1218,76 @@
 - [https://github.com/ZephrFish/CVE-2021-22893](https://github.com/ZephrFish/CVE-2021-22893) :  ![starts](https://img.shields.io/github/stars/ZephrFish/CVE-2021-22893.svg) ![forks](https://img.shields.io/github/forks/ZephrFish/CVE-2021-22893.svg)
 
 - [https://github.com/Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893) :  ![starts](https://img.shields.io/github/stars/Mad-robot/CVE-2021-22893.svg) ![forks](https://img.shields.io/github/forks/Mad-robot/CVE-2021-22893.svg)
+
+## CVE-2021-22368
+ There is a Permission Control Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may affect normal use of the device.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-22368](https://github.com/AlAIAL90/CVE-2021-22368) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-22368.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-22368.svg)
+
+## CVE-2021-22367
+ There is a Key Management Errors Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may lead to authentication bypass.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-22367](https://github.com/AlAIAL90/CVE-2021-22367) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-22367.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-22367.svg)
+
+## CVE-2021-22354
+ There is an Information Disclosure Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may cause out-of-bounds read.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-22354](https://github.com/AlAIAL90/CVE-2021-22354) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-22354.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-22354.svg)
+
+## CVE-2021-22353
+ There is a Memory Buffer Improper Operation Limit Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may cause the kernel to restart.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-22353](https://github.com/AlAIAL90/CVE-2021-22353) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-22353.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-22353.svg)
+
+## CVE-2021-22352
+ There is a Configuration Defect Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may allow attackers to hijack the device and forge UIs to induce users to execute malicious commands.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-22352](https://github.com/AlAIAL90/CVE-2021-22352) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-22352.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-22352.svg)
+
+## CVE-2021-22351
+ There is a Credentials Management Errors Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may induce users to grant permissions on modifying items in the configuration table,causing system exceptions.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-22351](https://github.com/AlAIAL90/CVE-2021-22351) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-22351.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-22351.svg)
+
+## CVE-2021-22350
+ There is a Memory Buffer Improper Operation Limit Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may cause the device to crash and restart.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-22350](https://github.com/AlAIAL90/CVE-2021-22350) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-22350.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-22350.svg)
+
+## CVE-2021-22349
+ There is an Input Verification Vulnerability in Huawei Smartphone. Successful exploitation of insufficient input verification may cause the system to restart.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-22349](https://github.com/AlAIAL90/CVE-2021-22349) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-22349.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-22349.svg)
+
+## CVE-2021-22348
+ There is a Memory Buffer Improper Operation Limit Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may cause code to execute.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-22348](https://github.com/AlAIAL90/CVE-2021-22348) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-22348.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-22348.svg)
+
+## CVE-2021-22346
+ There is an Improper Permission Management Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may lead to the disclosure of user habits.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-22346](https://github.com/AlAIAL90/CVE-2021-22346) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-22346.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-22346.svg)
 
 ## CVE-2021-22222
  Infinite loop in DVB-S2-BB dissector in Wireshark 3.4.0 to 3.4.5 allows denial of service via packet injection or crafted capture file
@@ -1242,11 +1459,81 @@
 
 - [https://github.com/password520/CVE-2021-21972](https://github.com/password520/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/password520/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/password520/CVE-2021-21972.svg)
 
-- [https://github.com/murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2021-21972.svg)
-
 - [https://github.com/JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/JMousqueton/Detect-CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/JMousqueton/Detect-CVE-2021-21972.svg)
 
+- [https://github.com/murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2021-21972.svg)
+
 - [https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg)
+
+## CVE-2021-21676
+ Jenkins requests-plugin Plugin 2.2.7 and earlier does not perform a permission check in an HTTP endpoint, allowing attackers with Overall/Read permission to send test emails to an attacker-specified email address.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21676](https://github.com/AlAIAL90/CVE-2021-21676) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21676.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21676.svg)
+
+## CVE-2021-21675
+ A cross-site request forgery (CSRF) vulnerability in Jenkins requests-plugin Plugin 2.2.12 and earlier allows attackers to create requests and/or have administrators apply pending requests.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21675](https://github.com/AlAIAL90/CVE-2021-21675) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21675.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21675.svg)
+
+## CVE-2021-21674
+ A missing permission check in Jenkins requests-plugin Plugin 2.2.6 and earlier allows attackers with Overall/Read permission to view the list of pending requests.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21674](https://github.com/AlAIAL90/CVE-2021-21674) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21674.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21674.svg)
+
+## CVE-2021-21673
+ Jenkins CAS Plugin 1.6.0 and earlier improperly determines that a redirect URL after login is legitimately pointing to Jenkins, allowing attackers to perform phishing attacks.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21673](https://github.com/AlAIAL90/CVE-2021-21673) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21673.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21673.svg)
+
+## CVE-2021-21672
+ Jenkins Selenium HTML report Plugin 1.0 and earlier does not configure its XML parser to prevent XML external entity (XXE) attacks.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21672](https://github.com/AlAIAL90/CVE-2021-21672) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21672.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21672.svg)
+
+## CVE-2021-21671
+ Jenkins 2.299 and earlier, LTS 2.289.1 and earlier does not invalidate the previous session on login.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21671](https://github.com/AlAIAL90/CVE-2021-21671) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21671.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21671.svg)
+
+## CVE-2021-21670
+ Jenkins 2.299 and earlier, LTS 2.289.1 and earlier allows users to cancel queue items and abort builds of jobs for which they have Item/Cancel permission even when they do not have Item/Read permission.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21670](https://github.com/AlAIAL90/CVE-2021-21670) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21670.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21670.svg)
+
+## CVE-2021-21574
+ Dell BIOSConnect feature contains a buffer overflow vulnerability. An authenticated malicious admin user with local access to the system may potentially exploit this vulnerability to run arbitrary code and bypass UEFI restrictions.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21574](https://github.com/AlAIAL90/CVE-2021-21574) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21574.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21574.svg)
+
+## CVE-2021-21573
+ Dell BIOSConnect feature contains a buffer overflow vulnerability. An authenticated malicious admin user with local access to the system may potentially exploit this vulnerability to run arbitrary code and bypass UEFI restrictions.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21573](https://github.com/AlAIAL90/CVE-2021-21573) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21573.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21573.svg)
+
+## CVE-2021-21572
+ Dell BIOSConnect feature contains a buffer overflow vulnerability. An authenticated malicious admin user with local access to the system may potentially exploit this vulnerability to run arbitrary code and bypass UEFI restrictions.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21572](https://github.com/AlAIAL90/CVE-2021-21572) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21572.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21572.svg)
 
 ## CVE-2021-21551
  Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability which may lead to escalation of privileges, denial of service, or information disclosure. Local authenticated user access is required.
@@ -1338,9 +1625,9 @@
 
 - [https://github.com/Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Kirill89/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Kirill89/CVE-2021-21300.svg)
 
-- [https://github.com/ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/ETOCheney/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/ETOCheney/cve-2021-21300.svg)
-
 - [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
+
+- [https://github.com/ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/ETOCheney/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/ETOCheney/cve-2021-21300.svg)
 
 - [https://github.com/1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/1uanWu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/1uanWu/CVE-2021-21300.svg)
 
@@ -1410,6 +1697,34 @@
 - [https://github.com/s-index/poc-list](https://github.com/s-index/poc-list) :  ![starts](https://img.shields.io/github/stars/s-index/poc-list.svg) ![forks](https://img.shields.io/github/forks/s-index/poc-list.svg)
 
 - [https://github.com/s-index/CVE-2021-20717](https://github.com/s-index/CVE-2021-20717) :  ![starts](https://img.shields.io/github/stars/s-index/CVE-2021-20717.svg) ![forks](https://img.shields.io/github/forks/s-index/CVE-2021-20717.svg)
+
+## CVE-2021-20583
+ IBM Security Verify (IBM Security Verify Privilege Vault 10.9.66) could disclose sensitive information through an HTTP GET request by a privileged user due to improper input validation.. IBM X-Force ID: 199396.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20583](https://github.com/AlAIAL90/CVE-2021-20583) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20583.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20583.svg)
+
+## CVE-2021-20580
+ IBM Planning Analytics 2.0 could be vulnerable to cross-site request forgery (CSRF) which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts. IBM X-Force ID: 198241.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20580](https://github.com/AlAIAL90/CVE-2021-20580) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20580.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20580.svg)
+
+## CVE-2021-20490
+ IBM Spectrum Protect Plus 10.1.0 through 10.1.8 could allow a local user to cause a denial of service due to insecure file permission settings. IBM X-Force ID: 197791.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20490](https://github.com/AlAIAL90/CVE-2021-20490) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20490.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20490.svg)
+
+## CVE-2021-20477
+ IBM Planning Analytics 2.0 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 196949.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20477](https://github.com/AlAIAL90/CVE-2021-20477) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20477.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20477.svg)
 
 ## CVE-2021-20202
  A flaw was found in keycloak. Directories can be created prior to the Java process creating them in the temporary directory, but with wider user permissions, allowing the attacker to have access to the contents that keycloak stores in this directory. The highest threat from this vulnerability is to data confidentiality and integrity.
@@ -1608,9 +1923,9 @@
 
 - [https://github.com/kal1gh0st/CVE-2021-3156](https://github.com/kal1gh0st/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/kal1gh0st/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/kal1gh0st/CVE-2021-3156.svg)
 
-- [https://github.com/Nokialinux/CVE-2021-3156](https://github.com/Nokialinux/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Nokialinux/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Nokialinux/CVE-2021-3156.svg)
-
 - [https://github.com/nobodyatall648/CVE-2021-3156](https://github.com/nobodyatall648/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2021-3156.svg)
+
+- [https://github.com/Nokialinux/CVE-2021-3156](https://github.com/Nokialinux/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Nokialinux/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Nokialinux/CVE-2021-3156.svg)
 
 - [https://github.com/lmol/CVE-2021-3156](https://github.com/lmol/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/lmol/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/lmol/CVE-2021-3156.svg)
 
@@ -1626,11 +1941,11 @@
 
 - [https://github.com/freeFV/CVE-2021-3156](https://github.com/freeFV/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/freeFV/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/freeFV/CVE-2021-3156.svg)
 
-- [https://github.com/password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/password520/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/password520/CVE-2021-3156.svg)
-
 - [https://github.com/cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/cdeletre/Serpentiel-CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/cdeletre/Serpentiel-CVE-2021-3156.svg)
 
 - [https://github.com/oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/oneoy/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/oneoy/CVE-2021-3156.svg)
+
+- [https://github.com/password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/password520/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/password520/CVE-2021-3156.svg)
 
 - [https://github.com/mrofisr/docker-cve-2021-3156](https://github.com/mrofisr/docker-cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/mrofisr/docker-cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/mrofisr/docker-cve-2021-3156.svg)
 
@@ -1638,9 +1953,9 @@
 
 - [https://github.com/AlexSeniorProject/CVE-2021-3156](https://github.com/AlexSeniorProject/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/AlexSeniorProject/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/AlexSeniorProject/CVE-2021-3156.svg)
 
-- [https://github.com/gmldbd94/cve-2021-3156](https://github.com/gmldbd94/cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/gmldbd94/cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/gmldbd94/cve-2021-3156.svg)
-
 - [https://github.com/TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/TheFlash2k/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/TheFlash2k/CVE-2021-3156.svg)
+
+- [https://github.com/gmldbd94/cve-2021-3156](https://github.com/gmldbd94/cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/gmldbd94/cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/gmldbd94/cve-2021-3156.svg)
 
 - [https://github.com/voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/voidlsd/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/voidlsd/CVE-2021-3156.svg)
 
@@ -1864,11 +2179,27 @@
 
 - [https://github.com/cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2021-1675.svg)
 
+- [https://github.com/hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE) :  ![starts](https://img.shields.io/github/stars/hlldz/CVE-2021-1675-LPE.svg) ![forks](https://img.shields.io/github/forks/hlldz/CVE-2021-1675-LPE.svg)
+
 - [https://github.com/LaresLLC/CVE-2021-1675](https://github.com/LaresLLC/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/LaresLLC/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/LaresLLC/CVE-2021-1675.svg)
+
+- [https://github.com/calebstewart/CVE-2021-1675](https://github.com/calebstewart/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/calebstewart/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/calebstewart/CVE-2021-1675.svg)
+
+- [https://github.com/evilashz/CVE-2021-1675-LPE-EXP](https://github.com/evilashz/CVE-2021-1675-LPE-EXP) :  ![starts](https://img.shields.io/github/stars/evilashz/CVE-2021-1675-LPE-EXP.svg) ![forks](https://img.shields.io/github/forks/evilashz/CVE-2021-1675-LPE-EXP.svg)
+
+- [https://github.com/kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675) :  ![starts](https://img.shields.io/github/stars/kondah/patch-cve-2021-1675.svg) ![forks](https://img.shields.io/github/forks/kondah/patch-cve-2021-1675.svg)
 
 - [https://github.com/yu2u/CVE-2021-1675](https://github.com/yu2u/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/yu2u/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/yu2u/CVE-2021-1675.svg)
 
-- [https://github.com/kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675) :  ![starts](https://img.shields.io/github/stars/kondah/patch-cve-2021-1675.svg) ![forks](https://img.shields.io/github/forks/kondah/patch-cve-2021-1675.svg)
+- [https://github.com/cybersecurityworks553/CVE-2021-1675_PrintNightMare](https://github.com/cybersecurityworks553/CVE-2021-1675_PrintNightMare) :  ![starts](https://img.shields.io/github/stars/cybersecurityworks553/CVE-2021-1675_PrintNightMare.svg) ![forks](https://img.shields.io/github/forks/cybersecurityworks553/CVE-2021-1675_PrintNightMare.svg)
+
+- [https://github.com/Leonidus0x10/CVE-2021-1675-SCANNER](https://github.com/Leonidus0x10/CVE-2021-1675-SCANNER) :  ![starts](https://img.shields.io/github/stars/Leonidus0x10/CVE-2021-1675-SCANNER.svg) ![forks](https://img.shields.io/github/forks/Leonidus0x10/CVE-2021-1675-SCANNER.svg)
+
+- [https://github.com/puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-1675.svg)
+
+- [https://github.com/tanarchytan/CVE-2021-1675](https://github.com/tanarchytan/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/tanarchytan/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/tanarchytan/CVE-2021-1675.svg)
+
+- [https://github.com/DenizSe/CVE-2021-1675](https://github.com/DenizSe/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/DenizSe/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/DenizSe/CVE-2021-1675.svg)
 
 ## CVE-2021-1656
  TPM Device Driver Information Disclosure Vulnerability
@@ -1911,6 +2242,13 @@
 
 
 - [https://github.com/chenanu123/cve-2021-11123](https://github.com/chenanu123/cve-2021-11123) :  ![starts](https://img.shields.io/github/stars/chenanu123/cve-2021-11123.svg) ![forks](https://img.shields.io/github/forks/chenanu123/cve-2021-11123.svg)
+
+## CVE-2021-1075
+ NVIDIA Windows GPU Display Driver for Windows, all versions, contains a vulnerability in the kernel mode layer (nvlddmkm.sys) handler for DxgkDdiEscape where the program dereferences a pointer that contains a location for memory that is no longer valid, which may lead to code execution, denial of service, or escalation of privileges. Attacker does not have any control over the information and may conduct limited data modification.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-1075](https://github.com/AlAIAL90/CVE-2021-1075) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-1075.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-1075.svg)
 
 ## CVE-2021-1056
  NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in the kernel mode layer (nvidia.ko) in which it does not completely honor operating system file system permissions to provide GPU device-level isolation, which may lead to denial of service or information disclosure.
