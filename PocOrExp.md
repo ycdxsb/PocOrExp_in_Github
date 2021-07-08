@@ -22896,6 +22896,13 @@
 
 - [https://github.com/irsl/lgosp-poc](https://github.com/irsl/lgosp-poc) :  ![starts](https://img.shields.io/github/stars/irsl/lgosp-poc.svg) ![forks](https://img.shields.io/github/forks/irsl/lgosp-poc.svg)
 
+## CVE-2014-8729
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/inso-/TORQUE-Resource-Manager-2.5.x-2.5.13-stack-based-buffer-overflow-exploit-CVE-2014-8729-CVE-2014-878](https://github.com/inso-/TORQUE-Resource-Manager-2.5.x-2.5.13-stack-based-buffer-overflow-exploit-CVE-2014-8729-CVE-2014-878) :  ![starts](https://img.shields.io/github/stars/inso-/TORQUE-Resource-Manager-2.5.x-2.5.13-stack-based-buffer-overflow-exploit-CVE-2014-8729-CVE-2014-878.svg) ![forks](https://img.shields.io/github/forks/inso-/TORQUE-Resource-Manager-2.5.x-2.5.13-stack-based-buffer-overflow-exploit-CVE-2014-8729-CVE-2014-878.svg)
+
 ## CVE-2014-8682
  Multiple SQL injection vulnerabilities in Gogs (aka Go Git Service) 0.3.1-9 through 0.5.x before 0.5.6.1105 Beta allow remote attackers to execute arbitrary SQL commands via the q parameter to (1) api/v1/repos/search, which is not properly handled in models/repo.go, or (2) api/v1/users/search, which is not properly handled in models/user.go.
 
@@ -23130,9 +23137,9 @@
 
 - [https://github.com/kelleykong/cve-2014-6271-mengjia-kong](https://github.com/kelleykong/cve-2014-6271-mengjia-kong) :  ![starts](https://img.shields.io/github/stars/kelleykong/cve-2014-6271-mengjia-kong.svg) ![forks](https://img.shields.io/github/forks/kelleykong/cve-2014-6271-mengjia-kong.svg)
 
-- [https://github.com/huanlu/cve-2014-6271-huan-lu](https://github.com/huanlu/cve-2014-6271-huan-lu) :  ![starts](https://img.shields.io/github/stars/huanlu/cve-2014-6271-huan-lu.svg) ![forks](https://img.shields.io/github/forks/huanlu/cve-2014-6271-huan-lu.svg)
-
 - [https://github.com/jblaine/cookbook-bash-CVE-2014-6271](https://github.com/jblaine/cookbook-bash-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/jblaine/cookbook-bash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/jblaine/cookbook-bash-CVE-2014-6271.svg)
+
+- [https://github.com/huanlu/cve-2014-6271-huan-lu](https://github.com/huanlu/cve-2014-6271-huan-lu) :  ![starts](https://img.shields.io/github/stars/huanlu/cve-2014-6271-huan-lu.svg) ![forks](https://img.shields.io/github/forks/huanlu/cve-2014-6271-huan-lu.svg)
 
 - [https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg)
 
@@ -23707,9 +23714,9 @@
 
 - [https://github.com/iwaffles/heartbleed-test.crx](https://github.com/iwaffles/heartbleed-test.crx) :  ![starts](https://img.shields.io/github/stars/iwaffles/heartbleed-test.crx.svg) ![forks](https://img.shields.io/github/forks/iwaffles/heartbleed-test.crx.svg)
 
-- [https://github.com/indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-) :  ![starts](https://img.shields.io/github/stars/indiw0rm/-Heartbleed-.svg) ![forks](https://img.shields.io/github/forks/indiw0rm/-Heartbleed-.svg)
-
 - [https://github.com/takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse) :  ![starts](https://img.shields.io/github/stars/takeshixx/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/takeshixx/ssl-heartbleed.nse.svg)
+
+- [https://github.com/indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-) :  ![starts](https://img.shields.io/github/stars/indiw0rm/-Heartbleed-.svg) ![forks](https://img.shields.io/github/forks/indiw0rm/-Heartbleed-.svg)
 
 - [https://github.com/amerine/coronary](https://github.com/amerine/coronary) :  ![starts](https://img.shields.io/github/stars/amerine/coronary.svg) ![forks](https://img.shields.io/github/forks/amerine/coronary.svg)
 
