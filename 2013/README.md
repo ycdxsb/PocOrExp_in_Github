@@ -146,9 +146,9 @@
 
 
 
-- [https://github.com/lagartojuancho/CVE-2013-3664_BMP](https://github.com/lagartojuancho/CVE-2013-3664_BMP) :  ![starts](https://img.shields.io/github/stars/lagartojuancho/CVE-2013-3664_BMP.svg) ![forks](https://img.shields.io/github/forks/lagartojuancho/CVE-2013-3664_BMP.svg)
-
 - [https://github.com/lagartojuancho/CVE-2013-3664_MAC](https://github.com/lagartojuancho/CVE-2013-3664_MAC) :  ![starts](https://img.shields.io/github/stars/lagartojuancho/CVE-2013-3664_MAC.svg) ![forks](https://img.shields.io/github/forks/lagartojuancho/CVE-2013-3664_MAC.svg)
+
+- [https://github.com/lagartojuancho/CVE-2013-3664_BMP](https://github.com/lagartojuancho/CVE-2013-3664_BMP) :  ![starts](https://img.shields.io/github/stars/lagartojuancho/CVE-2013-3664_BMP.svg) ![forks](https://img.shields.io/github/forks/lagartojuancho/CVE-2013-3664_BMP.svg)
 
 ## CVE-2013-3651
  LOCKON EC-CUBE 2.11.2 through 2.12.4 allows remote attackers to conduct unspecified PHP code-injection attacks via a crafted string, related to data/class/SC_CheckError.php and data/class/SC_FormParam.php.
@@ -198,13 +198,6 @@
 
 
 - [https://github.com/feliam/CVE-2013-2730](https://github.com/feliam/CVE-2013-2730) :  ![starts](https://img.shields.io/github/stars/feliam/CVE-2013-2730.svg) ![forks](https://img.shields.io/github/forks/feliam/CVE-2013-2730.svg)
-
-## CVE-2013-2729
- Integer overflow in Adobe Reader and Acrobat 9.x before 9.5.5, 10.x before 10.1.7, and 11.x before 11.0.03 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2013-2727.
-
-
-
-- [https://github.com/feliam/CVE-2013-2729](https://github.com/feliam/CVE-2013-2729) :  ![starts](https://img.shields.io/github/stars/feliam/CVE-2013-2729.svg) ![forks](https://img.shields.io/github/forks/feliam/CVE-2013-2729.svg)
 
 ## CVE-2013-2597
  Stack-based buffer overflow in the acdb_ioctl function in audio_acdb.c in the acdb audio driver for the Linux kernel 2.6.x and 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allows attackers to gain privileges via an application that leverages /dev/msm_acdb access and provides a large size value in an ioctl argument.
@@ -281,6 +274,8 @@
 - [https://github.com/m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit) :  ![starts](https://img.shields.io/github/stars/m4drat/CVE-2013-2028-Exploit.svg) ![forks](https://img.shields.io/github/forks/m4drat/CVE-2013-2028-Exploit.svg)
 
 - [https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC](https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC) :  ![starts](https://img.shields.io/github/stars/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC.svg) ![forks](https://img.shields.io/github/forks/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC.svg)
+
+- [https://github.com/jptr218/nginxhack](https://github.com/jptr218/nginxhack) :  ![starts](https://img.shields.io/github/stars/jptr218/nginxhack.svg) ![forks](https://img.shields.io/github/forks/jptr218/nginxhack.svg)
 
 - [https://github.com/mambroziak/docker-cve-2013-2028](https://github.com/mambroziak/docker-cve-2013-2028) :  ![starts](https://img.shields.io/github/stars/mambroziak/docker-cve-2013-2028.svg) ![forks](https://img.shields.io/github/forks/mambroziak/docker-cve-2013-2028.svg)
 
