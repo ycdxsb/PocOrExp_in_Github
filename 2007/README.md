@@ -71,6 +71,8 @@
 
 - [https://github.com/Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python) :  ![starts](https://img.shields.io/github/stars/Ziemni/CVE-2007-2447-in-Python.svg) ![forks](https://img.shields.io/github/forks/Ziemni/CVE-2007-2447-in-Python.svg)
 
+- [https://github.com/3hydraking/usermap_script_CVE-2007-2447](https://github.com/3hydraking/usermap_script_CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/3hydraking/usermap_script_CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/3hydraking/usermap_script_CVE-2007-2447.svg)
+
 - [https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3) :  ![starts](https://img.shields.io/github/stars/WildfootW/CVE-2007-2447_Samba_3.0.25rc3.svg) ![forks](https://img.shields.io/github/forks/WildfootW/CVE-2007-2447_Samba_3.0.25rc3.svg)
 
 - [https://github.com/Ki11i0n4ir3/Sambaster](https://github.com/Ki11i0n4ir3/Sambaster) :  ![starts](https://img.shields.io/github/stars/Ki11i0n4ir3/Sambaster.svg) ![forks](https://img.shields.io/github/forks/Ki11i0n4ir3/Sambaster.svg)
