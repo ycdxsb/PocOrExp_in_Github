@@ -543,8 +543,6 @@
 
 - [https://github.com/bassitone/OpenSSH-User-Enumeration](https://github.com/bassitone/OpenSSH-User-Enumeration) :  ![starts](https://img.shields.io/github/stars/bassitone/OpenSSH-User-Enumeration.svg) ![forks](https://img.shields.io/github/forks/bassitone/OpenSSH-User-Enumeration.svg)
 
-- [https://github.com/ubrito/poc_CVE-2016-6210](https://github.com/ubrito/poc_CVE-2016-6210) :  ![starts](https://img.shields.io/github/stars/ubrito/poc_CVE-2016-6210.svg) ![forks](https://img.shields.io/github/forks/ubrito/poc_CVE-2016-6210.svg)
-
 ## CVE-2016-6187
  The apparmor_setprocattr function in security/apparmor/lsm.c in the Linux kernel before 4.6.5 does not validate the buffer size, which allows local users to gain privileges by triggering an AppArmor setprocattr hook.
 
