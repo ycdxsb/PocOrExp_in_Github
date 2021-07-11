@@ -1,36 +1,32 @@
-# Update 2021-07-10
+# Update 2021-07-11
 ## CVE-2021-34527
  Windows Print Spooler Remote Code Execution Vulnerability
 
-- [https://github.com/glorisonlai/printnightmare](https://github.com/glorisonlai/printnightmare) :  ![starts](https://img.shields.io/github/stars/glorisonlai/printnightmare.svg) ![forks](https://img.shields.io/github/forks/glorisonlai/printnightmare.svg)
+- [https://github.com/Eutectico/Printnightmare](https://github.com/Eutectico/Printnightmare) :  ![starts](https://img.shields.io/github/stars/Eutectico/Printnightmare.svg) ![forks](https://img.shields.io/github/forks/Eutectico/Printnightmare.svg)
+- [https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC](https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC) :  ![starts](https://img.shields.io/github/stars/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC.svg) ![forks](https://img.shields.io/github/forks/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC.svg)
+- [https://github.com/syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare) :  ![starts](https://img.shields.io/github/stars/syntaxbearror/PowerShell-PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/syntaxbearror/PowerShell-PrintNightmare.svg)
 
 
-## CVE-2021-21985
- The vSphere Client (HTML5) contains a remote code execution vulnerability due to lack of input validation in the Virtual SAN Health Check plug-in which is enabled by default in vCenter Server. A malicious actor with network access to port 443 may exploit this issue to execute commands with unrestricted privileges on the underlying operating system that hosts vCenter Server.
+## CVE-2021-21974
+ OpenSLP as used in ESXi (7.0 before ESXi70U1c-17325551, 6.7 before ESXi670-202102401-SG, 6.5 before ESXi650-202102101-SG) has a heap-overflow vulnerability. A malicious actor residing within the same network segment as ESXi who has access to port 427 may be able to trigger the heap-overflow issue in OpenSLP service resulting in remote code execution.
 
-- [https://github.com/haiclover/CVE-2021-21985](https://github.com/haiclover/CVE-2021-21985) :  ![starts](https://img.shields.io/github/stars/haiclover/CVE-2021-21985.svg) ![forks](https://img.shields.io/github/forks/haiclover/CVE-2021-21985.svg)
-
-
-## CVE-2021-1675
- Windows Print Spooler Elevation of Privilege Vulnerability
-
-- [https://github.com/bartimus-primed/CVE-2021-1675-Yara](https://github.com/bartimus-primed/CVE-2021-1675-Yara) :  ![starts](https://img.shields.io/github/stars/bartimus-primed/CVE-2021-1675-Yara.svg) ![forks](https://img.shields.io/github/forks/bartimus-primed/CVE-2021-1675-Yara.svg)
+- [https://github.com/Shadow0ps/CVE-2021-21974](https://github.com/Shadow0ps/CVE-2021-21974) :  ![starts](https://img.shields.io/github/stars/Shadow0ps/CVE-2021-21974.svg) ![forks](https://img.shields.io/github/forks/Shadow0ps/CVE-2021-21974.svg)
 
 
-## CVE-2019-5736
- runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allows attackers to overwrite the host runc binary (and consequently obtain host root access) by leveraging the ability to execute a command as root within one of these types of containers: (1) a new container with an attacker-controlled image, or (2) an existing container, to which the attacker previously had write access, that can be attached with docker exec. This occurs because of file-descriptor mishandling, related to /proc/self/exe.
+## CVE-2020-14343
+ A vulnerability was discovered in the PyYAML library in versions before 5.4, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. This flaw allows an attacker to execute arbitrary code on the system by abusing the python/object/new constructor. This flaw is due to an incomplete fix for CVE-2020-1747.
 
-- [https://github.com/3hydraking/CVE-2019-5736](https://github.com/3hydraking/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/3hydraking/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/3hydraking/CVE-2019-5736.svg)
-
-
-## CVE-2017-0143
- The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka &quot;Windows SMB Remote Code Execution Vulnerability.&quot; This vulnerability is different from those described in CVE-2017-0144, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
-
-- [https://github.com/3hydraking/MS17-010_CVE-2017-0143](https://github.com/3hydraking/MS17-010_CVE-2017-0143) :  ![starts](https://img.shields.io/github/stars/3hydraking/MS17-010_CVE-2017-0143.svg) ![forks](https://img.shields.io/github/forks/3hydraking/MS17-010_CVE-2017-0143.svg)
+- [https://github.com/raul23/pyyaml-CVE-2020-14343](https://github.com/raul23/pyyaml-CVE-2020-14343) :  ![starts](https://img.shields.io/github/stars/raul23/pyyaml-CVE-2020-14343.svg) ![forks](https://img.shields.io/github/forks/raul23/pyyaml-CVE-2020-14343.svg)
 
 
-## CVE-2013-2729
- Integer overflow in Adobe Reader and Acrobat 9.x before 9.5.5, 10.x before 10.1.7, and 11.x before 11.0.03 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2013-2727.
+## CVE-2019-6447
+ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allows remote attackers to read arbitrary files or execute applications via TCP port 59777 requests on the local Wi-Fi network. This TCP port remains open after the ES application has been launched once, and responds to unauthenticated application/json data over HTTP.
 
-- [https://github.com/feliam/CVE-2013-2729](https://github.com/feliam/CVE-2013-2729) :  ![starts](https://img.shields.io/github/stars/feliam/CVE-2013-2729.svg) ![forks](https://img.shields.io/github/forks/feliam/CVE-2013-2729.svg)
+- [https://github.com/3hydraking/CVE-2019-6447](https://github.com/3hydraking/CVE-2019-6447) :  ![starts](https://img.shields.io/github/stars/3hydraking/CVE-2019-6447.svg) ![forks](https://img.shields.io/github/forks/3hydraking/CVE-2019-6447.svg)
+
+
+## CVE-2016-8655
+ Race condition in net/packet/af_packet.c in the Linux kernel through 4.8.12 allows local users to gain privileges or cause a denial of service (use-after-free) by leveraging the CAP_NET_RAW capability to change a socket version, related to the packet_set_ring and packet_setsockopt functions.
+
+- [https://github.com/martinmullins/CVE-2016-8655_Android](https://github.com/martinmullins/CVE-2016-8655_Android) :  ![starts](https://img.shields.io/github/stars/martinmullins/CVE-2016-8655_Android.svg) ![forks](https://img.shields.io/github/forks/martinmullins/CVE-2016-8655_Android.svg)
 
