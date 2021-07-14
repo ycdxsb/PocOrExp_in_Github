@@ -17409,9 +17409,9 @@
 
 - [https://github.com/Q2h1Cg/CVE-2017-1000117](https://github.com/Q2h1Cg/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/Q2h1Cg/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/Q2h1Cg/CVE-2017-1000117.svg)
 
-- [https://github.com/thelastbyte/CVE-2017-1000117](https://github.com/thelastbyte/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/thelastbyte/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/thelastbyte/CVE-2017-1000117.svg)
-
 - [https://github.com/leezp/CVE-2017-1000117](https://github.com/leezp/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/leezp/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/leezp/CVE-2017-1000117.svg)
+
+- [https://github.com/thelastbyte/CVE-2017-1000117](https://github.com/thelastbyte/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/thelastbyte/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/thelastbyte/CVE-2017-1000117.svg)
 
 - [https://github.com/ikmski/CVE-2017-1000117](https://github.com/ikmski/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/ikmski/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/ikmski/CVE-2017-1000117.svg)
 
@@ -18785,7 +18785,7 @@
 
 - [https://github.com/RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/phpunit-brute.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/phpunit-brute.svg)
 
-- [https://github.com/r00td3v/laravel-phpunit-rce-masscaner](https://github.com/r00td3v/laravel-phpunit-rce-masscaner) :  ![starts](https://img.shields.io/github/stars/r00td3v/laravel-phpunit-rce-masscaner.svg) ![forks](https://img.shields.io/github/forks/r00td3v/laravel-phpunit-rce-masscaner.svg)
+- [https://github.com/rodnt/laravel-phpunit-rce-masscaner](https://github.com/rodnt/laravel-phpunit-rce-masscaner) :  ![starts](https://img.shields.io/github/stars/rodnt/laravel-phpunit-rce-masscaner.svg) ![forks](https://img.shields.io/github/forks/rodnt/laravel-phpunit-rce-masscaner.svg)
 
 - [https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE) :  ![starts](https://img.shields.io/github/stars/ludy-dev/PHPUnit_eval-stdin_RCE.svg) ![forks](https://img.shields.io/github/forks/ludy-dev/PHPUnit_eval-stdin_RCE.svg)
 
@@ -19734,6 +19734,8 @@
 - [https://github.com/Bijaye/intel_amt_bypass](https://github.com/Bijaye/intel_amt_bypass) :  ![starts](https://img.shields.io/github/stars/Bijaye/intel_amt_bypass.svg) ![forks](https://img.shields.io/github/forks/Bijaye/intel_amt_bypass.svg)
 
 - [https://github.com/baonq-me/cve2017-5689](https://github.com/baonq-me/cve2017-5689) :  ![starts](https://img.shields.io/github/stars/baonq-me/cve2017-5689.svg) ![forks](https://img.shields.io/github/forks/baonq-me/cve2017-5689.svg)
+
+- [https://github.com/TheWay-hue/CVE-2017-5689-Checker](https://github.com/TheWay-hue/CVE-2017-5689-Checker) :  ![starts](https://img.shields.io/github/stars/TheWay-hue/CVE-2017-5689-Checker.svg) ![forks](https://img.shields.io/github/forks/TheWay-hue/CVE-2017-5689-Checker.svg)
 
 ## CVE-2017-5674
  A vulnerability in a custom-built GoAhead web server used on Foscam, Vstarcam, and multiple white-label IP camera models allows an attacker to craft a malformed HTTP (&quot;GET system.ini HTTP/1.1\n\n&quot; - note the lack of &quot;/&quot; in the path field of the request) request that will disclose the configuration file with the login password.
