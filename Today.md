@@ -1,31 +1,55 @@
-# Update 2021-07-13
-## CVE-2021-34045
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+# Update 2021-07-14
+## CVE-2021-34527
+ Windows Print Spooler Remote Code Execution Vulnerability
 
-- [https://github.com/Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2021-34045.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2021-34045.svg)
-
-
-## CVE-2021-21985
- The vSphere Client (HTML5) contains a remote code execution vulnerability due to lack of input validation in the Virtual SAN Health Check plug-in which is enabled by default in vCenter Server. A malicious actor with network access to port 443 may exploit this issue to execute commands with unrestricted privileges on the underlying operating system that hosts vCenter Server.
-
-- [https://github.com/aristosMiliaressis/CVE-2021-21985](https://github.com/aristosMiliaressis/CVE-2021-21985) :  ![starts](https://img.shields.io/github/stars/aristosMiliaressis/CVE-2021-21985.svg) ![forks](https://img.shields.io/github/forks/aristosMiliaressis/CVE-2021-21985.svg)
+- [https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527](https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527.svg)
+- [https://github.com/0xIrison/PrintNightmare-Patcher](https://github.com/0xIrison/PrintNightmare-Patcher) :  ![starts](https://img.shields.io/github/stars/0xIrison/PrintNightmare-Patcher.svg) ![forks](https://img.shields.io/github/forks/0xIrison/PrintNightmare-Patcher.svg)
 
 
-## CVE-2020-24148
- Server-side request forgery (SSRF) in the Import XML and RSS Feeds (import-xml-feed) plugin 2.0.1 for WordPress via the data parameter in a moove_read_xml action.
+## CVE-2021-26828
+ OpenPLC ScadaBR through 0.9.1 on Linux and through 1.12.4 on Windows allows remote authenticated users to upload and execute arbitrary JSP files via view_edit.shtm.
 
-- [https://github.com/dwisiswant0/CVE-2020-24148](https://github.com/dwisiswant0/CVE-2020-24148) :  ![starts](https://img.shields.io/github/stars/dwisiswant0/CVE-2020-24148.svg) ![forks](https://img.shields.io/github/forks/dwisiswant0/CVE-2020-24148.svg)
-
-
-## CVE-2020-1938
- When using the Apache JServ Protocol (AJP), care must be taken when trusting incoming connections to Apache Tomcat. Tomcat treats AJP connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited in ways that may be surprising. In Apache Tomcat 9.0.0.M1 to 9.0.0.30, 8.5.0 to 8.5.50 and 7.0.0 to 7.0.99, Tomcat shipped with an AJP Connector enabled by default that listened on all configured IP addresses. It was expected (and recommended in the security guide) that this Connector would be disabled if not required. This vulnerability report identified a mechanism that allowed: - returning arbitrary files from anywhere in the web application - processing any file in the web application as a JSP Further, if the web application allowed file upload and stored those files within the web application (or the attacker was able to control the content of the web application by some other means) then this, along with the ability to process a file as a JSP, made remote code execution possible. It is important to note that mitigation is only required if an AJP port is accessible to untrusted users. Users wishing to take a defence-in-depth approach and block the vector that permits returning arbitrary files and execution as JSP may upgrade to Apache Tomcat 9.0.31, 8.5.51 or 7.0.100 or later. A number of changes were made to the default AJP Connector configuration in 9.0.31 to harden the default configuration. It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 or later will need to make small changes to their configurations.
-
-- [https://github.com/yukiNeko114514/CVE-2020-1938](https://github.com/yukiNeko114514/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/yukiNeko114514/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/yukiNeko114514/CVE-2020-1938.svg)
+- [https://github.com/h3v0x/CVE-2021-26828_ScadaBR_RCE](https://github.com/h3v0x/CVE-2021-26828_ScadaBR_RCE) :  ![starts](https://img.shields.io/github/stars/h3v0x/CVE-2021-26828_ScadaBR_RCE.svg) ![forks](https://img.shields.io/github/forks/h3v0x/CVE-2021-26828_ScadaBR_RCE.svg)
 
 
-## CVE-2015-1635
- HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 allows remote attackers to execute arbitrary code via crafted HTTP requests, aka &quot;HTTP.sys Remote Code Execution Vulnerability.&quot;
+## CVE-2021-24347
+ The SP Project &amp; Document Manager WordPress plugin before 4.22 allows users to upload files, however, the plugin attempts to prevent php and other similar files that could be executed on the server from being uploaded by checking the file extension. It was discovered that php files could still be uploaded by changing the file extension's case, for example, from &quot;php&quot; to &quot;pHP&quot;.
 
-- [https://github.com/3hydraking/CVE-2015-1635](https://github.com/3hydraking/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/3hydraking/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/3hydraking/CVE-2015-1635.svg)
-- [https://github.com/3hydraking/CVE-2015-1635-POC](https://github.com/3hydraking/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/3hydraking/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/3hydraking/CVE-2015-1635-POC.svg)
+- [https://github.com/huydoppa/CVE-2021-24347-](https://github.com/huydoppa/CVE-2021-24347-) :  ![starts](https://img.shields.io/github/stars/huydoppa/CVE-2021-24347-.svg) ![forks](https://img.shields.io/github/forks/huydoppa/CVE-2021-24347-.svg)
+
+
+## CVE-2021-1675
+ Windows Print Spooler Elevation of Privilege Vulnerability
+
+- [https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527](https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527.svg)
+
+
+## CVE-2020-25134
+ An issue was discovered in Observium Professional, Enterprise &amp; Community 20.8.10631. It is vulnerable to directory traversal and local file inclusion due to the fact that there is an unrestricted possibility of loading any file with an inc.php extension. Inclusion of other files (even though limited to the mentioned extension) can lead to Remote Code Execution. This can occur via /settings/?format=../ URIs to pages/settings.inc.php.
+
+- [https://github.com/ynsmroztas/CVE-2020-25134](https://github.com/ynsmroztas/CVE-2020-25134) :  ![starts](https://img.shields.io/github/stars/ynsmroztas/CVE-2020-25134.svg) ![forks](https://img.shields.io/github/forks/ynsmroztas/CVE-2020-25134.svg)
+
+
+## CVE-2020-24186
+ A Remote Code Execution vulnerability exists in the gVectors wpDiscuz plugin 7.0 through 7.0.4 for WordPress, which allows unauthenticated users to upload any type of file, including PHP files via the wmuUploadFiles AJAX action.
+
+- [https://github.com/h3v0x/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE](https://github.com/h3v0x/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE) :  ![starts](https://img.shields.io/github/stars/h3v0x/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE.svg) ![forks](https://img.shields.io/github/forks/h3v0x/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE.svg)
+
+
+## CVE-2019-12725
+ Zeroshell 3.9.0 is prone to a remote command execution vulnerability. Specifically, this issue occurs because the web application mishandles a few HTTP parameters. An unauthenticated attacker can exploit this issue by injecting OS commands inside the vulnerable parameters.
+
+- [https://github.com/h3v0x/CVE-2019-12725-Command-Injection](https://github.com/h3v0x/CVE-2019-12725-Command-Injection) :  ![starts](https://img.shields.io/github/stars/h3v0x/CVE-2019-12725-Command-Injection.svg) ![forks](https://img.shields.io/github/forks/h3v0x/CVE-2019-12725-Command-Injection.svg)
+
+
+## CVE-2019-2215
+ A use-after-free in binder.c allows an elevation of privilege from an application to the Linux Kernel. No user interaction is required to exploit this vulnerability, however exploitation does require either the installation of a malicious local application or a separate vulnerability in a network facing application.Product: AndroidAndroid ID: A-141720095
+
+- [https://github.com/Karma2424/cve2019-2215-3.18](https://github.com/Karma2424/cve2019-2215-3.18) :  ![starts](https://img.shields.io/github/stars/Karma2424/cve2019-2215-3.18.svg) ![forks](https://img.shields.io/github/forks/Karma2424/cve2019-2215-3.18.svg)
+
+
+## CVE-2018-19422
+ /panel/uploads in Subrion CMS 4.2.1 allows remote attackers to execute arbitrary PHP code via a .pht or .phar file, because the .htaccess file omits these.
+
+- [https://github.com/h3v0x/CVE-2018-19422-SubrionCMS-RCE](https://github.com/h3v0x/CVE-2018-19422-SubrionCMS-RCE) :  ![starts](https://img.shields.io/github/stars/h3v0x/CVE-2018-19422-SubrionCMS-RCE.svg) ![forks](https://img.shields.io/github/forks/h3v0x/CVE-2018-19422-SubrionCMS-RCE.svg)
 
