@@ -24493,6 +24493,13 @@
 
 - [https://github.com/WizardVan/CVE-2012-1876](https://github.com/WizardVan/CVE-2012-1876) :  ![starts](https://img.shields.io/github/stars/WizardVan/CVE-2012-1876.svg) ![forks](https://img.shields.io/github/forks/WizardVan/CVE-2012-1876.svg)
 
+## CVE-2012-1870
+ The CBC mode in the TLS protocol, as used in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2, R2, and R2 SP1, Windows 7 Gold and SP1, and other products, allows remote web servers to obtain plaintext data by triggering multiple requests to a third-party HTTPS server and sniffing the network during the resulting HTTPS session, aka &quot;TLS Protocol Vulnerability.&quot;
+
+
+
+- [https://github.com/fkm75P8YjLkb/CVE-2012-1870](https://github.com/fkm75P8YjLkb/CVE-2012-1870) :  ![starts](https://img.shields.io/github/stars/fkm75P8YjLkb/CVE-2012-1870.svg) ![forks](https://img.shields.io/github/forks/fkm75P8YjLkb/CVE-2012-1870.svg)
+
 ## CVE-2012-1823
  sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured as a CGI script (aka php-cgi), does not properly handle query strings that lack an = (equals sign) character, which allows remote attackers to execute arbitrary code by placing command-line options in the query string, related to lack of skipping a certain php_getopt for the 'd' case.
 
@@ -24502,9 +24509,9 @@
 
 - [https://github.com/gamamaru6005/oscp_scripts-1](https://github.com/gamamaru6005/oscp_scripts-1) :  ![starts](https://img.shields.io/github/stars/gamamaru6005/oscp_scripts-1.svg) ![forks](https://img.shields.io/github/forks/gamamaru6005/oscp_scripts-1.svg)
 
-- [https://github.com/drone789/CVE-2012-1823](https://github.com/drone789/CVE-2012-1823) :  ![starts](https://img.shields.io/github/stars/drone789/CVE-2012-1823.svg) ![forks](https://img.shields.io/github/forks/drone789/CVE-2012-1823.svg)
-
 - [https://github.com/cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823) :  ![starts](https://img.shields.io/github/stars/cyberharsh/PHP_CVE-2012-1823.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/PHP_CVE-2012-1823.svg)
+
+- [https://github.com/drone789/CVE-2012-1823](https://github.com/drone789/CVE-2012-1823) :  ![starts](https://img.shields.io/github/stars/drone789/CVE-2012-1823.svg) ![forks](https://img.shields.io/github/forks/drone789/CVE-2012-1823.svg)
 
 ## CVE-2012-1723
  Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 update 4 and earlier, 6 update 32 and earlier, 5 update 35 and earlier, and 1.4.2_37 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Hotspot.
