@@ -8424,9 +8424,9 @@
 
 - [https://github.com/yukar1z0e/CVE-2019-19781](https://github.com/yukar1z0e/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/yukar1z0e/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/yukar1z0e/CVE-2019-19781.svg)
 
-- [https://github.com/hollerith/CVE-2019-19781](https://github.com/hollerith/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/hollerith/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/hollerith/CVE-2019-19781.svg)
-
 - [https://github.com/LeapBeyond/cve_2019_19781](https://github.com/LeapBeyond/cve_2019_19781) :  ![starts](https://img.shields.io/github/stars/LeapBeyond/cve_2019_19781.svg) ![forks](https://img.shields.io/github/forks/LeapBeyond/cve_2019_19781.svg)
+
+- [https://github.com/hollerith/CVE-2019-19781](https://github.com/hollerith/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/hollerith/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/hollerith/CVE-2019-19781.svg)
 
 - [https://github.com/darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC) :  ![starts](https://img.shields.io/github/stars/darren646/CVE-2019-19781POC.svg) ![forks](https://img.shields.io/github/forks/darren646/CVE-2019-19781POC.svg)
 
@@ -8444,11 +8444,11 @@
 
 - [https://github.com/SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/SharpHack/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/SharpHack/CVE-2019-19781.svg)
 
+- [https://github.com/Jerry-Swift/CVE-2019-19781-scanner](https://github.com/Jerry-Swift/CVE-2019-19781-scanner) :  ![starts](https://img.shields.io/github/stars/Jerry-Swift/CVE-2019-19781-scanner.svg) ![forks](https://img.shields.io/github/forks/Jerry-Swift/CVE-2019-19781-scanner.svg)
+
 - [https://github.com/Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Castaldio86/Detect-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Castaldio86/Detect-CVE-2019-19781.svg)
 
 - [https://github.com/5l1v3r1/Citrix_CVE-2019-19781](https://github.com/5l1v3r1/Citrix_CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/Citrix_CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/Citrix_CVE-2019-19781.svg)
-
-- [https://github.com/Jerry-Swift/CVE-2019-19781-scanner](https://github.com/Jerry-Swift/CVE-2019-19781-scanner) :  ![starts](https://img.shields.io/github/stars/Jerry-Swift/CVE-2019-19781-scanner.svg) ![forks](https://img.shields.io/github/forks/Jerry-Swift/CVE-2019-19781-scanner.svg)
 
 - [https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes](https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes) :  ![starts](https://img.shields.io/github/stars/Azeemering/CVE-2019-19781-DFIR-Notes.svg) ![forks](https://img.shields.io/github/forks/Azeemering/CVE-2019-19781-DFIR-Notes.svg)
 
@@ -8727,9 +8727,9 @@
 
 - [https://github.com/random-robbie/CVE-2019-18935](https://github.com/random-robbie/CVE-2019-18935) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2019-18935.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2019-18935.svg)
 
-- [https://github.com/becrevex/Telerik_CVE-2019-18935](https://github.com/becrevex/Telerik_CVE-2019-18935) :  ![starts](https://img.shields.io/github/stars/becrevex/Telerik_CVE-2019-18935.svg) ![forks](https://img.shields.io/github/forks/becrevex/Telerik_CVE-2019-18935.svg)
-
 - [https://github.com/ThanHuuTuan/CVE_2019_18935](https://github.com/ThanHuuTuan/CVE_2019_18935) :  ![starts](https://img.shields.io/github/stars/ThanHuuTuan/CVE_2019_18935.svg) ![forks](https://img.shields.io/github/forks/ThanHuuTuan/CVE_2019_18935.svg)
+
+- [https://github.com/becrevex/Telerik_CVE-2019-18935](https://github.com/becrevex/Telerik_CVE-2019-18935) :  ![starts](https://img.shields.io/github/stars/becrevex/Telerik_CVE-2019-18935.svg) ![forks](https://img.shields.io/github/forks/becrevex/Telerik_CVE-2019-18935.svg)
 
 - [https://github.com/luuquy/DecryptRawdata_CVE_2019_18935](https://github.com/luuquy/DecryptRawdata_CVE_2019_18935) :  ![starts](https://img.shields.io/github/stars/luuquy/DecryptRawdata_CVE_2019_18935.svg) ![forks](https://img.shields.io/github/forks/luuquy/DecryptRawdata_CVE_2019_18935.svg)
 
@@ -9419,6 +9419,15 @@
 
 - [https://github.com/chef-cft/inspec_cve_2019_15224](https://github.com/chef-cft/inspec_cve_2019_15224) :  ![starts](https://img.shields.io/github/stars/chef-cft/inspec_cve_2019_15224.svg) ![forks](https://img.shields.io/github/forks/chef-cft/inspec_cve_2019_15224.svg)
 
+## CVE-2019-15165
+ sf-pcapng.c in libpcap before 1.9.1 does not properly validate the PHB header length before allocating memory.
+
+
+
+- [https://github.com/madhans23/libpcap-with-Fix-CVE-2019-15165](https://github.com/madhans23/libpcap-with-Fix-CVE-2019-15165) :  ![starts](https://img.shields.io/github/stars/madhans23/libpcap-with-Fix-CVE-2019-15165.svg) ![forks](https://img.shields.io/github/forks/madhans23/libpcap-with-Fix-CVE-2019-15165.svg)
+
+- [https://github.com/madhans23/libpcap-without-Fix-CVE-2019-15165](https://github.com/madhans23/libpcap-without-Fix-CVE-2019-15165) :  ![starts](https://img.shields.io/github/stars/madhans23/libpcap-without-Fix-CVE-2019-15165.svg) ![forks](https://img.shields.io/github/forks/madhans23/libpcap-without-Fix-CVE-2019-15165.svg)
+
 ## CVE-2019-15126
  An issue was discovered on Broadcom Wi-Fi client devices. Specifically timed and handcrafted traffic can cause internal errors (related to state transitions) in a WLAN device that lead to improper layer 2 Wi-Fi encryption with a consequent possibility of information disclosure over the air for a discrete set of traffic, a different vulnerability than CVE-2019-9500, CVE-2019-9501, CVE-2019-9502, and CVE-2019-9503.
 
@@ -9686,9 +9695,9 @@
 
 - [https://github.com/axax002/sudo-vulnerability-CVE-2019-14287](https://github.com/axax002/sudo-vulnerability-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/axax002/sudo-vulnerability-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/axax002/sudo-vulnerability-CVE-2019-14287.svg)
 
-- [https://github.com/Sindadziy/cve-2019-14287](https://github.com/Sindadziy/cve-2019-14287) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2019-14287.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2019-14287.svg)
-
 - [https://github.com/DewmiApsara/CVE-2019-14287](https://github.com/DewmiApsara/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/DewmiApsara/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/DewmiApsara/CVE-2019-14287.svg)
+
+- [https://github.com/Sindadziy/cve-2019-14287](https://github.com/Sindadziy/cve-2019-14287) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2019-14287.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2019-14287.svg)
 
 - [https://github.com/huang919/cve-2019-14287-PPT](https://github.com/huang919/cve-2019-14287-PPT) :  ![starts](https://img.shields.io/github/stars/huang919/cve-2019-14287-PPT.svg) ![forks](https://img.shields.io/github/forks/huang919/cve-2019-14287-PPT.svg)
 
@@ -9696,9 +9705,9 @@
 
 - [https://github.com/edsonjt81/CVE-2019-14287-](https://github.com/edsonjt81/CVE-2019-14287-) :  ![starts](https://img.shields.io/github/stars/edsonjt81/CVE-2019-14287-.svg) ![forks](https://img.shields.io/github/forks/edsonjt81/CVE-2019-14287-.svg)
 
-- [https://github.com/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287](https://github.com/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287.svg)
-
 - [https://github.com/3hydraking/CVE-2019-14287](https://github.com/3hydraking/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/3hydraking/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/3hydraking/CVE-2019-14287.svg)
+
+- [https://github.com/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287](https://github.com/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287.svg)
 
 - [https://github.com/Janette88/cve-2019-14287sudoexp](https://github.com/Janette88/cve-2019-14287sudoexp) :  ![starts](https://img.shields.io/github/stars/Janette88/cve-2019-14287sudoexp.svg) ![forks](https://img.shields.io/github/forks/Janette88/cve-2019-14287sudoexp.svg)
 
@@ -9708,9 +9717,9 @@
 
 - [https://github.com/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287](https://github.com/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287.svg)
 
-- [https://github.com/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-](https://github.com/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-) :  ![starts](https://img.shields.io/github/stars/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-.svg) ![forks](https://img.shields.io/github/forks/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-.svg)
-
 - [https://github.com/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability](https://github.com/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability) :  ![starts](https://img.shields.io/github/stars/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability.svg) ![forks](https://img.shields.io/github/forks/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability.svg)
+
+- [https://github.com/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-](https://github.com/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-) :  ![starts](https://img.shields.io/github/stars/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-.svg) ![forks](https://img.shields.io/github/forks/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-.svg)
 
 - [https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg)
 
@@ -12294,6 +12303,8 @@
 
 - [https://github.com/dr0op/WeblogicScan](https://github.com/dr0op/WeblogicScan) :  ![starts](https://img.shields.io/github/stars/dr0op/WeblogicScan.svg) ![forks](https://img.shields.io/github/forks/dr0op/WeblogicScan.svg)
 
+- [https://github.com/black-mirror/Weblogic](https://github.com/black-mirror/Weblogic) :  ![starts](https://img.shields.io/github/stars/black-mirror/Weblogic.svg) ![forks](https://img.shields.io/github/forks/black-mirror/Weblogic.svg)
+
 - [https://github.com/ruthlezs/CVE-2019-2729-Exploit](https://github.com/ruthlezs/CVE-2019-2729-Exploit) :  ![starts](https://img.shields.io/github/stars/ruthlezs/CVE-2019-2729-Exploit.svg) ![forks](https://img.shields.io/github/forks/ruthlezs/CVE-2019-2729-Exploit.svg)
 
 - [https://github.com/waffl3ss/CVE-2019-2729](https://github.com/waffl3ss/CVE-2019-2729) :  ![starts](https://img.shields.io/github/stars/waffl3ss/CVE-2019-2729.svg) ![forks](https://img.shields.io/github/forks/waffl3ss/CVE-2019-2729.svg)
@@ -12981,15 +12992,15 @@
 
 - [https://github.com/UraSecTeam/CVE-2019-0708](https://github.com/UraSecTeam/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/UraSecTeam/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/UraSecTeam/CVE-2019-0708.svg)
 
-- [https://github.com/R4v3nG/CVE-2019-0708-DOS](https://github.com/R4v3nG/CVE-2019-0708-DOS) :  ![starts](https://img.shields.io/github/stars/R4v3nG/CVE-2019-0708-DOS.svg) ![forks](https://img.shields.io/github/forks/R4v3nG/CVE-2019-0708-DOS.svg)
-
 - [https://github.com/f8al/CVE-2019-0708-POC](https://github.com/f8al/CVE-2019-0708-POC) :  ![starts](https://img.shields.io/github/stars/f8al/CVE-2019-0708-POC.svg) ![forks](https://img.shields.io/github/forks/f8al/CVE-2019-0708-POC.svg)
 
-- [https://github.com/ttsite/CVE-2019-0708-](https://github.com/ttsite/CVE-2019-0708-) :  ![starts](https://img.shields.io/github/stars/ttsite/CVE-2019-0708-.svg) ![forks](https://img.shields.io/github/forks/ttsite/CVE-2019-0708-.svg)
+- [https://github.com/R4v3nG/CVE-2019-0708-DOS](https://github.com/R4v3nG/CVE-2019-0708-DOS) :  ![starts](https://img.shields.io/github/stars/R4v3nG/CVE-2019-0708-DOS.svg) ![forks](https://img.shields.io/github/forks/R4v3nG/CVE-2019-0708-DOS.svg)
 
 - [https://github.com/ttsite/CVE-2019-0708](https://github.com/ttsite/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ttsite/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ttsite/CVE-2019-0708.svg)
 
 - [https://github.com/sbkcbig/CVE-2019-0708-EXPloit](https://github.com/sbkcbig/CVE-2019-0708-EXPloit) :  ![starts](https://img.shields.io/github/stars/sbkcbig/CVE-2019-0708-EXPloit.svg) ![forks](https://img.shields.io/github/forks/sbkcbig/CVE-2019-0708-EXPloit.svg)
+
+- [https://github.com/ttsite/CVE-2019-0708-](https://github.com/ttsite/CVE-2019-0708-) :  ![starts](https://img.shields.io/github/stars/ttsite/CVE-2019-0708-.svg) ![forks](https://img.shields.io/github/forks/ttsite/CVE-2019-0708-.svg)
 
 - [https://github.com/infenet/CVE-2019-0708](https://github.com/infenet/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/infenet/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/infenet/CVE-2019-0708.svg)
 
