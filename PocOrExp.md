@@ -24610,6 +24610,8 @@
 
 - [https://github.com/lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp) :  ![starts](https://img.shields.io/github/stars/lochiiconnectivity/vulnupnp.svg) ![forks](https://img.shields.io/github/forks/lochiiconnectivity/vulnupnp.svg)
 
+- [https://github.com/finn79426/CVE-2012-5960-PoC](https://github.com/finn79426/CVE-2012-5960-PoC) :  ![starts](https://img.shields.io/github/stars/finn79426/CVE-2012-5960-PoC.svg) ![forks](https://img.shields.io/github/forks/finn79426/CVE-2012-5960-PoC.svg)
+
 ## CVE-2012-5958
  Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) before 1.6.18 allows remote attackers to execute arbitrary code via a UDP packet with a crafted string that is not properly handled after a certain pointer subtraction.
 
