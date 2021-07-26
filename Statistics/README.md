@@ -23,7 +23,7 @@
 
 
 ## TOP 10 Popular Authors
-zhzyker: stars: 4304
+zhzyker: stars: 4309
 - [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
 
 - [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
@@ -43,7 +43,7 @@ zhzyker: stars: 4304
 speed47: stars: 3446
 - [https://github.com/speed47/spectre-meltdown-checker](https://github.com/speed47/spectre-meltdown-checker) :  ![starts](https://img.shields.io/github/stars/speed47/spectre-meltdown-checker.svg) ![forks](https://img.shields.io/github/forks/speed47/spectre-meltdown-checker.svg)
 
-liamg: stars: 3353
+liamg: stars: 3354
 - [https://github.com/liamg/traitor](https://github.com/liamg/traitor) :  ![starts](https://img.shields.io/github/stars/liamg/traitor.svg) ![forks](https://img.shields.io/github/forks/liamg/traitor.svg)
 
 jas502n: stars: 3334
@@ -194,5 +194,5 @@ Ridter: stars: 1648
 Ascotbe: stars: 1345
 - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
 
-fofapro: stars: 1338
+fofapro: stars: 1341
 - [https://github.com/fofapro/vulfocus](https://github.com/fofapro/vulfocus) :  ![starts](https://img.shields.io/github/stars/fofapro/vulfocus.svg) ![forks](https://img.shields.io/github/forks/fofapro/vulfocus.svg)
