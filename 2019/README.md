@@ -255,21 +255,21 @@
 
 - [https://github.com/pwn3z/CVE-2019-19781-Citrix](https://github.com/pwn3z/CVE-2019-19781-Citrix) :  ![starts](https://img.shields.io/github/stars/pwn3z/CVE-2019-19781-Citrix.svg) ![forks](https://img.shields.io/github/forks/pwn3z/CVE-2019-19781-Citrix.svg)
 
-- [https://github.com/qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc) :  ![starts](https://img.shields.io/github/stars/qiong-qi/CVE-2019-19781-poc.svg) ![forks](https://img.shields.io/github/forks/qiong-qi/CVE-2019-19781-poc.svg)
+- [https://github.com/Jabo-SCO/Shitrix-CVE-2019-19781](https://github.com/Jabo-SCO/Shitrix-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Jabo-SCO/Shitrix-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Jabo-SCO/Shitrix-CVE-2019-19781.svg)
+
+- [https://github.com/zgelici/CVE-2019-19781-Checker](https://github.com/zgelici/CVE-2019-19781-Checker) :  ![starts](https://img.shields.io/github/stars/zgelici/CVE-2019-19781-Checker.svg) ![forks](https://img.shields.io/github/forks/zgelici/CVE-2019-19781-Checker.svg)
 
 - [https://github.com/zenturacp/cve-2019-19781-web](https://github.com/zenturacp/cve-2019-19781-web) :  ![starts](https://img.shields.io/github/stars/zenturacp/cve-2019-19781-web.svg) ![forks](https://img.shields.io/github/forks/zenturacp/cve-2019-19781-web.svg)
 
 - [https://github.com/b510/CVE-2019-19781](https://github.com/b510/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/b510/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/b510/CVE-2019-19781.svg)
 
-- [https://github.com/Jabo-SCO/Shitrix-CVE-2019-19781](https://github.com/Jabo-SCO/Shitrix-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Jabo-SCO/Shitrix-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Jabo-SCO/Shitrix-CVE-2019-19781.svg)
-
-- [https://github.com/zgelici/CVE-2019-19781-Checker](https://github.com/zgelici/CVE-2019-19781-Checker) :  ![starts](https://img.shields.io/github/stars/zgelici/CVE-2019-19781-Checker.svg) ![forks](https://img.shields.io/github/forks/zgelici/CVE-2019-19781-Checker.svg)
-
-- [https://github.com/SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/SharpHack/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/SharpHack/CVE-2019-19781.svg)
+- [https://github.com/qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc) :  ![starts](https://img.shields.io/github/stars/qiong-qi/CVE-2019-19781-poc.svg) ![forks](https://img.shields.io/github/forks/qiong-qi/CVE-2019-19781-poc.svg)
 
 - [https://github.com/Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Castaldio86/Detect-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Castaldio86/Detect-CVE-2019-19781.svg)
 
 - [https://github.com/5l1v3r1/Citrix_CVE-2019-19781](https://github.com/5l1v3r1/Citrix_CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/Citrix_CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/Citrix_CVE-2019-19781.svg)
+
+- [https://github.com/SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/SharpHack/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/SharpHack/CVE-2019-19781.svg)
 
 - [https://github.com/Jerry-Swift/CVE-2019-19781-scanner](https://github.com/Jerry-Swift/CVE-2019-19781-scanner) :  ![starts](https://img.shields.io/github/stars/Jerry-Swift/CVE-2019-19781-scanner.svg) ![forks](https://img.shields.io/github/forks/Jerry-Swift/CVE-2019-19781-scanner.svg)
 
@@ -1511,9 +1511,9 @@
 
 - [https://github.com/axax002/sudo-vulnerability-CVE-2019-14287](https://github.com/axax002/sudo-vulnerability-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/axax002/sudo-vulnerability-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/axax002/sudo-vulnerability-CVE-2019-14287.svg)
 
-- [https://github.com/Sindadziy/cve-2019-14287](https://github.com/Sindadziy/cve-2019-14287) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2019-14287.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2019-14287.svg)
-
 - [https://github.com/DewmiApsara/CVE-2019-14287](https://github.com/DewmiApsara/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/DewmiApsara/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/DewmiApsara/CVE-2019-14287.svg)
+
+- [https://github.com/Sindadziy/cve-2019-14287](https://github.com/Sindadziy/cve-2019-14287) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2019-14287.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2019-14287.svg)
 
 - [https://github.com/huang919/cve-2019-14287-PPT](https://github.com/huang919/cve-2019-14287-PPT) :  ![starts](https://img.shields.io/github/stars/huang919/cve-2019-14287-PPT.svg) ![forks](https://img.shields.io/github/forks/huang919/cve-2019-14287-PPT.svg)
 
@@ -1533,9 +1533,9 @@
 
 - [https://github.com/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287](https://github.com/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287.svg)
 
-- [https://github.com/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-](https://github.com/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-) :  ![starts](https://img.shields.io/github/stars/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-.svg) ![forks](https://img.shields.io/github/forks/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-.svg)
-
 - [https://github.com/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability](https://github.com/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability) :  ![starts](https://img.shields.io/github/stars/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability.svg) ![forks](https://img.shields.io/github/forks/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability.svg)
+
+- [https://github.com/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-](https://github.com/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-) :  ![starts](https://img.shields.io/github/stars/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-.svg) ![forks](https://img.shields.io/github/forks/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-.svg)
 
 - [https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg)
 
@@ -1605,6 +1605,13 @@
 
 
 - [https://github.com/ZwCreatePhoton/CVE-2019-5782_CVE-2019-13768](https://github.com/ZwCreatePhoton/CVE-2019-5782_CVE-2019-13768) :  ![starts](https://img.shields.io/github/stars/ZwCreatePhoton/CVE-2019-5782_CVE-2019-13768.svg) ![forks](https://img.shields.io/github/forks/ZwCreatePhoton/CVE-2019-5782_CVE-2019-13768.svg)
+
+## CVE-2019-13764
+ Type confusion in JavaScript in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+
+
+
+- [https://github.com/HaboobLab/CVE-2019-13764](https://github.com/HaboobLab/CVE-2019-13764) :  ![starts](https://img.shields.io/github/stars/HaboobLab/CVE-2019-13764.svg) ![forks](https://img.shields.io/github/forks/HaboobLab/CVE-2019-13764.svg)
 
 ## CVE-2019-13720
  Use after free in WebAudio in Google Chrome prior to 78.0.3904.87 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
@@ -2880,9 +2887,9 @@
 
 
 
-- [https://github.com/rkatogit/cve-2019-9787_csrf_poc](https://github.com/rkatogit/cve-2019-9787_csrf_poc) :  ![starts](https://img.shields.io/github/stars/rkatogit/cve-2019-9787_csrf_poc.svg) ![forks](https://img.shields.io/github/forks/rkatogit/cve-2019-9787_csrf_poc.svg)
-
 - [https://github.com/sijiahi/Wordpress_cve-2019-9787_defense](https://github.com/sijiahi/Wordpress_cve-2019-9787_defense) :  ![starts](https://img.shields.io/github/stars/sijiahi/Wordpress_cve-2019-9787_defense.svg) ![forks](https://img.shields.io/github/forks/sijiahi/Wordpress_cve-2019-9787_defense.svg)
+
+- [https://github.com/rkatogit/cve-2019-9787_csrf_poc](https://github.com/rkatogit/cve-2019-9787_csrf_poc) :  ![starts](https://img.shields.io/github/stars/rkatogit/cve-2019-9787_csrf_poc.svg) ![forks](https://img.shields.io/github/forks/rkatogit/cve-2019-9787_csrf_poc.svg)
 
 - [https://github.com/dexXxed/CVE-2019-9787](https://github.com/dexXxed/CVE-2019-9787) :  ![starts](https://img.shields.io/github/stars/dexXxed/CVE-2019-9787.svg) ![forks](https://img.shields.io/github/forks/dexXxed/CVE-2019-9787.svg)
 
@@ -4038,13 +4045,13 @@
 
 - [https://github.com/xiaoshuier/CVE-2019-3396](https://github.com/xiaoshuier/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/xiaoshuier/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/xiaoshuier/CVE-2019-3396.svg)
 
-- [https://github.com/JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST) :  ![starts](https://img.shields.io/github/stars/JonathanZhou348/CVE-2019-3396TEST.svg) ![forks](https://img.shields.io/github/forks/JonathanZhou348/CVE-2019-3396TEST.svg)
-
-- [https://github.com/PetrusViet/cve-2019-3396](https://github.com/PetrusViet/cve-2019-3396) :  ![starts](https://img.shields.io/github/stars/PetrusViet/cve-2019-3396.svg) ![forks](https://img.shields.io/github/forks/PetrusViet/cve-2019-3396.svg)
-
 - [https://github.com/s1xg0d/CVE-2019-3396](https://github.com/s1xg0d/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/s1xg0d/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/s1xg0d/CVE-2019-3396.svg)
 
 - [https://github.com/quanpt103/CVE-2019-3396](https://github.com/quanpt103/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/quanpt103/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/quanpt103/CVE-2019-3396.svg)
+
+- [https://github.com/JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST) :  ![starts](https://img.shields.io/github/stars/JonathanZhou348/CVE-2019-3396TEST.svg) ![forks](https://img.shields.io/github/forks/JonathanZhou348/CVE-2019-3396TEST.svg)
+
+- [https://github.com/PetrusViet/cve-2019-3396](https://github.com/PetrusViet/cve-2019-3396) :  ![starts](https://img.shields.io/github/stars/PetrusViet/cve-2019-3396.svg) ![forks](https://img.shields.io/github/forks/PetrusViet/cve-2019-3396.svg)
 
 - [https://github.com/am6539/CVE-2019-3396](https://github.com/am6539/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/am6539/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/am6539/CVE-2019-3396.svg)
 
@@ -4081,9 +4088,9 @@
 
 - [https://github.com/jas502n/CVE-2019-2890](https://github.com/jas502n/CVE-2019-2890) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-2890.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-2890.svg)
 
-- [https://github.com/ZO1RO/CVE-2019-2890](https://github.com/ZO1RO/CVE-2019-2890) :  ![starts](https://img.shields.io/github/stars/ZO1RO/CVE-2019-2890.svg) ![forks](https://img.shields.io/github/forks/ZO1RO/CVE-2019-2890.svg)
-
 - [https://github.com/zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln) :  ![starts](https://img.shields.io/github/stars/zhzhdoai/Weblogic_Vuln.svg) ![forks](https://img.shields.io/github/forks/zhzhdoai/Weblogic_Vuln.svg)
+
+- [https://github.com/ZO1RO/CVE-2019-2890](https://github.com/ZO1RO/CVE-2019-2890) :  ![starts](https://img.shields.io/github/stars/ZO1RO/CVE-2019-2890.svg) ![forks](https://img.shields.io/github/forks/ZO1RO/CVE-2019-2890.svg)
 
 - [https://github.com/ianxtianxt/CVE-2019-2890](https://github.com/ianxtianxt/CVE-2019-2890) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2019-2890.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2019-2890.svg)
 
@@ -4789,15 +4796,13 @@
 
 - [https://github.com/SugiB3o/Check-vuln-CVE-2019-0708](https://github.com/SugiB3o/Check-vuln-CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/SugiB3o/Check-vuln-CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/SugiB3o/Check-vuln-CVE-2019-0708.svg)
 
-- [https://github.com/FrostsaberX/CVE-2019-0708](https://github.com/FrostsaberX/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/FrostsaberX/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/FrostsaberX/CVE-2019-0708.svg)
-
 - [https://github.com/areusecure/CVE-2019-0708](https://github.com/areusecure/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/areusecure/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/areusecure/CVE-2019-0708.svg)
+
+- [https://github.com/FrostsaberX/CVE-2019-0708](https://github.com/FrostsaberX/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/FrostsaberX/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/FrostsaberX/CVE-2019-0708.svg)
 
 - [https://github.com/Kinesys/Kinesys-CVE-2019-0708-Exploit](https://github.com/Kinesys/Kinesys-CVE-2019-0708-Exploit) :  ![starts](https://img.shields.io/github/stars/Kinesys/Kinesys-CVE-2019-0708-Exploit.svg) ![forks](https://img.shields.io/github/forks/Kinesys/Kinesys-CVE-2019-0708-Exploit.svg)
 
 - [https://github.com/Rostelecom-CERT/bluekeepscan](https://github.com/Rostelecom-CERT/bluekeepscan) :  ![starts](https://img.shields.io/github/stars/Rostelecom-CERT/bluekeepscan.svg) ![forks](https://img.shields.io/github/forks/Rostelecom-CERT/bluekeepscan.svg)
-
-- [https://github.com/ORCA666/CVE-2019--0708-SCANNER](https://github.com/ORCA666/CVE-2019--0708-SCANNER) :  ![starts](https://img.shields.io/github/stars/ORCA666/CVE-2019--0708-SCANNER.svg) ![forks](https://img.shields.io/github/forks/ORCA666/CVE-2019--0708-SCANNER.svg)
 
 - [https://github.com/pwnhacker0x18/Wincrash](https://github.com/pwnhacker0x18/Wincrash) :  ![starts](https://img.shields.io/github/stars/pwnhacker0x18/Wincrash.svg) ![forks](https://img.shields.io/github/forks/pwnhacker0x18/Wincrash.svg)
 
@@ -4808,6 +4813,8 @@
 - [https://github.com/fade-vivida/CVE-2019-0708-test](https://github.com/fade-vivida/CVE-2019-0708-test) :  ![starts](https://img.shields.io/github/stars/fade-vivida/CVE-2019-0708-test.svg) ![forks](https://img.shields.io/github/forks/fade-vivida/CVE-2019-0708-test.svg)
 
 - [https://github.com/oneoy/BlueKeep](https://github.com/oneoy/BlueKeep) :  ![starts](https://img.shields.io/github/stars/oneoy/BlueKeep.svg) ![forks](https://img.shields.io/github/forks/oneoy/BlueKeep.svg)
+
+- [https://github.com/ORCA666/CVE-2019--0708-SCANNER](https://github.com/ORCA666/CVE-2019--0708-SCANNER) :  ![starts](https://img.shields.io/github/stars/ORCA666/CVE-2019--0708-SCANNER.svg) ![forks](https://img.shields.io/github/forks/ORCA666/CVE-2019--0708-SCANNER.svg)
 
 - [https://github.com/0x6b7966/CVE-2019-0708-RCE](https://github.com/0x6b7966/CVE-2019-0708-RCE) :  ![starts](https://img.shields.io/github/stars/0x6b7966/CVE-2019-0708-RCE.svg) ![forks](https://img.shields.io/github/forks/0x6b7966/CVE-2019-0708-RCE.svg)
 
@@ -4857,13 +4864,13 @@
 
 - [https://github.com/Barry-McCockiner/CVE-2019-0708](https://github.com/Barry-McCockiner/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/Barry-McCockiner/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/Barry-McCockiner/CVE-2019-0708.svg)
 
-- [https://github.com/yetiddbb/CVE-2019-0708-PoC](https://github.com/yetiddbb/CVE-2019-0708-PoC) :  ![starts](https://img.shields.io/github/stars/yetiddbb/CVE-2019-0708-PoC.svg) ![forks](https://img.shields.io/github/forks/yetiddbb/CVE-2019-0708-PoC.svg)
-
 - [https://github.com/temp-user-2014/CVE-2019-0708](https://github.com/temp-user-2014/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/temp-user-2014/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/temp-user-2014/CVE-2019-0708.svg)
 
 - [https://github.com/safly/CVE-2019-0708](https://github.com/safly/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/safly/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/safly/CVE-2019-0708.svg)
 
 - [https://github.com/JSec1337/Scanner-CVE-2019-0708](https://github.com/JSec1337/Scanner-CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/JSec1337/Scanner-CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/JSec1337/Scanner-CVE-2019-0708.svg)
+
+- [https://github.com/yetiddbb/CVE-2019-0708-PoC](https://github.com/yetiddbb/CVE-2019-0708-PoC) :  ![starts](https://img.shields.io/github/stars/yetiddbb/CVE-2019-0708-PoC.svg) ![forks](https://img.shields.io/github/forks/yetiddbb/CVE-2019-0708-PoC.svg)
 
 - [https://github.com/lwtz/CVE-2019-0708](https://github.com/lwtz/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/lwtz/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/lwtz/CVE-2019-0708.svg)
 
@@ -4873,7 +4880,7 @@
 
 - [https://github.com/SurrealSky/CVE20190708SCAN](https://github.com/SurrealSky/CVE20190708SCAN) :  ![starts](https://img.shields.io/github/stars/SurrealSky/CVE20190708SCAN.svg) ![forks](https://img.shields.io/github/forks/SurrealSky/CVE20190708SCAN.svg)
 
-- [https://github.com/hotdog777714/RDS_CVE-2019-0708](https://github.com/hotdog777714/RDS_CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/hotdog777714/RDS_CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/hotdog777714/RDS_CVE-2019-0708.svg)
+- [https://github.com/freeide/CVE-2019-0708-PoC-Exploit](https://github.com/freeide/CVE-2019-0708-PoC-Exploit) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2019-0708-PoC-Exploit.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2019-0708-PoC-Exploit.svg)
 
 ## CVE-2019-0678
  An elevation of privilege vulnerability exists when Microsoft Edge does not properly enforce cross-domain policies, which could allow an attacker to access information from one domain and inject it into another domain.In a web-based attack scenario, an attacker could host a website that is used to attempt to exploit the vulnerability, aka 'Microsoft Edge Elevation of Privilege Vulnerability'.
