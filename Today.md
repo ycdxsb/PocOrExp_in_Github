@@ -1,42 +1,38 @@
-# Update 2021-07-28
+# Update 2021-07-29
 ## CVE-2021-36934
  Windows Elevation of Privilege Vulnerability
 
-- [https://github.com/0x0D1n/CVE-2021-36934](https://github.com/0x0D1n/CVE-2021-36934) :  ![starts](https://img.shields.io/github/stars/0x0D1n/CVE-2021-36934.svg) ![forks](https://img.shields.io/github/forks/0x0D1n/CVE-2021-36934.svg)
+- [https://github.com/exploitblizzard/CVE-2021-36934](https://github.com/exploitblizzard/CVE-2021-36934) :  ![starts](https://img.shields.io/github/stars/exploitblizzard/CVE-2021-36934.svg) ![forks](https://img.shields.io/github/forks/exploitblizzard/CVE-2021-36934.svg)
+- [https://github.com/wolf0x/PSHiveNightmare](https://github.com/wolf0x/PSHiveNightmare) :  ![starts](https://img.shields.io/github/stars/wolf0x/PSHiveNightmare.svg) ![forks](https://img.shields.io/github/forks/wolf0x/PSHiveNightmare.svg)
 
 
-## CVE-2021-22146
- All versions of Elastic Cloud Enterprise has the Elasticsearch &#8220;anonymous&#8221; user enabled by default in deployed clusters. While in the default setting the anonymous user has no permissions and is unable to successfully query any Elasticsearch APIs, an attacker could leverage the anonymous user to gain insight into certain details of a deployed cluster.
+## CVE-2021-3438
+ A potential buffer overflow in the software drivers for certain HP LaserJet products and Samsung product printers could lead to an escalation of privilege.
 
-- [https://github.com/magichk/cve-2021-22146](https://github.com/magichk/cve-2021-22146) :  ![starts](https://img.shields.io/github/stars/magichk/cve-2021-22146.svg) ![forks](https://img.shields.io/github/forks/magichk/cve-2021-22146.svg)
-
-
-## CVE-2021-21972
- The vSphere Client (HTML5) contains a remote code execution vulnerability in a vCenter Server plugin. A malicious actor with network access to port 443 may exploit this issue to execute commands with unrestricted privileges on the underlying operating system that hosts vCenter Server. This affects VMware vCenter Server (7.x before 7.0 U1c, 6.7 before 6.7 U3l and 6.5 before 6.5 U3n) and VMware Cloud Foundation (4.x before 4.2 and 3.x before 3.10.1.2).
-
-- [https://github.com/haiclover/CVE-2021-21972](https://github.com/haiclover/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/haiclover/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/haiclover/CVE-2021-21972.svg)
+- [https://github.com/Crystalware/CVE-2021-3438](https://github.com/Crystalware/CVE-2021-3438) :  ![starts](https://img.shields.io/github/stars/Crystalware/CVE-2021-3438.svg) ![forks](https://img.shields.io/github/forks/Crystalware/CVE-2021-3438.svg)
 
 
-## CVE-2021-3560
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2020-12593
+ Symantec Endpoint Detection &amp; Response, prior to 4.5, may be susceptible to an information disclosure issue, which is a type of vulnerability that could potentially allow unauthorized access to data.
 
-- [https://github.com/curtishoughton/CVE-2021-3560](https://github.com/curtishoughton/CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/curtishoughton/CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/curtishoughton/CVE-2021-3560.svg)
-
-
-## CVE-2021-3157
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/gabobike/CVE-2021-3157](https://github.com/gabobike/CVE-2021-3157) :  ![starts](https://img.shields.io/github/stars/gabobike/CVE-2021-3157.svg) ![forks](https://img.shields.io/github/forks/gabobike/CVE-2021-3157.svg)
+- [https://github.com/nasbench/CVE-2020-12593](https://github.com/nasbench/CVE-2020-12593) :  ![starts](https://img.shields.io/github/stars/nasbench/CVE-2020-12593.svg) ![forks](https://img.shields.io/github/forks/nasbench/CVE-2020-12593.svg)
 
 
-## CVE-2019-13764
- Type confusion in JavaScript in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+## CVE-2018-11790
+ When loading a document with Apache Open Office 4.1.5 and earlier with smaller end line termination than the operating system uses, the defect occurs. In this case OpenOffice runs into an Arithmetic Overflow at a string length calculation.
 
-- [https://github.com/HaboobLab/CVE-2019-13764](https://github.com/HaboobLab/CVE-2019-13764) :  ![starts](https://img.shields.io/github/stars/HaboobLab/CVE-2019-13764.svg) ![forks](https://img.shields.io/github/forks/HaboobLab/CVE-2019-13764.svg)
+- [https://github.com/anmuxi-bai/CVE-2018-11790](https://github.com/anmuxi-bai/CVE-2018-11790) :  ![starts](https://img.shields.io/github/stars/anmuxi-bai/CVE-2018-11790.svg) ![forks](https://img.shields.io/github/forks/anmuxi-bai/CVE-2018-11790.svg)
 
 
-## CVE-2017-12617
- When running Apache Tomcat versions 9.0.0.M1 to 9.0.0, 8.5.0 to 8.5.22, 8.0.0.RC1 to 8.0.46 and 7.0.0 to 7.0.81 with HTTP PUTs enabled (e.g. via setting the readonly initialisation parameter of the Default servlet to false) it was possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any code it contained would be executed by the server.
+## CVE-2018-10562
+ An issue was discovered on Dasan GPON home routers. Command Injection can occur via the dest_host parameter in a diag_action=ping request to a GponForm/diag_Form URI. Because the router saves ping results in /tmp and transmits them to the user when the user revisits /diag.html, it's quite simple to execute commands and retrieve their output.
 
-- [https://github.com/jptr218/tc_hack](https://github.com/jptr218/tc_hack) :  ![starts](https://img.shields.io/github/stars/jptr218/tc_hack.svg) ![forks](https://img.shields.io/github/forks/jptr218/tc_hack.svg)
+- [https://github.com/f3d0x0/GPON](https://github.com/f3d0x0/GPON) :  ![starts](https://img.shields.io/github/stars/f3d0x0/GPON.svg) ![forks](https://img.shields.io/github/forks/f3d0x0/GPON.svg)
+- [https://github.com/ATpiu/CVE-2018-10562](https://github.com/ATpiu/CVE-2018-10562) :  ![starts](https://img.shields.io/github/stars/ATpiu/CVE-2018-10562.svg) ![forks](https://img.shields.io/github/forks/ATpiu/CVE-2018-10562.svg)
+
+
+## CVE-2018-9375
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/IOActive/AOSP-ExploitUserDictionary](https://github.com/IOActive/AOSP-ExploitUserDictionary) :  ![starts](https://img.shields.io/github/stars/IOActive/AOSP-ExploitUserDictionary.svg) ![forks](https://img.shields.io/github/forks/IOActive/AOSP-ExploitUserDictionary.svg)
 
