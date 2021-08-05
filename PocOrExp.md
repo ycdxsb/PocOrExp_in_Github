@@ -21041,13 +21041,9 @@
 
 
 
-- [https://github.com/opsxcq/exploit-CVE-2016-10033](https://github.com/opsxcq/exploit-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/opsxcq/exploit-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/opsxcq/exploit-CVE-2016-10033.svg)
-
 - [https://github.com/GeneralTesler/CVE-2016-10033](https://github.com/GeneralTesler/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/GeneralTesler/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/GeneralTesler/CVE-2016-10033.svg)
 
 - [https://github.com/Zenexer/safeshell](https://github.com/Zenexer/safeshell) :  ![starts](https://img.shields.io/github/stars/Zenexer/safeshell.svg) ![forks](https://img.shields.io/github/forks/Zenexer/safeshell.svg)
-
-- [https://github.com/paralelo14/CVE_2016-10033](https://github.com/paralelo14/CVE_2016-10033) :  ![starts](https://img.shields.io/github/stars/paralelo14/CVE_2016-10033.svg) ![forks](https://img.shields.io/github/forks/paralelo14/CVE_2016-10033.svg)
 
 - [https://github.com/0x00-0x00/CVE-2016-10033](https://github.com/0x00-0x00/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2016-10033.svg)
 
@@ -21059,9 +21055,9 @@
 
 - [https://github.com/cved-sources/cve-2016-10033](https://github.com/cved-sources/cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2016-10033.svg)
 
-- [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
-
 - [https://github.com/liusec/WP-CVE-2016-10033](https://github.com/liusec/WP-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/liusec/WP-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/liusec/WP-CVE-2016-10033.svg)
+
+- [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
 
 - [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
 
@@ -21427,9 +21423,9 @@
 
 - [https://github.com/KosukeShimofuji/CVE-2016-6662](https://github.com/KosukeShimofuji/CVE-2016-6662) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-6662.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-6662.svg)
 
-- [https://github.com/boompig/cve-2016-6662](https://github.com/boompig/cve-2016-6662) :  ![starts](https://img.shields.io/github/stars/boompig/cve-2016-6662.svg) ![forks](https://img.shields.io/github/forks/boompig/cve-2016-6662.svg)
-
 - [https://github.com/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch](https://github.com/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch) :  ![starts](https://img.shields.io/github/stars/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch.svg) ![forks](https://img.shields.io/github/forks/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch.svg)
+
+- [https://github.com/boompig/cve-2016-6662](https://github.com/boompig/cve-2016-6662) :  ![starts](https://img.shields.io/github/stars/boompig/cve-2016-6662.svg) ![forks](https://img.shields.io/github/forks/boompig/cve-2016-6662.svg)
 
 ## CVE-2016-6584
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
@@ -21644,9 +21640,9 @@
 
 - [https://github.com/sijidufei/CVE-2016-5195](https://github.com/sijidufei/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sijidufei/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sijidufei/CVE-2016-5195.svg)
 
-- [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
-
 - [https://github.com/linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/linhlt247/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/linhlt247/DirtyCOW_CVE-2016-5195.svg)
+
+- [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
 
 - [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
 
@@ -21690,9 +21686,9 @@
 
 - [https://github.com/BlueCocoa/CVE-2016-4971](https://github.com/BlueCocoa/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/BlueCocoa/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/BlueCocoa/CVE-2016-4971.svg)
 
-- [https://github.com/gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/gitcollect/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/gitcollect/CVE-2016-4971.svg)
-
 - [https://github.com/mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2016-4971.svg)
+
+- [https://github.com/gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/gitcollect/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/gitcollect/CVE-2016-4971.svg)
 
 - [https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-](https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-) :  ![starts](https://img.shields.io/github/stars/dinidhu96/IT19013756_-CVE-2016-4971-.svg) ![forks](https://img.shields.io/github/forks/dinidhu96/IT19013756_-CVE-2016-4971-.svg)
 
@@ -22117,9 +22113,9 @@
 
 - [https://github.com/danielhemmati/CVE-2016-2098-my-first-exploit](https://github.com/danielhemmati/CVE-2016-2098-my-first-exploit) :  ![starts](https://img.shields.io/github/stars/danielhemmati/CVE-2016-2098-my-first-exploit.svg) ![forks](https://img.shields.io/github/forks/danielhemmati/CVE-2016-2098-my-first-exploit.svg)
 
-- [https://github.com/Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Debalinax64/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Debalinax64/CVE-2016-2098.svg)
-
 - [https://github.com/3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/3rg1s/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/3rg1s/CVE-2016-2098.svg)
+
+- [https://github.com/Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Debalinax64/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Debalinax64/CVE-2016-2098.svg)
 
 ## CVE-2016-2067
  drivers/gpu/msm/kgsl.c in the MSM graphics driver (aka GPU driver) for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, mishandles the KGSL_MEMFLAGS_GPUREADONLY flag, which allows attackers to gain privileges by leveraging accidental read-write mappings, aka Qualcomm internal bug CR988993.
