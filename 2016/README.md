@@ -93,9 +93,13 @@
 
 
 
+- [https://github.com/opsxcq/exploit-CVE-2016-10033](https://github.com/opsxcq/exploit-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/opsxcq/exploit-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/opsxcq/exploit-CVE-2016-10033.svg)
+
 - [https://github.com/GeneralTesler/CVE-2016-10033](https://github.com/GeneralTesler/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/GeneralTesler/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/GeneralTesler/CVE-2016-10033.svg)
 
 - [https://github.com/Zenexer/safeshell](https://github.com/Zenexer/safeshell) :  ![starts](https://img.shields.io/github/stars/Zenexer/safeshell.svg) ![forks](https://img.shields.io/github/forks/Zenexer/safeshell.svg)
+
+- [https://github.com/paralelo14/CVE_2016-10033](https://github.com/paralelo14/CVE_2016-10033) :  ![starts](https://img.shields.io/github/stars/paralelo14/CVE_2016-10033.svg) ![forks](https://img.shields.io/github/forks/paralelo14/CVE_2016-10033.svg)
 
 - [https://github.com/0x00-0x00/CVE-2016-10033](https://github.com/0x00-0x00/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2016-10033.svg)
 
@@ -107,9 +111,9 @@
 
 - [https://github.com/cved-sources/cve-2016-10033](https://github.com/cved-sources/cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2016-10033.svg)
 
-- [https://github.com/liusec/WP-CVE-2016-10033](https://github.com/liusec/WP-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/liusec/WP-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/liusec/WP-CVE-2016-10033.svg)
-
 - [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
+
+- [https://github.com/liusec/WP-CVE-2016-10033](https://github.com/liusec/WP-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/liusec/WP-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/liusec/WP-CVE-2016-10033.svg)
 
 - [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
 
