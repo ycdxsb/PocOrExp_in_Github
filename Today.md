@@ -1,37 +1,49 @@
-# Update 2021-08-06
-## CVE-2021-36934
- Windows Elevation of Privilege Vulnerability
+# Update 2021-08-07
+## CVE-2021-27065
+ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, CVE-2021-27078.
 
-- [https://github.com/CrackerCat/HiveNightmare](https://github.com/CrackerCat/HiveNightmare) :  ![starts](https://img.shields.io/github/stars/CrackerCat/HiveNightmare.svg) ![forks](https://img.shields.io/github/forks/CrackerCat/HiveNightmare.svg)
-- [https://github.com/shaktavist/SeriousSam](https://github.com/shaktavist/SeriousSam) :  ![starts](https://img.shields.io/github/stars/shaktavist/SeriousSam.svg) ![forks](https://img.shields.io/github/forks/shaktavist/SeriousSam.svg)
-
-
-## CVE-2021-36798
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/burpheart/CS_mock](https://github.com/burpheart/CS_mock) :  ![starts](https://img.shields.io/github/stars/burpheart/CS_mock.svg) ![forks](https://img.shields.io/github/forks/burpheart/CS_mock.svg)
+- [https://github.com/raheel0x01/CVE-2021-26855](https://github.com/raheel0x01/CVE-2021-26855) :  ![starts](https://img.shields.io/github/stars/raheel0x01/CVE-2021-26855.svg) ![forks](https://img.shields.io/github/forks/raheel0x01/CVE-2021-26855.svg)
 
 
-## CVE-2021-33564
- An argument injection vulnerability in the Dragonfly gem before 1.4.0 for Ruby allows remote attackers to read and write to arbitrary files via a crafted URL when the verify_url option is disabled. This may lead to code execution. The problem occurs because the generate and process features mishandle use of the ImageMagick convert utility.
+## CVE-2021-26855
+ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078.
 
-- [https://github.com/dorkerdevil/CVE-2021-33564](https://github.com/dorkerdevil/CVE-2021-33564) :  ![starts](https://img.shields.io/github/stars/dorkerdevil/CVE-2021-33564.svg) ![forks](https://img.shields.io/github/forks/dorkerdevil/CVE-2021-33564.svg)
-
-
-## CVE-2020-28018
- Exim 4 before 4.94.2 allows Use After Free in smtp_reset in certain situations that may be common for builds with OpenSSL.
-
-- [https://github.com/dorkerdevil/CVE-2020-28018](https://github.com/dorkerdevil/CVE-2020-28018) :  ![starts](https://img.shields.io/github/stars/dorkerdevil/CVE-2020-28018.svg) ![forks](https://img.shields.io/github/forks/dorkerdevil/CVE-2020-28018.svg)
+- [https://github.com/raheel0x01/CVE-2021-26855](https://github.com/raheel0x01/CVE-2021-26855) :  ![starts](https://img.shields.io/github/stars/raheel0x01/CVE-2021-26855.svg) ![forks](https://img.shields.io/github/forks/raheel0x01/CVE-2021-26855.svg)
 
 
-## CVE-2019-20218
- selectExpander in select.c in SQLite 3.30.1 proceeds with WITH stack unwinding even after a parsing error.
+## CVE-2020-5509
+ PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executable file in an upload of a new profile image.
 
-- [https://github.com/artsking/Sqlite-CVE-2019-20218](https://github.com/artsking/Sqlite-CVE-2019-20218) :  ![starts](https://img.shields.io/github/stars/artsking/Sqlite-CVE-2019-20218.svg) ![forks](https://img.shields.io/github/forks/artsking/Sqlite-CVE-2019-20218.svg)
+- [https://github.com/5l1v3r1/CVE-2020-5509](https://github.com/5l1v3r1/CVE-2020-5509) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/CVE-2020-5509.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/CVE-2020-5509.svg)
 
 
-## CVE-2017-5638
- The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
+## CVE-2019-16724
+ File Sharing Wizard 1.5.0 allows a remote attacker to obtain arbitrary code execution by exploiting a Structured Exception Handler (SEH) based buffer overflow in an HTTP POST parameter, a similar issue to CVE-2010-2330 and CVE-2010-2331.
 
-- [https://github.com/jptr218/struts_hack](https://github.com/jptr218/struts_hack) :  ![starts](https://img.shields.io/github/stars/jptr218/struts_hack.svg) ![forks](https://img.shields.io/github/forks/jptr218/struts_hack.svg)
+- [https://github.com/nanabingies/CVE-2019-16724](https://github.com/nanabingies/CVE-2019-16724) :  ![starts](https://img.shields.io/github/stars/nanabingies/CVE-2019-16724.svg) ![forks](https://img.shields.io/github/forks/nanabingies/CVE-2019-16724.svg)
+
+
+## CVE-2018-8120
+ An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot; This affects Windows Server 2008, Windows 7, Windows Server 2008 R2. This CVE ID is unique from CVE-2018-8124, CVE-2018-8164, CVE-2018-8166.
+
+- [https://github.com/nanabingies/CVE-2018-8120](https://github.com/nanabingies/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/nanabingies/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/nanabingies/CVE-2018-8120.svg)
+
+
+## CVE-2017-1000486
+ Primetek Primefaces 5.x is vulnerable to a weak encryption flaw resulting in remote code execution
+
+- [https://github.com/Pastea/CVE-2017-1000486](https://github.com/Pastea/CVE-2017-1000486) :  ![starts](https://img.shields.io/github/stars/Pastea/CVE-2017-1000486.svg) ![forks](https://img.shields.io/github/forks/Pastea/CVE-2017-1000486.svg)
+
+
+## CVE-2017-14980
+ Buffer overflow in Sync Breeze Enterprise 10.0.28 allows remote attackers to have unspecified impact via a long username parameter to /login.
+
+- [https://github.com/Xcatolin/SyncBreeze-BoF](https://github.com/Xcatolin/SyncBreeze-BoF) :  ![starts](https://img.shields.io/github/stars/Xcatolin/SyncBreeze-BoF.svg) ![forks](https://img.shields.io/github/forks/Xcatolin/SyncBreeze-BoF.svg)
+
+
+## CVE-2016-10033
+ The mailSend function in the isMail transport in PHPMailer before 5.2.18 might allow remote attackers to pass extra parameters to the mail command and consequently execute arbitrary code via a \&quot; (backslash double quote) in a crafted Sender property.
+
+- [https://github.com/opsxcq/exploit-CVE-2016-10033](https://github.com/opsxcq/exploit-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/opsxcq/exploit-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/opsxcq/exploit-CVE-2016-10033.svg)
+- [https://github.com/paralelo14/CVE_2016-10033](https://github.com/paralelo14/CVE_2016-10033) :  ![starts](https://img.shields.io/github/stars/paralelo14/CVE_2016-10033.svg) ![forks](https://img.shields.io/github/forks/paralelo14/CVE_2016-10033.svg)
 
