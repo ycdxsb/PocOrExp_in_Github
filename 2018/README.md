@@ -638,7 +638,7 @@
 
 
 
-- [https://github.com/AlwaysHereFight/monstra_cms-3.0.4--getshell](https://github.com/AlwaysHereFight/monstra_cms-3.0.4--getshell) :  ![starts](https://img.shields.io/github/stars/AlwaysHereFight/monstra_cms-3.0.4--getshell.svg) ![forks](https://img.shields.io/github/forks/AlwaysHereFight/monstra_cms-3.0.4--getshell.svg)
+- [https://github.com/Jx0n0/monstra_cms-3.0.4--getshell](https://github.com/Jx0n0/monstra_cms-3.0.4--getshell) :  ![starts](https://img.shields.io/github/stars/Jx0n0/monstra_cms-3.0.4--getshell.svg) ![forks](https://img.shields.io/github/forks/Jx0n0/monstra_cms-3.0.4--getshell.svg)
 
 ## CVE-2018-17336
  UDisks 2.8.0 has a format string vulnerability in udisks_log in udiskslogging.c, allowing attackers to obtain sensitive information (stack contents), cause a denial of service (memory corruption), or possibly have unspecified other impact via a malformed filesystem label, as demonstrated by %d or %n substrings.
@@ -1452,9 +1452,9 @@
 
 - [https://github.com/0x00-0x00/CVE-2018-12613](https://github.com/0x00-0x00/CVE-2018-12613) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2018-12613.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2018-12613.svg)
 
-- [https://github.com/ivanitlearning/CVE-2018-12613](https://github.com/ivanitlearning/CVE-2018-12613) :  ![starts](https://img.shields.io/github/stars/ivanitlearning/CVE-2018-12613.svg) ![forks](https://img.shields.io/github/forks/ivanitlearning/CVE-2018-12613.svg)
-
 - [https://github.com/eastmountyxz/CVE-2018-12613-phpMyAdmin](https://github.com/eastmountyxz/CVE-2018-12613-phpMyAdmin) :  ![starts](https://img.shields.io/github/stars/eastmountyxz/CVE-2018-12613-phpMyAdmin.svg) ![forks](https://img.shields.io/github/forks/eastmountyxz/CVE-2018-12613-phpMyAdmin.svg)
+
+- [https://github.com/ivanitlearning/CVE-2018-12613](https://github.com/ivanitlearning/CVE-2018-12613) :  ![starts](https://img.shields.io/github/stars/ivanitlearning/CVE-2018-12613.svg) ![forks](https://img.shields.io/github/forks/ivanitlearning/CVE-2018-12613.svg)
 
 ## CVE-2018-12598
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
@@ -1752,19 +1752,19 @@
 
 - [https://github.com/knqyf263/CVE-2018-11235](https://github.com/knqyf263/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/knqyf263/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/knqyf263/CVE-2018-11235.svg)
 
-- [https://github.com/cchang27/CVE-2018-11235-test](https://github.com/cchang27/CVE-2018-11235-test) :  ![starts](https://img.shields.io/github/stars/cchang27/CVE-2018-11235-test.svg) ![forks](https://img.shields.io/github/forks/cchang27/CVE-2018-11235-test.svg)
-
 - [https://github.com/Choihosu/cve-2018-11235](https://github.com/Choihosu/cve-2018-11235) :  ![starts](https://img.shields.io/github/stars/Choihosu/cve-2018-11235.svg) ![forks](https://img.shields.io/github/forks/Choihosu/cve-2018-11235.svg)
 
-- [https://github.com/xElkomy/CVE-2018-11235](https://github.com/xElkomy/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/xElkomy/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/xElkomy/CVE-2018-11235.svg)
+- [https://github.com/cchang27/CVE-2018-11235-test](https://github.com/cchang27/CVE-2018-11235-test) :  ![starts](https://img.shields.io/github/stars/cchang27/CVE-2018-11235-test.svg) ![forks](https://img.shields.io/github/forks/cchang27/CVE-2018-11235-test.svg)
 
-- [https://github.com/vmotos/CVE-2018-11235](https://github.com/vmotos/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/vmotos/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/vmotos/CVE-2018-11235.svg)
+- [https://github.com/xElkomy/CVE-2018-11235](https://github.com/xElkomy/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/xElkomy/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/xElkomy/CVE-2018-11235.svg)
 
 - [https://github.com/Kiss-sh0t/CVE-2018-11235-poc](https://github.com/Kiss-sh0t/CVE-2018-11235-poc) :  ![starts](https://img.shields.io/github/stars/Kiss-sh0t/CVE-2018-11235-poc.svg) ![forks](https://img.shields.io/github/forks/Kiss-sh0t/CVE-2018-11235-poc.svg)
 
 - [https://github.com/moajo/cve_2018_11235](https://github.com/moajo/cve_2018_11235) :  ![starts](https://img.shields.io/github/stars/moajo/cve_2018_11235.svg) ![forks](https://img.shields.io/github/forks/moajo/cve_2018_11235.svg)
 
 - [https://github.com/morhax/CVE-2018-11235](https://github.com/morhax/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/morhax/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/morhax/CVE-2018-11235.svg)
+
+- [https://github.com/vmotos/CVE-2018-11235](https://github.com/vmotos/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/vmotos/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/vmotos/CVE-2018-11235.svg)
 
 - [https://github.com/nthuong95/CVE-2018-11235](https://github.com/nthuong95/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/nthuong95/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/nthuong95/CVE-2018-11235.svg)
 
@@ -2021,9 +2021,9 @@
 
 - [https://github.com/ABIZCHI/CVE-2018-9995_dvr_credentials](https://github.com/ABIZCHI/CVE-2018-9995_dvr_credentials) :  ![starts](https://img.shields.io/github/stars/ABIZCHI/CVE-2018-9995_dvr_credentials.svg) ![forks](https://img.shields.io/github/forks/ABIZCHI/CVE-2018-9995_dvr_credentials.svg)
 
-- [https://github.com/TateYdq/CVE-2018-9995-ModifiedByGwolfs](https://github.com/TateYdq/CVE-2018-9995-ModifiedByGwolfs) :  ![starts](https://img.shields.io/github/stars/TateYdq/CVE-2018-9995-ModifiedByGwolfs.svg) ![forks](https://img.shields.io/github/forks/TateYdq/CVE-2018-9995-ModifiedByGwolfs.svg)
-
 - [https://github.com/likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool](https://github.com/likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool) :  ![starts](https://img.shields.io/github/stars/likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool.svg) ![forks](https://img.shields.io/github/forks/likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool.svg)
+
+- [https://github.com/TateYdq/CVE-2018-9995-ModifiedByGwolfs](https://github.com/TateYdq/CVE-2018-9995-ModifiedByGwolfs) :  ![starts](https://img.shields.io/github/stars/TateYdq/CVE-2018-9995-ModifiedByGwolfs.svg) ![forks](https://img.shields.io/github/forks/TateYdq/CVE-2018-9995-ModifiedByGwolfs.svg)
 
 ## CVE-2018-9958
  This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader 9.0.1.1049. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Text Annotations. When setting the point attribute, the process does not properly validate the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process. Was ZDI-CAN-5620.
@@ -2407,9 +2407,9 @@
 
 - [https://github.com/StartZYP/CVE-2018-8120](https://github.com/StartZYP/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/StartZYP/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/StartZYP/CVE-2018-8120.svg)
 
-- [https://github.com/qiantu88/CVE-2018-8120](https://github.com/qiantu88/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/qiantu88/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/qiantu88/CVE-2018-8120.svg)
-
 - [https://github.com/DreamoneOnly/CVE-2018-8120](https://github.com/DreamoneOnly/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/DreamoneOnly/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/DreamoneOnly/CVE-2018-8120.svg)
+
+- [https://github.com/qiantu88/CVE-2018-8120](https://github.com/qiantu88/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/qiantu88/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/qiantu88/CVE-2018-8120.svg)
 
 - [https://github.com/Y0n0Y/cve-2018-8120-exp](https://github.com/Y0n0Y/cve-2018-8120-exp) :  ![starts](https://img.shields.io/github/stars/Y0n0Y/cve-2018-8120-exp.svg) ![forks](https://img.shields.io/github/forks/Y0n0Y/cve-2018-8120-exp.svg)
 
@@ -2441,7 +2441,7 @@
 
 
 
-- [https://github.com/AlwaysHereFight/YZMCMSxss](https://github.com/AlwaysHereFight/YZMCMSxss) :  ![starts](https://img.shields.io/github/stars/AlwaysHereFight/YZMCMSxss.svg) ![forks](https://img.shields.io/github/forks/AlwaysHereFight/YZMCMSxss.svg)
+- [https://github.com/Jx0n0/YZMCMSxss](https://github.com/Jx0n0/YZMCMSxss) :  ![starts](https://img.shields.io/github/stars/Jx0n0/YZMCMSxss.svg) ![forks](https://img.shields.io/github/forks/Jx0n0/YZMCMSxss.svg)
 
 ## CVE-2018-8065
  An issue was discovered in the web server in Flexense SyncBreeze Enterprise 10.6.24. There is a user mode write access violation on the syncbrs.exe memory region that can be triggered by rapidly sending a variety of HTTP requests with long HTTP header values or long URIs.
@@ -3920,13 +3920,6 @@
 
 
 - [https://github.com/tafamace/CVE-2018-1313](https://github.com/tafamace/CVE-2018-1313) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2018-1313.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2018-1313.svg)
-
-## CVE-2018-1306
- The PortletV3AnnotatedDemo Multipart Portlet war file code provided in Apache Pluto version 3.0.0 could allow a remote attacker to obtain sensitive information, caused by the failure to restrict path information provided during a file upload. An attacker could exploit this vulnerability to obtain configuration data and other sensitive information.
-
-
-
-- [https://github.com/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306](https://github.com/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306) :  ![starts](https://img.shields.io/github/stars/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306.svg) ![forks](https://img.shields.io/github/forks/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306.svg)
 
 ## CVE-2018-1305
  Security constraints defined by annotations of Servlets in Apache Tomcat 9.0.0.M1 to 9.0.4, 8.5.0 to 8.5.27, 8.0.0.RC1 to 8.0.49 and 7.0.0 to 7.0.84 were only applied once a Servlet had been loaded. Because security constraints defined in this way apply to the URL pattern and any URLs below that point, it was possible - depending on the order Servlets were loaded - for some security constraints not to be applied. This could have exposed resources to users who were not authorised to access them.
