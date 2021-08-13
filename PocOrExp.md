@@ -23118,9 +23118,9 @@
 
 - [https://github.com/fjserna/CVE-2015-7547](https://github.com/fjserna/CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/fjserna/CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/fjserna/CVE-2015-7547.svg)
 
-- [https://github.com/jgajek/cve-2015-7547](https://github.com/jgajek/cve-2015-7547) :  ![starts](https://img.shields.io/github/stars/jgajek/cve-2015-7547.svg) ![forks](https://img.shields.io/github/forks/jgajek/cve-2015-7547.svg)
-
 - [https://github.com/eSentire/cve-2015-7547-public](https://github.com/eSentire/cve-2015-7547-public) :  ![starts](https://img.shields.io/github/stars/eSentire/cve-2015-7547-public.svg) ![forks](https://img.shields.io/github/forks/eSentire/cve-2015-7547-public.svg)
+
+- [https://github.com/jgajek/cve-2015-7547](https://github.com/jgajek/cve-2015-7547) :  ![starts](https://img.shields.io/github/stars/jgajek/cve-2015-7547.svg) ![forks](https://img.shields.io/github/forks/jgajek/cve-2015-7547.svg)
 
 - [https://github.com/cakuzo/CVE-2015-7547](https://github.com/cakuzo/CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/cakuzo/CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/cakuzo/CVE-2015-7547.svg)
 
