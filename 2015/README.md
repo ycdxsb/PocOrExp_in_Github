@@ -166,9 +166,9 @@
 
 - [https://github.com/miracle03/CVE-2015-7547-master](https://github.com/miracle03/CVE-2015-7547-master) :  ![starts](https://img.shields.io/github/stars/miracle03/CVE-2015-7547-master.svg) ![forks](https://img.shields.io/github/forks/miracle03/CVE-2015-7547-master.svg)
 
-- [https://github.com/rexifiles/rex-sec-glibc](https://github.com/rexifiles/rex-sec-glibc) :  ![starts](https://img.shields.io/github/stars/rexifiles/rex-sec-glibc.svg) ![forks](https://img.shields.io/github/forks/rexifiles/rex-sec-glibc.svg)
-
 - [https://github.com/bluebluelan/CVE-2015-7547-proj-master](https://github.com/bluebluelan/CVE-2015-7547-proj-master) :  ![starts](https://img.shields.io/github/stars/bluebluelan/CVE-2015-7547-proj-master.svg) ![forks](https://img.shields.io/github/forks/bluebluelan/CVE-2015-7547-proj-master.svg)
+
+- [https://github.com/rexifiles/rex-sec-glibc](https://github.com/rexifiles/rex-sec-glibc) :  ![starts](https://img.shields.io/github/stars/rexifiles/rex-sec-glibc.svg) ![forks](https://img.shields.io/github/forks/rexifiles/rex-sec-glibc.svg)
 
 ## CVE-2015-7545
  The (1) git-remote-ext and (2) unspecified other remote helper programs in Git before 2.3.10, 2.4.x before 2.4.10, 2.5.x before 2.5.4, and 2.6.x before 2.6.1 do not properly restrict the allowed protocols, which might allow remote attackers to execute arbitrary code via a URL in a (a) .gitmodules file or (b) unknown other sources in a submodule.
