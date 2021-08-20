@@ -25,6 +25,13 @@
 
 - [https://github.com/fi01/libget_user_exploit](https://github.com/fi01/libget_user_exploit) :  ![starts](https://img.shields.io/github/stars/fi01/libget_user_exploit.svg) ![forks](https://img.shields.io/github/forks/fi01/libget_user_exploit.svg)
 
+## CVE-2013-6276
+ ** UNSUPPORTED WHEN ASSIGNED ** QNAP F_VioCard 2312 and F_VioGate 2308 have hardcoded entries in authorized_keys files. NOTE: 1. All active models are not affected. The last affected model was EOL since 2010. 2. The legacy authorization mechanism is no longer adopted in all active models.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2013-6276](https://github.com/AlAIAL90/CVE-2013-6276) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2013-6276.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2013-6276.svg)
+
 ## CVE-2013-6117
  Dahua DVR 2.608.0000.0 and 2.608.GV00.0 allows remote attackers to bypass authentication and obtain sensitive information including user credentials, change user passwords, clear log files, and perform other actions via a request to TCP port 37777.
 
@@ -146,9 +153,9 @@
 
 
 
-- [https://github.com/lagartojuancho/CVE-2013-3664_MAC](https://github.com/lagartojuancho/CVE-2013-3664_MAC) :  ![starts](https://img.shields.io/github/stars/lagartojuancho/CVE-2013-3664_MAC.svg) ![forks](https://img.shields.io/github/forks/lagartojuancho/CVE-2013-3664_MAC.svg)
-
 - [https://github.com/lagartojuancho/CVE-2013-3664_BMP](https://github.com/lagartojuancho/CVE-2013-3664_BMP) :  ![starts](https://img.shields.io/github/stars/lagartojuancho/CVE-2013-3664_BMP.svg) ![forks](https://img.shields.io/github/forks/lagartojuancho/CVE-2013-3664_BMP.svg)
+
+- [https://github.com/lagartojuancho/CVE-2013-3664_MAC](https://github.com/lagartojuancho/CVE-2013-3664_MAC) :  ![starts](https://img.shields.io/github/stars/lagartojuancho/CVE-2013-3664_MAC.svg) ![forks](https://img.shields.io/github/forks/lagartojuancho/CVE-2013-3664_MAC.svg)
 
 ## CVE-2013-3651
  LOCKON EC-CUBE 2.11.2 through 2.12.4 allows remote attackers to conduct unspecified PHP code-injection attacks via a crafted string, related to data/class/SC_CheckError.php and data/class/SC_FormParam.php.
@@ -191,6 +198,13 @@
 
 
 - [https://github.com/yjaaidi/exploits](https://github.com/yjaaidi/exploits) :  ![starts](https://img.shields.io/github/stars/yjaaidi/exploits.svg) ![forks](https://img.shields.io/github/forks/yjaaidi/exploits.svg)
+
+## CVE-2013-2763
+ ** DISPUTED ** The Schneider Electric M340 PLC modules allow remote attackers to cause a denial of service (resource consumption) via unspecified vectors.  NOTE: the vendor reportedly disputes this issue because it &quot;could not be duplicated&quot; and &quot;an attacker could not remotely exploit this observed behavior to deny PLC control functions.&quot;
+
+
+
+- [https://github.com/AlAIAL90/CVE-2013-2763](https://github.com/AlAIAL90/CVE-2013-2763) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2013-2763.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2013-2763.svg)
 
 ## CVE-2013-2730
  Buffer overflow in Adobe Reader and Acrobat 9.x before 9.5.5, 10.x before 10.1.7, and 11.x before 11.0.03 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2013-2733.
