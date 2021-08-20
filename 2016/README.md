@@ -696,9 +696,9 @@
 
 - [https://github.com/sijidufei/CVE-2016-5195](https://github.com/sijidufei/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sijidufei/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sijidufei/CVE-2016-5195.svg)
 
-- [https://github.com/linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/linhlt247/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/linhlt247/DirtyCOW_CVE-2016-5195.svg)
-
 - [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
+
+- [https://github.com/linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/linhlt247/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/linhlt247/DirtyCOW_CVE-2016-5195.svg)
 
 - [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
 
@@ -826,6 +826,13 @@
 - [https://github.com/saelo/jscpwn](https://github.com/saelo/jscpwn) :  ![starts](https://img.shields.io/github/stars/saelo/jscpwn.svg) ![forks](https://img.shields.io/github/forks/saelo/jscpwn.svg)
 
 - [https://github.com/hdbreaker/WebKit-CVE-2016-4622](https://github.com/hdbreaker/WebKit-CVE-2016-4622) :  ![starts](https://img.shields.io/github/stars/hdbreaker/WebKit-CVE-2016-4622.svg) ![forks](https://img.shields.io/github/forks/hdbreaker/WebKit-CVE-2016-4622.svg)
+
+## CVE-2016-4529
+ An unspecified ActiveX control in Schneider Electric SoMachine HVAC Programming Software for M171/M172 Controllers before 2.1.0 allows remote attackers to execute arbitrary code via unknown vectors, related to the INTERFACESAFE_FOR_UNTRUSTED_CALLER (aka safe for scripting) flag.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2016-4529](https://github.com/AlAIAL90/CVE-2016-4529) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2016-4529.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2016-4529.svg)
 
 ## CVE-2016-4468
  SQL injection vulnerability in Pivotal Cloud Foundry (PCF) before 238; UAA 2.x before 2.7.4.4, 3.x before 3.3.0.2, and 3.4.x before 3.4.1; UAA BOSH before 11.2 and 12.x before 12.2; Elastic Runtime before 1.6.29 and 1.7.x before 1.7.7; and Ops Manager 1.7.x before 1.7.8 allows remote authenticated users to execute arbitrary SQL commands via unspecified vectors.
