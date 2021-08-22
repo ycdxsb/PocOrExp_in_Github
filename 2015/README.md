@@ -558,6 +558,8 @@
 
 - [https://github.com/davidtavarez/CVE-2015-3306](https://github.com/davidtavarez/CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/davidtavarez/CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/davidtavarez/CVE-2015-3306.svg)
 
+- [https://github.com/jptr218/proftpd_bypass](https://github.com/jptr218/proftpd_bypass) :  ![starts](https://img.shields.io/github/stars/jptr218/proftpd_bypass.svg) ![forks](https://img.shields.io/github/forks/jptr218/proftpd_bypass.svg)
+
 - [https://github.com/cved-sources/cve-2015-3306](https://github.com/cved-sources/cve-2015-3306) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-3306.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-3306.svg)
 
 - [https://github.com/hackarada/cve-2015-3306](https://github.com/hackarada/cve-2015-3306) :  ![starts](https://img.shields.io/github/stars/hackarada/cve-2015-3306.svg) ![forks](https://img.shields.io/github/forks/hackarada/cve-2015-3306.svg)
