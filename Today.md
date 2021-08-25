@@ -1,37 +1,36 @@
-# Update 2021-08-24
-## CVE-2021-30551
- Type confusion in V8 in Google Chrome prior to 91.0.4472.101 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+# Update 2021-08-25
+## CVE-2021-3560
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/xmzyshypnc/CVE-2021-30551](https://github.com/xmzyshypnc/CVE-2021-30551) :  ![starts](https://img.shields.io/github/stars/xmzyshypnc/CVE-2021-30551.svg) ![forks](https://img.shields.io/github/forks/xmzyshypnc/CVE-2021-30551.svg)
-
-
-## CVE-2020-0796
- A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.
-
-- [https://github.com/Nephael/Nephael-CVE-2020-0796](https://github.com/Nephael/Nephael-CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/Nephael/Nephael-CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/Nephael/Nephael-CVE-2020-0796.svg)
+- [https://github.com/aancw/polkit-auto-exploit](https://github.com/aancw/polkit-auto-exploit) :  ![starts](https://img.shields.io/github/stars/aancw/polkit-auto-exploit.svg) ![forks](https://img.shields.io/github/forks/aancw/polkit-auto-exploit.svg)
 
 
-## CVE-2019-6340
- Some field types do not properly sanitize data from non-form sources in Drupal 8.5.x before 8.5.11 and Drupal 8.6.x before 8.6.10. This can lead to arbitrary PHP code execution in some cases. A site is only affected by this if one of the following conditions is met: The site has the Drupal 8 core RESTful Web Services (rest) module enabled and allows PATCH or POST requests, or the site has another web services module enabled, like JSON:API in Drupal 8, or Services or RESTful Web Services in Drupal 7. (Note: The Drupal 7 Services module itself does not require an update at this time, but you should apply other contributed updates associated with this advisory if Services is in use.)
+## CVE-2020-6308
+ SAP BusinessObjects Business Intelligence Platform (Web Services) versions - 410, 420, 430, allows an unauthenticated attacker to inject arbitrary values as CMS parameters to perform lookups on the internal network which is otherwise not accessible externally. On successful exploitation, attacker can scan internal network to determine internal infrastructure and gather information for further attacks like remote file inclusion, retrieve server files, bypass firewall and force the vulnerable server to perform malicious requests, resulting in a Server-Side Request Forgery vulnerability.
 
-- [https://github.com/Nephael/Nephael-CVE-2019-6340](https://github.com/Nephael/Nephael-CVE-2019-6340) :  ![starts](https://img.shields.io/github/stars/Nephael/Nephael-CVE-2019-6340.svg) ![forks](https://img.shields.io/github/forks/Nephael/Nephael-CVE-2019-6340.svg)
-
-
-## CVE-2019-5482
- Heap buffer overflow in the TFTP protocol handler in cURL 7.19.4 to 7.65.3.
-
-- [https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5482_withPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5482_withPatch) :  ![starts](https://img.shields.io/github/stars/madhans23/curl-curl-7_64_1_CVE-2019-5482_withPatch.svg) ![forks](https://img.shields.io/github/forks/madhans23/curl-curl-7_64_1_CVE-2019-5482_withPatch.svg)
-- [https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5482_noPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5482_noPatch) :  ![starts](https://img.shields.io/github/stars/madhans23/curl-curl-7_64_1_CVE-2019-5482_noPatch.svg) ![forks](https://img.shields.io/github/forks/madhans23/curl-curl-7_64_1_CVE-2019-5482_noPatch.svg)
+- [https://github.com/TheMMMdev/CVE-2020-6308](https://github.com/TheMMMdev/CVE-2020-6308) :  ![starts](https://img.shields.io/github/stars/TheMMMdev/CVE-2020-6308.svg) ![forks](https://img.shields.io/github/forks/TheMMMdev/CVE-2020-6308.svg)
 
 
-## CVE-2018-6242
- Some NVIDIA Tegra mobile processors released prior to 2016 contain a buffer overflow vulnerability in BootROM Recovery Mode (RCM). An attacker with physical access to the device's USB and the ability to force the device to reboot into RCM could exploit the vulnerability to execute unverified code.
+## CVE-2020-4464
+ IBM WebSphere Application Server 7.0, 8.0, 8.5, and 9.0 traditional could allow a remote attacker to execute arbitrary code on a system with a specially-crafted sequence of serialized objects over the SOAP connector. IBM X-Force ID: 181489.
 
-- [https://github.com/Nephael/Nephael-Nintendo-CVE-2018-6242](https://github.com/Nephael/Nephael-Nintendo-CVE-2018-6242) :  ![starts](https://img.shields.io/github/stars/Nephael/Nephael-Nintendo-CVE-2018-6242.svg) ![forks](https://img.shields.io/github/forks/Nephael/Nephael-Nintendo-CVE-2018-6242.svg)
+- [https://github.com/silentsignal/WebSphere-WSIF-gadget](https://github.com/silentsignal/WebSphere-WSIF-gadget) :  ![starts](https://img.shields.io/github/stars/silentsignal/WebSphere-WSIF-gadget.svg) ![forks](https://img.shields.io/github/forks/silentsignal/WebSphere-WSIF-gadget.svg)
 
 
-## CVE-2014-6271
- GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
+## CVE-2020-4450
+ IBM WebSphere Application Server 8.5 and 9.0 traditional could allow a remote attacker to execute arbitrary code on the system with a specially-crafted sequence of serialized objects. IBM X-Force ID: 181231.
 
-- [https://github.com/JohnRyk/ICMPShock3](https://github.com/JohnRyk/ICMPShock3) :  ![starts](https://img.shields.io/github/stars/JohnRyk/ICMPShock3.svg) ![forks](https://img.shields.io/github/forks/JohnRyk/ICMPShock3.svg)
+- [https://github.com/silentsignal/WebSphere-WSIF-gadget](https://github.com/silentsignal/WebSphere-WSIF-gadget) :  ![starts](https://img.shields.io/github/stars/silentsignal/WebSphere-WSIF-gadget.svg) ![forks](https://img.shields.io/github/forks/silentsignal/WebSphere-WSIF-gadget.svg)
+
+
+## CVE-2019-7609
+ Kibana versions before 5.6.15 and 6.6.1 contain an arbitrary code execution flaw in the Timelion visualizer. An attacker with access to the Timelion application could send a request that will attempt to execute javascript code. This could possibly lead to an attacker executing arbitrary commands with permissions of the Kibana process on the host system.
+
+- [https://github.com/dnr6419/CVE-2019-7609](https://github.com/dnr6419/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/dnr6419/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/dnr6419/CVE-2019-7609.svg)
+
+
+## CVE-2016-2107
+ The AES-NI implementation in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h does not consider memory allocation during a certain padding check, which allows remote attackers to obtain sensitive cleartext information via a padding-oracle attack against an AES CBC session. NOTE: this vulnerability exists because of an incorrect fix for CVE-2013-0169.
+
+- [https://github.com/tmiklas/docker-cve-2016-2107](https://github.com/tmiklas/docker-cve-2016-2107) :  ![starts](https://img.shields.io/github/stars/tmiklas/docker-cve-2016-2107.svg) ![forks](https://img.shields.io/github/forks/tmiklas/docker-cve-2016-2107.svg)
 
