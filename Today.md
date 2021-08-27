@@ -1,36 +1,54 @@
-# Update 2021-08-26
-## CVE-2021-39512
+# Update 2021-08-27
+## CVE-2021-39476
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver](https://github.com/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver) :  ![starts](https://img.shields.io/github/stars/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver.svg) ![forks](https://img.shields.io/github/forks/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver.svg)
+- [https://github.com/W4RCL0UD/CVE-2021-39476](https://github.com/W4RCL0UD/CVE-2021-39476) :  ![starts](https://img.shields.io/github/stars/W4RCL0UD/CVE-2021-39476.svg) ![forks](https://img.shields.io/github/forks/W4RCL0UD/CVE-2021-39476.svg)
 
 
-## CVE-2021-39150
- XStream is a simple library to serialize objects to XML and back again. In affected versions this vulnerability may allow a remote attacker to request data from internal resources that are not publicly available only by manipulating the processed input stream with a Java runtime version 14 to 8. No user is affected, who followed the recommendation to setup XStream's security framework with a whitelist limited to the minimal required types. If you rely on XStream's default blacklist of the [Security Framework](https://x-stream.github.io/security.html#framework), you will have to use at least version 1.4.18.
+## CVE-2021-39475
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/zwjjustdoit/Xstream-1.4.17](https://github.com/zwjjustdoit/Xstream-1.4.17) :  ![starts](https://img.shields.io/github/stars/zwjjustdoit/Xstream-1.4.17.svg) ![forks](https://img.shields.io/github/forks/zwjjustdoit/Xstream-1.4.17.svg)
-
-
-## CVE-2021-39144
- XStream is a simple library to serialize objects to XML and back again. In affected versions this vulnerability may allow a remote attacker has sufficient rights to execute commands of the host only by manipulating the processed input stream. No user is affected, who followed the recommendation to setup XStream's security framework with a whitelist limited to the minimal required types. XStream 1.4.18 uses no longer a blacklist by default, since it cannot be secured for general purpose.
-
-- [https://github.com/zwjjustdoit/Xstream-1.4.17](https://github.com/zwjjustdoit/Xstream-1.4.17) :  ![starts](https://img.shields.io/github/stars/zwjjustdoit/Xstream-1.4.17.svg) ![forks](https://img.shields.io/github/forks/zwjjustdoit/Xstream-1.4.17.svg)
+- [https://github.com/W4RCL0UD/CVE-2021-39475](https://github.com/W4RCL0UD/CVE-2021-39475) :  ![starts](https://img.shields.io/github/stars/W4RCL0UD/CVE-2021-39475.svg) ![forks](https://img.shields.io/github/forks/W4RCL0UD/CVE-2021-39475.svg)
 
 
-## CVE-2021-39141
- XStream is a simple library to serialize objects to XML and back again. In affected versions this vulnerability may allow a remote attacker to load and execute arbitrary code from a remote host only by manipulating the processed input stream. No user is affected, who followed the recommendation to setup XStream's security framework with a whitelist limited to the minimal required types. XStream 1.4.18 uses no longer a blacklist by default, since it cannot be secured for general purpose.
+## CVE-2021-39379
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/zwjjustdoit/Xstream-1.4.17](https://github.com/zwjjustdoit/Xstream-1.4.17) :  ![starts](https://img.shields.io/github/stars/zwjjustdoit/Xstream-1.4.17.svg) ![forks](https://img.shields.io/github/forks/zwjjustdoit/Xstream-1.4.17.svg)
-
-
-## CVE-2021-2064
- Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core Components). The supported version that is affected is 12.1.3.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP, T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
-
-- [https://github.com/somatrasss/weblogic2021](https://github.com/somatrasss/weblogic2021) :  ![starts](https://img.shields.io/github/stars/somatrasss/weblogic2021.svg) ![forks](https://img.shields.io/github/forks/somatrasss/weblogic2021.svg)
+- [https://github.com/security-n/CVE-2021-39379](https://github.com/security-n/CVE-2021-39379) :  ![starts](https://img.shields.io/github/stars/security-n/CVE-2021-39379.svg) ![forks](https://img.shields.io/github/forks/security-n/CVE-2021-39379.svg)
 
 
-## CVE-2020-2883
- Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP, T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+## CVE-2021-39378
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Y4er/CVE-2020-2883](https://github.com/Y4er/CVE-2020-2883) :  ![starts](https://img.shields.io/github/stars/Y4er/CVE-2020-2883.svg) ![forks](https://img.shields.io/github/forks/Y4er/CVE-2020-2883.svg)
+- [https://github.com/security-n/CVE-2021-39378](https://github.com/security-n/CVE-2021-39378) :  ![starts](https://img.shields.io/github/stars/security-n/CVE-2021-39378.svg) ![forks](https://img.shields.io/github/forks/security-n/CVE-2021-39378.svg)
+
+
+## CVE-2021-39377
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/security-n/CVE-2021-39377](https://github.com/security-n/CVE-2021-39377) :  ![starts](https://img.shields.io/github/stars/security-n/CVE-2021-39377.svg) ![forks](https://img.shields.io/github/forks/security-n/CVE-2021-39377.svg)
+
+
+## CVE-2021-37589
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/LucaRibeiro/CVE-2021-37589](https://github.com/LucaRibeiro/CVE-2021-37589) :  ![starts](https://img.shields.io/github/stars/LucaRibeiro/CVE-2021-37589.svg) ![forks](https://img.shields.io/github/forks/LucaRibeiro/CVE-2021-37589.svg)
+
+
+## CVE-2020-8169
+ curl 7.62.0 through 7.70.0 is vulnerable to an information disclosure vulnerability that can lead to a partial password being leaked over the network and to the DNS server(s).
+
+- [https://github.com/madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch_old](https://github.com/madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch_old) :  ![starts](https://img.shields.io/github/stars/madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch_old.svg) ![forks](https://img.shields.io/github/forks/madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch_old.svg)
+
+
+## CVE-2019-5481
+ Double-free vulnerability in the FTP-kerberos code in cURL 7.52.0 to 7.65.3.
+
+- [https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch_old](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch_old) :  ![starts](https://img.shields.io/github/stars/madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch_old.svg) ![forks](https://img.shields.io/github/forks/madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch_old.svg)
+
+
+## CVE-2018-8174
+ A remote code execution vulnerability exists in the way that the VBScript engine handles objects in memory, aka &quot;Windows VBScript Engine Remote Code Execution Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
+
+- [https://github.com/w16692926717/CVE-2018-8174_EXP](https://github.com/w16692926717/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/w16692926717/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/w16692926717/CVE-2018-8174_EXP.svg)
 
