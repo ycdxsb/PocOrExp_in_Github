@@ -22842,9 +22842,9 @@
 
 - [https://github.com/BlueCocoa/CVE-2016-4971](https://github.com/BlueCocoa/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/BlueCocoa/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/BlueCocoa/CVE-2016-4971.svg)
 
-- [https://github.com/mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2016-4971.svg)
-
 - [https://github.com/gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/gitcollect/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/gitcollect/CVE-2016-4971.svg)
+
+- [https://github.com/mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2016-4971.svg)
 
 - [https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-](https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-) :  ![starts](https://img.shields.io/github/stars/dinidhu96/IT19013756_-CVE-2016-4971-.svg) ![forks](https://img.shields.io/github/forks/dinidhu96/IT19013756_-CVE-2016-4971-.svg)
 
@@ -23061,6 +23061,8 @@
 - [https://github.com/0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner) :  ![starts](https://img.shields.io/github/stars/0xn0ne/weblogicScanner.svg) ![forks](https://img.shields.io/github/forks/0xn0ne/weblogicScanner.svg)
 
 - [https://github.com/zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln) :  ![starts](https://img.shields.io/github/stars/zhzhdoai/Weblogic_Vuln.svg) ![forks](https://img.shields.io/github/forks/zhzhdoai/Weblogic_Vuln.svg)
+
+- [https://github.com/BabyTeam1024/CVE-2016-3510](https://github.com/BabyTeam1024/CVE-2016-3510) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2016-3510.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2016-3510.svg)
 
 ## CVE-2016-3427
  Unspecified vulnerability in Oracle Java SE 6u113, 7u99, and 8u77; Java SE Embedded 8u77; and JRockit R28.3.9 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to JMX.
