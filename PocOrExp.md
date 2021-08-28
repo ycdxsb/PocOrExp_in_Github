@@ -23755,11 +23755,11 @@
 
 - [https://github.com/Stick-U235/CVE-2015-7547](https://github.com/Stick-U235/CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/Stick-U235/CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/Stick-U235/CVE-2015-7547.svg)
 
-- [https://github.com/miracle03/CVE-2015-7547-master](https://github.com/miracle03/CVE-2015-7547-master) :  ![starts](https://img.shields.io/github/stars/miracle03/CVE-2015-7547-master.svg) ![forks](https://img.shields.io/github/forks/miracle03/CVE-2015-7547-master.svg)
-
 - [https://github.com/JustDenisYT/glibc-patcher](https://github.com/JustDenisYT/glibc-patcher) :  ![starts](https://img.shields.io/github/stars/JustDenisYT/glibc-patcher.svg) ![forks](https://img.shields.io/github/forks/JustDenisYT/glibc-patcher.svg)
 
 - [https://github.com/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547](https://github.com/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547.svg)
+
+- [https://github.com/miracle03/CVE-2015-7547-master](https://github.com/miracle03/CVE-2015-7547-master) :  ![starts](https://img.shields.io/github/stars/miracle03/CVE-2015-7547-master.svg) ![forks](https://img.shields.io/github/forks/miracle03/CVE-2015-7547-master.svg)
 
 - [https://github.com/babykillerblack/CVE-2015-7547](https://github.com/babykillerblack/CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/babykillerblack/CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/babykillerblack/CVE-2015-7547.svg)
 
@@ -23818,7 +23818,7 @@
 
 
 
-- [https://github.com/3hydraking/CVE-2015-6668](https://github.com/3hydraking/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/3hydraking/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/3hydraking/CVE-2015-6668.svg)
+- [https://github.com/1nf1n17yk1ng/CVE-2015-6668](https://github.com/1nf1n17yk1ng/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/1nf1n17yk1ng/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/1nf1n17yk1ng/CVE-2015-6668.svg)
 
 ## CVE-2015-6640
  The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 does not ensure that only one vma is accessed in a certain update action, which allows attackers to gain privileges or cause a denial of service (vma list corruption) via a crafted application, aka internal bug 20017123.
@@ -24335,9 +24335,9 @@
 
 - [https://github.com/u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS) :  ![starts](https://img.shields.io/github/stars/u0pattern/Remove-IIS-RIIS.svg) ![forks](https://img.shields.io/github/forks/u0pattern/Remove-IIS-RIIS.svg)
 
-- [https://github.com/3hydraking/CVE-2015-1635](https://github.com/3hydraking/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/3hydraking/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/3hydraking/CVE-2015-1635.svg)
+- [https://github.com/1nf1n17yk1ng/CVE-2015-1635](https://github.com/1nf1n17yk1ng/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/1nf1n17yk1ng/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/1nf1n17yk1ng/CVE-2015-1635.svg)
 
-- [https://github.com/3hydraking/CVE-2015-1635-POC](https://github.com/3hydraking/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/3hydraking/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/3hydraking/CVE-2015-1635-POC.svg)
+- [https://github.com/1nf1n17yk1ng/CVE-2015-1635-POC](https://github.com/1nf1n17yk1ng/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/1nf1n17yk1ng/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/1nf1n17yk1ng/CVE-2015-1635-POC.svg)
 
 - [https://github.com/wiredaem0n/chk-ms15-034](https://github.com/wiredaem0n/chk-ms15-034) :  ![starts](https://img.shields.io/github/stars/wiredaem0n/chk-ms15-034.svg) ![forks](https://img.shields.io/github/forks/wiredaem0n/chk-ms15-034.svg)
 
