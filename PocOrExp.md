@@ -25138,9 +25138,9 @@
 
 - [https://github.com/mikesplain/CVE-2014-3566-poodle-cookbook](https://github.com/mikesplain/CVE-2014-3566-poodle-cookbook) :  ![starts](https://img.shields.io/github/stars/mikesplain/CVE-2014-3566-poodle-cookbook.svg) ![forks](https://img.shields.io/github/forks/mikesplain/CVE-2014-3566-poodle-cookbook.svg)
 
-- [https://github.com/ashmastaflash/mangy-beast](https://github.com/ashmastaflash/mangy-beast) :  ![starts](https://img.shields.io/github/stars/ashmastaflash/mangy-beast.svg) ![forks](https://img.shields.io/github/forks/ashmastaflash/mangy-beast.svg)
-
 - [https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/nyc-tophile/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/nyc-tophile/A2SV--SSL-VUL-Scan.svg)
+
+- [https://github.com/ashmastaflash/mangy-beast](https://github.com/ashmastaflash/mangy-beast) :  ![starts](https://img.shields.io/github/stars/ashmastaflash/mangy-beast.svg) ![forks](https://img.shields.io/github/forks/ashmastaflash/mangy-beast.svg)
 
 ## CVE-2014-3551
  Multiple cross-site scripting (XSS) vulnerabilities in the advanced-grading implementation in Moodle through 2.3.11, 2.4.x before 2.4.11, 2.5.x before 2.5.7, 2.6.x before 2.6.4, and 2.7.x before 2.7.1 allow remote authenticated users to inject arbitrary web script or HTML via a crafted (1) qualification or (2) rating field in a rubric.
@@ -25380,11 +25380,11 @@
 
 - [https://github.com/secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224) :  ![starts](https://img.shields.io/github/stars/secretnonempty/CVE-2014-0224.svg) ![forks](https://img.shields.io/github/forks/secretnonempty/CVE-2014-0224.svg)
 
+- [https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/nyc-tophile/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/nyc-tophile/A2SV--SSL-VUL-Scan.svg)
+
 - [https://github.com/iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224) :  ![starts](https://img.shields.io/github/stars/iph0n3/CVE-2014-0224.svg) ![forks](https://img.shields.io/github/forks/iph0n3/CVE-2014-0224.svg)
 
 - [https://github.com/droptables/ccs-eval](https://github.com/droptables/ccs-eval) :  ![starts](https://img.shields.io/github/stars/droptables/ccs-eval.svg) ![forks](https://img.shields.io/github/forks/droptables/ccs-eval.svg)
-
-- [https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/nyc-tophile/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/nyc-tophile/A2SV--SSL-VUL-Scan.svg)
 
 ## CVE-2014-0196
  The n_tty_write function in drivers/tty/n_tty.c in the Linux kernel through 3.14.3 does not properly manage tty driver access in the &quot;LECHO &amp; !OPOST&quot; case, which allows local users to cause a denial of service (memory corruption and system crash) or gain privileges by triggering a race condition involving read and write operations with long strings.
@@ -25428,7 +25428,7 @@
 
 - [https://github.com/mpgn/heartbleed-PoC](https://github.com/mpgn/heartbleed-PoC) :  ![starts](https://img.shields.io/github/stars/mpgn/heartbleed-PoC.svg) ![forks](https://img.shields.io/github/forks/mpgn/heartbleed-PoC.svg)
 
-- [https://github.com/isgroup-srl/openmagic](https://github.com/isgroup-srl/openmagic) :  ![starts](https://img.shields.io/github/stars/isgroup-srl/openmagic.svg) ![forks](https://img.shields.io/github/forks/isgroup-srl/openmagic.svg)
+- [https://github.com/isgroup/openmagic](https://github.com/isgroup/openmagic) :  ![starts](https://img.shields.io/github/stars/isgroup/openmagic.svg) ![forks](https://img.shields.io/github/forks/isgroup/openmagic.svg)
 
 - [https://github.com/jdauphant/patch-openssl-CVE-2014-0160](https://github.com/jdauphant/patch-openssl-CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/jdauphant/patch-openssl-CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/jdauphant/patch-openssl-CVE-2014-0160.svg)
 
@@ -25478,6 +25478,8 @@
 
 - [https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker](https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker) :  ![starts](https://img.shields.io/github/stars/waqasjamal-zz/HeartBleed-Vulnerability-Checker.svg) ![forks](https://img.shields.io/github/forks/waqasjamal-zz/HeartBleed-Vulnerability-Checker.svg)
 
+- [https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/nyc-tophile/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/nyc-tophile/A2SV--SSL-VUL-Scan.svg)
+
 - [https://github.com/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC](https://github.com/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC) :  ![starts](https://img.shields.io/github/stars/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC.svg) ![forks](https://img.shields.io/github/forks/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC.svg)
 
 - [https://github.com/cved-sources/cve-2014-0160](https://github.com/cved-sources/cve-2014-0160) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2014-0160.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2014-0160.svg)
@@ -25519,8 +25521,6 @@
 - [https://github.com/cldme/heartbleed-bug](https://github.com/cldme/heartbleed-bug) :  ![starts](https://img.shields.io/github/stars/cldme/heartbleed-bug.svg) ![forks](https://img.shields.io/github/forks/cldme/heartbleed-bug.svg)
 
 - [https://github.com/ThanHuuTuan/Heartexploit](https://github.com/ThanHuuTuan/Heartexploit) :  ![starts](https://img.shields.io/github/stars/ThanHuuTuan/Heartexploit.svg) ![forks](https://img.shields.io/github/forks/ThanHuuTuan/Heartexploit.svg)
-
-- [https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/nyc-tophile/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/nyc-tophile/A2SV--SSL-VUL-Scan.svg)
 
 - [https://github.com/xanas/heartbleed.py](https://github.com/xanas/heartbleed.py) :  ![starts](https://img.shields.io/github/stars/xanas/heartbleed.py.svg) ![forks](https://img.shields.io/github/forks/xanas/heartbleed.py.svg)
 
