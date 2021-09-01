@@ -25638,6 +25638,13 @@
 
 
 ## 2013
+## CVE-2013-7423
+ The send_dg function in resolv/res_send.c in GNU C Library (aka glibc or libc6) before 2.20 does not properly reuse file descriptors, which allows remote attackers to send DNS queries to unintended locations via a large number of requests that trigger a call to the getaddrinfo function.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2013-7423](https://github.com/AlAIAL90/CVE-2013-7423) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2013-7423.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2013-7423.svg)
+
 ## CVE-2013-6668
  Multiple unspecified vulnerabilities in Google V8 before 3.24.35.10, as used in Google Chrome before 33.0.1750.146, allow attackers to cause a denial of service or possibly have other impact via unknown vectors.
 
@@ -25946,6 +25953,13 @@
 
 
 - [https://github.com/cinno/CVE-2013-1965](https://github.com/cinno/CVE-2013-1965) :  ![starts](https://img.shields.io/github/stars/cinno/CVE-2013-1965.svg) ![forks](https://img.shields.io/github/forks/cinno/CVE-2013-1965.svg)
+
+## CVE-2013-1914
+ Stack-based buffer overflow in the getaddrinfo function in sysdeps/posix/getaddrinfo.c in GNU C Library (aka glibc or libc6) 2.17 and earlier allows remote attackers to cause a denial of service (crash) via a (1) hostname or (2) IP address that triggers a large number of domain conversion results.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2013-1914](https://github.com/AlAIAL90/CVE-2013-1914) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2013-1914.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2013-1914.svg)
 
 ## CVE-2013-1775
  sudo 1.6.0 through 1.7.10p6 and sudo 1.8.0 through 1.8.6p6 allows local users or physically proximate attackers to bypass intended time restrictions and retain privileges without re-authenticating by setting the system clock and sudo user timestamp to the epoch.
