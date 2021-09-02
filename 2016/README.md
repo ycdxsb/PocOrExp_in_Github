@@ -111,9 +111,9 @@
 
 - [https://github.com/cved-sources/cve-2016-10033](https://github.com/cved-sources/cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2016-10033.svg)
 
-- [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
-
 - [https://github.com/liusec/WP-CVE-2016-10033](https://github.com/liusec/WP-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/liusec/WP-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/liusec/WP-CVE-2016-10033.svg)
+
+- [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
 
 - [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
 
@@ -1033,9 +1033,9 @@
 
 - [https://github.com/cl4ym0re/CVE-2016-3088](https://github.com/cl4ym0re/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/cl4ym0re/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/cl4ym0re/CVE-2016-3088.svg)
 
-- [https://github.com/vonderchild/CVE-2016-3088](https://github.com/vonderchild/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/vonderchild/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/vonderchild/CVE-2016-3088.svg)
-
 - [https://github.com/pudiding/CVE-2016-3088](https://github.com/pudiding/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/pudiding/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/pudiding/CVE-2016-3088.svg)
+
+- [https://github.com/vonderchild/CVE-2016-3088](https://github.com/vonderchild/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/vonderchild/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/vonderchild/CVE-2016-3088.svg)
 
 ## CVE-2016-2783
  Avaya Fabric Connect Virtual Services Platform (VSP) Operating System Software (VOSS) before 4.2.3.0 and 5.x before 5.0.1.0 does not properly handle VLAN and I-SIS indexes, which allows remote attackers to obtain unauthorized access via crafted Ethernet frames.
@@ -1198,6 +1198,13 @@
 
 - [https://github.com/vah13/SAP_exploit](https://github.com/vah13/SAP_exploit) :  ![starts](https://img.shields.io/github/stars/vah13/SAP_exploit.svg) ![forks](https://img.shields.io/github/forks/vah13/SAP_exploit.svg)
 
+## CVE-2016-1828
+ The kernel in Apple iOS before 9.3.2, OS X before 10.11.5, tvOS before 9.2.1, and watchOS before 2.2.1 allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app, a different vulnerability than CVE-2016-1827, CVE-2016-1829, and CVE-2016-1830.
+
+
+
+- [https://github.com/bazad/rootsh](https://github.com/bazad/rootsh) :  ![starts](https://img.shields.io/github/stars/bazad/rootsh.svg) ![forks](https://img.shields.io/github/forks/bazad/rootsh.svg)
+
 ## CVE-2016-1827
  The kernel in Apple iOS before 9.3.2, OS X before 10.11.5, tvOS before 9.2.1, and watchOS before 2.2.1 allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app, a different vulnerability than CVE-2016-1828, CVE-2016-1829, and CVE-2016-1830.
 
@@ -1282,6 +1289,13 @@
 - [https://github.com/Naramsim/Offensive](https://github.com/Naramsim/Offensive) :  ![starts](https://img.shields.io/github/stars/Naramsim/Offensive.svg) ![forks](https://img.shields.io/github/forks/Naramsim/Offensive.svg)
 
 - [https://github.com/mhe18/CVE_Project](https://github.com/mhe18/CVE_Project) :  ![starts](https://img.shields.io/github/stars/mhe18/CVE_Project.svg) ![forks](https://img.shields.io/github/forks/mhe18/CVE_Project.svg)
+
+## CVE-2016-1234
+ Stack-based buffer overflow in the glob implementation in GNU C Library (aka glibc) before 2.24, when GLOB_ALTDIRFUNC is used, allows context-dependent attackers to cause a denial of service (crash) via a long name.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2016-1234](https://github.com/AlAIAL90/CVE-2016-1234) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2016-1234.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2016-1234.svg)
 
 ## CVE-2016-0974
  Use-after-free vulnerability in Adobe Flash Player before 18.0.0.329 and 19.x and 20.x before 20.0.0.306 on Windows and OS X and before 11.2.202.569 on Linux, Adobe AIR before 20.0.0.260, Adobe AIR SDK before 20.0.0.260, and Adobe AIR SDK &amp; Compiler before 20.0.0.260 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0973, CVE-2016-0975, CVE-2016-0982, CVE-2016-0983, and CVE-2016-0984.
