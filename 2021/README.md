@@ -5,6 +5,20 @@
 
 - [https://github.com/5qu1n7/CVE-2021-40353](https://github.com/5qu1n7/CVE-2021-40353) :  ![starts](https://img.shields.io/github/stars/5qu1n7/CVE-2021-40353.svg) ![forks](https://img.shields.io/github/forks/5qu1n7/CVE-2021-40353.svg)
 
+## CVE-2021-40352
+ OpenEMR 6.0.0 has a pnotes_print.php?noteid= Insecure Direct Object Reference vulnerability via which an attacker can read the messages of all users.
+
+
+
+- [https://github.com/allenenosh/CVE-2021-40352](https://github.com/allenenosh/CVE-2021-40352) :  ![starts](https://img.shields.io/github/stars/allenenosh/CVE-2021-40352.svg) ![forks](https://img.shields.io/github/forks/allenenosh/CVE-2021-40352.svg)
+
+## CVE-2021-40145
+ ** DISPUTED ** gdImageGd2Ptr in gd_gd2.c in the GD Graphics Library (aka LibGD) through 2.3.2 has a double free. NOTE: the vendor's position is &quot;The GD2 image format is a proprietary image format of libgd. It has to be regarded as being obsolete, and should only be used for development and testing purposes.&quot;
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-40145](https://github.com/AlAIAL90/CVE-2021-40145) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-40145.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-40145.svg)
+
 ## CVE-2021-39512
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -27,21 +41,21 @@
 - [https://github.com/W4RCL0UD/CVE-2021-39475](https://github.com/W4RCL0UD/CVE-2021-39475) :  ![starts](https://img.shields.io/github/stars/W4RCL0UD/CVE-2021-39475.svg) ![forks](https://img.shields.io/github/forks/W4RCL0UD/CVE-2021-39475.svg)
 
 ## CVE-2021-39379
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A SQL Injection vulnerability exists in openSIS 8.0 when MySQL (MariaDB) is being used as the application database. A malicious attacker can issue SQL commands to the MySQL (MariaDB) database through the ResetUserInfo.php password_stn_id parameter.
 
 
 
 - [https://github.com/security-n/CVE-2021-39379](https://github.com/security-n/CVE-2021-39379) :  ![starts](https://img.shields.io/github/stars/security-n/CVE-2021-39379.svg) ![forks](https://img.shields.io/github/forks/security-n/CVE-2021-39379.svg)
 
 ## CVE-2021-39378
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A SQL Injection vulnerability exists in openSIS 8.0 when MySQL (MariaDB) is being used as the application database. A malicious attacker can issue SQL commands to the MySQL (MariaDB) database through the NamesList.php str parameter.
 
 
 
 - [https://github.com/security-n/CVE-2021-39378](https://github.com/security-n/CVE-2021-39378) :  ![starts](https://img.shields.io/github/stars/security-n/CVE-2021-39378.svg) ![forks](https://img.shields.io/github/forks/security-n/CVE-2021-39378.svg)
 
 ## CVE-2021-39377
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A SQL Injection vulnerability exists in openSIS 8.0 when MySQL (MariaDB) is being used as the application database. A malicious attacker can issue SQL commands to the MySQL (MariaDB) database through the index.php username parameter.
 
 
 
@@ -75,6 +89,13 @@
 
 - [https://github.com/nikip72/CVE-2021-39273-CVE-2021-39274](https://github.com/nikip72/CVE-2021-39273-CVE-2021-39274) :  ![starts](https://img.shields.io/github/stars/nikip72/CVE-2021-39273-CVE-2021-39274.svg) ![forks](https://img.shields.io/github/forks/nikip72/CVE-2021-39273-CVE-2021-39274.svg)
 
+## CVE-2021-39159
+ BinderHub is a kubernetes-based cloud service that allows users to share reproducible interactive computing environments from code repositories. In affected versions a remote code execution vulnerability has been identified in BinderHub, where providing BinderHub with maliciously crafted input could execute code in the BinderHub context, with the potential to egress credentials of the BinderHub deployment, including JupyterHub API tokens, kubernetes service accounts, and docker registry credentials. This may provide the ability to manipulate images and other user created pods in the deployment, with the potential to escalate to the host depending on the underlying kubernetes configuration. Users are advised to update to version 0.2.0-n653. If users are unable to update they may disable the git repo provider by specifying the `BinderHub.repo_providers` as a workaround.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-39159](https://github.com/AlAIAL90/CVE-2021-39159) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-39159.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-39159.svg)
+
 ## CVE-2021-39150
  XStream is a simple library to serialize objects to XML and back again. In affected versions this vulnerability may allow a remote attacker to request data from internal resources that are not publicly available only by manipulating the processed input stream with a Java runtime version 14 to 8. No user is affected, who followed the recommendation to setup XStream's security framework with a whitelist limited to the minimal required types. If you rely on XStream's default blacklist of the [Security Framework](https://x-stream.github.io/security.html#framework), you will have to use at least version 1.4.18.
 
@@ -96,6 +117,13 @@
 
 - [https://github.com/zwjjustdoit/Xstream-1.4.17](https://github.com/zwjjustdoit/Xstream-1.4.17) :  ![starts](https://img.shields.io/github/stars/zwjjustdoit/Xstream-1.4.17.svg) ![forks](https://img.shields.io/github/forks/zwjjustdoit/Xstream-1.4.17.svg)
 
+## CVE-2021-39138
+ Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Developers can use the REST API to signup users and also allow users to login anonymously. Prior to version 4.5.1, when an anonymous user is first signed up using REST, the server creates session incorrectly. Particularly, the `authProvider` field in `_Session` class under `createdWith` shows the user logged in creating a password. If a developer later depends on the `createdWith` field to provide a different level of access between a password user and anonymous user, the server incorrectly classified the session type as being created with a `password`. The server does not currently use `createdWith` to make decisions about internal functions, so if a developer is not using `createdWith` directly, they are not affected. The vulnerability only affects users who depend on `createdWith` by using it directly. The issue is patched in Parse Server version 4.5.1. As a workaround, do not use the `createdWith` Session field to make decisions if one allows anonymous login.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-39138](https://github.com/AlAIAL90/CVE-2021-39138) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-39138.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-39138.svg)
+
 ## CVE-2021-38710
  ** DISPUTED ** Static (Persistent) XSS Vulnerability exists in version 4.3.0 of Yclas when using the install/view/form.php script. An attacker can store XSS in the database through the vulnerable SITE_NAME parameter. NOTE: a requirement for an XSS payload to be introduced during a product's initial installation makes a vulnerability report largely irrelevant.
 
@@ -108,9 +136,9 @@
 
 
 
-- [https://github.com/HuskyHacks/CVE-2021-38699-Stored-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Stored-XSS) :  ![starts](https://img.shields.io/github/stars/HuskyHacks/CVE-2021-38699-Stored-XSS.svg) ![forks](https://img.shields.io/github/forks/HuskyHacks/CVE-2021-38699-Stored-XSS.svg)
-
 - [https://github.com/HuskyHacks/CVE-2021-38699-Reflected-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Reflected-XSS) :  ![starts](https://img.shields.io/github/stars/HuskyHacks/CVE-2021-38699-Reflected-XSS.svg) ![forks](https://img.shields.io/github/forks/HuskyHacks/CVE-2021-38699-Reflected-XSS.svg)
+
+- [https://github.com/HuskyHacks/CVE-2021-38699-Stored-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Stored-XSS) :  ![starts](https://img.shields.io/github/stars/HuskyHacks/CVE-2021-38699-Stored-XSS.svg) ![forks](https://img.shields.io/github/forks/HuskyHacks/CVE-2021-38699-Stored-XSS.svg)
 
 ## CVE-2021-38619
  openBaraza HCM 3.1.6 does not properly neutralize user-controllable input: an unauthenticated remote attacker can conduct a stored cross-site scripting (XSS) attack against an administrative user from hr/subscription.jsp and hr/application.jsp and and hr/index.jsp (with view=).
@@ -217,6 +245,13 @@
 
 - [https://github.com/dievus/CVE-2021-37832](https://github.com/dievus/CVE-2021-37832) :  ![starts](https://img.shields.io/github/stars/dievus/CVE-2021-37832.svg) ![forks](https://img.shields.io/github/forks/dievus/CVE-2021-37832.svg)
 
+## CVE-2021-37749
+ MapService.svc in Hexagon GeoMedia WebMap 2020 before Update 2 (aka 16.6.2.66) allows blind SQL Injection via the Id (within sourceItems) parameter to the GetMap method.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-37749](https://github.com/AlAIAL90/CVE-2021-37749) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-37749.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-37749.svg)
+
 ## CVE-2021-37694
  @asyncapi/java-spring-cloud-stream-template generates a Spring Cloud Stream (SCSt) microservice. In versions prior to 0.7.0 arbitrary code injection was possible when an attacker controls the AsyncAPI document. An example is provided in GHSA-xj6r-2jpm-qvxp. There are no mitigations available and all users are advised to update.
 
@@ -294,11 +329,27 @@
 
 - [https://github.com/0x0D1n/CVE-2021-36934](https://github.com/0x0D1n/CVE-2021-36934) :  ![starts](https://img.shields.io/github/stars/0x0D1n/CVE-2021-36934.svg) ![forks](https://img.shields.io/github/forks/0x0D1n/CVE-2021-36934.svg)
 
+- [https://github.com/AlAIAL90/CVE-2021-36934](https://github.com/AlAIAL90/CVE-2021-36934) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-36934.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-36934.svg)
+
 - [https://github.com/shaktavist/SeriousSam](https://github.com/shaktavist/SeriousSam) :  ![starts](https://img.shields.io/github/stars/shaktavist/SeriousSam.svg) ![forks](https://img.shields.io/github/forks/shaktavist/SeriousSam.svg)
 
 - [https://github.com/jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM](https://github.com/jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM) :  ![starts](https://img.shields.io/github/stars/jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM.svg) ![forks](https://img.shields.io/github/forks/jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM.svg)
 
 - [https://github.com/wolf0x/HiveNightmare](https://github.com/wolf0x/HiveNightmare) :  ![starts](https://img.shields.io/github/stars/wolf0x/HiveNightmare.svg) ![forks](https://img.shields.io/github/forks/wolf0x/HiveNightmare.svg)
+
+## CVE-2021-36931
+ Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-36928.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-36928](https://github.com/AlAIAL90/CVE-2021-36928) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-36928.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-36928.svg)
+
+## CVE-2021-36928
+ Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-36931.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-36928](https://github.com/AlAIAL90/CVE-2021-36928) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-36928.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-36928.svg)
 
 ## CVE-2021-36799
  KNX ETS5 uses the hard-coded password ETS5Password, with a salt value of Ivan Medvedev.
@@ -344,6 +395,13 @@
 
 - [https://github.com/dinhbaouit/CVE-2021-36394](https://github.com/dinhbaouit/CVE-2021-36394) :  ![starts](https://img.shields.io/github/stars/dinhbaouit/CVE-2021-36394.svg) ![forks](https://img.shields.io/github/forks/dinhbaouit/CVE-2021-36394.svg)
 
+## CVE-2021-36359
+ OrbiTeam BSCW Classic before 7.4.3 allows exportpdf authenticated remote code execution (RCE) via XML tag injection because reportlab\platypus\paraparser.py (reached via bscw.cgi op=_editfolder.EditFolder) calls eval on attacker-supplied Python code. This is fixed in 5.0.12, 5.1.10, 5.2.4, 7.3.3, and 7.4.3.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-36359](https://github.com/AlAIAL90/CVE-2021-36359) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-36359.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-36359.svg)
+
 ## CVE-2021-36217
  ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2021-3502. Reason: This candidate is a duplicate of CVE-2021-3502. Notes: All CVE users should reference CVE-2021-3502 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
 
@@ -378,6 +436,13 @@
 
 
 - [https://github.com/tcbutler320/CVE-2021-35956](https://github.com/tcbutler320/CVE-2021-35956) :  ![starts](https://img.shields.io/github/stars/tcbutler320/CVE-2021-35956.svg) ![forks](https://img.shields.io/github/forks/tcbutler320/CVE-2021-35956.svg)
+
+## CVE-2021-35940
+ An out-of-bounds array read in the apr_time_exp*() functions was fixed in the Apache Portable Runtime 1.6.3 release (CVE-2017-12613). The fix for this issue was not carried forward to the APR 1.7.x branch, and hence version 1.7.0 regressed compared to 1.6.3 and is vulnerable to the same issue.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-35940](https://github.com/AlAIAL90/CVE-2021-35940) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-35940.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-35940.svg)
 
 ## CVE-2021-35479
  Nagios Log Server before 2.1.9 contains Stored XSS in the custom column view for the alert history and audit log function through the affected pp parameter. This affects users who open a crafted link or third-party web page.
@@ -417,6 +482,8 @@
 
 
 - [https://github.com/YouGina/CVE-2021-35042](https://github.com/YouGina/CVE-2021-35042) :  ![starts](https://img.shields.io/github/stars/YouGina/CVE-2021-35042.svg) ![forks](https://img.shields.io/github/forks/YouGina/CVE-2021-35042.svg)
+
+- [https://github.com/mrlihd/CVE-2021-35042](https://github.com/mrlihd/CVE-2021-35042) :  ![starts](https://img.shields.io/github/stars/mrlihd/CVE-2021-35042.svg) ![forks](https://img.shields.io/github/forks/mrlihd/CVE-2021-35042.svg)
 
 ## CVE-2021-34640
  The Securimage-WP-Fixed WordPress plugin is vulnerable to Reflected Cross-Site Scripting due to the use of $_SERVER['PHP_SELF'] in the ~/securimage-wp.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 3.5.4.
@@ -536,6 +603,13 @@
 
 - [https://github.com/technion/CVE-2021-34470scanner](https://github.com/technion/CVE-2021-34470scanner) :  ![starts](https://img.shields.io/github/stars/technion/CVE-2021-34470scanner.svg) ![forks](https://img.shields.io/github/forks/technion/CVE-2021-34470scanner.svg)
 
+## CVE-2021-34429
+ For Eclipse Jetty versions 9.4.37-9.4.42, 10.0.1-10.0.5 &amp; 11.0.1-11.0.5, URIs can be crafted using some encoded characters to access the content of the WEB-INF directory and/or bypass some security constraints. This is a variation of the vulnerability reported in CVE-2021-28164/GHSA-v7ff-8wcx-gmc5.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-34429](https://github.com/AlAIAL90/CVE-2021-34429) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-34429.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-34429.svg)
+
 ## CVE-2021-34075
  In Artica Pandora FMS &lt;=754 in the File Manager component, there is sensitive information exposed on the client side which attackers can access.
 
@@ -563,12 +637,21 @@
 
 - [https://github.com/ikramimamoglu/AmIAHuman-CVE-2021-33909](https://github.com/ikramimamoglu/AmIAHuman-CVE-2021-33909) :  ![starts](https://img.shields.io/github/stars/ikramimamoglu/AmIAHuman-CVE-2021-33909.svg) ![forks](https://img.shields.io/github/forks/ikramimamoglu/AmIAHuman-CVE-2021-33909.svg)
 
+- [https://github.com/ChrisTheCoolHut/CVE-2021-33909](https://github.com/ChrisTheCoolHut/CVE-2021-33909) :  ![starts](https://img.shields.io/github/stars/ChrisTheCoolHut/CVE-2021-33909.svg) ![forks](https://img.shields.io/github/forks/ChrisTheCoolHut/CVE-2021-33909.svg)
+
 ## CVE-2021-33879
  Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP connection. A malicious attacker in an MITM position could spoof the contents of an XML document describing an update package, replacing a download URL with one pointing to an arbitrary Windows executable. Because the only integrity check would be a comparison of the downloaded file's MD5 checksum to the one contained within the XML document, the downloaded executable would then be executed on the victim's machine.
 
 
 
 - [https://github.com/mmiszczyk/cve-2021-33879](https://github.com/mmiszczyk/cve-2021-33879) :  ![starts](https://img.shields.io/github/stars/mmiszczyk/cve-2021-33879.svg) ![forks](https://img.shields.io/github/forks/mmiszczyk/cve-2021-33879.svg)
+
+## CVE-2021-33831
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/lanmarc77/CVE-2021-33831](https://github.com/lanmarc77/CVE-2021-33831) :  ![starts](https://img.shields.io/github/stars/lanmarc77/CVE-2021-33831.svg) ![forks](https://img.shields.io/github/forks/lanmarc77/CVE-2021-33831.svg)
 
 ## CVE-2021-33766
  Microsoft Exchange Information Disclosure Vulnerability
@@ -665,6 +748,20 @@
 
 - [https://github.com/AlAIAL90/CVE-2021-33348](https://github.com/AlAIAL90/CVE-2021-33348) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33348.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33348.svg)
 
+## CVE-2021-33015
+ Cscape (All Versions prior to 9.90 SP5) lacks proper validation of user-supplied data when parsing project files. This could lead to an out-of-bounds write via an uninitialized pointer. An attacker could leverage this vulnerability to execute code in the context of the current process.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-33015](https://github.com/AlAIAL90/CVE-2021-33015) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33015.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33015.svg)
+
+## CVE-2021-32995
+ Cscape (All Versions prior to 9.90 SP5) lacks proper validation of user-supplied data when parsing project files. This could lead to an out-of-bounds write. An attacker could leverage this vulnerability to execute code in the context of the current process.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-32995](https://github.com/AlAIAL90/CVE-2021-32995) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-32995.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-32995.svg)
+
 ## CVE-2021-32931
  An uninitialized pointer in FATEK Automation FvDesigner, Versions 1.5.88 and prior may be exploited while the application is processing project files, allowing an attacker to craft a special project file that may permit arbitrary code execution.
 
@@ -685,6 +782,20 @@
 
 
 - [https://github.com/yamory/CVE-2021-32804](https://github.com/yamory/CVE-2021-32804) :  ![starts](https://img.shields.io/github/stars/yamory/CVE-2021-32804.svg) ![forks](https://img.shields.io/github/forks/yamory/CVE-2021-32804.svg)
+
+## CVE-2021-32778
+ Envoy is an open source L7 proxy and communication bus designed for large modern service oriented architectures. In affected versions envoy&#8217;s procedure for resetting a HTTP/2 stream has O(N^2) complexity, leading to high CPU utilization when a large number of streams are reset. Deployments are susceptible to Denial of Service when Envoy is configured with high limit on H/2 concurrent streams. An attacker wishing to exploit this vulnerability would require a client opening and closing a large number of H/2 streams. Envoy versions 1.19.1, 1.18.4, 1.17.4, 1.16.5 contain fixes to reduce time complexity of resetting HTTP/2 streams. As a workaround users may limit the number of simultaneous HTTP/2 dreams for upstream and downstream peers to a low number, i.e. 100.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-32778](https://github.com/AlAIAL90/CVE-2021-32778) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-32778.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-32778.svg)
+
+## CVE-2021-32777
+ Envoy is an open source L7 proxy and communication bus designed for large modern service oriented architectures. In affected versions when ext-authz extension is sending request headers to the external authorization service it must merge multiple value headers according to the HTTP spec. However, only the last header value is sent. This may allow specifically crafted requests to bypass authorization. Attackers may be able to escalate privileges when using ext-authz extension or back end service that uses multiple value headers for authorization. A specifically constructed request may be delivered by an untrusted downstream peer in the presence of ext-authz extension. Envoy versions 1.19.1, 1.18.4, 1.17.4, 1.16.5 contain fixes to the ext-authz extension to correctly merge multiple request header values, when sending request for authorization.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-32777](https://github.com/AlAIAL90/CVE-2021-32777) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-32777.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-32777.svg)
 
 ## CVE-2021-32736
  think-helper defines a set of helper functions for ThinkJS. In versions of think-helper prior to 1.1.3, the software receives input from an upstream component that specifies attributes that are to be initialized or updated in an object, but it does not properly control modifications of attributes of the object prototype. The vulnerability is patched in version 1.1.3.
@@ -727,6 +838,13 @@
 
 
 - [https://github.com/intrinsic-propensity/turing-machine](https://github.com/intrinsic-propensity/turing-machine) :  ![starts](https://img.shields.io/github/stars/intrinsic-propensity/turing-machine.svg) ![forks](https://img.shields.io/github/forks/intrinsic-propensity/turing-machine.svg)
+
+## CVE-2021-31989
+ A user with permission to log on to the machine hosting the AXIS Device Manager client could under certain conditions extract a memory dump from the built-in Windows Task Manager application. The memory dump may potentially contain credentials of connected Axis devices.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-31989](https://github.com/AlAIAL90/CVE-2021-31989) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-31989.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-31989.svg)
 
 ## CVE-2021-31955
  Windows Kernel Information Disclosure Vulnerability
@@ -1166,6 +1284,60 @@
 
 - [https://github.com/AlAIAL90/CVE-2021-28902](https://github.com/AlAIAL90/CVE-2021-28902) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28902.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28902.svg)
 
+## CVE-2021-28699
+ inadequate grant-v2 status frames array bounds check The v2 grant table interface separates grant attributes from grant status. That is, when operating in this mode, a guest has two tables. As a result, guests also need to be able to retrieve the addresses that the new status tracking table can be accessed through. For 32-bit guests on x86, translation of requests has to occur because the interface structure layouts commonly differ between 32- and 64-bit. The translation of the request to obtain the frame numbers of the grant status table involves translating the resulting array of frame numbers. Since the space used to carry out the translation is limited, the translation layer tells the core function the capacity of the array within translation space. Unfortunately the core function then only enforces array bounds to be below 8 times the specified value, and would write past the available space if enough frame numbers needed storing.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-28699](https://github.com/AlAIAL90/CVE-2021-28699) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28699.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28699.svg)
+
+## CVE-2021-28698
+ long running loops in grant table handling In order to properly monitor resource use, Xen maintains information on the grant mappings a domain may create to map grants offered by other domains. In the process of carrying out certain actions, Xen would iterate over all such entries, including ones which aren't in use anymore and some which may have been created but never used. If the number of entries for a given domain is large enough, this iterating of the entire table may tie up a CPU for too long, starving other domains or causing issues in the hypervisor itself. Note that a domain may map its own grants, i.e. there is no need for multiple domains to be involved here. A pair of &quot;cooperating&quot; guests may, however, cause the effects to be more severe.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-28698](https://github.com/AlAIAL90/CVE-2021-28698) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28698.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28698.svg)
+
+## CVE-2021-28697
+ grant table v2 status pages may remain accessible after de-allocation Guest get permitted access to certain Xen-owned pages of memory. The majority of such pages remain allocated / associated with a guest for its entire lifetime. Grant table v2 status pages, however, get de-allocated when a guest switched (back) from v2 to v1. The freeing of such pages requires that the hypervisor know where in the guest these pages were mapped. The hypervisor tracks only one use within guest space, but racing requests from the guest to insert mappings of these pages may result in any of them to become mapped in multiple locations. Upon switching back from v2 to v1, the guest would then retain access to a page that was freed and perhaps re-used for other purposes.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-28697](https://github.com/AlAIAL90/CVE-2021-28697) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28697.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28697.svg)
+
+## CVE-2021-28696
+ IOMMU page mapping issues on x86 T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Both AMD and Intel allow ACPI tables to specify regions of memory which should be left untranslated, which typically means these addresses should pass the translation phase unaltered. While these are typically device specific ACPI properties, they can also be specified to apply to a range of devices, or even all devices. On all systems with such regions Xen failed to prevent guests from undoing/replacing such mappings (CVE-2021-28694). On AMD systems, where a discontinuous range is specified by firmware, the supposedly-excluded middle range will also be identity-mapped (CVE-2021-28695). Further, on AMD systems, upon de-assigment of a physical device from a guest, the identity mappings would be left in place, allowing a guest continued access to ranges of memory which it shouldn't have access to anymore (CVE-2021-28696).
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-28696](https://github.com/AlAIAL90/CVE-2021-28696) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28696.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28696.svg)
+
+- [https://github.com/AlAIAL90/CVE-2021-28694](https://github.com/AlAIAL90/CVE-2021-28694) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28694.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28694.svg)
+
+- [https://github.com/AlAIAL90/CVE-2021-28695](https://github.com/AlAIAL90/CVE-2021-28695) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28695.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28695.svg)
+
+## CVE-2021-28695
+ IOMMU page mapping issues on x86 T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Both AMD and Intel allow ACPI tables to specify regions of memory which should be left untranslated, which typically means these addresses should pass the translation phase unaltered. While these are typically device specific ACPI properties, they can also be specified to apply to a range of devices, or even all devices. On all systems with such regions Xen failed to prevent guests from undoing/replacing such mappings (CVE-2021-28694). On AMD systems, where a discontinuous range is specified by firmware, the supposedly-excluded middle range will also be identity-mapped (CVE-2021-28695). Further, on AMD systems, upon de-assigment of a physical device from a guest, the identity mappings would be left in place, allowing a guest continued access to ranges of memory which it shouldn't have access to anymore (CVE-2021-28696).
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-28695](https://github.com/AlAIAL90/CVE-2021-28695) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28695.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28695.svg)
+
+- [https://github.com/AlAIAL90/CVE-2021-28696](https://github.com/AlAIAL90/CVE-2021-28696) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28696.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28696.svg)
+
+- [https://github.com/AlAIAL90/CVE-2021-28694](https://github.com/AlAIAL90/CVE-2021-28694) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28694.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28694.svg)
+
+## CVE-2021-28694
+ IOMMU page mapping issues on x86 T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Both AMD and Intel allow ACPI tables to specify regions of memory which should be left untranslated, which typically means these addresses should pass the translation phase unaltered. While these are typically device specific ACPI properties, they can also be specified to apply to a range of devices, or even all devices. On all systems with such regions Xen failed to prevent guests from undoing/replacing such mappings (CVE-2021-28694). On AMD systems, where a discontinuous range is specified by firmware, the supposedly-excluded middle range will also be identity-mapped (CVE-2021-28695). Further, on AMD systems, upon de-assigment of a physical device from a guest, the identity mappings would be left in place, allowing a guest continued access to ranges of memory which it shouldn't have access to anymore (CVE-2021-28696).
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-28694](https://github.com/AlAIAL90/CVE-2021-28694) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28694.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28694.svg)
+
+- [https://github.com/AlAIAL90/CVE-2021-28696](https://github.com/AlAIAL90/CVE-2021-28696) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28696.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28696.svg)
+
+- [https://github.com/AlAIAL90/CVE-2021-28695](https://github.com/AlAIAL90/CVE-2021-28695) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28695.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28695.svg)
+
 ## CVE-2021-28674
  The node management page in SolarWinds Orion Platform before 2020.2.5 HF1 allows an attacker to create or delete a node (outside of the attacker's perimeter) via an account with write permissions. This occurs because node IDs are predictable (with incrementing numbers) and the access control on Services/NodeManagement.asmx/DeleteObjNow is incorrect. To exploit this, an attacker must be authenticated and must have node management rights associated with at least one valid group on the platform.
 
@@ -1263,14 +1435,23 @@
 
 - [https://github.com/AlAIAL90/CVE-2021-28165](https://github.com/AlAIAL90/CVE-2021-28165) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28165.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28165.svg)
 
+## CVE-2021-28164
+ In Eclipse Jetty 9.4.37.v20210219 to 9.4.38.v20210224, the default compliance mode allows requests with URIs that contain %2e or %2e%2e segments to access protected resources within the WEB-INF directory. For example a request to /context/%2e/WEB-INF/web.xml can retrieve the web.xml file. This can reveal sensitive information regarding the implementation of a web application.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-28164](https://github.com/AlAIAL90/CVE-2021-28164) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28164.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28164.svg)
+
+- [https://github.com/AlAIAL90/CVE-2021-34429](https://github.com/AlAIAL90/CVE-2021-34429) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-34429.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-34429.svg)
+
 ## CVE-2021-27965
  The MsIo64.sys driver before 1.1.19.1016 in MSI Dragon Center before 2.0.98.0 has a buffer overflow that allows privilege escalation via a crafted 0x80102040, 0x80102044, 0x80102050, or 0x80102054 IOCTL request.
 
 
 
-- [https://github.com/Crystalware/CVE-2021-27965](https://github.com/Crystalware/CVE-2021-27965) :  ![starts](https://img.shields.io/github/stars/Crystalware/CVE-2021-27965.svg) ![forks](https://img.shields.io/github/forks/Crystalware/CVE-2021-27965.svg)
-
 - [https://github.com/mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965) :  ![starts](https://img.shields.io/github/stars/mathisvickie/CVE-2021-27965.svg) ![forks](https://img.shields.io/github/forks/mathisvickie/CVE-2021-27965.svg)
+
+- [https://github.com/Crystalware/CVE-2021-27965](https://github.com/Crystalware/CVE-2021-27965) :  ![starts](https://img.shields.io/github/stars/Crystalware/CVE-2021-27965.svg) ![forks](https://img.shields.io/github/forks/Crystalware/CVE-2021-27965.svg)
 
 ## CVE-2021-27964
  SonLogger before 6.4.1 is affected by Unauthenticated Arbitrary File Upload. An attacker can send a POST request to /Config/SaveUploadedHotspotLogoFile without any authentication or session header. There is no check for the file extension or content of the uploaded file.
@@ -1789,13 +1970,33 @@
 
 
 
+- [https://github.com/h3v0x/CVE-2021-26084_Confluence](https://github.com/h3v0x/CVE-2021-26084_Confluence) :  ![starts](https://img.shields.io/github/stars/h3v0x/CVE-2021-26084_Confluence.svg) ![forks](https://img.shields.io/github/forks/h3v0x/CVE-2021-26084_Confluence.svg)
+
 - [https://github.com/dinhbaouit/CVE-2021-26084](https://github.com/dinhbaouit/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/dinhbaouit/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/dinhbaouit/CVE-2021-26084.svg)
 
 - [https://github.com/alt3kx/CVE-2021-26084_PoC](https://github.com/alt3kx/CVE-2021-26084_PoC) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2021-26084_PoC.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2021-26084_PoC.svg)
 
+- [https://github.com/FanqXu/CVE-2021-26084](https://github.com/FanqXu/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/FanqXu/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/FanqXu/CVE-2021-26084.svg)
+
+- [https://github.com/tangxiaofeng7/CVE-2021-26084](https://github.com/tangxiaofeng7/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/tangxiaofeng7/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/tangxiaofeng7/CVE-2021-26084.svg)
+
+- [https://github.com/r0ckysec/CVE-2021-26084_Confluence](https://github.com/r0ckysec/CVE-2021-26084_Confluence) :  ![starts](https://img.shields.io/github/stars/r0ckysec/CVE-2021-26084_Confluence.svg) ![forks](https://img.shields.io/github/forks/r0ckysec/CVE-2021-26084_Confluence.svg)
+
 - [https://github.com/carlosevieira/CVE-2021-26084](https://github.com/carlosevieira/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/carlosevieira/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/carlosevieira/CVE-2021-26084.svg)
 
+- [https://github.com/Udyz/CVE-2021-26084](https://github.com/Udyz/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/Udyz/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/Udyz/CVE-2021-26084.svg)
+
 - [https://github.com/JKme/CVE-2021-26084](https://github.com/JKme/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/JKme/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/JKme/CVE-2021-26084.svg)
+
+- [https://github.com/Vulnmachines/Confluence_CVE-2021-26084](https://github.com/Vulnmachines/Confluence_CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/Confluence_CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/Confluence_CVE-2021-26084.svg)
+
+- [https://github.com/smallpiggy/cve-2021-26084-confluence](https://github.com/smallpiggy/cve-2021-26084-confluence) :  ![starts](https://img.shields.io/github/stars/smallpiggy/cve-2021-26084-confluence.svg) ![forks](https://img.shields.io/github/forks/smallpiggy/cve-2021-26084-confluence.svg)
+
+- [https://github.com/taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/taythebot/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/taythebot/CVE-2021-26084.svg)
+
+- [https://github.com/Osyanina/westone-CVE-2021-26084-scanner](https://github.com/Osyanina/westone-CVE-2021-26084-scanner) :  ![starts](https://img.shields.io/github/stars/Osyanina/westone-CVE-2021-26084-scanner.svg) ![forks](https://img.shields.io/github/forks/Osyanina/westone-CVE-2021-26084-scanner.svg)
+
+- [https://github.com/bcdannyboy/CVE-2021-26084_GoPOC](https://github.com/bcdannyboy/CVE-2021-26084_GoPOC) :  ![starts](https://img.shields.io/github/stars/bcdannyboy/CVE-2021-26084_GoPOC.svg) ![forks](https://img.shields.io/github/forks/bcdannyboy/CVE-2021-26084_GoPOC.svg)
 
 ## CVE-2021-25791
  Multiple stored cross site scripting (XSS) vulnerabilities in the &quot;Update Profile&quot; module of Online Doctor Appointment System 1.0 allows authenticated attackers to execute arbitrary web scripts or HTML via crafted payloads in the First Name, Last Name, and Address text fields.
@@ -1950,6 +2151,13 @@
 
 
 - [https://github.com/CENSUS/whatsapp-mitd-mitm](https://github.com/CENSUS/whatsapp-mitd-mitm) :  ![starts](https://img.shields.io/github/stars/CENSUS/whatsapp-mitd-mitm.svg) ![forks](https://img.shields.io/github/forks/CENSUS/whatsapp-mitd-mitm.svg)
+
+## CVE-2021-23434
+ This affects the package object-path before 0.11.6. A type confusion vulnerability can lead to a bypass of CVE-2020-15256 when the path components used in the path parameter are arrays. In particular, the condition currentPath === '__proto__' returns false if currentPath is ['__proto__']. This is because the === operator returns always false when the type of the operands is different.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-23434](https://github.com/AlAIAL90/CVE-2021-23434) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-23434.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-23434.svg)
 
 ## CVE-2021-23420
  This affects the package codeception/codeception from 4.0.0 and before 4.1.22, before 3.1.3. The RunProcess class can be leveraged as a gadget to run arbitrary commands on a system that is deserializing user input without validation.
@@ -2356,6 +2564,125 @@
 
 - [https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/robwillisinfo/VMware_vCenter_CVE-2021-21972.svg)
 
+## CVE-2021-21853
+ Multiple exploitable integer overflow vulnerabilities exist within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input can cause an integer overflow due to unchecked addition arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21853](https://github.com/AlAIAL90/CVE-2021-21853) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21853.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21853.svg)
+
+## CVE-2021-21850
+ An exploitable integer overflow vulnerability exists within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input can cause an integer overflow when the library encounters an atom using the &#8220;trun&#8221; FOURCC code due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21850](https://github.com/AlAIAL90/CVE-2021-21850) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21850.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21850.svg)
+
+## CVE-2021-21849
+ An exploitable integer overflow vulnerability exists within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input can cause an integer overflow when the library encounters an atom using the &#8220;tfra&#8221; FOURCC code due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21849](https://github.com/AlAIAL90/CVE-2021-21849) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21849.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21849.svg)
+
+## CVE-2021-21848
+ An exploitable integer overflow vulnerability exists within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. The library will actually reuse the parser for atoms with the &#8220;stsz&#8221; FOURCC code when parsing atoms that use the &#8220;stz2&#8221; FOURCC code and can cause an integer overflow due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21848](https://github.com/AlAIAL90/CVE-2021-21848) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21848.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21848.svg)
+
+## CVE-2021-21847
+ Multiple exploitable integer overflow vulnerabilities exist within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input in &#8220;stts&#8221; decoder can cause an integer overflow due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21847](https://github.com/AlAIAL90/CVE-2021-21847) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21847.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21847.svg)
+
+## CVE-2021-21846
+ Multiple exploitable integer overflow vulnerabilities exist within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input in &#8220;stsz&#8221; decoder can cause an integer overflow due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21846](https://github.com/AlAIAL90/CVE-2021-21846) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21846.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21846.svg)
+
+## CVE-2021-21845
+ Multiple exploitable integer overflow vulnerabilities exist within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input in &#8220;stsc&#8221; decoder can cause an integer overflow due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21845](https://github.com/AlAIAL90/CVE-2021-21845) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21845.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21845.svg)
+
+## CVE-2021-21844
+ Multiple exploitable integer overflow vulnerabilities exist within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input when encountering an atom using the &#8220;stco&#8221; FOURCC code, can cause an integer overflow due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21844](https://github.com/AlAIAL90/CVE-2021-21844) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21844.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21844.svg)
+
+## CVE-2021-21843
+ Multiple exploitable integer overflow vulnerabilities exist within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input can cause an integer overflow due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. After validating the number of ranges, at [41] the library will multiply the count by the size of the GF_SubsegmentRangeInfo structure. On a 32-bit platform, this multiplication can result in an integer overflow causing the space of the array being allocated to be less than expected. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21843](https://github.com/AlAIAL90/CVE-2021-21843) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21843.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21843.svg)
+
+## CVE-2021-21842
+ An exploitable integer overflow vulnerability exists within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input can cause an integer overflow when processing an atom using the 'ssix' FOURCC code, due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21842](https://github.com/AlAIAL90/CVE-2021-21842) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21842.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21842.svg)
+
+## CVE-2021-21841
+ An exploitable integer overflow vulnerability exists within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input when reading an atom using the 'sbgp' FOURCC code can cause an integer overflow due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21841](https://github.com/AlAIAL90/CVE-2021-21841) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21841.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21841.svg)
+
+## CVE-2021-21840
+ An exploitable integer overflow vulnerability exists within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input used to process an atom using the &#8220;saio&#8221; FOURCC code cause an integer overflow due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21840](https://github.com/AlAIAL90/CVE-2021-21840) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21840.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21840.svg)
+
+## CVE-2021-21839
+ Multiple exploitable integer overflow vulnerabilities exist within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input can cause an integer overflow due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21839](https://github.com/AlAIAL90/CVE-2021-21839) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21839.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21839.svg)
+
+## CVE-2021-21838
+ Multiple exploitable integer overflow vulnerabilities exist within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input can cause an integer overflow due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21838](https://github.com/AlAIAL90/CVE-2021-21838) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21838.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21838.svg)
+
+## CVE-2021-21837
+ Multiple exploitable integer overflow vulnerabilities exist within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input can cause an integer overflow due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21837](https://github.com/AlAIAL90/CVE-2021-21837) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21837.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21837.svg)
+
+## CVE-2021-21836
+ An exploitable integer overflow vulnerability exists within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input using the &#8220;ctts&#8221; FOURCC code can cause an integer overflow due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21836](https://github.com/AlAIAL90/CVE-2021-21836) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21836.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21836.svg)
+
+## CVE-2021-21834
+ An exploitable integer overflow vulnerability exists within the MPEG-4 decoding functionality of the GPAC Project on Advanced Content library v1.0.1. A specially crafted MPEG-4 input when decoding the atom for the &#8220;co64&#8221; FOURCC can cause an integer overflow due to unchecked arithmetic resulting in a heap-based buffer overflow that causes memory corruption. An attacker can convince a user to open a video to trigger this vulnerability.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-21834](https://github.com/AlAIAL90/CVE-2021-21834) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-21834.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-21834.svg)
+
 ## CVE-2021-21676
  Jenkins requests-plugin Plugin 2.2.7 and earlier does not perform a permission check in an HTTP endpoint, allowing attackers with Overall/Read permission to send test emails to an attacker-specified email address.
 
@@ -2510,9 +2837,9 @@
 
 - [https://github.com/tao-sun2/CVE-2021-21300](https://github.com/tao-sun2/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/tao-sun2/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/tao-sun2/CVE-2021-21300.svg)
 
-- [https://github.com/danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/danshuizhangyu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/danshuizhangyu/CVE-2021-21300.svg)
-
 - [https://github.com/CppXL/CVE-2021-21300](https://github.com/CppXL/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/CppXL/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/CppXL/CVE-2021-21300.svg)
+
+- [https://github.com/danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/danshuizhangyu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/danshuizhangyu/CVE-2021-21300.svg)
 
 - [https://github.com/erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/erranfenech/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/erranfenech/CVE-2021-21300.svg)
 
@@ -2583,6 +2910,69 @@
 
 
 - [https://github.com/HoangKien1020/CVE-2021-21014](https://github.com/HoangKien1020/CVE-2021-21014) :  ![starts](https://img.shields.io/github/stars/HoangKien1020/CVE-2021-21014.svg) ![forks](https://img.shields.io/github/forks/HoangKien1020/CVE-2021-21014.svg)
+
+## CVE-2021-20815
+ Cross-site scripting vulnerability in Edit Boilerplate screen of Movable Type (Movable Type 7 r.4903 and earlier (Movable Type 7 Series), Movable Type 6.8.0 and earlier (Movable Type 6 Series), Movable Type Advanced 7 r.4903 and earlier (Movable Type Advanced 7 Series), Movable Type Premium 1.44 and earlier, and Movable Type Premium Advanced 1.44 and earlier) allows remote attackers to inject arbitrary script or HTML via unspecified vectors.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20815](https://github.com/AlAIAL90/CVE-2021-20815) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20815.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20815.svg)
+
+## CVE-2021-20814
+ Cross-site scripting vulnerability in Setting screen of ContentType Information Widget Plugin of Movable Type (Movable Type 7 r.4903 and earlier (Movable Type 7 Series), Movable Type Advanced 7 r.4903 and earlier (Movable Type Advanced 7 Series), and Movable Type Premium 1.44 and earlier) allows remote attackers to inject arbitrary script or HTML via unspecified vectors.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20814](https://github.com/AlAIAL90/CVE-2021-20814) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20814.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20814.svg)
+
+## CVE-2021-20813
+ Cross-site scripting vulnerability in Edit screen of Content Data of Movable Type (Movable Type 7 r.4903 and earlier (Movable Type 7 Series) and Movable Type Advanced 7 r.4903 and earlier (Movable Type Advanced 7 Series)) allows remote attackers to inject arbitrary script or HTML via unspecified vectors.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20813](https://github.com/AlAIAL90/CVE-2021-20813) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20813.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20813.svg)
+
+## CVE-2021-20812
+ Cross-site scripting vulnerability in Setting screen of Server Sync of Movable Type (Movable Type Advanced 7 r.4903 and earlier (Movable Type Advanced 7 Series) and Movable Type Premium Advanced 1.44 and earlier) allows remote attackers to inject arbitrary script or HTML via unspecified vectors.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20812](https://github.com/AlAIAL90/CVE-2021-20812) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20812.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20812.svg)
+
+## CVE-2021-20811
+ Cross-site scripting vulnerability in List of Assets screen of Movable Type (Movable Type 7 r.4903 and earlier (Movable Type 7 Series), Movable Type 6.8.0 and earlier (Movable Type 6 Series), Movable Type Advanced 7 r.4903 and earlier (Movable Type Advanced 7 Series), Movable Type Premium 1.44 and earlier, and Movable Type Premium Advanced 1.44 and earlier) allows remote attackers to inject arbitrary script or HTML via unspecified vectors.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20811](https://github.com/AlAIAL90/CVE-2021-20811) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20811.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20811.svg)
+
+## CVE-2021-20810
+ Cross-site scripting vulnerability in Website Management screen of Movable Type (Movable Type 7 r.4903 and earlier (Movable Type 7 Series), Movable Type 6.8.0 and earlier (Movable Type 6 Series), Movable Type Advanced 7 r.4903 and earlier (Movable Type Advanced 7 Series), Movable Type Premium 1.44 and earlier, and Movable Type Premium Advanced 1.44 and earlier) allows remote attackers to inject arbitrary script or HTML via unspecified vectors.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20810](https://github.com/AlAIAL90/CVE-2021-20810) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20810.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20810.svg)
+
+## CVE-2021-20809
+ Cross-site scripting vulnerability in Create screens of Entry, Page, and Content Type of Movable Type (Movable Type 7 r.4903 and earlier (Movable Type 7 Series), Movable Type 6.8.0 and earlier (Movable Type 6 Series), Movable Type Advanced 7 r.4903 and earlier (Movable Type Advanced 7 Series), Movable Type Premium 1.44 and earlier, and Movable Type Premium Advanced 1.44 and earlier) allows remote attackers to inject arbitrary script or HTML via unspecified vectors.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20809](https://github.com/AlAIAL90/CVE-2021-20809) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20809.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20809.svg)
+
+## CVE-2021-20808
+ Cross-site scripting vulnerability in Search screen of Movable Type (Movable Type 7 r.4903 and earlier (Movable Type 7 Series), Movable Type 6.8.0 and earlier (Movable Type 6 Series), Movable Type Advanced 7 r.4903 and earlier (Movable Type Advanced 7 Series), Movable Type Premium 1.44 and earlier, and Movable Type Premium Advanced 1.44 and earlier) allows remote attackers to inject arbitrary script or HTML via unspecified vectors.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20808](https://github.com/AlAIAL90/CVE-2021-20808) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20808.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20808.svg)
+
+## CVE-2021-20793
+ Untrusted search path vulnerability in the installer of Sony Audio USB Driver V1.10 and prior and the installer of HAP Music Transfer Ver.1.3.0 and prior allows an attacker to gain privileges and execute arbitrary code via a Trojan horse DLL in an unspecified directory.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20793](https://github.com/AlAIAL90/CVE-2021-20793) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20793.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20793.svg)
 
 ## CVE-2021-20786
  Cross-site request forgery (CSRF) vulnerability in GroupSession (GroupSession Free edition from ver2.2.0 to the version prior to ver5.1.0, GroupSession byCloud from ver3.0.3 to the version prior to ver5.1.0, and GroupSession ZION from ver3.0.3 to the version prior to ver5.1.0) allows a remote attacker to hijack the authentication of administrators via a specially crafted URL.
@@ -2687,9 +3077,9 @@
 
 - [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
 
-- [https://github.com/BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/BizarreLove/CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/BizarreLove/CVE-2021-3560.svg)
-
 - [https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation](https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation) :  ![starts](https://img.shields.io/github/stars/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation.svg) ![forks](https://img.shields.io/github/forks/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation.svg)
+
+- [https://github.com/BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/BizarreLove/CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/BizarreLove/CVE-2021-3560.svg)
 
 - [https://github.com/aancw/polkit-auto-exploit](https://github.com/aancw/polkit-auto-exploit) :  ![starts](https://img.shields.io/github/stars/aancw/polkit-auto-exploit.svg) ![forks](https://img.shields.io/github/forks/aancw/polkit-auto-exploit.svg)
 
@@ -3227,6 +3617,8 @@
 
 - [https://github.com/sailay1996/PrintNightmare-LPE](https://github.com/sailay1996/PrintNightmare-LPE) :  ![starts](https://img.shields.io/github/stars/sailay1996/PrintNightmare-LPE.svg) ![forks](https://img.shields.io/github/forks/sailay1996/PrintNightmare-LPE.svg)
 
+- [https://github.com/mstxq17/CVE-2021-1675_RDL_LPE](https://github.com/mstxq17/CVE-2021-1675_RDL_LPE) :  ![starts](https://img.shields.io/github/stars/mstxq17/CVE-2021-1675_RDL_LPE.svg) ![forks](https://img.shields.io/github/forks/mstxq17/CVE-2021-1675_RDL_LPE.svg)
+
 - [https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/nemo-wq/PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/nemo-wq/PrintNightmare-CVE-2021-34527.svg)
 
 - [https://github.com/evilashz/CVE-2021-1675-LPE-EXP](https://github.com/evilashz/CVE-2021-1675-LPE-EXP) :  ![starts](https://img.shields.io/github/stars/evilashz/CVE-2021-1675-LPE-EXP.svg) ![forks](https://img.shields.io/github/forks/evilashz/CVE-2021-1675-LPE-EXP.svg)
@@ -3370,6 +3762,13 @@
 
 
 - [https://github.com/AlAIAL90/CVE-2021-0129](https://github.com/AlAIAL90/CVE-2021-0129) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-0129.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-0129.svg)
+
+## CVE-2021-0114
+ Insecure default variable initialization for the Intel BSSA DFT feature may allow a privileged user to potentially enable an escalation of privilege via local access.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-0114](https://github.com/AlAIAL90/CVE-2021-0114) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-0114.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-0114.svg)
 
 ## CVE-2021-0062
  Improper input validation in some Intel(R) Graphics Drivers before version 27.20.100.8935 may allow an authenticated user to potentially enable escalation of privilege via local access.
