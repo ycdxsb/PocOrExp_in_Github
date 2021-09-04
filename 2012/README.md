@@ -152,6 +152,8 @@
 
 - [https://github.com/cd6629/CVE-2012-2982-Python-PoC](https://github.com/cd6629/CVE-2012-2982-Python-PoC) :  ![starts](https://img.shields.io/github/stars/cd6629/CVE-2012-2982-Python-PoC.svg) ![forks](https://img.shields.io/github/forks/cd6629/CVE-2012-2982-Python-PoC.svg)
 
+- [https://github.com/JohnHammond/CVE-2012-2982](https://github.com/JohnHammond/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/JohnHammond/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/JohnHammond/CVE-2012-2982.svg)
+
 - [https://github.com/OstojaOfficial/CVE-2012-2982](https://github.com/OstojaOfficial/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/OstojaOfficial/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/OstojaOfficial/CVE-2012-2982.svg)
 
 - [https://github.com/AlexJS6/CVE-2012-2982_Python](https://github.com/AlexJS6/CVE-2012-2982_Python) :  ![starts](https://img.shields.io/github/stars/AlexJS6/CVE-2012-2982_Python.svg) ![forks](https://img.shields.io/github/forks/AlexJS6/CVE-2012-2982_Python.svg)
