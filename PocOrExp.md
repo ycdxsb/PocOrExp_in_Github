@@ -1,4 +1,11 @@
 ## 2021
+## CVE-2021-40492
+ A reflected XSS vulnerability exists in multiple pages in version 22 of the Gibbon application that allows for arbitrary execution of JavaScript (gibbonCourseClassID, gibbonPersonID, subpage, currentDate, or allStudents to index.php).
+
+
+
+- [https://github.com/5qu1n7/CVE-2021-40492](https://github.com/5qu1n7/CVE-2021-40492) :  ![starts](https://img.shields.io/github/stars/5qu1n7/CVE-2021-40492.svg) ![forks](https://img.shields.io/github/forks/5qu1n7/CVE-2021-40492.svg)
+
 ## CVE-2021-40375
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -75,6 +82,13 @@
 
 
 - [https://github.com/security-n/CVE-2021-39377](https://github.com/security-n/CVE-2021-39377) :  ![starts](https://img.shields.io/github/stars/security-n/CVE-2021-39377.svg) ![forks](https://img.shields.io/github/forks/security-n/CVE-2021-39377.svg)
+
+## CVE-2021-39375
+ Philips Healthcare Tasy Electronic Medical Record (EMR) 3.06 allows SQL injection via the WAdvancedFilter/getDimensionItemsByCode FilterValue parameter.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-39375](https://github.com/AlAIAL90/CVE-2021-39375) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-39375.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-39375.svg)
 
 ## CVE-2021-39287
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -308,6 +322,13 @@
 
 
 - [https://github.com/AlAIAL90/CVE-2021-37694](https://github.com/AlAIAL90/CVE-2021-37694) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-37694.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-37694.svg)
+
+## CVE-2021-37608
+ Unrestricted Upload of File with Dangerous Type vulnerability in Apache OFBiz allows an attacker to execute remote commands. This issue affects Apache OFBiz version 17.12.07 and prior versions. Upgrade to at least 17.12.08 or apply patches at https://issues.apache.org/jira/browse/OFBIZ-12297.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-37608](https://github.com/AlAIAL90/CVE-2021-37608) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-37608.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-37608.svg)
 
 ## CVE-2021-37589
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -805,6 +826,13 @@
 
 - [https://github.com/AlAIAL90/CVE-2021-33348](https://github.com/AlAIAL90/CVE-2021-33348) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33348.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33348.svg)
 
+## CVE-2021-33019
+ A stack-based buffer overflow vulnerability in Delta Electronics DOPSoft Version 4.00.11 and prior may be exploited by processing a specially crafted project file, which may allow an attacker to execute arbitrary code.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-33019](https://github.com/AlAIAL90/CVE-2021-33019) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33019.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33019.svg)
+
 ## CVE-2021-33015
  Cscape (All Versions prior to 9.90 SP5) lacks proper validation of user-supplied data when parsing project files. This could lead to an out-of-bounds write via an uninitialized pointer. An attacker could leverage this vulnerability to execute code in the context of the current process.
 
@@ -812,12 +840,54 @@
 
 - [https://github.com/AlAIAL90/CVE-2021-33015](https://github.com/AlAIAL90/CVE-2021-33015) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33015.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33015.svg)
 
+## CVE-2021-33007
+ A heap-based buffer overflow in Delta Electronics TPEditor: v1.98.06 and prior may be exploited by processing a specially crafted project file. Successful exploitation of this vulnerability may allow an attacker to execute arbitrary code.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-33007](https://github.com/AlAIAL90/CVE-2021-33007) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33007.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33007.svg)
+
+## CVE-2021-33003
+ Delta Electronics DIAEnergie Version 1.7.5 and prior may allow an attacker to retrieve passwords in cleartext due to a weak hashing algorithm.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-33003](https://github.com/AlAIAL90/CVE-2021-33003) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33003.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33003.svg)
+
 ## CVE-2021-32995
  Cscape (All Versions prior to 9.90 SP5) lacks proper validation of user-supplied data when parsing project files. This could lead to an out-of-bounds write. An attacker could leverage this vulnerability to execute code in the context of the current process.
 
 
 
 - [https://github.com/AlAIAL90/CVE-2021-32995](https://github.com/AlAIAL90/CVE-2021-32995) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-32995.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-32995.svg)
+
+## CVE-2021-32991
+ Delta Electronics DIAEnergie Version 1.7.5 and prior is vulnerable to cross-site request forgery, which may allow an attacker to cause a user to carry out an action unintentionally.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-32991](https://github.com/AlAIAL90/CVE-2021-32991) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-32991.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-32991.svg)
+
+## CVE-2021-32983
+ A Blind SQL injection vulnerability exists in the /DataHandler/Handler_CFG.ashx endpoint of Delta Electronics DIAEnergie Version 1.7.5 and prior. The application does not properly validate the user-controlled value supplied through the parameter keyword before using it as part of an SQL query. A remote, unauthenticated attacker can exploit this issue to execute arbitrary code in the context of NT SERVICE\MSSQLSERVER.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-32983](https://github.com/AlAIAL90/CVE-2021-32983) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-32983.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-32983.svg)
+
+## CVE-2021-32967
+ Delta Electronics DIAEnergie Version 1.7.5 and prior may allow an attacker to add a new administrative user without being authenticated or authorized, which may allow the attacker to log in and use the device with administrative privileges.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-32967](https://github.com/AlAIAL90/CVE-2021-32967) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-32967.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-32967.svg)
+
+## CVE-2021-32955
+ Delta Electronics DIAEnergie Version 1.7.5 and prior allows unrestricted file uploads, which may allow an attacker to remotely execute code.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-32955](https://github.com/AlAIAL90/CVE-2021-32955) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-32955.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-32955.svg)
 
 ## CVE-2021-32931
  An uninitialized pointer in FATEK Automation FvDesigner, Versions 1.5.88 and prior may be exploited while the application is processing project files, allowing an attacker to craft a special project file that may permit arbitrary code execution.
@@ -1540,6 +1610,20 @@
 
 - [https://github.com/Al1ex/CVE-2021-27928](https://github.com/Al1ex/CVE-2021-27928) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2021-27928.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2021-27928.svg)
 
+## CVE-2021-27913
+ The function mt_rand is used to generate session tokens, this function is cryptographically flawed due to its nature being one pseudorandomness, an attacker can take advantage of the cryptographically insecure nature of this function to enumerate session tokens for accounts that are not under his/her control This issue affects: Mautic Mautic versions prior to 3.3.4; versions prior to 4.0.0.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-27913](https://github.com/AlAIAL90/CVE-2021-27913) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-27913.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-27913.svg)
+
+## CVE-2021-27912
+ Mautic versions before 3.3.4/4.0.0 are vulnerable to an inline JS XSS attack when viewing Mautic assets by utilizing inline JS in the title and adding a broken image URL as a remote asset. This can only be leveraged by an authenticated user with permission to create or edit assets.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-27912](https://github.com/AlAIAL90/CVE-2021-27912) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-27912.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-27912.svg)
+
 ## CVE-2021-27905
  The ReplicationHandler (normally registered at &quot;/replication&quot; under a Solr core) in Apache Solr has a &quot;masterUrl&quot; (also &quot;leaderUrl&quot; alias) parameter that is used to designate another ReplicationHandler on another Solr core to replicate index data into the local core. To prevent a SSRF vulnerability, Solr ought to check these parameters against a similar configuration it uses for the &quot;shards&quot; parameter. Prior to this bug getting fixed, it did not. This problem affects essentially all Solr versions prior to it getting fixed in 8.8.2.
 
@@ -1582,6 +1666,13 @@
 - [https://github.com/samwcyo/CVE-2021-27651-PoC](https://github.com/samwcyo/CVE-2021-27651-PoC) :  ![starts](https://img.shields.io/github/stars/samwcyo/CVE-2021-27651-PoC.svg) ![forks](https://img.shields.io/github/forks/samwcyo/CVE-2021-27651-PoC.svg)
 
 - [https://github.com/Vulnmachines/CVE-2021-27651](https://github.com/Vulnmachines/CVE-2021-27651) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/CVE-2021-27651.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/CVE-2021-27651.svg)
+
+## CVE-2021-27556
+ The Cron job tab in EasyCorp ZenTao 12.5.3 allows remote attackers (who have admin access) to execute arbitrary code by setting the type parameter to System.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-27556](https://github.com/AlAIAL90/CVE-2021-27556) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-27556.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-27556.svg)
 
 ## CVE-2021-27404
  Askey RTF8115VW BR_SV_g11.11_RTF_TEF001_V6.54_V014 devices allow injection of a Host HTTP header.
@@ -2040,13 +2131,13 @@
 
 - [https://github.com/dinhbaouit/CVE-2021-26084](https://github.com/dinhbaouit/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/dinhbaouit/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/dinhbaouit/CVE-2021-26084.svg)
 
-- [https://github.com/FanqXu/CVE-2021-26084](https://github.com/FanqXu/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/FanqXu/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/FanqXu/CVE-2021-26084.svg)
-
 - [https://github.com/alt3kx/CVE-2021-26084_PoC](https://github.com/alt3kx/CVE-2021-26084_PoC) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2021-26084_PoC.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2021-26084_PoC.svg)
 
-- [https://github.com/tangxiaofeng7/CVE-2021-26084](https://github.com/tangxiaofeng7/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/tangxiaofeng7/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/tangxiaofeng7/CVE-2021-26084.svg)
+- [https://github.com/FanqXu/CVE-2021-26084](https://github.com/FanqXu/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/FanqXu/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/FanqXu/CVE-2021-26084.svg)
 
 - [https://github.com/r0ckysec/CVE-2021-26084_Confluence](https://github.com/r0ckysec/CVE-2021-26084_Confluence) :  ![starts](https://img.shields.io/github/stars/r0ckysec/CVE-2021-26084_Confluence.svg) ![forks](https://img.shields.io/github/forks/r0ckysec/CVE-2021-26084_Confluence.svg)
+
+- [https://github.com/tangxiaofeng7/CVE-2021-26084](https://github.com/tangxiaofeng7/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/tangxiaofeng7/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/tangxiaofeng7/CVE-2021-26084.svg)
 
 - [https://github.com/carlosevieira/CVE-2021-26084](https://github.com/carlosevieira/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/carlosevieira/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/carlosevieira/CVE-2021-26084.svg)
 
@@ -2054,21 +2145,29 @@
 
 - [https://github.com/JKme/CVE-2021-26084](https://github.com/JKme/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/JKme/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/JKme/CVE-2021-26084.svg)
 
-- [https://github.com/taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/taythebot/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/taythebot/CVE-2021-26084.svg)
+- [https://github.com/p0nymc1/CVE-2021-26084](https://github.com/p0nymc1/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/p0nymc1/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/p0nymc1/CVE-2021-26084.svg)
 
 - [https://github.com/Vulnmachines/Confluence_CVE-2021-26084](https://github.com/Vulnmachines/Confluence_CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/Confluence_CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/Confluence_CVE-2021-26084.svg)
 
-- [https://github.com/AlAIAL90/CVE-2021-26084](https://github.com/AlAIAL90/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-26084.svg)
+- [https://github.com/taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/taythebot/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/taythebot/CVE-2021-26084.svg)
+
+- [https://github.com/Xc1Ym/cve_2021_26084](https://github.com/Xc1Ym/cve_2021_26084) :  ![starts](https://img.shields.io/github/stars/Xc1Ym/cve_2021_26084.svg) ![forks](https://img.shields.io/github/forks/Xc1Ym/cve_2021_26084.svg)
+
+- [https://github.com/Loneyers/CVE-2021-26084](https://github.com/Loneyers/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/Loneyers/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/Loneyers/CVE-2021-26084.svg)
 
 - [https://github.com/smallpiggy/cve-2021-26084-confluence](https://github.com/smallpiggy/cve-2021-26084-confluence) :  ![starts](https://img.shields.io/github/stars/smallpiggy/cve-2021-26084-confluence.svg) ![forks](https://img.shields.io/github/forks/smallpiggy/cve-2021-26084-confluence.svg)
 
 - [https://github.com/maskerTUI/CVE-2021-26084](https://github.com/maskerTUI/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/maskerTUI/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/maskerTUI/CVE-2021-26084.svg)
 
+- [https://github.com/mr-r3bot/Confluence-CVE-2021-26084](https://github.com/mr-r3bot/Confluence-CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/mr-r3bot/Confluence-CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/mr-r3bot/Confluence-CVE-2021-26084.svg)
+
+- [https://github.com/AlAIAL90/CVE-2021-26084](https://github.com/AlAIAL90/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-26084.svg)
+
 - [https://github.com/Osyanina/westone-CVE-2021-26084-scanner](https://github.com/Osyanina/westone-CVE-2021-26084-scanner) :  ![starts](https://img.shields.io/github/stars/Osyanina/westone-CVE-2021-26084-scanner.svg) ![forks](https://img.shields.io/github/forks/Osyanina/westone-CVE-2021-26084-scanner.svg)
 
-- [https://github.com/bcdannyboy/CVE-2021-26084_GoPOC](https://github.com/bcdannyboy/CVE-2021-26084_GoPOC) :  ![starts](https://img.shields.io/github/stars/bcdannyboy/CVE-2021-26084_GoPOC.svg) ![forks](https://img.shields.io/github/forks/bcdannyboy/CVE-2021-26084_GoPOC.svg)
-
 - [https://github.com/BeRserKerSec/CVE-2021-26084-Nuclei-template](https://github.com/BeRserKerSec/CVE-2021-26084-Nuclei-template) :  ![starts](https://img.shields.io/github/stars/BeRserKerSec/CVE-2021-26084-Nuclei-template.svg) ![forks](https://img.shields.io/github/forks/BeRserKerSec/CVE-2021-26084-Nuclei-template.svg)
+
+- [https://github.com/bcdannyboy/CVE-2021-26084_GoPOC](https://github.com/bcdannyboy/CVE-2021-26084_GoPOC) :  ![starts](https://img.shields.io/github/stars/bcdannyboy/CVE-2021-26084_GoPOC.svg) ![forks](https://img.shields.io/github/forks/bcdannyboy/CVE-2021-26084_GoPOC.svg)
 
 ## CVE-2021-25791
  Multiple stored cross site scripting (XSS) vulnerabilities in the &quot;Update Profile&quot; module of Online Doctor Appointment System 1.0 allows authenticated attackers to execute arbitrary web scripts or HTML via crafted payloads in the First Name, Last Name, and Address text fields.
@@ -2167,6 +2266,13 @@
 
 
 - [https://github.com/Parasect-Team/for-trendmciro](https://github.com/Parasect-Team/for-trendmciro) :  ![starts](https://img.shields.io/github/stars/Parasect-Team/for-trendmciro.svg) ![forks](https://img.shields.io/github/forks/Parasect-Team/for-trendmciro.svg)
+
+## CVE-2021-24667
+ A stored cross-site scripting vulnerability has been discovered in : Simply Gallery Blocks with Lightbox (Version &#8211; 2.2.0 &amp; below). The vulnerability exists in the Lightbox functionality where a user with low privileges is allowed to execute arbitrary script code within the context of the application. This vulnerability is due to insufficient validation of image parameters in meta data.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-24667](https://github.com/AlAIAL90/CVE-2021-24667) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-24667.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-24667.svg)
 
 ## CVE-2021-24347
  The SP Project &amp; Document Manager WordPress plugin before 4.22 allows users to upload files, however, the plugin attempts to prevent php and other similar files that could be executed on the server from being uploaded by checking the file extension. It was discovered that php files could still be uploaded by changing the file extension's case, for example, from &quot;php&quot; to &quot;pHP&quot;.
@@ -2857,13 +2963,13 @@
 
 - [https://github.com/mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551) :  ![starts](https://img.shields.io/github/stars/mathisvickie/CVE-2021-21551.svg) ![forks](https://img.shields.io/github/forks/mathisvickie/CVE-2021-21551.svg)
 
+- [https://github.com/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551](https://github.com/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551) :  ![starts](https://img.shields.io/github/stars/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551.svg) ![forks](https://img.shields.io/github/forks/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551.svg)
+
 - [https://github.com/mzakocs/CVE-2021-21551-POC](https://github.com/mzakocs/CVE-2021-21551-POC) :  ![starts](https://img.shields.io/github/stars/mzakocs/CVE-2021-21551-POC.svg) ![forks](https://img.shields.io/github/forks/mzakocs/CVE-2021-21551-POC.svg)
 
 - [https://github.com/arnaudluti/PS-CVE-2021-21551](https://github.com/arnaudluti/PS-CVE-2021-21551) :  ![starts](https://img.shields.io/github/stars/arnaudluti/PS-CVE-2021-21551.svg) ![forks](https://img.shields.io/github/forks/arnaudluti/PS-CVE-2021-21551.svg)
 
 - [https://github.com/Kinsiinoo/PoshDellDBUtil](https://github.com/Kinsiinoo/PoshDellDBUtil) :  ![starts](https://img.shields.io/github/stars/Kinsiinoo/PoshDellDBUtil.svg) ![forks](https://img.shields.io/github/forks/Kinsiinoo/PoshDellDBUtil.svg)
-
-- [https://github.com/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551](https://github.com/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551) :  ![starts](https://img.shields.io/github/stars/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551.svg) ![forks](https://img.shields.io/github/forks/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551.svg)
 
 ## CVE-2021-21425
  Grav Admin Plugin is an HTML user interface that provides a way to configure Grav and create and modify pages. In versions 1.10.7 and earlier, an unauthenticated user can execute some methods of administrator controller without needing any credentials. Particular method execution will result in arbitrary YAML file creation or content change of existing YAML files on the system. Successfully exploitation of that vulnerability results in configuration changes, such as general site information change, custom scheduler job definition, etc. Due to the nature of the vulnerability, an adversary can change some part of the webpage, or hijack an administrator account, or execute operating system command under the context of the web-server user. This vulnerability is fixed in version 1.10.8. Blocking access to the `/admin` path from untrusted sources can be applied as a workaround.
@@ -3546,6 +3652,8 @@
 
 - [https://github.com/givemefivw/CVE-2021-3019](https://github.com/givemefivw/CVE-2021-3019) :  ![starts](https://img.shields.io/github/stars/givemefivw/CVE-2021-3019.svg) ![forks](https://img.shields.io/github/forks/givemefivw/CVE-2021-3019.svg)
 
+- [https://github.com/qiezi-maozi/CVE-2021-3019-Lanproxy](https://github.com/qiezi-maozi/CVE-2021-3019-Lanproxy) :  ![starts](https://img.shields.io/github/stars/qiezi-maozi/CVE-2021-3019-Lanproxy.svg) ![forks](https://img.shields.io/github/forks/qiezi-maozi/CVE-2021-3019-Lanproxy.svg)
+
 ## CVE-2021-3007
  ** DISPUTED ** Laminas Project laminas-http before 2.14.2, and Zend Framework 3.0.0, has a deserialization vulnerability that can lead to remote code execution if the content is controllable, related to the __destruct method of the Zend\Http\Response\Stream class in Stream.php. NOTE: Zend Framework is no longer supported by the maintainer. NOTE: the laminas-http vendor considers this a &quot;vulnerability in the PHP language itself&quot; but has added certain type checking as a way to prevent exploitation in (unrecommended) use cases where attacker-supplied data can be deserialized.
 
@@ -3658,6 +3766,8 @@
 
 - [https://github.com/tihmstar/itmsBlock](https://github.com/tihmstar/itmsBlock) :  ![starts](https://img.shields.io/github/stars/tihmstar/itmsBlock.svg) ![forks](https://img.shields.io/github/forks/tihmstar/itmsBlock.svg)
 
+- [https://github.com/ChiChou/mistune-patch-backport](https://github.com/ChiChou/mistune-patch-backport) :  ![starts](https://img.shields.io/github/stars/ChiChou/mistune-patch-backport.svg) ![forks](https://img.shields.io/github/forks/ChiChou/mistune-patch-backport.svg)
+
 ## CVE-2021-1732
  Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-1698.
 
@@ -3768,9 +3878,9 @@
 
 - [https://github.com/ozergoker/PrintNightmare](https://github.com/ozergoker/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/ozergoker/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/ozergoker/PrintNightmare.svg)
 
-- [https://github.com/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler](https://github.com/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler) :  ![starts](https://img.shields.io/github/stars/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler.svg) ![forks](https://img.shields.io/github/forks/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler.svg)
-
 - [https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527](https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527.svg)
+
+- [https://github.com/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler](https://github.com/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler) :  ![starts](https://img.shields.io/github/stars/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler.svg) ![forks](https://img.shields.io/github/forks/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler.svg)
 
 - [https://github.com/DenizSe/CVE-2021-34527](https://github.com/DenizSe/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/DenizSe/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/DenizSe/CVE-2021-34527.svg)
 
@@ -3787,6 +3897,34 @@
 
 
 - [https://github.com/dmlgzs/cve-2021-1647](https://github.com/dmlgzs/cve-2021-1647) :  ![starts](https://img.shields.io/github/stars/dmlgzs/cve-2021-1647.svg) ![forks](https://img.shields.io/github/forks/dmlgzs/cve-2021-1647.svg)
+
+## CVE-2021-1592
+ A vulnerability in the way Cisco UCS Manager software handles SSH sessions could allow an authenticated, remote attacker to cause a denial of service (DoS) condition on an affected device. This vulnerability is due to improper resource management for established SSH sessions. An attacker could exploit this vulnerability by opening a significant number of SSH sessions on an affected device. A successful exploit could allow the attacker to cause a crash and restart of internal Cisco UCS Manager software processes and a temporary loss of access to the Cisco UCS Manager CLI and web UI. Note: The attacker must have valid user credentials to authenticate to the affected device.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-1592](https://github.com/AlAIAL90/CVE-2021-1592) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-1592.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-1592.svg)
+
+## CVE-2021-1591
+ A vulnerability in the EtherChannel port subscription logic of Cisco Nexus 9500 Series Switches could allow an unauthenticated, remote attacker to bypass access control list (ACL) rules that are configured on an affected device. This vulnerability is due to oversubscription of resources that occurs when applying ACLs to port channel interfaces. An attacker could exploit this vulnerability by attempting to access network resources that are protected by the ACL. A successful exploit could allow the attacker to access network resources that would be protected by the ACL that was applied on the port channel interface.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-1591](https://github.com/AlAIAL90/CVE-2021-1591) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-1591.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-1591.svg)
+
+## CVE-2021-1590
+ A vulnerability in the implementation of the system login block-for command for Cisco NX-OS Software could allow an unauthenticated, remote attacker to cause a login process to unexpectedly restart, causing a denial of service (DoS) condition. This vulnerability is due to a logic error in the implementation of the system login block-for command when an attack is detected and acted upon. An attacker could exploit this vulnerability by performing a brute-force login attack on an affected device. A successful exploit could allow the attacker to cause a login process to reload, which could result in a delay during authentication to the affected device.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-1590](https://github.com/AlAIAL90/CVE-2021-1590) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-1590.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-1590.svg)
+
+## CVE-2021-1588
+ A vulnerability in the MPLS Operation, Administration, and Maintenance (OAM) feature of Cisco NX-OS Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device. This vulnerability is due to improper input validation when an affected device is processing an MPLS echo-request or echo-reply packet. An attacker could exploit this vulnerability by sending malicious MPLS echo-request or echo-reply packets to an interface that is enabled for MPLS forwarding on the affected device. A successful exploit could allow the attacker to cause the MPLS OAM process to crash and restart multiple times, causing the affected device to reload and resulting in a DoS condition.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-1588](https://github.com/AlAIAL90/CVE-2021-1588) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-1588.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-1588.svg)
 
 ## CVE-2021-1499
  A vulnerability in the web-based management interface of Cisco HyperFlex HX Data Platform could allow an unauthenticated, remote attacker to upload files to an affected device. This vulnerability is due to missing authentication for the upload function. An attacker could exploit this vulnerability by sending a specific HTTP request to an affected device. A successful exploit could allow the attacker to upload files to the affected device with the permissions of the tomcat8 user.
