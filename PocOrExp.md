@@ -26028,15 +26028,6 @@
 
 - [https://github.com/jeffgeiger/es_inject](https://github.com/jeffgeiger/es_inject) :  ![starts](https://img.shields.io/github/stars/jeffgeiger/es_inject.svg) ![forks](https://img.shields.io/github/forks/jeffgeiger/es_inject.svg)
 
-## CVE-2014-2734
- ** DISPUTED ** The openssl extension in Ruby 2.x does not properly maintain the state of process memory after a file is reopened, which allows remote attackers to spoof signatures within the context of a Ruby script that attempts signature verification after performing a certain sequence of filesystem operations.  NOTE: this issue has been disputed by the Ruby OpenSSL team and third parties, who state that the original demonstration PoC contains errors and redundant or unnecessarily-complex code that does not appear to be related to a demonstration of the issue. As of 20140502, CVE is not aware of any public comment by the original researcher.
-
-
-
-- [https://github.com/adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734) :  ![starts](https://img.shields.io/github/stars/adrienthebo/cve-2014-2734.svg) ![forks](https://img.shields.io/github/forks/adrienthebo/cve-2014-2734.svg)
-
-- [https://github.com/gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734) :  ![starts](https://img.shields.io/github/stars/gdisneyleugers/CVE-2014-2734.svg) ![forks](https://img.shields.io/github/forks/gdisneyleugers/CVE-2014-2734.svg)
-
 ## CVE-2014-2630
  Unspecified vulnerability in HP Operations Agent 11.00, when Glance is used, allows local users to gain privileges via unknown vectors.
 
