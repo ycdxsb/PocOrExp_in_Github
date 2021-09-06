@@ -293,11 +293,11 @@
 
 - [https://github.com/cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Shellbash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Shellbash-CVE-2014-6271.svg)
 
-- [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
-
 - [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
 
 - [https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-](https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-) :  ![starts](https://img.shields.io/github/stars/rashmikadileeshara/CVE-2014-6271-Shellshock-.svg) ![forks](https://img.shields.io/github/forks/rashmikadileeshara/CVE-2014-6271-Shellshock-.svg)
+
+- [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
 
 - [https://github.com/mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mattclegg/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mattclegg/CVE-2014-6271.svg)
 
@@ -590,6 +590,15 @@
 - [https://github.com/echohtp/ElasticSearch-CVE-2014-3120](https://github.com/echohtp/ElasticSearch-CVE-2014-3120) :  ![starts](https://img.shields.io/github/stars/echohtp/ElasticSearch-CVE-2014-3120.svg) ![forks](https://img.shields.io/github/forks/echohtp/ElasticSearch-CVE-2014-3120.svg)
 
 - [https://github.com/jeffgeiger/es_inject](https://github.com/jeffgeiger/es_inject) :  ![starts](https://img.shields.io/github/stars/jeffgeiger/es_inject.svg) ![forks](https://img.shields.io/github/forks/jeffgeiger/es_inject.svg)
+
+## CVE-2014-2734
+ ** DISPUTED ** The openssl extension in Ruby 2.x does not properly maintain the state of process memory after a file is reopened, which allows remote attackers to spoof signatures within the context of a Ruby script that attempts signature verification after performing a certain sequence of filesystem operations.  NOTE: this issue has been disputed by the Ruby OpenSSL team and third parties, who state that the original demonstration PoC contains errors and redundant or unnecessarily-complex code that does not appear to be related to a demonstration of the issue. As of 20140502, CVE is not aware of any public comment by the original researcher.
+
+
+
+- [https://github.com/adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734) :  ![starts](https://img.shields.io/github/stars/adrienthebo/cve-2014-2734.svg) ![forks](https://img.shields.io/github/forks/adrienthebo/cve-2014-2734.svg)
+
+- [https://github.com/gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734) :  ![starts](https://img.shields.io/github/stars/gdisneyleugers/CVE-2014-2734.svg) ![forks](https://img.shields.io/github/forks/gdisneyleugers/CVE-2014-2734.svg)
 
 ## CVE-2014-2630
  Unspecified vulnerability in HP Operations Agent 11.00, when Glance is used, allows local users to gain privileges via unknown vectors.
@@ -891,9 +900,9 @@
 
 - [https://github.com/iwaffles/heartbleed-test.crx](https://github.com/iwaffles/heartbleed-test.crx) :  ![starts](https://img.shields.io/github/stars/iwaffles/heartbleed-test.crx.svg) ![forks](https://img.shields.io/github/forks/iwaffles/heartbleed-test.crx.svg)
 
-- [https://github.com/indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-) :  ![starts](https://img.shields.io/github/stars/indiw0rm/-Heartbleed-.svg) ![forks](https://img.shields.io/github/forks/indiw0rm/-Heartbleed-.svg)
-
 - [https://github.com/takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse) :  ![starts](https://img.shields.io/github/stars/takeshixx/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/takeshixx/ssl-heartbleed.nse.svg)
+
+- [https://github.com/indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-) :  ![starts](https://img.shields.io/github/stars/indiw0rm/-Heartbleed-.svg) ![forks](https://img.shields.io/github/forks/indiw0rm/-Heartbleed-.svg)
 
 - [https://github.com/amerine/coronary](https://github.com/amerine/coronary) :  ![starts](https://img.shields.io/github/stars/amerine/coronary.svg) ![forks](https://img.shields.io/github/forks/amerine/coronary.svg)
 
