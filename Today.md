@@ -1,22 +1,55 @@
-# Update 2021-09-13
+# Update 2021-09-14
 ## CVE-2021-40444
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
-- [https://github.com/R0fM1a/CVE-2021-40444-pocv](https://github.com/R0fM1a/CVE-2021-40444-pocv) :  ![starts](https://img.shields.io/github/stars/R0fM1a/CVE-2021-40444-pocv.svg) ![forks](https://img.shields.io/github/forks/R0fM1a/CVE-2021-40444-pocv.svg)
-- [https://github.com/amartinsec/MSHTMHell](https://github.com/amartinsec/MSHTMHell) :  ![starts](https://img.shields.io/github/stars/amartinsec/MSHTMHell.svg) ![forks](https://img.shields.io/github/forks/amartinsec/MSHTMHell.svg)
-- [https://github.com/mansk1es/Caboom](https://github.com/mansk1es/Caboom) :  ![starts](https://img.shields.io/github/stars/mansk1es/Caboom.svg) ![forks](https://img.shields.io/github/forks/mansk1es/Caboom.svg)
-- [https://github.com/nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx](https://github.com/nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx) :  ![starts](https://img.shields.io/github/stars/nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx.svg) ![forks](https://img.shields.io/github/forks/nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx.svg)
+- [https://github.com/aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders) :  ![starts](https://img.shields.io/github/stars/aslitsecurity/CVE-2021-40444_builders.svg) ![forks](https://img.shields.io/github/forks/aslitsecurity/CVE-2021-40444_builders.svg)
+- [https://github.com/jamesrep/cve-2021-40444](https://github.com/jamesrep/cve-2021-40444) :  ![starts](https://img.shields.io/github/stars/jamesrep/cve-2021-40444.svg) ![forks](https://img.shields.io/github/forks/jamesrep/cve-2021-40444.svg)
 
 
-## CVE-2020-25223
- A remote code execution vulnerability exists in the WebAdmin of Sophos SG UTM before v9.705 MR5, v9.607 MR7, and v9.511 MR11
+## CVE-2021-34527
+ Windows Print Spooler Remote Code Execution Vulnerability
 
-- [https://github.com/twentybel0w/CVE-2020-25223](https://github.com/twentybel0w/CVE-2020-25223) :  ![starts](https://img.shields.io/github/stars/twentybel0w/CVE-2020-25223.svg) ![forks](https://img.shields.io/github/forks/twentybel0w/CVE-2020-25223.svg)
+- [https://github.com/ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/ly4k/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/ly4k/PrintNightmare.svg)
 
 
-## CVE-2018-13379
- An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Traversal&quot;) in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.3 to 5.6.7 and 5.4.6 to 5.4.12 and FortiProxy 2.0.0, 1.2.0 to 1.2.8, 1.1.0 to 1.1.6, 1.0.0 to 1.0.7 under SSL VPN web portal allows an unauthenticated attacker to download system files via special crafted HTTP resource requests.
+## CVE-2021-24499
+ The Workreap WordPress theme before 2.2.2 AJAX actions workreap_award_temp_file_uploader and workreap_temp_file_uploader did not perform nonce checks, or validate that the request is from a valid user in any other way. The endpoints allowed for uploading arbitrary files to the uploads/workreap-temp directory. Uploaded files were neither sanitized nor validated, allowing an unauthenticated visitor to upload executable code such as php scripts.
 
-- [https://github.com/nivdolgin/CVE-2018-13379](https://github.com/nivdolgin/CVE-2018-13379) :  ![starts](https://img.shields.io/github/stars/nivdolgin/CVE-2018-13379.svg) ![forks](https://img.shields.io/github/forks/nivdolgin/CVE-2018-13379.svg)
+- [https://github.com/RyouYoo/CVE-2021-24499](https://github.com/RyouYoo/CVE-2021-24499) :  ![starts](https://img.shields.io/github/stars/RyouYoo/CVE-2021-24499.svg) ![forks](https://img.shields.io/github/forks/RyouYoo/CVE-2021-24499.svg)
+
+
+## CVE-2021-3493
+ The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges.
+
+- [https://github.com/cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/cerodah/overlayFS-CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/cerodah/overlayFS-CVE-2021-3493.svg)
+
+
+## CVE-2021-1675
+ Windows Print Spooler Elevation of Privilege Vulnerability
+
+- [https://github.com/ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/ly4k/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/ly4k/PrintNightmare.svg)
+
+
+## CVE-2021-1234
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/sDreamForZzQ/CVE-2021-1234](https://github.com/sDreamForZzQ/CVE-2021-1234) :  ![starts](https://img.shields.io/github/stars/sDreamForZzQ/CVE-2021-1234.svg) ![forks](https://img.shields.io/github/forks/sDreamForZzQ/CVE-2021-1234.svg)
+
+
+## CVE-2019-19634
+ class.upload.php in verot.net class.upload through 1.0.3 and 2.x through 2.0.4, as used in the K2 extension for Joomla! and other products, omits .pht from the set of dangerous file extensions, a similar issue to CVE-2019-19576.
+
+- [https://github.com/jra89/CVE-2019-19634](https://github.com/jra89/CVE-2019-19634) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19634.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19634.svg)
+
+
+## CVE-2018-18925
+ Gogs 0.11.66 allows remote code execution because it does not properly validate session IDs, as demonstrated by a &quot;..&quot; session-file forgery in the file session provider in file.go. This is related to session ID handling in the go-macaron/session code for Macaron.
+
+- [https://github.com/RyouYoo/CVE-2018-18925](https://github.com/RyouYoo/CVE-2018-18925) :  ![starts](https://img.shields.io/github/stars/RyouYoo/CVE-2018-18925.svg) ![forks](https://img.shields.io/github/forks/RyouYoo/CVE-2018-18925.svg)
+
+
+## CVE-2018-1133
+ An issue was discovered in Moodle 3.x. A Teacher creating a Calculated question can intentionally cause remote code execution on the server, aka eval injection.
+
+- [https://github.com/darrynten/MoodleExploit](https://github.com/darrynten/MoodleExploit) :  ![starts](https://img.shields.io/github/stars/darrynten/MoodleExploit.svg) ![forks](https://img.shields.io/github/forks/darrynten/MoodleExploit.svg)
 
