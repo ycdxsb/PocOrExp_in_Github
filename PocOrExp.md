@@ -5403,17 +5403,17 @@
 
 - [https://github.com/IanSmith123/CVE-2020-27955](https://github.com/IanSmith123/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/IanSmith123/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/IanSmith123/CVE-2020-27955.svg)
 
-- [https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST](https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST) :  ![starts](https://img.shields.io/github/stars/SilverSkyFlyingFeather/CVE-2020-27955-TEST.svg) ![forks](https://img.shields.io/github/forks/SilverSkyFlyingFeather/CVE-2020-27955-TEST.svg)
-
 - [https://github.com/Marsable/CVE-2020-27955-LFS](https://github.com/Marsable/CVE-2020-27955-LFS) :  ![starts](https://img.shields.io/github/stars/Marsable/CVE-2020-27955-LFS.svg) ![forks](https://img.shields.io/github/forks/Marsable/CVE-2020-27955-LFS.svg)
 
+- [https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST](https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST) :  ![starts](https://img.shields.io/github/stars/SilverSkyFlyingFeather/CVE-2020-27955-TEST.svg) ![forks](https://img.shields.io/github/forks/SilverSkyFlyingFeather/CVE-2020-27955-TEST.svg)
+
 - [https://github.com/qzyqzynb/CVE-2020-27955](https://github.com/qzyqzynb/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/qzyqzynb/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/qzyqzynb/CVE-2020-27955.svg)
+
+- [https://github.com/yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc) :  ![starts](https://img.shields.io/github/stars/yhsung/cve-2020-27955-poc.svg) ![forks](https://img.shields.io/github/forks/yhsung/cve-2020-27955-poc.svg)
 
 - [https://github.com/dennyson120/CVE-2020-27955](https://github.com/dennyson120/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/dennyson120/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/dennyson120/CVE-2020-27955.svg)
 
 - [https://github.com/nob0dy-3389/CVE-2020-27955](https://github.com/nob0dy-3389/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/nob0dy-3389/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/nob0dy-3389/CVE-2020-27955.svg)
-
-- [https://github.com/yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc) :  ![starts](https://img.shields.io/github/stars/yhsung/cve-2020-27955-poc.svg) ![forks](https://img.shields.io/github/forks/yhsung/cve-2020-27955-poc.svg)
 
 - [https://github.com/whitetea2424/CVE-2020-27955-LFS-main](https://github.com/whitetea2424/CVE-2020-27955-LFS-main) :  ![starts](https://img.shields.io/github/stars/whitetea2424/CVE-2020-27955-LFS-main.svg) ![forks](https://img.shields.io/github/forks/whitetea2424/CVE-2020-27955-LFS-main.svg)
 
@@ -5907,11 +5907,11 @@
 
 - [https://github.com/kakamband/WPKiller](https://github.com/kakamband/WPKiller) :  ![starts](https://img.shields.io/github/stars/kakamband/WPKiller.svg) ![forks](https://img.shields.io/github/forks/kakamband/WPKiller.svg)
 
+- [https://github.com/piruprohacking/CVE-2020-25213](https://github.com/piruprohacking/CVE-2020-25213) :  ![starts](https://img.shields.io/github/stars/piruprohacking/CVE-2020-25213.svg) ![forks](https://img.shields.io/github/forks/piruprohacking/CVE-2020-25213.svg)
+
 - [https://github.com/k0rup710n/Wordpress-CVE-2020-25213](https://github.com/k0rup710n/Wordpress-CVE-2020-25213) :  ![starts](https://img.shields.io/github/stars/k0rup710n/Wordpress-CVE-2020-25213.svg) ![forks](https://img.shields.io/github/forks/k0rup710n/Wordpress-CVE-2020-25213.svg)
 
 - [https://github.com/forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress) :  ![starts](https://img.shields.io/github/stars/forse01/CVE-2020-25213-Wordpress.svg) ![forks](https://img.shields.io/github/forks/forse01/CVE-2020-25213-Wordpress.svg)
-
-- [https://github.com/piruprohacking/CVE-2020-25213](https://github.com/piruprohacking/CVE-2020-25213) :  ![starts](https://img.shields.io/github/stars/piruprohacking/CVE-2020-25213.svg) ![forks](https://img.shields.io/github/forks/piruprohacking/CVE-2020-25213.svg)
 
 ## CVE-2020-25200
  ** DISPUTED ** Pritunl 1.29.2145.25 allows attackers to enumerate valid VPN usernames via a series of /auth/session login attempts. Initially, the server will return error 401. However, if the username is valid, then after 20 login attempts, the server will start responding with error 400. Invalid usernames will receive error 401 indefinitely. Note: This has been disputed by the vendor as not a vulnerability. They argue that this is an intended design.
@@ -6618,6 +6618,13 @@
 
 - [https://github.com/AlAIAL90/CVE-2020-15744](https://github.com/AlAIAL90/CVE-2020-15744) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-15744.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-15744.svg)
 
+## CVE-2020-15705
+ GRUB2 fails to validate kernel signature when booted directly without shim, allowing secure boot to be bypassed. This only affects systems where the kernel signing certificate has been imported directly into the secure boot database and the GRUB image is booted directly without the use of shim. This issue affects GRUB2 version 2.04 and prior versions.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-15705](https://github.com/AlAIAL90/CVE-2020-15705) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-15705.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-15705.svg)
+
 ## CVE-2020-15589
  A design issue was discovered in GetInternetRequestHandle, InternetSendRequestEx and InternetSendRequestByBitrate in the client side of Zoho ManageEngine Desktop Central 10.0.552.W. By exploiting this issue, an attacker-controlled server can force the client to skip TLS certificate validation, leading to a man-in-the-middle attack against HTTPS and unauthenticated remote code execution.
 
@@ -6924,9 +6931,9 @@
 
 - [https://github.com/hatunaa/CVE-2020-14882](https://github.com/hatunaa/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/hatunaa/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/hatunaa/CVE-2020-14882.svg)
 
-- [https://github.com/BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2020-14882.svg)
-
 - [https://github.com/alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/alexfrancow/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/alexfrancow/CVE-2020-14882.svg)
+
+- [https://github.com/BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2020-14882.svg)
 
 - [https://github.com/pwn3z/CVE-2020-14882-WebLogic](https://github.com/pwn3z/CVE-2020-14882-WebLogic) :  ![starts](https://img.shields.io/github/stars/pwn3z/CVE-2020-14882-WebLogic.svg) ![forks](https://img.shields.io/github/forks/pwn3z/CVE-2020-14882-WebLogic.svg)
 
@@ -6999,6 +7006,8 @@
 
 - [https://github.com/cgwalters/cve-2020-14386](https://github.com/cgwalters/cve-2020-14386) :  ![starts](https://img.shields.io/github/stars/cgwalters/cve-2020-14386.svg) ![forks](https://img.shields.io/github/forks/cgwalters/cve-2020-14386.svg)
 
+- [https://github.com/AlAIAL90/CVE-2020-14386](https://github.com/AlAIAL90/CVE-2020-14386) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-14386.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-14386.svg)
+
 ## CVE-2020-14372
  A flaw was found in grub2 in versions prior to 2.06, where it incorrectly enables the usage of the ACPI command when Secure Boot is enabled. This flaw allows an attacker with privileged access to craft a Secondary System Description Table (SSDT) containing code to overwrite the Linux kernel lockdown variable content directly into memory. The table is further loaded and executed by the kernel, defeating its Secure Boot lockdown and allowing the attacker to load unsigned code. The highest threat from this vulnerability is to data confidentiality and integrity, as well as system availability.
 
@@ -7067,6 +7076,20 @@
 
 
 - [https://github.com/3mrgnc3/Moodle_3.9_RCE_AutoPwn](https://github.com/3mrgnc3/Moodle_3.9_RCE_AutoPwn) :  ![starts](https://img.shields.io/github/stars/3mrgnc3/Moodle_3.9_RCE_AutoPwn.svg) ![forks](https://img.shields.io/github/forks/3mrgnc3/Moodle_3.9_RCE_AutoPwn.svg)
+
+## CVE-2020-14311
+ There is an issue with grub2 before version 2.06 while handling symlink on ext filesystems. A filesystem containing a symbolic link with an inode size of UINT32_MAX causes an arithmetic overflow leading to a zero-sized memory allocation with subsequent heap-based buffer overflow.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-14311](https://github.com/AlAIAL90/CVE-2020-14311) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-14311.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-14311.svg)
+
+## CVE-2020-14308
+ In grub2 versions before 2.06 the grub memory allocator doesn't check for possible arithmetic overflows on the requested allocation size. This leads the function to return invalid memory allocations which can be further used to cause possible integrity, confidentiality and availability impacts during the boot process.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-14308](https://github.com/AlAIAL90/CVE-2020-14308) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-14308.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-14308.svg)
 
 ## CVE-2020-14295
  A SQL injection issue in color.php in Cacti 1.2.12 allows an admin to inject SQL via the filter parameter. This can lead to remote command execution because the product accepts stacked queries.
@@ -9424,6 +9447,8 @@
 
 - [https://github.com/motikan2010/CVE-2020-5398](https://github.com/motikan2010/CVE-2020-5398) :  ![starts](https://img.shields.io/github/stars/motikan2010/CVE-2020-5398.svg) ![forks](https://img.shields.io/github/forks/motikan2010/CVE-2020-5398.svg)
 
+- [https://github.com/AlAIAL90/CVE-2020-5398](https://github.com/AlAIAL90/CVE-2020-5398) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-5398.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-5398.svg)
+
 ## CVE-2020-5272
  In PrestaShop between versions 1.5.5.0 and 1.7.6.5, there is a reflected XSS on Search page with `alias` and `search` parameters. The problem is patched in 1.7.6.5
 
@@ -9800,6 +9825,153 @@
 
 
 - [https://github.com/AlAIAL90/CVE-2020-3379](https://github.com/AlAIAL90/CVE-2020-3379) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3379.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3379.svg)
+
+## CVE-2020-3307
+ A vulnerability in the web UI of Cisco Firepower Management Center (FMC) Software could allow an unauthenticated, remote attacker to write arbitrary entries to the log file on an affected device. The vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to send incorrect information to the system log on the affected system.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3307](https://github.com/AlAIAL90/CVE-2020-3307) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3307.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3307.svg)
+
+## CVE-2020-3304
+ A vulnerability in the web interface of Cisco Adaptive Security Appliance (ASA) Software and Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service (DoS) condition. The vulnerability is due to a lack of proper input validation of HTTP requests. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. An exploit could allow the attacker to cause a DoS condition. Note: This vulnerability applies to IP Version 4 (IPv4) and IP Version 6 (IPv6) HTTP traffic.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3304](https://github.com/AlAIAL90/CVE-2020-3304) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3304.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3304.svg)
+
+## CVE-2020-3283
+ A vulnerability in the Secure Sockets Layer (SSL)/Transport Layer Security (TLS) handler of Cisco Firepower Threat Defense (FTD) Software when running on the Cisco Firepower 1000 Series platform could allow an unauthenticated, remote attacker to trigger a denial of service (DoS) condition on an affected device. The vulnerability is due to a communication error between internal functions. An attacker could exploit this vulnerability by sending a crafted SSL/TLS message to an affected device. A successful exploit could allow the attacker to cause a buffer underrun, which leads to a crash. The crash causes the affected device to reload.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3283](https://github.com/AlAIAL90/CVE-2020-3283) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3283.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3283.svg)
+
+## CVE-2020-3272
+ A vulnerability in the DHCP server of Cisco Prime Network Registrar could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device. The vulnerability is due to insufficient input validation of incoming DHCP traffic. An attacker could exploit this vulnerability by sending a crafted DHCP request to an affected device. A successful exploit could allow the attacker to cause a restart of the DHCP server process, causing a DoS condition.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3272](https://github.com/AlAIAL90/CVE-2020-3272) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3272.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3272.svg)
+
+## CVE-2020-3263
+ A vulnerability in Cisco Webex Meetings Desktop App could allow an unauthenticated, remote attacker to execute programs on an affected end-user system. The vulnerability is due to improper validation of input that is supplied to application URLs. The attacker could exploit this vulnerability by persuading a user to follow a malicious URL. A successful exploit could allow the attacker to cause the application to execute other programs that are already present on the end-user system. If malicious files are planted on the system or on an accessible network file path, the attacker could execute arbitrary code on the affected system.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3263](https://github.com/AlAIAL90/CVE-2020-3263) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3263.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3263.svg)
+
+## CVE-2020-3259
+ A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to retrieve memory contents on an affected device, which could lead to the disclosure of confidential information. The vulnerability is due to a buffer tracking issue when the software parses invalid URLs that are requested from the web services interface. An attacker could exploit this vulnerability by sending a crafted GET request to the web services interface. A successful exploit could allow the attacker to retrieve memory contents, which could lead to the disclosure of confidential information. Note: This vulnerability affects only specific AnyConnect and WebVPN configurations. For more information, see the Vulnerable Products section.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3259](https://github.com/AlAIAL90/CVE-2020-3259) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3259.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3259.svg)
+
+## CVE-2020-3244
+ A vulnerability in the Enhanced Charging Service (ECS) functionality of Cisco ASR 5000 Series Aggregation Services Routers could allow an unauthenticated, remote attacker to bypass the traffic classification rules on an affected device. The vulnerability is due to insufficient input validation of user traffic going through an affected device. An attacker could exploit this vulnerability by sending a malformed HTTP request to an affected device. A successful exploit could allow the attacker to bypass the traffic classification rules and potentially avoid being charged for traffic consumption.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3244](https://github.com/AlAIAL90/CVE-2020-3244) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3244.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3244.svg)
+
+## CVE-2020-3242
+ A vulnerability in the REST API of Cisco UCS Director could allow an authenticated, remote attacker with administrative privileges to obtain confidential information from an affected device. The vulnerability exists because confidential information is returned as part of an API response. An attacker could exploit this vulnerability by sending a crafted request to the API. A successful exploit could allow the attacker to obtain the API key of another user, which would allow the attacker to impersonate the account of that user on the affected device. To exploit this vulnerability, the attacker must have administrative privileges on the device.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3242](https://github.com/AlAIAL90/CVE-2020-3242) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3242.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3242.svg)
+
+## CVE-2020-3238
+ A vulnerability in the Cisco Application Framework component of the Cisco IOx application environment could allow an authenticated, remote attacker to write or modify arbitrary files in the virtual instance that is running on the affected device. The vulnerability is due to insufficient input validation of user-supplied application packages. An attacker who can upload a malicious package within Cisco IOx could exploit the vulnerability to modify arbitrary files. The impacts of a successful exploit are limited to the scope of the virtual instance and do not affect the device that is hosting Cisco IOx.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3238](https://github.com/AlAIAL90/CVE-2020-3238) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3238.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3238.svg)
+
+## CVE-2020-3235
+ A vulnerability in the Simple Network Management Protocol (SNMP) subsystem of Cisco IOS Software and Cisco IOS XE Software on Catalyst 4500 Series Switches could allow an authenticated, remote attacker to cause a denial of service (DoS) condition. The vulnerability is due to insufficient input validation when the software processes specific SNMP object identifiers. An attacker could exploit this vulnerability by sending a crafted SNMP packet to an affected device. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition. Note: To exploit this vulnerability by using SNMPv2c or earlier, the attacker must know the SNMP read-only community string for an affected system. To exploit this vulnerability by using SNMPv3, the attacker must know the user credentials for the affected system.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3235](https://github.com/AlAIAL90/CVE-2020-3235) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3235.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3235.svg)
+
+## CVE-2020-3230
+ A vulnerability in the Internet Key Exchange Version 2 (IKEv2) implementation in Cisco IOS Software and Cisco IOS XE Software could allow an unauthenticated, remote attacker to prevent IKEv2 from establishing new security associations. The vulnerability is due to incorrect handling of crafted IKEv2 SA-Init packets. An attacker could exploit this vulnerability by sending crafted IKEv2 SA-Init packets to the affected device. An exploit could allow the attacker to cause the affected device to reach the maximum incoming negotiation limits and prevent further IKEv2 security associations from being formed.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3230](https://github.com/AlAIAL90/CVE-2020-3230) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3230.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3230.svg)
+
+## CVE-2020-3228
+ A vulnerability in Security Group Tag Exchange Protocol (SXP) in Cisco IOS Software, Cisco IOS XE Software, and Cisco NX-OS Software could allow an unauthenticated, remote attacker to cause the affected device to reload, resulting in a denial of service (DoS) condition. The vulnerability exists because crafted SXP packets are mishandled. An attacker could exploit this vulnerability by sending specifically crafted SXP packets to the affected device. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3228](https://github.com/AlAIAL90/CVE-2020-3228) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3228.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3228.svg)
+
+## CVE-2020-3226
+ A vulnerability in the Session Initiation Protocol (SIP) library of Cisco IOS Software and Cisco IOS XE Software could allow an unauthenticated, remote attacker to trigger a reload of an affected device, resulting in a denial of service (DoS) condition. The vulnerability is due to insufficient sanity checks on received SIP messages. An attacker could exploit this vulnerability by sending crafted SIP messages to an affected device. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a denial of service condition.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3226](https://github.com/AlAIAL90/CVE-2020-3226) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3226.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3226.svg)
+
+## CVE-2020-3225
+ Multiple vulnerabilities in the implementation of the Common Industrial Protocol (CIP) feature of Cisco IOS Software and Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause an affected device to reload, resulting in a denial of service (DoS) condition. The vulnerabilities are due to insufficient input processing of CIP traffic. An attacker could exploit these vulnerabilities by sending crafted CIP traffic to be processed by an affected device. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3225](https://github.com/AlAIAL90/CVE-2020-3225) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3225.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3225.svg)
+
+## CVE-2020-3221
+ A vulnerability in the Flexible NetFlow Version 9 packet processor of Cisco IOS XE Software for Cisco Catalyst 9800 Series Wireless Controllers could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device. The vulnerability is due to improper validation of parameters in a Flexible NetFlow Version 9 record. An attacker could exploit this vulnerability by sending a malformed Flexible NetFlow Version 9 packet to the Control and Provisioning of Wireless Access Points (CAPWAP) data port of an affected device. An exploit could allow the attacker to trigger an infinite loop, resulting in a process crash that would cause a reload of the device.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3221](https://github.com/AlAIAL90/CVE-2020-3221) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3221.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3221.svg)
+
+## CVE-2020-3219
+ A vulnerability in the web UI of Cisco IOS XE Software could allow an authenticated, remote attacker to inject and execute arbitrary commands with administrative privileges on the underlying operating system of an affected device. The vulnerability is due to insufficient validation of user-supplied input to the web UI. An attacker could exploit this vulnerability by submitting crafted input to the web UI. A successful exploit could allow an attacker to execute arbitrary commands with administrative privileges on an affected device.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3219](https://github.com/AlAIAL90/CVE-2020-3219) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3219.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3219.svg)
+
+## CVE-2020-3218
+ A vulnerability in the web UI of Cisco IOS XE Software could allow an authenticated, remote attacker with administrative privileges to execute arbitrary code with root privileges on the underlying Linux shell. The vulnerability is due to improper validation of user-supplied input. An attacker could exploit this vulnerability by first creating a malicious file on the affected device itself and then uploading a second malicious file to the device. A successful exploit could allow the attacker to execute arbitrary code with root privileges or bypass licensing requirements on the device.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3218](https://github.com/AlAIAL90/CVE-2020-3218) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3218.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3218.svg)
+
+## CVE-2020-3217
+ A vulnerability in the Topology Discovery Service of Cisco One Platform Kit (onePK) in Cisco IOS Software, Cisco IOS XE Software, Cisco IOS XR Software, and Cisco NX-OS Software could allow an unauthenticated, adjacent attacker to execute arbitrary code or cause a denial of service (DoS) condition on an affected device. The vulnerability is due to insufficient length restrictions when the onePK Topology Discovery Service parses Cisco Discovery Protocol messages. An attacker could exploit this vulnerability by sending a malicious Cisco Discovery Protocol message to an affected device. An exploit could allow the attacker to cause a stack overflow, which could allow the attacker to execute arbitrary code with administrative privileges, or to cause a process crash, which could result in a reload of the device and cause a DoS condition.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3217](https://github.com/AlAIAL90/CVE-2020-3217) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3217.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3217.svg)
+
+## CVE-2020-3214
+ A vulnerability in Cisco IOS XE Software could allow an authenticated, local attacker to escalate their privileges to a user with root-level privileges. The vulnerability is due to insufficient validation of user-supplied content. This vulnerability could allow an attacker to load malicious software onto an affected device.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3214](https://github.com/AlAIAL90/CVE-2020-3214) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3214.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3214.svg)
+
+## CVE-2020-3206
+ A vulnerability in the handling of IEEE 802.11w Protected Management Frames (PMFs) of Cisco Catalyst 9800 Series Wireless Controllers that are running Cisco IOS XE Software could allow an unauthenticated, adjacent attacker to terminate a valid user connection to an affected device. The vulnerability exists because the affected software does not properly validate 802.11w disassociation and deauthentication PMFs that it receives. An attacker could exploit this vulnerability by sending a spoofed 802.11w PMF from a valid, authenticated client on a network adjacent to an affected device. A successful exploit could allow the attacker to terminate a single valid user connection to the affected device.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3206](https://github.com/AlAIAL90/CVE-2020-3206) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3206.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3206.svg)
+
+## CVE-2020-3204
+ A vulnerability in the Tool Command Language (Tcl) interpreter of Cisco IOS Software and Cisco IOS XE Software could allow an authenticated, local attacker with privileged EXEC credentials to execute arbitrary code on the underlying operating system (OS) with root privileges. The vulnerability is due to insufficient input validation of data passed to the Tcl interpreter. An attacker could exploit this vulnerability by loading malicious Tcl code on an affected device. A successful exploit could allow the attacker to cause memory corruption or execute the code with root privileges on the underlying OS of the affected device.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2020-3204](https://github.com/AlAIAL90/CVE-2020-3204) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2020-3204.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2020-3204.svg)
 
 ## CVE-2020-3187
  A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct directory traversal attacks and obtain read and delete access to sensitive files on a targeted system. The vulnerability is due to a lack of proper input validation of the HTTP URL. An attacker could exploit this vulnerability by sending a crafted HTTP request containing directory traversal character sequences. An exploit could allow the attacker to view or delete arbitrary files on the targeted system. When the device is reloaded after exploitation of this vulnerability, any files that were deleted are restored. The attacker can only view and delete files within the web services file system. This file system is enabled when the affected device is configured with either WebVPN or AnyConnect features. This vulnerability can not be used to obtain access to ASA or FTD system files or underlying operating system (OS) files. Reloading the affected device will restore all files within the web services file system.
@@ -10328,9 +10500,9 @@
 
 - [https://github.com/puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2020-1472.svg)
 
-- [https://github.com/grupooruss/CVE-2020-1472](https://github.com/grupooruss/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/grupooruss/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/grupooruss/CVE-2020-1472.svg)
-
 - [https://github.com/Fa1c0n35/CVE-2020-1472-02-](https://github.com/Fa1c0n35/CVE-2020-1472-02-) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472-02-.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472-02-.svg)
+
+- [https://github.com/grupooruss/CVE-2020-1472](https://github.com/grupooruss/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/grupooruss/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/grupooruss/CVE-2020-1472.svg)
 
 - [https://github.com/johnpathe/zerologon-cve-2020-1472-notes](https://github.com/johnpathe/zerologon-cve-2020-1472-notes) :  ![starts](https://img.shields.io/github/stars/johnpathe/zerologon-cve-2020-1472-notes.svg) ![forks](https://img.shields.io/github/forks/johnpathe/zerologon-cve-2020-1472-notes.svg)
 
@@ -10716,9 +10888,9 @@
 
 - [https://github.com/ran-sama/CVE-2020-0796](https://github.com/ran-sama/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/ran-sama/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/ran-sama/CVE-2020-0796.svg)
 
-- [https://github.com/xax007/CVE-2020-0796-Scanner](https://github.com/xax007/CVE-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/xax007/CVE-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/xax007/CVE-2020-0796-Scanner.svg)
-
 - [https://github.com/kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/kn6869610/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/kn6869610/CVE-2020-0796.svg)
+
+- [https://github.com/xax007/CVE-2020-0796-Scanner](https://github.com/xax007/CVE-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/xax007/CVE-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/xax007/CVE-2020-0796-Scanner.svg)
 
 - [https://github.com/datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/datntsec/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/datntsec/CVE-2020-0796.svg)
 
@@ -10726,11 +10898,11 @@
 
 - [https://github.com/Ken-Abruzzi/cve_2020_0796](https://github.com/Ken-Abruzzi/cve_2020_0796) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve_2020_0796.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve_2020_0796.svg)
 
-- [https://github.com/section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/section-c/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/section-c/CVE-2020-0796.svg)
-
 - [https://github.com/TinToSer/CVE-2020-0796-LPE](https://github.com/TinToSer/CVE-2020-0796-LPE) :  ![starts](https://img.shields.io/github/stars/TinToSer/CVE-2020-0796-LPE.svg) ![forks](https://img.shields.io/github/forks/TinToSer/CVE-2020-0796-LPE.svg)
 
 - [https://github.com/1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/1stPeak/CVE-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/1stPeak/CVE-2020-0796-Scanner.svg)
+
+- [https://github.com/section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/section-c/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/section-c/CVE-2020-0796.svg)
 
 - [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
 
@@ -10953,9 +11125,9 @@
 
 - [https://github.com/nissan-sudo/CVE-2020-0601](https://github.com/nissan-sudo/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/nissan-sudo/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/nissan-sudo/CVE-2020-0601.svg)
 
-- [https://github.com/exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey) :  ![starts](https://img.shields.io/github/stars/exploitblizzard/CVE-2020-0601-spoofkey.svg) ![forks](https://img.shields.io/github/forks/exploitblizzard/CVE-2020-0601-spoofkey.svg)
-
 - [https://github.com/yanghaoi/CVE-2020-0601](https://github.com/yanghaoi/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/yanghaoi/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/yanghaoi/CVE-2020-0601.svg)
+
+- [https://github.com/exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey) :  ![starts](https://img.shields.io/github/stars/exploitblizzard/CVE-2020-0601-spoofkey.svg) ![forks](https://img.shields.io/github/forks/exploitblizzard/CVE-2020-0601-spoofkey.svg)
 
 - [https://github.com/YoannDqr/CVE-2020-0601](https://github.com/YoannDqr/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/YoannDqr/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/YoannDqr/CVE-2020-0601.svg)
 
@@ -11085,10 +11257,6 @@
 - [https://github.com/bluefrostsecurity/CVE-2020-0041](https://github.com/bluefrostsecurity/CVE-2020-0041) :  ![starts](https://img.shields.io/github/stars/bluefrostsecurity/CVE-2020-0041.svg) ![forks](https://img.shields.io/github/forks/bluefrostsecurity/CVE-2020-0041.svg)
 
 - [https://github.com/j4nn/CVE-2020-0041](https://github.com/j4nn/CVE-2020-0041) :  ![starts](https://img.shields.io/github/stars/j4nn/CVE-2020-0041.svg) ![forks](https://img.shields.io/github/forks/j4nn/CVE-2020-0041.svg)
-
-- [https://github.com/minutesinch/CVE-2020-0041](https://github.com/minutesinch/CVE-2020-0041) :  ![starts](https://img.shields.io/github/stars/minutesinch/CVE-2020-0041.svg) ![forks](https://img.shields.io/github/forks/minutesinch/CVE-2020-0041.svg)
-
-- [https://github.com/minutesinch/CVE-2020-0041-Original](https://github.com/minutesinch/CVE-2020-0041-Original) :  ![starts](https://img.shields.io/github/stars/minutesinch/CVE-2020-0041-Original.svg) ![forks](https://img.shields.io/github/forks/minutesinch/CVE-2020-0041-Original.svg)
 
 ## CVE-2020-0022
  In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bounds write due to an incorrect bounds calculation. This could lead to remote code execution over Bluetooth with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-143894715
