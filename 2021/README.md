@@ -42,9 +42,9 @@
 
 - [https://github.com/lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/lockedbyte/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/lockedbyte/CVE-2021-40444.svg)
 
-- [https://github.com/aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders) :  ![starts](https://img.shields.io/github/stars/aslitsecurity/CVE-2021-40444_builders.svg) ![forks](https://img.shields.io/github/forks/aslitsecurity/CVE-2021-40444_builders.svg)
-
 - [https://github.com/klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/klezVirus/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/klezVirus/CVE-2021-40444.svg)
+
+- [https://github.com/aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders) :  ![starts](https://img.shields.io/github/stars/aslitsecurity/CVE-2021-40444_builders.svg) ![forks](https://img.shields.io/github/forks/aslitsecurity/CVE-2021-40444_builders.svg)
 
 - [https://github.com/Udyz/CVE-2021-40444-Sample](https://github.com/Udyz/CVE-2021-40444-Sample) :  ![starts](https://img.shields.io/github/stars/Udyz/CVE-2021-40444-Sample.svg) ![forks](https://img.shields.io/github/forks/Udyz/CVE-2021-40444-Sample.svg)
 
@@ -60,31 +60,31 @@
 
 - [https://github.com/DarkSprings/CVE-2021-40444](https://github.com/DarkSprings/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/DarkSprings/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/DarkSprings/CVE-2021-40444.svg)
 
-- [https://github.com/bambooqj/CVE-2021-40444_EXP_JS](https://github.com/bambooqj/CVE-2021-40444_EXP_JS) :  ![starts](https://img.shields.io/github/stars/bambooqj/CVE-2021-40444_EXP_JS.svg) ![forks](https://img.shields.io/github/forks/bambooqj/CVE-2021-40444_EXP_JS.svg)
-
-- [https://github.com/vysecurity/CVE-2021-40444](https://github.com/vysecurity/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/vysecurity/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/vysecurity/CVE-2021-40444.svg)
-
 - [https://github.com/Udyz/CVE-2021-40444-CAB](https://github.com/Udyz/CVE-2021-40444-CAB) :  ![starts](https://img.shields.io/github/stars/Udyz/CVE-2021-40444-CAB.svg) ![forks](https://img.shields.io/github/forks/Udyz/CVE-2021-40444-CAB.svg)
 
-- [https://github.com/InfoSecPolkCounty/CVE2021-40444-document-Scanner](https://github.com/InfoSecPolkCounty/CVE2021-40444-document-Scanner) :  ![starts](https://img.shields.io/github/stars/InfoSecPolkCounty/CVE2021-40444-document-Scanner.svg) ![forks](https://img.shields.io/github/forks/InfoSecPolkCounty/CVE2021-40444-document-Scanner.svg)
+- [https://github.com/bambooqj/CVE-2021-40444_EXP_JS](https://github.com/bambooqj/CVE-2021-40444_EXP_JS) :  ![starts](https://img.shields.io/github/stars/bambooqj/CVE-2021-40444_EXP_JS.svg) ![forks](https://img.shields.io/github/forks/bambooqj/CVE-2021-40444_EXP_JS.svg)
 
 - [https://github.com/aydianosec/CVE2021-40444](https://github.com/aydianosec/CVE2021-40444) :  ![starts](https://img.shields.io/github/stars/aydianosec/CVE2021-40444.svg) ![forks](https://img.shields.io/github/forks/aydianosec/CVE2021-40444.svg)
 
+- [https://github.com/vysecurity/CVE-2021-40444](https://github.com/vysecurity/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/vysecurity/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/vysecurity/CVE-2021-40444.svg)
+
+- [https://github.com/InfoSecPolkCounty/CVE2021-40444-document-Scanner](https://github.com/InfoSecPolkCounty/CVE2021-40444-document-Scanner) :  ![starts](https://img.shields.io/github/stars/InfoSecPolkCounty/CVE2021-40444-document-Scanner.svg) ![forks](https://img.shields.io/github/forks/InfoSecPolkCounty/CVE2021-40444-document-Scanner.svg)
+
+- [https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor](https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor) :  ![starts](https://img.shields.io/github/stars/gh0stxplt/CVE-2021-40444-URL-Extractor.svg) ![forks](https://img.shields.io/github/forks/gh0stxplt/CVE-2021-40444-URL-Extractor.svg)
+
 - [https://github.com/khoaduynu/CVE-2021-40444](https://github.com/khoaduynu/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/khoaduynu/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/khoaduynu/CVE-2021-40444.svg)
 
-- [https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis](https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis) :  ![starts](https://img.shields.io/github/stars/Immersive-Labs-Sec/cve-2021-40444-analysis.svg) ![forks](https://img.shields.io/github/forks/Immersive-Labs-Sec/cve-2021-40444-analysis.svg)
+- [https://github.com/jamesrep/cve-2021-40444](https://github.com/jamesrep/cve-2021-40444) :  ![starts](https://img.shields.io/github/stars/jamesrep/cve-2021-40444.svg) ![forks](https://img.shields.io/github/forks/jamesrep/cve-2021-40444.svg)
 
 - [https://github.com/js-on/CVE-2021-40444](https://github.com/js-on/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/js-on/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/js-on/CVE-2021-40444.svg)
 
-- [https://github.com/jamesrep/cve-2021-40444](https://github.com/jamesrep/cve-2021-40444) :  ![starts](https://img.shields.io/github/stars/jamesrep/cve-2021-40444.svg) ![forks](https://img.shields.io/github/forks/jamesrep/cve-2021-40444.svg)
+- [https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis](https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis) :  ![starts](https://img.shields.io/github/stars/Immersive-Labs-Sec/cve-2021-40444-analysis.svg) ![forks](https://img.shields.io/github/forks/Immersive-Labs-Sec/cve-2021-40444-analysis.svg)
 
 - [https://github.com/zaneGittins/CVE-2021-40444-evtx](https://github.com/zaneGittins/CVE-2021-40444-evtx) :  ![starts](https://img.shields.io/github/stars/zaneGittins/CVE-2021-40444-evtx.svg) ![forks](https://img.shields.io/github/forks/zaneGittins/CVE-2021-40444-evtx.svg)
 
 - [https://github.com/amartinsec/MSHTMHell](https://github.com/amartinsec/MSHTMHell) :  ![starts](https://img.shields.io/github/stars/amartinsec/MSHTMHell.svg) ![forks](https://img.shields.io/github/forks/amartinsec/MSHTMHell.svg)
 
 - [https://github.com/fengjixuchui/CVE-2021-40444-docx-Generate](https://github.com/fengjixuchui/CVE-2021-40444-docx-Generate) :  ![starts](https://img.shields.io/github/stars/fengjixuchui/CVE-2021-40444-docx-Generate.svg) ![forks](https://img.shields.io/github/forks/fengjixuchui/CVE-2021-40444-docx-Generate.svg)
-
-- [https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor](https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor) :  ![starts](https://img.shields.io/github/stars/gh0stxplt/CVE-2021-40444-URL-Extractor.svg) ![forks](https://img.shields.io/github/forks/gh0stxplt/CVE-2021-40444-URL-Extractor.svg)
 
 - [https://github.com/nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx](https://github.com/nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx) :  ![starts](https://img.shields.io/github/stars/nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx.svg) ![forks](https://img.shields.io/github/forks/nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx.svg)
 
@@ -133,6 +133,8 @@
 - [https://github.com/donky16/CVE-2021-40346-POC](https://github.com/donky16/CVE-2021-40346-POC) :  ![starts](https://img.shields.io/github/stars/donky16/CVE-2021-40346-POC.svg) ![forks](https://img.shields.io/github/forks/donky16/CVE-2021-40346-POC.svg)
 
 - [https://github.com/alikarimi999/CVE-2021-40346](https://github.com/alikarimi999/CVE-2021-40346) :  ![starts](https://img.shields.io/github/stars/alikarimi999/CVE-2021-40346.svg) ![forks](https://img.shields.io/github/forks/alikarimi999/CVE-2021-40346.svg)
+
+- [https://github.com/AlAIAL90/CVE-2021-40346](https://github.com/AlAIAL90/CVE-2021-40346) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-40346.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-40346.svg)
 
 ## CVE-2021-40223
  Rittal CMC PU III Web management (version V3.11.00_2) fails to sanitize user input on several parameters of the configuration (User Configuration dialog, Task Configuration dialog and set logging filter dialog). This allows an attacker to backdoor the device with HTML and browser-interpreted content (such as JavaScript or other client-side scripts). The XSS payload will be triggered when the user accesses some specific sections of the application.
@@ -534,6 +536,34 @@
 
 - [https://github.com/LucaRibeiro/CVE-2021-37589](https://github.com/LucaRibeiro/CVE-2021-37589) :  ![starts](https://img.shields.io/github/stars/LucaRibeiro/CVE-2021-37589.svg) ![forks](https://img.shields.io/github/forks/LucaRibeiro/CVE-2021-37589.svg)
 
+## CVE-2021-37576
+ arch/powerpc/kvm/book3s_rtas.c in the Linux kernel through 5.13.5 on the powerpc platform allows KVM guest OS users to cause host OS memory corruption via rtas_args.nargs, aka CID-f62f3c20647e.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-37576](https://github.com/AlAIAL90/CVE-2021-37576) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-37576.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-37576.svg)
+
+## CVE-2021-37423
+ Zoho ManageEngine ADSelfService Plus 6111 and prior is vulnerable to linked applications takeover.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-37423](https://github.com/AlAIAL90/CVE-2021-37423) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-37423.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-37423.svg)
+
+## CVE-2021-37422
+ Zoho ManageEngine ADSelfService Plus 6111 and prior is vulnerable to SQL Injection while linking the databases.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-37422](https://github.com/AlAIAL90/CVE-2021-37422) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-37422.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-37422.svg)
+
+## CVE-2021-37414
+ Zoho ManageEngine DesktopCentral version 10.1.2119.7 and prior allows anyone to get a valid user's APIKEY without authentication.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-37414](https://github.com/AlAIAL90/CVE-2021-37414) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-37414.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-37414.svg)
+
 ## CVE-2021-37152
  Multiple XSS issues exist in Sonatype Nexus Repository Manager 3 before 3.33.0. An authenticated attacker with the ability to add HTML files to a repository could redirect users to Nexus Repository Manager&#8217;s pages with code modifications.
 
@@ -634,6 +664,20 @@
 
 
 - [https://github.com/AlAIAL90/CVE-2021-36928](https://github.com/AlAIAL90/CVE-2021-36928) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-36928.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-36928.svg)
+
+## CVE-2021-36871
+ Multiple Authenticated Persistent Cross-Site Scripting (XSS) vulnerabilities in WordPress WP Google Maps Pro premium plugin (versions &lt;= 8.1.11). Vulnerable parameters: &amp;wpgmaps_marker_category_name, Value &gt; &amp;attributes[], Name &gt; &amp;attributes[], &amp;icons[], &amp;names[], &amp;description, &amp;link, &amp;title.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-36871](https://github.com/AlAIAL90/CVE-2021-36871) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-36871.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-36871.svg)
+
+## CVE-2021-36870
+ Multiple Authenticated Persistent Cross-Site Scripting (XSS) vulnerabilities in WordPress WP Google Maps plugin (versions &lt;= 8.1.12). Vulnerable parameters: &amp;dataset_name, &amp;wpgmza_gdpr_retention_purpose, &amp;wpgmza_gdpr_company_name, &amp;name #2, &amp;name, &amp;polyname #2, &amp;polyname, &amp;address.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-36870](https://github.com/AlAIAL90/CVE-2021-36870) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-36870.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-36870.svg)
 
 ## CVE-2021-36799
  KNX ETS5 uses the hard-coded password ETS5Password, with a salt value of Ivan Medvedev.
@@ -865,9 +909,9 @@
 
 - [https://github.com/officedrone/CVE-2021-34527-workaround](https://github.com/officedrone/CVE-2021-34527-workaround) :  ![starts](https://img.shields.io/github/stars/officedrone/CVE-2021-34527-workaround.svg) ![forks](https://img.shields.io/github/forks/officedrone/CVE-2021-34527-workaround.svg)
 
-- [https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527](https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/powershellpr0mpt/PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/powershellpr0mpt/PrintNightmare-CVE-2021-34527.svg)
-
 - [https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation](https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation) :  ![starts](https://img.shields.io/github/stars/WidespreadPandemic/CVE-2021-34527_ACL_mitigation.svg) ![forks](https://img.shields.io/github/forks/WidespreadPandemic/CVE-2021-34527_ACL_mitigation.svg)
+
+- [https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527](https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/powershellpr0mpt/PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/powershellpr0mpt/PrintNightmare-CVE-2021-34527.svg)
 
 - [https://github.com/Eutectico/Printnightmare](https://github.com/Eutectico/Printnightmare) :  ![starts](https://img.shields.io/github/stars/Eutectico/Printnightmare.svg) ![forks](https://img.shields.io/github/forks/Eutectico/Printnightmare.svg)
 
@@ -919,9 +963,9 @@
 
 - [https://github.com/phamphuqui1998/CVE-2021-34473](https://github.com/phamphuqui1998/CVE-2021-34473) :  ![starts](https://img.shields.io/github/stars/phamphuqui1998/CVE-2021-34473.svg) ![forks](https://img.shields.io/github/forks/phamphuqui1998/CVE-2021-34473.svg)
 
-- [https://github.com/RaouzRouik/CVE-2021-34473-scanner](https://github.com/RaouzRouik/CVE-2021-34473-scanner) :  ![starts](https://img.shields.io/github/stars/RaouzRouik/CVE-2021-34473-scanner.svg) ![forks](https://img.shields.io/github/forks/RaouzRouik/CVE-2021-34473-scanner.svg)
-
 - [https://github.com/horizon3ai/proxyshell](https://github.com/horizon3ai/proxyshell) :  ![starts](https://img.shields.io/github/stars/horizon3ai/proxyshell.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/proxyshell.svg)
+
+- [https://github.com/RaouzRouik/CVE-2021-34473-scanner](https://github.com/RaouzRouik/CVE-2021-34473-scanner) :  ![starts](https://img.shields.io/github/stars/RaouzRouik/CVE-2021-34473-scanner.svg) ![forks](https://img.shields.io/github/forks/RaouzRouik/CVE-2021-34473-scanner.svg)
 
 ## CVE-2021-34470
  Microsoft Exchange Server Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-33768, CVE-2021-34523.
@@ -972,6 +1016,8 @@
 - [https://github.com/bbinfosec43/CVE-2021-33909](https://github.com/bbinfosec43/CVE-2021-33909) :  ![starts](https://img.shields.io/github/stars/bbinfosec43/CVE-2021-33909.svg) ![forks](https://img.shields.io/github/forks/bbinfosec43/CVE-2021-33909.svg)
 
 - [https://github.com/ikramimamoglu/AmIAHuman-CVE-2021-33909](https://github.com/ikramimamoglu/AmIAHuman-CVE-2021-33909) :  ![starts](https://img.shields.io/github/stars/ikramimamoglu/AmIAHuman-CVE-2021-33909.svg) ![forks](https://img.shields.io/github/forks/ikramimamoglu/AmIAHuman-CVE-2021-33909.svg)
+
+- [https://github.com/AlAIAL90/CVE-2021-33909](https://github.com/AlAIAL90/CVE-2021-33909) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33909.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33909.svg)
 
 ## CVE-2021-33879
  Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP connection. A malicious attacker in an MITM position could spoof the contents of an XML document describing an update package, replacing a download URL with one pointing to an arbitrary Windows executable. Because the only integrity check would be a comparison of the downloaded file's MD5 checksum to the one contained within the XML document, the downloaded executable would then be executed on the victim's machine.
@@ -1085,6 +1131,13 @@
 
 
 - [https://github.com/AlAIAL90/CVE-2021-33348](https://github.com/AlAIAL90/CVE-2021-33348) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33348.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33348.svg)
+
+## CVE-2021-33193
+ A crafted method sent through HTTP/2 will bypass validation and be forwarded by mod_proxy, which can lead to request splitting or cache poisoning. This issue affects Apache HTTP Server 2.4.17 to 2.4.48.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-33193](https://github.com/AlAIAL90/CVE-2021-33193) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-33193.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-33193.svg)
 
 ## CVE-2021-33034
  In the Linux kernel before 5.12.4, net/bluetooth/hci_event.c has a use-after-free when destroying an hci_chan, aka CID-5c4c8c954409. This leads to writing an arbitrary value.
@@ -1268,6 +1321,13 @@
 
 - [https://github.com/ssst0n3/CVE-2021-31856](https://github.com/ssst0n3/CVE-2021-31856) :  ![starts](https://img.shields.io/github/stars/ssst0n3/CVE-2021-31856.svg) ![forks](https://img.shields.io/github/forks/ssst0n3/CVE-2021-31856.svg)
 
+## CVE-2021-31810
+ An issue was discovered in Ruby through 2.6.7, 2.7.x through 2.7.3, and 3.x through 3.0.1. A malicious FTP server can use the PASV response to trick Net::FTP into connecting back to a given IP address and port. This potentially makes curl extract information about services that are otherwise private and not disclosed (e.g., the attacker can conduct port scans and service banner extractions).
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-31810](https://github.com/AlAIAL90/CVE-2021-31810) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-31810.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-31810.svg)
+
 ## CVE-2021-31799
  In RDoc 3.11 through 6.x before 6.3.1, as distributed with Ruby through 3.0.1, it is possible to execute arbitrary code via | and tags in a filename.
 
@@ -1315,6 +1375,13 @@
 
 
 - [https://github.com/irql0/CVE-2021-31728](https://github.com/irql0/CVE-2021-31728) :  ![starts](https://img.shields.io/github/stars/irql0/CVE-2021-31728.svg) ![forks](https://img.shields.io/github/forks/irql0/CVE-2021-31728.svg)
+
+## CVE-2021-31721
+ Chevereto before 3.17.1 allows Cross Site Scripting (XSS) via an image title at the image upload stage.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-31721](https://github.com/AlAIAL90/CVE-2021-31721) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-31721.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-31721.svg)
 
 ## CVE-2021-31703
  Frontier ichris through 5.18 allows users to upload malicious executable files that might later be downloaded and run by any client user.
@@ -1420,12 +1487,236 @@
 
 - [https://github.com/ricardojoserf/CVE-2021-31159](https://github.com/ricardojoserf/CVE-2021-31159) :  ![starts](https://img.shields.io/github/stars/ricardojoserf/CVE-2021-31159.svg) ![forks](https://img.shields.io/github/forks/ricardojoserf/CVE-2021-31159.svg)
 
+## CVE-2021-30860
+ An integer overflow was addressed with improved input validation. This issue is fixed in Security Update 2021-005 Catalina, iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6, watchOS 7.6.2. Processing a maliciously crafted PDF may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30860](https://github.com/AlAIAL90/CVE-2021-30860) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30860.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30860.svg)
+
 ## CVE-2021-30858
  A use after free issue was addressed with improved memory management. This issue is fixed in iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
 
 
 
 - [https://github.com/AlAIAL90/CVE-2021-30858](https://github.com/AlAIAL90/CVE-2021-30858) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30858.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30858.svg)
+
+## CVE-2021-30781
+ This issue was addressed with improved checks. This issue is fixed in iOS 14.7, macOS Big Sur 11.5, watchOS 7.6, tvOS 14.7, Security Update 2021-005 Mojave, Security Update 2021-004 Catalina. A local attacker may be able to cause unexpected application termination or arbitrary code execution.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30781](https://github.com/AlAIAL90/CVE-2021-30781) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30781.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30781.svg)
+
+## CVE-2021-30780
+ An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 14.7, macOS Big Sur 11.5, watchOS 7.6, tvOS 14.7, Security Update 2021-005 Mojave, Security Update 2021-004 Catalina. A malicious application may be able to gain root privileges.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30780](https://github.com/AlAIAL90/CVE-2021-30780) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30780.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30780.svg)
+
+## CVE-2021-30779
+ This issue was addressed with improved checks. This issue is fixed in iOS 14.7, macOS Big Sur 11.5, watchOS 7.6, tvOS 14.7. Processing a maliciously crafted image may lead to arbitrary code execution.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30779](https://github.com/AlAIAL90/CVE-2021-30779) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30779.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30779.svg)
+
+## CVE-2021-30777
+ An injection issue was addressed with improved validation. This issue is fixed in macOS Big Sur 11.5, Security Update 2021-004 Catalina, Security Update 2021-005 Mojave. A malicious application may be able to gain root privileges.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30777](https://github.com/AlAIAL90/CVE-2021-30777) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30777.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30777.svg)
+
+## CVE-2021-30776
+ A logic issue was addressed with improved validation. This issue is fixed in iOS 14.7, macOS Big Sur 11.5, watchOS 7.6, tvOS 14.7, Security Update 2021-004 Catalina. Playing a malicious audio file may lead to an unexpected application termination.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30776](https://github.com/AlAIAL90/CVE-2021-30776) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30776.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30776.svg)
+
+## CVE-2021-30773
+ An issue in code signature validation was addressed with improved checks. This issue is fixed in iOS 14.7, tvOS 14.7, watchOS 7.6. A malicious application may be able to bypass code signing checks.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30773](https://github.com/AlAIAL90/CVE-2021-30773) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30773.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30773.svg)
+
+## CVE-2021-30768
+ A logic issue was addressed with improved validation. This issue is fixed in iOS 14.7, macOS Big Sur 11.5, watchOS 7.6, tvOS 14.7, Security Update 2021-004 Catalina. A sandboxed process may be able to circumvent sandbox restrictions.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30768](https://github.com/AlAIAL90/CVE-2021-30768) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30768.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30768.svg)
+
+## CVE-2021-30705
+ This issue was addressed with improved checks. This issue is fixed in tvOS 14.6, Security Update 2021-004 Mojave, iOS 14.6 and iPadOS 14.6, Security Update 2021-003 Catalina, macOS Big Sur 11.4, watchOS 7.5. Processing a maliciously crafted ASTC file may disclose memory contents.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30705](https://github.com/AlAIAL90/CVE-2021-30705) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30705.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30705.svg)
+
+## CVE-2021-30704
+ A logic issue was addressed with improved state management. This issue is fixed in tvOS 14.6, Security Update 2021-004 Mojave, iOS 14.6 and iPadOS 14.6, Security Update 2021-003 Catalina, macOS Big Sur 11.4, watchOS 7.5. An application may be able to execute arbitrary code with kernel privileges.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30704](https://github.com/AlAIAL90/CVE-2021-30704) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30704.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30704.svg)
+
+## CVE-2021-30703
+ A double free issue was addressed with improved memory management. This issue is fixed in tvOS 14.6, iOS 14.6 and iPadOS 14.6, Security Update 2021-004 Catalina, Security Update 2021-005 Mojave, macOS Big Sur 11.4, watchOS 7.5. An application may be able to execute arbitrary code with kernel privileges.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30703](https://github.com/AlAIAL90/CVE-2021-30703) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30703.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30703.svg)
+
+## CVE-2021-30701
+ This issue was addressed with improved checks. This issue is fixed in tvOS 14.6, iOS 14.6 and iPadOS 14.6, Security Update 2021-003 Catalina, macOS Big Sur 11.4, watchOS 7.5. Processing a maliciously crafted image may lead to arbitrary code execution.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30701](https://github.com/AlAIAL90/CVE-2021-30701) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30701.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30701.svg)
+
+## CVE-2021-30700
+ This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.4, tvOS 14.6, watchOS 7.5, iOS 14.6 and iPadOS 14.6. Processing a maliciously crafted image may lead to disclosure of user information.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30700](https://github.com/AlAIAL90/CVE-2021-30700) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30700.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30700.svg)
+
+## CVE-2021-30699
+ A window management issue was addressed with improved state management. This issue is fixed in iOS 14.6 and iPadOS 14.6. A user may be able to view restricted content from the lockscreen.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30699](https://github.com/AlAIAL90/CVE-2021-30699) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30699.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30699.svg)
+
+## CVE-2021-30698
+ A null pointer dereference was addressed with improved input validation. This issue is fixed in macOS Big Sur 11.4, Safari 14.1.1, iOS 14.6 and iPadOS 14.6. A remote attacker may be able to cause a denial of service.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30698](https://github.com/AlAIAL90/CVE-2021-30698) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30698.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30698.svg)
+
+## CVE-2021-30697
+ A logic issue was addressed with improved state management. This issue is fixed in tvOS 14.6, Security Update 2021-004 Mojave, iOS 14.6 and iPadOS 14.6, Security Update 2021-003 Catalina, macOS Big Sur 11.4, watchOS 7.5. A local user may be able to leak sensitive user information.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30697](https://github.com/AlAIAL90/CVE-2021-30697) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30697.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30697.svg)
+
+## CVE-2021-30696
+ An attacker in a privileged network position may be able to misrepresent application state. This issue is fixed in macOS Big Sur 11.4, Security Update 2021-003 Catalina, Security Update 2021-004 Mojave. A logic issue was addressed with improved state management.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30696](https://github.com/AlAIAL90/CVE-2021-30696) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30696.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30696.svg)
+
+## CVE-2021-30695
+ An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in macOS Big Sur 11.4, Security Update 2021-003 Catalina, Security Update 2021-004 Mojave, iOS 14.6 and iPadOS 14.6. Processing a maliciously crafted USD file may disclose memory contents.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30695](https://github.com/AlAIAL90/CVE-2021-30695) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30695.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30695.svg)
+
+## CVE-2021-30694
+ An information disclosure issue was addressed with improved state management. This issue is fixed in macOS Big Sur 11.4, Security Update 2021-003 Catalina, Security Update 2021-004 Mojave, iOS 14.6 and iPadOS 14.6. Processing a maliciously crafted USD file may disclose memory contents.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30694](https://github.com/AlAIAL90/CVE-2021-30694) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30694.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30694.svg)
+
+## CVE-2021-30693
+ A validation issue was addressed with improved logic. This issue is fixed in macOS Big Sur 11.4, Security Update 2021-003 Catalina, Security Update 2021-004 Mojave, iOS 14.6 and iPadOS 14.6. Processing a maliciously crafted image may lead to arbitrary code execution.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30693](https://github.com/AlAIAL90/CVE-2021-30693) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30693.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30693.svg)
+
+## CVE-2021-30692
+ An information disclosure issue was addressed with improved state management. This issue is fixed in macOS Big Sur 11.4, Security Update 2021-003 Catalina, Security Update 2021-004 Mojave, iOS 14.6 and iPadOS 14.6. Processing a maliciously crafted USD file may disclose memory contents.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30692](https://github.com/AlAIAL90/CVE-2021-30692) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30692.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30692.svg)
+
+## CVE-2021-30691
+ An information disclosure issue was addressed with improved state management. This issue is fixed in macOS Big Sur 11.4, Security Update 2021-003 Catalina, Security Update 2021-004 Mojave, iOS 14.6 and iPadOS 14.6. Processing a maliciously crafted USD file may disclose memory contents.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30691](https://github.com/AlAIAL90/CVE-2021-30691) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30691.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30691.svg)
+
+## CVE-2021-30690
+ Multiple issues in apache were addressed by updating apache to version 2.4.46. This issue is fixed in Security Update 2021-004 Mojave. Multiple issues in apache.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30690](https://github.com/AlAIAL90/CVE-2021-30690) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30690.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30690.svg)
+
+## CVE-2021-30689
+ A logic issue was addressed with improved state management. This issue is fixed in tvOS 14.6, iOS 14.6 and iPadOS 14.6, Safari 14.1.1, macOS Big Sur 11.4, watchOS 7.5. Processing maliciously crafted web content may lead to universal cross site scripting.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30689](https://github.com/AlAIAL90/CVE-2021-30689) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30689.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30689.svg)
+
+## CVE-2021-30688
+ A malicious application may be able to break out of its sandbox. This issue is fixed in macOS Big Sur 11.4, Security Update 2021-003 Catalina. A path handling issue was addressed with improved validation.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30688](https://github.com/AlAIAL90/CVE-2021-30688) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30688.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30688.svg)
+
+## CVE-2021-30687
+ An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in tvOS 14.6, Security Update 2021-004 Mojave, iOS 14.6 and iPadOS 14.6, Security Update 2021-003 Catalina, macOS Big Sur 11.4, watchOS 7.5. Processing a maliciously crafted image may lead to disclosure of user information.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30687](https://github.com/AlAIAL90/CVE-2021-30687) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30687.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30687.svg)
+
+## CVE-2021-30686
+ An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in tvOS 14.6, iOS 14.6 and iPadOS 14.6, Security Update 2021-003 Catalina, macOS Big Sur 11.4, watchOS 7.5. Processing a maliciously crafted audio file may disclose restricted memory.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30686](https://github.com/AlAIAL90/CVE-2021-30686) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30686.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30686.svg)
+
+## CVE-2021-30684
+ A logic issue was addressed with improved state management. This issue is fixed in macOS Big Sur 11.4, Security Update 2021-003 Catalina. A remote attacker may cause an unexpected application termination or arbitrary code execution.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30684](https://github.com/AlAIAL90/CVE-2021-30684) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30684.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30684.svg)
+
+## CVE-2021-30682
+ A logic issue was addressed with improved restrictions. This issue is fixed in tvOS 14.6, iOS 14.6 and iPadOS 14.6, Safari 14.1.1, macOS Big Sur 11.4, watchOS 7.5. A malicious application may be able to leak sensitive user information.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30682](https://github.com/AlAIAL90/CVE-2021-30682) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30682.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30682.svg)
+
+## CVE-2021-30671
+ A validation issue was addressed with improved logic. This issue is fixed in macOS Big Sur 11.4, Security Update 2021-003 Catalina. A malicious application may be able to send unauthorized Apple events to Finder.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30671](https://github.com/AlAIAL90/CVE-2021-30671) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30671.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30671.svg)
+
+## CVE-2021-30654
+ This issue was addressed by removing additional entitlements. This issue is fixed in GarageBand 10.4.3. A local attacker may be able to read sensitive information.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30654](https://github.com/AlAIAL90/CVE-2021-30654) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30654.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30654.svg)
+
+## CVE-2021-30653
+ This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.3, iOS 14.5 and iPadOS 14.5, watchOS 7.4, tvOS 14.5. Processing a maliciously crafted image may lead to arbitrary code execution.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30653](https://github.com/AlAIAL90/CVE-2021-30653) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30653.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30653.svg)
 
 ## CVE-2021-30641
  Apache HTTP Server versions 2.4.39 to 2.4.46 Unexpected matching behavior with 'MergeSlashes OFF'
@@ -1447,6 +1738,13 @@
 
 
 - [https://github.com/floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481) :  ![starts](https://img.shields.io/github/stars/floesen/CVE-2021-30481.svg) ![forks](https://img.shields.io/github/forks/floesen/CVE-2021-30481.svg)
+
+## CVE-2021-30468
+ A vulnerability in the JsonMapObjectReaderWriter of Apache CXF allows an attacker to submit malformed JSON to a web service, which results in the thread getting stuck in an infinite loop, consuming CPU indefinitely. This issue affects Apache CXF versions prior to 3.4.4; Apache CXF versions prior to 3.3.11.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-30468](https://github.com/AlAIAL90/CVE-2021-30468) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30468.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30468.svg)
 
 ## CVE-2021-30461
  A remote code execution issue was discovered in the web UI of VoIPmonitor before 24.61. When the recheck option is used, the user-supplied SPOOLDIR value (which might contain PHP code) is injected into config/configuration.php.
@@ -1729,6 +2027,13 @@
 
 - [https://github.com/AlAIAL90/CVE-2021-28902](https://github.com/AlAIAL90/CVE-2021-28902) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28902.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28902.svg)
 
+## CVE-2021-28701
+ Another race in XENMAPSPACE_grant_table handling Guests are permitted access to certain Xen-owned pages of memory. The majority of such pages remain allocated / associated with a guest for its entire lifetime. Grant table v2 status pages, however, are de-allocated when a guest switches (back) from v2 to v1. Freeing such pages requires that the hypervisor enforce that no parallel request can result in the addition of a mapping of such a page to a guest. That enforcement was missing, allowing guests to retain access to pages that were freed and perhaps re-used for other purposes. Unfortunately, when XSA-379 was being prepared, this similar issue was not noticed.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-28701](https://github.com/AlAIAL90/CVE-2021-28701) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-28701.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-28701.svg)
+
 ## CVE-2021-28700
  xen/arm: No memory limit for dom0less domUs The dom0less feature allows an administrator to create multiple unprivileged domains directly from Xen. Unfortunately, the memory limit from them is not set. This allow a domain to allocate memory beyond what an administrator originally configured.
 
@@ -1954,9 +2259,9 @@
 
 
 
-- [https://github.com/mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965) :  ![starts](https://img.shields.io/github/stars/mathisvickie/CVE-2021-27965.svg) ![forks](https://img.shields.io/github/forks/mathisvickie/CVE-2021-27965.svg)
-
 - [https://github.com/Crystalware/CVE-2021-27965](https://github.com/Crystalware/CVE-2021-27965) :  ![starts](https://img.shields.io/github/stars/Crystalware/CVE-2021-27965.svg) ![forks](https://img.shields.io/github/forks/Crystalware/CVE-2021-27965.svg)
+
+- [https://github.com/mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965) :  ![starts](https://img.shields.io/github/stars/mathisvickie/CVE-2021-27965.svg) ![forks](https://img.shields.io/github/forks/mathisvickie/CVE-2021-27965.svg)
 
 ## CVE-2021-27964
  SonLogger before 6.4.1 is affected by Unauthenticated Arbitrary File Upload. An attacker can send a POST request to /Config/SaveUploadedHotspotLogoFile without any authentication or session header. There is no check for the file extension or content of the uploaded file.
@@ -2536,6 +2841,8 @@
 
 - [https://github.com/p1gz/CVE-2021-26084-Confluence-OGNL](https://github.com/p1gz/CVE-2021-26084-Confluence-OGNL) :  ![starts](https://img.shields.io/github/stars/p1gz/CVE-2021-26084-Confluence-OGNL.svg) ![forks](https://img.shields.io/github/forks/p1gz/CVE-2021-26084-Confluence-OGNL.svg)
 
+- [https://github.com/toowoxx/docker-confluence-patched](https://github.com/toowoxx/docker-confluence-patched) :  ![starts](https://img.shields.io/github/stars/toowoxx/docker-confluence-patched.svg) ![forks](https://img.shields.io/github/forks/toowoxx/docker-confluence-patched.svg)
+
 - [https://github.com/Xc1Ym/cve_2021_26084](https://github.com/Xc1Ym/cve_2021_26084) :  ![starts](https://img.shields.io/github/stars/Xc1Ym/cve_2021_26084.svg) ![forks](https://img.shields.io/github/forks/Xc1Ym/cve_2021_26084.svg)
 
 - [https://github.com/dock0d1/CVE-2021-26084_Confluence](https://github.com/dock0d1/CVE-2021-26084_Confluence) :  ![starts](https://img.shields.io/github/stars/dock0d1/CVE-2021-26084_Confluence.svg) ![forks](https://img.shields.io/github/forks/dock0d1/CVE-2021-26084_Confluence.svg)
@@ -2557,8 +2864,6 @@
 - [https://github.com/Osyanina/westone-CVE-2021-26084-scanner](https://github.com/Osyanina/westone-CVE-2021-26084-scanner) :  ![starts](https://img.shields.io/github/stars/Osyanina/westone-CVE-2021-26084-scanner.svg) ![forks](https://img.shields.io/github/forks/Osyanina/westone-CVE-2021-26084-scanner.svg)
 
 - [https://github.com/bcdannyboy/CVE-2021-26084_GoPOC](https://github.com/bcdannyboy/CVE-2021-26084_GoPOC) :  ![starts](https://img.shields.io/github/stars/bcdannyboy/CVE-2021-26084_GoPOC.svg) ![forks](https://img.shields.io/github/forks/bcdannyboy/CVE-2021-26084_GoPOC.svg)
-
-- [https://github.com/toowoxx/docker-confluence-patched](https://github.com/toowoxx/docker-confluence-patched) :  ![starts](https://img.shields.io/github/stars/toowoxx/docker-confluence-patched.svg) ![forks](https://img.shields.io/github/forks/toowoxx/docker-confluence-patched.svg)
 
 ## CVE-2021-25791
  Multiple stored cross site scripting (XSS) vulnerabilities in the &quot;Update Profile&quot; module of Online Doctor Appointment System 1.0 allows authenticated attackers to execute arbitrary web scripts or HTML via crafted payloads in the First Name, Last Name, and Address text fields.
@@ -2811,6 +3116,13 @@
 - [https://github.com/adminwaf/CVE-2021-229861](https://github.com/adminwaf/CVE-2021-229861) :  ![starts](https://img.shields.io/github/stars/adminwaf/CVE-2021-229861.svg) ![forks](https://img.shields.io/github/forks/adminwaf/CVE-2021-229861.svg)
 
 - [https://github.com/Osyanina/westone-CVE-2021-22986-scanner](https://github.com/Osyanina/westone-CVE-2021-22986-scanner) :  ![starts](https://img.shields.io/github/stars/Osyanina/westone-CVE-2021-22986-scanner.svg) ![forks](https://img.shields.io/github/forks/Osyanina/westone-CVE-2021-22986-scanner.svg)
+
+## CVE-2021-22939
+ If the Node.js https API was used incorrectly and &quot;undefined&quot; was in passed for the &quot;rejectUnauthorized&quot; parameter, no error was returned and connections to servers with an expired certificate would have been accepted.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-22939](https://github.com/AlAIAL90/CVE-2021-22939) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-22939.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-22939.svg)
 
 ## CVE-2021-22926
  libcurl-using applications can ask for a specific client certificate to be used in a transfer. This is done with the `CURLOPT_SSLCERT` option (`--cert` with the command line tool).When libcurl is built to use the macOS native TLS library Secure Transport, an application can ask for the client certificate by name or with a file name - using the same option. If the name exists as a file, it will be used instead of by name.If the appliction runs with a current working directory that is writable by other users (like `/tmp`), a malicious user can create a file name with the same name as the app wants to use by name, and thereby trick the application to use the file based cert instead of the one referred to by name making libcurl send the wrong client certificate in the TLS connection handshake.
@@ -3656,6 +3968,24 @@
 
 - [https://github.com/Jarry1sec/CVE-2021-20202](https://github.com/Jarry1sec/CVE-2021-20202) :  ![starts](https://img.shields.io/github/stars/Jarry1sec/CVE-2021-20202.svg) ![forks](https://img.shields.io/github/forks/Jarry1sec/CVE-2021-20202.svg)
 
+## CVE-2021-20118
+ Nessus Agent 8.3.0 and earlier was found to contain a local privilege escalation vulnerability which could allow an authenticated, local administrator to run specific executables on the Nessus Agent host. This is different than CVE-2021-20117.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20118](https://github.com/AlAIAL90/CVE-2021-20118) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20118.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20118.svg)
+
+- [https://github.com/AlAIAL90/CVE-2021-20117](https://github.com/AlAIAL90/CVE-2021-20117) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20117.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20117.svg)
+
+## CVE-2021-20117
+ Nessus Agent 8.3.0 and earlier was found to contain a local privilege escalation vulnerability which could allow an authenticated, local administrator to run specific executables on the Nessus Agent host. This is different than CVE-2021-20118.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-20117](https://github.com/AlAIAL90/CVE-2021-20117) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20117.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20117.svg)
+
+- [https://github.com/AlAIAL90/CVE-2021-20118](https://github.com/AlAIAL90/CVE-2021-20118) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-20118.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-20118.svg)
+
 ## CVE-2021-3708
  D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to OS command injection. An unauthenticated attacker on the local network may exploit this, with CVE-2021-3707, to execute any OS commands on the vulnerable device.
 
@@ -3947,11 +4277,11 @@
 
 - [https://github.com/Kleptocratic/CVE-2021-3156](https://github.com/Kleptocratic/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Kleptocratic/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Kleptocratic/CVE-2021-3156.svg)
 
+- [https://github.com/Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Y3A/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Y3A/CVE-2021-3156.svg)
+
 - [https://github.com/oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/oneoy/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/oneoy/CVE-2021-3156.svg)
 
 - [https://github.com/password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/password520/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/password520/CVE-2021-3156.svg)
-
-- [https://github.com/Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Y3A/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Y3A/CVE-2021-3156.svg)
 
 - [https://github.com/capturingcats/CVE-2021-3156](https://github.com/capturingcats/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/capturingcats/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/capturingcats/CVE-2021-3156.svg)
 
@@ -4202,6 +4532,27 @@
 
 - [https://github.com/TAKIANFIF/CVE-2021-1905-CVE-2021-1906-CVE-2021-28663-CVE-2021-28664](https://github.com/TAKIANFIF/CVE-2021-1905-CVE-2021-1906-CVE-2021-28663-CVE-2021-28664) :  ![starts](https://img.shields.io/github/stars/TAKIANFIF/CVE-2021-1905-CVE-2021-1906-CVE-2021-28663-CVE-2021-28664.svg) ![forks](https://img.shields.io/github/forks/TAKIANFIF/CVE-2021-1905-CVE-2021-1906-CVE-2021-28663-CVE-2021-28664.svg)
 
+## CVE-2021-1885
+ An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in macOS Big Sur 11.3, iOS 14.5 and iPadOS 14.5, watchOS 7.4, tvOS 14.5. Processing a maliciously crafted image may lead to arbitrary code execution.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-1885](https://github.com/AlAIAL90/CVE-2021-1885) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-1885.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-1885.svg)
+
+## CVE-2021-1881
+ An out-of-bounds read was addressed with improved input validation. This issue is fixed in Security Update 2021-002 Catalina, Security Update 2021-003 Mojave, iOS 14.5 and iPadOS 14.5, watchOS 7.4, tvOS 14.5, macOS Big Sur 11.3. Processing a maliciously crafted font file may lead to arbitrary code execution.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-1881](https://github.com/AlAIAL90/CVE-2021-1881) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-1881.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-1881.svg)
+
+## CVE-2021-1858
+ Processing a maliciously crafted image may lead to arbitrary code execution. This issue is fixed in Security Update 2021-002 Catalina, iOS 14.5 and iPadOS 14.5, watchOS 7.4, tvOS 14.5, macOS Big Sur 11.3. An out-of-bounds write issue was addressed with improved bounds checking.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2021-1858](https://github.com/AlAIAL90/CVE-2021-1858) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-1858.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-1858.svg)
+
 ## CVE-2021-1833
  This issue was addressed with improved checks. This issue is fixed in iOS 14.5 and iPadOS 14.5. An application may be able to gain elevated privileges.
 
@@ -4327,6 +4678,8 @@
 
 - [https://github.com/kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675) :  ![starts](https://img.shields.io/github/stars/kondah/patch-cve-2021-1675.svg) ![forks](https://img.shields.io/github/forks/kondah/patch-cve-2021-1675.svg)
 
+- [https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675](https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/exploitblizzard/PrintNightmare-CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/exploitblizzard/PrintNightmare-CVE-2021-1675.svg)
+
 - [https://github.com/ozergoker/PrintNightmare](https://github.com/ozergoker/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/ozergoker/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/ozergoker/PrintNightmare.svg)
 
 - [https://github.com/ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/ly4k/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/ly4k/PrintNightmare.svg)
@@ -4342,8 +4695,6 @@
 - [https://github.com/bartimus-primed/CVE-2021-1675-Yara](https://github.com/bartimus-primed/CVE-2021-1675-Yara) :  ![starts](https://img.shields.io/github/stars/bartimus-primed/CVE-2021-1675-Yara.svg) ![forks](https://img.shields.io/github/forks/bartimus-primed/CVE-2021-1675-Yara.svg)
 
 - [https://github.com/thomasgeens/CVE-2021-1675](https://github.com/thomasgeens/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/thomasgeens/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/thomasgeens/CVE-2021-1675.svg)
-
-- [https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675](https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/exploitblizzard/PrintNightmare-CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/exploitblizzard/PrintNightmare-CVE-2021-1675.svg)
 
 - [https://github.com/puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-1675.svg)
 
