@@ -131,12 +131,21 @@
 
 - [https://github.com/aforakjackson/cve2010-2333](https://github.com/aforakjackson/cve2010-2333) :  ![starts](https://img.shields.io/github/stars/aforakjackson/cve2010-2333.svg) ![forks](https://img.shields.io/github/forks/aforakjackson/cve2010-2333.svg)
 
+## CVE-2010-2078
+ DataTrack System 3.5 allows remote attackers to list the root directory via a (1) /%u0085/ or (2) /%u00A0/ URI.
+
+
+
+- [https://github.com/0bfxgh0st/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit](https://github.com/0bfxgh0st/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit) :  ![starts](https://img.shields.io/github/stars/0bfxgh0st/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit.svg) ![forks](https://img.shields.io/github/forks/0bfxgh0st/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit.svg)
+
 ## CVE-2010-2075
  UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 through June 2010, contains an externally introduced modification (Trojan Horse) in the DEBUG3_DOLOG_SYSTEM macro, which allows remote attackers to execute arbitrary commands.
 
 
 
 - [https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE) :  ![starts](https://img.shields.io/github/stars/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg) ![forks](https://img.shields.io/github/forks/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg)
+
+- [https://github.com/0bfxgh0st/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit](https://github.com/0bfxgh0st/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit) :  ![starts](https://img.shields.io/github/stars/0bfxgh0st/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit.svg) ![forks](https://img.shields.io/github/forks/0bfxgh0st/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit.svg)
 
 ## CVE-2010-1411
  Multiple integer overflows in the Fax3SetupState function in tif_fax3.c in the FAX3 decoder in LibTIFF before 3.9.3, as used in ImageIO in Apple Mac OS X 10.5.8 and Mac OS X 10.6 before 10.6.4, allow remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted TIFF file that triggers a heap-based buffer overflow.
