@@ -25892,6 +25892,13 @@
 
 - [https://github.com/theglife214/CVE-2015-5195](https://github.com/theglife214/CVE-2015-5195) :  ![starts](https://img.shields.io/github/stars/theglife214/CVE-2015-5195.svg) ![forks](https://img.shields.io/github/forks/theglife214/CVE-2015-5195.svg)
 
+## CVE-2015-5122
+ Use-after-free vulnerability in the DisplayObject class in the ActionScript 3 (AS3) implementation in Adobe Flash Player 13.x through 13.0.0.302 on Windows and OS X, 14.x through 18.0.0.203 on Windows and OS X, 11.x through 11.2.202.481 on Linux, and 12.x through 18.0.0.204 on Linux Chrome installations allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted Flash content that leverages improper handling of the opaqueBackground property, as exploited in the wild in July 2015.
+
+
+
+- [https://github.com/Xattam1/Adobe-Flash-Exploits_17-18](https://github.com/Xattam1/Adobe-Flash-Exploits_17-18) :  ![starts](https://img.shields.io/github/stars/Xattam1/Adobe-Flash-Exploits_17-18.svg) ![forks](https://img.shields.io/github/forks/Xattam1/Adobe-Flash-Exploits_17-18.svg)
+
 ## CVE-2015-5119
  Use-after-free vulnerability in the ByteArray class in the ActionScript 3 (AS3) implementation in Adobe Flash Player 13.x through 13.0.0.296 and 14.x through 18.0.0.194 on Windows and OS X and 11.x through 11.2.202.468 on Linux allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted Flash content that overrides a valueOf function, as exploited in the wild in July 2015.
 
@@ -25902,6 +25909,8 @@
 - [https://github.com/jvazquez-r7/CVE-2015-5119](https://github.com/jvazquez-r7/CVE-2015-5119) :  ![starts](https://img.shields.io/github/stars/jvazquez-r7/CVE-2015-5119.svg) ![forks](https://img.shields.io/github/forks/jvazquez-r7/CVE-2015-5119.svg)
 
 - [https://github.com/dangokyo/CVE-2015-5119](https://github.com/dangokyo/CVE-2015-5119) :  ![starts](https://img.shields.io/github/stars/dangokyo/CVE-2015-5119.svg) ![forks](https://img.shields.io/github/forks/dangokyo/CVE-2015-5119.svg)
+
+- [https://github.com/Xattam1/Adobe-Flash-Exploits_17-18](https://github.com/Xattam1/Adobe-Flash-Exploits_17-18) :  ![starts](https://img.shields.io/github/stars/Xattam1/Adobe-Flash-Exploits_17-18.svg) ![forks](https://img.shields.io/github/forks/Xattam1/Adobe-Flash-Exploits_17-18.svg)
 
 ## CVE-2015-4870
  Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Parser.
@@ -26064,6 +26073,20 @@
 
 
 - [https://github.com/duo-labs/mysslstrip](https://github.com/duo-labs/mysslstrip) :  ![starts](https://img.shields.io/github/stars/duo-labs/mysslstrip.svg) ![forks](https://img.shields.io/github/forks/duo-labs/mysslstrip.svg)
+
+## CVE-2015-3105
+ Adobe Flash Player before 13.0.0.292 and 14.x through 18.x before 18.0.0.160 on Windows and OS X and before 11.2.202.466 on Linux, Adobe AIR before 18.0.0.144 on Windows and before 18.0.0.143 on OS X and Android, Adobe AIR SDK before 18.0.0.144 on Windows and before 18.0.0.143 on OS X, and Adobe AIR SDK &amp; Compiler before 18.0.0.144 on Windows and before 18.0.0.143 on OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors.
+
+
+
+- [https://github.com/Xattam1/Adobe-Flash-Exploits_17-18](https://github.com/Xattam1/Adobe-Flash-Exploits_17-18) :  ![starts](https://img.shields.io/github/stars/Xattam1/Adobe-Flash-Exploits_17-18.svg) ![forks](https://img.shields.io/github/forks/Xattam1/Adobe-Flash-Exploits_17-18.svg)
+
+## CVE-2015-3090
+ Adobe Flash Player before 13.0.0.289 and 14.x through 17.x before 17.0.0.188 on Windows and OS X and before 11.2.202.460 on Linux, Adobe AIR before 17.0.0.172, Adobe AIR SDK before 17.0.0.172, and Adobe AIR SDK &amp; Compiler before 17.0.0.172 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2015-3078, CVE-2015-3089, and CVE-2015-3093.
+
+
+
+- [https://github.com/Xattam1/Adobe-Flash-Exploits_17-18](https://github.com/Xattam1/Adobe-Flash-Exploits_17-18) :  ![starts](https://img.shields.io/github/stars/Xattam1/Adobe-Flash-Exploits_17-18.svg) ![forks](https://img.shields.io/github/forks/Xattam1/Adobe-Flash-Exploits_17-18.svg)
 
 ## CVE-2015-3073
  Adobe Reader and Acrobat 10.x before 10.1.14 and 11.x before 11.0.11 on Windows and OS X allow attackers to bypass intended restrictions on JavaScript API execution via unspecified vectors, a different vulnerability than CVE-2015-3060, CVE-2015-3061, CVE-2015-3062, CVE-2015-3063, CVE-2015-3064, CVE-2015-3065, CVE-2015-3066, CVE-2015-3067, CVE-2015-3068, CVE-2015-3069, CVE-2015-3071, CVE-2015-3072, and CVE-2015-3074.
