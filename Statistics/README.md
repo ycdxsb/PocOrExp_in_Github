@@ -23,7 +23,7 @@
 
 
 ## TOP 10 Popular Authors
-zhzyker: stars: 4701
+zhzyker: stars: 4704
 - [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
 
 - [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
@@ -43,10 +43,10 @@ zhzyker: stars: 4701
 speed47: stars: 3457
 - [https://github.com/speed47/spectre-meltdown-checker](https://github.com/speed47/spectre-meltdown-checker) :  ![starts](https://img.shields.io/github/stars/speed47/spectre-meltdown-checker.svg) ![forks](https://img.shields.io/github/forks/speed47/spectre-meltdown-checker.svg)
 
-liamg: stars: 3408
+liamg: stars: 3407
 - [https://github.com/liamg/traitor](https://github.com/liamg/traitor) :  ![starts](https://img.shields.io/github/stars/liamg/traitor.svg) ![forks](https://img.shields.io/github/forks/liamg/traitor.svg)
 
-jas502n: stars: 3387
+jas502n: stars: 3389
 - [https://github.com/jas502n/CVE-2020-5902](https://github.com/jas502n/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-5902.svg)
 
 - [https://github.com/jas502n/CVE-2019-13272](https://github.com/jas502n/CVE-2019-13272) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-13272.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-13272.svg)
@@ -81,9 +81,9 @@ jas502n: stars: 3387
 
 - [https://github.com/jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-2551.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-2551.svg)
 
-- [https://github.com/jas502n/jackson-CVE-2020-8840](https://github.com/jas502n/jackson-CVE-2020-8840) :  ![starts](https://img.shields.io/github/stars/jas502n/jackson-CVE-2020-8840.svg) ![forks](https://img.shields.io/github/forks/jas502n/jackson-CVE-2020-8840.svg)
-
 - [https://github.com/jas502n/CVE-2020-8193](https://github.com/jas502n/CVE-2020-8193) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-8193.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-8193.svg)
+
+- [https://github.com/jas502n/jackson-CVE-2020-8840](https://github.com/jas502n/jackson-CVE-2020-8840) :  ![starts](https://img.shields.io/github/stars/jas502n/jackson-CVE-2020-8840.svg) ![forks](https://img.shields.io/github/forks/jas502n/jackson-CVE-2020-8840.svg)
 
 - [https://github.com/jas502n/CVE-2019-16278](https://github.com/jas502n/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-16278.svg)
 
@@ -160,7 +160,7 @@ FiloSottile: stars: 2431
 
 - [https://github.com/FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107) :  ![starts](https://img.shields.io/github/stars/FiloSottile/CVE-2016-2107.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/CVE-2016-2107.svg)
 
-0vercl0k: stars: 2008
+0vercl0k: stars: 2007
 - [https://github.com/0vercl0k/CVE-2021-31166](https://github.com/0vercl0k/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2021-31166.svg)
 
 - [https://github.com/0vercl0k/CVE-2019-11708](https://github.com/0vercl0k/CVE-2019-11708) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2019-11708.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2019-11708.svg)
@@ -191,7 +191,7 @@ Ridter: stars: 1678
 neex: stars: 1677
 - [https://github.com/neex/phuip-fpizdam](https://github.com/neex/phuip-fpizdam) :  ![starts](https://img.shields.io/github/stars/neex/phuip-fpizdam.svg) ![forks](https://img.shields.io/github/forks/neex/phuip-fpizdam.svg)
 
-cube0x0: stars: 1627
+cube0x0: stars: 1630
 - [https://github.com/cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2021-1675.svg)
 
 - [https://github.com/cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2021-36934.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2021-36934.svg)
