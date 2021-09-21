@@ -363,6 +363,13 @@
 
 - [https://github.com/steponequit/CVE-2013-1081](https://github.com/steponequit/CVE-2013-1081) :  ![starts](https://img.shields.io/github/stars/steponequit/CVE-2013-1081.svg) ![forks](https://img.shields.io/github/forks/steponequit/CVE-2013-1081.svg)
 
+## CVE-2013-0340
+ expat 2.1.0 and earlier does not properly handle entities expansion unless an application developer uses the XML_SetEntityDeclHandler function, which allows remote attackers to cause a denial of service (resource consumption), send HTTP requests to intranet servers, or read arbitrary files via a crafted XML document, aka an XML External Entity (XXE) issue.  NOTE: it could be argued that because expat already provides the ability to disable external entity expansion, the responsibility for resolving this issue lies with application developers; according to this argument, this entry should be REJECTed, and each affected application would need its own CVE.
+
+
+
+- [https://github.com/AlAIAL90/CVE-2013-0340](https://github.com/AlAIAL90/CVE-2013-0340) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2013-0340.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2013-0340.svg)
+
 ## CVE-2013-0333
  lib/active_support/json/backends/yaml.rb in Ruby on Rails 2.3.x before 2.3.16 and 3.0.x before 3.0.20 does not properly convert JSON data to YAML data for processing by a YAML parser, which allows remote attackers to execute arbitrary code, conduct SQL injection attacks, or bypass authentication via crafted data that triggers unsafe decoding, a different vulnerability than CVE-2013-0156.
 
