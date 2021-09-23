@@ -1,55 +1,74 @@
-# Update 2021-09-22
+# Update 2021-09-23
 ## CVE-2021-38647
  Open Management Infrastructure Remote Code Execution Vulnerability
 
-- [https://github.com/marcosimioni/omigood](https://github.com/marcosimioni/omigood) :  ![starts](https://img.shields.io/github/stars/marcosimioni/omigood.svg) ![forks](https://img.shields.io/github/forks/marcosimioni/omigood.svg)
-- [https://github.com/craig-m-unsw/omigod-lab](https://github.com/craig-m-unsw/omigod-lab) :  ![starts](https://img.shields.io/github/stars/craig-m-unsw/omigod-lab.svg) ![forks](https://img.shields.io/github/forks/craig-m-unsw/omigod-lab.svg)
+- [https://github.com/AlteredSecurity/CVE-2021-38647](https://github.com/AlteredSecurity/CVE-2021-38647) :  ![starts](https://img.shields.io/github/stars/AlteredSecurity/CVE-2021-38647.svg) ![forks](https://img.shields.io/github/forks/AlteredSecurity/CVE-2021-38647.svg)
+- [https://github.com/corelight/CVE-2021-38647](https://github.com/corelight/CVE-2021-38647) :  ![starts](https://img.shields.io/github/stars/corelight/CVE-2021-38647.svg) ![forks](https://img.shields.io/github/forks/corelight/CVE-2021-38647.svg)
+- [https://github.com/m1thryn/CVE-2021-38647](https://github.com/m1thryn/CVE-2021-38647) :  ![starts](https://img.shields.io/github/stars/m1thryn/CVE-2021-38647.svg) ![forks](https://img.shields.io/github/forks/m1thryn/CVE-2021-38647.svg)
 
 
-## CVE-2021-30632
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2021-30783
+ An access issue was addressed with improved access restrictions. This issue is fixed in macOS Big Sur 11.5, Security Update 2021-004 Catalina, Security Update 2021-005 Mojave. A sandboxed process may be able to circumvent sandbox restrictions.
 
-- [https://github.com/Phuong39/PoC-CVE-2021-30632](https://github.com/Phuong39/PoC-CVE-2021-30632) :  ![starts](https://img.shields.io/github/stars/Phuong39/PoC-CVE-2021-30632.svg) ![forks](https://img.shields.io/github/forks/Phuong39/PoC-CVE-2021-30632.svg)
-
-
-## CVE-2021-3156
- Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
-
-- [https://github.com/JureGrinffin/CVE-2021-3156](https://github.com/JureGrinffin/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/JureGrinffin/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/JureGrinffin/CVE-2021-3156.svg)
+- [https://github.com/AlAIAL90/CVE-2021-30783](https://github.com/AlAIAL90/CVE-2021-30783) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30783.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30783.svg)
 
 
-## CVE-2021-2119
- Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is Prior to 6.1.18. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle VM VirtualBox accessible data. CVSS 3.1 Base Score 6.0 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N).
+## CVE-2021-30713
+ A permissions issue was addressed with improved validation. This issue is fixed in macOS Big Sur 11.4. A malicious application may be able to bypass Privacy preferences. Apple is aware of a report that this issue may have been actively exploited..
 
-- [https://github.com/Sauercloud/RWCTF21-VirtualBox-61-escape](https://github.com/Sauercloud/RWCTF21-VirtualBox-61-escape) :  ![starts](https://img.shields.io/github/stars/Sauercloud/RWCTF21-VirtualBox-61-escape.svg) ![forks](https://img.shields.io/github/forks/Sauercloud/RWCTF21-VirtualBox-61-escape.svg)
-
-
-## CVE-2019-17495
- A Cascading Style Sheets (CSS) injection vulnerability in Swagger UI before 3.23.11 allows attackers to use the Relative Path Overwrite (RPO) technique to perform CSS-based input field value exfiltration, such as exfiltration of a CSRF token value. In other words, this product intentionally allows the embedding of untrusted JSON data from remote servers, but it was not previously known that &lt;style&gt;@import within the JSON data was a functional attack method.
-
-- [https://github.com/AlAIAL90/CVE-2019-17495](https://github.com/AlAIAL90/CVE-2019-17495) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2019-17495.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2019-17495.svg)
+- [https://github.com/AlAIAL90/CVE-2021-30713](https://github.com/AlAIAL90/CVE-2021-30713) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-30713.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-30713.svg)
 
 
-## CVE-2019-6340
- Some field types do not properly sanitize data from non-form sources in Drupal 8.5.x before 8.5.11 and Drupal 8.6.x before 8.6.10. This can lead to arbitrary PHP code execution in some cases. A site is only affected by this if one of the following conditions is met: The site has the Drupal 8 core RESTful Web Services (rest) module enabled and allows PATCH or POST requests, or the site has another web services module enabled, like JSON:API in Drupal 8, or Services or RESTful Web Services in Drupal 7. (Note: The Drupal 7 Services module itself does not require an update at this time, but you should apply other contributed updates associated with this advisory if Services is in use.)
+## CVE-2021-26084
+ In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
 
-- [https://github.com/Apasys/Nephael-CVE-2019-6340](https://github.com/Apasys/Nephael-CVE-2019-6340) :  ![starts](https://img.shields.io/github/stars/Apasys/Nephael-CVE-2019-6340.svg) ![forks](https://img.shields.io/github/forks/Apasys/Nephael-CVE-2019-6340.svg)
-
-
-## CVE-2018-6242
- Some NVIDIA Tegra mobile processors released prior to 2016 contain a buffer overflow vulnerability in BootROM Recovery Mode (RCM). An attacker with physical access to the device's USB and the ability to force the device to reboot into RCM could exploit the vulnerability to execute unverified code.
-
-- [https://github.com/Apasys/Nephael-Nintendo-CVE-2018-6242](https://github.com/Apasys/Nephael-Nintendo-CVE-2018-6242) :  ![starts](https://img.shields.io/github/stars/Apasys/Nephael-Nintendo-CVE-2018-6242.svg) ![forks](https://img.shields.io/github/forks/Apasys/Nephael-Nintendo-CVE-2018-6242.svg)
+- [https://github.com/Sma11New/PocList](https://github.com/Sma11New/PocList) :  ![starts](https://img.shields.io/github/stars/Sma11New/PocList.svg) ![forks](https://img.shields.io/github/forks/Sma11New/PocList.svg)
 
 
-## CVE-2014-3566
- The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other products, uses nondeterministic CBC padding, which makes it easier for man-in-the-middle attackers to obtain cleartext data via a padding-oracle attack, aka the &quot;POODLE&quot; issue.
+## CVE-2021-22925
+ curl supports the `-t` command line option, known as `CURLOPT_TELNETOPTIONS`in libcurl. This rarely used option is used to send variable=content pairs toTELNET servers.Due to flaw in the option parser for sending `NEW_ENV` variables, libcurlcould be made to pass on uninitialized data from a stack based buffer to theserver. Therefore potentially revealing sensitive internal information to theserver using a clear-text network protocol.This could happen because curl did not call and use sscanf() correctly whenparsing the string provided by the application.
 
-- [https://github.com/cloudpassage/mangy-beast](https://github.com/cloudpassage/mangy-beast) :  ![starts](https://img.shields.io/github/stars/cloudpassage/mangy-beast.svg) ![forks](https://img.shields.io/github/forks/cloudpassage/mangy-beast.svg)
+- [https://github.com/AlAIAL90/CVE-2021-22925](https://github.com/AlAIAL90/CVE-2021-22925) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2021-22925.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2021-22925.svg)
 
 
-## CVE-2013-0340
- expat 2.1.0 and earlier does not properly handle entities expansion unless an application developer uses the XML_SetEntityDeclHandler function, which allows remote attackers to cause a denial of service (resource consumption), send HTTP requests to intranet servers, or read arbitrary files via a crafted XML document, aka an XML External Entity (XXE) issue.  NOTE: it could be argued that because expat already provides the ability to disable external entity expansion, the responsibility for resolving this issue lies with application developers; according to this argument, this entry should be REJECTed, and each affected application would need its own CVE.
+## CVE-2020-6286
+ The insufficient input path validation of certain parameter in the web service of SAP NetWeaver AS JAVA (LM Configuration Wizard), versions - 7.30, 7.31, 7.40, 7.50, allows an unauthenticated attacker to exploit a method to download zip files to a specific directory, leading to Path Traversal.
 
-- [https://github.com/AlAIAL90/CVE-2013-0340](https://github.com/AlAIAL90/CVE-2013-0340) :  ![starts](https://img.shields.io/github/stars/AlAIAL90/CVE-2013-0340.svg) ![forks](https://img.shields.io/github/forks/AlAIAL90/CVE-2013-0340.svg)
+- [https://github.com/chipik/SAP_RECON](https://github.com/chipik/SAP_RECON) :  ![starts](https://img.shields.io/github/stars/chipik/SAP_RECON.svg) ![forks](https://img.shields.io/github/forks/chipik/SAP_RECON.svg)
+
+
+## CVE-2020-0796
+ A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.
+
+- [https://github.com/Apasys/Nephael-CVE-2020-0796](https://github.com/Apasys/Nephael-CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/Apasys/Nephael-CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/Apasys/Nephael-CVE-2020-0796.svg)
+
+
+## CVE-2019-17543
+ LZ4 before 1.9.2 has a heap-based buffer overflow in LZ4_write32 (related to LZ4_compress_destSize), affecting applications that call LZ4_compress_fast with a large input. (This issue can also lead to data corruption.) NOTE: the vendor states &quot;only a few specific / uncommon usages of the API are at risk.&quot;
+
+- [https://github.com/madhans23/lz4-1.8.3_CVE-2019-17543_WithPatch](https://github.com/madhans23/lz4-1.8.3_CVE-2019-17543_WithPatch) :  ![starts](https://img.shields.io/github/stars/madhans23/lz4-1.8.3_CVE-2019-17543_WithPatch.svg) ![forks](https://img.shields.io/github/forks/madhans23/lz4-1.8.3_CVE-2019-17543_WithPatch.svg)
+
+
+## CVE-2019-12725
+ Zeroshell 3.9.0 is prone to a remote command execution vulnerability. Specifically, this issue occurs because the web application mishandles a few HTTP parameters. An unauthenticated attacker can exploit this issue by injecting OS commands inside the vulnerable parameters.
+
+- [https://github.com/Sma11New/PocList](https://github.com/Sma11New/PocList) :  ![starts](https://img.shields.io/github/stars/Sma11New/PocList.svg) ![forks](https://img.shields.io/github/forks/Sma11New/PocList.svg)
+
+
+## CVE-2018-16763
+ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter or the preview/ data parameter. This can lead to Pre-Auth Remote Code Execution.
+
+- [https://github.com/NeKroFR/CVE-2018-16763](https://github.com/NeKroFR/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/NeKroFR/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/NeKroFR/CVE-2018-16763.svg)
+
+
+## CVE-2018-11631
+ Rondaful M1 Wristband Smart Band 1 devices allow remote attackers to send an arbitrary number of call or SMS notifications via crafted Bluetooth Low Energy (BLE) traffic.
+
+- [https://github.com/xMagass/bandexploit](https://github.com/xMagass/bandexploit) :  ![starts](https://img.shields.io/github/stars/xMagass/bandexploit.svg) ![forks](https://img.shields.io/github/forks/xMagass/bandexploit.svg)
+
+
+## CVE-2018-6574
+ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10rc2 allow &quot;go get&quot; remote command execution during source code build, by leveraging the gcc or clang plugin feature, because -fplugin= and -plugin= arguments were not blocked.
+
+- [https://github.com/RyouYoo/CVE-2018-6574](https://github.com/RyouYoo/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/RyouYoo/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/RyouYoo/CVE-2018-6574.svg)
 
