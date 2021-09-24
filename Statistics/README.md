@@ -12,9 +12,9 @@
 
 - [https://github.com/neex/phuip-fpizdam](https://github.com/neex/phuip-fpizdam) :  ![starts](https://img.shields.io/github/stars/neex/phuip-fpizdam.svg) ![forks](https://img.shields.io/github/forks/neex/phuip-fpizdam.svg)
 
-- [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
-
 - [https://github.com/fofapro/vulfocus](https://github.com/fofapro/vulfocus) :  ![starts](https://img.shields.io/github/stars/fofapro/vulfocus.svg) ![forks](https://img.shields.io/github/forks/fofapro/vulfocus.svg)
+
+- [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
 
 - [https://github.com/cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2021-1675.svg)
 
@@ -23,7 +23,7 @@
 
 
 ## TOP 10 Popular Authors
-zhzyker: stars: 4715
+zhzyker: stars: 4719
 - [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
 
 - [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
@@ -40,13 +40,13 @@ zhzyker: stars: 4715
 
 - [https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP](https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP) :  ![starts](https://img.shields.io/github/stars/zhzyker/CVE-2018-7600-Drupal-POC-EXP.svg) ![forks](https://img.shields.io/github/forks/zhzyker/CVE-2018-7600-Drupal-POC-EXP.svg)
 
-speed47: stars: 3456
+speed47: stars: 3458
 - [https://github.com/speed47/spectre-meltdown-checker](https://github.com/speed47/spectre-meltdown-checker) :  ![starts](https://img.shields.io/github/stars/speed47/spectre-meltdown-checker.svg) ![forks](https://img.shields.io/github/forks/speed47/spectre-meltdown-checker.svg)
 
-liamg: stars: 3407
+liamg: stars: 3409
 - [https://github.com/liamg/traitor](https://github.com/liamg/traitor) :  ![starts](https://img.shields.io/github/stars/liamg/traitor.svg) ![forks](https://img.shields.io/github/forks/liamg/traitor.svg)
 
-jas502n: stars: 3389
+jas502n: stars: 3390
 - [https://github.com/jas502n/CVE-2020-5902](https://github.com/jas502n/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-5902.svg)
 
 - [https://github.com/jas502n/CVE-2019-13272](https://github.com/jas502n/CVE-2019-13272) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-13272.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-13272.svg)
@@ -155,7 +155,7 @@ jas502n: stars: 3389
 
 - [https://github.com/jas502n/CVE-2016-5195](https://github.com/jas502n/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2016-5195.svg)
 
-FiloSottile: stars: 2431
+FiloSottile: stars: 2430
 - [https://github.com/FiloSottile/Heartbleed](https://github.com/FiloSottile/Heartbleed) :  ![starts](https://img.shields.io/github/stars/FiloSottile/Heartbleed.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/Heartbleed.svg)
 
 - [https://github.com/FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107) :  ![starts](https://img.shields.io/github/stars/FiloSottile/CVE-2016-2107.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/CVE-2016-2107.svg)
@@ -173,7 +173,7 @@ FiloSottile: stars: 2431
 
 - [https://github.com/0vercl0k/CVE-2021-32537](https://github.com/0vercl0k/CVE-2021-32537) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2021-32537.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2021-32537.svg)
 
-Ridter: stars: 1680
+Ridter: stars: 1681
 - [https://github.com/Ridter/CVE-2017-11882](https://github.com/Ridter/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/Ridter/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/Ridter/CVE-2017-11882.svg)
 
 - [https://github.com/Ridter/Exchange2domain](https://github.com/Ridter/Exchange2domain) :  ![starts](https://img.shields.io/github/stars/Ridter/Exchange2domain.svg) ![forks](https://img.shields.io/github/forks/Ridter/Exchange2domain.svg)
@@ -188,15 +188,15 @@ Ridter: stars: 1680
 
 - [https://github.com/Ridter/CVE-2019-1040-dcpwn](https://github.com/Ridter/CVE-2019-1040-dcpwn) :  ![starts](https://img.shields.io/github/stars/Ridter/CVE-2019-1040-dcpwn.svg) ![forks](https://img.shields.io/github/forks/Ridter/CVE-2019-1040-dcpwn.svg)
 
-neex: stars: 1676
+neex: stars: 1677
 - [https://github.com/neex/phuip-fpizdam](https://github.com/neex/phuip-fpizdam) :  ![starts](https://img.shields.io/github/stars/neex/phuip-fpizdam.svg) ![forks](https://img.shields.io/github/forks/neex/phuip-fpizdam.svg)
 
-cube0x0: stars: 1634
+cube0x0: stars: 1636
 - [https://github.com/cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2021-1675.svg)
 
 - [https://github.com/cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2021-36934.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2021-36934.svg)
 
 - [https://github.com/cube0x0/CVE-2020-1472](https://github.com/cube0x0/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2020-1472.svg)
 
-Ascotbe: stars: 1488
-- [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+fofapro: stars: 1490
+- [https://github.com/fofapro/vulfocus](https://github.com/fofapro/vulfocus) :  ![starts](https://img.shields.io/github/stars/fofapro/vulfocus.svg) ![forks](https://img.shields.io/github/forks/fofapro/vulfocus.svg)
