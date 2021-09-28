@@ -120,7 +120,12 @@ async def get_PocOrExp_in_github(CVE_ID,Other_ID = None,token=None):
     PocOrExps = []
     for item in items:
         URL = item['html_url']
-        if(URL in blacklist):
+        flag = False
+        for burl in blacklist:
+            if URL.startswith(burl):
+                flag = True
+                break
+        if flag:
             continue
         STARS_NUM = item['stargazers_count']
         FORKS_NUM = item['forks_count']
