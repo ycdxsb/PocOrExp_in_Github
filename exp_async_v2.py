@@ -21,7 +21,11 @@ def download_cve_xml(filename):
     base_url = "https://cve.mitre.org/data/downloads/"
     url = base_url + filename
     logger.info(url)
-    xml_content = requests.get(url, stream=True)
+    try:
+        xml_content = requests.get(url, timeout = 600,stream=True)
+    except Exception as e:
+        logger.error("get cve xml file error!")
+        exit(-1)
     with open(os.path.join(DOWNLOAD_DIR, filename), 'wb') as f:
         for chunk in xml_content:
             f.write(chunk)
@@ -121,7 +125,12 @@ async def get_PocOrExp_in_github(CVE_ID,Other_ID = None,token=None):
     PocOrExps = []
     for item in items:
         URL = item['html_url']
-        if URL in blacklist:
+        flag = False
+        for burl in blacklist:
+            if URL.startswith(burl):
+                flag = True
+                break
+        if flag:
             continue
         STARS_NUM = item['stargazers_count']
         FORKS_NUM = item['forks_count']
@@ -234,7 +243,7 @@ def process_cve_all(init = True):
         process_cve_year(year,init)
 
 def init():
-    logger.add('PocOrExps.log',format="{time} {level} {message}",rotation="10 MB")
+    logger.add('PocOrExps.log',format="{time} {level} {message}",rotation="1000 MB")
     if(not os.path.exists(DOWNLOAD_DIR)):
         os.mkdir(DOWNLOAD_DIR)
     for year in range(1999, datetime.datetime.now().year+1):
