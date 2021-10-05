@@ -25430,6 +25430,13 @@
 
 
 ## 2013
+## CVE-2013-7423
+ The send_dg function in resolv/res_send.c in GNU C Library (aka glibc or libc6) before 2.20 does not properly reuse file descriptors, which allows remote attackers to send DNS queries to unintended locations via a large number of requests that trigger a call to the getaddrinfo function.
+
+
+
+- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2013-7423](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2013-7423) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2013-7423.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2013-7423.svg)
+
 ## CVE-2013-6668
  Multiple unspecified vulnerabilities in Google V8 before 3.24.35.10, as used in Google Chrome before 33.0.1750.146, allow attackers to cause a denial of service or possibly have other impact via unknown vectors.
 
@@ -25456,6 +25463,13 @@
 - [https://github.com/jeboo/bypasslkm](https://github.com/jeboo/bypasslkm) :  ![starts](https://img.shields.io/github/stars/jeboo/bypasslkm.svg) ![forks](https://img.shields.io/github/forks/jeboo/bypasslkm.svg)
 
 - [https://github.com/fi01/libget_user_exploit](https://github.com/fi01/libget_user_exploit) :  ![starts](https://img.shields.io/github/stars/fi01/libget_user_exploit.svg) ![forks](https://img.shields.io/github/forks/fi01/libget_user_exploit.svg)
+
+## CVE-2013-6276
+ ** UNSUPPORTED WHEN ASSIGNED ** QNAP F_VioCard 2312 and F_VioGate 2308 have hardcoded entries in authorized_keys files. NOTE: 1. All active models are not affected. The last affected model was EOL since 2010. 2. The legacy authorization mechanism is no longer adopted in all active models.
+
+
+
+- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2013-6276](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2013-6276) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2013-6276.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2013-6276.svg)
 
 ## CVE-2013-6117
  Dahua DVR 2.608.0000.0 and 2.608.GV00.0 allows remote attackers to bypass authentication and obtain sensitive information including user credentials, change user passwords, clear log files, and perform other actions via a request to TCP port 37777.
@@ -25624,6 +25638,13 @@
 
 - [https://github.com/yjaaidi/exploits](https://github.com/yjaaidi/exploits) :  ![starts](https://img.shields.io/github/stars/yjaaidi/exploits.svg) ![forks](https://img.shields.io/github/forks/yjaaidi/exploits.svg)
 
+## CVE-2013-2763
+ ** DISPUTED ** The Schneider Electric M340 PLC modules allow remote attackers to cause a denial of service (resource consumption) via unspecified vectors.  NOTE: the vendor reportedly disputes this issue because it &quot;could not be duplicated&quot; and &quot;an attacker could not remotely exploit this observed behavior to deny PLC control functions.&quot;
+
+
+
+- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2013-2763](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2013-2763) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2013-2763.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2013-2763.svg)
+
 ## CVE-2013-2730
  Buffer overflow in Adobe Reader and Acrobat 9.x before 9.5.5, 10.x before 10.1.7, and 11.x before 11.0.03 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2013-2733.
 
@@ -25725,6 +25746,13 @@
 
 - [https://github.com/cinno/CVE-2013-1965](https://github.com/cinno/CVE-2013-1965) :  ![starts](https://img.shields.io/github/stars/cinno/CVE-2013-1965.svg) ![forks](https://img.shields.io/github/forks/cinno/CVE-2013-1965.svg)
 
+## CVE-2013-1914
+ Stack-based buffer overflow in the getaddrinfo function in sysdeps/posix/getaddrinfo.c in GNU C Library (aka glibc or libc6) 2.17 and earlier allows remote attackers to cause a denial of service (crash) via a (1) hostname or (2) IP address that triggers a large number of domain conversion results.
+
+
+
+- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2013-1914](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2013-1914) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2013-1914.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2013-1914.svg)
+
 ## CVE-2013-1775
  sudo 1.6.0 through 1.7.10p6 and sudo 1.8.0 through 1.8.6p6 allows local users or physically proximate attackers to bypass intended time restrictions and retain privileges without re-authenticating by setting the system clock and sudo user timestamp to the epoch.
 
@@ -25766,6 +25794,13 @@
 
 
 - [https://github.com/steponequit/CVE-2013-1081](https://github.com/steponequit/CVE-2013-1081) :  ![starts](https://img.shields.io/github/stars/steponequit/CVE-2013-1081.svg) ![forks](https://img.shields.io/github/forks/steponequit/CVE-2013-1081.svg)
+
+## CVE-2013-0340
+ expat 2.1.0 and earlier does not properly handle entities expansion unless an application developer uses the XML_SetEntityDeclHandler function, which allows remote attackers to cause a denial of service (resource consumption), send HTTP requests to intranet servers, or read arbitrary files via a crafted XML document, aka an XML External Entity (XXE) issue.  NOTE: it could be argued that because expat already provides the ability to disable external entity expansion, the responsibility for resolving this issue lies with application developers; according to this argument, this entry should be REJECTed, and each affected application would need its own CVE.
+
+
+
+- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2013-0340](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2013-0340) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2013-0340.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2013-0340.svg)
 
 ## CVE-2013-0333
  lib/active_support/json/backends/yaml.rb in Ruby on Rails 2.3.x before 2.3.16 and 3.0.x before 3.0.20 does not properly convert JSON data to YAML data for processing by a YAML parser, which allows remote attackers to execute arbitrary code, conduct SQL injection attacks, or bypass authentication via crafted data that triggers unsafe decoding, a different vulnerability than CVE-2013-0156.
