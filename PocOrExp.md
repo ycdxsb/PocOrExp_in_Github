@@ -26696,6 +26696,13 @@
 
 - [https://github.com/SECFORCE/CVE-2008-5416](https://github.com/SECFORCE/CVE-2008-5416) :  ![starts](https://img.shields.io/github/stars/SECFORCE/CVE-2008-5416.svg) ![forks](https://img.shields.io/github/forks/SECFORCE/CVE-2008-5416.svg)
 
+## CVE-2008-4796
+ The _httpsrequest function (Snoopy/Snoopy.class.php) in Snoopy 1.2.3 and earlier, as used in (1) ampache, (2) libphp-snoopy, (3) mahara, (4) mediamate, (5) opendb, (6) pixelpost, and possibly other products, allows remote attackers to execute arbitrary commands via shell metacharacters in https URLs.
+
+
+
+- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2008-4796](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2008-4796) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2008-4796.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2008-4796.svg)
+
 ## CVE-2008-4687
  manage_proj_page.php in Mantis before 1.1.4 allows remote authenticated users to execute arbitrary code via a sort parameter containing PHP sequences, which are processed by create_function within the multi_sort function in core/utility_api.php.
 
