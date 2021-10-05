@@ -12,6 +12,13 @@
 
 - [https://github.com/thomascannon/android-cve-2010-4804](https://github.com/thomascannon/android-cve-2010-4804) :  ![starts](https://img.shields.io/github/stars/thomascannon/android-cve-2010-4804.svg) ![forks](https://img.shields.io/github/forks/thomascannon/android-cve-2010-4804.svg)
 
+## CVE-2010-4756
+ The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.
+
+
+
+- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2010-4756](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2010-4756) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2010-4756.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2010-4756.svg)
+
 ## CVE-2010-4669
  The Neighbor Discovery (ND) protocol implementation in the IPv6 stack in Microsoft Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7 allows remote attackers to cause a denial of service (CPU consumption and system hang) by sending many Router Advertisement (RA) messages with different source addresses, as demonstrated by the flood_router6 program in the thc-ipv6 package.
 
@@ -102,6 +109,13 @@
 
 
 - [https://github.com/n0lann/CVE2010-3301_compiled](https://github.com/n0lann/CVE2010-3301_compiled) :  ![starts](https://img.shields.io/github/stars/n0lann/CVE2010-3301_compiled.svg) ![forks](https://img.shields.io/github/forks/n0lann/CVE2010-3301_compiled.svg)
+
+## CVE-2010-2632
+ Unspecified vulnerability in the FTP Server in Oracle Solaris 8, 9, 10, and 11 Express allows remote attackers to affect availability. NOTE: the previous information was obtained from the January 2011 CPU. Oracle has not commented on claims from a reliable researcher that this is an issue in the glob implementation in libc that allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames.
+
+
+
+- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2010-4756](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2010-4756) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2010-4756.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2010-4756.svg)
 
 ## CVE-2010-2626
  index.pl in Miyabi CGI Tools SEO Links 1.02 allows remote attackers to execute arbitrary commands via shell metacharacters in the fn command. NOTE: some of these details are obtained from third party information.
