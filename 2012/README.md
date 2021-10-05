@@ -226,6 +226,13 @@
 
 - [https://github.com/bongbongco/CVE-2012-1675](https://github.com/bongbongco/CVE-2012-1675) :  ![starts](https://img.shields.io/github/stars/bongbongco/CVE-2012-1675.svg) ![forks](https://img.shields.io/github/forks/bongbongco/CVE-2012-1675.svg)
 
+## CVE-2012-0881
+ Apache Xerces2 Java Parser before 2.12.0 allows remote attackers to cause a denial of service (CPU consumption) via a crafted message to an XML service, which triggers hash table collisions.
+
+
+
+- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2012-0881](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2012-0881) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2012-0881.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2012-0881.svg)
+
 ## CVE-2012-0507
  Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, and 5.0 Update 33 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Concurrency.  NOTE: the previous information was obtained from the February 2012 Oracle CPU. Oracle has not commented on claims from a downstream vendor and third party researchers that this issue occurs because the AtomicReferenceArray class implementation does not ensure that the array is of the Object[] type, which allows attackers to cause a denial of service (JVM crash) or bypass Java sandbox restrictions.  NOTE: this issue was originally mapped to CVE-2011-3571, but that identifier was already assigned to a different issue.
 
