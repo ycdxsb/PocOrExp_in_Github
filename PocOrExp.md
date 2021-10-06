@@ -33785,13 +33785,6 @@
 
 - [https://github.com/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377](https://github.com/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377) :  ![starts](https://img.shields.io/github/stars/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377.svg) ![forks](https://img.shields.io/github/forks/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377.svg)
 
-## CVE-2007-5577
- Multiple cross-site scripting (XSS) vulnerabilities in Joomla! before 1.0.13 (aka Sunglow) allow remote attackers to inject arbitrary web script or HTML via the (1) Title or (2) Section Name form fields in the Section Manager component, or (3) multiple unspecified fields in New Menu Item.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2007-5577](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2007-5577) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2007-5577.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2007-5577.svg)
-
 ## CVE-2007-5036
  Multiple buffer overflows in the AirDefense Airsensor M520 with firmware 4.3.1.1 and 4.4.1.4 allow remote authenticated users to cause a denial of service (HTTPS service outage) via a crafted query string in an HTTPS request to (1) adLog.cgi, (2) post.cgi, or (3) ad.cgi, related to the &quot;files filter.&quot;
 
@@ -33805,27 +33798,6 @@
 
 
 - [https://github.com/joeyrideout/CVE-2007-4607](https://github.com/joeyrideout/CVE-2007-4607) :  ![starts](https://img.shields.io/github/stars/joeyrideout/CVE-2007-4607.svg) ![forks](https://img.shields.io/github/forks/joeyrideout/CVE-2007-4607.svg)
-
-## CVE-2007-4190
- CRLF injection vulnerability in Joomla! before 1.0.13 (aka Sunglow) allows remote attackers to inject arbitrary HTTP headers and probably conduct HTTP response splitting attacks via CRLF sequences in the url parameter.  NOTE: this can be leveraged for cross-site scripting (XSS) attacks.  NOTE: some of these details are obtained from third party information.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2007-4190](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2007-4190) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2007-4190.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2007-4190.svg)
-
-## CVE-2007-4189
- Multiple cross-site scripting (XSS) vulnerabilities in Joomla! before 1.0.13 (aka Sunglow) allow remote attackers to inject arbitrary web script or HTML via unspecified vectors in the (1) com_search, (2) com_content, and (3) mod_login components.  NOTE: some of these details are obtained from third party information.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2007-4189](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2007-4189) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2007-4189.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2007-4189.svg)
-
-## CVE-2007-4188
- Session fixation vulnerability in Joomla! before 1.0.13 (aka Sunglow) allows remote attackers to hijack administrative web sessions via unspecified vectors.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2007-4188](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2007-4188) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2007-4188.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2007-4188.svg)
 
 ## CVE-2007-3831
  PHP remote file inclusion in main.php in ISS Proventia Network IPS GX5108 1.3 and GX5008 1.5 allows remote attackers to execute arbitrary PHP code via a URL in the page parameter.
@@ -33866,11 +33838,11 @@
 
 - [https://github.com/xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xlcc4096/exploit-CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xlcc4096/exploit-CVE-2007-2447.svg)
 
-- [https://github.com/Un4gi/CVE-2007-2447](https://github.com/Un4gi/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Un4gi/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Un4gi/CVE-2007-2447.svg)
+- [https://github.com/b1fair/smb_usermap](https://github.com/b1fair/smb_usermap) :  ![starts](https://img.shields.io/github/stars/b1fair/smb_usermap.svg) ![forks](https://img.shields.io/github/forks/b1fair/smb_usermap.svg)
 
 - [https://github.com/Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Alien0ne/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Alien0ne/CVE-2007-2447.svg)
 
-- [https://github.com/b1fair/smb_usermap](https://github.com/b1fair/smb_usermap) :  ![starts](https://img.shields.io/github/stars/b1fair/smb_usermap.svg) ![forks](https://img.shields.io/github/forks/b1fair/smb_usermap.svg)
+- [https://github.com/Un4gi/CVE-2007-2447](https://github.com/Un4gi/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Un4gi/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Un4gi/CVE-2007-2447.svg)
 
 - [https://github.com/Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python) :  ![starts](https://img.shields.io/github/stars/Ziemni/CVE-2007-2447-in-Python.svg) ![forks](https://img.shields.io/github/forks/Ziemni/CVE-2007-2447-in-Python.svg)
 
