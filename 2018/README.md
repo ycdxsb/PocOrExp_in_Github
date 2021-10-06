@@ -305,13 +305,6 @@
 
 - [https://github.com/technicaldada/hack-winrar](https://github.com/technicaldada/hack-winrar) :  ![starts](https://img.shields.io/github/stars/technicaldada/hack-winrar.svg) ![forks](https://img.shields.io/github/forks/technicaldada/hack-winrar.svg)
 
-## CVE-2018-20217
- A Reachable Assertion issue was discovered in the KDC in MIT Kerberos 5 (aka krb5) before 1.17. If an attacker can obtain a krbtgt ticket using an older encryption type (single-DES, triple-DES, or RC4), the attacker can crash the KDC by making an S4U2Self request.
-
-
-
-- [https://github.com/AIPOCAI/CVE-2018-20217](https://github.com/AIPOCAI/CVE-2018-20217) :  ![starts](https://img.shields.io/github/stars/AIPOCAI/CVE-2018-20217.svg) ![forks](https://img.shields.io/github/forks/AIPOCAI/CVE-2018-20217.svg)
-
 ## CVE-2018-20165
  Cross-site scripting (XSS) vulnerability in OpenText Portal 7.4.4 allows remote attackers to inject arbitrary web script or HTML via the vgnextoid parameter to a menuitem URI.
 
@@ -741,13 +734,6 @@
 
 - [https://github.com/alexzorin/poc-cve-2018-16875](https://github.com/alexzorin/poc-cve-2018-16875) :  ![starts](https://img.shields.io/github/stars/alexzorin/poc-cve-2018-16875.svg) ![forks](https://img.shields.io/github/forks/alexzorin/poc-cve-2018-16875.svg)
 
-## CVE-2018-16871
- A flaw was found in the Linux kernel's NFS implementation, all versions 3.x and all versions 4.x up to 4.20. An attacker, who is able to mount an exported NFS filesystem, is able to trigger a null pointer dereference by using an invalid NFS sequence. This can panic the machine and deny access to the NFS server. Any outstanding disk writes to the NFS server will be lost.
-
-
-
-- [https://github.com/AIPOCAI/CVE-2018-16871](https://github.com/AIPOCAI/CVE-2018-16871) :  ![starts](https://img.shields.io/github/stars/AIPOCAI/CVE-2018-16871.svg) ![forks](https://img.shields.io/github/forks/AIPOCAI/CVE-2018-16871.svg)
-
 ## CVE-2018-16866
  An out of bounds read was discovered in systemd-journald in the way it parses log messages that terminate with a colon ':'. A local attacker can use this flaw to disclose process memory data. Versions from v221 to v239 are vulnerable.
 
@@ -994,13 +980,6 @@
 
 
 - [https://github.com/cved-sources/cve-2018-16283](https://github.com/cved-sources/cve-2018-16283) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2018-16283.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2018-16283.svg)
-
-## CVE-2018-16177
- Untrusted search path vulnerability in The installer of Windows 10 Fall Creators Update Modify module for Security Measures tool allows an attacker to gain privileges via a Trojan horse DLL in an unspecified directory.
-
-
-
-- [https://github.com/AIPOCAI/CVE-2018-16177](https://github.com/AIPOCAI/CVE-2018-16177) :  ![starts](https://img.shields.io/github/stars/AIPOCAI/CVE-2018-16177.svg) ![forks](https://img.shields.io/github/forks/AIPOCAI/CVE-2018-16177.svg)
 
 ## CVE-2018-16167
  LogonTracer 1.2.0 and earlier allows remote attackers to execute arbitrary OS commands via unspecified vectors.
@@ -1268,13 +1247,6 @@
 - [https://github.com/yukar1z0e/CVE-2018-14847](https://github.com/yukar1z0e/CVE-2018-14847) :  ![starts](https://img.shields.io/github/stars/yukar1z0e/CVE-2018-14847.svg) ![forks](https://img.shields.io/github/forks/yukar1z0e/CVE-2018-14847.svg)
 
 - [https://github.com/hacker30468/Mikrotik-router-hack](https://github.com/hacker30468/Mikrotik-router-hack) :  ![starts](https://img.shields.io/github/stars/hacker30468/Mikrotik-router-hack.svg) ![forks](https://img.shields.io/github/forks/hacker30468/Mikrotik-router-hack.svg)
-
-## CVE-2018-14773
- An issue was discovered in Http Foundation in Symfony 2.7.0 through 2.7.48, 2.8.0 through 2.8.43, 3.3.0 through 3.3.17, 3.4.0 through 3.4.13, 4.0.0 through 4.0.13, and 4.1.0 through 4.1.2. It arises from support for a (legacy) IIS header that lets users override the path in the request URL via the X-Original-URL or X-Rewrite-URL HTTP request header. These headers are designed for IIS support, but it's not verified that the server is in fact running IIS, which means anybody who can send these requests to an application can trigger this. This affects \Symfony\Component\HttpFoundation\Request::prepareRequestUri() where X-Original-URL and X_REWRITE_URL are both used. The fix drops support for these methods so that they cannot be used as attack vectors such as web cache poisoning.
-
-
-
-- [https://github.com/AIPOCAI/CVE-2018-14773](https://github.com/AIPOCAI/CVE-2018-14773) :  ![starts](https://img.shields.io/github/stars/AIPOCAI/CVE-2018-14773.svg) ![forks](https://img.shields.io/github/forks/AIPOCAI/CVE-2018-14773.svg)
 
 ## CVE-2018-14772
  Pydio 4.2.1 through 8.2.1 has an authenticated remote code execution vulnerability in which an attacker with administrator access to the web application can execute arbitrary code on the underlying system via Command Injection.
@@ -1751,13 +1723,6 @@
 
 - [https://github.com/LucvanDonk/Siemens-Siemens-PLM-Software-TEAMCENTER-Reflected-Cross-Site-Scripting-XSS-vulnerability](https://github.com/LucvanDonk/Siemens-Siemens-PLM-Software-TEAMCENTER-Reflected-Cross-Site-Scripting-XSS-vulnerability) :  ![starts](https://img.shields.io/github/stars/LucvanDonk/Siemens-Siemens-PLM-Software-TEAMCENTER-Reflected-Cross-Site-Scripting-XSS-vulnerability.svg) ![forks](https://img.shields.io/github/forks/LucvanDonk/Siemens-Siemens-PLM-Software-TEAMCENTER-Reflected-Cross-Site-Scripting-XSS-vulnerability.svg)
 
-## CVE-2018-11439
- The TagLib::Ogg::FLAC::File::scan function in oggflacfile.cpp in TagLib 1.11.1 allows remote attackers to cause information disclosure (heap-based buffer over-read) via a crafted audio file.
-
-
-
-- [https://github.com/AIPOCAI/CVE-2018-11439](https://github.com/AIPOCAI/CVE-2018-11439) :  ![starts](https://img.shields.io/github/stars/AIPOCAI/CVE-2018-11439.svg) ![forks](https://img.shields.io/github/forks/AIPOCAI/CVE-2018-11439.svg)
-
 ## CVE-2018-11311
  A hardcoded FTP username of myscada and password of Vikuk63 in 'myscadagate.exe' in mySCADA myPRO 7 allows remote attackers to access the FTP server on port 2121, and upload files or list directories, by entering these credentials.
 
@@ -1799,17 +1764,17 @@
 
 - [https://github.com/cchang27/CVE-2018-11235-test](https://github.com/cchang27/CVE-2018-11235-test) :  ![starts](https://img.shields.io/github/stars/cchang27/CVE-2018-11235-test.svg) ![forks](https://img.shields.io/github/forks/cchang27/CVE-2018-11235-test.svg)
 
-- [https://github.com/Kiss-sh0t/CVE-2018-11235-poc](https://github.com/Kiss-sh0t/CVE-2018-11235-poc) :  ![starts](https://img.shields.io/github/stars/Kiss-sh0t/CVE-2018-11235-poc.svg) ![forks](https://img.shields.io/github/forks/Kiss-sh0t/CVE-2018-11235-poc.svg)
-
 - [https://github.com/xElkomy/CVE-2018-11235](https://github.com/xElkomy/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/xElkomy/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/xElkomy/CVE-2018-11235.svg)
+
+- [https://github.com/Kiss-sh0t/CVE-2018-11235-poc](https://github.com/Kiss-sh0t/CVE-2018-11235-poc) :  ![starts](https://img.shields.io/github/stars/Kiss-sh0t/CVE-2018-11235-poc.svg) ![forks](https://img.shields.io/github/forks/Kiss-sh0t/CVE-2018-11235-poc.svg)
 
 - [https://github.com/MohamedTarekq/test-CVE-2018-11235](https://github.com/MohamedTarekq/test-CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/MohamedTarekq/test-CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/MohamedTarekq/test-CVE-2018-11235.svg)
 
-- [https://github.com/moajo/cve_2018_11235](https://github.com/moajo/cve_2018_11235) :  ![starts](https://img.shields.io/github/stars/moajo/cve_2018_11235.svg) ![forks](https://img.shields.io/github/forks/moajo/cve_2018_11235.svg)
+- [https://github.com/vmotos/CVE-2018-11235](https://github.com/vmotos/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/vmotos/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/vmotos/CVE-2018-11235.svg)
 
 - [https://github.com/morhax/CVE-2018-11235](https://github.com/morhax/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/morhax/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/morhax/CVE-2018-11235.svg)
 
-- [https://github.com/vmotos/CVE-2018-11235](https://github.com/vmotos/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/vmotos/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/vmotos/CVE-2018-11235.svg)
+- [https://github.com/moajo/cve_2018_11235](https://github.com/moajo/cve_2018_11235) :  ![starts](https://img.shields.io/github/stars/moajo/cve_2018_11235.svg) ![forks](https://img.shields.io/github/forks/moajo/cve_2018_11235.svg)
 
 - [https://github.com/jhswartz/CVE-2018-11235](https://github.com/jhswartz/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/jhswartz/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/jhswartz/CVE-2018-11235.svg)
 
@@ -2029,13 +1994,6 @@
 
 - [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
 
-## CVE-2018-10023
- Catfish CMS V4.7.21 allows XSS via the pinglun parameter to cat/index/index/pinglun (aka an authenticated comment).
-
-
-
-- [https://github.com/AIPOCAI/CVE-2018-10023](https://github.com/AIPOCAI/CVE-2018-10023) :  ![starts](https://img.shields.io/github/stars/AIPOCAI/CVE-2018-10023.svg) ![forks](https://img.shields.io/github/forks/AIPOCAI/CVE-2018-10023.svg)
-
 ## CVE-2018-9995
  TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in 1, Securus, Night OWL, DVR Login, HVR Login, and MDVR Login, which run re-branded versions of the original TBK DVR4104 and DVR4216 series, allow remote attackers to bypass authentication via a &quot;Cookie: uid=admin&quot; header, as demonstrated by a device.rsp?opt=user&amp;cmd=list request that provides credentials within JSON data in a response.
 
@@ -2055,7 +2013,7 @@
 
 - [https://github.com/gwolfs/CVE-2018-9995-ModifiedByGwolfs](https://github.com/gwolfs/CVE-2018-9995-ModifiedByGwolfs) :  ![starts](https://img.shields.io/github/stars/gwolfs/CVE-2018-9995-ModifiedByGwolfs.svg) ![forks](https://img.shields.io/github/forks/gwolfs/CVE-2018-9995-ModifiedByGwolfs.svg)
 
-- [https://github.com/akuhidayat/HTC](https://github.com/akuhidayat/HTC) :  ![starts](https://img.shields.io/github/stars/akuhidayat/HTC.svg) ![forks](https://img.shields.io/github/forks/akuhidayat/HTC.svg)
+- [https://github.com/yatcode/HTC](https://github.com/yatcode/HTC) :  ![starts](https://img.shields.io/github/stars/yatcode/HTC.svg) ![forks](https://img.shields.io/github/forks/yatcode/HTC.svg)
 
 - [https://github.com/b510/CVE-2018-9995-POC](https://github.com/b510/CVE-2018-9995-POC) :  ![starts](https://img.shields.io/github/stars/b510/CVE-2018-9995-POC.svg) ![forks](https://img.shields.io/github/forks/b510/CVE-2018-9995-POC.svg)
 
@@ -2378,13 +2336,6 @@
 
 - [https://github.com/quantiti/CVE-2018-8284-Sharepoint-RCE](https://github.com/quantiti/CVE-2018-8284-Sharepoint-RCE) :  ![starts](https://img.shields.io/github/stars/quantiti/CVE-2018-8284-Sharepoint-RCE.svg) ![forks](https://img.shields.io/github/forks/quantiti/CVE-2018-8284-Sharepoint-RCE.svg)
 
-## CVE-2018-8256
- A remote code execution vulnerability exists when PowerShell improperly handles specially crafted files, aka &quot;Microsoft PowerShell Remote Code Execution Vulnerability.&quot; This affects Windows RT 8.1, PowerShell Core 6.0, Microsoft.PowerShell.Archive 1.2.2.0, Windows Server 2016, Windows Server 2012, Windows Server 2008 R2, Windows Server 2019, Windows 7, Windows Server 2012 R2, PowerShell Core 6.1, Windows 10 Servers, Windows 10, Windows 8.1.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-8256](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-8256) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2018-8256.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2018-8256.svg)
-
 ## CVE-2018-8214
  An elevation of privilege vulnerability exists in Windows when Desktop Bridge does not properly manage the virtual registry, aka &quot;Windows Desktop Bridge Elevation of Privilege Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-8208.
 
@@ -2590,34 +2541,6 @@
 
 
 - [https://github.com/lawrenceamer/CVE-2018-7935](https://github.com/lawrenceamer/CVE-2018-7935) :  ![starts](https://img.shields.io/github/stars/lawrenceamer/CVE-2018-7935.svg) ![forks](https://img.shields.io/github/forks/lawrenceamer/CVE-2018-7935.svg)
-
-## CVE-2018-7842
- A CWE-290: Authentication Bypass by Spoofing vulnerability exists in all versions of the Modicon M580, Modicon M340, Modicon Quantum, and Modicon Premium which could cause an elevation of privilege by conducting a brute force attack on Modbus parameters sent to the controller.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-7842](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-7842) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2018-7842.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2018-7842.svg)
-
-## CVE-2018-7821
- An Environment (CWE-2) vulnerability exists in SoMachine Basic, all versions, and Modicon M221(all references, all versions prior to firmware V1.10.0.0) which could cause cycle time impact when flooding the M221 ethernet interface while the Ethernet/IP adapter is activated.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-7821](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-7821) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2018-7821.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2018-7821.svg)
-
-## CVE-2018-7790
- An Information Management Error vulnerability exists in Schneider Electric's Modicon M221 product (all references, all versions prior to firmware V1.6.2.0). The vulnerability allows unauthorized users to replay authentication sequences. If an attacker exploits this vulnerability and connects to a Modicon M221, the attacker can upload the original program from the PLC.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-7790](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-7790) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2018-7790.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2018-7790.svg)
-
-## CVE-2018-7789
- An Improper Check for Unusual or Exceptional Conditions vulnerability exists in Schneider Electric's Modicon M221 product (all references, all versions prior to firmware V1.6.2.0). The vulnerability allows unauthorized users to remotely reboot Modicon M221 using crafted programing protocol frames.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-7789](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-7789) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2018-7789.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2018-7789.svg)
 
 ## CVE-2018-7750
  transport.py in the SSH server implementation of Paramiko before 1.17.6, 1.18.x before 1.18.5, 2.0.x before 2.0.8, 2.1.x before 2.1.5, 2.2.x before 2.2.3, 2.3.x before 2.3.2, and 2.4.x before 2.4.1 does not properly check whether authentication is completed before processing other requests, as demonstrated by channel-open. A customized SSH client can simply skip the authentication step.
@@ -2921,9 +2844,9 @@
 
 - [https://github.com/french560/ptl6574](https://github.com/french560/ptl6574) :  ![starts](https://img.shields.io/github/stars/french560/ptl6574.svg) ![forks](https://img.shields.io/github/forks/french560/ptl6574.svg)
 
-- [https://github.com/darthvader-htb/CVE-2018-6574](https://github.com/darthvader-htb/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/darthvader-htb/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/darthvader-htb/CVE-2018-6574.svg)
-
 - [https://github.com/zur250/Zur-Go-GET-RCE-Solution](https://github.com/zur250/Zur-Go-GET-RCE-Solution) :  ![starts](https://img.shields.io/github/stars/zur250/Zur-Go-GET-RCE-Solution.svg) ![forks](https://img.shields.io/github/forks/zur250/Zur-Go-GET-RCE-Solution.svg)
+
+- [https://github.com/darthvader-htb/CVE-2018-6574](https://github.com/darthvader-htb/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/darthvader-htb/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/darthvader-htb/CVE-2018-6574.svg)
 
 - [https://github.com/ahmetmanga/go-get-rce](https://github.com/ahmetmanga/go-get-rce) :  ![starts](https://img.shields.io/github/stars/ahmetmanga/go-get-rce.svg) ![forks](https://img.shields.io/github/forks/ahmetmanga/go-get-rce.svg)
 
@@ -3214,20 +3137,6 @@
 
 - [https://github.com/sischkg/cve-2018-5740](https://github.com/sischkg/cve-2018-5740) :  ![starts](https://img.shields.io/github/stars/sischkg/cve-2018-5740.svg) ![forks](https://img.shields.io/github/forks/sischkg/cve-2018-5740.svg)
 
-## CVE-2018-5730
- MIT krb5 1.6 or later allows an authenticated kadmin with permission to add principals to an LDAP Kerberos database to circumvent a DN containership check by supplying both a &quot;linkdn&quot; and &quot;containerdn&quot; database argument, or by supplying a DN string which is a left extension of a container DN string but is not hierarchically within the container DN.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-5730](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-5730) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2018-5730.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2018-5730.svg)
-
-## CVE-2018-5729
- MIT krb5 1.6 or later allows an authenticated kadmin with permission to add principals to an LDAP Kerberos database to cause a denial of service (NULL pointer dereference) or bypass a DN container check by supplying tagged data that is internal to the database module.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-5729](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2018-5729) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2018-5729.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2018-5729.svg)
-
 ## CVE-2018-5728
  Cobham Sea Tel 121 build 222701 devices allow remote attackers to obtain potentially sensitive information via a /cgi-bin/getSysStatus request, as demonstrated by the Latitude/Longitude of the ship, or satellite details.
 
@@ -3502,9 +3411,9 @@
 
 - [https://github.com/FSecureLABS/CVE-2018-4121](https://github.com/FSecureLABS/CVE-2018-4121) :  ![starts](https://img.shields.io/github/stars/FSecureLABS/CVE-2018-4121.svg) ![forks](https://img.shields.io/github/forks/FSecureLABS/CVE-2018-4121.svg)
 
-- [https://github.com/likescam/CVE-2018-4121](https://github.com/likescam/CVE-2018-4121) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2018-4121.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2018-4121.svg)
-
 - [https://github.com/jezzus/CVE-2018-4121](https://github.com/jezzus/CVE-2018-4121) :  ![starts](https://img.shields.io/github/stars/jezzus/CVE-2018-4121.svg) ![forks](https://img.shields.io/github/forks/jezzus/CVE-2018-4121.svg)
+
+- [https://github.com/likescam/CVE-2018-4121](https://github.com/likescam/CVE-2018-4121) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2018-4121.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2018-4121.svg)
 
 ## CVE-2018-4110
  An issue was discovered in certain Apple products. iOS before 11.3 is affected. The issue involves the &quot;Web App&quot; component. It allows remote attackers to bypass intended restrictions on cookie persistence.
@@ -4269,9 +4178,9 @@
 
 - [https://github.com/adityathebe/POC-CVE-2018-0114](https://github.com/adityathebe/POC-CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/adityathebe/POC-CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/adityathebe/POC-CVE-2018-0114.svg)
 
-- [https://github.com/Logeirs/CVE-2018-0114](https://github.com/Logeirs/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/Logeirs/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/Logeirs/CVE-2018-0114.svg)
-
 - [https://github.com/Starry-lord/CVE-2018-0114](https://github.com/Starry-lord/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/Starry-lord/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/Starry-lord/CVE-2018-0114.svg)
+
+- [https://github.com/Logeirs/CVE-2018-0114](https://github.com/Logeirs/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/Logeirs/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/Logeirs/CVE-2018-0114.svg)
 
 - [https://github.com/scumdestroy/CVE-2018-0114](https://github.com/scumdestroy/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/scumdestroy/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/scumdestroy/CVE-2018-0114.svg)
 
