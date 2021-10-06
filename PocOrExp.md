@@ -31782,13 +31782,13 @@
 
 - [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
 
+- [https://github.com/ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check) :  ![starts](https://img.shields.io/github/stars/ilismal/Nessus_CVE-2014-6271_check.svg) ![forks](https://img.shields.io/github/forks/ilismal/Nessus_CVE-2014-6271_check.svg)
+
 - [https://github.com/Pilou-Pilou/docker_CVE-2014-6271.](https://github.com/Pilou-Pilou/docker_CVE-2014-6271.) :  ![starts](https://img.shields.io/github/stars/Pilou-Pilou/docker_CVE-2014-6271..svg) ![forks](https://img.shields.io/github/forks/Pilou-Pilou/docker_CVE-2014-6271..svg)
 
 - [https://github.com/kowshik-sundararajan/CVE-2014-6271](https://github.com/kowshik-sundararajan/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/kowshik-sundararajan/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kowshik-sundararajan/CVE-2014-6271.svg)
 
 - [https://github.com/Aruthw/CVE-2014-6271](https://github.com/Aruthw/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Aruthw/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Aruthw/CVE-2014-6271.svg)
-
-- [https://github.com/ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check) :  ![starts](https://img.shields.io/github/stars/ilismal/Nessus_CVE-2014-6271_check.svg) ![forks](https://img.shields.io/github/forks/ilismal/Nessus_CVE-2014-6271_check.svg)
 
 - [https://github.com/dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes) :  ![starts](https://img.shields.io/github/stars/dlitz/bash-cve-2014-6271-fixes.svg) ![forks](https://img.shields.io/github/forks/dlitz/bash-cve-2014-6271-fixes.svg)
 
@@ -31818,7 +31818,7 @@
 
 - [https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271](https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/internero/debian-lenny-bash_3.2.52-cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/internero/debian-lenny-bash_3.2.52-cve-2014-6271.svg)
 
-- [https://github.com/0bfxgh0st/shellshock-scan](https://github.com/0bfxgh0st/shellshock-scan) :  ![starts](https://img.shields.io/github/stars/0bfxgh0st/shellshock-scan.svg) ![forks](https://img.shields.io/github/forks/0bfxgh0st/shellshock-scan.svg)
+- [https://github.com/0bfxgh0st/ShellShock](https://github.com/0bfxgh0st/ShellShock) :  ![starts](https://img.shields.io/github/stars/0bfxgh0st/ShellShock.svg) ![forks](https://img.shields.io/github/forks/0bfxgh0st/ShellShock.svg)
 
 - [https://github.com/somhm-solutions/Shell-Shock](https://github.com/somhm-solutions/Shell-Shock) :  ![starts](https://img.shields.io/github/stars/somhm-solutions/Shell-Shock.svg) ![forks](https://img.shields.io/github/forks/somhm-solutions/Shell-Shock.svg)
 
@@ -31859,13 +31859,6 @@
 
 - [https://github.com/0x3a/CVE-2014-4936](https://github.com/0x3a/CVE-2014-4936) :  ![starts](https://img.shields.io/github/stars/0x3a/CVE-2014-4936.svg) ![forks](https://img.shields.io/github/forks/0x3a/CVE-2014-4936.svg)
 
-## CVE-2014-4715
- Yann Collet LZ4 before r119, when used on certain 32-bit platforms that allocate memory beyond 0x80000000, does not properly detect integer overflows, which allows context-dependent attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via a crafted Literal Run, a different vulnerability than CVE-2014-4611.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2014-4611](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2014-4611) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2014-4611.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2014-4611.svg)
-
 ## CVE-2014-4699
  The Linux kernel before 3.15.4 on Intel processors does not properly restrict use of a non-canonical value for the saved RIP address in the case of a system call that does not use IRET, which allows local users to leverage a race condition and gain privileges, or cause a denial of service (double fault), via a crafted application that makes ptrace and fork system calls.
 
@@ -31886,13 +31879,6 @@
 
 
 - [https://github.com/cph/rabl-old](https://github.com/cph/rabl-old) :  ![starts](https://img.shields.io/github/stars/cph/rabl-old.svg) ![forks](https://img.shields.io/github/forks/cph/rabl-old.svg)
-
-## CVE-2014-4611
- Integer overflow in the LZ4 algorithm implementation, as used in Yann Collet LZ4 before r118 and in the lz4_uncompress function in lib/lz4/lz4_decompress.c in the Linux kernel before 3.15.2, on 32-bit platforms might allow context-dependent attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via a crafted Literal Run that would be improperly handled by programs not complying with an API limitation, a different vulnerability than CVE-2014-4715.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2014-4611](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2014-4611) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2014-4611.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2014-4611.svg)
 
 ## CVE-2014-4511
  Gitlist before 0.5.0 allows remote attackers to execute arbitrary commands via shell metacharacters in the file name in the URI of a request for a (1) blame, (2) file, or (3) stats page, as demonstrated by requests to blame/master/, master/, and stats/master/.
@@ -32014,8 +32000,6 @@
 
 - [https://github.com/happynote3966/CVE-2014-3704](https://github.com/happynote3966/CVE-2014-3704) :  ![starts](https://img.shields.io/github/stars/happynote3966/CVE-2014-3704.svg) ![forks](https://img.shields.io/github/forks/happynote3966/CVE-2014-3704.svg)
 
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2014-3704](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2014-3704) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2014-3704.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2014-3704.svg)
-
 ## CVE-2014-3625
  Directory traversal vulnerability in Pivotal Spring Framework 3.0.4 through 3.2.x before 3.2.12, 4.0.x before 4.0.8, and 4.1.x before 4.1.2 allows remote attackers to read arbitrary files via unspecified vectors, related to static resource handling.
 
@@ -32092,6 +32076,13 @@
 - [https://github.com/echohtp/ElasticSearch-CVE-2014-3120](https://github.com/echohtp/ElasticSearch-CVE-2014-3120) :  ![starts](https://img.shields.io/github/stars/echohtp/ElasticSearch-CVE-2014-3120.svg) ![forks](https://img.shields.io/github/forks/echohtp/ElasticSearch-CVE-2014-3120.svg)
 
 - [https://github.com/jeffgeiger/es_inject](https://github.com/jeffgeiger/es_inject) :  ![starts](https://img.shields.io/github/stars/jeffgeiger/es_inject.svg) ![forks](https://img.shields.io/github/forks/jeffgeiger/es_inject.svg)
+
+## CVE-2014-2815
+ Microsoft OneNote 2007 SP3 allows remote attackers to execute arbitrary code via a crafted OneNote file that triggers creation of an executable file in a startup folder, aka &quot;OneNote Remote Code Execution Vulnerability.&quot;
+
+
+
+- [https://github.com/Edubr2020/CABTrap_OneNote2007](https://github.com/Edubr2020/CABTrap_OneNote2007) :  ![starts](https://img.shields.io/github/stars/Edubr2020/CABTrap_OneNote2007.svg) ![forks](https://img.shields.io/github/forks/Edubr2020/CABTrap_OneNote2007.svg)
 
 ## CVE-2014-2734
  ** DISPUTED ** The openssl extension in Ruby 2.x does not properly maintain the state of process memory after a file is reopened, which allows remote attackers to spoof signatures within the context of a Ruby script that attempts signature verification after performing a certain sequence of filesystem operations.  NOTE: this issue has been disputed by the Ruby OpenSSL team and third parties, who state that the original demonstration PoC contains errors and redundant or unnecessarily-complex code that does not appear to be related to a demonstration of the issue. As of 20140502, CVE is not aware of any public comment by the original researcher.
@@ -32404,15 +32395,15 @@
 
 - [https://github.com/iwaffles/heartbleed-test.crx](https://github.com/iwaffles/heartbleed-test.crx) :  ![starts](https://img.shields.io/github/stars/iwaffles/heartbleed-test.crx.svg) ![forks](https://img.shields.io/github/forks/iwaffles/heartbleed-test.crx.svg)
 
-- [https://github.com/takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse) :  ![starts](https://img.shields.io/github/stars/takeshixx/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/takeshixx/ssl-heartbleed.nse.svg)
-
 - [https://github.com/indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-) :  ![starts](https://img.shields.io/github/stars/indiw0rm/-Heartbleed-.svg) ![forks](https://img.shields.io/github/forks/indiw0rm/-Heartbleed-.svg)
+
+- [https://github.com/takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse) :  ![starts](https://img.shields.io/github/stars/takeshixx/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/takeshixx/ssl-heartbleed.nse.svg)
 
 - [https://github.com/iSCInc/heartbleed](https://github.com/iSCInc/heartbleed) :  ![starts](https://img.shields.io/github/stars/iSCInc/heartbleed.svg) ![forks](https://img.shields.io/github/forks/iSCInc/heartbleed.svg)
 
-- [https://github.com/idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding) :  ![starts](https://img.shields.io/github/stars/idkqh7/heatbleeding.svg) ![forks](https://img.shields.io/github/forks/idkqh7/heatbleeding.svg)
-
 - [https://github.com/rouze-d/heartbleed](https://github.com/rouze-d/heartbleed) :  ![starts](https://img.shields.io/github/stars/rouze-d/heartbleed.svg) ![forks](https://img.shields.io/github/forks/rouze-d/heartbleed.svg)
+
+- [https://github.com/idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding) :  ![starts](https://img.shields.io/github/stars/idkqh7/heatbleeding.svg) ![forks](https://img.shields.io/github/forks/idkqh7/heatbleeding.svg)
 
 - [https://github.com/roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome) :  ![starts](https://img.shields.io/github/stars/roganartu/heartbleedchecker-chrome.svg) ![forks](https://img.shields.io/github/forks/roganartu/heartbleedchecker-chrome.svg)
 
