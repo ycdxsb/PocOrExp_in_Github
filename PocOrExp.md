@@ -33910,41 +33910,6 @@
 
 - [https://github.com/Mario1234/js-driveby-download-CVE-2006-4777](https://github.com/Mario1234/js-driveby-download-CVE-2006-4777) :  ![starts](https://img.shields.io/github/stars/Mario1234/js-driveby-download-CVE-2006-4777.svg) ![forks](https://img.shields.io/github/forks/Mario1234/js-driveby-download-CVE-2006-4777.svg)
 
-## CVE-2006-4472
- Multiple unspecified vulnerabilities in Joomla! before 1.0.11 allow attackers to bypass user authentication via unknown vectors involving the (1) do_pdf command and the (2) emailform com_content task.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2006-4472](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2006-4472) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2006-4472.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2006-4472.svg)
-
-## CVE-2006-4471
- The Admin Upload Image functionality in Joomla! before 1.0.11 allows remote authenticated users to upload files outside of the /images/stories/ directory via unspecified vectors.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2006-4471](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2006-4471) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2006-4471.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2006-4471.svg)
-
-## CVE-2006-4470
- Joomla! before 1.0.11 omits some checks for whether _VALID_MOS is defined, which allows attackers to have an unknown impact, possibly resulting in PHP remote file inclusion.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2006-4470](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2006-4470) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2006-4470.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2006-4470.svg)
-
-## CVE-2006-4469
- Unspecified vulnerability in PEAR.php in Joomla! before 1.0.11 allows remote attackers to perform &quot;remote execution,&quot; related to &quot;Injection Flaws.&quot;
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2006-4469](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2006-4469) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2006-4469.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2006-4469.svg)
-
-## CVE-2006-4468
- Multiple unspecified vulnerabilities in Joomla! before 1.0.11, related to unvalidated input, allow attackers to have an unknown impact via unspecified vectors involving the (1) mosMail, (2) JosIsValidEmail, and (3) josSpoofValue functions; (4) the lack of inclusion of globals.php in administrator/index.php; (5) the Admin User Manager; and (6) the poll module.
-
-
-
-- [https://github.com/AKIA27TACKEDYE76PUGU/CVE-2006-4468](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2006-4468) :  ![starts](https://img.shields.io/github/stars/AKIA27TACKEDYE76PUGU/CVE-2006-4468.svg) ![forks](https://img.shields.io/github/forks/AKIA27TACKEDYE76PUGU/CVE-2006-4468.svg)
-
 ## CVE-2006-3747
  Off-by-one error in the ldap scheme handling in the Rewrite module (mod_rewrite) in Apache 1.3 from 1.3.28, 2.0.46 and other versions before 2.0.59, and 2.2, when RewriteEngine is enabled, allows remote attackers to cause a denial of service (application crash) and possibly execute arbitrary code via crafted URLs that are not properly handled using certain rewrite rules.
 
