@@ -22038,6 +22038,8 @@
 
 - [https://github.com/LakshmiDesai/CVE-2016-9079](https://github.com/LakshmiDesai/CVE-2016-9079) :  ![starts](https://img.shields.io/github/stars/LakshmiDesai/CVE-2016-9079.svg) ![forks](https://img.shields.io/github/forks/LakshmiDesai/CVE-2016-9079.svg)
 
+- [https://github.com/Tau-hub/Firefox-CVE-2016-9079](https://github.com/Tau-hub/Firefox-CVE-2016-9079) :  ![starts](https://img.shields.io/github/stars/Tau-hub/Firefox-CVE-2016-9079.svg) ![forks](https://img.shields.io/github/forks/Tau-hub/Firefox-CVE-2016-9079.svg)
+
 ## CVE-2016-9066
  A buffer overflow resulting in a potentially exploitable crash due to memory allocation issues when handling large amounts of incoming data. This vulnerability affects Thunderbird &lt; 45.5, Firefox ESR &lt; 45.5, and Firefox &lt; 50.
 
@@ -22763,6 +22765,13 @@
 
 - [https://github.com/shadofren/CVE-2016-4010](https://github.com/shadofren/CVE-2016-4010) :  ![starts](https://img.shields.io/github/stars/shadofren/CVE-2016-4010.svg) ![forks](https://img.shields.io/github/forks/shadofren/CVE-2016-4010.svg)
 
+## CVE-2016-3962
+ Stack-based buffer overflow in the NTP time-server interface on Meinberg IMS-LANTIME M3000, IMS-LANTIME M1000, IMS-LANTIME M500, LANTIME M900, LANTIME M600, LANTIME M400, LANTIME M300, LANTIME M200, LANTIME M100, SyncFire 1100, and LCES devices with firmware before 6.20.004 allows remote attackers to obtain sensitive information, modify data, or cause a denial of service via a crafted parameter in a POST request.
+
+
+
+- [https://github.com/securifera/CVE-2016-3962-Exploit](https://github.com/securifera/CVE-2016-3962-Exploit) :  ![starts](https://img.shields.io/github/stars/securifera/CVE-2016-3962-Exploit.svg) ![forks](https://img.shields.io/github/forks/securifera/CVE-2016-3962-Exploit.svg)
+
 ## CVE-2016-3959
  The Verify function in crypto/dsa/dsa.go in Go before 1.5.4 and 1.6.x before 1.6.1 does not properly check parameters passed to the big integer library, which might allow remote attackers to cause a denial of service (infinite loop) via a crafted public key to a program that uses HTTPS client certificates or SSH server libraries.
 
@@ -23043,9 +23052,9 @@
 
 - [https://github.com/danielhemmati/CVE-2016-2098-my-first-exploit](https://github.com/danielhemmati/CVE-2016-2098-my-first-exploit) :  ![starts](https://img.shields.io/github/stars/danielhemmati/CVE-2016-2098-my-first-exploit.svg) ![forks](https://img.shields.io/github/forks/danielhemmati/CVE-2016-2098-my-first-exploit.svg)
 
-- [https://github.com/3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/3rg1s/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/3rg1s/CVE-2016-2098.svg)
-
 - [https://github.com/Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Debalinax64/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Debalinax64/CVE-2016-2098.svg)
+
+- [https://github.com/3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/3rg1s/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/3rg1s/CVE-2016-2098.svg)
 
 ## CVE-2016-2067
  drivers/gpu/msm/kgsl.c in the MSM graphics driver (aka GPU driver) for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, mishandles the KGSL_MEMFLAGS_GPUREADONLY flag, which allows attackers to gain privileges by leveraging accidental read-write mappings, aka Qualcomm internal bug CR988993.
@@ -23260,9 +23269,9 @@
 
 - [https://github.com/isnuryusuf/cve_2016_0728](https://github.com/isnuryusuf/cve_2016_0728) :  ![starts](https://img.shields.io/github/stars/isnuryusuf/cve_2016_0728.svg) ![forks](https://img.shields.io/github/forks/isnuryusuf/cve_2016_0728.svg)
 
-- [https://github.com/hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728) :  ![starts](https://img.shields.io/github/stars/hal0taso/CVE-2016-0728.svg) ![forks](https://img.shields.io/github/forks/hal0taso/CVE-2016-0728.svg)
-
 - [https://github.com/sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/sibilleg/exploit_cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/sibilleg/exploit_cve-2016-0728.svg)
+
+- [https://github.com/hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728) :  ![starts](https://img.shields.io/github/stars/hal0taso/CVE-2016-0728.svg) ![forks](https://img.shields.io/github/forks/hal0taso/CVE-2016-0728.svg)
 
 - [https://github.com/idl3r/cve-2016-0728](https://github.com/idl3r/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/idl3r/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/idl3r/cve-2016-0728.svg)
 
