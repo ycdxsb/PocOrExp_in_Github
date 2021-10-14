@@ -1,67 +1,43 @@
-# Update 2021-10-13
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+# Update 2021-10-14
+## CVE-2021-42261
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/0xAlmighty/CVE-2021-41773-PoC](https://github.com/0xAlmighty/CVE-2021-41773-PoC) :  ![starts](https://img.shields.io/github/stars/0xAlmighty/CVE-2021-41773-PoC.svg) ![forks](https://img.shields.io/github/forks/0xAlmighty/CVE-2021-41773-PoC.svg)
-
-
-## CVE-2021-34486
- Windows Event Tracing Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-26425, CVE-2021-34487.
-
-- [https://github.com/KaLendsi/CVE-2021-34486](https://github.com/KaLendsi/CVE-2021-34486) :  ![starts](https://img.shields.io/github/stars/KaLendsi/CVE-2021-34486.svg) ![forks](https://img.shields.io/github/forks/KaLendsi/CVE-2021-34486.svg)
+- [https://github.com/jet-pentest/CVE-2021-42261](https://github.com/jet-pentest/CVE-2021-42261) :  ![starts](https://img.shields.io/github/stars/jet-pentest/CVE-2021-42261.svg) ![forks](https://img.shields.io/github/forks/jet-pentest/CVE-2021-42261.svg)
 
 
-## CVE-2021-33045
- The identity authentication bypass vulnerability found in some Dahua products during the login process. Attackers can bypass device identity authentication by constructing malicious data packets.
+## CVE-2021-41730
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/dongpohezui/cve-2021-33045](https://github.com/dongpohezui/cve-2021-33045) :  ![starts](https://img.shields.io/github/stars/dongpohezui/cve-2021-33045.svg) ![forks](https://img.shields.io/github/forks/dongpohezui/cve-2021-33045.svg)
-- [https://github.com/bp2008/DahuaLoginBypass](https://github.com/bp2008/DahuaLoginBypass) :  ![starts](https://img.shields.io/github/stars/bp2008/DahuaLoginBypass.svg) ![forks](https://img.shields.io/github/forks/bp2008/DahuaLoginBypass.svg)
-
-
-## CVE-2021-33044
- The identity authentication bypass vulnerability found in some Dahua products during the login process. Attackers can bypass device identity authentication by constructing malicious data packets.
-
-- [https://github.com/bp2008/DahuaLoginBypass](https://github.com/bp2008/DahuaLoginBypass) :  ![starts](https://img.shields.io/github/stars/bp2008/DahuaLoginBypass.svg) ![forks](https://img.shields.io/github/forks/bp2008/DahuaLoginBypass.svg)
+- [https://github.com/IBUILI/CVE-2021-41730](https://github.com/IBUILI/CVE-2021-41730) :  ![starts](https://img.shields.io/github/stars/IBUILI/CVE-2021-41730.svg) ![forks](https://img.shields.io/github/forks/IBUILI/CVE-2021-41730.svg)
 
 
-## CVE-2021-31796
- An inadequate encryption vulnerability discovered in CyberArk Credential Provider before 12.1 may lead to Information Disclosure. An attacker may realistically have enough information that the number of possible keys (for a credential file) is only one, and the number is usually not higher than 2^36.
+## CVE-2021-37980
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/unmanarc/CACredDecoder](https://github.com/unmanarc/CACredDecoder) :  ![starts](https://img.shields.io/github/stars/unmanarc/CACredDecoder.svg) ![forks](https://img.shields.io/github/forks/unmanarc/CACredDecoder.svg)
-
-
-## CVE-2021-3129
- Ignition before 2.5.2, as used in Laravel and other products, allows unauthenticated remote attackers to execute arbitrary code because of insecure usage of file_get_contents() and file_put_contents(). This is exploitable on sites using debug mode with Laravel before 8.4.2.
-
-- [https://github.com/hungnt199/CVE-2021-3129_exploit](https://github.com/hungnt199/CVE-2021-3129_exploit) :  ![starts](https://img.shields.io/github/stars/hungnt199/CVE-2021-3129_exploit.svg) ![forks](https://img.shields.io/github/forks/hungnt199/CVE-2021-3129_exploit.svg)
+- [https://github.com/ZeusBox/CVE-2021-37980](https://github.com/ZeusBox/CVE-2021-37980) :  ![starts](https://img.shields.io/github/stars/ZeusBox/CVE-2021-37980.svg) ![forks](https://img.shields.io/github/forks/ZeusBox/CVE-2021-37980.svg)
 
 
-## CVE-2021-1675
- Windows Print Spooler Elevation of Privilege Vulnerability
+## CVE-2021-22941
+ Improper Access Control in Citrix ShareFile storage zones controller before 5.11.20 may allow an unauthenticated attacker to remotely compromise the storage zones controller.
 
-- [https://github.com/Sirius-RJ/FullstackAcademy-Printernightmare-writeup-2105-E.C.A.R.](https://github.com/Sirius-RJ/FullstackAcademy-Printernightmare-writeup-2105-E.C.A.R.) :  ![starts](https://img.shields.io/github/stars/Sirius-RJ/FullstackAcademy-Printernightmare-writeup-2105-E.C.A.R..svg) ![forks](https://img.shields.io/github/forks/Sirius-RJ/FullstackAcademy-Printernightmare-writeup-2105-E.C.A.R..svg)
-
-
-## CVE-2019-15858
- admin/includes/class.import.snippet.php in the &quot;Woody ad snippets&quot; plugin before 2.2.5 for WordPress allows unauthenticated options import, as demonstrated by storing an XSS payload for remote code execution.
-
-- [https://github.com/oxctdev/CVE-2019-15858](https://github.com/oxctdev/CVE-2019-15858) :  ![starts](https://img.shields.io/github/stars/oxctdev/CVE-2019-15858.svg) ![forks](https://img.shields.io/github/forks/oxctdev/CVE-2019-15858.svg)
+- [https://github.com/hoavt184/CVE-2021-22941](https://github.com/hoavt184/CVE-2021-22941) :  ![starts](https://img.shields.io/github/stars/hoavt184/CVE-2021-22941.svg) ![forks](https://img.shields.io/github/forks/hoavt184/CVE-2021-22941.svg)
 
 
-## CVE-2019-9081
- The Illuminate component of Laravel Framework 5.7.x has a deserialization vulnerability that can lead to remote code execution if the content is controllable, related to the __destruct method of the PendingCommand class in PendingCommand.php.
+## CVE-2020-2555
+ Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (component: Caching,CacheStore,Invocation). Supported versions that are affected are 3.7.1.0, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle Coherence. Successful attacks of this vulnerability can result in takeover of Oracle Coherence. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 
-- [https://github.com/hungnt199/CVE-2019-9081_PoC](https://github.com/hungnt199/CVE-2019-9081_PoC) :  ![starts](https://img.shields.io/github/stars/hungnt199/CVE-2019-9081_PoC.svg) ![forks](https://img.shields.io/github/forks/hungnt199/CVE-2019-9081_PoC.svg)
-
-
-## CVE-2018-12636
- The iThemes Security (better-wp-security) plugin before 7.0.3 for WordPress allows SQL Injection (by attackers with Admin privileges) via the logs page.
-
-- [https://github.com/hungnt199/CVE-2018-12636_exploit](https://github.com/hungnt199/CVE-2018-12636_exploit) :  ![starts](https://img.shields.io/github/stars/hungnt199/CVE-2018-12636_exploit.svg) ![forks](https://img.shields.io/github/forks/hungnt199/CVE-2018-12636_exploit.svg)
+- [https://github.com/wsfengfan/CVE-2020-2555](https://github.com/wsfengfan/CVE-2020-2555) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-2555.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-2555.svg)
+- [https://github.com/Hu3sky/CVE-2020-2555](https://github.com/Hu3sky/CVE-2020-2555) :  ![starts](https://img.shields.io/github/stars/Hu3sky/CVE-2020-2555.svg) ![forks](https://img.shields.io/github/forks/Hu3sky/CVE-2020-2555.svg)
 
 
-## CVE-2018-3810
- Authentication Bypass vulnerability in the Oturia Smart Google Code Inserter plugin before 3.5 for WordPress allows unauthenticated attackers to insert arbitrary JavaScript or HTML code (via the sgcgoogleanalytic parameter) that runs on all pages served by WordPress. The saveGoogleCode() function in smartgooglecode.php does not check if the current request is made by an authorized user, thus allowing any unauthenticated user to successfully update the inserted code.
+## CVE-2019-18818
+ strapi before 3.0.0-beta.17.5 mishandles password resets within packages/strapi-admin/controllers/Auth.js and packages/strapi-plugin-users-permissions/controllers/Auth.js.
 
-- [https://github.com/hungnt199/CVE-2018-3810_exploit](https://github.com/hungnt199/CVE-2018-3810_exploit) :  ![starts](https://img.shields.io/github/stars/hungnt199/CVE-2018-3810_exploit.svg) ![forks](https://img.shields.io/github/forks/hungnt199/CVE-2018-3810_exploit.svg)
+- [https://github.com/Shadawks/Strapi-CVE-2019-1881](https://github.com/Shadawks/Strapi-CVE-2019-1881) :  ![starts](https://img.shields.io/github/stars/Shadawks/Strapi-CVE-2019-1881.svg) ![forks](https://img.shields.io/github/forks/Shadawks/Strapi-CVE-2019-1881.svg)
+
+
+## CVE-2019-1653
+ A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.
+
+- [https://github.com/shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill) :  ![starts](https://img.shields.io/github/stars/shaheemirza/CiscoSpill.svg) ![forks](https://img.shields.io/github/forks/shaheemirza/CiscoSpill.svg)
 
