@@ -558,6 +558,13 @@
 
 - [https://github.com/vnik5287/cve-2016-6187-poc](https://github.com/vnik5287/cve-2016-6187-poc) :  ![starts](https://img.shields.io/github/stars/vnik5287/cve-2016-6187-poc.svg) ![forks](https://img.shields.io/github/forks/vnik5287/cve-2016-6187-poc.svg)
 
+## CVE-2016-5983
+ IBM WebSphere Application Server (WAS) 7.0 before 7.0.0.43, 8.0 before 8.0.0.13, 8.5 before 8.5.5.11, 9.0 before 9.0.0.2, and Liberty before 16.0.0.4 allows remote authenticated users to execute arbitrary Java code via a crafted serialized object.
+
+
+
+- [https://github.com/BitWrecker/CVE-2016-5983](https://github.com/BitWrecker/CVE-2016-5983) :  ![starts](https://img.shields.io/github/stars/BitWrecker/CVE-2016-5983.svg) ![forks](https://img.shields.io/github/forks/BitWrecker/CVE-2016-5983.svg)
+
 ## CVE-2016-5734
  phpMyAdmin 4.0.x before 4.0.10.16, 4.4.x before 4.4.15.7, and 4.6.x before 4.6.3 does not properly choose delimiters to prevent use of the preg_replace e (aka eval) modifier, which might allow remote attackers to execute arbitrary PHP code via a crafted string, as demonstrated by the table search-and-replace implementation.
 
@@ -696,11 +703,11 @@
 
 - [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
 
-- [https://github.com/sijidufei/CVE-2016-5195](https://github.com/sijidufei/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sijidufei/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sijidufei/CVE-2016-5195.svg)
-
 - [https://github.com/ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ldenevi/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ldenevi/CVE-2016-5195.svg)
 
 - [https://github.com/DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/DanielEbert/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/DanielEbert/CVE-2016-5195.svg)
+
+- [https://github.com/sijidufei/CVE-2016-5195](https://github.com/sijidufei/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sijidufei/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sijidufei/CVE-2016-5195.svg)
 
 - [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
 
@@ -945,8 +952,6 @@
 - [https://github.com/chusiang/CVE-2016-3714.ansible.role](https://github.com/chusiang/CVE-2016-3714.ansible.role) :  ![starts](https://img.shields.io/github/stars/chusiang/CVE-2016-3714.ansible.role.svg) ![forks](https://img.shields.io/github/forks/chusiang/CVE-2016-3714.ansible.role.svg)
 
 - [https://github.com/tommiionfire/CVE-2016-3714](https://github.com/tommiionfire/CVE-2016-3714) :  ![starts](https://img.shields.io/github/stars/tommiionfire/CVE-2016-3714.svg) ![forks](https://img.shields.io/github/forks/tommiionfire/CVE-2016-3714.svg)
-
-- [https://github.com/HRSkraps/CVE-2016-3714](https://github.com/HRSkraps/CVE-2016-3714) :  ![starts](https://img.shields.io/github/stars/HRSkraps/CVE-2016-3714.svg) ![forks](https://img.shields.io/github/forks/HRSkraps/CVE-2016-3714.svg)
 
 - [https://github.com/jackdpeterson/imagick_secure_puppet](https://github.com/jackdpeterson/imagick_secure_puppet) :  ![starts](https://img.shields.io/github/stars/jackdpeterson/imagick_secure_puppet.svg) ![forks](https://img.shields.io/github/forks/jackdpeterson/imagick_secure_puppet.svg)
 
