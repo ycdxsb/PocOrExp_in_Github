@@ -1,135 +1,81 @@
-# Update 2021-10-16
+# Update 2021-10-17
+## CVE-2021-42071
+ In Visual Tools DVR VX16 4.2.28.0, an unauthenticated attacker can achieve remote command execution via shell metacharacters in the cgi-bin/slogin/login.py User-Agent HTTP header.
+
+- [https://github.com/adubaldo/CVE-2021-42071](https://github.com/adubaldo/CVE-2021-42071) :  ![starts](https://img.shields.io/github/stars/adubaldo/CVE-2021-42071.svg) ![forks](https://img.shields.io/github/forks/adubaldo/CVE-2021-42071.svg)
+
+
 ## CVE-2021-42013
  It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue only affects Apache 2.4.49 and Apache 2.4.50 and not earlier versions.
 
-- [https://github.com/twseptian/CVE-2021-42013-Lab](https://github.com/twseptian/CVE-2021-42013-Lab) :  ![starts](https://img.shields.io/github/stars/twseptian/CVE-2021-42013-Lab.svg) ![forks](https://img.shields.io/github/forks/twseptian/CVE-2021-42013-Lab.svg)
-- [https://github.com/MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal) :  ![starts](https://img.shields.io/github/stars/MrCl0wnLab/SimplesApachePathTraversal.svg) ![forks](https://img.shields.io/github/forks/MrCl0wnLab/SimplesApachePathTraversal.svg)
+- [https://github.com/theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker) :  ![starts](https://img.shields.io/github/stars/theLSA/apache-httpd-path-traversal-checker.svg) ![forks](https://img.shields.io/github/forks/theLSA/apache-httpd-path-traversal-checker.svg)
 
 
 ## CVE-2021-41773
  A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal) :  ![starts](https://img.shields.io/github/stars/MrCl0wnLab/SimplesApachePathTraversal.svg) ![forks](https://img.shields.io/github/forks/MrCl0wnLab/SimplesApachePathTraversal.svg)
+- [https://github.com/theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker) :  ![starts](https://img.shields.io/github/stars/theLSA/apache-httpd-path-traversal-checker.svg) ![forks](https://img.shields.io/github/forks/theLSA/apache-httpd-path-traversal-checker.svg)
+- [https://github.com/anonsecteaminc/CVE-2021-41773-PoC](https://github.com/anonsecteaminc/CVE-2021-41773-PoC) :  ![starts](https://img.shields.io/github/stars/anonsecteaminc/CVE-2021-41773-PoC.svg) ![forks](https://img.shields.io/github/forks/anonsecteaminc/CVE-2021-41773-PoC.svg)
+- [https://github.com/shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/shiomiyan/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/shiomiyan/CVE-2021-41773.svg)
+- [https://github.com/LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/LudovicPatho/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/LudovicPatho/CVE-2021-41773.svg)
 
 
-## CVE-2021-40444
- Microsoft MSHTML Remote Code Execution Vulnerability
+## CVE-2021-22555
+ A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in net/netfilter/x_tables.c. This allows an attacker to gain privileges or cause a DoS (via heap memory corruption) through user name space
 
-- [https://github.com/KnoooW/CVE-2021-40444-docx-Generate](https://github.com/KnoooW/CVE-2021-40444-docx-Generate) :  ![starts](https://img.shields.io/github/stars/KnoooW/CVE-2021-40444-docx-Generate.svg) ![forks](https://img.shields.io/github/forks/KnoooW/CVE-2021-40444-docx-Generate.svg)
-
-
-## CVE-2021-38295
- In Apache CouchDB, a malicious user with permission to create documents in a database is able to attach a HTML attachment to a document. If a CouchDB admin opens that attachment in a browser, e.g. via the CouchDB admin interface Fauxton, any JavaScript code embedded in that HTML attachment will be executed within the security context of that admin. A similar route is available with the already deprecated _show and _list functionality. This privilege escalation vulnerability allows an attacker to add or remove data in any database or make configuration changes. This issue affected Apache CouchDB prior to 3.1.2
-
-- [https://github.com/ProfessionallyEvil/CVE-2021-38295-PoC](https://github.com/ProfessionallyEvil/CVE-2021-38295-PoC) :  ![starts](https://img.shields.io/github/stars/ProfessionallyEvil/CVE-2021-38295-PoC.svg) ![forks](https://img.shields.io/github/forks/ProfessionallyEvil/CVE-2021-38295-PoC.svg)
+- [https://github.com/xyjl-ly/CVE-2021-22555-Exploit](https://github.com/xyjl-ly/CVE-2021-22555-Exploit) :  ![starts](https://img.shields.io/github/stars/xyjl-ly/CVE-2021-22555-Exploit.svg) ![forks](https://img.shields.io/github/forks/xyjl-ly/CVE-2021-22555-Exploit.svg)
 
 
-## CVE-2021-36749
- In the Druid ingestion system, the InputSource is used for reading data from a certain data source. However, the HTTP InputSource allows authenticated users to read data from other sources than intended, such as the local file system, with the privileges of the Druid server process. This is not an elevation of privilege when users access Druid directly, since Druid also provides the Local InputSource, which allows the same level of access. But it is problematic when users interact with Druid indirectly through an application that allows users to specify the HTTP InputSource, but not the Local InputSource. In this case, users could bypass the application-level restriction by passing a file URL to the HTTP InputSource. This issue was previously mentioned as being fixed in 0.21.0 as per CVE-2021-26920 but was not fixed in 0.21.0 or 0.21.1.
+## CVE-2020-25078
+ An issue was discovered on D-Link DCS-2530L before 1.06.01 Hotfix and DCS-2670L through 2.02 devices. The unauthenticated /config/getuser endpoint allows for remote administrator password disclosure.
 
-- [https://github.com/BrucessKING/CVE-2021-36749](https://github.com/BrucessKING/CVE-2021-36749) :  ![starts](https://img.shields.io/github/stars/BrucessKING/CVE-2021-36749.svg) ![forks](https://img.shields.io/github/forks/BrucessKING/CVE-2021-36749.svg)
-- [https://github.com/dorkerdevil/CVE-2021-36749](https://github.com/dorkerdevil/CVE-2021-36749) :  ![starts](https://img.shields.io/github/stars/dorkerdevil/CVE-2021-36749.svg) ![forks](https://img.shields.io/github/forks/dorkerdevil/CVE-2021-36749.svg)
-
-
-## CVE-2021-33766
- Microsoft Exchange Information Disclosure Vulnerability
-
-- [https://github.com/bhdresh/CVE-2021-33766](https://github.com/bhdresh/CVE-2021-33766) :  ![starts](https://img.shields.io/github/stars/bhdresh/CVE-2021-33766.svg) ![forks](https://img.shields.io/github/forks/bhdresh/CVE-2021-33766.svg)
+- [https://github.com/chinaYozz/CVE-2020-25078](https://github.com/chinaYozz/CVE-2020-25078) :  ![starts](https://img.shields.io/github/stars/chinaYozz/CVE-2020-25078.svg) ![forks](https://img.shields.io/github/forks/chinaYozz/CVE-2020-25078.svg)
 
 
-## CVE-2021-33739
- Microsoft DWM Core Library Elevation of Privilege Vulnerability
+## CVE-2020-11023
+ In jQuery versions greater than or equal to 1.0.3 and before 3.5.0, passing HTML containing &lt;option&gt; elements from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.
 
-- [https://github.com/freeide2017/CVE-2021-33739-POC](https://github.com/freeide2017/CVE-2021-33739-POC) :  ![starts](https://img.shields.io/github/stars/freeide2017/CVE-2021-33739-POC.svg) ![forks](https://img.shields.io/github/forks/freeide2017/CVE-2021-33739-POC.svg)
-
-
-## CVE-2021-31955
- Windows Kernel Information Disclosure Vulnerability
-
-- [https://github.com/freeide/CVE-2021-31955-POC](https://github.com/freeide/CVE-2021-31955-POC) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2021-31955-POC.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2021-31955-POC.svg)
+- [https://github.com/0xAJ2K/CVE-2020-11022-CVE-2020-11023](https://github.com/0xAJ2K/CVE-2020-11022-CVE-2020-11023) :  ![starts](https://img.shields.io/github/stars/0xAJ2K/CVE-2020-11022-CVE-2020-11023.svg) ![forks](https://img.shields.io/github/forks/0xAJ2K/CVE-2020-11022-CVE-2020-11023.svg)
 
 
-## CVE-2021-30858
- A use after free issue was addressed with improved memory management. This issue is fixed in iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
+## CVE-2020-11022
+ In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.
 
-- [https://github.com/PeterMxx/ps4_8.00_vuln_poc](https://github.com/PeterMxx/ps4_8.00_vuln_poc) :  ![starts](https://img.shields.io/github/stars/PeterMxx/ps4_8.00_vuln_poc.svg) ![forks](https://img.shields.io/github/forks/PeterMxx/ps4_8.00_vuln_poc.svg)
-- [https://github.com/KameleonReloaded/CVEREV3](https://github.com/KameleonReloaded/CVEREV3) :  ![starts](https://img.shields.io/github/stars/KameleonReloaded/CVEREV3.svg) ![forks](https://img.shields.io/github/forks/KameleonReloaded/CVEREV3.svg)
-
-
-## CVE-2021-30632
- Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-
-- [https://github.com/avboy1337/CVE-2021-30632](https://github.com/avboy1337/CVE-2021-30632) :  ![starts](https://img.shields.io/github/stars/avboy1337/CVE-2021-30632.svg) ![forks](https://img.shields.io/github/forks/avboy1337/CVE-2021-30632.svg)
+- [https://github.com/0xAJ2K/CVE-2020-11022-CVE-2020-11023](https://github.com/0xAJ2K/CVE-2020-11022-CVE-2020-11023) :  ![starts](https://img.shields.io/github/stars/0xAJ2K/CVE-2020-11022-CVE-2020-11023.svg) ![forks](https://img.shields.io/github/forks/0xAJ2K/CVE-2020-11022-CVE-2020-11023.svg)
 
 
-## CVE-2021-28378
- Gitea 1.12.x and 1.13.x before 1.13.4 allows XSS via certain issue data in some situations.
+## CVE-2020-5902
+ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.1.5.1, and 11.6.1-11.6.5.1, the Traffic Management User Interface (TMUI), also referred to as the Configuration utility, has a Remote Code Execution (RCE) vulnerability in undisclosed pages.
 
-- [https://github.com/pandatix/CVE-2021-28378](https://github.com/pandatix/CVE-2021-28378) :  ![starts](https://img.shields.io/github/stars/pandatix/CVE-2021-28378.svg) ![forks](https://img.shields.io/github/forks/pandatix/CVE-2021-28378.svg)
-
-
-## CVE-2021-22204
- Improper neutralization of user data in the DjVu file format in ExifTool versions 7.44 and up allows arbitrary code execution when parsing the malicious image
-
-- [https://github.com/convisolabs/CVE-2021-22204-exiftool](https://github.com/convisolabs/CVE-2021-22204-exiftool) :  ![starts](https://img.shields.io/github/stars/convisolabs/CVE-2021-22204-exiftool.svg) ![forks](https://img.shields.io/github/forks/convisolabs/CVE-2021-22204-exiftool.svg)
+- [https://github.com/anonsecteaminc/CVE-2020-5902-Scanner](https://github.com/anonsecteaminc/CVE-2020-5902-Scanner) :  ![starts](https://img.shields.io/github/stars/anonsecteaminc/CVE-2020-5902-Scanner.svg) ![forks](https://img.shields.io/github/forks/anonsecteaminc/CVE-2020-5902-Scanner.svg)
 
 
-## CVE-2021-3156
- Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
+## CVE-2020-3153
+ A vulnerability in the installer component of Cisco AnyConnect Secure Mobility Client for Windows could allow an authenticated local attacker to copy user-supplied files to system level directories with system level privileges. The vulnerability is due to the incorrect handling of directory paths. An attacker could exploit this vulnerability by creating a malicious file and copying the file to a system directory. An exploit could allow the attacker to copy malicious files to arbitrary locations with system level privileges. This could include DLL pre-loading, DLL hijacking, and other related attacks. To exploit this vulnerability, the attacker needs valid credentials on the Windows system.
 
-- [https://github.com/musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/musergi/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/musergi/CVE-2021-3156.svg)
-
-
-## CVE-2020-28018
- Exim 4 before 4.94.2 allows Use After Free in smtp_reset in certain situations that may be common for builds with OpenSSL.
-
-- [https://github.com/zr0tt/CVE-2020-28018](https://github.com/zr0tt/CVE-2020-28018) :  ![starts](https://img.shields.io/github/stars/zr0tt/CVE-2020-28018.svg) ![forks](https://img.shields.io/github/forks/zr0tt/CVE-2020-28018.svg)
+- [https://github.com/goichot/CVE-2020-3153](https://github.com/goichot/CVE-2020-3153) :  ![starts](https://img.shields.io/github/stars/goichot/CVE-2020-3153.svg) ![forks](https://img.shields.io/github/forks/goichot/CVE-2020-3153.svg)
 
 
-## CVE-2020-17519
- A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as well) allows attackers to read any file on the local filesystem of the JobManager through the REST interface of the JobManager process. Access is restricted to files accessible by the JobManager process. All users should upgrade to Flink 1.11.3 or 1.12.0 if their Flink instance(s) are exposed. The issue was fixed in commit b561010b0ee741543c3953306037f00d7a9f0801 from apache/flink:master.
+## CVE-2020-0609
+ A remote code execution vulnerability exists in Windows Remote Desktop Gateway (RD Gateway) when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Windows Remote Desktop Gateway (RD Gateway) Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0610.
 
-- [https://github.com/MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal) :  ![starts](https://img.shields.io/github/stars/MrCl0wnLab/SimplesApachePathTraversal.svg) ![forks](https://img.shields.io/github/forks/MrCl0wnLab/SimplesApachePathTraversal.svg)
-
-
-## CVE-2020-16846
- An issue was discovered in SaltStack Salt through 3002. Sending crafted web requests to the Salt API, with the SSH client enabled, can result in shell injection.
-
-- [https://github.com/zomy22/CVE-2020-16846-Saltstack-Salt-API](https://github.com/zomy22/CVE-2020-16846-Saltstack-Salt-API) :  ![starts](https://img.shields.io/github/stars/zomy22/CVE-2020-16846-Saltstack-Salt-API.svg) ![forks](https://img.shields.io/github/forks/zomy22/CVE-2020-16846-Saltstack-Salt-API.svg)
+- [https://github.com/ruppde/rdg_scanner_cve-2020-0609](https://github.com/ruppde/rdg_scanner_cve-2020-0609) :  ![starts](https://img.shields.io/github/stars/ruppde/rdg_scanner_cve-2020-0609.svg) ![forks](https://img.shields.io/github/forks/ruppde/rdg_scanner_cve-2020-0609.svg)
 
 
-## CVE-2020-14295
- A SQL injection issue in color.php in Cacti 1.2.12 allows an admin to inject SQL via the filter parameter. This can lead to remote command execution because the product accepts stacked queries.
+## CVE-2020-0041
+ In binder_transaction of binder.c, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-145988638References: Upstream kernel
 
-- [https://github.com/mrg3ntl3m4n/CVE-2020-14295](https://github.com/mrg3ntl3m4n/CVE-2020-14295) :  ![starts](https://img.shields.io/github/stars/mrg3ntl3m4n/CVE-2020-14295.svg) ![forks](https://img.shields.io/github/forks/mrg3ntl3m4n/CVE-2020-14295.svg)
-
-
-## CVE-2020-10770
- A flaw was found in Keycloak before 13.0.0, where it is possible to force the server to call out an unverified URL using the OIDC parameter request_uri. This flaw allows an attacker to use this parameter to execute a Server-side request forgery (SSRF) attack.
-
-- [https://github.com/ColdFusionX/Keycloak-12.0.1-CVE-2020-10770](https://github.com/ColdFusionX/Keycloak-12.0.1-CVE-2020-10770) :  ![starts](https://img.shields.io/github/stars/ColdFusionX/Keycloak-12.0.1-CVE-2020-10770.svg) ![forks](https://img.shields.io/github/forks/ColdFusionX/Keycloak-12.0.1-CVE-2020-10770.svg)
+- [https://github.com/koharin/CVE-2020-0041](https://github.com/koharin/CVE-2020-0041) :  ![starts](https://img.shields.io/github/stars/koharin/CVE-2020-0041.svg) ![forks](https://img.shields.io/github/forks/koharin/CVE-2020-0041.svg)
 
 
-## CVE-2020-8811
- ajax/profile-picture-upload.php in Bludit 3.10.0 allows authenticated users to change other users' profile pictures.
+## CVE-2019-11447
+ An issue was discovered in CutePHP CuteNews 2.1.2. An attacker can infiltrate the server through the avatar upload process in the profile area via the avatar_file field to index.php?mod=main&amp;opt=personal. There is no effective control of $imgsize in /core/modules/dashboard.php. The header content of a file can be changed and the control can be bypassed for code execution. (An attacker can use the GIF header for this.)
 
-- [https://github.com/team0se7en/CVE-2020-8816](https://github.com/team0se7en/CVE-2020-8816) :  ![starts](https://img.shields.io/github/stars/team0se7en/CVE-2020-8816.svg) ![forks](https://img.shields.io/github/forks/team0se7en/CVE-2020-8816.svg)
-
-
-## CVE-2020-1020
- A remote code execution vulnerability exists in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles a specially-crafted multi-master font - Adobe Type 1 PostScript format.For all systems except Windows 10, an attacker who successfully exploited the vulnerability could execute code remotely, aka 'Adobe Font Manager Library Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0938.
-
-- [https://github.com/CrackerCat/CVE-2020-1020-Exploit](https://github.com/CrackerCat/CVE-2020-1020-Exploit) :  ![starts](https://img.shields.io/github/stars/CrackerCat/CVE-2020-1020-Exploit.svg) ![forks](https://img.shields.io/github/forks/CrackerCat/CVE-2020-1020-Exploit.svg)
+- [https://github.com/iainr/CuteNewsRCE](https://github.com/iainr/CuteNewsRCE) :  ![starts](https://img.shields.io/github/stars/iainr/CuteNewsRCE.svg) ![forks](https://img.shields.io/github/forks/iainr/CuteNewsRCE.svg)
 
 
-## CVE-2018-6574
- Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10rc2 allow &quot;go get&quot; remote command execution during source code build, by leveraging the gcc or clang plugin feature, because -fplugin= and -plugin= arguments were not blocked.
+## CVE-2017-15950
+ Flexense SyncBreeze Enterprise version 10.1.16 is vulnerable to a buffer overflow that can be exploited for arbitrary code execution. The flaw is triggered by providing a long input into the &quot;Destination directory&quot; field, either within an XML document or through use of passive mode.
 
-- [https://github.com/Devang-Solanki/CVE-2018-6574](https://github.com/Devang-Solanki/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/Devang-Solanki/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/Devang-Solanki/CVE-2018-6574.svg)
-
-
-## CVE-2016-5983
- IBM WebSphere Application Server (WAS) 7.0 before 7.0.0.43, 8.0 before 8.0.0.13, 8.5 before 8.5.5.11, 9.0 before 9.0.0.2, and Liberty before 16.0.0.4 allows remote authenticated users to execute arbitrary Java code via a crafted serialized object.
-
-- [https://github.com/BitWrecker/CVE-2016-5983](https://github.com/BitWrecker/CVE-2016-5983) :  ![starts](https://img.shields.io/github/stars/BitWrecker/CVE-2016-5983.svg) ![forks](https://img.shields.io/github/forks/BitWrecker/CVE-2016-5983.svg)
+- [https://github.com/rnnsz/CVE-2017-15950](https://github.com/rnnsz/CVE-2017-15950) :  ![starts](https://img.shields.io/github/stars/rnnsz/CVE-2017-15950.svg) ![forks](https://img.shields.io/github/forks/rnnsz/CVE-2017-15950.svg)
 
