@@ -23,7 +23,7 @@
 
 
 ## TOP 10 Popular Authors
-zhzyker: stars: 4905
+zhzyker: stars: 4909
 - [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
 
 - [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
@@ -40,10 +40,10 @@ zhzyker: stars: 4905
 
 - [https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP](https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP) :  ![starts](https://img.shields.io/github/stars/zhzyker/CVE-2018-7600-Drupal-POC-EXP.svg) ![forks](https://img.shields.io/github/forks/zhzyker/CVE-2018-7600-Drupal-POC-EXP.svg)
 
-speed47: stars: 3464
+speed47: stars: 3465
 - [https://github.com/speed47/spectre-meltdown-checker](https://github.com/speed47/spectre-meltdown-checker) :  ![starts](https://img.shields.io/github/stars/speed47/spectre-meltdown-checker.svg) ![forks](https://img.shields.io/github/forks/speed47/spectre-meltdown-checker.svg)
 
-liamg: stars: 3425
+liamg: stars: 3426
 - [https://github.com/liamg/traitor](https://github.com/liamg/traitor) :  ![starts](https://img.shields.io/github/stars/liamg/traitor.svg) ![forks](https://img.shields.io/github/forks/liamg/traitor.svg)
 
 jas502n: stars: 3399
@@ -173,7 +173,7 @@ FiloSottile: stars: 2436
 
 - [https://github.com/0vercl0k/CVE-2021-32537](https://github.com/0vercl0k/CVE-2021-32537) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2021-32537.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2021-32537.svg)
 
-ly4k: stars: 1883
+ly4k: stars: 1895
 - [https://github.com/ly4k/CurveBall](https://github.com/ly4k/CurveBall) :  ![starts](https://img.shields.io/github/stars/ly4k/CurveBall.svg) ![forks](https://img.shields.io/github/forks/ly4k/CurveBall.svg)
 
 - [https://github.com/ly4k/SMBGhost](https://github.com/ly4k/SMBGhost) :  ![starts](https://img.shields.io/github/stars/ly4k/SMBGhost.svg) ![forks](https://img.shields.io/github/forks/ly4k/SMBGhost.svg)
@@ -199,7 +199,7 @@ Ridter: stars: 1683
 
 - [https://github.com/Ridter/CVE-2019-1040-dcpwn](https://github.com/Ridter/CVE-2019-1040-dcpwn) :  ![starts](https://img.shields.io/github/stars/Ridter/CVE-2019-1040-dcpwn.svg) ![forks](https://img.shields.io/github/forks/Ridter/CVE-2019-1040-dcpwn.svg)
 
-neex: stars: 1681
+neex: stars: 1682
 - [https://github.com/neex/phuip-fpizdam](https://github.com/neex/phuip-fpizdam) :  ![starts](https://img.shields.io/github/stars/neex/phuip-fpizdam.svg) ![forks](https://img.shields.io/github/forks/neex/phuip-fpizdam.svg)
 
 cube0x0: stars: 1680
