@@ -1,74 +1,60 @@
-# Update 2021-10-22
+# Update 2021-10-23
 ## CVE-2021-42013
  It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue only affects Apache 2.4.49 and Apache 2.4.50 and not earlier versions.
 
-- [https://github.com/BincangSiber/CVE-2021-42013](https://github.com/BincangSiber/CVE-2021-42013) :  ![starts](https://img.shields.io/github/stars/BincangSiber/CVE-2021-42013.svg) ![forks](https://img.shields.io/github/forks/BincangSiber/CVE-2021-42013.svg)
+- [https://github.com/LayarKacaSiber/CVE-2021-42013](https://github.com/LayarKacaSiber/CVE-2021-42013) :  ![starts](https://img.shields.io/github/stars/LayarKacaSiber/CVE-2021-42013.svg) ![forks](https://img.shields.io/github/forks/LayarKacaSiber/CVE-2021-42013.svg)
 
 
 ## CVE-2021-41773
  A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/BincangSiber/CVE-2021-41773](https://github.com/BincangSiber/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/BincangSiber/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/BincangSiber/CVE-2021-41773.svg)
-- [https://github.com/qwutony/CVE-2021-41773](https://github.com/qwutony/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/qwutony/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/qwutony/CVE-2021-41773.svg)
+- [https://github.com/LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/LayarKacaSiber/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/LayarKacaSiber/CVE-2021-41773.svg)
 
 
-## CVE-2021-40449
- Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-40450, CVE-2021-41357.
+## CVE-2021-30858
+ A use after free issue was addressed with improved memory management. This issue is fixed in iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
 
-- [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
-- [https://github.com/KaLendsi/CVE-2021-40449-Exploit](https://github.com/KaLendsi/CVE-2021-40449-Exploit) :  ![starts](https://img.shields.io/github/stars/KaLendsi/CVE-2021-40449-Exploit.svg) ![forks](https://img.shields.io/github/forks/KaLendsi/CVE-2021-40449-Exploit.svg)
+- [https://github.com/Jeromeyoung/ps4_8.00_vuln_poc](https://github.com/Jeromeyoung/ps4_8.00_vuln_poc) :  ![starts](https://img.shields.io/github/stars/Jeromeyoung/ps4_8.00_vuln_poc.svg) ![forks](https://img.shields.io/github/forks/Jeromeyoung/ps4_8.00_vuln_poc.svg)
 
 
-## CVE-2021-31166
- HTTP Protocol Stack Remote Code Execution Vulnerability
+## CVE-2021-30632
+ Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 
-- [https://github.com/ConMiko/CVE-2021-31166-exploit](https://github.com/ConMiko/CVE-2021-31166-exploit) :  ![starts](https://img.shields.io/github/stars/ConMiko/CVE-2021-31166-exploit.svg) ![forks](https://img.shields.io/github/forks/ConMiko/CVE-2021-31166-exploit.svg)
+- [https://github.com/CrackerCat/CVE-2021-30632](https://github.com/CrackerCat/CVE-2021-30632) :  ![starts](https://img.shields.io/github/stars/CrackerCat/CVE-2021-30632.svg) ![forks](https://img.shields.io/github/forks/CrackerCat/CVE-2021-30632.svg)
 
 
 ## CVE-2021-3156
  Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
 
-- [https://github.com/Bubleh21/CVE-2021-3156](https://github.com/Bubleh21/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Bubleh21/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Bubleh21/CVE-2021-3156.svg)
+- [https://github.com/Exodusro/CVE-2021-3156](https://github.com/Exodusro/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Exodusro/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Exodusro/CVE-2021-3156.svg)
 
 
-## CVE-2020-10915
- This vulnerability allows remote attackers to execute arbitrary code on affected installations of VEEAM One Agent 9.5.4.4587. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HandshakeResult method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-10401.
+## CVE-2021-3129
+ Ignition before 2.5.2, as used in Laravel and other products, allows unauthenticated remote attackers to execute arbitrary code because of insecure usage of file_get_contents() and file_put_contents(). This is exploitable on sites using debug mode with Laravel before 8.4.2.
 
-- [https://github.com/Cinnamon1212/Modified-CVE-2020-10915-MsfModule](https://github.com/Cinnamon1212/Modified-CVE-2020-10915-MsfModule) :  ![starts](https://img.shields.io/github/stars/Cinnamon1212/Modified-CVE-2020-10915-MsfModule.svg) ![forks](https://img.shields.io/github/forks/Cinnamon1212/Modified-CVE-2020-10915-MsfModule.svg)
-
-
-## CVE-2020-1362
- An elevation of privilege vulnerability exists in the way that the Windows WalletService handles objects in memory, aka 'Windows WalletService Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-1344, CVE-2020-1369.
-
-- [https://github.com/Q4n/CVE-2020-1362](https://github.com/Q4n/CVE-2020-1362) :  ![starts](https://img.shields.io/github/stars/Q4n/CVE-2020-1362.svg) ![forks](https://img.shields.io/github/forks/Q4n/CVE-2020-1362.svg)
+- [https://github.com/nth347/CVE-2021-3129_exploit](https://github.com/nth347/CVE-2021-3129_exploit) :  ![starts](https://img.shields.io/github/stars/nth347/CVE-2021-3129_exploit.svg) ![forks](https://img.shields.io/github/forks/nth347/CVE-2021-3129_exploit.svg)
 
 
-## CVE-2019-9081
- The Illuminate component of Laravel Framework 5.7.x has a deserialization vulnerability that can lead to remote code execution if the content is controllable, related to the __destruct method of the PendingCommand class in PendingCommand.php.
+## CVE-2020-35488
+ The fileop module of the NXLog service in NXLog Community Edition 2.10.2150 allows remote attackers to cause a denial of service (daemon crash) via a crafted Syslog payload to the Syslog service. This attack requires a specific configuration. Also, the name of the directory created must use a Syslog field. (For example, on Linux it is not possible to create a .. directory. On Windows, it is not possible to create a CON directory.)
 
-- [https://github.com/nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC) :  ![starts](https://img.shields.io/github/stars/nth347/CVE-2019-9081_PoC.svg) ![forks](https://img.shields.io/github/forks/nth347/CVE-2019-9081_PoC.svg)
-
-
-## CVE-2018-14772
- Pydio 4.2.1 through 8.2.1 has an authenticated remote code execution vulnerability in which an attacker with administrator access to the web application can execute arbitrary code on the underlying system via Command Injection.
-
-- [https://github.com/killvxk/CVE-2018-14772](https://github.com/killvxk/CVE-2018-14772) :  ![starts](https://img.shields.io/github/stars/killvxk/CVE-2018-14772.svg) ![forks](https://img.shields.io/github/forks/killvxk/CVE-2018-14772.svg)
+- [https://github.com/githubfoam/nxlog-ubuntu-githubactions](https://github.com/githubfoam/nxlog-ubuntu-githubactions) :  ![starts](https://img.shields.io/github/stars/githubfoam/nxlog-ubuntu-githubactions.svg) ![forks](https://img.shields.io/github/forks/githubfoam/nxlog-ubuntu-githubactions.svg)
 
 
-## CVE-2018-12636
- The iThemes Security (better-wp-security) plugin before 7.0.3 for WordPress allows SQL Injection (by attackers with Admin privileges) via the logs page.
+## CVE-2020-2555
+ Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (component: Caching,CacheStore,Invocation). Supported versions that are affected are 3.7.1.0, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle Coherence. Successful attacks of this vulnerability can result in takeover of Oracle Coherence. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 
-- [https://github.com/nth347/CVE-2018-12636_exploit](https://github.com/nth347/CVE-2018-12636_exploit) :  ![starts](https://img.shields.io/github/stars/nth347/CVE-2018-12636_exploit.svg) ![forks](https://img.shields.io/github/forks/nth347/CVE-2018-12636_exploit.svg)
-
-
-## CVE-2018-11235
- In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 2.16.4, and 2.17.x before 2.17.1, remote code execution can occur. With a crafted .gitmodules file, a malicious project can execute an arbitrary script on a machine that runs &quot;git clone --recurse-submodules&quot; because submodule &quot;names&quot; are obtained from this file, and then appended to $GIT_DIR/modules, leading to directory traversal with &quot;../&quot; in a name. Finally, post-checkout hooks from a submodule are executed, bypassing the intended design in which hooks are not obtained from a remote server.
-
-- [https://github.com/ItsFadinG/CVE-2018-11235](https://github.com/ItsFadinG/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/ItsFadinG/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/ItsFadinG/CVE-2018-11235.svg)
+- [https://github.com/gobysec/GobyVuls](https://github.com/gobysec/GobyVuls) :  ![starts](https://img.shields.io/github/stars/gobysec/GobyVuls.svg) ![forks](https://img.shields.io/github/forks/gobysec/GobyVuls.svg)
 
 
-## CVE-2018-3810
- Authentication Bypass vulnerability in the Oturia Smart Google Code Inserter plugin before 3.5 for WordPress allows unauthenticated attackers to insert arbitrary JavaScript or HTML code (via the sgcgoogleanalytic parameter) that runs on all pages served by WordPress. The saveGoogleCode() function in smartgooglecode.php does not check if the current request is made by an authorized user, thus allowing any unauthenticated user to successfully update the inserted code.
+## CVE-2019-5736
+ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allows attackers to overwrite the host runc binary (and consequently obtain host root access) by leveraging the ability to execute a command as root within one of these types of containers: (1) a new container with an attacker-controlled image, or (2) an existing container, to which the attacker previously had write access, that can be attached with docker exec. This occurs because of file-descriptor mishandling, related to /proc/self/exe.
 
-- [https://github.com/nth347/CVE-2018-3810_exploit](https://github.com/nth347/CVE-2018-3810_exploit) :  ![starts](https://img.shields.io/github/stars/nth347/CVE-2018-3810_exploit.svg) ![forks](https://img.shields.io/github/forks/nth347/CVE-2018-3810_exploit.svg)
+- [https://github.com/geropl/CVE-2019-5736](https://github.com/geropl/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/geropl/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/geropl/CVE-2019-5736.svg)
+
+
+## CVE-2017-3241
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: RMI). Supported versions that are affected are Java SE: 6u131, 7u121 and 8u112; Java SE Embedded: 8u111; JRockit: R28.3.12. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. While the vulnerability is in Java SE, Java SE Embedded, JRockit, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS v3.0 Base Score 9.0 (Confidentiality, Integrity and Availability impacts).
+
+- [https://github.com/scopion/CVE-2017-3241](https://github.com/scopion/CVE-2017-3241) :  ![starts](https://img.shields.io/github/stars/scopion/CVE-2017-3241.svg) ![forks](https://img.shields.io/github/forks/scopion/CVE-2017-3241.svg)
 
