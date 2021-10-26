@@ -27419,6 +27419,8 @@
 
 - [https://github.com/rafaelh/CVE-2000-0649](https://github.com/rafaelh/CVE-2000-0649) :  ![starts](https://img.shields.io/github/stars/rafaelh/CVE-2000-0649.svg) ![forks](https://img.shields.io/github/forks/rafaelh/CVE-2000-0649.svg)
 
+- [https://github.com/stevenvegar/cve-2000-0649](https://github.com/stevenvegar/cve-2000-0649) :  ![starts](https://img.shields.io/github/stars/stevenvegar/cve-2000-0649.svg) ![forks](https://img.shields.io/github/forks/stevenvegar/cve-2000-0649.svg)
+
 ## CVE-2000-0170
  Buffer overflow in the man program in Linux allows local users to gain privileges via the MANPAGER environmental variable.
 
