@@ -24671,7 +24671,7 @@
 
 - [https://github.com/neu5ron/cve_2015-1635](https://github.com/neu5ron/cve_2015-1635) :  ![starts](https://img.shields.io/github/stars/neu5ron/cve_2015-1635.svg) ![forks](https://img.shields.io/github/forks/neu5ron/cve_2015-1635.svg)
 
-- [https://github.com/limkokhole/CVE-2015-1635](https://github.com/limkokhole/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/limkokhole/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/limkokhole/CVE-2015-1635.svg)
+- [https://github.com/limkokholefork/CVE-2015-1635](https://github.com/limkokholefork/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/limkokholefork/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/CVE-2015-1635.svg)
 
 - [https://github.com/u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS) :  ![starts](https://img.shields.io/github/stars/u0pattern/Remove-IIS-RIIS.svg) ![forks](https://img.shields.io/github/forks/u0pattern/Remove-IIS-RIIS.svg)
 
@@ -24860,7 +24860,7 @@
 
 - [https://github.com/chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235) :  ![starts](https://img.shields.io/github/stars/chayim/GHOSTCHECK-cve-2015-0235.svg) ![forks](https://img.shields.io/github/forks/chayim/GHOSTCHECK-cve-2015-0235.svg)
 
-- [https://github.com/limkokhole/GHOSTCHECK-cve-2015-0235](https://github.com/limkokhole/GHOSTCHECK-cve-2015-0235) :  ![starts](https://img.shields.io/github/stars/limkokhole/GHOSTCHECK-cve-2015-0235.svg) ![forks](https://img.shields.io/github/forks/limkokhole/GHOSTCHECK-cve-2015-0235.svg)
+- [https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235) :  ![starts](https://img.shields.io/github/stars/limkokholefork/GHOSTCHECK-cve-2015-0235.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/GHOSTCHECK-cve-2015-0235.svg)
 
 - [https://github.com/adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST) :  ![starts](https://img.shields.io/github/stars/adherzog/ansible-CVE-2015-0235-GHOST.svg) ![forks](https://img.shields.io/github/forks/adherzog/ansible-CVE-2015-0235-GHOST.svg)
 
