@@ -24165,9 +24165,9 @@
 
 - [https://github.com/JustDenisYT/glibc-patcher](https://github.com/JustDenisYT/glibc-patcher) :  ![starts](https://img.shields.io/github/stars/JustDenisYT/glibc-patcher.svg) ![forks](https://img.shields.io/github/forks/JustDenisYT/glibc-patcher.svg)
 
-- [https://github.com/bluebluelan/CVE-2015-7547-proj-master](https://github.com/bluebluelan/CVE-2015-7547-proj-master) :  ![starts](https://img.shields.io/github/stars/bluebluelan/CVE-2015-7547-proj-master.svg) ![forks](https://img.shields.io/github/forks/bluebluelan/CVE-2015-7547-proj-master.svg)
-
 - [https://github.com/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547](https://github.com/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547) :  ![starts](https://img.shields.io/github/stars/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547.svg) ![forks](https://img.shields.io/github/forks/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547.svg)
+
+- [https://github.com/bluebluelan/CVE-2015-7547-proj-master](https://github.com/bluebluelan/CVE-2015-7547-proj-master) :  ![starts](https://img.shields.io/github/stars/bluebluelan/CVE-2015-7547-proj-master.svg) ![forks](https://img.shields.io/github/forks/bluebluelan/CVE-2015-7547-proj-master.svg)
 
 - [https://github.com/rexifiles/rex-sec-glibc](https://github.com/rexifiles/rex-sec-glibc) :  ![starts](https://img.shields.io/github/stars/rexifiles/rex-sec-glibc.svg) ![forks](https://img.shields.io/github/forks/rexifiles/rex-sec-glibc.svg)
 
@@ -24762,9 +24762,9 @@
 
 - [https://github.com/u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS) :  ![starts](https://img.shields.io/github/stars/u0pattern/Remove-IIS-RIIS.svg) ![forks](https://img.shields.io/github/forks/u0pattern/Remove-IIS-RIIS.svg)
 
-- [https://github.com/1nf1n17yk1ng/CVE-2015-1635](https://github.com/1nf1n17yk1ng/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/1nf1n17yk1ng/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/1nf1n17yk1ng/CVE-2015-1635.svg)
-
 - [https://github.com/nksf7/CVE-2015-1635](https://github.com/nksf7/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/nksf7/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/nksf7/CVE-2015-1635.svg)
+
+- [https://github.com/1nf1n17yk1ng/CVE-2015-1635](https://github.com/1nf1n17yk1ng/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/1nf1n17yk1ng/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/1nf1n17yk1ng/CVE-2015-1635.svg)
 
 - [https://github.com/1nf1n17yk1ng/CVE-2015-1635-POC](https://github.com/1nf1n17yk1ng/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/1nf1n17yk1ng/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/1nf1n17yk1ng/CVE-2015-1635-POC.svg)
 
