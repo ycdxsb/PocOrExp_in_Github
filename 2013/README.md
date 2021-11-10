@@ -245,6 +245,13 @@
 
 - [https://github.com/SPlayer1248/Payload_CVE_2013_2186](https://github.com/SPlayer1248/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/SPlayer1248/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/SPlayer1248/Payload_CVE_2013_2186.svg)
 
+## CVE-2013-2165
+ ResourceBuilderImpl.java in the RichFaces 3.x through 5.x implementation in Red Hat JBoss Web Framework Kit before 2.3.0, Red Hat JBoss Web Platform through 5.2.0, Red Hat JBoss Enterprise Application Platform through 4.3.0 CP10 and 5.x through 5.2.0, Red Hat JBoss BRMS through 5.3.1, Red Hat JBoss SOA Platform through 4.3.0 CP05 and 5.x through 5.3.1, Red Hat JBoss Portal through 4.3 CP07 and 5.x through 5.2.2, and Red Hat JBoss Operations Network through 2.4.2 and 3.x through 3.1.2 does not restrict the classes for which deserialization methods can be called, which allows remote attackers to execute arbitrary code via crafted serialized data.
+
+
+
+- [https://github.com/Pastea/CVE-2013-2165](https://github.com/Pastea/CVE-2013-2165) :  ![starts](https://img.shields.io/github/stars/Pastea/CVE-2013-2165.svg) ![forks](https://img.shields.io/github/forks/Pastea/CVE-2013-2165.svg)
+
 ## CVE-2013-2094
  The perf_swevent_init function in kernel/events/core.c in the Linux kernel before 3.8.9 uses an incorrect integer data type, which allows local users to gain privileges via a crafted perf_event_open system call.
 
