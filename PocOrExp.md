@@ -26890,6 +26890,13 @@
 
 
 ## 2011
+## CVE-2011-5331
+ Distributed Ruby (aka DRuby) 1.8 mishandles instance_eval.
+
+
+
+- [https://github.com/tomquinn8/CVE-2011-5331](https://github.com/tomquinn8/CVE-2011-5331) :  ![starts](https://img.shields.io/github/stars/tomquinn8/CVE-2011-5331.svg) ![forks](https://img.shields.io/github/forks/tomquinn8/CVE-2011-5331.svg)
+
 ## CVE-2011-4919
  mpack 1.6 has information disclosure via eavesdropping on mails sent by other users
 
