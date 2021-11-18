@@ -1,36 +1,36 @@
-# Update 2021-11-17
-## CVE-2020-28653
- Zoho ManageEngine OpManager Stable build before 125203 (and Released build before 125233) allows Remote Code Execution via the Smart Update Manager (SUM) servlet.
+# Update 2021-11-18
+## CVE-2021-21300
+ Git is an open-source distributed revision control system. In affected versions of Git a specially crafted repository that contains symbolic links as well as files using a clean/smudge filter such as Git LFS, may cause just-checked out script to be executed while cloning onto a case-insensitive file system such as NTFS, HFS+ or APFS (i.e. the default file systems on Windows and macOS). Note that clean/smudge filters have to be configured for that. Git for Windows configures Git LFS by default, and is therefore vulnerable. The problem has been patched in the versions published on Tuesday, March 9th, 2021. As a workaound, if symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. Likewise, if no clean/smudge filters such as Git LFS are configured globally (i.e. _before_ cloning), the attack is foiled. As always, it is best to avoid cloning repositories from untrusted sources. The earliest impacted version is 2.14.2. The fix versions are: 2.30.1, 2.29.3, 2.28.1, 2.27.1, 2.26.3, 2.25.5, 2.24.4, 2.23.4, 2.22.5, 2.21.4, 2.20.5, 2.19.6, 2.18.5, 2.17.62.17.6.
 
-- [https://github.com/intrigueio/cve-2020-28653-poc](https://github.com/intrigueio/cve-2020-28653-poc) :  ![starts](https://img.shields.io/github/stars/intrigueio/cve-2020-28653-poc.svg) ![forks](https://img.shields.io/github/forks/intrigueio/cve-2020-28653-poc.svg)
-
-
-## CVE-2020-2883
- Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP, T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
-
-- [https://github.com/Qynklee/POC_CVE-2020-2883](https://github.com/Qynklee/POC_CVE-2020-2883) :  ![starts](https://img.shields.io/github/stars/Qynklee/POC_CVE-2020-2883.svg) ![forks](https://img.shields.io/github/forks/Qynklee/POC_CVE-2020-2883.svg)
+- [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
 
 
-## CVE-2020-2555
- Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (component: Caching,CacheStore,Invocation). Supported versions that are affected are 3.7.1.0, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle Coherence. Successful attacks of this vulnerability can result in takeover of Oracle Coherence. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+## CVE-2020-35314
+ A remote code execution vulnerability in the installUpdateThemePluginAction function in index.php in WonderCMS 3.1.3, allows remote attackers to upload a custom plugin which can contain arbitrary code and obtain a webshell via the theme/plugin installer.
 
-- [https://github.com/Qynklee/POC_CVE-2020-2555](https://github.com/Qynklee/POC_CVE-2020-2555) :  ![starts](https://img.shields.io/github/stars/Qynklee/POC_CVE-2020-2555.svg) ![forks](https://img.shields.io/github/forks/Qynklee/POC_CVE-2020-2555.svg)
-
-
-## CVE-2019-15231
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2019-15107. Reason: This candidate is a duplicate of CVE-2019-15107. Notes: All CVE users should reference CVE-2019-15107 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
-
-- [https://github.com/SlizBinksman/THM-Source-CVE-2019-15231](https://github.com/SlizBinksman/THM-Source-CVE-2019-15231) :  ![starts](https://img.shields.io/github/stars/SlizBinksman/THM-Source-CVE-2019-15231.svg) ![forks](https://img.shields.io/github/forks/SlizBinksman/THM-Source-CVE-2019-15231.svg)
+- [https://github.com/ybdegit2020/wonderplugin](https://github.com/ybdegit2020/wonderplugin) :  ![starts](https://img.shields.io/github/stars/ybdegit2020/wonderplugin.svg) ![forks](https://img.shields.io/github/forks/ybdegit2020/wonderplugin.svg)
 
 
-## CVE-2018-20148
- In WordPress before 4.9.9 and 5.x before 5.0.1, contributors could conduct PHP object injection attacks via crafted metadata in a wp.getMediaItem XMLRPC call. This is caused by mishandling of serialized data at phar:// URLs in the wp_get_attachment_thumb_file function in wp-includes/post.php.
+## CVE-2020-28032
+ WordPress before 5.5.2 mishandles deserialization requests in wp-includes/Requests/Utility/FilteredIterator.php.
 
-- [https://github.com/nth347/CVE-2018-20148_exploit](https://github.com/nth347/CVE-2018-20148_exploit) :  ![starts](https://img.shields.io/github/stars/nth347/CVE-2018-20148_exploit.svg) ![forks](https://img.shields.io/github/forks/nth347/CVE-2018-20148_exploit.svg)
+- [https://github.com/nth347/CVE-2020-28032_PoC](https://github.com/nth347/CVE-2020-28032_PoC) :  ![starts](https://img.shields.io/github/stars/nth347/CVE-2020-28032_PoC.svg) ![forks](https://img.shields.io/github/forks/nth347/CVE-2020-28032_PoC.svg)
 
 
-## CVE-2011-5331
- Distributed Ruby (aka DRuby) 1.8 mishandles instance_eval.
+## CVE-2020-0787
+ An elevation of privilege vulnerability exists when the Windows Background Intelligent Transfer Service (BITS) improperly handles symbolic links, aka 'Windows Background Intelligent Transfer Service Elevation of Privilege Vulnerability'.
 
-- [https://github.com/tomquinn8/CVE-2011-5331](https://github.com/tomquinn8/CVE-2011-5331) :  ![starts](https://img.shields.io/github/stars/tomquinn8/CVE-2011-5331.svg) ![forks](https://img.shields.io/github/forks/tomquinn8/CVE-2011-5331.svg)
+- [https://github.com/yanghaoi/CVE-2020-0787](https://github.com/yanghaoi/CVE-2020-0787) :  ![starts](https://img.shields.io/github/stars/yanghaoi/CVE-2020-0787.svg) ![forks](https://img.shields.io/github/forks/yanghaoi/CVE-2020-0787.svg)
+
+
+## CVE-2019-1388
+ An elevation of privilege vulnerability exists in the Windows Certificate Dialog when it does not properly enforce user privileges, aka 'Windows Certificate Dialog Elevation of Privilege Vulnerability'.
+
+- [https://github.com/sv3nbeast/CVE-2019-1388](https://github.com/sv3nbeast/CVE-2019-1388) :  ![starts](https://img.shields.io/github/stars/sv3nbeast/CVE-2019-1388.svg) ![forks](https://img.shields.io/github/forks/sv3nbeast/CVE-2019-1388.svg)
+
+
+## CVE-2018-19571
+ GitLab CE/EE, versions 8.18 up to 11.x before 11.3.11, 11.4 before 11.4.8, and 11.5 before 11.5.1, are vulnerable to an SSRF vulnerability in webhooks.
+
+- [https://github.com/CS4239-U6/gitlab-ssrf](https://github.com/CS4239-U6/gitlab-ssrf) :  ![starts](https://img.shields.io/github/stars/CS4239-U6/gitlab-ssrf.svg) ![forks](https://img.shields.io/github/forks/CS4239-U6/gitlab-ssrf.svg)
 
