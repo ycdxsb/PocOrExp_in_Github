@@ -26382,9 +26382,9 @@
 
 
 
-- [https://github.com/lagartojuancho/CVE-2013-3664_BMP](https://github.com/lagartojuancho/CVE-2013-3664_BMP) :  ![starts](https://img.shields.io/github/stars/lagartojuancho/CVE-2013-3664_BMP.svg) ![forks](https://img.shields.io/github/forks/lagartojuancho/CVE-2013-3664_BMP.svg)
-
 - [https://github.com/lagartojuancho/CVE-2013-3664_MAC](https://github.com/lagartojuancho/CVE-2013-3664_MAC) :  ![starts](https://img.shields.io/github/stars/lagartojuancho/CVE-2013-3664_MAC.svg) ![forks](https://img.shields.io/github/forks/lagartojuancho/CVE-2013-3664_MAC.svg)
+
+- [https://github.com/lagartojuancho/CVE-2013-3664_BMP](https://github.com/lagartojuancho/CVE-2013-3664_BMP) :  ![starts](https://img.shields.io/github/stars/lagartojuancho/CVE-2013-3664_BMP.svg) ![forks](https://img.shields.io/github/forks/lagartojuancho/CVE-2013-3664_BMP.svg)
 
 ## CVE-2013-3651
  LOCKON EC-CUBE 2.11.2 through 2.12.4 allows remote attackers to conduct unspecified PHP code-injection attacks via a crafted string, related to data/class/SC_CheckError.php and data/class/SC_FormParam.php.
@@ -26480,6 +26480,13 @@
 - [https://github.com/SPlayer1248/CVE_2013_2186](https://github.com/SPlayer1248/CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/SPlayer1248/CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/SPlayer1248/CVE_2013_2186.svg)
 
 - [https://github.com/SPlayer1248/Payload_CVE_2013_2186](https://github.com/SPlayer1248/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/SPlayer1248/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/SPlayer1248/Payload_CVE_2013_2186.svg)
+
+## CVE-2013-2171
+ The vm_map_lookup function in sys/vm/vm_map.c in the mmap implementation in the kernel in FreeBSD 9.0 through 9.1-RELEASE-p4 does not properly determine whether a task should have write access to a memory location, which allows local users to bypass filesystem write permissions and consequently gain privileges via a crafted application that leverages read permissions, and makes mmap and ptrace system calls.
+
+
+
+- [https://github.com/Gabriel-Lima232/FreeBSD-9.0-9.1-Privilege-Escalation](https://github.com/Gabriel-Lima232/FreeBSD-9.0-9.1-Privilege-Escalation) :  ![starts](https://img.shields.io/github/stars/Gabriel-Lima232/FreeBSD-9.0-9.1-Privilege-Escalation.svg) ![forks](https://img.shields.io/github/forks/Gabriel-Lima232/FreeBSD-9.0-9.1-Privilege-Escalation.svg)
 
 ## CVE-2013-2165
  ResourceBuilderImpl.java in the RichFaces 3.x through 5.x implementation in Red Hat JBoss Web Framework Kit before 2.3.0, Red Hat JBoss Web Platform through 5.2.0, Red Hat JBoss Enterprise Application Platform through 4.3.0 CP10 and 5.x through 5.2.0, Red Hat JBoss BRMS through 5.3.1, Red Hat JBoss SOA Platform through 4.3.0 CP05 and 5.x through 5.3.1, Red Hat JBoss Portal through 4.3 CP07 and 5.x through 5.2.2, and Red Hat JBoss Operations Network through 2.4.2 and 3.x through 3.1.2 does not restrict the classes for which deserialization methods can be called, which allows remote attackers to execute arbitrary code via crafted serialized data.
