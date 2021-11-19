@@ -1,36 +1,37 @@
-# Update 2021-11-18
-## CVE-2021-21300
- Git is an open-source distributed revision control system. In affected versions of Git a specially crafted repository that contains symbolic links as well as files using a clean/smudge filter such as Git LFS, may cause just-checked out script to be executed while cloning onto a case-insensitive file system such as NTFS, HFS+ or APFS (i.e. the default file systems on Windows and macOS). Note that clean/smudge filters have to be configured for that. Git for Windows configures Git LFS by default, and is therefore vulnerable. The problem has been patched in the versions published on Tuesday, March 9th, 2021. As a workaound, if symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. Likewise, if no clean/smudge filters such as Git LFS are configured globally (i.e. _before_ cloning), the attack is foiled. As always, it is best to avoid cloning repositories from untrusted sources. The earliest impacted version is 2.14.2. The fix versions are: 2.30.1, 2.29.3, 2.28.1, 2.27.1, 2.26.3, 2.25.5, 2.24.4, 2.23.4, 2.22.5, 2.21.4, 2.20.5, 2.19.6, 2.18.5, 2.17.62.17.6.
+# Update 2021-11-19
+## CVE-2021-37580
+ A flaw was found in Apache ShenYu Admin. The incorrect use of JWT in ShenyuAdminBootstrap allows an attacker to bypass authentication. This issue affected Apache ShenYu 2.3.0 and 2.4.0
 
-- [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
-
-
-## CVE-2020-35314
- A remote code execution vulnerability in the installUpdateThemePluginAction function in index.php in WonderCMS 3.1.3, allows remote attackers to upload a custom plugin which can contain arbitrary code and obtain a webshell via the theme/plugin installer.
-
-- [https://github.com/ybdegit2020/wonderplugin](https://github.com/ybdegit2020/wonderplugin) :  ![starts](https://img.shields.io/github/stars/ybdegit2020/wonderplugin.svg) ![forks](https://img.shields.io/github/forks/ybdegit2020/wonderplugin.svg)
+- [https://github.com/fengwenhua/CVE-2021-37580](https://github.com/fengwenhua/CVE-2021-37580) :  ![starts](https://img.shields.io/github/stars/fengwenhua/CVE-2021-37580.svg) ![forks](https://img.shields.io/github/forks/fengwenhua/CVE-2021-37580.svg)
+- [https://github.com/rabbitsafe/CVE-2021-37580](https://github.com/rabbitsafe/CVE-2021-37580) :  ![starts](https://img.shields.io/github/stars/rabbitsafe/CVE-2021-37580.svg) ![forks](https://img.shields.io/github/forks/rabbitsafe/CVE-2021-37580.svg)
 
 
-## CVE-2020-28032
- WordPress before 5.5.2 mishandles deserialization requests in wp-includes/Requests/Utility/FilteredIterator.php.
+## CVE-2020-7740
+ This affects all versions of package node-pdf-generator. Due to lack of user input validation and sanitization done to the content given to node-pdf-generator, it is possible for an attacker to craft a url that will be passed to an external server allowing an SSRF attack.
 
-- [https://github.com/nth347/CVE-2020-28032_PoC](https://github.com/nth347/CVE-2020-28032_PoC) :  ![starts](https://img.shields.io/github/stars/nth347/CVE-2020-28032_PoC.svg) ![forks](https://img.shields.io/github/forks/nth347/CVE-2020-28032_PoC.svg)
-
-
-## CVE-2020-0787
- An elevation of privilege vulnerability exists when the Windows Background Intelligent Transfer Service (BITS) improperly handles symbolic links, aka 'Windows Background Intelligent Transfer Service Elevation of Privilege Vulnerability'.
-
-- [https://github.com/yanghaoi/CVE-2020-0787](https://github.com/yanghaoi/CVE-2020-0787) :  ![starts](https://img.shields.io/github/stars/yanghaoi/CVE-2020-0787.svg) ![forks](https://img.shields.io/github/forks/yanghaoi/CVE-2020-0787.svg)
+- [https://github.com/CS4239-U6/node-pdf-generator-ssrf](https://github.com/CS4239-U6/node-pdf-generator-ssrf) :  ![starts](https://img.shields.io/github/stars/CS4239-U6/node-pdf-generator-ssrf.svg) ![forks](https://img.shields.io/github/forks/CS4239-U6/node-pdf-generator-ssrf.svg)
 
 
-## CVE-2019-1388
- An elevation of privilege vulnerability exists in the Windows Certificate Dialog when it does not properly enforce user privileges, aka 'Windows Certificate Dialog Elevation of Privilege Vulnerability'.
+## CVE-2019-6249
+ An issue was discovered in HuCart v5.7.4. There is a CSRF vulnerability that can add an admin account via /adminsys/index.php?load=admins&amp;act=edit_info&amp;act_type=add.
 
-- [https://github.com/sv3nbeast/CVE-2019-1388](https://github.com/sv3nbeast/CVE-2019-1388) :  ![starts](https://img.shields.io/github/stars/sv3nbeast/CVE-2019-1388.svg) ![forks](https://img.shields.io/github/forks/sv3nbeast/CVE-2019-1388.svg)
+- [https://github.com/AlphabugX/CVE-2019-6249_Hucart-cms](https://github.com/AlphabugX/CVE-2019-6249_Hucart-cms) :  ![starts](https://img.shields.io/github/stars/AlphabugX/CVE-2019-6249_Hucart-cms.svg) ![forks](https://img.shields.io/github/forks/AlphabugX/CVE-2019-6249_Hucart-cms.svg)
 
 
-## CVE-2018-19571
- GitLab CE/EE, versions 8.18 up to 11.x before 11.3.11, 11.4 before 11.4.8, and 11.5 before 11.5.1, are vulnerable to an SSRF vulnerability in webhooks.
+## CVE-2017-17562
+ Embedthis GoAhead before 3.6.5 allows remote code execution if CGI is enabled and a CGI program is dynamically linked. This is a result of initializing the environment of forked CGI scripts using untrusted HTTP request parameters in the cgiHandler function in cgi.c. When combined with the glibc dynamic linker, this behaviour can be abused for remote code execution using special parameter names such as LD_PRELOAD. An attacker can POST their shared object payload in the body of the request, and reference it using /proc/self/fd/0.
 
-- [https://github.com/CS4239-U6/gitlab-ssrf](https://github.com/CS4239-U6/gitlab-ssrf) :  ![starts](https://img.shields.io/github/stars/CS4239-U6/gitlab-ssrf.svg) ![forks](https://img.shields.io/github/forks/CS4239-U6/gitlab-ssrf.svg)
+- [https://github.com/freitzzz/bash-CVE-2017-17562](https://github.com/freitzzz/bash-CVE-2017-17562) :  ![starts](https://img.shields.io/github/stars/freitzzz/bash-CVE-2017-17562.svg) ![forks](https://img.shields.io/github/forks/freitzzz/bash-CVE-2017-17562.svg)
+
+
+## CVE-2017-16226
+ The static-eval module is intended to evaluate statically-analyzable expressions. In affected versions, untrusted user input is able to access the global function constructor, effectively allowing arbitrary code execution.
+
+- [https://github.com/ossf-cve-benchmark/CVE-2017-16226](https://github.com/ossf-cve-benchmark/CVE-2017-16226) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-16226.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-16226.svg)
+
+
+## CVE-2013-2171
+ The vm_map_lookup function in sys/vm/vm_map.c in the mmap implementation in the kernel in FreeBSD 9.0 through 9.1-RELEASE-p4 does not properly determine whether a task should have write access to a memory location, which allows local users to bypass filesystem write permissions and consequently gain privileges via a crafted application that leverages read permissions, and makes mmap and ptrace system calls.
+
+- [https://github.com/Gabriel-Lima232/FreeBSD-9.0-9.1-Privilege-Escalation](https://github.com/Gabriel-Lima232/FreeBSD-9.0-9.1-Privilege-Escalation) :  ![starts](https://img.shields.io/github/stars/Gabriel-Lima232/FreeBSD-9.0-9.1-Privilege-Escalation.svg) ![forks](https://img.shields.io/github/forks/Gabriel-Lima232/FreeBSD-9.0-9.1-Privilege-Escalation.svg)
 
