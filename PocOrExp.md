@@ -16133,6 +16133,8 @@
 
 - [https://github.com/k4is3r13/Bash-Script-CVE-2018-16763](https://github.com/k4is3r13/Bash-Script-CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/k4is3r13/Bash-Script-CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/k4is3r13/Bash-Script-CVE-2018-16763.svg)
 
+- [https://github.com/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763.svg)
+
 - [https://github.com/uwueviee/Fu3l-F1lt3r](https://github.com/uwueviee/Fu3l-F1lt3r) :  ![starts](https://img.shields.io/github/stars/uwueviee/Fu3l-F1lt3r.svg) ![forks](https://img.shields.io/github/forks/uwueviee/Fu3l-F1lt3r.svg)
 
 ## CVE-2018-16713
@@ -17732,11 +17734,11 @@
 
 - [https://github.com/delina1/CVE-2018-8174](https://github.com/delina1/CVE-2018-8174) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174.svg)
 
-- [https://github.com/delina1/CVE-2018-8174_EXP](https://github.com/delina1/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174_EXP.svg)
-
 - [https://github.com/w16692926717/CVE-2018-8174_EXP](https://github.com/w16692926717/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/w16692926717/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/w16692926717/CVE-2018-8174_EXP.svg)
 
 - [https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/DarkFlameMaster-bit/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/DarkFlameMaster-bit/CVE-2018-8174_EXP.svg)
+
+- [https://github.com/delina1/CVE-2018-8174_EXP](https://github.com/delina1/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174_EXP.svg)
 
 - [https://github.com/ericisnotrealname/CVE-2018-8174_EXP](https://github.com/ericisnotrealname/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/ericisnotrealname/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/ericisnotrealname/CVE-2018-8174_EXP.svg)
 
@@ -18010,11 +18012,11 @@
 
 - [https://github.com/cved-sources/cve-2018-7600](https://github.com/cved-sources/cve-2018-7600) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2018-7600.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2018-7600.svg)
 
-- [https://github.com/0xAJ2K/CVE-2018-7600](https://github.com/0xAJ2K/CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/0xAJ2K/CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/0xAJ2K/CVE-2018-7600.svg)
-
 - [https://github.com/Jyozi/CVE-2018-7600](https://github.com/Jyozi/CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/Jyozi/CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/Jyozi/CVE-2018-7600.svg)
 
 - [https://github.com/happynote3966/CVE-2018-7600](https://github.com/happynote3966/CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/happynote3966/CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/happynote3966/CVE-2018-7600.svg)
+
+- [https://github.com/0xAJ2K/CVE-2018-7600](https://github.com/0xAJ2K/CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/0xAJ2K/CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/0xAJ2K/CVE-2018-7600.svg)
 
 - [https://github.com/rafaelcaria/drupalgeddon2-CVE-2018-7600](https://github.com/rafaelcaria/drupalgeddon2-CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/rafaelcaria/drupalgeddon2-CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/rafaelcaria/drupalgeddon2-CVE-2018-7600.svg)
 
@@ -18242,14 +18244,6 @@
 
 - [https://github.com/amil-ptl-test/ptl_cve_2018_6574](https://github.com/amil-ptl-test/ptl_cve_2018_6574) :  ![starts](https://img.shields.io/github/stars/amil-ptl-test/ptl_cve_2018_6574.svg) ![forks](https://img.shields.io/github/forks/amil-ptl-test/ptl_cve_2018_6574.svg)
 
-- [https://github.com/yitingfan/CVE-2018-6574_demo](https://github.com/yitingfan/CVE-2018-6574_demo) :  ![starts](https://img.shields.io/github/stars/yitingfan/CVE-2018-6574_demo.svg) ![forks](https://img.shields.io/github/forks/yitingfan/CVE-2018-6574_demo.svg)
-
-- [https://github.com/it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/it3x55/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/it3x55/CVE-2018-6574.svg)
-
-- [https://github.com/NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/NikolaT3sla/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/NikolaT3sla/cve-2018-6574.svg)
-
-- [https://github.com/AnKItdo/CVE_2018-6574](https://github.com/AnKItdo/CVE_2018-6574) :  ![starts](https://img.shields.io/github/stars/AnKItdo/CVE_2018-6574.svg) ![forks](https://img.shields.io/github/forks/AnKItdo/CVE_2018-6574.svg)
-
 - [https://github.com/Eugene24/CVE-2018-6574](https://github.com/Eugene24/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/Eugene24/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/Eugene24/CVE-2018-6574.svg)
 
 - [https://github.com/TakuCoder/CVE-2018-6574](https://github.com/TakuCoder/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/TakuCoder/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/TakuCoder/CVE-2018-6574.svg)
@@ -18261,6 +18255,14 @@
 - [https://github.com/noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/noobTest1122/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/noobTest1122/CVE-2018-6574.svg)
 
 - [https://github.com/R3dAlch3mist/cve-2018-6574](https://github.com/R3dAlch3mist/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/R3dAlch3mist/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/R3dAlch3mist/cve-2018-6574.svg)
+
+- [https://github.com/yitingfan/CVE-2018-6574_demo](https://github.com/yitingfan/CVE-2018-6574_demo) :  ![starts](https://img.shields.io/github/stars/yitingfan/CVE-2018-6574_demo.svg) ![forks](https://img.shields.io/github/forks/yitingfan/CVE-2018-6574_demo.svg)
+
+- [https://github.com/it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/it3x55/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/it3x55/CVE-2018-6574.svg)
+
+- [https://github.com/NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/NikolaT3sla/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/NikolaT3sla/cve-2018-6574.svg)
+
+- [https://github.com/AnKItdo/CVE_2018-6574](https://github.com/AnKItdo/CVE_2018-6574) :  ![starts](https://img.shields.io/github/stars/AnKItdo/CVE_2018-6574.svg) ![forks](https://img.shields.io/github/forks/AnKItdo/CVE_2018-6574.svg)
 
 - [https://github.com/kenprice/cve-2018-6574](https://github.com/kenprice/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/kenprice/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/kenprice/cve-2018-6574.svg)
 
@@ -18281,8 +18283,6 @@
 - [https://github.com/purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2) :  ![starts](https://img.shields.io/github/stars/purgedemo/CVE-2018-6574_2.svg) ![forks](https://img.shields.io/github/forks/purgedemo/CVE-2018-6574_2.svg)
 
 - [https://github.com/theJuan1112/pentesterlab-cve-2018-6574](https://github.com/theJuan1112/pentesterlab-cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/theJuan1112/pentesterlab-cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/theJuan1112/pentesterlab-cve-2018-6574.svg)
-
-- [https://github.com/asavior2/CVE-2018-6574](https://github.com/asavior2/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/asavior2/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/asavior2/CVE-2018-6574.svg)
 
 - [https://github.com/ahmetmanga/cve-2018-6574](https://github.com/ahmetmanga/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/ahmetmanga/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/ahmetmanga/cve-2018-6574.svg)
 
@@ -18305,6 +18305,8 @@
 - [https://github.com/PLP-Orange/cve-2018-6574-exercise](https://github.com/PLP-Orange/cve-2018-6574-exercise) :  ![starts](https://img.shields.io/github/stars/PLP-Orange/cve-2018-6574-exercise.svg) ![forks](https://img.shields.io/github/forks/PLP-Orange/cve-2018-6574-exercise.svg)
 
 - [https://github.com/l3ouu4n9/CVE-2018-6574-POC](https://github.com/l3ouu4n9/CVE-2018-6574-POC) :  ![starts](https://img.shields.io/github/stars/l3ouu4n9/CVE-2018-6574-POC.svg) ![forks](https://img.shields.io/github/forks/l3ouu4n9/CVE-2018-6574-POC.svg)
+
+- [https://github.com/asavior2/CVE-2018-6574](https://github.com/asavior2/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/asavior2/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/asavior2/CVE-2018-6574.svg)
 
 - [https://github.com/redirected/cve-2018-6574](https://github.com/redirected/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/redirected/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/redirected/cve-2018-6574.svg)
 
@@ -18775,9 +18777,9 @@
 
 - [https://github.com/FSecureLABS/CVE-2018-4121](https://github.com/FSecureLABS/CVE-2018-4121) :  ![starts](https://img.shields.io/github/stars/FSecureLABS/CVE-2018-4121.svg) ![forks](https://img.shields.io/github/forks/FSecureLABS/CVE-2018-4121.svg)
 
-- [https://github.com/likescam/CVE-2018-4121](https://github.com/likescam/CVE-2018-4121) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2018-4121.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2018-4121.svg)
-
 - [https://github.com/jezzus/CVE-2018-4121](https://github.com/jezzus/CVE-2018-4121) :  ![starts](https://img.shields.io/github/stars/jezzus/CVE-2018-4121.svg) ![forks](https://img.shields.io/github/forks/jezzus/CVE-2018-4121.svg)
+
+- [https://github.com/likescam/CVE-2018-4121](https://github.com/likescam/CVE-2018-4121) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2018-4121.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2018-4121.svg)
 
 ## CVE-2018-4110
  An issue was discovered in certain Apple products. iOS before 11.3 is affected. The issue involves the &quot;Web App&quot; component. It allows remote attackers to bypass intended restrictions on cookie persistence.
@@ -19553,9 +19555,9 @@
 
 - [https://github.com/Starry-lord/CVE-2018-0114](https://github.com/Starry-lord/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/Starry-lord/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/Starry-lord/CVE-2018-0114.svg)
 
-- [https://github.com/scumdestroy/CVE-2018-0114](https://github.com/scumdestroy/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/scumdestroy/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/scumdestroy/CVE-2018-0114.svg)
-
 - [https://github.com/mmeza-developer/CVE-2018-0114](https://github.com/mmeza-developer/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/mmeza-developer/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/mmeza-developer/CVE-2018-0114.svg)
+
+- [https://github.com/scumdestroy/CVE-2018-0114](https://github.com/scumdestroy/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/scumdestroy/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/scumdestroy/CVE-2018-0114.svg)
 
 - [https://github.com/Eremiel/CVE-2018-0114](https://github.com/Eremiel/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/Eremiel/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/Eremiel/CVE-2018-0114.svg)
 
