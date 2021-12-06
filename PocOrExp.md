@@ -25177,6 +25177,8 @@
 
 - [https://github.com/davidtavarez/CVE-2015-3306](https://github.com/davidtavarez/CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/davidtavarez/CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/davidtavarez/CVE-2015-3306.svg)
 
+- [https://github.com/m4udSec/ProFTPD_CVE-2015-3306](https://github.com/m4udSec/ProFTPD_CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/m4udSec/ProFTPD_CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/m4udSec/ProFTPD_CVE-2015-3306.svg)
+
 - [https://github.com/jptr218/proftpd_bypass](https://github.com/jptr218/proftpd_bypass) :  ![starts](https://img.shields.io/github/stars/jptr218/proftpd_bypass.svg) ![forks](https://img.shields.io/github/forks/jptr218/proftpd_bypass.svg)
 
 - [https://github.com/cved-sources/cve-2015-3306](https://github.com/cved-sources/cve-2015-3306) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-3306.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-3306.svg)
@@ -25184,8 +25186,6 @@
 - [https://github.com/hackarada/cve-2015-3306](https://github.com/hackarada/cve-2015-3306) :  ![starts](https://img.shields.io/github/stars/hackarada/cve-2015-3306.svg) ![forks](https://img.shields.io/github/forks/hackarada/cve-2015-3306.svg)
 
 - [https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit](https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit) :  ![starts](https://img.shields.io/github/stars/cdedmondson/Modified-CVE-2015-3306-Exploit.svg) ![forks](https://img.shields.io/github/forks/cdedmondson/Modified-CVE-2015-3306-Exploit.svg)
-
-- [https://github.com/m4udSec/ProFTPD_CVE-2015-3306](https://github.com/m4udSec/ProFTPD_CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/m4udSec/ProFTPD_CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/m4udSec/ProFTPD_CVE-2015-3306.svg)
 
 - [https://github.com/cd6629/CVE-2015-3306-Python-PoC](https://github.com/cd6629/CVE-2015-3306-Python-PoC) :  ![starts](https://img.shields.io/github/stars/cd6629/CVE-2015-3306-Python-PoC.svg) ![forks](https://img.shields.io/github/forks/cd6629/CVE-2015-3306-Python-PoC.svg)
 
@@ -25363,17 +25363,17 @@
 
 - [https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635](https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/Zx7ffa4512-Python/Project-CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/Zx7ffa4512-Python/Project-CVE-2015-1635.svg)
 
-- [https://github.com/neu5ron/cve_2015-1635](https://github.com/neu5ron/cve_2015-1635) :  ![starts](https://img.shields.io/github/stars/neu5ron/cve_2015-1635.svg) ![forks](https://img.shields.io/github/forks/neu5ron/cve_2015-1635.svg)
-
 - [https://github.com/bongbongco/MS15-034](https://github.com/bongbongco/MS15-034) :  ![starts](https://img.shields.io/github/stars/bongbongco/MS15-034.svg) ![forks](https://img.shields.io/github/forks/bongbongco/MS15-034.svg)
+
+- [https://github.com/neu5ron/cve_2015-1635](https://github.com/neu5ron/cve_2015-1635) :  ![starts](https://img.shields.io/github/stars/neu5ron/cve_2015-1635.svg) ![forks](https://img.shields.io/github/forks/neu5ron/cve_2015-1635.svg)
 
 - [https://github.com/limkokholefork/CVE-2015-1635](https://github.com/limkokholefork/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/limkokholefork/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/CVE-2015-1635.svg)
 
 - [https://github.com/u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS) :  ![starts](https://img.shields.io/github/stars/u0pattern/Remove-IIS-RIIS.svg) ![forks](https://img.shields.io/github/forks/u0pattern/Remove-IIS-RIIS.svg)
 
-- [https://github.com/1nf1n17yk1ng/CVE-2015-1635](https://github.com/1nf1n17yk1ng/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/1nf1n17yk1ng/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/1nf1n17yk1ng/CVE-2015-1635.svg)
-
 - [https://github.com/1nf1n17yk1ng/CVE-2015-1635-POC](https://github.com/1nf1n17yk1ng/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/1nf1n17yk1ng/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/1nf1n17yk1ng/CVE-2015-1635-POC.svg)
+
+- [https://github.com/1nf1n17yk1ng/CVE-2015-1635](https://github.com/1nf1n17yk1ng/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/1nf1n17yk1ng/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/1nf1n17yk1ng/CVE-2015-1635.svg)
 
 - [https://github.com/wiredaem0n/chk-ms15-034](https://github.com/wiredaem0n/chk-ms15-034) :  ![starts](https://img.shields.io/github/stars/wiredaem0n/chk-ms15-034.svg) ![forks](https://img.shields.io/github/forks/wiredaem0n/chk-ms15-034.svg)
 
@@ -25587,8 +25587,6 @@
 - [https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/nyc-tophile/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/nyc-tophile/A2SV--SSL-VUL-Scan.svg)
 
 - [https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204) :  ![starts](https://img.shields.io/github/stars/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204.svg) ![forks](https://img.shields.io/github/forks/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204.svg)
-
-- [https://github.com/felmoltor/FreakVulnChecker](https://github.com/felmoltor/FreakVulnChecker) :  ![starts](https://img.shields.io/github/stars/felmoltor/FreakVulnChecker.svg) ![forks](https://img.shields.io/github/forks/felmoltor/FreakVulnChecker.svg)
 
 ## CVE-2015-0072
  Cross-site scripting (XSS) vulnerability in Microsoft Internet Explorer 9 through 11 allows remote attackers to bypass the Same Origin Policy and inject arbitrary web script or HTML via vectors involving an IFRAME element that triggers a redirect, a second IFRAME element that does not trigger a redirect, and an eval of a WindowProxy object, aka &quot;Universal XSS (UXSS).&quot;
