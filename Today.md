@@ -1,30 +1,54 @@
-# Update 2021-12-06
-## CVE-2021-41081
- Zoho ManageEngine Network Configuration Manager before &#65279;&#65279;125465 is vulnerable to SQL Injection in a configuration search.
+# Update 2021-12-07
+## CVE-2021-41157
+ FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. By default, SIP requests of the type SUBSCRIBE are not authenticated in the affected versions of FreeSWITCH. Abuse of this security issue allows attackers to subscribe to user agent event notifications without the need to authenticate. This abuse poses privacy concerns and might lead to social engineering or similar attacks. For example, attackers may be able to monitor the status of target SIP extensions. Although this issue was fixed in version v1.10.6, installations upgraded to the fixed version of FreeSWITCH from an older version, may still be vulnerable if the configuration is not updated accordingly. Software upgrades do not update the configuration by default. SIP SUBSCRIBE messages should be authenticated by default so that FreeSWITCH administrators do not need to explicitly set the `auth-subscriptions` parameter. When following such a recommendation, a new parameter can be introduced to explicitly disable authentication.
 
-- [https://github.com/sudaiv/CVE-2021-41081](https://github.com/sudaiv/CVE-2021-41081) :  ![starts](https://img.shields.io/github/stars/sudaiv/CVE-2021-41081.svg) ![forks](https://img.shields.io/github/forks/sudaiv/CVE-2021-41081.svg)
-
-
-## CVE-2021-38314
- The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site&#8217;s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
-
-- [https://github.com/oxctdev/CVE-2021-38314](https://github.com/oxctdev/CVE-2021-38314) :  ![starts](https://img.shields.io/github/stars/oxctdev/CVE-2021-38314.svg) ![forks](https://img.shields.io/github/forks/oxctdev/CVE-2021-38314.svg)
+- [https://github.com/0xInfection/PewSWITCH](https://github.com/0xInfection/PewSWITCH) :  ![starts](https://img.shields.io/github/stars/0xInfection/PewSWITCH.svg) ![forks](https://img.shields.io/github/forks/0xInfection/PewSWITCH.svg)
 
 
-## CVE-2021-26855
- Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078.
+## CVE-2021-37624
+ FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. Prior to version 1.10.7, FreeSWITCH does not authenticate SIP MESSAGE requests, leading to spam and message spoofing. By default, SIP requests of the type MESSAGE (RFC 3428) are not authenticated in the affected versions of FreeSWITCH. MESSAGE requests are relayed to SIP user agents registered with the FreeSWITCH server without requiring any authentication. Although this behaviour can be changed by setting the `auth-messages` parameter to `true`, it is not the default setting. Abuse of this security issue allows attackers to send SIP MESSAGE messages to any SIP user agent that is registered with the server without requiring authentication. Additionally, since no authentication is required, chat messages can be spoofed to appear to come from trusted entities. Therefore, abuse can lead to spam and enable social engineering, phishing and similar attacks. This issue is patched in version 1.10.7. Maintainers recommend that this SIP message type is authenticated by default so that FreeSWITCH administrators do not need to be explicitly set the `auth-messages` parameter. When following such a recommendation, a new parameter can be introduced to explicitly disable authentication.
 
-- [https://github.com/thau0x01/poc_proxylogon](https://github.com/thau0x01/poc_proxylogon) :  ![starts](https://img.shields.io/github/stars/thau0x01/poc_proxylogon.svg) ![forks](https://img.shields.io/github/forks/thau0x01/poc_proxylogon.svg)
-
-
-## CVE-2021-26084
- In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
-
-- [https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL) :  ![starts](https://img.shields.io/github/stars/z0edff0x3d/CVE-2021-26084-Confluence-OGNL.svg) ![forks](https://img.shields.io/github/forks/z0edff0x3d/CVE-2021-26084-Confluence-OGNL.svg)
+- [https://github.com/0xInfection/PewSWITCH](https://github.com/0xInfection/PewSWITCH) :  ![starts](https://img.shields.io/github/stars/0xInfection/PewSWITCH.svg) ![forks](https://img.shields.io/github/forks/0xInfection/PewSWITCH.svg)
 
 
-## CVE-2020-2883
- Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP, T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+## CVE-2021-1675
+ Windows Print Spooler Elevation of Privilege Vulnerability
 
-- [https://github.com/ZZZWD/CVE-2020-2883](https://github.com/ZZZWD/CVE-2020-2883) :  ![starts](https://img.shields.io/github/stars/ZZZWD/CVE-2020-2883.svg) ![forks](https://img.shields.io/github/forks/ZZZWD/CVE-2020-2883.svg)
+- [https://github.com/fumamatar/NimNightmare](https://github.com/fumamatar/NimNightmare) :  ![starts](https://img.shields.io/github/stars/fumamatar/NimNightmare.svg) ![forks](https://img.shields.io/github/forks/fumamatar/NimNightmare.svg)
+
+
+## CVE-2017-8046
+ Malicious PATCH requests submitted to servers using Spring Data REST versions prior to 2.6.9 (Ingalls SR9), versions prior to 3.0.1 (Kay SR1) and Spring Boot versions prior to 1.5.9, 2.0 M6 can use specially crafted JSON data to run arbitrary Java code.
+
+- [https://github.com/bkhablenko/CVE-2017-8046](https://github.com/bkhablenko/CVE-2017-8046) :  ![starts](https://img.shields.io/github/stars/bkhablenko/CVE-2017-8046.svg) ![forks](https://img.shields.io/github/forks/bkhablenko/CVE-2017-8046.svg)
+
+
+## CVE-2017-5941
+ An issue was discovered in the node-serialize package 0.0.4 for Node.js. Untrusted data passed into the unserialize() function can be exploited to achieve arbitrary code execution by passing a JavaScript Object with an Immediately Invoked Function Expression (IIFE).
+
+- [https://github.com/z0edff0x3d/CVE-2017-5941-NodeJS-RCE](https://github.com/z0edff0x3d/CVE-2017-5941-NodeJS-RCE) :  ![starts](https://img.shields.io/github/stars/z0edff0x3d/CVE-2017-5941-NodeJS-RCE.svg) ![forks](https://img.shields.io/github/forks/z0edff0x3d/CVE-2017-5941-NodeJS-RCE.svg)
+
+
+## CVE-2016-2098
+ Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x before 4.2.5.2 allows remote attackers to execute arbitrary Ruby code by leveraging an application's unrestricted use of the render method.
+
+- [https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit](https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit) :  ![starts](https://img.shields.io/github/stars/DanielCodex/CVE-2016-2098-my-first-exploit.svg) ![forks](https://img.shields.io/github/forks/DanielCodex/CVE-2016-2098-my-first-exploit.svg)
+
+
+## CVE-2014-6287
+ The findMacroMarker function in parserLib.pas in Rejetto HTTP File Server (aks HFS or HttpFileServer) 2.3x before 2.3c allows remote attackers to execute arbitrary programs via a %00 sequence in a search action.
+
+- [https://github.com/Mr-Intern/thm_steelmountain_CVE-2014-6287](https://github.com/Mr-Intern/thm_steelmountain_CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/Mr-Intern/thm_steelmountain_CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/Mr-Intern/thm_steelmountain_CVE-2014-6287.svg)
+
+
+## CVE-2012-1823
+ sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured as a CGI script (aka php-cgi), does not properly handle query strings that lack an = (equals sign) character, which allows remote attackers to execute arbitrary code by placing command-line options in the query string, related to lack of skipping a certain php_getopt for the 'd' case.
+
+- [https://github.com/tardummy01/oscp_scripts-1](https://github.com/tardummy01/oscp_scripts-1) :  ![starts](https://img.shields.io/github/stars/tardummy01/oscp_scripts-1.svg) ![forks](https://img.shields.io/github/forks/tardummy01/oscp_scripts-1.svg)
+
+
+## CVE-2002-20001
+ The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the client side) to send arbitrary numbers that are actually not public keys, and trigger expensive server-side DHE modular-exponentiation calculations, aka a D(HE)ater attack. The client needs very little CPU resources and network bandwidth. The attack may be more disruptive in cases where a client can require a server to select its largest supported key size. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE.
+
+- [https://github.com/Balasys/dheater](https://github.com/Balasys/dheater) :  ![starts](https://img.shields.io/github/stars/Balasys/dheater.svg) ![forks](https://img.shields.io/github/forks/Balasys/dheater.svg)
 
