@@ -1,3 +1,10 @@
+## CVE-2002-20001
+ The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the client side) to send arbitrary numbers that are actually not public keys, and trigger expensive server-side DHE modular-exponentiation calculations, aka a D(HE)ater attack. The client needs very little CPU resources and network bandwidth. The attack may be more disruptive in cases where a client can require a server to select its largest supported key size. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE.
+
+
+
+- [https://github.com/Balasys/dheater](https://github.com/Balasys/dheater) :  ![starts](https://img.shields.io/github/stars/Balasys/dheater.svg) ![forks](https://img.shields.io/github/forks/Balasys/dheater.svg)
+
 ## CVE-2002-0991
  Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and earlier, based on the Sharity package, allows local users to gain root privileges via long (1) -U, (2) -D, (3) -P, (4) -S, (5) -N, or (6) -u parameters.
 
