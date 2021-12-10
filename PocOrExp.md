@@ -27286,6 +27286,8 @@
 
 - [https://github.com/Ari-Weinberg/CVE-2012-2982](https://github.com/Ari-Weinberg/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/Ari-Weinberg/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/Ari-Weinberg/CVE-2012-2982.svg)
 
+- [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
+
 - [https://github.com/SlizBinksman/CVE_2012-2982](https://github.com/SlizBinksman/CVE_2012-2982) :  ![starts](https://img.shields.io/github/stars/SlizBinksman/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/SlizBinksman/CVE_2012-2982.svg)
 
 ## CVE-2012-2688
