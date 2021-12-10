@@ -12,13 +12,6 @@
 
 - [https://github.com/artem-smotrakov/cve-2016-1000027-poc](https://github.com/artem-smotrakov/cve-2016-1000027-poc) :  ![starts](https://img.shields.io/github/stars/artem-smotrakov/cve-2016-1000027-poc.svg) ![forks](https://img.shields.io/github/forks/artem-smotrakov/cve-2016-1000027-poc.svg)
 
-## CVE-2016-10956
- The mail-masta plugin 1.0 for WordPress has local file inclusion in count_of_send.php and csvexport.php.
-
-
-
-- [https://github.com/p0dalirius/CVE-2016-10956_mail_masta](https://github.com/p0dalirius/CVE-2016-10956_mail_masta) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2016-10956_mail_masta.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2016-10956_mail_masta.svg)
-
 ## CVE-2016-10761
  Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing encryption, aka MouseJack.
 
