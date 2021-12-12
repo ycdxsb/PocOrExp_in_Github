@@ -23,7 +23,7 @@
 
 
 ## TOP 10 Popular Authors
-zhzyker: stars: 5144
+zhzyker: stars: 5148
 - [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
 
 - [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
@@ -40,7 +40,7 @@ zhzyker: stars: 5144
 
 - [https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP](https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP) :  ![starts](https://img.shields.io/github/stars/zhzyker/CVE-2018-7600-Drupal-POC-EXP.svg) ![forks](https://img.shields.io/github/forks/zhzyker/CVE-2018-7600-Drupal-POC-EXP.svg)
 
-jas502n: stars: 3647
+jas502n: stars: 3672
 - [https://github.com/jas502n/CVE-2020-5902](https://github.com/jas502n/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-5902.svg)
 
 - [https://github.com/jas502n/CVE-2019-13272](https://github.com/jas502n/CVE-2019-13272) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-13272.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-13272.svg)
@@ -127,6 +127,8 @@ jas502n: stars: 3647
 
 - [https://github.com/jas502n/CVE-2018-10933](https://github.com/jas502n/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2018-10933.svg)
 
+- [https://github.com/jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/jas502n/Log4j2-CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/jas502n/Log4j2-CVE-2021-44228.svg)
+
 - [https://github.com/jas502n/CVE-2019-3394](https://github.com/jas502n/CVE-2019-3394) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-3394.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-3394.svg)
 
 - [https://github.com/jas502n/CVE-2018-14665](https://github.com/jas502n/CVE-2018-14665) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2018-14665.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2018-14665.svg)
@@ -146,8 +148,6 @@ jas502n: stars: 3647
 - [https://github.com/jas502n/CVE-2015-3337](https://github.com/jas502n/CVE-2015-3337) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2015-3337.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2015-3337.svg)
 
 - [https://github.com/jas502n/CVE-2018-3252](https://github.com/jas502n/CVE-2018-3252) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2018-3252.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2018-3252.svg)
-
-- [https://github.com/jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/jas502n/Log4j2-CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/jas502n/Log4j2-CVE-2021-44228.svg)
 
 - [https://github.com/jas502n/CVE-2019-14439](https://github.com/jas502n/CVE-2019-14439) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-14439.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-14439.svg)
 
@@ -175,7 +175,7 @@ ly4k: stars: 2153
 
 - [https://github.com/ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/ly4k/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/ly4k/PrintNightmare.svg)
 
-0vercl0k: stars: 2050
+0vercl0k: stars: 2051
 - [https://github.com/0vercl0k/CVE-2021-31166](https://github.com/0vercl0k/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2021-31166.svg)
 
 - [https://github.com/0vercl0k/CVE-2019-11708](https://github.com/0vercl0k/CVE-2019-11708) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2019-11708.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2019-11708.svg)
