@@ -1,67 +1,40 @@
-# Update 2021-12-11
+# Update 2021-12-12
 ## CVE-2021-44228
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. In previous releases (&gt;2.10) this behavior can be mitigated by setting system property &quot;log4j2.formatMsgNoLookups&quot; to &#8220;true&#8221; or by removing the JndiLookup class from the classpath (example: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class). Java 8u121 (see https://www.oracle.com/java/technologies/javase/8u121-relnotes.html) protects against remote code execution by defaulting &quot;com.sun.jndi.rmi.object.trustURLCodebase&quot; and &quot;com.sun.jndi.cosnaming.object.trustURLCodebase&quot; to &quot;false&quot;.
 
-- [https://github.com/jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/jas502n/Log4j2-CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/jas502n/Log4j2-CVE-2021-44228.svg)
-- [https://github.com/jacobtread/L4J-Vuln-Patch](https://github.com/jacobtread/L4J-Vuln-Patch) :  ![starts](https://img.shields.io/github/stars/jacobtread/L4J-Vuln-Patch.svg) ![forks](https://img.shields.io/github/forks/jacobtread/L4J-Vuln-Patch.svg)
-- [https://github.com/Glease/Healer](https://github.com/Glease/Healer) :  ![starts](https://img.shields.io/github/stars/Glease/Healer.svg) ![forks](https://img.shields.io/github/forks/Glease/Healer.svg)
-- [https://github.com/UltraVanilla/LogJackFix](https://github.com/UltraVanilla/LogJackFix) :  ![starts](https://img.shields.io/github/stars/UltraVanilla/LogJackFix.svg) ![forks](https://img.shields.io/github/forks/UltraVanilla/LogJackFix.svg)
-
-
-## CVE-2021-43798
- Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `&lt;grafana_host_url&gt;/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
-
-- [https://github.com/Anonymous-ghost/AttackWebFrameworkTools](https://github.com/Anonymous-ghost/AttackWebFrameworkTools) :  ![starts](https://img.shields.io/github/stars/Anonymous-ghost/AttackWebFrameworkTools.svg) ![forks](https://img.shields.io/github/forks/Anonymous-ghost/AttackWebFrameworkTools.svg)
-- [https://github.com/z3n70/CVE-2021-43798](https://github.com/z3n70/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/z3n70/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/z3n70/CVE-2021-43798.svg)
-- [https://github.com/fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp) :  ![starts](https://img.shields.io/github/stars/fanygit/Grafana-CVE-2021-43798Exp.svg) ![forks](https://img.shields.io/github/forks/fanygit/Grafana-CVE-2021-43798Exp.svg)
-- [https://github.com/culprits/Grafana_POC-CVE-2021-43798](https://github.com/culprits/Grafana_POC-CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/culprits/Grafana_POC-CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/culprits/Grafana_POC-CVE-2021-43798.svg)
-- [https://github.com/julesbozouklian/CVE-2021-43798](https://github.com/julesbozouklian/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/julesbozouklian/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/julesbozouklian/CVE-2021-43798.svg)
-
-
-## CVE-2021-27928
- A remote code execution issue was discovered in MariaDB 10.2 before 10.2.37, 10.3 before 10.3.28, 10.4 before 10.4.18, and 10.5 before 10.5.9; Percona Server through 2021-03-03; and the wsrep patch through 2021-03-03 for MySQL. An untrusted search path leads to eval injection, in which a database SUPER user can execute OS commands after modifying wsrep_provider and wsrep_notify_cmd. NOTE: this does not affect an Oracle product.
-
-- [https://github.com/shamo0/CVE-2021-27928-POC](https://github.com/shamo0/CVE-2021-27928-POC) :  ![starts](https://img.shields.io/github/stars/shamo0/CVE-2021-27928-POC.svg) ![forks](https://img.shields.io/github/forks/shamo0/CVE-2021-27928-POC.svg)
-
-
-## CVE-2021-26102
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/SleepyCofe/CVE-2021-26102](https://github.com/SleepyCofe/CVE-2021-26102) :  ![starts](https://img.shields.io/github/stars/SleepyCofe/CVE-2021-26102.svg) ![forks](https://img.shields.io/github/forks/SleepyCofe/CVE-2021-26102.svg)
-
-
-## CVE-2019-19609
- The Strapi framework before 3.0.0-beta.17.8 is vulnerable to Remote Code Execution in the Install and Uninstall Plugin components of the Admin panel, because it does not sanitize the plugin name, and attackers can inject arbitrary shell commands to be executed by the execa function.
-
-- [https://github.com/RamPanic/CVE-2019-19609-EXPLOIT](https://github.com/RamPanic/CVE-2019-19609-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/RamPanic/CVE-2019-19609-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/RamPanic/CVE-2019-19609-EXPLOIT.svg)
-
-
-## CVE-2019-18276
- An issue was discovered in disable_priv_mode in shell.c in GNU Bash through 5.0 patch 11. By default, if Bash is run with its effective UID not equal to its real UID, it will drop privileges by setting its effective UID to its real UID. However, it does so incorrectly. On Linux and other systems that support &quot;saved UID&quot; functionality, the saved UID is not dropped. An attacker with command execution in the shell can use &quot;enable -f&quot; for runtime loading of a new builtin, which can be a shared object that calls setuid() and therefore regains privileges. However, binaries running with an effective UID of 0 are unaffected.
-
-- [https://github.com/M-ensimag/CVE-2019-18276](https://github.com/M-ensimag/CVE-2019-18276) :  ![starts](https://img.shields.io/github/stars/M-ensimag/CVE-2019-18276.svg) ![forks](https://img.shields.io/github/forks/M-ensimag/CVE-2019-18276.svg)
-
-
-## CVE-2019-9053
- An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News module, through a crafted URL, to achieve unauthenticated blind time-based SQL injection via the m1_idlist parameter.
-
-- [https://github.com/Marbocatcat/46635.py](https://github.com/Marbocatcat/46635.py) :  ![starts](https://img.shields.io/github/stars/Marbocatcat/46635.py.svg) ![forks](https://img.shields.io/github/forks/Marbocatcat/46635.py.svg)
-
-
-## CVE-2018-1207
- Dell EMC iDRAC7/iDRAC8, versions prior to 2.52.52.52, contain CGI injection vulnerability which could be used to execute remote code. A remote unauthenticated attacker may potentially be able to use CGI variables to execute remote code.
-
-- [https://github.com/mgargiullo/cve-2018-1207](https://github.com/mgargiullo/cve-2018-1207) :  ![starts](https://img.shields.io/github/stars/mgargiullo/cve-2018-1207.svg) ![forks](https://img.shields.io/github/forks/mgargiullo/cve-2018-1207.svg)
-
-
-## CVE-2017-9097
- In Anti-Web through 3.8.7, as used on NetBiter FGW200 devices through 3.21.2, WS100 devices through 3.30.5, EC150 devices through 1.40.0, WS200 devices through 3.30.4, EC250 devices through 1.40.0, and other products, an LFI vulnerability allows a remote attacker to read or modify files through a path traversal technique, as demonstrated by reading the password file, or using the template parameter to cgi-bin/write.cgi to write to an arbitrary file.
-
-- [https://github.com/MDudek-ICS/AntiWeb_testing-Suite](https://github.com/MDudek-ICS/AntiWeb_testing-Suite) :  ![starts](https://img.shields.io/github/stars/MDudek-ICS/AntiWeb_testing-Suite.svg) ![forks](https://img.shields.io/github/forks/MDudek-ICS/AntiWeb_testing-Suite.svg)
-
-
-## CVE-2012-2982
- file/show.cgi in Webmin 1.590 and earlier allows remote authenticated users to execute arbitrary commands via an invalid character in a pathname, as demonstrated by a | (pipe) character.
-
-- [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
+- [https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce) :  ![starts](https://img.shields.io/github/stars/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce.svg) ![forks](https://img.shields.io/github/forks/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce.svg)
+- [https://github.com/christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app) :  ![starts](https://img.shields.io/github/stars/christophetd/log4shell-vulnerable-app.svg) ![forks](https://img.shields.io/github/forks/christophetd/log4shell-vulnerable-app.svg)
+- [https://github.com/boundaryx/cloudrasp-log4j2](https://github.com/boundaryx/cloudrasp-log4j2) :  ![starts](https://img.shields.io/github/stars/boundaryx/cloudrasp-log4j2.svg) ![forks](https://img.shields.io/github/forks/boundaryx/cloudrasp-log4j2.svg)
+- [https://github.com/simonis/Log4jPatch](https://github.com/simonis/Log4jPatch) :  ![starts](https://img.shields.io/github/stars/simonis/Log4jPatch.svg) ![forks](https://img.shields.io/github/forks/simonis/Log4jPatch.svg)
+- [https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes) :  ![starts](https://img.shields.io/github/stars/mubix/CVE-2021-44228-Log4Shell-Hashes.svg) ![forks](https://img.shields.io/github/forks/mubix/CVE-2021-44228-Log4Shell-Hashes.svg)
+- [https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept) :  ![starts](https://img.shields.io/github/stars/HyCraftHD/Log4J-RCE-Proof-Of-Concept.svg) ![forks](https://img.shields.io/github/forks/HyCraftHD/Log4J-RCE-Proof-Of-Concept.svg)
+- [https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words](https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words) :  ![starts](https://img.shields.io/github/stars/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words.svg) ![forks](https://img.shields.io/github/forks/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words.svg)
+- [https://github.com/greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/greymd/CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/greymd/CVE-2021-44228.svg)
+- [https://github.com/1lann/log4shelldetect](https://github.com/1lann/log4shelldetect) :  ![starts](https://img.shields.io/github/stars/1lann/log4shelldetect.svg) ![forks](https://img.shields.io/github/forks/1lann/log4shelldetect.svg)
+- [https://github.com/kozmer/log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc) :  ![starts](https://img.shields.io/github/stars/kozmer/log4j-shell-poc.svg) ![forks](https://img.shields.io/github/forks/kozmer/log4j-shell-poc.svg)
+- [https://github.com/takito1812/log4j-detect](https://github.com/takito1812/log4j-detect) :  ![starts](https://img.shields.io/github/stars/takito1812/log4j-detect.svg) ![forks](https://img.shields.io/github/forks/takito1812/log4j-detect.svg)
+- [https://github.com/Adikso/minecraft-log4j-honeypot](https://github.com/Adikso/minecraft-log4j-honeypot) :  ![starts](https://img.shields.io/github/stars/Adikso/minecraft-log4j-honeypot.svg) ![forks](https://img.shields.io/github/forks/Adikso/minecraft-log4j-honeypot.svg)
+- [https://github.com/DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE) :  ![starts](https://img.shields.io/github/stars/DragonSurvivalEU/RCE.svg) ![forks](https://img.shields.io/github/forks/DragonSurvivalEU/RCE.svg)
+- [https://github.com/KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example) :  ![starts](https://img.shields.io/github/stars/KosmX/CVE-2021-44228-example.svg) ![forks](https://img.shields.io/github/forks/KosmX/CVE-2021-44228-example.svg)
+- [https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes) :  ![starts](https://img.shields.io/github/stars/Azeemering/CVE-2021-44228-DFIR-Notes.svg) ![forks](https://img.shields.io/github/forks/Azeemering/CVE-2021-44228-DFIR-Notes.svg)
+- [https://github.com/StandB/CVE-2021-44228-poc](https://github.com/StandB/CVE-2021-44228-poc) :  ![starts](https://img.shields.io/github/stars/StandB/CVE-2021-44228-poc.svg) ![forks](https://img.shields.io/github/forks/StandB/CVE-2021-44228-poc.svg)
+- [https://github.com/phoswald/sample-ldap-exploit](https://github.com/phoswald/sample-ldap-exploit) :  ![starts](https://img.shields.io/github/stars/phoswald/sample-ldap-exploit.svg) ![forks](https://img.shields.io/github/forks/phoswald/sample-ldap-exploit.svg)
+- [https://github.com/sohtsuka/CVE-2021-44228-PoC](https://github.com/sohtsuka/CVE-2021-44228-PoC) :  ![starts](https://img.shields.io/github/stars/sohtsuka/CVE-2021-44228-PoC.svg) ![forks](https://img.shields.io/github/forks/sohtsuka/CVE-2021-44228-PoC.svg)
+- [https://github.com/ssstonebraker/log4j_CVE-2021-44228_tester](https://github.com/ssstonebraker/log4j_CVE-2021-44228_tester) :  ![starts](https://img.shields.io/github/stars/ssstonebraker/log4j_CVE-2021-44228_tester.svg) ![forks](https://img.shields.io/github/forks/ssstonebraker/log4j_CVE-2021-44228_tester.svg)
+- [https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/lhotari/pulsar-docker-images-patch-CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/lhotari/pulsar-docker-images-patch-CVE-2021-44228.svg)
+- [https://github.com/alerithe/log4j-patcher](https://github.com/alerithe/log4j-patcher) :  ![starts](https://img.shields.io/github/stars/alerithe/log4j-patcher.svg) ![forks](https://img.shields.io/github/forks/alerithe/log4j-patcher.svg)
+- [https://github.com/wheez-y/CVE-2021-44228-kusto](https://github.com/wheez-y/CVE-2021-44228-kusto) :  ![starts](https://img.shields.io/github/stars/wheez-y/CVE-2021-44228-kusto.svg) ![forks](https://img.shields.io/github/forks/wheez-y/CVE-2021-44228-kusto.svg)
+- [https://github.com/dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/dbgee/CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/dbgee/CVE-2021-44228.svg)
+- [https://github.com/seamus-dev/CVE-2021-44228](https://github.com/seamus-dev/CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/seamus-dev/CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/seamus-dev/CVE-2021-44228.svg)
+- [https://github.com/racoon-rac/CVE-2021-44228](https://github.com/racoon-rac/CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/racoon-rac/CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/racoon-rac/CVE-2021-44228.svg)
+- [https://github.com/alexandreroman/cve-2021-44228-workaround-buildpack](https://github.com/alexandreroman/cve-2021-44228-workaround-buildpack) :  ![starts](https://img.shields.io/github/stars/alexandreroman/cve-2021-44228-workaround-buildpack.svg) ![forks](https://img.shields.io/github/forks/alexandreroman/cve-2021-44228-workaround-buildpack.svg)
+- [https://github.com/zlepper/CVE-2021-44228-Test-Server](https://github.com/zlepper/CVE-2021-44228-Test-Server) :  ![starts](https://img.shields.io/github/stars/zlepper/CVE-2021-44228-Test-Server.svg) ![forks](https://img.shields.io/github/forks/zlepper/CVE-2021-44228-Test-Server.svg)
+- [https://github.com/y35uishere/Log4j2-CVE-2021-44228](https://github.com/y35uishere/Log4j2-CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/y35uishere/Log4j2-CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/y35uishere/Log4j2-CVE-2021-44228.svg)
+- [https://github.com/1in9e/Apache-Log4j2-RCE](https://github.com/1in9e/Apache-Log4j2-RCE) :  ![starts](https://img.shields.io/github/stars/1in9e/Apache-Log4j2-RCE.svg) ![forks](https://img.shields.io/github/forks/1in9e/Apache-Log4j2-RCE.svg)
+- [https://github.com/izzyacademy/log4shell-mitigation](https://github.com/izzyacademy/log4shell-mitigation) :  ![starts](https://img.shields.io/github/stars/izzyacademy/log4shell-mitigation.svg) ![forks](https://img.shields.io/github/forks/izzyacademy/log4shell-mitigation.svg)
+- [https://github.com/nkoneko/VictimApp](https://github.com/nkoneko/VictimApp) :  ![starts](https://img.shields.io/github/stars/nkoneko/VictimApp.svg) ![forks](https://img.shields.io/github/forks/nkoneko/VictimApp.svg)
+- [https://github.com/OopsieWoopsie/mc-log4j-patcher](https://github.com/OopsieWoopsie/mc-log4j-patcher) :  ![starts](https://img.shields.io/github/stars/OopsieWoopsie/mc-log4j-patcher.svg) ![forks](https://img.shields.io/github/forks/OopsieWoopsie/mc-log4j-patcher.svg)
+- [https://github.com/Szczurowsky/Log4j-0Day-Fix](https://github.com/Szczurowsky/Log4j-0Day-Fix) :  ![starts](https://img.shields.io/github/stars/Szczurowsky/Log4j-0Day-Fix.svg) ![forks](https://img.shields.io/github/forks/Szczurowsky/Log4j-0Day-Fix.svg)
+- [https://github.com/binganao/Log4j2-RCE](https://github.com/binganao/Log4j2-RCE) :  ![starts](https://img.shields.io/github/stars/binganao/Log4j2-RCE.svg) ![forks](https://img.shields.io/github/forks/binganao/Log4j2-RCE.svg)
+- [https://github.com/rakutentech/jndi-ldap-test-server](https://github.com/rakutentech/jndi-ldap-test-server) :  ![starts](https://img.shields.io/github/stars/rakutentech/jndi-ldap-test-server.svg) ![forks](https://img.shields.io/github/forks/rakutentech/jndi-ldap-test-server.svg)
 
