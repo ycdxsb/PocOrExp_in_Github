@@ -768,9 +768,9 @@
 
 
 
-- [https://github.com/shadow-horse/CVE-2019-17571](https://github.com/shadow-horse/CVE-2019-17571) :  ![starts](https://img.shields.io/github/stars/shadow-horse/CVE-2019-17571.svg) ![forks](https://img.shields.io/github/forks/shadow-horse/CVE-2019-17571.svg)
-
 - [https://github.com/hillu/local-log4j-vuln-scanner](https://github.com/hillu/local-log4j-vuln-scanner) :  ![starts](https://img.shields.io/github/stars/hillu/local-log4j-vuln-scanner.svg) ![forks](https://img.shields.io/github/forks/hillu/local-log4j-vuln-scanner.svg)
+
+- [https://github.com/shadow-horse/CVE-2019-17571](https://github.com/shadow-horse/CVE-2019-17571) :  ![starts](https://img.shields.io/github/stars/shadow-horse/CVE-2019-17571.svg) ![forks](https://img.shields.io/github/forks/shadow-horse/CVE-2019-17571.svg)
 
 - [https://github.com/Al1ex/CVE-2019-17571](https://github.com/Al1ex/CVE-2019-17571) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2019-17571.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2019-17571.svg)
 
@@ -796,9 +796,9 @@
 
 - [https://github.com/Hu3sky/CVE-2019-17564](https://github.com/Hu3sky/CVE-2019-17564) :  ![starts](https://img.shields.io/github/stars/Hu3sky/CVE-2019-17564.svg) ![forks](https://img.shields.io/github/forks/Hu3sky/CVE-2019-17564.svg)
 
-- [https://github.com/Exploit-3389/CVE-2019-17564](https://github.com/Exploit-3389/CVE-2019-17564) :  ![starts](https://img.shields.io/github/stars/Exploit-3389/CVE-2019-17564.svg) ![forks](https://img.shields.io/github/forks/Exploit-3389/CVE-2019-17564.svg)
-
 - [https://github.com/r00t4dm/CVE-2019-17564](https://github.com/r00t4dm/CVE-2019-17564) :  ![starts](https://img.shields.io/github/stars/r00t4dm/CVE-2019-17564.svg) ![forks](https://img.shields.io/github/forks/r00t4dm/CVE-2019-17564.svg)
+
+- [https://github.com/Exploit-3389/CVE-2019-17564](https://github.com/Exploit-3389/CVE-2019-17564) :  ![starts](https://img.shields.io/github/stars/Exploit-3389/CVE-2019-17564.svg) ![forks](https://img.shields.io/github/forks/Exploit-3389/CVE-2019-17564.svg)
 
 ## CVE-2019-17558
  Apache Solr 5.0.0 to Apache Solr 8.3.1 are vulnerable to a Remote Code Execution through the VelocityResponseWriter. A Velocity template can be provided through Velocity templates in a configset `velocity/` directory or as a parameter. A user defined configset could contain renderable, potentially malicious, templates. Parameter provided templates are disabled by default, but can be enabled by setting `params.resource.loader.enabled` by defining a response writer with that setting set to `true`. Defining a response writer requires configuration API access. Solr 8.4 removed the params resource loader entirely, and only enables the configset-provided template rendering when the configset is `trusted` (has been uploaded by an authenticated user).
@@ -1189,13 +1189,6 @@
 
 
 - [https://github.com/ossf-cve-benchmark/CVE-2019-15782](https://github.com/ossf-cve-benchmark/CVE-2019-15782) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-15782.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-15782.svg)
-
-## CVE-2019-15658
- connect-pg-simple before 6.0.1 allows SQL injection if tableName or schemaName is untrusted data.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-15658](https://github.com/ossf-cve-benchmark/CVE-2019-15658) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-15658.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-15658.svg)
 
 ## CVE-2019-15657
  In eslint-utils before 1.4.1, the getStaticValue function can execute arbitrary code.
@@ -1851,9 +1844,9 @@
 
 
 
-- [https://github.com/viz27/Libssh2-Exploit](https://github.com/viz27/Libssh2-Exploit) :  ![starts](https://img.shields.io/github/stars/viz27/Libssh2-Exploit.svg) ![forks](https://img.shields.io/github/forks/viz27/Libssh2-Exploit.svg)
-
 - [https://github.com/CSSProject/libssh2-Exploit](https://github.com/CSSProject/libssh2-Exploit) :  ![starts](https://img.shields.io/github/stars/CSSProject/libssh2-Exploit.svg) ![forks](https://img.shields.io/github/forks/CSSProject/libssh2-Exploit.svg)
+
+- [https://github.com/viz27/Libssh2-Exploit](https://github.com/viz27/Libssh2-Exploit) :  ![starts](https://img.shields.io/github/stars/viz27/Libssh2-Exploit.svg) ![forks](https://img.shields.io/github/forks/viz27/Libssh2-Exploit.svg)
 
 ## CVE-2019-13101
  An issue was discovered on D-Link DIR-600M 3.02, 3.03, 3.04, and 3.06 devices. wan.htm can be accessed directly without authentication, which can lead to disclosure of information about the WAN, and can also be leveraged by an attacker to modify the data fields of the page.
