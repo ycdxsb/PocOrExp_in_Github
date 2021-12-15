@@ -8,9 +8,9 @@
 
 - [https://github.com/FiloSottile/Heartbleed](https://github.com/FiloSottile/Heartbleed) :  ![starts](https://img.shields.io/github/stars/FiloSottile/Heartbleed.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/Heartbleed.svg)
 
-- [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
-
 - [https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce) :  ![starts](https://img.shields.io/github/stars/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce.svg) ![forks](https://img.shields.io/github/forks/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce.svg)
+
+- [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
 
 - [https://github.com/fofapro/vulfocus](https://github.com/fofapro/vulfocus) :  ![starts](https://img.shields.io/github/stars/fofapro/vulfocus.svg) ![forks](https://img.shields.io/github/forks/fofapro/vulfocus.svg)
 
@@ -23,7 +23,7 @@
 
 
 ## TOP 10 Popular Authors
-zhzyker: stars: 5154
+zhzyker: stars: 5157
 - [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
 
 - [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
@@ -40,7 +40,7 @@ zhzyker: stars: 5154
 
 - [https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP](https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP) :  ![starts](https://img.shields.io/github/stars/zhzyker/CVE-2018-7600-Drupal-POC-EXP.svg) ![forks](https://img.shields.io/github/forks/zhzyker/CVE-2018-7600-Drupal-POC-EXP.svg)
 
-jas502n: stars: 3776
+jas502n: stars: 3822
 - [https://github.com/jas502n/CVE-2020-5902](https://github.com/jas502n/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-5902.svg)
 
 - [https://github.com/jas502n/CVE-2019-13272](https://github.com/jas502n/CVE-2019-13272) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-13272.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-13272.svg)
@@ -51,13 +51,13 @@ jas502n: stars: 3776
 
 - [https://github.com/jas502n/cve-2019-2618](https://github.com/jas502n/cve-2019-2618) :  ![starts](https://img.shields.io/github/stars/jas502n/cve-2019-2618.svg) ![forks](https://img.shields.io/github/forks/jas502n/cve-2019-2618.svg)
 
+- [https://github.com/jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/jas502n/Log4j2-CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/jas502n/Log4j2-CVE-2021-44228.svg)
+
 - [https://github.com/jas502n/CVE-2019-3396](https://github.com/jas502n/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-3396.svg)
 
 - [https://github.com/jas502n/CVE-2019-1388](https://github.com/jas502n/CVE-2019-1388) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-1388.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-1388.svg)
 
 - [https://github.com/jas502n/CVE-2018-17182](https://github.com/jas502n/CVE-2018-17182) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2018-17182.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2018-17182.svg)
-
-- [https://github.com/jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/jas502n/Log4j2-CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/jas502n/Log4j2-CVE-2021-44228.svg)
 
 - [https://github.com/jas502n/CVE-2019-12409](https://github.com/jas502n/CVE-2019-12409) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-12409.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-12409.svg)
 
@@ -156,15 +156,10 @@ jas502n: stars: 3776
 speed47: stars: 3479
 - [https://github.com/speed47/spectre-meltdown-checker](https://github.com/speed47/spectre-meltdown-checker) :  ![starts](https://img.shields.io/github/stars/speed47/spectre-meltdown-checker.svg) ![forks](https://img.shields.io/github/forks/speed47/spectre-meltdown-checker.svg)
 
-liamg: stars: 3467
+liamg: stars: 3469
 - [https://github.com/liamg/traitor](https://github.com/liamg/traitor) :  ![starts](https://img.shields.io/github/stars/liamg/traitor.svg) ![forks](https://img.shields.io/github/forks/liamg/traitor.svg)
 
-FiloSottile: stars: 2444
-- [https://github.com/FiloSottile/Heartbleed](https://github.com/FiloSottile/Heartbleed) :  ![starts](https://img.shields.io/github/stars/FiloSottile/Heartbleed.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/Heartbleed.svg)
-
-- [https://github.com/FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107) :  ![starts](https://img.shields.io/github/stars/FiloSottile/CVE-2016-2107.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/CVE-2016-2107.svg)
-
-cube0x0: stars: 2343
+cube0x0: stars: 2509
 - [https://github.com/cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2021-1675.svg)
 
 - [https://github.com/cube0x0/noPac](https://github.com/cube0x0/noPac) :  ![starts](https://img.shields.io/github/stars/cube0x0/noPac.svg) ![forks](https://img.shields.io/github/forks/cube0x0/noPac.svg)
@@ -173,7 +168,19 @@ cube0x0: stars: 2343
 
 - [https://github.com/cube0x0/CVE-2020-1472](https://github.com/cube0x0/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2020-1472.svg)
 
-ly4k: stars: 2153
+FiloSottile: stars: 2444
+- [https://github.com/FiloSottile/Heartbleed](https://github.com/FiloSottile/Heartbleed) :  ![starts](https://img.shields.io/github/stars/FiloSottile/Heartbleed.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/Heartbleed.svg)
+
+- [https://github.com/FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107) :  ![starts](https://img.shields.io/github/stars/FiloSottile/CVE-2016-2107.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/CVE-2016-2107.svg)
+
+tangxiaofeng7: stars: 2314
+- [https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce) :  ![starts](https://img.shields.io/github/stars/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce.svg) ![forks](https://img.shields.io/github/forks/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce.svg)
+
+- [https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read) :  ![starts](https://img.shields.io/github/stars/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read.svg) ![forks](https://img.shields.io/github/forks/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read.svg)
+
+- [https://github.com/tangxiaofeng7/CVE-2021-26084](https://github.com/tangxiaofeng7/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/tangxiaofeng7/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/tangxiaofeng7/CVE-2021-26084.svg)
+
+ly4k: stars: 2178
 - [https://github.com/ly4k/CurveBall](https://github.com/ly4k/CurveBall) :  ![starts](https://img.shields.io/github/stars/ly4k/CurveBall.svg) ![forks](https://img.shields.io/github/forks/ly4k/CurveBall.svg)
 
 - [https://github.com/ly4k/SMBGhost](https://github.com/ly4k/SMBGhost) :  ![starts](https://img.shields.io/github/stars/ly4k/SMBGhost.svg) ![forks](https://img.shields.io/github/forks/ly4k/SMBGhost.svg)
@@ -184,7 +191,9 @@ ly4k: stars: 2153
 
 - [https://github.com/ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/ly4k/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/ly4k/PrintNightmare.svg)
 
-0vercl0k: stars: 2051
+- [https://github.com/ly4k/Pachine](https://github.com/ly4k/Pachine) :  ![starts](https://img.shields.io/github/stars/ly4k/Pachine.svg) ![forks](https://img.shields.io/github/forks/ly4k/Pachine.svg)
+
+0vercl0k: stars: 2052
 - [https://github.com/0vercl0k/CVE-2021-31166](https://github.com/0vercl0k/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2021-31166.svg)
 
 - [https://github.com/0vercl0k/CVE-2019-11708](https://github.com/0vercl0k/CVE-2019-11708) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2019-11708.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2019-11708.svg)
@@ -197,12 +206,5 @@ ly4k: stars: 2153
 
 - [https://github.com/0vercl0k/CVE-2021-32537](https://github.com/0vercl0k/CVE-2021-32537) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2021-32537.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2021-32537.svg)
 
-tangxiaofeng7: stars: 1974
-- [https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce) :  ![starts](https://img.shields.io/github/stars/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce.svg) ![forks](https://img.shields.io/github/forks/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce.svg)
-
-- [https://github.com/tangxiaofeng7/CVE-2021-26084](https://github.com/tangxiaofeng7/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/tangxiaofeng7/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/tangxiaofeng7/CVE-2021-26084.svg)
-
-- [https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read) :  ![starts](https://img.shields.io/github/stars/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read.svg) ![forks](https://img.shields.io/github/forks/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read.svg)
-
-fofapro: stars: 1758
+fofapro: stars: 1773
 - [https://github.com/fofapro/vulfocus](https://github.com/fofapro/vulfocus) :  ![starts](https://img.shields.io/github/stars/fofapro/vulfocus.svg) ![forks](https://img.shields.io/github/forks/fofapro/vulfocus.svg)
