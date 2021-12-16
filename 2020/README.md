@@ -444,9 +444,9 @@
 
 - [https://github.com/qzyqzynb/CVE-2020-27955](https://github.com/qzyqzynb/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/qzyqzynb/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/qzyqzynb/CVE-2020-27955.svg)
 
-- [https://github.com/Marsable/CVE-2020-27955-LFS](https://github.com/Marsable/CVE-2020-27955-LFS) :  ![starts](https://img.shields.io/github/stars/Marsable/CVE-2020-27955-LFS.svg) ![forks](https://img.shields.io/github/forks/Marsable/CVE-2020-27955-LFS.svg)
-
 - [https://github.com/IanSmith123/CVE-2020-27955](https://github.com/IanSmith123/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/IanSmith123/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/IanSmith123/CVE-2020-27955.svg)
+
+- [https://github.com/Marsable/CVE-2020-27955-LFS](https://github.com/Marsable/CVE-2020-27955-LFS) :  ![starts](https://img.shields.io/github/stars/Marsable/CVE-2020-27955-LFS.svg) ![forks](https://img.shields.io/github/forks/Marsable/CVE-2020-27955-LFS.svg)
 
 - [https://github.com/yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc) :  ![starts](https://img.shields.io/github/stars/yhsung/cve-2020-27955-poc.svg) ![forks](https://img.shields.io/github/forks/yhsung/cve-2020-27955-poc.svg)
 
@@ -599,13 +599,6 @@
 
 
 - [https://github.com/lukaszstu/SmartAsset-UE-CVE-2020-26526](https://github.com/lukaszstu/SmartAsset-UE-CVE-2020-26526) :  ![starts](https://img.shields.io/github/stars/lukaszstu/SmartAsset-UE-CVE-2020-26526.svg) ![forks](https://img.shields.io/github/forks/lukaszstu/SmartAsset-UE-CVE-2020-26526.svg)
-
-## CVE-2020-26525
- Damstra Smart Asset 2020.7 has SQL injection via the API/api/Asset originator parameter. This allows forcing the database and server to initiate remote connections to third party DNS servers.
-
-
-
-- [https://github.com/lukaszstu/SmartAsset-SQLinj-CVE-2020-26525](https://github.com/lukaszstu/SmartAsset-SQLinj-CVE-2020-26525) :  ![starts](https://img.shields.io/github/stars/lukaszstu/SmartAsset-SQLinj-CVE-2020-26525.svg) ![forks](https://img.shields.io/github/forks/lukaszstu/SmartAsset-SQLinj-CVE-2020-26525.svg)
 
 ## CVE-2020-26259
  XStream is a Java library to serialize objects to XML and back again. In XStream before version 1.4.15, is vulnerable to an Arbitrary File Deletion on the local host when unmarshalling. The vulnerability may allow a remote attacker to delete arbitrary know files on the host as log as the executing process has sufficient rights only by manipulating the processed input stream. If you rely on XStream's default blacklist of the Security Framework, you will have to use at least version 1.4.15. The reported vulnerability does not exist running Java 15 or higher. No user is affected, who followed the recommendation to setup XStream's Security Framework with a whitelist! Anyone relying on XStream's default blacklist can immediately switch to a whilelist for the allowed types to avoid the vulnerability. Users of XStream 1.4.14 or below who still want to use XStream default blacklist can use a workaround described in more detailed in the referenced advisories.
@@ -1806,9 +1799,9 @@
 
 - [https://github.com/jas502n/CVE-2020-14882](https://github.com/jas502n/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-14882.svg)
 
-- [https://github.com/B1anda0/CVE-2020-14883](https://github.com/B1anda0/CVE-2020-14883) :  ![starts](https://img.shields.io/github/stars/B1anda0/CVE-2020-14883.svg) ![forks](https://img.shields.io/github/forks/B1anda0/CVE-2020-14883.svg)
-
 - [https://github.com/murataydemir/CVE-2020-14883](https://github.com/murataydemir/CVE-2020-14883) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2020-14883.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2020-14883.svg)
+
+- [https://github.com/B1anda0/CVE-2020-14883](https://github.com/B1anda0/CVE-2020-14883) :  ![starts](https://img.shields.io/github/stars/B1anda0/CVE-2020-14883.svg) ![forks](https://img.shields.io/github/forks/B1anda0/CVE-2020-14883.svg)
 
 - [https://github.com/fan1029/CVE-2020-14883EXP](https://github.com/fan1029/CVE-2020-14883EXP) :  ![starts](https://img.shields.io/github/stars/fan1029/CVE-2020-14883EXP.svg) ![forks](https://img.shields.io/github/forks/fan1029/CVE-2020-14883EXP.svg)
 
@@ -1845,9 +1838,9 @@
 
 - [https://github.com/QmF0c3UK/CVE-2020-14882](https://github.com/QmF0c3UK/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/QmF0c3UK/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/QmF0c3UK/CVE-2020-14882.svg)
 
-- [https://github.com/ShmilySec/CVE-2020-14882](https://github.com/ShmilySec/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/ShmilySec/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/ShmilySec/CVE-2020-14882.svg)
-
 - [https://github.com/murataydemir/CVE-2020-14883](https://github.com/murataydemir/CVE-2020-14883) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2020-14883.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2020-14883.svg)
+
+- [https://github.com/ShmilySec/CVE-2020-14882](https://github.com/ShmilySec/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/ShmilySec/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/ShmilySec/CVE-2020-14882.svg)
 
 - [https://github.com/wsfengfan/cve-2020-14882](https://github.com/wsfengfan/cve-2020-14882) :  ![starts](https://img.shields.io/github/stars/wsfengfan/cve-2020-14882.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/cve-2020-14882.svg)
 
@@ -4556,6 +4549,8 @@
 
 - [https://github.com/fuzzlove/Cisco-ASA-FTD-Web-Services-Traversal](https://github.com/fuzzlove/Cisco-ASA-FTD-Web-Services-Traversal) :  ![starts](https://img.shields.io/github/stars/fuzzlove/Cisco-ASA-FTD-Web-Services-Traversal.svg) ![forks](https://img.shields.io/github/forks/fuzzlove/Cisco-ASA-FTD-Web-Services-Traversal.svg)
 
+- [https://github.com/faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner](https://github.com/faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner) :  ![starts](https://img.shields.io/github/stars/faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner.svg) ![forks](https://img.shields.io/github/forks/faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner.svg)
+
 - [https://github.com/ludy-dev/Cisco-ASA-LFI](https://github.com/ludy-dev/Cisco-ASA-LFI) :  ![starts](https://img.shields.io/github/stars/ludy-dev/Cisco-ASA-LFI.svg) ![forks](https://img.shields.io/github/forks/ludy-dev/Cisco-ASA-LFI.svg)
 
 - [https://github.com/grim3/CVE-2020-3452](https://github.com/grim3/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/grim3/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/grim3/CVE-2020-3452.svg)
@@ -4569,8 +4564,6 @@
 - [https://github.com/toy0756428/CVE_2020_3452_Detect](https://github.com/toy0756428/CVE_2020_3452_Detect) :  ![starts](https://img.shields.io/github/stars/toy0756428/CVE_2020_3452_Detect.svg) ![forks](https://img.shields.io/github/forks/toy0756428/CVE_2020_3452_Detect.svg)
 
 - [https://github.com/paran0id34/CVE-2020-3452](https://github.com/paran0id34/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/paran0id34/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/paran0id34/CVE-2020-3452.svg)
-
-- [https://github.com/faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner](https://github.com/faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner) :  ![starts](https://img.shields.io/github/stars/faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner.svg) ![forks](https://img.shields.io/github/forks/faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner.svg)
 
 ## CVE-2020-3435
  A vulnerability in the interprocess communication (IPC) channel of Cisco AnyConnect Secure Mobility Client for Windows could allow an authenticated, local attacker to overwrite VPN profiles on an affected device. To exploit this vulnerability, the attacker would need to have valid credentials on the Windows system. The vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by sending a crafted IPC message to the AnyConnect process on an affected device. A successful exploit could allow the attacker to modify VPN profile files. To exploit this vulnerability, the attacker would need to have valid credentials on the Windows system.
@@ -5067,11 +5060,11 @@
 
 - [https://github.com/t31m0/CVE-2020-1472](https://github.com/t31m0/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/t31m0/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/t31m0/CVE-2020-1472.svg)
 
-- [https://github.com/b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/b1ack0wl/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/b1ack0wl/CVE-2020-1472.svg)
-
 - [https://github.com/Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve-2020-1472.svg)
 
 - [https://github.com/puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2020-1472.svg)
+
+- [https://github.com/b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/b1ack0wl/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/b1ack0wl/CVE-2020-1472.svg)
 
 - [https://github.com/SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/SaharAttackit/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/SaharAttackit/CVE-2020-1472.svg)
 
@@ -5431,7 +5424,7 @@
 
 - [https://github.com/wneessen/SMBCompScan](https://github.com/wneessen/SMBCompScan) :  ![starts](https://img.shields.io/github/stars/wneessen/SMBCompScan.svg) ![forks](https://img.shields.io/github/forks/wneessen/SMBCompScan.svg)
 
-- [https://github.com/oxctdev/CVE-2020-0796](https://github.com/oxctdev/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/oxctdev/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/oxctdev/CVE-2020-0796.svg)
+- [https://github.com/onsecuredev/CVE-2020-0796](https://github.com/onsecuredev/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/onsecuredev/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/onsecuredev/CVE-2020-0796.svg)
 
 - [https://github.com/tango-j/CVE-2020-0796](https://github.com/tango-j/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/tango-j/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/tango-j/CVE-2020-0796.svg)
 
@@ -5829,9 +5822,9 @@
 
 - [https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings_fix](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings_fix) :  ![starts](https://img.shields.io/github/stars/Nivaskumark/CVE-2020-0133-packages_apps_Settings_fix.svg) ![forks](https://img.shields.io/github/forks/Nivaskumark/CVE-2020-0133-packages_apps_Settings_fix.svg)
 
-- [https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings_nopatch](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings_nopatch) :  ![starts](https://img.shields.io/github/stars/Nivaskumark/CVE-2020-0133-packages_apps_Settings_nopatch.svg) ![forks](https://img.shields.io/github/forks/Nivaskumark/CVE-2020-0133-packages_apps_Settings_nopatch.svg)
-
 - [https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings) :  ![starts](https://img.shields.io/github/stars/Nivaskumark/CVE-2020-0133-packages_apps_Settings.svg) ![forks](https://img.shields.io/github/forks/Nivaskumark/CVE-2020-0133-packages_apps_Settings.svg)
+
+- [https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings_nopatch](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings_nopatch) :  ![starts](https://img.shields.io/github/stars/Nivaskumark/CVE-2020-0133-packages_apps_Settings_nopatch.svg) ![forks](https://img.shields.io/github/forks/Nivaskumark/CVE-2020-0133-packages_apps_Settings_nopatch.svg)
 
 ## CVE-2020-0121
  In updateUidProcState of AppOpsService.java, there is a possible permission bypass due to a logic error. This could lead to local information disclosure of location data with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-148180766
