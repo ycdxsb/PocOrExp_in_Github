@@ -23622,6 +23622,13 @@
 
 - [https://github.com/artem-smotrakov/cve-2016-1000027-poc](https://github.com/artem-smotrakov/cve-2016-1000027-poc) :  ![starts](https://img.shields.io/github/stars/artem-smotrakov/cve-2016-1000027-poc.svg) ![forks](https://img.shields.io/github/forks/artem-smotrakov/cve-2016-1000027-poc.svg)
 
+## CVE-2016-10956
+ The mail-masta plugin 1.0 for WordPress has local file inclusion in count_of_send.php and csvexport.php.
+
+
+
+- [https://github.com/p0dalirius/CVE-2016-10956_mail_masta](https://github.com/p0dalirius/CVE-2016-10956_mail_masta) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2016-10956_mail_masta.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2016-10956_mail_masta.svg)
+
 ## CVE-2016-10761
  Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing encryption, aka MouseJack.
 
@@ -24782,9 +24789,9 @@
 
 - [https://github.com/hderms/dh-CVE_2016_2098](https://github.com/hderms/dh-CVE_2016_2098) :  ![starts](https://img.shields.io/github/stars/hderms/dh-CVE_2016_2098.svg) ![forks](https://img.shields.io/github/forks/hderms/dh-CVE_2016_2098.svg)
 
-- [https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Alejandro-MartinG/rails-PoC-CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Alejandro-MartinG/rails-PoC-CVE-2016-2098.svg)
-
 - [https://github.com/its-arun/CVE-2016-2098](https://github.com/its-arun/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/its-arun/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/its-arun/CVE-2016-2098.svg)
+
+- [https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Alejandro-MartinG/rails-PoC-CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Alejandro-MartinG/rails-PoC-CVE-2016-2098.svg)
 
 - [https://github.com/RyouYoo/CVE-2016-2098](https://github.com/RyouYoo/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/RyouYoo/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/RyouYoo/CVE-2016-2098.svg)
 
@@ -24792,9 +24799,9 @@
 
 - [https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit](https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit) :  ![starts](https://img.shields.io/github/stars/DanielCodex/CVE-2016-2098-my-first-exploit.svg) ![forks](https://img.shields.io/github/forks/DanielCodex/CVE-2016-2098-my-first-exploit.svg)
 
-- [https://github.com/Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Debalinax64/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Debalinax64/CVE-2016-2098.svg)
-
 - [https://github.com/3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/3rg1s/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/3rg1s/CVE-2016-2098.svg)
+
+- [https://github.com/Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Debalinax64/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Debalinax64/CVE-2016-2098.svg)
 
 ## CVE-2016-2067
  drivers/gpu/msm/kgsl.c in the MSM graphics driver (aka GPU driver) for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, mishandles the KGSL_MEMFLAGS_GPUREADONLY flag, which allows attackers to gain privileges by leveraging accidental read-write mappings, aka Qualcomm internal bug CR988993.
