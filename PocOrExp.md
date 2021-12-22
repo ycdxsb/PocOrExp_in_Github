@@ -12128,6 +12128,13 @@
 
 - [https://github.com/mhaskar/CVE-2019-16662](https://github.com/mhaskar/CVE-2019-16662) :  ![starts](https://img.shields.io/github/stars/mhaskar/CVE-2019-16662.svg) ![forks](https://img.shields.io/github/forks/mhaskar/CVE-2019-16662.svg)
 
+## CVE-2019-16516
+ An issue was discovered in ConnectWise Control (formerly known as ScreenConnect) 19.3.25270.7185. There is a user enumeration vulnerability, allowing an unauthenticated attacker to determine with certainty if an account exists for a given username.
+
+
+
+- [https://github.com/czz/ScreenConnect-UserEnum](https://github.com/czz/ScreenConnect-UserEnum) :  ![starts](https://img.shields.io/github/stars/czz/ScreenConnect-UserEnum.svg) ![forks](https://img.shields.io/github/forks/czz/ScreenConnect-UserEnum.svg)
+
 ## CVE-2019-16405
  Centreon Web before 2.8.30, 18.10.x before 18.10.8, 19.04.x before 19.04.5 and 19.10.x before 19.10.2 allows Remote Code Execution by an administrator who can modify Macro Expression location settings. CVE-2019-16405 and CVE-2019-17501 are similar to one another and may be the same.
 
@@ -14187,8 +14194,6 @@
 
 
 
-- [https://github.com/psauxx/CVE-2019-9193](https://github.com/psauxx/CVE-2019-9193) :  ![starts](https://img.shields.io/github/stars/psauxx/CVE-2019-9193.svg) ![forks](https://img.shields.io/github/forks/psauxx/CVE-2019-9193.svg)
-
 - [https://github.com/wkjung0624/CVE-2019-9193](https://github.com/wkjung0624/CVE-2019-9193) :  ![starts](https://img.shields.io/github/stars/wkjung0624/CVE-2019-9193.svg) ![forks](https://img.shields.io/github/forks/wkjung0624/CVE-2019-9193.svg)
 
 ## CVE-2019-9184
@@ -14637,6 +14642,13 @@
 
 - [https://github.com/random-robbie/cve-2019-6715](https://github.com/random-robbie/cve-2019-6715) :  ![starts](https://img.shields.io/github/stars/random-robbie/cve-2019-6715.svg) ![forks](https://img.shields.io/github/forks/random-robbie/cve-2019-6715.svg)
 
+## CVE-2019-6693
+ Use of a hard-coded cryptographic key to cipher sensitive data in FortiOS configuration backup file may allow an attacker with access to the backup file to decipher the sensitive data, via knowledge of the hard-coded key. The aforementioned sensitive data includes users' passwords (except the administrator's password), private keys' passphrases and High Availability password (when set).
+
+
+
+- [https://github.com/gquere/CVE-2019-6693](https://github.com/gquere/CVE-2019-6693) :  ![starts](https://img.shields.io/github/stars/gquere/CVE-2019-6693.svg) ![forks](https://img.shields.io/github/forks/gquere/CVE-2019-6693.svg)
+
 ## CVE-2019-6690
  python-gnupg 0.4.3 allows context-dependent attackers to trick gnupg to decrypt other ciphertext than intended. To perform the attack, the passphrase to gnupg must be controlled by the adversary and the ciphertext should be trusted. Related to a &quot;CWE-20: Improper Input Validation&quot; issue affecting the affect functionality component.
 
@@ -14891,11 +14903,11 @@
 
 - [https://github.com/chosam2/cve-2019-5736-poc](https://github.com/chosam2/cve-2019-5736-poc) :  ![starts](https://img.shields.io/github/stars/chosam2/cve-2019-5736-poc.svg) ![forks](https://img.shields.io/github/forks/chosam2/cve-2019-5736-poc.svg)
 
-- [https://github.com/BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/BBRathnayaka/POC-CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/BBRathnayaka/POC-CVE-2019-5736.svg)
-
 - [https://github.com/likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2019-5736.svg)
 
 - [https://github.com/geropl/CVE-2019-5736](https://github.com/geropl/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/geropl/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/geropl/CVE-2019-5736.svg)
+
+- [https://github.com/BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/BBRathnayaka/POC-CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/BBRathnayaka/POC-CVE-2019-5736.svg)
 
 - [https://github.com/likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc) :  ![starts](https://img.shields.io/github/stars/likescam/cve-2019-5736-poc.svg) ![forks](https://img.shields.io/github/forks/likescam/cve-2019-5736-poc.svg)
 
@@ -15232,11 +15244,11 @@
 
 - [https://github.com/quanpt103/CVE-2019-3396](https://github.com/quanpt103/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/quanpt103/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/quanpt103/CVE-2019-3396.svg)
 
+- [https://github.com/xiaoshuier/CVE-2019-3396](https://github.com/xiaoshuier/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/xiaoshuier/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/xiaoshuier/CVE-2019-3396.svg)
+
 - [https://github.com/W2Ning/CVE-2019-3396](https://github.com/W2Ning/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/W2Ning/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/W2Ning/CVE-2019-3396.svg)
 
 - [https://github.com/am6539/CVE-2019-3396](https://github.com/am6539/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/am6539/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/am6539/CVE-2019-3396.svg)
-
-- [https://github.com/xiaoshuier/CVE-2019-3396](https://github.com/xiaoshuier/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/xiaoshuier/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/xiaoshuier/CVE-2019-3396.svg)
 
 - [https://github.com/JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST) :  ![starts](https://img.shields.io/github/stars/JonathanZhou348/CVE-2019-3396TEST.svg) ![forks](https://img.shields.io/github/forks/JonathanZhou348/CVE-2019-3396TEST.svg)
 
