@@ -25628,10 +25628,6 @@
 
 - [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
 
-- [https://github.com/robertdavidgraham/cve-2015-5477](https://github.com/robertdavidgraham/cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/robertdavidgraham/cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/robertdavidgraham/cve-2015-5477.svg)
-
-- [https://github.com/elceef/tkeypoc](https://github.com/elceef/tkeypoc) :  ![starts](https://img.shields.io/github/stars/elceef/tkeypoc.svg) ![forks](https://img.shields.io/github/forks/elceef/tkeypoc.svg)
-
 - [https://github.com/ilanyu/cve-2015-5477](https://github.com/ilanyu/cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/ilanyu/cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/ilanyu/cve-2015-5477.svg)
 
 - [https://github.com/knqyf263/cve-2015-5477](https://github.com/knqyf263/cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/knqyf263/cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/knqyf263/cve-2015-5477.svg)
