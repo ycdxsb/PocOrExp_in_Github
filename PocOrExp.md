@@ -12313,7 +12313,7 @@
 
 - [https://github.com/GeneralEG/CVE-2019-15858](https://github.com/GeneralEG/CVE-2019-15858) :  ![starts](https://img.shields.io/github/stars/GeneralEG/CVE-2019-15858.svg) ![forks](https://img.shields.io/github/forks/GeneralEG/CVE-2019-15858.svg)
 
-- [https://github.com/rakhanobe/CVE-2019-15858](https://github.com/rakhanobe/CVE-2019-15858) :  ![starts](https://img.shields.io/github/stars/rakhanobe/CVE-2019-15858.svg) ![forks](https://img.shields.io/github/forks/rakhanobe/CVE-2019-15858.svg)
+- [https://github.com/thomsdev/CVE-2019-15858](https://github.com/thomsdev/CVE-2019-15858) :  ![starts](https://img.shields.io/github/stars/thomsdev/CVE-2019-15858.svg) ![forks](https://img.shields.io/github/forks/thomsdev/CVE-2019-15858.svg)
 
 ## CVE-2019-15846
  Exim before 4.92.2 allows remote attackers to execute arbitrary code as root via a trailing backslash.
@@ -14294,6 +14294,8 @@
 
 - [https://github.com/Marbocatcat/46635.py](https://github.com/Marbocatcat/46635.py) :  ![starts](https://img.shields.io/github/stars/Marbocatcat/46635.py.svg) ![forks](https://img.shields.io/github/forks/Marbocatcat/46635.py.svg)
 
+- [https://github.com/BernieLane/CMS-Made-Simple-SQLi](https://github.com/BernieLane/CMS-Made-Simple-SQLi) :  ![starts](https://img.shields.io/github/stars/BernieLane/CMS-Made-Simple-SQLi.svg) ![forks](https://img.shields.io/github/forks/BernieLane/CMS-Made-Simple-SQLi.svg)
+
 ## CVE-2019-8997
  An XML External Entity Injection (XXE) vulnerability in the Management System (console) of BlackBerry AtHoc versions earlier than 7.6 HF-567 could allow an attacker to potentially read arbitrary local files from the application server or make requests on the network by entering maliciously crafted XML in an existing field.
 
@@ -15297,9 +15299,9 @@
 
 - [https://github.com/quanpt103/CVE-2019-3396](https://github.com/quanpt103/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/quanpt103/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/quanpt103/CVE-2019-3396.svg)
 
-- [https://github.com/vntest11/confluence_CVE-2019-3396](https://github.com/vntest11/confluence_CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/vntest11/confluence_CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/vntest11/confluence_CVE-2019-3396.svg)
-
 - [https://github.com/46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence) :  ![starts](https://img.shields.io/github/stars/46o60/CVE-2019-3396_Confluence.svg) ![forks](https://img.shields.io/github/forks/46o60/CVE-2019-3396_Confluence.svg)
+
+- [https://github.com/vntest11/confluence_CVE-2019-3396](https://github.com/vntest11/confluence_CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/vntest11/confluence_CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/vntest11/confluence_CVE-2019-3396.svg)
 
 - [https://github.com/W2Ning/CVE-2019-3396](https://github.com/W2Ning/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/W2Ning/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/W2Ning/CVE-2019-3396.svg)
 
