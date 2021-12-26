@@ -96,9 +96,9 @@
 
 - [https://github.com/padsalatushal/CVE-2011-2523](https://github.com/padsalatushal/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/padsalatushal/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/padsalatushal/CVE-2011-2523.svg)
 
-- [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
-
 - [https://github.com/whoamins/vsFTPd-2.3.4-exploit](https://github.com/whoamins/vsFTPd-2.3.4-exploit) :  ![starts](https://img.shields.io/github/stars/whoamins/vsFTPd-2.3.4-exploit.svg) ![forks](https://img.shields.io/github/forks/whoamins/vsFTPd-2.3.4-exploit.svg)
+
+- [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
 - [https://github.com/HerculesRD/vsftpd2.3.4PyExploit](https://github.com/HerculesRD/vsftpd2.3.4PyExploit) :  ![starts](https://img.shields.io/github/stars/HerculesRD/vsftpd2.3.4PyExploit.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/vsftpd2.3.4PyExploit.svg)
 
