@@ -93,7 +93,6 @@ optional arguments:
 - 20210412: 修复了github搜索时，例如搜索CVE-2020-3618，会搜索到CVE-2020-36184的结果的问题
 - 20210413: 由于NVD官网CVE编号缺失，改用CVE官网数据，发布异步版脚本
 - 20210414: 完成第一轮PocOrExp的爬取，目前使用20个github api token，可以做到12小时内轮询所有CVE并更新
-- 20210414: 做了一些简单数据统计，见[Statistics](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Statistics/README.md)
 - 20210416: 增加-w参数
 - 20210417: 新增每日更新脚本today.py，更新内容见[Today](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Today.md)，可以在上面修改，例如将`get_today_update`的返回结果通过server酱，wxpusher等发送给自己
 - 20210420: 发现一些非PoC的repo, 通过增加黑名单去除，同时更新异步脚本v2。

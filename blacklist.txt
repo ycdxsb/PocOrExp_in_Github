@@ -1,10 +1,3 @@
-https://github.com/Nick-Yin12/106362522
-https://github.com/p0p0p0/CVE-2019-0708-exploit
-https://github.com/adalenv/CVE-2019-0708-Tool
-https://github.com/hook-s3c/CVE-2019-0708-poc
-https://github.com/Jaky5155/CVE-2019-0785
-https://github.com/attackgithub/CVE-2019-1064
-https://github.com/Eternit7/CVE-2019-1458
 https://github.com/fireaye/ioc-scanner-CVE-2021-31221
 https://github.com/f1reaye/ioc-scanner-CVE-2021-31221
 https://github.com/Umarovm/-Patched-McMaster-University-Blind-Command-Injection
@@ -56,3 +49,7 @@ https://github.com/mandiant/ioc-scanner-CVE-2019-19781
 https://github.com/rpie/OpenSMTPD
 https://github.com/rockysec/CVE-2018-11236
 https://github.com/securitysphynx/cve-2021-40444_weaponized
+
+https://github.com/shrugly/hydra-0.1.8
+https://github.com/madhans23
+https://github.com/Nivaskumark
