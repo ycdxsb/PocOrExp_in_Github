@@ -5667,11 +5667,11 @@
 
 - [https://github.com/yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc) :  ![starts](https://img.shields.io/github/stars/yhsung/cve-2020-27955-poc.svg) ![forks](https://img.shields.io/github/forks/yhsung/cve-2020-27955-poc.svg)
 
+- [https://github.com/Marsable/CVE-2020-27955-LFS](https://github.com/Marsable/CVE-2020-27955-LFS) :  ![starts](https://img.shields.io/github/stars/Marsable/CVE-2020-27955-LFS.svg) ![forks](https://img.shields.io/github/forks/Marsable/CVE-2020-27955-LFS.svg)
+
 - [https://github.com/IanSmith123/CVE-2020-27955](https://github.com/IanSmith123/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/IanSmith123/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/IanSmith123/CVE-2020-27955.svg)
 
 - [https://github.com/nob0dy-3389/CVE-2020-27955](https://github.com/nob0dy-3389/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/nob0dy-3389/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/nob0dy-3389/CVE-2020-27955.svg)
-
-- [https://github.com/Marsable/CVE-2020-27955-LFS](https://github.com/Marsable/CVE-2020-27955-LFS) :  ![starts](https://img.shields.io/github/stars/Marsable/CVE-2020-27955-LFS.svg) ![forks](https://img.shields.io/github/forks/Marsable/CVE-2020-27955-LFS.svg)
 
 - [https://github.com/SSRemex/CVE-2020-27955-TEST](https://github.com/SSRemex/CVE-2020-27955-TEST) :  ![starts](https://img.shields.io/github/stars/SSRemex/CVE-2020-27955-TEST.svg) ![forks](https://img.shields.io/github/forks/SSRemex/CVE-2020-27955-TEST.svg)
 
@@ -7765,9 +7765,9 @@
 
 
 
-- [https://github.com/advanced-threat-research/Ripple-20-Detection-Logic](https://github.com/advanced-threat-research/Ripple-20-Detection-Logic) :  ![starts](https://img.shields.io/github/stars/advanced-threat-research/Ripple-20-Detection-Logic.svg) ![forks](https://img.shields.io/github/forks/advanced-threat-research/Ripple-20-Detection-Logic.svg)
-
 - [https://github.com/Fans0n-Fan/Treck20-Related](https://github.com/Fans0n-Fan/Treck20-Related) :  ![starts](https://img.shields.io/github/stars/Fans0n-Fan/Treck20-Related.svg) ![forks](https://img.shields.io/github/forks/Fans0n-Fan/Treck20-Related.svg)
+
+- [https://github.com/advanced-threat-research/Ripple-20-Detection-Logic](https://github.com/advanced-threat-research/Ripple-20-Detection-Logic) :  ![starts](https://img.shields.io/github/stars/advanced-threat-research/Ripple-20-Detection-Logic.svg) ![forks](https://img.shields.io/github/forks/advanced-threat-research/Ripple-20-Detection-Logic.svg)
 
 ## CVE-2020-11890
  An issue was discovered in Joomla! before 3.9.17. Improper input validations in the usergroup table class could lead to a broken ACL configuration.
@@ -10157,9 +10157,9 @@
 
 - [https://github.com/Neko2sh1ro/CVE-2020-1938](https://github.com/Neko2sh1ro/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/Neko2sh1ro/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/Neko2sh1ro/CVE-2020-1938.svg)
 
-- [https://github.com/einzbernnn/CVE-2020-1938Scan](https://github.com/einzbernnn/CVE-2020-1938Scan) :  ![starts](https://img.shields.io/github/stars/einzbernnn/CVE-2020-1938Scan.svg) ![forks](https://img.shields.io/github/forks/einzbernnn/CVE-2020-1938Scan.svg)
-
 - [https://github.com/streghstreek/CVE-2020-1938](https://github.com/streghstreek/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/streghstreek/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/streghstreek/CVE-2020-1938.svg)
+
+- [https://github.com/einzbernnn/CVE-2020-1938Scan](https://github.com/einzbernnn/CVE-2020-1938Scan) :  ![starts](https://img.shields.io/github/stars/einzbernnn/CVE-2020-1938Scan.svg) ![forks](https://img.shields.io/github/forks/einzbernnn/CVE-2020-1938Scan.svg)
 
 - [https://github.com/jptr218/ghostcat](https://github.com/jptr218/ghostcat) :  ![starts](https://img.shields.io/github/stars/jptr218/ghostcat.svg) ![forks](https://img.shields.io/github/forks/jptr218/ghostcat.svg)
 
@@ -10895,9 +10895,9 @@
 
 - [https://github.com/forrest-orr/DoubleStar](https://github.com/forrest-orr/DoubleStar) :  ![starts](https://img.shields.io/github/stars/forrest-orr/DoubleStar.svg) ![forks](https://img.shields.io/github/forks/forrest-orr/DoubleStar.svg)
 
-- [https://github.com/binaryfigments/CVE-2020-0674](https://github.com/binaryfigments/CVE-2020-0674) :  ![starts](https://img.shields.io/github/stars/binaryfigments/CVE-2020-0674.svg) ![forks](https://img.shields.io/github/forks/binaryfigments/CVE-2020-0674.svg)
-
 - [https://github.com/forrest-orr/Exploits](https://github.com/forrest-orr/Exploits) :  ![starts](https://img.shields.io/github/stars/forrest-orr/Exploits.svg) ![forks](https://img.shields.io/github/forks/forrest-orr/Exploits.svg)
+
+- [https://github.com/binaryfigments/CVE-2020-0674](https://github.com/binaryfigments/CVE-2020-0674) :  ![starts](https://img.shields.io/github/stars/binaryfigments/CVE-2020-0674.svg) ![forks](https://img.shields.io/github/forks/binaryfigments/CVE-2020-0674.svg)
 
 - [https://github.com/Neko2sh1ro/CVE-2020-0674-PoC](https://github.com/Neko2sh1ro/CVE-2020-0674-PoC) :  ![starts](https://img.shields.io/github/stars/Neko2sh1ro/CVE-2020-0674-PoC.svg) ![forks](https://img.shields.io/github/forks/Neko2sh1ro/CVE-2020-0674-PoC.svg)
 
@@ -11027,9 +11027,9 @@
 
 - [https://github.com/SherlockSec/CVE-2020-0601](https://github.com/SherlockSec/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/SherlockSec/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/SherlockSec/CVE-2020-0601.svg)
 
-- [https://github.com/Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/Ash112121/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/Ash112121/CVE-2020-0601.svg)
-
 - [https://github.com/MarkusZehnle/CVE-2020-0601](https://github.com/MarkusZehnle/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/MarkusZehnle/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/MarkusZehnle/CVE-2020-0601.svg)
+
+- [https://github.com/Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/Ash112121/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/Ash112121/CVE-2020-0601.svg)
 
 - [https://github.com/JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/JPurrier/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/JPurrier/CVE-2020-0601.svg)
 
