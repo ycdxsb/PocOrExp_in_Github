@@ -25349,7 +25349,7 @@
 
 - [https://github.com/jpiechowka/jenkins-cve-2016-0792](https://github.com/jpiechowka/jenkins-cve-2016-0792) :  ![starts](https://img.shields.io/github/stars/jpiechowka/jenkins-cve-2016-0792.svg) ![forks](https://img.shields.io/github/forks/jpiechowka/jenkins-cve-2016-0792.svg)
 
-- [https://github.com/s0wr0b1ndef/java-deserialization-exploits](https://github.com/s0wr0b1ndef/java-deserialization-exploits) :  ![starts](https://img.shields.io/github/stars/s0wr0b1ndef/java-deserialization-exploits.svg) ![forks](https://img.shields.io/github/forks/s0wr0b1ndef/java-deserialization-exploits.svg)
+- [https://github.com/R0B1NL1N/java-deserialization-exploits](https://github.com/R0B1NL1N/java-deserialization-exploits) :  ![starts](https://img.shields.io/github/stars/R0B1NL1N/java-deserialization-exploits.svg) ![forks](https://img.shields.io/github/forks/R0B1NL1N/java-deserialization-exploits.svg)
 
 - [https://github.com/Aviksaikat/CVE-2016-0792](https://github.com/Aviksaikat/CVE-2016-0792) :  ![starts](https://img.shields.io/github/stars/Aviksaikat/CVE-2016-0792.svg) ![forks](https://img.shields.io/github/forks/Aviksaikat/CVE-2016-0792.svg)
 
