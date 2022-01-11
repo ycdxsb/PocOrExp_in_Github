@@ -28136,6 +28136,13 @@
 
 - [https://github.com/tafamace/CVE-2012-5575](https://github.com/tafamace/CVE-2012-5575) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2012-5575.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2012-5575.svg)
 
+## CVE-2012-5519
+ CUPS 1.4.4, when running in certain Linux distributions such as Debian GNU/Linux, stores the web interface administrator key in /var/run/cups/certs/0 using certain permissions, which allows local users in the lpadmin group to read or write arbitrary files as root by leveraging the web interface.
+
+
+
+- [https://github.com/0zvxr/CVE-2012-5519](https://github.com/0zvxr/CVE-2012-5519) :  ![starts](https://img.shields.io/github/stars/0zvxr/CVE-2012-5519.svg) ![forks](https://img.shields.io/github/forks/0zvxr/CVE-2012-5519.svg)
+
 ## CVE-2012-5106
  Stack-based buffer overflow in FreeFloat FTP Server 1.0 allows remote authenticated users to execute arbitrary code via a long string in a PUT command.
 
