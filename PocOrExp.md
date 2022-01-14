@@ -25714,6 +25714,13 @@
 
 - [https://github.com/halkichi0308/CVE-2015-9251](https://github.com/halkichi0308/CVE-2015-9251) :  ![starts](https://img.shields.io/github/stars/halkichi0308/CVE-2015-9251.svg) ![forks](https://img.shields.io/github/forks/halkichi0308/CVE-2015-9251.svg)
 
+## CVE-2015-9235
+ In jsonwebtoken node module before 4.2.2 it is possible for an attacker to bypass verification when a token digitally signed with an asymmetric key (RS/ES family) of algorithms but instead the attacker send a token digitally signed with a symmetric algorithm (HS* family).
+
+
+
+- [https://github.com/aalex954/jwt-key-confusion-poc](https://github.com/aalex954/jwt-key-confusion-poc) :  ![starts](https://img.shields.io/github/stars/aalex954/jwt-key-confusion-poc.svg) ![forks](https://img.shields.io/github/forks/aalex954/jwt-key-confusion-poc.svg)
+
 ## CVE-2015-8710
  The htmlParseComment function in HTMLparser.c in libxml2 allows attackers to obtain sensitive information, cause a denial of service (out-of-bounds heap memory access and application crash), or possibly have unspecified other impact via an unclosed HTML comment.
 
@@ -26464,9 +26471,9 @@
 
 - [https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635](https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/Zx7ffa4512-Python/Project-CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/Zx7ffa4512-Python/Project-CVE-2015-1635.svg)
 
-- [https://github.com/neu5ron/cve_2015-1635](https://github.com/neu5ron/cve_2015-1635) :  ![starts](https://img.shields.io/github/stars/neu5ron/cve_2015-1635.svg) ![forks](https://img.shields.io/github/forks/neu5ron/cve_2015-1635.svg)
-
 - [https://github.com/bongbongco/MS15-034](https://github.com/bongbongco/MS15-034) :  ![starts](https://img.shields.io/github/stars/bongbongco/MS15-034.svg) ![forks](https://img.shields.io/github/forks/bongbongco/MS15-034.svg)
+
+- [https://github.com/neu5ron/cve_2015-1635](https://github.com/neu5ron/cve_2015-1635) :  ![starts](https://img.shields.io/github/stars/neu5ron/cve_2015-1635.svg) ![forks](https://img.shields.io/github/forks/neu5ron/cve_2015-1635.svg)
 
 - [https://github.com/1nf1n17yk1ng/CVE-2015-1635-POC](https://github.com/1nf1n17yk1ng/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/1nf1n17yk1ng/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/1nf1n17yk1ng/CVE-2015-1635-POC.svg)
 
