@@ -1148,6 +1148,8 @@
 
 - [https://github.com/yunxu1/jboss-_CVE-2017-12149](https://github.com/yunxu1/jboss-_CVE-2017-12149) :  ![starts](https://img.shields.io/github/stars/yunxu1/jboss-_CVE-2017-12149.svg) ![forks](https://img.shields.io/github/forks/yunxu1/jboss-_CVE-2017-12149.svg)
 
+- [https://github.com/sevck/CVE-2017-12149](https://github.com/sevck/CVE-2017-12149) :  ![starts](https://img.shields.io/github/stars/sevck/CVE-2017-12149.svg) ![forks](https://img.shields.io/github/forks/sevck/CVE-2017-12149.svg)
+
 - [https://github.com/1337g/CVE-2017-12149](https://github.com/1337g/CVE-2017-12149) :  ![starts](https://img.shields.io/github/stars/1337g/CVE-2017-12149.svg) ![forks](https://img.shields.io/github/forks/1337g/CVE-2017-12149.svg)
 
 - [https://github.com/jreppiks/CVE-2017-12149](https://github.com/jreppiks/CVE-2017-12149) :  ![starts](https://img.shields.io/github/stars/jreppiks/CVE-2017-12149.svg) ![forks](https://img.shields.io/github/forks/jreppiks/CVE-2017-12149.svg)
@@ -2641,11 +2643,11 @@
 
 - [https://github.com/colorblindpentester/CVE-2017-5638](https://github.com/colorblindpentester/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/colorblindpentester/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/colorblindpentester/CVE-2017-5638.svg)
 
+- [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
+
 - [https://github.com/AndreasKl/CVE-2017-5638](https://github.com/AndreasKl/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/AndreasKl/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/AndreasKl/CVE-2017-5638.svg)
 
 - [https://github.com/Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Badbird3/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Badbird3/CVE-2017-5638.svg)
-
-- [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
 
 - [https://github.com/Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Xhendos/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Xhendos/CVE-2017-5638.svg)
 
@@ -2813,6 +2815,8 @@
 
 
 - [https://github.com/SECFORCE/CVE-2017-3599](https://github.com/SECFORCE/CVE-2017-3599) :  ![starts](https://img.shields.io/github/stars/SECFORCE/CVE-2017-3599.svg) ![forks](https://img.shields.io/github/forks/SECFORCE/CVE-2017-3599.svg)
+
+- [https://github.com/jptr218/mysql_dos](https://github.com/jptr218/mysql_dos) :  ![starts](https://img.shields.io/github/stars/jptr218/mysql_dos.svg) ![forks](https://img.shields.io/github/forks/jptr218/mysql_dos.svg)
 
 ## CVE-2017-3506
  Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Web Services). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.0, 12.2.1.1 and 12.2.1.2. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle WebLogic Server accessible data as well as unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.0 Base Score 7.4 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).
