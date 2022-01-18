@@ -28,10 +28,3 @@
 
 
 - [https://github.com/phamthanhsang280477/CVE-2003-0222](https://github.com/phamthanhsang280477/CVE-2003-0222) :  ![starts](https://img.shields.io/github/stars/phamthanhsang280477/CVE-2003-0222.svg) ![forks](https://img.shields.io/github/forks/phamthanhsang280477/CVE-2003-0222.svg)
-
-## CVE-2003-0201
- Buffer overflow in the call_trans2open function in trans2.c for Samba 2.2.x before 2.2.8a, 2.0.10 and earlier 2.0.x versions, and Samba-TNG before 0.3.2, allows remote attackers to execute arbitrary code.
-
-
-
-- [https://github.com/KernelPan1k/trans2open-CVE-2003-0201](https://github.com/KernelPan1k/trans2open-CVE-2003-0201) :  ![starts](https://img.shields.io/github/stars/KernelPan1k/trans2open-CVE-2003-0201.svg) ![forks](https://img.shields.io/github/forks/KernelPan1k/trans2open-CVE-2003-0201.svg)
