@@ -2540,6 +2540,8 @@
 
 - [https://github.com/pimps/CVE-2017-5645](https://github.com/pimps/CVE-2017-5645) :  ![starts](https://img.shields.io/github/stars/pimps/CVE-2017-5645.svg) ![forks](https://img.shields.io/github/forks/pimps/CVE-2017-5645.svg)
 
+- [https://github.com/HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder) :  ![starts](https://img.shields.io/github/stars/HynekPetrak/log4shell-finder.svg) ![forks](https://img.shields.io/github/forks/HynekPetrak/log4shell-finder.svg)
+
 ## CVE-2017-5638
  The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 
@@ -2621,9 +2623,9 @@
 
 - [https://github.com/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner) :  ![starts](https://img.shields.io/github/stars/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner.svg) ![forks](https://img.shields.io/github/forks/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner.svg)
 
-- [https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve](https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve) :  ![starts](https://img.shields.io/github/stars/Masahiro-Yamada/OgnlContentTypeRejectorValve.svg) ![forks](https://img.shields.io/github/forks/Masahiro-Yamada/OgnlContentTypeRejectorValve.svg)
-
 - [https://github.com/mike-williams/Struts2Vuln](https://github.com/mike-williams/Struts2Vuln) :  ![starts](https://img.shields.io/github/stars/mike-williams/Struts2Vuln.svg) ![forks](https://img.shields.io/github/forks/mike-williams/Struts2Vuln.svg)
+
+- [https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve](https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve) :  ![starts](https://img.shields.io/github/stars/Masahiro-Yamada/OgnlContentTypeRejectorValve.svg) ![forks](https://img.shields.io/github/forks/Masahiro-Yamada/OgnlContentTypeRejectorValve.svg)
 
 - [https://github.com/KarzsGHR/S2-046_S2-045_POC](https://github.com/KarzsGHR/S2-046_S2-045_POC) :  ![starts](https://img.shields.io/github/stars/KarzsGHR/S2-046_S2-045_POC.svg) ![forks](https://img.shields.io/github/forks/KarzsGHR/S2-046_S2-045_POC.svg)
 
