@@ -1,42 +1,49 @@
-# Update 2022-01-22
-## CVE-2022-0219
- Improper Restriction of XML External Entity Reference in GitHub repository skylot/jadx prior to 1.3.2.
+# Update 2022-01-23
+## CVE-2022-23305
+ By design, the JDBCAppender in Log4j 1.2.x accepts an SQL statement as a configuration parameter where the values to be inserted are converters from PatternLayout. The message converter, %m, is likely to always be included. This allows attackers to manipulate the SQL by entering crafted strings into input fields or headers of an application that are logged allowing unintended SQL queries to be executed. Note this issue only affects Log4j 1.x when specifically configured to use the JDBCAppender, which is not the default. Beginning in version 2.0-beta8, the JDBCAppender was re-introduced with proper support for parameterized SQL queries and further customization over the columns written to in logs. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions.
 
-- [https://github.com/Haxatron/CVE-2022-0219](https://github.com/Haxatron/CVE-2022-0219) :  ![starts](https://img.shields.io/github/stars/Haxatron/CVE-2022-0219.svg) ![forks](https://img.shields.io/github/forks/Haxatron/CVE-2022-0219.svg)
-
-
-## CVE-2021-44228
- Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0 (along with 2.12.2, 2.12.3, and 2.3.1), this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects.
-
-- [https://github.com/Y0-kan/Log4jShell-Scan](https://github.com/Y0-kan/Log4jShell-Scan) :  ![starts](https://img.shields.io/github/stars/Y0-kan/Log4jShell-Scan.svg) ![forks](https://img.shields.io/github/forks/Y0-kan/Log4jShell-Scan.svg)
+- [https://github.com/AlphabugX/CVE-2022-RCE](https://github.com/AlphabugX/CVE-2022-RCE) :  ![starts](https://img.shields.io/github/stars/AlphabugX/CVE-2022-RCE.svg) ![forks](https://img.shields.io/github/forks/AlphabugX/CVE-2022-RCE.svg)
 
 
-## CVE-2021-32790
- Woocommerce is an open source eCommerce plugin for WordPress. An SQL injection vulnerability impacts all WooCommerce sites running the WooCommerce plugin between version 3.3.0 and 3.3.6. Malicious actors (already) having admin access, or API keys to the WooCommerce site can exploit vulnerable endpoints of `/wp-json/wc/v3/webhooks`, `/wp-json/wc/v2/webhooks` and other webhook listing API. Read-only SQL queries can be executed using this exploit, while data will not be returned, by carefully crafting `search` parameter information can be disclosed using timing and related attacks. Version 3.3.6 is the earliest version of Woocommerce with a patch for this vulnerability. There are no known workarounds other than upgrading.
+## CVE-2022-22296
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/LazyTitan33/CVE-2021-32790-PoC](https://github.com/LazyTitan33/CVE-2021-32790-PoC) :  ![starts](https://img.shields.io/github/stars/LazyTitan33/CVE-2021-32790-PoC.svg) ![forks](https://img.shields.io/github/forks/LazyTitan33/CVE-2021-32790-PoC.svg)
-
-
-## CVE-2021-32648
- octobercms in a CMS platform based on the Laravel PHP Framework. In affected versions of the october/system package an attacker can request an account password reset and then gain access to the account using a specially crafted request. The issue has been patched in Build 472 and v1.1.5.
-
-- [https://github.com/daftspunk/CVE-2021-32648](https://github.com/daftspunk/CVE-2021-32648) :  ![starts](https://img.shields.io/github/stars/daftspunk/CVE-2021-32648.svg) ![forks](https://img.shields.io/github/forks/daftspunk/CVE-2021-32648.svg)
+- [https://github.com/vlakhani28/CVE-2022-22296](https://github.com/vlakhani28/CVE-2022-22296) :  ![starts](https://img.shields.io/github/stars/vlakhani28/CVE-2022-22296.svg) ![forks](https://img.shields.io/github/forks/vlakhani28/CVE-2022-22296.svg)
 
 
-## CVE-2021-32099
- A SQL injection vulnerability in the pandora_console component of Artica Pandora FMS 742 allows an unauthenticated attacker to upgrade his unprivileged session via the /include/chart_generator.php session_id parameter, leading to a login bypass.
+## CVE-2022-21658
+ Rust is a multi-paradigm, general-purpose programming language designed for performance and safety, especially safe concurrency. The Rust Security Response WG was notified that the `std::fs::remove_dir_all` standard library function is vulnerable a race condition enabling symlink following (CWE-363). An attacker could use this security issue to trick a privileged program into deleting files and directories the attacker couldn't otherwise access or delete. Rust 1.0.0 through Rust 1.58.0 is affected by this vulnerability with 1.58.1 containing a patch. Note that the following build targets don't have usable APIs to properly mitigate the attack, and are thus still vulnerable even with a patched toolchain: macOS before version 10.10 (Yosemite) and REDOX. We recommend everyone to update to Rust 1.58.1 as soon as possible, especially people developing programs expected to run in privileged contexts (including system daemons and setuid binaries), as those have the highest risk of being affected by this. Note that adding checks in your codebase before calling remove_dir_all will not mitigate the vulnerability, as they would also be vulnerable to race conditions like remove_dir_all itself. The existing mitigation is working as intended outside of race conditions.
 
-- [https://github.com/l3eol3eo/CVE-2021-32099_SQLi](https://github.com/l3eol3eo/CVE-2021-32099_SQLi) :  ![starts](https://img.shields.io/github/stars/l3eol3eo/CVE-2021-32099_SQLi.svg) ![forks](https://img.shields.io/github/forks/l3eol3eo/CVE-2021-32099_SQLi.svg)
-
-
-## CVE-2018-16809
- An issue was discovered in Dolibarr through 7.0.0. expensereport/card.php in the expense reports module allows SQL injection via the integer parameters qty and value_unit.
-
-- [https://github.com/elkassimyhajar/CVE-2018-16809](https://github.com/elkassimyhajar/CVE-2018-16809) :  ![starts](https://img.shields.io/github/stars/elkassimyhajar/CVE-2018-16809.svg) ![forks](https://img.shields.io/github/forks/elkassimyhajar/CVE-2018-16809.svg)
+- [https://github.com/sagittarius-a/cve-2022-21658](https://github.com/sagittarius-a/cve-2022-21658) :  ![starts](https://img.shields.io/github/stars/sagittarius-a/cve-2022-21658.svg) ![forks](https://img.shields.io/github/forks/sagittarius-a/cve-2022-21658.svg)
 
 
-## CVE-2018-1311
- The Apache Xerces-C 3.0.0 to 3.2.3 XML parser contains a use-after-free error triggered during the scanning of external DTDs. This flaw has not been addressed in the maintained version of the library and has no current mitigation other than to disable DTD processing. This can be accomplished via the DOM using a standard parser feature, or via SAX using the XERCES_DISABLE_DTD environment variable.
+## CVE-2021-44593
+ Simple College Website 1.0 is vulnerable to unauthenticated file upload &amp; remote code execution via UNION-based SQL injection in the username parameter on /admin/login.php.
 
-- [https://github.com/johnjamesmccann/xerces-3.2.3-DTD-hotfix](https://github.com/johnjamesmccann/xerces-3.2.3-DTD-hotfix) :  ![starts](https://img.shields.io/github/stars/johnjamesmccann/xerces-3.2.3-DTD-hotfix.svg) ![forks](https://img.shields.io/github/forks/johnjamesmccann/xerces-3.2.3-DTD-hotfix.svg)
+- [https://github.com/Mister-Joe/CVE-2021-44593](https://github.com/Mister-Joe/CVE-2021-44593) :  ![starts](https://img.shields.io/github/stars/Mister-Joe/CVE-2021-44593.svg) ![forks](https://img.shields.io/github/forks/Mister-Joe/CVE-2021-44593.svg)
+
+
+## CVE-2021-3560
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/Almorabea/Polkit-exploit](https://github.com/Almorabea/Polkit-exploit) :  ![starts](https://img.shields.io/github/stars/Almorabea/Polkit-exploit.svg) ![forks](https://img.shields.io/github/forks/Almorabea/Polkit-exploit.svg)
+- [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
+
+
+## CVE-2021-1675
+ Windows Print Spooler Elevation of Privilege Vulnerability
+
+- [https://github.com/eversinc33/NimNightmare](https://github.com/eversinc33/NimNightmare) :  ![starts](https://img.shields.io/github/stars/eversinc33/NimNightmare.svg) ![forks](https://img.shields.io/github/forks/eversinc33/NimNightmare.svg)
+
+
+## CVE-2019-17240
+ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-force protection mechanism by using many different forged X-Forwarded-For or Client-IP HTTP headers.
+
+- [https://github.com/0xk4sra/CVE-2019-17240](https://github.com/0xk4sra/CVE-2019-17240) :  ![starts](https://img.shields.io/github/stars/0xk4sra/CVE-2019-17240.svg) ![forks](https://img.shields.io/github/forks/0xk4sra/CVE-2019-17240.svg)
+
+
+## CVE-2019-16113
+ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php because PHP code can be entered with a .jpg file name, and then this PHP code can write other PHP code to a ../ pathname.
+
+- [https://github.com/0xk4sra/CVE-2019-16113](https://github.com/0xk4sra/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/0xk4sra/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/0xk4sra/CVE-2019-16113.svg)
 
