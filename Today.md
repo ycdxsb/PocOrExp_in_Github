@@ -1,24 +1,42 @@
-# Update 2022-01-24
-## CVE-2021-30858
- A use after free issue was addressed with improved memory management. This issue is fixed in iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
+# Update 2022-01-25
+## CVE-2022-22852
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/kmeps4/CVEREV3](https://github.com/kmeps4/CVEREV3) :  ![starts](https://img.shields.io/github/stars/kmeps4/CVEREV3.svg) ![forks](https://img.shields.io/github/forks/kmeps4/CVEREV3.svg)
-
-
-## CVE-2020-35848
- Agentejo Cockpit before 0.11.2 allows NoSQL injection via the Controller/Auth.php newpassword function.
-
-- [https://github.com/w33vils/CVE-2020-35847_CVE-2020-35848](https://github.com/w33vils/CVE-2020-35847_CVE-2020-35848) :  ![starts](https://img.shields.io/github/stars/w33vils/CVE-2020-35847_CVE-2020-35848.svg) ![forks](https://img.shields.io/github/forks/w33vils/CVE-2020-35847_CVE-2020-35848.svg)
+- [https://github.com/Sant268/CVE-2022-22852](https://github.com/Sant268/CVE-2022-22852) :  ![starts](https://img.shields.io/github/stars/Sant268/CVE-2022-22852.svg) ![forks](https://img.shields.io/github/forks/Sant268/CVE-2022-22852.svg)
 
 
-## CVE-2019-19609
- The Strapi framework before 3.0.0-beta.17.8 is vulnerable to Remote Code Execution in the Install and Uninstall Plugin components of the Admin panel, because it does not sanitize the plugin name, and attackers can inject arbitrary shell commands to be executed by the execa function.
+## CVE-2022-22851
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/glowbase/CVE-2019-19609](https://github.com/glowbase/CVE-2019-19609) :  ![starts](https://img.shields.io/github/stars/glowbase/CVE-2019-19609.svg) ![forks](https://img.shields.io/github/forks/glowbase/CVE-2019-19609.svg)
+- [https://github.com/Sant268/CVE-2022-22851](https://github.com/Sant268/CVE-2022-22851) :  ![starts](https://img.shields.io/github/stars/Sant268/CVE-2022-22851.svg) ![forks](https://img.shields.io/github/forks/Sant268/CVE-2022-22851.svg)
 
 
-## CVE-2019-18818
- strapi before 3.0.0-beta.17.5 mishandles password resets within packages/strapi-admin/controllers/Auth.js and packages/strapi-plugin-users-permissions/controllers/Auth.js.
+## CVE-2022-22850
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/glowbase/CVE-2019-19609](https://github.com/glowbase/CVE-2019-19609) :  ![starts](https://img.shields.io/github/stars/glowbase/CVE-2019-19609.svg) ![forks](https://img.shields.io/github/forks/glowbase/CVE-2019-19609.svg)
+- [https://github.com/Sant268/CVE-2022-22850](https://github.com/Sant268/CVE-2022-22850) :  ![starts](https://img.shields.io/github/stars/Sant268/CVE-2022-22850.svg) ![forks](https://img.shields.io/github/forks/Sant268/CVE-2022-22850.svg)
+
+
+## CVE-2022-21907
+ HTTP Protocol Stack Remote Code Execution Vulnerability.
+
+- [https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC) :  ![starts](https://img.shields.io/github/stars/michelep/CVE-2022-21907-Vulnerability-PoC.svg) ![forks](https://img.shields.io/github/forks/michelep/CVE-2022-21907-Vulnerability-PoC.svg)
+
+
+## CVE-2021-22204
+ Improper neutralization of user data in the DjVu file format in ExifTool versions 7.44 and up allows arbitrary code execution when parsing the malicious image
+
+- [https://github.com/LazyTitan33/CVE-2021-22204](https://github.com/LazyTitan33/CVE-2021-22204) :  ![starts](https://img.shields.io/github/stars/LazyTitan33/CVE-2021-22204.svg) ![forks](https://img.shields.io/github/forks/LazyTitan33/CVE-2021-22204.svg)
+
+
+## CVE-2021-3156
+ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
+
+- [https://github.com/sharkmoos/Baron-Samedit](https://github.com/sharkmoos/Baron-Samedit) :  ![starts](https://img.shields.io/github/stars/sharkmoos/Baron-Samedit.svg) ![forks](https://img.shields.io/github/forks/sharkmoos/Baron-Samedit.svg)
+
+
+## CVE-2021-1732
+ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-1698.
+
+- [https://github.com/ExploitCN/CVE-2021-1732-EXP-](https://github.com/ExploitCN/CVE-2021-1732-EXP-) :  ![starts](https://img.shields.io/github/stars/ExploitCN/CVE-2021-1732-EXP-.svg) ![forks](https://img.shields.io/github/forks/ExploitCN/CVE-2021-1732-EXP-.svg)
 
