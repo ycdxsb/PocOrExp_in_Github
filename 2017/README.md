@@ -791,6 +791,13 @@
 
 - [https://github.com/HuSoul/CVE-2017-15708](https://github.com/HuSoul/CVE-2017-15708) :  ![starts](https://img.shields.io/github/stars/HuSoul/CVE-2017-15708.svg) ![forks](https://img.shields.io/github/forks/HuSoul/CVE-2017-15708.svg)
 
+## CVE-2017-15689
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/hidog123/Codiad-CVE-2018-14009](https://github.com/hidog123/Codiad-CVE-2018-14009) :  ![starts](https://img.shields.io/github/stars/hidog123/Codiad-CVE-2018-14009.svg) ![forks](https://img.shields.io/github/forks/hidog123/Codiad-CVE-2018-14009.svg)
+
 ## CVE-2017-15394
  Insufficient Policy Enforcement in Extensions in Google Chrome prior to 62.0.3202.62 allowed a remote attacker to perform domain spoofing in permission dialogs via IDN homographs in a crafted Chrome Extension.
 
@@ -1285,6 +1292,13 @@
 
 
 - [https://github.com/CHYbeta/CVE-2017-11427-DEMO](https://github.com/CHYbeta/CVE-2017-11427-DEMO) :  ![starts](https://img.shields.io/github/stars/CHYbeta/CVE-2017-11427-DEMO.svg) ![forks](https://img.shields.io/github/forks/CHYbeta/CVE-2017-11427-DEMO.svg)
+
+## CVE-2017-11366
+ components/filemanager/class.filemanager.php in Codiad before 2.8.4 is vulnerable to remote command execution because shell commands can be embedded in parameter values, as demonstrated by search_file_type.
+
+
+
+- [https://github.com/hidog123/Codiad-CVE-2018-14009](https://github.com/hidog123/Codiad-CVE-2018-14009) :  ![starts](https://img.shields.io/github/stars/hidog123/Codiad-CVE-2018-14009.svg) ![forks](https://img.shields.io/github/forks/hidog123/Codiad-CVE-2018-14009.svg)
 
 ## CVE-2017-11357
  Progress Telerik UI for ASP.NET AJAX before R2 2017 SP2 does not properly restrict user input to RadAsyncUpload, which allows remote attackers to perform arbitrary file uploads or execute arbitrary code.
