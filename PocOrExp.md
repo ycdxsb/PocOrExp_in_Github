@@ -28649,6 +28649,13 @@
 
 - [https://github.com/lagartojuancho/CVE-2013-3664_BMP](https://github.com/lagartojuancho/CVE-2013-3664_BMP) :  ![starts](https://img.shields.io/github/stars/lagartojuancho/CVE-2013-3664_BMP.svg) ![forks](https://img.shields.io/github/forks/lagartojuancho/CVE-2013-3664_BMP.svg)
 
+## CVE-2013-3660
+ The EPATHOBJ::pprFlattenRec function in win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, and Windows Server 2012 does not properly initialize a pointer for the next object in a certain list, which allows local users to obtain write access to the PATHRECORD chain, and consequently gain privileges, by triggering excessive consumption of paged memory and then making many FlattenPath function calls, aka &quot;Win32k Read AV Vulnerability.&quot;
+
+
+
+- [https://github.com/ExploitCN/CVE-2013-3660-x64-WIN7](https://github.com/ExploitCN/CVE-2013-3660-x64-WIN7) :  ![starts](https://img.shields.io/github/stars/ExploitCN/CVE-2013-3660-x64-WIN7.svg) ![forks](https://img.shields.io/github/forks/ExploitCN/CVE-2013-3660-x64-WIN7.svg)
+
 ## CVE-2013-3651
  LOCKON EC-CUBE 2.11.2 through 2.12.4 allows remote attackers to conduct unspecified PHP code-injection attacks via a crafted string, related to data/class/SC_CheckError.php and data/class/SC_FormParam.php.
 
