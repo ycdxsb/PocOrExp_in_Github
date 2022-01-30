@@ -1,4 +1,11 @@
 ## 2022
+## CVE-2022-24032
+ Adenza AxiomSL ControllerView through 10.8.1 is vulnerable to user enumeration. An attacker can identify valid usernames on the platform because a failed login attempt produces a different error message when the username is valid.
+
+
+
+- [https://github.com/jdordonezn/CVE-2022-24032](https://github.com/jdordonezn/CVE-2022-24032) :  ![starts](https://img.shields.io/github/stars/jdordonezn/CVE-2022-24032.svg) ![forks](https://img.shields.io/github/forks/jdordonezn/CVE-2022-24032.svg)
+
 ## CVE-2022-23967
  In TightVNC 1.3.10, there is an integer signedness error and resultant heap-based buffer overflow in InitialiseRFBConnection in rfbproto.c (for the vncviewer component). There is no check on the size given to malloc, e.g., -1 is accepted. This allocates a chunk of size zero, which will give a heap pointer. However, one can send 0xffffffff bytes of data, which can have a DoS impact or lead to remote code execution.
 
@@ -43,7 +50,7 @@
 - [https://github.com/jcarabantes/CVE-2022-23046](https://github.com/jcarabantes/CVE-2022-23046) :  ![starts](https://img.shields.io/github/stars/jcarabantes/CVE-2022-23046.svg) ![forks](https://img.shields.io/github/forks/jcarabantes/CVE-2022-23046.svg)
 
 ## CVE-2022-22919
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Adenza AxiomSL ControllerView through 10.8.1 allows redirection for SSO login URLs.
 
 
 
@@ -99,7 +106,7 @@
 
 - [https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC) :  ![starts](https://img.shields.io/github/stars/michelep/CVE-2022-21907-Vulnerability-PoC.svg) ![forks](https://img.shields.io/github/forks/michelep/CVE-2022-21907-Vulnerability-PoC.svg)
 
-- [https://github.com/CycloneOrg/CVE_2022_21907-poc](https://github.com/CycloneOrg/CVE_2022_21907-poc) :  ![starts](https://img.shields.io/github/stars/CycloneOrg/CVE_2022_21907-poc.svg) ![forks](https://img.shields.io/github/forks/CycloneOrg/CVE_2022_21907-poc.svg)
+- [https://github.com/RtlCyclone/CVE_2022_21907-poc](https://github.com/RtlCyclone/CVE_2022_21907-poc) :  ![starts](https://img.shields.io/github/stars/RtlCyclone/CVE_2022_21907-poc.svg) ![forks](https://img.shields.io/github/forks/RtlCyclone/CVE_2022_21907-poc.svg)
 
 - [https://github.com/xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907) :  ![starts](https://img.shields.io/github/stars/xiska62314/CVE-2022-21907.svg) ![forks](https://img.shields.io/github/forks/xiska62314/CVE-2022-21907.svg)
 
