@@ -328,6 +328,13 @@
 
 - [https://github.com/bekhzod0725/perl-CVE-2013-1775](https://github.com/bekhzod0725/perl-CVE-2013-1775) :  ![starts](https://img.shields.io/github/stars/bekhzod0725/perl-CVE-2013-1775.svg) ![forks](https://img.shields.io/github/forks/bekhzod0725/perl-CVE-2013-1775.svg)
 
+## CVE-2013-1763
+ Array index error in the __sock_diag_rcv_msg function in net/core/sock_diag.c in the Linux kernel before 3.7.10 allows local users to gain privileges via a large family value in a Netlink message.
+
+
+
+- [https://github.com/qkrtjsrbs315/CVE-2013-1763](https://github.com/qkrtjsrbs315/CVE-2013-1763) :  ![starts](https://img.shields.io/github/stars/qkrtjsrbs315/CVE-2013-1763.svg) ![forks](https://img.shields.io/github/forks/qkrtjsrbs315/CVE-2013-1763.svg)
+
 ## CVE-2013-1690
  Mozilla Firefox before 22.0, Firefox ESR 17.x before 17.0.7, Thunderbird before 17.0.7, and Thunderbird ESR 17.x before 17.0.7 do not properly handle onreadystatechange events in conjunction with page reloading, which allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted web site that triggers an attempt to execute data at an unmapped memory location.
 
