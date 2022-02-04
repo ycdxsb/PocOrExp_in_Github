@@ -116,7 +116,11 @@
 
 - [https://github.com/KaLendsi/CVE-2022-21882](https://github.com/KaLendsi/CVE-2022-21882) :  ![starts](https://img.shields.io/github/stars/KaLendsi/CVE-2022-21882.svg) ![forks](https://img.shields.io/github/forks/KaLendsi/CVE-2022-21882.svg)
 
+- [https://github.com/L4ys/CVE-2022-21882](https://github.com/L4ys/CVE-2022-21882) :  ![starts](https://img.shields.io/github/stars/L4ys/CVE-2022-21882.svg) ![forks](https://img.shields.io/github/forks/L4ys/CVE-2022-21882.svg)
+
 - [https://github.com/David-Honisch/CVE-2022-21882](https://github.com/David-Honisch/CVE-2022-21882) :  ![starts](https://img.shields.io/github/stars/David-Honisch/CVE-2022-21882.svg) ![forks](https://img.shields.io/github/forks/David-Honisch/CVE-2022-21882.svg)
+
+- [https://github.com/jessica0f0116/cve_2022_21882](https://github.com/jessica0f0116/cve_2022_21882) :  ![starts](https://img.shields.io/github/stars/jessica0f0116/cve_2022_21882.svg) ![forks](https://img.shields.io/github/forks/jessica0f0116/cve_2022_21882.svg)
 
 ## CVE-2022-21661
  WordPress is a free and open-source content management system written in PHP and paired with a MariaDB database. Due to improper sanitization in WP_Query, there can be cases where SQL injection is possible through plugins or themes that use it in a certain way. This has been patched in WordPress version 5.8.3. Older affected versions are also fixed via security release, that go back till 3.7.37. We strongly recommend that you keep auto-updates enabled. There are no known workarounds for this vulnerability.
