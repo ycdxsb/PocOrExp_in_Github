@@ -151,6 +151,13 @@
 
 - [https://github.com/Mr-xn/CVE-2022-21371](https://github.com/Mr-xn/CVE-2022-21371) :  ![starts](https://img.shields.io/github/stars/Mr-xn/CVE-2022-21371.svg) ![forks](https://img.shields.io/github/forks/Mr-xn/CVE-2022-21371.svg)
 
+## CVE-2022-21241
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/satoki/csv-plus_vulnerability](https://github.com/satoki/csv-plus_vulnerability) :  ![starts](https://img.shields.io/github/stars/satoki/csv-plus_vulnerability.svg) ![forks](https://img.shields.io/github/forks/satoki/csv-plus_vulnerability.svg)
+
 ## CVE-2022-0332
  A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was identified in the h5p activity web service responsible for fetching user attempt data.
 
