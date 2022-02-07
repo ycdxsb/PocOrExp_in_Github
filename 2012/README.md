@@ -244,6 +244,13 @@
 
 - [https://github.com/EthanNJC/CVE-2012-1723](https://github.com/EthanNJC/CVE-2012-1723) :  ![starts](https://img.shields.io/github/stars/EthanNJC/CVE-2012-1723.svg) ![forks](https://img.shields.io/github/forks/EthanNJC/CVE-2012-1723.svg)
 
+## CVE-2012-1675
+ The TNS Listener, as used in Oracle Database 11g 11.1.0.7, 11.2.0.2, and 11.2.0.3, and 10g 10.2.0.3, 10.2.0.4, and 10.2.0.5, as used in Oracle Fusion Middleware, Enterprise Manager, E-Business Suite, and possibly other products, allows remote attackers to execute arbitrary database commands by performing a remote registration of a database (1) instance or (2) service name that already exists, then conducting a man-in-the-middle (MITM) attack to hijack database connections, aka &quot;TNS Poison.&quot;
+
+
+
+- [https://github.com/bongbongco/CVE-2012-1675](https://github.com/bongbongco/CVE-2012-1675) :  ![starts](https://img.shields.io/github/stars/bongbongco/CVE-2012-1675.svg) ![forks](https://img.shields.io/github/forks/bongbongco/CVE-2012-1675.svg)
+
 ## CVE-2012-0507
  Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, and 5.0 Update 33 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Concurrency.  NOTE: the previous information was obtained from the February 2012 Oracle CPU. Oracle has not commented on claims from a downstream vendor and third party researchers that this issue occurs because the AtomicReferenceArray class implementation does not ensure that the array is of the Object[] type, which allows attackers to cause a denial of service (JVM crash) or bypass Java sandbox restrictions.  NOTE: this issue was originally mapped to CVE-2011-3571, but that identifier was already assigned to a different issue.
 
