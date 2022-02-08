@@ -1,6 +1,6 @@
 ## 2022
 ## CVE-2022-24348
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related to Helm charts because of an error in helmTemplate in repository.go. For example, an attacker may be able to discover credentials stored in a YAML file.
 
 
 
@@ -126,9 +126,16 @@
 
 - [https://github.com/L4ys/CVE-2022-21882](https://github.com/L4ys/CVE-2022-21882) :  ![starts](https://img.shields.io/github/stars/L4ys/CVE-2022-21882.svg) ![forks](https://img.shields.io/github/forks/L4ys/CVE-2022-21882.svg)
 
+- [https://github.com/sailay1996/cve-2022-21882-poc](https://github.com/sailay1996/cve-2022-21882-poc) :  ![starts](https://img.shields.io/github/stars/sailay1996/cve-2022-21882-poc.svg) ![forks](https://img.shields.io/github/forks/sailay1996/cve-2022-21882-poc.svg)
+
 - [https://github.com/David-Honisch/CVE-2022-21882](https://github.com/David-Honisch/CVE-2022-21882) :  ![starts](https://img.shields.io/github/stars/David-Honisch/CVE-2022-21882.svg) ![forks](https://img.shields.io/github/forks/David-Honisch/CVE-2022-21882.svg)
 
-- [https://github.com/sailay1996/cve-2022-21882-poc](https://github.com/sailay1996/cve-2022-21882-poc) :  ![starts](https://img.shields.io/github/stars/sailay1996/cve-2022-21882-poc.svg) ![forks](https://img.shields.io/github/forks/sailay1996/cve-2022-21882-poc.svg)
+## CVE-2022-21877
+ Storage Spaces Controller Information Disclosure Vulnerability.
+
+
+
+- [https://github.com/Big5-sec/cve-2022-21877](https://github.com/Big5-sec/cve-2022-21877) :  ![starts](https://img.shields.io/github/stars/Big5-sec/cve-2022-21877.svg) ![forks](https://img.shields.io/github/forks/Big5-sec/cve-2022-21877.svg)
 
 ## CVE-2022-21661
  WordPress is a free and open-source content management system written in PHP and paired with a MariaDB database. Due to improper sanitization in WP_Query, there can be cases where SQL injection is possible through plugins or themes that use it in a certain way. This has been patched in WordPress version 5.8.3. Older affected versions are also fixed via security release, that go back till 3.7.37. We strongly recommend that you keep auto-updates enabled. There are no known workarounds for this vulnerability.
@@ -164,6 +171,13 @@
 
 
 - [https://github.com/satoki/csv-plus_vulnerability](https://github.com/satoki/csv-plus_vulnerability) :  ![starts](https://img.shields.io/github/stars/satoki/csv-plus_vulnerability.svg) ![forks](https://img.shields.io/github/forks/satoki/csv-plus_vulnerability.svg)
+
+## CVE-2022-20699
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/Audiobahn/CVE-2022-20699](https://github.com/Audiobahn/CVE-2022-20699) :  ![starts](https://img.shields.io/github/stars/Audiobahn/CVE-2022-20699.svg) ![forks](https://img.shields.io/github/forks/Audiobahn/CVE-2022-20699.svg)
 
 ## CVE-2022-0332
  A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was identified in the h5p activity web service responsible for fetching user attempt data.
