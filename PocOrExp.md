@@ -29235,6 +29235,8 @@
 
 - [https://github.com/WizardVan/CVE-2012-1876](https://github.com/WizardVan/CVE-2012-1876) :  ![starts](https://img.shields.io/github/stars/WizardVan/CVE-2012-1876.svg) ![forks](https://img.shields.io/github/forks/WizardVan/CVE-2012-1876.svg)
 
+- [https://github.com/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64](https://github.com/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64) :  ![starts](https://img.shields.io/github/stars/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64.svg) ![forks](https://img.shields.io/github/forks/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64.svg)
+
 ## CVE-2012-1870
  The CBC mode in the TLS protocol, as used in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2, R2, and R2 SP1, Windows 7 Gold and SP1, and other products, allows remote web servers to obtain plaintext data by triggering multiple requests to a third-party HTTPS server and sniffing the network during the resulting HTTPS session, aka &quot;TLS Protocol Vulnerability.&quot;
 
