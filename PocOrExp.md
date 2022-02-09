@@ -25826,9 +25826,9 @@
 
 - [https://github.com/DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/DanielEbert/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/DanielEbert/CVE-2016-5195.svg)
 
-- [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
-
 - [https://github.com/linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/linhlt247/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/linhlt247/DirtyCOW_CVE-2016-5195.svg)
+
+- [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
 
 - [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
 
@@ -25919,7 +25919,7 @@
 
 - [https://github.com/Traiver/CVE-2016-4657-Switch-Browser-Binary](https://github.com/Traiver/CVE-2016-4657-Switch-Browser-Binary) :  ![starts](https://img.shields.io/github/stars/Traiver/CVE-2016-4657-Switch-Browser-Binary.svg) ![forks](https://img.shields.io/github/forks/Traiver/CVE-2016-4657-Switch-Browser-Binary.svg)
 
-- [https://github.com/vigneshyaadav27/webkit-vulnerability](https://github.com/vigneshyaadav27/webkit-vulnerability) :  ![starts](https://img.shields.io/github/stars/vigneshyaadav27/webkit-vulnerability.svg) ![forks](https://img.shields.io/github/forks/vigneshyaadav27/webkit-vulnerability.svg)
+- [https://github.com/viai957/webkit-vulnerability](https://github.com/viai957/webkit-vulnerability) :  ![starts](https://img.shields.io/github/stars/viai957/webkit-vulnerability.svg) ![forks](https://img.shields.io/github/forks/viai957/webkit-vulnerability.svg)
 
 - [https://github.com/Mimoja/CVE-2016-4657-NintendoSwitch](https://github.com/Mimoja/CVE-2016-4657-NintendoSwitch) :  ![starts](https://img.shields.io/github/stars/Mimoja/CVE-2016-4657-NintendoSwitch.svg) ![forks](https://img.shields.io/github/forks/Mimoja/CVE-2016-4657-NintendoSwitch.svg)
 
@@ -26511,17 +26511,11 @@
 
 
 
-- [https://github.com/nardholio/cve-2016-0728](https://github.com/nardholio/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/nardholio/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/nardholio/cve-2016-0728.svg)
-
 - [https://github.com/bittorrent3389/cve-2016-0728](https://github.com/bittorrent3389/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/bittorrent3389/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/bittorrent3389/cve-2016-0728.svg)
 
 - [https://github.com/sunnyjiang/cve_2016_0728](https://github.com/sunnyjiang/cve_2016_0728) :  ![starts](https://img.shields.io/github/stars/sunnyjiang/cve_2016_0728.svg) ![forks](https://img.shields.io/github/forks/sunnyjiang/cve_2016_0728.svg)
 
 - [https://github.com/neuschaefer/cve-2016-0728-testbed](https://github.com/neuschaefer/cve-2016-0728-testbed) :  ![starts](https://img.shields.io/github/stars/neuschaefer/cve-2016-0728-testbed.svg) ![forks](https://img.shields.io/github/forks/neuschaefer/cve-2016-0728-testbed.svg)
-
-- [https://github.com/fochess/cve_2016_0728](https://github.com/fochess/cve_2016_0728) :  ![starts](https://img.shields.io/github/stars/fochess/cve_2016_0728.svg) ![forks](https://img.shields.io/github/forks/fochess/cve_2016_0728.svg)
-
-- [https://github.com/bjzz/cve_2016_0728_exploit](https://github.com/bjzz/cve_2016_0728_exploit) :  ![starts](https://img.shields.io/github/stars/bjzz/cve_2016_0728_exploit.svg) ![forks](https://img.shields.io/github/forks/bjzz/cve_2016_0728_exploit.svg)
 
 - [https://github.com/kennetham/cve_2016_0728](https://github.com/kennetham/cve_2016_0728) :  ![starts](https://img.shields.io/github/stars/kennetham/cve_2016_0728.svg) ![forks](https://img.shields.io/github/forks/kennetham/cve_2016_0728.svg)
 
