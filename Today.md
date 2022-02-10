@@ -1,52 +1,84 @@
-# Update 2022-02-09
-## CVE-2022-21877
- Storage Spaces Controller Information Disclosure Vulnerability.
+# Update 2022-02-10
+## CVE-2022-23944
+ User can access /plugin api without authentication. This issue affected Apache ShenYu 2.4.0 and 2.4.1.
 
-- [https://github.com/Big5-sec/cve-2022-21877](https://github.com/Big5-sec/cve-2022-21877) :  ![starts](https://img.shields.io/github/stars/Big5-sec/cve-2022-21877.svg) ![forks](https://img.shields.io/github/forks/Big5-sec/cve-2022-21877.svg)
+- [https://github.com/Nefcore/cveExploits](https://github.com/Nefcore/cveExploits) :  ![starts](https://img.shields.io/github/stars/Nefcore/cveExploits.svg) ![forks](https://img.shields.io/github/forks/Nefcore/cveExploits.svg)
 
 
-## CVE-2022-20699
+## CVE-2022-23378
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Audiobahn/CVE-2022-20699](https://github.com/Audiobahn/CVE-2022-20699) :  ![starts](https://img.shields.io/github/stars/Audiobahn/CVE-2022-20699.svg) ![forks](https://img.shields.io/github/forks/Audiobahn/CVE-2022-20699.svg)
+- [https://github.com/TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378) :  ![starts](https://img.shields.io/github/stars/TheGetch/CVE-2022-23378.svg) ![forks](https://img.shields.io/github/forks/TheGetch/CVE-2022-23378.svg)
 
 
-## CVE-2021-44228
- Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0 (along with 2.12.2, 2.12.3, and 2.3.1), this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects.
+## CVE-2022-23178
+ An issue was discovered on Crestron HD-MD4X2-4K-E 1.0.0.2159 devices. When the administrative web interface of the HDMI switcher is accessed unauthenticated, user credentials are disclosed that are valid to authenticate to the web interface. Specifically, aj.html sends a JSON document with uname and upassword fields.
 
-- [https://github.com/qingtengyun/cve-2021-44228-qingteng-patch](https://github.com/qingtengyun/cve-2021-44228-qingteng-patch) :  ![starts](https://img.shields.io/github/stars/qingtengyun/cve-2021-44228-qingteng-patch.svg) ![forks](https://img.shields.io/github/forks/qingtengyun/cve-2021-44228-qingteng-patch.svg)
+- [https://github.com/Nefcore/cveExploits](https://github.com/Nefcore/cveExploits) :  ![starts](https://img.shields.io/github/stars/Nefcore/cveExploits.svg) ![forks](https://img.shields.io/github/forks/Nefcore/cveExploits.svg)
 
 
-## CVE-2021-40444
- Microsoft MSHTML Remote Code Execution Vulnerability
+## CVE-2022-22718
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Jeromeyoung/MSHTMHell](https://github.com/Jeromeyoung/MSHTMHell) :  ![starts](https://img.shields.io/github/stars/Jeromeyoung/MSHTMHell.svg) ![forks](https://img.shields.io/github/forks/Jeromeyoung/MSHTMHell.svg)
+- [https://github.com/ly4k/SpoolFool](https://github.com/ly4k/SpoolFool) :  ![starts](https://img.shields.io/github/stars/ly4k/SpoolFool.svg) ![forks](https://img.shields.io/github/forks/ly4k/SpoolFool.svg)
+
+
+## CVE-2022-21882
+ Win32k Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21887.
+
+- [https://github.com/Al1ex/WindowsElevation](https://github.com/Al1ex/WindowsElevation) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
+
+
+## CVE-2022-0218
+ The WP HTML Mail WordPress plugin is vulnerable to unauthorized access which allows unauthenticated attackers to retrieve and modify theme settings due to a missing capability check on the /themesettings REST-API endpoint found in the ~/includes/class-template-designer.php file, in versions up to and including 3.0.9. This makes it possible for attackers with no privileges to execute the endpoint and add malicious JavaScript to a vulnerable WordPress site.
+
+- [https://github.com/Nefcore/cveExploits](https://github.com/Nefcore/cveExploits) :  ![starts](https://img.shields.io/github/stars/Nefcore/cveExploits.svg) ![forks](https://img.shields.io/github/forks/Nefcore/cveExploits.svg)
+
+
+## CVE-2021-45380
+ AppCMS 2.0.101 has a XSS injection vulnerability in \templates\m\inc_head.php
+
+- [https://github.com/Nefcore/cveExploits](https://github.com/Nefcore/cveExploits) :  ![starts](https://img.shields.io/github/stars/Nefcore/cveExploits.svg) ![forks](https://img.shields.io/github/forks/Nefcore/cveExploits.svg)
+
+
+## CVE-2021-45232
+ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks and introduces framework `droplet` on the basis of framework `gin`, all APIs and authentication middleware are developed based on framework `droplet`, but some API directly use the interface of framework `gin` thus bypassing the authentication.
+
+- [https://github.com/Nefcore/cveExploits](https://github.com/Nefcore/cveExploits) :  ![starts](https://img.shields.io/github/stars/Nefcore/cveExploits.svg) ![forks](https://img.shields.io/github/forks/Nefcore/cveExploits.svg)
+
+
+## CVE-2021-45043
+ HD-Network Real-time Monitoring System 2.0 allows ../ directory traversal to read /etc/shadow via the /language/lang s_Language parameter.
+
+- [https://github.com/Nefcore/cveExploits](https://github.com/Nefcore/cveExploits) :  ![starts](https://img.shields.io/github/stars/Nefcore/cveExploits.svg) ![forks](https://img.shields.io/github/forks/Nefcore/cveExploits.svg)
 
 
 ## CVE-2021-4034
  A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
 
-- [https://github.com/drapl0n/pwnKit](https://github.com/drapl0n/pwnKit) :  ![starts](https://img.shields.io/github/stars/drapl0n/pwnKit.svg) ![forks](https://img.shields.io/github/forks/drapl0n/pwnKit.svg)
-- [https://github.com/FDlucifer/Pwnkit-go](https://github.com/FDlucifer/Pwnkit-go) :  ![starts](https://img.shields.io/github/stars/FDlucifer/Pwnkit-go.svg) ![forks](https://img.shields.io/github/forks/FDlucifer/Pwnkit-go.svg)
-- [https://github.com/pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit) :  ![starts](https://img.shields.io/github/stars/pyhrr0/pwnkit.svg) ![forks](https://img.shields.io/github/forks/pyhrr0/pwnkit.svg)
-- [https://github.com/ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/ziadsaleemi/polkit_CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/ziadsaleemi/polkit_CVE-2021-4034.svg)
-- [https://github.com/fireclasher/pwnkit-CVE-2021-4034-](https://github.com/fireclasher/pwnkit-CVE-2021-4034-) :  ![starts](https://img.shields.io/github/stars/fireclasher/pwnkit-CVE-2021-4034-.svg) ![forks](https://img.shields.io/github/forks/fireclasher/pwnkit-CVE-2021-4034-.svg)
+- [https://github.com/Pr0f3ssor/CVE-2021-4034-Pwnkit](https://github.com/Pr0f3ssor/CVE-2021-4034-Pwnkit) :  ![starts](https://img.shields.io/github/stars/Pr0f3ssor/CVE-2021-4034-Pwnkit.svg) ![forks](https://img.shields.io/github/forks/Pr0f3ssor/CVE-2021-4034-Pwnkit.svg)
 
 
-## CVE-2020-35749
- Directory traversal vulnerability in class-simple_job_board_resume_download_handler.php in the Simple Board Job plugin 2.9.3 and earlier for WordPress allows remote attackers to read arbitrary files via the sjb_file parameter to wp-admin/post.php.
+## CVE-2020-0601
+ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) validates Elliptic Curve Cryptography (ECC) certificates.An attacker could exploit the vulnerability by using a spoofed code-signing certificate to sign a malicious executable, making it appear the file was from a trusted, legitimate source, aka 'Windows CryptoAPI Spoofing Vulnerability'.
 
-- [https://github.com/M4xSec/Wordpress-CVE-2020-35749](https://github.com/M4xSec/Wordpress-CVE-2020-35749) :  ![starts](https://img.shields.io/github/stars/M4xSec/Wordpress-CVE-2020-35749.svg) ![forks](https://img.shields.io/github/forks/M4xSec/Wordpress-CVE-2020-35749.svg)
-
-
-## CVE-2020-7247
- smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and other products, allows remote attackers to execute arbitrary commands as root via a crafted SMTP session, as demonstrated by shell metacharacters in a MAIL FROM field. This affects the &quot;uncommented&quot; default configuration. The issue exists because of an incorrect return value upon failure of input validation.
-
-- [https://github.com/presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud) :  ![starts](https://img.shields.io/github/stars/presentdaypresenttime/shai_hulud.svg) ![forks](https://img.shields.io/github/forks/presentdaypresenttime/shai_hulud.svg)
+- [https://github.com/modubyk/CVE_2020_0601](https://github.com/modubyk/CVE_2020_0601) :  ![starts](https://img.shields.io/github/stars/modubyk/CVE_2020_0601.svg) ![forks](https://img.shields.io/github/forks/modubyk/CVE_2020_0601.svg)
 
 
-## CVE-2012-1876
- Microsoft Internet Explorer 6 through 9, and 10 Consumer Preview, does not properly handle objects in memory, which allows remote attackers to execute arbitrary code by attempting to access a nonexistent object, leading to a heap-based buffer overflow, aka &quot;Col Element Remote Code Execution Vulnerability,&quot; as demonstrated by VUPEN during a Pwn2Own competition at CanSecWest 2012.
+## CVE-2019-2205
+ In ProxyResolverV8::SetPacScript of proxy_resolver_v8.cc, there is a possible memory corruption due to a use after free. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-139806216
 
-- [https://github.com/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64](https://github.com/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64) :  ![starts](https://img.shields.io/github/stars/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64.svg) ![forks](https://img.shields.io/github/forks/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64.svg)
+- [https://github.com/aemmitt-ns/pacpoc](https://github.com/aemmitt-ns/pacpoc) :  ![starts](https://img.shields.io/github/stars/aemmitt-ns/pacpoc.svg) ![forks](https://img.shields.io/github/forks/aemmitt-ns/pacpoc.svg)
+
+
+## CVE-2016-4657
+ WebKit in Apple iOS before 9.3.5 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site.
+
+- [https://github.com/viai957/webkit-vulnerability](https://github.com/viai957/webkit-vulnerability) :  ![starts](https://img.shields.io/github/stars/viai957/webkit-vulnerability.svg) ![forks](https://img.shields.io/github/forks/viai957/webkit-vulnerability.svg)
+
+
+## CVE-2013-3660
+ The EPATHOBJ::pprFlattenRec function in win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, and Windows Server 2012 does not properly initialize a pointer for the next object in a certain list, which allows local users to obtain write access to the PATHRECORD chain, and consequently gain privileges, by triggering excessive consumption of paged memory and then making many FlattenPath function calls, aka &quot;Win32k Read AV Vulnerability.&quot;
+
+- [https://github.com/ExploitCN/CVE-2013-3660-x64-WIN7](https://github.com/ExploitCN/CVE-2013-3660-x64-WIN7) :  ![starts](https://img.shields.io/github/stars/ExploitCN/CVE-2013-3660-x64-WIN7.svg) ![forks](https://img.shields.io/github/forks/ExploitCN/CVE-2013-3660-x64-WIN7.svg)
 
