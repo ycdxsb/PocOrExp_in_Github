@@ -34,6 +34,13 @@
 
 - [https://github.com/Nefcore/cveExploits](https://github.com/Nefcore/cveExploits) :  ![starts](https://img.shields.io/github/stars/Nefcore/cveExploits.svg) ![forks](https://img.shields.io/github/forks/Nefcore/cveExploits.svg)
 
+## CVE-2022-23808
+ An issue was discovered in phpMyAdmin 5.1 before 5.1.2. An attacker can inject malicious code into aspects of the setup script, which can allow XSS or HTML injection.
+
+
+
+- [https://github.com/dipakpanchal456/CVE-2022-23808](https://github.com/dipakpanchal456/CVE-2022-23808) :  ![starts](https://img.shields.io/github/stars/dipakpanchal456/CVE-2022-23808.svg) ![forks](https://img.shields.io/github/forks/dipakpanchal456/CVE-2022-23808.svg)
+
 ## CVE-2022-23378
  A Cross-Site Scripting (XSS) vulnerability exists within the 3.2.2 version of TastyIgniter. The &quot;items%5B0%5D%5Bpath%5D&quot; parameter of a request made to /admin/allergens/edit/1 is vulnerable.
 
@@ -217,11 +224,13 @@
 - [https://github.com/satoki/csv-plus_vulnerability](https://github.com/satoki/csv-plus_vulnerability) :  ![starts](https://img.shields.io/github/stars/satoki/csv-plus_vulnerability.svg) ![forks](https://img.shields.io/github/forks/satoki/csv-plus_vulnerability.svg)
 
 ## CVE-2022-20699
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code Elevate privileges Execute arbitrary commands Bypass authentication and authorization protections Fetch and run unsigned software Cause denial of service (DoS) For more information about these vulnerabilities, see the Details section of this advisory.
 
 
 
 - [https://github.com/Audiobahn/CVE-2022-20699](https://github.com/Audiobahn/CVE-2022-20699) :  ![starts](https://img.shields.io/github/stars/Audiobahn/CVE-2022-20699.svg) ![forks](https://img.shields.io/github/forks/Audiobahn/CVE-2022-20699.svg)
+
+- [https://github.com/puckiestyle/CVE-2022-20699](https://github.com/puckiestyle/CVE-2022-20699) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2022-20699.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2022-20699.svg)
 
 ## CVE-2022-0332
  A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was identified in the h5p activity web service responsible for fetching user attempt data.
