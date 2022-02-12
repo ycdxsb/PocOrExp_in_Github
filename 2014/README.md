@@ -273,9 +273,9 @@
 
 - [https://github.com/zalalov/CVE-2014-6271](https://github.com/zalalov/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/zalalov/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/zalalov/CVE-2014-6271.svg)
 
-- [https://github.com/Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2014-6271.svg)
-
 - [https://github.com/ryeyao/CVE-2014-6271_Test](https://github.com/ryeyao/CVE-2014-6271_Test) :  ![starts](https://img.shields.io/github/stars/ryeyao/CVE-2014-6271_Test.svg) ![forks](https://img.shields.io/github/forks/ryeyao/CVE-2014-6271_Test.svg)
+
+- [https://github.com/Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2014-6271.svg)
 
 - [https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271](https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/w4fz5uck5/ShockZaum-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/w4fz5uck5/ShockZaum-CVE-2014-6271.svg)
 
@@ -309,11 +309,11 @@
 
 - [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
 
-- [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
-
 - [https://github.com/mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mattclegg/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mattclegg/CVE-2014-6271.svg)
 
 - [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
+
+- [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
 
 - [https://github.com/Pilou-Pilou/docker_CVE-2014-6271.](https://github.com/Pilou-Pilou/docker_CVE-2014-6271.) :  ![starts](https://img.shields.io/github/stars/Pilou-Pilou/docker_CVE-2014-6271..svg) ![forks](https://img.shields.io/github/forks/Pilou-Pilou/docker_CVE-2014-6271..svg)
 
@@ -325,9 +325,9 @@
 
 - [https://github.com/dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes) :  ![starts](https://img.shields.io/github/stars/dlitz/bash-cve-2014-6271-fixes.svg) ![forks](https://img.shields.io/github/forks/dlitz/bash-cve-2014-6271-fixes.svg)
 
-- [https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian) :  ![starts](https://img.shields.io/github/stars/mochizuki875/CVE-2014-6271-Apache-Debian.svg) ![forks](https://img.shields.io/github/forks/mochizuki875/CVE-2014-6271-Apache-Debian.svg)
-
 - [https://github.com/kelleykong/cve-2014-6271-mengjia-kong](https://github.com/kelleykong/cve-2014-6271-mengjia-kong) :  ![starts](https://img.shields.io/github/stars/kelleykong/cve-2014-6271-mengjia-kong.svg) ![forks](https://img.shields.io/github/forks/kelleykong/cve-2014-6271-mengjia-kong.svg)
+
+- [https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian) :  ![starts](https://img.shields.io/github/stars/mochizuki875/CVE-2014-6271-Apache-Debian.svg) ![forks](https://img.shields.io/github/forks/mochizuki875/CVE-2014-6271-Apache-Debian.svg)
 
 - [https://github.com/huanlu/cve-2014-6271-huan-lu](https://github.com/huanlu/cve-2014-6271-huan-lu) :  ![starts](https://img.shields.io/github/stars/huanlu/cve-2014-6271-huan-lu.svg) ![forks](https://img.shields.io/github/forks/huanlu/cve-2014-6271-huan-lu.svg)
 
@@ -697,6 +697,13 @@
 
 
 - [https://github.com/day6reak/CVE-2014-1773](https://github.com/day6reak/CVE-2014-1773) :  ![starts](https://img.shields.io/github/stars/day6reak/CVE-2014-1773.svg) ![forks](https://img.shields.io/github/forks/day6reak/CVE-2014-1773.svg)
+
+## CVE-2014-1767
+ Double free vulnerability in the Ancillary Function Driver (AFD) in afd.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, aka &quot;Ancillary Function Driver Elevation of Privilege Vulnerability.&quot;
+
+
+
+- [https://github.com/ExploitCN/CVE-2014-1767-EXP-PAPER](https://github.com/ExploitCN/CVE-2014-1767-EXP-PAPER) :  ![starts](https://img.shields.io/github/stars/ExploitCN/CVE-2014-1767-EXP-PAPER.svg) ![forks](https://img.shields.io/github/forks/ExploitCN/CVE-2014-1767-EXP-PAPER.svg)
 
 ## CVE-2014-1677
  Technicolor TC7200 with firmware STD6.01.12 could allow remote attackers to obtain sensitive information.
