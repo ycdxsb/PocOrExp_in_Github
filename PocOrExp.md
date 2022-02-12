@@ -152,7 +152,7 @@
 
 
 
-- [https://github.com/antx-code/CVE-2022-21907](https://github.com/antx-code/CVE-2022-21907) :  ![starts](https://img.shields.io/github/stars/antx-code/CVE-2022-21907.svg) ![forks](https://img.shields.io/github/forks/antx-code/CVE-2022-21907.svg)
+- [https://github.com/ZZ-SOCMAP/CVE-2022-21907](https://github.com/ZZ-SOCMAP/CVE-2022-21907) :  ![starts](https://img.shields.io/github/stars/ZZ-SOCMAP/CVE-2022-21907.svg) ![forks](https://img.shields.io/github/forks/ZZ-SOCMAP/CVE-2022-21907.svg)
 
 - [https://github.com/p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2022-21907-http.sys.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2022-21907-http.sys.svg)
 
@@ -263,7 +263,7 @@
 - [https://github.com/Nefcore/cveExploits](https://github.com/Nefcore/cveExploits) :  ![starts](https://img.shields.io/github/stars/Nefcore/cveExploits.svg) ![forks](https://img.shields.io/github/forks/Nefcore/cveExploits.svg)
 
 ## CVE-2022-0185
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A heap-based buffer overflow flaw was found in the way the legacy_parse_param function in the Filesystem Context functionality of the Linux kernel verified the supplied parameters length. An unprivileged (in case of unprivileged user namespaces enabled, otherwise needs namespaced CAP_SYS_ADMIN privilege) local user able to open a filesystem that does not support the Filesystem Context API (and thus fallbacks to legacy handling) could use this flaw to escalate their privileges on the system.
 
 
 
