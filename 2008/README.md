@@ -58,8 +58,6 @@
 
 - [https://github.com/thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts) :  ![starts](https://img.shields.io/github/stars/thunderstrike9090/Conflicker_analysis_scripts.svg) ![forks](https://img.shields.io/github/forks/thunderstrike9090/Conflicker_analysis_scripts.svg)
 
-- [https://github.com/4n0nym0u5dk/MS08_067_CVE-2008-4250](https://github.com/4n0nym0u5dk/MS08_067_CVE-2008-4250) :  ![starts](https://img.shields.io/github/stars/4n0nym0u5dk/MS08_067_CVE-2008-4250.svg) ![forks](https://img.shields.io/github/forks/4n0nym0u5dk/MS08_067_CVE-2008-4250.svg)
-
 ## CVE-2008-2938
  Directory traversal vulnerability in Apache Tomcat 4.1.0 through 4.1.37, 5.5.0 through 5.5.26, and 6.0.0 through 6.0.16, when allowLinking and UTF-8 are enabled, allows remote attackers to read arbitrary files via encoded directory traversal sequences in the URI, a different vulnerability than CVE-2008-2370.  NOTE: versions earlier than 6.0.18 were reported affected, but the vendor advisory lists 6.0.16 as the last affected version.
 
