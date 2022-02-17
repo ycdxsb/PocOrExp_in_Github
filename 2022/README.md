@@ -1,3 +1,10 @@
+## CVE-2022-25265
+ In the Linux kernel through 5.16.10, certain binary files may have the exec-all attribute if they were built in approximately 2003 (e.g., with GCC 3.2.2 and Linux kernel 2.4.20). This can cause execution of bytes located in supposedly non-executable regions of a file.
+
+
+
+- [https://github.com/x0reaxeax/exec-prot-bypass](https://github.com/x0reaxeax/exec-prot-bypass) :  ![starts](https://img.shields.io/github/stars/x0reaxeax/exec-prot-bypass.svg) ![forks](https://img.shields.io/github/forks/x0reaxeax/exec-prot-bypass.svg)
+
 ## CVE-2022-24693
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -11,6 +18,13 @@
 
 
 - [https://github.com/jkroepke/CVE-2022-24348-2](https://github.com/jkroepke/CVE-2022-24348-2) :  ![starts](https://img.shields.io/github/stars/jkroepke/CVE-2022-24348-2.svg) ![forks](https://img.shields.io/github/forks/jkroepke/CVE-2022-24348-2.svg)
+
+## CVE-2022-24086
+ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout process. Exploitation of this issue does not require user interaction and could result in arbitrary code execution.
+
+
+
+- [https://github.com/wambo-co/magento-1.9-cve-2022-24086](https://github.com/wambo-co/magento-1.9-cve-2022-24086) :  ![starts](https://img.shields.io/github/stars/wambo-co/magento-1.9-cve-2022-24086.svg) ![forks](https://img.shields.io/github/forks/wambo-co/magento-1.9-cve-2022-24086.svg)
 
 ## CVE-2022-24032
  Adenza AxiomSL ControllerView through 10.8.1 is vulnerable to user enumeration. An attacker can identify valid usernames on the platform because a failed login attempt produces a different error message when the username is valid.
