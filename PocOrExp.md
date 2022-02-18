@@ -857,6 +857,8 @@
 
 - [https://github.com/BinaryDefense/log4j-honeypot-flask](https://github.com/BinaryDefense/log4j-honeypot-flask) :  ![starts](https://img.shields.io/github/stars/BinaryDefense/log4j-honeypot-flask.svg) ![forks](https://img.shields.io/github/forks/BinaryDefense/log4j-honeypot-flask.svg)
 
+- [https://github.com/HackJava/Log4j2](https://github.com/HackJava/Log4j2) :  ![starts](https://img.shields.io/github/stars/HackJava/Log4j2.svg) ![forks](https://img.shields.io/github/forks/HackJava/Log4j2.svg)
+
 - [https://github.com/NorthwaveSecurity/log4jcheck](https://github.com/NorthwaveSecurity/log4jcheck) :  ![starts](https://img.shields.io/github/stars/NorthwaveSecurity/log4jcheck.svg) ![forks](https://img.shields.io/github/forks/NorthwaveSecurity/log4jcheck.svg)
 
 - [https://github.com/simonis/Log4jPatch](https://github.com/simonis/Log4jPatch) :  ![starts](https://img.shields.io/github/stars/simonis/Log4jPatch.svg) ![forks](https://img.shields.io/github/forks/simonis/Log4jPatch.svg)
@@ -867,9 +869,9 @@
 
 - [https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent) :  ![starts](https://img.shields.io/github/stars/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent.svg) ![forks](https://img.shields.io/github/forks/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent.svg)
 
-- [https://github.com/Adikso/minecraft-log4j-honeypot](https://github.com/Adikso/minecraft-log4j-honeypot) :  ![starts](https://img.shields.io/github/stars/Adikso/minecraft-log4j-honeypot.svg) ![forks](https://img.shields.io/github/forks/Adikso/minecraft-log4j-honeypot.svg)
-
 - [https://github.com/0xDexter0us/Log4J-Scanner](https://github.com/0xDexter0us/Log4J-Scanner) :  ![starts](https://img.shields.io/github/stars/0xDexter0us/Log4J-Scanner.svg) ![forks](https://img.shields.io/github/forks/0xDexter0us/Log4J-Scanner.svg)
+
+- [https://github.com/Adikso/minecraft-log4j-honeypot](https://github.com/Adikso/minecraft-log4j-honeypot) :  ![starts](https://img.shields.io/github/stars/Adikso/minecraft-log4j-honeypot.svg) ![forks](https://img.shields.io/github/forks/Adikso/minecraft-log4j-honeypot.svg)
 
 - [https://github.com/nccgroup/log4j-jndi-be-gone](https://github.com/nccgroup/log4j-jndi-be-gone) :  ![starts](https://img.shields.io/github/stars/nccgroup/log4j-jndi-be-gone.svg) ![forks](https://img.shields.io/github/forks/nccgroup/log4j-jndi-be-gone.svg)
 
@@ -919,9 +921,9 @@
 
 - [https://github.com/dwisiswant0/look4jar](https://github.com/dwisiswant0/look4jar) :  ![starts](https://img.shields.io/github/stars/dwisiswant0/look4jar.svg) ![forks](https://img.shields.io/github/forks/dwisiswant0/look4jar.svg)
 
-- [https://github.com/bigsizeme/Log4j-check](https://github.com/bigsizeme/Log4j-check) :  ![starts](https://img.shields.io/github/stars/bigsizeme/Log4j-check.svg) ![forks](https://img.shields.io/github/forks/bigsizeme/Log4j-check.svg)
-
 - [https://github.com/For-ACGN/Log4Shell](https://github.com/For-ACGN/Log4Shell) :  ![starts](https://img.shields.io/github/stars/For-ACGN/Log4Shell.svg) ![forks](https://img.shields.io/github/forks/For-ACGN/Log4Shell.svg)
+
+- [https://github.com/bigsizeme/Log4j-check](https://github.com/bigsizeme/Log4j-check) :  ![starts](https://img.shields.io/github/stars/bigsizeme/Log4j-check.svg) ![forks](https://img.shields.io/github/forks/bigsizeme/Log4j-check.svg)
 
 - [https://github.com/hackinghippo/log4shell_ioc_ips](https://github.com/hackinghippo/log4shell_ioc_ips) :  ![starts](https://img.shields.io/github/stars/hackinghippo/log4shell_ioc_ips.svg) ![forks](https://img.shields.io/github/forks/hackinghippo/log4shell_ioc_ips.svg)
 
@@ -935,11 +937,11 @@
 
 - [https://github.com/mufeedvh/log4jail](https://github.com/mufeedvh/log4jail) :  ![starts](https://img.shields.io/github/stars/mufeedvh/log4jail.svg) ![forks](https://img.shields.io/github/forks/mufeedvh/log4jail.svg)
 
+- [https://github.com/HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder) :  ![starts](https://img.shields.io/github/stars/HynekPetrak/log4shell-finder.svg) ![forks](https://img.shields.io/github/forks/HynekPetrak/log4shell-finder.svg)
+
 - [https://github.com/tippexs/nginx-njs-waf-cve2021-44228](https://github.com/tippexs/nginx-njs-waf-cve2021-44228) :  ![starts](https://img.shields.io/github/stars/tippexs/nginx-njs-waf-cve2021-44228.svg) ![forks](https://img.shields.io/github/forks/tippexs/nginx-njs-waf-cve2021-44228.svg)
 
 - [https://github.com/corelight/cve-2021-44228](https://github.com/corelight/cve-2021-44228) :  ![starts](https://img.shields.io/github/stars/corelight/cve-2021-44228.svg) ![forks](https://img.shields.io/github/forks/corelight/cve-2021-44228.svg)
-
-- [https://github.com/HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder) :  ![starts](https://img.shields.io/github/stars/HynekPetrak/log4shell-finder.svg) ![forks](https://img.shields.io/github/forks/HynekPetrak/log4shell-finder.svg)
 
 - [https://github.com/pedrohavay/exploit-CVE-2021-44228](https://github.com/pedrohavay/exploit-CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/pedrohavay/exploit-CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/pedrohavay/exploit-CVE-2021-44228.svg)
 
@@ -953,11 +955,13 @@
 
 - [https://github.com/Glease/Healer](https://github.com/Glease/Healer) :  ![starts](https://img.shields.io/github/stars/Glease/Healer.svg) ![forks](https://img.shields.io/github/forks/Glease/Healer.svg)
 
+- [https://github.com/twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab](https://github.com/twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab) :  ![starts](https://img.shields.io/github/stars/twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab.svg) ![forks](https://img.shields.io/github/forks/twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab.svg)
+
 - [https://github.com/ossie-git/log4shell_sentinel](https://github.com/ossie-git/log4shell_sentinel) :  ![starts](https://img.shields.io/github/stars/ossie-git/log4shell_sentinel.svg) ![forks](https://img.shields.io/github/forks/ossie-git/log4shell_sentinel.svg)
 
 - [https://github.com/mitiga/log4shell-cloud-scanner](https://github.com/mitiga/log4shell-cloud-scanner) :  ![starts](https://img.shields.io/github/stars/mitiga/log4shell-cloud-scanner.svg) ![forks](https://img.shields.io/github/forks/mitiga/log4shell-cloud-scanner.svg)
 
-- [https://github.com/twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab](https://github.com/twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab) :  ![starts](https://img.shields.io/github/stars/twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab.svg) ![forks](https://img.shields.io/github/forks/twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab.svg)
+- [https://github.com/mr-r3b00t/CVE-2021-44228](https://github.com/mr-r3b00t/CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/mr-r3b00t/CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/mr-r3b00t/CVE-2021-44228.svg)
 
 - [https://github.com/xsultan/log4jshield](https://github.com/xsultan/log4jshield) :  ![starts](https://img.shields.io/github/stars/xsultan/log4jshield.svg) ![forks](https://img.shields.io/github/forks/xsultan/log4jshield.svg)
 
@@ -965,13 +969,11 @@
 
 - [https://github.com/Hydragyrum/evil-rmi-server](https://github.com/Hydragyrum/evil-rmi-server) :  ![starts](https://img.shields.io/github/stars/Hydragyrum/evil-rmi-server.svg) ![forks](https://img.shields.io/github/forks/Hydragyrum/evil-rmi-server.svg)
 
-- [https://github.com/mr-r3b00t/CVE-2021-44228](https://github.com/mr-r3b00t/CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/mr-r3b00t/CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/mr-r3b00t/CVE-2021-44228.svg)
+- [https://github.com/faisalfs10x/Log4j2-CVE-2021-44228-revshell](https://github.com/faisalfs10x/Log4j2-CVE-2021-44228-revshell) :  ![starts](https://img.shields.io/github/stars/faisalfs10x/Log4j2-CVE-2021-44228-revshell.svg) ![forks](https://img.shields.io/github/forks/faisalfs10x/Log4j2-CVE-2021-44228-revshell.svg)
 
 - [https://github.com/claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell) :  ![starts](https://img.shields.io/github/stars/claranet/ansible-role-log4shell.svg) ![forks](https://img.shields.io/github/forks/claranet/ansible-role-log4shell.svg)
 
 - [https://github.com/Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs](https://github.com/Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs) :  ![starts](https://img.shields.io/github/stars/Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs.svg) ![forks](https://img.shields.io/github/forks/Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs.svg)
-
-- [https://github.com/faisalfs10x/Log4j2-CVE-2021-44228-revshell](https://github.com/faisalfs10x/Log4j2-CVE-2021-44228-revshell) :  ![starts](https://img.shields.io/github/stars/faisalfs10x/Log4j2-CVE-2021-44228-revshell.svg) ![forks](https://img.shields.io/github/forks/faisalfs10x/Log4j2-CVE-2021-44228-revshell.svg)
 
 - [https://github.com/mergebase/log4j-samples](https://github.com/mergebase/log4j-samples) :  ![starts](https://img.shields.io/github/stars/mergebase/log4j-samples.svg) ![forks](https://img.shields.io/github/forks/mergebase/log4j-samples.svg)
 
@@ -992,8 +994,6 @@
 - [https://github.com/roxas-tan/CVE-2021-44228](https://github.com/roxas-tan/CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/roxas-tan/CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/roxas-tan/CVE-2021-44228.svg)
 
 - [https://github.com/razz0r/CVE-2021-44228-Mass-RCE](https://github.com/razz0r/CVE-2021-44228-Mass-RCE) :  ![starts](https://img.shields.io/github/stars/razz0r/CVE-2021-44228-Mass-RCE.svg) ![forks](https://img.shields.io/github/forks/razz0r/CVE-2021-44228-Mass-RCE.svg)
-
-- [https://github.com/kubearmor/log4j-CVE-2021-44228](https://github.com/kubearmor/log4j-CVE-2021-44228) :  ![starts](https://img.shields.io/github/stars/kubearmor/log4j-CVE-2021-44228.svg) ![forks](https://img.shields.io/github/forks/kubearmor/log4j-CVE-2021-44228.svg)
 
 ## CVE-2021-44217
  In Ericsson CodeChecker through 6.18.0, a Stored Cross-site scripting (XSS) vulnerability in the comments component of the reports viewer allows remote attackers to inject arbitrary web script or HTML via the POST JSON data of the /CodeCheckerService API.
@@ -1103,9 +1103,9 @@
 
 - [https://github.com/z3n70/CVE-2021-43798](https://github.com/z3n70/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/z3n70/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/z3n70/CVE-2021-43798.svg)
 
-- [https://github.com/Awrrays/Grafana-CVE-2021-43798](https://github.com/Awrrays/Grafana-CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/Awrrays/Grafana-CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/Awrrays/Grafana-CVE-2021-43798.svg)
-
 - [https://github.com/Ryze-T/CVE-2021-43798](https://github.com/Ryze-T/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/Ryze-T/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/Ryze-T/CVE-2021-43798.svg)
+
+- [https://github.com/Awrrays/Grafana-CVE-2021-43798](https://github.com/Awrrays/Grafana-CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/Awrrays/Grafana-CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/Awrrays/Grafana-CVE-2021-43798.svg)
 
 - [https://github.com/s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/s1gh/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/s1gh/CVE-2021-43798.svg)
 
@@ -1121,9 +1121,9 @@
 
 - [https://github.com/aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit) :  ![starts](https://img.shields.io/github/stars/aymenbouferroum/CVE-2021-43798_exploit.svg) ![forks](https://img.shields.io/github/forks/aymenbouferroum/CVE-2021-43798_exploit.svg)
 
-- [https://github.com/gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/gps1949/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/gps1949/CVE-2021-43798.svg)
-
 - [https://github.com/gixxyboy/CVE-2021-43798](https://github.com/gixxyboy/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/gixxyboy/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/gixxyboy/CVE-2021-43798.svg)
+
+- [https://github.com/gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/gps1949/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/gps1949/CVE-2021-43798.svg)
 
 - [https://github.com/halencarjunior/grafana-CVE-2021-43798](https://github.com/halencarjunior/grafana-CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/halencarjunior/grafana-CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/halencarjunior/grafana-CVE-2021-43798.svg)
 
@@ -2113,13 +2113,13 @@
 
 - [https://github.com/Zeop-CyberSec/word_mshtml](https://github.com/Zeop-CyberSec/word_mshtml) :  ![starts](https://img.shields.io/github/stars/Zeop-CyberSec/word_mshtml.svg) ![forks](https://img.shields.io/github/forks/Zeop-CyberSec/word_mshtml.svg)
 
-- [https://github.com/khoaduynu/CVE-2021-40444](https://github.com/khoaduynu/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/khoaduynu/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/khoaduynu/CVE-2021-40444.svg)
-
 - [https://github.com/factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project) :  ![starts](https://img.shields.io/github/stars/factionsypho/TIC4301_Project.svg) ![forks](https://img.shields.io/github/forks/factionsypho/TIC4301_Project.svg)
 
-- [https://github.com/jamesrep/cve-2021-40444](https://github.com/jamesrep/cve-2021-40444) :  ![starts](https://img.shields.io/github/stars/jamesrep/cve-2021-40444.svg) ![forks](https://img.shields.io/github/forks/jamesrep/cve-2021-40444.svg)
+- [https://github.com/khoaduynu/CVE-2021-40444](https://github.com/khoaduynu/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/khoaduynu/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/khoaduynu/CVE-2021-40444.svg)
 
 - [https://github.com/Alexcot25051999/CVE-2021-40444](https://github.com/Alexcot25051999/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/Alexcot25051999/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/Alexcot25051999/CVE-2021-40444.svg)
+
+- [https://github.com/jamesrep/cve-2021-40444](https://github.com/jamesrep/cve-2021-40444) :  ![starts](https://img.shields.io/github/stars/jamesrep/cve-2021-40444.svg) ![forks](https://img.shields.io/github/forks/jamesrep/cve-2021-40444.svg)
 
 - [https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis](https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis) :  ![starts](https://img.shields.io/github/stars/Immersive-Labs-Sec/cve-2021-40444-analysis.svg) ![forks](https://img.shields.io/github/forks/Immersive-Labs-Sec/cve-2021-40444-analysis.svg)
 
@@ -3131,8 +3131,6 @@
 
 
 
-- [https://github.com/bp2008/DahuaLoginBypass](https://github.com/bp2008/DahuaLoginBypass) :  ![starts](https://img.shields.io/github/stars/bp2008/DahuaLoginBypass.svg) ![forks](https://img.shields.io/github/forks/bp2008/DahuaLoginBypass.svg)
-
 - [https://github.com/dongpohezui/cve-2021-33045](https://github.com/dongpohezui/cve-2021-33045) :  ![starts](https://img.shields.io/github/stars/dongpohezui/cve-2021-33045.svg) ![forks](https://img.shields.io/github/forks/dongpohezui/cve-2021-33045.svg)
 
 ## CVE-2021-33044
@@ -3958,8 +3956,6 @@
 - [https://github.com/RickGeex/ProxyLogon](https://github.com/RickGeex/ProxyLogon) :  ![starts](https://img.shields.io/github/stars/RickGeex/ProxyLogon.svg) ![forks](https://img.shields.io/github/forks/RickGeex/ProxyLogon.svg)
 
 - [https://github.com/evilashz/ExchangeSSRFtoRCEExploit](https://github.com/evilashz/ExchangeSSRFtoRCEExploit) :  ![starts](https://img.shields.io/github/stars/evilashz/ExchangeSSRFtoRCEExploit.svg) ![forks](https://img.shields.io/github/forks/evilashz/ExchangeSSRFtoRCEExploit.svg)
-
-- [https://github.com/raheel0x01/CVE-2021-26855](https://github.com/raheel0x01/CVE-2021-26855) :  ![starts](https://img.shields.io/github/stars/raheel0x01/CVE-2021-26855.svg) ![forks](https://img.shields.io/github/forks/raheel0x01/CVE-2021-26855.svg)
 
 - [https://github.com/adamrpostjr/cve-2021-27065](https://github.com/adamrpostjr/cve-2021-27065) :  ![starts](https://img.shields.io/github/stars/adamrpostjr/cve-2021-27065.svg) ![forks](https://img.shields.io/github/forks/adamrpostjr/cve-2021-27065.svg)
 
@@ -4827,9 +4823,9 @@
 
 - [https://github.com/gardenWhy/Gitlab-CVE-2021-22205](https://github.com/gardenWhy/Gitlab-CVE-2021-22205) :  ![starts](https://img.shields.io/github/stars/gardenWhy/Gitlab-CVE-2021-22205.svg) ![forks](https://img.shields.io/github/forks/gardenWhy/Gitlab-CVE-2021-22205.svg)
 
-- [https://github.com/hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205) :  ![starts](https://img.shields.io/github/stars/hh-hunter/cve-2021-22205.svg) ![forks](https://img.shields.io/github/forks/hh-hunter/cve-2021-22205.svg)
-
 - [https://github.com/devdanqtuan/CVE-2021-22205](https://github.com/devdanqtuan/CVE-2021-22205) :  ![starts](https://img.shields.io/github/stars/devdanqtuan/CVE-2021-22205.svg) ![forks](https://img.shields.io/github/forks/devdanqtuan/CVE-2021-22205.svg)
+
+- [https://github.com/hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205) :  ![starts](https://img.shields.io/github/stars/hh-hunter/cve-2021-22205.svg) ![forks](https://img.shields.io/github/forks/hh-hunter/cve-2021-22205.svg)
 
 - [https://github.com/AkBanner/CVE-2021-22205](https://github.com/AkBanner/CVE-2021-22205) :  ![starts](https://img.shields.io/github/stars/AkBanner/CVE-2021-22205.svg) ![forks](https://img.shields.io/github/forks/AkBanner/CVE-2021-22205.svg)
 
@@ -4854,9 +4850,9 @@
 
 - [https://github.com/Konstantinos-Papanagnou/CMSpit](https://github.com/Konstantinos-Papanagnou/CMSpit) :  ![starts](https://img.shields.io/github/stars/Konstantinos-Papanagnou/CMSpit.svg) ![forks](https://img.shields.io/github/forks/Konstantinos-Papanagnou/CMSpit.svg)
 
-- [https://github.com/ph-arm/CVE-2021-22204-Gitlab](https://github.com/ph-arm/CVE-2021-22204-Gitlab) :  ![starts](https://img.shields.io/github/stars/ph-arm/CVE-2021-22204-Gitlab.svg) ![forks](https://img.shields.io/github/forks/ph-arm/CVE-2021-22204-Gitlab.svg)
-
 - [https://github.com/0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204) :  ![starts](https://img.shields.io/github/stars/0xBruno/CVE-2021-22204.svg) ![forks](https://img.shields.io/github/forks/0xBruno/CVE-2021-22204.svg)
+
+- [https://github.com/ph-arm/CVE-2021-22204-Gitlab](https://github.com/ph-arm/CVE-2021-22204-Gitlab) :  ![starts](https://img.shields.io/github/stars/ph-arm/CVE-2021-22204-Gitlab.svg) ![forks](https://img.shields.io/github/forks/ph-arm/CVE-2021-22204-Gitlab.svg)
 
 - [https://github.com/trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204) :  ![starts](https://img.shields.io/github/stars/trganda/CVE-2021-22204.svg) ![forks](https://img.shields.io/github/forks/trganda/CVE-2021-22204.svg)
 
@@ -5210,9 +5206,9 @@
 
 - [https://github.com/Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Faisal78123/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Faisal78123/CVE-2021-21300.svg)
 
-- [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
-
 - [https://github.com/1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/1uanWu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/1uanWu/CVE-2021-21300.svg)
+
+- [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
 
 ## CVE-2021-21234
  spring-boot-actuator-logview in a library that adds a simple logfile viewer as spring boot actuator endpoint. It is maven package &quot;eu.hinsch:spring-boot-actuator-logview&quot;. In spring-boot-actuator-logview before version 0.2.13 there is a directory traversal vulnerability. The nature of this library is to expose a log file directory via admin (spring boot actuator) HTTP endpoints. Both the filename to view and a base folder (relative to the logging folder root) can be specified via request parameters. While the filename parameter was checked to prevent directory traversal exploits (so that `filename=../somefile` would not work), the base folder parameter was not sufficiently checked, so that `filename=somefile&amp;base=../` could access a file outside the logging base directory). The vulnerability has been patched in release 0.2.13. Any users of 0.2.12 should be able to update without any issues as there are no other changes in that release. There is no workaround to fix the vulnerability other than updating or removing the dependency. However, removing read access of the user the application is run with to any directory not required for running the application can limit the impact. Additionally, access to the logview endpoint can be limited by deploying the application behind a reverse proxy.
@@ -5328,9 +5324,9 @@
 
 - [https://github.com/Qualys/log4jscanwin](https://github.com/Qualys/log4jscanwin) :  ![starts](https://img.shields.io/github/stars/Qualys/log4jscanwin.svg) ![forks](https://img.shields.io/github/forks/Qualys/log4jscanwin.svg)
 
-- [https://github.com/cckuailong/log4shell_1.x](https://github.com/cckuailong/log4shell_1.x) :  ![starts](https://img.shields.io/github/stars/cckuailong/log4shell_1.x.svg) ![forks](https://img.shields.io/github/forks/cckuailong/log4shell_1.x.svg)
-
 - [https://github.com/HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder) :  ![starts](https://img.shields.io/github/stars/HynekPetrak/log4shell-finder.svg) ![forks](https://img.shields.io/github/forks/HynekPetrak/log4shell-finder.svg)
+
+- [https://github.com/cckuailong/log4shell_1.x](https://github.com/cckuailong/log4shell_1.x) :  ![starts](https://img.shields.io/github/stars/cckuailong/log4shell_1.x.svg) ![forks](https://img.shields.io/github/forks/cckuailong/log4shell_1.x.svg)
 
 - [https://github.com/thl-cmk/CVE-log4j-check_mk-plugin](https://github.com/thl-cmk/CVE-log4j-check_mk-plugin) :  ![starts](https://img.shields.io/github/stars/thl-cmk/CVE-log4j-check_mk-plugin.svg) ![forks](https://img.shields.io/github/forks/thl-cmk/CVE-log4j-check_mk-plugin.svg)
 
@@ -5457,15 +5453,15 @@
 
 - [https://github.com/0xTRAW/CVE-2021-4034](https://github.com/0xTRAW/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/0xTRAW/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/0xTRAW/CVE-2021-4034.svg)
 
-- [https://github.com/rayheffer/CVE-2021-4034](https://github.com/rayheffer/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/rayheffer/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/rayheffer/CVE-2021-4034.svg)
-
-- [https://github.com/CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC) :  ![starts](https://img.shields.io/github/stars/CYB3RK1D/CVE-2021-4034-POC.svg) ![forks](https://img.shields.io/github/forks/CYB3RK1D/CVE-2021-4034-POC.svg)
-
 - [https://github.com/ayypril/CVE-2021-4034](https://github.com/ayypril/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/ayypril/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/ayypril/CVE-2021-4034.svg)
 
 - [https://github.com/Al1ex/CVE-2021-4034](https://github.com/Al1ex/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2021-4034.svg)
 
 - [https://github.com/T3cnokarita/CVE-2021-4034](https://github.com/T3cnokarita/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/T3cnokarita/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/T3cnokarita/CVE-2021-4034.svg)
+
+- [https://github.com/rayheffer/CVE-2021-4034](https://github.com/rayheffer/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/rayheffer/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/rayheffer/CVE-2021-4034.svg)
+
+- [https://github.com/CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC) :  ![starts](https://img.shields.io/github/stars/CYB3RK1D/CVE-2021-4034-POC.svg) ![forks](https://img.shields.io/github/forks/CYB3RK1D/CVE-2021-4034-POC.svg)
 
 - [https://github.com/gbrsh/CVE-2021-4034](https://github.com/gbrsh/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/gbrsh/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/gbrsh/CVE-2021-4034.svg)
 
@@ -5519,14 +5515,6 @@
 
 - [https://github.com/JoyGhoshs/CVE-2021-4034](https://github.com/JoyGhoshs/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/JoyGhoshs/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/JoyGhoshs/CVE-2021-4034.svg)
 
-- [https://github.com/san3ncrypt3d/CVE-2021-4034-POC](https://github.com/san3ncrypt3d/CVE-2021-4034-POC) :  ![starts](https://img.shields.io/github/stars/san3ncrypt3d/CVE-2021-4034-POC.svg) ![forks](https://img.shields.io/github/forks/san3ncrypt3d/CVE-2021-4034-POC.svg)
-
-- [https://github.com/NiS3x/CVE-2021-4034](https://github.com/NiS3x/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/NiS3x/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/NiS3x/CVE-2021-4034.svg)
-
-- [https://github.com/Pr0f3ssor/CVE-2021-4034-Pwnkit](https://github.com/Pr0f3ssor/CVE-2021-4034-Pwnkit) :  ![starts](https://img.shields.io/github/stars/Pr0f3ssor/CVE-2021-4034-Pwnkit.svg) ![forks](https://img.shields.io/github/forks/Pr0f3ssor/CVE-2021-4034-Pwnkit.svg)
-
-- [https://github.com/an0n7os/CVE-2021-4034](https://github.com/an0n7os/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/an0n7os/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/an0n7os/CVE-2021-4034.svg)
-
 - [https://github.com/Ankit-Ojha16/CVE-2021-4034](https://github.com/Ankit-Ojha16/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/Ankit-Ojha16/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/Ankit-Ojha16/CVE-2021-4034.svg)
 
 - [https://github.com/J0hnbX/CVE-2021-4034-new](https://github.com/J0hnbX/CVE-2021-4034-new) :  ![starts](https://img.shields.io/github/stars/J0hnbX/CVE-2021-4034-new.svg) ![forks](https://img.shields.io/github/forks/J0hnbX/CVE-2021-4034-new.svg)
@@ -5536,6 +5524,14 @@
 - [https://github.com/Plethore/CVE-2021-4034](https://github.com/Plethore/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/Plethore/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/Plethore/CVE-2021-4034.svg)
 
 - [https://github.com/fireclasher/pwnkit-CVE-2021-4034-](https://github.com/fireclasher/pwnkit-CVE-2021-4034-) :  ![starts](https://img.shields.io/github/stars/fireclasher/pwnkit-CVE-2021-4034-.svg) ![forks](https://img.shields.io/github/forks/fireclasher/pwnkit-CVE-2021-4034-.svg)
+
+- [https://github.com/san3ncrypt3d/CVE-2021-4034-POC](https://github.com/san3ncrypt3d/CVE-2021-4034-POC) :  ![starts](https://img.shields.io/github/stars/san3ncrypt3d/CVE-2021-4034-POC.svg) ![forks](https://img.shields.io/github/forks/san3ncrypt3d/CVE-2021-4034-POC.svg)
+
+- [https://github.com/NiS3x/CVE-2021-4034](https://github.com/NiS3x/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/NiS3x/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/NiS3x/CVE-2021-4034.svg)
+
+- [https://github.com/Pr0f3ssor/CVE-2021-4034-Pwnkit](https://github.com/Pr0f3ssor/CVE-2021-4034-Pwnkit) :  ![starts](https://img.shields.io/github/stars/Pr0f3ssor/CVE-2021-4034-Pwnkit.svg) ![forks](https://img.shields.io/github/forks/Pr0f3ssor/CVE-2021-4034-Pwnkit.svg)
+
+- [https://github.com/an0n7os/CVE-2021-4034](https://github.com/an0n7os/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/an0n7os/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/an0n7os/CVE-2021-4034.svg)
 
 - [https://github.com/Ph4nt0mh4x0r/auto-CVE-2021-4034](https://github.com/Ph4nt0mh4x0r/auto-CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/Ph4nt0mh4x0r/auto-CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/Ph4nt0mh4x0r/auto-CVE-2021-4034.svg)
 
@@ -5867,9 +5863,9 @@
 
 - [https://github.com/cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/cdeletre/Serpentiel-CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/cdeletre/Serpentiel-CVE-2021-3156.svg)
 
-- [https://github.com/nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/nexcess/sudo_cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nexcess/sudo_cve-2021-3156.svg)
-
 - [https://github.com/Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Y3A/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Y3A/CVE-2021-3156.svg)
+
+- [https://github.com/nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/nexcess/sudo_cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nexcess/sudo_cve-2021-3156.svg)
 
 - [https://github.com/capturingcats/CVE-2021-3156](https://github.com/capturingcats/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/capturingcats/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/capturingcats/CVE-2021-3156.svg)
 
@@ -5965,9 +5961,9 @@
 
 - [https://github.com/murataydemir/CVE-2021-3019](https://github.com/murataydemir/CVE-2021-3019) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2021-3019.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2021-3019.svg)
 
-- [https://github.com/qiezi-maozi/CVE-2021-3019-Lanproxy](https://github.com/qiezi-maozi/CVE-2021-3019-Lanproxy) :  ![starts](https://img.shields.io/github/stars/qiezi-maozi/CVE-2021-3019-Lanproxy.svg) ![forks](https://img.shields.io/github/forks/qiezi-maozi/CVE-2021-3019-Lanproxy.svg)
-
 - [https://github.com/givemefivw/CVE-2021-3019](https://github.com/givemefivw/CVE-2021-3019) :  ![starts](https://img.shields.io/github/stars/givemefivw/CVE-2021-3019.svg) ![forks](https://img.shields.io/github/forks/givemefivw/CVE-2021-3019.svg)
+
+- [https://github.com/qiezi-maozi/CVE-2021-3019-Lanproxy](https://github.com/qiezi-maozi/CVE-2021-3019-Lanproxy) :  ![starts](https://img.shields.io/github/stars/qiezi-maozi/CVE-2021-3019-Lanproxy.svg) ![forks](https://img.shields.io/github/forks/qiezi-maozi/CVE-2021-3019-Lanproxy.svg)
 
 - [https://github.com/Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019) :  ![starts](https://img.shields.io/github/stars/Aoyuh/cve-2021-3019.svg) ![forks](https://img.shields.io/github/forks/Aoyuh/cve-2021-3019.svg)
 
@@ -6156,9 +6152,9 @@
 
 - [https://github.com/BeneficialCode/CVE-2021-1732](https://github.com/BeneficialCode/CVE-2021-1732) :  ![starts](https://img.shields.io/github/stars/BeneficialCode/CVE-2021-1732.svg) ![forks](https://img.shields.io/github/forks/BeneficialCode/CVE-2021-1732.svg)
 
-- [https://github.com/ExploitCN/CVE-2021-1732-EXP-](https://github.com/ExploitCN/CVE-2021-1732-EXP-) :  ![starts](https://img.shields.io/github/stars/ExploitCN/CVE-2021-1732-EXP-.svg) ![forks](https://img.shields.io/github/forks/ExploitCN/CVE-2021-1732-EXP-.svg)
-
 - [https://github.com/r1l4-i3pur1l4/CVE-2021-1732](https://github.com/r1l4-i3pur1l4/CVE-2021-1732) :  ![starts](https://img.shields.io/github/stars/r1l4-i3pur1l4/CVE-2021-1732.svg) ![forks](https://img.shields.io/github/forks/r1l4-i3pur1l4/CVE-2021-1732.svg)
+
+- [https://github.com/ExploitCN/CVE-2021-1732-EXP-](https://github.com/ExploitCN/CVE-2021-1732-EXP-) :  ![starts](https://img.shields.io/github/stars/ExploitCN/CVE-2021-1732-EXP-.svg) ![forks](https://img.shields.io/github/forks/ExploitCN/CVE-2021-1732-EXP-.svg)
 
 - [https://github.com/YOunGWebER/cve_2021_1732](https://github.com/YOunGWebER/cve_2021_1732) :  ![starts](https://img.shields.io/github/stars/YOunGWebER/cve_2021_1732.svg) ![forks](https://img.shields.io/github/forks/YOunGWebER/cve_2021_1732.svg)
 
