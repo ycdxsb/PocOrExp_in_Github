@@ -1,66 +1,44 @@
-# Update 2022-02-19
-## CVE-2022-25258
- An issue was discovered in the Linux kernel before 5.16.10. The USB Gadget subsystem lacks certain validation of interface OS descriptor requests (ones with a large array index and ones associated with NULL function pointer retrieval). Memory corruption might occur.
+# Update 2022-02-20
+## CVE-2022-24354
+ This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of TP-Link AC1750 prior to 1.1.4 Build 20211022 rel.59103(5553) routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the NetUSB.ko module. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-15835.
 
-- [https://github.com/szymonh/d-os-descriptor](https://github.com/szymonh/d-os-descriptor) :  ![starts](https://img.shields.io/github/stars/szymonh/d-os-descriptor.svg) ![forks](https://img.shields.io/github/forks/szymonh/d-os-descriptor.svg)
-
-
-## CVE-2022-25257
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/RobertDra/CVE-2022-25257](https://github.com/RobertDra/CVE-2022-25257) :  ![starts](https://img.shields.io/github/stars/RobertDra/CVE-2022-25257.svg) ![forks](https://img.shields.io/github/forks/RobertDra/CVE-2022-25257.svg)
-
-
-## CVE-2022-25256
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/RobertDra/CVE-2022-25256](https://github.com/RobertDra/CVE-2022-25256) :  ![starts](https://img.shields.io/github/stars/RobertDra/CVE-2022-25256.svg) ![forks](https://img.shields.io/github/forks/RobertDra/CVE-2022-25256.svg)
+- [https://github.com/0vercl0k/zenith](https://github.com/0vercl0k/zenith) :  ![starts](https://img.shields.io/github/stars/0vercl0k/zenith.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/zenith.svg)
 
 
 ## CVE-2022-23131
  In the case of instances where the SAML SSO authentication is enabled (non-default), session data can be modified by a malicious actor, because a user login stored in the session was not verified. Malicious unauthenticated actor may exploit this issue to escalate privileges and gain admin access to Zabbix Frontend. To perform the attack, SAML authentication is required to be enabled and the actor has to know the username of Zabbix user (or use the guest account, which is disabled by default).
 
-- [https://github.com/qq1549176285/CVE-2022-23131](https://github.com/qq1549176285/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/qq1549176285/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/qq1549176285/CVE-2022-23131.svg)
+- [https://github.com/jweny/zabbix-saml-bypass-exp](https://github.com/jweny/zabbix-saml-bypass-exp) :  ![starts](https://img.shields.io/github/stars/jweny/zabbix-saml-bypass-exp.svg) ![forks](https://img.shields.io/github/forks/jweny/zabbix-saml-bypass-exp.svg)
+- [https://github.com/Mr-xn/cve-2022-23131](https://github.com/Mr-xn/cve-2022-23131) :  ![starts](https://img.shields.io/github/stars/Mr-xn/cve-2022-23131.svg) ![forks](https://img.shields.io/github/forks/Mr-xn/cve-2022-23131.svg)
+- [https://github.com/1mxml/CVE-2022-23131](https://github.com/1mxml/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/1mxml/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/1mxml/CVE-2022-23131.svg)
 
 
-## CVE-2022-22909
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2022-0185
+ A heap-based buffer overflow flaw was found in the way the legacy_parse_param function in the Filesystem Context functionality of the Linux kernel verified the supplied parameters length. An unprivileged (in case of unprivileged user namespaces enabled, otherwise needs namespaced CAP_SYS_ADMIN privilege) local user able to open a filesystem that does not support the Filesystem Context API (and thus fallbacks to legacy handling) could use this flaw to escalate their privileges on the system.
 
-- [https://github.com/0z09e/CVE-2022-22909](https://github.com/0z09e/CVE-2022-22909) :  ![starts](https://img.shields.io/github/stars/0z09e/CVE-2022-22909.svg) ![forks](https://img.shields.io/github/forks/0z09e/CVE-2022-22909.svg)
-
-
-## CVE-2021-44228
- Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0 (along with 2.12.2, 2.12.3, and 2.3.1), this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects.
-
-- [https://github.com/HackJava/Log4j2](https://github.com/HackJava/Log4j2) :  ![starts](https://img.shields.io/github/stars/HackJava/Log4j2.svg) ![forks](https://img.shields.io/github/forks/HackJava/Log4j2.svg)
+- [https://github.com/chenaotian/CVE-2022-0185](https://github.com/chenaotian/CVE-2022-0185) :  ![starts](https://img.shields.io/github/stars/chenaotian/CVE-2022-0185.svg) ![forks](https://img.shields.io/github/forks/chenaotian/CVE-2022-0185.svg)
 
 
-## CVE-2020-15778
- ** DISPUTED ** scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of &quot;anomalous argument transfers&quot; because that could &quot;stand a great chance of breaking existing workflows.&quot;
+## CVE-2021-33045
+ The identity authentication bypass vulnerability found in some Dahua products during the login process. Attackers can bypass device identity authentication by constructing malicious data packets.
 
-- [https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-15778-Exploit.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-15778-Exploit.svg)
-
-
-## CVE-2020-9483
- **Resolved** When use H2/MySQL/TiDB as Apache SkyWalking storage, the metadata query through GraphQL protocol, there is a SQL injection vulnerability, which allows to access unpexcted data. Apache SkyWalking 6.0.0 to 6.6.0, 7.0.0 H2/MySQL/TiDB storage implementations don't use the appropriate way to set SQL parameters.
-
-- [https://github.com/Neko-chanQwQ/CVE-2020-9483](https://github.com/Neko-chanQwQ/CVE-2020-9483) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-9483.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-9483.svg)
+- [https://github.com/bp2008/DahuaLoginBypass](https://github.com/bp2008/DahuaLoginBypass) :  ![starts](https://img.shields.io/github/stars/bp2008/DahuaLoginBypass.svg) ![forks](https://img.shields.io/github/forks/bp2008/DahuaLoginBypass.svg)
 
 
-## CVE-2020-1938
- When using the Apache JServ Protocol (AJP), care must be taken when trusting incoming connections to Apache Tomcat. Tomcat treats AJP connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited in ways that may be surprising. In Apache Tomcat 9.0.0.M1 to 9.0.0.30, 8.5.0 to 8.5.50 and 7.0.0 to 7.0.99, Tomcat shipped with an AJP Connector enabled by default that listened on all configured IP addresses. It was expected (and recommended in the security guide) that this Connector would be disabled if not required. This vulnerability report identified a mechanism that allowed: - returning arbitrary files from anywhere in the web application - processing any file in the web application as a JSP Further, if the web application allowed file upload and stored those files within the web application (or the attacker was able to control the content of the web application by some other means) then this, along with the ability to process a file as a JSP, made remote code execution possible. It is important to note that mitigation is only required if an AJP port is accessible to untrusted users. Users wishing to take a defence-in-depth approach and block the vector that permits returning arbitrary files and execution as JSP may upgrade to Apache Tomcat 9.0.31, 8.5.51 or 7.0.100 or later. A number of changes were made to the default AJP Connector configuration in 9.0.31 to harden the default configuration. It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 or later will need to make small changes to their configurations.
+## CVE-2021-4034
+ A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
 
-- [https://github.com/Neko-chanQwQ/CVE-2020-1938](https://github.com/Neko-chanQwQ/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-1938.svg)
-
-
-## CVE-2018-9995
- TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in 1, Securus, Night OWL, DVR Login, HVR Login, and MDVR Login, which run re-branded versions of the original TBK DVR4104 and DVR4216 series, allow remote attackers to bypass authentication via a &quot;Cookie: uid=admin&quot; header, as demonstrated by a device.rsp?opt=user&amp;cmd=list request that provides credentials within JSON data in a response.
-
-- [https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995](https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995) :  ![starts](https://img.shields.io/github/stars/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995.svg) ![forks](https://img.shields.io/github/forks/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995.svg)
+- [https://github.com/LJP-TW/CVE-2021-4034](https://github.com/LJP-TW/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/LJP-TW/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/LJP-TW/CVE-2021-4034.svg)
 
 
-## CVE-2018-6479
- An issue was discovered on Netwave IP Camera devices. An unauthenticated attacker can crash a device by sending a POST request with a huge body size to the / URI.
+## CVE-2021-1965
+ Possible buffer overflow due to lack of parameter length check during MBSSID scan IE parse in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Mobile, Snapdragon Wired Infrastructure and Networking
 
-- [https://github.com/LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479](https://github.com/LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479) :  ![starts](https://img.shields.io/github/stars/LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479.svg) ![forks](https://img.shields.io/github/forks/LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479.svg)
+- [https://github.com/parsdefense/CVE-2021-1965](https://github.com/parsdefense/CVE-2021-1965) :  ![starts](https://img.shields.io/github/stars/parsdefense/CVE-2021-1965.svg) ![forks](https://img.shields.io/github/forks/parsdefense/CVE-2021-1965.svg)
+
+
+## CVE-2020-0674
+ A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2020-0673, CVE-2020-0710, CVE-2020-0711, CVE-2020-0712, CVE-2020-0713, CVE-2020-0767.
+
+- [https://github.com/Neko-chanQwQ/CVE-2020-0674-PoC](https://github.com/Neko-chanQwQ/CVE-2020-0674-PoC) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-0674-PoC.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-0674-PoC.svg)
 
