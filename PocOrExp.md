@@ -190,6 +190,8 @@
 
 - [https://github.com/ly4k/SpoolFool](https://github.com/ly4k/SpoolFool) :  ![starts](https://img.shields.io/github/stars/ly4k/SpoolFool.svg) ![forks](https://img.shields.io/github/forks/ly4k/SpoolFool.svg)
 
+- [https://github.com/Al1ex/WindowsElevation](https://github.com/Al1ex/WindowsElevation) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
+
 ## CVE-2022-22536
  SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, ABAP Platform, SAP Content Server 7.53 and SAP Web Dispatcher are vulnerable for request smuggling and request concatenation. An unauthenticated attacker can prepend a victim's request with arbitrary data. This way, the attacker can execute functions impersonating the victim or poison intermediary Web caches. A successful attack could result in complete compromise of Confidentiality, Integrity and Availability of the system.
 
