@@ -25529,7 +25529,7 @@
 
 
 
-- [https://github.com/p0dalirius/CVE-2016-10956_mail_masta](https://github.com/p0dalirius/CVE-2016-10956_mail_masta) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2016-10956_mail_masta.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2016-10956_mail_masta.svg)
+- [https://github.com/p0dalirius/CVE-2016-10956-mail-masta](https://github.com/p0dalirius/CVE-2016-10956-mail-masta) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2016-10956-mail-masta.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2016-10956-mail-masta.svg)
 
 ## CVE-2016-10761
  Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing encryption, aka MouseJack.
