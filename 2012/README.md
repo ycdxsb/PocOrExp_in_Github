@@ -187,6 +187,13 @@
 
 - [https://github.com/shelld3v/CVE-2012-2688](https://github.com/shelld3v/CVE-2012-2688) :  ![starts](https://img.shields.io/github/stars/shelld3v/CVE-2012-2688.svg) ![forks](https://img.shields.io/github/forks/shelld3v/CVE-2012-2688.svg)
 
+## CVE-2012-2661
+ The Active Record component in Ruby on Rails 3.0.x before 3.0.13, 3.1.x before 3.1.5, and 3.2.x before 3.2.4 does not properly implement the passing of request data to a where method in an ActiveRecord class, which allows remote attackers to conduct certain SQL injection attacks via nested query parameters that leverage unintended recursion, a related issue to CVE-2012-2695.
+
+
+
+- [https://github.com/Blackyguy/-CVE-2012-2661-ActiveRecord-SQL-injection-](https://github.com/Blackyguy/-CVE-2012-2661-ActiveRecord-SQL-injection-) :  ![starts](https://img.shields.io/github/stars/Blackyguy/-CVE-2012-2661-ActiveRecord-SQL-injection-.svg) ![forks](https://img.shields.io/github/forks/Blackyguy/-CVE-2012-2661-ActiveRecord-SQL-injection-.svg)
+
 ## CVE-2012-2593
  Cross-site scripting (XSS) vulnerability in the administrative interface in Atmail Webmail Server 6.4 allows remote attackers to inject arbitrary web script or HTML via the Date field of an email.
 
