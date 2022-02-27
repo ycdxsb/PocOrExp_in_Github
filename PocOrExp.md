@@ -96,6 +96,8 @@
 
 - [https://github.com/Mr-xn/CVE-2022-24086](https://github.com/Mr-xn/CVE-2022-24086) :  ![starts](https://img.shields.io/github/stars/Mr-xn/CVE-2022-24086.svg) ![forks](https://img.shields.io/github/forks/Mr-xn/CVE-2022-24086.svg)
 
+- [https://github.com/shakeman8/CVE-2022-24086-RCE](https://github.com/shakeman8/CVE-2022-24086-RCE) :  ![starts](https://img.shields.io/github/stars/shakeman8/CVE-2022-24086-RCE.svg) ![forks](https://img.shields.io/github/forks/shakeman8/CVE-2022-24086-RCE.svg)
+
 ## CVE-2022-24032
  Adenza AxiomSL ControllerView through 10.8.1 is vulnerable to user enumeration. An attacker can identify valid usernames on the platform because a failed login attempt produces a different error message when the username is valid.
 
@@ -182,9 +184,9 @@
 
 - [https://github.com/random-robbie/cve-2022-23131-exp](https://github.com/random-robbie/cve-2022-23131-exp) :  ![starts](https://img.shields.io/github/stars/random-robbie/cve-2022-23131-exp.svg) ![forks](https://img.shields.io/github/forks/random-robbie/cve-2022-23131-exp.svg)
 
-- [https://github.com/zwjjustdoit/cve-2022-23131](https://github.com/zwjjustdoit/cve-2022-23131) :  ![starts](https://img.shields.io/github/stars/zwjjustdoit/cve-2022-23131.svg) ![forks](https://img.shields.io/github/forks/zwjjustdoit/cve-2022-23131.svg)
-
 - [https://github.com/1mxml/CVE-2022-23131](https://github.com/1mxml/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/1mxml/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/1mxml/CVE-2022-23131.svg)
+
+- [https://github.com/zwjjustdoit/cve-2022-23131](https://github.com/zwjjustdoit/cve-2022-23131) :  ![starts](https://img.shields.io/github/stars/zwjjustdoit/cve-2022-23131.svg) ![forks](https://img.shields.io/github/forks/zwjjustdoit/cve-2022-23131.svg)
 
 - [https://github.com/trganda/CVE-2022-23131](https://github.com/trganda/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/trganda/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/trganda/CVE-2022-23131.svg)
 
@@ -279,6 +281,20 @@
 
 
 - [https://github.com/ly4k/SpoolFool](https://github.com/ly4k/SpoolFool) :  ![starts](https://img.shields.io/github/stars/ly4k/SpoolFool.svg) ![forks](https://img.shields.io/github/forks/ly4k/SpoolFool.svg)
+
+## CVE-2022-21974
+ Roaming Security Rights Management Services Remote Code Execution Vulnerability.
+
+
+
+- [https://github.com/0vercl0k/CVE-2022-21974](https://github.com/0vercl0k/CVE-2022-21974) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2022-21974.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2022-21974.svg)
+
+## CVE-2022-21971
+ Windows Runtime Remote Code Execution Vulnerability.
+
+
+
+- [https://github.com/0vercl0k/CVE-2022-21971](https://github.com/0vercl0k/CVE-2022-21971) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2022-21971.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2022-21971.svg)
 
 ## CVE-2022-21907
  HTTP Protocol Stack Remote Code Execution Vulnerability.
