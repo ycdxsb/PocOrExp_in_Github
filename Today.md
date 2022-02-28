@@ -1,48 +1,42 @@
-# Update 2022-02-27
-## CVE-2022-25022
+# Update 2022-02-28
+## CVE-2022-24086
+ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout process. Exploitation of this issue does not require user interaction and could result in arbitrary code execution.
+
+- [https://github.com/shakeman8/CVE-2022-24086-RCE](https://github.com/shakeman8/CVE-2022-24086-RCE) :  ![starts](https://img.shields.io/github/stars/shakeman8/CVE-2022-24086-RCE.svg) ![forks](https://img.shields.io/github/forks/shakeman8/CVE-2022-24086-RCE.svg)
+
+
+## CVE-2022-21974
+ Roaming Security Rights Management Services Remote Code Execution Vulnerability.
+
+- [https://github.com/0vercl0k/CVE-2022-21974](https://github.com/0vercl0k/CVE-2022-21974) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2022-21974.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2022-21974.svg)
+
+
+## CVE-2022-21971
+ Windows Runtime Remote Code Execution Vulnerability.
+
+- [https://github.com/0vercl0k/CVE-2022-21971](https://github.com/0vercl0k/CVE-2022-21971) :  ![starts](https://img.shields.io/github/stars/0vercl0k/CVE-2022-21971.svg) ![forks](https://img.shields.io/github/forks/0vercl0k/CVE-2022-21971.svg)
+
+
+## CVE-2021-46702
+ Tor Browser 9.0.7 on Windows 10 build 10586 is vulnerable to information disclosure. This could allow local attackers to bypass the intended anonymity feature and obtain information regarding the onion services visited by a local user. This can be accomplished by analyzing RAM memory even several hours after the local user used the product. This occurs because the product doesn't properly free memory.
+
+- [https://github.com/malakkf/CVE-2021-46702](https://github.com/malakkf/CVE-2021-46702) :  ![starts](https://img.shields.io/github/stars/malakkf/CVE-2021-46702.svg) ![forks](https://img.shields.io/github/forks/malakkf/CVE-2021-46702.svg)
+
+
+## CVE-2021-31166
+ HTTP Protocol Stack Remote Code Execution Vulnerability
+
+- [https://github.com/mvlnetdev/CVE-2021-31166-detection-rules](https://github.com/mvlnetdev/CVE-2021-31166-detection-rules) :  ![starts](https://img.shields.io/github/stars/mvlnetdev/CVE-2021-31166-detection-rules.svg) ![forks](https://img.shields.io/github/forks/mvlnetdev/CVE-2021-31166-detection-rules.svg)
+
+
+## CVE-2020-18326
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/MoritzHuppert/CVE-2022-25022](https://github.com/MoritzHuppert/CVE-2022-25022) :  ![starts](https://img.shields.io/github/stars/MoritzHuppert/CVE-2022-25022.svg) ![forks](https://img.shields.io/github/forks/MoritzHuppert/CVE-2022-25022.svg)
+- [https://github.com/hamm0nz/CVE-2020-18326](https://github.com/hamm0nz/CVE-2020-18326) :  ![starts](https://img.shields.io/github/stars/hamm0nz/CVE-2020-18326.svg) ![forks](https://img.shields.io/github/forks/hamm0nz/CVE-2020-18326.svg)
 
 
-## CVE-2022-25020
+## CVE-2020-18325
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/MoritzHuppert/CVE-2022-25020](https://github.com/MoritzHuppert/CVE-2022-25020) :  ![starts](https://img.shields.io/github/stars/MoritzHuppert/CVE-2022-25020.svg) ![forks](https://img.shields.io/github/forks/MoritzHuppert/CVE-2022-25020.svg)
-
-
-## CVE-2022-25018
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/MoritzHuppert/CVE-2022-25018](https://github.com/MoritzHuppert/CVE-2022-25018) :  ![starts](https://img.shields.io/github/stars/MoritzHuppert/CVE-2022-25018.svg) ![forks](https://img.shields.io/github/forks/MoritzHuppert/CVE-2022-25018.svg)
-
-
-## CVE-2022-24124
- The query API in Casdoor before 1.13.1 has a SQL injection vulnerability related to the field and value parameters, as demonstrated by api/get-organizations.
-
-- [https://github.com/ColdFusionX/CVE-2022-24124](https://github.com/ColdFusionX/CVE-2022-24124) :  ![starts](https://img.shields.io/github/stars/ColdFusionX/CVE-2022-24124.svg) ![forks](https://img.shields.io/github/forks/ColdFusionX/CVE-2022-24124.svg)
-
-
-## CVE-2022-24112
- An attacker can abuse the batch-requests plugin to send requests to bypass the IP restriction of Admin API. A default configuration of Apache APISIX (with default API key) is vulnerable to remote code execution. When the admin key was changed or the port of Admin API was changed to a port different from the data panel, the impact is lower. But there is still a risk to bypass the IP restriction of Apache APISIX's data panel. There is a check in the batch-requests plugin which overrides the client IP with its real remote IP. But due to a bug in the code, this check can be bypassed.
-
-- [https://github.com/Axx8/CVE-2022-24112](https://github.com/Axx8/CVE-2022-24112) :  ![starts](https://img.shields.io/github/stars/Axx8/CVE-2022-24112.svg) ![forks](https://img.shields.io/github/forks/Axx8/CVE-2022-24112.svg)
-
-
-## CVE-2021-43798
- Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `&lt;grafana_host_url&gt;/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
-
-- [https://github.com/Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion) :  ![starts](https://img.shields.io/github/stars/Jroo1053/GrafanaDirInclusion.svg) ![forks](https://img.shields.io/github/forks/Jroo1053/GrafanaDirInclusion.svg)
-
-
-## CVE-2021-3560
- It was found that polkit could be tricked into bypassing the credential checks for D-Bus requests, elevating the privileges of the requestor to the root user. This flaw could be used by an unprivileged local attacker to, for example, create a new local administrator. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
-
-- [https://github.com/innxrmxst/CVE-2021-3560](https://github.com/innxrmxst/CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/innxrmxst/CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/innxrmxst/CVE-2021-3560.svg)
-
-
-## CVE-2018-11776
- Apache Struts versions 2.3 to 2.3.34 and 2.5 to 2.5.16 suffer from possible Remote Code Execution when alwaysSelectFullNamespace is true (either by user or a plugin like Convention Plugin) and then: results are used with no namespace and in same time, its upper package have no or wildcard namespace and similar to results, same possibility when using url tag which doesn't have value and action set and in same time, its upper package have no or wildcard namespace.
-
-- [https://github.com/HxDDD/CVE-PoC](https://github.com/HxDDD/CVE-PoC) :  ![starts](https://img.shields.io/github/stars/HxDDD/CVE-PoC.svg) ![forks](https://img.shields.io/github/forks/HxDDD/CVE-PoC.svg)
+- [https://github.com/hamm0nz/CVE-2020-18325](https://github.com/hamm0nz/CVE-2020-18325) :  ![starts](https://img.shields.io/github/stars/hamm0nz/CVE-2020-18325.svg) ![forks](https://img.shields.io/github/forks/hamm0nz/CVE-2020-18325.svg)
 
