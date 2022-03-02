@@ -61,6 +61,20 @@
 
 - [https://github.com/polling-repo-continua/CVE-2022-25257](https://github.com/polling-repo-continua/CVE-2022-25257) :  ![starts](https://img.shields.io/github/stars/polling-repo-continua/CVE-2022-25257.svg) ![forks](https://img.shields.io/github/forks/polling-repo-continua/CVE-2022-25257.svg)
 
+## CVE-2022-25089
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ComparedArray/printix-CVE-2022-25089](https://github.com/ComparedArray/printix-CVE-2022-25089) :  ![starts](https://img.shields.io/github/stars/ComparedArray/printix-CVE-2022-25089.svg) ![forks](https://img.shields.io/github/forks/ComparedArray/printix-CVE-2022-25089.svg)
+
+## CVE-2022-25064
+ TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain a remote code execution (RCE) vulnerability via the function oal_wan6_setIpAddr.
+
+
+
+- [https://github.com/Mr-xn/CVE-2022-25064](https://github.com/Mr-xn/CVE-2022-25064) :  ![starts](https://img.shields.io/github/stars/Mr-xn/CVE-2022-25064.svg) ![forks](https://img.shields.io/github/forks/Mr-xn/CVE-2022-25064.svg)
+
 ## CVE-2022-25022
  A cross-site scripting (XSS) vulnerability in Htmly v2.8.1 allows attackers to excute arbitrary web scripts HTML via a crafted payload in the content field of a blog post.
 
@@ -167,6 +181,13 @@
 
 - [https://github.com/TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378) :  ![starts](https://img.shields.io/github/stars/TheGetch/CVE-2022-23378.svg) ![forks](https://img.shields.io/github/forks/TheGetch/CVE-2022-23378.svg)
 
+## CVE-2022-23361
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ViNi0608/CVE-2022-23361](https://github.com/ViNi0608/CVE-2022-23361) :  ![starts](https://img.shields.io/github/stars/ViNi0608/CVE-2022-23361.svg) ![forks](https://img.shields.io/github/forks/ViNi0608/CVE-2022-23361.svg)
+
 ## CVE-2022-23307
  CVE-2020-9493 identified a deserialization issue that was present in Apache Chainsaw. Prior to Chainsaw V2.0 Chainsaw was a component of Apache Log4j 1.2.x where the same issue exists.
 
@@ -228,9 +249,9 @@
 
 - [https://github.com/kh4sh3i/CVE-2022-23131](https://github.com/kh4sh3i/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/kh4sh3i/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/kh4sh3i/CVE-2022-23131.svg)
 
-- [https://github.com/Fa1c0n35/zabbix-cve-2022-23131](https://github.com/Fa1c0n35/zabbix-cve-2022-23131) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/zabbix-cve-2022-23131.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/zabbix-cve-2022-23131.svg)
-
 - [https://github.com/qq1549176285/CVE-2022-23131](https://github.com/qq1549176285/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/qq1549176285/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/qq1549176285/CVE-2022-23131.svg)
+
+- [https://github.com/Fa1c0n35/zabbix-cve-2022-23131](https://github.com/Fa1c0n35/zabbix-cve-2022-23131) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/zabbix-cve-2022-23131.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/zabbix-cve-2022-23131.svg)
 
 ## CVE-2022-23046
  PhpIPAM v1.4.4 allows an authenticated admin user to inject SQL sentences in the &quot;subnet&quot; parameter while searching a subnet via app/admin/routing/edit-bgp-mapping-search.php
@@ -360,9 +381,9 @@
 
 
 
-- [https://github.com/Al1ex/WindowsElevation](https://github.com/Al1ex/WindowsElevation) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
-
 - [https://github.com/KaLendsi/CVE-2022-21882](https://github.com/KaLendsi/CVE-2022-21882) :  ![starts](https://img.shields.io/github/stars/KaLendsi/CVE-2022-21882.svg) ![forks](https://img.shields.io/github/forks/KaLendsi/CVE-2022-21882.svg)
+
+- [https://github.com/Al1ex/WindowsElevation](https://github.com/Al1ex/WindowsElevation) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
 
 - [https://github.com/L4ys/CVE-2022-21882](https://github.com/L4ys/CVE-2022-21882) :  ![starts](https://img.shields.io/github/stars/L4ys/CVE-2022-21882.svg) ![forks](https://img.shields.io/github/forks/L4ys/CVE-2022-21882.svg)
 
@@ -441,9 +462,9 @@
 
 
 
-- [https://github.com/nanaao/unzip_poc](https://github.com/nanaao/unzip_poc) :  ![starts](https://img.shields.io/github/stars/nanaao/unzip_poc.svg) ![forks](https://img.shields.io/github/forks/nanaao/unzip_poc.svg)
-
 - [https://github.com/ByteHackr/unzip_poc](https://github.com/ByteHackr/unzip_poc) :  ![starts](https://img.shields.io/github/stars/ByteHackr/unzip_poc.svg) ![forks](https://img.shields.io/github/forks/ByteHackr/unzip_poc.svg)
+
+- [https://github.com/nanaao/unzip_poc](https://github.com/nanaao/unzip_poc) :  ![starts](https://img.shields.io/github/stars/nanaao/unzip_poc.svg) ![forks](https://img.shields.io/github/forks/nanaao/unzip_poc.svg)
 
 ## CVE-2022-0529
  A flaw was found in Unzip. The vulnerability occurs during the conversion of a wide string to a local string that leads to a heap of out-of-bound write. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution.
