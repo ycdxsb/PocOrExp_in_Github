@@ -238,9 +238,9 @@
 
 - [https://github.com/zwjjustdoit/cve-2022-23131](https://github.com/zwjjustdoit/cve-2022-23131) :  ![starts](https://img.shields.io/github/stars/zwjjustdoit/cve-2022-23131.svg) ![forks](https://img.shields.io/github/forks/zwjjustdoit/cve-2022-23131.svg)
 
-- [https://github.com/trganda/CVE-2022-23131](https://github.com/trganda/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/trganda/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/trganda/CVE-2022-23131.svg)
-
 - [https://github.com/kh4sh3i/CVE-2022-23131](https://github.com/kh4sh3i/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/kh4sh3i/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/kh4sh3i/CVE-2022-23131.svg)
+
+- [https://github.com/trganda/CVE-2022-23131](https://github.com/trganda/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/trganda/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/trganda/CVE-2022-23131.svg)
 
 - [https://github.com/pykiller/CVE-2022-23131](https://github.com/pykiller/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/pykiller/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/pykiller/CVE-2022-23131.svg)
 
@@ -258,11 +258,35 @@
 - [https://github.com/jcarabantes/CVE-2022-23046](https://github.com/jcarabantes/CVE-2022-23046) :  ![starts](https://img.shields.io/github/stars/jcarabantes/CVE-2022-23046.svg) ![forks](https://img.shields.io/github/forks/jcarabantes/CVE-2022-23046.svg)
 
 ## CVE-2022-22947
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enabled, exposed and unsecured. A remote attacker could make a maliciously crafted request that could allow arbitrary remote execution on the remote host.
 
 
+
+- [https://github.com/Anonymous-ghost/AttackWebFrameworkTools-5.0](https://github.com/Anonymous-ghost/AttackWebFrameworkTools-5.0) :  ![starts](https://img.shields.io/github/stars/Anonymous-ghost/AttackWebFrameworkTools-5.0.svg) ![forks](https://img.shields.io/github/forks/Anonymous-ghost/AttackWebFrameworkTools-5.0.svg)
 
 - [https://github.com/lucksec/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/lucksec/Spring-Cloud-Gateway-CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/lucksec/Spring-Cloud-Gateway-CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/lucksec/Spring-Cloud-Gateway-CVE-2022-22947.svg)
+
+- [https://github.com/cgddgc/cve-2022-22947](https://github.com/cgddgc/cve-2022-22947) :  ![starts](https://img.shields.io/github/stars/cgddgc/cve-2022-22947.svg) ![forks](https://img.shields.io/github/forks/cgddgc/cve-2022-22947.svg)
+
+- [https://github.com/Axx8/CVE-2022-22947_Rce_Exp](https://github.com/Axx8/CVE-2022-22947_Rce_Exp) :  ![starts](https://img.shields.io/github/stars/Axx8/CVE-2022-22947_Rce_Exp.svg) ![forks](https://img.shields.io/github/forks/Axx8/CVE-2022-22947_Rce_Exp.svg)
+
+- [https://github.com/carlosevieira/CVE-2022-22947](https://github.com/carlosevieira/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/carlosevieira/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/carlosevieira/CVE-2022-22947.svg)
+
+- [https://github.com/Tas9er/SpringCloudGatewayRCE](https://github.com/Tas9er/SpringCloudGatewayRCE) :  ![starts](https://img.shields.io/github/stars/Tas9er/SpringCloudGatewayRCE.svg) ![forks](https://img.shields.io/github/forks/Tas9er/SpringCloudGatewayRCE.svg)
+
+- [https://github.com/wjl110/Spring_CVE_2022_22947](https://github.com/wjl110/Spring_CVE_2022_22947) :  ![starts](https://img.shields.io/github/stars/wjl110/Spring_CVE_2022_22947.svg) ![forks](https://img.shields.io/github/forks/wjl110/Spring_CVE_2022_22947.svg)
+
+- [https://github.com/Vulnmachines/spring-cve-2022-22947](https://github.com/Vulnmachines/spring-cve-2022-22947) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/spring-cve-2022-22947.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/spring-cve-2022-22947.svg)
+
+- [https://github.com/XuCcc/VulEnv](https://github.com/XuCcc/VulEnv) :  ![starts](https://img.shields.io/github/stars/XuCcc/VulEnv.svg) ![forks](https://img.shields.io/github/forks/XuCcc/VulEnv.svg)
+
+- [https://github.com/helloexp/CVE-2022-22947](https://github.com/helloexp/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/helloexp/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/helloexp/CVE-2022-22947.svg)
+
+- [https://github.com/shakeman8/CVE-2022-22947-RCE](https://github.com/shakeman8/CVE-2022-22947-RCE) :  ![starts](https://img.shields.io/github/stars/shakeman8/CVE-2022-22947-RCE.svg) ![forks](https://img.shields.io/github/forks/shakeman8/CVE-2022-22947-RCE.svg)
+
+- [https://github.com/Greetdawn/CVE-2022-22947](https://github.com/Greetdawn/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/Greetdawn/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/Greetdawn/CVE-2022-22947.svg)
+
+- [https://github.com/Summer177/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/Summer177/Spring-Cloud-Gateway-CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/Summer177/Spring-Cloud-Gateway-CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/Summer177/Spring-Cloud-Gateway-CVE-2022-22947.svg)
 
 ## CVE-2022-22919
  Adenza AxiomSL ControllerView through 10.8.1 allows redirection for SSO login URLs.
@@ -372,9 +396,9 @@
 
 - [https://github.com/corelight/cve-2022-21907](https://github.com/corelight/cve-2022-21907) :  ![starts](https://img.shields.io/github/stars/corelight/cve-2022-21907.svg) ![forks](https://img.shields.io/github/forks/corelight/cve-2022-21907.svg)
 
-- [https://github.com/RtlCyclone/CVE_2022_21907-poc](https://github.com/RtlCyclone/CVE_2022_21907-poc) :  ![starts](https://img.shields.io/github/stars/RtlCyclone/CVE_2022_21907-poc.svg) ![forks](https://img.shields.io/github/forks/RtlCyclone/CVE_2022_21907-poc.svg)
-
 - [https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC) :  ![starts](https://img.shields.io/github/stars/michelep/CVE-2022-21907-Vulnerability-PoC.svg) ![forks](https://img.shields.io/github/forks/michelep/CVE-2022-21907-Vulnerability-PoC.svg)
+
+- [https://github.com/RtlCyclone/CVE_2022_21907-poc](https://github.com/RtlCyclone/CVE_2022_21907-poc) :  ![starts](https://img.shields.io/github/stars/RtlCyclone/CVE_2022_21907-poc.svg) ![forks](https://img.shields.io/github/forks/RtlCyclone/CVE_2022_21907-poc.svg)
 
 - [https://github.com/xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907) :  ![starts](https://img.shields.io/github/stars/xiska62314/CVE-2022-21907.svg) ![forks](https://img.shields.io/github/forks/xiska62314/CVE-2022-21907.svg)
 
@@ -383,9 +407,9 @@
 
 
 
-- [https://github.com/Al1ex/WindowsElevation](https://github.com/Al1ex/WindowsElevation) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
-
 - [https://github.com/KaLendsi/CVE-2022-21882](https://github.com/KaLendsi/CVE-2022-21882) :  ![starts](https://img.shields.io/github/stars/KaLendsi/CVE-2022-21882.svg) ![forks](https://img.shields.io/github/forks/KaLendsi/CVE-2022-21882.svg)
+
+- [https://github.com/Al1ex/WindowsElevation](https://github.com/Al1ex/WindowsElevation) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
 
 - [https://github.com/L4ys/CVE-2022-21882](https://github.com/L4ys/CVE-2022-21882) :  ![starts](https://img.shields.io/github/stars/L4ys/CVE-2022-21882.svg) ![forks](https://img.shields.io/github/forks/L4ys/CVE-2022-21882.svg)
 
@@ -476,6 +500,13 @@
 - [https://github.com/ByteHackr/unzip_poc](https://github.com/ByteHackr/unzip_poc) :  ![starts](https://img.shields.io/github/stars/ByteHackr/unzip_poc.svg) ![forks](https://img.shields.io/github/forks/ByteHackr/unzip_poc.svg)
 
 - [https://github.com/nanaao/unzip_poc](https://github.com/nanaao/unzip_poc) :  ![starts](https://img.shields.io/github/stars/nanaao/unzip_poc.svg) ![forks](https://img.shields.io/github/forks/nanaao/unzip_poc.svg)
+
+## CVE-2022-0492
+ A vulnerability was found in the Linux kernel&#8217;s cgroup_release_agent_write in the kernel/cgroup/cgroup-v1.c function. This flaw, under certain circumstances, allows the use of the cgroups v1 release_agent feature to escalate privileges and bypass the namespace isolation unexpectedly.
+
+
+
+- [https://github.com/PaloAltoNetworks/can-ctr-escape-cve-2022-0492](https://github.com/PaloAltoNetworks/can-ctr-escape-cve-2022-0492) :  ![starts](https://img.shields.io/github/stars/PaloAltoNetworks/can-ctr-escape-cve-2022-0492.svg) ![forks](https://img.shields.io/github/forks/PaloAltoNetworks/can-ctr-escape-cve-2022-0492.svg)
 
 ## CVE-2022-0440
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
