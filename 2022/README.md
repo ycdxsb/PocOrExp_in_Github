@@ -33,6 +33,13 @@
 
 - [https://github.com/l00neyhacker/CVE-2022-26155](https://github.com/l00neyhacker/CVE-2022-26155) :  ![starts](https://img.shields.io/github/stars/l00neyhacker/CVE-2022-26155.svg) ![forks](https://img.shields.io/github/forks/l00neyhacker/CVE-2022-26155.svg)
 
+## CVE-2022-25636
+ net/netfilter/nf_dup_netdev.c in the Linux kernel 5.4 through 5.6.10 allows local users to gain privileges because of a heap out-of-bounds write. This is related to nf_tables_offload.
+
+
+
+- [https://github.com/Bonfee/CVE-2022-25636](https://github.com/Bonfee/CVE-2022-25636) :  ![starts](https://img.shields.io/github/stars/Bonfee/CVE-2022-25636.svg) ![forks](https://img.shields.io/github/forks/Bonfee/CVE-2022-25636.svg)
+
 ## CVE-2022-25375
  An issue was discovered in drivers/usb/gadget/function/rndis.c in the Linux kernel before 5.16.10. The RNDIS USB gadget lacks validation of the size of the RNDIS_MSG_SET command. Attackers can obtain sensitive information from kernel memory.
 
@@ -59,7 +66,16 @@
 
 
 
+- [https://github.com/RobertDra/CVE-2022-25257](https://github.com/RobertDra/CVE-2022-25257) :  ![starts](https://img.shields.io/github/stars/RobertDra/CVE-2022-25257.svg) ![forks](https://img.shields.io/github/forks/RobertDra/CVE-2022-25257.svg)
+
 - [https://github.com/polling-repo-continua/CVE-2022-25257](https://github.com/polling-repo-continua/CVE-2022-25257) :  ![starts](https://img.shields.io/github/stars/polling-repo-continua/CVE-2022-25257.svg) ![forks](https://img.shields.io/github/forks/polling-repo-continua/CVE-2022-25257.svg)
+
+## CVE-2022-25256
+ SAS Web Report Studio 4.4 allows XSS. /SASWebReportStudio/logonAndRender.do has two parameters: saspfs_request_backlabel_list and saspfs_request_backurl_list. The first one affects the content of the button placed in the top left. The second affects the page to which the user is directed after pressing the button, e.g., a malicious web page. In addition, the second parameter executes JavaScript, which means XSS is possible by adding a javascript: URL.
+
+
+
+- [https://github.com/RobertDra/CVE-2022-25256](https://github.com/RobertDra/CVE-2022-25256) :  ![starts](https://img.shields.io/github/stars/RobertDra/CVE-2022-25256.svg) ![forks](https://img.shields.io/github/forks/RobertDra/CVE-2022-25256.svg)
 
 ## CVE-2022-25090
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -82,6 +98,36 @@
 
 - [https://github.com/Mr-xn/CVE-2022-25064](https://github.com/Mr-xn/CVE-2022-25064) :  ![starts](https://img.shields.io/github/stars/Mr-xn/CVE-2022-25064.svg) ![forks](https://img.shields.io/github/forks/Mr-xn/CVE-2022-25064.svg)
 
+- [https://github.com/exploitwritter/CVE-2022-25064](https://github.com/exploitwritter/CVE-2022-25064) :  ![starts](https://img.shields.io/github/stars/exploitwritter/CVE-2022-25064.svg) ![forks](https://img.shields.io/github/forks/exploitwritter/CVE-2022-25064.svg)
+
+## CVE-2022-25063
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/exploitwritter/CVE-2022-25063](https://github.com/exploitwritter/CVE-2022-25063) :  ![starts](https://img.shields.io/github/stars/exploitwritter/CVE-2022-25063.svg) ![forks](https://img.shields.io/github/forks/exploitwritter/CVE-2022-25063.svg)
+
+## CVE-2022-25062
+ TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain an integer overflow via the function dm_checkString. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted HTTP request.
+
+
+
+- [https://github.com/exploitwritter/CVE-2022-25062](https://github.com/exploitwritter/CVE-2022-25062) :  ![starts](https://img.shields.io/github/stars/exploitwritter/CVE-2022-25062.svg) ![forks](https://img.shields.io/github/forks/exploitwritter/CVE-2022-25062.svg)
+
+## CVE-2022-25061
+ TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain a command injection vulnerability via the component oal_setIp6DefaultRoute.
+
+
+
+- [https://github.com/exploitwritter/CVE-2022-25061](https://github.com/exploitwritter/CVE-2022-25061) :  ![starts](https://img.shields.io/github/stars/exploitwritter/CVE-2022-25061.svg) ![forks](https://img.shields.io/github/forks/exploitwritter/CVE-2022-25061.svg)
+
+## CVE-2022-25060
+ TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain a command injection vulnerability via the component oal_startPing.
+
+
+
+- [https://github.com/exploitwritter/CVE-2022-25060](https://github.com/exploitwritter/CVE-2022-25060) :  ![starts](https://img.shields.io/github/stars/exploitwritter/CVE-2022-25060.svg) ![forks](https://img.shields.io/github/forks/exploitwritter/CVE-2022-25060.svg)
+
 ## CVE-2022-25022
  A cross-site scripting (XSS) vulnerability in Htmly v2.8.1 allows attackers to excute arbitrary web scripts HTML via a crafted payload in the content field of a blog post.
 
@@ -103,6 +149,13 @@
 
 - [https://github.com/MoritzHuppert/CVE-2022-25018](https://github.com/MoritzHuppert/CVE-2022-25018) :  ![starts](https://img.shields.io/github/stars/MoritzHuppert/CVE-2022-25018.svg) ![forks](https://img.shields.io/github/forks/MoritzHuppert/CVE-2022-25018.svg)
 
+## CVE-2022-24990
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-) :  ![starts](https://img.shields.io/github/stars/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-.svg) ![forks](https://img.shields.io/github/forks/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-.svg)
+
 ## CVE-2022-24693
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -111,7 +164,7 @@
 - [https://github.com/lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693) :  ![starts](https://img.shields.io/github/stars/lukejenkins/CVE-2022-24693.svg) ![forks](https://img.shields.io/github/forks/lukejenkins/CVE-2022-24693.svg)
 
 ## CVE-2022-24644
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution vulnerability during an unauthenticated update. To exploit this vulnerability, a user must trigger an update of an affected installation of KeyMouse.
 
 
 
@@ -173,6 +226,13 @@
 
 
 - [https://github.com/MaherAzzouzi/CVE-2022-23967](https://github.com/MaherAzzouzi/CVE-2022-23967) :  ![starts](https://img.shields.io/github/stars/MaherAzzouzi/CVE-2022-23967.svg) ![forks](https://img.shields.io/github/forks/MaherAzzouzi/CVE-2022-23967.svg)
+
+## CVE-2022-23940
+ SuiteCRM through 7.12.1 and 8.x through 8.0.1 allows Remote Code Execution. Authenticated users with access to the Scheduled Reports module can achieve this by leveraging PHP deserialization in the email_recipients property. By using a crafted request, they can create a malicious report, containing a PHP-deserialization payload in the email_recipients field. Once someone accesses this report, the backend will deserialize the content of the email_recipients field and the payload gets executed. Project dependencies include a number of interesting PHP deserialization gadgets (e.g., Monolog/RCE1 from phpggc) that can be used for Code Execution.
+
+
+
+- [https://github.com/manuelz120/CVE-2022-23940](https://github.com/manuelz120/CVE-2022-23940) :  ![starts](https://img.shields.io/github/stars/manuelz120/CVE-2022-23940.svg) ![forks](https://img.shields.io/github/forks/manuelz120/CVE-2022-23940.svg)
 
 ## CVE-2022-23808
  An issue was discovered in phpMyAdmin 5.1 before 5.1.2. An attacker can inject malicious code into aspects of the setup script, which can allow XSS or HTML injection.
@@ -250,11 +310,11 @@
 
 - [https://github.com/1mxml/CVE-2022-23131](https://github.com/1mxml/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/1mxml/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/1mxml/CVE-2022-23131.svg)
 
+- [https://github.com/kh4sh3i/CVE-2022-23131](https://github.com/kh4sh3i/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/kh4sh3i/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/kh4sh3i/CVE-2022-23131.svg)
+
 - [https://github.com/zwjjustdoit/cve-2022-23131](https://github.com/zwjjustdoit/cve-2022-23131) :  ![starts](https://img.shields.io/github/stars/zwjjustdoit/cve-2022-23131.svg) ![forks](https://img.shields.io/github/forks/zwjjustdoit/cve-2022-23131.svg)
 
 - [https://github.com/trganda/CVE-2022-23131](https://github.com/trganda/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/trganda/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/trganda/CVE-2022-23131.svg)
-
-- [https://github.com/kh4sh3i/CVE-2022-23131](https://github.com/kh4sh3i/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/kh4sh3i/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/kh4sh3i/CVE-2022-23131.svg)
 
 - [https://github.com/pykiller/CVE-2022-23131](https://github.com/pykiller/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/pykiller/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/pykiller/CVE-2022-23131.svg)
 
@@ -294,31 +354,41 @@
 
 - [https://github.com/dingxiao77/-cve-2022-22947-](https://github.com/dingxiao77/-cve-2022-22947-) :  ![starts](https://img.shields.io/github/stars/dingxiao77/-cve-2022-22947-.svg) ![forks](https://img.shields.io/github/forks/dingxiao77/-cve-2022-22947-.svg)
 
+- [https://github.com/mrknow001/CVE-2022-22947](https://github.com/mrknow001/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/mrknow001/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/mrknow001/CVE-2022-22947.svg)
+
 - [https://github.com/march0s1as/CVE-2022-22947](https://github.com/march0s1as/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/march0s1as/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/march0s1as/CVE-2022-22947.svg)
 
 - [https://github.com/wjl110/Spring_CVE_2022_22947](https://github.com/wjl110/Spring_CVE_2022_22947) :  ![starts](https://img.shields.io/github/stars/wjl110/Spring_CVE_2022_22947.svg) ![forks](https://img.shields.io/github/forks/wjl110/Spring_CVE_2022_22947.svg)
+
+- [https://github.com/dbgee/CVE-2022-22947](https://github.com/dbgee/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/dbgee/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/dbgee/CVE-2022-22947.svg)
 
 - [https://github.com/helloexp/CVE-2022-22947](https://github.com/helloexp/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/helloexp/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/helloexp/CVE-2022-22947.svg)
 
 - [https://github.com/22ke/CVE-2022-22947](https://github.com/22ke/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/22ke/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/22ke/CVE-2022-22947.svg)
 
+- [https://github.com/nu0l/cve-2022-22947](https://github.com/nu0l/cve-2022-22947) :  ![starts](https://img.shields.io/github/stars/nu0l/cve-2022-22947.svg) ![forks](https://img.shields.io/github/forks/nu0l/cve-2022-22947.svg)
+
 - [https://github.com/york-cmd/CVE-2022-22947-goby](https://github.com/york-cmd/CVE-2022-22947-goby) :  ![starts](https://img.shields.io/github/stars/york-cmd/CVE-2022-22947-goby.svg) ![forks](https://img.shields.io/github/forks/york-cmd/CVE-2022-22947-goby.svg)
 
-- [https://github.com/nu0l/cve-2022-22947](https://github.com/nu0l/cve-2022-22947) :  ![starts](https://img.shields.io/github/stars/nu0l/cve-2022-22947.svg) ![forks](https://img.shields.io/github/forks/nu0l/cve-2022-22947.svg)
+- [https://github.com/Xd-tl/CVE-2022-22947-Rce_POC](https://github.com/Xd-tl/CVE-2022-22947-Rce_POC) :  ![starts](https://img.shields.io/github/stars/Xd-tl/CVE-2022-22947-Rce_POC.svg) ![forks](https://img.shields.io/github/forks/Xd-tl/CVE-2022-22947-Rce_POC.svg)
 
 - [https://github.com/XuCcc/VulEnv](https://github.com/XuCcc/VulEnv) :  ![starts](https://img.shields.io/github/stars/XuCcc/VulEnv.svg) ![forks](https://img.shields.io/github/forks/XuCcc/VulEnv.svg)
 
-- [https://github.com/shakeman8/CVE-2022-22947-RCE](https://github.com/shakeman8/CVE-2022-22947-RCE) :  ![starts](https://img.shields.io/github/stars/shakeman8/CVE-2022-22947-RCE.svg) ![forks](https://img.shields.io/github/forks/shakeman8/CVE-2022-22947-RCE.svg)
+- [https://github.com/YutuSec/SpEL](https://github.com/YutuSec/SpEL) :  ![starts](https://img.shields.io/github/stars/YutuSec/SpEL.svg) ![forks](https://img.shields.io/github/forks/YutuSec/SpEL.svg)
 
-- [https://github.com/dbgee/CVE-2022-22947](https://github.com/dbgee/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/dbgee/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/dbgee/CVE-2022-22947.svg)
+- [https://github.com/shakeman8/CVE-2022-22947-RCE](https://github.com/shakeman8/CVE-2022-22947-RCE) :  ![starts](https://img.shields.io/github/stars/shakeman8/CVE-2022-22947-RCE.svg) ![forks](https://img.shields.io/github/forks/shakeman8/CVE-2022-22947-RCE.svg)
 
 - [https://github.com/Greetdawn/CVE-2022-22947](https://github.com/Greetdawn/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/Greetdawn/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/Greetdawn/CVE-2022-22947.svg)
 
-- [https://github.com/Xd-tl/CVE-2022-22947-Rce_POC](https://github.com/Xd-tl/CVE-2022-22947-Rce_POC) :  ![starts](https://img.shields.io/github/stars/Xd-tl/CVE-2022-22947-Rce_POC.svg) ![forks](https://img.shields.io/github/forks/Xd-tl/CVE-2022-22947-Rce_POC.svg)
+- [https://github.com/darkb1rd/cve-2022-22947](https://github.com/darkb1rd/cve-2022-22947) :  ![starts](https://img.shields.io/github/stars/darkb1rd/cve-2022-22947.svg) ![forks](https://img.shields.io/github/forks/darkb1rd/cve-2022-22947.svg)
+
+- [https://github.com/j-jasson/CVE-2022-22947-Spring-Cloud-Gateway-SpelRCE](https://github.com/j-jasson/CVE-2022-22947-Spring-Cloud-Gateway-SpelRCE) :  ![starts](https://img.shields.io/github/stars/j-jasson/CVE-2022-22947-Spring-Cloud-Gateway-SpelRCE.svg) ![forks](https://img.shields.io/github/forks/j-jasson/CVE-2022-22947-Spring-Cloud-Gateway-SpelRCE.svg)
 
 - [https://github.com/scopion/cve-2022-22947](https://github.com/scopion/cve-2022-22947) :  ![starts](https://img.shields.io/github/stars/scopion/cve-2022-22947.svg) ![forks](https://img.shields.io/github/forks/scopion/cve-2022-22947.svg)
 
 - [https://github.com/BerMalBerIst/CVE-2022-22947](https://github.com/BerMalBerIst/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/BerMalBerIst/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/BerMalBerIst/CVE-2022-22947.svg)
+
+- [https://github.com/Jun-5heng/CVE-2022-22947](https://github.com/Jun-5heng/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/Jun-5heng/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/Jun-5heng/CVE-2022-22947.svg)
 
 - [https://github.com/Summer177/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/Summer177/Spring-Cloud-Gateway-CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/Summer177/Spring-Cloud-Gateway-CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/Summer177/Spring-Cloud-Gateway-CVE-2022-22947.svg)
 
@@ -436,14 +506,16 @@
 
 - [https://github.com/xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907) :  ![starts](https://img.shields.io/github/stars/xiska62314/CVE-2022-21907.svg) ![forks](https://img.shields.io/github/forks/xiska62314/CVE-2022-21907.svg)
 
+- [https://github.com/mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/mauricelambert/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/mauricelambert/CVE-2021-31166.svg)
+
 ## CVE-2022-21882
  Win32k Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21887.
 
 
 
-- [https://github.com/KaLendsi/CVE-2022-21882](https://github.com/KaLendsi/CVE-2022-21882) :  ![starts](https://img.shields.io/github/stars/KaLendsi/CVE-2022-21882.svg) ![forks](https://img.shields.io/github/forks/KaLendsi/CVE-2022-21882.svg)
-
 - [https://github.com/Al1ex/WindowsElevation](https://github.com/Al1ex/WindowsElevation) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
+
+- [https://github.com/KaLendsi/CVE-2022-21882](https://github.com/KaLendsi/CVE-2022-21882) :  ![starts](https://img.shields.io/github/stars/KaLendsi/CVE-2022-21882.svg) ![forks](https://img.shields.io/github/forks/KaLendsi/CVE-2022-21882.svg)
 
 - [https://github.com/L4ys/CVE-2022-21882](https://github.com/L4ys/CVE-2022-21882) :  ![starts](https://img.shields.io/github/stars/L4ys/CVE-2022-21882.svg) ![forks](https://img.shields.io/github/forks/L4ys/CVE-2022-21882.svg)
 
@@ -510,6 +582,31 @@
 
 - [https://github.com/puckiestyle/CVE-2022-20699](https://github.com/puckiestyle/CVE-2022-20699) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2022-20699.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2022-20699.svg)
 
+## CVE-2022-0847
+ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system. This flaw affects Linux kernel versions prior to 5.17-rc6.
+
+
+
+- [https://github.com/Al1ex/LinuxEelvation](https://github.com/Al1ex/LinuxEelvation) :  ![starts](https://img.shields.io/github/stars/Al1ex/LinuxEelvation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/LinuxEelvation.svg)
+
+- [https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit) :  ![starts](https://img.shields.io/github/stars/Arinerron/CVE-2022-0847-DirtyPipe-Exploit.svg) ![forks](https://img.shields.io/github/forks/Arinerron/CVE-2022-0847-DirtyPipe-Exploit.svg)
+
+- [https://github.com/bbaranoff/CVE-2022-0847](https://github.com/bbaranoff/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/bbaranoff/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/bbaranoff/CVE-2022-0847.svg)
+
+- [https://github.com/imfiver/CVE-2022-0847](https://github.com/imfiver/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/imfiver/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/imfiver/CVE-2022-0847.svg)
+
+- [https://github.com/Udyz/CVE-2022-0847](https://github.com/Udyz/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/Udyz/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/Udyz/CVE-2022-0847.svg)
+
+- [https://github.com/carlosevieira/Dirty-Pipe](https://github.com/carlosevieira/Dirty-Pipe) :  ![starts](https://img.shields.io/github/stars/carlosevieira/Dirty-Pipe.svg) ![forks](https://img.shields.io/github/forks/carlosevieira/Dirty-Pipe.svg)
+
+- [https://github.com/xndpxs/CVE-2022-0847](https://github.com/xndpxs/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/xndpxs/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/xndpxs/CVE-2022-0847.svg)
+
+- [https://github.com/2xYuan/CVE-2022-0847](https://github.com/2xYuan/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/2xYuan/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/2xYuan/CVE-2022-0847.svg)
+
+- [https://github.com/lucksec/CVE-2022-0847](https://github.com/lucksec/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/lucksec/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/lucksec/CVE-2022-0847.svg)
+
+- [https://github.com/rahul1406/cve-2022-0847dirtypipe-exploit](https://github.com/rahul1406/cve-2022-0847dirtypipe-exploit) :  ![starts](https://img.shields.io/github/stars/rahul1406/cve-2022-0847dirtypipe-exploit.svg) ![forks](https://img.shields.io/github/forks/rahul1406/cve-2022-0847dirtypipe-exploit.svg)
+
 ## CVE-2022-0824
  Improper Access Control to Remote Code Execution in GitHub repository webmin/webmin prior to 1.990.
 
@@ -518,7 +615,7 @@
 - [https://github.com/faisalfs10x/Webmin-CVE-2022-0824-revshell](https://github.com/faisalfs10x/Webmin-CVE-2022-0824-revshell) :  ![starts](https://img.shields.io/github/stars/faisalfs10x/Webmin-CVE-2022-0824-revshell.svg) ![forks](https://img.shields.io/github/forks/faisalfs10x/Webmin-CVE-2022-0824-revshell.svg)
 
 ## CVE-2022-0725
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A flaw was found in KeePass. The vulnerability occurs due to logging the plain text passwords in the system log and leads to an Information Exposure vulnerability. This flaw allows an attacker to interact and read sensitive passwords and logs.
 
 
 
@@ -551,15 +648,17 @@
 
 - [https://github.com/SofianeHamlaoui/CVE-2022-0492-Checker](https://github.com/SofianeHamlaoui/CVE-2022-0492-Checker) :  ![starts](https://img.shields.io/github/stars/SofianeHamlaoui/CVE-2022-0492-Checker.svg) ![forks](https://img.shields.io/github/forks/SofianeHamlaoui/CVE-2022-0492-Checker.svg)
 
+- [https://github.com/puckiestyle/CVE-2022-0492](https://github.com/puckiestyle/CVE-2022-0492) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2022-0492.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2022-0492.svg)
+
 ## CVE-2022-0440
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ The Catch Themes Demo Import WordPress plugin before 2.1.1 does not validate one of the file to be imported, which could allow high privivilege admin to upload an arbitrary PHP file and gain RCE even in the case of an hardened blog (ie DISALLOW_UNFILTERED_HTML, DISALLOW_FILE_EDIT and DISALLOW_FILE_MODS constants set to true)
 
 
 
 - [https://github.com/qerogram/BUG_WEB](https://github.com/qerogram/BUG_WEB) :  ![starts](https://img.shields.io/github/stars/qerogram/BUG_WEB.svg) ![forks](https://img.shields.io/github/forks/qerogram/BUG_WEB.svg)
 
 ## CVE-2022-0420
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ The RegistrationMagic WordPress plugin before 5.0.2.2 does not sanitise and escape the rm_form_id parameter before using it in a SQL statement in the Automation admin dashboard, allowing high privilege users to perform SQL injection attacks
 
 
 
