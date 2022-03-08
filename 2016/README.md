@@ -675,6 +675,8 @@
 
 - [https://github.com/Brucetg/DirtyCow-EXP](https://github.com/Brucetg/DirtyCow-EXP) :  ![starts](https://img.shields.io/github/stars/Brucetg/DirtyCow-EXP.svg) ![forks](https://img.shields.io/github/forks/Brucetg/DirtyCow-EXP.svg)
 
+- [https://github.com/imfiver/CVE-2022-0847](https://github.com/imfiver/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/imfiver/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/imfiver/CVE-2022-0847.svg)
+
 - [https://github.com/DavidBuchanan314/cowroot](https://github.com/DavidBuchanan314/cowroot) :  ![starts](https://img.shields.io/github/stars/DavidBuchanan314/cowroot.svg) ![forks](https://img.shields.io/github/forks/DavidBuchanan314/cowroot.svg)
 
 - [https://github.com/aishee/scan-dirtycow](https://github.com/aishee/scan-dirtycow) :  ![starts](https://img.shields.io/github/stars/aishee/scan-dirtycow.svg) ![forks](https://img.shields.io/github/forks/aishee/scan-dirtycow.svg)
