@@ -1573,7 +1573,7 @@
 
 - [https://github.com/RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/phpunit-brute.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/phpunit-brute.svg)
 
-- [https://github.com/incogbyte/laravel-phpunit-rce-masscaner](https://github.com/incogbyte/laravel-phpunit-rce-masscaner) :  ![starts](https://img.shields.io/github/stars/incogbyte/laravel-phpunit-rce-masscaner.svg) ![forks](https://img.shields.io/github/forks/incogbyte/laravel-phpunit-rce-masscaner.svg)
+- [https://github.com/0xrodt/laravel-phpunit-rce-masscaner](https://github.com/0xrodt/laravel-phpunit-rce-masscaner) :  ![starts](https://img.shields.io/github/stars/0xrodt/laravel-phpunit-rce-masscaner.svg) ![forks](https://img.shields.io/github/forks/0xrodt/laravel-phpunit-rce-masscaner.svg)
 
 - [https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE) :  ![starts](https://img.shields.io/github/stars/ludy-dev/PHPUnit_eval-stdin_RCE.svg) ![forks](https://img.shields.io/github/forks/ludy-dev/PHPUnit_eval-stdin_RCE.svg)
 
@@ -1766,9 +1766,9 @@
 
 - [https://github.com/shacojx/dp](https://github.com/shacojx/dp) :  ![starts](https://img.shields.io/github/stars/shacojx/dp.svg) ![forks](https://img.shields.io/github/forks/shacojx/dp.svg)
 
-- [https://github.com/ZhenwarX/Telerik-CVE-2017-9248-PoC](https://github.com/ZhenwarX/Telerik-CVE-2017-9248-PoC) :  ![starts](https://img.shields.io/github/stars/ZhenwarX/Telerik-CVE-2017-9248-PoC.svg) ![forks](https://img.shields.io/github/forks/ZhenwarX/Telerik-CVE-2017-9248-PoC.svg)
-
 - [https://github.com/ictnamanh/CVE-2017-9248](https://github.com/ictnamanh/CVE-2017-9248) :  ![starts](https://img.shields.io/github/stars/ictnamanh/CVE-2017-9248.svg) ![forks](https://img.shields.io/github/forks/ictnamanh/CVE-2017-9248.svg)
+
+- [https://github.com/ZhenwarX/Telerik-CVE-2017-9248-PoC](https://github.com/ZhenwarX/Telerik-CVE-2017-9248-PoC) :  ![starts](https://img.shields.io/github/stars/ZhenwarX/Telerik-CVE-2017-9248-PoC.svg) ![forks](https://img.shields.io/github/forks/ZhenwarX/Telerik-CVE-2017-9248-PoC.svg)
 
 ## CVE-2017-9101
  import.php (aka the Phonebook import feature) in PlaySMS 1.4 allows remote code execution via vectors involving the User-Agent HTTP header and PHP code in the name of a file.
