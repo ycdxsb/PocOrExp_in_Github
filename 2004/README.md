@@ -3,8 +3,6 @@
 
 
 
-- [https://github.com/sukraken/distcc_exploit.py](https://github.com/sukraken/distcc_exploit.py) :  ![starts](https://img.shields.io/github/stars/sukraken/distcc_exploit.py.svg) ![forks](https://img.shields.io/github/forks/sukraken/distcc_exploit.py.svg)
-
 - [https://github.com/k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687) :  ![starts](https://img.shields.io/github/stars/k4miyo/CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/k4miyo/CVE-2004-2687.svg)
 
 - [https://github.com/4n0nym0u5dk/distccd_rce_CVE-2004-2687](https://github.com/4n0nym0u5dk/distccd_rce_CVE-2004-2687) :  ![starts](https://img.shields.io/github/stars/4n0nym0u5dk/distccd_rce_CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/4n0nym0u5dk/distccd_rce_CVE-2004-2687.svg)
