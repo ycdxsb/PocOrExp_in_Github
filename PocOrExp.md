@@ -28266,6 +28266,13 @@
 
 - [https://github.com/jndok/tpwn-bis](https://github.com/jndok/tpwn-bis) :  ![starts](https://img.shields.io/github/stars/jndok/tpwn-bis.svg) ![forks](https://img.shields.io/github/forks/jndok/tpwn-bis.svg)
 
+## CVE-2015-5736
+ The Fortishield.sys driver in Fortinet FortiClient before 5.2.4 allows local users to execute arbitrary code with kernel privileges by setting the callback function in a (1) 0x220024 or (2) 0x220028 ioctl call.
+
+
+
+- [https://github.com/Exploitables/EXP-401-Preparation](https://github.com/Exploitables/EXP-401-Preparation) :  ![starts](https://img.shields.io/github/stars/Exploitables/EXP-401-Preparation.svg) ![forks](https://img.shields.io/github/forks/Exploitables/EXP-401-Preparation.svg)
+
 ## CVE-2015-5602
  sudoedit in Sudo before 1.8.15 allows local users to gain privileges via a symlink attack on a file whose full path is defined using multiple wildcards in /etc/sudoers, as demonstrated by &quot;/home/*/*/file.txt.&quot;
 
@@ -28535,6 +28542,13 @@
 
 
 - [https://github.com/Xattam1/Adobe-Flash-Exploits_17-18](https://github.com/Xattam1/Adobe-Flash-Exploits_17-18) :  ![starts](https://img.shields.io/github/stars/Xattam1/Adobe-Flash-Exploits_17-18.svg) ![forks](https://img.shields.io/github/forks/Xattam1/Adobe-Flash-Exploits_17-18.svg)
+
+## CVE-2015-3104
+ Integer overflow in Adobe Flash Player before 13.0.0.292 and 14.x through 18.x before 18.0.0.160 on Windows and OS X and before 11.2.202.466 on Linux, Adobe AIR before 18.0.0.144 on Windows and before 18.0.0.143 on OS X and Android, Adobe AIR SDK before 18.0.0.144 on Windows and before 18.0.0.143 on OS X, and Adobe AIR SDK &amp; Compiler before 18.0.0.144 on Windows and before 18.0.0.143 on OS X allows attackers to execute arbitrary code via unspecified vectors.
+
+
+
+- [https://github.com/Exploitables/EXP-401-Preparation](https://github.com/Exploitables/EXP-401-Preparation) :  ![starts](https://img.shields.io/github/stars/Exploitables/EXP-401-Preparation.svg) ![forks](https://img.shields.io/github/forks/Exploitables/EXP-401-Preparation.svg)
 
 ## CVE-2015-3090
  Adobe Flash Player before 13.0.0.289 and 14.x through 17.x before 17.0.0.188 on Windows and OS X and before 11.2.202.460 on Linux, Adobe AIR before 17.0.0.172, Adobe AIR SDK before 17.0.0.172, and Adobe AIR SDK &amp; Compiler before 17.0.0.172 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2015-3078, CVE-2015-3089, and CVE-2015-3093.
