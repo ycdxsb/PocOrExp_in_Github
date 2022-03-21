@@ -23964,13 +23964,6 @@
 
 - [https://github.com/zzz66686/CVE-2017-14263](https://github.com/zzz66686/CVE-2017-14263) :  ![starts](https://img.shields.io/github/stars/zzz66686/CVE-2017-14263.svg) ![forks](https://img.shields.io/github/forks/zzz66686/CVE-2017-14263.svg)
 
-## CVE-2017-14262
- On Samsung NVR devices, remote attackers can read the MD5 password hash of the 'admin' account via certain szUserName JSON data to cgi-bin/main-cgi, and login to the device with that hash in the szUserPasswd parameter.
-
-
-
-- [https://github.com/zzz66686/CVE-2017-14262](https://github.com/zzz66686/CVE-2017-14262) :  ![starts](https://img.shields.io/github/stars/zzz66686/CVE-2017-14262.svg) ![forks](https://img.shields.io/github/forks/zzz66686/CVE-2017-14262.svg)
-
 ## CVE-2017-14244
  An authentication bypass vulnerability on iBall Baton ADSL2+ Home Router FW_iB-LR7011A_1.0.2 devices potentially allows attackers to directly access administrative router settings by crafting URLs with a .cgi extension, as demonstrated by /info.cgi and /password.cgi.
 
@@ -24280,9 +24273,9 @@
 
 - [https://github.com/tzwlhack/CVE-2017-11882](https://github.com/tzwlhack/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/tzwlhack/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/tzwlhack/CVE-2017-11882.svg)
 
-- [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
-
 - [https://github.com/chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/chanbin/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/chanbin/CVE-2017-11882.svg)
+
+- [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
 
 - [https://github.com/j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/j0lama/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/j0lama/CVE-2017-11882.svg)
 
@@ -24678,9 +24671,9 @@
 
 - [https://github.com/jongmartinez/-CVE-2017-9805-](https://github.com/jongmartinez/-CVE-2017-9805-) :  ![starts](https://img.shields.io/github/stars/jongmartinez/-CVE-2017-9805-.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/-CVE-2017-9805-.svg)
 
-- [https://github.com/wifido/CVE-2017-9805-Exploit](https://github.com/wifido/CVE-2017-9805-Exploit) :  ![starts](https://img.shields.io/github/stars/wifido/CVE-2017-9805-Exploit.svg) ![forks](https://img.shields.io/github/forks/wifido/CVE-2017-9805-Exploit.svg)
-
 - [https://github.com/z3bd/CVE-2017-9805](https://github.com/z3bd/CVE-2017-9805) :  ![starts](https://img.shields.io/github/stars/z3bd/CVE-2017-9805.svg) ![forks](https://img.shields.io/github/forks/z3bd/CVE-2017-9805.svg)
+
+- [https://github.com/wifido/CVE-2017-9805-Exploit](https://github.com/wifido/CVE-2017-9805-Exploit) :  ![starts](https://img.shields.io/github/stars/wifido/CVE-2017-9805-Exploit.svg) ![forks](https://img.shields.io/github/forks/wifido/CVE-2017-9805-Exploit.svg)
 
 - [https://github.com/rvermeulen/apache-struts-cve-2017-9805](https://github.com/rvermeulen/apache-struts-cve-2017-9805) :  ![starts](https://img.shields.io/github/stars/rvermeulen/apache-struts-cve-2017-9805.svg) ![forks](https://img.shields.io/github/forks/rvermeulen/apache-struts-cve-2017-9805.svg)
 
@@ -24932,9 +24925,9 @@
 
 - [https://github.com/adeljck/CVE-2017-8759](https://github.com/adeljck/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/adeljck/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/adeljck/CVE-2017-8759.svg)
 
-- [https://github.com/smashinu/CVE-2017-8759Expoit](https://github.com/smashinu/CVE-2017-8759Expoit) :  ![starts](https://img.shields.io/github/stars/smashinu/CVE-2017-8759Expoit.svg) ![forks](https://img.shields.io/github/forks/smashinu/CVE-2017-8759Expoit.svg)
-
 - [https://github.com/l0n3rs/CVE-2017-8759](https://github.com/l0n3rs/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/l0n3rs/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/l0n3rs/CVE-2017-8759.svg)
+
+- [https://github.com/smashinu/CVE-2017-8759Expoit](https://github.com/smashinu/CVE-2017-8759Expoit) :  ![starts](https://img.shields.io/github/stars/smashinu/CVE-2017-8759Expoit.svg) ![forks](https://img.shields.io/github/forks/smashinu/CVE-2017-8759Expoit.svg)
 
 - [https://github.com/Winter3un/cve_2017_8759](https://github.com/Winter3un/cve_2017_8759) :  ![starts](https://img.shields.io/github/stars/Winter3un/cve_2017_8759.svg) ![forks](https://img.shields.io/github/forks/Winter3un/cve_2017_8759.svg)
 
@@ -25280,9 +25273,9 @@
 
 - [https://github.com/xiaovpn/CVE-2017-7269](https://github.com/xiaovpn/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/xiaovpn/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/xiaovpn/CVE-2017-7269.svg)
 
-- [https://github.com/4n0nym0u5dk/CVE-2017-7269](https://github.com/4n0nym0u5dk/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/4n0nym0u5dk/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/4n0nym0u5dk/CVE-2017-7269.svg)
-
 - [https://github.com/mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/mirrorblack/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/mirrorblack/CVE-2017-7269.svg)
+
+- [https://github.com/k4u5h41/CVE-2017-7269](https://github.com/k4u5h41/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2017-7269.svg)
 
 - [https://github.com/M1a0rz/CVE-2017-7269](https://github.com/M1a0rz/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/M1a0rz/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/M1a0rz/CVE-2017-7269.svg)
 
@@ -26333,8 +26326,6 @@
 
 - [https://github.com/peterpt/eternal_scanner](https://github.com/peterpt/eternal_scanner) :  ![starts](https://img.shields.io/github/stars/peterpt/eternal_scanner.svg) ![forks](https://img.shields.io/github/forks/peterpt/eternal_scanner.svg)
 
-- [https://github.com/Ali-Imangholi/EternalBlueTrojan](https://github.com/Ali-Imangholi/EternalBlueTrojan) :  ![starts](https://img.shields.io/github/stars/Ali-Imangholi/EternalBlueTrojan.svg) ![forks](https://img.shields.io/github/forks/Ali-Imangholi/EternalBlueTrojan.svg)
-
 - [https://github.com/kimocoder/eternalblue](https://github.com/kimocoder/eternalblue) :  ![starts](https://img.shields.io/github/stars/kimocoder/eternalblue.svg) ![forks](https://img.shields.io/github/forks/kimocoder/eternalblue.svg)
 
 - [https://github.com/EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution](https://github.com/EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution.svg)
@@ -26344,7 +26335,7 @@
 
 
 
-- [https://github.com/4n0nym0u5dk/MS17-010_CVE-2017-0143](https://github.com/4n0nym0u5dk/MS17-010_CVE-2017-0143) :  ![starts](https://img.shields.io/github/stars/4n0nym0u5dk/MS17-010_CVE-2017-0143.svg) ![forks](https://img.shields.io/github/forks/4n0nym0u5dk/MS17-010_CVE-2017-0143.svg)
+- [https://github.com/k4u5h41/MS17-010_CVE-2017-0143](https://github.com/k4u5h41/MS17-010_CVE-2017-0143) :  ![starts](https://img.shields.io/github/stars/k4u5h41/MS17-010_CVE-2017-0143.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/MS17-010_CVE-2017-0143.svg)
 
 - [https://github.com/valarauco/wannafind](https://github.com/valarauco/wannafind) :  ![starts](https://img.shields.io/github/stars/valarauco/wannafind.svg) ![forks](https://img.shields.io/github/forks/valarauco/wannafind.svg)
 
