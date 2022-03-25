@@ -14467,9 +14467,9 @@
 
 - [https://github.com/pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240) :  ![starts](https://img.shields.io/github/stars/pingport80/CVE-2019-17240.svg) ![forks](https://img.shields.io/github/forks/pingport80/CVE-2019-17240.svg)
 
-- [https://github.com/nthR00t/CVE-2019-17240](https://github.com/nthR00t/CVE-2019-17240) :  ![starts](https://img.shields.io/github/stars/nthR00t/CVE-2019-17240.svg) ![forks](https://img.shields.io/github/forks/nthR00t/CVE-2019-17240.svg)
-
 - [https://github.com/spyx/cve-2019-17240](https://github.com/spyx/cve-2019-17240) :  ![starts](https://img.shields.io/github/stars/spyx/cve-2019-17240.svg) ![forks](https://img.shields.io/github/forks/spyx/cve-2019-17240.svg)
+
+- [https://github.com/nthR00t/CVE-2019-17240](https://github.com/nthR00t/CVE-2019-17240) :  ![starts](https://img.shields.io/github/stars/nthR00t/CVE-2019-17240.svg) ![forks](https://img.shields.io/github/forks/nthR00t/CVE-2019-17240.svg)
 
 - [https://github.com/jayngng/bludit-CVE-2019-17240](https://github.com/jayngng/bludit-CVE-2019-17240) :  ![starts](https://img.shields.io/github/stars/jayngng/bludit-CVE-2019-17240.svg) ![forks](https://img.shields.io/github/forks/jayngng/bludit-CVE-2019-17240.svg)
 
@@ -16225,8 +16225,6 @@
 
 - [https://github.com/jas9reet/CVE-2019-11043](https://github.com/jas9reet/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/jas9reet/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/jas9reet/CVE-2019-11043.svg)
 
-- [https://github.com/hlong12042/CVE_2019_11043](https://github.com/hlong12042/CVE_2019_11043) :  ![starts](https://img.shields.io/github/stars/hlong12042/CVE_2019_11043.svg) ![forks](https://img.shields.io/github/forks/hlong12042/CVE_2019_11043.svg)
-
 ## CVE-2019-10999
  The D-Link DCS series of Wi-Fi cameras contains a stack-based buffer overflow in alphapd, the camera's web server. The overflow allows a remotely authenticated attacker to execute arbitrary code by providing a long string in the WEPEncryption parameter when requesting wireless.htm. Vulnerable devices include DCS-5009L (1.08.11 and below), DCS-5010L (1.14.09 and below), DCS-5020L (1.15.12 and below), DCS-5025L (1.03.07 and below), DCS-5030L (1.04.10 and below), DCS-930L (2.16.01 and below), DCS-931L (1.14.11 and below), DCS-932L (2.17.01 and below), DCS-933L (1.14.11 and below), and DCS-934L (1.05.04 and below).
 
@@ -17441,13 +17439,13 @@
 
 - [https://github.com/BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/BBRathnayaka/POC-CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/BBRathnayaka/POC-CVE-2019-5736.svg)
 
+- [https://github.com/takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer) :  ![starts](https://img.shields.io/github/stars/takumak/cve-2019-5736-reproducer.svg) ![forks](https://img.shields.io/github/forks/takumak/cve-2019-5736-reproducer.svg)
+
 - [https://github.com/likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2019-5736.svg)
 
 - [https://github.com/geropl/CVE-2019-5736](https://github.com/geropl/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/geropl/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/geropl/CVE-2019-5736.svg)
 
 - [https://github.com/si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/si1ent-le/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/si1ent-le/CVE-2019-5736.svg)
-
-- [https://github.com/takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer) :  ![starts](https://img.shields.io/github/stars/takumak/cve-2019-5736-reproducer.svg) ![forks](https://img.shields.io/github/forks/takumak/cve-2019-5736-reproducer.svg)
 
 - [https://github.com/chosam2/cve-2019-5736-poc](https://github.com/chosam2/cve-2019-5736-poc) :  ![starts](https://img.shields.io/github/stars/chosam2/cve-2019-5736-poc.svg) ![forks](https://img.shields.io/github/forks/chosam2/cve-2019-5736-poc.svg)
 
@@ -17791,9 +17789,9 @@
 
 - [https://github.com/yuehanked/cve-2019-3396](https://github.com/yuehanked/cve-2019-3396) :  ![starts](https://img.shields.io/github/stars/yuehanked/cve-2019-3396.svg) ![forks](https://img.shields.io/github/forks/yuehanked/cve-2019-3396.svg)
 
-- [https://github.com/JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST) :  ![starts](https://img.shields.io/github/stars/JonathanZhou348/CVE-2019-3396TEST.svg) ![forks](https://img.shields.io/github/forks/JonathanZhou348/CVE-2019-3396TEST.svg)
-
 - [https://github.com/46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence) :  ![starts](https://img.shields.io/github/stars/46o60/CVE-2019-3396_Confluence.svg) ![forks](https://img.shields.io/github/forks/46o60/CVE-2019-3396_Confluence.svg)
+
+- [https://github.com/JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST) :  ![starts](https://img.shields.io/github/stars/JonathanZhou348/CVE-2019-3396TEST.svg) ![forks](https://img.shields.io/github/forks/JonathanZhou348/CVE-2019-3396TEST.svg)
 
 - [https://github.com/xiaoshuier/CVE-2019-3396](https://github.com/xiaoshuier/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/xiaoshuier/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/xiaoshuier/CVE-2019-3396.svg)
 
@@ -18016,13 +18014,13 @@
 
 - [https://github.com/raystyle/CVE-2019-2215](https://github.com/raystyle/CVE-2019-2215) :  ![starts](https://img.shields.io/github/stars/raystyle/CVE-2019-2215.svg) ![forks](https://img.shields.io/github/forks/raystyle/CVE-2019-2215.svg)
 
+- [https://github.com/nicchongwb/Rootsmart-v2.0](https://github.com/nicchongwb/Rootsmart-v2.0) :  ![starts](https://img.shields.io/github/stars/nicchongwb/Rootsmart-v2.0.svg) ![forks](https://img.shields.io/github/forks/nicchongwb/Rootsmart-v2.0.svg)
+
 - [https://github.com/Karma2424/cve2019-2215-3.18](https://github.com/Karma2424/cve2019-2215-3.18) :  ![starts](https://img.shields.io/github/stars/Karma2424/cve2019-2215-3.18.svg) ![forks](https://img.shields.io/github/forks/Karma2424/cve2019-2215-3.18.svg)
 
 - [https://github.com/mufidmb38/CVE-2019-2215](https://github.com/mufidmb38/CVE-2019-2215) :  ![starts](https://img.shields.io/github/stars/mufidmb38/CVE-2019-2215.svg) ![forks](https://img.shields.io/github/forks/mufidmb38/CVE-2019-2215.svg)
 
 - [https://github.com/Byte-Master-101/CVE-2019-2215](https://github.com/Byte-Master-101/CVE-2019-2215) :  ![starts](https://img.shields.io/github/stars/Byte-Master-101/CVE-2019-2215.svg) ![forks](https://img.shields.io/github/forks/Byte-Master-101/CVE-2019-2215.svg)
-
-- [https://github.com/nicchongwb/Rootsmart-v2.0](https://github.com/nicchongwb/Rootsmart-v2.0) :  ![starts](https://img.shields.io/github/stars/nicchongwb/Rootsmart-v2.0.svg) ![forks](https://img.shields.io/github/forks/nicchongwb/Rootsmart-v2.0.svg)
 
 ## CVE-2019-2205
  In ProxyResolverV8::SetPacScript of proxy_resolver_v8.cc, there is a possible memory corruption due to a use after free. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-139806216
@@ -18494,9 +18492,9 @@
 
 - [https://github.com/mekhalleh/cve-2019-0708](https://github.com/mekhalleh/cve-2019-0708) :  ![starts](https://img.shields.io/github/stars/mekhalleh/cve-2019-0708.svg) ![forks](https://img.shields.io/github/forks/mekhalleh/cve-2019-0708.svg)
 
-- [https://github.com/blacksunwen/CVE-2019-0708](https://github.com/blacksunwen/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/blacksunwen/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/blacksunwen/CVE-2019-0708.svg)
-
 - [https://github.com/Tengrom/Python_nmap](https://github.com/Tengrom/Python_nmap) :  ![starts](https://img.shields.io/github/stars/Tengrom/Python_nmap.svg) ![forks](https://img.shields.io/github/forks/Tengrom/Python_nmap.svg)
+
+- [https://github.com/blacksunwen/CVE-2019-0708](https://github.com/blacksunwen/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/blacksunwen/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/blacksunwen/CVE-2019-0708.svg)
 
 - [https://github.com/jiansiting/CVE-2019-0708](https://github.com/jiansiting/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/jiansiting/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/jiansiting/CVE-2019-0708.svg)
 
@@ -18527,6 +18525,8 @@
 - [https://github.com/n0auth/CVE-2019-0708](https://github.com/n0auth/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/n0auth/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/n0auth/CVE-2019-0708.svg)
 
 - [https://github.com/matengfei000/CVE-2019-0708](https://github.com/matengfei000/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/matengfei000/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/matengfei000/CVE-2019-0708.svg)
+
+- [https://github.com/RICSecLab/CVE-2019-0708](https://github.com/RICSecLab/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/RICSecLab/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/RICSecLab/CVE-2019-0708.svg)
 
 - [https://github.com/Haruster/Haruster-CVE-2019-0708-Exploit](https://github.com/Haruster/Haruster-CVE-2019-0708-Exploit) :  ![starts](https://img.shields.io/github/stars/Haruster/Haruster-CVE-2019-0708-Exploit.svg) ![forks](https://img.shields.io/github/forks/Haruster/Haruster-CVE-2019-0708-Exploit.svg)
 
@@ -18628,9 +18628,9 @@
 
 - [https://github.com/distance-vector/CVE-2019-0708](https://github.com/distance-vector/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/distance-vector/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/distance-vector/CVE-2019-0708.svg)
 
-- [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
-
 - [https://github.com/1aa87148377/CVE-2019-0708](https://github.com/1aa87148377/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/1aa87148377/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/1aa87148377/CVE-2019-0708.svg)
+
+- [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
 
 - [https://github.com/wdfcc/CVE-2019-0708](https://github.com/wdfcc/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/wdfcc/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/wdfcc/CVE-2019-0708.svg)
 
@@ -18641,8 +18641,6 @@
 - [https://github.com/hawk-520/CVE-2019-0708](https://github.com/hawk-520/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/hawk-520/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/hawk-520/CVE-2019-0708.svg)
 
 - [https://github.com/0x6b7966/CVE-2019-0708-RCE](https://github.com/0x6b7966/CVE-2019-0708-RCE) :  ![starts](https://img.shields.io/github/stars/0x6b7966/CVE-2019-0708-RCE.svg) ![forks](https://img.shields.io/github/forks/0x6b7966/CVE-2019-0708-RCE.svg)
-
-- [https://github.com/zecopro/bluekeep](https://github.com/zecopro/bluekeep) :  ![starts](https://img.shields.io/github/stars/zecopro/bluekeep.svg) ![forks](https://img.shields.io/github/forks/zecopro/bluekeep.svg)
 
 ## CVE-2019-0678
  An elevation of privilege vulnerability exists when Microsoft Edge does not properly enforce cross-domain policies, which could allow an attacker to access information from one domain and inject it into another domain.In a web-based attack scenario, an attacker could host a website that is used to attempt to exploit the vulnerability, aka 'Microsoft Edge Elevation of Privilege Vulnerability'.
