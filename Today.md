@@ -1,102 +1,58 @@
-# Update 2022-03-26
-## CVE-2022-25636
- net/netfilter/nf_dup_netdev.c in the Linux kernel 5.4 through 5.6.10 allows local users to gain privileges because of a heap out-of-bounds write. This is related to nf_tables_offload.
+# Update 2022-03-27
+## CVE-2022-26629
+ An Access Control vulnerability exists in SoroushPlus+ Messenger 1.0.30 in the Lock Screen Security Feature function due to insufficient permissions and privileges, which allows a malicious attacker bypass the lock screen function.
 
-- [https://github.com/chenaotian/CVE-2022-25636](https://github.com/chenaotian/CVE-2022-25636) :  ![starts](https://img.shields.io/github/stars/chenaotian/CVE-2022-25636.svg) ![forks](https://img.shields.io/github/forks/chenaotian/CVE-2022-25636.svg)
+- [https://github.com/sysenter-eip/CVE-2022-26629](https://github.com/sysenter-eip/CVE-2022-26629) :  ![starts](https://img.shields.io/github/stars/sysenter-eip/CVE-2022-26629.svg) ![forks](https://img.shields.io/github/forks/sysenter-eip/CVE-2022-26629.svg)
+
+
+## CVE-2022-24934
+ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code execution by modifying HKEY_CURRENT_USER in the registry.
+
+- [https://github.com/shakeman8/CVE-2022-24934](https://github.com/shakeman8/CVE-2022-24934) :  ![starts](https://img.shields.io/github/stars/shakeman8/CVE-2022-24934.svg) ![forks](https://img.shields.io/github/forks/shakeman8/CVE-2022-24934.svg)
+
+
+## CVE-2022-23648
+ containerd is a container runtime available as a daemon for Linux and Windows. A bug was found in containerd prior to versions 1.6.1, 1.5.10, and 1.14.12 where containers launched through containerd&#8217;s CRI implementation on Linux with a specially-crafted image configuration could gain access to read-only copies of arbitrary files and directories on the host. This may bypass any policy-based enforcement on container setup (including a Kubernetes Pod Security Policy) and expose potentially sensitive information. Kubernetes and crictl can both be configured to use containerd&#8217;s CRI implementation. This bug has been fixed in containerd 1.6.1, 1.5.10, and 1.4.12. Users should update to these versions to resolve the issue.
+
+- [https://github.com/raesene/CVE-2022-23648-POC](https://github.com/raesene/CVE-2022-23648-POC) :  ![starts](https://img.shields.io/github/stars/raesene/CVE-2022-23648-POC.svg) ![forks](https://img.shields.io/github/forks/raesene/CVE-2022-23648-POC.svg)
 
 
 ## CVE-2022-22947
  In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enabled, exposed and unsecured. A remote attacker could make a maliciously crafted request that could allow arbitrary remote execution on the remote host.
 
-- [https://github.com/Enokiy/cve-2022-22947-spring-cloud-gateway](https://github.com/Enokiy/cve-2022-22947-spring-cloud-gateway) :  ![starts](https://img.shields.io/github/stars/Enokiy/cve-2022-22947-spring-cloud-gateway.svg) ![forks](https://img.shields.io/github/forks/Enokiy/cve-2022-22947-spring-cloud-gateway.svg)
+- [https://github.com/crowsec-edtech/CVE-2022-22947](https://github.com/crowsec-edtech/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/crowsec-edtech/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/crowsec-edtech/CVE-2022-22947.svg)
+- [https://github.com/Nathaniel1025/CVE-2022-22947](https://github.com/Nathaniel1025/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/Nathaniel1025/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/Nathaniel1025/CVE-2022-22947.svg)
 
 
-## CVE-2022-0185
- A heap-based buffer overflow flaw was found in the way the legacy_parse_param function in the Filesystem Context functionality of the Linux kernel verified the supplied parameters length. An unprivileged (in case of unprivileged user namespaces enabled, otherwise needs namespaced CAP_SYS_ADMIN privilege) local user able to open a filesystem that does not support the Filesystem Context API (and thus fallbacks to legacy handling) could use this flaw to escalate their privileges on the system.
+## CVE-2022-0847
+ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
 
-- [https://github.com/chenaotian/CVE-2022-25636](https://github.com/chenaotian/CVE-2022-25636) :  ![starts](https://img.shields.io/github/stars/chenaotian/CVE-2022-25636.svg) ![forks](https://img.shields.io/github/forks/chenaotian/CVE-2022-25636.svg)
-
-
-## CVE-2021-42671
- An incorrect access control vulnerability exists in Sourcecodester Engineers Online Portal in PHP in nia_munoz_monitoring_system/admin/uploads. An attacker can leverage this vulnerability in order to bypass access controls and access all the files uploaded to the web server without the need of authentication or authorization.
-
-- [https://github.com/0xDeku/CVE-2021-42671](https://github.com/0xDeku/CVE-2021-42671) :  ![starts](https://img.shields.io/github/stars/0xDeku/CVE-2021-42671.svg) ![forks](https://img.shields.io/github/forks/0xDeku/CVE-2021-42671.svg)
+- [https://github.com/DataDog/dirtypipe-container-breakout-poc](https://github.com/DataDog/dirtypipe-container-breakout-poc) :  ![starts](https://img.shields.io/github/stars/DataDog/dirtypipe-container-breakout-poc.svg) ![forks](https://img.shields.io/github/forks/DataDog/dirtypipe-container-breakout-poc.svg)
+- [https://github.com/crowsec-edtech/Dirty-Pipe](https://github.com/crowsec-edtech/Dirty-Pipe) :  ![starts](https://img.shields.io/github/stars/crowsec-edtech/Dirty-Pipe.svg) ![forks](https://img.shields.io/github/forks/crowsec-edtech/Dirty-Pipe.svg)
+- [https://github.com/Patocoh/Research-Dirty-Pipe](https://github.com/Patocoh/Research-Dirty-Pipe) :  ![starts](https://img.shields.io/github/stars/Patocoh/Research-Dirty-Pipe.svg) ![forks](https://img.shields.io/github/forks/Patocoh/Research-Dirty-Pipe.svg)
+- [https://github.com/tmoneypenny/CVE-2022-0847](https://github.com/tmoneypenny/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/tmoneypenny/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/tmoneypenny/CVE-2022-0847.svg)
 
 
-## CVE-2021-42670
- A SQL injection vulnerability exists in Sourcecodester Engineers Online Portal in PHP via the id parameter to the announcements_student.php web page. As a result a malicious user can extract sensitive data from the web server and in some cases use this vulnerability in order to get a remote code execution on the remote web server.
+## CVE-2021-40444
+ Microsoft MSHTML Remote Code Execution Vulnerability
 
-- [https://github.com/0xDeku/CVE-2021-42670](https://github.com/0xDeku/CVE-2021-42670) :  ![starts](https://img.shields.io/github/stars/0xDeku/CVE-2021-42670.svg) ![forks](https://img.shields.io/github/forks/0xDeku/CVE-2021-42670.svg)
-
-
-## CVE-2021-42669
- A file upload vulnerability exists in Sourcecodester Engineers Online Portal in PHP via dashboard_teacher.php, which allows changing the avatar through teacher_avatar.php. Once an avatar gets uploaded it is getting uploaded to the /admin/uploads/ directory, and is accessible by all users. By uploading a php webshell containing &quot;&lt;?php system($_GET[&quot;cmd&quot;]); ?&gt;&quot; the attacker can execute commands on the web server with - /admin/uploads/php-webshell?cmd=id.
-
-- [https://github.com/0xDeku/CVE-2021-42669](https://github.com/0xDeku/CVE-2021-42669) :  ![starts](https://img.shields.io/github/stars/0xDeku/CVE-2021-42669.svg) ![forks](https://img.shields.io/github/forks/0xDeku/CVE-2021-42669.svg)
+- [https://github.com/awsassets/CVE-2021-40444-evtx](https://github.com/awsassets/CVE-2021-40444-evtx) :  ![starts](https://img.shields.io/github/stars/awsassets/CVE-2021-40444-evtx.svg) ![forks](https://img.shields.io/github/forks/awsassets/CVE-2021-40444-evtx.svg)
 
 
-## CVE-2021-42668
- A SQL Injection vulnerability exists in Sourcecodester Engineers Online Portal in PHP via the id parameter in the my_classmates.php web page.. As a result, an attacker can extract sensitive data from the web server and in some cases can use this vulnerability in order to get a remote code execution on the remote web server.
+## CVE-2021-36934
+ Windows Elevation of Privilege Vulnerability
 
-- [https://github.com/0xDeku/CVE-2021-42668](https://github.com/0xDeku/CVE-2021-42668) :  ![starts](https://img.shields.io/github/stars/0xDeku/CVE-2021-42668.svg) ![forks](https://img.shields.io/github/forks/0xDeku/CVE-2021-42668.svg)
-
-
-## CVE-2021-42667
- A SQL Injection vulnerability exists in Sourcecodester Online Event Booking and Reservation System in PHP in event-management/views. An attacker can leverage this vulnerability in order to manipulate the sql query performed. As a result he can extract sensitive data from the web server and in some cases he can use this vulnerability in order to get a remote code execution on the remote web server.
-
-- [https://github.com/0xDeku/CVE-2021-42667](https://github.com/0xDeku/CVE-2021-42667) :  ![starts](https://img.shields.io/github/stars/0xDeku/CVE-2021-42667.svg) ![forks](https://img.shields.io/github/forks/0xDeku/CVE-2021-42667.svg)
+- [https://github.com/bytesizedalex/CVE-2021-36934](https://github.com/bytesizedalex/CVE-2021-36934) :  ![starts](https://img.shields.io/github/stars/bytesizedalex/CVE-2021-36934.svg) ![forks](https://img.shields.io/github/forks/bytesizedalex/CVE-2021-36934.svg)
 
 
-## CVE-2021-42666
- A SQL Injection vulnerability exists in Sourcecodester Engineers Online Portal in PHP via the id parameter to quiz_question.php, which could let a malicious user extract sensitive data from the web server and in some cases use this vulnerability in order to get a remote code execution on the remote web server.
+## CVE-2021-26084
+ In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
 
-- [https://github.com/0xDeku/CVE-2021-42666](https://github.com/0xDeku/CVE-2021-42666) :  ![starts](https://img.shields.io/github/stars/0xDeku/CVE-2021-42666.svg) ![forks](https://img.shields.io/github/forks/0xDeku/CVE-2021-42666.svg)
-
-
-## CVE-2021-42665
- An SQL Injection vulnerability exists in Sourcecodester Engineers Online Portal in PHP via the login form inside of index.php, which can allow an attacker to bypass authentication.
-
-- [https://github.com/0xDeku/CVE-2021-42665](https://github.com/0xDeku/CVE-2021-42665) :  ![starts](https://img.shields.io/github/stars/0xDeku/CVE-2021-42665.svg) ![forks](https://img.shields.io/github/forks/0xDeku/CVE-2021-42665.svg)
+- [https://github.com/crowsec-edtech/CVE-2021-26084](https://github.com/crowsec-edtech/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/crowsec-edtech/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/crowsec-edtech/CVE-2021-26084.svg)
 
 
-## CVE-2021-42664
- A Stored Cross Site Scripting (XSS) Vulneraibiilty exists in Sourcecodester Engineers Online Portal in PHP via the (1) Quiz title and (2) quiz description parameters to add_quiz.php. An attacker can leverage this vulnerability in order to run javascript commands on the web server surfers behalf, which can lead to cookie stealing and more.
+## CVE-2021-4034
+ A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
 
-- [https://github.com/0xDeku/CVE-2021-42664](https://github.com/0xDeku/CVE-2021-42664) :  ![starts](https://img.shields.io/github/stars/0xDeku/CVE-2021-42664.svg) ![forks](https://img.shields.io/github/forks/0xDeku/CVE-2021-42664.svg)
-
-
-## CVE-2021-42663
- An HTML injection vulnerability exists in Sourcecodester Online Event Booking and Reservation System in PHP/MySQL via the msg parameter to /event-management/index.php. An attacker can leverage this vulnerability in order to change the visibility of the website. Once the target user clicks on a given link he will display the content of the HTML code of the attacker's choice.
-
-- [https://github.com/0xDeku/CVE-2021-42663](https://github.com/0xDeku/CVE-2021-42663) :  ![starts](https://img.shields.io/github/stars/0xDeku/CVE-2021-42663.svg) ![forks](https://img.shields.io/github/forks/0xDeku/CVE-2021-42663.svg)
-
-
-## CVE-2021-42662
- A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Online Event Booking and Reservation System in PHP/MySQL via the Holiday reason parameter. An attacker can leverage this vulnerability in order to run javascript commands on the web server surfers behalf, which can lead to cookie stealing and more.
-
-- [https://github.com/0xDeku/CVE-2021-42662](https://github.com/0xDeku/CVE-2021-42662) :  ![starts](https://img.shields.io/github/stars/0xDeku/CVE-2021-42662.svg) ![forks](https://img.shields.io/github/forks/0xDeku/CVE-2021-42662.svg)
-
-
-## CVE-2021-21300
- Git is an open-source distributed revision control system. In affected versions of Git a specially crafted repository that contains symbolic links as well as files using a clean/smudge filter such as Git LFS, may cause just-checked out script to be executed while cloning onto a case-insensitive file system such as NTFS, HFS+ or APFS (i.e. the default file systems on Windows and macOS). Note that clean/smudge filters have to be configured for that. Git for Windows configures Git LFS by default, and is therefore vulnerable. The problem has been patched in the versions published on Tuesday, March 9th, 2021. As a workaound, if symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. Likewise, if no clean/smudge filters such as Git LFS are configured globally (i.e. _before_ cloning), the attack is foiled. As always, it is best to avoid cloning repositories from untrusted sources. The earliest impacted version is 2.14.2. The fix versions are: 2.30.1, 2.29.3, 2.28.1, 2.27.1, 2.26.3, 2.25.5, 2.24.4, 2.23.4, 2.22.5, 2.21.4, 2.20.5, 2.19.6, 2.18.5, 2.17.62.17.6.
-
-- [https://github.com/Jiang59991/cve-2021-21300-plus](https://github.com/Jiang59991/cve-2021-21300-plus) :  ![starts](https://img.shields.io/github/stars/Jiang59991/cve-2021-21300-plus.svg) ![forks](https://img.shields.io/github/forks/Jiang59991/cve-2021-21300-plus.svg)
-
-
-## CVE-2018-20250
- In WinRAR versions prior to and including 5.61, There is path traversal vulnerability when crafting the filename field of the ACE format (in UNACEV2.dll). When the filename field is manipulated with specific patterns, the destination (extraction) folder is ignored, thus treating the filename as an absolute path.
-
-- [https://github.com/tzwlhack/CVE-2018-20250](https://github.com/tzwlhack/CVE-2018-20250) :  ![starts](https://img.shields.io/github/stars/tzwlhack/CVE-2018-20250.svg) ![forks](https://img.shields.io/github/forks/tzwlhack/CVE-2018-20250.svg)
-
-
-## CVE-2018-12326
- Buffer overflow in redis-cli of Redis before 4.0.10 and 5.x before 5.0 RC3 allows an attacker to achieve code execution and escalate to higher privileges via a crafted command line. NOTE: It is unclear whether there are any common situations in which redis-cli is used with, for example, a -h (aka hostname) argument from an untrusted source.
-
-- [https://github.com/spasm5/CVE-2018-12326](https://github.com/spasm5/CVE-2018-12326) :  ![starts](https://img.shields.io/github/stars/spasm5/CVE-2018-12326.svg) ![forks](https://img.shields.io/github/forks/spasm5/CVE-2018-12326.svg)
-
-
-## CVE-2017-3248
- Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.0 and 12.2.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS v3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).
-
-- [https://github.com/0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner) :  ![starts](https://img.shields.io/github/stars/0xn0ne/weblogicScanner.svg) ![forks](https://img.shields.io/github/forks/0xn0ne/weblogicScanner.svg)
+- [https://github.com/edsonjt81/CVE-2021-4034-Linux](https://github.com/edsonjt81/CVE-2021-4034-Linux) :  ![starts](https://img.shields.io/github/stars/edsonjt81/CVE-2021-4034-Linux.svg) ![forks](https://img.shields.io/github/forks/edsonjt81/CVE-2021-4034-Linux.svg)
 
