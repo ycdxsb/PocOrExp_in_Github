@@ -28128,9 +28128,9 @@
 
 - [https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit](https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit) :  ![starts](https://img.shields.io/github/stars/DanielCodex/CVE-2016-2098-my-first-exploit.svg) ![forks](https://img.shields.io/github/forks/DanielCodex/CVE-2016-2098-my-first-exploit.svg)
 
-- [https://github.com/3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/3rg1s/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/3rg1s/CVE-2016-2098.svg)
-
 - [https://github.com/Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Debalinax64/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Debalinax64/CVE-2016-2098.svg)
+
+- [https://github.com/3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/3rg1s/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/3rg1s/CVE-2016-2098.svg)
 
 ## CVE-2016-2067
  drivers/gpu/msm/kgsl.c in the MSM graphics driver (aka GPU driver) for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, mishandles the KGSL_MEMFLAGS_GPUREADONLY flag, which allows attackers to gain privileges by leveraging accidental read-write mappings, aka Qualcomm internal bug CR988993.
