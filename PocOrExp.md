@@ -29080,8 +29080,6 @@
 
 - [https://github.com/jvazquez-r7/CVE-2015-5119](https://github.com/jvazquez-r7/CVE-2015-5119) :  ![starts](https://img.shields.io/github/stars/jvazquez-r7/CVE-2015-5119.svg) ![forks](https://img.shields.io/github/forks/jvazquez-r7/CVE-2015-5119.svg)
 
-- [https://github.com/dangokyo/CVE-2015-5119](https://github.com/dangokyo/CVE-2015-5119) :  ![starts](https://img.shields.io/github/stars/dangokyo/CVE-2015-5119.svg) ![forks](https://img.shields.io/github/forks/dangokyo/CVE-2015-5119.svg)
-
 - [https://github.com/Xattam1/Adobe-Flash-Exploits_17-18](https://github.com/Xattam1/Adobe-Flash-Exploits_17-18) :  ![starts](https://img.shields.io/github/stars/Xattam1/Adobe-Flash-Exploits_17-18.svg) ![forks](https://img.shields.io/github/forks/Xattam1/Adobe-Flash-Exploits_17-18.svg)
 
 ## CVE-2015-4870
