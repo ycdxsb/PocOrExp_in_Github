@@ -28242,6 +28242,13 @@
 
 - [https://github.com/KosukeShimofuji/CVE-2016-2776](https://github.com/KosukeShimofuji/CVE-2016-2776) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-2776.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-2776.svg)
 
+## CVE-2016-2569
+ Squid 3.x before 3.5.15 and 4.x before 4.0.7 does not properly append data to String objects, which allows remote servers to cause a denial of service (assertion failure and daemon exit) via a long string, as demonstrated by a crafted HTTP Vary header.
+
+
+
+- [https://github.com/amit-raut/CVE-2016-2569](https://github.com/amit-raut/CVE-2016-2569) :  ![starts](https://img.shields.io/github/stars/amit-raut/CVE-2016-2569.svg) ![forks](https://img.shields.io/github/forks/amit-raut/CVE-2016-2569.svg)
+
 ## CVE-2016-2563
  Stack-based buffer overflow in the SCP command-line utility in PuTTY before 0.67 and KiTTY 0.66.6.3 and earlier allows remote servers to cause a denial of service (stack memory corruption) or execute arbitrary code via a crafted SCP-SINK file-size response to an SCP download request.
 
