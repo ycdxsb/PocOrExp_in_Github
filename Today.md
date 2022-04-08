@@ -1,84 +1,133 @@
-# Update 2022-04-07
-## CVE-2022-25636
- net/netfilter/nf_dup_netdev.c in the Linux kernel 5.4 through 5.6.10 allows local users to gain privileges because of a heap out-of-bounds write. This is related to nf_tables_offload.
+# Update 2022-04-08
+## CVE-2022-28113
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/veritas501/CVE-2022-25636-PipeVersion](https://github.com/veritas501/CVE-2022-25636-PipeVersion) :  ![starts](https://img.shields.io/github/stars/veritas501/CVE-2022-25636-PipeVersion.svg) ![forks](https://img.shields.io/github/forks/veritas501/CVE-2022-25636-PipeVersion.svg)
+- [https://github.com/code-byter/CVE-2022-28113](https://github.com/code-byter/CVE-2022-28113) :  ![starts](https://img.shields.io/github/stars/code-byter/CVE-2022-28113.svg) ![forks](https://img.shields.io/github/forks/code-byter/CVE-2022-28113.svg)
+
+
+## CVE-2022-26631
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/Cyb3rR3ap3r/CVE-2022-26631](https://github.com/Cyb3rR3ap3r/CVE-2022-26631) :  ![starts](https://img.shields.io/github/stars/Cyb3rR3ap3r/CVE-2022-26631.svg) ![forks](https://img.shields.io/github/forks/Cyb3rR3ap3r/CVE-2022-26631.svg)
+
+
+## CVE-2022-23909
+ There is an unquoted service path in Sherpa Connector Service (SherpaConnectorService.exe) 2020.2.20328.2050. This might allow a local user to escalate privileges by creating a &quot;C:\Program Files\Sherpa Software\Sherpa.exe&quot; file.
+
+- [https://github.com/netsectuna/CVE-2022-23909](https://github.com/netsectuna/CVE-2022-23909) :  ![starts](https://img.shields.io/github/stars/netsectuna/CVE-2022-23909.svg) ![forks](https://img.shields.io/github/forks/netsectuna/CVE-2022-23909.svg)
 
 
 ## CVE-2022-22965
  A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.
 
-- [https://github.com/luoqianlin/CVE-2022-22965](https://github.com/luoqianlin/CVE-2022-22965) :  ![starts](https://img.shields.io/github/stars/luoqianlin/CVE-2022-22965.svg) ![forks](https://img.shields.io/github/forks/luoqianlin/CVE-2022-22965.svg)
-- [https://github.com/xnderLAN/CVE-2022-22965](https://github.com/xnderLAN/CVE-2022-22965) :  ![starts](https://img.shields.io/github/stars/xnderLAN/CVE-2022-22965.svg) ![forks](https://img.shields.io/github/forks/xnderLAN/CVE-2022-22965.svg)
-- [https://github.com/robiul-awal/CVE-2022-22965](https://github.com/robiul-awal/CVE-2022-22965) :  ![starts](https://img.shields.io/github/stars/robiul-awal/CVE-2022-22965.svg) ![forks](https://img.shields.io/github/forks/robiul-awal/CVE-2022-22965.svg)
-- [https://github.com/LudovicPatho/CVE-2022-22965_Spring4Shell](https://github.com/LudovicPatho/CVE-2022-22965_Spring4Shell) :  ![starts](https://img.shields.io/github/stars/LudovicPatho/CVE-2022-22965_Spring4Shell.svg) ![forks](https://img.shields.io/github/forks/LudovicPatho/CVE-2022-22965_Spring4Shell.svg)
-- [https://github.com/datawiza-inc/spring-rec-demo](https://github.com/datawiza-inc/spring-rec-demo) :  ![starts](https://img.shields.io/github/stars/datawiza-inc/spring-rec-demo.svg) ![forks](https://img.shields.io/github/forks/datawiza-inc/spring-rec-demo.svg)
-- [https://github.com/Snip3R69/spring-shell-vuln](https://github.com/Snip3R69/spring-shell-vuln) :  ![starts](https://img.shields.io/github/stars/Snip3R69/spring-shell-vuln.svg) ![forks](https://img.shields.io/github/forks/Snip3R69/spring-shell-vuln.svg)
-
-
-## CVE-2022-22963
- In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources.
-
-- [https://github.com/SealPaPaPa/SpringCloudFunction-Research](https://github.com/SealPaPaPa/SpringCloudFunction-Research) :  ![starts](https://img.shields.io/github/stars/SealPaPaPa/SpringCloudFunction-Research.svg) ![forks](https://img.shields.io/github/forks/SealPaPaPa/SpringCloudFunction-Research.svg)
+- [https://github.com/liangyueliangyue/spring-core-rce](https://github.com/liangyueliangyue/spring-core-rce) :  ![starts](https://img.shields.io/github/stars/liangyueliangyue/spring-core-rce.svg) ![forks](https://img.shields.io/github/forks/liangyueliangyue/spring-core-rce.svg)
+- [https://github.com/wikiZ/springboot_CVE-2022-22965](https://github.com/wikiZ/springboot_CVE-2022-22965) :  ![starts](https://img.shields.io/github/stars/wikiZ/springboot_CVE-2022-22965.svg) ![forks](https://img.shields.io/github/forks/wikiZ/springboot_CVE-2022-22965.svg)
+- [https://github.com/alt3kx/CVE-2022-22965](https://github.com/alt3kx/CVE-2022-22965) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2022-22965.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2022-22965.svg)
+- [https://github.com/irgoncalves/irule-cve-2022-22965](https://github.com/irgoncalves/irule-cve-2022-22965) :  ![starts](https://img.shields.io/github/stars/irgoncalves/irule-cve-2022-22965.svg) ![forks](https://img.shields.io/github/forks/irgoncalves/irule-cve-2022-22965.svg)
+- [https://github.com/4nth0ny1130/spring4shell_behinder](https://github.com/4nth0ny1130/spring4shell_behinder) :  ![starts](https://img.shields.io/github/stars/4nth0ny1130/spring4shell_behinder.svg) ![forks](https://img.shields.io/github/forks/4nth0ny1130/spring4shell_behinder.svg)
 
 
 ## CVE-2022-22947
  In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enabled, exposed and unsecured. A remote attacker could make a maliciously crafted request that could allow arbitrary remote execution on the remote host.
 
-- [https://github.com/aesm1p/CVE-2022-22947-POC-Reproduce](https://github.com/aesm1p/CVE-2022-22947-POC-Reproduce) :  ![starts](https://img.shields.io/github/stars/aesm1p/CVE-2022-22947-POC-Reproduce.svg) ![forks](https://img.shields.io/github/forks/aesm1p/CVE-2022-22947-POC-Reproduce.svg)
+- [https://github.com/Ha0Liu/CVE-2022-22947](https://github.com/Ha0Liu/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/Ha0Liu/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/Ha0Liu/CVE-2022-22947.svg)
 
 
-## CVE-2022-21882
- Win32k Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21887.
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
-
-
-## CVE-2022-0847
- A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
-
-- [https://github.com/LudovicPatho/CVE-2022-0847_dirty-pipe](https://github.com/LudovicPatho/CVE-2022-0847_dirty-pipe) :  ![starts](https://img.shields.io/github/stars/LudovicPatho/CVE-2022-0847_dirty-pipe.svg) ![forks](https://img.shields.io/github/forks/LudovicPatho/CVE-2022-0847_dirty-pipe.svg)
-- [https://github.com/mhanief/dirtypipe](https://github.com/mhanief/dirtypipe) :  ![starts](https://img.shields.io/github/stars/mhanief/dirtypipe.svg) ![forks](https://img.shields.io/github/forks/mhanief/dirtypipe.svg)
+- [https://github.com/vuongnv3389-sec/cve-2021-41773](https://github.com/vuongnv3389-sec/cve-2021-41773) :  ![starts](https://img.shields.io/github/stars/vuongnv3389-sec/cve-2021-41773.svg) ![forks](https://img.shields.io/github/forks/vuongnv3389-sec/cve-2021-41773.svg)
 
 
-## CVE-2022-0185
- A heap-based buffer overflow flaw was found in the way the legacy_parse_param function in the Filesystem Context functionality of the Linux kernel verified the supplied parameters length. An unprivileged (in case of unprivileged user namespaces enabled, otherwise needs namespaced CAP_SYS_ADMIN privilege) local user able to open a filesystem that does not support the Filesystem Context API (and thus fallbacks to legacy handling) could use this flaw to escalate their privileges on the system.
+## CVE-2021-32162
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/veritas501/CVE-2022-0185-PipeVersion](https://github.com/veritas501/CVE-2022-0185-PipeVersion) :  ![starts](https://img.shields.io/github/stars/veritas501/CVE-2022-0185-PipeVersion.svg) ![forks](https://img.shields.io/github/forks/veritas501/CVE-2022-0185-PipeVersion.svg)
-
-
-## CVE-2021-38647
- Open Management Infrastructure Remote Code Execution Vulnerability
-
-- [https://github.com/goofsec/omigod](https://github.com/goofsec/omigod) :  ![starts](https://img.shields.io/github/stars/goofsec/omigod.svg) ![forks](https://img.shields.io/github/forks/goofsec/omigod.svg)
+- [https://github.com/Mesh3l911/CVE-2021-32162](https://github.com/Mesh3l911/CVE-2021-32162) :  ![starts](https://img.shields.io/github/stars/Mesh3l911/CVE-2021-32162.svg) ![forks](https://img.shields.io/github/forks/Mesh3l911/CVE-2021-32162.svg)
 
 
-## CVE-2021-22555
- A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in net/netfilter/x_tables.c. This allows an attacker to gain privileges or cause a DoS (via heap memory corruption) through user name space
+## CVE-2021-32161
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/veritas501/CVE-2021-22555-PipeVersion](https://github.com/veritas501/CVE-2021-22555-PipeVersion) :  ![starts](https://img.shields.io/github/stars/veritas501/CVE-2021-22555-PipeVersion.svg) ![forks](https://img.shields.io/github/forks/veritas501/CVE-2021-22555-PipeVersion.svg)
-
-
-## CVE-2019-1653
- A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.
-
-- [https://github.com/helGayhub233/CVE-2019-1653](https://github.com/helGayhub233/CVE-2019-1653) :  ![starts](https://img.shields.io/github/stars/helGayhub233/CVE-2019-1653.svg) ![forks](https://img.shields.io/github/forks/helGayhub233/CVE-2019-1653.svg)
+- [https://github.com/Mesh3l911/CVE-2021-32161](https://github.com/Mesh3l911/CVE-2021-32161) :  ![starts](https://img.shields.io/github/stars/Mesh3l911/CVE-2021-32161.svg) ![forks](https://img.shields.io/github/forks/Mesh3l911/CVE-2021-32161.svg)
 
 
-## CVE-2016-2569
- Squid 3.x before 3.5.15 and 4.x before 4.0.7 does not properly append data to String objects, which allows remote servers to cause a denial of service (assertion failure and daemon exit) via a long string, as demonstrated by a crafted HTTP Vary header.
+## CVE-2021-32160
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/amit-raut/CVE-2016-2569](https://github.com/amit-raut/CVE-2016-2569) :  ![starts](https://img.shields.io/github/stars/amit-raut/CVE-2016-2569.svg) ![forks](https://img.shields.io/github/forks/amit-raut/CVE-2016-2569.svg)
-
-
-## CVE-2010-2078
- DataTrack System 3.5 allows remote attackers to list the root directory via a (1) /%u0085/ or (2) /%u00A0/ URI.
-
-- [https://github.com/0bfxgh0st-secondary/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit](https://github.com/0bfxgh0st-secondary/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit) :  ![starts](https://img.shields.io/github/stars/0bfxgh0st-secondary/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit.svg) ![forks](https://img.shields.io/github/forks/0bfxgh0st-secondary/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit.svg)
+- [https://github.com/Mesh3l911/CVE-2021-32160](https://github.com/Mesh3l911/CVE-2021-32160) :  ![starts](https://img.shields.io/github/stars/Mesh3l911/CVE-2021-32160.svg) ![forks](https://img.shields.io/github/forks/Mesh3l911/CVE-2021-32160.svg)
 
 
-## CVE-2010-2075
- UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 through June 2010, contains an externally introduced modification (Trojan Horse) in the DEBUG3_DOLOG_SYSTEM macro, which allows remote attackers to execute arbitrary commands.
+## CVE-2021-32159
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/0bfxgh0st-secondary/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit](https://github.com/0bfxgh0st-secondary/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit) :  ![starts](https://img.shields.io/github/stars/0bfxgh0st-secondary/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit.svg) ![forks](https://img.shields.io/github/forks/0bfxgh0st-secondary/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit.svg)
+- [https://github.com/Mesh3l911/CVE-2021-32159](https://github.com/Mesh3l911/CVE-2021-32159) :  ![starts](https://img.shields.io/github/stars/Mesh3l911/CVE-2021-32159.svg) ![forks](https://img.shields.io/github/forks/Mesh3l911/CVE-2021-32159.svg)
+
+
+## CVE-2021-32158
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/Mesh3l911/CVE-2021-32158](https://github.com/Mesh3l911/CVE-2021-32158) :  ![starts](https://img.shields.io/github/stars/Mesh3l911/CVE-2021-32158.svg) ![forks](https://img.shields.io/github/forks/Mesh3l911/CVE-2021-32158.svg)
+
+
+## CVE-2021-32157
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/Mesh3l911/CVE-2021-32157](https://github.com/Mesh3l911/CVE-2021-32157) :  ![starts](https://img.shields.io/github/stars/Mesh3l911/CVE-2021-32157.svg) ![forks](https://img.shields.io/github/forks/Mesh3l911/CVE-2021-32157.svg)
+
+
+## CVE-2021-32156
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/Mesh3l911/CVE-2021-32156](https://github.com/Mesh3l911/CVE-2021-32156) :  ![starts](https://img.shields.io/github/stars/Mesh3l911/CVE-2021-32156.svg) ![forks](https://img.shields.io/github/forks/Mesh3l911/CVE-2021-32156.svg)
+
+
+## CVE-2021-4034
+ A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
+
+- [https://github.com/luckythandel/CVE-2021-4034](https://github.com/luckythandel/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/luckythandel/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/luckythandel/CVE-2021-4034.svg)
+- [https://github.com/ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/ziadsaleemi/polkit_CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/ziadsaleemi/polkit_CVE-2021-4034.svg)
+- [https://github.com/TomSgn/CVE-2021-4034](https://github.com/TomSgn/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/TomSgn/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/TomSgn/CVE-2021-4034.svg)
+- [https://github.com/0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/0xNix/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/0xNix/CVE-2021-4034.svg)
+
+
+## CVE-2020-14381
+ A flaw was found in the Linux kernel&#8217;s futex implementation. This flaw allows a local attacker to corrupt system memory or escalate their privileges when creating a futex on a filesystem that is about to be unmounted. The highest threat from this vulnerability is to confidentiality, integrity, as well as system availability.
+
+- [https://github.com/nanopathi/linux-4.19.72_CVE-2020-14381](https://github.com/nanopathi/linux-4.19.72_CVE-2020-14381) :  ![starts](https://img.shields.io/github/stars/nanopathi/linux-4.19.72_CVE-2020-14381.svg) ![forks](https://img.shields.io/github/forks/nanopathi/linux-4.19.72_CVE-2020-14381.svg)
+
+
+## CVE-2019-20372
+ NGINX before 1.17.7, with certain error_page configurations, allows HTTP request smuggling, as demonstrated by the ability of an attacker to read unauthorized web pages in environments where NGINX is being fronted by a load balancer.
+
+- [https://github.com/vuongnv3389-sec/CVE-2019-20372](https://github.com/vuongnv3389-sec/CVE-2019-20372) :  ![starts](https://img.shields.io/github/stars/vuongnv3389-sec/CVE-2019-20372.svg) ![forks](https://img.shields.io/github/forks/vuongnv3389-sec/CVE-2019-20372.svg)
+
+
+## CVE-2019-16113
+ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php because PHP code can be entered with a .jpg file name, and then this PHP code can write other PHP code to a ../ pathname.
+
+- [https://github.com/persian64/CVE-2019-16113_](https://github.com/persian64/CVE-2019-16113_) :  ![starts](https://img.shields.io/github/stars/persian64/CVE-2019-16113_.svg) ![forks](https://img.shields.io/github/forks/persian64/CVE-2019-16113_.svg)
+
+
+## CVE-2018-9995
+ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in 1, Securus, Night OWL, DVR Login, HVR Login, and MDVR Login, which run re-branded versions of the original TBK DVR4104 and DVR4216 series, allow remote attackers to bypass authentication via a &quot;Cookie: uid=admin&quot; header, as demonstrated by a device.rsp?opt=user&amp;cmd=list request that provides credentials within JSON data in a response.
+
+- [https://github.com/hoaan1995/CVE-2018-9995](https://github.com/hoaan1995/CVE-2018-9995) :  ![starts](https://img.shields.io/github/stars/hoaan1995/CVE-2018-9995.svg) ![forks](https://img.shields.io/github/forks/hoaan1995/CVE-2018-9995.svg)
+
+
+## CVE-2018-2019
+ IBM Security Identity Manager 6.0.0 Virtual Appliance is vulnerable to a XML External Entity Injection (XXE) attack when processing XML data. A remote attacker could exploit this vulnerability to expose sensitive information or consume memory resources. IBM X-Force ID: 155265.
+
+- [https://github.com/attakercyebr/hack4lx_CVE-2018-2019](https://github.com/attakercyebr/hack4lx_CVE-2018-2019) :  ![starts](https://img.shields.io/github/stars/attakercyebr/hack4lx_CVE-2018-2019.svg) ![forks](https://img.shields.io/github/forks/attakercyebr/hack4lx_CVE-2018-2019.svg)
+
+
+## CVE-2015-1397
+ SQL injection vulnerability in the getCsvFile function in the Mage_Adminhtml_Block_Widget_Grid class in Magento Community Edition (CE) 1.9.1.0 and Enterprise Edition (EE) 1.14.1.0 allows remote administrators to execute arbitrary SQL commands via the popularity[field_expr] parameter when the popularity[from] or popularity[to] parameter is set.
+
+- [https://github.com/tmatejicek/CVE-2015-1397](https://github.com/tmatejicek/CVE-2015-1397) :  ![starts](https://img.shields.io/github/stars/tmatejicek/CVE-2015-1397.svg) ![forks](https://img.shields.io/github/forks/tmatejicek/CVE-2015-1397.svg)
+
+
+## CVE-2012-4869
+ The callme_startcall function in recordings/misc/callme_page.php in FreePBX 2.9, 2.10, and earlier allows remote attackers to execute arbitrary commands via the callmenum parameter in a c action.
+
+- [https://github.com/persian64/CVE-2012-4869](https://github.com/persian64/CVE-2012-4869) :  ![starts](https://img.shields.io/github/stars/persian64/CVE-2012-4869.svg) ![forks](https://img.shields.io/github/forks/persian64/CVE-2012-4869.svg)
 
