@@ -32634,6 +32634,13 @@
 
 - [https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit) :  ![starts](https://img.shields.io/github/stars/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit.svg) ![forks](https://img.shields.io/github/forks/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit.svg)
 
+## CVE-2005-1794
+ Microsoft Terminal Server using Remote Desktop Protocol (RDP) 5.2 stores an RSA private key in mstlsapi.dll and uses it to sign a certificate, which allows remote attackers to spoof public keys of legitimate servers and conduct man-in-the-middle attacks.
+
+
+
+- [https://github.com/InitRoot/CVE-2005-1794Scanner](https://github.com/InitRoot/CVE-2005-1794Scanner) :  ![starts](https://img.shields.io/github/stars/InitRoot/CVE-2005-1794Scanner.svg) ![forks](https://img.shields.io/github/forks/InitRoot/CVE-2005-1794Scanner.svg)
+
 ## CVE-2005-1125
  Race condition in libsafe 2.0.16 and earlier, when running in multi-threaded applications, allows attackers to bypass libsafe protection and exploit other vulnerabilities before the _libsafe_die function call is completed.
 
