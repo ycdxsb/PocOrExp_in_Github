@@ -31658,7 +31658,7 @@
 
 - [https://github.com/AndyCyberSec/OSCP](https://github.com/AndyCyberSec/OSCP) :  ![starts](https://img.shields.io/github/stars/AndyCyberSec/OSCP.svg) ![forks](https://img.shields.io/github/forks/AndyCyberSec/OSCP.svg)
 
-- [https://github.com/persian64/CVE-2012-4869](https://github.com/persian64/CVE-2012-4869) :  ![starts](https://img.shields.io/github/stars/persian64/CVE-2012-4869.svg) ![forks](https://img.shields.io/github/forks/persian64/CVE-2012-4869.svg)
+- [https://github.com/0xkasra/CVE-2012-4869](https://github.com/0xkasra/CVE-2012-4869) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2012-4869.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2012-4869.svg)
 
 - [https://github.com/bitc0de/Elastix-Remote-Code-Execution](https://github.com/bitc0de/Elastix-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/bitc0de/Elastix-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/bitc0de/Elastix-Remote-Code-Execution.svg)
 
