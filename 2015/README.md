@@ -214,6 +214,8 @@
 
 - [https://github.com/dix0nym/CVE-2015-6967](https://github.com/dix0nym/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/dix0nym/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/dix0nym/CVE-2015-6967.svg)
 
+- [https://github.com/0xkasra/CVE-2015-6967](https://github.com/0xkasra/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2015-6967.svg)
+
 - [https://github.com/VanTekken/CVE-2015-6967](https://github.com/VanTekken/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/VanTekken/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/VanTekken/CVE-2015-6967.svg)
 
 ## CVE-2015-6835
