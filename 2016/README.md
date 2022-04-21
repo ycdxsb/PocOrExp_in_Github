@@ -19,6 +19,13 @@
 
 - [https://github.com/p0dalirius/CVE-2016-10956-mail-masta](https://github.com/p0dalirius/CVE-2016-10956-mail-masta) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2016-10956-mail-masta.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2016-10956-mail-masta.svg)
 
+## CVE-2016-10924
+ The ebook-download plugin before 1.2 for WordPress has directory traversal.
+
+
+
+- [https://github.com/rvizx/CVE-2016-10924](https://github.com/rvizx/CVE-2016-10924) :  ![starts](https://img.shields.io/github/stars/rvizx/CVE-2016-10924.svg) ![forks](https://img.shields.io/github/forks/rvizx/CVE-2016-10924.svg)
+
 ## CVE-2016-10761
  Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing encryption, aka MouseJack.
 
@@ -1076,9 +1083,9 @@
 
 - [https://github.com/Ma1Dong/ActiveMQ_putshell-CVE-2016-3088](https://github.com/Ma1Dong/ActiveMQ_putshell-CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/Ma1Dong/ActiveMQ_putshell-CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/Ma1Dong/ActiveMQ_putshell-CVE-2016-3088.svg)
 
-- [https://github.com/cl4ym0re/CVE-2016-3088](https://github.com/cl4ym0re/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/cl4ym0re/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/cl4ym0re/CVE-2016-3088.svg)
-
 - [https://github.com/cyberaguiar/CVE-2016-3088](https://github.com/cyberaguiar/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/cyberaguiar/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/cyberaguiar/CVE-2016-3088.svg)
+
+- [https://github.com/cl4ym0re/CVE-2016-3088](https://github.com/cl4ym0re/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/cl4ym0re/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/cl4ym0re/CVE-2016-3088.svg)
 
 - [https://github.com/pudiding/CVE-2016-3088](https://github.com/pudiding/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/pudiding/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/pudiding/CVE-2016-3088.svg)
 
