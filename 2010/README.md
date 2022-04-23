@@ -110,6 +110,13 @@
 
 - [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
 
+## CVE-2010-2387
+ vicious-extensions/ve-misc.c in GNOME Display Manager (gdm) 2.20.x before 2.20.11, when GDM debug is enabled, logs the user password when it contains invalid UTF8 encoded characters, which might allow local users to gain privileges by reading the information from syslog logs.
+
+
+
+- [https://github.com/LogSec/CVE-2010-2387](https://github.com/LogSec/CVE-2010-2387) :  ![starts](https://img.shields.io/github/stars/LogSec/CVE-2010-2387.svg) ![forks](https://img.shields.io/github/forks/LogSec/CVE-2010-2387.svg)
+
 ## CVE-2010-2333
  LiteSpeed Technologies LiteSpeed Web Server 4.0.x before 4.0.15 allows remote attackers to read the source code of scripts via an HTTP request with a null byte followed by a .txt file extension.
 
