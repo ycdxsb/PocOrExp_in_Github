@@ -32080,6 +32080,13 @@
 
 - [https://github.com/mambroziak/docker-cve-2013-2028](https://github.com/mambroziak/docker-cve-2013-2028) :  ![starts](https://img.shields.io/github/stars/mambroziak/docker-cve-2013-2028.svg) ![forks](https://img.shields.io/github/forks/mambroziak/docker-cve-2013-2028.svg)
 
+## CVE-2013-2006
+ OpenStack Identity (Keystone) Grizzly 2013.1.1, when DEBUG mode logging is enabled, logs the (1) admin_token and (2) LDAP password in plaintext, which allows local users to obtain sensitive by reading the log file.
+
+
+
+- [https://github.com/LogSec/CVE-2013-2006](https://github.com/LogSec/CVE-2013-2006) :  ![starts](https://img.shields.io/github/stars/LogSec/CVE-2013-2006.svg) ![forks](https://img.shields.io/github/forks/LogSec/CVE-2013-2006.svg)
+
 ## CVE-2013-1965
  Apache Struts Showcase App 2.0.0 through 2.3.13, as used in Struts 2 before 2.3.14.3, allows remote attackers to execute arbitrary OGNL code via a crafted parameter name that is not properly handled when invoking a redirect.
 
@@ -32170,6 +32177,13 @@
 
 
 - [https://github.com/lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp) :  ![starts](https://img.shields.io/github/stars/lochiiconnectivity/vulnupnp.svg) ![forks](https://img.shields.io/github/forks/lochiiconnectivity/vulnupnp.svg)
+
+## CVE-2013-0212
+ store/swift.py in OpenStack Glance Essex (2012.1), Folsom (2012.2) before 2012.2.3, and Grizzly, when in Swift single tenant mode, logs the Swift endpoint's user name and password in cleartext when the endpoint is misconfigured or unusable, allows remote authenticated users to obtain sensitive information by reading the error messages.
+
+
+
+- [https://github.com/LogSec/CVE-2013-0212](https://github.com/LogSec/CVE-2013-0212) :  ![starts](https://img.shields.io/github/stars/LogSec/CVE-2013-0212.svg) ![forks](https://img.shields.io/github/forks/LogSec/CVE-2013-0212.svg)
 
 ## CVE-2013-0156
  active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.x before 3.0.19, 3.1.x before 3.1.10, and 3.2.x before 3.2.11 does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code, or cause a denial of service (memory and CPU consumption) involving nested XML entity references, by leveraging Action Pack support for (1) YAML type conversion or (2) Symbol type conversion.
