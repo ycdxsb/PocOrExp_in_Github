@@ -465,6 +465,13 @@
 
 - [https://github.com/KosukeShimofuji/CVE-2016-7117](https://github.com/KosukeShimofuji/CVE-2016-7117) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-7117.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-7117.svg)
 
+## CVE-2016-6801
+ Cross-site request forgery (CSRF) vulnerability in the CSRF content-type check in Jackrabbit-Webdav in Apache Jackrabbit 2.4.x before 2.4.6, 2.6.x before 2.6.6, 2.8.x before 2.8.3, 2.10.x before 2.10.4, 2.12.x before 2.12.4, and 2.13.x before 2.13.3 allows remote attackers to hijack the authentication of unspecified victims for requests that create a resource via an HTTP POST request with a (1) missing or (2) crafted Content-Type header.
+
+
+
+- [https://github.com/TSNGL21/CVE-2016-6801](https://github.com/TSNGL21/CVE-2016-6801) :  ![starts](https://img.shields.io/github/stars/TSNGL21/CVE-2016-6801.svg) ![forks](https://img.shields.io/github/forks/TSNGL21/CVE-2016-6801.svg)
+
 ## CVE-2016-6798
  In the XSS Protection API module before 1.0.12 in Apache Sling, the method XSS.getValidXML() uses an insecure SAX parser to validate the input string, which allows for XXE attacks in all scripts which use this method to validate user input, potentially allowing an attacker to read sensitive data on the filesystem, perform same-site-request-forgery (SSRF), port-scanning behind the firewall or DoS the application.
 
@@ -723,9 +730,9 @@
 
 - [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
 
-- [https://github.com/SmithCGauss/CVE-2016-5195](https://github.com/SmithCGauss/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/SmithCGauss/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/SmithCGauss/CVE-2016-5195.svg)
-
 - [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
+
+- [https://github.com/SmithCGauss/CVE-2016-5195](https://github.com/SmithCGauss/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/SmithCGauss/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/SmithCGauss/CVE-2016-5195.svg)
 
 - [https://github.com/ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ldenevi/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ldenevi/CVE-2016-5195.svg)
 
