@@ -574,6 +574,8 @@
 
 - [https://github.com/bassitone/OpenSSH-User-Enumeration](https://github.com/bassitone/OpenSSH-User-Enumeration) :  ![starts](https://img.shields.io/github/stars/bassitone/OpenSSH-User-Enumeration.svg) ![forks](https://img.shields.io/github/forks/bassitone/OpenSSH-User-Enumeration.svg)
 
+- [https://github.com/hackingyseguridad/ssha](https://github.com/hackingyseguridad/ssha) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/ssha.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/ssha.svg)
+
 ## CVE-2016-6187
  The apparmor_setprocattr function in security/apparmor/lsm.c in the Linux kernel before 4.6.5 does not validate the buffer size, which allows local users to gain privileges by triggering an AppArmor setprocattr hook.
 
@@ -738,13 +740,15 @@
 
 - [https://github.com/DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/DanielEbert/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/DanielEbert/CVE-2016-5195.svg)
 
-- [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
-
 - [https://github.com/linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/linhlt247/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/linhlt247/DirtyCOW_CVE-2016-5195.svg)
+
+- [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
 
 - [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
 
 - [https://github.com/th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC) :  ![starts](https://img.shields.io/github/stars/th3-5had0w/DirtyCOW-PoC.svg) ![forks](https://img.shields.io/github/forks/th3-5had0w/DirtyCOW-PoC.svg)
+
+- [https://github.com/passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs) :  ![starts](https://img.shields.io/github/stars/passionchenjianyegmail8/scumjrs.svg) ![forks](https://img.shields.io/github/forks/passionchenjianyegmail8/scumjrs.svg)
 
 - [https://github.com/vinspiert/scumjrs](https://github.com/vinspiert/scumjrs) :  ![starts](https://img.shields.io/github/stars/vinspiert/scumjrs.svg) ![forks](https://img.shields.io/github/forks/vinspiert/scumjrs.svg)
 
@@ -1002,6 +1006,8 @@
 - [https://github.com/chusiang/CVE-2016-3714.ansible.role](https://github.com/chusiang/CVE-2016-3714.ansible.role) :  ![starts](https://img.shields.io/github/stars/chusiang/CVE-2016-3714.ansible.role.svg) ![forks](https://img.shields.io/github/forks/chusiang/CVE-2016-3714.ansible.role.svg)
 
 - [https://github.com/tommiionfire/CVE-2016-3714](https://github.com/tommiionfire/CVE-2016-3714) :  ![starts](https://img.shields.io/github/stars/tommiionfire/CVE-2016-3714.svg) ![forks](https://img.shields.io/github/forks/tommiionfire/CVE-2016-3714.svg)
+
+- [https://github.com/MrrRaph/pandagik](https://github.com/MrrRaph/pandagik) :  ![starts](https://img.shields.io/github/stars/MrrRaph/pandagik.svg) ![forks](https://img.shields.io/github/forks/MrrRaph/pandagik.svg)
 
 - [https://github.com/jackdpeterson/imagick_secure_puppet](https://github.com/jackdpeterson/imagick_secure_puppet) :  ![starts](https://img.shields.io/github/stars/jackdpeterson/imagick_secure_puppet.svg) ![forks](https://img.shields.io/github/forks/jackdpeterson/imagick_secure_puppet.svg)
 
