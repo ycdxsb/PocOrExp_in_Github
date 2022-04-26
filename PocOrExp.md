@@ -33746,6 +33746,8 @@
 
 - [https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner](https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner) :  ![starts](https://img.shields.io/github/stars/websecnl/Bulk_CVE-1999-0532_Scanner.svg) ![forks](https://img.shields.io/github/forks/websecnl/Bulk_CVE-1999-0532_Scanner.svg)
 
+- [https://github.com/Rodney-O-C-Melby/dns-zone-transfer-test](https://github.com/Rodney-O-C-Melby/dns-zone-transfer-test) :  ![starts](https://img.shields.io/github/stars/Rodney-O-C-Melby/dns-zone-transfer-test.svg) ![forks](https://img.shields.io/github/forks/Rodney-O-C-Melby/dns-zone-transfer-test.svg)
+
 ## CVE-1999-0016
  Land IP denial of service.
 
