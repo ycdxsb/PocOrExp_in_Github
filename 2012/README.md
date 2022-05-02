@@ -79,7 +79,7 @@
 
 - [https://github.com/mpgn/CRIME-poc](https://github.com/mpgn/CRIME-poc) :  ![starts](https://img.shields.io/github/stars/mpgn/CRIME-poc.svg) ![forks](https://img.shields.io/github/forks/mpgn/CRIME-poc.svg)
 
-- [https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/nyc-tophile/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/nyc-tophile/A2SV--SSL-VUL-Scan.svg)
+- [https://github.com/clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/clic-kbait/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/clic-kbait/A2SV--SSL-VUL-Scan.svg)
 
 ## CVE-2012-4869
  The callme_startcall function in recordings/misc/callme_page.php in FreePBX 2.9, 2.10, and earlier allows remote attackers to execute arbitrary commands via the callmenum parameter in a c action.
@@ -178,9 +178,9 @@
 
 - [https://github.com/blu3ming/CVE-2012-2982](https://github.com/blu3ming/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/blu3ming/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/blu3ming/CVE-2012-2982.svg)
 
-- [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
-
 - [https://github.com/SlizBinksman/CVE_2012-2982](https://github.com/SlizBinksman/CVE_2012-2982) :  ![starts](https://img.shields.io/github/stars/SlizBinksman/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/SlizBinksman/CVE_2012-2982.svg)
+
+- [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
 
 ## CVE-2012-2688
  Unspecified vulnerability in the _php_stream_scandir function in the stream implementation in PHP before 5.3.15 and 5.4.x before 5.4.5 has unknown impact and remote attack vectors, related to an &quot;overflow.&quot;
