@@ -31331,9 +31331,9 @@
 
 
 
-- [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) :  ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
-
 - [https://github.com/MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC) :  ![starts](https://img.shields.io/github/stars/MazX0p/CVE-2014-8609-POC.svg) ![forks](https://img.shields.io/github/forks/MazX0p/CVE-2014-8609-POC.svg)
+
+- [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) :  ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
 
 ## CVE-2014-8244
  Linksys SMART WiFi firmware on EA2700 and EA3500 devices; before 2.1.41 build 162351 on E4200v2 and EA4500 devices; before 1.1.41 build 162599 on EA6200 devices; before 1.1.40 build 160989 on EA6300, EA6400, EA6500, and EA6700 devices; and before 1.1.42 build 161129 on EA6900 devices allows remote attackers to obtain sensitive information or modify data via a JNAP action in a JNAP/ HTTP request.
@@ -32053,7 +32053,7 @@
 
 - [https://github.com/secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224) :  ![starts](https://img.shields.io/github/stars/secretnonempty/CVE-2014-0224.svg) ![forks](https://img.shields.io/github/forks/secretnonempty/CVE-2014-0224.svg)
 
-- [https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/nyc-tophile/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/nyc-tophile/A2SV--SSL-VUL-Scan.svg)
+- [https://github.com/clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/clic-kbait/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/clic-kbait/A2SV--SSL-VUL-Scan.svg)
 
 - [https://github.com/iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224) :  ![starts](https://img.shields.io/github/stars/iph0n3/CVE-2014-0224.svg) ![forks](https://img.shields.io/github/forks/iph0n3/CVE-2014-0224.svg)
 
@@ -32135,7 +32135,7 @@
 
 - [https://github.com/BelminD/heartbleed](https://github.com/BelminD/heartbleed) :  ![starts](https://img.shields.io/github/stars/BelminD/heartbleed.svg) ![forks](https://img.shields.io/github/forks/BelminD/heartbleed.svg)
 
-- [https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/nyc-tophile/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/nyc-tophile/A2SV--SSL-VUL-Scan.svg)
+- [https://github.com/clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/clic-kbait/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/clic-kbait/A2SV--SSL-VUL-Scan.svg)
 
 - [https://github.com/GeeksXtreme/ssl-heartbleed.nse](https://github.com/GeeksXtreme/ssl-heartbleed.nse) :  ![starts](https://img.shields.io/github/stars/GeeksXtreme/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/GeeksXtreme/ssl-heartbleed.nse.svg)
 
