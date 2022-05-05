@@ -116,9 +116,9 @@
 
 
 
-- [https://github.com/adenkiewicz/CVE-2009-1330](https://github.com/adenkiewicz/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2009-1330.svg)
-
 - [https://github.com/war4uthor/CVE-2009-1330](https://github.com/war4uthor/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2009-1330.svg)
+
+- [https://github.com/adenkiewicz/CVE-2009-1330](https://github.com/adenkiewicz/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2009-1330.svg)
 
 - [https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter](https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter) :  ![starts](https://img.shields.io/github/stars/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter.svg) ![forks](https://img.shields.io/github/forks/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter.svg)
 
@@ -149,6 +149,13 @@
 
 
 - [https://github.com/Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax) :  ![starts](https://img.shields.io/github/stars/Fullmetal5/str2hax.svg) ![forks](https://img.shields.io/github/forks/Fullmetal5/str2hax.svg)
+
+## CVE-2009-0473
+ Open redirect vulnerability in the web interface in the Rockwell Automation ControlLogix 1756-ENBT/A EtherNet/IP Bridge Module allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.
+
+
+
+- [https://github.com/akbarq/CVE-2009-0473-check](https://github.com/akbarq/CVE-2009-0473-check) :  ![starts](https://img.shields.io/github/stars/akbarq/CVE-2009-0473-check.svg) ![forks](https://img.shields.io/github/forks/akbarq/CVE-2009-0473-check.svg)
 
 ## CVE-2009-0229
  The Windows Printing Service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP2, Vista Gold, SP1, and SP2, and Server 2008 SP2 allows local users to read arbitrary files via a crafted separator page, aka &quot;Print Spooler Read File Vulnerability.&quot;
