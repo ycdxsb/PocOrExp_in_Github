@@ -748,11 +748,11 @@
 
 - [https://github.com/passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs) :  ![starts](https://img.shields.io/github/stars/passionchenjianyegmail8/scumjrs.svg) ![forks](https://img.shields.io/github/forks/passionchenjianyegmail8/scumjrs.svg)
 
-- [https://github.com/vinspiert/scumjrs](https://github.com/vinspiert/scumjrs) :  ![starts](https://img.shields.io/github/stars/vinspiert/scumjrs.svg) ![forks](https://img.shields.io/github/forks/vinspiert/scumjrs.svg)
-
 - [https://github.com/xpcmdshell/derpyc0w](https://github.com/xpcmdshell/derpyc0w) :  ![starts](https://img.shields.io/github/stars/xpcmdshell/derpyc0w.svg) ![forks](https://img.shields.io/github/forks/xpcmdshell/derpyc0w.svg)
 
 - [https://github.com/gurpreetsinghsaluja/dirtycow](https://github.com/gurpreetsinghsaluja/dirtycow) :  ![starts](https://img.shields.io/github/stars/gurpreetsinghsaluja/dirtycow.svg) ![forks](https://img.shields.io/github/forks/gurpreetsinghsaluja/dirtycow.svg)
+
+- [https://github.com/vinspiert/scumjrs](https://github.com/vinspiert/scumjrs) :  ![starts](https://img.shields.io/github/stars/vinspiert/scumjrs.svg) ![forks](https://img.shields.io/github/forks/vinspiert/scumjrs.svg)
 
 - [https://github.com/shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-](https://github.com/shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-.svg)
 
@@ -1276,8 +1276,6 @@
 
 
 - [https://github.com/bazad/flow_divert-heap-overflow](https://github.com/bazad/flow_divert-heap-overflow) :  ![starts](https://img.shields.io/github/stars/bazad/flow_divert-heap-overflow.svg) ![forks](https://img.shields.io/github/forks/bazad/flow_divert-heap-overflow.svg)
-
-- [https://github.com/domain9065v/bazad3](https://github.com/domain9065v/bazad3) :  ![starts](https://img.shields.io/github/stars/domain9065v/bazad3.svg) ![forks](https://img.shields.io/github/forks/domain9065v/bazad3.svg)
 
 - [https://github.com/superMan7912002/bazad3](https://github.com/superMan7912002/bazad3) :  ![starts](https://img.shields.io/github/stars/superMan7912002/bazad3.svg) ![forks](https://img.shields.io/github/forks/superMan7912002/bazad3.svg)
 
