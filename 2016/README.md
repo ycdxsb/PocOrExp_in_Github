@@ -88,6 +88,13 @@
 
 - [https://github.com/leosol/initroot](https://github.com/leosol/initroot) :  ![starts](https://img.shields.io/github/stars/leosol/initroot.svg) ![forks](https://img.shields.io/github/forks/leosol/initroot.svg)
 
+## CVE-2016-10190
+ Heap-based buffer overflow in libavformat/http.c in FFmpeg before 2.8.10, 3.0.x before 3.0.5, 3.1.x before 3.1.6, and 3.2.x before 3.2.2 allows remote web servers to execute arbitrary code via a negative chunk size in an HTTP response.
+
+
+
+- [https://github.com/muzalam/FFMPEG-exploit](https://github.com/muzalam/FFMPEG-exploit) :  ![starts](https://img.shields.io/github/stars/muzalam/FFMPEG-exploit.svg) ![forks](https://img.shields.io/github/forks/muzalam/FFMPEG-exploit.svg)
+
 ## CVE-2016-10140
  Information disclosure and authentication bypass vulnerability exists in the Apache HTTP Server configuration bundled with ZoneMinder v1.30 and v1.29, which allows a remote unauthenticated attacker to browse all directories in the web root, e.g., a remote unauthenticated attacker can view all CCTV images on the server via the /events URI.
 
@@ -1137,8 +1144,6 @@
 
 
 - [https://github.com/shadofren/CVE-2016-2555](https://github.com/shadofren/CVE-2016-2555) :  ![starts](https://img.shields.io/github/stars/shadofren/CVE-2016-2555.svg) ![forks](https://img.shields.io/github/forks/shadofren/CVE-2016-2555.svg)
-
-- [https://github.com/jrgdiaz/CVE-2016-2555](https://github.com/jrgdiaz/CVE-2016-2555) :  ![starts](https://img.shields.io/github/stars/jrgdiaz/CVE-2016-2555.svg) ![forks](https://img.shields.io/github/forks/jrgdiaz/CVE-2016-2555.svg)
 
 - [https://github.com/maximilianmarx/atutor-blind-sqli](https://github.com/maximilianmarx/atutor-blind-sqli) :  ![starts](https://img.shields.io/github/stars/maximilianmarx/atutor-blind-sqli.svg) ![forks](https://img.shields.io/github/forks/maximilianmarx/atutor-blind-sqli.svg)
 
