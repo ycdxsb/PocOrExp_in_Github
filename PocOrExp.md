@@ -31261,6 +31261,13 @@
 
 - [https://github.com/SecurityObscurity/cve-2015-0313](https://github.com/SecurityObscurity/cve-2015-0313) :  ![starts](https://img.shields.io/github/stars/SecurityObscurity/cve-2015-0313.svg) ![forks](https://img.shields.io/github/forks/SecurityObscurity/cve-2015-0313.svg)
 
+## CVE-2015-0311
+ Unspecified vulnerability in Adobe Flash Player through 13.0.0.262 and 14.x, 15.x, and 16.x through 16.0.0.287 on Windows and OS X and through 11.2.202.438 on Linux allows remote attackers to execute arbitrary code via unknown vectors, as exploited in the wild in January 2015.
+
+
+
+- [https://github.com/jr64/CVE-2015-0311](https://github.com/jr64/CVE-2015-0311) :  ![starts](https://img.shields.io/github/stars/jr64/CVE-2015-0311.svg) ![forks](https://img.shields.io/github/forks/jr64/CVE-2015-0311.svg)
+
 ## CVE-2015-0235
  Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka &quot;GHOST.&quot;
 
