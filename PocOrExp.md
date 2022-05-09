@@ -31447,9 +31447,9 @@
 
 
 
-- [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) :  ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
-
 - [https://github.com/MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC) :  ![starts](https://img.shields.io/github/stars/MazX0p/CVE-2014-8609-POC.svg) ![forks](https://img.shields.io/github/forks/MazX0p/CVE-2014-8609-POC.svg)
+
+- [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) :  ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
 
 ## CVE-2014-8244
  Linksys SMART WiFi firmware on EA2700 and EA3500 devices; before 2.1.41 build 162351 on E4200v2 and EA4500 devices; before 1.1.41 build 162599 on EA6200 devices; before 1.1.40 build 160989 on EA6300, EA6400, EA6500, and EA6700 devices; and before 1.1.42 build 161129 on EA6900 devices allows remote attackers to obtain sensitive information or modify data via a JNAP action in a JNAP/ HTTP request.
@@ -31472,19 +31472,10 @@
 
 - [https://github.com/tafamace/CVE-2014-8110](https://github.com/tafamace/CVE-2014-8110) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2014-8110.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2014-8110.svg)
 
-## CVE-2014-7921
- mediaserver in Android 4.0.3 through 5.x before 5.1 allows attackers to gain privileges.  NOTE: This is a different vulnerability than CVE-2014-7920.
-
-
-
-- [https://github.com/laginimaineb/cve-2014-7920-7921](https://github.com/laginimaineb/cve-2014-7920-7921) :  ![starts](https://img.shields.io/github/stars/laginimaineb/cve-2014-7920-7921.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/cve-2014-7920-7921.svg)
-
 ## CVE-2014-7920
  mediaserver in Android 2.2 through 5.x before 5.1 allows attackers to gain privileges.  NOTE: This is a different vulnerability than CVE-2014-7921.
 
 
-
-- [https://github.com/laginimaineb/cve-2014-7920-7921](https://github.com/laginimaineb/cve-2014-7920-7921) :  ![starts](https://img.shields.io/github/stars/laginimaineb/cve-2014-7920-7921.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/cve-2014-7920-7921.svg)
 
 - [https://github.com/Vinc3nt4H/cve-2014-7920-7921_update](https://github.com/Vinc3nt4H/cve-2014-7920-7921_update) :  ![starts](https://img.shields.io/github/stars/Vinc3nt4H/cve-2014-7920-7921_update.svg) ![forks](https://img.shields.io/github/forks/Vinc3nt4H/cve-2014-7920-7921_update.svg)
 
@@ -31679,9 +31670,9 @@
 
 - [https://github.com/Pilou-Pilou/docker_CVE-2014-6271.](https://github.com/Pilou-Pilou/docker_CVE-2014-6271.) :  ![starts](https://img.shields.io/github/stars/Pilou-Pilou/docker_CVE-2014-6271..svg) ![forks](https://img.shields.io/github/forks/Pilou-Pilou/docker_CVE-2014-6271..svg)
 
-- [https://github.com/Aruthw/CVE-2014-6271](https://github.com/Aruthw/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Aruthw/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Aruthw/CVE-2014-6271.svg)
-
 - [https://github.com/kowshik-sundararajan/CVE-2014-6271](https://github.com/kowshik-sundararajan/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/kowshik-sundararajan/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kowshik-sundararajan/CVE-2014-6271.svg)
+
+- [https://github.com/Aruthw/CVE-2014-6271](https://github.com/Aruthw/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Aruthw/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Aruthw/CVE-2014-6271.svg)
 
 - [https://github.com/dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes) :  ![starts](https://img.shields.io/github/stars/dlitz/bash-cve-2014-6271-fixes.svg) ![forks](https://img.shields.io/github/forks/dlitz/bash-cve-2014-6271-fixes.svg)
 
@@ -32265,9 +32256,9 @@
 
 - [https://github.com/sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix) :  ![starts](https://img.shields.io/github/stars/sammyfung/openssl-heartbleed-fix.svg) ![forks](https://img.shields.io/github/forks/sammyfung/openssl-heartbleed-fix.svg)
 
-- [https://github.com/amerine/coronary](https://github.com/amerine/coronary) :  ![starts](https://img.shields.io/github/stars/amerine/coronary.svg) ![forks](https://img.shields.io/github/forks/amerine/coronary.svg)
-
 - [https://github.com/proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention) :  ![starts](https://img.shields.io/github/stars/proactiveRISK/heartbleed-extention.svg) ![forks](https://img.shields.io/github/forks/proactiveRISK/heartbleed-extention.svg)
+
+- [https://github.com/amerine/coronary](https://github.com/amerine/coronary) :  ![starts](https://img.shields.io/github/stars/amerine/coronary.svg) ![forks](https://img.shields.io/github/forks/amerine/coronary.svg)
 
 - [https://github.com/xlucas/heartbleed](https://github.com/xlucas/heartbleed) :  ![starts](https://img.shields.io/github/stars/xlucas/heartbleed.svg) ![forks](https://img.shields.io/github/forks/xlucas/heartbleed.svg)
 
