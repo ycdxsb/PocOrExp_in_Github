@@ -33703,6 +33703,8 @@
 
 - [https://github.com/3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/3x1t1um/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/3x1t1um/CVE-2007-2447.svg)
 
+- [https://github.com/Nosferatuvjr/Samba-Usermap-exploit](https://github.com/Nosferatuvjr/Samba-Usermap-exploit) :  ![starts](https://img.shields.io/github/stars/Nosferatuvjr/Samba-Usermap-exploit.svg) ![forks](https://img.shields.io/github/forks/Nosferatuvjr/Samba-Usermap-exploit.svg)
+
 - [https://github.com/xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xlcc4096/exploit-CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xlcc4096/exploit-CVE-2007-2447.svg)
 
 - [https://github.com/cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/cherrera0001/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/cherrera0001/CVE-2007-2447.svg)
