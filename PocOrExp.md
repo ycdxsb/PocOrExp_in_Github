@@ -32765,6 +32765,8 @@
 
 - [https://github.com/xckevin/AndroidWebviewInjectDemo](https://github.com/xckevin/AndroidWebviewInjectDemo) :  ![starts](https://img.shields.io/github/stars/xckevin/AndroidWebviewInjectDemo.svg) ![forks](https://img.shields.io/github/forks/xckevin/AndroidWebviewInjectDemo.svg)
 
+- [https://github.com/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability](https://github.com/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability) :  ![starts](https://img.shields.io/github/stars/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability.svg)
+
 ## CVE-2012-6066
  freeSSHd.exe in freeSSHd through 1.2.6 allows remote attackers to bypass authentication via a crafted session, as demonstrated by an OpenSSH client with modified versions of ssh.c and sshconnect2.c.
 
@@ -32936,9 +32938,9 @@
 
 - [https://github.com/Ari-Weinberg/CVE-2012-2982](https://github.com/Ari-Weinberg/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/Ari-Weinberg/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/Ari-Weinberg/CVE-2012-2982.svg)
 
-- [https://github.com/blu3ming/CVE-2012-2982](https://github.com/blu3ming/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/blu3ming/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/blu3ming/CVE-2012-2982.svg)
-
 - [https://github.com/SlizBinksman/CVE_2012-2982](https://github.com/SlizBinksman/CVE_2012-2982) :  ![starts](https://img.shields.io/github/stars/SlizBinksman/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/SlizBinksman/CVE_2012-2982.svg)
+
+- [https://github.com/blu3ming/CVE-2012-2982](https://github.com/blu3ming/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/blu3ming/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/blu3ming/CVE-2012-2982.svg)
 
 - [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
 
