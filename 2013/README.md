@@ -92,6 +92,13 @@
 
 - [https://github.com/t0rt3ll1n0/PCmanBoF](https://github.com/t0rt3ll1n0/PCmanBoF) :  ![starts](https://img.shields.io/github/stars/t0rt3ll1n0/PCmanBoF.svg) ![forks](https://img.shields.io/github/forks/t0rt3ll1n0/PCmanBoF.svg)
 
+## CVE-2013-4710
+ Android 3.0 through 4.1.x on Disney Mobile, eAccess, KDDI, NTT DOCOMO, SoftBank, and other devices does not properly implement the WebView class, which allows remote attackers to execute arbitrary methods of Java objects or cause a denial of service (reboot) via a crafted web page, as demonstrated by use of the WebView.addJavascriptInterface method, a related issue to CVE-2012-6636.
+
+
+
+- [https://github.com/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability](https://github.com/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability) :  ![starts](https://img.shields.io/github/stars/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability.svg)
+
 ## CVE-2013-4547
  nginx 0.8.41 through 1.4.3 and 1.5.x before 1.5.7 allows remote attackers to bypass intended restrictions via an unescaped space character in a URI.
 
