@@ -34371,6 +34371,8 @@
 
 - [https://github.com/aforakjackson/cve2005-3299](https://github.com/aforakjackson/cve2005-3299) :  ![starts](https://img.shields.io/github/stars/aforakjackson/cve2005-3299.svg) ![forks](https://img.shields.io/github/forks/aforakjackson/cve2005-3299.svg)
 
+- [https://github.com/RizeKishimaro/CVE-2005-3299](https://github.com/RizeKishimaro/CVE-2005-3299) :  ![starts](https://img.shields.io/github/stars/RizeKishimaro/CVE-2005-3299.svg) ![forks](https://img.shields.io/github/forks/RizeKishimaro/CVE-2005-3299.svg)
+
 ## CVE-2005-2428
  Lotus Domino R5 and R6 WebMail, with &quot;Generate HTML for all fields&quot; enabled, stores sensitive data from names.nsf in hidden form fields, which allows remote attackers to read the HTML source to obtain sensitive information such as (1) the password hash in the HTTPPassword field, (2) the password change date in the HTTPPasswordChangeDate field, (3) the client platform in the ClntPltfrm field, (4) the client machine name in the ClntMachine field, and (5) the client Lotus Domino release in the ClntBld field, a different vulnerability than CVE-2005-2696.
 
