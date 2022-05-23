@@ -1,81 +1,96 @@
-# Update 2022-05-22
-## CVE-2022-31245
- mailcow before 2022-05d allows a remote authenticated user to inject OS commands and escalate privileges to domain admin via the --debug option in conjunction with the ---PIPEMESS option in Sync Jobs.
+# Update 2022-05-23
+## CVE-2022-29009
+ Multiple SQL injection vulnerabilities via the username and password parameters in the Admin panel of Cyber Cafe Management System Project v1.0 allows attackers to bypass authentication.
 
-- [https://github.com/ly1g3/Mailcow-CVE-2022-31245](https://github.com/ly1g3/Mailcow-CVE-2022-31245) :  ![starts](https://img.shields.io/github/stars/ly1g3/Mailcow-CVE-2022-31245.svg) ![forks](https://img.shields.io/github/forks/ly1g3/Mailcow-CVE-2022-31245.svg)
-
-
-## CVE-2022-26809
- Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-24492, CVE-2022-24528.
-
-- [https://github.com/XmasSnowISBACK/CVE-2022-26809](https://github.com/XmasSnowISBACK/CVE-2022-26809) :  ![starts](https://img.shields.io/github/stars/XmasSnowISBACK/CVE-2022-26809.svg) ![forks](https://img.shields.io/github/forks/XmasSnowISBACK/CVE-2022-26809.svg)
-- [https://github.com/seciurdt/CVE-2022-26809-MASS](https://github.com/seciurdt/CVE-2022-26809-MASS) :  ![starts](https://img.shields.io/github/stars/seciurdt/CVE-2022-26809-MASS.svg) ![forks](https://img.shields.io/github/forks/seciurdt/CVE-2022-26809-MASS.svg)
+- [https://github.com/sudoninja-noob/CVE-2022-29009](https://github.com/sudoninja-noob/CVE-2022-29009) :  ![starts](https://img.shields.io/github/stars/sudoninja-noob/CVE-2022-29009.svg) ![forks](https://img.shields.io/github/forks/sudoninja-noob/CVE-2022-29009.svg)
 
 
-## CVE-2022-26717
+## CVE-2022-29008
+ An insecure direct object reference (IDOR) vulnerability in the viewid parameter of Bus Pass Management System v1.0 allows attackers to access sensitive information.
+
+- [https://github.com/sudoninja-noob/CVE-2022-29008](https://github.com/sudoninja-noob/CVE-2022-29008) :  ![starts](https://img.shields.io/github/stars/sudoninja-noob/CVE-2022-29008.svg) ![forks](https://img.shields.io/github/forks/sudoninja-noob/CVE-2022-29008.svg)
+
+
+## CVE-2022-29007
+ Multiple SQL injection vulnerabilities via the username and password parameters in the Admin panel of Dairy Farm Shop Management System v1.0 allows attackers to bypass authentication.
+
+- [https://github.com/sudoninja-noob/CVE-2022-29007](https://github.com/sudoninja-noob/CVE-2022-29007) :  ![starts](https://img.shields.io/github/stars/sudoninja-noob/CVE-2022-29007.svg) ![forks](https://img.shields.io/github/forks/sudoninja-noob/CVE-2022-29007.svg)
+
+
+## CVE-2022-29006
+ Multiple SQL injection vulnerabilities via the username and password parameters in the Admin panel of Directory Management System v1.0 allows attackers to bypass authentication.
+
+- [https://github.com/sudoninja-noob/CVE-2022-29006](https://github.com/sudoninja-noob/CVE-2022-29006) :  ![starts](https://img.shields.io/github/stars/sudoninja-noob/CVE-2022-29006.svg) ![forks](https://img.shields.io/github/forks/sudoninja-noob/CVE-2022-29006.svg)
+
+
+## CVE-2022-29005
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/trhacknon/CVE-2022-26717-Safari-WebGL-Exploit](https://github.com/trhacknon/CVE-2022-26717-Safari-WebGL-Exploit) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2022-26717-Safari-WebGL-Exploit.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2022-26717-Safari-WebGL-Exploit.svg)
+- [https://github.com/sudoninja-noob/CVE-2022-29005](https://github.com/sudoninja-noob/CVE-2022-29005) :  ![starts](https://img.shields.io/github/stars/sudoninja-noob/CVE-2022-29005.svg) ![forks](https://img.shields.io/github/forks/sudoninja-noob/CVE-2022-29005.svg)
 
 
-## CVE-2022-24706
- In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured default installation without authenticating and gain admin privileges. The CouchDB documentation has always made recommendations for properly securing an installation, including recommending using a firewall in front of all CouchDB installations.
-
-- [https://github.com/sadshade/CVE-2022-24706-CouchDB-Exploit](https://github.com/sadshade/CVE-2022-24706-CouchDB-Exploit) :  ![starts](https://img.shields.io/github/stars/sadshade/CVE-2022-24706-CouchDB-Exploit.svg) ![forks](https://img.shields.io/github/forks/sadshade/CVE-2022-24706-CouchDB-Exploit.svg)
-
-
-## CVE-2021-22204
- Improper neutralization of user data in the DjVu file format in ExifTool versions 7.44 and up allows arbitrary code execution when parsing the malicious image
-
-- [https://github.com/ChispasHK/MiruCTF](https://github.com/ChispasHK/MiruCTF) :  ![starts](https://img.shields.io/github/stars/ChispasHK/MiruCTF.svg) ![forks](https://img.shields.io/github/forks/ChispasHK/MiruCTF.svg)
-
-
-## CVE-2021-4034
- A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
-
-- [https://github.com/aus-mate/CVE-2021-4034-POC](https://github.com/aus-mate/CVE-2021-4034-POC) :  ![starts](https://img.shields.io/github/stars/aus-mate/CVE-2021-4034-POC.svg) ![forks](https://img.shields.io/github/forks/aus-mate/CVE-2021-4034-POC.svg)
-- [https://github.com/JoyGhoshs/CVE-2021-4034](https://github.com/JoyGhoshs/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/JoyGhoshs/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/JoyGhoshs/CVE-2021-4034.svg)
-
-
-## CVE-2021-3929
+## CVE-2022-29004
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/QiuhaoLi/CVE-2021-3929-3947](https://github.com/QiuhaoLi/CVE-2021-3929-3947) :  ![starts](https://img.shields.io/github/stars/QiuhaoLi/CVE-2021-3929-3947.svg) ![forks](https://img.shields.io/github/forks/QiuhaoLi/CVE-2021-3929-3947.svg)
+- [https://github.com/sudoninja-noob/CVE-2022-29004](https://github.com/sudoninja-noob/CVE-2022-29004) :  ![starts](https://img.shields.io/github/stars/sudoninja-noob/CVE-2022-29004.svg) ![forks](https://img.shields.io/github/forks/sudoninja-noob/CVE-2022-29004.svg)
 
 
-## CVE-2021-3899
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2022-26318
+ On WatchGuard Firebox and XTM appliances, an unauthenticated user can execute arbitrary code, aka FBX-22786. This vulnerability impacts Fireware OS before 12.7.2_U2, 12.x before 12.1.3_U8, and 12.2.x through 12.5.x before 12.5.9_U2.
 
-- [https://github.com/liumuqing/CVE-2021-3899_PoC](https://github.com/liumuqing/CVE-2021-3899_PoC) :  ![starts](https://img.shields.io/github/stars/liumuqing/CVE-2021-3899_PoC.svg) ![forks](https://img.shields.io/github/forks/liumuqing/CVE-2021-3899_PoC.svg)
-
-
-## CVE-2021-0302
- In PackageInstaller, there is a possible tapjacking attack due to an insecure default value. This could lead to local escalation of privilege and permissions with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10Android ID: A-155287782
-
-- [https://github.com/ShaikUsaf/packages_apps_PackageInstaller_AOSP10_r33_CVE-2021-0302](https://github.com/ShaikUsaf/packages_apps_PackageInstaller_AOSP10_r33_CVE-2021-0302) :  ![starts](https://img.shields.io/github/stars/ShaikUsaf/packages_apps_PackageInstaller_AOSP10_r33_CVE-2021-0302.svg) ![forks](https://img.shields.io/github/forks/ShaikUsaf/packages_apps_PackageInstaller_AOSP10_r33_CVE-2021-0302.svg)
+- [https://github.com/BabyTeam1024/CVE-2022-26318](https://github.com/BabyTeam1024/CVE-2022-26318) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2022-26318.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2022-26318.svg)
 
 
-## CVE-2020-1472
- An elevation of privilege vulnerability exists when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller, using the Netlogon Remote Protocol (MS-NRPC), aka 'Netlogon Elevation of Privilege Vulnerability'.
+## CVE-2022-22963
+ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources.
 
-- [https://github.com/NickSanzotta/zeroscan](https://github.com/NickSanzotta/zeroscan) :  ![starts](https://img.shields.io/github/stars/NickSanzotta/zeroscan.svg) ![forks](https://img.shields.io/github/forks/NickSanzotta/zeroscan.svg)
-- [https://github.com/shanfenglan/cve-2020-1472](https://github.com/shanfenglan/cve-2020-1472) :  ![starts](https://img.shields.io/github/stars/shanfenglan/cve-2020-1472.svg) ![forks](https://img.shields.io/github/forks/shanfenglan/cve-2020-1472.svg)
-- [https://github.com/wrathfulDiety/zerologon](https://github.com/wrathfulDiety/zerologon) :  ![starts](https://img.shields.io/github/stars/wrathfulDiety/zerologon.svg) ![forks](https://img.shields.io/github/forks/wrathfulDiety/zerologon.svg)
-- [https://github.com/t31m0/CVE-2020-1472](https://github.com/t31m0/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/t31m0/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/t31m0/CVE-2020-1472.svg)
-- [https://github.com/Exploitspacks/CVE-2020-1472](https://github.com/Exploitspacks/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/Exploitspacks/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Exploitspacks/CVE-2020-1472.svg)
-- [https://github.com/Fa1c0n35/CVE-2020-1472-02-](https://github.com/Fa1c0n35/CVE-2020-1472-02-) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472-02-.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472-02-.svg)
-- [https://github.com/grupooruss/CVE-2020-1472](https://github.com/grupooruss/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/grupooruss/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/grupooruss/CVE-2020-1472.svg)
-- [https://github.com/johnpathe/zerologon-cve-2020-1472-notes](https://github.com/johnpathe/zerologon-cve-2020-1472-notes) :  ![starts](https://img.shields.io/github/stars/johnpathe/zerologon-cve-2020-1472-notes.svg) ![forks](https://img.shields.io/github/forks/johnpathe/zerologon-cve-2020-1472-notes.svg)
+- [https://github.com/trhacknon/CVE-2022-22963](https://github.com/trhacknon/CVE-2022-22963) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2022-22963.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2022-22963.svg)
 
 
-## CVE-2020-1350
- A remote code execution vulnerability exists in Windows Domain Name System servers when they fail to properly handle requests, aka 'Windows DNS Server Remote Code Execution Vulnerability'.
+## CVE-2022-22916
+ O2OA v6.4.7 was discovered to contain a remote code execution (RCE) vulnerability via /x_program_center/jaxrs/invoke.
 
-- [https://github.com/corelight/SIGRed](https://github.com/corelight/SIGRed) :  ![starts](https://img.shields.io/github/stars/corelight/SIGRed.svg) ![forks](https://img.shields.io/github/forks/corelight/SIGRed.svg)
+- [https://github.com/aodsec/CVE-2022-22916](https://github.com/aodsec/CVE-2022-22916) :  ![starts](https://img.shields.io/github/stars/aodsec/CVE-2022-22916.svg) ![forks](https://img.shields.io/github/forks/aodsec/CVE-2022-22916.svg)
 
 
-## CVE-2019-13272
- In the Linux kernel before 5.1.17, ptrace_link in kernel/ptrace.c mishandles the recording of the credentials of a process that wants to create a ptrace relationship, which allows local users to obtain root access by leveraging certain scenarios with a parent-child process relationship, where a parent drops privileges and calls execve (potentially allowing control by an attacker). One contributing factor is an object lifetime issue (which can also cause a panic). Another contributing factor is incorrect marking of a ptrace relationship as privileged, which is exploitable through (for example) Polkit's pkexec helper with PTRACE_TRACEME. NOTE: SELinux deny_ptrace might be a usable workaround in some environments.
+## CVE-2022-0847
+ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
 
-- [https://github.com/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-](https://github.com/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-) :  ![starts](https://img.shields.io/github/stars/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-.svg) ![forks](https://img.shields.io/github/forks/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-.svg)
+- [https://github.com/IHenakaarachchi/debian11-dirty_pipe-patcher](https://github.com/IHenakaarachchi/debian11-dirty_pipe-patcher) :  ![starts](https://img.shields.io/github/stars/IHenakaarachchi/debian11-dirty_pipe-patcher.svg) ![forks](https://img.shields.io/github/forks/IHenakaarachchi/debian11-dirty_pipe-patcher.svg)
+
+
+## CVE-2020-7961
+ Deserialization of Untrusted Data in Liferay Portal prior to 7.2.1 CE GA2 allows remote attackers to execute arbitrary code via JSON web services (JSONWS).
+
+- [https://github.com/pashayogi/CVE-2020-7961-Mass](https://github.com/pashayogi/CVE-2020-7961-Mass) :  ![starts](https://img.shields.io/github/stars/pashayogi/CVE-2020-7961-Mass.svg) ![forks](https://img.shields.io/github/forks/pashayogi/CVE-2020-7961-Mass.svg)
+
+
+## CVE-2020-5844
+ index.php?sec=godmode/extensions&amp;sec2=extensions/files_repo in Pandora FMS v7.0 NG allows authenticated administrators to upload malicious PHP scripts, and execute them via base64 decoding of the file location. This affects v7.0NG.742_FIX_PERL2020.
+
+- [https://github.com/UNICORDev/exploit-CVE-2020-5844](https://github.com/UNICORDev/exploit-CVE-2020-5844) :  ![starts](https://img.shields.io/github/stars/UNICORDev/exploit-CVE-2020-5844.svg) ![forks](https://img.shields.io/github/forks/UNICORDev/exploit-CVE-2020-5844.svg)
+
+
+## CVE-2019-18371
+ An issue was discovered on Xiaomi Mi WiFi R3G devices before 2.28.23-stable. There is a directory traversal vulnerability to read arbitrary files via a misconfigured NGINX alias, as demonstrated by api-third-party/download/extdisks../etc/config/account. With this vulnerability, the attacker can bypass authentication.
+
+- [https://github.com/jsnhcuan1997/UltramanGaia](https://github.com/jsnhcuan1997/UltramanGaia) :  ![starts](https://img.shields.io/github/stars/jsnhcuan1997/UltramanGaia.svg) ![forks](https://img.shields.io/github/forks/jsnhcuan1997/UltramanGaia.svg)
+
+
+## CVE-2019-18370
+ An issue was discovered on Xiaomi Mi WiFi R3G devices before 2.28.23-stable. The backup file is in tar.gz format. After uploading, the application uses the tar zxf command to decompress, so one can control the contents of the files in the decompressed directory. In addition, the application's sh script for testing upload and download speeds reads a URL list from /tmp/speedtest_urls.xml, and there is a command injection vulnerability, as demonstrated by api/xqnetdetect/netspeed.
+
+- [https://github.com/jsnhcuan1997/UltramanGaia](https://github.com/jsnhcuan1997/UltramanGaia) :  ![starts](https://img.shields.io/github/stars/jsnhcuan1997/UltramanGaia.svg) ![forks](https://img.shields.io/github/forks/jsnhcuan1997/UltramanGaia.svg)
+
+
+## CVE-2017-8917
+ SQL injection vulnerability in Joomla! 3.7.x before 3.7.1 allows attackers to execute arbitrary SQL commands via unspecified vectors.
+
+- [https://github.com/SiopySec/CVE-2017-8917](https://github.com/SiopySec/CVE-2017-8917) :  ![starts](https://img.shields.io/github/stars/SiopySec/CVE-2017-8917.svg) ![forks](https://img.shields.io/github/forks/SiopySec/CVE-2017-8917.svg)
+
+
+## CVE-2005-3299
+ PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and 2.6.4-pl1 allows remote attackers to include local files via the $__redirect parameter, possibly involving the subform array.
+
+- [https://github.com/RizeKishimaro/CVE-2005-3299](https://github.com/RizeKishimaro/CVE-2005-3299) :  ![starts](https://img.shields.io/github/stars/RizeKishimaro/CVE-2005-3299.svg) ![forks](https://img.shields.io/github/forks/RizeKishimaro/CVE-2005-3299.svg)
 
