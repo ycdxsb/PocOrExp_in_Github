@@ -32489,13 +32489,6 @@
 
 - [https://github.com/day6reak/CVE-2014-1773](https://github.com/day6reak/CVE-2014-1773) :  ![starts](https://img.shields.io/github/stars/day6reak/CVE-2014-1773.svg) ![forks](https://img.shields.io/github/forks/day6reak/CVE-2014-1773.svg)
 
-## CVE-2014-1767
- Double free vulnerability in the Ancillary Function Driver (AFD) in afd.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, aka &quot;Ancillary Function Driver Elevation of Privilege Vulnerability.&quot;
-
-
-
-- [https://github.com/ExploitCN/CVE-2014-1767-EXP-PAPER](https://github.com/ExploitCN/CVE-2014-1767-EXP-PAPER) :  ![starts](https://img.shields.io/github/stars/ExploitCN/CVE-2014-1767-EXP-PAPER.svg) ![forks](https://img.shields.io/github/forks/ExploitCN/CVE-2014-1767-EXP-PAPER.svg)
-
 ## CVE-2014-1677
  Technicolor TC7200 with firmware STD6.01.12 could allow remote attackers to obtain sensitive information.
 
@@ -32714,9 +32707,9 @@
 
 - [https://github.com/ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/ice-security88/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/ice-security88/CVE-2014-0160.svg)
 
-- [https://github.com/obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner) :  ![starts](https://img.shields.io/github/stars/obayesshelton/CVE-2014-0160-Scanner.svg) ![forks](https://img.shields.io/github/forks/obayesshelton/CVE-2014-0160-Scanner.svg)
-
 - [https://github.com/fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/fb1h2s/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/fb1h2s/CVE-2014-0160.svg)
+
+- [https://github.com/obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner) :  ![starts](https://img.shields.io/github/stars/obayesshelton/CVE-2014-0160-Scanner.svg) ![forks](https://img.shields.io/github/forks/obayesshelton/CVE-2014-0160-Scanner.svg)
 
 - [https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang) :  ![starts](https://img.shields.io/github/stars/marstornado/cve-2014-0160-Yunfeng-Jiang.svg) ![forks](https://img.shields.io/github/forks/marstornado/cve-2014-0160-Yunfeng-Jiang.svg)
 
