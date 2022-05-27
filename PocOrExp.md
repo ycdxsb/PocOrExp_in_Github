@@ -30974,9 +30974,9 @@
 
 - [https://github.com/xnorkl/Joomla_Payload](https://github.com/xnorkl/Joomla_Payload) :  ![starts](https://img.shields.io/github/stars/xnorkl/Joomla_Payload.svg) ![forks](https://img.shields.io/github/forks/xnorkl/Joomla_Payload.svg)
 
-- [https://github.com/lorenzodegiorgi/setup-cve-2015-8562](https://github.com/lorenzodegiorgi/setup-cve-2015-8562) :  ![starts](https://img.shields.io/github/stars/lorenzodegiorgi/setup-cve-2015-8562.svg) ![forks](https://img.shields.io/github/forks/lorenzodegiorgi/setup-cve-2015-8562.svg)
-
 - [https://github.com/guanjivip/CVE-2015-8562](https://github.com/guanjivip/CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/guanjivip/CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/guanjivip/CVE-2015-8562.svg)
+
+- [https://github.com/lorenzodegiorgi/setup-cve-2015-8562](https://github.com/lorenzodegiorgi/setup-cve-2015-8562) :  ![starts](https://img.shields.io/github/stars/lorenzodegiorgi/setup-cve-2015-8562.svg) ![forks](https://img.shields.io/github/forks/lorenzodegiorgi/setup-cve-2015-8562.svg)
 
 - [https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562](https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/thejackerz/scanner-exploit-joomla-CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/thejackerz/scanner-exploit-joomla-CVE-2015-8562.svg)
 
@@ -31385,6 +31385,8 @@
 - [https://github.com/AndersonSingh/serialization-vulnerability-scanner](https://github.com/AndersonSingh/serialization-vulnerability-scanner) :  ![starts](https://img.shields.io/github/stars/AndersonSingh/serialization-vulnerability-scanner.svg) ![forks](https://img.shields.io/github/forks/AndersonSingh/serialization-vulnerability-scanner.svg)
 
 - [https://github.com/nex1less/CVE-2015-4852](https://github.com/nex1less/CVE-2015-4852) :  ![starts](https://img.shields.io/github/stars/nex1less/CVE-2015-4852.svg) ![forks](https://img.shields.io/github/forks/nex1less/CVE-2015-4852.svg)
+
+- [https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces](https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces) :  ![starts](https://img.shields.io/github/stars/minhangxiaohui/Weblogic_direct_T3_Rces.svg) ![forks](https://img.shields.io/github/forks/minhangxiaohui/Weblogic_direct_T3_Rces.svg)
 
 ## CVE-2015-4495
  The PDF reader in Mozilla Firefox before 39.0.3, Firefox ESR 38.x before 38.1.1, and Firefox OS before 2.2 allows remote attackers to bypass the Same Origin Policy, and read arbitrary files or gain privileges, via vectors involving crafted JavaScript code and a native setter, as exploited in the wild in August 2015.
