@@ -24,6 +24,13 @@
 
 - [https://github.com/vaknin/SLMail5.5](https://github.com/vaknin/SLMail5.5) :  ![starts](https://img.shields.io/github/stars/vaknin/SLMail5.5.svg) ![forks](https://img.shields.io/github/forks/vaknin/SLMail5.5.svg)
 
+## CVE-2003-0222
+ Stack-based buffer overflow in Oracle Net Services for Oracle Database Server 9i release 2 and earlier allows attackers to execute arbitrary code via a &quot;CREATE DATABASE LINK&quot; query containing a connect string with a long USING parameter.
+
+
+
+- [https://github.com/phamthanhsang280477/CVE-2003-0222](https://github.com/phamthanhsang280477/CVE-2003-0222) :  ![starts](https://img.shields.io/github/stars/phamthanhsang280477/CVE-2003-0222.svg) ![forks](https://img.shields.io/github/forks/phamthanhsang280477/CVE-2003-0222.svg)
+
 ## CVE-2003-0201
  Buffer overflow in the call_trans2open function in trans2.c for Samba 2.2.x before 2.2.8a, 2.0.10 and earlier 2.0.x versions, and Samba-TNG before 0.3.2, allows remote attackers to execute arbitrary code.
 
