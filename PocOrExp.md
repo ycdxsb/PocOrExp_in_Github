@@ -29856,9 +29856,9 @@
 
 - [https://github.com/KosukeShimofuji/CVE-2016-6662](https://github.com/KosukeShimofuji/CVE-2016-6662) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-6662.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-6662.svg)
 
-- [https://github.com/boompig/cve-2016-6662](https://github.com/boompig/cve-2016-6662) :  ![starts](https://img.shields.io/github/stars/boompig/cve-2016-6662.svg) ![forks](https://img.shields.io/github/forks/boompig/cve-2016-6662.svg)
-
 - [https://github.com/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch](https://github.com/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch) :  ![starts](https://img.shields.io/github/stars/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch.svg) ![forks](https://img.shields.io/github/forks/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch.svg)
+
+- [https://github.com/boompig/cve-2016-6662](https://github.com/boompig/cve-2016-6662) :  ![starts](https://img.shields.io/github/stars/boompig/cve-2016-6662.svg) ![forks](https://img.shields.io/github/forks/boompig/cve-2016-6662.svg)
 
 ## CVE-2016-6584
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
@@ -30378,6 +30378,8 @@
 
 - [https://github.com/BabyTeam1024/CVE-2016-3510](https://github.com/BabyTeam1024/CVE-2016-3510) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2016-3510.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2016-3510.svg)
 
+- [https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces](https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces) :  ![starts](https://img.shields.io/github/stars/minhangxiaohui/Weblogic_direct_T3_Rces.svg) ![forks](https://img.shields.io/github/forks/minhangxiaohui/Weblogic_direct_T3_Rces.svg)
+
 ## CVE-2016-3427
  Unspecified vulnerability in Oracle Java SE 6u113, 7u99, and 8u77; Java SE Embedded 8u77; and JRockit R28.3.9 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to JMX.
 
@@ -30841,6 +30843,8 @@
 - [https://github.com/zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln) :  ![starts](https://img.shields.io/github/stars/zhzhdoai/Weblogic_Vuln.svg) ![forks](https://img.shields.io/github/forks/zhzhdoai/Weblogic_Vuln.svg)
 
 - [https://github.com/BabyTeam1024/CVE-2016-0638](https://github.com/BabyTeam1024/CVE-2016-0638) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2016-0638.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2016-0638.svg)
+
+- [https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces](https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces) :  ![starts](https://img.shields.io/github/stars/minhangxiaohui/Weblogic_direct_T3_Rces.svg) ![forks](https://img.shields.io/github/forks/minhangxiaohui/Weblogic_direct_T3_Rces.svg)
 
 ## CVE-2016-0199
  Microsoft Internet Explorer 9 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-0200 and CVE-2016-3211.
