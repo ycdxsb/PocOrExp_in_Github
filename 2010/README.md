@@ -1,3 +1,10 @@
+## CVE-2010-5301
+ Stack-based buffer overflow in Kolibri 2.0 allows remote attackers to execute arbitrary code via a long URI in a HEAD request.
+
+
+
+- [https://github.com/lem0nSec/CVE-2010-5301](https://github.com/lem0nSec/CVE-2010-5301) :  ![starts](https://img.shields.io/github/stars/lem0nSec/CVE-2010-5301.svg) ![forks](https://img.shields.io/github/forks/lem0nSec/CVE-2010-5301.svg)
+
 ## CVE-2010-5230
  Multiple untrusted search path vulnerabilities in MicroStation 7.1 allow local users to gain privileges via a Trojan horse (1) mptools.dll, (2) baseman.dll, (3) wintab32.dll, or (4) wintab.dll file in the current working directory, as demonstrated by a directory that contains a .hln or .rdl file.  NOTE: some of these details are obtained from third party information.
 
