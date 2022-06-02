@@ -1,85 +1,48 @@
-# Update 2022-06-01
-## CVE-2022-26809
- Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-24492, CVE-2022-24528.
-
-- [https://github.com/seciurdt/CVE-2022-26809-POC](https://github.com/seciurdt/CVE-2022-26809-POC) :  ![starts](https://img.shields.io/github/stars/seciurdt/CVE-2022-26809-POC.svg) ![forks](https://img.shields.io/github/forks/seciurdt/CVE-2022-26809-POC.svg)
-
-
-## CVE-2022-24087
+# Update 2022-06-02
+## CVE-2022-30190
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/TomArni680/CVE-2022-24086-MASS-RCE](https://github.com/TomArni680/CVE-2022-24086-MASS-RCE) :  ![starts](https://img.shields.io/github/stars/TomArni680/CVE-2022-24086-MASS-RCE.svg) ![forks](https://img.shields.io/github/forks/TomArni680/CVE-2022-24086-MASS-RCE.svg)
+- [https://github.com/JMousqueton/PoC-CVE-2022-30190](https://github.com/JMousqueton/PoC-CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/JMousqueton/PoC-CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/JMousqueton/PoC-CVE-2022-30190.svg)
+- [https://github.com/onecloudemoji/CVE-2022-30190](https://github.com/onecloudemoji/CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/onecloudemoji/CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/onecloudemoji/CVE-2022-30190.svg)
+- [https://github.com/archanchoudhury/MSDT_CVE-2022-30190](https://github.com/archanchoudhury/MSDT_CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/archanchoudhury/MSDT_CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/archanchoudhury/MSDT_CVE-2022-30190.svg)
+- [https://github.com/bytecaps/CVE-2022-30190](https://github.com/bytecaps/CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/bytecaps/CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/bytecaps/CVE-2022-30190.svg)
+- [https://github.com/trhacknon/CVE-2022-30190](https://github.com/trhacknon/CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2022-30190.svg)
+- [https://github.com/PaddlingCode/cve-2022-30190](https://github.com/PaddlingCode/cve-2022-30190) :  ![starts](https://img.shields.io/github/stars/PaddlingCode/cve-2022-30190.svg) ![forks](https://img.shields.io/github/forks/PaddlingCode/cve-2022-30190.svg)
+- [https://github.com/ExploitPwner/CVE-2022-30190](https://github.com/ExploitPwner/CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/ExploitPwner/CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/ExploitPwner/CVE-2022-30190.svg)
+- [https://github.com/rickhenderson/cve-2022-30190](https://github.com/rickhenderson/cve-2022-30190) :  ![starts](https://img.shields.io/github/stars/rickhenderson/cve-2022-30190.svg) ![forks](https://img.shields.io/github/forks/rickhenderson/cve-2022-30190.svg)
+- [https://github.com/sentinelblue/CVE-2022-30190](https://github.com/sentinelblue/CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/sentinelblue/CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/sentinelblue/CVE-2022-30190.svg)
+- [https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-](https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-) :  ![starts](https://img.shields.io/github/stars/aymankhder/MSDT_CVE-2022-30190-follina-.svg) ![forks](https://img.shields.io/github/forks/aymankhder/MSDT_CVE-2022-30190-follina-.svg)
+- [https://github.com/DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup](https://github.com/DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup) :  ![starts](https://img.shields.io/github/stars/DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup.svg) ![forks](https://img.shields.io/github/forks/DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup.svg)
+- [https://github.com/kdk2933/msdt-follina-office](https://github.com/kdk2933/msdt-follina-office) :  ![starts](https://img.shields.io/github/stars/kdk2933/msdt-follina-office.svg) ![forks](https://img.shields.io/github/forks/kdk2933/msdt-follina-office.svg)
 
 
-## CVE-2022-24086
- Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout process. Exploitation of this issue does not require user interaction and could result in arbitrary code execution.
+## CVE-2022-29303
+ SolarView Compact ver.6.00 was discovered to contain a command injection vulnerability via conf_mail.php.
 
-- [https://github.com/TomArni680/CVE-2022-24086-MASS-RCE](https://github.com/TomArni680/CVE-2022-24086-MASS-RCE) :  ![starts](https://img.shields.io/github/stars/TomArni680/CVE-2022-24086-MASS-RCE.svg) ![forks](https://img.shields.io/github/forks/TomArni680/CVE-2022-24086-MASS-RCE.svg)
-
-
-## CVE-2022-22978
- In Spring Security versions 5.5.6 and 5.5.7 and older unsupported versions, RegexRequestMatcher can easily be misconfigured to be bypassed on some servlet containers. Applications using RegexRequestMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass.
-
-- [https://github.com/DeEpinGh0st/CVE-2022-22978](https://github.com/DeEpinGh0st/CVE-2022-22978) :  ![starts](https://img.shields.io/github/stars/DeEpinGh0st/CVE-2022-22978.svg) ![forks](https://img.shields.io/github/forks/DeEpinGh0st/CVE-2022-22978.svg)
+- [https://github.com/Chocapikk/CVE-2022-29303](https://github.com/Chocapikk/CVE-2022-29303) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2022-29303.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2022-29303.svg)
+- [https://github.com/trhacknon/CVE-2022-29303](https://github.com/trhacknon/CVE-2022-29303) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2022-29303.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2022-29303.svg)
 
 
-## CVE-2022-1598
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2022-1192
+ The Turn off all comments WordPress plugin through 1.0 does not sanitise and escape the rows parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting
 
-- [https://github.com/V35HR4J/CVE-2022-1598](https://github.com/V35HR4J/CVE-2022-1598) :  ![starts](https://img.shields.io/github/stars/V35HR4J/CVE-2022-1598.svg) ![forks](https://img.shields.io/github/forks/V35HR4J/CVE-2022-1598.svg)
-
-
-## CVE-2022-1292
- The c_rehash script does not properly sanitise shell metacharacters to prevent command injection. This script is distributed by some operating systems in a manner where it is automatically executed. On such operating systems, an attacker could execute arbitrary commands with the privileges of the script. Use of the c_rehash script is considered obsolete and should be replaced by the OpenSSL rehash command line tool. Fixed in OpenSSL 3.0.3 (Affected 3.0.0,3.0.1,3.0.2). Fixed in OpenSSL 1.1.1o (Affected 1.1.1-1.1.1n). Fixed in OpenSSL 1.0.2ze (Affected 1.0.2-1.0.2zd).
-
-- [https://github.com/rama291041610/CVE-2022-1292](https://github.com/rama291041610/CVE-2022-1292) :  ![starts](https://img.shields.io/github/stars/rama291041610/CVE-2022-1292.svg) ![forks](https://img.shields.io/github/forks/rama291041610/CVE-2022-1292.svg)
-- [https://github.com/alcaparra/CVE-2022-1292](https://github.com/alcaparra/CVE-2022-1292) :  ![starts](https://img.shields.io/github/stars/alcaparra/CVE-2022-1292.svg) ![forks](https://img.shields.io/github/forks/alcaparra/CVE-2022-1292.svg)
+- [https://github.com/Mouhamedtec/CVE-2022-1192](https://github.com/Mouhamedtec/CVE-2022-1192) :  ![starts](https://img.shields.io/github/stars/Mouhamedtec/CVE-2022-1192.svg) ![forks](https://img.shields.io/github/forks/Mouhamedtec/CVE-2022-1192.svg)
 
 
-## CVE-2021-43408
- The &quot;Duplicate Post&quot; WordPress plugin up to and including version 1.1.9 is vulnerable to SQL Injection. SQL injection vulnerabilities occur when client supplied data is included within an SQL Query insecurely. SQL Injection can typically be exploited to read, modify and delete SQL table data. In many cases it also possible to exploit features of SQL server to execute system commands and/or access the local file system. This particular vulnerability can be exploited by any authenticated user who has been granted access to use the Duplicate Post plugin. By default, this is limited to Administrators, however the plugin presents the option to permit access to the Editor, Author, Contributor and Subscriber roles.
+## CVE-2021-46381
+ Local File Inclusion due to path traversal in D-Link DAP-1620 leads to unauthorized internal files reading [/etc/passwd] and [/etc/shadow].
 
-- [https://github.com/tuannq2299/CVE-2021-43408](https://github.com/tuannq2299/CVE-2021-43408) :  ![starts](https://img.shields.io/github/stars/tuannq2299/CVE-2021-43408.svg) ![forks](https://img.shields.io/github/forks/tuannq2299/CVE-2021-43408.svg)
-
-
-## CVE-2021-42013
- It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue only affects Apache 2.4.49 and Apache 2.4.50 and not earlier versions.
-
-- [https://github.com/viliuspovilaika/cve-2021-42013](https://github.com/viliuspovilaika/cve-2021-42013) :  ![starts](https://img.shields.io/github/stars/viliuspovilaika/cve-2021-42013.svg) ![forks](https://img.shields.io/github/forks/viliuspovilaika/cve-2021-42013.svg)
+- [https://github.com/JCPpeiqi/-cve-2021-46381](https://github.com/JCPpeiqi/-cve-2021-46381) :  ![starts](https://img.shields.io/github/stars/JCPpeiqi/-cve-2021-46381.svg) ![forks](https://img.shields.io/github/forks/JCPpeiqi/-cve-2021-46381.svg)
 
 
-## CVE-2021-3560
- It was found that polkit could be tricked into bypassing the credential checks for D-Bus requests, elevating the privileges of the requestor to the root user. This flaw could be used by an unprivileged local attacker to, for example, create a new local administrator. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
+## CVE-2021-34527
+ Windows Print Spooler Remote Code Execution Vulnerability
 
-- [https://github.com/GatoGamer1155/CVE-2021-3560](https://github.com/GatoGamer1155/CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/GatoGamer1155/CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/GatoGamer1155/CVE-2021-3560.svg)
-
-
-## CVE-2021-3156
- Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
-
-- [https://github.com/GatoGamer1155/CVE-2021-3156](https://github.com/GatoGamer1155/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/GatoGamer1155/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/GatoGamer1155/CVE-2021-3156.svg)
+- [https://github.com/lz-eng/cve-mitigation-fix](https://github.com/lz-eng/cve-mitigation-fix) :  ![starts](https://img.shields.io/github/stars/lz-eng/cve-mitigation-fix.svg) ![forks](https://img.shields.io/github/forks/lz-eng/cve-mitigation-fix.svg)
 
 
-## CVE-2021-0589
- In BTM_TryAllocateSCN of btm_scn.cc, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-180939982
+## CVE-2021-4034
+ A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
 
-- [https://github.com/Trinadh465/System_bt_AOSP10_r33_CVE-2021-0589](https://github.com/Trinadh465/System_bt_AOSP10_r33_CVE-2021-0589) :  ![starts](https://img.shields.io/github/stars/Trinadh465/System_bt_AOSP10_r33_CVE-2021-0589.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/System_bt_AOSP10_r33_CVE-2021-0589.svg)
-
-
-## CVE-2020-0674
- A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2020-0673, CVE-2020-0710, CVE-2020-0711, CVE-2020-0712, CVE-2020-0713, CVE-2020-0767.
-
-- [https://github.com/sbroekhoven/CVE-2020-0674](https://github.com/sbroekhoven/CVE-2020-0674) :  ![starts](https://img.shields.io/github/stars/sbroekhoven/CVE-2020-0674.svg) ![forks](https://img.shields.io/github/forks/sbroekhoven/CVE-2020-0674.svg)
-
-
-## CVE-2019-8942
- WordPress before 4.9.9 and 5.x before 5.0.1 allows remote code execution because an _wp_attached_file Post Meta entry can be changed to an arbitrary string, such as one ending with a .jpg?file.php substring. An attacker with author privileges can execute arbitrary code by uploading a crafted image containing PHP code in the Exif metadata. Exploitation can leverage CVE-2019-8943.
-
-- [https://github.com/tuannq2299/CVE-2019-8942](https://github.com/tuannq2299/CVE-2019-8942) :  ![starts](https://img.shields.io/github/stars/tuannq2299/CVE-2019-8942.svg) ![forks](https://img.shields.io/github/forks/tuannq2299/CVE-2019-8942.svg)
-
-
-## CVE-2018-6574
- Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10rc2 allow &quot;go get&quot; remote command execution during source code build, by leveraging the gcc or clang plugin feature, because -fplugin= and -plugin= arguments were not blocked.
-
-- [https://github.com/Exzh34/PentestLab-CVE-2018-6574-go-get-RCE](https://github.com/Exzh34/PentestLab-CVE-2018-6574-go-get-RCE) :  ![starts](https://img.shields.io/github/stars/Exzh34/PentestLab-CVE-2018-6574-go-get-RCE.svg) ![forks](https://img.shields.io/github/forks/Exzh34/PentestLab-CVE-2018-6574-go-get-RCE.svg)
+- [https://github.com/wudicainiao/cve-2021-4034](https://github.com/wudicainiao/cve-2021-4034) :  ![starts](https://img.shields.io/github/stars/wudicainiao/cve-2021-4034.svg) ![forks](https://img.shields.io/github/forks/wudicainiao/cve-2021-4034.svg)
 
