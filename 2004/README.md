@@ -62,3 +62,10 @@
 
 
 - [https://github.com/fibonascii/CVE-2004-0558](https://github.com/fibonascii/CVE-2004-0558) :  ![starts](https://img.shields.io/github/stars/fibonascii/CVE-2004-0558.svg) ![forks](https://img.shields.io/github/forks/fibonascii/CVE-2004-0558.svg)
+
+## CVE-2004-0230
+ TCP, when using a large Window Size, makes it easier for remote attackers to guess sequence numbers and cause a denial of service (connection loss) to persistent TCP connections by repeatedly injecting a TCP RST packet, especially in protocols that use long-lived connections, such as BGP.
+
+
+
+- [https://github.com/RakeshShinde97/CVE-2004-0230-TCP-Sequence-Number-Approximation-Based-Denial-of-Service](https://github.com/RakeshShinde97/CVE-2004-0230-TCP-Sequence-Number-Approximation-Based-Denial-of-Service) :  ![starts](https://img.shields.io/github/stars/RakeshShinde97/CVE-2004-0230-TCP-Sequence-Number-Approximation-Based-Denial-of-Service.svg) ![forks](https://img.shields.io/github/forks/RakeshShinde97/CVE-2004-0230-TCP-Sequence-Number-Approximation-Based-Denial-of-Service.svg)
