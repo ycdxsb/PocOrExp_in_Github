@@ -639,6 +639,13 @@
 
 - [https://github.com/nogoegst/grill](https://github.com/nogoegst/grill) :  ![starts](https://img.shields.io/github/stars/nogoegst/grill.svg) ![forks](https://img.shields.io/github/forks/nogoegst/grill.svg)
 
+## CVE-2016-5649
+ A vulnerability is in the 'BSW_cxttongr.htm' page of the Netgear DGN2200, version DGN2200-V1.0.0.50_7.0.50, and DGND3700, version DGND3700-V1.0.0.17_1.0.17, which can allow a remote attacker to access this page without any authentication. When processed, it exposes the admin password in clear text before it gets redirected to absw_vfysucc.cgia. An attacker can use this password to gain administrator access to the targeted router's web interface.
+
+
+
+- [https://github.com/lilloX/routerPWN](https://github.com/lilloX/routerPWN) :  ![starts](https://img.shields.io/github/stars/lilloX/routerPWN.svg) ![forks](https://img.shields.io/github/forks/lilloX/routerPWN.svg)
+
 ## CVE-2016-5640
  Directory traversal vulnerability in cgi-bin/rftest.cgi on Crestron AirMedia AM-100 devices with firmware before 1.4.0.13 allows remote attackers to execute arbitrary commands via a .. (dot dot) in the ATE_COMMAND parameter.
 
