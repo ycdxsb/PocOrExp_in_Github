@@ -34970,13 +34970,6 @@
 
 
 ## 2008
-## CVE-2008-7220
- Unspecified vulnerability in Prototype JavaScript framework (prototypejs) before 1.6.0.2 allows attackers to make &quot;cross-site ajax requests&quot; via unknown vectors.
-
-
-
-- [https://github.com/followboy1999/CVE-2008-7220](https://github.com/followboy1999/CVE-2008-7220) :  ![starts](https://img.shields.io/github/stars/followboy1999/CVE-2008-7220.svg) ![forks](https://img.shields.io/github/forks/followboy1999/CVE-2008-7220.svg)
-
 ## CVE-2008-6970
  SQL injection vulnerability in dosearch.inc.php in UBB.threads 7.3.1 and earlier allows remote attackers to execute arbitrary SQL commands via the Forum[] array parameter.
 
