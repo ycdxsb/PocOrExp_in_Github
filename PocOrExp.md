@@ -34816,6 +34816,13 @@
 
 - [https://github.com/quinn-samuel-perry/CVE-2010-4669](https://github.com/quinn-samuel-perry/CVE-2010-4669) :  ![starts](https://img.shields.io/github/stars/quinn-samuel-perry/CVE-2010-4669.svg) ![forks](https://img.shields.io/github/forks/quinn-samuel-perry/CVE-2010-4669.svg)
 
+## CVE-2010-4502
+ Integer overflow in KmxSbx.sys 6.2.0.22 in CA Internet Security Suite Plus 2010 allows local users to cause a denial of service (pool corruption) and execute arbitrary code via crafted arguments to the 0x88000080 IOCTL, which triggers a buffer overflow.
+
+
+
+- [https://github.com/Exploitables/CVE-2010-4502](https://github.com/Exploitables/CVE-2010-4502) :  ![starts](https://img.shields.io/github/stars/Exploitables/CVE-2010-4502.svg) ![forks](https://img.shields.io/github/forks/Exploitables/CVE-2010-4502.svg)
+
 ## CVE-2010-4476
  The Double.parseDouble method in Java Runtime Environment (JRE) in Oracle Java SE and Java for Business 6 Update 23 and earlier, 5.0 Update 27 and earlier, and 1.4.2_29 and earlier, as used in OpenJDK, Apache, JBossweb, and other products, allows remote attackers to cause a denial of service via a crafted string that triggers an infinite loop of estimations during conversion to a double-precision binary floating-point number, as demonstrated using 2.2250738585072012e-308.
 
