@@ -5,6 +5,13 @@
 
 - [https://github.com/Balasys/dheater](https://github.com/Balasys/dheater) :  ![starts](https://img.shields.io/github/stars/Balasys/dheater.svg) ![forks](https://img.shields.io/github/forks/Balasys/dheater.svg)
 
+## CVE-2002-1614
+ Buffer overflow in HP Tru64 UNIX allows local users to execute arbitrary code via a long argument to /usr/bin/at.
+
+
+
+- [https://github.com/wlensinas/CVE-2002-1614](https://github.com/wlensinas/CVE-2002-1614) :  ![starts](https://img.shields.io/github/stars/wlensinas/CVE-2002-1614.svg) ![forks](https://img.shields.io/github/forks/wlensinas/CVE-2002-1614.svg)
+
 ## CVE-2002-0991
  Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and earlier, based on the Sharity package, allows local users to gain root privileges via long (1) -U, (2) -D, (3) -P, (4) -S, (5) -N, or (6) -u parameters.
 
