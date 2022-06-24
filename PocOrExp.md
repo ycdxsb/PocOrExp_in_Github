@@ -34763,7 +34763,7 @@
 
 
 
-- [https://github.com/puppetlabs/puppetlabs-cve20113872](https://github.com/puppetlabs/puppetlabs-cve20113872) :  ![starts](https://img.shields.io/github/stars/puppetlabs/puppetlabs-cve20113872.svg) ![forks](https://img.shields.io/github/forks/puppetlabs/puppetlabs-cve20113872.svg)
+- [https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872](https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872) :  ![starts](https://img.shields.io/github/stars/puppetlabs-toy-chest/puppetlabs-cve20113872.svg) ![forks](https://img.shields.io/github/forks/puppetlabs-toy-chest/puppetlabs-cve20113872.svg)
 
 ## CVE-2011-3556
  Unspecified vulnerability in the Java Runtime Environment component in Oracle Java SE JDK and JRE 7, 6 Update 27 and earlier, 5.0 Update 31 and earlier, 1.4.2_33 and earlier, and JRockit R28.1.4 and earlier allows remote attackers to affect confidentiality, integrity, and availability, related to RMI, a different vulnerability than CVE-2011-3557.
