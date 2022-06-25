@@ -316,13 +316,6 @@
 
 - [https://github.com/n4r1b/WinAce-POC](https://github.com/n4r1b/WinAce-POC) :  ![starts](https://img.shields.io/github/stars/n4r1b/WinAce-POC.svg) ![forks](https://img.shields.io/github/forks/n4r1b/WinAce-POC.svg)
 
-## CVE-2018-20175
- rdesktop versions up to and including v1.8.3 contains several Integer Signedness errors that lead to Out-Of-Bounds Reads in the file mcs.c and result in a Denial of Service (segfault).
-
-
-
-- [https://github.com/ahaShiyu/CVE-2018-20175](https://github.com/ahaShiyu/CVE-2018-20175) :  ![starts](https://img.shields.io/github/stars/ahaShiyu/CVE-2018-20175.svg) ![forks](https://img.shields.io/github/forks/ahaShiyu/CVE-2018-20175.svg)
-
 ## CVE-2018-20165
  Cross-site scripting (XSS) vulnerability in OpenText Portal 7.4.4 allows remote attackers to inject arbitrary web script or HTML via the vgnextoid parameter to a menuitem URI.
 
@@ -929,9 +922,9 @@
 
 - [https://github.com/cved-sources/cve-2018-16509](https://github.com/cved-sources/cve-2018-16509) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2018-16509.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2018-16509.svg)
 
-- [https://github.com/AssassinUKG/CVE_2018_16509](https://github.com/AssassinUKG/CVE_2018_16509) :  ![starts](https://img.shields.io/github/stars/AssassinUKG/CVE_2018_16509.svg) ![forks](https://img.shields.io/github/forks/AssassinUKG/CVE_2018_16509.svg)
-
 - [https://github.com/rhpco/CVE-2018-16509](https://github.com/rhpco/CVE-2018-16509) :  ![starts](https://img.shields.io/github/stars/rhpco/CVE-2018-16509.svg) ![forks](https://img.shields.io/github/forks/rhpco/CVE-2018-16509.svg)
+
+- [https://github.com/AssassinUKG/CVE_2018_16509](https://github.com/AssassinUKG/CVE_2018_16509) :  ![starts](https://img.shields.io/github/stars/AssassinUKG/CVE_2018_16509.svg) ![forks](https://img.shields.io/github/forks/AssassinUKG/CVE_2018_16509.svg)
 
 ## CVE-2018-16492
  A prototype pollution vulnerability was found in module extend &lt;2.0.2, ~&lt;3.0.2 that allows an attacker to inject arbitrary properties onto Object.prototype.
@@ -1201,7 +1194,7 @@
 
 - [https://github.com/u238/grafana-CVE-2018-15727](https://github.com/u238/grafana-CVE-2018-15727) :  ![starts](https://img.shields.io/github/stars/u238/grafana-CVE-2018-15727.svg) ![forks](https://img.shields.io/github/forks/u238/grafana-CVE-2018-15727.svg)
 
-- [https://github.com/svnsyn/CVE-2018-15727](https://github.com/svnsyn/CVE-2018-15727) :  ![starts](https://img.shields.io/github/stars/svnsyn/CVE-2018-15727.svg) ![forks](https://img.shields.io/github/forks/svnsyn/CVE-2018-15727.svg)
+- [https://github.com/grimbelhax/CVE-2018-15727](https://github.com/grimbelhax/CVE-2018-15727) :  ![starts](https://img.shields.io/github/stars/grimbelhax/CVE-2018-15727.svg) ![forks](https://img.shields.io/github/forks/grimbelhax/CVE-2018-15727.svg)
 
 ## CVE-2018-15686
  A vulnerability in unit_deserialize of systemd allows an attacker to supply arbitrary state across systemd re-execution via NotifyAccess. This can be used to improperly influence systemd execution and possibly lead to root privilege escalation. Affected releases are systemd versions up to and including 239.
@@ -1490,9 +1483,9 @@
 
 
 
-- [https://github.com/ossf-cve-benchmark/CVE-2018-13797](https://github.com/ossf-cve-benchmark/CVE-2018-13797) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2018-13797.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2018-13797.svg)
-
 - [https://github.com/dsp-testing/CVE-2018-13797](https://github.com/dsp-testing/CVE-2018-13797) :  ![starts](https://img.shields.io/github/stars/dsp-testing/CVE-2018-13797.svg) ![forks](https://img.shields.io/github/forks/dsp-testing/CVE-2018-13797.svg)
+
+- [https://github.com/ossf-cve-benchmark/CVE-2018-13797](https://github.com/ossf-cve-benchmark/CVE-2018-13797) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2018-13797.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2018-13797.svg)
 
 ## CVE-2018-13784
  PrestaShop before 1.6.1.20 and 1.7.x before 1.7.3.4 mishandles cookie encryption in Cookie.php, Rinjdael.php, and Blowfish.php.
@@ -2169,9 +2162,9 @@
 
 - [https://github.com/ABIZCHI/CVE-2018-9995_dvr_credentials](https://github.com/ABIZCHI/CVE-2018-9995_dvr_credentials) :  ![starts](https://img.shields.io/github/stars/ABIZCHI/CVE-2018-9995_dvr_credentials.svg) ![forks](https://img.shields.io/github/forks/ABIZCHI/CVE-2018-9995_dvr_credentials.svg)
 
-- [https://github.com/TateYdq/CVE-2018-9995-ModifiedByGwolfs](https://github.com/TateYdq/CVE-2018-9995-ModifiedByGwolfs) :  ![starts](https://img.shields.io/github/stars/TateYdq/CVE-2018-9995-ModifiedByGwolfs.svg) ![forks](https://img.shields.io/github/forks/TateYdq/CVE-2018-9995-ModifiedByGwolfs.svg)
-
 - [https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995](https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995) :  ![starts](https://img.shields.io/github/stars/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995.svg) ![forks](https://img.shields.io/github/forks/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995.svg)
+
+- [https://github.com/TateYdq/CVE-2018-9995-ModifiedByGwolfs](https://github.com/TateYdq/CVE-2018-9995-ModifiedByGwolfs) :  ![starts](https://img.shields.io/github/stars/TateYdq/CVE-2018-9995-ModifiedByGwolfs.svg) ![forks](https://img.shields.io/github/forks/TateYdq/CVE-2018-9995-ModifiedByGwolfs.svg)
 
 ## CVE-2018-9958
  This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader 9.0.1.1049. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Text Annotations. When setting the point attribute, the process does not properly validate the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process. Was ZDI-CAN-5620.
@@ -2518,17 +2511,17 @@
 
 - [https://github.com/5l1v3r1/rtfkit](https://github.com/5l1v3r1/rtfkit) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/rtfkit.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/rtfkit.svg)
 
-- [https://github.com/delina1/CVE-2018-8174](https://github.com/delina1/CVE-2018-8174) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174.svg)
-
 - [https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/DarkFlameMaster-bit/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/DarkFlameMaster-bit/CVE-2018-8174_EXP.svg)
+
+- [https://github.com/delina1/CVE-2018-8174](https://github.com/delina1/CVE-2018-8174) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174.svg)
 
 - [https://github.com/lisinan988/CVE-2018-8174-exp](https://github.com/lisinan988/CVE-2018-8174-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2018-8174-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2018-8174-exp.svg)
 
 - [https://github.com/likescam/CVE-2018-8174-msf](https://github.com/likescam/CVE-2018-8174-msf) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2018-8174-msf.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2018-8174-msf.svg)
 
-- [https://github.com/ericisnotrealname/CVE-2018-8174_EXP](https://github.com/ericisnotrealname/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/ericisnotrealname/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/ericisnotrealname/CVE-2018-8174_EXP.svg)
-
 - [https://github.com/delina1/CVE-2018-8174_EXP](https://github.com/delina1/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174_EXP.svg)
+
+- [https://github.com/ericisnotrealname/CVE-2018-8174_EXP](https://github.com/ericisnotrealname/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/ericisnotrealname/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/ericisnotrealname/CVE-2018-8174_EXP.svg)
 
 - [https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-) :  ![starts](https://img.shields.io/github/stars/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-.svg) ![forks](https://img.shields.io/github/forks/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-.svg)
 
@@ -2800,9 +2793,9 @@
 
 - [https://github.com/vphnguyen/ANM_CVE-2018-7600](https://github.com/vphnguyen/ANM_CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/vphnguyen/ANM_CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/vphnguyen/ANM_CVE-2018-7600.svg)
 
-- [https://github.com/0xAJ2K/CVE-2018-7600](https://github.com/0xAJ2K/CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/0xAJ2K/CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/0xAJ2K/CVE-2018-7600.svg)
-
 - [https://github.com/happynote3966/CVE-2018-7600](https://github.com/happynote3966/CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/happynote3966/CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/happynote3966/CVE-2018-7600.svg)
+
+- [https://github.com/0xAJ2K/CVE-2018-7600](https://github.com/0xAJ2K/CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/0xAJ2K/CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/0xAJ2K/CVE-2018-7600.svg)
 
 - [https://github.com/0xkasra/CVE-2018-7600](https://github.com/0xkasra/CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2018-7600.svg)
 
@@ -3224,9 +3217,9 @@
 
 - [https://github.com/BlackRouter/cve-2018-6389](https://github.com/BlackRouter/cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/BlackRouter/cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/BlackRouter/cve-2018-6389.svg)
 
-- [https://github.com/Jetserver/CVE-2018-6389-FIX](https://github.com/Jetserver/CVE-2018-6389-FIX) :  ![starts](https://img.shields.io/github/stars/Jetserver/CVE-2018-6389-FIX.svg) ![forks](https://img.shields.io/github/forks/Jetserver/CVE-2018-6389-FIX.svg)
-
 - [https://github.com/rastating/modsecurity-cve-2018-6389](https://github.com/rastating/modsecurity-cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/rastating/modsecurity-cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/rastating/modsecurity-cve-2018-6389.svg)
+
+- [https://github.com/Jetserver/CVE-2018-6389-FIX](https://github.com/Jetserver/CVE-2018-6389-FIX) :  ![starts](https://img.shields.io/github/stars/Jetserver/CVE-2018-6389-FIX.svg) ![forks](https://img.shields.io/github/forks/Jetserver/CVE-2018-6389-FIX.svg)
 
 - [https://github.com/thechrono13/PoC---CVE-2018-6389](https://github.com/thechrono13/PoC---CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/thechrono13/PoC---CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/thechrono13/PoC---CVE-2018-6389.svg)
 
@@ -3419,9 +3412,9 @@
 
 - [https://github.com/ydl555/CVE-2018-4878](https://github.com/ydl555/CVE-2018-4878) :  ![starts](https://img.shields.io/github/stars/ydl555/CVE-2018-4878.svg) ![forks](https://img.shields.io/github/forks/ydl555/CVE-2018-4878.svg)
 
-- [https://github.com/Yable/CVE-2018-4878](https://github.com/Yable/CVE-2018-4878) :  ![starts](https://img.shields.io/github/stars/Yable/CVE-2018-4878.svg) ![forks](https://img.shields.io/github/forks/Yable/CVE-2018-4878.svg)
-
 - [https://github.com/lvyoshino/CVE-2018-4878](https://github.com/lvyoshino/CVE-2018-4878) :  ![starts](https://img.shields.io/github/stars/lvyoshino/CVE-2018-4878.svg) ![forks](https://img.shields.io/github/forks/lvyoshino/CVE-2018-4878.svg)
+
+- [https://github.com/Yable/CVE-2018-4878](https://github.com/Yable/CVE-2018-4878) :  ![starts](https://img.shields.io/github/stars/Yable/CVE-2018-4878.svg) ![forks](https://img.shields.io/github/forks/Yable/CVE-2018-4878.svg)
 
 ## CVE-2018-4441
  A memory corruption issue was addressed with improved memory handling. This issue affected versions prior to iOS 12.1.1, tvOS 12.1.1, watchOS 5.1.2, Safari 12.0.2, iTunes 12.9.2 for Windows, iCloud for Windows 7.9.
