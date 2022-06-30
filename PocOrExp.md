@@ -35315,7 +35315,7 @@
 
 - [https://github.com/0xkasra/CVE-2009-2265](https://github.com/0xkasra/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2009-2265.svg)
 
-- [https://github.com/0zvxr/CVE-2009-2265](https://github.com/0zvxr/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/0zvxr/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/0zvxr/CVE-2009-2265.svg)
+- [https://github.com/p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/p1ckzi/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/p1ckzi/CVE-2009-2265.svg)
 
 - [https://github.com/k4u5h41/CVE-2009-2265](https://github.com/k4u5h41/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2009-2265.svg)
 
