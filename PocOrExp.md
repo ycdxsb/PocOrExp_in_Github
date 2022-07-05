@@ -34204,8 +34204,6 @@
 
 
 
-- [https://github.com/fi01/libput_user_exploit](https://github.com/fi01/libput_user_exploit) :  ![starts](https://img.shields.io/github/stars/fi01/libput_user_exploit.svg) ![forks](https://img.shields.io/github/forks/fi01/libput_user_exploit.svg)
-
 - [https://github.com/timwr/CVE-2013-6282](https://github.com/timwr/CVE-2013-6282) :  ![starts](https://img.shields.io/github/stars/timwr/CVE-2013-6282.svg) ![forks](https://img.shields.io/github/forks/timwr/CVE-2013-6282.svg)
 
 - [https://github.com/jeboo/bypasslkm](https://github.com/jeboo/bypasslkm) :  ![starts](https://img.shields.io/github/stars/jeboo/bypasslkm.svg) ![forks](https://img.shields.io/github/forks/jeboo/bypasslkm.svg)
@@ -34442,9 +34440,9 @@
 
 - [https://github.com/GrrrDog/ACEDcup](https://github.com/GrrrDog/ACEDcup) :  ![starts](https://img.shields.io/github/stars/GrrrDog/ACEDcup.svg) ![forks](https://img.shields.io/github/forks/GrrrDog/ACEDcup.svg)
 
-- [https://github.com/SPlayer1248/Payload_CVE_2013_2186](https://github.com/SPlayer1248/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/SPlayer1248/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/SPlayer1248/Payload_CVE_2013_2186.svg)
-
 - [https://github.com/SPlayer1248/CVE_2013_2186](https://github.com/SPlayer1248/CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/SPlayer1248/CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/SPlayer1248/CVE_2013_2186.svg)
+
+- [https://github.com/SPlayer1248/Payload_CVE_2013_2186](https://github.com/SPlayer1248/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/SPlayer1248/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/SPlayer1248/Payload_CVE_2013_2186.svg)
 
 ## CVE-2013-2171
  The vm_map_lookup function in sys/vm/vm_map.c in the mmap implementation in the kernel in FreeBSD 9.0 through 9.1-RELEASE-p4 does not properly determine whether a task should have write access to a memory location, which allows local users to bypass filesystem write permissions and consequently gain privileges via a crafted application that leverages read permissions, and makes mmap and ptrace system calls.
