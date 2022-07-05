@@ -135,9 +135,9 @@
 
 - [https://github.com/chipironcin/CVE-2016-10033](https://github.com/chipironcin/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/chipironcin/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/chipironcin/CVE-2016-10033.svg)
 
-- [https://github.com/pedro823/cve-2016-10033-45](https://github.com/pedro823/cve-2016-10033-45) :  ![starts](https://img.shields.io/github/stars/pedro823/cve-2016-10033-45.svg) ![forks](https://img.shields.io/github/forks/pedro823/cve-2016-10033-45.svg)
-
 - [https://github.com/awidardi/opsxcq-cve-2016-10033](https://github.com/awidardi/opsxcq-cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/awidardi/opsxcq-cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/awidardi/opsxcq-cve-2016-10033.svg)
+
+- [https://github.com/pedro823/cve-2016-10033-45](https://github.com/pedro823/cve-2016-10033-45) :  ![starts](https://img.shields.io/github/stars/pedro823/cve-2016-10033-45.svg) ![forks](https://img.shields.io/github/forks/pedro823/cve-2016-10033-45.svg)
 
 - [https://github.com/j4k0m/CVE-2016-10033](https://github.com/j4k0m/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/j4k0m/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/j4k0m/CVE-2016-10033.svg)
 
@@ -194,6 +194,8 @@
 - [https://github.com/dangokyo/CVE-2016-9079](https://github.com/dangokyo/CVE-2016-9079) :  ![starts](https://img.shields.io/github/stars/dangokyo/CVE-2016-9079.svg) ![forks](https://img.shields.io/github/forks/dangokyo/CVE-2016-9079.svg)
 
 - [https://github.com/LakshmiDesai/CVE-2016-9079](https://github.com/LakshmiDesai/CVE-2016-9079) :  ![starts](https://img.shields.io/github/stars/LakshmiDesai/CVE-2016-9079.svg) ![forks](https://img.shields.io/github/forks/LakshmiDesai/CVE-2016-9079.svg)
+
+- [https://github.com/Tau-hub/Firefox-CVE-2016-9079](https://github.com/Tau-hub/Firefox-CVE-2016-9079) :  ![starts](https://img.shields.io/github/stars/Tau-hub/Firefox-CVE-2016-9079.svg) ![forks](https://img.shields.io/github/forks/Tau-hub/Firefox-CVE-2016-9079.svg)
 
 ## CVE-2016-9066
  A buffer overflow resulting in a potentially exploitable crash due to memory allocation issues when handling large amounts of incoming data. This vulnerability affects Thunderbird &lt; 45.5, Firefox ESR &lt; 45.5, and Firefox &lt; 50.
@@ -745,9 +747,9 @@
 
 - [https://github.com/DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/DanielEbert/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/DanielEbert/CVE-2016-5195.svg)
 
-- [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
-
 - [https://github.com/linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/linhlt247/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/linhlt247/DirtyCOW_CVE-2016-5195.svg)
+
+- [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
 
 - [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
 
