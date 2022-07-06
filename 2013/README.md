@@ -24,6 +24,8 @@
 
 
 
+- [https://github.com/fi01/libput_user_exploit](https://github.com/fi01/libput_user_exploit) :  ![starts](https://img.shields.io/github/stars/fi01/libput_user_exploit.svg) ![forks](https://img.shields.io/github/forks/fi01/libput_user_exploit.svg)
+
 - [https://github.com/timwr/CVE-2013-6282](https://github.com/timwr/CVE-2013-6282) :  ![starts](https://img.shields.io/github/stars/timwr/CVE-2013-6282.svg) ![forks](https://img.shields.io/github/forks/timwr/CVE-2013-6282.svg)
 
 - [https://github.com/jeboo/bypasslkm](https://github.com/jeboo/bypasslkm) :  ![starts](https://img.shields.io/github/stars/jeboo/bypasslkm.svg) ![forks](https://img.shields.io/github/forks/jeboo/bypasslkm.svg)
