@@ -32959,7 +32959,7 @@
 
 - [https://github.com/0x00-0x00/CVE-2015-3224](https://github.com/0x00-0x00/CVE-2015-3224) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2015-3224.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2015-3224.svg)
 
-- [https://github.com/xda3m00n/CVE-2015-3224-](https://github.com/xda3m00n/CVE-2015-3224-) :  ![starts](https://img.shields.io/github/stars/xda3m00n/CVE-2015-3224-.svg) ![forks](https://img.shields.io/github/forks/xda3m00n/CVE-2015-3224-.svg)
+- [https://github.com/n000xy/CVE-2015-3224-](https://github.com/n000xy/CVE-2015-3224-) :  ![starts](https://img.shields.io/github/stars/n000xy/CVE-2015-3224-.svg) ![forks](https://img.shields.io/github/forks/n000xy/CVE-2015-3224-.svg)
 
 ## CVE-2015-3152
  Oracle MySQL before 5.7.3, Oracle MySQL Connector/C (aka libmysqlclient) before 6.1.3, and MariaDB before 5.5.44 use the --ssl option to mean that SSL is optional, which allows man-in-the-middle attackers to spoof servers via a cleartext-downgrade attack, aka a &quot;BACKRONYM&quot; attack.
