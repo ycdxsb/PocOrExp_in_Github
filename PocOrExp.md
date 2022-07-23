@@ -36524,6 +36524,13 @@
 
 - [https://github.com/Balasys/dheater](https://github.com/Balasys/dheater) :  ![starts](https://img.shields.io/github/stars/Balasys/dheater.svg) ![forks](https://img.shields.io/github/forks/Balasys/dheater.svg)
 
+## CVE-2002-2420
+ site_searcher.cgi in Super Site Searcher allows remote attackers to execute arbitrary commands via shell metacharacters in the page parameter.
+
+
+
+- [https://github.com/krdsploit/CVE-2002-2420](https://github.com/krdsploit/CVE-2002-2420) :  ![starts](https://img.shields.io/github/stars/krdsploit/CVE-2002-2420.svg) ![forks](https://img.shields.io/github/forks/krdsploit/CVE-2002-2420.svg)
+
 ## CVE-2002-1614
  Buffer overflow in HP Tru64 UNIX allows local users to execute arbitrary code via a long argument to /usr/bin/at.
 
