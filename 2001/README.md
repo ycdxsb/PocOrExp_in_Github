@@ -46,3 +46,10 @@
 
 
 - [https://github.com/alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2001-0680.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2001-0680.svg)
+
+## CVE-2001-0550
+ wu-ftpd 2.6.1 allows remote attackers to execute arbitrary commands via a &quot;~{&quot; argument to commands such as CWD, which is not properly handled by the glob function (ftpglob).
+
+
+
+- [https://github.com/gilberto47831/Network-Filesystem-Forensics](https://github.com/gilberto47831/Network-Filesystem-Forensics) :  ![starts](https://img.shields.io/github/stars/gilberto47831/Network-Filesystem-Forensics.svg) ![forks](https://img.shields.io/github/forks/gilberto47831/Network-Filesystem-Forensics.svg)
