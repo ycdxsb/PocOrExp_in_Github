@@ -35857,26 +35857,12 @@
 
 - [https://github.com/johnreginald/CVE-2010-4258](https://github.com/johnreginald/CVE-2010-4258) :  ![starts](https://img.shields.io/github/stars/johnreginald/CVE-2010-4258.svg) ![forks](https://img.shields.io/github/forks/johnreginald/CVE-2010-4258.svg)
 
-## CVE-2010-4221
- Multiple stack-based buffer overflows in the pr_netio_telnet_gets function in netio.c in ProFTPD before 1.3.3c allow remote attackers to execute arbitrary code via vectors involving a TELNET IAC escape character to a (1) FTP or (2) FTPS server.
-
-
-
-- [https://github.com/M31MOTH/cve-2010-4221](https://github.com/M31MOTH/cve-2010-4221) :  ![starts](https://img.shields.io/github/stars/M31MOTH/cve-2010-4221.svg) ![forks](https://img.shields.io/github/forks/M31MOTH/cve-2010-4221.svg)
-
 ## CVE-2010-3971
  Use-after-free vulnerability in the CSharedStyleSheet::Notify function in the Cascading Style Sheets (CSS) parser in mshtml.dll, as used in Microsoft Internet Explorer 6 through 8 and other products, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a self-referential @import rule in a stylesheet, aka &quot;CSS Memory Corruption Vulnerability.&quot;
 
 
 
 - [https://github.com/nektra/CVE-2010-3971-hotpatch](https://github.com/nektra/CVE-2010-3971-hotpatch) :  ![starts](https://img.shields.io/github/stars/nektra/CVE-2010-3971-hotpatch.svg) ![forks](https://img.shields.io/github/forks/nektra/CVE-2010-3971-hotpatch.svg)
-
-## CVE-2010-3904
- The rds_page_copy_user function in net/rds/page.c in the Reliable Datagram Sockets (RDS) protocol implementation in the Linux kernel before 2.6.36 does not properly validate addresses obtained from user space, which allows local users to gain privileges via crafted use of the sendmsg and recvmsg system calls.
-
-
-
-- [https://github.com/redhatkaty/-cve-2010-3904-report](https://github.com/redhatkaty/-cve-2010-3904-report) :  ![starts](https://img.shields.io/github/stars/redhatkaty/-cve-2010-3904-report.svg) ![forks](https://img.shields.io/github/forks/redhatkaty/-cve-2010-3904-report.svg)
 
 ## CVE-2010-3847
  elf/dl-load.c in ld.so in the GNU C Library (aka glibc or libc6) through 2.11.2, and 2.12.x through 2.12.1, does not properly handle a value of $ORIGIN for the LD_AUDIT environment variable, which allows local users to gain privileges via a crafted dynamic shared object (DSO) located in an arbitrary directory.
@@ -35912,13 +35898,6 @@
 
 
 - [https://github.com/whiteHat001/cve-2010-3333](https://github.com/whiteHat001/cve-2010-3333) :  ![starts](https://img.shields.io/github/stars/whiteHat001/cve-2010-3333.svg) ![forks](https://img.shields.io/github/forks/whiteHat001/cve-2010-3333.svg)
-
-## CVE-2010-3332
- Microsoft .NET Framework 1.1 SP1, 2.0 SP1 and SP2, 3.5, 3.5 SP1, 3.5.1, and 4.0, as used for ASP.NET in Microsoft Internet Information Services (IIS), provides detailed error codes during decryption attempts, which allows remote attackers to decrypt and modify encrypted View State (aka __VIEWSTATE) form data, and possibly forge cookies or read application files, via a padding oracle attack, aka &quot;ASP.NET Padding Oracle Vulnerability.&quot;
-
-
-
-- [https://github.com/bongbongco/MS10-070](https://github.com/bongbongco/MS10-070) :  ![starts](https://img.shields.io/github/stars/bongbongco/MS10-070.svg) ![forks](https://img.shields.io/github/forks/bongbongco/MS10-070.svg)
 
 ## CVE-2010-3301
  The IA32 system call emulation functionality in arch/x86/ia32/ia32entry.S in the Linux kernel before 2.6.36-rc4-git2 on the x86_64 platform does not zero extend the %eax register after the 32-bit entry path to ptrace is used, which allows local users to gain privileges by triggering an out-of-bounds access to the system call table using the %rax register.  NOTE: this vulnerability exists because of a CVE-2007-4573 regression.
