@@ -95,13 +95,6 @@
 
 - [https://github.com/hackingyseguridad/dnspoison](https://github.com/hackingyseguridad/dnspoison) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/dnspoison.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/dnspoison.svg)
 
-## CVE-2008-0244
- SAP MaxDB 7.6.03 build 007 and earlier allows remote attackers to execute arbitrary commands via &quot;&amp;&amp;&quot; and other shell metacharacters in exec_sdbinfo and other unspecified commands, which are executed when MaxDB invokes cons.exe.
-
-
-
-- [https://github.com/gregkcarson/sapmdbret](https://github.com/gregkcarson/sapmdbret) :  ![starts](https://img.shields.io/github/stars/gregkcarson/sapmdbret.svg) ![forks](https://img.shields.io/github/forks/gregkcarson/sapmdbret.svg)
-
 ## CVE-2008-0228
  Cross-site request forgery (CSRF) vulnerability in apply.cgi in the Linksys WRT54GL Wireless-G Broadband Router with firmware 4.30.9 allows remote attackers to perform actions as administrators.
 
