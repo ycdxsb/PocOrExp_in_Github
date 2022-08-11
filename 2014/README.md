@@ -268,9 +268,9 @@
 
 - [https://github.com/proclnas/ShellShock-CGI-Scan](https://github.com/proclnas/ShellShock-CGI-Scan) :  ![starts](https://img.shields.io/github/stars/proclnas/ShellShock-CGI-Scan.svg) ![forks](https://img.shields.io/github/forks/proclnas/ShellShock-CGI-Scan.svg)
 
-- [https://github.com/Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2014-6271.svg)
-
 - [https://github.com/ryeyao/CVE-2014-6271_Test](https://github.com/ryeyao/CVE-2014-6271_Test) :  ![starts](https://img.shields.io/github/stars/ryeyao/CVE-2014-6271_Test.svg) ![forks](https://img.shields.io/github/forks/ryeyao/CVE-2014-6271_Test.svg)
+
+- [https://github.com/Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2014-6271.svg)
 
 - [https://github.com/zalalov/CVE-2014-6271](https://github.com/zalalov/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/zalalov/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/zalalov/CVE-2014-6271.svg)
 
@@ -292,9 +292,9 @@
 
 - [https://github.com/x2c3z4/shellshock_crawler](https://github.com/x2c3z4/shellshock_crawler) :  ![starts](https://img.shields.io/github/stars/x2c3z4/shellshock_crawler.svg) ![forks](https://img.shields.io/github/forks/x2c3z4/shellshock_crawler.svg)
 
-- [https://github.com/wenyu1999/bash-shellshock](https://github.com/wenyu1999/bash-shellshock) :  ![starts](https://img.shields.io/github/stars/wenyu1999/bash-shellshock.svg) ![forks](https://img.shields.io/github/forks/wenyu1999/bash-shellshock.svg)
-
 - [https://github.com/cved-sources/cve-2014-6271](https://github.com/cved-sources/cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2014-6271.svg)
+
+- [https://github.com/wenyu1999/bash-shellshock](https://github.com/wenyu1999/bash-shellshock) :  ![starts](https://img.shields.io/github/stars/wenyu1999/bash-shellshock.svg) ![forks](https://img.shields.io/github/forks/wenyu1999/bash-shellshock.svg)
 
 - [https://github.com/villadora/CVE-2014-6271](https://github.com/villadora/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/villadora/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/villadora/CVE-2014-6271.svg)
 
@@ -304,9 +304,9 @@
 
 - [https://github.com/cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Shellbash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Shellbash-CVE-2014-6271.svg)
 
-- [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
-
 - [https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-](https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-) :  ![starts](https://img.shields.io/github/stars/rashmikadileeshara/CVE-2014-6271-Shellshock-.svg) ![forks](https://img.shields.io/github/forks/rashmikadileeshara/CVE-2014-6271-Shellshock-.svg)
+
+- [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
 
 - [https://github.com/0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2014-6271.svg)
 
@@ -314,11 +314,11 @@
 
 - [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
 
+- [https://github.com/trhacknon/CVE-2014-6271](https://github.com/trhacknon/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2014-6271.svg)
+
 - [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
 
 - [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
-
-- [https://github.com/trhacknon/CVE-2014-6271](https://github.com/trhacknon/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2014-6271.svg)
 
 - [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
 
@@ -582,6 +582,13 @@
 
 - [https://github.com/azet/CVE-2014-3466_PoC](https://github.com/azet/CVE-2014-3466_PoC) :  ![starts](https://img.shields.io/github/stars/azet/CVE-2014-3466_PoC.svg) ![forks](https://img.shields.io/github/forks/azet/CVE-2014-3466_PoC.svg)
 
+## CVE-2014-3341
+ The SNMP module in Cisco NX-OS 7.0(3)N1(1) and earlier on Nexus 5000 and 6000 devices provides different error messages for invalid requests depending on whether the VLAN ID exists, which allows remote attackers to enumerate VLANs via a series of requests, aka Bug ID CSCup85616.
+
+
+
+- [https://github.com/ehabhussein/snmpvlan](https://github.com/ehabhussein/snmpvlan) :  ![starts](https://img.shields.io/github/stars/ehabhussein/snmpvlan.svg) ![forks](https://img.shields.io/github/forks/ehabhussein/snmpvlan.svg)
+
 ## CVE-2014-3153
  The futex_requeue function in kernel/futex.c in the Linux kernel through 3.14.5 does not ensure that calls have two different futex addresses, which allows local users to gain privileges via a crafted FUTEX_REQUEUE command that facilitates unsafe waiter modification.
 
@@ -823,6 +830,15 @@
 
 - [https://github.com/droptables/ccs-eval](https://github.com/droptables/ccs-eval) :  ![starts](https://img.shields.io/github/stars/droptables/ccs-eval.svg) ![forks](https://img.shields.io/github/forks/droptables/ccs-eval.svg)
 
+## CVE-2014-0196
+ The n_tty_write function in drivers/tty/n_tty.c in the Linux kernel through 3.14.3 does not properly manage tty driver access in the &quot;LECHO &amp; !OPOST&quot; case, which allows local users to cause a denial of service (memory corruption and system crash) or gain privileges by triggering a race condition involving read and write operations with long strings.
+
+
+
+- [https://github.com/tempbottle/CVE-2014-0196](https://github.com/tempbottle/CVE-2014-0196) :  ![starts](https://img.shields.io/github/stars/tempbottle/CVE-2014-0196.svg) ![forks](https://img.shields.io/github/forks/tempbottle/CVE-2014-0196.svg)
+
+- [https://github.com/SunRain/CVE-2014-0196](https://github.com/SunRain/CVE-2014-0196) :  ![starts](https://img.shields.io/github/stars/SunRain/CVE-2014-0196.svg) ![forks](https://img.shields.io/github/forks/SunRain/CVE-2014-0196.svg)
+
 ## CVE-2014-0195
  The dtls1_reassemble_fragment function in d1_both.c in OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not properly validate fragment lengths in DTLS ClientHello messages, which allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow and application crash) via a long non-initial fragment.
 
@@ -849,6 +865,8 @@
 - [https://github.com/titanous/heartbleeder](https://github.com/titanous/heartbleeder) :  ![starts](https://img.shields.io/github/stars/titanous/heartbleeder.svg) ![forks](https://img.shields.io/github/forks/titanous/heartbleeder.svg)
 
 - [https://github.com/Lekensteyn/pacemaker](https://github.com/Lekensteyn/pacemaker) :  ![starts](https://img.shields.io/github/stars/Lekensteyn/pacemaker.svg) ![forks](https://img.shields.io/github/forks/Lekensteyn/pacemaker.svg)
+
+- [https://github.com/sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc) :  ![starts](https://img.shields.io/github/stars/sensepost/heartbleed-poc.svg) ![forks](https://img.shields.io/github/forks/sensepost/heartbleed-poc.svg)
 
 - [https://github.com/einaros/heartbleed-tools](https://github.com/einaros/heartbleed-tools) :  ![starts](https://img.shields.io/github/stars/einaros/heartbleed-tools.svg) ![forks](https://img.shields.io/github/forks/einaros/heartbleed-tools.svg)
 
