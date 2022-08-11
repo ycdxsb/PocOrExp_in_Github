@@ -1,83 +1,72 @@
-# Update 2022-08-10
-## CVE-2022-30333
- RARLAB UnRAR before 6.12 on Linux and UNIX allows directory traversal to write to files during an extract (aka unpack) operation, as demonstrated by creating a ~/.ssh/authorized_keys file. NOTE: WinRAR and Android RAR are unaffected.
+# Update 2022-08-11
+## CVE-2022-33980
+ Apache Commons Configuration performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is &quot;${prefix:name}&quot;, where &quot;prefix&quot; is used to locate an instance of org.apache.commons.configuration2.interpol.Lookup that performs the interpolation. Starting with version 2.4 and continuing through 2.7, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: - &quot;script&quot; - execute expressions using the JVM script execution engine (javax.script) - &quot;dns&quot; - resolve dns records - &quot;url&quot; - load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used. Users are recommended to upgrade to Apache Commons Configuration 2.8.0, which disables the problematic interpolators by default.
 
-- [https://github.com/rbowes-r7/unrar-cve-2022-30333-poc](https://github.com/rbowes-r7/unrar-cve-2022-30333-poc) :  ![starts](https://img.shields.io/github/stars/rbowes-r7/unrar-cve-2022-30333-poc.svg) ![forks](https://img.shields.io/github/forks/rbowes-r7/unrar-cve-2022-30333-poc.svg)
-- [https://github.com/aslitsecurity/Zimbra-CVE-2022-30333](https://github.com/aslitsecurity/Zimbra-CVE-2022-30333) :  ![starts](https://img.shields.io/github/stars/aslitsecurity/Zimbra-CVE-2022-30333.svg) ![forks](https://img.shields.io/github/forks/aslitsecurity/Zimbra-CVE-2022-30333.svg)
-- [https://github.com/J0hnbX/CVE-2022-30333](https://github.com/J0hnbX/CVE-2022-30333) :  ![starts](https://img.shields.io/github/stars/J0hnbX/CVE-2022-30333.svg) ![forks](https://img.shields.io/github/forks/J0hnbX/CVE-2022-30333.svg)
-- [https://github.com/TheL1ghtVn/CVE-2022-30333-PoC](https://github.com/TheL1ghtVn/CVE-2022-30333-PoC) :  ![starts](https://img.shields.io/github/stars/TheL1ghtVn/CVE-2022-30333-PoC.svg) ![forks](https://img.shields.io/github/forks/TheL1ghtVn/CVE-2022-30333-PoC.svg)
+- [https://github.com/HKirito/CVE-2022-33980](https://github.com/HKirito/CVE-2022-33980) :  ![starts](https://img.shields.io/github/stars/HKirito/CVE-2022-33980.svg) ![forks](https://img.shields.io/github/forks/HKirito/CVE-2022-33980.svg)
 
 
-## CVE-2022-22620
- A use after free issue was addressed with improved memory management. This issue is fixed in macOS Monterey 12.2.1, iOS 15.3.1 and iPadOS 15.3.1, Safari 15.3 (v. 16612.4.9.1.8 and 15612.4.9.1.8). Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited..
+## CVE-2022-31101
+ prestashop/blockwishlist is a prestashop extension which adds a block containing the customer's wishlists. In affected versions an authenticated customer can perform SQL injection. This issue is fixed in version 2.1.1. Users are advised to upgrade. There are no known workarounds for this issue.
 
-- [https://github.com/springsec/CVE-2022-22620](https://github.com/springsec/CVE-2022-22620) :  ![starts](https://img.shields.io/github/stars/springsec/CVE-2022-22620.svg) ![forks](https://img.shields.io/github/forks/springsec/CVE-2022-22620.svg)
-
-
-## CVE-2021-38602
- PluXML 5.8.7 allows Article Editing stored XSS via Headline or Content.
-
-- [https://github.com/KielVaughn/CVE-2021-38602](https://github.com/KielVaughn/CVE-2021-38602) :  ![starts](https://img.shields.io/github/stars/KielVaughn/CVE-2021-38602.svg) ![forks](https://img.shields.io/github/forks/KielVaughn/CVE-2021-38602.svg)
+- [https://github.com/karthikuj/CVE-2022-31101](https://github.com/karthikuj/CVE-2022-31101) :  ![starts](https://img.shields.io/github/stars/karthikuj/CVE-2022-31101.svg) ![forks](https://img.shields.io/github/forks/karthikuj/CVE-2022-31101.svg)
 
 
-## CVE-2021-22204
- Improper neutralization of user data in the DjVu file format in ExifTool versions 7.44 and up allows arbitrary code execution when parsing the malicious image
+## CVE-2022-30216
+ Windows Server Service Tampering Vulnerability.
 
-- [https://github.com/tuhinGsg/CVE-2021-22204-exiftool](https://github.com/tuhinGsg/CVE-2021-22204-exiftool) :  ![starts](https://img.shields.io/github/stars/tuhinGsg/CVE-2021-22204-exiftool.svg) ![forks](https://img.shields.io/github/forks/tuhinGsg/CVE-2021-22204-exiftool.svg)
-
-
-## CVE-2021-3492
- Shiftfs, an out-of-tree stacking file system included in Ubuntu Linux kernels, did not properly handle faults occurring during copy_from_user() correctly. These could lead to either a double-free situation or memory not being freed at all. An attacker could use this to cause a denial of service (kernel memory exhaustion) or gain privileges via executing arbitrary code. AKA ZDI-CAN-13562.
-
-- [https://github.com/synacktiv/CVE-2021-3492](https://github.com/synacktiv/CVE-2021-3492) :  ![starts](https://img.shields.io/github/stars/synacktiv/CVE-2021-3492.svg) ![forks](https://img.shields.io/github/forks/synacktiv/CVE-2021-3492.svg)
+- [https://github.com/corelight/CVE-2022-30216](https://github.com/corelight/CVE-2022-30216) :  ![starts](https://img.shields.io/github/stars/corelight/CVE-2022-30216.svg) ![forks](https://img.shields.io/github/forks/corelight/CVE-2022-30216.svg)
 
 
-## CVE-2020-1938
- When using the Apache JServ Protocol (AJP), care must be taken when trusting incoming connections to Apache Tomcat. Tomcat treats AJP connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited in ways that may be surprising. In Apache Tomcat 9.0.0.M1 to 9.0.0.30, 8.5.0 to 8.5.50 and 7.0.0 to 7.0.99, Tomcat shipped with an AJP Connector enabled by default that listened on all configured IP addresses. It was expected (and recommended in the security guide) that this Connector would be disabled if not required. This vulnerability report identified a mechanism that allowed: - returning arbitrary files from anywhere in the web application - processing any file in the web application as a JSP Further, if the web application allowed file upload and stored those files within the web application (or the attacker was able to control the content of the web application by some other means) then this, along with the ability to process a file as a JSP, made remote code execution possible. It is important to note that mitigation is only required if an AJP port is accessible to untrusted users. Users wishing to take a defence-in-depth approach and block the vector that permits returning arbitrary files and execution as JSP may upgrade to Apache Tomcat 9.0.31, 8.5.51 or 7.0.100 or later. A number of changes were made to the default AJP Connector configuration in 9.0.31 to harden the default configuration. It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 or later will need to make small changes to their configurations.
+## CVE-2022-29968
+ An issue was discovered in the Linux kernel through 5.17.5. io_rw_init_file in fs/io_uring.c lacks initialization of kiocb-&gt;private.
 
-- [https://github.com/bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner](https://github.com/bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner) :  ![starts](https://img.shields.io/github/stars/bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner.svg) ![forks](https://img.shields.io/github/forks/bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner.svg)
-- [https://github.com/shaunmclernon/ghostcat-verification](https://github.com/shaunmclernon/ghostcat-verification) :  ![starts](https://img.shields.io/github/stars/shaunmclernon/ghostcat-verification.svg) ![forks](https://img.shields.io/github/forks/shaunmclernon/ghostcat-verification.svg)
-
-
-## CVE-2019-9787
- WordPress before 5.1.1 does not properly filter comment content, leading to Remote Code Execution by unauthenticated users in a default configuration. This occurs because CSRF protection is mishandled, and because Search Engine Optimization of A elements is performed incorrectly, leading to XSS. The XSS results in administrative access, which allows arbitrary changes to .php files. This is related to wp-admin/includes/ajax-actions.php and wp-includes/comment.php.
-
-- [https://github.com/dexXxed/CVE-2019-9787](https://github.com/dexXxed/CVE-2019-9787) :  ![starts](https://img.shields.io/github/stars/dexXxed/CVE-2019-9787.svg) ![forks](https://img.shields.io/github/forks/dexXxed/CVE-2019-9787.svg)
-- [https://github.com/PalmTreeForest/CodePath_Week_7-8](https://github.com/PalmTreeForest/CodePath_Week_7-8) :  ![starts](https://img.shields.io/github/stars/PalmTreeForest/CodePath_Week_7-8.svg) ![forks](https://img.shields.io/github/forks/PalmTreeForest/CodePath_Week_7-8.svg)
+- [https://github.com/jprx/CVE-2022-29968](https://github.com/jprx/CVE-2022-29968) :  ![starts](https://img.shields.io/github/stars/jprx/CVE-2022-29968.svg) ![forks](https://img.shields.io/github/forks/jprx/CVE-2022-29968.svg)
 
 
-## CVE-2019-1351
- A tampering vulnerability exists when Git for Visual Studio improperly handles virtual drive paths, aka 'Git for Visual Studio Tampering Vulnerability'.
+## CVE-2022-24087
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/JonasDL/PruebaCVE20191351](https://github.com/JonasDL/PruebaCVE20191351) :  ![starts](https://img.shields.io/github/stars/JonasDL/PruebaCVE20191351.svg) ![forks](https://img.shields.io/github/forks/JonasDL/PruebaCVE20191351.svg)
-
-
-## CVE-2018-14083
- LICA miniCMTS E8K(u/i/...) devices allow remote attackers to obtain sensitive information via a direct POST request for the inc/user.ini file, leading to discovery of a password hash.
-
-- [https://github.com/pudding2/CVE-2018-14083](https://github.com/pudding2/CVE-2018-14083) :  ![starts](https://img.shields.io/github/stars/pudding2/CVE-2018-14083.svg) ![forks](https://img.shields.io/github/forks/pudding2/CVE-2018-14083.svg)
+- [https://github.com/seymanurmutlu/CVE-2022-24086-CVE-2022-24087](https://github.com/seymanurmutlu/CVE-2022-24086-CVE-2022-24087) :  ![starts](https://img.shields.io/github/stars/seymanurmutlu/CVE-2022-24086-CVE-2022-24087.svg) ![forks](https://img.shields.io/github/forks/seymanurmutlu/CVE-2022-24086-CVE-2022-24087.svg)
 
 
-## CVE-2018-5234
- The Norton Core router prior to v237 may be susceptible to a command injection exploit. This is a type of attack in which the goal is execution of arbitrary commands on the host system via vulnerable software.
+## CVE-2022-23131
+ In the case of instances where the SAML SSO authentication is enabled (non-default), session data can be modified by a malicious actor, because a user login stored in the session was not verified. Malicious unauthenticated actor may exploit this issue to escalate privileges and gain admin access to Zabbix Frontend. To perform the attack, SAML authentication is required to be enabled and the actor has to know the username of Zabbix user (or use the guest account, which is disabled by default).
 
-- [https://github.com/embedi/ble_norton_core](https://github.com/embedi/ble_norton_core) :  ![starts](https://img.shields.io/github/stars/embedi/ble_norton_core.svg) ![forks](https://img.shields.io/github/forks/embedi/ble_norton_core.svg)
-
-
-## CVE-2017-9805
- The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x before 2.5.13 uses an XStreamHandler with an instance of XStream for deserialization without any type filtering, which can lead to Remote Code Execution when deserializing XML payloads.
-
-- [https://github.com/Lone-Ranger/apache-struts-pwn_CVE-2017-9805](https://github.com/Lone-Ranger/apache-struts-pwn_CVE-2017-9805) :  ![starts](https://img.shields.io/github/stars/Lone-Ranger/apache-struts-pwn_CVE-2017-9805.svg) ![forks](https://img.shields.io/github/forks/Lone-Ranger/apache-struts-pwn_CVE-2017-9805.svg)
+- [https://github.com/SCAMagic/CVE-2022-23131poc-exp-zabbix-](https://github.com/SCAMagic/CVE-2022-23131poc-exp-zabbix-) :  ![starts](https://img.shields.io/github/stars/SCAMagic/CVE-2022-23131poc-exp-zabbix-.svg) ![forks](https://img.shields.io/github/forks/SCAMagic/CVE-2022-23131poc-exp-zabbix-.svg)
 
 
-## CVE-2017-7921
- An Improper Authentication issue was discovered in Hikvision DS-2CD2xx2F-I Series V5.2.0 build 140721 to V5.4.0 build 160530, DS-2CD2xx0F-I Series V5.2.0 build 140721 to V5.4.0 Build 160401, DS-2CD2xx2FWD Series V5.3.1 build 150410 to V5.4.4 Build 161125, DS-2CD4x2xFWD Series V5.2.0 build 140721 to V5.4.0 Build 160414, DS-2CD4xx5 Series V5.2.0 build 140721 to V5.4.0 Build 160421, DS-2DFx Series V5.2.0 build 140805 to V5.4.5 Build 160928, and DS-2CD63xx Series V5.0.9 build 140305 to V5.3.5 Build 160106 devices. The improper authentication vulnerability occurs when an application does not adequately or correctly authenticate users. This may allow a malicious user to escalate his or her privileges on the system and gain access to sensitive information.
+## CVE-2022-21881
+ Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21879.
 
-- [https://github.com/D2550/CVE_2017_7921_EXP](https://github.com/D2550/CVE_2017_7921_EXP) :  ![starts](https://img.shields.io/github/stars/D2550/CVE_2017_7921_EXP.svg) ![forks](https://img.shields.io/github/forks/D2550/CVE_2017_7921_EXP.svg)
+- [https://github.com/theabysslabs/CVE-2022-21881](https://github.com/theabysslabs/CVE-2022-21881) :  ![starts](https://img.shields.io/github/stars/theabysslabs/CVE-2022-21881.svg) ![forks](https://img.shields.io/github/forks/theabysslabs/CVE-2022-21881.svg)
 
 
-## CVE-2015-1328
- The overlayfs implementation in the linux (aka Linux kernel) package before 3.19.0-21.21 in Ubuntu through 15.04 does not properly check permissions for file creation in the upper filesystem directory, which allows local users to obtain root access by leveraging a configuration in which overlayfs is permitted in an arbitrary mount namespace.
+## CVE-2021-3560
+ It was found that polkit could be tricked into bypassing the credential checks for D-Bus requests, elevating the privileges of the requestor to the root user. This flaw could be used by an unprivileged local attacker to, for example, create a new local administrator. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
 
-- [https://github.com/poxicity/CVE-2015-1328](https://github.com/poxicity/CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/poxicity/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/poxicity/CVE-2015-1328.svg)
+- [https://github.com/UNICORDev/exploit-CVE-2021-3560](https://github.com/UNICORDev/exploit-CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/UNICORDev/exploit-CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/UNICORDev/exploit-CVE-2021-3560.svg)
+
+
+## CVE-2019-17621
+ The UPnP endpoint URL /gena.cgi in the D-Link DIR-859 Wi-Fi router 1.05 and 1.06B01 Beta01 allows an Unauthenticated remote attacker to execute system commands as root, by sending a specially crafted HTTP SUBSCRIBE request to the UPnP service when connecting to the local network.
+
+- [https://github.com/Squirre17/CVE-2019-17621](https://github.com/Squirre17/CVE-2019-17621) :  ![starts](https://img.shields.io/github/stars/Squirre17/CVE-2019-17621.svg) ![forks](https://img.shields.io/github/forks/Squirre17/CVE-2019-17621.svg)
+
+
+## CVE-2019-8985
+ On Netis WF2411 with firmware 2.1.36123 and other Netis WF2xxx devices (possibly WF2411 through WF2880), there is a stack-based buffer overflow that does not require authentication. This can cause denial of service (device restart) or remote code execution. This vulnerability can be triggered by a GET request with a long HTTP &quot;Authorization: Basic&quot; header that is mishandled by user_auth-&gt;user_ok in /bin/boa.
+
+- [https://github.com/Squirre17/CVE-2019-8985](https://github.com/Squirre17/CVE-2019-8985) :  ![starts](https://img.shields.io/github/stars/Squirre17/CVE-2019-8985.svg) ![forks](https://img.shields.io/github/forks/Squirre17/CVE-2019-8985.svg)
+
+
+## CVE-2019-8591
+ A type confusion issue was addressed with improved memory handling. This issue is fixed in iOS 12.3, macOS Mojave 10.14.5, tvOS 12.3, watchOS 5.2.1. An application may be able to cause unexpected system termination or write kernel memory.
+
+- [https://github.com/jsherman212/used_sock](https://github.com/jsherman212/used_sock) :  ![starts](https://img.shields.io/github/stars/jsherman212/used_sock.svg) ![forks](https://img.shields.io/github/forks/jsherman212/used_sock.svg)
+
+
+## CVE-2018-6574
+ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10rc2 allow &quot;go get&quot; remote command execution during source code build, by leveraging the gcc or clang plugin feature, because -fplugin= and -plugin= arguments were not blocked.
+
+- [https://github.com/markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/markisback/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/markisback/CVE-2018-6574.svg)
 
