@@ -1479,7 +1479,7 @@
 
 - [https://github.com/isnuryusuf/cve_2016_0728](https://github.com/isnuryusuf/cve_2016_0728) :  ![starts](https://img.shields.io/github/stars/isnuryusuf/cve_2016_0728.svg) ![forks](https://img.shields.io/github/forks/isnuryusuf/cve_2016_0728.svg)
 
-- [https://github.com/tndud042713/cve-2016-0728](https://github.com/tndud042713/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/tndud042713/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/tndud042713/cve-2016-0728.svg)
+- [https://github.com/tndud042713/cve](https://github.com/tndud042713/cve) :  ![starts](https://img.shields.io/github/stars/tndud042713/cve.svg) ![forks](https://img.shields.io/github/forks/tndud042713/cve.svg)
 
 - [https://github.com/hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728) :  ![starts](https://img.shields.io/github/stars/hal0taso/CVE-2016-0728.svg) ![forks](https://img.shields.io/github/forks/hal0taso/CVE-2016-0728.svg)
 
