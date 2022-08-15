@@ -196,3 +196,10 @@
 - [https://github.com/jan0/isslfix](https://github.com/jan0/isslfix) :  ![starts](https://img.shields.io/github/stars/jan0/isslfix.svg) ![forks](https://img.shields.io/github/forks/jan0/isslfix.svg)
 
 - [https://github.com/amil-ptl-test/ptl_cve_2011_0228](https://github.com/amil-ptl-test/ptl_cve_2011_0228) :  ![starts](https://img.shields.io/github/stars/amil-ptl-test/ptl_cve_2011_0228.svg) ![forks](https://img.shields.io/github/forks/amil-ptl-test/ptl_cve_2011_0228.svg)
+
+## CVE-2011-0104
+ Microsoft Excel 2002 SP3 and 2003 SP3, Office 2004 and 2008 for Mac, and Open XML File Format Converter for Mac allow remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted HLink record in an Excel file, aka &quot;Excel Buffer Overwrite Vulnerability.&quot;
+
+
+
+- [https://github.com/Sunqiz/CVE-2011-0104-reproduction](https://github.com/Sunqiz/CVE-2011-0104-reproduction) :  ![starts](https://img.shields.io/github/stars/Sunqiz/CVE-2011-0104-reproduction.svg) ![forks](https://img.shields.io/github/forks/Sunqiz/CVE-2011-0104-reproduction.svg)
