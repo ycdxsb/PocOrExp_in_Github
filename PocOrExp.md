@@ -36520,6 +36520,13 @@
 
 - [https://github.com/war4uthor/CVE-2009-4660](https://github.com/war4uthor/CVE-2009-4660) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2009-4660.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2009-4660.svg)
 
+## CVE-2009-4623
+ Multiple PHP remote file inclusion vulnerabilities in Advanced Comment System 1.0 allow remote attackers to execute arbitrary PHP code via a URL in the ACS_path parameter to (1) index.php and (2) admin.php in advanced_comment_system/. NOTE: this might only be a vulnerability when the administrator has not followed installation instructions in install.php. NOTE: this might be the same as CVE-2020-35598.
+
+
+
+- [https://github.com/hupe1980/CVE-2009-4623](https://github.com/hupe1980/CVE-2009-4623) :  ![starts](https://img.shields.io/github/stars/hupe1980/CVE-2009-4623.svg) ![forks](https://img.shields.io/github/forks/hupe1980/CVE-2009-4623.svg)
+
 ## CVE-2009-4140
  Unrestricted file upload vulnerability in ofc_upload_image.php in Open Flash Chart v2 Beta 1 through v2 Lug Wyrm Charmer, as used in Piwik 0.2.35 through 0.4.3, Woopra Analytics Plugin before 1.4.3.2, and possibly other products, when register_globals is enabled, allows remote authenticated users to execute arbitrary code by uploading a file with an executable extension through the name parameter with the code in the HTTP_RAW_POST_DATA parameter, then accessing it via a direct request to the file in tmp-upload-images/.
 
