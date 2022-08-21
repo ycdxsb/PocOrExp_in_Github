@@ -12241,9 +12241,9 @@
 
 - [https://github.com/HK69s/CVE-2020-27955](https://github.com/HK69s/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/HK69s/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/HK69s/CVE-2020-27955.svg)
 
-- [https://github.com/userxfan/cve-2020-27955](https://github.com/userxfan/cve-2020-27955) :  ![starts](https://img.shields.io/github/stars/userxfan/cve-2020-27955.svg) ![forks](https://img.shields.io/github/forks/userxfan/cve-2020-27955.svg)
-
 - [https://github.com/NeoDarwin/CVE-2020-27955](https://github.com/NeoDarwin/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/NeoDarwin/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/NeoDarwin/CVE-2020-27955.svg)
+
+- [https://github.com/userxfan/cve-2020-27955](https://github.com/userxfan/cve-2020-27955) :  ![starts](https://img.shields.io/github/stars/userxfan/cve-2020-27955.svg) ![forks](https://img.shields.io/github/forks/userxfan/cve-2020-27955.svg)
 
 - [https://github.com/shubham0d/CVE-2020-27955](https://github.com/shubham0d/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/shubham0d/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/shubham0d/CVE-2020-27955.svg)
 
@@ -12926,9 +12926,9 @@
 
 
 
-- [https://github.com/underprotection/CVE-2020-24030](https://github.com/underprotection/CVE-2020-24030) :  ![starts](https://img.shields.io/github/stars/underprotection/CVE-2020-24030.svg) ![forks](https://img.shields.io/github/forks/underprotection/CVE-2020-24030.svg)
-
 - [https://github.com/redteambrasil/CVE-2020-24030](https://github.com/redteambrasil/CVE-2020-24030) :  ![starts](https://img.shields.io/github/stars/redteambrasil/CVE-2020-24030.svg) ![forks](https://img.shields.io/github/forks/redteambrasil/CVE-2020-24030.svg)
+
+- [https://github.com/underprotection/CVE-2020-24030](https://github.com/underprotection/CVE-2020-24030) :  ![starts](https://img.shields.io/github/stars/underprotection/CVE-2020-24030.svg) ![forks](https://img.shields.io/github/forks/underprotection/CVE-2020-24030.svg)
 
 ## CVE-2020-24029
  Because of unauthenticated password changes in ForLogic Qualiex v1 and v3, customer and admin permissions and data can be accessed via a simple request.
@@ -14331,8 +14331,6 @@
 - [https://github.com/yunuscadirci/CallStranger](https://github.com/yunuscadirci/CallStranger) :  ![starts](https://img.shields.io/github/stars/yunuscadirci/CallStranger.svg) ![forks](https://img.shields.io/github/forks/yunuscadirci/CallStranger.svg)
 
 - [https://github.com/corelight/callstranger-detector](https://github.com/corelight/callstranger-detector) :  ![starts](https://img.shields.io/github/stars/corelight/callstranger-detector.svg) ![forks](https://img.shields.io/github/forks/corelight/callstranger-detector.svg)
-
-- [https://github.com/Xcod3bughunt3r/CallStranger](https://github.com/Xcod3bughunt3r/CallStranger) :  ![starts](https://img.shields.io/github/stars/Xcod3bughunt3r/CallStranger.svg) ![forks](https://img.shields.io/github/forks/Xcod3bughunt3r/CallStranger.svg)
 
 ## CVE-2020-12688
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -16255,11 +16253,11 @@
 
 - [https://github.com/z3n70/CVE-2020-5902](https://github.com/z3n70/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/z3n70/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/z3n70/CVE-2020-5902.svg)
 
+- [https://github.com/dnerzker/CVE-2020-5902](https://github.com/dnerzker/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/dnerzker/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/dnerzker/CVE-2020-5902.svg)
+
 - [https://github.com/ajdumanhug/CVE-2020-5902](https://github.com/ajdumanhug/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/ajdumanhug/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/ajdumanhug/CVE-2020-5902.svg)
 
 - [https://github.com/5l1v3r1/CVE-2020-5902-Mass](https://github.com/5l1v3r1/CVE-2020-5902-Mass) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/CVE-2020-5902-Mass.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/CVE-2020-5902-Mass.svg)
-
-- [https://github.com/dnerzker/CVE-2020-5902](https://github.com/dnerzker/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/dnerzker/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/dnerzker/CVE-2020-5902.svg)
 
 - [https://github.com/superzerosec/cve-2020-5902](https://github.com/superzerosec/cve-2020-5902) :  ![starts](https://img.shields.io/github/stars/superzerosec/cve-2020-5902.svg) ![forks](https://img.shields.io/github/forks/superzerosec/cve-2020-5902.svg)
 
@@ -16997,9 +16995,9 @@
 
 - [https://github.com/haerin7427/CVE_2020_1938](https://github.com/haerin7427/CVE_2020_1938) :  ![starts](https://img.shields.io/github/stars/haerin7427/CVE_2020_1938.svg) ![forks](https://img.shields.io/github/forks/haerin7427/CVE_2020_1938.svg)
 
-- [https://github.com/I-Runtime-Error/CVE-2020-1938](https://github.com/I-Runtime-Error/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/I-Runtime-Error/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/I-Runtime-Error/CVE-2020-1938.svg)
-
 - [https://github.com/kukudechen-chen/cve-2020-1938](https://github.com/kukudechen-chen/cve-2020-1938) :  ![starts](https://img.shields.io/github/stars/kukudechen-chen/cve-2020-1938.svg) ![forks](https://img.shields.io/github/forks/kukudechen-chen/cve-2020-1938.svg)
+
+- [https://github.com/I-Runtime-Error/CVE-2020-1938](https://github.com/I-Runtime-Error/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/I-Runtime-Error/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/I-Runtime-Error/CVE-2020-1938.svg)
 
 - [https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938](https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/Zaziki1337/Ghostcat-CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/Zaziki1337/Ghostcat-CVE-2020-1938.svg)
 
@@ -17884,9 +17882,9 @@
 
 - [https://github.com/JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/JPurrier/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/JPurrier/CVE-2020-0601.svg)
 
-- [https://github.com/dlee35/curveball_lua](https://github.com/dlee35/curveball_lua) :  ![starts](https://img.shields.io/github/stars/dlee35/curveball_lua.svg) ![forks](https://img.shields.io/github/forks/dlee35/curveball_lua.svg)
-
 - [https://github.com/Doug-Moody/Windows10_Cumulative_Updates_PowerShell](https://github.com/Doug-Moody/Windows10_Cumulative_Updates_PowerShell) :  ![starts](https://img.shields.io/github/stars/Doug-Moody/Windows10_Cumulative_Updates_PowerShell.svg) ![forks](https://img.shields.io/github/forks/Doug-Moody/Windows10_Cumulative_Updates_PowerShell.svg)
+
+- [https://github.com/dlee35/curveball_lua](https://github.com/dlee35/curveball_lua) :  ![starts](https://img.shields.io/github/stars/dlee35/curveball_lua.svg) ![forks](https://img.shields.io/github/forks/dlee35/curveball_lua.svg)
 
 - [https://github.com/bsides-rijeka/meetup-2-curveball](https://github.com/bsides-rijeka/meetup-2-curveball) :  ![starts](https://img.shields.io/github/stars/bsides-rijeka/meetup-2-curveball.svg) ![forks](https://img.shields.io/github/forks/bsides-rijeka/meetup-2-curveball.svg)
 
@@ -18203,13 +18201,6 @@
 
 - [https://github.com/nanopathi/packages_apps_Bluetooth_AOSP10_r33_CVE-2020-0183](https://github.com/nanopathi/packages_apps_Bluetooth_AOSP10_r33_CVE-2020-0183) :  ![starts](https://img.shields.io/github/stars/nanopathi/packages_apps_Bluetooth_AOSP10_r33_CVE-2020-0183.svg) ![forks](https://img.shields.io/github/forks/nanopathi/packages_apps_Bluetooth_AOSP10_r33_CVE-2020-0183.svg)
 
-## CVE-2020-0181
- In exif_data_load_data_thumbnail of exif-data.c, there is a possible denial of service due to an integer overflow. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-145075076
-
-
-
-- [https://github.com/Trinadh465/external_libexif_AOSP10_r33_CVE-2020-0181](https://github.com/Trinadh465/external_libexif_AOSP10_r33_CVE-2020-0181) :  ![starts](https://img.shields.io/github/stars/Trinadh465/external_libexif_AOSP10_r33_CVE-2020-0181.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/external_libexif_AOSP10_r33_CVE-2020-0181.svg)
-
 ## CVE-2020-0160
  In setSyncSampleParams of SampleTable.cpp, there is possible resource exhaustion due to a missing bounds check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-124771364
 
@@ -18371,8 +18362,6 @@
 
 
 - [https://github.com/bluefrostsecurity/CVE-2020-0041](https://github.com/bluefrostsecurity/CVE-2020-0041) :  ![starts](https://img.shields.io/github/stars/bluefrostsecurity/CVE-2020-0041.svg) ![forks](https://img.shields.io/github/forks/bluefrostsecurity/CVE-2020-0041.svg)
-
-- [https://github.com/j4nn/CVE-2020-0041](https://github.com/j4nn/CVE-2020-0041) :  ![starts](https://img.shields.io/github/stars/j4nn/CVE-2020-0041.svg) ![forks](https://img.shields.io/github/forks/j4nn/CVE-2020-0041.svg)
 
 - [https://github.com/koharin/CVE-2020-0041](https://github.com/koharin/CVE-2020-0041) :  ![starts](https://img.shields.io/github/stars/koharin/CVE-2020-0041.svg) ![forks](https://img.shields.io/github/forks/koharin/CVE-2020-0041.svg)
 
