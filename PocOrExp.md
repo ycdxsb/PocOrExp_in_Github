@@ -36344,9 +36344,9 @@
 
 - [https://github.com/MFernstrom/OffensivePascal-CVE-2011-2523](https://github.com/MFernstrom/OffensivePascal-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/MFernstrom/OffensivePascal-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/MFernstrom/OffensivePascal-CVE-2011-2523.svg)
 
-- [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
-
 - [https://github.com/nobodyatall648/CVE-2011-2523](https://github.com/nobodyatall648/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2011-2523.svg)
+
+- [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
 
 - [https://github.com/NullBrunk/CVE-2011-2523](https://github.com/NullBrunk/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/NullBrunk/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/NullBrunk/CVE-2011-2523.svg)
 
