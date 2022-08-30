@@ -36689,6 +36689,13 @@
 
 - [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
 
+## CVE-2010-2553
+ The Cinepak codec in Microsoft Windows XP SP2 and SP3, Windows Vista SP1 and SP2, and Windows 7 does not properly decompress media files, which allows remote attackers to execute arbitrary code via a crafted file, aka &quot;Cinepak Codec Decompression Vulnerability.&quot;
+
+
+
+- [https://github.com/Sunqiz/CVE-2010-2553-reproduction](https://github.com/Sunqiz/CVE-2010-2553-reproduction) :  ![starts](https://img.shields.io/github/stars/Sunqiz/CVE-2010-2553-reproduction.svg) ![forks](https://img.shields.io/github/forks/Sunqiz/CVE-2010-2553-reproduction.svg)
+
 ## CVE-2010-2387
  vicious-extensions/ve-misc.c in GNOME Display Manager (gdm) 2.20.x before 2.20.11, when GDM debug is enabled, logs the user password when it contains invalid UTF8 encoded characters, which might allow local users to gain privileges by reading the information from syslog logs.
 
