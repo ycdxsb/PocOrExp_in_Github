@@ -330,6 +330,13 @@
 
 - [https://github.com/LogSec/CVE-2013-2006](https://github.com/LogSec/CVE-2013-2006) :  ![starts](https://img.shields.io/github/stars/LogSec/CVE-2013-2006.svg) ![forks](https://img.shields.io/github/forks/LogSec/CVE-2013-2006.svg)
 
+## CVE-2013-1965
+ Apache Struts Showcase App 2.0.0 through 2.3.13, as used in Struts 2 before 2.3.14.3, allows remote attackers to execute arbitrary OGNL code via a crafted parameter name that is not properly handled when invoking a redirect.
+
+
+
+- [https://github.com/cinno/CVE-2013-1965](https://github.com/cinno/CVE-2013-1965) :  ![starts](https://img.shields.io/github/stars/cinno/CVE-2013-1965.svg) ![forks](https://img.shields.io/github/forks/cinno/CVE-2013-1965.svg)
+
 ## CVE-2013-1775
  sudo 1.6.0 through 1.7.10p6 and sudo 1.8.0 through 1.8.6p6 allows local users or physically proximate attackers to bypass intended time restrictions and retain privileges without re-authenticating by setting the system clock and sudo user timestamp to the epoch.
 
