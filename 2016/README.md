@@ -247,7 +247,7 @@
 
 
 
-- [https://github.com/rerugan/CVE-2016-8776](https://github.com/rerugan/CVE-2016-8776) :  ![starts](https://img.shields.io/github/stars/rerugan/CVE-2016-8776.svg) ![forks](https://img.shields.io/github/forks/rerugan/CVE-2016-8776.svg)
+- [https://github.com/akzedevops/CVE-2016-8776](https://github.com/akzedevops/CVE-2016-8776) :  ![starts](https://img.shields.io/github/stars/akzedevops/CVE-2016-8776.svg) ![forks](https://img.shields.io/github/forks/akzedevops/CVE-2016-8776.svg)
 
 ## CVE-2016-8740
  The mod_http2 module in the Apache HTTP Server 2.4.17 through 2.4.23, when the Protocols configuration includes h2 or h2c, does not restrict request-header length, which allows remote attackers to cause a denial of service (memory consumption) via crafted CONTINUATION frames in an HTTP/2 request.
