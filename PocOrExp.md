@@ -34914,11 +34914,11 @@
 
 - [https://github.com/0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2014-6271.svg)
 
-- [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
-
 - [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
 
 - [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
+
+- [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
 
 - [https://github.com/trhacknon/CVE-2014-6271](https://github.com/trhacknon/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2014-6271.svg)
 
@@ -34959,8 +34959,6 @@
 - [https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271](https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/internero/debian-lenny-bash_3.2.52-cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/internero/debian-lenny-bash_3.2.52-cve-2014-6271.svg)
 
 - [https://github.com/heikipikker/shellshock-shell](https://github.com/heikipikker/shellshock-shell) :  ![starts](https://img.shields.io/github/stars/heikipikker/shellshock-shell.svg) ![forks](https://img.shields.io/github/forks/heikipikker/shellshock-shell.svg)
-
-- [https://github.com/JBince/ShellShock](https://github.com/JBince/ShellShock) :  ![starts](https://img.shields.io/github/stars/JBince/ShellShock.svg) ![forks](https://img.shields.io/github/forks/JBince/ShellShock.svg)
 
 - [https://github.com/abandonedship/ShellShock](https://github.com/abandonedship/ShellShock) :  ![starts](https://img.shields.io/github/stars/abandonedship/ShellShock.svg) ![forks](https://img.shields.io/github/forks/abandonedship/ShellShock.svg)
 
@@ -35536,9 +35534,9 @@
 
 - [https://github.com/a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test) :  ![starts](https://img.shields.io/github/stars/a0726h77/heartbleed-test.svg) ![forks](https://img.shields.io/github/forks/a0726h77/heartbleed-test.svg)
 
-- [https://github.com/ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/ice-security88/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/ice-security88/CVE-2014-0160.svg)
-
 - [https://github.com/fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/fb1h2s/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/fb1h2s/CVE-2014-0160.svg)
+
+- [https://github.com/ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/ice-security88/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/ice-security88/CVE-2014-0160.svg)
 
 - [https://github.com/obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner) :  ![starts](https://img.shields.io/github/stars/obayesshelton/CVE-2014-0160-Scanner.svg) ![forks](https://img.shields.io/github/forks/obayesshelton/CVE-2014-0160-Scanner.svg)
 
@@ -35546,9 +35544,9 @@
 
 - [https://github.com/siddolo/knockbleed](https://github.com/siddolo/knockbleed) :  ![starts](https://img.shields.io/github/stars/siddolo/knockbleed.svg) ![forks](https://img.shields.io/github/forks/siddolo/knockbleed.svg)
 
-- [https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS) :  ![starts](https://img.shields.io/github/stars/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg) ![forks](https://img.shields.io/github/forks/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg)
-
 - [https://github.com/iwaffles/heartbleed-test.crx](https://github.com/iwaffles/heartbleed-test.crx) :  ![starts](https://img.shields.io/github/stars/iwaffles/heartbleed-test.crx.svg) ![forks](https://img.shields.io/github/forks/iwaffles/heartbleed-test.crx.svg)
+
+- [https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS) :  ![starts](https://img.shields.io/github/stars/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg) ![forks](https://img.shields.io/github/forks/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg)
 
 - [https://github.com/takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse) :  ![starts](https://img.shields.io/github/stars/takeshixx/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/takeshixx/ssl-heartbleed.nse.svg)
 
@@ -35590,9 +35588,9 @@
 
 - [https://github.com/rgielen/struts1filter](https://github.com/rgielen/struts1filter) :  ![starts](https://img.shields.io/github/stars/rgielen/struts1filter.svg) ![forks](https://img.shields.io/github/forks/rgielen/struts1filter.svg)
 
-- [https://github.com/ricedu/struts1-patch](https://github.com/ricedu/struts1-patch) :  ![starts](https://img.shields.io/github/stars/ricedu/struts1-patch.svg) ![forks](https://img.shields.io/github/forks/ricedu/struts1-patch.svg)
-
 - [https://github.com/aenlr/strutt-cve-2014-0114](https://github.com/aenlr/strutt-cve-2014-0114) :  ![starts](https://img.shields.io/github/stars/aenlr/strutt-cve-2014-0114.svg) ![forks](https://img.shields.io/github/forks/aenlr/strutt-cve-2014-0114.svg)
+
+- [https://github.com/ricedu/struts1-patch](https://github.com/ricedu/struts1-patch) :  ![starts](https://img.shields.io/github/stars/ricedu/struts1-patch.svg) ![forks](https://img.shields.io/github/forks/ricedu/struts1-patch.svg)
 
 ## CVE-2014-0094
  The ParametersInterceptor in Apache Struts before 2.3.16.2 allows remote attackers to &quot;manipulate&quot; the ClassLoader via the class parameter, which is passed to the getClass method.
