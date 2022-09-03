@@ -36434,6 +36434,13 @@
 
 - [https://github.com/tomquinn8/CVE-2011-5331](https://github.com/tomquinn8/CVE-2011-5331) :  ![starts](https://img.shields.io/github/stars/tomquinn8/CVE-2011-5331.svg) ![forks](https://img.shields.io/github/forks/tomquinn8/CVE-2011-5331.svg)
 
+## CVE-2011-4919
+ mpack 1.6 has information disclosure via eavesdropping on mails sent by other users
+
+
+
+- [https://github.com/hartwork/mpacktrafficripper](https://github.com/hartwork/mpacktrafficripper) :  ![starts](https://img.shields.io/github/stars/hartwork/mpacktrafficripper.svg) ![forks](https://img.shields.io/github/forks/hartwork/mpacktrafficripper.svg)
+
 ## CVE-2011-4862
  Buffer overflow in libtelnet/encrypt.c in telnetd in FreeBSD 7.3 through 9.0, MIT Kerberos Version 5 Applications (aka krb5-appl) 1.0.2 and earlier, Heimdal 1.5.1 and earlier, GNU inetutils, and possibly other products allows remote attackers to execute arbitrary code via a long encryption key, as exploited in the wild in December 2011.
 
