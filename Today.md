@@ -1,78 +1,60 @@
-# Update 2022-09-03
-## CVE-2022-33174
- Power Distribution Units running on Powertek firmware (multiple brands) before 3.30.30 allows remote authorization bypass in the web interface. To exploit the vulnerability, an attacker must send an HTTP packet to the data retrieval interface (/cgi/get_param.cgi) with the tmpToken cookie set to an empty string followed by a semicolon. This bypasses an active session authorization check. This can be then used to fetch the values of protected sys.passwd and sys.su.name fields that contain the username and password in cleartext.
+# Update 2022-09-04
+## CVE-2022-39196
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Henry4E36/CVE-2022-33174](https://github.com/Henry4E36/CVE-2022-33174) :  ![starts](https://img.shields.io/github/stars/Henry4E36/CVE-2022-33174.svg) ![forks](https://img.shields.io/github/forks/Henry4E36/CVE-2022-33174.svg)
-
-
-## CVE-2022-30526
- A privilege escalation vulnerability was identified in the CLI command of Zyxel USG FLEX 100(W) firmware versions 4.50 through 5.30, USG FLEX 200 firmware versions 4.50 through 5.30, USG FLEX 500 firmware versions 4.50 through 5.30, USG FLEX 700 firmware versions 4.50 through 5.30, USG FLEX 50(W) firmware versions 4.16 through 5.30, USG20(W)-VPN firmware versions 4.16 through 5.30, ATP series firmware versions 4.32 through 5.30, VPN series firmware versions 4.30 through 5.30, USG/ZyWALL series firmware versions 4.09 through 4.72, which could allow a local attacker to execute some OS commands with root privileges in some directories on a vulnerable device.
-
-- [https://github.com/greek0x0/CVE-2022-30526](https://github.com/greek0x0/CVE-2022-30526) :  ![starts](https://img.shields.io/github/stars/greek0x0/CVE-2022-30526.svg) ![forks](https://img.shields.io/github/forks/greek0x0/CVE-2022-30526.svg)
+- [https://github.com/DayiliWaseem/CVE-2022-39196-](https://github.com/DayiliWaseem/CVE-2022-39196-) :  ![starts](https://img.shields.io/github/stars/DayiliWaseem/CVE-2022-39196-.svg) ![forks](https://img.shields.io/github/forks/DayiliWaseem/CVE-2022-39196-.svg)
 
 
-## CVE-2022-25845
- The package com.alibaba:fastjson before 1.2.83 are vulnerable to Deserialization of Untrusted Data by bypassing the default autoType shutdown restrictions, which is possible under certain conditions. Exploiting this vulnerability allows attacking remote servers. Workaround: If upgrading is not possible, you can enable [safeMode](https://github.com/alibaba/fastjson/wiki/fastjson_safemode).
+## CVE-2022-24780
+ Combodo iTop is a web based IT Service Management tool. In versions prior to 2.7.6 and 3.0.0, users of the iTop user portal can send TWIG code to the server by forging specific http queries, and execute arbitrary code on the server using http server user privileges. This issue is fixed in versions 2.7.6 and 3.0.0. There are currently no known workarounds.
 
-- [https://github.com/hosch3n/FastjsonVulns](https://github.com/hosch3n/FastjsonVulns) :  ![starts](https://img.shields.io/github/stars/hosch3n/FastjsonVulns.svg) ![forks](https://img.shields.io/github/forks/hosch3n/FastjsonVulns.svg)
-
-
-## CVE-2022-25260
- JetBrains Hub before 2021.1.14276 was vulnerable to blind Server-Side Request Forgery (SSRF).
-
-- [https://github.com/yuriisanin/CVE-2022-25260](https://github.com/yuriisanin/CVE-2022-25260) :  ![starts](https://img.shields.io/github/stars/yuriisanin/CVE-2022-25260.svg) ![forks](https://img.shields.io/github/forks/yuriisanin/CVE-2022-25260.svg)
+- [https://github.com/Acceis/exploit-CVE-2022-24780](https://github.com/Acceis/exploit-CVE-2022-24780) :  ![starts](https://img.shields.io/github/stars/Acceis/exploit-CVE-2022-24780.svg) ![forks](https://img.shields.io/github/forks/Acceis/exploit-CVE-2022-24780.svg)
 
 
-## CVE-2022-24637
- Open Web Analytics (OWA) before 1.7.4 allows an unauthenticated remote attacker to obtain sensitive user information, which can be used to gain admin privileges by leveraging cache hashes. This occurs because files generated with '&lt;?php (instead of the intended &quot;&lt;?php sequence) aren't handled by the PHP interpreter.
+## CVE-2022-23131
+ In the case of instances where the SAML SSO authentication is enabled (non-default), session data can be modified by a malicious actor, because a user login stored in the session was not verified. Malicious unauthenticated actor may exploit this issue to escalate privileges and gain admin access to Zabbix Frontend. To perform the attack, SAML authentication is required to be enabled and the actor has to know the username of Zabbix user (or use the guest account, which is disabled by default).
 
-- [https://github.com/Lay0us1/CVE-2022-24637](https://github.com/Lay0us1/CVE-2022-24637) :  ![starts](https://img.shields.io/github/stars/Lay0us1/CVE-2022-24637.svg) ![forks](https://img.shields.io/github/forks/Lay0us1/CVE-2022-24637.svg)
-
-
-## CVE-2022-22963
- In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources.
-
-- [https://github.com/75ACOL/CVE-2022-22963](https://github.com/75ACOL/CVE-2022-22963) :  ![starts](https://img.shields.io/github/stars/75ACOL/CVE-2022-22963.svg) ![forks](https://img.shields.io/github/forks/75ACOL/CVE-2022-22963.svg)
+- [https://github.com/Vulnmachines/Zabbix-CVE-2022-23131](https://github.com/Vulnmachines/Zabbix-CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/Zabbix-CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/Zabbix-CVE-2022-23131.svg)
 
 
-## CVE-2022-1292
- The c_rehash script does not properly sanitise shell metacharacters to prevent command injection. This script is distributed by some operating systems in a manner where it is automatically executed. On such operating systems, an attacker could execute arbitrary commands with the privileges of the script. Use of the c_rehash script is considered obsolete and should be replaced by the OpenSSL rehash command line tool. Fixed in OpenSSL 3.0.3 (Affected 3.0.0,3.0.1,3.0.2). Fixed in OpenSSL 1.1.1o (Affected 1.1.1-1.1.1n). Fixed in OpenSSL 1.0.2ze (Affected 1.0.2-1.0.2zd).
+## CVE-2021-36260
+ A command injection vulnerability in the web server of some Hikvision product. Due to the insufficient input validation, attacker can exploit the vulnerability to launch a command injection attack by sending some messages with malicious commands.
 
-- [https://github.com/greek0x0/CVE-2022-1292](https://github.com/greek0x0/CVE-2022-1292) :  ![starts](https://img.shields.io/github/stars/greek0x0/CVE-2022-1292.svg) ![forks](https://img.shields.io/github/forks/greek0x0/CVE-2022-1292.svg)
-
-
-## CVE-2022-0543
- It was discovered, that redis, a persistent key-value database, due to a packaging issue, is prone to a (Debian-specific) Lua sandbox escape, which could result in remote code execution.
-
-- [https://github.com/JacobEbben/CVE-2022-0543](https://github.com/JacobEbben/CVE-2022-0543) :  ![starts](https://img.shields.io/github/stars/JacobEbben/CVE-2022-0543.svg) ![forks](https://img.shields.io/github/forks/JacobEbben/CVE-2022-0543.svg)
+- [https://github.com/TakenoSite/RemoteUploader-CVE-2021-36260](https://github.com/TakenoSite/RemoteUploader-CVE-2021-36260) :  ![starts](https://img.shields.io/github/stars/TakenoSite/RemoteUploader-CVE-2021-36260.svg) ![forks](https://img.shields.io/github/forks/TakenoSite/RemoteUploader-CVE-2021-36260.svg)
 
 
-## CVE-2021-22204
- Improper neutralization of user data in the DjVu file format in ExifTool versions 7.44 and up allows arbitrary code execution when parsing the malicious image
+## CVE-2021-31956
+ Windows NTFS Elevation of Privilege Vulnerability
 
-- [https://github.com/Pajarraco4444/CVE-2021-22204](https://github.com/Pajarraco4444/CVE-2021-22204) :  ![starts](https://img.shields.io/github/stars/Pajarraco4444/CVE-2021-22204.svg) ![forks](https://img.shields.io/github/forks/Pajarraco4444/CVE-2021-22204.svg)
-
-
-## CVE-2021-4034
- A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
-
-- [https://github.com/1337Rin/CVE-2021-4034](https://github.com/1337Rin/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/1337Rin/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/1337Rin/CVE-2021-4034.svg)
+- [https://github.com/Y3A/CVE-2021-31956](https://github.com/Y3A/CVE-2021-31956) :  ![starts](https://img.shields.io/github/stars/Y3A/CVE-2021-31956.svg) ![forks](https://img.shields.io/github/forks/Y3A/CVE-2021-31956.svg)
 
 
-## CVE-2020-8617
- Using a specially-crafted message, an attacker may potentially cause a BIND server to reach an inconsistent state if the attacker knows (or successfully guesses) the name of a TSIG key used by the server. Since BIND, by default, configures a local session key even on servers whose configuration does not otherwise make use of it, almost all current BIND servers are vulnerable. In releases of BIND dating from March 2018 and after, an assertion check in tsig.c detects this inconsistent state and deliberately exits. Prior to the introduction of the check the server would continue operating in an inconsistent state, with potentially harmful results.
+## CVE-2021-31800
+ Multiple path traversal vulnerabilities exist in smbserver.py in Impacket through 0.9.22. An attacker that connects to a running smbserver instance can list and write to arbitrary files via ../ directory traversal. This could potentially be abused to achieve arbitrary code execution by replacing /etc/shadow or an SSH authorized key.
 
-- [https://github.com/knqyf263/CVE-2020-8617](https://github.com/knqyf263/CVE-2020-8617) :  ![starts](https://img.shields.io/github/stars/knqyf263/CVE-2020-8617.svg) ![forks](https://img.shields.io/github/forks/knqyf263/CVE-2020-8617.svg)
-
-
-## CVE-2020-1947
- In Apache ShardingSphere(incubator) 4.0.0-RC3 and 4.0.0, the ShardingSphere's web console uses the SnakeYAML library for parsing YAML inputs to load datasource configuration. SnakeYAML allows to unmarshal data to a Java type By using the YAML tag. Unmarshalling untrusted data can lead to security flaws of RCE.
-
-- [https://github.com/CraigChristmas/CVE-2020-1947](https://github.com/CraigChristmas/CVE-2020-1947) :  ![starts](https://img.shields.io/github/stars/CraigChristmas/CVE-2020-1947.svg) ![forks](https://img.shields.io/github/forks/CraigChristmas/CVE-2020-1947.svg)
+- [https://github.com/Louzogh/CVE-2021-31800](https://github.com/Louzogh/CVE-2021-31800) :  ![starts](https://img.shields.io/github/stars/Louzogh/CVE-2021-31800.svg) ![forks](https://img.shields.io/github/forks/Louzogh/CVE-2021-31800.svg)
 
 
-## CVE-2016-8776
- Huawei P9 phones with software EVA-AL10C00,EVA-CL10C00,EVA-DL10C00,EVA-TL10C00 and P9 Lite phones with software VNS-L21C185 allow attackers to bypass the factory reset protection (FRP) to enter some functional modules without authorization and perform operations to update the Google account.
+## CVE-2021-3129
+ Ignition before 2.5.2, as used in Laravel and other products, allows unauthenticated remote attackers to execute arbitrary code because of insecure usage of file_get_contents() and file_put_contents(). This is exploitable on sites using debug mode with Laravel before 8.4.2.
 
-- [https://github.com/akzedevops/CVE-2016-8776](https://github.com/akzedevops/CVE-2016-8776) :  ![starts](https://img.shields.io/github/stars/akzedevops/CVE-2016-8776.svg) ![forks](https://img.shields.io/github/forks/akzedevops/CVE-2016-8776.svg)
+- [https://github.com/idea-oss/laravel-CVE-2021-3129-EXP](https://github.com/idea-oss/laravel-CVE-2021-3129-EXP) :  ![starts](https://img.shields.io/github/stars/idea-oss/laravel-CVE-2021-3129-EXP.svg) ![forks](https://img.shields.io/github/forks/idea-oss/laravel-CVE-2021-3129-EXP.svg)
+
+
+## CVE-2020-1611
+ A Local File Inclusion vulnerability in Juniper Networks Junos Space allows an attacker to view all files on the target when the device receives malicious HTTP packets. This issue affects: Juniper Networks Junos Space versions prior to 19.4R1.
+
+- [https://github.com/Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611) :  ![starts](https://img.shields.io/github/stars/Ibonok/CVE-2020-1611.svg) ![forks](https://img.shields.io/github/forks/Ibonok/CVE-2020-1611.svg)
+
+
+## CVE-2020-0227
+ In onCommand of CompanionDeviceManagerService.java, there is a possible permissions bypass due to a missing permission check. This could lead to local escalation of privilege allowing background data usage or launching from the background, with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-129476618
+
+- [https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2020-0227](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2020-0227) :  ![starts](https://img.shields.io/github/stars/nanopathi/framework_base_AOSP10_r33_CVE-2020-0227.svg) ![forks](https://img.shields.io/github/forks/nanopathi/framework_base_AOSP10_r33_CVE-2020-0227.svg)
+
+
+## CVE-2011-4919
+ mpack 1.6 has information disclosure via eavesdropping on mails sent by other users
+
+- [https://github.com/hartwork/mpacktrafficripper](https://github.com/hartwork/mpacktrafficripper) :  ![starts](https://img.shields.io/github/stars/hartwork/mpacktrafficripper.svg) ![forks](https://img.shields.io/github/forks/hartwork/mpacktrafficripper.svg)
 
