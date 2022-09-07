@@ -36727,13 +36727,6 @@
 
 - [https://github.com/grzegorzblaszczyk/CVE-2010-4476-check](https://github.com/grzegorzblaszczyk/CVE-2010-4476-check) :  ![starts](https://img.shields.io/github/stars/grzegorzblaszczyk/CVE-2010-4476-check.svg) ![forks](https://img.shields.io/github/forks/grzegorzblaszczyk/CVE-2010-4476-check.svg)
 
-## CVE-2010-4258
- The do_exit function in kernel/exit.c in the Linux kernel before 2.6.36.2 does not properly handle a KERNEL_DS get_fs value, which allows local users to bypass intended access_ok restrictions, overwrite arbitrary kernel memory locations, and gain privileges by leveraging a (1) BUG, (2) NULL pointer dereference, or (3) page fault, as demonstrated by vectors involving the clear_child_tid feature and the splice system call.
-
-
-
-- [https://github.com/johnreginald/CVE-2010-4258](https://github.com/johnreginald/CVE-2010-4258) :  ![starts](https://img.shields.io/github/stars/johnreginald/CVE-2010-4258.svg) ![forks](https://img.shields.io/github/forks/johnreginald/CVE-2010-4258.svg)
-
 ## CVE-2010-4221
  Multiple stack-based buffer overflows in the pr_netio_telnet_gets function in netio.c in ProFTPD before 1.3.3c allow remote attackers to execute arbitrary code via vectors involving a TELNET IAC escape character to a (1) FTP or (2) FTPS server.
 
