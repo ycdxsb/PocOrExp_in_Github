@@ -199,6 +199,13 @@
 
 - [https://github.com/shadofren/CVE-2013-3214](https://github.com/shadofren/CVE-2013-3214) :  ![starts](https://img.shields.io/github/stars/shadofren/CVE-2013-3214.svg) ![forks](https://img.shields.io/github/forks/shadofren/CVE-2013-3214.svg)
 
+## CVE-2013-2977
+ Integer overflow in IBM Notes 8.5.x before 8.5.3 FP4 Interim Fix 1 and 9.x before 9.0 Interim Fix 1 on Windows, and 8.5.x before 8.5.3 FP5 and 9.x before 9.0.1 on Linux, allows remote attackers to execute arbitrary code via a malformed PNG image in a previewed e-mail message, aka SPR NPEI96K82Q.
+
+
+
+- [https://github.com/lagartojuancho/CVE-2013-2977](https://github.com/lagartojuancho/CVE-2013-2977) :  ![starts](https://img.shields.io/github/stars/lagartojuancho/CVE-2013-2977.svg) ![forks](https://img.shields.io/github/forks/lagartojuancho/CVE-2013-2977.svg)
+
 ## CVE-2013-2842
  Use-after-free vulnerability in Google Chrome before 27.0.1453.93 allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors related to the handling of widgets.
 
