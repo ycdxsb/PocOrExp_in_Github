@@ -1,49 +1,30 @@
-# Update 2022-09-09
-## CVE-2022-36539
- WeDayCare B.V Ouderapp before v1.1.22 allows attackers to alter the ID value within intercepted calls to gain access to data of other parents and children.
+# Update 2022-09-10
+## CVE-2022-34265
+ An issue was discovered in Django 3.2 before 3.2.14 and 4.0 before 4.0.6. The Trunc() and Extract() database functions are subject to SQL injection if untrusted data is used as a kind/lookup_name value. Applications that constrain the lookup name and kind choice to a known safe list are unaffected.
 
-- [https://github.com/Fopje/CVE-2022-36539](https://github.com/Fopje/CVE-2022-36539) :  ![starts](https://img.shields.io/github/stars/Fopje/CVE-2022-36539.svg) ![forks](https://img.shields.io/github/forks/Fopje/CVE-2022-36539.svg)
-
-
-## CVE-2021-39674
- In btm_sec_connected and btm_sec_disconnected of btm_sec.cc file , there is a possible use after free. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12Android ID: A-201083442
-
-- [https://github.com/nidhi7598/system_bt_AOSP_10_r33_CVE-2021-39674](https://github.com/nidhi7598/system_bt_AOSP_10_r33_CVE-2021-39674) :  ![starts](https://img.shields.io/github/stars/nidhi7598/system_bt_AOSP_10_r33_CVE-2021-39674.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/system_bt_AOSP_10_r33_CVE-2021-39674.svg)
+- [https://github.com/coco0x0a/CTF_CVE-2022-34265](https://github.com/coco0x0a/CTF_CVE-2022-34265) :  ![starts](https://img.shields.io/github/stars/coco0x0a/CTF_CVE-2022-34265.svg) ![forks](https://img.shields.io/github/forks/coco0x0a/CTF_CVE-2022-34265.svg)
 
 
-## CVE-2021-4034
- A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
+## CVE-2022-20126
+ In setScanMode of AdapterService.java, there is a possible way to enable Bluetooth discovery mode without user interaction due to a missing permission check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-203431023
 
-- [https://github.com/defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034) :  ![starts](https://img.shields.io/github/stars/defhacks/cve-2021-4034.svg) ![forks](https://img.shields.io/github/forks/defhacks/cve-2021-4034.svg)
-- [https://github.com/k4u5h41/CVE-2021-4034](https://github.com/k4u5h41/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2021-4034.svg)
-
-
-## CVE-2021-3560
- It was found that polkit could be tricked into bypassing the credential checks for D-Bus requests, elevating the privileges of the requestor to the root user. This flaw could be used by an unprivileged local attacker to, for example, create a new local administrator. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
-
-- [https://github.com/curtishoughton/CVE-2021-3560](https://github.com/curtishoughton/CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/curtishoughton/CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/curtishoughton/CVE-2021-3560.svg)
+- [https://github.com/Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126](https://github.com/Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126) :  ![starts](https://img.shields.io/github/stars/Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126.svg)
 
 
-## CVE-2020-25478
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2021-38314
+ The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site&#8217;s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
 
-- [https://github.com/santokum/CVE-2020-25478--ASUS-RT-AC87U-TFTP-is-vulnerable-to-Denial-of-Service-DoS-attack](https://github.com/santokum/CVE-2020-25478--ASUS-RT-AC87U-TFTP-is-vulnerable-to-Denial-of-Service-DoS-attack) :  ![starts](https://img.shields.io/github/stars/santokum/CVE-2020-25478--ASUS-RT-AC87U-TFTP-is-vulnerable-to-Denial-of-Service-DoS-attack.svg) ![forks](https://img.shields.io/github/forks/santokum/CVE-2020-25478--ASUS-RT-AC87U-TFTP-is-vulnerable-to-Denial-of-Service-DoS-attack.svg)
-
-
-## CVE-2019-17240
- bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-force protection mechanism by using many different forged X-Forwarded-For or Client-IP HTTP headers.
-
-- [https://github.com/LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb) :  ![starts](https://img.shields.io/github/stars/LucaReggiannini/Bludit-3-9-2-bb.svg) ![forks](https://img.shields.io/github/forks/LucaReggiannini/Bludit-3-9-2-bb.svg)
+- [https://github.com/akhilkoradiya/CVE-2021-38314](https://github.com/akhilkoradiya/CVE-2021-38314) :  ![starts](https://img.shields.io/github/stars/akhilkoradiya/CVE-2021-38314.svg) ![forks](https://img.shields.io/github/forks/akhilkoradiya/CVE-2021-38314.svg)
 
 
-## CVE-2018-6574
- Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10rc2 allow &quot;go get&quot; remote command execution during source code build, by leveraging the gcc or clang plugin feature, because -fplugin= and -plugin= arguments were not blocked.
+## CVE-2021-3493
+ The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges.
 
-- [https://github.com/hasharmujahid/CVE-2018-6574-go-get-RCE](https://github.com/hasharmujahid/CVE-2018-6574-go-get-RCE) :  ![starts](https://img.shields.io/github/stars/hasharmujahid/CVE-2018-6574-go-get-RCE.svg) ![forks](https://img.shields.io/github/forks/hasharmujahid/CVE-2018-6574-go-get-RCE.svg)
+- [https://github.com/inspiringz/CVE-2021-3493](https://github.com/inspiringz/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/inspiringz/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/inspiringz/CVE-2021-3493.svg)
 
 
-## CVE-2016-5696
- net/ipv4/tcp_input.c in the Linux kernel before 4.7 does not properly determine the rate of challenge ACK segments, which makes it easier for remote attackers to hijack TCP sessions via a blind in-window attack.
+## CVE-2014-6271
+ GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
 
-- [https://github.com/unkaktus/grill](https://github.com/unkaktus/grill) :  ![starts](https://img.shields.io/github/stars/unkaktus/grill.svg) ![forks](https://img.shields.io/github/forks/unkaktus/grill.svg)
+- [https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-](https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-) :  ![starts](https://img.shields.io/github/stars/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-.svg) ![forks](https://img.shields.io/github/forks/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-.svg)
 
