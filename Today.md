@@ -1,30 +1,73 @@
-# Update 2022-09-10
-## CVE-2022-34265
- An issue was discovered in Django 3.2 before 3.2.14 and 4.0 before 4.0.6. The Trunc() and Extract() database functions are subject to SQL injection if untrusted data is used as a kind/lookup_name value. Applications that constrain the lookup name and kind choice to a known safe list are unaffected.
+# Update 2022-09-11
+## CVE-2022-40317
+ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring in an A element.
 
-- [https://github.com/coco0x0a/CTF_CVE-2022-34265](https://github.com/coco0x0a/CTF_CVE-2022-34265) :  ![starts](https://img.shields.io/github/stars/coco0x0a/CTF_CVE-2022-34265.svg) ![forks](https://img.shields.io/github/forks/coco0x0a/CTF_CVE-2022-34265.svg)
-
-
-## CVE-2022-20126
- In setScanMode of AdapterService.java, there is a possible way to enable Bluetooth discovery mode without user interaction due to a missing permission check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-203431023
-
-- [https://github.com/Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126](https://github.com/Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126) :  ![starts](https://img.shields.io/github/stars/Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126.svg)
+- [https://github.com/izdiwho/CVE-2022-40317](https://github.com/izdiwho/CVE-2022-40317) :  ![starts](https://img.shields.io/github/stars/izdiwho/CVE-2022-40317.svg) ![forks](https://img.shields.io/github/forks/izdiwho/CVE-2022-40317.svg)
 
 
-## CVE-2021-38314
- The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site&#8217;s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
+## CVE-2022-40297
+ UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password.
 
-- [https://github.com/akhilkoradiya/CVE-2021-38314](https://github.com/akhilkoradiya/CVE-2021-38314) :  ![starts](https://img.shields.io/github/stars/akhilkoradiya/CVE-2021-38314.svg) ![forks](https://img.shields.io/github/forks/akhilkoradiya/CVE-2021-38314.svg)
-
-
-## CVE-2021-3493
- The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges.
-
-- [https://github.com/inspiringz/CVE-2021-3493](https://github.com/inspiringz/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/inspiringz/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/inspiringz/CVE-2021-3493.svg)
+- [https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc](https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc) :  ![starts](https://img.shields.io/github/stars/filipkarc/PoC-ubuntutouch-pin-privesc.svg) ![forks](https://img.shields.io/github/forks/filipkarc/PoC-ubuntutouch-pin-privesc.svg)
 
 
-## CVE-2014-6271
- GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
+## CVE-2022-36446
+ software/apt-lib.pl in Webmin before 1.997 lacks HTML escaping for a UI command.
 
-- [https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-](https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-) :  ![starts](https://img.shields.io/github/stars/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-.svg) ![forks](https://img.shields.io/github/forks/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-.svg)
+- [https://github.com/emirpolatt/CVE-2022-36446](https://github.com/emirpolatt/CVE-2022-36446) :  ![starts](https://img.shields.io/github/stars/emirpolatt/CVE-2022-36446.svg) ![forks](https://img.shields.io/github/forks/emirpolatt/CVE-2022-36446.svg)
+
+
+## CVE-2022-31188
+ CVAT is an opensource interactive video and image annotation tool for computer vision. Versions prior to 2.0.0 were found to be subject to a Server-side request forgery (SSRF) vulnerability. Validation has been added to urls used in the affected code path in version 2.0.0. Users are advised to upgrade. There are no known workarounds for this issue.
+
+- [https://github.com/emirpolatt/CVE-2022-31188](https://github.com/emirpolatt/CVE-2022-31188) :  ![starts](https://img.shields.io/github/stars/emirpolatt/CVE-2022-31188.svg) ![forks](https://img.shields.io/github/forks/emirpolatt/CVE-2022-31188.svg)
+
+
+## CVE-2022-22629
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/parsdefense/CVE-2022-22629](https://github.com/parsdefense/CVE-2022-22629) :  ![starts](https://img.shields.io/github/stars/parsdefense/CVE-2022-22629.svg) ![forks](https://img.shields.io/github/forks/parsdefense/CVE-2022-22629.svg)
+
+
+## CVE-2022-20360
+ In setChecked of SecureNfcPreferenceController.java, there is a missing permission check. This could lead to local escalation of privilege from the guest user with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-228314987
+
+- [https://github.com/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20360](https://github.com/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20360) :  ![starts](https://img.shields.io/github/stars/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20360.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20360.svg)
+
+
+## CVE-2022-20128
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/irsl/CVE-2022-20128](https://github.com/irsl/CVE-2022-20128) :  ![starts](https://img.shields.io/github/stars/irsl/CVE-2022-20128.svg) ![forks](https://img.shields.io/github/forks/irsl/CVE-2022-20128.svg)
+
+
+## CVE-2022-3168
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards) :  ![starts](https://img.shields.io/github/stars/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards.svg) ![forks](https://img.shields.io/github/forks/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards.svg)
+
+
+## CVE-2021-38163
+ SAP NetWeaver (Visual Composer 7.0 RT) versions - 7.30, 7.31, 7.40, 7.50, without restriction, an attacker authenticated as a non-administrative user can upload a malicious file over a network and trigger its processing, which is capable of running operating system commands with the privilege of the Java Server process. These commands can be used to read or modify any information on the server or shut the server down making it unavailable.
+
+- [https://github.com/core1impact/CVE-2021-38163](https://github.com/core1impact/CVE-2021-38163) :  ![starts](https://img.shields.io/github/stars/core1impact/CVE-2021-38163.svg) ![forks](https://img.shields.io/github/forks/core1impact/CVE-2021-38163.svg)
+
+
+## CVE-2019-15107
+ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_change.cgi contains a command injection vulnerability.
+
+- [https://github.com/puckiestyle/CVE-2019-15107](https://github.com/puckiestyle/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2019-15107.svg)
+- [https://github.com/darrenmartyn/CVE-2019-15107](https://github.com/darrenmartyn/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/darrenmartyn/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/darrenmartyn/CVE-2019-15107.svg)
+
+
+## CVE-2016-5734
+ phpMyAdmin 4.0.x before 4.0.10.16, 4.4.x before 4.4.15.7, and 4.6.x before 4.6.3 does not properly choose delimiters to prevent use of the preg_replace e (aka eval) modifier, which might allow remote attackers to execute arbitrary PHP code via a crafted string, as demonstrated by the table search-and-replace implementation.
+
+- [https://github.com/miko550/CVE-2016-5734-docker](https://github.com/miko550/CVE-2016-5734-docker) :  ![starts](https://img.shields.io/github/stars/miko550/CVE-2016-5734-docker.svg) ![forks](https://img.shields.io/github/forks/miko550/CVE-2016-5734-docker.svg)
+
+
+## CVE-2013-2977
+ Integer overflow in IBM Notes 8.5.x before 8.5.3 FP4 Interim Fix 1 and 9.x before 9.0 Interim Fix 1 on Windows, and 8.5.x before 8.5.3 FP5 and 9.x before 9.0.1 on Linux, allows remote attackers to execute arbitrary code via a malformed PNG image in a previewed e-mail message, aka SPR NPEI96K82Q.
+
+- [https://github.com/lagartojuancho/CVE-2013-2977](https://github.com/lagartojuancho/CVE-2013-2977) :  ![starts](https://img.shields.io/github/stars/lagartojuancho/CVE-2013-2977.svg) ![forks](https://img.shields.io/github/forks/lagartojuancho/CVE-2013-2977.svg)
 
