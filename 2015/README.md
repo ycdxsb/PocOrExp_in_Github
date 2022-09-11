@@ -794,8 +794,6 @@
 
 - [https://github.com/SkinAir/ms15-034-Scan](https://github.com/SkinAir/ms15-034-Scan) :  ![starts](https://img.shields.io/github/stars/SkinAir/ms15-034-Scan.svg) ![forks](https://img.shields.io/github/forks/SkinAir/ms15-034-Scan.svg)
 
-- [https://github.com/wiredaem0n/chk-ms15-034](https://github.com/wiredaem0n/chk-ms15-034) :  ![starts](https://img.shields.io/github/stars/wiredaem0n/chk-ms15-034.svg) ![forks](https://img.shields.io/github/forks/wiredaem0n/chk-ms15-034.svg)
-
 ## CVE-2015-1592
  Movable Type Pro, Open Source, and Advanced before 5.2.12 and Pro and Advanced 6.0.x before 6.0.7 does not properly use the Perl Storable::thaw function, which allows remote attackers to include and execute arbitrary local Perl files and possibly execute arbitrary code via unspecified vectors.
 
