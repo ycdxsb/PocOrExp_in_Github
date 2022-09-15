@@ -48,7 +48,7 @@
 
 - [https://github.com/Adel-kaka-dz/CVE-2006-3392](https://github.com/Adel-kaka-dz/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/Adel-kaka-dz/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/Adel-kaka-dz/CVE-2006-3392.svg)
 
-- [https://github.com/windsormoreira/CVE-2006-3392](https://github.com/windsormoreira/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/windsormoreira/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/windsormoreira/CVE-2006-3392.svg)
+- [https://github.com/kernel-cyber/CVE-2006-3392](https://github.com/kernel-cyber/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/kernel-cyber/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/kernel-cyber/CVE-2006-3392.svg)
 
 - [https://github.com/gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin) :  ![starts](https://img.shields.io/github/stars/gb21oc/ExploitWebmin.svg) ![forks](https://img.shields.io/github/forks/gb21oc/ExploitWebmin.svg)
 
