@@ -37110,7 +37110,7 @@
 
 
 
-- [https://github.com/Sunqiz/CVE-2010-2553-reproduction](https://github.com/Sunqiz/CVE-2010-2553-reproduction) :  ![starts](https://img.shields.io/github/stars/Sunqiz/CVE-2010-2553-reproduction.svg) ![forks](https://img.shields.io/github/forks/Sunqiz/CVE-2010-2553-reproduction.svg)
+- [https://github.com/Sunqiz/cve-2010-2553-reproduction](https://github.com/Sunqiz/cve-2010-2553-reproduction) :  ![starts](https://img.shields.io/github/stars/Sunqiz/cve-2010-2553-reproduction.svg) ![forks](https://img.shields.io/github/forks/Sunqiz/cve-2010-2553-reproduction.svg)
 
 ## CVE-2010-2387
  vicious-extensions/ve-misc.c in GNOME Display Manager (gdm) 2.20.x before 2.20.11, when GDM debug is enabled, logs the user password when it contains invalid UTF8 encoded characters, which might allow local users to gain privileges by reading the information from syslog logs.
