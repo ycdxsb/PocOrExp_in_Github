@@ -46,13 +46,6 @@
 
 - [https://github.com/guhe120/CVE-2013-5842](https://github.com/guhe120/CVE-2013-5842) :  ![starts](https://img.shields.io/github/stars/guhe120/CVE-2013-5842.svg) ![forks](https://img.shields.io/github/forks/guhe120/CVE-2013-5842.svg)
 
-## CVE-2013-5700
- The Bloom Filter implementation in bitcoind and Bitcoin-Qt 0.8.x before 0.8.4rc1 allows remote attackers to cause a denial of service (divide-by-zero error and daemon crash) via a crafted sequence of messages.
-
-
-
-- [https://github.com/nondejus/CVE-2013-5700](https://github.com/nondejus/CVE-2013-5700) :  ![starts](https://img.shields.io/github/stars/nondejus/CVE-2013-5700.svg) ![forks](https://img.shields.io/github/forks/nondejus/CVE-2013-5700.svg)
-
 ## CVE-2013-5664
  Cross-site scripting (XSS) vulnerability in the web-based device-management API browser in Palo Alto Networks PAN-OS before 4.1.13 and 5.0.x before 5.0.6 allows remote attackers to inject arbitrary web script or HTML via crafted data, aka Ref ID 50908.
 
@@ -269,9 +262,9 @@
 
 - [https://github.com/GrrrDog/ACEDcup](https://github.com/GrrrDog/ACEDcup) :  ![starts](https://img.shields.io/github/stars/GrrrDog/ACEDcup.svg) ![forks](https://img.shields.io/github/forks/GrrrDog/ACEDcup.svg)
 
-- [https://github.com/sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/Payload_CVE_2013_2186.svg)
-
 - [https://github.com/sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/CVE_2013_2186.svg)
+
+- [https://github.com/sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/Payload_CVE_2013_2186.svg)
 
 ## CVE-2013-2171
  The vm_map_lookup function in sys/vm/vm_map.c in the mmap implementation in the kernel in FreeBSD 9.0 through 9.1-RELEASE-p4 does not properly determine whether a task should have write access to a memory location, which allows local users to bypass filesystem write permissions and consequently gain privileges via a crafted application that leverages read permissions, and makes mmap and ptrace system calls.
