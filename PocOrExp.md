@@ -34146,6 +34146,8 @@
 
 - [https://github.com/guanjivip/CVE-2015-8562](https://github.com/guanjivip/CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/guanjivip/CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/guanjivip/CVE-2015-8562.svg)
 
+- [https://github.com/Caihuar/Joomla-cve-2015-8562](https://github.com/Caihuar/Joomla-cve-2015-8562) :  ![starts](https://img.shields.io/github/stars/Caihuar/Joomla-cve-2015-8562.svg) ![forks](https://img.shields.io/github/forks/Caihuar/Joomla-cve-2015-8562.svg)
+
 - [https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562](https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/thejackerz/scanner-exploit-joomla-CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/thejackerz/scanner-exploit-joomla-CVE-2015-8562.svg)
 
 ## CVE-2015-8543
@@ -34442,6 +34444,8 @@
 
 
 - [https://github.com/xpgdgit/CVE-2015-5531](https://github.com/xpgdgit/CVE-2015-5531) :  ![starts](https://img.shields.io/github/stars/xpgdgit/CVE-2015-5531.svg) ![forks](https://img.shields.io/github/forks/xpgdgit/CVE-2015-5531.svg)
+
+- [https://github.com/j-jasson/CVE-2015-5531-POC](https://github.com/j-jasson/CVE-2015-5531-POC) :  ![starts](https://img.shields.io/github/stars/j-jasson/CVE-2015-5531-POC.svg) ![forks](https://img.shields.io/github/forks/j-jasson/CVE-2015-5531-POC.svg)
 
 ## CVE-2015-5477
  named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote attackers to cause a denial of service (REQUIRE assertion failure and daemon exit) via TKEY queries.
