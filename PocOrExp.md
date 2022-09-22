@@ -34148,6 +34148,8 @@
 
 - [https://github.com/atcasanova/cve-2015-8562-exploit](https://github.com/atcasanova/cve-2015-8562-exploit) :  ![starts](https://img.shields.io/github/stars/atcasanova/cve-2015-8562-exploit.svg) ![forks](https://img.shields.io/github/forks/atcasanova/cve-2015-8562-exploit.svg)
 
+- [https://github.com/Caihuar/Joomla-cve-2015-8562](https://github.com/Caihuar/Joomla-cve-2015-8562) :  ![starts](https://img.shields.io/github/stars/Caihuar/Joomla-cve-2015-8562.svg) ![forks](https://img.shields.io/github/forks/Caihuar/Joomla-cve-2015-8562.svg)
+
 - [https://github.com/RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC](https://github.com/RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC) :  ![starts](https://img.shields.io/github/stars/RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC.svg) ![forks](https://img.shields.io/github/forks/RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC.svg)
 
 - [https://github.com/xnorkl/Joomla_Payload](https://github.com/xnorkl/Joomla_Payload) :  ![starts](https://img.shields.io/github/stars/xnorkl/Joomla_Payload.svg) ![forks](https://img.shields.io/github/forks/xnorkl/Joomla_Payload.svg)
@@ -34155,8 +34157,6 @@
 - [https://github.com/lorenzodegiorgi/setup-cve-2015-8562](https://github.com/lorenzodegiorgi/setup-cve-2015-8562) :  ![starts](https://img.shields.io/github/stars/lorenzodegiorgi/setup-cve-2015-8562.svg) ![forks](https://img.shields.io/github/forks/lorenzodegiorgi/setup-cve-2015-8562.svg)
 
 - [https://github.com/guanjivip/CVE-2015-8562](https://github.com/guanjivip/CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/guanjivip/CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/guanjivip/CVE-2015-8562.svg)
-
-- [https://github.com/Caihuar/Joomla-cve-2015-8562](https://github.com/Caihuar/Joomla-cve-2015-8562) :  ![starts](https://img.shields.io/github/stars/Caihuar/Joomla-cve-2015-8562.svg) ![forks](https://img.shields.io/github/forks/Caihuar/Joomla-cve-2015-8562.svg)
 
 - [https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562](https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/thejackerz/scanner-exploit-joomla-CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/thejackerz/scanner-exploit-joomla-CVE-2015-8562.svg)
 
@@ -34453,9 +34453,9 @@
 
 
 
-- [https://github.com/xpgdgit/CVE-2015-5531](https://github.com/xpgdgit/CVE-2015-5531) :  ![starts](https://img.shields.io/github/stars/xpgdgit/CVE-2015-5531.svg) ![forks](https://img.shields.io/github/forks/xpgdgit/CVE-2015-5531.svg)
-
 - [https://github.com/j-jasson/CVE-2015-5531-POC](https://github.com/j-jasson/CVE-2015-5531-POC) :  ![starts](https://img.shields.io/github/stars/j-jasson/CVE-2015-5531-POC.svg) ![forks](https://img.shields.io/github/forks/j-jasson/CVE-2015-5531-POC.svg)
+
+- [https://github.com/xpgdgit/CVE-2015-5531](https://github.com/xpgdgit/CVE-2015-5531) :  ![starts](https://img.shields.io/github/stars/xpgdgit/CVE-2015-5531.svg) ![forks](https://img.shields.io/github/forks/xpgdgit/CVE-2015-5531.svg)
 
 ## CVE-2015-5477
  named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote attackers to cause a denial of service (REQUIRE assertion failure and daemon exit) via TKEY queries.
