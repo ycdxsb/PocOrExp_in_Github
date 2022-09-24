@@ -36248,9 +36248,9 @@
 
 
 
-- [https://github.com/dani87/ntpscanner](https://github.com/dani87/ntpscanner) :  ![starts](https://img.shields.io/github/stars/dani87/ntpscanner.svg) ![forks](https://img.shields.io/github/forks/dani87/ntpscanner.svg)
-
 - [https://github.com/sepehrdaddev/ntpdos](https://github.com/sepehrdaddev/ntpdos) :  ![starts](https://img.shields.io/github/stars/sepehrdaddev/ntpdos.svg) ![forks](https://img.shields.io/github/forks/sepehrdaddev/ntpdos.svg)
+
+- [https://github.com/dani87/ntpscanner](https://github.com/dani87/ntpscanner) :  ![starts](https://img.shields.io/github/stars/dani87/ntpscanner.svg) ![forks](https://img.shields.io/github/forks/dani87/ntpscanner.svg)
 
 - [https://github.com/suedadam/ntpscanner](https://github.com/suedadam/ntpscanner) :  ![starts](https://img.shields.io/github/stars/suedadam/ntpscanner.svg) ![forks](https://img.shields.io/github/forks/suedadam/ntpscanner.svg)
 
@@ -36452,9 +36452,9 @@
 
 - [https://github.com/GrrrDog/ACEDcup](https://github.com/GrrrDog/ACEDcup) :  ![starts](https://img.shields.io/github/stars/GrrrDog/ACEDcup.svg) ![forks](https://img.shields.io/github/forks/GrrrDog/ACEDcup.svg)
 
-- [https://github.com/sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/CVE_2013_2186.svg)
-
 - [https://github.com/sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/Payload_CVE_2013_2186.svg)
+
+- [https://github.com/sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/CVE_2013_2186.svg)
 
 ## CVE-2013-2171
  The vm_map_lookup function in sys/vm/vm_map.c in the mmap implementation in the kernel in FreeBSD 9.0 through 9.1-RELEASE-p4 does not properly determine whether a task should have write access to a memory location, which allows local users to bypass filesystem write permissions and consequently gain privileges via a crafted application that leverages read permissions, and makes mmap and ptrace system calls.
