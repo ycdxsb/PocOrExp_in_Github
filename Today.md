@@ -1,49 +1,49 @@
-# Update 2022-09-26
-## CVE-2022-39197
- An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Strike through 4.7 that allowed a remote attacker to execute HTML on the Cobalt Strike teamserver. To exploit the vulnerability, one must first inspect a Cobalt Strike payload, and then modify the username field in the payload (or create a new payload with the extracted information and then modify that username field to be malformed).
+# Update 2022-09-27
+## CVE-2022-36804
+ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.0 before version 7.21.4, from version 8.0.0 before version 8.0.3, from version 8.1.0 before version 8.1.3, and from version 8.2.0 before version 8.2.2, and from version 8.3.0 before 8.3.1 allows remote attackers with read permissions to a public or private Bitbucket repository to execute arbitrary code by sending a malicious HTTP request. This vulnerability was reported via our Bug Bounty Program by TheGrandPew.
 
-- [https://github.com/yqcs/CSPOC](https://github.com/yqcs/CSPOC) :  ![starts](https://img.shields.io/github/stars/yqcs/CSPOC.svg) ![forks](https://img.shields.io/github/forks/yqcs/CSPOC.svg)
-- [https://github.com/purple-WL/Cobaltstrike-RCE-CVE-2022-39197](https://github.com/purple-WL/Cobaltstrike-RCE-CVE-2022-39197) :  ![starts](https://img.shields.io/github/stars/purple-WL/Cobaltstrike-RCE-CVE-2022-39197.svg) ![forks](https://img.shields.io/github/forks/purple-WL/Cobaltstrike-RCE-CVE-2022-39197.svg)
-
-
-## CVE-2022-26809
- Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-24492, CVE-2022-24528.
-
-- [https://github.com/scoobyd00bi/CVE-2022-26809-RCE](https://github.com/scoobyd00bi/CVE-2022-26809-RCE) :  ![starts](https://img.shields.io/github/stars/scoobyd00bi/CVE-2022-26809-RCE.svg) ![forks](https://img.shields.io/github/forks/scoobyd00bi/CVE-2022-26809-RCE.svg)
+- [https://github.com/tahtaciburak/cve-2022-36804](https://github.com/tahtaciburak/cve-2022-36804) :  ![starts](https://img.shields.io/github/stars/tahtaciburak/cve-2022-36804.svg) ![forks](https://img.shields.io/github/forks/tahtaciburak/cve-2022-36804.svg)
+- [https://github.com/trhacknon/CVE-2022-36804-ReverseShell](https://github.com/trhacknon/CVE-2022-36804-ReverseShell) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2022-36804-ReverseShell.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2022-36804-ReverseShell.svg)
 
 
-## CVE-2022-2274
- The OpenSSL 3.0.4 release introduced a serious bug in the RSA implementation for X86_64 CPUs supporting the AVX512IFMA instructions. This issue makes the RSA implementation with 2048 bit private keys incorrect on such machines and memory corruption will happen during the computation. As a consequence of the memory corruption an attacker may be able to trigger a remote code execution on the machine performing the computation. SSL/TLS servers or other servers using 2048 bit RSA private keys running on machines supporting AVX512IFMA instructions of the X86_64 architecture are affected by this issue.
+## CVE-2022-30190
+ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability.
 
-- [https://github.com/Malwareman007/CVE-2022-2274](https://github.com/Malwareman007/CVE-2022-2274) :  ![starts](https://img.shields.io/github/stars/Malwareman007/CVE-2022-2274.svg) ![forks](https://img.shields.io/github/forks/Malwareman007/CVE-2022-2274.svg)
-
-
-## CVE-2021-44832
- Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) are vulnerable to a remote code execution (RCE) attack when a configuration uses a JDBC Appender with a JNDI LDAP data source URI when an attacker has control of the target LDAP server. This issue is fixed by limiting JNDI data source names to the java protocol in Log4j2 versions 2.17.1, 2.12.4, and 2.3.2.
-
-- [https://github.com/name/log4j](https://github.com/name/log4j) :  ![starts](https://img.shields.io/github/stars/name/log4j.svg) ![forks](https://img.shields.io/github/forks/name/log4j.svg)
+- [https://github.com/SystemJargon/infosec_1](https://github.com/SystemJargon/infosec_1) :  ![starts](https://img.shields.io/github/stars/SystemJargon/infosec_1.svg) ![forks](https://img.shields.io/github/forks/SystemJargon/infosec_1.svg)
 
 
-## CVE-2021-4034
- A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
+## CVE-2022-29581
+ Improper Update of Reference Count vulnerability in net/sched of Linux Kernel allows local attacker to cause privilege escalation to root. This issue affects: Linux Kernel versions prior to 5.18; version 4.14 and later versions.
 
-- [https://github.com/flux10n/CVE-2021-4034](https://github.com/flux10n/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/flux10n/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/flux10n/CVE-2021-4034.svg)
-
-
-## CVE-2017-8486
- Microsoft Windows 7 SP1, Windows Server 2008 SP2 and R2 SP1, Windows 8.1 and Windows RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allows an information disclosure due to the way it handles objects in memory, aka &quot;Win32k Information Disclosure Vulnerability&quot;.
-
-- [https://github.com/doudouhala/CVE-2017-8464-exp-generator](https://github.com/doudouhala/CVE-2017-8464-exp-generator) :  ![starts](https://img.shields.io/github/stars/doudouhala/CVE-2017-8464-exp-generator.svg) ![forks](https://img.shields.io/github/forks/doudouhala/CVE-2017-8464-exp-generator.svg)
+- [https://github.com/nidhi7598/linux-4.19.72_CVE-2022-29581](https://github.com/nidhi7598/linux-4.19.72_CVE-2022-29581) :  ![starts](https://img.shields.io/github/stars/nidhi7598/linux-4.19.72_CVE-2022-29581.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/linux-4.19.72_CVE-2022-29581.svg)
 
 
-## CVE-2017-8464
- Windows Shell in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allows local users or remote attackers to execute arbitrary code via a crafted .LNK file, which is not properly handled during icon display in Windows Explorer or any other application that parses the icon of the shortcut. aka &quot;LNK Remote Code Execution Vulnerability.&quot;
+## CVE-2022-28282
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/doudouhala/CVE-2017-8464-exp-generator](https://github.com/doudouhala/CVE-2017-8464-exp-generator) :  ![starts](https://img.shields.io/github/stars/doudouhala/CVE-2017-8464-exp-generator.svg) ![forks](https://img.shields.io/github/forks/doudouhala/CVE-2017-8464-exp-generator.svg)
+- [https://github.com/Pwnrin/CVE-2022-28282](https://github.com/Pwnrin/CVE-2022-28282) :  ![starts](https://img.shields.io/github/stars/Pwnrin/CVE-2022-28282.svg) ![forks](https://img.shields.io/github/forks/Pwnrin/CVE-2022-28282.svg)
 
 
-## CVE-2016-2098
- Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x before 4.2.5.2 allows remote attackers to execute arbitrary Ruby code by leveraging an application's unrestricted use of the render method.
+## CVE-2022-27925
+ Zimbra Collaboration (aka ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. An authenticated user with administrator rights has the ability to upload arbitrary files to the system, leading to directory traversal.
 
-- [https://github.com/Shakun8/CVE-2016-2098](https://github.com/Shakun8/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Shakun8/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Shakun8/CVE-2016-2098.svg)
+- [https://github.com/jam620/Zimbra](https://github.com/jam620/Zimbra) :  ![starts](https://img.shields.io/github/stars/jam620/Zimbra.svg) ![forks](https://img.shields.io/github/forks/jam620/Zimbra.svg)
+
+
+## CVE-2022-2097
+ AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of &quot;in place&quot; encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).
+
+- [https://github.com/PeterThomasAwen/OpenSSLUpgrade1.1.1q-Ubuntu](https://github.com/PeterThomasAwen/OpenSSLUpgrade1.1.1q-Ubuntu) :  ![starts](https://img.shields.io/github/stars/PeterThomasAwen/OpenSSLUpgrade1.1.1q-Ubuntu.svg) ![forks](https://img.shields.io/github/forks/PeterThomasAwen/OpenSSLUpgrade1.1.1q-Ubuntu.svg)
+
+
+## CVE-2022-1040
+ An authentication bypass vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v18.5 MR3 and older.
+
+- [https://github.com/jam620/Sophos-Vulnerability](https://github.com/jam620/Sophos-Vulnerability) :  ![starts](https://img.shields.io/github/stars/jam620/Sophos-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/jam620/Sophos-Vulnerability.svg)
+
+
+## CVE-2021-34527
+ Windows Print Spooler Remote Code Execution Vulnerability
+
+- [https://github.com/SystemJargon/infosec_1](https://github.com/SystemJargon/infosec_1) :  ![starts](https://img.shields.io/github/stars/SystemJargon/infosec_1.svg) ![forks](https://img.shields.io/github/forks/SystemJargon/infosec_1.svg)
 
