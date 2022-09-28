@@ -34150,6 +34150,13 @@
 
 - [https://github.com/hybridious/CVE-2016-0034-Decompile](https://github.com/hybridious/CVE-2016-0034-Decompile) :  ![starts](https://img.shields.io/github/stars/hybridious/CVE-2016-0034-Decompile.svg) ![forks](https://img.shields.io/github/forks/hybridious/CVE-2016-0034-Decompile.svg)
 
+## CVE-2016-0010
+ Microsoft Office 2007 SP3, Office 2010 SP2, Office 2013 SP1, Office 2013 RT SP1, Office 2016, Excel for Mac 2011, PowerPoint for Mac 2011, Word for Mac 2011, Excel 2016 for Mac, PowerPoint 2016 for Mac, Word 2016 for Mac, and Word Viewer allow remote attackers to execute arbitrary code via a crafted Office document, aka &quot;Microsoft Office Memory Corruption Vulnerability.&quot;
+
+
+
+- [https://github.com/Sunqiz/CVE-2016-0010-reproduction](https://github.com/Sunqiz/CVE-2016-0010-reproduction) :  ![starts](https://img.shields.io/github/stars/Sunqiz/CVE-2016-0010-reproduction.svg) ![forks](https://img.shields.io/github/forks/Sunqiz/CVE-2016-0010-reproduction.svg)
+
 
 
 ## 2015
