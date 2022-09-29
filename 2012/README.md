@@ -180,9 +180,9 @@
 
 - [https://github.com/blu3ming/CVE-2012-2982](https://github.com/blu3ming/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/blu3ming/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/blu3ming/CVE-2012-2982.svg)
 
-- [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
-
 - [https://github.com/SlizBinksman/CVE_2012-2982](https://github.com/SlizBinksman/CVE_2012-2982) :  ![starts](https://img.shields.io/github/stars/SlizBinksman/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/SlizBinksman/CVE_2012-2982.svg)
+
+- [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
 
 - [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
 
@@ -310,5 +310,3 @@
 
 
 - [https://github.com/k0keoyo/CVE-2012-0003_eXP](https://github.com/k0keoyo/CVE-2012-0003_eXP) :  ![starts](https://img.shields.io/github/stars/k0keoyo/CVE-2012-0003_eXP.svg) ![forks](https://img.shields.io/github/forks/k0keoyo/CVE-2012-0003_eXP.svg)
-
-- [https://github.com/Sunqiz/CVE-2012-0003-reproduction](https://github.com/Sunqiz/CVE-2012-0003-reproduction) :  ![starts](https://img.shields.io/github/stars/Sunqiz/CVE-2012-0003-reproduction.svg) ![forks](https://img.shields.io/github/forks/Sunqiz/CVE-2012-0003-reproduction.svg)
