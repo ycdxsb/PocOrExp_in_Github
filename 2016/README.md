@@ -145,9 +145,9 @@
 
 - [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
 
-- [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
-
 - [https://github.com/zeeshanbhattined/exploit-CVE-2016-10033](https://github.com/zeeshanbhattined/exploit-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/zeeshanbhattined/exploit-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/zeeshanbhattined/exploit-CVE-2016-10033.svg)
+
+- [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
 
 - [https://github.com/liusec/WP-CVE-2016-10033](https://github.com/liusec/WP-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/liusec/WP-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/liusec/WP-CVE-2016-10033.svg)
 
@@ -1283,9 +1283,9 @@
 
 - [https://github.com/bazad/rootsh](https://github.com/bazad/rootsh) :  ![starts](https://img.shields.io/github/stars/bazad/rootsh.svg) ![forks](https://img.shields.io/github/forks/bazad/rootsh.svg)
 
-- [https://github.com/zqlblingzs/bazad5](https://github.com/zqlblingzs/bazad5) :  ![starts](https://img.shields.io/github/stars/zqlblingzs/bazad5.svg) ![forks](https://img.shields.io/github/forks/zqlblingzs/bazad5.svg)
-
 - [https://github.com/berritus163t/bazad5](https://github.com/berritus163t/bazad5) :  ![starts](https://img.shields.io/github/stars/berritus163t/bazad5.svg) ![forks](https://img.shields.io/github/forks/berritus163t/bazad5.svg)
+
+- [https://github.com/zqlblingzs/bazad5](https://github.com/zqlblingzs/bazad5) :  ![starts](https://img.shields.io/github/stars/zqlblingzs/bazad5.svg) ![forks](https://img.shields.io/github/forks/zqlblingzs/bazad5.svg)
 
 - [https://github.com/SideGreenHand100/bazad5](https://github.com/SideGreenHand100/bazad5) :  ![starts](https://img.shields.io/github/stars/SideGreenHand100/bazad5.svg) ![forks](https://img.shields.io/github/forks/SideGreenHand100/bazad5.svg)
 
