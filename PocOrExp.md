@@ -36261,9 +36261,9 @@
 
 
 
-- [https://github.com/sepehrdaddev/ntpdos](https://github.com/sepehrdaddev/ntpdos) :  ![starts](https://img.shields.io/github/stars/sepehrdaddev/ntpdos.svg) ![forks](https://img.shields.io/github/forks/sepehrdaddev/ntpdos.svg)
-
 - [https://github.com/dani87/ntpscanner](https://github.com/dani87/ntpscanner) :  ![starts](https://img.shields.io/github/stars/dani87/ntpscanner.svg) ![forks](https://img.shields.io/github/forks/dani87/ntpscanner.svg)
+
+- [https://github.com/sepehrdaddev/ntpdos](https://github.com/sepehrdaddev/ntpdos) :  ![starts](https://img.shields.io/github/stars/sepehrdaddev/ntpdos.svg) ![forks](https://img.shields.io/github/forks/sepehrdaddev/ntpdos.svg)
 
 - [https://github.com/suedadam/ntpscanner](https://github.com/suedadam/ntpscanner) :  ![starts](https://img.shields.io/github/stars/suedadam/ntpscanner.svg) ![forks](https://img.shields.io/github/forks/suedadam/ntpscanner.svg)
 
