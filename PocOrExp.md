@@ -19593,13 +19593,13 @@
 
 - [https://github.com/jamesjguthrie/Shitrix-CVE-2019-19781](https://github.com/jamesjguthrie/Shitrix-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/jamesjguthrie/Shitrix-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/jamesjguthrie/Shitrix-CVE-2019-19781.svg)
 
-- [https://github.com/Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Castaldio86/Detect-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Castaldio86/Detect-CVE-2019-19781.svg)
-
-- [https://github.com/5l1v3r1/Citrix_CVE-2019-19781](https://github.com/5l1v3r1/Citrix_CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/Citrix_CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/Citrix_CVE-2019-19781.svg)
-
 - [https://github.com/zenturacp/cve-2019-19781-web](https://github.com/zenturacp/cve-2019-19781-web) :  ![starts](https://img.shields.io/github/stars/zenturacp/cve-2019-19781-web.svg) ![forks](https://img.shields.io/github/forks/zenturacp/cve-2019-19781-web.svg)
 
 - [https://github.com/b510/CVE-2019-19781](https://github.com/b510/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/b510/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/b510/CVE-2019-19781.svg)
+
+- [https://github.com/Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Castaldio86/Detect-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Castaldio86/Detect-CVE-2019-19781.svg)
+
+- [https://github.com/5l1v3r1/Citrix_CVE-2019-19781](https://github.com/5l1v3r1/Citrix_CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/Citrix_CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/Citrix_CVE-2019-19781.svg)
 
 - [https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes](https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes) :  ![starts](https://img.shields.io/github/stars/Azeemering/CVE-2019-19781-DFIR-Notes.svg) ![forks](https://img.shields.io/github/forks/Azeemering/CVE-2019-19781-DFIR-Notes.svg)
 
@@ -20317,7 +20317,7 @@
 
 
 
-- [https://github.com/avavav777/CVE-2019-16920-MassPwn3r](https://github.com/avavav777/CVE-2019-16920-MassPwn3r) :  ![starts](https://img.shields.io/github/stars/avavav777/CVE-2019-16920-MassPwn3r.svg) ![forks](https://img.shields.io/github/forks/avavav777/CVE-2019-16920-MassPwn3r.svg)
+- [https://github.com/eniac888/CVE-2019-16920-MassPwn3r](https://github.com/eniac888/CVE-2019-16920-MassPwn3r) :  ![starts](https://img.shields.io/github/stars/eniac888/CVE-2019-16920-MassPwn3r.svg) ![forks](https://img.shields.io/github/forks/eniac888/CVE-2019-16920-MassPwn3r.svg)
 
 ## CVE-2019-16889
  Ubiquiti EdgeMAX devices before 2.0.3 allow remote attackers to cause a denial of service (disk consumption) because *.cache files in /var/run/beaker/container_file/ are created when providing a valid length payload of 249 characters or fewer to the beaker.session.id cookie in a GET header. The attacker can use a long series of unique session IDs.
@@ -20587,6 +20587,8 @@
  rpc.cgi in Webmin through 1.920 allows authenticated Remote Code Execution via a crafted object name because unserialise_variable makes an eval call. NOTE: the Webmin_Servers_Index documentation states &quot;RPC can be used to run any command or modify any file on a server, which is why access to it must not be granted to un-trusted Webmin users.&quot;
 
 
+
+- [https://github.com/CLincat/vulcat](https://github.com/CLincat/vulcat) :  ![starts](https://img.shields.io/github/stars/CLincat/vulcat.svg) ![forks](https://img.shields.io/github/forks/CLincat/vulcat.svg)
 
 - [https://github.com/jas502n/CVE-2019-15642](https://github.com/jas502n/CVE-2019-15642) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-15642.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-15642.svg)
 
@@ -21011,8 +21013,6 @@
  An issue was discovered in Django 1.11.x before 1.11.23, 2.1.x before 2.1.11, and 2.2.x before 2.2.4. Due to an error in shallow key transformation, key and index lookups for django.contrib.postgres.fields.JSONField, and key lookups for django.contrib.postgres.fields.HStoreField, were subject to SQL injection. This could, for example, be exploited via crafted use of &quot;OR 1=1&quot; in a key or index name to return all records, using a suitably crafted dictionary, with dictionary expansion, as the **kwargs passed to the QuerySet.filter() function.
 
 
-
-- [https://github.com/CLincat/vulcat](https://github.com/CLincat/vulcat) :  ![starts](https://img.shields.io/github/stars/CLincat/vulcat.svg) ![forks](https://img.shields.io/github/forks/CLincat/vulcat.svg)
 
 - [https://github.com/Rivaill/CVE_2019_14234](https://github.com/Rivaill/CVE_2019_14234) :  ![starts](https://img.shields.io/github/stars/Rivaill/CVE_2019_14234.svg) ![forks](https://img.shields.io/github/forks/Rivaill/CVE_2019_14234.svg)
 
@@ -23651,9 +23651,9 @@
 
 - [https://github.com/xiaoshuier/CVE-2019-3396](https://github.com/xiaoshuier/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/xiaoshuier/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/xiaoshuier/CVE-2019-3396.svg)
 
-- [https://github.com/vntest11/confluence_CVE-2019-3396](https://github.com/vntest11/confluence_CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/vntest11/confluence_CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/vntest11/confluence_CVE-2019-3396.svg)
-
 - [https://github.com/46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence) :  ![starts](https://img.shields.io/github/stars/46o60/CVE-2019-3396_Confluence.svg) ![forks](https://img.shields.io/github/forks/46o60/CVE-2019-3396_Confluence.svg)
+
+- [https://github.com/vntest11/confluence_CVE-2019-3396](https://github.com/vntest11/confluence_CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/vntest11/confluence_CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/vntest11/confluence_CVE-2019-3396.svg)
 
 - [https://github.com/am6539/CVE-2019-3396](https://github.com/am6539/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/am6539/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/am6539/CVE-2019-3396.svg)
 
@@ -23765,8 +23765,6 @@
 - [https://github.com/FlyfishSec/weblogic_rce](https://github.com/FlyfishSec/weblogic_rce) :  ![starts](https://img.shields.io/github/stars/FlyfishSec/weblogic_rce.svg) ![forks](https://img.shields.io/github/forks/FlyfishSec/weblogic_rce.svg)
 
 - [https://github.com/pimps/CVE-2019-2725](https://github.com/pimps/CVE-2019-2725) :  ![starts](https://img.shields.io/github/stars/pimps/CVE-2019-2725.svg) ![forks](https://img.shields.io/github/forks/pimps/CVE-2019-2725.svg)
-
-- [https://github.com/CLincat/vulcat](https://github.com/CLincat/vulcat) :  ![starts](https://img.shields.io/github/stars/CLincat/vulcat.svg) ![forks](https://img.shields.io/github/forks/CLincat/vulcat.svg)
 
 - [https://github.com/jiansiting/CVE-2019-2725](https://github.com/jiansiting/CVE-2019-2725) :  ![starts](https://img.shields.io/github/stars/jiansiting/CVE-2019-2725.svg) ![forks](https://img.shields.io/github/forks/jiansiting/CVE-2019-2725.svg)
 
@@ -24497,9 +24495,9 @@
 
 - [https://github.com/JasonLOU/CVE-2019-0708](https://github.com/JasonLOU/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/JasonLOU/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/JasonLOU/CVE-2019-0708.svg)
 
-- [https://github.com/0xFlag/CVE-2019-0708-test](https://github.com/0xFlag/CVE-2019-0708-test) :  ![starts](https://img.shields.io/github/stars/0xFlag/CVE-2019-0708-test.svg) ![forks](https://img.shields.io/github/forks/0xFlag/CVE-2019-0708-test.svg)
-
 - [https://github.com/wdfcc/CVE-2019-0708](https://github.com/wdfcc/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/wdfcc/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/wdfcc/CVE-2019-0708.svg)
+
+- [https://github.com/0xFlag/CVE-2019-0708-test](https://github.com/0xFlag/CVE-2019-0708-test) :  ![starts](https://img.shields.io/github/stars/0xFlag/CVE-2019-0708-test.svg) ![forks](https://img.shields.io/github/forks/0xFlag/CVE-2019-0708-test.svg)
 
 - [https://github.com/ulisesrc/-2-CVE-2019-0708](https://github.com/ulisesrc/-2-CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ulisesrc/-2-CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ulisesrc/-2-CVE-2019-0708.svg)
 
@@ -24544,9 +24542,9 @@
 
 - [https://github.com/m5050/CVE-2019-0604](https://github.com/m5050/CVE-2019-0604) :  ![starts](https://img.shields.io/github/stars/m5050/CVE-2019-0604.svg) ![forks](https://img.shields.io/github/forks/m5050/CVE-2019-0604.svg)
 
-- [https://github.com/likescam/CVE-2019-0604_sharepoint_CVE](https://github.com/likescam/CVE-2019-0604_sharepoint_CVE) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2019-0604_sharepoint_CVE.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2019-0604_sharepoint_CVE.svg)
-
 - [https://github.com/Gh0st0ne/weaponized-0604](https://github.com/Gh0st0ne/weaponized-0604) :  ![starts](https://img.shields.io/github/stars/Gh0st0ne/weaponized-0604.svg) ![forks](https://img.shields.io/github/forks/Gh0st0ne/weaponized-0604.svg)
+
+- [https://github.com/likescam/CVE-2019-0604_sharepoint_CVE](https://github.com/likescam/CVE-2019-0604_sharepoint_CVE) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2019-0604_sharepoint_CVE.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2019-0604_sharepoint_CVE.svg)
 
 ## CVE-2019-0541
  A remote code execution vulnerability exists in the way that the MSHTML engine inproperly validates input, aka &quot;MSHTML Engine Remote Code Execution Vulnerability.&quot; This affects Microsoft Office, Microsoft Office Word Viewer, Internet Explorer 9, Internet Explorer 11, Microsoft Excel Viewer, Internet Explorer 10, Office 365 ProPlus.
