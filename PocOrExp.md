@@ -14009,13 +14009,6 @@
 
 - [https://github.com/forse01/CVE-2020-17527-Tomcat](https://github.com/forse01/CVE-2020-17527-Tomcat) :  ![starts](https://img.shields.io/github/stars/forse01/CVE-2020-17527-Tomcat.svg) ![forks](https://img.shields.io/github/forks/forse01/CVE-2020-17527-Tomcat.svg)
 
-## CVE-2020-17526
- Incorrect Session Validation in Apache Airflow Webserver versions prior to 1.10.14 with default config allows a malicious airflow user on site A where they log in normally, to access unauthorized Airflow Webserver on Site B through the session from Site A. This does not affect users who have changed the default value for `[webserver] secret_key` config.
-
-
-
-- [https://github.com/CLincat/vulcat](https://github.com/CLincat/vulcat) :  ![starts](https://img.shields.io/github/stars/CLincat/vulcat.svg) ![forks](https://img.shields.io/github/forks/CLincat/vulcat.svg)
-
 ## CVE-2020-17523
  Apache Shiro before 1.7.1, when using Apache Shiro with Spring, a specially crafted HTTP request may cause an authentication bypass.
 
@@ -14667,8 +14660,6 @@
 - [https://github.com/0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner) :  ![starts](https://img.shields.io/github/stars/0xn0ne/weblogicScanner.svg) ![forks](https://img.shields.io/github/forks/0xn0ne/weblogicScanner.svg)
 
 - [https://github.com/pprietosanchez/CVE-2020-14750](https://github.com/pprietosanchez/CVE-2020-14750) :  ![starts](https://img.shields.io/github/stars/pprietosanchez/CVE-2020-14750.svg) ![forks](https://img.shields.io/github/forks/pprietosanchez/CVE-2020-14750.svg)
-
-- [https://github.com/CLincat/vulcat](https://github.com/CLincat/vulcat) :  ![starts](https://img.shields.io/github/stars/CLincat/vulcat.svg) ![forks](https://img.shields.io/github/forks/CLincat/vulcat.svg)
 
 - [https://github.com/corelight/CVE-2020-14882-weblogicRCE](https://github.com/corelight/CVE-2020-14882-weblogicRCE) :  ![starts](https://img.shields.io/github/stars/corelight/CVE-2020-14882-weblogicRCE.svg) ![forks](https://img.shields.io/github/forks/corelight/CVE-2020-14882-weblogicRCE.svg)
 
@@ -15775,6 +15766,8 @@
 
 - [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
 
+- [https://github.com/CLincat/vulcat](https://github.com/CLincat/vulcat) :  ![starts](https://img.shields.io/github/stars/CLincat/vulcat.svg) ![forks](https://img.shields.io/github/forks/CLincat/vulcat.svg)
+
 - [https://github.com/jas502n/CVE-2020-10199](https://github.com/jas502n/CVE-2020-10199) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-10199.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-10199.svg)
 
 - [https://github.com/magicming200/CVE-2020-10199_CVE-2020-10204](https://github.com/magicming200/CVE-2020-10199_CVE-2020-10204) :  ![starts](https://img.shields.io/github/stars/magicming200/CVE-2020-10199_CVE-2020-10204.svg) ![forks](https://img.shields.io/github/forks/magicming200/CVE-2020-10199_CVE-2020-10204.svg)
@@ -16005,6 +15998,8 @@
  **Resolved** When use H2/MySQL/TiDB as Apache SkyWalking storage, the metadata query through GraphQL protocol, there is a SQL injection vulnerability, which allows to access unpexcted data. Apache SkyWalking 6.0.0 to 6.6.0, 7.0.0 H2/MySQL/TiDB storage implementations don't use the appropriate way to set SQL parameters.
 
 
+
+- [https://github.com/CLincat/vulcat](https://github.com/CLincat/vulcat) :  ![starts](https://img.shields.io/github/stars/CLincat/vulcat.svg) ![forks](https://img.shields.io/github/forks/CLincat/vulcat.svg)
 
 - [https://github.com/Neko-chanQwQ/CVE-2020-9483](https://github.com/Neko-chanQwQ/CVE-2020-9483) :  ![starts](https://img.shields.io/github/stars/Neko-chanQwQ/CVE-2020-9483.svg) ![forks](https://img.shields.io/github/forks/Neko-chanQwQ/CVE-2020-9483.svg)
 
@@ -17210,8 +17205,6 @@
 
 - [https://github.com/DSO-Lab/defvul](https://github.com/DSO-Lab/defvul) :  ![starts](https://img.shields.io/github/stars/DSO-Lab/defvul.svg) ![forks](https://img.shields.io/github/forks/DSO-Lab/defvul.svg)
 
-- [https://github.com/CLincat/vulcat](https://github.com/CLincat/vulcat) :  ![starts](https://img.shields.io/github/stars/CLincat/vulcat.svg) ![forks](https://img.shields.io/github/forks/CLincat/vulcat.svg)
-
 - [https://github.com/osamahamad/CVE-2020-5410-POC](https://github.com/osamahamad/CVE-2020-5410-POC) :  ![starts](https://img.shields.io/github/stars/osamahamad/CVE-2020-5410-POC.svg) ![forks](https://img.shields.io/github/forks/osamahamad/CVE-2020-5410-POC.svg)
 
 - [https://github.com/dead5nd/config-demo](https://github.com/dead5nd/config-demo) :  ![starts](https://img.shields.io/github/stars/dead5nd/config-demo.svg) ![forks](https://img.shields.io/github/forks/dead5nd/config-demo.svg)
@@ -17511,9 +17504,9 @@
 
 - [https://github.com/1337in/CVE-2020-3187](https://github.com/1337in/CVE-2020-3187) :  ![starts](https://img.shields.io/github/stars/1337in/CVE-2020-3187.svg) ![forks](https://img.shields.io/github/forks/1337in/CVE-2020-3187.svg)
 
-- [https://github.com/T4t4ru/CVE-2020-3187](https://github.com/T4t4ru/CVE-2020-3187) :  ![starts](https://img.shields.io/github/stars/T4t4ru/CVE-2020-3187.svg) ![forks](https://img.shields.io/github/forks/T4t4ru/CVE-2020-3187.svg)
-
 - [https://github.com/sujaygr8/CVE-2020-3187](https://github.com/sujaygr8/CVE-2020-3187) :  ![starts](https://img.shields.io/github/stars/sujaygr8/CVE-2020-3187.svg) ![forks](https://img.shields.io/github/forks/sujaygr8/CVE-2020-3187.svg)
+
+- [https://github.com/T4t4ru/CVE-2020-3187](https://github.com/T4t4ru/CVE-2020-3187) :  ![starts](https://img.shields.io/github/stars/T4t4ru/CVE-2020-3187.svg) ![forks](https://img.shields.io/github/forks/T4t4ru/CVE-2020-3187.svg)
 
 ## CVE-2020-3161
  A vulnerability in the web server for Cisco IP Phones could allow an unauthenticated, remote attacker to execute code with root privileges or cause a reload of an affected IP phone, resulting in a denial of service (DoS) condition. The vulnerability is due to a lack of proper input validation of HTTP requests. An attacker could exploit this vulnerability by sending a crafted HTTP request to the web server of a targeted device. A successful exploit could allow the attacker to remotely execute code with root privileges or cause a reload of an affected IP phone, resulting in a DoS condition.
@@ -17999,9 +17992,9 @@
 
 - [https://github.com/422926799/CVE-2020-1472](https://github.com/422926799/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/422926799/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/422926799/CVE-2020-1472.svg)
 
-- [https://github.com/victim10wq3/CVE-2020-1472](https://github.com/victim10wq3/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/victim10wq3/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/victim10wq3/CVE-2020-1472.svg)
-
 - [https://github.com/Fa1c0n35/CVE-2020-1472](https://github.com/Fa1c0n35/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472.svg)
+
+- [https://github.com/victim10wq3/CVE-2020-1472](https://github.com/victim10wq3/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/victim10wq3/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/victim10wq3/CVE-2020-1472.svg)
 
 - [https://github.com/puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2020-1472.svg)
 
