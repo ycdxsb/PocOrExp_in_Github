@@ -1,62 +1,90 @@
-# Update 2022-10-12
-## CVE-2022-41352
- An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacker can upload arbitrary files through amavisd via a cpio loophole (extraction to /opt/zimbra/jetty/webapps/zimbra/public) that can lead to incorrect access to any other user accounts. Zimbra recommends pax over cpio. Also, pax is in the prerequisites of Zimbra on Ubuntu; however, pax is no longer part of a default Red Hat installation after RHEL 6 (or CentOS 6). Once pax is installed, amavisd automatically prefers it over cpio.
-
-- [https://github.com/segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352) :  ![starts](https://img.shields.io/github/stars/segfault-it/cve-2022-41352.svg) ![forks](https://img.shields.io/github/forks/segfault-it/cve-2022-41352.svg)
-
-
+# Update 2022-10-13
 ## CVE-2022-41082
  Microsoft Exchange Server Remote Code Execution Vulnerability.
 
-- [https://github.com/t0mby/CVE-2022-41082-MASS-RCE](https://github.com/t0mby/CVE-2022-41082-MASS-RCE) :  ![starts](https://img.shields.io/github/stars/t0mby/CVE-2022-41082-MASS-RCE.svg) ![forks](https://img.shields.io/github/forks/t0mby/CVE-2022-41082-MASS-RCE.svg)
+- [https://github.com/y4b4n/CVE-2022-41082-RCE-POC](https://github.com/y4b4n/CVE-2022-41082-RCE-POC) :  ![starts](https://img.shields.io/github/stars/y4b4n/CVE-2022-41082-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/y4b4n/CVE-2022-41082-RCE-POC.svg)
 
 
-## CVE-2022-34718
- Windows TCP/IP Remote Code Execution Vulnerability.
+## CVE-2022-40684
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/SecLabResearchBV/CVE-2022-34718-PoC](https://github.com/SecLabResearchBV/CVE-2022-34718-PoC) :  ![starts](https://img.shields.io/github/stars/SecLabResearchBV/CVE-2022-34718-PoC.svg) ![forks](https://img.shields.io/github/forks/SecLabResearchBV/CVE-2022-34718-PoC.svg)
-
-
-## CVE-2022-22972
- VMware Workspace ONE Access, Identity Manager and vRealize Automation contain an authentication bypass vulnerability affecting local domain users. A malicious actor with network access to the UI may be able to obtain administrative access without the need to authenticate.
-
-- [https://github.com/Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller) :  ![starts](https://img.shields.io/github/stars/Schira4396/VcenterKiller.svg) ![forks](https://img.shields.io/github/forks/Schira4396/VcenterKiller.svg)
+- [https://github.com/CarlosV1e1ra/CVE-2022-40684-RCE-POC](https://github.com/CarlosV1e1ra/CVE-2022-40684-RCE-POC) :  ![starts](https://img.shields.io/github/stars/CarlosV1e1ra/CVE-2022-40684-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/CarlosV1e1ra/CVE-2022-40684-RCE-POC.svg)
 
 
-## CVE-2022-22954
- VMware Workspace ONE Access and Identity Manager contain a remote code execution vulnerability due to server-side template injection. A malicious actor with network access can trigger a server-side template injection that may result in remote code execution.
+## CVE-2022-22965
+ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.
 
-- [https://github.com/Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller) :  ![starts](https://img.shields.io/github/stars/Schira4396/VcenterKiller.svg) ![forks](https://img.shields.io/github/forks/Schira4396/VcenterKiller.svg)
-
-
-## CVE-2021-4034
- A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
-
-- [https://github.com/Pixailz/CVE-2021-4034](https://github.com/Pixailz/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/Pixailz/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/Pixailz/CVE-2021-4034.svg)
+- [https://github.com/Pygosce/CVE-2022-22965](https://github.com/Pygosce/CVE-2022-22965) :  ![starts](https://img.shields.io/github/stars/Pygosce/CVE-2022-22965.svg) ![forks](https://img.shields.io/github/forks/Pygosce/CVE-2022-22965.svg)
 
 
-## CVE-2021-2021
- Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.22 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+## CVE-2022-3452
+ A vulnerability was found in SourceCodester Book Store Management System 1.0. It has been declared as problematic. This vulnerability affects unknown code of the file /category.php. The manipulation of the argument category_name leads to cross site scripting. The attack can be initiated remotely. The identifier of this vulnerability is VDB-210436.
 
-- [https://github.com/TheCryingGame/CVE-2021-2021good](https://github.com/TheCryingGame/CVE-2021-2021good) :  ![starts](https://img.shields.io/github/stars/TheCryingGame/CVE-2021-2021good.svg) ![forks](https://img.shields.io/github/forks/TheCryingGame/CVE-2021-2021good.svg)
-
-
-## CVE-2019-19781
- An issue was discovered in Citrix Application Delivery Controller (ADC) and Gateway 10.5, 11.1, 12.0, 12.1, and 13.0. They allow Directory Traversal.
-
-- [https://github.com/x1sec/CVE-2019-19781](https://github.com/x1sec/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/x1sec/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/x1sec/CVE-2019-19781.svg)
-- [https://github.com/x1sec/citrixmash_scanner](https://github.com/x1sec/citrixmash_scanner) :  ![starts](https://img.shields.io/github/stars/x1sec/citrixmash_scanner.svg) ![forks](https://img.shields.io/github/forks/x1sec/citrixmash_scanner.svg)
-- [https://github.com/x1sec/citrix-honeypot](https://github.com/x1sec/citrix-honeypot) :  ![starts](https://img.shields.io/github/stars/x1sec/citrix-honeypot.svg) ![forks](https://img.shields.io/github/forks/x1sec/citrix-honeypot.svg)
+- [https://github.com/kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452) :  ![starts](https://img.shields.io/github/stars/kenyon-wong/cve-2022-3452.svg) ![forks](https://img.shields.io/github/forks/kenyon-wong/cve-2022-3452.svg)
 
 
-## CVE-2018-16156
- In PaperStream IP (TWAIN) 1.42.0.5685 (Service Update 7), the FJTWSVIC service running with SYSTEM privilege processes unauthenticated messages received over the FjtwMkic_Fjicube_32 named pipe. One of these message processing functions attempts to dynamically load the UninOldIS.dll library and executes an exported function named ChangeUninstallString. The default install does not contain this library and therefore if any DLL with that name exists in any directory listed in the PATH variable, it can be used to escalate to SYSTEM level privilege.
+## CVE-2022-0847
+ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
 
-- [https://github.com/securifera/CVE-2018-16156-Exploit](https://github.com/securifera/CVE-2018-16156-Exploit) :  ![starts](https://img.shields.io/github/stars/securifera/CVE-2018-16156-Exploit.svg) ![forks](https://img.shields.io/github/forks/securifera/CVE-2018-16156-Exploit.svg)
+- [https://github.com/badboy-sft/Dirty-Pipe-Oneshot](https://github.com/badboy-sft/Dirty-Pipe-Oneshot) :  ![starts](https://img.shields.io/github/stars/badboy-sft/Dirty-Pipe-Oneshot.svg) ![forks](https://img.shields.io/github/forks/badboy-sft/Dirty-Pipe-Oneshot.svg)
 
 
-## CVE-2017-5689
- An unprivileged network attacker could gain system privileges to provisioned Intel manageability SKUs: Intel Active Management Technology (AMT) and Intel Standard Manageability (ISM). An unprivileged local attacker could provision manageability features gaining unprivileged network or local system privileges on Intel manageability SKUs: Intel Active Management Technology (AMT), Intel Standard Manageability (ISM), and Intel Small Business Technology (SBT).
+## CVE-2021-42327
+ dp_link_settings_write in drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_debugfs.c in the Linux kernel through 5.14.14 allows a heap-based buffer overflow by an attacker who can write a string to the AMD GPU display drivers debug filesystem. There are no checks on size within parse_write_buffer_into_params when it uses the size of copy_from_user to copy a userspace buffer into a 40-byte heap buffer.
 
-- [https://github.com/x1sec/amthoneypot](https://github.com/x1sec/amthoneypot) :  ![starts](https://img.shields.io/github/stars/x1sec/amthoneypot.svg) ![forks](https://img.shields.io/github/forks/x1sec/amthoneypot.svg)
+- [https://github.com/docfate111/CVE-2021-42327](https://github.com/docfate111/CVE-2021-42327) :  ![starts](https://img.shields.io/github/stars/docfate111/CVE-2021-42327.svg) ![forks](https://img.shields.io/github/forks/docfate111/CVE-2021-42327.svg)
+
+
+## CVE-2021-42013
+ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue only affects Apache 2.4.49 and Apache 2.4.50 and not earlier versions.
+
+- [https://github.com/256o/CVE-2021-41773](https://github.com/256o/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/256o/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/256o/CVE-2021-41773.svg)
+
+
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+
+- [https://github.com/256o/CVE-2021-41773](https://github.com/256o/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/256o/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/256o/CVE-2021-41773.svg)
+
+
+## CVE-2021-3129
+ Ignition before 2.5.2, as used in Laravel and other products, allows unauthenticated remote attackers to execute arbitrary code because of insecure usage of file_get_contents() and file_put_contents(). This is exploitable on sites using debug mode with Laravel before 8.4.2.
+
+- [https://github.com/0nion1/CVE-2021-3129](https://github.com/0nion1/CVE-2021-3129) :  ![starts](https://img.shields.io/github/stars/0nion1/CVE-2021-3129.svg) ![forks](https://img.shields.io/github/forks/0nion1/CVE-2021-3129.svg)
+
+
+## CVE-2018-17207
+ An issue was discovered in Snap Creek Duplicator before 1.2.42. By accessing leftover installer files (installer.php and installer-backup.php), an attacker can inject PHP code into wp-config.php during the database setup step, achieving arbitrary code execution.
+
+- [https://github.com/cved-sources/cve-2018-17207](https://github.com/cved-sources/cve-2018-17207) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2018-17207.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2018-17207.svg)
+
+
+## CVE-2018-1010
+ A remote code execution vulnerability exists when the Windows font library improperly handles specially crafted embedded fonts, aka &quot;Microsoft Graphics Remote Code Execution Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-1012, CVE-2018-1013, CVE-2018-1015, CVE-2018-1016.
+
+- [https://github.com/ymgh96/Detecting-the-patch-of-CVE-2018-1010](https://github.com/ymgh96/Detecting-the-patch-of-CVE-2018-1010) :  ![starts](https://img.shields.io/github/stars/ymgh96/Detecting-the-patch-of-CVE-2018-1010.svg) ![forks](https://img.shields.io/github/forks/ymgh96/Detecting-the-patch-of-CVE-2018-1010.svg)
+
+
+## CVE-2017-1000353
+ Jenkins versions 2.56 and earlier as well as 2.46.1 LTS and earlier are vulnerable to an unauthenticated remote code execution. An unauthenticated remote code execution vulnerability allowed attackers to transfer a serialized Java `SignedObject` object to the Jenkins CLI, that would be deserialized using a new `ObjectInputStream`, bypassing the existing blacklist-based protection mechanism. We're fixing this issue by adding `SignedObject` to the blacklist. We're also backporting the new HTTP CLI protocol from Jenkins 2.54 to LTS 2.46.2, and deprecating the remoting-based (i.e. Java serialization) CLI protocol, disabling it by default.
+
+- [https://github.com/r00t4dm/Jenkins-CVE-2017-1000353](https://github.com/r00t4dm/Jenkins-CVE-2017-1000353) :  ![starts](https://img.shields.io/github/stars/r00t4dm/Jenkins-CVE-2017-1000353.svg) ![forks](https://img.shields.io/github/forks/r00t4dm/Jenkins-CVE-2017-1000353.svg)
+
+
+## CVE-2016-9299
+ The remoting module in Jenkins before 2.32 and LTS before 2.19.3 allows remote attackers to execute arbitrary code via a crafted serialized Java object, which triggers an LDAP query to a third-party server.
+
+- [https://github.com/r00t4dm/Jenkins-CVE-2016-9299](https://github.com/r00t4dm/Jenkins-CVE-2016-9299) :  ![starts](https://img.shields.io/github/stars/r00t4dm/Jenkins-CVE-2016-9299.svg) ![forks](https://img.shields.io/github/forks/r00t4dm/Jenkins-CVE-2016-9299.svg)
+
+
+## CVE-2015-8103
+ The Jenkins CLI subsystem in Jenkins before 1.638 and LTS before 1.625.2 allows remote attackers to execute arbitrary code via a crafted serialized Java object, related to a problematic webapps/ROOT/WEB-INF/lib/commons-collections-*.jar file and the &quot;Groovy variant in 'ysoserial'&quot;.
+
+- [https://github.com/r00t4dm/Jenkins-CVE-2015-8103](https://github.com/r00t4dm/Jenkins-CVE-2015-8103) :  ![starts](https://img.shields.io/github/stars/r00t4dm/Jenkins-CVE-2015-8103.svg) ![forks](https://img.shields.io/github/forks/r00t4dm/Jenkins-CVE-2015-8103.svg)
+
+
+## CVE-2009-4623
+ Multiple PHP remote file inclusion vulnerabilities in Advanced Comment System 1.0 allow remote attackers to execute arbitrary PHP code via a URL in the ACS_path parameter to (1) index.php and (2) admin.php in advanced_comment_system/. NOTE: this might only be a vulnerability when the administrator has not followed installation instructions in install.php. NOTE: this might be the same as CVE-2020-35598.
+
+- [https://github.com/MonsempesSamuel/CVE-2009-4623](https://github.com/MonsempesSamuel/CVE-2009-4623) :  ![starts](https://img.shields.io/github/stars/MonsempesSamuel/CVE-2009-4623.svg) ![forks](https://img.shields.io/github/forks/MonsempesSamuel/CVE-2009-4623.svg)
 
