@@ -642,8 +642,6 @@
 
 
 
-- [https://github.com/violentshell/rover](https://github.com/violentshell/rover) :  ![starts](https://img.shields.io/github/stars/violentshell/rover.svg) ![forks](https://img.shields.io/github/forks/violentshell/rover.svg)
-
 - [https://github.com/jduck/challack](https://github.com/jduck/challack) :  ![starts](https://img.shields.io/github/stars/jduck/challack.svg) ![forks](https://img.shields.io/github/forks/jduck/challack.svg)
 
 - [https://github.com/Gnoxter/mountain_goat](https://github.com/Gnoxter/mountain_goat) :  ![starts](https://img.shields.io/github/stars/Gnoxter/mountain_goat.svg) ![forks](https://img.shields.io/github/forks/Gnoxter/mountain_goat.svg)
@@ -782,9 +780,9 @@
 
 - [https://github.com/KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow) :  ![starts](https://img.shields.io/github/stars/KaviDk/dirtyCow.svg) ![forks](https://img.shields.io/github/forks/KaviDk/dirtyCow.svg)
 
-- [https://github.com/istenrot/centos-dirty-cow-ansible](https://github.com/istenrot/centos-dirty-cow-ansible) :  ![starts](https://img.shields.io/github/stars/istenrot/centos-dirty-cow-ansible.svg) ![forks](https://img.shields.io/github/forks/istenrot/centos-dirty-cow-ansible.svg)
-
 - [https://github.com/ellietoulabi/Dirty-Cow](https://github.com/ellietoulabi/Dirty-Cow) :  ![starts](https://img.shields.io/github/stars/ellietoulabi/Dirty-Cow.svg) ![forks](https://img.shields.io/github/forks/ellietoulabi/Dirty-Cow.svg)
+
+- [https://github.com/istenrot/centos-dirty-cow-ansible](https://github.com/istenrot/centos-dirty-cow-ansible) :  ![starts](https://img.shields.io/github/stars/istenrot/centos-dirty-cow-ansible.svg) ![forks](https://img.shields.io/github/forks/istenrot/centos-dirty-cow-ansible.svg)
 
 - [https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg)
 
@@ -1399,6 +1397,8 @@
 
 - [https://github.com/thezdi/PoC](https://github.com/thezdi/PoC) :  ![starts](https://img.shields.io/github/stars/thezdi/PoC.svg) ![forks](https://img.shields.io/github/forks/thezdi/PoC.svg)
 
+- [https://github.com/readloud/PoC](https://github.com/readloud/PoC) :  ![starts](https://img.shields.io/github/stars/readloud/PoC.svg) ![forks](https://img.shields.io/github/forks/readloud/PoC.svg)
+
 ## CVE-2016-0846
  libs/binder/IMemory.cpp in the IMemory Native Interface in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, and 6.x before 2016-04-01 does not properly consider the heap size, which allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bug 26877992.
 
@@ -1498,9 +1498,9 @@
 
 - [https://github.com/sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/sibilleg/exploit_cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/sibilleg/exploit_cve-2016-0728.svg)
 
-- [https://github.com/googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728) :  ![starts](https://img.shields.io/github/stars/googleweb/CVE-2016-0728.svg) ![forks](https://img.shields.io/github/forks/googleweb/CVE-2016-0728.svg)
-
 - [https://github.com/idl3r/cve-2016-0728](https://github.com/idl3r/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/idl3r/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/idl3r/cve-2016-0728.svg)
+
+- [https://github.com/googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728) :  ![starts](https://img.shields.io/github/stars/googleweb/CVE-2016-0728.svg) ![forks](https://img.shields.io/github/forks/googleweb/CVE-2016-0728.svg)
 
 - [https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit](https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit) :  ![starts](https://img.shields.io/github/stars/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit.svg) ![forks](https://img.shields.io/github/forks/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit.svg)
 
