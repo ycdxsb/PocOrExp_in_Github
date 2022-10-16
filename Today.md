@@ -1,66 +1,75 @@
-# Update 2022-10-15
+# Update 2022-10-16
+## CVE-2022-41852
+ Those using JXPath to interpret untrusted XPath expressions may be vulnerable to a remote code execution attack. All JXPathContext class functions processing a XPath string are vulnerable except compile() and compilePath() function. The XPath expression can be used by an attacker to load any Java class from the classpath resulting in code execution.
+
+- [https://github.com/Warxim/CVE-2022-41852](https://github.com/Warxim/CVE-2022-41852) :  ![starts](https://img.shields.io/github/stars/Warxim/CVE-2022-41852.svg) ![forks](https://img.shields.io/github/forks/Warxim/CVE-2022-41852.svg)
+
+
+## CVE-2022-41040
+ Microsoft Exchange Server Elevation of Privilege Vulnerability.
+
+- [https://github.com/ITPATJIDR/CVE-2022-41040](https://github.com/ITPATJIDR/CVE-2022-41040) :  ![starts](https://img.shields.io/github/stars/ITPATJIDR/CVE-2022-41040.svg) ![forks](https://img.shields.io/github/forks/ITPATJIDR/CVE-2022-41040.svg)
+
+
 ## CVE-2022-40684
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/horizon3ai/CVE-2022-40684](https://github.com/horizon3ai/CVE-2022-40684) :  ![starts](https://img.shields.io/github/stars/horizon3ai/CVE-2022-40684.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/CVE-2022-40684.svg)
-- [https://github.com/carlosevieira/CVE-2022-40684](https://github.com/carlosevieira/CVE-2022-40684) :  ![starts](https://img.shields.io/github/stars/carlosevieira/CVE-2022-40684.svg) ![forks](https://img.shields.io/github/forks/carlosevieira/CVE-2022-40684.svg)
-- [https://github.com/kljunowsky/CVE-2022-40684-POC](https://github.com/kljunowsky/CVE-2022-40684-POC) :  ![starts](https://img.shields.io/github/stars/kljunowsky/CVE-2022-40684-POC.svg) ![forks](https://img.shields.io/github/forks/kljunowsky/CVE-2022-40684-POC.svg)
-- [https://github.com/Filiplain/Fortinet-PoC-Auth-Bypass](https://github.com/Filiplain/Fortinet-PoC-Auth-Bypass) :  ![starts](https://img.shields.io/github/stars/Filiplain/Fortinet-PoC-Auth-Bypass.svg) ![forks](https://img.shields.io/github/forks/Filiplain/Fortinet-PoC-Auth-Bypass.svg)
-- [https://github.com/secunnix/CVE-2022-40684](https://github.com/secunnix/CVE-2022-40684) :  ![starts](https://img.shields.io/github/stars/secunnix/CVE-2022-40684.svg) ![forks](https://img.shields.io/github/forks/secunnix/CVE-2022-40684.svg)
+- [https://github.com/Carl0sV1e1ra/CVE-2022-40684](https://github.com/Carl0sV1e1ra/CVE-2022-40684) :  ![starts](https://img.shields.io/github/stars/Carl0sV1e1ra/CVE-2022-40684.svg) ![forks](https://img.shields.io/github/forks/Carl0sV1e1ra/CVE-2022-40684.svg)
+- [https://github.com/mhd108/CVE-2022-40684](https://github.com/mhd108/CVE-2022-40684) :  ![starts](https://img.shields.io/github/stars/mhd108/CVE-2022-40684.svg) ![forks](https://img.shields.io/github/forks/mhd108/CVE-2022-40684.svg)
+- [https://github.com/iveresk/CVE-2022-40684](https://github.com/iveresk/CVE-2022-40684) :  ![starts](https://img.shields.io/github/stars/iveresk/CVE-2022-40684.svg) ![forks](https://img.shields.io/github/forks/iveresk/CVE-2022-40684.svg)
 
 
-## CVE-2022-37298
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2022-40648
+ This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ansys SpaceClaim 2022 R1. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of X_B files. The issue results from the lack of proper validation of user-supplied data, which can result in a write before the start of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-17563.
 
-- [https://github.com/dbyio/cve-2022-37298-shinken](https://github.com/dbyio/cve-2022-37298-shinken) :  ![starts](https://img.shields.io/github/stars/dbyio/cve-2022-37298-shinken.svg) ![forks](https://img.shields.io/github/forks/dbyio/cve-2022-37298-shinken.svg)
-
-
-## CVE-2022-35698
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/EmicoEcommerce/Magento-APSB22-48-Security-Patches](https://github.com/EmicoEcommerce/Magento-APSB22-48-Security-Patches) :  ![starts](https://img.shields.io/github/stars/EmicoEcommerce/Magento-APSB22-48-Security-Patches.svg) ![forks](https://img.shields.io/github/forks/EmicoEcommerce/Magento-APSB22-48-Security-Patches.svg)
+- [https://github.com/b3wT/CVE-2022-40648-MASS](https://github.com/b3wT/CVE-2022-40648-MASS) :  ![starts](https://img.shields.io/github/stars/b3wT/CVE-2022-40648-MASS.svg) ![forks](https://img.shields.io/github/forks/b3wT/CVE-2022-40648-MASS.svg)
 
 
-## CVE-2022-23277
- Microsoft Exchange Server Remote Code Execution Vulnerability.
+## CVE-2022-37434
+ zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field. NOTE: only applications that call inflateGetHeader are affected. Some common applications bundle the affected zlib source code but may be unable to call inflateGetHeader (e.g., see the nodejs/node reference).
 
-- [https://github.com/7BitsTeam/CVE-2022-23277](https://github.com/7BitsTeam/CVE-2022-23277) :  ![starts](https://img.shields.io/github/stars/7BitsTeam/CVE-2022-23277.svg) ![forks](https://img.shields.io/github/forks/7BitsTeam/CVE-2022-23277.svg)
+- [https://github.com/xen0bit/CVE-2022-37434_poc](https://github.com/xen0bit/CVE-2022-37434_poc) :  ![starts](https://img.shields.io/github/stars/xen0bit/CVE-2022-37434_poc.svg) ![forks](https://img.shields.io/github/forks/xen0bit/CVE-2022-37434_poc.svg)
+
+
+## CVE-2022-34298
+ The NT auth module in OpenAM before 14.6.6 allows a &quot;replace Samba username attack.&quot;
+
+- [https://github.com/watchtowrlabs/CVE-2022-34298](https://github.com/watchtowrlabs/CVE-2022-34298) :  ![starts](https://img.shields.io/github/stars/watchtowrlabs/CVE-2022-34298.svg) ![forks](https://img.shields.io/github/forks/watchtowrlabs/CVE-2022-34298.svg)
 
 
 ## CVE-2022-2992
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/RealAlphaMan/CVE-2022-2992](https://github.com/RealAlphaMan/CVE-2022-2992) :  ![starts](https://img.shields.io/github/stars/RealAlphaMan/CVE-2022-2992.svg) ![forks](https://img.shields.io/github/forks/RealAlphaMan/CVE-2022-2992.svg)
+- [https://github.com/Malwareman007/CVE-2022-2992](https://github.com/Malwareman007/CVE-2022-2992) :  ![starts](https://img.shields.io/github/stars/Malwareman007/CVE-2022-2992.svg) ![forks](https://img.shields.io/github/forks/Malwareman007/CVE-2022-2992.svg)
 
 
-## CVE-2021-45067
- Acrobat Reader DC version 21.007.20099 (and earlier), 20.004.30017 (and earlier) and 17.011.30204 (and earlier) are affected by an Access of Memory Location After End of Buffer vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+## CVE-2020-1066
+ An elevation of privilege vulnerability exists in .NET Framework which could allow an attacker to elevate their privilege level.To exploit the vulnerability, an attacker would first have to access the local machine, and then run a malicious program.The update addresses the vulnerability by correcting how .NET Framework activates COM objects., aka '.NET Framework Elevation of Privilege Vulnerability'.
 
-- [https://github.com/hacksysteam/CVE-2021-45067](https://github.com/hacksysteam/CVE-2021-45067) :  ![starts](https://img.shields.io/github/stars/hacksysteam/CVE-2021-45067.svg) ![forks](https://img.shields.io/github/forks/hacksysteam/CVE-2021-45067.svg)
-
-
-## CVE-2021-4034
- A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
-
-- [https://github.com/defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034) :  ![starts](https://img.shields.io/github/stars/defhacks/cve-2021-4034.svg) ![forks](https://img.shields.io/github/forks/defhacks/cve-2021-4034.svg)
-- [https://github.com/k4u5h41/CVE-2021-4034](https://github.com/k4u5h41/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2021-4034.svg)
+- [https://github.com/xyddnljydd/cve-2020-1066](https://github.com/xyddnljydd/cve-2020-1066) :  ![starts](https://img.shields.io/github/stars/xyddnljydd/cve-2020-1066.svg) ![forks](https://img.shields.io/github/forks/xyddnljydd/cve-2020-1066.svg)
 
 
-## CVE-2019-18935
- Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deserialization vulnerability in the RadAsyncUpload function. This is exploitable when the encryption keys are known due to the presence of CVE-2017-11317 or CVE-2017-11357, or other means. Exploitation can result in remote code execution. (As of 2020.1.114, a default setting prevents the exploit. In 2019.3.1023, but not earlier versions, a non-default setting can prevent exploitation.)
+## CVE-2020-0557
+ Insecure inherited permissions in Intel(R) PROSet/Wireless WiFi products before version 21.70 on Windows 10 may allow an authenticated user to potentially enable escalation of privilege via local access.
 
-- [https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation](https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation.svg)
-
-
-## CVE-2017-11317
- Telerik.Web.UI in Progress Telerik UI for ASP.NET AJAX before R1 2017 and R2 before R2 2017 SP2 uses weak RadAsyncUpload encryption, which allows remote attackers to perform arbitrary file uploads or execute arbitrary code.
-
-- [https://github.com/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut](https://github.com/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut.svg)
-- [https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation](https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation.svg)
+- [https://github.com/hessandrew/CVE-2020-0557_INTEL-SA-00338](https://github.com/hessandrew/CVE-2020-0557_INTEL-SA-00338) :  ![starts](https://img.shields.io/github/stars/hessandrew/CVE-2020-0557_INTEL-SA-00338.svg) ![forks](https://img.shields.io/github/forks/hessandrew/CVE-2020-0557_INTEL-SA-00338.svg)
 
 
-## CVE-2007-2447
- The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
+## CVE-2018-15133
+ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execution might occur as a result of an unserialize call on a potentially untrusted X-XSRF-TOKEN value. This involves the decrypt method in Illuminate/Encryption/Encrypter.php and PendingBroadcast in gadgetchains/Laravel/RCE/3/chain.php in phpggc. The attacker must know the application key, which normally would never occur, but could happen if the attacker previously had privileged access or successfully accomplished a previous attack.
 
-- [https://github.com/Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Aviksaikat/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Aviksaikat/CVE-2007-2447.svg)
+- [https://github.com/bukitbarisan/laravel-rce-cve-2018-15133](https://github.com/bukitbarisan/laravel-rce-cve-2018-15133) :  ![starts](https://img.shields.io/github/stars/bukitbarisan/laravel-rce-cve-2018-15133.svg) ![forks](https://img.shields.io/github/forks/bukitbarisan/laravel-rce-cve-2018-15133.svg)
+
+
+## CVE-2017-1000117
+ A malicious third-party can give a crafted &quot;ssh://...&quot; URL to an unsuspecting victim, and an attempt to visit the URL can result in any program that exists on the victim's machine being executed. Such a URL could be placed in the .gitmodules file of a malicious project, and an unsuspecting victim could be tricked into running &quot;git clone --recurse-submodules&quot; to trigger the vulnerability.
+
+- [https://github.com/Q2h1Cg/CVE-2017-1000117](https://github.com/Q2h1Cg/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/Q2h1Cg/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/Q2h1Cg/CVE-2017-1000117.svg)
+- [https://github.com/Jerry-zhuang/CVE-2017-1000117](https://github.com/Jerry-zhuang/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/Jerry-zhuang/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/Jerry-zhuang/CVE-2017-1000117.svg)
+
+
+## CVE-2016-0856
+ Multiple stack-based buffer overflows in Advantech WebAccess before 8.1 allow remote attackers to execute arbitrary code via unspecified vectors.
+
+- [https://github.com/readloud/PoC](https://github.com/readloud/PoC) :  ![starts](https://img.shields.io/github/stars/readloud/PoC.svg) ![forks](https://img.shields.io/github/forks/readloud/PoC.svg)
 
