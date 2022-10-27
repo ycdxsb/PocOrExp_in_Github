@@ -1,108 +1,55 @@
-# Update 2022-10-26
+# Update 2022-10-27
 ## CVE-2022-42889
  Apache Commons Text performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is &quot;${prefix:name}&quot;, where &quot;prefix&quot; is used to locate an instance of org.apache.commons.text.lookup.StringLookup that performs the interpolation. Starting with version 1.5 and continuing through 1.9, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: - &quot;script&quot; - execute expressions using the JVM script execution engine (javax.script) - &quot;dns&quot; - resolve dns records - &quot;url&quot; - load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used. Users are recommended to upgrade to Apache Commons Text 1.10.0, which disables the problematic interpolators by default.
 
-- [https://github.com/west-wind/CVE-2022-42889](https://github.com/west-wind/CVE-2022-42889) :  ![starts](https://img.shields.io/github/stars/west-wind/CVE-2022-42889.svg) ![forks](https://img.shields.io/github/forks/west-wind/CVE-2022-42889.svg)
+- [https://github.com/Vulnmachines/text4shell-CVE-2022-42889](https://github.com/Vulnmachines/text4shell-CVE-2022-42889) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/text4shell-CVE-2022-42889.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/text4shell-CVE-2022-42889.svg)
 
 
-## CVE-2022-41082
- Microsoft Exchange Server Remote Code Execution Vulnerability.
+## CVE-2022-40684
+ An authentication bypass using an alternate path or channel [CWE-288] in Fortinet FortiOS version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.6, FortiProxy version 7.2.0 and version 7.0.0 through 7.0.6 and FortiSwitchManager version 7.2.0 and 7.0.0 allows an unauthenticated atttacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests.
 
-- [https://github.com/vib3zz/CVE-2022-41082-RCE-POC](https://github.com/vib3zz/CVE-2022-41082-RCE-POC) :  ![starts](https://img.shields.io/github/stars/vib3zz/CVE-2022-41082-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/vib3zz/CVE-2022-41082-RCE-POC.svg)
-
-
-## CVE-2022-41040
- Microsoft Exchange Server Elevation of Privilege Vulnerability.
-
-- [https://github.com/vib3zz/CVE-2022-41082-RCE-POC](https://github.com/vib3zz/CVE-2022-41082-RCE-POC) :  ![starts](https://img.shields.io/github/stars/vib3zz/CVE-2022-41082-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/vib3zz/CVE-2022-41082-RCE-POC.svg)
+- [https://github.com/qingsiweisan/CVE-2022-40684](https://github.com/qingsiweisan/CVE-2022-40684) :  ![starts](https://img.shields.io/github/stars/qingsiweisan/CVE-2022-40684.svg) ![forks](https://img.shields.io/github/forks/qingsiweisan/CVE-2022-40684.svg)
 
 
-## CVE-2022-36804
- Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.0 before version 7.21.4, from version 8.0.0 before version 8.0.3, from version 8.1.0 before version 8.1.3, and from version 8.2.0 before version 8.2.2, and from version 8.3.0 before 8.3.1 allows remote attackers with read permissions to a public or private Bitbucket repository to execute arbitrary code by sending a malicious HTTP request. This vulnerability was reported via our Bug Bounty Program by TheGrandPew.
+## CVE-2022-2639
+ An integer coercion error was found in the openvswitch kernel module. Given a sufficiently large number of actions, while copying and reserving memory for a new action of a new flow, the reserve_sfa_size() function does not return -EMSGSIZE as expected, potentially leading to an out-of-bounds write access. This flaw allows a local user to crash or potentially escalate their privileges on the system.
 
-- [https://github.com/khal4n1/CVE-2022-36804](https://github.com/khal4n1/CVE-2022-36804) :  ![starts](https://img.shields.io/github/stars/khal4n1/CVE-2022-36804.svg) ![forks](https://img.shields.io/github/forks/khal4n1/CVE-2022-36804.svg)
-
-
-## CVE-2022-36433
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/afine-com/CVE-2022-36433](https://github.com/afine-com/CVE-2022-36433) :  ![starts](https://img.shields.io/github/stars/afine-com/CVE-2022-36433.svg) ![forks](https://img.shields.io/github/forks/afine-com/CVE-2022-36433.svg)
+- [https://github.com/EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639](https://github.com/EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639) :  ![starts](https://img.shields.io/github/stars/EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639.svg) ![forks](https://img.shields.io/github/forks/EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639.svg)
 
 
-## CVE-2022-36432
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2022-1679
+ A use-after-free flaw was found in the Linux kernel&#8217;s Atheros wireless adapter driver in the way a user forces the ath9k_htc_wait_for_target function to fail with some input messages. This flaw allows a local user to crash or potentially escalate their privileges on the system.
 
-- [https://github.com/afine-com/CVE-2022-36432](https://github.com/afine-com/CVE-2022-36432) :  ![starts](https://img.shields.io/github/stars/afine-com/CVE-2022-36432.svg) ![forks](https://img.shields.io/github/forks/afine-com/CVE-2022-36432.svg)
-
-
-## CVE-2022-35737
- SQLite 1.0.12 through 3.39.x before 3.39.2 sometimes allows an array-bounds overflow if billions of bytes are used in a string argument to a C API.
-
-- [https://github.com/gmh5225/CVE-2022-35737](https://github.com/gmh5225/CVE-2022-35737) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2022-35737.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2022-35737.svg)
+- [https://github.com/EkamSinghWalia/-Detection-and-Mitigation-for-CVE-2022-1679](https://github.com/EkamSinghWalia/-Detection-and-Mitigation-for-CVE-2022-1679) :  ![starts](https://img.shields.io/github/stars/EkamSinghWalia/-Detection-and-Mitigation-for-CVE-2022-1679.svg) ![forks](https://img.shields.io/github/forks/EkamSinghWalia/-Detection-and-Mitigation-for-CVE-2022-1679.svg)
 
 
-## CVE-2022-35501
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2022-1388
+ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.1, 14.1.x versions prior to 14.1.4.6, 13.1.x versions prior to 13.1.5, and all 12.1.x and 11.6.x versions, undisclosed requests may bypass iControl REST authentication. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated
 
-- [https://github.com/afine-com/CVE-2022-35501](https://github.com/afine-com/CVE-2022-35501) :  ![starts](https://img.shields.io/github/stars/afine-com/CVE-2022-35501.svg) ![forks](https://img.shields.io/github/forks/afine-com/CVE-2022-35501.svg)
-
-
-## CVE-2022-35500
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/afine-com/CVE-2022-35500](https://github.com/afine-com/CVE-2022-35500) :  ![starts](https://img.shields.io/github/stars/afine-com/CVE-2022-35500.svg) ![forks](https://img.shields.io/github/forks/afine-com/CVE-2022-35500.svg)
+- [https://github.com/OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388) :  ![starts](https://img.shields.io/github/stars/OnCyberWar/CVE-2022-1388.svg) ![forks](https://img.shields.io/github/forks/OnCyberWar/CVE-2022-1388.svg)
+- [https://github.com/On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388) :  ![starts](https://img.shields.io/github/stars/On-Cyber-War/CVE-2022-1388.svg) ![forks](https://img.shields.io/github/forks/On-Cyber-War/CVE-2022-1388.svg)
 
 
-## CVE-2022-32548
- An issue was discovered on certain DrayTek Vigor routers before July 2022 such as the Vigor3910 before 4.3.1.1. /cgi-bin/wlogin.cgi has a buffer overflow via the username or password to the aa or ab field.
+## CVE-2021-43798
+ Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `&lt;grafana_host_url&gt;/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
 
-- [https://github.com/uisvit/CVE-2022-32548-RCE-MASS](https://github.com/uisvit/CVE-2022-32548-RCE-MASS) :  ![starts](https://img.shields.io/github/stars/uisvit/CVE-2022-32548-RCE-MASS.svg) ![forks](https://img.shields.io/github/forks/uisvit/CVE-2022-32548-RCE-MASS.svg)
-
-
-## CVE-2022-32223
- Node.js is vulnerable to Hijack Execution Flow: DLL Hijacking under certain conditions on Windows platforms.This vulnerability can be exploited if the victim has the following dependencies on a Windows machine:* OpenSSL has been installed and &#8220;C:\Program Files\Common Files\SSL\openssl.cnf&#8221; exists.Whenever the above conditions are present, `node.exe` will search for `providers.dll` in the current user directory.After that, `node.exe` will try to search for `providers.dll` by the DLL Search Order in Windows.It is possible for an attacker to place the malicious file `providers.dll` under a variety of paths and exploit this vulnerability.
-
-- [https://github.com/ianyong/cve-2022-32223](https://github.com/ianyong/cve-2022-32223) :  ![starts](https://img.shields.io/github/stars/ianyong/cve-2022-32223.svg) ![forks](https://img.shields.io/github/forks/ianyong/cve-2022-32223.svg)
+- [https://github.com/0bfxgh0st/cve-2021-43798](https://github.com/0bfxgh0st/cve-2021-43798) :  ![starts](https://img.shields.io/github/stars/0bfxgh0st/cve-2021-43798.svg) ![forks](https://img.shields.io/github/forks/0bfxgh0st/cve-2021-43798.svg)
 
 
-## CVE-2022-26134
- In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are from 1.3.0 before 7.4.17, from 7.13.0 before 7.13.7, from 7.14.0 before 7.14.3, from 7.15.0 before 7.15.2, from 7.16.0 before 7.16.4, from 7.17.0 before 7.17.4, and from 7.18.0 before 7.18.1.
+## CVE-2021-26414
+ Windows DCOM Server Security Feature Bypass
 
-- [https://github.com/badboy-sft/CVE-2022-26134](https://github.com/badboy-sft/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/badboy-sft/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/badboy-sft/CVE-2022-26134.svg)
-
-
-## CVE-2020-14644
- Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP, T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
-
-- [https://github.com/cokeBeer/logi](https://github.com/cokeBeer/logi) :  ![starts](https://img.shields.io/github/stars/cokeBeer/logi.svg) ![forks](https://img.shields.io/github/forks/cokeBeer/logi.svg)
+- [https://github.com/Nels2/dcom_10036_Solver](https://github.com/Nels2/dcom_10036_Solver) :  ![starts](https://img.shields.io/github/stars/Nels2/dcom_10036_Solver.svg) ![forks](https://img.shields.io/github/forks/Nels2/dcom_10036_Solver.svg)
 
 
-## CVE-2019-9053
- An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News module, through a crafted URL, to achieve unauthenticated blind time-based SQL injection via the m1_idlist parameter.
+## CVE-2021-1675
+ Windows Print Spooler Elevation of Privilege Vulnerability
 
-- [https://github.com/ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit](https://github.com/ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit) :  ![starts](https://img.shields.io/github/stars/ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit.svg) ![forks](https://img.shields.io/github/forks/ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit.svg)
-
-
-## CVE-2018-8639
- An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2019, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-8641.
-
-- [https://github.com/timwhitez/CVE-2018-8639-EXP](https://github.com/timwhitez/CVE-2018-8639-EXP) :  ![starts](https://img.shields.io/github/stars/timwhitez/CVE-2018-8639-EXP.svg) ![forks](https://img.shields.io/github/forks/timwhitez/CVE-2018-8639-EXP.svg)
+- [https://github.com/jj4152/cve-2021-1675](https://github.com/jj4152/cve-2021-1675) :  ![starts](https://img.shields.io/github/stars/jj4152/cve-2021-1675.svg) ![forks](https://img.shields.io/github/forks/jj4152/cve-2021-1675.svg)
 
 
-## CVE-2018-6066
- Lack of CORS checking by ResourceFetcher/ResourceLoader in Blink in Google Chrome prior to 65.0.3325.146 allowed a remote attacker to leak cross-origin data via a crafted HTML page.
+## CVE-2019-1458
+ An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'.
 
-- [https://github.com/DISREL/Ring0VBA](https://github.com/DISREL/Ring0VBA) :  ![starts](https://img.shields.io/github/stars/DISREL/Ring0VBA.svg) ![forks](https://img.shields.io/github/forks/DISREL/Ring0VBA.svg)
-
-
-## CVE-2014-0160
- The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not properly handle Heartbeat Extension packets, which allows remote attackers to obtain sensitive information from process memory via crafted packets that trigger a buffer over-read, as demonstrated by reading private keys, related to d1_both.c and t1_lib.c, aka the Heartbleed bug.
-
-- [https://github.com/k4u5h41/CVE-2014-0160_Heartbleed](https://github.com/k4u5h41/CVE-2014-0160_Heartbleed) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2014-0160_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2014-0160_Heartbleed.svg)
-
-
-## CVE-2007-2447
- The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
-
-- [https://github.com/k4u5h41/CVE-2007-2447](https://github.com/k4u5h41/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2007-2447.svg)
+- [https://github.com/DreamoneOnly/CVE-2019-1458-malware](https://github.com/DreamoneOnly/CVE-2019-1458-malware) :  ![starts](https://img.shields.io/github/stars/DreamoneOnly/CVE-2019-1458-malware.svg) ![forks](https://img.shields.io/github/forks/DreamoneOnly/CVE-2019-1458-malware.svg)
 
