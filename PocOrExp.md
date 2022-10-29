@@ -30904,13 +30904,13 @@
 
 - [https://github.com/tzwlhack/CVE-2017-11882](https://github.com/tzwlhack/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/tzwlhack/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/tzwlhack/CVE-2017-11882.svg)
 
-- [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
-
 - [https://github.com/chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/chanbin/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/chanbin/CVE-2017-11882.svg)
 
-- [https://github.com/j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/j0lama/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/j0lama/CVE-2017-11882.svg)
+- [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
 
 - [https://github.com/likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-11882.svg)
+
+- [https://github.com/j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/j0lama/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/j0lama/CVE-2017-11882.svg)
 
 - [https://github.com/Grey-Li/CVE-2017-11882](https://github.com/Grey-Li/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/Grey-Li/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/Grey-Li/CVE-2017-11882.svg)
 
@@ -30972,13 +30972,6 @@
 
 
 - [https://github.com/wizardafric/download](https://github.com/wizardafric/download) :  ![starts](https://img.shields.io/github/stars/wizardafric/download.svg) ![forks](https://img.shields.io/github/forks/wizardafric/download.svg)
-
-## CVE-2017-11427
- OneLogin PythonSAML 2.3.0 and earlier may incorrectly utilize the results of XML DOM traversal and canonicalization APIs in such a way that an attacker may be able to manipulate the SAML data without invalidating the cryptographic signature, allowing the attack to potentially bypass authentication to SAML service providers.
-
-
-
-- [https://github.com/CHYbeta/CVE-2017-11427-DEMO](https://github.com/CHYbeta/CVE-2017-11427-DEMO) :  ![starts](https://img.shields.io/github/stars/CHYbeta/CVE-2017-11427-DEMO.svg) ![forks](https://img.shields.io/github/forks/CHYbeta/CVE-2017-11427-DEMO.svg)
 
 ## CVE-2017-11366
  components/filemanager/class.filemanager.php in Codiad before 2.8.4 is vulnerable to remote command execution because shell commands can be embedded in parameter values, as demonstrated by search_file_type.
