@@ -37177,13 +37177,6 @@
 
 - [https://github.com/vlad902/annotated-fbi-tbb-exploit](https://github.com/vlad902/annotated-fbi-tbb-exploit) :  ![starts](https://img.shields.io/github/stars/vlad902/annotated-fbi-tbb-exploit.svg) ![forks](https://img.shields.io/github/forks/vlad902/annotated-fbi-tbb-exploit.svg)
 
-## CVE-2013-1491
- The Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier, 6 Update 43 and earlier, 5.0 Update 41 and earlier, and JavaFX 2.2.7 and earlier allows remote attackers to execute arbitrary code via vectors related to 2D, as demonstrated by Joshua Drake during a Pwn2Own competition at CanSecWest 2013.
-
-
-
-- [https://github.com/guhe120/CVE20131491-JIT](https://github.com/guhe120/CVE20131491-JIT) :  ![starts](https://img.shields.io/github/stars/guhe120/CVE20131491-JIT.svg) ![forks](https://img.shields.io/github/forks/guhe120/CVE20131491-JIT.svg)
-
 ## CVE-2013-1488
  The Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier, and OpenJDK 6 and 7, allows remote attackers to execute arbitrary code via unspecified vectors involving reflection, Libraries, &quot;improper toString calls,&quot; and the JDBC driver manager, as demonstrated by James Forshaw during a Pwn2Own competition at CanSecWest 2013.
 
