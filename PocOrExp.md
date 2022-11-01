@@ -38277,8 +38277,6 @@
 
 
 
-- [https://github.com/k4u5h41/MS08_067_CVE-2008-4250](https://github.com/k4u5h41/MS08_067_CVE-2008-4250) :  ![starts](https://img.shields.io/github/stars/k4u5h41/MS08_067_CVE-2008-4250.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/MS08_067_CVE-2008-4250.svg)
-
 - [https://github.com/thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts) :  ![starts](https://img.shields.io/github/stars/thunderstrike9090/Conflicker_analysis_scripts.svg) ![forks](https://img.shields.io/github/forks/thunderstrike9090/Conflicker_analysis_scripts.svg)
 
 ## CVE-2008-2938
