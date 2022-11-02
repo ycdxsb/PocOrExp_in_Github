@@ -1,48 +1,72 @@
-# Update 2022-11-01
-## CVE-2022-42889
- Apache Commons Text performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is &quot;${prefix:name}&quot;, where &quot;prefix&quot; is used to locate an instance of org.apache.commons.text.lookup.StringLookup that performs the interpolation. Starting with version 1.5 and continuing through 1.9, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: - &quot;script&quot; - execute expressions using the JVM script execution engine (javax.script) - &quot;dns&quot; - resolve dns records - &quot;url&quot; - load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used. Users are recommended to upgrade to Apache Commons Text 1.10.0, which disables the problematic interpolators by default.
+# Update 2022-11-02
+## CVE-2022-42098
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/YulinSec/t4scan](https://github.com/YulinSec/t4scan) :  ![starts](https://img.shields.io/github/stars/YulinSec/t4scan.svg) ![forks](https://img.shields.io/github/forks/YulinSec/t4scan.svg)
-
-
-## CVE-2022-30929
- Mini-Tmall v1.0 is vulnerable to Insecure Permissions via tomcat-embed-jasper.
-
-- [https://github.com/nanaao/CVE-2022-30929](https://github.com/nanaao/CVE-2022-30929) :  ![starts](https://img.shields.io/github/stars/nanaao/CVE-2022-30929.svg) ![forks](https://img.shields.io/github/forks/nanaao/CVE-2022-30929.svg)
+- [https://github.com/bypazs/CVE-2022-42098](https://github.com/bypazs/CVE-2022-42098) :  ![starts](https://img.shields.io/github/stars/bypazs/CVE-2022-42098.svg) ![forks](https://img.shields.io/github/forks/bypazs/CVE-2022-42098.svg)
 
 
-## CVE-2022-3236
- A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older.
+## CVE-2022-42097
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/sml1nk/CVE-2022-3236-RCE](https://github.com/sml1nk/CVE-2022-3236-RCE) :  ![starts](https://img.shields.io/github/stars/sml1nk/CVE-2022-3236-RCE.svg) ![forks](https://img.shields.io/github/forks/sml1nk/CVE-2022-3236-RCE.svg)
-
-
-## CVE-2022-2639
- An integer coercion error was found in the openvswitch kernel module. Given a sufficiently large number of actions, while copying and reserving memory for a new action of a new flow, the reserve_sfa_size() function does not return -EMSGSIZE as expected, potentially leading to an out-of-bounds write access. This flaw allows a local user to crash or potentially escalate their privileges on the system.
-
-- [https://github.com/avboy1337/CVE-2022-2639-PipeVersion](https://github.com/avboy1337/CVE-2022-2639-PipeVersion) :  ![starts](https://img.shields.io/github/stars/avboy1337/CVE-2022-2639-PipeVersion.svg) ![forks](https://img.shields.io/github/forks/avboy1337/CVE-2022-2639-PipeVersion.svg)
+- [https://github.com/bypazs/CVE-2022-42097](https://github.com/bypazs/CVE-2022-42097) :  ![starts](https://img.shields.io/github/stars/bypazs/CVE-2022-42097.svg) ![forks](https://img.shields.io/github/forks/bypazs/CVE-2022-42097.svg)
 
 
-## CVE-2022-0739
- The BookingPress WordPress plugin before 1.0.11 fails to properly sanitize user supplied POST data before it is used in a dynamically constructed SQL query via the bookingpress_front_get_category_services AJAX action (available to unauthenticated users), leading to an unauthenticated SQL Injection
+## CVE-2022-42096
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/destr4ct/CVE-2022-0739](https://github.com/destr4ct/CVE-2022-0739) :  ![starts](https://img.shields.io/github/stars/destr4ct/CVE-2022-0739.svg) ![forks](https://img.shields.io/github/forks/destr4ct/CVE-2022-0739.svg)
-
-
-## CVE-2021-43798
- Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `&lt;grafana_host_url&gt;/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
-
-- [https://github.com/Mo0ns/Grafana_POC-CVE-2021-43798](https://github.com/Mo0ns/Grafana_POC-CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/Mo0ns/Grafana_POC-CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/Mo0ns/Grafana_POC-CVE-2021-43798.svg)
+- [https://github.com/bypazs/CVE-2022-42096](https://github.com/bypazs/CVE-2022-42096) :  ![starts](https://img.shields.io/github/stars/bypazs/CVE-2022-42096.svg) ![forks](https://img.shields.io/github/forks/bypazs/CVE-2022-42096.svg)
 
 
-## CVE-2021-40154
- NXP LPC55S69 devices before A3 have a buffer over-read via a crafted wlength value in a GET Descriptor Configuration request during use of USB In-System Programming (ISP) mode. This discloses protected flash memory.
+## CVE-2022-42094
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Jeromeyoung/CVE-2021-40154](https://github.com/Jeromeyoung/CVE-2021-40154) :  ![starts](https://img.shields.io/github/stars/Jeromeyoung/CVE-2021-40154.svg) ![forks](https://img.shields.io/github/forks/Jeromeyoung/CVE-2021-40154.svg)
+- [https://github.com/bypazs/CVE-2022-42094](https://github.com/bypazs/CVE-2022-42094) :  ![starts](https://img.shields.io/github/stars/bypazs/CVE-2022-42094.svg) ![forks](https://img.shields.io/github/forks/bypazs/CVE-2022-42094.svg)
 
 
-## CVE-2018-14847
- MikroTik RouterOS through 6.42 allows unauthenticated remote attackers to read arbitrary files and remote authenticated attackers to write arbitrary files due to a directory traversal vulnerability in the WinBox interface.
+## CVE-2022-40470
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/babyshen/routeros-CVE-2018-14847-bytheway](https://github.com/babyshen/routeros-CVE-2018-14847-bytheway) :  ![starts](https://img.shields.io/github/stars/babyshen/routeros-CVE-2018-14847-bytheway.svg) ![forks](https://img.shields.io/github/forks/babyshen/routeros-CVE-2018-14847-bytheway.svg)
+- [https://github.com/RashidKhanPathan/CVE-2022-40470](https://github.com/RashidKhanPathan/CVE-2022-40470) :  ![starts](https://img.shields.io/github/stars/RashidKhanPathan/CVE-2022-40470.svg) ![forks](https://img.shields.io/github/forks/RashidKhanPathan/CVE-2022-40470.svg)
+
+
+## CVE-2022-40146
+ Server-Side Request Forgery (SSRF) vulnerability in Batik of Apache XML Graphics allows an attacker to access files using a Jar url. This issue affects Apache XML Graphics Batik 1.14.
+
+- [https://github.com/cckuailong/CVE-2022-40146_Exploit_Jar](https://github.com/cckuailong/CVE-2022-40146_Exploit_Jar) :  ![starts](https://img.shields.io/github/stars/cckuailong/CVE-2022-40146_Exploit_Jar.svg) ![forks](https://img.shields.io/github/forks/cckuailong/CVE-2022-40146_Exploit_Jar.svg)
+
+
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+
+- [https://github.com/aqiao-jashell/CVE-2021-41773](https://github.com/aqiao-jashell/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/aqiao-jashell/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/aqiao-jashell/CVE-2021-41773.svg)
+
+
+## CVE-2021-39144
+ XStream is a simple library to serialize objects to XML and back again. In affected versions this vulnerability may allow a remote attacker has sufficient rights to execute commands of the host only by manipulating the processed input stream. No user is affected, who followed the recommendation to setup XStream's security framework with a whitelist limited to the minimal required types. XStream 1.4.18 uses no longer a blacklist by default, since it cannot be secured for general purpose.
+
+- [https://github.com/b3wT/CVE-2021-39144-XSTREAM-RCE](https://github.com/b3wT/CVE-2021-39144-XSTREAM-RCE) :  ![starts](https://img.shields.io/github/stars/b3wT/CVE-2021-39144-XSTREAM-RCE.svg) ![forks](https://img.shields.io/github/forks/b3wT/CVE-2021-39144-XSTREAM-RCE.svg)
+
+
+## CVE-2021-31956
+ Windows NTFS Elevation of Privilege Vulnerability
+
+- [https://github.com/hzshang/CVE-2021-31956](https://github.com/hzshang/CVE-2021-31956) :  ![starts](https://img.shields.io/github/stars/hzshang/CVE-2021-31956.svg) ![forks](https://img.shields.io/github/forks/hzshang/CVE-2021-31956.svg)
+
+
+## CVE-2021-4034
+ A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
+
+- [https://github.com/jehovah2002/CVE-2021-4034-pwnkit](https://github.com/jehovah2002/CVE-2021-4034-pwnkit) :  ![starts](https://img.shields.io/github/stars/jehovah2002/CVE-2021-4034-pwnkit.svg) ![forks](https://img.shields.io/github/forks/jehovah2002/CVE-2021-4034-pwnkit.svg)
+
+
+## CVE-2020-17087
+ Windows Kernel Local Elevation of Privilege Vulnerability
+
+- [https://github.com/vp777/Windows-Non-Paged-Pool-Overflow-Exploitation](https://github.com/vp777/Windows-Non-Paged-Pool-Overflow-Exploitation) :  ![starts](https://img.shields.io/github/stars/vp777/Windows-Non-Paged-Pool-Overflow-Exploitation.svg) ![forks](https://img.shields.io/github/forks/vp777/Windows-Non-Paged-Pool-Overflow-Exploitation.svg)
+
+
+## CVE-2013-1491
+ The Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier, 6 Update 43 and earlier, 5.0 Update 41 and earlier, and JavaFX 2.2.7 and earlier allows remote attackers to execute arbitrary code via vectors related to 2D, as demonstrated by Joshua Drake during a Pwn2Own competition at CanSecWest 2013.
+
+- [https://github.com/guhe120/CVE20131491-JIT](https://github.com/guhe120/CVE20131491-JIT) :  ![starts](https://img.shields.io/github/stars/guhe120/CVE20131491-JIT.svg) ![forks](https://img.shields.io/github/forks/guhe120/CVE20131491-JIT.svg)
 
