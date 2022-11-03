@@ -583,7 +583,7 @@
 
 - [https://github.com/nootropics/propane](https://github.com/nootropics/propane) :  ![starts](https://img.shields.io/github/stars/nootropics/propane.svg) ![forks](https://img.shields.io/github/forks/nootropics/propane.svg)
 
-- [https://github.com/chcx/cpx_proftpd](https://github.com/chcx/cpx_proftpd) :  ![starts](https://img.shields.io/github/stars/chcx/cpx_proftpd.svg) ![forks](https://img.shields.io/github/forks/chcx/cpx_proftpd.svg)
+- [https://github.com/shk0x/cpx_proftpd](https://github.com/shk0x/cpx_proftpd) :  ![starts](https://img.shields.io/github/stars/shk0x/cpx_proftpd.svg) ![forks](https://img.shields.io/github/forks/shk0x/cpx_proftpd.svg)
 
 - [https://github.com/davidtavarez/CVE-2015-3306](https://github.com/davidtavarez/CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/davidtavarez/CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/davidtavarez/CVE-2015-3306.svg)
 
