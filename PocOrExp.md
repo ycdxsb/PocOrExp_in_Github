@@ -37162,13 +37162,6 @@
 
 - [https://github.com/173210/spider](https://github.com/173210/spider) :  ![starts](https://img.shields.io/github/stars/173210/spider.svg) ![forks](https://img.shields.io/github/forks/173210/spider.svg)
 
-## CVE-2013-2765
- The ModSecurity module before 2.7.4 for the Apache HTTP Server allows remote attackers to cause a denial of service (NULL pointer dereference, process crash, and disk consumption) via a POST request with a large body and a crafted Content-Type header.
-
-
-
-- [https://github.com/yjaaidi/exploits](https://github.com/yjaaidi/exploits) :  ![starts](https://img.shields.io/github/stars/yjaaidi/exploits.svg) ![forks](https://img.shields.io/github/forks/yjaaidi/exploits.svg)
-
 ## CVE-2013-2730
  Buffer overflow in Adobe Reader and Acrobat 9.x before 9.5.5, 10.x before 10.1.7, and 11.x before 11.0.03 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2013-2733.
 
