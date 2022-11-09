@@ -25473,6 +25473,13 @@
 
 - [https://github.com/dragotime/cve-2018-1000134](https://github.com/dragotime/cve-2018-1000134) :  ![starts](https://img.shields.io/github/stars/dragotime/cve-2018-1000134.svg) ![forks](https://img.shields.io/github/forks/dragotime/cve-2018-1000134.svg)
 
+## CVE-2018-1000117
+ Python Software Foundation CPython version From 3.2 until 3.6.4 on Windows contains a Buffer Overflow vulnerability in os.symlink() function on Windows that can result in Arbitrary code execution, likely escalation of privilege. This attack appears to be exploitable via a python script that creates a symlink with an attacker controlled name or location. This vulnerability appears to have been fixed in 3.7.0 and 3.6.5.
+
+
+
+- [https://github.com/u0pattern/CVE-2018-1000117-Exploit](https://github.com/u0pattern/CVE-2018-1000117-Exploit) :  ![starts](https://img.shields.io/github/stars/u0pattern/CVE-2018-1000117-Exploit.svg) ![forks](https://img.shields.io/github/forks/u0pattern/CVE-2018-1000117-Exploit.svg)
+
 ## CVE-2018-1000096
  brianleroux tiny-json-http version all versions since commit 9b8e74a232bba4701844e07bcba794173b0238a8 (Oct 29 2016) contains a Missing SSL certificate validation vulnerability in The libraries core functionality is affected. that can result in Exposes the user to man-in-the-middle attacks.
 
@@ -26231,9 +26238,9 @@
 
 - [https://github.com/k4u5h41/CVE-2018-16763](https://github.com/k4u5h41/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2018-16763.svg)
 
-- [https://github.com/BrunoPincho/cve-2018-16763-rust](https://github.com/BrunoPincho/cve-2018-16763-rust) :  ![starts](https://img.shields.io/github/stars/BrunoPincho/cve-2018-16763-rust.svg) ![forks](https://img.shields.io/github/forks/BrunoPincho/cve-2018-16763-rust.svg)
-
 - [https://github.com/NaturalT314/CVE-2018-16763](https://github.com/NaturalT314/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/NaturalT314/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/NaturalT314/CVE-2018-16763.svg)
+
+- [https://github.com/BrunoPincho/cve-2018-16763-rust](https://github.com/BrunoPincho/cve-2018-16763-rust) :  ![starts](https://img.shields.io/github/stars/BrunoPincho/cve-2018-16763-rust.svg) ![forks](https://img.shields.io/github/forks/BrunoPincho/cve-2018-16763-rust.svg)
 
 - [https://github.com/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763.svg)
 
@@ -26296,9 +26303,9 @@
 
 
 
-- [https://github.com/ossf-cve-benchmark/CVE-2018-16492](https://github.com/ossf-cve-benchmark/CVE-2018-16492) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2018-16492.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2018-16492.svg)
-
 - [https://github.com/dsp-testing/CVE-2018-16492](https://github.com/dsp-testing/CVE-2018-16492) :  ![starts](https://img.shields.io/github/stars/dsp-testing/CVE-2018-16492.svg) ![forks](https://img.shields.io/github/forks/dsp-testing/CVE-2018-16492.svg)
+
+- [https://github.com/ossf-cve-benchmark/CVE-2018-16492](https://github.com/ossf-cve-benchmark/CVE-2018-16492) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2018-16492.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2018-16492.svg)
 
 ## CVE-2018-16491
  A prototype pollution vulnerability was found in node.extend &lt;1.1.7, ~&lt;2.0.1 that allows an attacker to inject arbitrary properties onto Object.prototype.
@@ -26864,9 +26871,9 @@
 
 
 
-- [https://github.com/dsp-testing/CVE-2018-13797](https://github.com/dsp-testing/CVE-2018-13797) :  ![starts](https://img.shields.io/github/stars/dsp-testing/CVE-2018-13797.svg) ![forks](https://img.shields.io/github/forks/dsp-testing/CVE-2018-13797.svg)
-
 - [https://github.com/ossf-cve-benchmark/CVE-2018-13797](https://github.com/ossf-cve-benchmark/CVE-2018-13797) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2018-13797.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2018-13797.svg)
+
+- [https://github.com/dsp-testing/CVE-2018-13797](https://github.com/dsp-testing/CVE-2018-13797) :  ![starts](https://img.shields.io/github/stars/dsp-testing/CVE-2018-13797.svg) ![forks](https://img.shields.io/github/forks/dsp-testing/CVE-2018-13797.svg)
 
 ## CVE-2018-13784
  PrestaShop before 1.6.1.20 and 1.7.x before 1.7.3.4 mishandles cookie encryption in Cookie.php, Rinjdael.php, and Blowfish.php.
@@ -26881,6 +26888,13 @@
 
 
 - [https://github.com/shinecome/zip](https://github.com/shinecome/zip) :  ![starts](https://img.shields.io/github/stars/shinecome/zip.svg) ![forks](https://img.shields.io/github/forks/shinecome/zip.svg)
+
+## CVE-2018-13405
+ The inode_init_owner function in fs/inode.c in the Linux kernel through 3.16 allows local users to create files with an unintended group ownership, in a scenario where a directory is SGID to a certain group and is writable by a user who is not a member of that group. Here, the non-member can trigger creation of a plain file whose group ownership is that group. The intended behavior was that the non-member can trigger creation of a directory (but not a plain file) whose group ownership is that group. The non-member can escalate privileges by making the plain file executable and SGID.
+
+
+
+- [https://github.com/nidhi7598/linux-3.0.35_CVE-2018-13405](https://github.com/nidhi7598/linux-3.0.35_CVE-2018-13405) :  ![starts](https://img.shields.io/github/stars/nidhi7598/linux-3.0.35_CVE-2018-13405.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/linux-3.0.35_CVE-2018-13405.svg)
 
 ## CVE-2018-13382
  An Improper Authorization vulnerability in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.0 to 5.6.8 and 5.4.1 to 5.4.10 and FortiProxy 2.0.0, 1.2.0 to 1.2.8, 1.1.0 to 1.1.6, 1.0.0 to 1.0.7 under SSL VPN web portal allows an unauthenticated attacker to modify the password of an SSL VPN web portal user via specially crafted HTTP requests
@@ -27287,9 +27301,9 @@
 
 - [https://github.com/Choihosu/cve-2018-11235](https://github.com/Choihosu/cve-2018-11235) :  ![starts](https://img.shields.io/github/stars/Choihosu/cve-2018-11235.svg) ![forks](https://img.shields.io/github/forks/Choihosu/cve-2018-11235.svg)
 
-- [https://github.com/vmotos/CVE-2018-11235](https://github.com/vmotos/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/vmotos/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/vmotos/CVE-2018-11235.svg)
-
 - [https://github.com/xElkomy/CVE-2018-11235](https://github.com/xElkomy/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/xElkomy/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/xElkomy/CVE-2018-11235.svg)
+
+- [https://github.com/vmotos/CVE-2018-11235](https://github.com/vmotos/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/vmotos/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/vmotos/CVE-2018-11235.svg)
 
 - [https://github.com/Kiss-sh0t/CVE-2018-11235-poc](https://github.com/Kiss-sh0t/CVE-2018-11235-poc) :  ![starts](https://img.shields.io/github/stars/Kiss-sh0t/CVE-2018-11235-poc.svg) ![forks](https://img.shields.io/github/forks/Kiss-sh0t/CVE-2018-11235-poc.svg)
 
@@ -27754,13 +27768,6 @@
 
 ## CVE-2018-8734
  SQL injection vulnerability in the core config manager in Nagios XI 5.2.x through 5.4.x before 5.4.13 allows an attacker to execute arbitrary SQL commands via the selInfoKey1 parameter.
-
-
-
-- [https://github.com/xfer0/Nagios-XI-5.2.6-9-5.3-5.4-Chained-Remote-Root-Exploit-Fixed](https://github.com/xfer0/Nagios-XI-5.2.6-9-5.3-5.4-Chained-Remote-Root-Exploit-Fixed) :  ![starts](https://img.shields.io/github/stars/xfer0/Nagios-XI-5.2.6-9-5.3-5.4-Chained-Remote-Root-Exploit-Fixed.svg) ![forks](https://img.shields.io/github/forks/xfer0/Nagios-XI-5.2.6-9-5.3-5.4-Chained-Remote-Root-Exploit-Fixed.svg)
-
-## CVE-2018-8733
- Authentication bypass vulnerability in the core config manager in Nagios XI 5.2.x through 5.4.x before 5.4.13 allows an unauthenticated attacker to make configuration changes and leverage an authenticated SQL injection vulnerability.
 
 
 
@@ -28448,13 +28455,13 @@
 
 - [https://github.com/tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/tjcim/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/tjcim/cve-2018-6574.svg)
 
-- [https://github.com/asavior2/CVE-2018-6574](https://github.com/asavior2/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/asavior2/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/asavior2/CVE-2018-6574.svg)
-
 - [https://github.com/jongmartinez/CVE-2018-6574-POC](https://github.com/jongmartinez/CVE-2018-6574-POC) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2018-6574-POC.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2018-6574-POC.svg)
 
 - [https://github.com/amil-ptl-test/ptl_cve_2018_6574](https://github.com/amil-ptl-test/ptl_cve_2018_6574) :  ![starts](https://img.shields.io/github/stars/amil-ptl-test/ptl_cve_2018_6574.svg) ![forks](https://img.shields.io/github/forks/amil-ptl-test/ptl_cve_2018_6574.svg)
 
 - [https://github.com/markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/markisback/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/markisback/CVE-2018-6574.svg)
+
+- [https://github.com/asavior2/CVE-2018-6574](https://github.com/asavior2/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/asavior2/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/asavior2/CVE-2018-6574.svg)
 
 - [https://github.com/yitingfan/CVE-2018-6574_demo](https://github.com/yitingfan/CVE-2018-6574_demo) :  ![starts](https://img.shields.io/github/stars/yitingfan/CVE-2018-6574_demo.svg) ![forks](https://img.shields.io/github/forks/yitingfan/CVE-2018-6574_demo.svg)
 
@@ -28479,6 +28486,8 @@
 - [https://github.com/the-valluvarsploit/CVE-2018-6574](https://github.com/the-valluvarsploit/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/the-valluvarsploit/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/the-valluvarsploit/CVE-2018-6574.svg)
 
 - [https://github.com/Cypheer/exploit_CVE-2018-6574](https://github.com/Cypheer/exploit_CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/Cypheer/exploit_CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/Cypheer/exploit_CVE-2018-6574.svg)
+
+- [https://github.com/jeyaseelans86/CVE-2018-6574](https://github.com/jeyaseelans86/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/jeyaseelans86/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/jeyaseelans86/CVE-2018-6574.svg)
 
 - [https://github.com/ahmetmanga/cve-2018-6574](https://github.com/ahmetmanga/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/ahmetmanga/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/ahmetmanga/cve-2018-6574.svg)
 
@@ -28523,6 +28532,10 @@
 - [https://github.com/theJuan1112/pentesterlab-cve-2018-6574](https://github.com/theJuan1112/pentesterlab-cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/theJuan1112/pentesterlab-cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/theJuan1112/pentesterlab-cve-2018-6574.svg)
 
 - [https://github.com/purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2) :  ![starts](https://img.shields.io/github/stars/purgedemo/CVE-2018-6574_2.svg) ![forks](https://img.shields.io/github/forks/purgedemo/CVE-2018-6574_2.svg)
+
+- [https://github.com/jeyaseelans86/new-CVE-2018-6574](https://github.com/jeyaseelans86/new-CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/jeyaseelans86/new-CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/jeyaseelans86/new-CVE-2018-6574.svg)
+
+- [https://github.com/chr1sM/CVE-2018-6574](https://github.com/chr1sM/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/chr1sM/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/chr1sM/CVE-2018-6574.svg)
 
 - [https://github.com/No1zy/CVE-2018-6574-PoC](https://github.com/No1zy/CVE-2018-6574-PoC) :  ![starts](https://img.shields.io/github/stars/No1zy/CVE-2018-6574-PoC.svg) ![forks](https://img.shields.io/github/forks/No1zy/CVE-2018-6574-PoC.svg)
 
@@ -28615,9 +28628,9 @@
 
 - [https://github.com/BlackRouter/cve-2018-6389](https://github.com/BlackRouter/cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/BlackRouter/cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/BlackRouter/cve-2018-6389.svg)
 
-- [https://github.com/rastating/modsecurity-cve-2018-6389](https://github.com/rastating/modsecurity-cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/rastating/modsecurity-cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/rastating/modsecurity-cve-2018-6389.svg)
-
 - [https://github.com/Jetserver/CVE-2018-6389-FIX](https://github.com/Jetserver/CVE-2018-6389-FIX) :  ![starts](https://img.shields.io/github/stars/Jetserver/CVE-2018-6389-FIX.svg) ![forks](https://img.shields.io/github/forks/Jetserver/CVE-2018-6389-FIX.svg)
+
+- [https://github.com/rastating/modsecurity-cve-2018-6389](https://github.com/rastating/modsecurity-cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/rastating/modsecurity-cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/rastating/modsecurity-cve-2018-6389.svg)
 
 - [https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389](https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/mudhappy/Wordpress-Hack-CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/mudhappy/Wordpress-Hack-CVE-2018-6389.svg)
 
