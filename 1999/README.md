@@ -1,3 +1,10 @@
+## CVE-1999-1053
+ guestbook.pl cleanses user-inserted SSI commands by removing text between &quot;&lt;!--&quot; and &quot;--&gt;&quot; separators, which allows remote attackers to execute arbitrary commands when guestbook.pl is run on Apache 1.3.9 and possibly other versions, since Apache allows other closing sequences besides &quot;--&gt;&quot;.
+
+
+
+- [https://github.com/siunam321/CVE-1999-1053-PoC](https://github.com/siunam321/CVE-1999-1053-PoC) :  ![starts](https://img.shields.io/github/stars/siunam321/CVE-1999-1053-PoC.svg) ![forks](https://img.shields.io/github/forks/siunam321/CVE-1999-1053-PoC.svg)
+
 ## CVE-1999-0532
  A DNS server allows zone transfers.
 
