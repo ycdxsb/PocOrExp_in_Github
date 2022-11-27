@@ -255,9 +255,9 @@
 
 - [https://github.com/securusglobal/BadBash](https://github.com/securusglobal/BadBash) :  ![starts](https://img.shields.io/github/stars/securusglobal/BadBash.svg) ![forks](https://img.shields.io/github/forks/securusglobal/BadBash.svg)
 
-- [https://github.com/b4keSn4ke/CVE-2014-6271](https://github.com/b4keSn4ke/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/b4keSn4ke/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/b4keSn4ke/CVE-2014-6271.svg)
-
 - [https://github.com/zalalov/CVE-2014-6271](https://github.com/zalalov/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/zalalov/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/zalalov/CVE-2014-6271.svg)
+
+- [https://github.com/b4keSn4ke/CVE-2014-6271](https://github.com/b4keSn4ke/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/b4keSn4ke/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/b4keSn4ke/CVE-2014-6271.svg)
 
 - [https://github.com/akiraaisha/shellshocker-python](https://github.com/akiraaisha/shellshocker-python) :  ![starts](https://img.shields.io/github/stars/akiraaisha/shellshocker-python.svg) ![forks](https://img.shields.io/github/forks/akiraaisha/shellshocker-python.svg)
 
