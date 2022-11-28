@@ -39217,6 +39217,13 @@
 
 
 ## 2003
+## CVE-2003-0358
+ Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.
+
+
+
+- [https://github.com/snowcra5h/CVE-2003-0358](https://github.com/snowcra5h/CVE-2003-0358) :  ![starts](https://img.shields.io/github/stars/snowcra5h/CVE-2003-0358.svg) ![forks](https://img.shields.io/github/forks/snowcra5h/CVE-2003-0358.svg)
+
 ## CVE-2003-0282
  Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
 
@@ -39235,9 +39242,9 @@
 
 - [https://github.com/war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2003-0264.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2003-0264.svg)
 
-- [https://github.com/adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2003-0264.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2003-0264.svg)
-
 - [https://github.com/SxNade/CVE-2003-0264_EXPLOIT](https://github.com/SxNade/CVE-2003-0264_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/SxNade/CVE-2003-0264_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/SxNade/CVE-2003-0264_EXPLOIT.svg)
+
+- [https://github.com/adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2003-0264.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2003-0264.svg)
 
 - [https://github.com/pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5) :  ![starts](https://img.shields.io/github/stars/pwncone/CVE-2003-0264-SLmail-5.5.svg) ![forks](https://img.shields.io/github/forks/pwncone/CVE-2003-0264-SLmail-5.5.svg)
 
