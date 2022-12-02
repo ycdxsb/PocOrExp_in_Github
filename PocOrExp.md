@@ -38388,8 +38388,6 @@
 
 - [https://github.com/ikkisoft/ParrotNG](https://github.com/ikkisoft/ParrotNG) :  ![starts](https://img.shields.io/github/stars/ikkisoft/ParrotNG.svg) ![forks](https://img.shields.io/github/forks/ikkisoft/ParrotNG.svg)
 
-- [https://github.com/edmondscommerce/CVE-2011-2461_Magento_Patch](https://github.com/edmondscommerce/CVE-2011-2461_Magento_Patch) :  ![starts](https://img.shields.io/github/stars/edmondscommerce/CVE-2011-2461_Magento_Patch.svg) ![forks](https://img.shields.io/github/forks/edmondscommerce/CVE-2011-2461_Magento_Patch.svg)
-
 - [https://github.com/u-maxx/magento-swf-patched-CVE-2011-2461](https://github.com/u-maxx/magento-swf-patched-CVE-2011-2461) :  ![starts](https://img.shields.io/github/stars/u-maxx/magento-swf-patched-CVE-2011-2461.svg) ![forks](https://img.shields.io/github/forks/u-maxx/magento-swf-patched-CVE-2011-2461.svg)
 
 ## CVE-2011-1974
