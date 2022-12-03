@@ -102,6 +102,8 @@
 
 - [https://github.com/nobodyatall648/CVE-2011-2523](https://github.com/nobodyatall648/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2011-2523.svg)
 
+- [https://github.com/XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/XiangSi-Howard/CTF---CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/XiangSi-Howard/CTF---CVE-2011-2523.svg)
+
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
 - [https://github.com/HerculesRD/vsftpd2.3.4PyExploit](https://github.com/HerculesRD/vsftpd2.3.4PyExploit) :  ![starts](https://img.shields.io/github/stars/HerculesRD/vsftpd2.3.4PyExploit.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/vsftpd2.3.4PyExploit.svg)
@@ -114,6 +116,8 @@
 
 
 - [https://github.com/ikkisoft/ParrotNG](https://github.com/ikkisoft/ParrotNG) :  ![starts](https://img.shields.io/github/stars/ikkisoft/ParrotNG.svg) ![forks](https://img.shields.io/github/forks/ikkisoft/ParrotNG.svg)
+
+- [https://github.com/edmondscommerce/CVE-2011-2461_Magento_Patch](https://github.com/edmondscommerce/CVE-2011-2461_Magento_Patch) :  ![starts](https://img.shields.io/github/stars/edmondscommerce/CVE-2011-2461_Magento_Patch.svg) ![forks](https://img.shields.io/github/forks/edmondscommerce/CVE-2011-2461_Magento_Patch.svg)
 
 - [https://github.com/u-maxx/magento-swf-patched-CVE-2011-2461](https://github.com/u-maxx/magento-swf-patched-CVE-2011-2461) :  ![starts](https://img.shields.io/github/stars/u-maxx/magento-swf-patched-CVE-2011-2461.svg) ![forks](https://img.shields.io/github/forks/u-maxx/magento-swf-patched-CVE-2011-2461.svg)
 
