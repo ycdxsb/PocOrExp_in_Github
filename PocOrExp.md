@@ -31990,9 +31990,9 @@
 
 - [https://github.com/mbrasile/CVE-2017-9841](https://github.com/mbrasile/CVE-2017-9841) :  ![starts](https://img.shields.io/github/stars/mbrasile/CVE-2017-9841.svg) ![forks](https://img.shields.io/github/forks/mbrasile/CVE-2017-9841.svg)
 
-- [https://github.com/yoloskr/CVE-2017-9841-Scan](https://github.com/yoloskr/CVE-2017-9841-Scan) :  ![starts](https://img.shields.io/github/stars/yoloskr/CVE-2017-9841-Scan.svg) ![forks](https://img.shields.io/github/forks/yoloskr/CVE-2017-9841-Scan.svg)
-
 - [https://github.com/Invertebr4do/cve-2017-9841](https://github.com/Invertebr4do/cve-2017-9841) :  ![starts](https://img.shields.io/github/stars/Invertebr4do/cve-2017-9841.svg) ![forks](https://img.shields.io/github/forks/Invertebr4do/cve-2017-9841.svg)
+
+- [https://github.com/yoloskr/CVE-2017-9841-Scan](https://github.com/yoloskr/CVE-2017-9841-Scan) :  ![starts](https://img.shields.io/github/stars/yoloskr/CVE-2017-9841-Scan.svg) ![forks](https://img.shields.io/github/forks/yoloskr/CVE-2017-9841-Scan.svg)
 
 - [https://github.com/jax7sec/CVE-2017-9841](https://github.com/jax7sec/CVE-2017-9841) :  ![starts](https://img.shields.io/github/stars/jax7sec/CVE-2017-9841.svg) ![forks](https://img.shields.io/github/forks/jax7sec/CVE-2017-9841.svg)
 
@@ -33149,11 +33149,11 @@
 
 - [https://github.com/jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2017-5638.svg)
 
+- [https://github.com/homjxi0e/CVE-2017-5638](https://github.com/homjxi0e/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-5638.svg)
+
 - [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
 
 - [https://github.com/0xkasra/CVE-2017-5638](https://github.com/0xkasra/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2017-5638.svg)
-
-- [https://github.com/homjxi0e/CVE-2017-5638](https://github.com/homjxi0e/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-5638.svg)
 
 - [https://github.com/leandrocamposcardoso/CVE-2017-5638-Mass-Exploit](https://github.com/leandrocamposcardoso/CVE-2017-5638-Mass-Exploit) :  ![starts](https://img.shields.io/github/stars/leandrocamposcardoso/CVE-2017-5638-Mass-Exploit.svg) ![forks](https://img.shields.io/github/forks/leandrocamposcardoso/CVE-2017-5638-Mass-Exploit.svg)
 
@@ -33514,8 +33514,6 @@
 - [https://github.com/Hackerscript/BlueBorne-CVE-2017-0785](https://github.com/Hackerscript/BlueBorne-CVE-2017-0785) :  ![starts](https://img.shields.io/github/stars/Hackerscript/BlueBorne-CVE-2017-0785.svg) ![forks](https://img.shields.io/github/forks/Hackerscript/BlueBorne-CVE-2017-0785.svg)
 
 - [https://github.com/CyberKimathi/Py3-CVE-2017-0785](https://github.com/CyberKimathi/Py3-CVE-2017-0785) :  ![starts](https://img.shields.io/github/stars/CyberKimathi/Py3-CVE-2017-0785.svg) ![forks](https://img.shields.io/github/forks/CyberKimathi/Py3-CVE-2017-0785.svg)
-
-- [https://github.com/CarlosDelRosario7/sploit-bX](https://github.com/CarlosDelRosario7/sploit-bX) :  ![starts](https://img.shields.io/github/stars/CarlosDelRosario7/sploit-bX.svg) ![forks](https://img.shields.io/github/forks/CarlosDelRosario7/sploit-bX.svg)
 
 ## CVE-2017-0781
  A remote code execution vulnerability in the Android system (bluetooth). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2, 8.0. Android ID: A-63146105.
