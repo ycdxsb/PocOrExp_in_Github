@@ -875,9 +875,9 @@
 
 - [https://github.com/k4u5h41/CVE-2018-16763](https://github.com/k4u5h41/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2018-16763.svg)
 
-- [https://github.com/NaturalT314/CVE-2018-16763](https://github.com/NaturalT314/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/NaturalT314/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/NaturalT314/CVE-2018-16763.svg)
-
 - [https://github.com/BrunoPincho/cve-2018-16763-rust](https://github.com/BrunoPincho/cve-2018-16763-rust) :  ![starts](https://img.shields.io/github/stars/BrunoPincho/cve-2018-16763-rust.svg) ![forks](https://img.shields.io/github/forks/BrunoPincho/cve-2018-16763-rust.svg)
+
+- [https://github.com/NaturalT314/CVE-2018-16763](https://github.com/NaturalT314/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/NaturalT314/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/NaturalT314/CVE-2018-16763.svg)
 
 - [https://github.com/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763.svg)
 
@@ -1824,13 +1824,6 @@
 
 - [https://github.com/OzNetNerd/apche-struts-vuln-demo-cve-2018-11776](https://github.com/OzNetNerd/apche-struts-vuln-demo-cve-2018-11776) :  ![starts](https://img.shields.io/github/stars/OzNetNerd/apche-struts-vuln-demo-cve-2018-11776.svg) ![forks](https://img.shields.io/github/forks/OzNetNerd/apche-struts-vuln-demo-cve-2018-11776.svg)
 
-## CVE-2018-11770
- From version 1.3.0 onward, Apache Spark's standalone master exposes a REST API for job submission, in addition to the submission mechanism used by spark-submit. In standalone, the config property 'spark.authenticate.secret' establishes a shared secret for authenticating requests to submit jobs via spark-submit. However, the REST API does not use this or any other authentication mechanism, and this is not adequately documented. In this case, a user would be able to run a driver program without authenticating, but not launch executors, using the REST API. This REST API is also used by Mesos, when set up to run in cluster mode (i.e., when also running MesosClusterDispatcher), for job submission. Future versions of Spark will improve documentation on these points, and prohibit setting 'spark.authenticate.secret' when running the REST APIs, to make this clear. Future versions will also disable the REST API by default in the standalone master by changing the default value of 'spark.master.rest.enabled' to 'false'.
-
-
-
-- [https://github.com/ivanitlearning/CVE-2018-11770](https://github.com/ivanitlearning/CVE-2018-11770) :  ![starts](https://img.shields.io/github/stars/ivanitlearning/CVE-2018-11770.svg) ![forks](https://img.shields.io/github/forks/ivanitlearning/CVE-2018-11770.svg)
-
 ## CVE-2018-11761
  In Apache Tika 0.1 to 1.18, the XML parsers were not configured to limit entity expansion. They were therefore vulnerable to an entity expansion vulnerability which can lead to a denial of service attack.
 
@@ -2028,9 +2021,9 @@
 
 - [https://github.com/hook-s3c/CVE-2018-10933](https://github.com/hook-s3c/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/hook-s3c/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/hook-s3c/CVE-2018-10933.svg)
 
-- [https://github.com/EmmanuelCruzL/CVE-2018-10933](https://github.com/EmmanuelCruzL/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/EmmanuelCruzL/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/EmmanuelCruzL/CVE-2018-10933.svg)
-
 - [https://github.com/likescam/CVE-2018-10933_ssh](https://github.com/likescam/CVE-2018-10933_ssh) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2018-10933_ssh.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2018-10933_ssh.svg)
+
+- [https://github.com/EmmanuelCruzL/CVE-2018-10933](https://github.com/EmmanuelCruzL/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/EmmanuelCruzL/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/EmmanuelCruzL/CVE-2018-10933.svg)
 
 - [https://github.com/ivanacostarubio/libssh-scanner](https://github.com/ivanacostarubio/libssh-scanner) :  ![starts](https://img.shields.io/github/stars/ivanacostarubio/libssh-scanner.svg) ![forks](https://img.shields.io/github/forks/ivanacostarubio/libssh-scanner.svg)
 
@@ -2225,9 +2218,9 @@
 
 - [https://github.com/ABIZCHI/CVE-2018-9995_dvr_credentials](https://github.com/ABIZCHI/CVE-2018-9995_dvr_credentials) :  ![starts](https://img.shields.io/github/stars/ABIZCHI/CVE-2018-9995_dvr_credentials.svg) ![forks](https://img.shields.io/github/forks/ABIZCHI/CVE-2018-9995_dvr_credentials.svg)
 
-- [https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995](https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995) :  ![starts](https://img.shields.io/github/stars/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995.svg) ![forks](https://img.shields.io/github/forks/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995.svg)
-
 - [https://github.com/TateYdq/CVE-2018-9995-ModifiedByGwolfs](https://github.com/TateYdq/CVE-2018-9995-ModifiedByGwolfs) :  ![starts](https://img.shields.io/github/stars/TateYdq/CVE-2018-9995-ModifiedByGwolfs.svg) ![forks](https://img.shields.io/github/forks/TateYdq/CVE-2018-9995-ModifiedByGwolfs.svg)
+
+- [https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995](https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995) :  ![starts](https://img.shields.io/github/stars/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995.svg) ![forks](https://img.shields.io/github/forks/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995.svg)
 
 ## CVE-2018-9958
  This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader 9.0.1.1049. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Text Annotations. When setting the point attribute, the process does not properly validate the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process. Was ZDI-CAN-5620.
@@ -3128,6 +3121,10 @@
 
 - [https://github.com/jongmartinez/CVE-2018-6574-POC](https://github.com/jongmartinez/CVE-2018-6574-POC) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2018-6574-POC.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2018-6574-POC.svg)
 
+- [https://github.com/amil-ptl-test/ptl_cve_2018_6574](https://github.com/amil-ptl-test/ptl_cve_2018_6574) :  ![starts](https://img.shields.io/github/stars/amil-ptl-test/ptl_cve_2018_6574.svg) ![forks](https://img.shields.io/github/forks/amil-ptl-test/ptl_cve_2018_6574.svg)
+
+- [https://github.com/markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/markisback/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/markisback/CVE-2018-6574.svg)
+
 - [https://github.com/yitingfan/CVE-2018-6574_demo](https://github.com/yitingfan/CVE-2018-6574_demo) :  ![starts](https://img.shields.io/github/stars/yitingfan/CVE-2018-6574_demo.svg) ![forks](https://img.shields.io/github/forks/yitingfan/CVE-2018-6574_demo.svg)
 
 - [https://github.com/it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/it3x55/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/it3x55/CVE-2018-6574.svg)
@@ -3135,10 +3132,6 @@
 - [https://github.com/NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/NikolaT3sla/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/NikolaT3sla/cve-2018-6574.svg)
 
 - [https://github.com/AnKItdo/CVE_2018-6574](https://github.com/AnKItdo/CVE_2018-6574) :  ![starts](https://img.shields.io/github/stars/AnKItdo/CVE_2018-6574.svg) ![forks](https://img.shields.io/github/forks/AnKItdo/CVE_2018-6574.svg)
-
-- [https://github.com/amil-ptl-test/ptl_cve_2018_6574](https://github.com/amil-ptl-test/ptl_cve_2018_6574) :  ![starts](https://img.shields.io/github/stars/amil-ptl-test/ptl_cve_2018_6574.svg) ![forks](https://img.shields.io/github/forks/amil-ptl-test/ptl_cve_2018_6574.svg)
-
-- [https://github.com/markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/markisback/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/markisback/CVE-2018-6574.svg)
 
 - [https://github.com/redirected/cve-2018-6574](https://github.com/redirected/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/redirected/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/redirected/cve-2018-6574.svg)
 
@@ -3180,6 +3173,10 @@
 
 - [https://github.com/Devang-Solanki/CVE-2018-6574](https://github.com/Devang-Solanki/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/Devang-Solanki/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/Devang-Solanki/CVE-2018-6574.svg)
 
+- [https://github.com/noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/noobTest1122/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/noobTest1122/CVE-2018-6574.svg)
+
+- [https://github.com/R3dAlch3mist/cve-2018-6574](https://github.com/R3dAlch3mist/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/R3dAlch3mist/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/R3dAlch3mist/cve-2018-6574.svg)
+
 - [https://github.com/mhamed366/CVE-2018-6574](https://github.com/mhamed366/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/mhamed366/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/mhamed366/CVE-2018-6574.svg)
 
 - [https://github.com/repos13579/labCVE-2018-6574](https://github.com/repos13579/labCVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/repos13579/labCVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/repos13579/labCVE-2018-6574.svg)
@@ -3189,10 +3186,6 @@
 - [https://github.com/yashanand/cve-2018-6574](https://github.com/yashanand/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/yashanand/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/yashanand/cve-2018-6574.svg)
 
 - [https://github.com/Yashrk078/Test_CVE-2018-6574](https://github.com/Yashrk078/Test_CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/Yashrk078/Test_CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/Yashrk078/Test_CVE-2018-6574.svg)
-
-- [https://github.com/noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/noobTest1122/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/noobTest1122/CVE-2018-6574.svg)
-
-- [https://github.com/R3dAlch3mist/cve-2018-6574](https://github.com/R3dAlch3mist/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/R3dAlch3mist/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/R3dAlch3mist/cve-2018-6574.svg)
 
 - [https://github.com/AdriVillaB/CVE-2018-6574](https://github.com/AdriVillaB/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/AdriVillaB/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/AdriVillaB/CVE-2018-6574.svg)
 
@@ -3212,9 +3205,9 @@
 
 - [https://github.com/jaya522/CVE-2018-6574-go-get-RCE](https://github.com/jaya522/CVE-2018-6574-go-get-RCE) :  ![starts](https://img.shields.io/github/stars/jaya522/CVE-2018-6574-go-get-RCE.svg) ![forks](https://img.shields.io/github/forks/jaya522/CVE-2018-6574-go-get-RCE.svg)
 
-- [https://github.com/hasharmujahid/CVE-2018-6574-go-get-RCE](https://github.com/hasharmujahid/CVE-2018-6574-go-get-RCE) :  ![starts](https://img.shields.io/github/stars/hasharmujahid/CVE-2018-6574-go-get-RCE.svg) ![forks](https://img.shields.io/github/forks/hasharmujahid/CVE-2018-6574-go-get-RCE.svg)
-
 - [https://github.com/drset/golang](https://github.com/drset/golang) :  ![starts](https://img.shields.io/github/stars/drset/golang.svg) ![forks](https://img.shields.io/github/forks/drset/golang.svg)
+
+- [https://github.com/hasharmujahid/CVE-2018-6574-go-get-RCE](https://github.com/hasharmujahid/CVE-2018-6574-go-get-RCE) :  ![starts](https://img.shields.io/github/stars/hasharmujahid/CVE-2018-6574-go-get-RCE.svg) ![forks](https://img.shields.io/github/forks/hasharmujahid/CVE-2018-6574-go-get-RCE.svg)
 
 ## CVE-2018-6546
  plays_service.exe in the plays.tv service before 1.27.7.0, as distributed in AMD driver-installation packages and Gaming Evolved products, executes code at a user-defined (local or SMB) path as SYSTEM when the execute_installer parameter is used in an HTTP message. This occurs without properly authenticating the user.
@@ -4245,6 +4238,13 @@
 
 - [https://github.com/tafamace/CVE-2018-1313](https://github.com/tafamace/CVE-2018-1313) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2018-1313.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2018-1313.svg)
 
+## CVE-2018-1311
+ The Apache Xerces-C 3.0.0 to 3.2.3 XML parser contains a use-after-free error triggered during the scanning of external DTDs. This flaw has not been addressed in the maintained version of the library and has no current mitigation other than to disable DTD processing. This can be accomplished via the DOM using a standard parser feature, or via SAX using the XERCES_DISABLE_DTD environment variable.
+
+
+
+- [https://github.com/johnjamesmccann/xerces-3.2.3-DTD-hotfix](https://github.com/johnjamesmccann/xerces-3.2.3-DTD-hotfix) :  ![starts](https://img.shields.io/github/stars/johnjamesmccann/xerces-3.2.3-DTD-hotfix.svg) ![forks](https://img.shields.io/github/forks/johnjamesmccann/xerces-3.2.3-DTD-hotfix.svg)
+
 ## CVE-2018-1306
  The PortletV3AnnotatedDemo Multipart Portlet war file code provided in Apache Pluto version 3.0.0 could allow a remote attacker to obtain sensitive information, caused by the failure to restrict path information provided during a file upload. An attacker could exploit this vulnerability to obtain configuration data and other sensitive information.
 
@@ -4515,9 +4515,9 @@
 
 - [https://github.com/zi0Black/POC-CVE-2018-0114](https://github.com/zi0Black/POC-CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/zi0Black/POC-CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/zi0Black/POC-CVE-2018-0114.svg)
 
-- [https://github.com/j4k0m/CVE-2018-0114](https://github.com/j4k0m/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/j4k0m/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/j4k0m/CVE-2018-0114.svg)
-
 - [https://github.com/Eremiel/CVE-2018-0114](https://github.com/Eremiel/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/Eremiel/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/Eremiel/CVE-2018-0114.svg)
+
+- [https://github.com/j4k0m/CVE-2018-0114](https://github.com/j4k0m/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/j4k0m/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/j4k0m/CVE-2018-0114.svg)
 
 - [https://github.com/adityathebe/POC-CVE-2018-0114](https://github.com/adityathebe/POC-CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/adityathebe/POC-CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/adityathebe/POC-CVE-2018-0114.svg)
 
