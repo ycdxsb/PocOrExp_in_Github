@@ -38687,6 +38687,8 @@
 
 - [https://github.com/DDuarte/springshell-rce-poc](https://github.com/DDuarte/springshell-rce-poc) :  ![starts](https://img.shields.io/github/stars/DDuarte/springshell-rce-poc.svg) ![forks](https://img.shields.io/github/forks/DDuarte/springshell-rce-poc.svg)
 
+- [https://github.com/HandsomeCat00/Spring-CVE-2010-1622](https://github.com/HandsomeCat00/Spring-CVE-2010-1622) :  ![starts](https://img.shields.io/github/stars/HandsomeCat00/Spring-CVE-2010-1622.svg) ![forks](https://img.shields.io/github/forks/HandsomeCat00/Spring-CVE-2010-1622.svg)
+
 - [https://github.com/strainerart/Spring4Shell](https://github.com/strainerart/Spring4Shell) :  ![starts](https://img.shields.io/github/stars/strainerart/Spring4Shell.svg) ![forks](https://img.shields.io/github/forks/strainerart/Spring4Shell.svg)
 
 ## CVE-2010-1411
