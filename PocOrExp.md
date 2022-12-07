@@ -21615,9 +21615,9 @@
 
 - [https://github.com/sunnet-cyber/CVE2019_16278](https://github.com/sunnet-cyber/CVE2019_16278) :  ![starts](https://img.shields.io/github/stars/sunnet-cyber/CVE2019_16278.svg) ![forks](https://img.shields.io/github/forks/sunnet-cyber/CVE2019_16278.svg)
 
-- [https://github.com/NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/NHPT/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/NHPT/CVE-2019-16278.svg)
-
 - [https://github.com/keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278) :  ![starts](https://img.shields.io/github/stars/keshiba/cve-2019-16278.svg) ![forks](https://img.shields.io/github/forks/keshiba/cve-2019-16278.svg)
+
+- [https://github.com/NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/NHPT/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/NHPT/CVE-2019-16278.svg)
 
 - [https://github.com/alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/alexander-fernandes/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/alexander-fernandes/CVE-2019-16278.svg)
 
@@ -21636,9 +21636,9 @@
 
 - [https://github.com/hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC) :  ![starts](https://img.shields.io/github/stars/hg8/CVE-2019-16113-PoC.svg) ![forks](https://img.shields.io/github/forks/hg8/CVE-2019-16113-PoC.svg)
 
-- [https://github.com/itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/itsjeffersonli/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/itsjeffersonli/CVE-2019-16113.svg)
-
 - [https://github.com/0xkasra/CVE-2019-16113_](https://github.com/0xkasra/CVE-2019-16113_) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2019-16113_.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2019-16113_.svg)
+
+- [https://github.com/itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/itsjeffersonli/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/itsjeffersonli/CVE-2019-16113.svg)
 
 - [https://github.com/DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/DXY0411/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/DXY0411/CVE-2019-16113.svg)
 
@@ -21902,9 +21902,9 @@
 
 - [https://github.com/Tuz-Wwsd/CVE-2019-15107_detection](https://github.com/Tuz-Wwsd/CVE-2019-15107_detection) :  ![starts](https://img.shields.io/github/stars/Tuz-Wwsd/CVE-2019-15107_detection.svg) ![forks](https://img.shields.io/github/forks/Tuz-Wwsd/CVE-2019-15107_detection.svg)
 
-- [https://github.com/squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/squid22/Webmin_CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/squid22/Webmin_CVE-2019-15107.svg)
-
 - [https://github.com/darrenmartyn/CVE-2019-15107](https://github.com/darrenmartyn/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/darrenmartyn/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/darrenmartyn/CVE-2019-15107.svg)
+
+- [https://github.com/squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/squid22/Webmin_CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/squid22/Webmin_CVE-2019-15107.svg)
 
 - [https://github.com/hacknotes/CVE-2019-15107-Exploit](https://github.com/hacknotes/CVE-2019-15107-Exploit) :  ![starts](https://img.shields.io/github/stars/hacknotes/CVE-2019-15107-Exploit.svg) ![forks](https://img.shields.io/github/forks/hacknotes/CVE-2019-15107-Exploit.svg)
 
@@ -23169,9 +23169,9 @@
 
 - [https://github.com/jptr218/php_hack](https://github.com/jptr218/php_hack) :  ![starts](https://img.shields.io/github/stars/jptr218/php_hack.svg) ![forks](https://img.shields.io/github/forks/jptr218/php_hack.svg)
 
-- [https://github.com/shadow-horse/cve-2019-11043](https://github.com/shadow-horse/cve-2019-11043) :  ![starts](https://img.shields.io/github/stars/shadow-horse/cve-2019-11043.svg) ![forks](https://img.shields.io/github/forks/shadow-horse/cve-2019-11043.svg)
-
 - [https://github.com/fairyming/CVE-2019-11043](https://github.com/fairyming/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/fairyming/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/fairyming/CVE-2019-11043.svg)
+
+- [https://github.com/shadow-horse/cve-2019-11043](https://github.com/shadow-horse/cve-2019-11043) :  ![starts](https://img.shields.io/github/stars/shadow-horse/cve-2019-11043.svg) ![forks](https://img.shields.io/github/forks/shadow-horse/cve-2019-11043.svg)
 
 - [https://github.com/HxDDD/CVE-PoC](https://github.com/HxDDD/CVE-PoC) :  ![starts](https://img.shields.io/github/stars/HxDDD/CVE-PoC.svg) ![forks](https://img.shields.io/github/forks/HxDDD/CVE-PoC.svg)
 
@@ -23533,11 +23533,11 @@
 
 - [https://github.com/rkatogit/cve-2019-9787_csrf_poc](https://github.com/rkatogit/cve-2019-9787_csrf_poc) :  ![starts](https://img.shields.io/github/stars/rkatogit/cve-2019-9787_csrf_poc.svg) ![forks](https://img.shields.io/github/forks/rkatogit/cve-2019-9787_csrf_poc.svg)
 
+- [https://github.com/kuangting4231/mitigation-cve-2019-9787](https://github.com/kuangting4231/mitigation-cve-2019-9787) :  ![starts](https://img.shields.io/github/stars/kuangting4231/mitigation-cve-2019-9787.svg) ![forks](https://img.shields.io/github/forks/kuangting4231/mitigation-cve-2019-9787.svg)
+
 - [https://github.com/matinciel/Wordpress_CVE-2019-9787](https://github.com/matinciel/Wordpress_CVE-2019-9787) :  ![starts](https://img.shields.io/github/stars/matinciel/Wordpress_CVE-2019-9787.svg) ![forks](https://img.shields.io/github/forks/matinciel/Wordpress_CVE-2019-9787.svg)
 
 - [https://github.com/dexXxed/CVE-2019-9787](https://github.com/dexXxed/CVE-2019-9787) :  ![starts](https://img.shields.io/github/stars/dexXxed/CVE-2019-9787.svg) ![forks](https://img.shields.io/github/forks/dexXxed/CVE-2019-9787.svg)
-
-- [https://github.com/kuangting4231/mitigation-cve-2019-9787](https://github.com/kuangting4231/mitigation-cve-2019-9787) :  ![starts](https://img.shields.io/github/stars/kuangting4231/mitigation-cve-2019-9787.svg) ![forks](https://img.shields.io/github/forks/kuangting4231/mitigation-cve-2019-9787.svg)
 
 - [https://github.com/PalmTreeForest/CodePath_Week_7-8](https://github.com/PalmTreeForest/CodePath_Week_7-8) :  ![starts](https://img.shields.io/github/stars/PalmTreeForest/CodePath_Week_7-8.svg) ![forks](https://img.shields.io/github/forks/PalmTreeForest/CodePath_Week_7-8.svg)
 
@@ -23547,6 +23547,13 @@
 
 
 - [https://github.com/moonheadobj/CVE-2019-9766](https://github.com/moonheadobj/CVE-2019-9766) :  ![starts](https://img.shields.io/github/stars/moonheadobj/CVE-2019-9766.svg) ![forks](https://img.shields.io/github/forks/moonheadobj/CVE-2019-9766.svg)
+
+## CVE-2019-9745
+ CloudCTI HIP Integrator Recognition Configuration Tool allows privilege escalation via its EXQUISE integration. This tool communicates with a service (Recognition Update Client Service) via an insecure communication channel (Named Pipe). The data (JSON) sent via this channel is used to import data from CRM software using plugins (.dll files). The plugin to import data from the EXQUISE software (DatasourceExquiseExporter.dll) can be persuaded to start arbitrary programs (including batch files) that are executed using the same privileges as Recognition Update Client Service (NT AUTHORITY\SYSTEM), thus elevating privileges. This occurs because a higher-privileged process executes scripts from a directory writable by a lower-privileged user.
+
+
+
+- [https://github.com/KPN-CISO/CVE-2019-9745](https://github.com/KPN-CISO/CVE-2019-9745) :  ![starts](https://img.shields.io/github/stars/KPN-CISO/CVE-2019-9745.svg) ![forks](https://img.shields.io/github/forks/KPN-CISO/CVE-2019-9745.svg)
 
 ## CVE-2019-9730
  Incorrect access control in the CxUtilSvc component of the Synaptics Sound Device drivers prior to version 2.29 allows a local attacker to increase access privileges to the Windows Registry via an unpublished API.
@@ -24608,9 +24615,9 @@
 
 - [https://github.com/PenTestical/CVE-2019-5420](https://github.com/PenTestical/CVE-2019-5420) :  ![starts](https://img.shields.io/github/stars/PenTestical/CVE-2019-5420.svg) ![forks](https://img.shields.io/github/forks/PenTestical/CVE-2019-5420.svg)
 
-- [https://github.com/AnasTaoutaou/CVE-2019-5420](https://github.com/AnasTaoutaou/CVE-2019-5420) :  ![starts](https://img.shields.io/github/stars/AnasTaoutaou/CVE-2019-5420.svg) ![forks](https://img.shields.io/github/forks/AnasTaoutaou/CVE-2019-5420.svg)
-
 - [https://github.com/mmeza-developer/CVE-2019-5420-RCE](https://github.com/mmeza-developer/CVE-2019-5420-RCE) :  ![starts](https://img.shields.io/github/stars/mmeza-developer/CVE-2019-5420-RCE.svg) ![forks](https://img.shields.io/github/forks/mmeza-developer/CVE-2019-5420-RCE.svg)
+
+- [https://github.com/AnasTaoutaou/CVE-2019-5420](https://github.com/AnasTaoutaou/CVE-2019-5420) :  ![starts](https://img.shields.io/github/stars/AnasTaoutaou/CVE-2019-5420.svg) ![forks](https://img.shields.io/github/forks/AnasTaoutaou/CVE-2019-5420.svg)
 
 - [https://github.com/laffray/ruby-RCE-CVE-2019-5420-](https://github.com/laffray/ruby-RCE-CVE-2019-5420-) :  ![starts](https://img.shields.io/github/stars/laffray/ruby-RCE-CVE-2019-5420-.svg) ![forks](https://img.shields.io/github/forks/laffray/ruby-RCE-CVE-2019-5420-.svg)
 
