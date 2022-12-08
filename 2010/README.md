@@ -147,8 +147,6 @@
 
 - [https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075](https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075) :  ![starts](https://img.shields.io/github/stars/MFernstrom/OffensivePascal-CVE-2010-2075.svg) ![forks](https://img.shields.io/github/forks/MFernstrom/OffensivePascal-CVE-2010-2075.svg)
 
-- [https://github.com/0bfxgh0st/cve-2010-2075](https://github.com/0bfxgh0st/cve-2010-2075) :  ![starts](https://img.shields.io/github/stars/0bfxgh0st/cve-2010-2075.svg) ![forks](https://img.shields.io/github/forks/0bfxgh0st/cve-2010-2075.svg)
-
 - [https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE) :  ![starts](https://img.shields.io/github/stars/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg) ![forks](https://img.shields.io/github/forks/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg)
 
 ## CVE-2010-1622
