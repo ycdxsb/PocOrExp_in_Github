@@ -34846,9 +34846,9 @@
 
 - [https://github.com/ASRTeam/CVE-2016-5195](https://github.com/ASRTeam/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ASRTeam/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ASRTeam/CVE-2016-5195.svg)
 
-- [https://github.com/th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC) :  ![starts](https://img.shields.io/github/stars/th3-5had0w/DirtyCOW-PoC.svg) ![forks](https://img.shields.io/github/forks/th3-5had0w/DirtyCOW-PoC.svg)
-
 - [https://github.com/titanhp/Dirty-COW-CVE-2016-5195-Testing](https://github.com/titanhp/Dirty-COW-CVE-2016-5195-Testing) :  ![starts](https://img.shields.io/github/stars/titanhp/Dirty-COW-CVE-2016-5195-Testing.svg) ![forks](https://img.shields.io/github/forks/titanhp/Dirty-COW-CVE-2016-5195-Testing.svg)
+
+- [https://github.com/th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC) :  ![starts](https://img.shields.io/github/stars/th3-5had0w/DirtyCOW-PoC.svg) ![forks](https://img.shields.io/github/forks/th3-5had0w/DirtyCOW-PoC.svg)
 
 - [https://github.com/flux10n/dirtycow](https://github.com/flux10n/dirtycow) :  ![starts](https://img.shields.io/github/stars/flux10n/dirtycow.svg) ![forks](https://img.shields.io/github/forks/flux10n/dirtycow.svg)
 
@@ -34858,11 +34858,11 @@
 
 - [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
 
+- [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
+
 - [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
 
 - [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
-
-- [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
 
 - [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
 
@@ -35329,6 +35329,13 @@
 - [https://github.com/vah13/SAP_exploit](https://github.com/vah13/SAP_exploit) :  ![starts](https://img.shields.io/github/stars/vah13/SAP_exploit.svg) ![forks](https://img.shields.io/github/forks/vah13/SAP_exploit.svg)
 
 - [https://github.com/murataydemir/CVE-2016-2386](https://github.com/murataydemir/CVE-2016-2386) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2016-2386.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2016-2386.svg)
+
+## CVE-2016-2338
+ An exploitable heap overflow vulnerability exists in the Psych::Emitter start_document function of Ruby. In Psych::Emitter start_document function heap buffer &quot;head&quot; allocation is made based on tags array length. Specially constructed object passed as element of tags array can increase this array size after mentioned allocation and cause heap overflow.
+
+
+
+- [https://github.com/SpiralBL0CK/CVE-2016-2338-nday](https://github.com/SpiralBL0CK/CVE-2016-2338-nday) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/CVE-2016-2338-nday.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/CVE-2016-2338-nday.svg)
 
 ## CVE-2016-2334
  Heap-based buffer overflow in the NArchive::NHfs::CHandler::ExtractZlibFile method in 7zip before 16.00 and p7zip allows remote attackers to execute arbitrary code via a crafted HFS+ image.
