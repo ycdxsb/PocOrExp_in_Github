@@ -38677,6 +38677,8 @@
 
 
 
+- [https://github.com/Live-Hack-CVE/CVE-2012-4681](https://github.com/Live-Hack-CVE/CVE-2012-4681) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4681.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4681.svg)
+
 - [https://github.com/benjholla/CVE-2012-4681-Armoring](https://github.com/benjholla/CVE-2012-4681-Armoring) :  ![starts](https://img.shields.io/github/stars/benjholla/CVE-2012-4681-Armoring.svg) ![forks](https://img.shields.io/github/forks/benjholla/CVE-2012-4681-Armoring.svg)
 
 - [https://github.com/ZH3FENG/PoCs-CVE_2012_4681](https://github.com/ZH3FENG/PoCs-CVE_2012_4681) :  ![starts](https://img.shields.io/github/stars/ZH3FENG/PoCs-CVE_2012_4681.svg) ![forks](https://img.shields.io/github/forks/ZH3FENG/PoCs-CVE_2012_4681.svg)
