@@ -38123,12 +38123,35 @@
 
 - [https://github.com/milo2012/CVE-2013-6117](https://github.com/milo2012/CVE-2013-6117) :  ![starts](https://img.shields.io/github/stars/milo2012/CVE-2013-6117.svg) ![forks](https://img.shields.io/github/forks/milo2012/CVE-2013-6117.svg)
 
+## CVE-2013-5843
+ Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JavaFX 2.2.40 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-5843](https://github.com/Live-Hack-CVE/CVE-2013-5843) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-5843.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-5843.svg)
+
 ## CVE-2013-5842
  Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries, a different vulnerability than CVE-2013-5850.
 
 
 
 - [https://github.com/guhe120/CVE-2013-5842](https://github.com/guhe120/CVE-2013-5842) :  ![starts](https://img.shields.io/github/stars/guhe120/CVE-2013-5842.svg) ![forks](https://img.shields.io/github/forks/guhe120/CVE-2013-5842.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-5842](https://github.com/Live-Hack-CVE/CVE-2013-5842) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-5842.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-5842.svg)
+
+## CVE-2013-5830
+ Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JRockit R28.2.8 and earlier, JRockit R27.7.6 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-5830](https://github.com/Live-Hack-CVE/CVE-2013-5830) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-5830.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-5830.svg)
+
+## CVE-2013-5829
+ Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D, a different vulnerability than CVE-2013-5809.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-5829](https://github.com/Live-Hack-CVE/CVE-2013-5829) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-5829.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-5829.svg)
 
 ## CVE-2013-5664
  Cross-site scripting (XSS) vulnerability in the web-based device-management API browser in Palo Alto Networks PAN-OS before 4.1.13 and 5.0.x before 5.0.6 allows remote attackers to inject arbitrary web script or HTML via crafted data, aka Ref ID 50908.
@@ -38442,6 +38465,13 @@
 
 - [https://github.com/vlad902/annotated-fbi-tbb-exploit](https://github.com/vlad902/annotated-fbi-tbb-exploit) :  ![starts](https://img.shields.io/github/stars/vlad902/annotated-fbi-tbb-exploit.svg) ![forks](https://img.shields.io/github/forks/vlad902/annotated-fbi-tbb-exploit.svg)
 
+## CVE-2013-1620
+ The TLS implementation in Mozilla Network Security Services (NSS) does not properly consider timing side-channel attacks on a noncompliant MAC check operation during the processing of malformed CBC padding, which allows remote attackers to conduct distinguishing attacks and plaintext-recovery attacks via statistical analysis of timing data for crafted packets, a related issue to CVE-2013-0169.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-1620](https://github.com/Live-Hack-CVE/CVE-2013-1620) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1620.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1620.svg)
+
 ## CVE-2013-1491
  The Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier, 6 Update 43 and earlier, 5.0 Update 41 and earlier, and JavaFX 2.2.7 and earlier allows remote attackers to execute arbitrary code via vectors related to 2D, as demonstrated by Joshua Drake during a Pwn2Own competition at CanSecWest 2013.
 
@@ -38469,6 +38499,13 @@
 
 
 - [https://github.com/steponequit/CVE-2013-1081](https://github.com/steponequit/CVE-2013-1081) :  ![starts](https://img.shields.io/github/stars/steponequit/CVE-2013-1081.svg) ![forks](https://img.shields.io/github/forks/steponequit/CVE-2013-1081.svg)
+
+## CVE-2013-0791
+ The CERT_DecodeCertPackage function in Mozilla Network Security Services (NSS), as used in Mozilla Firefox before 20.0, Firefox ESR 17.x before 17.0.5, Thunderbird before 17.0.5, Thunderbird ESR 17.x before 17.0.5, SeaMonkey before 2.17, and other products, allows remote attackers to cause a denial of service (out-of-bounds read and memory corruption) via a crafted certificate.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0791](https://github.com/Live-Hack-CVE/CVE-2013-0791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0791.svg)
 
 ## CVE-2013-0333
  lib/active_support/json/backends/yaml.rb in Ruby on Rails 2.3.x before 2.3.16 and 3.0.x before 3.0.20 does not properly convert JSON data to YAML data for processing by a YAML parser, which allows remote attackers to execute arbitrary code, conduct SQL injection attacks, or bypass authentication via crafted data that triggers unsafe decoding, a different vulnerability than CVE-2013-0156.
