@@ -134,9 +134,9 @@
 
 
 
-- [https://github.com/war4uthor/CVE-2009-1330](https://github.com/war4uthor/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2009-1330.svg)
-
 - [https://github.com/adenkiewicz/CVE-2009-1330](https://github.com/adenkiewicz/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2009-1330.svg)
+
+- [https://github.com/war4uthor/CVE-2009-1330](https://github.com/war4uthor/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2009-1330.svg)
 
 - [https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter](https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter) :  ![starts](https://img.shields.io/github/stars/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter.svg) ![forks](https://img.shields.io/github/forks/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter.svg)
 
@@ -161,12 +161,40 @@
 
 - [https://github.com/pagvac/pocs](https://github.com/pagvac/pocs) :  ![starts](https://img.shields.io/github/stars/pagvac/pocs.svg) ![forks](https://img.shields.io/github/forks/pagvac/pocs.svg)
 
+## CVE-2009-1143
+ An issue was discovered in open-vm-tools 2009.03.18-154848. Local users can bypass intended access restrictions on mounting shares via a symlink attack that leverages a realpath race condition in mount.vmhgfs (aka hgfsmounter).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-1143](https://github.com/Live-Hack-CVE/CVE-2009-1143) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1143.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1143.svg)
+
+## CVE-2009-1142
+ An issue was discovered in open-vm-tools 2009.03.18-154848. Local users can gain privileges via a symlink attack on /tmp files if vmware-user-suid-wrapper is setuid root and the ChmodChownDirectory function is enabled.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-1142](https://github.com/Live-Hack-CVE/CVE-2009-1142) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1142.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1142.svg)
+
+## CVE-2009-0855
+ Cross-site scripting (XSS) vulnerability in the administrative console in IBM WebSphere Application Server (WAS) 6.1 before 6.1.0.23 on z/OS allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-0855](https://github.com/Live-Hack-CVE/CVE-2009-0855) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-0855.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-0855.svg)
+
 ## CVE-2009-0689
  Array index error in the (1) dtoa implementation in dtoa.c (aka pdtoa.c) and the (2) gdtoa (aka new dtoa) implementation in gdtoa/misc.c in libc, as used in multiple operating systems and products including in FreeBSD 6.4 and 7.2, NetBSD 5.0, OpenBSD 4.5, Mozilla Firefox 3.0.x before 3.0.15 and 3.5.x before 3.5.4, K-Meleon 1.5.3, SeaMonkey 1.1.8, and other products, allows context-dependent attackers to cause a denial of service (application crash) and possibly execute arbitrary code via a large precision value in the format argument to a printf function, which triggers incorrect memory allocation and a heap-based buffer overflow during conversion to a floating-point number.
 
 
 
 - [https://github.com/Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax) :  ![starts](https://img.shields.io/github/stars/Fullmetal5/str2hax.svg) ![forks](https://img.shields.io/github/forks/Fullmetal5/str2hax.svg)
+
+## CVE-2009-0586
+ Integer overflow in the gst_vorbis_tag_add_coverart function (gst-libs/gst/tag/gstvorbistag.c) in vorbistag in gst-plugins-base (aka gstreamer-plugins-base) before 0.10.23 in GStreamer allows context-dependent attackers to execute arbitrary code via a crafted COVERART tag that is converted from a base64 representation, which triggers a heap-based buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-0586](https://github.com/Live-Hack-CVE/CVE-2009-0586) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-0586.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-0586.svg)
 
 ## CVE-2009-0473
  Open redirect vulnerability in the web interface in the Rockwell Automation ControlLogix 1756-ENBT/A EtherNet/IP Bridge Module allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.
