@@ -23,6 +23,27 @@
 
 - [https://github.com/lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862) :  ![starts](https://img.shields.io/github/stars/lol-fi/cve-2011-4862.svg) ![forks](https://img.shields.io/github/forks/lol-fi/cve-2011-4862.svg)
 
+## CVE-2011-4814
+ Multiple cross-site scripting (XSS) vulnerabilities in Dolibarr 3.1.0 RC and probably earlier allow remote attackers to inject arbitrary web script or HTML via the PATH_INFO to (1) index.php, (2) admin/boxes.php, (3) comm/clients.php, (4) commande/index.php; and the optioncss parameter to (5) admin/ihm.php and (6) user/home.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-4814](https://github.com/Live-Hack-CVE/CVE-2011-4814) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-4814.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-4814.svg)
+
+## CVE-2011-4802
+ Multiple SQL injection vulnerabilities in Dolibarr 3.1.0 RC and probably earlier allow remote authenticated users to execute arbitrary SQL commands via the (1) sortfield, (2) sortorder, and (3) sall parameters to user/index.php and (b) user/group/index.php; the id parameter to (4) info.php, (5) perms.php, (6) param_ihm.php, (7) note.php, and (8) fiche.php in user/; and (9) rowid parameter to admin/boxes.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-4802](https://github.com/Live-Hack-CVE/CVE-2011-4802) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-4802.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-4802.svg)
+
+## CVE-2011-4329
+ Multiple cross-site scripting (XSS) vulnerabilities in Dolibarr 3.1.0 allow remote attackers to inject arbitrary web script or HTML via (1) the username parameter in a setup action to admin/company.php, or the PATH_INFO to (2) admin/security_other.php, (3) admin/events.php, or (4) admin/user.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-4329](https://github.com/Live-Hack-CVE/CVE-2011-4329) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-4329.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-4329.svg)
+
 ## CVE-2011-4107
  The simplexml_load_string function in the XML import plug-in (libraries/import/xml.php) in phpMyAdmin 3.4.x before 3.4.7.1 and 3.3.x before 3.3.10.5 allows remote authenticated users to read arbitrary files via XML data containing external entity references, aka an XML external entity (XXE) injection attack.
 
@@ -50,6 +71,8 @@
 
 
 - [https://github.com/mpgn/BEAST-PoC](https://github.com/mpgn/BEAST-PoC) :  ![starts](https://img.shields.io/github/stars/mpgn/BEAST-PoC.svg) ![forks](https://img.shields.io/github/forks/mpgn/BEAST-PoC.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-3389](https://github.com/Live-Hack-CVE/CVE-2011-3389) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-3389.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-3389.svg)
 
 ## CVE-2011-3368
  The mod_proxy module in the Apache HTTP Server 1.3.x through 1.3.42, 2.0.x through 2.0.64, and 2.2.x through 2.2.21 does not properly interact with use of (1) RewriteRule and (2) ProxyPassMatch pattern matches for configuration of a reverse proxy, which allows remote attackers to send requests to intranet servers via a malformed URI containing an initial @ (at sign) character.
