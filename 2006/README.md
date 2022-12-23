@@ -52,6 +52,13 @@
 
 - [https://github.com/gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin) :  ![starts](https://img.shields.io/github/stars/gb21oc/ExploitWebmin.svg) ![forks](https://img.shields.io/github/forks/gb21oc/ExploitWebmin.svg)
 
+## CVE-2006-3240
+ Cross-site scripting (XSS) vulnerability in classes/ui.class.php in dotProject 2.0.3 and earlier allows remote attackers to inject arbitrary web script or HTML via the login parameter.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2006-3240](https://github.com/Live-Hack-CVE/CVE-2006-3240) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2006-3240.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2006-3240.svg)
+
 ## CVE-2006-1236
  Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
 
