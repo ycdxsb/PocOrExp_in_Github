@@ -436,15 +436,15 @@
 
 - [https://github.com/vnik5287/CVE-2017-16995](https://github.com/vnik5287/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/vnik5287/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/vnik5287/CVE-2017-16995.svg)
 
-- [https://github.com/littlebin404/CVE-2017-16995](https://github.com/littlebin404/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/littlebin404/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/littlebin404/CVE-2017-16995.svg)
-
 - [https://github.com/senyuuri/cve-2017-16995](https://github.com/senyuuri/cve-2017-16995) :  ![starts](https://img.shields.io/github/stars/senyuuri/cve-2017-16995.svg) ![forks](https://img.shields.io/github/forks/senyuuri/cve-2017-16995.svg)
+
+- [https://github.com/littlebin404/CVE-2017-16995](https://github.com/littlebin404/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/littlebin404/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/littlebin404/CVE-2017-16995.svg)
 
 - [https://github.com/C0dak/CVE-2017-16995](https://github.com/C0dak/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/C0dak/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/C0dak/CVE-2017-16995.svg)
 
-- [https://github.com/ivilpez/cve-2017-16995.c](https://github.com/ivilpez/cve-2017-16995.c) :  ![starts](https://img.shields.io/github/stars/ivilpez/cve-2017-16995.c.svg) ![forks](https://img.shields.io/github/forks/ivilpez/cve-2017-16995.c.svg)
-
 - [https://github.com/fei9747/CVE-2017-16995](https://github.com/fei9747/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2017-16995.svg)
+
+- [https://github.com/ivilpez/cve-2017-16995.c](https://github.com/ivilpez/cve-2017-16995.c) :  ![starts](https://img.shields.io/github/stars/ivilpez/cve-2017-16995.c.svg) ![forks](https://img.shields.io/github/forks/ivilpez/cve-2017-16995.c.svg)
 
 - [https://github.com/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-](https://github.com/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-) :  ![starts](https://img.shields.io/github/stars/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-.svg) ![forks](https://img.shields.io/github/forks/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-.svg)
 
@@ -563,6 +563,111 @@
 
 
 - [https://github.com/realistic-security/CVE-2017-16524](https://github.com/realistic-security/CVE-2017-16524) :  ![starts](https://img.shields.io/github/stars/realistic-security/CVE-2017-16524.svg) ![forks](https://img.shields.io/github/forks/realistic-security/CVE-2017-16524.svg)
+
+## CVE-2017-16347
+ An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01e7d4 the value for the s_vol key is copied using strcpy to the buffer at 0xa0001700. This buffer is maximum 12 bytes large (this is the maximum size it could be, it is possible other global variables are stored between this variable and the next one that we could identify), sending anything longer will cause a buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16347](https://github.com/Live-Hack-CVE/CVE-2017-16347) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16347.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16347.svg)
+
+## CVE-2017-16346
+ An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c368 the value for the s_mac key is copied using strcpy to the buffer at 0xa000170c. This buffer is 25 bytes large, sending anything longer will cause a buffer overflow. The destination can also be shifted by using an sn_speaker parameter between &quot;0&quot; and &quot;3&quot;.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16346](https://github.com/Live-Hack-CVE/CVE-2017-16346) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16346.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16346.svg)
+
+## CVE-2017-16345
+ An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c318 the value for the s_port key is copied using strcpy to the buffer at 0xa00017f4. This buffer is 6 bytes large, sending anything longer will cause a buffer overflow. The destination can also be shifted by using an sn_speaker parameter between &quot;0&quot; and &quot;3&quot;.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16345](https://github.com/Live-Hack-CVE/CVE-2017-16345) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16345.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16345.svg)
+
+## CVE-2017-16344
+ An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c2c8 the value for the s_url key is copied using strcpy to the buffer at 0xa0001a0c. This buffer is 16 bytes large, sending anything longer will cause a buffer overflow. The destination can also be shifted by using an sn_speaker parameter between &quot;0&quot; and &quot;3&quot;.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16344](https://github.com/Live-Hack-CVE/CVE-2017-16344) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16344.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16344.svg)
+
+## CVE-2017-16343
+ An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c284 the value for the s_vol_brt_delta key is copied using strcpy to the buffer at 0xa0000510. This buffer is 4 bytes large, sending anything longer will cause a buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16343](https://github.com/Live-Hack-CVE/CVE-2017-16343) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16343.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16343.svg)
+
+## CVE-2017-16342
+ An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c254 the value for the s_vol_dim_delta key is copied using strcpy to the buffer at 0xa0000514. This buffer is 4 bytes large, sending anything longer will cause a buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16342](https://github.com/Live-Hack-CVE/CVE-2017-16342) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16342.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16342.svg)
+
+## CVE-2017-16341
+ An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c224 the value for the s_vol_play key is copied using strcpy to the buffer at 0xa0000418. This buffer is maximum 8 bytes large (this is the maximum size it could be, it is possible other global variables are stored between this variable and the next one that we could identify), sending anything longer will cause a buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16341](https://github.com/Live-Hack-CVE/CVE-2017-16341) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16341.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16341.svg)
+
+## CVE-2017-16340
+ An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c0e8 the value for the s_dport key is copied using strcpy to the buffer at 0xa000180c. This buffer is 6 bytes large, sending anything longer will cause a buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16340](https://github.com/Live-Hack-CVE/CVE-2017-16340) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16340.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16340.svg)
+
+## CVE-2017-16339
+ An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01bb1c the value for the uri key is copied using strcpy to the buffer at 0xa00016a0. This buffer is 64 bytes large, sending anything longer will cause a buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16339](https://github.com/Live-Hack-CVE/CVE-2017-16339) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16339.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16339.svg)
+
+## CVE-2017-16338
+ An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01bad0 the value for the host key is copied using strcpy to the buffer at 0xa00016e0. This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16338](https://github.com/Live-Hack-CVE/CVE-2017-16338) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16338.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16338.svg)
+
+## CVE-2017-16337
+ On Insteon Hub 2245-222 devices with firmware version 1012, specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. At 0x9d01ef24 the value for the s_offset key is copied using strcpy to the buffer at $sp+0x2b0. This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16337](https://github.com/Live-Hack-CVE/CVE-2017-16337) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16337.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16337.svg)
+
+## CVE-2017-16255
+ An exploitable buffer overflow vulnerability exists in the PubNub message handler Insteon Hub 2245-222 - Firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker can send an authenticated HTTP request at At 0x9d014e84 the value for the cmd1 key is copied using strcpy to the buffer at $sp+0x280. This buffer is 16 bytes large.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16255](https://github.com/Live-Hack-CVE/CVE-2017-16255) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16255.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16255.svg)
+
+## CVE-2017-16254
+ An exploitable buffer overflow vulnerability exists in the PubNub message handler Insteon Hub 2245-222 - Firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker can send an authenticated HTTP request at 0x9d014e4c the value for the flg key is copied using strcpy to the buffer at $sp+0x270. This buffer is 16 bytes large, sending anything longer will cause a buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16254](https://github.com/Live-Hack-CVE/CVE-2017-16254) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16254.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16254.svg)
+
+## CVE-2017-16253
+ An exploitable buffer overflow vulnerability exists in the PubNub message handler Insteon Hub 2245-222 - Firmware version 1012 for the cc channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker can send an authenticated HTTP request At 0x9d014dd8 the value for the id key is copied using strcpy to the buffer at $sp+0x290. This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16253](https://github.com/Live-Hack-CVE/CVE-2017-16253) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16253.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16253.svg)
+
+## CVE-2017-16252
+ Specially crafted commands sent through the PubNub service in Insteon Hub 2245-222 with firmware version 1012 can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability.At 0x9d014cc0 the value for the cmd key is copied using strcpy to the buffer at $sp+0x11c. This buffer is 20 bytes large, sending anything longer will cause a buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16252](https://github.com/Live-Hack-CVE/CVE-2017-16252) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16252.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16252.svg)
 
 ## CVE-2017-16245
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
@@ -808,6 +913,13 @@
 
 - [https://github.com/yukar1z0e/CVE-2017-15944](https://github.com/yukar1z0e/CVE-2017-15944) :  ![starts](https://img.shields.io/github/stars/yukar1z0e/CVE-2017-15944.svg) ![forks](https://img.shields.io/github/forks/yukar1z0e/CVE-2017-15944.svg)
 
+## CVE-2017-15906
+ The process_open function in sftp-server.c in OpenSSH before 7.6 does not properly prevent write operations in readonly mode, which allows attackers to create zero-length files.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-15906](https://github.com/Live-Hack-CVE/CVE-2017-15906) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-15906.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-15906.svg)
+
 ## CVE-2017-15715
  In Apache httpd 2.4.0 to 2.4.29, the expression specified in &lt;FilesMatch&gt; could match '$' to a newline character in a malicious filename, rather than matching only the end of the filename. This could be exploited in environments where uploads of some files are are externally blocked, but only by matching the trailing portion of the filename.
 
@@ -934,6 +1046,216 @@
 
 - [https://github.com/skyformat99/dnsmasq-2.4.1-fix-CVE-2017-14491](https://github.com/skyformat99/dnsmasq-2.4.1-fix-CVE-2017-14491) :  ![starts](https://img.shields.io/github/stars/skyformat99/dnsmasq-2.4.1-fix-CVE-2017-14491.svg) ![forks](https://img.shields.io/github/forks/skyformat99/dnsmasq-2.4.1-fix-CVE-2017-14491.svg)
 
+## CVE-2017-14481
+ In the MMM::Agent::Helpers::Network::send_arp function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Solaris), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14481](https://github.com/Live-Hack-CVE/CVE-2017-14481) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14481.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14481.svg)
+
+## CVE-2017-14480
+ In the MMM::Agent::Helpers::Network::clear_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for FreeBSD), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14480](https://github.com/Live-Hack-CVE/CVE-2017-14480) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14480.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14480.svg)
+
+## CVE-2017-14479
+ In the MMM::Agent::Helpers::Network::clear_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Solaris), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14479](https://github.com/Live-Hack-CVE/CVE-2017-14479) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14479.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14479.svg)
+
+## CVE-2017-14478
+ In the MMM::Agent::Helpers::Network::clear_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Linux), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14478](https://github.com/Live-Hack-CVE/CVE-2017-14478) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14478.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14478.svg)
+
+## CVE-2017-14477
+ In the MMM::Agent::Helpers::Network::add_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for FreeBSD), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14477](https://github.com/Live-Hack-CVE/CVE-2017-14477) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14477.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14477.svg)
+
+## CVE-2017-14476
+ In the MMM::Agent::Helpers::Network::add_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Solaris), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14476](https://github.com/Live-Hack-CVE/CVE-2017-14476) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14476.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14476.svg)
+
+## CVE-2017-14475
+ In the MMM::Agent::Helpers::Network::add_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Linux), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14475](https://github.com/Live-Hack-CVE/CVE-2017-14475) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14475.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14475.svg)
+
+## CVE-2017-14474
+ In the MMM::Agent::Helpers::_execute function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1, a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14474](https://github.com/Live-Hack-CVE/CVE-2017-14474) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14474.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14474.svg)
+
+## CVE-2017-14468
+ An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability. Required Keyswitch State: REMOTE or PROG Description: This ability is leveraged in a larger exploit to flash custom firmware.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14468](https://github.com/Live-Hack-CVE/CVE-2017-14468) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14468.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14468.svg)
+
+## CVE-2017-14467
+ An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability. Required Keyswitch State: REMOTE Description: Live rung edits are able to be made by an unauthenticated user allowing for addition, deletion, or modification of existing ladder logic. Additionally, faults and cpu state modification can be triggered if specific ladder logic is used.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14467](https://github.com/Live-Hack-CVE/CVE-2017-14467) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14467.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14467.svg)
+
+## CVE-2017-14466
+ An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability. Required Keyswitch State: REMOTE or PROG Description: The filetype 0x03 allows users write access, allowing the ability to overwrite the Master Password value stored in the file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14466](https://github.com/Live-Hack-CVE/CVE-2017-14466) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14466.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14466.svg)
+
+## CVE-2017-14465
+ An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability. Required Keyswitch State: REMOTE Description: Any input or output can be forced, causing unpredictable activity from the PLC.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14465](https://github.com/Live-Hack-CVE/CVE-2017-14465) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14465.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14465.svg)
+
+## CVE-2017-14464
+ An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability.Required Keyswitch State: REMOTE or PROG Associated Fault Code: 0001 Fault Type: Non-User Description: A fault state can be triggered by setting the NVRAM/memory module user program mismatch bit (S2:9) when a memory module is NOT installed.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14464](https://github.com/Live-Hack-CVE/CVE-2017-14464) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14464.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14464.svg)
+
+## CVE-2017-14463
+ An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability. Required Keyswitch State: REMOTE or PROG Associated Fault Code: 0012 Fault Type: Non-User Description: A fault state can be triggered by overwriting the ladder logic data file (type 0x22 number 0x02) with null values.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14463](https://github.com/Live-Hack-CVE/CVE-2017-14463) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14463.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14463.svg)
+
+## CVE-2017-14462
+ An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability. Required Keyswitch State: REMOTE or PROG (also RUN for some) Description: Allows an attacker to enable SNMP, Modbus, DNP, and any other features in the channel configuration. Also allows attackers to change network parameters, such as IP address, name server, and domain name.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14462](https://github.com/Live-Hack-CVE/CVE-2017-14462) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14462.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14462.svg)
+
+## CVE-2017-14446
+ An exploitable stack-based buffer overflow vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation unsafely extracts parameters from the query string, leading to a buffer overflow on the stack. An attacker can send an HTTP GET request to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14446](https://github.com/Live-Hack-CVE/CVE-2017-14446) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14446.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14446.svg)
+
+## CVE-2017-14445
+ An exploitable buffer overflow vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation incorrectly handles the host parameter during a firmware update request, leading to a buffer overflow on a global section. An attacker can send an HTTP GET request to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14445](https://github.com/Live-Hack-CVE/CVE-2017-14445) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14445.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14445.svg)
+
+## CVE-2017-14444
+ An exploitable buffer overflow vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation incorrectly handles the URL parameter during a firmware update request, leading to a buffer overflow on a global section. An attacker can send an HTTP GET request to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14444](https://github.com/Live-Hack-CVE/CVE-2017-14444) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14444.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14444.svg)
+
+## CVE-2017-14443
+ An exploitable information leak vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation incorrectly checks the number of GET parameters supplied, leading to an arbitrarily controlled information leak on the whole device memory. An attacker can send an authenticated HTTP request to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14443](https://github.com/Live-Hack-CVE/CVE-2017-14443) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14443.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14443.svg)
+
+## CVE-2017-14442
+ An exploitable code execution vulnerability exists in the BMP image rendering functionality of SDL2_image-2.0.2. A specially crafted BMP image can cause a stack overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14442](https://github.com/Live-Hack-CVE/CVE-2017-14442) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14442.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14442.svg)
+
+## CVE-2017-14441
+ An exploitable code execution vulnerability exists in the ICO image rendering functionality of SDL2_image-2.0.2. A specially crafted ICO image can cause an integer overflow, cascading to a heap overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14441](https://github.com/Live-Hack-CVE/CVE-2017-14441) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14441.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14441.svg)
+
+## CVE-2017-14440
+ An exploitable code execution vulnerability exists in the ILBM image rendering functionality of SDL2_image-2.0.2. A specially crafted ILBM image can cause a stack overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14440](https://github.com/Live-Hack-CVE/CVE-2017-14440) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14440.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14440.svg)
+
+## CVE-2017-14439
+ Exploitable denial of service vulnerabilities exists in the Service Agent functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted packet can cause a denial of service. An attacker can send a large packet to 4001/tcp to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14439](https://github.com/Live-Hack-CVE/CVE-2017-14439) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14439.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14439.svg)
+
+## CVE-2017-14438
+ Exploitable denial of service vulnerabilities exists in the Service Agent functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted packet can cause a denial of service. An attacker can send a large packet to 4000/tcp to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14438](https://github.com/Live-Hack-CVE/CVE-2017-14438) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14438.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14438.svg)
+
+## CVE-2017-14437
+ An exploitable denial of service vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP URI can cause a null pointer dereference resulting in denial of service. An attacker can send a GET request to &quot;/MOXA\_LOG.ini&quot; without a cookie header to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14437](https://github.com/Live-Hack-CVE/CVE-2017-14437) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14437.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14437.svg)
+
+## CVE-2017-14436
+ An exploitable denial of service vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP URI can cause a null pointer dereference resulting in denial of service. An attacker can send a GET request to &quot;/MOXA\_CFG2.ini&quot; without a cookie header to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14436](https://github.com/Live-Hack-CVE/CVE-2017-14436) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14436.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14436.svg)
+
+## CVE-2017-14435
+ An exploitable denial of service vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP URI can cause a null pointer dereference resulting in denial of service. An attacker can send a GET request to &quot;/MOXA\_CFG.ini&quot; without a cookie header to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14435](https://github.com/Live-Hack-CVE/CVE-2017-14435) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14435.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14435.svg)
+
+## CVE-2017-14434
+ An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the remoteNetmask0= parameter in the &quot;/goform/net\_Web\_get_value&quot; uri to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14434](https://github.com/Live-Hack-CVE/CVE-2017-14434) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14434.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14434.svg)
+
+## CVE-2017-14433
+ An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the remoteNetwork0= parameter in the &quot;/goform/net\_Web\_get_value&quot; uri to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14433](https://github.com/Live-Hack-CVE/CVE-2017-14433) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14433.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14433.svg)
+
+## CVE-2017-14432
+ An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the openvpnServer0_tmp= parameter in the &quot;/goform/net\_Web\_get_value&quot; uri to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14432](https://github.com/Live-Hack-CVE/CVE-2017-14432) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14432.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14432.svg)
+
 ## CVE-2017-14322
  The function in charge to check whether the user is already logged in init.php in Interspire Email Marketer (IEM) prior to 6.1.6 allows remote attackers to bypass authentication and obtain administrative access by using the IEM_CookieLogin cookie with a specially crafted value.
 
@@ -989,6 +1311,27 @@
 
 
 - [https://github.com/bazad/ctl_ctloutput-leak](https://github.com/bazad/ctl_ctloutput-leak) :  ![starts](https://img.shields.io/github/stars/bazad/ctl_ctloutput-leak.svg) ![forks](https://img.shields.io/github/forks/bazad/ctl_ctloutput-leak.svg)
+
+## CVE-2017-13760
+ In The Sleuth Kit (TSK) 4.4.2, fls hangs on a corrupt exfat image in tsk_img_read() in tsk/img/img_io.c in libtskimg.a.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-13760](https://github.com/Live-Hack-CVE/CVE-2017-13760) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-13760.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-13760.svg)
+
+## CVE-2017-13756
+ In The Sleuth Kit (TSK) 4.4.2, opening a crafted disk image triggers infinite recursion in dos_load_ext_table() in tsk/vs/dos.c in libtskvs.a, as demonstrated by mmls.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-13756](https://github.com/Live-Hack-CVE/CVE-2017-13756) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-13756.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-13756.svg)
+
+## CVE-2017-13755
+ In The Sleuth Kit (TSK) 4.4.2, opening a crafted ISO 9660 image triggers an out-of-bounds read in iso9660_proc_dir() in tsk/fs/iso9660_dent.c in libtskfs.a, as demonstrated by fls.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-13755](https://github.com/Live-Hack-CVE/CVE-2017-13755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-13755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-13755.svg)
 
 ## CVE-2017-13672
  QEMU (aka Quick Emulator), when built with the VGA display emulator support, allows local guest OS privileged users to cause a denial of service (out-of-bounds read and QEMU process crash) via vectors involving display update.
@@ -1170,6 +1513,13 @@
 
 - [https://github.com/brianwrf/S2-053-CVE-2017-12611](https://github.com/brianwrf/S2-053-CVE-2017-12611) :  ![starts](https://img.shields.io/github/stars/brianwrf/S2-053-CVE-2017-12611.svg) ![forks](https://img.shields.io/github/forks/brianwrf/S2-053-CVE-2017-12611.svg)
 
+## CVE-2017-12562
+ Heap-based Buffer Overflow in the psf_binheader_writef function in common.c in libsndfile through 1.0.28 allows remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12562](https://github.com/Live-Hack-CVE/CVE-2017-12562) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12562.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12562.svg)
+
 ## CVE-2017-12561
  A remote code execution vulnerability in HPE intelligent Management Center (iMC) PLAT version Plat 7.3 E0504P4 and earlier was found.
 
@@ -1209,6 +1559,139 @@
 - [https://github.com/VVeakee/CVE-2017-12149](https://github.com/VVeakee/CVE-2017-12149) :  ![starts](https://img.shields.io/github/stars/VVeakee/CVE-2017-12149.svg) ![forks](https://img.shields.io/github/forks/VVeakee/CVE-2017-12149.svg)
 
 - [https://github.com/Xcatolin/jboss-deserialization](https://github.com/Xcatolin/jboss-deserialization) :  ![starts](https://img.shields.io/github/stars/Xcatolin/jboss-deserialization.svg) ![forks](https://img.shields.io/github/forks/Xcatolin/jboss-deserialization.svg)
+
+## CVE-2017-12130
+ An exploitable NULL pointer dereference vulnerability exists in the tinysvcmdns library version 2017-11-05. A specially crafted packet can make the library dereference a NULL pointer leading to a server crash and denial of service. An attacker needs to send a DNS query to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12130](https://github.com/Live-Hack-CVE/CVE-2017-12130) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12130.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12130.svg)
+
+## CVE-2017-12129
+ An exploitable Weak Cryptography for Passwords vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. An attacker could intercept weakly encrypted passwords and could brute force them.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12129](https://github.com/Live-Hack-CVE/CVE-2017-12129) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12129.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12129.svg)
+
+## CVE-2017-12128
+ An exploitable information disclosure vulnerability exists in the Server Agent functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted TCP packet can cause information disclosure. An attacker can send a crafted TCP packet to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12128](https://github.com/Live-Hack-CVE/CVE-2017-12128) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12128.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12128.svg)
+
+## CVE-2017-12127
+ A password storage vulnerability exists in the operating system functionality of Moxa EDR-810 V4.1 build 17030317. An attacker with shell access could extract passwords in clear text from the device.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12127](https://github.com/Live-Hack-CVE/CVE-2017-12127) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12127.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12127.svg)
+
+## CVE-2017-12126
+ An exploitable cross-site request forgery vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP packet can cause cross-site request forgery. An attacker can create malicious HTML to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12126](https://github.com/Live-Hack-CVE/CVE-2017-12126) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12126.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12126.svg)
+
+## CVE-2017-12125
+ An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the CN= parm in the &quot;/goform/net_WebCSRGen&quot; uri to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12125](https://github.com/Live-Hack-CVE/CVE-2017-12125) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12125.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12125.svg)
+
+## CVE-2017-12124
+ An exploitable denial of service vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP URI can cause a null pointer dereference resulting in the web server crashing. An attacker can send a crafted URI to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12124](https://github.com/Live-Hack-CVE/CVE-2017-12124) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12124.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12124.svg)
+
+## CVE-2017-12123
+ An exploitable clear text transmission of password vulnerability exists in the web server and telnet functionality of Moxa EDR-810 V4.1 build 17030317. An attacker can look at network traffic to get the admin password for the device. The attacker can then use the credentials to login as admin.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12123](https://github.com/Live-Hack-CVE/CVE-2017-12123) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12123.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12123.svg)
+
+## CVE-2017-12122
+ An exploitable code execution vulnerability exists in the ILBM image rendering functionality of SDL2_image-2.0.2. A specially crafted ILBM image can cause a heap overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12122](https://github.com/Live-Hack-CVE/CVE-2017-12122) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12122.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12122.svg)
+
+## CVE-2017-12121
+ An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the rsakey\_name= parm in the &quot;/goform/WebRSAKEYGen&quot; uri to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12121](https://github.com/Live-Hack-CVE/CVE-2017-12121) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12121.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12121.svg)
+
+## CVE-2017-12120
+ An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation, resulting in a root shell. An attacker can inject OS commands into the ip= parm in the &quot;/goform/net_WebPingGetValue&quot; URI to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12120](https://github.com/Live-Hack-CVE/CVE-2017-12120) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12120.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12120.svg)
+
+## CVE-2017-12119
+ An exploitable unhandled exception vulnerability exists in multiple APIs of CPP-Ethereum JSON-RPC. Specially crafted JSON requests can cause an unhandled exception resulting in denial of service. An attacker can send malicious JSON to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12119](https://github.com/Live-Hack-CVE/CVE-2017-12119) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12119.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12119.svg)
+
+## CVE-2017-12118
+ An exploitable improper authorization vulnerability exists in miner_stop API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). An attacker can send JSON to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12118](https://github.com/Live-Hack-CVE/CVE-2017-12118) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12118.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12118.svg)
+
+## CVE-2017-12117
+ An exploitable improper authorization vulnerability exists in miner_start API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). A JSON request can cause an access to the restricted functionality resulting in authorization bypass. An attacker can send JSON to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12117](https://github.com/Live-Hack-CVE/CVE-2017-12117) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12117.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12117.svg)
+
+## CVE-2017-12116
+ An exploitable improper authorization vulnerability exists in miner_setGasPrice API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). A JSON request can cause an access to the restricted functionality resulting in authorization bypass. An attacker can send JSON to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12116](https://github.com/Live-Hack-CVE/CVE-2017-12116) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12116.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12116.svg)
+
+## CVE-2017-12115
+ An exploitable improper authorization vulnerability exists in miner_setEtherbase API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). A JSON request can cause an access to the restricted functionality resulting in authorization bypass.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12115](https://github.com/Live-Hack-CVE/CVE-2017-12115) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12115.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12115.svg)
+
+## CVE-2017-12114
+ An exploitable improper authorization vulnerability exists in admin_peers API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). A JSON request can cause an access to the restricted functionality resulting in authorization bypass. An attacker can send JSON to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12114](https://github.com/Live-Hack-CVE/CVE-2017-12114) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12114.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12114.svg)
+
+## CVE-2017-12113
+ An exploitable improper authorization vulnerability exists in admin_nodeInfo API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). A JSON request can cause an access to the restricted functionality resulting in authorization bypass. An attacker can send JSON to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12113](https://github.com/Live-Hack-CVE/CVE-2017-12113) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12113.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12113.svg)
+
+## CVE-2017-12112
+ An exploitable improper authorization vulnerability exists in admin_addPeer API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). A JSON request can cause an access to the restricted functionality resulting in authorization bypass. An attacker can send JSON to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12112](https://github.com/Live-Hack-CVE/CVE-2017-12112) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12112.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12112.svg)
 
 ## CVE-2017-11907
  Internet Explorer in Microsoft Windows 7 SP1, Windows Server 2008 and R2 SP1, Windows 8.1 and Windows RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, 1703, 1709, and Windows Server 2016 allows an attacker to gain the same user rights as the current user, due to how Internet Explorer handles objects in memory, aka &quot;Scripting Engine Memory Corruption Vulnerability&quot;. This CVE ID is unique from CVE-2017-11886, CVE-2017-11889, CVE-2017-11890, CVE-2017-11893, CVE-2017-11894, CVE-2017-11895, CVE-2017-11901, CVE-2017-11903, CVE-2017-11905, CVE-2017-11905, CVE-2017-11908, CVE-2017-11909, CVE-2017-11910, CVE-2017-11911, CVE-2017-11912, CVE-2017-11913, CVE-2017-11914, CVE-2017-11916, CVE-2017-11918, and CVE-2017-11930.
@@ -1268,13 +1751,13 @@
 
 - [https://github.com/tzwlhack/CVE-2017-11882](https://github.com/tzwlhack/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/tzwlhack/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/tzwlhack/CVE-2017-11882.svg)
 
-- [https://github.com/chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/chanbin/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/chanbin/CVE-2017-11882.svg)
-
 - [https://github.com/j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/j0lama/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/j0lama/CVE-2017-11882.svg)
 
-- [https://github.com/likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-11882.svg)
+- [https://github.com/chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/chanbin/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/chanbin/CVE-2017-11882.svg)
 
 - [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
+
+- [https://github.com/likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-11882.svg)
 
 - [https://github.com/HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/HaoJame/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/HaoJame/CVE-2017-11882.svg)
 
@@ -1567,9 +2050,9 @@
 
 - [https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp](https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp) :  ![starts](https://img.shields.io/github/stars/JackyTsuuuy/weblogic_wls_rce_poc-exp.svg) ![forks](https://img.shields.io/github/forks/JackyTsuuuy/weblogic_wls_rce_poc-exp.svg)
 
-- [https://github.com/rambleZzz/weblogic_CVE_2017_10271](https://github.com/rambleZzz/weblogic_CVE_2017_10271) :  ![starts](https://img.shields.io/github/stars/rambleZzz/weblogic_CVE_2017_10271.svg) ![forks](https://img.shields.io/github/forks/rambleZzz/weblogic_CVE_2017_10271.svg)
-
 - [https://github.com/bmcculley/CVE-2017-10271](https://github.com/bmcculley/CVE-2017-10271) :  ![starts](https://img.shields.io/github/stars/bmcculley/CVE-2017-10271.svg) ![forks](https://img.shields.io/github/forks/bmcculley/CVE-2017-10271.svg)
+
+- [https://github.com/rambleZzz/weblogic_CVE_2017_10271](https://github.com/rambleZzz/weblogic_CVE_2017_10271) :  ![starts](https://img.shields.io/github/stars/rambleZzz/weblogic_CVE_2017_10271.svg) ![forks](https://img.shields.io/github/forks/rambleZzz/weblogic_CVE_2017_10271.svg)
 
 - [https://github.com/lonehand/Oracle-WebLogic-CVE-2017-10271-master](https://github.com/lonehand/Oracle-WebLogic-CVE-2017-10271-master) :  ![starts](https://img.shields.io/github/stars/lonehand/Oracle-WebLogic-CVE-2017-10271-master.svg) ![forks](https://img.shields.io/github/forks/lonehand/Oracle-WebLogic-CVE-2017-10271-master.svg)
 
@@ -1625,6 +2108,20 @@
 
 - [https://github.com/xyringe/CVE-2017-9934](https://github.com/xyringe/CVE-2017-9934) :  ![starts](https://img.shields.io/github/stars/xyringe/CVE-2017-9934.svg) ![forks](https://img.shields.io/github/forks/xyringe/CVE-2017-9934.svg)
 
+## CVE-2017-9929
+ In lrzip 0.631, a stack buffer overflow was found in the function get_fileinfo in lrzip.c:1074, which allows attackers to cause a denial of service via a crafted file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-9929](https://github.com/Live-Hack-CVE/CVE-2017-9929) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9929.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9929.svg)
+
+## CVE-2017-9928
+ In lrzip 0.631, a stack buffer overflow was found in the function get_fileinfo in lrzip.c:979, which allows attackers to cause a denial of service via a crafted file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-9928](https://github.com/Live-Hack-CVE/CVE-2017-9928) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9928.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9928.svg)
+
 ## CVE-2017-9841
  Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows remote attackers to execute arbitrary PHP code via HTTP POST data beginning with a &quot;&lt;?php &quot; substring, as demonstrated by an attack on a site with an exposed /vendor folder, i.e., external access to the /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php URI.
 
@@ -1632,7 +2129,7 @@
 
 - [https://github.com/RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/phpunit-brute.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/phpunit-brute.svg)
 
-- [https://github.com/incogbyte/laravel-phpunit-rce-masscaner](https://github.com/incogbyte/laravel-phpunit-rce-masscaner) :  ![starts](https://img.shields.io/github/stars/incogbyte/laravel-phpunit-rce-masscaner.svg) ![forks](https://img.shields.io/github/forks/incogbyte/laravel-phpunit-rce-masscaner.svg)
+- [https://github.com/0xrdf/laravel-phpunit-rce-masscaner](https://github.com/0xrdf/laravel-phpunit-rce-masscaner) :  ![starts](https://img.shields.io/github/stars/0xrdf/laravel-phpunit-rce-masscaner.svg) ![forks](https://img.shields.io/github/forks/0xrdf/laravel-phpunit-rce-masscaner.svg)
 
 - [https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE) :  ![starts](https://img.shields.io/github/stars/ludy-dev/PHPUnit_eval-stdin_RCE.svg) ![forks](https://img.shields.io/github/forks/ludy-dev/PHPUnit_eval-stdin_RCE.svg)
 
@@ -1662,6 +2159,8 @@
 
 
 - [https://github.com/anldori/CVE-2017-9833](https://github.com/anldori/CVE-2017-9833) :  ![starts](https://img.shields.io/github/stars/anldori/CVE-2017-9833.svg) ![forks](https://img.shields.io/github/forks/anldori/CVE-2017-9833.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-9833](https://github.com/Live-Hack-CVE/CVE-2017-9833) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9833.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9833.svg)
 
 ## CVE-2017-9830
  Remote Code Execution is possible in Code42 CrashPlan 5.4.x via the org.apache.commons.ssl.rmi.DateRMI Java class, because (upon instantiation) it creates an RMI server that listens on a TCP port and deserializes objects sent by TCP clients.
@@ -1913,6 +2412,41 @@
 - [https://github.com/beraphin/CVE-2017-8890](https://github.com/beraphin/CVE-2017-8890) :  ![starts](https://img.shields.io/github/stars/beraphin/CVE-2017-8890.svg) ![forks](https://img.shields.io/github/forks/beraphin/CVE-2017-8890.svg)
 
 - [https://github.com/7043mcgeep/cve-2017-8890-msf](https://github.com/7043mcgeep/cve-2017-8890-msf) :  ![starts](https://img.shields.io/github/stars/7043mcgeep/cve-2017-8890-msf.svg) ![forks](https://img.shields.io/github/forks/7043mcgeep/cve-2017-8890-msf.svg)
+
+## CVE-2017-8847
+ The bufRead::get() function in libzpaq/libzpaq.h in liblrzip.so in lrzip 0.631 allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted archive.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-8847](https://github.com/Live-Hack-CVE/CVE-2017-8847) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8847.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8847.svg)
+
+## CVE-2017-8846
+ The read_stream function in stream.c in liblrzip.so in lrzip 0.631 allows remote attackers to cause a denial of service (use-after-free and application crash) via a crafted archive.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-8846](https://github.com/Live-Hack-CVE/CVE-2017-8846) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8846.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8846.svg)
+
+## CVE-2017-8845
+ The lzo1x_decompress function in lzo1x_d.ch in LZO 2.08, as used in lrzip 0.631, allows remote attackers to cause a denial of service (invalid memory read and application crash) via a crafted archive.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-8845](https://github.com/Live-Hack-CVE/CVE-2017-8845) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8845.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8845.svg)
+
+## CVE-2017-8844
+ The read_1g function in stream.c in liblrzip.so in lrzip 0.631 allows remote attackers to cause a denial of service (heap-based buffer overflow and application crash) or possibly have unspecified other impact via a crafted archive.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-8844](https://github.com/Live-Hack-CVE/CVE-2017-8844) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8844.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8844.svg)
+
+## CVE-2017-8843
+ The join_pthread function in stream.c in liblrzip.so in lrzip 0.631 allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted archive.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-8843](https://github.com/Live-Hack-CVE/CVE-2017-8843) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8843.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8843.svg)
 
 ## CVE-2017-8809
  api.php in MediaWiki before 1.27.4, 1.28.x before 1.28.3, and 1.29.x before 1.29.2 has a Reflected File Download vulnerability.
@@ -2193,6 +2727,27 @@
 
 - [https://github.com/notmot/CVE-2017-7648.](https://github.com/notmot/CVE-2017-7648.) :  ![starts](https://img.shields.io/github/stars/notmot/CVE-2017-7648..svg) ![forks](https://img.shields.io/github/forks/notmot/CVE-2017-7648..svg)
 
+## CVE-2017-7605
+ aacplusenc.c in HE-AAC+ Codec (aka libaacplus) 2.0.2 has an assertion failure, which might allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a crafted audio file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-7605](https://github.com/Live-Hack-CVE/CVE-2017-7605) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7605.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7605.svg)
+
+## CVE-2017-7604
+ au_channel.h in HE-AAC+ Codec (aka libaacplus) 2.0.2 has a left-shift undefined behavior issue, which might allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a crafted audio file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-7604](https://github.com/Live-Hack-CVE/CVE-2017-7604) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7604.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7604.svg)
+
+## CVE-2017-7603
+ au_channel.h in HE-AAC+ Codec (aka libaacplus) 2.0.2 has a signed integer overflow, which might allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a crafted audio file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-7603](https://github.com/Live-Hack-CVE/CVE-2017-7603) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7603.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7603.svg)
+
 ## CVE-2017-7533
  Race condition in the fsnotify implementation in the Linux kernel through 4.12.4 allows local users to gain privileges or cause a denial of service (memory corruption) via a crafted application that leverages simultaneous execution of the inotify_handle_event and vfs_rename functions.
 
@@ -2426,6 +2981,13 @@
 
 
 - [https://github.com/gquere/CVE-2017-6913](https://github.com/gquere/CVE-2017-6913) :  ![starts](https://img.shields.io/github/stars/gquere/CVE-2017-6913.svg) ![forks](https://img.shields.io/github/forks/gquere/CVE-2017-6913.svg)
+
+## CVE-2017-6891
+ Two errors in the &quot;asn1_find_node()&quot; function (lib/parser_aux.c) within GnuTLS libtasn1 version 4.10 can be exploited to cause a stacked-based buffer overflow by tricking a user into processing a specially crafted assignments file via the e.g. asn1Coding utility.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-6891](https://github.com/Live-Hack-CVE/CVE-2017-6891) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-6891.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-6891.svg)
 
 ## CVE-2017-6736
  The Simple Network Management Protocol (SNMP) subsystem of Cisco IOS 12.0 through 12.4 and 15.0 through 15.6 and IOS XE 2.2 through 3.17 contains multiple vulnerabilities that could allow an authenticated, remote attacker to remotely execute code on an affected system or cause an affected system to reload. An attacker could exploit these vulnerabilities by sending a crafted SNMP packet to an affected system via IPv4 or IPv6. Only traffic directed to an affected system can be used to exploit these vulnerabilities. The vulnerabilities are due to a buffer overflow condition in the SNMP subsystem of the affected software. The vulnerabilities affect all versions of SNMP: Versions 1, 2c, and 3. To exploit these vulnerabilities via SNMP Version 2c or earlier, the attacker must know the SNMP read-only community string for the affected system. To exploit these vulnerabilities via SNMP Version 3, the attacker must have user credentials for the affected system. All devices that have enabled SNMP and have not explicitly excluded the affected MIBs or OIDs should be considered vulnerable. Cisco Bug IDs: CSCve57697.
@@ -2788,13 +3350,13 @@
 
 - [https://github.com/eeehit/CVE-2017-5638](https://github.com/eeehit/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/eeehit/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/eeehit/CVE-2017-5638.svg)
 
-- [https://github.com/Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Xhendos/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Xhendos/CVE-2017-5638.svg)
-
-- [https://github.com/bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/bongbongco/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bongbongco/cve-2017-5638.svg)
-
 - [https://github.com/AndreasKl/CVE-2017-5638](https://github.com/AndreasKl/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/AndreasKl/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/AndreasKl/CVE-2017-5638.svg)
 
 - [https://github.com/Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Badbird3/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Badbird3/CVE-2017-5638.svg)
+
+- [https://github.com/Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Xhendos/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Xhendos/CVE-2017-5638.svg)
+
+- [https://github.com/bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/bongbongco/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bongbongco/cve-2017-5638.svg)
 
 - [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
 
@@ -2802,17 +3364,17 @@
 
 - [https://github.com/lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/lizhi16/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/lizhi16/CVE-2017-5638.svg)
 
+- [https://github.com/readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/readloud/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/readloud/CVE-2017-5638.svg)
+
 - [https://github.com/mfdev-solution/Exploit-CVE-2017-5638](https://github.com/mfdev-solution/Exploit-CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/mfdev-solution/Exploit-CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mfdev-solution/Exploit-CVE-2017-5638.svg)
 
-- [https://github.com/readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/readloud/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/readloud/CVE-2017-5638.svg)
+- [https://github.com/jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2017-5638.svg)
 
 - [https://github.com/jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jrrombaldo/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jrrombaldo/CVE-2017-5638.svg)
 
 - [https://github.com/bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/bhagdave/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bhagdave/CVE-2017-5638.svg)
 
 - [https://github.com/Tankirat/CVE-2017-5638](https://github.com/Tankirat/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Tankirat/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Tankirat/CVE-2017-5638.svg)
-
-- [https://github.com/jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2017-5638.svg)
 
 - [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
 
@@ -2965,6 +3527,13 @@
 
 - [https://github.com/homjxi0e/CVE-2017-3881-Cisco](https://github.com/homjxi0e/CVE-2017-3881-Cisco) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-3881-Cisco.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-3881-Cisco.svg)
 
+## CVE-2017-3735
+ While parsing an IPAddressFamily extension in an X.509 certificate, it is possible to do a one-byte overread. This would result in an incorrect text display of the certificate. This bug has been present since 2006 and is present in all versions of OpenSSL before 1.0.2m and 1.1.0g.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-3735](https://github.com/Live-Hack-CVE/CVE-2017-3735) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3735.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3735.svg)
+
 ## CVE-2017-3730
  In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
 
@@ -3090,6 +3659,13 @@
 
 
 - [https://github.com/alexzorin/cve-2017-2636-el](https://github.com/alexzorin/cve-2017-2636-el) :  ![starts](https://img.shields.io/github/stars/alexzorin/cve-2017-2636-el.svg) ![forks](https://img.shields.io/github/forks/alexzorin/cve-2017-2636-el.svg)
+
+## CVE-2017-2599
+ Jenkins before versions 2.44 and 2.32.2 is vulnerable to an insufficient permission check. This allows users with permissions to create new items (e.g. jobs) to overwrite existing items they don't have access to (SECURITY-321).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-2599](https://github.com/Live-Hack-CVE/CVE-2017-2599) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2599.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2599.svg)
 
 ## CVE-2017-2388
  An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the &quot;IOFireWireFamily&quot; component. It allows attackers to cause a denial of service (NULL pointer dereference) via a crafted app.
@@ -3358,11 +3934,11 @@
 
 - [https://github.com/viethdgit/CVE-2017-0199](https://github.com/viethdgit/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/viethdgit/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/viethdgit/CVE-2017-0199.svg)
 
+- [https://github.com/Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/Phantomlancer123/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/Phantomlancer123/CVE-2017-0199.svg)
+
 - [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
 
 - [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
-
-- [https://github.com/Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/Phantomlancer123/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/Phantomlancer123/CVE-2017-0199.svg)
 
 - [https://github.com/BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/BRAINIAC22/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/BRAINIAC22/CVE-2017-0199.svg)
 
