@@ -119,6 +119,13 @@
 
 - [https://github.com/imjdl/CVE-2012-4431](https://github.com/imjdl/CVE-2012-4431) :  ![starts](https://img.shields.io/github/stars/imjdl/CVE-2012-4431.svg) ![forks](https://img.shields.io/github/forks/imjdl/CVE-2012-4431.svg)
 
+## CVE-2012-4244
+ ISC BIND 9.x before 9.7.6-P3, 9.8.x before 9.8.3-P3, 9.9.x before 9.9.1-P3, and 9.4-ESV and 9.6-ESV before 9.6-ESV-R7-P3 allows remote attackers to cause a denial of service (assertion failure and named daemon exit) via a query for a long resource record.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-4244](https://github.com/Live-Hack-CVE/CVE-2012-4244) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4244.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4244.svg)
+
 ## CVE-2012-4220
  diagchar_core.c in the Qualcomm Innovation Center (QuIC) Diagnostics (aka DIAG) kernel-mode driver for Android 2.3 through 4.2 allows attackers to execute arbitrary code or cause a denial of service (incorrect pointer dereference) via an application that uses crafted arguments in a local diagchar_ioctl call.
 
@@ -141,6 +148,13 @@
 
 
 - [https://github.com/sh7alward/CVE-20121-34527-nightmare](https://github.com/sh7alward/CVE-20121-34527-nightmare) :  ![starts](https://img.shields.io/github/stars/sh7alward/CVE-20121-34527-nightmare.svg) ![forks](https://img.shields.io/github/forks/sh7alward/CVE-20121-34527-nightmare.svg)
+
+## CVE-2012-3412
+ The sfc (aka Solarflare Solarstorm) driver in the Linux kernel before 3.2.30 allows remote attackers to cause a denial of service (DMA descriptor consumption and network-controller outage) via crafted TCP packets that trigger a small MSS value.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-3412](https://github.com/Live-Hack-CVE/CVE-2012-3412) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3412.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3412.svg)
 
 ## CVE-2012-3153
  Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fusion Middleware 11.1.1.4, 11.1.1.6, and 11.1.2.0 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Servlet.  NOTE: the previous information is from the October 2012 CPU. Oracle has not commented on claims from the original researcher that the PARSEQUERY function allows remote attackers to obtain database credentials via reports/rwservlet/parsequery, and that this issue occurs in earlier versions.  NOTE: this can be leveraged with CVE-2012-3152 to execute arbitrary code by uploading a .jsp file.
@@ -269,12 +283,40 @@
 
 - [https://github.com/EthanNJC/CVE-2012-1723](https://github.com/EthanNJC/CVE-2012-1723) :  ![starts](https://img.shields.io/github/stars/EthanNJC/CVE-2012-1723.svg) ![forks](https://img.shields.io/github/forks/EthanNJC/CVE-2012-1723.svg)
 
+## CVE-2012-1717
+ Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 update 4 and earlier, 6 update 32 and earlier, 5 update 35 and earlier, and 1.4.2_37 and earlier allows local users to affect confidentiality via unknown vectors related to printing on Solaris or Linux.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1717](https://github.com/Live-Hack-CVE/CVE-2012-1717) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1717.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1717.svg)
+
 ## CVE-2012-1675
  The TNS Listener, as used in Oracle Database 11g 11.1.0.7, 11.2.0.2, and 11.2.0.3, and 10g 10.2.0.3, 10.2.0.4, and 10.2.0.5, as used in Oracle Fusion Middleware, Enterprise Manager, E-Business Suite, and possibly other products, allows remote attackers to execute arbitrary database commands by performing a remote registration of a database (1) instance or (2) service name that already exists, then conducting a man-in-the-middle (MITM) attack to hijack database connections, aka &quot;TNS Poison.&quot;
 
 
 
 - [https://github.com/bongbongco/CVE-2012-1675](https://github.com/bongbongco/CVE-2012-1675) :  ![starts](https://img.shields.io/github/stars/bongbongco/CVE-2012-1675.svg) ![forks](https://img.shields.io/github/forks/bongbongco/CVE-2012-1675.svg)
+
+## CVE-2012-1226
+ Multiple directory traversal vulnerabilities in Dolibarr CMS 3.2.0 Alpha allow remote attackers to read arbitrary files and possibly execute arbitrary code via a .. (dot dot) in the (1) file parameter to document.php or (2) backtopage parameter in a create action to comm/action/fiche.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1226](https://github.com/Live-Hack-CVE/CVE-2012-1226) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1226.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1226.svg)
+
+## CVE-2012-1225
+ Multiple SQL injection vulnerabilities in Dolibarr CMS 3.2.0 Alpha and earlier allow remote authenticated users to execute arbitrary SQL commands via the (1) memberslist parameter (aka Member List) in list.php or (2) rowid parameter to adherents/fiche.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1225](https://github.com/Live-Hack-CVE/CVE-2012-1225) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1225.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1225.svg)
+
+## CVE-2012-0777
+ The JavaScript API in Adobe Reader and Acrobat 9.x before 9.5.1 and 10.x before 10.1.3 on Mac OS X and Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-0777](https://github.com/Live-Hack-CVE/CVE-2012-0777) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-0777.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-0777.svg)
 
 ## CVE-2012-0507
  Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, and 5.0 Update 33 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Concurrency.  NOTE: the previous information was obtained from the February 2012 Oracle CPU. Oracle has not commented on claims from a downstream vendor and third party researchers that this issue occurs because the AtomicReferenceArray class implementation does not ensure that the array is of the Object[] type, which allows attackers to cause a denial of service (JVM crash) or bypass Java sandbox restrictions.  NOTE: this issue was originally mapped to CVE-2011-3571, but that identifier was already assigned to a different issue.
