@@ -12,6 +12,15 @@
 
 - [https://github.com/artem-smotrakov/cve-2016-1000027-poc](https://github.com/artem-smotrakov/cve-2016-1000027-poc) :  ![starts](https://img.shields.io/github/stars/artem-smotrakov/cve-2016-1000027-poc.svg) ![forks](https://img.shields.io/github/forks/artem-smotrakov/cve-2016-1000027-poc.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2016-1000027](https://github.com/Live-Hack-CVE/CVE-2016-1000027) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1000027.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1000027.svg)
+
+## CVE-2016-20018
+ Knex Knex.js through 2.3.0 has a limited SQL injection vulnerability that can be exploited to ignore the WHERE clause of a SQL query.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-20018](https://github.com/Live-Hack-CVE/CVE-2016-20018) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-20018.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-20018.svg)
+
 ## CVE-2016-10956
  The mail-masta plugin 1.0 for WordPress has local file inclusion in count_of_send.php and csvexport.php.
 
@@ -71,6 +80,13 @@
 - [https://github.com/scent2d/PoC-CVE-2016-10555](https://github.com/scent2d/PoC-CVE-2016-10555) :  ![starts](https://img.shields.io/github/stars/scent2d/PoC-CVE-2016-10555.svg) ![forks](https://img.shields.io/github/forks/scent2d/PoC-CVE-2016-10555.svg)
 
 - [https://github.com/FroydCod3r/poc-cve-2016-10555](https://github.com/FroydCod3r/poc-cve-2016-10555) :  ![starts](https://img.shields.io/github/stars/FroydCod3r/poc-cve-2016-10555.svg) ![forks](https://img.shields.io/github/forks/FroydCod3r/poc-cve-2016-10555.svg)
+
+## CVE-2016-10541
+ The npm module &quot;shell-quote&quot; 1.6.0 and earlier cannot correctly escape &quot;&gt;&quot; and &quot;&lt;&quot; operator used for redirection in shell. Applications that depend on shell-quote may also be vulnerable. A malicious user could perform code injection.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-10541](https://github.com/Live-Hack-CVE/CVE-2016-10541) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-10541.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-10541.svg)
 
 ## CVE-2016-10401
  ZyXEL PK5001Z devices have zyad5001 as the su password, which makes it easier for remote attackers to obtain root access if a non-root account password is known (or a non-root default account exists within an ISP's deployment of these devices).
@@ -162,6 +178,34 @@
 
 - [https://github.com/liusec/WP-CVE-2016-10033](https://github.com/liusec/WP-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/liusec/WP-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/liusec/WP-CVE-2016-10033.svg)
 
+## CVE-2016-10012
+ The shared memory manager (associated with pre-authentication compression) in sshd in OpenSSH before 7.4 does not ensure that a bounds check is enforced by all compilers, which might allows local users to gain privileges by leveraging access to a sandboxed privilege-separation process, related to the m_zback and m_zlib data structures.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-10012](https://github.com/Live-Hack-CVE/CVE-2016-10012) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-10012.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-10012.svg)
+
+## CVE-2016-10011
+ authfile.c in sshd in OpenSSH before 7.4 does not properly consider the effects of realloc on buffer contents, which might allow local users to obtain sensitive private-key information by leveraging access to a privilege-separated child process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-10011](https://github.com/Live-Hack-CVE/CVE-2016-10011) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-10011.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-10011.svg)
+
+## CVE-2016-10010
+ sshd in OpenSSH before 7.4, when privilege separation is not used, creates forwarded Unix-domain sockets as root, which might allow local users to gain privileges via unspecified vectors, related to serverloop.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-10010](https://github.com/Live-Hack-CVE/CVE-2016-10010) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-10010.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-10010.svg)
+
+## CVE-2016-10009
+ Untrusted search path vulnerability in ssh-agent.c in ssh-agent in OpenSSH before 7.4 allows remote attackers to execute arbitrary local PKCS#11 modules by leveraging control over a forwarded agent-socket.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-10009](https://github.com/Live-Hack-CVE/CVE-2016-10009) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-10009.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-10009.svg)
+
 ## CVE-2016-9920
  steps/mail/sendmail.inc in Roundcube before 1.1.7 and 1.2.x before 1.2.3, when no SMTP server is configured and the sendmail program is enabled, does not properly restrict the use of custom envelope-from addresses on the sendmail command line, which allows remote authenticated users to execute arbitrary code via a modified HTTP request that sends a crafted e-mail message.
 
@@ -182,6 +226,13 @@
 
 
 - [https://github.com/blogresponder/CA-Common-Services-privilege-escalation-cve-2016-9795-revisited](https://github.com/blogresponder/CA-Common-Services-privilege-escalation-cve-2016-9795-revisited) :  ![starts](https://img.shields.io/github/stars/blogresponder/CA-Common-Services-privilege-escalation-cve-2016-9795-revisited.svg) ![forks](https://img.shields.io/github/forks/blogresponder/CA-Common-Services-privilege-escalation-cve-2016-9795-revisited.svg)
+
+## CVE-2016-9313
+ security/keys/big_key.c in the Linux kernel before 4.8.7 mishandles unsuccessful crypto registration in conjunction with successful key-type registration, which allows local users to cause a denial of service (NULL pointer dereference and panic) or possibly have unspecified other impact via a crafted application that uses the big_key data type.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9313](https://github.com/Live-Hack-CVE/CVE-2016-9313) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9313.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9313.svg)
 
 ## CVE-2016-9299
  The remoting module in Jenkins before 2.32 and LTS before 2.19.3 allows remote attackers to execute arbitrary code via a crafted serialized Java object, which triggers an LDAP query to a third-party server.
@@ -224,6 +275,139 @@
 
 - [https://github.com/saelo/foxpwn](https://github.com/saelo/foxpwn) :  ![starts](https://img.shields.io/github/stars/saelo/foxpwn.svg) ![forks](https://img.shields.io/github/forks/saelo/foxpwn.svg)
 
+## CVE-2016-9054
+ An exploitable stack-based buffer overflow vulnerability exists in the querying functionality of Aerospike Database Server 3.10.0.3. A specially crafted packet can cause a stack-based buffer overflow in the function as_sindex__simatch_list_by_set_binid resulting in remote code execution. An attacker can simply connect to the port to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9054](https://github.com/Live-Hack-CVE/CVE-2016-9054) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9054.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9054.svg)
+
+## CVE-2016-9053
+ An exploitable out-of-bounds indexing vulnerability exists within the RW fabric message particle type of Aerospike Database Server 3.10.0.3. A specially crafted packet can cause the server to fetch a function table outside the bounds of an array resulting in remote code execution. An attacker can simply connect to the port to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9053](https://github.com/Live-Hack-CVE/CVE-2016-9053) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9053.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9053.svg)
+
+## CVE-2016-9052
+ An exploitable stack-based buffer overflow vulnerability exists in the querying functionality of Aerospike Database Server 3.10.0.3. A specially crafted packet can cause a stack-based buffer overflow in the function as_sindex__simatch_by_iname resulting in remote code execution. An attacker can simply connect to the port to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9052](https://github.com/Live-Hack-CVE/CVE-2016-9052) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9052.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9052.svg)
+
+## CVE-2016-9051
+ An exploitable out-of-bounds write vulnerability exists in the batch transaction field parsing functionality of Aerospike Database Server 3.10.0.3. A specially crafted packet can cause an out-of-bounds write resulting in memory corruption which can lead to remote code execution. An attacker can simply connect to the port to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9051](https://github.com/Live-Hack-CVE/CVE-2016-9051) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9051.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9051.svg)
+
+## CVE-2016-9050
+ An exploitable out-of-bounds read vulnerability exists in the client message-parsing functionality of Aerospike Database Server 3.10.0.3. A specially crafted packet can cause an out-of-bounds read resulting in disclosure of memory within the process, the same vulnerability can also be used to trigger a denial of service. An attacker can simply connect to the port and send the packet to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9050](https://github.com/Live-Hack-CVE/CVE-2016-9050) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9050.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9050.svg)
+
+## CVE-2016-9049
+ An exploitable denial-of-service vulnerability exists in the fabric-worker component of Aerospike Database Server 3.10.0.3. A specially crafted packet can cause the server process to dereference a null pointer. An attacker can simply connect to a TCP port in order to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9049](https://github.com/Live-Hack-CVE/CVE-2016-9049) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9049.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9049.svg)
+
+## CVE-2016-9048
+ Multiple exploitable SQL Injection vulnerabilities exists in ProcessMaker Enterprise Core 3.0.1.7-community. Specially crafted web requests can cause SQL injections. An attacker can send a web request with parameters containing SQL injection attacks to trigger this vulnerability, potentially allowing exfiltration of the database, user credentials and in certain setups access the underlying operating system.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9048](https://github.com/Live-Hack-CVE/CVE-2016-9048) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9048.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9048.svg)
+
+## CVE-2016-9045
+ A code execution vulnerability exists in ProcessMaker Enterprise Core 3.0.1.7-community. A specially crafted web request can cause unsafe deserialization potentially resulting in PHP code being executed. An attacker can send a crafted web parameter to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9045](https://github.com/Live-Hack-CVE/CVE-2016-9045) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9045.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9045.svg)
+
+## CVE-2016-9044
+ An exploitable command execution vulnerability exists in Information Builders WebFOCUS Business Intelligence Portal 8.1 . A specially crafted web parameter can cause a command injection. An authenticated attacker can send a crafted web request to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9044](https://github.com/Live-Hack-CVE/CVE-2016-9044) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9044.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9044.svg)
+
+## CVE-2016-9043
+ An out of bound write vulnerability exists in the EMF parsing functionality of CorelDRAW X8 (CdrGfx - Corel Graphics Engine (64-Bit) - 18.1.0.661). A specially crafted EMF file can cause a vulnerability resulting in potential code execution. An attacker can send the victim a specific EMF file to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9043](https://github.com/Live-Hack-CVE/CVE-2016-9043) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9043.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9043.svg)
+
+## CVE-2016-9040
+ An exploitable denial of service exists in the the Joyent SmartOS OS 20161110T013148Z Hyprlofs file system. The vulnerability is present in the Ioctl system call with the command HYPRLOFSADDENTRIES when used with a 32 bit model. An attacker can cause a buffer to be allocated and never freed. When repeatedly exploit this will result in memory exhaustion, resulting in a full system denial of service.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9040](https://github.com/Live-Hack-CVE/CVE-2016-9040) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9040.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9040.svg)
+
+## CVE-2016-9038
+ An exploitable double fetch vulnerability exists in the SboxDrv.sys driver functionality of Invincea-X 6.1.3-24058. A specially crafted input buffer and race condition can result in kernel memory corruption, which could result in privilege escalation. An attacker needs to execute a special application locally to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9038](https://github.com/Live-Hack-CVE/CVE-2016-9038) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9038.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9038.svg)
+
+## CVE-2016-9037
+ An exploitable out-of-bounds array access vulnerability exists in the xrow_header_decode function of Tarantool 1.7.2.0-g8e92715. A specially crafted packet can cause the function to access an element outside the bounds of a global array that is used to determine the type of the specified key's value. This can lead to an out of bounds read within the context of the server. An attacker who exploits this vulnerability can cause a denial of service vulnerability on the server.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9037](https://github.com/Live-Hack-CVE/CVE-2016-9037) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9037.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9037.svg)
+
+## CVE-2016-9036
+ An exploitable incorrect return value vulnerability exists in the mp_check function of Tarantool's Msgpuck library 1.0.3. A specially crafted packet can cause the mp_check function to incorrectly return success when trying to check if decoding a map16 packet will read outside the bounds of a buffer, resulting in a denial of service vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9036](https://github.com/Live-Hack-CVE/CVE-2016-9036) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9036.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9036.svg)
+
+## CVE-2016-9035
+ An exploitable buffer overflow exists in the Joyent SmartOS 20161110T013148Z Hyprlofs file system. The vulnerability is present in the Ioctl system call with the command HYPRLOFS_ADD_ENTRIES when dealing with native file systems. An attacker can craft an input that can cause a buffer overflow in the path variable leading to an out of bounds memory access and could result in potential privilege escalation. This vulnerability is distinct from CVE-2016-9033.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9035](https://github.com/Live-Hack-CVE/CVE-2016-9035) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9035.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9035.svg)
+
+## CVE-2016-9034
+ An exploitable buffer overflow exists in the Joyent SmartOS 20161110T013148Z Hyprlofs file system. The vulnerability is present in the Ioctl system call with the command HYPRLOFS_ADD_ENTRIES when dealing with 32-bit file systems. An attacker can craft an input that can cause a buffer overflow in the nm variable leading to an out of bounds memory access and could result in potential privilege escalation. This vulnerability is distinct from CVE-2016-9032.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9034](https://github.com/Live-Hack-CVE/CVE-2016-9034) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9034.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9034.svg)
+
+## CVE-2016-9033
+ An exploitable buffer overflow exists in the Joyent SmartOS 20161110T013148Z Hyprlofs file system. The vulnerability is present in the Ioctl system call with the command HYPRLOFS_ADD_ENTRIES when dealing with native file systems. An attacker can craft an input that can cause a buffer overflow in the path variable leading to an out of bounds memory access and could result in potential privilege escalation. This vulnerability is distinct from CVE-2016-9035.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9033](https://github.com/Live-Hack-CVE/CVE-2016-9033) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9033.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9033.svg)
+
+## CVE-2016-9032
+ An exploitable buffer overflow exists in the Joyent SmartOS 20161110T013148Z Hyprlofs file system. The vulnerability is present in the Ioctl system call with the command HYPRLOFS_ADD_ENTRIES when dealing with native file systems. An attacker can craft an input that can cause a buffer overflow in the nm variable leading to an out of bounds memory access and could result in potential privilege escalation. This vulnerability is distinct from CVE-2016-9034.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9032](https://github.com/Live-Hack-CVE/CVE-2016-9032) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9032.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9032.svg)
+
+## CVE-2016-9031
+ An exploitable integer overflow exists in the Joyent SmartOS 20161110T013148Z Hyprlofs file system. The vulnerability is present in the Ioctl system call with the command HYPRLOFS_ADD_ENTRIES when dealing with 32-bit file systems. An attacker can craft an input that can cause a kernel panic and potentially be leveraged into a full privilege escalation vulnerability. This vulnerability is distinct from CVE-2016-8733.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9031](https://github.com/Live-Hack-CVE/CVE-2016-9031) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9031.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9031.svg)
+
 ## CVE-2016-8870
  The register method in the UsersModelRegistration class in controllers/user.php in the Users component in Joomla! before 3.6.4, when registration has been disabled, allows remote attackers to create user accounts by leveraging failure to check the Allow User Registration configuration setting.
 
@@ -260,6 +444,8 @@
 
 - [https://github.com/dag-erling/kexkill](https://github.com/dag-erling/kexkill) :  ![starts](https://img.shields.io/github/stars/dag-erling/kexkill.svg) ![forks](https://img.shields.io/github/forks/dag-erling/kexkill.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2016-8858](https://github.com/Live-Hack-CVE/CVE-2016-8858) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8858.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8858.svg)
+
 ## CVE-2016-8776
  Huawei P9 phones with software EVA-AL10C00,EVA-CL10C00,EVA-DL10C00,EVA-TL10C00 and P9 Lite phones with software VNS-L21C185 allow attackers to bypass the factory reset protection (FRP) to enter some functional modules without authorization and perform operations to update the Google account.
 
@@ -283,6 +469,181 @@
 
 - [https://github.com/ianxtianxt/CVE-2016-8735](https://github.com/ianxtianxt/CVE-2016-8735) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2016-8735.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2016-8735.svg)
 
+## CVE-2016-8733
+ An exploitable integer overflow exists in the Joyent SmartOS 20161110T013148Z Hyprlofs file system. The vulnerability is present in the Ioctl system call with the command HYPRLOFS_ADD_ENTRIES when dealing with native file systems. An attacker can craft an input that can cause a kernel panic and potentially be leveraged into a full privilege escalation vulnerability. This vulnerability is distinct from CVE-2016-9031.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8733](https://github.com/Live-Hack-CVE/CVE-2016-8733) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8733.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8733.svg)
+
+## CVE-2016-8732
+ Multiple security flaws exists in InvProtectDrv.sys which is a part of Invincea Dell Protected Workspace 5.1.1-22303. Weak restrictions on the driver communication channel and additional insufficient checks allow any application to turn off some of the protection mechanisms provided by the Invincea product.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8732](https://github.com/Live-Hack-CVE/CVE-2016-8732) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8732.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8732.svg)
+
+## CVE-2016-8731
+ Hard-coded FTP credentials (r:r) are included in the Foscam C1 running firmware 1.9.1.12. Knowledge of these credentials would allow remote access to any cameras found on the internet that do not have port 50021 blocked by an intermediate device.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8731](https://github.com/Live-Hack-CVE/CVE-2016-8731) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8731.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8731.svg)
+
+## CVE-2016-8730
+ An of bound write / memory corruption vulnerability exists in the GIF parsing functionality of Core PHOTO-PAINT X8 18.1.0.661. A specially crafted GIF file can cause a vulnerability resulting in potential memory corruption resulting in code execution. An attacker can send the victim a specific GIF file to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8730](https://github.com/Live-Hack-CVE/CVE-2016-8730) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8730.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8730.svg)
+
+## CVE-2016-8729
+ An exploitable memory corruption vulnerability exists in the JBIG2 parser of Artifex MuPDF 1.9. A specially crafted PDF can cause a negative number to be passed to a memset resulting in memory corruption and potential code execution. An attacker can specially craft a PDF and send to the victim to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8729](https://github.com/Live-Hack-CVE/CVE-2016-8729) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8729.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8729.svg)
+
+## CVE-2016-8728
+ An exploitable heap out of bounds write vulnerability exists in the Fitz graphical library part of the MuPDF renderer. A specially crafted PDF file can cause a out of bounds write resulting in heap metadata and sensitive process memory corruption leading to potential code execution. Victim needs to open the specially crafted file in a vulnerable reader in order to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8728](https://github.com/Live-Hack-CVE/CVE-2016-8728) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8728.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8728.svg)
+
+## CVE-2016-8726
+ An exploitable null pointer dereference vulnerability exists in the Web Application /forms/web_runScript iw_filename functionality of Moxa AWK-3131A Wireless Access Point running firmware 1.1. An HTTP POST request with a blank line in the header will cause a segmentation fault in the web server.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8726](https://github.com/Live-Hack-CVE/CVE-2016-8726) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8726.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8726.svg)
+
+## CVE-2016-8725
+ An exploitable information disclosure vulnerability exists in the Web Application functionality of the Moxa AWK-3131A wireless access point running firmware 1.1. Retrieving a specific URL without authentication can reveal sensitive information to an attacker.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8725](https://github.com/Live-Hack-CVE/CVE-2016-8725) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8725.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8725.svg)
+
+## CVE-2016-8724
+ An exploitable information disclosure vulnerability exists in the serviceAgent functionality of Moxa AWK-3131A Wireless Access Point running firmware 1.1. A specially crafted TCP query will allow an attacker to retrieve potentially sensitive information.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8724](https://github.com/Live-Hack-CVE/CVE-2016-8724) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8724.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8724.svg)
+
+## CVE-2016-8723
+ An exploitable null pointer dereference exists in the Web Application functionality of Moxa AWK-3131A Wireless Access Point running firmware 1.1. Any HTTP GET request not preceded by an '/' will cause a segmentation fault in the web server. An attacker can send any of a multitude of potentially unexpected HTTP get requests to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8723](https://github.com/Live-Hack-CVE/CVE-2016-8723) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8723.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8723.svg)
+
+## CVE-2016-8722
+ An exploitable Information Disclosure vulnerability exists in the Web Application functionality of Moxa AWK-3131A Series Industrial IEEE 802.11a/b/g/n wireless AP/bridge/client. Retrieving a specific URL without authentication can reveal sensitive information to an attacker.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8722](https://github.com/Live-Hack-CVE/CVE-2016-8722) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8722.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8722.svg)
+
+## CVE-2016-8721
+ An exploitable OS Command Injection vulnerability exists in the web application 'ping' functionality of Moxa AWK-3131A Wireless Access Points running firmware 1.1. Specially crafted web form input can cause an OS Command Injection resulting in complete compromise of the vulnerable device. An attacker can exploit this vulnerability remotely.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8721](https://github.com/Live-Hack-CVE/CVE-2016-8721) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8721.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8721.svg)
+
+## CVE-2016-8720
+ An exploitable HTTP Header Injection vulnerability exists in the Web Application functionality of the Moxa AWK-3131A Wireless Access Point running firmware 1.1. A specially crafted HTTP request can inject a payload in the bkpath parameter which will be copied in to Location header of the HTTP response.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8720](https://github.com/Live-Hack-CVE/CVE-2016-8720) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8720.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8720.svg)
+
+## CVE-2016-8719
+ An exploitable reflected Cross-Site Scripting vulnerability exists in the Web Application functionality of Moxa AWK-3131A Wireless Access Point running firmware 1.1. Specially crafted input, in multiple parameters, can cause a malicious scripts to be executed by a victim.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8719](https://github.com/Live-Hack-CVE/CVE-2016-8719) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8719.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8719.svg)
+
+## CVE-2016-8718
+ An exploitable Cross-Site Request Forgery vulnerability exists in the Web Application functionality of Moxa AWK-3131A Wireless Access Point running firmware 1.1. A specially crafted form can trick a client into making an unintentional request to the web server which will be treated as an authentic request.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8718](https://github.com/Live-Hack-CVE/CVE-2016-8718) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8718.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8718.svg)
+
+## CVE-2016-8717
+ An exploitable Use of Hard-coded Credentials vulnerability exists in the Moxa AWK-3131A Wireless Access Point running firmware 1.1. The device operating system contains an undocumented, privileged (root) account with hard-coded credentials, giving attackers full control of affected devices.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8717](https://github.com/Live-Hack-CVE/CVE-2016-8717) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8717.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8717.svg)
+
+## CVE-2016-8716
+ An exploitable Cleartext Transmission of Password vulnerability exists in the Web Application functionality of Moxa AWK-3131A Wireless Access Point running firmware 1.1. The Change Password functionality of the Web Application transmits the password in cleartext. An attacker capable of intercepting this traffic is able to obtain valid credentials.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8716](https://github.com/Live-Hack-CVE/CVE-2016-8716) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8716.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8716.svg)
+
+## CVE-2016-8715
+ An exploitable heap corruption vulnerability exists in the loadTrailer functionality of Iceni Argus version 6.6.05. A specially crafted PDF file can cause a heap corruption resulting in arbitrary code execution. An attacker can send/provide a malicious PDF file to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8715](https://github.com/Live-Hack-CVE/CVE-2016-8715) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8715.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8715.svg)
+
+## CVE-2016-8714
+ An exploitable buffer overflow vulnerability exists in the LoadEncoding functionality of the R programming language version 3.3.0. A specially crafted R script can cause a buffer overflow resulting in a memory corruption. An attacker can send a malicious R script to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8714](https://github.com/Live-Hack-CVE/CVE-2016-8714) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8714.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8714.svg)
+
+## CVE-2016-8713
+ A remote out of bound write / memory corruption vulnerability exists in the PDF parsing functionality of Nitro Pro 10.5.9.9. A specially crafted PDF file can cause a vulnerability resulting in potential memory corruption. An attacker can send the victim a specific PDF file to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8713](https://github.com/Live-Hack-CVE/CVE-2016-8713) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8713.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8713.svg)
+
+## CVE-2016-8712
+ An exploitable nonce reuse vulnerability exists in the Web Application functionality of Moxa AWK-3131A Wireless AP running firmware 1.1. The device uses one nonce for all session authentication requests and only changes the nonce if the web application has been idle for 300 seconds.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8712](https://github.com/Live-Hack-CVE/CVE-2016-8712) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8712.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8712.svg)
+
+## CVE-2016-8711
+ A potential remote code execution vulnerability exists in the PDF parsing functionality of Nitro Pro 10. A specially crafted PDF file can cause a vulnerability resulting in potential code execution. An attacker can send the victim a specific PDF file to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8711](https://github.com/Live-Hack-CVE/CVE-2016-8711) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8711.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8711.svg)
+
+## CVE-2016-8710
+ An exploitable heap write out of bounds vulnerability exists in the decoding of BPG images in Libbpg library. A crafted BPG image decoded by libbpg can cause an integer underflow vulnerability causing an out of bounds heap write leading to remote code execution. This vulnerability can be triggered via attempting to decode a crafted BPG image using Libbpg.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8710](https://github.com/Live-Hack-CVE/CVE-2016-8710) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8710.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8710.svg)
+
+## CVE-2016-8709
+ A remote out of bound write / memory corruption vulnerability exists in the PDF parsing functionality of Nitro Pro 10. A specially crafted PDF file can cause a vulnerability resulting in potential memory corruption. An attacker can send the victim a specific PDF file to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8709](https://github.com/Live-Hack-CVE/CVE-2016-8709) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8709.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8709.svg)
+
+## CVE-2016-8707
+ An exploitable out of bounds write exists in the handling of compressed TIFF images in ImageMagicks's convert utility. A crafted TIFF document can lead to an out of bounds write which in particular circumstances could be leveraged into remote code execution. The vulnerability can be triggered through any user controlled TIFF that is handled by this functionality.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8707](https://github.com/Live-Hack-CVE/CVE-2016-8707) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8707.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8707.svg)
+
 ## CVE-2016-8655
  Race condition in net/packet/af_packet.c in the Linux kernel through 4.8.12 allows local users to gain privileges or cause a denial of service (use-after-free) by leveraging the CAP_NET_RAW capability to change a socket version, related to the packet_set_ring and packet_setsockopt functions.
 
@@ -292,9 +653,9 @@
 
 - [https://github.com/LakshmiDesai/CVE-2016-8655](https://github.com/LakshmiDesai/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/LakshmiDesai/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/LakshmiDesai/CVE-2016-8655.svg)
 
-- [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) :  ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
-
 - [https://github.com/agkunkle/chocobo](https://github.com/agkunkle/chocobo) :  ![starts](https://img.shields.io/github/stars/agkunkle/chocobo.svg) ![forks](https://img.shields.io/github/forks/agkunkle/chocobo.svg)
+
+- [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) :  ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
 
 - [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
 
@@ -325,6 +686,62 @@
 
 
 - [https://github.com/CunningLogic/PixelDump_CVE-2016-8462](https://github.com/CunningLogic/PixelDump_CVE-2016-8462) :  ![starts](https://img.shields.io/github/stars/CunningLogic/PixelDump_CVE-2016-8462.svg) ![forks](https://img.shields.io/github/forks/CunningLogic/PixelDump_CVE-2016-8462.svg)
+
+## CVE-2016-8390
+ An exploitable out of bounds write vulnerability exists in the parsing of ELF Section Headers of Hopper Disassembler 3.11.20. A specially crafted ELF file can cause attacker controlled pointer arithmetic resulting in a partially controlled out of bounds write. An attacker can craft an ELF file with specific section headers to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8390](https://github.com/Live-Hack-CVE/CVE-2016-8390) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8390.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8390.svg)
+
+## CVE-2016-8389
+ An exploitable integer-overflow vulnerability exists within Iceni Argus. When it attempts to convert a malformed PDF to XML, it will attempt to convert each character from a font into a polygon and then attempt to rasterize these shapes. As the application attempts to iterate through the rows and initializing the polygon shape in the buffer, it will write outside of the bounds of said buffer. This can lead to code execution under the context of the account running it.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8389](https://github.com/Live-Hack-CVE/CVE-2016-8389) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8389.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8389.svg)
+
+## CVE-2016-8388
+ An exploitable arbitrary heap-overwrite vulnerability exists within Iceni Argus. When it attempts to convert a malformed PDF to XML, it will explicitly trust an index within the specific font object and use it to write the font's name to a single object within an array of objects.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8388](https://github.com/Live-Hack-CVE/CVE-2016-8388) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8388.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8388.svg)
+
+## CVE-2016-8387
+ An exploitable heap-based buffer overflow exists in Iceni Argus. When it attempts to convert a malformed PDF with an object encoded w/ multiple encoding types terminating with an LZW encoded type, an overflow may occur due to a lack of bounds checking by the LZW decoder. This can lead to code execution under the context of the account of the user running it.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8387](https://github.com/Live-Hack-CVE/CVE-2016-8387) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8387.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8387.svg)
+
+## CVE-2016-8386
+ An exploitable heap-based buffer overflow exists in Iceni Argus. When it attempts to convert a PDF containing a malformed font to XML, the tool will attempt to use a size out of the font to search through a linked list of buffers to return. Due to a signedness issue, a buffer smaller than the requested size will be returned. Later when the tool tries to populate this buffer, the overflow will occur which can lead to code execution under the context of the user running the tool.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8386](https://github.com/Live-Hack-CVE/CVE-2016-8386) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8386.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8386.svg)
+
+## CVE-2016-8385
+ An exploitable uninitialized variable vulnerability which leads to a stack-based buffer overflow exists in Iceni Argus. When it attempts to convert a malformed PDF to XML a stack variable will be left uninitialized which will later be used to fetch a length that is used in a copy operation. In most cases this will allow an aggressor to write outside the bounds of a stack buffer which is used to contain colors. This can lead to code execution under the context of the account running the tool.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8385](https://github.com/Live-Hack-CVE/CVE-2016-8385) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8385.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8385.svg)
+
+## CVE-2016-8384
+ An exploitable heap corruption vulnerability exists in the DHFSummary functionality of AntennaHouse DMC HTMLFilter.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8384](https://github.com/Live-Hack-CVE/CVE-2016-8384) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8384.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8384.svg)
+
+## CVE-2016-8383
+ An exploitable heap corruption vulnerability exists in the Doc_GetFontTable functionality of AntennaHouse DMC HTMLFilter. A specially crafted doc file can cause a heap corruption resulting in arbitrary code execution. An attacker can send/provide malicious doc file to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-8383](https://github.com/Live-Hack-CVE/CVE-2016-8383) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-8383.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-8383.svg)
 
 ## CVE-2016-8374
  An issue was discovered in Schneider Electric Magelis HMI Magelis GTO Advanced Optimum Panels, all versions, Magelis GTU Universal Panel, all versions, Magelis STO5xx and STU Small panels, all versions, Magelis XBT GH Advanced Hand-held Panels, all versions, Magelis XBT GK Advanced Touchscreen Panels with Keyboard, all versions, Magelis XBT GT Advanced Touchscreen Panels, all versions, and Magelis XBT GTW Advanced Open Touchscreen Panels (Windows XPe). An attacker may be able to disrupt a targeted web server, resulting in a denial of service because of UNCONTROLLED RESOURCE CONSUMPTION.
@@ -417,6 +834,13 @@
 
 - [https://github.com/dmaasland/mcafee-hip-CVE-2016-8007](https://github.com/dmaasland/mcafee-hip-CVE-2016-8007) :  ![starts](https://img.shields.io/github/stars/dmaasland/mcafee-hip-CVE-2016-8007.svg) ![forks](https://img.shields.io/github/forks/dmaasland/mcafee-hip-CVE-2016-8007.svg)
 
+## CVE-2016-7913
+ The xc2028_set_config function in drivers/media/tuners/tuner-xc2028.c in the Linux kernel before 4.6 allows local users to gain privileges or cause a denial of service (use-after-free) via vectors involving omission of the firmware name from a certain data structure.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7913](https://github.com/Live-Hack-CVE/CVE-2016-7913) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7913.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7913.svg)
+
 ## CVE-2016-7855
  Use-after-free vulnerability in Adobe Flash Player before 23.0.0.205 on Windows and OS X and before 11.2.202.643 on Linux allows remote attackers to execute arbitrary code via unspecified vectors, as exploited in the wild in October 2016.
 
@@ -492,6 +916,76 @@
 
 - [https://github.com/KosukeShimofuji/CVE-2016-7117](https://github.com/KosukeShimofuji/CVE-2016-7117) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-7117.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-7117.svg)
 
+## CVE-2016-6992
+ Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code by leveraging an unspecified &quot;type confusion.&quot;
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6992](https://github.com/Live-Hack-CVE/CVE-2016-6992) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6992.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6992.svg)
+
+## CVE-2016-6990
+ Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4273, CVE-2016-6982, CVE-2016-6983, CVE-2016-6984, CVE-2016-6985, CVE-2016-6986, and CVE-2016-6989.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6990](https://github.com/Live-Hack-CVE/CVE-2016-6990) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6990.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6990.svg)
+
+## CVE-2016-6989
+ Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4273, CVE-2016-6982, CVE-2016-6983, CVE-2016-6984, CVE-2016-6985, CVE-2016-6986, and CVE-2016-6990.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6989](https://github.com/Live-Hack-CVE/CVE-2016-6989) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6989.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6989.svg)
+
+## CVE-2016-6987
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-6981.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6987](https://github.com/Live-Hack-CVE/CVE-2016-6987) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6987.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6987.svg)
+
+## CVE-2016-6986
+ Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4273, CVE-2016-6982, CVE-2016-6983, CVE-2016-6984, CVE-2016-6985, CVE-2016-6989, and CVE-2016-6990.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6986](https://github.com/Live-Hack-CVE/CVE-2016-6986) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6986.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6986.svg)
+
+## CVE-2016-6985
+ Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4273, CVE-2016-6982, CVE-2016-6983, CVE-2016-6984, CVE-2016-6986, CVE-2016-6989, and CVE-2016-6990.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6985](https://github.com/Live-Hack-CVE/CVE-2016-6985) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6985.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6985.svg)
+
+## CVE-2016-6984
+ Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4273, CVE-2016-6982, CVE-2016-6983, CVE-2016-6985, CVE-2016-6986, CVE-2016-6989, and CVE-2016-6990.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6984](https://github.com/Live-Hack-CVE/CVE-2016-6984) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6984.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6984.svg)
+
+## CVE-2016-6983
+ Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4273, CVE-2016-6982, CVE-2016-6984, CVE-2016-6985, CVE-2016-6986, CVE-2016-6989, and CVE-2016-6990.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6983](https://github.com/Live-Hack-CVE/CVE-2016-6983) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6983.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6983.svg)
+
+## CVE-2016-6982
+ Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4273, CVE-2016-6983, CVE-2016-6984, CVE-2016-6985, CVE-2016-6986, CVE-2016-6989, and CVE-2016-6990.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6982](https://github.com/Live-Hack-CVE/CVE-2016-6982) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6982.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6982.svg)
+
+## CVE-2016-6981
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-6987.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6981](https://github.com/Live-Hack-CVE/CVE-2016-6981) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6981.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6981.svg)
+
 ## CVE-2016-6801
  Cross-site request forgery (CSRF) vulnerability in the CSRF content-type check in Jackrabbit-Webdav in Apache Jackrabbit 2.4.x before 2.4.6, 2.6.x before 2.6.6, 2.8.x before 2.8.3, 2.10.x before 2.10.4, 2.12.x before 2.12.4, and 2.13.x before 2.13.3 allows remote attackers to hijack the authentication of unspecified victims for requests that create a resource via an HTTP POST request with a (1) missing or (2) crafted Content-Type header.
 
@@ -562,6 +1056,8 @@
 
 - [https://github.com/cved-sources/cve-2016-6515](https://github.com/cved-sources/cve-2016-6515) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2016-6515.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2016-6515.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2016-6515](https://github.com/Live-Hack-CVE/CVE-2016-6515) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6515.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6515.svg)
+
 ## CVE-2016-6415
  The server IKEv1 implementation in Cisco IOS 12.2 through 12.4 and 15.0 through 15.6, IOS XE through 3.18S, IOS XR 4.3.x and 5.0.x through 5.2.x, and PIX before 7.0 allows remote attackers to obtain sensitive information from device memory via a Security Association (SA) negotiation request, aka Bug IDs CSCvb29204 and CSCvb36055 or BENIGNCERTAIN.
 
@@ -582,6 +1078,55 @@
 
 
 - [https://github.com/kavgan/vuln_test_repo_public_ruby_gemfile_cve-2016-6317](https://github.com/kavgan/vuln_test_repo_public_ruby_gemfile_cve-2016-6317) :  ![starts](https://img.shields.io/github/stars/kavgan/vuln_test_repo_public_ruby_gemfile_cve-2016-6317.svg) ![forks](https://img.shields.io/github/forks/kavgan/vuln_test_repo_public_ruby_gemfile_cve-2016-6317.svg)
+
+## CVE-2016-6308
+ statem/statem_dtls.c in the DTLS implementation in OpenSSL 1.1.0 before 1.1.0a allocates memory before checking for an excessive length, which might allow remote attackers to cause a denial of service (memory consumption) via crafted DTLS messages.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6308](https://github.com/Live-Hack-CVE/CVE-2016-6308) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6308.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6308.svg)
+
+## CVE-2016-6307
+ The state-machine implementation in OpenSSL 1.1.0 before 1.1.0a allocates memory before checking for an excessive length, which might allow remote attackers to cause a denial of service (memory consumption) via crafted TLS messages, related to statem/statem.c and statem/statem_lib.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6307](https://github.com/Live-Hack-CVE/CVE-2016-6307) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6307.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6307.svg)
+
+## CVE-2016-6306
+ The certificate parser in OpenSSL before 1.0.1u and 1.0.2 before 1.0.2i might allow remote attackers to cause a denial of service (out-of-bounds read) via crafted certificate operations, related to s3_clnt.c and s3_srvr.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6306](https://github.com/Live-Hack-CVE/CVE-2016-6306) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6306.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6306.svg)
+
+## CVE-2016-6305
+ The ssl3_read_bytes function in record/rec_layer_s3.c in OpenSSL 1.1.0 before 1.1.0a allows remote attackers to cause a denial of service (infinite loop) by triggering a zero-length record in an SSL_peek call.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6305](https://github.com/Live-Hack-CVE/CVE-2016-6305) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6305.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6305.svg)
+
+## CVE-2016-6304
+ Multiple memory leaks in t1_lib.c in OpenSSL before 1.0.1u, 1.0.2 before 1.0.2i, and 1.1.0 before 1.1.0a allow remote attackers to cause a denial of service (memory consumption) via large OCSP Status Request extensions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6304](https://github.com/Live-Hack-CVE/CVE-2016-6304) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6304.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6304.svg)
+
+## CVE-2016-6303
+ Integer overflow in the MDC2_Update function in crypto/mdc2/mdc2dgst.c in OpenSSL before 1.1.0 allows remote attackers to cause a denial of service (out-of-bounds write and application crash) or possibly have unspecified other impact via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6303](https://github.com/Live-Hack-CVE/CVE-2016-6303) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6303.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6303.svg)
+
+## CVE-2016-6302
+ The tls_decrypt_ticket function in ssl/t1_lib.c in OpenSSL before 1.1.0 does not consider the HMAC size during validation of the ticket length, which allows remote attackers to cause a denial of service via a ticket that is too short.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6302](https://github.com/Live-Hack-CVE/CVE-2016-6302) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6302.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6302.svg)
 
 ## CVE-2016-6271
  The Bzrtp library (aka libbzrtp) 1.0.x before 1.0.4 allows man-in-the-middle attackers to conduct spoofing attacks by leveraging a missing HVI check on DHPart2 packet reception.
@@ -604,6 +1149,29 @@
 - [https://github.com/bassitone/OpenSSH-User-Enumeration](https://github.com/bassitone/OpenSSH-User-Enumeration) :  ![starts](https://img.shields.io/github/stars/bassitone/OpenSSH-User-Enumeration.svg) ![forks](https://img.shields.io/github/forks/bassitone/OpenSSH-User-Enumeration.svg)
 
 - [https://github.com/hackingyseguridad/ssha](https://github.com/hackingyseguridad/ssha) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/ssha.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/ssha.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6210](https://github.com/Live-Hack-CVE/CVE-2016-6210) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6210.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6210.svg)
+
+## CVE-2016-6191
+ Multiple cross-site scripting (XSS) vulnerabilities in the View Raw Source page in the Web Calendar in SOGo before 3.1.3 allow remote attackers to inject arbitrary web script or HTML via the (1) Description, (2) Location, (3) URL, or (4) Title field.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6191](https://github.com/Live-Hack-CVE/CVE-2016-6191) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6191.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6191.svg)
+
+## CVE-2016-6189
+ Incomplete blacklist in SOGo before 2.3.12 and 3.x before 3.1.1 allows remote authenticated users to obtain sensitive information by reading the fields in the (1) ics or (2) XML calendar feeds.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6189](https://github.com/Live-Hack-CVE/CVE-2016-6189) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6189.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6189.svg)
+
+## CVE-2016-6188
+ Memory leak in SOGo 2.3.7 allows remote attackers to cause a denial of service (memory consumption) via a large number of attempts to upload a large attachment, related to temporary files.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6188](https://github.com/Live-Hack-CVE/CVE-2016-6188) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6188.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6188.svg)
 
 ## CVE-2016-6187
  The apparmor_setprocattr function in security/apparmor/lsm.c in the Linux kernel before 4.6.5 does not validate the buffer size, which allows local users to gain privileges by triggering an AppArmor setprocattr hook.
@@ -753,19 +1321,19 @@
 
 - [https://github.com/th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC) :  ![starts](https://img.shields.io/github/stars/th3-5had0w/DirtyCOW-PoC.svg) ![forks](https://img.shields.io/github/forks/th3-5had0w/DirtyCOW-PoC.svg)
 
-- [https://github.com/FloridSleeves/os-experiment-4](https://github.com/FloridSleeves/os-experiment-4) :  ![starts](https://img.shields.io/github/stars/FloridSleeves/os-experiment-4.svg) ![forks](https://img.shields.io/github/forks/FloridSleeves/os-experiment-4.svg)
-
 - [https://github.com/flux10n/dirtycow](https://github.com/flux10n/dirtycow) :  ![starts](https://img.shields.io/github/stars/flux10n/dirtycow.svg) ![forks](https://img.shields.io/github/forks/flux10n/dirtycow.svg)
+
+- [https://github.com/FloridSleeves/os-experiment-4](https://github.com/FloridSleeves/os-experiment-4) :  ![starts](https://img.shields.io/github/stars/FloridSleeves/os-experiment-4.svg) ![forks](https://img.shields.io/github/forks/FloridSleeves/os-experiment-4.svg)
 
 - [https://github.com/arbll/dirtycow](https://github.com/arbll/dirtycow) :  ![starts](https://img.shields.io/github/stars/arbll/dirtycow.svg) ![forks](https://img.shields.io/github/forks/arbll/dirtycow.svg)
 
 - [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
 
-- [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
-
 - [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
 
 - [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
+
+- [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
 
 - [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
 
@@ -797,15 +1365,15 @@
 
 - [https://github.com/KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow) :  ![starts](https://img.shields.io/github/stars/KaviDk/dirtyCow.svg) ![forks](https://img.shields.io/github/forks/KaviDk/dirtyCow.svg)
 
-- [https://github.com/istenrot/centos-dirty-cow-ansible](https://github.com/istenrot/centos-dirty-cow-ansible) :  ![starts](https://img.shields.io/github/stars/istenrot/centos-dirty-cow-ansible.svg) ![forks](https://img.shields.io/github/forks/istenrot/centos-dirty-cow-ansible.svg)
-
 - [https://github.com/ellietoulabi/Dirty-Cow](https://github.com/ellietoulabi/Dirty-Cow) :  ![starts](https://img.shields.io/github/stars/ellietoulabi/Dirty-Cow.svg) ![forks](https://img.shields.io/github/forks/ellietoulabi/Dirty-Cow.svg)
+
+- [https://github.com/istenrot/centos-dirty-cow-ansible](https://github.com/istenrot/centos-dirty-cow-ansible) :  ![starts](https://img.shields.io/github/stars/istenrot/centos-dirty-cow-ansible.svg) ![forks](https://img.shields.io/github/forks/istenrot/centos-dirty-cow-ansible.svg)
 
 - [https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg)
 
-- [https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg)
-
 - [https://github.com/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195](https://github.com/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195) :  ![starts](https://img.shields.io/github/stars/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195.svg) ![forks](https://img.shields.io/github/forks/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195.svg)
+
+- [https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg)
 
 ## CVE-2016-5063
  The RSCD agent in BMC Server Automation before 8.6 SP1 Patch 2 and 8.7 before Patch 3 on Windows might allow remote attackers to bypass authorization checks and make an RPC call via unspecified vectors.
@@ -964,6 +1532,55 @@
 
 - [https://github.com/m3terpreter/CVE-2016-4437](https://github.com/m3terpreter/CVE-2016-4437) :  ![starts](https://img.shields.io/github/stars/m3terpreter/CVE-2016-4437.svg) ![forks](https://img.shields.io/github/forks/m3terpreter/CVE-2016-4437.svg)
 
+## CVE-2016-4432
+ The AMQP 0-8, 0-9, 0-91, and 0-10 connection handling in Apache Qpid Java before 6.0.3 might allow remote attackers to bypass authentication and consequently perform actions via vectors related to connection state logging.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4432](https://github.com/Live-Hack-CVE/CVE-2016-4432) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4432.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4432.svg)
+
+## CVE-2016-4163
+ Adobe Flash Player before 18.0.0.352 and 19.x through 21.x before 21.0.0.242 on Windows and OS X and before 11.2.202.621 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1096, CVE-2016-1098, CVE-2016-1099, CVE-2016-1100, CVE-2016-1102, CVE-2016-1104, CVE-2016-4109, CVE-2016-4111, CVE-2016-4112, CVE-2016-4113, CVE-2016-4114, CVE-2016-4115, CVE-2016-4120, CVE-2016-4160, CVE-2016-4161, and CVE-2016-4162.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4163](https://github.com/Live-Hack-CVE/CVE-2016-4163) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4163.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4163.svg)
+
+## CVE-2016-4162
+ Adobe Flash Player before 18.0.0.352 and 19.x through 21.x before 21.0.0.242 on Windows and OS X and before 11.2.202.621 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1096, CVE-2016-1098, CVE-2016-1099, CVE-2016-1100, CVE-2016-1102, CVE-2016-1104, CVE-2016-4109, CVE-2016-4111, CVE-2016-4112, CVE-2016-4113, CVE-2016-4114, CVE-2016-4115, CVE-2016-4120, CVE-2016-4160, CVE-2016-4161, and CVE-2016-4163.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4162](https://github.com/Live-Hack-CVE/CVE-2016-4162) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4162.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4162.svg)
+
+## CVE-2016-4161
+ Adobe Flash Player before 18.0.0.352 and 19.x through 21.x before 21.0.0.242 on Windows and OS X and before 11.2.202.621 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1096, CVE-2016-1098, CVE-2016-1099, CVE-2016-1100, CVE-2016-1102, CVE-2016-1104, CVE-2016-4109, CVE-2016-4111, CVE-2016-4112, CVE-2016-4113, CVE-2016-4114, CVE-2016-4115, CVE-2016-4120, CVE-2016-4160, CVE-2016-4162, and CVE-2016-4163.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4161](https://github.com/Live-Hack-CVE/CVE-2016-4161) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4161.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4161.svg)
+
+## CVE-2016-4160
+ Adobe Flash Player before 18.0.0.352 and 19.x through 21.x before 21.0.0.242 on Windows and OS X and before 11.2.202.621 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1096, CVE-2016-1098, CVE-2016-1099, CVE-2016-1100, CVE-2016-1102, CVE-2016-1104, CVE-2016-4109, CVE-2016-4111, CVE-2016-4112, CVE-2016-4113, CVE-2016-4114, CVE-2016-4115, CVE-2016-4120, CVE-2016-4161, CVE-2016-4162, and CVE-2016-4163.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4160](https://github.com/Live-Hack-CVE/CVE-2016-4160) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4160.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4160.svg)
+
+## CVE-2016-4121
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.352 and 19.x through 21.x before 21.0.0.242 on Windows and OS X and before 11.2.202.621 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-1097, CVE-2016-1106, CVE-2016-1107, CVE-2016-1108, CVE-2016-1109, CVE-2016-1110, CVE-2016-4108, and CVE-2016-4110.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4121](https://github.com/Live-Hack-CVE/CVE-2016-4121) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4121.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4121.svg)
+
+## CVE-2016-4120
+ Adobe Flash Player before 18.0.0.352 and 19.x through 21.x before 21.0.0.242 on Windows and OS X and before 11.2.202.621 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1096, CVE-2016-1098, CVE-2016-1099, CVE-2016-1100, CVE-2016-1102, CVE-2016-1104, CVE-2016-4109, CVE-2016-4111, CVE-2016-4112, CVE-2016-4113, CVE-2016-4114, CVE-2016-4115, CVE-2016-4160, CVE-2016-4161, CVE-2016-4162, and CVE-2016-4163.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4120](https://github.com/Live-Hack-CVE/CVE-2016-4120) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4120.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4120.svg)
+
 ## CVE-2016-4117
  Adobe Flash Player 21.0.0.226 and earlier allows remote attackers to execute arbitrary code via unspecified vectors, as exploited in the wild in May 2016.
 
@@ -1029,7 +1646,7 @@
 
 
 
-- [https://github.com/ionraider/CVE-2016-3861](https://github.com/ionraider/CVE-2016-3861) :  ![starts](https://img.shields.io/github/stars/ionraider/CVE-2016-3861.svg) ![forks](https://img.shields.io/github/forks/ionraider/CVE-2016-3861.svg)
+- [https://github.com/unixraider/CVE-2016-3861](https://github.com/unixraider/CVE-2016-3861) :  ![starts](https://img.shields.io/github/stars/unixraider/CVE-2016-3861.svg) ![forks](https://img.shields.io/github/forks/unixraider/CVE-2016-3861.svg)
 
 ## CVE-2016-3749
  server/LockSettingsService.java in LockSettingsService in Android 6.x before 2016-07-01 allows attackers to modify the screen-lock password or pattern via a crafted application, aka internal bug 28163930.
@@ -1064,6 +1681,13 @@
 - [https://github.com/jackdpeterson/imagick_secure_puppet](https://github.com/jackdpeterson/imagick_secure_puppet) :  ![starts](https://img.shields.io/github/stars/jackdpeterson/imagick_secure_puppet.svg) ![forks](https://img.shields.io/github/forks/jackdpeterson/imagick_secure_puppet.svg)
 
 - [https://github.com/artfreyr/wp-imagetragick](https://github.com/artfreyr/wp-imagetragick) :  ![starts](https://img.shields.io/github/stars/artfreyr/wp-imagetragick.svg) ![forks](https://img.shields.io/github/forks/artfreyr/wp-imagetragick.svg)
+
+## CVE-2016-3709
+ Possible cross-site scripting vulnerability in libxml after commit 960f0e2.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-3709](https://github.com/Live-Hack-CVE/CVE-2016-3709) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-3709.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-3709.svg)
 
 ## CVE-2016-3510
  Unspecified vulnerability in the Oracle WebLogic Server component in Oracle Fusion Middleware 10.3.6.0, 12.1.3.0, and 12.2.1.0 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to WLS Core Components, a different vulnerability than CVE-2016-3586.
@@ -1254,6 +1878,62 @@
 
 - [https://github.com/fath0218/CVE-2016-2233](https://github.com/fath0218/CVE-2016-2233) :  ![starts](https://img.shields.io/github/stars/fath0218/CVE-2016-2233.svg) ![forks](https://img.shields.io/github/forks/fath0218/CVE-2016-2233.svg)
 
+## CVE-2016-2183
+ The DES and Triple DES ciphers, as used in the TLS, SSH, and IPSec protocols and other protocols and products, have a birthday bound of approximately four billion blocks, which makes it easier for remote attackers to obtain cleartext data via a birthday attack against a long-duration encrypted session, as demonstrated by an HTTPS session using Triple DES in CBC mode, aka a &quot;Sweet32&quot; attack.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2183](https://github.com/Live-Hack-CVE/CVE-2016-2183) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2183.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2183.svg)
+
+## CVE-2016-2182
+ The BN_bn2dec function in crypto/bn/bn_print.c in OpenSSL before 1.1.0 does not properly validate division results, which allows remote attackers to cause a denial of service (out-of-bounds write and application crash) or possibly have unspecified other impact via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2182](https://github.com/Live-Hack-CVE/CVE-2016-2182) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2182.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2182.svg)
+
+## CVE-2016-2181
+ The Anti-Replay feature in the DTLS implementation in OpenSSL before 1.1.0 mishandles early use of a new epoch number in conjunction with a large sequence number, which allows remote attackers to cause a denial of service (false-positive packet drops) via spoofed DTLS records, related to rec_layer_d1.c and ssl3_record.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2181](https://github.com/Live-Hack-CVE/CVE-2016-2181) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2181.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2181.svg)
+
+## CVE-2016-2180
+ The TS_OBJ_print_bio function in crypto/ts/ts_lib.c in the X.509 Public Key Infrastructure Time-Stamp Protocol (TSP) implementation in OpenSSL through 1.0.2h allows remote attackers to cause a denial of service (out-of-bounds read and application crash) via a crafted time-stamp file that is mishandled by the &quot;openssl ts&quot; command.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2180](https://github.com/Live-Hack-CVE/CVE-2016-2180) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2180.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2180.svg)
+
+## CVE-2016-2179
+ The DTLS implementation in OpenSSL before 1.1.0 does not properly restrict the lifetime of queue entries associated with unused out-of-order messages, which allows remote attackers to cause a denial of service (memory consumption) by maintaining many crafted DTLS sessions simultaneously, related to d1_lib.c, statem_dtls.c, statem_lib.c, and statem_srvr.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2179](https://github.com/Live-Hack-CVE/CVE-2016-2179) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2179.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2179.svg)
+
+## CVE-2016-2178
+ The dsa_sign_setup function in crypto/dsa/dsa_ossl.c in OpenSSL through 1.0.2h does not properly ensure the use of constant-time operations, which makes it easier for local users to discover a DSA private key via a timing side-channel attack.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2178](https://github.com/Live-Hack-CVE/CVE-2016-2178) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2178.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2178.svg)
+
+## CVE-2016-2177
+ OpenSSL through 1.0.2h incorrectly uses pointer arithmetic for heap-buffer boundary checks, which might allow remote attackers to cause a denial of service (integer overflow and application crash) or possibly have unspecified other impact by leveraging unexpected malloc behavior, related to s3_srvr.c, ssl_sess.c, and t1_lib.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2177](https://github.com/Live-Hack-CVE/CVE-2016-2177) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2177.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2177.svg)
+
+## CVE-2016-2176
+ The X509_NAME_oneline function in crypto/x509/x509_obj.c in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h allows remote attackers to obtain sensitive information from process stack memory or cause a denial of service (buffer over-read) via crafted EBCDIC ASN.1 data.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2176](https://github.com/Live-Hack-CVE/CVE-2016-2176) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2176.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2176.svg)
+
 ## CVE-2016-2173
  org.springframework.core.serializer.DefaultDeserializer in Spring AMQP before 1.5.5 allows remote attackers to execute arbitrary code.
 
@@ -1268,6 +1948,20 @@
 
 - [https://github.com/nickanderson/cfengine-CVE-2016-2118](https://github.com/nickanderson/cfengine-CVE-2016-2118) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE-2016-2118.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE-2016-2118.svg)
 
+## CVE-2016-2109
+ The asn1_d2i_read_bio function in crypto/asn1/a_d2i_fp.c in the ASN.1 BIO implementation in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h allows remote attackers to cause a denial of service (memory consumption) via a short invalid encoding.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2109](https://github.com/Live-Hack-CVE/CVE-2016-2109) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2109.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2109.svg)
+
+## CVE-2016-2108
+ The ASN.1 implementation in OpenSSL before 1.0.1o and 1.0.2 before 1.0.2c allows remote attackers to execute arbitrary code or cause a denial of service (buffer underflow and memory corruption) via an ANY field in crafted serialized data, aka the &quot;negative zero&quot; issue.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2108](https://github.com/Live-Hack-CVE/CVE-2016-2108) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2108.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2108.svg)
+
 ## CVE-2016-2107
  The AES-NI implementation in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h does not consider memory allocation during a certain padding check, which allows remote attackers to obtain sensitive cleartext information via a padding-oracle attack against an AES CBC session. NOTE: this vulnerability exists because of an incorrect fix for CVE-2013-0169.
 
@@ -1276,6 +1970,22 @@
 - [https://github.com/FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107) :  ![starts](https://img.shields.io/github/stars/FiloSottile/CVE-2016-2107.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/CVE-2016-2107.svg)
 
 - [https://github.com/tmiklas/docker-cve-2016-2107](https://github.com/tmiklas/docker-cve-2016-2107) :  ![starts](https://img.shields.io/github/stars/tmiklas/docker-cve-2016-2107.svg) ![forks](https://img.shields.io/github/forks/tmiklas/docker-cve-2016-2107.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2107](https://github.com/Live-Hack-CVE/CVE-2016-2107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2107.svg)
+
+## CVE-2016-2106
+ Integer overflow in the EVP_EncryptUpdate function in crypto/evp/evp_enc.c in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h allows remote attackers to cause a denial of service (heap memory corruption) via a large amount of data.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2106](https://github.com/Live-Hack-CVE/CVE-2016-2106) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2106.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2106.svg)
+
+## CVE-2016-2105
+ Integer overflow in the EVP_EncodeUpdate function in crypto/evp/encode.c in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h allows remote attackers to cause a denial of service (heap memory corruption) via a large amount of binary data.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2105](https://github.com/Live-Hack-CVE/CVE-2016-2105) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2105.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2105.svg)
 
 ## CVE-2016-2098
  Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x before 4.2.5.2 allows remote attackers to execute arbitrary Ruby code by leveraging an application's unrestricted use of the render method.
@@ -1298,9 +2008,9 @@
 
 - [https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit](https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit) :  ![starts](https://img.shields.io/github/stars/DanielCodex/CVE-2016-2098-my-first-exploit.svg) ![forks](https://img.shields.io/github/forks/DanielCodex/CVE-2016-2098-my-first-exploit.svg)
 
-- [https://github.com/3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/3rg1s/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/3rg1s/CVE-2016-2098.svg)
-
 - [https://github.com/Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Debalinax64/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Debalinax64/CVE-2016-2098.svg)
+
+- [https://github.com/3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/3rg1s/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/3rg1s/CVE-2016-2098.svg)
 
 ## CVE-2016-2067
  drivers/gpu/msm/kgsl.c in the MSM graphics driver (aka GPU driver) for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, mishandles the KGSL_MEMFLAGS_GPUREADONLY flag, which allows attackers to gain privileges by leveraging accidental read-write mappings, aka Qualcomm internal bug CR988993.
@@ -1315,6 +2025,20 @@
 
 
 - [https://github.com/vah13/SAP_exploit](https://github.com/vah13/SAP_exploit) :  ![starts](https://img.shields.io/github/stars/vah13/SAP_exploit.svg) ![forks](https://img.shields.io/github/forks/vah13/SAP_exploit.svg)
+
+## CVE-2016-1908
+ The client in OpenSSH before 7.2 mishandles failed cookie generation for untrusted X11 forwarding and relies on the local X11 server for access-control decisions, which allows remote X11 clients to trigger a fallback and obtain trusted X11 forwarding privileges by leveraging configuration issues on this X11 server, as demonstrated by lack of the SECURITY extension on this X11 server.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1908](https://github.com/Live-Hack-CVE/CVE-2016-1908) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1908.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1908.svg)
+
+## CVE-2016-1907
+ The ssh_packet_read_poll2 function in packet.c in OpenSSH before 7.1p2 allows remote attackers to cause a denial of service (out-of-bounds read and application crash) via crafted network traffic.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1907](https://github.com/Live-Hack-CVE/CVE-2016-1907) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1907.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1907.svg)
 
 ## CVE-2016-1828
  The kernel in Apple iOS before 9.3.2, OS X before 10.11.5, tvOS before 9.2.1, and watchOS before 2.2.1 allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app, a different vulnerability than CVE-2016-1827, CVE-2016-1829, and CVE-2016-1830.
@@ -1416,12 +2140,166 @@
 
 - [https://github.com/mhe18/CVE_Project](https://github.com/mhe18/CVE_Project) :  ![starts](https://img.shields.io/github/stars/mhe18/CVE_Project.svg) ![forks](https://img.shields.io/github/forks/mhe18/CVE_Project.svg)
 
+## CVE-2016-1010
+ Integer overflow in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0963 and CVE-2016-0993.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1010](https://github.com/Live-Hack-CVE/CVE-2016-1010) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1010.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1010.svg)
+
+## CVE-2016-1005
+ Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allow attackers to execute arbitrary code or cause a denial of service (uninitialized pointer dereference and memory corruption) via crafted MPEG-4 data, a different vulnerability than CVE-2016-0960, CVE-2016-0961, CVE-2016-0962, CVE-2016-0986, CVE-2016-0989, CVE-2016-0992, and CVE-2016-1002.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1005](https://github.com/Live-Hack-CVE/CVE-2016-1005) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1005.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1005.svg)
+
+## CVE-2016-1002
+ Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-0960, CVE-2016-0961, CVE-2016-0962, CVE-2016-0986, CVE-2016-0989, CVE-2016-0992, and CVE-2016-1005.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1002](https://github.com/Live-Hack-CVE/CVE-2016-1002) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1002.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1002.svg)
+
+## CVE-2016-1001
+ Heap-based buffer overflow in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1001](https://github.com/Live-Hack-CVE/CVE-2016-1001) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1001.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1001.svg)
+
+## CVE-2016-1000
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0987, CVE-2016-0988, CVE-2016-0990, CVE-2016-0991, CVE-2016-0994, CVE-2016-0995, CVE-2016-0996, CVE-2016-0997, CVE-2016-0998, and CVE-2016-0999.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1000](https://github.com/Live-Hack-CVE/CVE-2016-1000) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1000.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1000.svg)
+
+## CVE-2016-0999
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0987, CVE-2016-0988, CVE-2016-0990, CVE-2016-0991, CVE-2016-0994, CVE-2016-0995, CVE-2016-0996, CVE-2016-0997, CVE-2016-0998, and CVE-2016-1000.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0999](https://github.com/Live-Hack-CVE/CVE-2016-0999) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0999.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0999.svg)
+
+## CVE-2016-0998
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0987, CVE-2016-0988, CVE-2016-0990, CVE-2016-0991, CVE-2016-0994, CVE-2016-0995, CVE-2016-0996, CVE-2016-0997, CVE-2016-0999, and CVE-2016-1000.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0998](https://github.com/Live-Hack-CVE/CVE-2016-0998) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0998.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0998.svg)
+
+## CVE-2016-0997
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0987, CVE-2016-0988, CVE-2016-0990, CVE-2016-0991, CVE-2016-0994, CVE-2016-0995, CVE-2016-0996, CVE-2016-0998, CVE-2016-0999, and CVE-2016-1000.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0997](https://github.com/Live-Hack-CVE/CVE-2016-0997) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0997.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0997.svg)
+
+## CVE-2016-0996
+ Use-after-free vulnerability in the setInterval method in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via crafted arguments, a different vulnerability than CVE-2016-0987, CVE-2016-0988, CVE-2016-0990, CVE-2016-0991, CVE-2016-0994, CVE-2016-0995, CVE-2016-0997, CVE-2016-0998, CVE-2016-0999, and CVE-2016-1000.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0996](https://github.com/Live-Hack-CVE/CVE-2016-0996) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0996.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0996.svg)
+
+## CVE-2016-0995
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0987, CVE-2016-0988, CVE-2016-0990, CVE-2016-0991, CVE-2016-0994, CVE-2016-0996, CVE-2016-0997, CVE-2016-0998, CVE-2016-0999, and CVE-2016-1000.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0995](https://github.com/Live-Hack-CVE/CVE-2016-0995) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0995.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0995.svg)
+
+## CVE-2016-0994
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code by using the actionCallMethod opcode with crafted arguments, a different vulnerability than CVE-2016-0987, CVE-2016-0988, CVE-2016-0990, CVE-2016-0991, CVE-2016-0995, CVE-2016-0996, CVE-2016-0997, CVE-2016-0998, CVE-2016-0999, and CVE-2016-1000.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0994](https://github.com/Live-Hack-CVE/CVE-2016-0994) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0994.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0994.svg)
+
+## CVE-2016-0993
+ Integer overflow in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0963 and CVE-2016-1010.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0993](https://github.com/Live-Hack-CVE/CVE-2016-0993) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0993.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0993.svg)
+
+## CVE-2016-0992
+ Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-0960, CVE-2016-0961, CVE-2016-0962, CVE-2016-0986, CVE-2016-0989, CVE-2016-1002, and CVE-2016-1005.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0992](https://github.com/Live-Hack-CVE/CVE-2016-0992) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0992.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0992.svg)
+
+## CVE-2016-0990
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0987, CVE-2016-0988, CVE-2016-0991, CVE-2016-0994, CVE-2016-0995, CVE-2016-0996, CVE-2016-0997, CVE-2016-0998, CVE-2016-0999, and CVE-2016-1000.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0990](https://github.com/Live-Hack-CVE/CVE-2016-0990) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0990.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0990.svg)
+
+## CVE-2016-0989
+ Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-0960, CVE-2016-0961, CVE-2016-0962, CVE-2016-0986, CVE-2016-0992, CVE-2016-1002, and CVE-2016-1005.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0989](https://github.com/Live-Hack-CVE/CVE-2016-0989) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0989.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0989.svg)
+
+## CVE-2016-0987
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0988, CVE-2016-0990, CVE-2016-0991, CVE-2016-0994, CVE-2016-0995, CVE-2016-0996, CVE-2016-0997, CVE-2016-0998, CVE-2016-0999, and CVE-2016-1000.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0987](https://github.com/Live-Hack-CVE/CVE-2016-0987) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0987.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0987.svg)
+
+## CVE-2016-0986
+ Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-0960, CVE-2016-0961, CVE-2016-0962, CVE-2016-0989, CVE-2016-0992, CVE-2016-1002, and CVE-2016-1005.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0986](https://github.com/Live-Hack-CVE/CVE-2016-0986) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0986.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0986.svg)
+
+## CVE-2016-0985
+ Adobe Flash Player before 18.0.0.329 and 19.x and 20.x before 20.0.0.306 on Windows and OS X and before 11.2.202.569 on Linux, Adobe AIR before 20.0.0.260, Adobe AIR SDK before 20.0.0.260, and Adobe AIR SDK &amp; Compiler before 20.0.0.260 allow attackers to execute arbitrary code by leveraging an unspecified &quot;type confusion.&quot;
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0985](https://github.com/Live-Hack-CVE/CVE-2016-0985) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0985.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0985.svg)
+
 ## CVE-2016-0974
  Use-after-free vulnerability in Adobe Flash Player before 18.0.0.329 and 19.x and 20.x before 20.0.0.306 on Windows and OS X and before 11.2.202.569 on Linux, Adobe AIR before 20.0.0.260, Adobe AIR SDK before 20.0.0.260, and Adobe AIR SDK &amp; Compiler before 20.0.0.260 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0973, CVE-2016-0975, CVE-2016-0982, CVE-2016-0983, and CVE-2016-0984.
 
 
 
 - [https://github.com/Fullmetal5/FlashHax](https://github.com/Fullmetal5/FlashHax) :  ![starts](https://img.shields.io/github/stars/Fullmetal5/FlashHax.svg) ![forks](https://img.shields.io/github/forks/Fullmetal5/FlashHax.svg)
+
+## CVE-2016-0963
+ Integer overflow in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0993 and CVE-2016-1010.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0963](https://github.com/Live-Hack-CVE/CVE-2016-0963) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0963.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0963.svg)
+
+## CVE-2016-0962
+ Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-0960, CVE-2016-0961, CVE-2016-0986, CVE-2016-0989, CVE-2016-0992, CVE-2016-1002, and CVE-2016-1005.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0962](https://github.com/Live-Hack-CVE/CVE-2016-0962) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0962.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0962.svg)
+
+## CVE-2016-0961
+ Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-0960, CVE-2016-0962, CVE-2016-0986, CVE-2016-0989, CVE-2016-0992, CVE-2016-1002, and CVE-2016-1005.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0961](https://github.com/Live-Hack-CVE/CVE-2016-0961) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0961.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0961.svg)
+
+## CVE-2016-0960
+ Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-0961, CVE-2016-0962, CVE-2016-0986, CVE-2016-0989, CVE-2016-0992, CVE-2016-1002, and CVE-2016-1005.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0960](https://github.com/Live-Hack-CVE/CVE-2016-0960) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0960.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0960.svg)
 
 ## CVE-2016-0856
  Multiple stack-based buffer overflows in Advantech WebAccess before 8.1 allow remote attackers to execute arbitrary code via unspecified vectors.
@@ -1464,6 +2342,29 @@
 
 - [https://github.com/clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/clic-kbait/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/clic-kbait/A2SV--SSL-VUL-Scan.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2016-0800](https://github.com/Live-Hack-CVE/CVE-2016-0800) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0800.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0800.svg)
+
+## CVE-2016-0799
+ The fmtstr function in crypto/bio/b_print.c in OpenSSL 1.0.1 before 1.0.1s and 1.0.2 before 1.0.2g improperly calculates string lengths, which allows remote attackers to cause a denial of service (overflow and out-of-bounds read) or possibly have unspecified other impact via a long string, as demonstrated by a large amount of ASN.1 data, a different vulnerability than CVE-2016-2842.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0799](https://github.com/Live-Hack-CVE/CVE-2016-0799) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0799.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0799.svg)
+
+## CVE-2016-0798
+ Memory leak in the SRP_VBASE_get_by_user implementation in OpenSSL 1.0.1 before 1.0.1s and 1.0.2 before 1.0.2g allows remote attackers to cause a denial of service (memory consumption) by providing an invalid username in a connection attempt, related to apps/s_server.c and crypto/srp/srp_vfy.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0798](https://github.com/Live-Hack-CVE/CVE-2016-0798) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0798.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0798.svg)
+
+## CVE-2016-0797
+ Multiple integer overflows in OpenSSL 1.0.1 before 1.0.1s and 1.0.2 before 1.0.2g allow remote attackers to cause a denial of service (heap memory corruption or NULL pointer dereference) or possibly have unspecified other impact via a long digit string that is mishandled by the (1) BN_dec2bn or (2) BN_hex2bn function, related to crypto/bn/bn.h and crypto/bn/bn_print.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0797](https://github.com/Live-Hack-CVE/CVE-2016-0797) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0797.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0797.svg)
+
 ## CVE-2016-0793
  Incomplete blacklist vulnerability in the servlet filter restriction mechanism in WildFly (formerly JBoss Application Server) before 10.0.0.Final on Windows allows remote attackers to read the sensitive files in the (1) WEB-INF or (2) META-INF directory via a request that contains (a) lowercase or (b) &quot;meaningless&quot; characters.
 
@@ -1481,6 +2382,20 @@
 - [https://github.com/R0B1NL1N/java-deserialization-exploits](https://github.com/R0B1NL1N/java-deserialization-exploits) :  ![starts](https://img.shields.io/github/stars/R0B1NL1N/java-deserialization-exploits.svg) ![forks](https://img.shields.io/github/forks/R0B1NL1N/java-deserialization-exploits.svg)
 
 - [https://github.com/Aviksaikat/CVE-2016-0792](https://github.com/Aviksaikat/CVE-2016-0792) :  ![starts](https://img.shields.io/github/stars/Aviksaikat/CVE-2016-0792.svg) ![forks](https://img.shields.io/github/forks/Aviksaikat/CVE-2016-0792.svg)
+
+## CVE-2016-0778
+ The (1) roaming_read and (2) roaming_write functions in roaming_common.c in the client in OpenSSH 5.x, 6.x, and 7.x before 7.1p2, when certain proxy and forward options are enabled, do not properly maintain connection file descriptors, which allows remote servers to cause a denial of service (heap-based buffer overflow) or possibly have unspecified other impact by requesting many forwardings.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0778](https://github.com/Live-Hack-CVE/CVE-2016-0778) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0778.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0778.svg)
+
+## CVE-2016-0777
+ The resend_bytes function in roaming_common.c in the client in OpenSSH 5.x, 6.x, and 7.x before 7.1p2 allows remote servers to obtain sensitive information from process memory by requesting transmission of an entire buffer, as demonstrated by reading a private key.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0777](https://github.com/Live-Hack-CVE/CVE-2016-0777) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0777.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0777.svg)
 
 ## CVE-2016-0772
  The smtplib library in CPython (aka Python) before 2.7.12, 3.x before 3.4.5, and 3.5.x before 3.5.2 does not return an error when StartTLS fails, which might allow man-in-the-middle attackers to bypass the TLS protections by leveraging a network position between the client and the registry to block the StartTLS command, aka a &quot;StartTLS stripping attack.&quot;
@@ -1539,12 +2454,42 @@
 
 - [https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit](https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit) :  ![starts](https://img.shields.io/github/stars/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit.svg) ![forks](https://img.shields.io/github/forks/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit.svg)
 
+## CVE-2016-0705
+ Double free vulnerability in the dsa_priv_decode function in crypto/dsa/dsa_ameth.c in OpenSSL 1.0.1 before 1.0.1s and 1.0.2 before 1.0.2g allows remote attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via a malformed DSA private key.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0705](https://github.com/Live-Hack-CVE/CVE-2016-0705) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0705.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0705.svg)
+
+## CVE-2016-0704
+ An oracle protection mechanism in the get_client_master_key function in s2_srvr.c in the SSLv2 implementation in OpenSSL before 0.9.8zf, 1.0.0 before 1.0.0r, 1.0.1 before 1.0.1m, and 1.0.2 before 1.0.2a overwrites incorrect MASTER-KEY bytes during use of export cipher suites, which makes it easier for remote attackers to decrypt TLS ciphertext data by leveraging a Bleichenbacher RSA padding oracle, a related issue to CVE-2016-0800.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0704](https://github.com/Live-Hack-CVE/CVE-2016-0704) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0704.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0704.svg)
+
+## CVE-2016-0703
+ The get_client_master_key function in s2_srvr.c in the SSLv2 implementation in OpenSSL before 0.9.8zf, 1.0.0 before 1.0.0r, 1.0.1 before 1.0.1m, and 1.0.2 before 1.0.2a accepts a nonzero CLIENT-MASTER-KEY CLEAR-KEY-LENGTH value for an arbitrary cipher, which allows man-in-the-middle attackers to determine the MASTER-KEY value and decrypt TLS ciphertext data by leveraging a Bleichenbacher RSA padding oracle, a related issue to CVE-2016-0800.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0703](https://github.com/Live-Hack-CVE/CVE-2016-0703) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0703.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0703.svg)
+
+## CVE-2016-0702
+ The MOD_EXP_CTIME_COPY_FROM_PREBUF function in crypto/bn/bn_exp.c in OpenSSL 1.0.1 before 1.0.1s and 1.0.2 before 1.0.2g does not properly consider cache-bank access times during modular exponentiation, which makes it easier for local users to discover RSA keys by running a crafted application on the same Intel Sandy Bridge CPU core as a victim and leveraging cache-bank conflicts, aka a &quot;CacheBleed&quot; attack.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0702](https://github.com/Live-Hack-CVE/CVE-2016-0702) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0702.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0702.svg)
+
 ## CVE-2016-0701
  The DH_check_pub_key function in crypto/dh/dh_check.c in OpenSSL 1.0.2 before 1.0.2f does not ensure that prime numbers are appropriate for Diffie-Hellman (DH) key exchange, which makes it easier for remote attackers to discover a private DH exponent by making multiple handshakes with a peer that chose an inappropriate number, as demonstrated by a number in an X9.42 file.
 
 
 
 - [https://github.com/luanjampa/cve-2016-0701](https://github.com/luanjampa/cve-2016-0701) :  ![starts](https://img.shields.io/github/stars/luanjampa/cve-2016-0701.svg) ![forks](https://img.shields.io/github/forks/luanjampa/cve-2016-0701.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0701](https://github.com/Live-Hack-CVE/CVE-2016-0701) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0701.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0701.svg)
 
 ## CVE-2016-0638
  Unspecified vulnerability in the Oracle WebLogic Server component in Oracle Fusion Middleware 10.3.6, 12.1.2, 12.1.3, and 12.2.1 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to Java Messaging Service.
@@ -1565,6 +2510,13 @@
 
 
 - [https://github.com/rwincey/Oracle-GoldenGate---CVE-2016-0451](https://github.com/rwincey/Oracle-GoldenGate---CVE-2016-0451) :  ![starts](https://img.shields.io/github/stars/rwincey/Oracle-GoldenGate---CVE-2016-0451.svg) ![forks](https://img.shields.io/github/forks/rwincey/Oracle-GoldenGate---CVE-2016-0451.svg)
+
+## CVE-2016-0371
+ The Tivoli Storage Manager (TSM) password may be displayed in plain text via application trace output while application tracing is enabled.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-0371](https://github.com/Live-Hack-CVE/CVE-2016-0371) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-0371.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-0371.svg)
 
 ## CVE-2016-0199
  Microsoft Internet Explorer 9 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-0200 and CVE-2016-3211.
