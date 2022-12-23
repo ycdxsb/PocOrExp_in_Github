@@ -26,6 +26,20 @@
 
 - [https://github.com/quinn-samuel-perry/CVE-2010-4669](https://github.com/quinn-samuel-perry/CVE-2010-4669) :  ![starts](https://img.shields.io/github/stars/quinn-samuel-perry/CVE-2010-4669.svg) ![forks](https://img.shields.io/github/forks/quinn-samuel-perry/CVE-2010-4669.svg)
 
+## CVE-2010-4606
+ Unspecified vulnerability in the Space Management client in the Hierarchical Storage Management (HSM) component in IBM Tivoli Storage Manager (TSM) 5.4.x before 5.4.3.4, 5.5.x before 5.5.3, 6.1.x before 6.1.4, and 6.2.x before 6.2.2 on Unix and Linux allows remote attackers to execute arbitrary commands via unknown vectors, related to a &quot;script execution vulnerability.&quot;
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-4606](https://github.com/Live-Hack-CVE/CVE-2010-4606) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-4606.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-4606.svg)
+
+## CVE-2010-4604
+ Stack-based buffer overflow in the GeneratePassword function in dsmtca (aka the Trusted Communications Agent or TCA) in the backup-archive client in IBM Tivoli Storage Manager (TSM) 5.3.x before 5.3.6.10, 5.4.x before 5.4.3.4, 5.5.x before 5.5.2.10, and 6.1.x before 6.1.3.1 on Unix and Linux allows local users to gain privileges by specifying a long LANG environment variable, and then sending a request over a pipe.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-4604](https://github.com/Live-Hack-CVE/CVE-2010-4604) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-4604.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-4604.svg)
+
 ## CVE-2010-4502
  Integer overflow in KmxSbx.sys 6.2.0.22 in CA Internet Security Suite Plus 2010 allows local users to cause a denial of service (pool corruption) and execute arbitrary code via crafted arguments to the 0x88000080 IOCTL, which triggers a buffer overflow.
 
@@ -39,6 +53,20 @@
 
 
 - [https://github.com/grzegorzblaszczyk/CVE-2010-4476-check](https://github.com/grzegorzblaszczyk/CVE-2010-4476-check) :  ![starts](https://img.shields.io/github/stars/grzegorzblaszczyk/CVE-2010-4476-check.svg) ![forks](https://img.shields.io/github/forks/grzegorzblaszczyk/CVE-2010-4476-check.svg)
+
+## CVE-2010-4296
+ vmware-mount in VMware Workstation 7.x before 7.1.2 build 301548 on Linux, VMware Player 3.1.x before 3.1.2 build 301548 on Linux, VMware Server 2.0.2 on Linux, and VMware Fusion 3.1.x before 3.1.2 build 332101 does not properly load libraries, which allows host OS users to gain privileges via vectors involving shared object files.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-4296](https://github.com/Live-Hack-CVE/CVE-2010-4296) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-4296.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-4296.svg)
+
+## CVE-2010-4295
+ Race condition in the mounting process in vmware-mount in VMware Workstation 7.x before 7.1.2 build 301548 on Linux, VMware Player 3.1.x before 3.1.2 build 301548 on Linux, VMware Server 2.0.2 on Linux, and VMware Fusion 3.1.x before 3.1.2 build 332101 allows host OS users to gain privileges via vectors involving temporary files.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-4295](https://github.com/Live-Hack-CVE/CVE-2010-4295) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-4295.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-4295.svg)
 
 ## CVE-2010-4221
  Multiple stack-based buffer overflows in the pr_netio_telnet_gets function in netio.c in ProFTPD before 1.3.3c allow remote attackers to execute arbitrary code via vectors involving a TELNET IAC escape character to a (1) FTP or (2) FTPS server.
@@ -148,6 +176,13 @@
 - [https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075](https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075) :  ![starts](https://img.shields.io/github/stars/MFernstrom/OffensivePascal-CVE-2010-2075.svg) ![forks](https://img.shields.io/github/forks/MFernstrom/OffensivePascal-CVE-2010-2075.svg)
 
 - [https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE) :  ![starts](https://img.shields.io/github/stars/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg) ![forks](https://img.shields.io/github/forks/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg)
+
+## CVE-2010-1717
+ Directory traversal vulnerability in the iF surfALERT (com_if_surfalert) component 1.2 for Joomla! allows remote attackers to read arbitrary files and possibly have unspecified other impact via a .. (dot dot) in the controller parameter to index.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-1717](https://github.com/Live-Hack-CVE/CVE-2010-1717) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-1717.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-1717.svg)
 
 ## CVE-2010-1622
  SpringSource Spring Framework 2.5.x before 2.5.6.SEC02, 2.5.7 before 2.5.7.SR01, and 3.0.x before 3.0.3 allows remote attackers to execute arbitrary code via an HTTP request containing class.classLoader.URLs[0]=jar: followed by a URL of a crafted .jar file.
