@@ -14,6 +14,13 @@
 
 - [https://github.com/Rodney-O-C-Melby/dns-zone-transfer-test](https://github.com/Rodney-O-C-Melby/dns-zone-transfer-test) :  ![starts](https://img.shields.io/github/stars/Rodney-O-C-Melby/dns-zone-transfer-test.svg) ![forks](https://img.shields.io/github/forks/Rodney-O-C-Melby/dns-zone-transfer-test.svg)
 
+## CVE-1999-0524
+ ICMP information such as (1) netmask and (2) timestamp is allowed from arbitrary hosts.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-1999-0524](https://github.com/Live-Hack-CVE/CVE-1999-0524) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-1999-0524.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-1999-0524.svg)
+
 ## CVE-1999-0016
  Land IP denial of service.
 
