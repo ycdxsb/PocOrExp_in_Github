@@ -21,6 +21,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-20018](https://github.com/Live-Hack-CVE/CVE-2016-20018) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-20018.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-20018.svg)
 
+## CVE-2016-20017
+ D-Link DSL-2750B devices before 1.05 allow remote unauthenticated command injection via the login.cgi cli parameter, as exploited in the wild in 2016 through 2022.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-20017](https://github.com/Live-Hack-CVE/CVE-2016-20017) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-20017.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-20017.svg)
+
+## CVE-2016-20016
+ MVPower CCTV DVR models, including TV-7104HE 1.8.4 115215B9 and TV7108HE, contain a web shell that is accessible via a /shell URI. A remote unauthenticated attacker can execute arbitrary operating system commands as root. This vulnerability has also been referred to as the &quot;JAWS webserver RCE&quot; because of the easily identifying HTTP response server field. Other firmware versions, at least from 2014 through 2019, can be affected. This was exploited in the wild in 2017 through 2022.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-20016](https://github.com/Live-Hack-CVE/CVE-2016-20016) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-20016.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-20016.svg)
+
 ## CVE-2016-10956
  The mail-masta plugin 1.0 for WordPress has local file inclusion in count_of_send.php and csvexport.php.
 
@@ -103,6 +117,20 @@
 - [https://github.com/alephsecurity/initroot](https://github.com/alephsecurity/initroot) :  ![starts](https://img.shields.io/github/stars/alephsecurity/initroot.svg) ![forks](https://img.shields.io/github/forks/alephsecurity/initroot.svg)
 
 - [https://github.com/leosol/initroot](https://github.com/leosol/initroot) :  ![starts](https://img.shields.io/github/stars/leosol/initroot.svg) ![forks](https://img.shields.io/github/forks/leosol/initroot.svg)
+
+## CVE-2016-10229
+ udp.c in the Linux kernel before 4.5 allows remote attackers to execute arbitrary code via UDP traffic that triggers an unsafe second checksum calculation during execution of a recv system call with the MSG_PEEK flag.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-10229](https://github.com/Live-Hack-CVE/CVE-2016-10229) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-10229.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-10229.svg)
+
+## CVE-2016-10228
+ The iconv program in the GNU C Library (aka glibc or libc6) 2.31 and earlier, when invoked with multiple suffixes in the destination encoding (TRANSLATE or IGNORE) along with the -c option, enters an infinite loop when processing invalid multi-byte input sequences, leading to a denial of service.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-10228](https://github.com/Live-Hack-CVE/CVE-2016-10228) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-10228.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-10228.svg)
 
 ## CVE-2016-10191
  Heap-based buffer overflow in libavformat/rtmppkt.c in FFmpeg before 2.8.10, 3.0.x before 3.0.5, 3.1.x before 3.1.6, and 3.2.x before 3.2.2 allows remote attackers to execute arbitrary code by leveraging failure to check for RTMP packet size mismatches.
@@ -653,9 +681,9 @@
 
 - [https://github.com/LakshmiDesai/CVE-2016-8655](https://github.com/LakshmiDesai/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/LakshmiDesai/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/LakshmiDesai/CVE-2016-8655.svg)
 
-- [https://github.com/agkunkle/chocobo](https://github.com/agkunkle/chocobo) :  ![starts](https://img.shields.io/github/stars/agkunkle/chocobo.svg) ![forks](https://img.shields.io/github/forks/agkunkle/chocobo.svg)
-
 - [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) :  ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
+
+- [https://github.com/agkunkle/chocobo](https://github.com/agkunkle/chocobo) :  ![starts](https://img.shields.io/github/stars/agkunkle/chocobo.svg) ![forks](https://img.shields.io/github/forks/agkunkle/chocobo.svg)
 
 - [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
 
@@ -841,6 +869,118 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-7913](https://github.com/Live-Hack-CVE/CVE-2016-7913) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7913.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7913.svg)
 
+## CVE-2016-7892
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable use after free vulnerability in the TextField class. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7892](https://github.com/Live-Hack-CVE/CVE-2016-7892) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7892.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7892.svg)
+
+## CVE-2016-7890
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have security bypass vulnerability in the implementation of the same origin policy.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7890](https://github.com/Live-Hack-CVE/CVE-2016-7890) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7890.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7890.svg)
+
+## CVE-2016-7881
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable use after free vulnerability in the MovieClip class when handling conversion to an object. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7881](https://github.com/Live-Hack-CVE/CVE-2016-7881) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7881.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7881.svg)
+
+## CVE-2016-7880
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable use after free vulnerability when setting the length property of an array object. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7880](https://github.com/Live-Hack-CVE/CVE-2016-7880) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7880.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7880.svg)
+
+## CVE-2016-7879
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable use after free vulnerability in the NetConnection class when handling an attached script object. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7879](https://github.com/Live-Hack-CVE/CVE-2016-7879) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7879.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7879.svg)
+
+## CVE-2016-7878
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable use after free vulnerability in the PSDK's MediaPlayer class. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7878](https://github.com/Live-Hack-CVE/CVE-2016-7878) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7878.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7878.svg)
+
+## CVE-2016-7877
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable use after free vulnerability in the Action Message Format serialization (AFM0). Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7877](https://github.com/Live-Hack-CVE/CVE-2016-7877) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7877.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7877.svg)
+
+## CVE-2016-7875
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable integer overflow vulnerability in the BitmapData class. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7875](https://github.com/Live-Hack-CVE/CVE-2016-7875) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7875.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7875.svg)
+
+## CVE-2016-7874
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable memory corruption vulnerability in the NetConnection class when handling the proxy types. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7874](https://github.com/Live-Hack-CVE/CVE-2016-7874) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7874.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7874.svg)
+
+## CVE-2016-7873
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable memory corruption vulnerability in the PSDK class related to ad policy functionality method. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7873](https://github.com/Live-Hack-CVE/CVE-2016-7873) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7873.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7873.svg)
+
+## CVE-2016-7872
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable use after free vulnerability in the MovieClip class related to objects at multiple presentation levels. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7872](https://github.com/Live-Hack-CVE/CVE-2016-7872) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7872.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7872.svg)
+
+## CVE-2016-7871
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable memory corruption vulnerability in the Worker class. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7871](https://github.com/Live-Hack-CVE/CVE-2016-7871) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7871.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7871.svg)
+
+## CVE-2016-7870
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable buffer overflow / underflow vulnerability in the RegExp class for specific search strategies. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7870](https://github.com/Live-Hack-CVE/CVE-2016-7870) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7870.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7870.svg)
+
+## CVE-2016-7869
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable buffer overflow / underflow vulnerability in the RegExp class related to backtrack search functionality. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7869](https://github.com/Live-Hack-CVE/CVE-2016-7869) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7869.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7869.svg)
+
+## CVE-2016-7868
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable buffer overflow / underflow vulnerability in the RegExp class related to alternation functionality. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7868](https://github.com/Live-Hack-CVE/CVE-2016-7868) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7868.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7868.svg)
+
+## CVE-2016-7867
+ Adobe Flash Player versions 23.0.0.207 and earlier, 11.2.202.644 and earlier have an exploitable buffer overflow / underflow vulnerability in the RegExp class related to bookmarking in searches. Successful exploitation could lead to arbitrary code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7867](https://github.com/Live-Hack-CVE/CVE-2016-7867) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7867.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7867.svg)
+
 ## CVE-2016-7855
  Use-after-free vulnerability in Adobe Flash Player before 23.0.0.205 on Windows and OS X and before 11.2.202.643 on Linux allows remote attackers to execute arbitrary code via unspecified vectors, as exploited in the wild in October 2016.
 
@@ -861,6 +1001,13 @@
 
 
 - [https://github.com/bazad/IOFireWireFamily-overflow](https://github.com/bazad/IOFireWireFamily-overflow) :  ![starts](https://img.shields.io/github/stars/bazad/IOFireWireFamily-overflow.svg) ![forks](https://img.shields.io/github/forks/bazad/IOFireWireFamily-overflow.svg)
+
+## CVE-2016-7440
+ The C software implementation of AES Encryption and Decryption in wolfSSL (formerly CyaSSL) before 3.9.10 makes it easier for local users to discover AES keys by leveraging cache-bank timing differences.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7440](https://github.com/Live-Hack-CVE/CVE-2016-7440) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7440.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7440.svg)
 
 ## CVE-2016-7434
  The read_mru_list function in NTP before 4.2.8p9 allows remote attackers to cause a denial of service (crash) via a crafted mrulist query.
@@ -915,6 +1062,13 @@
 
 
 - [https://github.com/KosukeShimofuji/CVE-2016-7117](https://github.com/KosukeShimofuji/CVE-2016-7117) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-7117.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-7117.svg)
+
+## CVE-2016-7103
+ Cross-site scripting (XSS) vulnerability in jQuery UI before 1.12.0 might allow remote attackers to inject arbitrary web script or HTML via the closeText parameter of the dialog function.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7103](https://github.com/Live-Hack-CVE/CVE-2016-7103) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7103.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7103.svg)
 
 ## CVE-2016-6992
  Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code by leveraging an unspecified &quot;type confusion.&quot;
@@ -985,6 +1139,20 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-6981](https://github.com/Live-Hack-CVE/CVE-2016-6981) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6981.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6981.svg)
+
+## CVE-2016-6924
+ Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4274, CVE-2016-4275, CVE-2016-4276, CVE-2016-4280, CVE-2016-4281, CVE-2016-4282, CVE-2016-4283, CVE-2016-4284, CVE-2016-4285, and CVE-2016-6922.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6924](https://github.com/Live-Hack-CVE/CVE-2016-6924) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6924.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6924.svg)
+
+## CVE-2016-6922
+ Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4274, CVE-2016-4275, CVE-2016-4276, CVE-2016-4280, CVE-2016-4281, CVE-2016-4282, CVE-2016-4283, CVE-2016-4284, CVE-2016-4285, and CVE-2016-6924.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6922](https://github.com/Live-Hack-CVE/CVE-2016-6922) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6922.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6922.svg)
 
 ## CVE-2016-6801
  Cross-site request forgery (CSRF) vulnerability in the CSRF content-type check in Jackrabbit-Webdav in Apache Jackrabbit 2.4.x before 2.4.6, 2.6.x before 2.6.6, 2.8.x before 2.8.3, 2.10.x before 2.10.4, 2.12.x before 2.12.4, and 2.13.x before 2.13.3 allows remote attackers to hijack the authentication of unspecified victims for requests that create a resource via an HTTP POST request with a (1) missing or (2) crafted Content-Type header.
@@ -1261,6 +1429,13 @@
 
 - [https://github.com/insuyun/CVE-2016-5636](https://github.com/insuyun/CVE-2016-5636) :  ![starts](https://img.shields.io/github/stars/insuyun/CVE-2016-5636.svg) ![forks](https://img.shields.io/github/forks/insuyun/CVE-2016-5636.svg)
 
+## CVE-2016-5584
+ Unspecified vulnerability in Oracle MySQL 5.5.52 and earlier, 5.6.33 and earlier, and 5.7.15 and earlier allows remote administrators to affect confidentiality via vectors related to Server: Security: Encryption.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-5584](https://github.com/Live-Hack-CVE/CVE-2016-5584) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-5584.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-5584.svg)
+
 ## CVE-2016-5345
  Buffer overflow in the Qualcomm radio driver in Android before 2017-01-05 on Android One devices allows local users to gain privileges via a crafted application, aka Android internal bug 32639452 and Qualcomm internal bug CR1079713.
 
@@ -1329,11 +1504,11 @@
 
 - [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
 
+- [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
+
 - [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
 
 - [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
-
-- [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
 
 - [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
 
@@ -1539,6 +1714,90 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4432](https://github.com/Live-Hack-CVE/CVE-2016-4432) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4432.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4432.svg)
 
+## CVE-2016-4287
+ Integer overflow in Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4287](https://github.com/Live-Hack-CVE/CVE-2016-4287) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4287.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4287.svg)
+
+## CVE-2016-4284
+ Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4274, CVE-2016-4275, CVE-2016-4276, CVE-2016-4280, CVE-2016-4281, CVE-2016-4282, CVE-2016-4283, CVE-2016-4285, CVE-2016-6922, and CVE-2016-6924.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4284](https://github.com/Live-Hack-CVE/CVE-2016-4284) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4284.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4284.svg)
+
+## CVE-2016-4283
+ Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4274, CVE-2016-4275, CVE-2016-4276, CVE-2016-4280, CVE-2016-4281, CVE-2016-4282, CVE-2016-4284, CVE-2016-4285, CVE-2016-6922, and CVE-2016-6924.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4283](https://github.com/Live-Hack-CVE/CVE-2016-4283) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4283.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4283.svg)
+
+## CVE-2016-4282
+ Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4274, CVE-2016-4275, CVE-2016-4276, CVE-2016-4280, CVE-2016-4281, CVE-2016-4283, CVE-2016-4284, CVE-2016-4285, CVE-2016-6922, and CVE-2016-6924.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4282](https://github.com/Live-Hack-CVE/CVE-2016-4282) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4282.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4282.svg)
+
+## CVE-2016-4281
+ Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4274, CVE-2016-4275, CVE-2016-4276, CVE-2016-4280, CVE-2016-4282, CVE-2016-4283, CVE-2016-4284, CVE-2016-4285, CVE-2016-6922, and CVE-2016-6924.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4281](https://github.com/Live-Hack-CVE/CVE-2016-4281) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4281.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4281.svg)
+
+## CVE-2016-4280
+ Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4274, CVE-2016-4275, CVE-2016-4276, CVE-2016-4281, CVE-2016-4282, CVE-2016-4283, CVE-2016-4284, CVE-2016-4285, CVE-2016-6922, and CVE-2016-6924.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4280](https://github.com/Live-Hack-CVE/CVE-2016-4280) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4280.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4280.svg)
+
+## CVE-2016-4277
+ Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to bypass intended access restrictions and obtain sensitive information via unspecified vectors, a different vulnerability than CVE-2016-4271 and CVE-2016-4278.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4277](https://github.com/Live-Hack-CVE/CVE-2016-4277) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4277.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4277.svg)
+
+## CVE-2016-4276
+ Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4274, CVE-2016-4275, CVE-2016-4280, CVE-2016-4281, CVE-2016-4282, CVE-2016-4283, CVE-2016-4284, CVE-2016-4285, CVE-2016-6922, and CVE-2016-6924.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4276](https://github.com/Live-Hack-CVE/CVE-2016-4276) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4276.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4276.svg)
+
+## CVE-2016-4275
+ Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4274, CVE-2016-4276, CVE-2016-4280, CVE-2016-4281, CVE-2016-4282, CVE-2016-4283, CVE-2016-4284, CVE-2016-4285, CVE-2016-6922, and CVE-2016-6924.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4275](https://github.com/Live-Hack-CVE/CVE-2016-4275) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4275.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4275.svg)
+
+## CVE-2016-4274
+ Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4275, CVE-2016-4276, CVE-2016-4280, CVE-2016-4281, CVE-2016-4282, CVE-2016-4283, CVE-2016-4284, CVE-2016-4285, CVE-2016-6922, and CVE-2016-6924.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4274](https://github.com/Live-Hack-CVE/CVE-2016-4274) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4274.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4274.svg)
+
+## CVE-2016-4273
+ Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-6982, CVE-2016-6983, CVE-2016-6984, CVE-2016-6985, CVE-2016-6986, CVE-2016-6989, and CVE-2016-6990.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4273](https://github.com/Live-Hack-CVE/CVE-2016-4273) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4273.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4273.svg)
+
+## CVE-2016-4271
+ Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to bypass intended access restrictions and obtain sensitive information via unspecified vectors, a different vulnerability than CVE-2016-4277 and CVE-2016-4278, aka a &quot;local-with-filesystem Flash sandbox bypass&quot; issue.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4271](https://github.com/Live-Hack-CVE/CVE-2016-4271) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4271.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4271.svg)
+
 ## CVE-2016-4163
  Adobe Flash Player before 18.0.0.352 and 19.x through 21.x before 21.0.0.242 on Windows and OS X and before 11.2.202.621 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1096, CVE-2016-1098, CVE-2016-1099, CVE-2016-1100, CVE-2016-1102, CVE-2016-1104, CVE-2016-4109, CVE-2016-4111, CVE-2016-4112, CVE-2016-4113, CVE-2016-4114, CVE-2016-4115, CVE-2016-4120, CVE-2016-4160, CVE-2016-4161, and CVE-2016-4162.
 
@@ -1641,6 +1900,8 @@
 
 - [https://github.com/pqsec/uboatdemo](https://github.com/pqsec/uboatdemo) :  ![starts](https://img.shields.io/github/stars/pqsec/uboatdemo.svg) ![forks](https://img.shields.io/github/forks/pqsec/uboatdemo.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2016-3955](https://github.com/Live-Hack-CVE/CVE-2016-3955) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-3955.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-3955.svg)
+
 ## CVE-2016-3861
  LibUtils in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, 6.x before 2016-09-01, and 7.0 before 2016-09-01 mishandles conversions between Unicode character encodings with different encoding widths, which allows remote attackers to execute arbitrary code or cause a denial of service (heap-based buffer overflow) via a crafted file, aka internal bug 29250543.
 
@@ -1654,6 +1915,13 @@
 
 
 - [https://github.com/nirdev/CVE-2016-3749-PoC](https://github.com/nirdev/CVE-2016-3749-PoC) :  ![starts](https://img.shields.io/github/stars/nirdev/CVE-2016-3749-PoC.svg) ![forks](https://img.shields.io/github/forks/nirdev/CVE-2016-3749-PoC.svg)
+
+## CVE-2016-3735
+ Piwigo is image gallery software written in PHP. When a criteria is not met on a host, piwigo defaults to usingmt_rand in order to generate password reset tokens. mt_rand output can be predicted after recovering the seed used to generate it. This low an unauthenticated attacker to take over an account providing they know an administrators email address in order to be able to request password reset.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-3735](https://github.com/Live-Hack-CVE/CVE-2016-3735) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-3735.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-3735.svg)
 
 ## CVE-2016-3714
  The (1) EPHEMERAL, (2) HTTPS, (3) MVG, (4) MSL, (5) TEXT, (6) SHOW, (7) WIN, and (8) PLT coders in ImageMagick before 6.9.3-10 and 7.x before 7.0.1-1 allow remote attackers to execute arbitrary code via shell metacharacters in a crafted image, aka &quot;ImageTragick.&quot;
@@ -2019,6 +2287,13 @@
 
 - [https://github.com/hhj4ck/CVE-2016-2067](https://github.com/hhj4ck/CVE-2016-2067) :  ![starts](https://img.shields.io/github/stars/hhj4ck/CVE-2016-2067.svg) ![forks](https://img.shields.io/github/forks/hhj4ck/CVE-2016-2067.svg)
 
+## CVE-2016-2031
+ Multiple vulnerabilities exists in Aruba Instate before 4.1.3.0 and 4.2.3.1 due to insufficient validation of user-supplied input and insufficient checking of parameters, which could allow a malicious user to bypass security restrictions, obtain sensitive information, perform unauthorized actions and execute arbitrary code.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2031](https://github.com/Live-Hack-CVE/CVE-2016-2031) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2031.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2031.svg)
+
 ## CVE-2016-1910
  The User Management Engine (UME) in SAP NetWeaver 7.4 allows attackers to decrypt unspecified data via unknown vectors, aka SAP Security Note 2191290.
 
@@ -2139,6 +2414,13 @@
 - [https://github.com/Naramsim/Offensive](https://github.com/Naramsim/Offensive) :  ![starts](https://img.shields.io/github/stars/Naramsim/Offensive.svg) ![forks](https://img.shields.io/github/forks/Naramsim/Offensive.svg)
 
 - [https://github.com/mhe18/CVE_Project](https://github.com/mhe18/CVE_Project) :  ![starts](https://img.shields.io/github/stars/mhe18/CVE_Project.svg) ![forks](https://img.shields.io/github/forks/mhe18/CVE_Project.svg)
+
+## CVE-2016-1019
+ Adobe Flash Player 21.0.0.197 and earlier allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via unspecified vectors, as exploited in the wild in April 2016.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1019](https://github.com/Live-Hack-CVE/CVE-2016-1019) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1019.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1019.svg)
 
 ## CVE-2016-1010
  Integer overflow in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0963 and CVE-2016-0993.
