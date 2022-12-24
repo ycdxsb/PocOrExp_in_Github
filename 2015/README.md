@@ -5,6 +5,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-9261
+ huft_build in archival/libarchive/decompress_gunzip.c in BusyBox before 1.27.2 misuses a pointer, causing segfaults and an application crash during an unzip operation on a specially crafted ZIP file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-9261](https://github.com/Live-Hack-CVE/CVE-2015-9261) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-9261.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-9261.svg)
+
 ## CVE-2015-9251
  jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed.
 
@@ -18,6 +25,13 @@
 
 
 - [https://github.com/aalex954/jwt-key-confusion-poc](https://github.com/aalex954/jwt-key-confusion-poc) :  ![starts](https://img.shields.io/github/stars/aalex954/jwt-key-confusion-poc.svg) ![forks](https://img.shields.io/github/forks/aalex954/jwt-key-confusion-poc.svg)
+
+## CVE-2015-8873
+ Stack consumption vulnerability in Zend/zend_exceptions.c in PHP before 5.4.44, 5.5.x before 5.5.28, and 5.6.x before 5.6.12 allows remote attackers to cause a denial of service (segmentation fault) via recursive method calls.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-8873](https://github.com/Live-Hack-CVE/CVE-2015-8873) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8873.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8873.svg)
 
 ## CVE-2015-8710
  The htmlParseComment function in HTMLparser.c in libxml2 allows attackers to obtain sensitive information, cause a denial of service (out-of-bounds heap memory access and application crash), or possibly have unspecified other impact via an unclosed HTML comment.
@@ -545,6 +559,13 @@
 
 - [https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces](https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces) :  ![starts](https://img.shields.io/github/stars/minhangxiaohui/Weblogic_direct_T3_Rces.svg) ![forks](https://img.shields.io/github/forks/minhangxiaohui/Weblogic_direct_T3_Rces.svg)
 
+## CVE-2015-4802
+ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : Partition, a different vulnerability than CVE-2015-4792.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4802](https://github.com/Live-Hack-CVE/CVE-2015-4802) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4802.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4802.svg)
+
 ## CVE-2015-4495
  The PDF reader in Mozilla Firefox before 39.0.3, Firefox ESR 38.x before 38.1.1, and Firefox OS before 2.2 allows remote attackers to bypass the Same Origin Policy, and read arbitrary files or gain privileges, via vectors involving crafted JavaScript code and a native setter, as exploited in the wild in August 2015.
 
@@ -565,6 +586,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-4004](https://github.com/Live-Hack-CVE/CVE-2015-4004) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4004.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4004.svg)
+
+## CVE-2015-4002
+ drivers/staging/ozwpan/ozusbsvc1.c in the OZWPAN driver in the Linux kernel through 4.0.5 does not ensure that certain length values are sufficiently large, which allows remote attackers to cause a denial of service (system crash or large loop) or possibly execute arbitrary code via a crafted packet, related to the (1) oz_usb_rx and (2) oz_usb_handle_ep_data functions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4002](https://github.com/Live-Hack-CVE/CVE-2015-4002) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4002.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4002.svg)
 
 ## CVE-2015-4000
  The TLS protocol 1.2 and earlier, when a DHE_EXPORT ciphersuite is enabled on a server but not on a client, does not properly convey a DHE_EXPORT choice, which allows man-in-the-middle attackers to conduct cipher-downgrade attacks by rewriting a ClientHello with DHE replaced by DHE_EXPORT and then rewriting a ServerHello with DHE_EXPORT replaced by DHE, aka the &quot;Logjam&quot; issue.
@@ -1052,12 +1080,26 @@
 
 - [https://github.com/cyberharsh/Groovy-scripting-engine-CVE-2015-1427](https://github.com/cyberharsh/Groovy-scripting-engine-CVE-2015-1427) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Groovy-scripting-engine-CVE-2015-1427.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Groovy-scripting-engine-CVE-2015-1427.svg)
 
+## CVE-2015-1421
+ Use-after-free vulnerability in the sctp_assoc_update function in net/sctp/associola.c in the Linux kernel before 3.18.8 allows remote attackers to cause a denial of service (slab corruption and panic) or possibly have unspecified other impact by triggering an INIT collision that leads to improper handling of shared-key data.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-1421](https://github.com/Live-Hack-CVE/CVE-2015-1421) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1421.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1421.svg)
+
 ## CVE-2015-1397
  SQL injection vulnerability in the getCsvFile function in the Mage_Adminhtml_Block_Widget_Grid class in Magento Community Edition (CE) 1.9.1.0 and Enterprise Edition (EE) 1.14.1.0 allows remote administrators to execute arbitrary SQL commands via the popularity[field_expr] parameter when the popularity[from] or popularity[to] parameter is set.
 
 
 
 - [https://github.com/tmatejicek/CVE-2015-1397](https://github.com/tmatejicek/CVE-2015-1397) :  ![starts](https://img.shields.io/github/stars/tmatejicek/CVE-2015-1397.svg) ![forks](https://img.shields.io/github/forks/tmatejicek/CVE-2015-1397.svg)
+
+## CVE-2015-1352
+ The build_tablename function in pgsql.c in the PostgreSQL (aka pgsql) extension in PHP through 5.6.7 does not validate token extraction for table names, which allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted name.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-1352](https://github.com/Live-Hack-CVE/CVE-2015-1352) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1352.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1352.svg)
 
 ## CVE-2015-1328
  The overlayfs implementation in the linux (aka Linux kernel) package before 3.19.0-21.21 in Ubuntu through 15.04 does not properly check permissions for file creation in the upper filesystem directory, which allows local users to obtain root access by leveraging a configuration in which overlayfs is permitted in an arbitrary mount namespace.
@@ -1076,6 +1118,13 @@
 
 
 - [https://github.com/ScottyBauer/CVE-2015-1318](https://github.com/ScottyBauer/CVE-2015-1318) :  ![starts](https://img.shields.io/github/stars/ScottyBauer/CVE-2015-1318.svg) ![forks](https://img.shields.io/github/forks/ScottyBauer/CVE-2015-1318.svg)
+
+## CVE-2015-1197
+ cpio 2.11, when using the --no-absolute-filenames option, allows local users to write to arbitrary files via a symlink attack on a file in an archive.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-1197](https://github.com/Live-Hack-CVE/CVE-2015-1197) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1197.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1197.svg)
 
 ## CVE-2015-1157
  CoreText in Apple iOS 8.x through 8.3 allows remote attackers to cause a denial of service (reboot and messaging disruption) via crafted Unicode text that is not properly handled during display truncation in the Notifications feature, as demonstrated by Arabic characters in (1) an SMS message or (2) a WhatsApp message.
