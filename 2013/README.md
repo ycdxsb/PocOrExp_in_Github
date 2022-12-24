@@ -1,3 +1,17 @@
+## CVE-2013-7488
+ perl-Convert-ASN1 (aka the Convert::ASN1 module for Perl) through 0.27 allows remote attackers to cause an infinite loop via unexpected input.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-7488](https://github.com/Live-Hack-CVE/CVE-2013-7488) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-7488.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-7488.svg)
+
+## CVE-2013-7345
+ The BEGIN regular expression in the awk script detector in magic/Magdir/commands in file before 5.15 uses multiple wildcards with unlimited repetitions, which allows context-dependent attackers to cause a denial of service (CPU consumption) via a crafted ASCII file that triggers a large amount of backtracking, as demonstrated via a file with many newline characters.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-7345](https://github.com/Live-Hack-CVE/CVE-2013-7345) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-7345.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-7345.svg)
+
 ## CVE-2013-6987
  Multiple directory traversal vulnerabilities in the FileBrowser components in Synology DiskStation Manager (DSM) before 4.3-3810 Update 3 allow remote attackers to read, write, and delete arbitrary files via a .. (dot dot) in the (1) path parameter to file_delete.cgi or (2) folder_path parameter to file_share.cgi in webapi/FileStation/; (3) dlink parameter to fbdownload/; or unspecified parameters to (4) html5_upload.cgi, (5) file_download.cgi, (6) file_sharing.cgi, (7) file_MVCP.cgi, or (8) file_rename.cgi in webapi/FileStation/.
 
@@ -5,12 +19,47 @@
 
 - [https://github.com/stoicboomer/CVE-2013-6987](https://github.com/stoicboomer/CVE-2013-6987) :  ![starts](https://img.shields.io/github/stars/stoicboomer/CVE-2013-6987.svg) ![forks](https://img.shields.io/github/forks/stoicboomer/CVE-2013-6987.svg)
 
+## CVE-2013-6712
+ The scan function in ext/date/lib/parse_iso_intervals.c in PHP through 5.5.6 does not properly restrict creation of DateInterval objects, which might allow remote attackers to cause a denial of service (heap-based buffer over-read) via a crafted interval specification.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6712](https://github.com/Live-Hack-CVE/CVE-2013-6712) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6712.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6712.svg)
+
 ## CVE-2013-6668
  Multiple unspecified vulnerabilities in Google V8 before 3.24.35.10, as used in Google Chrome before 33.0.1750.146, allow attackers to cause a denial of service or possibly have other impact via unknown vectors.
 
 
 
 - [https://github.com/sdneon/CveTest](https://github.com/sdneon/CveTest) :  ![starts](https://img.shields.io/github/stars/sdneon/CveTest.svg) ![forks](https://img.shields.io/github/forks/sdneon/CveTest.svg)
+
+## CVE-2013-6646
+ Use-after-free vulnerability in the Web Workers implementation in Google Chrome before 32.0.1700.76 on Windows and before 32.0.1700.77 on Mac OS X and Linux allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors related to the shutting down of a worker process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6646](https://github.com/Live-Hack-CVE/CVE-2013-6646) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6646.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6646.svg)
+
+## CVE-2013-6645
+ Use-after-free vulnerability in the OnWindowRemovingFromRootWindow function in content/browser/web_contents/web_contents_view_aura.cc in Google Chrome before 32.0.1700.76 on Windows and before 32.0.1700.77 on Mac OS X and Linux allows user-assisted remote attackers to cause a denial of service or possibly have unspecified other impact via vectors involving certain print-preview and tab-switch actions that interact with a speech input element.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6645](https://github.com/Live-Hack-CVE/CVE-2013-6645) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6645.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6645.svg)
+
+## CVE-2013-6644
+ Multiple unspecified vulnerabilities in Google Chrome before 32.0.1700.76 on Windows and before 32.0.1700.77 on Mac OS X and Linux allow attackers to cause a denial of service or possibly have other impact via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6644](https://github.com/Live-Hack-CVE/CVE-2013-6644) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6644.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6644.svg)
+
+## CVE-2013-6641
+ Use-after-free vulnerability in the FormAssociatedElement::formRemovedFromTree function in core/html/FormAssociatedElement.cpp in Blink, as used in Google Chrome before 32.0.1700.76 on Windows and before 32.0.1700.77 on Mac OS X and Linux, allows remote attackers to cause a denial of service or possibly have unspecified other impact by leveraging improper handling of the past names map of a FORM element.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6641](https://github.com/Live-Hack-CVE/CVE-2013-6641) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6641.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6641.svg)
 
 ## CVE-2013-6490
  The SIMPLE protocol functionality in Pidgin before 2.10.8 allows remote attackers to have an unspecified impact via a negative Content-Length header, which triggers a buffer overflow.
@@ -157,6 +206,20 @@
 
 - [https://github.com/bl4ck5un/cve-2013-4348](https://github.com/bl4ck5un/cve-2013-4348) :  ![starts](https://img.shields.io/github/stars/bl4ck5un/cve-2013-4348.svg) ![forks](https://img.shields.io/github/forks/bl4ck5un/cve-2013-4348.svg)
 
+## CVE-2013-4281
+ In Red Hat Openshift 1, weak default permissions are applied to the /etc/openshift/server_priv.pem file on the broker server, which could allow users with local access to the broker to read this file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-4281](https://github.com/Live-Hack-CVE/CVE-2013-4281) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-4281.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-4281.svg)
+
+## CVE-2013-4253
+ The deployment script in the unsupported &quot;OpenShift Extras&quot; set of add-on scripts, in Red Hat Openshift 1, installs a default public key in the root user's authorized_keys file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-4253](https://github.com/Live-Hack-CVE/CVE-2013-4253) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-4253.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-4253.svg)
+
 ## CVE-2013-4235
  shadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees
 
@@ -184,6 +247,8 @@
 
 
 - [https://github.com/snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/snoopopsec/vulnerability-CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/snoopopsec/vulnerability-CVE-2013-3900.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-3900](https://github.com/Live-Hack-CVE/CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-3900.svg)
 
 ## CVE-2013-3893
  Use-after-free vulnerability in the SetMouseCapture implementation in mshtml.dll in Microsoft Internet Explorer 6 through 11 allows remote attackers to execute arbitrary code via crafted JavaScript strings, as demonstrated by use of an ms-help: URL that triggers loading of hxds.dll.
@@ -394,6 +459,13 @@
 
 
 - [https://github.com/cinno/CVE-2013-1965](https://github.com/cinno/CVE-2013-1965) :  ![starts](https://img.shields.io/github/stars/cinno/CVE-2013-1965.svg) ![forks](https://img.shields.io/github/forks/cinno/CVE-2013-1965.svg)
+
+## CVE-2013-1824
+ The SOAP parser in PHP before 5.3.22 and 5.4.x before 5.4.12 allows remote attackers to read arbitrary files via a SOAP WSDL file containing an XML external entity declaration in conjunction with an entity reference, related to an XML External Entity (XXE) issue in the soap_xmlParseFile and soap_xmlParseMemory functions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-1824](https://github.com/Live-Hack-CVE/CVE-2013-1824) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1824.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1824.svg)
 
 ## CVE-2013-1775
  sudo 1.6.0 through 1.7.10p6 and sudo 1.8.0 through 1.8.6p6 allows local users or physically proximate attackers to bypass intended time restrictions and retain privileges without re-authenticating by setting the system clock and sudo user timestamp to the epoch.
