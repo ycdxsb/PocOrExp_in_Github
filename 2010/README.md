@@ -1,3 +1,10 @@
+## CVE-2010-5312
+ Cross-site scripting (XSS) vulnerability in jquery.ui.dialog.js in the Dialog widget in jQuery UI before 1.10.0 allows remote attackers to inject arbitrary web script or HTML via the title option.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-5312](https://github.com/Live-Hack-CVE/CVE-2010-5312) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-5312.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-5312.svg)
+
 ## CVE-2010-5301
  Stack-based buffer overflow in Kolibri 2.0 allows remote attackers to execute arbitrary code via a long URI in a HEAD request.
 
@@ -218,6 +225,20 @@
 
 - [https://github.com/mk219533/CVE-2010-1205](https://github.com/mk219533/CVE-2010-1205) :  ![starts](https://img.shields.io/github/stars/mk219533/CVE-2010-1205.svg) ![forks](https://img.shields.io/github/forks/mk219533/CVE-2010-1205.svg)
 
+## CVE-2010-0987
+ Heap-based buffer overflow in Adobe Shockwave Player before 11.5.7.609 might allow remote attackers to execute arbitrary code via crafted embedded fonts in a Shockwave file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-0987](https://github.com/Live-Hack-CVE/CVE-2010-0987) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0987.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0987.svg)
+
+## CVE-2010-0986
+ Adobe Shockwave Player before 11.5.7.609 does not properly process asset entries, which allows remote attackers to cause a denial of service (memory corruption) or possibly execute arbitrary code via a crafted Shockwave file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-0986](https://github.com/Live-Hack-CVE/CVE-2010-0986) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0986.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0986.svg)
+
 ## CVE-2010-0738
  The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to send requests to this application's GET handler by using a different method.
 
@@ -235,3 +256,17 @@
 - [https://github.com/t0kx/privesc-CVE-2010-0426](https://github.com/t0kx/privesc-CVE-2010-0426) :  ![starts](https://img.shields.io/github/stars/t0kx/privesc-CVE-2010-0426.svg) ![forks](https://img.shields.io/github/forks/t0kx/privesc-CVE-2010-0426.svg)
 
 - [https://github.com/cved-sources/cve-2010-0426](https://github.com/cved-sources/cve-2010-0426) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2010-0426.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2010-0426.svg)
+
+## CVE-2010-0130
+ Integer overflow in Adobe Shockwave Player before 11.5.7.609 might allow remote attackers to execute arbitrary code via a crafted .dir (aka Director) file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-0130](https://github.com/Live-Hack-CVE/CVE-2010-0130) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0130.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0130.svg)
+
+## CVE-2010-0127
+ Adobe Shockwave Player before 11.5.7.609 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted FFFFFF45h Shockwave 3D blocks in a Shockwave file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-0127](https://github.com/Live-Hack-CVE/CVE-2010-0127) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0127.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0127.svg)
