@@ -12,6 +12,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-9905](https://github.com/Live-Hack-CVE/CVE-2014-9905) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-9905.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-9905.svg)
 
+## CVE-2014-9709
+ The GetCode_ function in gd_gif_in.c in GD 2.1.1 and earlier, as used in PHP before 5.5.21 and 5.6.x before 5.6.5, allows remote attackers to cause a denial of service (buffer over-read and application crash) via a crafted GIF image that is improperly handled by the gdImageCreateFromGif function.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-9709](https://github.com/Live-Hack-CVE/CVE-2014-9709) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-9709.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-9709.svg)
+
 ## CVE-2014-9390
  Git before 1.8.5.6, 1.9.x before 1.9.5, 2.0.x before 2.0.5, 2.1.x before 2.1.4, and 2.2.x before 2.2.1 on Windows and OS X; Mercurial before 3.2.3 on Windows and OS X; Apple Xcode before 6.2 beta 3; mine all versions before 08-12-2014; libgit2 all versions up to 0.21.2; Egit all versions before 08-12-2014; and JGit all versions before 08-12-2014 allow remote Git servers to execute arbitrary commands via a tree containing a crafted .git/config file with (1) an ignorable Unicode codepoint, (2) a git~1/config representation, or (3) mixed case that is improperly handled on a case-insensitive filesystem.
 
@@ -293,9 +300,9 @@
 
 - [https://github.com/trhacknon/exploit-CVE-2014-6271](https://github.com/trhacknon/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/trhacknon/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/trhacknon/exploit-CVE-2014-6271.svg)
 
-- [https://github.com/Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2014-6271.svg)
-
 - [https://github.com/ryeyao/CVE-2014-6271_Test](https://github.com/ryeyao/CVE-2014-6271_Test) :  ![starts](https://img.shields.io/github/stars/ryeyao/CVE-2014-6271_Test.svg) ![forks](https://img.shields.io/github/forks/ryeyao/CVE-2014-6271_Test.svg)
+
+- [https://github.com/Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2014-6271.svg)
 
 - [https://github.com/trhacknon/CVE-2014-6271](https://github.com/trhacknon/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2014-6271.svg)
 
@@ -421,6 +428,13 @@
 
 
 - [https://github.com/0x3a/CVE-2014-4936](https://github.com/0x3a/CVE-2014-4936) :  ![starts](https://img.shields.io/github/stars/0x3a/CVE-2014-4936.svg) ![forks](https://img.shields.io/github/forks/0x3a/CVE-2014-4936.svg)
+
+## CVE-2014-4717
+ Multiple cross-site request forgery (CSRF) vulnerabilities in the Simple Share Buttons Adder plugin before 4.5 for WordPress allow remote attackers to hijack the authentication of administrators for requests that conduct cross-site scripting (XSS) attacks via the (1) ssba_share_text parameter in a save action to wp-admin/options-general.php, which is not properly handled in the homepage, and unspecified vectors related to (2) Pages, (3) Posts, (4) Category/Archive pages or (5) post Excerpts.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-4717](https://github.com/Live-Hack-CVE/CVE-2014-4717) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-4717.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-4717.svg)
 
 ## CVE-2014-4699
  The Linux kernel before 3.15.4 on Intel processors does not properly restrict use of a non-canonical value for the saved RIP address in the case of a system call that does not use IRET, which allows local users to leverage a race condition and gain privileges, or cause a denial of service (double fault), via a crafted application that makes ptrace and fork system calls.
@@ -556,6 +570,27 @@
 
 - [https://github.com/vnik5287/cve-2014-4014-privesc](https://github.com/vnik5287/cve-2014-4014-privesc) :  ![starts](https://img.shields.io/github/stars/vnik5287/cve-2014-4014-privesc.svg) ![forks](https://img.shields.io/github/forks/vnik5287/cve-2014-4014-privesc.svg)
 
+## CVE-2014-3992
+ Multiple SQL injection vulnerabilities in Dolibarr ERP/CRM 3.5.3 allow remote authenticated users to execute arbitrary SQL commands via the (1) entity parameter in an update action to user/fiche.php or (2) sortorder parameter to user/group/index.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-3992](https://github.com/Live-Hack-CVE/CVE-2014-3992) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3992.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3992.svg)
+
+## CVE-2014-3991
+ Multiple cross-site scripting (XSS) vulnerabilities in Dolibarr ERP/CRM 3.5.3 allow remote attackers to inject arbitrary web script or HTML via the (1) dol_use_jmobile, (2) dol_optimize_smallscreen, (3) dol_no_mouse_hover, (4) dol_hide_topmenu, (5) dol_hide_leftmenu, (6) mainmenu, or (7) leftmenu parameter to index.php; the (8) dol_use_jmobile, (9) dol_optimize_smallscreen, (10) dol_no_mouse_hover, (11) dol_hide_topmenu, or (12) dol_hide_leftmenu parameter to user/index.php; the (13) dol_use_jmobile, (14) dol_optimize_smallscreen, (15) dol_no_mouse_hover, (16) dol_hide_topmenu, or (17) dol_hide_leftmenu parameter to user/logout.php; the (18) email, (19) firstname, (20) job, (21) lastname, or (22) login parameter in an update action in a &quot;User Card&quot; to user/fiche.php; or the (23) modulepart or (24) file parameter to viewimage.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-3991](https://github.com/Live-Hack-CVE/CVE-2014-3991) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3991.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3991.svg)
+
+## CVE-2014-3710
+ The donote function in readelf.c in file through 5.20, as used in the Fileinfo component in PHP 5.4.34, does not ensure that sufficient note headers are present, which allows remote attackers to cause a denial of service (out-of-bounds read and application crash) via a crafted ELF file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-3710](https://github.com/Live-Hack-CVE/CVE-2014-3710) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3710.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3710.svg)
+
 ## CVE-2014-3704
  The expandArguments function in the database abstraction API in Drupal core 7.x before 7.32 does not properly construct prepared statements, which allows remote attackers to conduct SQL injection attacks via an array containing crafted keys.
 
@@ -596,6 +631,34 @@
 
 - [https://github.com/JavaGarcia/CVE-2014-3551](https://github.com/JavaGarcia/CVE-2014-3551) :  ![starts](https://img.shields.io/github/stars/JavaGarcia/CVE-2014-3551.svg) ![forks](https://img.shields.io/github/forks/JavaGarcia/CVE-2014-3551.svg)
 
+## CVE-2014-3515
+ The SPL component in PHP before 5.4.30 and 5.5.x before 5.5.14 incorrectly anticipates that certain data structures will have the array data type after unserialization, which allows remote attackers to execute arbitrary code via a crafted string that triggers use of a Hashtable destructor, related to &quot;type confusion&quot; issues in (1) ArrayObject and (2) SPLObjectStorage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-3515](https://github.com/Live-Hack-CVE/CVE-2014-3515) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3515.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3515.svg)
+
+## CVE-2014-3487
+ The cdf_read_property_info function in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, does not properly validate a stream offset, which allows remote attackers to cause a denial of service (application crash) via a crafted CDF file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-3487](https://github.com/Live-Hack-CVE/CVE-2014-3487) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3487.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3487.svg)
+
+## CVE-2014-3480
+ The cdf_count_chain function in cdf.c in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, does not properly validate sector-count data, which allows remote attackers to cause a denial of service (application crash) via a crafted CDF file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-3480](https://github.com/Live-Hack-CVE/CVE-2014-3480) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3480.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3480.svg)
+
+## CVE-2014-3479
+ The cdf_check_stream_offset function in cdf.c in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, relies on incorrect sector-size data, which allows remote attackers to cause a denial of service (application crash) via a crafted stream offset in a CDF file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-3479](https://github.com/Live-Hack-CVE/CVE-2014-3479) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3479.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3479.svg)
+
 ## CVE-2014-3466
  Buffer overflow in the read_server_hello function in lib/gnutls_handshake.c in GnuTLS before 3.1.25, 3.2.x before 3.2.15, and 3.3.x before 3.3.4 allows remote servers to cause a denial of service (memory corruption) or possibly execute arbitrary code via a long session id in a ServerHello message.
 
@@ -609,6 +672,13 @@
 
 
 - [https://github.com/ehabhussein/snmpvlan](https://github.com/ehabhussein/snmpvlan) :  ![starts](https://img.shields.io/github/stars/ehabhussein/snmpvlan.svg) ![forks](https://img.shields.io/github/forks/ehabhussein/snmpvlan.svg)
+
+## CVE-2014-3166
+ The Public Key Pinning (PKP) implementation in Google Chrome before 36.0.1985.143 on Windows, OS X, and Linux, and before 36.0.1985.135 on Android, does not correctly consider the properties of SPDY connections, which allows remote attackers to obtain sensitive information by leveraging the use of multiple domain names.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-3166](https://github.com/Live-Hack-CVE/CVE-2014-3166) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3166.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3166.svg)
 
 ## CVE-2014-3153
  The futex_requeue function in kernel/futex.c in the Linux kernel through 3.14.5 does not ensure that calls have two different futex addresses, which allows local users to gain privileges via a crafted FUTEX_REQUEUE command that facilitates unsafe waiter modification.
@@ -697,6 +767,13 @@
 
 - [https://github.com/injectionmethod/ZTE-Vuln-4-Skids](https://github.com/injectionmethod/ZTE-Vuln-4-Skids) :  ![starts](https://img.shields.io/github/stars/injectionmethod/ZTE-Vuln-4-Skids.svg) ![forks](https://img.shields.io/github/forks/injectionmethod/ZTE-Vuln-4-Skids.svg)
 
+## CVE-2014-2270
+ softmagic.c in file before 5.17 and libmagic allows context-dependent attackers to cause a denial of service (out-of-bounds memory access and crash) via crafted offsets in the softmagic of a PE executable.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-2270](https://github.com/Live-Hack-CVE/CVE-2014-2270) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-2270.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-2270.svg)
+
 ## CVE-2014-2064
  The loadUserByUsername function in hudson/security/HudsonPrivateSecurityRealm.java in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to determine whether a user exists via vectors related to failed login attempts.
 
@@ -725,6 +802,13 @@
 
 - [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
 
+## CVE-2014-1943
+ Fine Free file before 5.17 allows context-dependent attackers to cause a denial of service (infinite recursion, CPU consumption, and crash) via a crafted indirect offset value in the magic of a file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-1943](https://github.com/Live-Hack-CVE/CVE-2014-1943) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-1943.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-1943.svg)
+
 ## CVE-2014-1904
  Cross-site scripting (XSS) vulnerability in web/servlet/tags/form/FormTag.java in Spring MVC in Spring Framework 3.0.0 before 3.2.8 and 4.0.0 before 4.0.2 allows remote attackers to inject arbitrary web script or HTML via the requested URI in a default action.
 
@@ -745,6 +829,83 @@
 
 
 - [https://github.com/ExploitCN/CVE-2014-1767-EXP-PAPER](https://github.com/ExploitCN/CVE-2014-1767-EXP-PAPER) :  ![starts](https://img.shields.io/github/stars/ExploitCN/CVE-2014-1767-EXP-PAPER.svg) ![forks](https://img.shields.io/github/forks/ExploitCN/CVE-2014-1767-EXP-PAPER.svg)
+
+## CVE-2014-1736
+ Integer overflow in api.cc in Google V8, as used in Google Chrome before 34.0.1847.131 on Windows and OS X and before 34.0.1847.132 on Linux, allows remote attackers to cause a denial of service or possibly have unspecified other impact via a large length value.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-1736](https://github.com/Live-Hack-CVE/CVE-2014-1736) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-1736.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-1736.svg)
+
+## CVE-2014-1735
+ Multiple unspecified vulnerabilities in Google V8 before 3.24.35.33, as used in Google Chrome before 34.0.1847.131 on Windows and OS X and before 34.0.1847.132 on Linux, allow attackers to cause a denial of service or possibly have other impact via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-1735](https://github.com/Live-Hack-CVE/CVE-2014-1735) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-1735.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-1735.svg)
+
+## CVE-2014-1734
+ Multiple unspecified vulnerabilities in Google Chrome before 34.0.1847.131 on Windows and OS X and before 34.0.1847.132 on Linux allow attackers to cause a denial of service or possibly have other impact via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-1734](https://github.com/Live-Hack-CVE/CVE-2014-1734) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-1734.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-1734.svg)
+
+## CVE-2014-1733
+ The PointerCompare function in codegen.cc in Seccomp-BPF, as used in Google Chrome before 34.0.1847.131 on Windows and OS X and before 34.0.1847.132 on Linux, does not properly merge blocks, which might allow remote attackers to bypass intended sandbox restrictions by leveraging renderer access.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-1733](https://github.com/Live-Hack-CVE/CVE-2014-1733) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-1733.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-1733.svg)
+
+## CVE-2014-1732
+ Use-after-free vulnerability in browser/ui/views/speech_recognition_bubble_views.cc in Google Chrome before 34.0.1847.131 on Windows and OS X and before 34.0.1847.132 on Linux allows remote attackers to cause a denial of service or possibly have unspecified other impact via an INPUT element that triggers the presence of a Speech Recognition Bubble window for an incorrect duration.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-1732](https://github.com/Live-Hack-CVE/CVE-2014-1732) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-1732.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-1732.svg)
+
+## CVE-2014-1731
+ core/html/HTMLSelectElement.cpp in the DOM implementation in Blink, as used in Google Chrome before 34.0.1847.131 on Windows and OS X and before 34.0.1847.132 on Linux, does not properly check renderer state upon a focus event, which allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors that leverage &quot;type confusion&quot; for SELECT elements.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-1731](https://github.com/Live-Hack-CVE/CVE-2014-1731) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-1731.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-1731.svg)
+
+## CVE-2014-1730
+ Google V8, as used in Google Chrome before 34.0.1847.131 on Windows and OS X and before 34.0.1847.132 on Linux, does not properly store internationalization metadata, which allows remote attackers to bypass intended access restrictions by leveraging &quot;type confusion&quot; and reading property values, related to i18n.js and runtime.cc.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-1730](https://github.com/Live-Hack-CVE/CVE-2014-1730) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-1730.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-1730.svg)
+
+## CVE-2014-1715
+ Directory traversal vulnerability in Google Chrome before 33.0.1750.152 on OS X and Linux and before 33.0.1750.154 on Windows has unspecified impact and attack vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-1715](https://github.com/Live-Hack-CVE/CVE-2014-1715) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-1715.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-1715.svg)
+
+## CVE-2014-1714
+ The ScopedClipboardWriter::WritePickledData function in ui/base/clipboard/scoped_clipboard_writer.cc in Google Chrome before 33.0.1750.152 on OS X and Linux and before 33.0.1750.154 on Windows does not verify a certain format value, which allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors related to the clipboard.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-1714](https://github.com/Live-Hack-CVE/CVE-2014-1714) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-1714.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-1714.svg)
+
+## CVE-2014-1713
+ Use-after-free vulnerability in the AttributeSetter function in bindings/templates/attributes.cpp in the bindings in Blink, as used in Google Chrome before 33.0.1750.152 on OS X and Linux and before 33.0.1750.154 on Windows, allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors involving the document.location value.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-1713](https://github.com/Live-Hack-CVE/CVE-2014-1713) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-1713.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-1713.svg)
+
+## CVE-2014-1705
+ Google V8, as used in Google Chrome before 33.0.1750.152 on OS X and Linux and before 33.0.1750.154 on Windows, allows remote attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-1705](https://github.com/Live-Hack-CVE/CVE-2014-1705) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-1705.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-1705.svg)
 
 ## CVE-2014-1677
  Technicolor TC7200 with firmware STD6.01.12 could allow remote attackers to obtain sensitive information.
@@ -820,6 +981,13 @@
 
 - [https://github.com/christasa/CVE-2014-0472](https://github.com/christasa/CVE-2014-0472) :  ![starts](https://img.shields.io/github/stars/christasa/CVE-2014-0472.svg) ![forks](https://img.shields.io/github/forks/christasa/CVE-2014-0472.svg)
 
+## CVE-2014-0393
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.71 and earlier, 5.5.33 and earlier, and 5.6.13 and earlier allows remote authenticated users to affect integrity via unknown vectors related to InnoDB.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0393](https://github.com/Live-Hack-CVE/CVE-2014-0393) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0393.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0393.svg)
+
 ## CVE-2014-0291
  ** RE
 
@@ -833,6 +1001,13 @@
 
 
 - [https://github.com/Charmve/PyStegosploit](https://github.com/Charmve/PyStegosploit) :  ![starts](https://img.shields.io/github/stars/Charmve/PyStegosploit.svg) ![forks](https://img.shields.io/github/forks/Charmve/PyStegosploit.svg)
+
+## CVE-2014-0238
+ The cdf_read_property_info function in cdf.c in the Fileinfo component in PHP before 5.4.29 and 5.5.x before 5.5.13 allows remote attackers to cause a denial of service (infinite loop or out-of-bounds memory access) via a vector that (1) has zero length or (2) is too long.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0238](https://github.com/Live-Hack-CVE/CVE-2014-0238) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0238.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0238.svg)
 
 ## CVE-2014-0226
  Race condition in the mod_status module in the Apache HTTP Server before 2.4.10 allows remote attackers to cause a denial of service (heap-based buffer overflow), or possibly obtain sensitive credential information or execute arbitrary code, via a crafted request that triggers improper scoreboard handling within the status_handler function in modules/generators/mod_status.c and the lua_ap_scoreboard_worker function in modules/lua/lua_request.c.
@@ -970,6 +1145,8 @@
 
 - [https://github.com/obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner) :  ![starts](https://img.shields.io/github/stars/obayesshelton/CVE-2014-0160-Scanner.svg) ![forks](https://img.shields.io/github/forks/obayesshelton/CVE-2014-0160-Scanner.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2014-0160](https://github.com/Live-Hack-CVE/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0160.svg)
+
 - [https://github.com/k4u5h41/CVE-2014-0160_Heartbleed](https://github.com/k4u5h41/CVE-2014-0160_Heartbleed) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2014-0160_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2014-0160_Heartbleed.svg)
 
 - [https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang) :  ![starts](https://img.shields.io/github/stars/marstornado/cve-2014-0160-Yunfeng-Jiang.svg) ![forks](https://img.shields.io/github/forks/marstornado/cve-2014-0160-Yunfeng-Jiang.svg)
@@ -1000,9 +1177,9 @@
 
 - [https://github.com/ThanHuuTuan/Heartexploit](https://github.com/ThanHuuTuan/Heartexploit) :  ![starts](https://img.shields.io/github/stars/ThanHuuTuan/Heartexploit.svg) ![forks](https://img.shields.io/github/forks/ThanHuuTuan/Heartexploit.svg)
 
-- [https://github.com/pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart) :  ![starts](https://img.shields.io/github/stars/pierceoneill/bleeding-heart.svg) ![forks](https://img.shields.io/github/forks/pierceoneill/bleeding-heart.svg)
-
 - [https://github.com/PinkP4nther/Heartbleed_PoC](https://github.com/PinkP4nther/Heartbleed_PoC) :  ![starts](https://img.shields.io/github/stars/PinkP4nther/Heartbleed_PoC.svg) ![forks](https://img.shields.io/github/forks/PinkP4nther/Heartbleed_PoC.svg)
+
+- [https://github.com/pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart) :  ![starts](https://img.shields.io/github/stars/pierceoneill/bleeding-heart.svg) ![forks](https://img.shields.io/github/forks/pierceoneill/bleeding-heart.svg)
 
 - [https://github.com/xanas/heartbleed.py](https://github.com/xanas/heartbleed.py) :  ![starts](https://img.shields.io/github/stars/xanas/heartbleed.py.svg) ![forks](https://img.shields.io/github/forks/xanas/heartbleed.py.svg)
 
