@@ -1,3 +1,10 @@
+## CVE-2012-6712
+ In the Linux kernel before 3.4, a buffer overflow occurs in drivers/net/wireless/iwlwifi/iwl-agn-sta.c, which will cause at least memory corruption.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-6712](https://github.com/Live-Hack-CVE/CVE-2012-6712) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-6712.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-6712.svg)
+
 ## CVE-2012-6636
  The Android API before 17 does not properly restrict the WebView.addJavascriptInterface method, which allows remote attackers to execute arbitrary methods of Java objects by using the Java Reflection API within crafted JavaScript code that is loaded into the WebView component in an application targeted to API level 16 or earlier, a related issue to CVE-2013-4710.
 
@@ -94,6 +101,13 @@
 
 - [https://github.com/bitc0de/Elastix-Remote-Code-Execution](https://github.com/bitc0de/Elastix-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/bitc0de/Elastix-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/bitc0de/Elastix-Remote-Code-Execution.svg)
 
+## CVE-2012-4818
+ IBM InfoSphere Information Server 8.1, 8.5, and 8,7 could allow a remote authenticated attacker to obtain sensitive information, caused by improper restrictions on directories. An attacker could exploit this vulnerability via the DataStage application to load or import content functionality to view arbitrary files on the system.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-4818](https://github.com/Live-Hack-CVE/CVE-2012-4818) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4818.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4818.svg)
+
 ## CVE-2012-4792
  Use-after-free vulnerability in Microsoft Internet Explorer 6 through 8 allows remote attackers to execute arbitrary code via a crafted web site that triggers access to an object that (1) was not properly allocated or (2) is deleted, as demonstrated by a CDwnBindInfo object, and exploited in the wild in December 2012.
 
@@ -118,6 +132,13 @@
 
 
 - [https://github.com/imjdl/CVE-2012-4431](https://github.com/imjdl/CVE-2012-4431) :  ![starts](https://img.shields.io/github/stars/imjdl/CVE-2012-4431.svg) ![forks](https://img.shields.io/github/forks/imjdl/CVE-2012-4431.svg)
+
+## CVE-2012-4341
+ Multiple stack-based buffer overflows in msg_server.exe in SAP NetWeaver ABAP 7.x allow remote attackers to cause a denial of service (crash) and execute arbitrary code via a (1) long parameter value, (2) crafted string size field, or (3) long Parameter Name string in a package with opcode 0x43 and sub opcode 0x4 to TCP port 3900.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-4341](https://github.com/Live-Hack-CVE/CVE-2012-4341) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4341.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4341.svg)
 
 ## CVE-2012-4244
  ISC BIND 9.x before 9.7.6-P3, 9.8.x before 9.8.3-P3, 9.9.x before 9.9.1-P3, and 9.4-ESV and 9.6-ESV before 9.6-ESV-R7-P3 allows remote attackers to cause a denial of service (assertion failure and named daemon exit) via a query for a long resource record.
@@ -155,6 +176,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-3412](https://github.com/Live-Hack-CVE/CVE-2012-3412) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3412.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3412.svg)
+
+## CVE-2012-3167
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.63 and earlier, and 5.5.25 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Full Text Search.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-3167](https://github.com/Live-Hack-CVE/CVE-2012-3167) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3167.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3167.svg)
 
 ## CVE-2012-3153
  Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fusion Middleware 11.1.1.4, 11.1.1.6, and 11.1.2.0 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Servlet.  NOTE: the previous information is from the October 2012 CPU. Oracle has not commented on claims from the original researcher that the PARSEQUERY function allows remote attackers to obtain database credentials via reports/rwservlet/parsequery, and that this issue occurs in earlier versions.  NOTE: this can be leveraged with CVE-2012-3152 to execute arbitrary code by uploading a .jsp file.
@@ -198,9 +226,9 @@
 
 - [https://github.com/blu3ming/CVE-2012-2982](https://github.com/blu3ming/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/blu3ming/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/blu3ming/CVE-2012-2982.svg)
 
-- [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
-
 - [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
+
+- [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
 
 - [https://github.com/SlizBinksman/CVE_2012-2982](https://github.com/SlizBinksman/CVE_2012-2982) :  ![starts](https://img.shields.io/github/stars/SlizBinksman/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/SlizBinksman/CVE_2012-2982.svg)
 
@@ -224,6 +252,20 @@
 
 
 - [https://github.com/AndrewTrube/CVE-2012-2593](https://github.com/AndrewTrube/CVE-2012-2593) :  ![starts](https://img.shields.io/github/stars/AndrewTrube/CVE-2012-2593.svg) ![forks](https://img.shields.io/github/forks/AndrewTrube/CVE-2012-2593.svg)
+
+## CVE-2012-2201
+ IBM WebSphere MQ 7.1 is vulnerable to a denial of service, caused by an error when handling user ids. A remote attacker could exploit this vulnerability to bypass the security configuration setup on a SVRCONN channel and flood the queue manager.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-2201](https://github.com/Live-Hack-CVE/CVE-2012-2201) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-2201.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-2201.svg)
+
+## CVE-2012-2160
+ IBM Rational Change 5.3 is vulnerable to cross-site scripting, caused by improper validation of user-supplied input. A remote attacker could exploit this vulnerability using the SUPP_TEMPLATE_FLAG parameter in a specially-crafted URL to execute script in a victim's Web browser within the security context of the hosting Web site, once the URL is clicked. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-2160](https://github.com/Live-Hack-CVE/CVE-2012-2160) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-2160.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-2160.svg)
 
 ## CVE-2012-2122
  sql/password.c in Oracle MySQL 5.1.x before 5.1.63, 5.5.x before 5.5.24, and 5.6.x before 5.6.6, and MariaDB 5.1.x before 5.1.62, 5.2.x before 5.2.12, 5.3.x before 5.3.6, and 5.5.x before 5.5.23, when running in certain environments with certain implementations of the memcmp function, allows remote attackers to bypass authentication by repeatedly authenticating with the same incorrect password, which eventually causes a token comparison to succeed due to an improperly-checked return value.
