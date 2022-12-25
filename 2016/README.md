@@ -1140,6 +1140,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-6981](https://github.com/Live-Hack-CVE/CVE-2016-6981) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6981.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6981.svg)
 
+## CVE-2016-6931
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-4272, CVE-2016-4279, CVE-2016-6921, CVE-2016-6923, CVE-2016-6925, CVE-2016-6926, CVE-2016-6927, CVE-2016-6929, CVE-2016-6930, and CVE-2016-6932.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6931](https://github.com/Live-Hack-CVE/CVE-2016-6931) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6931.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6931.svg)
+
 ## CVE-2016-6924
  Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4274, CVE-2016-4275, CVE-2016-4276, CVE-2016-4280, CVE-2016-4281, CVE-2016-4282, CVE-2016-4283, CVE-2016-4284, CVE-2016-4285, and CVE-2016-6922.
 
@@ -1669,6 +1676,20 @@
 
 - [https://github.com/hdbreaker/WebKit-CVE-2016-4622](https://github.com/hdbreaker/WebKit-CVE-2016-4622) :  ![starts](https://img.shields.io/github/stars/hdbreaker/WebKit-CVE-2016-4622.svg) ![forks](https://img.shields.io/github/forks/hdbreaker/WebKit-CVE-2016-4622.svg)
 
+## CVE-2016-4508
+ Cross-site scripting (XSS) vulnerability in Rexroth Bosch BLADEcontrol-WebVIS 3.0.2 and earlier allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4508](https://github.com/Live-Hack-CVE/CVE-2016-4508) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4508.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4508.svg)
+
+## CVE-2016-4507
+ SQL injection vulnerability in Rexroth Bosch BLADEcontrol-WebVIS 3.0.2 and earlier allows remote authenticated users to execute arbitrary SQL commands via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4507](https://github.com/Live-Hack-CVE/CVE-2016-4507) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4507.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4507.svg)
+
 ## CVE-2016-4468
  SQL injection vulnerability in Pivotal Cloud Foundry (PCF) before 238; UAA 2.x before 2.7.4.4, 3.x before 3.3.0.2, and 3.4.x before 3.4.1; UAA BOSH before 11.2 and 12.x before 12.2; Elastic Runtime before 1.6.29 and 1.7.x before 1.7.7; and Ops Manager 1.7.x before 1.7.8 allows remote authenticated users to execute arbitrary SQL commands via unspecified vectors.
 
@@ -1755,6 +1776,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4280](https://github.com/Live-Hack-CVE/CVE-2016-4280) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4280.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4280.svg)
+
+## CVE-2016-4278
+ Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to bypass intended access restrictions and obtain sensitive information via unspecified vectors, a different vulnerability than CVE-2016-4271 and CVE-2016-4277.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4278](https://github.com/Live-Hack-CVE/CVE-2016-4278) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4278.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4278.svg)
 
 ## CVE-2016-4277
  Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to bypass intended access restrictions and obtain sensitive information via unspecified vectors, a different vulnerability than CVE-2016-4271 and CVE-2016-4278.
@@ -2129,6 +2157,8 @@
  An exploitable heap overflow vulnerability exists in the Psych::Emitter start_document function of Ruby. In Psych::Emitter start_document function heap buffer &quot;head&quot; allocation is made based on tags array length. Specially constructed object passed as element of tags array can increase this array size after mentioned allocation and cause heap overflow.
 
 
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2338](https://github.com/Live-Hack-CVE/CVE-2016-2338) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2338.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2338.svg)
 
 - [https://github.com/SpiralBL0CK/CVE-2016-2338-nday](https://github.com/SpiralBL0CK/CVE-2016-2338-nday) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/CVE-2016-2338-nday.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/CVE-2016-2338-nday.svg)
 
