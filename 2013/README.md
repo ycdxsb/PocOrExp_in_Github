@@ -95,6 +95,13 @@
 
 - [https://github.com/milo2012/CVE-2013-6117](https://github.com/milo2012/CVE-2013-6117) :  ![starts](https://img.shields.io/github/stars/milo2012/CVE-2013-6117.svg) ![forks](https://img.shields.io/github/forks/milo2012/CVE-2013-6117.svg)
 
+## CVE-2013-5908
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.72 and earlier, 5.5.34 and earlier, and 5.6.14 and earlier allows remote attackers to affect availability via unknown vectors related to Error Handling.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-5908](https://github.com/Live-Hack-CVE/CVE-2013-5908) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-5908.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-5908.svg)
+
 ## CVE-2013-5843
  Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JavaFX 2.2.40 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D.
 
@@ -350,6 +357,13 @@
 
 - [https://github.com/fi01/libmsm_cameraconfig_exploit](https://github.com/fi01/libmsm_cameraconfig_exploit) :  ![starts](https://img.shields.io/github/stars/fi01/libmsm_cameraconfig_exploit.svg) ![forks](https://img.shields.io/github/forks/fi01/libmsm_cameraconfig_exploit.svg)
 
+## CVE-2013-2391
+ Unspecified vulnerability in Oracle MySQL 5.1.68 and earlier, 5.5.30 and earlier, and 5.6.10 and earlier allows local users to affect confidentiality and integrity via unknown vectors related to Server Install.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-2391](https://github.com/Live-Hack-CVE/CVE-2013-2391) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-2391.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-2391.svg)
+
 ## CVE-2013-2217
  cache.py in Suds 0.4, when tempdir is set to None, allows local users to redirect SOAP queries and possibly have other unspecified impact via a symlink attack on a cache file with a predictable name in /tmp/suds/.
 
@@ -494,6 +508,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-1620](https://github.com/Live-Hack-CVE/CVE-2013-1620) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1620.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1620.svg)
+
+## CVE-2013-1506
+ Unspecified vulnerability in Oracle MySQL 5.1.67 and earlier, 5.5.29 and earlier, and 5.6.10 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server Locking.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-1506](https://github.com/Live-Hack-CVE/CVE-2013-1506) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1506.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1506.svg)
 
 ## CVE-2013-1491
  The Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier, 6 Update 43 and earlier, 5.0 Update 41 and earlier, and JavaFX 2.2.7 and earlier allows remote attackers to execute arbitrary code via vectors related to 2D, as demonstrated by Joshua Drake during a Pwn2Own competition at CanSecWest 2013.
