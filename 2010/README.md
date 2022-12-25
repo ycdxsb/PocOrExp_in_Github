@@ -209,6 +209,13 @@
 
 - [https://github.com/MAVProxyUser/httpfuzz-robomiller](https://github.com/MAVProxyUser/httpfuzz-robomiller) :  ![starts](https://img.shields.io/github/stars/MAVProxyUser/httpfuzz-robomiller.svg) ![forks](https://img.shields.io/github/forks/MAVProxyUser/httpfuzz-robomiller.svg)
 
+## CVE-2010-1281
+ iml32.dll in Adobe Shockwave Player before 11.5.7.609 does not validate a certain value from a file before using it in file-pointer calculations, which allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted .dir (aka Director) file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-1281](https://github.com/Live-Hack-CVE/CVE-2010-1281) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-1281.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-1281.svg)
+
 ## CVE-2010-1240
  Adobe Reader and Acrobat 9.x before 9.3.3, and 8.x before 8.2.3 on Windows and Mac OS X, do not restrict the contents of one text field in the Launch File warning dialog, which makes it easier for remote attackers to trick users into executing an arbitrary local program that was specified in a PDF document, as demonstrated by a text field that claims that the Open button will enable the user to read an encrypted message.
 
@@ -247,6 +254,13 @@
 - [https://github.com/ChristianPapathanasiou/jboss-autopwn](https://github.com/ChristianPapathanasiou/jboss-autopwn) :  ![starts](https://img.shields.io/github/stars/ChristianPapathanasiou/jboss-autopwn.svg) ![forks](https://img.shields.io/github/forks/ChristianPapathanasiou/jboss-autopwn.svg)
 
 - [https://github.com/gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn) :  ![starts](https://img.shields.io/github/stars/gitcollect/jboss-autopwn.svg) ![forks](https://img.shields.io/github/forks/gitcollect/jboss-autopwn.svg)
+
+## CVE-2010-0434
+ The ap_read_request function in server/protocol.c in the Apache HTTP Server 2.2.x before 2.2.15, when a multithreaded MPM is used, does not properly handle headers in subrequests in certain circumstances involving a parent request that has a body, which might allow remote attackers to obtain sensitive information via a crafted request that triggers access to memory locations associated with an earlier request.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-0434](https://github.com/Live-Hack-CVE/CVE-2010-0434) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0434.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0434.svg)
 
 ## CVE-2010-0426
  sudo 1.6.x before 1.6.9p21 and 1.7.x before 1.7.2p4, when a pseudo-command is enabled, permits a match between the name of the pseudo-command and the name of an executable file in an arbitrary directory, which allows local users to gain privileges via a crafted executable file, as demonstrated by a file named sudoedit in a user's home directory.
