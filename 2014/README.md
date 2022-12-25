@@ -58,6 +58,13 @@
 
 - [https://github.com/donfanning/MIPS-CVE-2014-9222](https://github.com/donfanning/MIPS-CVE-2014-9222) :  ![starts](https://img.shields.io/github/stars/donfanning/MIPS-CVE-2014-9222.svg) ![forks](https://img.shields.io/github/forks/donfanning/MIPS-CVE-2014-9222.svg)
 
+## CVE-2014-9129
+ Cross-site request forgery (CSRF) vulnerability in the CreativeMinds CM Downloads Manager plugin before 2.0.7 for WordPress allows remote attackers to hijack the authentication of administrators for requests that conduct cross-site scripting (XSS) attacks via the addons_title parameter in the CMDM_admin_settings page to wp-admin/admin.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-9129](https://github.com/Live-Hack-CVE/CVE-2014-9129) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-9129.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-9129.svg)
+
 ## CVE-2014-9034
  wp-includes/class-phpass.php in WordPress before 3.7.5, 3.8.x before 3.8.5, 3.9.x before 3.9.3, and 4.x before 4.0.1 allows remote attackers to cause a denial of service (CPU consumption) via a long password that is improperly handled during hashing, a similar issue to CVE-2014-9016.
 
@@ -112,6 +119,13 @@
 - [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) :  ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
 
 - [https://github.com/ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit) :  ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2014-8609-exploit.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2014-8609-exploit.svg)
+
+## CVE-2014-8312
+ Business Warehouse (BW) in SAP Netweaver AS ABAP 7.31 allows remote authenticated users to obtain sensitive information via a request to the RSDU_CCMS_GET_PROFILE_PARAM RFC function.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-8312](https://github.com/Live-Hack-CVE/CVE-2014-8312) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-8312.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-8312.svg)
 
 ## CVE-2014-8244
  Linksys SMART WiFi firmware on EA2700 and EA3500 devices; before 2.1.41 build 162351 on E4200v2 and EA4500 devices; before 1.1.41 build 162599 on EA6200 devices; before 1.1.40 build 160989 on EA6300, EA6400, EA6500, and EA6700 devices; and before 1.1.42 build 161129 on EA6900 devices allows remote attackers to obtain sensitive information or modify data via a JNAP action in a JNAP/ HTTP request.
@@ -223,6 +237,13 @@
 
 - [https://github.com/SecurityArtWork/oracle-xxe-sqli](https://github.com/SecurityArtWork/oracle-xxe-sqli) :  ![starts](https://img.shields.io/github/stars/SecurityArtWork/oracle-xxe-sqli.svg) ![forks](https://img.shields.io/github/forks/SecurityArtWork/oracle-xxe-sqli.svg)
 
+## CVE-2014-6463
+ Unspecified vulnerability in Oracle MySQL Server 5.5.38 and earlier and 5.6.19 and earlier allows remote authenticated users to affect availability via vectors related to SERVER:REPLICATION ROW FORMAT BINARY LOG DML.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6463](https://github.com/Live-Hack-CVE/CVE-2014-6463) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6463.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6463.svg)
+
 ## CVE-2014-6332
  OleAut32.dll in OLE in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows remote attackers to execute arbitrary code via a crafted web site, as demonstrated by an array-redimensioning attempt that triggers improper handling of a size value in the SafeArrayDimen function, aka &quot;Windows OLE Automation Array Remote Code Execution Vulnerability.&quot;
 
@@ -272,13 +293,13 @@
 
 - [https://github.com/npm/ansible-bashpocalypse](https://github.com/npm/ansible-bashpocalypse) :  ![starts](https://img.shields.io/github/stars/npm/ansible-bashpocalypse.svg) ![forks](https://img.shields.io/github/forks/npm/ansible-bashpocalypse.svg)
 
-- [https://github.com/ksang/shellshock](https://github.com/ksang/shellshock) :  ![starts](https://img.shields.io/github/stars/ksang/shellshock.svg) ![forks](https://img.shields.io/github/forks/ksang/shellshock.svg)
-
-- [https://github.com/securusglobal/BadBash](https://github.com/securusglobal/BadBash) :  ![starts](https://img.shields.io/github/stars/securusglobal/BadBash.svg) ![forks](https://img.shields.io/github/forks/securusglobal/BadBash.svg)
-
 - [https://github.com/b4keSn4ke/CVE-2014-6271](https://github.com/b4keSn4ke/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/b4keSn4ke/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/b4keSn4ke/CVE-2014-6271.svg)
 
 - [https://github.com/zalalov/CVE-2014-6271](https://github.com/zalalov/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/zalalov/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/zalalov/CVE-2014-6271.svg)
+
+- [https://github.com/ksang/shellshock](https://github.com/ksang/shellshock) :  ![starts](https://img.shields.io/github/stars/ksang/shellshock.svg) ![forks](https://img.shields.io/github/forks/ksang/shellshock.svg)
+
+- [https://github.com/securusglobal/BadBash](https://github.com/securusglobal/BadBash) :  ![starts](https://img.shields.io/github/stars/securusglobal/BadBash.svg) ![forks](https://img.shields.io/github/forks/securusglobal/BadBash.svg)
 
 - [https://github.com/akiraaisha/shellshocker-python](https://github.com/akiraaisha/shellshocker-python) :  ![starts](https://img.shields.io/github/stars/akiraaisha/shellshocker-python.svg) ![forks](https://img.shields.io/github/forks/akiraaisha/shellshocker-python.svg)
 
@@ -393,6 +414,13 @@
 - [https://github.com/somhm-solutions/Shell-Shock](https://github.com/somhm-solutions/Shell-Shock) :  ![starts](https://img.shields.io/github/stars/somhm-solutions/Shell-Shock.svg) ![forks](https://img.shields.io/github/forks/somhm-solutions/Shell-Shock.svg)
 
 - [https://github.com/JohnRyk/ICMPShock3](https://github.com/JohnRyk/ICMPShock3) :  ![starts](https://img.shields.io/github/stars/JohnRyk/ICMPShock3.svg) ![forks](https://img.shields.io/github/forks/JohnRyk/ICMPShock3.svg)
+
+## CVE-2014-6230
+ WP-Ban plugin before 1.6.4 for WordPress, when running in certain configurations, allows remote attackers to bypass the IP blacklist via a crafted X-Forwarded-For header.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6230](https://github.com/Live-Hack-CVE/CVE-2014-6230) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6230.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6230.svg)
 
 ## CVE-2014-5329
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
@@ -515,6 +543,13 @@
 
 
 - [https://github.com/android-rooting-tools/libmsm_vfe_read_exploit](https://github.com/android-rooting-tools/libmsm_vfe_read_exploit) :  ![starts](https://img.shields.io/github/stars/android-rooting-tools/libmsm_vfe_read_exploit.svg) ![forks](https://img.shields.io/github/forks/android-rooting-tools/libmsm_vfe_read_exploit.svg)
+
+## CVE-2014-4243
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.5.35 and earlier and 5.6.15 and earlier allows remote authenticated users to affect availability via vectors related to ENFED.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-4243](https://github.com/Live-Hack-CVE/CVE-2014-4243) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-4243.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-4243.svg)
 
 ## CVE-2014-4210
  Unspecified vulnerability in the Oracle WebLogic Server component in Oracle Fusion Middleware 10.0.2.0 and 10.3.6.0 allows remote attackers to affect confidentiality via vectors related to WLS - Web Services.
@@ -746,6 +781,27 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-2589](https://github.com/Live-Hack-CVE/CVE-2014-2589) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-2589.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-2589.svg)
 
+## CVE-2014-2497
+ The gdImageCreateFromXpm function in gdxpm.c in libgd, as used in PHP 5.4.26 and earlier, allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted color table in an XPM file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-2497](https://github.com/Live-Hack-CVE/CVE-2014-2497) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-2497.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-2497.svg)
+
+## CVE-2014-2432
+ Unspecified vulnerability Oracle the MySQL Server component 5.5.35 and earlier and 5.6.15 and earlier allows remote authenticated users to affect availability via unknown vectors related to Federated.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-2432](https://github.com/Live-Hack-CVE/CVE-2014-2432) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-2432.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-2432.svg)
+
+## CVE-2014-2431
+ Unspecified vulnerability in Oracle MySQL Server 5.5.36 and earlier and 5.6.16 and earlier allows remote attackers to affect availability via unknown vectors related to Options.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-2431](https://github.com/Live-Hack-CVE/CVE-2014-2431) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-2431.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-2431.svg)
+
 ## CVE-2014-2324
  Multiple directory traversal vulnerabilities in (1) mod_evhost and (2) mod_simple_vhost in lighttpd before 1.4.35 allow remote attackers to read arbitrary files via a .. (dot dot) in the host name, related to request_check_hostname.
 
@@ -773,6 +829,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-2270](https://github.com/Live-Hack-CVE/CVE-2014-2270) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-2270.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-2270.svg)
+
+## CVE-2014-2265
+ Rock Lobster Contact Form 7 before 3.7.2 allows remote attackers to bypass the CAPTCHA protection mechanism and submit arbitrary form data by omitting the _wpcf7_captcha_challenge_captcha-719 parameter.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-2265](https://github.com/Live-Hack-CVE/CVE-2014-2265) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-2265.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-2265.svg)
 
 ## CVE-2014-2064
  The loadUserByUsername function in hudson/security/HudsonPrivateSecurityRealm.java in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to determine whether a user exists via vectors related to failed login attempts.
@@ -981,6 +1044,13 @@
 
 - [https://github.com/christasa/CVE-2014-0472](https://github.com/christasa/CVE-2014-0472) :  ![starts](https://img.shields.io/github/stars/christasa/CVE-2014-0472.svg) ![forks](https://img.shields.io/github/forks/christasa/CVE-2014-0472.svg)
 
+## CVE-2014-0420
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.5.34 and earlier, and 5.6.14 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Replication.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0420](https://github.com/Live-Hack-CVE/CVE-2014-0420) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0420.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0420.svg)
+
 ## CVE-2014-0393
  Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.71 and earlier, 5.5.33 and earlier, and 5.6.13 and earlier allows remote authenticated users to affect integrity via unknown vectors related to InnoDB.
 
@@ -1032,6 +1102,13 @@
 - [https://github.com/iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224) :  ![starts](https://img.shields.io/github/stars/iph0n3/CVE-2014-0224.svg) ![forks](https://img.shields.io/github/forks/iph0n3/CVE-2014-0224.svg)
 
 - [https://github.com/droptables/ccs-eval](https://github.com/droptables/ccs-eval) :  ![starts](https://img.shields.io/github/stars/droptables/ccs-eval.svg) ![forks](https://img.shields.io/github/forks/droptables/ccs-eval.svg)
+
+## CVE-2014-0207
+ The cdf_read_short_sector function in cdf.c in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, allows remote attackers to cause a denial of service (assertion failure and application exit) via a crafted CDF file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0207](https://github.com/Live-Hack-CVE/CVE-2014-0207) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0207.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0207.svg)
 
 ## CVE-2014-0196
  The n_tty_write function in drivers/tty/n_tty.c in the Linux kernel through 3.14.3 does not properly manage tty driver access in the &quot;LECHO &amp; !OPOST&quot; case, which allows local users to cause a denial of service (memory corruption and system crash) or gain privileges by triggering a race condition involving read and write operations with long strings.
@@ -1145,9 +1222,9 @@
 
 - [https://github.com/obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner) :  ![starts](https://img.shields.io/github/stars/obayesshelton/CVE-2014-0160-Scanner.svg) ![forks](https://img.shields.io/github/forks/obayesshelton/CVE-2014-0160-Scanner.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2014-0160](https://github.com/Live-Hack-CVE/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0160.svg)
-
 - [https://github.com/k4u5h41/CVE-2014-0160_Heartbleed](https://github.com/k4u5h41/CVE-2014-0160_Heartbleed) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2014-0160_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2014-0160_Heartbleed.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0160](https://github.com/Live-Hack-CVE/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0160.svg)
 
 - [https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang) :  ![starts](https://img.shields.io/github/stars/marstornado/cve-2014-0160-Yunfeng-Jiang.svg) ![forks](https://img.shields.io/github/forks/marstornado/cve-2014-0160-Yunfeng-Jiang.svg)
 
@@ -1177,11 +1254,32 @@
 
 - [https://github.com/ThanHuuTuan/Heartexploit](https://github.com/ThanHuuTuan/Heartexploit) :  ![starts](https://img.shields.io/github/stars/ThanHuuTuan/Heartexploit.svg) ![forks](https://img.shields.io/github/forks/ThanHuuTuan/Heartexploit.svg)
 
-- [https://github.com/PinkP4nther/Heartbleed_PoC](https://github.com/PinkP4nther/Heartbleed_PoC) :  ![starts](https://img.shields.io/github/stars/PinkP4nther/Heartbleed_PoC.svg) ![forks](https://img.shields.io/github/forks/PinkP4nther/Heartbleed_PoC.svg)
-
 - [https://github.com/pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart) :  ![starts](https://img.shields.io/github/stars/pierceoneill/bleeding-heart.svg) ![forks](https://img.shields.io/github/forks/pierceoneill/bleeding-heart.svg)
 
+- [https://github.com/PinkP4nther/Heartbleed_PoC](https://github.com/PinkP4nther/Heartbleed_PoC) :  ![starts](https://img.shields.io/github/stars/PinkP4nther/Heartbleed_PoC.svg) ![forks](https://img.shields.io/github/forks/PinkP4nther/Heartbleed_PoC.svg)
+
 - [https://github.com/xanas/heartbleed.py](https://github.com/xanas/heartbleed.py) :  ![starts](https://img.shields.io/github/stars/xanas/heartbleed.py.svg) ![forks](https://img.shields.io/github/forks/xanas/heartbleed.py.svg)
+
+## CVE-2014-0148
+ Qemu before 2.0 block driver for Hyper-V VHDX Images is vulnerable to infinite loops and other potential issues when calculating BAT entries, due to missing bounds checks for block_size and logical_sector_size variables. These are used to derive other fields like 'sectors_per_block' etc. A user able to alter the Qemu disk image could ise this flaw to crash the Qemu instance resulting in DoS.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0148](https://github.com/Live-Hack-CVE/CVE-2014-0148) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0148.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0148.svg)
+
+## CVE-2014-0147
+ Qemu before 1.6.2 block diver for the various disk image formats used by Bochs and for the QCOW version 2 format, are vulnerable to a possible crash caused by signed data types or a logic error while creating QCOW2 snapshots, which leads to incorrectly calling update_refcount() routine.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0147](https://github.com/Live-Hack-CVE/CVE-2014-0147) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0147.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0147.svg)
+
+## CVE-2014-0144
+ QEMU before 2.0.0 block drivers for CLOOP, QCOW2 version 2 and various other image formats are vulnerable to potential memory corruptions, integer/buffer overflows or crash caused by missing input validations which could allow a remote user to execute arbitrary code on the host with the privileges of the QEMU process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0144](https://github.com/Live-Hack-CVE/CVE-2014-0144) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0144.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0144.svg)
 
 ## CVE-2014-0130
  Directory traversal vulnerability in actionpack/lib/abstract_controller/base.rb in the implicit-render implementation in Ruby on Rails before 3.2.18, 4.0.x before 4.0.5, and 4.1.x before 4.1.1, when certain route globbing configurations are enabled, allows remote attackers to read arbitrary files via a crafted request.
