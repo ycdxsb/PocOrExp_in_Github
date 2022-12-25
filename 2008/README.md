@@ -74,6 +74,13 @@
 
 - [https://github.com/Naramsim/Offensive](https://github.com/Naramsim/Offensive) :  ![starts](https://img.shields.io/github/stars/Naramsim/Offensive.svg) ![forks](https://img.shields.io/github/forks/Naramsim/Offensive.svg)
 
+## CVE-2008-2364
+ The ap_proxy_http_process_response function in mod_proxy_http.c in the mod_proxy module in the Apache HTTP Server 2.0.63 and 2.2.8 does not limit the number of forwarded interim responses, which allows remote HTTP servers to cause a denial of service (memory consumption) via a large number of interim responses.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2008-2364](https://github.com/Live-Hack-CVE/CVE-2008-2364) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-2364.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-2364.svg)
+
 ## CVE-2008-2019
  Simple Machines Forum (SMF), probably 1.1.4, relies on &quot;randomly generated static&quot; to hinder brute-force attacks on the WAV file (aka audio) CAPTCHA, which allows remote attackers to pass the CAPTCHA test via an automated attack that considers Hamming distances.  NOTE: this issue reportedly exists because of an insufficient fix for CVE-2007-3308.
 
@@ -101,6 +108,20 @@
 
 
 - [https://github.com/hackingyseguridad/dnspoison](https://github.com/hackingyseguridad/dnspoison) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/dnspoison.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/dnspoison.svg)
+
+## CVE-2008-0456
+ CRLF injection vulnerability in the mod_negotiation module in the Apache HTTP Server 2.2.6 and earlier in the 2.2.x series, 2.0.61 and earlier in the 2.0.x series, and 1.3.39 and earlier in the 1.3.x series allows remote authenticated users to inject arbitrary HTTP headers and conduct HTTP response splitting attacks by uploading a file with a multi-line name containing HTTP header sequences and a file extension, which leads to injection within a (1) &quot;406 Not Acceptable&quot; or (2) &quot;300 Multiple Choices&quot; HTTP response when the extension is omitted in a request for the file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2008-0456](https://github.com/Live-Hack-CVE/CVE-2008-0456) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-0456.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-0456.svg)
+
+## CVE-2008-0455
+ Cross-site scripting (XSS) vulnerability in the mod_negotiation module in the Apache HTTP Server 2.2.6 and earlier in the 2.2.x series, 2.0.61 and earlier in the 2.0.x series, and 1.3.39 and earlier in the 1.3.x series allows remote authenticated users to inject arbitrary web script or HTML by uploading a file with a name containing XSS sequences and a file extension, which leads to injection within a (1) &quot;406 Not Acceptable&quot; or (2) &quot;300 Multiple Choices&quot; HTTP response when the extension is omitted in a request for the file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2008-0455](https://github.com/Live-Hack-CVE/CVE-2008-0455) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-0455.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-0455.svg)
 
 ## CVE-2008-0333
  Directory traversal vulnerability in download_view_attachment.aspx in AfterLogic MailBee WebMail Pro 4.1 for ASP.NET allows remote attackers to read arbitrary files via a .. (dot dot) in the temp_filename parameter.
@@ -149,3 +170,10 @@
 
 
 - [https://github.com/ngyanch/4062-1](https://github.com/ngyanch/4062-1) :  ![starts](https://img.shields.io/github/stars/ngyanch/4062-1.svg) ![forks](https://img.shields.io/github/forks/ngyanch/4062-1.svg)
+
+## CVE-2008-0005
+ mod_proxy_ftp in Apache 2.2.x before 2.2.7-dev, 2.0.x before 2.0.62-dev, and 1.3.x before 1.3.40-dev does not define a charset, which allows remote attackers to conduct cross-site scripting (XSS) attacks using UTF-7 encoding.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2008-0005](https://github.com/Live-Hack-CVE/CVE-2008-0005) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-0005.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-0005.svg)
