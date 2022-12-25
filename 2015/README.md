@@ -559,6 +559,13 @@
 
 - [https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces](https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces) :  ![starts](https://img.shields.io/github/stars/minhangxiaohui/Weblogic_direct_T3_Rces.svg) ![forks](https://img.shields.io/github/forks/minhangxiaohui/Weblogic_direct_T3_Rces.svg)
 
+## CVE-2015-4836
+ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : SP.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4836](https://github.com/Live-Hack-CVE/CVE-2015-4836) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4836.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4836.svg)
+
 ## CVE-2015-4802
  Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : Partition, a different vulnerability than CVE-2015-4792.
 
@@ -604,6 +611,13 @@
 - [https://github.com/clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/clic-kbait/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/clic-kbait/A2SV--SSL-VUL-Scan.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-4000](https://github.com/Live-Hack-CVE/CVE-2015-4000) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4000.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4000.svg)
+
+## CVE-2015-3884
+ Unrestricted file upload vulnerability in the (1) myAccount, (2) projects, (3) tasks, (4) tickets, (5) discussions, (6) reports, and (7) scheduler pages in qdPM 8.3 allows remote attackers to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in uploads/attachments/ or uploads/users/.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-3884](https://github.com/Live-Hack-CVE/CVE-2015-3884) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3884.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3884.svg)
 
 ## CVE-2015-3864
  Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.cpp in libstagefright in mediaserver in Android before 5.1.1 LMY48M allows remote attackers to execute arbitrary code via crafted MPEG-4 data, aka internal bug 23034759.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-3824.
@@ -877,6 +891,13 @@
 
 - [https://github.com/6a6f6a6f/CVE-2015-2080](https://github.com/6a6f6a6f/CVE-2015-2080) :  ![starts](https://img.shields.io/github/stars/6a6f6a6f/CVE-2015-2080.svg) ![forks](https://img.shields.io/github/forks/6a6f6a6f/CVE-2015-2080.svg)
 
+## CVE-2015-1931
+ IBM Java Security Components in IBM SDK, Java Technology Edition 8 before SR1 FP10, 7 R1 before SR3 FP10, 7 before SR9 FP10, 6 R1 before SR8 FP7, 6 before SR16 FP7, and 5.0 before SR16 FP13 stores plaintext information in memory dumps, which allows local users to obtain sensitive information by reading a file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-1931](https://github.com/Live-Hack-CVE/CVE-2015-1931) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1931.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1931.svg)
+
 ## CVE-2015-1855
  verify_certificate_identity in the OpenSSL extension in Ruby before 2.0.0 patchlevel 645, 2.1.x before 2.1.6, and 2.2.x before 2.2.2 does not properly validate hostnames, which allows remote attackers to spoof servers via vectors related to (1) multiple wildcards, (1) wildcards in IDNA names, (3) case sensitivity, and (4) non-ASCII characters.
 
@@ -1118,6 +1139,13 @@
 
 
 - [https://github.com/ScottyBauer/CVE-2015-1318](https://github.com/ScottyBauer/CVE-2015-1318) :  ![starts](https://img.shields.io/github/stars/ScottyBauer/CVE-2015-1318.svg) ![forks](https://img.shields.io/github/forks/ScottyBauer/CVE-2015-1318.svg)
+
+## CVE-2015-1309
+ XML external entity vulnerability in the Extended Computer Aided Test Tool (eCATT) in SAP NetWeaver AS ABAP 7.31 and earlier allows remote attackers to access arbitrary files via a crafted XML request, related to ECATT_DISPLAY_XMLSTRING_REMOTE, aka SAP Note 2016638.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-1309](https://github.com/Live-Hack-CVE/CVE-2015-1309) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1309.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1309.svg)
 
 ## CVE-2015-1197
  cpio 2.11, when using the --no-absolute-filenames option, allows local users to write to arbitrary files via a symlink attack on a file in an archive.
