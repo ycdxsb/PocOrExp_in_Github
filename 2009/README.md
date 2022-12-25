@@ -74,6 +74,13 @@
 
 - [https://github.com/cocomelonc/vulnexipy](https://github.com/cocomelonc/vulnexipy) :  ![starts](https://img.shields.io/github/stars/cocomelonc/vulnexipy.svg) ![forks](https://img.shields.io/github/forks/cocomelonc/vulnexipy.svg)
 
+## CVE-2009-3352
+ Multiple unspecified vulnerabilities in the quota_by_role (Quota by role) module for Drupal have unknown impact and attack vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-3352](https://github.com/Live-Hack-CVE/CVE-2009-3352) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3352.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3352.svg)
+
 ## CVE-2009-3103
  Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a denial of service (system crash) via an &amp; (ampersand) character in a Process ID High header field in a NEGOTIATE PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location, aka &quot;SMBv2 Negotiation Vulnerability.&quot; NOTE: some of these details are obtained from third party information.
 
@@ -81,12 +88,33 @@
 
 - [https://github.com/sooklalad/ms09050](https://github.com/sooklalad/ms09050) :  ![starts](https://img.shields.io/github/stars/sooklalad/ms09050.svg) ![forks](https://img.shields.io/github/forks/sooklalad/ms09050.svg)
 
+## CVE-2009-3095
+ The mod_proxy_ftp module in the Apache HTTP Server allows remote attackers to bypass intended access restrictions and send arbitrary commands to an FTP server via vectors related to the embedding of these commands in the Authorization HTTP header, as demonstrated by a certain module in VulnDisco Pack Professional 8.11.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-3095](https://github.com/Live-Hack-CVE/CVE-2009-3095) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3095.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3095.svg)
+
+## CVE-2009-3094
+ The ap_proxy_ftp_handler function in modules/proxy/proxy_ftp.c in the mod_proxy_ftp module in the Apache HTTP Server 2.0.63 and 2.2.13 allows remote FTP servers to cause a denial of service (NULL pointer dereference and child process crash) via a malformed reply to an EPSV command.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-3094](https://github.com/Live-Hack-CVE/CVE-2009-3094) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3094.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3094.svg)
+
 ## CVE-2009-2948
  mount.cifs in Samba 3.0 before 3.0.37, 3.2 before 3.2.15, 3.3 before 3.3.8 and 3.4 before 3.4.2, when mount.cifs is installed suid root, does not properly enforce permissions, which allows local users to read part of the credentials file and obtain the password by specifying the path to the credentials file and using the --verbose or -v option.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2009-2948](https://github.com/Live-Hack-CVE/CVE-2009-2948) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-2948.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-2948.svg)
+
+## CVE-2009-2699
+ The Solaris pollset feature in the Event Port backend in poll/unix/port.c in the Apache Portable Runtime (APR) library before 1.3.9, as used in the Apache HTTP Server before 2.2.14 and other products, does not properly handle errors, which allows remote attackers to cause a denial of service (daemon hang) via unspecified HTTP requests, related to the prefork and event MPMs.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-2699](https://github.com/Live-Hack-CVE/CVE-2009-2699) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-2699.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-2699.svg)
 
 ## CVE-2009-2698
  The udp_sendmsg function in the UDP implementation in (1) net/ipv4/udp.c and (2) net/ipv6/udp.c in the Linux kernel before 2.6.19 allows local users to gain privileges or cause a denial of service (NULL pointer dereference and system crash) via vectors involving the MSG_MORE flag and a UDP socket.
@@ -128,6 +156,20 @@
 
 
 - [https://github.com/NZKoz/bigdecimal-segfault-fix](https://github.com/NZKoz/bigdecimal-segfault-fix) :  ![starts](https://img.shields.io/github/stars/NZKoz/bigdecimal-segfault-fix.svg) ![forks](https://img.shields.io/github/forks/NZKoz/bigdecimal-segfault-fix.svg)
+
+## CVE-2009-1891
+ The mod_deflate module in Apache httpd 2.2.11 and earlier compresses large files until completion even after the associated network connection is closed, which allows remote attackers to cause a denial of service (CPU consumption).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-1891](https://github.com/Live-Hack-CVE/CVE-2009-1891) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1891.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1891.svg)
+
+## CVE-2009-1890
+ The stream_reqbody_cl function in mod_proxy_http.c in the mod_proxy module in the Apache HTTP Server before 2.3.3, when a reverse proxy is configured, does not properly handle an amount of streamed data that exceeds the Content-Length value, which allows remote attackers to cause a denial of service (CPU consumption) via crafted requests.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-1890](https://github.com/Live-Hack-CVE/CVE-2009-1890) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1890.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1890.svg)
 
 ## CVE-2009-1437
  Stack-based buffer overflow in PortableApps CoolPlayer Portable (aka CoolPlayer+ Portable) 2.19.6 and earlier allows remote attackers to execute arbitrary code via a long string in a malformed playlist (.m3u) file. NOTE: this may overlap CVE-2008-3408.
