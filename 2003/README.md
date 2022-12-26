@@ -5,6 +5,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2003-1562](https://github.com/Live-Hack-CVE/CVE-2003-1562) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2003-1562.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2003-1562.svg)
 
+## CVE-2003-1229
+ X509TrustManager in (1) Java Secure Socket Extension (JSSE) in SDK and JRE 1.4.0 through 1.4.0_01, (2) JSSE before 1.0.3, (3) Java Plug-in SDK and JRE 1.3.0 through 1.4.1, and (4) Java Web Start 1.0 through 1.2 incorrectly calls the isClientTrusted method when determining server trust, which results in improper validation of digital certificate and allows remote attackers to (1) falsely authenticate peers for SSL or (2) incorrectly validate signed JAR files.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2003-1229](https://github.com/Live-Hack-CVE/CVE-2003-1229) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2003-1229.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2003-1229.svg)
+
+## CVE-2003-0789
+ mod_cgid in Apache before 2.0.48, when using a threaded MPM, does not properly handle CGI redirect paths, which could cause Apache to send the output of a CGI program to the wrong client.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2003-0789](https://github.com/Live-Hack-CVE/CVE-2003-0789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2003-0789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2003-0789.svg)
+
 ## CVE-2003-0358
  Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.
 
