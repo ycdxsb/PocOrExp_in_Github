@@ -1,9 +1,9 @@
-## CVE-2007-6755
- The NIST SP 800-90A default statement of the Dual Elliptic Curve Deterministic Random Bit Generation (Dual_EC_DRBG) algorithm contains point Q constants with a possible relationship to certain &quot;skeleton key&quot; values, which might allow context-dependent attackers to defeat cryptographic protection mechanisms by leveraging knowledge of those values.  NOTE: this is a preliminary CVE for Dual_EC_DRBG; future research may provide additional details about point Q and associated attacks, and could potentially lead to a RECAST or REJECT of this CVE.
+## CVE-2007-20001
+ A flaw was found in StarWind iSCSI target. An attacker could script standard iSCSI Initiator operation(s) to exhaust the StarWind service socket, which could lead to denial of service. This affects iSCSI SAN (Windows Native) Version 3.2.2 build 2007-02-20.
 
 
 
-- [https://github.com/Live-Hack-CVE/CVE-2007-6755](https://github.com/Live-Hack-CVE/CVE-2007-6755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-6755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-6755.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2007-20001](https://github.com/Live-Hack-CVE/CVE-2007-20001) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-20001.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-20001.svg)
 
 ## CVE-2007-6638
  March Networks DVR 3204 stores sensitive information under the web root with insufficient access control, which allows remote attackers to obtain usernames, passwords, device names, and IP addresses via a direct request for scripts/logfiles.tar.gz.
@@ -18,13 +18,6 @@
 
 
 - [https://github.com/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377](https://github.com/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377) :  ![starts](https://img.shields.io/github/stars/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377.svg) ![forks](https://img.shields.io/github/forks/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377.svg)
-
-## CVE-2007-5536
- Unspecified vulnerability in OpenSSL before A.00.09.07l on HP-UX B.11.11, B.11.23, and B.11.31 allows local users to cause a denial of service via unspecified vectors.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2007-5536](https://github.com/Live-Hack-CVE/CVE-2007-5536) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-5536.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-5536.svg)
 
 ## CVE-2007-5036
  Multiple buffer overflows in the AirDefense Airsensor M520 with firmware 4.3.1.1 and 4.4.1.4 allow remote authenticated users to cause a denial of service (HTTPS service outage) via a crafted query string in an HTTPS request to (1) adLog.cgi, (2) post.cgi, or (3) ad.cgi, related to the &quot;files filter.&quot;
@@ -77,12 +70,12 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2007-3304](https://github.com/Live-Hack-CVE/CVE-2007-3304) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-3304.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-3304.svg)
 
-## CVE-2007-2727
- The mcrypt_create_iv function in ext/mcrypt/mcrypt.c in PHP before 4.4.7, 5.2.1, and possibly 5.0.x and other PHP 5 versions, calls php_rand_r with an uninitialized seed variable and therefore always generates the same initialization vector (IV), which might allow context-dependent attackers to decrypt certain data more easily because of the guessable encryption keys.
+## CVE-2007-3007
+ PHP 5 before 5.2.3 does not enforce the open_basedir or safe_mode restriction in certain cases, which allows context-dependent attackers to determine the existence of arbitrary files by checking if the readfile function returns a string.  NOTE: this issue might also involve the realpath function.
 
 
 
-- [https://github.com/Live-Hack-CVE/CVE-2007-2727](https://github.com/Live-Hack-CVE/CVE-2007-2727) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-2727.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-2727.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2007-3007](https://github.com/Live-Hack-CVE/CVE-2007-3007) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-3007.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-3007.svg)
 
 ## CVE-2007-2447
  The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
@@ -107,13 +100,13 @@
 
 - [https://github.com/mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/mr-l0n3lly/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/mr-l0n3lly/CVE-2007-2447.svg)
 
-- [https://github.com/xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xlcc4096/exploit-CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xlcc4096/exploit-CVE-2007-2447.svg)
-
 - [https://github.com/cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/cherrera0001/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/cherrera0001/CVE-2007-2447.svg)
 
-- [https://github.com/Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Aviksaikat/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Aviksaikat/CVE-2007-2447.svg)
+- [https://github.com/xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xlcc4096/exploit-CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xlcc4096/exploit-CVE-2007-2447.svg)
 
 - [https://github.com/0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xKn/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xKn/CVE-2007-2447.svg)
+
+- [https://github.com/Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Aviksaikat/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Aviksaikat/CVE-2007-2447.svg)
 
 - [https://github.com/b1fair/smb_usermap](https://github.com/b1fair/smb_usermap) :  ![starts](https://img.shields.io/github/stars/b1fair/smb_usermap.svg) ![forks](https://img.shields.io/github/forks/b1fair/smb_usermap.svg)
 
@@ -136,6 +129,13 @@
 - [https://github.com/HerculesRD/PyUsernameMapScriptRCE](https://github.com/HerculesRD/PyUsernameMapScriptRCE) :  ![starts](https://img.shields.io/github/stars/HerculesRD/PyUsernameMapScriptRCE.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/PyUsernameMapScriptRCE.svg)
 
 - [https://github.com/Ki11i0n4ir3/Sambaster](https://github.com/Ki11i0n4ir3/Sambaster) :  ![starts](https://img.shields.io/github/stars/Ki11i0n4ir3/Sambaster.svg) ![forks](https://img.shields.io/github/forks/Ki11i0n4ir3/Sambaster.svg)
+
+## CVE-2007-2444
+ Logic error in the SID/Name translation functionality in smbd in Samba 3.0.23d through 3.0.25pre2 allows local users to gain temporary privileges and execute SMB/CIFS protocol operations via unspecified vectors that cause the daemon to transition to the root user.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2007-2444](https://github.com/Live-Hack-CVE/CVE-2007-2444) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-2444.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-2444.svg)
 
 ## CVE-2007-1858
  The default SSL cipher configuration in Apache Tomcat 4.1.28 through 4.1.31, 5.0.0 through 5.0.30, and 5.5.0 through 5.5.17 uses certain insecure ciphers, including the anonymous cipher, which allows remote attackers to obtain sensitive information or have other, unspecified impacts.
