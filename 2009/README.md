@@ -81,6 +81,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2009-3352](https://github.com/Live-Hack-CVE/CVE-2009-3352) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3352.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3352.svg)
 
+## CVE-2009-3294
+ The popen API function in TSRM/tsrm_win32.c in PHP before 5.2.11 and 5.3.x before 5.3.1, when running on certain Windows operating systems, allows context-dependent attackers to cause a denial of service (crash) via a crafted (1) &quot;e&quot; or (2) &quot;er&quot; string in the second argument (aka mode), possibly related to the _fdopen function in the Microsoft C runtime library. NOTE: this might not cross privilege boundaries except in rare cases in which the mode argument is accessible to an attacker outside of an application that uses the popen function.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-3294](https://github.com/Live-Hack-CVE/CVE-2009-3294) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3294.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3294.svg)
+
 ## CVE-2009-3103
  Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a denial of service (system crash) via an &amp; (ampersand) character in a Process ID High header field in a NEGOTIATE PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location, aka &quot;SMBv2 Negotiation Vulnerability.&quot; NOTE: some of these details are obtained from third party information.
 
@@ -102,12 +109,12 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2009-3094](https://github.com/Live-Hack-CVE/CVE-2009-3094) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3094.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3094.svg)
 
-## CVE-2009-2948
- mount.cifs in Samba 3.0 before 3.0.37, 3.2 before 3.2.15, 3.3 before 3.3.8 and 3.4 before 3.4.2, when mount.cifs is installed suid root, does not properly enforce permissions, which allows local users to read part of the credentials file and obtain the password by specifying the path to the credentials file and using the --verbose or -v option.
+## CVE-2009-2906
+ smbd in Samba 3.0 before 3.0.37, 3.2 before 3.2.15, 3.3 before 3.3.8, and 3.4 before 3.4.2 allows remote authenticated users to cause a denial of service (infinite loop) via an unanticipated oplock break notification reply packet.
 
 
 
-- [https://github.com/Live-Hack-CVE/CVE-2009-2948](https://github.com/Live-Hack-CVE/CVE-2009-2948) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-2948.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-2948.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2009-2906](https://github.com/Live-Hack-CVE/CVE-2009-2906) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-2906.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-2906.svg)
 
 ## CVE-2009-2699
  The Solaris pollset feature in the Event Port backend in poll/unix/port.c in the Apache Portable Runtime (APR) library before 1.3.9, as used in the Apache HTTP Server before 2.2.14 and other products, does not properly handle errors, which allows remote attackers to cause a denial of service (daemon hang) via unspecified HTTP requests, related to the prefork and event MPMs.
@@ -171,6 +178,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2009-1890](https://github.com/Live-Hack-CVE/CVE-2009-1890) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1890.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1890.svg)
 
+## CVE-2009-1888
+ The acl_group_override function in smbd/posix_acls.c in smbd in Samba 3.0.x before 3.0.35, 3.1.x and 3.2.x before 3.2.13, and 3.3.x before 3.3.6, when dos filemode is enabled, allows remote attackers to modify access control lists for files via vectors related to read access to uninitialized memory.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-1888](https://github.com/Live-Hack-CVE/CVE-2009-1888) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1888.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1888.svg)
+
 ## CVE-2009-1437
  Stack-based buffer overflow in PortableApps CoolPlayer Portable (aka CoolPlayer+ Portable) 2.19.6 and earlier allows remote attackers to execute arbitrary code via a long string in a malformed playlist (.m3u) file. NOTE: this may overlap CVE-2008-3408.
 
@@ -183,9 +197,9 @@
 
 
 
-- [https://github.com/war4uthor/CVE-2009-1330](https://github.com/war4uthor/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2009-1330.svg)
-
 - [https://github.com/adenkiewicz/CVE-2009-1330](https://github.com/adenkiewicz/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2009-1330.svg)
+
+- [https://github.com/war4uthor/CVE-2009-1330](https://github.com/war4uthor/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2009-1330.svg)
 
 - [https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter](https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter) :  ![starts](https://img.shields.io/github/stars/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter.svg) ![forks](https://img.shields.io/github/forks/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter.svg)
 
@@ -203,6 +217,13 @@
 
 - [https://github.com/piotrbania/vmware_exploit_pack_CVE-2009-1244](https://github.com/piotrbania/vmware_exploit_pack_CVE-2009-1244) :  ![starts](https://img.shields.io/github/stars/piotrbania/vmware_exploit_pack_CVE-2009-1244.svg) ![forks](https://img.shields.io/github/forks/piotrbania/vmware_exploit_pack_CVE-2009-1244.svg)
 
+## CVE-2009-1191
+ mod_proxy_ajp.c in the mod_proxy_ajp module in the Apache HTTP Server 2.2.11 allows remote attackers to obtain sensitive response data, intended for a client that sent an earlier POST request with no request body, via an HTTP request.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-1191](https://github.com/Live-Hack-CVE/CVE-2009-1191) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1191.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1191.svg)
+
 ## CVE-2009-1151
  Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.11.9.5 and 3.x before 3.1.3.1 allows remote attackers to inject arbitrary PHP code into a configuration file via the save action.
 
@@ -210,40 +231,12 @@
 
 - [https://github.com/pagvac/pocs](https://github.com/pagvac/pocs) :  ![starts](https://img.shields.io/github/stars/pagvac/pocs.svg) ![forks](https://img.shields.io/github/forks/pagvac/pocs.svg)
 
-## CVE-2009-1143
- An issue was discovered in open-vm-tools 2009.03.18-154848. Local users can bypass intended access restrictions on mounting shares via a symlink attack that leverages a realpath race condition in mount.vmhgfs (aka hgfsmounter).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-1143](https://github.com/Live-Hack-CVE/CVE-2009-1143) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1143.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1143.svg)
-
-## CVE-2009-1142
- An issue was discovered in open-vm-tools 2009.03.18-154848. Local users can gain privileges via a symlink attack on /tmp files if vmware-user-suid-wrapper is setuid root and the ChmodChownDirectory function is enabled.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-1142](https://github.com/Live-Hack-CVE/CVE-2009-1142) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1142.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1142.svg)
-
-## CVE-2009-0855
- Cross-site scripting (XSS) vulnerability in the administrative console in IBM WebSphere Application Server (WAS) 6.1 before 6.1.0.23 on z/OS allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-0855](https://github.com/Live-Hack-CVE/CVE-2009-0855) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-0855.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-0855.svg)
-
 ## CVE-2009-0689
  Array index error in the (1) dtoa implementation in dtoa.c (aka pdtoa.c) and the (2) gdtoa (aka new dtoa) implementation in gdtoa/misc.c in libc, as used in multiple operating systems and products including in FreeBSD 6.4 and 7.2, NetBSD 5.0, OpenBSD 4.5, Mozilla Firefox 3.0.x before 3.0.15 and 3.5.x before 3.5.4, K-Meleon 1.5.3, SeaMonkey 1.1.8, and other products, allows context-dependent attackers to cause a denial of service (application crash) and possibly execute arbitrary code via a large precision value in the format argument to a printf function, which triggers incorrect memory allocation and a heap-based buffer overflow during conversion to a floating-point number.
 
 
 
 - [https://github.com/Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax) :  ![starts](https://img.shields.io/github/stars/Fullmetal5/str2hax.svg) ![forks](https://img.shields.io/github/forks/Fullmetal5/str2hax.svg)
-
-## CVE-2009-0586
- Integer overflow in the gst_vorbis_tag_add_coverart function (gst-libs/gst/tag/gstvorbistag.c) in vorbistag in gst-plugins-base (aka gstreamer-plugins-base) before 0.10.23 in GStreamer allows context-dependent attackers to execute arbitrary code via a crafted COVERART tag that is converted from a base64 representation, which triggers a heap-based buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-0586](https://github.com/Live-Hack-CVE/CVE-2009-0586) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-0586.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-0586.svg)
 
 ## CVE-2009-0473
  Open redirect vulnerability in the web interface in the Rockwell Automation ControlLogix 1756-ENBT/A EtherNet/IP Bridge Module allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.
