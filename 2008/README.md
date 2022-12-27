@@ -19,13 +19,6 @@
 
 - [https://github.com/alt3kx/CVE-2008-6827](https://github.com/alt3kx/CVE-2008-6827) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2008-6827.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2008-6827.svg)
 
-## CVE-2008-6566
- Unspecified vulnerability in Octopussy before 0.9.5.8 has unknown impact and attack vectors related to a &quot;major security&quot; vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2008-6566](https://github.com/Live-Hack-CVE/CVE-2008-6566) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-6566.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-6566.svg)
-
 ## CVE-2008-5416
  Heap-based buffer overflow in Microsoft SQL Server 2000 SP4, 8.00.2050, 8.00.2039, and earlier; SQL Server 2000 Desktop Engine (MSDE 2000) SP4; SQL Server 2005 SP2 and 9.00.1399.06; SQL Server 2000 Desktop Engine (WMSDE) on Windows Server 2003 SP1 and SP2; and Windows Internal Database (WYukon) SP2 allows remote authenticated users to cause a denial of service (access violation exception) or execute arbitrary code by calling the sp_replwritetovarbin extended stored procedure with a set of invalid parameters that trigger memory overwrite, aka &quot;SQL Server sp_replwritetovarbin Limited Memory Overwrite Vulnerability.&quot;
 
@@ -58,6 +51,8 @@
 
 - [https://github.com/mrclki/sockstress](https://github.com/mrclki/sockstress) :  ![starts](https://img.shields.io/github/stars/mrclki/sockstress.svg) ![forks](https://img.shields.io/github/forks/mrclki/sockstress.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2008-4609](https://github.com/Live-Hack-CVE/CVE-2008-4609) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-4609.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-4609.svg)
+
 ## CVE-2008-4250
  The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, Server 2008, and 7 Pre-Beta allows remote attackers to execute arbitrary code via a crafted RPC request that triggers the overflow during path canonicalization, as exploited in the wild by Gimmiv.A in October 2008, aka &quot;Server Service Vulnerability.&quot;
 
@@ -65,40 +60,12 @@
 
 - [https://github.com/thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts) :  ![starts](https://img.shields.io/github/stars/thunderstrike9090/Conflicker_analysis_scripts.svg) ![forks](https://img.shields.io/github/forks/thunderstrike9090/Conflicker_analysis_scripts.svg)
 
-## CVE-2008-3804
- Unspecified vulnerability in the Multi Protocol Label Switching (MPLS) Forwarding Infrastructure (MFI) in Cisco IOS 12.2 and 12.4 allows remote attackers to cause a denial of service (memory corruption) via crafted packets for which the software path is used.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2008-3804](https://github.com/Live-Hack-CVE/CVE-2008-3804) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-3804.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-3804.svg)
-
 ## CVE-2008-2938
  Directory traversal vulnerability in Apache Tomcat 4.1.0 through 4.1.37, 5.5.0 through 5.5.26, and 6.0.0 through 6.0.16, when allowLinking and UTF-8 are enabled, allows remote attackers to read arbitrary files via encoded directory traversal sequences in the URI, a different vulnerability than CVE-2008-2370.  NOTE: versions earlier than 6.0.18 were reported affected, but the vendor advisory lists 6.0.16 as the last affected version.
 
 
 
 - [https://github.com/Naramsim/Offensive](https://github.com/Naramsim/Offensive) :  ![starts](https://img.shields.io/github/stars/Naramsim/Offensive.svg) ![forks](https://img.shields.io/github/forks/Naramsim/Offensive.svg)
-
-## CVE-2008-2578
- Unspecified vulnerability in the WebLogic Server component in Oracle BEA Product Suite 10.0 and 9.2 MP1 has unknown impact and local attack vectors.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2008-2578](https://github.com/Live-Hack-CVE/CVE-2008-2578) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-2578.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-2578.svg)
-
-## CVE-2008-2577
- Unspecified vulnerability in the WebLogic Server component in Oracle BEA Product Suite 9.2 MP1 has unknown impact and remote authenticated attack vectors.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2008-2577](https://github.com/Live-Hack-CVE/CVE-2008-2577) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-2577.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-2577.svg)
-
-## CVE-2008-2364
- The ap_proxy_http_process_response function in mod_proxy_http.c in the mod_proxy module in the Apache HTTP Server 2.0.63 and 2.2.8 does not limit the number of forwarded interim responses, which allows remote HTTP servers to cause a denial of service (memory consumption) via a large number of interim responses.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2008-2364](https://github.com/Live-Hack-CVE/CVE-2008-2364) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-2364.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-2364.svg)
 
 ## CVE-2008-2019
  Simple Machines Forum (SMF), probably 1.1.4, relies on &quot;randomly generated static&quot; to hinder brute-force attacks on the WAV file (aka audio) CAPTCHA, which allows remote attackers to pass the CAPTCHA test via an automated attack that considers Hamming distances.  NOTE: this issue reportedly exists because of an insufficient fix for CVE-2007-3308.
@@ -127,27 +94,6 @@
 
 
 - [https://github.com/hackingyseguridad/dnspoison](https://github.com/hackingyseguridad/dnspoison) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/dnspoison.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/dnspoison.svg)
-
-## CVE-2008-1105
- Heap-based buffer overflow in the receive_smb_raw function in util/sock.c in Samba 3.0.0 through 3.0.29 allows remote attackers to execute arbitrary code via a crafted SMB response.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2008-1105](https://github.com/Live-Hack-CVE/CVE-2008-1105) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-1105.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-1105.svg)
-
-## CVE-2008-0456
- CRLF injection vulnerability in the mod_negotiation module in the Apache HTTP Server 2.2.6 and earlier in the 2.2.x series, 2.0.61 and earlier in the 2.0.x series, and 1.3.39 and earlier in the 1.3.x series allows remote authenticated users to inject arbitrary HTTP headers and conduct HTTP response splitting attacks by uploading a file with a multi-line name containing HTTP header sequences and a file extension, which leads to injection within a (1) &quot;406 Not Acceptable&quot; or (2) &quot;300 Multiple Choices&quot; HTTP response when the extension is omitted in a request for the file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2008-0456](https://github.com/Live-Hack-CVE/CVE-2008-0456) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-0456.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-0456.svg)
-
-## CVE-2008-0455
- Cross-site scripting (XSS) vulnerability in the mod_negotiation module in the Apache HTTP Server 2.2.6 and earlier in the 2.2.x series, 2.0.61 and earlier in the 2.0.x series, and 1.3.39 and earlier in the 1.3.x series allows remote authenticated users to inject arbitrary web script or HTML by uploading a file with a name containing XSS sequences and a file extension, which leads to injection within a (1) &quot;406 Not Acceptable&quot; or (2) &quot;300 Multiple Choices&quot; HTTP response when the extension is omitted in a request for the file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2008-0455](https://github.com/Live-Hack-CVE/CVE-2008-0455) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-0455.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-0455.svg)
 
 ## CVE-2008-0244
  SAP MaxDB 7.6.03 build 007 and earlier allows remote attackers to execute arbitrary commands via &quot;&amp;&amp;&quot; and other shell metacharacters in exec_sdbinfo and other unspecified commands, which are executed when MaxDB invokes cons.exe.
@@ -182,10 +128,3 @@
 
 
 - [https://github.com/ngyanch/4062-1](https://github.com/ngyanch/4062-1) :  ![starts](https://img.shields.io/github/stars/ngyanch/4062-1.svg) ![forks](https://img.shields.io/github/forks/ngyanch/4062-1.svg)
-
-## CVE-2008-0005
- mod_proxy_ftp in Apache 2.2.x before 2.2.7-dev, 2.0.x before 2.0.62-dev, and 1.3.x before 1.3.40-dev does not define a charset, which allows remote attackers to conduct cross-site scripting (XSS) attacks using UTF-7 encoding.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2008-0005](https://github.com/Live-Hack-CVE/CVE-2008-0005) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-0005.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-0005.svg)
