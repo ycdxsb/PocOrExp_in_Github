@@ -23,13 +23,6 @@
 
 - [https://github.com/lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862) :  ![starts](https://img.shields.io/github/stars/lol-fi/cve-2011-4862.svg) ![forks](https://img.shields.io/github/forks/lol-fi/cve-2011-4862.svg)
 
-## CVE-2011-4566
- Integer overflow in the exif_process_IFD_TAG function in exif.c in the exif extension in PHP 5.4.0beta2 on 32-bit platforms allows remote attackers to read the contents of arbitrary memory locations or cause a denial of service via a crafted offset_val value in an EXIF header in a JPEG file, a different vulnerability than CVE-2011-0708.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2011-4566](https://github.com/Live-Hack-CVE/CVE-2011-4566) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-4566.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-4566.svg)
-
 ## CVE-2011-4107
  The simplexml_load_string function in the XML import plug-in (libraries/import/xml.php) in phpMyAdmin 3.4.x before 3.4.7.1 and 3.3.x before 3.3.10.5 allows remote authenticated users to read arbitrary files via XML data containing external entity references, aka an XML external entity (XXE) injection attack.
 
@@ -67,13 +60,6 @@
 
 - [https://github.com/colorblindpentester/CVE-2011-3368](https://github.com/colorblindpentester/CVE-2011-3368) :  ![starts](https://img.shields.io/github/stars/colorblindpentester/CVE-2011-3368.svg) ![forks](https://img.shields.io/github/forks/colorblindpentester/CVE-2011-3368.svg)
 
-## CVE-2011-3348
- The mod_proxy_ajp module in the Apache HTTP Server before 2.2.21, when used with mod_proxy_balancer in certain configurations, allows remote attackers to cause a denial of service (temporary &quot;error state&quot; in the backend server) via a malformed HTTP request.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2011-3348](https://github.com/Live-Hack-CVE/CVE-2011-3348) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-3348.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-3348.svg)
-
 ## CVE-2011-3192
  The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 2.2.x through 2.2.19 allows remote attackers to cause a denial of service (memory and CPU consumption) via a Range header that expresses multiple overlapping ranges, as exploited in the wild in August 2011, a different vulnerability than CVE-2007-0086.
 
@@ -84,8 +70,6 @@
 - [https://github.com/limkokholefork/CVE-2011-3192](https://github.com/limkokholefork/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/limkokholefork/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/CVE-2011-3192.svg)
 
 - [https://github.com/stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192) :  ![starts](https://img.shields.io/github/stars/stcmjp/cve-2011-3192.svg) ![forks](https://img.shields.io/github/forks/stcmjp/cve-2011-3192.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2011-3192](https://github.com/Live-Hack-CVE/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-3192.svg)
 
 - [https://github.com/warmilk/http-Dos-Attack-Detection](https://github.com/warmilk/http-Dos-Attack-Detection) :  ![starts](https://img.shields.io/github/stars/warmilk/http-Dos-Attack-Detection.svg) ![forks](https://img.shields.io/github/forks/warmilk/http-Dos-Attack-Detection.svg)
 
@@ -125,13 +109,6 @@
 - [https://github.com/HerculesRD/vsftpd2.3.4PyExploit](https://github.com/HerculesRD/vsftpd2.3.4PyExploit) :  ![starts](https://img.shields.io/github/stars/HerculesRD/vsftpd2.3.4PyExploit.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/vsftpd2.3.4PyExploit.svg)
 
 - [https://github.com/davidlares/vsftpd-exploitation](https://github.com/davidlares/vsftpd-exploitation) :  ![starts](https://img.shields.io/github/stars/davidlares/vsftpd-exploitation.svg) ![forks](https://img.shields.io/github/forks/davidlares/vsftpd-exploitation.svg)
-
-## CVE-2011-2522
- Multiple cross-site request forgery (CSRF) vulnerabilities in the Samba Web Administration Tool (SWAT) in Samba 3.x before 3.5.10 allow remote attackers to hijack the authentication of administrators for requests that (1) shut down daemons, (2) start daemons, (3) add shares, (4) remove shares, (5) add printers, (6) remove printers, (7) add user accounts, or (8) remove user accounts, as demonstrated by certain start, stop, and restart parameters to the status program.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2011-2522](https://github.com/Live-Hack-CVE/CVE-2011-2522) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-2522.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-2522.svg)
 
 ## CVE-2011-2461
  Cross-site scripting (XSS) vulnerability in the Adobe Flex SDK 3.x and 4.x before 4.6 allows remote attackers to inject arbitrary web script or HTML via vectors related to the loading of modules from different domains.
@@ -210,13 +187,6 @@
 
 
 - [https://github.com/BrunoPujos/CVE-2011-1237](https://github.com/BrunoPujos/CVE-2011-1237) :  ![starts](https://img.shields.io/github/stars/BrunoPujos/CVE-2011-1237.svg) ![forks](https://img.shields.io/github/forks/BrunoPujos/CVE-2011-1237.svg)
-
-## CVE-2011-0419
- Stack consumption vulnerability in the fnmatch implementation in apr_fnmatch.c in the Apache Portable Runtime (APR) library before 1.4.3 and the Apache HTTP Server before 2.2.18, and in fnmatch.c in libc in NetBSD 5.1, OpenBSD 4.8, FreeBSD, Apple Mac OS X 10.6, Oracle Solaris 10, and Android, allows context-dependent attackers to cause a denial of service (CPU and memory consumption) via *? sequences in the first argument, as demonstrated by attacks against mod_autoindex in httpd.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2011-0419](https://github.com/Live-Hack-CVE/CVE-2011-0419) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-0419.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-0419.svg)
 
 ## CVE-2011-0228
  The Data Security component in Apple iOS before 4.2.10 and 4.3.x before 4.3.5 does not check the basicConstraints parameter during validation of X.509 certificate chains, which allows man-in-the-middle attackers to spoof an SSL server by using a non-CA certificate to sign a certificate for an arbitrary domain.
