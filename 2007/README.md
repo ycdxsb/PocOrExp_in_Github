@@ -1,10 +1,3 @@
-## CVE-2007-20001
- A flaw was found in StarWind iSCSI target. An attacker could script standard iSCSI Initiator operation(s) to exhaust the StarWind service socket, which could lead to denial of service. This affects iSCSI SAN (Windows Native) Version 3.2.2 build 2007-02-20.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2007-20001](https://github.com/Live-Hack-CVE/CVE-2007-20001) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-20001.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-20001.svg)
-
 ## CVE-2007-6638
  March Networks DVR 3204 stores sensitive information under the web root with insufficient access control, which allows remote attackers to obtain usernames, passwords, device names, and IP addresses via a direct request for scripts/logfiles.tar.gz.
 
@@ -42,13 +35,6 @@
 
 - [https://github.com/Ooscaar/MALW](https://github.com/Ooscaar/MALW) :  ![starts](https://img.shields.io/github/stars/Ooscaar/MALW.svg) ![forks](https://img.shields.io/github/forks/Ooscaar/MALW.svg)
 
-## CVE-2007-3847
- The date handling code in modules/proxy/proxy_util.c (mod_proxy) in Apache 2.3.0, when using a threaded MPM, allows remote origin servers to cause a denial of service (caching forward proxy process crash) via crafted date headers that trigger a buffer over-read.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2007-3847](https://github.com/Live-Hack-CVE/CVE-2007-3847) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-3847.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-3847.svg)
-
 ## CVE-2007-3831
  PHP remote file inclusion in main.php in ISS Proventia Network IPS GX5108 1.3 and GX5008 1.5 allows remote attackers to execute arbitrary PHP code via a URL in the page parameter.
 
@@ -63,20 +49,6 @@
 
 - [https://github.com/alt3kx/CVE-2007-3830](https://github.com/alt3kx/CVE-2007-3830) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2007-3830.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2007-3830.svg)
 
-## CVE-2007-3304
- Apache httpd 1.3.37, 2.0.59, and 2.2.4 with the Prefork MPM module, allows local users to cause a denial of service by modifying the worker_score and process_score arrays to reference an arbitrary process ID, which is sent a SIGUSR1 signal from the master process, aka &quot;SIGUSR1 killer.&quot;
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2007-3304](https://github.com/Live-Hack-CVE/CVE-2007-3304) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-3304.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-3304.svg)
-
-## CVE-2007-3007
- PHP 5 before 5.2.3 does not enforce the open_basedir or safe_mode restriction in certain cases, which allows context-dependent attackers to determine the existence of arbitrary files by checking if the readfile function returns a string.  NOTE: this issue might also involve the realpath function.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2007-3007](https://github.com/Live-Hack-CVE/CVE-2007-3007) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-3007.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-3007.svg)
-
 ## CVE-2007-2447
  The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 
@@ -90,9 +62,9 @@
 
 - [https://github.com/xbufu/CVE-2007-2447](https://github.com/xbufu/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xbufu/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xbufu/CVE-2007-2447.svg)
 
-- [https://github.com/Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Alien0ne/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Alien0ne/CVE-2007-2447.svg)
-
 - [https://github.com/3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/3x1t1um/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/3x1t1um/CVE-2007-2447.svg)
+
+- [https://github.com/Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Alien0ne/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Alien0ne/CVE-2007-2447.svg)
 
 - [https://github.com/k4u5h41/CVE-2007-2447](https://github.com/k4u5h41/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2007-2447.svg)
 
@@ -100,11 +72,11 @@
 
 - [https://github.com/mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/mr-l0n3lly/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/mr-l0n3lly/CVE-2007-2447.svg)
 
-- [https://github.com/cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/cherrera0001/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/cherrera0001/CVE-2007-2447.svg)
-
 - [https://github.com/xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xlcc4096/exploit-CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xlcc4096/exploit-CVE-2007-2447.svg)
 
 - [https://github.com/0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xKn/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xKn/CVE-2007-2447.svg)
+
+- [https://github.com/cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/cherrera0001/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/cherrera0001/CVE-2007-2447.svg)
 
 - [https://github.com/Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Aviksaikat/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Aviksaikat/CVE-2007-2447.svg)
 
@@ -129,13 +101,6 @@
 - [https://github.com/HerculesRD/PyUsernameMapScriptRCE](https://github.com/HerculesRD/PyUsernameMapScriptRCE) :  ![starts](https://img.shields.io/github/stars/HerculesRD/PyUsernameMapScriptRCE.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/PyUsernameMapScriptRCE.svg)
 
 - [https://github.com/Ki11i0n4ir3/Sambaster](https://github.com/Ki11i0n4ir3/Sambaster) :  ![starts](https://img.shields.io/github/stars/Ki11i0n4ir3/Sambaster.svg) ![forks](https://img.shields.io/github/forks/Ki11i0n4ir3/Sambaster.svg)
-
-## CVE-2007-2444
- Logic error in the SID/Name translation functionality in smbd in Samba 3.0.23d through 3.0.25pre2 allows local users to gain temporary privileges and execute SMB/CIFS protocol operations via unspecified vectors that cause the daemon to transition to the root user.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2007-2444](https://github.com/Live-Hack-CVE/CVE-2007-2444) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-2444.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-2444.svg)
 
 ## CVE-2007-1858
  The default SSL cipher configuration in Apache Tomcat 4.1.28 through 4.1.31, 5.0.0 through 5.0.30, and 5.5.0 through 5.5.17 uses certain insecure ciphers, including the anonymous cipher, which allows remote attackers to obtain sensitive information or have other, unspecified impacts.
