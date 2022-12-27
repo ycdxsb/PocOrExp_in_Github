@@ -1,3 +1,10 @@
+## CVE-2015-10005
+ A vulnerability was found in markdown-it up to 2.x. It has been classified as problematic. Affected is an unknown function of the file lib/common/html_re.js. The manipulation leads to inefficient regular expression complexity. Upgrading to version 3.0.0 is able to address this issue. The name of the patch is 89c8620157d6e38f9872811620d25138fc9d1b0d. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-216852.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10005](https://github.com/Live-Hack-CVE/CVE-2015-10005) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10005.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10005.svg)
+
 ## CVE-2015-9251
  jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed.
 
@@ -11,20 +18,6 @@
 
 
 - [https://github.com/aalex954/jwt-key-confusion-poc](https://github.com/aalex954/jwt-key-confusion-poc) :  ![starts](https://img.shields.io/github/stars/aalex954/jwt-key-confusion-poc.svg) ![forks](https://img.shields.io/github/forks/aalex954/jwt-key-confusion-poc.svg)
-
-## CVE-2015-8994
- An issue was discovered in PHP 5.x and 7.x, when the configuration uses apache2handler/mod_php or php-fpm with OpCache enabled. With 5.x after 5.6.28 or 7.x after 7.0.13, the issue is resolved in a non-default configuration with the opcache.validate_permission=1 setting. The vulnerability details are as follows. In PHP SAPIs where PHP interpreters share a common parent process, Zend OpCache creates a shared memory object owned by the common parent during initialization. Child PHP processes inherit the SHM descriptor, using it to cache and retrieve compiled script bytecode (&quot;opcode&quot; in PHP jargon). Cache keys vary depending on configuration, but filename is a central key component, and compiled opcode can generally be run if a script's filename is known or can be guessed. Many common shared-hosting configurations change EUID in child processes to enforce privilege separation among hosted users (for example using mod_ruid2 for the Apache HTTP Server, or php-fpm user settings). In these scenarios, the default Zend OpCache behavior defeats script file permissions by sharing a single SHM cache among all child PHP processes. PHP scripts often contain sensitive information: Think of CMS configurations where reading or running another user's script usually means gaining privileges to the CMS database.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8994](https://github.com/Live-Hack-CVE/CVE-2015-8994) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8994.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8994.svg)
-
-## CVE-2015-8879
- The odbc_bindcols function in ext/odbc/php_odbc.c in PHP before 5.6.12 mishandles driver behavior for SQL_WVARCHAR columns, which allows remote attackers to cause a denial of service (application crash) in opportunistic circumstances by leveraging use of the odbc_fetch_array function to access a certain type of Microsoft SQL Server table.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8879](https://github.com/Live-Hack-CVE/CVE-2015-8879) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8879.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8879.svg)
 
 ## CVE-2015-8710
  The htmlParseComment function in HTMLparser.c in libxml2 allows attackers to obtain sensitive information, cause a denial of service (out-of-bounds heap memory access and application crash), or possibly have unspecified other impact via an unclosed HTML comment.
@@ -80,62 +73,6 @@
 
 
 - [https://github.com/bittorrent3389/CVE-2015-8543_for_SLE12SP1](https://github.com/bittorrent3389/CVE-2015-8543_for_SLE12SP1) :  ![starts](https://img.shields.io/github/stars/bittorrent3389/CVE-2015-8543_for_SLE12SP1.svg) ![forks](https://img.shields.io/github/forks/bittorrent3389/CVE-2015-8543_for_SLE12SP1.svg)
-
-## CVE-2015-8467
- The samldb_check_user_account_control_acl function in dsdb/samdb/ldb_modules/samldb.c in Samba 4.x before 4.1.22, 4.2.x before 4.2.7, and 4.3.x before 4.3.3 does not properly check for administrative privileges during creation of machine accounts, which allows remote authenticated users to bypass intended access restrictions by leveraging the existence of a domain with both a Samba DC and a Windows DC, a similar issue to CVE-2015-2535.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8467](https://github.com/Live-Hack-CVE/CVE-2015-8467) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8467.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8467.svg)
-
-## CVE-2015-8394
- PCRE before 8.38 mishandles the (?(&lt;digits&gt;) and (?(R&lt;digits&gt;) conditions, which allows remote attackers to cause a denial of service (integer overflow) or possibly have unspecified other impact via a crafted regular expression, as demonstrated by a JavaScript RegExp object encountered by Konqueror.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8394](https://github.com/Live-Hack-CVE/CVE-2015-8394) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8394.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8394.svg)
-
-## CVE-2015-8393
- pcregrep in PCRE before 8.38 mishandles the -q option for binary files, which might allow remote attackers to obtain sensitive information via a crafted file, as demonstrated by a CGI script that sends stdout data to a client.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8393](https://github.com/Live-Hack-CVE/CVE-2015-8393) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8393.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8393.svg)
-
-## CVE-2015-8390
- PCRE before 8.38 mishandles the [: and \\ substrings in character classes, which allows remote attackers to cause a denial of service (uninitialized memory read) or possibly have unspecified other impact via a crafted regular expression, as demonstrated by a JavaScript RegExp object encountered by Konqueror.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8390](https://github.com/Live-Hack-CVE/CVE-2015-8390) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8390.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8390.svg)
-
-## CVE-2015-8389
- PCRE before 8.38 mishandles the /(?:|a|){100}x/ pattern and related patterns, which allows remote attackers to cause a denial of service (infinite recursion) or possibly have unspecified other impact via a crafted regular expression, as demonstrated by a JavaScript RegExp object encountered by Konqueror.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8389](https://github.com/Live-Hack-CVE/CVE-2015-8389) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8389.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8389.svg)
-
-## CVE-2015-8387
- PCRE before 8.38 mishandles (?123) subroutine calls and related subroutine calls, which allows remote attackers to cause a denial of service (integer overflow) or possibly have unspecified other impact via a crafted regular expression, as demonstrated by a JavaScript RegExp object encountered by Konqueror.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8387](https://github.com/Live-Hack-CVE/CVE-2015-8387) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8387.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8387.svg)
-
-## CVE-2015-8386
- PCRE before 8.38 mishandles the interaction of lookbehind assertions and mutually recursive subpatterns, which allows remote attackers to cause a denial of service (buffer overflow) or possibly have unspecified other impact via a crafted regular expression, as demonstrated by a JavaScript RegExp object encountered by Konqueror.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8386](https://github.com/Live-Hack-CVE/CVE-2015-8386) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8386.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8386.svg)
-
-## CVE-2015-8383
- PCRE before 8.38 mishandles certain repeated conditional groups, which allows remote attackers to cause a denial of service (buffer overflow) or possibly have unspecified other impact via a crafted regular expression, as demonstrated by a JavaScript RegExp object encountered by Konqueror.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8383](https://github.com/Live-Hack-CVE/CVE-2015-8383) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8383.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8383.svg)
 
 ## CVE-2015-8299
  Buffer overflow in the Group messages monitor (Falcon) in KNX ETS 4.1.5 (Build 3246) allows remote attackers to execute arbitrary code via a crafted KNXnet/IP UDP packet.
@@ -215,26 +152,12 @@
 
 - [https://github.com/cinno/CVE-2015-7755-POC](https://github.com/cinno/CVE-2015-7755-POC) :  ![starts](https://img.shields.io/github/stars/cinno/CVE-2015-7755-POC.svg) ![forks](https://img.shields.io/github/forks/cinno/CVE-2015-7755-POC.svg)
 
-## CVE-2015-7744
- wolfSSL (formerly CyaSSL) before 3.6.8 does not properly handle faults associated with the Chinese Remainder Theorem (CRT) process when allowing ephemeral key exchange without low memory optimizations on a server, which makes it easier for remote attackers to obtain private RSA keys by capturing TLS handshakes, aka a Lenstra attack.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7744](https://github.com/Live-Hack-CVE/CVE-2015-7744) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7744.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7744.svg)
-
 ## CVE-2015-7576
  The http_basic_authenticate_with method in actionpack/lib/action_controller/metal/http_authentication.rb in the Basic Authentication implementation in Action Controller in Ruby on Rails before 3.2.22.1, 4.0.x and 4.1.x before 4.1.14.1, 4.2.x before 4.2.5.1, and 5.x before 5.0.0.beta1.1 does not use a constant-time algorithm for verifying credentials, which makes it easier for remote attackers to bypass authentication by measuring timing differences.
 
 
 
 - [https://github.com/yield-c/CVE2015-7576](https://github.com/yield-c/CVE2015-7576) :  ![starts](https://img.shields.io/github/stars/yield-c/CVE2015-7576.svg) ![forks](https://img.shields.io/github/forks/yield-c/CVE2015-7576.svg)
-
-## CVE-2015-7560
- The SMB1 implementation in smbd in Samba 3.x and 4.x before 4.1.23, 4.2.x before 4.2.9, 4.3.x before 4.3.6, and 4.4.x before 4.4.0rc4 allows remote authenticated users to modify arbitrary ACLs by using a UNIX SMB1 call to create a symlink, and then using a non-UNIX SMB1 call to write to the ACL content.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7560](https://github.com/Live-Hack-CVE/CVE-2015-7560) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7560.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7560.svg)
 
 ## CVE-2015-7547
  Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functions in the libresolv library in the GNU C Library (aka glibc or libc6) before 2.23 allow remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via a crafted DNS response that triggers a call to the getaddrinfo function with the AF_UNSPEC or AF_INET6 address family, related to performing &quot;dual A/AAAA DNS queries&quot; and the libnss_dns.so.2 NSS module.
@@ -269,13 +192,6 @@
 
 
 - [https://github.com/avuserow/bug-free-chainsaw](https://github.com/avuserow/bug-free-chainsaw) :  ![starts](https://img.shields.io/github/stars/avuserow/bug-free-chainsaw.svg) ![forks](https://img.shields.io/github/forks/avuserow/bug-free-chainsaw.svg)
-
-## CVE-2015-7540
- The LDAP server in the AD domain controller in Samba 4.x before 4.1.22 does not check return values to ensure successful ASN.1 memory allocation, which allows remote attackers to cause a denial of service (memory consumption and daemon crash) via crafted packets.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7540](https://github.com/Live-Hack-CVE/CVE-2015-7540) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7540.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7540.svg)
 
 ## CVE-2015-7501
  Red Hat JBoss A-MQ 6.x; BPM Suite (BPMS) 6.x; BRMS 6.x and 5.x; Data Grid (JDG) 6.x; Data Virtualization (JDV) 6.x and 5.x; Enterprise Application Platform 6.x, 5.x, and 4.3.x; Fuse 6.x; Fuse Service Works (FSW) 6.x; Operations Network (JBoss ON) 3.x; Portal 6.x; SOA Platform (SOA-P) 5.x; Web Server (JWS) 3.x; Red Hat OpenShift/xPAAS 3.x; and Red Hat Subscription Asset Manager 1.3 allow remote attackers to execute arbitrary commands via a crafted serialized Java object, related to the Apache Commons Collections (ACC) library.
@@ -315,13 +231,6 @@
 
 
 - [https://github.com/ockeghem/CVE-2015-6835-checker](https://github.com/ockeghem/CVE-2015-6835-checker) :  ![starts](https://img.shields.io/github/stars/ockeghem/CVE-2015-6835-checker.svg) ![forks](https://img.shields.io/github/forks/ockeghem/CVE-2015-6835-checker.svg)
-
-## CVE-2015-6764
- The BasicJsonStringifier::SerializeJSArray function in json-stringifier.h in the JSON stringifier in Google V8, as used in Google Chrome before 47.0.2526.73, improperly loads array elements, which allows remote attackers to cause a denial of service (out-of-bounds memory access) or possibly have unspecified other impact via crafted JavaScript code.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-6764](https://github.com/Live-Hack-CVE/CVE-2015-6764) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6764.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6764.svg)
 
 ## CVE-2015-6668
  The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary CV files via a brute force attack to the WordPress upload directory structure, related to an insecure direct object reference.
@@ -480,6 +389,13 @@
 
 - [https://github.com/likescam/ShareDoc_cve-2015-5477](https://github.com/likescam/ShareDoc_cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/likescam/ShareDoc_cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/likescam/ShareDoc_cve-2015-5477.svg)
 
+## CVE-2015-5395
+ Cross-site request forgery (CSRF) vulnerability in SOGo before 3.1.0.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5395](https://github.com/Live-Hack-CVE/CVE-2015-5395) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5395.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5395.svg)
+
 ## CVE-2015-5383
  Roundcube Webmail 1.1.x before 1.1.2 allows remote attackers to obtain sensitive information by reading files in the (1) config, (2) temp, or (3) logs directory.
 
@@ -508,33 +424,12 @@
 
 - [https://github.com/can/CVE-2015-5374-DoS-PoC](https://github.com/can/CVE-2015-5374-DoS-PoC) :  ![starts](https://img.shields.io/github/stars/can/CVE-2015-5374-DoS-PoC.svg) ![forks](https://img.shields.io/github/forks/can/CVE-2015-5374-DoS-PoC.svg)
 
-## CVE-2015-5361
- Background For regular, unencrypted FTP traffic, the FTP ALG can inspect the unencrypted control channel and open related sessions for the FTP data channel. These related sessions (gates) are specific to source and destination IPs and ports of client and server. The design intent of the ftps-extensions option (which is disabled by default) is to provide similar functionality when the SRX secures the FTP/FTPS client. As the control channel is encrypted, the FTP ALG cannot inspect the port specific information and will open a wider TCP data channel (gate) from client IP to server IP on all destination TCP ports. In FTP/FTPS client environments to an enterprise network or the Internet, this is the desired behavior as it allows firewall policy to be written to FTP/FTPS servers on well-known control ports without using a policy with destination IP ANY and destination port ANY. Issue The ftps-extensions option is not intended or recommended where the SRX secures the FTPS server, as the wide data channel session (gate) will allow the FTPS client temporary access to all TCP ports on the FTPS server. The data session is associated to the control channel and will be closed when the control channel session closes. Depending on the configuration of the FTPS server, supporting load-balancer, and SRX inactivity-timeout values, the server/load-balancer and SRX may keep the control channel open for an extended period of time, allowing an FTPS client access for an equal duration.&#8203; Note that the ftps-extensions option is not enabled by default.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5361](https://github.com/Live-Hack-CVE/CVE-2015-5361) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5361.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5361.svg)
-
 ## CVE-2015-5347
  Cross-site scripting (XSS) vulnerability in the getWindowOpenJavaScript function in org.apache.wicket.extensions.ajax.markup.html.modal.ModalWindow in Apache Wicket 1.5.x before 1.5.15, 6.x before 6.22.0, and 7.x before 7.2.0 might allow remote attackers to inject arbitrary web script or HTML via a ModalWindow title.
 
 
 
 - [https://github.com/alexanderkjall/wicker-cve-2015-5347](https://github.com/alexanderkjall/wicker-cve-2015-5347) :  ![starts](https://img.shields.io/github/stars/alexanderkjall/wicker-cve-2015-5347.svg) ![forks](https://img.shields.io/github/forks/alexanderkjall/wicker-cve-2015-5347.svg)
-
-## CVE-2015-5299
- The shadow_copy2_get_shadow_copy_data function in modules/vfs_shadow_copy2.c in Samba 3.x and 4.x before 4.1.22, 4.2.x before 4.2.7, and 4.3.x before 4.3.3 does not verify that the DIRECTORY_LIST access right has been granted, which allows remote attackers to access snapshots by visiting a shadow copy directory.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5299](https://github.com/Live-Hack-CVE/CVE-2015-5299) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5299.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5299.svg)
-
-## CVE-2015-5296
- Samba 3.x and 4.x before 4.1.22, 4.2.x before 4.2.7, and 4.3.x before 4.3.3 supports connections that are encrypted but unsigned, which allows man-in-the-middle attackers to conduct encrypted-to-unencrypted downgrade attacks by modifying the client-server data stream, related to clidfs.c, libsmb_server.c, and smbXcli_base.c.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5296](https://github.com/Live-Hack-CVE/CVE-2015-5296) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5296.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5296.svg)
 
 ## CVE-2015-5254
  Apache ActiveMQ 5.x before 5.13.0 does not restrict the classes that can be serialized in the broker, which allows remote attackers to execute arbitrary code via a crafted serialized Java Message Service (JMS) ObjectMessage object.
@@ -544,13 +439,6 @@
 - [https://github.com/jas502n/CVE-2015-5254](https://github.com/jas502n/CVE-2015-5254) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2015-5254.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2015-5254.svg)
 
 - [https://github.com/Ma1Dong/ActiveMQ_CVE-2015-5254](https://github.com/Ma1Dong/ActiveMQ_CVE-2015-5254) :  ![starts](https://img.shields.io/github/stars/Ma1Dong/ActiveMQ_CVE-2015-5254.svg) ![forks](https://img.shields.io/github/forks/Ma1Dong/ActiveMQ_CVE-2015-5254.svg)
-
-## CVE-2015-5252
- vfs.c in smbd in Samba 3.x and 4.x before 4.1.22, 4.2.x before 4.2.7, and 4.3.x before 4.3.3, when share names with certain substring relationships exist, allows remote attackers to bypass intended file-access restrictions via a symlink that points outside of a share.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5252](https://github.com/Live-Hack-CVE/CVE-2015-5252) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5252.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5252.svg)
 
 ## CVE-2015-5195
  ntp_openssl.m4 in ntpd in NTP before 4.2.7p112 allows remote attackers to cause a denial of service (segmentation fault) via a crafted statistics or filegen configuration command that is not enabled during compilation.
@@ -579,49 +467,12 @@
 
 - [https://github.com/Xattam1/Adobe-Flash-Exploits_17-18](https://github.com/Xattam1/Adobe-Flash-Exploits_17-18) :  ![starts](https://img.shields.io/github/stars/Xattam1/Adobe-Flash-Exploits_17-18.svg) ![forks](https://img.shields.io/github/forks/Xattam1/Adobe-Flash-Exploits_17-18.svg)
 
-## CVE-2015-4913
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect availability via vectors related to Server : DML, a different vulnerability than CVE-2015-4858.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4913](https://github.com/Live-Hack-CVE/CVE-2015-4913) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4913.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4913.svg)
-
-## CVE-2015-4895
- Unspecified vulnerability in Oracle MySQL Server 5.6.25 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : InnoDB.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4895](https://github.com/Live-Hack-CVE/CVE-2015-4895) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4895.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4895.svg)
-
 ## CVE-2015-4870
  Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Parser.
 
 
 
 - [https://github.com/OsandaMalith/CVE-2015-4870](https://github.com/OsandaMalith/CVE-2015-4870) :  ![starts](https://img.shields.io/github/stars/OsandaMalith/CVE-2015-4870.svg) ![forks](https://img.shields.io/github/forks/OsandaMalith/CVE-2015-4870.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4870](https://github.com/Live-Hack-CVE/CVE-2015-4870) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4870.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4870.svg)
-
-## CVE-2015-4864
- Unspecified vulnerability in Oracle MySQL Server 5.5.43 and earlier and 5.6.24 and earlier allows remote authenticated users to affect integrity via unknown vectors related to Server : Security : Privileges.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4864](https://github.com/Live-Hack-CVE/CVE-2015-4864) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4864.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4864.svg)
-
-## CVE-2015-4861
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : InnoDB.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4861](https://github.com/Live-Hack-CVE/CVE-2015-4861) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4861.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4861.svg)
-
-## CVE-2015-4858
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via vectors related to DML, a different vulnerability than CVE-2015-4913.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4858](https://github.com/Live-Hack-CVE/CVE-2015-4858) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4858.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4858.svg)
 
 ## CVE-2015-4852
  The WLS Security component in Oracle WebLogic Server 10.3.6.0, 12.1.2.0, 12.1.3.0, and 12.2.1.0 allows remote attackers to execute arbitrary commands via a crafted serialized Java object in T3 protocol traffic to TCP port 7001, related to oracle_common/modules/com.bea.core.apache.commons.collections.jar. NOTE: the scope of this CVE is limited to the WebLogic Server product.
@@ -637,69 +488,6 @@
 - [https://github.com/nex1less/CVE-2015-4852](https://github.com/nex1less/CVE-2015-4852) :  ![starts](https://img.shields.io/github/stars/nex1less/CVE-2015-4852.svg) ![forks](https://img.shields.io/github/forks/nex1less/CVE-2015-4852.svg)
 
 - [https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces](https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces) :  ![starts](https://img.shields.io/github/stars/minhangxiaohui/Weblogic_direct_T3_Rces.svg) ![forks](https://img.shields.io/github/forks/minhangxiaohui/Weblogic_direct_T3_Rces.svg)
-
-## CVE-2015-4836
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : SP.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4836](https://github.com/Live-Hack-CVE/CVE-2015-4836) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4836.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4836.svg)
-
-## CVE-2015-4830
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect integrity via unknown vectors related to Server : Security : Privileges.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4830](https://github.com/Live-Hack-CVE/CVE-2015-4830) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4830.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4830.svg)
-
-## CVE-2015-4826
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect confidentiality via unknown vectors related to Server : Types.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4826](https://github.com/Live-Hack-CVE/CVE-2015-4826) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4826.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4826.svg)
-
-## CVE-2015-4816
- Unspecified vulnerability in Oracle MySQL Server 5.5.44 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : InnoDB.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4816](https://github.com/Live-Hack-CVE/CVE-2015-4816) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4816.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4816.svg)
-
-## CVE-2015-4815
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect availability via vectors related to Server : DDL.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4815](https://github.com/Live-Hack-CVE/CVE-2015-4815) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4815.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4815.svg)
-
-## CVE-2015-4807
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier, when running on Windows, allows remote authenticated users to affect availability via unknown vectors related to Server : Query Cache.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4807](https://github.com/Live-Hack-CVE/CVE-2015-4807) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4807.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4807.svg)
-
-## CVE-2015-4792
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : Partition, a different vulnerability than CVE-2015-4802.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4792](https://github.com/Live-Hack-CVE/CVE-2015-4792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4792.svg)
-
-## CVE-2015-4757
- Unspecified vulnerability in Oracle MySQL Server 5.5.42 and earlier and 5.6.23 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : Optimizer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4757](https://github.com/Live-Hack-CVE/CVE-2015-4757) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4757.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4757.svg)
-
-## CVE-2015-4752
- Unspecified vulnerability in Oracle MySQL Server 5.5.43 and earlier and 5.6.24 and earlier allows remote authenticated users to affect availability via vectors related to Server : I_S.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4752](https://github.com/Live-Hack-CVE/CVE-2015-4752) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4752.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4752.svg)
 
 ## CVE-2015-4495
  The PDF reader in Mozilla Firefox before 39.0.3, Firefox ESR 38.x before 38.1.1, and Firefox OS before 2.2 allows remote attackers to bypass the Same Origin Policy, and read arbitrary files or gain privileges, via vectors involving crafted JavaScript code and a native setter, as exploited in the wild in August 2015.
@@ -723,13 +511,6 @@
 - [https://github.com/fatlan/HAProxy-Keepalived-Sec-HighLoads](https://github.com/fatlan/HAProxy-Keepalived-Sec-HighLoads) :  ![starts](https://img.shields.io/github/stars/fatlan/HAProxy-Keepalived-Sec-HighLoads.svg) ![forks](https://img.shields.io/github/forks/fatlan/HAProxy-Keepalived-Sec-HighLoads.svg)
 
 - [https://github.com/clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/clic-kbait/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/clic-kbait/A2SV--SSL-VUL-Scan.svg)
-
-## CVE-2015-3884
- Unrestricted file upload vulnerability in the (1) myAccount, (2) projects, (3) tasks, (4) tickets, (5) discussions, (6) reports, and (7) scheduler pages in qdPM 8.3 allows remote attackers to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in uploads/attachments/ or uploads/users/.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3884](https://github.com/Live-Hack-CVE/CVE-2015-3884) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3884.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3884.svg)
 
 ## CVE-2015-3864
  Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.cpp in libstagefright in mediaserver in Android before 5.1.1 LMY48M allows remote attackers to execute arbitrary code via crafted MPEG-4 data, aka internal bug 23034759.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-3824.
@@ -800,27 +581,6 @@
 
 - [https://github.com/orf53975/poisonfrog](https://github.com/orf53975/poisonfrog) :  ![starts](https://img.shields.io/github/stars/orf53975/poisonfrog.svg) ![forks](https://img.shields.io/github/forks/orf53975/poisonfrog.svg)
 
-## CVE-2015-3416
- The sqlite3VXPrintf function in printf.c in SQLite before 3.8.9 does not properly handle precision and width values during floating-point conversions, which allows context-dependent attackers to cause a denial of service (integer overflow and stack-based buffer overflow) or possibly have unspecified other impact via large integers in a crafted printf function call in a SELECT statement.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3416](https://github.com/Live-Hack-CVE/CVE-2015-3416) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3416.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3416.svg)
-
-## CVE-2015-3415
- The sqlite3VdbeExec function in vdbe.c in SQLite before 3.8.9 does not properly implement comparison operators, which allows context-dependent attackers to cause a denial of service (invalid free operation) or possibly have unspecified other impact via a crafted CHECK clause, as demonstrated by CHECK(0&amp;O&gt;O) in a CREATE TABLE statement.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3415](https://github.com/Live-Hack-CVE/CVE-2015-3415) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3415.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3415.svg)
-
-## CVE-2015-3414
- SQLite before 3.8.9 does not properly implement the dequoting of collation-sequence names, which allows context-dependent attackers to cause a denial of service (uninitialized memory access and application crash) or possibly have unspecified other impact via a crafted COLLATE clause, as demonstrated by COLLATE&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot; at the end of a SELECT statement.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3414](https://github.com/Live-Hack-CVE/CVE-2015-3414) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3414.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3414.svg)
-
 ## CVE-2015-3337
  Directory traversal vulnerability in Elasticsearch before 1.4.5 and 1.5.x before 1.5.2, when a site plugin is enabled, allows remote attackers to read arbitrary files via unspecified vectors.
 
@@ -870,8 +630,6 @@
 
 
 - [https://github.com/duo-labs/mysslstrip](https://github.com/duo-labs/mysslstrip) :  ![starts](https://img.shields.io/github/stars/duo-labs/mysslstrip.svg) ![forks](https://img.shields.io/github/forks/duo-labs/mysslstrip.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3152](https://github.com/Live-Hack-CVE/CVE-2015-3152) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3152.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3152.svg)
 
 ## CVE-2015-3145
  The sanitize_cookie_path function in cURL and libcurl 7.31.0 through 7.41.0 does not properly calculate an index, which allows remote attackers to cause a denial of service (out-of-bounds write and crash) or possibly have other unspecified impact via a cookie path containing only a double-quote character.
@@ -931,48 +689,6 @@
 
 - [https://github.com/wilsc0w/CVE-2015-2794-finder](https://github.com/wilsc0w/CVE-2015-2794-finder) :  ![starts](https://img.shields.io/github/stars/wilsc0w/CVE-2015-2794-finder.svg) ![forks](https://img.shields.io/github/forks/wilsc0w/CVE-2015-2794-finder.svg)
 
-## CVE-2015-2648
- Unspecified vulnerability in Oracle MySQL Server 5.5.43 and earlier and 5.6.24 and earlier allows remote authenticated users to affect availability via vectors related to DML.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2648](https://github.com/Live-Hack-CVE/CVE-2015-2648) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2648.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2648.svg)
-
-## CVE-2015-2643
- Unspecified vulnerability in Oracle MySQL Server 5.5.43 and earlier and 5.6.24 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : Optimizer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2643](https://github.com/Live-Hack-CVE/CVE-2015-2643) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2643.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2643.svg)
-
-## CVE-2015-2620
- Unspecified vulnerability in Oracle MySQL Server 5.5.43 and earlier and 5.6.23 and earlier allows remote authenticated users to affect confidentiality via unknown vectors related to Server : Security : Privileges.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2620](https://github.com/Live-Hack-CVE/CVE-2015-2620) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2620.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2620.svg)
-
-## CVE-2015-2582
- Unspecified vulnerability in Oracle MySQL Server 5.5.43 and earlier and 5.6.24 and earlier allows remote authenticated users to affect availability via vectors related to GIS.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2582](https://github.com/Live-Hack-CVE/CVE-2015-2582) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2582.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2582.svg)
-
-## CVE-2015-2573
- Unspecified vulnerability in Oracle MySQL Server 5.5.41 and earlier, and 5.6.22 and earlier, allows remote authenticated users to affect availability via vectors related to DDL.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2573](https://github.com/Live-Hack-CVE/CVE-2015-2573) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2573.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2573.svg)
-
-## CVE-2015-2571
- Unspecified vulnerability in Oracle MySQL Server 5.5.42 and earlier, and 5.6.23 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Optimizer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2571](https://github.com/Live-Hack-CVE/CVE-2015-2571) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2571.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2571.svg)
-
 ## CVE-2015-2546
  The kernel-mode driver in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 allows local users to gain privileges via a crafted application, aka &quot;Win32k Memory Corruption Elevation of Privilege Vulnerability,&quot; a different vulnerability than CVE-2015-2511, CVE-2015-2517, and CVE-2015-2518.
 
@@ -993,20 +709,6 @@
 
 
 - [https://github.com/weidongl74/cve-2015-2315-report](https://github.com/weidongl74/cve-2015-2315-report) :  ![starts](https://img.shields.io/github/stars/weidongl74/cve-2015-2315-report.svg) ![forks](https://img.shields.io/github/forks/weidongl74/cve-2015-2315-report.svg)
-
-## CVE-2015-2305
- Integer overflow in the regcomp implementation in the Henry Spencer BSD regex library (aka rxspencer) alpha3.8.g5 on 32-bit platforms, as used in NetBSD through 6.1.5 and other products, might allow context-dependent attackers to execute arbitrary code via a large regular expression that leads to a heap-based buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2305](https://github.com/Live-Hack-CVE/CVE-2015-2305) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2305.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2305.svg)
-
-## CVE-2015-2301
- Use-after-free vulnerability in the phar_rename_archive function in phar_object.c in PHP before 5.5.22 and 5.6.x before 5.6.6 allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors that trigger an attempted renaming of a Phar archive to the name of an existing file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2301](https://github.com/Live-Hack-CVE/CVE-2015-2301) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2301.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2301.svg)
 
 ## CVE-2015-2291
  (1) IQVW32.sys before 1.3.1.0 and (2) IQVW64.sys before 1.3.1.0 in the Intel Ethernet diagnostics driver for Windows allows local users to cause a denial of service or possibly execute arbitrary code with kernel privileges via a crafted (a) 0x80862013, (b) 0x8086200B, (c) 0x8086200F, or (d) 0x80862007 IOCTL call.
@@ -1046,13 +748,6 @@
 
 
 - [https://github.com/6a6f6a6f/CVE-2015-2080](https://github.com/6a6f6a6f/CVE-2015-2080) :  ![starts](https://img.shields.io/github/stars/6a6f6a6f/CVE-2015-2080.svg) ![forks](https://img.shields.io/github/forks/6a6f6a6f/CVE-2015-2080.svg)
-
-## CVE-2015-1931
- IBM Java Security Components in IBM SDK, Java Technology Edition 8 before SR1 FP10, 7 R1 before SR3 FP10, 7 before SR9 FP10, 6 R1 before SR8 FP7, 6 before SR16 FP7, and 5.0 before SR16 FP13 stores plaintext information in memory dumps, which allows local users to obtain sensitive information by reading a file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1931](https://github.com/Live-Hack-CVE/CVE-2015-1931) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1931.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1931.svg)
 
 ## CVE-2015-1855
  verify_certificate_identity in the OpenSSL extension in Ruby before 2.0.0 patchlevel 645, 2.1.x before 2.1.6, and 2.2.x before 2.2.2 does not properly validate hostnames, which allows remote attackers to spoof servers via vectors related to (1) multiple wildcards, (1) wildcards in IDNA names, (3) case sensitivity, and (4) non-ASCII characters.
@@ -1233,13 +928,6 @@
 
 - [https://github.com/ScottyBauer/CVE-2015-1318](https://github.com/ScottyBauer/CVE-2015-1318) :  ![starts](https://img.shields.io/github/stars/ScottyBauer/CVE-2015-1318.svg) ![forks](https://img.shields.io/github/forks/ScottyBauer/CVE-2015-1318.svg)
 
-## CVE-2015-1309
- XML external entity vulnerability in the Extended Computer Aided Test Tool (eCATT) in SAP NetWeaver AS ABAP 7.31 and earlier allows remote attackers to access arbitrary files via a crafted XML request, related to ECATT_DISPLAY_XMLSTRING_REMOTE, aka SAP Note 2016638.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1309](https://github.com/Live-Hack-CVE/CVE-2015-1309) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1309.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1309.svg)
-
 ## CVE-2015-1157
  CoreText in Apple iOS 8.x through 8.3 allows remote attackers to cause a denial of service (reboot and messaging disruption) via crafted Unicode text that is not properly handled during display truncation in the Notifications feature, as demonstrated by Arabic characters in (1) an SMS message or (2) a WhatsApp message.
 
@@ -1284,69 +972,6 @@
 
 - [https://github.com/betalphafai/CVE-2015-0568](https://github.com/betalphafai/CVE-2015-0568) :  ![starts](https://img.shields.io/github/stars/betalphafai/CVE-2015-0568.svg) ![forks](https://img.shields.io/github/forks/betalphafai/CVE-2015-0568.svg)
 
-## CVE-2015-0505
- Unspecified vulnerability in Oracle MySQL Server 5.5.42 and earlier, and 5.6.23 and earlier, allows remote authenticated users to affect availability via vectors related to DDL.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0505](https://github.com/Live-Hack-CVE/CVE-2015-0505) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0505.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0505.svg)
-
-## CVE-2015-0499
- Unspecified vulnerability in Oracle MySQL Server 5.5.42 and earlier, and 5.6.23 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Federated.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0499](https://github.com/Live-Hack-CVE/CVE-2015-0499) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0499.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0499.svg)
-
-## CVE-2015-0441
- Unspecified vulnerability in Oracle MySQL Server 5.5.41 and earlier, and 5.6.22 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Security : Encryption.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0441](https://github.com/Live-Hack-CVE/CVE-2015-0441) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0441.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0441.svg)
-
-## CVE-2015-0433
- Unspecified vulnerability in Oracle MySQL Server 5.5.41 and earlier, and 5.6.22 and earlier, allows remote authenticated users to affect availability via vectors related to InnoDB : DML.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0433](https://github.com/Live-Hack-CVE/CVE-2015-0433) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0433.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0433.svg)
-
-## CVE-2015-0432
- Unspecified vulnerability in Oracle MySQL Server 5.5.40 and earlier allows remote authenticated users to affect availability via vectors related to Server : InnoDB : DDL : Foreign Key.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0432](https://github.com/Live-Hack-CVE/CVE-2015-0432) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0432.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0432.svg)
-
-## CVE-2015-0391
- Unspecified vulnerability in Oracle MySQL Server 5.5.38 and earlier, and 5.6.19 and earlier, allows remote authenticated users to affect availability via vectors related to DDL.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0391](https://github.com/Live-Hack-CVE/CVE-2015-0391) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0391.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0391.svg)
-
-## CVE-2015-0382
- Unspecified vulnerability in Oracle MySQL Server 5.5.40 and earlier and 5.6.21 and earlier allows remote attackers to affect availability via unknown vectors related to Server : Replication, a different vulnerability than CVE-2015-0381.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0382](https://github.com/Live-Hack-CVE/CVE-2015-0382) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0382.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0382.svg)
-
-## CVE-2015-0381
- Unspecified vulnerability in Oracle MySQL Server 5.5.40 and earlier and 5.6.21 and earlier allows remote attackers to affect availability via unknown vectors related to Server : Replication, a different vulnerability than CVE-2015-0382.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0381](https://github.com/Live-Hack-CVE/CVE-2015-0381) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0381.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0381.svg)
-
-## CVE-2015-0374
- Unspecified vulnerability in Oracle MySQL Server 5.5.40 and earlier and 5.6.21 and earlier allows remote authenticated users to affect confidentiality via unknown vectors related to Server : Security : Privileges : Foreign Key.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0374](https://github.com/Live-Hack-CVE/CVE-2015-0374) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0374.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0374.svg)
-
 ## CVE-2015-0345
  Cross-site scripting (XSS) vulnerability in Adobe ColdFusion 10 before Update 16 and 11 before Update 5 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
 
@@ -1367,13 +992,6 @@
 
 
 - [https://github.com/jr64/CVE-2015-0311](https://github.com/jr64/CVE-2015-0311) :  ![starts](https://img.shields.io/github/stars/jr64/CVE-2015-0311.svg) ![forks](https://img.shields.io/github/forks/jr64/CVE-2015-0311.svg)
-
-## CVE-2015-0278
- libuv before 0.10.34 does not properly drop group privileges, which allows context-dependent attackers to gain privileges via unspecified vectors.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0278](https://github.com/Live-Hack-CVE/CVE-2015-0278) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0278.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0278.svg)
 
 ## CVE-2015-0235
  Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka &quot;GHOST.&quot;
