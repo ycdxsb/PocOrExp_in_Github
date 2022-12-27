@@ -28,13 +28,6 @@
 
 - [https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit) :  ![starts](https://img.shields.io/github/stars/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit.svg) ![forks](https://img.shields.io/github/forks/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit.svg)
 
-## CVE-2005-2224
- aspnet_wp.exe in Microsoft ASP.NET web services allows remote attackers to cause a denial of service (CPU consumption from infinite loop) via a crafted SOAP message to an RPC/Encoded method.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2005-2224](https://github.com/Live-Hack-CVE/CVE-2005-2224) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2005-2224.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2005-2224.svg)
-
 ## CVE-2005-2088
  The Apache HTTP server before 1.3.34, and 2.0.x before 2.0.55, when acting as an HTTP proxy, allows remote attackers to poison the web cache, bypass web application firewall protection, and conduct XSS attacks via an HTTP request with both a &quot;Transfer-Encoding: chunked&quot; header and a Content-Length header, which causes Apache to incorrectly handle and forward the body of the request in a way that causes the receiving server to process it as a separate HTTP request, aka &quot;HTTP Request Smuggling.&quot;
 
