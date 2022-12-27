@@ -60,3 +60,10 @@
 
 
 - [https://github.com/gilberto47831/Network-Filesystem-Forensics](https://github.com/gilberto47831/Network-Filesystem-Forensics) :  ![starts](https://img.shields.io/github/stars/gilberto47831/Network-Filesystem-Forensics.svg) ![forks](https://img.shields.io/github/forks/gilberto47831/Network-Filesystem-Forensics.svg)
+
+## CVE-2001-0352
+ SNMP agents in 3Com AirConnect AP-4111 and Symbol 41X1 Access Point allow remote attackers to obtain the WEP encryption key by reading it from a MIB when the value should be write-only, via (1) dot11WEPDefaultKeyValue in the dot11WEPDefaultKeysTable of the IEEE 802.11b MIB, or (2) ap128bWepKeyValue in the ap128bWEPKeyTable in the Symbol MIB.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2001-0352](https://github.com/Live-Hack-CVE/CVE-2001-0352) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2001-0352.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2001-0352.svg)
