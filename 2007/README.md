@@ -1,3 +1,10 @@
+## CVE-2007-6755
+ The NIST SP 800-90A default statement of the Dual Elliptic Curve Deterministic Random Bit Generation (Dual_EC_DRBG) algorithm contains point Q constants with a possible relationship to certain &quot;skeleton key&quot; values, which might allow context-dependent attackers to defeat cryptographic protection mechanisms by leveraging knowledge of those values.  NOTE: this is a preliminary CVE for Dual_EC_DRBG; future research may provide additional details about point Q and associated attacks, and could potentially lead to a RECAST or REJECT of this CVE.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2007-6755](https://github.com/Live-Hack-CVE/CVE-2007-6755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-6755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-6755.svg)
+
 ## CVE-2007-6638
  March Networks DVR 3204 stores sensitive information under the web root with insufficient access control, which allows remote attackers to obtain usernames, passwords, device names, and IP addresses via a direct request for scripts/logfiles.tar.gz.
 
@@ -48,6 +55,13 @@
 
 
 - [https://github.com/alt3kx/CVE-2007-3830](https://github.com/alt3kx/CVE-2007-3830) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2007-3830.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2007-3830.svg)
+
+## CVE-2007-2727
+ The mcrypt_create_iv function in ext/mcrypt/mcrypt.c in PHP before 4.4.7, 5.2.1, and possibly 5.0.x and other PHP 5 versions, calls php_rand_r with an uninitialized seed variable and therefore always generates the same initialization vector (IV), which might allow context-dependent attackers to decrypt certain data more easily because of the guessable encryption keys.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2007-2727](https://github.com/Live-Hack-CVE/CVE-2007-2727) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-2727.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-2727.svg)
 
 ## CVE-2007-2447
  The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
