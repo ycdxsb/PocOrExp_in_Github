@@ -60,6 +60,13 @@
 
 - [https://github.com/thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts) :  ![starts](https://img.shields.io/github/stars/thunderstrike9090/Conflicker_analysis_scripts.svg) ![forks](https://img.shields.io/github/forks/thunderstrike9090/Conflicker_analysis_scripts.svg)
 
+## CVE-2008-3789
+ Samba 3.2.0 uses weak permissions (0666) for the (1) group_mapping.tdb and (2) group_mapping.ldb files, which allows local users to modify the membership of Unix groups.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2008-3789](https://github.com/Live-Hack-CVE/CVE-2008-3789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-3789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-3789.svg)
+
 ## CVE-2008-2938
  Directory traversal vulnerability in Apache Tomcat 4.1.0 through 4.1.37, 5.5.0 through 5.5.26, and 6.0.0 through 6.0.16, when allowLinking and UTF-8 are enabled, allows remote attackers to read arbitrary files via encoded directory traversal sequences in the URI, a different vulnerability than CVE-2008-2370.  NOTE: versions earlier than 6.0.18 were reported affected, but the vendor advisory lists 6.0.16 as the last affected version.
 
@@ -94,6 +101,13 @@
 
 
 - [https://github.com/hackingyseguridad/dnspoison](https://github.com/hackingyseguridad/dnspoison) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/dnspoison.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/dnspoison.svg)
+
+## CVE-2008-0333
+ Directory traversal vulnerability in download_view_attachment.aspx in AfterLogic MailBee WebMail Pro 4.1 for ASP.NET allows remote attackers to read arbitrary files via a .. (dot dot) in the temp_filename parameter.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2008-0333](https://github.com/Live-Hack-CVE/CVE-2008-0333) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-0333.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-0333.svg)
 
 ## CVE-2008-0244
  SAP MaxDB 7.6.03 build 007 and earlier allows remote attackers to execute arbitrary commands via &quot;&amp;&amp;&quot; and other shell metacharacters in exec_sdbinfo and other unspecified commands, which are executed when MaxDB invokes cons.exe.
