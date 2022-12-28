@@ -14,6 +14,13 @@
 
 - [https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit) :  ![starts](https://img.shields.io/github/stars/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit.svg) ![forks](https://img.shields.io/github/forks/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit.svg)
 
+## CVE-2005-2224
+ aspnet_wp.exe in Microsoft ASP.NET web services allows remote attackers to cause a denial of service (CPU consumption from infinite loop) via a crafted SOAP message to an RPC/Encoded method.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2005-2224](https://github.com/Live-Hack-CVE/CVE-2005-2224) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2005-2224.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2005-2224.svg)
+
 ## CVE-2005-1794
  Microsoft Terminal Server using Remote Desktop Protocol (RDP) 5.2 stores an RSA private key in mstlsapi.dll and uses it to sign a certificate, which allows remote attackers to spoof public keys of legitimate servers and conduct man-in-the-middle attacks.
 
