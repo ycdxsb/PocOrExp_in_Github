@@ -1,3 +1,10 @@
+## CVE-2012-6712
+ In the Linux kernel before 3.4, a buffer overflow occurs in drivers/net/wireless/iwlwifi/iwl-agn-sta.c, which will cause at least memory corruption.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-6712](https://github.com/Live-Hack-CVE/CVE-2012-6712) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-6712.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-6712.svg)
+
 ## CVE-2012-6636
  The Android API before 17 does not properly restrict the WebView.addJavascriptInterface method, which allows remote attackers to execute arbitrary methods of Java objects by using the Java Reflection API within crafted JavaScript code that is loaded into the WebView component in an application targeted to API level 16 or earlier, a related issue to CVE-2013-4710.
 
@@ -94,6 +101,13 @@
 
 - [https://github.com/bitc0de/Elastix-Remote-Code-Execution](https://github.com/bitc0de/Elastix-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/bitc0de/Elastix-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/bitc0de/Elastix-Remote-Code-Execution.svg)
 
+## CVE-2012-4818
+ IBM InfoSphere Information Server 8.1, 8.5, and 8,7 could allow a remote authenticated attacker to obtain sensitive information, caused by improper restrictions on directories. An attacker could exploit this vulnerability via the DataStage application to load or import content functionality to view arbitrary files on the system.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-4818](https://github.com/Live-Hack-CVE/CVE-2012-4818) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4818.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4818.svg)
+
 ## CVE-2012-4792
  Use-after-free vulnerability in Microsoft Internet Explorer 6 through 8 allows remote attackers to execute arbitrary code via a crafted web site that triggers access to an object that (1) was not properly allocated or (2) is deleted, as demonstrated by a CDwnBindInfo object, and exploited in the wild in December 2012.
 
@@ -106,9 +120,9 @@
 
 
 
-- [https://github.com/Live-Hack-CVE/CVE-2012-4681](https://github.com/Live-Hack-CVE/CVE-2012-4681) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4681.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4681.svg)
-
 - [https://github.com/benjholla/CVE-2012-4681-Armoring](https://github.com/benjholla/CVE-2012-4681-Armoring) :  ![starts](https://img.shields.io/github/stars/benjholla/CVE-2012-4681-Armoring.svg) ![forks](https://img.shields.io/github/forks/benjholla/CVE-2012-4681-Armoring.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-4681](https://github.com/Live-Hack-CVE/CVE-2012-4681) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4681.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4681.svg)
 
 - [https://github.com/ZH3FENG/PoCs-CVE_2012_4681](https://github.com/ZH3FENG/PoCs-CVE_2012_4681) :  ![starts](https://img.shields.io/github/stars/ZH3FENG/PoCs-CVE_2012_4681.svg) ![forks](https://img.shields.io/github/forks/ZH3FENG/PoCs-CVE_2012_4681.svg)
 
@@ -118,6 +132,13 @@
 
 
 - [https://github.com/imjdl/CVE-2012-4431](https://github.com/imjdl/CVE-2012-4431) :  ![starts](https://img.shields.io/github/stars/imjdl/CVE-2012-4431.svg) ![forks](https://img.shields.io/github/forks/imjdl/CVE-2012-4431.svg)
+
+## CVE-2012-4244
+ ISC BIND 9.x before 9.7.6-P3, 9.8.x before 9.8.3-P3, 9.9.x before 9.9.1-P3, and 9.4-ESV and 9.6-ESV before 9.6-ESV-R7-P3 allows remote attackers to cause a denial of service (assertion failure and named daemon exit) via a query for a long resource record.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-4244](https://github.com/Live-Hack-CVE/CVE-2012-4244) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4244.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4244.svg)
 
 ## CVE-2012-4220
  diagchar_core.c in the Qualcomm Innovation Center (QuIC) Diagnostics (aka DIAG) kernel-mode driver for Android 2.3 through 4.2 allows attackers to execute arbitrary code or cause a denial of service (incorrect pointer dereference) via an application that uses crafted arguments in a local diagchar_ioctl call.
@@ -148,6 +169,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-3412](https://github.com/Live-Hack-CVE/CVE-2012-3412) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3412.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3412.svg)
+
+## CVE-2012-3167
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.63 and earlier, and 5.5.25 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Full Text Search.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-3167](https://github.com/Live-Hack-CVE/CVE-2012-3167) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3167.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3167.svg)
 
 ## CVE-2012-3153
  Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fusion Middleware 11.1.1.4, 11.1.1.6, and 11.1.2.0 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Servlet.  NOTE: the previous information is from the October 2012 CPU. Oracle has not commented on claims from the original researcher that the PARSEQUERY function allows remote attackers to obtain database credentials via reports/rwservlet/parsequery, and that this issue occurs in earlier versions.  NOTE: this can be leveraged with CVE-2012-3152 to execute arbitrary code by uploading a .jsp file.
@@ -217,6 +245,20 @@
 
 
 - [https://github.com/AndrewTrube/CVE-2012-2593](https://github.com/AndrewTrube/CVE-2012-2593) :  ![starts](https://img.shields.io/github/stars/AndrewTrube/CVE-2012-2593.svg) ![forks](https://img.shields.io/github/forks/AndrewTrube/CVE-2012-2593.svg)
+
+## CVE-2012-2201
+ IBM WebSphere MQ 7.1 is vulnerable to a denial of service, caused by an error when handling user ids. A remote attacker could exploit this vulnerability to bypass the security configuration setup on a SVRCONN channel and flood the queue manager.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-2201](https://github.com/Live-Hack-CVE/CVE-2012-2201) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-2201.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-2201.svg)
+
+## CVE-2012-2160
+ IBM Rational Change 5.3 is vulnerable to cross-site scripting, caused by improper validation of user-supplied input. A remote attacker could exploit this vulnerability using the SUPP_TEMPLATE_FLAG parameter in a specially-crafted URL to execute script in a victim's Web browser within the security context of the hosting Web site, once the URL is clicked. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-2160](https://github.com/Live-Hack-CVE/CVE-2012-2160) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-2160.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-2160.svg)
 
 ## CVE-2012-2122
  sql/password.c in Oracle MySQL 5.1.x before 5.1.63, 5.5.x before 5.5.24, and 5.6.x before 5.6.6, and MariaDB 5.1.x before 5.1.62, 5.2.x before 5.2.12, 5.3.x before 5.3.6, and 5.5.x before 5.5.23, when running in certain environments with certain implementations of the memcmp function, allows remote attackers to bypass authentication by repeatedly authenticating with the same incorrect password, which eventually causes a token comparison to succeed due to an improperly-checked return value.
@@ -289,6 +331,20 @@
 
 
 - [https://github.com/bongbongco/CVE-2012-1675](https://github.com/bongbongco/CVE-2012-1675) :  ![starts](https://img.shields.io/github/stars/bongbongco/CVE-2012-1675.svg) ![forks](https://img.shields.io/github/forks/bongbongco/CVE-2012-1675.svg)
+
+## CVE-2012-1226
+ Multiple directory traversal vulnerabilities in Dolibarr CMS 3.2.0 Alpha allow remote attackers to read arbitrary files and possibly execute arbitrary code via a .. (dot dot) in the (1) file parameter to document.php or (2) backtopage parameter in a create action to comm/action/fiche.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1226](https://github.com/Live-Hack-CVE/CVE-2012-1226) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1226.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1226.svg)
+
+## CVE-2012-1225
+ Multiple SQL injection vulnerabilities in Dolibarr CMS 3.2.0 Alpha and earlier allow remote authenticated users to execute arbitrary SQL commands via the (1) memberslist parameter (aka Member List) in list.php or (2) rowid parameter to adherents/fiche.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1225](https://github.com/Live-Hack-CVE/CVE-2012-1225) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1225.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1225.svg)
 
 ## CVE-2012-0777
  The JavaScript API in Adobe Reader and Acrobat 9.x before 9.5.1 and 10.x before 10.1.3 on Mac OS X and Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors.
