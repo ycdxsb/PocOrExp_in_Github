@@ -81,6 +81,13 @@
 
 - [https://github.com/sooklalad/ms09050](https://github.com/sooklalad/ms09050) :  ![starts](https://img.shields.io/github/stars/sooklalad/ms09050.svg) ![forks](https://img.shields.io/github/forks/sooklalad/ms09050.svg)
 
+## CVE-2009-2948
+ mount.cifs in Samba 3.0 before 3.0.37, 3.2 before 3.2.15, 3.3 before 3.3.8 and 3.4 before 3.4.2, when mount.cifs is installed suid root, does not properly enforce permissions, which allows local users to read part of the credentials file and obtain the password by specifying the path to the credentials file and using the --verbose or -v option.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-2948](https://github.com/Live-Hack-CVE/CVE-2009-2948) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-2948.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-2948.svg)
+
 ## CVE-2009-2698
  The udp_sendmsg function in the UDP implementation in (1) net/ipv4/udp.c and (2) net/ipv6/udp.c in the Linux kernel before 2.6.19 allows local users to gain privileges or cause a denial of service (NULL pointer dereference and system crash) via vectors involving the MSG_MORE flag and a UDP socket.
 
@@ -107,9 +114,9 @@
 
 
 
-- [https://github.com/zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion) :  ![starts](https://img.shields.io/github/stars/zaphoxx/zaphoxx-coldfusion.svg) ![forks](https://img.shields.io/github/forks/zaphoxx/zaphoxx-coldfusion.svg)
-
 - [https://github.com/0xkasra/CVE-2009-2265](https://github.com/0xkasra/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2009-2265.svg)
+
+- [https://github.com/zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion) :  ![starts](https://img.shields.io/github/stars/zaphoxx/zaphoxx-coldfusion.svg) ![forks](https://img.shields.io/github/forks/zaphoxx/zaphoxx-coldfusion.svg)
 
 - [https://github.com/p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/p1ckzi/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/p1ckzi/CVE-2009-2265.svg)
 
@@ -161,12 +168,40 @@
 
 - [https://github.com/pagvac/pocs](https://github.com/pagvac/pocs) :  ![starts](https://img.shields.io/github/stars/pagvac/pocs.svg) ![forks](https://img.shields.io/github/forks/pagvac/pocs.svg)
 
+## CVE-2009-1143
+ An issue was discovered in open-vm-tools 2009.03.18-154848. Local users can bypass intended access restrictions on mounting shares via a symlink attack that leverages a realpath race condition in mount.vmhgfs (aka hgfsmounter).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-1143](https://github.com/Live-Hack-CVE/CVE-2009-1143) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1143.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1143.svg)
+
+## CVE-2009-1142
+ An issue was discovered in open-vm-tools 2009.03.18-154848. Local users can gain privileges via a symlink attack on /tmp files if vmware-user-suid-wrapper is setuid root and the ChmodChownDirectory function is enabled.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-1142](https://github.com/Live-Hack-CVE/CVE-2009-1142) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1142.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1142.svg)
+
+## CVE-2009-0855
+ Cross-site scripting (XSS) vulnerability in the administrative console in IBM WebSphere Application Server (WAS) 6.1 before 6.1.0.23 on z/OS allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-0855](https://github.com/Live-Hack-CVE/CVE-2009-0855) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-0855.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-0855.svg)
+
 ## CVE-2009-0689
  Array index error in the (1) dtoa implementation in dtoa.c (aka pdtoa.c) and the (2) gdtoa (aka new dtoa) implementation in gdtoa/misc.c in libc, as used in multiple operating systems and products including in FreeBSD 6.4 and 7.2, NetBSD 5.0, OpenBSD 4.5, Mozilla Firefox 3.0.x before 3.0.15 and 3.5.x before 3.5.4, K-Meleon 1.5.3, SeaMonkey 1.1.8, and other products, allows context-dependent attackers to cause a denial of service (application crash) and possibly execute arbitrary code via a large precision value in the format argument to a printf function, which triggers incorrect memory allocation and a heap-based buffer overflow during conversion to a floating-point number.
 
 
 
 - [https://github.com/Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax) :  ![starts](https://img.shields.io/github/stars/Fullmetal5/str2hax.svg) ![forks](https://img.shields.io/github/forks/Fullmetal5/str2hax.svg)
+
+## CVE-2009-0586
+ Integer overflow in the gst_vorbis_tag_add_coverart function (gst-libs/gst/tag/gstvorbistag.c) in vorbistag in gst-plugins-base (aka gstreamer-plugins-base) before 0.10.23 in GStreamer allows context-dependent attackers to execute arbitrary code via a crafted COVERART tag that is converted from a base64 representation, which triggers a heap-based buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-0586](https://github.com/Live-Hack-CVE/CVE-2009-0586) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-0586.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-0586.svg)
 
 ## CVE-2009-0473
  Open redirect vulnerability in the web interface in the Rockwell Automation ControlLogix 1756-ENBT/A EtherNet/IP Bridge Module allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.
