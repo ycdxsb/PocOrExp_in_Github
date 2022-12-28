@@ -1,3 +1,10 @@
+## CVE-2013-7345
+ The BEGIN regular expression in the awk script detector in magic/Magdir/commands in file before 5.15 uses multiple wildcards with unlimited repetitions, which allows context-dependent attackers to cause a denial of service (CPU consumption) via a crafted ASCII file that triggers a large amount of backtracking, as demonstrated via a file with many newline characters.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-7345](https://github.com/Live-Hack-CVE/CVE-2013-7345) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-7345.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-7345.svg)
+
 ## CVE-2013-6987
  Multiple directory traversal vulnerabilities in the FileBrowser components in Synology DiskStation Manager (DSM) before 4.3-3810 Update 3 allow remote attackers to read, write, and delete arbitrary files via a .. (dot dot) in the (1) path parameter to file_delete.cgi or (2) folder_path parameter to file_share.cgi in webapi/FileStation/; (3) dlink parameter to fbdownload/; or unspecified parameters to (4) html5_upload.cgi, (5) file_download.cgi, (6) file_sharing.cgi, (7) file_MVCP.cgi, or (8) file_rename.cgi in webapi/FileStation/.
 
@@ -5,12 +12,47 @@
 
 - [https://github.com/stoicboomer/CVE-2013-6987](https://github.com/stoicboomer/CVE-2013-6987) :  ![starts](https://img.shields.io/github/stars/stoicboomer/CVE-2013-6987.svg) ![forks](https://img.shields.io/github/forks/stoicboomer/CVE-2013-6987.svg)
 
+## CVE-2013-6712
+ The scan function in ext/date/lib/parse_iso_intervals.c in PHP through 5.5.6 does not properly restrict creation of DateInterval objects, which might allow remote attackers to cause a denial of service (heap-based buffer over-read) via a crafted interval specification.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6712](https://github.com/Live-Hack-CVE/CVE-2013-6712) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6712.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6712.svg)
+
 ## CVE-2013-6668
  Multiple unspecified vulnerabilities in Google V8 before 3.24.35.10, as used in Google Chrome before 33.0.1750.146, allow attackers to cause a denial of service or possibly have other impact via unknown vectors.
 
 
 
 - [https://github.com/sdneon/CveTest](https://github.com/sdneon/CveTest) :  ![starts](https://img.shields.io/github/stars/sdneon/CveTest.svg) ![forks](https://img.shields.io/github/forks/sdneon/CveTest.svg)
+
+## CVE-2013-6646
+ Use-after-free vulnerability in the Web Workers implementation in Google Chrome before 32.0.1700.76 on Windows and before 32.0.1700.77 on Mac OS X and Linux allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors related to the shutting down of a worker process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6646](https://github.com/Live-Hack-CVE/CVE-2013-6646) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6646.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6646.svg)
+
+## CVE-2013-6645
+ Use-after-free vulnerability in the OnWindowRemovingFromRootWindow function in content/browser/web_contents/web_contents_view_aura.cc in Google Chrome before 32.0.1700.76 on Windows and before 32.0.1700.77 on Mac OS X and Linux allows user-assisted remote attackers to cause a denial of service or possibly have unspecified other impact via vectors involving certain print-preview and tab-switch actions that interact with a speech input element.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6645](https://github.com/Live-Hack-CVE/CVE-2013-6645) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6645.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6645.svg)
+
+## CVE-2013-6644
+ Multiple unspecified vulnerabilities in Google Chrome before 32.0.1700.76 on Windows and before 32.0.1700.77 on Mac OS X and Linux allow attackers to cause a denial of service or possibly have other impact via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6644](https://github.com/Live-Hack-CVE/CVE-2013-6644) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6644.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6644.svg)
+
+## CVE-2013-6641
+ Use-after-free vulnerability in the FormAssociatedElement::formRemovedFromTree function in core/html/FormAssociatedElement.cpp in Blink, as used in Google Chrome before 32.0.1700.76 on Windows and before 32.0.1700.77 on Mac OS X and Linux, allows remote attackers to cause a denial of service or possibly have unspecified other impact by leveraging improper handling of the past names map of a FORM element.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6641](https://github.com/Live-Hack-CVE/CVE-2013-6641) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6641.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6641.svg)
 
 ## CVE-2013-6490
  The SIMPLE protocol functionality in Pidgin before 2.10.8 allows remote attackers to have an unspecified impact via a negative Content-Length header, which triggers a buffer overflow.
@@ -171,6 +213,13 @@
 
 - [https://github.com/bl4ck5un/cve-2013-4348](https://github.com/bl4ck5un/cve-2013-4348) :  ![starts](https://img.shields.io/github/stars/bl4ck5un/cve-2013-4348.svg) ![forks](https://img.shields.io/github/forks/bl4ck5un/cve-2013-4348.svg)
 
+## CVE-2013-4235
+ shadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-4235](https://github.com/Live-Hack-CVE/CVE-2013-4235) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-4235.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-4235.svg)
+
 ## CVE-2013-4175
  MySecureShell 1.31 has a Local Denial of Service Vulnerability
 
@@ -191,6 +240,8 @@
 
 
 - [https://github.com/snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/snoopopsec/vulnerability-CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/snoopopsec/vulnerability-CVE-2013-3900.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-3900](https://github.com/Live-Hack-CVE/CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-3900.svg)
 
 ## CVE-2013-3893
  Use-after-free vulnerability in the SetMouseCapture implementation in mshtml.dll in Microsoft Internet Explorer 6 through 11 allows remote attackers to execute arbitrary code via crafted JavaScript strings, as demonstrated by use of an ms-help: URL that triggers loading of hxds.dll.
@@ -341,6 +392,27 @@
 
 - [https://github.com/vnik5287/CVE-2013-2094](https://github.com/vnik5287/CVE-2013-2094) :  ![starts](https://img.shields.io/github/stars/vnik5287/CVE-2013-2094.svg) ![forks](https://img.shields.io/github/forks/vnik5287/CVE-2013-2094.svg)
 
+## CVE-2013-2093
+ Dolibarr ERP/CRM 3.3.1 does not properly validate user input in viewimage.php and barcode.lib.php which allows remote attackers to execute arbitrary commands.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-2093](https://github.com/Live-Hack-CVE/CVE-2013-2093) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-2093.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-2093.svg)
+
+## CVE-2013-2092
+ Cross-site Scripting (XSS) in Dolibarr ERP/CRM 3.3.1 allows remote attackers to inject arbitrary web script or HTML in functions.lib.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-2092](https://github.com/Live-Hack-CVE/CVE-2013-2092) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-2092.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-2092.svg)
+
+## CVE-2013-2091
+ SQL injection vulnerability in Dolibarr ERP/CRM 3.3.1 allows remote attackers to execute arbitrary SQL commands via the 'pays' parameter in fiche.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-2091](https://github.com/Live-Hack-CVE/CVE-2013-2091) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-2091.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-2091.svg)
+
 ## CVE-2013-2072
  Buffer overflow in the Python bindings for the xc_vcpu_setaffinity call in Xen 4.0.x, 4.1.x, and 4.2.x allows local administrators with permissions to configure VCPU affinity to cause a denial of service (memory corruption and xend toolstack crash) and possibly gain privileges via a crafted cpumap.
 
@@ -380,6 +452,13 @@
 
 
 - [https://github.com/cinno/CVE-2013-1965](https://github.com/cinno/CVE-2013-1965) :  ![starts](https://img.shields.io/github/stars/cinno/CVE-2013-1965.svg) ![forks](https://img.shields.io/github/forks/cinno/CVE-2013-1965.svg)
+
+## CVE-2013-1824
+ The SOAP parser in PHP before 5.3.22 and 5.4.x before 5.4.12 allows remote attackers to read arbitrary files via a SOAP WSDL file containing an XML external entity declaration in conjunction with an entity reference, related to an XML External Entity (XXE) issue in the soap_xmlParseFile and soap_xmlParseMemory functions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-1824](https://github.com/Live-Hack-CVE/CVE-2013-1824) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1824.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1824.svg)
 
 ## CVE-2013-1775
  sudo 1.6.0 through 1.7.10p6 and sudo 1.8.0 through 1.8.6p6 allows local users or physically proximate attackers to bypass intended time restrictions and retain privileges without re-authenticating by setting the system clock and sudo user timestamp to the epoch.
@@ -436,6 +515,118 @@
 
 
 - [https://github.com/steponequit/CVE-2013-1081](https://github.com/steponequit/CVE-2013-1081) :  ![starts](https://img.shields.io/github/stars/steponequit/CVE-2013-1081.svg) ![forks](https://img.shields.io/github/forks/steponequit/CVE-2013-1081.svg)
+
+## CVE-2013-0900
+ Race condition in the International Components for Unicode (ICU) functionality in Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allows remote attackers to cause a denial of service or possibly have unspecified other impact via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0900](https://github.com/Live-Hack-CVE/CVE-2013-0900) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0900.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0900.svg)
+
+## CVE-2013-0897
+ Off-by-one error in the PDF functionality in Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allows remote attackers to cause a denial of service via a crafted document.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0897](https://github.com/Live-Hack-CVE/CVE-2013-0897) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0897.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0897.svg)
+
+## CVE-2013-0896
+ Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, does not properly manage memory during message handling for plug-ins, which allows remote attackers to cause a denial of service or possibly have unspecified other impact via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0896](https://github.com/Live-Hack-CVE/CVE-2013-0896) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0896.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0896.svg)
+
+## CVE-2013-0895
+ Google Chrome before 25.0.1364.97 on Linux, and before 25.0.1364.99 on Mac OS X, does not properly handle pathnames during copy operations, which might make it easier for remote attackers to execute arbitrary programs via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0895](https://github.com/Live-Hack-CVE/CVE-2013-0895) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0895.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0895.svg)
+
+## CVE-2013-0893
+ Race condition in Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors related to media.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0893](https://github.com/Live-Hack-CVE/CVE-2013-0893) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0893.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0893.svg)
+
+## CVE-2013-0892
+ Multiple unspecified vulnerabilities in the IPC layer in Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allow remote attackers to cause a denial of service or possibly have other impact via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0892](https://github.com/Live-Hack-CVE/CVE-2013-0892) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0892.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0892.svg)
+
+## CVE-2013-0891
+ Integer overflow in Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allows remote attackers to cause a denial of service or possibly have unspecified other impact via a blob.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0891](https://github.com/Live-Hack-CVE/CVE-2013-0891) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0891.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0891.svg)
+
+## CVE-2013-0890
+ Multiple unspecified vulnerabilities in the IPC layer in Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allow remote attackers to cause a denial of service (memory corruption) or possibly have other impact via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0890](https://github.com/Live-Hack-CVE/CVE-2013-0890) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0890.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0890.svg)
+
+## CVE-2013-0889
+ Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, does not properly enforce a user gesture requirement before proceeding with a file download, which might make it easier for remote attackers to execute arbitrary code via a crafted file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0889](https://github.com/Live-Hack-CVE/CVE-2013-0889) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0889.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0889.svg)
+
+## CVE-2013-0888
+ Skia, as used in Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allows remote attackers to cause a denial of service (out-of-bounds read) via vectors related to a &quot;user gesture check for dangerous file downloads.&quot;
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0888](https://github.com/Live-Hack-CVE/CVE-2013-0888) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0888.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0888.svg)
+
+## CVE-2013-0887
+ The developer-tools process in Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, does not properly restrict privileges during interaction with a connected server, which has unspecified impact and attack vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0887](https://github.com/Live-Hack-CVE/CVE-2013-0887) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0887.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0887.svg)
+
+## CVE-2013-0885
+ Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, does not properly restrict API privileges during interaction with the Chrome Web Store, which has unspecified impact and attack vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0885](https://github.com/Live-Hack-CVE/CVE-2013-0885) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0885.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0885.svg)
+
+## CVE-2013-0884
+ Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, does not properly load Native Client (aka NaCl) code, which has unspecified impact and attack vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0884](https://github.com/Live-Hack-CVE/CVE-2013-0884) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0884.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0884.svg)
+
+## CVE-2013-0883
+ Skia, as used in Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allows remote attackers to cause a denial of service (incorrect read operation) via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0883](https://github.com/Live-Hack-CVE/CVE-2013-0883) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0883.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0883.svg)
+
+## CVE-2013-0882
+ Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allows remote attackers to cause a denial of service (incorrect memory access) or possibly have unspecified other impact via a large number of SVG parameters.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0882](https://github.com/Live-Hack-CVE/CVE-2013-0882) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0882.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0882.svg)
+
+## CVE-2013-0881
+ Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allows remote attackers to cause a denial of service (incorrect read operation) via crafted data in the Matroska container format.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0881](https://github.com/Live-Hack-CVE/CVE-2013-0881) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0881.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0881.svg)
 
 ## CVE-2013-0791
  The CERT_DecodeCertPackage function in Mozilla Network Security Services (NSS), as used in Mozilla Firefox before 20.0, Firefox ESR 17.x before 17.0.5, Thunderbird before 17.0.5, Thunderbird ESR 17.x before 17.0.5, SeaMonkey before 2.17, and other products, allows remote attackers to cause a denial of service (out-of-bounds read and memory corruption) via a crafted certificate.
