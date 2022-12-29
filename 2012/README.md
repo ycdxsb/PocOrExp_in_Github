@@ -81,6 +81,13 @@
 
 - [https://github.com/war4uthor/CVE-2012-5106](https://github.com/war4uthor/CVE-2012-5106) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2012-5106.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2012-5106.svg)
 
+## CVE-2012-5096
+ Unspecified vulnerability in the Server component in Oracle MySQL 5.5.28 and earlier allows remote authenticated users with Server Privileges to affect availability via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5096](https://github.com/Live-Hack-CVE/CVE-2012-5096) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5096.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5096.svg)
+
 ## CVE-2012-4929
  The TLS protocol 1.2 and earlier, as used in Mozilla Firefox, Google Chrome, Qt, and other products, can encrypt compressed data without properly obfuscating the length of the unencrypted data, which allows man-in-the-middle attackers to obtain plaintext HTTP headers by observing length differences during a series of guesses in which a string in an HTTP request potentially matches an unknown string in an HTTP header, aka a &quot;CRIME&quot; attack.
 
@@ -133,6 +140,13 @@
 
 - [https://github.com/imjdl/CVE-2012-4431](https://github.com/imjdl/CVE-2012-4431) :  ![starts](https://img.shields.io/github/stars/imjdl/CVE-2012-4431.svg) ![forks](https://img.shields.io/github/forks/imjdl/CVE-2012-4431.svg)
 
+## CVE-2012-4341
+ Multiple stack-based buffer overflows in msg_server.exe in SAP NetWeaver ABAP 7.x allow remote attackers to cause a denial of service (crash) and execute arbitrary code via a (1) long parameter value, (2) crafted string size field, or (3) long Parameter Name string in a package with opcode 0x43 and sub opcode 0x4 to TCP port 3900.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-4341](https://github.com/Live-Hack-CVE/CVE-2012-4341) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4341.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4341.svg)
+
 ## CVE-2012-4244
  ISC BIND 9.x before 9.7.6-P3, 9.8.x before 9.8.3-P3, 9.9.x before 9.9.1-P3, and 9.4-ESV and 9.6-ESV before 9.6-ESV-R7-P3 allows remote attackers to cause a denial of service (assertion failure and named daemon exit) via a query for a long resource record.
 
@@ -170,12 +184,26 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-3412](https://github.com/Live-Hack-CVE/CVE-2012-3412) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3412.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3412.svg)
 
+## CVE-2012-3197
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.64 and earlier, and 5.5.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Replication.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-3197](https://github.com/Live-Hack-CVE/CVE-2012-3197) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3197.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3197.svg)
+
 ## CVE-2012-3167
  Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.63 and earlier, and 5.5.25 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Full Text Search.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-3167](https://github.com/Live-Hack-CVE/CVE-2012-3167) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3167.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3167.svg)
+
+## CVE-2012-3160
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.65 and earlier, and 5.5.27 and earlier, allows local users to affect confidentiality via unknown vectors related to Server Installation.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-3160](https://github.com/Live-Hack-CVE/CVE-2012-3160) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3160.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3160.svg)
 
 ## CVE-2012-3153
  Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fusion Middleware 11.1.1.4, 11.1.1.6, and 11.1.2.0 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Servlet.  NOTE: the previous information is from the October 2012 CPU. Oracle has not commented on claims from the original researcher that the PARSEQUERY function allows remote attackers to obtain database credentials via reports/rwservlet/parsequery, and that this issue occurs in earlier versions.  NOTE: this can be leveraged with CVE-2012-3152 to execute arbitrary code by uploading a .jsp file.
@@ -219,11 +247,11 @@
 
 - [https://github.com/blu3ming/CVE-2012-2982](https://github.com/blu3ming/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/blu3ming/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/blu3ming/CVE-2012-2982.svg)
 
+- [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
+
 - [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
 
 - [https://github.com/SlizBinksman/CVE_2012-2982](https://github.com/SlizBinksman/CVE_2012-2982) :  ![starts](https://img.shields.io/github/stars/SlizBinksman/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/SlizBinksman/CVE_2012-2982.svg)
-
-- [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
 
 ## CVE-2012-2688
  Unspecified vulnerability in the _php_stream_scandir function in the stream implementation in PHP before 5.3.15 and 5.4.x before 5.4.5 has unknown impact and remote attack vectors, related to an &quot;overflow.&quot;
@@ -346,6 +374,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-1225](https://github.com/Live-Hack-CVE/CVE-2012-1225) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1225.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1225.svg)
 
+## CVE-2012-0883
+ envvars (aka envvars-std) in the Apache HTTP Server before 2.4.2 places a zero-length directory name in the LD_LIBRARY_PATH, which allows local users to gain privileges via a Trojan horse DSO in the current working directory during execution of apachectl.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-0883](https://github.com/Live-Hack-CVE/CVE-2012-0883) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-0883.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-0883.svg)
+
 ## CVE-2012-0777
  The JavaScript API in Adobe Reader and Acrobat 9.x before 9.5.1 and 10.x before 10.1.3 on Mac OS X and Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors.
 
@@ -386,6 +421,13 @@
 - [https://github.com/pythonone/CVE-2012-0056](https://github.com/pythonone/CVE-2012-0056) :  ![starts](https://img.shields.io/github/stars/pythonone/CVE-2012-0056.svg) ![forks](https://img.shields.io/github/forks/pythonone/CVE-2012-0056.svg)
 
 - [https://github.com/srclib/CVE-2012-0056](https://github.com/srclib/CVE-2012-0056) :  ![starts](https://img.shields.io/github/stars/srclib/CVE-2012-0056.svg) ![forks](https://img.shields.io/github/forks/srclib/CVE-2012-0056.svg)
+
+## CVE-2012-0053
+ protocol.c in the Apache HTTP Server 2.2.x through 2.2.21 does not properly restrict header information during construction of Bad Request (aka 400) error documents, which allows remote attackers to obtain the values of HTTPOnly cookies via vectors involving a (1) long or (2) malformed header in conjunction with crafted web script.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-0053](https://github.com/Live-Hack-CVE/CVE-2012-0053) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-0053.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-0053.svg)
 
 ## CVE-2012-0003
  Unspecified vulnerability in winmm.dll in Windows Multimedia Library in Windows Media Player (WMP) in Microsoft Windows XP SP2 and SP3, Server 2003 SP2, Vista SP2, and Server 2008 SP2 allows remote attackers to execute arbitrary code via a crafted MIDI file, aka &quot;MIDI Remote Code Execution Vulnerability.&quot;
