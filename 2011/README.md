@@ -97,6 +97,13 @@
 
 - [https://github.com/colorblindpentester/CVE-2011-3368](https://github.com/colorblindpentester/CVE-2011-3368) :  ![starts](https://img.shields.io/github/stars/colorblindpentester/CVE-2011-3368.svg) ![forks](https://img.shields.io/github/forks/colorblindpentester/CVE-2011-3368.svg)
 
+## CVE-2011-3348
+ The mod_proxy_ajp module in the Apache HTTP Server before 2.2.21, when used with mod_proxy_balancer in certain configurations, allows remote attackers to cause a denial of service (temporary &quot;error state&quot; in the backend server) via a malformed HTTP request.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-3348](https://github.com/Live-Hack-CVE/CVE-2011-3348) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-3348.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-3348.svg)
+
 ## CVE-2011-3192
  The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 2.2.x through 2.2.19 allows remote attackers to cause a denial of service (memory and CPU consumption) via a Range header that expresses multiple overlapping ranges, as exploited in the wild in August 2011, a different vulnerability than CVE-2007-0086.
 
@@ -107,6 +114,8 @@
 - [https://github.com/limkokholefork/CVE-2011-3192](https://github.com/limkokholefork/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/limkokholefork/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/CVE-2011-3192.svg)
 
 - [https://github.com/stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192) :  ![starts](https://img.shields.io/github/stars/stcmjp/cve-2011-3192.svg) ![forks](https://img.shields.io/github/forks/stcmjp/cve-2011-3192.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-3192](https://github.com/Live-Hack-CVE/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-3192.svg)
 
 - [https://github.com/warmilk/http-Dos-Attack-Detection](https://github.com/warmilk/http-Dos-Attack-Detection) :  ![starts](https://img.shields.io/github/stars/warmilk/http-Dos-Attack-Detection.svg) ![forks](https://img.shields.io/github/forks/warmilk/http-Dos-Attack-Detection.svg)
 
@@ -238,6 +247,13 @@
 
 
 - [https://github.com/BrunoPujos/CVE-2011-1237](https://github.com/BrunoPujos/CVE-2011-1237) :  ![starts](https://img.shields.io/github/stars/BrunoPujos/CVE-2011-1237.svg) ![forks](https://img.shields.io/github/forks/BrunoPujos/CVE-2011-1237.svg)
+
+## CVE-2011-0419
+ Stack consumption vulnerability in the fnmatch implementation in apr_fnmatch.c in the Apache Portable Runtime (APR) library before 1.4.3 and the Apache HTTP Server before 2.2.18, and in fnmatch.c in libc in NetBSD 5.1, OpenBSD 4.8, FreeBSD, Apple Mac OS X 10.6, Oracle Solaris 10, and Android, allows context-dependent attackers to cause a denial of service (CPU and memory consumption) via *? sequences in the first argument, as demonstrated by attacks against mod_autoindex in httpd.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-0419](https://github.com/Live-Hack-CVE/CVE-2011-0419) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-0419.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-0419.svg)
 
 ## CVE-2011-0228
  The Data Security component in Apple iOS before 4.2.10 and 4.3.x before 4.3.5 does not check the basicConstraints parameter during validation of X.509 certificate chains, which allows man-in-the-middle attackers to spoof an SSL server by using a non-CA certificate to sign a certificate for an arbitrary domain.
