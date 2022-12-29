@@ -19,6 +19,13 @@
 
 - [https://github.com/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377](https://github.com/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377) :  ![starts](https://img.shields.io/github/stars/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377.svg) ![forks](https://img.shields.io/github/forks/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377.svg)
 
+## CVE-2007-5536
+ Unspecified vulnerability in OpenSSL before A.00.09.07l on HP-UX B.11.11, B.11.23, and B.11.31 allows local users to cause a denial of service via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2007-5536](https://github.com/Live-Hack-CVE/CVE-2007-5536) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-5536.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-5536.svg)
+
 ## CVE-2007-5036
  Multiple buffer overflows in the AirDefense Airsensor M520 with firmware 4.3.1.1 and 4.4.1.4 allow remote authenticated users to cause a denial of service (HTTPS service outage) via a crafted query string in an HTTPS request to (1) adLog.cgi, (2) post.cgi, or (3) ad.cgi, related to the &quot;files filter.&quot;
 
@@ -42,6 +49,13 @@
 
 - [https://github.com/Ooscaar/MALW](https://github.com/Ooscaar/MALW) :  ![starts](https://img.shields.io/github/stars/Ooscaar/MALW.svg) ![forks](https://img.shields.io/github/forks/Ooscaar/MALW.svg)
 
+## CVE-2007-3847
+ The date handling code in modules/proxy/proxy_util.c (mod_proxy) in Apache 2.3.0, when using a threaded MPM, allows remote origin servers to cause a denial of service (caching forward proxy process crash) via crafted date headers that trigger a buffer over-read.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2007-3847](https://github.com/Live-Hack-CVE/CVE-2007-3847) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-3847.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-3847.svg)
+
 ## CVE-2007-3831
  PHP remote file inclusion in main.php in ISS Proventia Network IPS GX5108 1.3 and GX5008 1.5 allows remote attackers to execute arbitrary PHP code via a URL in the page parameter.
 
@@ -55,6 +69,13 @@
 
 
 - [https://github.com/alt3kx/CVE-2007-3830](https://github.com/alt3kx/CVE-2007-3830) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2007-3830.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2007-3830.svg)
+
+## CVE-2007-3304
+ Apache httpd 1.3.37, 2.0.59, and 2.2.4 with the Prefork MPM module, allows local users to cause a denial of service by modifying the worker_score and process_score arrays to reference an arbitrary process ID, which is sent a SIGUSR1 signal from the master process, aka &quot;SIGUSR1 killer.&quot;
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2007-3304](https://github.com/Live-Hack-CVE/CVE-2007-3304) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-3304.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-3304.svg)
 
 ## CVE-2007-2727
  The mcrypt_create_iv function in ext/mcrypt/mcrypt.c in PHP before 4.4.7, 5.2.1, and possibly 5.0.x and other PHP 5 versions, calls php_rand_r with an uninitialized seed variable and therefore always generates the same initialization vector (IV), which might allow context-dependent attackers to decrypt certain data more easily because of the guessable encryption keys.
@@ -86,25 +107,25 @@
 
 - [https://github.com/mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/mr-l0n3lly/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/mr-l0n3lly/CVE-2007-2447.svg)
 
-- [https://github.com/xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xlcc4096/exploit-CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xlcc4096/exploit-CVE-2007-2447.svg)
-
-- [https://github.com/0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xKn/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xKn/CVE-2007-2447.svg)
-
 - [https://github.com/cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/cherrera0001/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/cherrera0001/CVE-2007-2447.svg)
 
+- [https://github.com/xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xlcc4096/exploit-CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xlcc4096/exploit-CVE-2007-2447.svg)
+
 - [https://github.com/Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Aviksaikat/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Aviksaikat/CVE-2007-2447.svg)
+
+- [https://github.com/0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xKn/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xKn/CVE-2007-2447.svg)
 
 - [https://github.com/b1fair/smb_usermap](https://github.com/b1fair/smb_usermap) :  ![starts](https://img.shields.io/github/stars/b1fair/smb_usermap.svg) ![forks](https://img.shields.io/github/forks/b1fair/smb_usermap.svg)
 
 - [https://github.com/testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/testaross4/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/testaross4/CVE-2007-2447.svg)
+
+- [https://github.com/JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/JoseBarrios/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/JoseBarrios/CVE-2007-2447.svg)
 
 - [https://github.com/SamHackingArticles/CVE-2007-2447](https://github.com/SamHackingArticles/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/SamHackingArticles/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/SamHackingArticles/CVE-2007-2447.svg)
 
 - [https://github.com/0xkasra/CVE-2007-2447](https://github.com/0xkasra/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2007-2447.svg)
 
 - [https://github.com/un4gi/CVE-2007-2447](https://github.com/un4gi/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/un4gi/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/un4gi/CVE-2007-2447.svg)
-
-- [https://github.com/JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/JoseBarrios/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/JoseBarrios/CVE-2007-2447.svg)
 
 - [https://github.com/Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python) :  ![starts](https://img.shields.io/github/stars/Ziemni/CVE-2007-2447-in-Python.svg) ![forks](https://img.shields.io/github/forks/Ziemni/CVE-2007-2447-in-Python.svg)
 
