@@ -1,3 +1,10 @@
+## CVE-2013-7488
+ perl-Convert-ASN1 (aka the Convert::ASN1 module for Perl) through 0.27 allows remote attackers to cause an infinite loop via unexpected input.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-7488](https://github.com/Live-Hack-CVE/CVE-2013-7488) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-7488.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-7488.svg)
+
 ## CVE-2013-7345
  The BEGIN regular expression in the awk script detector in magic/Magdir/commands in file before 5.15 uses multiple wildcards with unlimited repetitions, which allows context-dependent attackers to cause a denial of service (CPU consumption) via a crafted ASCII file that triggers a large amount of backtracking, as demonstrated via a file with many newline characters.
 
@@ -61,6 +68,13 @@
 
 - [https://github.com/Everdoh/CVE-2013-6490](https://github.com/Everdoh/CVE-2013-6490) :  ![starts](https://img.shields.io/github/stars/Everdoh/CVE-2013-6490.svg) ![forks](https://img.shields.io/github/forks/Everdoh/CVE-2013-6490.svg)
 
+## CVE-2013-6438
+ The dav_xml_get_cdata function in main/util.c in the mod_dav module in the Apache HTTP Server before 2.4.8 does not properly remove whitespace characters from CDATA sections, which allows remote attackers to cause a denial of service (daemon crash) via a crafted DAV WRITE request.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6438](https://github.com/Live-Hack-CVE/CVE-2013-6438) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6438.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6438.svg)
+
 ## CVE-2013-6375
  Xen 4.2.x and 4.3.x, when using Intel VT-d for PCI passthrough, does not properly flush the TLB after clearing a present translation table entry, which allows local guest administrators to cause a denial of service or gain privileges via unspecified vectors related to an &quot;inverted boolean parameter.&quot;
 
@@ -87,6 +101,13 @@
 
 
 - [https://github.com/milo2012/CVE-2013-6117](https://github.com/milo2012/CVE-2013-6117) :  ![starts](https://img.shields.io/github/stars/milo2012/CVE-2013-6117.svg) ![forks](https://img.shields.io/github/forks/milo2012/CVE-2013-6117.svg)
+
+## CVE-2013-5908
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.72 and earlier, 5.5.34 and earlier, and 5.6.14 and earlier allows remote attackers to affect availability via unknown vectors related to Error Handling.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-5908](https://github.com/Live-Hack-CVE/CVE-2013-5908) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-5908.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-5908.svg)
 
 ## CVE-2013-5850
  Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries, a different vulnerability than CVE-2013-5842.
@@ -213,6 +234,20 @@
 
 - [https://github.com/bl4ck5un/cve-2013-4348](https://github.com/bl4ck5un/cve-2013-4348) :  ![starts](https://img.shields.io/github/stars/bl4ck5un/cve-2013-4348.svg) ![forks](https://img.shields.io/github/forks/bl4ck5un/cve-2013-4348.svg)
 
+## CVE-2013-4281
+ In Red Hat Openshift 1, weak default permissions are applied to the /etc/openshift/server_priv.pem file on the broker server, which could allow users with local access to the broker to read this file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-4281](https://github.com/Live-Hack-CVE/CVE-2013-4281) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-4281.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-4281.svg)
+
+## CVE-2013-4253
+ The deployment script in the unsupported &quot;OpenShift Extras&quot; set of add-on scripts, in Red Hat Openshift 1, installs a default public key in the root user's authorized_keys file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-4253](https://github.com/Live-Hack-CVE/CVE-2013-4253) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-4253.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-4253.svg)
+
 ## CVE-2013-4235
  shadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees
 
@@ -249,6 +284,13 @@
 
 
 - [https://github.com/travelworld/cve_2013_3893_trigger.html](https://github.com/travelworld/cve_2013_3893_trigger.html) :  ![starts](https://img.shields.io/github/stars/travelworld/cve_2013_3893_trigger.html.svg) ![forks](https://img.shields.io/github/forks/travelworld/cve_2013_3893_trigger.html.svg)
+
+## CVE-2013-3812
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.5.31 and earlier and 5.6.11 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server Replication.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-3812](https://github.com/Live-Hack-CVE/CVE-2013-3812) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-3812.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-3812.svg)
 
 ## CVE-2013-3664
  Trimble SketchUp (formerly Google SketchUp) before 2013 (13.0.3689) allows remote attackers to execute arbitrary code via a crafted color palette table in a MAC Pict texture, which triggers an out-of-bounds stack write.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2013-3662.  NOTE: this issue was SPLIT due to different affected products and codebases (ADT1); CVE-2013-7388 has been assigned to the paintlib issue.
@@ -342,6 +384,20 @@
 
 
 - [https://github.com/fi01/libmsm_cameraconfig_exploit](https://github.com/fi01/libmsm_cameraconfig_exploit) :  ![starts](https://img.shields.io/github/stars/fi01/libmsm_cameraconfig_exploit.svg) ![forks](https://img.shields.io/github/forks/fi01/libmsm_cameraconfig_exploit.svg)
+
+## CVE-2013-2391
+ Unspecified vulnerability in Oracle MySQL 5.1.68 and earlier, 5.5.30 and earlier, and 5.6.10 and earlier allows local users to affect confidentiality and integrity via unknown vectors related to Server Install.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-2391](https://github.com/Live-Hack-CVE/CVE-2013-2391) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-2391.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-2391.svg)
+
+## CVE-2013-2249
+ mod_session_dbd.c in the mod_session_dbd module in the Apache HTTP Server before 2.4.5 proceeds with save operations for a session without considering the dirty flag and the requirement for a new session ID, which has unspecified impact and remote attack vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-2249](https://github.com/Live-Hack-CVE/CVE-2013-2249) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-2249.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-2249.svg)
 
 ## CVE-2013-2217
  cache.py in Suds 0.4, when tempdir is set to None, allows local users to redirect SOAP queries and possibly have other unspecified impact via a symlink attack on a cache file with a predictable name in /tmp/suds/.
@@ -453,6 +509,27 @@
 
 - [https://github.com/cinno/CVE-2013-1965](https://github.com/cinno/CVE-2013-1965) :  ![starts](https://img.shields.io/github/stars/cinno/CVE-2013-1965.svg) ![forks](https://img.shields.io/github/forks/cinno/CVE-2013-1965.svg)
 
+## CVE-2013-1950
+ The svc_dg_getargs function in libtirpc 0.2.3 and earlier allows remote attackers to cause a denial of service (rpcbind crash) via a Sun RPC request with crafted arguments that trigger a free of an invalid pointer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-1950](https://github.com/Live-Hack-CVE/CVE-2013-1950) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1950.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1950.svg)
+
+## CVE-2013-1896
+ mod_dav.c in the Apache HTTP Server before 2.2.25 does not properly determine whether DAV is enabled for a URI, which allows remote attackers to cause a denial of service (segmentation fault) via a MERGE request in which the URI is configured for handling by the mod_dav_svn module, but a certain href attribute in XML data refers to a non-DAV URI.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-1896](https://github.com/Live-Hack-CVE/CVE-2013-1896) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1896.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1896.svg)
+
+## CVE-2013-1862
+ mod_rewrite.c in the mod_rewrite module in the Apache HTTP Server 2.2.x before 2.2.25 writes data to a log file without sanitizing non-printable characters, which might allow remote attackers to execute arbitrary commands via an HTTP request containing an escape sequence for a terminal emulator.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-1862](https://github.com/Live-Hack-CVE/CVE-2013-1862) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1862.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1862.svg)
+
 ## CVE-2013-1824
  The SOAP parser in PHP before 5.3.22 and 5.4.x before 5.4.12 allows remote attackers to read arbitrary files via a SOAP WSDL file containing an XML external entity declaration in conjunction with an entity reference, related to an XML External Entity (XXE) issue in the soap_xmlParseFile and soap_xmlParseMemory functions.
 
@@ -487,6 +564,34 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-1620](https://github.com/Live-Hack-CVE/CVE-2013-1620) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1620.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1620.svg)
+
+## CVE-2013-1548
+ Unspecified vulnerability in Oracle MySQL 5.1.63 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server Types.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-1548](https://github.com/Live-Hack-CVE/CVE-2013-1548) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1548.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1548.svg)
+
+## CVE-2013-1511
+ Unspecified vulnerability in Oracle MySQL 5.5.30 and earlier and 5.6.10 and earlier allows remote authenticated users to affect availability via unknown vectors related to InnoDB.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-1511](https://github.com/Live-Hack-CVE/CVE-2013-1511) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1511.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1511.svg)
+
+## CVE-2013-1506
+ Unspecified vulnerability in Oracle MySQL 5.1.67 and earlier, 5.5.29 and earlier, and 5.6.10 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server Locking.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-1506](https://github.com/Live-Hack-CVE/CVE-2013-1506) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1506.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1506.svg)
+
+## CVE-2013-1502
+ Unspecified vulnerability in Oracle MySQL 5.5.30 and earlier and 5.6.9 and earlier allows local users to affect availability via unknown vectors related to Server Partition.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-1502](https://github.com/Live-Hack-CVE/CVE-2013-1502) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1502.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1502.svg)
 
 ## CVE-2013-1491
  The Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier, 6 Update 43 and earlier, 5.0 Update 41 and earlier, and JavaFX 2.2.7 and earlier allows remote attackers to execute arbitrary code via vectors related to 2D, as demonstrated by Joshua Drake during a Pwn2Own competition at CanSecWest 2013.
