@@ -95,12 +95,12 @@
 
 - [https://github.com/bittorrent3389/CVE-2015-8543_for_SLE12SP1](https://github.com/bittorrent3389/CVE-2015-8543_for_SLE12SP1) :  ![starts](https://img.shields.io/github/stars/bittorrent3389/CVE-2015-8543_for_SLE12SP1.svg) ![forks](https://img.shields.io/github/forks/bittorrent3389/CVE-2015-8543_for_SLE12SP1.svg)
 
-## CVE-2015-8325
- The do_setup_env function in session.c in sshd in OpenSSH through 7.2p2, when the UseLogin feature is enabled and PAM is configured to read .pam_environment files in user home directories, allows local users to gain privileges by triggering a crafted environment for the /bin/login program, as demonstrated by an LD_PRELOAD environment variable.
+## CVE-2015-8393
+ pcregrep in PCRE before 8.38 mishandles the -q option for binary files, which might allow remote attackers to obtain sensitive information via a crafted file, as demonstrated by a CGI script that sends stdout data to a client.
 
 
 
-- [https://github.com/Live-Hack-CVE/CVE-2015-8325](https://github.com/Live-Hack-CVE/CVE-2015-8325) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8325.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8325.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2015-8393](https://github.com/Live-Hack-CVE/CVE-2015-8393) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8393.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8393.svg)
 
 ## CVE-2015-8299
  Buffer overflow in the Group messages monitor (Falcon) in KNX ETS 4.1.5 (Build 3246) allows remote attackers to execute arbitrary code via a crafted KNXnet/IP UDP packet.
@@ -544,12 +544,47 @@
 
 - [https://github.com/Xattam1/Adobe-Flash-Exploits_17-18](https://github.com/Xattam1/Adobe-Flash-Exploits_17-18) :  ![starts](https://img.shields.io/github/stars/Xattam1/Adobe-Flash-Exploits_17-18.svg) ![forks](https://img.shields.io/github/forks/Xattam1/Adobe-Flash-Exploits_17-18.svg)
 
+## CVE-2015-4913
+ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect availability via vectors related to Server : DML, a different vulnerability than CVE-2015-4858.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4913](https://github.com/Live-Hack-CVE/CVE-2015-4913) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4913.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4913.svg)
+
+## CVE-2015-4895
+ Unspecified vulnerability in Oracle MySQL Server 5.6.25 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : InnoDB.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4895](https://github.com/Live-Hack-CVE/CVE-2015-4895) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4895.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4895.svg)
+
 ## CVE-2015-4870
  Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Parser.
 
 
 
 - [https://github.com/OsandaMalith/CVE-2015-4870](https://github.com/OsandaMalith/CVE-2015-4870) :  ![starts](https://img.shields.io/github/stars/OsandaMalith/CVE-2015-4870.svg) ![forks](https://img.shields.io/github/forks/OsandaMalith/CVE-2015-4870.svg)
+
+## CVE-2015-4864
+ Unspecified vulnerability in Oracle MySQL Server 5.5.43 and earlier and 5.6.24 and earlier allows remote authenticated users to affect integrity via unknown vectors related to Server : Security : Privileges.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4864](https://github.com/Live-Hack-CVE/CVE-2015-4864) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4864.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4864.svg)
+
+## CVE-2015-4861
+ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : InnoDB.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4861](https://github.com/Live-Hack-CVE/CVE-2015-4861) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4861.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4861.svg)
+
+## CVE-2015-4858
+ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via vectors related to DML, a different vulnerability than CVE-2015-4913.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4913](https://github.com/Live-Hack-CVE/CVE-2015-4913) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4913.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4913.svg)
 
 ## CVE-2015-4852
  The WLS Security component in Oracle WebLogic Server 10.3.6.0, 12.1.2.0, 12.1.3.0, and 12.2.1.0 allows remote attackers to execute arbitrary commands via a crafted serialized Java object in T3 protocol traffic to TCP port 7001, related to oracle_common/modules/com.bea.core.apache.commons.collections.jar. NOTE: the scope of this CVE is limited to the WebLogic Server product.
@@ -565,6 +600,45 @@
 - [https://github.com/nex1less/CVE-2015-4852](https://github.com/nex1less/CVE-2015-4852) :  ![starts](https://img.shields.io/github/stars/nex1less/CVE-2015-4852.svg) ![forks](https://img.shields.io/github/forks/nex1less/CVE-2015-4852.svg)
 
 - [https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces](https://github.com/minhangxiaohui/Weblogic_direct_T3_Rces) :  ![starts](https://img.shields.io/github/stars/minhangxiaohui/Weblogic_direct_T3_Rces.svg) ![forks](https://img.shields.io/github/forks/minhangxiaohui/Weblogic_direct_T3_Rces.svg)
+
+## CVE-2015-4836
+ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : SP.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4836](https://github.com/Live-Hack-CVE/CVE-2015-4836) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4836.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4836.svg)
+
+## CVE-2015-4807
+ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier, when running on Windows, allows remote authenticated users to affect availability via unknown vectors related to Server : Query Cache.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4807](https://github.com/Live-Hack-CVE/CVE-2015-4807) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4807.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4807.svg)
+
+## CVE-2015-4802
+ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : Partition, a different vulnerability than CVE-2015-4792.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4802](https://github.com/Live-Hack-CVE/CVE-2015-4802) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4802.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4802.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4792](https://github.com/Live-Hack-CVE/CVE-2015-4792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4792.svg)
+
+## CVE-2015-4792
+ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : Partition, a different vulnerability than CVE-2015-4802.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4792](https://github.com/Live-Hack-CVE/CVE-2015-4792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4792.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4802](https://github.com/Live-Hack-CVE/CVE-2015-4802) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4802.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4802.svg)
+
+## CVE-2015-4757
+ Unspecified vulnerability in Oracle MySQL Server 5.5.42 and earlier and 5.6.23 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : Optimizer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4757](https://github.com/Live-Hack-CVE/CVE-2015-4757) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4757.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4757.svg)
 
 ## CVE-2015-4495
  The PDF reader in Mozilla Firefox before 39.0.3, Firefox ESR 38.x before 38.1.1, and Firefox OS before 2.2 allows remote attackers to bypass the Same Origin Policy, and read arbitrary files or gain privileges, via vectors involving crafted JavaScript code and a native setter, as exploited in the wild in August 2015.
@@ -604,6 +678,13 @@
 - [https://github.com/clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/clic-kbait/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/clic-kbait/A2SV--SSL-VUL-Scan.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-4000](https://github.com/Live-Hack-CVE/CVE-2015-4000) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4000.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4000.svg)
+
+## CVE-2015-3884
+ Unrestricted file upload vulnerability in the (1) myAccount, (2) projects, (3) tasks, (4) tickets, (5) discussions, (6) reports, and (7) scheduler pages in qdPM 8.3 allows remote attackers to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in uploads/attachments/ or uploads/users/.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-3884](https://github.com/Live-Hack-CVE/CVE-2015-3884) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3884.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3884.svg)
 
 ## CVE-2015-3864
  Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.cpp in libstagefright in mediaserver in Android before 5.1.1 LMY48M allows remote attackers to execute arbitrary code via crafted MPEG-4 data, aka internal bug 23034759.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-3824.
@@ -877,6 +958,13 @@
 
 - [https://github.com/6a6f6a6f/CVE-2015-2080](https://github.com/6a6f6a6f/CVE-2015-2080) :  ![starts](https://img.shields.io/github/stars/6a6f6a6f/CVE-2015-2080.svg) ![forks](https://img.shields.io/github/forks/6a6f6a6f/CVE-2015-2080.svg)
 
+## CVE-2015-1931
+ IBM Java Security Components in IBM SDK, Java Technology Edition 8 before SR1 FP10, 7 R1 before SR3 FP10, 7 before SR9 FP10, 6 R1 before SR8 FP7, 6 before SR16 FP7, and 5.0 before SR16 FP13 stores plaintext information in memory dumps, which allows local users to obtain sensitive information by reading a file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-1931](https://github.com/Live-Hack-CVE/CVE-2015-1931) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1931.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1931.svg)
+
 ## CVE-2015-1855
  verify_certificate_identity in the OpenSSL extension in Ruby before 2.0.0 patchlevel 645, 2.1.x before 2.1.6, and 2.2.x before 2.2.2 does not properly validate hostnames, which allows remote attackers to spoof servers via vectors related to (1) multiple wildcards, (1) wildcards in IDNA names, (3) case sensitivity, and (4) non-ASCII characters.
 
@@ -1119,6 +1207,20 @@
 
 - [https://github.com/ScottyBauer/CVE-2015-1318](https://github.com/ScottyBauer/CVE-2015-1318) :  ![starts](https://img.shields.io/github/stars/ScottyBauer/CVE-2015-1318.svg) ![forks](https://img.shields.io/github/forks/ScottyBauer/CVE-2015-1318.svg)
 
+## CVE-2015-1309
+ XML external entity vulnerability in the Extended Computer Aided Test Tool (eCATT) in SAP NetWeaver AS ABAP 7.31 and earlier allows remote attackers to access arbitrary files via a crafted XML request, related to ECATT_DISPLAY_XMLSTRING_REMOTE, aka SAP Note 2016638.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-1309](https://github.com/Live-Hack-CVE/CVE-2015-1309) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1309.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1309.svg)
+
+## CVE-2015-1197
+ cpio 2.11, when using the --no-absolute-filenames option, allows local users to write to arbitrary files via a symlink attack on a file in an archive.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-1197](https://github.com/Live-Hack-CVE/CVE-2015-1197) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1197.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1197.svg)
+
 ## CVE-2015-1157
  CoreText in Apple iOS 8.x through 8.3 allows remote attackers to cause a denial of service (reboot and messaging disruption) via crafted Unicode text that is not properly handled during display truncation in the Notifications feature, as demonstrated by Arabic characters in (1) an SMS message or (2) a WhatsApp message.
 
@@ -1162,6 +1264,27 @@
 
 
 - [https://github.com/betalphafai/CVE-2015-0568](https://github.com/betalphafai/CVE-2015-0568) :  ![starts](https://img.shields.io/github/stars/betalphafai/CVE-2015-0568.svg) ![forks](https://img.shields.io/github/forks/betalphafai/CVE-2015-0568.svg)
+
+## CVE-2015-0505
+ Unspecified vulnerability in Oracle MySQL Server 5.5.42 and earlier, and 5.6.23 and earlier, allows remote authenticated users to affect availability via vectors related to DDL.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-0505](https://github.com/Live-Hack-CVE/CVE-2015-0505) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0505.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0505.svg)
+
+## CVE-2015-0499
+ Unspecified vulnerability in Oracle MySQL Server 5.5.42 and earlier, and 5.6.23 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Federated.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-0499](https://github.com/Live-Hack-CVE/CVE-2015-0499) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0499.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0499.svg)
+
+## CVE-2015-0374
+ Unspecified vulnerability in Oracle MySQL Server 5.5.40 and earlier and 5.6.21 and earlier allows remote authenticated users to affect confidentiality via unknown vectors related to Server : Security : Privileges : Foreign Key.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-0374](https://github.com/Live-Hack-CVE/CVE-2015-0374) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0374.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0374.svg)
 
 ## CVE-2015-0345
  Cross-site scripting (XSS) vulnerability in Adobe ColdFusion 10 before Update 16 and 11 before Update 5 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
