@@ -227,12 +227,75 @@
 
 - [https://github.com/smythtech/DWF-CVE-2017-1000000](https://github.com/smythtech/DWF-CVE-2017-1000000) :  ![starts](https://img.shields.io/github/stars/smythtech/DWF-CVE-2017-1000000.svg) ![forks](https://img.shields.io/github/forks/smythtech/DWF-CVE-2017-1000000.svg)
 
+## CVE-2017-20149
+ The Mikrotik RouterOS web server allows memory corruption in releases before Stable 6.38.5 and Long-term 6.37.5, aka Chimay-Red. A remote and unauthenticated user can trigger the vulnerability by sending a crafted HTTP request. An attacker can use this vulnerability to execute arbitrary code on the affected system, as exploited in the wild in mid-2017 and later.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-20149](https://github.com/Live-Hack-CVE/CVE-2017-20149) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20149.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20149.svg)
+
+## CVE-2017-20148
+ In the ebuild package through logcheck-1.3.23.ebuild for Logcheck on Gentoo, it is possible to achieve root privilege escalation from the logcheck user because of insecure recursive chown calls.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-20148](https://github.com/Live-Hack-CVE/CVE-2017-20148) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20148.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20148.svg)
+
+## CVE-2017-20147
+ In the ebuild package through smokeping-2.7.3-r1 for SmokePing on Gentoo, the initscript uses a PID file that is writable by the smokeping user. By writing arbitrary PIDs to that file, the smokeping user can cause a denial of service to arbitrary PIDs when the service is stopped.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-20147](https://github.com/Live-Hack-CVE/CVE-2017-20147) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20147.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20147.svg)
+
+## CVE-2017-20144
+ A vulnerability has been found in Anvsoft PDFMate PDF Converter Pro 1.7.5.0 and classified as critical. The manipulation leads to memory corruption. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-20144](https://github.com/Live-Hack-CVE/CVE-2017-20144) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20144.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20144.svg)
+
+## CVE-2017-20135
+ A vulnerability classified as critical was found in Itech Dating Script 3.26. Affected by this vulnerability is an unknown functionality of the file /see_more_details.php. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-20135](https://github.com/Live-Hack-CVE/CVE-2017-20135) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20135.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20135.svg)
+
 ## CVE-2017-20052
  A vulnerability classified as problematic was found in Python 2.7.13. This vulnerability affects unknown code of the component pgAdmin4. The manipulation leads to uncontrolled search path. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2017-20052](https://github.com/Live-Hack-CVE/CVE-2017-20052) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20052.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20052.svg)
+
+## CVE-2017-20045
+ A vulnerability was found in Navetti PricePoint 4.6.0.0. It has been declared as critical. This vulnerability affects unknown code. The manipulation leads to cross-site request forgery. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 4.7.0.0 is able to address this issue. It is recommended to upgrade the affected component.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-20045](https://github.com/Live-Hack-CVE/CVE-2017-20045) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20045.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20045.svg)
+
+## CVE-2017-20044
+ A vulnerability was found in Navetti PricePoint 4.6.0.0. It has been classified as problematic. This affects an unknown part. The manipulation leads to basic cross site scripting (Reflected). It is possible to initiate the attack remotely. Upgrading to version 4.7.0.0 is able to address this issue. It is recommended to upgrade the affected component.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-20044](https://github.com/Live-Hack-CVE/CVE-2017-20044) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20044.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20044.svg)
+
+## CVE-2017-20043
+ A vulnerability was found in Navetti PricePoint 4.6.0.0 and classified as problematic. Affected by this issue is some unknown functionality. The manipulation leads to basic cross site scripting (Persistent). The attack may be launched remotely. Upgrading to version 4.7.0.0 is able to address this issue. It is recommended to upgrade the affected component.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-20043](https://github.com/Live-Hack-CVE/CVE-2017-20043) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20043.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20043.svg)
+
+## CVE-2017-20042
+ A vulnerability has been found in Navetti PricePoint 4.6.0.0 and classified as critical. Affected by this vulnerability is an unknown functionality. The manipulation leads to sql injection (Blind). The attack can be launched remotely. Upgrading to version 4.7.0.0 is able to address this issue. It is recommended to upgrade the affected component.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-20042](https://github.com/Live-Hack-CVE/CVE-2017-20042) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20042.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20042.svg)
 
 ## CVE-2017-18926
  raptor_xml_writer_start_element_common in raptor_xml_writer.c in Raptor RDF Syntax Library 2.0.15 miscalculates the maximum nspace declarations for the XML writer, leading to heap-based buffer overflows (sometimes seen in raptor_qname_format_as_xml).
@@ -614,6 +677,13 @@
 
 
 - [https://github.com/dewankpant/CVE-2017-16567](https://github.com/dewankpant/CVE-2017-16567) :  ![starts](https://img.shields.io/github/stars/dewankpant/CVE-2017-16567.svg) ![forks](https://img.shields.io/github/forks/dewankpant/CVE-2017-16567.svg)
+
+## CVE-2017-16544
+ In the add_match function in libbb/lineedit.c in BusyBox through 1.27.2, the tab autocomplete feature of the shell, used to get a list of filenames in a directory, does not sanitize filenames and results in executing any escape sequence in the terminal. This could potentially result in code execution, arbitrary file writes, or other attacks.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-16544](https://github.com/Live-Hack-CVE/CVE-2017-16544) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16544.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16544.svg)
 
 ## CVE-2017-16541
  Tor Browser before 7.0.9 on macOS and Linux allows remote attackers to bypass the intended anonymity feature and discover a client IP address via vectors involving a crafted web site that leverages file:// mishandling in Firefox, aka TorMoil. NOTE: Tails is unaffected.
@@ -1053,12 +1123,21 @@
 
 - [https://github.com/shutingrz/CVE-2017-15120_PoC](https://github.com/shutingrz/CVE-2017-15120_PoC) :  ![starts](https://img.shields.io/github/stars/shutingrz/CVE-2017-15120_PoC.svg) ![forks](https://img.shields.io/github/forks/shutingrz/CVE-2017-15120_PoC.svg)
 
+## CVE-2017-15108
+ spice-vdagent up to and including 0.17.0 does not properly escape save directory before passing to shell, allowing local attacker with access to the session the agent runs in to inject arbitrary commands to be executed.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-15108](https://github.com/Live-Hack-CVE/CVE-2017-15108) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-15108.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-15108.svg)
+
 ## CVE-2017-15095
  A deserialization flaw was discovered in the jackson-databind in versions before 2.8.10 and 2.9.1, which could allow an unauthenticated user to perform code execution by sending the maliciously crafted input to the readValue method of the ObjectMapper. This issue extends the previous flaw CVE-2017-7525 by blacklisting more classes that could be used maliciously.
 
 
 
 - [https://github.com/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095](https://github.com/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095) :  ![starts](https://img.shields.io/github/stars/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095.svg) ![forks](https://img.shields.io/github/forks/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-15095](https://github.com/Live-Hack-CVE/CVE-2017-15095) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-15095.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-15095.svg)
 
 ## CVE-2017-15010
  A ReDoS (regular expression denial of service) flaw was found in the tough-cookie module before 2.3.3 for Node.js. An attacker that is able to make an HTTP request using a specially crafted cookie may cause the application to consume an excessive amount of CPU.
@@ -1876,6 +1955,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2017-11683](https://github.com/Live-Hack-CVE/CVE-2017-11683) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-11683.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-11683.svg)
 
+## CVE-2017-11655
+ A memory leak was found in the way SIPcrack 0.2 handled processing of SIP traffic, because a lines array was mismanaged. A remote attacker could potentially use this flaw to crash long-running sipdump network sniffing sessions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-11655](https://github.com/Live-Hack-CVE/CVE-2017-11655) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-11655.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-11655.svg)
+
+## CVE-2017-11654
+ An out-of-bounds read and write flaw was found in the way SIPcrack 0.2 processed SIP traffic, because 0x00 termination of a payload array was mishandled. A remote attacker could potentially use this flaw to crash the sipdump process by generating specially crafted SIP traffic.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-11654](https://github.com/Live-Hack-CVE/CVE-2017-11654) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-11654.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-11654.svg)
+
 ## CVE-2017-11611
  Wolf CMS 0.8.3.1 allows Cross-Site Scripting (XSS) attacks. The vulnerability exists due to insufficient sanitization of the file name in a &quot;create-file-popup&quot; action, and the directory name in a &quot;create-directory-popup&quot; action, in the HTTP POST method to the &quot;/plugin/file_manager/&quot; script (aka an /admin/plugin/file_manager/browse// URI).
 
@@ -1947,9 +2040,9 @@
 
 - [https://github.com/c3r34lk1ll3r/CVE-2017-11176](https://github.com/c3r34lk1ll3r/CVE-2017-11176) :  ![starts](https://img.shields.io/github/stars/c3r34lk1ll3r/CVE-2017-11176.svg) ![forks](https://img.shields.io/github/forks/c3r34lk1ll3r/CVE-2017-11176.svg)
 
-- [https://github.com/Sama-Ayman-Mokhtar/CVE-2017-11176](https://github.com/Sama-Ayman-Mokhtar/CVE-2017-11176) :  ![starts](https://img.shields.io/github/stars/Sama-Ayman-Mokhtar/CVE-2017-11176.svg) ![forks](https://img.shields.io/github/forks/Sama-Ayman-Mokhtar/CVE-2017-11176.svg)
-
 - [https://github.com/leonardo1101/cve-2017-11176](https://github.com/leonardo1101/cve-2017-11176) :  ![starts](https://img.shields.io/github/stars/leonardo1101/cve-2017-11176.svg) ![forks](https://img.shields.io/github/forks/leonardo1101/cve-2017-11176.svg)
+
+- [https://github.com/Sama-Ayman-Mokhtar/CVE-2017-11176](https://github.com/Sama-Ayman-Mokhtar/CVE-2017-11176) :  ![starts](https://img.shields.io/github/stars/Sama-Ayman-Mokhtar/CVE-2017-11176.svg) ![forks](https://img.shields.io/github/forks/Sama-Ayman-Mokhtar/CVE-2017-11176.svg)
 
 - [https://github.com/HckEX/CVE-2017-11176](https://github.com/HckEX/CVE-2017-11176) :  ![starts](https://img.shields.io/github/stars/HckEX/CVE-2017-11176.svg) ![forks](https://img.shields.io/github/forks/HckEX/CVE-2017-11176.svg)
 
@@ -2067,6 +2160,13 @@
 
 - [https://github.com/vah13/OracleCVE](https://github.com/vah13/OracleCVE) :  ![starts](https://img.shields.io/github/stars/vah13/OracleCVE.svg) ![forks](https://img.shields.io/github/forks/vah13/OracleCVE.svg)
 
+## CVE-2017-10388
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Libraries). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144. Difficult to exploit vulnerability allows unauthenticated attacker with network access via Kerberos to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: Applies to the Java SE Kerberos client. CVSS 3.0 Base Score 7.5 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10388](https://github.com/Live-Hack-CVE/CVE-2017-10388) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10388.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10388.svg)
+
 ## CVE-2017-10366
  Vulnerability in the PeopleSoft Enterprise PT PeopleTools component of Oracle PeopleSoft Products (subcomponent: Performance Monitor). Supported versions that are affected are 8.54, 8.55 and 8.56. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise PeopleSoft Enterprise PT PeopleTools. Successful attacks of this vulnerability can result in takeover of PeopleSoft Enterprise PT PeopleTools. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 
@@ -2076,12 +2176,89 @@
 
 - [https://github.com/blazeinfosec/CVE-2017-10366_peoplesoft](https://github.com/blazeinfosec/CVE-2017-10366_peoplesoft) :  ![starts](https://img.shields.io/github/stars/blazeinfosec/CVE-2017-10366_peoplesoft.svg) ![forks](https://img.shields.io/github/forks/blazeinfosec/CVE-2017-10366_peoplesoft.svg)
 
+## CVE-2017-10357
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Serialization). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10357](https://github.com/Live-Hack-CVE/CVE-2017-10357) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10357.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10357.svg)
+
+## CVE-2017-10356
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Security). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144; JRockit: R28.3.15. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where Java SE, Java SE Embedded, JRockit executes to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 6.2 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10356](https://github.com/Live-Hack-CVE/CVE-2017-10356) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10356.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10356.svg)
+
+## CVE-2017-10355
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Networking). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144; JRockit: R28.3.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10355](https://github.com/Live-Hack-CVE/CVE-2017-10355) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10355.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10355.svg)
+
 ## CVE-2017-10352
  Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS - Web Services). The supported version that is affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.1.0, 12.2.1.2.0 and 12.2.1.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. While the vulnerability is in Oracle WebLogic Server, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle WebLogic Server as well as unauthorized update, insert or delete access to some of Oracle WebLogic Server accessible data and unauthorized read access to a subset of Oracle WebLogic Server accessible data. CVSS 3.0 Base Score 9.9 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:H).
 
 
 
 - [https://github.com/bigsizeme/weblogic-XMLDecoder](https://github.com/bigsizeme/weblogic-XMLDecoder) :  ![starts](https://img.shields.io/github/stars/bigsizeme/weblogic-XMLDecoder.svg) ![forks](https://img.shields.io/github/forks/bigsizeme/weblogic-XMLDecoder.svg)
+
+## CVE-2017-10350
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: JAX-WS). Supported versions that are affected are Java SE: 7u151, 8u144 and 9; Java SE Embedded: 8u144. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10350](https://github.com/Live-Hack-CVE/CVE-2017-10350) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10350.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10350.svg)
+
+## CVE-2017-10349
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: JAXP). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10349](https://github.com/Live-Hack-CVE/CVE-2017-10349) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10349.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10349.svg)
+
+## CVE-2017-10348
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Libraries). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10348](https://github.com/Live-Hack-CVE/CVE-2017-10348) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10348.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10348.svg)
+
+## CVE-2017-10295
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Networking). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144; JRockit: R28.3.15. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Java SE, Java SE Embedded, JRockit. While the vulnerability is in Java SE, Java SE Embedded, JRockit, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 4.0 (Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10295](https://github.com/Live-Hack-CVE/CVE-2017-10295) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10295.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10295.svg)
+
+## CVE-2017-10286
+ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: InnoDB). Supported versions that are affected are 5.6.37 and earlier and 5.7.19 and earlier. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.4 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10286](https://github.com/Live-Hack-CVE/CVE-2017-10286) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10286.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10286.svg)
+
+## CVE-2017-10285
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: RMI). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10285](https://github.com/Live-Hack-CVE/CVE-2017-10285) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10285.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10285.svg)
+
+## CVE-2017-10281
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Serialization). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144; JRockit: R28.3.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10281](https://github.com/Live-Hack-CVE/CVE-2017-10281) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10281.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10281.svg)
+
+## CVE-2017-10274
+ Vulnerability in the Java SE component of Oracle Java SE (subcomponent: Smart Card IO). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Java SE accessible data as well as unauthorized access to critical data or complete access to all Java SE accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 6.8 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10274](https://github.com/Live-Hack-CVE/CVE-2017-10274) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10274.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10274.svg)
 
 ## CVE-2017-10271
  Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Security). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.1.0 and 12.2.1.2.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 7.5 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).
@@ -2152,12 +2329,47 @@
 
 - [https://github.com/KKsdall/7kbstormq](https://github.com/KKsdall/7kbstormq) :  ![starts](https://img.shields.io/github/stars/KKsdall/7kbstormq.svg) ![forks](https://img.shields.io/github/forks/KKsdall/7kbstormq.svg)
 
+## CVE-2017-10268
+ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Replication). Supported versions that are affected are 5.5.57 and earlier, 5.6.37 and earlier and 5.7.19 and earlier. Difficult to exploit vulnerability allows high privileged attacker with logon to the infrastructure where MySQL Server executes to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all MySQL Server accessible data. CVSS 3.0 Base Score 4.1 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10268](https://github.com/Live-Hack-CVE/CVE-2017-10268) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10268.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10268.svg)
+
+## CVE-2017-10243
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: JAX-WS). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized read access to a subset of Java SE, Java SE Embedded, JRockit accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 6.5 (Confidentiality and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10243](https://github.com/Live-Hack-CVE/CVE-2017-10243) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10243.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10243.svg)
+
 ## CVE-2017-10235
  Vulnerability in the Oracle VM VirtualBox component of Oracle Virtualization (subcomponent: Core). The supported version that is affected is Prior to 5.1.24. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle VM VirtualBox as well as unauthorized update, insert or delete access to some of Oracle VM VirtualBox accessible data. CVSS 3.0 Base Score 6.7 (Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:L/A:H).
 
 
 
 - [https://github.com/fundacion-sadosky/vbox_cve_2017_10235](https://github.com/fundacion-sadosky/vbox_cve_2017_10235) :  ![starts](https://img.shields.io/github/stars/fundacion-sadosky/vbox_cve_2017_10235.svg) ![forks](https://img.shields.io/github/forks/fundacion-sadosky/vbox_cve_2017_10235.svg)
+
+## CVE-2017-10198
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Security). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. While the vulnerability is in Java SE, Java SE Embedded, JRockit, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 6.8 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10198](https://github.com/Live-Hack-CVE/CVE-2017-10198) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10198.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10198.svg)
+
+## CVE-2017-10193
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Security). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized read access to a subset of Java SE, Java SE Embedded accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 3.1 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10193](https://github.com/Live-Hack-CVE/CVE-2017-10193) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10193.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10193.svg)
+
+## CVE-2017-10176
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Security). Supported versions that are affected are Java SE: 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10176](https://github.com/Live-Hack-CVE/CVE-2017-10176) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10176.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10176.svg)
 
 ## CVE-2017-10148
  Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.1 and 12.2.1.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. While the vulnerability is in Oracle WebLogic Server, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle WebLogic Server accessible data. CVSS 3.0 Base Score 5.8 (Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N). NOTE: the previous information is from the July 2017 CPU. Oracle has not commented on third-party claims that this issue allows remote attackers to inject special data into log files via a crafted T3 request.
@@ -2173,6 +2385,97 @@
 
 - [https://github.com/vah13/OracleCVE](https://github.com/vah13/OracleCVE) :  ![starts](https://img.shields.io/github/stars/vah13/OracleCVE.svg) ![forks](https://img.shields.io/github/forks/vah13/OracleCVE.svg)
 
+## CVE-2017-10135
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: JCE). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 5.9 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10135](https://github.com/Live-Hack-CVE/CVE-2017-10135) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10135.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10135.svg)
+
+## CVE-2017-10118
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: JCE). Supported versions that are affected are Java SE: 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10118](https://github.com/Live-Hack-CVE/CVE-2017-10118) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10118.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10118.svg)
+
+## CVE-2017-10116
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Security). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, JRockit, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 8.3 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10116](https://github.com/Live-Hack-CVE/CVE-2017-10116) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10116.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10116.svg)
+
+## CVE-2017-10115
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: JCE). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10115](https://github.com/Live-Hack-CVE/CVE-2017-10115) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10115.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10115.svg)
+
+## CVE-2017-10111
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Libraries). The supported version that is affected is Java SE: 8u131; Java SE Embedded: 8u131. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10111](https://github.com/Live-Hack-CVE/CVE-2017-10111) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10111.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10111.svg)
+
+## CVE-2017-10109
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Serialization). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded, JRockit. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10109](https://github.com/Live-Hack-CVE/CVE-2017-10109) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10109.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10109.svg)
+
+## CVE-2017-10108
+ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Serialization). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10108](https://github.com/Live-Hack-CVE/CVE-2017-10108) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10108.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10108.svg)
+
+## CVE-2017-10107
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: RMI). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10107](https://github.com/Live-Hack-CVE/CVE-2017-10107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10107.svg)
+
+## CVE-2017-10102
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: RMI). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. While the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.0 Base Score 9.0 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10102](https://github.com/Live-Hack-CVE/CVE-2017-10102) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10102.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10102.svg)
+
+## CVE-2017-10101
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: JAXP). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10101](https://github.com/Live-Hack-CVE/CVE-2017-10101) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10101.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10101.svg)
+
+## CVE-2017-10096
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: JAXP). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10096](https://github.com/Live-Hack-CVE/CVE-2017-10096) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10096.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10096.svg)
+
+## CVE-2017-10090
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Libraries). Supported versions that are affected are Java SE: 7u141 and 8u131; Java SE Embedded: 8u131. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10090](https://github.com/Live-Hack-CVE/CVE-2017-10090) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10090.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10090.svg)
+
+## CVE-2017-10087
+ Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Libraries). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10087](https://github.com/Live-Hack-CVE/CVE-2017-10087) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10087.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10087.svg)
+
 ## CVE-2017-9999
  ** RE
 
@@ -2186,6 +2489,15 @@
 
 
 - [https://github.com/RoseSecurity/APOLOGEE](https://github.com/RoseSecurity/APOLOGEE) :  ![starts](https://img.shields.io/github/stars/RoseSecurity/APOLOGEE.svg) ![forks](https://img.shields.io/github/forks/RoseSecurity/APOLOGEE.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-9947](https://github.com/Live-Hack-CVE/CVE-2017-9947) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9947.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9947.svg)
+
+## CVE-2017-9946
+ A vulnerability has been identified in Siemens APOGEE PXC and TALON TC BACnet Automation Controllers in all versions &lt;V3.5. An attacker with network access to the integrated web server (80/tcp and 443/tcp) could bypass the authentication and download sensitive information from the device.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-9946](https://github.com/Live-Hack-CVE/CVE-2017-9946) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9946.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9946.svg)
 
 ## CVE-2017-9934
  Missing CSRF token checks and improper input validation in Joomla! CMS 1.7.3 through 3.7.2 lead to an XSS vulnerability.
@@ -2207,6 +2519,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2017-9928](https://github.com/Live-Hack-CVE/CVE-2017-9928) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9928.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9928.svg)
+
+## CVE-2017-9843
+ SAP NetWeaver AS ABAP 7.40 allows remote authenticated users with certain privileges to cause a denial of service (process crash) via vectors involving disp+work.exe, aka SAP Security Note 2406841.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-9843](https://github.com/Live-Hack-CVE/CVE-2017-9843) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9843.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9843.svg)
 
 ## CVE-2017-9841
  Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows remote attackers to execute arbitrary PHP code via HTTP POST data beginning with a &quot;&lt;?php &quot; substring, as demonstrated by an attack on a site with an exposed /vendor folder, i.e., external access to the /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php URI.
@@ -2433,6 +2752,27 @@
 
 - [https://github.com/mailinneberg/Broadpwn](https://github.com/mailinneberg/Broadpwn) :  ![starts](https://img.shields.io/github/stars/mailinneberg/Broadpwn.svg) ![forks](https://img.shields.io/github/forks/mailinneberg/Broadpwn.svg)
 
+## CVE-2017-9340
+ An attacker is logged in as a normal user and can somehow make admin to delete shared folders in ownCloud Server before 10.0.2.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-9340](https://github.com/Live-Hack-CVE/CVE-2017-9340) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9340.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9340.svg)
+
+## CVE-2017-9339
+ A logical error in ownCloud Server before 10.0.2 caused disclosure of valid share tokens for public calendars. Thus granting an attacker potentially access to publicly shared calendars without knowing the share token.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-9339](https://github.com/Live-Hack-CVE/CVE-2017-9339) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9339.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9339.svg)
+
+## CVE-2017-9338
+ Inadequate escaping lead to XSS vulnerability in the search module in ownCloud Server before 8.2.12, 9.0.x before 9.0.10, 9.1.x before 9.1.6, and 10.0.x before 10.0.2. To be exploitable a user has to write or paste malicious content into the search dialogue.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-9338](https://github.com/Live-Hack-CVE/CVE-2017-9338) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9338.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9338.svg)
+
 ## CVE-2017-9248
  Telerik.Web.UI.dll in Progress Telerik UI for ASP.NET AJAX before R2 2017 SP1 and Sitefinity before 10.0.6412.0 does not properly protect Telerik.Web.UI.DialogParametersEncryptionKey or the MachineKey, which makes it easier for remote attackers to defeat cryptographic protection mechanisms, leading to a MachineKey leak, arbitrary file uploads or downloads, XSS, or ASP.NET ViewState compromise.
 
@@ -2540,6 +2880,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2017-8843](https://github.com/Live-Hack-CVE/CVE-2017-8843) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8843.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8843.svg)
+
+## CVE-2017-8842
+ The bufRead::get() function in libzpaq/libzpaq.h in liblrzip.so in lrzip 0.631 allows remote attackers to cause a denial of service (divide-by-zero error and application crash) via a crafted archive.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-8842](https://github.com/Live-Hack-CVE/CVE-2017-8842) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8842.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8842.svg)
 
 ## CVE-2017-8809
  api.php in MediaWiki before 1.27.4, 1.28.x before 1.28.3, and 1.29.x before 1.29.2 has a Reflected File Download vulnerability.
@@ -2670,7 +3017,16 @@
 
 - [https://github.com/sfitpro/cve-2017-8529](https://github.com/sfitpro/cve-2017-8529) :  ![starts](https://img.shields.io/github/stars/sfitpro/cve-2017-8529.svg) ![forks](https://img.shields.io/github/forks/sfitpro/cve-2017-8529.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2017-8529](https://github.com/Live-Hack-CVE/CVE-2017-8529) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8529.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8529.svg)
+
 - [https://github.com/Lynggaard91/windows2016fixCVE-2017-8529](https://github.com/Lynggaard91/windows2016fixCVE-2017-8529) :  ![starts](https://img.shields.io/github/stars/Lynggaard91/windows2016fixCVE-2017-8529.svg) ![forks](https://img.shields.io/github/forks/Lynggaard91/windows2016fixCVE-2017-8529.svg)
+
+## CVE-2017-8516
+ Microsoft SQL Server Analysis Services in Microsoft SQL Server 2012, Microsoft SQL Server 2014, and Microsoft SQL Server 2016 allows an information disclosure vulnerability when it improperly enforces permissions, aka &quot;Microsoft SQL Server Analysis Services Information Disclosure Vulnerability&quot;.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-8516](https://github.com/Live-Hack-CVE/CVE-2017-8516) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8516.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8516.svg)
 
 ## CVE-2017-8486
  Microsoft Windows 7 SP1, Windows Server 2008 SP2 and R2 SP1, Windows 8.1 and Windows RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allows an information disclosure due to the way it handles objects in memory, aka &quot;Win32k Information Disclosure Vulnerability&quot;.
@@ -2735,6 +3091,13 @@
 
 - [https://github.com/kienquoc102/CVE-2017-8225](https://github.com/kienquoc102/CVE-2017-8225) :  ![starts](https://img.shields.io/github/stars/kienquoc102/CVE-2017-8225.svg) ![forks](https://img.shields.io/github/forks/kienquoc102/CVE-2017-8225.svg)
 
+## CVE-2017-8114
+ Roundcube Webmail allows arbitrary password resets by authenticated users. This affects versions before 1.0.11, 1.1.x before 1.1.9, and 1.2.x before 1.2.5. The problem is caused by an improperly restricted exec call in the virtualmin and sasl drivers of the password plugin.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-8114](https://github.com/Live-Hack-CVE/CVE-2017-8114) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8114.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8114.svg)
+
 ## CVE-2017-8046
  Malicious PATCH requests submitted to servers using Spring Data REST versions prior to 2.6.9 (Ingalls SR9), versions prior to 3.0.1 (Kay SR1) and Spring Boot versions prior to 1.5.9, 2.0 M6 can use specially crafted JSON data to run arbitrary Java code.
 
@@ -2755,6 +3118,8 @@
 - [https://github.com/sj/spring-data-rest-CVE-2017-8046](https://github.com/sj/spring-data-rest-CVE-2017-8046) :  ![starts](https://img.shields.io/github/stars/sj/spring-data-rest-CVE-2017-8046.svg) ![forks](https://img.shields.io/github/forks/sj/spring-data-rest-CVE-2017-8046.svg)
 
 - [https://github.com/guanjivip/CVE-2017-8046](https://github.com/guanjivip/CVE-2017-8046) :  ![starts](https://img.shields.io/github/stars/guanjivip/CVE-2017-8046.svg) ![forks](https://img.shields.io/github/forks/guanjivip/CVE-2017-8046.svg)
+
+- [https://github.com/bkhablenko/CVE-2017-8046](https://github.com/bkhablenko/CVE-2017-8046) :  ![starts](https://img.shields.io/github/stars/bkhablenko/CVE-2017-8046.svg) ![forks](https://img.shields.io/github/forks/bkhablenko/CVE-2017-8046.svg)
 
 - [https://github.com/jsotiro/VulnerableSpringDataRest](https://github.com/jsotiro/VulnerableSpringDataRest) :  ![starts](https://img.shields.io/github/stars/jsotiro/VulnerableSpringDataRest.svg) ![forks](https://img.shields.io/github/forks/jsotiro/VulnerableSpringDataRest.svg)
 
@@ -2915,6 +3280,15 @@
 
 - [https://github.com/BassinD/jackson-RCE](https://github.com/BassinD/jackson-RCE) :  ![starts](https://img.shields.io/github/stars/BassinD/jackson-RCE.svg) ![forks](https://img.shields.io/github/forks/BassinD/jackson-RCE.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2017-15095](https://github.com/Live-Hack-CVE/CVE-2017-15095) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-15095.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-15095.svg)
+
+## CVE-2017-7517
+ An input validation vulnerability exists in Openshift Enterprise due to a 1:1 mapping of tenants in Hawkular Metrics and projects/namespaces in OpenShift. If a user creates a project called &quot;MyProject&quot;, and then later deletes it another user can then create a project called &quot;MyProject&quot; and access the metrics stored from the original &quot;MyProject&quot; instance.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-7517](https://github.com/Live-Hack-CVE/CVE-2017-7517) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7517.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7517.svg)
+
 ## CVE-2017-7501
  It was found that versions of rpm before 4.13.0.2 use temporary files with predictable names when installing an RPM. An attacker with ability to write in a directory where files will be installed could create symbolic links to an arbitrary location and modify content, and possibly permissions to arbitrary files, which could be used for denial of service or possibly privilege escalation.
 
@@ -2962,9 +3336,9 @@
 
 - [https://github.com/00mjk/exploit-CVE-2017-7494](https://github.com/00mjk/exploit-CVE-2017-7494) :  ![starts](https://img.shields.io/github/stars/00mjk/exploit-CVE-2017-7494.svg) ![forks](https://img.shields.io/github/forks/00mjk/exploit-CVE-2017-7494.svg)
 
-- [https://github.com/john-80/cve-2017-7494](https://github.com/john-80/cve-2017-7494) :  ![starts](https://img.shields.io/github/stars/john-80/cve-2017-7494.svg) ![forks](https://img.shields.io/github/forks/john-80/cve-2017-7494.svg)
-
 - [https://github.com/yinyinmeimei/CVE-2017-7494-payload](https://github.com/yinyinmeimei/CVE-2017-7494-payload) :  ![starts](https://img.shields.io/github/stars/yinyinmeimei/CVE-2017-7494-payload.svg) ![forks](https://img.shields.io/github/forks/yinyinmeimei/CVE-2017-7494-payload.svg)
+
+- [https://github.com/john-80/cve-2017-7494](https://github.com/john-80/cve-2017-7494) :  ![starts](https://img.shields.io/github/stars/john-80/cve-2017-7494.svg) ![forks](https://img.shields.io/github/forks/john-80/cve-2017-7494.svg)
 
 - [https://github.com/Hansindu-M/CVE-2017-7494_IT19115344](https://github.com/Hansindu-M/CVE-2017-7494_IT19115344) :  ![starts](https://img.shields.io/github/stars/Hansindu-M/CVE-2017-7494_IT19115344.svg) ![forks](https://img.shields.io/github/forks/Hansindu-M/CVE-2017-7494_IT19115344.svg)
 
@@ -3483,35 +3857,35 @@
 
 - [https://github.com/eeehit/CVE-2017-5638](https://github.com/eeehit/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/eeehit/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/eeehit/CVE-2017-5638.svg)
 
-- [https://github.com/AndreasKl/CVE-2017-5638](https://github.com/AndreasKl/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/AndreasKl/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/AndreasKl/CVE-2017-5638.svg)
-
-- [https://github.com/Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Badbird3/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Badbird3/CVE-2017-5638.svg)
-
 - [https://github.com/Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Xhendos/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Xhendos/CVE-2017-5638.svg)
 
 - [https://github.com/bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/bongbongco/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bongbongco/cve-2017-5638.svg)
 
-- [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
+- [https://github.com/AndreasKl/CVE-2017-5638](https://github.com/AndreasKl/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/AndreasKl/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/AndreasKl/CVE-2017-5638.svg)
+
+- [https://github.com/Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Badbird3/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Badbird3/CVE-2017-5638.svg)
 
 - [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
 
-- [https://github.com/lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/lizhi16/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/lizhi16/CVE-2017-5638.svg)
+- [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
 
 - [https://github.com/mfdev-solution/Exploit-CVE-2017-5638](https://github.com/mfdev-solution/Exploit-CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/mfdev-solution/Exploit-CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mfdev-solution/Exploit-CVE-2017-5638.svg)
 
+- [https://github.com/lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/lizhi16/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/lizhi16/CVE-2017-5638.svg)
+
 - [https://github.com/readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/readloud/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/readloud/CVE-2017-5638.svg)
-
-- [https://github.com/jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2017-5638.svg)
-
-- [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
-
-- [https://github.com/0xkasra/CVE-2017-5638](https://github.com/0xkasra/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2017-5638.svg)
 
 - [https://github.com/jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jrrombaldo/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jrrombaldo/CVE-2017-5638.svg)
 
 - [https://github.com/bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/bhagdave/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bhagdave/CVE-2017-5638.svg)
 
 - [https://github.com/Tankirat/CVE-2017-5638](https://github.com/Tankirat/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Tankirat/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Tankirat/CVE-2017-5638.svg)
+
+- [https://github.com/jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2017-5638.svg)
+
+- [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
+
+- [https://github.com/0xkasra/CVE-2017-5638](https://github.com/0xkasra/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2017-5638.svg)
 
 - [https://github.com/homjxi0e/CVE-2017-5638](https://github.com/homjxi0e/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-5638.svg)
 
@@ -3674,6 +4048,20 @@
 
 - [https://github.com/guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730) :  ![starts](https://img.shields.io/github/stars/guidovranken/CVE-2017-3730.svg) ![forks](https://img.shields.io/github/forks/guidovranken/CVE-2017-3730.svg)
 
+## CVE-2017-3653
+ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: DDL). Supported versions that are affected are 5.5.56 and earlier, 5.6.36 and earlier and 5.7.18 and earlier. Difficult to exploit vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of MySQL Server accessible data. CVSS 3.0 Base Score 3.1 (Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-3653](https://github.com/Live-Hack-CVE/CVE-2017-3653) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3653.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3653.svg)
+
+## CVE-2017-3641
+ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: DML). Supported versions that are affected are 5.5.56 and earlier, 5.6.36 and earlier and 5.7.18 and earlier. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-3641](https://github.com/Live-Hack-CVE/CVE-2017-3641) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3641.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3641.svg)
+
 ## CVE-2017-3599
  Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Pluggable Auth). Supported versions that are affected are 5.6.35 and earlier and 5.7.17 and earlier. Easily &quot;exploitable&quot; vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 7.5 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H). NOTE: the previous information is from the April 2017 CPU. Oracle has not commented on third-party claims that this issue is an integer overflow in sql/auth/sql_authentication.cc which allows remote attackers to cause a denial of service via a crafted authentication packet.
 
@@ -3694,6 +4082,27 @@
 
 - [https://github.com/Al1ex/CVE-2017-3506](https://github.com/Al1ex/CVE-2017-3506) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2017-3506.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2017-3506.svg)
 
+## CVE-2017-3318
+ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Error Handling). Supported versions that are affected are 5.5.53 and earlier, 5.6.34 and earlier and 5.7.16 and earlier. Difficult to exploit vulnerability allows high privileged attacker with logon to the infrastructure where MySQL Server executes to compromise MySQL Server. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all MySQL Server accessible data. CVSS v3.0 Base Score 4.0 (Confidentiality impacts).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-3318](https://github.com/Live-Hack-CVE/CVE-2017-3318) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3318.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3318.svg)
+
+## CVE-2017-3317
+ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Logging). Supported versions that are affected are 5.5.53 and earlier, 5.6.34 and earlier and 5.7.16 and earlier. Difficult to exploit vulnerability allows high privileged attacker with logon to the infrastructure where MySQL Server executes to compromise MySQL Server. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS v3.0 Base Score 4.0 (Availability impacts).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-3317](https://github.com/Live-Hack-CVE/CVE-2017-3317) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3317.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3317.svg)
+
+## CVE-2017-3313
+ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: MyISAM). Supported versions that are affected are 5.5.53 and earlier, 5.6.34 and earlier and 5.7.16 and earlier. Difficult to exploit vulnerability allows low privileged attacker with logon to the infrastructure where MySQL Server executes to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all MySQL Server accessible data. CVSS v3.0 Base Score 4.7 (Confidentiality impacts).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-3313](https://github.com/Live-Hack-CVE/CVE-2017-3313) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3313.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3313.svg)
+
 ## CVE-2017-3248
  Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.0 and 12.2.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS v3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).
 
@@ -3704,6 +4113,13 @@
 - [https://github.com/ianxtianxt/CVE-2017-3248](https://github.com/ianxtianxt/CVE-2017-3248) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2017-3248.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2017-3248.svg)
 
 - [https://github.com/BabyTeam1024/CVE-2017-3248](https://github.com/BabyTeam1024/CVE-2017-3248) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2017-3248.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2017-3248.svg)
+
+## CVE-2017-3243
+ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Charsets). Supported versions that are affected are 5.5.53 and earlier. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS v3.0 Base Score 4.4 (Availability impacts).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-3243](https://github.com/Live-Hack-CVE/CVE-2017-3243) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3243.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3243.svg)
 
 ## CVE-2017-3241
  Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: RMI). Supported versions that are affected are Java SE: 6u131, 7u121 and 8u112; Java SE Embedded: 8u111; JRockit: R28.3.12. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. While the vulnerability is in Java SE, Java SE Embedded, JRockit, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS v3.0 Base Score 9.0 (Confidentiality, Integrity and Availability impacts).
@@ -3975,6 +4391,13 @@
 
 - [https://github.com/alexzorin/cve-2017-2636-el](https://github.com/alexzorin/cve-2017-2636-el) :  ![starts](https://img.shields.io/github/stars/alexzorin/cve-2017-2636-el.svg) ![forks](https://img.shields.io/github/forks/alexzorin/cve-2017-2636-el.svg)
 
+## CVE-2017-2601
+ Jenkins before versions 2.44, 2.32.2 is vulnerable to a persisted cross-site scripting in parameter names and descriptions (SECURITY-353). Users with the permission to configure jobs were able to inject JavaScript into parameter names and descriptions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-2601](https://github.com/Live-Hack-CVE/CVE-2017-2601) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2601.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2601.svg)
+
 ## CVE-2017-2599
  Jenkins before versions 2.44 and 2.32.2 is vulnerable to an insufficient permission check. This allows users with permissions to create new items (e.g. jobs) to overwrite existing items they don't have access to (SECURITY-321).
 
@@ -4038,6 +4461,62 @@
 
 
 - [https://github.com/ossf-cve-benchmark/CVE-2017-0931](https://github.com/ossf-cve-benchmark/CVE-2017-0931) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-0931.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-0931.svg)
+
+## CVE-2017-0894
+ Nextcloud Server before 11.0.3 is vulnerable to disclosure of valid share tokens for public calendars due to a logical error. Thus granting an attacker potentially access to publicly shared calendars without knowing the share token.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-0894](https://github.com/Live-Hack-CVE/CVE-2017-0894) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0894.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0894.svg)
+
+## CVE-2017-0892
+ Nextcloud Server before 11.0.3 is vulnerable to an improper session handling allowed an application specific password without permission to the files access to the users file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-0892](https://github.com/Live-Hack-CVE/CVE-2017-0892) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0892.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0892.svg)
+
+## CVE-2017-0890
+ Nextcloud Server before 11.0.3 is vulnerable to an inadequate escaping leading to a XSS vulnerability in the search module. To be exploitable a user has to write or paste malicious content into the search dialogue.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-0890](https://github.com/Live-Hack-CVE/CVE-2017-0890) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0890.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0890.svg)
+
+## CVE-2017-0888
+ Nextcloud Server before 9.0.55 and 10.0.2 suffers from a Content-Spoofing vulnerability in the &quot;files&quot; app. The top navigation bar displayed in the files list contained partially user-controllable input leading to a potential misrepresentation of information.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-0888](https://github.com/Live-Hack-CVE/CVE-2017-0888) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0888.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0888.svg)
+
+## CVE-2017-0887
+ Nextcloud Server before 9.0.55 and 10.0.2 suffers from a bypass in the quota limitation. Due to not properly sanitizing values provided by the `OC-Total-Length` HTTP header an authenticated adversary may be able to exceed their configured user quota. Thus using more space than allowed by the administrator.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-0887](https://github.com/Live-Hack-CVE/CVE-2017-0887) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0887.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0887.svg)
+
+## CVE-2017-0886
+ Nextcloud Server before 9.0.55 and 10.0.2 suffers from a Denial of Service attack. Due to an error in the application logic an authenticated adversary may trigger an endless recursion in the application leading to a potential Denial of Service.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-0886](https://github.com/Live-Hack-CVE/CVE-2017-0886) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0886.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0886.svg)
+
+## CVE-2017-0885
+ Nextcloud Server before 9.0.55 and 10.0.2 suffers from a error message disclosing existence of file in write-only share. Due to an error in the application logic an adversary with access to a write-only share may enumerate the names of existing files and subfolders by comparing the exception messages.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-0885](https://github.com/Live-Hack-CVE/CVE-2017-0885) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0885.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0885.svg)
+
+## CVE-2017-0884
+ Nextcloud Server before 9.0.55 and 10.0.2 suffers from a creation of folders in read-only folders despite lacking permissions issue. Due to a logical error in the file caching layer an authenticated adversary is able to create empty folders inside a shared folder. Note that this only affects folders and files that the adversary has at least read-only permissions for.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-0884](https://github.com/Live-Hack-CVE/CVE-2017-0884) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0884.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0884.svg)
 
 ## CVE-2017-0807
  An elevation of privilege vulnerability in the Android framework (ui framework). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2. Android ID: A-35056974.
@@ -4258,9 +4737,9 @@
 
 - [https://github.com/Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/Phantomlancer123/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/Phantomlancer123/CVE-2017-0199.svg)
 
-- [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
-
 - [https://github.com/BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/BRAINIAC22/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/BRAINIAC22/CVE-2017-0199.svg)
+
+- [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
 
 - [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
 
