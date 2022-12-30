@@ -14,6 +14,13 @@
 
 - [https://github.com/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability](https://github.com/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability) :  ![starts](https://img.shields.io/github/stars/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability.svg)
 
+## CVE-2012-6150
+ The winbind_name_list_to_sid_string_list function in nsswitch/pam_winbind.c in Samba through 4.1.2 handles invalid require_membership_of group names by accepting authentication by any user, which allows remote authenticated users to bypass intended access restrictions in opportunistic circumstances by leveraging an administrator's pam_winbind configuration-file mistake.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-6150](https://github.com/Live-Hack-CVE/CVE-2012-6150) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-6150.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-6150.svg)
+
 ## CVE-2012-6066
  freeSSHd.exe in freeSSHd through 1.2.6 allows remote attackers to bypass authentication via a crafted session, as demonstrated by an OpenSSH client with modified versions of ssh.c and sshconnect2.c.
 
@@ -50,6 +57,20 @@
 
 
 - [https://github.com/phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test) :  ![starts](https://img.shields.io/github/stars/phusion/rails-cve-2012-5664-test.svg) ![forks](https://img.shields.io/github/forks/phusion/rails-cve-2012-5664-test.svg)
+
+## CVE-2012-5627
+ Oracle MySQL and MariaDB 5.5.x before 5.5.29, 5.3.x before 5.3.12, and 5.2.x before 5.2.14 does not modify the salt during multiple executions of the change_user command within the same connection which makes it easier for remote authenticated users to conduct brute force password guessing attacks.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5627](https://github.com/Live-Hack-CVE/CVE-2012-5627) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5627.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5627.svg)
+
+## CVE-2012-5614
+ Oracle MySQL 5.1.67 and earlier and 5.5.29 and earlier, and MariaDB 5.5.28a and possibly other versions, allows remote authenticated users to cause a denial of service (mysqld crash) via a SELECT command with an UpdateXML command containing XML with a large number of unique, nested elements.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5614](https://github.com/Live-Hack-CVE/CVE-2012-5614) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5614.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5614.svg)
 
 ## CVE-2012-5613
  ** DISP
@@ -129,9 +150,9 @@
 
 - [https://github.com/benjholla/CVE-2012-4681-Armoring](https://github.com/benjholla/CVE-2012-4681-Armoring) :  ![starts](https://img.shields.io/github/stars/benjholla/CVE-2012-4681-Armoring.svg) ![forks](https://img.shields.io/github/forks/benjholla/CVE-2012-4681-Armoring.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2012-4681](https://github.com/Live-Hack-CVE/CVE-2012-4681) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4681.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4681.svg)
-
 - [https://github.com/ZH3FENG/PoCs-CVE_2012_4681](https://github.com/ZH3FENG/PoCs-CVE_2012_4681) :  ![starts](https://img.shields.io/github/stars/ZH3FENG/PoCs-CVE_2012_4681.svg) ![forks](https://img.shields.io/github/forks/ZH3FENG/PoCs-CVE_2012_4681.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-4681](https://github.com/Live-Hack-CVE/CVE-2012-4681) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4681.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4681.svg)
 
 ## CVE-2012-4431
  org/apache/catalina/filters/CsrfPreventionFilter.java in Apache Tomcat 6.x before 6.0.36 and 7.x before 7.0.32 allows remote attackers to bypass the cross-site request forgery (CSRF) protection mechanism via a request that lacks a session identifier.
@@ -191,12 +212,33 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-3197](https://github.com/Live-Hack-CVE/CVE-2012-3197) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3197.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3197.svg)
 
+## CVE-2012-3180
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.65 and earlier, and 5.5.27 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Optimizer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-3180](https://github.com/Live-Hack-CVE/CVE-2012-3180) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3180.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3180.svg)
+
+## CVE-2012-3173
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.63 and earlier, and 5.5.25 and earlier, allows remote authenticated users to affect availability via unknown vectors related to InnoDB Plugin.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-3173](https://github.com/Live-Hack-CVE/CVE-2012-3173) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3173.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3173.svg)
+
 ## CVE-2012-3167
  Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.63 and earlier, and 5.5.25 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Full Text Search.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-3167](https://github.com/Live-Hack-CVE/CVE-2012-3167) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3167.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3167.svg)
+
+## CVE-2012-3166
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.63 and earlier, and 5.5.25 and earlier, allows remote authenticated users to affect availability via unknown vectors related to InnoDB.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-3166](https://github.com/Live-Hack-CVE/CVE-2012-3166) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3166.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3166.svg)
 
 ## CVE-2012-3160
  Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.65 and earlier, and 5.5.27 and earlier, allows local users to affect confidentiality via unknown vectors related to Server Installation.
@@ -218,6 +260,13 @@
 
 
 - [https://github.com/Mekanismen/pwnacle-fusion](https://github.com/Mekanismen/pwnacle-fusion) :  ![starts](https://img.shields.io/github/stars/Mekanismen/pwnacle-fusion.svg) ![forks](https://img.shields.io/github/forks/Mekanismen/pwnacle-fusion.svg)
+
+## CVE-2012-3150
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.64 and earlier, and 5.5.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Optimizer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-3150](https://github.com/Live-Hack-CVE/CVE-2012-3150) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3150.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3150.svg)
 
 ## CVE-2012-3137
  The authentication protocol in Oracle Database Server 10.2.0.3, 10.2.0.4, 10.2.0.5, 11.1.0.7, 11.2.0.2, and 11.2.0.3 allows remote attackers to obtain the session key and salt for arbitrary users, which leaks information about the cryptographic hash and makes it easier to conduct brute force password guessing attacks, aka &quot;stealth password cracking vulnerability.&quot;
@@ -339,6 +388,27 @@
 
 - [https://github.com/daai1/CVE-2012-1823](https://github.com/daai1/CVE-2012-1823) :  ![starts](https://img.shields.io/github/stars/daai1/CVE-2012-1823.svg) ![forks](https://img.shields.io/github/forks/daai1/CVE-2012-1823.svg)
 
+## CVE-2012-1757
+ Unspecified vulnerability in Oracle MySQL Server 5.5.23 and earlier allows remote authenticated users to affect availability via unknown vectors related to InnoDB.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1757](https://github.com/Live-Hack-CVE/CVE-2012-1757) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1757.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1757.svg)
+
+## CVE-2012-1756
+ Unspecified vulnerability in Oracle MySQL Server 5.5.23 and earlier allows remote authenticated users to affect availability via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1756](https://github.com/Live-Hack-CVE/CVE-2012-1756) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1756.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1756.svg)
+
+## CVE-2012-1734
+ Unspecified vulnerability in Oracle MySQL Server 5.1.62 and earlier, and 5.5.23 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Optimizer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1734](https://github.com/Live-Hack-CVE/CVE-2012-1734) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1734.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1734.svg)
+
 ## CVE-2012-1723
  Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 update 4 and earlier, 6 update 32 and earlier, 5 update 35 and earlier, and 1.4.2_37 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Hotspot.
 
@@ -352,6 +422,48 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-1717](https://github.com/Live-Hack-CVE/CVE-2012-1717) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1717.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1717.svg)
+
+## CVE-2012-1705
+ Unspecified vulnerability in the Server component in Oracle MySQL 5.1.66 and earlier and 5.5.28 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server Optimizer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1705](https://github.com/Live-Hack-CVE/CVE-2012-1705) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1705.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1705.svg)
+
+## CVE-2012-1703
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.61 and earlier, and 5.5.21 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Optimizer, a different vulnerability than CVE-2012-1690.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1690](https://github.com/Live-Hack-CVE/CVE-2012-1690) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1690.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1690.svg)
+
+## CVE-2012-1697
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.5.21 and earlier allows remote authenticated users to affect availability via unknown vectors related to Partition.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1697](https://github.com/Live-Hack-CVE/CVE-2012-1697) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1697.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1697.svg)
+
+## CVE-2012-1690
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.61 and earlier, and 5.5.21 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Optimizer, a different vulnerability than CVE-2012-1703.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1690](https://github.com/Live-Hack-CVE/CVE-2012-1690) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1690.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1690.svg)
+
+## CVE-2012-1689
+ Unspecified vulnerability in Oracle MySQL Server 5.1.62 and earlier, and 5.5.22 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Optimizer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1689](https://github.com/Live-Hack-CVE/CVE-2012-1689) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1689.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1689.svg)
+
+## CVE-2012-1688
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.61 and earlier, and 5.5.21 and earlier, allows remote authenticated users to affect availability, related to Server DML.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-1688](https://github.com/Live-Hack-CVE/CVE-2012-1688) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-1688.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-1688.svg)
 
 ## CVE-2012-1675
  The TNS Listener, as used in Oracle Database 11g 11.1.0.7, 11.2.0.2, and 11.2.0.3, and 10g 10.2.0.3, 10.2.0.4, and 10.2.0.5, as used in Oracle Fusion Middleware, Enterprise Manager, E-Business Suite, and possibly other products, allows remote attackers to execute arbitrary database commands by performing a remote registration of a database (1) instance or (2) service name that already exists, then conducting a man-in-the-middle (MITM) attack to hijack database connections, aka &quot;TNS Poison.&quot;
@@ -387,6 +499,34 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-0777](https://github.com/Live-Hack-CVE/CVE-2012-0777) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-0777.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-0777.svg)
+
+## CVE-2012-0578
+ Unspecified vulnerability in the Server component in Oracle MySQL 5.5.28 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server Optimizer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-0578](https://github.com/Live-Hack-CVE/CVE-2012-0578) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-0578.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-0578.svg)
+
+## CVE-2012-0574
+ Unspecified vulnerability in the Server component in Oracle MySQL 5.1.66 and earlier, and 5.5.28 and earlier, allows remote authenticated users to affect availability via unknown vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-0574](https://github.com/Live-Hack-CVE/CVE-2012-0574) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-0574.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-0574.svg)
+
+## CVE-2012-0572
+ Unspecified vulnerability in the Server component in Oracle MySQL 5.1.66 and earlier and 5.5.28 and earlier allows remote authenticated users to affect availability via unknown vectors related to InnoDB.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-0572](https://github.com/Live-Hack-CVE/CVE-2012-0572) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-0572.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-0572.svg)
+
+## CVE-2012-0540
+ Unspecified vulnerability in Oracle MySQL Server 5.1.62 and earlier and 5.5.23 and earlier allows remote authenticated users to affect availability, related to GIS Extension.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-0540](https://github.com/Live-Hack-CVE/CVE-2012-0540) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-0540.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-0540.svg)
 
 ## CVE-2012-0507
  Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, and 5.0 Update 33 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Concurrency.  NOTE: the previous information was obtained from the February 2012 Oracle CPU. Oracle has not commented on claims from a downstream vendor and third party researchers that this issue occurs because the AtomicReferenceArray class implementation does not ensure that the array is of the Object[] type, which allows attackers to cause a denial of service (JVM crash) or bypass Java sandbox restrictions.  NOTE: this issue was originally mapped to CVE-2011-3571, but that identifier was already assigned to a different issue.
