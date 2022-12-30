@@ -19,6 +19,13 @@
 
 - [https://github.com/alt3kx/CVE-2008-6827](https://github.com/alt3kx/CVE-2008-6827) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2008-6827.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2008-6827.svg)
 
+## CVE-2008-6566
+ Unspecified vulnerability in Octopussy before 0.9.5.8 has unknown impact and attack vectors related to a &quot;major security&quot; vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2008-6566](https://github.com/Live-Hack-CVE/CVE-2008-6566) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-6566.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-6566.svg)
+
 ## CVE-2008-5416
  Heap-based buffer overflow in Microsoft SQL Server 2000 SP4, 8.00.2050, 8.00.2039, and earlier; SQL Server 2000 Desktop Engine (MSDE 2000) SP4; SQL Server 2005 SP2 and 9.00.1399.06; SQL Server 2000 Desktop Engine (WMSDE) on Windows Server 2003 SP1 and SP2; and Windows Internal Database (WYukon) SP2 allows remote authenticated users to cause a denial of service (access violation exception) or execute arbitrary code by calling the sp_replwritetovarbin extended stored procedure with a set of invalid parameters that trigger memory overwrite, aka &quot;SQL Server sp_replwritetovarbin Limited Memory Overwrite Vulnerability.&quot;
 
@@ -59,6 +66,13 @@
 
 
 - [https://github.com/thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts) :  ![starts](https://img.shields.io/github/stars/thunderstrike9090/Conflicker_analysis_scripts.svg) ![forks](https://img.shields.io/github/forks/thunderstrike9090/Conflicker_analysis_scripts.svg)
+
+## CVE-2008-3804
+ Unspecified vulnerability in the Multi Protocol Label Switching (MPLS) Forwarding Infrastructure (MFI) in Cisco IOS 12.2 and 12.4 allows remote attackers to cause a denial of service (memory corruption) via crafted packets for which the software path is used.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2008-3804](https://github.com/Live-Hack-CVE/CVE-2008-3804) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-3804.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-3804.svg)
 
 ## CVE-2008-3789
  Samba 3.2.0 uses weak permissions (0666) for the (1) group_mapping.tdb and (2) group_mapping.ldb files, which allows local users to modify the membership of Unix groups.
@@ -122,6 +136,13 @@
 
 
 - [https://github.com/hackingyseguridad/dnspoison](https://github.com/hackingyseguridad/dnspoison) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/dnspoison.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/dnspoison.svg)
+
+## CVE-2008-1105
+ Heap-based buffer overflow in the receive_smb_raw function in util/sock.c in Samba 3.0.0 through 3.0.29 allows remote attackers to execute arbitrary code via a crafted SMB response.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2008-1105](https://github.com/Live-Hack-CVE/CVE-2008-1105) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-1105.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-1105.svg)
 
 ## CVE-2008-0456
  CRLF injection vulnerability in the mod_negotiation module in the Apache HTTP Server 2.2.6 and earlier in the 2.2.x series, 2.0.61 and earlier in the 2.0.x series, and 1.3.39 and earlier in the 1.3.x series allows remote authenticated users to inject arbitrary HTTP headers and conduct HTTP response splitting attacks by uploading a file with a multi-line name containing HTTP header sequences and a file extension, which leads to injection within a (1) &quot;406 Not Acceptable&quot; or (2) &quot;300 Multiple Choices&quot; HTTP response when the extension is omitted in a request for the file.
