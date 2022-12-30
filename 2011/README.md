@@ -51,6 +51,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2011-4802](https://github.com/Live-Hack-CVE/CVE-2011-4802) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-4802.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-4802.svg)
 
+## CVE-2011-4566
+ Integer overflow in the exif_process_IFD_TAG function in exif.c in the exif extension in PHP 5.4.0beta2 on 32-bit platforms allows remote attackers to read the contents of arbitrary memory locations or cause a denial of service via a crafted offset_val value in an EXIF header in a JPEG file, a different vulnerability than CVE-2011-0708.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-4566](https://github.com/Live-Hack-CVE/CVE-2011-4566) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-4566.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-4566.svg)
+
 ## CVE-2011-4329
  Multiple cross-site scripting (XSS) vulnerabilities in Dolibarr 3.1.0 allow remote attackers to inject arbitrary web script or HTML via (1) the username parameter in a setup action to admin/company.php, or the PATH_INFO to (2) admin/security_other.php, (3) admin/events.php, or (4) admin/user.php.
 
@@ -169,6 +176,13 @@
 - [https://github.com/HerculesRD/vsftpd2.3.4PyExploit](https://github.com/HerculesRD/vsftpd2.3.4PyExploit) :  ![starts](https://img.shields.io/github/stars/HerculesRD/vsftpd2.3.4PyExploit.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/vsftpd2.3.4PyExploit.svg)
 
 - [https://github.com/davidlares/vsftpd-exploitation](https://github.com/davidlares/vsftpd-exploitation) :  ![starts](https://img.shields.io/github/stars/davidlares/vsftpd-exploitation.svg) ![forks](https://img.shields.io/github/forks/davidlares/vsftpd-exploitation.svg)
+
+## CVE-2011-2522
+ Multiple cross-site request forgery (CSRF) vulnerabilities in the Samba Web Administration Tool (SWAT) in Samba 3.x before 3.5.10 allow remote attackers to hijack the authentication of administrators for requests that (1) shut down daemons, (2) start daemons, (3) add shares, (4) remove shares, (5) add printers, (6) remove printers, (7) add user accounts, or (8) remove user accounts, as demonstrated by certain start, stop, and restart parameters to the status program.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-2522](https://github.com/Live-Hack-CVE/CVE-2011-2522) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-2522.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-2522.svg)
 
 ## CVE-2011-2461
  Cross-site scripting (XSS) vulnerability in the Adobe Flex SDK 3.x and 4.x before 4.6 allows remote attackers to inject arbitrary web script or HTML via vectors related to the loading of modules from different domains.
