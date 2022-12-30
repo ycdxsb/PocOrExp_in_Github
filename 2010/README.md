@@ -12,6 +12,20 @@
 
 - [https://github.com/lem0nSec/CVE-2010-5301](https://github.com/lem0nSec/CVE-2010-5301) :  ![starts](https://img.shields.io/github/stars/lem0nSec/CVE-2010-5301.svg) ![forks](https://img.shields.io/github/forks/lem0nSec/CVE-2010-5301.svg)
 
+## CVE-2010-5298
+ Race condition in the ssl3_read_bytes function in s3_pkt.c in OpenSSL through 1.0.1g, when SSL_MODE_RELEASE_BUFFERS is enabled, allows remote attackers to inject data across sessions or cause a denial of service (use-after-free and parsing error) via an SSL connection in a multithreaded environment.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-5298](https://github.com/Live-Hack-CVE/CVE-2010-5298) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-5298.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-5298.svg)
+
+## CVE-2010-5250
+ Untrusted search path vulnerability in the pthread_win32_process_attach_np function in pthreadGC2.dll in Pthreads-win32 2.8.0 allows local users to gain privileges via a Trojan horse quserex.dll file in the current working directory.  NOTE: some of these details are obtained from third party information.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-5250](https://github.com/Live-Hack-CVE/CVE-2010-5250) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-5250.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-5250.svg)
+
 ## CVE-2010-5230
  Multiple untrusted search path vulnerabilities in MicroStation 7.1 allow local users to gain privileges via a Trojan horse (1) mptools.dll, (2) baseman.dll, (3) wintab32.dll, or (4) wintab.dll file in the current working directory, as demonstrated by a directory that contains a .hln or .rdl file.  NOTE: some of these details are obtained from third party information.
 
@@ -124,6 +138,13 @@
 
 - [https://github.com/huang-emily/CVE-2010-3437](https://github.com/huang-emily/CVE-2010-3437) :  ![starts](https://img.shields.io/github/stars/huang-emily/CVE-2010-3437.svg) ![forks](https://img.shields.io/github/forks/huang-emily/CVE-2010-3437.svg)
 
+## CVE-2010-3436
+ fopen_wrappers.c in PHP 5.3.x through 5.3.3 might allow remote attackers to bypass open_basedir restrictions via vectors related to the length of a filename.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-3436](https://github.com/Live-Hack-CVE/CVE-2010-3436) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-3436.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-3436.svg)
+
 ## CVE-2010-3333
  Stack-based buffer overflow in Microsoft Office XP SP3, Office 2003 SP3, Office 2007 SP2, Office 2010, Office 2004 and 2008 for Mac, Office for Mac 2011, and Open XML File Format Converter for Mac allows remote attackers to execute arbitrary code via crafted RTF data, aka &quot;RTF Stack Buffer Overflow Vulnerability.&quot;
 
@@ -146,6 +167,13 @@
 
 
 - [https://github.com/n0lann/CVE2010-3301_compiled](https://github.com/n0lann/CVE2010-3301_compiled) :  ![starts](https://img.shields.io/github/stars/n0lann/CVE2010-3301_compiled.svg) ![forks](https://img.shields.io/github/forks/n0lann/CVE2010-3301_compiled.svg)
+
+## CVE-2010-3069
+ Stack-based buffer overflow in the (1) sid_parse and (2) dom_sid_parse functions in Samba before 3.5.5 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a crafted Windows Security ID (SID) on a file share.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-3069](https://github.com/Live-Hack-CVE/CVE-2010-3069) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-3069.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-3069.svg)
 
 ## CVE-2010-2626
  index.pl in Miyabi CGI Tools SEO Links 1.02 allows remote attackers to execute arbitrary commands via shell metacharacters in the fn command. NOTE: some of these details are obtained from third party information.
@@ -190,6 +218,13 @@
 - [https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075](https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075) :  ![starts](https://img.shields.io/github/stars/MFernstrom/OffensivePascal-CVE-2010-2075.svg) ![forks](https://img.shields.io/github/forks/MFernstrom/OffensivePascal-CVE-2010-2075.svg)
 
 - [https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE) :  ![starts](https://img.shields.io/github/stars/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg) ![forks](https://img.shields.io/github/forks/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg)
+
+## CVE-2010-2063
+ Buffer overflow in the SMB1 packet chaining implementation in the chain_reply function in process.c in smbd in Samba 3.0.x before 3.3.13 allows remote attackers to cause a denial of service (memory corruption and daemon crash) or possibly execute arbitrary code via a crafted field in a packet.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-2063](https://github.com/Live-Hack-CVE/CVE-2010-2063) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-2063.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-2063.svg)
 
 ## CVE-2010-1717
  Directory traversal vulnerability in the iF surfALERT (com_if_surfalert) component 1.2 for Joomla! allows remote attackers to read arbitrary files and possibly have unspecified other impact via a .. (dot dot) in the controller parameter to index.php.
@@ -284,6 +319,13 @@
 - [https://github.com/t0kx/privesc-CVE-2010-0426](https://github.com/t0kx/privesc-CVE-2010-0426) :  ![starts](https://img.shields.io/github/stars/t0kx/privesc-CVE-2010-0426.svg) ![forks](https://img.shields.io/github/forks/t0kx/privesc-CVE-2010-0426.svg)
 
 - [https://github.com/cved-sources/cve-2010-0426](https://github.com/cved-sources/cve-2010-0426) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2010-0426.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2010-0426.svg)
+
+## CVE-2010-0215
+ ActiveCollab before 2.3.2 allows remote authenticated users to bypass intended access restrictions, and (1) delete an attachment or (2) subscribe to an object, via a crafted URL.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-0215](https://github.com/Live-Hack-CVE/CVE-2010-0215) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0215.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0215.svg)
 
 ## CVE-2010-0130
  Integer overflow in Adobe Shockwave Player before 11.5.7.609 might allow remote attackers to execute arbitrary code via a crafted .dir (aka Director) file.
