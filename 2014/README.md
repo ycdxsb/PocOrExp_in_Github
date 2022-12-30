@@ -155,6 +155,13 @@
 
 - [https://github.com/tafamace/CVE-2014-8110](https://github.com/tafamace/CVE-2014-8110) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2014-8110.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2014-8110.svg)
 
+## CVE-2014-8109
+ mod_lua.c in the mod_lua module in the Apache HTTP Server 2.3.x and 2.4.x through 2.4.10 does not support an httpd configuration in which the same Lua authorization provider is used with different arguments within different contexts, which allows remote attackers to bypass intended access restrictions in opportunistic circumstances by leveraging multiple Require directives, as demonstrated by a configuration that specifies authorization for one group to access a certain directory, and authorization for a second group to access a second directory.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-8109](https://github.com/Live-Hack-CVE/CVE-2014-8109) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-8109.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-8109.svg)
+
 ## CVE-2014-7921
  mediaserver in Android 4.0.3 through 5.x before 5.1 allows attackers to gain privileges.  NOTE: This is a different vulnerability than CVE-2014-7920.
 
@@ -244,6 +251,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-6568](https://github.com/Live-Hack-CVE/CVE-2014-6568) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6568.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6568.svg)
 
+## CVE-2014-6564
+ Unspecified vulnerability in Oracle MySQL Server 5.6.19 and earlier allows remote authenticated users to affect availability via vectors related to SERVER:INNODB FULLTEXT SEARCH DML.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6564](https://github.com/Live-Hack-CVE/CVE-2014-6564) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6564.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6564.svg)
+
+## CVE-2014-6559
+ Unspecified vulnerability in Oracle MySQL Server 5.5.39 and earlier, and 5.6.20 and earlier, allows remote attackers to affect confidentiality via vectors related to C API SSL CERTIFICATE HANDLING.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6559](https://github.com/Live-Hack-CVE/CVE-2014-6559) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6559.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6559.svg)
+
 ## CVE-2014-6551
  Unspecified vulnerability in Oracle MySQL Server 5.5.38 and earlier and 5.6.19 and earlier allows local users to affect confidentiality via vectors related to CLIENT:MYSQLADMIN.
 
@@ -251,12 +272,79 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-6551](https://github.com/Live-Hack-CVE/CVE-2014-6551) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6551.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6551.svg)
 
+## CVE-2014-6520
+ Unspecified vulnerability in Oracle MySQL Server 5.5.38 and earlier allows remote authenticated users to affect availability via vectors related to SERVER:DDL.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6520](https://github.com/Live-Hack-CVE/CVE-2014-6520) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6520.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6520.svg)
+
+## CVE-2014-6507
+ Unspecified vulnerability in Oracle MySQL Server 5.5.39 and earlier, and 5.6.20 and earlier, allows remote authenticated users to affect confidentiality, integrity, and availability via vectors related to SERVER:DML.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6507](https://github.com/Live-Hack-CVE/CVE-2014-6507) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6507.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6507.svg)
+
+## CVE-2014-6505
+ Unspecified vulnerability in Oracle MySQL Server 5.5.38 and earlier, and 5.6.19 and earlier, allows remote authenticated users to affect availability via vectors related to SERVER:MEMORY STORAGE ENGINE.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6505](https://github.com/Live-Hack-CVE/CVE-2014-6505) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6505.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6505.svg)
+
+## CVE-2014-6496
+ Unspecified vulnerability in Oracle MySQL Server 5.5.39 and earlier, and 5.6.20 and earlier, allows remote attackers to affect availability via vectors related to CLIENT:SSL:yaSSL, a different vulnerability than CVE-2014-6494.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6496](https://github.com/Live-Hack-CVE/CVE-2014-6496) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6496.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6496.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6494](https://github.com/Live-Hack-CVE/CVE-2014-6494) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6494.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6494.svg)
+
+## CVE-2014-6495
+ Unspecified vulnerability in Oracle MySQL Server 5.5.38 and earlier, and 5.6.19 and earlier, allows remote attackers to affect availability via vectors related to SERVER:SSL:yaSSL.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6495](https://github.com/Live-Hack-CVE/CVE-2014-6495) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6495.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6495.svg)
+
+## CVE-2014-6494
+ Unspecified vulnerability in Oracle MySQL Server 5.5.39 and earlier, and 5.6.20 and earlier, allows remote attackers to affect availability via vectors related to CLIENT:SSL:yaSSL, a different vulnerability than CVE-2014-6496.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6494](https://github.com/Live-Hack-CVE/CVE-2014-6494) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6494.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6494.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6496](https://github.com/Live-Hack-CVE/CVE-2014-6496) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6496.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6496.svg)
+
+## CVE-2014-6484
+ Unspecified vulnerability in Oracle MySQL Server 5.5.38 and earlier, and 5.6.19 and earlier, allows remote authenticated users to affect availability via vectors related to SERVER:DML.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6484](https://github.com/Live-Hack-CVE/CVE-2014-6484) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6484.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6484.svg)
+
+## CVE-2014-6478
+ Unspecified vulnerability in Oracle MySQL Server 5.5.38 and earlier, and 5.6.19 and earlier, allows remote attackers to affect integrity via vectors related to SERVER:SSL:yaSSL.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6478](https://github.com/Live-Hack-CVE/CVE-2014-6478) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6478.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6478.svg)
+
 ## CVE-2014-6474
  Unspecified vulnerability in Oracle MySQL Server 5.6.19 and earlier allows remote authenticated users to affect availability via vectors related to SERVER:MEMCACHED.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-6474](https://github.com/Live-Hack-CVE/CVE-2014-6474) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6474.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6474.svg)
+
+## CVE-2014-6464
+ Unspecified vulnerability in Oracle MySQL Server 5.5.39 and earlier and 5.6.20 and earlier allows remote authenticated users to affect availability via vectors related to SERVER:INNODB DML FOREIGN KEYS.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6464](https://github.com/Live-Hack-CVE/CVE-2014-6464) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6464.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6464.svg)
 
 ## CVE-2014-6463
  Unspecified vulnerability in Oracle MySQL Server 5.5.38 and earlier and 5.6.19 and earlier allows remote authenticated users to affect availability via vectors related to SERVER:REPLICATION ROW FORMAT BINARY LOG DML.
@@ -388,11 +476,11 @@
 
 - [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
 
+- [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
+
 - [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
 
 - [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
-
-- [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
 
 - [https://github.com/dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes) :  ![starts](https://img.shields.io/github/stars/dlitz/bash-cve-2014-6271-fixes.svg) ![forks](https://img.shields.io/github/forks/dlitz/bash-cve-2014-6271-fixes.svg)
 
@@ -565,6 +653,20 @@
 
 - [https://github.com/android-rooting-tools/libmsm_vfe_read_exploit](https://github.com/android-rooting-tools/libmsm_vfe_read_exploit) :  ![starts](https://img.shields.io/github/stars/android-rooting-tools/libmsm_vfe_read_exploit.svg) ![forks](https://img.shields.io/github/forks/android-rooting-tools/libmsm_vfe_read_exploit.svg)
 
+## CVE-2014-4287
+ Unspecified vulnerability in Oracle MySQL Server 5.5.38 and earlier and 5.6.19 and earlier allows remote authenticated users to affect availability via vectors related to SERVER:CHARACTER SETS.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-4287](https://github.com/Live-Hack-CVE/CVE-2014-4287) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-4287.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-4287.svg)
+
+## CVE-2014-4274
+ Unspecified vulnerability in Oracle MySQL Server 5.5.38 and earlier and 5.6.19 and earlier allows local users to affect confidentiality, integrity, and availability via vectors related to SERVER:MyISAM.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-4274](https://github.com/Live-Hack-CVE/CVE-2014-4274) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-4274.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-4274.svg)
+
 ## CVE-2014-4243
  Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.5.35 and earlier and 5.6.15 and earlier allows remote authenticated users to affect availability via vectors related to ENFED.
 
@@ -584,6 +686,13 @@
 - [https://github.com/NHPT/WebLogic-SSRF_CVE-2014-4210](https://github.com/NHPT/WebLogic-SSRF_CVE-2014-4210) :  ![starts](https://img.shields.io/github/stars/NHPT/WebLogic-SSRF_CVE-2014-4210.svg) ![forks](https://img.shields.io/github/forks/NHPT/WebLogic-SSRF_CVE-2014-4210.svg)
 
 - [https://github.com/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC](https://github.com/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC) :  ![starts](https://img.shields.io/github/stars/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC.svg) ![forks](https://img.shields.io/github/forks/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC.svg)
+
+## CVE-2014-4207
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.5.37 and earlier allows remote authenticated users to affect availability via vectors related to SROPTZR.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-4207](https://github.com/Live-Hack-CVE/CVE-2014-4207) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-4207.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-4207.svg)
 
 ## CVE-2014-4140
  Microsoft Internet Explorer 8 through 11 allows remote attackers to bypass the ASLR protection mechanism via a crafted web site, aka &quot;Internet Explorer ASLR Bypass Vulnerability.&quot;
@@ -618,6 +727,13 @@
 
 
 - [https://github.com/fungoshacks/CVE-2014-4076](https://github.com/fungoshacks/CVE-2014-4076) :  ![starts](https://img.shields.io/github/stars/fungoshacks/CVE-2014-4076.svg) ![forks](https://img.shields.io/github/forks/fungoshacks/CVE-2014-4076.svg)
+
+## CVE-2014-4049
+ Heap-based buffer overflow in the php_parserr function in ext/standard/dns.c in PHP 5.6.0beta4 and earlier allows remote servers to cause a denial of service (crash) and possibly execute arbitrary code via a crafted DNS TXT record, related to the dns_get_record function.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-4049](https://github.com/Live-Hack-CVE/CVE-2014-4049) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-4049.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-4049.svg)
 
 ## CVE-2014-4014
  The capabilities implementation in the Linux kernel before 3.14.8 does not properly consider that namespaces are inapplicable to inodes, which allows local users to bypass intended chmod restrictions by first creating a user namespace, as demonstrated by setting the setgid bit on a file with group ownership of root.
@@ -664,6 +780,13 @@
 - [https://github.com/ilmila/springcss-cve-2014-3625](https://github.com/ilmila/springcss-cve-2014-3625) :  ![starts](https://img.shields.io/github/stars/ilmila/springcss-cve-2014-3625.svg) ![forks](https://img.shields.io/github/forks/ilmila/springcss-cve-2014-3625.svg)
 
 - [https://github.com/gforresu/SpringPathTraversal](https://github.com/gforresu/SpringPathTraversal) :  ![starts](https://img.shields.io/github/stars/gforresu/SpringPathTraversal.svg) ![forks](https://img.shields.io/github/forks/gforresu/SpringPathTraversal.svg)
+
+## CVE-2014-3581
+ The cache_merge_headers_out function in modules/cache/cache_util.c in the mod_cache module in the Apache HTTP Server before 2.4.11 allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via an empty HTTP Content-Type header.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-3581](https://github.com/Live-Hack-CVE/CVE-2014-3581) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3581.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3581.svg)
 
 ## CVE-2014-3566
  The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other products, uses nondeterministic CBC padding, which makes it easier for man-in-the-middle attackers to obtain cleartext data via a padding-oracle attack, aka the &quot;POODLE&quot; issue.
@@ -809,6 +932,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-2497](https://github.com/Live-Hack-CVE/CVE-2014-2497) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-2497.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-2497.svg)
 
+## CVE-2014-2494
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.5.37 and earlier allows remote authenticated users to affect availability via vectors related to ENARC.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-2494](https://github.com/Live-Hack-CVE/CVE-2014-2494) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-2494.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-2494.svg)
+
 ## CVE-2014-2438
  Unspecified vulnerability in Oracle MySQL Server 5.5.35 and earlier and 5.6.15 and earlier allows remote authenticated users to affect availability via unknown vectors related to Replication.
 
@@ -836,6 +966,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-2430](https://github.com/Live-Hack-CVE/CVE-2014-2430) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-2430.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-2430.svg)
+
+## CVE-2014-2419
+ Unspecified vulnerability in Oracle MySQL Server 5.5.35 and earlier and 5.6.15 and earlier allows remote authenticated users to affect availability via unknown vectors related to Partition.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-2419](https://github.com/Live-Hack-CVE/CVE-2014-2419) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-2419.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-2419.svg)
 
 ## CVE-2014-2324
  Multiple directory traversal vulnerabilities in (1) mod_evhost and (2) mod_simple_vhost in lighttpd before 1.4.35 allow remote attackers to read arbitrary files via a .. (dot dot) in the host name, related to request_check_hostname.
@@ -1093,6 +1230,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-0420](https://github.com/Live-Hack-CVE/CVE-2014-0420) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0420.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0420.svg)
 
+## CVE-2014-0412
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.72 and earlier, 5.5.34 and earlier, and 5.6.14 and earlier allows remote authenticated users to affect availability via unknown vectors related to InnoDB.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0412](https://github.com/Live-Hack-CVE/CVE-2014-0412) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0412.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0412.svg)
+
 ## CVE-2014-0401
  Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.72 and earlier, 5.5.34 and earlier, and 5.6.14 and earlier allows remote authenticated users to affect availability via unknown vectors.
 
@@ -1106,6 +1250,20 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-0393](https://github.com/Live-Hack-CVE/CVE-2014-0393) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0393.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0393.svg)
+
+## CVE-2014-0386
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.71 and earlier, 5.5.33 and earlier, and 5.6.13 and earlier allows remote authenticated users to affect availability via unknown vectors related to Optimizer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0386](https://github.com/Live-Hack-CVE/CVE-2014-0386) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0386.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0386.svg)
+
+## CVE-2014-0384
+ Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.5.35 and earlier and 5.6.15 and earlier allows remote authenticated users to affect availability via vectors related to XML.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0384](https://github.com/Live-Hack-CVE/CVE-2014-0384) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0384.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0384.svg)
 
 ## CVE-2014-0291
  ** RE
@@ -1121,6 +1279,13 @@
 
 - [https://github.com/Charmve/PyStegosploit](https://github.com/Charmve/PyStegosploit) :  ![starts](https://img.shields.io/github/stars/Charmve/PyStegosploit.svg) ![forks](https://img.shields.io/github/forks/Charmve/PyStegosploit.svg)
 
+## CVE-2014-0239
+ The internal DNS server in Samba 4.x before 4.0.18 does not check the QR field in the header section of an incoming DNS message before sending a response, which allows remote attackers to cause a denial of service (CPU and bandwidth consumption) via a forged response packet that triggers a communication loop, a related issue to CVE-1999-0103.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0239](https://github.com/Live-Hack-CVE/CVE-2014-0239) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0239.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0239.svg)
+
 ## CVE-2014-0238
  The cdf_read_property_info function in cdf.c in the Fileinfo component in PHP before 5.4.29 and 5.5.x before 5.5.13 allows remote attackers to cause a denial of service (infinite loop or out-of-bounds memory access) via a vector that (1) has zero length or (2) is too long.
 
@@ -1133,9 +1298,9 @@
 
 
 
-- [https://github.com/Live-Hack-CVE/CVE-2014-0226](https://github.com/Live-Hack-CVE/CVE-2014-0226) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0226.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0226.svg)
-
 - [https://github.com/shreesh1/CVE-2014-0226-poc](https://github.com/shreesh1/CVE-2014-0226-poc) :  ![starts](https://img.shields.io/github/stars/shreesh1/CVE-2014-0226-poc.svg) ![forks](https://img.shields.io/github/forks/shreesh1/CVE-2014-0226-poc.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0226](https://github.com/Live-Hack-CVE/CVE-2014-0226) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0226.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0226.svg)
 
 ## CVE-2014-0224
  OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not properly restrict processing of ChangeCipherSpec messages, which allows man-in-the-middle attackers to trigger use of a zero-length master key in certain OpenSSL-to-OpenSSL communications, and consequently hijack sessions or obtain sensitive information, via a crafted TLS handshake, aka the &quot;CCS Injection&quot; vulnerability.
@@ -1154,12 +1319,26 @@
 
 - [https://github.com/droptables/ccs-eval](https://github.com/droptables/ccs-eval) :  ![starts](https://img.shields.io/github/stars/droptables/ccs-eval.svg) ![forks](https://img.shields.io/github/forks/droptables/ccs-eval.svg)
 
+## CVE-2014-0221
+ The dtls1_get_message_fragment function in d1_both.c in OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h allows remote attackers to cause a denial of service (recursion and client crash) via a DTLS hello message in an invalid DTLS handshake.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0221](https://github.com/Live-Hack-CVE/CVE-2014-0221) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0221.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0221.svg)
+
 ## CVE-2014-0207
  The cdf_read_short_sector function in cdf.c in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, allows remote attackers to cause a denial of service (assertion failure and application exit) via a crafted CDF file.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-0207](https://github.com/Live-Hack-CVE/CVE-2014-0207) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0207.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0207.svg)
+
+## CVE-2014-0198
+ The do_ssl3_write function in s3_pkt.c in OpenSSL 1.x through 1.0.1g, when SSL_MODE_RELEASE_BUFFERS is enabled, does not properly manage a buffer pointer during certain recursive calls, which allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via vectors that trigger an alert condition.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0198](https://github.com/Live-Hack-CVE/CVE-2014-0198) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0198.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0198.svg)
 
 ## CVE-2014-0196
  The n_tty_write function in drivers/tty/n_tty.c in the Linux kernel through 3.14.3 does not properly manage tty driver access in the &quot;LECHO &amp; !OPOST&quot; case, which allows local users to cause a denial of service (memory corruption and system crash) or gain privileges by triggering a race condition involving read and write operations with long strings.
@@ -1178,6 +1357,13 @@
 
 
 - [https://github.com/ricedu/CVE-2014-0195](https://github.com/ricedu/CVE-2014-0195) :  ![starts](https://img.shields.io/github/stars/ricedu/CVE-2014-0195.svg) ![forks](https://img.shields.io/github/forks/ricedu/CVE-2014-0195.svg)
+
+## CVE-2014-0178
+ Samba 3.6.6 through 3.6.23, 4.0.x before 4.0.18, and 4.1.x before 4.1.8, when a certain vfs shadow copy configuration is enabled, does not properly initialize the SRV_SNAPSHOT_ARRAY response field, which allows remote authenticated users to obtain potentially sensitive information from process memory via a (1) FSCTL_GET_SHADOW_COPY_DATA or (2) FSCTL_SRV_ENUMERATE_SNAPSHOTS request.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-0178](https://github.com/Live-Hack-CVE/CVE-2014-0178) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0178.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0178.svg)
 
 ## CVE-2014-0166
  The wp_validate_auth_cookie function in wp-includes/pluggable.php in WordPress before 3.7.2 and 3.8.x before 3.8.2 does not properly determine the validity of authentication cookies, which makes it easier for remote attackers to obtain access via a forged cookie.
@@ -1251,9 +1437,9 @@
 
 - [https://github.com/sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix) :  ![starts](https://img.shields.io/github/stars/sammyfung/openssl-heartbleed-fix.svg) ![forks](https://img.shields.io/github/forks/sammyfung/openssl-heartbleed-fix.svg)
 
-- [https://github.com/proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention) :  ![starts](https://img.shields.io/github/stars/proactiveRISK/heartbleed-extention.svg) ![forks](https://img.shields.io/github/forks/proactiveRISK/heartbleed-extention.svg)
-
 - [https://github.com/amerine/coronary](https://github.com/amerine/coronary) :  ![starts](https://img.shields.io/github/stars/amerine/coronary.svg) ![forks](https://img.shields.io/github/forks/amerine/coronary.svg)
+
+- [https://github.com/proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention) :  ![starts](https://img.shields.io/github/stars/proactiveRISK/heartbleed-extention.svg) ![forks](https://img.shields.io/github/forks/proactiveRISK/heartbleed-extention.svg)
 
 - [https://github.com/xlucas/heartbleed](https://github.com/xlucas/heartbleed) :  ![starts](https://img.shields.io/github/stars/xlucas/heartbleed.svg) ![forks](https://img.shields.io/github/forks/xlucas/heartbleed.svg)
 
@@ -1269,11 +1455,11 @@
 
 - [https://github.com/ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/ice-security88/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/ice-security88/CVE-2014-0160.svg)
 
+- [https://github.com/obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner) :  ![starts](https://img.shields.io/github/stars/obayesshelton/CVE-2014-0160-Scanner.svg) ![forks](https://img.shields.io/github/forks/obayesshelton/CVE-2014-0160-Scanner.svg)
+
 - [https://github.com/fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/fb1h2s/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/fb1h2s/CVE-2014-0160.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-0160](https://github.com/Live-Hack-CVE/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0160.svg)
-
-- [https://github.com/obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner) :  ![starts](https://img.shields.io/github/stars/obayesshelton/CVE-2014-0160-Scanner.svg) ![forks](https://img.shields.io/github/forks/obayesshelton/CVE-2014-0160-Scanner.svg)
 
 - [https://github.com/k4u5h41/CVE-2014-0160_Heartbleed](https://github.com/k4u5h41/CVE-2014-0160_Heartbleed) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2014-0160_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2014-0160_Heartbleed.svg)
 
@@ -1305,9 +1491,9 @@
 
 - [https://github.com/ThanHuuTuan/Heartexploit](https://github.com/ThanHuuTuan/Heartexploit) :  ![starts](https://img.shields.io/github/stars/ThanHuuTuan/Heartexploit.svg) ![forks](https://img.shields.io/github/forks/ThanHuuTuan/Heartexploit.svg)
 
-- [https://github.com/PinkP4nther/Heartbleed_PoC](https://github.com/PinkP4nther/Heartbleed_PoC) :  ![starts](https://img.shields.io/github/stars/PinkP4nther/Heartbleed_PoC.svg) ![forks](https://img.shields.io/github/forks/PinkP4nther/Heartbleed_PoC.svg)
-
 - [https://github.com/pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart) :  ![starts](https://img.shields.io/github/stars/pierceoneill/bleeding-heart.svg) ![forks](https://img.shields.io/github/forks/pierceoneill/bleeding-heart.svg)
+
+- [https://github.com/PinkP4nther/Heartbleed_PoC](https://github.com/PinkP4nther/Heartbleed_PoC) :  ![starts](https://img.shields.io/github/stars/PinkP4nther/Heartbleed_PoC.svg) ![forks](https://img.shields.io/github/forks/PinkP4nther/Heartbleed_PoC.svg)
 
 - [https://github.com/xanas/heartbleed.py](https://github.com/xanas/heartbleed.py) :  ![starts](https://img.shields.io/github/stars/xanas/heartbleed.py.svg) ![forks](https://img.shields.io/github/forks/xanas/heartbleed.py.svg)
 
