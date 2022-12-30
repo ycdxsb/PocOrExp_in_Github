@@ -1,3 +1,10 @@
+## CVE-2000-1220
+ The line printer daemon (lpd) in the lpr package in multiple Linux operating systems allows local users to gain root privileges by causing sendmail to execute with arbitrary command line arguments, as demonstrated using the -C option to specify a configuration file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2001-1583](https://github.com/Live-Hack-CVE/CVE-2001-1583) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2001-1583.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2001-1583.svg)
+
 ## CVE-2000-0979
  File and Print Sharing service in Windows 95, Windows 98, and Windows Me does not properly check the password for a file share, which allows remote attackers to bypass share access controls by sending a 1-byte password that matches the first character of the real password, aka the &quot;Share Level Password&quot; vulnerability.
 
