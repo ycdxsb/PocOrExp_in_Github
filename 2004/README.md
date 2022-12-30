@@ -58,9 +58,51 @@
 
 - [https://github.com/darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/darrynb89/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/darrynb89/CVE-2004-1561.svg)
 
+## CVE-2004-0809
+ The mod_dav module in Apache 2.0.50 and earlier allows remote attackers to cause a denial of service (child process crash) via a certain sequence of LOCK requests for a location that allows WebDAV authoring access.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2004-0809](https://github.com/Live-Hack-CVE/CVE-2004-0809) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2004-0809.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2004-0809.svg)
+
+## CVE-2004-0786
+ The IPv6 URI parsing routines in the apr-util library for Apache 2.0.50 and earlier allow remote attackers to cause a denial of service (child process crash) via a certain URI, as demonstrated using the Codenomicon HTTP Test Tool.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2004-0786](https://github.com/Live-Hack-CVE/CVE-2004-0786) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2004-0786.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2004-0786.svg)
+
+## CVE-2004-0751
+ The char_buffer_read function in the mod_ssl module for Apache 2.x, when using reverse proxying to an SSL server, allows remote attackers to cause a denial of service (segmentation fault).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2004-0751](https://github.com/Live-Hack-CVE/CVE-2004-0751) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2004-0751.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2004-0751.svg)
+
+## CVE-2004-0748
+ mod_ssl in Apache 2.0.50 and earlier allows remote attackers to cause a denial of service (CPU consumption) by aborting an SSL connection in a way that causes an Apache child process to enter an infinite loop.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2004-0748](https://github.com/Live-Hack-CVE/CVE-2004-0748) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2004-0748.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2004-0748.svg)
+
+## CVE-2004-0747
+ Buffer overflow in Apache 2.0.50 and earlier allows local users to gain apache privileges via a .htaccess file that causes the overflow during expansion of environment variables.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2004-0747](https://github.com/Live-Hack-CVE/CVE-2004-0747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2004-0747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2004-0747.svg)
+
 ## CVE-2004-0558
  The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows remote attackers to cause a denial of service (service hang) via a certain UDP packet to the IPP port.
 
 
 
 - [https://github.com/fibonascii/CVE-2004-0558](https://github.com/fibonascii/CVE-2004-0558) :  ![starts](https://img.shields.io/github/stars/fibonascii/CVE-2004-0558.svg) ![forks](https://img.shields.io/github/forks/fibonascii/CVE-2004-0558.svg)
+
+## CVE-2004-0488
+ Stack-based buffer overflow in the ssl_util_uuencode_binary function in ssl_util.c for Apache mod_ssl, when mod_ssl is configured to trust the issuing CA, may allow remote attackers to execute arbitrary code via a client certificate with a long subject DN.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2004-0488](https://github.com/Live-Hack-CVE/CVE-2004-0488) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2004-0488.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2004-0488.svg)
