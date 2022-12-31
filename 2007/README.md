@@ -47,6 +47,13 @@
 
 - [https://github.com/joeyrideout/CVE-2007-4607](https://github.com/joeyrideout/CVE-2007-4607) :  ![starts](https://img.shields.io/github/stars/joeyrideout/CVE-2007-4607.svg) ![forks](https://img.shields.io/github/forks/joeyrideout/CVE-2007-4607.svg)
 
+## CVE-2007-4560
+ clamav-milter in ClamAV before 0.91.2, when run in black hole mode, allows remote attackers to execute arbitrary commands via shell metacharacters that are used in a certain popen call, involving the &quot;recipient field of sendmail.&quot;
+
+
+
+- [https://github.com/0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution](https://github.com/0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution.svg)
+
 ## CVE-2007-4559
  Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.
 
@@ -113,9 +120,9 @@
 
 - [https://github.com/3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/3x1t1um/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/3x1t1um/CVE-2007-2447.svg)
 
-- [https://github.com/Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Alien0ne/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Alien0ne/CVE-2007-2447.svg)
-
 - [https://github.com/k4u5h41/CVE-2007-2447](https://github.com/k4u5h41/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2007-2447.svg)
+
+- [https://github.com/Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Alien0ne/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Alien0ne/CVE-2007-2447.svg)
 
 - [https://github.com/Nosferatuvjr/Samba-Usermap-exploit](https://github.com/Nosferatuvjr/Samba-Usermap-exploit) :  ![starts](https://img.shields.io/github/stars/Nosferatuvjr/Samba-Usermap-exploit.svg) ![forks](https://img.shields.io/github/forks/Nosferatuvjr/Samba-Usermap-exploit.svg)
 
