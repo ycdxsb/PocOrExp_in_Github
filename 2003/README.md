@@ -19,6 +19,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2003-0789](https://github.com/Live-Hack-CVE/CVE-2003-0789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2003-0789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2003-0789.svg)
 
+## CVE-2003-0769
+ Cross-site scripting (XSS) vulnerability in the ICQ Web Front guestbook (guestbook.html) allows remote attackers to insert arbitrary web script and HTML via the message field.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2003-0769](https://github.com/Live-Hack-CVE/CVE-2003-0769) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2003-0769.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2003-0769.svg)
+
+## CVE-2003-0658
+ Docview before 1.1-18 in Caldera OpenLinux 3.1.1, SCO Linux 4.0, OpenServer 5.0.7, configures the Apache web server in a way that allows remote attackers to read arbitrary publicly readable files via a certain URL, possibly related to rewrite rules.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2003-0658](https://github.com/Live-Hack-CVE/CVE-2003-0658) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2003-0658.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2003-0658.svg)
+
 ## CVE-2003-0358
  Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.
 
@@ -44,9 +58,9 @@
 
 - [https://github.com/war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2003-0264.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2003-0264.svg)
 
-- [https://github.com/adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2003-0264.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2003-0264.svg)
-
 - [https://github.com/SxNade/CVE-2003-0264_EXPLOIT](https://github.com/SxNade/CVE-2003-0264_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/SxNade/CVE-2003-0264_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/SxNade/CVE-2003-0264_EXPLOIT.svg)
+
+- [https://github.com/adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2003-0264.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2003-0264.svg)
 
 - [https://github.com/pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5) :  ![starts](https://img.shields.io/github/stars/pwncone/CVE-2003-0264-SLmail-5.5.svg) ![forks](https://img.shields.io/github/forks/pwncone/CVE-2003-0264-SLmail-5.5.svg)
 
