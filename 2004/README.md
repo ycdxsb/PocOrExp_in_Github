@@ -93,6 +93,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2004-0747](https://github.com/Live-Hack-CVE/CVE-2004-0747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2004-0747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2004-0747.svg)
 
+## CVE-2004-0686
+ Buffer overflow in Samba 2.2.x to 2.2.9, and 3.0.0 to 3.0.4, when the &quot;mangling method = hash&quot; option is enabled in smb.conf, has unknown impact and attack vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2004-0686](https://github.com/Live-Hack-CVE/CVE-2004-0686) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2004-0686.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2004-0686.svg)
+
+## CVE-2004-0589
+ Cisco IOS 11.1(x) through 11.3(x) and 12.0(x) through 12.2(x), when configured for BGP routing, allows remote attackers to cause a denial of service (device reload) via malformed BGP (1) OPEN or (2) UPDATE messages.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2004-0589](https://github.com/Live-Hack-CVE/CVE-2004-0589) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2004-0589.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2004-0589.svg)
+
 ## CVE-2004-0558
  The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows remote attackers to cause a denial of service (service hang) via a certain UDP packet to the IPP port.
 
