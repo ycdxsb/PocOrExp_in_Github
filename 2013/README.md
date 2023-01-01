@@ -5,6 +5,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-20004](https://github.com/Live-Hack-CVE/CVE-2013-20004) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-20004.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-20004.svg)
 
+## CVE-2013-10006
+ A vulnerability classified as problematic was found in Ziftr primecoin up to 0.8.4rc1. Affected by this vulnerability is the function HTTPAuthorized of the file src/bitcoinrpc.cpp. The manipulation of the argument strUserPass/strRPCUserColonPass leads to observable timing discrepancy. Upgrading to version 0.8.4rc2 is able to address this issue. The name of the patch is cdb3441b5cd2c1bae49fae671dc4a496f7c96322. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-217171.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-10006](https://github.com/Live-Hack-CVE/CVE-2013-10006) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-10006.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-10006.svg)
+
 ## CVE-2013-7488
  perl-Convert-ASN1 (aka the Convert::ASN1 module for Perl) through 0.27 allows remote attackers to cause an infinite loop via unexpected input.
 
