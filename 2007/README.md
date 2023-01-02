@@ -47,13 +47,6 @@
 
 - [https://github.com/joeyrideout/CVE-2007-4607](https://github.com/joeyrideout/CVE-2007-4607) :  ![starts](https://img.shields.io/github/stars/joeyrideout/CVE-2007-4607.svg) ![forks](https://img.shields.io/github/forks/joeyrideout/CVE-2007-4607.svg)
 
-## CVE-2007-4560
- clamav-milter in ClamAV before 0.91.2, when run in black hole mode, allows remote attackers to execute arbitrary commands via shell metacharacters that are used in a certain popen call, involving the &quot;recipient field of sendmail.&quot;
-
-
-
-- [https://github.com/0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution](https://github.com/0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution.svg)
-
 ## CVE-2007-4559
  Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.
 
