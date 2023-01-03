@@ -1,3 +1,17 @@
+## CVE-2012-10003
+ A vulnerability, which was classified as problematic, has been found in ahmyi RivetTracker. This issue affects some unknown processing. The manipulation of the argument $_SERVER['PHP_SELF'] leads to cross site scripting. The attack may be initiated remotely. The name of the patch is f053c5cc2bc44269b0496b5f275e349928a92ef9. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217271.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-10003](https://github.com/Live-Hack-CVE/CVE-2012-10003) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-10003.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-10003.svg)
+
+## CVE-2012-10002
+ A vulnerability was found in ahmyi RivetTracker. It has been declared as problematic. Affected by this vulnerability is the function changeColor of the file css.php. The manipulation of the argument set_css leads to cross site scripting. The attack can be launched remotely. The name of the patch is 45a0f33876d58cb7e4a0f17da149e58fc893b858. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217267.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-10002](https://github.com/Live-Hack-CVE/CVE-2012-10002) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-10002.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-10002.svg)
+
 ## CVE-2012-6712
  In the Linux kernel before 3.4, a buffer overflow occurs in drivers/net/wireless/iwlwifi/iwl-agn-sta.c, which will cause at least memory corruption.
 
@@ -150,9 +164,9 @@
 
 - [https://github.com/benjholla/CVE-2012-4681-Armoring](https://github.com/benjholla/CVE-2012-4681-Armoring) :  ![starts](https://img.shields.io/github/stars/benjholla/CVE-2012-4681-Armoring.svg) ![forks](https://img.shields.io/github/forks/benjholla/CVE-2012-4681-Armoring.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2012-4681](https://github.com/Live-Hack-CVE/CVE-2012-4681) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4681.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4681.svg)
-
 - [https://github.com/ZH3FENG/PoCs-CVE_2012_4681](https://github.com/ZH3FENG/PoCs-CVE_2012_4681) :  ![starts](https://img.shields.io/github/stars/ZH3FENG/PoCs-CVE_2012_4681.svg) ![forks](https://img.shields.io/github/forks/ZH3FENG/PoCs-CVE_2012_4681.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-4681](https://github.com/Live-Hack-CVE/CVE-2012-4681) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4681.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4681.svg)
 
 ## CVE-2012-4431
  org/apache/catalina/filters/CsrfPreventionFilter.java in Apache Tomcat 6.x before 6.0.36 and 7.x before 7.0.32 allows remote attackers to bypass the cross-site request forgery (CSRF) protection mechanism via a request that lacks a session identifier.
