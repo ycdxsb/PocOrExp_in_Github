@@ -5,6 +5,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-20004](https://github.com/Live-Hack-CVE/CVE-2013-20004) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-20004.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-20004.svg)
 
+## CVE-2013-10007
+ A vulnerability classified as problematic has been found in ethitter WP-Print-Friendly up to 0.5.2. This affects an unknown part of the file wp-print-friendly.php. The manipulation leads to information disclosure. It is possible to initiate the attack remotely. Upgrading to version 0.5.3 is able to address this issue. The name of the patch is 437787292670c20b4abe20160ebbe8428187f2b4. It is recommended to upgrade the affected component. The identifier VDB-217269 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-10007](https://github.com/Live-Hack-CVE/CVE-2013-10007) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-10007.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-10007.svg)
+
 ## CVE-2013-10006
  A vulnerability classified as problematic was found in Ziftr primecoin up to 0.8.4rc1. Affected by this vulnerability is the function HTTPAuthorized of the file src/bitcoinrpc.cpp. The manipulation of the argument strUserPass/strRPCUserColonPass leads to observable timing discrepancy. Upgrading to version 0.8.4rc2 is able to address this issue. The name of the patch is cdb3441b5cd2c1bae49fae671dc4a496f7c96322. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-217171.
 
