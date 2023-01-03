@@ -5,6 +5,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10012
+ ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability was found in sumocoders FrameworkUserBundle up to 1.3.x. It has been rated as problematic. Affected by this issue is some unknown functionality of the file Resources/views/Security/login.html.twig. The manipulation leads to information exposure through error message. Upgrading to version 1.4.0 is able to address this issue. The name of the patch is abe4993390ba9bd7821ab12678270556645f94c8. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-217268. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10012](https://github.com/Live-Hack-CVE/CVE-2015-10012) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10012.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10012.svg)
+
+## CVE-2015-10011
+ A vulnerability classified as problematic has been found in OpenDNS OpenResolve. This affects an unknown part of the file resolverapi/endpoints.py. The manipulation leads to improper output neutralization for logs. The name of the patch is 9eba6ba5abd89d0e36a008921eb307fcef8c5311. It is recommended to apply a patch to fix this issue. The identifier VDB-217197 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10011](https://github.com/Live-Hack-CVE/CVE-2015-10011) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10011.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10011.svg)
+
 ## CVE-2015-10009
  A vulnerability was found in nterchange up to 4.1.0. It has been rated as critical. This issue affects the function getContent of the file app/controllers/code_caller_controller.php. The manipulation of the argument q with the input %5C%27%29;phpinfo%28%29;/* leads to code injection. The exploit has been disclosed to the public and may be used. Upgrading to version 4.1.1 is able to address this issue. The name of the patch is fba7d89176fba8fe289edd58835fe45080797d99. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-217187.
 
@@ -320,6 +334,8 @@
 
 
 - [https://github.com/dix0nym/CVE-2015-6967](https://github.com/dix0nym/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/dix0nym/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/dix0nym/CVE-2015-6967.svg)
+
+- [https://github.com/hadrian3689/nibbleblog_4.0.3](https://github.com/hadrian3689/nibbleblog_4.0.3) :  ![starts](https://img.shields.io/github/stars/hadrian3689/nibbleblog_4.0.3.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/nibbleblog_4.0.3.svg)
 
 - [https://github.com/0xkasra/CVE-2015-6967](https://github.com/0xkasra/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2015-6967.svg)
 
