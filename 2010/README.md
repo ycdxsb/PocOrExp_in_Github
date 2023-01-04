@@ -1,3 +1,10 @@
+## CVE-2010-10003
+ A vulnerability classified as critical was found in gesellix titlelink. Affected by this vulnerability is an unknown functionality of the file plugin_content_title.php. The manipulation of the argument phrase leads to sql injection. The name of the patch is b4604e523853965fa981a4e79aef4b554a535db0. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217351.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-10003](https://github.com/Live-Hack-CVE/CVE-2010-10003) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-10003.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-10003.svg)
+
 ## CVE-2010-10002
  ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability classified as problematic has been found in SimpleSAMLphp simplesamlphp-module-openid. Affected is an unknown function of the file templates/consumer.php of the component OpenID Handler. The manipulation of the argument AuthState leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 1.0 is able to address this issue. The name of the patch is d652d41ccaf8c45d5707e741c0c5d82a2365a9a3. It is recommended to upgrade the affected component. VDB-217170 is the identifier assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
 
