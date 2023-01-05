@@ -67,6 +67,8 @@
 
 - [https://github.com/0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/0xtz/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/0xtz/CVE-2006-3392.svg)
 
+- [https://github.com/g1vi/CVE-2006-3392](https://github.com/g1vi/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/g1vi/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/g1vi/CVE-2006-3392.svg)
+
 - [https://github.com/Adel-kaka-dz/CVE-2006-3392](https://github.com/Adel-kaka-dz/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/Adel-kaka-dz/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/Adel-kaka-dz/CVE-2006-3392.svg)
 
 - [https://github.com/kernel-cyber/CVE-2006-3392](https://github.com/kernel-cyber/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/kernel-cyber/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/kernel-cyber/CVE-2006-3392.svg)
