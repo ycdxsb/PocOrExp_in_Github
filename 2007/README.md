@@ -5,6 +5,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2007-20001](https://github.com/Live-Hack-CVE/CVE-2007-20001) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-20001.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-20001.svg)
 
+## CVE-2007-10001
+ A vulnerability classified as problematic has been found in web-cyradm. This affects an unknown part of the file search.php. The manipulation of the argument searchstring leads to sql injection. It is recommended to apply a patch to fix this issue. The identifier VDB-217449 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2007-10001](https://github.com/Live-Hack-CVE/CVE-2007-10001) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-10001.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-10001.svg)
+
 ## CVE-2007-6755
  The NIST SP 800-90A default statement of the Dual Elliptic Curve Deterministic Random Bit Generation (Dual_EC_DRBG) algorithm contains point Q constants with a possible relationship to certain &quot;skeleton key&quot; values, which might allow context-dependent attackers to defeat cryptographic protection mechanisms by leveraging knowledge of those values.  NOTE: this is a preliminary CVE for Dual_EC_DRBG; future research may provide additional details about point Q and associated attacks, and could potentially lead to a RECAST or REJECT of this CVE.
 
@@ -121,9 +128,9 @@
 
 - [https://github.com/mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/mr-l0n3lly/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/mr-l0n3lly/CVE-2007-2447.svg)
 
-- [https://github.com/cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/cherrera0001/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/cherrera0001/CVE-2007-2447.svg)
-
 - [https://github.com/xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xlcc4096/exploit-CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xlcc4096/exploit-CVE-2007-2447.svg)
+
+- [https://github.com/cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/cherrera0001/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/cherrera0001/CVE-2007-2447.svg)
 
 - [https://github.com/0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xKn/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xKn/CVE-2007-2447.svg)
 
