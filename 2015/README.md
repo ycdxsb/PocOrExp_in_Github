@@ -5,6 +5,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10014
+ A vulnerability classified as critical has been found in arekk uke. This affects an unknown part of the file lib/uke/finder.rb. The manipulation leads to sql injection. The name of the patch is 52fd3b2d0bc16227ef57b7b98a3658bb67c1833f. It is recommended to apply a patch to fix this issue. The identifier VDB-217485 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10014](https://github.com/Live-Hack-CVE/CVE-2015-10014) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10014.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10014.svg)
+
+## CVE-2015-10013
+ A vulnerability was found in WebDevStudios taxonomy-switcher Plugin up to 1.0.3. It has been classified as problematic. Affected is the function taxonomy_switcher_init of the file taxonomy-switcher.php. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 1.0.4 is able to address this issue. It is recommended to upgrade the affected component. VDB-217446 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10013](https://github.com/Live-Hack-CVE/CVE-2015-10013) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10013.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10013.svg)
+
 ## CVE-2015-10012
  ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability was found in sumocoders FrameworkUserBundle up to 1.3.x. It has been rated as problematic. Affected by this issue is some unknown functionality of the file Resources/views/Security/login.html.twig. The manipulation leads to information exposure through error message. Upgrading to version 1.4.0 is able to address this issue. The name of the patch is abe4993390ba9bd7821ab12678270556645f94c8. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-217268. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
 
