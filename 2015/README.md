@@ -5,6 +5,27 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10018
+ A vulnerability has been found in DBRisinajumi d2files and classified as critical. Affected by this vulnerability is the function actionUpload/actionDownloadFile of the file controllers/D2filesController.php. The manipulation leads to sql injection. Upgrading to version 1.0.0 is able to address this issue. The name of the patch is b5767f2ec9d0f3cbfda7f13c84740e2179c90574. It is recommended to upgrade the affected component. The identifier VDB-217561 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10018](https://github.com/Live-Hack-CVE/CVE-2015-10018) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10018.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10018.svg)
+
+## CVE-2015-10017
+ A vulnerability has been found in HPI-Information-Systems ProLOD and classified as critical. This vulnerability affects unknown code. The manipulation of the argument this leads to sql injection. The name of the patch is 3f710905458d49c77530bd3cbcd8960457566b73. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217552.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10017](https://github.com/Live-Hack-CVE/CVE-2015-10017) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10017.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10017.svg)
+
+## CVE-2015-10016
+ A vulnerability, which was classified as critical, has been found in jeff-kelley opensim-utils. Affected by this issue is the function DatabaseForRegion of the file regionscrits.php. The manipulation of the argument region leads to sql injection. The name of the patch is c29e5c729a833a29dbf5b1e505a0553fe154575e. It is recommended to apply a patch to fix this issue. VDB-217550 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10016](https://github.com/Live-Hack-CVE/CVE-2015-10016) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10016.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10016.svg)
+
 ## CVE-2015-10014
  A vulnerability classified as critical has been found in arekk uke. This affects an unknown part of the file lib/uke/finder.rb. The manipulation leads to sql injection. The name of the patch is 52fd3b2d0bc16227ef57b7b98a3658bb67c1833f. It is recommended to apply a patch to fix this issue. The identifier VDB-217485 was assigned to this vulnerability.
 
@@ -537,6 +558,13 @@
 - [https://github.com/j-jasson/CVE-2015-5531-POC](https://github.com/j-jasson/CVE-2015-5531-POC) :  ![starts](https://img.shields.io/github/stars/j-jasson/CVE-2015-5531-POC.svg) ![forks](https://img.shields.io/github/forks/j-jasson/CVE-2015-5531-POC.svg)
 
 - [https://github.com/xpgdgit/CVE-2015-5531](https://github.com/xpgdgit/CVE-2015-5531) :  ![starts](https://img.shields.io/github/stars/xpgdgit/CVE-2015-5531.svg) ![forks](https://img.shields.io/github/forks/xpgdgit/CVE-2015-5531.svg)
+
+## CVE-2015-5521
+ Cross-site scripting (XSS) vulnerability in BlackCat CMS 1.1.2 allows remote attackers to inject arbitrary web script or HTML via the name in a new group to backend/groups/index.php.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5521](https://github.com/Live-Hack-CVE/CVE-2015-5521) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5521.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5521.svg)
 
 ## CVE-2015-5477
  named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote attackers to cause a denial of service (REQUIRE assertion failure and daemon exit) via TKEY queries.
@@ -1300,9 +1328,9 @@
 
 - [https://github.com/u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS) :  ![starts](https://img.shields.io/github/stars/u0pattern/Remove-IIS-RIIS.svg) ![forks](https://img.shields.io/github/forks/u0pattern/Remove-IIS-RIIS.svg)
 
-- [https://github.com/w01ke/CVE-2015-1635-POC](https://github.com/w01ke/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/w01ke/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/w01ke/CVE-2015-1635-POC.svg)
-
 - [https://github.com/k4u5h41/CVE-2015-1635-POC](https://github.com/k4u5h41/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2015-1635-POC.svg)
+
+- [https://github.com/w01ke/CVE-2015-1635-POC](https://github.com/w01ke/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/w01ke/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/w01ke/CVE-2015-1635-POC.svg)
 
 - [https://github.com/k4u5h41/CVE-2015-1635](https://github.com/k4u5h41/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2015-1635.svg)
 
