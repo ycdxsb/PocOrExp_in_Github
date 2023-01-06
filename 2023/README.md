@@ -1,3 +1,10 @@
+## CVE-2023-22626
+ PgHero before 3.1.0 allows Information Disclosure via EXPLAIN because query results may be present in an error message. (Depending on database user privileges, this may only be information from the database, or may be information from file contents on the database server.)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22626](https://github.com/Live-Hack-CVE/CVE-2023-22626) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22626.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22626.svg)
+
 ## CVE-2023-22551
  The FTP (aka &quot;Implementation of a simple FTP client and server&quot;) project through 96c1a35 allows remote attackers to cause a denial of service (memory consumption) by engaging in client activity, such as establishing and then terminating a connection. This occurs because malloc is used but free is not.
 
@@ -33,6 +40,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-22456](https://github.com/Live-Hack-CVE/CVE-2023-22456) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22456.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22456.svg)
 
+## CVE-2023-22454
+ Discourse is an option source discussion platform. Prior to version 2.8.14 on the `stable` branch and version 3.0.0.beta16 on the `beta` and `tests-passed` branches, pending post titles can be used for cross-site scripting attacks. Pending posts can be created by unprivileged users when a category has the &quot;require moderator approval of all new topics&quot; setting set. This vulnerability can lead to a full XSS on sites which have modified or disabled Discourse&#8217;s default Content Security Policy. A patch is available in versions 2.8.14 and 3.0.0.beta16.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22454](https://github.com/Live-Hack-CVE/CVE-2023-22454) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22454.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22454.svg)
+
+## CVE-2023-22453
+ Discourse is an option source discussion platform. Prior to version 2.8.14 on the `stable` branch and version 3.0.0.beta16 on the `beta` and `tests-passed` branches, the number of times a user posted in an arbitrary topic is exposed to unauthorized users through the `/u/username.json` endpoint. The issue is patched in version 2.8.14 and 3.0.0.beta16. There is no known workaround.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22453](https://github.com/Live-Hack-CVE/CVE-2023-22453) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22453.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22453.svg)
+
 ## CVE-2023-22452
  kenny2automate is a Discord bot. In the web interface for server settings, form elements were generated with Discord channel IDs as part of input names. Prior to commit a947d7c, no validation was performed to ensure that the channel IDs submitted actually belonged to the server being configured. Thus anyone who has access to the channel ID they wish to change settings for and the server settings panel for any server could change settings for the requested channel no matter which server it belonged to. Commit a947d7c resolves the issue and has been deployed to the official instance of the bot. The only workaround that exists is to disable the web config entirely by changing it to run on localhost. Note that a workaround is only necessary for those who run their own instance of the bot.
 
@@ -46,6 +67,34 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-22451](https://github.com/Live-Hack-CVE/CVE-2023-22451) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22451.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22451.svg)
+
+## CVE-2023-0088
+ The Swifty Page Manager plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 3.0.1. This is due to missing or incorrect nonce validation on several AJAX actions handling page creation and deletion among other things. This makes it possible for unauthenticated attackers to invoke those functions, via forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0088](https://github.com/Live-Hack-CVE/CVE-2023-0088) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0088.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0088.svg)
+
+## CVE-2023-0087
+ The Swifty Page Manager plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the &#8216;spm_plugin_options_page_tree_max_width&#8217; parameter in versions up to, and including, 3.0.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0087](https://github.com/Live-Hack-CVE/CVE-2023-0087) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0087.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0087.svg)
+
+## CVE-2023-0086
+ The JetWidgets for Elementor plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 1.0.12. This is due to missing nonce validation on the save() function. This makes it possible for unauthenticated attackers to to modify the plugin's settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. This can be used to enable SVG uploads that could make Cross-Site Scripting possible.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0086](https://github.com/Live-Hack-CVE/CVE-2023-0086) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0086.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0086.svg)
+
+## CVE-2023-0077
+ Integer overflow or wraparound vulnerability in CGI component in Synology Router Manager (SRM) before 1.2.5-8227-6 and 1.3.1-9346-3 allows remote attackers to overflow buffers via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0077](https://github.com/Live-Hack-CVE/CVE-2023-0077) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0077.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0077.svg)
 
 ## CVE-2023-0055
  Sensitive Cookie in HTTPS Session Without 'Secure' Attribute in GitHub repository pyload/pyload prior to 0.5.0b3.dev32.
