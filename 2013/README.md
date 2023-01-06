@@ -19,6 +19,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-10006](https://github.com/Live-Hack-CVE/CVE-2013-10006) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-10006.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-10006.svg)
 
+## CVE-2013-10005
+ The RemoteAddr and LocalAddr methods on the returned net.Conn may call themselves, leading to an infinite loop which will crash the program due to a stack overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-10005](https://github.com/Live-Hack-CVE/CVE-2013-10005) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-10005.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-10005.svg)
+
 ## CVE-2013-7488
  perl-Convert-ASN1 (aka the Convert::ASN1 module for Perl) through 0.27 allows remote attackers to cause an infinite loop via unexpected input.
 
