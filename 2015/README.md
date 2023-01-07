@@ -5,6 +5,62 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10027
+ A vulnerability, which was classified as problematic, has been found in hydrian TTRSS-Auth-LDAP. Affected by this issue is some unknown functionality of the component Username Handler. The manipulation leads to ldap injection. Upgrading to version 2.0b1 is able to address this issue. The name of the patch is a7f7a5a82d9202a5c40d606a5c519ba61b224eb8. It is recommended to upgrade the affected component. VDB-217622 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10027](https://github.com/Live-Hack-CVE/CVE-2015-10027) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10027.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10027.svg)
+
+## CVE-2015-10026
+ A vulnerability was found in tiredtyrant flairbot. It has been declared as critical. This vulnerability affects unknown code of the file flair.py. The manipulation leads to sql injection. The name of the patch is 5e112b68c6faad1d4699d02c1ebbb7daf48ef8fb. It is recommended to apply a patch to fix this issue. VDB-217618 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10026](https://github.com/Live-Hack-CVE/CVE-2015-10026) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10026.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10026.svg)
+
+## CVE-2015-10025
+ A vulnerability has been found in luelista miniConf up to 1.7.6 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file miniConf/MessageView.cs of the component URL Scanning. The manipulation leads to denial of service. Upgrading to version 1.7.7 and 1.8.0 is able to address this issue. The name of the patch is c06c2e5116c306e4e1bc79779f0eda2d1182f655. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-217615.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10025](https://github.com/Live-Hack-CVE/CVE-2015-10025) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10025.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10025.svg)
+
+## CVE-2015-10024
+ A vulnerability classified as critical was found in hoffie larasync. This vulnerability affects unknown code of the file repository/content/file_storage.go. The manipulation leads to path traversal. The name of the patch is 776bad422f4bd4930d09491711246bbeb1be9ba5. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217612.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10024](https://github.com/Live-Hack-CVE/CVE-2015-10024) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10024.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10024.svg)
+
+## CVE-2015-10023
+ A vulnerability classified as critical has been found in Fumon trello-octometric. This affects the function main of the file metrics-ui/server/srv.go. The manipulation of the argument num leads to sql injection. The name of the patch is a1f1754933fbf21e2221fbc671c81a47de6a04ef. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217611.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10023](https://github.com/Live-Hack-CVE/CVE-2015-10023) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10023.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10023.svg)
+
+## CVE-2015-10022
+ A vulnerability was found in IISH nlgis2. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file scripts/etl/custom_import.pl. The manipulation leads to sql injection. The name of the patch is 8bdb6fcf7209584eaf1232437f0f53e735b2b34c. It is recommended to apply a patch to fix this issue. The identifier VDB-217609 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10022](https://github.com/Live-Hack-CVE/CVE-2015-10022) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10022.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10022.svg)
+
+## CVE-2015-10021
+ A vulnerability was found in ritterim definely. It has been classified as problematic. Affected is an unknown function of the file src/database.js. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. The name of the patch is b31a022ba4d8d17148445a13ebb5a42ad593dbaa. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217608.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10021](https://github.com/Live-Hack-CVE/CVE-2015-10021) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10021.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10021.svg)
+
+## CVE-2015-10019
+ A vulnerability, which was classified as problematic, has been found in foxoverflow MySimplifiedSQL. This issue affects some unknown processing of the file MySimplifiedSQL_Examples.php. The manipulation of the argument FirstName/LastName leads to cross site scripting. The attack may be initiated remotely. The name of the patch is 3b7481c72786f88041b7c2d83bb4f219f77f1293. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217595.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10019](https://github.com/Live-Hack-CVE/CVE-2015-10019) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10019.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10019.svg)
+
 ## CVE-2015-10018
  A vulnerability has been found in DBRisinajumi d2files and classified as critical. Affected by this vulnerability is the function actionUpload/actionDownloadFile of the file controllers/D2filesController.php. The manipulation leads to sql injection. Upgrading to version 1.0.0 is able to address this issue. The name of the patch is b5767f2ec9d0f3cbfda7f13c84740e2179c90574. It is recommended to upgrade the affected component. The identifier VDB-217561 was assigned to this vulnerability.
 
