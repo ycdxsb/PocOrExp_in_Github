@@ -5,6 +5,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-20004](https://github.com/Live-Hack-CVE/CVE-2013-20004) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-20004.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-20004.svg)
 
+## CVE-2013-10008
+ A vulnerability was found in sheilazpy eShop. It has been classified as critical. Affected is an unknown function. The manipulation leads to sql injection. The name of the patch is e096c5849c4dc09e1074104531014a62a5413884. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217572.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-10008](https://github.com/Live-Hack-CVE/CVE-2013-10008) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-10008.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-10008.svg)
+
 ## CVE-2013-10007
  A vulnerability classified as problematic has been found in ethitter WP-Print-Friendly up to 0.5.2. This affects an unknown part of the file wp-print-friendly.php. The manipulation leads to information disclosure. It is possible to initiate the attack remotely. Upgrading to version 0.5.3 is able to address this issue. The name of the patch is 437787292670c20b4abe20160ebbe8428187f2b4. It is recommended to upgrade the affected component. The identifier VDB-217269 was assigned to this vulnerability.
 
