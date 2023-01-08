@@ -1,3 +1,59 @@
+## CVE-2014-125070
+ A vulnerability has been found in yanheven console and classified as problematic. Affected by this vulnerability is the function get_zone_hosts/AvailabilityZonesTable of the file openstack_dashboard/dashboards/admin/aggregates/tables.py. The manipulation leads to cross site scripting. The attack can be launched remotely. The name of the patch is ba908ae88d5925f4f6783eb234cc4ea95017472b. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217651.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-125070](https://github.com/Live-Hack-CVE/CVE-2014-125070) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125070.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125070.svg)
+
+## CVE-2014-125069
+ A vulnerability was found in saxman maps-js-icoads. It has been classified as problematic. Affected is an unknown function. The manipulation leads to exposure of information through directory listing. It is possible to launch the attack remotely. The name of the patch is 34b8b0cce2807b119f4cffda2ac48fc8f427d69a. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217644.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-125069](https://github.com/Live-Hack-CVE/CVE-2014-125069) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125069.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125069.svg)
+
+## CVE-2014-125068
+ A vulnerability was found in saxman maps-js-icoads and classified as critical. This issue affects some unknown processing of the file http-server.js. The manipulation leads to path traversal. The name of the patch is 34b8b0cce2807b119f4cffda2ac48fc8f427d69a. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217643.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-125068](https://github.com/Live-Hack-CVE/CVE-2014-125068) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125068.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125068.svg)
+
+## CVE-2014-125067
+ A vulnerability classified as critical was found in corincerami curiosity. Affected by this vulnerability is an unknown functionality of the file app/controllers/image_controller.rb. The manipulation of the argument sol leads to sql injection. The name of the patch is d64fddd74ca72714e73f4efe24259ca05c8190eb. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217639.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-125067](https://github.com/Live-Hack-CVE/CVE-2014-125067) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125067.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125067.svg)
+
+## CVE-2014-125066
+ A vulnerability was found in emmflo yuko-bot. It has been declared as problematic. This vulnerability affects unknown code. The manipulation of the argument title leads to denial of service. The attack can be initiated remotely. The name of the patch is e580584b877934a4298d4dd0c497c79e579380d0. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217636.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-125066](https://github.com/Live-Hack-CVE/CVE-2014-125066) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125066.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125066.svg)
+
+## CVE-2014-125065
+ A vulnerability, which was classified as critical, was found in john5223 bottle-auth. Affected is an unknown function. The manipulation leads to sql injection. The name of the patch is 99cfbcc0c1429096e3479744223ffb4fda276875. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217632.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-125065](https://github.com/Live-Hack-CVE/CVE-2014-125065) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125065.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125065.svg)
+
+## CVE-2014-125064
+ A vulnerability, which was classified as critical, has been found in elgs gosqljson. This issue affects the function QueryDbToArray/QueryDbToMap/ExecDb of the file gosqljson.go. The manipulation of the argument sqlStatement leads to sql injection. The name of the patch is 2740b331546cb88eb61771df4c07d389e9f0363a. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217631.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-125064](https://github.com/Live-Hack-CVE/CVE-2014-125064) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125064.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125064.svg)
+
+## CVE-2014-125063
+ A vulnerability was found in ada-l0velace Bid and classified as critical. This issue affects some unknown processing. The manipulation leads to sql injection. The name of the patch is abd71140b8219fa8741d0d8a57ab27d5bfd34222. It is recommended to apply a patch to fix this issue. The identifier VDB-217625 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-125063](https://github.com/Live-Hack-CVE/CVE-2014-125063) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125063.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125063.svg)
+
 ## CVE-2014-125062
  A vulnerability classified as critical was found in ananich bitstorm. Affected by this vulnerability is an unknown functionality of the file announce.php. The manipulation of the argument event leads to sql injection. The name of the patch is ea8da92f94cdb78ee7831e1f7af6258473ab396a. It is recommended to apply a patch to fix this issue. The identifier VDB-217621 was assigned to this vulnerability.
 
@@ -229,6 +285,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-125030](https://github.com/Live-Hack-CVE/CVE-2014-125030) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125030.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125030.svg)
 
+## CVE-2014-125029
+ A vulnerability was found in ttskch PaginationServiceProvider up to 0.x. It has been declared as critical. This vulnerability affects unknown code of the file demo/index.php of the component demo. The manipulation of the argument sort/id leads to sql injection. Upgrading to version 1.0.0 is able to address this issue. The name of the patch is 619de478efce17ece1a3b913ab16e40651e1ea7b. It is recommended to upgrade the affected component. VDB-217150 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-125029](https://github.com/Live-Hack-CVE/CVE-2014-125029) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125029.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125029.svg)
+
 ## CVE-2014-125028
  A vulnerability was found in valtech IDP Test Client and classified as problematic. Affected by this issue is some unknown functionality of the file python-flask/main.py. The manipulation leads to cross-site request forgery. The attack may be launched remotely. The name of the patch is f1e7b3d431c8681ec46445557125890c14fa295f. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217148.
 
@@ -361,9 +424,9 @@
 
 - [https://github.com/MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC) :  ![starts](https://img.shields.io/github/stars/MazX0p/CVE-2014-8609-POC.svg) ![forks](https://img.shields.io/github/forks/MazX0p/CVE-2014-8609-POC.svg)
 
-- [https://github.com/ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit) :  ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2014-8609-exploit.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2014-8609-exploit.svg)
-
 - [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) :  ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
+
+- [https://github.com/ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit) :  ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2014-8609-exploit.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2014-8609-exploit.svg)
 
 ## CVE-2014-8312
  Business Warehouse (BW) in SAP Netweaver AS ABAP 7.31 allows remote authenticated users to obtain sensitive information via a request to the RSDU_CCMS_GET_PROFILE_PARAM RFC function.
@@ -641,9 +704,9 @@
 
 - [https://github.com/cj1324/CGIShell](https://github.com/cj1324/CGIShell) :  ![starts](https://img.shields.io/github/stars/cj1324/CGIShell.svg) ![forks](https://img.shields.io/github/forks/cj1324/CGIShell.svg)
 
-- [https://github.com/indiandragon/Shellshock-Vulnerability-Scan](https://github.com/indiandragon/Shellshock-Vulnerability-Scan) :  ![starts](https://img.shields.io/github/stars/indiandragon/Shellshock-Vulnerability-Scan.svg) ![forks](https://img.shields.io/github/forks/indiandragon/Shellshock-Vulnerability-Scan.svg)
-
 - [https://github.com/francisck/shellshock-cgi](https://github.com/francisck/shellshock-cgi) :  ![starts](https://img.shields.io/github/stars/francisck/shellshock-cgi.svg) ![forks](https://img.shields.io/github/forks/francisck/shellshock-cgi.svg)
+
+- [https://github.com/indiandragon/Shellshock-Vulnerability-Scan](https://github.com/indiandragon/Shellshock-Vulnerability-Scan) :  ![starts](https://img.shields.io/github/stars/indiandragon/Shellshock-Vulnerability-Scan.svg) ![forks](https://img.shields.io/github/forks/indiandragon/Shellshock-Vulnerability-Scan.svg)
 
 - [https://github.com/P0cL4bs/ShellShock-CGI-Scan](https://github.com/P0cL4bs/ShellShock-CGI-Scan) :  ![starts](https://img.shields.io/github/stars/P0cL4bs/ShellShock-CGI-Scan.svg) ![forks](https://img.shields.io/github/forks/P0cL4bs/ShellShock-CGI-Scan.svg)
 
@@ -691,9 +754,9 @@
 
 - [https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg)
 
-- [https://github.com/Gurguii/cgi-bin-shellshock](https://github.com/Gurguii/cgi-bin-shellshock) :  ![starts](https://img.shields.io/github/stars/Gurguii/cgi-bin-shellshock.svg) ![forks](https://img.shields.io/github/forks/Gurguii/cgi-bin-shellshock.svg)
-
 - [https://github.com/gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww) :  ![starts](https://img.shields.io/github/stars/gabemarshall/shocknaww.svg) ![forks](https://img.shields.io/github/forks/gabemarshall/shocknaww.svg)
+
+- [https://github.com/Gurguii/cgi-bin-shellshock](https://github.com/Gurguii/cgi-bin-shellshock) :  ![starts](https://img.shields.io/github/stars/Gurguii/cgi-bin-shellshock.svg) ![forks](https://img.shields.io/github/forks/Gurguii/cgi-bin-shellshock.svg)
 
 - [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) :  ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
 
@@ -711,23 +774,23 @@
 
 - [https://github.com/villadora/CVE-2014-6271](https://github.com/villadora/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/villadora/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/villadora/CVE-2014-6271.svg)
 
+- [https://github.com/woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/woltage/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/woltage/CVE-2014-6271.svg)
+
+- [https://github.com/cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Shellbash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Shellbash-CVE-2014-6271.svg)
+
 - [https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-](https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-) :  ![starts](https://img.shields.io/github/stars/rashmikadileeshara/CVE-2014-6271-Shellshock-.svg) ![forks](https://img.shields.io/github/forks/rashmikadileeshara/CVE-2014-6271-Shellshock-.svg)
 
 - [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
 
 - [https://github.com/0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2014-6271.svg)
 
-- [https://github.com/woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/woltage/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/woltage/CVE-2014-6271.svg)
+- [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
 
-- [https://github.com/cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Shellbash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Shellbash-CVE-2014-6271.svg)
+- [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
 
 - [https://github.com/mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mattclegg/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mattclegg/CVE-2014-6271.svg)
 
 - [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
-
-- [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
-
-- [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
 
 - [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
 
@@ -891,9 +954,9 @@
 
 - [https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege](https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege) :  ![starts](https://img.shields.io/github/stars/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege.svg) ![forks](https://img.shields.io/github/forks/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege.svg)
 
-- [https://github.com/koozxcv/CVE-2014-4322](https://github.com/koozxcv/CVE-2014-4322) :  ![starts](https://img.shields.io/github/stars/koozxcv/CVE-2014-4322.svg) ![forks](https://img.shields.io/github/forks/koozxcv/CVE-2014-4322.svg)
-
 - [https://github.com/askk/CVE-2014-4322_adaptation](https://github.com/askk/CVE-2014-4322_adaptation) :  ![starts](https://img.shields.io/github/stars/askk/CVE-2014-4322_adaptation.svg) ![forks](https://img.shields.io/github/forks/askk/CVE-2014-4322_adaptation.svg)
+
+- [https://github.com/koozxcv/CVE-2014-4322](https://github.com/koozxcv/CVE-2014-4322) :  ![starts](https://img.shields.io/github/stars/koozxcv/CVE-2014-4322.svg) ![forks](https://img.shields.io/github/forks/koozxcv/CVE-2014-4322.svg)
 
 ## CVE-2014-4321
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
