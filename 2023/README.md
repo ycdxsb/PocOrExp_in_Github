@@ -82,6 +82,62 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-22451](https://github.com/Live-Hack-CVE/CVE-2023-22451) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22451.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22451.svg)
 
+## CVE-2023-0114
+ A vulnerability was found in Netis Netcore Router. It has been rated as problematic. Affected by this issue is some unknown functionality of the file param.file.tgz of the component Backup Handler. The manipulation leads to cleartext storage in a file or on disk. Local access is required to approach this attack. The identifier of this vulnerability is VDB-217592.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0114](https://github.com/Live-Hack-CVE/CVE-2023-0114) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0114.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0114.svg)
+
+## CVE-2023-0113
+ A vulnerability was found in Netis Netcore Router. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file param.file.tgz of the component Backup Handler. The manipulation leads to information disclosure. The attack can be launched remotely. The associated identifier of this vulnerability is VDB-217591.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0113](https://github.com/Live-Hack-CVE/CVE-2023-0113) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0113.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0113.svg)
+
+## CVE-2023-0112
+ Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0112](https://github.com/Live-Hack-CVE/CVE-2023-0112) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0112.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0112.svg)
+
+## CVE-2023-0111
+ Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0111](https://github.com/Live-Hack-CVE/CVE-2023-0111) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0111.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0111.svg)
+
+## CVE-2023-0110
+ Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0110](https://github.com/Live-Hack-CVE/CVE-2023-0110) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0110.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0110.svg)
+
+## CVE-2023-0108
+ Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0108](https://github.com/Live-Hack-CVE/CVE-2023-0108) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0108.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0108.svg)
+
+## CVE-2023-0107
+ Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0107](https://github.com/Live-Hack-CVE/CVE-2023-0107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0107.svg)
+
+## CVE-2023-0106
+ Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0106](https://github.com/Live-Hack-CVE/CVE-2023-0106) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0106.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0106.svg)
+
 ## CVE-2023-0088
  The Swifty Page Manager plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 3.0.1. This is due to missing or incorrect nonce validation on several AJAX actions handling page creation and deletion among other things. This makes it possible for unauthenticated attackers to invoke those functions, via forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 
