@@ -5,6 +5,34 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10031
+ A vulnerability classified as critical was found in purpleparrots 491-Project. This vulnerability affects unknown code of the file update.php of the component Highscore Handler. The manipulation leads to sql injection. The name of the patch is a812a5e4cf72f2a635a716086fe1ee2b8fa0b1ab. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217648.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10031](https://github.com/Live-Hack-CVE/CVE-2015-10031) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10031.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10031.svg)
+
+## CVE-2015-10030
+ A vulnerability has been found in SUKOHI Surpass and classified as critical. This vulnerability affects unknown code of the file src/Sukohi/Surpass/Surpass.php. The manipulation of the argument dir leads to pathname traversal. Upgrading to version 1.0.0 is able to address this issue. The name of the patch is d22337d453a2a14194cdb02bf12cdf9d9f827aa7. It is recommended to upgrade the affected component. VDB-217642 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10030](https://github.com/Live-Hack-CVE/CVE-2015-10030) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10030.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10030.svg)
+
+## CVE-2015-10029
+ A vulnerability classified as problematic was found in kelvinmo simplexrd up to 3.1.0. This vulnerability affects unknown code of the file simplexrd/simplexrd.class.php. The manipulation leads to xml external entity reference. Upgrading to version 3.1.1 is able to address this issue. The name of the patch is 4c9f2e028523ed705b555eca2c18c64e71f1a35d. It is recommended to upgrade the affected component. VDB-217630 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10029](https://github.com/Live-Hack-CVE/CVE-2015-10029) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10029.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10029.svg)
+
+## CVE-2015-10028
+ A vulnerability has been found in ss15-this-is-sparta and classified as problematic. This vulnerability affects unknown code of the file js/roomElement.js of the component Main Page. The manipulation leads to cross site scripting. The attack can be initiated remotely. The name of the patch is ba2f71ad3a46e5949ee0c510b544fa4ea973baaa. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217624.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10028](https://github.com/Live-Hack-CVE/CVE-2015-10028) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10028.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10028.svg)
+
 ## CVE-2015-10027
  A vulnerability, which was classified as problematic, has been found in hydrian TTRSS-Auth-LDAP. Affected by this issue is some unknown functionality of the component Username Handler. The manipulation leads to ldap injection. Upgrading to version 2.0b1 is able to address this issue. The name of the patch is a7f7a5a82d9202a5c40d606a5c519ba61b224eb8. It is recommended to upgrade the affected component. VDB-217622 is the identifier assigned to this vulnerability.
 
@@ -1384,9 +1412,9 @@
 
 - [https://github.com/u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS) :  ![starts](https://img.shields.io/github/stars/u0pattern/Remove-IIS-RIIS.svg) ![forks](https://img.shields.io/github/forks/u0pattern/Remove-IIS-RIIS.svg)
 
-- [https://github.com/k4u5h41/CVE-2015-1635-POC](https://github.com/k4u5h41/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2015-1635-POC.svg)
-
 - [https://github.com/w01ke/CVE-2015-1635-POC](https://github.com/w01ke/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/w01ke/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/w01ke/CVE-2015-1635-POC.svg)
+
+- [https://github.com/k4u5h41/CVE-2015-1635-POC](https://github.com/k4u5h41/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2015-1635-POC.svg)
 
 - [https://github.com/k4u5h41/CVE-2015-1635](https://github.com/k4u5h41/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2015-1635.svg)
 
