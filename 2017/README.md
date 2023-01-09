@@ -168,9 +168,9 @@
 
 - [https://github.com/Shadow5523/CVE-2017-1000117-test](https://github.com/Shadow5523/CVE-2017-1000117-test) :  ![starts](https://img.shields.io/github/stars/Shadow5523/CVE-2017-1000117-test.svg) ![forks](https://img.shields.io/github/forks/Shadow5523/CVE-2017-1000117-test.svg)
 
-- [https://github.com/takehaya/CVE-2017-1000117](https://github.com/takehaya/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/takehaya/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/takehaya/CVE-2017-1000117.svg)
-
 - [https://github.com/siling2017/CVE-2017-1000117](https://github.com/siling2017/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/siling2017/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/siling2017/CVE-2017-1000117.svg)
+
+- [https://github.com/takehaya/CVE-2017-1000117](https://github.com/takehaya/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/takehaya/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/takehaya/CVE-2017-1000117.svg)
 
 - [https://github.com/thelastbyte/CVE-2017-1000117](https://github.com/thelastbyte/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/thelastbyte/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/thelastbyte/CVE-2017-1000117.svg)
 
@@ -226,6 +226,13 @@
 
 
 - [https://github.com/smythtech/DWF-CVE-2017-1000000](https://github.com/smythtech/DWF-CVE-2017-1000000) :  ![starts](https://img.shields.io/github/stars/smythtech/DWF-CVE-2017-1000000.svg) ![forks](https://img.shields.io/github/forks/smythtech/DWF-CVE-2017-1000000.svg)
+
+## CVE-2017-20165
+ A vulnerability classified as problematic has been found in debug-js debug up to 3.0.x. This affects the function useColors of the file src/node.js. The manipulation of the argument str leads to inefficient regular expression complexity. Upgrading to version 3.1.0 is able to address this issue. The name of the patch is c38a0166c266a679c8de012d4eaccec3f944e685. It is recommended to upgrade the affected component. The identifier VDB-217665 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-20165](https://github.com/Live-Hack-CVE/CVE-2017-20165) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20165.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20165.svg)
 
 ## CVE-2017-20164
  A vulnerability was found in Symbiote Seed up to 6.0.2. It has been classified as critical. Affected is the function onBeforeSecurityLogin of the file code/extensions/SecurityLoginExtension.php of the component Login. The manipulation of the argument URL leads to open redirect. It is possible to launch the attack remotely. Upgrading to version 6.0.3 is able to address this issue. The name of the patch is b065ebd82da53009d273aa7e989191f701485244. It is recommended to upgrade the affected component. VDB-217626 is the identifier assigned to this vulnerability.
@@ -667,6 +674,8 @@
 - [https://github.com/littlebin404/CVE-2017-16995](https://github.com/littlebin404/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/littlebin404/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/littlebin404/CVE-2017-16995.svg)
 
 - [https://github.com/C0dak/CVE-2017-16995](https://github.com/C0dak/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/C0dak/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/C0dak/CVE-2017-16995.svg)
+
+- [https://github.com/anldori/CVE-2017-16995](https://github.com/anldori/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/anldori/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/anldori/CVE-2017-16995.svg)
 
 - [https://github.com/ivilpez/cve-2017-16995.c](https://github.com/ivilpez/cve-2017-16995.c) :  ![starts](https://img.shields.io/github/stars/ivilpez/cve-2017-16995.c.svg) ![forks](https://img.shields.io/github/forks/ivilpez/cve-2017-16995.c.svg)
 
@@ -2724,13 +2733,13 @@
 
 - [https://github.com/hahwul/struts2-rce-cve-2017-9805-ruby](https://github.com/hahwul/struts2-rce-cve-2017-9805-ruby) :  ![starts](https://img.shields.io/github/stars/hahwul/struts2-rce-cve-2017-9805-ruby.svg) ![forks](https://img.shields.io/github/forks/hahwul/struts2-rce-cve-2017-9805-ruby.svg)
 
+- [https://github.com/Shakun8/CVE-2017-9805](https://github.com/Shakun8/CVE-2017-9805) :  ![starts](https://img.shields.io/github/stars/Shakun8/CVE-2017-9805.svg) ![forks](https://img.shields.io/github/forks/Shakun8/CVE-2017-9805.svg)
+
 - [https://github.com/0xd3vil/CVE-2017-9805-Exploit](https://github.com/0xd3vil/CVE-2017-9805-Exploit) :  ![starts](https://img.shields.io/github/stars/0xd3vil/CVE-2017-9805-Exploit.svg) ![forks](https://img.shields.io/github/forks/0xd3vil/CVE-2017-9805-Exploit.svg)
 
 - [https://github.com/BeyondCy/S2-052](https://github.com/BeyondCy/S2-052) :  ![starts](https://img.shields.io/github/stars/BeyondCy/S2-052.svg) ![forks](https://img.shields.io/github/forks/BeyondCy/S2-052.svg)
 
 - [https://github.com/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-](https://github.com/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-) :  ![starts](https://img.shields.io/github/stars/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-.svg) ![forks](https://img.shields.io/github/forks/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-.svg)
-
-- [https://github.com/Shakun8/CVE-2017-9805](https://github.com/Shakun8/CVE-2017-9805) :  ![starts](https://img.shields.io/github/stars/Shakun8/CVE-2017-9805.svg) ![forks](https://img.shields.io/github/forks/Shakun8/CVE-2017-9805.svg)
 
 - [https://github.com/z3bd/CVE-2017-9805](https://github.com/z3bd/CVE-2017-9805) :  ![starts](https://img.shields.io/github/stars/z3bd/CVE-2017-9805.svg) ![forks](https://img.shields.io/github/forks/z3bd/CVE-2017-9805.svg)
 
@@ -3507,6 +3516,13 @@
 
 - [https://github.com/ww9210/cve-2017-7374](https://github.com/ww9210/cve-2017-7374) :  ![starts](https://img.shields.io/github/stars/ww9210/cve-2017-7374.svg) ![forks](https://img.shields.io/github/forks/ww9210/cve-2017-7374.svg)
 
+## CVE-2017-7308
+ The packet_set_ring function in net/packet/af_packet.c in the Linux kernel through 4.10.6 does not properly validate certain block-size data, which allows local users to cause a denial of service (integer signedness error and out-of-bounds write), or gain privileges (if the CAP_NET_RAW capability is held), via crafted system calls.
+
+
+
+- [https://github.com/anldori/CVE-2017-7308](https://github.com/anldori/CVE-2017-7308) :  ![starts](https://img.shields.io/github/stars/anldori/CVE-2017-7308.svg) ![forks](https://img.shields.io/github/forks/anldori/CVE-2017-7308.svg)
+
 ## CVE-2017-7269
  Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with &quot;If: &lt;http://&quot; in a PROPFIND request, as exploited in the wild in July or August 2016.
 
@@ -4007,9 +4023,9 @@
 
 - [https://github.com/bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/bongbongco/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bongbongco/cve-2017-5638.svg)
 
-- [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
-
 - [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
+
+- [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
 
 - [https://github.com/lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/lizhi16/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/lizhi16/CVE-2017-5638.svg)
 
@@ -4017,13 +4033,13 @@
 
 - [https://github.com/readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/readloud/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/readloud/CVE-2017-5638.svg)
 
-- [https://github.com/jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2017-5638.svg)
-
 - [https://github.com/jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jrrombaldo/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jrrombaldo/CVE-2017-5638.svg)
 
 - [https://github.com/bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/bhagdave/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bhagdave/CVE-2017-5638.svg)
 
 - [https://github.com/Tankirat/CVE-2017-5638](https://github.com/Tankirat/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Tankirat/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Tankirat/CVE-2017-5638.svg)
+
+- [https://github.com/jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2017-5638.svg)
 
 - [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
 
@@ -4912,13 +4928,13 @@
 
 - [https://github.com/viethdgit/CVE-2017-0199](https://github.com/viethdgit/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/viethdgit/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/viethdgit/CVE-2017-0199.svg)
 
-- [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
-
 - [https://github.com/Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/Phantomlancer123/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/Phantomlancer123/CVE-2017-0199.svg)
 
-- [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
-
 - [https://github.com/BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/BRAINIAC22/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/BRAINIAC22/CVE-2017-0199.svg)
+
+- [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
+
+- [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
 
 - [https://github.com/Winter3un/cve_2017_0199](https://github.com/Winter3un/cve_2017_0199) :  ![starts](https://img.shields.io/github/stars/Winter3un/cve_2017_0199.svg) ![forks](https://img.shields.io/github/forks/Winter3un/cve_2017_0199.svg)
 
