@@ -62,3 +62,10 @@
 
 
 - [https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure](https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure) :  ![starts](https://img.shields.io/github/stars/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure.svg) ![forks](https://img.shields.io/github/forks/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure.svg)
+
+## CVE-2005-0452
+ Multiple cross-site scripting (XSS) vulnerabilities in Microsoft ASP.NET (.Net) 1.0 and 1.1 to SP1 allow remote attackers to inject arbitrary HTML or web script via Unicode representations for ASCII fullwidth characters that are converted to normal ASCII characters, including &quot;&gt;&quot; and &quot;&lt;&quot;.
+
+
+
+- [https://github.com/AndreyRusyaev/secreports](https://github.com/AndreyRusyaev/secreports) :  ![starts](https://img.shields.io/github/stars/AndreyRusyaev/secreports.svg) ![forks](https://img.shields.io/github/forks/AndreyRusyaev/secreports.svg)
