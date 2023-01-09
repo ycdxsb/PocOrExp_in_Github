@@ -42,6 +42,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-20015](https://github.com/Live-Hack-CVE/CVE-2016-20015) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-20015.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-20015.svg)
 
+## CVE-2016-15016
+ A vulnerability was found in mrtnmtth joomla_mod_einsatz_stats up to 0.2. It has been classified as critical. This affects the function getStatsByType of the file helper.php. The manipulation of the argument year leads to sql injection. Upgrading to version 0.3 is able to address this issue. The name of the patch is 27c1b443cff45c81d9d7d926a74c76f8b6ffc6cb. It is recommended to upgrade the affected component. The identifier VDB-217653 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-15016](https://github.com/Live-Hack-CVE/CVE-2016-15016) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-15016.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-15016.svg)
+
+## CVE-2016-15015
+ A vulnerability, which was classified as problematic, was found in viafintech Barzahlen Payment Module PHP SDK up to 2.0.0. Affected is the function verify of the file src/Webhook.php. The manipulation leads to observable timing discrepancy. Upgrading to version 2.0.1 is able to address this issue. The name of the patch is 3e7d29dc0ca6c054a6d6e211f32dae89078594c1. It is recommended to upgrade the affected component. VDB-217650 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-15015](https://github.com/Live-Hack-CVE/CVE-2016-15015) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-15015.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-15015.svg)
+
 ## CVE-2016-15014
  A vulnerability has been found in CESNET theme-cesnet up to 1.x and classified as problematic. Affected by this vulnerability is an unknown functionality of the file cesnet/core/lostpassword/templates/resetpassword.php. The manipulation leads to insufficiently protected credentials. Attacking locally is a requirement. Upgrading to version 2.0.0 is able to address this issue. The name of the patch is 2b857f2233ce5083b4d5bc9bfc4152f933c3e4a6. It is recommended to upgrade the affected component. The identifier VDB-217633 was assigned to this vulnerability.
 
@@ -1710,13 +1724,13 @@
 
 - [https://github.com/ASRTeam/CVE-2016-5195](https://github.com/ASRTeam/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ASRTeam/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ASRTeam/CVE-2016-5195.svg)
 
-- [https://github.com/th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC) :  ![starts](https://img.shields.io/github/stars/th3-5had0w/DirtyCOW-PoC.svg) ![forks](https://img.shields.io/github/forks/th3-5had0w/DirtyCOW-PoC.svg)
-
 - [https://github.com/titanhp/Dirty-COW-CVE-2016-5195-Testing](https://github.com/titanhp/Dirty-COW-CVE-2016-5195-Testing) :  ![starts](https://img.shields.io/github/stars/titanhp/Dirty-COW-CVE-2016-5195-Testing.svg) ![forks](https://img.shields.io/github/forks/titanhp/Dirty-COW-CVE-2016-5195-Testing.svg)
 
-- [https://github.com/flux10n/dirtycow](https://github.com/flux10n/dirtycow) :  ![starts](https://img.shields.io/github/stars/flux10n/dirtycow.svg) ![forks](https://img.shields.io/github/forks/flux10n/dirtycow.svg)
+- [https://github.com/th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC) :  ![starts](https://img.shields.io/github/stars/th3-5had0w/DirtyCOW-PoC.svg) ![forks](https://img.shields.io/github/forks/th3-5had0w/DirtyCOW-PoC.svg)
 
 - [https://github.com/FloridSleeves/os-experiment-4](https://github.com/FloridSleeves/os-experiment-4) :  ![starts](https://img.shields.io/github/stars/FloridSleeves/os-experiment-4.svg) ![forks](https://img.shields.io/github/forks/FloridSleeves/os-experiment-4.svg)
+
+- [https://github.com/flux10n/dirtycow](https://github.com/flux10n/dirtycow) :  ![starts](https://img.shields.io/github/stars/flux10n/dirtycow.svg) ![forks](https://img.shields.io/github/forks/flux10n/dirtycow.svg)
 
 - [https://github.com/arbll/dirtycow](https://github.com/arbll/dirtycow) :  ![starts](https://img.shields.io/github/stars/arbll/dirtycow.svg) ![forks](https://img.shields.io/github/forks/arbll/dirtycow.svg)
 
@@ -1724,11 +1738,11 @@
 
 - [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
 
-- [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
-
 - [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
 
 - [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
+
+- [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
 
 - [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
 
@@ -1744,13 +1758,13 @@
 
 - [https://github.com/passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs) :  ![starts](https://img.shields.io/github/stars/passionchenjianyegmail8/scumjrs.svg) ![forks](https://img.shields.io/github/forks/passionchenjianyegmail8/scumjrs.svg)
 
-- [https://github.com/vinspiert/scumjrs](https://github.com/vinspiert/scumjrs) :  ![starts](https://img.shields.io/github/stars/vinspiert/scumjrs.svg) ![forks](https://img.shields.io/github/forks/vinspiert/scumjrs.svg)
-
 - [https://github.com/xpcmdshell/derpyc0w](https://github.com/xpcmdshell/derpyc0w) :  ![starts](https://img.shields.io/github/stars/xpcmdshell/derpyc0w.svg) ![forks](https://img.shields.io/github/forks/xpcmdshell/derpyc0w.svg)
 
 - [https://github.com/1equeneRise/scumjr9](https://github.com/1equeneRise/scumjr9) :  ![starts](https://img.shields.io/github/stars/1equeneRise/scumjr9.svg) ![forks](https://img.shields.io/github/forks/1equeneRise/scumjr9.svg)
 
 - [https://github.com/gurpreetsinghsaluja/dirtycow](https://github.com/gurpreetsinghsaluja/dirtycow) :  ![starts](https://img.shields.io/github/stars/gurpreetsinghsaluja/dirtycow.svg) ![forks](https://img.shields.io/github/forks/gurpreetsinghsaluja/dirtycow.svg)
+
+- [https://github.com/vinspiert/scumjrs](https://github.com/vinspiert/scumjrs) :  ![starts](https://img.shields.io/github/stars/vinspiert/scumjrs.svg) ![forks](https://img.shields.io/github/forks/vinspiert/scumjrs.svg)
 
 - [https://github.com/shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-](https://github.com/shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-.svg)
 
@@ -1758,9 +1772,9 @@
 
 - [https://github.com/KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow) :  ![starts](https://img.shields.io/github/stars/KaviDk/dirtyCow.svg) ![forks](https://img.shields.io/github/forks/KaviDk/dirtyCow.svg)
 
-- [https://github.com/ellietoulabi/Dirty-Cow](https://github.com/ellietoulabi/Dirty-Cow) :  ![starts](https://img.shields.io/github/stars/ellietoulabi/Dirty-Cow.svg) ![forks](https://img.shields.io/github/forks/ellietoulabi/Dirty-Cow.svg)
-
 - [https://github.com/istenrot/centos-dirty-cow-ansible](https://github.com/istenrot/centos-dirty-cow-ansible) :  ![starts](https://img.shields.io/github/stars/istenrot/centos-dirty-cow-ansible.svg) ![forks](https://img.shields.io/github/forks/istenrot/centos-dirty-cow-ansible.svg)
+
+- [https://github.com/ellietoulabi/Dirty-Cow](https://github.com/ellietoulabi/Dirty-Cow) :  ![starts](https://img.shields.io/github/stars/ellietoulabi/Dirty-Cow.svg) ![forks](https://img.shields.io/github/forks/ellietoulabi/Dirty-Cow.svg)
 
 - [https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg)
 
@@ -2051,23 +2065,23 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4285](https://github.com/Live-Hack-CVE/CVE-2016-4285) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4285.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4285.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4281](https://github.com/Live-Hack-CVE/CVE-2016-4281) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4281.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4281.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-4283](https://github.com/Live-Hack-CVE/CVE-2016-4283) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4283.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4283.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4276](https://github.com/Live-Hack-CVE/CVE-2016-4276) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4276.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4276.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4281](https://github.com/Live-Hack-CVE/CVE-2016-4281) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4281.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4281.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-6924](https://github.com/Live-Hack-CVE/CVE-2016-6924) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6924.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6924.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4280](https://github.com/Live-Hack-CVE/CVE-2016-4280) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4280.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4280.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4284](https://github.com/Live-Hack-CVE/CVE-2016-4284) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4284.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4284.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-6922](https://github.com/Live-Hack-CVE/CVE-2016-6922) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6922.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6922.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4274](https://github.com/Live-Hack-CVE/CVE-2016-4274) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4274.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4274.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2016-4284](https://github.com/Live-Hack-CVE/CVE-2016-4284) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4284.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4284.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4282](https://github.com/Live-Hack-CVE/CVE-2016-4282) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4282.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4282.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4274](https://github.com/Live-Hack-CVE/CVE-2016-4274) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4274.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4274.svg)
 
 ## CVE-2016-4274
  Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4275, CVE-2016-4276, CVE-2016-4280, CVE-2016-4281, CVE-2016-4282, CVE-2016-4283, CVE-2016-4284, CVE-2016-4285, CVE-2016-6922, and CVE-2016-6924.
@@ -2080,9 +2094,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4283](https://github.com/Live-Hack-CVE/CVE-2016-4283) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4283.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4283.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4284](https://github.com/Live-Hack-CVE/CVE-2016-4284) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4284.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4284.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-6922](https://github.com/Live-Hack-CVE/CVE-2016-6922) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6922.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6922.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4284](https://github.com/Live-Hack-CVE/CVE-2016-4284) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4284.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4284.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4280](https://github.com/Live-Hack-CVE/CVE-2016-4280) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4280.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4280.svg)
 
@@ -2092,9 +2106,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4285](https://github.com/Live-Hack-CVE/CVE-2016-4285) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4285.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4285.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4275](https://github.com/Live-Hack-CVE/CVE-2016-4275) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4275.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4275.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-4281](https://github.com/Live-Hack-CVE/CVE-2016-4281) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4281.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4281.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4275](https://github.com/Live-Hack-CVE/CVE-2016-4275) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4275.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4275.svg)
 
 ## CVE-2016-4273
  Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-6982, CVE-2016-6983, CVE-2016-6984, CVE-2016-6985, CVE-2016-6986, CVE-2016-6989, and CVE-2016-6990.
@@ -2111,9 +2125,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-6985](https://github.com/Live-Hack-CVE/CVE-2016-6985) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6985.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6985.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-6986](https://github.com/Live-Hack-CVE/CVE-2016-6986) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6986.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6986.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-6989](https://github.com/Live-Hack-CVE/CVE-2016-6989) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6989.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6989.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6986](https://github.com/Live-Hack-CVE/CVE-2016-6986) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6986.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6986.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-6990](https://github.com/Live-Hack-CVE/CVE-2016-6990) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6990.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6990.svg)
 
@@ -2696,9 +2710,9 @@
 
 - [https://github.com/bazad/rootsh](https://github.com/bazad/rootsh) :  ![starts](https://img.shields.io/github/stars/bazad/rootsh.svg) ![forks](https://img.shields.io/github/forks/bazad/rootsh.svg)
 
-- [https://github.com/berritus163t/bazad5](https://github.com/berritus163t/bazad5) :  ![starts](https://img.shields.io/github/stars/berritus163t/bazad5.svg) ![forks](https://img.shields.io/github/forks/berritus163t/bazad5.svg)
-
 - [https://github.com/zqlblingzs/bazad5](https://github.com/zqlblingzs/bazad5) :  ![starts](https://img.shields.io/github/stars/zqlblingzs/bazad5.svg) ![forks](https://img.shields.io/github/forks/zqlblingzs/bazad5.svg)
+
+- [https://github.com/berritus163t/bazad5](https://github.com/berritus163t/bazad5) :  ![starts](https://img.shields.io/github/stars/berritus163t/bazad5.svg) ![forks](https://img.shields.io/github/forks/berritus163t/bazad5.svg)
 
 - [https://github.com/SideGreenHand100/bazad5](https://github.com/SideGreenHand100/bazad5) :  ![starts](https://img.shields.io/github/stars/SideGreenHand100/bazad5.svg) ![forks](https://img.shields.io/github/forks/SideGreenHand100/bazad5.svg)
 
@@ -3160,9 +3174,9 @@
 
 - [https://github.com/sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/sibilleg/exploit_cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/sibilleg/exploit_cve-2016-0728.svg)
 
-- [https://github.com/sidrk01/cve-2016-0728](https://github.com/sidrk01/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/sidrk01/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/sidrk01/cve-2016-0728.svg)
-
 - [https://github.com/googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728) :  ![starts](https://img.shields.io/github/stars/googleweb/CVE-2016-0728.svg) ![forks](https://img.shields.io/github/forks/googleweb/CVE-2016-0728.svg)
+
+- [https://github.com/sidrk01/cve-2016-0728](https://github.com/sidrk01/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/sidrk01/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/sidrk01/cve-2016-0728.svg)
 
 - [https://github.com/idl3r/cve-2016-0728](https://github.com/idl3r/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/idl3r/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/idl3r/cve-2016-0728.svg)
 
