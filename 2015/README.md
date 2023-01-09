@@ -5,6 +5,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10032
+ A vulnerability was found in HealthMateWeb. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file createaccount.php. The manipulation of the argument username/password/first_name/last_name/company/phone leads to cross site scripting. The attack can be launched remotely. The name of the patch is 472776c25b1046ecaf962c46fed7c713c72c28e3. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217663.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10032](https://github.com/Live-Hack-CVE/CVE-2015-10032) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10032.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10032.svg)
+
 ## CVE-2015-10031
  A vulnerability classified as critical was found in purpleparrots 491-Project. This vulnerability affects unknown code of the file update.php of the component Highscore Handler. The manipulation leads to sql injection. The name of the patch is a812a5e4cf72f2a635a716086fe1ee2b8fa0b1ab. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217648.
 
