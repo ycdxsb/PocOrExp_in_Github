@@ -5,6 +5,27 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10035
+ A vulnerability was found in gperson angular-test-reporter and classified as critical. This issue affects the function getProjectTables/addTest of the file rest-server/data-server.js. The manipulation leads to sql injection. The name of the patch is a29d8ae121b46ebfa96a55a9106466ab2ef166ae. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217715.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10035](https://github.com/Live-Hack-CVE/CVE-2015-10035) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10035.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10035.svg)
+
+## CVE-2015-10034
+ A vulnerability has been found in j-nowak workout-organizer and classified as critical. This vulnerability affects unknown code. The manipulation leads to sql injection. The name of the patch is 13cd6c3d1210640bfdb39872b2bb3597aa991279. It is recommended to apply a patch to fix this issue. VDB-217714 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10034](https://github.com/Live-Hack-CVE/CVE-2015-10034) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10034.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10034.svg)
+
+## CVE-2015-10033
+ A vulnerability, which was classified as problematic, was found in jvvlee MerlinsBoard. This affects an unknown part of the component Grade Handler. The manipulation leads to improper authorization. The name of the patch is 134f5481e2914b7f096cd92a22b1e6bcb8e6dfe5. It is recommended to apply a patch to fix this issue. The identifier VDB-217713 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10033](https://github.com/Live-Hack-CVE/CVE-2015-10033) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10033.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10033.svg)
+
 ## CVE-2015-10032
  A vulnerability was found in HealthMateWeb. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file createaccount.php. The manipulation of the argument username/password/first_name/last_name/company/phone leads to cross site scripting. The attack can be launched remotely. The name of the patch is 472776c25b1046ecaf962c46fed7c713c72c28e3. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217663.
 
@@ -1419,9 +1440,9 @@
 
 - [https://github.com/u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS) :  ![starts](https://img.shields.io/github/stars/u0pattern/Remove-IIS-RIIS.svg) ![forks](https://img.shields.io/github/forks/u0pattern/Remove-IIS-RIIS.svg)
 
-- [https://github.com/w01ke/CVE-2015-1635-POC](https://github.com/w01ke/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/w01ke/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/w01ke/CVE-2015-1635-POC.svg)
-
 - [https://github.com/k4u5h41/CVE-2015-1635-POC](https://github.com/k4u5h41/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2015-1635-POC.svg)
+
+- [https://github.com/w01ke/CVE-2015-1635-POC](https://github.com/w01ke/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/w01ke/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/w01ke/CVE-2015-1635-POC.svg)
 
 - [https://github.com/k4u5h41/CVE-2015-1635](https://github.com/k4u5h41/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2015-1635.svg)
 
