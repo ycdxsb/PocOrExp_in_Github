@@ -305,6 +305,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-8393](https://github.com/Live-Hack-CVE/CVE-2015-8393) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8393.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8393.svg)
 
+## CVE-2015-8351
+ PHP remote file inclusion vulnerability in the Gwolle Guestbook plugin before 1.5.4 for WordPress, when allow_url_include is enabled, allows remote authenticated users to execute arbitrary PHP code via a URL in the abspath parameter to frontend/captcha/ajaxresponse.php.  NOTE: this can also be leveraged to include and execute arbitrary local files via directory traversal sequences regardless of whether allow_url_include is enabled.
+
+
+
+- [https://github.com/Ki11i0n4ir3/CVE-2015-8351](https://github.com/Ki11i0n4ir3/CVE-2015-8351) :  ![starts](https://img.shields.io/github/stars/Ki11i0n4ir3/CVE-2015-8351.svg) ![forks](https://img.shields.io/github/forks/Ki11i0n4ir3/CVE-2015-8351.svg)
+
 ## CVE-2015-8325
  The do_setup_env function in session.c in sshd in OpenSSH through 7.2p2, when the UseLogin feature is enabled and PAM is configured to read .pam_environment files in user home directories, allows local users to gain privileges by triggering a crafted environment for the /bin/login program, as demonstrated by an LD_PRELOAD environment variable.
 
@@ -499,6 +506,8 @@
 
 
 - [https://github.com/k4u5h41/CVE-2015-6668](https://github.com/k4u5h41/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2015-6668.svg)
+
+- [https://github.com/Ki11i0n4ir3/CVE-2015-6668](https://github.com/Ki11i0n4ir3/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/Ki11i0n4ir3/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/Ki11i0n4ir3/CVE-2015-6668.svg)
 
 ## CVE-2015-6640
  The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 does not ensure that only one vma is accessed in a certain update action, which allows attackers to gain privileges or cause a denial of service (vma list corruption) via a crafted application, aka internal bug 20017123.
