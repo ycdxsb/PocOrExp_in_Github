@@ -5,6 +5,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-20004](https://github.com/Live-Hack-CVE/CVE-2013-20004) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-20004.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-20004.svg)
 
+## CVE-2013-10010
+ A vulnerability classified as problematic has been found in zerochplus. This affects the function PrintResList of the file test/mordor/thread.res.pl. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The name of the patch is 9ddf9ecca8565341d8d26a3b2f64540bde4fa273. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218007.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-10010](https://github.com/Live-Hack-CVE/CVE-2013-10010) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-10010.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-10010.svg)
+
 ## CVE-2013-10009
  A vulnerability was found in DrAzraelTod pyChao and classified as critical. Affected by this issue is the function klauen/lesen of the file mod_fun/__init__.py. The manipulation leads to sql injection. The name of the patch is 9d8adbc07c384ba51c2583ce0819c9abb77dc648. It is recommended to apply a patch to fix this issue. VDB-217634 is the identifier assigned to this vulnerability.
 
