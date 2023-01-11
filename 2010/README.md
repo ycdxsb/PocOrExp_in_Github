@@ -256,6 +256,8 @@
 
 - [https://github.com/HandsomeCat00/Spring-CVE-2010-1622](https://github.com/HandsomeCat00/Spring-CVE-2010-1622) :  ![starts](https://img.shields.io/github/stars/HandsomeCat00/Spring-CVE-2010-1622.svg) ![forks](https://img.shields.io/github/forks/HandsomeCat00/Spring-CVE-2010-1622.svg)
 
+- [https://github.com/E-bounce/cve-2010-1622_learning_environment](https://github.com/E-bounce/cve-2010-1622_learning_environment) :  ![starts](https://img.shields.io/github/stars/E-bounce/cve-2010-1622_learning_environment.svg) ![forks](https://img.shields.io/github/forks/E-bounce/cve-2010-1622_learning_environment.svg)
+
 - [https://github.com/strainerart/Spring4Shell](https://github.com/strainerart/Spring4Shell) :  ![starts](https://img.shields.io/github/stars/strainerart/Spring4Shell.svg) ![forks](https://img.shields.io/github/forks/strainerart/Spring4Shell.svg)
 
 ## CVE-2010-1411
