@@ -1,3 +1,10 @@
+## CVE-2021-46871
+ tag.ex in Phoenix Phoenix.HTML (aka phoenix_html) before 3.0.4 allows XSS in HEEx class attributes.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2021-46871](https://github.com/Live-Hack-CVE/CVE-2021-46871) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-46871.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-46871.svg)
+
 ## CVE-2021-46856
  The multi-screen collaboration module has a path traversal vulnerability. Successful exploitation of this vulnerability may affect data confidentiality.
 
@@ -138,6 +145,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2021-46778](https://github.com/Live-Hack-CVE/CVE-2021-46778) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-46778.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-46778.svg)
 
+## CVE-2021-46767
+ Insufficient input validation in the ASP may allow an attacker with physical access, unauthorized write access to memory potentially leading to a loss of integrity or denial of service.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2021-46767](https://github.com/Live-Hack-CVE/CVE-2021-46767) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-46767.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-46767.svg)
+
 ## CVE-2021-46744
  An attacker with access to a malicious hypervisor may be able to infer data values used in a SEV guest on AMD CPUs by monitoring ciphertext values over time.
 
@@ -224,9 +238,9 @@
 
 - [https://github.com/ZAxyr/CVE-2021-46422](https://github.com/ZAxyr/CVE-2021-46422) :  ![starts](https://img.shields.io/github/stars/ZAxyr/CVE-2021-46422.svg) ![forks](https://img.shields.io/github/forks/ZAxyr/CVE-2021-46422.svg)
 
-- [https://github.com/yigexioabai/CVE-2021-46422_RCE](https://github.com/yigexioabai/CVE-2021-46422_RCE) :  ![starts](https://img.shields.io/github/stars/yigexioabai/CVE-2021-46422_RCE.svg) ![forks](https://img.shields.io/github/forks/yigexioabai/CVE-2021-46422_RCE.svg)
-
 - [https://github.com/nobodyatall648/CVE-2021-46422](https://github.com/nobodyatall648/CVE-2021-46422) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2021-46422.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2021-46422.svg)
+
+- [https://github.com/yigexioabai/CVE-2021-46422_RCE](https://github.com/yigexioabai/CVE-2021-46422_RCE) :  ![starts](https://img.shields.io/github/stars/yigexioabai/CVE-2021-46422_RCE.svg) ![forks](https://img.shields.io/github/forks/yigexioabai/CVE-2021-46422_RCE.svg)
 
 - [https://github.com/kelemaoya/CVE-2021-46422](https://github.com/kelemaoya/CVE-2021-46422) :  ![starts](https://img.shields.io/github/stars/kelemaoya/CVE-2021-46422.svg) ![forks](https://img.shields.io/github/forks/kelemaoya/CVE-2021-46422.svg)
 
@@ -1220,21 +1234,21 @@
 - [https://github.com/Live-Hack-CVE/CVE-2021-44716](https://github.com/Live-Hack-CVE/CVE-2021-44716) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-44716.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-44716.svg)
 
 ## CVE-2021-44695
- A vulnerability has been identified in SIMATIC Drive Controller family (All versions &lt; V3.0.1), SIMATIC ET 200SP Open Controller CPU 1515SP PC2 (incl. SIPLUS variants) (All versions), SIMATIC S7-1200 CPU family (incl. SIPLUS variants) (All versions &lt; V4.6.0), SIMATIC S7-1500 CPU family (incl. related ET200 CPUs and SIPLUS variants) (All versions &lt; V3.0.1), SIMATIC S7-1500 Software Controller (All versions), SIMATIC S7-PLCSIM Advanced (All versions &lt; V5.0), SIPLUS TIM 1531 IRC (All versions), TIM 1531 IRC (All versions). Affected devices don't process correctly certain special crafted packets sent to port 102/tcp, which could allow an attacker to cause a denial-of-service in the device.
+ A vulnerability has been identified in SIMATIC Drive Controller family, SIMATIC ET 200SP Open Controller CPU 1515SP PC2 (incl. SIPLUS variants), SIMATIC S7-1200 CPU family (incl. SIPLUS variants), SIMATIC S7-1500 CPU 1510SP F-1 PN, SIMATIC S7-1500 CPU 1510SP-1 PN, SIMATIC S7-1500 CPU 1511-1 PN, SIMATIC S7-1500 CPU 1511-1 PN, SIMATIC S7-1500 CPU 1511C-1 PN, SIMATIC S7-1500 CPU 1511C-1 PN, SIMATIC S7-1500 CPU 1511F-1 PN, SIMATIC S7-1500 CPU 1511F-1 PN, SIMATIC S7-1500 CPU 1511T-1 PN, SIMATIC S7-1500 CPU 1511TF-1 PN, SIMATIC S7-1500 CPU 1512C-1 PN, SIMATIC S7-1500 CPU 1512C-1 PN, SIMATIC S7-1500 CPU 1512SP F-1 PN, SIMATIC S7-1500 CPU 1512SP-1 PN, SIMATIC S7-1500 CPU 1513-1 PN, SIMATIC S7-1500 CPU 1513-1 PN, SIMATIC S7-1500 CPU 1513F-1 PN, SIMATIC S7-1500 CPU 1513F-1 PN, SIMATIC S7-1500 CPU 1513R-1 PN, SIMATIC S7-1500 CPU 1515-2 PN, SIMATIC S7-1500 CPU 1515-2 PN, SIMATIC S7-1500 CPU 1515F-2 PN, SIMATIC S7-1500 CPU 1515F-2 PN, SIMATIC S7-1500 CPU 1515R-2 PN, SIMATIC S7-1500 CPU 1515T-2 PN, SIMATIC S7-1500 CPU 1515TF-2 PN, SIMATIC S7-1500 CPU 1516-3 PN/DP, SIMATIC S7-1500 CPU 1516-3 PN/DP, SIMATIC S7-1500 CPU 1516F-3 PN/DP, SIMATIC S7-1500 CPU 1516F-3 PN/DP, SIMATIC S7-1500 CPU 1516T-3 PN/DP, SIMATIC S7-1500 CPU 1516TF-3 PN/DP, SIMATIC S7-1500 CPU 1517-3 PN/DP, SIMATIC S7-1500 CPU 1517F-3 PN/DP, SIMATIC S7-1500 CPU 1517H-3 PN, SIMATIC S7-1500 CPU 1517T-3 PN/DP, SIMATIC S7-1500 CPU 1517TF-3 PN/DP, SIMATIC S7-1500 CPU 1518-4 PN/DP, SIMATIC S7-1500 CPU 1518-4 PN/DP MFP, SIMATIC S7-1500 CPU 1518-4F PN/DP, SIMATIC S7-1500 CPU 1518F-4 PN/DP MFP, SIMATIC S7-1500 CPU 1518HF-4 PN, SIMATIC S7-1500 CPU 1518T-4 PN/DP, SIMATIC S7-1500 CPU 1518TF-4 PN/DP, SIMATIC S7-1500 CPU S7-1518-4 PN/DP ODK, SIMATIC S7-1500 CPU S7-1518F-4 PN/DP ODK, SIMATIC S7-1500 ET 200pro: CPU 1513PRO F-2 PN, SIMATIC S7-1500 ET 200pro: CPU 1513PRO-2 PN, SIMATIC S7-1500 ET 200pro: CPU 1516PRO F-2 PN, SIMATIC S7-1500 ET 200pro: CPU 1516PRO-2 PN, SIMATIC S7-1500 Software Controller, SIMATIC S7-PLCSIM Advanced, SIPLUS ET 200SP CPU 1510SP F-1 PN, SIPLUS ET 200SP CPU 1510SP F-1 PN RAIL, SIPLUS ET 200SP CPU 1510SP-1 PN, SIPLUS ET 200SP CPU 1510SP-1 PN, SIPLUS ET 200SP CPU 1510SP-1 PN RAIL, SIPLUS ET 200SP CPU 1510SP-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP F-1 PN, SIPLUS ET 200SP CPU 1512SP F-1 PN, SIPLUS ET 200SP CPU 1512SP F-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP F-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP-1 PN, SIPLUS ET 200SP CPU 1512SP-1 PN, SIPLUS ET 200SP CPU 1512SP-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP-1 PN RAIL, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN T1 RAIL, SIPLUS S7-1500 CPU 1511-1 PN T1 RAIL, SIPLUS S7-1500 CPU 1511-1 PN TX RAIL, SIPLUS S7-1500 CPU 1511-1 PN TX RAIL, SIPLUS S7-1500 CPU 1511F-1 PN, SIPLUS S7-1500 CPU 1511F-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513F-1 PN, SIPLUS S7-1500 CPU 1513F-1 PN, SIPLUS S7-1500 CPU 1515F-2 PN, SIPLUS S7-1500 CPU 1515F-2 PN, SIPLUS S7-1500 CPU 1515F-2 PN RAIL, SIPLUS S7-1500 CPU 1515F-2 PN T2 RAIL, SIPLUS S7-1500 CPU 1515R-2 PN, SIPLUS S7-1500 CPU 1515R-2 PN TX RAIL, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP RAIL, SIPLUS S7-1500 CPU 1516-3 PN/DP TX RAIL, SIPLUS S7-1500 CPU 1516F-3 PN/DP, SIPLUS S7-1500 CPU 1516F-3 PN/DP, SIPLUS S7-1500 CPU 1516F-3 PN/DP RAIL, SIPLUS S7-1500 CPU 1516F-3 PN/DP RAIL, SIPLUS S7-1500 CPU 1517H-3 PN, SIPLUS S7-1500 CPU 1518-4 PN/DP, SIPLUS S7-1500 CPU 1518-4 PN/DP MFP, SIPLUS S7-1500 CPU 1518F-4 PN/DP, SIPLUS S7-1500 CPU 1518HF-4 PN, SIPLUS TIM 1531 IRC, TIM 1531 IRC. Affected devices don't process correctly certain special crafted packets sent to port 102/tcp, which could allow an attacker to cause a denial-of-service in the device.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2021-44695](https://github.com/Live-Hack-CVE/CVE-2021-44695) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-44695.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-44695.svg)
 
 ## CVE-2021-44694
- A vulnerability has been identified in SIMATIC Drive Controller family (All versions &lt; V3.0.1), SIMATIC ET 200SP Open Controller CPU 1515SP PC2 (incl. SIPLUS variants) (All versions), SIMATIC S7-1200 CPU family (incl. SIPLUS variants) (All versions &lt; V4.6.0), SIMATIC S7-1500 CPU family (incl. related ET200 CPUs and SIPLUS variants) (All versions &lt; V3.0.1), SIMATIC S7-1500 Software Controller (All versions), SIMATIC S7-PLCSIM Advanced (All versions &lt; V5.0), SIPLUS TIM 1531 IRC (All versions), TIM 1531 IRC (All versions). Affected devices don't process correctly certain special crafted packets sent to port 102/tcp, which could allow an attacker to cause a denial-of-service in the device.
+ A vulnerability has been identified in SIMATIC Drive Controller family, SIMATIC ET 200SP Open Controller CPU 1515SP PC2 (incl. SIPLUS variants), SIMATIC S7-1200 CPU family (incl. SIPLUS variants), SIMATIC S7-1500 CPU 1510SP F-1 PN, SIMATIC S7-1500 CPU 1510SP-1 PN, SIMATIC S7-1500 CPU 1511-1 PN, SIMATIC S7-1500 CPU 1511-1 PN, SIMATIC S7-1500 CPU 1511C-1 PN, SIMATIC S7-1500 CPU 1511C-1 PN, SIMATIC S7-1500 CPU 1511F-1 PN, SIMATIC S7-1500 CPU 1511F-1 PN, SIMATIC S7-1500 CPU 1511T-1 PN, SIMATIC S7-1500 CPU 1511TF-1 PN, SIMATIC S7-1500 CPU 1512C-1 PN, SIMATIC S7-1500 CPU 1512C-1 PN, SIMATIC S7-1500 CPU 1512SP F-1 PN, SIMATIC S7-1500 CPU 1512SP-1 PN, SIMATIC S7-1500 CPU 1513-1 PN, SIMATIC S7-1500 CPU 1513-1 PN, SIMATIC S7-1500 CPU 1513F-1 PN, SIMATIC S7-1500 CPU 1513F-1 PN, SIMATIC S7-1500 CPU 1513R-1 PN, SIMATIC S7-1500 CPU 1515-2 PN, SIMATIC S7-1500 CPU 1515-2 PN, SIMATIC S7-1500 CPU 1515F-2 PN, SIMATIC S7-1500 CPU 1515F-2 PN, SIMATIC S7-1500 CPU 1515R-2 PN, SIMATIC S7-1500 CPU 1515T-2 PN, SIMATIC S7-1500 CPU 1515TF-2 PN, SIMATIC S7-1500 CPU 1516-3 PN/DP, SIMATIC S7-1500 CPU 1516-3 PN/DP, SIMATIC S7-1500 CPU 1516F-3 PN/DP, SIMATIC S7-1500 CPU 1516F-3 PN/DP, SIMATIC S7-1500 CPU 1516T-3 PN/DP, SIMATIC S7-1500 CPU 1516TF-3 PN/DP, SIMATIC S7-1500 CPU 1517-3 PN/DP, SIMATIC S7-1500 CPU 1517F-3 PN/DP, SIMATIC S7-1500 CPU 1517H-3 PN, SIMATIC S7-1500 CPU 1517T-3 PN/DP, SIMATIC S7-1500 CPU 1517TF-3 PN/DP, SIMATIC S7-1500 CPU 1518-4 PN/DP, SIMATIC S7-1500 CPU 1518-4 PN/DP MFP, SIMATIC S7-1500 CPU 1518-4F PN/DP, SIMATIC S7-1500 CPU 1518F-4 PN/DP MFP, SIMATIC S7-1500 CPU 1518HF-4 PN, SIMATIC S7-1500 CPU 1518T-4 PN/DP, SIMATIC S7-1500 CPU 1518TF-4 PN/DP, SIMATIC S7-1500 CPU S7-1518-4 PN/DP ODK, SIMATIC S7-1500 CPU S7-1518F-4 PN/DP ODK, SIMATIC S7-1500 ET 200pro: CPU 1513PRO F-2 PN, SIMATIC S7-1500 ET 200pro: CPU 1513PRO-2 PN, SIMATIC S7-1500 ET 200pro: CPU 1516PRO F-2 PN, SIMATIC S7-1500 ET 200pro: CPU 1516PRO-2 PN, SIMATIC S7-1500 Software Controller, SIMATIC S7-PLCSIM Advanced, SIPLUS ET 200SP CPU 1510SP F-1 PN, SIPLUS ET 200SP CPU 1510SP F-1 PN RAIL, SIPLUS ET 200SP CPU 1510SP-1 PN, SIPLUS ET 200SP CPU 1510SP-1 PN, SIPLUS ET 200SP CPU 1510SP-1 PN RAIL, SIPLUS ET 200SP CPU 1510SP-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP F-1 PN, SIPLUS ET 200SP CPU 1512SP F-1 PN, SIPLUS ET 200SP CPU 1512SP F-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP F-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP-1 PN, SIPLUS ET 200SP CPU 1512SP-1 PN, SIPLUS ET 200SP CPU 1512SP-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP-1 PN RAIL, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN T1 RAIL, SIPLUS S7-1500 CPU 1511-1 PN T1 RAIL, SIPLUS S7-1500 CPU 1511-1 PN TX RAIL, SIPLUS S7-1500 CPU 1511-1 PN TX RAIL, SIPLUS S7-1500 CPU 1511F-1 PN, SIPLUS S7-1500 CPU 1511F-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513F-1 PN, SIPLUS S7-1500 CPU 1513F-1 PN, SIPLUS S7-1500 CPU 1515F-2 PN, SIPLUS S7-1500 CPU 1515F-2 PN, SIPLUS S7-1500 CPU 1515F-2 PN RAIL, SIPLUS S7-1500 CPU 1515F-2 PN T2 RAIL, SIPLUS S7-1500 CPU 1515R-2 PN, SIPLUS S7-1500 CPU 1515R-2 PN TX RAIL, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP RAIL, SIPLUS S7-1500 CPU 1516-3 PN/DP TX RAIL, SIPLUS S7-1500 CPU 1516F-3 PN/DP, SIPLUS S7-1500 CPU 1516F-3 PN/DP, SIPLUS S7-1500 CPU 1516F-3 PN/DP RAIL, SIPLUS S7-1500 CPU 1516F-3 PN/DP RAIL, SIPLUS S7-1500 CPU 1517H-3 PN, SIPLUS S7-1500 CPU 1518-4 PN/DP, SIPLUS S7-1500 CPU 1518-4 PN/DP MFP, SIPLUS S7-1500 CPU 1518F-4 PN/DP, SIPLUS S7-1500 CPU 1518HF-4 PN, SIPLUS TIM 1531 IRC, TIM 1531 IRC. Affected devices don't process correctly certain special crafted packets sent to port 102/tcp, which could allow an attacker to cause a denial-of-service in the device.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2021-44694](https://github.com/Live-Hack-CVE/CVE-2021-44694) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-44694.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-44694.svg)
 
 ## CVE-2021-44693
- A vulnerability has been identified in SIMATIC Drive Controller family (All versions &lt; V3.0.1), SIMATIC ET 200SP Open Controller CPU 1515SP PC2 (incl. SIPLUS variants) (All versions), SIMATIC S7-1200 CPU family (incl. SIPLUS variants) (All versions &lt; V4.6.0), SIMATIC S7-1500 CPU family (incl. related ET200 CPUs and SIPLUS variants) (All versions &lt; V3.0.1), SIMATIC S7-1500 Software Controller (All versions), SIMATIC S7-PLCSIM Advanced (All versions &lt; V5.0), SIPLUS TIM 1531 IRC (All versions), TIM 1531 IRC (All versions). Affected devices don't process correctly certain special crafted packets sent to port 102/tcp, which could allow an attacker to cause a denial-of-service in the device.
+ A vulnerability has been identified in SIMATIC Drive Controller family, SIMATIC ET 200SP Open Controller CPU 1515SP PC2 (incl. SIPLUS variants), SIMATIC S7-1200 CPU family (incl. SIPLUS variants), SIMATIC S7-1500 CPU 1510SP F-1 PN, SIMATIC S7-1500 CPU 1510SP-1 PN, SIMATIC S7-1500 CPU 1511-1 PN, SIMATIC S7-1500 CPU 1511-1 PN, SIMATIC S7-1500 CPU 1511C-1 PN, SIMATIC S7-1500 CPU 1511C-1 PN, SIMATIC S7-1500 CPU 1511F-1 PN, SIMATIC S7-1500 CPU 1511F-1 PN, SIMATIC S7-1500 CPU 1511T-1 PN, SIMATIC S7-1500 CPU 1511TF-1 PN, SIMATIC S7-1500 CPU 1512C-1 PN, SIMATIC S7-1500 CPU 1512C-1 PN, SIMATIC S7-1500 CPU 1512SP F-1 PN, SIMATIC S7-1500 CPU 1512SP-1 PN, SIMATIC S7-1500 CPU 1513-1 PN, SIMATIC S7-1500 CPU 1513-1 PN, SIMATIC S7-1500 CPU 1513F-1 PN, SIMATIC S7-1500 CPU 1513F-1 PN, SIMATIC S7-1500 CPU 1513R-1 PN, SIMATIC S7-1500 CPU 1515-2 PN, SIMATIC S7-1500 CPU 1515-2 PN, SIMATIC S7-1500 CPU 1515F-2 PN, SIMATIC S7-1500 CPU 1515F-2 PN, SIMATIC S7-1500 CPU 1515R-2 PN, SIMATIC S7-1500 CPU 1515T-2 PN, SIMATIC S7-1500 CPU 1515TF-2 PN, SIMATIC S7-1500 CPU 1516-3 PN/DP, SIMATIC S7-1500 CPU 1516-3 PN/DP, SIMATIC S7-1500 CPU 1516F-3 PN/DP, SIMATIC S7-1500 CPU 1516F-3 PN/DP, SIMATIC S7-1500 CPU 1516T-3 PN/DP, SIMATIC S7-1500 CPU 1516TF-3 PN/DP, SIMATIC S7-1500 CPU 1517-3 PN/DP, SIMATIC S7-1500 CPU 1517F-3 PN/DP, SIMATIC S7-1500 CPU 1517H-3 PN, SIMATIC S7-1500 CPU 1517T-3 PN/DP, SIMATIC S7-1500 CPU 1517TF-3 PN/DP, SIMATIC S7-1500 CPU 1518-4 PN/DP, SIMATIC S7-1500 CPU 1518-4 PN/DP MFP, SIMATIC S7-1500 CPU 1518-4F PN/DP, SIMATIC S7-1500 CPU 1518F-4 PN/DP MFP, SIMATIC S7-1500 CPU 1518HF-4 PN, SIMATIC S7-1500 CPU 1518T-4 PN/DP, SIMATIC S7-1500 CPU 1518TF-4 PN/DP, SIMATIC S7-1500 CPU S7-1518-4 PN/DP ODK, SIMATIC S7-1500 CPU S7-1518F-4 PN/DP ODK, SIMATIC S7-1500 ET 200pro: CPU 1513PRO F-2 PN, SIMATIC S7-1500 ET 200pro: CPU 1513PRO-2 PN, SIMATIC S7-1500 ET 200pro: CPU 1516PRO F-2 PN, SIMATIC S7-1500 ET 200pro: CPU 1516PRO-2 PN, SIMATIC S7-1500 Software Controller, SIMATIC S7-PLCSIM Advanced, SIPLUS ET 200SP CPU 1510SP F-1 PN, SIPLUS ET 200SP CPU 1510SP F-1 PN RAIL, SIPLUS ET 200SP CPU 1510SP-1 PN, SIPLUS ET 200SP CPU 1510SP-1 PN, SIPLUS ET 200SP CPU 1510SP-1 PN RAIL, SIPLUS ET 200SP CPU 1510SP-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP F-1 PN, SIPLUS ET 200SP CPU 1512SP F-1 PN, SIPLUS ET 200SP CPU 1512SP F-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP F-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP-1 PN, SIPLUS ET 200SP CPU 1512SP-1 PN, SIPLUS ET 200SP CPU 1512SP-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP-1 PN RAIL, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN T1 RAIL, SIPLUS S7-1500 CPU 1511-1 PN T1 RAIL, SIPLUS S7-1500 CPU 1511-1 PN TX RAIL, SIPLUS S7-1500 CPU 1511-1 PN TX RAIL, SIPLUS S7-1500 CPU 1511F-1 PN, SIPLUS S7-1500 CPU 1511F-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513F-1 PN, SIPLUS S7-1500 CPU 1513F-1 PN, SIPLUS S7-1500 CPU 1515F-2 PN, SIPLUS S7-1500 CPU 1515F-2 PN, SIPLUS S7-1500 CPU 1515F-2 PN RAIL, SIPLUS S7-1500 CPU 1515F-2 PN T2 RAIL, SIPLUS S7-1500 CPU 1515R-2 PN, SIPLUS S7-1500 CPU 1515R-2 PN TX RAIL, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP RAIL, SIPLUS S7-1500 CPU 1516-3 PN/DP TX RAIL, SIPLUS S7-1500 CPU 1516F-3 PN/DP, SIPLUS S7-1500 CPU 1516F-3 PN/DP, SIPLUS S7-1500 CPU 1516F-3 PN/DP RAIL, SIPLUS S7-1500 CPU 1516F-3 PN/DP RAIL, SIPLUS S7-1500 CPU 1517H-3 PN, SIPLUS S7-1500 CPU 1518-4 PN/DP, SIPLUS S7-1500 CPU 1518-4 PN/DP MFP, SIPLUS S7-1500 CPU 1518F-4 PN/DP, SIPLUS S7-1500 CPU 1518HF-4 PN, SIPLUS TIM 1531 IRC, TIM 1531 IRC. Affected devices don't process correctly certain special crafted packets sent to port 102/tcp, which could allow an attacker to cause a denial-of-service in the device.
 
 
 
@@ -2104,6 +2118,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2021-44040](https://github.com/Live-Hack-CVE/CVE-2021-44040) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-44040.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-44040.svg)
 
+## CVE-2021-44014
+ A vulnerability has been identified in JT Open (All versions &lt; V11.1.1.0), JT Utilities (All versions &lt; V13.1.1.0), Solid Edge (All versions &lt; V2023). The Jt1001.dll contains a use-after-free vulnerability that could be triggered while parsing specially crafted JT files. An attacker could leverage this vulnerability to execute code in the context of the current process. (ZDI-CAN-15057, ZDI-CAN-19081)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2021-44014](https://github.com/Live-Hack-CVE/CVE-2021-44014) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-44014.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-44014.svg)
+
+## CVE-2021-44002
+ A vulnerability has been identified in JT Open (All versions &lt; V11.1.1.0), JT Utilities (All versions &lt; V13.1.1.0), Solid Edge (All versions &lt; V2023). The Jt1001.dll contains an out of bounds write past the end of an allocated structure while parsing specially crafted JT files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-15058, ZDI-CAN-19076, ZDI-CAN-19077)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2021-44002](https://github.com/Live-Hack-CVE/CVE-2021-44002) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-44002.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-44002.svg)
+
 ## CVE-2021-43998
  HashiCorp Vault and Vault Enterprise 0.11.0 up to 1.7.5 and 1.8.4 templated ACL policies would always match the first-created entity alias if multiple entity aliases exist for a specified entity and mount combination, potentially resulting in incorrect policy enforcement. Fixed in Vault and Vault Enterprise 1.7.6, 1.8.5, and 1.9.0.
 
@@ -2320,9 +2348,9 @@
 
 - [https://github.com/lalkaltest/CVE-2021-43798](https://github.com/lalkaltest/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/lalkaltest/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/lalkaltest/CVE-2021-43798.svg)
 
-- [https://github.com/gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/gps1949/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/gps1949/CVE-2021-43798.svg)
-
 - [https://github.com/light-Life/CVE-2021-43798](https://github.com/light-Life/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/light-Life/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/light-Life/CVE-2021-43798.svg)
+
+- [https://github.com/gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/gps1949/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/gps1949/CVE-2021-43798.svg)
 
 - [https://github.com/gixxyboy/CVE-2021-43798](https://github.com/gixxyboy/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/gixxyboy/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/gixxyboy/CVE-2021-43798.svg)
 
@@ -3589,6 +3617,8 @@
 
 - [https://github.com/blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution](https://github.com/blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution.svg)
 
+- [https://github.com/azazelm3dj3d/apache-traversal](https://github.com/azazelm3dj3d/apache-traversal) :  ![starts](https://img.shields.io/github/stars/azazelm3dj3d/apache-traversal.svg) ![forks](https://img.shields.io/github/forks/azazelm3dj3d/apache-traversal.svg)
+
 - [https://github.com/vulf/CVE-2021-41773_42013](https://github.com/vulf/CVE-2021-41773_42013) :  ![starts](https://img.shields.io/github/stars/vulf/CVE-2021-41773_42013.svg) ![forks](https://img.shields.io/github/forks/vulf/CVE-2021-41773_42013.svg)
 
 - [https://github.com/mauricelambert/CVE-2021-42013](https://github.com/mauricelambert/CVE-2021-42013) :  ![starts](https://img.shields.io/github/stars/mauricelambert/CVE-2021-42013.svg) ![forks](https://img.shields.io/github/forks/mauricelambert/CVE-2021-42013.svg)
@@ -3600,8 +3630,6 @@
 - [https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt) :  ![starts](https://img.shields.io/github/stars/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt.svg) ![forks](https://img.shields.io/github/forks/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt.svg)
 
 - [https://github.com/corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/corelight/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/corelight/CVE-2021-41773.svg)
-
-- [https://github.com/azazelm3dj3d/apache-traversal](https://github.com/azazelm3dj3d/apache-traversal) :  ![starts](https://img.shields.io/github/stars/azazelm3dj3d/apache-traversal.svg) ![forks](https://img.shields.io/github/forks/azazelm3dj3d/apache-traversal.svg)
 
 - [https://github.com/rnsss/CVE-2021-42013](https://github.com/rnsss/CVE-2021-42013) :  ![starts](https://img.shields.io/github/stars/rnsss/CVE-2021-42013.svg) ![forks](https://img.shields.io/github/forks/rnsss/CVE-2021-42013.svg)
 
@@ -3990,6 +4018,8 @@
 
 - [https://github.com/blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution](https://github.com/blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution.svg)
 
+- [https://github.com/azazelm3dj3d/apache-traversal](https://github.com/azazelm3dj3d/apache-traversal) :  ![starts](https://img.shields.io/github/stars/azazelm3dj3d/apache-traversal.svg) ![forks](https://img.shields.io/github/forks/azazelm3dj3d/apache-traversal.svg)
+
 - [https://github.com/HxDDD/CVE-PoC](https://github.com/HxDDD/CVE-PoC) :  ![starts](https://img.shields.io/github/stars/HxDDD/CVE-PoC.svg) ![forks](https://img.shields.io/github/forks/HxDDD/CVE-PoC.svg)
 
 - [https://github.com/mohwahyudi/cve-2021-41773](https://github.com/mohwahyudi/cve-2021-41773) :  ![starts](https://img.shields.io/github/stars/mohwahyudi/cve-2021-41773.svg) ![forks](https://img.shields.io/github/forks/mohwahyudi/cve-2021-41773.svg)
@@ -4004,19 +4034,17 @@
 
 - [https://github.com/mr-exo/CVE-2021-41773](https://github.com/mr-exo/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/mr-exo/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/mr-exo/CVE-2021-41773.svg)
 
-- [https://github.com/kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/kubota/POC-CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/kubota/POC-CVE-2021-41773.svg)
-
-- [https://github.com/LetouRaphael/Poc-CVE-2021-41773](https://github.com/LetouRaphael/Poc-CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/LetouRaphael/Poc-CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/LetouRaphael/Poc-CVE-2021-41773.svg)
-
-- [https://github.com/corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/corelight/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/corelight/CVE-2021-41773.svg)
-
 - [https://github.com/Hattan-515/POC-CVE-2021-41773](https://github.com/Hattan-515/POC-CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Hattan-515/POC-CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Hattan-515/POC-CVE-2021-41773.svg)
 
 - [https://github.com/mightysai1997/CVE-2021-41773S](https://github.com/mightysai1997/CVE-2021-41773S) :  ![starts](https://img.shields.io/github/stars/mightysai1997/CVE-2021-41773S.svg) ![forks](https://img.shields.io/github/forks/mightysai1997/CVE-2021-41773S.svg)
 
 - [https://github.com/mightysai1997/CVE-2021-41773m](https://github.com/mightysai1997/CVE-2021-41773m) :  ![starts](https://img.shields.io/github/stars/mightysai1997/CVE-2021-41773m.svg) ![forks](https://img.shields.io/github/forks/mightysai1997/CVE-2021-41773m.svg)
 
-- [https://github.com/mauricelambert/CVE-2021-41773](https://github.com/mauricelambert/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/mauricelambert/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/mauricelambert/CVE-2021-41773.svg)
+- [https://github.com/kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/kubota/POC-CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/kubota/POC-CVE-2021-41773.svg)
+
+- [https://github.com/LetouRaphael/Poc-CVE-2021-41773](https://github.com/LetouRaphael/Poc-CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/LetouRaphael/Poc-CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/LetouRaphael/Poc-CVE-2021-41773.svg)
+
+- [https://github.com/corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/corelight/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/corelight/CVE-2021-41773.svg)
 
 - [https://github.com/PentesterGuruji/CVE-2021-41773](https://github.com/PentesterGuruji/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/PentesterGuruji/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/PentesterGuruji/CVE-2021-41773.svg)
 
@@ -4028,13 +4056,15 @@
 
 - [https://github.com/LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/LudovicPatho/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/LudovicPatho/CVE-2021-41773.svg)
 
+- [https://github.com/mauricelambert/CVE-2021-41773](https://github.com/mauricelambert/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/mauricelambert/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/mauricelambert/CVE-2021-41773.svg)
+
 - [https://github.com/pirenga/CVE-2021-41773](https://github.com/pirenga/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/pirenga/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/pirenga/CVE-2021-41773.svg)
 
 - [https://github.com/0xAlmighty/CVE-2021-41773-PoC](https://github.com/0xAlmighty/CVE-2021-41773-PoC) :  ![starts](https://img.shields.io/github/stars/0xAlmighty/CVE-2021-41773-PoC.svg) ![forks](https://img.shields.io/github/forks/0xAlmighty/CVE-2021-41773-PoC.svg)
 
 - [https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt) :  ![starts](https://img.shields.io/github/stars/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt.svg) ![forks](https://img.shields.io/github/forks/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt.svg)
 
-- [https://github.com/azazelm3dj3d/apache-traversal](https://github.com/azazelm3dj3d/apache-traversal) :  ![starts](https://img.shields.io/github/stars/azazelm3dj3d/apache-traversal.svg) ![forks](https://img.shields.io/github/forks/azazelm3dj3d/apache-traversal.svg)
+- [https://github.com/walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773) :  ![starts](https://img.shields.io/github/stars/walnutsecurity/cve-2021-41773.svg) ![forks](https://img.shields.io/github/forks/walnutsecurity/cve-2021-41773.svg)
 
 - [https://github.com/TAI-REx/cve-2021-41773-nse](https://github.com/TAI-REx/cve-2021-41773-nse) :  ![starts](https://img.shields.io/github/stars/TAI-REx/cve-2021-41773-nse.svg) ![forks](https://img.shields.io/github/forks/TAI-REx/cve-2021-41773-nse.svg)
 
@@ -4044,31 +4074,13 @@
 
 - [https://github.com/the29a/CVE-2021-41773](https://github.com/the29a/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/the29a/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/the29a/CVE-2021-41773.svg)
 
-- [https://github.com/n3utr1n00/CVE-2021-41773](https://github.com/n3utr1n00/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/n3utr1n00/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/n3utr1n00/CVE-2021-41773.svg)
+- [https://github.com/mightysai1997/cve-2021-41773-v-](https://github.com/mightysai1997/cve-2021-41773-v-) :  ![starts](https://img.shields.io/github/stars/mightysai1997/cve-2021-41773-v-.svg) ![forks](https://img.shields.io/github/forks/mightysai1997/cve-2021-41773-v-.svg)
 
-- [https://github.com/walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773) :  ![starts](https://img.shields.io/github/stars/walnutsecurity/cve-2021-41773.svg) ![forks](https://img.shields.io/github/forks/walnutsecurity/cve-2021-41773.svg)
+- [https://github.com/n3utr1n00/CVE-2021-41773](https://github.com/n3utr1n00/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/n3utr1n00/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/n3utr1n00/CVE-2021-41773.svg)
 
 - [https://github.com/vida003/Scanner-CVE-2021-41773](https://github.com/vida003/Scanner-CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/vida003/Scanner-CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/vida003/Scanner-CVE-2021-41773.svg)
 
 - [https://github.com/mightysai1997/CVE-2021-41773-L-](https://github.com/mightysai1997/CVE-2021-41773-L-) :  ![starts](https://img.shields.io/github/stars/mightysai1997/CVE-2021-41773-L-.svg) ![forks](https://img.shields.io/github/forks/mightysai1997/CVE-2021-41773-L-.svg)
-
-- [https://github.com/mightysai1997/cve-2021-41773-v-](https://github.com/mightysai1997/cve-2021-41773-v-) :  ![starts](https://img.shields.io/github/stars/mightysai1997/cve-2021-41773-v-.svg) ![forks](https://img.shields.io/github/forks/mightysai1997/cve-2021-41773-v-.svg)
-
-- [https://github.com/scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/scarmandef/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/scarmandef/CVE-2021-41773.svg)
-
-- [https://github.com/McSl0vv/CVE-2021-41773](https://github.com/McSl0vv/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/McSl0vv/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/McSl0vv/CVE-2021-41773.svg)
-
-- [https://github.com/m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise) :  ![starts](https://img.shields.io/github/stars/m96dg/CVE-2021-41773-exercise.svg) ![forks](https://img.shields.io/github/forks/m96dg/CVE-2021-41773-exercise.svg)
-
-- [https://github.com/12345qwert123456/CVE-2021-41773](https://github.com/12345qwert123456/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/12345qwert123456/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/12345qwert123456/CVE-2021-41773.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2021-41773](https://github.com/Live-Hack-CVE/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-41773.svg)
-
-- [https://github.com/shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/shiomiyan/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/shiomiyan/CVE-2021-41773.svg)
-
-- [https://github.com/puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-41773.svg)
-
-- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
 
 - [https://github.com/mightysai1997/cve-2021-41773](https://github.com/mightysai1997/cve-2021-41773) :  ![starts](https://img.shields.io/github/stars/mightysai1997/cve-2021-41773.svg) ![forks](https://img.shields.io/github/forks/mightysai1997/cve-2021-41773.svg)
 
@@ -4077,6 +4089,22 @@
 - [https://github.com/MazX0p/CVE-2021-41773](https://github.com/MazX0p/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/MazX0p/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/MazX0p/CVE-2021-41773.svg)
 
 - [https://github.com/sixpacksecurity/CVE-2021-41773](https://github.com/sixpacksecurity/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/sixpacksecurity/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/sixpacksecurity/CVE-2021-41773.svg)
+
+- [https://github.com/xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/xMohamed0/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/xMohamed0/CVE-2021-41773.svg)
+
+- [https://github.com/DoTuan1/Reserch-CVE-2021-41773](https://github.com/DoTuan1/Reserch-CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/DoTuan1/Reserch-CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/DoTuan1/Reserch-CVE-2021-41773.svg)
+
+- [https://github.com/mightysai1997/CVE-2021-41773-i-](https://github.com/mightysai1997/CVE-2021-41773-i-) :  ![starts](https://img.shields.io/github/stars/mightysai1997/CVE-2021-41773-i-.svg) ![forks](https://img.shields.io/github/forks/mightysai1997/CVE-2021-41773-i-.svg)
+
+- [https://github.com/shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/shiomiyan/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/shiomiyan/CVE-2021-41773.svg)
+
+- [https://github.com/puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-41773.svg)
+
+- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
+
+- [https://github.com/wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/wolf1892/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/wolf1892/CVE-2021-41773.svg)
+
+- [https://github.com/honypot/CVE-2021-41773](https://github.com/honypot/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/honypot/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/honypot/CVE-2021-41773.svg)
 
 ## CVE-2021-41772
  Go before 1.16.10 and 1.17.x before 1.17.3 allows an archive/zip Reader.Open panic via a crafted ZIP archive containing an invalid name or an empty filename field.
@@ -4309,9 +4337,9 @@
 
 
 
-- [https://github.com/Live-Hack-CVE/CVE-2021-41381](https://github.com/Live-Hack-CVE/CVE-2021-41381) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-41381.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-41381.svg)
-
 - [https://github.com/Net-hunter121/CVE-2021-41381](https://github.com/Net-hunter121/CVE-2021-41381) :  ![starts](https://img.shields.io/github/stars/Net-hunter121/CVE-2021-41381.svg) ![forks](https://img.shields.io/github/forks/Net-hunter121/CVE-2021-41381.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2021-41381](https://github.com/Live-Hack-CVE/CVE-2021-41381) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-41381.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-41381.svg)
 
 ## CVE-2021-41379
  Windows Installer Elevation of Privilege Vulnerability
@@ -5096,23 +5124,23 @@
 
 - [https://github.com/Zeop-CyberSec/word_mshtml](https://github.com/Zeop-CyberSec/word_mshtml) :  ![starts](https://img.shields.io/github/stars/Zeop-CyberSec/word_mshtml.svg) ![forks](https://img.shields.io/github/forks/Zeop-CyberSec/word_mshtml.svg)
 
-- [https://github.com/RedLeavesChilde/CVE-2021-40444](https://github.com/RedLeavesChilde/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/RedLeavesChilde/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/RedLeavesChilde/CVE-2021-40444.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2021-40444](https://github.com/Live-Hack-CVE/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-40444.svg)
+
+- [https://github.com/RedLeavesChilde/CVE-2021-40444](https://github.com/RedLeavesChilde/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/RedLeavesChilde/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/RedLeavesChilde/CVE-2021-40444.svg)
 
 - [https://github.com/Alexcot25051999/CVE-2021-40444](https://github.com/Alexcot25051999/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/Alexcot25051999/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/Alexcot25051999/CVE-2021-40444.svg)
 
 - [https://github.com/lisinan988/CVE-2021-40444-exp](https://github.com/lisinan988/CVE-2021-40444-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2021-40444-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2021-40444-exp.svg)
 
+- [https://github.com/jamesrep/cve-2021-40444](https://github.com/jamesrep/cve-2021-40444) :  ![starts](https://img.shields.io/github/stars/jamesrep/cve-2021-40444.svg) ![forks](https://img.shields.io/github/forks/jamesrep/cve-2021-40444.svg)
+
 - [https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis](https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis) :  ![starts](https://img.shields.io/github/stars/Immersive-Labs-Sec/cve-2021-40444-analysis.svg) ![forks](https://img.shields.io/github/forks/Immersive-Labs-Sec/cve-2021-40444-analysis.svg)
 
 - [https://github.com/metehangenel/MSHTML-CVE-2021-40444](https://github.com/metehangenel/MSHTML-CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/metehangenel/MSHTML-CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/metehangenel/MSHTML-CVE-2021-40444.svg)
 
-- [https://github.com/jamesrep/cve-2021-40444](https://github.com/jamesrep/cve-2021-40444) :  ![starts](https://img.shields.io/github/stars/jamesrep/cve-2021-40444.svg) ![forks](https://img.shields.io/github/forks/jamesrep/cve-2021-40444.svg)
+- [https://github.com/TiagoSergio/CVE-2021-40444](https://github.com/TiagoSergio/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/TiagoSergio/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/TiagoSergio/CVE-2021-40444.svg)
 
 - [https://github.com/js-on/CVE-2021-40444](https://github.com/js-on/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/js-on/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/js-on/CVE-2021-40444.svg)
-
-- [https://github.com/TiagoSergio/CVE-2021-40444](https://github.com/TiagoSergio/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/TiagoSergio/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/TiagoSergio/CVE-2021-40444.svg)
 
 - [https://github.com/Jeromeyoung/MSHTMHell](https://github.com/Jeromeyoung/MSHTMHell) :  ![starts](https://img.shields.io/github/stars/Jeromeyoung/MSHTMHell.svg) ![forks](https://img.shields.io/github/forks/Jeromeyoung/MSHTMHell.svg)
 
@@ -5221,7 +5249,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2021-40369](https://github.com/Live-Hack-CVE/CVE-2021-40369) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-40369.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-40369.svg)
 
 ## CVE-2021-40365
- A vulnerability has been identified in SIMATIC Drive Controller family (All versions &lt; V3.0.1), SIMATIC ET 200SP Open Controller CPU 1515SP PC2 (incl. SIPLUS variants) (All versions), SIMATIC S7-1200 CPU family (incl. SIPLUS variants) (All versions &lt; V4.6.0), SIMATIC S7-1500 CPU family (incl. related ET200 CPUs and SIPLUS variants) (All versions &lt; V3.0.1), SIMATIC S7-1500 Software Controller (All versions), SIMATIC S7-PLCSIM Advanced (All versions &lt; V5.0), SIPLUS TIM 1531 IRC (All versions), TIM 1531 IRC (All versions). Affected devices don't process correctly certain special crafted packets sent to port 102/tcp, which could allow an attacker to cause a denial-of-service in the device.
+ A vulnerability has been identified in SIMATIC Drive Controller family, SIMATIC ET 200SP Open Controller CPU 1515SP PC2 (incl. SIPLUS variants), SIMATIC S7-1200 CPU family (incl. SIPLUS variants), SIMATIC S7-1500 CPU 1510SP F-1 PN, SIMATIC S7-1500 CPU 1510SP-1 PN, SIMATIC S7-1500 CPU 1511-1 PN, SIMATIC S7-1500 CPU 1511-1 PN, SIMATIC S7-1500 CPU 1511C-1 PN, SIMATIC S7-1500 CPU 1511C-1 PN, SIMATIC S7-1500 CPU 1511F-1 PN, SIMATIC S7-1500 CPU 1511F-1 PN, SIMATIC S7-1500 CPU 1511T-1 PN, SIMATIC S7-1500 CPU 1511TF-1 PN, SIMATIC S7-1500 CPU 1512C-1 PN, SIMATIC S7-1500 CPU 1512C-1 PN, SIMATIC S7-1500 CPU 1512SP F-1 PN, SIMATIC S7-1500 CPU 1512SP-1 PN, SIMATIC S7-1500 CPU 1513-1 PN, SIMATIC S7-1500 CPU 1513-1 PN, SIMATIC S7-1500 CPU 1513F-1 PN, SIMATIC S7-1500 CPU 1513F-1 PN, SIMATIC S7-1500 CPU 1513R-1 PN, SIMATIC S7-1500 CPU 1515-2 PN, SIMATIC S7-1500 CPU 1515-2 PN, SIMATIC S7-1500 CPU 1515F-2 PN, SIMATIC S7-1500 CPU 1515F-2 PN, SIMATIC S7-1500 CPU 1515R-2 PN, SIMATIC S7-1500 CPU 1515T-2 PN, SIMATIC S7-1500 CPU 1515TF-2 PN, SIMATIC S7-1500 CPU 1516-3 PN/DP, SIMATIC S7-1500 CPU 1516-3 PN/DP, SIMATIC S7-1500 CPU 1516F-3 PN/DP, SIMATIC S7-1500 CPU 1516F-3 PN/DP, SIMATIC S7-1500 CPU 1516T-3 PN/DP, SIMATIC S7-1500 CPU 1516TF-3 PN/DP, SIMATIC S7-1500 CPU 1517-3 PN/DP, SIMATIC S7-1500 CPU 1517F-3 PN/DP, SIMATIC S7-1500 CPU 1517H-3 PN, SIMATIC S7-1500 CPU 1517T-3 PN/DP, SIMATIC S7-1500 CPU 1517TF-3 PN/DP, SIMATIC S7-1500 CPU 1518-4 PN/DP, SIMATIC S7-1500 CPU 1518-4 PN/DP MFP, SIMATIC S7-1500 CPU 1518-4F PN/DP, SIMATIC S7-1500 CPU 1518F-4 PN/DP MFP, SIMATIC S7-1500 CPU 1518HF-4 PN, SIMATIC S7-1500 CPU 1518T-4 PN/DP, SIMATIC S7-1500 CPU 1518TF-4 PN/DP, SIMATIC S7-1500 CPU S7-1518-4 PN/DP ODK, SIMATIC S7-1500 CPU S7-1518F-4 PN/DP ODK, SIMATIC S7-1500 ET 200pro: CPU 1513PRO F-2 PN, SIMATIC S7-1500 ET 200pro: CPU 1513PRO-2 PN, SIMATIC S7-1500 ET 200pro: CPU 1516PRO F-2 PN, SIMATIC S7-1500 ET 200pro: CPU 1516PRO-2 PN, SIMATIC S7-1500 Software Controller, SIMATIC S7-PLCSIM Advanced, SIPLUS ET 200SP CPU 1510SP F-1 PN, SIPLUS ET 200SP CPU 1510SP F-1 PN RAIL, SIPLUS ET 200SP CPU 1510SP-1 PN, SIPLUS ET 200SP CPU 1510SP-1 PN, SIPLUS ET 200SP CPU 1510SP-1 PN RAIL, SIPLUS ET 200SP CPU 1510SP-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP F-1 PN, SIPLUS ET 200SP CPU 1512SP F-1 PN, SIPLUS ET 200SP CPU 1512SP F-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP F-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP-1 PN, SIPLUS ET 200SP CPU 1512SP-1 PN, SIPLUS ET 200SP CPU 1512SP-1 PN RAIL, SIPLUS ET 200SP CPU 1512SP-1 PN RAIL, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN, SIPLUS S7-1500 CPU 1511-1 PN T1 RAIL, SIPLUS S7-1500 CPU 1511-1 PN T1 RAIL, SIPLUS S7-1500 CPU 1511-1 PN TX RAIL, SIPLUS S7-1500 CPU 1511-1 PN TX RAIL, SIPLUS S7-1500 CPU 1511F-1 PN, SIPLUS S7-1500 CPU 1511F-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513-1 PN, SIPLUS S7-1500 CPU 1513F-1 PN, SIPLUS S7-1500 CPU 1513F-1 PN, SIPLUS S7-1500 CPU 1515F-2 PN, SIPLUS S7-1500 CPU 1515F-2 PN, SIPLUS S7-1500 CPU 1515F-2 PN RAIL, SIPLUS S7-1500 CPU 1515F-2 PN T2 RAIL, SIPLUS S7-1500 CPU 1515R-2 PN, SIPLUS S7-1500 CPU 1515R-2 PN TX RAIL, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP, SIPLUS S7-1500 CPU 1516-3 PN/DP RAIL, SIPLUS S7-1500 CPU 1516-3 PN/DP TX RAIL, SIPLUS S7-1500 CPU 1516F-3 PN/DP, SIPLUS S7-1500 CPU 1516F-3 PN/DP, SIPLUS S7-1500 CPU 1516F-3 PN/DP RAIL, SIPLUS S7-1500 CPU 1516F-3 PN/DP RAIL, SIPLUS S7-1500 CPU 1517H-3 PN, SIPLUS S7-1500 CPU 1518-4 PN/DP, SIPLUS S7-1500 CPU 1518-4 PN/DP MFP, SIPLUS S7-1500 CPU 1518F-4 PN/DP, SIPLUS S7-1500 CPU 1518HF-4 PN, SIPLUS TIM 1531 IRC, TIM 1531 IRC. Affected devices don't process correctly certain special crafted packets sent to port 102/tcp, which could allow an attacker to cause a denial-of-service in the device.
 
 
 
@@ -11685,11 +11713,13 @@
 
 - [https://github.com/Val-Resh/CVE-2021-29447-POC](https://github.com/Val-Resh/CVE-2021-29447-POC) :  ![starts](https://img.shields.io/github/stars/Val-Resh/CVE-2021-29447-POC.svg) ![forks](https://img.shields.io/github/forks/Val-Resh/CVE-2021-29447-POC.svg)
 
-- [https://github.com/AssassinUKG/CVE-2021-29447](https://github.com/AssassinUKG/CVE-2021-29447) :  ![starts](https://img.shields.io/github/stars/AssassinUKG/CVE-2021-29447.svg) ![forks](https://img.shields.io/github/forks/AssassinUKG/CVE-2021-29447.svg)
+- [https://github.com/viardant/CVE-2021-29447](https://github.com/viardant/CVE-2021-29447) :  ![starts](https://img.shields.io/github/stars/viardant/CVE-2021-29447.svg) ![forks](https://img.shields.io/github/forks/viardant/CVE-2021-29447.svg)
 
 - [https://github.com/thomas-osgood/CVE-2021-29447](https://github.com/thomas-osgood/CVE-2021-29447) :  ![starts](https://img.shields.io/github/stars/thomas-osgood/CVE-2021-29447.svg) ![forks](https://img.shields.io/github/forks/thomas-osgood/CVE-2021-29447.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2021-29447](https://github.com/Live-Hack-CVE/CVE-2021-29447) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-29447.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-29447.svg)
+
+- [https://github.com/AssassinUKG/CVE-2021-29447](https://github.com/AssassinUKG/CVE-2021-29447) :  ![starts](https://img.shields.io/github/stars/AssassinUKG/CVE-2021-29447.svg) ![forks](https://img.shields.io/github/forks/AssassinUKG/CVE-2021-29447.svg)
 
 - [https://github.com/Ki11i0n4ir3/CVE-2021-29447](https://github.com/Ki11i0n4ir3/CVE-2021-29447) :  ![starts](https://img.shields.io/github/stars/Ki11i0n4ir3/CVE-2021-29447.svg) ![forks](https://img.shields.io/github/forks/Ki11i0n4ir3/CVE-2021-29447.svg)
 
@@ -15620,6 +15650,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2021-22649](https://github.com/Live-Hack-CVE/CVE-2021-22649) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-22649.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-22649.svg)
 
+## CVE-2021-22600
+ A double free bug in packet_set_ring() in net/packet/af_packet.c can be exploited by a local user through crafted syscalls to escalate privileges or deny service. We recommend upgrading kernel past the effected versions or rebuilding past ec6af094ea28f0f2dda1a6a33b14cd57e36a9755
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2021-22600](https://github.com/Live-Hack-CVE/CVE-2021-22600) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-22600.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-22600.svg)
+
 ## CVE-2021-22570
  Nullptr dereference when a null char is present in a proto symbol. The symbol is parsed incorrectly, leading to an unchecked call into the proto file's name during generation of the resulting error message. Since the symbol is incorrectly parsed, the file is nullptr. We recommend upgrading to version 3.15.0 or greater.
 
@@ -16959,7 +16996,7 @@
 
 
 
-- [https://github.com/advanced-security/codeql-workshop-cve-2021-21380](https://github.com/advanced-security/codeql-workshop-cve-2021-21380) :  ![starts](https://img.shields.io/github/stars/advanced-security/codeql-workshop-cve-2021-21380.svg) ![forks](https://img.shields.io/github/forks/advanced-security/codeql-workshop-cve-2021-21380.svg)
+- [https://github.com/rvermeulen/codeql-workshop-cve-2021-21380](https://github.com/rvermeulen/codeql-workshop-cve-2021-21380) :  ![starts](https://img.shields.io/github/stars/rvermeulen/codeql-workshop-cve-2021-21380.svg) ![forks](https://img.shields.io/github/forks/rvermeulen/codeql-workshop-cve-2021-21380.svg)
 
 ## CVE-2021-21378
  Envoy is a cloud-native high-performance edge/middle/service proxy. In Envoy version 1.17.0 an attacker can bypass authentication by presenting a JWT token with an issuer that is not in the provider list when Envoy's JWT Authentication filter is configured with the `allow_missing` requirement under `requires_any` due to a mistake in implementation. Envoy's JWT Authentication filter can be configured with the `allow_missing` requirement that will be satisfied if JWT is missing (JwtMissed error) and fail if JWT is presented or invalid. Due to a mistake in implementation, a JwtUnknownIssuer error was mistakenly converted to JwtMissed when `requires_any` was configured. So if `allow_missing` was configured under `requires_any`, an attacker can bypass authentication by presenting a JWT token with an issuer that is not in the provider list. Integrity may be impacted depending on configuration if the JWT token is used to protect against writes or modifications. This regression was introduced on 2020/11/12 in PR 13839 which fixed handling `allow_missing` under RequiresAny in a JwtRequirement (see issue 13458). The AnyVerifier aggregates the children verifiers' results into a final status where JwtMissing is the default error. However, a JwtUnknownIssuer was mistakenly treated the same as a JwtMissing error and the resulting final aggregation was the default JwtMissing. As a result, `allow_missing` would allow a JWT token with an unknown issuer status. This is fixed in version 1.17.1 by PR 15194. The fix works by preferring JwtUnknownIssuer over a JwtMissing error, fixing the accidental conversion and bypass with `allow_missing`. A user could detect whether a bypass occurred if they have Envoy logs enabled with debug verbosity. Users can enable component level debug logs for JWT. The JWT filter logs will indicate that there is a request with a JWT token and a failure that the JWT token is missing.
@@ -17120,25 +17157,25 @@
 
 - [https://github.com/0ahu/CVE-2021-21300](https://github.com/0ahu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/0ahu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/0ahu/CVE-2021-21300.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2021-21300](https://github.com/Live-Hack-CVE/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-21300.svg)
-
 - [https://github.com/Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Kirill89/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Kirill89/CVE-2021-21300.svg)
 
 - [https://github.com/Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Faisal78123/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Faisal78123/CVE-2021-21300.svg)
 
 - [https://github.com/Jiang59991/cve-2021-21300](https://github.com/Jiang59991/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/Jiang59991/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Jiang59991/cve-2021-21300.svg)
 
-- [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2021-21300](https://github.com/Live-Hack-CVE/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-21300.svg)
 
 - [https://github.com/macilin/CVE-2021-21300](https://github.com/macilin/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/macilin/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/macilin/CVE-2021-21300.svg)
 
 - [https://github.com/ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300) :  ![starts](https://img.shields.io/github/stars/ETOCheney/cve-2021-21300.svg) ![forks](https://img.shields.io/github/forks/ETOCheney/cve-2021-21300.svg)
 
+- [https://github.com/fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/fengzhouc/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/fengzhouc/CVE-2021-21300.svg)
+
+- [https://github.com/erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/erranfenech/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/erranfenech/CVE-2021-21300.svg)
+
 - [https://github.com/1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/1uanWu/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/1uanWu/CVE-2021-21300.svg)
 
 - [https://github.com/Jiang59991/cve-2021-21300-plus](https://github.com/Jiang59991/cve-2021-21300-plus) :  ![starts](https://img.shields.io/github/stars/Jiang59991/cve-2021-21300-plus.svg) ![forks](https://img.shields.io/github/forks/Jiang59991/cve-2021-21300-plus.svg)
-
-- [https://github.com/erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300) :  ![starts](https://img.shields.io/github/stars/erranfenech/CVE-2021-21300.svg) ![forks](https://img.shields.io/github/forks/erranfenech/CVE-2021-21300.svg)
 
 - [https://github.com/ruifi47/cve-2021-21300-PoC](https://github.com/ruifi47/cve-2021-21300-PoC) :  ![starts](https://img.shields.io/github/stars/ruifi47/cve-2021-21300-PoC.svg) ![forks](https://img.shields.io/github/forks/ruifi47/cve-2021-21300-PoC.svg)
 
@@ -19113,11 +19150,11 @@
 
 - [https://github.com/JoaoFukuda/CVE-2021-4034_POC](https://github.com/JoaoFukuda/CVE-2021-4034_POC) :  ![starts](https://img.shields.io/github/stars/JoaoFukuda/CVE-2021-4034_POC.svg) ![forks](https://img.shields.io/github/forks/JoaoFukuda/CVE-2021-4034_POC.svg)
 
-- [https://github.com/vilasboasph/CVE-2021-4034](https://github.com/vilasboasph/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/vilasboasph/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/vilasboasph/CVE-2021-4034.svg)
-
 - [https://github.com/deoxykev/CVE-2021-4034-Rust](https://github.com/deoxykev/CVE-2021-4034-Rust) :  ![starts](https://img.shields.io/github/stars/deoxykev/CVE-2021-4034-Rust.svg) ![forks](https://img.shields.io/github/forks/deoxykev/CVE-2021-4034-Rust.svg)
 
 - [https://github.com/OxWeb4/CVE-2021-4034-](https://github.com/OxWeb4/CVE-2021-4034-) :  ![starts](https://img.shields.io/github/stars/OxWeb4/CVE-2021-4034-.svg) ![forks](https://img.shields.io/github/forks/OxWeb4/CVE-2021-4034-.svg)
+
+- [https://github.com/vilasboasph/CVE-2021-4034](https://github.com/vilasboasph/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/vilasboasph/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/vilasboasph/CVE-2021-4034.svg)
 
 - [https://github.com/ayypril/CVE-2021-4034](https://github.com/ayypril/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/ayypril/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/ayypril/CVE-2021-4034.svg)
 
@@ -19273,6 +19310,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2021-3968](https://github.com/Live-Hack-CVE/CVE-2021-3968) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-3968.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-3968.svg)
+
+## CVE-2021-3966
+ usb device bluetooth class includes a buffer overflow related to implementation of net_buf_add_mem.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2021-3966](https://github.com/Live-Hack-CVE/CVE-2021-3966) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-3966.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-3966.svg)
 
 ## CVE-2021-3948
  An incorrect default permissions vulnerability was found in the mig-controller. Due to an incorrect cluster namespaces handling an attacker may be able to migrate a malicious workload to the target cluster, impacting confidentiality, integrity, and availability of the services located on that cluster.
@@ -19738,13 +19782,6 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2021-3711](https://github.com/Live-Hack-CVE/CVE-2021-3711) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-3711.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-3711.svg)
-
-## CVE-2021-3709
- Function check_attachment_for_errors() in file data/general-hooks/ubuntu.py could be tricked into exposing private data via a constructed crash file. This issue affects: apport 2.14.1 versions prior to 2.14.1-0ubuntu3.29+esm8; 2.20.1 versions prior to 2.20.1-0ubuntu2.30+esm2; 2.20.9 versions prior to 2.20.9-0ubuntu7.26; 2.20.11 versions prior to 2.20.11-0ubuntu27.20; 2.20.11 versions prior to 2.20.11-0ubuntu65.3;
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2021-3709](https://github.com/Live-Hack-CVE/CVE-2021-3709) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-3709.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-3709.svg)
 
 ## CVE-2021-3708
  D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to OS command injection. An unauthenticated attacker on the local network may exploit this, with CVE-2021-3707, to execute any OS commands on the vulnerable device.
@@ -20419,9 +20456,9 @@
 
 - [https://github.com/Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/Ishan3011/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/Ishan3011/CVE-2021-3493.svg)
 
-- [https://github.com/cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/cerodah/overlayFS-CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/cerodah/overlayFS-CVE-2021-3493.svg)
-
 - [https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/AmIAHuman/OverlayFS-CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/AmIAHuman/OverlayFS-CVE-2021-3493.svg)
+
+- [https://github.com/cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/cerodah/overlayFS-CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/cerodah/overlayFS-CVE-2021-3493.svg)
 
 - [https://github.com/derek-turing/CVE-2021-3493](https://github.com/derek-turing/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/derek-turing/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/derek-turing/CVE-2021-3493.svg)
 
@@ -20810,8 +20847,6 @@
 
 - [https://github.com/yaunsky/cve-2021-3156](https://github.com/yaunsky/cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/yaunsky/cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/yaunsky/cve-2021-3156.svg)
 
-- [https://github.com/baka9moe/CVE-2021-3156-TestReport](https://github.com/baka9moe/CVE-2021-3156-TestReport) :  ![starts](https://img.shields.io/github/stars/baka9moe/CVE-2021-3156-TestReport.svg) ![forks](https://img.shields.io/github/forks/baka9moe/CVE-2021-3156-TestReport.svg)
-
 - [https://github.com/baka9moe/CVE-2021-3156-Exp](https://github.com/baka9moe/CVE-2021-3156-Exp) :  ![starts](https://img.shields.io/github/stars/baka9moe/CVE-2021-3156-Exp.svg) ![forks](https://img.shields.io/github/forks/baka9moe/CVE-2021-3156-Exp.svg)
 
 - [https://github.com/dinhbaouit/CVE-2021-3156](https://github.com/dinhbaouit/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/dinhbaouit/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/dinhbaouit/CVE-2021-3156.svg)
@@ -20819,6 +20854,8 @@
 - [https://github.com/elbee-cyber/CVE-2021-3156-PATCHER](https://github.com/elbee-cyber/CVE-2021-3156-PATCHER) :  ![starts](https://img.shields.io/github/stars/elbee-cyber/CVE-2021-3156-PATCHER.svg) ![forks](https://img.shields.io/github/forks/elbee-cyber/CVE-2021-3156-PATCHER.svg)
 
 - [https://github.com/lmol/CVE-2021-3156](https://github.com/lmol/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/lmol/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/lmol/CVE-2021-3156.svg)
+
+- [https://github.com/baka9moe/CVE-2021-3156-TestReport](https://github.com/baka9moe/CVE-2021-3156-TestReport) :  ![starts](https://img.shields.io/github/stars/baka9moe/CVE-2021-3156-TestReport.svg) ![forks](https://img.shields.io/github/forks/baka9moe/CVE-2021-3156-TestReport.svg)
 
 - [https://github.com/1N53C/CVE-2021-3156-PoC](https://github.com/1N53C/CVE-2021-3156-PoC) :  ![starts](https://img.shields.io/github/stars/1N53C/CVE-2021-3156-PoC.svg) ![forks](https://img.shields.io/github/forks/1N53C/CVE-2021-3156-PoC.svg)
 
@@ -20842,21 +20879,21 @@
 
 - [https://github.com/SantiagoSerrao/ScannerCVE-2021-3156](https://github.com/SantiagoSerrao/ScannerCVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/SantiagoSerrao/ScannerCVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/SantiagoSerrao/ScannerCVE-2021-3156.svg)
 
-- [https://github.com/BearCat4/CVE-2021-3156](https://github.com/BearCat4/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/BearCat4/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/BearCat4/CVE-2021-3156.svg)
-
 - [https://github.com/donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/donghyunlee00/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/donghyunlee00/CVE-2021-3156.svg)
+
+- [https://github.com/BearCat4/CVE-2021-3156](https://github.com/BearCat4/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/BearCat4/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/BearCat4/CVE-2021-3156.svg)
 
 - [https://github.com/binw2018/CVE-2021-3156-SCRIPT](https://github.com/binw2018/CVE-2021-3156-SCRIPT) :  ![starts](https://img.shields.io/github/stars/binw2018/CVE-2021-3156-SCRIPT.svg) ![forks](https://img.shields.io/github/forks/binw2018/CVE-2021-3156-SCRIPT.svg)
 
 - [https://github.com/0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/0x7183/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/0x7183/CVE-2021-3156.svg)
 
-- [https://github.com/nobodyatall648/CVE-2021-3156](https://github.com/nobodyatall648/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2021-3156.svg)
-
-- [https://github.com/TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/TheFlash2k/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/TheFlash2k/CVE-2021-3156.svg)
-
 - [https://github.com/trhacknon/CVE-2021-3156](https://github.com/trhacknon/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2021-3156.svg)
 
 - [https://github.com/chenaotian/CVE-2021-3156](https://github.com/chenaotian/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/chenaotian/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/chenaotian/CVE-2021-3156.svg)
+
+- [https://github.com/nobodyatall648/CVE-2021-3156](https://github.com/nobodyatall648/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2021-3156.svg)
+
+- [https://github.com/TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/TheFlash2k/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/TheFlash2k/CVE-2021-3156.svg)
 
 - [https://github.com/r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability](https://github.com/r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability) :  ![starts](https://img.shields.io/github/stars/r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability.svg) ![forks](https://img.shields.io/github/forks/r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability.svg)
 
@@ -20880,35 +20917,35 @@
 
 - [https://github.com/password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/password520/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/password520/CVE-2021-3156.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2021-3156](https://github.com/Live-Hack-CVE/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-3156.svg)
+
 - [https://github.com/puckiestyle/CVE-2021-3156](https://github.com/puckiestyle/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-3156.svg)
 
 - [https://github.com/freeFV/CVE-2021-3156](https://github.com/freeFV/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/freeFV/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/freeFV/CVE-2021-3156.svg)
 
 - [https://github.com/Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Y3A/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Y3A/CVE-2021-3156.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2021-3156](https://github.com/Live-Hack-CVE/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-3156.svg)
-
 - [https://github.com/nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/nexcess/sudo_cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/nexcess/sudo_cve-2021-3156.svg)
-
-- [https://github.com/Exodusro/CVE-2021-3156](https://github.com/Exodusro/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Exodusro/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Exodusro/CVE-2021-3156.svg)
-
-- [https://github.com/meowhua15/CVE-2021-3156](https://github.com/meowhua15/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/meowhua15/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/meowhua15/CVE-2021-3156.svg)
 
 - [https://github.com/gmldbd94/cve-2021-3156](https://github.com/gmldbd94/cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/gmldbd94/cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/gmldbd94/cve-2021-3156.svg)
 
-- [https://github.com/voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/voidlsd/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/voidlsd/CVE-2021-3156.svg)
+- [https://github.com/Exodusro/CVE-2021-3156](https://github.com/Exodusro/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/Exodusro/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/Exodusro/CVE-2021-3156.svg)
 
 - [https://github.com/d3c3ptic0n/CVE-2021-3156](https://github.com/d3c3ptic0n/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/d3c3ptic0n/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/d3c3ptic0n/CVE-2021-3156.svg)
 
-- [https://github.com/arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/arvindshima/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/arvindshima/CVE-2021-3156.svg)
-
-- [https://github.com/CyberCommands/CVE-2021-3156](https://github.com/CyberCommands/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/CyberCommands/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/CyberCommands/CVE-2021-3156.svg)
-
-- [https://github.com/Ashish-dawani/CVE-2021-3156-Patch](https://github.com/Ashish-dawani/CVE-2021-3156-Patch) :  ![starts](https://img.shields.io/github/stars/Ashish-dawani/CVE-2021-3156-Patch.svg) ![forks](https://img.shields.io/github/forks/Ashish-dawani/CVE-2021-3156-Patch.svg)
+- [https://github.com/voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/voidlsd/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/voidlsd/CVE-2021-3156.svg)
 
 - [https://github.com/capturingcats/CVE-2021-3156](https://github.com/capturingcats/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/capturingcats/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/capturingcats/CVE-2021-3156.svg)
 
 - [https://github.com/q77190858/CVE-2021-3156](https://github.com/q77190858/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/q77190858/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/q77190858/CVE-2021-3156.svg)
+
+- [https://github.com/arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/arvindshima/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/arvindshima/CVE-2021-3156.svg)
+
+- [https://github.com/meowhua15/CVE-2021-3156](https://github.com/meowhua15/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/meowhua15/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/meowhua15/CVE-2021-3156.svg)
+
+- [https://github.com/CyberCommands/CVE-2021-3156](https://github.com/CyberCommands/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/CyberCommands/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/CyberCommands/CVE-2021-3156.svg)
+
+- [https://github.com/Ashish-dawani/CVE-2021-3156-Patch](https://github.com/Ashish-dawani/CVE-2021-3156-Patch) :  ![starts](https://img.shields.io/github/stars/Ashish-dawani/CVE-2021-3156-Patch.svg) ![forks](https://img.shields.io/github/forks/Ashish-dawani/CVE-2021-3156-Patch.svg)
 
 - [https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build) :  ![starts](https://img.shields.io/github/stars/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build.svg) ![forks](https://img.shields.io/github/forks/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build.svg)
 
@@ -20976,9 +21013,9 @@
 
 - [https://github.com/MadExploits/Laravel-debug-Checker](https://github.com/MadExploits/Laravel-debug-Checker) :  ![starts](https://img.shields.io/github/stars/MadExploits/Laravel-debug-Checker.svg) ![forks](https://img.shields.io/github/forks/MadExploits/Laravel-debug-Checker.svg)
 
-- [https://github.com/Erikten/CVE-2021-3129](https://github.com/Erikten/CVE-2021-3129) :  ![starts](https://img.shields.io/github/stars/Erikten/CVE-2021-3129.svg) ![forks](https://img.shields.io/github/forks/Erikten/CVE-2021-3129.svg)
-
 - [https://github.com/hupe1980/CVE-2021-3129](https://github.com/hupe1980/CVE-2021-3129) :  ![starts](https://img.shields.io/github/stars/hupe1980/CVE-2021-3129.svg) ![forks](https://img.shields.io/github/forks/hupe1980/CVE-2021-3129.svg)
+
+- [https://github.com/Erikten/CVE-2021-3129](https://github.com/Erikten/CVE-2021-3129) :  ![starts](https://img.shields.io/github/stars/Erikten/CVE-2021-3129.svg) ![forks](https://img.shields.io/github/forks/Erikten/CVE-2021-3129.svg)
 
 - [https://github.com/JacobEbben/CVE-2021-3129](https://github.com/JacobEbben/CVE-2021-3129) :  ![starts](https://img.shields.io/github/stars/JacobEbben/CVE-2021-3129.svg) ![forks](https://img.shields.io/github/forks/JacobEbben/CVE-2021-3129.svg)
 
@@ -21227,13 +21264,6 @@
 
 
 - [https://github.com/quynhle7821/CVE-2021-2302](https://github.com/quynhle7821/CVE-2021-2302) :  ![starts](https://img.shields.io/github/stars/quynhle7821/CVE-2021-2302.svg) ![forks](https://img.shields.io/github/forks/quynhle7821/CVE-2021-2302.svg)
-
-## CVE-2021-2297
- Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is Prior to 6.1.20. Difficult to exploit vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle VM VirtualBox accessible data. CVSS 3.1 Base Score 5.3 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2021-2297](https://github.com/Live-Hack-CVE/CVE-2021-2297) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-2297.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-2297.svg)
 
 ## CVE-2021-2296
  Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is Prior to 6.1.20. Difficult to exploit vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle VM VirtualBox accessible data. CVSS 3.1 Base Score 5.3 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:N).
@@ -21624,9 +21654,9 @@
 
 - [https://github.com/mstxq17/CVE-2021-1675_RDL_LPE](https://github.com/mstxq17/CVE-2021-1675_RDL_LPE) :  ![starts](https://img.shields.io/github/stars/mstxq17/CVE-2021-1675_RDL_LPE.svg) ![forks](https://img.shields.io/github/forks/mstxq17/CVE-2021-1675_RDL_LPE.svg)
 
-- [https://github.com/sailay1996/PrintNightmare-LPE](https://github.com/sailay1996/PrintNightmare-LPE) :  ![starts](https://img.shields.io/github/stars/sailay1996/PrintNightmare-LPE.svg) ![forks](https://img.shields.io/github/forks/sailay1996/PrintNightmare-LPE.svg)
-
 - [https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/nemo-wq/PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/nemo-wq/PrintNightmare-CVE-2021-34527.svg)
+
+- [https://github.com/sailay1996/PrintNightmare-LPE](https://github.com/sailay1996/PrintNightmare-LPE) :  ![starts](https://img.shields.io/github/stars/sailay1996/PrintNightmare-LPE.svg) ![forks](https://img.shields.io/github/forks/sailay1996/PrintNightmare-LPE.svg)
 
 - [https://github.com/evilashz/CVE-2021-1675-LPE-EXP](https://github.com/evilashz/CVE-2021-1675-LPE-EXP) :  ![starts](https://img.shields.io/github/stars/evilashz/CVE-2021-1675-LPE-EXP.svg) ![forks](https://img.shields.io/github/forks/evilashz/CVE-2021-1675-LPE-EXP.svg)
 
@@ -21658,9 +21688,9 @@
 
 - [https://github.com/OppressionBreedsResistance/CVE-2021-1675-PrintNightmare](https://github.com/OppressionBreedsResistance/CVE-2021-1675-PrintNightmare) :  ![starts](https://img.shields.io/github/stars/OppressionBreedsResistance/CVE-2021-1675-PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/OppressionBreedsResistance/CVE-2021-1675-PrintNightmare.svg)
 
-- [https://github.com/AndrewTrube/CVE-2021-1675](https://github.com/AndrewTrube/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/AndrewTrube/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/AndrewTrube/CVE-2021-1675.svg)
-
 - [https://github.com/bartimusprimed/CVE-2021-1675-Yara](https://github.com/bartimusprimed/CVE-2021-1675-Yara) :  ![starts](https://img.shields.io/github/stars/bartimusprimed/CVE-2021-1675-Yara.svg) ![forks](https://img.shields.io/github/forks/bartimusprimed/CVE-2021-1675-Yara.svg)
+
+- [https://github.com/AndrewTrube/CVE-2021-1675](https://github.com/AndrewTrube/CVE-2021-1675) :  ![starts](https://img.shields.io/github/stars/AndrewTrube/CVE-2021-1675.svg) ![forks](https://img.shields.io/github/forks/AndrewTrube/CVE-2021-1675.svg)
 
 - [https://github.com/killtr0/CVE-2021-1675-PrintNightmare](https://github.com/killtr0/CVE-2021-1675-PrintNightmare) :  ![starts](https://img.shields.io/github/stars/killtr0/CVE-2021-1675-PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/killtr0/CVE-2021-1675-PrintNightmare.svg)
 
