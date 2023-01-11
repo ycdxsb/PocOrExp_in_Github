@@ -1,3 +1,31 @@
+## CVE-2023-22911
+ An issue was discovered in MediaWiki before 1.35.9, 1.36.x through 1.38.x before 1.38.5, and 1.39.x before 1.39.1. E-Widgets does widget replacement in HTML attributes, which can lead to XSS, because widget authors often do not expect that their widget is executed in an HTML attribute context.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22911](https://github.com/Live-Hack-CVE/CVE-2023-22911) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22911.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22911.svg)
+
+## CVE-2023-22909
+ An issue was discovered in MediaWiki before 1.35.9, 1.36.x through 1.38.x before 1.38.5, and 1.39.x before 1.39.1. SpecialMobileHistory allows remote attackers to cause a denial of service because database queries are slow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22909](https://github.com/Live-Hack-CVE/CVE-2023-22909) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22909.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22909.svg)
+
+## CVE-2023-22903
+ api/views/user.py in LibrePhotos before e19e539 has incorrect access control.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22903](https://github.com/Live-Hack-CVE/CVE-2023-22903) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22903.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22903.svg)
+
+## CVE-2023-22855
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/patrickhener/CVE-2023-22855](https://github.com/patrickhener/CVE-2023-22855) :  ![starts](https://img.shields.io/github/stars/patrickhener/CVE-2023-22855.svg) ![forks](https://img.shields.io/github/forks/patrickhener/CVE-2023-22855.svg)
+
 ## CVE-2023-22671
  Ghidra/RuntimeScripts/Linux/support/launch.sh in NSA Ghidra through 10.2.2 passes user-provided input into eval, leading to command injection when calling analyzeHeadless with untrusted input.
 
@@ -88,6 +116,360 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-22451](https://github.com/Live-Hack-CVE/CVE-2023-22451) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22451.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22451.svg)
+
+## CVE-2023-22320
+ OpenAM Web Policy Agent (OpenAM Consortium Edition) provided by OpenAM Consortium parses URLs improperly, leading to a path traversal vulnerability(CWE-22). Furthermore, a crafted URL may be evaluated incorrectly.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22320](https://github.com/Live-Hack-CVE/CVE-2023-22320) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22320.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22320.svg)
+
+## CVE-2023-21774
+ Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21675, CVE-2023-21747, CVE-2023-21748, CVE-2023-21749, CVE-2023-21750, CVE-2023-21754, CVE-2023-21755, CVE-2023-21772, CVE-2023-21773.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
+
+## CVE-2023-21773
+ Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21675, CVE-2023-21747, CVE-2023-21748, CVE-2023-21749, CVE-2023-21750, CVE-2023-21754, CVE-2023-21755, CVE-2023-21772, CVE-2023-21774.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
+
+## CVE-2023-21772
+ Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21675, CVE-2023-21747, CVE-2023-21748, CVE-2023-21749, CVE-2023-21750, CVE-2023-21754, CVE-2023-21755, CVE-2023-21773, CVE-2023-21774.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
+
+## CVE-2023-21765
+ Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21678, CVE-2023-21760.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21765](https://github.com/Live-Hack-CVE/CVE-2023-21765) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21765.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21765.svg)
+
+## CVE-2023-21764
+ Microsoft Exchange Server Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21763.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21764](https://github.com/Live-Hack-CVE/CVE-2023-21764) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21764.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21764.svg)
+
+## CVE-2023-21763
+ Microsoft Exchange Server Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21764.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21764](https://github.com/Live-Hack-CVE/CVE-2023-21764) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21764.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21764.svg)
+
+## CVE-2023-21760
+ Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21678, CVE-2023-21765.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21765](https://github.com/Live-Hack-CVE/CVE-2023-21765) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21765.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21765.svg)
+
+## CVE-2023-21755
+ Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21675, CVE-2023-21747, CVE-2023-21748, CVE-2023-21749, CVE-2023-21750, CVE-2023-21754, CVE-2023-21772, CVE-2023-21773, CVE-2023-21774.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
+
+## CVE-2023-21754
+ Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21675, CVE-2023-21747, CVE-2023-21748, CVE-2023-21749, CVE-2023-21750, CVE-2023-21755, CVE-2023-21772, CVE-2023-21773, CVE-2023-21774.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
+
+## CVE-2023-21753
+ Event Tracing for Windows Information Disclosure Vulnerability. This CVE ID is unique from CVE-2023-21536.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21536](https://github.com/Live-Hack-CVE/CVE-2023-21536) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21536.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21536.svg)
+
+## CVE-2023-21752
+ Windows Backup Service Elevation of Privilege Vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21752](https://github.com/Live-Hack-CVE/CVE-2023-21752) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21752.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21752.svg)
+
+## CVE-2023-21750
+ Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21675, CVE-2023-21747, CVE-2023-21748, CVE-2023-21749, CVE-2023-21754, CVE-2023-21755, CVE-2023-21772, CVE-2023-21773, CVE-2023-21774.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
+
+## CVE-2023-21749
+ Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21675, CVE-2023-21747, CVE-2023-21748, CVE-2023-21750, CVE-2023-21754, CVE-2023-21755, CVE-2023-21772, CVE-2023-21773, CVE-2023-21774.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
+
+## CVE-2023-21748
+ Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21675, CVE-2023-21747, CVE-2023-21749, CVE-2023-21750, CVE-2023-21754, CVE-2023-21755, CVE-2023-21772, CVE-2023-21773, CVE-2023-21774.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
+
+## CVE-2023-21747
+ Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21675, CVE-2023-21748, CVE-2023-21749, CVE-2023-21750, CVE-2023-21754, CVE-2023-21755, CVE-2023-21772, CVE-2023-21773, CVE-2023-21774.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
+
+## CVE-2023-21726
+ Windows Credential Manager User Interface Elevation of Privilege Vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21726](https://github.com/Live-Hack-CVE/CVE-2023-21726) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21726.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21726.svg)
+
+## CVE-2023-21678
+ Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21760, CVE-2023-21765.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21765](https://github.com/Live-Hack-CVE/CVE-2023-21765) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21765.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21765.svg)
+
+## CVE-2023-21675
+ Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21747, CVE-2023-21748, CVE-2023-21749, CVE-2023-21750, CVE-2023-21754, CVE-2023-21755, CVE-2023-21772, CVE-2023-21773, CVE-2023-21774.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
+
+## CVE-2023-21559
+ Windows Cryptographic Information Disclosure Vulnerability. This CVE ID is unique from CVE-2023-21540, CVE-2023-21550.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21540](https://github.com/Live-Hack-CVE/CVE-2023-21540) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21540.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21540.svg)
+
+## CVE-2023-21552
+ Windows GDI Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21532.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21532](https://github.com/Live-Hack-CVE/CVE-2023-21532) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21532.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21532.svg)
+
+## CVE-2023-21550
+ Windows Cryptographic Information Disclosure Vulnerability. This CVE ID is unique from CVE-2023-21540, CVE-2023-21559.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21540](https://github.com/Live-Hack-CVE/CVE-2023-21540) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21540.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21540.svg)
+
+## CVE-2023-21548
+ Windows Secure Socket Tunneling Protocol (SSTP) Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2023-21535.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21548](https://github.com/Live-Hack-CVE/CVE-2023-21548) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21548.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21548.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21535](https://github.com/Live-Hack-CVE/CVE-2023-21535) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21535.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21535.svg)
+
+## CVE-2023-21541
+ Windows Task Scheduler Elevation of Privilege Vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21541](https://github.com/Live-Hack-CVE/CVE-2023-21541) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21541.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21541.svg)
+
+## CVE-2023-21540
+ Windows Cryptographic Information Disclosure Vulnerability. This CVE ID is unique from CVE-2023-21550, CVE-2023-21559.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21540](https://github.com/Live-Hack-CVE/CVE-2023-21540) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21540.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21540.svg)
+
+## CVE-2023-21539
+ Windows Authentication Remote Code Execution Vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21539](https://github.com/Live-Hack-CVE/CVE-2023-21539) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21539.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21539.svg)
+
+## CVE-2023-21538
+ .NET Denial of Service Vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21538](https://github.com/Live-Hack-CVE/CVE-2023-21538) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21538.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21538.svg)
+
+## CVE-2023-21537
+ Microsoft Message Queuing (MSMQ) Elevation of Privilege Vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21537](https://github.com/Live-Hack-CVE/CVE-2023-21537) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21537.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21537.svg)
+
+## CVE-2023-21536
+ Event Tracing for Windows Information Disclosure Vulnerability. This CVE ID is unique from CVE-2023-21753.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21536](https://github.com/Live-Hack-CVE/CVE-2023-21536) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21536.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21536.svg)
+
+## CVE-2023-21535
+ Windows Secure Socket Tunneling Protocol (SSTP) Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2023-21548.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21535](https://github.com/Live-Hack-CVE/CVE-2023-21535) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21535.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21535.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21548](https://github.com/Live-Hack-CVE/CVE-2023-21548) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21548.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21548.svg)
+
+## CVE-2023-21532
+ Windows GDI Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21552.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21532](https://github.com/Live-Hack-CVE/CVE-2023-21532) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21532.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21532.svg)
+
+## CVE-2023-21531
+ Azure Service Fabric Container Elevation of Privilege Vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21531](https://github.com/Live-Hack-CVE/CVE-2023-21531) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21531.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21531.svg)
+
+## CVE-2023-21527
+ Windows iSCSI Service Denial of Service Vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21527](https://github.com/Live-Hack-CVE/CVE-2023-21527) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21527.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21527.svg)
+
+## CVE-2023-21525
+ Remote Procedure Call Runtime Denial of Service Vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21525](https://github.com/Live-Hack-CVE/CVE-2023-21525) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21525.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21525.svg)
+
+## CVE-2023-21524
+ Windows Local Security Authority (LSA) Elevation of Privilege Vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21524](https://github.com/Live-Hack-CVE/CVE-2023-21524) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21524.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21524.svg)
+
+## CVE-2023-0162
+ The CPO Companion plugin for WordPress is vulnerable to Stored Cross-Site Scripting via several of its content type settings parameters in versions up to, and including, 1.0.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0162](https://github.com/Live-Hack-CVE/CVE-2023-0162) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0162.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0162.svg)
+
+## CVE-2023-0141
+ Insufficient policy enforcement in CORS in Google Chrome prior to 109.0.5414.74 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: Low)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0141](https://github.com/Live-Hack-CVE/CVE-2023-0141) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0141.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0141.svg)
+
+## CVE-2023-0140
+ Inappropriate implementation in in File System API in Google Chrome on Windows prior to 109.0.5414.74 allowed a remote attacker to bypass file system restrictions via a crafted HTML page. (Chromium security severity: Low)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0140](https://github.com/Live-Hack-CVE/CVE-2023-0140) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0140.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0140.svg)
+
+## CVE-2023-0139
+ Insufficient validation of untrusted input in Downloads in Google Chrome on Windows prior to 109.0.5414.74 allowed a remote attacker to bypass download restrictions via a crafted HTML page. (Chromium security severity: Low)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0139](https://github.com/Live-Hack-CVE/CVE-2023-0139) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0139.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0139.svg)
+
+## CVE-2023-0138
+ Heap buffer overflow in libphonenumber in Google Chrome prior to 109.0.5414.74 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Low)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0138](https://github.com/Live-Hack-CVE/CVE-2023-0138) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0138.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0138.svg)
+
+## CVE-2023-0137
+ Heap buffer overflow in Platform Apps in Google Chrome on Chrome OS prior to 109.0.5414.74 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0137](https://github.com/Live-Hack-CVE/CVE-2023-0137) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0137.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0137.svg)
+
+## CVE-2023-0136
+ Inappropriate implementation in in Fullscreen API in Google Chrome on Android prior to 109.0.5414.74 allowed a remote attacker to execute incorrect security UI via a crafted HTML page. (Chromium security severity: Medium)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0136](https://github.com/Live-Hack-CVE/CVE-2023-0136) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0136.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0136.svg)
+
+## CVE-2023-0135
+ Use after free in Cart in Google Chrome prior to 109.0.5414.74 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via database corruption and a crafted HTML page. (Chromium security severity: Medium)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0135](https://github.com/Live-Hack-CVE/CVE-2023-0135) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0135.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0135.svg)
+
+## CVE-2023-0134
+ Use after free in Cart in Google Chrome prior to 109.0.5414.74 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via database corruption and a crafted HTML page. (Chromium security severity: Medium)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0134](https://github.com/Live-Hack-CVE/CVE-2023-0134) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0134.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0134.svg)
+
+## CVE-2023-0133
+ Inappropriate implementation in in Permission prompts in Google Chrome on Android prior to 109.0.5414.74 allowed a remote attacker to bypass main origin permission delegation via a crafted HTML page. (Chromium security severity: Medium)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0133](https://github.com/Live-Hack-CVE/CVE-2023-0133) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0133.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0133.svg)
+
+## CVE-2023-0132
+ Inappropriate implementation in in Permission prompts in Google Chrome on Windows prior to 109.0.5414.74 allowed a remote attacker to force acceptance of a permission prompt via a crafted HTML page. (Chromium security severity: Medium)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0132](https://github.com/Live-Hack-CVE/CVE-2023-0132) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0132.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0132.svg)
+
+## CVE-2023-0131
+ Inappropriate implementation in in iframe Sandbox in Google Chrome prior to 109.0.5414.74 allowed a remote attacker to bypass file download restrictions via a crafted HTML page. (Chromium security severity: Medium)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0131](https://github.com/Live-Hack-CVE/CVE-2023-0131) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0131.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0131.svg)
+
+## CVE-2023-0130
+ Inappropriate implementation in in Fullscreen API in Google Chrome on Android prior to 109.0.5414.74 allowed a remote attacker to spoof the contents of the Omnibox (URL bar) via a crafted HTML page. (Chromium security severity: Medium)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0130](https://github.com/Live-Hack-CVE/CVE-2023-0130) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0130.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0130.svg)
+
+## CVE-2023-0129
+ Heap buffer overflow in Network Service in Google Chrome prior to 109.0.5414.74 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted HTML page and specific interactions. (Chromium security severity: High)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0129](https://github.com/Live-Hack-CVE/CVE-2023-0129) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0129.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0129.svg)
+
+## CVE-2023-0128
+ Use after free in Overview Mode in Google Chrome on Chrome OS prior to 109.0.5414.74 allowed a remote attacker who convinced a user to engage in specific UI interactions to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0128](https://github.com/Live-Hack-CVE/CVE-2023-0128) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0128.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0128.svg)
 
 ## CVE-2023-0125
  A vulnerability was found in Control iD Panel. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the component Web Interface. The manipulation of the argument Nome leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-217717 was assigned to this vulnerability.
@@ -256,3 +638,66 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-0028](https://github.com/Live-Hack-CVE/CVE-2023-0028) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0028.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0028.svg)
+
+## CVE-2023-0023
+ In SAP Bank Account Management (Manage Banks) application, when a user clicks a smart link to navigate to another app, personal data is shown directly in the URL. They might get captured in log files, bookmarks, and so on disclosing sensitive data of the application.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0023](https://github.com/Live-Hack-CVE/CVE-2023-0023) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0023.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0023.svg)
+
+## CVE-2023-0022
+ SAP BusinessObjects Business Intelligence Analysis edition for OLAP allows an authenticated attacker to inject malicious code that can be executed by the application over the network. On successful exploitation, an attacker can perform operations that may completely compromise the application causing a high impact on the confidentiality, integrity, and availability of the application.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0022](https://github.com/Live-Hack-CVE/CVE-2023-0022) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0022.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0022.svg)
+
+## CVE-2023-0018
+ Due to improper input sanitization of user-controlled input in SAP BusinessObjects Business Intelligence Platform CMC application - versions 420, and 430, an attacker with basic user-level privileges can modify/upload crystal reports containing a malicious payload. Once these reports are viewable, anyone who opens those reports would be susceptible to stored XSS attacks. As a result of the attack, information maintained in the victim's web browser can be read, modified, and sent to the attacker.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0018](https://github.com/Live-Hack-CVE/CVE-2023-0018) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0018.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0018.svg)
+
+## CVE-2023-0017
+ An unauthenticated attacker in SAP NetWeaver AS for Java - version 7.50, due to improper access control, can attach to an open interface and make use of an open naming and directory API to access services which can be used to perform unauthorized operations affecting users and data on the current system. This could allow the attacker to have full read access to user data, make modifications to user data, and make services within the system unavailable.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0017](https://github.com/Live-Hack-CVE/CVE-2023-0017) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0017.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0017.svg)
+
+## CVE-2023-0016
+ SAP BPC MS 10.0 - version 810, allows an unauthorized attacker to execute crafted database queries. The exploitation of this issue could lead to SQL injection vulnerability and could allow an attacker to access, modify, and/or delete data from the backend database.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0016](https://github.com/Live-Hack-CVE/CVE-2023-0016) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0016.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0016.svg)
+
+## CVE-2023-0015
+ In SAP BusinessObjects Business Intelligence Platform (Web Intelligence user interface) - version 420, some calls return json with wrong content type in the header of the response. As a result, a custom application that calls directly the jsp of Web Intelligence DHTML may be vulnerable to XSS attacks. On successful exploitation an attacker can cause limited impact on confidentiality and integrity of the application.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0015](https://github.com/Live-Hack-CVE/CVE-2023-0015) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0015.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0015.svg)
+
+## CVE-2023-0014
+ SAP NetWeaver ABAP Server and ABAP Platform - versions SAP_BASIS 700, 701, 702, 710, 711, 730, 731, 740, 750, 751, 752, 753, 754, 755, 756, 757, KERNEL 7.22, 7.53, 7.77, 7.81, 7.85, 7.89, KRNL64UC 7.22, 7.22EXT, 7.53, KRNL64NUC 7.22, 7.22EXT, creates information about system identity in an ambiguous format. This could lead to capture-replay vulnerability and may be exploited by malicious users to obtain illegitimate access to the system.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0014](https://github.com/Live-Hack-CVE/CVE-2023-0014) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0014.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0014.svg)
+
+## CVE-2023-0013
+ The ABAP Keyword Documentation of SAP NetWeaver Application Server - versions 702, 731, 740, 750, 751, 752, 753, 754, 755, 756, 757, for ABAP and ABAP Platform does not sufficiently encode user-controlled inputs, resulting in Cross-Site Scripting (XSS) vulnerability. On successful exploitation an attacker can cause limited impact on confidentiality and integrity of the application.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0013](https://github.com/Live-Hack-CVE/CVE-2023-0013) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0013.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0013.svg)
+
+## CVE-2023-0012
+ In SAP Host Agent (Windows) - versions 7.21, 7.22, an attacker who gains local membership to SAP_LocalAdmin could be able to replace executables with a malicious file that will be started under a privileged account. Note that by default all user members of SAP_LocaAdmin are denied the ability to logon locally by security policy so that this can only occur if the system has already been compromised.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0012](https://github.com/Live-Hack-CVE/CVE-2023-0012) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0012.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0012.svg)
