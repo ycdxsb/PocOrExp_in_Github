@@ -1,3 +1,10 @@
+## CVE-2012-10005
+ A vulnerability has been found in manikandan170890 php-form-builder-class and classified as problematic. Affected by this vulnerability is an unknown functionality of the file PFBC/Element/Textarea.php of the component Textarea Handler. The manipulation of the argument value leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The name of the patch is 74897993818d826595fd5857038e6703456a594a. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218155.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-10005](https://github.com/Live-Hack-CVE/CVE-2012-10005) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-10005.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-10005.svg)
+
 ## CVE-2012-10003
  A vulnerability, which was classified as problematic, has been found in ahmyi RivetTracker. This issue affects some unknown processing. The manipulation of the argument $_SERVER['PHP_SELF'] leads to cross site scripting. The attack may be initiated remotely. The name of the patch is f053c5cc2bc44269b0496b5f275e349928a92ef9. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217271.
 
@@ -162,9 +169,9 @@
 
 
 
-- [https://github.com/Live-Hack-CVE/CVE-2012-4681](https://github.com/Live-Hack-CVE/CVE-2012-4681) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4681.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4681.svg)
-
 - [https://github.com/benjholla/CVE-2012-4681-Armoring](https://github.com/benjholla/CVE-2012-4681-Armoring) :  ![starts](https://img.shields.io/github/stars/benjholla/CVE-2012-4681-Armoring.svg) ![forks](https://img.shields.io/github/forks/benjholla/CVE-2012-4681-Armoring.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-4681](https://github.com/Live-Hack-CVE/CVE-2012-4681) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4681.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4681.svg)
 
 - [https://github.com/ZH3FENG/PoCs-CVE_2012_4681](https://github.com/ZH3FENG/PoCs-CVE_2012_4681) :  ![starts](https://img.shields.io/github/stars/ZH3FENG/PoCs-CVE_2012_4681.svg) ![forks](https://img.shields.io/github/forks/ZH3FENG/PoCs-CVE_2012_4681.svg)
 
