@@ -1,3 +1,17 @@
+## CVE-2023-23455
+ atm_tc_enqueue in net/sched/sch_atm.c in the Linux kernel through 6.1.4 allows attackers to cause a denial of service because of type confusion (non-negative numbers can sometimes indicate a TC_ACT_SHOT condition rather than valid classification results).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23455](https://github.com/Live-Hack-CVE/CVE-2023-23455) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23455.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23455.svg)
+
+## CVE-2023-23454
+ cbq_classify in net/sched/sch_cbq.c in the Linux kernel through 6.1.4 allows attackers to cause a denial of service (slab-out-of-bounds read) because of type confusion (non-negative numbers can sometimes indicate a TC_ACT_SHOT condition rather than valid classification results).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23454](https://github.com/Live-Hack-CVE/CVE-2023-23454) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23454.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23454.svg)
+
 ## CVE-2023-22959
  WebChess through 0.9.0 and 1.0.0.rc2 allows SQL injection: mainmenu.php, chess.php, and opponentspassword.php (txtFirstName, txtLastName).
 
@@ -89,12 +103,26 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-22492](https://github.com/Live-Hack-CVE/CVE-2023-22492) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22492.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22492.svg)
 
+## CVE-2023-22488
+ Flarum is a forum software for building communities. Using the notifications feature, one can read restricted/private content and bypass access checks that would be in place for such content. The notification-sending component does not check that the subject of the notification can be seen by the receiver, and proceeds to send notifications through their different channels. The alerts do not leak data despite this as they are listed based on a visibility check, however, emails are still sent out. This means that, for extensions which restrict access to posts, any actor can bypass the restriction by subscribing to the discussion if the Subscriptions extension is enabled. The attack allows the leaking of some posts in the forum database, including posts awaiting approval, posts in tags the user has no access to if they could subscribe to a discussion before it becomes private, and posts restricted by third-party extensions. All Flarum versions prior to v1.6.3 are affected. The vulnerability has been fixed and published as flarum/core v1.6.3. All communities running Flarum should upgrade as soon as possible to v1.6.3. As a workaround, disable the Flarum Subscriptions extension or disable email notifications altogether. There are no other supported workarounds for this issue for Flarum versions below 1.6.3.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22488](https://github.com/Live-Hack-CVE/CVE-2023-22488) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22488.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22488.svg)
+
 ## CVE-2023-22487
  Flarum is a forum software for building communities. Using the mentions feature provided by the flarum/mentions extension, users can mention any post ID on the forum with the special `@&quot;&lt;username&gt;&quot;#p&lt;id&gt;` syntax. The following behavior never changes no matter if the actor should be able to read the mentioned post or not: A URL to the mentioned post is inserted into the actor post HTML, leaking its discussion ID and post number. The `mentionsPosts` relationship included in the `POST /api/posts` and `PATCH /api/posts/&lt;id&gt;` JSON responses leaks the full JSON:API payload of all mentioned posts without any access control. This includes the content, date, number and attributes added by other extensions. An attacker only needs the ability to create new posts on the forum to exploit the vulnerability. This works even if new posts require approval. If they have the ability to edit posts, the attack can be performed even more discreetly by using a single post to scan any size of database and hiding the attack post content afterward. The attack allows the leaking of all posts in the forum database, including posts awaiting approval, posts in tags the user has no access to, and private discussions created by other extensions like FriendsOfFlarum Byobu. This also includes non-comment posts like tag changes or renaming events. The discussion payload is not leaked but using the mention HTML payload it's possible to extract the discussion ID of all posts and combine all posts back together into their original discussions even if the discussion title remains unknown. All Flarum versions prior to 1.6.3 are affected. The vulnerability has been fixed and published as flarum/core v1.6.3. As a workaround, user can disable the mentions extension.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-22487](https://github.com/Live-Hack-CVE/CVE-2023-22487) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22487.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22487.svg)
+
+## CVE-2023-22477
+ Mercurius is a GraphQL adapter for Fastify. Any users of Mercurius until version 10.5.0 are subjected to a denial of service attack by sending a malformed packet over WebSocket to `/graphql`. This issue was patched in #940. As a workaround, users can disable subscriptions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22477](https://github.com/Live-Hack-CVE/CVE-2023-22477) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22477.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22477.svg)
 
 ## CVE-2023-22475
  Canarytokens is an open source tool which helps track activity and actions on your network. A Cross-Site Scripting vulnerability was identified in the history page of triggered Canarytokens prior to sha-fb61290. An attacker who discovers an HTTP-based Canarytoken (a URL) can use this to execute Javascript in the Canarytoken's trigger history page (domain: canarytokens.org) when the history page is later visited by the Canarytoken's creator. This vulnerability could be used to disable or delete the affected Canarytoken, or view its activation history. It might also be used as a stepping stone towards revealing more information about the Canarytoken's creator to the attacker. For example, an attacker could recover the email address tied to the Canarytoken, or place Javascript on the history page that redirect the creator towards an attacker-controlled Canarytoken to show the creator's network location. This vulnerability is similar to CVE-2022-31113, but affected parameters reported differently from the Canarytoken trigger request. An attacker could only act on the discovered Canarytoken. This issue did not expose other Canarytokens or other Canarytoken creators. Canarytokens Docker images sha-fb61290 and later contain a patch for this issue.
@@ -172,6 +200,153 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-22451](https://github.com/Live-Hack-CVE/CVE-2023-22451) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22451.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22451.svg)
+
+## CVE-2023-22417
+ A Missing Release of Memory after Effective Lifetime vulnerability in the Flow Processing Daemon (flowd) of Juniper Networks Junos OS allows a network-based, unauthenticated attacker to cause a Denial of Service (DoS). In an IPsec VPN environment, a memory leak will be seen if a DH or ECDH group is configured. Eventually the flowd process will crash and restart. This issue affects Juniper Networks Junos OS on SRX Series: All versions prior to 19.3R3-S7; 19.4 versions prior to 19.4R2-S8, 19.4R3-S10; 20.2 versions prior to 20.2R3-S6; 20.3 versions prior to 20.3R3-S5; 20.4 versions prior to 20.4R3-S5; 21.1 versions prior to 21.1R3-S4; 21.2 versions prior to 21.2R3; 21.3 versions prior to 21.3R3; 21.4 versions prior to 21.4R2.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22417](https://github.com/Live-Hack-CVE/CVE-2023-22417) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22417.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22417.svg)
+
+## CVE-2023-22416
+ A Buffer Overflow vulnerability in SIP ALG of Juniper Networks Junos OS allows a network-based, unauthenticated attacker to cause a Denial of Service (DoS). On all MX Series and SRX Series platform with SIP ALG enabled, when a malformed SIP packet is received, the flow processing daemon (flowd) will crash and restart. This issue affects: Juniper Networks Junos OS on MX Series and SRX Series 20.4 versions prior to 20.4R3-S5; 21.1 versions prior to 21.1R3-S4; 21.2 versions prior to 21.2R3-S2; 21.3 versions prior to 21.3R3-S1; 21.4 versions prior to 21.4R3; 22.1 versions prior to 22.1R1-S2, 22.1R2; 22.2 versions prior to 22.2R1-S1, 22.2R2. This issue does not affect Juniper Networks Junos OS versions prior to 20.4R1 on SRX Series.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22416](https://github.com/Live-Hack-CVE/CVE-2023-22416) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22416.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22416.svg)
+
+## CVE-2023-22415
+ An Out-of-Bounds Write vulnerability in the H.323 ALG of Juniper Networks Junos OS allows an unauthenticated, network-based attacker to cause Denial of Service (DoS). On all MX Series and SRX Series platform, when H.323 ALG is enabled and specific H.323 packets are received simultaneously, a flow processing daemon (flowd) crash will occur. Continued receipt of these specific packets will cause a sustained Denial of Service (DoS) condition. This issue affects: Juniper Networks Junos OS on MX Series and SRX Series All versions prior to 19.4R3-S10; 20.2 versions prior to 20.2R3-S6; 20.3 versions prior to 20.3R3-S6; 20.4 versions prior to 20.4R3-S5; 21.1 versions prior to 21.1R3-S4; 21.2 versions prior to 21.2R3-S3; 21.3 versions prior to 21.3R3-S3; 21.4 versions prior to 21.4R3; 22.1 versions prior to 22.1R2-S1, 22.1R3; 22.2 versions prior to 22.2R1-S2, 22.2R2.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22415](https://github.com/Live-Hack-CVE/CVE-2023-22415) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22415.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22415.svg)
+
+## CVE-2023-22414
+ A Missing Release of Memory after Effective Lifetime vulnerability in Flexible PIC Concentrator (FPC) of Juniper Networks Junos OS allows an adjacent, unauthenticated attacker from the same shared physical or logical network, to cause a heap memory leak and leading to FPC crash. On all Junos PTX Series and QFX10000 Series, when specific EVPN VXLAN Multicast packets are processed, an FPC heap memory leak is observed. The FPC memory usage can be monitored using the CLI command &quot;show heap extensive&quot;. Following is an example output. ID Base Total(b) Free(b) Used(b) % Name Peak used % -- -------- --------- --------- --------- --- ----------- ----------- 0 37dcf000 3221225472 1694526368 1526699104 47 Kernel 47 1 17dcf000 1048576 1048576 0 0 TOE DMA 0 2 17ecf000 1048576 1048576 0 0 DMA 0 3 17fcf000 534773760 280968336 253805424 47 Packet DMA 47 This issue affects: Juniper Networks Junos OS PTX Series and QFX10000 Series 20.2 versions prior to 20.2R3-S6; 20.3 versions prior to 20.3R3-S6; 20.4 versions prior to 20.4R3-S4; 21.1 versions prior to 21.1R3-S3; 21.2 versions prior to 21.2R3-S1; 21.3 versions prior to 21.3R3; 21.4 versions prior to 21.4R3; 22.1 versions prior to 22.1R2; 22.2 versions prior to 22.2R2. This issue does not affect Juniper Networks Junos OS versions prior to 20.1R1 on PTX Series and QFX10000 Series.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22414](https://github.com/Live-Hack-CVE/CVE-2023-22414) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22414.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22414.svg)
+
+## CVE-2023-22413
+ An Improper Check or Handling of Exceptional Conditions vulnerability in the IPsec library of Juniper Networks Junos OS allows a network-based, unauthenticated attacker to cause Denial of Service (DoS). On all MX platforms with MS-MPC or MS-MIC card, when specific IPv4 packets are processed by an IPsec6 tunnel, the Multiservices PIC Management Daemon (mspmand) process will core and restart. This will lead to FPC crash. Traffic flow is impacted while mspmand restarts. Continued receipt of these specific packets will cause a sustained Denial of Service (DoS) condition. This issue only occurs if an IPv4 address is not configured on the multiservice interface. This issue affects: Juniper Networks Junos OS on MX Series All versions prior to 19.4R3-S9; 20.1 version 20.1R3-S5 and later versions; 20.2 versions prior to 20.2R3-S5; 20.3 versions prior to 20.3R3-S5; 20.4 versions prior to 20.4R3-S4; 21.1 versions prior to 21.1R3-S3; 21.2 versions prior to 21.2R3-S1; 21.3 versions prior to 21.3R3; 21.4 versions prior to 21.4R2-S1, 21.4R3; 22.1 versions prior to 22.1R2.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22413](https://github.com/Live-Hack-CVE/CVE-2023-22413) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22413.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22413.svg)
+
+## CVE-2023-22412
+ An Improper Locking vulnerability in the SIP ALG of Juniper Networks Junos OS on MX Series with MS-MPC or MS-MIC card and SRX Series allows an unauthenticated, network-based attacker to cause a flow processing daemon (flowd) crash and thereby a Denial of Service (DoS). Continued receipt of these specific packets will cause a sustained Denial of Service condition. This issue occurs when SIP ALG is enabled and specific SIP messages are processed simultaneously. This issue affects: Juniper Networks Junos OS on MX Series and SRX Series 20.4 versions prior to 20.4R3-S4; 21.1 versions prior to 21.1R3-S3; 21.2 versions prior to 21.2R3-S2; 21.3 versions prior to 21.3R3; 21.4 versions prior to 21.4R3; 22.1 versions prior to 22.1R2. This issue does not affect Juniper Networks Junos OS versions prior to 20.4R1 on MX Series, or SRX Series.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22412](https://github.com/Live-Hack-CVE/CVE-2023-22412) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22412.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22412.svg)
+
+## CVE-2023-22411
+ An Out-of-Bounds Write vulnerability in Flow Processing Daemon (flowd) of Juniper Networks Junos OS allows an unauthenticated, network-based attacker to cause Denial of Service (DoS). On SRX Series devices using Unified Policies with IPv6, when a specific IPv6 packet goes through a dynamic-application filter which will generate an ICMP deny message, the flowd core is observed and the PFE is restarted. This issue affects: Juniper Networks Junos OS on SRX Series: 19.2 versions prior to 19.2R3-S6; 19.3 versions prior to 19.3R3-S6; 19.4 versions prior to 19.4R3-S9; 20.2 versions prior to 20.2R3-S5; 20.3 versions prior to 20.3R3-S4; 20.4 versions prior to 20.4R3-S3; 21.1 versions prior to 21.1R3; 21.2 versions prior to 21.2R3; 21.3 versions prior to 21.3R2; 21.4 versions prior to 21.4R2.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22411](https://github.com/Live-Hack-CVE/CVE-2023-22411) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22411.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22411.svg)
+
+## CVE-2023-22410
+ A Missing Release of Memory after Effective Lifetime vulnerability in the Juniper Networks Junos OS on MX Series platforms with MPC10/MPC11 line cards, allows an unauthenticated adjacent attacker to cause a Denial of Service (DoS). Devices are only vulnerable when the Suspicious Control Flow Detection (scfd) feature is enabled. Upon enabling this specific feature, an attacker sending specific traffic is causing memory to be allocated dynamically and it is not freed. Memory is not freed even after deactivating this feature. Sustained processing of such traffic will eventually lead to an out of memory condition that prevents all services from continuing to function, and requires a manual restart to recover. The FPC memory usage can be monitored using the CLI command &quot;show chassis fpc&quot;. On running the above command, the memory of AftDdosScfdFlow can be observed to detect the memory leak. This issue affects Juniper Networks Junos OS on MX Series: All versions prior to 20.2R3-S5; 20.3 version 20.3R1 and later versions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22410](https://github.com/Live-Hack-CVE/CVE-2023-22410) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22410.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22410.svg)
+
+## CVE-2023-22409
+ An Unchecked Input for Loop Condition vulnerability in a NAT library of Juniper Networks Junos OS allows a local authenticated attacker with low privileges to cause a Denial of Service (DoS). When an inconsistent &quot;deterministic NAT&quot; configuration is present on an SRX, or MX with SPC3 and then a specific CLI command is issued the SPC will crash and restart. Repeated execution of this command will lead to a sustained DoS. Such a configuration is characterized by the total number of port blocks being greater than the total number of hosts. An example for such configuration is: [ services nat source pool TEST-POOL address x.x.x.0/32 to x.x.x.15/32 ] [ services nat source pool TEST-POOL port deterministic block-size 1008 ] [ services nat source pool TEST-POOL port deterministic host address y.y.y.0/24] [ services nat source pool TEST-POOL port deterministic include-boundary-addresses] where according to the following calculation: 65536-1024=64512 (number of usable ports per IP address, implicit) 64512/1008=64 (number of port blocks per Nat IP) x.x.x.0/32 to x.x.x.15/32 = 16 (NAT IP addresses available in NAT pool) total port blocks in NAT Pool = 64 blocks per IP * 16 IPs = 1024 Port blocks host address y.y.y.0/24 = 256 hosts (with include-boundary-addresses) If the port block size is configured to be 4032, then the total port blocks are (64512/4032) * 16 = 256 which is equivalent to the total host addresses of 256, and the issue will not be seen. This issue affects Juniper Networks Junos OS on SRX Series, and MX Series with SPC3: All versions prior to 19.4R3-S10; 20.1 version 20.1R1 and later versions; 20.2 versions prior to 20.2R3-S6; 20.3 versions prior to 20.3R3-S6; 20.4 versions prior to 20.4R3-S5; 21.1 versions prior to 21.1R3-S4; 21.2 versions prior to 21.2R3-S3; 21.3 versions prior to 21.3R3-S3; 21.4 versions prior to 21.4R3-S1; 22.1 versions prior to 22.1R2-S2, 22.1R3; 22.2 versions prior to 22.2R2.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22409](https://github.com/Live-Hack-CVE/CVE-2023-22409) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22409.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22409.svg)
+
+## CVE-2023-22408
+ An Improper Validation of Array Index vulnerability in the SIP ALG of Juniper Networks Junos OS on SRX 5000 Series allows a network-based, unauthenticated attacker to cause a Denial of Service (DoS). When an attacker sends an SIP packets with a malformed SDP field then the SIP ALG can not process it which will lead to an FPC crash and restart. Continued receipt of these specific packets will lead to a sustained Denial of Service. This issue can only occur when both below mentioned conditions are fulfilled: 1. Call distribution needs to be enabled: [security alg sip enable-call-distribution] 2. The SIP ALG needs to be enabled, either implicitly / by default or by way of configuration. To confirm whether SIP ALG is enabled on SRX, and MX with SPC3 use the following command: user@host&gt; show security alg status | match sip SIP : Enabled This issue affects Juniper Networks Junos OS on SRX 5000 Series: 20.4 versions prior to 20.4R3-S5; 21.1 versions prior to 21.1R3-S4; 21.2 versions prior to 21.2R3-S3; 21.3 versions prior to 21.3R3-S3; 21.4 versions prior to 21.4R3-S2; 22.1 versions prior to 22.1R2-S2, 22.1R3; 22.2 versions prior to 22.2R3; 22.3 versions prior to 22.3R1-S1, 22.3R2. This issue does not affect Juniper Networks Junos OS versions prior to 20.4R1.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22408](https://github.com/Live-Hack-CVE/CVE-2023-22408) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22408.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22408.svg)
+
+## CVE-2023-22407
+ An Incomplete Cleanup vulnerability in the Routing Protocol Daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows an adjacent, unauthenticated attacker to cause a Denial of Service (DoS). An rpd crash can occur when an MPLS TE tunnel configuration change occurs on a directly connected router. This issue affects: Juniper Networks Junos OS All versions prior to 18.4R2-S7; 19.1 versions prior to 19.1R3-S2; 19.2 versions prior to 19.2R3; 19.3 versions prior to 19.3R3; 19.4 versions prior to 19.4R3; 20.1 versions prior to 20.1R2; 20.2 versions prior to 20.2R2. Juniper Networks Junos OS Evolved All versions prior to 19.2R3-EVO; 19.3 versions prior to 19.3R3-EVO; 19.4 versions prior to 19.4R3-EVO; 20.1 versions prior to 20.1R3-EVO; 20.2 versions prior to 20.2R2-EVO.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22407](https://github.com/Live-Hack-CVE/CVE-2023-22407) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22407.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22407.svg)
+
+## CVE-2023-22406
+ A Missing Release of Memory after Effective Lifetime vulnerability in the kernel of Juniper Networks Junos OS and Junos OS Evolved allows an adjacent, unauthenticated attacker to cause a Denial of Service (DoS). In a segment-routing scenario with OSPF as IGP, when a peer interface continuously flaps, next-hop churn will happen and a continuous increase in Routing Protocol Daemon (rpd) memory consumption will be observed. This will eventually lead to an rpd crash and restart when the memory is full. The memory consumption can be monitored using the CLI command &quot;show task memory detail&quot; as shown in the following example: user@host&gt; show task memory detail | match &quot;RT_NEXTHOPS_TEMPLATE|RT_TEMPLATE_BOOK_KEE&quot; RT_NEXTHOPS_TEMPLATE 1008 1024 T 50 51200 50 51200 RT_NEXTHOPS_TEMPLATE 688 768 T 50 38400 50 38400 RT_NEXTHOPS_TEMPLATE 368 384 T 412330 158334720 412330 158334720 RT_TEMPLATE_BOOK_KEE 2064 2560 T 33315 85286400 33315 85286400 user@host&gt; show task memory detail | match &quot;RT_NEXTHOPS_TEMPLATE|RT_TEMPLATE_BOOK_KEE&quot; RT_NEXTHOPS_TEMPLATE 1008 1024 T 50 51200 50 51200 RT_NEXTHOPS_TEMPLATE 688 768 T 50 38400 50 38400 RT_NEXTHOPS_TEMPLATE 368 384 T 419005 160897920 419005 160897920 &lt;=== RT_TEMPLATE_BOOK_KEE 2064 2560 T 39975 102336000 39975 10233600 &lt;=== This issue affects: Juniper Networks Junos OS All versions prior to 19.3R3-S7; 19.4 versions prior to 19.4R2-S8, 19.4R3-S9; 20.2 versions prior to 20.2R3-S5; 20.3 versions prior to 20.3R3-S5; 20.4 versions prior to 20.4R3-S4; 21.1 versions prior to 21.1R3-S3; 21.2 versions prior to 21.2R3-S2; 21.3 versions prior to 21.3R3-S1; 21.4 versions prior to 21.4R2-S1, 21.4R3; 22.1 versions prior to 22.1R2. Juniper Networks Junos OS Evolved All versions prior to 20.4R3-S4-EVO; 21.4 versions prior to 21.4R2-S1-EVO, 21.4R3-EVO; 22.1 versions prior to 22.1R2-EVO.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22406](https://github.com/Live-Hack-CVE/CVE-2023-22406) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22406.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22406.svg)
+
+## CVE-2023-22405
+ An Improper Preservation of Consistency Between Independent Representations of Shared State vulnerability in the Packet Forwarding Engine (PFE) of Juniper Networks Junos OS allows an adjacent, unauthenticated attacker to cause a Denial of Service (DoS) to device due to out of resources. When a device is configured with &quot;service-provider/SP style&quot; switching, and mac-limiting is configured on an Aggregated Ethernet (ae) interface, and then a PFE is restarted or the device is rebooted, mac-limiting doesn't work anymore. Please note that the issue might not be apparent as traffic will continue to flow through the device although the mac table and respective logs will indicate that mac limit is reached. Functionality can be restored by removing and re-adding the MAC limit configuration. This issue affects Juniper Networks Junos OS on QFX5k Series, EX46xx Series: All versions prior to 20.2R3-S5; 20.3 versions prior to 20.3R3-S5; 20.4 versions prior to 20.4R3-S4; 21.1 versions prior to 21.1R3-S3; 21.2 versions prior to 21.2R3-S1; 21.3 versions prior to 21.3R3 on; 21.4 versions prior to 21.4R3 on; 22.1 versions prior to 22.1R2 on.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22405](https://github.com/Live-Hack-CVE/CVE-2023-22405) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22405.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22405.svg)
+
+## CVE-2023-22404
+ An Out-of-bounds Write vulnerability in the Internet Key Exchange Protocol daemon (iked) of Juniper Networks Junos OS on SRX series and MX with SPC3 allows an authenticated, network-based attacker to cause a Denial of Service (DoS). iked will crash and restart, and the tunnel will not come up when a peer sends a specifically formatted payload during the negotiation. This will impact other IKE negotiations happening at the same time. Continued receipt of this specifically formatted payload will lead to continuous crashing of iked and thereby the inability for any IKE negotiations to take place. Note that this payload is only processed after the authentication has successfully completed. So the issue can only be exploited by an attacker who can successfully authenticate. This issue affects Juniper Networks Junos OS on SRX Series, and MX Series with SPC3: All versions prior to 19.3R3-S7; 19.4 versions prior to 19.4R3-S9; 20.2 versions prior to 20.2R3-S5; 20.3 versions prior to 20.3R3-S5; 20.4 versions prior to 20.4R3-S4; 21.1 versions prior to 21.1R3-S3; 21.2 versions prior to 21.2R3-S2; 21.3 versions prior to 21.3R3-S1; 21.4 versions prior to 21.4R2-S1, 21.4R3; 22.1 versions prior to 22.1R1-S2, 22.1R2.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22404](https://github.com/Live-Hack-CVE/CVE-2023-22404) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22404.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22404.svg)
+
+## CVE-2023-22403
+ An Allocation of Resources Without Limits or Throttling vulnerability in the Packet Forwarding Engine (PFE) of Juniper Networks Junos OS allows a network-based, unauthenticated attacker to cause a Denial of Service (DoS). On QFX10k Series Inter-Chassis Control Protocol (ICCP) is used in MC-LAG topologies to exchange control information between the devices in the topology. ICCP connection flaps and sync issues will be observed due to excessive specific traffic to the local device. This issue affects Juniper Networks Junos OS: All versions prior to 20.2R3-S7; 20.4 versions prior to 20.4R3-S4; 21.1 versions prior to 21.1R3-S3; 21.2 versions prior to 21.2R3-S1; 21.3 versions prior to 21.3R3; 21.4 versions prior to 21.4R3; 22.1 versions prior to 22.1R2.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22403](https://github.com/Live-Hack-CVE/CVE-2023-22403) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22403.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22403.svg)
+
+## CVE-2023-22402
+ A Use After Free vulnerability in the kernel of Juniper Networks Junos OS Evolved allows an unauthenticated, network-based attacker to cause a Denial of Service (DoS). In a Non Stop Routing (NSR) scenario, an unexpected kernel restart might be observed if &quot;bgp auto-discovery&quot; is enabled and if there is a BGP neighbor flap of auto-discovery sessions for any reason. This is a race condition which is outside of an attackers direct control and it depends on system internal timing whether this issue occurs. This issue affects Juniper Networks Junos OS Evolved: 21.3 versions prior to 21.3R3-EVO; 21.4 versions prior to 21.4R2-EVO; 22.1 versions prior to 22.1R2-EVO; 22.2 versions prior to 22.2R1-S1-EVO, 22.2R2-EVO.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22402](https://github.com/Live-Hack-CVE/CVE-2023-22402) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22402.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22402.svg)
+
+## CVE-2023-22401
+ An Improper Validation of Array Index vulnerability in the Advanced Forwarding Toolkit Manager daemon (aftmand) of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated, network-based attacker to cause a Denial of Service (DoS). On the PTX10008 and PTX10016 platforms running Junos OS or Junos OS Evolved, when a specific SNMP MIB is queried this will cause a PFE crash and the FPC will go offline and not automatically recover. A system restart is required to get the affected FPC in an operational state again. This issue affects: Juniper Networks Junos OS 22.1 version 22.1R2 and later versions; 22.1 versions prior to 22.1R3; 22.2 versions prior to 22.2R2. Juniper Networks Junos OS Evolved 21.3-EVO version 21.3R3-EVO and later versions; 21.4-EVO version 21.4R1-S2-EVO, 21.4R2-EVO and later versions prior to 21.4R2-S1-EVO; 22.1-EVO version 22.1R2-EVO and later versions prior to 22.1R3-EVO; 22.2-EVO versions prior to 22.2R1-S1-EVO, 22.2R2-EVO.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22401](https://github.com/Live-Hack-CVE/CVE-2023-22401) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22401.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22401.svg)
+
+## CVE-2023-22400
+ An Uncontrolled Resource Consumption vulnerability in the PFE management daemon (evo-pfemand) of Juniper Networks Junos OS Evolved allows an unauthenticated, network-based attacker to cause an FPC crash leading to a Denial of Service (DoS). When a specific SNMP GET operation or a specific CLI command is executed this will cause a GUID resource leak, eventually leading to exhaustion and result in an FPC crash and reboot. GUID exhaustion will trigger a syslog message like one of the following for example: evo-pfemand[&lt;pid&gt;]: get_next_guid: Ran out of Guid Space ... evo-aftmand-zx[&lt;pid&gt;]: get_next_guid: Ran out of Guid Space ... This leak can be monitored by running the following command and taking note of the value in the rightmost column labeled Guids: user@host&gt; show platform application-info allocations app evo-pfemand | match &quot;IFDId|IFLId|Context&quot; Node Application Context Name Live Allocs Fails Guids re0 evo-pfemand net::juniper::interfaces::IFDId 0 3448 0 3448 re0 evo-pfemand net::juniper::interfaces::IFLId 0 561 0 561 user@host&gt; show platform application-info allocations app evo-pfemand | match &quot;IFDId|IFLId|Context&quot; Node Application Context Name Live Allocs Fails Guids re0 evo-pfemand net::juniper::interfaces::IFDId 0 3784 0 3784 re0 evo-pfemand net::juniper::interfaces::IFLId 0 647 0 647 This issue affects Juniper Networks Junos OS Evolved: All versions prior to 20.4R3-S3-EVO; 21.1-EVO version 21.1R1-EVO and later versions; 21.2-EVO versions prior to 21.2R3-S4-EVO; 21.3-EVO version 21.3R1-EVO and later versions; 21.4-EVO versions prior to 21.4R2-EVO.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22400](https://github.com/Live-Hack-CVE/CVE-2023-22400) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22400.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22400.svg)
+
+## CVE-2023-22399
+ When sFlow is enabled and it monitors a packet forwarded via ECMP, a buffer management vulnerability in the dcpfe process of Juniper Networks Junos OS on QFX10K Series systems allows an attacker to cause the Packet Forwarding Engine (PFE) to crash and restart by sending specific genuine packets to the device, resulting in a Denial of Service (DoS) condition. The dcpfe process tries to copy more data into a smaller buffer, which overflows and corrupts the buffer, causing a crash of the dcpfe process. Continued receipt and processing of these packets will create a sustained Denial of Service (DoS) condition. This issue affects Juniper Networks Junos OS on QFX10K Series: All versions prior to 19.4R3-S9; 20.2 versions prior to 20.2R3-S6; 20.3 versions prior to 20.3R3-S6; 20.4 versions prior to 20.4R3-S5; 21.1 versions prior to 21.1R3-S4; 21.2 versions prior to 21.2R3-S3; 21.3 versions prior to 21.3R3-S2; 21.4 versions prior to 21.4R2-S2, 21.4R3; 22.1 versions prior to 22.1R2; 22.2 versions prior to 22.2R1-S2, 22.2R2.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22399](https://github.com/Live-Hack-CVE/CVE-2023-22399) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22399.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22399.svg)
+
+## CVE-2023-22397
+ An Allocation of Resources Without Limits or Throttling weakness in the memory management of the Packet Forwarding Engine (PFE) on Juniper Networks Junos OS Evolved PTX10003 Series devices allows an adjacently located attacker who has established certain preconditions and knowledge of the environment to send certain specific genuine packets to begin a Time-of-check Time-of-use (TOCTOU) Race Condition attack which will cause a memory leak to begin. Once this condition begins, and as long as the attacker is able to sustain the offending traffic, a Distributed Denial of Service (DDoS) event occurs. As a DDoS event, the offending packets sent by the attacker will continue to flow from one device to another as long as they are received and processed by any devices, ultimately causing a cascading outage to any vulnerable devices. Devices not vulnerable to the memory leak will process and forward the offending packet(s) to neighboring devices. Due to internal anti-flood security controls and mechanisms reaching their maximum limit of response in the worst-case scenario, all affected Junos OS Evolved devices will reboot in as little as 1.5 days. Reboots to restore services cannot be avoided once the memory leak begins. The device will self-recover after crashing and rebooting. Operator intervention isn't required to restart the device. This issue affects: Juniper Networks Junos OS Evolved on PTX10003: All versions prior to 20.4R3-S4-EVO; 21.3 versions prior to 21.3R3-S1-EVO; 21.4 versions prior to 21.4R2-S2-EVO, 21.4R3-EVO; 22.1 versions prior to 22.1R1-S2-EVO, 22.1R2-EVO; 22.2 versions prior to 22.2R2-EVO. To check memory, customers may VTY to the PFE first then execute the following show statement: show jexpr jtm ingress-main-memory chip 255 | no-more Alternatively one may execute from the RE CLI: request pfe execute target fpc0 command &quot;show jexpr jtm ingress-main-memory chip 255 | no-more&quot; Iteration 1: Example output: Mem type: NH, alloc type: JTM 136776 bytes used (max 138216 bytes used) 911568 bytes available (909312 bytes from free pages) Iteration 2: Example output: Mem type: NH, alloc type: JTM 137288 bytes used (max 138216 bytes used) 911056 bytes available (909312 bytes from free pages) The same can be seen in the CLI below, assuming the scale does not change: show npu memory info Example output: FPC0:NPU16 mem-util-jnh-nh-size 2097152 FPC0:NPU16 mem-util-jnh-nh-allocated 135272 FPC0:NPU16 mem-util-jnh-nh-utilization 6
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22397](https://github.com/Live-Hack-CVE/CVE-2023-22397) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22397.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22397.svg)
+
+## CVE-2023-22395
+ A Missing Release of Memory after Effective Lifetime vulnerability in the kernel of Juniper Networks Junos OS allows an unauthenticated, adjacent attacker to cause a Denial of Service (DoS). In an MPLS scenario specific packets destined to an Integrated Routing and Bridging (irb) interface of the device will cause a buffer (mbuf) to leak. Continued receipt of these specific packets will eventually cause a loss of connectivity to and from the device, and requires a reboot to recover. These mbufs can be monitored by using the CLI command 'show system buffers': user@host&gt; show system buffers 783/1497/2280 mbufs in use (current/cache/total) user@host&gt; show system buffers 793/1487/2280 mbufs in use (current/cache/total) &lt;&lt;&lt;&lt;&lt;&lt; mbuf usage increased This issue affects Juniper Networks Junos OS: All versions prior to 19.3R3-S7; 19.4 versions prior to 19.4R3-S9; 20.1 version 20.1R1 and later versions; 20.2 versions prior to 20.2R3-S5; 20.3 versions prior to 20.3R3-S5; 20.4 versions prior to 20.4R3-S4; 21.1 versions prior to 21.1R3-S3; 21.2 versions prior to 21.2R3-S2; 21.3 versions prior to 21.3R3-S1; 21.4 versions prior to 21.4R3; 22.1 versions prior to 22.1R2.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22395](https://github.com/Live-Hack-CVE/CVE-2023-22395) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22395.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22395.svg)
 
 ## CVE-2023-22320
  OpenAM Web Policy Agent (OpenAM Consortium Edition) provided by OpenAM Consortium parses URLs improperly, leading to a path traversal vulnerability(CWE-22). Furthermore, a crafted URL may be evaluated incorrectly.
@@ -480,6 +655,41 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-20523](https://github.com/Live-Hack-CVE/CVE-2023-20523) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-20523.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-20523.svg)
 
+## CVE-2023-0258
+ A vulnerability was found in SourceCodester Online Food Ordering System 2.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the component Category List Handler. The manipulation of the argument Reason with the input &quot;&gt;&lt;script&gt;prompt(1)&lt;/script&gt; leads to cross site scripting. The attack may be launched remotely. VDB-218186 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0258](https://github.com/Live-Hack-CVE/CVE-2023-0258) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0258.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0258.svg)
+
+## CVE-2023-0257
+ A vulnerability was found in SourceCodester Online Food Ordering System 2.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /fos/admin/index.php?page=menu of the component Menu Form. The manipulation of the argument Image with the input &lt;?php system($_GET['c']); ?&gt; leads to unrestricted upload. The attack can be launched remotely. The identifier VDB-218185 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0257](https://github.com/Live-Hack-CVE/CVE-2023-0257) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0257.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0257.svg)
+
+## CVE-2023-0256
+ A vulnerability was found in SourceCodester Online Food Ordering System 2.0. It has been classified as critical. Affected is an unknown function of the file /fos/admin/ajax.php?action=login of the component Login Page. The manipulation of the argument Username leads to sql injection. It is possible to launch the attack remotely. The identifier of this vulnerability is VDB-218184.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0256](https://github.com/Live-Hack-CVE/CVE-2023-0256) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0256.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0256.svg)
+
+## CVE-2023-0254
+ The Simple Membership WP user Import plugin for WordPress is vulnerable to SQL Injection via the &#8216;orderby&#8217; parameter in versions up to, and including, 1.7 due to insufficient escaping on the user supplied parameter. This makes it possible for authenticated attackers with administrative privileges to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0254](https://github.com/Live-Hack-CVE/CVE-2023-0254) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0254.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0254.svg)
+
+## CVE-2023-0247
+ Uncontrolled Search Path Element in GitHub repository bits-and-blooms/bloom prior to 3.3.1.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0247](https://github.com/Live-Hack-CVE/CVE-2023-0247) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0247.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0247.svg)
+
 ## CVE-2023-0162
  The CPO Companion plugin for WordPress is vulnerable to Stored Cross-Site Scripting via several of its content type settings parameters in versions up to, and including, 1.0.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 
@@ -632,9 +842,9 @@
 
 
 
-- [https://github.com/emotest1/cve_2023_0110](https://github.com/emotest1/cve_2023_0110) :  ![starts](https://img.shields.io/github/stars/emotest1/cve_2023_0110.svg) ![forks](https://img.shields.io/github/forks/emotest1/cve_2023_0110.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-0110](https://github.com/Live-Hack-CVE/CVE-2023-0110) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0110.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0110.svg)
+
+- [https://github.com/emotest1/cve_2023_0110](https://github.com/emotest1/cve_2023_0110) :  ![starts](https://img.shields.io/github/stars/emotest1/cve_2023_0110.svg) ![forks](https://img.shields.io/github/forks/emotest1/cve_2023_0110.svg)
 
 ## CVE-2023-0108
  Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.
@@ -726,6 +936,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-0046](https://github.com/Live-Hack-CVE/CVE-2023-0046) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0046.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0046.svg)
+
+## CVE-2023-0042
+ An issue has been discovered in GitLab CE/EE affecting all versions starting from 11.4 prior to 15.5.7, 15.6 prior to 15.6.4, and 15.7 prior to 15.7.2. GitLab Pages allows redirection to arbitrary protocols.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0042](https://github.com/Live-Hack-CVE/CVE-2023-0042) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0042.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0042.svg)
 
 ## CVE-2023-0039
  The User Post Gallery - UPG plugin for WordPress is vulnerable to authorization bypass which leads to remote command execution due to the use of a nopriv AJAX action and user supplied function calls and parameters in versions up to, and including 2.19. This makes it possible for unauthenticated attackers to call arbitrary PHP functions and perform actions like adding new files that can be webshells and updating the site's options to allow anyone to register as an administrator.
