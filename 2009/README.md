@@ -1,3 +1,17 @@
+## CVE-2009-10002
+ A vulnerability, which was classified as problematic, has been found in dpup fittr-flickr. This issue affects some unknown processing of the file fittr-flickr/features/easy-exif.js of the component EXIF Preview Handler. The manipulation leads to cross site scripting. The attack may be initiated remotely. The name of the patch is 08875dd8a2e5d0d16568bb0d67cb4328062fccde. It is recommended to apply a patch to fix this issue. The identifier VDB-218297 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-10002](https://github.com/Live-Hack-CVE/CVE-2009-10002) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-10002.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-10002.svg)
+
+## CVE-2009-10001
+ A vulnerability classified as problematic was found in jianlinwei cool-php-captcha up to 0.2. This vulnerability affects unknown code of the file example-form.php. The manipulation of the argument captcha with the input %3Cscript%3Ealert(1)%3C/script%3E leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 0.3 is able to address this issue. The name of the patch is c84fb6b153bebaf228feee0cbf50728d27ae3f80. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218296.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-10001](https://github.com/Live-Hack-CVE/CVE-2009-10001) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-10001.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-10001.svg)
+
 ## CVE-2009-5147
  DL::dlopen in Ruby 1.8, 1.9.0, 1.9.2, 1.9.3, 2.0.0 before patchlevel 648, and 2.1 before 2.1.8 opens libraries with tainted names.
 
