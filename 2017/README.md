@@ -520,6 +520,13 @@
 
 - [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
 
+## CVE-2017-18005
+ Exiv2 0.26 has a Null Pointer Dereference in the Exiv2::DataValue::toLong function in value.cpp, related to crafted metadata in a TIFF file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-18005](https://github.com/Live-Hack-CVE/CVE-2017-18005) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18005.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18005.svg)
+
 ## CVE-2017-17971
  The test_sql_and_script_inject function in htdocs/main.inc.php in Dolibarr ERP/CRM 6.0.4 blocks some event attributes but neither onclick nor onscroll, which allows XSS.
 
@@ -568,6 +575,13 @@
 
 
 - [https://github.com/specloli/CVE-2017-17692](https://github.com/specloli/CVE-2017-17692) :  ![starts](https://img.shields.io/github/stars/specloli/CVE-2017-17692.svg) ![forks](https://img.shields.io/github/forks/specloli/CVE-2017-17692.svg)
+
+## CVE-2017-17669
+ There is a heap-based buffer over-read in the Exiv2::Internal::PngChunk::keyTXTChunk function of pngchunk_int.cpp in Exiv2 0.26. A crafted PNG file will lead to a remote denial of service attack.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-17669](https://github.com/Live-Hack-CVE/CVE-2017-17669) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17669.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17669.svg)
 
 ## CVE-2017-17590
  FS Stackoverflow Clone 1.0 has SQL Injection via the /question keywords parameter.
@@ -1444,6 +1458,20 @@
 
 - [https://github.com/badnack/d_link_880_bug](https://github.com/badnack/d_link_880_bug) :  ![starts](https://img.shields.io/github/stars/badnack/d_link_880_bug.svg) ![forks](https://img.shields.io/github/forks/badnack/d_link_880_bug.svg)
 
+## CVE-2017-14864
+ An Invalid memory address dereference was discovered in Exiv2::getULong in types.cpp in Exiv2 0.26. The vulnerability causes a segmentation fault and application crash, which leads to denial of service.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14864](https://github.com/Live-Hack-CVE/CVE-2017-14864) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14864.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14864.svg)
+
+## CVE-2017-14862
+ An Invalid memory address dereference was discovered in Exiv2::DataValue::read in value.cpp in Exiv2 0.26. The vulnerability causes a segmentation fault and application crash, which leads to denial of service.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14862](https://github.com/Live-Hack-CVE/CVE-2017-14862) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14862.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14862.svg)
+
 ## CVE-2017-14719
  Before version 4.8.2, WordPress was vulnerable to a directory traversal attack during unzip operations in the ZipArchive and PclZip components.
 
@@ -1613,6 +1641,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2017-14444](https://github.com/Live-Hack-CVE/CVE-2017-14444) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14444.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14444.svg)
+
+## CVE-2017-14443
+ An exploitable information leak vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation incorrectly checks the number of GET parameters supplied, leading to an arbitrarily controlled information leak on the whole device memory. An attacker can send an authenticated HTTP request to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14443](https://github.com/Live-Hack-CVE/CVE-2017-14443) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14443.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14443.svg)
 
 ## CVE-2017-14442
  An exploitable code execution vulnerability exists in the BMP image rendering functionality of SDL2_image-2.0.2. A specially crafted BMP image can cause a stack overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability.
@@ -2211,9 +2246,9 @@
 
 - [https://github.com/j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/j0lama/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/j0lama/CVE-2017-11882.svg)
 
-- [https://github.com/likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-11882.svg)
-
 - [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
+
+- [https://github.com/likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-11882.svg)
 
 - [https://github.com/HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/HaoJame/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/HaoJame/CVE-2017-11882.svg)
 
@@ -2282,6 +2317,13 @@
 - [https://github.com/yaunsky/CVE-2017-11610](https://github.com/yaunsky/CVE-2017-11610) :  ![starts](https://img.shields.io/github/stars/yaunsky/CVE-2017-11610.svg) ![forks](https://img.shields.io/github/forks/yaunsky/CVE-2017-11610.svg)
 
 - [https://github.com/ivanitlearning/CVE-2017-11610](https://github.com/ivanitlearning/CVE-2017-11610) :  ![starts](https://img.shields.io/github/stars/ivanitlearning/CVE-2017-11610.svg) ![forks](https://img.shields.io/github/forks/ivanitlearning/CVE-2017-11610.svg)
+
+## CVE-2017-11591
+ There is a Floating point exception in the Exiv2::ValueType function in Exiv2 0.26 that will lead to a remote denial of service attack via crafted input.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-11591](https://github.com/Live-Hack-CVE/CVE-2017-11591) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-11591.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-11591.svg)
 
 ## CVE-2017-11519
  passwd_recovery.lua on the TP-Link Archer C9(UN)_V2_160517 allows an attacker to reset the admin password by leveraging a predictable random number generator seed. This is fixed in C9(UN)_V2_170511.
@@ -2611,9 +2653,9 @@
 
 - [https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp](https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp) :  ![starts](https://img.shields.io/github/stars/JackyTsuuuy/weblogic_wls_rce_poc-exp.svg) ![forks](https://img.shields.io/github/forks/JackyTsuuuy/weblogic_wls_rce_poc-exp.svg)
 
-- [https://github.com/rambleZzz/weblogic_CVE_2017_10271](https://github.com/rambleZzz/weblogic_CVE_2017_10271) :  ![starts](https://img.shields.io/github/stars/rambleZzz/weblogic_CVE_2017_10271.svg) ![forks](https://img.shields.io/github/forks/rambleZzz/weblogic_CVE_2017_10271.svg)
-
 - [https://github.com/bmcculley/CVE-2017-10271](https://github.com/bmcculley/CVE-2017-10271) :  ![starts](https://img.shields.io/github/stars/bmcculley/CVE-2017-10271.svg) ![forks](https://img.shields.io/github/forks/bmcculley/CVE-2017-10271.svg)
+
+- [https://github.com/rambleZzz/weblogic_CVE_2017_10271](https://github.com/rambleZzz/weblogic_CVE_2017_10271) :  ![starts](https://img.shields.io/github/stars/rambleZzz/weblogic_CVE_2017_10271.svg) ![forks](https://img.shields.io/github/forks/rambleZzz/weblogic_CVE_2017_10271.svg)
 
 - [https://github.com/lonehand/Oracle-WebLogic-CVE-2017-10271-master](https://github.com/lonehand/Oracle-WebLogic-CVE-2017-10271-master) :  ![starts](https://img.shields.io/github/stars/lonehand/Oracle-WebLogic-CVE-2017-10271-master.svg) ![forks](https://img.shields.io/github/forks/lonehand/Oracle-WebLogic-CVE-2017-10271-master.svg)
 
@@ -4150,9 +4192,9 @@
 
 - [https://github.com/un4ckn0wl3z/CVE-2017-5638](https://github.com/un4ckn0wl3z/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/un4ckn0wl3z/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/un4ckn0wl3z/CVE-2017-5638.svg)
 
-- [https://github.com/m3ssap0/struts2_cve-2017-5638](https://github.com/m3ssap0/struts2_cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/m3ssap0/struts2_cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/m3ssap0/struts2_cve-2017-5638.svg)
-
 - [https://github.com/jptr218/struts_hack](https://github.com/jptr218/struts_hack) :  ![starts](https://img.shields.io/github/stars/jptr218/struts_hack.svg) ![forks](https://img.shields.io/github/forks/jptr218/struts_hack.svg)
+
+- [https://github.com/m3ssap0/struts2_cve-2017-5638](https://github.com/m3ssap0/struts2_cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/m3ssap0/struts2_cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/m3ssap0/struts2_cve-2017-5638.svg)
 
 - [https://github.com/ludy-dev/XworkStruts-RCE](https://github.com/ludy-dev/XworkStruts-RCE) :  ![starts](https://img.shields.io/github/stars/ludy-dev/XworkStruts-RCE.svg) ![forks](https://img.shields.io/github/forks/ludy-dev/XworkStruts-RCE.svg)
 
@@ -4196,13 +4238,13 @@
 
 - [https://github.com/readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/readloud/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/readloud/CVE-2017-5638.svg)
 
+- [https://github.com/jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2017-5638.svg)
+
 - [https://github.com/jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jrrombaldo/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jrrombaldo/CVE-2017-5638.svg)
 
 - [https://github.com/bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/bhagdave/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bhagdave/CVE-2017-5638.svg)
 
 - [https://github.com/Tankirat/CVE-2017-5638](https://github.com/Tankirat/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Tankirat/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Tankirat/CVE-2017-5638.svg)
-
-- [https://github.com/jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2017-5638.svg)
 
 - [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
 
@@ -4271,6 +4313,13 @@
 
 
 - [https://github.com/649/CVE-2017-5415](https://github.com/649/CVE-2017-5415) :  ![starts](https://img.shields.io/github/stars/649/CVE-2017-5415.svg) ![forks](https://img.shields.io/github/forks/649/CVE-2017-5415.svg)
+
+## CVE-2017-5242
+ Nexpose and InsightVM virtual appliances downloaded between April 5th, 2017 and May 3rd, 2017 contain identical SSH host keys. Normally, a unique SSH host key should be generated the first time a virtual appliance boots.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-5242](https://github.com/Live-Hack-CVE/CVE-2017-5242) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-5242.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-5242.svg)
 
 ## CVE-2017-5223
  An issue was discovered in PHPMailer before 5.2.22. PHPMailer's msgHTML method applies transformations to an HTML document to make it usable as an email message body. One of the transformations is to convert relative image URLs into attachments using a script-provided base directory. If no base directory is provided, it resolves to /, meaning that relative image URLs get treated as absolute local file paths and added as attachments. To form a remote vulnerability, the msgHTML method must be called, passed an unfiltered, user-supplied HTML document, and must not set a base directory.
