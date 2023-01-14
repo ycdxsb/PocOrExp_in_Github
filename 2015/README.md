@@ -5,6 +5,27 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10042
+ ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability classified as critical was found in Dovgalyuk AIBattle. Affected by this vulnerability is the function registerUser of the file site/procedures.php. The manipulation of the argument postLogin leads to sql injection. The name of the patch is 448e9880aac18ae7832f8d065e03e46ce0f1d3e3. It is recommended to apply a patch to fix this issue. The identifier VDB-218305 was assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10042](https://github.com/Live-Hack-CVE/CVE-2015-10042) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10042.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10042.svg)
+
+## CVE-2015-10041
+ ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability classified as critical has been found in Dovgalyuk AIBattle. Affected is the function sendComments of the file site/procedures.php. The manipulation of the argument text leads to sql injection. The name of the patch is e3aa4d0900167641d41cbccf53909229f00381c9. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218304. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10041](https://github.com/Live-Hack-CVE/CVE-2015-10041) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10041.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10041.svg)
+
+## CVE-2015-10040
+ A vulnerability was found in gitlearn. It has been declared as problematic. This vulnerability affects the function getGrade/getOutOf of the file scripts/config.sh of the component Escape Sequence Handler. The manipulation leads to injection. The attack can be initiated remotely. The name of the patch is 3faa5deaa509012069afe75cd03c21bda5050a64. It is recommended to apply a patch to fix this issue. VDB-218302 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10040](https://github.com/Live-Hack-CVE/CVE-2015-10040) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10040.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10040.svg)
+
 ## CVE-2015-10035
  A vulnerability was found in gperson angular-test-reporter and classified as critical. This issue affects the function getProjectTables/addTest of the file rest-server/data-server.js. The manipulation leads to sql injection. The name of the patch is a29d8ae121b46ebfa96a55a9106466ab2ef166ae. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217715.
 
