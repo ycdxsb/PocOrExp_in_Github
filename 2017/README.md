@@ -227,6 +227,13 @@
 
 - [https://github.com/smythtech/DWF-CVE-2017-1000000](https://github.com/smythtech/DWF-CVE-2017-1000000) :  ![starts](https://img.shields.io/github/stars/smythtech/DWF-CVE-2017-1000000.svg) ![forks](https://img.shields.io/github/forks/smythtech/DWF-CVE-2017-1000000.svg)
 
+## CVE-2017-20169
+ A vulnerability, which was classified as critical, has been found in GGGGGGGG ToN-MasterServer. Affected by this issue is some unknown functionality of the file public_html/irc_updater/svr_request_pub.php. The manipulation leads to sql injection. The name of the patch is 3a4c7e6d51bf95760820e3245e06c6e321a7168a. It is recommended to apply a patch to fix this issue. VDB-218306 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-20169](https://github.com/Live-Hack-CVE/CVE-2017-20169) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20169.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20169.svg)
+
 ## CVE-2017-20166
  Ecto 2.2.0 lacks a certain protection mechanism associated with the interaction between is_nil and raise.
 
@@ -2430,12 +2437,20 @@
 
 - [https://github.com/gteissier/CVE-2017-10617](https://github.com/gteissier/CVE-2017-10617) :  ![starts](https://img.shields.io/github/stars/gteissier/CVE-2017-10617.svg) ![forks](https://img.shields.io/github/forks/gteissier/CVE-2017-10617.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2017-10617](https://github.com/Live-Hack-CVE/CVE-2017-10617) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10617.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10617.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10616](https://github.com/Live-Hack-CVE/CVE-2017-10616) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10616.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10616.svg)
+
 ## CVE-2017-10616
  The ifmap service that comes bundled with Juniper Networks Contrail releases uses hard coded credentials. Affected releases are Contrail releases 2.2 prior to 2.21.4; 3.0 prior to 3.0.3.4; 3.1 prior to 3.1.4.0; 3.2 prior to 3.2.5.0. CVE-2017-10616 and CVE-2017-10617 can be chained together and have a combined CVSSv3 score of 5.8 (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N).
 
 
 
 - [https://github.com/gteissier/CVE-2017-10617](https://github.com/gteissier/CVE-2017-10617) :  ![starts](https://img.shields.io/github/stars/gteissier/CVE-2017-10617.svg) ![forks](https://img.shields.io/github/forks/gteissier/CVE-2017-10617.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10616](https://github.com/Live-Hack-CVE/CVE-2017-10616) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10616.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10616.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-10617](https://github.com/Live-Hack-CVE/CVE-2017-10617) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10617.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10617.svg)
 
 ## CVE-2017-10417
  Vulnerability in the Oracle Advanced Outbound Telephony component of Oracle E-Business Suite (subcomponent: Setup and Configuration). Supported versions that are affected are 12.2.3, 12.2.4, 12.2.5, 12.2.6 and 12.2.7. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Advanced Outbound Telephony. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Advanced Outbound Telephony, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle Advanced Outbound Telephony accessible data as well as unauthorized update, insert or delete access to some of Oracle Advanced Outbound Telephony accessible data. CVSS 3.0 Base Score 8.2 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N).
@@ -3091,13 +3106,6 @@
 
 
 - [https://github.com/mailinneberg/Broadpwn](https://github.com/mailinneberg/Broadpwn) :  ![starts](https://img.shields.io/github/stars/mailinneberg/Broadpwn.svg) ![forks](https://img.shields.io/github/forks/mailinneberg/Broadpwn.svg)
-
-## CVE-2017-9340
- An attacker is logged in as a normal user and can somehow make admin to delete shared folders in ownCloud Server before 10.0.2.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-9340](https://github.com/Live-Hack-CVE/CVE-2017-9340) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9340.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9340.svg)
 
 ## CVE-2017-9339
  A logical error in ownCloud Server before 10.0.2 caused disclosure of valid share tokens for public calendars. Thus granting an attacker potentially access to publicly shared calendars without knowing the share token.
@@ -4238,13 +4246,13 @@
 
 - [https://github.com/readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/readloud/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/readloud/CVE-2017-5638.svg)
 
-- [https://github.com/jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2017-5638.svg)
-
 - [https://github.com/jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jrrombaldo/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jrrombaldo/CVE-2017-5638.svg)
 
 - [https://github.com/bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/bhagdave/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bhagdave/CVE-2017-5638.svg)
 
 - [https://github.com/Tankirat/CVE-2017-5638](https://github.com/Tankirat/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Tankirat/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Tankirat/CVE-2017-5638.svg)
+
+- [https://github.com/jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2017-5638.svg)
 
 - [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
 
@@ -5142,11 +5150,11 @@
 
 - [https://github.com/Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/Phantomlancer123/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/Phantomlancer123/CVE-2017-0199.svg)
 
-- [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
-
 - [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
 
 - [https://github.com/BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/BRAINIAC22/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/BRAINIAC22/CVE-2017-0199.svg)
+
+- [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
 
 - [https://github.com/Winter3un/cve_2017_0199](https://github.com/Winter3un/cve_2017_0199) :  ![starts](https://img.shields.io/github/stars/Winter3un/cve_2017_0199.svg) ![forks](https://img.shields.io/github/forks/Winter3un/cve_2017_0199.svg)
 
