@@ -5,6 +5,69 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10051
+ A vulnerability, which was classified as critical, has been found in bony2023 Discussion-Board. Affected by this issue is the function display_all_replies of the file functions/main.php. The manipulation of the argument str leads to sql injection. The name of the patch is 26439bc4c63632d63ba89ebc0f149b25a9010361. It is recommended to apply a patch to fix this issue. VDB-218378 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10051](https://github.com/Live-Hack-CVE/CVE-2015-10051) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10051.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10051.svg)
+
+## CVE-2015-10050
+ A vulnerability was found in brandonfire miRNA_Database_by_PHP_MySql. It has been declared as critical. This vulnerability affects the function __construct/select_single_rna/count_rna of the file inc/model.php. The manipulation leads to sql injection. The name of the patch is 307c5d510841e6142ddcbbdbb93d0e8a0dc3fd6a. It is recommended to apply a patch to fix this issue. VDB-218374 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10050](https://github.com/Live-Hack-CVE/CVE-2015-10050) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10050.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10050.svg)
+
+## CVE-2015-10049
+ A vulnerability was found in Overdrive Eletrnica course-builder up to 1.7.x and classified as problematic. Affected by this issue is some unknown functionality of the file coursebuilder/modules/oeditor/oeditor.html. The manipulation leads to cross site scripting. The attack may be launched remotely. Upgrading to version 1.8.0 is able to address this issue. The name of the patch is e39645fd714adb7e549908780235911ae282b21b. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218372.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10049](https://github.com/Live-Hack-CVE/CVE-2015-10049) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10049.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10049.svg)
+
+## CVE-2015-10048
+ A vulnerability was found in bmattoso desafio_buzz_woody. It has been rated as critical. This issue affects some unknown processing. The manipulation leads to sql injection. The name of the patch is cb8220cbae06082c969b1776fcb2fdafb3a1006b. It is recommended to apply a patch to fix this issue. The identifier VDB-218357 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10048](https://github.com/Live-Hack-CVE/CVE-2015-10048) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10048.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10048.svg)
+
+## CVE-2015-10047
+ A vulnerability was found in KYUUBl school-register. It has been classified as critical. This affects an unknown part of the file src/DBManager.java. The manipulation leads to sql injection. The name of the patch is 1cf7e01b878aee923f2b22cc2535c71a680e4c30. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218355.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10047](https://github.com/Live-Hack-CVE/CVE-2015-10047) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10047.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10047.svg)
+
+## CVE-2015-10046
+ A vulnerability has been found in lolfeedback and classified as critical. Affected by this vulnerability is an unknown functionality. The manipulation leads to sql injection. The name of the patch is 6cf0b5f2228cd8765f734badd37910051000f2b2. It is recommended to apply a patch to fix this issue. The identifier VDB-218353 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10046](https://github.com/Live-Hack-CVE/CVE-2015-10046) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10046.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10046.svg)
+
+## CVE-2015-10045
+ A vulnerability, which was classified as critical, was found in tutrantta project_todolist. Affected is the function getAffectedRows/where/insert/update in the library library/Database.php. The manipulation leads to sql injection. The name of the patch is 194a0411bbe11aa4813f13c66b9e8ea403539141. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218352.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10045](https://github.com/Live-Hack-CVE/CVE-2015-10045) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10045.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10045.svg)
+
+## CVE-2015-10044
+ A vulnerability classified as critical was found in gophergala sqldump. This vulnerability affects unknown code. The manipulation leads to sql injection. The name of the patch is 76db54e9073b5248b8863e71a63d66a32d567d21. It is recommended to apply a patch to fix this issue. VDB-218350 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10044](https://github.com/Live-Hack-CVE/CVE-2015-10044) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10044.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10044.svg)
+
+## CVE-2015-10043
+ A vulnerability, which was classified as critical, was found in abreen Apollo. This affects an unknown part. The manipulation of the argument file leads to path traversal. The name of the patch is 6206406630780bbd074aff34f4683fb764faba71. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218307.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10043](https://github.com/Live-Hack-CVE/CVE-2015-10043) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10043.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10043.svg)
+
 ## CVE-2015-10042
  ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability classified as critical was found in Dovgalyuk AIBattle. Affected by this vulnerability is the function registerUser of the file site/procedures.php. The manipulation of the argument postLogin leads to sql injection. The name of the patch is 448e9880aac18ae7832f8d065e03e46ce0f1d3e3. It is recommended to apply a patch to fix this issue. The identifier VDB-218305 was assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
 
@@ -130,6 +193,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-10021](https://github.com/Live-Hack-CVE/CVE-2015-10021) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10021.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10021.svg)
+
+## CVE-2015-10020
+ A vulnerability has been found in ssn2013 cis450Project and classified as critical. This vulnerability affects the function addUser of the file HeatMapServer/src/com/datformers/servlet/AddAppUser.java. The manipulation leads to sql injection. The name of the patch is 39b495011437a105c7670e17e071f99195b4922e. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218380.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10020](https://github.com/Live-Hack-CVE/CVE-2015-10020) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10020.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10020.svg)
 
 ## CVE-2015-10019
  A vulnerability, which was classified as problematic, has been found in foxoverflow MySimplifiedSQL. This issue affects some unknown processing of the file MySimplifiedSQL_Examples.php. The manipulation of the argument FirstName/LastName leads to cross site scripting. The attack may be initiated remotely. The name of the patch is 3b7481c72786f88041b7c2d83bb4f219f77f1293. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217595.
@@ -277,6 +347,8 @@
 
 
 - [https://github.com/whu-enjoy/CVE-2015-8660](https://github.com/whu-enjoy/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/whu-enjoy/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/whu-enjoy/CVE-2015-8660.svg)
+
+- [https://github.com/nhamle2/CVE-2015-8660](https://github.com/nhamle2/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/nhamle2/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/nhamle2/CVE-2015-8660.svg)
 
 ## CVE-2015-8651
  Integer overflow in Adobe Flash Player before 18.0.0.324 and 19.x and 20.x before 20.0.0.267 on Windows and OS X and before 11.2.202.559 on Linux, Adobe AIR before 20.0.0.233, Adobe AIR SDK before 20.0.0.233, and Adobe AIR SDK &amp; Compiler before 20.0.0.233 allows attackers to execute arbitrary code via unspecified vectors.
