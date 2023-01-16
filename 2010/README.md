@@ -1,3 +1,10 @@
+## CVE-2010-10005
+ A vulnerability was found in msmania poodim. It has been declared as critical. This vulnerability affects unknown code of the component Command Line Argument Handler. The manipulation leads to stack-based buffer overflow. The attack can be initiated remotely. The name of the patch is 6340d5d2c81e55e61522c4b40a6cdd5c39738cc6. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218392.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-10005](https://github.com/Live-Hack-CVE/CVE-2010-10005) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-10005.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-10005.svg)
+
 ## CVE-2010-10003
  A vulnerability classified as critical was found in gesellix titlelink. Affected by this vulnerability is an unknown functionality of the file plugin_content_title.php. The manipulation of the argument phrase leads to sql injection. The name of the patch is b4604e523853965fa981a4e79aef4b554a535db0. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217351.
 
