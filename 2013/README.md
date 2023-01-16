@@ -5,6 +5,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-20004](https://github.com/Live-Hack-CVE/CVE-2013-20004) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-20004.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-20004.svg)
 
+## CVE-2013-10012
+ A vulnerability, which was classified as critical, was found in antonbolling clan7ups. Affected is an unknown function of the component Login/Session. The manipulation leads to sql injection. The name of the patch is 25afad571c488291033958d845830ba0a1710764. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218388.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-10012](https://github.com/Live-Hack-CVE/CVE-2013-10012) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-10012.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-10012.svg)
+
 ## CVE-2013-10011
  A vulnerability was found in aeharding classroom-engagement-system and classified as critical. Affected by this issue is some unknown functionality. The manipulation leads to sql injection. The attack may be launched remotely. The name of the patch is 096de5815c7b414e7339f3439522a446098fb73a. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218156.
 
