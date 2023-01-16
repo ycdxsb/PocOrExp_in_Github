@@ -1,3 +1,10 @@
+## CVE-2014-125080
+ A vulnerability has been found in frontaccounting faplanet and classified as critical. This vulnerability affects unknown code. The manipulation leads to path traversal. The name of the patch is a5dcd87f46080a624b1a9ad4b0dd035bbd24ac50. It is recommended to apply a patch to fix this issue. VDB-218398 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-125080](https://github.com/Live-Hack-CVE/CVE-2014-125080) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125080.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125080.svg)
+
 ## CVE-2014-125079
  A vulnerability was found in agy pontifex.http. It has been declared as critical. This vulnerability affects unknown code of the file lib/Http.coffee. The manipulation leads to sql injection. Upgrading to version 0.1.0 is able to address this issue. The name of the patch is e52a758f96861dcef2dabfecb9da191bb2e07761. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218356.
 
@@ -1779,11 +1786,11 @@
 
 - [https://github.com/yryz/heartbleed.js](https://github.com/yryz/heartbleed.js) :  ![starts](https://img.shields.io/github/stars/yryz/heartbleed.js.svg) ![forks](https://img.shields.io/github/forks/yryz/heartbleed.js.svg)
 
+- [https://github.com/undacmic/heartbleed-proof-of-concept](https://github.com/undacmic/heartbleed-proof-of-concept) :  ![starts](https://img.shields.io/github/stars/undacmic/heartbleed-proof-of-concept.svg) ![forks](https://img.shields.io/github/forks/undacmic/heartbleed-proof-of-concept.svg)
+
 - [https://github.com/mozilla-services/Heartbleed](https://github.com/mozilla-services/Heartbleed) :  ![starts](https://img.shields.io/github/stars/mozilla-services/Heartbleed.svg) ![forks](https://img.shields.io/github/forks/mozilla-services/Heartbleed.svg)
 
 - [https://github.com/ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us) :  ![starts](https://img.shields.io/github/stars/ingochris/heartpatch.us.svg) ![forks](https://img.shields.io/github/forks/ingochris/heartpatch.us.svg)
-
-- [https://github.com/undacmic/heartbleed-proof-of-concept](https://github.com/undacmic/heartbleed-proof-of-concept) :  ![starts](https://img.shields.io/github/stars/undacmic/heartbleed-proof-of-concept.svg) ![forks](https://img.shields.io/github/forks/undacmic/heartbleed-proof-of-concept.svg)
 
 - [https://github.com/zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed) :  ![starts](https://img.shields.io/github/stars/zouguangxian/heartbleed.svg) ![forks](https://img.shields.io/github/forks/zouguangxian/heartbleed.svg)
 
