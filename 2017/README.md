@@ -227,6 +227,13 @@
 
 - [https://github.com/smythtech/DWF-CVE-2017-1000000](https://github.com/smythtech/DWF-CVE-2017-1000000) :  ![starts](https://img.shields.io/github/stars/smythtech/DWF-CVE-2017-1000000.svg) ![forks](https://img.shields.io/github/forks/smythtech/DWF-CVE-2017-1000000.svg)
 
+## CVE-2017-20170
+ A vulnerability was found in ollpu parontalli. It has been classified as critical. Affected is an unknown function of the file httpdocs/index.php. The manipulation of the argument s leads to sql injection. The name of the patch is 6891bb2dec57dca6daabc15a6d2808c8896620e5. It is recommended to apply a patch to fix this issue. VDB-218418 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-20170](https://github.com/Live-Hack-CVE/CVE-2017-20170) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20170.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20170.svg)
+
 ## CVE-2017-20169
  A vulnerability, which was classified as critical, has been found in GGGGGGGG ToN-MasterServer. Affected by this issue is some unknown functionality of the file public_html/irc_updater/svr_request_pub.php. The manipulation leads to sql injection. The name of the patch is 3a4c7e6d51bf95760820e3245e06c6e321a7168a. It is recommended to apply a patch to fix this issue. VDB-218306 is the identifier assigned to this vulnerability.
 
@@ -2675,9 +2682,9 @@
 
 - [https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp](https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp) :  ![starts](https://img.shields.io/github/stars/JackyTsuuuy/weblogic_wls_rce_poc-exp.svg) ![forks](https://img.shields.io/github/forks/JackyTsuuuy/weblogic_wls_rce_poc-exp.svg)
 
-- [https://github.com/rambleZzz/weblogic_CVE_2017_10271](https://github.com/rambleZzz/weblogic_CVE_2017_10271) :  ![starts](https://img.shields.io/github/stars/rambleZzz/weblogic_CVE_2017_10271.svg) ![forks](https://img.shields.io/github/forks/rambleZzz/weblogic_CVE_2017_10271.svg)
-
 - [https://github.com/bmcculley/CVE-2017-10271](https://github.com/bmcculley/CVE-2017-10271) :  ![starts](https://img.shields.io/github/stars/bmcculley/CVE-2017-10271.svg) ![forks](https://img.shields.io/github/forks/bmcculley/CVE-2017-10271.svg)
+
+- [https://github.com/rambleZzz/weblogic_CVE_2017_10271](https://github.com/rambleZzz/weblogic_CVE_2017_10271) :  ![starts](https://img.shields.io/github/stars/rambleZzz/weblogic_CVE_2017_10271.svg) ![forks](https://img.shields.io/github/forks/rambleZzz/weblogic_CVE_2017_10271.svg)
 
 - [https://github.com/lonehand/Oracle-WebLogic-CVE-2017-10271-master](https://github.com/lonehand/Oracle-WebLogic-CVE-2017-10271-master) :  ![starts](https://img.shields.io/github/stars/lonehand/Oracle-WebLogic-CVE-2017-10271-master.svg) ![forks](https://img.shields.io/github/forks/lonehand/Oracle-WebLogic-CVE-2017-10271-master.svg)
 
@@ -3197,6 +3204,8 @@
 - [https://github.com/brianwrf/Joomla3.7-SQLi-CVE-2017-8917](https://github.com/brianwrf/Joomla3.7-SQLi-CVE-2017-8917) :  ![starts](https://img.shields.io/github/stars/brianwrf/Joomla3.7-SQLi-CVE-2017-8917.svg) ![forks](https://img.shields.io/github/forks/brianwrf/Joomla3.7-SQLi-CVE-2017-8917.svg)
 
 - [https://github.com/cved-sources/cve-2017-8917](https://github.com/cved-sources/cve-2017-8917) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2017-8917.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2017-8917.svg)
+
+- [https://github.com/xeno-john/joomla_CVE-2017-8917](https://github.com/xeno-john/joomla_CVE-2017-8917) :  ![starts](https://img.shields.io/github/stars/xeno-john/joomla_CVE-2017-8917.svg) ![forks](https://img.shields.io/github/forks/xeno-john/joomla_CVE-2017-8917.svg)
 
 - [https://github.com/gmohlamo/CVE-2017-8917](https://github.com/gmohlamo/CVE-2017-8917) :  ![starts](https://img.shields.io/github/stars/gmohlamo/CVE-2017-8917.svg) ![forks](https://img.shields.io/github/forks/gmohlamo/CVE-2017-8917.svg)
 
@@ -5164,9 +5173,9 @@
 
 - [https://github.com/Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/Phantomlancer123/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/Phantomlancer123/CVE-2017-0199.svg)
 
-- [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
-
 - [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
+
+- [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
 
 - [https://github.com/BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/BRAINIAC22/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/BRAINIAC22/CVE-2017-0199.svg)
 
@@ -5258,6 +5267,13 @@
 
 
 - [https://github.com/Dankirk/cve-2017-0065](https://github.com/Dankirk/cve-2017-0065) :  ![starts](https://img.shields.io/github/stars/Dankirk/cve-2017-0065.svg) ![forks](https://img.shields.io/github/forks/Dankirk/cve-2017-0065.svg)
+
+## CVE-2017-0055
+ Microsoft Internet Information Server (IIS) in Windows Vista SP2; Windows Server 2008 SP2 and R2; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to perform cross-site scripting and run script with local user privileges via a crafted request, aka &quot;Microsoft IIS Server XSS Elevation of Privilege Vulnerability.&quot;
+
+
+
+- [https://github.com/NetJBS/CVE-2017-0055-PoC](https://github.com/NetJBS/CVE-2017-0055-PoC) :  ![starts](https://img.shields.io/github/stars/NetJBS/CVE-2017-0055-PoC.svg) ![forks](https://img.shields.io/github/forks/NetJBS/CVE-2017-0055-PoC.svg)
 
 ## CVE-2017-0038
  gdi32.dll in Graphics Device Interface (GDI) in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold, 1511, and 1607 allows remote attackers to obtain sensitive information from process heap memory via a crafted EMF file, as demonstrated by an EMR_SETDIBITSTODEVICE record with modified Device Independent Bitmap (DIB) dimensions. NOTE: this vulnerability exists because of an incomplete fix for CVE-2016-3216, CVE-2016-3219, and/or CVE-2016-3220.
