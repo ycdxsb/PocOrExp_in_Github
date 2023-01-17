@@ -5,6 +5,41 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10061
+ A vulnerability was found in evandro-machado Trabalho-Web2. It has been classified as critical. This affects an unknown part of the file src/java/br/com/magazine/dao/ClienteDAO.java. The manipulation leads to sql injection. The name of the patch is f59ac954625d0a4f6d34f069a2e26686a7a20aeb. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218427.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10061](https://github.com/Live-Hack-CVE/CVE-2015-10061) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10061.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10061.svg)
+
+## CVE-2015-10057
+ A vulnerability was found in Little Apps Little Software Stats. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file inc/class.securelogin.php of the component Password Reset Handler. The manipulation leads to improper access controls. Upgrading to version 0.2 is able to address this issue. The name of the patch is 07ba8273a9311d1383f3686ac7cb32f20770ab1e. It is recommended to upgrade the affected component. The identifier VDB-218401 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10057](https://github.com/Live-Hack-CVE/CVE-2015-10057) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10057.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10057.svg)
+
+## CVE-2015-10056
+ A vulnerability was found in 2071174A vinylmap. It has been classified as critical. Affected is the function contact of the file recordstoreapp/views.py. The manipulation leads to sql injection. The name of the patch is b07b79a1e92cc62574ba0492cce000ef4a7bd25f. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218400.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10056](https://github.com/Live-Hack-CVE/CVE-2015-10056) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10056.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10056.svg)
+
+## CVE-2015-10055
+ A vulnerability was found in PictureThisWebServer and classified as critical. This issue affects the function router.post of the file routes/user.js. The manipulation of the argument username/password leads to sql injection. The name of the patch is 68b9dc346e88b494df00d88c7d058e96820e1479. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218399.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10055](https://github.com/Live-Hack-CVE/CVE-2015-10055) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10055.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10055.svg)
+
+## CVE-2015-10054
+ A vulnerability, which was classified as critical, was found in githuis P2Manage. This affects the function Execute of the file PTwoManage/Database.cs. The manipulation of the argument sql leads to sql injection. The name of the patch is 717380aba80002414f82d93c770035198b7858cc. It is recommended to apply a patch to fix this issue. The identifier VDB-218397 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10054](https://github.com/Live-Hack-CVE/CVE-2015-10054) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10054.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10054.svg)
+
 ## CVE-2015-10053
  A vulnerability classified as critical has been found in prodigasistemas curupira up to 0.1.3. Affected is an unknown function of the file app/controllers/curupira/passwords_controller.rb. The manipulation leads to sql injection. Upgrading to version 0.1.4 is able to address this issue. The name of the patch is 93a9a77896bb66c949acb8e64bceafc74bc8c271. It is recommended to upgrade the affected component. VDB-218394 is the identifier assigned to this vulnerability.
 
