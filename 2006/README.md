@@ -1,3 +1,10 @@
+## CVE-2006-20001
+ A carefully crafted If: request header can cause a memory read, or write of a single zero byte, in a pool (heap) memory location beyond the header value sent. This could cause the process to crash. This issue affects Apache HTTP Server 2.4.54 and earlier.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2006-20001](https://github.com/Live-Hack-CVE/CVE-2006-20001) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2006-20001.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2006-20001.svg)
+
 ## CVE-2006-7142
  The centralized management feature for Utimaco Safeguard stores hard-coded cryptographic keys in executable programs for encrypted configuration files, which allows attackers to recover the keys from the configuration files and decrypt the disk drive.
 
