@@ -1,3 +1,10 @@
+## CVE-2011-10001
+ A vulnerability was found in iamdroppy phoenixcf. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file content/2-Community/articles.cfm. The manipulation leads to sql injection. The name of the patch is d156faf8bc36cd49c3b10d3697ef14167ad451d8. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218491.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-10001](https://github.com/Live-Hack-CVE/CVE-2011-10001) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-10001.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-10001.svg)
+
 ## CVE-2011-5331
  Distributed Ruby (aka DRuby) 1.8 mishandles instance_eval.
 
