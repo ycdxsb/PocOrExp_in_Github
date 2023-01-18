@@ -5,6 +5,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10068
+ A vulnerability classified as critical was found in danynab movify-j. This vulnerability affects the function getByMovieId of the file app/business/impl/ReviewServiceImpl.java. The manipulation of the argument movieId/username leads to sql injection. The name of the patch is c3085e01936a4d7eff1eda3093f25d56cc4d2ec5. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218476.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10068](https://github.com/Live-Hack-CVE/CVE-2015-10068) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10068.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10068.svg)
+
+## CVE-2015-10067
+ A vulnerability was found in oznetmaster SSharpSmartThreadPool. It has been classified as problematic. This affects an unknown part of the file SSharpSmartThreadPool/SmartThreadPool.cs. The manipulation leads to race condition within a thread. The name of the patch is 0e58073c831093aad75e077962e9fb55cad0dc5f. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218463.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10067](https://github.com/Live-Hack-CVE/CVE-2015-10067) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10067.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10067.svg)
+
 ## CVE-2015-10061
  A vulnerability was found in evandro-machado Trabalho-Web2. It has been classified as critical. This affects an unknown part of the file src/java/br/com/magazine/dao/ClienteDAO.java. The manipulation leads to sql injection. The name of the patch is f59ac954625d0a4f6d34f069a2e26686a7a20aeb. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218427.
 
@@ -137,6 +151,34 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-10040](https://github.com/Live-Hack-CVE/CVE-2015-10040) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10040.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10040.svg)
+
+## CVE-2015-10039
+ A vulnerability was found in dobos domino. It has been rated as critical. Affected by this issue is some unknown functionality in the library src/Complex.Domino.Lib/Lib/EntityFactory.cs. The manipulation leads to sql injection. Upgrading to version 0.1.5524.38553 is able to address this issue. The name of the patch is 16f039073709a21a76526110d773a6cce0ce753a. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218024.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10039](https://github.com/Live-Hack-CVE/CVE-2015-10039) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10039.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10039.svg)
+
+## CVE-2015-10038
+ A vulnerability was found in nym3r0s pplv2. It has been declared as critical. Affected by this vulnerability is an unknown functionality. The manipulation leads to sql injection. The name of the patch is 28f8b0550104044da09f04659797487c59f85b00. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218023.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10038](https://github.com/Live-Hack-CVE/CVE-2015-10038) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10038.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10038.svg)
+
+## CVE-2015-10037
+ A vulnerability, which was classified as critical, was found in ACI_Escola. This affects an unknown part. The manipulation leads to sql injection. The name of the patch is 34eed1f7b9295d1424912f79989d8aba5de41e9f. It is recommended to apply a patch to fix this issue. The identifier VDB-217965 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10037](https://github.com/Live-Hack-CVE/CVE-2015-10037) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10037.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10037.svg)
+
+## CVE-2015-10036
+ A vulnerability was found in kylebebak dronfelipe. It has been declared as critical. Affected by this vulnerability is an unknown functionality. The manipulation leads to sql injection. The name of the patch is 87405b74fe651892d79d0dff62ed17a7eaef6a60. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217951.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10036](https://github.com/Live-Hack-CVE/CVE-2015-10036) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10036.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10036.svg)
 
 ## CVE-2015-10035
  A vulnerability was found in gperson angular-test-reporter and classified as critical. This issue affects the function getProjectTables/addTest of the file rest-server/data-server.js. The manipulation leads to sql injection. The name of the patch is a29d8ae121b46ebfa96a55a9106466ab2ef166ae. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217715.
@@ -1260,6 +1302,13 @@
 - [https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit](https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit) :  ![starts](https://img.shields.io/github/stars/cdedmondson/Modified-CVE-2015-3306-Exploit.svg) ![forks](https://img.shields.io/github/forks/cdedmondson/Modified-CVE-2015-3306-Exploit.svg)
 
 - [https://github.com/cd6629/CVE-2015-3306-Python-PoC](https://github.com/cd6629/CVE-2015-3306-Python-PoC) :  ![starts](https://img.shields.io/github/stars/cd6629/CVE-2015-3306-Python-PoC.svg) ![forks](https://img.shields.io/github/forks/cd6629/CVE-2015-3306-Python-PoC.svg)
+
+## CVE-2015-3288
+ mm/memory.c in the Linux kernel before 4.1.4 mishandles anonymous pages, which allows local users to gain privileges or cause a denial of service (page tainting) via a crafted application that triggers writing to page zero.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-3288](https://github.com/Live-Hack-CVE/CVE-2015-3288) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3288.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3288.svg)
 
 ## CVE-2015-3224
  request.rb in Web Console before 2.1.3, as used with Ruby on Rails 3.x and 4.x, does not properly restrict the use of X-Forwarded-For headers in determining a client's IP address, which allows remote attackers to bypass the whitelisted_ips protection mechanism via a crafted request.
