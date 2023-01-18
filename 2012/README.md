@@ -1,9 +1,23 @@
+## CVE-2012-10006
+ A vulnerability classified as critical has been found in ale7714 sigeprosi. This affects an unknown part. The manipulation leads to sql injection. The name of the patch is 5291886f6c992316407c376145d331169c55f25b. It is recommended to apply a patch to fix this issue. The identifier VDB-218493 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-10006](https://github.com/Live-Hack-CVE/CVE-2012-10006) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-10006.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-10006.svg)
+
 ## CVE-2012-10005
  A vulnerability has been found in manikandan170890 php-form-builder-class and classified as problematic. Affected by this vulnerability is an unknown functionality of the file PFBC/Element/Textarea.php of the component Textarea Handler. The manipulation of the argument value leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The name of the patch is 74897993818d826595fd5857038e6703456a594a. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218155.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-10005](https://github.com/Live-Hack-CVE/CVE-2012-10005) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-10005.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-10005.svg)
+
+## CVE-2012-10004
+ A vulnerability was found in backdrop-contrib Basic Cart. It has been classified as problematic. Affected is the function basic_cart_checkout_form_submit of the file basic_cart.cart.inc. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 1.x-1.1.1 is able to address this issue. The name of the patch is a10424ccd4b3b4b433cf33b73c1ad608b11890b4. It is recommended to upgrade the affected component. VDB-217950 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-10004](https://github.com/Live-Hack-CVE/CVE-2012-10004) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-10004.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-10004.svg)
 
 ## CVE-2012-10003
  A vulnerability, which was classified as problematic, has been found in ahmyi RivetTracker. This issue affects some unknown processing. The manipulation of the argument $_SERVER['PHP_SELF'] leads to cross site scripting. The attack may be initiated remotely. The name of the patch is f053c5cc2bc44269b0496b5f275e349928a92ef9. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217271.
@@ -25,6 +39,34 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-6712](https://github.com/Live-Hack-CVE/CVE-2012-6712) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-6712.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-6712.svg)
+
+## CVE-2012-6704
+ The sock_setsockopt function in net/core/sock.c in the Linux kernel before 3.5 mishandles negative values of sk_sndbuf and sk_rcvbuf, which allows local users to cause a denial of service (memory corruption and system crash) or possibly have unspecified other impact by leveraging the CAP_NET_ADMIN capability for a crafted setsockopt system call with the (1) SO_SNDBUF or (2) SO_RCVBUF option.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-6704](https://github.com/Live-Hack-CVE/CVE-2012-6704) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-6704.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-6704.svg)
+
+## CVE-2012-6703
+ Integer overflow in the snd_compr_allocate_buffer function in sound/core/compress_offload.c in the ALSA subsystem in the Linux kernel before 3.6-rc6-next-20120917 allows local users to cause a denial of service (insufficient memory allocation) or possibly have unspecified other impact via a crafted SNDRV_COMPRESS_SET_PARAMS ioctl call.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-6703](https://github.com/Live-Hack-CVE/CVE-2012-6703) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-6703.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-6703.svg)
+
+## CVE-2012-6701
+ Integer overflow in fs/aio.c in the Linux kernel before 3.4.1 allows local users to cause a denial of service or possibly have unspecified other impact via a large AIO iovec.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-6701](https://github.com/Live-Hack-CVE/CVE-2012-6701) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-6701.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-6701.svg)
+
+## CVE-2012-6638
+ The tcp_rcv_state_process function in net/ipv4/tcp_input.c in the Linux kernel before 3.2.24 allows remote attackers to cause a denial of service (kernel resource consumption) via a flood of SYN+FIN TCP packets, a different vulnerability than CVE-2012-2663.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-6638](https://github.com/Live-Hack-CVE/CVE-2012-6638) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-6638.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-6638.svg)
 
 ## CVE-2012-6636
  The Android API before 17 does not properly restrict the WebView.addJavascriptInterface method, which allows remote attackers to execute arbitrary methods of Java objects by using the Java Reflection API within crafted JavaScript code that is loaded into the WebView component in an application targeted to API level 16 or earlier, a related issue to CVE-2013-4710.
@@ -226,6 +268,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-3412](https://github.com/Live-Hack-CVE/CVE-2012-3412) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3412.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3412.svg)
 
+## CVE-2012-3400
+ Heap-based buffer overflow in the udf_load_logicalvol function in fs/udf/super.c in the Linux kernel before 3.4.5 allows remote attackers to cause a denial of service (system crash) or possibly have unspecified other impact via a crafted UDF filesystem.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-3400](https://github.com/Live-Hack-CVE/CVE-2012-3400) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3400.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3400.svg)
+
 ## CVE-2012-3197
  Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.64 and earlier, and 5.5.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Replication.
 
@@ -329,6 +378,13 @@
 
 
 - [https://github.com/shelld3v/CVE-2012-2688](https://github.com/shelld3v/CVE-2012-2688) :  ![starts](https://img.shields.io/github/stars/shelld3v/CVE-2012-2688.svg) ![forks](https://img.shields.io/github/forks/shelld3v/CVE-2012-2688.svg)
+
+## CVE-2012-2663
+ extensions/libxt_tcp.c in iptables through 1.4.21 does not match TCP SYN+FIN packets in --syn rules, which might allow remote attackers to bypass intended firewall restrictions via crafted packets.  NOTE: the CVE-2012-6638 fix makes this issue less relevant.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-6638](https://github.com/Live-Hack-CVE/CVE-2012-6638) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-6638.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-6638.svg)
 
 ## CVE-2012-2661
  The Active Record component in Ruby on Rails 3.0.x before 3.0.13, 3.1.x before 3.1.5, and 3.2.x before 3.2.4 does not properly implement the passing of request data to a where method in an ActiveRecord class, which allows remote attackers to conduct certain SQL injection attacks via nested query parameters that leverage unintended recursion, a related issue to CVE-2012-2695.
