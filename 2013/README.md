@@ -339,6 +339,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-4253](https://github.com/Live-Hack-CVE/CVE-2013-4253) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-4253.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-4253.svg)
 
+## CVE-2013-4247
+ Off-by-one error in the build_unc_path_to_root function in fs/cifs/connect.c in the Linux kernel before 3.9.6 allows remote attackers to cause a denial of service (memory corruption and system crash) via a DFS share mount operation that triggers use of an unexpected DFS referral name length.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-4247](https://github.com/Live-Hack-CVE/CVE-2013-4247) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-4247.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-4247.svg)
+
 ## CVE-2013-4235
  shadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees
 
@@ -830,6 +837,13 @@
 
 
 - [https://github.com/steponequit/CVE-2013-1081](https://github.com/steponequit/CVE-2013-1081) :  ![starts](https://img.shields.io/github/stars/steponequit/CVE-2013-1081.svg) ![forks](https://img.shields.io/github/forks/steponequit/CVE-2013-1081.svg)
+
+## CVE-2013-1059
+ net/ceph/auth_none.c in the Linux kernel through 3.10 allows remote attackers to cause a denial of service (NULL pointer dereference and system crash) or possibly have unspecified other impact via an auth_reply message that triggers an attempted build_request operation.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-1059](https://github.com/Live-Hack-CVE/CVE-2013-1059) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1059.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1059.svg)
 
 ## CVE-2013-0900
  Race condition in the International Components for Unicode (ICU) functionality in Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allows remote attackers to cause a denial of service or possibly have unspecified other impact via unknown vectors.
