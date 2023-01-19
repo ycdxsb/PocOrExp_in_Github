@@ -5,6 +5,27 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10071
+ A vulnerability was found in gitter-badger ezpublish-modern-legacy. It has been rated as problematic. This issue affects some unknown processing of the file kernel/user/forgotpassword.php. The manipulation leads to weak password recovery. Upgrading to version 1.0 is able to address this issue. The name of the patch is 5908d5ee65fec61ce0e321d586530461a210bf2a. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-218951.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10071](https://github.com/Live-Hack-CVE/CVE-2015-10071) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10071.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10071.svg)
+
+## CVE-2015-10070
+ A vulnerability was found in copperwall Twiddit. It has been rated as critical. This issue affects some unknown processing of the file index.php. The manipulation leads to sql injection. The name of the patch is 2203d4ce9810bdaccece5c48ff4888658a01acfc. It is recommended to apply a patch to fix this issue. The identifier VDB-218897 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10070](https://github.com/Live-Hack-CVE/CVE-2015-10070) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10070.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10070.svg)
+
+## CVE-2015-10069
+ A vulnerability was found in viakondratiuk cash-machine. It has been declared as critical. This vulnerability affects the function is_card_pin_at_session/update_failed_attempts of the file machine.py. The manipulation leads to sql injection. The name of the patch is 62a6e24efdfa195b70d7df140d8287fdc38eb66d. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218896.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10069](https://github.com/Live-Hack-CVE/CVE-2015-10069) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10069.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10069.svg)
+
 ## CVE-2015-10068
  A vulnerability classified as critical was found in danynab movify-j. This vulnerability affects the function getByMovieId of the file app/business/impl/ReviewServiceImpl.java. The manipulation of the argument movieId/username leads to sql injection. The name of the patch is c3085e01936a4d7eff1eda3093f25d56cc4d2ec5. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218476.
 
@@ -424,6 +445,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-8873](https://github.com/Live-Hack-CVE/CVE-2015-8873) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8873.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8873.svg)
+
+## CVE-2015-8787
+ The nf_nat_redirect_ipv4 function in net/netfilter/nf_nat_redirect.c in the Linux kernel before 4.4 allows remote attackers to cause a denial of service (NULL pointer dereference and system crash) or possibly have unspecified other impact by sending certain IPv4 packets to an incompletely configured interface, a related issue to CVE-2003-1604.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-8787](https://github.com/Live-Hack-CVE/CVE-2015-8787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8787.svg)
 
 ## CVE-2015-8710
  The htmlParseComment function in HTMLparser.c in libxml2 allows attackers to obtain sensitive information, cause a denial of service (out-of-bounds heap memory access and application crash), or possibly have unspecified other impact via an unclosed HTML comment.
@@ -969,6 +997,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-5296](https://github.com/Live-Hack-CVE/CVE-2015-5296) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5296.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5296.svg)
 
+## CVE-2015-5290
+ A Denial of Service vulnerability exists in ircd-ratbox 3.0.9 in the MONITOR Command Handler.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5290](https://github.com/Live-Hack-CVE/CVE-2015-5290) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5290.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5290.svg)
+
 ## CVE-2015-5254
  Apache ActiveMQ 5.x before 5.13.0 does not restrict the classes that can be serialized in the broker, which allows remote attackers to execute arbitrary code via a crafted serialized Java Message Service (JMS) ObjectMessage object.
 
@@ -1478,6 +1513,13 @@
 
 
 - [https://github.com/krdsploit/MSFu-Extentions-](https://github.com/krdsploit/MSFu-Extentions-) :  ![starts](https://img.shields.io/github/stars/krdsploit/MSFu-Extentions-.svg) ![forks](https://img.shields.io/github/forks/krdsploit/MSFu-Extentions-.svg)
+
+## CVE-2015-2326
+ The pcre_compile2 function in PCRE before 8.37 allows context-dependent attackers to compile incorrect code and cause a denial of service (out-of-bounds read) via regular expression with a group containing both a forward referencing subroutine call and a recursive back reference, as demonstrated by &quot;((?+1)(\1))/&quot;.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-2326](https://github.com/Live-Hack-CVE/CVE-2015-2326) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2326.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2326.svg)
 
 ## CVE-2015-2315
  Cross-site scripting (XSS) vulnerability in the WPML plugin before 3.1.9 for WordPress allows remote attackers to inject arbitrary web script or HTML via the target parameter in a reminder_popup action to the default URI.
