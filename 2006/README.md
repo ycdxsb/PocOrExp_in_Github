@@ -82,6 +82,13 @@
 
 - [https://github.com/gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin) :  ![starts](https://img.shields.io/github/stars/gb21oc/ExploitWebmin.svg) ![forks](https://img.shields.io/github/forks/gb21oc/ExploitWebmin.svg)
 
+## CVE-2006-3360
+ Directory traversal vulnerability in index.php in phpSysInfo 2.5.1 allows remote attackers to determine the existence of arbitrary files via a .. (dot dot) sequence and a trailing null (%00) byte in the lng parameter, which will display a different error message if the file exists.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2006-3360](https://github.com/Live-Hack-CVE/CVE-2006-3360) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2006-3360.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2006-3360.svg)
+
 ## CVE-2006-3240
  Cross-site scripting (XSS) vulnerability in classes/ui.class.php in dotProject 2.0.3 and earlier allows remote attackers to inject arbitrary web script or HTML via the login parameter.
 
