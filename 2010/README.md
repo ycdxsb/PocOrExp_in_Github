@@ -1,3 +1,10 @@
+## CVE-2010-10009
+ A vulnerability was found in frioux ptome. It has been rated as critical. This issue affects some unknown processing. The manipulation leads to sql injection. The name of the patch is 26829bba67858ca0bd4ce49ad50e7ce653914276. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218519.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-10009](https://github.com/Live-Hack-CVE/CVE-2010-10009) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-10009.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-10009.svg)
+
 ## CVE-2010-10008
  ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability was found in simplesamlphp simplesamlphp-module-openidprovider up to 0.8.x. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file templates/trust.tpl.php. The manipulation of the argument StateID leads to cross site scripting. The attack can be launched remotely. Upgrading to version 0.9.0 is able to address this issue. The name of the patch is 8365d48c863cf06ccf1465cc0a161cefae29d69d. It is recommended to upgrade the affected component. The identifier VDB-218473 was assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
 
@@ -159,6 +166,13 @@
 
 - [https://github.com/magisterquis/cve-2010-3847](https://github.com/magisterquis/cve-2010-3847) :  ![starts](https://img.shields.io/github/stars/magisterquis/cve-2010-3847.svg) ![forks](https://img.shields.io/github/forks/magisterquis/cve-2010-3847.svg)
 
+## CVE-2010-3709
+ The ZipArchive::getArchiveComment function in PHP 5.2.x through 5.2.14 and 5.3.x through 5.3.3 allows context-dependent attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted ZIP archive.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-3709](https://github.com/Live-Hack-CVE/CVE-2010-3709) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-3709.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-3709.svg)
+
 ## CVE-2010-3600
  Unspecified vulnerability in the Client System Analyzer component in Oracle Database Server 11.1.0.7 and 11.2.0.1 and Enterprise Manager Grid Control 10.2.0.5 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors. NOTE: the previous information was obtained from the January 2011 CPU.  Oracle has not commented on claims from a reliable third party coordinator that this issue involves an exposed JSP script that accepts XML uploads in conjunction with NULL bytes in an unspecified parameter that allow execution of arbitrary code.
 
@@ -230,6 +244,13 @@
 
 
 - [https://github.com/Sunqiz/cve-2010-2553-reproduction](https://github.com/Sunqiz/cve-2010-2553-reproduction) :  ![starts](https://img.shields.io/github/stars/Sunqiz/cve-2010-2553-reproduction.svg) ![forks](https://img.shields.io/github/forks/Sunqiz/cve-2010-2553-reproduction.svg)
+
+## CVE-2010-2531
+ The var_export function in PHP 5.2 before 5.2.14 and 5.3 before 5.3.3 flushes the output buffer to the user when certain fatal errors occur, even if display_errors is off, which allows remote attackers to obtain sensitive information by causing the application to exceed limits for memory, execution time, or recursion.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-2531](https://github.com/Live-Hack-CVE/CVE-2010-2531) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-2531.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-2531.svg)
 
 ## CVE-2010-2387
  vicious-extensions/ve-misc.c in GNOME Display Manager (gdm) 2.20.x before 2.20.11, when GDM debug is enabled, logs the user password when it contains invalid UTF8 encoded characters, which might allow local users to gain privileges by reading the information from syslog logs.
