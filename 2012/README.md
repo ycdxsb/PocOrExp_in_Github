@@ -224,6 +224,13 @@
 
 - [https://github.com/imjdl/CVE-2012-4431](https://github.com/imjdl/CVE-2012-4431) :  ![starts](https://img.shields.io/github/stars/imjdl/CVE-2012-4431.svg) ![forks](https://img.shields.io/github/forks/imjdl/CVE-2012-4431.svg)
 
+## CVE-2012-4388
+ The sapi_header_op function in main/SAPI.c in PHP 5.4.0RC2 through 5.4.0 does not properly determine a pointer during checks for %0D sequences (aka carriage return characters), which allows remote attackers to bypass an HTTP response-splitting protection mechanism via a crafted URL, related to improper interaction between the PHP header function and certain browsers, as demonstrated by Internet Explorer and Google Chrome.  NOTE: this vulnerability exists because of an incorrect fix for CVE-2011-1398.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-4388](https://github.com/Live-Hack-CVE/CVE-2012-4388) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4388.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4388.svg)
+
 ## CVE-2012-4341
  Multiple stack-based buffer overflows in msg_server.exe in SAP NetWeaver ABAP 7.x allow remote attackers to cause a denial of service (crash) and execute arbitrary code via a (1) long parameter value, (2) crafted string size field, or (3) long Parameter Name string in a package with opcode 0x43 and sub opcode 0x4 to TCP port 3900.
 
