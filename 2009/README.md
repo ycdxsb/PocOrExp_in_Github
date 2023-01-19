@@ -158,6 +158,13 @@
 
 - [https://github.com/jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692) :  ![starts](https://img.shields.io/github/stars/jdvalentini/CVE-2009-2692.svg) ![forks](https://img.shields.io/github/forks/jdvalentini/CVE-2009-2692.svg)
 
+## CVE-2009-2687
+ The exif_read_data function in the Exif module in PHP before 5.2.10 allows remote attackers to cause a denial of service (crash) via a malformed JPEG image with invalid offset fields, a different issue than CVE-2005-3353.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-2687](https://github.com/Live-Hack-CVE/CVE-2009-2687) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-2687.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-2687.svg)
+
 ## CVE-2009-2585
  SQL injection vulnerability in index.php in Mlffat 2.2 allows remote attackers to execute arbitrary SQL commands via a member cookie in an account editprofile action, a different vector than CVE-2009-1731.
 
