@@ -33,6 +33,13 @@
 
 - [https://github.com/alt3kx/CVE-2007-6638](https://github.com/alt3kx/CVE-2007-6638) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2007-6638.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2007-6638.svg)
 
+## CVE-2007-6601
+ The DBLink module in PostgreSQL 8.2 before 8.2.6, 8.1 before 8.1.11, 8.0 before 8.0.15, 7.4 before 7.4.19, and 7.3 before 7.3.21, when local trust or ident authentication is used, allows remote attackers to gain privileges via unspecified vectors.  NOTE: this issue exists because of an incomplete fix for CVE-2007-3278.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2007-6601](https://github.com/Live-Hack-CVE/CVE-2007-6601) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-6601.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-6601.svg)
+
 ## CVE-2007-6377
  Stack-based buffer overflow in the PassThru functionality in ext.dll in BadBlue 2.72b and earlier allows remote attackers to execute arbitrary code via a long query string.
 
@@ -97,6 +104,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2007-3304](https://github.com/Live-Hack-CVE/CVE-2007-3304) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-3304.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-3304.svg)
+
+## CVE-2007-3278
+ PostgreSQL 8.1 and probably later versions, when local trust authentication is enabled and the Database Link library (dblink) is installed, allows remote attackers to access arbitrary accounts and execute arbitrary SQL queries via a dblink host parameter that proxies the connection from 127.0.0.1.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2007-6601](https://github.com/Live-Hack-CVE/CVE-2007-6601) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-6601.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-6601.svg)
 
 ## CVE-2007-3007
  PHP 5 before 5.2.3 does not enforce the open_basedir or safe_mode restriction in certain cases, which allows context-dependent attackers to determine the existence of arbitrary files by checking if the readfile function returns a string.  NOTE: this issue might also involve the realpath function.
