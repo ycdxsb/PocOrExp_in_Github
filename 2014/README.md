@@ -1,3 +1,10 @@
+## CVE-2014-125083
+ A vulnerability has been found in Anant Labs google-enterprise-connector-dctm up to 3.2.3 and classified as critical. Affected by this vulnerability is an unknown functionality. The manipulation of the argument username/domain leads to sql injection. The name of the patch is 6fba04f18ab7764002a1da308e7cd9712b501cb7. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218911.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-125083](https://github.com/Live-Hack-CVE/CVE-2014-125083) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125083.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125083.svg)
+
 ## CVE-2014-125080
  A vulnerability has been found in frontaccounting faplanet and classified as critical. This vulnerability affects unknown code. The manipulation leads to path traversal. The name of the patch is a5dcd87f46080a624b1a9ad4b0dd035bbd24ac50. It is recommended to apply a patch to fix this issue. VDB-218398 is the identifier assigned to this vulnerability.
 
@@ -39,6 +46,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-125075](https://github.com/Live-Hack-CVE/CVE-2014-125075) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125075.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125075.svg)
+
+## CVE-2014-125074
+ A vulnerability was found in Nayshlok Voyager. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file Voyager/src/models/DatabaseAccess.java. The manipulation leads to sql injection. The name of the patch is f1249f438cd8c39e7ef2f6c8f2ab76b239a02fae. It is recommended to apply a patch to fix this issue. The identifier VDB-218005 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-125074](https://github.com/Live-Hack-CVE/CVE-2014-125074) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-125074.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-125074.svg)
 
 ## CVE-2014-125073
  A vulnerability was found in mapoor voteapp. It has been rated as critical. Affected by this issue is the function create_poll/do_poll/show_poll/show_refresh of the file app.py. The manipulation leads to sql injection. The name of the patch is b290c21a0d8bcdbd55db860afd3cadec97388e72. It is recommended to apply a patch to fix this issue. VDB-217790 is the identifier assigned to this vulnerability.
@@ -745,6 +759,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-6463](https://github.com/Live-Hack-CVE/CVE-2014-6463) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6463.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6463.svg)
 
+## CVE-2014-6417
+ net/ceph/auth_x.c in Ceph, as used in the Linux kernel before 3.16.3, does not properly consider the possibility of kmalloc failure, which allows remote attackers to cause a denial of service (system crash) or possibly have unspecified other impact via a long unencrypted auth ticket.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-6417](https://github.com/Live-Hack-CVE/CVE-2014-6417) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-6417.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-6417.svg)
+
 ## CVE-2014-6416
  Buffer overflow in net/ceph/auth_x.c in Ceph, as used in the Linux kernel before 3.16.3, allows remote attackers to cause a denial of service (memory corruption and panic) or possibly have unspecified other impact via a long unencrypted auth ticket.
 
@@ -831,9 +852,9 @@
 
 - [https://github.com/trhacknon/exploit-CVE-2014-6271](https://github.com/trhacknon/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/trhacknon/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/trhacknon/exploit-CVE-2014-6271.svg)
 
-- [https://github.com/ryeyao/CVE-2014-6271_Test](https://github.com/ryeyao/CVE-2014-6271_Test) :  ![starts](https://img.shields.io/github/stars/ryeyao/CVE-2014-6271_Test.svg) ![forks](https://img.shields.io/github/forks/ryeyao/CVE-2014-6271_Test.svg)
-
 - [https://github.com/Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2014-6271.svg)
+
+- [https://github.com/ryeyao/CVE-2014-6271_Test](https://github.com/ryeyao/CVE-2014-6271_Test) :  ![starts](https://img.shields.io/github/stars/ryeyao/CVE-2014-6271_Test.svg) ![forks](https://img.shields.io/github/forks/ryeyao/CVE-2014-6271_Test.svg)
 
 - [https://github.com/trhacknon/CVE-2014-6271](https://github.com/trhacknon/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2014-6271.svg)
 
@@ -845,9 +866,9 @@
 
 - [https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg)
 
-- [https://github.com/gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww) :  ![starts](https://img.shields.io/github/stars/gabemarshall/shocknaww.svg) ![forks](https://img.shields.io/github/forks/gabemarshall/shocknaww.svg)
-
 - [https://github.com/Gurguii/cgi-bin-shellshock](https://github.com/Gurguii/cgi-bin-shellshock) :  ![starts](https://img.shields.io/github/stars/Gurguii/cgi-bin-shellshock.svg) ![forks](https://img.shields.io/github/forks/Gurguii/cgi-bin-shellshock.svg)
+
+- [https://github.com/gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww) :  ![starts](https://img.shields.io/github/stars/gabemarshall/shocknaww.svg) ![forks](https://img.shields.io/github/forks/gabemarshall/shocknaww.svg)
 
 - [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) :  ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
 
@@ -875,13 +896,13 @@
 
 - [https://github.com/0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2014-6271.svg)
 
-- [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
-
-- [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
-
 - [https://github.com/mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mattclegg/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mattclegg/CVE-2014-6271.svg)
 
 - [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
+
+- [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
+
+- [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
 
 - [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
 
@@ -911,9 +932,9 @@
 
 - [https://github.com/ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock) :  ![starts](https://img.shields.io/github/stars/ariarijp/vagrant-shellshock.svg) ![forks](https://img.shields.io/github/forks/ariarijp/vagrant-shellshock.svg)
 
-- [https://github.com/anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host) :  ![starts](https://img.shields.io/github/stars/anujbhan/shellshock-victim-host.svg) ![forks](https://img.shields.io/github/forks/anujbhan/shellshock-victim-host.svg)
-
 - [https://github.com/teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit) :  ![starts](https://img.shields.io/github/stars/teedeedubya/bash-fix-exploit.svg) ![forks](https://img.shields.io/github/forks/teedeedubya/bash-fix-exploit.svg)
+
+- [https://github.com/anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host) :  ![starts](https://img.shields.io/github/stars/anujbhan/shellshock-victim-host.svg) ![forks](https://img.shields.io/github/forks/anujbhan/shellshock-victim-host.svg)
 
 - [https://github.com/justzx2011/bash-up](https://github.com/justzx2011/bash-up) :  ![starts](https://img.shields.io/github/stars/justzx2011/bash-up.svg) ![forks](https://img.shields.io/github/forks/justzx2011/bash-up.svg)
 
@@ -989,6 +1010,13 @@
 
 
 - [https://github.com/vnik5287/cve-2014-4699-ptrace](https://github.com/vnik5287/cve-2014-4699-ptrace) :  ![starts](https://img.shields.io/github/stars/vnik5287/cve-2014-4699-ptrace.svg) ![forks](https://img.shields.io/github/forks/vnik5287/cve-2014-4699-ptrace.svg)
+
+## CVE-2014-4698
+ Use-after-free vulnerability in ext/spl/spl_array.c in the SPL component in PHP through 5.5.14 allows context-dependent attackers to cause a denial of service or possibly have unspecified other impact via crafted ArrayIterator usage within applications in certain web-hosting environments.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-4698](https://github.com/Live-Hack-CVE/CVE-2014-4698) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-4698.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-4698.svg)
 
 ## CVE-2014-4688
  pfSense before 2.1.4 allows remote authenticated users to execute arbitrary commands via (1) the hostname value to diag_dns.php in a Create Alias action, (2) the smartmonemail value to diag_smart.php, or (3) the database value to status_rrd_graph_img.php.
@@ -1166,6 +1194,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-3991](https://github.com/Live-Hack-CVE/CVE-2014-3991) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3991.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3991.svg)
 
+## CVE-2014-3981
+ acinclude.m4, as used in the configure script in PHP 5.5.13 and earlier, allows local users to overwrite arbitrary files via a symlink attack on the /tmp/phpglibccheck file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-3981](https://github.com/Live-Hack-CVE/CVE-2014-3981) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3981.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3981.svg)
+
 ## CVE-2014-3710
  The donote function in readelf.c in file through 5.20, as used in the Fileinfo component in PHP 5.4.34, does not ensure that sufficient note headers are present, which allows remote attackers to cause a denial of service (out-of-bounds read and application crash) via a crafted ELF file.
 
@@ -1219,6 +1254,13 @@
 
 
 - [https://github.com/JavaGarcia/CVE-2014-3551](https://github.com/JavaGarcia/CVE-2014-3551) :  ![starts](https://img.shields.io/github/stars/JavaGarcia/CVE-2014-3551.svg) ![forks](https://img.shields.io/github/forks/JavaGarcia/CVE-2014-3551.svg)
+
+## CVE-2014-3538
+ file before 5.19 does not properly restrict the amount of data read during a regex search, which allows remote attackers to cause a denial of service (CPU consumption) via a crafted file that triggers backtracking during processing of an awk rule.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2013-7345.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-3538](https://github.com/Live-Hack-CVE/CVE-2014-3538) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3538.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3538.svg)
 
 ## CVE-2014-3487
  The cdf_read_property_info function in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, does not properly validate a stream offset, which allows remote attackers to cause a denial of service (application crash) via a crafted CDF file.
@@ -1334,6 +1376,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-2589](https://github.com/Live-Hack-CVE/CVE-2014-2589) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-2589.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-2589.svg)
+
+## CVE-2014-2523
+ net/netfilter/nf_conntrack_proto_dccp.c in the Linux kernel through 3.13.6 uses a DCCP header pointer incorrectly, which allows remote attackers to cause a denial of service (system crash) or possibly execute arbitrary code via a DCCP packet that triggers a call to the (1) dccp_new, (2) dccp_packet, or (3) dccp_error function.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2014-2523](https://github.com/Live-Hack-CVE/CVE-2014-2523) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-2523.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-2523.svg)
 
 ## CVE-2014-2497
  The gdImageCreateFromXpm function in gdxpm.c in libgd, as used in PHP 5.4.26 and earlier, allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted color table in an XPM file.
@@ -1863,9 +1912,9 @@
 
 - [https://github.com/a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test) :  ![starts](https://img.shields.io/github/stars/a0726h77/heartbleed-test.svg) ![forks](https://img.shields.io/github/forks/a0726h77/heartbleed-test.svg)
 
-- [https://github.com/fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/fb1h2s/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/fb1h2s/CVE-2014-0160.svg)
-
 - [https://github.com/ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/ice-security88/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/ice-security88/CVE-2014-0160.svg)
+
+- [https://github.com/fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/fb1h2s/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/fb1h2s/CVE-2014-0160.svg)
 
 - [https://github.com/obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner) :  ![starts](https://img.shields.io/github/stars/obayesshelton/CVE-2014-0160-Scanner.svg) ![forks](https://img.shields.io/github/forks/obayesshelton/CVE-2014-0160-Scanner.svg)
 
@@ -1877,9 +1926,9 @@
 
 - [https://github.com/siddolo/knockbleed](https://github.com/siddolo/knockbleed) :  ![starts](https://img.shields.io/github/stars/siddolo/knockbleed.svg) ![forks](https://img.shields.io/github/forks/siddolo/knockbleed.svg)
 
-- [https://github.com/iwaffles/heartbleed-test.crx](https://github.com/iwaffles/heartbleed-test.crx) :  ![starts](https://img.shields.io/github/stars/iwaffles/heartbleed-test.crx.svg) ![forks](https://img.shields.io/github/forks/iwaffles/heartbleed-test.crx.svg)
-
 - [https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS) :  ![starts](https://img.shields.io/github/stars/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg) ![forks](https://img.shields.io/github/forks/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg)
+
+- [https://github.com/iwaffles/heartbleed-test.crx](https://github.com/iwaffles/heartbleed-test.crx) :  ![starts](https://img.shields.io/github/stars/iwaffles/heartbleed-test.crx.svg) ![forks](https://img.shields.io/github/forks/iwaffles/heartbleed-test.crx.svg)
 
 - [https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed](https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed) :  ![starts](https://img.shields.io/github/stars/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg)
 
