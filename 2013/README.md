@@ -5,6 +5,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-20004](https://github.com/Live-Hack-CVE/CVE-2013-20004) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-20004.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-20004.svg)
 
+## CVE-2013-10014
+ A vulnerability classified as critical has been found in oktora24 2moons. Affected is an unknown function. The manipulation leads to sql injection. The name of the patch is 1b09cf7672eb85b5b0c8a4de321f7a4ad87b09a7. It is recommended to apply a patch to fix this issue. VDB-218898 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-10014](https://github.com/Live-Hack-CVE/CVE-2013-10014) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-10014.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-10014.svg)
+
 ## CVE-2013-10013
  A vulnerability was found in Bricco Authenticator Plugin. It has been declared as critical. This vulnerability affects the function authenticate/compare of the file src/java/talentum/escenic/plugins/authenticator/authenticators/DBAuthenticator.java. The manipulation leads to sql injection. Upgrading to version 1.39 is able to address this issue. The name of the patch is a5456633ff75e8f13705974c7ed1ce77f3f142d5. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218428.
 
@@ -956,6 +963,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-0881](https://github.com/Live-Hack-CVE/CVE-2013-0881) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0881.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0881.svg)
+
+## CVE-2013-0796
+ The WebGL subsystem in Mozilla Firefox before 20.0, Firefox ESR 17.x before 17.0.5, Thunderbird before 17.0.5, Thunderbird ESR 17.x before 17.0.5, and SeaMonkey before 2.17 on Linux does not properly interact with Mesa drivers, which allows remote attackers to execute arbitrary code or cause a denial of service (free of unallocated memory) via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0796](https://github.com/Live-Hack-CVE/CVE-2013-0796) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0796.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0796.svg)
 
 ## CVE-2013-0791
  The CERT_DecodeCertPackage function in Mozilla Network Security Services (NSS), as used in Mozilla Firefox before 20.0, Firefox ESR 17.x before 17.0.5, Thunderbird before 17.0.5, Thunderbird ESR 17.x before 17.0.5, SeaMonkey before 2.17, and other products, allows remote attackers to cause a denial of service (out-of-bounds read and memory corruption) via a crafted certificate.
