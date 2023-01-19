@@ -176,9 +176,9 @@
 
 - [https://github.com/nobodyatall648/CVE-2011-2523](https://github.com/nobodyatall648/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2011-2523.svg)
 
-- [https://github.com/XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/XiangSi-Howard/CTF---CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/XiangSi-Howard/CTF---CVE-2011-2523.svg)
-
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
+
+- [https://github.com/XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/XiangSi-Howard/CTF---CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/XiangSi-Howard/CTF---CVE-2011-2523.svg)
 
 - [https://github.com/HerculesRD/vsftpd2.3.4PyExploit](https://github.com/HerculesRD/vsftpd2.3.4PyExploit) :  ![starts](https://img.shields.io/github/stars/HerculesRD/vsftpd2.3.4PyExploit.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/vsftpd2.3.4PyExploit.svg)
 
@@ -252,6 +252,13 @@
 - [https://github.com/XDLDCG/bash-tls-reneg-attack](https://github.com/XDLDCG/bash-tls-reneg-attack) :  ![starts](https://img.shields.io/github/stars/XDLDCG/bash-tls-reneg-attack.svg) ![forks](https://img.shields.io/github/forks/XDLDCG/bash-tls-reneg-attack.svg)
 
 - [https://github.com/zjt674449039/cve-2011-1473](https://github.com/zjt674449039/cve-2011-1473) :  ![starts](https://img.shields.io/github/stars/zjt674449039/cve-2011-1473.svg) ![forks](https://img.shields.io/github/forks/zjt674449039/cve-2011-1473.svg)
+
+## CVE-2011-1471
+ Integer signedness error in zip_stream.c in the Zip extension in PHP before 5.3.6 allows context-dependent attackers to cause a denial of service (CPU consumption) via a malformed archive file that triggers errors in zip_fread function calls.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-1471](https://github.com/Live-Hack-CVE/CVE-2011-1471) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-1471.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-1471.svg)
 
 ## CVE-2011-1249
  The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka &quot;Ancillary Function Driver Elevation of Privilege Vulnerability.&quot;
