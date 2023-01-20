@@ -61,6 +61,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-6701](https://github.com/Live-Hack-CVE/CVE-2012-6701) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-6701.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-6701.svg)
 
+## CVE-2012-6689
+ The netlink_sendmsg function in net/netlink/af_netlink.c in the Linux kernel before 3.5.5 does not validate the dst_pid field, which allows local users to have an unspecified impact by spoofing Netlink messages.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-6689](https://github.com/Live-Hack-CVE/CVE-2012-6689) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-6689.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-6689.svg)
+
 ## CVE-2012-6638
  The tcp_rcv_state_process function in net/ipv4/tcp_input.c in the Linux kernel before 3.2.24 allows remote attackers to cause a denial of service (kernel resource consumption) via a flood of SYN+FIN TCP packets, a different vulnerability than CVE-2012-2663.
 
