@@ -1,3 +1,10 @@
+## CVE-2005-3353
+ The exif_read_data function in the Exif module in PHP before 4.4.1 allows remote attackers to cause a denial of service (infinite loop) via a malformed JPEG image.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-2687](https://github.com/Live-Hack-CVE/CVE-2009-2687) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-2687.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-2687.svg)
+
 ## CVE-2005-3299
  PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and 2.6.4-pl1 allows remote attackers to include local files via the $__redirect parameter, possibly involving the subform array.
 
