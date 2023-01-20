@@ -27,7 +27,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2010-10006](https://github.com/Live-Hack-CVE/CVE-2010-10006) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-10006.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-10006.svg)
 
 ## CVE-2010-10005
- A vulnerability was found in msmania poodim. It has been declared as critical. This vulnerability affects unknown code of the component Command Line Argument Handler. The manipulation leads to stack-based buffer overflow. The attack can be initiated remotely. The name of the patch is 6340d5d2c81e55e61522c4b40a6cdd5c39738cc6. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218392.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2010. Notes: none.
 
 
 
