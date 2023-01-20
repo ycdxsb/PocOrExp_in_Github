@@ -1212,6 +1212,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-4004](https://github.com/Live-Hack-CVE/CVE-2015-4004) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4004.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4004.svg)
 
+## CVE-2015-4003
+ The oz_usb_handle_ep_data function in drivers/staging/ozwpan/ozusbsvc1.c in the OZWPAN driver in the Linux kernel through 4.0.5 allows remote attackers to cause a denial of service (divide-by-zero error and system crash) via a crafted packet.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-4003](https://github.com/Live-Hack-CVE/CVE-2015-4003) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4003.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4003.svg)
+
 ## CVE-2015-4002
  drivers/staging/ozwpan/ozusbsvc1.c in the OZWPAN driver in the Linux kernel through 4.0.5 does not ensure that certain length values are sufficiently large, which allows remote attackers to cause a denial of service (system crash or large loop) or possibly execute arbitrary code via a crafted packet, related to the (1) oz_usb_rx and (2) oz_usb_handle_ep_data functions.
 
