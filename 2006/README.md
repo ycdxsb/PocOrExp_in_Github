@@ -5,6 +5,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2006-20001](https://github.com/Live-Hack-CVE/CVE-2006-20001) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2006-20001.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2006-20001.svg)
 
+## CVE-2006-7204
+ The imap_body function in PHP before 4.4.4 does not implement safemode or open_basedir checks, which allows local users to read arbitrary files or list arbitrary directory contents.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2006-7204](https://github.com/Live-Hack-CVE/CVE-2006-7204) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2006-7204.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2006-7204.svg)
+
 ## CVE-2006-7142
  The centralized management feature for Utimaco Safeguard stores hard-coded cryptographic keys in executable programs for encrypted configuration files, which allows attackers to recover the keys from the configuration files and decrypt the disk drive.
 
