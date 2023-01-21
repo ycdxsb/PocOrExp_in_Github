@@ -865,9 +865,9 @@
 
 - [https://github.com/trhacknon/CVE-2014-6271](https://github.com/trhacknon/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2014-6271.svg)
 
-- [https://github.com/APSL/salt-shellshock](https://github.com/APSL/salt-shellshock) :  ![starts](https://img.shields.io/github/stars/APSL/salt-shellshock.svg) ![forks](https://img.shields.io/github/forks/APSL/salt-shellshock.svg)
-
 - [https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271](https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/w4fz5uck5/ShockZaum-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/w4fz5uck5/ShockZaum-CVE-2014-6271.svg)
+
+- [https://github.com/APSL/salt-shellshock](https://github.com/APSL/salt-shellshock) :  ![starts](https://img.shields.io/github/stars/APSL/salt-shellshock.svg) ![forks](https://img.shields.io/github/forks/APSL/salt-shellshock.svg)
 
 - [https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian) :  ![starts](https://img.shields.io/github/stars/mochizuki875/CVE-2014-6271-Apache-Debian.svg) ![forks](https://img.shields.io/github/forks/mochizuki875/CVE-2014-6271-Apache-Debian.svg)
 
@@ -903,13 +903,13 @@
 
 - [https://github.com/0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2014-6271.svg)
 
-- [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
-
-- [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
-
 - [https://github.com/mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mattclegg/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mattclegg/CVE-2014-6271.svg)
 
 - [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
+
+- [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
+
+- [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
 
 - [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
 
@@ -939,9 +939,9 @@
 
 - [https://github.com/ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock) :  ![starts](https://img.shields.io/github/stars/ariarijp/vagrant-shellshock.svg) ![forks](https://img.shields.io/github/forks/ariarijp/vagrant-shellshock.svg)
 
-- [https://github.com/anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host) :  ![starts](https://img.shields.io/github/stars/anujbhan/shellshock-victim-host.svg) ![forks](https://img.shields.io/github/forks/anujbhan/shellshock-victim-host.svg)
-
 - [https://github.com/teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit) :  ![starts](https://img.shields.io/github/stars/teedeedubya/bash-fix-exploit.svg) ![forks](https://img.shields.io/github/forks/teedeedubya/bash-fix-exploit.svg)
+
+- [https://github.com/anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host) :  ![starts](https://img.shields.io/github/stars/anujbhan/shellshock-victim-host.svg) ![forks](https://img.shields.io/github/forks/anujbhan/shellshock-victim-host.svg)
 
 - [https://github.com/justzx2011/bash-up](https://github.com/justzx2011/bash-up) :  ![starts](https://img.shields.io/github/stars/justzx2011/bash-up.svg) ![forks](https://img.shields.io/github/forks/justzx2011/bash-up.svg)
 
