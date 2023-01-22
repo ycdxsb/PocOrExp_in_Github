@@ -806,7 +806,7 @@
 
 - [https://github.com/roughiz/cve-2014-6287.py](https://github.com/roughiz/cve-2014-6287.py) :  ![starts](https://img.shields.io/github/stars/roughiz/cve-2014-6287.py.svg) ![forks](https://img.shields.io/github/forks/roughiz/cve-2014-6287.py.svg)
 
-- [https://github.com/SlizBinksman/THM-Steel_Mountain-CVE-2014-6287](https://github.com/SlizBinksman/THM-Steel_Mountain-CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/SlizBinksman/THM-Steel_Mountain-CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/SlizBinksman/THM-Steel_Mountain-CVE-2014-6287.svg)
+- [https://github.com/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287](https://github.com/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287.svg)
 
 ## CVE-2014-6271
  GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
@@ -859,9 +859,9 @@
 
 - [https://github.com/trhacknon/exploit-CVE-2014-6271](https://github.com/trhacknon/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/trhacknon/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/trhacknon/exploit-CVE-2014-6271.svg)
 
-- [https://github.com/ryeyao/CVE-2014-6271_Test](https://github.com/ryeyao/CVE-2014-6271_Test) :  ![starts](https://img.shields.io/github/stars/ryeyao/CVE-2014-6271_Test.svg) ![forks](https://img.shields.io/github/forks/ryeyao/CVE-2014-6271_Test.svg)
-
 - [https://github.com/Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2014-6271.svg)
+
+- [https://github.com/ryeyao/CVE-2014-6271_Test](https://github.com/ryeyao/CVE-2014-6271_Test) :  ![starts](https://img.shields.io/github/stars/ryeyao/CVE-2014-6271_Test.svg) ![forks](https://img.shields.io/github/forks/ryeyao/CVE-2014-6271_Test.svg)
 
 - [https://github.com/trhacknon/CVE-2014-6271](https://github.com/trhacknon/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2014-6271.svg)
 
@@ -873,9 +873,9 @@
 
 - [https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg)
 
-- [https://github.com/gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww) :  ![starts](https://img.shields.io/github/stars/gabemarshall/shocknaww.svg) ![forks](https://img.shields.io/github/forks/gabemarshall/shocknaww.svg)
-
 - [https://github.com/Gurguii/cgi-bin-shellshock](https://github.com/Gurguii/cgi-bin-shellshock) :  ![starts](https://img.shields.io/github/stars/Gurguii/cgi-bin-shellshock.svg) ![forks](https://img.shields.io/github/forks/Gurguii/cgi-bin-shellshock.svg)
+
+- [https://github.com/gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww) :  ![starts](https://img.shields.io/github/stars/gabemarshall/shocknaww.svg) ![forks](https://img.shields.io/github/forks/gabemarshall/shocknaww.svg)
 
 - [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) :  ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
 
