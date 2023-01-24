@@ -74,6 +74,13 @@
 
 - [https://github.com/Exploitables/CVE-2009-4049](https://github.com/Exploitables/CVE-2009-4049) :  ![starts](https://img.shields.io/github/stars/Exploitables/CVE-2009-4049.svg) ![forks](https://img.shields.io/github/forks/Exploitables/CVE-2009-4049.svg)
 
+## CVE-2009-3732
+ Format string vulnerability in vmware-vmrc.exe build 158248 in VMware Remote Console (aka VMrc) allows remote attackers to execute arbitrary code via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-3732](https://github.com/Live-Hack-CVE/CVE-2009-3732) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3732.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3732.svg)
+
 ## CVE-2009-3555
  The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a &quot;plaintext injection&quot; attack, aka the &quot;Project Mogul&quot; issue.
 
