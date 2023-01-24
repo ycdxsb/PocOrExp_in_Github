@@ -75,6 +75,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-10005](https://github.com/Live-Hack-CVE/CVE-2013-10005) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-10005.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-10005.svg)
 
+## CVE-2013-7490
+ An issue was discovered in the DBI module before 1.632 for Perl. Using many arguments to methods for Callbacks may lead to memory corruption.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-7490](https://github.com/Live-Hack-CVE/CVE-2013-7490) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-7490.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-7490.svg)
+
 ## CVE-2013-7488
  perl-Convert-ASN1 (aka the Convert::ASN1 module for Perl) through 0.27 allows remote attackers to cause an infinite loop via unexpected input.
 
@@ -859,6 +866,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-0900](https://github.com/Live-Hack-CVE/CVE-2013-0900) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0900.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0900.svg)
 
+## CVE-2013-0899
+ Integer overflow in the padding implementation in the opus_packet_parse_impl function in src/opus_decoder.c in Opus before 1.0.2, as used in Google Chrome before 25.0.1364.97 on Windows and Linux and before 25.0.1364.99 on Mac OS X and other products, allows remote attackers to cause a denial of service (out-of-bounds read) via a long packet.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0899](https://github.com/Live-Hack-CVE/CVE-2013-0899) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0899.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0899.svg)
+
+## CVE-2013-0898
+ Use-after-free vulnerability in Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors involving a URL.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0898](https://github.com/Live-Hack-CVE/CVE-2013-0898) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0898.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0898.svg)
+
 ## CVE-2013-0897
  Off-by-one error in the PDF functionality in Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allows remote attackers to cause a denial of service via a crafted document.
 
@@ -963,6 +984,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-0881](https://github.com/Live-Hack-CVE/CVE-2013-0881) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0881.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0881.svg)
+
+## CVE-2013-0880
+ Use-after-free vulnerability in Google Chrome before 25.0.1364.97 on Windows and Linux, and before 25.0.1364.99 on Mac OS X, allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors related to databases.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-0880](https://github.com/Live-Hack-CVE/CVE-2013-0880) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0880.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0880.svg)
 
 ## CVE-2013-0796
  The WebGL subsystem in Mozilla Firefox before 20.0, Firefox ESR 17.x before 17.0.5, Thunderbird before 17.0.5, Thunderbird ESR 17.x before 17.0.5, and SeaMonkey before 2.17 on Linux does not properly interact with Mesa drivers, which allows remote attackers to execute arbitrary code or cause a denial of service (free of unallocated memory) via unspecified vectors.
