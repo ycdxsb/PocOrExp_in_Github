@@ -1286,9 +1286,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-6982](https://github.com/Live-Hack-CVE/CVE-2016-6982) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6982.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6982.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-6989](https://github.com/Live-Hack-CVE/CVE-2016-6989) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6989.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6989.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-6986](https://github.com/Live-Hack-CVE/CVE-2016-6986) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6986.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6986.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6989](https://github.com/Live-Hack-CVE/CVE-2016-6989) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6989.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6989.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-6983](https://github.com/Live-Hack-CVE/CVE-2016-6983) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6983.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6983.svg)
 
@@ -1409,6 +1409,13 @@
 
 
 - [https://github.com/secmob/BadKernel](https://github.com/secmob/BadKernel) :  ![starts](https://img.shields.io/github/stars/secmob/BadKernel.svg) ![forks](https://img.shields.io/github/forks/secmob/BadKernel.svg)
+
+## CVE-2016-6664
+ mysqld_safe in Oracle MySQL through 5.5.51, 5.6.x through 5.6.32, and 5.7.x through 5.7.14; MariaDB; Percona Server before 5.5.51-38.2, 5.6.x before 5.6.32-78-1, and 5.7.x before 5.7.14-8; and Percona XtraDB Cluster before 5.5.41-37.0, 5.6.x before 5.6.32-25.17, and 5.7.x before 5.7.14-26.17, when using file-based logging, allows local users with access to the mysql account to gain root privileges via a symlink attack on error logs and possibly other files.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6664](https://github.com/Live-Hack-CVE/CVE-2016-6664) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6664.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6664.svg)
 
 ## CVE-2016-6663
  Race condition in Oracle MySQL before 5.5.52, 5.6.x before 5.6.33, 5.7.x before 5.7.15, and 8.x before 8.0.1; MariaDB before 5.5.52, 10.0.x before 10.0.28, and 10.1.x before 10.1.18; Percona Server before 5.5.51-38.2, 5.6.x before 5.6.32-78-1, and 5.7.x before 5.7.14-8; and Percona XtraDB Cluster before 5.5.41-37.0, 5.6.x before 5.6.32-25.17, and 5.7.x before 5.7.14-26.17 allows local users with certain permissions to gain privileges by leveraging use of my_copystat by REPAIR TABLE to repair a MyISAM table.
@@ -2152,9 +2159,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4277](https://github.com/Live-Hack-CVE/CVE-2016-4277) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4277.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4277.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4278](https://github.com/Live-Hack-CVE/CVE-2016-4278) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4278.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4278.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-4271](https://github.com/Live-Hack-CVE/CVE-2016-4271) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4271.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4271.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4278](https://github.com/Live-Hack-CVE/CVE-2016-4278) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4278.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4278.svg)
 
 ## CVE-2016-4276
  Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4274, CVE-2016-4275, CVE-2016-4280, CVE-2016-4281, CVE-2016-4282, CVE-2016-4283, CVE-2016-4284, CVE-2016-4285, CVE-2016-6922, and CVE-2016-6924.
@@ -2269,6 +2276,60 @@
 - [https://github.com/Live-Hack-CVE/CVE-2016-4277](https://github.com/Live-Hack-CVE/CVE-2016-4277) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4277.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4277.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4278](https://github.com/Live-Hack-CVE/CVE-2016-4278) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4278.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4278.svg)
+
+## CVE-2016-4183
+ Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4172, CVE-2016-4175, CVE-2016-4179, CVE-2016-4180, CVE-2016-4181, CVE-2016-4182, CVE-2016-4184, CVE-2016-4185, CVE-2016-4186, CVE-2016-4187, CVE-2016-4188, CVE-2016-4189, CVE-2016-4190, CVE-2016-4217, CVE-2016-4218, CVE-2016-4219, CVE-2016-4220, CVE-2016-4221, CVE-2016-4233, CVE-2016-4234, CVE-2016-4235, CVE-2016-4236, CVE-2016-4237, CVE-2016-4238, CVE-2016-4239, CVE-2016-4240, CVE-2016-4241, CVE-2016-4242, CVE-2016-4243, CVE-2016-4244, CVE-2016-4245, and CVE-2016-4246.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4183](https://github.com/Live-Hack-CVE/CVE-2016-4183) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4183.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4183.svg)
+
+## CVE-2016-4182
+ Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4172, CVE-2016-4175, CVE-2016-4179, CVE-2016-4180, CVE-2016-4181, CVE-2016-4183, CVE-2016-4184, CVE-2016-4185, CVE-2016-4186, CVE-2016-4187, CVE-2016-4188, CVE-2016-4189, CVE-2016-4190, CVE-2016-4217, CVE-2016-4218, CVE-2016-4219, CVE-2016-4220, CVE-2016-4221, CVE-2016-4233, CVE-2016-4234, CVE-2016-4235, CVE-2016-4236, CVE-2016-4237, CVE-2016-4238, CVE-2016-4239, CVE-2016-4240, CVE-2016-4241, CVE-2016-4242, CVE-2016-4243, CVE-2016-4244, CVE-2016-4245, and CVE-2016-4246.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4182](https://github.com/Live-Hack-CVE/CVE-2016-4182) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4182.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4182.svg)
+
+## CVE-2016-4181
+ Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4172, CVE-2016-4175, CVE-2016-4179, CVE-2016-4180, CVE-2016-4182, CVE-2016-4183, CVE-2016-4184, CVE-2016-4185, CVE-2016-4186, CVE-2016-4187, CVE-2016-4188, CVE-2016-4189, CVE-2016-4190, CVE-2016-4217, CVE-2016-4218, CVE-2016-4219, CVE-2016-4220, CVE-2016-4221, CVE-2016-4233, CVE-2016-4234, CVE-2016-4235, CVE-2016-4236, CVE-2016-4237, CVE-2016-4238, CVE-2016-4239, CVE-2016-4240, CVE-2016-4241, CVE-2016-4242, CVE-2016-4243, CVE-2016-4244, CVE-2016-4245, and CVE-2016-4246.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4181](https://github.com/Live-Hack-CVE/CVE-2016-4181) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4181.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4181.svg)
+
+## CVE-2016-4180
+ Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4172, CVE-2016-4175, CVE-2016-4179, CVE-2016-4181, CVE-2016-4182, CVE-2016-4183, CVE-2016-4184, CVE-2016-4185, CVE-2016-4186, CVE-2016-4187, CVE-2016-4188, CVE-2016-4189, CVE-2016-4190, CVE-2016-4217, CVE-2016-4218, CVE-2016-4219, CVE-2016-4220, CVE-2016-4221, CVE-2016-4233, CVE-2016-4234, CVE-2016-4235, CVE-2016-4236, CVE-2016-4237, CVE-2016-4238, CVE-2016-4239, CVE-2016-4240, CVE-2016-4241, CVE-2016-4242, CVE-2016-4243, CVE-2016-4244, CVE-2016-4245, and CVE-2016-4246.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4180](https://github.com/Live-Hack-CVE/CVE-2016-4180) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4180.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4180.svg)
+
+## CVE-2016-4175
+ Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4172, CVE-2016-4179, CVE-2016-4180, CVE-2016-4181, CVE-2016-4182, CVE-2016-4183, CVE-2016-4184, CVE-2016-4185, CVE-2016-4186, CVE-2016-4187, CVE-2016-4188, CVE-2016-4189, CVE-2016-4190, CVE-2016-4217, CVE-2016-4218, CVE-2016-4219, CVE-2016-4220, CVE-2016-4221, CVE-2016-4233, CVE-2016-4234, CVE-2016-4235, CVE-2016-4236, CVE-2016-4237, CVE-2016-4238, CVE-2016-4239, CVE-2016-4240, CVE-2016-4241, CVE-2016-4242, CVE-2016-4243, CVE-2016-4244, CVE-2016-4245, and CVE-2016-4246.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4181](https://github.com/Live-Hack-CVE/CVE-2016-4181) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4181.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4181.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4183](https://github.com/Live-Hack-CVE/CVE-2016-4183) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4183.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4183.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4182](https://github.com/Live-Hack-CVE/CVE-2016-4182) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4182.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4182.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4180](https://github.com/Live-Hack-CVE/CVE-2016-4180) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4180.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4180.svg)
+
+## CVE-2016-4172
+ Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4175, CVE-2016-4179, CVE-2016-4180, CVE-2016-4181, CVE-2016-4182, CVE-2016-4183, CVE-2016-4184, CVE-2016-4185, CVE-2016-4186, CVE-2016-4187, CVE-2016-4188, CVE-2016-4189, CVE-2016-4190, CVE-2016-4217, CVE-2016-4218, CVE-2016-4219, CVE-2016-4220, CVE-2016-4221, CVE-2016-4233, CVE-2016-4234, CVE-2016-4235, CVE-2016-4236, CVE-2016-4237, CVE-2016-4238, CVE-2016-4239, CVE-2016-4240, CVE-2016-4241, CVE-2016-4242, CVE-2016-4243, CVE-2016-4244, CVE-2016-4245, and CVE-2016-4246.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4181](https://github.com/Live-Hack-CVE/CVE-2016-4181) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4181.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4181.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4180](https://github.com/Live-Hack-CVE/CVE-2016-4180) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4180.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4180.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4183](https://github.com/Live-Hack-CVE/CVE-2016-4183) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4183.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4183.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4182](https://github.com/Live-Hack-CVE/CVE-2016-4182) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4182.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4182.svg)
 
 ## CVE-2016-4166
  Unspecified vulnerability in Adobe Flash Player 21.0.0.242 and earlier, as used in the Adobe Flash libraries in Microsoft Internet Explorer 10 and 11 and Microsoft Edge, has unknown impact and attack vectors, a different vulnerability than other CVEs listed in MS16-083.
@@ -2749,9 +2810,9 @@
 
 
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-2118](https://github.com/Live-Hack-CVE/CVE-2016-2118) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2118.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2118.svg)
-
 - [https://github.com/nickanderson/cfengine-CVE-2016-2118](https://github.com/nickanderson/cfengine-CVE-2016-2118) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE-2016-2118.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE-2016-2118.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2118](https://github.com/Live-Hack-CVE/CVE-2016-2118) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2118.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2118.svg)
 
 ## CVE-2016-2109
  The asn1_d2i_read_bio function in crypto/asn1/a_d2i_fp.c in the ASN.1 BIO implementation in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h allows remote attackers to cause a denial of service (memory consumption) via a short invalid encoding.
