@@ -1760,6 +1760,8 @@
 
 - [https://github.com/secmob/PoCForCVE-2015-1528](https://github.com/secmob/PoCForCVE-2015-1528) :  ![starts](https://img.shields.io/github/stars/secmob/PoCForCVE-2015-1528.svg) ![forks](https://img.shields.io/github/forks/secmob/PoCForCVE-2015-1528.svg)
 
+- [https://github.com/kanpol/PoCForCVE-2015-1528](https://github.com/kanpol/PoCForCVE-2015-1528) :  ![starts](https://img.shields.io/github/stars/kanpol/PoCForCVE-2015-1528.svg) ![forks](https://img.shields.io/github/forks/kanpol/PoCForCVE-2015-1528.svg)
+
 ## CVE-2015-1474
  Multiple integer overflows in the GraphicBuffer::unflatten function in platform/frameworks/native/libs/ui/GraphicBuffer.cpp in Android through 5.0 allow attackers to gain privileges or cause a denial of service (memory corruption) via vectors that trigger a large number of (1) file descriptors or (2) integer values.
 
