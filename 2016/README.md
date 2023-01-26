@@ -295,13 +295,6 @@
 
 - [https://github.com/pedro823/cve-2016-10033-45](https://github.com/pedro823/cve-2016-10033-45) :  ![starts](https://img.shields.io/github/stars/pedro823/cve-2016-10033-45.svg) ![forks](https://img.shields.io/github/forks/pedro823/cve-2016-10033-45.svg)
 
-## CVE-2016-10034
- The setFrom function in the Sendmail adapter in the zend-mail component before 2.4.11, 2.5.x, 2.6.x, and 2.7.x before 2.7.2, and Zend Framework before 2.4.11 might allow remote attackers to pass extra parameters to the mail command and consequently execute arbitrary code via a \&quot; (backslash double quote) in a crafted e-mail address.
-
-
-
-- [https://github.com/heikipikker/exploit-CVE-2016-10034](https://github.com/heikipikker/exploit-CVE-2016-10034) :  ![starts](https://img.shields.io/github/stars/heikipikker/exploit-CVE-2016-10034.svg) ![forks](https://img.shields.io/github/forks/heikipikker/exploit-CVE-2016-10034.svg)
-
 ## CVE-2016-10033
  The mailSend function in the isMail transport in PHPMailer before 5.2.18 might allow remote attackers to pass extra parameters to the mail command and consequently execute arbitrary code via a \&quot; (backslash double quote) in a crafted Sender property.
 
@@ -329,11 +322,11 @@
 
 - [https://github.com/eb613819/CTF_CVE-2016-10033](https://github.com/eb613819/CTF_CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/eb613819/CTF_CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/eb613819/CTF_CVE-2016-10033.svg)
 
-- [https://github.com/zeeshanbhattined/exploit-CVE-2016-10033](https://github.com/zeeshanbhattined/exploit-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/zeeshanbhattined/exploit-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/zeeshanbhattined/exploit-CVE-2016-10033.svg)
-
 - [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
 
 - [https://github.com/CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/CAOlvchonger/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/CAOlvchonger/CVE-2016-10033.svg)
+
+- [https://github.com/zeeshanbhattined/exploit-CVE-2016-10033](https://github.com/zeeshanbhattined/exploit-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/zeeshanbhattined/exploit-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/zeeshanbhattined/exploit-CVE-2016-10033.svg)
 
 - [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
 
@@ -814,9 +807,9 @@
 
 - [https://github.com/LakshmiDesai/CVE-2016-8655](https://github.com/LakshmiDesai/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/LakshmiDesai/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/LakshmiDesai/CVE-2016-8655.svg)
 
-- [https://github.com/agkunkle/chocobo](https://github.com/agkunkle/chocobo) :  ![starts](https://img.shields.io/github/stars/agkunkle/chocobo.svg) ![forks](https://img.shields.io/github/forks/agkunkle/chocobo.svg)
-
 - [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) :  ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
+
+- [https://github.com/agkunkle/chocobo](https://github.com/agkunkle/chocobo) :  ![starts](https://img.shields.io/github/stars/agkunkle/chocobo.svg) ![forks](https://img.shields.io/github/forks/agkunkle/chocobo.svg)
 
 - [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
 
@@ -1217,6 +1210,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-7055](https://github.com/Live-Hack-CVE/CVE-2016-7055) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7055.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7055.svg)
 
+## CVE-2016-7020
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-4173, CVE-2016-4174, CVE-2016-4222, CVE-2016-4226, CVE-2016-4227, CVE-2016-4228, CVE-2016-4229, CVE-2016-4230, CVE-2016-4231, and CVE-2016-4248.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7020](https://github.com/Live-Hack-CVE/CVE-2016-7020) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7020.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7020.svg)
+
 ## CVE-2016-6992
  Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code by leveraging an unspecified &quot;type confusion.&quot;
 
@@ -1286,9 +1286,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-6982](https://github.com/Live-Hack-CVE/CVE-2016-6982) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6982.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6982.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-6989](https://github.com/Live-Hack-CVE/CVE-2016-6989) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6989.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6989.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-6986](https://github.com/Live-Hack-CVE/CVE-2016-6986) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6986.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6986.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6989](https://github.com/Live-Hack-CVE/CVE-2016-6989) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6989.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6989.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-6983](https://github.com/Live-Hack-CVE/CVE-2016-6983) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6983.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6983.svg)
 
@@ -1357,9 +1357,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-6931](https://github.com/Live-Hack-CVE/CVE-2016-6931) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6931.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6931.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-6926](https://github.com/Live-Hack-CVE/CVE-2016-6926) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6926.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6926.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-6925](https://github.com/Live-Hack-CVE/CVE-2016-6925) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6925.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6925.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-6926](https://github.com/Live-Hack-CVE/CVE-2016-6926) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6926.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6926.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4272](https://github.com/Live-Hack-CVE/CVE-2016-4272) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4272.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4272.svg)
 
@@ -1859,9 +1859,9 @@
 
 - [https://github.com/KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow) :  ![starts](https://img.shields.io/github/stars/KaviDk/dirtyCow.svg) ![forks](https://img.shields.io/github/forks/KaviDk/dirtyCow.svg)
 
-- [https://github.com/istenrot/centos-dirty-cow-ansible](https://github.com/istenrot/centos-dirty-cow-ansible) :  ![starts](https://img.shields.io/github/stars/istenrot/centos-dirty-cow-ansible.svg) ![forks](https://img.shields.io/github/forks/istenrot/centos-dirty-cow-ansible.svg)
-
 - [https://github.com/ellietoulabi/Dirty-Cow](https://github.com/ellietoulabi/Dirty-Cow) :  ![starts](https://img.shields.io/github/stars/ellietoulabi/Dirty-Cow.svg) ![forks](https://img.shields.io/github/forks/ellietoulabi/Dirty-Cow.svg)
+
+- [https://github.com/istenrot/centos-dirty-cow-ansible](https://github.com/istenrot/centos-dirty-cow-ansible) :  ![starts](https://img.shields.io/github/stars/istenrot/centos-dirty-cow-ansible.svg) ![forks](https://img.shields.io/github/forks/istenrot/centos-dirty-cow-ansible.svg)
 
 - [https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg)
 
@@ -2193,13 +2193,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4280](https://github.com/Live-Hack-CVE/CVE-2016-4280) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4280.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4280.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4284](https://github.com/Live-Hack-CVE/CVE-2016-4284) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4284.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4284.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-6922](https://github.com/Live-Hack-CVE/CVE-2016-6922) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6922.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6922.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4274](https://github.com/Live-Hack-CVE/CVE-2016-4274) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4274.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4274.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2016-4284](https://github.com/Live-Hack-CVE/CVE-2016-4284) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4284.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4284.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4282](https://github.com/Live-Hack-CVE/CVE-2016-4282) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4282.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4282.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4274](https://github.com/Live-Hack-CVE/CVE-2016-4274) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4274.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4274.svg)
 
 ## CVE-2016-4274
  Adobe Flash Player before 18.0.0.375 and 19.x through 23.x before 23.0.0.162 on Windows and OS X and before 11.2.202.635 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4275, CVE-2016-4276, CVE-2016-4280, CVE-2016-4281, CVE-2016-4282, CVE-2016-4283, CVE-2016-4284, CVE-2016-4285, CVE-2016-6922, and CVE-2016-6924.
@@ -2212,9 +2212,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4283](https://github.com/Live-Hack-CVE/CVE-2016-4283) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4283.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4283.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4284](https://github.com/Live-Hack-CVE/CVE-2016-4284) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4284.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4284.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-6922](https://github.com/Live-Hack-CVE/CVE-2016-6922) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-6922.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-6922.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4284](https://github.com/Live-Hack-CVE/CVE-2016-4284) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4284.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4284.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4280](https://github.com/Live-Hack-CVE/CVE-2016-4280) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4280.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4280.svg)
 
@@ -2224,9 +2224,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4285](https://github.com/Live-Hack-CVE/CVE-2016-4285) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4285.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4285.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4275](https://github.com/Live-Hack-CVE/CVE-2016-4275) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4275.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4275.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-4281](https://github.com/Live-Hack-CVE/CVE-2016-4281) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4281.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4281.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4275](https://github.com/Live-Hack-CVE/CVE-2016-4275) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4275.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4275.svg)
 
 ## CVE-2016-4273
  Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on Windows and OS X and before 11.2.202.637 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-6982, CVE-2016-6983, CVE-2016-6984, CVE-2016-6985, CVE-2016-6986, CVE-2016-6989, and CVE-2016-6990.
@@ -2276,6 +2276,13 @@
 - [https://github.com/Live-Hack-CVE/CVE-2016-4277](https://github.com/Live-Hack-CVE/CVE-2016-4277) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4277.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4277.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4278](https://github.com/Live-Hack-CVE/CVE-2016-4278) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4278.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4278.svg)
+
+## CVE-2016-4248
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-4173, CVE-2016-4174, CVE-2016-4222, CVE-2016-4226, CVE-2016-4227, CVE-2016-4228, CVE-2016-4229, CVE-2016-4230, and CVE-2016-4231.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4248](https://github.com/Live-Hack-CVE/CVE-2016-4248) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4248.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4248.svg)
 
 ## CVE-2016-4246
  Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4172, CVE-2016-4175, CVE-2016-4179, CVE-2016-4180, CVE-2016-4181, CVE-2016-4182, CVE-2016-4183, CVE-2016-4184, CVE-2016-4185, CVE-2016-4186, CVE-2016-4187, CVE-2016-4188, CVE-2016-4189, CVE-2016-4190, CVE-2016-4217, CVE-2016-4218, CVE-2016-4219, CVE-2016-4220, CVE-2016-4221, CVE-2016-4233, CVE-2016-4234, CVE-2016-4235, CVE-2016-4236, CVE-2016-4237, CVE-2016-4238, CVE-2016-4239, CVE-2016-4240, CVE-2016-4241, CVE-2016-4242, CVE-2016-4243, CVE-2016-4244, and CVE-2016-4245.
@@ -2353,6 +2360,124 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4233](https://github.com/Live-Hack-CVE/CVE-2016-4233) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4233.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4233.svg)
+
+## CVE-2016-4231
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-4173, CVE-2016-4174, CVE-2016-4222, CVE-2016-4226, CVE-2016-4227, CVE-2016-4228, CVE-2016-4229, CVE-2016-4230, and CVE-2016-4248.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4231](https://github.com/Live-Hack-CVE/CVE-2016-4231) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4231.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4231.svg)
+
+## CVE-2016-4230
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-4173, CVE-2016-4174, CVE-2016-4222, CVE-2016-4226, CVE-2016-4227, CVE-2016-4228, CVE-2016-4229, CVE-2016-4231, and CVE-2016-4248.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4230](https://github.com/Live-Hack-CVE/CVE-2016-4230) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4230.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4230.svg)
+
+## CVE-2016-4229
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-4173, CVE-2016-4174, CVE-2016-4222, CVE-2016-4226, CVE-2016-4227, CVE-2016-4228, CVE-2016-4230, CVE-2016-4231, and CVE-2016-4248.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4229](https://github.com/Live-Hack-CVE/CVE-2016-4229) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4229.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4229.svg)
+
+## CVE-2016-4228
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-4173, CVE-2016-4174, CVE-2016-4222, CVE-2016-4226, CVE-2016-4227, CVE-2016-4229, CVE-2016-4230, CVE-2016-4231, and CVE-2016-4248.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4228](https://github.com/Live-Hack-CVE/CVE-2016-4228) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4228.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4228.svg)
+
+## CVE-2016-4227
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-4173, CVE-2016-4174, CVE-2016-4222, CVE-2016-4226, CVE-2016-4228, CVE-2016-4229, CVE-2016-4230, CVE-2016-4231, and CVE-2016-4248.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4227](https://github.com/Live-Hack-CVE/CVE-2016-4227) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4227.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4227.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4222](https://github.com/Live-Hack-CVE/CVE-2016-4222) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4222.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4222.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4226](https://github.com/Live-Hack-CVE/CVE-2016-4226) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4226.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4226.svg)
+
+## CVE-2016-4226
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-4173, CVE-2016-4174, CVE-2016-4222, CVE-2016-4227, CVE-2016-4228, CVE-2016-4229, CVE-2016-4230, CVE-2016-4231, and CVE-2016-4248.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4226](https://github.com/Live-Hack-CVE/CVE-2016-4226) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4226.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4226.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4228](https://github.com/Live-Hack-CVE/CVE-2016-4228) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4228.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4228.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4227](https://github.com/Live-Hack-CVE/CVE-2016-4227) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4227.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4227.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4231](https://github.com/Live-Hack-CVE/CVE-2016-4231) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4231.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4231.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4229](https://github.com/Live-Hack-CVE/CVE-2016-4229) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4229.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4229.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4248](https://github.com/Live-Hack-CVE/CVE-2016-4248) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4248.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4248.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7020](https://github.com/Live-Hack-CVE/CVE-2016-7020) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7020.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7020.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4230](https://github.com/Live-Hack-CVE/CVE-2016-4230) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4230.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4230.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4222](https://github.com/Live-Hack-CVE/CVE-2016-4222) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4222.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4222.svg)
+
+## CVE-2016-4225
+ Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code by leveraging an unspecified &quot;type confusion,&quot; a different vulnerability than CVE-2016-4223 and CVE-2016-4224.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4225](https://github.com/Live-Hack-CVE/CVE-2016-4225) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4225.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4225.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4224](https://github.com/Live-Hack-CVE/CVE-2016-4224) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4224.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4224.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4223](https://github.com/Live-Hack-CVE/CVE-2016-4223) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4223.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4223.svg)
+
+## CVE-2016-4224
+ Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code by leveraging an unspecified &quot;type confusion,&quot; a different vulnerability than CVE-2016-4223 and CVE-2016-4225.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4224](https://github.com/Live-Hack-CVE/CVE-2016-4224) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4224.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4224.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4223](https://github.com/Live-Hack-CVE/CVE-2016-4223) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4223.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4223.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4225](https://github.com/Live-Hack-CVE/CVE-2016-4225) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4225.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4225.svg)
+
+## CVE-2016-4223
+ Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code by leveraging an unspecified &quot;type confusion,&quot; a different vulnerability than CVE-2016-4224 and CVE-2016-4225.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4223](https://github.com/Live-Hack-CVE/CVE-2016-4223) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4223.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4223.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4224](https://github.com/Live-Hack-CVE/CVE-2016-4224) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4224.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4224.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4225](https://github.com/Live-Hack-CVE/CVE-2016-4225) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4225.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4225.svg)
+
+## CVE-2016-4222
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-4173, CVE-2016-4174, CVE-2016-4226, CVE-2016-4227, CVE-2016-4228, CVE-2016-4229, CVE-2016-4230, CVE-2016-4231, and CVE-2016-4248.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4222](https://github.com/Live-Hack-CVE/CVE-2016-4222) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4222.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4222.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4230](https://github.com/Live-Hack-CVE/CVE-2016-4230) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4230.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4230.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4226](https://github.com/Live-Hack-CVE/CVE-2016-4226) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4226.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4226.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4229](https://github.com/Live-Hack-CVE/CVE-2016-4229) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4229.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4229.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4248](https://github.com/Live-Hack-CVE/CVE-2016-4248) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4248.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4248.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4228](https://github.com/Live-Hack-CVE/CVE-2016-4228) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4228.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4228.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4227](https://github.com/Live-Hack-CVE/CVE-2016-4227) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4227.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4227.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7020](https://github.com/Live-Hack-CVE/CVE-2016-7020) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7020.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7020.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4231](https://github.com/Live-Hack-CVE/CVE-2016-4231) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4231.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4231.svg)
 
 ## CVE-2016-4221
  Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4172, CVE-2016-4175, CVE-2016-4179, CVE-2016-4180, CVE-2016-4181, CVE-2016-4182, CVE-2016-4183, CVE-2016-4184, CVE-2016-4185, CVE-2016-4186, CVE-2016-4187, CVE-2016-4188, CVE-2016-4189, CVE-2016-4190, CVE-2016-4217, CVE-2016-4218, CVE-2016-4219, CVE-2016-4220, CVE-2016-4233, CVE-2016-4234, CVE-2016-4235, CVE-2016-4236, CVE-2016-4237, CVE-2016-4238, CVE-2016-4239, CVE-2016-4240, CVE-2016-4241, CVE-2016-4242, CVE-2016-4243, CVE-2016-4244, CVE-2016-4245, and CVE-2016-4246.
@@ -2433,19 +2558,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4236](https://github.com/Live-Hack-CVE/CVE-2016-4236) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4236.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4236.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4240](https://github.com/Live-Hack-CVE/CVE-2016-4240) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4240.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4240.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2016-4184](https://github.com/Live-Hack-CVE/CVE-2016-4184) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4184.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4184.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4237](https://github.com/Live-Hack-CVE/CVE-2016-4237) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4237.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4237.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4184](https://github.com/Live-Hack-CVE/CVE-2016-4184) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4184.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4184.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2016-4240](https://github.com/Live-Hack-CVE/CVE-2016-4240) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4240.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4240.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4235](https://github.com/Live-Hack-CVE/CVE-2016-4235) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4235.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4235.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2016-4183](https://github.com/Live-Hack-CVE/CVE-2016-4183) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4183.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4183.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2016-4182](https://github.com/Live-Hack-CVE/CVE-2016-4182) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4182.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4182.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2016-4244](https://github.com/Live-Hack-CVE/CVE-2016-4244) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4244.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4244.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4245](https://github.com/Live-Hack-CVE/CVE-2016-4245) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4245.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4245.svg)
 
@@ -2455,21 +2574,73 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4246](https://github.com/Live-Hack-CVE/CVE-2016-4246) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4246.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4246.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4239](https://github.com/Live-Hack-CVE/CVE-2016-4239) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4239.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4239.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-4221](https://github.com/Live-Hack-CVE/CVE-2016-4221) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4221.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4221.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4233](https://github.com/Live-Hack-CVE/CVE-2016-4233) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4233.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4233.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2016-4239](https://github.com/Live-Hack-CVE/CVE-2016-4239) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4239.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4239.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4244](https://github.com/Live-Hack-CVE/CVE-2016-4244) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4244.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4244.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4183](https://github.com/Live-Hack-CVE/CVE-2016-4183) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4183.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4183.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4182](https://github.com/Live-Hack-CVE/CVE-2016-4182) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4182.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4182.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4188](https://github.com/Live-Hack-CVE/CVE-2016-4188) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4188.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4188.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4185](https://github.com/Live-Hack-CVE/CVE-2016-4185) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4185.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4185.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2016-4186](https://github.com/Live-Hack-CVE/CVE-2016-4186) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4186.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4186.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2016-4233](https://github.com/Live-Hack-CVE/CVE-2016-4233) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4233.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4233.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4180](https://github.com/Live-Hack-CVE/CVE-2016-4180) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4180.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4180.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2016-4186](https://github.com/Live-Hack-CVE/CVE-2016-4186) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4186.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4186.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4185](https://github.com/Live-Hack-CVE/CVE-2016-4185) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4185.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4185.svg)
+
 - [https://github.com/Live-Hack-CVE/CVE-2016-4234](https://github.com/Live-Hack-CVE/CVE-2016-4234) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4234.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4234.svg)
+
+## CVE-2016-4174
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-4173, CVE-2016-4222, CVE-2016-4226, CVE-2016-4227, CVE-2016-4228, CVE-2016-4229, CVE-2016-4230, CVE-2016-4231, and CVE-2016-4248.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4227](https://github.com/Live-Hack-CVE/CVE-2016-4227) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4227.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4227.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4228](https://github.com/Live-Hack-CVE/CVE-2016-4228) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4228.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4228.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4230](https://github.com/Live-Hack-CVE/CVE-2016-4230) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4230.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4230.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4226](https://github.com/Live-Hack-CVE/CVE-2016-4226) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4226.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4226.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4248](https://github.com/Live-Hack-CVE/CVE-2016-4248) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4248.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4248.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4229](https://github.com/Live-Hack-CVE/CVE-2016-4229) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4229.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4229.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4231](https://github.com/Live-Hack-CVE/CVE-2016-4231) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4231.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4231.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4222](https://github.com/Live-Hack-CVE/CVE-2016-4222) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4222.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4222.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7020](https://github.com/Live-Hack-CVE/CVE-2016-7020) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7020.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7020.svg)
+
+## CVE-2016-4173
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-4174, CVE-2016-4222, CVE-2016-4226, CVE-2016-4227, CVE-2016-4228, CVE-2016-4229, CVE-2016-4230, CVE-2016-4231, and CVE-2016-4248.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4231](https://github.com/Live-Hack-CVE/CVE-2016-4231) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4231.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4231.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4230](https://github.com/Live-Hack-CVE/CVE-2016-4230) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4230.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4230.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4226](https://github.com/Live-Hack-CVE/CVE-2016-4226) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4226.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4226.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4227](https://github.com/Live-Hack-CVE/CVE-2016-4227) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4227.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4227.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4228](https://github.com/Live-Hack-CVE/CVE-2016-4228) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4228.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4228.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4248](https://github.com/Live-Hack-CVE/CVE-2016-4248) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4248.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4248.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4229](https://github.com/Live-Hack-CVE/CVE-2016-4229) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4229.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4229.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4222](https://github.com/Live-Hack-CVE/CVE-2016-4222) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4222.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4222.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-7020](https://github.com/Live-Hack-CVE/CVE-2016-7020) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-7020.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-7020.svg)
 
 ## CVE-2016-4172
  Adobe Flash Player before 18.0.0.366 and 19.x through 22.x before 22.0.0.209 on Windows and OS X and before 11.2.202.632 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-4175, CVE-2016-4179, CVE-2016-4180, CVE-2016-4181, CVE-2016-4182, CVE-2016-4183, CVE-2016-4184, CVE-2016-4185, CVE-2016-4186, CVE-2016-4187, CVE-2016-4188, CVE-2016-4189, CVE-2016-4190, CVE-2016-4217, CVE-2016-4218, CVE-2016-4219, CVE-2016-4220, CVE-2016-4221, CVE-2016-4233, CVE-2016-4234, CVE-2016-4235, CVE-2016-4236, CVE-2016-4237, CVE-2016-4238, CVE-2016-4239, CVE-2016-4240, CVE-2016-4241, CVE-2016-4242, CVE-2016-4243, CVE-2016-4244, CVE-2016-4245, and CVE-2016-4246.
@@ -2484,13 +2655,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4246](https://github.com/Live-Hack-CVE/CVE-2016-4246) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4246.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4246.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4221](https://github.com/Live-Hack-CVE/CVE-2016-4221) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4221.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4221.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-4239](https://github.com/Live-Hack-CVE/CVE-2016-4239) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4239.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4239.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4188](https://github.com/Live-Hack-CVE/CVE-2016-4188) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4188.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4188.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2016-4221](https://github.com/Live-Hack-CVE/CVE-2016-4221) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4221.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4221.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4233](https://github.com/Live-Hack-CVE/CVE-2016-4233) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4233.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4233.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4188](https://github.com/Live-Hack-CVE/CVE-2016-4188) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4188.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4188.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4245](https://github.com/Live-Hack-CVE/CVE-2016-4245) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4245.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4245.svg)
 
@@ -2500,21 +2671,21 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4180](https://github.com/Live-Hack-CVE/CVE-2016-4180) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4180.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4180.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4186](https://github.com/Live-Hack-CVE/CVE-2016-4186) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4186.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4186.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2016-4185](https://github.com/Live-Hack-CVE/CVE-2016-4185) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4185.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4185.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4237](https://github.com/Live-Hack-CVE/CVE-2016-4237) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4237.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4237.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2016-4186](https://github.com/Live-Hack-CVE/CVE-2016-4186) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4186.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4186.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4240](https://github.com/Live-Hack-CVE/CVE-2016-4240) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4240.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4240.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4234](https://github.com/Live-Hack-CVE/CVE-2016-4234) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4234.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4234.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2016-4237](https://github.com/Live-Hack-CVE/CVE-2016-4237) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4237.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4237.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2016-4244](https://github.com/Live-Hack-CVE/CVE-2016-4244) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4244.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4244.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2016-4234](https://github.com/Live-Hack-CVE/CVE-2016-4234) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4234.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4234.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4183](https://github.com/Live-Hack-CVE/CVE-2016-4183) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4183.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4183.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4182](https://github.com/Live-Hack-CVE/CVE-2016-4182) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4182.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4182.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-4244](https://github.com/Live-Hack-CVE/CVE-2016-4244) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4244.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4244.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-4238](https://github.com/Live-Hack-CVE/CVE-2016-4238) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-4238.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-4238.svg)
 
@@ -2908,6 +3079,8 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-2183](https://github.com/Live-Hack-CVE/CVE-2016-2183) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2183.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2183.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2023-0296](https://github.com/Live-Hack-CVE/CVE-2023-0296) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0296.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0296.svg)
+
 ## CVE-2016-2182
  The BN_bn2dec function in crypto/bn/bn_print.c in OpenSSL before 1.1.0 does not properly validate division results, which allows remote attackers to cause a denial of service (out-of-bounds write and application crash) or possibly have unspecified other impact via unknown vectors.
 
@@ -3286,6 +3459,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-1033](https://github.com/Live-Hack-CVE/CVE-2016-1033) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1033.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1033.svg)
 
+## CVE-2016-1031
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.343 and 19.x through 21.x before 21.0.0.213 on Windows and OS X and before 11.2.202.616 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-1011, CVE-2016-1013, CVE-2016-1016, and CVE-2016-1017.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1031](https://github.com/Live-Hack-CVE/CVE-2016-1031) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1031.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1031.svg)
+
 ## CVE-2016-1020
  Adobe Flash Player before 18.0.0.343 and 19.x through 21.x before 21.0.0.213 on Windows and OS X and before 11.2.202.616 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1012, CVE-2016-1021, CVE-2016-1022, CVE-2016-1023, CVE-2016-1024, CVE-2016-1025, CVE-2016-1026, CVE-2016-1027, CVE-2016-1028, CVE-2016-1029, CVE-2016-1032, and CVE-2016-1033.
 
@@ -3300,12 +3480,60 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-1019](https://github.com/Live-Hack-CVE/CVE-2016-1019) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1019.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1019.svg)
 
+## CVE-2016-1017
+ Use-after-free vulnerability in the LoadVars.decode function in Adobe Flash Player before 18.0.0.343 and 19.x through 21.x before 21.0.0.213 on Windows and OS X and before 11.2.202.616 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-1011, CVE-2016-1013, CVE-2016-1016, and CVE-2016-1031.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1017](https://github.com/Live-Hack-CVE/CVE-2016-1017) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1017.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1017.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1013](https://github.com/Live-Hack-CVE/CVE-2016-1013) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1013.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1013.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1011](https://github.com/Live-Hack-CVE/CVE-2016-1011) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1011.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1011.svg)
+
+## CVE-2016-1016
+ Use-after-free vulnerability in the Transform object implementation in Adobe Flash Player before 18.0.0.343 and 19.x through 21.x before 21.0.0.213 on Windows and OS X and before 11.2.202.616 on Linux allows attackers to execute arbitrary code via a flash.geom.Matrix callback, a different vulnerability than CVE-2016-1011, CVE-2016-1013, CVE-2016-1017, and CVE-2016-1031.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1016](https://github.com/Live-Hack-CVE/CVE-2016-1016) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1016.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1016.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1013](https://github.com/Live-Hack-CVE/CVE-2016-1013) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1013.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1013.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1011](https://github.com/Live-Hack-CVE/CVE-2016-1011) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1011.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1011.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1031](https://github.com/Live-Hack-CVE/CVE-2016-1031) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1031.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1031.svg)
+
+## CVE-2016-1013
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.343 and 19.x through 21.x before 21.0.0.213 on Windows and OS X and before 11.2.202.616 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-1011, CVE-2016-1016, CVE-2016-1017, and CVE-2016-1031.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1013](https://github.com/Live-Hack-CVE/CVE-2016-1013) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1013.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1013.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1011](https://github.com/Live-Hack-CVE/CVE-2016-1011) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1011.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1011.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1031](https://github.com/Live-Hack-CVE/CVE-2016-1031) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1031.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1031.svg)
+
 ## CVE-2016-1012
  Adobe Flash Player before 18.0.0.343 and 19.x through 21.x before 21.0.0.213 on Windows and OS X and before 11.2.202.616 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1020, CVE-2016-1021, CVE-2016-1022, CVE-2016-1023, CVE-2016-1024, CVE-2016-1025, CVE-2016-1026, CVE-2016-1027, CVE-2016-1028, CVE-2016-1029, CVE-2016-1032, and CVE-2016-1033.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2016-1033](https://github.com/Live-Hack-CVE/CVE-2016-1033) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1033.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1033.svg)
+
+## CVE-2016-1011
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.343 and 19.x through 21.x before 21.0.0.213 on Windows and OS X and before 11.2.202.616 on Linux allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-1013, CVE-2016-1016, CVE-2016-1017, and CVE-2016-1031.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1011](https://github.com/Live-Hack-CVE/CVE-2016-1011) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1011.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1011.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1013](https://github.com/Live-Hack-CVE/CVE-2016-1013) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1013.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1013.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1031](https://github.com/Live-Hack-CVE/CVE-2016-1031) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1031.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1031.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-1017](https://github.com/Live-Hack-CVE/CVE-2016-1017) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-1017.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-1017.svg)
 
 ## CVE-2016-1010
  Integer overflow in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0963 and CVE-2016-0993.
