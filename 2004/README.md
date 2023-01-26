@@ -16,6 +16,13 @@
 
 - [https://github.com/alt3kx/CVE-2004-2549](https://github.com/alt3kx/CVE-2004-2549) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2004-2549.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2004-2549.svg)
 
+## CVE-2004-2449
+ Roger Wilco 1.4.1.6 and earlier or Roger Wilco Base Station 0.30a and earlier allows remote attackers to cause a denial of service (application crash) via a long, malformed UDP datagram.
+
+
+
+- [https://github.com/ParallelVisions/DoSTool](https://github.com/ParallelVisions/DoSTool) :  ![starts](https://img.shields.io/github/stars/ParallelVisions/DoSTool.svg) ![forks](https://img.shields.io/github/forks/ParallelVisions/DoSTool.svg)
+
 ## CVE-2004-2271
  Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.
 
