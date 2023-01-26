@@ -68,6 +68,13 @@
 
 - [https://github.com/joeyrideout/CVE-2007-4607](https://github.com/joeyrideout/CVE-2007-4607) :  ![starts](https://img.shields.io/github/stars/joeyrideout/CVE-2007-4607.svg) ![forks](https://img.shields.io/github/forks/joeyrideout/CVE-2007-4607.svg)
 
+## CVE-2007-4560
+ clamav-milter in ClamAV before 0.91.2, when run in black hole mode, allows remote attackers to execute arbitrary commands via shell metacharacters that are used in a certain popen call, involving the &quot;recipient field of sendmail.&quot;
+
+
+
+- [https://github.com/0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution](https://github.com/0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution.svg)
+
 ## CVE-2007-4559
  Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.
 
@@ -151,6 +158,8 @@
 
 - [https://github.com/mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/mr-l0n3lly/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/mr-l0n3lly/CVE-2007-2447.svg)
 
+- [https://github.com/Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Aviksaikat/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Aviksaikat/CVE-2007-2447.svg)
+
 - [https://github.com/xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xlcc4096/exploit-CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xlcc4096/exploit-CVE-2007-2447.svg)
 
 - [https://github.com/cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/cherrera0001/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/cherrera0001/CVE-2007-2447.svg)
@@ -158,8 +167,6 @@
 - [https://github.com/0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xKn/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xKn/CVE-2007-2447.svg)
 
 - [https://github.com/b1fair/smb_usermap](https://github.com/b1fair/smb_usermap) :  ![starts](https://img.shields.io/github/stars/b1fair/smb_usermap.svg) ![forks](https://img.shields.io/github/forks/b1fair/smb_usermap.svg)
-
-- [https://github.com/Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Aviksaikat/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Aviksaikat/CVE-2007-2447.svg)
 
 - [https://github.com/Ki11i0n4ir3/CVE-2007-2447](https://github.com/Ki11i0n4ir3/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Ki11i0n4ir3/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Ki11i0n4ir3/CVE-2007-2447.svg)
 
