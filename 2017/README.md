@@ -709,13 +709,9 @@
 
 
 
-- [https://github.com/1337g/CVE-2017-17215](https://github.com/1337g/CVE-2017-17215) :  ![starts](https://img.shields.io/github/stars/1337g/CVE-2017-17215.svg) ![forks](https://img.shields.io/github/forks/1337g/CVE-2017-17215.svg)
-
 - [https://github.com/wilfred-wulbou/HG532d-RCE-Exploit](https://github.com/wilfred-wulbou/HG532d-RCE-Exploit) :  ![starts](https://img.shields.io/github/stars/wilfred-wulbou/HG532d-RCE-Exploit.svg) ![forks](https://img.shields.io/github/forks/wilfred-wulbou/HG532d-RCE-Exploit.svg)
 
 - [https://github.com/ltfafei/HuaWei_Route_HG532_RCE_CVE-2017-17215](https://github.com/ltfafei/HuaWei_Route_HG532_RCE_CVE-2017-17215) :  ![starts](https://img.shields.io/github/stars/ltfafei/HuaWei_Route_HG532_RCE_CVE-2017-17215.svg) ![forks](https://img.shields.io/github/forks/ltfafei/HuaWei_Route_HG532_RCE_CVE-2017-17215.svg)
-
-- [https://github.com/kd992102/CVE-2017-17275](https://github.com/kd992102/CVE-2017-17275) :  ![starts](https://img.shields.io/github/stars/kd992102/CVE-2017-17275.svg) ![forks](https://img.shields.io/github/forks/kd992102/CVE-2017-17275.svg)
 
 ## CVE-2017-17099
  There exists an unauthenticated SEH based Buffer Overflow vulnerability in the HTTP server of Flexense SyncBreeze Enterprise v10.1.16. When sending a GET request with an excessive length, it is possible for a malicious user to overwrite the SEH record and execute a payload that would run under the Windows SYSTEM account.
@@ -763,9 +759,9 @@
 
 - [https://github.com/anldori/CVE-2017-16995](https://github.com/anldori/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/anldori/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/anldori/CVE-2017-16995.svg)
 
-- [https://github.com/ivilpez/cve-2017-16995.c](https://github.com/ivilpez/cve-2017-16995.c) :  ![starts](https://img.shields.io/github/stars/ivilpez/cve-2017-16995.c.svg) ![forks](https://img.shields.io/github/forks/ivilpez/cve-2017-16995.c.svg)
-
 - [https://github.com/fei9747/CVE-2017-16995](https://github.com/fei9747/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2017-16995.svg)
+
+- [https://github.com/ivilpez/cve-2017-16995.c](https://github.com/ivilpez/cve-2017-16995.c) :  ![starts](https://img.shields.io/github/stars/ivilpez/cve-2017-16995.c.svg) ![forks](https://img.shields.io/github/forks/ivilpez/cve-2017-16995.c.svg)
 
 - [https://github.com/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-](https://github.com/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-) :  ![starts](https://img.shields.io/github/stars/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-.svg) ![forks](https://img.shields.io/github/forks/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-.svg)
 
@@ -1970,6 +1966,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2017-14454](https://github.com/Live-Hack-CVE/CVE-2017-14454) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14454.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14454.svg)
+
+## CVE-2017-14448
+ An exploitable code execution vulnerability exists in the XCF image rendering functionality of SDL2_image-2.0.2. A specially crafted XCF image can cause a heap overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-14448](https://github.com/Live-Hack-CVE/CVE-2017-14448) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14448.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14448.svg)
 
 ## CVE-2017-14446
  An exploitable stack-based buffer overflow vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation unsafely extracts parameters from the query string, leading to a buffer overflow on the stack. An attacker can send an HTTP GET request to trigger this vulnerability.
@@ -3429,6 +3432,13 @@
 
 - [https://github.com/pwn1sher/jira-ssrf](https://github.com/pwn1sher/jira-ssrf) :  ![starts](https://img.shields.io/github/stars/pwn1sher/jira-ssrf.svg) ![forks](https://img.shields.io/github/forks/pwn1sher/jira-ssrf.svg)
 
+## CVE-2017-9476
+ The Comcast firmware on Cisco DPC3939 (firmware version dpc3939-P20-18-v303r20421733-160420a-CMCST); Cisco DPC3939 (firmware version dpc3939-P20-18-v303r20421746-170221a-CMCST); and Arris TG1682G (eMTA&amp;DOCSIS version 10.0.132.SIP.PC20.CT, software version TG1682_2.2p7s2_PROD_sey) devices makes it easy for remote attackers to determine the hidden SSID and passphrase for a Home Security Wi-Fi network.
+
+
+
+- [https://github.com/wiire-a/CVE-2017-9476](https://github.com/wiire-a/CVE-2017-9476) :  ![starts](https://img.shields.io/github/stars/wiire-a/CVE-2017-9476.svg) ![forks](https://img.shields.io/github/forks/wiire-a/CVE-2017-9476.svg)
+
 ## CVE-2017-9430
  Stack-based buffer overflow in dnstracer through 1.9 allows attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a command line with a long name argument that is mishandled in a strcpy call for argv[0]. An example threat model is a web application that launches dnstracer with an untrusted name string.
 
@@ -4590,9 +4600,9 @@
 
 - [https://github.com/Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Badbird3/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Badbird3/CVE-2017-5638.svg)
 
-- [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
-
 - [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
+
+- [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
 
 - [https://github.com/lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/lizhi16/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/lizhi16/CVE-2017-5638.svg)
 
@@ -5109,12 +5119,26 @@
 
 - [https://github.com/listenquiet/cve-2017-2824-reverse-shell](https://github.com/listenquiet/cve-2017-2824-reverse-shell) :  ![starts](https://img.shields.io/github/stars/listenquiet/cve-2017-2824-reverse-shell.svg) ![forks](https://img.shields.io/github/forks/listenquiet/cve-2017-2824-reverse-shell.svg)
 
+## CVE-2017-2820
+ An exploitable integer overflow vulnerability exists in the JPEG 2000 image parsing functionality of freedesktop.org Poppler 0.53.0. A specially crafted PDF file can lead to an integer overflow causing out of bounds memory overwrite on the heap resulting in potential arbitrary code execution. To trigger this vulnerability, a victim must open the malicious PDF in an application using this library.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-2820](https://github.com/Live-Hack-CVE/CVE-2017-2820) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2820.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2820.svg)
+
 ## CVE-2017-2793
  An exploitable heap corruption vulnerability exists in the UnCompressUnicode functionality of Antenna House DMC HTMLFilter used by MarkLogic 8.0-6. A specially crafted xls file can cause a heap corruption resulting in arbitrary code execution. An attacker can send/provide malicious XLS file to trigger this vulnerability.
 
 
 
 - [https://github.com/sUbc0ol/Detection-for-CVE-2017-2793](https://github.com/sUbc0ol/Detection-for-CVE-2017-2793) :  ![starts](https://img.shields.io/github/stars/sUbc0ol/Detection-for-CVE-2017-2793.svg) ![forks](https://img.shields.io/github/forks/sUbc0ol/Detection-for-CVE-2017-2793.svg)
+
+## CVE-2017-2788
+ A buffer overflows exists in the psnotifyd application of the Pharos PopUp printer client version 9.0. A specially crafted packet can be sent to the victim's computer and can lead to a heap based buffer overflow resulting in potential remote code execution. This client is always listening, has root privileges, and requires no user interaction to exploit.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-2788](https://github.com/Live-Hack-CVE/CVE-2017-2788) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2788.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2788.svg)
 
 ## CVE-2017-2751
  A BIOS password extraction vulnerability has been reported on certain consumer notebooks with firmware F.22 and others. The BIOS password was stored in CMOS in a way that allowed it to be extracted. This applies to consumer notebooks launched in early 2014.
@@ -5502,11 +5526,11 @@
 
 - [https://github.com/viethdgit/CVE-2017-0199](https://github.com/viethdgit/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/viethdgit/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/viethdgit/CVE-2017-0199.svg)
 
+- [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
+
 - [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
 
 - [https://github.com/Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/Phantomlancer123/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/Phantomlancer123/CVE-2017-0199.svg)
-
-- [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
 
 - [https://github.com/BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/BRAINIAC22/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/BRAINIAC22/CVE-2017-0199.svg)
 
