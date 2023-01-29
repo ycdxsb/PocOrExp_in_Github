@@ -1,3 +1,10 @@
+## CVE-2009-10003
+ A vulnerability was found in capnsquarepants wordcraft up to 0.6. It has been classified as problematic. Affected is an unknown function of the file tag.php. The manipulation of the argument tag leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 0.7 is able to address this issue. The name of the patch is be23028633e8105de92f387036871c03f34d3124. It is recommended to upgrade the affected component. VDB-219714 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-10003](https://github.com/Live-Hack-CVE/CVE-2009-10003) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-10003.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-10003.svg)
+
 ## CVE-2009-10002
  A vulnerability, which was classified as problematic, has been found in dpup fittr-flickr. This issue affects some unknown processing of the file fittr-flickr/features/easy-exif.js of the component EXIF Preview Handler. The manipulation leads to cross site scripting. The attack may be initiated remotely. The name of the patch is 08875dd8a2e5d0d16568bb0d67cb4328062fccde. It is recommended to apply a patch to fix this issue. The identifier VDB-218297 was assigned to this vulnerability.
 
