@@ -3221,13 +3221,6 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-25695](https://github.com/Live-Hack-CVE/CVE-2020-25695) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-25695.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-25695.svg)
 
-## CVE-2020-25694
- A flaw was found in PostgreSQL versions before 13.1, before 12.5, before 11.10, before 10.15, before 9.6.20 and before 9.5.24. If a client application that creates additional database connections only reuses the basic connection parameters while dropping security-relevant parameters, an opportunity for a man-in-the-middle attack, or the ability to observe clear-text transmissions, could exist. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2020-25694](https://github.com/Live-Hack-CVE/CVE-2020-25694) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-25694.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-25694.svg)
-
 ## CVE-2020-25692
  A NULL pointer dereference was found in OpenLDAP server and was fixed in openldap 2.4.55, during a request for renaming RDNs. An unauthenticated attacker could remotely crash the slapd process by sending a specially crafted request, causing a Denial of Service.
 
@@ -4336,9 +4329,9 @@
 
 
 
-- [https://github.com/Live-Hack-CVE/CVE-2020-23590](https://github.com/Live-Hack-CVE/CVE-2020-23590) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-23590.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-23590.svg)
-
 - [https://github.com/huzaifahussain98/CVE-2020-23590](https://github.com/huzaifahussain98/CVE-2020-23590) :  ![starts](https://img.shields.io/github/stars/huzaifahussain98/CVE-2020-23590.svg) ![forks](https://img.shields.io/github/forks/huzaifahussain98/CVE-2020-23590.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-23590](https://github.com/Live-Hack-CVE/CVE-2020-23590) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-23590.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-23590.svg)
 
 ## CVE-2020-23589
  A vulnerability in OPTILINK OP-XT71000N Hardware Version: V2.2 , Firmware Version: OP_V3.3.1-191028 allows an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack to cause a Denial of Service by Rebooting the router through &quot; /mgm_dev_reboot.asp.&quot;
@@ -5564,6 +5557,8 @@
 
 - [https://github.com/B1anda0/CVE-2020-17519](https://github.com/B1anda0/CVE-2020-17519) :  ![starts](https://img.shields.io/github/stars/B1anda0/CVE-2020-17519.svg) ![forks](https://img.shields.io/github/forks/B1anda0/CVE-2020-17519.svg)
 
+- [https://github.com/murataydemir/CVE-2020-17519](https://github.com/murataydemir/CVE-2020-17519) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2020-17519.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2020-17519.svg)
+
 - [https://github.com/dolevf/apache-flink-directory-traversal.nse](https://github.com/dolevf/apache-flink-directory-traversal.nse) :  ![starts](https://img.shields.io/github/stars/dolevf/apache-flink-directory-traversal.nse.svg) ![forks](https://img.shields.io/github/forks/dolevf/apache-flink-directory-traversal.nse.svg)
 
 - [https://github.com/QmF0c3UK/CVE-2020-17519](https://github.com/QmF0c3UK/CVE-2020-17519) :  ![starts](https://img.shields.io/github/stars/QmF0c3UK/CVE-2020-17519.svg) ![forks](https://img.shields.io/github/forks/QmF0c3UK/CVE-2020-17519.svg)
@@ -5579,6 +5574,8 @@
 - [https://github.com/radbsie/CVE-2020-17519-Exp](https://github.com/radbsie/CVE-2020-17519-Exp) :  ![starts](https://img.shields.io/github/stars/radbsie/CVE-2020-17519-Exp.svg) ![forks](https://img.shields.io/github/forks/radbsie/CVE-2020-17519-Exp.svg)
 
 - [https://github.com/hoanx4/CVE-2020-17519](https://github.com/hoanx4/CVE-2020-17519) :  ![starts](https://img.shields.io/github/stars/hoanx4/CVE-2020-17519.svg) ![forks](https://img.shields.io/github/forks/hoanx4/CVE-2020-17519.svg)
+
+- [https://github.com/zhangweijie11/CVE-2020-17519](https://github.com/zhangweijie11/CVE-2020-17519) :  ![starts](https://img.shields.io/github/stars/zhangweijie11/CVE-2020-17519.svg) ![forks](https://img.shields.io/github/forks/zhangweijie11/CVE-2020-17519.svg)
 
 - [https://github.com/Osyanina/westone-CVE-2020-17519-scanner](https://github.com/Osyanina/westone-CVE-2020-17519-scanner) :  ![starts](https://img.shields.io/github/stars/Osyanina/westone-CVE-2020-17519-scanner.svg) ![forks](https://img.shields.io/github/forks/Osyanina/westone-CVE-2020-17519-scanner.svg)
 
@@ -7131,6 +7128,13 @@
 - [https://github.com/mhaskar/CVE-2020-14947](https://github.com/mhaskar/CVE-2020-14947) :  ![starts](https://img.shields.io/github/stars/mhaskar/CVE-2020-14947.svg) ![forks](https://img.shields.io/github/forks/mhaskar/CVE-2020-14947.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-14947](https://github.com/Live-Hack-CVE/CVE-2020-14947) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-14947.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-14947.svg)
+
+## CVE-2020-14946
+ downloadFile.ashx in the Administrator section of the Surveillance module in Global RADAR BSA Radar 1.6.7234.24750 and earlier allows users to download transaction files. When downloading the files, a user is able to view local files on the web server by manipulating the FileName and FilePath parameters in the URL, or while using a proxy. This vulnerability could be used to view local sensitive files or configuration files.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-14946](https://github.com/Live-Hack-CVE/CVE-2020-14946) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-14946.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-14946.svg)
 
 ## CVE-2020-14943
  The Firstname and Lastname parameters in Global RADAR BSA Radar 1.6.7234.24750 and earlier are vulnerable to stored cross-site scripting (XSS) via Update User Profile.
@@ -12318,6 +12322,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-8189](https://github.com/Live-Hack-CVE/CVE-2020-8189) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-8189.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-8189.svg)
 
+## CVE-2020-8184
+ A reliance on cookies without validation/integrity check security vulnerability exists in rack &lt; 2.2.3, rack &lt; 2.1.4 that makes it is possible for an attacker to forge a secure or host-only cookie prefix.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-8184](https://github.com/Live-Hack-CVE/CVE-2020-8184) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-8184.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-8184.svg)
+
 ## CVE-2020-8183
  A logic error in Nextcloud Server 19.0.0 caused a plaintext storage of the share password when it was given on the initial create API call.
 
@@ -12370,6 +12381,13 @@
 - [https://github.com/h4ms1k/CVE-2020-8163](https://github.com/h4ms1k/CVE-2020-8163) :  ![starts](https://img.shields.io/github/stars/h4ms1k/CVE-2020-8163.svg) ![forks](https://img.shields.io/github/forks/h4ms1k/CVE-2020-8163.svg)
 
 - [https://github.com/TK-Elliot/CVE-2020-8163](https://github.com/TK-Elliot/CVE-2020-8163) :  ![starts](https://img.shields.io/github/stars/TK-Elliot/CVE-2020-8163.svg) ![forks](https://img.shields.io/github/forks/TK-Elliot/CVE-2020-8163.svg)
+
+## CVE-2020-8161
+ A directory traversal vulnerability exists in rack &lt; 2.2.0 that allows an attacker perform directory traversal vulnerability in the Rack::Directory app that is bundled with Rack which could result in information disclosure.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-8161](https://github.com/Live-Hack-CVE/CVE-2020-8161) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-8161.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-8161.svg)
 
 ## CVE-2020-8152
  Insufficient protection of the server-side encryption keys in Nextcloud Server 19.0.1 allowed an attacker to replace the public key to decrypt them later on.
@@ -12743,9 +12761,9 @@
 
 
 
-- [https://github.com/Live-Hack-CVE/CVE-2020-7720](https://github.com/Live-Hack-CVE/CVE-2020-7720) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-7720.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-7720.svg)
-
 - [https://github.com/ossf-cve-benchmark/CVE-2020-7720](https://github.com/ossf-cve-benchmark/CVE-2020-7720) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2020-7720.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2020-7720.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-7720](https://github.com/Live-Hack-CVE/CVE-2020-7720) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-7720.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-7720.svg)
 
 ## CVE-2020-7719
  Versions of package locutus before 2.0.12 are vulnerable to prototype Pollution via the php.strings.parse_str function.
@@ -12997,6 +13015,27 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-7600](https://github.com/Live-Hack-CVE/CVE-2020-7600) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-7600.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-7600.svg)
+
+## CVE-2020-7588
+ A vulnerability has been identified in Opcenter Execution Discrete (All versions &lt; V3.2), Opcenter Execution Foundation (All versions &lt; V3.2), Opcenter Execution Process (All versions &lt; V3.2), Opcenter Intelligence (All versions &lt; V3.3), Opcenter Quality (All versions &lt; V11.3), Opcenter RD&amp;L (V8.0), SIMATIC IT LMS (All versions &lt; V2.6), SIMATIC IT Production Suite (All versions &lt; V8.0), SIMATIC Notifier Server for Windows (All versions), SIMATIC PCS neo (All versions &lt; V3.0 SP1), SIMATIC STEP 7 (TIA Portal) V15 (All versions &lt; V15.1 Update 5), SIMATIC STEP 7 (TIA Portal) V16 (All versions &lt; V16 Update 2), SIMOCODE ES V15.1 (All versions &lt; V15.1 Update 4), SIMOCODE ES V16 (All versions &lt; V16 Update 1), Soft Starter ES V15.1 (All versions &lt; V15.1 Update 3), Soft Starter ES V16 (All versions &lt; V16 Update 1). Sending a specially crafted packet to the affected service could cause a partial remote denial-of-service, that would cause the service to restart itself.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-7588](https://github.com/Live-Hack-CVE/CVE-2020-7588) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-7588.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-7588.svg)
+
+## CVE-2020-7587
+ A vulnerability has been identified in Opcenter Execution Discrete (All versions &lt; V3.2), Opcenter Execution Foundation (All versions &lt; V3.2), Opcenter Execution Process (All versions &lt; V3.2), Opcenter Intelligence (All versions &lt; V3.3), Opcenter Quality (All versions &lt; V11.3), Opcenter RD&amp;L (V8.0), SIMATIC IT LMS (All versions &lt; V2.6), SIMATIC IT Production Suite (All versions &lt; V8.0), SIMATIC Notifier Server for Windows (All versions), SIMATIC PCS neo (All versions &lt; V3.0 SP1), SIMATIC STEP 7 (TIA Portal) V15 (All versions &lt; V15.1 Update 5), SIMATIC STEP 7 (TIA Portal) V16 (All versions &lt; V16 Update 2), SIMOCODE ES V15.1 (All versions &lt; V15.1 Update 4), SIMOCODE ES V16 (All versions &lt; V16 Update 1), Soft Starter ES V15.1 (All versions &lt; V15.1 Update 3), Soft Starter ES V16 (All versions &lt; V16 Update 1). Sending multiple specially crafted packets to the affected service could cause a partial remote denial-of-service, that would cause the service to restart itself. On some cases the vulnerability could leak random information from the remote service.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-7587](https://github.com/Live-Hack-CVE/CVE-2020-7587) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-7587.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-7587.svg)
+
+## CVE-2020-7581
+ A vulnerability has been identified in Opcenter Execution Discrete (All versions &lt; V3.2), Opcenter Execution Foundation (All versions &lt; V3.2), Opcenter Execution Process (All versions &lt; V3.2), Opcenter Intelligence (All versions &lt; V3.3), Opcenter Quality (All versions &lt; V11.3), Opcenter RD&amp;L (V8.0), SIMATIC Notifier Server for Windows (All versions), SIMATIC PCS neo (All versions &lt; V3.0 SP1), SIMATIC STEP 7 (TIA Portal) V15 (All versions &lt; V15.1 Update 5), SIMATIC STEP 7 (TIA Portal) V16 (All versions &lt; V16 Update 2), SIMOCODE ES V15.1 (All versions &lt; V15.1 Update 4), SIMOCODE ES V16 (All versions &lt; V16 Update 1), Soft Starter ES V15.1 (All versions &lt; V15.1 Update 3), Soft Starter ES V16 (All versions &lt; V16 Update 1). A component within the affected application calls a helper binary with SYSTEM privileges during startup while the call path is not quoted. This could allow a local attacker with administrative privileges to execute code with SYSTEM level privileges.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-7581](https://github.com/Live-Hack-CVE/CVE-2020-7581) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-7581.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-7581.svg)
 
 ## CVE-2020-7580
  A vulnerability has been identified in SIMATIC Automation Tool (All versions &lt; V4 SP2), SIMATIC NET PC Software V14 (All versions &lt; V14 SP1 Update 14), SIMATIC NET PC Software V15 (All versions), SIMATIC NET PC Software V16 (All versions &lt; V16 Upd3), SIMATIC PCS neo (All versions &lt; V3.0 SP1), SIMATIC ProSave (All versions &lt; V17), SIMATIC S7-1500 Software Controller (All versions &lt; V21.8), SIMATIC STEP 7 (TIA Portal) V13 (All versions &lt; V13 SP2 Update 4), SIMATIC STEP 7 (TIA Portal) V14 (All versions &lt; V14 SP1 Update 10), SIMATIC STEP 7 (TIA Portal) V15 (All versions &lt; V15.1 Update 5), SIMATIC STEP 7 (TIA Portal) V16 (All versions &lt; V16 Update 2), SIMATIC STEP 7 V5 (All versions &lt; V5.6 SP2 HF3), SIMATIC WinCC OA V3.16 (All versions &lt; V3.16 P018), SIMATIC WinCC OA V3.17 (All versions &lt; V3.17 P003), SIMATIC WinCC Runtime Advanced (All versions &lt; V16 Update 2), SIMATIC WinCC Runtime Professional V13 (All versions &lt; V13 SP2 Update 4), SIMATIC WinCC Runtime Professional V14 (All versions &lt; V14 SP1 Update 10), SIMATIC WinCC Runtime Professional V15 (All versions &lt; V15.1 Update 5), SIMATIC WinCC Runtime Professional V16 (All versions &lt; V16 Update 2), SIMATIC WinCC V7.4 (All versions &lt; V7.4 SP1 Update 14), SIMATIC WinCC V7.5 (All versions &lt; V7.5 SP1 Update 3), SINAMICS STARTER (All Versions &lt; V5.4 HF2), SINAMICS Startdrive (All Versions &lt; V16 Update 3), SINEC NMS (All versions &lt; V1.0 SP2), SINEMA Server (All versions &lt; V14 SP3), SINUMERIK ONE virtual (All Versions &lt; V6.14), SINUMERIK Operate (All Versions &lt; V6.14). A common component used by the affected applications regularly calls a helper binary with SYSTEM privileges while the call path is not quoted. This could allow a local attacker to execute arbitrary code with SYTEM privileges.
@@ -14072,9 +14111,9 @@
 
 - [https://github.com/renanhsilva/checkvulnCVE20205902](https://github.com/renanhsilva/checkvulnCVE20205902) :  ![starts](https://img.shields.io/github/stars/renanhsilva/checkvulnCVE20205902.svg) ![forks](https://img.shields.io/github/forks/renanhsilva/checkvulnCVE20205902.svg)
 
-- [https://github.com/wdlid/CVE-2020-5902-fix](https://github.com/wdlid/CVE-2020-5902-fix) :  ![starts](https://img.shields.io/github/stars/wdlid/CVE-2020-5902-fix.svg) ![forks](https://img.shields.io/github/forks/wdlid/CVE-2020-5902-fix.svg)
-
 - [https://github.com/ltvthang/CVE-2020-5903](https://github.com/ltvthang/CVE-2020-5903) :  ![starts](https://img.shields.io/github/stars/ltvthang/CVE-2020-5903.svg) ![forks](https://img.shields.io/github/forks/ltvthang/CVE-2020-5903.svg)
+
+- [https://github.com/wdlid/CVE-2020-5902-fix](https://github.com/wdlid/CVE-2020-5902-fix) :  ![starts](https://img.shields.io/github/stars/wdlid/CVE-2020-5902-fix.svg) ![forks](https://img.shields.io/github/forks/wdlid/CVE-2020-5902-fix.svg)
 
 - [https://github.com/qiong-qi/CVE-2020-5902-POC](https://github.com/qiong-qi/CVE-2020-5902-POC) :  ![starts](https://img.shields.io/github/stars/qiong-qi/CVE-2020-5902-POC.svg) ![forks](https://img.shields.io/github/forks/qiong-qi/CVE-2020-5902-POC.svg)
 
@@ -14082,11 +14121,11 @@
 
 - [https://github.com/z3n70/CVE-2020-5902](https://github.com/z3n70/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/z3n70/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/z3n70/CVE-2020-5902.svg)
 
-- [https://github.com/dnerzker/CVE-2020-5902](https://github.com/dnerzker/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/dnerzker/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/dnerzker/CVE-2020-5902.svg)
-
 - [https://github.com/ajdumanhug/CVE-2020-5902](https://github.com/ajdumanhug/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/ajdumanhug/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/ajdumanhug/CVE-2020-5902.svg)
 
 - [https://github.com/5l1v3r1/CVE-2020-5902-Mass](https://github.com/5l1v3r1/CVE-2020-5902-Mass) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/CVE-2020-5902-Mass.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/CVE-2020-5902-Mass.svg)
+
+- [https://github.com/dnerzker/CVE-2020-5902](https://github.com/dnerzker/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/dnerzker/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/dnerzker/CVE-2020-5902.svg)
 
 - [https://github.com/superzerosec/cve-2020-5902](https://github.com/superzerosec/cve-2020-5902) :  ![starts](https://img.shields.io/github/stars/superzerosec/cve-2020-5902.svg) ![forks](https://img.shields.io/github/forks/superzerosec/cve-2020-5902.svg)
 
@@ -15105,6 +15144,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-2592](https://github.com/Live-Hack-CVE/CVE-2020-2592) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-2592.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-2592.svg)
 
+## CVE-2020-2585
+ Vulnerability in the Java SE product of Oracle Java SE (component: JavaFX). The supported version that is affected is Java SE: 8u231. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Java SE accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets (in Java SE 8), that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.0 Base Score 5.9 (Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-2585](https://github.com/Live-Hack-CVE/CVE-2020-2585) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-2585.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-2585.svg)
+
 ## CVE-2020-2559
  Vulnerability in the Siebel UI Framework product of Oracle Siebel CRM (component: UIF Open UI). Supported versions that are affected are 19.7 and prior. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Siebel UI Framework. Successful attacks of this vulnerability can result in unauthorized read access to a subset of Siebel UI Framework accessible data. CVSS 3.0 Base Score 5.3 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N).
 
@@ -15526,9 +15572,9 @@
 
 - [https://github.com/xindongzhuaizhuai/CVE-2020-1938](https://github.com/xindongzhuaizhuai/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/xindongzhuaizhuai/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/xindongzhuaizhuai/CVE-2020-1938.svg)
 
-- [https://github.com/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read](https://github.com/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read) :  ![starts](https://img.shields.io/github/stars/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read.svg) ![forks](https://img.shields.io/github/forks/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read.svg)
-
 - [https://github.com/tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat) :  ![starts](https://img.shields.io/github/stars/tpt11fb/AttackTomcat.svg) ![forks](https://img.shields.io/github/forks/tpt11fb/AttackTomcat.svg)
+
+- [https://github.com/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read](https://github.com/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read) :  ![starts](https://img.shields.io/github/stars/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read.svg) ![forks](https://img.shields.io/github/forks/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read.svg)
 
 - [https://github.com/laolisafe/CVE-2020-1938](https://github.com/laolisafe/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/laolisafe/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/laolisafe/CVE-2020-1938.svg)
 
@@ -15984,8 +16030,6 @@
 
 - [https://github.com/ejlevin99/CVE---2020---1350](https://github.com/ejlevin99/CVE---2020---1350) :  ![starts](https://img.shields.io/github/stars/ejlevin99/CVE---2020---1350.svg) ![forks](https://img.shields.io/github/forks/ejlevin99/CVE---2020---1350.svg)
 
-- [https://github.com/5l1v3r1/CVE-2020-1350-checker.ps1](https://github.com/5l1v3r1/CVE-2020-1350-checker.ps1) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/CVE-2020-1350-checker.ps1.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/CVE-2020-1350-checker.ps1.svg)
-
 ## CVE-2020-1349
  A remote code execution vulnerability exists in Microsoft Outlook software when it fails to properly handle objects in memory, aka 'Microsoft Outlook Remote Code Execution Vulnerability'.
 
@@ -16412,11 +16456,11 @@
 
 - [https://github.com/arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/arzuozkan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/arzuozkan/CVE-2020-0796.svg)
 
-- [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
-
 - [https://github.com/intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/intelliroot-tech/cve-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/intelliroot-tech/cve-2020-0796-Scanner.svg)
 
 - [https://github.com/Ken-Abruzzi/cve_2020_0796](https://github.com/Ken-Abruzzi/cve_2020_0796) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve_2020_0796.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve_2020_0796.svg)
+
+- [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
 
 - [https://github.com/1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/1stPeak/CVE-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/1stPeak/CVE-2020-0796-Scanner.svg)
 
@@ -16903,9 +16947,9 @@
 
 - [https://github.com/pazhanivel07/Settings_10-r33_CVE-2020-0394](https://github.com/pazhanivel07/Settings_10-r33_CVE-2020-0394) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/Settings_10-r33_CVE-2020-0394.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/Settings_10-r33_CVE-2020-0394.svg)
 
-- [https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394) :  ![starts](https://img.shields.io/github/stars/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394.svg) ![forks](https://img.shields.io/github/forks/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394.svg)
-
 - [https://github.com/pazhanivel07/Settings_10-r33_CVE-2020-0394_02](https://github.com/pazhanivel07/Settings_10-r33_CVE-2020-0394_02) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/Settings_10-r33_CVE-2020-0394_02.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/Settings_10-r33_CVE-2020-0394_02.svg)
+
+- [https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394) :  ![starts](https://img.shields.io/github/stars/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394.svg) ![forks](https://img.shields.io/github/forks/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394.svg)
 
 ## CVE-2020-0392
  In getLayerDebugInfo of SurfaceFlinger.cpp, there is a possible code execution due to a double free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11Android ID: A-150226608
