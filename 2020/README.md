@@ -1433,9 +1433,9 @@
 
 
 
-- [https://github.com/nanopathi/linux-4.19.72_CVE-2020-29370](https://github.com/nanopathi/linux-4.19.72_CVE-2020-29370) :  ![starts](https://img.shields.io/github/stars/nanopathi/linux-4.19.72_CVE-2020-29370.svg) ![forks](https://img.shields.io/github/forks/nanopathi/linux-4.19.72_CVE-2020-29370.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2020-29370](https://github.com/Live-Hack-CVE/CVE-2020-29370) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-29370.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-29370.svg)
+
+- [https://github.com/nanopathi/linux-4.19.72_CVE-2020-29370](https://github.com/nanopathi/linux-4.19.72_CVE-2020-29370) :  ![starts](https://img.shields.io/github/stars/nanopathi/linux-4.19.72_CVE-2020-29370.svg) ![forks](https://img.shields.io/github/forks/nanopathi/linux-4.19.72_CVE-2020-29370.svg)
 
 ## CVE-2020-29364
  In NetArt News Lister 1.0.0, the news headlines vulnerable to stored xss attacks. Attackers can inject codes in news titles.
@@ -2561,6 +2561,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-27652](https://github.com/Live-Hack-CVE/CVE-2020-27652) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-27652.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-27652.svg)
 
+## CVE-2020-27619
+ In Python 3 through 3.9.0, the Lib/test/multibytecodec_support.py CJK codec tests call eval() on content retrieved via HTTP.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-27619](https://github.com/Live-Hack-CVE/CVE-2020-27619) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-27619.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-27619.svg)
+
 ## CVE-2020-27618
  The iconv function in the GNU C Library (aka glibc or libc6) 2.32 and earlier, when processing invalid multi-byte input sequences in IBM1364, IBM1371, IBM1388, IBM1390, and IBM1399 encodings, fails to advance the input state, which could lead to an infinite loop in applications, resulting in a denial of service, a different vulnerability from CVE-2016-10228.
 
@@ -2726,6 +2733,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-26938](https://github.com/Live-Hack-CVE/CVE-2020-26938) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-26938.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-26938.svg)
 
+## CVE-2020-26935
+ An issue was discovered in SearchController in phpMyAdmin before 4.9.6 and 5.x before 5.0.3. A SQL injection vulnerability was discovered in how phpMyAdmin processes SQL statements in the search feature. An attacker could use this flaw to inject malicious SQL in to a query.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-26935](https://github.com/Live-Hack-CVE/CVE-2020-26935) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-26935.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-26935.svg)
+
 ## CVE-2020-26932
  debian/sympa.postinst for the Debian Sympa package before 6.2.40~dfsg-7 uses mode 4755 for sympa_newaliases-wrapper, whereas the intended permissions are mode 4750 (for access by the sympa group)
 
@@ -2809,6 +2823,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-26705](https://github.com/Live-Hack-CVE/CVE-2020-26705) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-26705.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-26705.svg)
+
+## CVE-2020-26566
+ A Denial of Service condition in Motion-Project Motion 3.2 through 4.3.1 allows remote unauthenticated users to cause a webu.c segmentation fault and kill the main process via a crafted HTTP request.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-26566](https://github.com/Live-Hack-CVE/CVE-2020-26566) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-26566.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-26566.svg)
 
 ## CVE-2020-26558
  Bluetooth LE and BR/EDR secure pairing in Bluetooth Core Specification 2.1 through 5.2 may permit a nearby man-in-the-middle attacker to identify the Passkey used during pairing (in the Passkey authentication procedure) by reflection of the public key and the authentication evidence of the initiating device, potentially permitting this attacker to complete authenticated pairing with the responding device using the correct Passkey for the pairing session. The attack methodology determines the Passkey value one bit at a time.
@@ -2993,6 +3014,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-26184](https://github.com/Live-Hack-CVE/CVE-2020-26184) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-26184.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-26184.svg)
 
+## CVE-2020-26164
+ In kdeconnect-kde (aka KDE Connect) before 20.08.2, an attacker on the local network could send crafted packets that trigger use of large amounts of CPU, memory, or network connection slots, aka a Denial of Service attack.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-26164](https://github.com/Live-Hack-CVE/CVE-2020-26164) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-26164.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-26164.svg)
+
+## CVE-2020-26154
+ url.cpp in libproxy through 0.4.15 is prone to a buffer overflow when PAC is enabled, as demonstrated by a large PAC file that is delivered without a Content-length header.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-26154](https://github.com/Live-Hack-CVE/CVE-2020-26154) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-26154.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-26154.svg)
+
 ## CVE-2020-26140
  An issue was discovered in the ALFA Windows 10 driver 6.1316.1209 for AWUS036H. The WEP, WPA, WPA2, and WPA3 implementations accept plaintext frames in a protected Wi-Fi network. An adversary can abuse this to inject arbitrary data frames independent of the network configuration.
 
@@ -3007,12 +3042,26 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-26139](https://github.com/Live-Hack-CVE/CVE-2020-26139) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-26139.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-26139.svg)
 
+## CVE-2020-26137
+ urllib3 before 1.25.9 allows CRLF injection if the attacker controls the HTTP request method, as demonstrated by inserting CR and LF control characters in the first argument of putrequest(). NOTE: this is similar to CVE-2020-26116.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-26137](https://github.com/Live-Hack-CVE/CVE-2020-26137) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-26137.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-26137.svg)
+
 ## CVE-2020-26117
  In rfb/CSecurityTLS.cxx and rfb/CSecurityTLS.java in TigerVNC before 1.11.0, viewers mishandle TLS certificate exceptions. They store the certificates as authorities, meaning that the owner of a certificate could impersonate any server after a client had added an exception.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-26117](https://github.com/Live-Hack-CVE/CVE-2020-26117) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-26117.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-26117.svg)
+
+## CVE-2020-26116
+ http.client in Python 3.x before 3.5.10, 3.6.x before 3.6.12, 3.7.x before 3.7.9, and 3.8.x before 3.8.5 allows CRLF injection if the attacker controls the HTTP request method, as demonstrated by inserting CR and LF control characters in the first argument of HTTPConnection.request.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-26137](https://github.com/Live-Hack-CVE/CVE-2020-26137) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-26137.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-26137.svg)
 
 ## CVE-2020-26061
  ClickStudios Passwordstate Password Reset Portal prior to build 8501 is affected by an authentication bypass vulnerability. The ResetPassword function does not validate whether the user has successfully authenticated using security questions. An unauthenticated, remote attacker can send a crafted HTTP request to the /account/ResetPassword page to set a new password for any registered user.
@@ -3220,6 +3269,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-25695](https://github.com/Live-Hack-CVE/CVE-2020-25695) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-25695.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-25695.svg)
+
+## CVE-2020-25694
+ A flaw was found in PostgreSQL versions before 13.1, before 12.5, before 11.10, before 10.15, before 9.6.20 and before 9.5.24. If a client application that creates additional database connections only reuses the basic connection parameters while dropping security-relevant parameters, an opportunity for a man-in-the-middle attack, or the ability to observe clear-text transmissions, could exist. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-25694](https://github.com/Live-Hack-CVE/CVE-2020-25694) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-25694.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-25694.svg)
 
 ## CVE-2020-25692
  A NULL pointer dereference was found in OpenLDAP server and was fixed in openldap 2.4.55, during a request for renaming RDNs. An unauthenticated attacker could remotely crash the slapd process by sending a specially crafted request, causing a Denial of Service.
@@ -3746,9 +3802,9 @@
 
 - [https://github.com/jorhelp/Ingram](https://github.com/jorhelp/Ingram) :  ![starts](https://img.shields.io/github/stars/jorhelp/Ingram.svg) ![forks](https://img.shields.io/github/forks/jorhelp/Ingram.svg)
 
-- [https://github.com/S0por/CVE-2020-25078](https://github.com/S0por/CVE-2020-25078) :  ![starts](https://img.shields.io/github/stars/S0por/CVE-2020-25078.svg) ![forks](https://img.shields.io/github/forks/S0por/CVE-2020-25078.svg)
-
 - [https://github.com/MzzdToT/CVE-2020-25078](https://github.com/MzzdToT/CVE-2020-25078) :  ![starts](https://img.shields.io/github/stars/MzzdToT/CVE-2020-25078.svg) ![forks](https://img.shields.io/github/forks/MzzdToT/CVE-2020-25078.svg)
+
+- [https://github.com/S0por/CVE-2020-25078](https://github.com/S0por/CVE-2020-25078) :  ![starts](https://img.shields.io/github/stars/S0por/CVE-2020-25078.svg) ![forks](https://img.shields.io/github/forks/S0por/CVE-2020-25078.svg)
 
 - [https://github.com/chinaYozz/CVE-2020-25078](https://github.com/chinaYozz/CVE-2020-25078) :  ![starts](https://img.shields.io/github/stars/chinaYozz/CVE-2020-25078.svg) ![forks](https://img.shields.io/github/forks/chinaYozz/CVE-2020-25078.svg)
 
@@ -4329,9 +4385,9 @@
 
 
 
-- [https://github.com/huzaifahussain98/CVE-2020-23590](https://github.com/huzaifahussain98/CVE-2020-23590) :  ![starts](https://img.shields.io/github/stars/huzaifahussain98/CVE-2020-23590.svg) ![forks](https://img.shields.io/github/forks/huzaifahussain98/CVE-2020-23590.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2020-23590](https://github.com/Live-Hack-CVE/CVE-2020-23590) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-23590.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-23590.svg)
+
+- [https://github.com/huzaifahussain98/CVE-2020-23590](https://github.com/huzaifahussain98/CVE-2020-23590) :  ![starts](https://img.shields.io/github/stars/huzaifahussain98/CVE-2020-23590.svg) ![forks](https://img.shields.io/github/forks/huzaifahussain98/CVE-2020-23590.svg)
 
 ## CVE-2020-23589
  A vulnerability in OPTILINK OP-XT71000N Hardware Version: V2.2 , Firmware Version: OP_V3.3.1-191028 allows an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack to cause a Denial of Service by Rebooting the router through &quot; /mgm_dev_reboot.asp.&quot;
@@ -4958,6 +5014,27 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-21535](https://github.com/Live-Hack-CVE/CVE-2020-21535) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-21535.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-21535.svg)
 
+## CVE-2020-21532
+ fig2dev 3.2.7b contains a global buffer overflow in the setfigfont function in genepic.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-21532](https://github.com/Live-Hack-CVE/CVE-2020-21532) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-21532.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-21532.svg)
+
+## CVE-2020-21531
+ fig2dev 3.2.7b contains a global buffer overflow in the conv_pattern_index function in gencgm.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-21531](https://github.com/Live-Hack-CVE/CVE-2020-21531) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-21531.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-21531.svg)
+
+## CVE-2020-21529
+ fig2dev 3.2.7b contains a stack buffer overflow in the bezier_spline function in genepic.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-21529](https://github.com/Live-Hack-CVE/CVE-2020-21529) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-21529.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-21529.svg)
+
 ## CVE-2020-21516
  There is an arbitrary file upload vulnerability in FeehiCMS 2.0.8 at the head image upload, that allows attackers to execute relevant PHP code.
 
@@ -5090,6 +5167,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-20412](https://github.com/Live-Hack-CVE/CVE-2020-20412) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-20412.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-20412.svg)
+
+## CVE-2020-20402
+ Westbrookadmin portfolioCMS v1.05 allows attackers to bypass password validation and access sensitive information via session fixation.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-20402](https://github.com/Live-Hack-CVE/CVE-2020-20402) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-20402.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-20402.svg)
 
 ## CVE-2020-20282
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -5990,6 +6074,13 @@
 
 
 - [https://github.com/Security-AVS/CVE-2020-16270](https://github.com/Security-AVS/CVE-2020-16270) :  ![starts](https://img.shields.io/github/stars/Security-AVS/CVE-2020-16270.svg) ![forks](https://img.shields.io/github/forks/Security-AVS/CVE-2020-16270.svg)
+
+## CVE-2020-16242
+ The affected Reason S20 Ethernet Switch is vulnerable to cross-site scripting (XSS), which may allow an attacker to trick application users into performing critical application actions that include, but are not limited to, adding and updating accounts.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-16242](https://github.com/Live-Hack-CVE/CVE-2020-16242) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-16242.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-16242.svg)
 
 ## CVE-2020-16229
  Advantech WebAccess HMI Designer, Versions 2.1.9.31 and prior. Processing specially crafted project files lacking proper validation of user supplied data may cause a type confusion condition, which may allow remote code execution, disclosure/modification of information, or cause the application to crash.
@@ -7423,6 +7514,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-14409](https://github.com/Live-Hack-CVE/CVE-2020-14409) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-14409.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-14409.svg)
 
+## CVE-2020-14395
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate is unused by its CNA. Notes: none.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-14395](https://github.com/Live-Hack-CVE/CVE-2020-14395) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-14395.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-14395.svg)
+
 ## CVE-2020-14394
  An infinite loop flaw was found in the USB xHCI controller emulation of QEMU while computing the length of the Transfer Request Block (TRB) Ring. This flaw allows a privileged guest user to hang the QEMU process on the host, resulting in a denial of service.
 
@@ -7933,6 +8031,13 @@
 
 
 - [https://github.com/YutuSec/Apisix_Crack](https://github.com/YutuSec/Apisix_Crack) :  ![starts](https://img.shields.io/github/stars/YutuSec/Apisix_Crack.svg) ![forks](https://img.shields.io/github/forks/YutuSec/Apisix_Crack.svg)
+
+## CVE-2020-13943
+ If an HTTP/2 client connecting to Apache Tomcat 10.0.0-M1 to 10.0.0-M7, 9.0.0.M1 to 9.0.37 or 8.5.0 to 8.5.57 exceeded the agreed maximum number of concurrent streams for a connection (in violation of the HTTP/2 protocol), it was possible that a subsequent request made on that connection could contain HTTP headers - including HTTP/2 pseudo headers - from a previous request rather than the intended headers. This could lead to users seeing responses for unexpected resources.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-13943](https://github.com/Live-Hack-CVE/CVE-2020-13943) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-13943.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-13943.svg)
 
 ## CVE-2020-13942
  It is possible to inject malicious OGNL or MVEL scripts into the /context.json public endpoint. This was partially fixed in 1.5.1 but a new attack vector was found. In Apache Unomi version 1.5.2 scripts are now completely filtered from the input. It is highly recommended to upgrade to the latest available version of the 1.5.x release to fix this problem.
@@ -11837,9 +11942,9 @@
 
 - [https://github.com/m4udSec/Cacti-CVE-2020-8813](https://github.com/m4udSec/Cacti-CVE-2020-8813) :  ![starts](https://img.shields.io/github/stars/m4udSec/Cacti-CVE-2020-8813.svg) ![forks](https://img.shields.io/github/forks/m4udSec/Cacti-CVE-2020-8813.svg)
 
-- [https://github.com/hexcowboy/CVE-2020-8813](https://github.com/hexcowboy/CVE-2020-8813) :  ![starts](https://img.shields.io/github/stars/hexcowboy/CVE-2020-8813.svg) ![forks](https://img.shields.io/github/forks/hexcowboy/CVE-2020-8813.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2020-8813](https://github.com/Live-Hack-CVE/CVE-2020-8813) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-8813.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-8813.svg)
+
+- [https://github.com/hexcowboy/CVE-2020-8813](https://github.com/hexcowboy/CVE-2020-8813) :  ![starts](https://img.shields.io/github/stars/hexcowboy/CVE-2020-8813.svg) ![forks](https://img.shields.io/github/forks/hexcowboy/CVE-2020-8813.svg)
 
 ## CVE-2020-8811
  ajax/profile-picture-upload.php in Bludit 3.10.0 allows authenticated users to change other users' profile pictures.
@@ -13261,6 +13366,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-7112](https://github.com/Live-Hack-CVE/CVE-2020-7112) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-7112.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-7112.svg)
 
+## CVE-2020-7108
+ The LearnDash LMS plugin before 3.1.2 for WordPress allows XSS via the ld-profile search field.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-7108](https://github.com/Live-Hack-CVE/CVE-2020-7108) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-7108.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-7108.svg)
+
+## CVE-2020-7105
+ async.c and dict.c in libhiredis.a in hiredis through 0.14.0 allow a NULL pointer dereference because malloc return values are unchecked.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-7105](https://github.com/Live-Hack-CVE/CVE-2020-7105) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-7105.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-7105.svg)
+
 ## CVE-2020-7071
  In PHP versions 7.3.x below 7.3.26, 7.4.x below 7.4.14 and 8.0.0, when validating URL with functions like filter_var($url, FILTER_VALIDATE_URL), PHP will accept an URL with invalid password as valid URL. This may lead to functions that rely on URL being valid to mis-parse the URL and produce wrong data as components of the URL.
 
@@ -14111,9 +14230,9 @@
 
 - [https://github.com/renanhsilva/checkvulnCVE20205902](https://github.com/renanhsilva/checkvulnCVE20205902) :  ![starts](https://img.shields.io/github/stars/renanhsilva/checkvulnCVE20205902.svg) ![forks](https://img.shields.io/github/forks/renanhsilva/checkvulnCVE20205902.svg)
 
-- [https://github.com/ltvthang/CVE-2020-5903](https://github.com/ltvthang/CVE-2020-5903) :  ![starts](https://img.shields.io/github/stars/ltvthang/CVE-2020-5903.svg) ![forks](https://img.shields.io/github/forks/ltvthang/CVE-2020-5903.svg)
-
 - [https://github.com/wdlid/CVE-2020-5902-fix](https://github.com/wdlid/CVE-2020-5902-fix) :  ![starts](https://img.shields.io/github/stars/wdlid/CVE-2020-5902-fix.svg) ![forks](https://img.shields.io/github/forks/wdlid/CVE-2020-5902-fix.svg)
+
+- [https://github.com/ltvthang/CVE-2020-5903](https://github.com/ltvthang/CVE-2020-5903) :  ![starts](https://img.shields.io/github/stars/ltvthang/CVE-2020-5903.svg) ![forks](https://img.shields.io/github/forks/ltvthang/CVE-2020-5903.svg)
 
 - [https://github.com/qiong-qi/CVE-2020-5902-POC](https://github.com/qiong-qi/CVE-2020-5902-POC) :  ![starts](https://img.shields.io/github/stars/qiong-qi/CVE-2020-5902-POC.svg) ![forks](https://img.shields.io/github/forks/qiong-qi/CVE-2020-5902-POC.svg)
 
@@ -14129,9 +14248,9 @@
 
 - [https://github.com/superzerosec/cve-2020-5902](https://github.com/superzerosec/cve-2020-5902) :  ![starts](https://img.shields.io/github/stars/superzerosec/cve-2020-5902.svg) ![forks](https://img.shields.io/github/forks/superzerosec/cve-2020-5902.svg)
 
-- [https://github.com/GoodiesHQ/F5-Patch](https://github.com/GoodiesHQ/F5-Patch) :  ![starts](https://img.shields.io/github/stars/GoodiesHQ/F5-Patch.svg) ![forks](https://img.shields.io/github/forks/GoodiesHQ/F5-Patch.svg)
-
 - [https://github.com/TheCyberViking/CVE-2020-5902-Vuln-Checker](https://github.com/TheCyberViking/CVE-2020-5902-Vuln-Checker) :  ![starts](https://img.shields.io/github/stars/TheCyberViking/CVE-2020-5902-Vuln-Checker.svg) ![forks](https://img.shields.io/github/forks/TheCyberViking/CVE-2020-5902-Vuln-Checker.svg)
+
+- [https://github.com/GoodiesHQ/F5-Patch](https://github.com/GoodiesHQ/F5-Patch) :  ![starts](https://img.shields.io/github/stars/GoodiesHQ/F5-Patch.svg) ![forks](https://img.shields.io/github/forks/GoodiesHQ/F5-Patch.svg)
 
 - [https://github.com/freeFV/CVE-2020-5902-fofa-scan](https://github.com/freeFV/CVE-2020-5902-fofa-scan) :  ![starts](https://img.shields.io/github/stars/freeFV/CVE-2020-5902-fofa-scan.svg) ![forks](https://img.shields.io/github/forks/freeFV/CVE-2020-5902-fofa-scan.svg)
 
@@ -14302,6 +14421,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-5395](https://github.com/Live-Hack-CVE/CVE-2020-5395) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-5395.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-5395.svg)
+
+## CVE-2020-5387
+ Dell XPS 13 9370 BIOS versions prior to 1.13.1 contains an Improper Exception Handling vulnerability. A local attacker with physical access could exploit this vulnerability to prevent the system from booting until the exploited boot device is removed.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-5387](https://github.com/Live-Hack-CVE/CVE-2020-5387) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-5387.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-5387.svg)
 
 ## CVE-2020-5377
  Dell EMC OpenManage Server Administrator (OMSA) versions 9.4 and prior contain multiple path traversal vulnerabilities. An unauthenticated remote attacker could potentially exploit these vulnerabilities by sending a crafted Web API request containing directory traversal character sequences to gain file system access on the compromised management station.
@@ -14702,11 +14828,11 @@
 
 - [https://github.com/sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/sujaygr8/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/sujaygr8/CVE-2020-3452.svg)
 
-- [https://github.com/iveresk/cve-2020-3452](https://github.com/iveresk/cve-2020-3452) :  ![starts](https://img.shields.io/github/stars/iveresk/cve-2020-3452.svg) ![forks](https://img.shields.io/github/forks/iveresk/cve-2020-3452.svg)
-
 - [https://github.com/toy0756428/CVE_2020_3452_Detect](https://github.com/toy0756428/CVE_2020_3452_Detect) :  ![starts](https://img.shields.io/github/stars/toy0756428/CVE_2020_3452_Detect.svg) ![forks](https://img.shields.io/github/forks/toy0756428/CVE_2020_3452_Detect.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-3452](https://github.com/Live-Hack-CVE/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-3452.svg)
+
+- [https://github.com/iveresk/cve-2020-3452](https://github.com/iveresk/cve-2020-3452) :  ![starts](https://img.shields.io/github/stars/iveresk/cve-2020-3452.svg) ![forks](https://img.shields.io/github/forks/iveresk/cve-2020-3452.svg)
 
 ## CVE-2020-3435
  A vulnerability in the interprocess communication (IPC) channel of Cisco AnyConnect Secure Mobility Client for Windows could allow an authenticated, local attacker to overwrite VPN profiles on an affected device. To exploit this vulnerability, the attacker would need to have valid credentials on the Windows system. The vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by sending a crafted IPC message to the AnyConnect process on an affected device. A successful exploit could allow the attacker to modify VPN profile files. To exploit this vulnerability, the attacker would need to have valid credentials on the Windows system.
@@ -15651,6 +15777,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2020-1771](https://github.com/Live-Hack-CVE/CVE-2020-1771) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-1771.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-1771.svg)
 
+## CVE-2020-1767
+ Agent A is able to save a draft (i.e. for customer reply). Then Agent B can open the draft, change the text completely and send it in the name of Agent A. For the customer it will not be visible that the message was sent by another agent. This issue affects: ((OTRS)) Community Edition 6.0.x version 6.0.24 and prior versions. OTRS 7.0.x version 7.0.13 and prior versions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2020-1767](https://github.com/Live-Hack-CVE/CVE-2020-1767) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-1767.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-1767.svg)
+
 ## CVE-2020-1764
  A hard-coded cryptographic key vulnerability in the default configuration file was found in Kiali, all versions prior to 1.15.1. A remote attacker could abuse this flaw by creating their own JWT signed tokens and bypass Kiali authentication mechanisms, possibly gaining privileges to view and alter the Istio configuration.
 
@@ -15903,9 +16036,9 @@
 
 - [https://github.com/b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/b1ack0wl/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/b1ack0wl/CVE-2020-1472.svg)
 
-- [https://github.com/Fa1c0n35/CVE-2020-1472](https://github.com/Fa1c0n35/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472.svg)
-
 - [https://github.com/victim10wq3/CVE-2020-1472](https://github.com/victim10wq3/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/victim10wq3/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/victim10wq3/CVE-2020-1472.svg)
+
+- [https://github.com/Fa1c0n35/CVE-2020-1472](https://github.com/Fa1c0n35/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472.svg)
 
 - [https://github.com/Fa1c0n35/SecuraBV-CVE-2020-1472](https://github.com/Fa1c0n35/SecuraBV-CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/SecuraBV-CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/SecuraBV-CVE-2020-1472.svg)
 
@@ -15927,11 +16060,11 @@
 
 - [https://github.com/Tobey123/CVE-2020-1472-visualizer](https://github.com/Tobey123/CVE-2020-1472-visualizer) :  ![starts](https://img.shields.io/github/stars/Tobey123/CVE-2020-1472-visualizer.svg) ![forks](https://img.shields.io/github/forks/Tobey123/CVE-2020-1472-visualizer.svg)
 
-- [https://github.com/t31m0/CVE-2020-1472](https://github.com/t31m0/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/t31m0/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/t31m0/CVE-2020-1472.svg)
-
 - [https://github.com/hectorgie/CVE-2020-1472](https://github.com/hectorgie/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/hectorgie/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/hectorgie/CVE-2020-1472.svg)
 
 - [https://github.com/itssmikefm/CVE-2020-1472](https://github.com/itssmikefm/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/itssmikefm/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/itssmikefm/CVE-2020-1472.svg)
+
+- [https://github.com/t31m0/CVE-2020-1472](https://github.com/t31m0/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/t31m0/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/t31m0/CVE-2020-1472.svg)
 
 - [https://github.com/mos165/CVE-20200-1472](https://github.com/mos165/CVE-20200-1472) :  ![starts](https://img.shields.io/github/stars/mos165/CVE-20200-1472.svg) ![forks](https://img.shields.io/github/forks/mos165/CVE-20200-1472.svg)
 
@@ -15943,13 +16076,13 @@
 
 - [https://github.com/dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/dr4g0n23/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/dr4g0n23/CVE-2020-1472.svg)
 
-- [https://github.com/Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve-2020-1472.svg)
-
-- [https://github.com/puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2020-1472.svg)
-
 - [https://github.com/midpipps/CVE-2020-1472-Easy](https://github.com/midpipps/CVE-2020-1472-Easy) :  ![starts](https://img.shields.io/github/stars/midpipps/CVE-2020-1472-Easy.svg) ![forks](https://img.shields.io/github/forks/midpipps/CVE-2020-1472-Easy.svg)
 
 - [https://github.com/TheJoyOfHacking/dirkjanm-CVE-2020-1472](https://github.com/TheJoyOfHacking/dirkjanm-CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/TheJoyOfHacking/dirkjanm-CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/TheJoyOfHacking/dirkjanm-CVE-2020-1472.svg)
+
+- [https://github.com/Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve-2020-1472.svg)
+
+- [https://github.com/puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2020-1472.svg)
 
 - [https://github.com/TheJoyOfHacking/SecuraBV-CVE-2020-1472](https://github.com/TheJoyOfHacking/SecuraBV-CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/TheJoyOfHacking/SecuraBV-CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/TheJoyOfHacking/SecuraBV-CVE-2020-1472.svg)
 
@@ -16008,8 +16141,6 @@
 
 - [https://github.com/T13nn3s/CVE-2020-1350](https://github.com/T13nn3s/CVE-2020-1350) :  ![starts](https://img.shields.io/github/stars/T13nn3s/CVE-2020-1350.svg) ![forks](https://img.shields.io/github/forks/T13nn3s/CVE-2020-1350.svg)
 
-- [https://github.com/corelight/SIGRed](https://github.com/corelight/SIGRed) :  ![starts](https://img.shields.io/github/stars/corelight/SIGRed.svg) ![forks](https://img.shields.io/github/forks/corelight/SIGRed.svg)
-
 - [https://github.com/connormcgarr/CVE-2020-1350](https://github.com/connormcgarr/CVE-2020-1350) :  ![starts](https://img.shields.io/github/stars/connormcgarr/CVE-2020-1350.svg) ![forks](https://img.shields.io/github/forks/connormcgarr/CVE-2020-1350.svg)
 
 - [https://github.com/zoomerxsec/Fake_CVE-2020-1350](https://github.com/zoomerxsec/Fake_CVE-2020-1350) :  ![starts](https://img.shields.io/github/stars/zoomerxsec/Fake_CVE-2020-1350.svg) ![forks](https://img.shields.io/github/forks/zoomerxsec/Fake_CVE-2020-1350.svg)
@@ -16029,6 +16160,8 @@
 - [https://github.com/gdwnet/cve-2020-1350](https://github.com/gdwnet/cve-2020-1350) :  ![starts](https://img.shields.io/github/stars/gdwnet/cve-2020-1350.svg) ![forks](https://img.shields.io/github/forks/gdwnet/cve-2020-1350.svg)
 
 - [https://github.com/ejlevin99/CVE---2020---1350](https://github.com/ejlevin99/CVE---2020---1350) :  ![starts](https://img.shields.io/github/stars/ejlevin99/CVE---2020---1350.svg) ![forks](https://img.shields.io/github/forks/ejlevin99/CVE---2020---1350.svg)
+
+- [https://github.com/5l1v3r1/CVE-2020-1350-checker.ps1](https://github.com/5l1v3r1/CVE-2020-1350-checker.ps1) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/CVE-2020-1350-checker.ps1.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/CVE-2020-1350-checker.ps1.svg)
 
 ## CVE-2020-1349
  A remote code execution vulnerability exists in Microsoft Outlook software when it fails to properly handle objects in memory, aka 'Microsoft Outlook Remote Code Execution Vulnerability'.
@@ -16593,9 +16726,9 @@
 
 - [https://github.com/mahyarx/Exploit_CVE-2020-0688](https://github.com/mahyarx/Exploit_CVE-2020-0688) :  ![starts](https://img.shields.io/github/stars/mahyarx/Exploit_CVE-2020-0688.svg) ![forks](https://img.shields.io/github/forks/mahyarx/Exploit_CVE-2020-0688.svg)
 
-- [https://github.com/SLSteff/CVE-2020-0688-Scanner](https://github.com/SLSteff/CVE-2020-0688-Scanner) :  ![starts](https://img.shields.io/github/stars/SLSteff/CVE-2020-0688-Scanner.svg) ![forks](https://img.shields.io/github/forks/SLSteff/CVE-2020-0688-Scanner.svg)
-
 - [https://github.com/truongtn/cve-2020-0688](https://github.com/truongtn/cve-2020-0688) :  ![starts](https://img.shields.io/github/stars/truongtn/cve-2020-0688.svg) ![forks](https://img.shields.io/github/forks/truongtn/cve-2020-0688.svg)
+
+- [https://github.com/SLSteff/CVE-2020-0688-Scanner](https://github.com/SLSteff/CVE-2020-0688-Scanner) :  ![starts](https://img.shields.io/github/stars/SLSteff/CVE-2020-0688-Scanner.svg) ![forks](https://img.shields.io/github/forks/SLSteff/CVE-2020-0688-Scanner.svg)
 
 - [https://github.com/TheKickPuncher/CVE-2020-0688-Python3](https://github.com/TheKickPuncher/CVE-2020-0688-Python3) :  ![starts](https://img.shields.io/github/stars/TheKickPuncher/CVE-2020-0688-Python3.svg) ![forks](https://img.shields.io/github/forks/TheKickPuncher/CVE-2020-0688-Python3.svg)
 
@@ -16947,9 +17080,9 @@
 
 - [https://github.com/pazhanivel07/Settings_10-r33_CVE-2020-0394](https://github.com/pazhanivel07/Settings_10-r33_CVE-2020-0394) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/Settings_10-r33_CVE-2020-0394.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/Settings_10-r33_CVE-2020-0394.svg)
 
-- [https://github.com/pazhanivel07/Settings_10-r33_CVE-2020-0394_02](https://github.com/pazhanivel07/Settings_10-r33_CVE-2020-0394_02) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/Settings_10-r33_CVE-2020-0394_02.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/Settings_10-r33_CVE-2020-0394_02.svg)
-
 - [https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394) :  ![starts](https://img.shields.io/github/stars/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394.svg) ![forks](https://img.shields.io/github/forks/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394.svg)
+
+- [https://github.com/pazhanivel07/Settings_10-r33_CVE-2020-0394_02](https://github.com/pazhanivel07/Settings_10-r33_CVE-2020-0394_02) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/Settings_10-r33_CVE-2020-0394_02.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/Settings_10-r33_CVE-2020-0394_02.svg)
 
 ## CVE-2020-0392
  In getLayerDebugInfo of SurfaceFlinger.cpp, there is a possible code execution due to a double free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11Android ID: A-150226608
@@ -16991,9 +17124,9 @@
 
 
 
-- [https://github.com/Satheesh575555/frameworks_av_AOSP10_r33_CVE-2020-0245](https://github.com/Satheesh575555/frameworks_av_AOSP10_r33_CVE-2020-0245) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/frameworks_av_AOSP10_r33_CVE-2020-0245.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/frameworks_av_AOSP10_r33_CVE-2020-0245.svg)
-
 - [https://github.com/nanopathi/packages_apps_Nfc_cve-2020_02453](https://github.com/nanopathi/packages_apps_Nfc_cve-2020_02453) :  ![starts](https://img.shields.io/github/stars/nanopathi/packages_apps_Nfc_cve-2020_02453.svg) ![forks](https://img.shields.io/github/forks/nanopathi/packages_apps_Nfc_cve-2020_02453.svg)
+
+- [https://github.com/Satheesh575555/frameworks_av_AOSP10_r33_CVE-2020-0245](https://github.com/Satheesh575555/frameworks_av_AOSP10_r33_CVE-2020-0245) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/frameworks_av_AOSP10_r33_CVE-2020-0245.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/frameworks_av_AOSP10_r33_CVE-2020-0245.svg)
 
 ## CVE-2020-0243
  In clearPropValue of MediaAnalyticsItem.cpp, there is a possible use-after-free due to improper locking. This could lead to local escalation of privilege in the media server with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-8.0 Android-8.1Android ID: A-151644303
@@ -17053,9 +17186,9 @@
 
 
 
-- [https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219](https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219.svg)
-
 - [https://github.com/pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219](https://github.com/pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219.svg)
+
+- [https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219](https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219.svg)
 
 - [https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0219_CVE-2020-0188_old](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0219_CVE-2020-0188_old) :  ![starts](https://img.shields.io/github/stars/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0219_CVE-2020-0188_old.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0219_CVE-2020-0188_old.svg)
 
@@ -17175,11 +17308,11 @@
 
 
 
-- [https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Sett](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Sett) :  ![starts](https://img.shields.io/github/stars/Nivaskumark/CVE-2020-0133-packages_apps_Sett.svg) ![forks](https://img.shields.io/github/forks/Nivaskumark/CVE-2020-0133-packages_apps_Sett.svg)
-
 - [https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Setting](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Setting) :  ![starts](https://img.shields.io/github/stars/Nivaskumark/CVE-2020-0133-packages_apps_Setting.svg) ![forks](https://img.shields.io/github/forks/Nivaskumark/CVE-2020-0133-packages_apps_Setting.svg)
 
 - [https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings_fix](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings_fix) :  ![starts](https://img.shields.io/github/stars/Nivaskumark/CVE-2020-0133-packages_apps_Settings_fix.svg) ![forks](https://img.shields.io/github/forks/Nivaskumark/CVE-2020-0133-packages_apps_Settings_fix.svg)
+
+- [https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Sett](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Sett) :  ![starts](https://img.shields.io/github/stars/Nivaskumark/CVE-2020-0133-packages_apps_Sett.svg) ![forks](https://img.shields.io/github/forks/Nivaskumark/CVE-2020-0133-packages_apps_Sett.svg)
 
 - [https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings) :  ![starts](https://img.shields.io/github/stars/Nivaskumark/CVE-2020-0133-packages_apps_Settings.svg) ![forks](https://img.shields.io/github/forks/Nivaskumark/CVE-2020-0133-packages_apps_Settings.svg)
 
@@ -17199,9 +17332,9 @@
 
 - [https://github.com/tea9/CVE-2020-0114-systemui](https://github.com/tea9/CVE-2020-0114-systemui) :  ![starts](https://img.shields.io/github/stars/tea9/CVE-2020-0114-systemui.svg) ![forks](https://img.shields.io/github/forks/tea9/CVE-2020-0114-systemui.svg)
 
-- [https://github.com/Nivaskumark/CVE-2020-0114-frameworks_base](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_base) :  ![starts](https://img.shields.io/github/stars/Nivaskumark/CVE-2020-0114-frameworks_base.svg) ![forks](https://img.shields.io/github/forks/Nivaskumark/CVE-2020-0114-frameworks_base.svg)
-
 - [https://github.com/Nivaskumark/CVE-2020-0114-frameworks](https://github.com/Nivaskumark/CVE-2020-0114-frameworks) :  ![starts](https://img.shields.io/github/stars/Nivaskumark/CVE-2020-0114-frameworks.svg) ![forks](https://img.shields.io/github/forks/Nivaskumark/CVE-2020-0114-frameworks.svg)
+
+- [https://github.com/Nivaskumark/CVE-2020-0114-frameworks_base](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_base) :  ![starts](https://img.shields.io/github/stars/Nivaskumark/CVE-2020-0114-frameworks_base.svg) ![forks](https://img.shields.io/github/forks/Nivaskumark/CVE-2020-0114-frameworks_base.svg)
 
 - [https://github.com/Nivaskumark/CVE-2020-0114-frameworks_basety](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_basety) :  ![starts](https://img.shields.io/github/stars/Nivaskumark/CVE-2020-0114-frameworks_basety.svg) ![forks](https://img.shields.io/github/forks/Nivaskumark/CVE-2020-0114-frameworks_basety.svg)
 
