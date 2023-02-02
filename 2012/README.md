@@ -85,7 +85,7 @@
 - [https://github.com/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability](https://github.com/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability) :  ![starts](https://img.shields.io/github/stars/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability.svg)
 
 ## CVE-2012-6150
- The winbind_name_list_to_sid_string_list function in nsswitch/pam_winbind.c in Samba through 4.1.2 handles invalid require_membership_of group names by accepting authentication by any user, which allows remote authenticated users to bypass intended access restrictions in opportunistic circumstances by leveraging an administrator's pam_winbind configuration-file mistake.
+ CVE-2012-6150 samba: pam_winbind fails open when non-existent group specified to require_membership_of
 
 
 
@@ -159,7 +159,7 @@
 - [https://github.com/tafamace/CVE-2012-5575](https://github.com/tafamace/CVE-2012-5575) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2012-5575.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2012-5575.svg)
 
 ## CVE-2012-5519
- CUPS 1.4.4, when running in certain Linux distributions such as Debian GNU/Linux, stores the web interface administrator key in /var/run/cups/certs/0 using certain permissions, which allows local users in the lpadmin group to read or write arbitrary files as root by leveraging the web interface.
+ CVE-2012-5519 cups: privilege escalation for users of the CUPS SystemGroup group
 
 
 
@@ -276,18 +276,25 @@
 - [https://github.com/sh7alward/CVE-20121-34527-nightmare](https://github.com/sh7alward/CVE-20121-34527-nightmare) :  ![starts](https://img.shields.io/github/stars/sh7alward/CVE-20121-34527-nightmare.svg) ![forks](https://img.shields.io/github/forks/sh7alward/CVE-20121-34527-nightmare.svg)
 
 ## CVE-2012-3412
- The sfc (aka Solarflare Solarstorm) driver in the Linux kernel before 3.2.30 allows remote attackers to cause a denial of service (DMA descriptor consumption and network-controller outage) via crafted TCP packets that trigger a small MSS value.
+ CVE-2012-3412 kernel: sfc: potential remote denial of service through TCP MSS option
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-3412](https://github.com/Live-Hack-CVE/CVE-2012-3412) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3412.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3412.svg)
 
 ## CVE-2012-3400
- Heap-based buffer overflow in the udf_load_logicalvol function in fs/udf/super.c in the Linux kernel before 3.4.5 allows remote attackers to cause a denial of service (system crash) or possibly have unspecified other impact via a crafted UDF filesystem.
+ CVE-2012-3400 kernel: udf: buffer overflow when parsing sparing table
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-3400](https://github.com/Live-Hack-CVE/CVE-2012-3400) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3400.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3400.svg)
+
+## CVE-2012-3386
+ It was found that the distcheck rule in Automake-generated Makefiles made a directory world-writable when preparing source archives. If a malicious, local user could access this directory, they could execute arbitrary code with the privileges of the user running &quot;make distcheck&quot;.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-3386](https://github.com/Live-Hack-CVE/CVE-2012-3386) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3386.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3386.svg)
 
 ## CVE-2012-3197
  Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.64 and earlier, and 5.5.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Replication.
@@ -413,6 +420,13 @@
 
 
 - [https://github.com/AndrewTrube/CVE-2012-2593](https://github.com/AndrewTrube/CVE-2012-2593) :  ![starts](https://img.shields.io/github/stars/AndrewTrube/CVE-2012-2593.svg) ![forks](https://img.shields.io/github/forks/AndrewTrube/CVE-2012-2593.svg)
+
+## CVE-2012-2386
+ CVE-2012-2386 php: Integer overflow leading to heap-buffer overflow in the Phar extension
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-2386](https://github.com/Live-Hack-CVE/CVE-2012-2386) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-2386.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-2386.svg)
 
 ## CVE-2012-2201
  IBM WebSphere MQ 7.1 is vulnerable to a denial of service, caused by an error when handling user ids. A remote attacker could exploit this vulnerability to bypass the security configuration setup on a SVRCONN channel and flood the queue manager.
@@ -643,7 +657,7 @@
 - [https://github.com/rutvijjethwa/RDP_jammer](https://github.com/rutvijjethwa/RDP_jammer) :  ![starts](https://img.shields.io/github/stars/rutvijjethwa/RDP_jammer.svg) ![forks](https://img.shields.io/github/forks/rutvijjethwa/RDP_jammer.svg)
 
 ## CVE-2012-0056
- The mem_write function in the Linux kernel before 3.2.2, when ASLR is disabled, does not properly check permissions when writing to /proc/&lt;pid&gt;/mem, which allows local users to gain privileges by modifying process memory, as demonstrated by Mempodipper.
+ CVE-2012-0056 kernel: proc: /proc/&lt;pid&gt;/mem mem_write insufficient permission checking
 
 
 
