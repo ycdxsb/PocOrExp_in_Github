@@ -298,7 +298,7 @@
 - [https://github.com/cyberharsh/Nginx-CVE-2013-4547](https://github.com/cyberharsh/Nginx-CVE-2013-4547) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Nginx-CVE-2013-4547.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Nginx-CVE-2013-4547.svg)
 
 ## CVE-2013-4496
- Samba 3.x before 3.6.23, 4.0.x before 4.0.16, and 4.1.x before 4.1.6 does not enforce the password-guessing protection mechanism for all interfaces, which makes it easier for remote attackers to obtain access via brute-force ChangePasswordUser2 (1) SAMR or (2) RAP attempts.
+ CVE-2013-4496 samba: Password lockout not enforced for SAMR password changes
 
 
 
@@ -333,7 +333,7 @@
 - [https://github.com/notclement/Automatic-davfs2-1.4.6-1.4.7-Local-Privilege-Escalation](https://github.com/notclement/Automatic-davfs2-1.4.6-1.4.7-Local-Privilege-Escalation) :  ![starts](https://img.shields.io/github/stars/notclement/Automatic-davfs2-1.4.6-1.4.7-Local-Privilege-Escalation.svg) ![forks](https://img.shields.io/github/forks/notclement/Automatic-davfs2-1.4.6-1.4.7-Local-Privilege-Escalation.svg)
 
 ## CVE-2013-4348
- The skb_flow_dissect function in net/core/flow_dissector.c in the Linux kernel through 3.12 allows remote attackers to cause a denial of service (infinite loop) via a small value in the IHL field of a packet with IPIP encapsulation.
+ CVE-2013-4348 kernel: net: deadloop path in skb_flow_dissect()
 
 
 
@@ -621,14 +621,14 @@
 - [https://github.com/0xGabe/FreeBSD-9.0-9.1-Privilege-Escalation](https://github.com/0xGabe/FreeBSD-9.0-9.1-Privilege-Escalation) :  ![starts](https://img.shields.io/github/stars/0xGabe/FreeBSD-9.0-9.1-Privilege-Escalation.svg) ![forks](https://img.shields.io/github/forks/0xGabe/FreeBSD-9.0-9.1-Privilege-Escalation.svg)
 
 ## CVE-2013-2165
- ResourceBuilderImpl.java in the RichFaces 3.x through 5.x implementation in Red Hat JBoss Web Framework Kit before 2.3.0, Red Hat JBoss Web Platform through 5.2.0, Red Hat JBoss Enterprise Application Platform through 4.3.0 CP10 and 5.x through 5.2.0, Red Hat JBoss BRMS through 5.3.1, Red Hat JBoss SOA Platform through 4.3.0 CP05 and 5.x through 5.3.1, Red Hat JBoss Portal through 4.3 CP07 and 5.x through 5.2.2, and Red Hat JBoss Operations Network through 2.4.2 and 3.x through 3.1.2 does not restrict the classes for which deserialization methods can be called, which allows remote attackers to execute arbitrary code via crafted serialized data.
+ CVE-2013-2165 JBoss RichFaces: Remote code execution due to insecure deserialization
 
 
 
 - [https://github.com/Pastea/CVE-2013-2165](https://github.com/Pastea/CVE-2013-2165) :  ![starts](https://img.shields.io/github/stars/Pastea/CVE-2013-2165.svg) ![forks](https://img.shields.io/github/forks/Pastea/CVE-2013-2165.svg)
 
 ## CVE-2013-2094
- The perf_swevent_init function in kernel/events/core.c in the Linux kernel before 3.8.9 uses an incorrect integer data type, which allows local users to gain privileges via a crafted perf_event_open system call.
+ CVE-2013-2094 kernel: perf_swevent_enabled array out-of-bound access
 
 
 
@@ -692,7 +692,7 @@
 - [https://github.com/mambroziak/docker-cve-2013-2028](https://github.com/mambroziak/docker-cve-2013-2028) :  ![starts](https://img.shields.io/github/stars/mambroziak/docker-cve-2013-2028.svg) ![forks](https://img.shields.io/github/forks/mambroziak/docker-cve-2013-2028.svg)
 
 ## CVE-2013-2006
- OpenStack Identity (Keystone) Grizzly 2013.1.1, when DEBUG mode logging is enabled, logs the (1) admin_token and (2) LDAP password in plaintext, which allows local users to obtain sensitive by reading the log file.
+ CVE-2013-2006 OpenStack keystone: DEBUG level LDAP password disclosure in log files
 
 
 
@@ -706,14 +706,14 @@
 - [https://github.com/cinno/CVE-2013-1965](https://github.com/cinno/CVE-2013-1965) :  ![starts](https://img.shields.io/github/stars/cinno/CVE-2013-1965.svg) ![forks](https://img.shields.io/github/forks/cinno/CVE-2013-1965.svg)
 
 ## CVE-2013-1950
- The svc_dg_getargs function in libtirpc 0.2.3 and earlier allows remote attackers to cause a denial of service (rpcbind crash) via a Sun RPC request with crafted arguments that trigger a free of an invalid pointer.
+ CVE-2013-1950 libtirpc: invalid pointer free leads to rpcbind daemon crash
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-1950](https://github.com/Live-Hack-CVE/CVE-2013-1950) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-1950.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-1950.svg)
 
 ## CVE-2013-1896
- mod_dav.c in the Apache HTTP Server before 2.2.25 does not properly determine whether DAV is enabled for a URI, which allows remote attackers to cause a denial of service (segmentation fault) via a MERGE request in which the URI is configured for handling by the mod_dav_svn module, but a certain href attribute in XML data refers to a non-DAV URI.
+ CVE-2013-1896 httpd: mod_dav DoS (httpd child process crash) via a URI MERGE request with source URI not handled by mod_dav
 
 
 
@@ -741,7 +741,7 @@
 - [https://github.com/bekhzod0725/perl-CVE-2013-1775](https://github.com/bekhzod0725/perl-CVE-2013-1775) :  ![starts](https://img.shields.io/github/stars/bekhzod0725/perl-CVE-2013-1775.svg) ![forks](https://img.shields.io/github/forks/bekhzod0725/perl-CVE-2013-1775.svg)
 
 ## CVE-2013-1763
- Array index error in the __sock_diag_rcv_msg function in net/core/sock_diag.c in the Linux kernel before 3.7.10 allows local users to gain privileges via a large family value in a Netlink message.
+ CVE-2013-1763 kernel: sock_diag: out-of-bounds access to sock_diag_handlers[]
 
 
 
@@ -1049,7 +1049,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2013-0367](https://github.com/Live-Hack-CVE/CVE-2013-0367) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-0367.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-0367.svg)
 
 ## CVE-2013-0333
- lib/active_support/json/backends/yaml.rb in Ruby on Rails 2.3.x before 2.3.16 and 3.0.x before 3.0.20 does not properly convert JSON data to YAML data for processing by a YAML parser, which allows remote attackers to execute arbitrary code, conduct SQL injection attacks, or bypass authentication via crafted data that triggers unsafe decoding, a different vulnerability than CVE-2013-0156.
+ CVE-2013-0333 rubygem-activesupport: json to yaml parsing
 
 
 
@@ -1084,14 +1084,14 @@
 - [https://github.com/lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp) :  ![starts](https://img.shields.io/github/stars/lochiiconnectivity/vulnupnp.svg) ![forks](https://img.shields.io/github/forks/lochiiconnectivity/vulnupnp.svg)
 
 ## CVE-2013-0212
- store/swift.py in OpenStack Glance Essex (2012.1), Folsom (2012.2) before 2012.2.3, and Grizzly, when in Swift single tenant mode, logs the Swift endpoint's user name and password in cleartext when the endpoint is misconfigured or unusable, allows remote authenticated users to obtain sensitive information by reading the error messages.
+ CVE-2013-0212 openstack-glance: Backend password leak in Glance error message
 
 
 
 - [https://github.com/LogSec/CVE-2013-0212](https://github.com/LogSec/CVE-2013-0212) :  ![starts](https://img.shields.io/github/stars/LogSec/CVE-2013-0212.svg) ![forks](https://img.shields.io/github/forks/LogSec/CVE-2013-0212.svg)
 
 ## CVE-2013-0156
- active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.x before 3.0.19, 3.1.x before 3.1.10, and 3.2.x before 3.2.11 does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code, or cause a denial of service (memory and CPU consumption) involving nested XML entity references, by leveraging Action Pack support for (1) YAML type conversion or (2) Symbol type conversion.
+ CVE-2013-0156 rubygem-activesupport: Multiple vulnerabilities in parameter parsing in ActionPack
 
 
 
