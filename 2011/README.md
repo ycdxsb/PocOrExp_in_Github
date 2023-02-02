@@ -72,6 +72,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2011-4329](https://github.com/Live-Hack-CVE/CVE-2011-4329) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-4329.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-4329.svg)
 
+## CVE-2011-4127
+ CVE-2011-4127 kernel: possible privilege escalation via SG_IO ioctl
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-4127](https://github.com/Live-Hack-CVE/CVE-2011-4127) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-4127.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-4127.svg)
+
 ## CVE-2011-4107
  The simplexml_load_string function in the XML import plug-in (libraries/import/xml.php) in phpMyAdmin 3.4.x before 3.4.7.1 and 3.3.x before 3.3.10.5 allows remote authenticated users to read arbitrary files via XML data containing external entity references, aka an XML external entity (XXE) injection attack.
 
@@ -85,6 +92,13 @@
 
 
 - [https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872](https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872) :  ![starts](https://img.shields.io/github/stars/puppetlabs-toy-chest/puppetlabs-cve20113872.svg) ![forks](https://img.shields.io/github/forks/puppetlabs-toy-chest/puppetlabs-cve20113872.svg)
+
+## CVE-2011-3609
+ CVE-2011-3609 JBoss AS: CSRF in the administration console &amp; HTTP management API
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-3609](https://github.com/Live-Hack-CVE/CVE-2011-3609) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-3609.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-3609.svg)
 
 ## CVE-2011-3556
  Unspecified vulnerability in the Java Runtime Environment component in Oracle Java SE JDK and JRE 7, 6 Update 27 and earlier, 5.0 Update 31 and earlier, 1.4.2_33 and earlier, and JRockit R28.1.4 and earlier allows remote attackers to affect confidentiality, integrity, and availability, related to RMI, a different vulnerability than CVE-2011-3557.
@@ -118,6 +132,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2011-3348](https://github.com/Live-Hack-CVE/CVE-2011-3348) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-3348.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-3348.svg)
 
+## CVE-2011-3344
+ CVE-2011-3344 Satellite/Spacewalk: XSS on the Lost Password page
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-3344](https://github.com/Live-Hack-CVE/CVE-2011-3344) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-3344.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-3344.svg)
+
 ## CVE-2011-3192
  The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 2.2.x through 2.2.19 allows remote attackers to cause a denial of service (memory and CPU consumption) via a Range header that expresses multiple overlapping ranges, as exploited in the wild in August 2011, a different vulnerability than CVE-2007-0086.
 
@@ -134,7 +155,7 @@
 - [https://github.com/warmilk/http-Dos-Attack-Detection](https://github.com/warmilk/http-Dos-Attack-Detection) :  ![starts](https://img.shields.io/github/stars/warmilk/http-Dos-Attack-Detection.svg) ![forks](https://img.shields.io/github/forks/warmilk/http-Dos-Attack-Detection.svg)
 
 ## CVE-2011-3191
- Integer signedness error in the CIFSFindNext function in fs/cifs/cifssmb.c in the Linux kernel before 3.1 allows remote CIFS servers to cause a denial of service (memory corruption) or possibly have unspecified other impact via a large length value in a response to a read request for a directory.
+ CVE-2011-3191 kernel: cifs: signedness issue in CIFSFindNext()
 
 
 
@@ -146,6 +167,20 @@
 
 
 - [https://github.com/argp/cve-2011-3026-firefox](https://github.com/argp/cve-2011-3026-firefox) :  ![starts](https://img.shields.io/github/stars/argp/cve-2011-3026-firefox.svg) ![forks](https://img.shields.io/github/forks/argp/cve-2011-3026-firefox.svg)
+
+## CVE-2011-2927
+ CVE-2011-2927 Satellite/Spacewalk: XSS flaw in channels search
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-2927](https://github.com/Live-Hack-CVE/CVE-2011-2927) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-2927.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-2927.svg)
+
+## CVE-2011-2920
+ CVE-2011-2920 Satellite: XSS flaw(s) in filter handling
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-2920](https://github.com/Live-Hack-CVE/CVE-2011-2920) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-2920.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-2920.svg)
 
 ## CVE-2011-2894
  Spring Framework 3.0.0 through 3.0.5, Spring Security 3.0.0 through 3.0.5 and 2.0.0 through 2.0.6, and possibly other versions deserialize objects from untrusted sources, which allows remote attackers to bypass intended security restrictions and execute untrusted code by (1) serializing a java.lang.Proxy instance and using InvocationHandler, or (2) accessing internal AOP interfaces, as demonstrated using deserialization of a DefaultListableBeanFactory instance to execute arbitrary commands via the java.lang.Runtime class.
@@ -176,9 +211,9 @@
 
 - [https://github.com/nobodyatall648/CVE-2011-2523](https://github.com/nobodyatall648/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2011-2523.svg)
 
-- [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
-
 - [https://github.com/XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/XiangSi-Howard/CTF---CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/XiangSi-Howard/CTF---CVE-2011-2523.svg)
+
+- [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
 - [https://github.com/HerculesRD/vsftpd2.3.4PyExploit](https://github.com/HerculesRD/vsftpd2.3.4PyExploit) :  ![starts](https://img.shields.io/github/stars/HerculesRD/vsftpd2.3.4PyExploit.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/vsftpd2.3.4PyExploit.svg)
 
@@ -190,6 +225,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2011-2522](https://github.com/Live-Hack-CVE/CVE-2011-2522) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-2522.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-2522.svg)
+
+## CVE-2011-2487
+ A flaw was found in JBoss web services where the services used a weak symmetric encryption protocol, PKCS#1 v1.5. An attacker could use this weakness in chosen-ciphertext attacks to recover the symmetric key and conduct further attacks.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-2487](https://github.com/Live-Hack-CVE/CVE-2011-2487) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-2487.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-2487.svg)
 
 ## CVE-2011-2461
  Cross-site scripting (XSS) vulnerability in the Adobe Flex SDK 3.x and 4.x before 4.6 allows remote attackers to inject arbitrary web script or HTML via vectors related to the loading of modules from different domains.
@@ -231,7 +273,7 @@
 - [https://github.com/noobpk/CVE-2011-1571](https://github.com/noobpk/CVE-2011-1571) :  ![starts](https://img.shields.io/github/stars/noobpk/CVE-2011-1571.svg) ![forks](https://img.shields.io/github/forks/noobpk/CVE-2011-1571.svg)
 
 ## CVE-2011-1485
- Race condition in the pkexec utility and polkitd daemon in PolicyKit (aka polkit) 0.96 allows local users to gain privileges by executing a setuid program from pkexec, related to the use of the effective user ID instead of the real user ID.
+ CVE-2011-1485 polkit: polkitd/pkexec vulnerability
 
 
 
