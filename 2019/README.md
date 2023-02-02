@@ -882,6 +882,13 @@
 
 - [https://github.com/34zY/APT-Backpack](https://github.com/34zY/APT-Backpack) :  ![starts](https://img.shields.io/github/stars/34zY/APT-Backpack.svg) ![forks](https://img.shields.io/github/forks/34zY/APT-Backpack.svg)
 
+## CVE-2019-19746
+ make_arrow in arrow.c in Xfig fig2dev 3.2.7b allows a segmentation fault and out-of-bounds write because of an integer overflow via a large arrow type.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-19746](https://github.com/Live-Hack-CVE/CVE-2019-19746) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-19746.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-19746.svg)
+
 ## CVE-2019-19740
  Octeth Oempro 4.7 and 4.8 allow SQL injection. The parameter CampaignID in Campaign.Get is vulnerable.
 
@@ -937,6 +944,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2019-19725](https://github.com/Live-Hack-CVE/CVE-2019-19725) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-19725.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-19725.svg)
+
+## CVE-2019-19722
+ In Dovecot before 2.3.9.2, an attacker can crash a push-notification driver with a crafted email when push notifications are used, because of a NULL Pointer Dereference. The email must use a group address as either the sender or the recipient.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-19722](https://github.com/Live-Hack-CVE/CVE-2019-19722) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-19722.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-19722.svg)
 
 ## CVE-2019-19705
  Realtek Audio Drivers for Windows, as used on the Lenovo ThinkPad X1 Carbon 20A7, 20A8, 20BS, and 20BT before 6.0.8882.1 and 20KH and 20KG before 6.0.8907.1 (and on many other Lenovo and non-Lenovo products), mishandles DLL preloading.
@@ -995,6 +1009,20 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2019-19650](https://github.com/Live-Hack-CVE/CVE-2019-19650) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-19650.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-19650.svg)
+
+## CVE-2019-19649
+ Zoho ManageEngine Applications Manager before 13620 allows a remote unauthenticated SQL injection via the SyncEventServlet eventid parameter to the SyncEventServlet.java doGet function.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-19649](https://github.com/Live-Hack-CVE/CVE-2019-19649) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-19649.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-19649.svg)
+
+## CVE-2019-19648
+ In the macho_parse_file functionality in macho/macho.c of YARA 3.11.0, command_size may be inconsistent with the real size. A specially crafted MachO file can cause an out-of-bounds memory access, resulting in Denial of Service (application crash) or potential code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-19648](https://github.com/Live-Hack-CVE/CVE-2019-19648) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-19648.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-19648.svg)
 
 ## CVE-2019-19634
  class.upload.php in verot.net class.upload through 1.0.3 and 2.x through 2.0.4, as used in the K2 extension for Joomla! and other products, omits .pht from the set of dangerous file extensions, a similar issue to CVE-2019-19576.
@@ -3201,6 +3229,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2019-14494](https://github.com/Live-Hack-CVE/CVE-2019-14494) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-14494.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-14494.svg)
 
+## CVE-2019-14465
+ fmt_mtm_load_song in fmt/mtm.c in Schism Tracker 20190722 has a heap-based buffer overflow.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-14465](https://github.com/Live-Hack-CVE/CVE-2019-14465) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-14465.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-14465.svg)
+
 ## CVE-2019-14464
  XMFile::read in XMFile.cpp in milkyplay in MilkyTracker 1.02.00 has a heap-based buffer overflow.
 
@@ -3297,6 +3332,20 @@
 
 
 - [https://github.com/imthoe/CVE-2019-14314](https://github.com/imthoe/CVE-2019-14314) :  ![starts](https://img.shields.io/github/stars/imthoe/CVE-2019-14314.svg) ![forks](https://img.shields.io/github/forks/imthoe/CVE-2019-14314.svg)
+
+## CVE-2019-14302
+ On Ricoh SP C250DN 1.06 devices, a debug port can be used.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-14302](https://github.com/Live-Hack-CVE/CVE-2019-14302) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-14302.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-14302.svg)
+
+## CVE-2019-14301
+ Ricoh SP C250DN 1.06 devices have Incorrect Access Control (issue 1 of 2).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-14301](https://github.com/Live-Hack-CVE/CVE-2019-14301) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-14301.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-14301.svg)
 
 ## CVE-2019-14287
  In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can bypass certain policy blacklists and session PAM modules, and can cause incorrect logging, by invoking sudo with a crafted user ID. For example, this allows bypass of !root configuration, and USER= logging, for a &quot;sudo -u \#$((0xffffffff))&quot; command.
@@ -3460,6 +3509,13 @@
 - [https://github.com/ZwCreatePhoton/CVE-2019-5782_CVE-2019-13768](https://github.com/ZwCreatePhoton/CVE-2019-5782_CVE-2019-13768) :  ![starts](https://img.shields.io/github/stars/ZwCreatePhoton/CVE-2019-5782_CVE-2019-13768.svg) ![forks](https://img.shields.io/github/forks/ZwCreatePhoton/CVE-2019-5782_CVE-2019-13768.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2019-13768](https://github.com/Live-Hack-CVE/CVE-2019-13768) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13768.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13768.svg)
+
+## CVE-2019-13767
+ Use after free in media picker in Google Chrome prior to 79.0.3945.88 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-13767](https://github.com/Live-Hack-CVE/CVE-2019-13767) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13767.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13767.svg)
 
 ## CVE-2019-13764
  Type confusion in JavaScript in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
@@ -4951,6 +5007,13 @@
 
 - [https://github.com/qjh2333/CVE-2019-10999](https://github.com/qjh2333/CVE-2019-10999) :  ![starts](https://img.shields.io/github/stars/qjh2333/CVE-2019-10999.svg) ![forks](https://img.shields.io/github/forks/qjh2333/CVE-2019-10999.svg)
 
+## CVE-2019-10957
+ Geutebruck IP Cameras G-Code(EEC-2xxx), G-Cam(EBC-21xx/EFD-22xx/ETHC-22xx/EWPC-22xx): All versions 1.12.0.25 and prior may allow a remote authenticated attacker with access to event configuration to store malicious code on the server, which could later be triggered by a legitimate user resulting in code execution within the user&#8217;s browser.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-10957](https://github.com/Live-Hack-CVE/CVE-2019-10957) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-10957.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-10957.svg)
+
 ## CVE-2019-10936
  A vulnerability has been identified in Development/Evaluation Kits for PROFINET IO: DK Standard Ethernet Controller, Development/Evaluation Kits for PROFINET IO: EK-ERTEC 200, Development/Evaluation Kits for PROFINET IO: EK-ERTEC 200P, SIMATIC CFU PA, SIMATIC ET 200pro IM154-8 PN/DP CPU, SIMATIC ET 200pro IM154-8F PN/DP CPU, SIMATIC ET 200pro IM154-8FX PN/DP CPU, SIMATIC ET 200S IM151-8 PN/DP CPU, SIMATIC ET 200S IM151-8F PN/DP CPU, SIMATIC ET 200SP Open Controller CPU 1515SP PC (incl. SIPLUS variants), SIMATIC ET200AL, SIMATIC ET200ecoPN, 16DI, DC24V, 8xM12, SIMATIC ET200ecoPN, 16DO DC24V/1,3A, 8xM12, SIMATIC ET200ecoPN, 4AO U/I 4xM12, SIMATIC ET200ecoPN, 8 DIO, DC24V/1,3A, 8xM12, SIMATIC ET200ecoPN, 8 DO, DC24V/2A, 8xM12, SIMATIC ET200ecoPN, 8AI RTD/TC 8xM12, SIMATIC ET200ecoPN, 8AI; 4 U/I; 4 RTD/TC 8xM12, SIMATIC ET200ecoPN, 8DI, DC24V, 4xM12, SIMATIC ET200ecoPN, 8DI, DC24V, 8xM12, SIMATIC ET200ecoPN, 8DO, DC24V/0,5A, 4xM12, SIMATIC ET200ecoPN, 8DO, DC24V/1,3A, 4xM12, SIMATIC ET200ecoPN, 8DO, DC24V/1,3A, 8xM12, SIMATIC ET200ecoPN: IO-Link Master, SIMATIC ET200M (incl. SIPLUS variants), SIMATIC ET200MP IM155-5 PN BA (incl. SIPLUS variants), SIMATIC ET200MP IM155-5 PN HF (incl. SIPLUS variants), SIMATIC ET200MP IM155-5 PN ST (incl. SIPLUS variants), SIMATIC ET200pro, SIMATIC ET200S (incl. SIPLUS variants), SIMATIC ET200SP IM155-6 PN BA (incl. SIPLUS variants), SIMATIC ET200SP IM155-6 PN HA (incl. SIPLUS variants), SIMATIC ET200SP IM155-6 PN HF (incl. SIPLUS variants), SIMATIC ET200SP IM155-6 PN HS (incl. SIPLUS variants), SIMATIC ET200SP IM155-6 PN ST (incl. SIPLUS variants), SIMATIC ET200SP IM155-6 PN/2 HF (incl. SIPLUS variants), SIMATIC ET200SP IM155-6 PN/3 HF (incl. SIPLUS variants), SIMATIC HMI Comfort Outdoor Panels 7&quot; &amp; 15&quot; (incl. SIPLUS variants), SIMATIC HMI Comfort Panels 4&quot; - 22&quot; (incl. SIPLUS variants), SIMATIC HMI KTP Mobile Panels, SIMATIC PN/PN Coupler, SIMATIC PROFINET Driver, SIMATIC S7-1200 CPU family (incl. SIPLUS variants), SIMATIC S7-1500 CPU family (incl. related ET200 CPUs and SIPLUS variants), SIMATIC S7-1500 Software Controller, SIMATIC S7-300 CPU 314C-2 PN/DP, SIMATIC S7-300 CPU 315-2 PN/DP, SIMATIC S7-300 CPU 315F-2 PN/DP, SIMATIC S7-300 CPU 315T-3 PN/DP, SIMATIC S7-300 CPU 317-2 PN/DP, SIMATIC S7-300 CPU 317F-2 PN/DP, SIMATIC S7-300 CPU 317T-3 PN/DP, SIMATIC S7-300 CPU 317TF-3 PN/DP, SIMATIC S7-300 CPU 319-3 PN/DP, SIMATIC S7-300 CPU 319F-3 PN/DP, SIMATIC S7-400 H V6 CPU family (incl. SIPLUS variants), SIMATIC S7-400 PN/DP V6 and below CPU family (incl. SIPLUS variants), SIMATIC S7-400 PN/DP V7 CPU family (incl. SIPLUS variants), SIMATIC S7-410 V8 CPU family (incl. SIPLUS variants), SIMATIC TDC CP51M1, SIMATIC TDC CPU555, SIMATIC WinAC RTX 2010, SIMATIC WinAC RTX F 2010, SINAMICS DCM, SINAMICS DCP, SINAMICS G110M V4.7 PN Control Unit, SINAMICS G120 V4.7 PN Control Unit (incl. SIPLUS variants), SINAMICS G130 V4.7 Control Unit, SINAMICS G150 Control Unit, SINAMICS GH150 V4.7 Control Unit, SINAMICS GL150 V4.7 Control Unit, SINAMICS GM150 V4.7 Control Unit, SINAMICS S110 Control Unit, SINAMICS S120 V4.7 Control Unit (incl. SIPLUS variants), SINAMICS S150 Control Unit, SINAMICS SL150 V4.7 Control Unit, SINAMICS SM120 V4.7 Control Unit, SINUMERIK 828D, SINUMERIK 840D sl, SIPLUS ET 200S IM151-8 PN/DP CPU, SIPLUS ET 200S IM151-8F PN/DP CPU, SIPLUS NET PN/PN Coupler, SIPLUS S7-300 CPU 314C-2 PN/DP, SIPLUS S7-300 CPU 315-2 PN/DP, SIPLUS S7-300 CPU 315F-2 PN/DP, SIPLUS S7-300 CPU 317-2 PN/DP, SIPLUS S7-300 CPU 317F-2 PN/DP. Affected devices improperly handle large amounts of specially crafted UDP packets. This could allow an unauthenticated remote attacker to trigger a denial-of-service condition.
 
@@ -5403,11 +5466,11 @@
 
 - [https://github.com/KTN1990/CVE-2019-9978](https://github.com/KTN1990/CVE-2019-9978) :  ![starts](https://img.shields.io/github/stars/KTN1990/CVE-2019-9978.svg) ![forks](https://img.shields.io/github/forks/KTN1990/CVE-2019-9978.svg)
 
+- [https://github.com/caique-garbim/CVE-2019-9978_Exploit](https://github.com/caique-garbim/CVE-2019-9978_Exploit) :  ![starts](https://img.shields.io/github/stars/caique-garbim/CVE-2019-9978_Exploit.svg) ![forks](https://img.shields.io/github/forks/caique-garbim/CVE-2019-9978_Exploit.svg)
+
 - [https://github.com/cved-sources/cve-2019-9978](https://github.com/cved-sources/cve-2019-9978) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2019-9978.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2019-9978.svg)
 
 - [https://github.com/grimlockx/CVE-2019-9978](https://github.com/grimlockx/CVE-2019-9978) :  ![starts](https://img.shields.io/github/stars/grimlockx/CVE-2019-9978.svg) ![forks](https://img.shields.io/github/forks/grimlockx/CVE-2019-9978.svg)
-
-- [https://github.com/caique-garbim/CVE-2019-9978_Exploit](https://github.com/caique-garbim/CVE-2019-9978_Exploit) :  ![starts](https://img.shields.io/github/stars/caique-garbim/CVE-2019-9978_Exploit.svg) ![forks](https://img.shields.io/github/forks/caique-garbim/CVE-2019-9978_Exploit.svg)
 
 ## CVE-2019-9959
  The JPXStream::init function in Poppler 0.78.0 and earlier doesn't check for negative values of stream length, leading to an Integer Overflow, thereby making it possible to allocate a large memory chunk on the heap, with a size controlled by an attacker, as demonstrated by pdftocairo.
@@ -5422,6 +5485,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2019-9921](https://github.com/Live-Hack-CVE/CVE-2019-9921) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-9921.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-9921.svg)
+
+## CVE-2019-9904
+ An issue was discovered in lib\cdt\dttree.c in libcdt.a in graphviz 2.40.1. Stack consumption occurs because of recursive agclose calls in lib\cgraph\graph.c in libcgraph.a, related to agfstsubg in lib\cgraph\subg.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-9904](https://github.com/Live-Hack-CVE/CVE-2019-9904) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-9904.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-9904.svg)
 
 ## CVE-2019-9903
  PDFDoc::markObject in PDFDoc.cc in Poppler 0.74.0 mishandles dict marking, leading to stack consumption in the function Dict::find() located at Dict.cc, which can (for example) be triggered by passing a crafted pdf file to the pdfunite binary.
@@ -5813,6 +5883,8 @@
 - [https://github.com/b4keSn4ke/CVE-2019-9193](https://github.com/b4keSn4ke/CVE-2019-9193) :  ![starts](https://img.shields.io/github/stars/b4keSn4ke/CVE-2019-9193.svg) ![forks](https://img.shields.io/github/forks/b4keSn4ke/CVE-2019-9193.svg)
 
 - [https://github.com/wkjung0624/cve-2019-9193](https://github.com/wkjung0624/cve-2019-9193) :  ![starts](https://img.shields.io/github/stars/wkjung0624/cve-2019-9193.svg) ![forks](https://img.shields.io/github/forks/wkjung0624/cve-2019-9193.svg)
+
+- [https://github.com/paulotrindadec/CVE-2019-9193](https://github.com/paulotrindadec/CVE-2019-9193) :  ![starts](https://img.shields.io/github/stars/paulotrindadec/CVE-2019-9193.svg) ![forks](https://img.shields.io/github/forks/paulotrindadec/CVE-2019-9193.svg)
 
 - [https://github.com/chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7](https://github.com/chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7) :  ![starts](https://img.shields.io/github/stars/chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7.svg) ![forks](https://img.shields.io/github/forks/chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7.svg)
 
@@ -6393,13 +6465,13 @@
 
 - [https://github.com/hekadan/CVE-2019-7609](https://github.com/hekadan/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/hekadan/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/hekadan/CVE-2019-7609.svg)
 
+- [https://github.com/Cr4ckC4t/cve-2019-7609](https://github.com/Cr4ckC4t/cve-2019-7609) :  ![starts](https://img.shields.io/github/stars/Cr4ckC4t/cve-2019-7609.svg) ![forks](https://img.shields.io/github/forks/Cr4ckC4t/cve-2019-7609.svg)
+
 - [https://github.com/rhbb/CVE-2019-7609](https://github.com/rhbb/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/rhbb/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/rhbb/CVE-2019-7609.svg)
 
 - [https://github.com/wolf1892/CVE-2019-7609](https://github.com/wolf1892/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/wolf1892/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/wolf1892/CVE-2019-7609.svg)
 
 - [https://github.com/dnr6419/CVE-2019-7609](https://github.com/dnr6419/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/dnr6419/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/dnr6419/CVE-2019-7609.svg)
-
-- [https://github.com/Cr4ckC4t/cve-2019-7609](https://github.com/Cr4ckC4t/cve-2019-7609) :  ![starts](https://img.shields.io/github/stars/Cr4ckC4t/cve-2019-7609.svg) ![forks](https://img.shields.io/github/forks/Cr4ckC4t/cve-2019-7609.svg)
 
 ## CVE-2019-7489
  A vulnerability in SonicWall Email Security appliance allow an unauthenticated user to perform remote code execution. This vulnerability affected Email Security Appliance version 10.0.2 and earlier.
@@ -6752,6 +6824,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2019-7061](https://github.com/Live-Hack-CVE/CVE-2019-7061) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7061.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7061.svg)
+
+## CVE-2019-7004
+ A Cross-Site Scripting (XSS) vulnerability in the WebUI component of IP Office Application Server could allow unauthorized code execution and potentially disclose sensitive information. All product versions 11.x are affected. Product versions prior to 11.0, including unsupported versions, were not evaluated.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7004](https://github.com/Live-Hack-CVE/CVE-2019-7004) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7004.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7004.svg)
 
 ## CVE-2019-6977
  gdImageColorMatch in gd_color_match.c in the GD Graphics Library (aka LibGD) 2.2.5, as used in the imagecolormatch function in PHP before 5.6.40, 7.x before 7.1.26, 7.2.x before 7.2.14, and 7.3.x before 7.3.1, has a heap-based buffer overflow. This can be exploited by an attacker who is able to trigger imagecolormatch calls with crafted image data.
@@ -7893,9 +7972,9 @@
 
 - [https://github.com/milloni/cve-2019-5736-exp](https://github.com/milloni/cve-2019-5736-exp) :  ![starts](https://img.shields.io/github/stars/milloni/cve-2019-5736-exp.svg) ![forks](https://img.shields.io/github/forks/milloni/cve-2019-5736-exp.svg)
 
-- [https://github.com/b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736) :  ![starts](https://img.shields.io/github/stars/b3d3c/poc-cve-2019-5736.svg) ![forks](https://img.shields.io/github/forks/b3d3c/poc-cve-2019-5736.svg)
-
 - [https://github.com/likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2019-5736.svg)
+
+- [https://github.com/b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736) :  ![starts](https://img.shields.io/github/stars/b3d3c/poc-cve-2019-5736.svg) ![forks](https://img.shields.io/github/forks/b3d3c/poc-cve-2019-5736.svg)
 
 - [https://github.com/GiverOfGifts/CVE-2019-5736-Custom-Runtime](https://github.com/GiverOfGifts/CVE-2019-5736-Custom-Runtime) :  ![starts](https://img.shields.io/github/stars/GiverOfGifts/CVE-2019-5736-Custom-Runtime.svg) ![forks](https://img.shields.io/github/forks/GiverOfGifts/CVE-2019-5736-Custom-Runtime.svg)
 
@@ -8144,9 +8223,9 @@
 
 - [https://github.com/trickstersec/CVE-2019-5420](https://github.com/trickstersec/CVE-2019-5420) :  ![starts](https://img.shields.io/github/stars/trickstersec/CVE-2019-5420.svg) ![forks](https://img.shields.io/github/forks/trickstersec/CVE-2019-5420.svg)
 
-- [https://github.com/Eremiel/CVE-2019-5420](https://github.com/Eremiel/CVE-2019-5420) :  ![starts](https://img.shields.io/github/stars/Eremiel/CVE-2019-5420.svg) ![forks](https://img.shields.io/github/forks/Eremiel/CVE-2019-5420.svg)
-
 - [https://github.com/PenTestical/CVE-2019-5420](https://github.com/PenTestical/CVE-2019-5420) :  ![starts](https://img.shields.io/github/stars/PenTestical/CVE-2019-5420.svg) ![forks](https://img.shields.io/github/forks/PenTestical/CVE-2019-5420.svg)
+
+- [https://github.com/Eremiel/CVE-2019-5420](https://github.com/Eremiel/CVE-2019-5420) :  ![starts](https://img.shields.io/github/stars/Eremiel/CVE-2019-5420.svg) ![forks](https://img.shields.io/github/forks/Eremiel/CVE-2019-5420.svg)
 
 - [https://github.com/AnasTaoutaou/CVE-2019-5420](https://github.com/AnasTaoutaou/CVE-2019-5420) :  ![starts](https://img.shields.io/github/stars/AnasTaoutaou/CVE-2019-5420.svg) ![forks](https://img.shields.io/github/forks/AnasTaoutaou/CVE-2019-5420.svg)
 
@@ -8261,6 +8340,13 @@
 
 
 - [https://github.com/wucj001/cve-2019-48814](https://github.com/wucj001/cve-2019-48814) :  ![starts](https://img.shields.io/github/stars/wucj001/cve-2019-48814.svg) ![forks](https://img.shields.io/github/forks/wucj001/cve-2019-48814.svg)
+
+## CVE-2019-4716
+ IBM Planning Analytics 2.0.0 through 2.0.8 is vulnerable to a configuration overwrite that allows an unauthenticated user to login as &quot;admin&quot;, and then execute code as root or SYSTEM via TM1 scripting. IBM X-Force ID: 172094.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-4716](https://github.com/Live-Hack-CVE/CVE-2019-4716) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-4716.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-4716.svg)
 
 ## CVE-2019-4571
  IBM Content Navigator 3.0CD is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 166721.
@@ -10197,6 +10283,13 @@
 
 - [https://github.com/S3ntinelX/nmap-scripts](https://github.com/S3ntinelX/nmap-scripts) :  ![starts](https://img.shields.io/github/stars/S3ntinelX/nmap-scripts.svg) ![forks](https://img.shields.io/github/forks/S3ntinelX/nmap-scripts.svg)
 
+## CVE-2019-1652
+ A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an authenticated, remote attacker with administrative privileges on an affected device to execute arbitrary commands. The vulnerability is due to improper validation of user-supplied input. An attacker could exploit this vulnerability by sending malicious HTTP POST requests to the web-based management interface of an affected device. A successful exploit could allow the attacker to execute arbitrary commands on the underlying Linux shell as root. Cisco has released firmware updates that address this vulnerability.
+
+
+
+- [https://github.com/0x27/CiscoRV320Dump](https://github.com/0x27/CiscoRV320Dump) :  ![starts](https://img.shields.io/github/stars/0x27/CiscoRV320Dump.svg) ![forks](https://img.shields.io/github/forks/0x27/CiscoRV320Dump.svg)
+
 ## CVE-2019-1649
  A vulnerability in the logic that handles access control to one of the hardware components in Cisco's proprietary Secure Boot implementation could allow an authenticated, local attacker to write a modified firmware image to the component. This vulnerability affects multiple Cisco products that support hardware-based Secure Boot functionality. The vulnerability is due to an improper check on the area of code that manages on-premise updates to a Field Programmable Gate Array (FPGA) part of the Secure Boot hardware implementation. An attacker with elevated privileges and access to the underlying operating system that is running on the affected device could exploit this vulnerability by writing a modified firmware image to the FPGA. A successful exploit could either cause the device to become unusable (and require a hardware replacement) or allow tampering with the Secure Boot verification process, which under some circumstances may allow the attacker to install and boot a malicious software image. An attacker will need to fulfill all the following conditions to attempt to exploit this vulnerability: Have privileged administrative access to the device. Be able to access the underlying operating system running on the device; this can be achieved either by using a supported, documented mechanism or by exploiting another vulnerability that would provide an attacker with such access. Develop or have access to a platform-specific exploit. An attacker attempting to exploit this vulnerability across multiple affected platforms would need to research each one of those platforms and then develop a platform-specific exploit. Although the research process could be reused across different platforms, an exploit developed for a given hardware platform is unlikely to work on a different hardware platform.
 
@@ -10772,13 +10865,13 @@
 
 - [https://github.com/303sec/CVE-2019-0708](https://github.com/303sec/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/303sec/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/303sec/CVE-2019-0708.svg)
 
-- [https://github.com/distance-vector/CVE-2019-0708](https://github.com/distance-vector/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/distance-vector/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/distance-vector/CVE-2019-0708.svg)
-
 - [https://github.com/1aa87148377/CVE-2019-0708](https://github.com/1aa87148377/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/1aa87148377/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/1aa87148377/CVE-2019-0708.svg)
 
 - [https://github.com/gildaaa/CVE-2019-0708](https://github.com/gildaaa/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/gildaaa/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/gildaaa/CVE-2019-0708.svg)
 
 - [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
+
+- [https://github.com/distance-vector/CVE-2019-0708](https://github.com/distance-vector/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/distance-vector/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/distance-vector/CVE-2019-0708.svg)
 
 - [https://github.com/JasonLOU/CVE-2019-0708](https://github.com/JasonLOU/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/JasonLOU/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/JasonLOU/CVE-2019-0708.svg)
 
