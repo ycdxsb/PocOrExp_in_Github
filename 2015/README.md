@@ -1352,6 +1352,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-3288](https://github.com/Live-Hack-CVE/CVE-2015-3288) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3288.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3288.svg)
 
+## CVE-2015-3248
+ It was found that the &quot;/var/lib/openhpi&quot; directory provided by OpenHPI used world-writeable and world-readable permissions. A local user could use this flaw to view, modify, and delete OpenHPI-related data, or even fill up the storage device hosting the /var/lib directory.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-3248](https://github.com/Live-Hack-CVE/CVE-2015-3248) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3248.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3248.svg)
+
+## CVE-2015-3247
+ A race condition flaw, leading to a heap-based memory corruption, was found in spice's worker_update_monitors_config() function, which runs under the QEMU-KVM context on the host. A user in a guest could leverage this flaw to crash the host QEMU-KVM process or, possibly, execute arbitrary code with the privileges of the host QEMU-KVM process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-3247](https://github.com/Live-Hack-CVE/CVE-2015-3247) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3247.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3247.svg)
+
 ## CVE-2015-3224
  request.rb in Web Console before 2.1.3, as used with Ruby on Rails 3.x and 4.x, does not properly restrict the use of X-Forwarded-For headers in determining a client's IP address, which allows remote attackers to bypass the whitelisted_ips protection mechanism via a crafted request.
 
@@ -1630,7 +1644,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2015-1790](https://github.com/Live-Hack-CVE/CVE-2015-1790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1790.svg)
 
 ## CVE-2015-1789
- The X509_cmp_time function in crypto/x509/x509_vfy.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b allows remote attackers to cause a denial of service (out-of-bounds read and application crash) via a crafted length field in ASN1_TIME data, as demonstrated by an attack against a server that supports client authentication with a custom verification callback.
+ An out-of-bounds read flaw was found in the X509_cmp_time() function of OpenSSL, which is used to test the expiry dates of SSL/TLS certificates. An attacker could possibly use a specially crafted SSL/TLS certificate or CRL (Certificate Revocation List), which when parsed by an application would cause that application to crash.
 
 
 
