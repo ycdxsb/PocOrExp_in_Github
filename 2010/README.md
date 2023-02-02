@@ -160,14 +160,14 @@
 - [https://github.com/redhatkaty/-cve-2010-3904-report](https://github.com/redhatkaty/-cve-2010-3904-report) :  ![starts](https://img.shields.io/github/stars/redhatkaty/-cve-2010-3904-report.svg) ![forks](https://img.shields.io/github/forks/redhatkaty/-cve-2010-3904-report.svg)
 
 ## CVE-2010-3847
- elf/dl-load.c in ld.so in the GNU C Library (aka glibc or libc6) through 2.11.2, and 2.12.x through 2.12.1, does not properly handle a value of $ORIGIN for the LD_AUDIT environment variable, which allows local users to gain privileges via a crafted dynamic shared object (DSO) located in an arbitrary directory.
+ CVE-2010-3847 glibc: ld.so insecure handling of $ORIGIN in LD_AUDIT for setuid/setgid programs
 
 
 
 - [https://github.com/magisterquis/cve-2010-3847](https://github.com/magisterquis/cve-2010-3847) :  ![starts](https://img.shields.io/github/stars/magisterquis/cve-2010-3847.svg) ![forks](https://img.shields.io/github/forks/magisterquis/cve-2010-3847.svg)
 
 ## CVE-2010-3709
- The ZipArchive::getArchiveComment function in PHP 5.2.x through 5.2.14 and 5.3.x through 5.3.3 allows context-dependent attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted ZIP archive.
+ CVE-2010-3709 php: NULL pointer dereference in ZipArchive::getArchiveComment
 
 
 
@@ -188,7 +188,7 @@
 - [https://github.com/moayadalmalat/CVE-2010-3490](https://github.com/moayadalmalat/CVE-2010-3490) :  ![starts](https://img.shields.io/github/stars/moayadalmalat/CVE-2010-3490.svg) ![forks](https://img.shields.io/github/forks/moayadalmalat/CVE-2010-3490.svg)
 
 ## CVE-2010-3437
- Integer signedness error in the pkt_find_dev_from_minor function in drivers/block/pktcdvd.c in the Linux kernel before 2.6.36-rc6 allows local users to obtain sensitive information from kernel memory or cause a denial of service (invalid pointer dereference and system crash) via a crafted index value in a PKT_CTRL_CMD_STATUS ioctl call.
+ CVE-2010-3437 kernel: pktcdvd ioctl dev_minor missing range check
 
 
 
@@ -218,14 +218,14 @@
 - [https://github.com/bongbongco/MS10-070](https://github.com/bongbongco/MS10-070) :  ![starts](https://img.shields.io/github/stars/bongbongco/MS10-070.svg) ![forks](https://img.shields.io/github/forks/bongbongco/MS10-070.svg)
 
 ## CVE-2010-3301
- The IA32 system call emulation functionality in arch/x86/ia32/ia32entry.S in the Linux kernel before 2.6.36-rc4-git2 on the x86_64 platform does not zero extend the %eax register after the 32-bit entry path to ptrace is used, which allows local users to gain privileges by triggering an out-of-bounds access to the system call table using the %rax register.  NOTE: this vulnerability exists because of a CVE-2007-4573 regression.
+ CVE-2010-3301 kernel: IA32 System Call Entry Point Vulnerability
 
 
 
 - [https://github.com/n0lann/CVE2010-3301_compiled](https://github.com/n0lann/CVE2010-3301_compiled) :  ![starts](https://img.shields.io/github/stars/n0lann/CVE2010-3301_compiled.svg) ![forks](https://img.shields.io/github/forks/n0lann/CVE2010-3301_compiled.svg)
 
 ## CVE-2010-3069
- Stack-based buffer overflow in the (1) sid_parse and (2) dom_sid_parse functions in Samba before 3.5.5 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a crafted Windows Security ID (SID) on a file share.
+ CVE-2010-3069 Samba: Stack-based buffer overflow by processing specially-crafted SID records
 
 
 
@@ -246,7 +246,7 @@
 - [https://github.com/Sunqiz/cve-2010-2553-reproduction](https://github.com/Sunqiz/cve-2010-2553-reproduction) :  ![starts](https://img.shields.io/github/stars/Sunqiz/cve-2010-2553-reproduction.svg) ![forks](https://img.shields.io/github/forks/Sunqiz/cve-2010-2553-reproduction.svg)
 
 ## CVE-2010-2531
- The var_export function in PHP 5.2 before 5.2.14 and 5.3 before 5.3.3 flushes the output buffer to the user when certain fatal errors occur, even if display_errors is off, which allows remote attackers to obtain sensitive information by causing the application to exceed limits for memory, execution time, or recursion.
+ CVE-2010-2531 php: information leak vulnerability in var_export()
 
 
 
@@ -283,7 +283,7 @@
 - [https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE) :  ![starts](https://img.shields.io/github/stars/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg) ![forks](https://img.shields.io/github/forks/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg)
 
 ## CVE-2010-2063
- Buffer overflow in the SMB1 packet chaining implementation in the chain_reply function in process.c in smbd in Samba 3.0.x before 3.3.13 allows remote attackers to cause a denial of service (memory corruption and daemon crash) or possibly execute arbitrary code via a crafted field in a packet.
+ CVE-2010-2063 samba: memory corruption vulnerability
 
 
 
@@ -297,7 +297,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2010-1717](https://github.com/Live-Hack-CVE/CVE-2010-1717) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-1717.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-1717.svg)
 
 ## CVE-2010-1622
- SpringSource Spring Framework 2.5.x before 2.5.6.SEC02, 2.5.7 before 2.5.7.SR01, and 3.0.x before 3.0.3 allows remote attackers to execute arbitrary code via an HTTP request containing class.classLoader.URLs[0]=jar: followed by a URL of a crafted .jar file.
+ CVE-2010-1622 SpringSource Spring Framework (x &lt; 2.5.6.SEC02, 2.5.7.SR01, 3.0.3): Arbitrary Java code execution via an HTTP request containing a specially-crafted .jar file
 
 
 
@@ -361,7 +361,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2010-0986](https://github.com/Live-Hack-CVE/CVE-2010-0986) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0986.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0986.svg)
 
 ## CVE-2010-0738
- The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to send requests to this application's GET handler by using a different method.
+ CVE-2010-0738 JBoss EAP jmx authentication bypass with crafted HTTP request
 
 
 
@@ -370,14 +370,14 @@
 - [https://github.com/gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn) :  ![starts](https://img.shields.io/github/stars/gitcollect/jboss-autopwn.svg) ![forks](https://img.shields.io/github/forks/gitcollect/jboss-autopwn.svg)
 
 ## CVE-2010-0434
- The ap_read_request function in server/protocol.c in the Apache HTTP Server 2.2.x before 2.2.15, when a multithreaded MPM is used, does not properly handle headers in subrequests in certain circumstances involving a parent request that has a body, which might allow remote attackers to obtain sensitive information via a crafted request that triggers access to memory locations associated with an earlier request.
+ CVE-2010-0434 httpd: request header information leak
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2010-0434](https://github.com/Live-Hack-CVE/CVE-2010-0434) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0434.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0434.svg)
 
 ## CVE-2010-0426
- sudo 1.6.x before 1.6.9p21 and 1.7.x before 1.7.2p4, when a pseudo-command is enabled, permits a match between the name of the pseudo-command and the name of an executable file in an arbitrary directory, which allows local users to gain privileges via a crafted executable file, as demonstrated by a file named sudoedit in a user's home directory.
+ CVE-2010-0426 sudo: sudoedit option can possibly allow for arbitrary code execution
 
 
 
