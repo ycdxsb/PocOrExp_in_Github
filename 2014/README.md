@@ -522,9 +522,9 @@
 
 - [https://github.com/MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC) :  ![starts](https://img.shields.io/github/stars/MazX0p/CVE-2014-8609-POC.svg) ![forks](https://img.shields.io/github/forks/MazX0p/CVE-2014-8609-POC.svg)
 
-- [https://github.com/ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit) :  ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2014-8609-exploit.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2014-8609-exploit.svg)
-
 - [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) :  ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
+
+- [https://github.com/ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit) :  ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2014-8609-exploit.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2014-8609-exploit.svg)
 
 ## CVE-2014-8312
  Business Warehouse (BW) in SAP Netweaver AS ABAP 7.31 allows remote authenticated users to obtain sensitive information via a request to the RSDU_CCMS_GET_PROFILE_PARAM RFC function.
@@ -541,7 +541,7 @@
 - [https://github.com/JollyJumbuckk/LinksysLeaks](https://github.com/JollyJumbuckk/LinksysLeaks) :  ![starts](https://img.shields.io/github/stars/JollyJumbuckk/LinksysLeaks.svg) ![forks](https://img.shields.io/github/forks/JollyJumbuckk/LinksysLeaks.svg)
 
 ## CVE-2014-8176
- The dtls1_clear_queues function in ssl/d1_lib.c in OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h frees data structures without considering that application data can arrive between a ChangeCipherSpec message and a Finished message, which allows remote DTLS peers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact via unexpected application data.
+ An invalid-free flaw was found in the way OpenSSL handled certain DTLS handshake messages. A malicious DTLS client or server could send a specially crafted message to the peer, which could cause the application to crash or potentially result in arbitrary code execution.
 
 
 
@@ -943,9 +943,9 @@
 
 - [https://github.com/teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit) :  ![starts](https://img.shields.io/github/stars/teedeedubya/bash-fix-exploit.svg) ![forks](https://img.shields.io/github/forks/teedeedubya/bash-fix-exploit.svg)
 
-- [https://github.com/justzx2011/bash-up](https://github.com/justzx2011/bash-up) :  ![starts](https://img.shields.io/github/stars/justzx2011/bash-up.svg) ![forks](https://img.shields.io/github/forks/justzx2011/bash-up.svg)
-
 - [https://github.com/ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3) :  ![starts](https://img.shields.io/github/stars/ryancnelson/patched-bash-4.3.svg) ![forks](https://img.shields.io/github/forks/ryancnelson/patched-bash-4.3.svg)
+
+- [https://github.com/justzx2011/bash-up](https://github.com/justzx2011/bash-up) :  ![starts](https://img.shields.io/github/stars/justzx2011/bash-up.svg) ![forks](https://img.shields.io/github/forks/justzx2011/bash-up.svg)
 
 - [https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271](https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/internero/debian-lenny-bash_3.2.52-cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/internero/debian-lenny-bash_3.2.52-cve-2014-6271.svg)
 
@@ -1255,7 +1255,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2014-3581](https://github.com/Live-Hack-CVE/CVE-2014-3581) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3581.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3581.svg)
 
 ## CVE-2014-3566
- The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other products, uses nondeterministic CBC padding, which makes it easier for man-in-the-middle attackers to obtain cleartext data via a padding-oracle attack, aka the &quot;POODLE&quot; issue.
+ A flaw was found in the way SSL 3.0 handled padding bytes when decrypting messages encrypted using block ciphers in cipher block chaining (CBC) mode. This flaw allows a man-in-the-middle (MITM) attacker to decrypt a selected byte of a cipher text in as few as 256 tries if they are able to force a victim application to repeatedly send the same data over newly created SSL 3.0 connections.
 
 
 
@@ -1284,21 +1284,21 @@
 - [https://github.com/Live-Hack-CVE/CVE-2014-3538](https://github.com/Live-Hack-CVE/CVE-2014-3538) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3538.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3538.svg)
 
 ## CVE-2014-3487
- The cdf_read_property_info function in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, does not properly validate a stream offset, which allows remote attackers to cause a denial of service (application crash) via a crafted CDF file.
+ A denial of service flaw was found in the way the File Information (fileinfo) extension parsed certain Composite Document Format (CDF) files. A remote attacker could use this flaw to crash a PHP application using fileinfo via a specially crafted CDF file.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-3487](https://github.com/Live-Hack-CVE/CVE-2014-3487) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3487.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3487.svg)
 
 ## CVE-2014-3480
- The cdf_count_chain function in cdf.c in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, does not properly validate sector-count data, which allows remote attackers to cause a denial of service (application crash) via a crafted CDF file.
+ A denial of service flaw was found in the way the File Information (fileinfo) extension parsed certain Composite Document Format (CDF) files. A remote attacker could use this flaw to crash a PHP application using fileinfo via a specially crafted CDF file.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-3480](https://github.com/Live-Hack-CVE/CVE-2014-3480) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-3480.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-3480.svg)
 
 ## CVE-2014-3479
- The cdf_check_stream_offset function in cdf.c in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, relies on incorrect sector-size data, which allows remote attackers to cause a denial of service (application crash) via a crafted stream offset in a CDF file.
+ A denial of service flaw was found in the way the File Information (fileinfo) extension parsed certain Composite Document Format (CDF) files. A remote attacker could use this flaw to crash a PHP application using fileinfo via a specially crafted CDF file.
 
 
 
@@ -1823,7 +1823,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2014-0221](https://github.com/Live-Hack-CVE/CVE-2014-0221) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0221.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0221.svg)
 
 ## CVE-2014-0207
- The cdf_read_short_sector function in cdf.c in file before 5.19, as used in the Fileinfo component in PHP before 5.4.30 and 5.5.x before 5.5.14, allows remote attackers to cause a denial of service (assertion failure and application exit) via a crafted CDF file.
+ A denial of service flaw was found in the way the File Information (fileinfo) extension parsed certain Composite Document Format (CDF) files. A remote attacker could use this flaw to crash a PHP application using fileinfo via a specially crafted CDF file.
 
 
 
@@ -1837,7 +1837,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2014-0198](https://github.com/Live-Hack-CVE/CVE-2014-0198) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0198.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0198.svg)
 
 ## CVE-2014-0196
- The n_tty_write function in drivers/tty/n_tty.c in the Linux kernel through 3.14.3 does not properly manage tty driver access in the &quot;LECHO &amp; !OPOST&quot; case, which allows local users to cause a denial of service (memory corruption and system crash) or gain privileges by triggering a race condition involving read and write operations with long strings.
+ CVE-2014-0196 kernel: pty layer race condition leading to memory corruption
 
 
 
@@ -1949,9 +1949,9 @@
 
 - [https://github.com/a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test) :  ![starts](https://img.shields.io/github/stars/a0726h77/heartbleed-test.svg) ![forks](https://img.shields.io/github/forks/a0726h77/heartbleed-test.svg)
 
-- [https://github.com/ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/ice-security88/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/ice-security88/CVE-2014-0160.svg)
-
 - [https://github.com/fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/fb1h2s/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/fb1h2s/CVE-2014-0160.svg)
+
+- [https://github.com/ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/ice-security88/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/ice-security88/CVE-2014-0160.svg)
 
 - [https://github.com/obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner) :  ![starts](https://img.shields.io/github/stars/obayesshelton/CVE-2014-0160-Scanner.svg) ![forks](https://img.shields.io/github/forks/obayesshelton/CVE-2014-0160-Scanner.svg)
 
@@ -1963,9 +1963,9 @@
 
 - [https://github.com/siddolo/knockbleed](https://github.com/siddolo/knockbleed) :  ![starts](https://img.shields.io/github/stars/siddolo/knockbleed.svg) ![forks](https://img.shields.io/github/forks/siddolo/knockbleed.svg)
 
-- [https://github.com/iwaffles/heartbleed-test.crx](https://github.com/iwaffles/heartbleed-test.crx) :  ![starts](https://img.shields.io/github/stars/iwaffles/heartbleed-test.crx.svg) ![forks](https://img.shields.io/github/forks/iwaffles/heartbleed-test.crx.svg)
-
 - [https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS) :  ![starts](https://img.shields.io/github/stars/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg) ![forks](https://img.shields.io/github/forks/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg)
+
+- [https://github.com/iwaffles/heartbleed-test.crx](https://github.com/iwaffles/heartbleed-test.crx) :  ![starts](https://img.shields.io/github/stars/iwaffles/heartbleed-test.crx.svg) ![forks](https://img.shields.io/github/forks/iwaffles/heartbleed-test.crx.svg)
 
 - [https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed](https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed) :  ![starts](https://img.shields.io/github/stars/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg)
 
@@ -1994,28 +1994,28 @@
 - [https://github.com/xanas/heartbleed.py](https://github.com/xanas/heartbleed.py) :  ![starts](https://img.shields.io/github/stars/xanas/heartbleed.py.svg) ![forks](https://img.shields.io/github/forks/xanas/heartbleed.py.svg)
 
 ## CVE-2014-0148
- Qemu before 2.0 block driver for Hyper-V VHDX Images is vulnerable to infinite loops and other potential issues when calculating BAT entries, due to missing bounds checks for block_size and logical_sector_size variables. These are used to derive other fields like 'sectors_per_block' etc. A user able to alter the Qemu disk image could ise this flaw to crash the Qemu instance resulting in DoS.
+ CVE-2014-0148 Qemu: vhdx: bounds checking for block_size and logical_sector_size
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-0148](https://github.com/Live-Hack-CVE/CVE-2014-0148) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0148.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0148.svg)
 
 ## CVE-2014-0147
- Qemu before 1.6.2 block diver for the various disk image formats used by Bochs and for the QCOW version 2 format, are vulnerable to a possible crash caused by signed data types or a logic error while creating QCOW2 snapshots, which leads to incorrectly calling update_refcount() routine.
+ CVE-2014-0147 Qemu: block: possible crash due signed types or logic error
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-0147](https://github.com/Live-Hack-CVE/CVE-2014-0147) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0147.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0147.svg)
 
 ## CVE-2014-0144
- QEMU before 2.0.0 block drivers for CLOOP, QCOW2 version 2 and various other image formats are vulnerable to potential memory corruptions, integer/buffer overflows or crash caused by missing input validations which could allow a remote user to execute arbitrary code on the host with the privileges of the QEMU process.
+ CVE-2014-0144 Qemu: block: missing input validation
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2014-0144](https://github.com/Live-Hack-CVE/CVE-2014-0144) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2014-0144.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2014-0144.svg)
 
 ## CVE-2014-0130
- Directory traversal vulnerability in actionpack/lib/abstract_controller/base.rb in the implicit-render implementation in Ruby on Rails before 3.2.18, 4.0.x before 4.0.5, and 4.1.x before 4.1.1, when certain route globbing configurations are enabled, allows remote attackers to read arbitrary files via a crafted request.
+ A directory traversal flaw was found in the way Ruby on Rails handled wildcard segments in routes with implicit rendering. A remote attacker could use this flaw to retrieve arbitrary local files accessible to a Ruby on Rails application using the aforementioned routes via a specially crafted request.
 
 
 
