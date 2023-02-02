@@ -89,7 +89,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2009-3732](https://github.com/Live-Hack-CVE/CVE-2009-3732) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3732.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3732.svg)
 
 ## CVE-2009-3555
- The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a &quot;plaintext injection&quot; attack, aka the &quot;Project Mogul&quot; issue.
+ CVE-2009-3555 TLS: MITM attacks via session renegotiation
 
 
 
@@ -145,7 +145,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2009-2948](https://github.com/Live-Hack-CVE/CVE-2009-2948) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-2948.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-2948.svg)
 
 ## CVE-2009-2906
- smbd in Samba 3.0 before 3.0.37, 3.2 before 3.2.15, 3.3 before 3.3.8, and 3.4 before 3.4.2 allows remote authenticated users to cause a denial of service (infinite loop) via an unanticipated oplock break notification reply packet.
+ CVE-2009-2906 samba: infinite loop flaw in smbd on unexpected oplock break notification reply
 
 
 
@@ -207,21 +207,21 @@
 - [https://github.com/NZKoz/bigdecimal-segfault-fix](https://github.com/NZKoz/bigdecimal-segfault-fix) :  ![starts](https://img.shields.io/github/stars/NZKoz/bigdecimal-segfault-fix.svg) ![forks](https://img.shields.io/github/forks/NZKoz/bigdecimal-segfault-fix.svg)
 
 ## CVE-2009-1891
- The mod_deflate module in Apache httpd 2.2.11 and earlier compresses large files until completion even after the associated network connection is closed, which allows remote attackers to cause a denial of service (CPU consumption).
+ CVE-2009-1891 httpd: possible temporary DoS (CPU consumption) in mod_deflate
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2009-1891](https://github.com/Live-Hack-CVE/CVE-2009-1891) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1891.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1891.svg)
 
 ## CVE-2009-1890
- The stream_reqbody_cl function in mod_proxy_http.c in the mod_proxy module in the Apache HTTP Server before 2.3.3, when a reverse proxy is configured, does not properly handle an amount of streamed data that exceeds the Content-Length value, which allows remote attackers to cause a denial of service (CPU consumption) via crafted requests.
+ CVE-2009-1890 httpd: mod_proxy reverse proxy DoS (infinite loop)
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2009-1890](https://github.com/Live-Hack-CVE/CVE-2009-1890) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1890.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1890.svg)
 
 ## CVE-2009-1888
- The acl_group_override function in smbd/posix_acls.c in smbd in Samba 3.0.x before 3.0.35, 3.1.x and 3.2.x before 3.2.13, and 3.3.x before 3.3.6, when dos filemode is enabled, allows remote attackers to modify access control lists for files via vectors related to read access to uninitialized memory.
+ CVE-2009-1888 Samba improper file access
 
 
 
@@ -260,7 +260,7 @@
 - [https://github.com/piotrbania/vmware_exploit_pack_CVE-2009-1244](https://github.com/piotrbania/vmware_exploit_pack_CVE-2009-1244) :  ![starts](https://img.shields.io/github/stars/piotrbania/vmware_exploit_pack_CVE-2009-1244.svg) ![forks](https://img.shields.io/github/forks/piotrbania/vmware_exploit_pack_CVE-2009-1244.svg)
 
 ## CVE-2009-1191
- mod_proxy_ajp.c in the mod_proxy_ajp module in the Apache HTTP Server 2.2.11 allows remote attackers to obtain sensitive response data, intended for a client that sent an earlier POST request with no request body, via an HTTP request.
+ CVE-2009-1191 httpd mod_proxy_ajp information disclosure
 
 
 
@@ -302,7 +302,7 @@
 - [https://github.com/Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax) :  ![starts](https://img.shields.io/github/stars/Fullmetal5/str2hax.svg) ![forks](https://img.shields.io/github/forks/Fullmetal5/str2hax.svg)
 
 ## CVE-2009-0586
- Integer overflow in the gst_vorbis_tag_add_coverart function (gst-libs/gst/tag/gstvorbistag.c) in vorbistag in gst-plugins-base (aka gstreamer-plugins-base) before 0.10.23 in GStreamer allows context-dependent attackers to execute arbitrary code via a crafted COVERART tag that is converted from a base64 representation, which triggers a heap-based buffer overflow.
+ CVE-2009-0586 gstreamer-plugins-base: integer overflow in gst_vorbis_tag_add_coverart()
 
 
 
