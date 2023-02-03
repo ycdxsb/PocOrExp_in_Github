@@ -172,6 +172,13 @@
 
 - [https://github.com/usernameid0/tools-for-CVE-2018-1000001](https://github.com/usernameid0/tools-for-CVE-2018-1000001) :  ![starts](https://img.shields.io/github/stars/usernameid0/tools-for-CVE-2018-1000001.svg) ![forks](https://img.shields.io/github/forks/usernameid0/tools-for-CVE-2018-1000001.svg)
 
+## CVE-2018-25078
+ man-db before 2.8.5 on Gentoo allows local users (with access to the man user account) to gain root privileges because /usr/bin/mandb is executed by root but not owned by root. (Also, the owner can strip the setuid and setgid bits.)
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-25078](https://github.com/Live-Hack-CVE/CVE-2018-25078) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-25078.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-25078.svg)
+
 ## CVE-2018-25077
  A vulnerability was found in melnaron mel-spintax. It has been rated as problematic. Affected by this issue is some unknown functionality of the file lib/spintax.js. The manipulation of the argument text leads to inefficient regular expression complexity. The name of the patch is 37767617846e27b87b63004e30216e8f919637d3. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218456.
 
@@ -1429,6 +1436,13 @@
 
 - [https://github.com/alexzorin/poc-cve-2018-16875](https://github.com/alexzorin/poc-cve-2018-16875) :  ![starts](https://img.shields.io/github/stars/alexzorin/poc-cve-2018-16875.svg) ![forks](https://img.shields.io/github/forks/alexzorin/poc-cve-2018-16875.svg)
 
+## CVE-2018-16869
+ A Bleichenbacher type side-channel based padding oracle attack was found in the way nettle handles endian conversion of RSA decrypted PKCS#1 v1.5 data. An attacker who is able to run a process on the same physical core as the victim process, could use this flaw extract plaintext or in some cases downgrade any TLS connections to a vulnerable server.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-16869](https://github.com/Live-Hack-CVE/CVE-2018-16869) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-16869.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-16869.svg)
+
 ## CVE-2018-16868
  A Bleichenbacher type side-channel based padding oracle attack was found in the way gnutls handles verification of RSA decrypted PKCS#1 v1.5 data. An attacker who is able to run process on the same physical core as the victim process, could use this to extract plaintext or in some cases downgrade any TLS connections to a vulnerable server.
 
@@ -1437,7 +1451,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2018-16868](https://github.com/Live-Hack-CVE/CVE-2018-16868) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-16868.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-16868.svg)
 
 ## CVE-2018-16866
- An out of bounds read was discovered in systemd-journald in the way it parses log messages that terminate with a colon ':'. A local attacker can use this flaw to disclose process memory data. Versions from v221 to v239 are vulnerable.
+ An out of bounds read was discovered in systemd-journald in the way it parses log messages that terminate with a colon ':'. A local attacker can use this flaw to disclose process memory data.
 
 
 
@@ -2125,7 +2139,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2019-10171](https://github.com/Live-Hack-CVE/CVE-2019-10171) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-10171.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-10171.svg)
 
 ## CVE-2018-14634
- An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system. Kernel versions 2.6.x, 3.10.x and 4.14.x are believed to be vulnerable.
+ An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system.
 
 
 
@@ -2137,6 +2151,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2018-14628](https://github.com/Live-Hack-CVE/CVE-2018-14628) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-14628.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-14628.svg)
+
+## CVE-2018-14622
+ A null-pointer dereference vulnerability was found in libtirpc before version 0.3.3-rc3. The return value of makefd_xprt() was not checked in all instances, which could lead to a crash when the server exhausted the maximum number of available file descriptors. A remote attacker could cause an rpc-based application to crash by flooding it with new connections.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-14622](https://github.com/Live-Hack-CVE/CVE-2018-14622) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-14622.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-14622.svg)
 
 ## CVE-2018-14550
  An issue has been found in third-party PNM decoding associated with libpng 1.6.35. It is a stack-based buffer overflow in the function get_token in pnm2png.c in pnm2png.
@@ -2834,13 +2855,13 @@
 
 - [https://github.com/0rx1/CVE-2018-11235](https://github.com/0rx1/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/0rx1/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/0rx1/CVE-2018-11235.svg)
 
-- [https://github.com/Choihosu/cve-2018-11235](https://github.com/Choihosu/cve-2018-11235) :  ![starts](https://img.shields.io/github/stars/Choihosu/cve-2018-11235.svg) ![forks](https://img.shields.io/github/forks/Choihosu/cve-2018-11235.svg)
-
 - [https://github.com/vmotos/CVE-2018-11235](https://github.com/vmotos/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/vmotos/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/vmotos/CVE-2018-11235.svg)
 
-- [https://github.com/xElkomy/CVE-2018-11235](https://github.com/xElkomy/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/xElkomy/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/xElkomy/CVE-2018-11235.svg)
+- [https://github.com/Choihosu/cve-2018-11235](https://github.com/Choihosu/cve-2018-11235) :  ![starts](https://img.shields.io/github/stars/Choihosu/cve-2018-11235.svg) ![forks](https://img.shields.io/github/forks/Choihosu/cve-2018-11235.svg)
 
 - [https://github.com/Kiss-sh0t/CVE-2018-11235-poc](https://github.com/Kiss-sh0t/CVE-2018-11235-poc) :  ![starts](https://img.shields.io/github/stars/Kiss-sh0t/CVE-2018-11235-poc.svg) ![forks](https://img.shields.io/github/forks/Kiss-sh0t/CVE-2018-11235-poc.svg)
+
+- [https://github.com/xElkomy/CVE-2018-11235](https://github.com/xElkomy/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/xElkomy/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/xElkomy/CVE-2018-11235.svg)
 
 - [https://github.com/cchang27/CVE-2018-11235-test](https://github.com/cchang27/CVE-2018-11235-test) :  ![starts](https://img.shields.io/github/stars/cchang27/CVE-2018-11235-test.svg) ![forks](https://img.shields.io/github/forks/cchang27/CVE-2018-11235-test.svg)
 
@@ -2933,9 +2954,9 @@
 
 - [https://github.com/ensimag-security/CVE-2018-10933](https://github.com/ensimag-security/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/ensimag-security/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/ensimag-security/CVE-2018-10933.svg)
 
-- [https://github.com/ninp0/cve-2018-10933_poc](https://github.com/ninp0/cve-2018-10933_poc) :  ![starts](https://img.shields.io/github/stars/ninp0/cve-2018-10933_poc.svg) ![forks](https://img.shields.io/github/forks/ninp0/cve-2018-10933_poc.svg)
-
 - [https://github.com/throwawayaccount12312312/precompiled-CVE-2018-10933](https://github.com/throwawayaccount12312312/precompiled-CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/throwawayaccount12312312/precompiled-CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/throwawayaccount12312312/precompiled-CVE-2018-10933.svg)
+
+- [https://github.com/ninp0/cve-2018-10933_poc](https://github.com/ninp0/cve-2018-10933_poc) :  ![starts](https://img.shields.io/github/stars/ninp0/cve-2018-10933_poc.svg) ![forks](https://img.shields.io/github/forks/ninp0/cve-2018-10933_poc.svg)
 
 - [https://github.com/sambiyal/CVE-2018-10933-POC](https://github.com/sambiyal/CVE-2018-10933-POC) :  ![starts](https://img.shields.io/github/stars/sambiyal/CVE-2018-10933-POC.svg) ![forks](https://img.shields.io/github/forks/sambiyal/CVE-2018-10933-POC.svg)
 
@@ -2949,11 +2970,11 @@
 
 - [https://github.com/cve-2018/cve-2018-10933](https://github.com/cve-2018/cve-2018-10933) :  ![starts](https://img.shields.io/github/stars/cve-2018/cve-2018-10933.svg) ![forks](https://img.shields.io/github/forks/cve-2018/cve-2018-10933.svg)
 
-- [https://github.com/cyberharsh/Libssh-server-CVE-2018-10933](https://github.com/cyberharsh/Libssh-server-CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Libssh-server-CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Libssh-server-CVE-2018-10933.svg)
-
 - [https://github.com/Kurlee/LibSSH-exploit](https://github.com/Kurlee/LibSSH-exploit) :  ![starts](https://img.shields.io/github/stars/Kurlee/LibSSH-exploit.svg) ![forks](https://img.shields.io/github/forks/Kurlee/LibSSH-exploit.svg)
 
 - [https://github.com/crispy-peppers/Libssh-server-CVE-2018-10933](https://github.com/crispy-peppers/Libssh-server-CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/crispy-peppers/Libssh-server-CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/crispy-peppers/Libssh-server-CVE-2018-10933.svg)
+
+- [https://github.com/cyberharsh/Libssh-server-CVE-2018-10933](https://github.com/cyberharsh/Libssh-server-CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Libssh-server-CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Libssh-server-CVE-2018-10933.svg)
 
 - [https://github.com/0xadaw/libSSH-bypass](https://github.com/0xadaw/libSSH-bypass) :  ![starts](https://img.shields.io/github/stars/0xadaw/libSSH-bypass.svg) ![forks](https://img.shields.io/github/forks/0xadaw/libSSH-bypass.svg)
 
@@ -3544,9 +3565,9 @@
 
 - [https://github.com/orf53975/Rig-Exploit-for-CVE-2018-8174](https://github.com/orf53975/Rig-Exploit-for-CVE-2018-8174) :  ![starts](https://img.shields.io/github/stars/orf53975/Rig-Exploit-for-CVE-2018-8174.svg) ![forks](https://img.shields.io/github/forks/orf53975/Rig-Exploit-for-CVE-2018-8174.svg)
 
-- [https://github.com/delina1/CVE-2018-8174](https://github.com/delina1/CVE-2018-8174) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174.svg)
-
 - [https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/DarkFlameMaster-bit/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/DarkFlameMaster-bit/CVE-2018-8174_EXP.svg)
+
+- [https://github.com/delina1/CVE-2018-8174](https://github.com/delina1/CVE-2018-8174) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174.svg)
 
 - [https://github.com/likescam/CVE-2018-8174-msf](https://github.com/likescam/CVE-2018-8174-msf) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2018-8174-msf.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2018-8174-msf.svg)
 
@@ -3839,11 +3860,11 @@
 
 - [https://github.com/ruthvikvegunta/Drupalgeddon2](https://github.com/ruthvikvegunta/Drupalgeddon2) :  ![starts](https://img.shields.io/github/stars/ruthvikvegunta/Drupalgeddon2.svg) ![forks](https://img.shields.io/github/forks/ruthvikvegunta/Drupalgeddon2.svg)
 
+- [https://github.com/vphnguyen/ANM_CVE-2018-7600](https://github.com/vphnguyen/ANM_CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/vphnguyen/ANM_CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/vphnguyen/ANM_CVE-2018-7600.svg)
+
 - [https://github.com/jyo-zi/CVE-2018-7600](https://github.com/jyo-zi/CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/jyo-zi/CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/jyo-zi/CVE-2018-7600.svg)
 
 - [https://github.com/anldori/CVE-2018-7600](https://github.com/anldori/CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/anldori/CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/anldori/CVE-2018-7600.svg)
-
-- [https://github.com/vphnguyen/ANM_CVE-2018-7600](https://github.com/vphnguyen/ANM_CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/vphnguyen/ANM_CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/vphnguyen/ANM_CVE-2018-7600.svg)
 
 - [https://github.com/r0lh/CVE-2018-7600](https://github.com/r0lh/CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/r0lh/CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/r0lh/CVE-2018-7600.svg)
 
@@ -4206,27 +4227,13 @@
 
 - [https://github.com/markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/markisback/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/markisback/CVE-2018-6574.svg)
 
-- [https://github.com/VikasVarshney/CVE_2018_6574](https://github.com/VikasVarshney/CVE_2018_6574) :  ![starts](https://img.shields.io/github/stars/VikasVarshney/CVE_2018_6574.svg) ![forks](https://img.shields.io/github/forks/VikasVarshney/CVE_2018_6574.svg)
-
-- [https://github.com/ItsFadinG/CVE-2018-6574](https://github.com/ItsFadinG/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/ItsFadinG/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/ItsFadinG/CVE-2018-6574.svg)
-
-- [https://github.com/Eugene24/CVE-2018-6574](https://github.com/Eugene24/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/Eugene24/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/Eugene24/CVE-2018-6574.svg)
-
-- [https://github.com/TakuCoder/CVE-2018-6574](https://github.com/TakuCoder/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/TakuCoder/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/TakuCoder/CVE-2018-6574.svg)
-
-- [https://github.com/purgedemo/CVE-2018-6574](https://github.com/purgedemo/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/purgedemo/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/purgedemo/CVE-2018-6574.svg)
-
-- [https://github.com/MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-) :  ![starts](https://img.shields.io/github/stars/MohamedTarekq/test-CVE-2018-6574-.svg) ![forks](https://img.shields.io/github/forks/MohamedTarekq/test-CVE-2018-6574-.svg)
-
-- [https://github.com/tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/tjcim/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/tjcim/cve-2018-6574.svg)
-
 - [https://github.com/yitingfan/CVE-2018-6574_demo](https://github.com/yitingfan/CVE-2018-6574_demo) :  ![starts](https://img.shields.io/github/stars/yitingfan/CVE-2018-6574_demo.svg) ![forks](https://img.shields.io/github/forks/yitingfan/CVE-2018-6574_demo.svg)
 
 - [https://github.com/it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/it3x55/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/it3x55/CVE-2018-6574.svg)
 
-- [https://github.com/NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/NikolaT3sla/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/NikolaT3sla/cve-2018-6574.svg)
-
 - [https://github.com/AnKItdo/CVE_2018-6574](https://github.com/AnKItdo/CVE_2018-6574) :  ![starts](https://img.shields.io/github/stars/AnKItdo/CVE_2018-6574.svg) ![forks](https://img.shields.io/github/forks/AnKItdo/CVE_2018-6574.svg)
+
+- [https://github.com/NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/NikolaT3sla/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/NikolaT3sla/cve-2018-6574.svg)
 
 - [https://github.com/redirected/cve-2018-6574](https://github.com/redirected/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/redirected/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/redirected/cve-2018-6574.svg)
 
@@ -4247,6 +4254,20 @@
 - [https://github.com/jeyaseelans86/CVE-2018-6574](https://github.com/jeyaseelans86/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/jeyaseelans86/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/jeyaseelans86/CVE-2018-6574.svg)
 
 - [https://github.com/mux0x/CVE-2018-6574](https://github.com/mux0x/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/mux0x/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/mux0x/CVE-2018-6574.svg)
+
+- [https://github.com/Eugene24/CVE-2018-6574](https://github.com/Eugene24/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/Eugene24/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/Eugene24/CVE-2018-6574.svg)
+
+- [https://github.com/TakuCoder/CVE-2018-6574](https://github.com/TakuCoder/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/TakuCoder/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/TakuCoder/CVE-2018-6574.svg)
+
+- [https://github.com/purgedemo/CVE-2018-6574](https://github.com/purgedemo/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/purgedemo/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/purgedemo/CVE-2018-6574.svg)
+
+- [https://github.com/MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-) :  ![starts](https://img.shields.io/github/stars/MohamedTarekq/test-CVE-2018-6574-.svg) ![forks](https://img.shields.io/github/forks/MohamedTarekq/test-CVE-2018-6574-.svg)
+
+- [https://github.com/tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/tjcim/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/tjcim/cve-2018-6574.svg)
+
+- [https://github.com/VikasVarshney/CVE_2018_6574](https://github.com/VikasVarshney/CVE_2018_6574) :  ![starts](https://img.shields.io/github/stars/VikasVarshney/CVE_2018_6574.svg) ![forks](https://img.shields.io/github/forks/VikasVarshney/CVE_2018_6574.svg)
+
+- [https://github.com/ItsFadinG/CVE-2018-6574](https://github.com/ItsFadinG/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/ItsFadinG/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/ItsFadinG/CVE-2018-6574.svg)
 
 - [https://github.com/coblax/CVE-2018-6574](https://github.com/coblax/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/coblax/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/coblax/CVE-2018-6574.svg)
 
@@ -4272,6 +4293,10 @@
 
 - [https://github.com/cristiandrami/pentesterlab_CVE-2018-6574](https://github.com/cristiandrami/pentesterlab_CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/cristiandrami/pentesterlab_CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/cristiandrami/pentesterlab_CVE-2018-6574.svg)
 
+- [https://github.com/noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/noobTest1122/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/noobTest1122/CVE-2018-6574.svg)
+
+- [https://github.com/R3dAlch3mist/cve-2018-6574](https://github.com/R3dAlch3mist/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/R3dAlch3mist/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/R3dAlch3mist/cve-2018-6574.svg)
+
 - [https://github.com/AdriVillaB/CVE-2018-6574](https://github.com/AdriVillaB/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/AdriVillaB/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/AdriVillaB/CVE-2018-6574.svg)
 
 - [https://github.com/illnino/CVE-2018-6574](https://github.com/illnino/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/illnino/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/illnino/CVE-2018-6574.svg)
@@ -4280,13 +4305,9 @@
 
 - [https://github.com/purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2) :  ![starts](https://img.shields.io/github/stars/purgedemo/CVE-2018-6574_2.svg) ![forks](https://img.shields.io/github/forks/purgedemo/CVE-2018-6574_2.svg)
 
-- [https://github.com/jeyaseelans86/new-CVE-2018-6574](https://github.com/jeyaseelans86/new-CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/jeyaseelans86/new-CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/jeyaseelans86/new-CVE-2018-6574.svg)
-
 - [https://github.com/chr1sM/CVE-2018-6574](https://github.com/chr1sM/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/chr1sM/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/chr1sM/CVE-2018-6574.svg)
 
-- [https://github.com/noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/noobTest1122/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/noobTest1122/CVE-2018-6574.svg)
-
-- [https://github.com/R3dAlch3mist/cve-2018-6574](https://github.com/R3dAlch3mist/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/R3dAlch3mist/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/R3dAlch3mist/cve-2018-6574.svg)
+- [https://github.com/jeyaseelans86/new-CVE-2018-6574](https://github.com/jeyaseelans86/new-CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/jeyaseelans86/new-CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/jeyaseelans86/new-CVE-2018-6574.svg)
 
 - [https://github.com/mhamed366/CVE-2018-6574](https://github.com/mhamed366/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/mhamed366/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/mhamed366/CVE-2018-6574.svg)
 
@@ -4402,9 +4423,9 @@
 
 - [https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389](https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/mudhappy/Wordpress-Hack-CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/mudhappy/Wordpress-Hack-CVE-2018-6389.svg)
 
-- [https://github.com/thechrono13/PoC---CVE-2018-6389](https://github.com/thechrono13/PoC---CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/thechrono13/PoC---CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/thechrono13/PoC---CVE-2018-6389.svg)
-
 - [https://github.com/alessiogilardi/PoC---CVE-2018-6389](https://github.com/alessiogilardi/PoC---CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/alessiogilardi/PoC---CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/alessiogilardi/PoC---CVE-2018-6389.svg)
+
+- [https://github.com/thechrono13/PoC---CVE-2018-6389](https://github.com/thechrono13/PoC---CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/thechrono13/PoC---CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/thechrono13/PoC---CVE-2018-6389.svg)
 
 - [https://github.com/fakedob/tvsz](https://github.com/fakedob/tvsz) :  ![starts](https://img.shields.io/github/stars/fakedob/tvsz.svg) ![forks](https://img.shields.io/github/forks/fakedob/tvsz.svg)
 
@@ -4938,6 +4959,34 @@
 
 - [https://github.com/DoubleMice/cve-2018-4013](https://github.com/DoubleMice/cve-2018-4013) :  ![starts](https://img.shields.io/github/stars/DoubleMice/cve-2018-4013.svg) ![forks](https://img.shields.io/github/forks/DoubleMice/cve-2018-4013.svg)
 
+## CVE-2018-3996
+ An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's PDF Reader, version 9.2.0.9297. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. If the browser plugin extension is enabled, visiting a malicious site can also trigger the vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3996](https://github.com/Live-Hack-CVE/CVE-2018-3996) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3996.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3996.svg)
+
+## CVE-2018-3995
+ An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's PDF Reader, version 9.2.0.9297. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. If the browser plugin extension is enabled, visiting a malicious site can also trigger the vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3995](https://github.com/Live-Hack-CVE/CVE-2018-3995) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3995.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3995.svg)
+
+## CVE-2018-3994
+ An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's Foxit PDF Reader version 9.2.0.9297. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. If the browser plugin extension is enabled, visiting a malicious site can also trigger the vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3994](https://github.com/Live-Hack-CVE/CVE-2018-3994) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3994.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3994.svg)
+
+## CVE-2018-3993
+ An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's Foxit PDF Reader version 9.2.0.9297. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. If the browser plugin extension is enabled, visiting a malicious site can also trigger the vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3993](https://github.com/Live-Hack-CVE/CVE-2018-3993) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3993.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3993.svg)
+
 ## CVE-2018-3990
  An exploitable pool corruption vulnerability exists in the 0x8200E804 IOCTL handler functionality of WIBU-SYSTEMS WibuKey.sys Version 6.40 (Build 2400). A specially crafted IRP request can cause a buffer overflow, resulting in kernel memory corruption and, potentially, privilege escalation. An attacker can send an IRP request to trigger this vulnerability.
 
@@ -4986,6 +5035,62 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2018-3962](https://github.com/Live-Hack-CVE/CVE-2018-3962) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3962.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3962.svg)
+
+## CVE-2018-3946
+ An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's PDF Reader version 9.1.0.5096. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. If the browser plugin extension is enabled, visiting a malicious site can also trigger the vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3946](https://github.com/Live-Hack-CVE/CVE-2018-3946) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3946.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3946.svg)
+
+## CVE-2018-3945
+ An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's Foxit PDF Reader version 9.1.0.5096. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3945](https://github.com/Live-Hack-CVE/CVE-2018-3945) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3945.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3945.svg)
+
+## CVE-2018-3944
+ An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's PDF Reader, version 9.1.0.5096. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. If the browser plugin extension is enabled, visiting a malicious site can also trigger the vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3944](https://github.com/Live-Hack-CVE/CVE-2018-3944) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3944.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3944.svg)
+
+## CVE-2018-3943
+ An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's PDF Reader, version 9.1.0.5096. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. If the browser plugin extension is enabled, visiting a malicious site can also trigger the vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3943](https://github.com/Live-Hack-CVE/CVE-2018-3943) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3943.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3943.svg)
+
+## CVE-2018-3942
+ An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's PDF Reader, version 9.1.0.5096. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3942](https://github.com/Live-Hack-CVE/CVE-2018-3942) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3942.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3942.svg)
+
+## CVE-2018-3941
+ An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's Foxit PDF Reader version 9.1.0.5096. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3941](https://github.com/Live-Hack-CVE/CVE-2018-3941) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3941.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3941.svg)
+
+## CVE-2018-3940
+ An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's PDF Reader, version 9.1.0.5096. A specially crafted PDF document can trigger a previously freed object in memory to be reused. An attacker needs to trick the user to open the malicious file to trigger.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3940](https://github.com/Live-Hack-CVE/CVE-2018-3940) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3940.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3940.svg)
+
+## CVE-2018-3939
+ An exploitable use-after-free vulnerability exists in the JavaScript engine of Foxit Software's PDF Reader, version 9.1.0.5096. A specially crafted PDF document can trigger a previously freed object in memory to be reused, resulting in arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. If the browser plugin extension is enabled, visiting a malicious site can also trigger the vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3939](https://github.com/Live-Hack-CVE/CVE-2018-3939) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3939.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3939.svg)
 
 ## CVE-2018-3935
  An exploitable code execution vulnerability exists in the UDP network functionality of Yi Home Camera 27US 1.8.7.0D. A specially crafted set of UDP packets can allocate unlimited memory, resulting in denial of service. An attacker can send a set of packets to trigger this vulnerability.
@@ -5120,6 +5225,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2018-3887](https://github.com/Live-Hack-CVE/CVE-2018-3887) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3887.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3887.svg)
 
+## CVE-2018-3876
+ An exploitable buffer overflow vulnerability exists in the credentials handler of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250-Firmware version 0.20.17. The strncpy overflows the destination buffer, which has a size of 64 bytes. An attacker can send an arbitrarily long &quot;bucket&quot; value in order to exploit this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3876](https://github.com/Live-Hack-CVE/CVE-2018-3876) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3876.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3876.svg)
+
 ## CVE-2018-3872
  An exploitable buffer overflow vulnerability exists in the credentials handler of video-core's HTTP server of Samsung SmartThings Hub STH-ETH-250 - Firmware version 0.20.17. The video-core process incorrectly extracts the videoHostUrl field from a user-controlled JSON payload, leading to a buffer overflow on the stack. An attacker can send an HTTP request to trigger this vulnerability.
 
@@ -5127,12 +5239,54 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2018-3872](https://github.com/Live-Hack-CVE/CVE-2018-3872) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3872.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3872.svg)
 
+## CVE-2018-3871
+ An exploitable out-of-bounds write exists in the PCX parsing functionality of Canvas Draw version 4.0.0. A specially crafted PCX image processed via the application can lead to an out-of-bounds write, overwriting arbitrary data. An attacker can deliver a PCX image to trigger this vulnerability and gain code execution. A different vulnerability than CVE-2018-3870.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3871](https://github.com/Live-Hack-CVE/CVE-2018-3871) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3871.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3871.svg)
+
+## CVE-2018-3870
+ An exploitable out-of-bounds write exists in the PCX parsing functionality of Canvas Draw version 4.0.0. A specially crafted PCX image processed via the application can lead to an out-of-bounds write, overwriting arbitrary data. An attacker can deliver a PCX image to trigger this vulnerability and gain code execution. A different vulnerability than CVE-2018-3871.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3870](https://github.com/Live-Hack-CVE/CVE-2018-3870) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3870.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3870.svg)
+
+## CVE-2018-3868
+ A specially crafted TIFF image processed via the application can lead to an out-of-bounds write, overwriting arbitrary data. An attacker can deliver a TIFF image to trigger this vulnerability and gain code execution.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3868](https://github.com/Live-Hack-CVE/CVE-2018-3868) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3868.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3868.svg)
+
 ## CVE-2018-3862
  A specially crafted TIFF image processed via the application can lead to an out-of-bounds write, overwriting
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2018-3862](https://github.com/Live-Hack-CVE/CVE-2018-3862) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3862.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3862.svg)
+
+## CVE-2018-3860
+ An exploitable out-of-bounds write exists in the TIFF parsing functionality of Canvas Draw version 4.0.0. A specially crafted TIFF image processed via the application can lead to an out-of-bounds write, overwriting arbitrary data. An attacker can deliver a TIFF image to trigger this vulnerability and gain the ability to execute code. A different vulnerability than CVE-2018-3859.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3860](https://github.com/Live-Hack-CVE/CVE-2018-3860) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3860.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3860.svg)
+
+## CVE-2018-3859
+ An exploitable out-of-bounds write exists in the TIFF parsing functionality of Canvas Draw version 4.0.0. A specially crafted TIFF image processed via the application can lead to an out-of-bounds write, overwriting arbitrary data. An attacker can deliver a TIFF image to trigger this vulnerability and gain code execution. A different vulnerability than CVE-2018-3860.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3859](https://github.com/Live-Hack-CVE/CVE-2018-3859) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3859.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3859.svg)
+
+## CVE-2018-3858
+ An exploitable heap overflow exists in the TIFF parsing functionality of Canvas Draw version 4.0.0. A specially crafted TIFF image processed via the application can lead to an out-of-bounds write, overwriting arbitrary data. An attacker can deliver a TIFF image to trigger this vulnerability and gain the ability to execute code. A different vulnerability than CVE-2018-3857.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3858](https://github.com/Live-Hack-CVE/CVE-2018-3858) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3858.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3858.svg)
 
 ## CVE-2018-3856
  An exploitable vulnerability exists in the smart cameras RTSP configuration of the Samsung SmartThings Hub STH-ETH-250 - Firmware version 0.20.17. The device incorrectly handles spaces in the URL field, leading to an arbitrary operating system command injection. An attacker can send a series of HTTP requests to trigger this vulnerability.
