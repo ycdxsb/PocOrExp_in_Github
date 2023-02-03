@@ -638,7 +638,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2015-7560](https://github.com/Live-Hack-CVE/CVE-2015-7560) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7560.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7560.svg)
 
 ## CVE-2015-7547
- Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functions in the libresolv library in the GNU C Library (aka glibc or libc6) before 2.23 allow remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via a crafted DNS response that triggers a call to the getaddrinfo function with the AF_UNSPEC or AF_INET6 address family, related to performing &quot;dual A/AAAA DNS queries&quot; and the libnss_dns.so.2 NSS module.
+ A stack-based buffer overflow was found in the way the libresolv library performed dual A/AAAA DNS queries. A remote attacker could create a specially crafted DNS response which could cause libresolv to crash or, potentially, execute code with the permissions of the user running the library. Note: this issue is only exposed when libresolv is called from the nss_dns NSS service module.
 
 
 
@@ -1021,11 +1021,41 @@
 - [https://github.com/Live-Hack-CVE/CVE-2015-5252](https://github.com/Live-Hack-CVE/CVE-2015-5252) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5252.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5252.svg)
 
 ## CVE-2015-5195
- ntp_openssl.m4 in ntpd in NTP before 4.2.7p112 allows remote attackers to cause a denial of service (segmentation fault) via a crafted statistics or filegen configuration command that is not enabled during compilation.
+ It was found that ntpd would exit with a segmentation fault when a statistics type that was not enabled during compilation (e.g. timingstats) was referenced by the statistics or filegen configuration command.
 
 
 
 - [https://github.com/theglife214/CVE-2015-5195](https://github.com/theglife214/CVE-2015-5195) :  ![starts](https://img.shields.io/github/stars/theglife214/CVE-2015-5195.svg) ![forks](https://img.shields.io/github/forks/theglife214/CVE-2015-5195.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5195](https://github.com/Live-Hack-CVE/CVE-2015-5195) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5195.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5195.svg)
+
+## CVE-2015-5194
+ It was found that ntpd could crash due to an uninitialized variable when processing malformed logconfig configuration commands.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5194](https://github.com/Live-Hack-CVE/CVE-2015-5194) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5194.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5194.svg)
+
+## CVE-2015-5189
+ A race condition was found in the way the pcsd web UI backend performed authorization of user requests. An attacker could use this flaw to send a request that would be evaluated as originating from a different user, potentially allowing the attacker to perform actions with permissions of a more privileged user.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5189](https://github.com/Live-Hack-CVE/CVE-2015-5189) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5189.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5189.svg)
+
+## CVE-2015-5188
+ It was discovered that when uploading a file using a multipart/form-data submission to the EAP Web Console, the Console was vulnerable to Cross-Site Request Forgery (CSRF). This meant that an attacker could use the flaw together with a forgery attack to make changes to an authenticated instance.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5188](https://github.com/Live-Hack-CVE/CVE-2015-5188) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5188.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5188.svg)
+
+## CVE-2015-5180
+ CVE-2015-5180 glibc: DNS resolver NULL pointer dereference with crafted record type
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5180](https://github.com/Live-Hack-CVE/CVE-2015-5180) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5180.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5180.svg)
 
 ## CVE-2015-5122
  Use-after-free vulnerability in the DisplayObject class in the ActionScript 3 (AS3) implementation in Adobe Flash Player 13.x through 13.0.0.302 on Windows and OS X, 14.x through 18.0.0.203 on Windows and OS X, 11.x through 11.2.202.481 on Linux, and 12.x through 18.0.0.204 on Linux Chrome installations allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted Flash content that leverages improper handling of the opaqueBackground property, as exploited in the wild in July 2015.
@@ -1346,11 +1376,18 @@
 - [https://github.com/cd6629/CVE-2015-3306-Python-PoC](https://github.com/cd6629/CVE-2015-3306-Python-PoC) :  ![starts](https://img.shields.io/github/stars/cd6629/CVE-2015-3306-Python-PoC.svg) ![forks](https://img.shields.io/github/forks/cd6629/CVE-2015-3306-Python-PoC.svg)
 
 ## CVE-2015-3288
- mm/memory.c in the Linux kernel before 4.1.4 mishandles anonymous pages, which allows local users to gain privileges or cause a denial of service (page tainting) via a crafted application that triggers writing to page zero.
+ CVE-2015-3288 kernel: zero page memory arbitrary modification
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-3288](https://github.com/Live-Hack-CVE/CVE-2015-3288) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3288.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3288.svg)
+
+## CVE-2015-3258
+ A heap-based buffer overflow was discovered in the way the texttopdf utility of cups-filter processed print jobs with a specially crafted line size. An attacker able to submit print jobs could use this flaw to crash texttopdf or, possibly, execute arbitrary code with the privileges of the &quot;lp&quot; user.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-3258](https://github.com/Live-Hack-CVE/CVE-2015-3258) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3258.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3258.svg)
 
 ## CVE-2015-3248
  It was found that the &quot;/var/lib/openhpi&quot; directory provided by OpenHPI used world-writeable and world-readable permissions. A local user could use this flaw to view, modify, and delete OpenHPI-related data, or even fill up the storage device hosting the /var/lib directory.
@@ -1366,6 +1403,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-3247](https://github.com/Live-Hack-CVE/CVE-2015-3247) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3247.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3247.svg)
 
+## CVE-2015-3239
+ An off-by-one array indexing error was found in the libunwind API, which could cause an error when reading untrusted binaries or dwarf debug info data. Red Hat products do not call the API in this way; and it is unlikely that any exploitable attack vector exists in current builds or supported usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-3239](https://github.com/Live-Hack-CVE/CVE-2015-3239) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3239.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3239.svg)
+
 ## CVE-2015-3224
  request.rb in Web Console before 2.1.3, as used with Ruby on Rails 3.x and 4.x, does not properly restrict the use of X-Forwarded-For headers in determining a client's IP address, which allows remote attackers to bypass the whitelisted_ips protection mechanism via a crafted request.
 
@@ -1376,6 +1420,13 @@
 - [https://github.com/0x00-0x00/CVE-2015-3224](https://github.com/0x00-0x00/CVE-2015-3224) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2015-3224.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2015-3224.svg)
 
 - [https://github.com/n000xy/CVE-2015-3224-](https://github.com/n000xy/CVE-2015-3224-) :  ![starts](https://img.shields.io/github/stars/n000xy/CVE-2015-3224-.svg) ![forks](https://img.shields.io/github/forks/n000xy/CVE-2015-3224-.svg)
+
+## CVE-2015-3204
+ A flaw was discovered in the way Libreswan's IKE daemon processed certain IKEv1 payloads. A remote attacker could send specially crafted IKEv1 payloads that, when processed, would lead to a denial of service (daemon crash).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-3204](https://github.com/Live-Hack-CVE/CVE-2015-3204) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3204.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3204.svg)
 
 ## CVE-2015-3197
  ssl/s2_srvr.c in OpenSSL 1.0.1 before 1.0.1r and 1.0.2 before 1.0.2f does not prevent use of disabled ciphers, which makes it easier for man-in-the-middle attackers to defeat cryptographic protection mechanisms by performing computations on SSLv2 traffic, related to the get_client_master_key and get_client_hello functions.
@@ -1603,7 +1654,7 @@
 - [https://github.com/vpereira/CVE-2015-1855](https://github.com/vpereira/CVE-2015-1855) :  ![starts](https://img.shields.io/github/stars/vpereira/CVE-2015-1855.svg) ![forks](https://img.shields.io/github/forks/vpereira/CVE-2015-1855.svg)
 
 ## CVE-2015-1805
- The (1) pipe_read and (2) pipe_write implementations in fs/pipe.c in the Linux kernel before 3.16 do not properly consider the side effects of failed __copy_to_user_inatomic and __copy_from_user_inatomic calls, which allows local users to cause a denial of service (system crash) or possibly gain privileges via a crafted application, aka an &quot;I/O vector array overrun.&quot;
+ It was found that the Linux kernel's implementation of vectored pipe read and write functionality did not take into account the I/O vectors that were already processed when retrying after a failed atomic access operation, potentially resulting in memory corruption due to an I/O vector array overrun. A local, unprivileged user could use this flaw to crash the system or, potentially, escalate their privileges on the system.
 
 
 
@@ -1623,21 +1674,21 @@
 - [https://github.com/Live-Hack-CVE/CVE-2015-1794](https://github.com/Live-Hack-CVE/CVE-2015-1794) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1794.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1794.svg)
 
 ## CVE-2015-1792
- The do_free_upto function in crypto/cms/cms_smime.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b allows remote attackers to cause a denial of service (infinite loop) via vectors that trigger a NULL value of a BIO data structure, as demonstrated by an unrecognized X.660 OID for a hash function.
+ A denial of service flaw was found in the way OpenSSL verified certain signed messages using CMS (Cryptographic Message Syntax). A remote attacker could cause an application using OpenSSL to use excessive amounts of memory by sending a specially crafted message for verification.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-1792](https://github.com/Live-Hack-CVE/CVE-2015-1792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1792.svg)
 
 ## CVE-2015-1791
- Race condition in the ssl3_get_new_session_ticket function in ssl/s3_clnt.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b, when used for a multi-threaded client, allows remote attackers to cause a denial of service (double free and application crash) or possibly have unspecified other impact by providing a NewSessionTicket during an attempt to reuse a ticket that had been obtained earlier.
+ A race condition was found in the session handling code of OpenSSL. This issue could possibly cause a multi-threaded TLS/SSL client using OpenSSL to double free session ticket data and crash.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-1791](https://github.com/Live-Hack-CVE/CVE-2015-1791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1791.svg)
 
 ## CVE-2015-1790
- The PKCS7_dataDecodefunction in crypto/pkcs7/pk7_doit.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a PKCS#7 blob that uses ASN.1 encoding and lacks inner EncryptedContent data.
+ A NULL pointer dereference was found in the way OpenSSL handled certain PKCS#7 inputs. An attacker able to make an application using OpenSSL verify, decrypt, or parse a specially crafted PKCS#7 input could cause that application to crash. TLS/SSL clients and servers using OpenSSL were not affected by this flaw.
 
 
 
