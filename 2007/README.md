@@ -85,7 +85,7 @@
 - [https://github.com/Ooscaar/MALW](https://github.com/Ooscaar/MALW) :  ![starts](https://img.shields.io/github/stars/Ooscaar/MALW.svg) ![forks](https://img.shields.io/github/forks/Ooscaar/MALW.svg)
 
 ## CVE-2007-3847
- The date handling code in modules/proxy/proxy_util.c (mod_proxy) in Apache 2.3.0, when using a threaded MPM, allows remote origin servers to cause a denial of service (caching forward proxy process crash) via crafted date headers that trigger a buffer over-read.
+ CVE-2007-3847 httpd: out of bounds read
 
 
 
@@ -194,7 +194,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2007-2444](https://github.com/Live-Hack-CVE/CVE-2007-2444) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-2444.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-2444.svg)
 
 ## CVE-2007-1858
- The default SSL cipher configuration in Apache Tomcat 4.1.28 through 4.1.31, 5.0.0 through 5.0.30, and 5.5.0 through 5.5.17 uses certain insecure ciphers, including the anonymous cipher, which allows remote attackers to obtain sensitive information or have other, unspecified impacts.
+ CVE-2007-1858 tomcat anonymous cipher issue
 
 
 
