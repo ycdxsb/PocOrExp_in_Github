@@ -175,9 +175,9 @@
 
 - [https://github.com/Shadow5523/CVE-2017-1000117-test](https://github.com/Shadow5523/CVE-2017-1000117-test) :  ![starts](https://img.shields.io/github/stars/Shadow5523/CVE-2017-1000117-test.svg) ![forks](https://img.shields.io/github/forks/Shadow5523/CVE-2017-1000117-test.svg)
 
-- [https://github.com/siling2017/CVE-2017-1000117](https://github.com/siling2017/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/siling2017/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/siling2017/CVE-2017-1000117.svg)
-
 - [https://github.com/takehaya/CVE-2017-1000117](https://github.com/takehaya/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/takehaya/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/takehaya/CVE-2017-1000117.svg)
+
+- [https://github.com/siling2017/CVE-2017-1000117](https://github.com/siling2017/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/siling2017/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/siling2017/CVE-2017-1000117.svg)
 
 - [https://github.com/thelastbyte/CVE-2017-1000117](https://github.com/thelastbyte/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/thelastbyte/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/thelastbyte/CVE-2017-1000117.svg)
 
@@ -1992,13 +1992,6 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2017-14454](https://github.com/Live-Hack-CVE/CVE-2017-14454) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14454.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14454.svg)
 
-## CVE-2017-14448
- An exploitable code execution vulnerability exists in the XCF image rendering functionality of SDL2_image-2.0.2. A specially crafted XCF image can cause a heap overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14448](https://github.com/Live-Hack-CVE/CVE-2017-14448) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14448.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14448.svg)
-
 ## CVE-2017-14446
  An exploitable stack-based buffer overflow vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation unsafely extracts parameters from the query string, leading to a buffer overflow on the stack. An attacker can send an HTTP GET request to trigger this vulnerability.
 
@@ -2564,6 +2557,69 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2017-12112](https://github.com/Live-Hack-CVE/CVE-2017-12112) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12112.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12112.svg)
 
+## CVE-2017-12105
+ An exploitable integer overflow exists in the way that the Blender open-source 3d creation suite v2.78c applies a particular object modifier to a Mesh. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open the file or use the file as a library in order to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12105](https://github.com/Live-Hack-CVE/CVE-2017-12105) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12105.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12105.svg)
+
+## CVE-2017-12104
+ An exploitable integer overflow exists in the way that the Blender open-source 3d creation suite v2.78c draws a Particle object. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open the file or use the file as a library in order to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12104](https://github.com/Live-Hack-CVE/CVE-2017-12104) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12104.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12104.svg)
+
+## CVE-2017-12103
+ An exploitable integer overflow exists in the way that the Blender open-source 3d creation suite v2.78c converts text rendered as a font into a curve. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open the file or use the file as a library in order to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12103](https://github.com/Live-Hack-CVE/CVE-2017-12103) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12103.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12103.svg)
+
+## CVE-2017-12102
+ An exploitable integer overflow exists in the way that the Blender open-source 3d creation suite v2.78c converts curves to polygons. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open the file or use the file as a library in order to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12102](https://github.com/Live-Hack-CVE/CVE-2017-12102) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12102.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12102.svg)
+
+## CVE-2017-12101
+ An exploitable integer overflow exists in the 'modifier_mdef_compact_influences' functionality of the Blender open-source 3d creation suite v2.78c. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open a .blend file in order to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12101](https://github.com/Live-Hack-CVE/CVE-2017-12101) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12101.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12101.svg)
+
+## CVE-2017-12100
+ An exploitable integer overflow exists in the 'multires_load_old_dm' functionality of the Blender open-source 3d creation suite v2.78c. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open a .blend file in order to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12100](https://github.com/Live-Hack-CVE/CVE-2017-12100) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12100.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12100.svg)
+
+## CVE-2017-12099
+ An exploitable integer overflow exists in the upgrade of the legacy Mesh attribute 'tface' of the Blender open-source 3d creation suite v2.78c. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open the file or use it as a library in order to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12099](https://github.com/Live-Hack-CVE/CVE-2017-12099) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12099.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12099.svg)
+
+## CVE-2017-12086
+ An exploitable integer overflow exists in the 'BKE_mesh_calc_normals_tessface' functionality of the Blender open-source 3d creation suite. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open a .blend file in order to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12086](https://github.com/Live-Hack-CVE/CVE-2017-12086) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12086.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12086.svg)
+
+## CVE-2017-12082
+ An exploitable integer overflow exists in the 'CustomData' Mesh loading functionality of the Blender open-source 3d creation suite. A .blend file with a specially crafted external data file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to edit an object within a .blend library in their Scene in order to trigger this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12082](https://github.com/Live-Hack-CVE/CVE-2017-12082) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12082.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12082.svg)
+
 ## CVE-2017-11907
  Internet Explorer in Microsoft Windows 7 SP1, Windows Server 2008 and R2 SP1, Windows 8.1 and Windows RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, 1703, 1709, and Windows Server 2016 allows an attacker to gain the same user rights as the current user, due to how Internet Explorer handles objects in memory, aka &quot;Scripting Engine Memory Corruption Vulnerability&quot;. This CVE ID is unique from CVE-2017-11886, CVE-2017-11889, CVE-2017-11890, CVE-2017-11893, CVE-2017-11894, CVE-2017-11895, CVE-2017-11901, CVE-2017-11903, CVE-2017-11905, CVE-2017-11905, CVE-2017-11908, CVE-2017-11909, CVE-2017-11910, CVE-2017-11911, CVE-2017-11912, CVE-2017-11913, CVE-2017-11914, CVE-2017-11916, CVE-2017-11918, and CVE-2017-11930.
 
@@ -2622,9 +2678,9 @@
 
 - [https://github.com/tzwlhack/CVE-2017-11882](https://github.com/tzwlhack/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/tzwlhack/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/tzwlhack/CVE-2017-11882.svg)
 
-- [https://github.com/j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/j0lama/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/j0lama/CVE-2017-11882.svg)
-
 - [https://github.com/chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/chanbin/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/chanbin/CVE-2017-11882.svg)
+
+- [https://github.com/j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/j0lama/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/j0lama/CVE-2017-11882.svg)
 
 - [https://github.com/likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-11882.svg)
 
@@ -3408,6 +3464,13 @@
 
 
 - [https://github.com/USSCltd/aaLogger](https://github.com/USSCltd/aaLogger) :  ![starts](https://img.shields.io/github/stars/USSCltd/aaLogger.svg) ![forks](https://img.shields.io/github/forks/USSCltd/aaLogger.svg)
+
+## CVE-2017-9614
+ ** DISPUTED ** The fill_input_buffer function in jdatasrc.c in libjpeg-turbo 1.5.1 allows remote attackers to cause a denial of service (invalid memory access and application crash) or possibly have unspecified other impact via a crafted jpg file. NOTE: Maintainer asserts the issue is due to a bug in downstream code caused by misuse of the libjpeg API.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-9614](https://github.com/Live-Hack-CVE/CVE-2017-9614) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9614.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9614.svg)
 
 ## CVE-2017-9609
  Cross-site scripting (XSS) vulnerability in Blackcat CMS 1.2 allows remote authenticated users to inject arbitrary web script or HTML via the map_language parameter to backend/pages/lang_settings.php.
@@ -4606,9 +4669,9 @@
 
 - [https://github.com/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner) :  ![starts](https://img.shields.io/github/stars/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner.svg) ![forks](https://img.shields.io/github/forks/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner.svg)
 
-- [https://github.com/mike-williams/Struts2Vuln](https://github.com/mike-williams/Struts2Vuln) :  ![starts](https://img.shields.io/github/stars/mike-williams/Struts2Vuln.svg) ![forks](https://img.shields.io/github/forks/mike-williams/Struts2Vuln.svg)
-
 - [https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve](https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve) :  ![starts](https://img.shields.io/github/stars/Masahiro-Yamada/OgnlContentTypeRejectorValve.svg) ![forks](https://img.shields.io/github/forks/Masahiro-Yamada/OgnlContentTypeRejectorValve.svg)
+
+- [https://github.com/mike-williams/Struts2Vuln](https://github.com/mike-williams/Struts2Vuln) :  ![starts](https://img.shields.io/github/stars/mike-williams/Struts2Vuln.svg) ![forks](https://img.shields.io/github/forks/mike-williams/Struts2Vuln.svg)
 
 - [https://github.com/KarzsGHR/S2-046_S2-045_POC](https://github.com/KarzsGHR/S2-046_S2-045_POC) :  ![starts](https://img.shields.io/github/stars/KarzsGHR/S2-046_S2-045_POC.svg) ![forks](https://img.shields.io/github/forks/KarzsGHR/S2-046_S2-045_POC.svg)
 
@@ -4632,9 +4695,9 @@
 
 - [https://github.com/Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Badbird3/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Badbird3/CVE-2017-5638.svg)
 
-- [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
-
 - [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
+
+- [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
 
 - [https://github.com/lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/lizhi16/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/lizhi16/CVE-2017-5638.svg)
 
@@ -4660,9 +4723,9 @@
 
 - [https://github.com/cafnet/apache-struts-v2-CVE-2017-5638](https://github.com/cafnet/apache-struts-v2-CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/cafnet/apache-struts-v2-CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/cafnet/apache-struts-v2-CVE-2017-5638.svg)
 
-- [https://github.com/sonatype-workshops/struts2-rce](https://github.com/sonatype-workshops/struts2-rce) :  ![starts](https://img.shields.io/github/stars/sonatype-workshops/struts2-rce.svg) ![forks](https://img.shields.io/github/forks/sonatype-workshops/struts2-rce.svg)
-
 - [https://github.com/invisiblethreat/strutser](https://github.com/invisiblethreat/strutser) :  ![starts](https://img.shields.io/github/stars/invisiblethreat/strutser.svg) ![forks](https://img.shields.io/github/forks/invisiblethreat/strutser.svg)
+
+- [https://github.com/sonatype-workshops/struts2-rce](https://github.com/sonatype-workshops/struts2-rce) :  ![starts](https://img.shields.io/github/stars/sonatype-workshops/struts2-rce.svg) ![forks](https://img.shields.io/github/forks/sonatype-workshops/struts2-rce.svg)
 
 - [https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638](https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/sjitech/test_struts2_vulnerability_CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/sjitech/test_struts2_vulnerability_CVE-2017-5638.svg)
 
@@ -4677,6 +4740,13 @@
 - [https://github.com/donaldashdown/Common-Vulnerability-and-Exploit](https://github.com/donaldashdown/Common-Vulnerability-and-Exploit) :  ![starts](https://img.shields.io/github/stars/donaldashdown/Common-Vulnerability-and-Exploit.svg) ![forks](https://img.shields.io/github/forks/donaldashdown/Common-Vulnerability-and-Exploit.svg)
 
 - [https://github.com/andrewkroh/auditbeat-apache-struts-demo](https://github.com/andrewkroh/auditbeat-apache-struts-demo) :  ![starts](https://img.shields.io/github/stars/andrewkroh/auditbeat-apache-struts-demo.svg) ![forks](https://img.shields.io/github/forks/andrewkroh/auditbeat-apache-struts-demo.svg)
+
+## CVE-2017-5633
+ Multiple cross-site request forgery (CSRF) vulnerabilities on the D-Link DI-524 Wireless Router with firmware 9.01 allow remote attackers to (1) change the admin password, (2) reboot the device, or (3) possibly have unspecified other impact via crafted requests to CGI programs.
+
+
+
+- [https://github.com/cardangi/Exploit-CVE-2017-5633](https://github.com/cardangi/Exploit-CVE-2017-5633) :  ![starts](https://img.shields.io/github/stars/cardangi/Exploit-CVE-2017-5633.svg) ![forks](https://img.shields.io/github/forks/cardangi/Exploit-CVE-2017-5633.svg)
 
 ## CVE-2017-5521
  An issue was discovered on NETGEAR R8500, R8300, R7000, R6400, R7300, R7100LG, R6300v2, WNDR3400v3, WNR3500Lv2, R6250, R6700, R6900, and R8000 devices. They are prone to password disclosure via simple crafted requests to the web management server. The bug is exploitable remotely if the remote management option is set, and can also be exploited given access to the router over LAN or WLAN. When trying to access the web panel, a user is asked to authenticate; if the authentication is canceled and password recovery is not enabled, the user is redirected to a page that exposes a password recovery token. If a user supplies the correct token to the page /passwordrecovered.cgi?id=TOKEN (and password recovery is not enabled), they will receive the admin password for the router. If password recovery is set the exploit will fail, as it will ask the user for the recovery questions that were previously set when enabling that feature. This is persistent (even after disabling the recovery option, the exploit will fail) because the router will ask for the security questions.
@@ -5574,9 +5644,9 @@
 
 - [https://github.com/viethdgit/CVE-2017-0199](https://github.com/viethdgit/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/viethdgit/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/viethdgit/CVE-2017-0199.svg)
 
-- [https://github.com/Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/Phantomlancer123/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/Phantomlancer123/CVE-2017-0199.svg)
-
 - [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
+
+- [https://github.com/Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/Phantomlancer123/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/Phantomlancer123/CVE-2017-0199.svg)
 
 - [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
 
