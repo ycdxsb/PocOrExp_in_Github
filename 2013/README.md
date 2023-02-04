@@ -5,6 +5,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-20004](https://github.com/Live-Hack-CVE/CVE-2013-20004) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-20004.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-20004.svg)
 
+## CVE-2013-10018
+ A vulnerability was found in fanzila WebFinance 0.5. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file htdocs/prospection/save_contact.php. The manipulation of the argument nom/prenom/email/tel/mobile/client/fonction/note leads to sql injection. The name of the patch is 165dfcaa0520ee0179b7c1282efb84f5a03df114. It is recommended to apply a patch to fix this issue. The identifier VDB-220057 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-10018](https://github.com/Live-Hack-CVE/CVE-2013-10018) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-10018.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-10018.svg)
+
+## CVE-2013-10017
+ A vulnerability was found in fanzila WebFinance 0.5. It has been classified as critical. Affected is an unknown function of the file htdocs/admin/save_roles.php. The manipulation of the argument id leads to sql injection. The name of the patch is 6cfeb2f6b35c1b3a7320add07cd0493e4f752af3. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-220056.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-10017](https://github.com/Live-Hack-CVE/CVE-2013-10017) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-10017.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-10017.svg)
+
 ## CVE-2013-10014
  A vulnerability classified as critical has been found in oktora24 2moons. Affected is an unknown function. The manipulation leads to sql injection. The name of the patch is 1b09cf7672eb85b5b0c8a4de321f7a4ad87b09a7. It is recommended to apply a patch to fix this issue. VDB-218898 is the identifier assigned to this vulnerability.
 
