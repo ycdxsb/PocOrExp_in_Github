@@ -5,6 +5,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10072
+ A vulnerability classified as problematic was found in NREL api-umbrella-web 0.7.1. This vulnerability affects unknown code of the component Flash Message Handler. The manipulation leads to cross site scripting. The attack can be initiated remotely. Upgrading to version 0.8.0 is able to address this issue. The name of the patch is bcc0e922c61d30367678c8f17a435950969315cd. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-220060.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10072](https://github.com/Live-Hack-CVE/CVE-2015-10072) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10072.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10072.svg)
+
 ## CVE-2015-10071
  A vulnerability was found in gitter-badger ezpublish-modern-legacy. It has been rated as problematic. This issue affects some unknown processing of the file kernel/user/forgotpassword.php. The manipulation leads to weak password recovery. Upgrading to version 1.0 is able to address this issue. The name of the patch is 5908d5ee65fec61ce0e321d586530461a210bf2a. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-218951.
 
