@@ -2097,6 +2097,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-0285](https://github.com/Live-Hack-CVE/CVE-2015-0285) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0285.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0285.svg)
 
+## CVE-2015-0252
+ internal/XMLReader.cpp in Apache Xerces-C before 3.1.2 allows remote attackers to cause a denial of service (segmentation fault and crash) via crafted XML data.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-0252](https://github.com/Live-Hack-CVE/CVE-2015-0252) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0252.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0252.svg)
+
 ## CVE-2015-0235
  Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka &quot;GHOST.&quot;
 
