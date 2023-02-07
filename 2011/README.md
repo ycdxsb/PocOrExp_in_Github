@@ -1,3 +1,10 @@
+## CVE-2011-10002
+ A vulnerability classified as critical has been found in weblabyrinth 0.3.1. This affects the function Labyrinth of the file labyrinth.inc.php. The manipulation leads to sql injection. Upgrading to version 0.3.2 is able to address this issue. The name of the patch is 60793fd8c8c4759596d3510641e96ea40e7f60e9. It is recommended to upgrade the affected component. The identifier VDB-220221 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-10002](https://github.com/Live-Hack-CVE/CVE-2011-10002) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-10002.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-10002.svg)
+
 ## CVE-2011-10001
  A vulnerability was found in iamdroppy phoenixcf. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file content/2-Community/articles.cfm. The manipulation leads to sql injection. The name of the patch is d156faf8bc36cd49c3b10d3697ef14167ad451d8. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218491.
 
