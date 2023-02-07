@@ -5,6 +5,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10075
+ A vulnerability was found in Custom-Content-Width 1.0. It has been declared as problematic. Affected by this vulnerability is the function override_content_width/register_settings of the file custom-content-width.php. The manipulation leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.0.1 is able to address this issue. The name of the patch is e05e0104fc42ad13b57e2b2cb2d1857432624d39. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-220219. NOTE: This attack is not very likely.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10075](https://github.com/Live-Hack-CVE/CVE-2015-10075) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10075.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10075.svg)
+
+## CVE-2015-10074
+ A vulnerability was found in OpenSeaMap online_chart 1.2. It has been classified as problematic. Affected is the function init of the file index.php. The manipulation of the argument mtext leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version staging is able to address this issue. The name of the patch is 8649157158f921590d650e2d2f4bdf0df1017e9d. It is recommended to upgrade the affected component. VDB-220218 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10074](https://github.com/Live-Hack-CVE/CVE-2015-10074) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10074.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10074.svg)
+
 ## CVE-2015-10072
  A vulnerability classified as problematic was found in NREL api-umbrella-web 0.7.1. This vulnerability affects unknown code of the component Flash Message Handler. The manipulation leads to cross site scripting. The attack can be initiated remotely. Upgrading to version 0.8.0 is able to address this issue. The name of the patch is bcc0e922c61d30367678c8f17a435950969315cd. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-220060.
 
