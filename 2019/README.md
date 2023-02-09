@@ -864,25 +864,25 @@
 
 - [https://github.com/yukar1z0e/CVE-2019-19781](https://github.com/yukar1z0e/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/yukar1z0e/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/yukar1z0e/CVE-2019-19781.svg)
 
-- [https://github.com/SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/SharpHack/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/SharpHack/CVE-2019-19781.svg)
-
 - [https://github.com/hollerith/CVE-2019-19781](https://github.com/hollerith/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/hollerith/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/hollerith/CVE-2019-19781.svg)
 
 - [https://github.com/qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc) :  ![starts](https://img.shields.io/github/stars/qiong-qi/CVE-2019-19781-poc.svg) ![forks](https://img.shields.io/github/forks/qiong-qi/CVE-2019-19781-poc.svg)
+
+- [https://github.com/SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/SharpHack/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/SharpHack/CVE-2019-19781.svg)
+
+- [https://github.com/zgelici/CVE-2019-19781-Checker](https://github.com/zgelici/CVE-2019-19781-Checker) :  ![starts](https://img.shields.io/github/stars/zgelici/CVE-2019-19781-Checker.svg) ![forks](https://img.shields.io/github/forks/zgelici/CVE-2019-19781-Checker.svg)
+
+- [https://github.com/zenturacp/cve-2019-19781-web](https://github.com/zenturacp/cve-2019-19781-web) :  ![starts](https://img.shields.io/github/stars/zenturacp/cve-2019-19781-web.svg) ![forks](https://img.shields.io/github/forks/zenturacp/cve-2019-19781-web.svg)
+
+- [https://github.com/b510/CVE-2019-19781](https://github.com/b510/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/b510/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/b510/CVE-2019-19781.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2019-19781](https://github.com/Live-Hack-CVE/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-19781.svg)
 
 - [https://github.com/darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC) :  ![starts](https://img.shields.io/github/stars/darren646/CVE-2019-19781POC.svg) ![forks](https://img.shields.io/github/forks/darren646/CVE-2019-19781POC.svg)
 
-- [https://github.com/zgelici/CVE-2019-19781-Checker](https://github.com/zgelici/CVE-2019-19781-Checker) :  ![starts](https://img.shields.io/github/stars/zgelici/CVE-2019-19781-Checker.svg) ![forks](https://img.shields.io/github/forks/zgelici/CVE-2019-19781-Checker.svg)
-
 - [https://github.com/Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Castaldio86/Detect-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Castaldio86/Detect-CVE-2019-19781.svg)
 
 - [https://github.com/5l1v3r1/Citrix_CVE-2019-19781](https://github.com/5l1v3r1/Citrix_CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/Citrix_CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/Citrix_CVE-2019-19781.svg)
-
-- [https://github.com/zenturacp/cve-2019-19781-web](https://github.com/zenturacp/cve-2019-19781-web) :  ![starts](https://img.shields.io/github/stars/zenturacp/cve-2019-19781-web.svg) ![forks](https://img.shields.io/github/forks/zenturacp/cve-2019-19781-web.svg)
-
-- [https://github.com/b510/CVE-2019-19781](https://github.com/b510/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/b510/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/b510/CVE-2019-19781.svg)
 
 - [https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes](https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes) :  ![starts](https://img.shields.io/github/stars/Azeemering/CVE-2019-19781-DFIR-Notes.svg) ![forks](https://img.shields.io/github/forks/Azeemering/CVE-2019-19781-DFIR-Notes.svg)
 
@@ -2398,11 +2398,11 @@
 
 - [https://github.com/psychoxploit/vbull](https://github.com/psychoxploit/vbull) :  ![starts](https://img.shields.io/github/stars/psychoxploit/vbull.svg) ![forks](https://img.shields.io/github/forks/psychoxploit/vbull.svg)
 
-- [https://github.com/trhacknon/CVE-2019-16759](https://github.com/trhacknon/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2019-16759.svg)
+- [https://github.com/ludy-dev/vBulletin_Routestring-RCE](https://github.com/ludy-dev/vBulletin_Routestring-RCE) :  ![starts](https://img.shields.io/github/stars/ludy-dev/vBulletin_Routestring-RCE.svg) ![forks](https://img.shields.io/github/forks/ludy-dev/vBulletin_Routestring-RCE.svg)
 
 - [https://github.com/sunian19/CVE-2019-16759](https://github.com/sunian19/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/sunian19/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/sunian19/CVE-2019-16759.svg)
 
-- [https://github.com/ludy-dev/vBulletin_Routestring-RCE](https://github.com/ludy-dev/vBulletin_Routestring-RCE) :  ![starts](https://img.shields.io/github/stars/ludy-dev/vBulletin_Routestring-RCE.svg) ![forks](https://img.shields.io/github/forks/ludy-dev/vBulletin_Routestring-RCE.svg)
+- [https://github.com/trhacknon/CVE-2019-16759](https://github.com/trhacknon/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2019-16759.svg)
 
 - [https://github.com/fxp0-4tx/CVE-2019-16759](https://github.com/fxp0-4tx/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/fxp0-4tx/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/fxp0-4tx/CVE-2019-16759.svg)
 
@@ -2977,6 +2977,13 @@
 
 
 - [https://github.com/h3llraiser/CVE-2019-15120](https://github.com/h3llraiser/CVE-2019-15120) :  ![starts](https://img.shields.io/github/stars/h3llraiser/CVE-2019-15120.svg) ![forks](https://img.shields.io/github/forks/h3llraiser/CVE-2019-15120.svg)
+
+## CVE-2019-15112
+ The wp-slimstat plugin before 4.8.1 for WordPress has XSS.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-15112](https://github.com/Live-Hack-CVE/CVE-2019-15112) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-15112.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-15112.svg)
 
 ## CVE-2019-15107
  An issue was discovered in Webmin &lt;=1.920. The parameter old in password_change.cgi contains a command injection vulnerability.
@@ -3859,12 +3866,26 @@
 
 - [https://github.com/Security-AVS/CVE-2019-13633](https://github.com/Security-AVS/CVE-2019-13633) :  ![starts](https://img.shields.io/github/stars/Security-AVS/CVE-2019-13633.svg) ![forks](https://img.shields.io/github/forks/Security-AVS/CVE-2019-13633.svg)
 
+## CVE-2019-13626
+ SDL (Simple DirectMedia Layer) 2.x through 2.0.9 has a heap-based buffer over-read in Fill_IMA_ADPCM_block, caused by an integer overflow in IMA_ADPCM_decode() in audio/SDL_wave.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-13626](https://github.com/Live-Hack-CVE/CVE-2019-13626) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13626.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13626.svg)
+
 ## CVE-2019-13623
  In NSA Ghidra before 9.1, path traversal can occur in RestoreTask.java (from the package ghidra.app.plugin.core.archive) via an archive with an executable file that has an initial ../ in its filename. This allows attackers to overwrite arbitrary files in scenarios where an intermediate analysis result is archived for sharing with other persons. To achieve arbitrary code execution, one approach is to overwrite some critical Ghidra modules, e.g., the decompile module.
 
 
 
 - [https://github.com/TeamPhoneix/exploits](https://github.com/TeamPhoneix/exploits) :  ![starts](https://img.shields.io/github/stars/TeamPhoneix/exploits.svg) ![forks](https://img.shields.io/github/forks/TeamPhoneix/exploits.svg)
+
+## CVE-2019-13616
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in BlitNtoN in video/SDL_blit_N.c when called from SDL_SoftBlit in video/SDL_blit.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-13616](https://github.com/Live-Hack-CVE/CVE-2019-13616) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13616.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13616.svg)
 
 ## CVE-2019-13574
  In lib/mini_magick/image.rb in MiniMagick before 4.9.4, a fetched remote image filename could cause remote command execution because Image.open input is directly passed to Kernel#open, which accepts a '|' character followed by a command.
@@ -6683,6 +6704,27 @@
 
 - [https://github.com/xw77cve/CVE-2019-7642](https://github.com/xw77cve/CVE-2019-7642) :  ![starts](https://img.shields.io/github/stars/xw77cve/CVE-2019-7642.svg) ![forks](https://img.shields.io/github/forks/xw77cve/CVE-2019-7642.svg)
 
+## CVE-2019-7638
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in Map1toN in video/SDL_pixels.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7638](https://github.com/Live-Hack-CVE/CVE-2019-7638) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7638.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7638.svg)
+
+## CVE-2019-7636
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in SDL_GetRGB in video/SDL_pixels.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7636](https://github.com/Live-Hack-CVE/CVE-2019-7636) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7636.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7636.svg)
+
+## CVE-2019-7635
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in Blit1to4 in video/SDL_blit_1.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7635](https://github.com/Live-Hack-CVE/CVE-2019-7635) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7635.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7635.svg)
+
 ## CVE-2019-7616
  Kibana versions before 6.8.2 and 7.2.1 contain a server side request forgery (SSRF) flaw in the graphite integration for Timelion visualizer. An attacker with administrative Kibana access could set the timelion:graphite.url configuration option to an arbitrary URL. This could possibly lead to an attacker accessing external URL resources as the Kibana process on the host system.
 
@@ -6717,6 +6759,55 @@
 - [https://github.com/wolf1892/CVE-2019-7609](https://github.com/wolf1892/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/wolf1892/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/wolf1892/CVE-2019-7609.svg)
 
 - [https://github.com/dnr6419/CVE-2019-7609](https://github.com/dnr6419/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/dnr6419/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/dnr6419/CVE-2019-7609.svg)
+
+## CVE-2019-7578
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in InitIMA_ADPCM in audio/SDL_wave.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7578](https://github.com/Live-Hack-CVE/CVE-2019-7578) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7578.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7578.svg)
+
+## CVE-2019-7577
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a buffer over-read in SDL_LoadWAV_RW in audio/SDL_wave.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7577](https://github.com/Live-Hack-CVE/CVE-2019-7577) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7577.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7577.svg)
+
+## CVE-2019-7576
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in InitMS_ADPCM in audio/SDL_wave.c (outside the wNumCoef loop).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7576](https://github.com/Live-Hack-CVE/CVE-2019-7576) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7576.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7576.svg)
+
+## CVE-2019-7575
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer overflow in MS_ADPCM_decode in audio/SDL_wave.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7575](https://github.com/Live-Hack-CVE/CVE-2019-7575) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7575.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7575.svg)
+
+## CVE-2019-7574
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in IMA_ADPCM_decode in audio/SDL_wave.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7574](https://github.com/Live-Hack-CVE/CVE-2019-7574) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7574.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7574.svg)
+
+## CVE-2019-7573
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in InitMS_ADPCM in audio/SDL_wave.c (inside the wNumCoef loop).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7573](https://github.com/Live-Hack-CVE/CVE-2019-7573) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7573.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7573.svg)
+
+## CVE-2019-7572
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a buffer over-read in IMA_ADPCM_nibble in audio/SDL_wave.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7572](https://github.com/Live-Hack-CVE/CVE-2019-7572) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7572.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7572.svg)
 
 ## CVE-2019-7489
  A vulnerability in SonicWall Email Security appliance allow an unauthenticated user to perform remote code execution. This vulnerability affected Email Security Appliance version 10.0.2 and earlier.
@@ -7643,9 +7734,9 @@
 
 - [https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447](https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447) :  ![starts](https://img.shields.io/github/stars/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447.svg) ![forks](https://img.shields.io/github/forks/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447.svg)
 
-- [https://github.com/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation](https://github.com/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation.svg)
-
 - [https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application](https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application) :  ![starts](https://img.shields.io/github/stars/KaviDk/CVE-2019-6447-in-Mobile-Application.svg) ![forks](https://img.shields.io/github/forks/KaviDk/CVE-2019-6447-in-Mobile-Application.svg)
+
+- [https://github.com/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation](https://github.com/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation.svg)
 
 - [https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit) :  ![starts](https://img.shields.io/github/stars/febinrev/CVE-2019-6447-ESfile-explorer-exploit.svg) ![forks](https://img.shields.io/github/forks/febinrev/CVE-2019-6447-ESfile-explorer-exploit.svg)
 
@@ -8257,6 +8348,8 @@
 
 - [https://github.com/takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer) :  ![starts](https://img.shields.io/github/stars/takumak/cve-2019-5736-reproducer.svg) ![forks](https://img.shields.io/github/forks/takumak/cve-2019-5736-reproducer.svg)
 
+- [https://github.com/zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC) :  ![starts](https://img.shields.io/github/stars/zyriuse75/CVE-2019-5736-PoC.svg) ![forks](https://img.shields.io/github/forks/zyriuse75/CVE-2019-5736-PoC.svg)
+
 - [https://github.com/chosam2/cve-2019-5736-poc](https://github.com/chosam2/cve-2019-5736-poc) :  ![starts](https://img.shields.io/github/stars/chosam2/cve-2019-5736-poc.svg) ![forks](https://img.shields.io/github/forks/chosam2/cve-2019-5736-poc.svg)
 
 - [https://github.com/geropl/CVE-2019-5736](https://github.com/geropl/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/geropl/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/geropl/CVE-2019-5736.svg)
@@ -8264,8 +8357,6 @@
 - [https://github.com/si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/si1ent-le/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/si1ent-le/CVE-2019-5736.svg)
 
 - [https://github.com/BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/BBRathnayaka/POC-CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/BBRathnayaka/POC-CVE-2019-5736.svg)
-
-- [https://github.com/zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC) :  ![starts](https://img.shields.io/github/stars/zyriuse75/CVE-2019-5736-PoC.svg) ![forks](https://img.shields.io/github/forks/zyriuse75/CVE-2019-5736-PoC.svg)
 
 - [https://github.com/Lee-SungYoung/cve-2019-5736-study](https://github.com/Lee-SungYoung/cve-2019-5736-study) :  ![starts](https://img.shields.io/github/stars/Lee-SungYoung/cve-2019-5736-study.svg) ![forks](https://img.shields.io/github/forks/Lee-SungYoung/cve-2019-5736-study.svg)
 
@@ -8519,9 +8610,9 @@
 
 - [https://github.com/trickstersec/CVE-2019-5420](https://github.com/trickstersec/CVE-2019-5420) :  ![starts](https://img.shields.io/github/stars/trickstersec/CVE-2019-5420.svg) ![forks](https://img.shields.io/github/forks/trickstersec/CVE-2019-5420.svg)
 
-- [https://github.com/PenTestical/CVE-2019-5420](https://github.com/PenTestical/CVE-2019-5420) :  ![starts](https://img.shields.io/github/stars/PenTestical/CVE-2019-5420.svg) ![forks](https://img.shields.io/github/forks/PenTestical/CVE-2019-5420.svg)
-
 - [https://github.com/Eremiel/CVE-2019-5420](https://github.com/Eremiel/CVE-2019-5420) :  ![starts](https://img.shields.io/github/stars/Eremiel/CVE-2019-5420.svg) ![forks](https://img.shields.io/github/forks/Eremiel/CVE-2019-5420.svg)
+
+- [https://github.com/PenTestical/CVE-2019-5420](https://github.com/PenTestical/CVE-2019-5420) :  ![starts](https://img.shields.io/github/stars/PenTestical/CVE-2019-5420.svg) ![forks](https://img.shields.io/github/forks/PenTestical/CVE-2019-5420.svg)
 
 - [https://github.com/AnasTaoutaou/CVE-2019-5420](https://github.com/AnasTaoutaou/CVE-2019-5420) :  ![starts](https://img.shields.io/github/stars/AnasTaoutaou/CVE-2019-5420.svg) ![forks](https://img.shields.io/github/forks/AnasTaoutaou/CVE-2019-5420.svg)
 
