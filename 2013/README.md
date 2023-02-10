@@ -200,6 +200,13 @@
 
 - [https://github.com/milo2012/CVE-2013-6117](https://github.com/milo2012/CVE-2013-6117) :  ![starts](https://img.shields.io/github/stars/milo2012/CVE-2013-6117.svg) ![forks](https://img.shields.io/github/forks/milo2012/CVE-2013-6117.svg)
 
+## CVE-2013-6045
+ Multiple heap-based buffer overflows in OpenJPEG 1.3 and earlier might allow remote attackers to execute arbitrary code via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-9675](https://github.com/Live-Hack-CVE/CVE-2016-9675) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-9675.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-9675.svg)
+
 ## CVE-2013-5908
  Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.72 and earlier, 5.5.34 and earlier, and 5.6.14 and earlier allows remote attackers to affect availability via unknown vectors related to Error Handling.
 
