@@ -1,602 +1,690 @@
-# Update 2023-02-09
-## CVE-2023-25194
- A possible security vulnerability has been identified in Apache Kafka Connect. This requires access to a Kafka Connect worker, and the ability to create/modify connectors on it with an arbitrary Kafka client SASL JAAS config and a SASL-based security protocol, which has been possible on Kafka Connect clusters since Apache Kafka 2.3.0. When configuring the connector via the Kafka Connect REST API, an authenticated operator can set the `sasl.jaas.config` property for any of the connector's Kafka clients to &quot;com.sun.security.auth.module.JndiLoginModule&quot;, which can be done via the `producer.override.sasl.jaas.config`, `consumer.override.sasl.jaas.config`, or `admin.override.sasl.jaas.config` properties. This will allow the server to connect to the attacker's LDAP server and deserialize the LDAP response, which the attacker can use to execute java deserialization gadget chains on the Kafka connect server. Attacker can cause unrestricted deserialization of untrusted data (or) RCE vulnerability when there are gadgets in the classpath. Since Apache Kafka 3.0.0, users are allowed to specify these properties in connector configurations for Kafka Connect clusters running with out-of-the-box configurations. Before Apache Kafka 3.0.0, users may not specify these properties unless the Kafka Connect cluster has been reconfigured with a connector client override policy that permits them. Since Apache Kafka 3.4.0, we have added a system property (&quot;-Dorg.apache.kafka.disallowed.login.modules&quot;) to disable the problematic login modules usage in SASL JAAS configuration. Also by default &quot;com.sun.security.auth.module.JndiLoginModule&quot; is disabled in Apache Kafka 3.4.0. We advise the Kafka Connect users to validate connector configurations and only allow trusted JNDI configurations. Also examine connector dependencies for vulnerable versions and either upgrade their connectors, upgrading that specific dependency, or removing the connectors as options for remediation. Finally, in addition to leveraging the &quot;org.apache.kafka.disallowed.login.modules&quot; system property, Kafka Connect users can also implement their own connector client config override policy, which can be used to control which Kafka client properties can be overridden directly in a connector config and which cannot.
+# Update 2023-02-10
+## CVE-2023-25168
+ Wings is Pterodactyl's server control plane. This vulnerability can be used to delete files and directories recursively on the host system. This vulnerability can be combined with `GHSA-p8r3-83r8-jwj5` to overwrite files on the host system. In order to use this exploit, an attacker must have an existing &quot;server&quot; allocated and controlled by Wings. This vulnerability has been resolved in version `v1.11.4` of Wings, and has been back-ported to the 1.7 release series in `v1.7.4`. Anyone running `v1.11.x` should upgrade to `v1.11.4` and anyone running `v1.7.x` should upgrade to `v1.7.4`. There are no known workarounds for this issue.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-25194](https://github.com/Live-Hack-CVE/CVE-2023-25194) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25194.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25194.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-25168](https://github.com/Live-Hack-CVE/CVE-2023-25168) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25168.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25168.svg)
 
 
-## CVE-2023-25136
- OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be triggered by an unauthenticated attacker in the default configuration; however, the vulnerability discoverer reports that &quot;exploiting this vulnerability will not be easy.&quot;
+## CVE-2023-25163
+ Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. All versions of Argo CD starting with v2.6.0-rc1 have an output sanitization bug which leaks repository access credentials in error messages. These error messages are visible to the user, and they are logged. The error message is visible when a user attempts to create or update an Application via the Argo CD API (and therefor the UI or CLI). The user must have `applications, create` or `applications, update` RBAC access to reach the code which may produce the error. The user is not guaranteed to be able to trigger the error message. They may attempt to spam the API with requests to trigger a rate limit error from the upstream repository. If the user has `repositories, update` access, they may edit an existing repository to introduce a URL typo or otherwise force an error message. But if they have that level of access, they are probably intended to have access to the credentials anyway. A patch for this vulnerability has been released in version 2.6.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.
 
-- [https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free](https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free) :  ![starts](https://img.shields.io/github/stars/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free.svg) ![forks](https://img.shields.io/github/forks/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-25163](https://github.com/Live-Hack-CVE/CVE-2023-25163) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25163.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25163.svg)
 
 
-## CVE-2023-24828
- Onedev is a self-hosted Git Server with CI/CD and Kanban. In versions prior to 7.9.12 the algorithm used to generate access token and password reset keys was not cryptographically secure. Existing normal users (or everyone if it allows self-registration) may exploit this to elevate privilege to obtain administrator permission. This issue is has been addressed in version 7.9.12. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+## CVE-2023-24997
+ Deserialization of Untrusted Data vulnerability in Apache Software Foundation Apache InLong.This issue affects Apache InLong: from 1.1.0 through 1.5.0. Users are advised to upgrade to Apache InLong's latest version or cherry-pick https://github.com/apache/inlong/pull/7223 https://github.com/apache/inlong/pull/7223 to solve it.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-24828](https://github.com/Live-Hack-CVE/CVE-2023-24828) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24828.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24828.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-24997](https://github.com/Live-Hack-CVE/CVE-2023-24997) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24997.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24997.svg)
 
 
-## CVE-2023-24827
- syft is a a CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems. A password disclosure flaw was found in Syft versions v0.69.0 and v0.69.1. This flaw leaks the password stored in the SYFT_ATTEST_PASSWORD environment variable. The `SYFT_ATTEST_PASSWORD` environment variable is for the `syft attest` command to generate attested SBOMs for the given container image. This environment variable is used to decrypt the private key (provided with `syft attest --key &lt;path-to-key-file&gt;`) during the signing process while generating an SBOM attestation. This vulnerability affects users running syft that have the `SYFT_ATTEST_PASSWORD` environment variable set with credentials (regardless of if the attest command is being used or not). Users that do not have the environment variable `SYFT_ATTEST_PASSWORD` set are not affected by this issue. The credentials are leaked in two ways: in the syft logs when `-vv` or `-vvv` are used in the syft command (which is any log level &gt;= `DEBUG`) and in the attestation or SBOM only when the `syft-json` format is used. Note that as of v0.69.0 any generated attestations by the `syft attest` command are uploaded to the OCI registry (if you have write access to that registry) in the same way `cosign attach` is done. This means that any attestations generated for the affected versions of syft when the `SYFT_ATTEST_PASSWORD` environment variable was set would leak credentials in the attestation payload uploaded to the OCI registry. This issue has been patched in commit `9995950c70` and has been released as v0.70.0. There are no workarounds for this vulnerability. Users are advised to upgrade.
+## CVE-2023-24610
+ NOSH 4a5cfdb allows remote authenticated users to execute PHP arbitrary code via the &quot;practice logo&quot; upload feature. The client-side checks can be bypassed. This may allow attackers to steal Protected Health Information because the product is for health charting.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-24827](https://github.com/Live-Hack-CVE/CVE-2023-24827) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24827.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24827.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-24610](https://github.com/Live-Hack-CVE/CVE-2023-24610) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24610.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24610.svg)
 
 
-## CVE-2023-24808
- PDFio is a C library for reading and writing PDF files. In versions prior to 1.1.0 a denial of service (DOS) vulnerability exists in the pdfio parser. Crafted pdf files can cause the program to run at 100% utilization and never terminate. The pdf which causes this crash found in testing is about 28kb in size and was discovered via fuzzing. Anyone who uses this library either as a standalone binary or as a library can be DOSed when attempting to parse this type of file. Web servers or other automated processes which rely on this code to turn pdf submissions into plaintext can be DOSed when an attacker uploads the pdf. Please see the linked GHSA for an example pdf. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+## CVE-2023-24508
+ Baicells Nova 227, Nova 233, and Nova 243 LTE TDD eNodeB and Nova 246 devices with firmware through RTS/RTD 3.6.6 are vulnerable to remote shell code exploitation via HTTP command injections. Commands are executed using pre-login execution and executed with root permissions. The following methods below have been tested and validated by a 3rd party analyst and has been confirmed exploitable special thanks to Rustam Amin for providing the steps to reproduce.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-24808](https://github.com/Live-Hack-CVE/CVE-2023-24808) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24808.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24808.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-24508](https://github.com/Live-Hack-CVE/CVE-2023-24508) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24508.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24508.svg)
 
 
-## CVE-2023-23696
- Dell Command Intel vPro Out of Band, versions prior to 4.3.1, contain an Improper Authorization vulnerability. A locally authenticated malicious users could potentially exploit this vulnerability in order to write arbitrary files to the system.
+## CVE-2023-24055
+ ** DISPUTED ** KeePass through 2.53 (in a default installation) allows an attacker, who has write access to the XML configuration file, to obtain the cleartext passwords by adding an export trigger. NOTE: the vendor's position is that the password database is not intended to be secure against an attacker who has that level of access to the local PC.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-23696](https://github.com/Live-Hack-CVE/CVE-2023-23696) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23696.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23696.svg)
+- [https://github.com/digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess) :  ![starts](https://img.shields.io/github/stars/digital-dev/KeePass-TriggerLess.svg) ![forks](https://img.shields.io/github/forks/digital-dev/KeePass-TriggerLess.svg)
 
 
-## CVE-2023-23609
- Contiki-NG is an open-source, cross-platform operating system for Next-Generation IoT devices. Versions prior to and including 4.8 are vulnerable to an out-of-bounds write that can occur in the BLE-L2CAP module. The Bluetooth Low Energy - Logical Link Control and Adaptation Layer Protocol (BLE-L2CAP) module handles fragmentation of packets up the configured MTU size. When fragments are reassembled, they are stored in a packet buffer of a configurable size, but there is no check to verify that the packet buffer is large enough to hold the reassembled packet. In Contiki-NG's default configuration, it is possible that an out-of-bounds write of up to 1152 bytes occurs. The vulnerability has been patched in the &quot;develop&quot; branch of Contiki-NG, and will be included in release 4.9. The problem can be fixed by applying the patch in Contiki-NG pull request #2254 prior to the release of version 4.9.
+## CVE-2023-23692
+ Dell EMC prior to version DDOS 7.9 contain(s) an OS command injection Vulnerability. An authenticated non admin attacker could potentially exploit this vulnerability, leading to the execution of arbitrary OS commands on the application's underlying OS, with the privileges of the vulnerable application.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-23609](https://github.com/Live-Hack-CVE/CVE-2023-23609) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23609.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23609.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-23692](https://github.com/Live-Hack-CVE/CVE-2023-23692) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23692.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23692.svg)
 
 
-## CVE-2023-23582
- Snap One Wattbox WB-300-IP-3 versions WB10.9a17 and prior are vulnerable to a heap-based buffer overflow, which could allow an attacker to execute arbitrary code or crash the device remotely.
+## CVE-2023-23136
+ lmxcms v1.41 was discovered to contain an arbitrary file deletion vulnerability via BackdbAction.class.php.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-23582](https://github.com/Live-Hack-CVE/CVE-2023-23582) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23582.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23582.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-23136](https://github.com/Live-Hack-CVE/CVE-2023-23136) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23136.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23136.svg)
 
 
-## CVE-2023-23026
- Cross site scripting (XSS) vulnerability in sourcecodester oretnom23 sales management system 1.0, allows attackers to execute arbitrary code via the product_name and product_price inputs in file print.php.
+## CVE-2023-23135
+ An arbitrary file upload vulnerability in Ftdms v3.1.6 allows attackers to execute arbitrary code via uploading a crafted JPG file.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-23026](https://github.com/Live-Hack-CVE/CVE-2023-23026) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23026.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23026.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-23135](https://github.com/Live-Hack-CVE/CVE-2023-23135) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23135.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23135.svg)
 
 
-## CVE-2023-23011
- Cross Site Scripting (XSS) vulnerability in InvoicePlane 1.6 via filter_product input to file modal_product_lookups.php.
+## CVE-2023-23132
+ Selfwealth iOS mobile App 3.3.1 is vulnerable to Sensitive key disclosure. The application reveals hardcoded API keys.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-23011](https://github.com/Live-Hack-CVE/CVE-2023-23011) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23011.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23011.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-23132](https://github.com/Live-Hack-CVE/CVE-2023-23132) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23132.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23132.svg)
 
 
-## CVE-2023-22736
- Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Versions starting with 2.5.0-rc1 and above, prior to 2.5.8, and version 2.6.0-rc4, are vulnerable to an authorization bypass bug which allows a malicious Argo CD user to deploy Applications outside the configured allowed namespaces. Reconciled Application namespaces are specified as a comma-delimited list of glob patterns. When sharding is enabled on the Application controller, it does not enforce that list of patterns when reconciling Applications. For example, if Application namespaces are configured to be argocd-*, the Application controller may reconcile an Application installed in a namespace called other, even though it does not start with argocd-. Reconciliation of the out-of-bounds Application is only triggered when the Application is updated, so the attacker must be able to cause an update operation on the Application resource. This bug only applies to users who have explicitly enabled the &quot;apps-in-any-namespace&quot; feature by setting `application.namespaces` in the argocd-cmd-params-cm ConfigMap or otherwise setting the `--application-namespaces` flags on the Application controller and API server components. The apps-in-any-namespace feature is in beta as of this Security Advisory's publish date. The bug is also limited to Argo CD instances where sharding is enabled by increasing the `replicas` count for the Application controller. Finally, the AppProjects' `sourceNamespaces` field acts as a secondary check against this exploit. To cause reconciliation of an Application in an out-of-bounds namespace, an AppProject must be available which permits Applications in the out-of-bounds namespace. A patch for this vulnerability has been released in versions 2.5.8 and 2.6.0-rc5. As a workaround, running only one replica of the Application controller will prevent exploitation of this bug. Making sure all AppProjects' sourceNamespaces are restricted within the confines of the configured Application namespaces will also prevent exploitation of this bug.
+## CVE-2023-23131
+ Selfwealth iOS mobile App 3.3.1 is vulnerable to Insecure App Transport Security (ATS) Settings.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-22736](https://github.com/Live-Hack-CVE/CVE-2023-22736) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22736.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22736.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-23131](https://github.com/Live-Hack-CVE/CVE-2023-23131) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23131.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23131.svg)
 
 
-## CVE-2023-22643
- An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in libzypp-plugin-appdata of SUSE Linux Enterprise Server for SAP 15-SP3; openSUSE Leap 15.4 allows attackers that can trick users to use specially crafted REPO_ALIAS, REPO_TYPE or REPO_METADATA_PATH settings to execute code as root. This issue affects: SUSE Linux Enterprise Server for SAP 15-SP3 libzypp-plugin-appdata versions prior to 1.0.1+git.20180426. openSUSE Leap 15.4 libzypp-plugin-appdata versions prior to 1.0.1+git.20180426.
+## CVE-2023-23073
+ Cross site scripting (XSS) vulnerability in Zoho ManageEngine ServiceDesk Plus 14 via PO in the purchase component.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-22643](https://github.com/Live-Hack-CVE/CVE-2023-22643) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22643.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22643.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-23073](https://github.com/Live-Hack-CVE/CVE-2023-23073) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23073.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23073.svg)
 
 
-## CVE-2023-22611
- A CWE-200: Exposure of Sensitive Information to an Unauthorized Actor vulnerability exists that could cause information disclosure when specific messages are sent to the server over the database server TCP port. Affected Products: EcoStruxure Geo SCADA Expert 2019 - 2021 (formerly known as ClearSCADA) (Versions prior to October 2022)
+## CVE-2023-22575
+ Dell PowerScale OneFS 9.0.0.x - 9.4.0.x contain an insertion of sensitive information into log file vulnerability in celog. A low privileges user could potentially exploit this vulnerability, leading to information disclosure and escalation of privileges.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-22611](https://github.com/Live-Hack-CVE/CVE-2023-22611) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22611.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22611.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-22575](https://github.com/Live-Hack-CVE/CVE-2023-22575) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22575.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22575.svg)
 
 
-## CVE-2023-22389
- Snap One Wattbox WB-300-IP-3 versions WB10.9a17 and prior store passwords in a plaintext file when the device configuration is exported via Save/Restore&#8211;&gt;Backup Settings, which could be read by any user accessing the file.
+## CVE-2023-22572
+ Dell PowerScale OneFS 9.1.0.x-9.4.0.x contain an insertion of sensitive information into log file vulnerability in change password api. A low privilege local attacker could potentially exploit this vulnerability, leading to system takeover.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-22389](https://github.com/Live-Hack-CVE/CVE-2023-22389) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22389.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22389.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-22572](https://github.com/Live-Hack-CVE/CVE-2023-22572) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22572.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22572.svg)
 
 
-## CVE-2023-0736
- Cross-site Scripting (XSS) - Stored in GitHub repository wallabag/wallabag prior to 2.5.4.
+## CVE-2023-0748
+ Open Redirect in GitHub repository btcpayserver/btcpayserver prior to 1.7.6.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0736](https://github.com/Live-Hack-CVE/CVE-2023-0736) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0736.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0736.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0748](https://github.com/Live-Hack-CVE/CVE-2023-0748) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0748.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0748.svg)
 
 
-## CVE-2023-0735
- Cross-Site Request Forgery (CSRF) in GitHub repository wallabag/wallabag prior to 2.5.4.
+## CVE-2023-0747
+ Cross-site Scripting (XSS) - Stored in GitHub repository btcpayserver/btcpayserver prior to 1.7.6.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0735](https://github.com/Live-Hack-CVE/CVE-2023-0735) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0735.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0735.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0747](https://github.com/Live-Hack-CVE/CVE-2023-0747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0747.svg)
 
 
-## CVE-2023-0732
- A vulnerability has been found in SourceCodester Online Eyewear Shop 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file oews/classes/Users.php of the component POST Request Handler. The manipulation of the argument firstname/middlename/lastname/lastname/contact leads to cross site scripting. The attack can be launched remotely. The identifier VDB-220369 was assigned to this vulnerability.
+## CVE-2023-0744
+ Improper Access Control in GitHub repository answerdev/answer prior to 1.0.4.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0732](https://github.com/Live-Hack-CVE/CVE-2023-0732) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0732.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0732.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0744](https://github.com/Live-Hack-CVE/CVE-2023-0744) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0744.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0744.svg)
 
 
-## CVE-2023-0731
- The Interactive Geo Maps plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the action content parameter in versions up to, and including, 1.5.9 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with editor level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+## CVE-2023-0743
+ Cross-site Scripting (XSS) - Generic in GitHub repository answerdev/answer prior to 1.0.4.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0731](https://github.com/Live-Hack-CVE/CVE-2023-0731) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0731.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0731.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0743](https://github.com/Live-Hack-CVE/CVE-2023-0743) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0743.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0743.svg)
 
 
-## CVE-2023-0730
- The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_save_folder_order function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.
+## CVE-2023-0742
+ Cross-site Scripting (XSS) - Stored in GitHub repository answerdev/answer prior to 1.0.4.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0730](https://github.com/Live-Hack-CVE/CVE-2023-0730) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0730.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0730.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0742](https://github.com/Live-Hack-CVE/CVE-2023-0742) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0742.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0742.svg)
 
 
-## CVE-2023-0728
- The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_save_folder function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.
+## CVE-2023-0741
+ Cross-site Scripting (XSS) - DOM in GitHub repository answerdev/answer prior to 1.0.4.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0728](https://github.com/Live-Hack-CVE/CVE-2023-0728) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0728.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0728.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0741](https://github.com/Live-Hack-CVE/CVE-2023-0741) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0741.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0741.svg)
 
 
-## CVE-2023-0727
- The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_delete_folder function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.
+## CVE-2023-0740
+ Cross-site Scripting (XSS) - Stored in GitHub repository answerdev/answer prior to 1.0.4.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0727](https://github.com/Live-Hack-CVE/CVE-2023-0727) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0727.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0727.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0740](https://github.com/Live-Hack-CVE/CVE-2023-0740) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0740.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0740.svg)
 
 
-## CVE-2023-0723
- The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_move_object function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.
+## CVE-2023-0739
+ Race Condition in Switch in GitHub repository answerdev/answer prior to 1.0.4.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0723](https://github.com/Live-Hack-CVE/CVE-2023-0723) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0723.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0723.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0739](https://github.com/Live-Hack-CVE/CVE-2023-0739) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0739.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0739.svg)
 
 
-## CVE-2023-0719
- The Wicked Folders plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the ajax_save_sort_order function in versions up to, and including, 2.18.16. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke this function and perform actions intended for administrators such as modifying the folder structure maintained by the plugin.
+## CVE-2023-0726
+ The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_edit_folder function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0719](https://github.com/Live-Hack-CVE/CVE-2023-0719) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0719.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0719.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0726](https://github.com/Live-Hack-CVE/CVE-2023-0726) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0726.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0726.svg)
 
 
-## CVE-2023-0718
- The Wicked Folders plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the ajax_save_folder function in versions up to, and including, 2.18.16. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke this function and perform actions intended for administrators such as modifying the folder structure maintained by the plugin.
+## CVE-2023-0725
+ The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_clone_folder function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0718](https://github.com/Live-Hack-CVE/CVE-2023-0718) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0718.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0718.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0725](https://github.com/Live-Hack-CVE/CVE-2023-0725) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0725.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0725.svg)
 
 
-## CVE-2023-0713
- The Wicked Folders plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the ajax_add_folder function in versions up to, and including, 2.18.16. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke this function and perform actions intended for administrators such as modifying the folder structure maintained by the plugin.
+## CVE-2023-0724
+ The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_add_folder function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0713](https://github.com/Live-Hack-CVE/CVE-2023-0713) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0713.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0713.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0724](https://github.com/Live-Hack-CVE/CVE-2023-0724) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0724.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0724.svg)
 
 
-## CVE-2023-0712
- The Wicked Folders plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the ajax_move_object function in versions up to, and including, 2.18.16. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke this function and perform actions intended for administrators such as modifying the folder structure maintained by the plugin.
+## CVE-2023-0722
+ The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_save_state function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0712](https://github.com/Live-Hack-CVE/CVE-2023-0712) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0712.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0712.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0722](https://github.com/Live-Hack-CVE/CVE-2023-0722) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0722.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0722.svg)
 
 
-## CVE-2023-0707
- A vulnerability was found in SourceCodester Medical Certificate Generator App 1.0. It has been rated as critical. Affected by this issue is the function delete_record of the file function.php. The manipulation of the argument id leads to sql injection. VDB-220346 is the identifier assigned to this vulnerability.
+## CVE-2023-0720
+ The Wicked Folders plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the ajax_save_folder_order function in versions up to, and including, 2.18.16. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke this function and perform actions intended for administrators such as modifying the folder structure maintained by the plugin.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0707](https://github.com/Live-Hack-CVE/CVE-2023-0707) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0707.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0707.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0720](https://github.com/Live-Hack-CVE/CVE-2023-0720) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0720.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0720.svg)
 
 
-## CVE-2023-0706
- A vulnerability, which was classified as critical, has been found in SourceCodester Medical Certificate Generator App 1.0. Affected by this issue is some unknown functionality of the file manage_record.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The identifier of this vulnerability is VDB-220340.
+## CVE-2023-0717
+ The Wicked Folders plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the ajax_delete_folder function in versions up to, and including, 2.18.16. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke this function and perform actions intended for administrators such as modifying the folder structure maintained by the plugin.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0706](https://github.com/Live-Hack-CVE/CVE-2023-0706) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0706.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0706.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0717](https://github.com/Live-Hack-CVE/CVE-2023-0717) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0717.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0717.svg)
 
 
-## CVE-2023-0074
- The WP Social Widget WordPress plugin before 2.2.4 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.
+## CVE-2023-0716
+ The Wicked Folders plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the ajax_edit_folder function in versions up to, and including, 2.18.16. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke this function and perform actions intended for administrators such as modifying the folder structure maintained by the plugin.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0074](https://github.com/Live-Hack-CVE/CVE-2023-0074) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0074.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0074.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0716](https://github.com/Live-Hack-CVE/CVE-2023-0716) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0716.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0716.svg)
 
 
-## CVE-2023-0071
- The WP Tabs WordPress plugin before 2.1.17 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.
+## CVE-2023-0715
+ The Wicked Folders plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the ajax_clone_folder function in versions up to, and including, 2.18.16. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke this function and perform actions intended for administrators such as modifying the folder structure maintained by the plugin.
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0071](https://github.com/Live-Hack-CVE/CVE-2023-0071) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0071.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0071.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0715](https://github.com/Live-Hack-CVE/CVE-2023-0715) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0715.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0715.svg)
 
 
-## CVE-2023-0045
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2023-0711
+ The Wicked Folders plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the ajax_save_state function in versions up to, and including, 2.18.16. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke this function and perform actions intended for administrators such as modifying the view state of the folder structure maintained by the plugin.
 
-- [https://github.com/missyes/CVE-2023-0045](https://github.com/missyes/CVE-2023-0045) :  ![starts](https://img.shields.io/github/stars/missyes/CVE-2023-0045.svg) ![forks](https://img.shields.io/github/forks/missyes/CVE-2023-0045.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0711](https://github.com/Live-Hack-CVE/CVE-2023-0711) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0711.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0711.svg)
 
 
-## CVE-2023-0033
- The PDF Viewer WordPress plugin before 1.0.0 does not validate and escape one of its shortcode attributes, which could allow users with a role as low as contributor to perform Stored Cross-Site Scripting attack.
+## CVE-2023-0685
+ The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_unassign_folders function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin..
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-0033](https://github.com/Live-Hack-CVE/CVE-2023-0033) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0033.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0033.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0685](https://github.com/Live-Hack-CVE/CVE-2023-0685) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0685.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0685.svg)
 
 
-## CVE-2022-47770
- Serenissima Informatica Fast Checkin version v1.0 is vulnerable to Unauthenticated SQL Injection.
+## CVE-2023-0684
+ The Wicked Folders plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the ajax_unassign_folders function in versions up to, and including, 2.18.16. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to invoke this function and perform actions intended for administrators such as changing the folder structure maintained by the plugin.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-47770](https://github.com/Live-Hack-CVE/CVE-2022-47770) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-47770.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-47770.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0684](https://github.com/Live-Hack-CVE/CVE-2023-0684) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0684.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0684.svg)
 
 
-## CVE-2022-47419
- An XSS vulnerability was discovered in the Mayan EDMS DMS. Successful XSS exploitation was observed in the in-product tagging system.
+## CVE-2023-0669
+ Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication command injection vulnerability in the License Response Servlet due to deserializing an arbitrary attacker-controlled object. This issue was patched in version 7.1.2.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-47419](https://github.com/Live-Hack-CVE/CVE-2022-47419) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-47419.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-47419.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0669](https://github.com/Live-Hack-CVE/CVE-2023-0669) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0669.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0669.svg)
 
 
-## CVE-2022-47418
- LogicalDOC Enterprise and Community Edition (CE) are vulnerable to a stored (persistent, or &quot;Type II&quot;) cross-site scripting (XSS) condition in the document version comments.
+## CVE-2023-0618
+ A vulnerability was found in TRENDnet TEW-652BRP 3.04B01. It has been declared as critical. This vulnerability affects unknown code of the file cfg_op.ccp of the component Web Service. The manipulation leads to memory corruption. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-219958 is the identifier assigned to this vulnerability.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-47418](https://github.com/Live-Hack-CVE/CVE-2022-47418) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-47418.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-47418.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0618](https://github.com/Live-Hack-CVE/CVE-2023-0618) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0618.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0618.svg)
 
 
-## CVE-2022-47417
- LogicalDOC Enterprise and Community Edition (CE) are vulnerable to a stored (persistent, or &quot;Type II&quot;) cross-site scripting (XSS) condition in the document file name.
+## CVE-2023-0617
+ A vulnerability was found in TRENDNet TEW-811DRU 1.0.10.0. It has been classified as critical. This affects an unknown part of the file /wireless/guestnetwork.asp of the component httpd. The manipulation leads to buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-219957 was assigned to this vulnerability.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-47417](https://github.com/Live-Hack-CVE/CVE-2022-47417) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-47417.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-47417.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0617](https://github.com/Live-Hack-CVE/CVE-2023-0617) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0617.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0617.svg)
 
 
-## CVE-2022-47416
- LogicalDOC Enterprise is vulnerable to a stored (persistent, or &quot;Type II&quot;) cross-site scripting (XSS) condition in the in-app chat system.
+## CVE-2023-0251
+ Delta Electronics DIAScreen versions 1.2.1.23 and prior are vulnerable to a buffer overflow through improper restrictions of operations within memory, which could allow an attacker to remotely execute arbitrary code.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-47416](https://github.com/Live-Hack-CVE/CVE-2022-47416) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-47416.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-47416.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0251](https://github.com/Live-Hack-CVE/CVE-2023-0251) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0251.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0251.svg)
 
 
-## CVE-2022-47415
- LogicalDOC Enterprise and Community Edition (CE) are vulnerable to a stored (persistent, or &quot;Type II&quot;) cross-site scripting (XSS) condition in the in-app messaging system (both subject and message bodies).
+## CVE-2023-0250
+ Delta Electronics DIAScreen versions 1.2.1.23 and prior are vulnerable to a stack-based buffer overflow, which could allow an attacker to remotely execute arbitrary code.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-47415](https://github.com/Live-Hack-CVE/CVE-2022-47415) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-47415.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-47415.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0250](https://github.com/Live-Hack-CVE/CVE-2023-0250) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0250.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0250.svg)
 
 
-## CVE-2022-47414
- If an attacker has access to the console for OpenKM (and is authenticated), a stored XSS vulnerability is reachable in the document &quot;note&quot; functionality.
+## CVE-2023-0249
+ Delta Electronics DIAScreen versions 1.2.1.23 and prior are vulnerable to out-of-bounds write, which may allow an attacker to remotely execute arbitrary code.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-47414](https://github.com/Live-Hack-CVE/CVE-2022-47414) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-47414.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-47414.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0249](https://github.com/Live-Hack-CVE/CVE-2023-0249) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0249.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0249.svg)
 
 
-## CVE-2022-47413
- Given a malicious document provided by an attacker, the OpenKM DMS is vulnerable to a stored (persistent, or &quot;Type II&quot;) XSS condition.
+## CVE-2023-0003
+ A file disclosure vulnerability in the Palo Alto Networks Cortex XSOAR server software enables an authenticated user with access to the web interface to read local files from the server.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-47413](https://github.com/Live-Hack-CVE/CVE-2022-47413) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-47413.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-47413.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0003](https://github.com/Live-Hack-CVE/CVE-2023-0003) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0003.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0003.svg)
 
 
-## CVE-2022-47412
- Given a malicious document provided by an attacker, the ONLYOFFICE Workspace DMS is vulnerable to a stored (persistent, or &quot;Type II&quot;) cross-site scripting (XSS) condition.
+## CVE-2023-0002
+ A problem with a protection mechanism in the Palo Alto Networks Cortex XDR agent on Windows devices allows a local user to execute privileged cytool commands that disable or uninstall the agent.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-47412](https://github.com/Live-Hack-CVE/CVE-2022-47412) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-47412.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-47412.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0002](https://github.com/Live-Hack-CVE/CVE-2023-0002) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0002.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0002.svg)
 
 
-## CVE-2022-46663
- In GNU Less before 609, crafted data can result in &quot;less -R&quot; not filtering ANSI escape sequences sent to the terminal.
+## CVE-2023-0001
+ An information exposure vulnerability in the Palo Alto Networks Cortex XDR agent on Windows devices allows a local system administrator to disclose the admin password for the agent in cleartext, which bad actors can then use to execute privileged cytool commands that disable or uninstall the agent.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-46663](https://github.com/Live-Hack-CVE/CVE-2022-46663) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-46663.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-46663.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-0001](https://github.com/Live-Hack-CVE/CVE-2023-0001) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0001.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0001.svg)
 
 
-## CVE-2022-46621
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
+## CVE-2022-48094
+ lmxcms v1.41 was discovered to contain an arbitrary file read vulnerability via TemplateAction.class.php.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-46621](https://github.com/Live-Hack-CVE/CVE-2022-46621) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-46621.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-46621.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-48094](https://github.com/Live-Hack-CVE/CVE-2022-48094) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-48094.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-48094.svg)
 
 
-## CVE-2022-46620
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
+## CVE-2022-48093
+ Seacms v12.7 was discovered to contain a remote code execution (RCE) vulnerability via the ip parameter at admin_ ip.php.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-46620](https://github.com/Live-Hack-CVE/CVE-2022-46620) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-46620.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-46620.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-48093](https://github.com/Live-Hack-CVE/CVE-2022-48093) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-48093.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-48093.svg)
 
 
-## CVE-2022-45674
- Tenda AC6V1.0 V15.03.05.19 is vulnerable to Cross Site Request Forgery (CSRF) via function fromSysToolReboot.
+## CVE-2022-47648
+ Bosch Security Systems B420 firmware 02.02.0001 employs IP based authorization in its authentication mechanism, allowing attackers to access the device as long as they are on the same network as a legitimate user.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-45674](https://github.com/Live-Hack-CVE/CVE-2022-45674) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-45674.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-45674.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-47648](https://github.com/Live-Hack-CVE/CVE-2022-47648) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-47648.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-47648.svg)
 
 
-## CVE-2022-45544
- Insecure Permission vulnerability in Schlix Web Inc SCHLIX CMS 2.2.7-2 allows attacker to upload arbitrary files and execute arbitrary code via the tristao parameter.
+## CVE-2022-46842
+ Cross-Site Request Forgery (CSRF) vulnerability in JS Help Desk plugin &lt;= 2.7.1 versions.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-45544](https://github.com/Live-Hack-CVE/CVE-2022-45544) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-45544.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-45544.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-46842](https://github.com/Live-Hack-CVE/CVE-2022-46842) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-46842.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-46842.svg)
 
 
-## CVE-2022-45441
- A cross-site scripting (XSS) vulnerability in Zyxel NBG-418N v2 firmware versions prior to V1.00(AARP.13)C0, which could allow an attacker to store malicious scripts in the Logs page of the GUI on a vulnerable device. A successful XSS attack could force an authenticated user to execute the stored malicious scripts and then result in a denial-of-service (DoS) condition when the user visits the Logs page of the GUI on the device.
+## CVE-2022-46815
+ Cross-Site Request Forgery (CSRF) vulnerability in Lauri Karisola / WP Trio Conditional Shipping for WooCommerce plugin &lt;= 2.3.1 versions.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-45441](https://github.com/Live-Hack-CVE/CVE-2022-45441) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-45441.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-45441.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-46815](https://github.com/Live-Hack-CVE/CVE-2022-46815) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-46815.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-46815.svg)
 
 
-## CVE-2022-45192
- An issue was discovered on Microchip RN4870 1.43 devices. An attacker within BLE radio range can cause a denial of service by sending a cleartext encryption pause request.
+## CVE-2022-45982
+ thinkphp 6.0.0~6.0.13 and 6.1.0~6.1.1 contains a deserialization vulnerability. This vulnerability allows attackers to execute arbitrary code via a crafted payload.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-45192](https://github.com/Live-Hack-CVE/CVE-2022-45192) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-45192.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-45192.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-45982](https://github.com/Live-Hack-CVE/CVE-2022-45982) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-45982.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-45982.svg)
 
 
-## CVE-2022-45191
- An issue was discovered on Microchip RN4870 1.43 devices. An attacker within BLE radio range can cause a denial of service by sending a pair confirm message with wrong values.
+## CVE-2022-45807
+ Cross-Site Request Forgery (CSRF) in WPVibes WP Mail Log plugin &lt;= 1.0.1 versions.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-45191](https://github.com/Live-Hack-CVE/CVE-2022-45191) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-45191.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-45191.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-45807](https://github.com/Live-Hack-CVE/CVE-2022-45807) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-45807.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-45807.svg)
 
 
-## CVE-2022-45190
- An issue was discovered on Microchip RN4870 1.43 devices. An attacker within BLE radio range can bypass passkey entry in the legacy pairing of the device.
+## CVE-2022-45770
+ Improper input validation in driver adgnetworkwfpdrv.sys in Adguard For Windows x86 up to version 7.11 allows attacker to gain local privileges escalation.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-45190](https://github.com/Live-Hack-CVE/CVE-2022-45190) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-45190.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-45190.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-45770](https://github.com/Live-Hack-CVE/CVE-2022-45770) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-45770.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-45770.svg)
 
 
-## CVE-2022-43759
- A Improper Privilege Management vulnerability in SUSE Rancher, allows users with access to the escalate verb on PRTBs to escalate permissions for any -promoted resource in any cluster. This issue affects: SUSE Rancher Rancher versions prior to 2.5.17; Rancher versions prior to 2.6.10.
+## CVE-2022-44585
+ Cross-Site Request Forgery (CSRF) vulnerability in Magneticlab Srl Homepage Pop-up plugin &lt;= 1.2.5 versions.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-43759](https://github.com/Live-Hack-CVE/CVE-2022-43759) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-43759.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-43759.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-44585](https://github.com/Live-Hack-CVE/CVE-2022-44585) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-44585.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-44585.svg)
 
 
-## CVE-2022-43758
- A Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in SUSE Rancher allows code execution for user with the ability to add an untrusted Helm catalog or modifying the URL configuration used to download KDM (only admin users by default) This issue affects: SUSE Rancher Rancher versions prior to 2.5.17; Rancher versions prior to 2.6.10; Rancher versions prior to 2.7.1.
+## CVE-2022-43765
+ B&amp;R APROL versions &lt; R 4.2-07 doesn&#8217;t process correctly specially formatted data packages sent to port 55502/tcp, which may allow a network based attacker to cause an application Denial-of-Service.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-43758](https://github.com/Live-Hack-CVE/CVE-2022-43758) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-43758.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-43758.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-43765](https://github.com/Live-Hack-CVE/CVE-2022-43765) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-43765.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-43765.svg)
 
 
-## CVE-2022-43757
- A Cleartext Storage of Sensitive Information vulnerability in SUSE Rancher allows users on managed clusters to gain access to credentials. The impact depends on the credentials exposed This issue affects: SUSE Rancher Rancher versions prior to 2.5.17; Rancher versions prior to 2.6.10; Rancher versions prior to 2.7.1.
+## CVE-2022-43764
+ Insufficient validation of input parameters when changing configuration on Tbase server in B&amp;R APROL versions &lt; R 4.2-07 could result in buffer overflow. This may lead to Denial-of-Service conditions or execution of arbitrary code.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-43757](https://github.com/Live-Hack-CVE/CVE-2022-43757) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-43757.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-43757.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-43764](https://github.com/Live-Hack-CVE/CVE-2022-43764) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-43764.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-43764.svg)
 
 
-## CVE-2022-43756
- A Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') vulnerability in SUSE Rancher allows remote attackers to cause denial of service by supplying specially crafted git credentials. This issue affects: SUSE Rancher wrangler version 0.7.3 and prior versions; wrangler version 0.8.4 and prior versions; wrangler version 1.0.0 and prior versions.
+## CVE-2022-43763
+ Insufficient check of preconditions could lead to Denial of Service conditions when calling commands on the Tbase server of B&amp;R APROL versions &lt; R 4.2-07.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-43756](https://github.com/Live-Hack-CVE/CVE-2022-43756) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-43756.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-43756.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-43763](https://github.com/Live-Hack-CVE/CVE-2022-43763) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-43763.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-43763.svg)
 
 
-## CVE-2022-43755
- A Insufficient Entropy vulnerability in SUSE Rancher allows attackers that gained knowledge of the cattle-token to continue abusing this even after the token was renewed. This issue affects: SUSE Rancher Rancher versions prior to 2.6.10; Rancher versions prior to 2.7.1.
+## CVE-2022-43762
+ Lack of verification in B&amp;R APROL Tbase server versions &lt; R 4.2-07 may lead to memory leaks when receiving messages
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-43755](https://github.com/Live-Hack-CVE/CVE-2022-43755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-43755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-43755.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-43762](https://github.com/Live-Hack-CVE/CVE-2022-43762) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-43762.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-43762.svg)
 
 
-## CVE-2022-43591
- A buffer overflow vulnerability exists in the QML QtScript Reflect API of Qt Project Qt 6.3.2. A specially-crafted javascript code can trigger an out-of-bounds memory access, which can lead to arbitrary code execution. Target application would need to access a malicious web page to trigger this vulnerability.
+## CVE-2022-43761
+ Missing authentication when creating and managing the B&amp;R APROL database in versions &lt; R 4.2-07 allows reading and changing the system configuration.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-43591](https://github.com/Live-Hack-CVE/CVE-2022-43591) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-43591.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-43591.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-43761](https://github.com/Live-Hack-CVE/CVE-2022-43761) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-43761.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-43761.svg)
 
 
-## CVE-2022-41313
- A stored cross-site scripting vulnerability exists in the web application functionality of Moxa SDS-3008 Series Industrial Ethernet Switch 2.1. A specially-crafted HTTP request can lead to arbitrary Javascript execution. An attacker can send an HTTP request to trigger this vulnerability.Form field id=&quot;switch_contact&quot;
+## CVE-2022-41620
+ Cross-Site Request Forgery (CSRF) vulnerability in SeoSamba for WordPress Webmasters plugin &lt;= 1.0.5 versions.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-41313](https://github.com/Live-Hack-CVE/CVE-2022-41313) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-41313.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-41313.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-41620](https://github.com/Live-Hack-CVE/CVE-2022-41620) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-41620.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-41620.svg)
 
 
-## CVE-2022-41312
- A stored cross-site scripting vulnerability exists in the web application functionality of Moxa SDS-3008 Series Industrial Ethernet Switch 2.1. A specially-crafted HTTP request can lead to arbitrary Javascript execution. An attacker can send an HTTP request to trigger this vulnerability.Form field id=&quot;Switch Description&quot;, name &quot;switch_description&quot;
+## CVE-2022-40692
+ Cross-Site Request Forgery (CSRF) vulnerability in WP Sunshine Sunshine Photo Cart plugin &lt;= 2.9.13 versions.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-41312](https://github.com/Live-Hack-CVE/CVE-2022-41312) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-41312.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-41312.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-40692](https://github.com/Live-Hack-CVE/CVE-2022-40692) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-40692.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-40692.svg)
 
 
-## CVE-2022-41311
- A stored cross-site scripting vulnerability exists in the web application functionality of Moxa SDS-3008 Series Industrial Ethernet Switch 2.1. A specially-crafted HTTP request can lead to arbitrary Javascript execution. An attacker can send an HTTP request to trigger this vulnerability.Form field id=&quot;webLocationMessage_text&quot; name=&quot;webLocationMessage_text&quot;
+## CVE-2022-40035
+ File Upload Vulnerability found in Rawchen Blog-ssm v1.0 allowing attackers to execute arbitrary commands and gain escalated privileges via the /uploadFileList component.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-41311](https://github.com/Live-Hack-CVE/CVE-2022-41311) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-41311.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-41311.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-40035](https://github.com/Live-Hack-CVE/CVE-2022-40035) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-40035.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-40035.svg)
 
 
-## CVE-2022-40693
- A cleartext transmission vulnerability exists in the web application functionality of Moxa SDS-3008 Series Industrial Ethernet Switch 2.1. A specially-crafted network sniffing can lead to a disclosure of sensitive information. An attacker can sniff network traffic to trigger this vulnerability.
+## CVE-2022-39299
+ Passport-SAML is a SAML 2.0 authentication provider for Passport, the Node.js authentication library. A remote attacker may be able to bypass SAML authentication on a website using passport-saml. A successful attack requires that the attacker is in possession of an arbitrary IDP signed XML element. Depending on the IDP used, fully unauthenticated attacks (e.g without access to a valid user) might also be feasible if generation of a signed message can be triggered. Users should upgrade to passport-saml version 3.2.2 or newer. The issue was also present in the beta releases of `node-saml` before version 4.0.0-beta.5. If you cannot upgrade, disabling SAML authentication may be done as a workaround.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-40693](https://github.com/Live-Hack-CVE/CVE-2022-40693) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-40693.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-40693.svg)
+- [https://github.com/doyensec/CVE-2022-39299_PoC_Generator](https://github.com/doyensec/CVE-2022-39299_PoC_Generator) :  ![starts](https://img.shields.io/github/stars/doyensec/CVE-2022-39299_PoC_Generator.svg) ![forks](https://img.shields.io/github/forks/doyensec/CVE-2022-39299_PoC_Generator.svg)
 
 
-## CVE-2022-40691
- An information disclosure vulnerability exists in the web application functionality of Moxa SDS-3008 Series Industrial Ethernet Switch 2.1. A specially-crafted HTTP request can lead to a disclosure of sensitive information. An attacker can send an HTTP request to trigger this vulnerability.
+## CVE-2022-38900
+ decode-uri-component 0.2.0 is vulnerable to Improper Input Validation resulting in DoS.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-40691](https://github.com/Live-Hack-CVE/CVE-2022-40691) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-40691.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-40691.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-38778](https://github.com/Live-Hack-CVE/CVE-2022-38778) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-38778.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-38778.svg)
 
 
-## CVE-2022-40480
- Nordic Semiconductor, Microchip Technology NRF5340-DK DT100112 was discovered to contain an issue which allows attackers to cause a Denial of Service (DoS) via a crafted ConReq packet.
+## CVE-2022-38778
+ A flaw (CVE-2022-38900) was discovered in one of Kibana&#8217;s third party dependencies, that could allow an authenticated user to perform a request that crashes the Kibana server process.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-40480](https://github.com/Live-Hack-CVE/CVE-2022-40480) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-40480.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-40480.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-38778](https://github.com/Live-Hack-CVE/CVE-2022-38778) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-38778.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-38778.svg)
 
 
-## CVE-2022-40224
- A denial of service vulnerability exists in the web server functionality of Moxa SDS-3008 Series Industrial Ethernet Switch 2.1. A specially-crafted HTTP message header can lead to denial of service. An attacker can send an HTTP request to trigger this vulnerability.
+## CVE-2022-38777
+ An issue was discovered in the rollback feature of Elastic Endpoint Security for Windows, which could allow unprivileged users to elevate their privileges to those of the LocalSystem account.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-40224](https://github.com/Live-Hack-CVE/CVE-2022-40224) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-40224.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-40224.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-38777](https://github.com/Live-Hack-CVE/CVE-2022-38777) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-38777.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-38777.svg)
 
 
-## CVE-2022-37184
- The application manage_website.php on Garage Management System 1.0 is vulnerable to Shell File Upload. The already authenticated malicious user, can upload a dangerous RCE or LCE exploit file.
+## CVE-2022-36118
+ An issue was discovered in Blue Prism Enterprise 6.0 through 7.01. In a misconfigured environment that exposes the Blue Prism Application server, it is possible for an authenticated user to reverse engineer the Blue Prism software and circumvent access controls for the SetProcessAttributes administrative function. Abusing this function will allow any Blue Prism user to publish, unpublish, or retire processes. Using this function, any logged-in user can change the status of a process, an action allowed only intended for users with the Edit Process permission.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-37184](https://github.com/Live-Hack-CVE/CVE-2022-37184) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-37184.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-37184.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-36118](https://github.com/Live-Hack-CVE/CVE-2022-36118) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-36118.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-36118.svg)
 
 
-## CVE-2022-32523
- A CWE-120: Buffer Copy without Checking Size of Input vulnerability exists that could cause a stack-based buffer overflow, potentially leading to remote code execution when an attacker sends specially crafted online data request messages. Affected Products: IGSS Data Server - IGSSdataServer.exe (Versions prior to V15.0.0.22170)
+## CVE-2022-34350
+ IBM API Connect 10.0.0.0 through 10.0.5.0, 10.0.1.0 through 10.0.1.7, and 2018.4.1.0 through 2018.4.1.20 is vulnerable to External Service Interaction attack, caused by improper validation of user-supplied input. A remote attacker could exploit this vulnerability to induce the application to perform server-side DNS lookups or HTTP requests to arbitrary domain names. By submitting suitable payloads, an attacker can cause the application server to attack other systems that it can interact with. IBM X-Force ID: 230264.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-32523](https://github.com/Live-Hack-CVE/CVE-2022-32523) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-32523.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-32523.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-34350](https://github.com/Live-Hack-CVE/CVE-2022-34350) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-34350.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-34350.svg)
 
 
-## CVE-2022-32520
- A CWE-522: Insufficiently Protected Credentials vulnerability exists that could result in unwanted access to a DCE instance when performed over a network by a malicious third-party. This CVE is unique from CVE-2022-32518. Affected Products: Data Center Expert (Versions prior to V7.9.0)
+## CVE-2022-26872
+ AMI Megarac Password reset interception via API
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-32518](https://github.com/Live-Hack-CVE/CVE-2022-32518) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-32518.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-32518.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-26872](https://github.com/Live-Hack-CVE/CVE-2022-26872) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-26872.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-26872.svg)
 
 
-## CVE-2022-32518
- A CWE-522: Insufficiently Protected Credentials vulnerability exists that could result in unwanted access to a DCE instance when performed over a network by a malicious third-party. This CVE is unique from CVE-2022-32520. Affected Products: Data Center Expert (Versions prior to V7.9.0)
+## CVE-2022-21661
+ WordPress is a free and open-source content management system written in PHP and paired with a MariaDB database. Due to improper sanitization in WP_Query, there can be cases where SQL injection is possible through plugins or themes that use it in a certain way. This has been patched in WordPress version 5.8.3. Older affected versions are also fixed via security release, that go back till 3.7.37. We strongly recommend that you keep auto-updates enabled. There are no known workarounds for this vulnerability.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-32518](https://github.com/Live-Hack-CVE/CVE-2022-32518) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-32518.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-32518.svg)
+- [https://github.com/daniel616/CVE-2022-21661-Demo](https://github.com/daniel616/CVE-2022-21661-Demo) :  ![starts](https://img.shields.io/github/stars/daniel616/CVE-2022-21661-Demo.svg) ![forks](https://img.shields.io/github/forks/daniel616/CVE-2022-21661-Demo.svg)
 
 
-## CVE-2022-31611
- NVIDIA GeForce Experience contains an uncontrolled search path vulnerability in all its client installers, where an attacker with user level privileges may cause the installer to load an arbitrary DLL when the installer is launched. A successful exploit of this vulnerability could lead to escalation of privileges and code execution.
+## CVE-2022-4869
+ A vulnerability was found in Evolution Events Artaxerxes. It has been declared as problematic. This vulnerability affects unknown code of the file arta/common/middleware.py of the component POST Parameter Handler. The manipulation of the argument password leads to information disclosure. The attack can be initiated remotely. The name of the patch is 022111407d34815c16c6eada2de69ca34084dc0d. It is recommended to apply a patch to fix this issue. VDB-217438 is the identifier assigned to this vulnerability.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-31611](https://github.com/Live-Hack-CVE/CVE-2022-31611) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-31611.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-31611.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-4869](https://github.com/Live-Hack-CVE/CVE-2022-4869) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-4869.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-4869.svg)
 
 
-## CVE-2022-31254
- A Incorrect Default Permissions vulnerability in rmt-server-regsharing service of SUSE Linux Enterprise Server for SAP 15, SUSE Linux Enterprise Server for SAP 15-SP1, SUSE Manager Server 4.1; openSUSE Leap 15.3, openSUSE Leap 15.4 allows local attackers with access to the _rmt user to escalate to root. This issue affects: SUSE Linux Enterprise Server for SAP 15 rmt-server versions prior to 2.10. SUSE Linux Enterprise Server for SAP 15-SP1 rmt-server versions prior to 2.10. SUSE Manager Server 4.1 rmt-server versions prior to 2.10. openSUSE Leap 15.3 rmt-server versions prior to 2.10. openSUSE Leap 15.4 rmt-server versions prior to 2.10.
+## CVE-2022-4743
+ A potential memory leak issue was discovered in SDL2 in GLES_CreateTexture() function in SDL_render_gles.c. The vulnerability allows an attacker to cause a denial of service attack. The vulnerability affects SDL2 v2.0.4 and above. SDL-1.x are not affected.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-31254](https://github.com/Live-Hack-CVE/CVE-2022-31254) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-31254.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-31254.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-4743](https://github.com/Live-Hack-CVE/CVE-2022-4743) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-4743.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-4743.svg)
 
 
-## CVE-2022-31249
- A Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in wrangler of SUSE Rancher allows remote attackers to inject commands in the underlying host via crafted commands passed to Wrangler. This issue affects: SUSE Rancher wrangler version 0.7.3 and prior versions; wrangler version 0.8.4 and prior versions; wrangler version 1.0.0 and prior versions.
+## CVE-2022-4304
+ A timing based side channel exists in the OpenSSL RSA Decryption implementation which could be sufficient to recover a plaintext across a network in a Bleichenbacher style attack. To achieve a successful decryption an attacker would have to be able to send a very large number of trial messages for decryption. The vulnerability affects all RSA padding modes: PKCS#1 v1.5, RSA-OEAP and RSASVE. For example, in a TLS connection, RSA is commonly used by a client to send an encrypted pre-master secret to the server. An attacker that had observed a genuine connection between a client and a server could use this flaw to send trial messages to the server and record the time taken to process them. After a sufficiently large number of messages the attacker could recover the pre-master secret used for the original connection and thus be able to decrypt the application data sent over that connection.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-31249](https://github.com/Live-Hack-CVE/CVE-2022-31249) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-31249.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-31249.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-4304](https://github.com/Live-Hack-CVE/CVE-2022-4304) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-4304.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-4304.svg)
 
 
-## CVE-2022-24990
- TerraMaster NAS 4.2.29 and earlier allows remote attackers to discover the administrative password by sending &quot;User-Agent: TNAS&quot; to module/api.php?mobile/webNasIPS and then reading the PWD field in the response.
+## CVE-2022-3644
+ The collection remote for pulp_ansible stores tokens in plaintext instead of using pulp's encrypted field and exposes them in read/write mode via the API () instead of marking it as write only.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-24990](https://github.com/Live-Hack-CVE/CVE-2022-24990) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-24990.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-24990.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-3644](https://github.com/Live-Hack-CVE/CVE-2022-3644) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-3644.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-3644.svg)
 
 
-## CVE-2022-23935
- lib/Image/ExifTool.pm in ExifTool before 12.38 mishandles a $file =~ /\|$/ check, leading to command injection.
+## CVE-2022-3203
+ On ORing net IAP-420(+) with FW version 2.0m a telnet server is enabled by default and cannot permanently be disabled. You can connect to the device via LAN or WiFi with hardcoded credentials and get an administrative shell. These credentials are reset to defaults with every reboot.
 
-- [https://github.com/0xFTW/CVE-2022-23935](https://github.com/0xFTW/CVE-2022-23935) :  ![starts](https://img.shields.io/github/stars/0xFTW/CVE-2022-23935.svg) ![forks](https://img.shields.io/github/forks/0xFTW/CVE-2022-23935.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-3203](https://github.com/Live-Hack-CVE/CVE-2022-3203) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-3203.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-3203.svg)
 
 
-## CVE-2022-21953
- A Missing Authorization vulnerability in of SUSE Rancher allows authenticated user to create an unauthorized shell pod and kubectl access in the local cluster This issue affects: SUSE Rancher Rancher versions prior to 2.5.17; Rancher versions prior to 2.6.10; Rancher versions prior to 2.7.1.
+## CVE-2022-2775
+ The Fast Flow WordPress plugin before 1.2.13 does not sanitise and escape some of its Widget settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-21953](https://github.com/Live-Hack-CVE/CVE-2022-21953) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-21953.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-21953.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-2775](https://github.com/Live-Hack-CVE/CVE-2022-2775) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-2775.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-2775.svg)
 
 
-## CVE-2022-21948
- An Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in paste allows remote attackers to place Javascript into SVG files. This issue affects: openSUSE paste paste version b57b9f87e303a3db9465776e657378e96845493b and prior versions.
+## CVE-2022-2567
+ The Form Builder CP WordPress plugin before 1.2.32 does not sanitise and escape some of its form settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-21948](https://github.com/Live-Hack-CVE/CVE-2022-21948) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-21948.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-21948.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-2567](https://github.com/Live-Hack-CVE/CVE-2022-2567) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-2567.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-2567.svg)
 
 
-## CVE-2022-4763
- The Icon Widget WordPress plugin before 1.3.0 does not validate and escape some of its shortcode attributes before outputting them back in the page, which could allow users with a role as low as contributor to perform Stored Cross-Site Scripting attacks which could be used against high privilege users such as admins.
+## CVE-2022-2094
+ The Yellow Yard Searchbar WordPress plugin before 2.8.2 does not escape some URL parameters before outputting them back to the user, leading to Reflected Cross-Site Scripting
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-4763](https://github.com/Live-Hack-CVE/CVE-2022-4763) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-4763.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-4763.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2022-2094](https://github.com/Live-Hack-CVE/CVE-2022-2094) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-2094.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-2094.svg)
 
 
-## CVE-2022-4352
- The Qe SEO Handyman WordPress plugin through 1.0 does not properly sanitize and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by high privilege users such as admin
+## CVE-2022-0316
+ The WeStand WordPress theme before 2.1, footysquare WordPress theme, aidreform WordPress theme, statfort WordPress theme, club-theme WordPress theme, kingclub-theme WordPress theme, spikes WordPress theme, spikes-black WordPress theme, soundblast WordPress theme, bolster WordPress theme from ChimpStudio and PixFill does not have any authorisation and upload validation in the lang_upload.php file, allowing any unauthenticated attacker to upload arbitrary files to the web server.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-4352](https://github.com/Live-Hack-CVE/CVE-2022-4352) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-4352.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-4352.svg)
+- [https://github.com/KTN1990/CVE-2022-0316_wordpress_multiple_themes_exploit](https://github.com/KTN1990/CVE-2022-0316_wordpress_multiple_themes_exploit) :  ![starts](https://img.shields.io/github/stars/KTN1990/CVE-2022-0316_wordpress_multiple_themes_exploit.svg) ![forks](https://img.shields.io/github/forks/KTN1990/CVE-2022-0316_wordpress_multiple_themes_exploit.svg)
 
 
-## CVE-2022-4285
- An illegal memory access flaw was found in the binutils package. Parsing an ELF file containing corrupt symbol version information may result in a denial of service. This issue is the result of an incomplete fix for CVE-2020-16599.
+## CVE-2021-33657
+ There is a heap overflow problem in video/SDL_pixels.c in SDL (Simple DirectMedia Layer) 2.x to 2.0.18 versions. By crafting a malicious .BMP file, an attacker can cause the application using this library to crash, denial of service or Code execution.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-4285](https://github.com/Live-Hack-CVE/CVE-2022-4285) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-4285.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-4285.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2021-33657](https://github.com/Live-Hack-CVE/CVE-2021-33657) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-33657.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-33657.svg)
 
 
-## CVE-2022-4258
- In multiple versions of HIMA PC based Software an unquoted Windows search path vulnerability might allow local users to gain privileges via a malicious .exe file and gain full access to the system.
+## CVE-2021-25680
+ ** UNSUPPORTED WHEN ASSIGNED ** The AdTran Personal Phone Manager software is vulnerable to multiple reflected cross-site scripting (XSS) issues. These issues impact at minimum versions 10.8.1 and below but potentially impact later versions as well since they have not previously been disclosed. Only version 10.8.1 was able to be confirmed during primary research. NOTE: The affected appliances NetVanta 7060 and NetVanta 7100 are considered End of Life and as such this issue will not be patched.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-4258](https://github.com/Live-Hack-CVE/CVE-2022-4258) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-4258.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-4258.svg)
+- [https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns](https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns) :  ![starts](https://img.shields.io/github/stars/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg) ![forks](https://img.shields.io/github/forks/3ndG4me/AdTran-Personal-Phone-Manager-Vulns.svg)
 
 
-## CVE-2022-4182
- Inappropriate implementation in Fenced Frames in Google Chrome prior to 108.0.5359.71 allowed a remote attacker to bypass fenced frame restrictions via a crafted HTML page. (Chromium security severity: Medium)
+## CVE-2021-25298
+ Nagios XI version xi-5.7.5 is affected by OS command injection. The vulnerability exists in the file /usr/local/nagiosxi/html/includes/configwizards/cloud-vm/cloud-vm.inc.php due to improper sanitization of authenticated user-controlled input by a single HTTP request, which can lead to OS command injection on the Nagios XI server.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-4182](https://github.com/Live-Hack-CVE/CVE-2022-4182) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-4182.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-4182.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2021-25298](https://github.com/Live-Hack-CVE/CVE-2021-25298) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-25298.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-25298.svg)
 
 
-## CVE-2022-4139
- An incorrect TLB flush issue was found in the Linux kernel&#8217;s GPU i915 kernel driver, potentially leading to random memory corruption or data leaks. This flaw could allow a local user to crash the system or escalate their privileges on the system.
+## CVE-2021-25297
+ Nagios XI version xi-5.7.5 is affected by OS command injection. The vulnerability exists in the file /usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php due to improper sanitization of authenticated user-controlled input by a single HTTP request, which can lead to OS command injection on the Nagios XI server.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-4139](https://github.com/Live-Hack-CVE/CVE-2022-4139) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-4139.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-4139.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2021-25297](https://github.com/Live-Hack-CVE/CVE-2021-25297) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-25297.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-25297.svg)
 
 
-## CVE-2022-4034
- The Appointment Hour Booking Plugin for WordPress is vulnerable to CSV Injection in versions up to, and including, 1.3.72. This makes it possible for unauthenticated attackers to embed untrusted input into content during booking creation that may be exported as a CSV file when a site's administrator exports booking details. This can result in code execution when these files are downloaded and opened on a local system with a vulnerable configuration.
+## CVE-2021-25296
+ Nagios XI version xi-5.7.5 is affected by OS command injection. The vulnerability exists in the file /usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php due to improper sanitization of authenticated user-controlled input by a single HTTP request, which can lead to OS command injection on the Nagios XI server.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-4034](https://github.com/Live-Hack-CVE/CVE-2022-4034) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-4034.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-4034.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2021-25296](https://github.com/Live-Hack-CVE/CVE-2021-25296) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-25296.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-25296.svg)
 
 
-## CVE-2022-2842
- A vulnerability classified as critical has been found in SourceCodester Gym Management System. This affects an unknown part of the file login.php. The manipulation of the argument user_email leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-206451.
+## CVE-2021-21974
+ OpenSLP as used in ESXi (7.0 before ESXi70U1c-17325551, 6.7 before ESXi670-202102401-SG, 6.5 before ESXi650-202102101-SG) has a heap-overflow vulnerability. A malicious actor residing within the same network segment as ESXi who has access to port 427 may be able to trigger the heap-overflow issue in OpenSLP service resulting in remote code execution.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-2842](https://github.com/Live-Hack-CVE/CVE-2022-2842) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-2842.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-2842.svg)
+- [https://github.com/CYBERTHREATANALYSIS/ESXi_ransomware_scanner](https://github.com/CYBERTHREATANALYSIS/ESXi_ransomware_scanner) :  ![starts](https://img.shields.io/github/stars/CYBERTHREATANALYSIS/ESXi_ransomware_scanner.svg) ![forks](https://img.shields.io/github/forks/CYBERTHREATANALYSIS/ESXi_ransomware_scanner.svg)
 
 
-## CVE-2022-2389
- The Abandoned Cart Recovery for WooCommerce, Follow Up Emails, Newsletter Builder &amp; Marketing Automation By Autonami WordPress plugin before 2.1.2 does not have authorisation and CSRF checks in one of its AJAX action, allowing any authenticated users, such as subscriber to create automations
+## CVE-2021-3958
+ Improper Handling of Parameters vulnerability in Ipack Automation Systems Ipack SCADA Software allows : Blind SQL Injection.This issue affects Ipack SCADA Software: from unspecified before 1.1.0.
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-2389](https://github.com/Live-Hack-CVE/CVE-2022-2389) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-2389.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-2389.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2021-3958](https://github.com/Live-Hack-CVE/CVE-2021-3958) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-3958.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-3958.svg)
 
 
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+## CVE-2021-3948
+ An incorrect default permissions vulnerability was found in the mig-controller. Due to an incorrect cluster namespaces handling an attacker may be able to migrate a malicious workload to the target cluster, impacting confidentiality, integrity, and availability of the services located on that cluster.
 
-- [https://github.com/shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/shiomiyan/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/shiomiyan/CVE-2021-41773.svg)
-- [https://github.com/puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-41773.svg)
-- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2021-3948](https://github.com/Live-Hack-CVE/CVE-2021-3948) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-3948.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-3948.svg)
 
 
-## CVE-2021-38828
- Xiongmai Camera XM-JPR2-LX V4.02.R12.A6420987.10002.147502.00000 is vulnerable to plain-text traffic sniffing.
+## CVE-2020-27068
+ Product: AndroidVersions: Android kernelAndroid ID: A-127973231References: Upstream kernel
 
-- [https://github.com/Live-Hack-CVE/CVE-2021-38828](https://github.com/Live-Hack-CVE/CVE-2021-38828) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-38828.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-38828.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2020-27068](https://github.com/Live-Hack-CVE/CVE-2020-27068) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-27068.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-27068.svg)
 
 
-## CVE-2021-37491
- An issue discovered in src/wallet/wallet.cpp in Dogecoin Project Dogecoin Core 1.14.3 and earlier allows attackers to view sensitive information via CWallet::CreateTransaction() function.
+## CVE-2020-25659
+ python-cryptography 3.2 is vulnerable to Bleichenbacher timing attacks in the RSA decryption API, via timed processing of valid PKCS#1 v1.5 ciphertext.
 
-- [https://github.com/Live-Hack-CVE/CVE-2021-37491](https://github.com/Live-Hack-CVE/CVE-2021-37491) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-37491.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-37491.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2020-25659](https://github.com/Live-Hack-CVE/CVE-2020-25659) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-25659.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-25659.svg)
 
 
-## CVE-2021-36471
- Directory Traversal vulnerability in AdminLTE 3.1.0 allows remote attackers to gain escalated privilege and view sensitive information via /admin/index2.html, /admin/index3.html URIs.
+## CVE-2020-14410
+ SDL (Simple DirectMedia Layer) through 2.0.12 has a heap-based buffer over-read in Blit_3or4_to_3or4__inversed_rgb in video/SDL_blit_N.c via a crafted .BMP file.
 
-- [https://github.com/Live-Hack-CVE/CVE-2021-36471](https://github.com/Live-Hack-CVE/CVE-2021-36471) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-36471.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-36471.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2020-14410](https://github.com/Live-Hack-CVE/CVE-2020-14410) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-14410.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-14410.svg)
 
 
-## CVE-2021-22986
- On BIG-IP versions 16.0.x before 16.0.1.1, 15.1.x before 15.1.2.1, 14.1.x before 14.1.4, 13.1.x before 13.1.3.6, and 12.1.x before 12.1.5.3 amd BIG-IQ 7.1.0.x before 7.1.0.3 and 7.0.0.x before 7.0.0.2, the iControl REST interface has an unauthenticated remote command execution vulnerability. Note: Software versions which have reached End of Software Development (EoSD) are not evaluated.
+## CVE-2020-8002
+ A NULL pointer dereference in vrend_renderer.c in virglrenderer through 0.8.1 allows attackers to cause a denial of service via commands that attempt to launch a grid without previously providing a Compute Shader (CS).
 
-- [https://github.com/amitlttwo/CVE-2021-22986](https://github.com/amitlttwo/CVE-2021-22986) :  ![starts](https://img.shields.io/github/stars/amitlttwo/CVE-2021-22986.svg) ![forks](https://img.shields.io/github/forks/amitlttwo/CVE-2021-22986.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2020-8002](https://github.com/Live-Hack-CVE/CVE-2020-8002) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-8002.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-8002.svg)
 
 
-## CVE-2020-16599
- A Null Pointer Dereference vulnerability exists in the Binary File Descriptor (BFD) library (aka libbfd), as distributed in GNU Binutils 2.35, in _bfd_elf_get_symbol_version_string, as demonstrated in nm-new, that can cause a denial of service via a crafted file.
+## CVE-2020-2883
+ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP, T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 
-- [https://github.com/Live-Hack-CVE/CVE-2022-4285](https://github.com/Live-Hack-CVE/CVE-2022-4285) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-4285.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-4285.svg)
+- [https://github.com/zhzyker/vulmap](https://github.com/zhzyker/vulmap) :  ![starts](https://img.shields.io/github/stars/zhzyker/vulmap.svg) ![forks](https://img.shields.io/github/forks/zhzyker/vulmap.svg)
 
 
-## CVE-2020-7934
- In LifeRay Portal CE 7.1.0 through 7.2.1 GA2, the First Name, Middle Name, and Last Name fields for user accounts in MyAccountPortlet are all vulnerable to a persistent XSS issue. Any user can modify these fields with a particular XSS payload, and it will be stored in the database. The payload will then be rendered when a user utilizes the search feature to search for other users (i.e., if a user with modified fields occurs in the search results). This issue was fixed in Liferay Portal CE version 7.3.0 GA1.
+## CVE-2019-15112
+ The wp-slimstat plugin before 4.8.1 for WordPress has XSS.
 
-- [https://github.com/3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934](https://github.com/3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934) :  ![starts](https://img.shields.io/github/stars/3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934.svg) ![forks](https://img.shields.io/github/forks/3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2019-15112](https://github.com/Live-Hack-CVE/CVE-2019-15112) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-15112.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-15112.svg)
 
 
-## CVE-2020-6090
- An exploitable code execution vulnerability exists in the Web-Based Management (WBM) functionality of WAGO PFC 200 03.03.10(15). A specially crafted series of HTTP requests can cause code execution resulting in remote code execution. An attacker can make an authenticated HTTP request to trigger this vulnerability.
+## CVE-2019-13626
+ SDL (Simple DirectMedia Layer) 2.x through 2.0.9 has a heap-based buffer over-read in Fill_IMA_ADPCM_block, caused by an integer overflow in IMA_ADPCM_decode() in audio/SDL_wave.c.
 
-- [https://github.com/Live-Hack-CVE/CVE-2020-6090](https://github.com/Live-Hack-CVE/CVE-2020-6090) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2020-6090.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2020-6090.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2019-13626](https://github.com/Live-Hack-CVE/CVE-2019-13626) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13626.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13626.svg)
 
 
-## CVE-2019-5795
- Integer overflow in PDFium in Google Chrome prior to 73.0.3683.75 allowed a remote attacker to potentially perform out of bounds memory access via a crafted PDF file.
+## CVE-2019-13616
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in BlitNtoN in video/SDL_blit_N.c when called from SDL_SoftBlit in video/SDL_blit.c.
 
-- [https://github.com/Live-Hack-CVE/CVE-2019-5795](https://github.com/Live-Hack-CVE/CVE-2019-5795) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-5795.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-5795.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2019-13616](https://github.com/Live-Hack-CVE/CVE-2019-13616) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13616.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13616.svg)
 
 
-## CVE-2018-14632
- An out of bound write can occur when patching an Openshift object using the 'oc patch' functionality in OpenShift Container Platform before 3.7. An attacker can use this flaw to cause a denial of service attack on the Openshift master api service which provides cluster management.
+## CVE-2019-7638
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in Map1toN in video/SDL_pixels.c.
 
-- [https://github.com/Live-Hack-CVE/CVE-2018-14632](https://github.com/Live-Hack-CVE/CVE-2018-14632) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-14632.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-14632.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2019-7638](https://github.com/Live-Hack-CVE/CVE-2019-7638) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7638.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7638.svg)
 
 
-## CVE-2017-18079
- drivers/input/serio/i8042.c in the Linux kernel before 4.12.4 allows attackers to cause a denial of service (NULL pointer dereference and system crash) or possibly have unspecified other impact because the port-&gt;exists value can change after it is validated.
+## CVE-2019-7636
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in SDL_GetRGB in video/SDL_pixels.c.
 
-- [https://github.com/Live-Hack-CVE/CVE-2017-18079](https://github.com/Live-Hack-CVE/CVE-2017-18079) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18079.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18079.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2019-7636](https://github.com/Live-Hack-CVE/CVE-2019-7636) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7636.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7636.svg)
 
 
-## CVE-2017-18075
- crypto/pcrypt.c in the Linux kernel before 4.14.13 mishandles freeing instances, allowing a local user able to access the AF_ALG-based AEAD interface (CONFIG_CRYPTO_USER_API_AEAD) and pcrypt (CONFIG_CRYPTO_PCRYPT) to cause a denial of service (kfree of an incorrect pointer) or possibly have unspecified other impact by executing a crafted sequence of system calls.
+## CVE-2019-7635
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in Blit1to4 in video/SDL_blit_1.c.
 
-- [https://github.com/Live-Hack-CVE/CVE-2017-18075](https://github.com/Live-Hack-CVE/CVE-2017-18075) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18075.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18075.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2019-7635](https://github.com/Live-Hack-CVE/CVE-2019-7635) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7635.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7635.svg)
 
 
-## CVE-2017-17857
- The check_stack_boundary function in kernel/bpf/verifier.c in the Linux kernel through 4.14.8 allows local users to cause a denial of service (memory corruption) or possibly have unspecified other impact by leveraging mishandling of invalid variable stack read operations.
+## CVE-2019-7578
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in InitIMA_ADPCM in audio/SDL_wave.c.
 
-- [https://github.com/Live-Hack-CVE/CVE-2017-17857](https://github.com/Live-Hack-CVE/CVE-2017-17857) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17857.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17857.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2019-7578](https://github.com/Live-Hack-CVE/CVE-2019-7578) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7578.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7578.svg)
 
 
-## CVE-2017-17856
- kernel/bpf/verifier.c in the Linux kernel through 4.14.8 allows local users to cause a denial of service (memory corruption) or possibly have unspecified other impact by leveraging the lack of stack-pointer alignment enforcement.
+## CVE-2019-7577
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a buffer over-read in SDL_LoadWAV_RW in audio/SDL_wave.c.
 
-- [https://github.com/Live-Hack-CVE/CVE-2017-17856](https://github.com/Live-Hack-CVE/CVE-2017-17856) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17856.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17856.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2019-7577](https://github.com/Live-Hack-CVE/CVE-2019-7577) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7577.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7577.svg)
 
 
-## CVE-2017-17855
- kernel/bpf/verifier.c in the Linux kernel through 4.14.8 allows local users to cause a denial of service (memory corruption) or possibly have unspecified other impact by leveraging improper use of pointers in place of scalars.
+## CVE-2019-7576
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in InitMS_ADPCM in audio/SDL_wave.c (outside the wNumCoef loop).
 
-- [https://github.com/Live-Hack-CVE/CVE-2017-17855](https://github.com/Live-Hack-CVE/CVE-2017-17855) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17855.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17855.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2019-7576](https://github.com/Live-Hack-CVE/CVE-2019-7576) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7576.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7576.svg)
 
 
-## CVE-2017-17854
- kernel/bpf/verifier.c in the Linux kernel through 4.14.8 allows local users to cause a denial of service (integer overflow and memory corruption) or possibly have unspecified other impact by leveraging unrestricted integer values for pointer arithmetic.
+## CVE-2019-7575
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer overflow in MS_ADPCM_decode in audio/SDL_wave.c.
 
-- [https://github.com/Live-Hack-CVE/CVE-2017-17854](https://github.com/Live-Hack-CVE/CVE-2017-17854) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17854.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17854.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2019-7575](https://github.com/Live-Hack-CVE/CVE-2019-7575) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7575.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7575.svg)
+
+
+## CVE-2019-7574
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in IMA_ADPCM_decode in audio/SDL_wave.c.
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7574](https://github.com/Live-Hack-CVE/CVE-2019-7574) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7574.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7574.svg)
+
+
+## CVE-2019-7573
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in InitMS_ADPCM in audio/SDL_wave.c (inside the wNumCoef loop).
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7573](https://github.com/Live-Hack-CVE/CVE-2019-7573) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7573.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7573.svg)
+
+
+## CVE-2019-7572
+ SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a buffer over-read in IMA_ADPCM_nibble in audio/SDL_wave.c.
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-7572](https://github.com/Live-Hack-CVE/CVE-2019-7572) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-7572.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-7572.svg)
+
+
+## CVE-2018-25014
+ A use of uninitialized value was found in libwebp in versions before 1.0.1 in ReadSymbol().
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-25014](https://github.com/Live-Hack-CVE/CVE-2018-25014) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-25014.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-25014.svg)
+
+
+## CVE-2018-25013
+ A heap-based buffer overflow was found in libwebp in versions before 1.0.1 in ShiftBytes().
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-25013](https://github.com/Live-Hack-CVE/CVE-2018-25013) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-25013.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-25013.svg)
+
+
+## CVE-2018-25012
+ A heap-based buffer overflow was found in libwebp in versions before 1.0.1 in GetLE24().
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-25012](https://github.com/Live-Hack-CVE/CVE-2018-25012) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-25012.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-25012.svg)
+
+
+## CVE-2018-3982
+ An exploitable arbitrary write vulnerability exists in the Word document parser of the Atlantis Word Processor 3.0.2.3 and 3.0.2.5. A specially crafted document can prevent Atlas from adding elements to an array that is indexed by a loop. When reading from this array, the application will use an out-of-bounds index which can result in arbitrary data being read as a pointer. Later, when the application attempts to write to said pointer, an arbitrary write will occur. This can allow an attacker to further corrupt memory, which leads to code execution under the context of the application. An attacker must convince a victim to open a document in order to trigger this vulnerability.
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-3982](https://github.com/Live-Hack-CVE/CVE-2018-3982) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3982.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3982.svg)
+
+
+## CVE-2017-18540
+ The weblibrarian plugin before 3.4.8.7 for WordPress has XSS via front-end short codes.
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-18540](https://github.com/Live-Hack-CVE/CVE-2017-18540) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18540.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18540.svg)
+
+
+## CVE-2017-18539
+ The weblibrarian plugin before 3.4.8.6 for WordPress has XSS via front-end short codes.
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-18539](https://github.com/Live-Hack-CVE/CVE-2017-18539) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18539.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18539.svg)
+
+
+## CVE-2017-18538
+ The weblibrarian plugin before 3.4.8.5 for WordPress has XSS via front-end short codes.
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-18538](https://github.com/Live-Hack-CVE/CVE-2017-18538) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18538.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18538.svg)
+
+
+## CVE-2017-15699
+ A Denial of Service vulnerability was found in Apache Qpid Dispatch Router versions 0.7.0 and 0.8.0. To exploit this vulnerability, a remote user must be able to establish an AMQP connection to the Qpid Dispatch Router and send a specifically crafted AMQP frame which will cause it to segfault and shut down.
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-15699](https://github.com/Live-Hack-CVE/CVE-2017-15699) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-15699.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-15699.svg)
+
+
+## CVE-2017-12621
+ During Jelly (xml) file parsing with Apache Xerces, if a custom doctype entity is declared with a &quot;SYSTEM&quot; entity with a URL and that entity is used in the body of the Jelly file, during parser instantiation the parser will attempt to connect to said URL. This could lead to XML External Entity (XXE) attacks in Apache Commons Jelly before 1.0.1.
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-12621](https://github.com/Live-Hack-CVE/CVE-2017-12621) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12621.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12621.svg)
+
+
+## CVE-2017-5546
+ The freelist-randomization feature in mm/slab.c in the Linux kernel 4.8.x and 4.9.x before 4.9.5 allows local users to cause a denial of service (duplicate freelist entries and system crash) or possibly have unspecified other impact in opportunistic circumstances by leveraging the selection of a large value for a random number.
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-5546](https://github.com/Live-Hack-CVE/CVE-2017-5546) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-5546.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-5546.svg)
 
 
 ## CVE-2016-5195
  Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allows local users to gain privileges by leveraging incorrect handling of a copy-on-write (COW) feature to write to a read-only memory mapping, as exploited in the wild in October 2016, aka &quot;Dirty COW.&quot;
 
-- [https://github.com/guy-davidi/DirtyCow](https://github.com/guy-davidi/DirtyCow) :  ![starts](https://img.shields.io/github/stars/guy-davidi/DirtyCow.svg) ![forks](https://img.shields.io/github/forks/guy-davidi/DirtyCow.svg)
+- [https://github.com/ireshchaminda1/System-Exploitation-May-2021-](https://github.com/ireshchaminda1/System-Exploitation-May-2021-) :  ![starts](https://img.shields.io/github/stars/ireshchaminda1/System-Exploitation-May-2021-.svg) ![forks](https://img.shields.io/github/forks/ireshchaminda1/System-Exploitation-May-2021-.svg)
+
+
+## CVE-2015-3864
+ Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.cpp in libstagefright in mediaserver in Android before 5.1.1 LMY48M allows remote attackers to execute arbitrary code via crafted MPEG-4 data, aka internal bug 23034759.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-3824.
+
+- [https://github.com/Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864](https://github.com/Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864) :  ![starts](https://img.shields.io/github/stars/Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864.svg) ![forks](https://img.shields.io/github/forks/Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864.svg)
+
+
+## CVE-2009-0824
+ Elaborate Bytes ElbyCDIO.sys 6.0.2.0 and earlier, as distributed in SlySoft AnyDVD before 6.5.2.6, Virtual CloneDrive 5.4.2.3 and earlier, CloneDVD 2.9.2.0 and earlier, and CloneCD 5.3.1.3 and earlier, uses the METHOD_NEITHER communication method for IOCTLs and does not properly validate a buffer associated with the Irp object, which allows local users to cause a denial of service (system crash) via a crafted IOCTL call.
+
+- [https://github.com/Exploitables/CVE-2009-0824](https://github.com/Exploitables/CVE-2009-0824) :  ![starts](https://img.shields.io/github/stars/Exploitables/CVE-2009-0824.svg) ![forks](https://img.shields.io/github/forks/Exploitables/CVE-2009-0824.svg)
 
