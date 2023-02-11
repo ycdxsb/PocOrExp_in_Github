@@ -543,9 +543,9 @@
 
 - [https://github.com/MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC) :  ![starts](https://img.shields.io/github/stars/MazX0p/CVE-2014-8609-POC.svg) ![forks](https://img.shields.io/github/forks/MazX0p/CVE-2014-8609-POC.svg)
 
-- [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) :  ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
-
 - [https://github.com/ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit) :  ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2014-8609-exploit.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2014-8609-exploit.svg)
+
+- [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) :  ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
 
 ## CVE-2014-8312
  Business Warehouse (BW) in SAP Netweaver AS ABAP 7.31 allows remote authenticated users to obtain sensitive information via a request to the RSDU_CCMS_GET_PROFILE_PARAM RFC function.
