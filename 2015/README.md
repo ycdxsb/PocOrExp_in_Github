@@ -867,6 +867,13 @@
 
 - [https://github.com/payatu/CVE-2015-6086](https://github.com/payatu/CVE-2015-6086) :  ![starts](https://img.shields.io/github/stars/payatu/CVE-2015-6086.svg) ![forks](https://img.shields.io/github/forks/payatu/CVE-2015-6086.svg)
 
+## CVE-2015-6042
+ Use-after-free vulnerability in the CWindow object implementation in Microsoft Internet Explorer 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability.&quot;
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-6042](https://github.com/Live-Hack-CVE/CVE-2015-6042) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6042.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6042.svg)
+
 ## CVE-2015-5995
  Mediabridge Medialink MWN-WAPR300N devices with firmware 5.07.50 and Tenda N3 Wireless N150 devices allow remote attackers to obtain administrative access via a certain admin substring in an HTTP Cookie header.
 
