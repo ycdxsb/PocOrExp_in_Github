@@ -864,21 +864,21 @@
 
 - [https://github.com/yukar1z0e/CVE-2019-19781](https://github.com/yukar1z0e/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/yukar1z0e/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/yukar1z0e/CVE-2019-19781.svg)
 
-- [https://github.com/hollerith/CVE-2019-19781](https://github.com/hollerith/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/hollerith/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/hollerith/CVE-2019-19781.svg)
-
 - [https://github.com/SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/SharpHack/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/SharpHack/CVE-2019-19781.svg)
+
+- [https://github.com/hollerith/CVE-2019-19781](https://github.com/hollerith/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/hollerith/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/hollerith/CVE-2019-19781.svg)
 
 - [https://github.com/qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc) :  ![starts](https://img.shields.io/github/stars/qiong-qi/CVE-2019-19781-poc.svg) ![forks](https://img.shields.io/github/forks/qiong-qi/CVE-2019-19781-poc.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2019-19781](https://github.com/Live-Hack-CVE/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-19781.svg)
-
 - [https://github.com/zgelici/CVE-2019-19781-Checker](https://github.com/zgelici/CVE-2019-19781-Checker) :  ![starts](https://img.shields.io/github/stars/zgelici/CVE-2019-19781-Checker.svg) ![forks](https://img.shields.io/github/forks/zgelici/CVE-2019-19781-Checker.svg)
-
-- [https://github.com/darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC) :  ![starts](https://img.shields.io/github/stars/darren646/CVE-2019-19781POC.svg) ![forks](https://img.shields.io/github/forks/darren646/CVE-2019-19781POC.svg)
 
 - [https://github.com/zenturacp/cve-2019-19781-web](https://github.com/zenturacp/cve-2019-19781-web) :  ![starts](https://img.shields.io/github/stars/zenturacp/cve-2019-19781-web.svg) ![forks](https://img.shields.io/github/forks/zenturacp/cve-2019-19781-web.svg)
 
 - [https://github.com/b510/CVE-2019-19781](https://github.com/b510/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/b510/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/b510/CVE-2019-19781.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-19781](https://github.com/Live-Hack-CVE/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-19781.svg)
+
+- [https://github.com/darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC) :  ![starts](https://img.shields.io/github/stars/darren646/CVE-2019-19781POC.svg) ![forks](https://img.shields.io/github/forks/darren646/CVE-2019-19781POC.svg)
 
 - [https://github.com/Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Castaldio86/Detect-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Castaldio86/Detect-CVE-2019-19781.svg)
 
@@ -1216,6 +1216,13 @@
 
 
 - [https://github.com/TheCyberGeek/CVE-2019-19369](https://github.com/TheCyberGeek/CVE-2019-19369) :  ![starts](https://img.shields.io/github/stars/TheCyberGeek/CVE-2019-19369.svg) ![forks](https://img.shields.io/github/forks/TheCyberGeek/CVE-2019-19369.svg)
+
+## CVE-2019-19363
+ An issue was discovered in Ricoh (including Savin and Lanier) Windows printer drivers prior to 2020 that allows attackers local privilege escalation. Affected drivers and versions are: PCL6 Driver for Universal Print - Version 4.0 or later PS Driver for Universal Print - Version 4.0 or later PC FAX Generic Driver - All versions Generic PCL5 Driver - All versions RPCS Driver - All versions PostScript3 Driver - All versions PCL6 (PCL XL) Driver - All versions RPCS Raster Driver - All version
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-19363](https://github.com/Live-Hack-CVE/CVE-2019-19363) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-19363.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-19363.svg)
 
 ## CVE-2019-19356
  Netis WF2419 is vulnerable to authenticated Remote Code Execution (RCE) as root through the router Web management page. The vulnerability has been found in firmware version V1.2.31805 and V2.2.36123. After one is connected to this page, it is possible to execute system commands as root through the tracert diagnostic tool because of lack of user input sanitizing.
@@ -3683,12 +3690,61 @@
 
 - [https://github.com/HaboobLab/CVE-2019-13764](https://github.com/HaboobLab/CVE-2019-13764) :  ![starts](https://img.shields.io/github/stars/HaboobLab/CVE-2019-13764.svg) ![forks](https://img.shields.io/github/forks/HaboobLab/CVE-2019-13764.svg)
 
+## CVE-2019-13759
+ Incorrect security UI in interstitials in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to perform domain spoofing via a crafted HTML page.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-13759](https://github.com/Live-Hack-CVE/CVE-2019-13759) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13759.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13759.svg)
+
+## CVE-2019-13757
+ Incorrect security UI in Omnibox in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to perform domain spoofing via IDN homographs via a crafted domain name.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-13757](https://github.com/Live-Hack-CVE/CVE-2019-13757) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13757.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13757.svg)
+
+## CVE-2019-13756
+ Incorrect security UI in printing in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to perform domain spoofing via a crafted HTML page.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-13756](https://github.com/Live-Hack-CVE/CVE-2019-13756) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13756.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13756.svg)
+
+## CVE-2019-13755
+ Insufficient policy enforcement in extensions in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to disable extensions via a crafted HTML page.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-13755](https://github.com/Live-Hack-CVE/CVE-2019-13755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13755.svg)
+
 ## CVE-2019-13754
  Insufficient policy enforcement in extensions in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to bypass navigation restrictions via a crafted HTML page.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2019-13754](https://github.com/Live-Hack-CVE/CVE-2019-13754) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13754.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13754.svg)
+
+## CVE-2019-13753
+ Out of bounds read in SQLite in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-13753](https://github.com/Live-Hack-CVE/CVE-2019-13753) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13753.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13753.svg)
+
+## CVE-2019-13752
+ Out of bounds read in SQLite in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-13752](https://github.com/Live-Hack-CVE/CVE-2019-13752) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13752.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13752.svg)
+
+## CVE-2019-13751
+ Uninitialized data in SQLite in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-13751](https://github.com/Live-Hack-CVE/CVE-2019-13751) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-13751.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-13751.svg)
 
 ## CVE-2019-13750
  Insufficient data validation in SQLite in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to bypass defense-in-depth measures via a crafted HTML page.
@@ -5406,9 +5462,9 @@
 
 
 
-- [https://github.com/Live-Hack-CVE/CVE-2019-10746](https://github.com/Live-Hack-CVE/CVE-2019-10746) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-10746.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-10746.svg)
-
 - [https://github.com/ossf-cve-benchmark/CVE-2019-10746](https://github.com/ossf-cve-benchmark/CVE-2019-10746) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10746.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10746.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-10746](https://github.com/Live-Hack-CVE/CVE-2019-10746) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-10746.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-10746.svg)
 
 ## CVE-2019-10745
  assign-deep is vulnerable to Prototype Pollution in versions before 0.4.8 and version 1.0.0. The function assign-deep could be tricked into adding or modifying properties of Object.prototype using either a constructor or a _proto_ payload.
@@ -7602,6 +7658,34 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2019-6643](https://github.com/Live-Hack-CVE/CVE-2019-6643) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6643.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6643.svg)
 
+## CVE-2019-6614
+ On BIG-IP 14.0.0-14.1.0.1, 13.0.0-13.1.1.4, and 12.1.0-12.1.4, internal methods used to prevent arbitrary file overwrites in Appliance Mode were not fully effective. An authenticated attacker with a high privilege level may be able to bypass protections implemented in appliance mode to overwrite arbitrary system files.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-6614](https://github.com/Live-Hack-CVE/CVE-2019-6614) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6614.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6614.svg)
+
+## CVE-2019-6613
+ On BIG-IP 13.0.0-13.1.1.4, 12.1.0-12.1.4, 11.6.1-11.6.3.4, and 11.5.2-11.5.8, SNMP may expose sensitive configuration objects over insecure transmission channels. This issue is exposed when a passphrase is used with various profile types and is accessed using SNMPv2.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-6613](https://github.com/Live-Hack-CVE/CVE-2019-6613) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6613.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6613.svg)
+
+## CVE-2019-6612
+ On BIG-IP 14.0.0-14.1.0.1, 13.0.0-13.1.1.4, 12.1.0-12.1.4, 11.6.1-11.6.3.4, and 11.5.2-11.5.8, DNS query TCP connections that are aborted before receiving a response from a DNS cache may cause TMM to restart.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-6612](https://github.com/Live-Hack-CVE/CVE-2019-6612) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6612.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6612.svg)
+
+## CVE-2019-6601
+ In BIG-IP 13.0.0, 12.1.0-12.1.3.7, 11.6.1-11.6.3.2, or 11.5.1-11.5.8, the Application Acceleration Manager (AAM) wamd process used in processing of images and PDFs fails to drop group permissions when executing helper scripts.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-6601](https://github.com/Live-Hack-CVE/CVE-2019-6601) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6601.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6601.svg)
+
 ## CVE-2019-6575
  A vulnerability has been identified in SIMATIC CP 443-1 OPC UA (All versions), SIMATIC ET 200SP Open Controller CPU 1515SP PC2 (incl. SIPLUS variants) (All versions &lt; V2.7), SIMATIC HMI Comfort Outdoor Panels 7&quot; &amp; 15&quot; (incl. SIPLUS variants) (All versions &lt; V15.1 Upd 4), SIMATIC HMI Comfort Panels 4&quot; - 22&quot; (incl. SIPLUS variants) (All versions &lt; V15.1 Upd 4), SIMATIC HMI KTP Mobile Panels KTP400F, KTP700, KTP700F, KTP900 and KTP900F (All versions &lt; V15.1 Upd 4), SIMATIC IPC DiagMonitor (All versions &lt; V5.1.3), SIMATIC NET PC Software V13 (All versions), SIMATIC NET PC Software V14 (All versions &lt; V14 SP1 Update 14), SIMATIC NET PC Software V15 (All versions), SIMATIC RF188C (All versions &lt; V1.1.0), SIMATIC RF600R family (All versions &lt; V3.2.1), SIMATIC S7-1500 CPU family (incl. related ET200 CPUs and SIPLUS variants) (All versions &gt;= V2.5 &lt; V2.6.1), SIMATIC S7-1500 Software Controller (All versions between V2.5 (including) and V2.7 (excluding)), SIMATIC WinCC OA (All versions &lt; V3.15 P018), SIMATIC WinCC Runtime Advanced (All versions &lt; V15.1 Upd 4), SINEC NMS (All versions &lt; V1.0 SP1), SINEMA Server (All versions &lt; V14 SP2), SINUMERIK OPC UA Server (All versions &lt; V2.1), TeleControl Server Basic (All versions &lt; V3.1.1). Specially crafted network packets sent to affected devices on port 4840/tcp could allow an unauthenticated remote attacker to cause a denial of service condition of the OPC communication or crash the device. The security vulnerability could be exploited by an attacker with network access to the affected systems. Successful exploitation requires no system privileges and no user interaction. An attacker could use the vulnerability to compromise availability of the OPC communication.
 
@@ -8346,15 +8430,15 @@
 
 - [https://github.com/takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer) :  ![starts](https://img.shields.io/github/stars/takumak/cve-2019-5736-reproducer.svg) ![forks](https://img.shields.io/github/forks/takumak/cve-2019-5736-reproducer.svg)
 
-- [https://github.com/zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC) :  ![starts](https://img.shields.io/github/stars/zyriuse75/CVE-2019-5736-PoC.svg) ![forks](https://img.shields.io/github/forks/zyriuse75/CVE-2019-5736-PoC.svg)
-
-- [https://github.com/chosam2/cve-2019-5736-poc](https://github.com/chosam2/cve-2019-5736-poc) :  ![starts](https://img.shields.io/github/stars/chosam2/cve-2019-5736-poc.svg) ![forks](https://img.shields.io/github/forks/chosam2/cve-2019-5736-poc.svg)
-
 - [https://github.com/geropl/CVE-2019-5736](https://github.com/geropl/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/geropl/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/geropl/CVE-2019-5736.svg)
 
 - [https://github.com/si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/si1ent-le/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/si1ent-le/CVE-2019-5736.svg)
 
 - [https://github.com/BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/BBRathnayaka/POC-CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/BBRathnayaka/POC-CVE-2019-5736.svg)
+
+- [https://github.com/chosam2/cve-2019-5736-poc](https://github.com/chosam2/cve-2019-5736-poc) :  ![starts](https://img.shields.io/github/stars/chosam2/cve-2019-5736-poc.svg) ![forks](https://img.shields.io/github/forks/chosam2/cve-2019-5736-poc.svg)
+
+- [https://github.com/zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC) :  ![starts](https://img.shields.io/github/stars/zyriuse75/CVE-2019-5736-PoC.svg) ![forks](https://img.shields.io/github/forks/zyriuse75/CVE-2019-5736-PoC.svg)
 
 - [https://github.com/Lee-SungYoung/cve-2019-5736-study](https://github.com/Lee-SungYoung/cve-2019-5736-study) :  ![starts](https://img.shields.io/github/stars/Lee-SungYoung/cve-2019-5736-study.svg) ![forks](https://img.shields.io/github/forks/Lee-SungYoung/cve-2019-5736-study.svg)
 
@@ -10338,15 +10422,15 @@
 
 - [https://github.com/JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST) :  ![starts](https://img.shields.io/github/stars/JonathanZhou348/CVE-2019-3396TEST.svg) ![forks](https://img.shields.io/github/forks/JonathanZhou348/CVE-2019-3396TEST.svg)
 
+- [https://github.com/vntest11/confluence_CVE-2019-3396](https://github.com/vntest11/confluence_CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/vntest11/confluence_CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/vntest11/confluence_CVE-2019-3396.svg)
+
 - [https://github.com/xiaoshuier/CVE-2019-3396](https://github.com/xiaoshuier/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/xiaoshuier/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/xiaoshuier/CVE-2019-3396.svg)
 
-- [https://github.com/vntest11/confluence_CVE-2019-3396](https://github.com/vntest11/confluence_CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/vntest11/confluence_CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/vntest11/confluence_CVE-2019-3396.svg)
+- [https://github.com/46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence) :  ![starts](https://img.shields.io/github/stars/46o60/CVE-2019-3396_Confluence.svg) ![forks](https://img.shields.io/github/forks/46o60/CVE-2019-3396_Confluence.svg)
 
 - [https://github.com/s1xg0d/CVE-2019-3396](https://github.com/s1xg0d/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/s1xg0d/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/s1xg0d/CVE-2019-3396.svg)
 
 - [https://github.com/quanpt103/CVE-2019-3396](https://github.com/quanpt103/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/quanpt103/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/quanpt103/CVE-2019-3396.svg)
-
-- [https://github.com/46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence) :  ![starts](https://img.shields.io/github/stars/46o60/CVE-2019-3396_Confluence.svg) ![forks](https://img.shields.io/github/forks/46o60/CVE-2019-3396_Confluence.svg)
 
 - [https://github.com/am6539/CVE-2019-3396](https://github.com/am6539/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/am6539/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/am6539/CVE-2019-3396.svg)
 
@@ -10961,6 +11045,8 @@
 
 - [https://github.com/DreamoneOnly/CVE-2019-1458-malware](https://github.com/DreamoneOnly/CVE-2019-1458-malware) :  ![starts](https://img.shields.io/github/stars/DreamoneOnly/CVE-2019-1458-malware.svg) ![forks](https://img.shields.io/github/forks/DreamoneOnly/CVE-2019-1458-malware.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2019-1458](https://github.com/Live-Hack-CVE/CVE-2019-1458) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-1458.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-1458.svg)
+
 ## CVE-2019-1422
  An elevation of privilege vulnerability exists in the way that the iphlpsvc.dll handles file creation allowing for a file overwrite, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1420, CVE-2019-1423.
 
@@ -11487,11 +11573,11 @@
 
 - [https://github.com/distance-vector/CVE-2019-0708](https://github.com/distance-vector/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/distance-vector/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/distance-vector/CVE-2019-0708.svg)
 
+- [https://github.com/wdfcc/CVE-2019-0708](https://github.com/wdfcc/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/wdfcc/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/wdfcc/CVE-2019-0708.svg)
+
 - [https://github.com/JasonLOU/CVE-2019-0708](https://github.com/JasonLOU/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/JasonLOU/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/JasonLOU/CVE-2019-0708.svg)
 
 - [https://github.com/0xFlag/CVE-2019-0708-test](https://github.com/0xFlag/CVE-2019-0708-test) :  ![starts](https://img.shields.io/github/stars/0xFlag/CVE-2019-0708-test.svg) ![forks](https://img.shields.io/github/forks/0xFlag/CVE-2019-0708-test.svg)
-
-- [https://github.com/wdfcc/CVE-2019-0708](https://github.com/wdfcc/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/wdfcc/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/wdfcc/CVE-2019-0708.svg)
 
 - [https://github.com/ulisesrc/-2-CVE-2019-0708](https://github.com/ulisesrc/-2-CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ulisesrc/-2-CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ulisesrc/-2-CVE-2019-0708.svg)
 
