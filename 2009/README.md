@@ -88,6 +88,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2009-3732](https://github.com/Live-Hack-CVE/CVE-2009-3732) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3732.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3732.svg)
 
+## CVE-2009-3559
+ ** DISPUTED ** main/streams/plain_wrapper.c in PHP 5.3.x before 5.3.1 does not recognize the safe_mode_include_dir directive, which allows context-dependent attackers to have an unknown impact by triggering the failure of PHP scripts that perform include or require operations, as demonstrated by a script that attempts to perform a require_once on a file in a standard library directory. NOTE: a reliable third party reports that this is not a vulnerability, because it results in a more restrictive security policy.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2009-3559](https://github.com/Live-Hack-CVE/CVE-2009-3559) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3559.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3559.svg)
+
 ## CVE-2009-3555
  CVE-2009-3555 TLS: MITM attacks via session renegotiation
 
