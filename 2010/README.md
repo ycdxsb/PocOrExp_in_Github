@@ -245,6 +245,13 @@
 
 - [https://github.com/Sunqiz/cve-2010-2553-reproduction](https://github.com/Sunqiz/cve-2010-2553-reproduction) :  ![starts](https://img.shields.io/github/stars/Sunqiz/cve-2010-2553-reproduction.svg) ![forks](https://img.shields.io/github/forks/Sunqiz/cve-2010-2553-reproduction.svg)
 
+## CVE-2010-2532
+ ** DISPUTED ** lxsession-logout in lxsession in LXDE, as used on SUSE openSUSE 11.3 and other platforms, does not lock the screen when the Suspend or Hibernate button is pressed, which might make it easier for physically proximate attackers to access an unattended laptop via a resume action. NOTE: there is no general agreement that this is a vulnerability, because separate control over locking can be an equally secure, or more secure, behavior in some threat environments.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2010-2532](https://github.com/Live-Hack-CVE/CVE-2010-2532) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-2532.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-2532.svg)
+
 ## CVE-2010-2531
  CVE-2010-2531 php: information leak vulnerability in var_export()
 
