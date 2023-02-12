@@ -117,6 +117,13 @@
 
 - [https://github.com/stoicboomer/CVE-2013-6987](https://github.com/stoicboomer/CVE-2013-6987) :  ![starts](https://img.shields.io/github/stars/stoicboomer/CVE-2013-6987.svg) ![forks](https://img.shields.io/github/forks/stoicboomer/CVE-2013-6987.svg)
 
+## CVE-2013-6858
+ Multiple cross-site scripting (XSS) vulnerabilities in OpenStack Dashboard (Horizon) 2013.2 and earlier allow local users to inject arbitrary web script or HTML via an instance name to (1) &quot;Volumes&quot; or (2) &quot;Network Topology&quot; page.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6406](https://github.com/Live-Hack-CVE/CVE-2013-6406) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6406.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6406.svg)
+
 ## CVE-2013-6712
  The scan function in ext/date/lib/parse_iso_intervals.c in PHP through 5.5.6 does not properly restrict creation of DateInterval objects, which might allow remote attackers to cause a denial of service (heap-based buffer over-read) via a crafted interval specification.
 
@@ -159,6 +166,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-6641](https://github.com/Live-Hack-CVE/CVE-2013-6641) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6641.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6641.svg)
 
+## CVE-2013-6500
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6500](https://github.com/Live-Hack-CVE/CVE-2013-6500) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6500.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6500.svg)
+
 ## CVE-2013-6490
  The SIMPLE protocol functionality in Pidgin before 2.10.8 allows remote attackers to have an unspecified impact via a negative Content-Length header, which triggers a buffer overflow.
 
@@ -166,12 +180,26 @@
 
 - [https://github.com/Everdoh/CVE-2013-6490](https://github.com/Everdoh/CVE-2013-6490) :  ![starts](https://img.shields.io/github/stars/Everdoh/CVE-2013-6490.svg) ![forks](https://img.shields.io/github/forks/Everdoh/CVE-2013-6490.svg)
 
+## CVE-2013-6488
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2013-0328. Reason: This candidate is a reservation duplicate of CVE-2013-0328. Notes: All CVE users should reference CVE-2013-0328 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6488](https://github.com/Live-Hack-CVE/CVE-2013-6488) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6488.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6488.svg)
+
 ## CVE-2013-6438
  The dav_xml_get_cdata function in main/util.c in the mod_dav module in the Apache HTTP Server before 2.4.8 does not properly remove whitespace characters from CDATA sections, which allows remote attackers to cause a denial of service (daemon crash) via a crafted DAV WRITE request.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2013-6438](https://github.com/Live-Hack-CVE/CVE-2013-6438) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6438.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6438.svg)
+
+## CVE-2013-6406
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2013-6858. Reason: This candidate is a reservation duplicate of CVE-2013-6858. Notes: All CVE users should reference CVE-2013-6858 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6406](https://github.com/Live-Hack-CVE/CVE-2013-6406) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6406.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6406.svg)
 
 ## CVE-2013-6375
  Xen 4.2.x and 4.3.x, when using Intel VT-d for PCI passthrough, does not properly flush the TLB after clearing a present translation table entry, which allows local guest administrators to cause a denial of service or gain privileges via unspecified vectors related to an &quot;inverted boolean parameter.&quot;
@@ -1075,6 +1103,13 @@
 
 
 - [https://github.com/heroku/heroku-CVE-2013-0333](https://github.com/heroku/heroku-CVE-2013-0333) :  ![starts](https://img.shields.io/github/stars/heroku/heroku-CVE-2013-0333.svg) ![forks](https://img.shields.io/github/forks/heroku/heroku-CVE-2013-0333.svg)
+
+## CVE-2013-0328
+ CVE-2013-0328 jenkins: XSS
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2013-6488](https://github.com/Live-Hack-CVE/CVE-2013-6488) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2013-6488.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2013-6488.svg)
 
 ## CVE-2013-0303
  Unspecified vulnerability in core/ajax/translations.php in ownCloud before 4.0.12 and 4.5.x before 4.5.6 allows remote authenticated users to execute arbitrary PHP code via unknown vectors.  NOTE: this entry has been SPLIT due to different affected versions. The core/settings.php issue is covered by CVE-2013-7344.
