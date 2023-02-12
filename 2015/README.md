@@ -5,6 +5,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
 
+## CVE-2015-10078
+ A vulnerability, which was classified as problematic, has been found in atwellpub Resend Welcome Email Plugin 1.0.1. This issue affects the function send_welcome_email_url of the file resend-welcome-email.php. The manipulation leads to cross site scripting. The attack may be initiated remotely. Upgrading to version 1.0.2 is able to address this issue. The name of the patch is b14c1f66d307783f0ae74f88088a85999107695c. It is recommended to upgrade the affected component. The identifier VDB-220637 was assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10078](https://github.com/Live-Hack-CVE/CVE-2015-10078) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10078.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10078.svg)
+
 ## CVE-2015-10075
  A vulnerability was found in Custom-Content-Width 1.0. It has been declared as problematic. Affected by this vulnerability is the function override_content_width/register_settings of the file custom-content-width.php. The manipulation leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.0.1 is able to address this issue. The name of the patch is e05e0104fc42ad13b57e2b2cb2d1857432624d39. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-220219. NOTE: This attack is not very likely.
 
@@ -1032,6 +1039,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-5290](https://github.com/Live-Hack-CVE/CVE-2015-5290) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5290.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5290.svg)
 
+## CVE-2015-5275
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2015-5257. Reason: This candidate is a reservation duplicate of CVE-2015-5257. Notes: All CVE users should reference CVE-2015-5257 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5275](https://github.com/Live-Hack-CVE/CVE-2015-5275) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5275.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5275.svg)
+
+## CVE-2015-5257
+ drivers/usb/serial/whiteheat.c in the Linux kernel before 4.2.4 allows physically proximate attackers to cause a denial of service (NULL pointer dereference and OOPS) or possibly have unspecified other impact via a crafted USB device.  NOTE: this ID was incorrectly used for an Apache Cordova issue that has the correct ID of CVE-2015-8320.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5275](https://github.com/Live-Hack-CVE/CVE-2015-5275) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5275.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5275.svg)
+
 ## CVE-2015-5254
  Apache ActiveMQ 5.x before 5.13.0 does not restrict the classes that can be serialized in the broker, which allows remote attackers to execute arbitrary code via a crafted serialized Java Message Service (JMS) ObjectMessage object.
 
@@ -1694,6 +1715,8 @@
 
 - [https://github.com/FloatingGuy/cve-2015-1805](https://github.com/FloatingGuy/cve-2015-1805) :  ![starts](https://img.shields.io/github/stars/FloatingGuy/cve-2015-1805.svg) ![forks](https://img.shields.io/github/forks/FloatingGuy/cve-2015-1805.svg)
 
+- [https://github.com/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805-May-2022-](https://github.com/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805-May-2022-) :  ![starts](https://img.shields.io/github/stars/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805-May-2022-.svg) ![forks](https://img.shields.io/github/forks/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805-May-2022-.svg)
+
 - [https://github.com/mobilelinux/iovy_root_research](https://github.com/mobilelinux/iovy_root_research) :  ![starts](https://img.shields.io/github/stars/mobilelinux/iovy_root_research.svg) ![forks](https://img.shields.io/github/forks/mobilelinux/iovy_root_research.svg)
 
 ## CVE-2015-1794
@@ -1932,6 +1955,8 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-1197](https://github.com/Live-Hack-CVE/CVE-2015-1197) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1197.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1197.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2017-7516](https://github.com/Live-Hack-CVE/CVE-2017-7516) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7516.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7516.svg)
+
 ## CVE-2015-1157
  CoreText in Apple iOS 8.x through 8.3 allows remote attackers to cause a denial of service (reboot and messaging disruption) via crafted Unicode text that is not properly handled during display truncation in the Notifications feature, as demonstrated by Arabic characters in (1) an SMS message or (2) a WhatsApp message.
 
@@ -2119,6 +2144,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-0285](https://github.com/Live-Hack-CVE/CVE-2015-0285) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0285.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0285.svg)
+
+## CVE-2015-0284
+ A cross-site scripting (XSS) flaw was found in how XML data was handled in Red Hat Satellite. A user able to use the XMLRPC API could exploit this flaw to perform XSS attacks against other Satellite users.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2016-2144](https://github.com/Live-Hack-CVE/CVE-2016-2144) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2144.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2144.svg)
 
 ## CVE-2015-0252
  internal/XMLReader.cpp in Apache Xerces-C before 3.1.2 allows remote attackers to cause a denial of service (segmentation fault and crash) via crafted XML data.
