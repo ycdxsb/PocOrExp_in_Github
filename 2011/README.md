@@ -44,6 +44,13 @@
 
 - [https://github.com/lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862) :  ![starts](https://img.shields.io/github/stars/lol-fi/cve-2011-4862.svg) ![forks](https://img.shields.io/github/forks/lol-fi/cve-2011-4862.svg)
 
+## CVE-2011-4858
+ Apache Tomcat before 5.5.35, 6.x before 6.0.35, and 7.x before 7.0.23 computes hash values for form parameters without restricting the ability to trigger hash collisions predictably, which allows remote attackers to cause a denial of service (CPU consumption) by sending many crafted parameters.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-4084](https://github.com/Live-Hack-CVE/CVE-2011-4084) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-4084.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-4084.svg)
+
 ## CVE-2011-4820
  IBM Rational Asset Manager 7.5 could allow a remote attacker to bypass security restrictions. An attacker could exploit this vulnerability using the UID parameter to modify another user's preferences.
 
@@ -93,12 +100,26 @@
 
 - [https://github.com/SECFORCE/CVE-2011-4107](https://github.com/SECFORCE/CVE-2011-4107) :  ![starts](https://img.shields.io/github/stars/SECFORCE/CVE-2011-4107.svg) ![forks](https://img.shields.io/github/forks/SECFORCE/CVE-2011-4107.svg)
 
+## CVE-2011-4084
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2011-4858. Reason: This candidate is a duplicate of CVE-2011-4858. Notes: All CVE users should reference CVE-2011-4858 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-4084](https://github.com/Live-Hack-CVE/CVE-2011-4084) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-4084.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-4084.svg)
+
 ## CVE-2011-3872
  Puppet 2.6.x before 2.6.12 and 2.7.x before 2.7.6, and Puppet Enterprise (PE) Users 1.0, 1.1, and 1.2 before 1.2.4, when signing an agent certificate, adds the Puppet master's certdnsnames values to the X.509 Subject Alternative Name field of the certificate, which allows remote attackers to spoof a Puppet master via a man-in-the-middle (MITM) attack against an agent that uses an alternate DNS name for the master, aka &quot;AltNames Vulnerability.&quot;
 
 
 
 - [https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872](https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872) :  ![starts](https://img.shields.io/github/stars/puppetlabs-toy-chest/puppetlabs-cve20113872.svg) ![forks](https://img.shields.io/github/forks/puppetlabs-toy-chest/puppetlabs-cve20113872.svg)
+
+## CVE-2011-3640
+ ** DISPUTED ** Untrusted search path vulnerability in Mozilla Network Security Services (NSS), as used in Google Chrome before 17 on Windows and Mac OS X, might allow local users to gain privileges via a Trojan horse pkcs11.txt file in a top-level directory. NOTE: the vendor's response was &quot;Strange behavior, but we're not treating this as a security bug.&quot;
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-3640](https://github.com/Live-Hack-CVE/CVE-2011-3640) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-3640.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-3640.svg)
 
 ## CVE-2011-3609
  CVE-2011-3609 JBoss AS: CSRF in the administration console &amp; HTTP management API
@@ -189,6 +210,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2011-2920](https://github.com/Live-Hack-CVE/CVE-2011-2920) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-2920.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-2920.svg)
 
+## CVE-2011-2906
+ ** DISPUTED ** Integer signedness error in the pmcraid_ioctl_passthrough function in drivers/scsi/pmcraid.c in the Linux kernel before 3.1 might allow local users to cause a denial of service (memory consumption or memory corruption) via a negative size value in an ioctl call. NOTE: this may be a vulnerability only in unusual environments that provide a privileged program for obtaining the required file descriptor.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2011-2906](https://github.com/Live-Hack-CVE/CVE-2011-2906) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-2906.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-2906.svg)
+
 ## CVE-2011-2894
  Spring Framework 3.0.0 through 3.0.5, Spring Security 3.0.0 through 3.0.5 and 2.0.0 through 2.0.6, and possibly other versions deserialize objects from untrusted sources, which allows remote attackers to bypass intended security restrictions and execute untrusted code by (1) serializing a java.lang.Proxy instance and using InvocationHandler, or (2) accessing internal AOP interfaces, as demonstrated using deserialization of a DefaultListableBeanFactory instance to execute arbitrary commands via the java.lang.Runtime class.
 
@@ -220,9 +248,9 @@
 
 - [https://github.com/0xFTW/CVE-2011-2523](https://github.com/0xFTW/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xFTW/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xFTW/CVE-2011-2523.svg)
 
-- [https://github.com/XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/XiangSi-Howard/CTF---CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/XiangSi-Howard/CTF---CVE-2011-2523.svg)
-
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
+
+- [https://github.com/XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/XiangSi-Howard/CTF---CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/XiangSi-Howard/CTF---CVE-2011-2523.svg)
 
 - [https://github.com/HerculesRD/vsftpd2.3.4PyExploit](https://github.com/HerculesRD/vsftpd2.3.4PyExploit) :  ![starts](https://img.shields.io/github/stars/HerculesRD/vsftpd2.3.4PyExploit.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/vsftpd2.3.4PyExploit.svg)
 
