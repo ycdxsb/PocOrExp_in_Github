@@ -2787,9 +2787,9 @@
 
 - [https://github.com/chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/chanbin/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/chanbin/CVE-2017-11882.svg)
 
-- [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
-
 - [https://github.com/likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-11882.svg)
+
+- [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
 
 - [https://github.com/HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/HaoJame/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/HaoJame/CVE-2017-11882.svg)
 
@@ -4217,6 +4217,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2017-7517](https://github.com/Live-Hack-CVE/CVE-2017-7517) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7517.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7517.svg)
 
+## CVE-2017-7516
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2015-1197. Reason: This candidate is a duplicate of CVE-2015-1197. Notes: All CVE users should reference CVE-2015-1197 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-7516](https://github.com/Live-Hack-CVE/CVE-2017-7516) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7516.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7516.svg)
+
+## CVE-2017-7503
+ It was found that the Red Hat JBoss EAP 7.0.5 implementation of javax.xml.transform.TransformerFactory is vulnerable to XXE. An attacker could use this flaw to launch DoS or SSRF attacks, or read files from the server where EAP is deployed.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-7492](https://github.com/Live-Hack-CVE/CVE-2017-7492) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7492.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7492.svg)
+
 ## CVE-2017-7501
  It was found that versions of rpm before 4.13.0.2 use temporary files with predictable names when installing an RPM. An attacker with ability to write in a directory where files will be installed could create symbolic links to an arbitrary location and modify content, and possibly permissions to arbitrary files, which could be used for denial of service or possibly privilege escalation.
 
@@ -4272,12 +4286,26 @@
 
 - [https://github.com/adjaliya/-CVE-2017-7494-Samba-Exploit-POC](https://github.com/adjaliya/-CVE-2017-7494-Samba-Exploit-POC) :  ![starts](https://img.shields.io/github/stars/adjaliya/-CVE-2017-7494-Samba-Exploit-POC.svg) ![forks](https://img.shields.io/github/forks/adjaliya/-CVE-2017-7494-Samba-Exploit-POC.svg)
 
+## CVE-2017-7492
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2017-7503. Reason: This candidate is a reservation duplicate of CVE-2017-7503. Notes: All CVE users should reference CVE-2017-7503 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-7492](https://github.com/Live-Hack-CVE/CVE-2017-7492) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7492.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7492.svg)
+
 ## CVE-2017-7488
  A flaw was found where authconfig could configure sssd in a way that treats existing and non-existing logins differently, leaking information on existence of a user. An attacker with physical or network access to the machine could enumerate users via a timing attack.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2017-7488](https://github.com/Live-Hack-CVE/CVE-2017-7488) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7488.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7488.svg)
+
+## CVE-2017-7473
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA based off of CNT 3. Further investigation determined that there was a secure method for using the directive. Notes: none.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-7473](https://github.com/Live-Hack-CVE/CVE-2017-7473) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7473.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7473.svg)
 
 ## CVE-2017-7472
  A vulnerability was found in the Linux kernel where the keyctl_set_reqkey_keyring() function leaks the thread keyring. This allows an unprivileged local user to exhaust kernel memory and thus cause a DoS.
@@ -5767,9 +5795,9 @@
 
 - [https://github.com/Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/Phantomlancer123/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/Phantomlancer123/CVE-2017-0199.svg)
 
-- [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
-
 - [https://github.com/BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/BRAINIAC22/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/BRAINIAC22/CVE-2017-0199.svg)
+
+- [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
 
 - [https://github.com/Winter3un/cve_2017_0199](https://github.com/Winter3un/cve_2017_0199) :  ![starts](https://img.shields.io/github/stars/Winter3un/cve_2017_0199.svg) ![forks](https://img.shields.io/github/forks/Winter3un/cve_2017_0199.svg)
 
