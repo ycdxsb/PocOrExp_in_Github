@@ -84,6 +84,20 @@
 
 - [https://github.com/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability](https://github.com/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability) :  ![starts](https://img.shields.io/github/stars/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability.svg)
 
+## CVE-2012-6497
+ The Authlogic gem for Ruby on Rails, when used with certain versions before 3.2.10, makes potentially unsafe find_by_id method calls, which might allow remote attackers to conduct CVE-2012-6496 SQL injection attacks via a crafted parameter in environments that have a known secret_token value, as demonstrated by a value contained in secret_token.rb in an open-source product.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5664](https://github.com/Live-Hack-CVE/CVE-2012-5664) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5664.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5664.svg)
+
+## CVE-2012-6496
+ SQL injection vulnerability in the Active Record component in Ruby on Rails before 3.0.18, 3.1.x before 3.1.9, and 3.2.x before 3.2.10 allows remote attackers to execute arbitrary SQL commands via a crafted request that leverages incorrect behavior of dynamic finders in applications that can use unexpected data types in certain find_by_ method calls.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5664](https://github.com/Live-Hack-CVE/CVE-2012-5664) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5664.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5664.svg)
+
 ## CVE-2012-6150
  CVE-2012-6150 samba: pam_winbind fails open when non-existent group specified to require_membership_of
 
@@ -97,6 +111,76 @@
 
 
 - [https://github.com/bongbongco/CVE-2012-6066](https://github.com/bongbongco/CVE-2012-6066) :  ![starts](https://img.shields.io/github/stars/bongbongco/CVE-2012-6066.svg) ![forks](https://img.shields.io/github/forks/bongbongco/CVE-2012-6066.svg)
+
+## CVE-2012-6062
+ The dissect_rtcp_app function in epan/dissectors/packet-rtcp.c in the RTCP dissector in Wireshark 1.6.x before 1.6.12 and 1.8.x before 1.8.4 allows remote attackers to cause a denial of service (infinite loop) via a crafted packet.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5600](https://github.com/Live-Hack-CVE/CVE-2012-5600) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5600.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5600.svg)
+
+## CVE-2012-6061
+ The dissect_wtp_common function in epan/dissectors/packet-wtp.c in the WTP dissector in Wireshark 1.6.x before 1.6.12 and 1.8.x before 1.8.4 uses an incorrect data type for a certain length field, which allows remote attackers to cause a denial of service (integer overflow and infinite loop) via a crafted value in a packet.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5599](https://github.com/Live-Hack-CVE/CVE-2012-5599) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5599.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5599.svg)
+
+## CVE-2012-6060
+ Integer overflow in the dissect_iscsi_pdu function in epan/dissectors/packet-iscsi.c in the iSCSI dissector in Wireshark 1.6.x before 1.6.12 and 1.8.x before 1.8.4 allows remote attackers to cause a denial of service (infinite loop) via a malformed packet.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5598](https://github.com/Live-Hack-CVE/CVE-2012-5598) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5598.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5598.svg)
+
+## CVE-2012-6059
+ The dissect_isakmp function in epan/dissectors/packet-isakmp.c in the ISAKMP dissector in Wireshark 1.6.x before 1.6.12 and 1.8.x before 1.8.4 uses an incorrect data structure to determine IKEv2 decryption parameters, which allows remote attackers to cause a denial of service (application crash) via a malformed packet.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5597](https://github.com/Live-Hack-CVE/CVE-2012-5597) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5597.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5597.svg)
+
+## CVE-2012-6057
+ The dissect_eigrp_metric_comm function in epan/dissectors/packet-eigrp.c in the EIGRP dissector in Wireshark 1.8.x before 1.8.4 uses the wrong data type for a certain offset value, which allows remote attackers to cause a denial of service (integer overflow and infinite loop) via a malformed packet.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5596](https://github.com/Live-Hack-CVE/CVE-2012-5596) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5596.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5596.svg)
+
+## CVE-2012-6056
+ Integer overflow in the dissect_sack_chunk function in epan/dissectors/packet-sctp.c in the SCTP dissector in Wireshark 1.8.x before 1.8.4 allows remote attackers to cause a denial of service (infinite loop) via a crafted Duplicate TSN count.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5595](https://github.com/Live-Hack-CVE/CVE-2012-5595) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5595.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5595.svg)
+
+## CVE-2012-6055
+ epan/dissectors/packet-3g-a11.c in the 3GPP2 A11 dissector in Wireshark 1.8.x before 1.8.4 allows remote attackers to cause a denial of service (infinite loop) via a zero value in a sub-type length field.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5601](https://github.com/Live-Hack-CVE/CVE-2012-5601) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5601.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5601.svg)
+
+## CVE-2012-6054
+ The dissect_sflow_245_address_type function in epan/dissectors/packet-sflow.c in the sFlow dissector in Wireshark 1.8.x before 1.8.4 does not properly handle length calculations for an invalid IP address type, which allows remote attackers to cause a denial of service (infinite loop) via a packet that is neither IPv4 nor IPv6.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5594](https://github.com/Live-Hack-CVE/CVE-2012-5594) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5594.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5594.svg)
+
+## CVE-2012-6053
+ epan/dissectors/packet-usb.c in the USB dissector in Wireshark 1.6.x before 1.6.12 and 1.8.x before 1.8.4 relies on a length field to calculate an offset value, which allows remote attackers to cause a denial of service (infinite loop) via a zero value for this field.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5593](https://github.com/Live-Hack-CVE/CVE-2012-5593) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5593.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5593.svg)
+
+## CVE-2012-6052
+ Wireshark 1.8.x before 1.8.4 allows remote attackers to obtain sensitive hostname information by reading pcap-ng files.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5592](https://github.com/Live-Hack-CVE/CVE-2012-5592) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5592.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5592.svg)
 
 ## CVE-2012-5960
  Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) before 1.6.18 allows remote attackers to execute arbitrary code via a long UDN (aka upnp:rootdevice) field in a UDP packet.
@@ -121,12 +205,35 @@
 
 - [https://github.com/lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp) :  ![starts](https://img.shields.io/github/stars/lochiiconnectivity/vulnupnp.svg) ![forks](https://img.shields.io/github/forks/lochiiconnectivity/vulnupnp.svg)
 
+## CVE-2012-5883
+ Cross-site scripting (XSS) vulnerability in the Flash component infrastructure in YUI 2.8.0 through 2.9.0, as used in Bugzilla 3.7.x and 4.0.x before 4.0.9, 4.1.x and 4.2.x before 4.2.4, and 4.3.x and 4.4.x before 4.4rc1, allows remote attackers to inject arbitrary web script or HTML via vectors related to swfstore.swf, a similar issue to CVE-2010-4209.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5475](https://github.com/Live-Hack-CVE/CVE-2012-5475) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5475.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5475.svg)
+
+## CVE-2012-5882
+ Cross-site scripting (XSS) vulnerability in the Flash component infrastructure in YUI 2.5.0 through 2.9.0 allows remote attackers to inject arbitrary web script or HTML via vectors related to uploader.swf, a similar issue to CVE-2010-4208.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5475](https://github.com/Live-Hack-CVE/CVE-2012-5475) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5475.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5475.svg)
+
+## CVE-2012-5881
+ Cross-site scripting (XSS) vulnerability in the Flash component infrastructure in YUI 2.4.0 through 2.9.0 allows remote attackers to inject arbitrary web script or HTML via vectors related to charts.swf, a similar issue to CVE-2010-4207.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5475](https://github.com/Live-Hack-CVE/CVE-2012-5475) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5475.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5475.svg)
+
 ## CVE-2012-5664
- ** RE
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2012-6496, CVE-2012-6497. Reason: this candidate was intended for one issue, but the candidate was publicly used to label concerns about multiple products. Notes: All CVE users should consult CVE-2012-6496 and CVE-2012-6497 to determine which ID is appropriate. All references and descriptions in this candidate have been removed to prevent accidental usage.
 
 
 
 - [https://github.com/phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test) :  ![starts](https://img.shields.io/github/stars/phusion/rails-cve-2012-5664-test.svg) ![forks](https://img.shields.io/github/forks/phusion/rails-cve-2012-5664-test.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5664](https://github.com/Live-Hack-CVE/CVE-2012-5664) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5664.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5664.svg)
 
 ## CVE-2012-5627
  Oracle MySQL and MariaDB 5.5.x before 5.5.29, 5.3.x before 5.3.12, and 5.2.x before 5.2.14 does not modify the salt during multiple executions of the change_user command within the same connection which makes it easier for remote authenticated users to conduct brute force password guessing attacks.
@@ -143,13 +250,85 @@
 - [https://github.com/Live-Hack-CVE/CVE-2012-5614](https://github.com/Live-Hack-CVE/CVE-2012-5614) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5614.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5614.svg)
 
 ## CVE-2012-5613
- ** DISP
+ ** DISPUTED ** MySQL 5.5.19 and possibly other versions, and MariaDB 5.5.28a and possibly other versions, when configured to assign the FILE privilege to users who should not have administrative privileges, allows remote authenticated users to gain privileges by leveraging the FILE privilege to create files as the MySQL administrator. NOTE: the vendor disputes this issue, stating that this is only a vulnerability when the administrator does not follow recommendations in the product's installation documentation. NOTE: it could be argued that this should not be included in CVE because it is a configuration issue.
 
 
 
 - [https://github.com/Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb) :  ![starts](https://img.shields.io/github/stars/Hood3dRob1n/MySQL-Fu.rb.svg) ![forks](https://img.shields.io/github/forks/Hood3dRob1n/MySQL-Fu.rb.svg)
 
 - [https://github.com/w4fz5uck5/UDFPwn-CVE-2012-5613](https://github.com/w4fz5uck5/UDFPwn-CVE-2012-5613) :  ![starts](https://img.shields.io/github/stars/w4fz5uck5/UDFPwn-CVE-2012-5613.svg) ![forks](https://img.shields.io/github/forks/w4fz5uck5/UDFPwn-CVE-2012-5613.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5613](https://github.com/Live-Hack-CVE/CVE-2012-5613) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5613.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5613.svg)
+
+## CVE-2012-5601
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2012-6055. Reason: This candidate is a reservation duplicate of CVE-2012-6055. Notes: All CVE users should reference CVE-2012-6055 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5601](https://github.com/Live-Hack-CVE/CVE-2012-5601) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5601.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5601.svg)
+
+## CVE-2012-5600
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2012-6062. Reason: This candidate is a reservation duplicate of CVE-2012-6062. Notes: All CVE users should reference CVE-2012-6062 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5600](https://github.com/Live-Hack-CVE/CVE-2012-5600) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5600.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5600.svg)
+
+## CVE-2012-5599
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2012-6061. Reason: This candidate is a reservation duplicate of CVE-2012-6061. Notes: All CVE users should reference CVE-2012-6061 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5599](https://github.com/Live-Hack-CVE/CVE-2012-5599) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5599.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5599.svg)
+
+## CVE-2012-5598
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2012-6060. Reason: This candidate is a reservation duplicate of CVE-2012-6060. Notes: All CVE users should reference CVE-2012-6060 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5598](https://github.com/Live-Hack-CVE/CVE-2012-5598) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5598.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5598.svg)
+
+## CVE-2012-5597
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2012-6059. Reason: This candidate is a reservation duplicate of CVE-2012-6059. Notes: All CVE users should reference CVE-2012-6059 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5597](https://github.com/Live-Hack-CVE/CVE-2012-5597) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5597.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5597.svg)
+
+## CVE-2012-5596
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2012-6057. Reason: This candidate is a reservation duplicate of CVE-2012-6057. Notes: All CVE users should reference CVE-2012-6057 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5596](https://github.com/Live-Hack-CVE/CVE-2012-5596) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5596.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5596.svg)
+
+## CVE-2012-5595
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2012-6056. Reason: This candidate is a reservation duplicate of CVE-2012-6056. Notes: All CVE users should reference CVE-2012-6056 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5595](https://github.com/Live-Hack-CVE/CVE-2012-5595) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5595.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5595.svg)
+
+## CVE-2012-5594
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2012-6054. Reason: This candidate is a reservation duplicate of CVE-2012-6054. Notes: All CVE users should reference CVE-2012-6054 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5594](https://github.com/Live-Hack-CVE/CVE-2012-5594) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5594.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5594.svg)
+
+## CVE-2012-5593
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2012-6053. Reason: This candidate is a reservation duplicate of CVE-2012-6053. Notes: All CVE users should reference CVE-2012-6053 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5593](https://github.com/Live-Hack-CVE/CVE-2012-5593) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5593.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5593.svg)
+
+## CVE-2012-5592
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2012-6052. Reason: This candidate is a reservation duplicate of CVE-2012-6052. Notes: All CVE users should reference CVE-2012-6052 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5592](https://github.com/Live-Hack-CVE/CVE-2012-5592) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5592.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5592.svg)
 
 ## CVE-2012-5575
  Apache CXF 2.5.x before 2.5.10, 2.6.x before CXF 2.6.7, and 2.7.x before CXF 2.7.4 does not verify that a specified cryptographic algorithm is allowed by the WS-SecurityPolicy AlgorithmSuite definition before decrypting, which allows remote attackers to force CXF to use weaker cryptographic algorithms than intended and makes it easier to decrypt communications, aka &quot;XML Encryption backwards compatibility attack.&quot;
@@ -164,6 +343,13 @@
 
 
 - [https://github.com/p1ckzi/CVE-2012-5519](https://github.com/p1ckzi/CVE-2012-5519) :  ![starts](https://img.shields.io/github/stars/p1ckzi/CVE-2012-5519.svg) ![forks](https://img.shields.io/github/forks/p1ckzi/CVE-2012-5519.svg)
+
+## CVE-2012-5475
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2012-5881, CVE-2012-5882, CVE-2012-5883. Reason: This candidate is a duplicate of CVE-2012-5881, CVE-2012-5882, and CVE-2012-5883. Notes: All CVE users should reference one or more of CVE-2012-5881, CVE-2012-5882, and CVE-2012-5883 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-5475](https://github.com/Live-Hack-CVE/CVE-2012-5475) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5475.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5475.svg)
 
 ## CVE-2012-5106
  Stack-based buffer overflow in FreeFloat FTP Server 1.0 allows remote authenticated users to execute arbitrary code via a long string in a PUT command.
@@ -220,9 +406,9 @@
 
 - [https://github.com/benjholla/CVE-2012-4681-Armoring](https://github.com/benjholla/CVE-2012-4681-Armoring) :  ![starts](https://img.shields.io/github/stars/benjholla/CVE-2012-4681-Armoring.svg) ![forks](https://img.shields.io/github/forks/benjholla/CVE-2012-4681-Armoring.svg)
 
-- [https://github.com/ZH3FENG/PoCs-CVE_2012_4681](https://github.com/ZH3FENG/PoCs-CVE_2012_4681) :  ![starts](https://img.shields.io/github/stars/ZH3FENG/PoCs-CVE_2012_4681.svg) ![forks](https://img.shields.io/github/forks/ZH3FENG/PoCs-CVE_2012_4681.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2012-4681](https://github.com/Live-Hack-CVE/CVE-2012-4681) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-4681.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-4681.svg)
+
+- [https://github.com/ZH3FENG/PoCs-CVE_2012_4681](https://github.com/ZH3FENG/PoCs-CVE_2012_4681) :  ![starts](https://img.shields.io/github/stars/ZH3FENG/PoCs-CVE_2012_4681.svg) ![forks](https://img.shields.io/github/forks/ZH3FENG/PoCs-CVE_2012_4681.svg)
 
 ## CVE-2012-4431
  org/apache/catalina/filters/CsrfPreventionFilter.java in Apache Tomcat 6.x before 6.0.36 and 7.x before 7.0.32 allows remote attackers to bypass the cross-site request forgery (CSRF) protection mechanism via a request that lacks a session identifier.
@@ -414,6 +600,20 @@
 
 - [https://github.com/Blackyguy/-CVE-2012-2661-ActiveRecord-SQL-injection-](https://github.com/Blackyguy/-CVE-2012-2661-ActiveRecord-SQL-injection-) :  ![starts](https://img.shields.io/github/stars/Blackyguy/-CVE-2012-2661-ActiveRecord-SQL-injection-.svg) ![forks](https://img.shields.io/github/forks/Blackyguy/-CVE-2012-2661-ActiveRecord-SQL-injection-.svg)
 
+## CVE-2012-2658
+ ** DISPUTED ** Buffer overflow in the SQLDriverConnect function in unixODBC 2.3.1 allows local users to cause a denial of service (crash) via a long string in the DRIVER option. NOTE: this issue might not be a vulnerability, since the ability to set this option typically implies that the attacker already has legitimate access to cause a DoS or execute code, and therefore the issue would not cross privilege boundaries. There may be limited attack scenarios if isql command-line options are exposed to an attacker, although it seems likely that other, more serious issues would also be exposed, and this issue might not cross privilege boundaries in that context.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-2658](https://github.com/Live-Hack-CVE/CVE-2012-2658) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-2658.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-2658.svg)
+
+## CVE-2012-2657
+ ** DISPUTED ** Buffer overflow in the SQLDriverConnect function in unixODBC 2.0.10, 2.3.1, and earlier allows local users to cause a denial of service (crash) via a long string in the FILEDSN option. NOTE: this issue might not be a vulnerability, since the ability to set this option typically implies that the attacker already has legitimate access to cause a DoS or execute code, and therefore the issue would not cross privilege boundaries. There may be limited attack scenarios if isql command-line options are exposed to an attacker, although it seems likely that other, more serious issues would also be exposed, and this issue might not cross privilege boundaries in that context.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-2657](https://github.com/Live-Hack-CVE/CVE-2012-2657) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-2657.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-2657.svg)
+
 ## CVE-2012-2593
  Cross-site scripting (XSS) vulnerability in the administrative interface in Atmail Webmail Server 6.4 allows remote attackers to inject arbitrary web script or HTML via the Date field of an email.
 
@@ -441,6 +641,20 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-2160](https://github.com/Live-Hack-CVE/CVE-2012-2160) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-2160.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-2160.svg)
+
+## CVE-2012-2129
+ Cross-site scripting (XSS) vulnerability in doku.php in DokuWiki 2012-01-25 Angua allows remote attackers to inject arbitrary web script or HTML via the target parameter in an edit action.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-2128](https://github.com/Live-Hack-CVE/CVE-2012-2128) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-2128.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-2128.svg)
+
+## CVE-2012-2128
+ ** DISPUTED ** Cross-site request forgery (CSRF) vulnerability in doku.php in DokuWiki 2012-01-25 Angua allows remote attackers to hijack the authentication of administrators for requests that add arbitrary users. NOTE: this issue has been disputed by the vendor, who states that it is resultant from CVE-2012-2129: &quot;the exploit code simply uses the XSS hole to extract a valid CSRF token.&quot;
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-2128](https://github.com/Live-Hack-CVE/CVE-2012-2128) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-2128.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-2128.svg)
 
 ## CVE-2012-2122
  sql/password.c in Oracle MySQL 5.1.x before 5.1.63, 5.5.x before 5.5.24, and 5.6.x before 5.6.6, and MariaDB 5.1.x before 5.1.62, 5.2.x before 5.2.12, 5.3.x before 5.3.6, and 5.5.x before 5.5.23, when running in certain environments with certain implementations of the memcmp function, allows remote attackers to bypass authentication by repeatedly authenticating with the same incorrect password, which eventually causes a token comparison to succeed due to an improperly-checked return value.
@@ -671,6 +885,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-0053](https://github.com/Live-Hack-CVE/CVE-2012-0053) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-0053.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-0053.svg)
+
+## CVE-2012-0039
+ ** DISPUTED ** GLib 2.31.8 and earlier, when the g_str_hash function is used, computes hash values without restricting the ability to trigger hash collisions predictably, which allows context-dependent attackers to cause a denial of service (CPU consumption) via crafted input to an application that maintains a hash table. NOTE: this issue may be disputed by the vendor; the existence of the g_str_hash function is not a vulnerability in the library, because callers of g_hash_table_new and g_hash_table_new_full can specify an arbitrary hash function that is appropriate for the application.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-0039](https://github.com/Live-Hack-CVE/CVE-2012-0039) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-0039.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-0039.svg)
 
 ## CVE-2012-0003
  Unspecified vulnerability in winmm.dll in Windows Multimedia Library in Windows Media Player (WMP) in Microsoft Windows XP SP2 and SP3, Server 2003 SP2, Vista SP2, and Server 2008 SP2 allows remote attackers to execute arbitrary code via a crafted MIDI file, aka &quot;MIDI Remote Code Execution Vulnerability.&quot;
