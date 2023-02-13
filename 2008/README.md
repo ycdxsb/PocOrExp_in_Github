@@ -81,6 +81,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2008-3789](https://github.com/Live-Hack-CVE/CVE-2008-3789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-3789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-3789.svg)
 
+## CVE-2008-2956
+ ** DISPUTED ** Memory leak in Pidgin 2.0.0, and possibly other versions, allows remote attackers to cause a denial of service (memory consumption) via malformed XML documents. NOTE: this issue has been disputed by the upstream vendor, who states: &quot;I was never able to identify a scenario under which a problem occurred and the original reporter wasn't able to supply any sort of reproduction details.&quot;
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2008-2956](https://github.com/Live-Hack-CVE/CVE-2008-2956) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-2956.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-2956.svg)
+
 ## CVE-2008-2938
  CVE-2008-2938 tomcat Unicode directory traversal vulnerability
 
