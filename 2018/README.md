@@ -1438,12 +1438,33 @@
 
 - [https://github.com/zjw88282740/CVE-2018-16890](https://github.com/zjw88282740/CVE-2018-16890) :  ![starts](https://img.shields.io/github/stars/zjw88282740/CVE-2018-16890.svg) ![forks](https://img.shields.io/github/forks/zjw88282740/CVE-2018-16890.svg)
 
+## CVE-2018-16889
+ Ceph does not properly sanitize encryption keys in debug logging for v4 auth. This results in the leaking of encryption key information in log files via plaintext. Versions up to v13.2.4 are vulnerable.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-16889](https://github.com/Live-Hack-CVE/CVE-2018-16889) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-16889.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-16889.svg)
+
 ## CVE-2018-16888
  It was discovered systemd does not correctly check the content of PIDFile files before using it to kill processes. When a service is run from an unprivileged user (e.g. User field set in the service file), a local attacker who is able to write to the PIDFile of the mentioned service may use this flaw to trick systemd into killing other services and/or privileged processes. Versions before v237 are vulnerable.
 
 
 
 - [https://github.com/hpcprofessional/remediate_cesa_2019_2091](https://github.com/hpcprofessional/remediate_cesa_2019_2091) :  ![starts](https://img.shields.io/github/stars/hpcprofessional/remediate_cesa_2019_2091.svg) ![forks](https://img.shields.io/github/forks/hpcprofessional/remediate_cesa_2019_2091.svg)
+
+## CVE-2018-16885
+ A flaw was found in the Linux kernel that allows the userspace to call memcpy_fromiovecend() and similar functions with a zero offset and buffer length which causes the read beyond the buffer boundaries, in certain cases causing a memory access fault and a system halt by accessing invalid memory address. This issue only affects kernel version 3.10.x as shipped with Red Hat Enterprise Linux 7.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-16885](https://github.com/Live-Hack-CVE/CVE-2018-16885) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-16885.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-16885.svg)
+
+## CVE-2018-16884
+ A flaw was found in the Linux kernel's NFS41+ subsystem. NFS41+ shares mounted in different network namespaces at the same time can make bc_svc_process() use wrong back-channel IDs and cause a use-after-free vulnerability. Thus a malicious container user can cause a host kernel memory corruption and a system panic. Due to the nature of the flaw, privilege escalation cannot be fully ruled out.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-16884](https://github.com/Live-Hack-CVE/CVE-2018-16884) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-16884.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-16884.svg)
 
 ## CVE-2018-16881
  A denial of service vulnerability was found in rsyslog in the imptcp module. An attacker could send a specially crafted message to the imptcp socket, which would cause rsyslog to crash. Versions before 8.27.0 are vulnerable.
@@ -1488,11 +1509,20 @@
 - [https://github.com/Live-Hack-CVE/CVE-2018-16868](https://github.com/Live-Hack-CVE/CVE-2018-16868) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-16868.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-16868.svg)
 
 ## CVE-2018-16866
- An out of bounds read was discovered in systemd-journald in the way it parses log messages that terminate with a colon ':'. A local attacker can use this flaw to disclose process memory data.
+ An out of bounds read was discovered in systemd-journald in the way it parses log messages that terminate with a colon ':'. A local attacker can use this flaw to disclose process memory data. Versions from v221 to v239 are vulnerable.
 
 
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-16866](https://github.com/Live-Hack-CVE/CVE-2018-16866) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-16866.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-16866.svg)
 
 - [https://github.com/hpcprofessional/remediate_cesa_2019_2091](https://github.com/hpcprofessional/remediate_cesa_2019_2091) :  ![starts](https://img.shields.io/github/stars/hpcprofessional/remediate_cesa_2019_2091.svg) ![forks](https://img.shields.io/github/forks/hpcprofessional/remediate_cesa_2019_2091.svg)
+
+## CVE-2018-16865
+ An allocation of memory without limits, that could result in the stack clashing with another memory region, was discovered in systemd-journald when many entries are sent to the journal socket. A local attacker, or a remote one if systemd-journal-remote is used, may use this flaw to crash systemd-journald or execute code with journald privileges. Versions through v240 are vulnerable.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-16865](https://github.com/Live-Hack-CVE/CVE-2018-16865) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-16865.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-16865.svg)
 
 ## CVE-2018-16858
  It was found that libreoffice before versions 6.0.7 and 6.1.3 was vulnerable to a directory traversal attack which could be used to execute arbitrary macros bundled with a document. An attacker could craft a document, which when opened by LibreOffice, would execute a Python method from a script in any arbitrary file system location, specified relative to the LibreOffice install location.
@@ -1556,9 +1586,9 @@
 
 - [https://github.com/noraj/fuelcms-rce](https://github.com/noraj/fuelcms-rce) :  ![starts](https://img.shields.io/github/stars/noraj/fuelcms-rce.svg) ![forks](https://img.shields.io/github/forks/noraj/fuelcms-rce.svg)
 
-- [https://github.com/padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/padsalatushal/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/padsalatushal/CVE-2018-16763.svg)
-
 - [https://github.com/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--](https://github.com/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--) :  ![starts](https://img.shields.io/github/stars/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--.svg) ![forks](https://img.shields.io/github/forks/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--.svg)
+
+- [https://github.com/padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/padsalatushal/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/padsalatushal/CVE-2018-16763.svg)
 
 - [https://github.com/n3m1dotsys/CVE-2018-16763-Exploit-Python3](https://github.com/n3m1dotsys/CVE-2018-16763-Exploit-Python3) :  ![starts](https://img.shields.io/github/stars/n3m1dotsys/CVE-2018-16763-Exploit-Python3.svg) ![forks](https://img.shields.io/github/forks/n3m1dotsys/CVE-2018-16763-Exploit-Python3.svg)
 
@@ -1570,13 +1600,13 @@
 
 - [https://github.com/k4u5h41/CVE-2018-16763](https://github.com/k4u5h41/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2018-16763.svg)
 
-- [https://github.com/BrunoPincho/cve-2018-16763-rust](https://github.com/BrunoPincho/cve-2018-16763-rust) :  ![starts](https://img.shields.io/github/stars/BrunoPincho/cve-2018-16763-rust.svg) ![forks](https://img.shields.io/github/forks/BrunoPincho/cve-2018-16763-rust.svg)
-
 - [https://github.com/NaturalT314/CVE-2018-16763](https://github.com/NaturalT314/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/NaturalT314/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/NaturalT314/CVE-2018-16763.svg)
 
-- [https://github.com/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763.svg)
+- [https://github.com/BrunoPincho/cve-2018-16763-rust](https://github.com/BrunoPincho/cve-2018-16763-rust) :  ![starts](https://img.shields.io/github/stars/BrunoPincho/cve-2018-16763-rust.svg) ![forks](https://img.shields.io/github/forks/BrunoPincho/cve-2018-16763-rust.svg)
 
 - [https://github.com/uwueviee/Fu3l-F1lt3r](https://github.com/uwueviee/Fu3l-F1lt3r) :  ![starts](https://img.shields.io/github/stars/uwueviee/Fu3l-F1lt3r.svg) ![forks](https://img.shields.io/github/forks/uwueviee/Fu3l-F1lt3r.svg)
+
+- [https://github.com/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763.svg)
 
 ## CVE-2018-16758
  Missing message authentication in the meta-protocol in Tinc VPN version 1.0.34 and earlier allows a man-in-the-middle attack to disable the encryption of VPN packets.
@@ -2174,11 +2204,13 @@
 - [https://github.com/Live-Hack-CVE/CVE-2019-10171](https://github.com/Live-Hack-CVE/CVE-2019-10171) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-10171.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-10171.svg)
 
 ## CVE-2018-14634
- An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system.
+ An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system. Kernel versions 2.6.x, 3.10.x and 4.14.x are believed to be vulnerable.
 
 
 
 - [https://github.com/luan0ap/cve-2018-14634](https://github.com/luan0ap/cve-2018-14634) :  ![starts](https://img.shields.io/github/stars/luan0ap/cve-2018-14634.svg) ![forks](https://img.shields.io/github/forks/luan0ap/cve-2018-14634.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-14634](https://github.com/Live-Hack-CVE/CVE-2018-14634) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-14634.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-14634.svg)
 
 ## CVE-2018-14632
  An out of bound write can occur when patching an Openshift object using the 'oc patch' functionality in OpenShift Container Platform before 3.7. An attacker can use this flaw to cause a denial of service attack on the Openshift master api service which provides cluster management.
@@ -2897,9 +2929,9 @@
 
 - [https://github.com/vmotos/CVE-2018-11235](https://github.com/vmotos/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/vmotos/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/vmotos/CVE-2018-11235.svg)
 
-- [https://github.com/Choihosu/cve-2018-11235](https://github.com/Choihosu/cve-2018-11235) :  ![starts](https://img.shields.io/github/stars/Choihosu/cve-2018-11235.svg) ![forks](https://img.shields.io/github/forks/Choihosu/cve-2018-11235.svg)
-
 - [https://github.com/xElkomy/CVE-2018-11235](https://github.com/xElkomy/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/xElkomy/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/xElkomy/CVE-2018-11235.svg)
+
+- [https://github.com/Choihosu/cve-2018-11235](https://github.com/Choihosu/cve-2018-11235) :  ![starts](https://img.shields.io/github/stars/Choihosu/cve-2018-11235.svg) ![forks](https://img.shields.io/github/forks/Choihosu/cve-2018-11235.svg)
 
 - [https://github.com/Kiss-sh0t/CVE-2018-11235-poc](https://github.com/Kiss-sh0t/CVE-2018-11235-poc) :  ![starts](https://img.shields.io/github/stars/Kiss-sh0t/CVE-2018-11235-poc.svg) ![forks](https://img.shields.io/github/forks/Kiss-sh0t/CVE-2018-11235-poc.svg)
 
@@ -2996,23 +3028,23 @@
 
 - [https://github.com/throwawayaccount12312312/precompiled-CVE-2018-10933](https://github.com/throwawayaccount12312312/precompiled-CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/throwawayaccount12312312/precompiled-CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/throwawayaccount12312312/precompiled-CVE-2018-10933.svg)
 
-- [https://github.com/sambiyal/CVE-2018-10933-POC](https://github.com/sambiyal/CVE-2018-10933-POC) :  ![starts](https://img.shields.io/github/stars/sambiyal/CVE-2018-10933-POC.svg) ![forks](https://img.shields.io/github/forks/sambiyal/CVE-2018-10933-POC.svg)
-
 - [https://github.com/SilasSpringer/CVE-2018-10933](https://github.com/SilasSpringer/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/SilasSpringer/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/SilasSpringer/CVE-2018-10933.svg)
 
+- [https://github.com/sambiyal/CVE-2018-10933-POC](https://github.com/sambiyal/CVE-2018-10933-POC) :  ![starts](https://img.shields.io/github/stars/sambiyal/CVE-2018-10933-POC.svg) ![forks](https://img.shields.io/github/forks/sambiyal/CVE-2018-10933-POC.svg)
+
 - [https://github.com/kristyna-mlcakova/CVE-2018-10933](https://github.com/kristyna-mlcakova/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/kristyna-mlcakova/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/kristyna-mlcakova/CVE-2018-10933.svg)
+
+- [https://github.com/youkergav/CVE-2018-10933](https://github.com/youkergav/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/youkergav/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/youkergav/CVE-2018-10933.svg)
 
 - [https://github.com/lalishasanduwara/CVE-2018-10933](https://github.com/lalishasanduwara/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/lalishasanduwara/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/lalishasanduwara/CVE-2018-10933.svg)
 
 - [https://github.com/cve-2018/cve-2018-10933](https://github.com/cve-2018/cve-2018-10933) :  ![starts](https://img.shields.io/github/stars/cve-2018/cve-2018-10933.svg) ![forks](https://img.shields.io/github/forks/cve-2018/cve-2018-10933.svg)
 
-- [https://github.com/youkergav/CVE-2018-10933](https://github.com/youkergav/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/youkergav/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/youkergav/CVE-2018-10933.svg)
-
 - [https://github.com/cyberharsh/Libssh-server-CVE-2018-10933](https://github.com/cyberharsh/Libssh-server-CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Libssh-server-CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Libssh-server-CVE-2018-10933.svg)
 
-- [https://github.com/crispy-peppers/Libssh-server-CVE-2018-10933](https://github.com/crispy-peppers/Libssh-server-CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/crispy-peppers/Libssh-server-CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/crispy-peppers/Libssh-server-CVE-2018-10933.svg)
-
 - [https://github.com/Kurlee/LibSSH-exploit](https://github.com/Kurlee/LibSSH-exploit) :  ![starts](https://img.shields.io/github/stars/Kurlee/LibSSH-exploit.svg) ![forks](https://img.shields.io/github/forks/Kurlee/LibSSH-exploit.svg)
+
+- [https://github.com/crispy-peppers/Libssh-server-CVE-2018-10933](https://github.com/crispy-peppers/Libssh-server-CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/crispy-peppers/Libssh-server-CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/crispy-peppers/Libssh-server-CVE-2018-10933.svg)
 
 - [https://github.com/0xadaw/libSSH-bypass](https://github.com/0xadaw/libSSH-bypass) :  ![starts](https://img.shields.io/github/stars/0xadaw/libSSH-bypass.svg) ![forks](https://img.shields.io/github/forks/0xadaw/libSSH-bypass.svg)
 
@@ -3605,17 +3637,17 @@
 
 - [https://github.com/orf53975/Rig-Exploit-for-CVE-2018-8174](https://github.com/orf53975/Rig-Exploit-for-CVE-2018-8174) :  ![starts](https://img.shields.io/github/stars/orf53975/Rig-Exploit-for-CVE-2018-8174.svg) ![forks](https://img.shields.io/github/forks/orf53975/Rig-Exploit-for-CVE-2018-8174.svg)
 
-- [https://github.com/delina1/CVE-2018-8174](https://github.com/delina1/CVE-2018-8174) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174.svg)
-
 - [https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/DarkFlameMaster-bit/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/DarkFlameMaster-bit/CVE-2018-8174_EXP.svg)
+
+- [https://github.com/delina1/CVE-2018-8174](https://github.com/delina1/CVE-2018-8174) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174.svg)
 
 - [https://github.com/likescam/CVE-2018-8174-msf](https://github.com/likescam/CVE-2018-8174-msf) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2018-8174-msf.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2018-8174-msf.svg)
 
 - [https://github.com/lisinan988/CVE-2018-8174-exp](https://github.com/lisinan988/CVE-2018-8174-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2018-8174-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2018-8174-exp.svg)
 
-- [https://github.com/delina1/CVE-2018-8174_EXP](https://github.com/delina1/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174_EXP.svg)
-
 - [https://github.com/ericisnotrealname/CVE-2018-8174_EXP](https://github.com/ericisnotrealname/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/ericisnotrealname/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/ericisnotrealname/CVE-2018-8174_EXP.svg)
+
+- [https://github.com/delina1/CVE-2018-8174_EXP](https://github.com/delina1/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174_EXP.svg)
 
 - [https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-) :  ![starts](https://img.shields.io/github/stars/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-.svg) ![forks](https://img.shields.io/github/forks/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-.svg)
 
@@ -4273,9 +4305,9 @@
 
 - [https://github.com/it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/it3x55/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/it3x55/CVE-2018-6574.svg)
 
-- [https://github.com/NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/NikolaT3sla/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/NikolaT3sla/cve-2018-6574.svg)
-
 - [https://github.com/AnKItdo/CVE_2018-6574](https://github.com/AnKItdo/CVE_2018-6574) :  ![starts](https://img.shields.io/github/stars/AnKItdo/CVE_2018-6574.svg) ![forks](https://img.shields.io/github/forks/AnKItdo/CVE_2018-6574.svg)
+
+- [https://github.com/NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/NikolaT3sla/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/NikolaT3sla/cve-2018-6574.svg)
 
 - [https://github.com/Eugene24/CVE-2018-6574](https://github.com/Eugene24/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/Eugene24/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/Eugene24/CVE-2018-6574.svg)
 
@@ -5656,6 +5688,8 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2018-3715](https://github.com/Live-Hack-CVE/CVE-2018-3715) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-3715.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-3715.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2022-25937](https://github.com/Live-Hack-CVE/CVE-2022-25937) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2022-25937.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2022-25937.svg)
+
 ## CVE-2018-3713
  angular-http-server node module suffers from a Path Traversal vulnerability due to lack of validation of possibleFilename, which allows a malicious user to read content of any file with known path.
 
@@ -6376,6 +6410,13 @@
 
 - [https://github.com/aravinddathd/CVE-2018-1123](https://github.com/aravinddathd/CVE-2018-1123) :  ![starts](https://img.shields.io/github/stars/aravinddathd/CVE-2018-1123.svg) ![forks](https://img.shields.io/github/forks/aravinddathd/CVE-2018-1123.svg)
 
+## CVE-2018-1118
+ Linux kernel vhost since version 4.8 does not properly initialize memory in messages passed between virtual guests and the host operating system in the vhost/vhost.c:vhost_new_msg() function. This can allow local privileged users to read some kernel memory contents when reading from the /dev/vhost-net device file.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-1118](https://github.com/Live-Hack-CVE/CVE-2018-1118) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1118.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1118.svg)
+
 ## CVE-2018-1115
  postgresql before versions 10.4, 9.6.9 is vulnerable in the adminpack extension, the pg_catalog.pg_logfile_rotate() function doesn't follow the same ACLs than pg_rorate_logfile. If the adminpack is added to a database, an attacker able to connect to it could exploit this to force log rotation.
 
@@ -6391,7 +6432,7 @@
 - [https://github.com/MauroEldritch/GEVAUDAN](https://github.com/MauroEldritch/GEVAUDAN) :  ![starts](https://img.shields.io/github/stars/MauroEldritch/GEVAUDAN.svg) ![forks](https://img.shields.io/github/forks/MauroEldritch/GEVAUDAN.svg)
 
 ## CVE-2018-1111
- A command injection flaw was found in the NetworkManager integration script included in the DHCP client packages in Red Hat Enterprise Linux. A malicious DHCP server, or an attacker on the local network able to spoof DHCP responses, could use this flaw to execute arbitrary commands with root privileges on systems using NetworkManager and configured to obtain network configuration using the DHCP protocol.
+ DHCP packages in Red Hat Enterprise Linux 6 and 7, Fedora 28, and earlier are vulnerable to a command injection flaw in the NetworkManager integration script included in the DHCP client. A malicious DHCP server, or an attacker on the local network able to spoof DHCP responses, could use this flaw to execute arbitrary commands with root privileges on systems using NetworkManager and configured to obtain network configuration using the DHCP protocol.
 
 
 
@@ -6410,12 +6451,63 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2018-1108](https://github.com/Live-Hack-CVE/CVE-2018-1108) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1108.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1108.svg)
 
+## CVE-2018-1100
+ zsh through version 5.4.2 is vulnerable to a stack-based buffer overflow in the utils.c:checkmailpath function. A local attacker could exploit this to execute arbitrary code in the context of another user.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-1100](https://github.com/Live-Hack-CVE/CVE-2018-1100) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1100.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1100.svg)
+
+## CVE-2018-1098
+ A cross-site request forgery flaw was found in etcd 3.3.1 and earlier. An attacker can set up a website that tries to send a POST request to the etcd server and modify a key. Adding a key is done with PUT so it is theoretically safe (can't PUT from an HTML form or such) but POST allows creating in-order keys that an attacker can send.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-1098](https://github.com/Live-Hack-CVE/CVE-2018-1098) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1098.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1098.svg)
+
+## CVE-2018-1097
+ A flaw was found in foreman before 1.16.1. The issue allows users with limited permissions for powering oVirt/RHV hosts on and off to discover the username and password used to connect to the compute resource.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-1097](https://github.com/Live-Hack-CVE/CVE-2018-1097) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1097.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1097.svg)
+
+## CVE-2018-1095
+ The ext4_xattr_check_entries function in fs/ext4/xattr.c in the Linux kernel through 4.15.15 does not properly validate xattr sizes, which causes misinterpretation of a size as an error code, and consequently allows attackers to cause a denial of service (get_acl NULL pointer dereference and system crash) via a crafted ext4 image.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-1095](https://github.com/Live-Hack-CVE/CVE-2018-1095) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1095.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1095.svg)
+
+## CVE-2018-1094
+ The ext4_fill_super function in fs/ext4/super.c in the Linux kernel through 4.15.15 does not always initialize the crc32c checksum driver, which allows attackers to cause a denial of service (ext4_xattr_inode_hash NULL pointer dereference and system crash) via a crafted ext4 image.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-1094](https://github.com/Live-Hack-CVE/CVE-2018-1094) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1094.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1094.svg)
+
 ## CVE-2018-1088
- A privilege escalation flaw was found in gluster snapshot scheduler. Any gluster client allowed to mount gluster volumes could also mount shared gluster storage volume and escalate privileges by scheduling malicious cronjob via symlink.
+ A privilege escalation flaw was found in gluster 3.x snapshot scheduler. Any gluster client allowed to mount gluster volumes could also mount shared gluster storage volume and escalate privileges by scheduling malicious cronjob via symlink.
 
 
 
 - [https://github.com/MauroEldritch/GEVAUDAN](https://github.com/MauroEldritch/GEVAUDAN) :  ![starts](https://img.shields.io/github/stars/MauroEldritch/GEVAUDAN.svg) ![forks](https://img.shields.io/github/forks/MauroEldritch/GEVAUDAN.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-1088](https://github.com/Live-Hack-CVE/CVE-2018-1088) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1088.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1088.svg)
+
+## CVE-2018-1075
+ ovirt-engine up to version 4.2.3 is vulnerable to an unfiltered password when choosing manual db provisioning. When engine-setup was run and one chooses to provision the database manually or connect to a remote database, the password input was logged in cleartext during the verification step. Sharing the provisioning log might inadvertently leak database passwords.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-1075](https://github.com/Live-Hack-CVE/CVE-2018-1075) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1075.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1075.svg)
+
+## CVE-2018-1065
+ The netfilter subsystem in the Linux kernel through 4.15.7 mishandles the case of a rule blob that contains a jump but lacks a user-defined chain, which allows local users to cause a denial of service (NULL pointer dereference) by leveraging the CAP_NET_RAW or CAP_NET_ADMIN capability, related to arpt_do_table in net/ipv4/netfilter/arp_tables.c, ipt_do_table in net/ipv4/netfilter/ip_tables.c, and ip6t_do_table in net/ipv6/netfilter/ip6_tables.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-1065](https://github.com/Live-Hack-CVE/CVE-2018-1065) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1065.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1065.svg)
 
 ## CVE-2018-1058
  A flaw was found in the way Postgresql allowed a user to modify the behavior of a query for other users. An attacker with a user account could use this flaw to execute code with the permissions of superuser in the database. Versions 9.3 through 10 are affected.
@@ -6437,6 +6529,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2018-1050](https://github.com/Live-Hack-CVE/CVE-2018-1050) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1050.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1050.svg)
+
+## CVE-2018-1047
+ A flaw was found in Wildfly 9.x. A path traversal vulnerability through the org.wildfly.extension.undertow.deployment.ServletResourceManager.getResource method could lead to information disclosure of arbitrary local files.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2018-1047](https://github.com/Live-Hack-CVE/CVE-2018-1047) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1047.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1047.svg)
 
 ## CVE-2018-1042
  Moodle 3.x has Server Side Request Forgery in the filepicker.
