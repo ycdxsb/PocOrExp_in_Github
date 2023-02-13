@@ -460,6 +460,13 @@
 
 - [https://github.com/aalex954/jwt-key-confusion-poc](https://github.com/aalex954/jwt-key-confusion-poc) :  ![starts](https://img.shields.io/github/stars/aalex954/jwt-key-confusion-poc.svg) ![forks](https://img.shields.io/github/forks/aalex954/jwt-key-confusion-poc.svg)
 
+## CVE-2015-8970
+ crypto/algif_skcipher.c in the Linux kernel before 4.4.2 does not verify that a setkey operation has been performed on an AF_ALG socket before an accept system call is processed, which allows local users to cause a denial of service (NULL pointer dereference and system crash) via a crafted application that does not supply a key, related to the lrw_crypt function in crypto/lrw.c.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-8970](https://github.com/Live-Hack-CVE/CVE-2015-8970) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8970.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8970.svg)
+
 ## CVE-2015-8879
  The odbc_bindcols function in ext/odbc/php_odbc.c in PHP before 5.6.12 mishandles driver behavior for SQL_WVARCHAR columns, which allows remote attackers to cause a denial of service (application crash) in opportunistic circumstances by leveraging use of the odbc_fetch_array function to access a certain type of Microsoft SQL Server table.
 
@@ -481,6 +488,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-8787](https://github.com/Live-Hack-CVE/CVE-2015-8787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8787.svg)
 
+## CVE-2015-8745
+ QEMU (aka Quick Emulator) built with a VMWARE VMXNET3 paravirtual NIC emulator support is vulnerable to crash issue. It could occur while reading Interrupt Mask Registers (IMR). A privileged (CAP_SYS_RAWIO) guest user could use this flaw to crash the QEMU process instance resulting in DoS.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-8745](https://github.com/Live-Hack-CVE/CVE-2015-8745) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8745.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8745.svg)
+
+## CVE-2015-8744
+ QEMU (aka Quick Emulator) built with a VMWARE VMXNET3 paravirtual NIC emulator support is vulnerable to crash issue. It occurs when a guest sends a Layer-2 packet smaller than 22 bytes. A privileged (CAP_SYS_RAWIO) guest user could use this flaw to crash the QEMU process instance resulting in DoS.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-8744](https://github.com/Live-Hack-CVE/CVE-2015-8744) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8744.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8744.svg)
+
 ## CVE-2015-8710
  The htmlParseComment function in HTMLparser.c in libxml2 allows attackers to obtain sensitive information, cause a denial of service (out-of-bounds heap memory access and application crash), or possibly have unspecified other impact via an unclosed HTML comment.
 
@@ -496,6 +517,8 @@
 - [https://github.com/whu-enjoy/CVE-2015-8660](https://github.com/whu-enjoy/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/whu-enjoy/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/whu-enjoy/CVE-2015-8660.svg)
 
 - [https://github.com/nhamle2/CVE-2015-8660](https://github.com/nhamle2/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/nhamle2/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/nhamle2/CVE-2015-8660.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-8660](https://github.com/Live-Hack-CVE/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8660.svg)
 
 ## CVE-2015-8651
  Integer overflow in Adobe Flash Player before 18.0.0.324 and 19.x and 20.x before 20.0.0.267 on Windows and OS X and before 11.2.202.559 on Linux, Adobe AIR before 20.0.0.233, Adobe AIR SDK before 20.0.0.233, and Adobe AIR SDK &amp; Compiler before 20.0.0.233 allows attackers to execute arbitrary code via unspecified vectors.
@@ -538,6 +561,13 @@
 
 - [https://github.com/bittorrent3389/CVE-2015-8543_for_SLE12SP1](https://github.com/bittorrent3389/CVE-2015-8543_for_SLE12SP1) :  ![starts](https://img.shields.io/github/stars/bittorrent3389/CVE-2015-8543_for_SLE12SP1.svg) ![forks](https://img.shields.io/github/forks/bittorrent3389/CVE-2015-8543_for_SLE12SP1.svg)
 
+## CVE-2015-8504
+ Qemu, when built with VNC display driver support, allows remote attackers to cause a denial of service (arithmetic exception and application crash) via crafted SetPixelFormat messages from a client.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-8504](https://github.com/Live-Hack-CVE/CVE-2015-8504) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8504.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8504.svg)
+
 ## CVE-2015-8467
  The samldb_check_user_account_control_acl function in dsdb/samdb/ldb_modules/samldb.c in Samba 4.x before 4.1.22, 4.2.x before 4.2.7, and 4.3.x before 4.3.3 does not properly check for administrative privileges during creation of machine accounts, which allows remote authenticated users to bypass intended access restrictions by leveraging the existence of a domain with both a Samba DC and a Windows DC, a similar issue to CVE-2015-2535.
 
@@ -565,6 +595,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-8325](https://github.com/Live-Hack-CVE/CVE-2015-8325) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8325.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8325.svg)
+
+## CVE-2015-8324
+ The ext4 implementation in the Linux kernel before 2.6.34 does not properly track the initialization of certain data structures, which allows physically proximate attackers to cause a denial of service (NULL pointer dereference and panic) via a crafted USB device, related to the ext4_fill_super function.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-8324](https://github.com/Live-Hack-CVE/CVE-2015-8324) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8324.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8324.svg)
 
 ## CVE-2015-8299
  Buffer overflow in the Group messages monitor (Falcon) in KNX ETS 4.1.5 (Build 3246) allows remote attackers to execute arbitrary code via a crafted KNXnet/IP UDP packet.
@@ -602,6 +639,13 @@
 
 
 - [https://github.com/Pray3r/CVE-2015-8088](https://github.com/Pray3r/CVE-2015-8088) :  ![starts](https://img.shields.io/github/stars/Pray3r/CVE-2015-8088.svg) ![forks](https://img.shields.io/github/forks/Pray3r/CVE-2015-8088.svg)
+
+## CVE-2015-7872
+ The key_gc_unused_keys function in security/keys/gc.c in the Linux kernel through 4.2.6 allows local users to cause a denial of service (OOPS) via crafted keyctl commands.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-7872](https://github.com/Live-Hack-CVE/CVE-2015-7872) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7872.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7872.svg)
 
 ## CVE-2015-7858
  SQL injection vulnerability in Joomla! 3.2 before 3.4.4 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, a different vulnerability than CVE-2015-7297.
@@ -651,6 +695,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-7744](https://github.com/Live-Hack-CVE/CVE-2015-7744) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7744.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7744.svg)
 
+## CVE-2015-7713
+ OpenStack Compute (Nova) before 2014.2.4 (juno) and 2015.1.x before 2015.1.2 (kilo) do not properly apply security group changes, which allows remote attackers to bypass intended restriction by leveraging an instance that was running when the change was made.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-7713](https://github.com/Live-Hack-CVE/CVE-2015-7713) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7713.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7713.svg)
+
 ## CVE-2015-7576
  The http_basic_authenticate_with method in actionpack/lib/action_controller/metal/http_authentication.rb in the Basic Authentication implementation in Action Controller in Ruby on Rails before 3.2.22.1, 4.0.x and 4.1.x before 4.1.14.1, 4.2.x before 4.2.5.1, and 5.x before 5.0.0.beta1.1 does not use a constant-time algorithm for verifying credentials, which makes it easier for remote attackers to bypass authentication by measuring timing differences.
 
@@ -665,8 +716,22 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-7560](https://github.com/Live-Hack-CVE/CVE-2015-7560) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7560.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7560.svg)
 
+## CVE-2015-7553
+ Race condition in the kernel in Red Hat Enterprise Linux 7, kernel-rt and Red Hat Enterprise MRG 2, when the nfnetlink_log module is loaded, allows local users to cause a denial of service (panic) by creating netlink sockets.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-7553](https://github.com/Live-Hack-CVE/CVE-2015-7553) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7553.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7553.svg)
+
+## CVE-2015-7549
+ The MSI-X MMIO support in hw/pci/msix.c in QEMU (aka Quick Emulator) allows local guest OS privileged users to cause a denial of service (NULL pointer dereference and QEMU process crash) by leveraging failure to define the .write method.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-7549](https://github.com/Live-Hack-CVE/CVE-2015-7549) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7549.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7549.svg)
+
 ## CVE-2015-7547
- A stack-based buffer overflow was found in the way the libresolv library performed dual A/AAAA DNS queries. A remote attacker could create a specially crafted DNS response which could cause libresolv to crash or, potentially, execute code with the permissions of the user running the library. Note: this issue is only exposed when libresolv is called from the nss_dns NSS service module.
+ Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functions in the libresolv library in the GNU C Library (aka glibc or libc6) before 2.23 allow remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via a crafted DNS response that triggers a call to the getaddrinfo function with the AF_UNSPEC or AF_INET6 address family, related to performing &quot;dual A/AAAA DNS queries&quot; and the libnss_dns.so.2 NSS module.
 
 
 
@@ -699,6 +764,13 @@
 
 - [https://github.com/avuserow/bug-free-chainsaw](https://github.com/avuserow/bug-free-chainsaw) :  ![starts](https://img.shields.io/github/stars/avuserow/bug-free-chainsaw.svg) ![forks](https://img.shields.io/github/forks/avuserow/bug-free-chainsaw.svg)
 
+## CVE-2015-7544
+ redhat-support-plugin-rhev in Red Hat Enterprise Virtualization Manager (aka RHEV Manager) before 3.6 allows remote authenticated users with the SuperUser role on any Entity to execute arbitrary commands on any host in the RHEV environment.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-7544](https://github.com/Live-Hack-CVE/CVE-2015-7544) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7544.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7544.svg)
+
 ## CVE-2015-7540
  The LDAP server in the AD domain controller in Samba 4.x before 4.1.22 does not check return values to ensure successful ASN.1 memory allocation, which allows remote attackers to cause a denial of service (memory consumption and daemon crash) via crafted packets.
 
@@ -706,12 +778,61 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-7540](https://github.com/Live-Hack-CVE/CVE-2015-7540) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7540.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7540.svg)
 
+## CVE-2015-7529
+ sosreport in SoS 3.x allows local users to obtain sensitive information from sosreport files or gain privileges via a symlink attack on an archive file in a temporary directory, as demonstrated by sosreport-$hostname-$date.tar in /tmp/sosreport-$hostname-$date.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-7529](https://github.com/Live-Hack-CVE/CVE-2015-7529) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7529.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7529.svg)
+
+## CVE-2015-7512
+ Buffer overflow in the pcnet_receive function in hw/net/pcnet.c in QEMU, when a guest NIC has a larger MTU, allows remote attackers to cause a denial of service (guest OS crash) or execute arbitrary code via a large packet.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-7512](https://github.com/Live-Hack-CVE/CVE-2015-7512) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7512.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7512.svg)
+
+## CVE-2015-7509
+ fs/ext4/namei.c in the Linux kernel before 3.7 allows physically proximate attackers to cause a denial of service (system crash) via a crafted no-journal filesystem, a related issue to CVE-2013-2015.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-7509](https://github.com/Live-Hack-CVE/CVE-2015-7509) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7509.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7509.svg)
+
+## CVE-2015-7504
+ Heap-based buffer overflow in the pcnet_receive function in hw/net/pcnet.c in QEMU allows guest OS administrators to cause a denial of service (instance crash) or possibly execute arbitrary code via a series of packets in loopback mode.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-7504](https://github.com/Live-Hack-CVE/CVE-2015-7504) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7504.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7504.svg)
+
+## CVE-2015-7502
+ Red Hat CloudForms 3.2 Management Engine (CFME) 5.4.4 and CloudForms 4.0 Management Engine (CFME) 5.5.0 do not properly encrypt data in the backend PostgreSQL database, which might allow local users to obtain sensitive data and consequently gain privileges by leveraging access to (1) database exports or (2) log files.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-7502](https://github.com/Live-Hack-CVE/CVE-2015-7502) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7502.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7502.svg)
+
 ## CVE-2015-7501
  Red Hat JBoss A-MQ 6.x; BPM Suite (BPMS) 6.x; BRMS 6.x and 5.x; Data Grid (JDG) 6.x; Data Virtualization (JDV) 6.x and 5.x; Enterprise Application Platform 6.x, 5.x, and 4.3.x; Fuse 6.x; Fuse Service Works (FSW) 6.x; Operations Network (JBoss ON) 3.x; Portal 6.x; SOA Platform (SOA-P) 5.x; Web Server (JWS) 3.x; Red Hat OpenShift/xPAAS 3.x; and Red Hat Subscription Asset Manager 1.3 allow remote attackers to execute arbitrary commands via a crafted serialized Java object, related to the Apache Commons Collections (ACC) library.
 
 
 
 - [https://github.com/ianxtianxt/CVE-2015-7501](https://github.com/ianxtianxt/CVE-2015-7501) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2015-7501.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2015-7501.svg)
+
+## CVE-2015-7500
+ The xmlParseMisc function in parser.c in libxml2 before 2.9.3 allows context-dependent attackers to cause a denial of service (out-of-bounds heap read) via unspecified vectors related to incorrect entities boundaries and start tags.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-7500](https://github.com/Live-Hack-CVE/CVE-2015-7500) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7500.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7500.svg)
+
+## CVE-2015-7499
+ Heap-based buffer overflow in the xmlGROW function in parser.c in libxml2 before 2.9.3 allows context-dependent attackers to obtain sensitive process memory information via unspecified vectors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-7499](https://github.com/Live-Hack-CVE/CVE-2015-7499) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7499.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7499.svg)
 
 ## CVE-2015-7297
  SQL injection vulnerability in Joomla! 3.2 before 3.4.4 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, a different vulnerability than CVE-2015-7858.
@@ -874,6 +995,27 @@
 
 - [https://github.com/payatu/CVE-2015-6086](https://github.com/payatu/CVE-2015-6086) :  ![starts](https://img.shields.io/github/stars/payatu/CVE-2015-6086.svg) ![forks](https://img.shields.io/github/forks/payatu/CVE-2015-6086.svg)
 
+## CVE-2015-6051
+ Microsoft Internet Explorer 10 and 11 allows remote attackers to gain privileges via a crafted web site, as demonstrated by a transition from Low Integrity to Medium Integrity, aka &quot;Internet Explorer Elevation of Privilege Vulnerability.&quot;
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-6051](https://github.com/Live-Hack-CVE/CVE-2015-6051) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6051.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6051.svg)
+
+## CVE-2015-6049
+ Microsoft Internet Explorer 7 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2015-6048.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-6048](https://github.com/Live-Hack-CVE/CVE-2015-6048) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6048.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6048.svg)
+
+## CVE-2015-6048
+ Microsoft Internet Explorer 7 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2015-6049.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-6048](https://github.com/Live-Hack-CVE/CVE-2015-6048) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6048.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6048.svg)
+
 ## CVE-2015-6042
  Use-after-free vulnerability in the CWindow object implementation in Microsoft Internet Explorer 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability.&quot;
 
@@ -1018,6 +1160,34 @@
 
 - [https://github.com/alexanderkjall/wicker-cve-2015-5347](https://github.com/alexanderkjall/wicker-cve-2015-5347) :  ![starts](https://img.shields.io/github/stars/alexanderkjall/wicker-cve-2015-5347.svg) ![forks](https://img.shields.io/github/forks/alexanderkjall/wicker-cve-2015-5347.svg)
 
+## CVE-2015-5329
+ The TripleO Heat templates (tripleo-heat-templates), as used in Red Hat Enterprise Linux OpenStack Platform 7.0, do not properly use the configured RabbitMQ credentials, which makes it easier for remote attackers to obtain access to services in deployed overclouds by leveraging knowledge of the default credentials.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5329](https://github.com/Live-Hack-CVE/CVE-2015-5329) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5329.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5329.svg)
+
+## CVE-2015-5313
+ Directory traversal vulnerability in the virStorageBackendFileSystemVolCreate function in storage/storage_backend_fs.c in libvirt, when fine-grained Access Control Lists (ACL) are in effect, allows local users with storage_vol:create ACL but not domain:write permission to write to arbitrary files via a .. (dot dot) in a volume name.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5313](https://github.com/Live-Hack-CVE/CVE-2015-5313) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5313.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5313.svg)
+
+## CVE-2015-5305
+ Directory traversal vulnerability in Kubernetes, as used in Red Hat OpenShift Enterprise 3.0, allows attackers to write to arbitrary files via a crafted object type name, which is not properly handled before passing it to etcd.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5305](https://github.com/Live-Hack-CVE/CVE-2015-5305) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5305.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5305.svg)
+
+## CVE-2015-5302
+ libreport 2.0.7 before 2.6.3 only saves changes to the first file when editing a crash report, which allows remote attackers to obtain sensitive information via unspecified vectors related to the (1) backtrace, (2) cmdline, (3) environ, (4) open_fds, (5) maps, (6) smaps, (7) hostname, (8) remote, (9) ks.cfg, or (10) anaconda-tb file attachment included in a Red Hat Bugzilla bug report.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5302](https://github.com/Live-Hack-CVE/CVE-2015-5302) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5302.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5302.svg)
+
 ## CVE-2015-5299
  The shadow_copy2_get_shadow_copy_data function in modules/vfs_shadow_copy2.c in Samba 3.x and 4.x before 4.1.22, 4.2.x before 4.2.7, and 4.3.x before 4.3.3 does not verify that the DIRECTORY_LIST access right has been granted, which allows remote attackers to access snapshots by visiting a shadow copy directory.
 
@@ -1031,6 +1201,20 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-5296](https://github.com/Live-Hack-CVE/CVE-2015-5296) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5296.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5296.svg)
+
+## CVE-2015-5295
+ The template-validate command in OpenStack Orchestration API (Heat) before 2015.1.3 (kilo) and 5.0.x before 5.0.1 (liberty) allows remote authenticated users to cause a denial of service (memory consumption) or determine the existence of local files via the resource type in a template, as demonstrated by file:///dev/zero.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5295](https://github.com/Live-Hack-CVE/CVE-2015-5295) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5295.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5295.svg)
+
+## CVE-2015-5292
+ Memory leak in the Privilege Attribute Certificate (PAC) responder plugin (sssd_pac_plugin.so) in System Security Services Daemon (SSSD) 1.10 before 1.13.1 allows remote authenticated users to cause a denial of service (memory consumption) via a large number of logins that trigger parsing of PAC blobs during Kerberos authentication.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5292](https://github.com/Live-Hack-CVE/CVE-2015-5292) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5292.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5292.svg)
 
 ## CVE-2015-5290
  A Denial of Service vulnerability exists in ircd-ratbox 3.0.9 in the MONITOR Command Handler.
@@ -1047,7 +1231,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2015-5275](https://github.com/Live-Hack-CVE/CVE-2015-5275) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5275.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5275.svg)
 
 ## CVE-2015-5257
- drivers/usb/serial/whiteheat.c in the Linux kernel before 4.2.4 allows physically proximate attackers to cause a denial of service (NULL pointer dereference and OOPS) or possibly have unspecified other impact via a crafted USB device.  NOTE: this ID was incorrectly used for an Apache Cordova issue that has the correct ID of CVE-2015-8320.
+ drivers/usb/serial/whiteheat.c in the Linux kernel before 4.2.4 allows physically proximate attackers to cause a denial of service (NULL pointer dereference and OOPS) or possibly have unspecified other impact via a crafted USB device. NOTE: this ID was incorrectly used for an Apache Cordova issue that has the correct ID of CVE-2015-8320.
 
 
 
@@ -1069,8 +1253,15 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-5252](https://github.com/Live-Hack-CVE/CVE-2015-5252) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5252.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5252.svg)
 
+## CVE-2015-5233
+ Foreman before 1.8.4 and 1.9.x before 1.9.1 do not properly apply view_hosts permissions, which allows (1) remote authenticated users with the view_reports permission to read reports from arbitrary hosts or (2) remote authenticated users with the destroy_reports permission to delete reports from arbitrary hosts via direct access to the (a) individual report show/delete pages or (b) APIs.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-5233](https://github.com/Live-Hack-CVE/CVE-2015-5233) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5233.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5233.svg)
+
 ## CVE-2015-5195
- It was found that ntpd would exit with a segmentation fault when a statistics type that was not enabled during compilation (e.g. timingstats) was referenced by the statistics or filegen configuration command.
+ ntp_openssl.m4 in ntpd in NTP before 4.2.7p112 allows remote attackers to cause a denial of service (segmentation fault) via a crafted statistics or filegen configuration command that is not enabled during compilation.
 
 
 
@@ -1079,28 +1270,28 @@
 - [https://github.com/Live-Hack-CVE/CVE-2015-5195](https://github.com/Live-Hack-CVE/CVE-2015-5195) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5195.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5195.svg)
 
 ## CVE-2015-5194
- It was found that ntpd could crash due to an uninitialized variable when processing malformed logconfig configuration commands.
+ The log_config_command function in ntp_parser.y in ntpd in NTP before 4.2.7p42 allows remote attackers to cause a denial of service (ntpd crash) via crafted logconfig commands.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-5194](https://github.com/Live-Hack-CVE/CVE-2015-5194) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5194.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5194.svg)
 
 ## CVE-2015-5189
- A race condition was found in the way the pcsd web UI backend performed authorization of user requests. An attacker could use this flaw to send a request that would be evaluated as originating from a different user, potentially allowing the attacker to perform actions with permissions of a more privileged user.
+ Race condition in pcsd in PCS 0.9.139 and earlier uses a global variable to validate usernames, which allows remote authenticated users to gain privileges by sending a command that is checked for security after another user is authenticated.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-5189](https://github.com/Live-Hack-CVE/CVE-2015-5189) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5189.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5189.svg)
 
 ## CVE-2015-5188
- It was discovered that when uploading a file using a multipart/form-data submission to the EAP Web Console, the Console was vulnerable to Cross-Site Request Forgery (CSRF). This meant that an attacker could use the flaw together with a forgery attack to make changes to an authenticated instance.
+ Cross-site request forgery (CSRF) vulnerability in the Web Console (web-console) in Red Hat Enterprise Application Platform before 6.4.4 and WildFly (formerly JBoss Application Server) before 2.0.0.CR9 allows remote attackers to hijack the authentication of administrators for requests that make arbitrary changes to an instance via vectors involving a file upload using a multipart/form-data submission.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-5188](https://github.com/Live-Hack-CVE/CVE-2015-5188) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5188.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5188.svg)
 
 ## CVE-2015-5180
- CVE-2015-5180 glibc: DNS resolver NULL pointer dereference with crafted record type
+ res_query in libresolv in glibc before 2.25 allows remote attackers to cause a denial of service (NULL pointer dereference and process crash).
 
 
 
@@ -1427,35 +1618,35 @@
 - [https://github.com/cd6629/CVE-2015-3306-Python-PoC](https://github.com/cd6629/CVE-2015-3306-Python-PoC) :  ![starts](https://img.shields.io/github/stars/cd6629/CVE-2015-3306-Python-PoC.svg) ![forks](https://img.shields.io/github/forks/cd6629/CVE-2015-3306-Python-PoC.svg)
 
 ## CVE-2015-3288
- CVE-2015-3288 kernel: zero page memory arbitrary modification
+ mm/memory.c in the Linux kernel before 4.1.4 mishandles anonymous pages, which allows local users to gain privileges or cause a denial of service (page tainting) via a crafted application that triggers writing to page zero.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-3288](https://github.com/Live-Hack-CVE/CVE-2015-3288) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3288.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3288.svg)
 
 ## CVE-2015-3258
- A heap-based buffer overflow was discovered in the way the texttopdf utility of cups-filter processed print jobs with a specially crafted line size. An attacker able to submit print jobs could use this flaw to crash texttopdf or, possibly, execute arbitrary code with the privileges of the &quot;lp&quot; user.
+ Heap-based buffer overflow in the WriteProlog function in filter/texttopdf.c in texttopdf in cups-filters before 1.0.70 allows remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via a small line size in a print job.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-3258](https://github.com/Live-Hack-CVE/CVE-2015-3258) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3258.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3258.svg)
 
 ## CVE-2015-3248
- It was found that the &quot;/var/lib/openhpi&quot; directory provided by OpenHPI used world-writeable and world-readable permissions. A local user could use this flaw to view, modify, and delete OpenHPI-related data, or even fill up the storage device hosting the /var/lib directory.
+ openhpi/Makefile.am in OpenHPI before 3.6.0 uses world-writable permissions for /var/lib/openhpi directory, which allows local users, when quotas are not properly setup, to fill the filesystem hosting /var/lib and cause a denial of service (disk consumption).
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-3248](https://github.com/Live-Hack-CVE/CVE-2015-3248) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3248.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3248.svg)
 
 ## CVE-2015-3247
- A race condition flaw, leading to a heap-based memory corruption, was found in spice's worker_update_monitors_config() function, which runs under the QEMU-KVM context on the host. A user in a guest could leverage this flaw to crash the host QEMU-KVM process or, possibly, execute arbitrary code with the privileges of the host QEMU-KVM process.
+ Race condition in the worker_update_monitors_config function in SPICE 0.12.4 allows a remote authenticated guest user to cause a denial of service (heap-based memory corruption and QEMU-KVM crash) or possibly execute arbitrary code on the host via unspecified vectors.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-3247](https://github.com/Live-Hack-CVE/CVE-2015-3247) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3247.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3247.svg)
 
 ## CVE-2015-3239
- An off-by-one array indexing error was found in the libunwind API, which could cause an error when reading untrusted binaries or dwarf debug info data. Red Hat products do not call the API in this way; and it is unlikely that any exploitable attack vector exists in current builds or supported usage.
+ Off-by-one error in the dwarf_to_unw_regnum function in include/dwarf_i.h in libunwind 1.1 allows local users to have unspecified impact via invalid dwarf opcodes.
 
 
 
@@ -1473,7 +1664,7 @@
 - [https://github.com/n000xy/CVE-2015-3224-](https://github.com/n000xy/CVE-2015-3224-) :  ![starts](https://img.shields.io/github/stars/n000xy/CVE-2015-3224-.svg) ![forks](https://img.shields.io/github/forks/n000xy/CVE-2015-3224-.svg)
 
 ## CVE-2015-3204
- A flaw was discovered in the way Libreswan's IKE daemon processed certain IKEv1 payloads. A remote attacker could send specially crafted IKEv1 payloads that, when processed, would lead to a denial of service (daemon crash).
+ libreswan 3.9 through 3.12 allows remote attackers to cause a denial of service (daemon restart) via an IKEv1 packet with (1) unassigned bits set in the IPSEC DOI value or (2) the next payload value set to ISAKMP_NEXT_SAK.
 
 
 
@@ -1576,8 +1767,6 @@
  The installation wizard in DotNetNuke (DNN) before 7.4.1 allows remote attackers to reinstall the application and gain SuperUser access via a direct request to Install/InstallWizard.aspx.
 
 
-
-- [https://github.com/styx00/DNN_CVE-2015-2794](https://github.com/styx00/DNN_CVE-2015-2794) :  ![starts](https://img.shields.io/github/stars/styx00/DNN_CVE-2015-2794.svg) ![forks](https://img.shields.io/github/forks/styx00/DNN_CVE-2015-2794.svg)
 
 - [https://github.com/wilsc0w/CVE-2015-2794-finder](https://github.com/wilsc0w/CVE-2015-2794-finder) :  ![starts](https://img.shields.io/github/stars/wilsc0w/CVE-2015-2794-finder.svg) ![forks](https://img.shields.io/github/forks/wilsc0w/CVE-2015-2794-finder.svg)
 
@@ -1705,7 +1894,7 @@
 - [https://github.com/vpereira/CVE-2015-1855](https://github.com/vpereira/CVE-2015-1855) :  ![starts](https://img.shields.io/github/stars/vpereira/CVE-2015-1855.svg) ![forks](https://img.shields.io/github/forks/vpereira/CVE-2015-1855.svg)
 
 ## CVE-2015-1805
- It was found that the Linux kernel's implementation of vectored pipe read and write functionality did not take into account the I/O vectors that were already processed when retrying after a failed atomic access operation, potentially resulting in memory corruption due to an I/O vector array overrun. A local, unprivileged user could use this flaw to crash the system or, potentially, escalate their privileges on the system.
+ The (1) pipe_read and (2) pipe_write implementations in fs/pipe.c in the Linux kernel before 3.16 do not properly consider the side effects of failed __copy_to_user_inatomic and __copy_from_user_inatomic calls, which allows local users to cause a denial of service (system crash) or possibly gain privileges via a crafted application, aka an &quot;I/O vector array overrun.&quot;
 
 
 
@@ -1715,7 +1904,7 @@
 
 - [https://github.com/FloatingGuy/cve-2015-1805](https://github.com/FloatingGuy/cve-2015-1805) :  ![starts](https://img.shields.io/github/stars/FloatingGuy/cve-2015-1805.svg) ![forks](https://img.shields.io/github/forks/FloatingGuy/cve-2015-1805.svg)
 
-- [https://github.com/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805-May-2022-](https://github.com/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805-May-2022-) :  ![starts](https://img.shields.io/github/stars/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805-May-2022-.svg) ![forks](https://img.shields.io/github/forks/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805-May-2022-.svg)
+- [https://github.com/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805](https://github.com/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805) :  ![starts](https://img.shields.io/github/stars/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805.svg) ![forks](https://img.shields.io/github/forks/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805.svg)
 
 - [https://github.com/mobilelinux/iovy_root_research](https://github.com/mobilelinux/iovy_root_research) :  ![starts](https://img.shields.io/github/stars/mobilelinux/iovy_root_research.svg) ![forks](https://img.shields.io/github/forks/mobilelinux/iovy_root_research.svg)
 
@@ -1727,28 +1916,28 @@
 - [https://github.com/Live-Hack-CVE/CVE-2015-1794](https://github.com/Live-Hack-CVE/CVE-2015-1794) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1794.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1794.svg)
 
 ## CVE-2015-1792
- A denial of service flaw was found in the way OpenSSL verified certain signed messages using CMS (Cryptographic Message Syntax). A remote attacker could cause an application using OpenSSL to use excessive amounts of memory by sending a specially crafted message for verification.
+ The do_free_upto function in crypto/cms/cms_smime.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b allows remote attackers to cause a denial of service (infinite loop) via vectors that trigger a NULL value of a BIO data structure, as demonstrated by an unrecognized X.660 OID for a hash function.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-1792](https://github.com/Live-Hack-CVE/CVE-2015-1792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1792.svg)
 
 ## CVE-2015-1791
- A race condition was found in the session handling code of OpenSSL. This issue could possibly cause a multi-threaded TLS/SSL client using OpenSSL to double free session ticket data and crash.
+ Race condition in the ssl3_get_new_session_ticket function in ssl/s3_clnt.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b, when used for a multi-threaded client, allows remote attackers to cause a denial of service (double free and application crash) or possibly have unspecified other impact by providing a NewSessionTicket during an attempt to reuse a ticket that had been obtained earlier.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-1791](https://github.com/Live-Hack-CVE/CVE-2015-1791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1791.svg)
 
 ## CVE-2015-1790
- A NULL pointer dereference was found in the way OpenSSL handled certain PKCS#7 inputs. An attacker able to make an application using OpenSSL verify, decrypt, or parse a specially crafted PKCS#7 input could cause that application to crash. TLS/SSL clients and servers using OpenSSL were not affected by this flaw.
+ The PKCS7_dataDecodefunction in crypto/pkcs7/pk7_doit.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a PKCS#7 blob that uses ASN.1 encoding and lacks inner EncryptedContent data.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-1790](https://github.com/Live-Hack-CVE/CVE-2015-1790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1790.svg)
 
 ## CVE-2015-1789
- An out-of-bounds read flaw was found in the X509_cmp_time() function of OpenSSL, which is used to test the expiry dates of SSL/TLS certificates. An attacker could possibly use a specially crafted SSL/TLS certificate or CRL (Certificate Revocation List), which when parsed by an application would cause that application to crash.
+ The X509_cmp_time function in crypto/x509/x509_vfy.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b allows remote attackers to cause a denial of service (out-of-bounds read and application crash) via a crafted length field in ASN1_TIME data, as demonstrated by an attack against a server that supports client authentication with a custom verification callback.
 
 
 
@@ -2146,7 +2335,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2015-0285](https://github.com/Live-Hack-CVE/CVE-2015-0285) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0285.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0285.svg)
 
 ## CVE-2015-0284
- A cross-site scripting (XSS) flaw was found in how XML data was handled in Red Hat Satellite. A user able to use the XMLRPC API could exploit this flaw to perform XSS attacks against other Satellite users.
+ Cross-site scripting (XSS) vulnerability in spacewalk-java in Spacewalk and Red Hat Satellite 5.7 allows remote authenticated users to inject arbitrary web script or HTML via crafted XML data to the XMLRPC API, involving user details. NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-7811.
 
 
 
@@ -2180,9 +2369,9 @@
 
 - [https://github.com/sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/sUbc0ol/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/sUbc0ol/CVE-2015-0235.svg)
 
-- [https://github.com/nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE_2015_0235.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE_2015_0235.svg)
-
 - [https://github.com/tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/tobyzxj/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/tobyzxj/CVE-2015-0235.svg)
+
+- [https://github.com/nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE_2015_0235.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE_2015_0235.svg)
 
 - [https://github.com/alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc) :  ![starts](https://img.shields.io/github/stars/alanmeyer/CVE-glibc.svg) ![forks](https://img.shields.io/github/forks/alanmeyer/CVE-glibc.svg)
 
