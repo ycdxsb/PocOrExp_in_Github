@@ -99,7 +99,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2012-5664](https://github.com/Live-Hack-CVE/CVE-2012-5664) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-5664.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-5664.svg)
 
 ## CVE-2012-6150
- CVE-2012-6150 samba: pam_winbind fails open when non-existent group specified to require_membership_of
+ The winbind_name_list_to_sid_string_list function in nsswitch/pam_winbind.c in Samba through 4.1.2 handles invalid require_membership_of group names by accepting authentication by any user, which allows remote authenticated users to bypass intended access restrictions in opportunistic circumstances by leveraging an administrator's pam_winbind configuration-file mistake.
 
 
 
@@ -338,7 +338,7 @@
 - [https://github.com/tafamace/CVE-2012-5575](https://github.com/tafamace/CVE-2012-5575) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2012-5575.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2012-5575.svg)
 
 ## CVE-2012-5519
- CVE-2012-5519 cups: privilege escalation for users of the CUPS SystemGroup group
+ CUPS 1.4.4, when running in certain Linux distributions such as Debian GNU/Linux, stores the web interface administrator key in /var/run/cups/certs/0 using certain permissions, which allows local users in the lpadmin group to read or write arbitrary files as root by leveraging the web interface.
 
 
 
@@ -418,7 +418,7 @@
 - [https://github.com/imjdl/CVE-2012-4431](https://github.com/imjdl/CVE-2012-4431) :  ![starts](https://img.shields.io/github/stars/imjdl/CVE-2012-4431.svg) ![forks](https://img.shields.io/github/forks/imjdl/CVE-2012-4431.svg)
 
 ## CVE-2012-4388
- The sapi_header_op function in main/SAPI.c in PHP 5.4.0RC2 through 5.4.0 does not properly determine a pointer during checks for %0D sequences (aka carriage return characters), which allows remote attackers to bypass an HTTP response-splitting protection mechanism via a crafted URL, related to improper interaction between the PHP header function and certain browsers, as demonstrated by Internet Explorer and Google Chrome.  NOTE: this vulnerability exists because of an incorrect fix for CVE-2011-1398.
+ The sapi_header_op function in main/SAPI.c in PHP 5.4.0RC2 through 5.4.0 does not properly determine a pointer during checks for %0D sequences (aka carriage return characters), which allows remote attackers to bypass an HTTP response-splitting protection mechanism via a crafted URL, related to improper interaction between the PHP header function and certain browsers, as demonstrated by Internet Explorer and Google Chrome. NOTE: this vulnerability exists because of an incorrect fix for CVE-2011-1398.
 
 
 
@@ -462,21 +462,21 @@
 - [https://github.com/sh7alward/CVE-20121-34527-nightmare](https://github.com/sh7alward/CVE-20121-34527-nightmare) :  ![starts](https://img.shields.io/github/stars/sh7alward/CVE-20121-34527-nightmare.svg) ![forks](https://img.shields.io/github/forks/sh7alward/CVE-20121-34527-nightmare.svg)
 
 ## CVE-2012-3412
- CVE-2012-3412 kernel: sfc: potential remote denial of service through TCP MSS option
+ The sfc (aka Solarflare Solarstorm) driver in the Linux kernel before 3.2.30 allows remote attackers to cause a denial of service (DMA descriptor consumption and network-controller outage) via crafted TCP packets that trigger a small MSS value.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-3412](https://github.com/Live-Hack-CVE/CVE-2012-3412) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3412.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3412.svg)
 
 ## CVE-2012-3400
- CVE-2012-3400 kernel: udf: buffer overflow when parsing sparing table
+ Heap-based buffer overflow in the udf_load_logicalvol function in fs/udf/super.c in the Linux kernel before 3.4.5 allows remote attackers to cause a denial of service (system crash) or possibly have unspecified other impact via a crafted UDF filesystem.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-3400](https://github.com/Live-Hack-CVE/CVE-2012-3400) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3400.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3400.svg)
 
 ## CVE-2012-3386
- It was found that the distcheck rule in Automake-generated Makefiles made a directory world-writable when preparing source archives. If a malicious, local user could access this directory, they could execute arbitrary code with the privileges of the user running &quot;make distcheck&quot;.
+ The &quot;make distcheck&quot; rule in GNU Automake before 1.11.6 and 1.12.x before 1.12.2 grants world-writable permissions to the extraction directory, which introduces a race condition that allows local users to execute arbitrary code via unspecified vectors.
 
 
 
@@ -587,7 +587,7 @@
 - [https://github.com/shelld3v/CVE-2012-2688](https://github.com/shelld3v/CVE-2012-2688) :  ![starts](https://img.shields.io/github/stars/shelld3v/CVE-2012-2688.svg) ![forks](https://img.shields.io/github/forks/shelld3v/CVE-2012-2688.svg)
 
 ## CVE-2012-2663
- extensions/libxt_tcp.c in iptables through 1.4.21 does not match TCP SYN+FIN packets in --syn rules, which might allow remote attackers to bypass intended firewall restrictions via crafted packets.  NOTE: the CVE-2012-6638 fix makes this issue less relevant.
+ extensions/libxt_tcp.c in iptables through 1.4.21 does not match TCP SYN+FIN packets in --syn rules, which might allow remote attackers to bypass intended firewall restrictions via crafted packets. NOTE: the CVE-2012-6638 fix makes this issue less relevant.
 
 
 
@@ -622,7 +622,7 @@
 - [https://github.com/AndrewTrube/CVE-2012-2593](https://github.com/AndrewTrube/CVE-2012-2593) :  ![starts](https://img.shields.io/github/stars/AndrewTrube/CVE-2012-2593.svg) ![forks](https://img.shields.io/github/forks/AndrewTrube/CVE-2012-2593.svg)
 
 ## CVE-2012-2386
- CVE-2012-2386 php: Integer overflow leading to heap-buffer overflow in the Phar extension
+ Integer overflow in the phar_parse_tarfile function in tar.c in the phar extension in PHP before 5.3.14 and 5.4.x before 5.4.4 allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted tar file that triggers a heap-based buffer overflow.
 
 
 
@@ -871,7 +871,7 @@
 - [https://github.com/rutvijjethwa/RDP_jammer](https://github.com/rutvijjethwa/RDP_jammer) :  ![starts](https://img.shields.io/github/stars/rutvijjethwa/RDP_jammer.svg) ![forks](https://img.shields.io/github/forks/rutvijjethwa/RDP_jammer.svg)
 
 ## CVE-2012-0056
- CVE-2012-0056 kernel: proc: /proc/&lt;pid&gt;/mem mem_write insufficient permission checking
+ The mem_write function in the Linux kernel before 3.2.2, when ASLR is disabled, does not properly check permissions when writing to /proc/&lt;pid&gt;/mem, which allows local users to gain privileges by modifying process memory, as demonstrated by Mempodipper.
 
 
 
