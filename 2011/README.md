@@ -87,7 +87,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2011-4329](https://github.com/Live-Hack-CVE/CVE-2011-4329) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-4329.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-4329.svg)
 
 ## CVE-2011-4127
- CVE-2011-4127 kernel: possible privilege escalation via SG_IO ioctl
+ The Linux kernel before 3.2.2 does not properly restrict SG_IO ioctl calls, which allows local users to bypass intended restrictions on disk read and write operations by sending a SCSI command to (1) a partition block device or (2) an LVM volume.
 
 
 
@@ -122,7 +122,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2011-3640](https://github.com/Live-Hack-CVE/CVE-2011-3640) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-3640.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-3640.svg)
 
 ## CVE-2011-3609
- CVE-2011-3609 JBoss AS: CSRF in the administration console &amp; HTTP management API
+ A CSRF issue was found in JBoss Application Server 7 before 7.1.0. JBoss did not properly restrict access to the management console information (for example via the &quot;Access-Control-Allow-Origin&quot; HTTP access control flag). This can lead to unauthorized information leak if a user with admin privileges visits a specially-crafted web page provided by a remote attacker.
 
 
 
@@ -161,7 +161,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2011-3348](https://github.com/Live-Hack-CVE/CVE-2011-3348) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-3348.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-3348.svg)
 
 ## CVE-2011-3344
- CVE-2011-3344 Satellite/Spacewalk: XSS on the Lost Password page
+ Cross-site scripting (XSS) vulnerability in the Lookup Login/Password form in Spacewalk 1.6, as used in Red Hat Network (RHN) Satellite, allows remote attackers to inject arbitrary web script or HTML via the URI.
 
 
 
@@ -183,7 +183,7 @@
 - [https://github.com/warmilk/http-Dos-Attack-Detection](https://github.com/warmilk/http-Dos-Attack-Detection) :  ![starts](https://img.shields.io/github/stars/warmilk/http-Dos-Attack-Detection.svg) ![forks](https://img.shields.io/github/forks/warmilk/http-Dos-Attack-Detection.svg)
 
 ## CVE-2011-3191
- CVE-2011-3191 kernel: cifs: signedness issue in CIFSFindNext()
+ Integer signedness error in the CIFSFindNext function in fs/cifs/cifssmb.c in the Linux kernel before 3.1 allows remote CIFS servers to cause a denial of service (memory corruption) or possibly have unspecified other impact via a large length value in a response to a read request for a directory.
 
 
 
@@ -197,14 +197,14 @@
 - [https://github.com/argp/cve-2011-3026-firefox](https://github.com/argp/cve-2011-3026-firefox) :  ![starts](https://img.shields.io/github/stars/argp/cve-2011-3026-firefox.svg) ![forks](https://img.shields.io/github/forks/argp/cve-2011-3026-firefox.svg)
 
 ## CVE-2011-2927
- CVE-2011-2927 Satellite/Spacewalk: XSS flaw in channels search
+ Multiple cross-site scripting (XSS) vulnerabilities in Spacewalk 1.6, as used in Red Hat Network (RHN) Satellite, allow remote attackers to inject arbitrary web script or HTML via vectors related to Search forms.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2011-2927](https://github.com/Live-Hack-CVE/CVE-2011-2927) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-2927.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-2927.svg)
 
 ## CVE-2011-2920
- CVE-2011-2920 Satellite: XSS flaw(s) in filter handling
+ Multiple cross-site scripting (XSS) vulnerabilities in Spacewalk 1.6, as used in Red Hat Network (RHN) Satellite, allow remote attackers to inject arbitrary web script or HTML via the &quot;Filter by Synopsis&quot; field and other unspecified filter forms.
 
 
 
@@ -248,9 +248,9 @@
 
 - [https://github.com/0xFTW/CVE-2011-2523](https://github.com/0xFTW/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xFTW/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xFTW/CVE-2011-2523.svg)
 
-- [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
-
 - [https://github.com/XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/XiangSi-Howard/CTF---CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/XiangSi-Howard/CTF---CVE-2011-2523.svg)
+
+- [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
 - [https://github.com/HerculesRD/vsftpd2.3.4PyExploit](https://github.com/HerculesRD/vsftpd2.3.4PyExploit) :  ![starts](https://img.shields.io/github/stars/HerculesRD/vsftpd2.3.4PyExploit.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/vsftpd2.3.4PyExploit.svg)
 
@@ -264,7 +264,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2011-2522](https://github.com/Live-Hack-CVE/CVE-2011-2522) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2011-2522.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2011-2522.svg)
 
 ## CVE-2011-2487
- A flaw was found in JBoss web services where the services used a weak symmetric encryption protocol, PKCS#1 v1.5. An attacker could use this weakness in chosen-ciphertext attacks to recover the symmetric key and conduct further attacks.
+ The implementations of PKCS#1 v1.5 key transport mechanism for XMLEncryption in JBossWS and Apache WSS4J before 1.6.5 is susceptible to a Bleichenbacher attack.
 
 
 
@@ -310,7 +310,7 @@
 - [https://github.com/noobpk/CVE-2011-1571](https://github.com/noobpk/CVE-2011-1571) :  ![starts](https://img.shields.io/github/stars/noobpk/CVE-2011-1571.svg) ![forks](https://img.shields.io/github/forks/noobpk/CVE-2011-1571.svg)
 
 ## CVE-2011-1485
- CVE-2011-1485 polkit: polkitd/pkexec vulnerability
+ Race condition in the pkexec utility and polkitd daemon in PolicyKit (aka polkit) 0.96 allows local users to gain privileges by executing a setuid program from pkexec, related to the use of the effective user ID instead of the real user ID.
 
 
 
