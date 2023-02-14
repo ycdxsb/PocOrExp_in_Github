@@ -68,6 +68,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2019-1010069](https://github.com/Live-Hack-CVE/CVE-2019-1010069) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-1010069.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-1010069.svg)
 
+## CVE-2019-1010065
+ The Sleuth Kit 4.6.0 and earlier is affected by: Integer Overflow. The impact is: Opening crafted disk image triggers crash in tsk/fs/hfs_dent.c:237. The component is: Overflow in fls tool used on HFS image. Bug is in tsk/fs/hfs.c file in function hfs_cat_traverse() in lines: 952, 1062. The attack vector is: Victim must open a crafted HFS filesystem image.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-1010065](https://github.com/Live-Hack-CVE/CVE-2019-1010065) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-1010065.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-1010065.svg)
+
 ## CVE-2019-1010054
  Dolibarr 7.0.0 is affected by: Cross Site Request Forgery (CSRF). The impact is: allow malitious html to change user password, disable users and disable password encryptation. The component is: Function User password change, user disable and password encryptation. The attack vector is: admin access malitious urls.
 
@@ -871,11 +878,11 @@
 
 - [https://github.com/yukar1z0e/CVE-2019-19781](https://github.com/yukar1z0e/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/yukar1z0e/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/yukar1z0e/CVE-2019-19781.svg)
 
+- [https://github.com/hollerith/CVE-2019-19781](https://github.com/hollerith/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/hollerith/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/hollerith/CVE-2019-19781.svg)
+
 - [https://github.com/SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/SharpHack/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/SharpHack/CVE-2019-19781.svg)
 
 - [https://github.com/qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc) :  ![starts](https://img.shields.io/github/stars/qiong-qi/CVE-2019-19781-poc.svg) ![forks](https://img.shields.io/github/forks/qiong-qi/CVE-2019-19781-poc.svg)
-
-- [https://github.com/hollerith/CVE-2019-19781](https://github.com/hollerith/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/hollerith/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/hollerith/CVE-2019-19781.svg)
 
 - [https://github.com/zgelici/CVE-2019-19781-Checker](https://github.com/zgelici/CVE-2019-19781-Checker) :  ![starts](https://img.shields.io/github/stars/zgelici/CVE-2019-19781-Checker.svg) ![forks](https://img.shields.io/github/forks/zgelici/CVE-2019-19781-Checker.svg)
 
@@ -1248,7 +1255,7 @@
 - [https://github.com/monoxgas/mailorder](https://github.com/monoxgas/mailorder) :  ![starts](https://img.shields.io/github/stars/monoxgas/mailorder.svg) ![forks](https://img.shields.io/github/forks/monoxgas/mailorder.svg)
 
 ## CVE-2019-19300
- A vulnerability has been identified in Development/Evaluation Kits for PROFINET IO: EK-ERTEC 200 (All versions), Development/Evaluation Kits for PROFINET IO: EK-ERTEC 200P (All versions), KTK ATE530S (All versions), SIDOOR ATD430W (All versions), SIDOOR ATE530S COATED (All versions), SIDOOR ATE531S (All versions), SIMATIC ET 200SP Open Controller CPU 1515SP PC (incl. SIPLUS variants) (All versions &lt; V2.0), SIMATIC ET 200SP Open Controller CPU 1515SP PC2 (incl. SIPLUS variants) (All versions &lt; V2.0), SIMATIC ET200AL IM157-1 PN (All versions), SIMATIC ET200ecoPN, CM 8x IO-Link, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200ecoPN, DI 16x24VDC, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200ecoPN, DI 8x24VDC, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200ecoPN, DIQ 16x24VDC/2A, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200ecoPN, DQ 8x24VDC/0,5A, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200ecoPN, DQ 8x24VDC/2A, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200MP IM155-5 PN HF (incl. SIPLUS variants) (All versions &gt;= V4.2), SIMATIC ET200SP IM155-6 MF HF (All versions), SIMATIC ET200SP IM155-6 PN HA (incl. SIPLUS variants) (All versions), SIMATIC ET200SP IM155-6 PN HF (incl. SIPLUS variants) (All versions &gt;= V4.2), SIMATIC ET200SP IM155-6 PN/2 HF (incl. SIPLUS variants) (All versions &gt;= V4.2), SIMATIC ET200SP IM155-6 PN/3 HF (incl. SIPLUS variants) (All versions &gt;= V4.2), SIMATIC MICRO-DRIVE PDC (All versions), SIMATIC PN/MF Coupler (All versions), SIMATIC PN/PN Coupler (incl. SIPLUS NET variants) (All versions &gt;= V4.2), SIMATIC S7-1200 CPU family (incl. SIPLUS variants) (All versions &lt; V4.4.0), SIMATIC S7-1500 CPU family (incl. related ET200 CPUs and SIPLUS variants) (All versions &lt; V2.0), SIMATIC S7-1500 Software Controller (All versions &lt; V2.0), SIMATIC S7-300 CPU family (incl. related ET200 CPUs and SIPLUS variants) (All versions), SIMATIC S7-400 H V6 CPU family and below (incl. SIPLUS variants) (All versions), SIMATIC S7-400 PN/DP V7 CPU family (incl. SIPLUS variants) (All versions), SIMATIC S7-410 V10 CPU family (incl. SIPLUS variants) (All versions), SIMATIC S7-410 V8 CPU family (incl. SIPLUS variants) (All versions), SIMATIC TDC CP51M1 (All versions), SIMATIC TDC CPU555 (All versions), SIMATIC WinAC RTX 2010 (All versions), SIMATIC WinAC RTX F 2010 (All versions), SINAMICS S/G Control Unit w. PROFINET (All versions). The Interniche-based TCP Stack can be forced to make very expensive calls for every incoming packet which can lead to a denial of service.
+ A vulnerability has been identified in Development/Evaluation Kits for PROFINET IO: EK-ERTEC 200 (All versions), Development/Evaluation Kits for PROFINET IO: EK-ERTEC 200P (All versions), KTK ATE530S (All versions), SIDOOR ATD430W (All versions), SIDOOR ATE530S COATED (All versions), SIDOOR ATE531S (All versions), SIMATIC ET 200pro IM154-8 PN/DP CPU (All versions), SIMATIC ET 200pro IM154-8F PN/DP CPU (All versions), SIMATIC ET 200pro IM154-8FX PN/DP CPU (All versions), SIMATIC ET 200S IM151-8 PN/DP CPU (All versions), SIMATIC ET 200S IM151-8F PN/DP CPU (All versions), SIMATIC ET 200SP Open Controller CPU 1515SP PC (incl. SIPLUS variants) (All versions &lt; V2.0), SIMATIC ET 200SP Open Controller CPU 1515SP PC2 (incl. SIPLUS variants) (All versions &lt; V2.0), SIMATIC ET200AL IM157-1 PN (All versions), SIMATIC ET200ecoPN, AI 8xRTD/TC, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200ecoPN, CM 4x IO-Link, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200ecoPN, CM 8x IO-Link, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200ecoPN, CM 8x IO-Link, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200ecoPN, DI 16x24VDC, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200ecoPN, DI 8x24VDC, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200ecoPN, DIQ 16x24VDC/2A, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200ecoPN, DQ 8x24VDC/0,5A, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200ecoPN, DQ 8x24VDC/2A, M12-L (All versions &gt;= V5.1.1), SIMATIC ET200MP IM155-5 PN HF (incl. SIPLUS variants) (All versions &gt;= V4.2), SIMATIC ET200SP IM155-6 MF HF (All versions), SIMATIC ET200SP IM155-6 PN HA (incl. SIPLUS variants) (All versions), SIMATIC ET200SP IM155-6 PN HF (incl. SIPLUS variants) (All versions &gt;= V4.2), SIMATIC ET200SP IM155-6 PN/2 HF (incl. SIPLUS variants) (All versions &gt;= V4.2), SIMATIC ET200SP IM155-6 PN/3 HF (incl. SIPLUS variants) (All versions &gt;= V4.2), SIMATIC MICRO-DRIVE PDC (All versions), SIMATIC PN/MF Coupler (All versions), SIMATIC PN/PN Coupler (All versions &gt;= V4.2), SIMATIC S7-1200 CPU family (incl. SIPLUS variants) (All versions &lt; V4.4.0), SIMATIC S7-1500 CPU family (incl. related ET200 CPUs and SIPLUS variants) (All versions &lt; V2.0), SIMATIC S7-1500 Software Controller (All versions &lt; V2.0), SIMATIC S7-300 CPU 314C-2 PN/DP (All versions), SIMATIC S7-300 CPU 315-2 PN/DP (All versions), SIMATIC S7-300 CPU 315F-2 PN/DP (All versions), SIMATIC S7-300 CPU 315T-3 PN/DP (All versions), SIMATIC S7-300 CPU 317-2 PN/DP (All versions), SIMATIC S7-300 CPU 317F-2 PN/DP (All versions), SIMATIC S7-300 CPU 317T-3 PN/DP (All versions), SIMATIC S7-300 CPU 317TF-3 PN/DP (All versions), SIMATIC S7-300 CPU 319-3 PN/DP (All versions), SIMATIC S7-300 CPU 319F-3 PN/DP (All versions), SIMATIC S7-400 H V6 CPU family and below (incl. SIPLUS variants) (All versions), SIMATIC S7-400 PN/DP V7 CPU family (incl. SIPLUS variants) (All versions), SIMATIC S7-410 V10 CPU family (incl. SIPLUS variants) (All versions), SIMATIC S7-410 V8 CPU family (incl. SIPLUS variants) (All versions), SIMATIC TDC CP51M1 (All versions), SIMATIC TDC CPU555 (All versions), SIMATIC WinAC RTX 2010 (All versions), SIMATIC WinAC RTX F 2010 (All versions), SINAMICS S/G Control Unit w. PROFINET (All versions), SIPLUS ET 200S IM151-8 PN/DP CPU (All versions), SIPLUS ET 200S IM151-8F PN/DP CPU (All versions), SIPLUS NET PN/PN Coupler (All versions &gt;= V4.2), SIPLUS S7-300 CPU 314C-2 PN/DP (All versions), SIPLUS S7-300 CPU 315-2 PN/DP (All versions), SIPLUS S7-300 CPU 315F-2 PN/DP (All versions), SIPLUS S7-300 CPU 317-2 PN/DP (All versions), SIPLUS S7-300 CPU 317F-2 PN/DP (All versions). The Interniche-based TCP Stack can be forced to make very expensive calls for every incoming packet which can lead to a denial of service.
 
 
 
@@ -1561,9 +1568,9 @@
 
 - [https://github.com/rasyidfox/CVE-2019-18818](https://github.com/rasyidfox/CVE-2019-18818) :  ![starts](https://img.shields.io/github/stars/rasyidfox/CVE-2019-18818.svg) ![forks](https://img.shields.io/github/forks/rasyidfox/CVE-2019-18818.svg)
 
-- [https://github.com/hadrian3689/strapi_cms_3.0.0-beta.17.7](https://github.com/hadrian3689/strapi_cms_3.0.0-beta.17.7) :  ![starts](https://img.shields.io/github/stars/hadrian3689/strapi_cms_3.0.0-beta.17.7.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/strapi_cms_3.0.0-beta.17.7.svg)
-
 - [https://github.com/ossf-cve-benchmark/CVE-2019-18818](https://github.com/ossf-cve-benchmark/CVE-2019-18818) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-18818.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-18818.svg)
+
+- [https://github.com/hadrian3689/strapi_cms_3.0.0-beta.17.7](https://github.com/hadrian3689/strapi_cms_3.0.0-beta.17.7) :  ![starts](https://img.shields.io/github/stars/hadrian3689/strapi_cms_3.0.0-beta.17.7.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/strapi_cms_3.0.0-beta.17.7.svg)
 
 - [https://github.com/glowbase/CVE-2019-19609](https://github.com/glowbase/CVE-2019-19609) :  ![starts](https://img.shields.io/github/stars/glowbase/CVE-2019-19609.svg) ![forks](https://img.shields.io/github/forks/glowbase/CVE-2019-19609.svg)
 
@@ -2404,9 +2411,9 @@
 
 - [https://github.com/andripwn/pwn-vbulletin](https://github.com/andripwn/pwn-vbulletin) :  ![starts](https://img.shields.io/github/stars/andripwn/pwn-vbulletin.svg) ![forks](https://img.shields.io/github/forks/andripwn/pwn-vbulletin.svg)
 
-- [https://github.com/FarjaalAhmad/CVE-2019-16759](https://github.com/FarjaalAhmad/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/FarjaalAhmad/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/FarjaalAhmad/CVE-2019-16759.svg)
-
 - [https://github.com/r00tpgp/http-vuln-CVE-2019-16759](https://github.com/r00tpgp/http-vuln-CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/r00tpgp/http-vuln-CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/r00tpgp/http-vuln-CVE-2019-16759.svg)
+
+- [https://github.com/FarjaalAhmad/CVE-2019-16759](https://github.com/FarjaalAhmad/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/FarjaalAhmad/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/FarjaalAhmad/CVE-2019-16759.svg)
 
 - [https://github.com/nako48/CVE-2019-16759](https://github.com/nako48/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/nako48/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/nako48/CVE-2019-16759.svg)
 
@@ -2414,9 +2421,9 @@
 
 - [https://github.com/ludy-dev/vBulletin_Routestring-RCE](https://github.com/ludy-dev/vBulletin_Routestring-RCE) :  ![starts](https://img.shields.io/github/stars/ludy-dev/vBulletin_Routestring-RCE.svg) ![forks](https://img.shields.io/github/forks/ludy-dev/vBulletin_Routestring-RCE.svg)
 
-- [https://github.com/sunian19/CVE-2019-16759](https://github.com/sunian19/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/sunian19/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/sunian19/CVE-2019-16759.svg)
-
 - [https://github.com/trhacknon/CVE-2019-16759](https://github.com/trhacknon/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2019-16759.svg)
+
+- [https://github.com/sunian19/CVE-2019-16759](https://github.com/sunian19/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/sunian19/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/sunian19/CVE-2019-16759.svg)
 
 - [https://github.com/fxp0-4tx/CVE-2019-16759](https://github.com/fxp0-4tx/CVE-2019-16759) :  ![starts](https://img.shields.io/github/stars/fxp0-4tx/CVE-2019-16759.svg) ![forks](https://img.shields.io/github/forks/fxp0-4tx/CVE-2019-16759.svg)
 
@@ -3541,9 +3548,9 @@
 
 - [https://github.com/wenyu1999/sudo-](https://github.com/wenyu1999/sudo-) :  ![starts](https://img.shields.io/github/stars/wenyu1999/sudo-.svg) ![forks](https://img.shields.io/github/forks/wenyu1999/sudo-.svg)
 
-- [https://github.com/MariliaMeira/CVE-2019-14287](https://github.com/MariliaMeira/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/MariliaMeira/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/MariliaMeira/CVE-2019-14287.svg)
-
 - [https://github.com/huang919/cve-2019-14287-PPT](https://github.com/huang919/cve-2019-14287-PPT) :  ![starts](https://img.shields.io/github/stars/huang919/cve-2019-14287-PPT.svg) ![forks](https://img.shields.io/github/forks/huang919/cve-2019-14287-PPT.svg)
+
+- [https://github.com/MariliaMeira/CVE-2019-14287](https://github.com/MariliaMeira/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/MariliaMeira/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/MariliaMeira/CVE-2019-14287.svg)
 
 - [https://github.com/Sindadziy/cve-2019-14287](https://github.com/Sindadziy/cve-2019-14287) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2019-14287.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2019-14287.svg)
 
@@ -3563,11 +3570,11 @@
 
 - [https://github.com/M108Falcon/Sudo-CVE-2019-14287](https://github.com/M108Falcon/Sudo-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/M108Falcon/Sudo-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/M108Falcon/Sudo-CVE-2019-14287.svg)
 
+- [https://github.com/DewmiApsara/CVE-2019-14287](https://github.com/DewmiApsara/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/DewmiApsara/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/DewmiApsara/CVE-2019-14287.svg)
+
 - [https://github.com/k4u5h41/CVE-2019-14287](https://github.com/k4u5h41/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2019-14287.svg)
 
 - [https://github.com/5l1v3r1/cve-2019-14287sudoexp](https://github.com/5l1v3r1/cve-2019-14287sudoexp) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/cve-2019-14287sudoexp.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/cve-2019-14287sudoexp.svg)
-
-- [https://github.com/DewmiApsara/CVE-2019-14287](https://github.com/DewmiApsara/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/DewmiApsara/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/DewmiApsara/CVE-2019-14287.svg)
 
 - [https://github.com/edsonjt81/CVE-2019-14287-](https://github.com/edsonjt81/CVE-2019-14287-) :  ![starts](https://img.shields.io/github/stars/edsonjt81/CVE-2019-14287-.svg) ![forks](https://img.shields.io/github/forks/edsonjt81/CVE-2019-14287-.svg)
 
@@ -4070,9 +4077,9 @@
 
 - [https://github.com/Thathsarani24/CVE2019-13272](https://github.com/Thathsarani24/CVE2019-13272) :  ![starts](https://img.shields.io/github/stars/Thathsarani24/CVE2019-13272.svg) ![forks](https://img.shields.io/github/forks/Thathsarani24/CVE2019-13272.svg)
 
-- [https://github.com/teddy47/CVE-2019-13272---Documentation](https://github.com/teddy47/CVE-2019-13272---Documentation) :  ![starts](https://img.shields.io/github/stars/teddy47/CVE-2019-13272---Documentation.svg) ![forks](https://img.shields.io/github/forks/teddy47/CVE-2019-13272---Documentation.svg)
-
 - [https://github.com/babyshen/CVE-2019-13272](https://github.com/babyshen/CVE-2019-13272) :  ![starts](https://img.shields.io/github/stars/babyshen/CVE-2019-13272.svg) ![forks](https://img.shields.io/github/forks/babyshen/CVE-2019-13272.svg)
+
+- [https://github.com/teddy47/CVE-2019-13272---Documentation](https://github.com/teddy47/CVE-2019-13272---Documentation) :  ![starts](https://img.shields.io/github/stars/teddy47/CVE-2019-13272---Documentation.svg) ![forks](https://img.shields.io/github/forks/teddy47/CVE-2019-13272---Documentation.svg)
 
 - [https://github.com/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-](https://github.com/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-) :  ![starts](https://img.shields.io/github/stars/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-.svg) ![forks](https://img.shields.io/github/forks/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-.svg)
 
@@ -4789,8 +4796,6 @@
 
 
 - [https://github.com/dorkerdevil/CVE-2019-11932](https://github.com/dorkerdevil/CVE-2019-11932) :  ![starts](https://img.shields.io/github/stars/dorkerdevil/CVE-2019-11932.svg) ![forks](https://img.shields.io/github/forks/dorkerdevil/CVE-2019-11932.svg)
-
-- [https://github.com/awakened1712/CVE-2019-11932](https://github.com/awakened1712/CVE-2019-11932) :  ![starts](https://img.shields.io/github/stars/awakened1712/CVE-2019-11932.svg) ![forks](https://img.shields.io/github/forks/awakened1712/CVE-2019-11932.svg)
 
 - [https://github.com/valbrux/CVE-2019-11932-SupportApp](https://github.com/valbrux/CVE-2019-11932-SupportApp) :  ![starts](https://img.shields.io/github/stars/valbrux/CVE-2019-11932-SupportApp.svg) ![forks](https://img.shields.io/github/forks/valbrux/CVE-2019-11932-SupportApp.svg)
 
@@ -8444,13 +8449,13 @@
 
 - [https://github.com/takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer) :  ![starts](https://img.shields.io/github/stars/takumak/cve-2019-5736-reproducer.svg) ![forks](https://img.shields.io/github/forks/takumak/cve-2019-5736-reproducer.svg)
 
-- [https://github.com/chosam2/cve-2019-5736-poc](https://github.com/chosam2/cve-2019-5736-poc) :  ![starts](https://img.shields.io/github/stars/chosam2/cve-2019-5736-poc.svg) ![forks](https://img.shields.io/github/forks/chosam2/cve-2019-5736-poc.svg)
+- [https://github.com/zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC) :  ![starts](https://img.shields.io/github/stars/zyriuse75/CVE-2019-5736-PoC.svg) ![forks](https://img.shields.io/github/forks/zyriuse75/CVE-2019-5736-PoC.svg)
 
 - [https://github.com/geropl/CVE-2019-5736](https://github.com/geropl/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/geropl/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/geropl/CVE-2019-5736.svg)
 
 - [https://github.com/si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/si1ent-le/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/si1ent-le/CVE-2019-5736.svg)
 
-- [https://github.com/zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC) :  ![starts](https://img.shields.io/github/stars/zyriuse75/CVE-2019-5736-PoC.svg) ![forks](https://img.shields.io/github/forks/zyriuse75/CVE-2019-5736-PoC.svg)
+- [https://github.com/chosam2/cve-2019-5736-poc](https://github.com/chosam2/cve-2019-5736-poc) :  ![starts](https://img.shields.io/github/stars/chosam2/cve-2019-5736-poc.svg) ![forks](https://img.shields.io/github/forks/chosam2/cve-2019-5736-poc.svg)
 
 - [https://github.com/BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/BBRathnayaka/POC-CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/BBRathnayaka/POC-CVE-2019-5736.svg)
 
@@ -11010,6 +11015,15 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2019-1649](https://github.com/Live-Hack-CVE/CVE-2019-1649) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-1649.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-1649.svg)
+
+## CVE-2019-1579
+ Remote Code Execution in PAN-OS 7.1.18 and earlier, PAN-OS 8.0.11-h1 and earlier, and PAN-OS 8.1.2 and earlier with GlobalProtect Portal or GlobalProtect Gateway Interface enabled may allow an unauthenticated remote attacker to execute arbitrary code.
+
+
+
+- [https://github.com/securifera/CVE-2019-1579](https://github.com/securifera/CVE-2019-1579) :  ![starts](https://img.shields.io/github/stars/securifera/CVE-2019-1579.svg) ![forks](https://img.shields.io/github/forks/securifera/CVE-2019-1579.svg)
+
+- [https://github.com/Elsfa7-110/CVE-2019-1579](https://github.com/Elsfa7-110/CVE-2019-1579) :  ![starts](https://img.shields.io/github/stars/Elsfa7-110/CVE-2019-1579.svg) ![forks](https://img.shields.io/github/forks/Elsfa7-110/CVE-2019-1579.svg)
 
 ## CVE-2019-1559
  If an application encounters a fatal protocol error and then calls SSL_shutdown() twice (once to send a close_notify, and once to receive one) then OpenSSL can respond differently to the calling application if a 0 byte record is received with invalid padding compared to if a 0 byte record is received with an invalid MAC. If the application then behaves differently based on that in a way that is detectable to the remote peer, then this amounts to a padding oracle that could be used to decrypt data. In order for this to be exploitable &quot;non-stitched&quot; ciphersuites must be in use. Stitched ciphersuites are optimised implementations of certain commonly used ciphersuites. Also the application must call SSL_shutdown() twice even if a protocol error has occurred (applications should not do this but some do anyway). Fixed in OpenSSL 1.0.2r (Affected 1.0.2-1.0.2q).
