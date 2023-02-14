@@ -89,7 +89,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2008-2956](https://github.com/Live-Hack-CVE/CVE-2008-2956) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-2956.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-2956.svg)
 
 ## CVE-2008-2938
- CVE-2008-2938 tomcat Unicode directory traversal vulnerability
+ Directory traversal vulnerability in Apache Tomcat 4.1.0 through 4.1.37, 5.5.0 through 5.5.26, and 6.0.0 through 6.0.16, when allowLinking and UTF-8 are enabled, allows remote attackers to read arbitrary files via encoded directory traversal sequences in the URI, a different vulnerability than CVE-2008-2370. NOTE: versions earlier than 6.0.18 were reported affected, but the vendor advisory lists 6.0.16 as the last affected version.
 
 
 
@@ -110,7 +110,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2008-2577](https://github.com/Live-Hack-CVE/CVE-2008-2577) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2008-2577.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2008-2577.svg)
 
 ## CVE-2008-2364
- CVE-2008-2364 httpd: mod_proxy_http DoS via excessive interim responses from the origin server
+ The ap_proxy_http_process_response function in mod_proxy_http.c in the mod_proxy module in the Apache HTTP Server 2.0.63 and 2.2.8 does not limit the number of forwarded interim responses, which allows remote HTTP servers to cause a denial of service (memory consumption) via a large number of interim responses.
 
 
 
