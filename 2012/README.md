@@ -482,6 +482,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2012-3386](https://github.com/Live-Hack-CVE/CVE-2012-3386) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3386.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3386.svg)
 
+## CVE-2012-3287
+ Poul-Henning Kamp md5crypt has insufficient algorithmic complexity and a consequently short runtime, which makes it easier for context-dependent attackers to discover cleartext passwords via a brute-force attack, as demonstrated by an attack using GPU hardware.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2012-3287](https://github.com/Live-Hack-CVE/CVE-2012-3287) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2012-3287.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2012-3287.svg)
+
 ## CVE-2012-3197
  Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.64 and earlier, and 5.5.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Replication.
 
