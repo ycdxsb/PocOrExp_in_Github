@@ -85,7 +85,7 @@
 - [https://github.com/Ooscaar/MALW](https://github.com/Ooscaar/MALW) :  ![starts](https://img.shields.io/github/stars/Ooscaar/MALW.svg) ![forks](https://img.shields.io/github/forks/Ooscaar/MALW.svg)
 
 ## CVE-2007-3847
- CVE-2007-3847 httpd: out of bounds read
+ The date handling code in modules/proxy/proxy_util.c (mod_proxy) in Apache 2.3.0, when using a threaded MPM, allows remote origin servers to cause a denial of service (caching forward proxy process crash) via crafted date headers that trigger a buffer over-read.
 
 
 
@@ -146,15 +146,15 @@
 
 - [https://github.com/xbufu/CVE-2007-2447](https://github.com/xbufu/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xbufu/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xbufu/CVE-2007-2447.svg)
 
+- [https://github.com/Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Aviksaikat/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Aviksaikat/CVE-2007-2447.svg)
+
 - [https://github.com/bdunlap9/CVE-2007-2447_python](https://github.com/bdunlap9/CVE-2007-2447_python) :  ![starts](https://img.shields.io/github/stars/bdunlap9/CVE-2007-2447_python.svg) ![forks](https://img.shields.io/github/forks/bdunlap9/CVE-2007-2447_python.svg)
 
 - [https://github.com/Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Alien0ne/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Alien0ne/CVE-2007-2447.svg)
 
-- [https://github.com/Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Aviksaikat/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Aviksaikat/CVE-2007-2447.svg)
+- [https://github.com/k4u5h41/CVE-2007-2447](https://github.com/k4u5h41/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2007-2447.svg)
 
 - [https://github.com/3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/3x1t1um/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/3x1t1um/CVE-2007-2447.svg)
-
-- [https://github.com/k4u5h41/CVE-2007-2447](https://github.com/k4u5h41/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2007-2447.svg)
 
 - [https://github.com/Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python) :  ![starts](https://img.shields.io/github/stars/Ziemni/CVE-2007-2447-in-Python.svg) ![forks](https://img.shields.io/github/forks/Ziemni/CVE-2007-2447-in-Python.svg)
 
@@ -172,13 +172,13 @@
 
 - [https://github.com/Ki11i0n4ir3/CVE-2007-2447](https://github.com/Ki11i0n4ir3/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Ki11i0n4ir3/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Ki11i0n4ir3/CVE-2007-2447.svg)
 
+- [https://github.com/testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/testaross4/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/testaross4/CVE-2007-2447.svg)
+
 - [https://github.com/SamHackingArticles/CVE-2007-2447](https://github.com/SamHackingArticles/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/SamHackingArticles/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/SamHackingArticles/CVE-2007-2447.svg)
 
 - [https://github.com/0xkasra/CVE-2007-2447](https://github.com/0xkasra/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2007-2447.svg)
 
 - [https://github.com/un4gi/CVE-2007-2447](https://github.com/un4gi/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/un4gi/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/un4gi/CVE-2007-2447.svg)
-
-- [https://github.com/testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/testaross4/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/testaross4/CVE-2007-2447.svg)
 
 - [https://github.com/JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/JoseBarrios/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/JoseBarrios/CVE-2007-2447.svg)
 
@@ -196,7 +196,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2007-2444](https://github.com/Live-Hack-CVE/CVE-2007-2444) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2007-2444.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2007-2444.svg)
 
 ## CVE-2007-1858
- CVE-2007-1858 tomcat anonymous cipher issue
+ The default SSL cipher configuration in Apache Tomcat 4.1.28 through 4.1.31, 5.0.0 through 5.0.30, and 5.5.0 through 5.5.17 uses certain insecure ciphers, including the anonymous cipher, which allows remote attackers to obtain sensitive information or have other, unspecified impacts.
 
 
 
