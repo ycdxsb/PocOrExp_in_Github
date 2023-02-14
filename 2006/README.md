@@ -36,7 +36,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2006-5752](https://github.com/Live-Hack-CVE/CVE-2006-5752) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2006-5752.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2006-5752.svg)
 
 ## CVE-2006-4814
- CVE-2006-4814 kernel Race condition in mincore can cause &quot;ps -ef&quot; to hang
+ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock access to user space, which has unspecified impact and attack vectors, possibly related to a deadlock.
 
 
 
