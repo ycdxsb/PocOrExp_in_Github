@@ -1,5 +1,5 @@
 ## CVE-2005-3353
- CVE-2005-3353 security flaw
+ The exif_read_data function in the Exif module in PHP before 4.4.1 allows remote attackers to cause a denial of service (infinite loop) via a malformed JPEG image.
 
 
 
@@ -15,7 +15,7 @@
 - [https://github.com/RizeKishimaro/CVE-2005-3299](https://github.com/RizeKishimaro/CVE-2005-3299) :  ![starts](https://img.shields.io/github/stars/RizeKishimaro/CVE-2005-3299.svg) ![forks](https://img.shields.io/github/forks/RizeKishimaro/CVE-2005-3299.svg)
 
 ## CVE-2005-2970
- CVE-2005-2970 security flaw
+ Memory leak in the worker MPM (worker.c) for Apache 2, in certain circumstances, allows remote attackers to cause a denial of service (memory consumption) via aborted connections, which prevents the memory for the transaction pool from being reused for other connections.
 
 
 
@@ -43,7 +43,7 @@
 - [https://github.com/Live-Hack-CVE/CVE-2005-2224](https://github.com/Live-Hack-CVE/CVE-2005-2224) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2005-2224.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2005-2224.svg)
 
 ## CVE-2005-2088
- CVE-2005-2088 security flaw
+ The Apache HTTP server before 1.3.34, and 2.0.x before 2.0.55, when acting as an HTTP proxy, allows remote attackers to poison the web cache, bypass web application firewall protection, and conduct XSS attacks via an HTTP request with both a &quot;Transfer-Encoding: chunked&quot; header and a Content-Length header, which causes Apache to incorrectly handle and forward the body of the request in a way that causes the receiving server to process it as a separate HTTP request, aka &quot;HTTP Request Smuggling.&quot;
 
 
 
