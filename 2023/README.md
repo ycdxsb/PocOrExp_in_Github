@@ -1,9 +1,37 @@
+## CVE-2023-25758
+ Onekey Touch devices through 4.0.0 and Onekey Mini devices through 2.10.0 allow man-in-the-middle attackers to obtain the seed phase. The man-in-the-middle access can only be obtained after disassembling a device (i.e., here, &quot;man-in-the-middle&quot; does not refer to the attacker's position on an IP network). NOTE: the vendor states that &quot;our hardware team has updated the security patch without anyone being affected.&quot;
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-25758](https://github.com/Live-Hack-CVE/CVE-2023-25758) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25758.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25758.svg)
+
 ## CVE-2023-25727
  In phpMyAdmin before 4.9.11 and 5.x before 5.2.1, an authenticated user can trigger XSS by uploading a crafted .sql file through the drag-and-drop interface.
 
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-25727](https://github.com/Live-Hack-CVE/CVE-2023-25727) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25727.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25727.svg)
+
+## CVE-2023-25725
+ HAProxy before 2.7.3 may allow a bypass of access control because HTTP/1 headers are inadvertently lost in some situations, aka &quot;request smuggling.&quot; The HTTP header parsers in HAProxy may accept empty header field names, which could be used to truncate the list of HTTP headers and thus make some headers disappear after being parsed and processed for HTTP/1.0 and HTTP/1.1. For HTTP/2 and HTTP/3, the impact is limited because the headers disappear before being parsed and processed, as if they had not been sent by the client. The fixed versions are 2.7.3, 2.6.9, 2.5.12, 2.4.22, 2.2.29, and 2.0.31.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-25725](https://github.com/Live-Hack-CVE/CVE-2023-25725) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25725.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25725.svg)
+
+## CVE-2023-25724
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-25724](https://github.com/Live-Hack-CVE/CVE-2023-25724) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25724.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25724.svg)
+
+## CVE-2023-25723
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-25723](https://github.com/Live-Hack-CVE/CVE-2023-25723) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25723.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25723.svg)
 
 ## CVE-2023-25719
  ConnectWise Control before 22.9.10032 (formerly known as ScreenConnect) fails to validate user-supplied parameters such as the Bin/ConnectWiseControl.Client.exe h parameter. This results in reflected data and injection of malicious code into a downloaded executable. The executable can be used to execute malicious queries or as a denial-of-service vector.
@@ -25,6 +53,20 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-25717](https://github.com/Live-Hack-CVE/CVE-2023-25717) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25717.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25717.svg)
+
+## CVE-2023-25614
+ SAP NetWeaver AS ABAP (BSP Framework) application - versions 700, 701, 702, 731, 740, 750, 751, 752, 753, 754, 755, 756, 757, allow an unauthenticated attacker to inject the code that can be executed by the application over the network. On successful exploitation it can gain access to the sensitive information which leads to a limited impact on the confidentiality and the integrity of the application.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-25614](https://github.com/Live-Hack-CVE/CVE-2023-25614) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25614.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25614.svg)
+
+## CVE-2023-25576
+ @fastify/multipart is a Fastify plugin to parse the multipart content-type. Prior to versions 7.4.1 and 6.0.1, @fastify/multipart may experience denial of service due to a number of situations in which an unlimited number of parts are accepted. This includes the multipart body parser accepting an unlimited number of file parts, the multipart body parser accepting an unlimited number of field parts, and the multipart body parser accepting an unlimited number of empty parts as field parts. This is fixed in v7.4.1 (for Fastify v4.x) and v6.0.1 (for Fastify v3.x). There are no known workarounds.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-25576](https://github.com/Live-Hack-CVE/CVE-2023-25576) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25576.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25576.svg)
 
 ## CVE-2023-25572
  react-admin is a frontend framework for building browser applications on top of REST/GraphQL APIs. react-admin prior to versions 3.19.12 and 4.7.6, along with ra-ui-materialui prior to 3.19.12 and 4.7.6, are vulnerable to cross-site scripting. All React applications built with react-admin and using the `&lt;RichTextField&gt;` are affected. `&lt;RichTextField&gt;` outputs the field value using `dangerouslySetInnerHTML` without client-side sanitization. If the data isn't sanitized server-side, this opens a possible cross-site scripting (XSS) attack. Versions 3.19.12 and 4.7.6 now use `DOMPurify` to escape the HTML before outputting it with React and `dangerouslySetInnerHTML`. Users who already sanitize HTML data server-side do not need to upgrade. As a workaround, users may replace the `&lt;RichTextField&gt;` by a custom field doing sanitization by hand.
@@ -119,6 +161,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-25152](https://github.com/Live-Hack-CVE/CVE-2023-25152) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25152.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25152.svg)
 
+## CVE-2023-25149
+ TimescaleDB, an open-source time-series SQL database, has a privilege escalation vulnerability in versions 2.8.0 through 2.9.2. During installation, TimescaleDB creates a telemetry job that is runs as the installation user. The queries run as part of the telemetry data collection were not run with a locked down `search_path`, allowing malicious users to create functions that would be executed by the telemetry job, leading to privilege escalation. In order to be able to take advantage of this vulnerability, a user would need to be able to create objects in a database and then get a superuser to install TimescaleDB into their database. When TimescaleDB is installed as trusted extension, non-superusers can install the extension without help from a superuser. Version 2.9.3 fixes this issue. As a mitigation, the `search_path` of the user running the telemetry job can be locked down to not include schemas writable by other users. The vulnerability is not exploitable on instances in Timescale Cloud and Managed Service for TimescaleDB due to additional security provisions in place on those platforms.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-25149](https://github.com/Live-Hack-CVE/CVE-2023-25149) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25149.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25149.svg)
+
+## CVE-2023-25141
+ Apache Sling JCR Base &lt; 3.1.12 has a critical injection vulnerability when running on old JDK versions (JDK 1.8.191 or earlier) through utility functions in RepositoryAccessor. The functions getRepository and getRepositoryFromURL allow an application to access data stored in a remote location via JDNI and RMI. Users of Apache Sling JCR Base are recommended to upgrade to Apache Sling JCR Base 3.1.12 or later, or to run on a more recent JDK.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-25141](https://github.com/Live-Hack-CVE/CVE-2023-25141) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25141.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25141.svg)
+
 ## CVE-2023-25139
  sprintf in the GNU C Library (glibc) 2.37 has a buffer overflow (out-of-bounds write) in some situations with a correct buffer size. This is unrelated to CWE-676. It may write beyond the bounds of the destination buffer when attempting to write a padded, thousands-separated string representation of a number, if the buffer is allocated the exact size required to represent that number as a string. For example, 1,234,567 (with padding to 13) overflows by two bytes.
 
@@ -133,6 +189,8 @@
 
 - [https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free](https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free) :  ![starts](https://img.shields.io/github/stars/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free.svg) ![forks](https://img.shields.io/github/forks/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free.svg)
 
+- [https://github.com/ticofookfook/CVE-2023-25136](https://github.com/ticofookfook/CVE-2023-25136) :  ![starts](https://img.shields.io/github/stars/ticofookfook/CVE-2023-25136.svg) ![forks](https://img.shields.io/github/forks/ticofookfook/CVE-2023-25136.svg)
+
 - [https://github.com/Live-Hack-CVE/CVE-2023-25136](https://github.com/Live-Hack-CVE/CVE-2023-25136) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25136.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25136.svg)
 
 ## CVE-2023-25135
@@ -141,6 +199,20 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-25135](https://github.com/Live-Hack-CVE/CVE-2023-25135) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25135.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25135.svg)
+
+## CVE-2023-25066
+ Cross-Site Request Forgery (CSRF) vulnerability in FolioVision FV Flowplayer Video Player plugin &lt;= 7.5.30.7212 versions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-25066](https://github.com/Live-Hack-CVE/CVE-2023-25066) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25066.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25066.svg)
+
+## CVE-2023-25065
+ Cross-Site Request Forgery (CSRF) vulnerability in ShapedPlugin WP Tabs &#8211; Responsive Tabs Plugin for WordPress plugin &lt;= 2.1.14 versions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-25065](https://github.com/Live-Hack-CVE/CVE-2023-25065) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-25065.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-25065.svg)
 
 ## CVE-2023-25015
  Clockwork Web before 0.1.2, when Rails before 5.2 is used, allows CSRF.
@@ -354,6 +426,125 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-24569](https://github.com/Live-Hack-CVE/CVE-2023-24569) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24569.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24569.svg)
 
+## CVE-2023-24557
+ A vulnerability has been identified in Solid Edge SE2022 (All versions &lt; V2210Update12), Solid Edge SE2023 (All versions &lt; V2023Update2). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24557](https://github.com/Live-Hack-CVE/CVE-2023-24557) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24557.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24557.svg)
+
+## CVE-2023-24556
+ A vulnerability has been identified in Solid Edge SE2022 (All versions &lt; V2210Update12), Solid Edge SE2023 (All versions &lt; V2023Update2). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24556](https://github.com/Live-Hack-CVE/CVE-2023-24556) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24556.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24556.svg)
+
+## CVE-2023-24555
+ A vulnerability has been identified in Solid Edge SE2022 (All versions &lt; V2210Update12), Solid Edge SE2023 (All versions &lt; V2023Update2). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24555](https://github.com/Live-Hack-CVE/CVE-2023-24555) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24555.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24555.svg)
+
+## CVE-2023-24554
+ A vulnerability has been identified in Solid Edge SE2022 (All versions &lt; V2210Update12), Solid Edge SE2023 (All versions &lt; V2023Update2). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24554](https://github.com/Live-Hack-CVE/CVE-2023-24554) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24554.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24554.svg)
+
+## CVE-2023-24553
+ A vulnerability has been identified in Solid Edge SE2022 (All versions &lt; V2210Update12), Solid Edge SE2023 (All versions &lt; V2023Update2). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24553](https://github.com/Live-Hack-CVE/CVE-2023-24553) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24553.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24553.svg)
+
+## CVE-2023-24552
+ A vulnerability has been identified in Solid Edge SE2022 (All versions &lt; V2210Update12), Solid Edge SE2023 (All versions &lt; V2023Update2). The affected application contains an out of bounds read past the end of an allocated buffer while parsing a specially crafted PAR file. This could allow an attacker to to execute code in the context of the current process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24552](https://github.com/Live-Hack-CVE/CVE-2023-24552) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24552.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24552.svg)
+
+## CVE-2023-24551
+ A vulnerability has been identified in Solid Edge SE2022 (All versions &lt; V2210Update12), Solid Edge SE2023 (All versions &lt; V2023Update2). The affected application is vulnerable to heap-based buffer underflow while parsing specially crafted PAR files. An attacker could leverage this vulnerability to execute code in the context of the current process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24551](https://github.com/Live-Hack-CVE/CVE-2023-24551) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24551.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24551.svg)
+
+## CVE-2023-24550
+ A vulnerability has been identified in Solid Edge SE2022 (All versions &lt; V2210Update12), Solid Edge SE2023 (All versions &lt; V2023Update2). The affected application is vulnerable to heap-based buffer while parsing specially crafted PAR files. An attacker could leverage this vulnerability to execute code in the context of the current process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24550](https://github.com/Live-Hack-CVE/CVE-2023-24550) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24550.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24550.svg)
+
+## CVE-2023-24549
+ A vulnerability has been identified in Solid Edge SE2022 (All versions &lt; V2210Update12), Solid Edge SE2023 (All versions &lt; V2023Update2). The affected application is vulnerable to stack-based buffer while parsing specially crafted PAR files. An attacker could leverage this vulnerability to execute code in the context of the current process.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24549](https://github.com/Live-Hack-CVE/CVE-2023-24549) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24549.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24549.svg)
+
+## CVE-2023-24530
+ SAP BusinessObjects Business Intelligence Platform (CMC) - versions 420, 430, allows an authenticated admin user to upload malicious code that can be executed by the application over the network. On successful exploitation, attacker can perform operations that may completely compromise the application causing high impact on confidentiality, integrity and availability of the application.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24530](https://github.com/Live-Hack-CVE/CVE-2023-24530) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24530.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24530.svg)
+
+## CVE-2023-24529
+ Due to lack of proper input validation, BSP application (CRM_BSP_FRAME) - versions 700, 701, 702, 731, 740, 750, 751, 752, 75C, 75D, 75E, 75F, 75G, 75H, allow malicious inputs from untrusted sources, which can be leveraged by an attacker to execute a Reflected Cross-Site Scripting (XSS) attack. As a result, an attacker may be able to hijack a user session, read and modify some sensitive information.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24529](https://github.com/Live-Hack-CVE/CVE-2023-24529) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24529.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24529.svg)
+
+## CVE-2023-24528
+ SAP Fiori apps for Travel Management in SAP ERP (My Travel Requests) - version 600, allows an authenticated attacker to exploit a certain misconfigured application endpoint to view sensitive data. This endpoint is normally exposed over the network and successful exploitation can lead to exposure of data like travel documents.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24528](https://github.com/Live-Hack-CVE/CVE-2023-24528) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24528.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24528.svg)
+
+## CVE-2023-24525
+ SAP CRM WebClient UI - versions WEBCUIF 748, 800, 801, S4FND 102, 103, does not sufficiently encode user-controlled inputs, resulting in Cross-Site Scripting (XSS) vulnerability. On successful exploitation an authenticated attacker can cause limited impact on confidentiality of the application.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24525](https://github.com/Live-Hack-CVE/CVE-2023-24525) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24525.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24525.svg)
+
+## CVE-2023-24524
+ SAP S/4 HANA Map Treasury Correspondence Format Data does not perform necessary authorization check for an authenticated user, resulting in escalation of privileges. This could allow an attacker to delete the data with a high impact to availability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24524](https://github.com/Live-Hack-CVE/CVE-2023-24524) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24524.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24524.svg)
+
+## CVE-2023-24523
+ An attacker authenticated as a non-admin user with local access to a server port assigned to the SAP Host Agent (Start Service) - versions 7.21, 7.22, can submit a crafted ConfigureOutsideDiscovery request with an operating system command which will be executed with administrator privileges. The OS command can read or modify any user or system data and can make the system unavailable.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24523](https://github.com/Live-Hack-CVE/CVE-2023-24523) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24523.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24523.svg)
+
+## CVE-2023-24522
+ Due to insufficient input sanitization, SAP NetWeaver AS ABAP (Business Server Pages) - versions 700, 701, 702, 731, 740, allows an unauthenticated user to alter the current session of the user by injecting the malicious code over the network and gain access to the unintended data. This may lead to a limited impact on the confidentiality and the integrity of the application.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24522](https://github.com/Live-Hack-CVE/CVE-2023-24522) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24522.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24522.svg)
+
+## CVE-2023-24521
+ Due to insufficient input sanitization, SAP NetWeaver AS ABAP (BSP Framework) - versions 700, 701, 702, 731, 740, 750, 751, 752, 753, 754, 755, 756, 757, allows an unauthenticated user to alter the current session of the user by injecting the malicious code over the network and gain access to the unintended data. This may lead to a limited impact on the confidentiality and the integrity of the application.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24521](https://github.com/Live-Hack-CVE/CVE-2023-24521) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24521.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24521.svg)
+
 ## CVE-2023-24508
  Baicells Nova 227, Nova 233, and Nova 243 LTE TDD eNodeB and Nova 246 devices with firmware through RTS/RTD 3.6.6 are vulnerable to remote shell code exploitation via HTTP command injections. Commands are executed using pre-login execution and executed with root permissions. The following methods below have been tested and validated by a 3rd party analyst and has been confirmed exploitable special thanks to Rustam Amin for providing the steps to reproduce.
 
@@ -381,6 +572,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-24493](https://github.com/Live-Hack-CVE/CVE-2023-24493) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24493.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24493.svg)
+
+## CVE-2023-24482
+ A vulnerability has been identified in COMOS V10.2 (All versions), COMOS V10.3.3.1 (All versions &lt; V10.3.3.1.45), COMOS V10.3.3.2 (All versions &lt; V10.3.3.2.33), COMOS V10.3.3.3 (All versions &lt; V10.3.3.3.9), COMOS V10.3.3.4 (All versions &lt; V10.3.3.4.6), COMOS V10.4.0.0 (All versions &lt; V10.4.0.0.31), COMOS V10.4.1.0 (All versions &lt; V10.4.1.0.32), COMOS V10.4.2.0 (All versions &lt; V10.4.2.0.25). Cache validation service in COMOS is vulnerable to Structured Exception Handler (SEH) based buffer overflow. This could allow an attacker to execute arbitrary code on the target system or cause denial of service condition.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24482](https://github.com/Live-Hack-CVE/CVE-2023-24482) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24482.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24482.svg)
 
 ## CVE-2023-24459
  A missing permission check in Jenkins BearyChat Plugin 3.0.2 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified URL.
@@ -514,6 +712,20 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-24422](https://github.com/Live-Hack-CVE/CVE-2023-24422) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24422.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24422.svg)
+
+## CVE-2023-24382
+ Cross-Site Request Forgery (CSRF) vulnerability in Photon WP Material Design Icons for Page Builders plugin &lt;= 1.4.2 versions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24382](https://github.com/Live-Hack-CVE/CVE-2023-24382) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24382.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24382.svg)
+
+## CVE-2023-24377
+ Cross-Site Request Forgery (CSRF) vulnerability in Ecwid Ecommerce Ecwid Ecommerce Shopping Cart plugin &lt;= 6.11.3 versions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24377](https://github.com/Live-Hack-CVE/CVE-2023-24377) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24377.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24377.svg)
 
 ## CVE-2023-24323
  Mojoportal v2.7 was discovered to contain an authenticated XML external entity (XXE) injection vulnerability.
@@ -710,6 +922,27 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-24162](https://github.com/Live-Hack-CVE/CVE-2023-24162) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24162.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24162.svg)
+
+## CVE-2023-24161
+ TOTOLINK CA300-PoE V6.2c.884 was discovered to contain a command injection vulnerability via the webWlanIdx parameter in the setWebWlanIdx function.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24161](https://github.com/Live-Hack-CVE/CVE-2023-24161) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24161.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24161.svg)
+
+## CVE-2023-24160
+ TOTOLINK CA300-PoE V6.2c.884 was discovered to contain a command injection vulnerability via the admuser parameter in the setPasswordCfg function.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24160](https://github.com/Live-Hack-CVE/CVE-2023-24160) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24160.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24160.svg)
+
+## CVE-2023-24159
+ TOTOLINK CA300-PoE V6.2c.884 was discovered to contain a command injection vulnerability via the admpass parameter in the setPasswordCfg function.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-24159](https://github.com/Live-Hack-CVE/CVE-2023-24159) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-24159.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-24159.svg)
 
 ## CVE-2023-24153
  A command injection vulnerability in the version parameter in the function recvSlaveCloudCheckStatus of TOTOLINK T8 V4.1.5cu allows attackers to execute arbitrary commands via a crafted MQTT packet.
@@ -972,6 +1205,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-23948](https://github.com/Live-Hack-CVE/CVE-2023-23948) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23948.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23948.svg)
 
+## CVE-2023-23944
+ Nextcloud mail is an email app for the nextcloud home server platform. In versions prior to 2.2.2 user's passwords were stored in cleartext in the database during the duration of OAuth2 setup procedure. Any attacker or malicious user with access to the database would have access to these user passwords until the OAuth setup has been completed. It is recommended that the Nextcloud Mail app is upgraded to 2.2.2. There are no known workarounds for this issue.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23944](https://github.com/Live-Hack-CVE/CVE-2023-23944) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23944.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23944.svg)
+
 ## CVE-2023-23937
  Pimcore is an Open Source Data &amp; Experience Management Platform: PIM, MDM, CDP, DAM, DXP/CMS &amp; Digital Commerce. The upload functionality for updating user profile does not properly validate the file content-type, allowing any authenticated user to bypass this security check by adding a valid signature (p.e. GIF89) and sending any invalid content-type. This could allow an authenticated attacker to upload HTML files with JS content that will be executed in the context of the domain. This issue has been patched in version 10.5.16.
 
@@ -995,6 +1235,69 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-23912](https://github.com/Live-Hack-CVE/CVE-2023-23912) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23912.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23912.svg)
 
+## CVE-2023-23860
+ SAP NetWeaver AS for ABAP and ABAP Platform - versions 740, 750, 751, 752, 753, 754, 755, 756, 757, 789, 790, allows an unauthenticated attacker to craft a link, which when clicked by an unsuspecting user can be used to redirect a user to a malicious site which could read or modify some sensitive information or expose the victim to a phishing attack.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23860](https://github.com/Live-Hack-CVE/CVE-2023-23860) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23860.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23860.svg)
+
+## CVE-2023-23859
+ SAP NetWeaver AS for ABAP and ABAP Platform - versions 740, 750, 751, 752, 753, 754, 755, 756, 757, 789, 790, allows an unauthenticated attacker to craft a malicious link, which when clicked by an unsuspecting user, can be used to read or modify some sensitive information.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23859](https://github.com/Live-Hack-CVE/CVE-2023-23859) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23859.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23859.svg)
+
+## CVE-2023-23858
+ Due to insufficient input validation, SAP NetWeaver AS for ABAP and ABAP Platform - versions 740, 750, 751, 752, 753, 754, 755, 756, 757, 789, 790, allows an unauthenticated attacker to send a crafted URL to a user, and by clicking the URL, the tricked user accesses SAP and might be directed with the response to somewhere out-side SAP and enter sensitive data. This could cause a limited impact on confidentiality and integrity of the application.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23858](https://github.com/Live-Hack-CVE/CVE-2023-23858) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23858.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23858.svg)
+
+## CVE-2023-23856
+ In SAP BusinessObjects Business Intelligence (Web Intelligence user interface) - version 430, some calls return json with wrong content type in the header of the response. As a result, a custom application that calls directly the jsp of Web Intelligence DHTML may be vulnerable to XSS attacks. On successful exploitation an attacker can cause a low impact on integrity of the application.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23856](https://github.com/Live-Hack-CVE/CVE-2023-23856) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23856.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23856.svg)
+
+## CVE-2023-23855
+ SAP Solution Manager - version 720, allows an authenticated attacker to redirect users to a malicious site due to insufficient URL validation. A successful attack could lead an attacker to read or modify the information or expose the user to a phishing attack. As a result, it has a low impact to confidentiality, integrity and availability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23855](https://github.com/Live-Hack-CVE/CVE-2023-23855) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23855.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23855.svg)
+
+## CVE-2023-23854
+ SAP NetWeaver Application Server for ABAP and ABAP Platform - versions 700, 701, 702, 731, 740, 750, 751, 752, does not perform necessary authorization checks for an authenticated user, resulting in escalation of privileges.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23854](https://github.com/Live-Hack-CVE/CVE-2023-23854) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23854.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23854.svg)
+
+## CVE-2023-23853
+ An unauthenticated attacker in AP NetWeaver Application Server for ABAP and ABAP Platform - versions 700, 702, 731, 740, 750, 751, 752, 753, 754, 755, 756, 757, 789, 790, can craft a link which when clicked by an unsuspecting user can be used to redirect a user to a malicious site which could read or modify some sensitive information or expose the victim to a phishing attack. Vulnerability has no direct impact on availability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23853](https://github.com/Live-Hack-CVE/CVE-2023-23853) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23853.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23853.svg)
+
+## CVE-2023-23852
+ SAP Solution Manager (System Monitoring) - version 720, does not sufficiently encode user-controlled inputs, resulting in Cross-Site Scripting (XSS) vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23852](https://github.com/Live-Hack-CVE/CVE-2023-23852) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23852.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23852.svg)
+
+## CVE-2023-23851
+ SAP Business Planning and Consolidation - versions 200, 300, allows an attacker with business authorization to upload any files (including web pages) without the proper file format validation. If other users visit the uploaded malicious web page, the attacker may perform actions on behalf of the users without their consent impacting the confidentiality and integrity of the system.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23851](https://github.com/Live-Hack-CVE/CVE-2023-23851) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23851.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23851.svg)
+
 ## CVE-2023-23849
  Versions of Coverity Connect prior to 2022.12.0 are vulnerable to an unauthenticated Cross-Site Scripting vulnerability. Any web service hosted on the same sub domain can set a cookie for the whole subdomain which can be used to bypass other mitigations in place for malicious purposes. CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/RL:O/RC:C
 
@@ -1008,6 +1311,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-23846](https://github.com/Live-Hack-CVE/CVE-2023-23846) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23846.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23846.svg)
+
+## CVE-2023-23835
+ A vulnerability has been identified in Mendix Applications using Mendix 7 (All versions &lt; V7.23.34), Mendix Applications using Mendix 8 (All versions &lt; V8.18.23), Mendix Applications using Mendix 9 (All versions &lt; V9.22.0), Mendix Applications using Mendix 9 (V9.12) (All versions &lt; V9.12.10), Mendix Applications using Mendix 9 (V9.18) (All versions &lt; V9.18.4), Mendix Applications using Mendix 9 (V9.6) (All versions &lt; V9.6.15). Some of the Mendix runtime API&#8217;s allow attackers to bypass XPath constraints and retrieve information using XPath queries that trigger errors.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23835](https://github.com/Live-Hack-CVE/CVE-2023-23835) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23835.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23835.svg)
 
 ## CVE-2023-23751
  An issue was discovered in Joomla! 4.0.0 through 4.2.4. A missing ACL check allows non super-admin users to access com_actionlogs.
@@ -1106,6 +1416,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-23620](https://github.com/Live-Hack-CVE/CVE-2023-23620) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23620.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23620.svg)
+
+## CVE-2023-23618
+ Git for Windows is the Windows port of the revision control system Git. Prior to Git for Windows version 2.39.2, when `gitk` is run on Windows, it potentially runs executables from the current directory inadvertently, which can be exploited with some social engineering to trick users into running untrusted code. A patch is available in version 2.39.2. As a workaround, avoid using `gitk` (or Git GUI's &quot;Visualize History&quot; functionality) in clones of untrusted repositories.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23618](https://github.com/Live-Hack-CVE/CVE-2023-23618) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23618.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23618.svg)
 
 ## CVE-2023-23617
  OpenMage LTS is an e-commerce platform. Versions prior to 19.4.22 and 20.0.19 contain an infinite loop in malicious code filter in certain conditions. Versions 19.4.22 and 20.0.19 have a fix for this issue. There are no known workarounds.
@@ -1277,6 +1594,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-23454](https://github.com/Live-Hack-CVE/CVE-2023-23454) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23454.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23454.svg)
 
+## CVE-2023-23381
+ Visual Studio Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23381](https://github.com/Live-Hack-CVE/CVE-2023-23381) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23381.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23381.svg)
+
 ## CVE-2023-23333
  There is a command injection vulnerability in SolarView Compact through 6.00, attackers can execute commands by bypassing internal restrictions through downloader.php.
 
@@ -1396,6 +1720,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-23082](https://github.com/Live-Hack-CVE/CVE-2023-23082) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23082.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23082.svg)
 
+## CVE-2023-23074
+ Cross site scripting (XSS) vulnerability in Zoho ManageEngine ServiceDesk Plus 14 via embedding videos in the language component.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-23074](https://github.com/Live-Hack-CVE/CVE-2023-23074) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-23074.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-23074.svg)
+
 ## CVE-2023-23073
  Cross site scripting (XSS) vulnerability in Zoho ManageEngine ServiceDesk Plus 14 via PO in the purchase component.
 
@@ -1490,6 +1821,90 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-22945](https://github.com/Live-Hack-CVE/CVE-2023-22945) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22945.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22945.svg)
+
+## CVE-2023-22942
+ In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, a cross-site request forgery in the Splunk Secure Gateway (SSG) app in the &#8216;kvstore_client&#8217; REST endpoint lets a potential attacker update SSG [App Key Value Store (KV store)](https://docs.splunk.com/Documentation/Splunk/latest/Admin/AboutKVstore) collections using an HTTP GET request. SSG is a Splunk-built app that comes with Splunk Enterprise. The vulnerability affects instances with SSG and Splunk Web enabled.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22942](https://github.com/Live-Hack-CVE/CVE-2023-22942) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22942.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22942.svg)
+
+## CVE-2023-22941
+ In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, an improperly-formatted &#8216;INGEST_EVAL&#8217; parameter in a [Field Transformation](https://docs.splunk.com/Documentation/Splunk/latest/Knowledge/Managefieldtransforms) crashes the Splunk daemon (splunkd).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22941](https://github.com/Live-Hack-CVE/CVE-2023-22941) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22941.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22941.svg)
+
+## CVE-2023-22940
+ In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, aliases of the &#8216;collect&#8217; search processing language (SPL) command, including &#8216;summaryindex&#8217;, &#8216;sumindex&#8217;, &#8216;stash&#8217;,&#8217; mcollect&#8217;, and &#8216;meventcollect&#8217;, were not designated as safeguarded commands. The commands could potentially allow for the exposing of data to a summary index that unprivileged users could access. The vulnerability requires a higher privileged user to initiate a request within their browser, and only affects instances with Splunk Web enabled.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22940](https://github.com/Live-Hack-CVE/CVE-2023-22940) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22940.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22940.svg)
+
+## CVE-2023-22939
+ In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, the &#8216;map&#8217; search processing language (SPL) command lets a search [bypass SPL safeguards for risky commands](https://docs.splunk.com/Documentation/Splunk/latest/Security/SPLsafeguards). The vulnerability requires a higher privileged user to initiate a request within their browser and only affects instances with Splunk Web enabled.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22939](https://github.com/Live-Hack-CVE/CVE-2023-22939) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22939.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22939.svg)
+
+## CVE-2023-22938
+ In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, the &#8216;sendemail&#8217; REST API endpoint lets any authenticated user send an email as the Splunk instance. The endpoint is now restricted to the &#8216;splunk-system-user&#8217; account on the local instance.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22938](https://github.com/Live-Hack-CVE/CVE-2023-22938) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22938.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22938.svg)
+
+## CVE-2023-22937
+ In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, the lookup table upload feature let a user upload lookup tables with unnecessary filename extensions. Lookup table file extensions may now be one of the following only: .csv, .csv.gz, .kmz, .kml, .mmdb, or .mmdb.gzl. For more information on lookup table files, see [About lookups](https://docs.splunk.com/Documentation/Splunk/latest/Knowledge/Aboutlookupsandfieldactions).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22937](https://github.com/Live-Hack-CVE/CVE-2023-22937) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22937.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22937.svg)
+
+## CVE-2023-22936
+ In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, the &#8216;search_listener&#8217; parameter in a search allows for a blind server-side request forgery (SSRF) by an authenticated user. The initiator of the request cannot see the response without the presence of an additional vulnerability within the environment.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22936](https://github.com/Live-Hack-CVE/CVE-2023-22936) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22936.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22936.svg)
+
+## CVE-2023-22935
+ In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, the &#8216;display.page.search.patterns.sensitivity&#8217; search parameter lets a search bypass [SPL safeguards for risky commands](https://docs.splunk.com/Documentation/Splunk/latest/Security/SPLsafeguards). The vulnerability requires a higher privileged user to initiate a request within their browser and only affects instances with Splunk Web enabled.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22935](https://github.com/Live-Hack-CVE/CVE-2023-22935) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22935.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22935.svg)
+
+## CVE-2023-22934
+ In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, the &#8216;pivot&#8217; search processing language (SPL) command lets a search bypass [SPL safeguards for risky commands](https://docs.splunk.com/Documentation/Splunk/latest/Security/SPLsafeguards) using a saved search job. The vulnerability requires an authenticated user to craft the saved job and a higher privileged user to initiate a request within their browser. The vulnerability affects instances with Splunk Web enabled.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22934](https://github.com/Live-Hack-CVE/CVE-2023-22934) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22934.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22934.svg)
+
+## CVE-2023-22933
+ In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, a View allows for Cross-Site Scripting (XSS) in an extensible mark-up language (XML) View through the &#8216;layoutPanel&#8217; attribute in the &#8216;module&#8217; tag&#8217;. The vulnerability affects instances with Splunk Web enabled.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22933](https://github.com/Live-Hack-CVE/CVE-2023-22933) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22933.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22933.svg)
+
+## CVE-2023-22932
+ In Splunk Enterprise 9.0 versions before 9.0.4, a View allows for Cross-Site Scripting (XSS) through the error message in a Base64-encoded image. The vulnerability affects instances with Splunk Web enabled. It does not affect Splunk Enterprise versions below 9.0.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22932](https://github.com/Live-Hack-CVE/CVE-2023-22932) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22932.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22932.svg)
+
+## CVE-2023-22931
+ In Splunk Enterprise versions below 8.1.13 and 8.2.10, the &#8216;createrss&#8217; external search command overwrites existing Resource Description Format Site Summary (RSS) feeds without verifying permissions. This feature has been deprecated and disabled by default.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22931](https://github.com/Live-Hack-CVE/CVE-2023-22931) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22931.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22931.svg)
 
 ## CVE-2023-22912
  An issue was discovered in MediaWiki before 1.35.9, 1.36.x through 1.38.x before 1.38.5, and 1.39.x before 1.39.1. CheckUser TokenManager insecurely uses AES-CTR encryption with a repeated (aka re-used) nonce, allowing an adversary to decrypt.
@@ -1674,6 +2089,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-22745](https://github.com/Live-Hack-CVE/CVE-2023-22745) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22745.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22745.svg)
+
+## CVE-2023-22743
+ Git for Windows is the Windows port of the revision control system Git. Prior to Git for Windows version 2.39.2, by carefully crafting DLL and putting into a subdirectory of a specific name living next to the Git for Windows installer, Windows can be tricked into side-loading said DLL. This potentially allows users with local write access to place malicious payloads in a location where automated upgrades might run the Git for Windows installer with elevation. Version 2.39.2 contains a patch for this issue. Some workarounds are available. Never leave untrusted files in the Downloads folder or its sub-folders before executing the Git for Windows installer, or move the installer into a different directory before executing it.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22743](https://github.com/Live-Hack-CVE/CVE-2023-22743) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22743.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22743.svg)
 
 ## CVE-2023-22742
  libgit2 is a cross-platform, linkable library implementation of Git. When using an SSH remote with the optional libssh2 backend, libgit2 does not perform certificate checking by default. Prior versions of libgit2 require the caller to set the `certificate_check` field of libgit2's `git_remote_callbacks` structure - if a certificate check callback is not set, libgit2 does not perform any certificate checking. This means that by default - without configuring a certificate check callback, clients will not perform validation on the server SSH keys and may be subject to a man-in-the-middle attack. Users are encouraged to upgrade to v1.4.5 or v1.5.1. Users unable to upgrade should ensure that all relevant certificates are manually checked.
@@ -2263,6 +2685,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-22389](https://github.com/Live-Hack-CVE/CVE-2023-22389) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22389.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22389.svg)
 
+## CVE-2023-22375
+ ** UNSUPPORTED WHEN ASSIGNED ** Cross-site request forgery (CSRF) vulnerability in Wired/Wireless LAN Pan/Tilt Network Camera CS-WMV02G all versions allows a remote unauthenticated attacker to hijack the authentication and conduct arbitrary operations by having a logged-in user to view a malicious page. NOTE: This vulnerability only affects products that are no longer supported by the developer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22375](https://github.com/Live-Hack-CVE/CVE-2023-22375) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22375.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22375.svg)
+
 ## CVE-2023-22374
  In BIG-IP starting in versions 17.0.0, 16.1.2.2, 15.1.5.1, 14.1.4.6, and 13.1.5 on their respective branches, a format string vulnerability exists in iControl SOAP that allows an authenticated attacker to crash the iControl SOAP CGI process or, potentially execute arbitrary code. In appliance mode BIG-IP, a successful exploit of this vulnerability can allow the attacker to cross a security boundary. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
 
@@ -2276,6 +2705,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-22373](https://github.com/Live-Hack-CVE/CVE-2023-22373) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22373.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22373.svg)
+
+## CVE-2023-22370
+ ** UNSUPPORTED WHEN ASSIGNED ** Stored cross-site scripting vulnerability in Wired/Wireless LAN Pan/Tilt Network Camera CS-WMV02G all versions allows a network-adjacent authenticated attacker to inject an arbitrary script. NOTE: This vulnerability only affects products that are no longer supported by the developer.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-22370](https://github.com/Live-Hack-CVE/CVE-2023-22370) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-22370.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-22370.svg)
 
 ## CVE-2023-22369
  ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2023-25011. Reason: This candidate is a duplicate of CVE-2023-25011. Notes: All CVE users should reference CVE-2023-25011 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
@@ -2911,6 +3347,27 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21825](https://github.com/Live-Hack-CVE/CVE-2023-21825) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21825.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21825.svg)
 
+## CVE-2023-21823
+ Windows Graphics Component Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21823](https://github.com/Live-Hack-CVE/CVE-2023-21823) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21823.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21823.svg)
+
+## CVE-2023-21815
+ Visual Studio Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21815](https://github.com/Live-Hack-CVE/CVE-2023-21815) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21815.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21815.svg)
+
+## CVE-2023-21808
+ .NET and Visual Studio Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21808](https://github.com/Live-Hack-CVE/CVE-2023-21808) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21808.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21808.svg)
+
 ## CVE-2023-21796
  Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21795.
 
@@ -2938,11 +3395,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21782](https://github.com/Live-Hack-CVE/CVE-2023-21782) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21782.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21782.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21781](https://github.com/Live-Hack-CVE/CVE-2023-21781) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21781.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21781.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21786](https://github.com/Live-Hack-CVE/CVE-2023-21786) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21786.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21786.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21790](https://github.com/Live-Hack-CVE/CVE-2023-21790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21790.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21780](https://github.com/Live-Hack-CVE/CVE-2023-21780) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21780.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21780.svg)
 
@@ -2950,17 +3409,15 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21788](https://github.com/Live-Hack-CVE/CVE-2023-21788) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21788.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21788.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21790](https://github.com/Live-Hack-CVE/CVE-2023-21790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21790.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21791](https://github.com/Live-Hack-CVE/CVE-2023-21791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21791.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21792](https://github.com/Live-Hack-CVE/CVE-2023-21792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21792.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21791](https://github.com/Live-Hack-CVE/CVE-2023-21791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21791.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21789](https://github.com/Live-Hack-CVE/CVE-2023-21789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21789.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
 
 ## CVE-2023-21792
  3D Builder Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2023-21780, CVE-2023-21781, CVE-2023-21782, CVE-2023-21783, CVE-2023-21784, CVE-2023-21785, CVE-2023-21786, CVE-2023-21787, CVE-2023-21788, CVE-2023-21789, CVE-2023-21790, CVE-2023-21791, CVE-2023-21793.
@@ -2969,15 +3426,15 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21792](https://github.com/Live-Hack-CVE/CVE-2023-21792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21792.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21782](https://github.com/Live-Hack-CVE/CVE-2023-21782) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21782.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21782.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21790](https://github.com/Live-Hack-CVE/CVE-2023-21790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21790.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21782](https://github.com/Live-Hack-CVE/CVE-2023-21782) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21782.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21782.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21793](https://github.com/Live-Hack-CVE/CVE-2023-21793) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21793.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21793.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21786](https://github.com/Live-Hack-CVE/CVE-2023-21786) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21786.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21786.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21780](https://github.com/Live-Hack-CVE/CVE-2023-21780) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21780.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21780.svg)
 
@@ -3002,17 +3459,17 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21791](https://github.com/Live-Hack-CVE/CVE-2023-21791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21791.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21782](https://github.com/Live-Hack-CVE/CVE-2023-21782) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21782.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21782.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21790](https://github.com/Live-Hack-CVE/CVE-2023-21790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21790.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21782](https://github.com/Live-Hack-CVE/CVE-2023-21782) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21782.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21782.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21792](https://github.com/Live-Hack-CVE/CVE-2023-21792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21792.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21793](https://github.com/Live-Hack-CVE/CVE-2023-21793) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21793.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21793.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21786](https://github.com/Live-Hack-CVE/CVE-2023-21786) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21786.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21786.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21780](https://github.com/Live-Hack-CVE/CVE-2023-21780) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21780.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21780.svg)
 
@@ -3022,11 +3479,11 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21781](https://github.com/Live-Hack-CVE/CVE-2023-21781) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21781.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21781.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
+
 - [https://github.com/Live-Hack-CVE/CVE-2023-21789](https://github.com/Live-Hack-CVE/CVE-2023-21789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21789.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
 
 ## CVE-2023-21790
  3D Builder Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2023-21780, CVE-2023-21781, CVE-2023-21782, CVE-2023-21783, CVE-2023-21784, CVE-2023-21785, CVE-2023-21786, CVE-2023-21787, CVE-2023-21788, CVE-2023-21789, CVE-2023-21791, CVE-2023-21792, CVE-2023-21793.
@@ -3074,11 +3531,11 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21793](https://github.com/Live-Hack-CVE/CVE-2023-21793) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21793.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21793.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21781](https://github.com/Live-Hack-CVE/CVE-2023-21781) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21781.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21781.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21786](https://github.com/Live-Hack-CVE/CVE-2023-21786) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21786.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21786.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21780](https://github.com/Live-Hack-CVE/CVE-2023-21780) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21780.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21780.svg)
 
@@ -3086,13 +3543,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21788](https://github.com/Live-Hack-CVE/CVE-2023-21788) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21788.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21788.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21792](https://github.com/Live-Hack-CVE/CVE-2023-21792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21792.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21791](https://github.com/Live-Hack-CVE/CVE-2023-21791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21791.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21792](https://github.com/Live-Hack-CVE/CVE-2023-21792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21792.svg)
 
 ## CVE-2023-21788
  3D Builder Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2023-21780, CVE-2023-21781, CVE-2023-21782, CVE-2023-21783, CVE-2023-21784, CVE-2023-21785, CVE-2023-21786, CVE-2023-21787, CVE-2023-21789, CVE-2023-21790, CVE-2023-21791, CVE-2023-21792, CVE-2023-21793.
@@ -3115,17 +3572,17 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21781](https://github.com/Live-Hack-CVE/CVE-2023-21781) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21781.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21781.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21790](https://github.com/Live-Hack-CVE/CVE-2023-21790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21790.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21789](https://github.com/Live-Hack-CVE/CVE-2023-21789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21789.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21790](https://github.com/Live-Hack-CVE/CVE-2023-21790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21790.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2023-21791](https://github.com/Live-Hack-CVE/CVE-2023-21791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21791.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21792](https://github.com/Live-Hack-CVE/CVE-2023-21792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21792.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21791](https://github.com/Live-Hack-CVE/CVE-2023-21791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21791.svg)
 
 ## CVE-2023-21787
  3D Builder Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2023-21780, CVE-2023-21781, CVE-2023-21782, CVE-2023-21783, CVE-2023-21784, CVE-2023-21785, CVE-2023-21786, CVE-2023-21788, CVE-2023-21789, CVE-2023-21790, CVE-2023-21791, CVE-2023-21792, CVE-2023-21793.
@@ -3134,9 +3591,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21782](https://github.com/Live-Hack-CVE/CVE-2023-21782) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21782.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21782.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21790](https://github.com/Live-Hack-CVE/CVE-2023-21790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21790.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21782](https://github.com/Live-Hack-CVE/CVE-2023-21782) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21782.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21782.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21793](https://github.com/Live-Hack-CVE/CVE-2023-21793) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21793.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21793.svg)
 
@@ -3148,15 +3605,15 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21786](https://github.com/Live-Hack-CVE/CVE-2023-21786) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21786.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21786.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21792](https://github.com/Live-Hack-CVE/CVE-2023-21792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21792.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21791](https://github.com/Live-Hack-CVE/CVE-2023-21791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21791.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21789](https://github.com/Live-Hack-CVE/CVE-2023-21789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21789.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21791](https://github.com/Live-Hack-CVE/CVE-2023-21791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21791.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2023-21792](https://github.com/Live-Hack-CVE/CVE-2023-21792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21792.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21781](https://github.com/Live-Hack-CVE/CVE-2023-21781) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21781.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21781.svg)
 
@@ -3183,15 +3640,15 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
+
 - [https://github.com/Live-Hack-CVE/CVE-2023-21789](https://github.com/Live-Hack-CVE/CVE-2023-21789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21789.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21788](https://github.com/Live-Hack-CVE/CVE-2023-21788) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21788.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21788.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21791](https://github.com/Live-Hack-CVE/CVE-2023-21791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21791.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21792](https://github.com/Live-Hack-CVE/CVE-2023-21792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21792.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2023-21788](https://github.com/Live-Hack-CVE/CVE-2023-21788) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21788.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21788.svg)
 
 ## CVE-2023-21785
  3D Builder Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2023-21780, CVE-2023-21781, CVE-2023-21782, CVE-2023-21783, CVE-2023-21784, CVE-2023-21786, CVE-2023-21787, CVE-2023-21788, CVE-2023-21789, CVE-2023-21790, CVE-2023-21791, CVE-2023-21792, CVE-2023-21793.
@@ -3204,19 +3661,19 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21793](https://github.com/Live-Hack-CVE/CVE-2023-21793) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21793.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21793.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2023-21790](https://github.com/Live-Hack-CVE/CVE-2023-21790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21790.svg)
+
 - [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21780](https://github.com/Live-Hack-CVE/CVE-2023-21780) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21780.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21780.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21784](https://github.com/Live-Hack-CVE/CVE-2023-21784) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21784.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21784.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21790](https://github.com/Live-Hack-CVE/CVE-2023-21790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21790.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21788](https://github.com/Live-Hack-CVE/CVE-2023-21788) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21788.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21788.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21789](https://github.com/Live-Hack-CVE/CVE-2023-21789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21789.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21781](https://github.com/Live-Hack-CVE/CVE-2023-21781) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21781.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21781.svg)
 
@@ -3233,17 +3690,17 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21784](https://github.com/Live-Hack-CVE/CVE-2023-21784) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21784.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21784.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2023-21790](https://github.com/Live-Hack-CVE/CVE-2023-21790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21790.svg)
+
 - [https://github.com/Live-Hack-CVE/CVE-2023-21780](https://github.com/Live-Hack-CVE/CVE-2023-21780) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21780.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21780.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21782](https://github.com/Live-Hack-CVE/CVE-2023-21782) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21782.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21782.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21790](https://github.com/Live-Hack-CVE/CVE-2023-21790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21790.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21793](https://github.com/Live-Hack-CVE/CVE-2023-21793) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21793.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21793.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21786](https://github.com/Live-Hack-CVE/CVE-2023-21786) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21786.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21786.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21788](https://github.com/Live-Hack-CVE/CVE-2023-21788) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21788.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21788.svg)
 
@@ -3255,9 +3712,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21789](https://github.com/Live-Hack-CVE/CVE-2023-21789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21789.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
 
 ## CVE-2023-21783
  3D Builder Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2023-21780, CVE-2023-21781, CVE-2023-21782, CVE-2023-21784, CVE-2023-21785, CVE-2023-21786, CVE-2023-21787, CVE-2023-21788, CVE-2023-21789, CVE-2023-21790, CVE-2023-21791, CVE-2023-21792, CVE-2023-21793.
@@ -3266,17 +3723,17 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21782](https://github.com/Live-Hack-CVE/CVE-2023-21782) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21782.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21782.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21790](https://github.com/Live-Hack-CVE/CVE-2023-21790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21790.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21793](https://github.com/Live-Hack-CVE/CVE-2023-21793) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21793.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21793.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21782](https://github.com/Live-Hack-CVE/CVE-2023-21782) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21782.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21782.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21793](https://github.com/Live-Hack-CVE/CVE-2023-21793) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21793.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21793.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21781](https://github.com/Live-Hack-CVE/CVE-2023-21781) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21781.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21781.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21786](https://github.com/Live-Hack-CVE/CVE-2023-21786) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21786.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21786.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21780](https://github.com/Live-Hack-CVE/CVE-2023-21780) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21780.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21780.svg)
 
@@ -3303,9 +3760,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21793](https://github.com/Live-Hack-CVE/CVE-2023-21793) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21793.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21793.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21786](https://github.com/Live-Hack-CVE/CVE-2023-21786) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21786.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21786.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21780](https://github.com/Live-Hack-CVE/CVE-2023-21780) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21780.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21780.svg)
 
@@ -3315,15 +3772,15 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21781](https://github.com/Live-Hack-CVE/CVE-2023-21781) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21781.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21781.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21789](https://github.com/Live-Hack-CVE/CVE-2023-21789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21789.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2023-21792](https://github.com/Live-Hack-CVE/CVE-2023-21792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21792.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21789](https://github.com/Live-Hack-CVE/CVE-2023-21789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21789.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21791](https://github.com/Live-Hack-CVE/CVE-2023-21791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21791.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21792](https://github.com/Live-Hack-CVE/CVE-2023-21792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21792.svg)
 
 ## CVE-2023-21781
  3D Builder Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2023-21780, CVE-2023-21782, CVE-2023-21783, CVE-2023-21784, CVE-2023-21785, CVE-2023-21786, CVE-2023-21787, CVE-2023-21788, CVE-2023-21789, CVE-2023-21790, CVE-2023-21791, CVE-2023-21792, CVE-2023-21793.
@@ -3348,15 +3805,15 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
+
 - [https://github.com/Live-Hack-CVE/CVE-2023-21789](https://github.com/Live-Hack-CVE/CVE-2023-21789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21789.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21788](https://github.com/Live-Hack-CVE/CVE-2023-21788) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21788.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21788.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21791](https://github.com/Live-Hack-CVE/CVE-2023-21791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21791.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21792](https://github.com/Live-Hack-CVE/CVE-2023-21792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21792.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2023-21788](https://github.com/Live-Hack-CVE/CVE-2023-21788) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21788.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21788.svg)
 
 ## CVE-2023-21780
  3D Builder Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2023-21781, CVE-2023-21782, CVE-2023-21783, CVE-2023-21784, CVE-2023-21785, CVE-2023-21786, CVE-2023-21787, CVE-2023-21788, CVE-2023-21789, CVE-2023-21790, CVE-2023-21791, CVE-2023-21792, CVE-2023-21793.
@@ -3369,27 +3826,34 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21790](https://github.com/Live-Hack-CVE/CVE-2023-21790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21790.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21786](https://github.com/Live-Hack-CVE/CVE-2023-21786) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21786.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21786.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21787](https://github.com/Live-Hack-CVE/CVE-2023-21787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21787.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21788](https://github.com/Live-Hack-CVE/CVE-2023-21788) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21788.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21788.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21782](https://github.com/Live-Hack-CVE/CVE-2023-21782) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21782.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21782.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21793](https://github.com/Live-Hack-CVE/CVE-2023-21793) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21793.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21793.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21782](https://github.com/Live-Hack-CVE/CVE-2023-21782) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21782.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21782.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21789](https://github.com/Live-Hack-CVE/CVE-2023-21789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21789.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21791](https://github.com/Live-Hack-CVE/CVE-2023-21791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21791.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21783](https://github.com/Live-Hack-CVE/CVE-2023-21783) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21783.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21783.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21785](https://github.com/Live-Hack-CVE/CVE-2023-21785) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21785.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21785.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21792](https://github.com/Live-Hack-CVE/CVE-2023-21792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21792.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2023-21791](https://github.com/Live-Hack-CVE/CVE-2023-21791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21791.svg)
+
 - [https://github.com/Live-Hack-CVE/CVE-2023-21781](https://github.com/Live-Hack-CVE/CVE-2023-21781) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21781.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21781.svg)
+
+## CVE-2023-21778
+ Microsoft Dynamics Unified Service Desk Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21778](https://github.com/Live-Hack-CVE/CVE-2023-21778) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21778.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21778.svg)
 
 ## CVE-2023-21776
  Windows Kernel Information Disclosure Vulnerability.
@@ -3412,13 +3876,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21774](https://github.com/Live-Hack-CVE/CVE-2023-21774) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21774.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21774.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21754](https://github.com/Live-Hack-CVE/CVE-2023-21754) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21754.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21754.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21772](https://github.com/Live-Hack-CVE/CVE-2023-21772) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21772.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21772.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21754](https://github.com/Live-Hack-CVE/CVE-2023-21754) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21754.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21754.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21748](https://github.com/Live-Hack-CVE/CVE-2023-21748) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21748.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21748.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
 
@@ -3439,19 +3903,19 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21774](https://github.com/Live-Hack-CVE/CVE-2023-21774) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21774.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21774.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21754](https://github.com/Live-Hack-CVE/CVE-2023-21754) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21754.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21754.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21774](https://github.com/Live-Hack-CVE/CVE-2023-21774) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21774.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21774.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21772](https://github.com/Live-Hack-CVE/CVE-2023-21772) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21772.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21772.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21748](https://github.com/Live-Hack-CVE/CVE-2023-21748) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21748.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21748.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21747](https://github.com/Live-Hack-CVE/CVE-2023-21747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21747.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21675](https://github.com/Live-Hack-CVE/CVE-2023-21675) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21675.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21675.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21749](https://github.com/Live-Hack-CVE/CVE-2023-21749) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21749.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21749.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21747](https://github.com/Live-Hack-CVE/CVE-2023-21747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21747.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21750](https://github.com/Live-Hack-CVE/CVE-2023-21750) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21750.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21750.svg)
 
@@ -3468,9 +3932,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21754](https://github.com/Live-Hack-CVE/CVE-2023-21754) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21754.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21754.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21750](https://github.com/Live-Hack-CVE/CVE-2023-21750) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21750.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21750.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21675](https://github.com/Live-Hack-CVE/CVE-2023-21675) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21675.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21675.svg)
 
@@ -3596,21 +4060,21 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21774](https://github.com/Live-Hack-CVE/CVE-2023-21774) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21774.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21774.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21754](https://github.com/Live-Hack-CVE/CVE-2023-21754) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21754.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21754.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21772](https://github.com/Live-Hack-CVE/CVE-2023-21772) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21772.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21772.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21748](https://github.com/Live-Hack-CVE/CVE-2023-21748) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21748.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21748.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2023-21747](https://github.com/Live-Hack-CVE/CVE-2023-21747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21747.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21675](https://github.com/Live-Hack-CVE/CVE-2023-21675) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21675.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21675.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21749](https://github.com/Live-Hack-CVE/CVE-2023-21749) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21749.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21749.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21748](https://github.com/Live-Hack-CVE/CVE-2023-21748) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21748.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21748.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21747](https://github.com/Live-Hack-CVE/CVE-2023-21747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21747.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21750](https://github.com/Live-Hack-CVE/CVE-2023-21750) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21750.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21750.svg)
 
@@ -3623,13 +4087,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21774](https://github.com/Live-Hack-CVE/CVE-2023-21774) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21774.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21774.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21772](https://github.com/Live-Hack-CVE/CVE-2023-21772) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21772.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21772.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21774](https://github.com/Live-Hack-CVE/CVE-2023-21774) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21774.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21774.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21748](https://github.com/Live-Hack-CVE/CVE-2023-21748) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21748.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21748.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21747](https://github.com/Live-Hack-CVE/CVE-2023-21747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21747.svg)
 
@@ -3666,15 +4130,15 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21772](https://github.com/Live-Hack-CVE/CVE-2023-21772) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21772.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21772.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21774](https://github.com/Live-Hack-CVE/CVE-2023-21774) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21774.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21774.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21754](https://github.com/Live-Hack-CVE/CVE-2023-21754) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21754.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21754.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21772](https://github.com/Live-Hack-CVE/CVE-2023-21772) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21772.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21772.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21748](https://github.com/Live-Hack-CVE/CVE-2023-21748) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21748.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21748.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21747](https://github.com/Live-Hack-CVE/CVE-2023-21747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21747.svg)
 
@@ -3699,9 +4163,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21754](https://github.com/Live-Hack-CVE/CVE-2023-21754) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21754.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21754.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21748](https://github.com/Live-Hack-CVE/CVE-2023-21748) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21748.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21748.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21747](https://github.com/Live-Hack-CVE/CVE-2023-21747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21747.svg)
 
@@ -3716,19 +4180,19 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21774](https://github.com/Live-Hack-CVE/CVE-2023-21774) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21774.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21774.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21754](https://github.com/Live-Hack-CVE/CVE-2023-21754) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21754.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21754.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21772](https://github.com/Live-Hack-CVE/CVE-2023-21772) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21772.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21772.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21747](https://github.com/Live-Hack-CVE/CVE-2023-21747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21747.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21675](https://github.com/Live-Hack-CVE/CVE-2023-21675) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21675.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21675.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21749](https://github.com/Live-Hack-CVE/CVE-2023-21749) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21749.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21749.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21747](https://github.com/Live-Hack-CVE/CVE-2023-21747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21747.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21750](https://github.com/Live-Hack-CVE/CVE-2023-21750) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21750.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21750.svg)
 
@@ -3741,9 +4205,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21772](https://github.com/Live-Hack-CVE/CVE-2023-21772) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21772.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21772.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21754](https://github.com/Live-Hack-CVE/CVE-2023-21754) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21754.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21754.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21772](https://github.com/Live-Hack-CVE/CVE-2023-21772) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21772.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21772.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
 
@@ -3753,9 +4217,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21774](https://github.com/Live-Hack-CVE/CVE-2023-21774) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21774.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21774.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21748](https://github.com/Live-Hack-CVE/CVE-2023-21748) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21748.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21748.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21750](https://github.com/Live-Hack-CVE/CVE-2023-21750) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21750.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21750.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21748](https://github.com/Live-Hack-CVE/CVE-2023-21748) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21748.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21748.svg)
 
 ## CVE-2023-21746
  Windows NTLM Elevation of Privilege Vulnerability.
@@ -3904,6 +4368,104 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21719](https://github.com/Live-Hack-CVE/CVE-2023-21719) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21719.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21719.svg)
 
+## CVE-2023-21699
+ Windows Internet Storage Name Service (iSNS) Server Information Disclosure Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21699](https://github.com/Live-Hack-CVE/CVE-2023-21699) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21699.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21699.svg)
+
+## CVE-2023-21697
+ Windows Internet Storage Name Service (iSNS) Server Information Disclosure Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21697](https://github.com/Live-Hack-CVE/CVE-2023-21697) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21697.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21697.svg)
+
+## CVE-2023-21695
+ Microsoft Protected Extensible Authentication Protocol (PEAP) Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21695](https://github.com/Live-Hack-CVE/CVE-2023-21695) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21695.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21695.svg)
+
+## CVE-2023-21694
+ Windows Fax Service Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21694](https://github.com/Live-Hack-CVE/CVE-2023-21694) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21694.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21694.svg)
+
+## CVE-2023-21693
+ Microsoft PostScript Printer Driver Information Disclosure Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21693](https://github.com/Live-Hack-CVE/CVE-2023-21693) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21693.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21693.svg)
+
+## CVE-2023-21692
+ Microsoft Protected Extensible Authentication Protocol (PEAP) Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21692](https://github.com/Live-Hack-CVE/CVE-2023-21692) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21692.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21692.svg)
+
+## CVE-2023-21691
+ Microsoft Protected Extensible Authentication Protocol (PEAP) Information Disclosure Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21691](https://github.com/Live-Hack-CVE/CVE-2023-21691) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21691.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21691.svg)
+
+## CVE-2023-21690
+ Microsoft Protected Extensible Authentication Protocol (PEAP) Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21690](https://github.com/Live-Hack-CVE/CVE-2023-21690) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21690.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21690.svg)
+
+## CVE-2023-21689
+ Microsoft Protected Extensible Authentication Protocol (PEAP) Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21689](https://github.com/Live-Hack-CVE/CVE-2023-21689) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21689.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21689.svg)
+
+## CVE-2023-21688
+ NT OS Kernel Elevation of Privilege Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21688](https://github.com/Live-Hack-CVE/CVE-2023-21688) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21688.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21688.svg)
+
+## CVE-2023-21687
+ HTTP.sys Information Disclosure Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21687](https://github.com/Live-Hack-CVE/CVE-2023-21687) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21687.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21687.svg)
+
+## CVE-2023-21686
+ Microsoft WDAC OLE DB provider for SQL Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21686](https://github.com/Live-Hack-CVE/CVE-2023-21686) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21686.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21686.svg)
+
+## CVE-2023-21685
+ Microsoft WDAC OLE DB provider for SQL Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21685](https://github.com/Live-Hack-CVE/CVE-2023-21685) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21685.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21685.svg)
+
+## CVE-2023-21684
+ Microsoft PostScript Printer Driver Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21684](https://github.com/Live-Hack-CVE/CVE-2023-21684) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21684.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21684.svg)
+
 ## CVE-2023-21683
  Windows Internet Key Exchange (IKE) Extension Denial of Service Vulnerability. This CVE ID is unique from CVE-2023-21677, CVE-2023-21758.
 
@@ -3987,19 +4549,19 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21755](https://github.com/Live-Hack-CVE/CVE-2023-21755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21755.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21772](https://github.com/Live-Hack-CVE/CVE-2023-21772) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21772.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21772.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21773](https://github.com/Live-Hack-CVE/CVE-2023-21773) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21773.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21773.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21772](https://github.com/Live-Hack-CVE/CVE-2023-21772) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21772.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21772.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21748](https://github.com/Live-Hack-CVE/CVE-2023-21748) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21748.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21748.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21747](https://github.com/Live-Hack-CVE/CVE-2023-21747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21747.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21749](https://github.com/Live-Hack-CVE/CVE-2023-21749) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21749.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21749.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21750](https://github.com/Live-Hack-CVE/CVE-2023-21750) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21750.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21750.svg)
+- [https://github.com/Live-Hack-CVE/CVE-2023-21747](https://github.com/Live-Hack-CVE/CVE-2023-21747) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21747.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21747.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21754](https://github.com/Live-Hack-CVE/CVE-2023-21754) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21754.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21754.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21750](https://github.com/Live-Hack-CVE/CVE-2023-21750) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21750.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21750.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21774](https://github.com/Live-Hack-CVE/CVE-2023-21774) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21774.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21774.svg)
 
@@ -4133,6 +4695,62 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21587](https://github.com/Live-Hack-CVE/CVE-2023-21587) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21587.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21587.svg)
 
+## CVE-2023-21573
+ Microsoft Dynamics 365 (on-premises) Cross-site Scripting Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21573](https://github.com/Live-Hack-CVE/CVE-2023-21573) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21573.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21573.svg)
+
+## CVE-2023-21572
+ Microsoft Dynamics 365 (on-premises) Cross-site Scripting Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21572](https://github.com/Live-Hack-CVE/CVE-2023-21572) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21572.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21572.svg)
+
+## CVE-2023-21571
+ Microsoft Dynamics 365 (on-premises) Cross-site Scripting Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21571](https://github.com/Live-Hack-CVE/CVE-2023-21571) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21571.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21571.svg)
+
+## CVE-2023-21570
+ Microsoft Dynamics 365 (on-premises) Cross-site Scripting Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21570](https://github.com/Live-Hack-CVE/CVE-2023-21570) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21570.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21570.svg)
+
+## CVE-2023-21568
+ Microsoft SQL Server Integration Service (VS extension) Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21568](https://github.com/Live-Hack-CVE/CVE-2023-21568) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21568.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21568.svg)
+
+## CVE-2023-21567
+ Visual Studio Denial of Service Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21567](https://github.com/Live-Hack-CVE/CVE-2023-21567) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21567.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21567.svg)
+
+## CVE-2023-21566
+ Visual Studio Elevation of Privilege Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21566](https://github.com/Live-Hack-CVE/CVE-2023-21566) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21566.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21566.svg)
+
+## CVE-2023-21564
+ Azure DevOps Server Cross-Site Scripting Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21564](https://github.com/Live-Hack-CVE/CVE-2023-21564) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21564.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21564.svg)
+
 ## CVE-2023-21563
  BitLocker Security Feature Bypass Vulnerability.
 
@@ -4183,9 +4801,9 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21543](https://github.com/Live-Hack-CVE/CVE-2023-21543) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21543.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21543.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2023-21679](https://github.com/Live-Hack-CVE/CVE-2023-21679) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21679.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21679.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-21555](https://github.com/Live-Hack-CVE/CVE-2023-21555) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21555.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21555.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21679](https://github.com/Live-Hack-CVE/CVE-2023-21679) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21679.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21679.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21546](https://github.com/Live-Hack-CVE/CVE-2023-21546) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21546.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21546.svg)
 
@@ -4201,6 +4819,13 @@
 - [https://github.com/Live-Hack-CVE/CVE-2023-21679](https://github.com/Live-Hack-CVE/CVE-2023-21679) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21679.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21679.svg)
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21546](https://github.com/Live-Hack-CVE/CVE-2023-21546) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21546.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21546.svg)
+
+## CVE-2023-21553
+ Azure DevOps Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21553](https://github.com/Live-Hack-CVE/CVE-2023-21553) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21553.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21553.svg)
 
 ## CVE-2023-21552
  Windows GDI Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2023-21532.
@@ -4357,6 +4982,20 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-21531](https://github.com/Live-Hack-CVE/CVE-2023-21531) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21531.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21531.svg)
+
+## CVE-2023-21529
+ Microsoft Exchange Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21529](https://github.com/Live-Hack-CVE/CVE-2023-21529) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21529.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21529.svg)
+
+## CVE-2023-21528
+ Microsoft SQL Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-21528](https://github.com/Live-Hack-CVE/CVE-2023-21528) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-21528.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-21528.svg)
 
 ## CVE-2023-21527
  Windows iSCSI Service Denial of Service Vulnerability.
@@ -4518,6 +5157,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-20007](https://github.com/Live-Hack-CVE/CVE-2023-20007) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-20007.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-20007.svg)
+
+## CVE-2023-0827
+ Cross-site Scripting (XSS) - Stored in GitHub repository pimcore/pimcore prior to 1.5.17.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0827](https://github.com/Live-Hack-CVE/CVE-2023-0827) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0827.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0827.svg)
 
 ## CVE-2023-0819
  Heap-based Buffer Overflow in GitHub repository gpac/gpac prior to v2.3.0-DEV.
@@ -4990,6 +5636,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-0690](https://github.com/Live-Hack-CVE/CVE-2023-0690) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0690.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0690.svg)
 
+## CVE-2023-0687
+ A vulnerability was found in GNU C Library 2.38. It has been declared as critical. This vulnerability affects the function __monstartup of the file gmon.c of the component Call Graph Monitor. The manipulation leads to buffer overflow. It is recommended to apply a patch to fix this issue. VDB-220246 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0687](https://github.com/Live-Hack-CVE/CVE-2023-0687) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0687.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0687.svg)
+
 ## CVE-2023-0685
  The Wicked Folders plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.18.16. This is due to missing or incorrect nonce validation on the ajax_unassign_folders function. This makes it possible for unauthenticated attackers to invoke this function via forged request granted they can trick a site administrator into performing an action such as clicking on a link leading them to perform actions intended for administrators such as changing the folder structure maintained by the plugin..
 
@@ -5082,6 +5735,13 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-0658](https://github.com/Live-Hack-CVE/CVE-2023-0658) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0658.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0658.svg)
+
+## CVE-2023-0655
+ SonicWall Email Security contains a vulnerability that could permit a remote unauthenticated attacker access to an error page that includes sensitive information about users email addresses.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0655](https://github.com/Live-Hack-CVE/CVE-2023-0655) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0655.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0655.svg)
 
 ## CVE-2023-0651
  A vulnerability was found in FastCMS 0.1.0. It has been classified as critical. Affected is an unknown function of the component Template Management. The manipulation leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-220038 is the identifier assigned to this vulnerability.
@@ -6095,6 +6755,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-0237](https://github.com/Live-Hack-CVE/CVE-2023-0237) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0237.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0237.svg)
 
+## CVE-2023-0236
+ The Tutor LMS WordPress plugin before 2.0.10 does not sanitise and escape the reset_key and user_id parameters before outputting then back in attributes, leading to Reflected Cross-Site Scripting which could be used against high privilege users such as admin
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0236](https://github.com/Live-Hack-CVE/CVE-2023-0236) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0236.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0236.svg)
+
 ## CVE-2023-0235
  ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate is unused by its CNA. Notes: none.
 
@@ -6143,6 +6810,41 @@
 
 
 - [https://github.com/TurtleARM/CVE-2023-0179-PoC](https://github.com/TurtleARM/CVE-2023-0179-PoC) :  ![starts](https://img.shields.io/github/stars/TurtleARM/CVE-2023-0179-PoC.svg) ![forks](https://img.shields.io/github/forks/TurtleARM/CVE-2023-0179-PoC.svg)
+
+## CVE-2023-0178
+ The Annual Archive WordPress plugin before 1.6.0 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0178](https://github.com/Live-Hack-CVE/CVE-2023-0178) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0178.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0178.svg)
+
+## CVE-2023-0176
+ The Giveaways and Contests by RafflePress WordPress plugin before 1.11.3 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0176](https://github.com/Live-Hack-CVE/CVE-2023-0176) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0176.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0176.svg)
+
+## CVE-2023-0174
+ The WP VR WordPress plugin before 8.2.7 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0174](https://github.com/Live-Hack-CVE/CVE-2023-0174) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0174.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0174.svg)
+
+## CVE-2023-0173
+ The Drag &amp; Drop Sales Funnel Builder for WordPress plugin before 2.6.9 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0173](https://github.com/Live-Hack-CVE/CVE-2023-0173) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0173.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0173.svg)
+
+## CVE-2023-0171
+ The jQuery T(-) Countdown Widget WordPress plugin before 2.3.24 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0171](https://github.com/Live-Hack-CVE/CVE-2023-0171) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0171.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0171.svg)
 
 ## CVE-2023-0170
  The Html5 Audio Player WordPress plugin before 2.1.12 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.
@@ -6373,9 +7075,9 @@
 
 
 
-- [https://github.com/emotest1/cve_2023_0110](https://github.com/emotest1/cve_2023_0110) :  ![starts](https://img.shields.io/github/stars/emotest1/cve_2023_0110.svg) ![forks](https://img.shields.io/github/forks/emotest1/cve_2023_0110.svg)
-
 - [https://github.com/Live-Hack-CVE/CVE-2023-0110](https://github.com/Live-Hack-CVE/CVE-2023-0110) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0110.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0110.svg)
+
+- [https://github.com/emotest1/cve_2023_0110](https://github.com/emotest1/cve_2023_0110) :  ![starts](https://img.shields.io/github/stars/emotest1/cve_2023_0110.svg) ![forks](https://img.shields.io/github/forks/emotest1/cve_2023_0110.svg)
 
 ## CVE-2023-0108
  Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.
@@ -6603,6 +7305,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-0028](https://github.com/Live-Hack-CVE/CVE-2023-0028) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0028.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0028.svg)
 
+## CVE-2023-0025
+ SAP Solution Manager (BSP Application) - version 720, allows an authenticated attacker to craft a malicious link, which when clicked by an unsuspecting user, can be used to read or modify some sensitive information or craft a payload which may restrict access to the desired resources.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0025](https://github.com/Live-Hack-CVE/CVE-2023-0025) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0025.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0025.svg)
+
+## CVE-2023-0024
+ SAP Solution Manager (BSP Application) - version 720, allows an authenticated attacker to craft a malicious link, which when clicked by an unsuspecting user, can be used to read or modify some sensitive information or craft a payload which may restrict access to the desired resources, resulting in Cross-Site Scripting vulnerability.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0024](https://github.com/Live-Hack-CVE/CVE-2023-0024) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0024.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0024.svg)
+
 ## CVE-2023-0023
  In SAP Bank Account Management (Manage Banks) application, when a user clicks a smart link to navigate to another app, personal data is shown directly in the URL. They might get captured in log files, bookmarks, and so on disclosing sensitive data of the application.
 
@@ -6616,6 +7332,20 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2023-0022](https://github.com/Live-Hack-CVE/CVE-2023-0022) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0022.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0022.svg)
+
+## CVE-2023-0020
+ SAP BusinessObjects Business Intelligence platform - versions 420, 430, allows an authenticated attacker to access sensitive information which is otherwise restricted. On successful exploitation, there could be a high impact on confidentiality and limited impact on integrity of the application.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0020](https://github.com/Live-Hack-CVE/CVE-2023-0020) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0020.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0020.svg)
+
+## CVE-2023-0019
+ In SAP GRC (Process Control) - versions GRCFND_A V1200, GRCFND_A V8100, GRCPINW V1100_700, GRCPINW V1100_731, GRCPINW V1200_750, remote-enabled function module in the proprietary SAP solution enables an authenticated attacker with minimal privileges to access all the confidential data stored in the database. Successful exploitation of this vulnerability can expose user credentials from client-specific tables of the database, leading to high impact on confidentiality.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2023-0019](https://github.com/Live-Hack-CVE/CVE-2023-0019) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2023-0019.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2023-0019.svg)
 
 ## CVE-2023-0018
  Due to improper input sanitization of user-controlled input in SAP BusinessObjects Business Intelligence Platform CMC application - versions 420, and 430, an attacker with basic user-level privileges can modify/upload crystal reports containing a malicious payload. Once these reports are viewable, anyone who opens those reports would be susceptible to stored XSS attacks. As a result of the attack, information maintained in the victim's web browser can be read, modified, and sent to the attacker.
