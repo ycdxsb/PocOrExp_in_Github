@@ -1778,6 +1778,8 @@
 
 - [https://github.com/xxnbyy/CVE-2017-15944-POC](https://github.com/xxnbyy/CVE-2017-15944-POC) :  ![starts](https://img.shields.io/github/stars/xxnbyy/CVE-2017-15944-POC.svg) ![forks](https://img.shields.io/github/forks/xxnbyy/CVE-2017-15944-POC.svg)
 
+- [https://github.com/CKevens/PaloAlto_EXP](https://github.com/CKevens/PaloAlto_EXP) :  ![starts](https://img.shields.io/github/stars/CKevens/PaloAlto_EXP.svg) ![forks](https://img.shields.io/github/forks/CKevens/PaloAlto_EXP.svg)
+
 - [https://github.com/yukar1z0e/CVE-2017-15944](https://github.com/yukar1z0e/CVE-2017-15944) :  ![starts](https://img.shields.io/github/stars/yukar1z0e/CVE-2017-15944.svg) ![forks](https://img.shields.io/github/forks/yukar1z0e/CVE-2017-15944.svg)
 
 ## CVE-2017-15906
@@ -2145,13 +2147,6 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2017-14439](https://github.com/Live-Hack-CVE/CVE-2017-14439) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14439.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14439.svg)
-
-## CVE-2017-14438
- Exploitable denial of service vulnerabilities exists in the Service Agent functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted packet can cause a denial of service. An attacker can send a large packet to 4000/tcp to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14438](https://github.com/Live-Hack-CVE/CVE-2017-14438) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14438.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14438.svg)
 
 ## CVE-2017-14437
  An exploitable denial of service vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP URI can cause a null pointer dereference resulting in denial of service. An attacker can send a GET request to &quot;/MOXA\_LOG.ini&quot; without a cookie header to trigger this vulnerability.
@@ -2783,13 +2778,13 @@
 
 - [https://github.com/tzwlhack/CVE-2017-11882](https://github.com/tzwlhack/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/tzwlhack/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/tzwlhack/CVE-2017-11882.svg)
 
-- [https://github.com/chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/chanbin/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/chanbin/CVE-2017-11882.svg)
-
 - [https://github.com/j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/j0lama/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/j0lama/CVE-2017-11882.svg)
 
-- [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
+- [https://github.com/chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/chanbin/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/chanbin/CVE-2017-11882.svg)
 
 - [https://github.com/likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-11882.svg)
+
+- [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
 
 - [https://github.com/HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/HaoJame/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/HaoJame/CVE-2017-11882.svg)
 
@@ -4153,6 +4148,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2017-7603](https://github.com/Live-Hack-CVE/CVE-2017-7603) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7603.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7603.svg)
 
+## CVE-2017-7541
+ The brcmf_cfg80211_mgmt_tx function in drivers/net/wireless/broadcom/brcm80211/brcmfmac/cfg80211.c in the Linux kernel before 4.12.3 allows local users to cause a denial of service (buffer overflow and system crash) or possibly gain privileges via a crafted NL80211_CMD_FRAME Netlink packet.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-7541](https://github.com/Live-Hack-CVE/CVE-2017-7541) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7541.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7541.svg)
+
 ## CVE-2017-7533
  Race condition in the fsnotify implementation in the Linux kernel through 4.12.4 allows local users to gain privileges or cause a denial of service (memory corruption) via a crafted application that leverages simultaneous execution of the inotify_handle_event and vfs_rename functions.
 
@@ -4262,7 +4264,7 @@
 
 - [https://github.com/I-Rinka/BIT-EternalBlue-for-macOS_Linux](https://github.com/I-Rinka/BIT-EternalBlue-for-macOS_Linux) :  ![starts](https://img.shields.io/github/stars/I-Rinka/BIT-EternalBlue-for-macOS_Linux.svg) ![forks](https://img.shields.io/github/forks/I-Rinka/BIT-EternalBlue-for-macOS_Linux.svg)
 
-- [https://github.com/caique-garbim/CVE-2017-7494_SambaCry](https://github.com/caique-garbim/CVE-2017-7494_SambaCry) :  ![starts](https://img.shields.io/github/stars/caique-garbim/CVE-2017-7494_SambaCry.svg) ![forks](https://img.shields.io/github/forks/caique-garbim/CVE-2017-7494_SambaCry.svg)
+- [https://github.com/d3fudd/CVE-2017-7494_SambaCry](https://github.com/d3fudd/CVE-2017-7494_SambaCry) :  ![starts](https://img.shields.io/github/stars/d3fudd/CVE-2017-7494_SambaCry.svg) ![forks](https://img.shields.io/github/forks/d3fudd/CVE-2017-7494_SambaCry.svg)
 
 - [https://github.com/m4udSec/noSAMBAnoCRY-CVE-2017-7494](https://github.com/m4udSec/noSAMBAnoCRY-CVE-2017-7494) :  ![starts](https://img.shields.io/github/stars/m4udSec/noSAMBAnoCRY-CVE-2017-7494.svg) ![forks](https://img.shields.io/github/forks/m4udSec/noSAMBAnoCRY-CVE-2017-7494.svg)
 
@@ -4300,6 +4302,20 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2017-7488](https://github.com/Live-Hack-CVE/CVE-2017-7488) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7488.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7488.svg)
 
+## CVE-2017-7487
+ The ipxitf_ioctl function in net/ipx/af_ipx.c in the Linux kernel through 4.11.1 mishandles reference counts, which allows local users to cause a denial of service (use-after-free) or possibly have unspecified other impact via a failed SIOCGIFADDR ioctl call for an IPX interface.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-7487](https://github.com/Live-Hack-CVE/CVE-2017-7487) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7487.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7487.svg)
+
+## CVE-2017-7482
+ In the Linux kernel before version 4.12, Kerberos 5 tickets decoded when using the RXRPC keys incorrectly assumes the size of a field. This could lead to the size-remaining variable wrapping and the data pointer going over the end of the buffer. This could possibly lead to memory corruption and possible privilege escalation.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-7482](https://github.com/Live-Hack-CVE/CVE-2017-7482) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7482.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7482.svg)
+
 ## CVE-2017-7473
  ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA based off of CNT 3. Further investigation determined that there was a secure method for using the directive. Notes: none.
 
@@ -4328,12 +4344,16 @@
 
 - [https://github.com/ww9210/cve-2017-7374](https://github.com/ww9210/cve-2017-7374) :  ![starts](https://img.shields.io/github/stars/ww9210/cve-2017-7374.svg) ![forks](https://img.shields.io/github/forks/ww9210/cve-2017-7374.svg)
 
+- [https://github.com/Live-Hack-CVE/CVE-2017-7374](https://github.com/Live-Hack-CVE/CVE-2017-7374) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7374.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7374.svg)
+
 ## CVE-2017-7308
  The packet_set_ring function in net/packet/af_packet.c in the Linux kernel through 4.10.6 does not properly validate certain block-size data, which allows local users to cause a denial of service (integer signedness error and out-of-bounds write), or gain privileges (if the CAP_NET_RAW capability is held), via crafted system calls.
 
 
 
 - [https://github.com/anldori/CVE-2017-7308](https://github.com/anldori/CVE-2017-7308) :  ![starts](https://img.shields.io/github/stars/anldori/CVE-2017-7308.svg) ![forks](https://img.shields.io/github/forks/anldori/CVE-2017-7308.svg)
+
+- [https://github.com/Live-Hack-CVE/CVE-2017-7308](https://github.com/Live-Hack-CVE/CVE-2017-7308) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7308.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7308.svg)
 
 ## CVE-2017-7269
  Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with &quot;If: &lt;http://&quot; in a PROPFIND request, as exploited in the wild in July or August 2016.
@@ -4835,9 +4855,9 @@
 
 - [https://github.com/Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Badbird3/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Badbird3/CVE-2017-5638.svg)
 
-- [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
-
 - [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
+
+- [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
 
 - [https://github.com/mfdev-solution/Exploit-CVE-2017-5638](https://github.com/mfdev-solution/Exploit-CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/mfdev-solution/Exploit-CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mfdev-solution/Exploit-CVE-2017-5638.svg)
 
@@ -4863,9 +4883,9 @@
 
 - [https://github.com/cafnet/apache-struts-v2-CVE-2017-5638](https://github.com/cafnet/apache-struts-v2-CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/cafnet/apache-struts-v2-CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/cafnet/apache-struts-v2-CVE-2017-5638.svg)
 
-- [https://github.com/invisiblethreat/strutser](https://github.com/invisiblethreat/strutser) :  ![starts](https://img.shields.io/github/stars/invisiblethreat/strutser.svg) ![forks](https://img.shields.io/github/forks/invisiblethreat/strutser.svg)
-
 - [https://github.com/sonatype-workshops/struts2-rce](https://github.com/sonatype-workshops/struts2-rce) :  ![starts](https://img.shields.io/github/stars/sonatype-workshops/struts2-rce.svg) ![forks](https://img.shields.io/github/forks/sonatype-workshops/struts2-rce.svg)
+
+- [https://github.com/invisiblethreat/strutser](https://github.com/invisiblethreat/strutser) :  ![starts](https://img.shields.io/github/stars/invisiblethreat/strutser.svg) ![forks](https://img.shields.io/github/forks/invisiblethreat/strutser.svg)
 
 - [https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638](https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/sjitech/test_struts2_vulnerability_CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/sjitech/test_struts2_vulnerability_CVE-2017-5638.svg)
 
@@ -5793,11 +5813,11 @@
 
 - [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
 
+- [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
+
 - [https://github.com/Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/Phantomlancer123/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/Phantomlancer123/CVE-2017-0199.svg)
 
 - [https://github.com/BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/BRAINIAC22/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/BRAINIAC22/CVE-2017-0199.svg)
-
-- [https://github.com/likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-0199.svg)
 
 - [https://github.com/Winter3un/cve_2017_0199](https://github.com/Winter3un/cve_2017_0199) :  ![starts](https://img.shields.io/github/stars/Winter3un/cve_2017_0199.svg) ![forks](https://img.shields.io/github/forks/Winter3un/cve_2017_0199.svg)
 
