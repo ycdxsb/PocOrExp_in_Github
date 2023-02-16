@@ -1575,9 +1575,9 @@
 
 - [https://github.com/rasyidfox/CVE-2019-18818](https://github.com/rasyidfox/CVE-2019-18818) :  ![starts](https://img.shields.io/github/stars/rasyidfox/CVE-2019-18818.svg) ![forks](https://img.shields.io/github/forks/rasyidfox/CVE-2019-18818.svg)
 
-- [https://github.com/ossf-cve-benchmark/CVE-2019-18818](https://github.com/ossf-cve-benchmark/CVE-2019-18818) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-18818.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-18818.svg)
-
 - [https://github.com/hadrian3689/strapi_cms_3.0.0-beta.17.7](https://github.com/hadrian3689/strapi_cms_3.0.0-beta.17.7) :  ![starts](https://img.shields.io/github/stars/hadrian3689/strapi_cms_3.0.0-beta.17.7.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/strapi_cms_3.0.0-beta.17.7.svg)
+
+- [https://github.com/ossf-cve-benchmark/CVE-2019-18818](https://github.com/ossf-cve-benchmark/CVE-2019-18818) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-18818.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-18818.svg)
 
 - [https://github.com/glowbase/CVE-2019-19609](https://github.com/glowbase/CVE-2019-19609) :  ![starts](https://img.shields.io/github/stars/glowbase/CVE-2019-19609.svg) ![forks](https://img.shields.io/github/forks/glowbase/CVE-2019-19609.svg)
 
@@ -1990,6 +1990,8 @@
 - [https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool) :  ![starts](https://img.shields.io/github/stars/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool.svg) ![forks](https://img.shields.io/github/forks/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool.svg)
 
 - [https://github.com/Ma1Dong/Solr_CVE-2019-17558](https://github.com/Ma1Dong/Solr_CVE-2019-17558) :  ![starts](https://img.shields.io/github/stars/Ma1Dong/Solr_CVE-2019-17558.svg) ![forks](https://img.shields.io/github/forks/Ma1Dong/Solr_CVE-2019-17558.svg)
+
+- [https://github.com/kuckibf/Popular-CVEs](https://github.com/kuckibf/Popular-CVEs) :  ![starts](https://img.shields.io/github/stars/kuckibf/Popular-CVEs.svg) ![forks](https://img.shields.io/github/forks/kuckibf/Popular-CVEs.svg)
 
 - [https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE](https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE) :  ![starts](https://img.shields.io/github/stars/xkyrage/Exploit_CVE-2019-17558-RCE.svg) ![forks](https://img.shields.io/github/forks/xkyrage/Exploit_CVE-2019-17558-RCE.svg)
 
@@ -3612,11 +3614,11 @@
 
 - [https://github.com/M108Falcon/Sudo-CVE-2019-14287](https://github.com/M108Falcon/Sudo-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/M108Falcon/Sudo-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/M108Falcon/Sudo-CVE-2019-14287.svg)
 
-- [https://github.com/DewmiApsara/CVE-2019-14287](https://github.com/DewmiApsara/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/DewmiApsara/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/DewmiApsara/CVE-2019-14287.svg)
-
 - [https://github.com/k4u5h41/CVE-2019-14287](https://github.com/k4u5h41/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2019-14287.svg)
 
 - [https://github.com/5l1v3r1/cve-2019-14287sudoexp](https://github.com/5l1v3r1/cve-2019-14287sudoexp) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/cve-2019-14287sudoexp.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/cve-2019-14287sudoexp.svg)
+
+- [https://github.com/DewmiApsara/CVE-2019-14287](https://github.com/DewmiApsara/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/DewmiApsara/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/DewmiApsara/CVE-2019-14287.svg)
 
 - [https://github.com/edsonjt81/CVE-2019-14287-](https://github.com/edsonjt81/CVE-2019-14287-) :  ![starts](https://img.shields.io/github/stars/edsonjt81/CVE-2019-14287-.svg) ![forks](https://img.shields.io/github/forks/edsonjt81/CVE-2019-14287-.svg)
 
@@ -4119,9 +4121,9 @@
 
 - [https://github.com/Thathsarani24/CVE2019-13272](https://github.com/Thathsarani24/CVE2019-13272) :  ![starts](https://img.shields.io/github/stars/Thathsarani24/CVE2019-13272.svg) ![forks](https://img.shields.io/github/forks/Thathsarani24/CVE2019-13272.svg)
 
-- [https://github.com/babyshen/CVE-2019-13272](https://github.com/babyshen/CVE-2019-13272) :  ![starts](https://img.shields.io/github/stars/babyshen/CVE-2019-13272.svg) ![forks](https://img.shields.io/github/forks/babyshen/CVE-2019-13272.svg)
-
 - [https://github.com/teddy47/CVE-2019-13272---Documentation](https://github.com/teddy47/CVE-2019-13272---Documentation) :  ![starts](https://img.shields.io/github/stars/teddy47/CVE-2019-13272---Documentation.svg) ![forks](https://img.shields.io/github/forks/teddy47/CVE-2019-13272---Documentation.svg)
+
+- [https://github.com/babyshen/CVE-2019-13272](https://github.com/babyshen/CVE-2019-13272) :  ![starts](https://img.shields.io/github/stars/babyshen/CVE-2019-13272.svg) ![forks](https://img.shields.io/github/forks/babyshen/CVE-2019-13272.svg)
 
 - [https://github.com/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-](https://github.com/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-) :  ![starts](https://img.shields.io/github/stars/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-.svg) ![forks](https://img.shields.io/github/forks/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-.svg)
 
@@ -6880,9 +6882,9 @@
 
 - [https://github.com/rhbb/CVE-2019-7609](https://github.com/rhbb/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/rhbb/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/rhbb/CVE-2019-7609.svg)
 
-- [https://github.com/wolf1892/CVE-2019-7609](https://github.com/wolf1892/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/wolf1892/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/wolf1892/CVE-2019-7609.svg)
-
 - [https://github.com/dnr6419/CVE-2019-7609](https://github.com/dnr6419/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/dnr6419/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/dnr6419/CVE-2019-7609.svg)
+
+- [https://github.com/wolf1892/CVE-2019-7609](https://github.com/wolf1892/CVE-2019-7609) :  ![starts](https://img.shields.io/github/stars/wolf1892/CVE-2019-7609.svg) ![forks](https://img.shields.io/github/forks/wolf1892/CVE-2019-7609.svg)
 
 ## CVE-2019-7578
  SDL (Simple DirectMedia Layer) through 1.2.15 and 2.x through 2.0.9 has a heap-based buffer over-read in InitIMA_ADPCM in audio/SDL_wave.c.
@@ -7621,6 +7623,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2019-6746](https://github.com/Live-Hack-CVE/CVE-2019-6746) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6746.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6746.svg)
 
+## CVE-2019-6743
+ This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Xiaomi Mi6 Browser prior to 10.4.0. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the WebAssembly.Instance method. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-7466.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-6743](https://github.com/Live-Hack-CVE/CVE-2019-6743) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6743.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6743.svg)
+
 ## CVE-2019-6741
  This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Samsung Galaxy S9 prior to January 2019 Security Update (SMR-JAN-2019 - SVE-2018-13467). User interaction is required to exploit this vulnerability in that the target must connect to a wireless network. The specific flaw exists within the captive portal. By manipulating HTML, an attacker can force a page redirection. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-7476.
 
@@ -7720,6 +7729,48 @@
 
 
 - [https://github.com/Live-Hack-CVE/CVE-2019-6643](https://github.com/Live-Hack-CVE/CVE-2019-6643) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6643.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6643.svg)
+
+## CVE-2019-6639
+ On BIG-IP (AFM, PEM) 14.1.0-14.1.0.5, 14.0.0-14.0.0.4, 13.0.0-13.1.1.4, 12.1.0-12.1.4, 11.6.1-11.6.3.4, and 11.5.1-11.5.8, an undisclosed TMUI pages for AFM and PEM Subscriber management are vulnerable to a stored cross-site scripting (XSS) issue. This is a control plane issue only and is not accessible from the data plane. The attack requires a malicious resource administrator to store the XSS.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-6639](https://github.com/Live-Hack-CVE/CVE-2019-6639) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6639.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6639.svg)
+
+## CVE-2019-6635
+ On BIG-IP 14.1.0-14.1.0.5, 14.0.0-14.0.0.4, 13.0.0-13.1.1.4, 12.1.0-12.1.4, 11.6.1-11.6.3.4, and 11.5.1-11.5.8, when the BIG-IP system is licensed for Appliance mode, a user with either the Administrator or the Resource Administrator role can bypass Appliance mode restrictions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-6635](https://github.com/Live-Hack-CVE/CVE-2019-6635) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6635.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6635.svg)
+
+## CVE-2019-6633
+ On BIG-IP 14.1.0-14.1.0.5, 14.0.0-14.0.0.4, 13.0.0-13.1.1.4, 12.1.0-12.1.4.1, and 11.5.1-11.6.4, when the BIG-IP system is licensed with Appliance mode, user accounts with Administrator and Resource Administrator roles can bypass Appliance mode restrictions.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-6633](https://github.com/Live-Hack-CVE/CVE-2019-6633) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6633.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6633.svg)
+
+## CVE-2019-6631
+ On BIG-IP 11.5.1-11.6.4, iRules performing HTTP header manipulation may cause an interruption to service when processing traffic handled by a Virtual Server with an associated HTTP profile, in specific circumstances, when the requests do not strictly conform to RFCs.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-6631](https://github.com/Live-Hack-CVE/CVE-2019-6631) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6631.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6631.svg)
+
+## CVE-2019-6629
+ On BIG-IP 14.1.0-14.1.0.5, undisclosed SSL traffic to a virtual server configured with a Client SSL profile may cause TMM to fail and restart. The Client SSL profile must have session tickets enabled and use DHE cipher suites to be affected. This only impacts the data plane, there is no impact to the control plane.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-6629](https://github.com/Live-Hack-CVE/CVE-2019-6629) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6629.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6629.svg)
+
+## CVE-2019-6623
+ On BIG-IP 14.1.0-14.1.0.5, 14.0.0-14.0.0.4, 13.0.0-13.1.1.4, and 12.1.0-12.1.4, undisclosed traffic sent to BIG-IP iSession virtual server may cause the Traffic Management Microkernel (TMM) to restart, resulting in a Denial-of-Service (DoS).
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2019-6623](https://github.com/Live-Hack-CVE/CVE-2019-6623) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-6623.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-6623.svg)
 
 ## CVE-2019-6614
  On BIG-IP 14.0.0-14.1.0.1, 13.0.0-13.1.1.4, and 12.1.0-12.1.4, internal methods used to prevent arbitrary file overwrites in Appliance Mode were not fully effective. An authenticated attacker with a high privilege level may be able to bypass protections implemented in appliance mode to overwrite arbitrary system files.
@@ -7879,9 +7930,9 @@
 
 - [https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447](https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447) :  ![starts](https://img.shields.io/github/stars/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447.svg) ![forks](https://img.shields.io/github/forks/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447.svg)
 
-- [https://github.com/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation](https://github.com/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation.svg)
-
 - [https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application](https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application) :  ![starts](https://img.shields.io/github/stars/KaviDk/CVE-2019-6447-in-Mobile-Application.svg) ![forks](https://img.shields.io/github/forks/KaviDk/CVE-2019-6447-in-Mobile-Application.svg)
+
+- [https://github.com/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation](https://github.com/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation.svg)
 
 - [https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit) :  ![starts](https://img.shields.io/github/stars/febinrev/CVE-2019-6447-ESfile-explorer-exploit.svg) ![forks](https://img.shields.io/github/forks/febinrev/CVE-2019-6447-ESfile-explorer-exploit.svg)
 
@@ -7921,6 +7972,8 @@
 - [https://github.com/ludy-dev/drupal8-REST-RCE](https://github.com/ludy-dev/drupal8-REST-RCE) :  ![starts](https://img.shields.io/github/stars/ludy-dev/drupal8-REST-RCE.svg) ![forks](https://img.shields.io/github/forks/ludy-dev/drupal8-REST-RCE.svg)
 
 - [https://github.com/DevDungeon/CVE-2019-6340-Drupal-8.6.9-REST-Auth-Bypass](https://github.com/DevDungeon/CVE-2019-6340-Drupal-8.6.9-REST-Auth-Bypass) :  ![starts](https://img.shields.io/github/stars/DevDungeon/CVE-2019-6340-Drupal-8.6.9-REST-Auth-Bypass.svg) ![forks](https://img.shields.io/github/forks/DevDungeon/CVE-2019-6340-Drupal-8.6.9-REST-Auth-Bypass.svg)
+
+- [https://github.com/kuckibf/Popular-CVEs](https://github.com/kuckibf/Popular-CVEs) :  ![starts](https://img.shields.io/github/stars/kuckibf/Popular-CVEs.svg) ![forks](https://img.shields.io/github/forks/kuckibf/Popular-CVEs.svg)
 
 - [https://github.com/cved-sources/cve-2019-6340](https://github.com/cved-sources/cve-2019-6340) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2019-6340.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2019-6340.svg)
 
@@ -8503,9 +8556,9 @@
 
 - [https://github.com/BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/BBRathnayaka/POC-CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/BBRathnayaka/POC-CVE-2019-5736.svg)
 
-- [https://github.com/Lee-SungYoung/cve-2019-5736-study](https://github.com/Lee-SungYoung/cve-2019-5736-study) :  ![starts](https://img.shields.io/github/stars/Lee-SungYoung/cve-2019-5736-study.svg) ![forks](https://img.shields.io/github/forks/Lee-SungYoung/cve-2019-5736-study.svg)
-
 - [https://github.com/likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc) :  ![starts](https://img.shields.io/github/stars/likescam/cve-2019-5736-poc.svg) ![forks](https://img.shields.io/github/forks/likescam/cve-2019-5736-poc.svg)
+
+- [https://github.com/Lee-SungYoung/cve-2019-5736-study](https://github.com/Lee-SungYoung/cve-2019-5736-study) :  ![starts](https://img.shields.io/github/stars/Lee-SungYoung/cve-2019-5736-study.svg) ![forks](https://img.shields.io/github/forks/Lee-SungYoung/cve-2019-5736-study.svg)
 
 - [https://github.com/Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC) :  ![starts](https://img.shields.io/github/stars/Asbatel/CVE-2019-5736_POC.svg) ![forks](https://img.shields.io/github/forks/Asbatel/CVE-2019-5736_POC.svg)
 
