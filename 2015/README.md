@@ -19,6 +19,13 @@
 
 - [https://github.com/Live-Hack-CVE/CVE-2015-10078](https://github.com/Live-Hack-CVE/CVE-2015-10078) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10078.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10078.svg)
 
+## CVE-2015-10077
+ A vulnerability was found in webbuilders-group silverstripe-kapost-bridge 0.3.3. It has been declared as critical. Affected by this vulnerability is the function index/getPreview of the file code/control/KapostService.php. The manipulation leads to sql injection. The attack can be launched remotely. Upgrading to version 0.4.0 is able to address this issue. The name of the patch is 2e14b0fd0ea35034f90890f364b130fb4645ff35. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-220471.
+
+
+
+- [https://github.com/Live-Hack-CVE/CVE-2015-10077](https://github.com/Live-Hack-CVE/CVE-2015-10077) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10077.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10077.svg)
+
 ## CVE-2015-10076
  A vulnerability was found in dimtion Shaarlier up to 1.2.2. It has been declared as critical. Affected by this vulnerability is the function createTag of the file app/src/main/java/com/dimtion/shaarlier/TagsSource.java of the component Tag Handler. The manipulation leads to sql injection. Upgrading to version 1.2.3 is able to address this issue. The name of the patch is 3d1d9b239d9b3cd87e8bed45a0f02da583ad371e. It is recommended to upgrade the affected component. The identifier VDB-220453 was assigned to this vulnerability.
 
