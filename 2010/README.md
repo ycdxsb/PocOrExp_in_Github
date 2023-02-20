@@ -1,79 +1,9 @@
-## CVE-2010-10009
- A vulnerability was found in frioux ptome. It has been rated as critical. This issue affects some unknown processing. The manipulation leads to sql injection. The name of the patch is 26829bba67858ca0bd4ce49ad50e7ce653914276. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218519.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-10009](https://github.com/Live-Hack-CVE/CVE-2010-10009) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-10009.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-10009.svg)
-
-## CVE-2010-10008
- ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability was found in simplesamlphp simplesamlphp-module-openidprovider up to 0.8.x. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file templates/trust.tpl.php. The manipulation of the argument StateID leads to cross site scripting. The attack can be launched remotely. Upgrading to version 0.9.0 is able to address this issue. The name of the patch is 8365d48c863cf06ccf1465cc0a161cefae29d69d. It is recommended to upgrade the affected component. The identifier VDB-218473 was assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-10008](https://github.com/Live-Hack-CVE/CVE-2010-10008) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-10008.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-10008.svg)
-
-## CVE-2010-10007
- ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability was found in lierdakil click-reminder. It has been rated as critical. This issue affects the function db_query of the file src/backend/include/BaseAction.php. The manipulation leads to sql injection. The name of the patch is 41213b660e8eb01b22c8074f06208f59a73ca8dc. It is recommended to apply a patch to fix this issue. The identifier VDB-218465 was assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-10007](https://github.com/Live-Hack-CVE/CVE-2010-10007) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-10007.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-10007.svg)
-
-## CVE-2010-10006
- A vulnerability, which was classified as problematic, was found in michaelliao jopenid. Affected is the function getAuthentication of the file JOpenId/src/org/expressme/openid/OpenIdManager.java. The manipulation leads to observable timing discrepancy. Upgrading to version 1.08 is able to address this issue. The name of the patch is c9baaa976b684637f0d5a50268e91846a7a719ab. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218460.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-10006](https://github.com/Live-Hack-CVE/CVE-2010-10006) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-10006.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-10006.svg)
-
-## CVE-2010-10005
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2010. Notes: none.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-10005](https://github.com/Live-Hack-CVE/CVE-2010-10005) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-10005.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-10005.svg)
-
-## CVE-2010-10003
- A vulnerability classified as critical was found in gesellix titlelink. Affected by this vulnerability is an unknown functionality of the file plugin_content_title.php. The manipulation of the argument phrase leads to sql injection. The name of the patch is b4604e523853965fa981a4e79aef4b554a535db0. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217351.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-10003](https://github.com/Live-Hack-CVE/CVE-2010-10003) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-10003.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-10003.svg)
-
-## CVE-2010-10002
- ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability classified as problematic has been found in SimpleSAMLphp simplesamlphp-module-openid. Affected is an unknown function of the file templates/consumer.php of the component OpenID Handler. The manipulation of the argument AuthState leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 1.0 is able to address this issue. The name of the patch is d652d41ccaf8c45d5707e741c0c5d82a2365a9a3. It is recommended to upgrade the affected component. VDB-217170 is the identifier assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-10002](https://github.com/Live-Hack-CVE/CVE-2010-10002) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-10002.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-10002.svg)
-
-## CVE-2010-5312
- Cross-site scripting (XSS) vulnerability in jquery.ui.dialog.js in the Dialog widget in jQuery UI before 1.10.0 allows remote attackers to inject arbitrary web script or HTML via the title option.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-5312](https://github.com/Live-Hack-CVE/CVE-2010-5312) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-5312.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-5312.svg)
-
 ## CVE-2010-5301
  Stack-based buffer overflow in Kolibri 2.0 allows remote attackers to execute arbitrary code via a long URI in a HEAD request.
 
 
 
 - [https://github.com/lem0nSec/CVE-2010-5301](https://github.com/lem0nSec/CVE-2010-5301) :  ![starts](https://img.shields.io/github/stars/lem0nSec/CVE-2010-5301.svg) ![forks](https://img.shields.io/github/forks/lem0nSec/CVE-2010-5301.svg)
-
-## CVE-2010-5298
- Race condition in the ssl3_read_bytes function in s3_pkt.c in OpenSSL through 1.0.1g, when SSL_MODE_RELEASE_BUFFERS is enabled, allows remote attackers to inject data across sessions or cause a denial of service (use-after-free and parsing error) via an SSL connection in a multithreaded environment.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-5298](https://github.com/Live-Hack-CVE/CVE-2010-5298) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-5298.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-5298.svg)
-
-## CVE-2010-5250
- Untrusted search path vulnerability in the pthread_win32_process_attach_np function in pthreadGC2.dll in Pthreads-win32 2.8.0 allows local users to gain privileges via a Trojan horse quserex.dll file in the current working directory.  NOTE: some of these details are obtained from third party information.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-5250](https://github.com/Live-Hack-CVE/CVE-2010-5250) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-5250.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-5250.svg)
 
 ## CVE-2010-5230
  Multiple untrusted search path vulnerabilities in MicroStation 7.1 allow local users to gain privileges via a Trojan horse (1) mptools.dll, (2) baseman.dll, (3) wintab32.dll, or (4) wintab.dll file in the current working directory, as demonstrated by a directory that contains a .hln or .rdl file.  NOTE: some of these details are obtained from third party information.
@@ -96,20 +26,6 @@
 
 - [https://github.com/quinn-samuel-perry/CVE-2010-4669](https://github.com/quinn-samuel-perry/CVE-2010-4669) :  ![starts](https://img.shields.io/github/stars/quinn-samuel-perry/CVE-2010-4669.svg) ![forks](https://img.shields.io/github/forks/quinn-samuel-perry/CVE-2010-4669.svg)
 
-## CVE-2010-4606
- Unspecified vulnerability in the Space Management client in the Hierarchical Storage Management (HSM) component in IBM Tivoli Storage Manager (TSM) 5.4.x before 5.4.3.4, 5.5.x before 5.5.3, 6.1.x before 6.1.4, and 6.2.x before 6.2.2 on Unix and Linux allows remote attackers to execute arbitrary commands via unknown vectors, related to a &quot;script execution vulnerability.&quot;
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-4606](https://github.com/Live-Hack-CVE/CVE-2010-4606) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-4606.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-4606.svg)
-
-## CVE-2010-4604
- Stack-based buffer overflow in the GeneratePassword function in dsmtca (aka the Trusted Communications Agent or TCA) in the backup-archive client in IBM Tivoli Storage Manager (TSM) 5.3.x before 5.3.6.10, 5.4.x before 5.4.3.4, 5.5.x before 5.5.2.10, and 6.1.x before 6.1.3.1 on Unix and Linux allows local users to gain privileges by specifying a long LANG environment variable, and then sending a request over a pipe.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-4604](https://github.com/Live-Hack-CVE/CVE-2010-4604) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-4604.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-4604.svg)
-
 ## CVE-2010-4502
  Integer overflow in KmxSbx.sys 6.2.0.22 in CA Internet Security Suite Plus 2010 allows local users to cause a denial of service (pool corruption) and execute arbitrary code via crafted arguments to the 0x88000080 IOCTL, which triggers a buffer overflow.
 
@@ -123,20 +39,6 @@
 
 
 - [https://github.com/grzegorzblaszczyk/CVE-2010-4476-check](https://github.com/grzegorzblaszczyk/CVE-2010-4476-check) :  ![starts](https://img.shields.io/github/stars/grzegorzblaszczyk/CVE-2010-4476-check.svg) ![forks](https://img.shields.io/github/forks/grzegorzblaszczyk/CVE-2010-4476-check.svg)
-
-## CVE-2010-4296
- vmware-mount in VMware Workstation 7.x before 7.1.2 build 301548 on Linux, VMware Player 3.1.x before 3.1.2 build 301548 on Linux, VMware Server 2.0.2 on Linux, and VMware Fusion 3.1.x before 3.1.2 build 332101 does not properly load libraries, which allows host OS users to gain privileges via vectors involving shared object files.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-4296](https://github.com/Live-Hack-CVE/CVE-2010-4296) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-4296.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-4296.svg)
-
-## CVE-2010-4295
- Race condition in the mounting process in vmware-mount in VMware Workstation 7.x before 7.1.2 build 301548 on Linux, VMware Player 3.1.x before 3.1.2 build 301548 on Linux, VMware Server 2.0.2 on Linux, and VMware Fusion 3.1.x before 3.1.2 build 332101 allows host OS users to gain privileges via vectors involving temporary files.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-4295](https://github.com/Live-Hack-CVE/CVE-2010-4295) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-4295.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-4295.svg)
 
 ## CVE-2010-4221
  Multiple stack-based buffer overflows in the pr_netio_telnet_gets function in netio.c in ProFTPD before 1.3.3c allow remote attackers to execute arbitrary code via vectors involving a TELNET IAC escape character to a (1) FTP or (2) FTPS server.
@@ -166,13 +68,6 @@
 
 - [https://github.com/magisterquis/cve-2010-3847](https://github.com/magisterquis/cve-2010-3847) :  ![starts](https://img.shields.io/github/stars/magisterquis/cve-2010-3847.svg) ![forks](https://img.shields.io/github/forks/magisterquis/cve-2010-3847.svg)
 
-## CVE-2010-3709
- The ZipArchive::getArchiveComment function in PHP 5.2.x through 5.2.14 and 5.3.x through 5.3.3 allows context-dependent attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted ZIP archive.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-3709](https://github.com/Live-Hack-CVE/CVE-2010-3709) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-3709.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-3709.svg)
-
 ## CVE-2010-3600
  Unspecified vulnerability in the Client System Analyzer component in Oracle Database Server 11.1.0.7 and 11.2.0.1 and Enterprise Manager Grid Control 10.2.0.5 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors. NOTE: the previous information was obtained from the January 2011 CPU.  Oracle has not commented on claims from a reliable third party coordinator that this issue involves an exposed JSP script that accepts XML uploads in conjunction with NULL bytes in an unspecified parameter that allow execution of arbitrary code.
 
@@ -193,13 +88,6 @@
 
 
 - [https://github.com/huang-emily/CVE-2010-3437](https://github.com/huang-emily/CVE-2010-3437) :  ![starts](https://img.shields.io/github/stars/huang-emily/CVE-2010-3437.svg) ![forks](https://img.shields.io/github/forks/huang-emily/CVE-2010-3437.svg)
-
-## CVE-2010-3436
- fopen_wrappers.c in PHP 5.3.x through 5.3.3 might allow remote attackers to bypass open_basedir restrictions via vectors related to the length of a filename.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-3436](https://github.com/Live-Hack-CVE/CVE-2010-3436) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-3436.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-3436.svg)
 
 ## CVE-2010-3333
  Stack-based buffer overflow in Microsoft Office XP SP3, Office 2003 SP3, Office 2007 SP2, Office 2010, Office 2004 and 2008 for Mac, Office for Mac 2011, and Open XML File Format Converter for Mac allows remote attackers to execute arbitrary code via crafted RTF data, aka &quot;RTF Stack Buffer Overflow Vulnerability.&quot;
@@ -224,13 +112,6 @@
 
 - [https://github.com/n0lann/CVE2010-3301_compiled](https://github.com/n0lann/CVE2010-3301_compiled) :  ![starts](https://img.shields.io/github/stars/n0lann/CVE2010-3301_compiled.svg) ![forks](https://img.shields.io/github/forks/n0lann/CVE2010-3301_compiled.svg)
 
-## CVE-2010-3069
- Stack-based buffer overflow in the (1) sid_parse and (2) dom_sid_parse functions in Samba before 3.5.5 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a crafted Windows Security ID (SID) on a file share.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-3069](https://github.com/Live-Hack-CVE/CVE-2010-3069) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-3069.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-3069.svg)
-
 ## CVE-2010-2626
  index.pl in Miyabi CGI Tools SEO Links 1.02 allows remote attackers to execute arbitrary commands via shell metacharacters in the fn command. NOTE: some of these details are obtained from third party information.
 
@@ -244,20 +125,6 @@
 
 
 - [https://github.com/Sunqiz/cve-2010-2553-reproduction](https://github.com/Sunqiz/cve-2010-2553-reproduction) :  ![starts](https://img.shields.io/github/stars/Sunqiz/cve-2010-2553-reproduction.svg) ![forks](https://img.shields.io/github/forks/Sunqiz/cve-2010-2553-reproduction.svg)
-
-## CVE-2010-2532
- ** DISPUTED ** lxsession-logout in lxsession in LXDE, as used on SUSE openSUSE 11.3 and other platforms, does not lock the screen when the Suspend or Hibernate button is pressed, which might make it easier for physically proximate attackers to access an unattended laptop via a resume action. NOTE: there is no general agreement that this is a vulnerability, because separate control over locking can be an equally secure, or more secure, behavior in some threat environments.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-2532](https://github.com/Live-Hack-CVE/CVE-2010-2532) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-2532.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-2532.svg)
-
-## CVE-2010-2531
- The var_export function in PHP 5.2 before 5.2.14 and 5.3 before 5.3.3 flushes the output buffer to the user when certain fatal errors occur, even if display_errors is off, which allows remote attackers to obtain sensitive information by causing the application to exceed limits for memory, execution time, or recursion.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-2531](https://github.com/Live-Hack-CVE/CVE-2010-2531) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-2531.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-2531.svg)
 
 ## CVE-2010-2387
  vicious-extensions/ve-misc.c in GNOME Display Manager (gdm) 2.20.x before 2.20.11, when GDM debug is enabled, logs the user password when it contains invalid UTF8 encoded characters, which might allow local users to gain privileges by reading the information from syslog logs.
@@ -273,13 +140,6 @@
 
 - [https://github.com/aforakjackson/cve2010-2333](https://github.com/aforakjackson/cve2010-2333) :  ![starts](https://img.shields.io/github/stars/aforakjackson/cve2010-2333.svg) ![forks](https://img.shields.io/github/forks/aforakjackson/cve2010-2333.svg)
 
-## CVE-2010-2179
- Cross-site scripting (XSS) vulnerability in Adobe Flash Player before 9.0.277.0 and 10.x before 10.1.53.64, and Adobe AIR before 2.0.2.12610, when Firefox or Chrome is used, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors related to URL parsing.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-2179](https://github.com/Live-Hack-CVE/CVE-2010-2179) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-2179.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-2179.svg)
-
 ## CVE-2010-2075
  UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 through June 2010, contains an externally introduced modification (Trojan Horse) in the DEBUG3_DOLOG_SYSTEM macro, which allows remote attackers to execute arbitrary commands.
 
@@ -288,20 +148,6 @@
 - [https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075](https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075) :  ![starts](https://img.shields.io/github/stars/MFernstrom/OffensivePascal-CVE-2010-2075.svg) ![forks](https://img.shields.io/github/forks/MFernstrom/OffensivePascal-CVE-2010-2075.svg)
 
 - [https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE) :  ![starts](https://img.shields.io/github/stars/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg) ![forks](https://img.shields.io/github/forks/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg)
-
-## CVE-2010-2063
- Buffer overflow in the SMB1 packet chaining implementation in the chain_reply function in process.c in smbd in Samba 3.0.x before 3.3.13 allows remote attackers to cause a denial of service (memory corruption and daemon crash) or possibly execute arbitrary code via a crafted field in a packet.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-2063](https://github.com/Live-Hack-CVE/CVE-2010-2063) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-2063.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-2063.svg)
-
-## CVE-2010-1717
- Directory traversal vulnerability in the iF surfALERT (com_if_surfalert) component 1.2 for Joomla! allows remote attackers to read arbitrary files and possibly have unspecified other impact via a .. (dot dot) in the controller parameter to index.php.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-1717](https://github.com/Live-Hack-CVE/CVE-2010-1717) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-1717.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-1717.svg)
 
 ## CVE-2010-1622
  SpringSource Spring Framework 2.5.x before 2.5.6.SEC02, 2.5.7 before 2.5.7.SR01, and 3.0.x before 3.0.3 allows remote attackers to execute arbitrary code via an HTTP request containing class.classLoader.URLs[0]=jar: followed by a URL of a crafted .jar file.
@@ -323,20 +169,6 @@
 
 - [https://github.com/MAVProxyUser/httpfuzz-robomiller](https://github.com/MAVProxyUser/httpfuzz-robomiller) :  ![starts](https://img.shields.io/github/stars/MAVProxyUser/httpfuzz-robomiller.svg) ![forks](https://img.shields.io/github/forks/MAVProxyUser/httpfuzz-robomiller.svg)
 
-## CVE-2010-1281
- iml32.dll in Adobe Shockwave Player before 11.5.7.609 does not validate a certain value from a file before using it in file-pointer calculations, which allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted .dir (aka Director) file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-1281](https://github.com/Live-Hack-CVE/CVE-2010-1281) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-1281.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-1281.svg)
-
-## CVE-2010-1280
- Adobe Shockwave Player before 11.5.7.609 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted .dir (aka Director) file, related to (1) an erroneous dereference and (2) a certain Shock.dir file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-1280](https://github.com/Live-Hack-CVE/CVE-2010-1280) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-1280.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-1280.svg)
-
 ## CVE-2010-1240
  Adobe Reader and Acrobat 9.x before 9.3.3, and 8.x before 8.2.3 on Windows and Mac OS X, do not restrict the contents of one text field in the Launch File warning dialog, which makes it easier for remote attackers to trick users into executing an arbitrary local program that was specified in a PDF document, as demonstrated by a text field that claims that the Open button will enable the user to read an encrypted message.
 
@@ -353,20 +185,6 @@
 
 - [https://github.com/mk219533/CVE-2010-1205](https://github.com/mk219533/CVE-2010-1205) :  ![starts](https://img.shields.io/github/stars/mk219533/CVE-2010-1205.svg) ![forks](https://img.shields.io/github/forks/mk219533/CVE-2010-1205.svg)
 
-## CVE-2010-0987
- Heap-based buffer overflow in Adobe Shockwave Player before 11.5.7.609 might allow remote attackers to execute arbitrary code via crafted embedded fonts in a Shockwave file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-0987](https://github.com/Live-Hack-CVE/CVE-2010-0987) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0987.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0987.svg)
-
-## CVE-2010-0986
- Adobe Shockwave Player before 11.5.7.609 does not properly process asset entries, which allows remote attackers to cause a denial of service (memory corruption) or possibly execute arbitrary code via a crafted Shockwave file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-0986](https://github.com/Live-Hack-CVE/CVE-2010-0986) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0986.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0986.svg)
-
 ## CVE-2010-0738
  The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to send requests to this application's GET handler by using a different method.
 
@@ -375,13 +193,6 @@
 - [https://github.com/ChristianPapathanasiou/jboss-autopwn](https://github.com/ChristianPapathanasiou/jboss-autopwn) :  ![starts](https://img.shields.io/github/stars/ChristianPapathanasiou/jboss-autopwn.svg) ![forks](https://img.shields.io/github/forks/ChristianPapathanasiou/jboss-autopwn.svg)
 
 - [https://github.com/gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn) :  ![starts](https://img.shields.io/github/stars/gitcollect/jboss-autopwn.svg) ![forks](https://img.shields.io/github/forks/gitcollect/jboss-autopwn.svg)
-
-## CVE-2010-0434
- The ap_read_request function in server/protocol.c in the Apache HTTP Server 2.2.x before 2.2.15, when a multithreaded MPM is used, does not properly handle headers in subrequests in certain circumstances involving a parent request that has a body, which might allow remote attackers to obtain sensitive information via a crafted request that triggers access to memory locations associated with an earlier request.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-0434](https://github.com/Live-Hack-CVE/CVE-2010-0434) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0434.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0434.svg)
 
 ## CVE-2010-0426
  sudo 1.6.x before 1.6.9p21 and 1.7.x before 1.7.2p4, when a pseudo-command is enabled, permits a match between the name of the pseudo-command and the name of an executable file in an arbitrary directory, which allows local users to gain privileges via a crafted executable file, as demonstrated by a file named sudoedit in a user's home directory.
@@ -393,24 +204,3 @@
 - [https://github.com/cved-sources/cve-2010-0426](https://github.com/cved-sources/cve-2010-0426) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2010-0426.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2010-0426.svg)
 
 - [https://github.com/g1vi/CVE-2010-0426](https://github.com/g1vi/CVE-2010-0426) :  ![starts](https://img.shields.io/github/stars/g1vi/CVE-2010-0426.svg) ![forks](https://img.shields.io/github/forks/g1vi/CVE-2010-0426.svg)
-
-## CVE-2010-0215
- ActiveCollab before 2.3.2 allows remote authenticated users to bypass intended access restrictions, and (1) delete an attachment or (2) subscribe to an object, via a crafted URL.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-0215](https://github.com/Live-Hack-CVE/CVE-2010-0215) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0215.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0215.svg)
-
-## CVE-2010-0130
- Integer overflow in Adobe Shockwave Player before 11.5.7.609 might allow remote attackers to execute arbitrary code via a crafted .dir (aka Director) file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-0130](https://github.com/Live-Hack-CVE/CVE-2010-0130) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0130.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0130.svg)
-
-## CVE-2010-0127
- Adobe Shockwave Player before 11.5.7.609 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted FFFFFF45h Shockwave 3D blocks in a Shockwave file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2010-0127](https://github.com/Live-Hack-CVE/CVE-2010-0127) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2010-0127.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2010-0127.svg)
