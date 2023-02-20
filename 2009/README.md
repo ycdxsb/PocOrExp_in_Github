@@ -1,24 +1,3 @@
-## CVE-2009-10003
- A vulnerability was found in capnsquarepants wordcraft up to 0.6. It has been classified as problematic. Affected is an unknown function of the file tag.php. The manipulation of the argument tag leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 0.7 is able to address this issue. The name of the patch is be23028633e8105de92f387036871c03f34d3124. It is recommended to upgrade the affected component. VDB-219714 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-10003](https://github.com/Live-Hack-CVE/CVE-2009-10003) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-10003.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-10003.svg)
-
-## CVE-2009-10002
- A vulnerability, which was classified as problematic, has been found in dpup fittr-flickr. This issue affects some unknown processing of the file fittr-flickr/features/easy-exif.js of the component EXIF Preview Handler. The manipulation leads to cross site scripting. The attack may be initiated remotely. The name of the patch is 08875dd8a2e5d0d16568bb0d67cb4328062fccde. It is recommended to apply a patch to fix this issue. The identifier VDB-218297 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-10002](https://github.com/Live-Hack-CVE/CVE-2009-10002) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-10002.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-10002.svg)
-
-## CVE-2009-10001
- A vulnerability classified as problematic was found in jianlinwei cool-php-captcha up to 0.2. This vulnerability affects unknown code of the file example-form.php. The manipulation of the argument captcha with the input %3Cscript%3Ealert(1)%3C/script%3E leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 0.3 is able to address this issue. The name of the patch is c84fb6b153bebaf228feee0cbf50728d27ae3f80. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218296.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-10001](https://github.com/Live-Hack-CVE/CVE-2009-10001) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-10001.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-10001.svg)
-
 ## CVE-2009-5147
  DL::dlopen in Ruby 1.8, 1.9.0, 1.9.2, 1.9.3, 2.0.0 before patchlevel 648, and 2.1 before 2.1.8 opens libraries with tainted names.
 
@@ -81,20 +60,6 @@
 
 - [https://github.com/Exploitables/CVE-2009-4049](https://github.com/Exploitables/CVE-2009-4049) :  ![starts](https://img.shields.io/github/stars/Exploitables/CVE-2009-4049.svg) ![forks](https://img.shields.io/github/forks/Exploitables/CVE-2009-4049.svg)
 
-## CVE-2009-3732
- Format string vulnerability in vmware-vmrc.exe build 158248 in VMware Remote Console (aka VMrc) allows remote attackers to execute arbitrary code via unspecified vectors.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-3732](https://github.com/Live-Hack-CVE/CVE-2009-3732) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3732.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3732.svg)
-
-## CVE-2009-3559
- ** DISPUTED ** main/streams/plain_wrapper.c in PHP 5.3.x before 5.3.1 does not recognize the safe_mode_include_dir directive, which allows context-dependent attackers to have an unknown impact by triggering the failure of PHP scripts that perform include or require operations, as demonstrated by a script that attempts to perform a require_once on a file in a standard library directory. NOTE: a reliable third party reports that this is not a vulnerability, because it results in a more restrictive security policy.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-3559](https://github.com/Live-Hack-CVE/CVE-2009-3559) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3559.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3559.svg)
-
 ## CVE-2009-3555
  The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a &quot;plaintext injection&quot; attack, aka the &quot;Project Mogul&quot; issue.
 
@@ -109,61 +74,12 @@
 
 - [https://github.com/cocomelonc/vulnexipy](https://github.com/cocomelonc/vulnexipy) :  ![starts](https://img.shields.io/github/stars/cocomelonc/vulnexipy.svg) ![forks](https://img.shields.io/github/forks/cocomelonc/vulnexipy.svg)
 
-## CVE-2009-3352
- Multiple unspecified vulnerabilities in the quota_by_role (Quota by role) module for Drupal have unknown impact and attack vectors.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-3352](https://github.com/Live-Hack-CVE/CVE-2009-3352) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3352.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3352.svg)
-
-## CVE-2009-3294
- The popen API function in TSRM/tsrm_win32.c in PHP before 5.2.11 and 5.3.x before 5.3.1, when running on certain Windows operating systems, allows context-dependent attackers to cause a denial of service (crash) via a crafted (1) &quot;e&quot; or (2) &quot;er&quot; string in the second argument (aka mode), possibly related to the _fdopen function in the Microsoft C runtime library. NOTE: this might not cross privilege boundaries except in rare cases in which the mode argument is accessible to an attacker outside of an application that uses the popen function.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-3294](https://github.com/Live-Hack-CVE/CVE-2009-3294) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3294.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3294.svg)
-
 ## CVE-2009-3103
  Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a denial of service (system crash) via an &amp; (ampersand) character in a Process ID High header field in a NEGOTIATE PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location, aka &quot;SMBv2 Negotiation Vulnerability.&quot; NOTE: some of these details are obtained from third party information.
 
 
 
 - [https://github.com/sooklalad/ms09050](https://github.com/sooklalad/ms09050) :  ![starts](https://img.shields.io/github/stars/sooklalad/ms09050.svg) ![forks](https://img.shields.io/github/forks/sooklalad/ms09050.svg)
-
-## CVE-2009-3095
- The mod_proxy_ftp module in the Apache HTTP Server allows remote attackers to bypass intended access restrictions and send arbitrary commands to an FTP server via vectors related to the embedding of these commands in the Authorization HTTP header, as demonstrated by a certain module in VulnDisco Pack Professional 8.11.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-3095](https://github.com/Live-Hack-CVE/CVE-2009-3095) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3095.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3095.svg)
-
-## CVE-2009-3094
- The ap_proxy_ftp_handler function in modules/proxy/proxy_ftp.c in the mod_proxy_ftp module in the Apache HTTP Server 2.0.63 and 2.2.13 allows remote FTP servers to cause a denial of service (NULL pointer dereference and child process crash) via a malformed reply to an EPSV command.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-3094](https://github.com/Live-Hack-CVE/CVE-2009-3094) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-3094.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-3094.svg)
-
-## CVE-2009-2948
- mount.cifs in Samba 3.0 before 3.0.37, 3.2 before 3.2.15, 3.3 before 3.3.8 and 3.4 before 3.4.2, when mount.cifs is installed suid root, does not properly enforce permissions, which allows local users to read part of the credentials file and obtain the password by specifying the path to the credentials file and using the --verbose or -v option.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-2948](https://github.com/Live-Hack-CVE/CVE-2009-2948) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-2948.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-2948.svg)
-
-## CVE-2009-2906
- smbd in Samba 3.0 before 3.0.37, 3.2 before 3.2.15, 3.3 before 3.3.8, and 3.4 before 3.4.2 allows remote authenticated users to cause a denial of service (infinite loop) via an unanticipated oplock break notification reply packet.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-2906](https://github.com/Live-Hack-CVE/CVE-2009-2906) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-2906.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-2906.svg)
-
-## CVE-2009-2699
- The Solaris pollset feature in the Event Port backend in poll/unix/port.c in the Apache Portable Runtime (APR) library before 1.3.9, as used in the Apache HTTP Server before 2.2.14 and other products, does not properly handle errors, which allows remote attackers to cause a denial of service (daemon hang) via unspecified HTTP requests, related to the prefork and event MPMs.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-2699](https://github.com/Live-Hack-CVE/CVE-2009-2699) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-2699.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-2699.svg)
 
 ## CVE-2009-2698
  The udp_sendmsg function in the UDP implementation in (1) net/ipv4/udp.c and (2) net/ipv6/udp.c in the Linux kernel before 2.6.19 allows local users to gain privileges or cause a denial of service (NULL pointer dereference and system crash) via vectors involving the MSG_MORE flag and a UDP socket.
@@ -178,13 +94,6 @@
 
 
 - [https://github.com/jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692) :  ![starts](https://img.shields.io/github/stars/jdvalentini/CVE-2009-2692.svg) ![forks](https://img.shields.io/github/forks/jdvalentini/CVE-2009-2692.svg)
-
-## CVE-2009-2687
- The exif_read_data function in the Exif module in PHP before 5.2.10 allows remote attackers to cause a denial of service (crash) via a malformed JPEG image with invalid offset fields, a different issue than CVE-2005-3353.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-2687](https://github.com/Live-Hack-CVE/CVE-2009-2687) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-2687.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-2687.svg)
 
 ## CVE-2009-2585
  SQL injection vulnerability in index.php in Mlffat 2.2 allows remote attackers to execute arbitrary SQL commands via a member cookie in an account editprofile action, a different vector than CVE-2009-1731.
@@ -212,27 +121,6 @@
 
 
 - [https://github.com/NZKoz/bigdecimal-segfault-fix](https://github.com/NZKoz/bigdecimal-segfault-fix) :  ![starts](https://img.shields.io/github/stars/NZKoz/bigdecimal-segfault-fix.svg) ![forks](https://img.shields.io/github/forks/NZKoz/bigdecimal-segfault-fix.svg)
-
-## CVE-2009-1891
- The mod_deflate module in Apache httpd 2.2.11 and earlier compresses large files until completion even after the associated network connection is closed, which allows remote attackers to cause a denial of service (CPU consumption).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-1891](https://github.com/Live-Hack-CVE/CVE-2009-1891) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1891.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1891.svg)
-
-## CVE-2009-1890
- The stream_reqbody_cl function in mod_proxy_http.c in the mod_proxy module in the Apache HTTP Server before 2.3.3, when a reverse proxy is configured, does not properly handle an amount of streamed data that exceeds the Content-Length value, which allows remote attackers to cause a denial of service (CPU consumption) via crafted requests.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-1890](https://github.com/Live-Hack-CVE/CVE-2009-1890) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1890.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1890.svg)
-
-## CVE-2009-1888
- The acl_group_override function in smbd/posix_acls.c in smbd in Samba 3.0.x before 3.0.35, 3.1.x and 3.2.x before 3.2.13, and 3.3.x before 3.3.6, when dos filemode is enabled, allows remote attackers to modify access control lists for files via vectors related to read access to uninitialized memory.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-1888](https://github.com/Live-Hack-CVE/CVE-2009-1888) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1888.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1888.svg)
 
 ## CVE-2009-1437
  Stack-based buffer overflow in PortableApps CoolPlayer Portable (aka CoolPlayer+ Portable) 2.19.6 and earlier allows remote attackers to execute arbitrary code via a long string in a malformed playlist (.m3u) file. NOTE: this may overlap CVE-2008-3408.
@@ -266,40 +154,12 @@
 
 - [https://github.com/piotrbania/vmware_exploit_pack_CVE-2009-1244](https://github.com/piotrbania/vmware_exploit_pack_CVE-2009-1244) :  ![starts](https://img.shields.io/github/stars/piotrbania/vmware_exploit_pack_CVE-2009-1244.svg) ![forks](https://img.shields.io/github/forks/piotrbania/vmware_exploit_pack_CVE-2009-1244.svg)
 
-## CVE-2009-1191
- mod_proxy_ajp.c in the mod_proxy_ajp module in the Apache HTTP Server 2.2.11 allows remote attackers to obtain sensitive response data, intended for a client that sent an earlier POST request with no request body, via an HTTP request.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-1191](https://github.com/Live-Hack-CVE/CVE-2009-1191) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1191.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1191.svg)
-
 ## CVE-2009-1151
  Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.11.9.5 and 3.x before 3.1.3.1 allows remote attackers to inject arbitrary PHP code into a configuration file via the save action.
 
 
 
 - [https://github.com/pagvac/pocs](https://github.com/pagvac/pocs) :  ![starts](https://img.shields.io/github/stars/pagvac/pocs.svg) ![forks](https://img.shields.io/github/forks/pagvac/pocs.svg)
-
-## CVE-2009-1143
- An issue was discovered in open-vm-tools 2009.03.18-154848. Local users can bypass intended access restrictions on mounting shares via a symlink attack that leverages a realpath race condition in mount.vmhgfs (aka hgfsmounter).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-1143](https://github.com/Live-Hack-CVE/CVE-2009-1143) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1143.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1143.svg)
-
-## CVE-2009-1142
- An issue was discovered in open-vm-tools 2009.03.18-154848. Local users can gain privileges via a symlink attack on /tmp files if vmware-user-suid-wrapper is setuid root and the ChmodChownDirectory function is enabled.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-1142](https://github.com/Live-Hack-CVE/CVE-2009-1142) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-1142.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-1142.svg)
-
-## CVE-2009-0855
- Cross-site scripting (XSS) vulnerability in the administrative console in IBM WebSphere Application Server (WAS) 6.1 before 6.1.0.23 on z/OS allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-0855](https://github.com/Live-Hack-CVE/CVE-2009-0855) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-0855.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-0855.svg)
 
 ## CVE-2009-0824
  Elaborate Bytes ElbyCDIO.sys 6.0.2.0 and earlier, as distributed in SlySoft AnyDVD before 6.5.2.6, Virtual CloneDrive 5.4.2.3 and earlier, CloneDVD 2.9.2.0 and earlier, and CloneCD 5.3.1.3 and earlier, uses the METHOD_NEITHER communication method for IOCTLs and does not properly validate a buffer associated with the Irp object, which allows local users to cause a denial of service (system crash) via a crafted IOCTL call.
@@ -314,13 +174,6 @@
 
 
 - [https://github.com/Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax) :  ![starts](https://img.shields.io/github/stars/Fullmetal5/str2hax.svg) ![forks](https://img.shields.io/github/forks/Fullmetal5/str2hax.svg)
-
-## CVE-2009-0586
- Integer overflow in the gst_vorbis_tag_add_coverart function (gst-libs/gst/tag/gstvorbistag.c) in vorbistag in gst-plugins-base (aka gstreamer-plugins-base) before 0.10.23 in GStreamer allows context-dependent attackers to execute arbitrary code via a crafted COVERART tag that is converted from a base64 representation, which triggers a heap-based buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-0586](https://github.com/Live-Hack-CVE/CVE-2009-0586) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-0586.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-0586.svg)
 
 ## CVE-2009-0473
  Open redirect vulnerability in the web interface in the Rockwell Automation ControlLogix 1756-ENBT/A EtherNet/IP Bridge Module allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.
