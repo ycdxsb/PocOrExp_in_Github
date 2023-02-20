@@ -1,472 +1,3 @@
-## CVE-2015-20107
- In Python (aka CPython) up to 3.10.8, the mailcap module does not add escape characters into commands discovered in the system mailcap file. This may allow attackers to inject shell commands into applications that call mailcap.findmatch with untrusted input (if they lack validation of user-provided filenames or arguments). The fix is also back-ported to 3.7, 3.8, 3.9
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-20107](https://github.com/Live-Hack-CVE/CVE-2015-20107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-20107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-20107.svg)
-
-## CVE-2015-10079
- A vulnerability was found in juju2143 WalrusIRC 0.0.2. It has been rated as problematic. This issue affects the function parseLinks of the file public/parser.js. The manipulation of the argument text leads to cross site scripting. The attack may be initiated remotely. Upgrading to version 0.0.3 is able to address this issue. The name of the patch is 45fd885895ae13e8d9b3a71e89d59768914f60af. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-220751.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10079](https://github.com/Live-Hack-CVE/CVE-2015-10079) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10079.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10079.svg)
-
-## CVE-2015-10078
- A vulnerability, which was classified as problematic, has been found in atwellpub Resend Welcome Email Plugin 1.0.1. This issue affects the function send_welcome_email_url of the file resend-welcome-email.php. The manipulation leads to cross site scripting. The attack may be initiated remotely. Upgrading to version 1.0.2 is able to address this issue. The name of the patch is b14c1f66d307783f0ae74f88088a85999107695c. It is recommended to upgrade the affected component. The identifier VDB-220637 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10078](https://github.com/Live-Hack-CVE/CVE-2015-10078) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10078.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10078.svg)
-
-## CVE-2015-10077
- A vulnerability was found in webbuilders-group silverstripe-kapost-bridge 0.3.3. It has been declared as critical. Affected by this vulnerability is the function index/getPreview of the file code/control/KapostService.php. The manipulation leads to sql injection. The attack can be launched remotely. Upgrading to version 0.4.0 is able to address this issue. The name of the patch is 2e14b0fd0ea35034f90890f364b130fb4645ff35. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-220471.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10077](https://github.com/Live-Hack-CVE/CVE-2015-10077) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10077.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10077.svg)
-
-## CVE-2015-10076
- A vulnerability was found in dimtion Shaarlier up to 1.2.2. It has been declared as critical. Affected by this vulnerability is the function createTag of the file app/src/main/java/com/dimtion/shaarlier/TagsSource.java of the component Tag Handler. The manipulation leads to sql injection. Upgrading to version 1.2.3 is able to address this issue. The name of the patch is 3d1d9b239d9b3cd87e8bed45a0f02da583ad371e. It is recommended to upgrade the affected component. The identifier VDB-220453 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10076](https://github.com/Live-Hack-CVE/CVE-2015-10076) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10076.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10076.svg)
-
-## CVE-2015-10075
- A vulnerability was found in Custom-Content-Width 1.0. It has been declared as problematic. Affected by this vulnerability is the function override_content_width/register_settings of the file custom-content-width.php. The manipulation leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.0.1 is able to address this issue. The name of the patch is e05e0104fc42ad13b57e2b2cb2d1857432624d39. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-220219. NOTE: This attack is not very likely.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10075](https://github.com/Live-Hack-CVE/CVE-2015-10075) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10075.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10075.svg)
-
-## CVE-2015-10074
- A vulnerability was found in OpenSeaMap online_chart 1.2. It has been classified as problematic. Affected is the function init of the file index.php. The manipulation of the argument mtext leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version staging is able to address this issue. The name of the patch is 8649157158f921590d650e2d2f4bdf0df1017e9d. It is recommended to upgrade the affected component. VDB-220218 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10074](https://github.com/Live-Hack-CVE/CVE-2015-10074) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10074.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10074.svg)
-
-## CVE-2015-10072
- A vulnerability classified as problematic was found in NREL api-umbrella-web 0.7.1. This vulnerability affects unknown code of the component Flash Message Handler. The manipulation leads to cross site scripting. The attack can be initiated remotely. Upgrading to version 0.8.0 is able to address this issue. The name of the patch is bcc0e922c61d30367678c8f17a435950969315cd. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-220060.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10072](https://github.com/Live-Hack-CVE/CVE-2015-10072) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10072.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10072.svg)
-
-## CVE-2015-10071
- A vulnerability was found in gitter-badger ezpublish-modern-legacy. It has been rated as problematic. This issue affects some unknown processing of the file kernel/user/forgotpassword.php. The manipulation leads to weak password recovery. Upgrading to version 1.0 is able to address this issue. The name of the patch is 5908d5ee65fec61ce0e321d586530461a210bf2a. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-218951.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10071](https://github.com/Live-Hack-CVE/CVE-2015-10071) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10071.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10071.svg)
-
-## CVE-2015-10070
- A vulnerability was found in copperwall Twiddit. It has been rated as critical. This issue affects some unknown processing of the file index.php. The manipulation leads to sql injection. The name of the patch is 2203d4ce9810bdaccece5c48ff4888658a01acfc. It is recommended to apply a patch to fix this issue. The identifier VDB-218897 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10070](https://github.com/Live-Hack-CVE/CVE-2015-10070) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10070.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10070.svg)
-
-## CVE-2015-10069
- A vulnerability was found in viakondratiuk cash-machine. It has been declared as critical. This vulnerability affects the function is_card_pin_at_session/update_failed_attempts of the file machine.py. The manipulation leads to sql injection. The name of the patch is 62a6e24efdfa195b70d7df140d8287fdc38eb66d. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218896.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10069](https://github.com/Live-Hack-CVE/CVE-2015-10069) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10069.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10069.svg)
-
-## CVE-2015-10068
- A vulnerability classified as critical was found in danynab movify-j. This vulnerability affects the function getByMovieId of the file app/business/impl/ReviewServiceImpl.java. The manipulation of the argument movieId/username leads to sql injection. The name of the patch is c3085e01936a4d7eff1eda3093f25d56cc4d2ec5. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218476.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10068](https://github.com/Live-Hack-CVE/CVE-2015-10068) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10068.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10068.svg)
-
-## CVE-2015-10067
- A vulnerability was found in oznetmaster SSharpSmartThreadPool. It has been classified as problematic. This affects an unknown part of the file SSharpSmartThreadPool/SmartThreadPool.cs. The manipulation leads to race condition within a thread. The name of the patch is 0e58073c831093aad75e077962e9fb55cad0dc5f. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218463.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10067](https://github.com/Live-Hack-CVE/CVE-2015-10067) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10067.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10067.svg)
-
-## CVE-2015-10061
- A vulnerability was found in evandro-machado Trabalho-Web2. It has been classified as critical. This affects an unknown part of the file src/java/br/com/magazine/dao/ClienteDAO.java. The manipulation leads to sql injection. The name of the patch is f59ac954625d0a4f6d34f069a2e26686a7a20aeb. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218427.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10061](https://github.com/Live-Hack-CVE/CVE-2015-10061) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10061.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10061.svg)
-
-## CVE-2015-10057
- A vulnerability was found in Little Apps Little Software Stats. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file inc/class.securelogin.php of the component Password Reset Handler. The manipulation leads to improper access controls. Upgrading to version 0.2 is able to address this issue. The name of the patch is 07ba8273a9311d1383f3686ac7cb32f20770ab1e. It is recommended to upgrade the affected component. The identifier VDB-218401 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10057](https://github.com/Live-Hack-CVE/CVE-2015-10057) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10057.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10057.svg)
-
-## CVE-2015-10056
- A vulnerability was found in 2071174A vinylmap. It has been classified as critical. Affected is the function contact of the file recordstoreapp/views.py. The manipulation leads to sql injection. The name of the patch is b07b79a1e92cc62574ba0492cce000ef4a7bd25f. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218400.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10056](https://github.com/Live-Hack-CVE/CVE-2015-10056) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10056.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10056.svg)
-
-## CVE-2015-10055
- A vulnerability was found in PictureThisWebServer and classified as critical. This issue affects the function router.post of the file routes/user.js. The manipulation of the argument username/password leads to sql injection. The name of the patch is 68b9dc346e88b494df00d88c7d058e96820e1479. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218399.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10055](https://github.com/Live-Hack-CVE/CVE-2015-10055) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10055.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10055.svg)
-
-## CVE-2015-10054
- A vulnerability, which was classified as critical, was found in githuis P2Manage. This affects the function Execute of the file PTwoManage/Database.cs. The manipulation of the argument sql leads to sql injection. The name of the patch is 717380aba80002414f82d93c770035198b7858cc. It is recommended to apply a patch to fix this issue. The identifier VDB-218397 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10054](https://github.com/Live-Hack-CVE/CVE-2015-10054) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10054.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10054.svg)
-
-## CVE-2015-10053
- A vulnerability classified as critical has been found in prodigasistemas curupira up to 0.1.3. Affected is an unknown function of the file app/controllers/curupira/passwords_controller.rb. The manipulation leads to sql injection. Upgrading to version 0.1.4 is able to address this issue. The name of the patch is 93a9a77896bb66c949acb8e64bceafc74bc8c271. It is recommended to upgrade the affected component. VDB-218394 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10053](https://github.com/Live-Hack-CVE/CVE-2015-10053) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10053.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10053.svg)
-
-## CVE-2015-10052
- ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability, which was classified as problematic, was found in calesanz gibb-modul-151. This affects the function bearbeiten/login. The manipulation leads to open redirect. It is possible to initiate the attack remotely. The name of the patch is 88a517dc19443081210c804b655e72770727540d. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218379. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10052](https://github.com/Live-Hack-CVE/CVE-2015-10052) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10052.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10052.svg)
-
-## CVE-2015-10051
- A vulnerability, which was classified as critical, has been found in bony2023 Discussion-Board. Affected by this issue is the function display_all_replies of the file functions/main.php. The manipulation of the argument str leads to sql injection. The name of the patch is 26439bc4c63632d63ba89ebc0f149b25a9010361. It is recommended to apply a patch to fix this issue. VDB-218378 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10051](https://github.com/Live-Hack-CVE/CVE-2015-10051) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10051.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10051.svg)
-
-## CVE-2015-10050
- A vulnerability was found in brandonfire miRNA_Database_by_PHP_MySql. It has been declared as critical. This vulnerability affects the function __construct/select_single_rna/count_rna of the file inc/model.php. The manipulation leads to sql injection. The name of the patch is 307c5d510841e6142ddcbbdbb93d0e8a0dc3fd6a. It is recommended to apply a patch to fix this issue. VDB-218374 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10050](https://github.com/Live-Hack-CVE/CVE-2015-10050) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10050.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10050.svg)
-
-## CVE-2015-10049
- A vulnerability was found in Overdrive Eletrnica course-builder up to 1.7.x and classified as problematic. Affected by this issue is some unknown functionality of the file coursebuilder/modules/oeditor/oeditor.html. The manipulation leads to cross site scripting. The attack may be launched remotely. Upgrading to version 1.8.0 is able to address this issue. The name of the patch is e39645fd714adb7e549908780235911ae282b21b. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218372.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10049](https://github.com/Live-Hack-CVE/CVE-2015-10049) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10049.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10049.svg)
-
-## CVE-2015-10048
- A vulnerability was found in bmattoso desafio_buzz_woody. It has been rated as critical. This issue affects some unknown processing. The manipulation leads to sql injection. The name of the patch is cb8220cbae06082c969b1776fcb2fdafb3a1006b. It is recommended to apply a patch to fix this issue. The identifier VDB-218357 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10048](https://github.com/Live-Hack-CVE/CVE-2015-10048) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10048.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10048.svg)
-
-## CVE-2015-10047
- A vulnerability was found in KYUUBl school-register. It has been classified as critical. This affects an unknown part of the file src/DBManager.java. The manipulation leads to sql injection. The name of the patch is 1cf7e01b878aee923f2b22cc2535c71a680e4c30. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218355.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10047](https://github.com/Live-Hack-CVE/CVE-2015-10047) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10047.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10047.svg)
-
-## CVE-2015-10046
- A vulnerability has been found in lolfeedback and classified as critical. Affected by this vulnerability is an unknown functionality. The manipulation leads to sql injection. The name of the patch is 6cf0b5f2228cd8765f734badd37910051000f2b2. It is recommended to apply a patch to fix this issue. The identifier VDB-218353 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10046](https://github.com/Live-Hack-CVE/CVE-2015-10046) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10046.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10046.svg)
-
-## CVE-2015-10045
- A vulnerability, which was classified as critical, was found in tutrantta project_todolist. Affected is the function getAffectedRows/where/insert/update in the library library/Database.php. The manipulation leads to sql injection. The name of the patch is 194a0411bbe11aa4813f13c66b9e8ea403539141. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218352.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10045](https://github.com/Live-Hack-CVE/CVE-2015-10045) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10045.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10045.svg)
-
-## CVE-2015-10044
- A vulnerability classified as critical was found in gophergala sqldump. This vulnerability affects unknown code. The manipulation leads to sql injection. The name of the patch is 76db54e9073b5248b8863e71a63d66a32d567d21. It is recommended to apply a patch to fix this issue. VDB-218350 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10044](https://github.com/Live-Hack-CVE/CVE-2015-10044) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10044.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10044.svg)
-
-## CVE-2015-10043
- A vulnerability, which was classified as critical, was found in abreen Apollo. This affects an unknown part. The manipulation of the argument file leads to path traversal. The name of the patch is 6206406630780bbd074aff34f4683fb764faba71. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218307.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10043](https://github.com/Live-Hack-CVE/CVE-2015-10043) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10043.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10043.svg)
-
-## CVE-2015-10042
- ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability classified as critical was found in Dovgalyuk AIBattle. Affected by this vulnerability is the function registerUser of the file site/procedures.php. The manipulation of the argument postLogin leads to sql injection. The name of the patch is 448e9880aac18ae7832f8d065e03e46ce0f1d3e3. It is recommended to apply a patch to fix this issue. The identifier VDB-218305 was assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10042](https://github.com/Live-Hack-CVE/CVE-2015-10042) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10042.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10042.svg)
-
-## CVE-2015-10041
- ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability classified as critical has been found in Dovgalyuk AIBattle. Affected is the function sendComments of the file site/procedures.php. The manipulation of the argument text leads to sql injection. The name of the patch is e3aa4d0900167641d41cbccf53909229f00381c9. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218304. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10041](https://github.com/Live-Hack-CVE/CVE-2015-10041) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10041.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10041.svg)
-
-## CVE-2015-10040
- A vulnerability was found in gitlearn. It has been declared as problematic. This vulnerability affects the function getGrade/getOutOf of the file scripts/config.sh of the component Escape Sequence Handler. The manipulation leads to injection. The attack can be initiated remotely. The name of the patch is 3faa5deaa509012069afe75cd03c21bda5050a64. It is recommended to apply a patch to fix this issue. VDB-218302 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10040](https://github.com/Live-Hack-CVE/CVE-2015-10040) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10040.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10040.svg)
-
-## CVE-2015-10039
- A vulnerability was found in dobos domino. It has been rated as critical. Affected by this issue is some unknown functionality in the library src/Complex.Domino.Lib/Lib/EntityFactory.cs. The manipulation leads to sql injection. Upgrading to version 0.1.5524.38553 is able to address this issue. The name of the patch is 16f039073709a21a76526110d773a6cce0ce753a. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218024.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10039](https://github.com/Live-Hack-CVE/CVE-2015-10039) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10039.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10039.svg)
-
-## CVE-2015-10038
- A vulnerability was found in nym3r0s pplv2. It has been declared as critical. Affected by this vulnerability is an unknown functionality. The manipulation leads to sql injection. The name of the patch is 28f8b0550104044da09f04659797487c59f85b00. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-218023.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10038](https://github.com/Live-Hack-CVE/CVE-2015-10038) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10038.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10038.svg)
-
-## CVE-2015-10037
- A vulnerability, which was classified as critical, was found in ACI_Escola. This affects an unknown part. The manipulation leads to sql injection. The name of the patch is 34eed1f7b9295d1424912f79989d8aba5de41e9f. It is recommended to apply a patch to fix this issue. The identifier VDB-217965 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10037](https://github.com/Live-Hack-CVE/CVE-2015-10037) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10037.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10037.svg)
-
-## CVE-2015-10036
- A vulnerability was found in kylebebak dronfelipe. It has been declared as critical. Affected by this vulnerability is an unknown functionality. The manipulation leads to sql injection. The name of the patch is 87405b74fe651892d79d0dff62ed17a7eaef6a60. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217951.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10036](https://github.com/Live-Hack-CVE/CVE-2015-10036) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10036.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10036.svg)
-
-## CVE-2015-10035
- A vulnerability was found in gperson angular-test-reporter and classified as critical. This issue affects the function getProjectTables/addTest of the file rest-server/data-server.js. The manipulation leads to sql injection. The name of the patch is a29d8ae121b46ebfa96a55a9106466ab2ef166ae. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217715.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10035](https://github.com/Live-Hack-CVE/CVE-2015-10035) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10035.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10035.svg)
-
-## CVE-2015-10034
- A vulnerability has been found in j-nowak workout-organizer and classified as critical. This vulnerability affects unknown code. The manipulation leads to sql injection. The name of the patch is 13cd6c3d1210640bfdb39872b2bb3597aa991279. It is recommended to apply a patch to fix this issue. VDB-217714 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10034](https://github.com/Live-Hack-CVE/CVE-2015-10034) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10034.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10034.svg)
-
-## CVE-2015-10033
- A vulnerability, which was classified as problematic, was found in jvvlee MerlinsBoard. This affects an unknown part of the component Grade Handler. The manipulation leads to improper authorization. The name of the patch is 134f5481e2914b7f096cd92a22b1e6bcb8e6dfe5. It is recommended to apply a patch to fix this issue. The identifier VDB-217713 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10033](https://github.com/Live-Hack-CVE/CVE-2015-10033) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10033.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10033.svg)
-
-## CVE-2015-10032
- A vulnerability was found in HealthMateWeb. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file createaccount.php. The manipulation of the argument username/password/first_name/last_name/company/phone leads to cross site scripting. The attack can be launched remotely. The name of the patch is 472776c25b1046ecaf962c46fed7c713c72c28e3. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217663.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10032](https://github.com/Live-Hack-CVE/CVE-2015-10032) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10032.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10032.svg)
-
-## CVE-2015-10031
- A vulnerability classified as critical was found in purpleparrots 491-Project. This vulnerability affects unknown code of the file update.php of the component Highscore Handler. The manipulation leads to sql injection. The name of the patch is a812a5e4cf72f2a635a716086fe1ee2b8fa0b1ab. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217648.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10031](https://github.com/Live-Hack-CVE/CVE-2015-10031) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10031.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10031.svg)
-
-## CVE-2015-10030
- A vulnerability has been found in SUKOHI Surpass and classified as critical. This vulnerability affects unknown code of the file src/Sukohi/Surpass/Surpass.php. The manipulation of the argument dir leads to pathname traversal. Upgrading to version 1.0.0 is able to address this issue. The name of the patch is d22337d453a2a14194cdb02bf12cdf9d9f827aa7. It is recommended to upgrade the affected component. VDB-217642 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10030](https://github.com/Live-Hack-CVE/CVE-2015-10030) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10030.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10030.svg)
-
-## CVE-2015-10029
- A vulnerability classified as problematic was found in kelvinmo simplexrd up to 3.1.0. This vulnerability affects unknown code of the file simplexrd/simplexrd.class.php. The manipulation leads to xml external entity reference. Upgrading to version 3.1.1 is able to address this issue. The name of the patch is 4c9f2e028523ed705b555eca2c18c64e71f1a35d. It is recommended to upgrade the affected component. VDB-217630 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10029](https://github.com/Live-Hack-CVE/CVE-2015-10029) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10029.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10029.svg)
-
-## CVE-2015-10028
- A vulnerability has been found in ss15-this-is-sparta and classified as problematic. This vulnerability affects unknown code of the file js/roomElement.js of the component Main Page. The manipulation leads to cross site scripting. The attack can be initiated remotely. The name of the patch is ba2f71ad3a46e5949ee0c510b544fa4ea973baaa. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217624.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10028](https://github.com/Live-Hack-CVE/CVE-2015-10028) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10028.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10028.svg)
-
-## CVE-2015-10027
- A vulnerability, which was classified as problematic, has been found in hydrian TTRSS-Auth-LDAP. Affected by this issue is some unknown functionality of the component Username Handler. The manipulation leads to ldap injection. Upgrading to version 2.0b1 is able to address this issue. The name of the patch is a7f7a5a82d9202a5c40d606a5c519ba61b224eb8. It is recommended to upgrade the affected component. VDB-217622 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10027](https://github.com/Live-Hack-CVE/CVE-2015-10027) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10027.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10027.svg)
-
-## CVE-2015-10026
- A vulnerability was found in tiredtyrant flairbot. It has been declared as critical. This vulnerability affects unknown code of the file flair.py. The manipulation leads to sql injection. The name of the patch is 5e112b68c6faad1d4699d02c1ebbb7daf48ef8fb. It is recommended to apply a patch to fix this issue. VDB-217618 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10026](https://github.com/Live-Hack-CVE/CVE-2015-10026) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10026.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10026.svg)
-
-## CVE-2015-10025
- A vulnerability has been found in luelista miniConf up to 1.7.6 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file miniConf/MessageView.cs of the component URL Scanning. The manipulation leads to denial of service. Upgrading to version 1.7.7 and 1.8.0 is able to address this issue. The name of the patch is c06c2e5116c306e4e1bc79779f0eda2d1182f655. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-217615.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10025](https://github.com/Live-Hack-CVE/CVE-2015-10025) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10025.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10025.svg)
-
-## CVE-2015-10024
- A vulnerability classified as critical was found in hoffie larasync. This vulnerability affects unknown code of the file repository/content/file_storage.go. The manipulation leads to path traversal. The name of the patch is 776bad422f4bd4930d09491711246bbeb1be9ba5. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217612.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10024](https://github.com/Live-Hack-CVE/CVE-2015-10024) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10024.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10024.svg)
-
-## CVE-2015-10023
- A vulnerability classified as critical has been found in Fumon trello-octometric. This affects the function main of the file metrics-ui/server/srv.go. The manipulation of the argument num leads to sql injection. The name of the patch is a1f1754933fbf21e2221fbc671c81a47de6a04ef. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217611.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10023](https://github.com/Live-Hack-CVE/CVE-2015-10023) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10023.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10023.svg)
-
-## CVE-2015-10022
- A vulnerability was found in IISH nlgis2. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file scripts/etl/custom_import.pl. The manipulation leads to sql injection. The name of the patch is 8bdb6fcf7209584eaf1232437f0f53e735b2b34c. It is recommended to apply a patch to fix this issue. The identifier VDB-217609 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10022](https://github.com/Live-Hack-CVE/CVE-2015-10022) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10022.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10022.svg)
-
-## CVE-2015-10021
- A vulnerability was found in ritterim definely. It has been classified as problematic. Affected is an unknown function of the file src/database.js. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. The name of the patch is b31a022ba4d8d17148445a13ebb5a42ad593dbaa. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217608.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10021](https://github.com/Live-Hack-CVE/CVE-2015-10021) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10021.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10021.svg)
-
-## CVE-2015-10020
- A vulnerability has been found in ssn2013 cis450Project and classified as critical. This vulnerability affects the function addUser of the file HeatMapServer/src/com/datformers/servlet/AddAppUser.java. The manipulation leads to sql injection. The name of the patch is 39b495011437a105c7670e17e071f99195b4922e. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218380.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10020](https://github.com/Live-Hack-CVE/CVE-2015-10020) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10020.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10020.svg)
-
-## CVE-2015-10019
- A vulnerability, which was classified as problematic, has been found in foxoverflow MySimplifiedSQL. This issue affects some unknown processing of the file MySimplifiedSQL_Examples.php. The manipulation of the argument FirstName/LastName leads to cross site scripting. The attack may be initiated remotely. The name of the patch is 3b7481c72786f88041b7c2d83bb4f219f77f1293. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217595.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10019](https://github.com/Live-Hack-CVE/CVE-2015-10019) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10019.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10019.svg)
-
-## CVE-2015-10018
- A vulnerability has been found in DBRisinajumi d2files and classified as critical. Affected by this vulnerability is the function actionUpload/actionDownloadFile of the file controllers/D2filesController.php. The manipulation leads to sql injection. Upgrading to version 1.0.0 is able to address this issue. The name of the patch is b5767f2ec9d0f3cbfda7f13c84740e2179c90574. It is recommended to upgrade the affected component. The identifier VDB-217561 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10018](https://github.com/Live-Hack-CVE/CVE-2015-10018) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10018.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10018.svg)
-
-## CVE-2015-10017
- A vulnerability has been found in HPI-Information-Systems ProLOD and classified as critical. This vulnerability affects unknown code. The manipulation of the argument this leads to sql injection. The name of the patch is 3f710905458d49c77530bd3cbcd8960457566b73. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217552.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10017](https://github.com/Live-Hack-CVE/CVE-2015-10017) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10017.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10017.svg)
-
-## CVE-2015-10016
- A vulnerability, which was classified as critical, has been found in jeff-kelley opensim-utils. Affected by this issue is the function DatabaseForRegion of the file regionscrits.php. The manipulation of the argument region leads to sql injection. The name of the patch is c29e5c729a833a29dbf5b1e505a0553fe154575e. It is recommended to apply a patch to fix this issue. VDB-217550 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10016](https://github.com/Live-Hack-CVE/CVE-2015-10016) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10016.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10016.svg)
-
-## CVE-2015-10015
- A vulnerability, which was classified as critical, has been found in glidernet ogn-live. This issue affects some unknown processing. The manipulation leads to sql injection. The name of the patch is bc0f19965f760587645583b7624d66a260946e01. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217487.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10015](https://github.com/Live-Hack-CVE/CVE-2015-10015) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10015.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10015.svg)
-
-## CVE-2015-10014
- A vulnerability classified as critical has been found in arekk uke. This affects an unknown part of the file lib/uke/finder.rb. The manipulation leads to sql injection. The name of the patch is 52fd3b2d0bc16227ef57b7b98a3658bb67c1833f. It is recommended to apply a patch to fix this issue. The identifier VDB-217485 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10014](https://github.com/Live-Hack-CVE/CVE-2015-10014) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10014.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10014.svg)
-
-## CVE-2015-10013
- A vulnerability was found in WebDevStudios taxonomy-switcher Plugin up to 1.0.3. It has been classified as problematic. Affected is the function taxonomy_switcher_init of the file taxonomy-switcher.php. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 1.0.4 is able to address this issue. It is recommended to upgrade the affected component. VDB-217446 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10013](https://github.com/Live-Hack-CVE/CVE-2015-10013) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10013.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10013.svg)
-
-## CVE-2015-10012
- ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability was found in sumocoders FrameworkUserBundle up to 1.3.x. It has been rated as problematic. Affected by this issue is some unknown functionality of the file Resources/views/Security/login.html.twig. The manipulation leads to information exposure through error message. Upgrading to version 1.4.0 is able to address this issue. The name of the patch is abe4993390ba9bd7821ab12678270556645f94c8. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-217268. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10012](https://github.com/Live-Hack-CVE/CVE-2015-10012) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10012.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10012.svg)
-
-## CVE-2015-10011
- A vulnerability classified as problematic has been found in OpenDNS OpenResolve. This affects an unknown part of the file resolverapi/endpoints.py. The manipulation leads to improper output neutralization for logs. The name of the patch is 9eba6ba5abd89d0e36a008921eb307fcef8c5311. It is recommended to apply a patch to fix this issue. The identifier VDB-217197 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10011](https://github.com/Live-Hack-CVE/CVE-2015-10011) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10011.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10011.svg)
-
-## CVE-2015-10009
- A vulnerability was found in nterchange up to 4.1.0. It has been rated as critical. This issue affects the function getContent of the file app/controllers/code_caller_controller.php. The manipulation of the argument q with the input %5C%27%29;phpinfo%28%29;/* leads to code injection. The exploit has been disclosed to the public and may be used. Upgrading to version 4.1.1 is able to address this issue. The name of the patch is fba7d89176fba8fe289edd58835fe45080797d99. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-217187.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10009](https://github.com/Live-Hack-CVE/CVE-2015-10009) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10009.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10009.svg)
-
-## CVE-2015-10008
- ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability was found in 82Flex WEIPDCRM. It has been classified as critical. This affects an unknown part. The manipulation leads to sql injection. It is possible to initiate the attack remotely. The name of the patch is 43bad79392332fa39e31b95268e76fbda9fec3a4. It is recommended to apply a patch to fix this issue. The identifier VDB-217185 was assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10008](https://github.com/Live-Hack-CVE/CVE-2015-10008) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10008.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10008.svg)
-
-## CVE-2015-10007
- ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability was found in 82Flex WEIPDCRM and classified as problematic. Affected by this issue is some unknown functionality. The manipulation leads to cross site scripting. The attack may be launched remotely. The name of the patch is 43bad79392332fa39e31b95268e76fbda9fec3a4. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217184. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10007](https://github.com/Live-Hack-CVE/CVE-2015-10007) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10007.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10007.svg)
-
-## CVE-2015-10006
- A vulnerability, which was classified as problematic, has been found in admont28 Ingnovarq. Affected by this issue is some unknown functionality of the file app/controller/insertarSliderAjax.php. The manipulation of the argument imagetitle leads to cross site scripting. The attack may be launched remotely. The name of the patch is 9d18a39944d79dfedacd754a742df38f99d3c0e2. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217172.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10006](https://github.com/Live-Hack-CVE/CVE-2015-10006) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10006.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10006.svg)
-
-## CVE-2015-10005
- A vulnerability was found in markdown-it up to 2.x. It has been classified as problematic. Affected is an unknown function of the file lib/common/html_re.js. The manipulation leads to inefficient regular expression complexity. Upgrading to version 3.0.0 is able to address this issue. The name of the patch is 89c8620157d6e38f9872811620d25138fc9d1b0d. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-216852.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-10005](https://github.com/Live-Hack-CVE/CVE-2015-10005) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-10005.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-10005.svg)
-
-## CVE-2015-9261
- huft_build in archival/libarchive/decompress_gunzip.c in BusyBox before 1.27.2 misuses a pointer, causing segfaults and an application crash during an unzip operation on a specially crafted ZIP file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-9261](https://github.com/Live-Hack-CVE/CVE-2015-9261) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-9261.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-9261.svg)
-
 ## CVE-2015-9251
  jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed.
 
@@ -480,48 +11,6 @@
 
 
 - [https://github.com/aalex954/jwt-key-confusion-poc](https://github.com/aalex954/jwt-key-confusion-poc) :  ![starts](https://img.shields.io/github/stars/aalex954/jwt-key-confusion-poc.svg) ![forks](https://img.shields.io/github/forks/aalex954/jwt-key-confusion-poc.svg)
-
-## CVE-2015-8970
- crypto/algif_skcipher.c in the Linux kernel before 4.4.2 does not verify that a setkey operation has been performed on an AF_ALG socket before an accept system call is processed, which allows local users to cause a denial of service (NULL pointer dereference and system crash) via a crafted application that does not supply a key, related to the lrw_crypt function in crypto/lrw.c.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8970](https://github.com/Live-Hack-CVE/CVE-2015-8970) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8970.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8970.svg)
-
-## CVE-2015-8879
- The odbc_bindcols function in ext/odbc/php_odbc.c in PHP before 5.6.12 mishandles driver behavior for SQL_WVARCHAR columns, which allows remote attackers to cause a denial of service (application crash) in opportunistic circumstances by leveraging use of the odbc_fetch_array function to access a certain type of Microsoft SQL Server table.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8879](https://github.com/Live-Hack-CVE/CVE-2015-8879) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8879.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8879.svg)
-
-## CVE-2015-8873
- Stack consumption vulnerability in Zend/zend_exceptions.c in PHP before 5.4.44, 5.5.x before 5.5.28, and 5.6.x before 5.6.12 allows remote attackers to cause a denial of service (segmentation fault) via recursive method calls.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8873](https://github.com/Live-Hack-CVE/CVE-2015-8873) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8873.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8873.svg)
-
-## CVE-2015-8787
- The nf_nat_redirect_ipv4 function in net/netfilter/nf_nat_redirect.c in the Linux kernel before 4.4 allows remote attackers to cause a denial of service (NULL pointer dereference and system crash) or possibly have unspecified other impact by sending certain IPv4 packets to an incompletely configured interface, a related issue to CVE-2003-1604.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8787](https://github.com/Live-Hack-CVE/CVE-2015-8787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8787.svg)
-
-## CVE-2015-8745
- QEMU (aka Quick Emulator) built with a VMWARE VMXNET3 paravirtual NIC emulator support is vulnerable to crash issue. It could occur while reading Interrupt Mask Registers (IMR). A privileged (CAP_SYS_RAWIO) guest user could use this flaw to crash the QEMU process instance resulting in DoS.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8745](https://github.com/Live-Hack-CVE/CVE-2015-8745) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8745.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8745.svg)
-
-## CVE-2015-8744
- QEMU (aka Quick Emulator) built with a VMWARE VMXNET3 paravirtual NIC emulator support is vulnerable to crash issue. It occurs when a guest sends a Layer-2 packet smaller than 22 bytes. A privileged (CAP_SYS_RAWIO) guest user could use this flaw to crash the QEMU process instance resulting in DoS.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8744](https://github.com/Live-Hack-CVE/CVE-2015-8744) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8744.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8744.svg)
 
 ## CVE-2015-8710
  The htmlParseComment function in HTMLparser.c in libxml2 allows attackers to obtain sensitive information, cause a denial of service (out-of-bounds heap memory access and application crash), or possibly have unspecified other impact via an unclosed HTML comment.
@@ -538,8 +27,6 @@
 - [https://github.com/whu-enjoy/CVE-2015-8660](https://github.com/whu-enjoy/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/whu-enjoy/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/whu-enjoy/CVE-2015-8660.svg)
 
 - [https://github.com/nhamle2/CVE-2015-8660](https://github.com/nhamle2/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/nhamle2/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/nhamle2/CVE-2015-8660.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8660](https://github.com/Live-Hack-CVE/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8660.svg)
 
 ## CVE-2015-8651
  Integer overflow in Adobe Flash Player before 18.0.0.324 and 19.x and 20.x before 20.0.0.267 on Windows and OS X and before 11.2.202.559 on Linux, Adobe AIR before 20.0.0.233, Adobe AIR SDK before 20.0.0.233, and Adobe AIR SDK &amp; Compiler before 20.0.0.233 allows attackers to execute arbitrary code via unspecified vectors.
@@ -582,47 +69,12 @@
 
 - [https://github.com/bittorrent3389/CVE-2015-8543_for_SLE12SP1](https://github.com/bittorrent3389/CVE-2015-8543_for_SLE12SP1) :  ![starts](https://img.shields.io/github/stars/bittorrent3389/CVE-2015-8543_for_SLE12SP1.svg) ![forks](https://img.shields.io/github/forks/bittorrent3389/CVE-2015-8543_for_SLE12SP1.svg)
 
-## CVE-2015-8504
- Qemu, when built with VNC display driver support, allows remote attackers to cause a denial of service (arithmetic exception and application crash) via crafted SetPixelFormat messages from a client.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8504](https://github.com/Live-Hack-CVE/CVE-2015-8504) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8504.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8504.svg)
-
-## CVE-2015-8467
- The samldb_check_user_account_control_acl function in dsdb/samdb/ldb_modules/samldb.c in Samba 4.x before 4.1.22, 4.2.x before 4.2.7, and 4.3.x before 4.3.3 does not properly check for administrative privileges during creation of machine accounts, which allows remote authenticated users to bypass intended access restrictions by leveraging the existence of a domain with both a Samba DC and a Windows DC, a similar issue to CVE-2015-2535.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8467](https://github.com/Live-Hack-CVE/CVE-2015-8467) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8467.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8467.svg)
-
-## CVE-2015-8393
- pcregrep in PCRE before 8.38 mishandles the -q option for binary files, which might allow remote attackers to obtain sensitive information via a crafted file, as demonstrated by a CGI script that sends stdout data to a client.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8393](https://github.com/Live-Hack-CVE/CVE-2015-8393) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8393.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8393.svg)
-
 ## CVE-2015-8351
  PHP remote file inclusion vulnerability in the Gwolle Guestbook plugin before 1.5.4 for WordPress, when allow_url_include is enabled, allows remote authenticated users to execute arbitrary PHP code via a URL in the abspath parameter to frontend/captcha/ajaxresponse.php.  NOTE: this can also be leveraged to include and execute arbitrary local files via directory traversal sequences regardless of whether allow_url_include is enabled.
 
 
 
 - [https://github.com/Ki11i0n4ir3/CVE-2015-8351](https://github.com/Ki11i0n4ir3/CVE-2015-8351) :  ![starts](https://img.shields.io/github/stars/Ki11i0n4ir3/CVE-2015-8351.svg) ![forks](https://img.shields.io/github/forks/Ki11i0n4ir3/CVE-2015-8351.svg)
-
-## CVE-2015-8325
- The do_setup_env function in session.c in sshd in OpenSSH through 7.2p2, when the UseLogin feature is enabled and PAM is configured to read .pam_environment files in user home directories, allows local users to gain privileges by triggering a crafted environment for the /bin/login program, as demonstrated by an LD_PRELOAD environment variable.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8325](https://github.com/Live-Hack-CVE/CVE-2015-8325) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8325.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8325.svg)
-
-## CVE-2015-8324
- The ext4 implementation in the Linux kernel before 2.6.34 does not properly track the initialization of certain data structures, which allows physically proximate attackers to cause a denial of service (NULL pointer dereference and panic) via a crafted USB device, related to the ext4_fill_super function.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-8324](https://github.com/Live-Hack-CVE/CVE-2015-8324) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-8324.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-8324.svg)
 
 ## CVE-2015-8299
  Buffer overflow in the Group messages monitor (Falcon) in KNX ETS 4.1.5 (Build 3246) allows remote attackers to execute arbitrary code via a crafted KNXnet/IP UDP packet.
@@ -660,13 +112,6 @@
 
 
 - [https://github.com/Pray3r/CVE-2015-8088](https://github.com/Pray3r/CVE-2015-8088) :  ![starts](https://img.shields.io/github/stars/Pray3r/CVE-2015-8088.svg) ![forks](https://img.shields.io/github/forks/Pray3r/CVE-2015-8088.svg)
-
-## CVE-2015-7872
- The key_gc_unused_keys function in security/keys/gc.c in the Linux kernel through 4.2.6 allows local users to cause a denial of service (OOPS) via crafted keyctl commands.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7872](https://github.com/Live-Hack-CVE/CVE-2015-7872) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7872.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7872.svg)
 
 ## CVE-2015-7858
  SQL injection vulnerability in Joomla! 3.2 before 3.4.4 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, a different vulnerability than CVE-2015-7297.
@@ -709,47 +154,12 @@
 
 - [https://github.com/cinno/CVE-2015-7755-POC](https://github.com/cinno/CVE-2015-7755-POC) :  ![starts](https://img.shields.io/github/stars/cinno/CVE-2015-7755-POC.svg) ![forks](https://img.shields.io/github/forks/cinno/CVE-2015-7755-POC.svg)
 
-## CVE-2015-7744
- wolfSSL (formerly CyaSSL) before 3.6.8 does not properly handle faults associated with the Chinese Remainder Theorem (CRT) process when allowing ephemeral key exchange without low memory optimizations on a server, which makes it easier for remote attackers to obtain private RSA keys by capturing TLS handshakes, aka a Lenstra attack.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7744](https://github.com/Live-Hack-CVE/CVE-2015-7744) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7744.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7744.svg)
-
-## CVE-2015-7713
- OpenStack Compute (Nova) before 2014.2.4 (juno) and 2015.1.x before 2015.1.2 (kilo) do not properly apply security group changes, which allows remote attackers to bypass intended restriction by leveraging an instance that was running when the change was made.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7713](https://github.com/Live-Hack-CVE/CVE-2015-7713) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7713.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7713.svg)
-
 ## CVE-2015-7576
  The http_basic_authenticate_with method in actionpack/lib/action_controller/metal/http_authentication.rb in the Basic Authentication implementation in Action Controller in Ruby on Rails before 3.2.22.1, 4.0.x and 4.1.x before 4.1.14.1, 4.2.x before 4.2.5.1, and 5.x before 5.0.0.beta1.1 does not use a constant-time algorithm for verifying credentials, which makes it easier for remote attackers to bypass authentication by measuring timing differences.
 
 
 
 - [https://github.com/yield-c/CVE2015-7576](https://github.com/yield-c/CVE2015-7576) :  ![starts](https://img.shields.io/github/stars/yield-c/CVE2015-7576.svg) ![forks](https://img.shields.io/github/forks/yield-c/CVE2015-7576.svg)
-
-## CVE-2015-7560
- The SMB1 implementation in smbd in Samba 3.x and 4.x before 4.1.23, 4.2.x before 4.2.9, 4.3.x before 4.3.6, and 4.4.x before 4.4.0rc4 allows remote authenticated users to modify arbitrary ACLs by using a UNIX SMB1 call to create a symlink, and then using a non-UNIX SMB1 call to write to the ACL content.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7560](https://github.com/Live-Hack-CVE/CVE-2015-7560) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7560.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7560.svg)
-
-## CVE-2015-7553
- Race condition in the kernel in Red Hat Enterprise Linux 7, kernel-rt and Red Hat Enterprise MRG 2, when the nfnetlink_log module is loaded, allows local users to cause a denial of service (panic) by creating netlink sockets.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7553](https://github.com/Live-Hack-CVE/CVE-2015-7553) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7553.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7553.svg)
-
-## CVE-2015-7549
- The MSI-X MMIO support in hw/pci/msix.c in QEMU (aka Quick Emulator) allows local guest OS privileged users to cause a denial of service (NULL pointer dereference and QEMU process crash) by leveraging failure to define the .write method.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7549](https://github.com/Live-Hack-CVE/CVE-2015-7549) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7549.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7549.svg)
 
 ## CVE-2015-7547
  Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functions in the libresolv library in the GNU C Library (aka glibc or libc6) before 2.23 allow remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via a crafted DNS response that triggers a call to the getaddrinfo function with the AF_UNSPEC or AF_INET6 address family, related to performing &quot;dual A/AAAA DNS queries&quot; and the libnss_dns.so.2 NSS module.
@@ -785,75 +195,12 @@
 
 - [https://github.com/avuserow/bug-free-chainsaw](https://github.com/avuserow/bug-free-chainsaw) :  ![starts](https://img.shields.io/github/stars/avuserow/bug-free-chainsaw.svg) ![forks](https://img.shields.io/github/forks/avuserow/bug-free-chainsaw.svg)
 
-## CVE-2015-7544
- redhat-support-plugin-rhev in Red Hat Enterprise Virtualization Manager (aka RHEV Manager) before 3.6 allows remote authenticated users with the SuperUser role on any Entity to execute arbitrary commands on any host in the RHEV environment.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7544](https://github.com/Live-Hack-CVE/CVE-2015-7544) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7544.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7544.svg)
-
-## CVE-2015-7540
- The LDAP server in the AD domain controller in Samba 4.x before 4.1.22 does not check return values to ensure successful ASN.1 memory allocation, which allows remote attackers to cause a denial of service (memory consumption and daemon crash) via crafted packets.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7540](https://github.com/Live-Hack-CVE/CVE-2015-7540) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7540.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7540.svg)
-
-## CVE-2015-7529
- sosreport in SoS 3.x allows local users to obtain sensitive information from sosreport files or gain privileges via a symlink attack on an archive file in a temporary directory, as demonstrated by sosreport-$hostname-$date.tar in /tmp/sosreport-$hostname-$date.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7529](https://github.com/Live-Hack-CVE/CVE-2015-7529) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7529.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7529.svg)
-
-## CVE-2015-7512
- Buffer overflow in the pcnet_receive function in hw/net/pcnet.c in QEMU, when a guest NIC has a larger MTU, allows remote attackers to cause a denial of service (guest OS crash) or execute arbitrary code via a large packet.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7512](https://github.com/Live-Hack-CVE/CVE-2015-7512) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7512.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7512.svg)
-
-## CVE-2015-7509
- fs/ext4/namei.c in the Linux kernel before 3.7 allows physically proximate attackers to cause a denial of service (system crash) via a crafted no-journal filesystem, a related issue to CVE-2013-2015.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7509](https://github.com/Live-Hack-CVE/CVE-2015-7509) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7509.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7509.svg)
-
-## CVE-2015-7504
- Heap-based buffer overflow in the pcnet_receive function in hw/net/pcnet.c in QEMU allows guest OS administrators to cause a denial of service (instance crash) or possibly execute arbitrary code via a series of packets in loopback mode.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7504](https://github.com/Live-Hack-CVE/CVE-2015-7504) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7504.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7504.svg)
-
-## CVE-2015-7502
- Red Hat CloudForms 3.2 Management Engine (CFME) 5.4.4 and CloudForms 4.0 Management Engine (CFME) 5.5.0 do not properly encrypt data in the backend PostgreSQL database, which might allow local users to obtain sensitive data and consequently gain privileges by leveraging access to (1) database exports or (2) log files.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7502](https://github.com/Live-Hack-CVE/CVE-2015-7502) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7502.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7502.svg)
-
 ## CVE-2015-7501
  Red Hat JBoss A-MQ 6.x; BPM Suite (BPMS) 6.x; BRMS 6.x and 5.x; Data Grid (JDG) 6.x; Data Virtualization (JDV) 6.x and 5.x; Enterprise Application Platform 6.x, 5.x, and 4.3.x; Fuse 6.x; Fuse Service Works (FSW) 6.x; Operations Network (JBoss ON) 3.x; Portal 6.x; SOA Platform (SOA-P) 5.x; Web Server (JWS) 3.x; Red Hat OpenShift/xPAAS 3.x; and Red Hat Subscription Asset Manager 1.3 allow remote attackers to execute arbitrary commands via a crafted serialized Java object, related to the Apache Commons Collections (ACC) library.
 
 
 
 - [https://github.com/ianxtianxt/CVE-2015-7501](https://github.com/ianxtianxt/CVE-2015-7501) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2015-7501.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2015-7501.svg)
-
-## CVE-2015-7500
- The xmlParseMisc function in parser.c in libxml2 before 2.9.3 allows context-dependent attackers to cause a denial of service (out-of-bounds heap read) via unspecified vectors related to incorrect entities boundaries and start tags.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7500](https://github.com/Live-Hack-CVE/CVE-2015-7500) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7500.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7500.svg)
-
-## CVE-2015-7499
- Heap-based buffer overflow in the xmlGROW function in parser.c in libxml2 before 2.9.3 allows context-dependent attackers to obtain sensitive process memory information via unspecified vectors.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-7499](https://github.com/Live-Hack-CVE/CVE-2015-7499) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-7499.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-7499.svg)
 
 ## CVE-2015-7297
  SQL injection vulnerability in Joomla! 3.2 before 3.4.4 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, a different vulnerability than CVE-2015-7858.
@@ -953,41 +300,6 @@
 
 - [https://github.com/CallMeJonas/CVE-2015-6576](https://github.com/CallMeJonas/CVE-2015-6576) :  ![starts](https://img.shields.io/github/stars/CallMeJonas/CVE-2015-6576.svg) ![forks](https://img.shields.io/github/forks/CallMeJonas/CVE-2015-6576.svg)
 
-## CVE-2015-6574
- The SNAP Lite component in certain SISCO MMS-EASE and AX-S4 ICCP products allows remote attackers to cause a denial of service (CPU consumption) via a crafted packet.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-6574](https://github.com/Live-Hack-CVE/CVE-2015-6574) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6574.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6574.svg)
-
-## CVE-2015-6565
- sshd in OpenSSH 6.8 and 6.9 uses world-writable permissions for TTY devices, which allows local users to cause a denial of service (terminal disruption) or possibly have unspecified other impact by writing to a device, as demonstrated by writing an escape sequence.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-6565](https://github.com/Live-Hack-CVE/CVE-2015-6565) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6565.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6565.svg)
-
-## CVE-2015-6564
- Use-after-free vulnerability in the mm_answer_pam_free_ctx function in monitor.c in sshd in OpenSSH before 7.0 on non-OpenBSD platforms might allow local users to gain privileges by leveraging control of the sshd uid to send an unexpectedly early MONITOR_REQ_PAM_FREE_CTX request.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-6564](https://github.com/Live-Hack-CVE/CVE-2015-6564) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6564.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6564.svg)
-
-## CVE-2015-6563
- The monitor component in sshd in OpenSSH before 7.0 on non-OpenBSD platforms accepts extraneous username data in MONITOR_REQ_PAM_INIT_CTX requests, which allows local users to conduct impersonation attacks by leveraging any SSH login access in conjunction with control of the sshd uid to send a crafted MONITOR_REQ_PWNAM request, related to monitor.c and monitor_wrap.c.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-6563](https://github.com/Live-Hack-CVE/CVE-2015-6563) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6563.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6563.svg)
-
-## CVE-2015-6460
- Multiple heap-based buffer overflows in 3S-Smart CODESYS Gateway Server before 2.3.9.34 allow remote attackers to execute arbitrary code via opcode (1) 0x3ef or (2) 0x3f0.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-6460](https://github.com/Live-Hack-CVE/CVE-2015-6460) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6460.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6460.svg)
-
 ## CVE-2015-6357
  The rule-update feature in Cisco FireSIGHT Management Center (MC) 5.2 through 5.4.0.1 does not verify the X.509 certificate of the support.sourcefire.com SSL server, which allows man-in-the-middle attackers to spoof this server and provide an invalid package, and consequently execute arbitrary code, via a crafted certificate, aka Bug ID CSCuw06444.
 
@@ -1015,34 +327,6 @@
 
 
 - [https://github.com/payatu/CVE-2015-6086](https://github.com/payatu/CVE-2015-6086) :  ![starts](https://img.shields.io/github/stars/payatu/CVE-2015-6086.svg) ![forks](https://img.shields.io/github/forks/payatu/CVE-2015-6086.svg)
-
-## CVE-2015-6051
- Microsoft Internet Explorer 10 and 11 allows remote attackers to gain privileges via a crafted web site, as demonstrated by a transition from Low Integrity to Medium Integrity, aka &quot;Internet Explorer Elevation of Privilege Vulnerability.&quot;
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-6051](https://github.com/Live-Hack-CVE/CVE-2015-6051) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6051.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6051.svg)
-
-## CVE-2015-6049
- Microsoft Internet Explorer 7 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2015-6048.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-6048](https://github.com/Live-Hack-CVE/CVE-2015-6048) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6048.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6048.svg)
-
-## CVE-2015-6048
- Microsoft Internet Explorer 7 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2015-6049.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-6048](https://github.com/Live-Hack-CVE/CVE-2015-6048) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6048.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6048.svg)
-
-## CVE-2015-6042
- Use-after-free vulnerability in the CWindow object implementation in Microsoft Internet Explorer 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability.&quot;
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-6042](https://github.com/Live-Hack-CVE/CVE-2015-6042) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-6042.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-6042.svg)
 
 ## CVE-2015-5995
  Mediabridge Medialink MWN-WAPR300N devices with firmware 5.07.50 and Tenda N3 Wireless N150 devices allow remote attackers to obtain administrative access via a certain admin substring in an HTTP Cookie header.
@@ -1081,13 +365,6 @@
 
 - [https://github.com/cved-sources/cve-2015-5602](https://github.com/cved-sources/cve-2015-5602) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-5602.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-5602.svg)
 
-## CVE-2015-5600
- The kbdint_next_device function in auth2-chall.c in sshd in OpenSSH through 6.9 does not properly restrict the processing of keyboard-interactive devices within a single connection, which makes it easier for remote attackers to conduct brute-force attacks or cause a denial of service (CPU consumption) via a long and duplicative list in the ssh -oKbdInteractiveDevices option, as demonstrated by a modified client that provides a different password for each pam element on this list.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5600](https://github.com/Live-Hack-CVE/CVE-2015-5600) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5600.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5600.svg)
-
 ## CVE-2015-5531
  Directory traversal vulnerability in Elasticsearch before 1.6.1 allows remote attackers to read arbitrary files via unspecified vectors related to snapshot API calls.
 
@@ -1096,13 +373,6 @@
 - [https://github.com/j-jasson/CVE-2015-5531-POC](https://github.com/j-jasson/CVE-2015-5531-POC) :  ![starts](https://img.shields.io/github/stars/j-jasson/CVE-2015-5531-POC.svg) ![forks](https://img.shields.io/github/forks/j-jasson/CVE-2015-5531-POC.svg)
 
 - [https://github.com/xpgdgit/CVE-2015-5531](https://github.com/xpgdgit/CVE-2015-5531) :  ![starts](https://img.shields.io/github/stars/xpgdgit/CVE-2015-5531.svg) ![forks](https://img.shields.io/github/forks/xpgdgit/CVE-2015-5531.svg)
-
-## CVE-2015-5521
- Cross-site scripting (XSS) vulnerability in BlackCat CMS 1.1.2 allows remote attackers to inject arbitrary web script or HTML via the name in a new group to backend/groups/index.php.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5521](https://github.com/Live-Hack-CVE/CVE-2015-5521) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5521.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5521.svg)
 
 ## CVE-2015-5477
  named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote attackers to cause a denial of service (REQUIRE assertion failure and daemon exit) via TKEY queries.
@@ -1124,13 +394,6 @@
 - [https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit](https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit) :  ![starts](https://img.shields.io/github/stars/xycloops123/TKEY-remote-DoS-vulnerability-exploit.svg) ![forks](https://img.shields.io/github/forks/xycloops123/TKEY-remote-DoS-vulnerability-exploit.svg)
 
 - [https://github.com/likescam/ShareDoc_cve-2015-5477](https://github.com/likescam/ShareDoc_cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/likescam/ShareDoc_cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/likescam/ShareDoc_cve-2015-5477.svg)
-
-## CVE-2015-5395
- Cross-site request forgery (CSRF) vulnerability in SOGo before 3.1.0.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5395](https://github.com/Live-Hack-CVE/CVE-2015-5395) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5395.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5395.svg)
 
 ## CVE-2015-5383
  Roundcube Webmail 1.1.x before 1.1.2 allows remote attackers to obtain sensitive information by reading files in the (1) config, (2) temp, or (3) logs directory.
@@ -1160,103 +423,12 @@
 
 - [https://github.com/can/CVE-2015-5374-DoS-PoC](https://github.com/can/CVE-2015-5374-DoS-PoC) :  ![starts](https://img.shields.io/github/stars/can/CVE-2015-5374-DoS-PoC.svg) ![forks](https://img.shields.io/github/forks/can/CVE-2015-5374-DoS-PoC.svg)
 
-## CVE-2015-5361
- Background For regular, unencrypted FTP traffic, the FTP ALG can inspect the unencrypted control channel and open related sessions for the FTP data channel. These related sessions (gates) are specific to source and destination IPs and ports of client and server. The design intent of the ftps-extensions option (which is disabled by default) is to provide similar functionality when the SRX secures the FTP/FTPS client. As the control channel is encrypted, the FTP ALG cannot inspect the port specific information and will open a wider TCP data channel (gate) from client IP to server IP on all destination TCP ports. In FTP/FTPS client environments to an enterprise network or the Internet, this is the desired behavior as it allows firewall policy to be written to FTP/FTPS servers on well-known control ports without using a policy with destination IP ANY and destination port ANY. Issue The ftps-extensions option is not intended or recommended where the SRX secures the FTPS server, as the wide data channel session (gate) will allow the FTPS client temporary access to all TCP ports on the FTPS server. The data session is associated to the control channel and will be closed when the control channel session closes. Depending on the configuration of the FTPS server, supporting load-balancer, and SRX inactivity-timeout values, the server/load-balancer and SRX may keep the control channel open for an extended period of time, allowing an FTPS client access for an equal duration.&#8203; Note that the ftps-extensions option is not enabled by default.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5361](https://github.com/Live-Hack-CVE/CVE-2015-5361) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5361.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5361.svg)
-
-## CVE-2015-5352
- The x11_open_helper function in channels.c in ssh in OpenSSH before 6.9, when ForwardX11Trusted mode is not used, lacks a check of the refusal deadline for X connections, which makes it easier for remote attackers to bypass intended access restrictions via a connection outside of the permitted time window.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5352](https://github.com/Live-Hack-CVE/CVE-2015-5352) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5352.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5352.svg)
-
 ## CVE-2015-5347
  Cross-site scripting (XSS) vulnerability in the getWindowOpenJavaScript function in org.apache.wicket.extensions.ajax.markup.html.modal.ModalWindow in Apache Wicket 1.5.x before 1.5.15, 6.x before 6.22.0, and 7.x before 7.2.0 might allow remote attackers to inject arbitrary web script or HTML via a ModalWindow title.
 
 
 
 - [https://github.com/alexanderkjall/wicker-cve-2015-5347](https://github.com/alexanderkjall/wicker-cve-2015-5347) :  ![starts](https://img.shields.io/github/stars/alexanderkjall/wicker-cve-2015-5347.svg) ![forks](https://img.shields.io/github/forks/alexanderkjall/wicker-cve-2015-5347.svg)
-
-## CVE-2015-5329
- The TripleO Heat templates (tripleo-heat-templates), as used in Red Hat Enterprise Linux OpenStack Platform 7.0, do not properly use the configured RabbitMQ credentials, which makes it easier for remote attackers to obtain access to services in deployed overclouds by leveraging knowledge of the default credentials.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5329](https://github.com/Live-Hack-CVE/CVE-2015-5329) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5329.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5329.svg)
-
-## CVE-2015-5313
- Directory traversal vulnerability in the virStorageBackendFileSystemVolCreate function in storage/storage_backend_fs.c in libvirt, when fine-grained Access Control Lists (ACL) are in effect, allows local users with storage_vol:create ACL but not domain:write permission to write to arbitrary files via a .. (dot dot) in a volume name.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5313](https://github.com/Live-Hack-CVE/CVE-2015-5313) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5313.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5313.svg)
-
-## CVE-2015-5305
- Directory traversal vulnerability in Kubernetes, as used in Red Hat OpenShift Enterprise 3.0, allows attackers to write to arbitrary files via a crafted object type name, which is not properly handled before passing it to etcd.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5305](https://github.com/Live-Hack-CVE/CVE-2015-5305) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5305.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5305.svg)
-
-## CVE-2015-5302
- libreport 2.0.7 before 2.6.3 only saves changes to the first file when editing a crash report, which allows remote attackers to obtain sensitive information via unspecified vectors related to the (1) backtrace, (2) cmdline, (3) environ, (4) open_fds, (5) maps, (6) smaps, (7) hostname, (8) remote, (9) ks.cfg, or (10) anaconda-tb file attachment included in a Red Hat Bugzilla bug report.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5302](https://github.com/Live-Hack-CVE/CVE-2015-5302) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5302.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5302.svg)
-
-## CVE-2015-5299
- The shadow_copy2_get_shadow_copy_data function in modules/vfs_shadow_copy2.c in Samba 3.x and 4.x before 4.1.22, 4.2.x before 4.2.7, and 4.3.x before 4.3.3 does not verify that the DIRECTORY_LIST access right has been granted, which allows remote attackers to access snapshots by visiting a shadow copy directory.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5299](https://github.com/Live-Hack-CVE/CVE-2015-5299) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5299.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5299.svg)
-
-## CVE-2015-5296
- Samba 3.x and 4.x before 4.1.22, 4.2.x before 4.2.7, and 4.3.x before 4.3.3 supports connections that are encrypted but unsigned, which allows man-in-the-middle attackers to conduct encrypted-to-unencrypted downgrade attacks by modifying the client-server data stream, related to clidfs.c, libsmb_server.c, and smbXcli_base.c.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5296](https://github.com/Live-Hack-CVE/CVE-2015-5296) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5296.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5296.svg)
-
-## CVE-2015-5295
- The template-validate command in OpenStack Orchestration API (Heat) before 2015.1.3 (kilo) and 5.0.x before 5.0.1 (liberty) allows remote authenticated users to cause a denial of service (memory consumption) or determine the existence of local files via the resource type in a template, as demonstrated by file:///dev/zero.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5295](https://github.com/Live-Hack-CVE/CVE-2015-5295) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5295.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5295.svg)
-
-## CVE-2015-5292
- Memory leak in the Privilege Attribute Certificate (PAC) responder plugin (sssd_pac_plugin.so) in System Security Services Daemon (SSSD) 1.10 before 1.13.1 allows remote authenticated users to cause a denial of service (memory consumption) via a large number of logins that trigger parsing of PAC blobs during Kerberos authentication.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5292](https://github.com/Live-Hack-CVE/CVE-2015-5292) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5292.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5292.svg)
-
-## CVE-2015-5290
- A Denial of Service vulnerability exists in ircd-ratbox 3.0.9 in the MONITOR Command Handler.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5290](https://github.com/Live-Hack-CVE/CVE-2015-5290) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5290.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5290.svg)
-
-## CVE-2015-5275
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2015-5257. Reason: This candidate is a reservation duplicate of CVE-2015-5257. Notes: All CVE users should reference CVE-2015-5257 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5275](https://github.com/Live-Hack-CVE/CVE-2015-5275) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5275.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5275.svg)
-
-## CVE-2015-5257
- drivers/usb/serial/whiteheat.c in the Linux kernel before 4.2.4 allows physically proximate attackers to cause a denial of service (NULL pointer dereference and OOPS) or possibly have unspecified other impact via a crafted USB device. NOTE: this ID was incorrectly used for an Apache Cordova issue that has the correct ID of CVE-2015-8320.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5275](https://github.com/Live-Hack-CVE/CVE-2015-5275) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5275.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5275.svg)
 
 ## CVE-2015-5254
  Apache ActiveMQ 5.x before 5.13.0 does not restrict the classes that can be serialized in the broker, which allows remote attackers to execute arbitrary code via a crafted serialized Java Message Service (JMS) ObjectMessage object.
@@ -1267,56 +439,12 @@
 
 - [https://github.com/Ma1Dong/ActiveMQ_CVE-2015-5254](https://github.com/Ma1Dong/ActiveMQ_CVE-2015-5254) :  ![starts](https://img.shields.io/github/stars/Ma1Dong/ActiveMQ_CVE-2015-5254.svg) ![forks](https://img.shields.io/github/forks/Ma1Dong/ActiveMQ_CVE-2015-5254.svg)
 
-## CVE-2015-5252
- vfs.c in smbd in Samba 3.x and 4.x before 4.1.22, 4.2.x before 4.2.7, and 4.3.x before 4.3.3, when share names with certain substring relationships exist, allows remote attackers to bypass intended file-access restrictions via a symlink that points outside of a share.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5252](https://github.com/Live-Hack-CVE/CVE-2015-5252) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5252.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5252.svg)
-
-## CVE-2015-5233
- Foreman before 1.8.4 and 1.9.x before 1.9.1 do not properly apply view_hosts permissions, which allows (1) remote authenticated users with the view_reports permission to read reports from arbitrary hosts or (2) remote authenticated users with the destroy_reports permission to delete reports from arbitrary hosts via direct access to the (a) individual report show/delete pages or (b) APIs.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5233](https://github.com/Live-Hack-CVE/CVE-2015-5233) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5233.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5233.svg)
-
 ## CVE-2015-5195
  ntp_openssl.m4 in ntpd in NTP before 4.2.7p112 allows remote attackers to cause a denial of service (segmentation fault) via a crafted statistics or filegen configuration command that is not enabled during compilation.
 
 
 
 - [https://github.com/theglife214/CVE-2015-5195](https://github.com/theglife214/CVE-2015-5195) :  ![starts](https://img.shields.io/github/stars/theglife214/CVE-2015-5195.svg) ![forks](https://img.shields.io/github/forks/theglife214/CVE-2015-5195.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5195](https://github.com/Live-Hack-CVE/CVE-2015-5195) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5195.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5195.svg)
-
-## CVE-2015-5194
- The log_config_command function in ntp_parser.y in ntpd in NTP before 4.2.7p42 allows remote attackers to cause a denial of service (ntpd crash) via crafted logconfig commands.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5194](https://github.com/Live-Hack-CVE/CVE-2015-5194) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5194.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5194.svg)
-
-## CVE-2015-5189
- Race condition in pcsd in PCS 0.9.139 and earlier uses a global variable to validate usernames, which allows remote authenticated users to gain privileges by sending a command that is checked for security after another user is authenticated.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5189](https://github.com/Live-Hack-CVE/CVE-2015-5189) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5189.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5189.svg)
-
-## CVE-2015-5188
- Cross-site request forgery (CSRF) vulnerability in the Web Console (web-console) in Red Hat Enterprise Application Platform before 6.4.4 and WildFly (formerly JBoss Application Server) before 2.0.0.CR9 allows remote attackers to hijack the authentication of administrators for requests that make arbitrary changes to an instance via vectors involving a file upload using a multipart/form-data submission.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5188](https://github.com/Live-Hack-CVE/CVE-2015-5188) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5188.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5188.svg)
-
-## CVE-2015-5180
- res_query in libresolv in glibc before 2.25 allows remote attackers to cause a denial of service (NULL pointer dereference and process crash).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-5180](https://github.com/Live-Hack-CVE/CVE-2015-5180) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-5180.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-5180.svg)
 
 ## CVE-2015-5122
  Use-after-free vulnerability in the DisplayObject class in the ActionScript 3 (AS3) implementation in Adobe Flash Player 13.x through 13.0.0.302 on Windows and OS X, 14.x through 18.0.0.203 on Windows and OS X, 11.x through 11.2.202.481 on Linux, and 12.x through 18.0.0.204 on Linux Chrome installations allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted Flash content that leverages improper handling of the opaqueBackground property, as exploited in the wild in July 2015.
@@ -1338,60 +466,12 @@
 
 - [https://github.com/Xattam1/Adobe-Flash-Exploits_17-18](https://github.com/Xattam1/Adobe-Flash-Exploits_17-18) :  ![starts](https://img.shields.io/github/stars/Xattam1/Adobe-Flash-Exploits_17-18.svg) ![forks](https://img.shields.io/github/forks/Xattam1/Adobe-Flash-Exploits_17-18.svg)
 
-## CVE-2015-4913
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect availability via vectors related to Server : DML, a different vulnerability than CVE-2015-4858.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4913](https://github.com/Live-Hack-CVE/CVE-2015-4913) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4913.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4913.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4858](https://github.com/Live-Hack-CVE/CVE-2015-4858) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4858.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4858.svg)
-
-## CVE-2015-4895
- Unspecified vulnerability in Oracle MySQL Server 5.6.25 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : InnoDB.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4895](https://github.com/Live-Hack-CVE/CVE-2015-4895) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4895.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4895.svg)
-
 ## CVE-2015-4870
  Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Parser.
 
 
 
 - [https://github.com/OsandaMalith/CVE-2015-4870](https://github.com/OsandaMalith/CVE-2015-4870) :  ![starts](https://img.shields.io/github/stars/OsandaMalith/CVE-2015-4870.svg) ![forks](https://img.shields.io/github/forks/OsandaMalith/CVE-2015-4870.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4870](https://github.com/Live-Hack-CVE/CVE-2015-4870) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4870.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4870.svg)
-
-## CVE-2015-4866
- Unspecified vulnerability in Oracle MySQL Server 5.6.23 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : InnoDB.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4866](https://github.com/Live-Hack-CVE/CVE-2015-4866) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4866.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4866.svg)
-
-## CVE-2015-4864
- Unspecified vulnerability in Oracle MySQL Server 5.5.43 and earlier and 5.6.24 and earlier allows remote authenticated users to affect integrity via unknown vectors related to Server : Security : Privileges.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4864](https://github.com/Live-Hack-CVE/CVE-2015-4864) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4864.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4864.svg)
-
-## CVE-2015-4861
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : InnoDB.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4861](https://github.com/Live-Hack-CVE/CVE-2015-4861) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4861.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4861.svg)
-
-## CVE-2015-4858
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via vectors related to DML, a different vulnerability than CVE-2015-4913.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4858](https://github.com/Live-Hack-CVE/CVE-2015-4858) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4858.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4858.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4913](https://github.com/Live-Hack-CVE/CVE-2015-4913) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4913.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4913.svg)
 
 ## CVE-2015-4852
  The WLS Security component in Oracle WebLogic Server 10.3.6.0, 12.1.2.0, 12.1.3.0, and 12.2.1.0 allows remote attackers to execute arbitrary commands via a crafted serialized Java object in T3 protocol traffic to TCP port 7001, related to oracle_common/modules/com.bea.core.apache.commons.collections.jar. NOTE: the scope of this CVE is limited to the WebLogic Server product.
@@ -1408,80 +488,6 @@
 
 - [https://github.com/nex1less/CVE-2015-4852](https://github.com/nex1less/CVE-2015-4852) :  ![starts](https://img.shields.io/github/stars/nex1less/CVE-2015-4852.svg) ![forks](https://img.shields.io/github/forks/nex1less/CVE-2015-4852.svg)
 
-## CVE-2015-4836
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : SP.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4836](https://github.com/Live-Hack-CVE/CVE-2015-4836) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4836.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4836.svg)
-
-## CVE-2015-4830
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect integrity via unknown vectors related to Server : Security : Privileges.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4830](https://github.com/Live-Hack-CVE/CVE-2015-4830) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4830.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4830.svg)
-
-## CVE-2015-4826
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect confidentiality via unknown vectors related to Server : Types.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4826](https://github.com/Live-Hack-CVE/CVE-2015-4826) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4826.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4826.svg)
-
-## CVE-2015-4816
- Unspecified vulnerability in Oracle MySQL Server 5.5.44 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : InnoDB.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4816](https://github.com/Live-Hack-CVE/CVE-2015-4816) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4816.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4816.svg)
-
-## CVE-2015-4815
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect availability via vectors related to Server : DDL.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4815](https://github.com/Live-Hack-CVE/CVE-2015-4815) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4815.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4815.svg)
-
-## CVE-2015-4807
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier, when running on Windows, allows remote authenticated users to affect availability via unknown vectors related to Server : Query Cache.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4807](https://github.com/Live-Hack-CVE/CVE-2015-4807) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4807.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4807.svg)
-
-## CVE-2015-4802
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : Partition, a different vulnerability than CVE-2015-4792.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4802](https://github.com/Live-Hack-CVE/CVE-2015-4802) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4802.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4802.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4792](https://github.com/Live-Hack-CVE/CVE-2015-4792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4792.svg)
-
-## CVE-2015-4792
- Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier and 5.6.26 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : Partition, a different vulnerability than CVE-2015-4802.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4792](https://github.com/Live-Hack-CVE/CVE-2015-4792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4792.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4802](https://github.com/Live-Hack-CVE/CVE-2015-4802) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4802.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4802.svg)
-
-## CVE-2015-4757
- Unspecified vulnerability in Oracle MySQL Server 5.5.42 and earlier and 5.6.23 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : Optimizer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4757](https://github.com/Live-Hack-CVE/CVE-2015-4757) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4757.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4757.svg)
-
-## CVE-2015-4752
- Unspecified vulnerability in Oracle MySQL Server 5.5.43 and earlier and 5.6.24 and earlier allows remote authenticated users to affect availability via vectors related to Server : I_S.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4752](https://github.com/Live-Hack-CVE/CVE-2015-4752) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4752.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4752.svg)
-
 ## CVE-2015-4495
  The PDF reader in Mozilla Firefox before 39.0.3, Firefox ESR 38.x before 38.1.1, and Firefox OS before 2.2 allows remote attackers to bypass the Same Origin Policy, and read arbitrary files or gain privileges, via vectors involving crafted JavaScript code and a native setter, as exploited in the wild in August 2015.
 
@@ -1496,27 +502,6 @@
 
 - [https://github.com/typcn/php-load-test](https://github.com/typcn/php-load-test) :  ![starts](https://img.shields.io/github/stars/typcn/php-load-test.svg) ![forks](https://img.shields.io/github/forks/typcn/php-load-test.svg)
 
-## CVE-2015-4004
- The OZWPAN driver in the Linux kernel through 4.0.5 relies on an untrusted length field during packet parsing, which allows remote attackers to obtain sensitive information from kernel memory or cause a denial of service (out-of-bounds read and system crash) via a crafted packet.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4004](https://github.com/Live-Hack-CVE/CVE-2015-4004) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4004.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4004.svg)
-
-## CVE-2015-4003
- The oz_usb_handle_ep_data function in drivers/staging/ozwpan/ozusbsvc1.c in the OZWPAN driver in the Linux kernel through 4.0.5 allows remote attackers to cause a denial of service (divide-by-zero error and system crash) via a crafted packet.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4003](https://github.com/Live-Hack-CVE/CVE-2015-4003) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4003.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4003.svg)
-
-## CVE-2015-4002
- drivers/staging/ozwpan/ozusbsvc1.c in the OZWPAN driver in the Linux kernel through 4.0.5 does not ensure that certain length values are sufficiently large, which allows remote attackers to cause a denial of service (system crash or large loop) or possibly execute arbitrary code via a crafted packet, related to the (1) oz_usb_rx and (2) oz_usb_handle_ep_data functions.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4002](https://github.com/Live-Hack-CVE/CVE-2015-4002) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4002.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4002.svg)
-
 ## CVE-2015-4000
  The TLS protocol 1.2 and earlier, when a DHE_EXPORT ciphersuite is enabled on a server but not on a client, does not properly convey a DHE_EXPORT choice, which allows man-in-the-middle attackers to conduct cipher-downgrade attacks by rewriting a ClientHello with DHE replaced by DHE_EXPORT and then rewriting a ServerHello with DHE_EXPORT replaced by DHE, aka the &quot;Logjam&quot; issue.
 
@@ -1525,15 +510,6 @@
 - [https://github.com/fatlan/HAProxy-Keepalived-Sec-HighLoads](https://github.com/fatlan/HAProxy-Keepalived-Sec-HighLoads) :  ![starts](https://img.shields.io/github/stars/fatlan/HAProxy-Keepalived-Sec-HighLoads.svg) ![forks](https://img.shields.io/github/forks/fatlan/HAProxy-Keepalived-Sec-HighLoads.svg)
 
 - [https://github.com/clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/clic-kbait/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/clic-kbait/A2SV--SSL-VUL-Scan.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-4000](https://github.com/Live-Hack-CVE/CVE-2015-4000) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-4000.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-4000.svg)
-
-## CVE-2015-3884
- Unrestricted file upload vulnerability in the (1) myAccount, (2) projects, (3) tasks, (4) tickets, (5) discussions, (6) reports, and (7) scheduler pages in qdPM 8.3 allows remote attackers to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in uploads/attachments/ or uploads/users/.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3884](https://github.com/Live-Hack-CVE/CVE-2015-3884) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3884.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3884.svg)
 
 ## CVE-2015-3864
  Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.cpp in libstagefright in mediaserver in Android before 5.1.1 LMY48M allows remote attackers to execute arbitrary code via crafted MPEG-4 data, aka internal bug 23034759.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-3824.
@@ -1638,41 +614,6 @@
 
 - [https://github.com/cd6629/CVE-2015-3306-Python-PoC](https://github.com/cd6629/CVE-2015-3306-Python-PoC) :  ![starts](https://img.shields.io/github/stars/cd6629/CVE-2015-3306-Python-PoC.svg) ![forks](https://img.shields.io/github/forks/cd6629/CVE-2015-3306-Python-PoC.svg)
 
-## CVE-2015-3288
- mm/memory.c in the Linux kernel before 4.1.4 mishandles anonymous pages, which allows local users to gain privileges or cause a denial of service (page tainting) via a crafted application that triggers writing to page zero.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3288](https://github.com/Live-Hack-CVE/CVE-2015-3288) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3288.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3288.svg)
-
-## CVE-2015-3258
- Heap-based buffer overflow in the WriteProlog function in filter/texttopdf.c in texttopdf in cups-filters before 1.0.70 allows remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via a small line size in a print job.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3258](https://github.com/Live-Hack-CVE/CVE-2015-3258) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3258.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3258.svg)
-
-## CVE-2015-3248
- openhpi/Makefile.am in OpenHPI before 3.6.0 uses world-writable permissions for /var/lib/openhpi directory, which allows local users, when quotas are not properly setup, to fill the filesystem hosting /var/lib and cause a denial of service (disk consumption).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3248](https://github.com/Live-Hack-CVE/CVE-2015-3248) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3248.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3248.svg)
-
-## CVE-2015-3247
- Race condition in the worker_update_monitors_config function in SPICE 0.12.4 allows a remote authenticated guest user to cause a denial of service (heap-based memory corruption and QEMU-KVM crash) or possibly execute arbitrary code on the host via unspecified vectors.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3247](https://github.com/Live-Hack-CVE/CVE-2015-3247) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3247.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3247.svg)
-
-## CVE-2015-3239
- Off-by-one error in the dwarf_to_unw_regnum function in include/dwarf_i.h in libunwind 1.1 allows local users to have unspecified impact via invalid dwarf opcodes.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3239](https://github.com/Live-Hack-CVE/CVE-2015-3239) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3239.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3239.svg)
-
 ## CVE-2015-3224
  request.rb in Web Console before 2.1.3, as used with Ruby on Rails 3.x and 4.x, does not properly restrict the use of X-Forwarded-For headers in determining a client's IP address, which allows remote attackers to bypass the whitelisted_ips protection mechanism via a crafted request.
 
@@ -1684,56 +625,12 @@
 
 - [https://github.com/n000xy/CVE-2015-3224-](https://github.com/n000xy/CVE-2015-3224-) :  ![starts](https://img.shields.io/github/stars/n000xy/CVE-2015-3224-.svg) ![forks](https://img.shields.io/github/forks/n000xy/CVE-2015-3224-.svg)
 
-## CVE-2015-3204
- libreswan 3.9 through 3.12 allows remote attackers to cause a denial of service (daemon restart) via an IKEv1 packet with (1) unassigned bits set in the IPSEC DOI value or (2) the next payload value set to ISAKMP_NEXT_SAK.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3204](https://github.com/Live-Hack-CVE/CVE-2015-3204) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3204.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3204.svg)
-
-## CVE-2015-3197
- ssl/s2_srvr.c in OpenSSL 1.0.1 before 1.0.1r and 1.0.2 before 1.0.2f does not prevent use of disabled ciphers, which makes it easier for man-in-the-middle attackers to defeat cryptographic protection mechanisms by performing computations on SSLv2 traffic, related to the get_client_master_key and get_client_hello functions.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3197](https://github.com/Live-Hack-CVE/CVE-2015-3197) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3197.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3197.svg)
-
-## CVE-2015-3196
- ssl/s3_clnt.c in OpenSSL 1.0.0 before 1.0.0t, 1.0.1 before 1.0.1p, and 1.0.2 before 1.0.2d, when used for a multi-threaded client, writes the PSK identity hint to an incorrect data structure, which allows remote servers to cause a denial of service (race condition and double free) via a crafted ServerKeyExchange message.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3196](https://github.com/Live-Hack-CVE/CVE-2015-3196) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3196.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3196.svg)
-
-## CVE-2015-3195
- The ASN1_TFLG_COMBINE implementation in crypto/asn1/tasn_dec.c in OpenSSL before 0.9.8zh, 1.0.0 before 1.0.0t, 1.0.1 before 1.0.1q, and 1.0.2 before 1.0.2e mishandles errors caused by malformed X509_ATTRIBUTE data, which allows remote attackers to obtain sensitive information from process memory by triggering a decoding failure in a PKCS#7 or CMS application.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3195](https://github.com/Live-Hack-CVE/CVE-2015-3195) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3195.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3195.svg)
-
-## CVE-2015-3194
- crypto/rsa/rsa_ameth.c in OpenSSL 1.0.1 before 1.0.1q and 1.0.2 before 1.0.2e allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via an RSA PSS ASN.1 signature that lacks a mask generation function parameter.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3194](https://github.com/Live-Hack-CVE/CVE-2015-3194) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3194.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3194.svg)
-
-## CVE-2015-3193
- The Montgomery squaring implementation in crypto/bn/asm/x86_64-mont5.pl in OpenSSL 1.0.2 before 1.0.2e on the x86_64 platform, as used by the BN_mod_exp function, mishandles carry propagation and produces incorrect output, which makes it easier for remote attackers to obtain sensitive private-key information via an attack against use of a (1) Diffie-Hellman (DH) or (2) Diffie-Hellman Ephemeral (DHE) ciphersuite.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3193](https://github.com/Live-Hack-CVE/CVE-2015-3193) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3193.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3193.svg)
-
 ## CVE-2015-3152
  Oracle MySQL before 5.7.3, Oracle MySQL Connector/C (aka libmysqlclient) before 6.1.3, and MariaDB before 5.5.44 use the --ssl option to mean that SSL is optional, which allows man-in-the-middle attackers to spoof servers via a cleartext-downgrade attack, aka a &quot;BACKRONYM&quot; attack.
 
 
 
 - [https://github.com/duo-labs/mysslstrip](https://github.com/duo-labs/mysslstrip) :  ![starts](https://img.shields.io/github/stars/duo-labs/mysslstrip.svg) ![forks](https://img.shields.io/github/forks/duo-labs/mysslstrip.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-3152](https://github.com/Live-Hack-CVE/CVE-2015-3152) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-3152.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-3152.svg)
 
 ## CVE-2015-3145
  The sanitize_cookie_path function in cURL and libcurl 7.31.0 through 7.41.0 does not properly calculate an index, which allows remote attackers to cause a denial of service (out-of-bounds write and crash) or possibly have other unspecified impact via a cookie path containing only a double-quote character.
@@ -1793,48 +690,6 @@
 
 - [https://github.com/wilsc0w/CVE-2015-2794-finder](https://github.com/wilsc0w/CVE-2015-2794-finder) :  ![starts](https://img.shields.io/github/stars/wilsc0w/CVE-2015-2794-finder.svg) ![forks](https://img.shields.io/github/forks/wilsc0w/CVE-2015-2794-finder.svg)
 
-## CVE-2015-2648
- Unspecified vulnerability in Oracle MySQL Server 5.5.43 and earlier and 5.6.24 and earlier allows remote authenticated users to affect availability via vectors related to DML.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2648](https://github.com/Live-Hack-CVE/CVE-2015-2648) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2648.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2648.svg)
-
-## CVE-2015-2643
- Unspecified vulnerability in Oracle MySQL Server 5.5.43 and earlier and 5.6.24 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : Optimizer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2643](https://github.com/Live-Hack-CVE/CVE-2015-2643) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2643.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2643.svg)
-
-## CVE-2015-2620
- Unspecified vulnerability in Oracle MySQL Server 5.5.43 and earlier and 5.6.23 and earlier allows remote authenticated users to affect confidentiality via unknown vectors related to Server : Security : Privileges.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2620](https://github.com/Live-Hack-CVE/CVE-2015-2620) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2620.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2620.svg)
-
-## CVE-2015-2582
- Unspecified vulnerability in Oracle MySQL Server 5.5.43 and earlier and 5.6.24 and earlier allows remote authenticated users to affect availability via vectors related to GIS.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2582](https://github.com/Live-Hack-CVE/CVE-2015-2582) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2582.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2582.svg)
-
-## CVE-2015-2573
- Unspecified vulnerability in Oracle MySQL Server 5.5.41 and earlier, and 5.6.22 and earlier, allows remote authenticated users to affect availability via vectors related to DDL.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2573](https://github.com/Live-Hack-CVE/CVE-2015-2573) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2573.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2573.svg)
-
-## CVE-2015-2571
- Unspecified vulnerability in Oracle MySQL Server 5.5.42 and earlier, and 5.6.23 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Optimizer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2571](https://github.com/Live-Hack-CVE/CVE-2015-2571) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2571.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2571.svg)
-
 ## CVE-2015-2546
  The kernel-mode driver in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 allows local users to gain privileges via a crafted application, aka &quot;Win32k Memory Corruption Elevation of Privilege Vulnerability,&quot; a different vulnerability than CVE-2015-2511, CVE-2015-2517, and CVE-2015-2518.
 
@@ -1848,13 +703,6 @@
 
 
 - [https://github.com/krdsploit/MSFu-Extentions-](https://github.com/krdsploit/MSFu-Extentions-) :  ![starts](https://img.shields.io/github/stars/krdsploit/MSFu-Extentions-.svg) ![forks](https://img.shields.io/github/forks/krdsploit/MSFu-Extentions-.svg)
-
-## CVE-2015-2326
- The pcre_compile2 function in PCRE before 8.37 allows context-dependent attackers to compile incorrect code and cause a denial of service (out-of-bounds read) via regular expression with a group containing both a forward referencing subroutine call and a recursive back reference, as demonstrated by &quot;((?+1)(\1))/&quot;.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-2326](https://github.com/Live-Hack-CVE/CVE-2015-2326) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-2326.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-2326.svg)
 
 ## CVE-2015-2315
  Cross-site scripting (XSS) vulnerability in the WPML plugin before 3.1.9 for WordPress allows remote attackers to inject arbitrary web script or HTML via the target parameter in a reminder_popup action to the default URI.
@@ -1902,13 +750,6 @@
 
 - [https://github.com/6a6f6a6f/CVE-2015-2080](https://github.com/6a6f6a6f/CVE-2015-2080) :  ![starts](https://img.shields.io/github/stars/6a6f6a6f/CVE-2015-2080.svg) ![forks](https://img.shields.io/github/forks/6a6f6a6f/CVE-2015-2080.svg)
 
-## CVE-2015-1931
- IBM Java Security Components in IBM SDK, Java Technology Edition 8 before SR1 FP10, 7 R1 before SR3 FP10, 7 before SR9 FP10, 6 R1 before SR8 FP7, 6 before SR16 FP7, and 5.0 before SR16 FP13 stores plaintext information in memory dumps, which allows local users to obtain sensitive information by reading a file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1931](https://github.com/Live-Hack-CVE/CVE-2015-1931) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1931.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1931.svg)
-
 ## CVE-2015-1855
  verify_certificate_identity in the OpenSSL extension in Ruby before 2.0.0 patchlevel 645, 2.1.x before 2.1.6, and 2.2.x before 2.2.2 does not properly validate hostnames, which allows remote attackers to spoof servers via vectors related to (1) multiple wildcards, (1) wildcards in IDNA names, (3) case sensitivity, and (4) non-ASCII characters.
 
@@ -1930,55 +771,6 @@
 - [https://github.com/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805](https://github.com/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805) :  ![starts](https://img.shields.io/github/stars/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805.svg) ![forks](https://img.shields.io/github/forks/ireshchaminda1/Android-Privilege-Escalation-Remote-Access-Vulnerability-CVE-2015-1805.svg)
 
 - [https://github.com/mobilelinux/iovy_root_research](https://github.com/mobilelinux/iovy_root_research) :  ![starts](https://img.shields.io/github/stars/mobilelinux/iovy_root_research.svg) ![forks](https://img.shields.io/github/forks/mobilelinux/iovy_root_research.svg)
-
-## CVE-2015-1794
- The ssl3_get_key_exchange function in ssl/s3_clnt.c in OpenSSL 1.0.2 before 1.0.2e allows remote servers to cause a denial of service (segmentation fault) via a zero p value in an anonymous Diffie-Hellman (DH) ServerKeyExchange message.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1794](https://github.com/Live-Hack-CVE/CVE-2015-1794) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1794.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1794.svg)
-
-## CVE-2015-1792
- The do_free_upto function in crypto/cms/cms_smime.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b allows remote attackers to cause a denial of service (infinite loop) via vectors that trigger a NULL value of a BIO data structure, as demonstrated by an unrecognized X.660 OID for a hash function.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1792](https://github.com/Live-Hack-CVE/CVE-2015-1792) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1792.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1792.svg)
-
-## CVE-2015-1791
- Race condition in the ssl3_get_new_session_ticket function in ssl/s3_clnt.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b, when used for a multi-threaded client, allows remote attackers to cause a denial of service (double free and application crash) or possibly have unspecified other impact by providing a NewSessionTicket during an attempt to reuse a ticket that had been obtained earlier.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1791](https://github.com/Live-Hack-CVE/CVE-2015-1791) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1791.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1791.svg)
-
-## CVE-2015-1790
- The PKCS7_dataDecodefunction in crypto/pkcs7/pk7_doit.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a PKCS#7 blob that uses ASN.1 encoding and lacks inner EncryptedContent data.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1790](https://github.com/Live-Hack-CVE/CVE-2015-1790) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1790.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1790.svg)
-
-## CVE-2015-1789
- The X509_cmp_time function in crypto/x509/x509_vfy.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b allows remote attackers to cause a denial of service (out-of-bounds read and application crash) via a crafted length field in ASN1_TIME data, as demonstrated by an attack against a server that supports client authentication with a custom verification callback.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1789](https://github.com/Live-Hack-CVE/CVE-2015-1789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1789.svg)
-
-## CVE-2015-1788
- The BN_GF2m_mod_inv function in crypto/bn/bn_gf2m.c in OpenSSL before 0.9.8s, 1.0.0 before 1.0.0e, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b does not properly handle ECParameters structures in which the curve is over a malformed binary polynomial field, which allows remote attackers to cause a denial of service (infinite loop) via a session that uses an Elliptic Curve algorithm, as demonstrated by an attack against a server that supports client authentication.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1788](https://github.com/Live-Hack-CVE/CVE-2015-1788) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1788.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1788.svg)
-
-## CVE-2015-1787
- The ssl3_get_client_key_exchange function in s3_srvr.c in OpenSSL 1.0.2 before 1.0.2a, when client authentication and an ephemeral Diffie-Hellman ciphersuite are enabled, allows remote attackers to cause a denial of service (daemon crash) via a ClientKeyExchange message with a length of zero.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1787](https://github.com/Live-Hack-CVE/CVE-2015-1787) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1787.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1787.svg)
 
 ## CVE-2015-1769
  Mount Manager in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 mishandles symlinks, which allows physically proximate attackers to execute arbitrary code by connecting a crafted USB device, aka &quot;Mount Manager Elevation of Privilege Vulnerability.&quot;
@@ -2114,26 +906,12 @@
 
 - [https://github.com/cyberharsh/Groovy-scripting-engine-CVE-2015-1427](https://github.com/cyberharsh/Groovy-scripting-engine-CVE-2015-1427) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Groovy-scripting-engine-CVE-2015-1427.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Groovy-scripting-engine-CVE-2015-1427.svg)
 
-## CVE-2015-1421
- Use-after-free vulnerability in the sctp_assoc_update function in net/sctp/associola.c in the Linux kernel before 3.18.8 allows remote attackers to cause a denial of service (slab corruption and panic) or possibly have unspecified other impact by triggering an INIT collision that leads to improper handling of shared-key data.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1421](https://github.com/Live-Hack-CVE/CVE-2015-1421) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1421.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1421.svg)
-
 ## CVE-2015-1397
  SQL injection vulnerability in the getCsvFile function in the Mage_Adminhtml_Block_Widget_Grid class in Magento Community Edition (CE) 1.9.1.0 and Enterprise Edition (EE) 1.14.1.0 allows remote administrators to execute arbitrary SQL commands via the popularity[field_expr] parameter when the popularity[from] or popularity[to] parameter is set.
 
 
 
 - [https://github.com/tmatejicek/CVE-2015-1397](https://github.com/tmatejicek/CVE-2015-1397) :  ![starts](https://img.shields.io/github/stars/tmatejicek/CVE-2015-1397.svg) ![forks](https://img.shields.io/github/forks/tmatejicek/CVE-2015-1397.svg)
-
-## CVE-2015-1352
- The build_tablename function in pgsql.c in the PostgreSQL (aka pgsql) extension in PHP through 5.6.7 does not validate token extraction for table names, which allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted name.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1352](https://github.com/Live-Hack-CVE/CVE-2015-1352) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1352.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1352.svg)
 
 ## CVE-2015-1328
  The overlayfs implementation in the linux (aka Linux kernel) package before 3.19.0-21.21 in Ubuntu through 15.04 does not properly check permissions for file creation in the upper filesystem directory, which allows local users to obtain root access by leveraging a configuration in which overlayfs is permitted in an arbitrary mount namespace.
@@ -2152,22 +930,6 @@
 
 
 - [https://github.com/ScottyBauer/CVE-2015-1318](https://github.com/ScottyBauer/CVE-2015-1318) :  ![starts](https://img.shields.io/github/stars/ScottyBauer/CVE-2015-1318.svg) ![forks](https://img.shields.io/github/forks/ScottyBauer/CVE-2015-1318.svg)
-
-## CVE-2015-1309
- XML external entity vulnerability in the Extended Computer Aided Test Tool (eCATT) in SAP NetWeaver AS ABAP 7.31 and earlier allows remote attackers to access arbitrary files via a crafted XML request, related to ECATT_DISPLAY_XMLSTRING_REMOTE, aka SAP Note 2016638.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1309](https://github.com/Live-Hack-CVE/CVE-2015-1309) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1309.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1309.svg)
-
-## CVE-2015-1197
- cpio 2.11, when using the --no-absolute-filenames option, allows local users to write to arbitrary files via a symlink attack on a file in an archive.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-1197](https://github.com/Live-Hack-CVE/CVE-2015-1197) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-1197.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-1197.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7516](https://github.com/Live-Hack-CVE/CVE-2017-7516) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7516.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7516.svg)
 
 ## CVE-2015-1157
  CoreText in Apple iOS 8.x through 8.3 allows remote attackers to cause a denial of service (reboot and messaging disruption) via crafted Unicode text that is not properly handled during display truncation in the Notifications feature, as demonstrated by Arabic characters in (1) an SMS message or (2) a WhatsApp message.
@@ -2213,73 +975,6 @@
 
 - [https://github.com/betalphafai/CVE-2015-0568](https://github.com/betalphafai/CVE-2015-0568) :  ![starts](https://img.shields.io/github/stars/betalphafai/CVE-2015-0568.svg) ![forks](https://img.shields.io/github/forks/betalphafai/CVE-2015-0568.svg)
 
-## CVE-2015-0505
- Unspecified vulnerability in Oracle MySQL Server 5.5.42 and earlier, and 5.6.23 and earlier, allows remote authenticated users to affect availability via vectors related to DDL.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0505](https://github.com/Live-Hack-CVE/CVE-2015-0505) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0505.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0505.svg)
-
-## CVE-2015-0499
- Unspecified vulnerability in Oracle MySQL Server 5.5.42 and earlier, and 5.6.23 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Federated.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0499](https://github.com/Live-Hack-CVE/CVE-2015-0499) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0499.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0499.svg)
-
-## CVE-2015-0441
- Unspecified vulnerability in Oracle MySQL Server 5.5.41 and earlier, and 5.6.22 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server : Security : Encryption.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0441](https://github.com/Live-Hack-CVE/CVE-2015-0441) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0441.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0441.svg)
-
-## CVE-2015-0433
- Unspecified vulnerability in Oracle MySQL Server 5.5.41 and earlier, and 5.6.22 and earlier, allows remote authenticated users to affect availability via vectors related to InnoDB : DML.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0433](https://github.com/Live-Hack-CVE/CVE-2015-0433) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0433.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0433.svg)
-
-## CVE-2015-0432
- Unspecified vulnerability in Oracle MySQL Server 5.5.40 and earlier allows remote authenticated users to affect availability via vectors related to Server : InnoDB : DDL : Foreign Key.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0432](https://github.com/Live-Hack-CVE/CVE-2015-0432) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0432.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0432.svg)
-
-## CVE-2015-0391
- Unspecified vulnerability in Oracle MySQL Server 5.5.38 and earlier, and 5.6.19 and earlier, allows remote authenticated users to affect availability via vectors related to DDL.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0391](https://github.com/Live-Hack-CVE/CVE-2015-0391) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0391.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0391.svg)
-
-## CVE-2015-0382
- Unspecified vulnerability in Oracle MySQL Server 5.5.40 and earlier and 5.6.21 and earlier allows remote attackers to affect availability via unknown vectors related to Server : Replication, a different vulnerability than CVE-2015-0381.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0382](https://github.com/Live-Hack-CVE/CVE-2015-0382) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0382.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0382.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0381](https://github.com/Live-Hack-CVE/CVE-2015-0381) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0381.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0381.svg)
-
-## CVE-2015-0381
- Unspecified vulnerability in Oracle MySQL Server 5.5.40 and earlier and 5.6.21 and earlier allows remote attackers to affect availability via unknown vectors related to Server : Replication, a different vulnerability than CVE-2015-0382.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0381](https://github.com/Live-Hack-CVE/CVE-2015-0381) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0381.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0381.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0382](https://github.com/Live-Hack-CVE/CVE-2015-0382) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0382.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0382.svg)
-
-## CVE-2015-0374
- Unspecified vulnerability in Oracle MySQL Server 5.5.40 and earlier and 5.6.21 and earlier allows remote authenticated users to affect confidentiality via unknown vectors related to Server : Security : Privileges : Foreign Key.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0374](https://github.com/Live-Hack-CVE/CVE-2015-0374) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0374.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0374.svg)
-
 ## CVE-2015-0345
  Cross-site scripting (XSS) vulnerability in Adobe ColdFusion 10 before Update 16 and 11 before Update 5 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
 
@@ -2300,76 +995,6 @@
 
 
 - [https://github.com/jr64/CVE-2015-0311](https://github.com/jr64/CVE-2015-0311) :  ![starts](https://img.shields.io/github/stars/jr64/CVE-2015-0311.svg) ![forks](https://img.shields.io/github/forks/jr64/CVE-2015-0311.svg)
-
-## CVE-2015-0293
- The SSLv2 implementation in OpenSSL before 0.9.8zf, 1.0.0 before 1.0.0r, 1.0.1 before 1.0.1m, and 1.0.2 before 1.0.2a allows remote attackers to cause a denial of service (s2_lib.c assertion failure and daemon exit) via a crafted CLIENT-MASTER-KEY message.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0293](https://github.com/Live-Hack-CVE/CVE-2015-0293) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0293.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0293.svg)
-
-## CVE-2015-0292
- Integer underflow in the EVP_DecodeUpdate function in crypto/evp/encode.c in the base64-decoding implementation in OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h allows remote attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via crafted base64 data that triggers a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0292](https://github.com/Live-Hack-CVE/CVE-2015-0292) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0292.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0292.svg)
-
-## CVE-2015-0291
- The sigalgs implementation in t1_lib.c in OpenSSL 1.0.2 before 1.0.2a allows remote attackers to cause a denial of service (NULL pointer dereference and daemon crash) by using an invalid signature_algorithms extension in the ClientHello message during a renegotiation.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0291](https://github.com/Live-Hack-CVE/CVE-2015-0291) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0291.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0291.svg)
-
-## CVE-2015-0290
- The multi-block feature in the ssl3_write_bytes function in s3_pkt.c in OpenSSL 1.0.2 before 1.0.2a on 64-bit x86 platforms with AES NI support does not properly handle certain non-blocking I/O cases, which allows remote attackers to cause a denial of service (pointer corruption and application crash) via unspecified vectors.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0290](https://github.com/Live-Hack-CVE/CVE-2015-0290) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0290.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0290.svg)
-
-## CVE-2015-0289
- The PKCS#7 implementation in OpenSSL before 0.9.8zf, 1.0.0 before 1.0.0r, 1.0.1 before 1.0.1m, and 1.0.2 before 1.0.2a does not properly handle a lack of outer ContentInfo, which allows attackers to cause a denial of service (NULL pointer dereference and application crash) by leveraging an application that processes arbitrary PKCS#7 data and providing malformed data with ASN.1 encoding, related to crypto/pkcs7/pk7_doit.c and crypto/pkcs7/pk7_lib.c.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0289](https://github.com/Live-Hack-CVE/CVE-2015-0289) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0289.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0289.svg)
-
-## CVE-2015-0287
- The ASN1_item_ex_d2i function in crypto/asn1/tasn_dec.c in OpenSSL before 0.9.8zf, 1.0.0 before 1.0.0r, 1.0.1 before 1.0.1m, and 1.0.2 before 1.0.2a does not reinitialize CHOICE and ADB data structures, which might allow attackers to cause a denial of service (invalid write operation and memory corruption) by leveraging an application that relies on ASN.1 structure reuse.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0287](https://github.com/Live-Hack-CVE/CVE-2015-0287) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0287.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0287.svg)
-
-## CVE-2015-0286
- The ASN1_TYPE_cmp function in crypto/asn1/a_type.c in OpenSSL before 0.9.8zf, 1.0.0 before 1.0.0r, 1.0.1 before 1.0.1m, and 1.0.2 before 1.0.2a does not properly perform boolean-type comparisons, which allows remote attackers to cause a denial of service (invalid read operation and application crash) via a crafted X.509 certificate to an endpoint that uses the certificate-verification feature.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0286](https://github.com/Live-Hack-CVE/CVE-2015-0286) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0286.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0286.svg)
-
-## CVE-2015-0285
- The ssl3_client_hello function in s3_clnt.c in OpenSSL 1.0.2 before 1.0.2a does not ensure that the PRNG is seeded before proceeding with a handshake, which makes it easier for remote attackers to defeat cryptographic protection mechanisms by sniffing the network and then conducting a brute-force attack.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0285](https://github.com/Live-Hack-CVE/CVE-2015-0285) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0285.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0285.svg)
-
-## CVE-2015-0284
- Cross-site scripting (XSS) vulnerability in spacewalk-java in Spacewalk and Red Hat Satellite 5.7 allows remote authenticated users to inject arbitrary web script or HTML via crafted XML data to the XMLRPC API, involving user details. NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-7811.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2016-2144](https://github.com/Live-Hack-CVE/CVE-2016-2144) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2016-2144.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2016-2144.svg)
-
-## CVE-2015-0252
- internal/XMLReader.cpp in Apache Xerces-C before 3.1.2 allows remote attackers to cause a denial of service (segmentation fault and crash) via crafted XML data.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0252](https://github.com/Live-Hack-CVE/CVE-2015-0252) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0252.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0252.svg)
 
 ## CVE-2015-0241
  The to_char function in PostgreSQL before 9.0.19, 9.1.x before 9.1.15, 9.2.x before 9.2.10, 9.3.x before 9.3.6, and 9.4.x before 9.4.1 allows remote authenticated users to cause a denial of service (crash) or possibly execute arbitrary code via a (1) large number of digits when processing a numeric formatting template, which triggers a buffer over-read, or (2) crafted timestamp formatting template, which triggers a buffer overflow.
@@ -2399,9 +1024,9 @@
 
 - [https://github.com/sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/sUbc0ol/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/sUbc0ol/CVE-2015-0235.svg)
 
-- [https://github.com/nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE_2015_0235.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE_2015_0235.svg)
-
 - [https://github.com/tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/tobyzxj/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/tobyzxj/CVE-2015-0235.svg)
+
+- [https://github.com/nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE_2015_0235.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE_2015_0235.svg)
 
 - [https://github.com/alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc) :  ![starts](https://img.shields.io/github/stars/alanmeyer/CVE-glibc.svg) ![forks](https://img.shields.io/github/forks/alanmeyer/CVE-glibc.svg)
 
@@ -2425,27 +1050,6 @@
 
 
 - [https://github.com/3xp10it/php_cve-2014-8142_cve-2015-0231](https://github.com/3xp10it/php_cve-2014-8142_cve-2015-0231) :  ![starts](https://img.shields.io/github/stars/3xp10it/php_cve-2014-8142_cve-2015-0231.svg) ![forks](https://img.shields.io/github/forks/3xp10it/php_cve-2014-8142_cve-2015-0231.svg)
-
-## CVE-2015-0209
- Use-after-free vulnerability in the d2i_ECPrivateKey function in crypto/ec/ec_asn1.c in OpenSSL before 0.9.8zf, 1.0.0 before 1.0.0r, 1.0.1 before 1.0.1m, and 1.0.2 before 1.0.2a might allow remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact via a malformed Elliptic Curve (EC) private-key file that is improperly handled during import.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0209](https://github.com/Live-Hack-CVE/CVE-2015-0209) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0209.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0209.svg)
-
-## CVE-2015-0208
- The ASN.1 signature-verification implementation in the rsa_item_verify function in crypto/rsa/rsa_ameth.c in OpenSSL 1.0.2 before 1.0.2a allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via crafted RSA PSS parameters to an endpoint that uses the certificate-verification feature.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0208](https://github.com/Live-Hack-CVE/CVE-2015-0208) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0208.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0208.svg)
-
-## CVE-2015-0207
- The dtls1_listen function in d1_lib.c in OpenSSL 1.0.2 before 1.0.2a does not properly isolate the state information of independent data streams, which allows remote attackers to cause a denial of service (application crash) via crafted DTLS traffic, as demonstrated by DTLS 1.0 traffic to a DTLS 1.2 server.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2015-0207](https://github.com/Live-Hack-CVE/CVE-2015-0207) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2015-0207.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2015-0207.svg)
 
 ## CVE-2015-0204
  The ssl3_get_key_exchange function in s3_clnt.c in OpenSSL before 0.9.8zd, 1.0.0 before 1.0.0p, and 1.0.1 before 1.0.1k allows remote SSL servers to conduct RSA-to-EXPORT_RSA downgrade attacks and facilitate brute-force decryption by offering a weak ephemeral RSA key in a noncompliant role, related to the &quot;FREAK&quot; issue.  NOTE: the scope of this CVE is only client code based on OpenSSL, not EXPORT_RSA issues associated with servers or other TLS implementations.
