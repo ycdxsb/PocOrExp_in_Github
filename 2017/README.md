@@ -12,13 +12,6 @@
 
 - [https://github.com/ossf-cve-benchmark/CVE-2017-1001004](https://github.com/ossf-cve-benchmark/CVE-2017-1001004) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-1001004.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-1001004.svg)
 
-## CVE-2017-1000509
- Dolibarr version 6.0.2 contains a Cross Site Scripting (XSS) vulnerability in Product details that can result in execution of javascript code.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-1000509](https://github.com/Live-Hack-CVE/CVE-2017-1000509) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-1000509.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-1000509.svg)
-
 ## CVE-2017-1000499
  phpMyAdmin versions 4.7.x (prior to 4.7.6.1/4.7.7) are vulnerable to a CSRF weakness. By deceiving a user to click on a crafted URL, it is possible to perform harmful database operations such as deleting records, dropping/truncating tables etc.
 
@@ -81,8 +74,6 @@
 - [https://github.com/pucerpocok/sudo_exploit](https://github.com/pucerpocok/sudo_exploit) :  ![starts](https://img.shields.io/github/stars/pucerpocok/sudo_exploit.svg) ![forks](https://img.shields.io/github/forks/pucerpocok/sudo_exploit.svg)
 
 - [https://github.com/homjxi0e/CVE-2017-1000367](https://github.com/homjxi0e/CVE-2017-1000367) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-1000367.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-1000367.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-1000367](https://github.com/Live-Hack-CVE/CVE-2017-1000367) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-1000367.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-1000367.svg)
 
 ## CVE-2017-1000353
  Jenkins versions 2.56 and earlier as well as 2.46.1 LTS and earlier are vulnerable to an unauthenticated remote code execution. An unauthenticated remote code execution vulnerability allowed attackers to transfer a serialized Java `SignedObject` object to the Jenkins CLI, that would be deserialized using a new `ObjectInputStream`, bypassing the existing blacklist-based protection mechanism. We're fixing this issue by adding `SignedObject` to the blacklist. We're also backporting the new HTTP CLI protocol from Jenkins 2.54 to LTS 2.46.2, and deprecating the remoting-based (i.e. Java serialization) CLI protocol, disabling it by default.
@@ -175,9 +166,9 @@
 
 - [https://github.com/Shadow5523/CVE-2017-1000117-test](https://github.com/Shadow5523/CVE-2017-1000117-test) :  ![starts](https://img.shields.io/github/stars/Shadow5523/CVE-2017-1000117-test.svg) ![forks](https://img.shields.io/github/forks/Shadow5523/CVE-2017-1000117-test.svg)
 
-- [https://github.com/takehaya/CVE-2017-1000117](https://github.com/takehaya/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/takehaya/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/takehaya/CVE-2017-1000117.svg)
-
 - [https://github.com/siling2017/CVE-2017-1000117](https://github.com/siling2017/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/siling2017/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/siling2017/CVE-2017-1000117.svg)
+
+- [https://github.com/takehaya/CVE-2017-1000117](https://github.com/takehaya/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/takehaya/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/takehaya/CVE-2017-1000117.svg)
 
 - [https://github.com/thelastbyte/CVE-2017-1000117](https://github.com/thelastbyte/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/thelastbyte/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/thelastbyte/CVE-2017-1000117.svg)
 
@@ -234,252 +225,12 @@
 
 - [https://github.com/smythtech/DWF-CVE-2017-1000000](https://github.com/smythtech/DWF-CVE-2017-1000000) :  ![starts](https://img.shields.io/github/stars/smythtech/DWF-CVE-2017-1000000.svg) ![forks](https://img.shields.io/github/forks/smythtech/DWF-CVE-2017-1000000.svg)
 
-## CVE-2017-20177
- A vulnerability, which was classified as problematic, has been found in WangGuard Plugin 1.8.0. Affected by this issue is the function wangguard_users_info of the file wangguard-user-info.php of the component WGG User List Handler. The manipulation of the argument userIP leads to cross site scripting. The attack may be launched remotely. The name of the patch is 88414951e30773c8d2ec13b99642688284bf3189. It is recommended to apply a patch to fix this issue. VDB-220214 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20177](https://github.com/Live-Hack-CVE/CVE-2017-20177) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20177.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20177.svg)
-
-## CVE-2017-20176
- A vulnerability classified as problematic was found in ciubotaru share-on-diaspora 0.7.9. This vulnerability affects unknown code of the file new_window.php. The manipulation of the argument title/url leads to cross site scripting. The attack can be initiated remotely. The name of the patch is fb6fae2f8a9b146471450b5b0281046a17d1ac8d. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-220204.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20176](https://github.com/Live-Hack-CVE/CVE-2017-20176) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20176.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20176.svg)
-
-## CVE-2017-20175
- A vulnerability classified as problematic has been found in DaSchTour matomo-mediawiki-extension up to 2.4.2. This affects an unknown part of the file Piwik.hooks.php of the component Username Handler. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 2.4.3 is able to address this issue. The name of the patch is 681324e4f518a8af4bd1f93867074c728eb9923d. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-220203.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20175](https://github.com/Live-Hack-CVE/CVE-2017-20175) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20175.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20175.svg)
-
-## CVE-2017-20174
- A vulnerability was found in bastianallgeier Kirby Webmentions Plugin and classified as problematic. Affected by this issue is some unknown functionality. The manipulation leads to injection. The attack may be launched remotely. The name of the patch is 55bedea78ae9af916a9a41497bd9996417851502. It is recommended to apply a patch to fix this issue. VDB-218894 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20174](https://github.com/Live-Hack-CVE/CVE-2017-20174) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20174.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20174.svg)
-
-## CVE-2017-20173
- A vulnerability was found in AlexRed contentmap. It has been rated as critical. Affected by this issue is the function Load of the file contentmap.php. The manipulation of the argument contentid leads to sql injection. The name of the patch is dd265d23ff4abac97422835002c6a47f45ae2a66. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-218492.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20173](https://github.com/Live-Hack-CVE/CVE-2017-20173) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20173.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20173.svg)
-
-## CVE-2017-20170
- A vulnerability was found in ollpu parontalli. It has been classified as critical. Affected is an unknown function of the file httpdocs/index.php. The manipulation of the argument s leads to sql injection. The name of the patch is 6891bb2dec57dca6daabc15a6d2808c8896620e5. It is recommended to apply a patch to fix this issue. VDB-218418 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20170](https://github.com/Live-Hack-CVE/CVE-2017-20170) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20170.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20170.svg)
-
-## CVE-2017-20169
- A vulnerability, which was classified as critical, has been found in GGGGGGGG ToN-MasterServer. Affected by this issue is some unknown functionality of the file public_html/irc_updater/svr_request_pub.php. The manipulation leads to sql injection. The name of the patch is 3a4c7e6d51bf95760820e3245e06c6e321a7168a. It is recommended to apply a patch to fix this issue. VDB-218306 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20169](https://github.com/Live-Hack-CVE/CVE-2017-20169) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20169.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20169.svg)
-
-## CVE-2017-20168
- A vulnerability was found in jfm-so piWallet. It has been rated as critical. Affected by this issue is some unknown functionality of the file api.php. The manipulation of the argument key leads to sql injection. The name of the patch is b420f8c4cbe7f06a34d1b05e90ee5cdfe0aa83bb. It is recommended to apply a patch to fix this issue. VDB-218006 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20168](https://github.com/Live-Hack-CVE/CVE-2017-20168) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20168.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20168.svg)
-
-## CVE-2017-20167
- A vulnerability, which was classified as problematic, was found in Minichan. This affects an unknown part of the file reports.php. The manipulation of the argument headline leads to cross site scripting. It is possible to initiate the attack remotely. The name of the patch is fc0e732e58630cba318d6bf49d1388a7aa9d390e. It is recommended to apply a patch to fix this issue. The identifier VDB-217785 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20167](https://github.com/Live-Hack-CVE/CVE-2017-20167) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20167.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20167.svg)
-
-## CVE-2017-20166
- Ecto 2.2.0 lacks a certain protection mechanism associated with the interaction between is_nil and raise.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20166](https://github.com/Live-Hack-CVE/CVE-2017-20166) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20166.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20166.svg)
-
 ## CVE-2017-20165
  A vulnerability classified as problematic has been found in debug-js debug up to 3.0.x. This affects the function useColors of the file src/node.js. The manipulation of the argument str leads to inefficient regular expression complexity. Upgrading to version 3.1.0 is able to address this issue. The name of the patch is c38a0166c266a679c8de012d4eaccec3f944e685. It is recommended to upgrade the affected component. The identifier VDB-217665 was assigned to this vulnerability.
 
 
 
 - [https://github.com/fastify/send](https://github.com/fastify/send) :  ![starts](https://img.shields.io/github/stars/fastify/send.svg) ![forks](https://img.shields.io/github/forks/fastify/send.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20165](https://github.com/Live-Hack-CVE/CVE-2017-20165) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20165.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20165.svg)
-
-## CVE-2017-20164
- A vulnerability was found in Symbiote Seed up to 6.0.2. It has been classified as critical. Affected is the function onBeforeSecurityLogin of the file code/extensions/SecurityLoginExtension.php of the component Login. The manipulation of the argument URL leads to open redirect. It is possible to launch the attack remotely. Upgrading to version 6.0.3 is able to address this issue. The name of the patch is b065ebd82da53009d273aa7e989191f701485244. It is recommended to upgrade the affected component. VDB-217626 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20164](https://github.com/Live-Hack-CVE/CVE-2017-20164) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20164.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20164.svg)
-
-## CVE-2017-20163
- A vulnerability has been found in Red Snapper NView and classified as critical. This vulnerability affects the function mutate of the file src/Session.php. The manipulation of the argument session leads to sql injection. The name of the patch is cbd255f55d476b29e5680f66f48c73ddb3d416a8. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217516.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20163](https://github.com/Live-Hack-CVE/CVE-2017-20163) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20163.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20163.svg)
-
-## CVE-2017-20162
- A vulnerability, which was classified as problematic, has been found in vercel ms up to 1.x. This issue affects the function parse of the file index.js. The manipulation of the argument str leads to inefficient regular expression complexity. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 2.0.0 is able to address this issue. The name of the patch is caae2988ba2a37765d055c4eee63d383320ee662. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-217451.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20162](https://github.com/Live-Hack-CVE/CVE-2017-20162) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20162.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20162.svg)
-
-## CVE-2017-20161
- A vulnerability classified as problematic has been found in rofl0r MacGeiger. Affected is the function dump_wlan_at of the file macgeiger.c of the component ESSID Handler. The manipulation leads to injection. Access to the local network is required for this attack to succeed. The name of the patch is 57f1dd50a4821b8c8e676e8020006ae4bfd3c9cb. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-217188.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20161](https://github.com/Live-Hack-CVE/CVE-2017-20161) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20161.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20161.svg)
-
-## CVE-2017-20160
- A vulnerability was found in flitto express-param up to 0.x. It has been classified as critical. This affects an unknown part of the file lib/fetchParams.js. The manipulation leads to improper handling of extra parameters. It is possible to initiate the attack remotely. Upgrading to version 1.0.0 is able to address this issue. The name of the patch is db94f7391ad0a16dcfcba8b9be1af385b25c42db. It is recommended to upgrade the affected component. The identifier VDB-217149 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20160](https://github.com/Live-Hack-CVE/CVE-2017-20160) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20160.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20160.svg)
-
-## CVE-2017-20159
- A vulnerability was found in rf Keynote up to 0.x. It has been rated as problematic. Affected by this issue is some unknown functionality of the file lib/keynote/rumble.rb. The manipulation of the argument value leads to cross site scripting. The attack may be launched remotely. Upgrading to version 1.0.0 is able to address this issue. The name of the patch is 05be4356b0a6ca7de48da926a9b997beb5ffeb4a. It is recommended to upgrade the affected component. VDB-217142 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20159](https://github.com/Live-Hack-CVE/CVE-2017-20159) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20159.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20159.svg)
-
-## CVE-2017-20158
- ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability was found in vova07 Yii2 FileAPI Widget up to 0.1.8. It has been declared as problematic. Affected by this vulnerability is the function run of the file actions/UploadAction.php. The manipulation of the argument file leads to cross site scripting. The attack can be launched remotely. Upgrading to version 0.1.9 is able to address this issue. The name of the patch is c00d1e4fc912257fca1fce66d7a163bdbb4c8222. It is recommended to upgrade the affected component. The identifier VDB-217141 was assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20158](https://github.com/Live-Hack-CVE/CVE-2017-20158) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20158.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20158.svg)
-
-## CVE-2017-20157
- A vulnerability was found in Ariadne Component Library up to 2.x. It has been classified as critical. Affected is an unknown function of the file src/url/Url.php. The manipulation leads to server-side request forgery. Upgrading to version 3.0 is able to address this issue. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-217140.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20157](https://github.com/Live-Hack-CVE/CVE-2017-20157) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20157.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20157.svg)
-
-## CVE-2017-20156
- A vulnerability was found in Exciting Printer and classified as critical. This issue affects some unknown processing of the file lib/printer/jobs/prepare_page.rb of the component Argument Handler. The manipulation of the argument URL leads to command injection. The name of the patch is 5f8c715d6e2cc000f621a6833f0a86a673462136. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-217139.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20156](https://github.com/Live-Hack-CVE/CVE-2017-20156) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20156.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20156.svg)
-
-## CVE-2017-20155
- A vulnerability was found in Sterc Google Analytics Dashboard for MODX up to 1.0.5. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file core/components/analyticsdashboardwidget/elements/tpl/widget.analytics.tpl of the component Internal Search. The manipulation leads to cross site scripting. The attack can be launched remotely. Upgrading to version 1.0.6 is able to address this issue. The name of the patch is 855d9560d3782c105568eedf9b22a769fbf29cc0. It is recommended to upgrade the affected component. The identifier VDB-217069 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20155](https://github.com/Live-Hack-CVE/CVE-2017-20155) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20155.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20155.svg)
-
-## CVE-2017-20150
- A vulnerability was found in challenge website. It has been rated as critical. This issue affects some unknown processing. The manipulation leads to sql injection. The name of the patch is f1644b1d3502e5aa5284f31ea80d2623817f4d42. It is recommended to apply a patch to fix this issue. The identifier VDB-216989 was assigned to this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20150](https://github.com/Live-Hack-CVE/CVE-2017-20150) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20150.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20150.svg)
-
-## CVE-2017-20149
- The Mikrotik RouterOS web server allows memory corruption in releases before Stable 6.38.5 and Long-term 6.37.5, aka Chimay-Red. A remote and unauthenticated user can trigger the vulnerability by sending a crafted HTTP request. An attacker can use this vulnerability to execute arbitrary code on the affected system, as exploited in the wild in mid-2017 and later.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20149](https://github.com/Live-Hack-CVE/CVE-2017-20149) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20149.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20149.svg)
-
-## CVE-2017-20148
- In the ebuild package through logcheck-1.3.23.ebuild for Logcheck on Gentoo, it is possible to achieve root privilege escalation from the logcheck user because of insecure recursive chown calls.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20148](https://github.com/Live-Hack-CVE/CVE-2017-20148) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20148.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20148.svg)
-
-## CVE-2017-20147
- In the ebuild package through smokeping-2.7.3-r1 for SmokePing on Gentoo, the initscript uses a PID file that is writable by the smokeping user. By writing arbitrary PIDs to that file, the smokeping user can cause a denial of service to arbitrary PIDs when the service is stopped.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20147](https://github.com/Live-Hack-CVE/CVE-2017-20147) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20147.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20147.svg)
-
-## CVE-2017-20146
- Usage of the CORS handler may apply improper CORS headers, allowing the requester to explicitly control the value of the Access-Control-Allow-Origin header, which bypasses the expected behavior of the Same Origin Policy.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20146](https://github.com/Live-Hack-CVE/CVE-2017-20146) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20146.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20146.svg)
-
-## CVE-2017-20144
- A vulnerability has been found in Anvsoft PDFMate PDF Converter Pro 1.7.5.0 and classified as critical. The manipulation leads to memory corruption. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20144](https://github.com/Live-Hack-CVE/CVE-2017-20144) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20144.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20144.svg)
-
-## CVE-2017-20135
- A vulnerability classified as critical was found in Itech Dating Script 3.26. Affected by this vulnerability is an unknown functionality of the file /see_more_details.php. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20135](https://github.com/Live-Hack-CVE/CVE-2017-20135) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20135.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20135.svg)
-
-## CVE-2017-20052
- A vulnerability classified as problematic was found in Python 2.7.13. This vulnerability affects unknown code of the component pgAdmin4. The manipulation leads to uncontrolled search path. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20052](https://github.com/Live-Hack-CVE/CVE-2017-20052) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20052.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20052.svg)
-
-## CVE-2017-20049
- A vulnerability, was found in legacy Axis devices such as P3225 and M3005. This affects an unknown part of the component CGI Script. The manipulation leads to improper privilege management. It is possible to initiate the attack remotely.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20049](https://github.com/Live-Hack-CVE/CVE-2017-20049) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20049.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20049.svg)
-
-## CVE-2017-20045
- A vulnerability was found in Navetti PricePoint 4.6.0.0. It has been declared as critical. This vulnerability affects unknown code. The manipulation leads to cross-site request forgery. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 4.7.0.0 is able to address this issue. It is recommended to upgrade the affected component.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20045](https://github.com/Live-Hack-CVE/CVE-2017-20045) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20045.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20045.svg)
-
-## CVE-2017-20044
- A vulnerability was found in Navetti PricePoint 4.6.0.0. It has been classified as problematic. This affects an unknown part. The manipulation leads to basic cross site scripting (Reflected). It is possible to initiate the attack remotely. Upgrading to version 4.7.0.0 is able to address this issue. It is recommended to upgrade the affected component.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20044](https://github.com/Live-Hack-CVE/CVE-2017-20044) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20044.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20044.svg)
-
-## CVE-2017-20043
- A vulnerability was found in Navetti PricePoint 4.6.0.0 and classified as problematic. Affected by this issue is some unknown functionality. The manipulation leads to basic cross site scripting (Persistent). The attack may be launched remotely. Upgrading to version 4.7.0.0 is able to address this issue. It is recommended to upgrade the affected component.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20043](https://github.com/Live-Hack-CVE/CVE-2017-20043) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20043.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20043.svg)
-
-## CVE-2017-20042
- A vulnerability has been found in Navetti PricePoint 4.6.0.0 and classified as critical. Affected by this vulnerability is an unknown functionality. The manipulation leads to sql injection (Blind). The attack can be launched remotely. Upgrading to version 4.7.0.0 is able to address this issue. It is recommended to upgrade the affected component.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-20042](https://github.com/Live-Hack-CVE/CVE-2017-20042) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-20042.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-20042.svg)
-
-## CVE-2017-18926
- raptor_xml_writer_start_element_common in raptor_xml_writer.c in Raptor RDF Syntax Library 2.0.15 miscalculates the maximum nspace declarations for the XML writer, leading to heap-based buffer overflows (sometimes seen in raptor_qname_format_as_xml).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-18926](https://github.com/Live-Hack-CVE/CVE-2017-18926) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18926.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18926.svg)
 
 ## CVE-2017-18635
  An XSS vulnerability was discovered in noVNC before 0.6.2 in which the remote VNC server could inject arbitrary HTML into the noVNC web page via the messages propagated to the status field, such as the VNC server name.
@@ -490,40 +241,12 @@
 
 - [https://github.com/ossf-cve-benchmark/CVE-2017-18635](https://github.com/ossf-cve-benchmark/CVE-2017-18635) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-18635.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-18635.svg)
 
-## CVE-2017-18540
- The weblibrarian plugin before 3.4.8.7 for WordPress has XSS via front-end short codes.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-18540](https://github.com/Live-Hack-CVE/CVE-2017-18540) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18540.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18540.svg)
-
-## CVE-2017-18539
- The weblibrarian plugin before 3.4.8.6 for WordPress has XSS via front-end short codes.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-18539](https://github.com/Live-Hack-CVE/CVE-2017-18539) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18539.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18539.svg)
-
-## CVE-2017-18538
- The weblibrarian plugin before 3.4.8.5 for WordPress has XSS via front-end short codes.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-18538](https://github.com/Live-Hack-CVE/CVE-2017-18538) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18538.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18538.svg)
-
 ## CVE-2017-18486
  Jitbit Helpdesk before 9.0.3 allows remote attackers to escalate privileges because of mishandling of the User/AutoLogin userHash parameter. By inspecting the token value provided in a password reset link, a user can leverage a weak PRNG to recover the shared secret used by the server for remote authentication. The shared secret can be used to escalate privileges by forging new tokens for any user. These tokens can be used to automatically log in as the affected user.
 
 
 
 - [https://github.com/Kc57/JitBit_Helpdesk_Auth_Bypass](https://github.com/Kc57/JitBit_Helpdesk_Auth_Bypass) :  ![starts](https://img.shields.io/github/stars/Kc57/JitBit_Helpdesk_Auth_Bypass.svg) ![forks](https://img.shields.io/github/forks/Kc57/JitBit_Helpdesk_Auth_Bypass.svg)
-
-## CVE-2017-18379
- In the Linux kernel before 4.14, an out of boundary access happened in drivers/nvme/target/fc.c.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-18379](https://github.com/Live-Hack-CVE/CVE-2017-18379) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18379.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18379.svg)
 
 ## CVE-2017-18355
  Installed packages are exposed by node_modules in Rendertron 1.0.0, allowing remote attackers to read absolute paths on the server by examining the &quot;_where&quot; attribute of package.json files.
@@ -583,26 +306,12 @@
 
 - [https://github.com/ossf-cve-benchmark/CVE-2017-18214](https://github.com/ossf-cve-benchmark/CVE-2017-18214) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-18214.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-18214.svg)
 
-## CVE-2017-18079
- drivers/input/serio/i8042.c in the Linux kernel before 4.12.4 allows attackers to cause a denial of service (NULL pointer dereference and system crash) or possibly have unspecified other impact because the port-&gt;exists value can change after it is validated.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-18079](https://github.com/Live-Hack-CVE/CVE-2017-18079) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18079.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18079.svg)
-
 ## CVE-2017-18077
  index.js in brace-expansion before 1.1.7 is vulnerable to Regular Expression Denial of Service (ReDoS) attacks, as demonstrated by an expand argument containing many comma characters.
 
 
 
 - [https://github.com/ossf-cve-benchmark/CVE-2017-18077](https://github.com/ossf-cve-benchmark/CVE-2017-18077) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-18077.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-18077.svg)
-
-## CVE-2017-18075
- crypto/pcrypt.c in the Linux kernel before 4.14.13 mishandles freeing instances, allowing a local user able to access the AF_ALG-based AEAD interface (CONFIG_CRYPTO_USER_API_AEAD) and pcrypt (CONFIG_CRYPTO_PCRYPT) to cause a denial of service (kfree of an incorrect pointer) or possibly have unspecified other impact by executing a crafted sequence of system calls.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-18075](https://github.com/Live-Hack-CVE/CVE-2017-18075) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18075.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18075.svg)
 
 ## CVE-2017-18047
  Buffer Overflow in the FTP client in LabF nfsAxe 3.7 allows remote FTP servers to execute arbitrary code via a long reply.
@@ -618,103 +327,12 @@
 
 - [https://github.com/securifera/CVE-2017-18044-Exploit](https://github.com/securifera/CVE-2017-18044-Exploit) :  ![starts](https://img.shields.io/github/stars/securifera/CVE-2017-18044-Exploit.svg) ![forks](https://img.shields.io/github/forks/securifera/CVE-2017-18044-Exploit.svg)
 
-## CVE-2017-18017
- The tcpmss_mangle_packet function in net/netfilter/xt_TCPMSS.c in the Linux kernel before 4.11, and 4.9.x before 4.9.36, allows remote attackers to cause a denial of service (use-after-free and memory corruption) or possibly have unspecified other impact by leveraging the presence of xt_TCPMSS in an iptables action.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-18017](https://github.com/Live-Hack-CVE/CVE-2017-18017) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18017.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18017.svg)
-
 ## CVE-2017-18016
  Parity Browser 1.6.10 and earlier allows remote attackers to bypass the Same Origin Policy and obtain sensitive information by requesting other websites via the Parity web proxy engine (reusing the current website's token, which is not bound to an origin).
 
 
 
 - [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
-
-## CVE-2017-18005
- Exiv2 0.26 has a Null Pointer Dereference in the Exiv2::DataValue::toLong function in value.cpp, related to crafted metadata in a TIFF file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-18005](https://github.com/Live-Hack-CVE/CVE-2017-18005) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-18005.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-18005.svg)
-
-## CVE-2017-17971
- The test_sql_and_script_inject function in htdocs/main.inc.php in Dolibarr ERP/CRM 6.0.4 blocks some event attributes but neither onclick nor onscroll, which allows XSS.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-17971](https://github.com/Live-Hack-CVE/CVE-2017-17971) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17971.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17971.svg)
-
-## CVE-2017-17900
- SQL injection vulnerability in fourn/index.php in Dolibarr ERP/CRM version 6.0.4 allows remote attackers to execute arbitrary SQL commands via the socid parameter.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-17900](https://github.com/Live-Hack-CVE/CVE-2017-17900) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17900.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17900.svg)
-
-## CVE-2017-17899
- SQL injection vulnerability in adherents/subscription/info.php in Dolibarr ERP/CRM version 6.0.4 allows remote attackers to execute arbitrary SQL commands via the rowid parameter.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-17899](https://github.com/Live-Hack-CVE/CVE-2017-17899) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17899.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17899.svg)
-
-## CVE-2017-17898
- Dolibarr ERP/CRM version 6.0.4 does not block direct requests to *.tpl.php files, which allows remote attackers to obtain sensitive information.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-17898](https://github.com/Live-Hack-CVE/CVE-2017-17898) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17898.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17898.svg)
-
-## CVE-2017-17897
- SQL injection vulnerability in comm/multiprix.php in Dolibarr ERP/CRM version 6.0.4 allows remote attackers to execute arbitrary SQL commands via the id parameter.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-17897](https://github.com/Live-Hack-CVE/CVE-2017-17897) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17897.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17897.svg)
-
-## CVE-2017-17857
- The check_stack_boundary function in kernel/bpf/verifier.c in the Linux kernel through 4.14.8 allows local users to cause a denial of service (memory corruption) or possibly have unspecified other impact by leveraging mishandling of invalid variable stack read operations.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-17857](https://github.com/Live-Hack-CVE/CVE-2017-17857) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17857.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17857.svg)
-
-## CVE-2017-17856
- kernel/bpf/verifier.c in the Linux kernel through 4.14.8 allows local users to cause a denial of service (memory corruption) or possibly have unspecified other impact by leveraging the lack of stack-pointer alignment enforcement.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-17856](https://github.com/Live-Hack-CVE/CVE-2017-17856) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17856.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17856.svg)
-
-## CVE-2017-17855
- kernel/bpf/verifier.c in the Linux kernel through 4.14.8 allows local users to cause a denial of service (memory corruption) or possibly have unspecified other impact by leveraging improper use of pointers in place of scalars.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-17855](https://github.com/Live-Hack-CVE/CVE-2017-17855) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17855.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17855.svg)
-
-## CVE-2017-17854
- kernel/bpf/verifier.c in the Linux kernel through 4.14.8 allows local users to cause a denial of service (integer overflow and memory corruption) or possibly have unspecified other impact by leveraging unrestricted integer values for pointer arithmetic.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-17854](https://github.com/Live-Hack-CVE/CVE-2017-17854) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17854.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17854.svg)
-
-## CVE-2017-17853
- kernel/bpf/verifier.c in the Linux kernel through 4.14.8 allows local users to cause a denial of service (memory corruption) or possibly have unspecified other impact by leveraging incorrect BPF_RSH signed bounds calculations.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-17853](https://github.com/Live-Hack-CVE/CVE-2017-17853) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17853.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17853.svg)
-
-## CVE-2017-17806
- The HMAC implementation (crypto/hmac.c) in the Linux kernel before 4.14.8 does not validate that the underlying cryptographic hash algorithm is unkeyed, allowing a local attacker able to use the AF_ALG-based hash interface (CONFIG_CRYPTO_USER_API_HASH) and the SHA-3 hash algorithm (CONFIG_CRYPTO_SHA3) to cause a kernel stack buffer overflow by executing a crafted sequence of system calls that encounter a missing SHA-3 initialization.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-17806](https://github.com/Live-Hack-CVE/CVE-2017-17806) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17806.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17806.svg)
 
 ## CVE-2017-17736
  Kentico 9.0 before 9.0.51 and 10.0 before 10.0.48 allows remote attackers to obtain Global Administrator access by visiting CMSInstall/install.aspx and then navigating to the CMS Administration Dashboard.
@@ -729,20 +347,6 @@
 
 
 - [https://github.com/specloli/CVE-2017-17692](https://github.com/specloli/CVE-2017-17692) :  ![starts](https://img.shields.io/github/stars/specloli/CVE-2017-17692.svg) ![forks](https://img.shields.io/github/forks/specloli/CVE-2017-17692.svg)
-
-## CVE-2017-17669
- There is a heap-based buffer over-read in the Exiv2::Internal::PngChunk::keyTXTChunk function of pngchunk_int.cpp in Exiv2 0.26. A crafted PNG file will lead to a remote denial of service attack.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-17669](https://github.com/Live-Hack-CVE/CVE-2017-17669) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17669.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17669.svg)
-
-## CVE-2017-17590
- FS Stackoverflow Clone 1.0 has SQL Injection via the /question keywords parameter.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-17590](https://github.com/Live-Hack-CVE/CVE-2017-17590) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-17590.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-17590.svg)
 
 ## CVE-2017-17562
  Embedthis GoAhead before 3.6.5 allows remote code execution if CGI is enabled and a CGI program is dynamically linked. This is a result of initializing the environment of forked CGI scripts using untrusted HTTP request parameters in the cgiHandler function in cgi.c. When combined with the glibc dynamic linker, this behaviour can be abused for remote code execution using special parameter names such as LD_PRELOAD. An attacker can POST their shared object payload in the body of the request, and reference it using /proc/self/fd/0.
@@ -962,13 +566,6 @@
 
 - [https://github.com/dewankpant/CVE-2017-16567](https://github.com/dewankpant/CVE-2017-16567) :  ![starts](https://img.shields.io/github/stars/dewankpant/CVE-2017-16567.svg) ![forks](https://img.shields.io/github/forks/dewankpant/CVE-2017-16567.svg)
 
-## CVE-2017-16544
- In the add_match function in libbb/lineedit.c in BusyBox through 1.27.2, the tab autocomplete feature of the shell, used to get a list of filenames in a directory, does not sanitize filenames and results in executing any escape sequence in the terminal. This could potentially result in code execution, arbitrary file writes, or other attacks.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16544](https://github.com/Live-Hack-CVE/CVE-2017-16544) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16544.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16544.svg)
-
 ## CVE-2017-16541
  Tor Browser before 7.0.9 on macOS and Linux allows remote attackers to bypass the intended anonymity feature and discover a client IP address via vectors involving a crafted web site that leverages file:// mishandling in Firefox, aka TorMoil. NOTE: Tails is unaffected.
 
@@ -982,559 +579,6 @@
 
 
 - [https://github.com/realistic-security/CVE-2017-16524](https://github.com/realistic-security/CVE-2017-16524) :  ![starts](https://img.shields.io/github/stars/realistic-security/CVE-2017-16524.svg) ![forks](https://img.shields.io/github/forks/realistic-security/CVE-2017-16524.svg)
-
-## CVE-2017-16349
- An exploitable XML external entity vulnerability exists in the reporting functionality of SAP BPC. A specially crafted XML request can cause an XML external entity to be referenced, resulting in information disclosure and potential denial of service. An attacker can issue authenticated HTTP requests to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16349](https://github.com/Live-Hack-CVE/CVE-2017-16349) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16349.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16349.svg)
-
-## CVE-2017-16347
- An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01e7d4 the value for the s_vol key is copied using strcpy to the buffer at 0xa0001700. This buffer is maximum 12 bytes large (this is the maximum size it could be, it is possible other global variables are stored between this variable and the next one that we could identify), sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16347](https://github.com/Live-Hack-CVE/CVE-2017-16347) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16347.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16347.svg)
-
-## CVE-2017-16346
- An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c368 the value for the s_mac key is copied using strcpy to the buffer at 0xa000170c. This buffer is 25 bytes large, sending anything longer will cause a buffer overflow. The destination can also be shifted by using an sn_speaker parameter between &quot;0&quot; and &quot;3&quot;.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16346](https://github.com/Live-Hack-CVE/CVE-2017-16346) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16346.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16346.svg)
-
-## CVE-2017-16345
- An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c318 the value for the s_port key is copied using strcpy to the buffer at 0xa00017f4. This buffer is 6 bytes large, sending anything longer will cause a buffer overflow. The destination can also be shifted by using an sn_speaker parameter between &quot;0&quot; and &quot;3&quot;.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16345](https://github.com/Live-Hack-CVE/CVE-2017-16345) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16345.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16345.svg)
-
-## CVE-2017-16344
- An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c2c8 the value for the s_url key is copied using strcpy to the buffer at 0xa0001a0c. This buffer is 16 bytes large, sending anything longer will cause a buffer overflow. The destination can also be shifted by using an sn_speaker parameter between &quot;0&quot; and &quot;3&quot;.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16344](https://github.com/Live-Hack-CVE/CVE-2017-16344) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16344.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16344.svg)
-
-## CVE-2017-16343
- An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c284 the value for the s_vol_brt_delta key is copied using strcpy to the buffer at 0xa0000510. This buffer is 4 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16343](https://github.com/Live-Hack-CVE/CVE-2017-16343) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16343.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16343.svg)
-
-## CVE-2017-16342
- An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c254 the value for the s_vol_dim_delta key is copied using strcpy to the buffer at 0xa0000514. This buffer is 4 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16342](https://github.com/Live-Hack-CVE/CVE-2017-16342) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16342.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16342.svg)
-
-## CVE-2017-16341
- An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c224 the value for the s_vol_play key is copied using strcpy to the buffer at 0xa0000418. This buffer is maximum 8 bytes large (this is the maximum size it could be, it is possible other global variables are stored between this variable and the next one that we could identify), sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16341](https://github.com/Live-Hack-CVE/CVE-2017-16341) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16341.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16341.svg)
-
-## CVE-2017-16340
- An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01c0e8 the value for the s_dport key is copied using strcpy to the buffer at 0xa000180c. This buffer is 6 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16340](https://github.com/Live-Hack-CVE/CVE-2017-16340) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16340.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16340.svg)
-
-## CVE-2017-16339
- An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01bb1c the value for the uri key is copied using strcpy to the buffer at 0xa00016a0. This buffer is 64 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16339](https://github.com/Live-Hack-CVE/CVE-2017-16339) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16339.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16339.svg)
-
-## CVE-2017-16338
- An attacker could send an authenticated HTTP request to trigger this vulnerability in Insteon Hub running firmware version 1012. At 0x9d01bad0 the value for the host key is copied using strcpy to the buffer at 0xa00016e0. This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16338](https://github.com/Live-Hack-CVE/CVE-2017-16338) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16338.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16338.svg)
-
-## CVE-2017-16337
- On Insteon Hub 2245-222 devices with firmware version 1012, specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. At 0x9d01ef24 the value for the s_offset key is copied using strcpy to the buffer at $sp+0x2b0. This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16337](https://github.com/Live-Hack-CVE/CVE-2017-16337) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16337.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16337.svg)
-
-## CVE-2017-16335
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_event_var, at 0x9d01ee70, the value for the `s_offset` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16335](https://github.com/Live-Hack-CVE/CVE-2017-16335) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16335.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16335.svg)
-
-## CVE-2017-16334
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_event, at 0x9d01edb8, the value for the `s_raw` key is copied using `strcpy` to the buffer at `$sp+0x10`.This buffer is 244 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16334](https://github.com/Live-Hack-CVE/CVE-2017-16334) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16334.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16334.svg)
-
-## CVE-2017-16332
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_event_alarm, at 0x9d01ec34, the value for the `s_aid` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16332](https://github.com/Live-Hack-CVE/CVE-2017-16332) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16332.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16332.svg)
-
-## CVE-2017-16331
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_event_alarm, at 0x9d01ebd4, the value for the `s_tid` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16331](https://github.com/Live-Hack-CVE/CVE-2017-16331) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16331.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16331.svg)
-
-## CVE-2017-16330
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_event_alarm, at 0x9d01eb8c, the value for the `s_event_group` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16330](https://github.com/Live-Hack-CVE/CVE-2017-16330) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16330.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16330.svg)
-
-## CVE-2017-16329
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_event_alarm, at 0x9d01eb44, the value for the `s_event_delay` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16329](https://github.com/Live-Hack-CVE/CVE-2017-16329) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16329.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16329.svg)
-
-## CVE-2017-16328
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_event_alarm, at 0x9d01eb08, the value for the `s_event_offset` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16328](https://github.com/Live-Hack-CVE/CVE-2017-16328) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16328.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16328.svg)
-
-## CVE-2017-16327
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_init_event, at 0x9d01ea88, the value for the `s_event_offset` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16327](https://github.com/Live-Hack-CVE/CVE-2017-16327) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16327.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16327.svg)
-
-## CVE-2017-16326
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_sonos, at 0x9d01e5f4, the value for the `sn_sonos_cmd` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16326](https://github.com/Live-Hack-CVE/CVE-2017-16326) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16326.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16326.svg)
-
-## CVE-2017-16322
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_sonos, at 0x9d01e228, the value for the `c_group` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16322](https://github.com/Live-Hack-CVE/CVE-2017-16322) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16322.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16322.svg)
-
-## CVE-2017-16320
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_sonos, at 0x9d01ddd4, the value for the `s_sonos_cmd` key is copied using `strcpy` to the buffer at `$sp+0x290`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16320](https://github.com/Live-Hack-CVE/CVE-2017-16320) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16320.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16320.svg)
-
-## CVE-2017-16319
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_sonos, at 0x9d01d7a8, the value for the `g_sonos_index` key is copied using `strcpy` to the buffer at `$sp+0x1b4`.This buffer is 8 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16319](https://github.com/Live-Hack-CVE/CVE-2017-16319) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16319.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16319.svg)
-
-## CVE-2017-16318
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_sonos, at 0x9d01d16c, the value for the `g_group_off` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16318](https://github.com/Live-Hack-CVE/CVE-2017-16318) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16318.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16318.svg)
-
-## CVE-2017-16317
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_sonos, at 0x9d01d068, the value for the `g_group` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16317](https://github.com/Live-Hack-CVE/CVE-2017-16317) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16317.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16317.svg)
-
-## CVE-2017-16316
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_sonos, at 0x9d01c898, the value for the `g_meta_page` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16316](https://github.com/Live-Hack-CVE/CVE-2017-16316) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16316.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16316.svg)
-
-## CVE-2017-16315
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_sonos, at 0x9d01c3a0, the value for the `s_state` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16315](https://github.com/Live-Hack-CVE/CVE-2017-16315) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16315.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16315.svg)
-
-## CVE-2017-16314
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_sonos, at 0x9d01c1cc, the value for the `s_speaker` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16314](https://github.com/Live-Hack-CVE/CVE-2017-16314) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16314.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16314.svg)
-
-## CVE-2017-16313
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_sonos, at 0x9d01c084, the value for the `s_ddelay` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16313](https://github.com/Live-Hack-CVE/CVE-2017-16313) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16313.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16313.svg)
-
-## CVE-2017-16312
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_sonos, at 0x9d01c028, the value for the `sn_discover` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16312](https://github.com/Live-Hack-CVE/CVE-2017-16312) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16312.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16312.svg)
-
-## CVE-2017-16311
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd UpdateCheck, at 0x9d01bb64, the value for the `type` key is copied using `strcpy` to the buffer at `$sp+0x270`.This buffer is 16 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16311](https://github.com/Live-Hack-CVE/CVE-2017-16311) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16311.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16311.svg)
-
-## CVE-2017-16310
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_ch, at 0x9d01b7b0, the value for the `ch` key is copied using `strcpy` to the buffer at `$sp+0x334`.This buffer is 100 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16310](https://github.com/Live-Hack-CVE/CVE-2017-16310) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16310.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16310.svg)
-
-## CVE-2017-16309
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd sn_exw, at 0x9d01b3d8, the value for the `d` key is copied using `strcpy` to the buffer at `$sp+0x334`.This buffer is 100 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16309](https://github.com/Live-Hack-CVE/CVE-2017-16309) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16309.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16309.svg)
-
-## CVE-2017-16304
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd sn_ex, at 0x9d01ae40, the value for the `d` key is copied using `strcpy` to the buffer at `$sp+0x334`.This buffer is 100 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16304](https://github.com/Live-Hack-CVE/CVE-2017-16304) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16304.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16304.svg)
-
-## CVE-2017-16303
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd sn_ex, at 0x9d01addc, the value for the `cmd2` key is copied using `strcpy` to the buffer at `$sp+0x280`.This buffer is 16 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16303](https://github.com/Live-Hack-CVE/CVE-2017-16303) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16303.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16303.svg)
-
-## CVE-2017-16302
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd sn_ex, at 0x9d01ad78, the value for the `cmd1` key is copied using `strcpy` to the buffer at `$sp+0x2d0`.This buffer is 100 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16302](https://github.com/Live-Hack-CVE/CVE-2017-16302) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16302.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16302.svg)
-
-## CVE-2017-16301
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd sn_ex, at 0x9d01ad14, the value for the `flg` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16301](https://github.com/Live-Hack-CVE/CVE-2017-16301) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16301.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16301.svg)
-
-## CVE-2017-16300
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd sn_ex, at 0x9d01ac74, the value for the `id` key is copied using `strcpy` to the buffer at `$sp+0x290`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16300](https://github.com/Live-Hack-CVE/CVE-2017-16300) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16300.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16300.svg)
-
-## CVE-2017-16299
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd sn_raw, at 0x9d01aad8, the value for the `d` key is copied using `strcpy` to the buffer at `$sp+0x334`.This buffer is 100 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16299](https://github.com/Live-Hack-CVE/CVE-2017-16299) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16299.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16299.svg)
-
-## CVE-2017-16298
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_schd, at 0x9d01a264, the value for the `offcmd` key is copied using `strcpy` to the buffer at `$sp+0x334`.This buffer is 100 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16298](https://github.com/Live-Hack-CVE/CVE-2017-16298) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16298.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16298.svg)
-
-## CVE-2017-16297
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_schd, at 0x9d01a21c, the value for the `oncmd` key is copied using `strcpy` to the buffer at `$sp+0x2d0`.This buffer is 100 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16297](https://github.com/Live-Hack-CVE/CVE-2017-16297) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16297.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16297.svg)
-
-## CVE-2017-16296
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_schd, at 0x9d01a1d4, the value for the `days` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16296](https://github.com/Live-Hack-CVE/CVE-2017-16296) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16296.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16296.svg)
-
-## CVE-2017-16295
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_schd, at 0x9d01a18c, the value for the `off` key is copied using `strcpy` to the buffer at `$sp+0x270`.This buffer is 16 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16295](https://github.com/Live-Hack-CVE/CVE-2017-16295) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16295.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16295.svg)
-
-## CVE-2017-16292
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd g_schd, at 0x9d019c50, the value for the `grp` key is copied using `strcpy` to the buffer at `$sp+0x1b4`.This buffer is 8 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16292](https://github.com/Live-Hack-CVE/CVE-2017-16292) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16292.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16292.svg)
-
-## CVE-2017-16291
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_sun, at 0x9d019854, the value for the `sunset` key is copied using `strcpy` to the buffer at `$sp+0x334`.This buffer is 100 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16291](https://github.com/Live-Hack-CVE/CVE-2017-16291) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16291.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16291.svg)
-
-## CVE-2017-16290
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_sun, at 0x9d01980c, the value for the `sunrise` key is copied using `strcpy` to the buffer at `$sp+0x2d0`.This buffer is 100 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16290](https://github.com/Live-Hack-CVE/CVE-2017-16290) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16290.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16290.svg)
-
-## CVE-2017-16289
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_utc, at 0x9d0193ac, the value for the `offset` key is copied using `strcpy` to the buffer at `$sp+0x2d0`.This buffer is 100 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16289](https://github.com/Live-Hack-CVE/CVE-2017-16289) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16289.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16289.svg)
-
-## CVE-2017-16288
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_time, at 0x9d018f60, the value for the `dst` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16288](https://github.com/Live-Hack-CVE/CVE-2017-16288) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16288.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16288.svg)
-
-## CVE-2017-16287
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_time, at 0x9d018f00, the value for the `dstend` key is copied using `strcpy` to the buffer at `$sp+0x270`.This buffer is 16 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16287](https://github.com/Live-Hack-CVE/CVE-2017-16287) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16287.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16287.svg)
-
-## CVE-2017-16286
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_time, at 0x9d018ea0, the value for the `dststart` key is copied using `strcpy` to the buffer at `$sp+0x280`.This buffer is 16 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16286](https://github.com/Live-Hack-CVE/CVE-2017-16286) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16286.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16286.svg)
-
-## CVE-2017-16285
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_time, at 0x9d018e58, the value for the `offset` key is copied using `strcpy` to the buffer at `$sp+0x2d0`.This buffer is 100 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16285](https://github.com/Live-Hack-CVE/CVE-2017-16285) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16285.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16285.svg)
-
-## CVE-2017-16284
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_name, at 0x9d018958, the value for the `city` key is copied using `strcpy` to the buffer at `$sp+0x290`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16284](https://github.com/Live-Hack-CVE/CVE-2017-16284) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16284.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16284.svg)
-
-## CVE-2017-16283
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_name, at 0x9d0188a8, the value for the `name` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16283](https://github.com/Live-Hack-CVE/CVE-2017-16283) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16283.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16283.svg)
-
-## CVE-2017-16282
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_net, at 0x9d01827c, the value for the `dhcp` key is copied using `strcpy` to the buffer at `$sp+0x270`.This buffer is 16 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16282](https://github.com/Live-Hack-CVE/CVE-2017-16282) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16282.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16282.svg)
-
-## CVE-2017-16281
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_net, at 0x9d018234, the value for the `sub` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16281](https://github.com/Live-Hack-CVE/CVE-2017-16281) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16281.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16281.svg)
-
-## CVE-2017-16280
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_net, at 0x9d0181ec, the value for the `gate` key is copied using `strcpy` to the buffer at `$sp+0x290`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16280](https://github.com/Live-Hack-CVE/CVE-2017-16280) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16280.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16280.svg)
-
-## CVE-2017-16279
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_net, at 0x9d0181a4, the value for the `port` key is copied using `strcpy` to the buffer at `$sp+0x280`.This buffer is 16 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16279](https://github.com/Live-Hack-CVE/CVE-2017-16279) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16279.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16279.svg)
-
-## CVE-2017-16278
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_net, at 0x9d01815c, the value for the `ip` key is copied using `strcpy` to the buffer at `$sp+0x2d0`.This buffer is 100 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16278](https://github.com/Live-Hack-CVE/CVE-2017-16278) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16278.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16278.svg)
-
-## CVE-2017-16277
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd sn_grp, at 0x9d017658, the value for the `gcmd` key is copied using `strcpy` to the buffer at `$sp+0x270`.This buffer is 16 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16277](https://github.com/Live-Hack-CVE/CVE-2017-16277) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16277.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16277.svg)
-
-## CVE-2017-16276
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd sn_grp, at 0x9d0175f4, the value for the `gbt` key is copied using `strcpy` to the buffer at `$sp+0x280`.This buffer is 16 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16276](https://github.com/Live-Hack-CVE/CVE-2017-16276) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16276.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16276.svg)
-
-## CVE-2017-16275
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd sn_grp, at 0x9d01758c, the value for the `grp` key is copied using `strcpy` to the buffer at `$sp+0x1b4`.This buffer is 8 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16275](https://github.com/Live-Hack-CVE/CVE-2017-16275) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16275.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16275.svg)
-
-## CVE-2017-16274
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd e_u, at 0x9d017364, the value for the `grp` key is copied using `strcpy` to the buffer at `$sp+0x1b4`.This buffer is 8 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16274](https://github.com/Live-Hack-CVE/CVE-2017-16274) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16274.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16274.svg)
-
-## CVE-2017-16273
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd e_ml, at 0x9d016fa8, the value for the `grp` key is copied using `strcpy` to the buffer at `$sp+0x1b4`.This buffer is 8 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16273](https://github.com/Live-Hack-CVE/CVE-2017-16273) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16273.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16273.svg)
-
-## CVE-2017-16272
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd e_l, at 0x9d016cf0, the value for the `grp` key is copied using `strcpy` to the buffer at `$sp+0x1b4`.This buffer is 8 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16272](https://github.com/Live-Hack-CVE/CVE-2017-16272) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16272.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16272.svg)
-
-## CVE-2017-16271
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd e_l, at 0x9d016c94, the value for the `as_c` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16271](https://github.com/Live-Hack-CVE/CVE-2017-16271) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16271.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16271.svg)
-
-## CVE-2017-16270
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_b, at 0x9d01679c, the value for the `s_sonos_cmd` key is copied using `strcpy` to the buffer at `$sp+0x290`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16270](https://github.com/Live-Hack-CVE/CVE-2017-16270) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16270.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16270.svg)
-
-## CVE-2017-16268
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_b, at 0x9d0165c0, the value for the `id` key is copied using `strcpy` to the buffer at `$sp+0x270`.This buffer is 16 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16268](https://github.com/Live-Hack-CVE/CVE-2017-16268) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16268.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16268.svg)
-
-## CVE-2017-16263
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd g_b, at 0x9d015a8c, the value for the `val` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16263](https://github.com/Live-Hack-CVE/CVE-2017-16263) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16263.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16263.svg)
-
-## CVE-2017-16262
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd g_b, at 0x9d015864, the value for the `id` key is copied using `strcpy` to the buffer at `$sp+0x290`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16262](https://github.com/Live-Hack-CVE/CVE-2017-16262) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16262.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16262.svg)
-
-## CVE-2017-16261
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd g_b, at 0x9d015714, the value for the `grp` key is copied using `strcpy` to the buffer at `$sp+0x280`.This buffer is 16 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16261](https://github.com/Live-Hack-CVE/CVE-2017-16261) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16261.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16261.svg)
-
-## CVE-2017-16260
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_auth, at 0x9d015478, the value for the `pwd` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16260](https://github.com/Live-Hack-CVE/CVE-2017-16260) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16260.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16260.svg)
-
-## CVE-2017-16259
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd s_auth, at 0x9d015430, the value for the `usr` key is copied using `strcpy` to the buffer at `$sp+0x290`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16259](https://github.com/Live-Hack-CVE/CVE-2017-16259) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16259.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16259.svg)
-
-## CVE-2017-16258
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd sn_sx, at 0x9d014f7c, the value for the `cmd4` key is copied using `strcpy` to the buffer at `$sp+0x2b0`.This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16258](https://github.com/Live-Hack-CVE/CVE-2017-16258) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16258.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16258.svg)
-
-## CVE-2017-16256
- Multiple exploitable buffer overflow vulnerabilities exist in the PubNub message handler for the &quot;cc&quot; channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability. In cmd sn_sx, at 0x9d014ebc, the value for the `cmd2` key is copied using `strcpy` to the buffer at `$sp+0x2d0`.This buffer is 100 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16256](https://github.com/Live-Hack-CVE/CVE-2017-16256) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16256.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16256.svg)
-
-## CVE-2017-16255
- An exploitable buffer overflow vulnerability exists in the PubNub message handler Insteon Hub 2245-222 - Firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker can send an authenticated HTTP request at At 0x9d014e84 the value for the cmd1 key is copied using strcpy to the buffer at $sp+0x280. This buffer is 16 bytes large.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16255](https://github.com/Live-Hack-CVE/CVE-2017-16255) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16255.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16255.svg)
-
-## CVE-2017-16254
- An exploitable buffer overflow vulnerability exists in the PubNub message handler Insteon Hub 2245-222 - Firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker can send an authenticated HTTP request at 0x9d014e4c the value for the flg key is copied using strcpy to the buffer at $sp+0x270. This buffer is 16 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16254](https://github.com/Live-Hack-CVE/CVE-2017-16254) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16254.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16254.svg)
-
-## CVE-2017-16253
- An exploitable buffer overflow vulnerability exists in the PubNub message handler Insteon Hub 2245-222 - Firmware version 1012 for the cc channel of Insteon Hub running firmware version 1012. Specially crafted commands sent through the PubNub service can cause a stack-based buffer overflow overwriting arbitrary data. An attacker can send an authenticated HTTP request At 0x9d014dd8 the value for the id key is copied using strcpy to the buffer at $sp+0x290. This buffer is 32 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16253](https://github.com/Live-Hack-CVE/CVE-2017-16253) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16253.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16253.svg)
-
-## CVE-2017-16252
- Specially crafted commands sent through the PubNub service in Insteon Hub 2245-222 with firmware version 1012 can cause a stack-based buffer overflow overwriting arbitrary data. An attacker should send an authenticated HTTP request to trigger this vulnerability.At 0x9d014cc0 the value for the cmd key is copied using strcpy to the buffer at $sp+0x11c. This buffer is 20 bytes large, sending anything longer will cause a buffer overflow.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-16252](https://github.com/Live-Hack-CVE/CVE-2017-16252) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-16252.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-16252.svg)
 
 ## CVE-2017-16245
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
@@ -1782,20 +826,6 @@
 
 - [https://github.com/yukar1z0e/CVE-2017-15944](https://github.com/yukar1z0e/CVE-2017-15944) :  ![starts](https://img.shields.io/github/stars/yukar1z0e/CVE-2017-15944.svg) ![forks](https://img.shields.io/github/forks/yukar1z0e/CVE-2017-15944.svg)
 
-## CVE-2017-15906
- The process_open function in sftp-server.c in OpenSSH before 7.6 does not properly prevent write operations in readonly mode, which allows attackers to create zero-length files.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-15906](https://github.com/Live-Hack-CVE/CVE-2017-15906) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-15906.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-15906.svg)
-
-## CVE-2017-15897
- Node.js had a bug in versions 8.X and 9.X which caused buffers to not be initialized when the encoding for the fill value did not match the encoding specified. For example, 'Buffer.alloc(0x100, &quot;This is not correctly encoded&quot;, &quot;hex&quot;);' The buffer implementation was updated such that the buffer will be initialized to all zeros in these cases.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-15897](https://github.com/Live-Hack-CVE/CVE-2017-15897) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-15897.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-15897.svg)
-
 ## CVE-2017-15715
  In Apache httpd 2.4.0 to 2.4.29, the expression specified in &lt;FilesMatch&gt; could match '$' to a newline character in a malicious filename, rather than matching only the end of the filename. This could be exploited in environments where uploads of some files are are externally blocked, but only by matching the trailing portion of the filename.
 
@@ -1809,13 +839,6 @@
 
 
 - [https://github.com/HuSoul/CVE-2017-15708](https://github.com/HuSoul/CVE-2017-15708) :  ![starts](https://img.shields.io/github/stars/HuSoul/CVE-2017-15708.svg) ![forks](https://img.shields.io/github/forks/HuSoul/CVE-2017-15708.svg)
-
-## CVE-2017-15699
- A Denial of Service vulnerability was found in Apache Qpid Dispatch Router versions 0.7.0 and 0.8.0. To exploit this vulnerability, a remote user must be able to establish an AMQP connection to the Qpid Dispatch Router and send a specifically crafted AMQP frame which will cause it to segfault and shut down.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-15699](https://github.com/Live-Hack-CVE/CVE-2017-15699) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-15699.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-15699.svg)
 
 ## CVE-2017-15689
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
@@ -1864,13 +887,6 @@
 
 - [https://github.com/tacticthreat/ImageMagick-CVE-2017-15277](https://github.com/tacticthreat/ImageMagick-CVE-2017-15277) :  ![starts](https://img.shields.io/github/stars/tacticthreat/ImageMagick-CVE-2017-15277.svg) ![forks](https://img.shields.io/github/forks/tacticthreat/ImageMagick-CVE-2017-15277.svg)
 
-## CVE-2017-15275
- Samba before 4.7.3 might allow remote attackers to obtain sensitive information by leveraging failure of the server to clear allocated heap memory.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-15275](https://github.com/Live-Hack-CVE/CVE-2017-15275) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-15275.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-15275.svg)
-
 ## CVE-2017-15120
  An issue has been found in the parsing of authoritative answers in PowerDNS Recursor before 4.0.8, leading to a NULL pointer dereference when parsing a specially crafted answer containing a CNAME of a different class than IN. An unauthenticated remote attacker could cause a denial of service.
 
@@ -1878,28 +894,12 @@
 
 - [https://github.com/shutingrz/CVE-2017-15120_PoC](https://github.com/shutingrz/CVE-2017-15120_PoC) :  ![starts](https://img.shields.io/github/stars/shutingrz/CVE-2017-15120_PoC.svg) ![forks](https://img.shields.io/github/forks/shutingrz/CVE-2017-15120_PoC.svg)
 
-## CVE-2017-15108
- spice-vdagent up to and including 0.17.0 does not properly escape save directory before passing to shell, allowing local attacker with access to the session the agent runs in to inject arbitrary commands to be executed.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-15108](https://github.com/Live-Hack-CVE/CVE-2017-15108) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-15108.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-15108.svg)
-
-## CVE-2017-15097
- Privilege escalation flaws were found in the Red Hat initialization scripts of PostgreSQL. An attacker with access to the postgres user account could use these flaws to obtain root access on the server machine.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-15097](https://github.com/Live-Hack-CVE/CVE-2017-15097) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-15097.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-15097.svg)
-
 ## CVE-2017-15095
  A deserialization flaw was discovered in the jackson-databind in versions before 2.8.10 and 2.9.1, which could allow an unauthenticated user to perform code execution by sending the maliciously crafted input to the readValue method of the ObjectMapper. This issue extends the previous flaw CVE-2017-7525 by blacklisting more classes that could be used maliciously.
 
 
 
 - [https://github.com/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095](https://github.com/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095) :  ![starts](https://img.shields.io/github/stars/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095.svg) ![forks](https://img.shields.io/github/forks/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-15095](https://github.com/Live-Hack-CVE/CVE-2017-15095) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-15095.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-15095.svg)
 
 ## CVE-2017-15010
  A ReDoS (regular expression denial of service) flaw was found in the tough-cookie module before 2.3.3 for Node.js. An attacker that is able to make an HTTP request using a specially crafted cookie may cause the application to consume an excessive amount of CPU.
@@ -1922,33 +922,12 @@
 
 - [https://github.com/badnack/d_link_880_bug](https://github.com/badnack/d_link_880_bug) :  ![starts](https://img.shields.io/github/stars/badnack/d_link_880_bug.svg) ![forks](https://img.shields.io/github/forks/badnack/d_link_880_bug.svg)
 
-## CVE-2017-14864
- An Invalid memory address dereference was discovered in Exiv2::getULong in types.cpp in Exiv2 0.26. The vulnerability causes a segmentation fault and application crash, which leads to denial of service.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14864](https://github.com/Live-Hack-CVE/CVE-2017-14864) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14864.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14864.svg)
-
-## CVE-2017-14862
- An Invalid memory address dereference was discovered in Exiv2::DataValue::read in value.cpp in Exiv2 0.26. The vulnerability causes a segmentation fault and application crash, which leads to denial of service.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14862](https://github.com/Live-Hack-CVE/CVE-2017-14862) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14862.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14862.svg)
-
 ## CVE-2017-14719
  Before version 4.8.2, WordPress was vulnerable to a directory traversal attack during unzip operations in the ZipArchive and PclZip components.
 
 
 
 - [https://github.com/PalmTreeForest/CodePath_Week_7-8](https://github.com/PalmTreeForest/CodePath_Week_7-8) :  ![starts](https://img.shields.io/github/stars/PalmTreeForest/CodePath_Week_7-8.svg) ![forks](https://img.shields.io/github/forks/PalmTreeForest/CodePath_Week_7-8.svg)
-
-## CVE-2017-14611
- SSRF (Server Side Request Forgery) in Cockpit 0.13.0 allows remote attackers to read arbitrary files or send TCP traffic to intranet hosts via the url parameter, related to use of the discontinued aheinze/fetch_url_contents component.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14611](https://github.com/Live-Hack-CVE/CVE-2017-14611) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14611.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14611.svg)
 
 ## CVE-2017-14494
  dnsmasq before 2.78, when configured as a relay, allows remote attackers to obtain sensitive memory information via vectors involving handling DHCPv6 forwarded requests.
@@ -1972,230 +951,6 @@
 
 
 - [https://github.com/skyformat99/dnsmasq-2.4.1-fix-CVE-2017-14491](https://github.com/skyformat99/dnsmasq-2.4.1-fix-CVE-2017-14491) :  ![starts](https://img.shields.io/github/stars/skyformat99/dnsmasq-2.4.1-fix-CVE-2017-14491.svg) ![forks](https://img.shields.io/github/forks/skyformat99/dnsmasq-2.4.1-fix-CVE-2017-14491.svg)
-
-## CVE-2017-14481
- In the MMM::Agent::Helpers::Network::send_arp function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Solaris), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14481](https://github.com/Live-Hack-CVE/CVE-2017-14481) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14481.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14481.svg)
-
-## CVE-2017-14480
- In the MMM::Agent::Helpers::Network::clear_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for FreeBSD), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14480](https://github.com/Live-Hack-CVE/CVE-2017-14480) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14480.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14480.svg)
-
-## CVE-2017-14479
- In the MMM::Agent::Helpers::Network::clear_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Solaris), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14479](https://github.com/Live-Hack-CVE/CVE-2017-14479) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14479.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14479.svg)
-
-## CVE-2017-14478
- In the MMM::Agent::Helpers::Network::clear_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Linux), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14478](https://github.com/Live-Hack-CVE/CVE-2017-14478) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14478.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14478.svg)
-
-## CVE-2017-14477
- In the MMM::Agent::Helpers::Network::add_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for FreeBSD), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14477](https://github.com/Live-Hack-CVE/CVE-2017-14477) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14477.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14477.svg)
-
-## CVE-2017-14476
- In the MMM::Agent::Helpers::Network::add_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Solaris), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14476](https://github.com/Live-Hack-CVE/CVE-2017-14476) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14476.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14476.svg)
-
-## CVE-2017-14475
- In the MMM::Agent::Helpers::Network::add_ip function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1 (for Linux), a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14475](https://github.com/Live-Hack-CVE/CVE-2017-14475) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14475.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14475.svg)
-
-## CVE-2017-14474
- In the MMM::Agent::Helpers::_execute function in MySQL Multi-Master Replication Manager (MMM) mmm_agentd 2.2.1, a specially crafted MMM protocol message can cause a shell command injection resulting in arbitrary command execution with the privileges of the mmm\_agentd process. An attacker that can initiate a TCP session with mmm\_agentd can trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14474](https://github.com/Live-Hack-CVE/CVE-2017-14474) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14474.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14474.svg)
-
-## CVE-2017-14468
- An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability. Required Keyswitch State: REMOTE or PROG Description: This ability is leveraged in a larger exploit to flash custom firmware.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14468](https://github.com/Live-Hack-CVE/CVE-2017-14468) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14468.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14468.svg)
-
-## CVE-2017-14467
- An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability. Required Keyswitch State: REMOTE Description: Live rung edits are able to be made by an unauthenticated user allowing for addition, deletion, or modification of existing ladder logic. Additionally, faults and cpu state modification can be triggered if specific ladder logic is used.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14467](https://github.com/Live-Hack-CVE/CVE-2017-14467) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14467.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14467.svg)
-
-## CVE-2017-14466
- An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability. Required Keyswitch State: REMOTE or PROG Description: The filetype 0x03 allows users write access, allowing the ability to overwrite the Master Password value stored in the file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14466](https://github.com/Live-Hack-CVE/CVE-2017-14466) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14466.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14466.svg)
-
-## CVE-2017-14465
- An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability. Required Keyswitch State: REMOTE Description: Any input or output can be forced, causing unpredictable activity from the PLC.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14465](https://github.com/Live-Hack-CVE/CVE-2017-14465) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14465.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14465.svg)
-
-## CVE-2017-14464
- An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability.Required Keyswitch State: REMOTE or PROG Associated Fault Code: 0001 Fault Type: Non-User Description: A fault state can be triggered by setting the NVRAM/memory module user program mismatch bit (S2:9) when a memory module is NOT installed.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14464](https://github.com/Live-Hack-CVE/CVE-2017-14464) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14464.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14464.svg)
-
-## CVE-2017-14463
- An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability. Required Keyswitch State: REMOTE or PROG Associated Fault Code: 0012 Fault Type: Non-User Description: A fault state can be triggered by overwriting the ladder logic data file (type 0x22 number 0x02) with null values.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14463](https://github.com/Live-Hack-CVE/CVE-2017-14463) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14463.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14463.svg)
-
-## CVE-2017-14462
- An exploitable access control vulnerability exists in the data, program, and function file permissions functionality of Allen Bradley Micrologix 1400 Series B FRN 21.2 and before. A specially crafted packet can cause a read or write operation resulting in disclosure of sensitive information, modification of settings, or modification of ladder logic. An attacker can send unauthenticated packets to trigger this vulnerability. Required Keyswitch State: REMOTE or PROG (also RUN for some) Description: Allows an attacker to enable SNMP, Modbus, DNP, and any other features in the channel configuration. Also allows attackers to change network parameters, such as IP address, name server, and domain name.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14462](https://github.com/Live-Hack-CVE/CVE-2017-14462) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14462.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14462.svg)
-
-## CVE-2017-14454
- Multiple exploitable buffer overflow vulnerabilities exists in the PubNub message handler for the &quot;control&quot; channel of Insteon Hub running firmware version 1012. Specially crafted replies received from the PubNub service can cause buffer overflows on a global section overwriting arbitrary data. An attacker should impersonate PubNub and answer an HTTPS GET request to trigger this vulnerability. The `strcpy` at [18] overflows the buffer `insteon_pubnub.channel_al`, which has a size of 16 bytes.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14454](https://github.com/Live-Hack-CVE/CVE-2017-14454) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14454.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14454.svg)
-
-## CVE-2017-14448
- An exploitable code execution vulnerability exists in the XCF image rendering functionality of SDL2_image-2.0.2. A specially crafted XCF image can cause a heap overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14448](https://github.com/Live-Hack-CVE/CVE-2017-14448) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14448.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14448.svg)
-
-## CVE-2017-14446
- An exploitable stack-based buffer overflow vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation unsafely extracts parameters from the query string, leading to a buffer overflow on the stack. An attacker can send an HTTP GET request to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14446](https://github.com/Live-Hack-CVE/CVE-2017-14446) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14446.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14446.svg)
-
-## CVE-2017-14445
- An exploitable buffer overflow vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation incorrectly handles the host parameter during a firmware update request, leading to a buffer overflow on a global section. An attacker can send an HTTP GET request to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14445](https://github.com/Live-Hack-CVE/CVE-2017-14445) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14445.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14445.svg)
-
-## CVE-2017-14444
- An exploitable buffer overflow vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation incorrectly handles the URL parameter during a firmware update request, leading to a buffer overflow on a global section. An attacker can send an HTTP GET request to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14444](https://github.com/Live-Hack-CVE/CVE-2017-14444) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14444.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14444.svg)
-
-## CVE-2017-14443
- An exploitable information leak vulnerability exists in Insteon Hub running firmware version 1012. The HTTP server implementation incorrectly checks the number of GET parameters supplied, leading to an arbitrarily controlled information leak on the whole device memory. An attacker can send an authenticated HTTP request to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14443](https://github.com/Live-Hack-CVE/CVE-2017-14443) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14443.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14443.svg)
-
-## CVE-2017-14442
- An exploitable code execution vulnerability exists in the BMP image rendering functionality of SDL2_image-2.0.2. A specially crafted BMP image can cause a stack overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14442](https://github.com/Live-Hack-CVE/CVE-2017-14442) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14442.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14442.svg)
-
-## CVE-2017-14441
- An exploitable code execution vulnerability exists in the ICO image rendering functionality of SDL2_image-2.0.2. A specially crafted ICO image can cause an integer overflow, cascading to a heap overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14441](https://github.com/Live-Hack-CVE/CVE-2017-14441) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14441.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14441.svg)
-
-## CVE-2017-14440
- An exploitable code execution vulnerability exists in the ILBM image rendering functionality of SDL2_image-2.0.2. A specially crafted ILBM image can cause a stack overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14440](https://github.com/Live-Hack-CVE/CVE-2017-14440) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14440.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14440.svg)
-
-## CVE-2017-14439
- Exploitable denial of service vulnerabilities exists in the Service Agent functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted packet can cause a denial of service. An attacker can send a large packet to 4001/tcp to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14439](https://github.com/Live-Hack-CVE/CVE-2017-14439) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14439.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14439.svg)
-
-## CVE-2017-14438
- Exploitable denial of service vulnerabilities exists in the Service Agent functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted packet can cause a denial of service. An attacker can send a large packet to 4000/tcp to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14438](https://github.com/Live-Hack-CVE/CVE-2017-14438) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14438.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14438.svg)
-
-## CVE-2017-14437
- An exploitable denial of service vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP URI can cause a null pointer dereference resulting in denial of service. An attacker can send a GET request to &quot;/MOXA\_LOG.ini&quot; without a cookie header to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14437](https://github.com/Live-Hack-CVE/CVE-2017-14437) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14437.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14437.svg)
-
-## CVE-2017-14436
- An exploitable denial of service vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP URI can cause a null pointer dereference resulting in denial of service. An attacker can send a GET request to &quot;/MOXA\_CFG2.ini&quot; without a cookie header to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14436](https://github.com/Live-Hack-CVE/CVE-2017-14436) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14436.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14436.svg)
-
-## CVE-2017-14435
- An exploitable denial of service vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP URI can cause a null pointer dereference resulting in denial of service. An attacker can send a GET request to &quot;/MOXA\_CFG.ini&quot; without a cookie header to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14435](https://github.com/Live-Hack-CVE/CVE-2017-14435) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14435.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14435.svg)
-
-## CVE-2017-14434
- An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the remoteNetmask0= parameter in the &quot;/goform/net\_Web\_get_value&quot; uri to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14434](https://github.com/Live-Hack-CVE/CVE-2017-14434) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14434.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14434.svg)
-
-## CVE-2017-14433
- An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the remoteNetwork0= parameter in the &quot;/goform/net\_Web\_get_value&quot; uri to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14433](https://github.com/Live-Hack-CVE/CVE-2017-14433) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14433.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14433.svg)
-
-## CVE-2017-14432
- An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the openvpnServer0_tmp= parameter in the &quot;/goform/net\_Web\_get_value&quot; uri to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-14432](https://github.com/Live-Hack-CVE/CVE-2017-14432) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-14432.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-14432.svg)
 
 ## CVE-2017-14322
  The function in charge to check whether the user is already logged in init.php in Interspire Email Marketer (IEM) prior to 6.1.6 allows remote attackers to bypass authentication and obtain administrative access by using the IEM_CookieLogin cookie with a specially crafted value.
@@ -2252,34 +1007,6 @@
 
 
 - [https://github.com/bazad/ctl_ctloutput-leak](https://github.com/bazad/ctl_ctloutput-leak) :  ![starts](https://img.shields.io/github/stars/bazad/ctl_ctloutput-leak.svg) ![forks](https://img.shields.io/github/forks/bazad/ctl_ctloutput-leak.svg)
-
-## CVE-2017-13760
- In The Sleuth Kit (TSK) 4.4.2, fls hangs on a corrupt exfat image in tsk_img_read() in tsk/img/img_io.c in libtskimg.a.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-13760](https://github.com/Live-Hack-CVE/CVE-2017-13760) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-13760.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-13760.svg)
-
-## CVE-2017-13756
- In The Sleuth Kit (TSK) 4.4.2, opening a crafted disk image triggers infinite recursion in dos_load_ext_table() in tsk/vs/dos.c in libtskvs.a, as demonstrated by mmls.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-13756](https://github.com/Live-Hack-CVE/CVE-2017-13756) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-13756.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-13756.svg)
-
-## CVE-2017-13755
- In The Sleuth Kit (TSK) 4.4.2, opening a crafted ISO 9660 image triggers an out-of-bounds read in iso9660_proc_dir() in tsk/fs/iso9660_dent.c in libtskfs.a, as demonstrated by fls.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-13755](https://github.com/Live-Hack-CVE/CVE-2017-13755) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-13755.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-13755.svg)
-
-## CVE-2017-13715
- The __skb_flow_dissect function in net/core/flow_dissector.c in the Linux kernel before 4.3 does not ensure that n_proto, ip_proto, and thoff are initialized, which allows remote attackers to cause a denial of service (system crash) or possibly execute arbitrary code via a single crafted MPLS packet.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-13715](https://github.com/Live-Hack-CVE/CVE-2017-13715) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-13715.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-13715.svg)
 
 ## CVE-2017-13672
  QEMU (aka Quick Emulator), when built with the VGA display emulator support, allows local guest OS privileged users to cause a denial of service (out-of-bounds read and QEMU process crash) via vectors involving display update.
@@ -2406,13 +1133,6 @@
 
 - [https://github.com/tafamace/CVE-2017-12624](https://github.com/tafamace/CVE-2017-12624) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2017-12624.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2017-12624.svg)
 
-## CVE-2017-12621
- During Jelly (xml) file parsing with Apache Xerces, if a custom doctype entity is declared with a &quot;SYSTEM&quot; entity with a URL and that entity is used in the body of the Jelly file, during parser instantiation the parser will attempt to connect to said URL. This could lead to XML External Entity (XXE) attacks in Apache Commons Jelly before 1.0.1.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12621](https://github.com/Live-Hack-CVE/CVE-2017-12621) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12621.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12621.svg)
-
 ## CVE-2017-12617
  When running Apache Tomcat versions 9.0.0.M1 to 9.0.0, 8.5.0 to 8.5.22, 8.0.0.RC1 to 8.0.46 and 7.0.0 to 7.0.81 with HTTP PUTs enabled (e.g. via setting the readonly initialisation parameter of the Default servlet to false) it was possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any code it contained would be executed by the server.
 
@@ -2463,26 +1183,12 @@
 
 - [https://github.com/cyberharsh/Tomcat-CVE-2017-12615](https://github.com/cyberharsh/Tomcat-CVE-2017-12615) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Tomcat-CVE-2017-12615.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Tomcat-CVE-2017-12615.svg)
 
-## CVE-2017-12613
- When apr_time_exp*() or apr_os_exp_time*() functions are invoked with an invalid month field value in Apache Portable Runtime APR 1.6.2 and prior, out of bounds memory may be accessed in converting this value to an apr_time_exp_t value, potentially revealing the contents of a different static heap value or resulting in program termination, and may represent an information disclosure or denial of service vulnerability to applications which call these APR functions with unvalidated external input.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2021-35940](https://github.com/Live-Hack-CVE/CVE-2021-35940) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-35940.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-35940.svg)
-
 ## CVE-2017-12611
  In Apache Struts 2.0.0 through 2.3.33 and 2.5 through 2.5.10.1, using an unintentional expression in a Freemarker tag instead of string literals can lead to a RCE attack.
 
 
 
 - [https://github.com/brianwrf/S2-053-CVE-2017-12611](https://github.com/brianwrf/S2-053-CVE-2017-12611) :  ![starts](https://img.shields.io/github/stars/brianwrf/S2-053-CVE-2017-12611.svg) ![forks](https://img.shields.io/github/forks/brianwrf/S2-053-CVE-2017-12611.svg)
-
-## CVE-2017-12562
- Heap-based Buffer Overflow in the psf_binheader_writef function in common.c in libsndfile through 1.0.28 allows remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12562](https://github.com/Live-Hack-CVE/CVE-2017-12562) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12562.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12562.svg)
 
 ## CVE-2017-12561
  A remote code execution vulnerability in HPE intelligent Management Center (iMC) PLAT version Plat 7.3 E0504P4 and earlier was found.
@@ -2507,13 +1213,6 @@
 
 - [https://github.com/sm-paul-schuette/CVE-2017-12426](https://github.com/sm-paul-schuette/CVE-2017-12426) :  ![starts](https://img.shields.io/github/stars/sm-paul-schuette/CVE-2017-12426.svg) ![forks](https://img.shields.io/github/forks/sm-paul-schuette/CVE-2017-12426.svg)
 
-## CVE-2017-12150
- It was found that samba before 4.4.16, 4.5.x before 4.5.14, and 4.6.x before 4.6.8 did not enforce &quot;SMB signing&quot; when certain configuration options were enabled. A remote attacker could launch a man-in-the-middle attack and retrieve information in plain-text.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12150](https://github.com/Live-Hack-CVE/CVE-2017-12150) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12150.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12150.svg)
-
 ## CVE-2017-12149
  In Jboss Application Server as shipped with Red Hat Enterprise Application Platform 5.2, it was found that the doFilter method in the ReadOnlyAccessFilter of the HTTP Invoker does not restrict classes for which it performs deserialization and thus allowing an attacker to execute arbitrary code via crafted serialized data.
 
@@ -2530,202 +1229,6 @@
 - [https://github.com/VVeakee/CVE-2017-12149](https://github.com/VVeakee/CVE-2017-12149) :  ![starts](https://img.shields.io/github/stars/VVeakee/CVE-2017-12149.svg) ![forks](https://img.shields.io/github/forks/VVeakee/CVE-2017-12149.svg)
 
 - [https://github.com/Xcatolin/jboss-deserialization](https://github.com/Xcatolin/jboss-deserialization) :  ![starts](https://img.shields.io/github/stars/Xcatolin/jboss-deserialization.svg) ![forks](https://img.shields.io/github/forks/Xcatolin/jboss-deserialization.svg)
-
-## CVE-2017-12130
- An exploitable NULL pointer dereference vulnerability exists in the tinysvcmdns library version 2017-11-05. A specially crafted packet can make the library dereference a NULL pointer leading to a server crash and denial of service. An attacker needs to send a DNS query to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12130](https://github.com/Live-Hack-CVE/CVE-2017-12130) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12130.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12130.svg)
-
-## CVE-2017-12129
- An exploitable Weak Cryptography for Passwords vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. An attacker could intercept weakly encrypted passwords and could brute force them.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12129](https://github.com/Live-Hack-CVE/CVE-2017-12129) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12129.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12129.svg)
-
-## CVE-2017-12128
- An exploitable information disclosure vulnerability exists in the Server Agent functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted TCP packet can cause information disclosure. An attacker can send a crafted TCP packet to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12128](https://github.com/Live-Hack-CVE/CVE-2017-12128) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12128.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12128.svg)
-
-## CVE-2017-12127
- A password storage vulnerability exists in the operating system functionality of Moxa EDR-810 V4.1 build 17030317. An attacker with shell access could extract passwords in clear text from the device.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12127](https://github.com/Live-Hack-CVE/CVE-2017-12127) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12127.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12127.svg)
-
-## CVE-2017-12126
- An exploitable cross-site request forgery vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP packet can cause cross-site request forgery. An attacker can create malicious HTML to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12126](https://github.com/Live-Hack-CVE/CVE-2017-12126) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12126.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12126.svg)
-
-## CVE-2017-12125
- An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the CN= parm in the &quot;/goform/net_WebCSRGen&quot; uri to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12125](https://github.com/Live-Hack-CVE/CVE-2017-12125) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12125.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12125.svg)
-
-## CVE-2017-12124
- An exploitable denial of service vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP URI can cause a null pointer dereference resulting in the web server crashing. An attacker can send a crafted URI to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12124](https://github.com/Live-Hack-CVE/CVE-2017-12124) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12124.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12124.svg)
-
-## CVE-2017-12123
- An exploitable clear text transmission of password vulnerability exists in the web server and telnet functionality of Moxa EDR-810 V4.1 build 17030317. An attacker can look at network traffic to get the admin password for the device. The attacker can then use the credentials to login as admin.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12123](https://github.com/Live-Hack-CVE/CVE-2017-12123) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12123.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12123.svg)
-
-## CVE-2017-12122
- An exploitable code execution vulnerability exists in the ILBM image rendering functionality of SDL2_image-2.0.2. A specially crafted ILBM image can cause a heap overflow resulting in code execution. An attacker can display a specially crafted image to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12122](https://github.com/Live-Hack-CVE/CVE-2017-12122) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12122.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12122.svg)
-
-## CVE-2017-12121
- An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation resulting in root shell. An attacker can inject OS commands into the rsakey\_name= parm in the &quot;/goform/WebRSAKEYGen&quot; uri to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12121](https://github.com/Live-Hack-CVE/CVE-2017-12121) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12121.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12121.svg)
-
-## CVE-2017-12120
- An exploitable command injection vulnerability exists in the web server functionality of Moxa EDR-810 V4.1 build 17030317. A specially crafted HTTP POST can cause a privilege escalation, resulting in a root shell. An attacker can inject OS commands into the ip= parm in the &quot;/goform/net_WebPingGetValue&quot; URI to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12120](https://github.com/Live-Hack-CVE/CVE-2017-12120) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12120.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12120.svg)
-
-## CVE-2017-12119
- An exploitable unhandled exception vulnerability exists in multiple APIs of CPP-Ethereum JSON-RPC. Specially crafted JSON requests can cause an unhandled exception resulting in denial of service. An attacker can send malicious JSON to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12119](https://github.com/Live-Hack-CVE/CVE-2017-12119) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12119.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12119.svg)
-
-## CVE-2017-12118
- An exploitable improper authorization vulnerability exists in miner_stop API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). An attacker can send JSON to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12118](https://github.com/Live-Hack-CVE/CVE-2017-12118) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12118.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12118.svg)
-
-## CVE-2017-12117
- An exploitable improper authorization vulnerability exists in miner_start API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). A JSON request can cause an access to the restricted functionality resulting in authorization bypass. An attacker can send JSON to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12117](https://github.com/Live-Hack-CVE/CVE-2017-12117) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12117.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12117.svg)
-
-## CVE-2017-12116
- An exploitable improper authorization vulnerability exists in miner_setGasPrice API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). A JSON request can cause an access to the restricted functionality resulting in authorization bypass. An attacker can send JSON to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12116](https://github.com/Live-Hack-CVE/CVE-2017-12116) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12116.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12116.svg)
-
-## CVE-2017-12115
- An exploitable improper authorization vulnerability exists in miner_setEtherbase API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). A JSON request can cause an access to the restricted functionality resulting in authorization bypass.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12115](https://github.com/Live-Hack-CVE/CVE-2017-12115) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12115.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12115.svg)
-
-## CVE-2017-12114
- An exploitable improper authorization vulnerability exists in admin_peers API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). A JSON request can cause an access to the restricted functionality resulting in authorization bypass. An attacker can send JSON to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12114](https://github.com/Live-Hack-CVE/CVE-2017-12114) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12114.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12114.svg)
-
-## CVE-2017-12113
- An exploitable improper authorization vulnerability exists in admin_nodeInfo API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). A JSON request can cause an access to the restricted functionality resulting in authorization bypass. An attacker can send JSON to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12113](https://github.com/Live-Hack-CVE/CVE-2017-12113) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12113.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12113.svg)
-
-## CVE-2017-12112
- An exploitable improper authorization vulnerability exists in admin_addPeer API of cpp-ethereum's JSON-RPC (commit 4e1015743b95821849d001618a7ce82c7c073768). A JSON request can cause an access to the restricted functionality resulting in authorization bypass. An attacker can send JSON to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12112](https://github.com/Live-Hack-CVE/CVE-2017-12112) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12112.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12112.svg)
-
-## CVE-2017-12105
- An exploitable integer overflow exists in the way that the Blender open-source 3d creation suite v2.78c applies a particular object modifier to a Mesh. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open the file or use the file as a library in order to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12105](https://github.com/Live-Hack-CVE/CVE-2017-12105) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12105.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12105.svg)
-
-## CVE-2017-12104
- An exploitable integer overflow exists in the way that the Blender open-source 3d creation suite v2.78c draws a Particle object. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open the file or use the file as a library in order to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12104](https://github.com/Live-Hack-CVE/CVE-2017-12104) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12104.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12104.svg)
-
-## CVE-2017-12103
- An exploitable integer overflow exists in the way that the Blender open-source 3d creation suite v2.78c converts text rendered as a font into a curve. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open the file or use the file as a library in order to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12103](https://github.com/Live-Hack-CVE/CVE-2017-12103) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12103.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12103.svg)
-
-## CVE-2017-12102
- An exploitable integer overflow exists in the way that the Blender open-source 3d creation suite v2.78c converts curves to polygons. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open the file or use the file as a library in order to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12102](https://github.com/Live-Hack-CVE/CVE-2017-12102) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12102.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12102.svg)
-
-## CVE-2017-12101
- An exploitable integer overflow exists in the 'modifier_mdef_compact_influences' functionality of the Blender open-source 3d creation suite v2.78c. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open a .blend file in order to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12101](https://github.com/Live-Hack-CVE/CVE-2017-12101) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12101.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12101.svg)
-
-## CVE-2017-12100
- An exploitable integer overflow exists in the 'multires_load_old_dm' functionality of the Blender open-source 3d creation suite v2.78c. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open a .blend file in order to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12100](https://github.com/Live-Hack-CVE/CVE-2017-12100) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12100.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12100.svg)
-
-## CVE-2017-12099
- An exploitable integer overflow exists in the upgrade of the legacy Mesh attribute 'tface' of the Blender open-source 3d creation suite v2.78c. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open the file or use it as a library in order to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12099](https://github.com/Live-Hack-CVE/CVE-2017-12099) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12099.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12099.svg)
-
-## CVE-2017-12086
- An exploitable integer overflow exists in the 'BKE_mesh_calc_normals_tessface' functionality of the Blender open-source 3d creation suite. A specially crafted .blend file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to open a .blend file in order to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12086](https://github.com/Live-Hack-CVE/CVE-2017-12086) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12086.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12086.svg)
-
-## CVE-2017-12082
- An exploitable integer overflow exists in the 'CustomData' Mesh loading functionality of the Blender open-source 3d creation suite. A .blend file with a specially crafted external data file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to edit an object within a .blend library in their Scene in order to trigger this vulnerability.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-12082](https://github.com/Live-Hack-CVE/CVE-2017-12082) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-12082.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-12082.svg)
 
 ## CVE-2017-11907
  Internet Explorer in Microsoft Windows 7 SP1, Windows Server 2008 and R2 SP1, Windows 8.1 and Windows RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, 1703, 1709, and Windows Server 2016 allows an attacker to gain the same user rights as the current user, due to how Internet Explorer handles objects in memory, aka &quot;Scripting Engine Memory Corruption Vulnerability&quot;. This CVE ID is unique from CVE-2017-11886, CVE-2017-11889, CVE-2017-11890, CVE-2017-11893, CVE-2017-11894, CVE-2017-11895, CVE-2017-11901, CVE-2017-11903, CVE-2017-11905, CVE-2017-11905, CVE-2017-11908, CVE-2017-11909, CVE-2017-11910, CVE-2017-11911, CVE-2017-11912, CVE-2017-11913, CVE-2017-11914, CVE-2017-11916, CVE-2017-11918, and CVE-2017-11930.
@@ -2791,9 +1294,9 @@
 
 - [https://github.com/j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/j0lama/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/j0lama/CVE-2017-11882.svg)
 
-- [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
-
 - [https://github.com/likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2017-11882.svg)
+
+- [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
 
 - [https://github.com/HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/HaoJame/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/HaoJame/CVE-2017-11882.svg)
 
@@ -2826,27 +1329,6 @@
 
 - [https://github.com/devcoinfet/SniperRoost](https://github.com/devcoinfet/SniperRoost) :  ![starts](https://img.shields.io/github/stars/devcoinfet/SniperRoost.svg) ![forks](https://img.shields.io/github/forks/devcoinfet/SniperRoost.svg)
 
-## CVE-2017-11683
- There is a reachable assertion in the Internal::TiffReader::visitDirectory function in tiffvisitor.cpp of Exiv2 0.26 that will lead to a remote denial of service attack via crafted input.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-11683](https://github.com/Live-Hack-CVE/CVE-2017-11683) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-11683.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-11683.svg)
-
-## CVE-2017-11655
- A memory leak was found in the way SIPcrack 0.2 handled processing of SIP traffic, because a lines array was mismanaged. A remote attacker could potentially use this flaw to crash long-running sipdump network sniffing sessions.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-11655](https://github.com/Live-Hack-CVE/CVE-2017-11655) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-11655.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-11655.svg)
-
-## CVE-2017-11654
- An out-of-bounds read and write flaw was found in the way SIPcrack 0.2 processed SIP traffic, because 0x00 termination of a payload array was mishandled. A remote attacker could potentially use this flaw to crash the sipdump process by generating specially crafted SIP traffic.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-11654](https://github.com/Live-Hack-CVE/CVE-2017-11654) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-11654.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-11654.svg)
-
 ## CVE-2017-11611
  Wolf CMS 0.8.3.1 allows Cross-Site Scripting (XSS) attacks. The vulnerability exists due to insufficient sanitization of the file name in a &quot;create-file-popup&quot; action, and the directory name in a &quot;create-directory-popup&quot; action, in the HTTP POST method to the &quot;/plugin/file_manager/&quot; script (aka an /admin/plugin/file_manager/browse// URI).
 
@@ -2862,13 +1344,6 @@
 - [https://github.com/yaunsky/CVE-2017-11610](https://github.com/yaunsky/CVE-2017-11610) :  ![starts](https://img.shields.io/github/stars/yaunsky/CVE-2017-11610.svg) ![forks](https://img.shields.io/github/forks/yaunsky/CVE-2017-11610.svg)
 
 - [https://github.com/ivanitlearning/CVE-2017-11610](https://github.com/ivanitlearning/CVE-2017-11610) :  ![starts](https://img.shields.io/github/stars/ivanitlearning/CVE-2017-11610.svg) ![forks](https://img.shields.io/github/forks/ivanitlearning/CVE-2017-11610.svg)
-
-## CVE-2017-11591
- There is a Floating point exception in the Exiv2::ValueType function in Exiv2 0.26 that will lead to a remote denial of service attack via crafted input.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-11591](https://github.com/Live-Hack-CVE/CVE-2017-11591) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-11591.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-11591.svg)
 
 ## CVE-2017-11519
  passwd_recovery.lua on the TP-Link Archer C9(UN)_V2_160517 allows an attacker to reset the admin password by leveraging a predictable random number generator seed. This is fixed in C9(UN)_V2_170511.
@@ -2897,13 +1372,6 @@
 
 
 - [https://github.com/hidog123/Codiad-CVE-2018-14009](https://github.com/hidog123/Codiad-CVE-2018-14009) :  ![starts](https://img.shields.io/github/stars/hidog123/Codiad-CVE-2018-14009.svg) ![forks](https://img.shields.io/github/forks/hidog123/Codiad-CVE-2018-14009.svg)
-
-## CVE-2017-11358
- The read_samples function in hcom.c in Sound eXchange (SoX) 14.4.2 allows remote attackers to cause a denial of service (invalid memory read and application crash) via a crafted hcom file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-11358](https://github.com/Live-Hack-CVE/CVE-2017-11358) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-11358.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-11358.svg)
 
 ## CVE-2017-11357
  Progress Telerik UI for ASP.NET AJAX before R2 2017 SP2 does not properly restrict user input to RadAsyncUpload, which allows remote attackers to perform arbitrary file uploads or execute arbitrary code.
@@ -2982,20 +1450,12 @@
 
 - [https://github.com/gteissier/CVE-2017-10617](https://github.com/gteissier/CVE-2017-10617) :  ![starts](https://img.shields.io/github/stars/gteissier/CVE-2017-10617.svg) ![forks](https://img.shields.io/github/forks/gteissier/CVE-2017-10617.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2017-10617](https://github.com/Live-Hack-CVE/CVE-2017-10617) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10617.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10617.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10616](https://github.com/Live-Hack-CVE/CVE-2017-10616) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10616.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10616.svg)
-
 ## CVE-2017-10616
  The ifmap service that comes bundled with Juniper Networks Contrail releases uses hard coded credentials. Affected releases are Contrail releases 2.2 prior to 2.21.4; 3.0 prior to 3.0.3.4; 3.1 prior to 3.1.4.0; 3.2 prior to 3.2.5.0. CVE-2017-10616 and CVE-2017-10617 can be chained together and have a combined CVSSv3 score of 5.8 (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N).
 
 
 
 - [https://github.com/gteissier/CVE-2017-10617](https://github.com/gteissier/CVE-2017-10617) :  ![starts](https://img.shields.io/github/stars/gteissier/CVE-2017-10617.svg) ![forks](https://img.shields.io/github/forks/gteissier/CVE-2017-10617.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10616](https://github.com/Live-Hack-CVE/CVE-2017-10616) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10616.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10616.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10617](https://github.com/Live-Hack-CVE/CVE-2017-10617) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10617.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10617.svg)
 
 ## CVE-2017-10417
  Vulnerability in the Oracle Advanced Outbound Telephony component of Oracle E-Business Suite (subcomponent: Setup and Configuration). Supported versions that are affected are 12.2.3, 12.2.4, 12.2.5, 12.2.6 and 12.2.7. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Advanced Outbound Telephony. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Advanced Outbound Telephony, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle Advanced Outbound Telephony accessible data as well as unauthorized update, insert or delete access to some of Oracle Advanced Outbound Telephony accessible data. CVSS 3.0 Base Score 8.2 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N).
@@ -3060,13 +1520,6 @@
 
 - [https://github.com/vah13/OracleCVE](https://github.com/vah13/OracleCVE) :  ![starts](https://img.shields.io/github/stars/vah13/OracleCVE.svg) ![forks](https://img.shields.io/github/forks/vah13/OracleCVE.svg)
 
-## CVE-2017-10388
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Libraries). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144. Difficult to exploit vulnerability allows unauthenticated attacker with network access via Kerberos to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: Applies to the Java SE Kerberos client. CVSS 3.0 Base Score 7.5 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10388](https://github.com/Live-Hack-CVE/CVE-2017-10388) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10388.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10388.svg)
-
 ## CVE-2017-10366
  Vulnerability in the PeopleSoft Enterprise PT PeopleTools component of Oracle PeopleSoft Products (subcomponent: Performance Monitor). Supported versions that are affected are 8.54, 8.55 and 8.56. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise PeopleSoft Enterprise PT PeopleTools. Successful attacks of this vulnerability can result in takeover of PeopleSoft Enterprise PT PeopleTools. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 
@@ -3076,89 +1529,12 @@
 
 - [https://github.com/blazeinfosec/CVE-2017-10366_peoplesoft](https://github.com/blazeinfosec/CVE-2017-10366_peoplesoft) :  ![starts](https://img.shields.io/github/stars/blazeinfosec/CVE-2017-10366_peoplesoft.svg) ![forks](https://img.shields.io/github/forks/blazeinfosec/CVE-2017-10366_peoplesoft.svg)
 
-## CVE-2017-10357
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Serialization). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10357](https://github.com/Live-Hack-CVE/CVE-2017-10357) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10357.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10357.svg)
-
-## CVE-2017-10356
- Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Security). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144; JRockit: R28.3.15. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where Java SE, Java SE Embedded, JRockit executes to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 6.2 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10356](https://github.com/Live-Hack-CVE/CVE-2017-10356) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10356.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10356.svg)
-
-## CVE-2017-10355
- Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Networking). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144; JRockit: R28.3.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10355](https://github.com/Live-Hack-CVE/CVE-2017-10355) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10355.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10355.svg)
-
 ## CVE-2017-10352
  Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS - Web Services). The supported version that is affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.1.0, 12.2.1.2.0 and 12.2.1.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. While the vulnerability is in Oracle WebLogic Server, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle WebLogic Server as well as unauthorized update, insert or delete access to some of Oracle WebLogic Server accessible data and unauthorized read access to a subset of Oracle WebLogic Server accessible data. CVSS 3.0 Base Score 9.9 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:H).
 
 
 
 - [https://github.com/bigsizeme/weblogic-XMLDecoder](https://github.com/bigsizeme/weblogic-XMLDecoder) :  ![starts](https://img.shields.io/github/stars/bigsizeme/weblogic-XMLDecoder.svg) ![forks](https://img.shields.io/github/forks/bigsizeme/weblogic-XMLDecoder.svg)
-
-## CVE-2017-10350
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: JAX-WS). Supported versions that are affected are Java SE: 7u151, 8u144 and 9; Java SE Embedded: 8u144. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10350](https://github.com/Live-Hack-CVE/CVE-2017-10350) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10350.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10350.svg)
-
-## CVE-2017-10349
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: JAXP). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10349](https://github.com/Live-Hack-CVE/CVE-2017-10349) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10349.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10349.svg)
-
-## CVE-2017-10348
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Libraries). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10348](https://github.com/Live-Hack-CVE/CVE-2017-10348) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10348.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10348.svg)
-
-## CVE-2017-10295
- Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Networking). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144; JRockit: R28.3.15. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Java SE, Java SE Embedded, JRockit. While the vulnerability is in Java SE, Java SE Embedded, JRockit, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 4.0 (Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10295](https://github.com/Live-Hack-CVE/CVE-2017-10295) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10295.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10295.svg)
-
-## CVE-2017-10286
- Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: InnoDB). Supported versions that are affected are 5.6.37 and earlier and 5.7.19 and earlier. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.4 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10286](https://github.com/Live-Hack-CVE/CVE-2017-10286) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10286.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10286.svg)
-
-## CVE-2017-10285
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: RMI). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10285](https://github.com/Live-Hack-CVE/CVE-2017-10285) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10285.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10285.svg)
-
-## CVE-2017-10281
- Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Serialization). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9; Java SE Embedded: 8u144; JRockit: R28.3.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10281](https://github.com/Live-Hack-CVE/CVE-2017-10281) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10281.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10281.svg)
-
-## CVE-2017-10274
- Vulnerability in the Java SE component of Oracle Java SE (subcomponent: Smart Card IO). Supported versions that are affected are Java SE: 6u161, 7u151, 8u144 and 9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Java SE accessible data as well as unauthorized access to critical data or complete access to all Java SE accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 6.8 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10274](https://github.com/Live-Hack-CVE/CVE-2017-10274) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10274.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10274.svg)
 
 ## CVE-2017-10271
  Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Security). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.1.0 and 12.2.1.2.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 7.5 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).
@@ -3229,47 +1605,12 @@
 
 - [https://github.com/KKsdall/7kbstormq](https://github.com/KKsdall/7kbstormq) :  ![starts](https://img.shields.io/github/stars/KKsdall/7kbstormq.svg) ![forks](https://img.shields.io/github/forks/KKsdall/7kbstormq.svg)
 
-## CVE-2017-10268
- Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Replication). Supported versions that are affected are 5.5.57 and earlier, 5.6.37 and earlier and 5.7.19 and earlier. Difficult to exploit vulnerability allows high privileged attacker with logon to the infrastructure where MySQL Server executes to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all MySQL Server accessible data. CVSS 3.0 Base Score 4.1 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10268](https://github.com/Live-Hack-CVE/CVE-2017-10268) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10268.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10268.svg)
-
-## CVE-2017-10243
- Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: JAX-WS). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized read access to a subset of Java SE, Java SE Embedded, JRockit accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 6.5 (Confidentiality and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10243](https://github.com/Live-Hack-CVE/CVE-2017-10243) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10243.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10243.svg)
-
 ## CVE-2017-10235
  Vulnerability in the Oracle VM VirtualBox component of Oracle Virtualization (subcomponent: Core). The supported version that is affected is Prior to 5.1.24. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle VM VirtualBox as well as unauthorized update, insert or delete access to some of Oracle VM VirtualBox accessible data. CVSS 3.0 Base Score 6.7 (Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:L/A:H).
 
 
 
 - [https://github.com/fundacion-sadosky/vbox_cve_2017_10235](https://github.com/fundacion-sadosky/vbox_cve_2017_10235) :  ![starts](https://img.shields.io/github/stars/fundacion-sadosky/vbox_cve_2017_10235.svg) ![forks](https://img.shields.io/github/forks/fundacion-sadosky/vbox_cve_2017_10235.svg)
-
-## CVE-2017-10198
- Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Security). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. While the vulnerability is in Java SE, Java SE Embedded, JRockit, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 6.8 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10198](https://github.com/Live-Hack-CVE/CVE-2017-10198) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10198.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10198.svg)
-
-## CVE-2017-10193
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Security). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized read access to a subset of Java SE, Java SE Embedded accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 3.1 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10193](https://github.com/Live-Hack-CVE/CVE-2017-10193) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10193.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10193.svg)
-
-## CVE-2017-10176
- Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Security). Supported versions that are affected are Java SE: 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10176](https://github.com/Live-Hack-CVE/CVE-2017-10176) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10176.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10176.svg)
 
 ## CVE-2017-10148
  Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.1 and 12.2.1.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. While the vulnerability is in Oracle WebLogic Server, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle WebLogic Server accessible data. CVSS 3.0 Base Score 5.8 (Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N). NOTE: the previous information is from the July 2017 CPU. Oracle has not commented on third-party claims that this issue allows remote attackers to inject special data into log files via a crafted T3 request.
@@ -3285,97 +1626,6 @@
 
 - [https://github.com/vah13/OracleCVE](https://github.com/vah13/OracleCVE) :  ![starts](https://img.shields.io/github/stars/vah13/OracleCVE.svg) ![forks](https://img.shields.io/github/forks/vah13/OracleCVE.svg)
 
-## CVE-2017-10135
- Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: JCE). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 5.9 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10135](https://github.com/Live-Hack-CVE/CVE-2017-10135) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10135.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10135.svg)
-
-## CVE-2017-10118
- Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: JCE). Supported versions that are affected are Java SE: 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10118](https://github.com/Live-Hack-CVE/CVE-2017-10118) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10118.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10118.svg)
-
-## CVE-2017-10116
- Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Security). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, JRockit, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 8.3 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10116](https://github.com/Live-Hack-CVE/CVE-2017-10116) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10116.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10116.svg)
-
-## CVE-2017-10115
- Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: JCE). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Java SE, Java SE Embedded, JRockit accessible data. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10115](https://github.com/Live-Hack-CVE/CVE-2017-10115) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10115.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10115.svg)
-
-## CVE-2017-10111
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Libraries). The supported version that is affected is Java SE: 8u131; Java SE Embedded: 8u131. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10111](https://github.com/Live-Hack-CVE/CVE-2017-10111) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10111.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10111.svg)
-
-## CVE-2017-10109
- Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Serialization). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded, JRockit. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10109](https://github.com/Live-Hack-CVE/CVE-2017-10109) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10109.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10109.svg)
-
-## CVE-2017-10108
- Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: Serialization). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131; JRockit: R28.3.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can be exploited through sandboxed Java Web Start applications and sandboxed Java applets. It can also be exploited by supplying data to APIs in the specified Component without using sandboxed Java Web Start applications or sandboxed Java applets, such as through a web service. CVSS 3.0 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10108](https://github.com/Live-Hack-CVE/CVE-2017-10108) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10108.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10108.svg)
-
-## CVE-2017-10107
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: RMI). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10107](https://github.com/Live-Hack-CVE/CVE-2017-10107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10107.svg)
-
-## CVE-2017-10102
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: RMI). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. While the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.0 Base Score 9.0 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10102](https://github.com/Live-Hack-CVE/CVE-2017-10102) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10102.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10102.svg)
-
-## CVE-2017-10101
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: JAXP). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10101](https://github.com/Live-Hack-CVE/CVE-2017-10101) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10101.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10101.svg)
-
-## CVE-2017-10096
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: JAXP). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10096](https://github.com/Live-Hack-CVE/CVE-2017-10096) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10096.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10096.svg)
-
-## CVE-2017-10090
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Libraries). Supported versions that are affected are Java SE: 7u141 and 8u131; Java SE Embedded: 8u131. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10090](https://github.com/Live-Hack-CVE/CVE-2017-10090) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10090.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10090.svg)
-
-## CVE-2017-10087
- Vulnerability in the Java SE, Java SE Embedded component of Oracle Java SE (subcomponent: Libraries). Supported versions that are affected are Java SE: 6u151, 7u141 and 8u131; Java SE Embedded: 8u131. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Java SE, Java SE Embedded, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.0 Base Score 9.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-10087](https://github.com/Live-Hack-CVE/CVE-2017-10087) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-10087.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-10087.svg)
-
 ## CVE-2017-9999
  ** RE
 
@@ -3390,42 +1640,12 @@
 
 - [https://github.com/RoseSecurity/APOLOGEE](https://github.com/RoseSecurity/APOLOGEE) :  ![starts](https://img.shields.io/github/stars/RoseSecurity/APOLOGEE.svg) ![forks](https://img.shields.io/github/forks/RoseSecurity/APOLOGEE.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2017-9947](https://github.com/Live-Hack-CVE/CVE-2017-9947) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9947.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9947.svg)
-
-## CVE-2017-9946
- A vulnerability has been identified in Siemens APOGEE PXC and TALON TC BACnet Automation Controllers in all versions &lt;V3.5. An attacker with network access to the integrated web server (80/tcp and 443/tcp) could bypass the authentication and download sensitive information from the device.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-9946](https://github.com/Live-Hack-CVE/CVE-2017-9946) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9946.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9946.svg)
-
 ## CVE-2017-9934
  Missing CSRF token checks and improper input validation in Joomla! CMS 1.7.3 through 3.7.2 lead to an XSS vulnerability.
 
 
 
 - [https://github.com/xyringe/CVE-2017-9934](https://github.com/xyringe/CVE-2017-9934) :  ![starts](https://img.shields.io/github/stars/xyringe/CVE-2017-9934.svg) ![forks](https://img.shields.io/github/forks/xyringe/CVE-2017-9934.svg)
-
-## CVE-2017-9929
- In lrzip 0.631, a stack buffer overflow was found in the function get_fileinfo in lrzip.c:1074, which allows attackers to cause a denial of service via a crafted file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-9929](https://github.com/Live-Hack-CVE/CVE-2017-9929) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9929.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9929.svg)
-
-## CVE-2017-9928
- In lrzip 0.631, a stack buffer overflow was found in the function get_fileinfo in lrzip.c:979, which allows attackers to cause a denial of service via a crafted file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-9928](https://github.com/Live-Hack-CVE/CVE-2017-9928) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9928.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9928.svg)
-
-## CVE-2017-9843
- SAP NetWeaver AS ABAP 7.40 allows remote authenticated users with certain privileges to cause a denial of service (process crash) via vectors involving disp+work.exe, aka SAP Security Note 2406841.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-9843](https://github.com/Live-Hack-CVE/CVE-2017-9843) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9843.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9843.svg)
 
 ## CVE-2017-9841
  Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows remote attackers to execute arbitrary PHP code via HTTP POST data beginning with a &quot;&lt;?php &quot; substring, as demonstrated by an attack on a site with an exposed /vendor folder, i.e., external access to the /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php URI.
@@ -3464,8 +1684,6 @@
 
 
 - [https://github.com/anldori/CVE-2017-9833](https://github.com/anldori/CVE-2017-9833) :  ![starts](https://img.shields.io/github/stars/anldori/CVE-2017-9833.svg) ![forks](https://img.shields.io/github/forks/anldori/CVE-2017-9833.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-9833](https://github.com/Live-Hack-CVE/CVE-2017-9833) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9833.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9833.svg)
 
 ## CVE-2017-9830
  Remote Code Execution is possible in Code42 CrashPlan 5.4.x via the org.apache.commons.ssl.rmi.DateRMI Java class, because (upon instantiation) it creates an RMI server that listens on a TCP port and deserializes objects sent by TCP clients.
@@ -3581,13 +1799,6 @@
 
 - [https://github.com/USSCltd/aaLogger](https://github.com/USSCltd/aaLogger) :  ![starts](https://img.shields.io/github/stars/USSCltd/aaLogger.svg) ![forks](https://img.shields.io/github/forks/USSCltd/aaLogger.svg)
 
-## CVE-2017-9614
- ** DISPUTED ** The fill_input_buffer function in jdatasrc.c in libjpeg-turbo 1.5.1 allows remote attackers to cause a denial of service (invalid memory access and application crash) or possibly have unspecified other impact via a crafted jpg file. NOTE: Maintainer asserts the issue is due to a bug in downstream code caused by misuse of the libjpeg API.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-9614](https://github.com/Live-Hack-CVE/CVE-2017-9614) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9614.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9614.svg)
-
 ## CVE-2017-9609
  Cross-site scripting (XSS) vulnerability in Blackcat CMS 1.2 allows remote authenticated users to inject arbitrary web script or HTML via the map_language parameter to backend/pages/lang_settings.php.
 
@@ -3659,27 +1870,6 @@
 
 - [https://github.com/mailinneberg/Broadpwn](https://github.com/mailinneberg/Broadpwn) :  ![starts](https://img.shields.io/github/stars/mailinneberg/Broadpwn.svg) ![forks](https://img.shields.io/github/forks/mailinneberg/Broadpwn.svg)
 
-## CVE-2017-9340
- An attacker is logged in as a normal user and can somehow make admin to delete shared folders in ownCloud Server before 10.0.2.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-9340](https://github.com/Live-Hack-CVE/CVE-2017-9340) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9340.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9340.svg)
-
-## CVE-2017-9339
- A logical error in ownCloud Server before 10.0.2 caused disclosure of valid share tokens for public calendars. Thus granting an attacker potentially access to publicly shared calendars without knowing the share token.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-9339](https://github.com/Live-Hack-CVE/CVE-2017-9339) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9339.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9339.svg)
-
-## CVE-2017-9338
- Inadequate escaping lead to XSS vulnerability in the search module in ownCloud Server before 8.2.12, 9.0.x before 9.0.10, 9.1.x before 9.1.6, and 10.0.x before 10.0.2. To be exploitable a user has to write or paste malicious content into the search dialogue.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-9338](https://github.com/Live-Hack-CVE/CVE-2017-9338) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9338.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9338.svg)
-
 ## CVE-2017-9248
  Telerik.Web.UI.dll in Progress Telerik UI for ASP.NET AJAX before R2 2017 SP1 and Sitefinity before 10.0.6412.0 does not properly protect Telerik.Web.UI.DialogParametersEncryptionKey or the MachineKey, which makes it easier for remote attackers to defeat cryptographic protection mechanisms, leading to a MachineKey leak, arbitrary file uploads or downloads, XSS, or ASP.NET ViewState compromise.
 
@@ -3696,20 +1886,6 @@
 - [https://github.com/ZhenwarX/Telerik-CVE-2017-9248-PoC](https://github.com/ZhenwarX/Telerik-CVE-2017-9248-PoC) :  ![starts](https://img.shields.io/github/stars/ZhenwarX/Telerik-CVE-2017-9248-PoC.svg) ![forks](https://img.shields.io/github/forks/ZhenwarX/Telerik-CVE-2017-9248-PoC.svg)
 
 - [https://github.com/oldboy-snt/dp](https://github.com/oldboy-snt/dp) :  ![starts](https://img.shields.io/github/stars/oldboy-snt/dp.svg) ![forks](https://img.shields.io/github/forks/oldboy-snt/dp.svg)
-
-## CVE-2017-9229
- An issue was discovered in Oniguruma 6.2.0, as used in Oniguruma-mod in Ruby through 2.4.1 and mbstring in PHP through 7.1.5. A SIGSEGV occurs in left_adjust_char_head() during regular expression compilation. Invalid handling of reg-&gt;dmax in forward_search_range() could result in an invalid pointer dereference, normally as an immediate denial-of-service condition.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-9229](https://github.com/Live-Hack-CVE/CVE-2017-9229) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9229.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9229.svg)
-
-## CVE-2017-9118
- PHP 7.1.5 has an Out of bounds access in php_pcre_replace_impl via a crafted preg_replace call.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-9118](https://github.com/Live-Hack-CVE/CVE-2017-9118) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-9118.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-9118.svg)
 
 ## CVE-2017-9101
  import.php (aka the Phonebook import feature) in PlaySMS 1.4 allows remote code execution via vectors involving the User-Agent HTTP header and PHP code in the name of a file.
@@ -3761,57 +1937,6 @@
 - [https://github.com/beraphin/CVE-2017-8890](https://github.com/beraphin/CVE-2017-8890) :  ![starts](https://img.shields.io/github/stars/beraphin/CVE-2017-8890.svg) ![forks](https://img.shields.io/github/forks/beraphin/CVE-2017-8890.svg)
 
 - [https://github.com/7043mcgeep/cve-2017-8890-msf](https://github.com/7043mcgeep/cve-2017-8890-msf) :  ![starts](https://img.shields.io/github/stars/7043mcgeep/cve-2017-8890-msf.svg) ![forks](https://img.shields.io/github/forks/7043mcgeep/cve-2017-8890-msf.svg)
-
-## CVE-2017-8879
- Dolibarr ERP/CRM 4.0.4 allows password changes without supplying the current password, which makes it easier for physically proximate attackers to obtain access via an unattended workstation.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-8879](https://github.com/Live-Hack-CVE/CVE-2017-8879) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8879.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8879.svg)
-
-## CVE-2017-8847
- The bufRead::get() function in libzpaq/libzpaq.h in liblrzip.so in lrzip 0.631 allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted archive.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-8847](https://github.com/Live-Hack-CVE/CVE-2017-8847) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8847.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8847.svg)
-
-## CVE-2017-8846
- The read_stream function in stream.c in liblrzip.so in lrzip 0.631 allows remote attackers to cause a denial of service (use-after-free and application crash) via a crafted archive.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-8846](https://github.com/Live-Hack-CVE/CVE-2017-8846) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8846.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8846.svg)
-
-## CVE-2017-8845
- The lzo1x_decompress function in lzo1x_d.ch in LZO 2.08, as used in lrzip 0.631, allows remote attackers to cause a denial of service (invalid memory read and application crash) via a crafted archive.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-8845](https://github.com/Live-Hack-CVE/CVE-2017-8845) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8845.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8845.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2019-10654](https://github.com/Live-Hack-CVE/CVE-2019-10654) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2019-10654.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2019-10654.svg)
-
-## CVE-2017-8844
- The read_1g function in stream.c in liblrzip.so in lrzip 0.631 allows remote attackers to cause a denial of service (heap-based buffer overflow and application crash) or possibly have unspecified other impact via a crafted archive.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-8844](https://github.com/Live-Hack-CVE/CVE-2017-8844) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8844.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8844.svg)
-
-## CVE-2017-8843
- The join_pthread function in stream.c in liblrzip.so in lrzip 0.631 allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted archive.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-8843](https://github.com/Live-Hack-CVE/CVE-2017-8843) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8843.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8843.svg)
-
-## CVE-2017-8842
- The bufRead::get() function in libzpaq/libzpaq.h in liblrzip.so in lrzip 0.631 allows remote attackers to cause a denial of service (divide-by-zero error and application crash) via a crafted archive.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-8842](https://github.com/Live-Hack-CVE/CVE-2017-8842) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8842.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8842.svg)
 
 ## CVE-2017-8809
  api.php in MediaWiki before 1.27.4, 1.28.x before 1.28.3, and 1.29.x before 1.29.2 has a Reflected File Download vulnerability.
@@ -3942,16 +2067,7 @@
 
 - [https://github.com/sfitpro/cve-2017-8529](https://github.com/sfitpro/cve-2017-8529) :  ![starts](https://img.shields.io/github/stars/sfitpro/cve-2017-8529.svg) ![forks](https://img.shields.io/github/forks/sfitpro/cve-2017-8529.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2017-8529](https://github.com/Live-Hack-CVE/CVE-2017-8529) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8529.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8529.svg)
-
 - [https://github.com/Lynggaard91/windows2016fixCVE-2017-8529](https://github.com/Lynggaard91/windows2016fixCVE-2017-8529) :  ![starts](https://img.shields.io/github/stars/Lynggaard91/windows2016fixCVE-2017-8529.svg) ![forks](https://img.shields.io/github/forks/Lynggaard91/windows2016fixCVE-2017-8529.svg)
-
-## CVE-2017-8516
- Microsoft SQL Server Analysis Services in Microsoft SQL Server 2012, Microsoft SQL Server 2014, and Microsoft SQL Server 2016 allows an information disclosure vulnerability when it improperly enforces permissions, aka &quot;Microsoft SQL Server Analysis Services Information Disclosure Vulnerability&quot;.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-8516](https://github.com/Live-Hack-CVE/CVE-2017-8516) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8516.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8516.svg)
 
 ## CVE-2017-8486
  Microsoft Windows 7 SP1, Windows Server 2008 SP2 and R2 SP1, Windows 8.1 and Windows RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allows an information disclosure due to the way it handles objects in memory, aka &quot;Win32k Information Disclosure Vulnerability&quot;.
@@ -4016,13 +2132,6 @@
 
 - [https://github.com/kienquoc102/CVE-2017-8225](https://github.com/kienquoc102/CVE-2017-8225) :  ![starts](https://img.shields.io/github/stars/kienquoc102/CVE-2017-8225.svg) ![forks](https://img.shields.io/github/forks/kienquoc102/CVE-2017-8225.svg)
 
-## CVE-2017-8114
- Roundcube Webmail allows arbitrary password resets by authenticated users. This affects versions before 1.0.11, 1.1.x before 1.1.9, and 1.2.x before 1.2.5. The problem is caused by an improperly restricted exec call in the virtualmin and sasl drivers of the password plugin.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-8114](https://github.com/Live-Hack-CVE/CVE-2017-8114) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-8114.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-8114.svg)
-
 ## CVE-2017-8046
  Malicious PATCH requests submitted to servers using Spring Data REST versions prior to 2.6.9 (Ingalls SR9), versions prior to 3.0.1 (Kay SR1) and Spring Boot versions prior to 1.5.9, 2.0 M6 can use specially crafted JSON data to run arbitrary Java code.
 
@@ -4085,27 +2194,6 @@
 
 - [https://github.com/homjxi0e/CVE-2017-7912_Sneak](https://github.com/homjxi0e/CVE-2017-7912_Sneak) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-7912_Sneak.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-7912_Sneak.svg)
 
-## CVE-2017-7888
- Dolibarr ERP/CRM 4.0.4 stores passwords with the MD5 algorithm, which makes brute-force attacks easier.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7888](https://github.com/Live-Hack-CVE/CVE-2017-7888) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7888.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7888.svg)
-
-## CVE-2017-7887
- Dolibarr ERP/CRM 4.0.4 has XSS in doli/societe/list.php via the sall parameter.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7887](https://github.com/Live-Hack-CVE/CVE-2017-7887) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7887.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7887.svg)
-
-## CVE-2017-7886
- Dolibarr ERP/CRM 4.0.4 has SQL Injection in doli/theme/eldy/style.css.php via the lang parameter.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7886](https://github.com/Live-Hack-CVE/CVE-2017-7886) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7886.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7886.svg)
-
 ## CVE-2017-7679
  In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, mod_mime can read one byte past the end of a buffer when sending a malicious Content-Type response header.
 
@@ -4128,41 +2216,6 @@
 
 
 - [https://github.com/notmot/CVE-2017-7648.](https://github.com/notmot/CVE-2017-7648.) :  ![starts](https://img.shields.io/github/stars/notmot/CVE-2017-7648..svg) ![forks](https://img.shields.io/github/forks/notmot/CVE-2017-7648..svg)
-
-## CVE-2017-7615
- MantisBT through 2.3.0 allows arbitrary password reset and unauthenticated admin access via an empty confirm_hash value to verify.php.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7615](https://github.com/Live-Hack-CVE/CVE-2017-7615) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7615.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7615.svg)
-
-## CVE-2017-7605
- aacplusenc.c in HE-AAC+ Codec (aka libaacplus) 2.0.2 has an assertion failure, which might allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a crafted audio file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7605](https://github.com/Live-Hack-CVE/CVE-2017-7605) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7605.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7605.svg)
-
-## CVE-2017-7604
- au_channel.h in HE-AAC+ Codec (aka libaacplus) 2.0.2 has a left-shift undefined behavior issue, which might allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a crafted audio file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7604](https://github.com/Live-Hack-CVE/CVE-2017-7604) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7604.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7604.svg)
-
-## CVE-2017-7603
- au_channel.h in HE-AAC+ Codec (aka libaacplus) 2.0.2 has a signed integer overflow, which might allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a crafted audio file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7603](https://github.com/Live-Hack-CVE/CVE-2017-7603) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7603.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7603.svg)
-
-## CVE-2017-7541
- The brcmf_cfg80211_mgmt_tx function in drivers/net/wireless/broadcom/brcm80211/brcmfmac/cfg80211.c in the Linux kernel before 4.12.3 allows local users to cause a denial of service (buffer overflow and system crash) or possibly gain privileges via a crafted NL80211_CMD_FRAME Netlink packet.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7541](https://github.com/Live-Hack-CVE/CVE-2017-7541) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7541.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7541.svg)
 
 ## CVE-2017-7533
  Race condition in the fsnotify implementation in the Linux kernel through 4.12.4 allows local users to gain privileges or cause a denial of service (memory corruption) via a crafted application that leverages simultaneous execution of the inotify_handle_event and vfs_rename functions.
@@ -4219,43 +2272,6 @@
 
 - [https://github.com/BassinD/jackson-RCE](https://github.com/BassinD/jackson-RCE) :  ![starts](https://img.shields.io/github/stars/BassinD/jackson-RCE.svg) ![forks](https://img.shields.io/github/forks/BassinD/jackson-RCE.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2017-15095](https://github.com/Live-Hack-CVE/CVE-2017-15095) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-15095.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-15095.svg)
-
-## CVE-2017-7517
- An input validation vulnerability exists in Openshift Enterprise due to a 1:1 mapping of tenants in Hawkular Metrics and projects/namespaces in OpenShift. If a user creates a project called &quot;MyProject&quot;, and then later deletes it another user can then create a project called &quot;MyProject&quot; and access the metrics stored from the original &quot;MyProject&quot; instance.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7517](https://github.com/Live-Hack-CVE/CVE-2017-7517) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7517.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7517.svg)
-
-## CVE-2017-7516
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2015-1197. Reason: This candidate is a duplicate of CVE-2015-1197. Notes: All CVE users should reference CVE-2015-1197 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7516](https://github.com/Live-Hack-CVE/CVE-2017-7516) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7516.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7516.svg)
-
-## CVE-2017-7503
- It was found that the Red Hat JBoss EAP 7.0.5 implementation of javax.xml.transform.TransformerFactory is vulnerable to XXE. An attacker could use this flaw to launch DoS or SSRF attacks, or read files from the server where EAP is deployed.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7492](https://github.com/Live-Hack-CVE/CVE-2017-7492) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7492.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7492.svg)
-
-## CVE-2017-7501
- It was found that versions of rpm before 4.13.0.2 use temporary files with predictable names when installing an RPM. An attacker with ability to write in a directory where files will be installed could create symbolic links to an arbitrary location and modify content, and possibly permissions to arbitrary files, which could be used for denial of service or possibly privilege escalation.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2021-35939](https://github.com/Live-Hack-CVE/CVE-2021-35939) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-35939.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-35939.svg)
-
-## CVE-2017-7500
- It was found that rpm did not properly handle RPM installations when a destination path was a symbolic link to a directory, possibly changing ownership and permissions of an arbitrary directory, and RPM files being placed in an arbitrary destination. An attacker, with write access to a directory in which a subdirectory will be installed, could redirect that directory to an arbitrary location and gain root privilege.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2021-35939](https://github.com/Live-Hack-CVE/CVE-2021-35939) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2021-35939.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2021-35939.svg)
-
 ## CVE-2017-7494
  Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to remote code execution vulnerability, allowing a malicious client to upload a shared library to a writable share, and then cause the server to load and execute it.
 
@@ -4297,41 +2313,6 @@
 
 - [https://github.com/adjaliya/-CVE-2017-7494-Samba-Exploit-POC](https://github.com/adjaliya/-CVE-2017-7494-Samba-Exploit-POC) :  ![starts](https://img.shields.io/github/stars/adjaliya/-CVE-2017-7494-Samba-Exploit-POC.svg) ![forks](https://img.shields.io/github/forks/adjaliya/-CVE-2017-7494-Samba-Exploit-POC.svg)
 
-## CVE-2017-7492
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2017-7503. Reason: This candidate is a reservation duplicate of CVE-2017-7503. Notes: All CVE users should reference CVE-2017-7503 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7492](https://github.com/Live-Hack-CVE/CVE-2017-7492) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7492.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7492.svg)
-
-## CVE-2017-7488
- Authconfig version 6.2.8 is vulnerable to an Information exposure while using SSSD to authenticate against remote server resulting in the leak of information about existing usernames.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7488](https://github.com/Live-Hack-CVE/CVE-2017-7488) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7488.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7488.svg)
-
-## CVE-2017-7487
- The ipxitf_ioctl function in net/ipx/af_ipx.c in the Linux kernel through 4.11.1 mishandles reference counts, which allows local users to cause a denial of service (use-after-free) or possibly have unspecified other impact via a failed SIOCGIFADDR ioctl call for an IPX interface.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7487](https://github.com/Live-Hack-CVE/CVE-2017-7487) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7487.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7487.svg)
-
-## CVE-2017-7482
- In the Linux kernel before version 4.12, Kerberos 5 tickets decoded when using the RXRPC keys incorrectly assumes the size of a field. This could lead to the size-remaining variable wrapping and the data pointer going over the end of the buffer. This could possibly lead to memory corruption and possible privilege escalation.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7482](https://github.com/Live-Hack-CVE/CVE-2017-7482) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7482.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7482.svg)
-
-## CVE-2017-7473
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA based off of CNT 3. Further investigation determined that there was a secure method for using the directive. Notes: none.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7473](https://github.com/Live-Hack-CVE/CVE-2017-7473) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7473.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7473.svg)
-
 ## CVE-2017-7472
  The KEYS subsystem in the Linux kernel before 4.10.13 allows local users to cause a denial of service (memory consumption) via a series of KEY_REQKEY_DEFL_THREAD_KEYRING keyctl_set_reqkey_keyring calls.
 
@@ -4353,16 +2334,12 @@
 
 - [https://github.com/ww9210/cve-2017-7374](https://github.com/ww9210/cve-2017-7374) :  ![starts](https://img.shields.io/github/stars/ww9210/cve-2017-7374.svg) ![forks](https://img.shields.io/github/forks/ww9210/cve-2017-7374.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2017-7374](https://github.com/Live-Hack-CVE/CVE-2017-7374) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7374.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7374.svg)
-
 ## CVE-2017-7308
  The packet_set_ring function in net/packet/af_packet.c in the Linux kernel through 4.10.6 does not properly validate certain block-size data, which allows local users to cause a denial of service (integer signedness error and out-of-bounds write), or gain privileges (if the CAP_NET_RAW capability is held), via crafted system calls.
 
 
 
 - [https://github.com/anldori/CVE-2017-7308](https://github.com/anldori/CVE-2017-7308) :  ![starts](https://img.shields.io/github/stars/anldori/CVE-2017-7308.svg) ![forks](https://img.shields.io/github/forks/anldori/CVE-2017-7308.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-7308](https://github.com/Live-Hack-CVE/CVE-2017-7308) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-7308.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-7308.svg)
 
 ## CVE-2017-7269
  Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with &quot;If: &lt;http://&quot; in a PROPFIND request, as exploited in the wild in July or August 2016.
@@ -4481,13 +2458,6 @@
 
 - [https://github.com/gquere/CVE-2017-6913](https://github.com/gquere/CVE-2017-6913) :  ![starts](https://img.shields.io/github/stars/gquere/CVE-2017-6913.svg) ![forks](https://img.shields.io/github/forks/gquere/CVE-2017-6913.svg)
 
-## CVE-2017-6891
- Two errors in the &quot;asn1_find_node()&quot; function (lib/parser_aux.c) within GnuTLS libtasn1 version 4.10 can be exploited to cause a stacked-based buffer overflow by tricking a user into processing a specially crafted assignments file via the e.g. asn1Coding utility.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-6891](https://github.com/Live-Hack-CVE/CVE-2017-6891) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-6891.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-6891.svg)
-
 ## CVE-2017-6736
  The Simple Network Management Protocol (SNMP) subsystem of Cisco IOS 12.0 through 12.4 and 15.0 through 15.6 and IOS XE 2.2 through 3.17 contains multiple vulnerabilities that could allow an authenticated, remote attacker to remotely execute code on an affected system or cause an affected system to reload. An attacker could exploit these vulnerabilities by sending a crafted SNMP packet to an affected system via IPv4 or IPv6. Only traffic directed to an affected system can be used to exploit these vulnerabilities. The vulnerabilities are due to a buffer overflow condition in the SNMP subsystem of the affected software. The vulnerabilities affect all versions of SNMP: Versions 1, 2c, and 3. To exploit these vulnerabilities via SNMP Version 2c or earlier, the attacker must know the SNMP read-only community string for the affected system. To exploit these vulnerabilities via SNMP Version 3, the attacker must have user credentials for the affected system. All devices that have enabled SNMP and have not explicitly excluded the affected MIBs or OIDs should be considered vulnerable. Cisco Bug IDs: CSCve57697.
 
@@ -4573,13 +2543,6 @@
 
 
 - [https://github.com/Frivolous-scholar/CVE-2017-5941-NodeJS-RCE](https://github.com/Frivolous-scholar/CVE-2017-5941-NodeJS-RCE) :  ![starts](https://img.shields.io/github/stars/Frivolous-scholar/CVE-2017-5941-NodeJS-RCE.svg) ![forks](https://img.shields.io/github/forks/Frivolous-scholar/CVE-2017-5941-NodeJS-RCE.svg)
-
-## CVE-2017-5897
- The ip6gre_err function in net/ipv6/ip6_gre.c in the Linux kernel allows remote attackers to have unspecified impact via vectors involving GRE flags in an IPv6 packet, which trigger an out-of-bounds access.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-5897](https://github.com/Live-Hack-CVE/CVE-2017-5897) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-5897.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-5897.svg)
 
 ## CVE-2017-5816
  A Remote Code Execution vulnerability in HPE Intelligent Management Center (iMC) PLAT version 7.3 E0504P04 was found.
@@ -4872,9 +2835,9 @@
 
 - [https://github.com/lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/lizhi16/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/lizhi16/CVE-2017-5638.svg)
 
-- [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
-
 - [https://github.com/mfdev-solution/Exploit-CVE-2017-5638](https://github.com/mfdev-solution/Exploit-CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/mfdev-solution/Exploit-CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mfdev-solution/Exploit-CVE-2017-5638.svg)
+
+- [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
 
 - [https://github.com/readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/readloud/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/readloud/CVE-2017-5638.svg)
 
@@ -4896,9 +2859,9 @@
 
 - [https://github.com/cafnet/apache-struts-v2-CVE-2017-5638](https://github.com/cafnet/apache-struts-v2-CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/cafnet/apache-struts-v2-CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/cafnet/apache-struts-v2-CVE-2017-5638.svg)
 
-- [https://github.com/invisiblethreat/strutser](https://github.com/invisiblethreat/strutser) :  ![starts](https://img.shields.io/github/stars/invisiblethreat/strutser.svg) ![forks](https://img.shields.io/github/forks/invisiblethreat/strutser.svg)
-
 - [https://github.com/sonatype-workshops/struts2-rce](https://github.com/sonatype-workshops/struts2-rce) :  ![starts](https://img.shields.io/github/stars/sonatype-workshops/struts2-rce.svg) ![forks](https://img.shields.io/github/forks/sonatype-workshops/struts2-rce.svg)
+
+- [https://github.com/invisiblethreat/strutser](https://github.com/invisiblethreat/strutser) :  ![starts](https://img.shields.io/github/stars/invisiblethreat/strutser.svg) ![forks](https://img.shields.io/github/forks/invisiblethreat/strutser.svg)
 
 - [https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638](https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/sjitech/test_struts2_vulnerability_CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/sjitech/test_struts2_vulnerability_CVE-2017-5638.svg)
 
@@ -4920,13 +2883,6 @@
 
 
 - [https://github.com/cardangi/Exploit-CVE-2017-5633](https://github.com/cardangi/Exploit-CVE-2017-5633) :  ![starts](https://img.shields.io/github/stars/cardangi/Exploit-CVE-2017-5633.svg) ![forks](https://img.shields.io/github/forks/cardangi/Exploit-CVE-2017-5633.svg)
-
-## CVE-2017-5546
- The freelist-randomization feature in mm/slab.c in the Linux kernel 4.8.x and 4.9.x before 4.9.5 allows local users to cause a denial of service (duplicate freelist entries and system crash) or possibly have unspecified other impact in opportunistic circumstances by leveraging the selection of a large value for a random number.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-5546](https://github.com/Live-Hack-CVE/CVE-2017-5546) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-5546.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-5546.svg)
 
 ## CVE-2017-5521
  An issue was discovered on NETGEAR R8500, R8300, R7000, R6400, R7300, R7100LG, R6300v2, WNDR3400v3, WNR3500Lv2, R6250, R6700, R6900, and R8000 devices. They are prone to password disclosure via simple crafted requests to the web management server. The bug is exploitable remotely if the remote management option is set, and can also be exploited given access to the router over LAN or WLAN. When trying to access the web panel, a user is asked to authenticate; if the authentication is canceled and password recovery is not enabled, the user is redirected to a page that exposes a password recovery token. If a user supplies the correct token to the page /passwordrecovered.cgi?id=TOKEN (and password recovery is not enabled), they will receive the admin password for the router. If password recovery is set the exploit will fail, as it will ask the user for the recovery questions that were previously set when enabling that feature. This is persistent (even after disabling the recovery option, the exploit will fail) because the router will ask for the security questions.
@@ -4962,13 +2918,6 @@
 
 
 - [https://github.com/649/CVE-2017-5415](https://github.com/649/CVE-2017-5415) :  ![starts](https://img.shields.io/github/stars/649/CVE-2017-5415.svg) ![forks](https://img.shields.io/github/forks/649/CVE-2017-5415.svg)
-
-## CVE-2017-5242
- Nexpose and InsightVM virtual appliances downloaded between April 5th, 2017 and May 3rd, 2017 contain identical SSH host keys. Normally, a unique SSH host key should be generated the first time a virtual appliance boots.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-5242](https://github.com/Live-Hack-CVE/CVE-2017-5242) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-5242.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-5242.svg)
 
 ## CVE-2017-5223
  An issue was discovered in PHPMailer before 5.2.22. PHPMailer's msgHTML method applies transformations to an HTML document to make it usable as an email message body. One of the transformations is to convert relative image URLs into attachments using a script-provided base directory. If no base directory is provided, it resolves to /, meaning that relative image URLs get treated as absolute local file paths and added as attachments. To form a remote vulnerability, the msgHTML method must be called, passed an unfiltered, user-supplied HTML document, and must not set a base directory.
@@ -5055,54 +3004,12 @@
 
 - [https://github.com/homjxi0e/CVE-2017-3881-Cisco](https://github.com/homjxi0e/CVE-2017-3881-Cisco) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-3881-Cisco.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-3881-Cisco.svg)
 
-## CVE-2017-3738
- There is an overflow bug in the AVX2 Montgomery multiplication procedure used in exponentiation with 1024-bit moduli. No EC algorithms are affected. Analysis suggests that attacks against RSA and DSA as a result of this defect would be very difficult to perform and are not believed likely. Attacks against DH1024 are considered just feasible, because most of the work necessary to deduce information about a private key may be performed offline. The amount of resources required for such an attack would be significant. However, for an attack on TLS to be meaningful, the server would have to share the DH1024 private key among multiple clients, which is no longer an option since CVE-2016-0701. This only affects processors that support the AVX2 but not ADX extensions like Intel Haswell (4th generation). Note: The impact from this issue is similar to CVE-2017-3736, CVE-2017-3732 and CVE-2015-3193. OpenSSL version 1.0.2-1.0.2m and 1.1.0-1.1.0g are affected. Fixed in OpenSSL 1.0.2n. Due to the low severity of this issue we are not issuing a new release of OpenSSL 1.1.0 at this time. The fix will be included in OpenSSL 1.1.0h when it becomes available. The fix is also available in commit e502cc86d in the OpenSSL git repository.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-3738](https://github.com/Live-Hack-CVE/CVE-2017-3738) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3738.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3738.svg)
-
-## CVE-2017-3735
- While parsing an IPAddressFamily extension in an X.509 certificate, it is possible to do a one-byte overread. This would result in an incorrect text display of the certificate. This bug has been present since 2006 and is present in all versions of OpenSSL before 1.0.2m and 1.1.0g.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-3735](https://github.com/Live-Hack-CVE/CVE-2017-3735) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3735.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3735.svg)
-
-## CVE-2017-3732
- There is a carry propagating bug in the x86_64 Montgomery squaring procedure in OpenSSL 1.0.2 before 1.0.2k and 1.1.0 before 1.1.0d. No EC algorithms are affected. Analysis suggests that attacks against RSA and DSA as a result of this defect would be very difficult to perform and are not believed likely. Attacks against DH are considered just feasible (although very difficult) because most of the work necessary to deduce information about a private key may be performed offline. The amount of resources required for such an attack would be very significant and likely only accessible to a limited number of attackers. An attacker would additionally need online access to an unpatched system using the target private key in a scenario with persistent DH parameters and a private key that is shared between multiple clients. For example this can occur by default in OpenSSL DHE based SSL/TLS ciphersuites. Note: This issue is very similar to CVE-2015-3193 but must be treated as a separate problem.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-3732](https://github.com/Live-Hack-CVE/CVE-2017-3732) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3732.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3732.svg)
-
 ## CVE-2017-3730
  In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
 
 
 
 - [https://github.com/guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730) :  ![starts](https://img.shields.io/github/stars/guidovranken/CVE-2017-3730.svg) ![forks](https://img.shields.io/github/forks/guidovranken/CVE-2017-3730.svg)
-
-## CVE-2017-3653
- Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: DDL). Supported versions that are affected are 5.5.56 and earlier, 5.6.36 and earlier and 5.7.18 and earlier. Difficult to exploit vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of MySQL Server accessible data. CVSS 3.0 Base Score 3.1 (Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-3653](https://github.com/Live-Hack-CVE/CVE-2017-3653) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3653.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3653.svg)
-
-## CVE-2017-3651
- Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Client mysqldump). Supported versions that are affected are 5.5.56 and earlier, 5.6.36 and earlier and 5.7.18 and earlier. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of MySQL Server accessible data. CVSS 3.0 Base Score 4.3 (Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-3651](https://github.com/Live-Hack-CVE/CVE-2017-3651) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3651.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3651.svg)
-
-## CVE-2017-3641
- Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: DML). Supported versions that are affected are 5.5.56 and earlier, 5.6.36 and earlier and 5.7.18 and earlier. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-3641](https://github.com/Live-Hack-CVE/CVE-2017-3641) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3641.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3641.svg)
 
 ## CVE-2017-3599
  Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Pluggable Auth). Supported versions that are affected are 5.6.35 and earlier and 5.7.17 and earlier. Easily &quot;exploitable&quot; vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 7.5 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H). NOTE: the previous information is from the April 2017 CPU. Oracle has not commented on third-party claims that this issue is an integer overflow in sql/auth/sql_authentication.cc which allows remote attackers to cause a denial of service via a crafted authentication packet.
@@ -5124,34 +3031,6 @@
 
 - [https://github.com/Al1ex/CVE-2017-3506](https://github.com/Al1ex/CVE-2017-3506) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2017-3506.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2017-3506.svg)
 
-## CVE-2017-3464
- Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: DDL). Supported versions that are affected are 5.5.54 and earlier, 5.6.35 and earlier and 5.7.17 and earlier. Easily &quot;exploitable&quot; vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of MySQL Server accessible data. CVSS 3.0 Base Score 4.3 (Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-3464](https://github.com/Live-Hack-CVE/CVE-2017-3464) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3464.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3464.svg)
-
-## CVE-2017-3318
- Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Error Handling). Supported versions that are affected are 5.5.53 and earlier, 5.6.34 and earlier and 5.7.16 and earlier. Difficult to exploit vulnerability allows high privileged attacker with logon to the infrastructure where MySQL Server executes to compromise MySQL Server. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all MySQL Server accessible data. CVSS v3.0 Base Score 4.0 (Confidentiality impacts).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-3318](https://github.com/Live-Hack-CVE/CVE-2017-3318) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3318.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3318.svg)
-
-## CVE-2017-3317
- Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Logging). Supported versions that are affected are 5.5.53 and earlier, 5.6.34 and earlier and 5.7.16 and earlier. Difficult to exploit vulnerability allows high privileged attacker with logon to the infrastructure where MySQL Server executes to compromise MySQL Server. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS v3.0 Base Score 4.0 (Availability impacts).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-3317](https://github.com/Live-Hack-CVE/CVE-2017-3317) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3317.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3317.svg)
-
-## CVE-2017-3313
- Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: MyISAM). Supported versions that are affected are 5.5.53 and earlier, 5.6.34 and earlier and 5.7.16 and earlier. Difficult to exploit vulnerability allows low privileged attacker with logon to the infrastructure where MySQL Server executes to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all MySQL Server accessible data. CVSS v3.0 Base Score 4.7 (Confidentiality impacts).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-3313](https://github.com/Live-Hack-CVE/CVE-2017-3313) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3313.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3313.svg)
-
 ## CVE-2017-3248
  Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.0 and 12.2.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS v3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).
 
@@ -5162,13 +3041,6 @@
 - [https://github.com/ianxtianxt/CVE-2017-3248](https://github.com/ianxtianxt/CVE-2017-3248) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2017-3248.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2017-3248.svg)
 
 - [https://github.com/BabyTeam1024/CVE-2017-3248](https://github.com/BabyTeam1024/CVE-2017-3248) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2017-3248.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2017-3248.svg)
-
-## CVE-2017-3243
- Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Charsets). Supported versions that are affected are 5.5.53 and earlier. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS v3.0 Base Score 4.4 (Availability impacts).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-3243](https://github.com/Live-Hack-CVE/CVE-2017-3243) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3243.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3243.svg)
 
 ## CVE-2017-3241
  Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: RMI). Supported versions that are affected are Java SE: 6u131, 7u121 and 8u112; Java SE Embedded: 8u111; JRockit: R28.3.12. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. While the vulnerability is in Java SE, Java SE Embedded, JRockit, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS v3.0 Base Score 9.0 (Confidentiality, Integrity and Availability impacts).
@@ -5185,20 +3057,6 @@
 
 
 - [https://github.com/saaph/CVE-2017-3143](https://github.com/saaph/CVE-2017-3143) :  ![starts](https://img.shields.io/github/stars/saaph/CVE-2017-3143.svg) ![forks](https://img.shields.io/github/forks/saaph/CVE-2017-3143.svg)
-
-## CVE-2017-3106
- Adobe Flash Player versions 26.0.0.137 and earlier have an exploitable type confusion vulnerability when parsing SWF files. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-3106](https://github.com/Live-Hack-CVE/CVE-2017-3106) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3106.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3106.svg)
-
-## CVE-2017-3085
- Adobe Flash Player versions 26.0.0.137 and earlier have a security bypass vulnerability that leads to information disclosure when performing URL redirect.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-3085](https://github.com/Live-Hack-CVE/CVE-2017-3085) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-3085.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-3085.svg)
 
 ## CVE-2017-3078
  Adobe Flash Player versions 25.0.0.171 and earlier have an exploitable memory corruption vulnerability in the Adobe Texture Format (ATF) module. Successful exploitation could lead to arbitrary code execution.
@@ -5223,174 +3081,6 @@
 
 - [https://github.com/dangokyo/CVE-2017-3000](https://github.com/dangokyo/CVE-2017-3000) :  ![starts](https://img.shields.io/github/stars/dangokyo/CVE-2017-3000.svg) ![forks](https://img.shields.io/github/forks/dangokyo/CVE-2017-3000.svg)
 
-## CVE-2017-2996
- Adobe Flash Player versions 24.0.0.194 and earlier have an exploitable memory corruption vulnerability in Primetime SDK. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2996](https://github.com/Live-Hack-CVE/CVE-2017-2996) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2996.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2996.svg)
-
-## CVE-2017-2995
- Adobe Flash Player versions 24.0.0.194 and earlier have an exploitable type confusion vulnerability related to the MessageChannel class. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2995](https://github.com/Live-Hack-CVE/CVE-2017-2995) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2995.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2995.svg)
-
-## CVE-2017-2994
- Adobe Flash Player versions 24.0.0.194 and earlier have an exploitable use after free vulnerability in Primetime SDK event dispatch. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2994](https://github.com/Live-Hack-CVE/CVE-2017-2994) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2994.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2994.svg)
-
-## CVE-2017-2993
- Adobe Flash Player versions 24.0.0.194 and earlier have an exploitable use after free vulnerability related to event handlers. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2993](https://github.com/Live-Hack-CVE/CVE-2017-2993) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2993.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2993.svg)
-
-## CVE-2017-2992
- Adobe Flash Player versions 24.0.0.194 and earlier have an exploitable heap overflow vulnerability when parsing an MP4 header. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2992](https://github.com/Live-Hack-CVE/CVE-2017-2992) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2992.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2992.svg)
-
-## CVE-2017-2991
- Adobe Flash Player versions 24.0.0.194 and earlier have an exploitable memory corruption vulnerability in the h264 codec (related to decompression). Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2991](https://github.com/Live-Hack-CVE/CVE-2017-2991) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2991.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2991.svg)
-
-## CVE-2017-2990
- Adobe Flash Player versions 24.0.0.194 and earlier have an exploitable memory corruption vulnerability in the h264 decompression routine. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2990](https://github.com/Live-Hack-CVE/CVE-2017-2990) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2990.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2990.svg)
-
-## CVE-2017-2988
- Adobe Flash Player versions 24.0.0.194 and earlier have an exploitable memory corruption vulnerability when performing garbage collection. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2988](https://github.com/Live-Hack-CVE/CVE-2017-2988) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2988.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2988.svg)
-
-## CVE-2017-2987
- Adobe Flash Player versions 24.0.0.194 and earlier have an exploitable integer overflow vulnerability related to Flash Broker COM. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2987](https://github.com/Live-Hack-CVE/CVE-2017-2987) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2987.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2987.svg)
-
-## CVE-2017-2986
- Adobe Flash Player versions 24.0.0.194 and earlier have an exploitable heap overflow vulnerability in the Flash Video (FLV) codec. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2986](https://github.com/Live-Hack-CVE/CVE-2017-2986) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2986.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2986.svg)
-
-## CVE-2017-2985
- Adobe Flash Player versions 24.0.0.194 and earlier have an exploitable use after free vulnerability in the ActionScript 3 BitmapData class. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2985](https://github.com/Live-Hack-CVE/CVE-2017-2985) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2985.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2985.svg)
-
-## CVE-2017-2984
- Adobe Flash Player versions 24.0.0.194 and earlier have an exploitable heap overflow vulnerability in the h264 decoder routine. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2984](https://github.com/Live-Hack-CVE/CVE-2017-2984) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2984.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2984.svg)
-
-## CVE-2017-2982
- Adobe Flash Player versions 24.0.0.194 and earlier have an exploitable use after free vulnerability in a routine related to player shutdown. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2982](https://github.com/Live-Hack-CVE/CVE-2017-2982) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2982.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2982.svg)
-
-## CVE-2017-2938
- Adobe Flash Player versions 24.0.0.186 and earlier have a security bypass vulnerability related to handling TCP connections.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2938](https://github.com/Live-Hack-CVE/CVE-2017-2938) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2938.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2938.svg)
-
-## CVE-2017-2937
- Adobe Flash Player versions 24.0.0.186 and earlier have an exploitable use after free vulnerability in the ActionScript FileReference class, when using class inheritance. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2937](https://github.com/Live-Hack-CVE/CVE-2017-2937) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2937.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2937.svg)
-
-## CVE-2017-2936
- Adobe Flash Player versions 24.0.0.186 and earlier have an exploitable use after free vulnerability in the ActionScript FileReference class. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2936](https://github.com/Live-Hack-CVE/CVE-2017-2936) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2936.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2936.svg)
-
-## CVE-2017-2935
- Adobe Flash Player versions 24.0.0.186 and earlier have an exploitable heap overflow vulnerability when processing the Flash Video container file format. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2935](https://github.com/Live-Hack-CVE/CVE-2017-2935) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2935.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2935.svg)
-
-## CVE-2017-2934
- Adobe Flash Player versions 24.0.0.186 and earlier have an exploitable heap overflow vulnerability when parsing Adobe Texture Format files. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2934](https://github.com/Live-Hack-CVE/CVE-2017-2934) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2934.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2934.svg)
-
-## CVE-2017-2933
- Adobe Flash Player versions 24.0.0.186 and earlier have an exploitable heap overflow vulnerability related to texture compression. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2933](https://github.com/Live-Hack-CVE/CVE-2017-2933) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2933.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2933.svg)
-
-## CVE-2017-2932
- Adobe Flash Player versions 24.0.0.186 and earlier have an exploitable use after free vulnerability in the ActionScript MovieClip class. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2932](https://github.com/Live-Hack-CVE/CVE-2017-2932) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2932.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2932.svg)
-
-## CVE-2017-2931
- Adobe Flash Player versions 24.0.0.186 and earlier have an exploitable memory corruption vulnerability related to the parsing of SWF metadata. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2931](https://github.com/Live-Hack-CVE/CVE-2017-2931) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2931.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2931.svg)
-
-## CVE-2017-2930
- Adobe Flash Player versions 24.0.0.186 and earlier have an exploitable memory corruption vulnerability due to a concurrency error when manipulating a display list. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2930](https://github.com/Live-Hack-CVE/CVE-2017-2930) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2930.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2930.svg)
-
-## CVE-2017-2928
- Adobe Flash Player versions 24.0.0.186 and earlier have an exploitable memory corruption vulnerability related to setting visual mode effects. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2928](https://github.com/Live-Hack-CVE/CVE-2017-2928) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2928.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2928.svg)
-
-## CVE-2017-2926
- Adobe Flash Player versions 24.0.0.186 and earlier have an exploitable memory corruption vulnerability related to processing of atoms in MP4 files. Successful exploitation could lead to arbitrary code execution.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2926](https://github.com/Live-Hack-CVE/CVE-2017-2926) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2926.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2926.svg)
-
 ## CVE-2017-2824
  An exploitable code execution vulnerability exists in the trapper command functionality of Zabbix Server 2.4.X. A specially crafted set of packets can cause a command injection resulting in remote code execution. An attacker can make requests from an active Zabbix Proxy to trigger this vulnerability.
 
@@ -5398,40 +3088,12 @@
 
 - [https://github.com/listenquiet/cve-2017-2824-reverse-shell](https://github.com/listenquiet/cve-2017-2824-reverse-shell) :  ![starts](https://img.shields.io/github/stars/listenquiet/cve-2017-2824-reverse-shell.svg) ![forks](https://img.shields.io/github/forks/listenquiet/cve-2017-2824-reverse-shell.svg)
 
-## CVE-2017-2820
- An exploitable integer overflow vulnerability exists in the JPEG 2000 image parsing functionality of freedesktop.org Poppler 0.53.0. A specially crafted PDF file can lead to an integer overflow causing out of bounds memory overwrite on the heap resulting in potential arbitrary code execution. To trigger this vulnerability, a victim must open the malicious PDF in an application using this library.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2820](https://github.com/Live-Hack-CVE/CVE-2017-2820) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2820.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2820.svg)
-
 ## CVE-2017-2793
  An exploitable heap corruption vulnerability exists in the UnCompressUnicode functionality of Antenna House DMC HTMLFilter used by MarkLogic 8.0-6. A specially crafted xls file can cause a heap corruption resulting in arbitrary code execution. An attacker can send/provide malicious XLS file to trigger this vulnerability.
 
 
 
 - [https://github.com/sUbc0ol/Detection-for-CVE-2017-2793](https://github.com/sUbc0ol/Detection-for-CVE-2017-2793) :  ![starts](https://img.shields.io/github/stars/sUbc0ol/Detection-for-CVE-2017-2793.svg) ![forks](https://img.shields.io/github/forks/sUbc0ol/Detection-for-CVE-2017-2793.svg)
-
-## CVE-2017-2788
- A buffer overflows exists in the psnotifyd application of the Pharos PopUp printer client version 9.0. A specially crafted packet can be sent to the victim's computer and can lead to a heap based buffer overflow resulting in potential remote code execution. This client is always listening, has root privileges, and requires no user interaction to exploit.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2788](https://github.com/Live-Hack-CVE/CVE-2017-2788) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2788.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2788.svg)
-
-## CVE-2017-2786
- A denial of service vulnerability exists in the psnotifyd application of the Pharos PopUp printer client version 9.0. A specially crafted packet can be sent to the victim's computer and can lead to an out of bounds read causing a crash and a denial of service.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2786](https://github.com/Live-Hack-CVE/CVE-2017-2786) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2786.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2786.svg)
-
-## CVE-2017-2781
- An exploitable heap buffer overflow vulnerability exists in the X509 certificate parsing functionality of InsideSecure MatrixSSL 3.8.7b. A specially crafted x509 certificate can cause a buffer overflow on the heap resulting in remote code execution. To trigger this vulnerability, a specially crafted x509 certificate must be presented to the vulnerable client or server application when initiating secure connection.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2781](https://github.com/Live-Hack-CVE/CVE-2017-2781) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2781.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2781.svg)
 
 ## CVE-2017-2751
  A BIOS password extraction vulnerability has been reported on certain consumer notebooks with firmware F.22 and others. The BIOS password was stored in CMOS in a way that allowed it to be extracted. This applies to consumer notebooks launched in early 2014.
@@ -5468,27 +3130,6 @@
 
 - [https://github.com/alexzorin/cve-2017-2636-el](https://github.com/alexzorin/cve-2017-2636-el) :  ![starts](https://img.shields.io/github/stars/alexzorin/cve-2017-2636-el.svg) ![forks](https://img.shields.io/github/forks/alexzorin/cve-2017-2636-el.svg)
 
-## CVE-2017-2619
- Samba before versions 4.6.1, 4.5.7 and 4.4.11 are vulnerable to a malicious client using a symlink race to allow access to areas of the server file system not exported under the share definition.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2619](https://github.com/Live-Hack-CVE/CVE-2017-2619) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2619.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2619.svg)
-
-## CVE-2017-2601
- Jenkins before versions 2.44, 2.32.2 is vulnerable to a persisted cross-site scripting in parameter names and descriptions (SECURITY-353). Users with the permission to configure jobs were able to inject JavaScript into parameter names and descriptions.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2601](https://github.com/Live-Hack-CVE/CVE-2017-2601) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2601.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2601.svg)
-
-## CVE-2017-2599
- Jenkins before versions 2.44 and 2.32.2 is vulnerable to an insufficient permission check. This allows users with permissions to create new items (e.g. jobs) to overwrite existing items they don't have access to (SECURITY-321).
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2599](https://github.com/Live-Hack-CVE/CVE-2017-2599) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2599.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2599.svg)
-
 ## CVE-2017-2388
  An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the &quot;IOFireWireFamily&quot; component. It allows attackers to cause a denial of service (NULL pointer dereference) via a crafted app.
 
@@ -5516,13 +3157,6 @@
 
 - [https://github.com/vincedes3/CVE-2017-2368](https://github.com/vincedes3/CVE-2017-2368) :  ![starts](https://img.shields.io/github/stars/vincedes3/CVE-2017-2368.svg) ![forks](https://img.shields.io/github/forks/vincedes3/CVE-2017-2368.svg)
 
-## CVE-2017-2127
- Cross-site scripting vulnerability in YOP Poll versions prior to 5.8.1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-2127](https://github.com/Live-Hack-CVE/CVE-2017-2127) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-2127.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-2127.svg)
-
 ## CVE-2017-2027
  ** RE
 
@@ -5539,75 +3173,12 @@
 
 - [https://github.com/bcdannyboy/cve-2017-1635-PoC](https://github.com/bcdannyboy/cve-2017-1635-PoC) :  ![starts](https://img.shields.io/github/stars/bcdannyboy/cve-2017-1635-PoC.svg) ![forks](https://img.shields.io/github/forks/bcdannyboy/cve-2017-1635-PoC.svg)
 
-## CVE-2017-1107
- IBM Marketing Platform 9.1.0, 9.1.2, 10.0, and 10.1 exposes sensitive information in the headers that could be used by an authenticated attacker in further attacks against the system. IBM X-Force ID: 120906.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-1107](https://github.com/Live-Hack-CVE/CVE-2017-1107) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-1107.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-1107.svg)
-
 ## CVE-2017-0931
  html-janitor node module suffers from a Cross-Site Scripting (XSS) vulnerability via clean() accepting user-controlled values.
 
 
 
 - [https://github.com/ossf-cve-benchmark/CVE-2017-0931](https://github.com/ossf-cve-benchmark/CVE-2017-0931) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-0931.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-0931.svg)
-
-## CVE-2017-0894
- Nextcloud Server before 11.0.3 is vulnerable to disclosure of valid share tokens for public calendars due to a logical error. Thus granting an attacker potentially access to publicly shared calendars without knowing the share token.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-0894](https://github.com/Live-Hack-CVE/CVE-2017-0894) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0894.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0894.svg)
-
-## CVE-2017-0892
- Nextcloud Server before 11.0.3 is vulnerable to an improper session handling allowed an application specific password without permission to the files access to the users file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-0892](https://github.com/Live-Hack-CVE/CVE-2017-0892) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0892.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0892.svg)
-
-## CVE-2017-0890
- Nextcloud Server before 11.0.3 is vulnerable to an inadequate escaping leading to a XSS vulnerability in the search module. To be exploitable a user has to write or paste malicious content into the search dialogue.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-0890](https://github.com/Live-Hack-CVE/CVE-2017-0890) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0890.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0890.svg)
-
-## CVE-2017-0888
- Nextcloud Server before 9.0.55 and 10.0.2 suffers from a Content-Spoofing vulnerability in the &quot;files&quot; app. The top navigation bar displayed in the files list contained partially user-controllable input leading to a potential misrepresentation of information.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-0888](https://github.com/Live-Hack-CVE/CVE-2017-0888) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0888.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0888.svg)
-
-## CVE-2017-0887
- Nextcloud Server before 9.0.55 and 10.0.2 suffers from a bypass in the quota limitation. Due to not properly sanitizing values provided by the `OC-Total-Length` HTTP header an authenticated adversary may be able to exceed their configured user quota. Thus using more space than allowed by the administrator.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-0887](https://github.com/Live-Hack-CVE/CVE-2017-0887) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0887.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0887.svg)
-
-## CVE-2017-0886
- Nextcloud Server before 9.0.55 and 10.0.2 suffers from a Denial of Service attack. Due to an error in the application logic an authenticated adversary may trigger an endless recursion in the application leading to a potential Denial of Service.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-0886](https://github.com/Live-Hack-CVE/CVE-2017-0886) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0886.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0886.svg)
-
-## CVE-2017-0885
- Nextcloud Server before 9.0.55 and 10.0.2 suffers from a error message disclosing existence of file in write-only share. Due to an error in the application logic an adversary with access to a write-only share may enumerate the names of existing files and subfolders by comparing the exception messages.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-0885](https://github.com/Live-Hack-CVE/CVE-2017-0885) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0885.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0885.svg)
-
-## CVE-2017-0884
- Nextcloud Server before 9.0.55 and 10.0.2 suffers from a creation of folders in read-only folders despite lacking permissions issue. Due to a logical error in the file caching layer an authenticated adversary is able to create empty folders inside a shared folder. Note that this only affects folders and files that the adversary has at least read-only permissions for.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2017-0884](https://github.com/Live-Hack-CVE/CVE-2017-0884) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2017-0884.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2017-0884.svg)
 
 ## CVE-2017-0807
  An elevation of privilege vulnerability in the Android framework (ui framework). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2. Android ID: A-35056974.
