@@ -5,8 +5,6 @@
 
 - [https://github.com/Balasys/dheater](https://github.com/Balasys/dheater) :  ![starts](https://img.shields.io/github/stars/Balasys/dheater.svg) ![forks](https://img.shields.io/github/forks/Balasys/dheater.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2002-20001](https://github.com/Live-Hack-CVE/CVE-2002-20001) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2002-20001.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2002-20001.svg)
-
 ## CVE-2002-2420
  site_searcher.cgi in Super Site Searcher allows remote attackers to execute arbitrary commands via shell metacharacters in the page parameter.
 
@@ -27,13 +25,6 @@
 
 
 - [https://github.com/alt3kx/CVE-2002-0991](https://github.com/alt3kx/CVE-2002-0991) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0991.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0991.svg)
-
-## CVE-2002-0839
- The shared memory scoreboard in the HTTP daemon for Apache 1.3.x before 1.3.27 allows any user running as the Apache UID to send a SIGUSR1 signal to any process as root, resulting in a denial of service (process kill) or possibly other behaviors that would not normally be allowed, by modifying the parent[].pid and parent[].last_rtime segments in the scoreboard.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2002-0839](https://github.com/Live-Hack-CVE/CVE-2002-0839) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2002-0839.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2002-0839.svg)
 
 ## CVE-2002-0740
  Buffer overflow in slrnpull for the SLRN package, when installed setuid or setgid, allows local users to gain privileges via a long -d (SPOOLDIR) argument.
