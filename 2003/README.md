@@ -1,38 +1,3 @@
-## CVE-2003-1562
- sshd in OpenSSH 3.6.1p2 and earlier, when PermitRootLogin is disabled and using PAM keyboard-interactive authentication, does not insert a delay after a root login attempt with the correct password, which makes it easier for remote attackers to use timing differences to determine if the password step of a multi-step authentication is successful, a different vulnerability than CVE-2003-0190.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2003-1562](https://github.com/Live-Hack-CVE/CVE-2003-1562) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2003-1562.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2003-1562.svg)
-
-## CVE-2003-1229
- X509TrustManager in (1) Java Secure Socket Extension (JSSE) in SDK and JRE 1.4.0 through 1.4.0_01, (2) JSSE before 1.0.3, (3) Java Plug-in SDK and JRE 1.3.0 through 1.4.1, and (4) Java Web Start 1.0 through 1.2 incorrectly calls the isClientTrusted method when determining server trust, which results in improper validation of digital certificate and allows remote attackers to (1) falsely authenticate peers for SSL or (2) incorrectly validate signed JAR files.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2003-1229](https://github.com/Live-Hack-CVE/CVE-2003-1229) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2003-1229.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2003-1229.svg)
-
-## CVE-2003-0789
- mod_cgid in Apache before 2.0.48, when using a threaded MPM, does not properly handle CGI redirect paths, which could cause Apache to send the output of a CGI program to the wrong client.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2003-0789](https://github.com/Live-Hack-CVE/CVE-2003-0789) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2003-0789.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2003-0789.svg)
-
-## CVE-2003-0769
- Cross-site scripting (XSS) vulnerability in the ICQ Web Front guestbook (guestbook.html) allows remote attackers to insert arbitrary web script and HTML via the message field.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2003-0769](https://github.com/Live-Hack-CVE/CVE-2003-0769) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2003-0769.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2003-0769.svg)
-
-## CVE-2003-0658
- Docview before 1.1-18 in Caldera OpenLinux 3.1.1, SCO Linux 4.0, OpenServer 5.0.7, configures the Apache web server in a way that allows remote attackers to read arbitrary publicly readable files via a certain URL, possibly related to rewrite rules.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2003-0658](https://github.com/Live-Hack-CVE/CVE-2003-0658) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2003-0658.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2003-0658.svg)
-
 ## CVE-2003-0358
  Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.
 
@@ -56,9 +21,9 @@
 
 - [https://github.com/fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit) :  ![starts](https://img.shields.io/github/stars/fyoderxx/slmail-exploit.svg) ![forks](https://img.shields.io/github/forks/fyoderxx/slmail-exploit.svg)
 
-- [https://github.com/war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2003-0264.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2003-0264.svg)
-
 - [https://github.com/SxNade/CVE-2003-0264_EXPLOIT](https://github.com/SxNade/CVE-2003-0264_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/SxNade/CVE-2003-0264_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/SxNade/CVE-2003-0264_EXPLOIT.svg)
+
+- [https://github.com/war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2003-0264.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2003-0264.svg)
 
 - [https://github.com/adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2003-0264.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2003-0264.svg)
 
@@ -79,10 +44,3 @@
 
 
 - [https://github.com/KernelPan1k/trans2open-CVE-2003-0201](https://github.com/KernelPan1k/trans2open-CVE-2003-0201) :  ![starts](https://img.shields.io/github/stars/KernelPan1k/trans2open-CVE-2003-0201.svg) ![forks](https://img.shields.io/github/forks/KernelPan1k/trans2open-CVE-2003-0201.svg)
-
-## CVE-2003-0190
- OpenSSH-portable (OpenSSH) 3.6.1p1 and earlier with PAM support enabled immediately sends an error message when a user does not exist, which allows remote attackers to determine valid usernames via a timing attack.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2003-0190](https://github.com/Live-Hack-CVE/CVE-2003-0190) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2003-0190.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2003-0190.svg)
