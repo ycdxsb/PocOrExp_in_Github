@@ -1,10 +1,3 @@
-## CVE-2005-3353
- The exif_read_data function in the Exif module in PHP before 4.4.1 allows remote attackers to cause a denial of service (infinite loop) via a malformed JPEG image.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2009-2687](https://github.com/Live-Hack-CVE/CVE-2009-2687) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2009-2687.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2009-2687.svg)
-
 ## CVE-2005-3299
  PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and 2.6.4-pl1 allows remote attackers to include local files via the $__redirect parameter, possibly involving the subform array.
 
@@ -14,40 +7,12 @@
 
 - [https://github.com/RizeKishimaro/CVE-2005-3299](https://github.com/RizeKishimaro/CVE-2005-3299) :  ![starts](https://img.shields.io/github/stars/RizeKishimaro/CVE-2005-3299.svg) ![forks](https://img.shields.io/github/forks/RizeKishimaro/CVE-2005-3299.svg)
 
-## CVE-2005-2970
- Memory leak in the worker MPM (worker.c) for Apache 2, in certain circumstances, allows remote attackers to cause a denial of service (memory consumption) via aborted connections, which prevents the memory for the transaction pool from being reused for other connections.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2005-2970](https://github.com/Live-Hack-CVE/CVE-2005-2970) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2005-2970.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2005-2970.svg)
-
-## CVE-2005-2700
- ssl_engine_kernel.c in mod_ssl before 2.8.24, when using &quot;SSLVerifyClient optional&quot; in the global virtual host configuration, does not properly enforce &quot;SSLVerifyClient require&quot; in a per-location context, which allows remote attackers to bypass intended access restrictions.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2005-2700](https://github.com/Live-Hack-CVE/CVE-2005-2700) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2005-2700.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2005-2700.svg)
-
 ## CVE-2005-2428
  Lotus Domino R5 and R6 WebMail, with &quot;Generate HTML for all fields&quot; enabled, stores sensitive data from names.nsf in hidden form fields, which allows remote attackers to read the HTML source to obtain sensitive information such as (1) the password hash in the HTTPPassword field, (2) the password change date in the HTTPPasswordChangeDate field, (3) the client platform in the ClntPltfrm field, (4) the client machine name in the ClntMachine field, and (5) the client Lotus Domino release in the ClntBld field, a different vulnerability than CVE-2005-2696.
 
 
 
 - [https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit) :  ![starts](https://img.shields.io/github/stars/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit.svg) ![forks](https://img.shields.io/github/forks/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit.svg)
-
-## CVE-2005-2224
- aspnet_wp.exe in Microsoft ASP.NET web services allows remote attackers to cause a denial of service (CPU consumption from infinite loop) via a crafted SOAP message to an RPC/Encoded method.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2005-2224](https://github.com/Live-Hack-CVE/CVE-2005-2224) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2005-2224.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2005-2224.svg)
-
-## CVE-2005-2088
- The Apache HTTP server before 1.3.34, and 2.0.x before 2.0.55, when acting as an HTTP proxy, allows remote attackers to poison the web cache, bypass web application firewall protection, and conduct XSS attacks via an HTTP request with both a &quot;Transfer-Encoding: chunked&quot; header and a Content-Length header, which causes Apache to incorrectly handle and forward the body of the request in a way that causes the receiving server to process it as a separate HTTP request, aka &quot;HTTP Request Smuggling.&quot;
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2005-2088](https://github.com/Live-Hack-CVE/CVE-2005-2088) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2005-2088.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2005-2088.svg)
 
 ## CVE-2005-1794
  Microsoft Terminal Server using Remote Desktop Protocol (RDP) 5.2 stores an RSA private key in mstlsapi.dll and uses it to sign a certificate, which allows remote attackers to spoof public keys of legitimate servers and conduct man-in-the-middle attacks.
