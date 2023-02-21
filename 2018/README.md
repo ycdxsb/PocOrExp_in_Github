@@ -45,13 +45,6 @@
 
 - [https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION) :  ![starts](https://img.shields.io/github/stars/1NTheKut/CVE-2019-1003000_RCE-DETECTION.svg) ![forks](https://img.shields.io/github/forks/1NTheKut/CVE-2019-1003000_RCE-DETECTION.svg)
 
-## CVE-2018-1000820
- neo4j-contrib neo4j-apoc-procedures version before commit 45bc09c contains a XML External Entity (XXE) vulnerability in XML Parser that can result in Disclosure of confidential data, denial of service, SSRF, port scanning. This vulnerability appears to have been fixed in after commit 45bc09c.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2018-1000820](https://github.com/Live-Hack-CVE/CVE-2018-1000820) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1000820.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1000820.svg)
-
 ## CVE-2018-1000802
  Python Software Foundation Python (CPython) version 2.7 contains a CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability in shutil module (make_archive function) that can result in Denial of service, Information gain via injection of arbitrary files on the system or entire drive. This attack appear to be exploitable via Passage of unfiltered user input to the function. This vulnerability appears to have been fixed in after commit add531a1e55b0a739b0f42582f1c9747e5649ace.
 
@@ -914,9 +907,9 @@
 
 - [https://github.com/NaturalT314/CVE-2018-16763](https://github.com/NaturalT314/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/NaturalT314/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/NaturalT314/CVE-2018-16763.svg)
 
-- [https://github.com/uwueviee/Fu3l-F1lt3r](https://github.com/uwueviee/Fu3l-F1lt3r) :  ![starts](https://img.shields.io/github/stars/uwueviee/Fu3l-F1lt3r.svg) ![forks](https://img.shields.io/github/forks/uwueviee/Fu3l-F1lt3r.svg)
-
 - [https://github.com/k4u5h41/CVE-2018-16763](https://github.com/k4u5h41/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2018-16763.svg)
+
+- [https://github.com/uwueviee/Fu3l-F1lt3r](https://github.com/uwueviee/Fu3l-F1lt3r) :  ![starts](https://img.shields.io/github/stars/uwueviee/Fu3l-F1lt3r.svg) ![forks](https://img.shields.io/github/forks/uwueviee/Fu3l-F1lt3r.svg)
 
 - [https://github.com/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763.svg)
 
@@ -968,9 +961,9 @@
 
 - [https://github.com/cved-sources/cve-2018-16509](https://github.com/cved-sources/cve-2018-16509) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2018-16509.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2018-16509.svg)
 
-- [https://github.com/AssassinUKG/CVE_2018_16509](https://github.com/AssassinUKG/CVE_2018_16509) :  ![starts](https://img.shields.io/github/stars/AssassinUKG/CVE_2018_16509.svg) ![forks](https://img.shields.io/github/forks/AssassinUKG/CVE_2018_16509.svg)
-
 - [https://github.com/rhpco/CVE-2018-16509](https://github.com/rhpco/CVE-2018-16509) :  ![starts](https://img.shields.io/github/stars/rhpco/CVE-2018-16509.svg) ![forks](https://img.shields.io/github/forks/rhpco/CVE-2018-16509.svg)
+
+- [https://github.com/AssassinUKG/CVE_2018_16509](https://github.com/AssassinUKG/CVE_2018_16509) :  ![starts](https://img.shields.io/github/stars/AssassinUKG/CVE_2018_16509.svg) ![forks](https://img.shields.io/github/forks/AssassinUKG/CVE_2018_16509.svg)
 
 ## CVE-2018-16492
  A prototype pollution vulnerability was found in module extend &lt;2.0.2, ~&lt;3.0.2 that allows an attacker to inject arbitrary properties onto Object.prototype.
@@ -1292,6 +1285,8 @@
 
 - [https://github.com/JoeBlackSecurity/SSHUsernameBruter-SSHUB](https://github.com/JoeBlackSecurity/SSHUsernameBruter-SSHUB) :  ![starts](https://img.shields.io/github/stars/JoeBlackSecurity/SSHUsernameBruter-SSHUB.svg) ![forks](https://img.shields.io/github/forks/JoeBlackSecurity/SSHUsernameBruter-SSHUB.svg)
 
+- [https://github.com/cved-sources/cve-2018-15473](https://github.com/cved-sources/cve-2018-15473) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2018-15473.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2018-15473.svg)
+
 - [https://github.com/MrDottt/CVE-2018-15473](https://github.com/MrDottt/CVE-2018-15473) :  ![starts](https://img.shields.io/github/stars/MrDottt/CVE-2018-15473.svg) ![forks](https://img.shields.io/github/forks/MrDottt/CVE-2018-15473.svg)
 
 - [https://github.com/NHPT/SSH-account-enumeration-verification-script](https://github.com/NHPT/SSH-account-enumeration-verification-script) :  ![starts](https://img.shields.io/github/stars/NHPT/SSH-account-enumeration-verification-script.svg) ![forks](https://img.shields.io/github/forks/NHPT/SSH-account-enumeration-verification-script.svg)
@@ -1299,8 +1294,6 @@
 - [https://github.com/procamora/OpenSSH-Username-Enumeration](https://github.com/procamora/OpenSSH-Username-Enumeration) :  ![starts](https://img.shields.io/github/stars/procamora/OpenSSH-Username-Enumeration.svg) ![forks](https://img.shields.io/github/forks/procamora/OpenSSH-Username-Enumeration.svg)
 
 - [https://github.com/trickster1103/-](https://github.com/trickster1103/-) :  ![starts](https://img.shields.io/github/stars/trickster1103/-.svg) ![forks](https://img.shields.io/github/forks/trickster1103/-.svg)
-
-- [https://github.com/cved-sources/cve-2018-15473](https://github.com/cved-sources/cve-2018-15473) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2018-15473.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2018-15473.svg)
 
 - [https://github.com/CaioCGH/EP4-redes](https://github.com/CaioCGH/EP4-redes) :  ![starts](https://img.shields.io/github/stars/CaioCGH/EP4-redes.svg) ![forks](https://img.shields.io/github/forks/CaioCGH/EP4-redes.svg)
 
@@ -1949,13 +1942,6 @@
 
 - [https://github.com/EmreOvunc/mySCADA-myPRO-7-Hardcoded-FTP-Username-and-Password](https://github.com/EmreOvunc/mySCADA-myPRO-7-Hardcoded-FTP-Username-and-Password) :  ![starts](https://img.shields.io/github/stars/EmreOvunc/mySCADA-myPRO-7-Hardcoded-FTP-Username-and-Password.svg) ![forks](https://img.shields.io/github/forks/EmreOvunc/mySCADA-myPRO-7-Hardcoded-FTP-Username-and-Password.svg)
 
-## CVE-2018-11236
- stdlib/canonicalize.c in the GNU C Library (aka glibc or libc6) 2.27 and earlier, when processing very long pathname arguments to the realpath function, could encounter an integer overflow on 32-bit architectures, leading to a stack-based buffer overflow and, potentially, arbitrary code execution.
-
-
-
-- [https://github.com/evilmiracle/CVE-2018-11236](https://github.com/evilmiracle/CVE-2018-11236) :  ![starts](https://img.shields.io/github/stars/evilmiracle/CVE-2018-11236.svg) ![forks](https://img.shields.io/github/forks/evilmiracle/CVE-2018-11236.svg)
-
 ## CVE-2018-11235
  In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 2.16.4, and 2.17.x before 2.17.1, remote code execution can occur. With a crafted .gitmodules file, a malicious project can execute an arbitrary script on a machine that runs &quot;git clone --recurse-submodules&quot; because submodule &quot;names&quot; are obtained from this file, and then appended to $GIT_DIR/modules, leading to directory traversal with &quot;../&quot; in a name. Finally, post-checkout hooks from a submodule are executed, bypassing the intended design in which hooks are not obtained from a remote server.
 
@@ -1995,9 +1981,9 @@
 
 - [https://github.com/Kiss-sh0t/CVE-2018-11235-poc](https://github.com/Kiss-sh0t/CVE-2018-11235-poc) :  ![starts](https://img.shields.io/github/stars/Kiss-sh0t/CVE-2018-11235-poc.svg) ![forks](https://img.shields.io/github/forks/Kiss-sh0t/CVE-2018-11235-poc.svg)
 
-- [https://github.com/cchang27/CVE-2018-11235-test](https://github.com/cchang27/CVE-2018-11235-test) :  ![starts](https://img.shields.io/github/stars/cchang27/CVE-2018-11235-test.svg) ![forks](https://img.shields.io/github/forks/cchang27/CVE-2018-11235-test.svg)
-
 - [https://github.com/MohamedTarekq/test-CVE-2018-11235](https://github.com/MohamedTarekq/test-CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/MohamedTarekq/test-CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/MohamedTarekq/test-CVE-2018-11235.svg)
+
+- [https://github.com/cchang27/CVE-2018-11235-test](https://github.com/cchang27/CVE-2018-11235-test) :  ![starts](https://img.shields.io/github/stars/cchang27/CVE-2018-11235-test.svg) ![forks](https://img.shields.io/github/forks/cchang27/CVE-2018-11235-test.svg)
 
 - [https://github.com/nthuong95/CVE-2018-11235](https://github.com/nthuong95/CVE-2018-11235) :  ![starts](https://img.shields.io/github/stars/nthuong95/CVE-2018-11235.svg) ![forks](https://img.shields.io/github/forks/nthuong95/CVE-2018-11235.svg)
 
@@ -2628,9 +2614,9 @@
 
 - [https://github.com/lisinan988/CVE-2018-8174-exp](https://github.com/lisinan988/CVE-2018-8174-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2018-8174-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2018-8174-exp.svg)
 
-- [https://github.com/delina1/CVE-2018-8174_EXP](https://github.com/delina1/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174_EXP.svg)
-
 - [https://github.com/ericisnotrealname/CVE-2018-8174_EXP](https://github.com/ericisnotrealname/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/ericisnotrealname/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/ericisnotrealname/CVE-2018-8174_EXP.svg)
+
+- [https://github.com/delina1/CVE-2018-8174_EXP](https://github.com/delina1/CVE-2018-8174_EXP) :  ![starts](https://img.shields.io/github/stars/delina1/CVE-2018-8174_EXP.svg) ![forks](https://img.shields.io/github/forks/delina1/CVE-2018-8174_EXP.svg)
 
 - [https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-) :  ![starts](https://img.shields.io/github/stars/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-.svg) ![forks](https://img.shields.io/github/forks/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-.svg)
 
@@ -2668,9 +2654,9 @@
 
 - [https://github.com/qiantu88/CVE-2018-8120](https://github.com/qiantu88/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/qiantu88/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/qiantu88/CVE-2018-8120.svg)
 
-- [https://github.com/wikiZ/cve-2018-8120](https://github.com/wikiZ/cve-2018-8120) :  ![starts](https://img.shields.io/github/stars/wikiZ/cve-2018-8120.svg) ![forks](https://img.shields.io/github/forks/wikiZ/cve-2018-8120.svg)
-
 - [https://github.com/Y0n0Y/cve-2018-8120-exp](https://github.com/Y0n0Y/cve-2018-8120-exp) :  ![starts](https://img.shields.io/github/stars/Y0n0Y/cve-2018-8120-exp.svg) ![forks](https://img.shields.io/github/forks/Y0n0Y/cve-2018-8120-exp.svg)
+
+- [https://github.com/wikiZ/cve-2018-8120](https://github.com/wikiZ/cve-2018-8120) :  ![starts](https://img.shields.io/github/stars/wikiZ/cve-2018-8120.svg) ![forks](https://img.shields.io/github/forks/wikiZ/cve-2018-8120.svg)
 
 ## CVE-2018-8115
  A remote code execution vulnerability exists when the Windows Host Compute Service Shim (hcsshim) library fails to properly validate input while importing a container image, aka &quot;Windows Host Compute Service Shim Remote Code Execution Vulnerability.&quot; This affects Windows Host Compute.
@@ -3174,6 +3160,10 @@
 
 - [https://github.com/AnKItdo/CVE_2018-6574](https://github.com/AnKItdo/CVE_2018-6574) :  ![starts](https://img.shields.io/github/stars/AnKItdo/CVE_2018-6574.svg) ![forks](https://img.shields.io/github/forks/AnKItdo/CVE_2018-6574.svg)
 
+- [https://github.com/VikasVarshney/CVE_2018_6574](https://github.com/VikasVarshney/CVE_2018_6574) :  ![starts](https://img.shields.io/github/stars/VikasVarshney/CVE_2018_6574.svg) ![forks](https://img.shields.io/github/forks/VikasVarshney/CVE_2018_6574.svg)
+
+- [https://github.com/ItsFadinG/CVE-2018-6574](https://github.com/ItsFadinG/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/ItsFadinG/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/ItsFadinG/CVE-2018-6574.svg)
+
 - [https://github.com/redirected/cve-2018-6574](https://github.com/redirected/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/redirected/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/redirected/cve-2018-6574.svg)
 
 - [https://github.com/InfoSecJack/CVE-2018-6574](https://github.com/InfoSecJack/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/InfoSecJack/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/InfoSecJack/CVE-2018-6574.svg)
@@ -3205,10 +3195,6 @@
 - [https://github.com/tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/tjcim/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/tjcim/cve-2018-6574.svg)
 
 - [https://github.com/Yealid/CVE-2018-6574](https://github.com/Yealid/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/Yealid/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/Yealid/CVE-2018-6574.svg)
-
-- [https://github.com/VikasVarshney/CVE_2018_6574](https://github.com/VikasVarshney/CVE_2018_6574) :  ![starts](https://img.shields.io/github/stars/VikasVarshney/CVE_2018_6574.svg) ![forks](https://img.shields.io/github/forks/VikasVarshney/CVE_2018_6574.svg)
-
-- [https://github.com/ItsFadinG/CVE-2018-6574](https://github.com/ItsFadinG/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/ItsFadinG/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/ItsFadinG/CVE-2018-6574.svg)
 
 - [https://github.com/coblax/CVE-2018-6574](https://github.com/coblax/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/coblax/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/coblax/CVE-2018-6574.svg)
 
@@ -3242,13 +3228,9 @@
 
 - [https://github.com/purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2) :  ![starts](https://img.shields.io/github/stars/purgedemo/CVE-2018-6574_2.svg) ![forks](https://img.shields.io/github/forks/purgedemo/CVE-2018-6574_2.svg)
 
-- [https://github.com/chr1sM/CVE-2018-6574](https://github.com/chr1sM/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/chr1sM/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/chr1sM/CVE-2018-6574.svg)
-
 - [https://github.com/jeyaseelans86/new-CVE-2018-6574](https://github.com/jeyaseelans86/new-CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/jeyaseelans86/new-CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/jeyaseelans86/new-CVE-2018-6574.svg)
 
-- [https://github.com/noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/noobTest1122/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/noobTest1122/CVE-2018-6574.svg)
-
-- [https://github.com/R3dAlch3mist/cve-2018-6574](https://github.com/R3dAlch3mist/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/R3dAlch3mist/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/R3dAlch3mist/cve-2018-6574.svg)
+- [https://github.com/chr1sM/CVE-2018-6574](https://github.com/chr1sM/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/chr1sM/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/chr1sM/CVE-2018-6574.svg)
 
 - [https://github.com/mhamed366/CVE-2018-6574](https://github.com/mhamed366/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/mhamed366/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/mhamed366/CVE-2018-6574.svg)
 
@@ -3257,6 +3239,10 @@
 - [https://github.com/imojne/CVE-2018-6574-POC](https://github.com/imojne/CVE-2018-6574-POC) :  ![starts](https://img.shields.io/github/stars/imojne/CVE-2018-6574-POC.svg) ![forks](https://img.shields.io/github/forks/imojne/CVE-2018-6574-POC.svg)
 
 - [https://github.com/yashanand/cve-2018-6574](https://github.com/yashanand/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/yashanand/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/yashanand/cve-2018-6574.svg)
+
+- [https://github.com/noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/noobTest1122/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/noobTest1122/CVE-2018-6574.svg)
+
+- [https://github.com/R3dAlch3mist/cve-2018-6574](https://github.com/R3dAlch3mist/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/R3dAlch3mist/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/R3dAlch3mist/cve-2018-6574.svg)
 
 - [https://github.com/No1zy/CVE-2018-6574-PoC](https://github.com/No1zy/CVE-2018-6574-PoC) :  ![starts](https://img.shields.io/github/stars/No1zy/CVE-2018-6574-PoC.svg) ![forks](https://img.shields.io/github/forks/No1zy/CVE-2018-6574-PoC.svg)
 
@@ -3333,9 +3319,9 @@
 
 - [https://github.com/JulienGadanho/cve-2018-6389-php-patcher](https://github.com/JulienGadanho/cve-2018-6389-php-patcher) :  ![starts](https://img.shields.io/github/stars/JulienGadanho/cve-2018-6389-php-patcher.svg) ![forks](https://img.shields.io/github/forks/JulienGadanho/cve-2018-6389-php-patcher.svg)
 
-- [https://github.com/m3ssap0/wordpress_cve-2018-6389](https://github.com/m3ssap0/wordpress_cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/m3ssap0/wordpress_cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/m3ssap0/wordpress_cve-2018-6389.svg)
-
 - [https://github.com/JavierOlmedo/wordpress-cve-2018-6389](https://github.com/JavierOlmedo/wordpress-cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/JavierOlmedo/wordpress-cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/JavierOlmedo/wordpress-cve-2018-6389.svg)
+
+- [https://github.com/m3ssap0/wordpress_cve-2018-6389](https://github.com/m3ssap0/wordpress_cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/m3ssap0/wordpress_cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/m3ssap0/wordpress_cve-2018-6389.svg)
 
 - [https://github.com/yolabingo/wordpress-fix-cve-2018-6389](https://github.com/yolabingo/wordpress-fix-cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/yolabingo/wordpress-fix-cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/yolabingo/wordpress-fix-cve-2018-6389.svg)
 
@@ -3553,9 +3539,9 @@
 
 - [https://github.com/ydl555/CVE-2018-4878](https://github.com/ydl555/CVE-2018-4878) :  ![starts](https://img.shields.io/github/stars/ydl555/CVE-2018-4878.svg) ![forks](https://img.shields.io/github/forks/ydl555/CVE-2018-4878.svg)
 
-- [https://github.com/Yable/CVE-2018-4878](https://github.com/Yable/CVE-2018-4878) :  ![starts](https://img.shields.io/github/stars/Yable/CVE-2018-4878.svg) ![forks](https://img.shields.io/github/forks/Yable/CVE-2018-4878.svg)
-
 - [https://github.com/lvyoshino/CVE-2018-4878](https://github.com/lvyoshino/CVE-2018-4878) :  ![starts](https://img.shields.io/github/stars/lvyoshino/CVE-2018-4878.svg) ![forks](https://img.shields.io/github/forks/lvyoshino/CVE-2018-4878.svg)
+
+- [https://github.com/Yable/CVE-2018-4878](https://github.com/Yable/CVE-2018-4878) :  ![starts](https://img.shields.io/github/stars/Yable/CVE-2018-4878.svg) ![forks](https://img.shields.io/github/forks/Yable/CVE-2018-4878.svg)
 
 ## CVE-2018-4441
  A memory corruption issue was addressed with improved memory handling. This issue affected versions prior to iOS 12.1.1, tvOS 12.1.1, watchOS 5.1.2, Safari 12.0.2, iTunes 12.9.2 for Windows, iCloud for Windows 7.9.
@@ -4231,11 +4217,11 @@
 
 - [https://github.com/shaoshore/CVE-2018-2628](https://github.com/shaoshore/CVE-2018-2628) :  ![starts](https://img.shields.io/github/stars/shaoshore/CVE-2018-2628.svg) ![forks](https://img.shields.io/github/forks/shaoshore/CVE-2018-2628.svg)
 
-- [https://github.com/wrysunny/cve-2018-2628](https://github.com/wrysunny/cve-2018-2628) :  ![starts](https://img.shields.io/github/stars/wrysunny/cve-2018-2628.svg) ![forks](https://img.shields.io/github/forks/wrysunny/cve-2018-2628.svg)
-
 - [https://github.com/Serendipity-Lucky/CVE-2018-2628](https://github.com/Serendipity-Lucky/CVE-2018-2628) :  ![starts](https://img.shields.io/github/stars/Serendipity-Lucky/CVE-2018-2628.svg) ![forks](https://img.shields.io/github/forks/Serendipity-Lucky/CVE-2018-2628.svg)
 
 - [https://github.com/seethen/cve-2018-2628](https://github.com/seethen/cve-2018-2628) :  ![starts](https://img.shields.io/github/stars/seethen/cve-2018-2628.svg) ![forks](https://img.shields.io/github/forks/seethen/cve-2018-2628.svg)
+
+- [https://github.com/wrysunny/cve-2018-2628](https://github.com/wrysunny/cve-2018-2628) :  ![starts](https://img.shields.io/github/stars/wrysunny/cve-2018-2628.svg) ![forks](https://img.shields.io/github/forks/wrysunny/cve-2018-2628.svg)
 
 - [https://github.com/stevenlinfeng/CVE-2018-2628](https://github.com/stevenlinfeng/CVE-2018-2628) :  ![starts](https://img.shields.io/github/stars/stevenlinfeng/CVE-2018-2628.svg) ![forks](https://img.shields.io/github/forks/stevenlinfeng/CVE-2018-2628.svg)
 
@@ -4281,9 +4267,9 @@
 
 - [https://github.com/SkyBlueEternal/CVE-2018-1335-EXP-GUI](https://github.com/SkyBlueEternal/CVE-2018-1335-EXP-GUI) :  ![starts](https://img.shields.io/github/stars/SkyBlueEternal/CVE-2018-1335-EXP-GUI.svg) ![forks](https://img.shields.io/github/forks/SkyBlueEternal/CVE-2018-1335-EXP-GUI.svg)
 
-- [https://github.com/siramk/CVE-2018-1335](https://github.com/siramk/CVE-2018-1335) :  ![starts](https://img.shields.io/github/stars/siramk/CVE-2018-1335.svg) ![forks](https://img.shields.io/github/forks/siramk/CVE-2018-1335.svg)
-
 - [https://github.com/canumay/cve-2018-1335](https://github.com/canumay/cve-2018-1335) :  ![starts](https://img.shields.io/github/stars/canumay/cve-2018-1335.svg) ![forks](https://img.shields.io/github/forks/canumay/cve-2018-1335.svg)
+
+- [https://github.com/siramk/CVE-2018-1335](https://github.com/siramk/CVE-2018-1335) :  ![starts](https://img.shields.io/github/stars/siramk/CVE-2018-1335.svg) ![forks](https://img.shields.io/github/forks/siramk/CVE-2018-1335.svg)
 
 - [https://github.com/N0b1e6/CVE-2018-1335-Python3](https://github.com/N0b1e6/CVE-2018-1335-Python3) :  ![starts](https://img.shields.io/github/stars/N0b1e6/CVE-2018-1335-Python3.svg) ![forks](https://img.shields.io/github/forks/N0b1e6/CVE-2018-1335-Python3.svg)
 
@@ -4437,13 +4423,6 @@
 
 - [https://github.com/aravinddathd/CVE-2018-1123](https://github.com/aravinddathd/CVE-2018-1123) :  ![starts](https://img.shields.io/github/stars/aravinddathd/CVE-2018-1123.svg) ![forks](https://img.shields.io/github/forks/aravinddathd/CVE-2018-1123.svg)
 
-## CVE-2018-1118
- Linux kernel vhost since version 4.8 does not properly initialize memory in messages passed between virtual guests and the host operating system in the vhost/vhost.c:vhost_new_msg() function. This can allow local privileged users to read some kernel memory contents when reading from the /dev/vhost-net device file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2018-1118](https://github.com/Live-Hack-CVE/CVE-2018-1118) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1118.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1118.svg)
-
 ## CVE-2018-1112
  glusterfs server before versions 3.10.12, 4.0.2 is vulnerable when using 'auth.allow' option which allows any unauthenticated gluster client to connect from any network to mount gluster storage volumes. NOTE: this vulnerability exists because of a CVE-2018-1088 regression.
 
@@ -4462,72 +4441,12 @@
 
 - [https://github.com/baldassarreFe/FEP3370-advanced-ethical-hacking](https://github.com/baldassarreFe/FEP3370-advanced-ethical-hacking) :  ![starts](https://img.shields.io/github/stars/baldassarreFe/FEP3370-advanced-ethical-hacking.svg) ![forks](https://img.shields.io/github/forks/baldassarreFe/FEP3370-advanced-ethical-hacking.svg)
 
-- [https://github.com/Live-Hack-CVE/CVE-2018-1111](https://github.com/Live-Hack-CVE/CVE-2018-1111) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1111.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1111.svg)
-
-## CVE-2018-1100
- zsh through version 5.4.2 is vulnerable to a stack-based buffer overflow in the utils.c:checkmailpath function. A local attacker could exploit this to execute arbitrary code in the context of another user.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2018-1100](https://github.com/Live-Hack-CVE/CVE-2018-1100) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1100.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1100.svg)
-
-## CVE-2018-1098
- A cross-site request forgery flaw was found in etcd 3.3.1 and earlier. An attacker can set up a website that tries to send a POST request to the etcd server and modify a key. Adding a key is done with PUT so it is theoretically safe (can't PUT from an HTML form or such) but POST allows creating in-order keys that an attacker can send.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2018-1098](https://github.com/Live-Hack-CVE/CVE-2018-1098) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1098.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1098.svg)
-
-## CVE-2018-1097
- A flaw was found in foreman before 1.16.1. The issue allows users with limited permissions for powering oVirt/RHV hosts on and off to discover the username and password used to connect to the compute resource.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2018-1097](https://github.com/Live-Hack-CVE/CVE-2018-1097) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1097.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1097.svg)
-
-## CVE-2018-1095
- The ext4_xattr_check_entries function in fs/ext4/xattr.c in the Linux kernel through 4.15.15 does not properly validate xattr sizes, which causes misinterpretation of a size as an error code, and consequently allows attackers to cause a denial of service (get_acl NULL pointer dereference and system crash) via a crafted ext4 image.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2018-1095](https://github.com/Live-Hack-CVE/CVE-2018-1095) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1095.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1095.svg)
-
-## CVE-2018-1094
- The ext4_fill_super function in fs/ext4/super.c in the Linux kernel through 4.15.15 does not always initialize the crc32c checksum driver, which allows attackers to cause a denial of service (ext4_xattr_inode_hash NULL pointer dereference and system crash) via a crafted ext4 image.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2018-1094](https://github.com/Live-Hack-CVE/CVE-2018-1094) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1094.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1094.svg)
-
 ## CVE-2018-1088
  A privilege escalation flaw was found in gluster 3.x snapshot scheduler. Any gluster client allowed to mount gluster volumes could also mount shared gluster storage volume and escalate privileges by scheduling malicious cronjob via symlink.
 
 
 
 - [https://github.com/MauroEldritch/GEVAUDAN](https://github.com/MauroEldritch/GEVAUDAN) :  ![starts](https://img.shields.io/github/stars/MauroEldritch/GEVAUDAN.svg) ![forks](https://img.shields.io/github/forks/MauroEldritch/GEVAUDAN.svg)
-
-- [https://github.com/Live-Hack-CVE/CVE-2018-1088](https://github.com/Live-Hack-CVE/CVE-2018-1088) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1088.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1088.svg)
-
-## CVE-2018-1075
- ovirt-engine up to version 4.2.3 is vulnerable to an unfiltered password when choosing manual db provisioning. When engine-setup was run and one chooses to provision the database manually or connect to a remote database, the password input was logged in cleartext during the verification step. Sharing the provisioning log might inadvertently leak database passwords.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2018-1075](https://github.com/Live-Hack-CVE/CVE-2018-1075) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1075.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1075.svg)
-
-## CVE-2018-1065
- The netfilter subsystem in the Linux kernel through 4.15.7 mishandles the case of a rule blob that contains a jump but lacks a user-defined chain, which allows local users to cause a denial of service (NULL pointer dereference) by leveraging the CAP_NET_RAW or CAP_NET_ADMIN capability, related to arpt_do_table in net/ipv4/netfilter/arp_tables.c, ipt_do_table in net/ipv4/netfilter/ip_tables.c, and ip6t_do_table in net/ipv6/netfilter/ip6_tables.c.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2018-1065](https://github.com/Live-Hack-CVE/CVE-2018-1065) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1065.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1065.svg)
-
-## CVE-2018-1047
- A flaw was found in Wildfly 9.x. A path traversal vulnerability through the org.wildfly.extension.undertow.deployment.ServletResourceManager.getResource method could lead to information disclosure of arbitrary local files.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2018-1047](https://github.com/Live-Hack-CVE/CVE-2018-1047) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-1047.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-1047.svg)
 
 ## CVE-2018-1042
  Moodle 3.x has Server Side Request Forgery in the filepicker.
@@ -4603,13 +4522,6 @@
 
 
 - [https://github.com/ntkernel0/CVE-2019-0708](https://github.com/ntkernel0/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ntkernel0/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ntkernel0/CVE-2019-0708.svg)
-
-## CVE-2018-0315
- A vulnerability in the authentication, authorization, and accounting (AAA) security services of Cisco IOS XE Software could allow an unauthenticated, remote attacker to execute arbitrary code on an affected device or cause an affected device to reload, resulting in a denial of service (DoS) condition. The vulnerability is due to incorrect memory operations that the affected software performs when the software parses a username during login authentication. An attacker could exploit this vulnerability by attempting to authenticate to an affected device. A successful exploit could allow the attacker to execute arbitrary code on the affected device or cause the affected device to reload, resulting in a DoS condition. This vulnerability affects Cisco devices that are running Cisco IOS XE Software Release Fuji 16.7.1 or Fuji 16.8.1 and are configured to use AAA for login authentication. Cisco Bug IDs: CSCvi25380.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2018-0315](https://github.com/Live-Hack-CVE/CVE-2018-0315) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2018-0315.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2018-0315.svg)
 
 ## CVE-2018-0296
  A vulnerability in the web interface of the Cisco Adaptive Security Appliance (ASA) could allow an unauthenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service (DoS) condition. It is also possible on certain software releases that the ASA will not reload, but an attacker could view sensitive system information without authentication by using directory traversal techniques. The vulnerability is due to lack of proper input validation of the HTTP URL. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. An exploit could allow the attacker to cause a DoS condition or unauthenticated disclosure of information. This vulnerability applies to IPv4 and IPv6 HTTP traffic. This vulnerability affects Cisco ASA Software and Cisco Firepower Threat Defense (FTD) Software that is running on the following Cisco products: 3000 Series Industrial Security Appliance (ISA), ASA 1000V Cloud Firewall, ASA 5500 Series Adaptive Security Appliances, ASA 5500-X Series Next-Generation Firewalls, ASA Services Module for Cisco Catalyst 6500 Series Switches and Cisco 7600 Series Routers, Adaptive Security Virtual Appliance (ASAv), Firepower 2100 Series Security Appliance, Firepower 4100 Series Security Appliance, Firepower 9300 ASA Security Module, FTD Virtual (FTDv). Cisco Bug IDs: CSCvi16029.
