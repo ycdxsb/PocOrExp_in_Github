@@ -1,10 +1,3 @@
-## CVE-2001-1583
- lpd daemon (in.lpd) in Solaris 8 and earlier allows remote attackers to execute arbitrary commands via a job request with a crafted control file that is not properly handled when lpd invokes a mail program. NOTE: this might be the same vulnerability as CVE-2000-1220.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2001-1583](https://github.com/Live-Hack-CVE/CVE-2001-1583) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2001-1583.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2001-1583.svg)
-
 ## CVE-2001-1442
  Buffer overflow in innfeed for ISC InterNetNews (INN) before 2.3.0 allows local users in the &quot;news&quot; group to gain privileges via a long -c command line argument.
 
