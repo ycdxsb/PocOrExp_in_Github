@@ -3,21 +3,7 @@
 
 
 
-- [https://github.com/Live-Hack-CVE/CVE-2006-20001](https://github.com/Live-Hack-CVE/CVE-2006-20001) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2006-20001.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2006-20001.svg)
-
-## CVE-2006-7204
- The imap_body function in PHP before 4.4.4 does not implement safemode or open_basedir checks, which allows local users to read arbitrary files or list arbitrary directory contents.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2006-7204](https://github.com/Live-Hack-CVE/CVE-2006-7204) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2006-7204.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2006-7204.svg)
-
-## CVE-2006-7142
- The centralized management feature for Utimaco Safeguard stores hard-coded cryptographic keys in executable programs for encrypted configuration files, which allows attackers to recover the keys from the configuration files and decrypt the disk drive.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2006-7142](https://github.com/Live-Hack-CVE/CVE-2006-7142) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2006-7142.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2006-7142.svg)
+- [https://github.com/Saksham2002/CVE-2006-20001](https://github.com/Saksham2002/CVE-2006-20001) :  ![starts](https://img.shields.io/github/stars/Saksham2002/CVE-2006-20001.svg) ![forks](https://img.shields.io/github/forks/Saksham2002/CVE-2006-20001.svg)
 
 ## CVE-2006-6184
  Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
@@ -27,13 +13,6 @@
 - [https://github.com/shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184) :  ![starts](https://img.shields.io/github/stars/shauntdergrigorian/cve-2006-6184.svg) ![forks](https://img.shields.io/github/forks/shauntdergrigorian/cve-2006-6184.svg)
 
 - [https://github.com/b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184) :  ![starts](https://img.shields.io/github/stars/b03902043/CVE-2006-6184.svg) ![forks](https://img.shields.io/github/forks/b03902043/CVE-2006-6184.svg)
-
-## CVE-2006-5752
- Cross-site scripting (XSS) vulnerability in mod_status.c in the mod_status module in Apache HTTP Server (httpd), when ExtendedStatus is enabled and a public server-status page is used, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors involving charsets with browsers that perform &quot;charset detection&quot; when the content-type is not specified.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2006-5752](https://github.com/Live-Hack-CVE/CVE-2006-5752) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2006-5752.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2006-5752.svg)
 
 ## CVE-2006-4814
  The mincore function in the Linux kernel before 2.4.33.6 does not properly lock access to user space, which has unspecified impact and attack vectors, possibly related to a deadlock.
@@ -48,13 +27,6 @@
 
 
 - [https://github.com/Mario1234/js-driveby-download-CVE-2006-4777](https://github.com/Mario1234/js-driveby-download-CVE-2006-4777) :  ![starts](https://img.shields.io/github/stars/Mario1234/js-driveby-download-CVE-2006-4777.svg) ![forks](https://img.shields.io/github/forks/Mario1234/js-driveby-download-CVE-2006-4777.svg)
-
-## CVE-2006-3918
- http_protocol.c in (1) IBM HTTP Server 6.0 before 6.0.2.13 and 6.1 before 6.1.0.1, and (2) Apache HTTP Server 1.3 before 1.3.35, 2.0 before 2.0.58, and 2.2 before 2.2.2, does not sanitize the Expect header from an HTTP request when it is reflected back in an error message, which might allow cross-site scripting (XSS) style attacks using web client components that can send arbitrary headers in requests, as demonstrated using a Flash SWF file.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2006-3918](https://github.com/Live-Hack-CVE/CVE-2006-3918) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2006-3918.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2006-3918.svg)
 
 ## CVE-2006-3747
  Off-by-one error in the ldap scheme handling in the Rewrite module (mod_rewrite) in Apache 1.3 from 1.3.28, 2.0.46 and other versions before 2.0.59, and 2.2, when RewriteEngine is enabled, allows remote attackers to cause a denial of service (application crash) and possibly execute arbitrary code via crafted URLs that are not properly handled using certain rewrite rules.
@@ -88,20 +60,6 @@
 - [https://github.com/Adel-kaka-dz/CVE-2006-3392](https://github.com/Adel-kaka-dz/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/Adel-kaka-dz/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/Adel-kaka-dz/CVE-2006-3392.svg)
 
 - [https://github.com/kernel-cyber/CVE-2006-3392](https://github.com/kernel-cyber/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/kernel-cyber/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/kernel-cyber/CVE-2006-3392.svg)
-
-## CVE-2006-3360
- Directory traversal vulnerability in index.php in phpSysInfo 2.5.1 allows remote attackers to determine the existence of arbitrary files via a .. (dot dot) sequence and a trailing null (%00) byte in the lng parameter, which will display a different error message if the file exists.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2006-3360](https://github.com/Live-Hack-CVE/CVE-2006-3360) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2006-3360.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2006-3360.svg)
-
-## CVE-2006-3240
- Cross-site scripting (XSS) vulnerability in classes/ui.class.php in dotProject 2.0.3 and earlier allows remote attackers to inject arbitrary web script or HTML via the login parameter.
-
-
-
-- [https://github.com/Live-Hack-CVE/CVE-2006-3240](https://github.com/Live-Hack-CVE/CVE-2006-3240) :  ![starts](https://img.shields.io/github/stars/Live-Hack-CVE/CVE-2006-3240.svg) ![forks](https://img.shields.io/github/forks/Live-Hack-CVE/CVE-2006-3240.svg)
 
 ## CVE-2006-1236
  Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
