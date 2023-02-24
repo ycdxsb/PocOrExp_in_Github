@@ -38950,13 +38950,13 @@
 
 - [https://github.com/proclnas/ShellShock-CGI-Scan](https://github.com/proclnas/ShellShock-CGI-Scan) :  ![starts](https://img.shields.io/github/stars/proclnas/ShellShock-CGI-Scan.svg) ![forks](https://img.shields.io/github/forks/proclnas/ShellShock-CGI-Scan.svg)
 
-- [https://github.com/trhacknon/exploit-CVE-2014-6271](https://github.com/trhacknon/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/trhacknon/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/trhacknon/exploit-CVE-2014-6271.svg)
-
 - [https://github.com/Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2014-6271.svg)
 
-- [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
+- [https://github.com/trhacknon/exploit-CVE-2014-6271](https://github.com/trhacknon/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/trhacknon/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/trhacknon/exploit-CVE-2014-6271.svg)
 
 - [https://github.com/ryeyao/CVE-2014-6271_Test](https://github.com/ryeyao/CVE-2014-6271_Test) :  ![starts](https://img.shields.io/github/stars/ryeyao/CVE-2014-6271_Test.svg) ![forks](https://img.shields.io/github/forks/ryeyao/CVE-2014-6271_Test.svg)
+
+- [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
 
 - [https://github.com/trhacknon/CVE-2014-6271](https://github.com/trhacknon/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/trhacknon/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/trhacknon/CVE-2014-6271.svg)
 
