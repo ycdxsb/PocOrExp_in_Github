@@ -1260,9 +1260,9 @@
 
 - [https://github.com/likescam/CVE-2018-0802_CVE-2017-11882](https://github.com/likescam/CVE-2018-0802_CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2018-0802_CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2018-0802_CVE-2017-11882.svg)
 
-- [https://github.com/Retr0-code/SignHere](https://github.com/Retr0-code/SignHere) :  ![starts](https://img.shields.io/github/stars/Retr0-code/SignHere.svg) ![forks](https://img.shields.io/github/forks/Retr0-code/SignHere.svg)
-
 - [https://github.com/grandDancer/Chrome-CVE-PoC](https://github.com/grandDancer/Chrome-CVE-PoC) :  ![starts](https://img.shields.io/github/stars/grandDancer/Chrome-CVE-PoC.svg) ![forks](https://img.shields.io/github/forks/grandDancer/Chrome-CVE-PoC.svg)
+
+- [https://github.com/Retr0-code/SignHere](https://github.com/Retr0-code/SignHere) :  ![starts](https://img.shields.io/github/stars/Retr0-code/SignHere.svg) ![forks](https://img.shields.io/github/forks/Retr0-code/SignHere.svg)
 
 - [https://github.com/littlebin404/CVE-2017-11882](https://github.com/littlebin404/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/littlebin404/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/littlebin404/CVE-2017-11882.svg)
 
@@ -1290,9 +1290,9 @@
 
 - [https://github.com/tzwlhack/CVE-2017-11882](https://github.com/tzwlhack/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/tzwlhack/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/tzwlhack/CVE-2017-11882.svg)
 
-- [https://github.com/j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/j0lama/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/j0lama/CVE-2017-11882.svg)
-
 - [https://github.com/chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/chanbin/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/chanbin/CVE-2017-11882.svg)
+
+- [https://github.com/j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/j0lama/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/j0lama/CVE-2017-11882.svg)
 
 - [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
 
@@ -2334,6 +2334,13 @@
 
 - [https://github.com/ww9210/cve-2017-7374](https://github.com/ww9210/cve-2017-7374) :  ![starts](https://img.shields.io/github/stars/ww9210/cve-2017-7374.svg) ![forks](https://img.shields.io/github/forks/ww9210/cve-2017-7374.svg)
 
+## CVE-2017-7358
+ In LightDM through 1.22.0, a directory traversal issue in debian/guest-account.sh allows local attackers to own arbitrary directory path locations and escalate privileges to root when the guest user logs out.
+
+
+
+- [https://github.com/JonPichel/CVE-2017-7358](https://github.com/JonPichel/CVE-2017-7358) :  ![starts](https://img.shields.io/github/stars/JonPichel/CVE-2017-7358.svg) ![forks](https://img.shields.io/github/forks/JonPichel/CVE-2017-7358.svg)
+
 ## CVE-2017-7308
  The packet_set_ring function in net/packet/af_packet.c in the Linux kernel through 4.10.6 does not properly validate certain block-size data, which allows local users to cause a denial of service (integer signedness error and out-of-bounds write), or gain privileges (if the CAP_NET_RAW capability is held), via crafted system calls.
 
@@ -2763,9 +2770,9 @@
 
 - [https://github.com/initconf/CVE-2017-5638_struts](https://github.com/initconf/CVE-2017-5638_struts) :  ![starts](https://img.shields.io/github/stars/initconf/CVE-2017-5638_struts.svg) ![forks](https://img.shields.io/github/forks/initconf/CVE-2017-5638_struts.svg)
 
-- [https://github.com/0x00-0x00/CVE-2017-5638](https://github.com/0x00-0x00/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2017-5638.svg)
-
 - [https://github.com/grandDancer/Chrome-CVE-PoC](https://github.com/grandDancer/Chrome-CVE-PoC) :  ![starts](https://img.shields.io/github/stars/grandDancer/Chrome-CVE-PoC.svg) ![forks](https://img.shields.io/github/forks/grandDancer/Chrome-CVE-PoC.svg)
+
+- [https://github.com/0x00-0x00/CVE-2017-5638](https://github.com/0x00-0x00/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2017-5638.svg)
 
 - [https://github.com/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-](https://github.com/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-) :  ![starts](https://img.shields.io/github/stars/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-.svg) ![forks](https://img.shields.io/github/forks/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-.svg)
 
@@ -2841,13 +2848,13 @@
 
 - [https://github.com/readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/readloud/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/readloud/CVE-2017-5638.svg)
 
+- [https://github.com/jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2017-5638.svg)
+
 - [https://github.com/jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jrrombaldo/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jrrombaldo/CVE-2017-5638.svg)
 
 - [https://github.com/bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/bhagdave/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bhagdave/CVE-2017-5638.svg)
 
 - [https://github.com/Tankirat/CVE-2017-5638](https://github.com/Tankirat/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Tankirat/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Tankirat/CVE-2017-5638.svg)
-
-- [https://github.com/jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2017-5638.svg)
 
 - [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
 
@@ -2859,9 +2866,9 @@
 
 - [https://github.com/cafnet/apache-struts-v2-CVE-2017-5638](https://github.com/cafnet/apache-struts-v2-CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/cafnet/apache-struts-v2-CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/cafnet/apache-struts-v2-CVE-2017-5638.svg)
 
-- [https://github.com/invisiblethreat/strutser](https://github.com/invisiblethreat/strutser) :  ![starts](https://img.shields.io/github/stars/invisiblethreat/strutser.svg) ![forks](https://img.shields.io/github/forks/invisiblethreat/strutser.svg)
-
 - [https://github.com/sonatype-workshops/struts2-rce](https://github.com/sonatype-workshops/struts2-rce) :  ![starts](https://img.shields.io/github/stars/sonatype-workshops/struts2-rce.svg) ![forks](https://img.shields.io/github/forks/sonatype-workshops/struts2-rce.svg)
+
+- [https://github.com/invisiblethreat/strutser](https://github.com/invisiblethreat/strutser) :  ![starts](https://img.shields.io/github/stars/invisiblethreat/strutser.svg) ![forks](https://img.shields.io/github/forks/invisiblethreat/strutser.svg)
 
 - [https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638](https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/sjitech/test_struts2_vulnerability_CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/sjitech/test_struts2_vulnerability_CVE-2017-5638.svg)
 
