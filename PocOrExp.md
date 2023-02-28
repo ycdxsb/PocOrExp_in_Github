@@ -38236,6 +38236,8 @@
 
 - [https://github.com/android-rooting-tools/libpingpong_exploit](https://github.com/android-rooting-tools/libpingpong_exploit) :  ![starts](https://img.shields.io/github/stars/android-rooting-tools/libpingpong_exploit.svg) ![forks](https://img.shields.io/github/forks/android-rooting-tools/libpingpong_exploit.svg)
 
+- [https://github.com/idhyt/androotzf](https://github.com/idhyt/androotzf) :  ![starts](https://img.shields.io/github/stars/idhyt/androotzf.svg) ![forks](https://img.shields.io/github/forks/idhyt/androotzf.svg)
+
 - [https://github.com/a7vinx/CVE-2015-3636](https://github.com/a7vinx/CVE-2015-3636) :  ![starts](https://img.shields.io/github/stars/a7vinx/CVE-2015-3636.svg) ![forks](https://img.shields.io/github/forks/a7vinx/CVE-2015-3636.svg)
 
 - [https://github.com/askk/libping_unhash_exploit_POC](https://github.com/askk/libping_unhash_exploit_POC) :  ![starts](https://img.shields.io/github/stars/askk/libping_unhash_exploit_POC.svg) ![forks](https://img.shields.io/github/forks/askk/libping_unhash_exploit_POC.svg)
@@ -38436,6 +38438,8 @@
 
 
 - [https://github.com/dosomder/iovyroot](https://github.com/dosomder/iovyroot) :  ![starts](https://img.shields.io/github/stars/dosomder/iovyroot.svg) ![forks](https://img.shields.io/github/forks/dosomder/iovyroot.svg)
+
+- [https://github.com/idhyt/androotzf](https://github.com/idhyt/androotzf) :  ![starts](https://img.shields.io/github/stars/idhyt/androotzf.svg) ![forks](https://img.shields.io/github/forks/idhyt/androotzf.svg)
 
 - [https://github.com/panyu6325/CVE-2015-1805](https://github.com/panyu6325/CVE-2015-1805) :  ![starts](https://img.shields.io/github/stars/panyu6325/CVE-2015-1805.svg) ![forks](https://img.shields.io/github/forks/panyu6325/CVE-2015-1805.svg)
 
@@ -38697,9 +38701,9 @@
 
 - [https://github.com/sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/sUbc0ol/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/sUbc0ol/CVE-2015-0235.svg)
 
-- [https://github.com/tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/tobyzxj/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/tobyzxj/CVE-2015-0235.svg)
-
 - [https://github.com/nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE_2015_0235.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE_2015_0235.svg)
+
+- [https://github.com/tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/tobyzxj/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/tobyzxj/CVE-2015-0235.svg)
 
 - [https://github.com/alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc) :  ![starts](https://img.shields.io/github/stars/alanmeyer/CVE-glibc.svg) ![forks](https://img.shields.io/github/forks/alanmeyer/CVE-glibc.svg)
 
