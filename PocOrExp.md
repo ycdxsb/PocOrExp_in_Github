@@ -36205,11 +36205,11 @@
 
 - [https://github.com/eb613819/CTF_CVE-2016-10033](https://github.com/eb613819/CTF_CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/eb613819/CTF_CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/eb613819/CTF_CVE-2016-10033.svg)
 
-- [https://github.com/zeeshanbhattined/exploit-CVE-2016-10033](https://github.com/zeeshanbhattined/exploit-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/zeeshanbhattined/exploit-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/zeeshanbhattined/exploit-CVE-2016-10033.svg)
-
 - [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
 
 - [https://github.com/CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/CAOlvchonger/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/CAOlvchonger/CVE-2016-10033.svg)
+
+- [https://github.com/zeeshanbhattined/exploit-CVE-2016-10033](https://github.com/zeeshanbhattined/exploit-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/zeeshanbhattined/exploit-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/zeeshanbhattined/exploit-CVE-2016-10033.svg)
 
 - [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
 
@@ -36347,9 +36347,9 @@
 
 - [https://github.com/LakshmiDesai/CVE-2016-8655](https://github.com/LakshmiDesai/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/LakshmiDesai/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/LakshmiDesai/CVE-2016-8655.svg)
 
-- [https://github.com/agkunkle/chocobo](https://github.com/agkunkle/chocobo) :  ![starts](https://img.shields.io/github/stars/agkunkle/chocobo.svg) ![forks](https://img.shields.io/github/forks/agkunkle/chocobo.svg)
-
 - [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) :  ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
+
+- [https://github.com/agkunkle/chocobo](https://github.com/agkunkle/chocobo) :  ![starts](https://img.shields.io/github/stars/agkunkle/chocobo.svg) ![forks](https://img.shields.io/github/forks/agkunkle/chocobo.svg)
 
 - [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
 
@@ -36774,6 +36774,8 @@
 
 - [https://github.com/Brucetg/DirtyCow-EXP](https://github.com/Brucetg/DirtyCow-EXP) :  ![starts](https://img.shields.io/github/stars/Brucetg/DirtyCow-EXP.svg) ![forks](https://img.shields.io/github/forks/Brucetg/DirtyCow-EXP.svg)
 
+- [https://github.com/idhyt/androotzf](https://github.com/idhyt/androotzf) :  ![starts](https://img.shields.io/github/stars/idhyt/androotzf.svg) ![forks](https://img.shields.io/github/forks/idhyt/androotzf.svg)
+
 - [https://github.com/DavidBuchanan314/cowroot](https://github.com/DavidBuchanan314/cowroot) :  ![starts](https://img.shields.io/github/stars/DavidBuchanan314/cowroot.svg) ![forks](https://img.shields.io/github/forks/DavidBuchanan314/cowroot.svg)
 
 - [https://github.com/aishee/scan-dirtycow](https://github.com/aishee/scan-dirtycow) :  ![starts](https://img.shields.io/github/stars/aishee/scan-dirtycow.svg) ![forks](https://img.shields.io/github/forks/aishee/scan-dirtycow.svg)
@@ -36820,13 +36822,13 @@
 
 - [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
 
+- [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
+
 - [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
 
 - [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
 
 - [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
-
-- [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
 
 - [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
 
@@ -36866,13 +36868,6 @@
 
 - [https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg)
 
-## CVE-2016-5159
- Multiple integer overflows in OpenJPEG, as used in PDFium in Google Chrome before 53.0.2785.89 on Windows and OS X and before 53.0.2785.92 on Linux, allow remote attackers to cause a denial of service (heap-based buffer overflow) or possibly have unspecified other impact via crafted JPEG 2000 data that is mishandled during opj_aligned_malloc calls in dwt.c and t1.c.
-
-
-
-- [https://github.com/idhyt/androotzf](https://github.com/idhyt/androotzf) :  ![starts](https://img.shields.io/github/stars/idhyt/androotzf.svg) ![forks](https://img.shields.io/github/forks/idhyt/androotzf.svg)
-
 ## CVE-2016-5063
  The RSCD agent in BMC Server Automation before 8.6 SP1 Patch 2 and 8.7 before Patch 3 on Windows might allow remote attackers to bypass authorization checks and make an RPC call via unspecified vectors.
 
@@ -36903,9 +36898,9 @@
 
 
 
-- [https://github.com/gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/gitcollect/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/gitcollect/CVE-2016-4971.svg)
-
 - [https://github.com/mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2016-4971.svg)
+
+- [https://github.com/gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/gitcollect/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/gitcollect/CVE-2016-4971.svg)
 
 - [https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-](https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-) :  ![starts](https://img.shields.io/github/stars/dinidhu96/IT19013756_-CVE-2016-4971-.svg) ![forks](https://img.shields.io/github/forks/dinidhu96/IT19013756_-CVE-2016-4971-.svg)
 
@@ -37215,9 +37210,9 @@
 
 - [https://github.com/cyberaguiar/CVE-2016-3088](https://github.com/cyberaguiar/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/cyberaguiar/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/cyberaguiar/CVE-2016-3088.svg)
 
-- [https://github.com/vonderchild/CVE-2016-3088](https://github.com/vonderchild/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/vonderchild/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/vonderchild/CVE-2016-3088.svg)
-
 - [https://github.com/pudiding/CVE-2016-3088](https://github.com/pudiding/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/pudiding/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/pudiding/CVE-2016-3088.svg)
+
+- [https://github.com/vonderchild/CVE-2016-3088](https://github.com/vonderchild/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/vonderchild/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/vonderchild/CVE-2016-3088.svg)
 
 ## CVE-2016-2783
  Avaya Fabric Connect Virtual Services Platform (VSP) Operating System Software (VOSS) before 4.2.3.0 and 5.x before 5.0.1.0 does not properly handle VLAN and I-SIS indexes, which allows remote attackers to obtain unauthorized access via crafted Ethernet frames.
@@ -37298,13 +37293,6 @@
 - [https://github.com/vah13/SAP_exploit](https://github.com/vah13/SAP_exploit) :  ![starts](https://img.shields.io/github/stars/vah13/SAP_exploit.svg) ![forks](https://img.shields.io/github/forks/vah13/SAP_exploit.svg)
 
 - [https://github.com/murataydemir/CVE-2016-2386](https://github.com/murataydemir/CVE-2016-2386) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2016-2386.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2016-2386.svg)
-
-## CVE-2016-2338
- An exploitable heap overflow vulnerability exists in the Psych::Emitter start_document function of Ruby. In Psych::Emitter start_document function heap buffer &quot;head&quot; allocation is made based on tags array length. Specially constructed object passed as element of tags array can increase this array size after mentioned allocation and cause heap overflow.
-
-
-
-- [https://github.com/SpiralBL0CK/CVE-2016-2338-nday](https://github.com/SpiralBL0CK/CVE-2016-2338-nday) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/CVE-2016-2338-nday.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/CVE-2016-2338-nday.svg)
 
 ## CVE-2016-2334
  Heap-based buffer overflow in the NArchive::NHfs::CHandler::ExtractZlibFile method in 7zip before 16.00 and p7zip allows remote attackers to execute arbitrary code via a crafted HFS+ image.
@@ -37599,9 +37587,9 @@
 
 - [https://github.com/googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728) :  ![starts](https://img.shields.io/github/stars/googleweb/CVE-2016-0728.svg) ![forks](https://img.shields.io/github/forks/googleweb/CVE-2016-0728.svg)
 
-- [https://github.com/sidrk01/cve-2016-0728](https://github.com/sidrk01/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/sidrk01/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/sidrk01/cve-2016-0728.svg)
-
 - [https://github.com/idl3r/cve-2016-0728](https://github.com/idl3r/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/idl3r/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/idl3r/cve-2016-0728.svg)
+
+- [https://github.com/sidrk01/cve-2016-0728](https://github.com/sidrk01/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/sidrk01/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/sidrk01/cve-2016-0728.svg)
 
 - [https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit](https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit) :  ![starts](https://img.shields.io/github/stars/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit.svg) ![forks](https://img.shields.io/github/forks/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit.svg)
 
