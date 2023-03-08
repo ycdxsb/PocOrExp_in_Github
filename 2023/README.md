@@ -106,6 +106,12 @@
 
 - [https://github.com/Vulnmachines/joomla_CVE-2023-23752](https://github.com/Vulnmachines/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/joomla_CVE-2023-23752.svg)
 
+- [https://github.com/HaxorSec1945/CVE2023-23752](https://github.com/HaxorSec1945/CVE2023-23752) :  ![starts](https://img.shields.io/github/stars/HaxorSec1945/CVE2023-23752.svg) ![forks](https://img.shields.io/github/forks/HaxorSec1945/CVE2023-23752.svg)
+
+- [https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752](https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/haxor1337x/Mass-Checker-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/haxor1337x/Mass-Checker-CVE-2023-23752.svg)
+
+- [https://github.com/adriyansyah-mf/CVE-2023-23752](https://github.com/adriyansyah-mf/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/adriyansyah-mf/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/adriyansyah-mf/CVE-2023-23752.svg)
+
 ## CVE-2023-23488
  The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an unauthenticated SQL injection vulnerability in the 'code' parameter of the '/pmpro/v1/order' REST route.
 
@@ -252,6 +258,15 @@
 
 
 - [https://github.com/gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2023-21739.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2023-21739.svg)
+
+## CVE-2023-21716
+ Microsoft Word Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Xnuvers007/CVE-2023-21716](https://github.com/Xnuvers007/CVE-2023-21716) :  ![starts](https://img.shields.io/github/stars/Xnuvers007/CVE-2023-21716.svg) ![forks](https://img.shields.io/github/forks/Xnuvers007/CVE-2023-21716.svg)
+
+- [https://github.com/FeatherStark/CVE-2023-21716](https://github.com/FeatherStark/CVE-2023-21716) :  ![starts](https://img.shields.io/github/stars/FeatherStark/CVE-2023-21716.svg) ![forks](https://img.shields.io/github/forks/FeatherStark/CVE-2023-21716.svg)
 
 ## CVE-2023-21608
  Adobe Acrobat Reader versions 22.003.20282 (and earlier), 22.003.20281 (and earlier) and 20.005.30418 (and earlier) are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
