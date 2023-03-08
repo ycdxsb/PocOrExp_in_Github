@@ -234,13 +234,6 @@
 
 - [https://github.com/feliam/CVE-2013-2729](https://github.com/feliam/CVE-2013-2729) :  ![starts](https://img.shields.io/github/stars/feliam/CVE-2013-2729.svg) ![forks](https://img.shields.io/github/forks/feliam/CVE-2013-2729.svg)
 
-## CVE-2013-2597
- Stack-based buffer overflow in the acdb_ioctl function in audio_acdb.c in the acdb audio driver for the Linux kernel 2.6.x and 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allows attackers to gain privileges via an application that leverages /dev/msm_acdb access and provides a large size value in an ioctl argument.
-
-
-
-- [https://github.com/fi01/libmsm_acdb_exploit](https://github.com/fi01/libmsm_acdb_exploit) :  ![starts](https://img.shields.io/github/stars/fi01/libmsm_acdb_exploit.svg) ![forks](https://img.shields.io/github/forks/fi01/libmsm_acdb_exploit.svg)
-
 ## CVE-2013-2596
  Integer overflow in the fb_mmap function in drivers/video/fbmem.c in the Linux kernel before 3.8.9, as used in a certain Motorola build of Android 4.1.2 and other products, allows local users to create a read-write memory mapping for the entirety of kernel memory, and consequently gain privileges, via crafted /dev/graphics/fb0 mmap2 system calls, as demonstrated by the Motochopper pwn program.
 
