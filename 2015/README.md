@@ -391,6 +391,10 @@
 
 - [https://github.com/hmlio/vaas-cve-2015-5477](https://github.com/hmlio/vaas-cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/hmlio/vaas-cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/hmlio/vaas-cve-2015-5477.svg)
 
+- [https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit](https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit) :  ![starts](https://img.shields.io/github/stars/xycloops123/TKEY-remote-DoS-vulnerability-exploit.svg) ![forks](https://img.shields.io/github/forks/xycloops123/TKEY-remote-DoS-vulnerability-exploit.svg)
+
+- [https://github.com/likescam/ShareDoc_cve-2015-5477](https://github.com/likescam/ShareDoc_cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/likescam/ShareDoc_cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/likescam/ShareDoc_cve-2015-5477.svg)
+
 ## CVE-2015-5383
  Roundcube Webmail 1.1.x before 1.1.2 allows remote attackers to obtain sensitive information by reading files in the (1) config, (2) temp, or (3) logs directory.
 
@@ -602,7 +606,7 @@
 
 - [https://github.com/jptr218/proftpd_bypass](https://github.com/jptr218/proftpd_bypass) :  ![starts](https://img.shields.io/github/stars/jptr218/proftpd_bypass.svg) ![forks](https://img.shields.io/github/forks/jptr218/proftpd_bypass.svg)
 
-- [https://github.com/m4udSec/ProFTPD_CVE-2015-3306](https://github.com/m4udSec/ProFTPD_CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/m4udSec/ProFTPD_CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/m4udSec/ProFTPD_CVE-2015-3306.svg)
+- [https://github.com/0xm4ud/ProFTPD_CVE-2015-3306](https://github.com/0xm4ud/ProFTPD_CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/0xm4ud/ProFTPD_CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/0xm4ud/ProFTPD_CVE-2015-3306.svg)
 
 - [https://github.com/cved-sources/cve-2015-3306](https://github.com/cved-sources/cve-2015-3306) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-3306.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-3306.svg)
 
