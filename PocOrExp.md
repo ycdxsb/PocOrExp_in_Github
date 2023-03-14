@@ -39520,10 +39520,6 @@
 
 - [https://github.com/chef-boneyard/bash-shellshock](https://github.com/chef-boneyard/bash-shellshock) :  ![starts](https://img.shields.io/github/stars/chef-boneyard/bash-shellshock.svg) ![forks](https://img.shields.io/github/forks/chef-boneyard/bash-shellshock.svg)
 
-- [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) :  ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
-
-- [https://github.com/prince-stark/SHELL-SCHOCK](https://github.com/prince-stark/SHELL-SCHOCK) :  ![starts](https://img.shields.io/github/stars/prince-stark/SHELL-SCHOCK.svg) ![forks](https://img.shields.io/github/forks/prince-stark/SHELL-SCHOCK.svg)
-
 - [https://github.com/gina-alaska/bash-cve-2014-7169-cookbook](https://github.com/gina-alaska/bash-cve-2014-7169-cookbook) :  ![starts](https://img.shields.io/github/stars/gina-alaska/bash-cve-2014-7169-cookbook.svg) ![forks](https://img.shields.io/github/forks/gina-alaska/bash-cve-2014-7169-cookbook.svg)
 
 ## CVE-2014-6598
@@ -40316,6 +40312,8 @@
 - [https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS) :  ![starts](https://img.shields.io/github/stars/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg) ![forks](https://img.shields.io/github/forks/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg)
 
 - [https://github.com/iwaffles/heartbleed-test.crx](https://github.com/iwaffles/heartbleed-test.crx) :  ![starts](https://img.shields.io/github/stars/iwaffles/heartbleed-test.crx.svg) ![forks](https://img.shields.io/github/forks/iwaffles/heartbleed-test.crx.svg)
+
+- [https://github.com/froyo75/Heartbleed_Dockerfile_with_Nginx](https://github.com/froyo75/Heartbleed_Dockerfile_with_Nginx) :  ![starts](https://img.shields.io/github/stars/froyo75/Heartbleed_Dockerfile_with_Nginx.svg) ![forks](https://img.shields.io/github/forks/froyo75/Heartbleed_Dockerfile_with_Nginx.svg)
 
 - [https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed](https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed) :  ![starts](https://img.shields.io/github/stars/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg)
 
