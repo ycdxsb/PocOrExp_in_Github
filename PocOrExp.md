@@ -179,6 +179,13 @@
 
 - [https://github.com/Timorlover/CVE-2023-23333](https://github.com/Timorlover/CVE-2023-23333) :  ![starts](https://img.shields.io/github/stars/Timorlover/CVE-2023-23333.svg) ![forks](https://img.shields.io/github/forks/Timorlover/CVE-2023-23333.svg)
 
+## CVE-2023-23279
+ Canteen Management System 1.0 is vulnerable to SQL Injection via /php_action/getOrderReport.php.
+
+
+
+- [https://github.com/tuannq2299/CVE-2023-23279](https://github.com/tuannq2299/CVE-2023-23279) :  ![starts](https://img.shields.io/github/stars/tuannq2299/CVE-2023-23279.svg) ![forks](https://img.shields.io/github/forks/tuannq2299/CVE-2023-23279.svg)
+
 ## CVE-2023-23138
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -323,6 +330,8 @@
 - [https://github.com/SamuelTulach/nullmap](https://github.com/SamuelTulach/nullmap) :  ![starts](https://img.shields.io/github/stars/SamuelTulach/nullmap.svg) ![forks](https://img.shields.io/github/forks/SamuelTulach/nullmap.svg)
 
 - [https://github.com/cl4ym0re/cve-2023-21768-compiled](https://github.com/cl4ym0re/cve-2023-21768-compiled) :  ![starts](https://img.shields.io/github/stars/cl4ym0re/cve-2023-21768-compiled.svg) ![forks](https://img.shields.io/github/forks/cl4ym0re/cve-2023-21768-compiled.svg)
+
+- [https://github.com/Malwareman007/CVE-2023-21768](https://github.com/Malwareman007/CVE-2023-21768) :  ![starts](https://img.shields.io/github/stars/Malwareman007/CVE-2023-21768.svg) ![forks](https://img.shields.io/github/forks/Malwareman007/CVE-2023-21768.svg)
 
 ## CVE-2023-21752
  Windows Backup Service Elevation of Privilege Vulnerability.
