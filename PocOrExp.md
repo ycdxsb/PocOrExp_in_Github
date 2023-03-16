@@ -36781,11 +36781,11 @@
 
 - [https://github.com/zeeshanbhattined/exploit-CVE-2016-10033](https://github.com/zeeshanbhattined/exploit-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/zeeshanbhattined/exploit-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/zeeshanbhattined/exploit-CVE-2016-10033.svg)
 
+- [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
+
 - [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
 
 - [https://github.com/CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/CAOlvchonger/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/CAOlvchonger/CVE-2016-10033.svg)
-
-- [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
 
 - [https://github.com/liusec/WP-CVE-2016-10033](https://github.com/liusec/WP-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/liusec/WP-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/liusec/WP-CVE-2016-10033.svg)
 
@@ -36795,8 +36795,6 @@
 
 
 - [https://github.com/t0kx/exploit-CVE-2016-9920](https://github.com/t0kx/exploit-CVE-2016-9920) :  ![starts](https://img.shields.io/github/stars/t0kx/exploit-CVE-2016-9920.svg) ![forks](https://img.shields.io/github/forks/t0kx/exploit-CVE-2016-9920.svg)
-
-- [https://github.com/poppylarrry/firefox-rce-poc](https://github.com/poppylarrry/firefox-rce-poc) :  ![starts](https://img.shields.io/github/stars/poppylarrry/firefox-rce-poc.svg) ![forks](https://img.shields.io/github/forks/poppylarrry/firefox-rce-poc.svg)
 
 ## CVE-2016-9838
  An issue was discovered in components/com_users/models/registration.php in Joomla! before 3.6.5. Incorrect filtering of registration form data stored to the session on a validation error enables a user to gain access to a registered user's account and reset the user's group mappings, username, and password, as demonstrated by submitting a form that targets the `registration.register` task.
@@ -37396,8 +37394,6 @@
 
 - [https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg)
 
-- [https://github.com/poppylarrry/firefox-rce-poc](https://github.com/poppylarrry/firefox-rce-poc) :  ![starts](https://img.shields.io/github/stars/poppylarrry/firefox-rce-poc.svg) ![forks](https://img.shields.io/github/forks/poppylarrry/firefox-rce-poc.svg)
-
 - [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
 
 - [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
@@ -37472,9 +37468,9 @@
 
 
 
-- [https://github.com/gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/gitcollect/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/gitcollect/CVE-2016-4971.svg)
-
 - [https://github.com/mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2016-4971.svg)
+
+- [https://github.com/gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/gitcollect/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/gitcollect/CVE-2016-4971.svg)
 
 - [https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-](https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-) :  ![starts](https://img.shields.io/github/stars/dinidhu96/IT19013756_-CVE-2016-4971-.svg) ![forks](https://img.shields.io/github/forks/dinidhu96/IT19013756_-CVE-2016-4971-.svg)
 
