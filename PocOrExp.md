@@ -37429,9 +37429,9 @@
 
 - [https://github.com/linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/linhlt247/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/linhlt247/DirtyCOW_CVE-2016-5195.svg)
 
-- [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
-
 - [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
+
+- [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
 
 - [https://github.com/passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs) :  ![starts](https://img.shields.io/github/stars/passionchenjianyegmail8/scumjrs.svg) ![forks](https://img.shields.io/github/forks/passionchenjianyegmail8/scumjrs.svg)
 
@@ -37485,9 +37485,9 @@
 
 
 
-- [https://github.com/mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2016-4971.svg)
-
 - [https://github.com/gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/gitcollect/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/gitcollect/CVE-2016-4971.svg)
+
+- [https://github.com/mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2016-4971.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2016-4971.svg)
 
 - [https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-](https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-) :  ![starts](https://img.shields.io/github/stars/dinidhu96/IT19013756_-CVE-2016-4971-.svg) ![forks](https://img.shields.io/github/forks/dinidhu96/IT19013756_-CVE-2016-4971-.svg)
 
@@ -38045,6 +38045,13 @@
 - [https://github.com/bao7uo/bmc_bladelogic](https://github.com/bao7uo/bmc_bladelogic) :  ![starts](https://img.shields.io/github/stars/bao7uo/bmc_bladelogic.svg) ![forks](https://img.shields.io/github/forks/bao7uo/bmc_bladelogic.svg)
 
 - [https://github.com/patriknordlen/bladelogic_bmc-cve-2016-1542](https://github.com/patriknordlen/bladelogic_bmc-cve-2016-1542) :  ![starts](https://img.shields.io/github/stars/patriknordlen/bladelogic_bmc-cve-2016-1542.svg) ![forks](https://img.shields.io/github/forks/patriknordlen/bladelogic_bmc-cve-2016-1542.svg)
+
+## CVE-2016-1531
+ Exim before 4.86.2, when installed setuid root, allows local users to gain privileges via the perl_startup argument.
+
+
+
+- [https://github.com/k4u5h41/CVE-2016-1531](https://github.com/k4u5h41/CVE-2016-1531) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2016-1531.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2016-1531.svg)
 
 ## CVE-2016-1494
  The verify function in the RSA package for Python (Python-RSA) before 3.3 allows attackers to spoof signatures with a small public exponent via crafted signature padding, aka a BERserk attack.
