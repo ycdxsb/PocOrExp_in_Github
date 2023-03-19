@@ -141,11 +141,11 @@
 
 - [https://github.com/ibaiw/joomla_CVE-2023-23752](https://github.com/ibaiw/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/ibaiw/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/ibaiw/joomla_CVE-2023-23752.svg)
 
+- [https://github.com/HaxorSec1945/CVE2023-23752](https://github.com/HaxorSec1945/CVE2023-23752) :  ![starts](https://img.shields.io/github/stars/HaxorSec1945/CVE2023-23752.svg) ![forks](https://img.shields.io/github/forks/HaxorSec1945/CVE2023-23752.svg)
+
 - [https://github.com/wangking1/CVE-2023-23752-poc](https://github.com/wangking1/CVE-2023-23752-poc) :  ![starts](https://img.shields.io/github/stars/wangking1/CVE-2023-23752-poc.svg) ![forks](https://img.shields.io/github/forks/wangking1/CVE-2023-23752-poc.svg)
 
 - [https://github.com/Vulnmachines/joomla_CVE-2023-23752](https://github.com/Vulnmachines/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/joomla_CVE-2023-23752.svg)
-
-- [https://github.com/HaxorSec1945/CVE2023-23752](https://github.com/HaxorSec1945/CVE2023-23752) :  ![starts](https://img.shields.io/github/stars/HaxorSec1945/CVE2023-23752.svg) ![forks](https://img.shields.io/github/forks/HaxorSec1945/CVE2023-23752.svg)
 
 - [https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752](https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/haxor1337x/Mass-Checker-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/haxor1337x/Mass-Checker-CVE-2023-23752.svg)
 
@@ -176,6 +176,8 @@
 
 - [https://github.com/wh-gov/CVE-2023-23415](https://github.com/wh-gov/CVE-2023-23415) :  ![starts](https://img.shields.io/github/stars/wh-gov/CVE-2023-23415.svg) ![forks](https://img.shields.io/github/forks/wh-gov/CVE-2023-23415.svg)
 
+- [https://github.com/amitdubey1921/CVE-2023-23415](https://github.com/amitdubey1921/CVE-2023-23415) :  ![starts](https://img.shields.io/github/stars/amitdubey1921/CVE-2023-23415.svg) ![forks](https://img.shields.io/github/forks/amitdubey1921/CVE-2023-23415.svg)
+
 ## CVE-2023-23397
  Microsoft Outlook Elevation of Privilege Vulnerability
 
@@ -200,6 +202,8 @@
 - [https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT](https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/BillSkiCO/CVE-2023-23397_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/BillSkiCO/CVE-2023-23397_EXPLOIT.svg)
 
 - [https://github.com/im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/im007/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/im007/CVE-2023-23397.svg)
+
+- [https://github.com/djackreuter/CVE-2023-23397-PoC](https://github.com/djackreuter/CVE-2023-23397-PoC) :  ![starts](https://img.shields.io/github/stars/djackreuter/CVE-2023-23397-PoC.svg) ![forks](https://img.shields.io/github/forks/djackreuter/CVE-2023-23397-PoC.svg)
 
 ## CVE-2023-23396
  Microsoft Excel Denial of Service Vulnerability
@@ -406,6 +410,13 @@
 - [https://github.com/PyterSmithDarkGhost/CVE-2023-21608-EXPLOIT](https://github.com/PyterSmithDarkGhost/CVE-2023-21608-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/PyterSmithDarkGhost/CVE-2023-21608-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/PyterSmithDarkGhost/CVE-2023-21608-EXPLOIT.svg)
 
 - [https://github.com/bigozzzz/popular-cves-scanner](https://github.com/bigozzzz/popular-cves-scanner) :  ![starts](https://img.shields.io/github/stars/bigozzzz/popular-cves-scanner.svg) ![forks](https://img.shields.io/github/forks/bigozzzz/popular-cves-scanner.svg)
+
+## CVE-2023-21036
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/qixils/anti-acropalypse](https://github.com/qixils/anti-acropalypse) :  ![starts](https://img.shields.io/github/stars/qixils/anti-acropalypse.svg) ![forks](https://img.shields.io/github/forks/qixils/anti-acropalypse.svg)
 
 ## CVE-2023-20921
  In onPackageRemoved of AccessibilityManagerService.java, there is a possibility to automatically grant accessibility services due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-243378132
