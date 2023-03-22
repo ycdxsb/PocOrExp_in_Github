@@ -421,6 +421,13 @@
 
 - [https://github.com/lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp) :  ![starts](https://img.shields.io/github/stars/lochiiconnectivity/vulnupnp.svg) ![forks](https://img.shields.io/github/forks/lochiiconnectivity/vulnupnp.svg)
 
+## CVE-2013-0229
+ The ProcessSSDPRequest function in minissdp.c in the SSDP handler in MiniUPnP MiniUPnPd before 1.4 allows remote attackers to cause a denial of service (service crash) via a crafted request that triggers a buffer over-read.
+
+
+
+- [https://github.com/lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp) :  ![starts](https://img.shields.io/github/stars/lochiiconnectivity/vulnupnp.svg) ![forks](https://img.shields.io/github/forks/lochiiconnectivity/vulnupnp.svg)
+
 ## CVE-2013-0212
  store/swift.py in OpenStack Glance Essex (2012.1), Folsom (2012.2) before 2012.2.3, and Grizzly, when in Swift single tenant mode, logs the Swift endpoint's user name and password in cleartext when the endpoint is misconfigured or unusable, allows remote authenticated users to obtain sensitive information by reading the error messages.
 
