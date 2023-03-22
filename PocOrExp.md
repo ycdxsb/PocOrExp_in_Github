@@ -1,6 +1,13 @@
 ## 2023
+## CVE-2023-28343
+ OS command injection affects Altenergy Power Control Software C1.2.5 via shell metacharacters in the index.php/management/set_timezone timezone parameter, because of set_timezone in models/management_model.php.
+
+
+
+- [https://github.com/gobysec/CVE-2023-28343](https://github.com/gobysec/CVE-2023-28343) :  ![starts](https://img.shields.io/github/stars/gobysec/CVE-2023-28343.svg) ![forks](https://img.shields.io/github/forks/gobysec/CVE-2023-28343.svg)
+
 ## CVE-2023-27842
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Insecure Permissions vulnerability found in Extplorer File manager eXtplorer v.2.1.15 allows a remote attacker to execute arbitrary code via the index.php compenent
 
 
 
@@ -155,9 +162,9 @@
 
 - [https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752](https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/haxor1337x/Mass-Checker-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/haxor1337x/Mass-Checker-CVE-2023-23752.svg)
 
-- [https://github.com/Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Jenderal92/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/Joomla-CVE-2023-23752.svg)
-
 - [https://github.com/H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-23752.svg)
+
+- [https://github.com/Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Jenderal92/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/Joomla-CVE-2023-23752.svg)
 
 - [https://github.com/adriyansyah-mf/CVE-2023-23752](https://github.com/adriyansyah-mf/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/adriyansyah-mf/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/adriyansyah-mf/CVE-2023-23752.svg)
 
@@ -204,11 +211,11 @@
 
 - [https://github.com/ka7ana/CVE-2023-23397](https://github.com/ka7ana/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/ka7ana/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/ka7ana/CVE-2023-23397.svg)
 
+- [https://github.com/Trackflaw/CVE-2023-23397](https://github.com/Trackflaw/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/Trackflaw/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/Trackflaw/CVE-2023-23397.svg)
+
 - [https://github.com/grn-bogo/CVE-2023-23397](https://github.com/grn-bogo/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/grn-bogo/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/grn-bogo/CVE-2023-23397.svg)
 
 - [https://github.com/alicangnll/CVE-2023-23397](https://github.com/alicangnll/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/alicangnll/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/alicangnll/CVE-2023-23397.svg)
-
-- [https://github.com/Trackflaw/CVE-2023-23397](https://github.com/Trackflaw/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/Trackflaw/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/Trackflaw/CVE-2023-23397.svg)
 
 - [https://github.com/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook](https://github.com/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook) :  ![starts](https://img.shields.io/github/stars/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook.svg) ![forks](https://img.shields.io/github/forks/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook.svg)
 
@@ -216,15 +223,17 @@
 
 - [https://github.com/ahmedkhlief/CVE-2023-23397-POC](https://github.com/ahmedkhlief/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/ahmedkhlief/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/ahmedkhlief/CVE-2023-23397-POC.svg)
 
+- [https://github.com/djackreuter/CVE-2023-23397-PoC](https://github.com/djackreuter/CVE-2023-23397-PoC) :  ![starts](https://img.shields.io/github/stars/djackreuter/CVE-2023-23397-PoC.svg) ![forks](https://img.shields.io/github/forks/djackreuter/CVE-2023-23397-PoC.svg)
+
 - [https://github.com/cleverg0d/CVE-2023-23397-PoC-PowerShell](https://github.com/cleverg0d/CVE-2023-23397-PoC-PowerShell) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2023-23397-PoC-PowerShell.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2023-23397-PoC-PowerShell.svg)
 
 - [https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT](https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/BillSkiCO/CVE-2023-23397_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/BillSkiCO/CVE-2023-23397_EXPLOIT.svg)
 
+- [https://github.com/tiepologian/CVE-2023-23397](https://github.com/tiepologian/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/tiepologian/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/tiepologian/CVE-2023-23397.svg)
+
 - [https://github.com/SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/SecCTechs/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/SecCTechs/CVE-2023-23397.svg)
 
 - [https://github.com/im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/im007/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/im007/CVE-2023-23397.svg)
-
-- [https://github.com/djackreuter/CVE-2023-23397-PoC](https://github.com/djackreuter/CVE-2023-23397-PoC) :  ![starts](https://img.shields.io/github/stars/djackreuter/CVE-2023-23397-PoC.svg) ![forks](https://img.shields.io/github/forks/djackreuter/CVE-2023-23397-PoC.svg)
 
 ## CVE-2023-23396
  Microsoft Excel Denial of Service Vulnerability
@@ -448,7 +457,7 @@
 
 
 
-- [https://github.com/qixils/anti-acropalypse](https://github.com/qixils/anti-acropalypse) :  ![starts](https://img.shields.io/github/stars/qixils/anti-acropalypse.svg) ![forks](https://img.shields.io/github/forks/qixils/anti-acropalypse.svg)
+- [https://github.com/qixils/anticropalypse](https://github.com/qixils/anticropalypse) :  ![starts](https://img.shields.io/github/stars/qixils/anticropalypse.svg) ![forks](https://img.shields.io/github/forks/qixils/anticropalypse.svg)
 
 ## CVE-2023-20921
  In onPackageRemoved of AccessibilityManagerService.java, there is a possibility to automatically grant accessibility services due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-243378132
@@ -540,6 +549,13 @@
 - [https://github.com/b11y/CVE-2023-0297](https://github.com/b11y/CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/b11y/CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/b11y/CVE-2023-0297.svg)
 
 - [https://github.com/Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/Small-ears/CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/Small-ears/CVE-2023-0297.svg)
+
+## CVE-2023-0286
+ There is a type confusion vulnerability relating to X.400 address processing inside an X.509 GeneralName. X.400 addresses were parsed as an ASN1_STRING but the public structure definition for GENERAL_NAME incorrectly specified the type of the x400Address field as ASN1_TYPE. This field is subsequently interpreted by the OpenSSL function GENERAL_NAME_cmp as an ASN1_TYPE rather than an ASN1_STRING. When CRL checking is enabled (i.e. the application sets the X509_V_FLAG_CRL_CHECK flag), this vulnerability may allow an attacker to pass arbitrary pointers to a memcmp call, enabling them to read memory contents or enact a denial of service. In most cases, the attack requires the attacker to provide both the certificate chain and CRL, neither of which need to have a valid signature. If the attacker only controls one of these inputs, the other input must already contain an X.400 address as a CRL distribution point, which is uncommon. As such, this vulnerability is most likely to only affect applications which have implemented their own functionality for retrieving CRLs over a network.
+
+
+
+- [https://github.com/nidhi7598/OPENSSL_1.1.11g_G3_CVE-2023-0286](https://github.com/nidhi7598/OPENSSL_1.1.11g_G3_CVE-2023-0286) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.1.11g_G3_CVE-2023-0286.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.1.11g_G3_CVE-2023-0286.svg)
 
 ## CVE-2023-0264
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
