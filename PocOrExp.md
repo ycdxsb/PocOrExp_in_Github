@@ -42592,6 +42592,13 @@
 
 - [https://github.com/KernelPan1k/trans2open-CVE-2003-0201](https://github.com/KernelPan1k/trans2open-CVE-2003-0201) :  ![starts](https://img.shields.io/github/stars/KernelPan1k/trans2open-CVE-2003-0201.svg) ![forks](https://img.shields.io/github/forks/KernelPan1k/trans2open-CVE-2003-0201.svg)
 
+## CVE-2003-0172
+ Buffer overflow in openlog function for PHP 4.3.1 on Windows operating system, and possibly other OSes, allows remote attackers to cause a crash and possibly execute arbitrary code via a long filename argument.
+
+
+
+- [https://github.com/cyberdesu/Remote-Buffer-overflow-CVE-2003-0172](https://github.com/cyberdesu/Remote-Buffer-overflow-CVE-2003-0172) :  ![starts](https://img.shields.io/github/stars/cyberdesu/Remote-Buffer-overflow-CVE-2003-0172.svg) ![forks](https://img.shields.io/github/forks/cyberdesu/Remote-Buffer-overflow-CVE-2003-0172.svg)
+
 
 
 ## 2002
