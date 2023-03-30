@@ -745,13 +745,6 @@
 
 - [https://github.com/arntsonl/CVE-2015-2153](https://github.com/arntsonl/CVE-2015-2153) :  ![starts](https://img.shields.io/github/stars/arntsonl/CVE-2015-2153.svg) ![forks](https://img.shields.io/github/forks/arntsonl/CVE-2015-2153.svg)
 
-## CVE-2015-2080
- The exception handling code in Eclipse Jetty before 9.2.9.v20150224 allows remote attackers to obtain sensitive information from process memory via illegal characters in an HTTP header, aka JetLeak.
-
-
-
-- [https://github.com/6a6f6a6f/CVE-2015-2080](https://github.com/6a6f6a6f/CVE-2015-2080) :  ![starts](https://img.shields.io/github/stars/6a6f6a6f/CVE-2015-2080.svg) ![forks](https://img.shields.io/github/forks/6a6f6a6f/CVE-2015-2080.svg)
-
 ## CVE-2015-1855
  verify_certificate_identity in the OpenSSL extension in Ruby before 2.0.0 patchlevel 645, 2.1.x before 2.1.6, and 2.2.x before 2.2.2 does not properly validate hostnames, which allows remote attackers to spoof servers via vectors related to (1) multiple wildcards, (1) wildcards in IDNA names, (3) case sensitivity, and (4) non-ASCII characters.
 
