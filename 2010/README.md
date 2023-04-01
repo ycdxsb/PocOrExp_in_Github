@@ -47,6 +47,13 @@
 
 - [https://github.com/M31MOTH/cve-2010-4221](https://github.com/M31MOTH/cve-2010-4221) :  ![starts](https://img.shields.io/github/stars/M31MOTH/cve-2010-4221.svg) ![forks](https://img.shields.io/github/forks/M31MOTH/cve-2010-4221.svg)
 
+## CVE-2010-4180
+ OpenSSL before 0.9.8q, and 1.0.x before 1.0.0c, when SSL_OP_NETSCAPE_REUSE_CIPHER_CHANGE_BUG is enabled, does not properly prevent modification of the ciphersuite in the session cache, which allows remote attackers to force the downgrade to an unintended cipher via vectors involving sniffing network traffic to discover a session identifier.
+
+
+
+- [https://github.com/protonnegativo/CVE-2010-4180-by-ChatGPT](https://github.com/protonnegativo/CVE-2010-4180-by-ChatGPT) :  ![starts](https://img.shields.io/github/stars/protonnegativo/CVE-2010-4180-by-ChatGPT.svg) ![forks](https://img.shields.io/github/forks/protonnegativo/CVE-2010-4180-by-ChatGPT.svg)
+
 ## CVE-2010-3971
  Use-after-free vulnerability in the CSharedStyleSheet::Notify function in the Cascading Style Sheets (CSS) parser in mshtml.dll, as used in Microsoft Internet Explorer 6 through 8 and other products, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a self-referential @import rule in a stylesheet, aka &quot;CSS Memory Corruption Vulnerability.&quot;
 
@@ -81,13 +88,6 @@
 
 
 - [https://github.com/moayadalmalat/CVE-2010-3490](https://github.com/moayadalmalat/CVE-2010-3490) :  ![starts](https://img.shields.io/github/stars/moayadalmalat/CVE-2010-3490.svg) ![forks](https://img.shields.io/github/forks/moayadalmalat/CVE-2010-3490.svg)
-
-## CVE-2010-3437
- Integer signedness error in the pkt_find_dev_from_minor function in drivers/block/pktcdvd.c in the Linux kernel before 2.6.36-rc6 allows local users to obtain sensitive information from kernel memory or cause a denial of service (invalid pointer dereference and system crash) via a crafted index value in a PKT_CTRL_CMD_STATUS ioctl call.
-
-
-
-- [https://github.com/huang-emily/CVE-2010-3437](https://github.com/huang-emily/CVE-2010-3437) :  ![starts](https://img.shields.io/github/stars/huang-emily/CVE-2010-3437.svg) ![forks](https://img.shields.io/github/forks/huang-emily/CVE-2010-3437.svg)
 
 ## CVE-2010-3333
  Stack-based buffer overflow in Microsoft Office XP SP3, Office 2003 SP3, Office 2007 SP2, Office 2010, Office 2004 and 2008 for Mac, Office for Mac 2011, and Open XML File Format Converter for Mac allows remote attackers to execute arbitrary code via crafted RTF data, aka &quot;RTF Stack Buffer Overflow Vulnerability.&quot;
