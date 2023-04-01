@@ -1,73 +1,42 @@
-# Update 2023-03-31
+# Update 2023-04-01
+## CVE-2023-28447
+ Smarty is a template engine for PHP. In affected versions smarty did not properly escape javascript code. An attacker could exploit this vulnerability to execute arbitrary JavaScript code in the context of the user's browser session. This may lead to unauthorized access to sensitive user data, manipulation of the web application's behavior, or unauthorized actions performed on behalf of the user. Users are advised to upgrade to either version 3.1.48 or to 4.3.1 to resolve this issue. There are no known workarounds for this vulnerability.
+
+- [https://github.com/drkbcn/lblfixer_cve_2023_28447](https://github.com/drkbcn/lblfixer_cve_2023_28447) :  ![starts](https://img.shields.io/github/stars/drkbcn/lblfixer_cve_2023_28447.svg) ![forks](https://img.shields.io/github/forks/drkbcn/lblfixer_cve_2023_28447.svg)
+
+
+## CVE-2023-26692
+ ZCBS Zijper Collectie Beheer Systeem (ZCBS), Zijper Publication Management System (ZPBS), and Zijper Image Bank Management System (ZBBS) 4.14k is vulnerable to Cross Site Scripting (XSS).
+
+- [https://github.com/bigzooooz/CVE-2023-26692](https://github.com/bigzooooz/CVE-2023-26692) :  ![starts](https://img.shields.io/github/stars/bigzooooz/CVE-2023-26692.svg) ![forks](https://img.shields.io/github/forks/bigzooooz/CVE-2023-26692.svg)
+
+
 ## CVE-2023-23397
  Microsoft Outlook Elevation of Privilege Vulnerability
 
-- [https://github.com/SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/SecCTechs/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/SecCTechs/CVE-2023-23397.svg)
-- [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)
+- [https://github.com/CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-23397-POC.svg)
 
 
-## CVE-2023-0297
- Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
+## CVE-2022-41032
+ NuGet Client Elevation of Privilege Vulnerability.
 
-- [https://github.com/pandousa/CVE-2023-0297](https://github.com/pandousa/CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/pandousa/CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/pandousa/CVE-2023-0297.svg)
-
-
-## CVE-2022-41876
- ezplatform-graphql is a GraphQL server implementation for Ibexa DXP and Ibexa Open Source. Versions prior to 2.3.12 and 1.0.13 are subject to Insecure Storage of Sensitive Information. Unauthenticated GraphQL queries for user accounts can expose password hashes of users that have created or modified content, typically administrators and editors. This issue has been patched in versions 2.3.12, and 1.0.13 on the 1.X branch. Users unable to upgrade can remove the &quot;passwordHash&quot; entry from &quot;src/bundle/Resources/config/graphql/User.types.yaml&quot; in the GraphQL package, and other properties like hash type, email, login if you prefer.
-
-- [https://github.com/Skileau/CVE-2022-41876](https://github.com/Skileau/CVE-2022-41876) :  ![starts](https://img.shields.io/github/stars/Skileau/CVE-2022-41876.svg) ![forks](https://img.shields.io/github/forks/Skileau/CVE-2022-41876.svg)
+- [https://github.com/ethomson/cve-2022-41032](https://github.com/ethomson/cve-2022-41032) :  ![starts](https://img.shields.io/github/stars/ethomson/cve-2022-41032.svg) ![forks](https://img.shields.io/github/forks/ethomson/cve-2022-41032.svg)
 
 
-## CVE-2022-32429
- An authentication-bypass issue in the component http://MYDEVICEIP/cgi-bin-sdb/ExportSettings.sh of Mega System Technologies Inc MSNSwitch MNT.2408 allows unauthenticated attackers to arbitrarily configure settings within the application, leading to remote code execution.
+## CVE-2022-29455
+ DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elementor Website Builder plugin &lt;= 3.5.5 versions.
 
-- [https://github.com/pandousa/CVE-2022-32429](https://github.com/pandousa/CVE-2022-32429) :  ![starts](https://img.shields.io/github/stars/pandousa/CVE-2022-32429.svg) ![forks](https://img.shields.io/github/forks/pandousa/CVE-2022-32429.svg)
-
-
-## CVE-2022-20223
- In assertSafeToStartCustomActivity of AppRestrictionsFragment.java, there is a possible way to start a phone call without permissions due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-223578534
-
-- [https://github.com/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20223](https://github.com/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20223) :  ![starts](https://img.shields.io/github/stars/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20223.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20223.svg)
+- [https://github.com/KucingMalas-ID/CVE-2022-29455](https://github.com/KucingMalas-ID/CVE-2022-29455) :  ![starts](https://img.shields.io/github/stars/KucingMalas-ID/CVE-2022-29455.svg) ![forks](https://img.shields.io/github/forks/KucingMalas-ID/CVE-2022-29455.svg)
 
 
-## CVE-2022-0847
- A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
+## CVE-2022-3786
+ A buffer overrun can be triggered in X.509 certificate verification, specifically in name constraint checking. Note that this occurs after certificate chain signature verification and requires either a CA to have signed a malicious certificate or for an application to continue certificate verification despite failure to construct a path to a trusted issuer. An attacker can craft a malicious email address in a certificate to overflow an arbitrary number of bytes containing the `.' character (decimal 46) on the stack. This buffer overflow could result in a crash (causing a denial of service). In a TLS client, this can be triggered by connecting to a malicious server. In a TLS server, this can be triggered if the server requests client authentication and a malicious client connects.
 
-- [https://github.com/versatilexec/CVE_2022_0847](https://github.com/versatilexec/CVE_2022_0847) :  ![starts](https://img.shields.io/github/stars/versatilexec/CVE_2022_0847.svg) ![forks](https://img.shields.io/github/forks/versatilexec/CVE_2022_0847.svg)
-
-
-## CVE-2021-3560
- It was found that polkit could be tricked into bypassing the credential checks for D-Bus requests, elevating the privileges of the requestor to the root user. This flaw could be used by an unprivileged local attacker to, for example, create a new local administrator. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
-
-- [https://github.com/BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/BizarreLove/CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/BizarreLove/CVE-2021-3560.svg)
+- [https://github.com/micr0sh0ft/certscare-openssl3-exploit](https://github.com/micr0sh0ft/certscare-openssl3-exploit) :  ![starts](https://img.shields.io/github/stars/micr0sh0ft/certscare-openssl3-exploit.svg) ![forks](https://img.shields.io/github/forks/micr0sh0ft/certscare-openssl3-exploit.svg)
 
 
-## CVE-2021-1782
- A race condition was addressed with improved locking. This issue is fixed in macOS Big Sur 11.2, Security Update 2021-001 Catalina, Security Update 2021-001 Mojave, watchOS 7.3, tvOS 14.4, iOS 14.4 and iPadOS 14.4. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited..
+## CVE-2009-2265
+ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow remote attackers to create executable files in arbitrary directories via directory traversal sequences in the input to unspecified connector modules, as exploited in the wild for remote code execution in July 2009, related to the file browser and the editor/filemanager/connectors/ directory.
 
-- [https://github.com/raymontag/cve-2021-1782](https://github.com/raymontag/cve-2021-1782) :  ![starts](https://img.shields.io/github/stars/raymontag/cve-2021-1782.svg) ![forks](https://img.shields.io/github/forks/raymontag/cve-2021-1782.svg)
-
-
-## CVE-2019-7616
- Kibana versions before 6.8.2 and 7.2.1 contain a server side request forgery (SSRF) flaw in the graphite integration for Timelion visualizer. An attacker with administrative Kibana access could set the timelion:graphite.url configuration option to an arbitrary URL. This could possibly lead to an attacker accessing external URL resources as the Kibana process on the host system.
-
-- [https://github.com/random-robbie/CVE-2019-7616](https://github.com/random-robbie/CVE-2019-7616) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2019-7616.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2019-7616.svg)
-
-
-## CVE-2019-1040
- A tampering vulnerability exists in Microsoft Windows when a man-in-the-middle attacker is able to successfully bypass the NTLM MIC (Message Integrity Check) protection, aka 'Windows NTLM Tampering Vulnerability'.
-
-- [https://github.com/lazaars/UltraRealy_with_CVE-2019-1040](https://github.com/lazaars/UltraRealy_with_CVE-2019-1040) :  ![starts](https://img.shields.io/github/stars/lazaars/UltraRealy_with_CVE-2019-1040.svg) ![forks](https://img.shields.io/github/forks/lazaars/UltraRealy_with_CVE-2019-1040.svg)
-
-
-## CVE-2018-2019
- IBM Security Identity Manager 6.0.0 Virtual Appliance is vulnerable to a XML External Entity Injection (XXE) attack when processing XML data. A remote attacker could exploit this vulnerability to expose sensitive information or consume memory resources. IBM X-Force ID: 155265.
-
-- [https://github.com/attakercyebr/hack4lx_CVE-2018-2019](https://github.com/attakercyebr/hack4lx_CVE-2018-2019) :  ![starts](https://img.shields.io/github/stars/attakercyebr/hack4lx_CVE-2018-2019.svg) ![forks](https://img.shields.io/github/forks/attakercyebr/hack4lx_CVE-2018-2019.svg)
-
-
-## CVE-2016-10993
- The ScoreMe theme through 2016-04-01 for WordPress has XSS via the s parameter.
-
-- [https://github.com/KucingMalas-ID/CVE-2016-10993](https://github.com/KucingMalas-ID/CVE-2016-10993) :  ![starts](https://img.shields.io/github/stars/KucingMalas-ID/CVE-2016-10993.svg) ![forks](https://img.shields.io/github/forks/KucingMalas-ID/CVE-2016-10993.svg)
+- [https://github.com/k4u5h41/CVE-2009-2265](https://github.com/k4u5h41/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2009-2265.svg)
 
