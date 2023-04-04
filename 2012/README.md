@@ -218,6 +218,13 @@
 
 - [https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Oracle-mysql-CVE-2012-2122.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Oracle-mysql-CVE-2012-2122.svg)
 
+## CVE-2012-2012
+ HP System Management Homepage (SMH) before 7.1.1 does not have an off autocomplete attribute for unspecified form fields, which makes it easier for remote attackers to obtain access by leveraging an unattended workstation.
+
+
+
+- [https://github.com/hello123body/CVE-2012-2012](https://github.com/hello123body/CVE-2012-2012) :  ![starts](https://img.shields.io/github/stars/hello123body/CVE-2012-2012.svg) ![forks](https://img.shields.io/github/forks/hello123body/CVE-2012-2012.svg)
+
 ## CVE-2012-1889
  Microsoft XML Core Services 3.0, 4.0, 5.0, and 6.0 accesses uninitialized memory locations, which allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site.
 
