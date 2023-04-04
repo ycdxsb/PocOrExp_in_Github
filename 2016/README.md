@@ -1162,9 +1162,9 @@
 
 - [https://github.com/cl4ym0re/CVE-2016-3088](https://github.com/cl4ym0re/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/cl4ym0re/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/cl4ym0re/CVE-2016-3088.svg)
 
-- [https://github.com/pudiding/CVE-2016-3088](https://github.com/pudiding/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/pudiding/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/pudiding/CVE-2016-3088.svg)
-
 - [https://github.com/vonderchild/CVE-2016-3088](https://github.com/vonderchild/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/vonderchild/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/vonderchild/CVE-2016-3088.svg)
+
+- [https://github.com/pudiding/CVE-2016-3088](https://github.com/pudiding/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/pudiding/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/pudiding/CVE-2016-3088.svg)
 
 ## CVE-2016-2783
  Avaya Fabric Connect Virtual Services Platform (VSP) Operating System Software (VOSS) before 4.2.3.0 and 5.x before 5.0.1.0 does not properly handle VLAN and I-SIS indexes, which allows remote attackers to obtain unauthorized access via crafted Ethernet frames.
@@ -1259,6 +1259,13 @@
 
 
 - [https://github.com/SpiralBL0CK/CVE-2016-2338-nday](https://github.com/SpiralBL0CK/CVE-2016-2338-nday) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/CVE-2016-2338-nday.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/CVE-2016-2338-nday.svg)
+
+## CVE-2016-2334
+ Heap-based buffer overflow in the NArchive::NHfs::CHandler::ExtractZlibFile method in 7zip before 16.00 and p7zip allows remote attackers to execute arbitrary code via a crafted HFS+ image.
+
+
+
+- [https://github.com/icewall/CVE-2016-2334](https://github.com/icewall/CVE-2016-2334) :  ![starts](https://img.shields.io/github/stars/icewall/CVE-2016-2334.svg) ![forks](https://img.shields.io/github/forks/icewall/CVE-2016-2334.svg)
 
 ## CVE-2016-2233
  Stack-based buffer overflow in the inbound_cap_ls function in common/inbound.c in HexChat 2.10.2 allows remote IRC servers to cause a denial of service (crash) via a large number of options in a CAP LS message.
