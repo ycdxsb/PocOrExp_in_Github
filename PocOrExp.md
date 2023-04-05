@@ -38954,13 +38954,6 @@
 
 - [https://github.com/jndok/tpwn-bis](https://github.com/jndok/tpwn-bis) :  ![starts](https://img.shields.io/github/stars/jndok/tpwn-bis.svg) ![forks](https://img.shields.io/github/forks/jndok/tpwn-bis.svg)
 
-## CVE-2015-5864
- IOAudioFamily in Apple OS X before 10.11 allows local users to obtain sensitive kernel memory-layout information via unspecified vectors.
-
-
-
-- [https://github.com/jndok/tpwn-bis](https://github.com/jndok/tpwn-bis) :  ![starts](https://img.shields.io/github/stars/jndok/tpwn-bis.svg) ![forks](https://img.shields.io/github/forks/jndok/tpwn-bis.svg)
-
 ## CVE-2015-5847
  The Disk Images component in Apple iOS before 9 allows local users to gain privileges or cause a denial of service (memory corruption) via unspecified vectors.
 
