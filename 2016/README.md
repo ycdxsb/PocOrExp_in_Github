@@ -923,6 +923,13 @@
 
 - [https://github.com/liangle1986126z/jndok](https://github.com/liangle1986126z/jndok) :  ![starts](https://img.shields.io/github/stars/liangle1986126z/jndok.svg) ![forks](https://img.shields.io/github/forks/liangle1986126z/jndok.svg)
 
+## CVE-2016-4631
+ ImageIO in Apple iOS before 9.3.3, OS X before 10.11.6, tvOS before 9.2.2, and watchOS before 2.2.2 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted TIFF file.
+
+
+
+- [https://github.com/hansnielsen/tiffdisabler](https://github.com/hansnielsen/tiffdisabler) :  ![starts](https://img.shields.io/github/stars/hansnielsen/tiffdisabler.svg) ![forks](https://img.shields.io/github/forks/hansnielsen/tiffdisabler.svg)
+
 ## CVE-2016-4622
  WebKit in Apple iOS before 9.3.3, Safari before 9.1.2, and tvOS before 9.2.2 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, a different vulnerability than CVE-2016-4589, CVE-2016-4623, and CVE-2016-4624.
 
@@ -1307,9 +1314,9 @@
 
 - [https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Alejandro-MartinG/rails-PoC-CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Alejandro-MartinG/rails-PoC-CVE-2016-2098.svg)
 
-- [https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit](https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit) :  ![starts](https://img.shields.io/github/stars/DanielCodex/CVE-2016-2098-my-first-exploit.svg) ![forks](https://img.shields.io/github/forks/DanielCodex/CVE-2016-2098-my-first-exploit.svg)
-
 - [https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42](https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42) :  ![starts](https://img.shields.io/github/stars/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42.svg) ![forks](https://img.shields.io/github/forks/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42.svg)
+
+- [https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit](https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit) :  ![starts](https://img.shields.io/github/stars/DanielCodex/CVE-2016-2098-my-first-exploit.svg) ![forks](https://img.shields.io/github/forks/DanielCodex/CVE-2016-2098-my-first-exploit.svg)
 
 - [https://github.com/Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Debalinax64/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Debalinax64/CVE-2016-2098.svg)
 
