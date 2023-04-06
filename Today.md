@@ -1,96 +1,85 @@
-# Update 2023-04-05
-## CVE-2023-24780
- Funadmin v3.2.0 was discovered to contain a SQL injection vulnerability via the id parameter at /databases/table/columns.
+# Update 2023-04-06
+## CVE-2023-23752
+ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.
 
-- [https://github.com/csffs/CVE-2023-24775-and-CVE-2023-24780](https://github.com/csffs/CVE-2023-24775-and-CVE-2023-24780) :  ![starts](https://img.shields.io/github/stars/csffs/CVE-2023-24775-and-CVE-2023-24780.svg) ![forks](https://img.shields.io/github/forks/csffs/CVE-2023-24775-and-CVE-2023-24780.svg)
-
-
-## CVE-2023-24775
- Funadmin v3.2.0 was discovered to contain a SQL injection vulnerability via the selectFields parameter at \member\Member.php.
-
-- [https://github.com/csffs/CVE-2023-24775-and-CVE-2023-24780](https://github.com/csffs/CVE-2023-24775-and-CVE-2023-24780) :  ![starts](https://img.shields.io/github/stars/csffs/CVE-2023-24775-and-CVE-2023-24780.svg) ![forks](https://img.shields.io/github/forks/csffs/CVE-2023-24775-and-CVE-2023-24780.svg)
+- [https://github.com/adhikara13/CVE-2023-23752](https://github.com/adhikara13/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/adhikara13/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/adhikara13/CVE-2023-23752.svg)
 
 
-## CVE-2023-24774
- Funadmin v3.2.0 was discovered to contain a SQL injection vulnerability via the selectFields parameter at \controller\auth\Auth.php.
+## CVE-2023-21768
+ Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability.
 
-- [https://github.com/csffs/CVE-2023-24775-and-CVE-2023-24780](https://github.com/csffs/CVE-2023-24775-and-CVE-2023-24780) :  ![starts](https://img.shields.io/github/stars/csffs/CVE-2023-24775-and-CVE-2023-24780.svg) ![forks](https://img.shields.io/github/forks/csffs/CVE-2023-24775-and-CVE-2023-24780.svg)
+- [https://github.com/h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768) :  ![starts](https://img.shields.io/github/stars/h1bAna/CVE-2023-21768.svg) ![forks](https://img.shields.io/github/forks/h1bAna/CVE-2023-21768.svg)
 
 
 ## CVE-2023-20944
  In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of privilege due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-244154558
 
-- [https://github.com/Trinadh465/frameworks_base_CVE-2023-20944](https://github.com/Trinadh465/frameworks_base_CVE-2023-20944) :  ![starts](https://img.shields.io/github/stars/Trinadh465/frameworks_base_CVE-2023-20944.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/frameworks_base_CVE-2023-20944.svg)
+- [https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20944](https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20944) :  ![starts](https://img.shields.io/github/stars/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20944.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20944.svg)
 
 
-## CVE-2023-20943
- In clearApplicationUserData of ActivityManagerService.java, there is a possible way to remove system files due to a path traversal error. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-240267890
+## CVE-2022-44889
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Trinadh465/frameworks_base_CVE-2023-20943](https://github.com/Trinadh465/frameworks_base_CVE-2023-20943) :  ![starts](https://img.shields.io/github/stars/Trinadh465/frameworks_base_CVE-2023-20943.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/frameworks_base_CVE-2023-20943.svg)
-
-
-## CVE-2023-20933
- In several functions of MediaCodec.cpp, there is a possible way to corrupt memory due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-245860753
-
-- [https://github.com/Trinadh465/frameworks_av_CVE-2023-20933](https://github.com/Trinadh465/frameworks_av_CVE-2023-20933) :  ![starts](https://img.shields.io/github/stars/Trinadh465/frameworks_av_CVE-2023-20933.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/frameworks_av_CVE-2023-20933.svg)
-
-
-## CVE-2022-46169
- Cacti is an open source platform which provides a robust and extensible operational monitoring and fault management framework for users. In affected versions a command injection vulnerability allows an unauthenticated user to execute arbitrary code on a server running Cacti, if a specific data source was selected for any monitored device. The vulnerability resides in the `remote_agent.php` file. This file can be accessed without authentication. This function retrieves the IP address of the client via `get_client_addr` and resolves this IP address to the corresponding hostname via `gethostbyaddr`. After this, it is verified that an entry within the `poller` table exists, where the hostname corresponds to the resolved hostname. If such an entry was found, the function returns `true` and the client is authorized. This authorization can be bypassed due to the implementation of the `get_client_addr` function. The function is defined in the file `lib/functions.php` and checks serval `$_SERVER` variables to determine the IP address of the client. The variables beginning with `HTTP_` can be arbitrarily set by an attacker. Since there is a default entry in the `poller` table with the hostname of the server running Cacti, an attacker can bypass the authentication e.g. by providing the header `Forwarded-For: &lt;TARGETIP&gt;`. This way the function `get_client_addr` returns the IP address of the server running Cacti. The following call to `gethostbyaddr` will resolve this IP address to the hostname of the server, which will pass the `poller` hostname check because of the default entry. After the authorization of the `remote_agent.php` file is bypassed, an attacker can trigger different actions. One of these actions is called `polldata`. The called function `poll_for_data` retrieves a few request parameters and loads the corresponding `poller_item` entries from the database. If the `action` of a `poller_item` equals `POLLER_ACTION_SCRIPT_PHP`, the function `proc_open` is used to execute a PHP script. The attacker-controlled parameter `$poller_id` is retrieved via the function `get_nfilter_request_var`, which allows arbitrary strings. This variable is later inserted into the string passed to `proc_open`, which leads to a command injection vulnerability. By e.g. providing the `poller_id=;id` the `id` command is executed. In order to reach the vulnerable call, the attacker must provide a `host_id` and `local_data_id`, where the `action` of the corresponding `poller_item` is set to `POLLER_ACTION_SCRIPT_PHP`. Both of these ids (`host_id` and `local_data_id`) can easily be bruteforced. The only requirement is that a `poller_item` with an `POLLER_ACTION_SCRIPT_PHP` action exists. This is very likely on a productive instance because this action is added by some predefined templates like `Device - Uptime` or `Device - Polling Time`. This command injection vulnerability allows an unauthenticated user to execute arbitrary commands if a `poller_item` with the `action` type `POLLER_ACTION_SCRIPT_PHP` (`2`) is configured. The authorization bypass should be prevented by not allowing an attacker to make `get_client_addr` (file `lib/functions.php`) return an arbitrary IP address. This could be done by not honoring the `HTTP_...` `$_SERVER` variables. If these should be kept for compatibility reasons it should at least be prevented to fake the IP address of the server running Cacti. This vulnerability has been addressed in both the 1.2.x and 1.3.x release branches with `1.2.23` being the first release containing the patch.
-
-- [https://github.com/m3ssap0/cacti-rce-cve-2022-46169-vulnerable-application](https://github.com/m3ssap0/cacti-rce-cve-2022-46169-vulnerable-application) :  ![starts](https://img.shields.io/github/stars/m3ssap0/cacti-rce-cve-2022-46169-vulnerable-application.svg) ![forks](https://img.shields.io/github/forks/m3ssap0/cacti-rce-cve-2022-46169-vulnerable-application.svg)
+- [https://github.com/Qualys/text4scanwin](https://github.com/Qualys/text4scanwin) :  ![starts](https://img.shields.io/github/stars/Qualys/text4scanwin.svg) ![forks](https://img.shields.io/github/forks/Qualys/text4scanwin.svg)
 
 
 ## CVE-2022-42896
  There are use-after-free vulnerabilities in the Linux kernel's net/bluetooth/l2cap_core.c's l2cap_connect and l2cap_le_connect_req functions which may allow code execution and leaking kernel memory (respectively) remotely via Bluetooth. A remote attacker could execute code leaking kernel memory via Bluetooth if within proximity of the victim. We recommend upgrading past commit https://www.google.com/url https://github.com/torvalds/linux/commit/711f8c3fb3db61897080468586b970c87c61d9e4 https://www.google.com/url
 
-- [https://github.com/nidhi7598/linux-4.1.15_CVE-2022-42896](https://github.com/nidhi7598/linux-4.1.15_CVE-2022-42896) :  ![starts](https://img.shields.io/github/stars/nidhi7598/linux-4.1.15_CVE-2022-42896.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/linux-4.1.15_CVE-2022-42896.svg)
+- [https://github.com/Trinadh465/kernel_CVE-2022-42896](https://github.com/Trinadh465/kernel_CVE-2022-42896) :  ![starts](https://img.shields.io/github/stars/Trinadh465/kernel_CVE-2022-42896.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/kernel_CVE-2022-42896.svg)
+- [https://github.com/Satheesh575555/linux-4.19.72_CVE-2022-42896](https://github.com/Satheesh575555/linux-4.19.72_CVE-2022-42896) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/linux-4.19.72_CVE-2022-42896.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/linux-4.19.72_CVE-2022-42896.svg)
 
 
-## CVE-2022-29455
- DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elementor Website Builder plugin &lt;= 3.5.5 versions.
+## CVE-2022-42889
+ Apache Commons Text performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is &quot;${prefix:name}&quot;, where &quot;prefix&quot; is used to locate an instance of org.apache.commons.text.lookup.StringLookup that performs the interpolation. Starting with version 1.5 and continuing through 1.9, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: - &quot;script&quot; - execute expressions using the JVM script execution engine (javax.script) - &quot;dns&quot; - resolve dns records - &quot;url&quot; - load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used. Users are recommended to upgrade to Apache Commons Text 1.10.0, which disables the problematic interpolators by default.
 
-- [https://github.com/VarelSecurity/CVE-2022-29455](https://github.com/VarelSecurity/CVE-2022-29455) :  ![starts](https://img.shields.io/github/stars/VarelSecurity/CVE-2022-29455.svg) ![forks](https://img.shields.io/github/forks/VarelSecurity/CVE-2022-29455.svg)
-
-
-## CVE-2022-27665
- Reflected XSS (via AngularJS sandbox escape expressions) exists in Progress Ipswitch WS_FTP Server 8.6.0. This can lead to execution of malicious code and commands on the client due to improper handling of user-provided input. By inputting malicious payloads in the subdirectory searchbar or Add folder filename boxes, it is possible to execute client-side commands. For example, there is Client-Side Template Injection via subFolderPath to the ThinClient/WtmApiService.asmx/GetFileSubTree URI.
-
-- [https://github.com/dievus/CVE-2022-27665](https://github.com/dievus/CVE-2022-27665) :  ![starts](https://img.shields.io/github/stars/dievus/CVE-2022-27665.svg) ![forks](https://img.shields.io/github/forks/dievus/CVE-2022-27665.svg)
+- [https://github.com/necroteddy/CVE-2022-42889](https://github.com/necroteddy/CVE-2022-42889) :  ![starts](https://img.shields.io/github/stars/necroteddy/CVE-2022-42889.svg) ![forks](https://img.shields.io/github/forks/necroteddy/CVE-2022-42889.svg)
 
 
-## CVE-2021-45919
- Studio 42 elFinder through 2.1.31 allows XSS via an SVG document.
+## CVE-2021-43141
+ Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Simple Subscription Website 1.0 via the id parameter in plan_application.
 
-- [https://github.com/SpiderLabs/Jorogumo](https://github.com/SpiderLabs/Jorogumo) :  ![starts](https://img.shields.io/github/stars/SpiderLabs/Jorogumo.svg) ![forks](https://img.shields.io/github/forks/SpiderLabs/Jorogumo.svg)
-
-
-## CVE-2021-44832
- Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) are vulnerable to a remote code execution (RCE) attack when a configuration uses a JDBC Appender with a JNDI LDAP data source URI when an attacker has control of the target LDAP server. This issue is fixed by limiting JNDI data source names to the java protocol in Log4j2 versions 2.17.1, 2.12.4, and 2.3.2.
-
-- [https://github.com/demonrvm/Log4ShellRemediation](https://github.com/demonrvm/Log4ShellRemediation) :  ![starts](https://img.shields.io/github/stars/demonrvm/Log4ShellRemediation.svg) ![forks](https://img.shields.io/github/forks/demonrvm/Log4ShellRemediation.svg)
+- [https://github.com/whoissecure/CVE-2021-43141](https://github.com/whoissecure/CVE-2021-43141) :  ![starts](https://img.shields.io/github/stars/whoissecure/CVE-2021-43141.svg) ![forks](https://img.shields.io/github/forks/whoissecure/CVE-2021-43141.svg)
 
 
-## CVE-2017-1000006
- Plotly, Inc. plotly.js versions prior to 1.16.0 are vulnerable to an XSS issue.
+## CVE-2021-43140
+ SQL Injection vulnerability exists in Sourcecodester. Simple Subscription Website 1.0. via the login.
 
-- [https://github.com/ossf-cve-benchmark/CVE-2017-1000006](https://github.com/ossf-cve-benchmark/CVE-2017-1000006) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-1000006.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-1000006.svg)
-
-
-## CVE-2016-2334
- Heap-based buffer overflow in the NArchive::NHfs::CHandler::ExtractZlibFile method in 7zip before 16.00 and p7zip allows remote attackers to execute arbitrary code via a crafted HFS+ image.
-
-- [https://github.com/icewall/CVE-2016-2334](https://github.com/icewall/CVE-2016-2334) :  ![starts](https://img.shields.io/github/stars/icewall/CVE-2016-2334.svg) ![forks](https://img.shields.io/github/forks/icewall/CVE-2016-2334.svg)
+- [https://github.com/whoissecure/CVE-2021-43140](https://github.com/whoissecure/CVE-2021-43140) :  ![starts](https://img.shields.io/github/stars/whoissecure/CVE-2021-43140.svg) ![forks](https://img.shields.io/github/forks/whoissecure/CVE-2021-43140.svg)
 
 
-## CVE-2012-2012
- HP System Management Homepage (SMH) before 7.1.1 does not have an off autocomplete attribute for unspecified form fields, which makes it easier for remote attackers to obtain access by leveraging an unattended workstation.
+## CVE-2021-41728
+ Cross Site Scripting (XSS) vulnerability exists in Sourcecodester News247 CMS 1.0 via the search function in articles.
 
-- [https://github.com/hello123body/CVE-2012-2012](https://github.com/hello123body/CVE-2012-2012) :  ![starts](https://img.shields.io/github/stars/hello123body/CVE-2012-2012.svg) ![forks](https://img.shields.io/github/forks/hello123body/CVE-2012-2012.svg)
+- [https://github.com/whoissecure/CVE-2021-41728](https://github.com/whoissecure/CVE-2021-41728) :  ![starts](https://img.shields.io/github/stars/whoissecure/CVE-2021-41728.svg) ![forks](https://img.shields.io/github/forks/whoissecure/CVE-2021-41728.svg)
 
 
-## CVE-2006-3392
- Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
+## CVE-2020-0183
+ In handleMessage of BluetoothManagerService, there is an incomplete reset. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-110181479
 
-- [https://github.com/MrEmpy/CVE-2006-3392](https://github.com/MrEmpy/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/MrEmpy/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/MrEmpy/CVE-2006-3392.svg)
+- [https://github.com/hshivhare67/platform_packages_apps_bluetooth_AOSP10_r33_CVE-2020-0183](https://github.com/hshivhare67/platform_packages_apps_bluetooth_AOSP10_r33_CVE-2020-0183) :  ![starts](https://img.shields.io/github/stars/hshivhare67/platform_packages_apps_bluetooth_AOSP10_r33_CVE-2020-0183.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/platform_packages_apps_bluetooth_AOSP10_r33_CVE-2020-0183.svg)
+
+
+## CVE-2019-10220
+ Linux kernel CIFS implementation, version 4.9.0 is vulnerable to a relative paths injection in directory entry lists.
+
+- [https://github.com/hshivhare67/kernel_v4.1.15_CVE-2019-10220](https://github.com/hshivhare67/kernel_v4.1.15_CVE-2019-10220) :  ![starts](https://img.shields.io/github/stars/hshivhare67/kernel_v4.1.15_CVE-2019-10220.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/kernel_v4.1.15_CVE-2019-10220.svg)
+
+
+## CVE-2014-6287
+ The findMacroMarker function in parserLib.pas in Rejetto HTTP File Server (aks HFS or HttpFileServer) 2.3x before 2.3c allows remote attackers to execute arbitrary programs via a %00 sequence in a search action.
+
+- [https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution](https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution) :  ![starts](https://img.shields.io/github/stars/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution.svg)
+
+
+## CVE-2014-3544
+ Cross-site scripting (XSS) vulnerability in user/profile.php in Moodle through 2.3.11, 2.4.x before 2.4.11, 2.5.x before 2.5.7, 2.6.x before 2.6.4, and 2.7.x before 2.7.1 allows remote authenticated users to inject arbitrary web script or HTML via the Skype ID profile field.
+
+- [https://github.com/bezlla/MoodleHack](https://github.com/bezlla/MoodleHack) :  ![starts](https://img.shields.io/github/stars/bezlla/MoodleHack.svg) ![forks](https://img.shields.io/github/forks/bezlla/MoodleHack.svg)
+
+
+## CVE-2012-1870
+ The CBC mode in the TLS protocol, as used in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2, R2, and R2 SP1, Windows 7 Gold and SP1, and other products, allows remote web servers to obtain plaintext data by triggering multiple requests to a third-party HTTPS server and sniffing the network during the resulting HTTPS session, aka &quot;TLS Protocol Vulnerability.&quot;
+
+- [https://github.com/dja2TaqkGEEfA45/CVE-2012-1870](https://github.com/dja2TaqkGEEfA45/CVE-2012-1870) :  ![starts](https://img.shields.io/github/stars/dja2TaqkGEEfA45/CVE-2012-1870.svg) ![forks](https://img.shields.io/github/forks/dja2TaqkGEEfA45/CVE-2012-1870.svg)
 
