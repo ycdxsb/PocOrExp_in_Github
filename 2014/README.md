@@ -323,13 +323,13 @@
 
 - [https://github.com/mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2014-6271.svg)
 
-- [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
-
 - [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
 
 - [https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-](https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-) :  ![starts](https://img.shields.io/github/stars/rashmikadileeshara/CVE-2014-6271-Shellshock-.svg) ![forks](https://img.shields.io/github/forks/rashmikadileeshara/CVE-2014-6271-Shellshock-.svg)
 
 - [https://github.com/0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2014-6271.svg)
+
+- [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
 
 - [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
 
