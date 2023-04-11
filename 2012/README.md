@@ -184,9 +184,9 @@
 
 - [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
 
-- [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
-
 - [https://github.com/wizardy0ga/CVE_2012-2982](https://github.com/wizardy0ga/CVE_2012-2982) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/CVE_2012-2982.svg)
+
+- [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
 
 ## CVE-2012-2688
  Unspecified vulnerability in the _php_stream_scandir function in the stream implementation in PHP before 5.3.15 and 5.4.x before 5.4.5 has unknown impact and remote attack vectors, related to an &quot;overflow.&quot;
@@ -238,8 +238,6 @@
  Microsoft Internet Explorer 6 through 9, and 10 Consumer Preview, does not properly handle objects in memory, which allows remote attackers to execute arbitrary code by attempting to access a nonexistent object, leading to a heap-based buffer overflow, aka &quot;Col Element Remote Code Execution Vulnerability,&quot; as demonstrated by VUPEN during a Pwn2Own competition at CanSecWest 2012.
 
 
-
-- [https://github.com/WizardVan/CVE-2012-1876](https://github.com/WizardVan/CVE-2012-1876) :  ![starts](https://img.shields.io/github/stars/WizardVan/CVE-2012-1876.svg) ![forks](https://img.shields.io/github/forks/WizardVan/CVE-2012-1876.svg)
 
 - [https://github.com/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64](https://github.com/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64) :  ![starts](https://img.shields.io/github/stars/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64.svg) ![forks](https://img.shields.io/github/forks/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64.svg)
 
