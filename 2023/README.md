@@ -1,5 +1,5 @@
 ## CVE-2023-30459
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SmartPTT SCADA 1.1.0.0 allows remote code execution (when the attacker has administrator privileges) by writing a malicious C# script and executing it on the server (via server settings in the administrator control panel on port 8101, by default).
 
 
 
@@ -20,6 +20,13 @@
 - [https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017](https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017) :  ![starts](https://img.shields.io/github/stars/timb-machine-mirrors/seongil-wi-CVE-2023-29017.svg) ![forks](https://img.shields.io/github/forks/timb-machine-mirrors/seongil-wi-CVE-2023-29017.svg)
 
 - [https://github.com/Kaneki-hash/CVE-2023-29017-reverse-shell](https://github.com/Kaneki-hash/CVE-2023-29017-reverse-shell) :  ![starts](https://img.shields.io/github/stars/Kaneki-hash/CVE-2023-29017-reverse-shell.svg) ![forks](https://img.shields.io/github/forks/Kaneki-hash/CVE-2023-29017-reverse-shell.svg)
+
+## CVE-2023-28615
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/YSaxon/CVE-2023-28615](https://github.com/YSaxon/CVE-2023-28615) :  ![starts](https://img.shields.io/github/stars/YSaxon/CVE-2023-28615.svg) ![forks](https://img.shields.io/github/forks/YSaxon/CVE-2023-28615.svg)
 
 ## CVE-2023-28447
  Smarty is a template engine for PHP. In affected versions smarty did not properly escape javascript code. An attacker could exploit this vulnerability to execute arbitrary JavaScript code in the context of the user's browser session. This may lead to unauthorized access to sensitive user data, manipulation of the web application's behavior, or unauthorized actions performed on behalf of the user. Users are advised to upgrade to either version 3.1.48 or to 4.3.1 to resolve this issue. There are no known workarounds for this vulnerability.
@@ -96,21 +103,21 @@
 - [https://github.com/tristao-marinho/CVE-2023-27842](https://github.com/tristao-marinho/CVE-2023-27842) :  ![starts](https://img.shields.io/github/stars/tristao-marinho/CVE-2023-27842.svg) ![forks](https://img.shields.io/github/forks/tristao-marinho/CVE-2023-27842.svg)
 
 ## CVE-2023-27748
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ BlackVue DR750-2CH LTE v.1.012_2022.10.26 does not employ authenticity check for uploaded firmware. This can allow attackers to upload crafted firmware which contains backdoors and enables arbitrary code execution.
 
 
 
 - [https://github.com/eyJhb/blackvue-cve-2023](https://github.com/eyJhb/blackvue-cve-2023) :  ![starts](https://img.shields.io/github/stars/eyJhb/blackvue-cve-2023.svg) ![forks](https://img.shields.io/github/forks/eyJhb/blackvue-cve-2023.svg)
 
 ## CVE-2023-27747
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ BlackVue DR750-2CH LTE v.1.012_2022.10.26 does not employ authentication in its web server. This vulnerability allows attackers to access sensitive information such as configurations and recordings.
 
 
 
 - [https://github.com/eyJhb/blackvue-cve-2023](https://github.com/eyJhb/blackvue-cve-2023) :  ![starts](https://img.shields.io/github/stars/eyJhb/blackvue-cve-2023.svg) ![forks](https://img.shields.io/github/forks/eyJhb/blackvue-cve-2023.svg)
 
 ## CVE-2023-27746
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ BlackVue DR750-2CH LTE v.1.012_2022.10.26 was discovered to contain a weak default passphrase which can be easily cracked via a brute force attack if the WPA2 handshake is intercepted.
 
 
 
@@ -231,15 +238,6 @@
 
 
 - [https://github.com/istern/CVE-2023-26262](https://github.com/istern/CVE-2023-26262) :  ![starts](https://img.shields.io/github/stars/istern/CVE-2023-26262.svg) ![forks](https://img.shields.io/github/forks/istern/CVE-2023-26262.svg)
-
-## CVE-2023-25610
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/PSIRT-REPO/CVE-2023-25610](https://github.com/PSIRT-REPO/CVE-2023-25610) :  ![starts](https://img.shields.io/github/stars/PSIRT-REPO/CVE-2023-25610.svg) ![forks](https://img.shields.io/github/forks/PSIRT-REPO/CVE-2023-25610.svg)
-
-- [https://github.com/FortiSecurity/CVE-2023-25610](https://github.com/FortiSecurity/CVE-2023-25610) :  ![starts](https://img.shields.io/github/stars/FortiSecurity/CVE-2023-25610.svg) ![forks](https://img.shields.io/github/forks/FortiSecurity/CVE-2023-25610.svg)
 
 ## CVE-2023-25263
  In Stimulsoft Designer (Desktop) 2023.1.5, and 2023.1.4, once an attacker decompiles the Stimulsoft.report.dll the attacker is able to decrypt any connectionstring stored in .mrt files since a static secret is used. The secret does not differ between the tested versions and different operating systems.
@@ -402,9 +400,11 @@
 
 - [https://github.com/ifacker/CVE-2023-23752-Joomla](https://github.com/ifacker/CVE-2023-23752-Joomla) :  ![starts](https://img.shields.io/github/stars/ifacker/CVE-2023-23752-Joomla.svg) ![forks](https://img.shields.io/github/forks/ifacker/CVE-2023-23752-Joomla.svg)
 
+- [https://github.com/ibaiw/joomla_CVE-2023-23752](https://github.com/ibaiw/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/ibaiw/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/ibaiw/joomla_CVE-2023-23752.svg)
+
 - [https://github.com/GhostToKnow/CVE-2023-23752](https://github.com/GhostToKnow/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/GhostToKnow/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/GhostToKnow/CVE-2023-23752.svg)
 
-- [https://github.com/ibaiw/joomla_CVE-2023-23752](https://github.com/ibaiw/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/ibaiw/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/ibaiw/joomla_CVE-2023-23752.svg)
+- [https://github.com/0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xNahim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xNahim/CVE-2023-23752.svg)
 
 - [https://github.com/YusinoMy/CVE-2023-23752](https://github.com/YusinoMy/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/YusinoMy/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/YusinoMy/CVE-2023-23752.svg)
 
@@ -414,13 +414,11 @@
 
 - [https://github.com/AkbarWiraN/Joomla-Scanner](https://github.com/AkbarWiraN/Joomla-Scanner) :  ![starts](https://img.shields.io/github/stars/AkbarWiraN/Joomla-Scanner.svg) ![forks](https://img.shields.io/github/forks/AkbarWiraN/Joomla-Scanner.svg)
 
-- [https://github.com/Pari-Malam/DorkerW-CVE-2023-23752](https://github.com/Pari-Malam/DorkerW-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Pari-Malam/DorkerW-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Pari-Malam/DorkerW-CVE-2023-23752.svg)
-
-- [https://github.com/0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xNahim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xNahim/CVE-2023-23752.svg)
+- [https://github.com/karthikuj/CVE-2023-23752-Docker](https://github.com/karthikuj/CVE-2023-23752-Docker) :  ![starts](https://img.shields.io/github/stars/karthikuj/CVE-2023-23752-Docker.svg) ![forks](https://img.shields.io/github/forks/karthikuj/CVE-2023-23752-Docker.svg)
 
 - [https://github.com/Vulnmachines/joomla_CVE-2023-23752](https://github.com/Vulnmachines/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/joomla_CVE-2023-23752.svg)
 
-- [https://github.com/karthikuj/CVE-2023-23752-Docker](https://github.com/karthikuj/CVE-2023-23752-Docker) :  ![starts](https://img.shields.io/github/stars/karthikuj/CVE-2023-23752-Docker.svg) ![forks](https://img.shields.io/github/forks/karthikuj/CVE-2023-23752-Docker.svg)
+- [https://github.com/Pari-Malam/DorkerW-CVE-2023-23752](https://github.com/Pari-Malam/DorkerW-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Pari-Malam/DorkerW-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Pari-Malam/DorkerW-CVE-2023-23752.svg)
 
 - [https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752](https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/haxor1337x/Mass-Checker-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/haxor1337x/Mass-Checker-CVE-2023-23752.svg)
 
@@ -751,9 +749,7 @@
 
 
 
-- [https://github.com/HshMkr/CVE-2023-21554](https://github.com/HshMkr/CVE-2023-21554) :  ![starts](https://img.shields.io/github/stars/HshMkr/CVE-2023-21554.svg) ![forks](https://img.shields.io/github/forks/HshMkr/CVE-2023-21554.svg)
-
-- [https://github.com/select275/CVE-2023-21554-PoC](https://github.com/select275/CVE-2023-21554-PoC) :  ![starts](https://img.shields.io/github/stars/select275/CVE-2023-21554-PoC.svg) ![forks](https://img.shields.io/github/forks/select275/CVE-2023-21554-PoC.svg)
+- [https://github.com/xhshes/CVE-2023-21554-QueueJumper](https://github.com/xhshes/CVE-2023-21554-QueueJumper) :  ![starts](https://img.shields.io/github/stars/xhshes/CVE-2023-21554-QueueJumper.svg) ![forks](https://img.shields.io/github/forks/xhshes/CVE-2023-21554-QueueJumper.svg)
 
 ## CVE-2023-21389
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -927,7 +923,7 @@
 
 - [https://github.com/Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/Small-ears/CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/Small-ears/CVE-2023-0297.svg)
 
-- [https://github.com/pandousa/CVE-2023-0297](https://github.com/pandousa/CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/pandousa/CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/pandousa/CVE-2023-0297.svg)
+- [https://github.com/gudetem/CVE-2023-0297](https://github.com/gudetem/CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/gudetem/CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/gudetem/CVE-2023-0297.svg)
 
 ## CVE-2023-0286
  There is a type confusion vulnerability relating to X.400 address processing inside an X.509 GeneralName. X.400 addresses were parsed as an ASN1_STRING but the public structure definition for GENERAL_NAME incorrectly specified the type of the x400Address field as ASN1_TYPE. This field is subsequently interpreted by the OpenSSL function GENERAL_NAME_cmp as an ASN1_TYPE rather than an ASN1_STRING. When CRL checking is enabled (i.e. the application sets the X509_V_FLAG_CRL_CHECK flag), this vulnerability may allow an attacker to pass arbitrary pointers to a memcmp call, enabling them to read memory contents or enact a denial of service. In most cases, the attack requires the attacker to provide both the certificate chain and CRL, neither of which need to have a valid signature. If the attacker only controls one of these inputs, the other input must already contain an X.400 address as a CRL distribution point, which is uncommon. As such, this vulnerability is most likely to only affect applications which have implemented their own functionality for retrieving CRLs over a network.
