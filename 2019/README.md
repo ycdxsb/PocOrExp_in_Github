@@ -609,9 +609,9 @@
 
 - [https://github.com/rasyidfox/CVE-2019-18818](https://github.com/rasyidfox/CVE-2019-18818) :  ![starts](https://img.shields.io/github/stars/rasyidfox/CVE-2019-18818.svg) ![forks](https://img.shields.io/github/forks/rasyidfox/CVE-2019-18818.svg)
 
-- [https://github.com/hadrian3689/strapi_cms_3.0.0-beta.17.7](https://github.com/hadrian3689/strapi_cms_3.0.0-beta.17.7) :  ![starts](https://img.shields.io/github/stars/hadrian3689/strapi_cms_3.0.0-beta.17.7.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/strapi_cms_3.0.0-beta.17.7.svg)
-
 - [https://github.com/ossf-cve-benchmark/CVE-2019-18818](https://github.com/ossf-cve-benchmark/CVE-2019-18818) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-18818.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-18818.svg)
+
+- [https://github.com/hadrian3689/strapi_cms_3.0.0-beta.17.7](https://github.com/hadrian3689/strapi_cms_3.0.0-beta.17.7) :  ![starts](https://img.shields.io/github/stars/hadrian3689/strapi_cms_3.0.0-beta.17.7.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/strapi_cms_3.0.0-beta.17.7.svg)
 
 - [https://github.com/glowbase/CVE-2019-19609](https://github.com/glowbase/CVE-2019-19609) :  ![starts](https://img.shields.io/github/stars/glowbase/CVE-2019-19609.svg) ![forks](https://img.shields.io/github/forks/glowbase/CVE-2019-19609.svg)
 
@@ -3814,9 +3814,9 @@
 
 - [https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit) :  ![starts](https://img.shields.io/github/stars/febinrev/CVE-2019-6447-ESfile-explorer-exploit.svg) ![forks](https://img.shields.io/github/forks/febinrev/CVE-2019-6447-ESfile-explorer-exploit.svg)
 
-- [https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application](https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application) :  ![starts](https://img.shields.io/github/stars/KaviDk/CVE-2019-6447-in-Mobile-Application.svg) ![forks](https://img.shields.io/github/forks/KaviDk/CVE-2019-6447-in-Mobile-Application.svg)
-
 - [https://github.com/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer](https://github.com/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer) :  ![starts](https://img.shields.io/github/stars/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer.svg) ![forks](https://img.shields.io/github/forks/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer.svg)
+
+- [https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application](https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application) :  ![starts](https://img.shields.io/github/stars/KaviDk/CVE-2019-6447-in-Mobile-Application.svg) ![forks](https://img.shields.io/github/forks/KaviDk/CVE-2019-6447-in-Mobile-Application.svg)
 
 - [https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447](https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447) :  ![starts](https://img.shields.io/github/stars/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447.svg) ![forks](https://img.shields.io/github/forks/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447.svg)
 
@@ -4388,15 +4388,15 @@
 
 - [https://github.com/yuehanked/cve-2019-3396](https://github.com/yuehanked/cve-2019-3396) :  ![starts](https://img.shields.io/github/stars/yuehanked/cve-2019-3396.svg) ![forks](https://img.shields.io/github/forks/yuehanked/cve-2019-3396.svg)
 
-- [https://github.com/46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence) :  ![starts](https://img.shields.io/github/stars/46o60/CVE-2019-3396_Confluence.svg) ![forks](https://img.shields.io/github/forks/46o60/CVE-2019-3396_Confluence.svg)
-
 - [https://github.com/JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST) :  ![starts](https://img.shields.io/github/stars/JonathanZhou348/CVE-2019-3396TEST.svg) ![forks](https://img.shields.io/github/forks/JonathanZhou348/CVE-2019-3396TEST.svg)
 
 - [https://github.com/xiaoshuier/CVE-2019-3396](https://github.com/xiaoshuier/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/xiaoshuier/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/xiaoshuier/CVE-2019-3396.svg)
 
-- [https://github.com/quanpt103/CVE-2019-3396](https://github.com/quanpt103/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/quanpt103/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/quanpt103/CVE-2019-3396.svg)
+- [https://github.com/46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence) :  ![starts](https://img.shields.io/github/stars/46o60/CVE-2019-3396_Confluence.svg) ![forks](https://img.shields.io/github/forks/46o60/CVE-2019-3396_Confluence.svg)
 
 - [https://github.com/s1xg0d/CVE-2019-3396](https://github.com/s1xg0d/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/s1xg0d/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/s1xg0d/CVE-2019-3396.svg)
+
+- [https://github.com/quanpt103/CVE-2019-3396](https://github.com/quanpt103/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/quanpt103/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/quanpt103/CVE-2019-3396.svg)
 
 - [https://github.com/vntest11/confluence_CVE-2019-3396](https://github.com/vntest11/confluence_CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/vntest11/confluence_CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/vntest11/confluence_CVE-2019-3396.svg)
 
@@ -4721,6 +4721,15 @@
 
 
 - [https://github.com/0x27/CiscoRV320Dump](https://github.com/0x27/CiscoRV320Dump) :  ![starts](https://img.shields.io/github/stars/0x27/CiscoRV320Dump.svg) ![forks](https://img.shields.io/github/forks/0x27/CiscoRV320Dump.svg)
+
+## CVE-2019-1579
+ Remote Code Execution in PAN-OS 7.1.18 and earlier, PAN-OS 8.0.11-h1 and earlier, and PAN-OS 8.1.2 and earlier with GlobalProtect Portal or GlobalProtect Gateway Interface enabled may allow an unauthenticated remote attacker to execute arbitrary code.
+
+
+
+- [https://github.com/securifera/CVE-2019-1579](https://github.com/securifera/CVE-2019-1579) :  ![starts](https://img.shields.io/github/stars/securifera/CVE-2019-1579.svg) ![forks](https://img.shields.io/github/forks/securifera/CVE-2019-1579.svg)
+
+- [https://github.com/Elsfa7-110/CVE-2019-1579](https://github.com/Elsfa7-110/CVE-2019-1579) :  ![starts](https://img.shields.io/github/stars/Elsfa7-110/CVE-2019-1579.svg) ![forks](https://img.shields.io/github/forks/Elsfa7-110/CVE-2019-1579.svg)
 
 ## CVE-2019-1477
  An elevation of privilege vulnerability exists when the Windows Printer Service improperly validates file paths while loading printer drivers, aka 'Windows Printer Service Elevation of Privilege Vulnerability'.
@@ -5203,9 +5212,9 @@
 
 - [https://github.com/YHZX2013/CVE-2019-0709](https://github.com/YHZX2013/CVE-2019-0709) :  ![starts](https://img.shields.io/github/stars/YHZX2013/CVE-2019-0709.svg) ![forks](https://img.shields.io/github/forks/YHZX2013/CVE-2019-0709.svg)
 
-- [https://github.com/skommando/CVE-2019-0708](https://github.com/skommando/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/skommando/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/skommando/CVE-2019-0708.svg)
-
 - [https://github.com/infenet/CVE-2019-0708](https://github.com/infenet/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/infenet/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/infenet/CVE-2019-0708.svg)
+
+- [https://github.com/skommando/CVE-2019-0708](https://github.com/skommando/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/skommando/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/skommando/CVE-2019-0708.svg)
 
 - [https://github.com/haishanzheng/CVE-2019-0708-generate-hosts](https://github.com/haishanzheng/CVE-2019-0708-generate-hosts) :  ![starts](https://img.shields.io/github/stars/haishanzheng/CVE-2019-0708-generate-hosts.svg) ![forks](https://img.shields.io/github/forks/haishanzheng/CVE-2019-0708-generate-hosts.svg)
 
@@ -5231,9 +5240,9 @@
 
 - [https://github.com/safly/CVE-2019-0708](https://github.com/safly/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/safly/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/safly/CVE-2019-0708.svg)
 
-- [https://github.com/l9c/rdp0708scanner](https://github.com/l9c/rdp0708scanner) :  ![starts](https://img.shields.io/github/stars/l9c/rdp0708scanner.svg) ![forks](https://img.shields.io/github/forks/l9c/rdp0708scanner.svg)
-
 - [https://github.com/hotdog777714/RDS_CVE-2019-0708](https://github.com/hotdog777714/RDS_CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/hotdog777714/RDS_CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/hotdog777714/RDS_CVE-2019-0708.svg)
+
+- [https://github.com/l9c/rdp0708scanner](https://github.com/l9c/rdp0708scanner) :  ![starts](https://img.shields.io/github/stars/l9c/rdp0708scanner.svg) ![forks](https://img.shields.io/github/forks/l9c/rdp0708scanner.svg)
 
 - [https://github.com/cream-sec/CVE-2019-0708-Msf--](https://github.com/cream-sec/CVE-2019-0708-Msf--) :  ![starts](https://img.shields.io/github/stars/cream-sec/CVE-2019-0708-Msf--.svg) ![forks](https://img.shields.io/github/forks/cream-sec/CVE-2019-0708-Msf--.svg)
 
@@ -5255,9 +5264,9 @@
 
 - [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
 
-- [https://github.com/0xFlag/CVE-2019-0708-test](https://github.com/0xFlag/CVE-2019-0708-test) :  ![starts](https://img.shields.io/github/stars/0xFlag/CVE-2019-0708-test.svg) ![forks](https://img.shields.io/github/forks/0xFlag/CVE-2019-0708-test.svg)
-
 - [https://github.com/JasonLOU/CVE-2019-0708](https://github.com/JasonLOU/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/JasonLOU/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/JasonLOU/CVE-2019-0708.svg)
+
+- [https://github.com/0xFlag/CVE-2019-0708-test](https://github.com/0xFlag/CVE-2019-0708-test) :  ![starts](https://img.shields.io/github/stars/0xFlag/CVE-2019-0708-test.svg) ![forks](https://img.shields.io/github/forks/0xFlag/CVE-2019-0708-test.svg)
 
 - [https://github.com/wdfcc/CVE-2019-0708](https://github.com/wdfcc/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/wdfcc/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/wdfcc/CVE-2019-0708.svg)
 
@@ -5275,7 +5284,7 @@
 
 - [https://github.com/f8al/CVE-2019-0708-POC](https://github.com/f8al/CVE-2019-0708-POC) :  ![starts](https://img.shields.io/github/stars/f8al/CVE-2019-0708-POC.svg) ![forks](https://img.shields.io/github/forks/f8al/CVE-2019-0708-POC.svg)
 
-- [https://github.com/sbkcbig/CVE-2019-0708-EXPloit](https://github.com/sbkcbig/CVE-2019-0708-EXPloit) :  ![starts](https://img.shields.io/github/stars/sbkcbig/CVE-2019-0708-EXPloit.svg) ![forks](https://img.shields.io/github/forks/sbkcbig/CVE-2019-0708-EXPloit.svg)
+- [https://github.com/ttsite/CVE-2019-0708](https://github.com/ttsite/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ttsite/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ttsite/CVE-2019-0708.svg)
 
 ## CVE-2019-0678
  An elevation of privilege vulnerability exists when Microsoft Edge does not properly enforce cross-domain policies, which could allow an attacker to access information from one domain and inject it into another domain.In a web-based attack scenario, an attacker could host a website that is used to attempt to exploit the vulnerability, aka 'Microsoft Edge Elevation of Privilege Vulnerability'.
