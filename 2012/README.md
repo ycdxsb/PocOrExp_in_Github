@@ -140,6 +140,13 @@
 
 - [https://github.com/sh7alward/CVE-20121-34527-nightmare](https://github.com/sh7alward/CVE-20121-34527-nightmare) :  ![starts](https://img.shields.io/github/stars/sh7alward/CVE-20121-34527-nightmare.svg) ![forks](https://img.shields.io/github/forks/sh7alward/CVE-20121-34527-nightmare.svg)
 
+## CVE-2012-3153
+ Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fusion Middleware 11.1.1.4, 11.1.1.6, and 11.1.2.0 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Servlet.  NOTE: the previous information is from the October 2012 CPU. Oracle has not commented on claims from the original researcher that the PARSEQUERY function allows remote attackers to obtain database credentials via reports/rwservlet/parsequery, and that this issue occurs in earlier versions.  NOTE: this can be leveraged with CVE-2012-3152 to execute arbitrary code by uploading a .jsp file.
+
+
+
+- [https://github.com/Mekanismen/pwnacle-fusion](https://github.com/Mekanismen/pwnacle-fusion) :  ![starts](https://img.shields.io/github/stars/Mekanismen/pwnacle-fusion.svg) ![forks](https://img.shields.io/github/forks/Mekanismen/pwnacle-fusion.svg)
+
 ## CVE-2012-3152
  Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fusion Middleware 11.1.1.4, 11.1.1.6, and 11.1.2.0 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Report Server Component.  NOTE: the previous information is from the October 2012 CPU. Oracle has not commented on claims from the original researcher that the URLPARAMETER functionality allows remote attackers to read and upload arbitrary files to reports/rwservlet, and that this issue occurs in earlier versions.  NOTE: this can be leveraged with CVE-2012-3153 to execute arbitrary code by uploading a .jsp file.
 
