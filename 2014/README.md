@@ -3,7 +3,7 @@
 
 
 
-- [https://github.com/Manouchehri/hitron-cfg-decrypter](https://github.com/Manouchehri/hitron-cfg-decrypter) :  ![starts](https://img.shields.io/github/stars/Manouchehri/hitron-cfg-decrypter.svg) ![forks](https://img.shields.io/github/forks/Manouchehri/hitron-cfg-decrypter.svg)
+- [https://github.com/aimoda/hitron-cfg-decrypter](https://github.com/aimoda/hitron-cfg-decrypter) :  ![starts](https://img.shields.io/github/stars/aimoda/hitron-cfg-decrypter.svg) ![forks](https://img.shields.io/github/forks/aimoda/hitron-cfg-decrypter.svg)
 
 ## CVE-2014-9390
  Git before 1.8.5.6, 1.9.x before 1.9.5, 2.0.x before 2.0.5, 2.1.x before 2.1.4, and 2.2.x before 2.2.1 on Windows and OS X; Mercurial before 3.2.3 on Windows and OS X; Apple Xcode before 6.2 beta 3; mine all versions before 08-12-2014; libgit2 all versions up to 0.21.2; Egit all versions before 08-12-2014; and JGit all versions before 08-12-2014 allow remote Git servers to execute arbitrary commands via a tree containing a crafted .git/config file with (1) an ignorable Unicode codepoint, (2) a git~1/config representation, or (3) mixed case that is improperly handled on a case-insensitive filesystem.
@@ -287,17 +287,17 @@
 
 - [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
 
-- [https://github.com/APSL/salt-shellshock](https://github.com/APSL/salt-shellshock) :  ![starts](https://img.shields.io/github/stars/APSL/salt-shellshock.svg) ![forks](https://img.shields.io/github/forks/APSL/salt-shellshock.svg)
-
 - [https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271](https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/w4fz5uck5/ShockZaum-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/w4fz5uck5/ShockZaum-CVE-2014-6271.svg)
+
+- [https://github.com/APSL/salt-shellshock](https://github.com/APSL/salt-shellshock) :  ![starts](https://img.shields.io/github/stars/APSL/salt-shellshock.svg) ![forks](https://img.shields.io/github/forks/APSL/salt-shellshock.svg)
 
 - [https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian) :  ![starts](https://img.shields.io/github/stars/mochizuki875/CVE-2014-6271-Apache-Debian.svg) ![forks](https://img.shields.io/github/forks/mochizuki875/CVE-2014-6271-Apache-Debian.svg)
 
 - [https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg)
 
-- [https://github.com/Gurguii/cgi-bin-shellshock](https://github.com/Gurguii/cgi-bin-shellshock) :  ![starts](https://img.shields.io/github/stars/Gurguii/cgi-bin-shellshock.svg) ![forks](https://img.shields.io/github/forks/Gurguii/cgi-bin-shellshock.svg)
-
 - [https://github.com/gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww) :  ![starts](https://img.shields.io/github/stars/gabemarshall/shocknaww.svg) ![forks](https://img.shields.io/github/forks/gabemarshall/shocknaww.svg)
+
+- [https://github.com/Gurguii/cgi-bin-shellshock](https://github.com/Gurguii/cgi-bin-shellshock) :  ![starts](https://img.shields.io/github/stars/Gurguii/cgi-bin-shellshock.svg) ![forks](https://img.shields.io/github/forks/Gurguii/cgi-bin-shellshock.svg)
 
 - [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) :  ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
 
@@ -329,13 +329,13 @@
 
 - [https://github.com/0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2014-6271.svg)
 
-- [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
+- [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
 
 - [https://github.com/mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mattclegg/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mattclegg/CVE-2014-6271.svg)
 
 - [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
 
-- [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
+- [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
 
 - [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
 
@@ -367,11 +367,11 @@
 
 - [https://github.com/anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host) :  ![starts](https://img.shields.io/github/stars/anujbhan/shellshock-victim-host.svg) ![forks](https://img.shields.io/github/forks/anujbhan/shellshock-victim-host.svg)
 
-- [https://github.com/teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit) :  ![starts](https://img.shields.io/github/stars/teedeedubya/bash-fix-exploit.svg) ![forks](https://img.shields.io/github/forks/teedeedubya/bash-fix-exploit.svg)
+- [https://github.com/justzx2011/bash-up](https://github.com/justzx2011/bash-up) :  ![starts](https://img.shields.io/github/stars/justzx2011/bash-up.svg) ![forks](https://img.shields.io/github/forks/justzx2011/bash-up.svg)
 
 - [https://github.com/ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3) :  ![starts](https://img.shields.io/github/stars/ryancnelson/patched-bash-4.3.svg) ![forks](https://img.shields.io/github/forks/ryancnelson/patched-bash-4.3.svg)
 
-- [https://github.com/justzx2011/bash-up](https://github.com/justzx2011/bash-up) :  ![starts](https://img.shields.io/github/stars/justzx2011/bash-up.svg) ![forks](https://img.shields.io/github/forks/justzx2011/bash-up.svg)
+- [https://github.com/teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit) :  ![starts](https://img.shields.io/github/stars/teedeedubya/bash-fix-exploit.svg) ![forks](https://img.shields.io/github/forks/teedeedubya/bash-fix-exploit.svg)
 
 - [https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271](https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/internero/debian-lenny-bash_3.2.52-cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/internero/debian-lenny-bash_3.2.52-cve-2014-6271.svg)
 
@@ -954,11 +954,11 @@
 
 - [https://github.com/sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix) :  ![starts](https://img.shields.io/github/stars/sammyfung/openssl-heartbleed-fix.svg) ![forks](https://img.shields.io/github/forks/sammyfung/openssl-heartbleed-fix.svg)
 
-- [https://github.com/proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention) :  ![starts](https://img.shields.io/github/stars/proactiveRISK/heartbleed-extention.svg) ![forks](https://img.shields.io/github/forks/proactiveRISK/heartbleed-extention.svg)
-
 - [https://github.com/amerine/coronary](https://github.com/amerine/coronary) :  ![starts](https://img.shields.io/github/stars/amerine/coronary.svg) ![forks](https://img.shields.io/github/forks/amerine/coronary.svg)
 
 - [https://github.com/GardeniaWhite/fuzzing](https://github.com/GardeniaWhite/fuzzing) :  ![starts](https://img.shields.io/github/stars/GardeniaWhite/fuzzing.svg) ![forks](https://img.shields.io/github/forks/GardeniaWhite/fuzzing.svg)
+
+- [https://github.com/proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention) :  ![starts](https://img.shields.io/github/stars/proactiveRISK/heartbleed-extention.svg) ![forks](https://img.shields.io/github/forks/proactiveRISK/heartbleed-extention.svg)
 
 - [https://github.com/xlucas/heartbleed](https://github.com/xlucas/heartbleed) :  ![starts](https://img.shields.io/github/stars/xlucas/heartbleed.svg) ![forks](https://img.shields.io/github/forks/xlucas/heartbleed.svg)
 
@@ -974,9 +974,9 @@
 
 - [https://github.com/ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/ice-security88/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/ice-security88/CVE-2014-0160.svg)
 
-- [https://github.com/fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/fb1h2s/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/fb1h2s/CVE-2014-0160.svg)
-
 - [https://github.com/obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner) :  ![starts](https://img.shields.io/github/stars/obayesshelton/CVE-2014-0160-Scanner.svg) ![forks](https://img.shields.io/github/forks/obayesshelton/CVE-2014-0160-Scanner.svg)
+
+- [https://github.com/fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/fb1h2s/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/fb1h2s/CVE-2014-0160.svg)
 
 - [https://github.com/k4u5h41/CVE-2014-0160_Heartbleed](https://github.com/k4u5h41/CVE-2014-0160_Heartbleed) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2014-0160_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2014-0160_Heartbleed.svg)
 
@@ -992,9 +992,9 @@
 
 - [https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed](https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed) :  ![starts](https://img.shields.io/github/stars/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg)
 
-- [https://github.com/indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-) :  ![starts](https://img.shields.io/github/stars/indiw0rm/-Heartbleed-.svg) ![forks](https://img.shields.io/github/forks/indiw0rm/-Heartbleed-.svg)
-
 - [https://github.com/takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse) :  ![starts](https://img.shields.io/github/stars/takeshixx/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/takeshixx/ssl-heartbleed.nse.svg)
+
+- [https://github.com/indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-) :  ![starts](https://img.shields.io/github/stars/indiw0rm/-Heartbleed-.svg) ![forks](https://img.shields.io/github/forks/indiw0rm/-Heartbleed-.svg)
 
 - [https://github.com/iSCInc/heartbleed](https://github.com/iSCInc/heartbleed) :  ![starts](https://img.shields.io/github/stars/iSCInc/heartbleed.svg) ![forks](https://img.shields.io/github/forks/iSCInc/heartbleed.svg)
 
