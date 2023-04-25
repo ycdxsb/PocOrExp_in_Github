@@ -6,7 +6,7 @@
 - [https://github.com/Toxich4/CVE-2023-30459](https://github.com/Toxich4/CVE-2023-30459) :  ![starts](https://img.shields.io/github/stars/Toxich4/CVE-2023-30459.svg) ![forks](https://img.shields.io/github/forks/Toxich4/CVE-2023-30459.svg)
 
 ## CVE-2023-30458
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A username enumeration issue was discovered in Medicine Tracker System 1.0. The login functionality allows a malicious user to guess a valid username due to a different response time from invalid usernames. When one enters a valid username, the response time increases depending on the length of the supplied password.
 
 
 
@@ -75,6 +75,8 @@
 
 - [https://github.com/Okaytc/minio_unauth_check](https://github.com/Okaytc/minio_unauth_check) :  ![starts](https://img.shields.io/github/stars/Okaytc/minio_unauth_check.svg) ![forks](https://img.shields.io/github/forks/Okaytc/minio_unauth_check.svg)
 
+- [https://github.com/octosec45/ms-word-rce-0day-poc-2023](https://github.com/octosec45/ms-word-rce-0day-poc-2023) :  ![starts](https://img.shields.io/github/stars/octosec45/ms-word-rce-0day-poc-2023.svg) ![forks](https://img.shields.io/github/forks/octosec45/ms-word-rce-0day-poc-2023.svg)
+
 - [https://github.com/Majus527/MinIO_CVE-2023-28432](https://github.com/Majus527/MinIO_CVE-2023-28432) :  ![starts](https://img.shields.io/github/stars/Majus527/MinIO_CVE-2023-28432.svg) ![forks](https://img.shields.io/github/forks/Majus527/MinIO_CVE-2023-28432.svg)
 
 - [https://github.com/acheiii/CVE-2023-28432](https://github.com/acheiii/CVE-2023-28432) :  ![starts](https://img.shields.io/github/stars/acheiii/CVE-2023-28432.svg) ![forks](https://img.shields.io/github/forks/acheiii/CVE-2023-28432.svg)
@@ -84,8 +86,6 @@
 - [https://github.com/h0ng10/CVE-2023-28432_docker](https://github.com/h0ng10/CVE-2023-28432_docker) :  ![starts](https://img.shields.io/github/stars/h0ng10/CVE-2023-28432_docker.svg) ![forks](https://img.shields.io/github/forks/h0ng10/CVE-2023-28432_docker.svg)
 
 - [https://github.com/yuyongxr/minio_cve-2023-28432](https://github.com/yuyongxr/minio_cve-2023-28432) :  ![starts](https://img.shields.io/github/stars/yuyongxr/minio_cve-2023-28432.svg) ![forks](https://img.shields.io/github/forks/yuyongxr/minio_cve-2023-28432.svg)
-
-- [https://github.com/7a6163/CVE-2023-28432](https://github.com/7a6163/CVE-2023-28432) :  ![starts](https://img.shields.io/github/stars/7a6163/CVE-2023-28432.svg) ![forks](https://img.shields.io/github/forks/7a6163/CVE-2023-28432.svg)
 
 - [https://github.com/LHXHL/Minio-CVE-2023-28432](https://github.com/LHXHL/Minio-CVE-2023-28432) :  ![starts](https://img.shields.io/github/stars/LHXHL/Minio-CVE-2023-28432.svg) ![forks](https://img.shields.io/github/forks/LHXHL/Minio-CVE-2023-28432.svg)
 
@@ -185,6 +185,8 @@
  This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not required to exploit this vulnerability. The specific flaw exists within the SetupCompleted class. The issue results from improper access control. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-18987.
 
 
+
+- [https://github.com/horizon3ai/CVE-2023-27350](https://github.com/horizon3ai/CVE-2023-27350) :  ![starts](https://img.shields.io/github/stars/horizon3ai/CVE-2023-27350.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/CVE-2023-27350.svg)
 
 - [https://github.com/TamingSariMY/CVE-2023-27350-POC](https://github.com/TamingSariMY/CVE-2023-27350-POC) :  ![starts](https://img.shields.io/github/stars/TamingSariMY/CVE-2023-27350-POC.svg) ![forks](https://img.shields.io/github/forks/TamingSariMY/CVE-2023-27350-POC.svg)
 
@@ -325,9 +327,9 @@
 
 - [https://github.com/Christbowel/CVE-2023-25136](https://github.com/Christbowel/CVE-2023-25136) :  ![starts](https://img.shields.io/github/stars/Christbowel/CVE-2023-25136.svg) ![forks](https://img.shields.io/github/forks/Christbowel/CVE-2023-25136.svg)
 
-- [https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free](https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free) :  ![starts](https://img.shields.io/github/stars/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free.svg) ![forks](https://img.shields.io/github/forks/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free.svg)
-
 - [https://github.com/adhikara13/CVE-2023-25136](https://github.com/adhikara13/CVE-2023-25136) :  ![starts](https://img.shields.io/github/stars/adhikara13/CVE-2023-25136.svg) ![forks](https://img.shields.io/github/forks/adhikara13/CVE-2023-25136.svg)
+
+- [https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free](https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free) :  ![starts](https://img.shields.io/github/stars/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free.svg) ![forks](https://img.shields.io/github/forks/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free.svg)
 
 - [https://github.com/ticofookfook/CVE-2023-25136](https://github.com/ticofookfook/CVE-2023-25136) :  ![starts](https://img.shields.io/github/stars/ticofookfook/CVE-2023-25136.svg) ![forks](https://img.shields.io/github/forks/ticofookfook/CVE-2023-25136.svg)
 
@@ -448,6 +450,8 @@
 
 - [https://github.com/ifacker/CVE-2023-23752-Joomla](https://github.com/ifacker/CVE-2023-23752-Joomla) :  ![starts](https://img.shields.io/github/stars/ifacker/CVE-2023-23752-Joomla.svg) ![forks](https://img.shields.io/github/forks/ifacker/CVE-2023-23752-Joomla.svg)
 
+- [https://github.com/octosec45/ms-word-rce-0day-poc-2023](https://github.com/octosec45/ms-word-rce-0day-poc-2023) :  ![starts](https://img.shields.io/github/stars/octosec45/ms-word-rce-0day-poc-2023.svg) ![forks](https://img.shields.io/github/forks/octosec45/ms-word-rce-0day-poc-2023.svg)
+
 - [https://github.com/GhostToKnow/CVE-2023-23752](https://github.com/GhostToKnow/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/GhostToKnow/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/GhostToKnow/CVE-2023-23752.svg)
 
 - [https://github.com/ibaiw/joomla_CVE-2023-23752](https://github.com/ibaiw/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/ibaiw/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/ibaiw/joomla_CVE-2023-23752.svg)
@@ -547,9 +551,9 @@
 
 - [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
 
-- [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)
-
 - [https://github.com/stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/stevesec/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/stevesec/CVE-2023-23397.svg)
+
+- [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)
 
 - [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)
 
@@ -659,6 +663,13 @@
 
 - [https://github.com/eduardosantos1989/CVE-2023-22941](https://github.com/eduardosantos1989/CVE-2023-22941) :  ![starts](https://img.shields.io/github/stars/eduardosantos1989/CVE-2023-22941.svg) ![forks](https://img.shields.io/github/forks/eduardosantos1989/CVE-2023-22941.svg)
 
+## CVE-2023-22894
+ Strapi through 4.5.5 allows attackers (with access to the admin panel) to discover sensitive user details by exploiting the query filter. The attacker can filter users by columns that contain sensitive information and infer a value from API responses. If the attacker has super admin access, then this can be exploited to discover the password hash and password reset token of all users. If the attacker has admin panel access to an account with permission to access the username and email of API users with a lower privileged role (e.g., Editor or Author), then this can be exploited to discover sensitive information for all API users but not other admin accounts.
+
+
+
+- [https://github.com/Saboor-Hakimi/CVE-2023-22894](https://github.com/Saboor-Hakimi/CVE-2023-22894) :  ![starts](https://img.shields.io/github/stars/Saboor-Hakimi/CVE-2023-22894.svg) ![forks](https://img.shields.io/github/forks/Saboor-Hakimi/CVE-2023-22894.svg)
+
 ## CVE-2023-22855
  Kardex Mlog MCC 5.7.12+0-a203c2a213-master allows remote code execution. It spawns a web interface listening on port 8088. A user-controllable path is handed to a path-concatenation method (Path.Combine from .NET) without proper sanitisation. This yields the possibility of including local files, as well as remote files on SMB shares. If one provides a file with the extension .t4, it is rendered with the .NET templating engine mono/t4, which can execute code.
 
@@ -676,6 +687,8 @@
 - [https://github.com/M4fiaB0y/CVE-2023-22809](https://github.com/M4fiaB0y/CVE-2023-22809) :  ![starts](https://img.shields.io/github/stars/M4fiaB0y/CVE-2023-22809.svg) ![forks](https://img.shields.io/github/forks/M4fiaB0y/CVE-2023-22809.svg)
 
 - [https://github.com/CKevens/CVE-2023-22809-sudo-POC](https://github.com/CKevens/CVE-2023-22809-sudo-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-22809-sudo-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-22809-sudo-POC.svg)
+
+- [https://github.com/octosec45/ms-word-rce-0day-poc-2023](https://github.com/octosec45/ms-word-rce-0day-poc-2023) :  ![starts](https://img.shields.io/github/stars/octosec45/ms-word-rce-0day-poc-2023.svg) ![forks](https://img.shields.io/github/forks/octosec45/ms-word-rce-0day-poc-2023.svg)
 
 ## CVE-2023-22551
  The FTP (aka &quot;Implementation of a simple FTP client and server&quot;) project through 96c1a35 allows remote attackers to cause a denial of service (memory consumption) by engaging in client activity, such as establishing and then terminating a connection. This occurs because malloc is used but free is not.
@@ -730,6 +743,8 @@
 - [https://github.com/Firebasky/CVE-2023-21839](https://github.com/Firebasky/CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/Firebasky/CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/Firebasky/CVE-2023-21839.svg)
 
 - [https://github.com/houqe/POC_CVE-2023-21839](https://github.com/houqe/POC_CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/houqe/POC_CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/houqe/POC_CVE-2023-21839.svg)
+
+- [https://github.com/octosec45/ms-word-rce-0day-poc-2023](https://github.com/octosec45/ms-word-rce-0day-poc-2023) :  ![starts](https://img.shields.io/github/stars/octosec45/ms-word-rce-0day-poc-2023.svg) ![forks](https://img.shields.io/github/forks/octosec45/ms-word-rce-0day-poc-2023.svg)
 
 - [https://github.com/fakenews2025/CVE-2023-21839](https://github.com/fakenews2025/CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/fakenews2025/CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/fakenews2025/CVE-2023-21839.svg)
 
@@ -826,8 +841,6 @@
 
 
 
-- [https://github.com/g1x-r/CVE-2023-21554-PoC](https://github.com/g1x-r/CVE-2023-21554-PoC) :  ![starts](https://img.shields.io/github/stars/g1x-r/CVE-2023-21554-PoC.svg) ![forks](https://img.shields.io/github/forks/g1x-r/CVE-2023-21554-PoC.svg)
-
 - [https://github.com/Hashi0x/PoC-CVE-2023-21554](https://github.com/Hashi0x/PoC-CVE-2023-21554) :  ![starts](https://img.shields.io/github/stars/Hashi0x/PoC-CVE-2023-21554.svg) ![forks](https://img.shields.io/github/forks/Hashi0x/PoC-CVE-2023-21554.svg)
 
 ## CVE-2023-21389
@@ -923,6 +936,8 @@
 
 - [https://github.com/ohnonoyesyes/CVE-2023-1671](https://github.com/ohnonoyesyes/CVE-2023-1671) :  ![starts](https://img.shields.io/github/stars/ohnonoyesyes/CVE-2023-1671.svg) ![forks](https://img.shields.io/github/forks/ohnonoyesyes/CVE-2023-1671.svg)
 
+- [https://github.com/W01fh4cker/CVE-2023-1671-POC](https://github.com/W01fh4cker/CVE-2023-1671-POC) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/CVE-2023-1671-POC.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/CVE-2023-1671-POC.svg)
+
 ## CVE-2023-1665
  Improper Restriction of Excessive Authentication Attempts in GitHub repository linagora/twake prior to 0.0.0.
 
@@ -941,9 +956,9 @@
 
 - [https://github.com/gobysec/CVE-2023-1454](https://github.com/gobysec/CVE-2023-1454) :  ![starts](https://img.shields.io/github/stars/gobysec/CVE-2023-1454.svg) ![forks](https://img.shields.io/github/forks/gobysec/CVE-2023-1454.svg)
 
-- [https://github.com/BugFor-Pings/CVE-2023-1454](https://github.com/BugFor-Pings/CVE-2023-1454) :  ![starts](https://img.shields.io/github/stars/BugFor-Pings/CVE-2023-1454.svg) ![forks](https://img.shields.io/github/forks/BugFor-Pings/CVE-2023-1454.svg)
-
 - [https://github.com/CKevens/CVE-2023-1454-EXP](https://github.com/CKevens/CVE-2023-1454-EXP) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-1454-EXP.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-1454-EXP.svg)
+
+- [https://github.com/BugFor-Pings/CVE-2023-1454](https://github.com/BugFor-Pings/CVE-2023-1454) :  ![starts](https://img.shields.io/github/stars/BugFor-Pings/CVE-2023-1454.svg) ![forks](https://img.shields.io/github/forks/BugFor-Pings/CVE-2023-1454.svg)
 
 ## CVE-2023-1415
  A vulnerability was found in Simple Art Gallery 1.0. It has been declared as critical. This vulnerability affects the function sliderPicSubmit of the file adminHome.php. The manipulation leads to unrestricted upload. The attack can be initiated remotely. VDB-223126 is the identifier assigned to this vulnerability.
@@ -1018,6 +1033,13 @@
 
 - [https://github.com/Griffin-01/CVE-2023-0669](https://github.com/Griffin-01/CVE-2023-0669) :  ![starts](https://img.shields.io/github/stars/Griffin-01/CVE-2023-0669.svg) ![forks](https://img.shields.io/github/forks/Griffin-01/CVE-2023-0669.svg)
 
+## CVE-2023-0464
+ A security vulnerability has been identified in all supported versions of OpenSSL related to the verification of X.509 certificate chains that include policy constraints. Attackers may be able to exploit this vulnerability by creating a malicious certificate chain that triggers exponential use of computational resources, leading to a denial-of-service (DoS) attack on affected systems. Policy processing is disabled by default but can be enabled by passing the `-policy' argument to the command line utilities or by calling the `X509_VERIFY_PARAM_set1_policies()' function.
+
+
+
+- [https://github.com/Trinadh465/Openssl_1.1.1g_CVE-2023-0464](https://github.com/Trinadh465/Openssl_1.1.1g_CVE-2023-0464) :  ![starts](https://img.shields.io/github/stars/Trinadh465/Openssl_1.1.1g_CVE-2023-0464.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/Openssl_1.1.1g_CVE-2023-0464.svg)
+
 ## CVE-2023-0315
  Command Injection in GitHub repository froxlor/froxlor prior to 2.0.8.
 
@@ -1057,6 +1079,8 @@
 
 - [https://github.com/nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215](https://github.com/nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215.svg)
 
+- [https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215.svg)
+
 ## CVE-2023-0179
  A buffer overflow vulnerability was found in the Netfilter subsystem in the Linux Kernel. This issue could allow the leakage of both stack and heap addresses, and potentially allow Local Privilege Escalation to the root user via arbitrary code execution.
 
@@ -1065,6 +1089,8 @@
 - [https://github.com/H4K6/CVE-2023-0179-PoC](https://github.com/H4K6/CVE-2023-0179-PoC) :  ![starts](https://img.shields.io/github/stars/H4K6/CVE-2023-0179-PoC.svg) ![forks](https://img.shields.io/github/forks/H4K6/CVE-2023-0179-PoC.svg)
 
 - [https://github.com/TurtleARM/CVE-2023-0179-PoC](https://github.com/TurtleARM/CVE-2023-0179-PoC) :  ![starts](https://img.shields.io/github/stars/TurtleARM/CVE-2023-0179-PoC.svg) ![forks](https://img.shields.io/github/forks/TurtleARM/CVE-2023-0179-PoC.svg)
+
+- [https://github.com/puppypete99/discord-rce-exploit-poc-2023-04](https://github.com/puppypete99/discord-rce-exploit-poc-2023-04) :  ![starts](https://img.shields.io/github/stars/puppypete99/discord-rce-exploit-poc-2023-04.svg) ![forks](https://img.shields.io/github/forks/puppypete99/discord-rce-exploit-poc-2023-04.svg)
 
 ## CVE-2023-0110
  Cross-site Scripting (XSS) - Stored in GitHub repository usememos/memos prior to 0.10.0.
