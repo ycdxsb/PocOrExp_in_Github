@@ -12,6 +12,13 @@
 
 - [https://github.com/d34dun1c02n/CVE-2023-30458](https://github.com/d34dun1c02n/CVE-2023-30458) :  ![starts](https://img.shields.io/github/stars/d34dun1c02n/CVE-2023-30458.svg) ![forks](https://img.shields.io/github/forks/d34dun1c02n/CVE-2023-30458.svg)
 
+## CVE-2023-29489
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/learnerboy88/CVE-2023-29489](https://github.com/learnerboy88/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/learnerboy88/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/learnerboy88/CVE-2023-29489.svg)
+
 ## CVE-2023-29478
  BiblioCraft before 2.4.6 does not sanitize path-traversal characters in filenames, allowing restricted write access to almost anywhere on the filesystem. This includes the Minecraft mods folder, which results in code execution.
 
@@ -34,6 +41,13 @@
 - [https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017](https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017) :  ![starts](https://img.shields.io/github/stars/timb-machine-mirrors/seongil-wi-CVE-2023-29017.svg) ![forks](https://img.shields.io/github/forks/timb-machine-mirrors/seongil-wi-CVE-2023-29017.svg)
 
 - [https://github.com/Kaneki-hash/CVE-2023-29017-reverse-shell](https://github.com/Kaneki-hash/CVE-2023-29017-reverse-shell) :  ![starts](https://img.shields.io/github/stars/Kaneki-hash/CVE-2023-29017-reverse-shell.svg) ![forks](https://img.shields.io/github/forks/Kaneki-hash/CVE-2023-29017-reverse-shell.svg)
+
+## CVE-2023-29007
+ Git is a revision control system. Prior to versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1, a specially crafted `.gitmodules` file with submodule URLs that are longer than 1024 characters can used to exploit a bug in `config.c::git_config_copy_or_rename_section_in_file()`. This bug can be used to inject arbitrary configuration into a user's `$GIT_DIR/config` when attempting to remove the configuration section associated with that submodule. When the attacker injects configuration values which specify executables to run (such as `core.pager`, `core.editor`, `core.sshCommand`, etc.) this can lead to a remote code execution. A fix A fix is available in versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1. As a workaround, avoid running `git submodule deinit` on untrusted repositories or without prior inspection of any submodule sections in `$GIT_DIR/config`.
+
+
+
+- [https://github.com/ethiack/CVE-2023-29007](https://github.com/ethiack/CVE-2023-29007) :  ![starts](https://img.shields.io/github/stars/ethiack/CVE-2023-29007.svg) ![forks](https://img.shields.io/github/forks/ethiack/CVE-2023-29007.svg)
 
 ## CVE-2023-28615
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -197,9 +211,9 @@
 
 - [https://github.com/TamingSariMY/CVE-2023-27350-POC](https://github.com/TamingSariMY/CVE-2023-27350-POC) :  ![starts](https://img.shields.io/github/stars/TamingSariMY/CVE-2023-27350-POC.svg) ![forks](https://img.shields.io/github/forks/TamingSariMY/CVE-2023-27350-POC.svg)
 
-- [https://github.com/MaanVader/CVE-2023-27350-POC](https://github.com/MaanVader/CVE-2023-27350-POC) :  ![starts](https://img.shields.io/github/stars/MaanVader/CVE-2023-27350-POC.svg) ![forks](https://img.shields.io/github/forks/MaanVader/CVE-2023-27350-POC.svg)
-
 - [https://github.com/adhikara13/CVE-2023-27350](https://github.com/adhikara13/CVE-2023-27350) :  ![starts](https://img.shields.io/github/stars/adhikara13/CVE-2023-27350.svg) ![forks](https://img.shields.io/github/forks/adhikara13/CVE-2023-27350.svg)
+
+- [https://github.com/MaanVader/CVE-2023-27350-POC](https://github.com/MaanVader/CVE-2023-27350-POC) :  ![starts](https://img.shields.io/github/stars/MaanVader/CVE-2023-27350-POC.svg) ![forks](https://img.shields.io/github/forks/MaanVader/CVE-2023-27350-POC.svg)
 
 ## CVE-2023-27326
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -295,7 +309,7 @@
 - [https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL](https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL) :  ![starts](https://img.shields.io/github/stars/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL.svg) ![forks](https://img.shields.io/github/forks/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL.svg)
 
 ## CVE-2023-25292
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Reflected Cross Site Scripting (XSS) in Intermesh BV Group-Office version 6.6.145, allows attackers to gain escalated privileges and gain sensitive information via the GO_LANGUAGE cookie.
 
 
 
@@ -477,9 +491,9 @@
 
 - [https://github.com/GhostToKnow/CVE-2023-23752](https://github.com/GhostToKnow/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/GhostToKnow/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/GhostToKnow/CVE-2023-23752.svg)
 
-- [https://github.com/0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xNahim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xNahim/CVE-2023-23752.svg)
-
 - [https://github.com/ibaiw/joomla_CVE-2023-23752](https://github.com/ibaiw/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/ibaiw/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/ibaiw/joomla_CVE-2023-23752.svg)
+
+- [https://github.com/0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xNahim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xNahim/CVE-2023-23752.svg)
 
 - [https://github.com/YusinoMy/CVE-2023-23752](https://github.com/YusinoMy/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/YusinoMy/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/YusinoMy/CVE-2023-23752.svg)
 
@@ -499,9 +513,9 @@
 
 - [https://github.com/adriyansyah-mf/CVE-2023-23752](https://github.com/adriyansyah-mf/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/adriyansyah-mf/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/adriyansyah-mf/CVE-2023-23752.svg)
 
-- [https://github.com/Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Jenderal92/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/Joomla-CVE-2023-23752.svg)
-
 - [https://github.com/H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-23752.svg)
+
+- [https://github.com/Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Jenderal92/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/Joomla-CVE-2023-23752.svg)
 
 - [https://github.com/equationsoftworks/Radiance](https://github.com/equationsoftworks/Radiance) :  ![starts](https://img.shields.io/github/stars/equationsoftworks/Radiance.svg) ![forks](https://img.shields.io/github/forks/equationsoftworks/Radiance.svg)
 
@@ -572,11 +586,11 @@
 
 - [https://github.com/moneertv/CVE-2023-23397](https://github.com/moneertv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/moneertv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/moneertv/CVE-2023-23397.svg)
 
+- [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
+
 - [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)
 
 - [https://github.com/stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/stevesec/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/stevesec/CVE-2023-23397.svg)
-
-- [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
 
 - [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)
 
@@ -893,9 +907,9 @@
 
 - [https://github.com/notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse) :  ![starts](https://img.shields.io/github/stars/notaSWE/gocropalypse.svg) ![forks](https://img.shields.io/github/forks/notaSWE/gocropalypse.svg)
 
-- [https://github.com/maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/maddiethecafebabe/discord-acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/maddiethecafebabe/discord-acropolypse-bot.svg)
-
 - [https://github.com/cafedork/acropolypse-bot](https://github.com/cafedork/acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/cafedork/acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/cafedork/acropolypse-bot.svg)
+
+- [https://github.com/maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/maddiethecafebabe/discord-acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/maddiethecafebabe/discord-acropolypse-bot.svg)
 
 ## CVE-2023-20944
  In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of privilege due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-244154558
@@ -951,6 +965,8 @@
 
 
 - [https://github.com/insoxin/CVE-2023-2033](https://github.com/insoxin/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/insoxin/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/insoxin/CVE-2023-2033.svg)
+
+- [https://github.com/sandumjacob/CVE-2023-2033-Analysis](https://github.com/sandumjacob/CVE-2023-2033-Analysis) :  ![starts](https://img.shields.io/github/stars/sandumjacob/CVE-2023-2033-Analysis.svg) ![forks](https://img.shields.io/github/forks/sandumjacob/CVE-2023-2033-Analysis.svg)
 
 ## CVE-2023-2002
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
