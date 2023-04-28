@@ -1,3 +1,10 @@
+## CVE-2023-30839
+ PrestaShop is an Open Source e-commerce web application. Versions prior to 8.0.4 and 1.7.8.9 contain a SQL filtering vulnerability. A BO user can write, update, and delete in the database, even without having specific rights. PrestaShop 8.0.4 and 1.7.8.9 contain a patch for this issue. There are no known workarounds.
+
+
+
+- [https://github.com/drkbcn/lblfixer_cve_2023_30839](https://github.com/drkbcn/lblfixer_cve_2023_30839) :  ![starts](https://img.shields.io/github/stars/drkbcn/lblfixer_cve_2023_30839.svg) ![forks](https://img.shields.io/github/forks/drkbcn/lblfixer_cve_2023_30839.svg)
+
 ## CVE-2023-30459
  SmartPTT SCADA 1.1.0.0 allows remote code execution (when the attacker has administrator privileges) by writing a malicious C# script and executing it on the server (via server settings in the administrator control panel on port 8101, by default).
 
@@ -13,11 +20,13 @@
 - [https://github.com/d34dun1c02n/CVE-2023-30458](https://github.com/d34dun1c02n/CVE-2023-30458) :  ![starts](https://img.shields.io/github/stars/d34dun1c02n/CVE-2023-30458.svg) ![forks](https://img.shields.io/github/forks/d34dun1c02n/CVE-2023-30458.svg)
 
 ## CVE-2023-29489
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the cpsrvd error page via an invalid webcall ID, aka SEC-669. The fixed versions are 11.109.9999.116, 11.108.0.13, 11.106.0.18, and 11.102.0.31.
 
 
 
 - [https://github.com/learnerboy88/CVE-2023-29489](https://github.com/learnerboy88/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/learnerboy88/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/learnerboy88/CVE-2023-29489.svg)
+
+- [https://github.com/xKore123/cPanel-CVE-2023-29489](https://github.com/xKore123/cPanel-CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/xKore123/cPanel-CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/xKore123/cPanel-CVE-2023-29489.svg)
 
 ## CVE-2023-29478
  BiblioCraft before 2.4.6 does not sanitize path-traversal characters in filenames, allowing restricted write access to almost anywhere on the filesystem. This includes the Minecraft mods folder, which results in code execution.
@@ -201,6 +210,10 @@
 
 
 - [https://github.com/horizon3ai/CVE-2023-27524](https://github.com/horizon3ai/CVE-2023-27524) :  ![starts](https://img.shields.io/github/stars/horizon3ai/CVE-2023-27524.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/CVE-2023-27524.svg)
+
+- [https://github.com/antx-code/CVE-2023-27524](https://github.com/antx-code/CVE-2023-27524) :  ![starts](https://img.shields.io/github/stars/antx-code/CVE-2023-27524.svg) ![forks](https://img.shields.io/github/forks/antx-code/CVE-2023-27524.svg)
+
+- [https://github.com/Okaytc/Superset_auth_bypass_check](https://github.com/Okaytc/Superset_auth_bypass_check) :  ![starts](https://img.shields.io/github/stars/Okaytc/Superset_auth_bypass_check.svg) ![forks](https://img.shields.io/github/forks/Okaytc/Superset_auth_bypass_check.svg)
 
 ## CVE-2023-27350
  This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not required to exploit this vulnerability. The specific flaw exists within the SetupCompleted class. The issue results from improper access control. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-18987.
@@ -513,9 +526,9 @@
 
 - [https://github.com/adriyansyah-mf/CVE-2023-23752](https://github.com/adriyansyah-mf/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/adriyansyah-mf/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/adriyansyah-mf/CVE-2023-23752.svg)
 
-- [https://github.com/H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-23752.svg)
-
 - [https://github.com/Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Jenderal92/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/Joomla-CVE-2023-23752.svg)
+
+- [https://github.com/H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-23752.svg)
 
 - [https://github.com/equationsoftworks/Radiance](https://github.com/equationsoftworks/Radiance) :  ![starts](https://img.shields.io/github/stars/equationsoftworks/Radiance.svg) ![forks](https://img.shields.io/github/forks/equationsoftworks/Radiance.svg)
 
@@ -568,9 +581,9 @@
 
 - [https://github.com/BronzeBee/cve-2023-23397](https://github.com/BronzeBee/cve-2023-23397) :  ![starts](https://img.shields.io/github/stars/BronzeBee/cve-2023-23397.svg) ![forks](https://img.shields.io/github/forks/BronzeBee/cve-2023-23397.svg)
 
-- [https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT](https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/BillSkiCO/CVE-2023-23397_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/BillSkiCO/CVE-2023-23397_EXPLOIT.svg)
-
 - [https://github.com/alicangnll/CVE-2023-23397](https://github.com/alicangnll/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/alicangnll/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/alicangnll/CVE-2023-23397.svg)
+
+- [https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT](https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/BillSkiCO/CVE-2023-23397_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/BillSkiCO/CVE-2023-23397_EXPLOIT.svg)
 
 - [https://github.com/djackreuter/CVE-2023-23397-PoC](https://github.com/djackreuter/CVE-2023-23397-PoC) :  ![starts](https://img.shields.io/github/stars/djackreuter/CVE-2023-23397-PoC.svg) ![forks](https://img.shields.io/github/forks/djackreuter/CVE-2023-23397-PoC.svg)
 
@@ -586,9 +599,9 @@
 
 - [https://github.com/moneertv/CVE-2023-23397](https://github.com/moneertv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/moneertv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/moneertv/CVE-2023-23397.svg)
 
-- [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
-
 - [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)
+
+- [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
 
 - [https://github.com/stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/stevesec/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/stevesec/CVE-2023-23397.svg)
 
@@ -809,7 +822,7 @@
 - [https://github.com/Elizarfish/CVE-2023-21823](https://github.com/Elizarfish/CVE-2023-21823) :  ![starts](https://img.shields.io/github/stars/Elizarfish/CVE-2023-21823.svg) ![forks](https://img.shields.io/github/forks/Elizarfish/CVE-2023-21823.svg)
 
 ## CVE-2023-21768
- Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability.
+ Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
 
 
 
@@ -830,21 +843,21 @@
 - [https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768](https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768) :  ![starts](https://img.shields.io/github/stars/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768.svg) ![forks](https://img.shields.io/github/forks/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768.svg)
 
 ## CVE-2023-21752
- Windows Backup Service Elevation of Privilege Vulnerability.
+ Windows Backup Service Elevation of Privilege Vulnerability
 
 
 
 - [https://github.com/Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/CVE-2023-21752.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/CVE-2023-21752.svg)
 
 ## CVE-2023-21742
- Microsoft SharePoint Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2023-21744.
+ Microsoft SharePoint Server Remote Code Execution Vulnerability
 
 
 
 - [https://github.com/ohnonoyesyes/CVE-2023-21742](https://github.com/ohnonoyesyes/CVE-2023-21742) :  ![starts](https://img.shields.io/github/stars/ohnonoyesyes/CVE-2023-21742.svg) ![forks](https://img.shields.io/github/forks/ohnonoyesyes/CVE-2023-21742.svg)
 
 ## CVE-2023-21739
- Windows Bluetooth Driver Elevation of Privilege Vulnerability.
+ Windows Bluetooth Driver Elevation of Privilege Vulnerability
 
 
 
@@ -907,9 +920,9 @@
 
 - [https://github.com/notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse) :  ![starts](https://img.shields.io/github/stars/notaSWE/gocropalypse.svg) ![forks](https://img.shields.io/github/forks/notaSWE/gocropalypse.svg)
 
-- [https://github.com/cafedork/acropolypse-bot](https://github.com/cafedork/acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/cafedork/acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/cafedork/acropolypse-bot.svg)
-
 - [https://github.com/maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/maddiethecafebabe/discord-acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/maddiethecafebabe/discord-acropolypse-bot.svg)
+
+- [https://github.com/cafedork/acropolypse-bot](https://github.com/cafedork/acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/cafedork/acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/cafedork/acropolypse-bot.svg)
 
 ## CVE-2023-20944
  In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of privilege due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-244154558
@@ -990,6 +1003,8 @@
 - [https://github.com/W01fh4cker/CVE-2023-1671-POC](https://github.com/W01fh4cker/CVE-2023-1671-POC) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/CVE-2023-1671-POC.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/CVE-2023-1671-POC.svg)
 
 - [https://github.com/ohnonoyesyes/CVE-2023-1671](https://github.com/ohnonoyesyes/CVE-2023-1671) :  ![starts](https://img.shields.io/github/stars/ohnonoyesyes/CVE-2023-1671.svg) ![forks](https://img.shields.io/github/forks/ohnonoyesyes/CVE-2023-1671.svg)
+
+- [https://github.com/c4ln/CVE-2023-1671-POC](https://github.com/c4ln/CVE-2023-1671-POC) :  ![starts](https://img.shields.io/github/stars/c4ln/CVE-2023-1671-POC.svg) ![forks](https://img.shields.io/github/forks/c4ln/CVE-2023-1671-POC.svg)
 
 - [https://github.com/behnamvanda/CVE-2023-1671](https://github.com/behnamvanda/CVE-2023-1671) :  ![starts](https://img.shields.io/github/stars/behnamvanda/CVE-2023-1671.svg) ![forks](https://img.shields.io/github/forks/behnamvanda/CVE-2023-1671.svg)
 
@@ -1082,11 +1097,11 @@
 
 - [https://github.com/yosef0x01/CVE-2023-0669-Analysis](https://github.com/yosef0x01/CVE-2023-0669-Analysis) :  ![starts](https://img.shields.io/github/stars/yosef0x01/CVE-2023-0669-Analysis.svg) ![forks](https://img.shields.io/github/forks/yosef0x01/CVE-2023-0669-Analysis.svg)
 
-- [https://github.com/Avento/CVE-2023-0669](https://github.com/Avento/CVE-2023-0669) :  ![starts](https://img.shields.io/github/stars/Avento/CVE-2023-0669.svg) ![forks](https://img.shields.io/github/forks/Avento/CVE-2023-0669.svg)
-
 - [https://github.com/cataiovita/CVE-2023-0669](https://github.com/cataiovita/CVE-2023-0669) :  ![starts](https://img.shields.io/github/stars/cataiovita/CVE-2023-0669.svg) ![forks](https://img.shields.io/github/forks/cataiovita/CVE-2023-0669.svg)
 
 - [https://github.com/Griffin-01/CVE-2023-0669](https://github.com/Griffin-01/CVE-2023-0669) :  ![starts](https://img.shields.io/github/stars/Griffin-01/CVE-2023-0669.svg) ![forks](https://img.shields.io/github/forks/Griffin-01/CVE-2023-0669.svg)
+
+- [https://github.com/Avento/CVE-2023-0669](https://github.com/Avento/CVE-2023-0669) :  ![starts](https://img.shields.io/github/stars/Avento/CVE-2023-0669.svg) ![forks](https://img.shields.io/github/forks/Avento/CVE-2023-0669.svg)
 
 ## CVE-2023-0464
  A security vulnerability has been identified in all supported versions of OpenSSL related to the verification of X.509 certificate chains that include policy constraints. Attackers may be able to exploit this vulnerability by creating a malicious certificate chain that triggers exponential use of computational resources, leading to a denial-of-service (DoS) attack on affected systems. Policy processing is disabled by default but can be enabled by passing the `-policy' argument to the command line utilities or by calling the `X509_VERIFY_PARAM_set1_policies()' function.
