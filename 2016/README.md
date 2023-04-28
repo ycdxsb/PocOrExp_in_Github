@@ -794,9 +794,9 @@
 
 - [https://github.com/linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/linhlt247/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/linhlt247/DirtyCOW_CVE-2016-5195.svg)
 
-- [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
-
 - [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
+
+- [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
 
 - [https://github.com/passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs) :  ![starts](https://img.shields.io/github/stars/passionchenjianyegmail8/scumjrs.svg) ![forks](https://img.shields.io/github/forks/passionchenjianyegmail8/scumjrs.svg)
 
@@ -1318,9 +1318,9 @@
 
 - [https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit](https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit) :  ![starts](https://img.shields.io/github/stars/DanielCodex/CVE-2016-2098-my-first-exploit.svg) ![forks](https://img.shields.io/github/forks/DanielCodex/CVE-2016-2098-my-first-exploit.svg)
 
-- [https://github.com/Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Debalinax64/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Debalinax64/CVE-2016-2098.svg)
-
 - [https://github.com/3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/3rg1s/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/3rg1s/CVE-2016-2098.svg)
+
+- [https://github.com/Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Debalinax64/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Debalinax64/CVE-2016-2098.svg)
 
 ## CVE-2016-2067
  drivers/gpu/msm/kgsl.c in the MSM graphics driver (aka GPU driver) for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, mishandles the KGSL_MEMFLAGS_GPUREADONLY flag, which allows attackers to gain privileges by leveraging accidental read-write mappings, aka Qualcomm internal bug CR988993.
@@ -1416,7 +1416,7 @@
 
 
 
-- [https://github.com/k4u5h41/CVE-2016-1531](https://github.com/k4u5h41/CVE-2016-1531) :  ![starts](https://img.shields.io/github/stars/k4u5h41/CVE-2016-1531.svg) ![forks](https://img.shields.io/github/forks/k4u5h41/CVE-2016-1531.svg)
+- [https://github.com/c1ph3rm4st3r/CVE-2016-1531](https://github.com/c1ph3rm4st3r/CVE-2016-1531) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2016-1531.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2016-1531.svg)
 
 ## CVE-2016-1494
  The verify function in the RSA package for Python (Python-RSA) before 3.3 allows attackers to spoof signatures with a small public exponent via crafted signature padding, aka a BERserk attack.
