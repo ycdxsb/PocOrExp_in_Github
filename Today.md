@@ -1,90 +1,146 @@
-# Update 2023-04-28
+# Update 2023-04-29
+## CVE-2023-30839
+ PrestaShop is an Open Source e-commerce web application. Versions prior to 8.0.4 and 1.7.8.9 contain a SQL filtering vulnerability. A BO user can write, update, and delete in the database, even without having specific rights. PrestaShop 8.0.4 and 1.7.8.9 contain a patch for this issue. There are no known workarounds.
+
+- [https://github.com/drkbcn/lblfixer_cve_2023_30839](https://github.com/drkbcn/lblfixer_cve_2023_30839) :  ![starts](https://img.shields.io/github/stars/drkbcn/lblfixer_cve_2023_30839.svg) ![forks](https://img.shields.io/github/forks/drkbcn/lblfixer_cve_2023_30839.svg)
+
+
 ## CVE-2023-29489
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the cpsrvd error page via an invalid webcall ID, aka SEC-669. The fixed versions are 11.109.9999.116, 11.108.0.13, 11.106.0.18, and 11.102.0.31.
 
-- [https://github.com/learnerboy88/CVE-2023-29489](https://github.com/learnerboy88/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/learnerboy88/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/learnerboy88/CVE-2023-29489.svg)
-
-
-## CVE-2023-29007
- Git is a revision control system. Prior to versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1, a specially crafted `.gitmodules` file with submodule URLs that are longer than 1024 characters can used to exploit a bug in `config.c::git_config_copy_or_rename_section_in_file()`. This bug can be used to inject arbitrary configuration into a user's `$GIT_DIR/config` when attempting to remove the configuration section associated with that submodule. When the attacker injects configuration values which specify executables to run (such as `core.pager`, `core.editor`, `core.sshCommand`, etc.) this can lead to a remote code execution. A fix A fix is available in versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1. As a workaround, avoid running `git submodule deinit` on untrusted repositories or without prior inspection of any submodule sections in `$GIT_DIR/config`.
-
-- [https://github.com/ethiack/CVE-2023-29007](https://github.com/ethiack/CVE-2023-29007) :  ![starts](https://img.shields.io/github/stars/ethiack/CVE-2023-29007.svg) ![forks](https://img.shields.io/github/forks/ethiack/CVE-2023-29007.svg)
+- [https://github.com/xKore123/cPanel-CVE-2023-29489](https://github.com/xKore123/cPanel-CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/xKore123/cPanel-CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/xKore123/cPanel-CVE-2023-29489.svg)
 
 
-## CVE-2023-2033
- Type confusion in V8 in Google Chrome prior to 112.0.5615.121 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+## CVE-2023-27524
+ Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY according to installation instructions allow for an attacker to authenticate and access unauthorized resources. This does not affect Superset administrators who have changed the default value for SECRET_KEY config.
 
-- [https://github.com/sandumjacob/CVE-2023-2033-Analysis](https://github.com/sandumjacob/CVE-2023-2033-Analysis) :  ![starts](https://img.shields.io/github/stars/sandumjacob/CVE-2023-2033-Analysis.svg) ![forks](https://img.shields.io/github/forks/sandumjacob/CVE-2023-2033-Analysis.svg)
-
-
-## CVE-2022-42475
- A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 through 7.2.2, 7.0.0 through 7.0.8, 6.4.0 through 6.4.10, 6.2.0 through 6.2.11, 6.0.15 and earlier and FortiProxy SSL-VPN 7.2.0 through 7.2.1, 7.0.7 and earlier may allow a remote unauthenticated attacker to execute arbitrary code or commands via specifically crafted requests.
-
-- [https://github.com/natceil/cve-2022-42475](https://github.com/natceil/cve-2022-42475) :  ![starts](https://img.shields.io/github/stars/natceil/cve-2022-42475.svg) ![forks](https://img.shields.io/github/forks/natceil/cve-2022-42475.svg)
+- [https://github.com/antx-code/CVE-2023-27524](https://github.com/antx-code/CVE-2023-27524) :  ![starts](https://img.shields.io/github/stars/antx-code/CVE-2023-27524.svg) ![forks](https://img.shields.io/github/forks/antx-code/CVE-2023-27524.svg)
+- [https://github.com/Okaytc/Superset_auth_bypass_check](https://github.com/Okaytc/Superset_auth_bypass_check) :  ![starts](https://img.shields.io/github/stars/Okaytc/Superset_auth_bypass_check.svg) ![forks](https://img.shields.io/github/forks/Okaytc/Superset_auth_bypass_check.svg)
 
 
-## CVE-2022-35914
- /vendor/htmlawed/htmlawed/htmLawedTest.php in the htmlawed module for GLPI through 10.0.2 allows PHP code injection.
+## CVE-2023-1671
+ A pre-auth command injection vulnerability in the warn-proceed handler of Sophos Web Appliance older than version 4.3.10.4 allows execution of arbitrary code.
 
-- [https://github.com/franckferman/GLPI-htmLawed-CVE-2022_35914-PoC](https://github.com/franckferman/GLPI-htmLawed-CVE-2022_35914-PoC) :  ![starts](https://img.shields.io/github/stars/franckferman/GLPI-htmLawed-CVE-2022_35914-PoC.svg) ![forks](https://img.shields.io/github/forks/franckferman/GLPI-htmLawed-CVE-2022_35914-PoC.svg)
-
-
-## CVE-2022-21661
- WordPress is a free and open-source content management system written in PHP and paired with a MariaDB database. Due to improper sanitization in WP_Query, there can be cases where SQL injection is possible through plugins or themes that use it in a certain way. This has been patched in WordPress version 5.8.3. Older affected versions are also fixed via security release, that go back till 3.7.37. We strongly recommend that you keep auto-updates enabled. There are no known workarounds for this vulnerability.
-
-- [https://github.com/sealldeveloper/CVE-2022-21661-PoC](https://github.com/sealldeveloper/CVE-2022-21661-PoC) :  ![starts](https://img.shields.io/github/stars/sealldeveloper/CVE-2022-21661-PoC.svg) ![forks](https://img.shields.io/github/forks/sealldeveloper/CVE-2022-21661-PoC.svg)
+- [https://github.com/c4ln/CVE-2023-1671-POC](https://github.com/c4ln/CVE-2023-1671-POC) :  ![starts](https://img.shields.io/github/stars/c4ln/CVE-2023-1671-POC.svg) ![forks](https://img.shields.io/github/forks/c4ln/CVE-2023-1671-POC.svg)
 
 
-## CVE-2022-20142
- In createFromParcel of GeofenceHardwareRequestParcelable.java, there is a possible arbitrary code execution due to parcel mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-216631962
+## CVE-2022-39197
+ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Strike through 4.7 that allowed a remote attacker to execute HTML on the Cobalt Strike teamserver. To exploit the vulnerability, one must first inspect a Cobalt Strike payload, and then modify the username field in the payload (or create a new payload with the extracted information and then modify that username field to be malformed).
 
-- [https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142.svg)
-
-
-## CVE-2022-0847
- A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
-
-- [https://github.com/JlSakuya/CVE-2022-0847-container-escape](https://github.com/JlSakuya/CVE-2022-0847-container-escape) :  ![starts](https://img.shields.io/github/stars/JlSakuya/CVE-2022-0847-container-escape.svg) ![forks](https://img.shields.io/github/forks/JlSakuya/CVE-2022-0847-container-escape.svg)
+- [https://github.com/xiao-zhu-zhu/pig_CS4.4](https://github.com/xiao-zhu-zhu/pig_CS4.4) :  ![starts](https://img.shields.io/github/stars/xiao-zhu-zhu/pig_CS4.4.svg) ![forks](https://img.shields.io/github/forks/xiao-zhu-zhu/pig_CS4.4.svg)
 
 
-## CVE-2020-27786
- A flaw was found in the Linux kernel&#8217;s implementation of MIDI, where an attacker with a local account and the permissions to issue ioctl commands to midi devices could trigger a use-after-free issue. A write to this specific memory while freed and before use causes the flow of execution to change and possibly allow for memory corruption or privilege escalation. The highest threat from this vulnerability is to confidentiality, integrity, as well as system availability.
+## CVE-2021-46078
+ An Unrestricted File Upload vulnerability exists in Sourcecodester Vehicle Service Management System 1.0. A remote attacker can upload malicious files leading to a Stored Cross-Site Scripting vulnerability.
 
-- [https://github.com/elbiazo/CVE-2020-27786](https://github.com/elbiazo/CVE-2020-27786) :  ![starts](https://img.shields.io/github/stars/elbiazo/CVE-2020-27786.svg) ![forks](https://img.shields.io/github/forks/elbiazo/CVE-2020-27786.svg)
-
-
-## CVE-2020-5377
- Dell EMC OpenManage Server Administrator (OMSA) versions 9.4 and prior contain multiple path traversal vulnerabilities. An unauthenticated remote attacker could potentially exploit these vulnerabilities by sending a crafted Web API request containing directory traversal character sequences to gain file system access on the compromised management station.
-
-- [https://github.com/und3sc0n0c1d0/AFR-in-OMSA](https://github.com/und3sc0n0c1d0/AFR-in-OMSA) :  ![starts](https://img.shields.io/github/stars/und3sc0n0c1d0/AFR-in-OMSA.svg) ![forks](https://img.shields.io/github/forks/und3sc0n0c1d0/AFR-in-OMSA.svg)
+- [https://github.com/plsanu/CVE-2021-46078](https://github.com/plsanu/CVE-2021-46078) :  ![starts](https://img.shields.io/github/stars/plsanu/CVE-2021-46078.svg) ![forks](https://img.shields.io/github/forks/plsanu/CVE-2021-46078.svg)
 
 
-## CVE-2020-5258
- In affected versions of dojo (NPM package), the deepCopy method is vulnerable to Prototype Pollution. Prototype Pollution refers to the ability to inject properties into existing JavaScript language construct prototypes, such as objects. An attacker manipulates these attributes to overwrite, or pollute, a JavaScript application object prototype of the base object by injecting other values. This has been patched in versions 1.12.8, 1.13.7, 1.14.6, 1.15.3 and 1.16.2
+## CVE-2021-1008
+ In addSubInfo of SubscriptionController.java, there is a possible way to force the user to make a factory reset due to a logic error in the code. This could lead to local denial of service with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12Android ID: A-197327688
 
-- [https://github.com/ossf-cve-benchmark/CVE-2020-5258](https://github.com/ossf-cve-benchmark/CVE-2020-5258) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2020-5258.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2020-5258.svg)
-
-
-## CVE-2020-3580
- Multiple vulnerabilities in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct cross-site scripting (XSS) attacks against a user of the web services interface of an affected device. The vulnerabilities are due to insufficient validation of user-supplied input by the web services interface of an affected device. An attacker could exploit these vulnerabilities by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface or allow the attacker to access sensitive, browser-based information. Note: These vulnerabilities affect only specific AnyConnect and WebVPN configurations. For more information, see the Vulnerable Products section.
-
-- [https://github.com/cruxN3T/CVE-2020-3580](https://github.com/cruxN3T/CVE-2020-3580) :  ![starts](https://img.shields.io/github/stars/cruxN3T/CVE-2020-3580.svg) ![forks](https://img.shields.io/github/forks/cruxN3T/CVE-2020-3580.svg)
+- [https://github.com/AK-blank/CVE-2021-10086](https://github.com/AK-blank/CVE-2021-10086) :  ![starts](https://img.shields.io/github/stars/AK-blank/CVE-2021-10086.svg) ![forks](https://img.shields.io/github/forks/AK-blank/CVE-2021-10086.svg)
 
 
-## CVE-2019-18935
- Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deserialization vulnerability in the RadAsyncUpload function. This is exploitable when the encryption keys are known due to the presence of CVE-2017-11317 or CVE-2017-11357, or other means. Exploitation can result in remote code execution. (As of 2020.1.114, a default setting prevents the exploit. In 2019.3.1023, but not earlier versions, a non-default setting can prevent exploitation.)
+## CVE-2019-16278
+ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6 allows an attacker to achieve remote code execution via a crafted HTTP request.
 
-- [https://github.com/0xAgun/CVE-2019-18935-checker](https://github.com/0xAgun/CVE-2019-18935-checker) :  ![starts](https://img.shields.io/github/stars/0xAgun/CVE-2019-18935-checker.svg) ![forks](https://img.shields.io/github/forks/0xAgun/CVE-2019-18935-checker.svg)
-
-
-## CVE-2017-17485
- FasterXML jackson-databind through 2.8.10 and 2.9.x through 2.9.3 allows unauthenticated remote code execution because of an incomplete fix for the CVE-2017-7525 deserialization flaw. This is exploitable by sending maliciously crafted JSON input to the readValue method of the ObjectMapper, bypassing a blacklist that is ineffective if the Spring libraries are available in the classpath.
-
-- [https://github.com/rootsecurity/Jackson-CVE-2017-17485](https://github.com/rootsecurity/Jackson-CVE-2017-17485) :  ![starts](https://img.shields.io/github/stars/rootsecurity/Jackson-CVE-2017-17485.svg) ![forks](https://img.shields.io/github/forks/rootsecurity/Jackson-CVE-2017-17485.svg)
+- [https://github.com/c1ph3rm4st3r/CVE-2019-16278](https://github.com/c1ph3rm4st3r/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2019-16278.svg)
 
 
-## CVE-2017-5124
- Incorrect application of sandboxing in Blink in Google Chrome prior to 62.0.3202.62 allowed a remote attacker to inject arbitrary scripts or HTML (UXSS) via a crafted MHTML page.
+## CVE-2019-14287
+ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can bypass certain policy blacklists and session PAM modules, and can cause incorrect logging, by invoking sudo with a crafted user ID. For example, this allows bypass of !root configuration, and USER= logging, for a &quot;sudo -u \#$((0xffffffff))&quot; command.
 
-- [https://github.com/Bo0oM/CVE-2017-5124](https://github.com/Bo0oM/CVE-2017-5124) :  ![starts](https://img.shields.io/github/stars/Bo0oM/CVE-2017-5124.svg) ![forks](https://img.shields.io/github/forks/Bo0oM/CVE-2017-5124.svg)
+- [https://github.com/c1ph3rm4st3r/CVE-2019-14287](https://github.com/c1ph3rm4st3r/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2019-14287.svg)
+
+
+## CVE-2019-9053
+ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News module, through a crafted URL, to achieve unauthenticated blind time-based SQL injection via the m1_idlist parameter.
+
+- [https://github.com/c1ph3rm4st3r/CVE-2019-9053](https://github.com/c1ph3rm4st3r/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2019-9053.svg)
+
+
+## CVE-2019-6447
+ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allows remote attackers to read arbitrary files or execute applications via TCP port 59777 requests on the local Wi-Fi network. This TCP port remains open after the ES application has been launched once, and responds to unauthenticated application/json data over HTTP.
+
+- [https://github.com/c1ph3rm4st3r/CVE-2019-6447](https://github.com/c1ph3rm4st3r/CVE-2019-6447) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2019-6447.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2019-6447.svg)
+
+
+## CVE-2019-5736
+ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allows attackers to overwrite the host runc binary (and consequently obtain host root access) by leveraging the ability to execute a command as root within one of these types of containers: (1) a new container with an attacker-controlled image, or (2) an existing container, to which the attacker previously had write access, that can be attached with docker exec. This occurs because of file-descriptor mishandling, related to /proc/self/exe.
+
+- [https://github.com/c1ph3rm4st3r/CVE-2019-5736](https://github.com/c1ph3rm4st3r/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2019-5736.svg)
+
+
+## CVE-2018-16763
+ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter or the preview/ data parameter. This can lead to Pre-Auth Remote Code Execution.
+
+- [https://github.com/c1ph3rm4st3r/CVE-2018-16763](https://github.com/c1ph3rm4st3r/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2018-16763.svg)
+
+
+## CVE-2018-6479
+ An issue was discovered on Netwave IP Camera devices. An unauthenticated attacker can crash a device by sending a POST request with a huge body size to the / URI.
+
+- [https://github.com/LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479](https://github.com/LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479) :  ![starts](https://img.shields.io/github/stars/LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479.svg) ![forks](https://img.shields.io/github/forks/LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479.svg)
+
+
+## CVE-2017-7269
+ Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with &quot;If: &lt;http://&quot; in a PROPFIND request, as exploited in the wild in July or August 2016.
+
+- [https://github.com/c1ph3rm4st3r/CVE-2017-7269](https://github.com/c1ph3rm4st3r/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2017-7269.svg)
+
+
+## CVE-2017-0143
+ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka &quot;Windows SMB Remote Code Execution Vulnerability.&quot; This vulnerability is different from those described in CVE-2017-0144, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
+
+- [https://github.com/c1ph3rm4st3r/MS17-010_CVE-2017-0143](https://github.com/c1ph3rm4st3r/MS17-010_CVE-2017-0143) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/MS17-010_CVE-2017-0143.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/MS17-010_CVE-2017-0143.svg)
+
+
+## CVE-2016-1531
+ Exim before 4.86.2, when installed setuid root, allows local users to gain privileges via the perl_startup argument.
+
+- [https://github.com/c1ph3rm4st3r/CVE-2016-1531](https://github.com/c1ph3rm4st3r/CVE-2016-1531) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2016-1531.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2016-1531.svg)
+
+
+## CVE-2015-6668
+ The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary CV files via a brute force attack to the WordPress upload directory structure, related to an insecure direct object reference.
+
+- [https://github.com/c1ph3rm4st3r/CVE-2015-6668](https://github.com/c1ph3rm4st3r/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2015-6668.svg)
+
+
+## CVE-2015-1635
+ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 allows remote attackers to execute arbitrary code via crafted HTTP requests, aka &quot;HTTP.sys Remote Code Execution Vulnerability.&quot;
+
+- [https://github.com/c1ph3rm4st3r/CVE-2015-1635-POC](https://github.com/c1ph3rm4st3r/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2015-1635-POC.svg)
+- [https://github.com/c1ph3rm4st3r/CVE-2015-1635](https://github.com/c1ph3rm4st3r/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2015-1635.svg)
+
+
+## CVE-2014-0160
+ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not properly handle Heartbeat Extension packets, which allows remote attackers to obtain sensitive information from process memory via crafted packets that trigger a buffer over-read, as demonstrated by reading private keys, related to d1_both.c and t1_lib.c, aka the Heartbleed bug.
+
+- [https://github.com/c1ph3rm4st3r/CVE-2014-0160_Heartbleed](https://github.com/c1ph3rm4st3r/CVE-2014-0160_Heartbleed) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2014-0160_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2014-0160_Heartbleed.svg)
+
+
+## CVE-2011-1249
+ The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka &quot;Ancillary Function Driver Elevation of Privilege Vulnerability.&quot;
+
+- [https://github.com/c1ph3rm4st3r/CVE-2011-1249](https://github.com/c1ph3rm4st3r/CVE-2011-1249) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2011-1249.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2011-1249.svg)
+
+
+## CVE-2009-2265
+ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow remote attackers to create executable files in arbitrary directories via directory traversal sequences in the input to unspecified connector modules, as exploited in the wild for remote code execution in July 2009, related to the file browser and the editor/filemanager/connectors/ directory.
+
+- [https://github.com/c1ph3rm4st3r/CVE-2009-2265](https://github.com/c1ph3rm4st3r/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2009-2265.svg)
+
+
+## CVE-2007-2447
+ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
+
+- [https://github.com/c1ph3rm4st3r/CVE-2007-2447](https://github.com/c1ph3rm4st3r/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2007-2447.svg)
+
+
+## CVE-2004-2687
+ distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.
+
+- [https://github.com/c1ph3rm4st3r/distccd_rce_CVE-2004-2687](https://github.com/c1ph3rm4st3r/distccd_rce_CVE-2004-2687) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/distccd_rce_CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/distccd_rce_CVE-2004-2687.svg)
 
