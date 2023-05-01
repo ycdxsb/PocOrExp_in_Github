@@ -54,6 +54,13 @@
 
 - [https://github.com/zPrototype/CVE-2023-29983](https://github.com/zPrototype/CVE-2023-29983) :  ![starts](https://img.shields.io/github/stars/zPrototype/CVE-2023-29983.svg) ![forks](https://img.shields.io/github/forks/zPrototype/CVE-2023-29983.svg)
 
+## CVE-2023-29809
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/zPrototype/CVE-2023-29809](https://github.com/zPrototype/CVE-2023-29809) :  ![starts](https://img.shields.io/github/stars/zPrototype/CVE-2023-29809.svg) ![forks](https://img.shields.io/github/forks/zPrototype/CVE-2023-29809.svg)
+
 ## CVE-2023-29489
  An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the cpsrvd error page via an invalid webcall ID, aka SEC-669. The fixed versions are 11.109.9999.116, 11.108.0.13, 11.106.0.18, and 11.102.0.31.
 
@@ -70,6 +77,8 @@
 - [https://github.com/ipk1/CVE-2023-29489.py](https://github.com/ipk1/CVE-2023-29489.py) :  ![starts](https://img.shields.io/github/stars/ipk1/CVE-2023-29489.py.svg) ![forks](https://img.shields.io/github/forks/ipk1/CVE-2023-29489.py.svg)
 
 - [https://github.com/Mostafa-Elguerdawi/CVE-2023-29489](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/Mostafa-Elguerdawi/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/Mostafa-Elguerdawi/CVE-2023-29489.svg)
+
+- [https://github.com/whalebone7/EagleEye](https://github.com/whalebone7/EagleEye) :  ![starts](https://img.shields.io/github/stars/whalebone7/EagleEye.svg) ![forks](https://img.shields.io/github/forks/whalebone7/EagleEye.svg)
 
 ## CVE-2023-29478
  BiblioCraft before 2.4.6 does not sanitize path-traversal characters in filenames, allowing restricted write access to almost anywhere on the filesystem. This includes the Minecraft mods folder, which results in code execution.
@@ -210,6 +219,13 @@
 
 - [https://github.com/eyJhb/blackvue-cve-2023](https://github.com/eyJhb/blackvue-cve-2023) :  ![starts](https://img.shields.io/github/stars/eyJhb/blackvue-cve-2023.svg) ![forks](https://img.shields.io/github/forks/eyJhb/blackvue-cve-2023.svg)
 
+## CVE-2023-27742
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/G37SYS73M/CVE-2023-27742](https://github.com/G37SYS73M/CVE-2023-27742) :  ![starts](https://img.shields.io/github/stars/G37SYS73M/CVE-2023-27742.svg) ![forks](https://img.shields.io/github/forks/G37SYS73M/CVE-2023-27742.svg)
+
 ## CVE-2023-27704
  Void Tools Everything lower than v1.4.1.1022 was discovered to contain a Regular Expression Denial of Service (ReDoS).
 
@@ -298,6 +314,13 @@
 
 
 - [https://github.com/d3fudd/XSS-HGJ310](https://github.com/d3fudd/XSS-HGJ310) :  ![starts](https://img.shields.io/github/stars/d3fudd/XSS-HGJ310.svg) ![forks](https://img.shields.io/github/forks/d3fudd/XSS-HGJ310.svg)
+
+## CVE-2023-27035
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/fivex3/CVE-2023-27035](https://github.com/fivex3/CVE-2023-27035) :  ![starts](https://img.shields.io/github/stars/fivex3/CVE-2023-27035.svg) ![forks](https://img.shields.io/github/forks/fivex3/CVE-2023-27035.svg)
 
 ## CVE-2023-26984
  An issue in the password reset function of Peppermint v0.2.4 allows attackers to access the emails and passwords of the Tickets page via a crafted request.
@@ -549,9 +572,9 @@
 
 - [https://github.com/GhostToKnow/CVE-2023-23752](https://github.com/GhostToKnow/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/GhostToKnow/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/GhostToKnow/CVE-2023-23752.svg)
 
-- [https://github.com/ibaiw/joomla_CVE-2023-23752](https://github.com/ibaiw/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/ibaiw/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/ibaiw/joomla_CVE-2023-23752.svg)
-
 - [https://github.com/0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xNahim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xNahim/CVE-2023-23752.svg)
+
+- [https://github.com/ibaiw/joomla_CVE-2023-23752](https://github.com/ibaiw/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/ibaiw/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/ibaiw/joomla_CVE-2023-23752.svg)
 
 - [https://github.com/YusinoMy/CVE-2023-23752](https://github.com/YusinoMy/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/YusinoMy/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/YusinoMy/CVE-2023-23752.svg)
 
@@ -644,9 +667,9 @@
 
 - [https://github.com/moneertv/CVE-2023-23397](https://github.com/moneertv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/moneertv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/moneertv/CVE-2023-23397.svg)
 
-- [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)
-
 - [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
+
+- [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)
 
 - [https://github.com/stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/stevesec/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/stevesec/CVE-2023-23397.svg)
 
