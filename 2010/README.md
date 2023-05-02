@@ -19,13 +19,6 @@
 
 - [https://github.com/thomascannon/android-cve-2010-4804](https://github.com/thomascannon/android-cve-2010-4804) :  ![starts](https://img.shields.io/github/stars/thomascannon/android-cve-2010-4804.svg) ![forks](https://img.shields.io/github/forks/thomascannon/android-cve-2010-4804.svg)
 
-## CVE-2010-4669
- The Neighbor Discovery (ND) protocol implementation in the IPv6 stack in Microsoft Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7 allows remote attackers to cause a denial of service (CPU consumption and system hang) by sending many Router Advertisement (RA) messages with different source addresses, as demonstrated by the flood_router6 program in the thc-ipv6 package.
-
-
-
-- [https://github.com/quinn-samuel-perry/CVE-2010-4669](https://github.com/quinn-samuel-perry/CVE-2010-4669) :  ![starts](https://img.shields.io/github/stars/quinn-samuel-perry/CVE-2010-4669.svg) ![forks](https://img.shields.io/github/forks/quinn-samuel-perry/CVE-2010-4669.svg)
-
 ## CVE-2010-4502
  Integer overflow in KmxSbx.sys 6.2.0.22 in CA Internet Security Suite Plus 2010 allows local users to cause a denial of service (pool corruption) and execute arbitrary code via crafted arguments to the 0x88000080 IOCTL, which triggers a buffer overflow.
 
