@@ -12,6 +12,27 @@
 
 - [https://github.com/MaherAzzouzi/CVE-2023-31443](https://github.com/MaherAzzouzi/CVE-2023-31443) :  ![starts](https://img.shields.io/github/stars/MaherAzzouzi/CVE-2023-31443.svg) ![forks](https://img.shields.io/github/forks/MaherAzzouzi/CVE-2023-31443.svg)
 
+## CVE-2023-31435
+ Multiple components (such as Onlinetemplate-Verwaltung, Liste aller Teilbereiche, Umfragen anzeigen, and questionnaire previews) in evasys before 8.2 Build 2286 and 9.x before 9.0 Build 2401 allow authenticated attackers to read and write to unauthorized data by accessing functions directly.
+
+
+
+- [https://github.com/trustcves/CVE-2023-31435](https://github.com/trustcves/CVE-2023-31435) :  ![starts](https://img.shields.io/github/stars/trustcves/CVE-2023-31435.svg) ![forks](https://img.shields.io/github/forks/trustcves/CVE-2023-31435.svg)
+
+## CVE-2023-31434
+ The parameters nutzer_titel, nutzer_vn, and nutzer_nn in the user profile, and langID and ONLINEID in direct links, in evasys before 8.2 Build 2286 and 9.x before 9.0 Build 2401 do not validate input, which allows authenticated attackers to inject HTML Code and XSS payloads in multiple locations.
+
+
+
+- [https://github.com/trustcves/CVE-2023-31434](https://github.com/trustcves/CVE-2023-31434) :  ![starts](https://img.shields.io/github/stars/trustcves/CVE-2023-31434.svg) ![forks](https://img.shields.io/github/forks/trustcves/CVE-2023-31434.svg)
+
+## CVE-2023-31433
+ A SQL injection issue in Logbuch in evasys before 8.2 Build 2286 and 9.x before 9.0 Build 2401 allows authenticated attackers to execute SQL statements via the welche parameter.
+
+
+
+- [https://github.com/trustcves/CVE-2023-31433](https://github.com/trustcves/CVE-2023-31433) :  ![starts](https://img.shields.io/github/stars/trustcves/CVE-2023-31433.svg) ![forks](https://img.shields.io/github/forks/trustcves/CVE-2023-31433.svg)
+
 ## CVE-2023-30854
  AVideo is an open source video platform. Prior to version 12.4, an OS Command Injection vulnerability in an authenticated endpoint `/plugin/CloneSite/cloneClient.json.php` allows attackers to achieve Remote Code Execution. This issue is fixed in version 12.4.
 
@@ -54,6 +75,13 @@
 
 - [https://github.com/zPrototype/CVE-2023-29983](https://github.com/zPrototype/CVE-2023-29983) :  ![starts](https://img.shields.io/github/stars/zPrototype/CVE-2023-29983.svg) ![forks](https://img.shields.io/github/forks/zPrototype/CVE-2023-29983.svg)
 
+## CVE-2023-29839
+ A Stored Cross Site Scripting (XSS) vulnerability exists in multiple pages of Hotel Druid version 3.0.4, which allows arbitrary execution of commands. The vulnerable fields are Surname, Name, and Nickname in the Document function.
+
+
+
+- [https://github.com/jichngan/CVE-2023-29839](https://github.com/jichngan/CVE-2023-29839) :  ![starts](https://img.shields.io/github/stars/jichngan/CVE-2023-29839.svg) ![forks](https://img.shields.io/github/forks/jichngan/CVE-2023-29839.svg)
+
 ## CVE-2023-29809
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -66,17 +94,17 @@
 
 
 
-- [https://github.com/haxor1337x/Scanner-CVE-2023-29489](https://github.com/haxor1337x/Scanner-CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/haxor1337x/Scanner-CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/haxor1337x/Scanner-CVE-2023-29489.svg)
-
 - [https://github.com/whalebone7/EagleEye](https://github.com/whalebone7/EagleEye) :  ![starts](https://img.shields.io/github/stars/whalebone7/EagleEye.svg) ![forks](https://img.shields.io/github/forks/whalebone7/EagleEye.svg)
+
+- [https://github.com/haxor1337x/Scanner-CVE-2023-29489](https://github.com/haxor1337x/Scanner-CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/haxor1337x/Scanner-CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/haxor1337x/Scanner-CVE-2023-29489.svg)
 
 - [https://github.com/xKore123/cPanel-CVE-2023-29489](https://github.com/xKore123/cPanel-CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/xKore123/cPanel-CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/xKore123/cPanel-CVE-2023-29489.svg)
 
 - [https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml) :  ![starts](https://img.shields.io/github/stars/Mostafa-Elguerdawi/CVE-2023-29489.yaml.svg) ![forks](https://img.shields.io/github/forks/Mostafa-Elguerdawi/CVE-2023-29489.yaml.svg)
 
-- [https://github.com/learnerboy88/CVE-2023-29489](https://github.com/learnerboy88/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/learnerboy88/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/learnerboy88/CVE-2023-29489.svg)
-
 - [https://github.com/ipk1/CVE-2023-29489.py](https://github.com/ipk1/CVE-2023-29489.py) :  ![starts](https://img.shields.io/github/stars/ipk1/CVE-2023-29489.py.svg) ![forks](https://img.shields.io/github/forks/ipk1/CVE-2023-29489.py.svg)
+
+- [https://github.com/learnerboy88/CVE-2023-29489](https://github.com/learnerboy88/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/learnerboy88/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/learnerboy88/CVE-2023-29489.svg)
 
 - [https://github.com/Mostafa-Elguerdawi/CVE-2023-29489](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/Mostafa-Elguerdawi/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/Mostafa-Elguerdawi/CVE-2023-29489.svg)
 
@@ -86,6 +114,13 @@
 
 
 - [https://github.com/Exopteron/BiblioRCE](https://github.com/Exopteron/BiblioRCE) :  ![starts](https://img.shields.io/github/stars/Exopteron/BiblioRCE.svg) ![forks](https://img.shields.io/github/forks/Exopteron/BiblioRCE.svg)
+
+## CVE-2023-29400
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/researchkendra91/signal-zeroday-exploit](https://github.com/researchkendra91/signal-zeroday-exploit) :  ![starts](https://img.shields.io/github/stars/researchkendra91/signal-zeroday-exploit.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/signal-zeroday-exploit.svg)
 
 ## CVE-2023-29084
  Zoho ManageEngine ADManager Plus through 7180 allows for authenticated users to exploit command injection via Proxy settings.
@@ -109,6 +144,15 @@
 
 
 - [https://github.com/ethiack/CVE-2023-29007](https://github.com/ethiack/CVE-2023-29007) :  ![starts](https://img.shields.io/github/stars/ethiack/CVE-2023-29007.svg) ![forks](https://img.shields.io/github/forks/ethiack/CVE-2023-29007.svg)
+
+- [https://github.com/omespino/CVE-2023-29007](https://github.com/omespino/CVE-2023-29007) :  ![starts](https://img.shields.io/github/stars/omespino/CVE-2023-29007.svg) ![forks](https://img.shields.io/github/forks/omespino/CVE-2023-29007.svg)
+
+## CVE-2023-28771
+ Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series firmware versions 4.60 through 5.35, and ATP series firmware versions 4.60 through 5.35, which could allow an unauthenticated attacker to execute some OS commands remotely by sending crafted packets to an affected device.
+
+
+
+- [https://github.com/researchkendra91/telegram-0day-exploit-poc](https://github.com/researchkendra91/telegram-0day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/researchkendra91/telegram-0day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/telegram-0day-exploit-poc.svg)
 
 ## CVE-2023-28615
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -273,6 +317,8 @@
 - [https://github.com/antx-code/CVE-2023-27524](https://github.com/antx-code/CVE-2023-27524) :  ![starts](https://img.shields.io/github/stars/antx-code/CVE-2023-27524.svg) ![forks](https://img.shields.io/github/forks/antx-code/CVE-2023-27524.svg)
 
 - [https://github.com/Okaytc/Superset_auth_bypass_check](https://github.com/Okaytc/Superset_auth_bypass_check) :  ![starts](https://img.shields.io/github/stars/Okaytc/Superset_auth_bypass_check.svg) ![forks](https://img.shields.io/github/forks/Okaytc/Superset_auth_bypass_check.svg)
+
+- [https://github.com/researchkendra91/telegram-0day-exploit-poc](https://github.com/researchkendra91/telegram-0day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/researchkendra91/telegram-0day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/telegram-0day-exploit-poc.svg)
 
 ## CVE-2023-27350
  This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not required to exploit this vulnerability. The specific flaw exists within the SetupCompleted class. The issue results from improper access control. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-18987.
@@ -500,6 +546,20 @@
 
 - [https://github.com/abbisQQ/CVE-2023-24610](https://github.com/abbisQQ/CVE-2023-24610) :  ![starts](https://img.shields.io/github/stars/abbisQQ/CVE-2023-24610.svg) ![forks](https://img.shields.io/github/forks/abbisQQ/CVE-2023-24610.svg)
 
+## CVE-2023-24540
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/researchkendra91/signal-zeroday-exploit](https://github.com/researchkendra91/signal-zeroday-exploit) :  ![starts](https://img.shields.io/github/stars/researchkendra91/signal-zeroday-exploit.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/signal-zeroday-exploit.svg)
+
+## CVE-2023-24539
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/researchkendra91/signal-zeroday-exploit](https://github.com/researchkendra91/signal-zeroday-exploit) :  ![starts](https://img.shields.io/github/stars/researchkendra91/signal-zeroday-exploit.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/signal-zeroday-exploit.svg)
+
 ## CVE-2023-24362
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -564,11 +624,11 @@
 
 - [https://github.com/Pari-Malam/CVE-2023-23752](https://github.com/Pari-Malam/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Pari-Malam/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Pari-Malam/CVE-2023-23752.svg)
 
+- [https://github.com/octosec45/ms-word-rce-0day-poc-2023](https://github.com/octosec45/ms-word-rce-0day-poc-2023) :  ![starts](https://img.shields.io/github/stars/octosec45/ms-word-rce-0day-poc-2023.svg) ![forks](https://img.shields.io/github/forks/octosec45/ms-word-rce-0day-poc-2023.svg)
+
 - [https://github.com/Saboor-Hakimi/CVE-2023-23752](https://github.com/Saboor-Hakimi/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Saboor-Hakimi/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Saboor-Hakimi/CVE-2023-23752.svg)
 
 - [https://github.com/ifacker/CVE-2023-23752-Joomla](https://github.com/ifacker/CVE-2023-23752-Joomla) :  ![starts](https://img.shields.io/github/stars/ifacker/CVE-2023-23752-Joomla.svg) ![forks](https://img.shields.io/github/forks/ifacker/CVE-2023-23752-Joomla.svg)
-
-- [https://github.com/octosec45/ms-word-rce-0day-poc-2023](https://github.com/octosec45/ms-word-rce-0day-poc-2023) :  ![starts](https://img.shields.io/github/stars/octosec45/ms-word-rce-0day-poc-2023.svg) ![forks](https://img.shields.io/github/forks/octosec45/ms-word-rce-0day-poc-2023.svg)
 
 - [https://github.com/GhostToKnow/CVE-2023-23752](https://github.com/GhostToKnow/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/GhostToKnow/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/GhostToKnow/CVE-2023-23752.svg)
 
@@ -685,6 +745,13 @@
 
 
 - [https://github.com/LucaBarile/CVE-2023-23396](https://github.com/LucaBarile/CVE-2023-23396) :  ![starts](https://img.shields.io/github/stars/LucaBarile/CVE-2023-23396.svg) ![forks](https://img.shields.io/github/forks/LucaBarile/CVE-2023-23396.svg)
+
+## CVE-2023-23376
+ Windows Common Log File System Driver Elevation of Privilege Vulnerability
+
+
+
+- [https://github.com/mayflowers54/discord-rce-exploit-poc](https://github.com/mayflowers54/discord-rce-exploit-poc) :  ![starts](https://img.shields.io/github/stars/mayflowers54/discord-rce-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/mayflowers54/discord-rce-exploit-poc.svg)
 
 ## CVE-2023-23333
  There is a command injection vulnerability in SolarView Compact through 6.00, attackers can execute commands by bypassing internal restrictions through downloader.php.
@@ -874,9 +941,9 @@
 
 - [https://github.com/Firebasky/CVE-2023-21839](https://github.com/Firebasky/CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/Firebasky/CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/Firebasky/CVE-2023-21839.svg)
 
-- [https://github.com/houqe/POC_CVE-2023-21839](https://github.com/houqe/POC_CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/houqe/POC_CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/houqe/POC_CVE-2023-21839.svg)
-
 - [https://github.com/octosec45/ms-word-rce-0day-poc-2023](https://github.com/octosec45/ms-word-rce-0day-poc-2023) :  ![starts](https://img.shields.io/github/stars/octosec45/ms-word-rce-0day-poc-2023.svg) ![forks](https://img.shields.io/github/forks/octosec45/ms-word-rce-0day-poc-2023.svg)
+
+- [https://github.com/houqe/POC_CVE-2023-21839](https://github.com/houqe/POC_CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/houqe/POC_CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/houqe/POC_CVE-2023-21839.svg)
 
 - [https://github.com/fakenews2025/CVE-2023-21839](https://github.com/fakenews2025/CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/fakenews2025/CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/fakenews2025/CVE-2023-21839.svg)
 
@@ -895,6 +962,8 @@
 
 
 - [https://github.com/Elizarfish/CVE-2023-21823](https://github.com/Elizarfish/CVE-2023-21823) :  ![starts](https://img.shields.io/github/stars/Elizarfish/CVE-2023-21823.svg) ![forks](https://img.shields.io/github/forks/Elizarfish/CVE-2023-21823.svg)
+
+- [https://github.com/mayflowers54/discord-rce-exploit-poc](https://github.com/mayflowers54/discord-rce-exploit-poc) :  ![starts](https://img.shields.io/github/stars/mayflowers54/discord-rce-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/mayflowers54/discord-rce-exploit-poc.svg)
 
 ## CVE-2023-21768
  Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
@@ -959,6 +1028,20 @@
 
 - [https://github.com/mikesxrs/CVE-2023-21716_YARA_Results](https://github.com/mikesxrs/CVE-2023-21716_YARA_Results) :  ![starts](https://img.shields.io/github/stars/mikesxrs/CVE-2023-21716_YARA_Results.svg) ![forks](https://img.shields.io/github/forks/mikesxrs/CVE-2023-21716_YARA_Results.svg)
 
+## CVE-2023-21707
+ Microsoft Exchange Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/mayflowers54/discord-rce-exploit-poc](https://github.com/mayflowers54/discord-rce-exploit-poc) :  ![starts](https://img.shields.io/github/stars/mayflowers54/discord-rce-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/mayflowers54/discord-rce-exploit-poc.svg)
+
+## CVE-2023-21706
+ Microsoft Exchange Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/mayflowers54/discord-rce-exploit-poc](https://github.com/mayflowers54/discord-rce-exploit-poc) :  ![starts](https://img.shields.io/github/stars/mayflowers54/discord-rce-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/mayflowers54/discord-rce-exploit-poc.svg)
+
 ## CVE-2023-21608
  Adobe Acrobat Reader versions 22.003.20282 (and earlier), 22.003.20281 (and earlier) and 20.005.30418 (and earlier) are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 
@@ -981,6 +1064,13 @@
 
 
 - [https://github.com/Hashi0x/PoC-CVE-2023-21554](https://github.com/Hashi0x/PoC-CVE-2023-21554) :  ![starts](https://img.shields.io/github/stars/Hashi0x/PoC-CVE-2023-21554.svg) ![forks](https://img.shields.io/github/forks/Hashi0x/PoC-CVE-2023-21554.svg)
+
+## CVE-2023-21529
+ Microsoft Exchange Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/mayflowers54/discord-rce-exploit-poc](https://github.com/mayflowers54/discord-rce-exploit-poc) :  ![starts](https://img.shields.io/github/stars/mayflowers54/discord-rce-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/mayflowers54/discord-rce-exploit-poc.svg)
 
 ## CVE-2023-21389
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
