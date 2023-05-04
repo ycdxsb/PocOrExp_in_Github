@@ -19,6 +19,13 @@
 
 - [https://github.com/alt3kx/CVE-2008-6827](https://github.com/alt3kx/CVE-2008-6827) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2008-6827.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2008-6827.svg)
 
+## CVE-2008-6806
+ Unrestricted file upload vulnerability in includes/imageupload.php in 7Shop 1.1 and earlier allows remote attackers to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in images/artikel/.
+
+
+
+- [https://github.com/threatcode/CVE-2008-6806](https://github.com/threatcode/CVE-2008-6806) :  ![starts](https://img.shields.io/github/stars/threatcode/CVE-2008-6806.svg) ![forks](https://img.shields.io/github/forks/threatcode/CVE-2008-6806.svg)
+
 ## CVE-2008-5416
  Heap-based buffer overflow in Microsoft SQL Server 2000 SP4, 8.00.2050, 8.00.2039, and earlier; SQL Server 2000 Desktop Engine (MSDE 2000) SP4; SQL Server 2005 SP2 and 9.00.1399.06; SQL Server 2000 Desktop Engine (WMSDE) on Windows Server 2003 SP1 and SP2; and Windows Internal Database (WYukon) SP2 allows remote authenticated users to cause a denial of service (access violation exception) or execute arbitrary code by calling the sp_replwritetovarbin extended stored procedure with a set of invalid parameters that trigger memory overwrite, aka &quot;SQL Server sp_replwritetovarbin Limited Memory Overwrite Vulnerability.&quot;
 
@@ -32,6 +39,8 @@
 
 
 - [https://github.com/nmurilo/CVE-2008-4687-exploit](https://github.com/nmurilo/CVE-2008-4687-exploit) :  ![starts](https://img.shields.io/github/stars/nmurilo/CVE-2008-4687-exploit.svg) ![forks](https://img.shields.io/github/forks/nmurilo/CVE-2008-4687-exploit.svg)
+
+- [https://github.com/twisted007/mantis_rce](https://github.com/twisted007/mantis_rce) :  ![starts](https://img.shields.io/github/stars/twisted007/mantis_rce.svg) ![forks](https://img.shields.io/github/forks/twisted007/mantis_rce.svg)
 
 ## CVE-2008-4654
  Stack-based buffer overflow in the parse_master function in the Ty demux plugin (modules/demux/ty.c) in VLC Media Player 0.9.0 through 0.9.4 allows remote attackers to execute arbitrary code via a TiVo TY media file with a header containing a crafted size value.
