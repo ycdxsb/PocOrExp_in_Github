@@ -89,6 +89,13 @@
 
 - [https://github.com/zPrototype/CVE-2023-29809](https://github.com/zPrototype/CVE-2023-29809) :  ![starts](https://img.shields.io/github/stars/zPrototype/CVE-2023-29809.svg) ![forks](https://img.shields.io/github/forks/zPrototype/CVE-2023-29809.svg)
 
+## CVE-2023-29808
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/zPrototype/CVE-2023-29808](https://github.com/zPrototype/CVE-2023-29808) :  ![starts](https://img.shields.io/github/stars/zPrototype/CVE-2023-29808.svg) ![forks](https://img.shields.io/github/forks/zPrototype/CVE-2023-29808.svg)
+
 ## CVE-2023-29489
  An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the cpsrvd error page via an invalid webcall ID, aka SEC-669. The fixed versions are 11.109.9999.116, 11.108.0.13, 11.106.0.18, and 11.102.0.31.
 
@@ -100,11 +107,13 @@
 
 - [https://github.com/xKore123/cPanel-CVE-2023-29489](https://github.com/xKore123/cPanel-CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/xKore123/cPanel-CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/xKore123/cPanel-CVE-2023-29489.svg)
 
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
+
 - [https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml) :  ![starts](https://img.shields.io/github/stars/Mostafa-Elguerdawi/CVE-2023-29489.yaml.svg) ![forks](https://img.shields.io/github/forks/Mostafa-Elguerdawi/CVE-2023-29489.yaml.svg)
 
-- [https://github.com/ipk1/CVE-2023-29489.py](https://github.com/ipk1/CVE-2023-29489.py) :  ![starts](https://img.shields.io/github/stars/ipk1/CVE-2023-29489.py.svg) ![forks](https://img.shields.io/github/forks/ipk1/CVE-2023-29489.py.svg)
-
 - [https://github.com/learnerboy88/CVE-2023-29489](https://github.com/learnerboy88/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/learnerboy88/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/learnerboy88/CVE-2023-29489.svg)
+
+- [https://github.com/ipk1/CVE-2023-29489.py](https://github.com/ipk1/CVE-2023-29489.py) :  ![starts](https://img.shields.io/github/stars/ipk1/CVE-2023-29489.py.svg) ![forks](https://img.shields.io/github/forks/ipk1/CVE-2023-29489.py.svg)
 
 - [https://github.com/Mostafa-Elguerdawi/CVE-2023-29489](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/Mostafa-Elguerdawi/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/Mostafa-Elguerdawi/CVE-2023-29489.svg)
 
@@ -114,13 +123,6 @@
 
 
 - [https://github.com/Exopteron/BiblioRCE](https://github.com/Exopteron/BiblioRCE) :  ![starts](https://img.shields.io/github/stars/Exopteron/BiblioRCE.svg) ![forks](https://img.shields.io/github/forks/Exopteron/BiblioRCE.svg)
-
-## CVE-2023-29400
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/researchkendra91/signal-zeroday-exploit](https://github.com/researchkendra91/signal-zeroday-exploit) :  ![starts](https://img.shields.io/github/stars/researchkendra91/signal-zeroday-exploit.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/signal-zeroday-exploit.svg)
 
 ## CVE-2023-29084
  Zoho ManageEngine ADManager Plus through 7180 allows for authenticated users to exploit command injection via Proxy settings.
@@ -152,7 +154,9 @@
 
 
 
-- [https://github.com/researchkendra91/telegram-0day-exploit-poc](https://github.com/researchkendra91/telegram-0day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/researchkendra91/telegram-0day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/telegram-0day-exploit-poc.svg)
+- [https://github.com/darthvander20/discord-zero-day-exploit](https://github.com/darthvander20/discord-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/discord-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/discord-zero-day-exploit.svg)
+
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 ## CVE-2023-28615
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -190,11 +194,11 @@
 
 - [https://github.com/gobysec/CVE-2023-28432](https://github.com/gobysec/CVE-2023-28432) :  ![starts](https://img.shields.io/github/stars/gobysec/CVE-2023-28432.svg) ![forks](https://img.shields.io/github/forks/gobysec/CVE-2023-28432.svg)
 
+- [https://github.com/octosec45/ms-word-rce-0day-poc-2023](https://github.com/octosec45/ms-word-rce-0day-poc-2023) :  ![starts](https://img.shields.io/github/stars/octosec45/ms-word-rce-0day-poc-2023.svg) ![forks](https://img.shields.io/github/forks/octosec45/ms-word-rce-0day-poc-2023.svg)
+
 - [https://github.com/Cuerz/CVE-2023-28432](https://github.com/Cuerz/CVE-2023-28432) :  ![starts](https://img.shields.io/github/stars/Cuerz/CVE-2023-28432.svg) ![forks](https://img.shields.io/github/forks/Cuerz/CVE-2023-28432.svg)
 
 - [https://github.com/Okaytc/minio_unauth_check](https://github.com/Okaytc/minio_unauth_check) :  ![starts](https://img.shields.io/github/stars/Okaytc/minio_unauth_check.svg) ![forks](https://img.shields.io/github/forks/Okaytc/minio_unauth_check.svg)
-
-- [https://github.com/octosec45/ms-word-rce-0day-poc-2023](https://github.com/octosec45/ms-word-rce-0day-poc-2023) :  ![starts](https://img.shields.io/github/stars/octosec45/ms-word-rce-0day-poc-2023.svg) ![forks](https://img.shields.io/github/forks/octosec45/ms-word-rce-0day-poc-2023.svg)
 
 - [https://github.com/Majus527/MinIO_CVE-2023-28432](https://github.com/Majus527/MinIO_CVE-2023-28432) :  ![starts](https://img.shields.io/github/stars/Majus527/MinIO_CVE-2023-28432.svg) ![forks](https://img.shields.io/github/forks/Majus527/MinIO_CVE-2023-28432.svg)
 
@@ -307,6 +311,10 @@
 
 - [https://github.com/horizon3ai/CVE-2023-27532](https://github.com/horizon3ai/CVE-2023-27532) :  ![starts](https://img.shields.io/github/stars/horizon3ai/CVE-2023-27532.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/CVE-2023-27532.svg)
 
+- [https://github.com/darthvander20/discord-zero-day-exploit](https://github.com/darthvander20/discord-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/discord-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/discord-zero-day-exploit.svg)
+
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
+
 ## CVE-2023-27524
  Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY according to installation instructions allow for an attacker to authenticate and access unauthorized resources. This does not affect Superset administrators who have changed the default value for SECRET_KEY config.
 
@@ -317,8 +325,6 @@
 - [https://github.com/antx-code/CVE-2023-27524](https://github.com/antx-code/CVE-2023-27524) :  ![starts](https://img.shields.io/github/stars/antx-code/CVE-2023-27524.svg) ![forks](https://img.shields.io/github/forks/antx-code/CVE-2023-27524.svg)
 
 - [https://github.com/Okaytc/Superset_auth_bypass_check](https://github.com/Okaytc/Superset_auth_bypass_check) :  ![starts](https://img.shields.io/github/stars/Okaytc/Superset_auth_bypass_check.svg) ![forks](https://img.shields.io/github/forks/Okaytc/Superset_auth_bypass_check.svg)
-
-- [https://github.com/researchkendra91/telegram-0day-exploit-poc](https://github.com/researchkendra91/telegram-0day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/researchkendra91/telegram-0day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/telegram-0day-exploit-poc.svg)
 
 ## CVE-2023-27350
  This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not required to exploit this vulnerability. The specific flaw exists within the SetupCompleted class. The issue results from improper access control. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-18987.
@@ -332,6 +338,10 @@
 - [https://github.com/adhikara13/CVE-2023-27350](https://github.com/adhikara13/CVE-2023-27350) :  ![starts](https://img.shields.io/github/stars/adhikara13/CVE-2023-27350.svg) ![forks](https://img.shields.io/github/forks/adhikara13/CVE-2023-27350.svg)
 
 - [https://github.com/MaanVader/CVE-2023-27350-POC](https://github.com/MaanVader/CVE-2023-27350-POC) :  ![starts](https://img.shields.io/github/stars/MaanVader/CVE-2023-27350-POC.svg) ![forks](https://img.shields.io/github/forks/MaanVader/CVE-2023-27350-POC.svg)
+
+- [https://github.com/darthvander20/discord-zero-day-exploit](https://github.com/darthvander20/discord-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/discord-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/discord-zero-day-exploit.svg)
+
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 ## CVE-2023-27326
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -546,20 +556,6 @@
 
 - [https://github.com/abbisQQ/CVE-2023-24610](https://github.com/abbisQQ/CVE-2023-24610) :  ![starts](https://img.shields.io/github/stars/abbisQQ/CVE-2023-24610.svg) ![forks](https://img.shields.io/github/forks/abbisQQ/CVE-2023-24610.svg)
 
-## CVE-2023-24540
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/researchkendra91/signal-zeroday-exploit](https://github.com/researchkendra91/signal-zeroday-exploit) :  ![starts](https://img.shields.io/github/stars/researchkendra91/signal-zeroday-exploit.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/signal-zeroday-exploit.svg)
-
-## CVE-2023-24539
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/researchkendra91/signal-zeroday-exploit](https://github.com/researchkendra91/signal-zeroday-exploit) :  ![starts](https://img.shields.io/github/stars/researchkendra91/signal-zeroday-exploit.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/signal-zeroday-exploit.svg)
-
 ## CVE-2023-24362
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -622,9 +618,9 @@
 
 - [https://github.com/gibran-abdillah/CVE-2023-23752](https://github.com/gibran-abdillah/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/gibran-abdillah/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/gibran-abdillah/CVE-2023-23752.svg)
 
-- [https://github.com/Pari-Malam/CVE-2023-23752](https://github.com/Pari-Malam/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Pari-Malam/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Pari-Malam/CVE-2023-23752.svg)
-
 - [https://github.com/octosec45/ms-word-rce-0day-poc-2023](https://github.com/octosec45/ms-word-rce-0day-poc-2023) :  ![starts](https://img.shields.io/github/stars/octosec45/ms-word-rce-0day-poc-2023.svg) ![forks](https://img.shields.io/github/forks/octosec45/ms-word-rce-0day-poc-2023.svg)
+
+- [https://github.com/Pari-Malam/CVE-2023-23752](https://github.com/Pari-Malam/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Pari-Malam/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Pari-Malam/CVE-2023-23752.svg)
 
 - [https://github.com/Saboor-Hakimi/CVE-2023-23752](https://github.com/Saboor-Hakimi/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Saboor-Hakimi/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Saboor-Hakimi/CVE-2023-23752.svg)
 
@@ -654,9 +650,9 @@
 
 - [https://github.com/adriyansyah-mf/CVE-2023-23752](https://github.com/adriyansyah-mf/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/adriyansyah-mf/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/adriyansyah-mf/CVE-2023-23752.svg)
 
-- [https://github.com/Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Jenderal92/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/Joomla-CVE-2023-23752.svg)
-
 - [https://github.com/H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-23752.svg)
+
+- [https://github.com/Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Jenderal92/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/Joomla-CVE-2023-23752.svg)
 
 - [https://github.com/equationsoftworks/Radiance](https://github.com/equationsoftworks/Radiance) :  ![starts](https://img.shields.io/github/stars/equationsoftworks/Radiance.svg) ![forks](https://img.shields.io/github/forks/equationsoftworks/Radiance.svg)
 
@@ -878,9 +874,9 @@
 
 - [https://github.com/M4fiaB0y/CVE-2023-22809](https://github.com/M4fiaB0y/CVE-2023-22809) :  ![starts](https://img.shields.io/github/stars/M4fiaB0y/CVE-2023-22809.svg) ![forks](https://img.shields.io/github/forks/M4fiaB0y/CVE-2023-22809.svg)
 
-- [https://github.com/CKevens/CVE-2023-22809-sudo-POC](https://github.com/CKevens/CVE-2023-22809-sudo-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-22809-sudo-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-22809-sudo-POC.svg)
-
 - [https://github.com/octosec45/ms-word-rce-0day-poc-2023](https://github.com/octosec45/ms-word-rce-0day-poc-2023) :  ![starts](https://img.shields.io/github/stars/octosec45/ms-word-rce-0day-poc-2023.svg) ![forks](https://img.shields.io/github/forks/octosec45/ms-word-rce-0day-poc-2023.svg)
+
+- [https://github.com/CKevens/CVE-2023-22809-sudo-POC](https://github.com/CKevens/CVE-2023-22809-sudo-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-22809-sudo-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-22809-sudo-POC.svg)
 
 ## CVE-2023-22621
  Strapi through 4.5.5 allows authenticated Server-Side Template Injection (SSTI) that can be exploited to execute arbitrary code on the server. A remote attacker with access to the Strapi admin panel can inject a crafted payload that executes code on the server into an email template that bypasses the validation checks that should prevent code execution.
@@ -917,6 +913,13 @@
 
 - [https://github.com/4ra1n/CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/4ra1n/CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/4ra1n/CVE-2023-21839.svg)
 
+## CVE-2023-21932
+ Vulnerability in the Oracle Hospitality OPERA 5 Property Services product of Oracle Hospitality Applications (component: OXI). The supported version that is affected is 5.6. Difficult to exploit vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle Hospitality OPERA 5 Property Services. While the vulnerability is in Oracle Hospitality OPERA 5 Property Services, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle Hospitality OPERA 5 Property Services accessible data as well as unauthorized update, insert or delete access to some of Oracle Hospitality OPERA 5 Property Services accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Hospitality OPERA 5 Property Services. CVSS 3.1 Base Score 7.2 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:L/A:L).
+
+
+
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
+
 ## CVE-2023-21931
  Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
 
@@ -944,6 +947,8 @@
 - [https://github.com/octosec45/ms-word-rce-0day-poc-2023](https://github.com/octosec45/ms-word-rce-0day-poc-2023) :  ![starts](https://img.shields.io/github/stars/octosec45/ms-word-rce-0day-poc-2023.svg) ![forks](https://img.shields.io/github/forks/octosec45/ms-word-rce-0day-poc-2023.svg)
 
 - [https://github.com/houqe/POC_CVE-2023-21839](https://github.com/houqe/POC_CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/houqe/POC_CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/houqe/POC_CVE-2023-21839.svg)
+
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 - [https://github.com/fakenews2025/CVE-2023-21839](https://github.com/fakenews2025/CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/fakenews2025/CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/fakenews2025/CVE-2023-21839.svg)
 
@@ -1034,6 +1039,8 @@
 
 
 - [https://github.com/mayflowers54/discord-rce-exploit-poc](https://github.com/mayflowers54/discord-rce-exploit-poc) :  ![starts](https://img.shields.io/github/stars/mayflowers54/discord-rce-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/mayflowers54/discord-rce-exploit-poc.svg)
+
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 ## CVE-2023-21706
  Microsoft Exchange Server Remote Code Execution Vulnerability
@@ -1137,6 +1144,15 @@
 
 - [https://github.com/limo520/CVE-2023-20860](https://github.com/limo520/CVE-2023-20860) :  ![starts](https://img.shields.io/github/stars/limo520/CVE-2023-20860.svg) ![forks](https://img.shields.io/github/forks/limo520/CVE-2023-20860.svg)
 
+## CVE-2023-2131
+ Versions of INEA ME RTU firmware prior to 3.36 are vulnerable to OS command injection, which could allow an attacker to remotely execute arbitrary code.
+
+
+
+- [https://github.com/darthvander20/discord-zero-day-exploit](https://github.com/darthvander20/discord-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/discord-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/discord-zero-day-exploit.svg)
+
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
+
 ## CVE-2023-2114
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -1151,9 +1167,9 @@
 
 - [https://github.com/insoxin/CVE-2023-2033](https://github.com/insoxin/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/insoxin/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/insoxin/CVE-2023-2033.svg)
 
-- [https://github.com/gretchenfrage/CVE-2023-2033-analysis](https://github.com/gretchenfrage/CVE-2023-2033-analysis) :  ![starts](https://img.shields.io/github/stars/gretchenfrage/CVE-2023-2033-analysis.svg) ![forks](https://img.shields.io/github/forks/gretchenfrage/CVE-2023-2033-analysis.svg)
-
 - [https://github.com/sandumjacob/CVE-2023-2033-Analysis](https://github.com/sandumjacob/CVE-2023-2033-Analysis) :  ![starts](https://img.shields.io/github/stars/sandumjacob/CVE-2023-2033-Analysis.svg) ![forks](https://img.shields.io/github/forks/sandumjacob/CVE-2023-2033-Analysis.svg)
+
+- [https://github.com/gretchenfrage/CVE-2023-2033-analysis](https://github.com/gretchenfrage/CVE-2023-2033-analysis) :  ![starts](https://img.shields.io/github/stars/gretchenfrage/CVE-2023-2033-analysis.svg) ![forks](https://img.shields.io/github/forks/gretchenfrage/CVE-2023-2033-analysis.svg)
 
 ## CVE-2023-2002
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -1210,6 +1226,15 @@
 
 
 - [https://github.com/0xxtoby/CVE-2023-1415](https://github.com/0xxtoby/CVE-2023-1415) :  ![starts](https://img.shields.io/github/stars/0xxtoby/CVE-2023-1415.svg) ![forks](https://img.shields.io/github/forks/0xxtoby/CVE-2023-1415.svg)
+
+## CVE-2023-1389
+ TP-Link Archer AX21 (AX1800) firmware versions before 1.1.4 Build 20230219 contained a command injection vulnerability in the country form of the /cgi-bin/luci;stok=/locale endpoint on the web management interface. Specifically, the country parameter of the write operation was not sanitized before being used in a call to popen(), allowing an unauthenticated attacker to inject commands, which would be run as root, with a simple POST request.
+
+
+
+- [https://github.com/darthvander20/discord-zero-day-exploit](https://github.com/darthvander20/discord-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/discord-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/discord-zero-day-exploit.svg)
+
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 ## CVE-2023-1337
  The RapidLoad Power-Up for Autoptimize plugin for WordPress is vulnerable to unauthorized data loss due to a missing capability check on the clear_uucss_logs function in versions up to, and including, 1.7.1. This makes it possible for authenticated attackers with subscriber-level access to delete plugin log files.
