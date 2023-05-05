@@ -40,6 +40,13 @@
 
 - [https://github.com/alt3kx/CVE-2002-0448](https://github.com/alt3kx/CVE-2002-0448) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0448.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0448.svg)
 
+## CVE-2002-0348
+ service.cgi in Cobalt RAQ 4 allows remote attackers to cause a denial of service, and possibly execute arbitrary code, via a long service argument.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0348](https://github.com/alt3kx/CVE-2002-0348) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0348.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0348.svg)
+
 ## CVE-2002-0347
  Directory traversal vulnerability in Cobalt RAQ 4 allows remote attackers to read password-protected files, and possibly files outside the web root, via a .. (dot dot) in an HTTP request.
 
