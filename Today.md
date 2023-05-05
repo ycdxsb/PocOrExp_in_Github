@@ -1,175 +1,145 @@
-# Update 2023-05-04
-## CVE-2023-31435
- Multiple components (such as Onlinetemplate-Verwaltung, Liste aller Teilbereiche, Umfragen anzeigen, and questionnaire previews) in evasys before 8.2 Build 2286 and 9.x before 9.0 Build 2401 allow authenticated attackers to read and write to unauthorized data by accessing functions directly.
-
-- [https://github.com/trustcves/CVE-2023-31435](https://github.com/trustcves/CVE-2023-31435) :  ![starts](https://img.shields.io/github/stars/trustcves/CVE-2023-31435.svg) ![forks](https://img.shields.io/github/forks/trustcves/CVE-2023-31435.svg)
-
-
-## CVE-2023-31434
- The parameters nutzer_titel, nutzer_vn, and nutzer_nn in the user profile, and langID and ONLINEID in direct links, in evasys before 8.2 Build 2286 and 9.x before 9.0 Build 2401 do not validate input, which allows authenticated attackers to inject HTML Code and XSS payloads in multiple locations.
-
-- [https://github.com/trustcves/CVE-2023-31434](https://github.com/trustcves/CVE-2023-31434) :  ![starts](https://img.shields.io/github/stars/trustcves/CVE-2023-31434.svg) ![forks](https://img.shields.io/github/forks/trustcves/CVE-2023-31434.svg)
-
-
-## CVE-2023-31433
- A SQL injection issue in Logbuch in evasys before 8.2 Build 2286 and 9.x before 9.0 Build 2401 allows authenticated attackers to execute SQL statements via the welche parameter.
-
-- [https://github.com/trustcves/CVE-2023-31433](https://github.com/trustcves/CVE-2023-31433) :  ![starts](https://img.shields.io/github/stars/trustcves/CVE-2023-31433.svg) ![forks](https://img.shields.io/github/forks/trustcves/CVE-2023-31433.svg)
-
-
-## CVE-2023-29839
- A Stored Cross Site Scripting (XSS) vulnerability exists in multiple pages of Hotel Druid version 3.0.4, which allows arbitrary execution of commands. The vulnerable fields are Surname, Name, and Nickname in the Document function.
-
-- [https://github.com/jichngan/CVE-2023-29839](https://github.com/jichngan/CVE-2023-29839) :  ![starts](https://img.shields.io/github/stars/jichngan/CVE-2023-29839.svg) ![forks](https://img.shields.io/github/forks/jichngan/CVE-2023-29839.svg)
-
-
-## CVE-2023-29400
+# Update 2023-05-05
+## CVE-2023-29808
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/researchkendra91/signal-zeroday-exploit](https://github.com/researchkendra91/signal-zeroday-exploit) :  ![starts](https://img.shields.io/github/stars/researchkendra91/signal-zeroday-exploit.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/signal-zeroday-exploit.svg)
+- [https://github.com/zPrototype/CVE-2023-29808](https://github.com/zPrototype/CVE-2023-29808) :  ![starts](https://img.shields.io/github/stars/zPrototype/CVE-2023-29808.svg) ![forks](https://img.shields.io/github/forks/zPrototype/CVE-2023-29808.svg)
 
 
-## CVE-2023-29007
- Git is a revision control system. Prior to versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1, a specially crafted `.gitmodules` file with submodule URLs that are longer than 1024 characters can used to exploit a bug in `config.c::git_config_copy_or_rename_section_in_file()`. This bug can be used to inject arbitrary configuration into a user's `$GIT_DIR/config` when attempting to remove the configuration section associated with that submodule. When the attacker injects configuration values which specify executables to run (such as `core.pager`, `core.editor`, `core.sshCommand`, etc.) this can lead to a remote code execution. A fix A fix is available in versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1. As a workaround, avoid running `git submodule deinit` on untrusted repositories or without prior inspection of any submodule sections in `$GIT_DIR/config`.
+## CVE-2023-29489
+ An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the cpsrvd error page via an invalid webcall ID, aka SEC-669. The fixed versions are 11.109.9999.116, 11.108.0.13, 11.106.0.18, and 11.102.0.31.
 
-- [https://github.com/omespino/CVE-2023-29007](https://github.com/omespino/CVE-2023-29007) :  ![starts](https://img.shields.io/github/stars/omespino/CVE-2023-29007.svg) ![forks](https://img.shields.io/github/forks/omespino/CVE-2023-29007.svg)
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 
 ## CVE-2023-28771
  Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series firmware versions 4.60 through 5.35, and ATP series firmware versions 4.60 through 5.35, which could allow an unauthenticated attacker to execute some OS commands remotely by sending crafted packets to an affected device.
 
-- [https://github.com/researchkendra91/telegram-0day-exploit-poc](https://github.com/researchkendra91/telegram-0day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/researchkendra91/telegram-0day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/telegram-0day-exploit-poc.svg)
+- [https://github.com/darthvander20/discord-zero-day-exploit](https://github.com/darthvander20/discord-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/discord-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/discord-zero-day-exploit.svg)
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 
-## CVE-2023-27524
- Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY according to installation instructions allow for an attacker to authenticate and access unauthorized resources. This does not affect Superset administrators who have changed the default value for SECRET_KEY config.
+## CVE-2023-27532
+ Vulnerability in Veeam Backup &amp; Replication component allows encrypted credentials stored in the configuration database to be obtained. This may lead to gaining access to the backup infrastructure hosts.
 
-- [https://github.com/researchkendra91/telegram-0day-exploit-poc](https://github.com/researchkendra91/telegram-0day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/researchkendra91/telegram-0day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/telegram-0day-exploit-poc.svg)
-
-
-## CVE-2023-24540
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/researchkendra91/signal-zeroday-exploit](https://github.com/researchkendra91/signal-zeroday-exploit) :  ![starts](https://img.shields.io/github/stars/researchkendra91/signal-zeroday-exploit.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/signal-zeroday-exploit.svg)
+- [https://github.com/darthvander20/discord-zero-day-exploit](https://github.com/darthvander20/discord-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/discord-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/discord-zero-day-exploit.svg)
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 
-## CVE-2023-24539
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2023-27350
+ This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not required to exploit this vulnerability. The specific flaw exists within the SetupCompleted class. The issue results from improper access control. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-18987.
 
-- [https://github.com/researchkendra91/signal-zeroday-exploit](https://github.com/researchkendra91/signal-zeroday-exploit) :  ![starts](https://img.shields.io/github/stars/researchkendra91/signal-zeroday-exploit.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/signal-zeroday-exploit.svg)
-
-
-## CVE-2023-23376
- Windows Common Log File System Driver Elevation of Privilege Vulnerability
-
-- [https://github.com/mayflowers54/discord-rce-exploit-poc](https://github.com/mayflowers54/discord-rce-exploit-poc) :  ![starts](https://img.shields.io/github/stars/mayflowers54/discord-rce-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/mayflowers54/discord-rce-exploit-poc.svg)
+- [https://github.com/darthvander20/discord-zero-day-exploit](https://github.com/darthvander20/discord-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/discord-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/discord-zero-day-exploit.svg)
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 
-## CVE-2023-21823
- Windows Graphics Component Remote Code Execution Vulnerability
+## CVE-2023-21932
+ Vulnerability in the Oracle Hospitality OPERA 5 Property Services product of Oracle Hospitality Applications (component: OXI). The supported version that is affected is 5.6. Difficult to exploit vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle Hospitality OPERA 5 Property Services. While the vulnerability is in Oracle Hospitality OPERA 5 Property Services, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle Hospitality OPERA 5 Property Services accessible data as well as unauthorized update, insert or delete access to some of Oracle Hospitality OPERA 5 Property Services accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Hospitality OPERA 5 Property Services. CVSS 3.1 Base Score 7.2 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:L/A:L).
 
-- [https://github.com/mayflowers54/discord-rce-exploit-poc](https://github.com/mayflowers54/discord-rce-exploit-poc) :  ![starts](https://img.shields.io/github/stars/mayflowers54/discord-rce-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/mayflowers54/discord-rce-exploit-poc.svg)
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
+
+
+## CVE-2023-21839
+ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 
 ## CVE-2023-21707
  Microsoft Exchange Server Remote Code Execution Vulnerability
 
-- [https://github.com/mayflowers54/discord-rce-exploit-poc](https://github.com/mayflowers54/discord-rce-exploit-poc) :  ![starts](https://img.shields.io/github/stars/mayflowers54/discord-rce-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/mayflowers54/discord-rce-exploit-poc.svg)
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 
-## CVE-2023-21706
- Microsoft Exchange Server Remote Code Execution Vulnerability
+## CVE-2023-2131
+ Versions of INEA ME RTU firmware prior to 3.36 are vulnerable to OS command injection, which could allow an attacker to remotely execute arbitrary code.
 
-- [https://github.com/mayflowers54/discord-rce-exploit-poc](https://github.com/mayflowers54/discord-rce-exploit-poc) :  ![starts](https://img.shields.io/github/stars/mayflowers54/discord-rce-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/mayflowers54/discord-rce-exploit-poc.svg)
+- [https://github.com/darthvander20/discord-zero-day-exploit](https://github.com/darthvander20/discord-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/discord-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/discord-zero-day-exploit.svg)
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 
-## CVE-2023-21529
- Microsoft Exchange Server Remote Code Execution Vulnerability
+## CVE-2023-1389
+ TP-Link Archer AX21 (AX1800) firmware versions before 1.1.4 Build 20230219 contained a command injection vulnerability in the country form of the /cgi-bin/luci;stok=/locale endpoint on the web management interface. Specifically, the country parameter of the write operation was not sanitized before being used in a call to popen(), allowing an unauthenticated attacker to inject commands, which would be run as root, with a simple POST request.
 
-- [https://github.com/mayflowers54/discord-rce-exploit-poc](https://github.com/mayflowers54/discord-rce-exploit-poc) :  ![starts](https://img.shields.io/github/stars/mayflowers54/discord-rce-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/mayflowers54/discord-rce-exploit-poc.svg)
+- [https://github.com/darthvander20/discord-zero-day-exploit](https://github.com/darthvander20/discord-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/discord-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/discord-zero-day-exploit.svg)
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 
 ## CVE-2022-46169
  Cacti is an open source platform which provides a robust and extensible operational monitoring and fault management framework for users. In affected versions a command injection vulnerability allows an unauthenticated user to execute arbitrary code on a server running Cacti, if a specific data source was selected for any monitored device. The vulnerability resides in the `remote_agent.php` file. This file can be accessed without authentication. This function retrieves the IP address of the client via `get_client_addr` and resolves this IP address to the corresponding hostname via `gethostbyaddr`. After this, it is verified that an entry within the `poller` table exists, where the hostname corresponds to the resolved hostname. If such an entry was found, the function returns `true` and the client is authorized. This authorization can be bypassed due to the implementation of the `get_client_addr` function. The function is defined in the file `lib/functions.php` and checks serval `$_SERVER` variables to determine the IP address of the client. The variables beginning with `HTTP_` can be arbitrarily set by an attacker. Since there is a default entry in the `poller` table with the hostname of the server running Cacti, an attacker can bypass the authentication e.g. by providing the header `Forwarded-For: &lt;TARGETIP&gt;`. This way the function `get_client_addr` returns the IP address of the server running Cacti. The following call to `gethostbyaddr` will resolve this IP address to the hostname of the server, which will pass the `poller` hostname check because of the default entry. After the authorization of the `remote_agent.php` file is bypassed, an attacker can trigger different actions. One of these actions is called `polldata`. The called function `poll_for_data` retrieves a few request parameters and loads the corresponding `poller_item` entries from the database. If the `action` of a `poller_item` equals `POLLER_ACTION_SCRIPT_PHP`, the function `proc_open` is used to execute a PHP script. The attacker-controlled parameter `$poller_id` is retrieved via the function `get_nfilter_request_var`, which allows arbitrary strings. This variable is later inserted into the string passed to `proc_open`, which leads to a command injection vulnerability. By e.g. providing the `poller_id=;id` the `id` command is executed. In order to reach the vulnerable call, the attacker must provide a `host_id` and `local_data_id`, where the `action` of the corresponding `poller_item` is set to `POLLER_ACTION_SCRIPT_PHP`. Both of these ids (`host_id` and `local_data_id`) can easily be bruteforced. The only requirement is that a `poller_item` with an `POLLER_ACTION_SCRIPT_PHP` action exists. This is very likely on a productive instance because this action is added by some predefined templates like `Device - Uptime` or `Device - Polling Time`. This command injection vulnerability allows an unauthenticated user to execute arbitrary commands if a `poller_item` with the `action` type `POLLER_ACTION_SCRIPT_PHP` (`2`) is configured. The authorization bypass should be prevented by not allowing an attacker to make `get_client_addr` (file `lib/functions.php`) return an arbitrary IP address. This could be done by not honoring the `HTTP_...` `$_SERVER` variables. If these should be kept for compatibility reasons it should at least be prevented to fake the IP address of the server running Cacti. This vulnerability has been addressed in both the 1.2.x and 1.3.x release branches with `1.2.23` being the first release containing the patch.
 
-- [https://github.com/Safarchand/CVE-2022-46169](https://github.com/Safarchand/CVE-2022-46169) :  ![starts](https://img.shields.io/github/stars/Safarchand/CVE-2022-46169.svg) ![forks](https://img.shields.io/github/forks/Safarchand/CVE-2022-46169.svg)
+- [https://github.com/MarkStrendin/CVE-2022-46169](https://github.com/MarkStrendin/CVE-2022-46169) :  ![starts](https://img.shields.io/github/stars/MarkStrendin/CVE-2022-46169.svg) ![forks](https://img.shields.io/github/forks/MarkStrendin/CVE-2022-46169.svg)
 
 
-## CVE-2022-41080
- Microsoft Exchange Server Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-41123.
+## CVE-2022-28219
+ Cewolf in Zoho ManageEngine ADAudit Plus before 7060 is vulnerable to an unauthenticated XXE attack that leads to Remote Code Execution.
 
-- [https://github.com/mayflowers54/discord-rce-exploit-poc](https://github.com/mayflowers54/discord-rce-exploit-poc) :  ![starts](https://img.shields.io/github/stars/mayflowers54/discord-rce-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/mayflowers54/discord-rce-exploit-poc.svg)
-
-
-## CVE-2022-39952
- A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.
-
-- [https://github.com/mayflowers54/discord-rce-exploit-poc](https://github.com/mayflowers54/discord-rce-exploit-poc) :  ![starts](https://img.shields.io/github/stars/mayflowers54/discord-rce-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/mayflowers54/discord-rce-exploit-poc.svg)
-
-
-## CVE-2022-30190
- Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability.
-
-- [https://github.com/meowhua15/CVE-2022-30190](https://github.com/meowhua15/CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/meowhua15/CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/meowhua15/CVE-2022-30190.svg)
+- [https://github.com/rbowes-r7/manageengine-auditad-cve-2022-28219](https://github.com/rbowes-r7/manageengine-auditad-cve-2022-28219) :  ![starts](https://img.shields.io/github/stars/rbowes-r7/manageengine-auditad-cve-2022-28219.svg) ![forks](https://img.shields.io/github/forks/rbowes-r7/manageengine-auditad-cve-2022-28219.svg)
 
 
 ## CVE-2022-22963
  In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources.
 
-- [https://github.com/west-wind/Spring4Shell-Detection](https://github.com/west-wind/Spring4Shell-Detection) :  ![starts](https://img.shields.io/github/stars/west-wind/Spring4Shell-Detection.svg) ![forks](https://img.shields.io/github/forks/west-wind/Spring4Shell-Detection.svg)
+- [https://github.com/GunZF0x/CVE-2022-22963](https://github.com/GunZF0x/CVE-2022-22963) :  ![starts](https://img.shields.io/github/stars/GunZF0x/CVE-2022-22963.svg) ![forks](https://img.shields.io/github/forks/GunZF0x/CVE-2022-22963.svg)
 
 
 ## CVE-2021-45046
  It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in an information leak and remote code execution in some environments and local code execution in all environments. Log4j 2.16.0 (Java 8) and 2.12.2 (Java 7) fix this issue by removing support for message lookup patterns and disabling JNDI functionality by default.
 
-- [https://github.com/researchkendra91/signal-zeroday-exploit](https://github.com/researchkendra91/signal-zeroday-exploit) :  ![starts](https://img.shields.io/github/stars/researchkendra91/signal-zeroday-exploit.svg) ![forks](https://img.shields.io/github/forks/researchkendra91/signal-zeroday-exploit.svg)
+- [https://github.com/darthvander20/discord-zero-day-exploit](https://github.com/darthvander20/discord-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/discord-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/discord-zero-day-exploit.svg)
+- [https://github.com/darthvander20/whatsapp-zero-day-exploit](https://github.com/darthvander20/whatsapp-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/darthvander20/whatsapp-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/darthvander20/whatsapp-zero-day-exploit.svg)
 
 
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+## CVE-2021-22192
+ An issue has been discovered in GitLab CE/EE affecting all versions starting from 13.2 allowing unauthorized authenticated users to execute arbitrary code on the server.
 
-- [https://github.com/shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/shiomiyan/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/shiomiyan/CVE-2021-41773.svg)
-- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
-
-
-## CVE-2021-41349
- Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-2021-42305.
-
-- [https://github.com/exploit-io/CVE-2021-41349](https://github.com/exploit-io/CVE-2021-41349) :  ![starts](https://img.shields.io/github/stars/exploit-io/CVE-2021-41349.svg) ![forks](https://img.shields.io/github/forks/exploit-io/CVE-2021-41349.svg)
+- [https://github.com/EXP-Docs/CVE-2021-22192](https://github.com/EXP-Docs/CVE-2021-22192) :  ![starts](https://img.shields.io/github/stars/EXP-Docs/CVE-2021-22192.svg) ![forks](https://img.shields.io/github/forks/EXP-Docs/CVE-2021-22192.svg)
 
 
-## CVE-2021-4104
- JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when the attacker has write access to the Log4j configuration. The attacker can provide TopicBindingName and TopicConnectionFactoryBindingName configurations causing JMSAppender to perform JNDI requests that result in remote code execution in a similar fashion to CVE-2021-44228. Note this issue only affects Log4j 1.2 when specifically configured to use JMSAppender, which is not the default. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions.
+## CVE-2021-21300
+ Git is an open-source distributed revision control system. In affected versions of Git a specially crafted repository that contains symbolic links as well as files using a clean/smudge filter such as Git LFS, may cause just-checked out script to be executed while cloning onto a case-insensitive file system such as NTFS, HFS+ or APFS (i.e. the default file systems on Windows and macOS). Note that clean/smudge filters have to be configured for that. Git for Windows configures Git LFS by default, and is therefore vulnerable. The problem has been patched in the versions published on Tuesday, March 9th, 2021. As a workaound, if symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. Likewise, if no clean/smudge filters such as Git LFS are configured globally (i.e. _before_ cloning), the attack is foiled. As always, it is best to avoid cloning repositories from untrusted sources. The earliest impacted version is 2.14.2. The fix versions are: 2.30.1, 2.29.3, 2.28.1, 2.27.1, 2.26.3, 2.25.5, 2.24.4, 2.23.4, 2.22.5, 2.21.4, 2.20.5, 2.19.6, 2.18.5, 2.17.62.17.6.
 
-- [https://github.com/HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder) :  ![starts](https://img.shields.io/github/stars/HynekPetrak/log4shell-finder.svg) ![forks](https://img.shields.io/github/forks/HynekPetrak/log4shell-finder.svg)
-
-
-## CVE-2020-15848
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/faklad/CVE-2020-15848](https://github.com/faklad/CVE-2020-15848) :  ![starts](https://img.shields.io/github/stars/faklad/CVE-2020-15848.svg) ![forks](https://img.shields.io/github/forks/faklad/CVE-2020-15848.svg)
+- [https://github.com/henry861010/Network_Security_NYCU](https://github.com/henry861010/Network_Security_NYCU) :  ![starts](https://img.shields.io/github/stars/henry861010/Network_Security_NYCU.svg) ![forks](https://img.shields.io/github/forks/henry861010/Network_Security_NYCU.svg)
 
 
-## CVE-2019-1215
- An elevation of privilege vulnerability exists in the way that ws2ifsl.sys (Winsock) handles objects in memory, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1253, CVE-2019-1278, CVE-2019-1303.
+## CVE-2020-13933
+ Apache Shiro before 1.6.0, when using Apache Shiro, a specially crafted HTTP request may cause an authentication bypass.
 
-- [https://github.com/bluefrostsecurity/CVE-2019-1215](https://github.com/bluefrostsecurity/CVE-2019-1215) :  ![starts](https://img.shields.io/github/stars/bluefrostsecurity/CVE-2019-1215.svg) ![forks](https://img.shields.io/github/forks/bluefrostsecurity/CVE-2019-1215.svg)
-
-
-## CVE-2019-1068
- A remote code execution vulnerability exists in Microsoft SQL Server when it incorrectly handles processing of internal functions, aka 'Microsoft SQL Server Remote Code Execution Vulnerability'.
-
-- [https://github.com/Vulnerability-Playground/CVE-2019-1068](https://github.com/Vulnerability-Playground/CVE-2019-1068) :  ![starts](https://img.shields.io/github/stars/Vulnerability-Playground/CVE-2019-1068.svg) ![forks](https://img.shields.io/github/forks/Vulnerability-Playground/CVE-2019-1068.svg)
+- [https://github.com/EXP-Docs/CVE-2020-13933](https://github.com/EXP-Docs/CVE-2020-13933) :  ![starts](https://img.shields.io/github/stars/EXP-Docs/CVE-2020-13933.svg) ![forks](https://img.shields.io/github/forks/EXP-Docs/CVE-2020-13933.svg)
 
 
-## CVE-2013-5211
- The monlist feature in ntp_request.c in ntpd in NTP before 4.2.7p26 allows remote attackers to cause a denial of service (traffic amplification) via forged (1) REQ_MON_GETLIST or (2) REQ_MON_GETLIST_1 requests, as exploited in the wild in December 2013.
+## CVE-2020-13277
+ An authorization issue in the mirroring logic allowed read access to private repositories in GitLab CE/EE 10.6 and later through 13.0.5
 
-- [https://github.com/0xhav0c/CVE-2013-5211](https://github.com/0xhav0c/CVE-2013-5211) :  ![starts](https://img.shields.io/github/stars/0xhav0c/CVE-2013-5211.svg) ![forks](https://img.shields.io/github/forks/0xhav0c/CVE-2013-5211.svg)
+- [https://github.com/EXP-Docs/CVE-2020-13277](https://github.com/EXP-Docs/CVE-2020-13277) :  ![starts](https://img.shields.io/github/stars/EXP-Docs/CVE-2020-13277.svg) ![forks](https://img.shields.io/github/forks/EXP-Docs/CVE-2020-13277.svg)
 
 
-## CVE-2002-20001
- The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the client side) to send arbitrary numbers that are actually not public keys, and trigger expensive server-side DHE modular-exponentiation calculations, aka a D(HE)ater attack. The client needs very little CPU resources and network bandwidth. The attack may be more disruptive in cases where a client can require a server to select its largest supported key size. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE.
+## CVE-2019-16769
+ The serialize-javascript npm package before version 2.1.1 is vulnerable to Cross-site Scripting (XSS). It does not properly mitigate against unsafe characters in serialized regular expressions. This vulnerability is not affected on Node.js environment since Node.js's implementation of RegExp.prototype.toString() backslash-escapes all forward slashes in regular expressions. If serialized data of regular expression objects are used in an environment other than Node.js, it is affected by this vulnerability.
 
-- [https://github.com/c0r0n3r/dheater](https://github.com/c0r0n3r/dheater) :  ![starts](https://img.shields.io/github/stars/c0r0n3r/dheater.svg) ![forks](https://img.shields.io/github/forks/c0r0n3r/dheater.svg)
+- [https://github.com/ossf-cve-benchmark/CVE-2019-16769](https://github.com/ossf-cve-benchmark/CVE-2019-16769) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-16769.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-16769.svg)
+
+
+## CVE-2019-15588
+ There is an OS Command Injection in Nexus Repository Manager &lt;= 2.14.14 (bypass CVE-2019-5475) that could allow an attacker a Remote Code Execution (RCE). All instances using CommandLineExecutor.java with user-supplied data is vulnerable, such as the Yum Configuration Capability.
+
+- [https://github.com/EXP-Docs/CVE-2019-5475](https://github.com/EXP-Docs/CVE-2019-5475) :  ![starts](https://img.shields.io/github/stars/EXP-Docs/CVE-2019-5475.svg) ![forks](https://img.shields.io/github/forks/EXP-Docs/CVE-2019-5475.svg)
+- [https://github.com/EXP-Docs/CVE-2019-15588](https://github.com/EXP-Docs/CVE-2019-15588) :  ![starts](https://img.shields.io/github/stars/EXP-Docs/CVE-2019-15588.svg) ![forks](https://img.shields.io/github/forks/EXP-Docs/CVE-2019-15588.svg)
+
+
+## CVE-2019-5475
+ The Nexus Yum Repository Plugin in v2 is vulnerable to Remote Code Execution when instances using CommandLineExecutor.java are supplied vulnerable data, such as the Yum Configuration Capability.
+
+- [https://github.com/EXP-Docs/CVE-2019-5475](https://github.com/EXP-Docs/CVE-2019-5475) :  ![starts](https://img.shields.io/github/stars/EXP-Docs/CVE-2019-5475.svg) ![forks](https://img.shields.io/github/forks/EXP-Docs/CVE-2019-5475.svg)
+
+
+## CVE-2008-6806
+ Unrestricted file upload vulnerability in includes/imageupload.php in 7Shop 1.1 and earlier allows remote attackers to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in images/artikel/.
+
+- [https://github.com/threatcode/CVE-2008-6806](https://github.com/threatcode/CVE-2008-6806) :  ![starts](https://img.shields.io/github/stars/threatcode/CVE-2008-6806.svg) ![forks](https://img.shields.io/github/forks/threatcode/CVE-2008-6806.svg)
+
+
+## CVE-2008-4687
+ manage_proj_page.php in Mantis before 1.1.4 allows remote authenticated users to execute arbitrary code via a sort parameter containing PHP sequences, which are processed by create_function within the multi_sort function in core/utility_api.php.
+
+- [https://github.com/twisted007/mantis_rce](https://github.com/twisted007/mantis_rce) :  ![starts](https://img.shields.io/github/stars/twisted007/mantis_rce.svg) ![forks](https://img.shields.io/github/forks/twisted007/mantis_rce.svg)
 
