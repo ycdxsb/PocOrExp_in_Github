@@ -1,109 +1,118 @@
-# Update 2023-05-10
-## CVE-2023-30092
- SourceCodester Online Pizza Ordering System v1.0 is vulnerable to SQL Injection via the QTY parameter.
-
-- [https://github.com/nawed20002/CVE-2023-30092](https://github.com/nawed20002/CVE-2023-30092) :  ![starts](https://img.shields.io/github/stars/nawed20002/CVE-2023-30092.svg) ![forks](https://img.shields.io/github/forks/nawed20002/CVE-2023-30092.svg)
-
-
-## CVE-2023-27524
- Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY according to installation instructions allow for an attacker to authenticate and access unauthorized resources. This does not affect Superset administrators who have changed the default value for SECRET_KEY config.
-
-- [https://github.com/TardC/CVE-2023-27524](https://github.com/TardC/CVE-2023-27524) :  ![starts](https://img.shields.io/github/stars/TardC/CVE-2023-27524.svg) ![forks](https://img.shields.io/github/forks/TardC/CVE-2023-27524.svg)
-
-
-## CVE-2023-25002
+# Update 2023-05-11
+## CVE-2023-30777
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/nokn0wthing/CVE-2023-25002](https://github.com/nokn0wthing/CVE-2023-25002) :  ![starts](https://img.shields.io/github/stars/nokn0wthing/CVE-2023-25002.svg) ![forks](https://img.shields.io/github/forks/nokn0wthing/CVE-2023-25002.svg)
+- [https://github.com/securitymike2310/ms-word-zero-day-rce-poc](https://github.com/securitymike2310/ms-word-zero-day-rce-poc) :  ![starts](https://img.shields.io/github/stars/securitymike2310/ms-word-zero-day-rce-poc.svg) ![forks](https://img.shields.io/github/forks/securitymike2310/ms-word-zero-day-rce-poc.svg)
 
 
-## CVE-2023-23752
- An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.
+## CVE-2023-30256
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/wibuheker/Joomla-CVE-2023-23752](https://github.com/wibuheker/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/wibuheker/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/wibuheker/Joomla-CVE-2023-23752.svg)
-
-
-## CVE-2023-20052
- On Feb 15, 2023, the following vulnerability in the ClamAV scanning library was disclosed: A vulnerability in the DMG file parser of ClamAV versions 1.0.0 and earlier, 0.105.1 and earlier, and 0.103.7 and earlier could allow an unauthenticated, remote attacker to access sensitive information on an affected device. This vulnerability is due to enabling XML entity substitution that may result in XML external entity injection. An attacker could exploit this vulnerability by submitting a crafted DMG file to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to leak bytes from any file that may be read by the ClamAV scanning process.
-
-- [https://github.com/nokn0wthing/CVE-2023-25002](https://github.com/nokn0wthing/CVE-2023-25002) :  ![starts](https://img.shields.io/github/stars/nokn0wthing/CVE-2023-25002.svg) ![forks](https://img.shields.io/github/forks/nokn0wthing/CVE-2023-25002.svg)
+- [https://github.com/ahrixia/CVE-2023-30256](https://github.com/ahrixia/CVE-2023-30256) :  ![starts](https://img.shields.io/github/stars/ahrixia/CVE-2023-30256.svg) ![forks](https://img.shields.io/github/forks/ahrixia/CVE-2023-30256.svg)
 
 
-## CVE-2022-46169
- Cacti is an open source platform which provides a robust and extensible operational monitoring and fault management framework for users. In affected versions a command injection vulnerability allows an unauthenticated user to execute arbitrary code on a server running Cacti, if a specific data source was selected for any monitored device. The vulnerability resides in the `remote_agent.php` file. This file can be accessed without authentication. This function retrieves the IP address of the client via `get_client_addr` and resolves this IP address to the corresponding hostname via `gethostbyaddr`. After this, it is verified that an entry within the `poller` table exists, where the hostname corresponds to the resolved hostname. If such an entry was found, the function returns `true` and the client is authorized. This authorization can be bypassed due to the implementation of the `get_client_addr` function. The function is defined in the file `lib/functions.php` and checks serval `$_SERVER` variables to determine the IP address of the client. The variables beginning with `HTTP_` can be arbitrarily set by an attacker. Since there is a default entry in the `poller` table with the hostname of the server running Cacti, an attacker can bypass the authentication e.g. by providing the header `Forwarded-For: &lt;TARGETIP&gt;`. This way the function `get_client_addr` returns the IP address of the server running Cacti. The following call to `gethostbyaddr` will resolve this IP address to the hostname of the server, which will pass the `poller` hostname check because of the default entry. After the authorization of the `remote_agent.php` file is bypassed, an attacker can trigger different actions. One of these actions is called `polldata`. The called function `poll_for_data` retrieves a few request parameters and loads the corresponding `poller_item` entries from the database. If the `action` of a `poller_item` equals `POLLER_ACTION_SCRIPT_PHP`, the function `proc_open` is used to execute a PHP script. The attacker-controlled parameter `$poller_id` is retrieved via the function `get_nfilter_request_var`, which allows arbitrary strings. This variable is later inserted into the string passed to `proc_open`, which leads to a command injection vulnerability. By e.g. providing the `poller_id=;id` the `id` command is executed. In order to reach the vulnerable call, the attacker must provide a `host_id` and `local_data_id`, where the `action` of the corresponding `poller_item` is set to `POLLER_ACTION_SCRIPT_PHP`. Both of these ids (`host_id` and `local_data_id`) can easily be bruteforced. The only requirement is that a `poller_item` with an `POLLER_ACTION_SCRIPT_PHP` action exists. This is very likely on a productive instance because this action is added by some predefined templates like `Device - Uptime` or `Device - Polling Time`. This command injection vulnerability allows an unauthenticated user to execute arbitrary commands if a `poller_item` with the `action` type `POLLER_ACTION_SCRIPT_PHP` (`2`) is configured. The authorization bypass should be prevented by not allowing an attacker to make `get_client_addr` (file `lib/functions.php`) return an arbitrary IP address. This could be done by not honoring the `HTTP_...` `$_SERVER` variables. If these should be kept for compatibility reasons it should at least be prevented to fake the IP address of the server running Cacti. This vulnerability has been addressed in both the 1.2.x and 1.3.x release branches with `1.2.23` being the first release containing the patch.
+## CVE-2023-29930
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/ruycr4ft/CVE-2022-46169](https://github.com/ruycr4ft/CVE-2022-46169) :  ![starts](https://img.shields.io/github/stars/ruycr4ft/CVE-2022-46169.svg) ![forks](https://img.shields.io/github/forks/ruycr4ft/CVE-2022-46169.svg)
-
-
-## CVE-2022-24637
- Open Web Analytics (OWA) before 1.7.4 allows an unauthenticated remote attacker to obtain sensitive user information, which can be used to gain admin privileges by leveraging cache hashes. This occurs because files generated with '&lt;?php (instead of the intended &quot;&lt;?php sequence) aren't handled by the PHP interpreter.
-
-- [https://github.com/c0derpwner/HTB-pwned](https://github.com/c0derpwner/HTB-pwned) :  ![starts](https://img.shields.io/github/stars/c0derpwner/HTB-pwned.svg) ![forks](https://img.shields.io/github/forks/c0derpwner/HTB-pwned.svg)
+- [https://github.com/YSaxon/TFTPlunder](https://github.com/YSaxon/TFTPlunder) :  ![starts](https://img.shields.io/github/stars/YSaxon/TFTPlunder.svg) ![forks](https://img.shields.io/github/forks/YSaxon/TFTPlunder.svg)
 
 
-## CVE-2022-1471
- SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization. Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization. We recommend upgrading to version 2.0 and beyond.
+## CVE-2023-27328
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/falconkei/snakeyaml_cve_poc](https://github.com/falconkei/snakeyaml_cve_poc) :  ![starts](https://img.shields.io/github/stars/falconkei/snakeyaml_cve_poc.svg) ![forks](https://img.shields.io/github/forks/falconkei/snakeyaml_cve_poc.svg)
-
-
-## CVE-2021-38001
- Type confusion in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-
-- [https://github.com/glavstroy/CVE-2021-38001](https://github.com/glavstroy/CVE-2021-38001) :  ![starts](https://img.shields.io/github/stars/glavstroy/CVE-2021-38001.svg) ![forks](https://img.shields.io/github/forks/glavstroy/CVE-2021-38001.svg)
+- [https://github.com/kn32/parallels-plist-escape](https://github.com/kn32/parallels-plist-escape) :  ![starts](https://img.shields.io/github/stars/kn32/parallels-plist-escape.svg) ![forks](https://img.shields.io/github/forks/kn32/parallels-plist-escape.svg)
 
 
-## CVE-2021-31805
- The fix issued for CVE-2020-17530 was incomplete. So from Apache Struts 2.0.0 to 2.5.29, still some of the tag&#8217;s attributes could perform a double evaluation if a developer applied forced OGNL evaluation by using the %{...} syntax. Using forced OGNL evaluation on untrusted user input can lead to a Remote Code Execution and security degradation.
+## CVE-2023-27327
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/pyroxenites/s2-062](https://github.com/pyroxenites/s2-062) :  ![starts](https://img.shields.io/github/stars/pyroxenites/s2-062.svg) ![forks](https://img.shields.io/github/forks/pyroxenites/s2-062.svg)
-
-
-## CVE-2021-3156
- Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
-
-- [https://github.com/stong/CVE-2021-3156](https://github.com/stong/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/stong/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/stong/CVE-2021-3156.svg)
-- [https://github.com/elbee-cyber/CVE-2021-3156-PATCHER](https://github.com/elbee-cyber/CVE-2021-3156-PATCHER) :  ![starts](https://img.shields.io/github/stars/elbee-cyber/CVE-2021-3156-PATCHER.svg) ![forks](https://img.shields.io/github/forks/elbee-cyber/CVE-2021-3156-PATCHER.svg)
-- [https://github.com/musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/musergi/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/musergi/CVE-2021-3156.svg)
-- [https://github.com/AbdullahRizwan101/Baron-Samedit](https://github.com/AbdullahRizwan101/Baron-Samedit) :  ![starts](https://img.shields.io/github/stars/AbdullahRizwan101/Baron-Samedit.svg) ![forks](https://img.shields.io/github/forks/AbdullahRizwan101/Baron-Samedit.svg)
-- [https://github.com/gmldbd94/cve-2021-3156](https://github.com/gmldbd94/cve-2021-3156) :  ![starts](https://img.shields.io/github/stars/gmldbd94/cve-2021-3156.svg) ![forks](https://img.shields.io/github/forks/gmldbd94/cve-2021-3156.svg)
+- [https://github.com/kn32/parallels-plist-escape](https://github.com/kn32/parallels-plist-escape) :  ![starts](https://img.shields.io/github/stars/kn32/parallels-plist-escape.svg) ![forks](https://img.shields.io/github/forks/kn32/parallels-plist-escape.svg)
 
 
-## CVE-2020-1349
- A remote code execution vulnerability exists in Microsoft Outlook software when it fails to properly handle objects in memory, aka 'Microsoft Outlook Remote Code Execution Vulnerability'.
+## CVE-2023-24932
+ Secure Boot Security Feature Bypass Vulnerability
 
-- [https://github.com/0neb1n/CVE-2020-1349](https://github.com/0neb1n/CVE-2020-1349) :  ![starts](https://img.shields.io/github/stars/0neb1n/CVE-2020-1349.svg) ![forks](https://img.shields.io/github/forks/0neb1n/CVE-2020-1349.svg)
-
-
-## CVE-2018-4124
- An issue was discovered in certain Apple products. iOS before 11.2.6 is affected. macOS before 10.13.3 Supplemental Update is affected. tvOS before 11.2.6 is affected. watchOS before 4.2.3 is affected. The issue involves the &quot;CoreText&quot; component. It allows remote attackers to cause a denial of service (memory corruption and system crash) or possibly have unspecified other impact via a crafted string containing a certain Telugu character.
-
-- [https://github.com/jamf/TELUGU_CVE-2018-4124_POC](https://github.com/jamf/TELUGU_CVE-2018-4124_POC) :  ![starts](https://img.shields.io/github/stars/jamf/TELUGU_CVE-2018-4124_POC.svg) ![forks](https://img.shields.io/github/forks/jamf/TELUGU_CVE-2018-4124_POC.svg)
+- [https://github.com/Wack0/CVE-2022-21894](https://github.com/Wack0/CVE-2022-21894) :  ![starts](https://img.shields.io/github/stars/Wack0/CVE-2022-21894.svg) ![forks](https://img.shields.io/github/forks/Wack0/CVE-2022-21894.svg)
 
 
-## CVE-2018-1160
- Netatalk before 3.1.12 is vulnerable to an out of bounds write in dsi_opensess.c. This is due to lack of bounds checking on attacker controlled data. A remote unauthenticated attacker can leverage this vulnerability to achieve arbitrary code execution.
+## CVE-2023-0461
+ There is a use-after-free vulnerability in the Linux Kernel which can be exploited to achieve local privilege escalation. To reach the vulnerability kernel configuration flag CONFIG_TLS or CONFIG_XFRM_ESPINTCP has to be configured, but the operation does not require any privilege. There is a use-after-free bug of icsk_ulp_data of a struct inet_connection_sock. When CONFIG_TLS is enabled, user can install a tls context (struct tls_context) on a connected tcp socket. The context is not cleared if this socket is disconnected and reused as a listener. If a new socket is created from the listener, the context is inherited and vulnerable. The setsockopt TCP_ULP operation does not require any privilege. We recommend upgrading past commit 2c02d41d71f90a5168391b6a5f2954112ba2307c
 
-- [https://github.com/Nigmaz/CVE-2018-1160](https://github.com/Nigmaz/CVE-2018-1160) :  ![starts](https://img.shields.io/github/stars/Nigmaz/CVE-2018-1160.svg) ![forks](https://img.shields.io/github/forks/Nigmaz/CVE-2018-1160.svg)
-
-
-## CVE-2017-0785
- A information disclosure vulnerability in the Android system (bluetooth). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2, 8.0. Android ID: A-63146698.
-
-- [https://github.com/pieterbork/blueborne](https://github.com/pieterbork/blueborne) :  ![starts](https://img.shields.io/github/stars/pieterbork/blueborne.svg) ![forks](https://img.shields.io/github/forks/pieterbork/blueborne.svg)
-- [https://github.com/CrackSoft900/Blue-Borne](https://github.com/CrackSoft900/Blue-Borne) :  ![starts](https://img.shields.io/github/stars/CrackSoft900/Blue-Borne.svg) ![forks](https://img.shields.io/github/forks/CrackSoft900/Blue-Borne.svg)
-- [https://github.com/RavSS/Bluetooth-Crash-CVE-2017-0785](https://github.com/RavSS/Bluetooth-Crash-CVE-2017-0785) :  ![starts](https://img.shields.io/github/stars/RavSS/Bluetooth-Crash-CVE-2017-0785.svg) ![forks](https://img.shields.io/github/forks/RavSS/Bluetooth-Crash-CVE-2017-0785.svg)
-- [https://github.com/sigbitsadmin/diff](https://github.com/sigbitsadmin/diff) :  ![starts](https://img.shields.io/github/stars/sigbitsadmin/diff.svg) ![forks](https://img.shields.io/github/forks/sigbitsadmin/diff.svg)
+- [https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0461](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0461) :  ![starts](https://img.shields.io/github/stars/hshivhare67/kernel_v4.19.72_CVE-2023-0461.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/kernel_v4.19.72_CVE-2023-0461.svg)
 
 
-## CVE-2011-2523
- vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which opens a shell on port 6200/tcp.
+## CVE-2023-0386
+ A flaw was found in the Linux kernel, where unauthorized access to the execution of the setuid file with capabilities was found in the Linux kernel&#8217;s OverlayFS subsystem in how a user copies a capable file from a nosuid mount into another mount. This uid mapping bug allows a local user to escalate their privileges on the system.
 
-- [https://github.com/Lynk4/CVE-2011-2523](https://github.com/Lynk4/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Lynk4/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Lynk4/CVE-2011-2523.svg)
+- [https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0386](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/hshivhare67/kernel_v4.19.72_CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/kernel_v4.19.72_CVE-2023-0386.svg)
 
 
-## CVE-2004-2687
- distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.
+## CVE-2022-0543
+ It was discovered, that redis, a persistent key-value database, due to a packaging issue, is prone to a (Debian-specific) Lua sandbox escape, which could result in remote code execution.
 
-- [https://github.com/ss0wl/distcc_v1_cve_2004_2687](https://github.com/ss0wl/distcc_v1_cve_2004_2687) :  ![starts](https://img.shields.io/github/stars/ss0wl/distcc_v1_cve_2004_2687.svg) ![forks](https://img.shields.io/github/forks/ss0wl/distcc_v1_cve_2004_2687.svg)
+- [https://github.com/SiennaSkies/redisHack](https://github.com/SiennaSkies/redisHack) :  ![starts](https://img.shields.io/github/stars/SiennaSkies/redisHack.svg) ![forks](https://img.shields.io/github/forks/SiennaSkies/redisHack.svg)
+
+
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+
+- [https://github.com/shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/shiomiyan/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/shiomiyan/CVE-2021-41773.svg)
+- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
+- [https://github.com/puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-41773.svg)
+
+
+## CVE-2021-26088
+ An improper authentication vulnerability in FSSO Collector version 5.0.295 and below may allow an unauthenticated user to bypass a FSSO firewall policy and access the protected network via sending specifically crafted UDP login notification packets.
+
+- [https://github.com/theogobinet/CVE-2021-26088](https://github.com/theogobinet/CVE-2021-26088) :  ![starts](https://img.shields.io/github/stars/theogobinet/CVE-2021-26088.svg) ![forks](https://img.shields.io/github/forks/theogobinet/CVE-2021-26088.svg)
+
+
+## CVE-2020-25213
+ The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote attackers to upload and execute arbitrary PHP code because it renames an unsafe example elFinder connector file to have the .php extension. This, for example, allows attackers to run the elFinder upload (or mkfile and put) command to write PHP code into the wp-content/plugins/wp-file-manager/lib/files/ directory. This was exploited in the wild in August and September 2020.
+
+- [https://github.com/forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress) :  ![starts](https://img.shields.io/github/stars/forse01/CVE-2020-25213-Wordpress.svg) ![forks](https://img.shields.io/github/forks/forse01/CVE-2020-25213-Wordpress.svg)
+
+
+## CVE-2020-10204
+ Sonatype Nexus Repository before 3.21.2 allows Remote Code Execution.
+
+- [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
+
+
+## CVE-2020-1206
+ An information disclosure vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Information Disclosure Vulnerability'.
+
+- [https://github.com/jamf/CVE-2020-1206-POC](https://github.com/jamf/CVE-2020-1206-POC) :  ![starts](https://img.shields.io/github/stars/jamf/CVE-2020-1206-POC.svg) ![forks](https://img.shields.io/github/forks/jamf/CVE-2020-1206-POC.svg)
+
+
+## CVE-2020-0796
+ A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.
+
+- [https://github.com/jamf/CVE-2020-0796-RCE-POC](https://github.com/jamf/CVE-2020-0796-RCE-POC) :  ![starts](https://img.shields.io/github/stars/jamf/CVE-2020-0796-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/jamf/CVE-2020-0796-RCE-POC.svg)
+- [https://github.com/jamf/CVE-2020-0796-LPE-POC](https://github.com/jamf/CVE-2020-0796-LPE-POC) :  ![starts](https://img.shields.io/github/stars/jamf/CVE-2020-0796-LPE-POC.svg) ![forks](https://img.shields.io/github/forks/jamf/CVE-2020-0796-LPE-POC.svg)
+- [https://github.com/jamf/SMBGhost-SMBleed-scanner](https://github.com/jamf/SMBGhost-SMBleed-scanner) :  ![starts](https://img.shields.io/github/stars/jamf/SMBGhost-SMBleed-scanner.svg) ![forks](https://img.shields.io/github/forks/jamf/SMBGhost-SMBleed-scanner.svg)
+
+
+## CVE-2019-19194
+ The Bluetooth Low Energy Secure Manager Protocol (SMP) implementation on Telink Semiconductor BLE SDK versions before November 2019 for TLSR8x5x through 3.4.0, TLSR823x through 1.3.0, and TLSR826x through 3.3 devices installs a zero long term key (LTK) if an out-of-order link-layer encryption request is received during Secure Connections pairing. An attacker in radio range can have arbitrary read/write access to protected GATT service data, cause a device crash, or possibly control a device's function by establishing an encrypted session with the zero LTK.
+
+- [https://github.com/louisabricot/writeup-cve-2019-19194](https://github.com/louisabricot/writeup-cve-2019-19194) :  ![starts](https://img.shields.io/github/stars/louisabricot/writeup-cve-2019-19194.svg) ![forks](https://img.shields.io/github/forks/louisabricot/writeup-cve-2019-19194.svg)
+
+
+## CVE-2018-15133
+ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execution might occur as a result of an unserialize call on a potentially untrusted X-XSRF-TOKEN value. This involves the decrypt method in Illuminate/Encryption/Encrypter.php and PendingBroadcast in gadgetchains/Laravel/RCE/3/chain.php in phpggc. The attacker must know the application key, which normally would never occur, but could happen if the attacker previously had privileged access or successfully accomplished a previous attack.
+
+- [https://github.com/0xSalle/cve-2018-15133](https://github.com/0xSalle/cve-2018-15133) :  ![starts](https://img.shields.io/github/stars/0xSalle/cve-2018-15133.svg) ![forks](https://img.shields.io/github/forks/0xSalle/cve-2018-15133.svg)
+
+
+## CVE-2017-5941
+ An issue was discovered in the node-serialize package 0.0.4 for Node.js. Untrusted data passed into the unserialize() function can be exploited to achieve arbitrary code execution by passing a JavaScript Object with an Immediately Invoked Function Expression (IIFE).
+
+- [https://github.com/Cr4zyD14m0nd137/Lab-for-CVE-2017-5941](https://github.com/Cr4zyD14m0nd137/Lab-for-CVE-2017-5941) :  ![starts](https://img.shields.io/github/stars/Cr4zyD14m0nd137/Lab-for-CVE-2017-5941.svg) ![forks](https://img.shields.io/github/forks/Cr4zyD14m0nd137/Lab-for-CVE-2017-5941.svg)
+
+
+## CVE-2008-5862
+ Directory traversal vulnerability in webcamXP 5.3.2.375 and 5.3.2.410 build 2132 allows remote attackers to read arbitrary files via a ..%2F (encoded dot dot slash) in the URI.
+
+- [https://github.com/K3ysTr0K3R/CVE-2008-5862-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2008-5862-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2008-5862-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2008-5862-EXPLOIT.svg)
 
