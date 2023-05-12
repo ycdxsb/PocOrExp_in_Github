@@ -1,5 +1,5 @@
 ## CVE-2023-31445
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cassia Access controller before 2.1.1.2203171453, was discovered to have a unprivileged -information disclosure vulnerability that allows read-only users have the ability to enumerate all other users and discover e-mail addresses, phone numbers, and privileges of all other users.
 
 
 
@@ -47,15 +47,6 @@
 
 - [https://github.com/drkbcn/lblfixer_cve_2023_30839](https://github.com/drkbcn/lblfixer_cve_2023_30839) :  ![starts](https://img.shields.io/github/stars/drkbcn/lblfixer_cve_2023_30839.svg) ![forks](https://img.shields.io/github/forks/drkbcn/lblfixer_cve_2023_30839.svg)
 
-## CVE-2023-30777
- Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in WP Engine Advanced Custom Fields Pro, WP Engine Advanced Custom Fields plugins &lt;= 6.1.5 versions.
-
-
-
-- [https://github.com/securitydan284/tinder-zero-day-exploit](https://github.com/securitydan284/tinder-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/securitydan284/tinder-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/securitydan284/tinder-zero-day-exploit.svg)
-
-- [https://github.com/securitydan284/wordpress-zero-day-exploit-poc](https://github.com/securitydan284/wordpress-zero-day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/securitydan284/wordpress-zero-day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/securitydan284/wordpress-zero-day-exploit-poc.svg)
-
 ## CVE-2023-30545
  PrestaShop is an Open Source e-commerce web application. Prior to versions 8.0.4 and 1.7.8.9, it is possible for a user with access to the SQL Manager (Advanced Options -&gt; Database) to arbitrarily read any file on the operating system when using SQL function `LOAD_FILE` in a `SELECT` request. This gives the user access to critical information. A patch is available in PrestaShop 8.0.4 and PS 1.7.8.9
 
@@ -78,7 +69,7 @@
 - [https://github.com/d34dun1c02n/CVE-2023-30458](https://github.com/d34dun1c02n/CVE-2023-30458) :  ![starts](https://img.shields.io/github/stars/d34dun1c02n/CVE-2023-30458.svg) ![forks](https://img.shields.io/github/forks/d34dun1c02n/CVE-2023-30458.svg)
 
 ## CVE-2023-30256
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Scripting vulnerability found in Webkil QloApps v.1.5.2 allows a remote attacker to obtain sensitive information via the back and email_create parameters in the AuthController.php file.
 
 
 
@@ -120,14 +111,14 @@
 - [https://github.com/jichngan/CVE-2023-29839](https://github.com/jichngan/CVE-2023-29839) :  ![starts](https://img.shields.io/github/stars/jichngan/CVE-2023-29839.svg) ![forks](https://img.shields.io/github/forks/jichngan/CVE-2023-29839.svg)
 
 ## CVE-2023-29809
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL injection vulnerability found in Maximilian Vogt companymaps (cmaps) v.8.0 allows a remote attacker to execute arbitrary code via a crafted script in the request.
 
 
 
 - [https://github.com/zPrototype/CVE-2023-29809](https://github.com/zPrototype/CVE-2023-29809) :  ![starts](https://img.shields.io/github/stars/zPrototype/CVE-2023-29809.svg) ![forks](https://img.shields.io/github/forks/zPrototype/CVE-2023-29809.svg)
 
 ## CVE-2023-29808
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Scripting (XSS) vulnerability in vogtmh cmaps (companymaps) 8.0 allows attackers to execute arbitrary code.
 
 
 
@@ -160,15 +151,6 @@
 
 
 - [https://github.com/Exopteron/BiblioRCE](https://github.com/Exopteron/BiblioRCE) :  ![starts](https://img.shields.io/github/stars/Exopteron/BiblioRCE.svg) ![forks](https://img.shields.io/github/forks/Exopteron/BiblioRCE.svg)
-
-## CVE-2023-29336
- Win32k Elevation of Privilege Vulnerability
-
-
-
-- [https://github.com/securitydan284/tinder-zero-day-exploit](https://github.com/securitydan284/tinder-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/securitydan284/tinder-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/securitydan284/tinder-zero-day-exploit.svg)
-
-- [https://github.com/securitydan284/wordpress-zero-day-exploit-poc](https://github.com/securitydan284/wordpress-zero-day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/securitydan284/wordpress-zero-day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/securitydan284/wordpress-zero-day-exploit-poc.svg)
 
 ## CVE-2023-29084
  Zoho ManageEngine ADManager Plus through 7180 allows for authenticated users to exploit command injection via Proxy settings.
@@ -204,7 +186,11 @@
 
 - [https://github.com/nidhi7598/linux-4.19.72_CVE-2023-28772](https://github.com/nidhi7598/linux-4.19.72_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/nidhi7598/linux-4.19.72_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/linux-4.19.72_CVE-2023-28772.svg)
 
+- [https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772](https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/linux-4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/linux-4.1.15_CVE-2023-28772.svg)
+
 - [https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772](https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/Trinadh465/linux-4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/linux-4.1.15_CVE-2023-28772.svg)
+
+- [https://github.com/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu](https://github.com/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu.svg)
 
 ## CVE-2023-28615
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -282,10 +268,6 @@
 
 
 - [https://github.com/glavstroy/CVE-2023-28231](https://github.com/glavstroy/CVE-2023-28231) :  ![starts](https://img.shields.io/github/stars/glavstroy/CVE-2023-28231.svg) ![forks](https://img.shields.io/github/forks/glavstroy/CVE-2023-28231.svg)
-
-- [https://github.com/securitydan284/tinder-zero-day-exploit](https://github.com/securitydan284/tinder-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/securitydan284/tinder-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/securitydan284/tinder-zero-day-exploit.svg)
-
-- [https://github.com/securitydan284/wordpress-zero-day-exploit-poc](https://github.com/securitydan284/wordpress-zero-day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/securitydan284/wordpress-zero-day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/securitydan284/wordpress-zero-day-exploit-poc.svg)
 
 ## CVE-2023-28206
  An out-of-bounds write issue was addressed with improved input validation. This issue is fixed in macOS Monterey 12.6.5, iOS 16.4.1 and iPadOS 16.4.1, iOS 15.7.5 and iPadOS 15.7.5, macOS Big Sur 11.7.6, macOS Ventura 13.3.1. An app may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.
@@ -396,10 +378,6 @@
 
 - [https://github.com/adhikara13/CVE-2023-27350](https://github.com/adhikara13/CVE-2023-27350) :  ![starts](https://img.shields.io/github/stars/adhikara13/CVE-2023-27350.svg) ![forks](https://img.shields.io/github/forks/adhikara13/CVE-2023-27350.svg)
 
-- [https://github.com/securitydan284/tinder-zero-day-exploit](https://github.com/securitydan284/tinder-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/securitydan284/tinder-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/securitydan284/tinder-zero-day-exploit.svg)
-
-- [https://github.com/securitydan284/wordpress-zero-day-exploit-poc](https://github.com/securitydan284/wordpress-zero-day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/securitydan284/wordpress-zero-day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/securitydan284/wordpress-zero-day-exploit-poc.svg)
-
 - [https://github.com/MaanVader/CVE-2023-27350-POC](https://github.com/MaanVader/CVE-2023-27350-POC) :  ![starts](https://img.shields.io/github/stars/MaanVader/CVE-2023-27350-POC.svg) ![forks](https://img.shields.io/github/forks/MaanVader/CVE-2023-27350-POC.svg)
 
 ## CVE-2023-27328
@@ -504,15 +482,6 @@
 
 - [https://github.com/Zenmovie/CVE-2023-26604](https://github.com/Zenmovie/CVE-2023-26604) :  ![starts](https://img.shields.io/github/stars/Zenmovie/CVE-2023-26604.svg) ![forks](https://img.shields.io/github/forks/Zenmovie/CVE-2023-26604.svg)
 
-## CVE-2023-26360
- Adobe ColdFusion versions 2018 Update 15 (and earlier) and 2021 Update 5 (and earlier) are affected by an Improper Access Control vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue does not require user interaction.
-
-
-
-- [https://github.com/securitydan284/tinder-zero-day-exploit](https://github.com/securitydan284/tinder-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/securitydan284/tinder-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/securitydan284/tinder-zero-day-exploit.svg)
-
-- [https://github.com/securitydan284/wordpress-zero-day-exploit-poc](https://github.com/securitydan284/wordpress-zero-day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/securitydan284/wordpress-zero-day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/securitydan284/wordpress-zero-day-exploit-poc.svg)
-
 ## CVE-2023-26262
  An issue was discovered in Sitecore XP/XM 10.3. As an authenticated Sitecore user, a unrestricted language file upload vulnerability exists the can lead to direct code execution on the content management (CM) server.
 
@@ -606,10 +575,6 @@
 
 
 - [https://github.com/Wack0/CVE-2022-21894](https://github.com/Wack0/CVE-2022-21894) :  ![starts](https://img.shields.io/github/stars/Wack0/CVE-2022-21894.svg) ![forks](https://img.shields.io/github/forks/Wack0/CVE-2022-21894.svg)
-
-- [https://github.com/securitydan284/tinder-zero-day-exploit](https://github.com/securitydan284/tinder-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/securitydan284/tinder-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/securitydan284/tinder-zero-day-exploit.svg)
-
-- [https://github.com/securitydan284/wordpress-zero-day-exploit-poc](https://github.com/securitydan284/wordpress-zero-day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/securitydan284/wordpress-zero-day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/securitydan284/wordpress-zero-day-exploit-poc.svg)
 
 ## CVE-2023-24780
  Funadmin v3.2.0 was discovered to contain a SQL injection vulnerability via the id parameter at /databases/table/columns.
@@ -739,9 +704,9 @@
 
 - [https://github.com/AkbarWiraN/Joomla-Scanner](https://github.com/AkbarWiraN/Joomla-Scanner) :  ![starts](https://img.shields.io/github/stars/AkbarWiraN/Joomla-Scanner.svg) ![forks](https://img.shields.io/github/forks/AkbarWiraN/Joomla-Scanner.svg)
 
-- [https://github.com/Vulnmachines/joomla_CVE-2023-23752](https://github.com/Vulnmachines/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/joomla_CVE-2023-23752.svg)
-
 - [https://github.com/karthikuj/CVE-2023-23752-Docker](https://github.com/karthikuj/CVE-2023-23752-Docker) :  ![starts](https://img.shields.io/github/stars/karthikuj/CVE-2023-23752-Docker.svg) ![forks](https://img.shields.io/github/forks/karthikuj/CVE-2023-23752-Docker.svg)
+
+- [https://github.com/Vulnmachines/joomla_CVE-2023-23752](https://github.com/Vulnmachines/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/joomla_CVE-2023-23752.svg)
 
 - [https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752](https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/haxor1337x/Mass-Checker-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/haxor1337x/Mass-Checker-CVE-2023-23752.svg)
 
@@ -749,9 +714,9 @@
 
 - [https://github.com/adriyansyah-mf/CVE-2023-23752](https://github.com/adriyansyah-mf/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/adriyansyah-mf/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/adriyansyah-mf/CVE-2023-23752.svg)
 
-- [https://github.com/Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Jenderal92/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/Joomla-CVE-2023-23752.svg)
-
 - [https://github.com/H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-23752.svg)
+
+- [https://github.com/Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Jenderal92/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/Joomla-CVE-2023-23752.svg)
 
 - [https://github.com/equationsoftworks/Radiance](https://github.com/equationsoftworks/Radiance) :  ![starts](https://img.shields.io/github/stars/equationsoftworks/Radiance.svg) ![forks](https://img.shields.io/github/forks/equationsoftworks/Radiance.svg)
 
@@ -761,6 +726,8 @@
 
 
 - [https://github.com/X1r0z/CVE-2023-23638](https://github.com/X1r0z/CVE-2023-23638) :  ![starts](https://img.shields.io/github/stars/X1r0z/CVE-2023-23638.svg) ![forks](https://img.shields.io/github/forks/X1r0z/CVE-2023-23638.svg)
+
+- [https://github.com/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp](https://github.com/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp) :  ![starts](https://img.shields.io/github/stars/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp.svg) ![forks](https://img.shields.io/github/forks/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp.svg)
 
 ## CVE-2023-23531
  The issue was addressed with improved memory handling. This issue is fixed in macOS Ventura 13.2, iOS 16.3 and iPadOS 16.3. An app may be able to execute arbitrary code out of its sandbox or with certain elevated privileges.
@@ -800,9 +767,9 @@
 
 - [https://github.com/ahmedkhlief/CVE-2023-23397-POC](https://github.com/ahmedkhlief/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/ahmedkhlief/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/ahmedkhlief/CVE-2023-23397-POC.svg)
 
-- [https://github.com/grn-bogo/CVE-2023-23397](https://github.com/grn-bogo/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/grn-bogo/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/grn-bogo/CVE-2023-23397.svg)
-
 - [https://github.com/BronzeBee/cve-2023-23397](https://github.com/BronzeBee/cve-2023-23397) :  ![starts](https://img.shields.io/github/stars/BronzeBee/cve-2023-23397.svg) ![forks](https://img.shields.io/github/forks/BronzeBee/cve-2023-23397.svg)
+
+- [https://github.com/grn-bogo/CVE-2023-23397](https://github.com/grn-bogo/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/grn-bogo/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/grn-bogo/CVE-2023-23397.svg)
 
 - [https://github.com/alicangnll/CVE-2023-23397](https://github.com/alicangnll/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/alicangnll/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/alicangnll/CVE-2023-23397.svg)
 
@@ -820,9 +787,9 @@
 
 - [https://github.com/CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-23397-POC.svg)
 
-- [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
-
 - [https://github.com/SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/SecCTechs/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/SecCTechs/CVE-2023-23397.svg)
+
+- [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
 
 - [https://github.com/moneertv/CVE-2023-23397](https://github.com/moneertv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/moneertv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/moneertv/CVE-2023-23397.svg)
 
@@ -1042,10 +1009,6 @@
 
 - [https://github.com/houqe/POC_CVE-2023-21839](https://github.com/houqe/POC_CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/houqe/POC_CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/houqe/POC_CVE-2023-21839.svg)
 
-- [https://github.com/securitydan284/tinder-zero-day-exploit](https://github.com/securitydan284/tinder-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/securitydan284/tinder-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/securitydan284/tinder-zero-day-exploit.svg)
-
-- [https://github.com/securitydan284/wordpress-zero-day-exploit-poc](https://github.com/securitydan284/wordpress-zero-day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/securitydan284/wordpress-zero-day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/securitydan284/wordpress-zero-day-exploit-poc.svg)
-
 - [https://github.com/fakenews2025/CVE-2023-21839](https://github.com/fakenews2025/CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/fakenews2025/CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/fakenews2025/CVE-2023-21839.svg)
 
 - [https://github.com/hacats/CVE-2023-21839](https://github.com/hacats/CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/hacats/CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/hacats/CVE-2023-21839.svg)
@@ -1238,15 +1201,6 @@
 
 - [https://github.com/limo520/CVE-2023-20860](https://github.com/limo520/CVE-2023-20860) :  ![starts](https://img.shields.io/github/stars/limo520/CVE-2023-20860.svg) ![forks](https://img.shields.io/github/forks/limo520/CVE-2023-20860.svg)
 
-## CVE-2023-20126
- A vulnerability in the web-based management interface of Cisco SPA112 2-Port Phone Adapters could allow an unauthenticated, remote attacker to execute arbitrary code on an affected device. This vulnerability is due to a missing authentication process within the firmware upgrade function. An attacker could exploit this vulnerability by upgrading an affected device to a crafted version of firmware. A successful exploit could allow the attacker to execute arbitrary code on the affected device with full privileges. Cisco has not released firmware updates to address this vulnerability.
-
-
-
-- [https://github.com/securitydan284/tinder-zero-day-exploit](https://github.com/securitydan284/tinder-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/securitydan284/tinder-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/securitydan284/tinder-zero-day-exploit.svg)
-
-- [https://github.com/securitydan284/wordpress-zero-day-exploit-poc](https://github.com/securitydan284/wordpress-zero-day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/securitydan284/wordpress-zero-day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/securitydan284/wordpress-zero-day-exploit-poc.svg)
-
 ## CVE-2023-2594
  A vulnerability, which was classified as critical, was found in SourceCodester Food Ordering Management System 1.0. Affected is an unknown function of the component Registration. The manipulation of the argument username leads to sql injection. It is possible to launch the attack remotely. The identifier of this vulnerability is VDB-228396.
 
@@ -1417,6 +1371,8 @@
 
 - [https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0461](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0461) :  ![starts](https://img.shields.io/github/stars/hshivhare67/kernel_v4.19.72_CVE-2023-0461.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/kernel_v4.19.72_CVE-2023-0461.svg)
 
+- [https://github.com/hheeyywweellccoommee/linux-4.19.72_CVE-2023-0461-ycnbd](https://github.com/hheeyywweellccoommee/linux-4.19.72_CVE-2023-0461-ycnbd) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/linux-4.19.72_CVE-2023-0461-ycnbd.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/linux-4.19.72_CVE-2023-0461-ycnbd.svg)
+
 ## CVE-2023-0386
  A flaw was found in the Linux kernel, where unauthorized access to the execution of the setuid file with capabilities was found in the Linux kernel&#8217;s OverlayFS subsystem in how a user copies a capable file from a nosuid mount into another mount. This uid mapping bug allows a local user to escalate their privileges on the system.
 
@@ -1425,10 +1381,6 @@
 - [https://github.com/xkaneiki/CVE-2023-0386](https://github.com/xkaneiki/CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/xkaneiki/CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/xkaneiki/CVE-2023-0386.svg)
 
 - [https://github.com/chenaotian/CVE-2023-0386](https://github.com/chenaotian/CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/chenaotian/CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/chenaotian/CVE-2023-0386.svg)
-
-- [https://github.com/securitydan284/tinder-zero-day-exploit](https://github.com/securitydan284/tinder-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/securitydan284/tinder-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/securitydan284/tinder-zero-day-exploit.svg)
-
-- [https://github.com/securitydan284/wordpress-zero-day-exploit-poc](https://github.com/securitydan284/wordpress-zero-day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/securitydan284/wordpress-zero-day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/securitydan284/wordpress-zero-day-exploit-poc.svg)
 
 - [https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386](https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/linux-4.19.72_CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/linux-4.19.72_CVE-2023-0386.svg)
 
@@ -1450,9 +1402,9 @@
 
 - [https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad) :  ![starts](https://img.shields.io/github/stars/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad.svg) ![forks](https://img.shields.io/github/forks/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad.svg)
 
-- [https://github.com/gudetem/CVE-2023-0297](https://github.com/gudetem/CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/gudetem/CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/gudetem/CVE-2023-0297.svg)
-
 - [https://github.com/Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/Small-ears/CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/Small-ears/CVE-2023-0297.svg)
+
+- [https://github.com/gudetem/CVE-2023-0297](https://github.com/gudetem/CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/gudetem/CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/gudetem/CVE-2023-0297.svg)
 
 ## CVE-2023-0286
  There is a type confusion vulnerability relating to X.400 address processing inside an X.509 GeneralName. X.400 addresses were parsed as an ASN1_STRING but the public structure definition for GENERAL_NAME incorrectly specified the type of the x400Address field as ASN1_TYPE. This field is subsequently interpreted by the OpenSSL function GENERAL_NAME_cmp as an ASN1_TYPE rather than an ASN1_STRING. When CRL checking is enabled (i.e. the application sets the X509_V_FLAG_CRL_CHECK flag), this vulnerability may allow an attacker to pass arbitrary pointers to a memcmp call, enabling them to read memory contents or enact a denial of service. In most cases, the attack requires the attacker to provide both the certificate chain and CRL, neither of which need to have a valid signature. If the attacker only controls one of these inputs, the other input must already contain an X.400 address as a CRL distribution point, which is uncommon. As such, this vulnerability is most likely to only affect applications which have implemented their own functionality for retrieving CRLs over a network.
@@ -1460,15 +1412,6 @@
 
 
 - [https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0286](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0286) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0286.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0286.svg)
-
-## CVE-2023-0266
- A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ|WRITE}32 is missing locks that can be used in a use-after-free that can result in a priviledge escalation to gain ring0 access from the system user. We recommend upgrading past commit 56b88b50565cd8b946a2d00b0c83927b7ebb055e
-
-
-
-- [https://github.com/securitydan284/tinder-zero-day-exploit](https://github.com/securitydan284/tinder-zero-day-exploit) :  ![starts](https://img.shields.io/github/stars/securitydan284/tinder-zero-day-exploit.svg) ![forks](https://img.shields.io/github/forks/securitydan284/tinder-zero-day-exploit.svg)
-
-- [https://github.com/securitydan284/wordpress-zero-day-exploit-poc](https://github.com/securitydan284/wordpress-zero-day-exploit-poc) :  ![starts](https://img.shields.io/github/stars/securitydan284/wordpress-zero-day-exploit-poc.svg) ![forks](https://img.shields.io/github/forks/securitydan284/wordpress-zero-day-exploit-poc.svg)
 
 ## CVE-2023-0264
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
