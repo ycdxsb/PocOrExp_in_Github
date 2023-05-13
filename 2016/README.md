@@ -478,6 +478,13 @@
 
 - [https://github.com/theori-io/chakra-2016-11](https://github.com/theori-io/chakra-2016-11) :  ![starts](https://img.shields.io/github/stars/theori-io/chakra-2016-11.svg) ![forks](https://img.shields.io/github/forks/theori-io/chakra-2016-11.svg)
 
+## CVE-2016-7200
+ The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Scripting Engine Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-7201, CVE-2016-7202, CVE-2016-7203, CVE-2016-7208, CVE-2016-7240, CVE-2016-7242, and CVE-2016-7243.
+
+
+
+- [https://github.com/theori-io/chakra-2016-11](https://github.com/theori-io/chakra-2016-11) :  ![starts](https://img.shields.io/github/stars/theori-io/chakra-2016-11.svg) ![forks](https://img.shields.io/github/forks/theori-io/chakra-2016-11.svg)
+
 ## CVE-2016-7190
  The Chakra JavaScript engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Scripting Engine Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-3386, CVE-2016-3389, and CVE-2016-7194.
 
@@ -769,11 +776,11 @@
 
 - [https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg)
 
-- [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
+- [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
 
 - [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
 
-- [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
+- [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
 
 - [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
 
@@ -787,9 +794,9 @@
 
 - [https://github.com/linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/linhlt247/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/linhlt247/DirtyCOW_CVE-2016-5195.svg)
 
-- [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
-
 - [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
+
+- [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
 
 - [https://github.com/passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs) :  ![starts](https://img.shields.io/github/stars/passionchenjianyegmail8/scumjrs.svg) ![forks](https://img.shields.io/github/forks/passionchenjianyegmail8/scumjrs.svg)
 
