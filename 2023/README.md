@@ -5,7 +5,11 @@
 
 - [https://github.com/vdohney/keepass-password-dumper](https://github.com/vdohney/keepass-password-dumper) :  ![starts](https://img.shields.io/github/stars/vdohney/keepass-password-dumper.svg) ![forks](https://img.shields.io/github/forks/vdohney/keepass-password-dumper.svg)
 
+- [https://github.com/z-jxy/keepass_dump](https://github.com/z-jxy/keepass_dump) :  ![starts](https://img.shields.io/github/stars/z-jxy/keepass_dump.svg) ![forks](https://img.shields.io/github/forks/z-jxy/keepass_dump.svg)
+
 - [https://github.com/CTM1/CVE-2023-32784-keepass-linux](https://github.com/CTM1/CVE-2023-32784-keepass-linux) :  ![starts](https://img.shields.io/github/stars/CTM1/CVE-2023-32784-keepass-linux.svg) ![forks](https://img.shields.io/github/forks/CTM1/CVE-2023-32784-keepass-linux.svg)
+
+- [https://github.com/und3sc0n0c1d0/BruteForce-to-KeePass](https://github.com/und3sc0n0c1d0/BruteForce-to-KeePass) :  ![starts](https://img.shields.io/github/stars/und3sc0n0c1d0/BruteForce-to-KeePass.svg) ![forks](https://img.shields.io/github/forks/und3sc0n0c1d0/BruteForce-to-KeePass.svg)
 
 ## CVE-2023-32243
  Improper Authentication vulnerability in WPDeveloper Essential Addons for Elementor allows Privilege Escalation. This issue affects Essential Addons for Elementor: from 5.4.0 through 5.7.1.
@@ -608,6 +612,8 @@
 
 
 
+- [https://github.com/dhmosfunk/CVE-2023-25690-POC](https://github.com/dhmosfunk/CVE-2023-25690-POC) :  ![starts](https://img.shields.io/github/stars/dhmosfunk/CVE-2023-25690-POC.svg) ![forks](https://img.shields.io/github/forks/dhmosfunk/CVE-2023-25690-POC.svg)
+
 - [https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL](https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL) :  ![starts](https://img.shields.io/github/stars/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL.svg) ![forks](https://img.shields.io/github/forks/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL.svg)
 
 ## CVE-2023-25292
@@ -771,7 +777,7 @@
 
 - [https://github.com/deetl/CVE-2023-24055](https://github.com/deetl/CVE-2023-24055) :  ![starts](https://img.shields.io/github/stars/deetl/CVE-2023-24055.svg) ![forks](https://img.shields.io/github/forks/deetl/CVE-2023-24055.svg)
 
-- [https://github.com/Ag3nt047/CVE-2023-24055](https://github.com/Ag3nt047/CVE-2023-24055) :  ![starts](https://img.shields.io/github/stars/Ag3nt047/CVE-2023-24055.svg) ![forks](https://img.shields.io/github/forks/Ag3nt047/CVE-2023-24055.svg)
+- [https://github.com/attackNdefend/CVE-2023-24055](https://github.com/attackNdefend/CVE-2023-24055) :  ![starts](https://img.shields.io/github/stars/attackNdefend/CVE-2023-24055.svg) ![forks](https://img.shields.io/github/forks/attackNdefend/CVE-2023-24055.svg)
 
 - [https://github.com/zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055) :  ![starts](https://img.shields.io/github/stars/zwlsix/KeePass-CVE-2023-24055.svg) ![forks](https://img.shields.io/github/forks/zwlsix/KeePass-CVE-2023-24055.svg)
 
@@ -848,9 +854,9 @@
 
 
 
-- [https://github.com/X1r0z/CVE-2023-23638](https://github.com/X1r0z/CVE-2023-23638) :  ![starts](https://img.shields.io/github/stars/X1r0z/CVE-2023-23638.svg) ![forks](https://img.shields.io/github/forks/X1r0z/CVE-2023-23638.svg)
-
 - [https://github.com/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp](https://github.com/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp) :  ![starts](https://img.shields.io/github/stars/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp.svg) ![forks](https://img.shields.io/github/forks/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp.svg)
+
+- [https://github.com/X1r0z/CVE-2023-23638](https://github.com/X1r0z/CVE-2023-23638) :  ![starts](https://img.shields.io/github/stars/X1r0z/CVE-2023-23638.svg) ![forks](https://img.shields.io/github/forks/X1r0z/CVE-2023-23638.svg)
 
 ## CVE-2023-23531
  The issue was addressed with improved memory handling. This issue is fixed in macOS Ventura 13.2, iOS 16.3 and iPadOS 16.3. An app may be able to execute arbitrary code out of its sandbox or with certain elevated privileges.
@@ -1056,9 +1062,9 @@
 
 - [https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc](https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc) :  ![starts](https://img.shields.io/github/stars/n3m1dotsys/CVE-2023-22809-sudoedit-privesc.svg) ![forks](https://img.shields.io/github/forks/n3m1dotsys/CVE-2023-22809-sudoedit-privesc.svg)
 
-- [https://github.com/CKevens/CVE-2023-22809-sudo-POC](https://github.com/CKevens/CVE-2023-22809-sudo-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-22809-sudo-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-22809-sudo-POC.svg)
-
 - [https://github.com/M4fiaB0y/CVE-2023-22809](https://github.com/M4fiaB0y/CVE-2023-22809) :  ![starts](https://img.shields.io/github/stars/M4fiaB0y/CVE-2023-22809.svg) ![forks](https://img.shields.io/github/forks/M4fiaB0y/CVE-2023-22809.svg)
+
+- [https://github.com/CKevens/CVE-2023-22809-sudo-POC](https://github.com/CKevens/CVE-2023-22809-sudo-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-22809-sudo-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-22809-sudo-POC.svg)
 
 - [https://github.com/octosec45/ms-word-rce-0day-poc-2023](https://github.com/octosec45/ms-word-rce-0day-poc-2023) :  ![starts](https://img.shields.io/github/stars/octosec45/ms-word-rce-0day-poc-2023.svg) ![forks](https://img.shields.io/github/forks/octosec45/ms-word-rce-0day-poc-2023.svg)
 
@@ -1251,9 +1257,9 @@
 
 - [https://github.com/notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse) :  ![starts](https://img.shields.io/github/stars/notaSWE/gocropalypse.svg) ![forks](https://img.shields.io/github/forks/notaSWE/gocropalypse.svg)
 
-- [https://github.com/maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/maddiethecafebabe/discord-acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/maddiethecafebabe/discord-acropolypse-bot.svg)
-
 - [https://github.com/cafedork/acropolypse-bot](https://github.com/cafedork/acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/cafedork/acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/cafedork/acropolypse-bot.svg)
+
+- [https://github.com/maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/maddiethecafebabe/discord-acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/maddiethecafebabe/discord-acropolypse-bot.svg)
 
 ## CVE-2023-20944
  In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of privilege due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-244154558
@@ -1302,6 +1308,13 @@
 
 
 - [https://github.com/nokn0wthing/CVE-2023-25002](https://github.com/nokn0wthing/CVE-2023-25002) :  ![starts](https://img.shields.io/github/stars/nokn0wthing/CVE-2023-25002.svg) ![forks](https://img.shields.io/github/forks/nokn0wthing/CVE-2023-25002.svg)
+
+## CVE-2023-2822
+ A vulnerability was found in Ellucian Ethos Identity up to 5.10.5. It has been classified as problematic. Affected is an unknown function of the file /cas/logout. The manipulation of the argument url leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 5.10.6 is able to address this issue. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-229596.
+
+
+
+- [https://github.com/cberman/CVE-2023-2822-demo](https://github.com/cberman/CVE-2023-2822-demo) :  ![starts](https://img.shields.io/github/stars/cberman/CVE-2023-2822-demo.svg) ![forks](https://img.shields.io/github/forks/cberman/CVE-2023-2822-demo.svg)
 
 ## CVE-2023-2594
  A vulnerability, which was classified as critical, was found in SourceCodester Food Ordering Management System 1.0. Affected is an unknown function of the component Registration. The manipulation of the argument username leads to sql injection. It is possible to launch the attack remotely. The identifier of this vulnerability is VDB-228396.
@@ -1493,6 +1506,8 @@
 
 - [https://github.com/chenaotian/CVE-2023-0386](https://github.com/chenaotian/CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/chenaotian/CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/chenaotian/CVE-2023-0386.svg)
 
+- [https://github.com/veritas501/CVE-2023-0386](https://github.com/veritas501/CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/veritas501/CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/veritas501/CVE-2023-0386.svg)
+
 - [https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386](https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/linux-4.19.72_CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/linux-4.19.72_CVE-2023-0386.svg)
 
 - [https://github.com/CKevens/CVE-2023-0386](https://github.com/CKevens/CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-0386.svg)
@@ -1518,6 +1533,8 @@
 - [https://github.com/Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/Small-ears/CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/Small-ears/CVE-2023-0297.svg)
 
 - [https://github.com/gudetem/CVE-2023-0297](https://github.com/gudetem/CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/gudetem/CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/gudetem/CVE-2023-0297.svg)
+
+- [https://github.com/JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/JacobEbben/CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/JacobEbben/CVE-2023-0297.svg)
 
 ## CVE-2023-0286
  There is a type confusion vulnerability relating to X.400 address processing inside an X.509 GeneralName. X.400 addresses were parsed as an ASN1_STRING but the public structure definition for GENERAL_NAME incorrectly specified the type of the x400Address field as ASN1_TYPE. This field is subsequently interpreted by the OpenSSL function GENERAL_NAME_cmp as an ASN1_TYPE rather than an ASN1_STRING. When CRL checking is enabled (i.e. the application sets the X509_V_FLAG_CRL_CHECK flag), this vulnerability may allow an attacker to pass arbitrary pointers to a memcmp call, enabling them to read memory contents or enact a denial of service. In most cases, the attack requires the attacker to provide both the certificate chain and CRL, neither of which need to have a valid signature. If the attacker only controls one of these inputs, the other input must already contain an X.400 address as a CRL distribution point, which is uncommon. As such, this vulnerability is most likely to only affect applications which have implemented their own functionality for retrieving CRLs over a network.
