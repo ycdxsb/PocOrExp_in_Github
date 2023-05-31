@@ -131,6 +131,8 @@
 
 - [https://github.com/CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory) :  ![starts](https://img.shields.io/github/stars/CCrashBandicot/ContentHistory.svg) ![forks](https://img.shields.io/github/forks/CCrashBandicot/ContentHistory.svg)
 
+- [https://github.com/areaventuno/exploit-joomla](https://github.com/areaventuno/exploit-joomla) :  ![starts](https://img.shields.io/github/stars/areaventuno/exploit-joomla.svg) ![forks](https://img.shields.io/github/forks/areaventuno/exploit-joomla.svg)
+
 ## CVE-2015-7808
  The vB_Api_Hook::decodeArguments method in vBulletin 5 Connect 5.1.2 through 5.1.9 allows remote attackers to conduct PHP object injection attacks and execute arbitrary PHP code via a crafted serialized object in the arguments parameter to ajax/api/hook/decodeArguments.
 
