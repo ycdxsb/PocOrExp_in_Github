@@ -5,6 +5,29 @@
 
 - [https://github.com/n3gox/CVE-2023-33829](https://github.com/n3gox/CVE-2023-33829) :  ![starts](https://img.shields.io/github/stars/n3gox/CVE-2023-33829.svg) ![forks](https://img.shields.io/github/forks/n3gox/CVE-2023-33829.svg)
 
+## CVE-2023-33733
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733) :  ![starts](https://img.shields.io/github/stars/c53elyas/CVE-2023-33733.svg) ![forks](https://img.shields.io/github/forks/c53elyas/CVE-2023-33733.svg)
+
+- [https://github.com/sahiloj/CVE-2023-33733](https://github.com/sahiloj/CVE-2023-33733) :  ![starts](https://img.shields.io/github/stars/sahiloj/CVE-2023-33733.svg) ![forks](https://img.shields.io/github/forks/sahiloj/CVE-2023-33733.svg)
+
+## CVE-2023-33731
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/sahiloj/CVE-2023-33731](https://github.com/sahiloj/CVE-2023-33731) :  ![starts](https://img.shields.io/github/stars/sahiloj/CVE-2023-33731.svg) ![forks](https://img.shields.io/github/forks/sahiloj/CVE-2023-33731.svg)
+
+## CVE-2023-33730
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/sahiloj/CVE-2023-33730](https://github.com/sahiloj/CVE-2023-33730) :  ![starts](https://img.shields.io/github/stars/sahiloj/CVE-2023-33730.svg) ![forks](https://img.shields.io/github/forks/sahiloj/CVE-2023-33730.svg)
+
 ## CVE-2023-33617
  An OS Command Injection vulnerability in Parks Fiberlink 210 firmware version V2.1.14_X000 was found via the /boaform/admin/formPing target_addr parameter.
 
@@ -274,11 +297,11 @@
 
 - [https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability](https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability) :  ![starts](https://img.shields.io/github/stars/libas7994/Exploit-the-CVE-2023-30212-vulnerability.svg) ![forks](https://img.shields.io/github/forks/libas7994/Exploit-the-CVE-2023-30212-vulnerability.svg)
 
-- [https://github.com/Anandhu990/CVE-2023-30212-iab](https://github.com/Anandhu990/CVE-2023-30212-iab) :  ![starts](https://img.shields.io/github/stars/Anandhu990/CVE-2023-30212-iab.svg) ![forks](https://img.shields.io/github/forks/Anandhu990/CVE-2023-30212-iab.svg)
+- [https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability](https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability) :  ![starts](https://img.shields.io/github/stars/libasv/Exploite-CVE-2023-30212-vulnerability.svg) ![forks](https://img.shields.io/github/forks/libasv/Exploite-CVE-2023-30212-vulnerability.svg)
 
 - [https://github.com/kai-iszz/CVE-2023-30212](https://github.com/kai-iszz/CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/kai-iszz/CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/kai-iszz/CVE-2023-30212.svg)
 
-- [https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability](https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability) :  ![starts](https://img.shields.io/github/stars/libasv/Exploite-CVE-2023-30212-vulnerability.svg) ![forks](https://img.shields.io/github/forks/libasv/Exploite-CVE-2023-30212-vulnerability.svg)
+- [https://github.com/Anandhu990/CVE-2023-30212-iab](https://github.com/Anandhu990/CVE-2023-30212-iab) :  ![starts](https://img.shields.io/github/stars/Anandhu990/CVE-2023-30212-iab.svg) ![forks](https://img.shields.io/github/forks/Anandhu990/CVE-2023-30212-iab.svg)
 
 - [https://github.com/Anandhu990/CVE-2023-30212_lab](https://github.com/Anandhu990/CVE-2023-30212_lab) :  ![starts](https://img.shields.io/github/stars/Anandhu990/CVE-2023-30212_lab.svg) ![forks](https://img.shields.io/github/forks/Anandhu990/CVE-2023-30212_lab.svg)
 
@@ -436,9 +459,9 @@
 
 
 
-- [https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017](https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017) :  ![starts](https://img.shields.io/github/stars/timb-machine-mirrors/seongil-wi-CVE-2023-29017.svg) ![forks](https://img.shields.io/github/forks/timb-machine-mirrors/seongil-wi-CVE-2023-29017.svg)
-
 - [https://github.com/Kaneki-hash/CVE-2023-29017-reverse-shell](https://github.com/Kaneki-hash/CVE-2023-29017-reverse-shell) :  ![starts](https://img.shields.io/github/stars/Kaneki-hash/CVE-2023-29017-reverse-shell.svg) ![forks](https://img.shields.io/github/forks/Kaneki-hash/CVE-2023-29017-reverse-shell.svg)
+
+- [https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017](https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017) :  ![starts](https://img.shields.io/github/stars/timb-machine-mirrors/seongil-wi-CVE-2023-29017.svg) ![forks](https://img.shields.io/github/forks/timb-machine-mirrors/seongil-wi-CVE-2023-29017.svg)
 
 ## CVE-2023-29007
  Git is a revision control system. Prior to versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1, a specially crafted `.gitmodules` file with submodule URLs that are longer than 1024 characters can used to exploit a bug in `config.c::git_config_copy_or_rename_section_in_file()`. This bug can be used to inject arbitrary configuration into a user's `$GIT_DIR/config` when attempting to remove the configuration section associated with that submodule. When the attacker injects configuration values which specify executables to run (such as `core.pager`, `core.editor`, `core.sshCommand`, etc.) this can lead to a remote code execution. A fix A fix is available in versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1. As a workaround, avoid running `git submodule deinit` on untrusted repositories or without prior inspection of any submodule sections in `$GIT_DIR/config`.
@@ -1069,9 +1092,9 @@
 
 - [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
 
-- [https://github.com/CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-23397-POC.svg)
-
 - [https://github.com/SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/SecCTechs/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/SecCTechs/CVE-2023-23397.svg)
+
+- [https://github.com/CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-23397-POC.svg)
 
 - [https://github.com/moneertv/CVE-2023-23397](https://github.com/moneertv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/moneertv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/moneertv/CVE-2023-23397.svg)
 
@@ -1284,6 +1307,8 @@
 
 - [https://github.com/hacats/CVE-2023-21839](https://github.com/hacats/CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/hacats/CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/hacats/CVE-2023-21839.svg)
 
+- [https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner) :  ![starts](https://img.shields.io/github/stars/kw3h4/CVE-2023-21839-metasploit-scanner.svg) ![forks](https://img.shields.io/github/forks/kw3h4/CVE-2023-21839-metasploit-scanner.svg)
+
 ## CVE-2023-21837
  Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
 
@@ -1404,9 +1429,9 @@
 
 - [https://github.com/notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse) :  ![starts](https://img.shields.io/github/stars/notaSWE/gocropalypse.svg) ![forks](https://img.shields.io/github/forks/notaSWE/gocropalypse.svg)
 
-- [https://github.com/cafedork/acropolypse-bot](https://github.com/cafedork/acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/cafedork/acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/cafedork/acropolypse-bot.svg)
-
 - [https://github.com/maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/maddiethecafebabe/discord-acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/maddiethecafebabe/discord-acropolypse-bot.svg)
+
+- [https://github.com/dorkeline/acropolypse-bot](https://github.com/dorkeline/acropolypse-bot) :  ![starts](https://img.shields.io/github/stars/dorkeline/acropolypse-bot.svg) ![forks](https://img.shields.io/github/forks/dorkeline/acropolypse-bot.svg)
 
 ## CVE-2023-20944
  In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of privilege due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-244154558
@@ -1472,6 +1497,8 @@
 
 - [https://github.com/yuimarudev/CVE-2023-2825](https://github.com/yuimarudev/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/yuimarudev/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/yuimarudev/CVE-2023-2825.svg)
 
+- [https://github.com/Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab) :  ![starts](https://img.shields.io/github/stars/Tornad0007/CVE-2023-2825-Gitlab.svg) ![forks](https://img.shields.io/github/forks/Tornad0007/CVE-2023-2825-Gitlab.svg)
+
 ## CVE-2023-2822
  A vulnerability was found in Ellucian Ethos Identity up to 5.10.5. It has been classified as problematic. Affected is an unknown function of the file /cas/logout. The manipulation of the argument url leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 5.10.6 is able to address this issue. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-229596.
 
@@ -1485,6 +1512,8 @@
 
 
 - [https://github.com/RandomRobbieBF/CVE-2023-2732](https://github.com/RandomRobbieBF/CVE-2023-2732) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2023-2732.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2023-2732.svg)
+
+- [https://github.com/domainhigh/CVE-2023-2732-Mass](https://github.com/domainhigh/CVE-2023-2732-Mass) :  ![starts](https://img.shields.io/github/stars/domainhigh/CVE-2023-2732-Mass.svg) ![forks](https://img.shields.io/github/forks/domainhigh/CVE-2023-2732-Mass.svg)
 
 ## CVE-2023-2594
  A vulnerability, which was classified as critical, was found in SourceCodester Food Ordering Management System 1.0. Affected is an unknown function of the component Registration. The manipulation of the argument username leads to sql injection. It is possible to launch the attack remotely. The identifier of this vulnerability is VDB-228396.
@@ -1536,6 +1565,8 @@
 - [https://github.com/insoxin/CVE-2023-2033](https://github.com/insoxin/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/insoxin/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/insoxin/CVE-2023-2033.svg)
 
 - [https://github.com/sandumjacob/CVE-2023-2033-Analysis](https://github.com/sandumjacob/CVE-2023-2033-Analysis) :  ![starts](https://img.shields.io/github/stars/sandumjacob/CVE-2023-2033-Analysis.svg) ![forks](https://img.shields.io/github/forks/sandumjacob/CVE-2023-2033-Analysis.svg)
+
+- [https://github.com/gretchenfrage/CVE-2023-2033-analysis](https://github.com/gretchenfrage/CVE-2023-2033-analysis) :  ![starts](https://img.shields.io/github/stars/gretchenfrage/CVE-2023-2033-analysis.svg) ![forks](https://img.shields.io/github/forks/gretchenfrage/CVE-2023-2033-analysis.svg)
 
 ## CVE-2023-2002
  A vulnerability was found in the HCI sockets implementation due to a missing capability check in net/bluetooth/hci_sock.c in the Linux Kernel. This flaw allows an attacker to unauthorized execution of management commands, compromising the confidentiality, integrity, and availability of Bluetooth communication.
