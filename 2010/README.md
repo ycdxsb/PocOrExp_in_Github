@@ -142,6 +142,8 @@
 
 - [https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE) :  ![starts](https://img.shields.io/github/stars/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg) ![forks](https://img.shields.io/github/forks/XorgX304/UnrealIRCd-3.2.8.1-RCE.svg)
 
+- [https://github.com/FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1](https://github.com/FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1) :  ![starts](https://img.shields.io/github/stars/FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1.svg) ![forks](https://img.shields.io/github/forks/FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1.svg)
+
 - [https://github.com/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution) :  ![starts](https://img.shields.io/github/stars/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg)
 
 ## CVE-2010-1622
