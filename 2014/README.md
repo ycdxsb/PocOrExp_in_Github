@@ -703,6 +703,8 @@
 
 - [https://github.com/injectionmethod/ZTE-Vuln-4-Skids](https://github.com/injectionmethod/ZTE-Vuln-4-Skids) :  ![starts](https://img.shields.io/github/stars/injectionmethod/ZTE-Vuln-4-Skids.svg) ![forks](https://img.shields.io/github/forks/injectionmethod/ZTE-Vuln-4-Skids.svg)
 
+- [https://github.com/injectionmethod/Windows-ZTE-Loader](https://github.com/injectionmethod/Windows-ZTE-Loader) :  ![starts](https://img.shields.io/github/stars/injectionmethod/Windows-ZTE-Loader.svg) ![forks](https://img.shields.io/github/forks/injectionmethod/Windows-ZTE-Loader.svg)
+
 ## CVE-2014-2064
  The loadUserByUsername function in hudson/security/HudsonPrivateSecurityRealm.java in Jenkins before 1.551 and LTS before 1.532.2 allows remote attackers to determine whether a user exists via vectors related to failed login attempts.
 
@@ -983,9 +985,9 @@
 
 - [https://github.com/ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/ice-security88/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/ice-security88/CVE-2014-0160.svg)
 
-- [https://github.com/fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/fb1h2s/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/fb1h2s/CVE-2014-0160.svg)
-
 - [https://github.com/obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner) :  ![starts](https://img.shields.io/github/stars/obayesshelton/CVE-2014-0160-Scanner.svg) ![forks](https://img.shields.io/github/forks/obayesshelton/CVE-2014-0160-Scanner.svg)
+
+- [https://github.com/fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/fb1h2s/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/fb1h2s/CVE-2014-0160.svg)
 
 - [https://github.com/c1ph3rm4st3r/CVE-2014-0160_Heartbleed](https://github.com/c1ph3rm4st3r/CVE-2014-0160_Heartbleed) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2014-0160_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2014-0160_Heartbleed.svg)
 
