@@ -1,56 +1,88 @@
-# Update 2023-06-03
-## CVE-2023-33381
+# Update 2023-06-04
+## CVE-2023-33410
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/duality084/CVE-2023-33381-MitraStar-GPT-2741GNAC](https://github.com/duality084/CVE-2023-33381-MitraStar-GPT-2741GNAC) :  ![starts](https://img.shields.io/github/stars/duality084/CVE-2023-33381-MitraStar-GPT-2741GNAC.svg) ![forks](https://img.shields.io/github/forks/duality084/CVE-2023-33381-MitraStar-GPT-2741GNAC.svg)
+- [https://github.com/Thirukrishnan/CVE-2023-33410](https://github.com/Thirukrishnan/CVE-2023-33410) :  ![starts](https://img.shields.io/github/stars/Thirukrishnan/CVE-2023-33410.svg) ![forks](https://img.shields.io/github/forks/Thirukrishnan/CVE-2023-33410.svg)
 
 
-## CVE-2023-33246
- For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk of remote command execution. Several components of RocketMQ, including NameServer, Broker, and Controller, are leaked on the extranet and lack permission verification, an attacker can exploit this vulnerability by using the update configuration function to execute commands as the system users that RocketMQ is running as. Additionally, an attacker can achieve the same effect by forging the RocketMQ protocol content. To prevent these attacks, users are recommended to upgrade to version 5.1.1 or above for using RocketMQ 5.x or 4.9.6 or above for using RocketMQ 4.x .
+## CVE-2023-33409
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/SuperZero/CVE-2023-33246](https://github.com/SuperZero/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/SuperZero/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/SuperZero/CVE-2023-33246.svg)
-- [https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT](https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT.svg)
-- [https://github.com/CKevens/CVE-2023-33246](https://github.com/CKevens/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-33246.svg)
+- [https://github.com/Thirukrishnan/CVE-2023-33409](https://github.com/Thirukrishnan/CVE-2023-33409) :  ![starts](https://img.shields.io/github/stars/Thirukrishnan/CVE-2023-33409.svg) ![forks](https://img.shields.io/github/forks/Thirukrishnan/CVE-2023-33409.svg)
 
 
-## CVE-2023-29489
- An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the cpsrvd error page via an invalid webcall ID, aka SEC-669. The fixed versions are 11.109.9999.116, 11.108.0.13, 11.106.0.18, and 11.102.0.31.
+## CVE-2023-33408
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Abdullah7-ma/CVE-2023-29489](https://github.com/Abdullah7-ma/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/Abdullah7-ma/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/Abdullah7-ma/CVE-2023-29489.svg)
-
-
-## CVE-2022-22965
- A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.
-
-- [https://github.com/bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-](https://github.com/bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-) :  ![starts](https://img.shields.io/github/stars/bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-.svg) ![forks](https://img.shields.io/github/forks/bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-.svg)
+- [https://github.com/Thirukrishnan/CVE-2023-33408](https://github.com/Thirukrishnan/CVE-2023-33408) :  ![starts](https://img.shields.io/github/stars/Thirukrishnan/CVE-2023-33408.svg) ![forks](https://img.shields.io/github/forks/Thirukrishnan/CVE-2023-33408.svg)
 
 
-## CVE-2022-0778
- The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).
+## CVE-2023-28771
+ Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series firmware versions 4.60 through 5.35, and ATP series firmware versions 4.60 through 5.35, which could allow an unauthenticated attacker to execute some OS commands remotely by sending crafted packets to an affected device.
 
-- [https://github.com/Mrlucas5550100/PoC-CVE-2022-0778-](https://github.com/Mrlucas5550100/PoC-CVE-2022-0778-) :  ![starts](https://img.shields.io/github/stars/Mrlucas5550100/PoC-CVE-2022-0778-.svg) ![forks](https://img.shields.io/github/forks/Mrlucas5550100/PoC-CVE-2022-0778-.svg)
-
-
-## CVE-2022-0441
- The MasterStudy LMS WordPress plugin before 2.7.6 does to validate some parameters given when registering a new account, allowing unauthenticated users to register as an admin
-
-- [https://github.com/tegal1337/CVE-2022-0441](https://github.com/tegal1337/CVE-2022-0441) :  ![starts](https://img.shields.io/github/stars/tegal1337/CVE-2022-0441.svg) ![forks](https://img.shields.io/github/forks/tegal1337/CVE-2022-0441.svg)
+- [https://github.com/DLandonHSCS/Discord-RCE](https://github.com/DLandonHSCS/Discord-RCE) :  ![starts](https://img.shields.io/github/stars/DLandonHSCS/Discord-RCE.svg) ![forks](https://img.shields.io/github/forks/DLandonHSCS/Discord-RCE.svg)
+- [https://github.com/AKuzmanHSCS/Microsoft-Exchange-RCE](https://github.com/AKuzmanHSCS/Microsoft-Exchange-RCE) :  ![starts](https://img.shields.io/github/stars/AKuzmanHSCS/Microsoft-Exchange-RCE.svg) ![forks](https://img.shields.io/github/forks/AKuzmanHSCS/Microsoft-Exchange-RCE.svg)
 
 
-## CVE-2021-22986
- On BIG-IP versions 16.0.x before 16.0.1.1, 15.1.x before 15.1.2.1, 14.1.x before 14.1.4, 13.1.x before 13.1.3.6, and 12.1.x before 12.1.5.3 amd BIG-IQ 7.1.0.x before 7.1.0.3 and 7.0.0.x before 7.0.0.2, the iControl REST interface has an unauthenticated remote command execution vulnerability. Note: Software versions which have reached End of Software Development (EoSD) are not evaluated.
+## CVE-2023-21839
+ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
 
-- [https://github.com/kiri-48/CVE-2021-22986](https://github.com/kiri-48/CVE-2021-22986) :  ![starts](https://img.shields.io/github/stars/kiri-48/CVE-2021-22986.svg) ![forks](https://img.shields.io/github/forks/kiri-48/CVE-2021-22986.svg)
-
-
-## CVE-2019-9978
- The social-warfare plugin before 3.5.3 for WordPress has stored XSS via the wp-admin/admin-post.php?swp_debug=load_options swp_url parameter, as exploited in the wild in March 2019. This affects Social Warfare and Social Warfare Pro.
-
-- [https://github.com/grimlockx/CVE-2019-9978](https://github.com/grimlockx/CVE-2019-9978) :  ![starts](https://img.shields.io/github/stars/grimlockx/CVE-2019-9978.svg) ![forks](https://img.shields.io/github/forks/grimlockx/CVE-2019-9978.svg)
+- [https://github.com/AKuzmanHSCS/Microsoft-Exchange-RCE](https://github.com/AKuzmanHSCS/Microsoft-Exchange-RCE) :  ![starts](https://img.shields.io/github/stars/AKuzmanHSCS/Microsoft-Exchange-RCE.svg) ![forks](https://img.shields.io/github/forks/AKuzmanHSCS/Microsoft-Exchange-RCE.svg)
+- [https://github.com/RShahHSCS/Discord-0-Day-Exploit](https://github.com/RShahHSCS/Discord-0-Day-Exploit) :  ![starts](https://img.shields.io/github/stars/RShahHSCS/Discord-0-Day-Exploit.svg) ![forks](https://img.shields.io/github/forks/RShahHSCS/Discord-0-Day-Exploit.svg)
 
 
-## CVE-2014-2321
- web_shell_cmd.gch on ZTE F460 and F660 cable modems allows remote attackers to obtain administrative access via sendcmd requests, as demonstrated by using &quot;set TelnetCfg&quot; commands to enable a TELNET service with specified credentials.
+## CVE-2023-21707
+ Microsoft Exchange Server Remote Code Execution Vulnerability
 
-- [https://github.com/injectionmethod/Windows-ZTE-Loader](https://github.com/injectionmethod/Windows-ZTE-Loader) :  ![starts](https://img.shields.io/github/stars/injectionmethod/Windows-ZTE-Loader.svg) ![forks](https://img.shields.io/github/forks/injectionmethod/Windows-ZTE-Loader.svg)
+- [https://github.com/DLandonHSCS/Discord-RCE](https://github.com/DLandonHSCS/Discord-RCE) :  ![starts](https://img.shields.io/github/stars/DLandonHSCS/Discord-RCE.svg) ![forks](https://img.shields.io/github/forks/DLandonHSCS/Discord-RCE.svg)
+- [https://github.com/AKuzmanHSCS/Microsoft-Exchange-RCE](https://github.com/AKuzmanHSCS/Microsoft-Exchange-RCE) :  ![starts](https://img.shields.io/github/stars/AKuzmanHSCS/Microsoft-Exchange-RCE.svg) ![forks](https://img.shields.io/github/forks/AKuzmanHSCS/Microsoft-Exchange-RCE.svg)
+
+
+## CVE-2023-1389
+ TP-Link Archer AX21 (AX1800) firmware versions before 1.1.4 Build 20230219 contained a command injection vulnerability in the country form of the /cgi-bin/luci;stok=/locale endpoint on the web management interface. Specifically, the country parameter of the write operation was not sanitized before being used in a call to popen(), allowing an unauthenticated attacker to inject commands, which would be run as root, with a simple POST request.
+
+- [https://github.com/AKuzmanHSCS/Microsoft-Exchange-RCE](https://github.com/AKuzmanHSCS/Microsoft-Exchange-RCE) :  ![starts](https://img.shields.io/github/stars/AKuzmanHSCS/Microsoft-Exchange-RCE.svg) ![forks](https://img.shields.io/github/forks/AKuzmanHSCS/Microsoft-Exchange-RCE.svg)
+- [https://github.com/RShahHSCS/Discord-0-Day-Exploit](https://github.com/RShahHSCS/Discord-0-Day-Exploit) :  ![starts](https://img.shields.io/github/stars/RShahHSCS/Discord-0-Day-Exploit.svg) ![forks](https://img.shields.io/github/forks/RShahHSCS/Discord-0-Day-Exploit.svg)
+
+
+## CVE-2021-4036
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/MHadzicHSCS/Chrome-0-day](https://github.com/MHadzicHSCS/Chrome-0-day) :  ![starts](https://img.shields.io/github/stars/MHadzicHSCS/Chrome-0-day.svg) ![forks](https://img.shields.io/github/forks/MHadzicHSCS/Chrome-0-day.svg)
+
+
+## CVE-2021-4034
+ A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
+
+- [https://github.com/MHadzicHSCS/Chrome-0-day](https://github.com/MHadzicHSCS/Chrome-0-day) :  ![starts](https://img.shields.io/github/stars/MHadzicHSCS/Chrome-0-day.svg) ![forks](https://img.shields.io/github/forks/MHadzicHSCS/Chrome-0-day.svg)
+
+
+## CVE-2020-14882
+ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Console). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+
+- [https://github.com/PoSH-Father/CVE-2020-14882](https://github.com/PoSH-Father/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/PoSH-Father/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/PoSH-Father/CVE-2020-14882.svg)
+
+
+## CVE-2020-0796
+ A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.
+
+- [https://github.com/DLandonHSCS/Discord-RCE](https://github.com/DLandonHSCS/Discord-RCE) :  ![starts](https://img.shields.io/github/stars/DLandonHSCS/Discord-RCE.svg) ![forks](https://img.shields.io/github/forks/DLandonHSCS/Discord-RCE.svg)
+
+
+## CVE-2019-5427
+ c3p0 version &lt; 0.9.5.4 may be exploited by a billion laughs attack when loading XML configuration due to missing protections against recursive entity expansion when loading configuration.
+
+- [https://github.com/shanika04/cp30_XXE_partial_fix](https://github.com/shanika04/cp30_XXE_partial_fix) :  ![starts](https://img.shields.io/github/stars/shanika04/cp30_XXE_partial_fix.svg) ![forks](https://img.shields.io/github/forks/shanika04/cp30_XXE_partial_fix.svg)
+
+
+## CVE-2018-1932
+ IBM API Connect 5.0.0.0 through 5.0.8.4 is affected by a vulnerability in the role-based access control in the management server that could allow an authenticated user to obtain highly sensitive information. IBM X-Force ID: 153175.
+
+- [https://github.com/BKreisel/CVE-2018-1932X](https://github.com/BKreisel/CVE-2018-1932X) :  ![starts](https://img.shields.io/github/stars/BKreisel/CVE-2018-1932X.svg) ![forks](https://img.shields.io/github/forks/BKreisel/CVE-2018-1932X.svg)
+
+
+## CVE-2017-9506
+ The IconUriServlet of the Atlassian OAuth Plugin from version 1.3.0 before version 1.9.12 and from version 2.0.0 before version 2.0.4 allows remote attackers to access the content of internal network resources and/or perform an XSS attack via Server Side Request Forgery (SSRF).
+
+- [https://github.com/pwn1sher/jira-ssrf](https://github.com/pwn1sher/jira-ssrf) :  ![starts](https://img.shields.io/github/stars/pwn1sher/jira-ssrf.svg) ![forks](https://img.shields.io/github/forks/pwn1sher/jira-ssrf.svg)
 
