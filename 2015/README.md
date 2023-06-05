@@ -108,6 +108,13 @@
 
 - [https://github.com/cved-sources/cve-2015-8103](https://github.com/cved-sources/cve-2015-8103) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-8103.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-8103.svg)
 
+## CVE-2015-8088
+ Heap-based buffer overflow in the HIFI driver in Huawei Mate 7 phones with software MT7-UL00 before MT7-UL00C17B354, MT7-TL10 before MT7-TL10C00B354, MT7-TL00 before MT7-TL00C01B354, and MT7-CL00 before MT7-CL00C92B354 and P8 phones with software GRA-TL00 before GRA-TL00C01B220SP01, GRA-CL00 before GRA-CL00C92B220, GRA-CL10 before GRA-CL10C92B220, GRA-UL00 before GRA-UL00C00B220, and GRA-UL10 before GRA-UL10C00B220 allows attackers to cause a denial of service (reboot) or execute arbitrary code via a crafted application.
+
+
+
+- [https://github.com/Pray3r/CVE-2015-8088](https://github.com/Pray3r/CVE-2015-8088) :  ![starts](https://img.shields.io/github/stars/Pray3r/CVE-2015-8088.svg) ![forks](https://img.shields.io/github/forks/Pray3r/CVE-2015-8088.svg)
+
 ## CVE-2015-7858
  SQL injection vulnerability in Joomla! 3.2 before 3.4.4 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, a different vulnerability than CVE-2015-7297.
 
@@ -751,8 +758,6 @@
  The (1) pipe_read and (2) pipe_write implementations in fs/pipe.c in the Linux kernel before 3.16 do not properly consider the side effects of failed __copy_to_user_inatomic and __copy_from_user_inatomic calls, which allows local users to cause a denial of service (system crash) or possibly gain privileges via a crafted application, aka an &quot;I/O vector array overrun.&quot;
 
 
-
-- [https://github.com/dosomder/iovyroot](https://github.com/dosomder/iovyroot) :  ![starts](https://img.shields.io/github/stars/dosomder/iovyroot.svg) ![forks](https://img.shields.io/github/forks/dosomder/iovyroot.svg)
 
 - [https://github.com/idhyt/androotzf](https://github.com/idhyt/androotzf) :  ![starts](https://img.shields.io/github/stars/idhyt/androotzf.svg) ![forks](https://img.shields.io/github/forks/idhyt/androotzf.svg)
 
