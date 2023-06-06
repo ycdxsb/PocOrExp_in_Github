@@ -20,7 +20,7 @@
 - [https://github.com/s0tr/CVE-2023-33781](https://github.com/s0tr/CVE-2023-33781) :  ![starts](https://img.shields.io/github/stars/s0tr/CVE-2023-33781.svg) ![forks](https://img.shields.io/github/forks/s0tr/CVE-2023-33781.svg)
 
 ## CVE-2023-33733
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Reportlab up to v3.6.12 allows attackers to execute arbitrary code via supplying a crafted PDF file.
 
 
 
@@ -56,22 +56,29 @@
 
 - [https://github.com/Chocapikk/CVE-2023-33617](https://github.com/Chocapikk/CVE-2023-33617) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-33617.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-33617.svg)
 
-## CVE-2023-33410
+## CVE-2023-33477
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/Skr11lex/CVE-2023-33477](https://github.com/Skr11lex/CVE-2023-33477) :  ![starts](https://img.shields.io/github/stars/Skr11lex/CVE-2023-33477.svg) ![forks](https://img.shields.io/github/forks/Skr11lex/CVE-2023-33477.svg)
+
+## CVE-2023-33410
+ Minical 1.0.0 and earlier contains a CSV injection vulnerability which allows an attacker to execute remote code. The vulnerability exists due to insufficient input validation on the Customer Name field in the Accounting module that is used to construct a CSV file.
 
 
 
 - [https://github.com/Thirukrishnan/CVE-2023-33410](https://github.com/Thirukrishnan/CVE-2023-33410) :  ![starts](https://img.shields.io/github/stars/Thirukrishnan/CVE-2023-33410.svg) ![forks](https://img.shields.io/github/forks/Thirukrishnan/CVE-2023-33410.svg)
 
 ## CVE-2023-33409
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Minical 1.0.0 is vulnerable to Cross Site Request Forgery (CSRF) via minical/public/application/controllers/settings/company.php.
 
 
 
 - [https://github.com/Thirukrishnan/CVE-2023-33409](https://github.com/Thirukrishnan/CVE-2023-33409) :  ![starts](https://img.shields.io/github/stars/Thirukrishnan/CVE-2023-33409.svg) ![forks](https://img.shields.io/github/forks/Thirukrishnan/CVE-2023-33409.svg)
 
 ## CVE-2023-33408
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Minical 1.0.0 is vulnerable to Cross Site Scripting (XSS). The vulnerability exists due to insufficient input validation in the application's user input handling in the security_helper.php file.
 
 
 
@@ -100,6 +107,13 @@
 - [https://github.com/Le1a/CVE-2023-33246](https://github.com/Le1a/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/Le1a/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/Le1a/CVE-2023-33246.svg)
 
 - [https://github.com/CKevens/CVE-2023-33246](https://github.com/CKevens/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-33246.svg)
+
+## CVE-2023-33243
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/RedTeamPentesting/CVE-2023-33243](https://github.com/RedTeamPentesting/CVE-2023-33243) :  ![starts](https://img.shields.io/github/stars/RedTeamPentesting/CVE-2023-33243.svg) ![forks](https://img.shields.io/github/forks/RedTeamPentesting/CVE-2023-33243.svg)
 
 ## CVE-2023-32784
  In KeePass 2.x before 2.54, it is possible to recover the cleartext master password from a memory dump, even when a workspace is locked or no longer running. The memory dump can be a KeePass process dump, swap file (pagefile.sys), hibernation file (hiberfil.sys), or RAM dump of the entire system. The first character cannot be recovered. In 2.54, there is different API usage and/or random string insertion for mitigation.
@@ -372,9 +386,9 @@
 
 - [https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability](https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability) :  ![starts](https://img.shields.io/github/stars/libas7994/Exploit-the-CVE-2023-30212-vulnerability.svg) ![forks](https://img.shields.io/github/forks/libas7994/Exploit-the-CVE-2023-30212-vulnerability.svg)
 
-- [https://github.com/kai-iszz/CVE-2023-30212](https://github.com/kai-iszz/CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/kai-iszz/CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/kai-iszz/CVE-2023-30212.svg)
-
 - [https://github.com/Anandhu990/CVE-2023-30212-iab](https://github.com/Anandhu990/CVE-2023-30212-iab) :  ![starts](https://img.shields.io/github/stars/Anandhu990/CVE-2023-30212-iab.svg) ![forks](https://img.shields.io/github/forks/Anandhu990/CVE-2023-30212-iab.svg)
+
+- [https://github.com/kai-iszz/CVE-2023-30212](https://github.com/kai-iszz/CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/kai-iszz/CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/kai-iszz/CVE-2023-30212.svg)
 
 - [https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability](https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability) :  ![starts](https://img.shields.io/github/stars/libasv/Exploite-CVE-2023-30212-vulnerability.svg) ![forks](https://img.shields.io/github/forks/libasv/Exploite-CVE-2023-30212-vulnerability.svg)
 
@@ -554,9 +568,9 @@
 
 
 
-- [https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772](https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/linux-4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/linux-4.1.15_CVE-2023-28772.svg)
-
 - [https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772](https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/Trinadh465/linux-4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/linux-4.1.15_CVE-2023-28772.svg)
+
+- [https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772](https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/linux-4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/linux-4.1.15_CVE-2023-28772.svg)
 
 - [https://github.com/nidhi7598/linux-4.19.72_CVE-2023-28772](https://github.com/nidhi7598/linux-4.19.72_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/nidhi7598/linux-4.19.72_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/linux-4.19.72_CVE-2023-28772.svg)
 
@@ -774,9 +788,9 @@
 
 - [https://github.com/adhikara13/CVE-2023-27350](https://github.com/adhikara13/CVE-2023-27350) :  ![starts](https://img.shields.io/github/stars/adhikara13/CVE-2023-27350.svg) ![forks](https://img.shields.io/github/forks/adhikara13/CVE-2023-27350.svg)
 
-- [https://github.com/Pari-Malam/CVE-2023-27350](https://github.com/Pari-Malam/CVE-2023-27350) :  ![starts](https://img.shields.io/github/stars/Pari-Malam/CVE-2023-27350.svg) ![forks](https://img.shields.io/github/forks/Pari-Malam/CVE-2023-27350.svg)
-
 - [https://github.com/MaanVader/CVE-2023-27350-POC](https://github.com/MaanVader/CVE-2023-27350-POC) :  ![starts](https://img.shields.io/github/stars/MaanVader/CVE-2023-27350-POC.svg) ![forks](https://img.shields.io/github/forks/MaanVader/CVE-2023-27350-POC.svg)
+
+- [https://github.com/Pari-Malam/CVE-2023-27350](https://github.com/Pari-Malam/CVE-2023-27350) :  ![starts](https://img.shields.io/github/stars/Pari-Malam/CVE-2023-27350.svg) ![forks](https://img.shields.io/github/forks/Pari-Malam/CVE-2023-27350.svg)
 
 ## CVE-2023-27328
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -1098,9 +1112,9 @@
 
 - [https://github.com/ibaiw/joomla_CVE-2023-23752](https://github.com/ibaiw/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/ibaiw/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/ibaiw/joomla_CVE-2023-23752.svg)
 
-- [https://github.com/0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xNahim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xNahim/CVE-2023-23752.svg)
-
 - [https://github.com/karthikuj/CVE-2023-23752-Docker](https://github.com/karthikuj/CVE-2023-23752-Docker) :  ![starts](https://img.shields.io/github/stars/karthikuj/CVE-2023-23752-Docker.svg) ![forks](https://img.shields.io/github/forks/karthikuj/CVE-2023-23752-Docker.svg)
+
+- [https://github.com/0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xNahim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xNahim/CVE-2023-23752.svg)
 
 - [https://github.com/YusinoMy/CVE-2023-23752](https://github.com/YusinoMy/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/YusinoMy/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/YusinoMy/CVE-2023-23752.svg)
 
@@ -1114,9 +1128,9 @@
 
 - [https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752](https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/haxor1337x/Mass-Checker-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/haxor1337x/Mass-Checker-CVE-2023-23752.svg)
 
-- [https://github.com/wibuheker/Joomla-CVE-2023-23752](https://github.com/wibuheker/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/wibuheker/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/wibuheker/Joomla-CVE-2023-23752.svg)
-
 - [https://github.com/adriyansyah-mf/CVE-2023-23752](https://github.com/adriyansyah-mf/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/adriyansyah-mf/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/adriyansyah-mf/CVE-2023-23752.svg)
+
+- [https://github.com/wibuheker/Joomla-CVE-2023-23752](https://github.com/wibuheker/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/wibuheker/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/wibuheker/Joomla-CVE-2023-23752.svg)
 
 - [https://github.com/H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-23752.svg)
 
@@ -1191,9 +1205,9 @@
 
 - [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
 
-- [https://github.com/CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-23397-POC.svg)
-
 - [https://github.com/SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/SecCTechs/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/SecCTechs/CVE-2023-23397.svg)
+
+- [https://github.com/CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-23397-POC.svg)
 
 - [https://github.com/moneertv/CVE-2023-23397](https://github.com/moneertv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/moneertv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/moneertv/CVE-2023-23397.svg)
 
@@ -1616,6 +1630,8 @@
 
 - [https://github.com/yuimarudev/CVE-2023-2825](https://github.com/yuimarudev/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/yuimarudev/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/yuimarudev/CVE-2023-2825.svg)
 
+- [https://github.com/EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/EmmanuelCruzL/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/EmmanuelCruzL/CVE-2023-2825.svg)
+
 - [https://github.com/Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab) :  ![starts](https://img.shields.io/github/stars/Tornad0007/CVE-2023-2825-Gitlab.svg) ![forks](https://img.shields.io/github/forks/Tornad0007/CVE-2023-2825-Gitlab.svg)
 
 ## CVE-2023-2822
@@ -1633,6 +1649,15 @@
 - [https://github.com/RandomRobbieBF/CVE-2023-2732](https://github.com/RandomRobbieBF/CVE-2023-2732) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2023-2732.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2023-2732.svg)
 
 - [https://github.com/domainhigh/CVE-2023-2732-Mass](https://github.com/domainhigh/CVE-2023-2732-Mass) :  ![starts](https://img.shields.io/github/stars/domainhigh/CVE-2023-2732-Mass.svg) ![forks](https://img.shields.io/github/forks/domainhigh/CVE-2023-2732-Mass.svg)
+
+- [https://github.com/Jenderal92/WP-CVE-2023-2732](https://github.com/Jenderal92/WP-CVE-2023-2732) :  ![starts](https://img.shields.io/github/stars/Jenderal92/WP-CVE-2023-2732.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/WP-CVE-2023-2732.svg)
+
+## CVE-2023-2650
+ Issue summary: Processing some specially crafted ASN.1 object identifiers or data containing them may be very slow. Impact summary: Applications that use OBJ_obj2txt() directly, or use any of the OpenSSL subsystems OCSP, PKCS7/SMIME, CMS, CMP/CRMF or TS with no message size limit may experience notable to very long delays when processing those messages, which may lead to a Denial of Service. An OBJECT IDENTIFIER is composed of a series of numbers - sub-identifiers - most of which have no size limit. OBJ_obj2txt() may be used to translate an ASN.1 OBJECT IDENTIFIER given in DER encoding form (using the OpenSSL type ASN1_OBJECT) to its canonical numeric text form, which are the sub-identifiers of the OBJECT IDENTIFIER in decimal form, separated by periods. When one of the sub-identifiers in the OBJECT IDENTIFIER is very large (these are sizes that are seen as absurdly large, taking up tens or hundreds of KiBs), the translation to a decimal number in text may take a very long time. The time complexity is O(n^2) with 'n' being the size of the sub-identifiers in bytes (*). With OpenSSL 3.0, support to fetch cryptographic algorithms using names / identifiers in string form was introduced. This includes using OBJECT IDENTIFIERs in canonical numeric text form as identifiers for fetching algorithms. Such OBJECT IDENTIFIERs may be received through the ASN.1 structure AlgorithmIdentifier, which is commonly used in multiple protocols to specify what cryptographic algorithm should be used to sign or verify, encrypt or decrypt, or digest passed data. Applications that call OBJ_obj2txt() directly with untrusted data are affected, with any version of OpenSSL. If the use is for the mere purpose of display, the severity is considered low. In OpenSSL 3.0 and newer, this affects the subsystems OCSP, PKCS7/SMIME, CMS, CMP/CRMF or TS. It also impacts anything that processes X.509 certificates, including simple things like verifying its signature. The impact on TLS is relatively low, because all versions of OpenSSL have a 100KiB limit on the peer's certificate chain. Additionally, this only impacts clients, or servers that have explicitly enabled client authentication. In OpenSSL 1.1.1 and 1.0.2, this only affects displaying diverse objects, such as X.509 certificates. This is assumed to not happen in such a way that it would cause a Denial of Service, so these versions are considered not affected by this issue in such a way that it would be cause for concern, and the severity is therefore considered low.
+
+
+
+- [https://github.com/hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650](https://github.com/hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650) :  ![starts](https://img.shields.io/github/stars/hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650.svg)
 
 ## CVE-2023-2594
  A vulnerability, which was classified as critical, was found in SourceCodester Food Ordering Management System 1.0. Affected is an unknown function of the component Registration. The manipulation of the argument username leads to sql injection. It is possible to launch the attack remotely. The identifier of this vulnerability is VDB-228396.
@@ -1768,9 +1793,9 @@
 
 
 
-- [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)
-
 - [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)
+
+- [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)
 
 ## CVE-2023-1177
  Path Traversal: '\..\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.
@@ -1896,9 +1921,9 @@
 
 
 
-- [https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215.svg)
-
 - [https://github.com/nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215](https://github.com/nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215.svg)
+
+- [https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215.svg)
 
 ## CVE-2023-0179
  A buffer overflow vulnerability was found in the Netfilter subsystem in the Linux Kernel. This issue could allow the leakage of both stack and heap addresses, and potentially allow Local Privilege Escalation to the root user via arbitrary code execution.
