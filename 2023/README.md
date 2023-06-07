@@ -1,19 +1,37 @@
+## CVE-2023-34362
+ In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.4 (14.0.4), 2022.1.5 (14.1.5), and 2023.0.1 (15.0.1), a SQL injection vulnerability has been found in the MOVEit Transfer web application that could allow an unauthenticated attacker to gain access to MOVEit Transfer's database. Depending on the database engine being used (MySQL, Microsoft SQL Server, or Azure SQL), an attacker may be able to infer information about the structure and contents of the database, and execute SQL statements that alter or delete database elements. NOTE: this is exploited in the wild in May and June 2023; exploitation of unpatched systems can occur via HTTP or HTTPS. All versions (e.g., 2020.0 and 2019x) before the five explicitly mentioned versions are affected, including older unsupported versions.
+
+
+
+- [https://github.com/deepinstinct/MOVEit_CVE-2023-34362_IOCs](https://github.com/deepinstinct/MOVEit_CVE-2023-34362_IOCs) :  ![starts](https://img.shields.io/github/stars/deepinstinct/MOVEit_CVE-2023-34362_IOCs.svg) ![forks](https://img.shields.io/github/forks/deepinstinct/MOVEit_CVE-2023-34362_IOCs.svg)
+
+- [https://github.com/a3cipher/CVE-2023-34362](https://github.com/a3cipher/CVE-2023-34362) :  ![starts](https://img.shields.io/github/stars/a3cipher/CVE-2023-34362.svg) ![forks](https://img.shields.io/github/forks/a3cipher/CVE-2023-34362.svg)
+
+## CVE-2023-33977
+ Kiwi TCMS is an open source test management system for both manual and automated testing. Kiwi TCMS allows users to upload attachments to test plans, test cases, etc. Earlier versions of Kiwi TCMS had introduced upload validators in order to prevent potentially dangerous files from being uploaded and Content-Security-Policy definition to prevent cross-site-scripting attacks. The upload validation checks were not 100% robust which left the possibility to circumvent them and upload a potentially dangerous file which allows execution of arbitrary JavaScript in the browser. Additionally we've discovered that Nginx's `proxy_pass` directive will strip some headers negating protections built into Kiwi TCMS when served behind a reverse proxy. This issue has been addressed in version 12.4. Users are advised to upgrade. Users unable to upgrade who are serving Kiwi TCMS behind a reverse proxy should make sure that additional header values are still passed to the client browser. If they aren't redefining them inside the proxy configuration.
+
+
+
+- [https://github.com/mnqazi/CVE-2023-33977](https://github.com/mnqazi/CVE-2023-33977) :  ![starts](https://img.shields.io/github/stars/mnqazi/CVE-2023-33977.svg) ![forks](https://img.shields.io/github/forks/mnqazi/CVE-2023-33977.svg)
+
 ## CVE-2023-33829
  A stored cross-site scripting (XSS) vulnerability in Cloudogu GmbH SCM Manager v1.2 to v1.60 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Description text field.
 
 
 
+- [https://github.com/CKevens/CVE-2023-33829-POC](https://github.com/CKevens/CVE-2023-33829-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-33829-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-33829-POC.svg)
+
 - [https://github.com/n3gox/CVE-2023-33829](https://github.com/n3gox/CVE-2023-33829) :  ![starts](https://img.shields.io/github/stars/n3gox/CVE-2023-33829.svg) ![forks](https://img.shields.io/github/forks/n3gox/CVE-2023-33829.svg)
 
 ## CVE-2023-33782
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ D-Link DIR-842V2 v1.0.3 was discovered to contain a command injection vulnerability via the iperf3 diagnostics function.
 
 
 
 - [https://github.com/s0tr/CVE-2023-33782](https://github.com/s0tr/CVE-2023-33782) :  ![starts](https://img.shields.io/github/stars/s0tr/CVE-2023-33782.svg) ![forks](https://img.shields.io/github/forks/s0tr/CVE-2023-33782.svg)
 
 ## CVE-2023-33781
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue in D-Link DIR-842V2 v1.0.3 allows attackers to execute arbitrary commands via importing a crafted file.
 
 
 
@@ -57,7 +75,7 @@
 - [https://github.com/Chocapikk/CVE-2023-33617](https://github.com/Chocapikk/CVE-2023-33617) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-33617.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-33617.svg)
 
 ## CVE-2023-33477
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ In Harmonic NSG 9000-6G devices, an authenticated remote user can obtain source code by directly requesting a special path.
 
 
 
@@ -85,7 +103,7 @@
 - [https://github.com/Thirukrishnan/CVE-2023-33408](https://github.com/Thirukrishnan/CVE-2023-33408) :  ![starts](https://img.shields.io/github/stars/Thirukrishnan/CVE-2023-33408.svg) ![forks](https://img.shields.io/github/forks/Thirukrishnan/CVE-2023-33408.svg)
 
 ## CVE-2023-33381
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A command injection vulnerability was found in the ping functionality of the MitraStar GPT-2741GNAC router (firmware version AR_g5.8_110WVN0b7_2). The vulnerability allows an authenticated user to execute arbitrary OS commands by sending specially crafted input to the router via the ping function.
 
 
 
@@ -102,9 +120,11 @@
 
 - [https://github.com/SuperZero/CVE-2023-33246](https://github.com/SuperZero/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/SuperZero/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/SuperZero/CVE-2023-33246.svg)
 
+- [https://github.com/Le1a/CVE-2023-33246](https://github.com/Le1a/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/Le1a/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/Le1a/CVE-2023-33246.svg)
+
 - [https://github.com/yizhimanpadewoniu/CVE-2023-33246-Copy](https://github.com/yizhimanpadewoniu/CVE-2023-33246-Copy) :  ![starts](https://img.shields.io/github/stars/yizhimanpadewoniu/CVE-2023-33246-Copy.svg) ![forks](https://img.shields.io/github/forks/yizhimanpadewoniu/CVE-2023-33246-Copy.svg)
 
-- [https://github.com/Le1a/CVE-2023-33246](https://github.com/Le1a/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/Le1a/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/Le1a/CVE-2023-33246.svg)
+- [https://github.com/Serendipity-Lucky/CVE-2023-33246](https://github.com/Serendipity-Lucky/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/Serendipity-Lucky/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/Serendipity-Lucky/CVE-2023-33246.svg)
 
 - [https://github.com/CKevens/CVE-2023-33246](https://github.com/CKevens/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-33246.svg)
 
@@ -244,7 +264,7 @@
 - [https://github.com/XC9409/CVE-2023-31634](https://github.com/XC9409/CVE-2023-31634) :  ![starts](https://img.shields.io/github/stars/XC9409/CVE-2023-31634.svg) ![forks](https://img.shields.io/github/forks/XC9409/CVE-2023-31634.svg)
 
 ## CVE-2023-31606
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A Regular Expression Denial of Service (ReDoS) issue was discovered in the sanitize_html function of redcloth gem v4.0.0. This vulnerability allows attackers to cause a Denial of Service (DoS) via supplying a crafted payload.
 
 
 
@@ -568,9 +588,9 @@
 
 
 
-- [https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772](https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/Trinadh465/linux-4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/linux-4.1.15_CVE-2023-28772.svg)
-
 - [https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772](https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/linux-4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/linux-4.1.15_CVE-2023-28772.svg)
+
+- [https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772](https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/Trinadh465/linux-4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/linux-4.1.15_CVE-2023-28772.svg)
 
 - [https://github.com/nidhi7598/linux-4.19.72_CVE-2023-28772](https://github.com/nidhi7598/linux-4.19.72_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/nidhi7598/linux-4.19.72_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/linux-4.19.72_CVE-2023-28772.svg)
 
@@ -678,6 +698,13 @@
 - [https://github.com/ZZY3312/CVE-2023-28206](https://github.com/ZZY3312/CVE-2023-28206) :  ![starts](https://img.shields.io/github/stars/ZZY3312/CVE-2023-28206.svg) ![forks](https://img.shields.io/github/forks/ZZY3312/CVE-2023-28206.svg)
 
 - [https://github.com/acceleratortroll/acceleratortroll](https://github.com/acceleratortroll/acceleratortroll) :  ![starts](https://img.shields.io/github/stars/acceleratortroll/acceleratortroll.svg) ![forks](https://img.shields.io/github/forks/acceleratortroll/acceleratortroll.svg)
+
+## CVE-2023-28178
+ A logic issue was addressed with improved validation. This issue is fixed in macOS Monterey 12.6.4, iOS 16.4 and iPadOS 16.4, macOS Ventura 13.3. An app may be able to bypass Privacy preferences
+
+
+
+- [https://github.com/MacCVEResearch/CVE-2023-28178-patch](https://github.com/MacCVEResearch/CVE-2023-28178-patch) :  ![starts](https://img.shields.io/github/stars/MacCVEResearch/CVE-2023-28178-patch.svg) ![forks](https://img.shields.io/github/forks/MacCVEResearch/CVE-2023-28178-patch.svg)
 
 ## CVE-2023-28121
  An issue in WooCommerce Payments plugin for WordPress (versions 5.6.1 and lower) allows an unauthenticated attacker to send requests on behalf of an elevated user, like administrator. This allows a remote, unauthenticated attacker to gain admin access on a site that has the affected version of the plugin activated.
@@ -965,6 +992,13 @@
 
 - [https://github.com/Avento/Apache_Druid_JNDI_Vuln](https://github.com/Avento/Apache_Druid_JNDI_Vuln) :  ![starts](https://img.shields.io/github/stars/Avento/Apache_Druid_JNDI_Vuln.svg) ![forks](https://img.shields.io/github/forks/Avento/Apache_Druid_JNDI_Vuln.svg)
 
+## CVE-2023-25157
+ GeoServer is an open source software server written in Java that allows users to share and edit geospatial data. GeoServer includes support for the OGC Filter expression language and the OGC Common Query Language (CQL) as part of the Web Feature Service (WFS) and Web Map Service (WMS) protocols. CQL is also supported through the Web Coverage Service (WCS) protocol for ImageMosaic coverages. Users are advised to upgrade to either version 2.21.4, or version 2.22.2 to resolve this issue. Users unable to upgrade should disable the PostGIS Datastore *encode functions* setting to mitigate ``strEndsWith``, ``strStartsWith`` and ``PropertyIsLike `` misuse and enable the PostGIS DataStore *preparedStatements* setting to mitigate the ``FeatureId`` misuse.
+
+
+
+- [https://github.com/win3zz/CVE-2023-25157](https://github.com/win3zz/CVE-2023-25157) :  ![starts](https://img.shields.io/github/stars/win3zz/CVE-2023-25157.svg) ![forks](https://img.shields.io/github/forks/win3zz/CVE-2023-25157.svg)
+
 ## CVE-2023-25136
  OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be leveraged, by an unauthenticated remote attacker in the default configuration, to jump to any location in the sshd address space. One third-party report states &quot;remote code execution is theoretically possible.&quot;
 
@@ -978,9 +1012,9 @@
 
 - [https://github.com/ticofookfook/CVE-2023-25136](https://github.com/ticofookfook/CVE-2023-25136) :  ![starts](https://img.shields.io/github/stars/ticofookfook/CVE-2023-25136.svg) ![forks](https://img.shields.io/github/forks/ticofookfook/CVE-2023-25136.svg)
 
-- [https://github.com/nhakobyan685/CVE-2023-25136](https://github.com/nhakobyan685/CVE-2023-25136) :  ![starts](https://img.shields.io/github/stars/nhakobyan685/CVE-2023-25136.svg) ![forks](https://img.shields.io/github/forks/nhakobyan685/CVE-2023-25136.svg)
-
 - [https://github.com/axylisdead/CVE-2023-25136_POC](https://github.com/axylisdead/CVE-2023-25136_POC) :  ![starts](https://img.shields.io/github/stars/axylisdead/CVE-2023-25136_POC.svg) ![forks](https://img.shields.io/github/forks/axylisdead/CVE-2023-25136_POC.svg)
+
+- [https://github.com/nhakobyan685/CVE-2023-25136](https://github.com/nhakobyan685/CVE-2023-25136) :  ![starts](https://img.shields.io/github/stars/nhakobyan685/CVE-2023-25136.svg) ![forks](https://img.shields.io/github/forks/nhakobyan685/CVE-2023-25136.svg)
 
 ## CVE-2023-24998
  Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads. Note that, like all of the file upload limits, the new configuration option (FileUploadBase#setFileCountMax) is not enabled by default and must be explicitly configured.
@@ -1132,9 +1166,9 @@
 
 - [https://github.com/wibuheker/Joomla-CVE-2023-23752](https://github.com/wibuheker/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/wibuheker/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/wibuheker/Joomla-CVE-2023-23752.svg)
 
-- [https://github.com/H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-23752.svg)
-
 - [https://github.com/Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Jenderal92/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/Joomla-CVE-2023-23752.svg)
+
+- [https://github.com/H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-23752.svg)
 
 - [https://github.com/equationsoftworks/Radiance](https://github.com/equationsoftworks/Radiance) :  ![starts](https://img.shields.io/github/stars/equationsoftworks/Radiance.svg) ![forks](https://img.shields.io/github/forks/equationsoftworks/Radiance.svg)
 
@@ -1203,9 +1237,9 @@
 
 - [https://github.com/j0eyv/CVE-2023-23397](https://github.com/j0eyv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/j0eyv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/j0eyv/CVE-2023-23397.svg)
 
-- [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
-
 - [https://github.com/SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/SecCTechs/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/SecCTechs/CVE-2023-23397.svg)
+
+- [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
 
 - [https://github.com/CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-23397-POC.svg)
 
@@ -1630,9 +1664,9 @@
 
 - [https://github.com/yuimarudev/CVE-2023-2825](https://github.com/yuimarudev/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/yuimarudev/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/yuimarudev/CVE-2023-2825.svg)
 
-- [https://github.com/EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/EmmanuelCruzL/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/EmmanuelCruzL/CVE-2023-2825.svg)
-
 - [https://github.com/Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab) :  ![starts](https://img.shields.io/github/stars/Tornad0007/CVE-2023-2825-Gitlab.svg) ![forks](https://img.shields.io/github/forks/Tornad0007/CVE-2023-2825-Gitlab.svg)
+
+- [https://github.com/EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/EmmanuelCruzL/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/EmmanuelCruzL/CVE-2023-2825.svg)
 
 ## CVE-2023-2822
  A vulnerability was found in Ellucian Ethos Identity up to 5.10.5. It has been classified as problematic. Affected is an unknown function of the file /cas/logout. The manipulation of the argument url leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 5.10.6 is able to address this issue. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-229596.
@@ -1793,9 +1827,9 @@
 
 
 
-- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)
-
 - [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)
+
+- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)
 
 ## CVE-2023-1177
  Path Traversal: '\..\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.
