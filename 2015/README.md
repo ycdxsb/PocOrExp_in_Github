@@ -995,13 +995,6 @@
 
 - [https://github.com/jr64/CVE-2015-0311](https://github.com/jr64/CVE-2015-0311) :  ![starts](https://img.shields.io/github/stars/jr64/CVE-2015-0311.svg) ![forks](https://img.shields.io/github/forks/jr64/CVE-2015-0311.svg)
 
-## CVE-2015-0241
- The to_char function in PostgreSQL before 9.0.19, 9.1.x before 9.1.15, 9.2.x before 9.2.10, 9.3.x before 9.3.6, and 9.4.x before 9.4.1 allows remote authenticated users to cause a denial of service (crash) or possibly execute arbitrary code via a (1) large number of digits when processing a numeric formatting template, which triggers a buffer over-read, or (2) crafted timestamp formatting template, which triggers a buffer overflow.
-
-
-
-- [https://github.com/bidimensional/pgtest](https://github.com/bidimensional/pgtest) :  ![starts](https://img.shields.io/github/stars/bidimensional/pgtest.svg) ![forks](https://img.shields.io/github/forks/bidimensional/pgtest.svg)
-
 ## CVE-2015-0235
  Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka &quot;GHOST.&quot;
 
