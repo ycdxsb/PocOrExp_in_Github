@@ -184,9 +184,9 @@
 
 - [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
 
-- [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
-
 - [https://github.com/wizardy0ga/CVE_2012-2982](https://github.com/wizardy0ga/CVE_2012-2982) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/CVE_2012-2982.svg)
+
+- [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
 
 ## CVE-2012-2688
  Unspecified vulnerability in the _php_stream_scandir function in the stream implementation in PHP before 5.3.15 and 5.4.x before 5.4.5 has unknown impact and remote attack vectors, related to an &quot;overflow.&quot;
@@ -278,6 +278,13 @@
 
 
 - [https://github.com/bongbongco/CVE-2012-1675](https://github.com/bongbongco/CVE-2012-1675) :  ![starts](https://img.shields.io/github/stars/bongbongco/CVE-2012-1675.svg) ![forks](https://img.shields.io/github/forks/bongbongco/CVE-2012-1675.svg)
+
+## CVE-2012-1495
+ install/index.php in WebCalendar before 1.2.5 allows remote attackers to execute arbitrary code via the form_single_user_login parameter.
+
+
+
+- [https://github.com/axelbankole/CVE-2012-1495-Webcalendar-](https://github.com/axelbankole/CVE-2012-1495-Webcalendar-) :  ![starts](https://img.shields.io/github/stars/axelbankole/CVE-2012-1495-Webcalendar-.svg) ![forks](https://img.shields.io/github/forks/axelbankole/CVE-2012-1495-Webcalendar-.svg)
 
 ## CVE-2012-0507
  Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, and 5.0 Update 33 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Concurrency.  NOTE: the previous information was obtained from the February 2012 Oracle CPU. Oracle has not commented on claims from a downstream vendor and third party researchers that this issue occurs because the AtomicReferenceArray class implementation does not ensure that the array is of the Object[] type, which allows attackers to cause a denial of service (JVM crash) or bypass Java sandbox restrictions.  NOTE: this issue was originally mapped to CVE-2011-3571, but that identifier was already assigned to a different issue.
