@@ -330,13 +330,6 @@
 
 - [https://github.com/payatu/CVE-2015-6086](https://github.com/payatu/CVE-2015-6086) :  ![starts](https://img.shields.io/github/stars/payatu/CVE-2015-6086.svg) ![forks](https://img.shields.io/github/forks/payatu/CVE-2015-6086.svg)
 
-## CVE-2015-5995
- Mediabridge Medialink MWN-WAPR300N devices with firmware 5.07.50 and Tenda N3 Wireless N150 devices allow remote attackers to obtain administrative access via a certain admin substring in an HTTP Cookie header.
-
-
-
-- [https://github.com/shaheemirza/TendaSpill](https://github.com/shaheemirza/TendaSpill) :  ![starts](https://img.shields.io/github/stars/shaheemirza/TendaSpill.svg) ![forks](https://img.shields.io/github/forks/shaheemirza/TendaSpill.svg)
-
 ## CVE-2015-5932
  The kernel in Apple OS X before 10.11.1 allows local users to gain privileges by leveraging an unspecified &quot;type confusion&quot; during Mach task processing.
 
