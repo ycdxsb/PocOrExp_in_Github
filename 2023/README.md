@@ -1,5 +1,5 @@
 ## CVE-2023-34965
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SSPanel-Uim 2023.3 does not restrict access to the /link/ interface which can lead to a leak of user information.
 
 
 
@@ -11,6 +11,13 @@
 
 
 - [https://github.com/Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960) :  ![starts](https://img.shields.io/github/stars/Aituglo/CVE-2023-34960.svg) ![forks](https://img.shields.io/github/forks/Aituglo/CVE-2023-34960.svg)
+
+## CVE-2023-34537
+ A Reflected XSS was discovered in HotelDruid version 3.0.5, an attacker can issue malicious code/command on affected webpage's parameter to trick user on browser and/or exfiltrate data.
+
+
+
+- [https://github.com/leekenghwa/CVE-2023-34537---XSS-reflected--found-in-HotelDruid-3.0.5](https://github.com/leekenghwa/CVE-2023-34537---XSS-reflected--found-in-HotelDruid-3.0.5) :  ![starts](https://img.shields.io/github/stars/leekenghwa/CVE-2023-34537---XSS-reflected--found-in-HotelDruid-3.0.5.svg) ![forks](https://img.shields.io/github/forks/leekenghwa/CVE-2023-34537---XSS-reflected--found-in-HotelDruid-3.0.5.svg)
 
 ## CVE-2023-34362
  In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.4 (14.0.4), 2022.1.5 (14.1.5), and 2023.0.1 (15.0.1), a SQL injection vulnerability has been found in the MOVEit Transfer web application that could allow an unauthenticated attacker to gain access to MOVEit Transfer's database. Depending on the database engine being used (MySQL, Microsoft SQL Server, or Azure SQL), an attacker may be able to infer information about the structure and contents of the database, and execute SQL statements that alter or delete database elements. NOTE: this is exploited in the wild in May and June 2023; exploitation of unpatched systems can occur via HTTP or HTTPS. All versions (e.g., 2020.0 and 2019x) before the five explicitly mentioned versions are affected, including older unsupported versions.
@@ -49,6 +56,13 @@
 - [https://github.com/CKevens/CVE-2023-33829-POC](https://github.com/CKevens/CVE-2023-33829-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-33829-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-33829-POC.svg)
 
 - [https://github.com/n3gox/CVE-2023-33829](https://github.com/n3gox/CVE-2023-33829) :  ![starts](https://img.shields.io/github/stars/n3gox/CVE-2023-33829.svg) ![forks](https://img.shields.io/github/forks/n3gox/CVE-2023-33829.svg)
+
+## CVE-2023-33817
+ hoteldruid v3.0.5 was discovered to contain a SQL injection vulnerability.
+
+
+
+- [https://github.com/leekenghwa/CVE-2023-33817---SQL-Injection-found-in-HotelDruid-3.0.5](https://github.com/leekenghwa/CVE-2023-33817---SQL-Injection-found-in-HotelDruid-3.0.5) :  ![starts](https://img.shields.io/github/stars/leekenghwa/CVE-2023-33817---SQL-Injection-found-in-HotelDruid-3.0.5.svg) ![forks](https://img.shields.io/github/forks/leekenghwa/CVE-2023-33817---SQL-Injection-found-in-HotelDruid-3.0.5.svg)
 
 ## CVE-2023-33782
  D-Link DIR-842V2 v1.0.3 was discovered to contain a command injection vulnerability via the iperf3 diagnostics function.
@@ -337,7 +351,7 @@
 - [https://github.com/rootd4ddy/CVE-2023-31584](https://github.com/rootd4ddy/CVE-2023-31584) :  ![starts](https://img.shields.io/github/stars/rootd4ddy/CVE-2023-31584.svg) ![forks](https://img.shields.io/github/forks/rootd4ddy/CVE-2023-31584.svg)
 
 ## CVE-2023-31541
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A unrestricted file upload vulnerability was discovered in the &#8216;Browse and upload images&#8217; feature of the CKEditor v1.2.3 plugin for Redmine, which allows arbitrary files to be uploaded to the server.
 
 
 
@@ -583,9 +597,9 @@
 
 - [https://github.com/tucommenceapousser/CVE-2023-29489.py](https://github.com/tucommenceapousser/CVE-2023-29489.py) :  ![starts](https://img.shields.io/github/stars/tucommenceapousser/CVE-2023-29489.py.svg) ![forks](https://img.shields.io/github/forks/tucommenceapousser/CVE-2023-29489.py.svg)
 
-- [https://github.com/ipk1/CVE-2023-29489.py](https://github.com/ipk1/CVE-2023-29489.py) :  ![starts](https://img.shields.io/github/stars/ipk1/CVE-2023-29489.py.svg) ![forks](https://img.shields.io/github/forks/ipk1/CVE-2023-29489.py.svg)
-
 - [https://github.com/tucommenceapousser/CVE-2023-29489](https://github.com/tucommenceapousser/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/tucommenceapousser/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/tucommenceapousser/CVE-2023-29489.svg)
+
+- [https://github.com/ipk1/CVE-2023-29489.py](https://github.com/ipk1/CVE-2023-29489.py) :  ![starts](https://img.shields.io/github/stars/ipk1/CVE-2023-29489.py.svg) ![forks](https://img.shields.io/github/forks/ipk1/CVE-2023-29489.py.svg)
 
 - [https://github.com/learnerboy88/CVE-2023-29489](https://github.com/learnerboy88/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/learnerboy88/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/learnerboy88/CVE-2023-29489.svg)
 
@@ -738,7 +752,7 @@
 - [https://github.com/gobysec/CVE-2023-28343](https://github.com/gobysec/CVE-2023-28343) :  ![starts](https://img.shields.io/github/stars/gobysec/CVE-2023-28343.svg) ![forks](https://img.shields.io/github/forks/gobysec/CVE-2023-28343.svg)
 
 ## CVE-2023-28303
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Windows Snipping Tool Information Disclosure Vulnerability
 
 
 
@@ -775,6 +789,13 @@
 
 
 - [https://github.com/gbrsh/CVE-2023-28121](https://github.com/gbrsh/CVE-2023-28121) :  ![starts](https://img.shields.io/github/stars/gbrsh/CVE-2023-28121.svg) ![forks](https://img.shields.io/github/forks/gbrsh/CVE-2023-28121.svg)
+
+## CVE-2023-27997
+ A heap-based buffer overflow vulnerability [CWE-122] in FortiOS version 7.2.4 and below, version 7.0.11 and below, version 6.4.12 and below, version 6.0.16 and below and FortiProxy version 7.2.3 and below, version 7.0.9 and below, version 2.0.12 and below, version 1.2 all versions, version 1.1 all versions SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests.
+
+
+
+- [https://github.com/hheeyywweellccoommee/CVE-2023-27997-POC-FortiOS-SSL-VPN-buffer-overflow-vulnerability-ssijz](https://github.com/hheeyywweellccoommee/CVE-2023-27997-POC-FortiOS-SSL-VPN-buffer-overflow-vulnerability-ssijz) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2023-27997-POC-FortiOS-SSL-VPN-buffer-overflow-vulnerability-ssijz.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2023-27997-POC-FortiOS-SSL-VPN-buffer-overflow-vulnerability-ssijz.svg)
 
 ## CVE-2023-27842
  Insecure Permissions vulnerability found in Extplorer File manager eXtplorer v.2.1.15 allows a remote attacker to execute arbitrary code via the index.php compenent
@@ -867,6 +888,13 @@
 
 - [https://github.com/MaanVader/CVE-2023-27524-POC](https://github.com/MaanVader/CVE-2023-27524-POC) :  ![starts](https://img.shields.io/github/stars/MaanVader/CVE-2023-27524-POC.svg) ![forks](https://img.shields.io/github/forks/MaanVader/CVE-2023-27524-POC.svg)
 
+## CVE-2023-27363
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/webraybtl/CVE-2023-27363](https://github.com/webraybtl/CVE-2023-27363) :  ![starts](https://img.shields.io/github/stars/webraybtl/CVE-2023-27363.svg) ![forks](https://img.shields.io/github/forks/webraybtl/CVE-2023-27363.svg)
+
 ## CVE-2023-27350
  This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not required to exploit this vulnerability. The specific flaw exists within the SetupCompleted class. The issue results from improper access control. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-18987.
 
@@ -881,6 +909,8 @@
 - [https://github.com/MaanVader/CVE-2023-27350-POC](https://github.com/MaanVader/CVE-2023-27350-POC) :  ![starts](https://img.shields.io/github/stars/MaanVader/CVE-2023-27350-POC.svg) ![forks](https://img.shields.io/github/forks/MaanVader/CVE-2023-27350-POC.svg)
 
 - [https://github.com/Pari-Malam/CVE-2023-27350](https://github.com/Pari-Malam/CVE-2023-27350) :  ![starts](https://img.shields.io/github/stars/Pari-Malam/CVE-2023-27350.svg) ![forks](https://img.shields.io/github/forks/Pari-Malam/CVE-2023-27350.svg)
+
+- [https://github.com/Jenderal92/CVE-2023-27350](https://github.com/Jenderal92/CVE-2023-27350) :  ![starts](https://img.shields.io/github/stars/Jenderal92/CVE-2023-27350.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/CVE-2023-27350.svg)
 
 ## CVE-2023-27328
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -1222,9 +1252,9 @@
 
 - [https://github.com/adhikara13/CVE-2023-23752](https://github.com/adhikara13/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/adhikara13/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/adhikara13/CVE-2023-23752.svg)
 
-- [https://github.com/GhostToKnow/CVE-2023-23752](https://github.com/GhostToKnow/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/GhostToKnow/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/GhostToKnow/CVE-2023-23752.svg)
-
 - [https://github.com/ibaiw/joomla_CVE-2023-23752](https://github.com/ibaiw/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/ibaiw/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/ibaiw/joomla_CVE-2023-23752.svg)
+
+- [https://github.com/GhostToKnow/CVE-2023-23752](https://github.com/GhostToKnow/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/GhostToKnow/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/GhostToKnow/CVE-2023-23752.svg)
 
 - [https://github.com/0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xNahim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xNahim/CVE-2023-23752.svg)
 
@@ -1244,9 +1274,9 @@
 
 - [https://github.com/wibuheker/Joomla-CVE-2023-23752](https://github.com/wibuheker/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/wibuheker/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/wibuheker/Joomla-CVE-2023-23752.svg)
 
-- [https://github.com/H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-23752.svg)
-
 - [https://github.com/Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Jenderal92/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/Joomla-CVE-2023-23752.svg)
+
+- [https://github.com/H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-23752.svg)
 
 - [https://github.com/equationsoftworks/Radiance](https://github.com/equationsoftworks/Radiance) :  ![starts](https://img.shields.io/github/stars/equationsoftworks/Radiance.svg) ![forks](https://img.shields.io/github/forks/equationsoftworks/Radiance.svg)
 
@@ -1329,9 +1359,9 @@
 
 - [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)
 
-- [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)
-
 - [https://github.com/stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/stevesec/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/stevesec/CVE-2023-23397.svg)
+
+- [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)
 
 - [https://github.com/im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/im007/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/im007/CVE-2023-23397.svg)
 
@@ -1624,6 +1654,8 @@
 
 - [https://github.com/mikesxrs/CVE-2023-21716_YARA_Results](https://github.com/mikesxrs/CVE-2023-21716_YARA_Results) :  ![starts](https://img.shields.io/github/stars/mikesxrs/CVE-2023-21716_YARA_Results.svg) ![forks](https://img.shields.io/github/forks/mikesxrs/CVE-2023-21716_YARA_Results.svg)
 
+- [https://github.com/Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716) :  ![starts](https://img.shields.io/github/stars/Lord-of-the-IoT/CVE-2023-21716.svg) ![forks](https://img.shields.io/github/forks/Lord-of-the-IoT/CVE-2023-21716.svg)
+
 ## CVE-2023-21707
  Microsoft Exchange Server Remote Code Execution Vulnerability
 
@@ -1723,6 +1755,13 @@
 
 - [https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921) :  ![starts](https://img.shields.io/github/stars/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921.svg)
 
+## CVE-2023-20887
+ Aria Operations for Networks contains a command injection vulnerability. A malicious actor with network access to VMware Aria Operations for Networks may be able to perform a command injection attack resulting in remote code execution.
+
+
+
+- [https://github.com/sinsinology/CVE-2023-20887](https://github.com/sinsinology/CVE-2023-20887) :  ![starts](https://img.shields.io/github/stars/sinsinology/CVE-2023-20887.svg) ![forks](https://img.shields.io/github/forks/sinsinology/CVE-2023-20887.svg)
+
 ## CVE-2023-20860
  Spring Framework running version 6.0.0 - 6.0.6 or 5.3.0 - 5.3.25 using &quot;**&quot; as a pattern in Spring Security configuration with the mvcRequestMatcher creates a mismatch in pattern matching between Spring Security and Spring MVC, and the potential for a security bypass.
 
@@ -1755,6 +1794,8 @@
  The Abandoned Cart Lite for WooCommerce plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 5.14.2. This is due to insufficient encryption on the user being supplied during the abandoned cart link decode through the plugin. This allows unauthenticated attackers to log in as users who have abandoned the cart, which users are typically customers.
 
 
+
+- [https://github.com/Alucard0x1/CVE-2023-2986](https://github.com/Alucard0x1/CVE-2023-2986) :  ![starts](https://img.shields.io/github/stars/Alucard0x1/CVE-2023-2986.svg) ![forks](https://img.shields.io/github/forks/Alucard0x1/CVE-2023-2986.svg)
 
 - [https://github.com/Ayantaker/CVE-2023-2986](https://github.com/Ayantaker/CVE-2023-2986) :  ![starts](https://img.shields.io/github/stars/Ayantaker/CVE-2023-2986.svg) ![forks](https://img.shields.io/github/forks/Ayantaker/CVE-2023-2986.svg)
 
