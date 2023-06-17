@@ -488,7 +488,11 @@
 
 - [https://github.com/laginimaineb/cve-2014-4322](https://github.com/laginimaineb/cve-2014-4322) :  ![starts](https://img.shields.io/github/stars/laginimaineb/cve-2014-4322.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/cve-2014-4322.svg)
 
+- [https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege](https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege) :  ![starts](https://img.shields.io/github/stars/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege.svg) ![forks](https://img.shields.io/github/forks/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege.svg)
+
 - [https://github.com/koozxcv/CVE-2014-4322](https://github.com/koozxcv/CVE-2014-4322) :  ![starts](https://img.shields.io/github/stars/koozxcv/CVE-2014-4322.svg) ![forks](https://img.shields.io/github/forks/koozxcv/CVE-2014-4322.svg)
+
+- [https://github.com/askk/CVE-2014-4322_adaptation](https://github.com/askk/CVE-2014-4322_adaptation) :  ![starts](https://img.shields.io/github/stars/askk/CVE-2014-4322_adaptation.svg) ![forks](https://img.shields.io/github/forks/askk/CVE-2014-4322_adaptation.svg)
 
 ## CVE-2014-4321
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
@@ -959,11 +963,11 @@
 
 - [https://github.com/sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix) :  ![starts](https://img.shields.io/github/stars/sammyfung/openssl-heartbleed-fix.svg) ![forks](https://img.shields.io/github/forks/sammyfung/openssl-heartbleed-fix.svg)
 
-- [https://github.com/proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention) :  ![starts](https://img.shields.io/github/stars/proactiveRISK/heartbleed-extention.svg) ![forks](https://img.shields.io/github/forks/proactiveRISK/heartbleed-extention.svg)
-
 - [https://github.com/amerine/coronary](https://github.com/amerine/coronary) :  ![starts](https://img.shields.io/github/stars/amerine/coronary.svg) ![forks](https://img.shields.io/github/forks/amerine/coronary.svg)
 
 - [https://github.com/GardeniaWhite/fuzzing](https://github.com/GardeniaWhite/fuzzing) :  ![starts](https://img.shields.io/github/stars/GardeniaWhite/fuzzing.svg) ![forks](https://img.shields.io/github/forks/GardeniaWhite/fuzzing.svg)
+
+- [https://github.com/proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention) :  ![starts](https://img.shields.io/github/stars/proactiveRISK/heartbleed-extention.svg) ![forks](https://img.shields.io/github/forks/proactiveRISK/heartbleed-extention.svg)
 
 - [https://github.com/xlucas/heartbleed](https://github.com/xlucas/heartbleed) :  ![starts](https://img.shields.io/github/stars/xlucas/heartbleed.svg) ![forks](https://img.shields.io/github/forks/xlucas/heartbleed.svg)
 
@@ -1001,9 +1005,9 @@
 
 - [https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS) :  ![starts](https://img.shields.io/github/stars/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg) ![forks](https://img.shields.io/github/forks/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg)
 
-- [https://github.com/takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse) :  ![starts](https://img.shields.io/github/stars/takeshixx/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/takeshixx/ssl-heartbleed.nse.svg)
-
 - [https://github.com/indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-) :  ![starts](https://img.shields.io/github/stars/indiw0rm/-Heartbleed-.svg) ![forks](https://img.shields.io/github/forks/indiw0rm/-Heartbleed-.svg)
+
+- [https://github.com/takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse) :  ![starts](https://img.shields.io/github/stars/takeshixx/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/takeshixx/ssl-heartbleed.nse.svg)
 
 - [https://github.com/iSCInc/heartbleed](https://github.com/iSCInc/heartbleed) :  ![starts](https://img.shields.io/github/stars/iSCInc/heartbleed.svg) ![forks](https://img.shields.io/github/forks/iSCInc/heartbleed.svg)
 
