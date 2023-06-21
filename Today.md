@@ -1,60 +1,90 @@
-# Update 2023-06-20
-## CVE-2023-32315
- Openfire is an XMPP server licensed under the Open Source Apache License. Openfire's administrative console, a web-based application, was found to be vulnerable to a path traversal attack via the setup environment. This permitted an unauthenticated user to use the unauthenticated Openfire Setup Environment in an already configured Openfire environment to access restricted pages in the Openfire Admin Console reserved for administrative users. This vulnerability affects all versions of Openfire that have been released since April 2015, starting with version 3.10.0. The problem has been patched in Openfire release 4.7.5 and 4.6.8, and further improvements will be included in the yet-to-be released first version on the 4.8 branch (which is expected to be version 4.8.0). Users are advised to upgrade. If an Openfire upgrade isn&#8217;t available for a specific release, or isn&#8217;t quickly actionable, users may see the linked github advisory (GHSA-gw42-f939-fhvm) for mitigation advice.
+# Update 2023-06-21
+## CVE-2023-33476
+ ReadyMedia (MiniDLNA) versions from 1.1.15 up to 1.3.2 is vulnerable to Buffer Overflow. The vulnerability is caused by incorrect validation logic when handling HTTP requests using chunked transport encoding. This results in other code later using attacker-controlled chunk values that exceed the length of the allocated buffer, resulting in out-of-bounds read/write.
 
-- [https://github.com/miko550/CVE-2023-32315](https://github.com/miko550/CVE-2023-32315) :  ![starts](https://img.shields.io/github/stars/miko550/CVE-2023-32315.svg) ![forks](https://img.shields.io/github/forks/miko550/CVE-2023-32315.svg)
+- [https://github.com/mellow-hype/cve-2023-33476](https://github.com/mellow-hype/cve-2023-33476) :  ![starts](https://img.shields.io/github/stars/mellow-hype/cve-2023-33476.svg) ![forks](https://img.shields.io/github/forks/mellow-hype/cve-2023-33476.svg)
 
 
 ## CVE-2023-30212
  OURPHP &lt;= 7.2.0 is vulnerale to Cross Site Scripting (XSS) via /client/manage/ourphp_out.php.
 
-- [https://github.com/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability](https://github.com/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability) :  ![starts](https://img.shields.io/github/stars/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability.svg)
+- [https://github.com/arunsnap/CVE-2023-30212-POC](https://github.com/arunsnap/CVE-2023-30212-POC) :  ![starts](https://img.shields.io/github/stars/arunsnap/CVE-2023-30212-POC.svg) ![forks](https://img.shields.io/github/forks/arunsnap/CVE-2023-30212-POC.svg)
 
 
-## CVE-2023-29343
- SysInternals Sysmon for Windows Elevation of Privilege Vulnerability
+## CVE-2023-29325
+ Windows OLE Remote Code Execution Vulnerability
 
-- [https://github.com/Wh04m1001/CVE-2023-29343](https://github.com/Wh04m1001/CVE-2023-29343) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/CVE-2023-29343.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/CVE-2023-29343.svg)
-
-
-## CVE-2023-23192
- IS Decisions UserLock MFA 11.01 is vulnerable to authentication bypass using scheduled task.
-
-- [https://github.com/Penkyzduyi/CVE-2023-23192](https://github.com/Penkyzduyi/CVE-2023-23192) :  ![starts](https://img.shields.io/github/stars/Penkyzduyi/CVE-2023-23192.svg) ![forks](https://img.shields.io/github/forks/Penkyzduyi/CVE-2023-23192.svg)
+- [https://github.com/a-bazi/test2-CVE-2023-29325](https://github.com/a-bazi/test2-CVE-2023-29325) :  ![starts](https://img.shields.io/github/stars/a-bazi/test2-CVE-2023-29325.svg) ![forks](https://img.shields.io/github/forks/a-bazi/test2-CVE-2023-29325.svg)
 
 
-## CVE-2023-20178
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2023-27997
+ A heap-based buffer overflow vulnerability [CWE-122] in FortiOS version 7.2.4 and below, version 7.0.11 and below, version 6.4.12 and below, version 6.0.16 and below and FortiProxy version 7.2.3 and below, version 7.0.9 and below, version 2.0.12 and below, version 1.2 all versions, version 1.1 all versions SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests.
 
-- [https://github.com/Wh04m1001/CVE-2023-20178](https://github.com/Wh04m1001/CVE-2023-20178) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/CVE-2023-20178.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/CVE-2023-20178.svg)
-
-
-## CVE-2022-44183
- Tenda AC18 V15.03.05.19 is vulnerable to Buffer Overflow via function formSetWifiGuestBasic.
-
-- [https://github.com/flagqaz/CVE-2022-44183](https://github.com/flagqaz/CVE-2022-44183) :  ![starts](https://img.shields.io/github/stars/flagqaz/CVE-2022-44183.svg) ![forks](https://img.shields.io/github/forks/flagqaz/CVE-2022-44183.svg)
+- [https://github.com/BishopFox/CVE-2023-27997-check](https://github.com/BishopFox/CVE-2023-27997-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/CVE-2023-27997-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/CVE-2023-27997-check.svg)
 
 
-## CVE-2021-30357
- SSL Network Extender Client for Linux before build 800008302 reveals part of the contents of the configuration file supplied, which allows partially disclosing files to which the user did not have access.
+## CVE-2023-27372
+ SPIP before 4.2.1 allows Remote Code Execution via form values in the public area because serialization is mishandled. The fixed versions are 3.2.18, 4.0.10, 4.1.8, and 4.2.1.
 
-- [https://github.com/joaovarelas/CVE-2021-30357_CheckPoint_SNX_VPN_PoC](https://github.com/joaovarelas/CVE-2021-30357_CheckPoint_SNX_VPN_PoC) :  ![starts](https://img.shields.io/github/stars/joaovarelas/CVE-2021-30357_CheckPoint_SNX_VPN_PoC.svg) ![forks](https://img.shields.io/github/forks/joaovarelas/CVE-2021-30357_CheckPoint_SNX_VPN_PoC.svg)
-
-
-## CVE-2019-0193
- In Apache Solr, the DataImportHandler, an optional but popular module to pull in data from databases and other sources, has a feature in which the whole DIH configuration can come from a request's &quot;dataConfig&quot; parameter. The debug mode of the DIH admin screen uses this to allow convenient debugging / development of a DIH config. Since a DIH config can contain scripts, this parameter is a security risk. Starting with version 8.2.0 of Solr, use of this parameter requires setting the Java System property &quot;enable.dih.dataConfigParam&quot; to true.
-
-- [https://github.com/freeFV/ApacheSolrRCE](https://github.com/freeFV/ApacheSolrRCE) :  ![starts](https://img.shields.io/github/stars/freeFV/ApacheSolrRCE.svg) ![forks](https://img.shields.io/github/forks/freeFV/ApacheSolrRCE.svg)
+- [https://github.com/nuts7/CVE-2023-27372](https://github.com/nuts7/CVE-2023-27372) :  ![starts](https://img.shields.io/github/stars/nuts7/CVE-2023-27372.svg) ![forks](https://img.shields.io/github/forks/nuts7/CVE-2023-27372.svg)
 
 
-## CVE-2018-8495
- A remote code execution vulnerability exists when Windows Shell improperly handles URIs, aka &quot;Windows Shell Remote Code Execution Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Windows 10 Servers.
+## CVE-2023-22809
+ In Sudo before 1.9.12p2, the sudoedit (aka -e) feature mishandles extra arguments passed in the user-provided environment variables (SUDO_EDITOR, VISUAL, and EDITOR), allowing a local attacker to append arbitrary entries to the list of files to process. This can lead to privilege escalation. Affected versions are 1.8.0 through 1.9.12.p1. The problem exists because a user-specified editor may contain a &quot;--&quot; argument that defeats a protection mechanism, e.g., an EDITOR='vim -- /path/to/extra/file' value.
 
-- [https://github.com/whereisr0da/CVE-2018-8495-POC](https://github.com/whereisr0da/CVE-2018-8495-POC) :  ![starts](https://img.shields.io/github/stars/whereisr0da/CVE-2018-8495-POC.svg) ![forks](https://img.shields.io/github/forks/whereisr0da/CVE-2018-8495-POC.svg)
+- [https://github.com/Chan9Yan9/CVE-2023-22809](https://github.com/Chan9Yan9/CVE-2023-22809) :  ![starts](https://img.shields.io/github/stars/Chan9Yan9/CVE-2023-22809.svg) ![forks](https://img.shields.io/github/forks/Chan9Yan9/CVE-2023-22809.svg)
 
 
-## CVE-2017-12943
- D-Link DIR-600 Rev Bx devices with v2.x firmware allow remote attackers to read passwords via a model/__show_info.php?REQUIRE_FILE= absolute path traversal attack, as demonstrated by discovering the admin password.
+## CVE-2023-2833
+ The ReviewX plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 1.6.13 due to insufficient restriction on the 'rx_set_screen_options' function. This makes it possible for authenticated attackers, with minimal permissions such as a subscriber, to modify their user role by supplying the 'wp_screen_options[option]' and 'wp_screen_options[value]' parameters during a screen option update.
 
-- [https://github.com/d4rk30/CVE-2017-12943](https://github.com/d4rk30/CVE-2017-12943) :  ![starts](https://img.shields.io/github/stars/d4rk30/CVE-2017-12943.svg) ![forks](https://img.shields.io/github/forks/d4rk30/CVE-2017-12943.svg)
+- [https://github.com/Alucard0x1/CVE-2023-2833](https://github.com/Alucard0x1/CVE-2023-2833) :  ![starts](https://img.shields.io/github/stars/Alucard0x1/CVE-2023-2833.svg) ![forks](https://img.shields.io/github/forks/Alucard0x1/CVE-2023-2833.svg)
+
+
+## CVE-2023-2825
+ An issue has been discovered in GitLab CE/EE affecting only version 16.0.0. An unauthenticated malicious user can use a path traversal vulnerability to read arbitrary files on the server when an attachment exists in a public project nested within at least five groups.
+
+- [https://github.com/EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/EmmanuelCruzL/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/EmmanuelCruzL/CVE-2023-2825.svg)
+
+
+## CVE-2022-22963
+ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources.
+
+- [https://github.com/gunzf0x/CVE-2022-22963](https://github.com/gunzf0x/CVE-2022-22963) :  ![starts](https://img.shields.io/github/stars/gunzf0x/CVE-2022-22963.svg) ![forks](https://img.shields.io/github/forks/gunzf0x/CVE-2022-22963.svg)
+
+
+## CVE-2021-22911
+ A improper input sanitization vulnerability exists in Rocket.Chat server 3.11, 3.12 &amp; 3.13 that could lead to unauthenticated NoSQL injection, resulting potentially in RCE.
+
+- [https://github.com/overgrowncarrot1/CVE-2021-22911](https://github.com/overgrowncarrot1/CVE-2021-22911) :  ![starts](https://img.shields.io/github/stars/overgrowncarrot1/CVE-2021-22911.svg) ![forks](https://img.shields.io/github/forks/overgrowncarrot1/CVE-2021-22911.svg)
+
+
+## CVE-2021-4045
+ TP-Link Tapo C200 IP camera, on its 1.1.15 firmware version and below, is affected by an unauthenticated RCE vulnerability, present in the uhttpd binary running by default as root. The exploitation of this vulnerability allows an attacker to take full control of the camera.
+
+- [https://github.com/onebytex/CVE-2021-4045](https://github.com/onebytex/CVE-2021-4045) :  ![starts](https://img.shields.io/github/stars/onebytex/CVE-2021-4045.svg) ![forks](https://img.shields.io/github/forks/onebytex/CVE-2021-4045.svg)
+
+
+## CVE-2019-1476
+ An elevation of privilege vulnerability exists when Windows AppX Deployment Service (AppXSVC) improperly handles hard links, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1483.
+
+- [https://github.com/sgabe/CVE-2019-1476](https://github.com/sgabe/CVE-2019-1476) :  ![starts](https://img.shields.io/github/stars/sgabe/CVE-2019-1476.svg) ![forks](https://img.shields.io/github/forks/sgabe/CVE-2019-1476.svg)
+
+
+## CVE-2019-1040
+ A tampering vulnerability exists in Microsoft Windows when a man-in-the-middle attacker is able to successfully bypass the NTLM MIC (Message Integrity Check) protection, aka 'Windows NTLM Tampering Vulnerability'.
+
+- [https://github.com/fox-it/cve-2019-1040-scanner](https://github.com/fox-it/cve-2019-1040-scanner) :  ![starts](https://img.shields.io/github/stars/fox-it/cve-2019-1040-scanner.svg) ![forks](https://img.shields.io/github/forks/fox-it/cve-2019-1040-scanner.svg)
+
+
+## CVE-2018-6574
+ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10rc2 allow &quot;go get&quot; remote command execution during source code build, by leveraging the gcc or clang plugin feature, because -fplugin= and -plugin= arguments were not blocked.
+
+- [https://github.com/Zeeshan12340/CVE-2018-6574](https://github.com/Zeeshan12340/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/Zeeshan12340/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/Zeeshan12340/CVE-2018-6574.svg)
+
+
+## CVE-2016-1287
+ Buffer overflow in the IKEv1 and IKEv2 implementations in Cisco ASA Software before 8.4(7.30), 8.7 before 8.7(1.18), 9.0 before 9.0(4.38), 9.1 before 9.1(7), 9.2 before 9.2(4.5), 9.3 before 9.3(3.7), 9.4 before 9.4(2.4), and 9.5 before 9.5(2.2) on ASA 5500 devices, ASA 5500-X devices, ASA Services Module for Cisco Catalyst 6500 and Cisco 7600 devices, ASA 1000V devices, Adaptive Security Virtual Appliance (aka ASAv), Firepower 9300 ASA Security Module, and ISA 3000 devices allows remote attackers to execute arbitrary code or cause a denial of service (device reload) via crafted UDP packets, aka Bug IDs CSCux29978 and CSCux42019.
+
+- [https://github.com/jgajek/killasa](https://github.com/jgajek/killasa) :  ![starts](https://img.shields.io/github/stars/jgajek/killasa.svg) ![forks](https://img.shields.io/github/forks/jgajek/killasa.svg)
 
