@@ -347,13 +347,6 @@
 
 - [https://github.com/0xICF/PanelShock](https://github.com/0xICF/PanelShock) :  ![starts](https://img.shields.io/github/stars/0xICF/PanelShock.svg) ![forks](https://img.shields.io/github/forks/0xICF/PanelShock.svg)
 
-## CVE-2016-8025
- SQL injection vulnerability in Intel Security VirusScan Enterprise Linux (VSEL) 2.0.3 (and earlier) allows remote authenticated users to obtain product information via a crafted HTTP request parameter.
-
-
-
-- [https://github.com/opsxcq/exploit-CVE-2016-8016-25](https://github.com/opsxcq/exploit-CVE-2016-8016-25) :  ![starts](https://img.shields.io/github/stars/opsxcq/exploit-CVE-2016-8016-25.svg) ![forks](https://img.shields.io/github/forks/opsxcq/exploit-CVE-2016-8016-25.svg)
-
 ## CVE-2016-8024
  Improper neutralization of CRLF sequences in HTTP headers vulnerability in Intel Security VirusScan Enterprise Linux (VSEL) 2.0.3 (and earlier) allows remote unauthenticated attacker to obtain sensitive information via the server HTTP response spoofing.
 
