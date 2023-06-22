@@ -1,90 +1,95 @@
-# Update 2023-06-21
-## CVE-2023-33476
- ReadyMedia (MiniDLNA) versions from 1.1.15 up to 1.3.2 is vulnerable to Buffer Overflow. The vulnerability is caused by incorrect validation logic when handling HTTP requests using chunked transport encoding. This results in other code later using attacker-controlled chunk values that exceed the length of the allocated buffer, resulting in out-of-bounds read/write.
+# Update 2023-06-22
+## CVE-2023-34584
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/mellow-hype/cve-2023-33476](https://github.com/mellow-hype/cve-2023-33476) :  ![starts](https://img.shields.io/github/stars/mellow-hype/cve-2023-33476.svg) ![forks](https://img.shields.io/github/forks/mellow-hype/cve-2023-33476.svg)
+- [https://github.com/fu2x2000/-CVE-2023-34584](https://github.com/fu2x2000/-CVE-2023-34584) :  ![starts](https://img.shields.io/github/stars/fu2x2000/-CVE-2023-34584.svg) ![forks](https://img.shields.io/github/forks/fu2x2000/-CVE-2023-34584.svg)
+
+
+## CVE-2023-33405
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/hacip/CVE-2023-33405](https://github.com/hacip/CVE-2023-33405) :  ![starts](https://img.shields.io/github/stars/hacip/CVE-2023-33405.svg) ![forks](https://img.shields.io/github/forks/hacip/CVE-2023-33405.svg)
+
+
+## CVE-2023-33404
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/hacip/CVE-2023-33404](https://github.com/hacip/CVE-2023-33404) :  ![starts](https://img.shields.io/github/stars/hacip/CVE-2023-33404.svg) ![forks](https://img.shields.io/github/forks/hacip/CVE-2023-33404.svg)
 
 
 ## CVE-2023-30212
  OURPHP &lt;= 7.2.0 is vulnerale to Cross Site Scripting (XSS) via /client/manage/ourphp_out.php.
 
-- [https://github.com/arunsnap/CVE-2023-30212-POC](https://github.com/arunsnap/CVE-2023-30212-POC) :  ![starts](https://img.shields.io/github/stars/arunsnap/CVE-2023-30212-POC.svg) ![forks](https://img.shields.io/github/forks/arunsnap/CVE-2023-30212-POC.svg)
+- [https://github.com/AAsh035/CVE-2023-30212](https://github.com/AAsh035/CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/AAsh035/CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/AAsh035/CVE-2023-30212.svg)
+- [https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212](https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/VisDev23/Vulnerable-Docker-CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/VisDev23/Vulnerable-Docker-CVE-2023-30212.svg)
+- [https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-](https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-) :  ![starts](https://img.shields.io/github/stars/VisDev23/Vulnerable-Docker--CVE-2023-30212-.svg) ![forks](https://img.shields.io/github/forks/VisDev23/Vulnerable-Docker--CVE-2023-30212-.svg)
+- [https://github.com/hheeyywweellccoommee/CVE-2023-30212-Vulnerable-Lab-xjghb](https://github.com/hheeyywweellccoommee/CVE-2023-30212-Vulnerable-Lab-xjghb) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2023-30212-Vulnerable-Lab-xjghb.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2023-30212-Vulnerable-Lab-xjghb.svg)
+- [https://github.com/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-](https://github.com/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-) :  ![starts](https://img.shields.io/github/stars/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-.svg) ![forks](https://img.shields.io/github/forks/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-.svg)
 
 
-## CVE-2023-29325
- Windows OLE Remote Code Execution Vulnerability
+## CVE-2023-1454
+ A vulnerability classified as critical has been found in jeecg-boot 3.5.0. This affects an unknown part of the file jmreport/qurestSql. The manipulation of the argument apiSelectId leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-223299.
 
-- [https://github.com/a-bazi/test2-CVE-2023-29325](https://github.com/a-bazi/test2-CVE-2023-29325) :  ![starts](https://img.shields.io/github/stars/a-bazi/test2-CVE-2023-29325.svg) ![forks](https://img.shields.io/github/forks/a-bazi/test2-CVE-2023-29325.svg)
-
-
-## CVE-2023-27997
- A heap-based buffer overflow vulnerability [CWE-122] in FortiOS version 7.2.4 and below, version 7.0.11 and below, version 6.4.12 and below, version 6.0.16 and below and FortiProxy version 7.2.3 and below, version 7.0.9 and below, version 2.0.12 and below, version 1.2 all versions, version 1.1 all versions SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests.
-
-- [https://github.com/BishopFox/CVE-2023-27997-check](https://github.com/BishopFox/CVE-2023-27997-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/CVE-2023-27997-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/CVE-2023-27997-check.svg)
+- [https://github.com/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln](https://github.com/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln) :  ![starts](https://img.shields.io/github/stars/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln.svg) ![forks](https://img.shields.io/github/forks/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln.svg)
 
 
-## CVE-2023-27372
- SPIP before 4.2.1 allows Remote Code Execution via form values in the public area because serialization is mishandled. The fixed versions are 3.2.18, 4.0.10, 4.1.8, and 4.2.1.
+## CVE-2022-22965
+ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.
 
-- [https://github.com/nuts7/CVE-2023-27372](https://github.com/nuts7/CVE-2023-27372) :  ![starts](https://img.shields.io/github/stars/nuts7/CVE-2023-27372.svg) ![forks](https://img.shields.io/github/forks/nuts7/CVE-2023-27372.svg)
-
-
-## CVE-2023-22809
- In Sudo before 1.9.12p2, the sudoedit (aka -e) feature mishandles extra arguments passed in the user-provided environment variables (SUDO_EDITOR, VISUAL, and EDITOR), allowing a local attacker to append arbitrary entries to the list of files to process. This can lead to privilege escalation. Affected versions are 1.8.0 through 1.9.12.p1. The problem exists because a user-specified editor may contain a &quot;--&quot; argument that defeats a protection mechanism, e.g., an EDITOR='vim -- /path/to/extra/file' value.
-
-- [https://github.com/Chan9Yan9/CVE-2023-22809](https://github.com/Chan9Yan9/CVE-2023-22809) :  ![starts](https://img.shields.io/github/stars/Chan9Yan9/CVE-2023-22809.svg) ![forks](https://img.shields.io/github/forks/Chan9Yan9/CVE-2023-22809.svg)
+- [https://github.com/jakabakos/spring4shell](https://github.com/jakabakos/spring4shell) :  ![starts](https://img.shields.io/github/stars/jakabakos/spring4shell.svg) ![forks](https://img.shields.io/github/forks/jakabakos/spring4shell.svg)
 
 
-## CVE-2023-2833
- The ReviewX plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 1.6.13 due to insufficient restriction on the 'rx_set_screen_options' function. This makes it possible for authenticated attackers, with minimal permissions such as a subscriber, to modify their user role by supplying the 'wp_screen_options[option]' and 'wp_screen_options[value]' parameters during a screen option update.
+## CVE-2022-4450
+ The function PEM_read_bio_ex() reads a PEM file from a BIO and parses and decodes the &quot;name&quot; (e.g. &quot;CERTIFICATE&quot;), any header data and the payload data. If the function succeeds then the &quot;name_out&quot;, &quot;header&quot; and &quot;data&quot; arguments are populated with pointers to buffers containing the relevant decoded data. The caller is responsible for freeing those buffers. It is possible to construct a PEM file that results in 0 bytes of payload data. In this case PEM_read_bio_ex() will return a failure code but will populate the header argument with a pointer to a buffer that has already been freed. If the caller also frees this buffer then a double free will occur. This will most likely lead to a crash. This could be exploited by an attacker who has the ability to supply malicious PEM files for parsing to achieve a denial of service attack. The functions PEM_read_bio() and PEM_read() are simple wrappers around PEM_read_bio_ex() and therefore these functions are also directly affected. These functions are also called indirectly by a number of other OpenSSL functions including PEM_X509_INFO_read_bio_ex() and SSL_CTX_use_serverinfo_file() which are also vulnerable. Some OpenSSL internal uses of these functions are not vulnerable because the caller does not free the header argument if PEM_read_bio_ex() returns a failure code. These locations include the PEM_read_bio_TYPE() functions as well as the decoders introduced in OpenSSL 3.0. The OpenSSL asn1parse command line application is also impacted by this issue.
 
-- [https://github.com/Alucard0x1/CVE-2023-2833](https://github.com/Alucard0x1/CVE-2023-2833) :  ![starts](https://img.shields.io/github/stars/Alucard0x1/CVE-2023-2833.svg) ![forks](https://img.shields.io/github/forks/Alucard0x1/CVE-2023-2833.svg)
-
-
-## CVE-2023-2825
- An issue has been discovered in GitLab CE/EE affecting only version 16.0.0. An unauthenticated malicious user can use a path traversal vulnerability to read arbitrary files on the server when an attachment exists in a public project nested within at least five groups.
-
-- [https://github.com/EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/EmmanuelCruzL/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/EmmanuelCruzL/CVE-2023-2825.svg)
+- [https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2022-4450](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2022-4450) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2022-4450.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2022-4450.svg)
 
 
-## CVE-2022-22963
- In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources.
+## CVE-2022-0847
+ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
 
-- [https://github.com/gunzf0x/CVE-2022-22963](https://github.com/gunzf0x/CVE-2022-22963) :  ![starts](https://img.shields.io/github/stars/gunzf0x/CVE-2022-22963.svg) ![forks](https://img.shields.io/github/forks/gunzf0x/CVE-2022-22963.svg)
-
-
-## CVE-2021-22911
- A improper input sanitization vulnerability exists in Rocket.Chat server 3.11, 3.12 &amp; 3.13 that could lead to unauthenticated NoSQL injection, resulting potentially in RCE.
-
-- [https://github.com/overgrowncarrot1/CVE-2021-22911](https://github.com/overgrowncarrot1/CVE-2021-22911) :  ![starts](https://img.shields.io/github/stars/overgrowncarrot1/CVE-2021-22911.svg) ![forks](https://img.shields.io/github/forks/overgrowncarrot1/CVE-2021-22911.svg)
+- [https://github.com/0xeremus/dirty-pipe-poc](https://github.com/0xeremus/dirty-pipe-poc) :  ![starts](https://img.shields.io/github/stars/0xeremus/dirty-pipe-poc.svg) ![forks](https://img.shields.io/github/forks/0xeremus/dirty-pipe-poc.svg)
 
 
-## CVE-2021-4045
- TP-Link Tapo C200 IP camera, on its 1.1.15 firmware version and below, is affected by an unauthenticated RCE vulnerability, present in the uhttpd binary running by default as root. The exploitation of this vulnerability allows an attacker to take full control of the camera.
+## CVE-2020-17382
+ The MSI AmbientLink MsIo64 driver 1.0.0.8 has a Buffer Overflow (0x80102040, 0x80102044, 0x80102050,and 0x80102054).
 
-- [https://github.com/onebytex/CVE-2021-4045](https://github.com/onebytex/CVE-2021-4045) :  ![starts](https://img.shields.io/github/stars/onebytex/CVE-2021-4045.svg) ![forks](https://img.shields.io/github/forks/onebytex/CVE-2021-4045.svg)
-
-
-## CVE-2019-1476
- An elevation of privilege vulnerability exists when Windows AppX Deployment Service (AppXSVC) improperly handles hard links, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1483.
-
-- [https://github.com/sgabe/CVE-2019-1476](https://github.com/sgabe/CVE-2019-1476) :  ![starts](https://img.shields.io/github/stars/sgabe/CVE-2019-1476.svg) ![forks](https://img.shields.io/github/forks/sgabe/CVE-2019-1476.svg)
+- [https://github.com/Exploitables/CVE-2020-17382](https://github.com/Exploitables/CVE-2020-17382) :  ![starts](https://img.shields.io/github/stars/Exploitables/CVE-2020-17382.svg) ![forks](https://img.shields.io/github/forks/Exploitables/CVE-2020-17382.svg)
 
 
-## CVE-2019-1040
- A tampering vulnerability exists in Microsoft Windows when a man-in-the-middle attacker is able to successfully bypass the NTLM MIC (Message Integrity Check) protection, aka 'Windows NTLM Tampering Vulnerability'.
+## CVE-2020-12702
+ Weak encryption in the Quick Pairing mode in the eWeLink mobile application (Android application V4.9.2 and earlier, iOS application V4.9.1 and earlier) allows physically proximate attackers to eavesdrop on Wi-Fi credentials and other sensitive information by monitoring the Wi-Fi spectrum during the pairing process.
 
-- [https://github.com/fox-it/cve-2019-1040-scanner](https://github.com/fox-it/cve-2019-1040-scanner) :  ![starts](https://img.shields.io/github/stars/fox-it/cve-2019-1040-scanner.svg) ![forks](https://img.shields.io/github/forks/fox-it/cve-2019-1040-scanner.svg)
-
-
-## CVE-2018-6574
- Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10rc2 allow &quot;go get&quot; remote command execution during source code build, by leveraging the gcc or clang plugin feature, because -fplugin= and -plugin= arguments were not blocked.
-
-- [https://github.com/Zeeshan12340/CVE-2018-6574](https://github.com/Zeeshan12340/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/Zeeshan12340/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/Zeeshan12340/CVE-2018-6574.svg)
+- [https://github.com/salgio/eWeLink-QR-Code](https://github.com/salgio/eWeLink-QR-Code) :  ![starts](https://img.shields.io/github/stars/salgio/eWeLink-QR-Code.svg) ![forks](https://img.shields.io/github/forks/salgio/eWeLink-QR-Code.svg)
 
 
-## CVE-2016-1287
- Buffer overflow in the IKEv1 and IKEv2 implementations in Cisco ASA Software before 8.4(7.30), 8.7 before 8.7(1.18), 9.0 before 9.0(4.38), 9.1 before 9.1(7), 9.2 before 9.2(4.5), 9.3 before 9.3(3.7), 9.4 before 9.4(2.4), and 9.5 before 9.5(2.2) on ASA 5500 devices, ASA 5500-X devices, ASA Services Module for Cisco Catalyst 6500 and Cisco 7600 devices, ASA 1000V devices, Adaptive Security Virtual Appliance (aka ASAv), Firepower 9300 ASA Security Module, and ISA 3000 devices allows remote attackers to execute arbitrary code or cause a denial of service (device reload) via crafted UDP packets, aka Bug IDs CSCux29978 and CSCux42019.
+## CVE-2020-1938
+ When using the Apache JServ Protocol (AJP), care must be taken when trusting incoming connections to Apache Tomcat. Tomcat treats AJP connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited in ways that may be surprising. In Apache Tomcat 9.0.0.M1 to 9.0.0.30, 8.5.0 to 8.5.50 and 7.0.0 to 7.0.99, Tomcat shipped with an AJP Connector enabled by default that listened on all configured IP addresses. It was expected (and recommended in the security guide) that this Connector would be disabled if not required. This vulnerability report identified a mechanism that allowed: - returning arbitrary files from anywhere in the web application - processing any file in the web application as a JSP Further, if the web application allowed file upload and stored those files within the web application (or the attacker was able to control the content of the web application by some other means) then this, along with the ability to process a file as a JSP, made remote code execution possible. It is important to note that mitigation is only required if an AJP port is accessible to untrusted users. Users wishing to take a defence-in-depth approach and block the vector that permits returning arbitrary files and execution as JSP may upgrade to Apache Tomcat 9.0.31, 8.5.51 or 7.0.100 or later. A number of changes were made to the default AJP Connector configuration in 9.0.31 to harden the default configuration. It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 or later will need to make small changes to their configurations.
 
-- [https://github.com/jgajek/killasa](https://github.com/jgajek/killasa) :  ![starts](https://img.shields.io/github/stars/jgajek/killasa.svg) ![forks](https://img.shields.io/github/forks/jgajek/killasa.svg)
+- [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
+- [https://github.com/hypn0s/AJPy](https://github.com/hypn0s/AJPy) :  ![starts](https://img.shields.io/github/stars/hypn0s/AJPy.svg) ![forks](https://img.shields.io/github/forks/hypn0s/AJPy.svg)
+- [https://github.com/00theway/Ghostcat-CNVD-2020-10487](https://github.com/00theway/Ghostcat-CNVD-2020-10487) :  ![starts](https://img.shields.io/github/stars/00theway/Ghostcat-CNVD-2020-10487.svg) ![forks](https://img.shields.io/github/forks/00theway/Ghostcat-CNVD-2020-10487.svg)
+- [https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC](https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC) :  ![starts](https://img.shields.io/github/stars/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC.svg) ![forks](https://img.shields.io/github/forks/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC.svg)
+- [https://github.com/sgdream/CVE-2020-1938](https://github.com/sgdream/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/sgdream/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/sgdream/CVE-2020-1938.svg)
+- [https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938](https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/Zaziki1337/Ghostcat-CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/Zaziki1337/Ghostcat-CVE-2020-1938.svg)
+- [https://github.com/acodervic/CVE-2020-1938-MSF-MODULE](https://github.com/acodervic/CVE-2020-1938-MSF-MODULE) :  ![starts](https://img.shields.io/github/stars/acodervic/CVE-2020-1938-MSF-MODULE.svg) ![forks](https://img.shields.io/github/forks/acodervic/CVE-2020-1938-MSF-MODULE.svg)
+- [https://github.com/MateoSec/ghostcatch](https://github.com/MateoSec/ghostcatch) :  ![starts](https://img.shields.io/github/stars/MateoSec/ghostcatch.svg) ![forks](https://img.shields.io/github/forks/MateoSec/ghostcatch.svg)
+
+
+## CVE-2020-0917
+ An elevation of privilege vulnerability exists when Windows Hyper-V on a host server fails to properly handle objects in memory, aka 'Windows Hyper-V Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0918.
+
+- [https://github.com/L0ch/CVE-2020-0917_Exploit](https://github.com/L0ch/CVE-2020-0917_Exploit) :  ![starts](https://img.shields.io/github/stars/L0ch/CVE-2020-0917_Exploit.svg) ![forks](https://img.shields.io/github/forks/L0ch/CVE-2020-0917_Exploit.svg)
+
+
+## CVE-2018-3252
+ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+
+- [https://github.com/go-spider/CVE-2018-3252](https://github.com/go-spider/CVE-2018-3252) :  ![starts](https://img.shields.io/github/stars/go-spider/CVE-2018-3252.svg) ![forks](https://img.shields.io/github/forks/go-spider/CVE-2018-3252.svg)
+
+
+## CVE-2014-6271
+ GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
+
+- [https://github.com/Darkrai-404/CVE-2014-6271-Shellshock-Vulnerability](https://github.com/Darkrai-404/CVE-2014-6271-Shellshock-Vulnerability) :  ![starts](https://img.shields.io/github/stars/Darkrai-404/CVE-2014-6271-Shellshock-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/Darkrai-404/CVE-2014-6271-Shellshock-Vulnerability.svg)
 
