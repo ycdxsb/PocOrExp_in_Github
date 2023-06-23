@@ -7,7 +7,7 @@
 
 - [https://github.com/k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687) :  ![starts](https://img.shields.io/github/stars/k4miyo/CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/k4miyo/CVE-2004-2687.svg)
 
-- [https://github.com/c1ph3rm4st3r/distccd_rce_CVE-2004-2687](https://github.com/c1ph3rm4st3r/distccd_rce_CVE-2004-2687) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/distccd_rce_CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/distccd_rce_CVE-2004-2687.svg)
+- [https://github.com/crypticdante/distccd_rce_CVE-2004-2687](https://github.com/crypticdante/distccd_rce_CVE-2004-2687) :  ![starts](https://img.shields.io/github/stars/crypticdante/distccd_rce_CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/crypticdante/distccd_rce_CVE-2004-2687.svg)
 
 - [https://github.com/ss0wl/distcc_v1_cve_2004_2687](https://github.com/ss0wl/distcc_v1_cve_2004_2687) :  ![starts](https://img.shields.io/github/stars/ss0wl/distcc_v1_cve_2004_2687.svg) ![forks](https://img.shields.io/github/forks/ss0wl/distcc_v1_cve_2004_2687.svg)
 
