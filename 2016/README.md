@@ -774,9 +774,9 @@
 
 - [https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg)
 
-- [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
-
 - [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
+
+- [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
 
 - [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
 
@@ -814,9 +814,9 @@
 
 - [https://github.com/istenrot/centos-dirty-cow-ansible](https://github.com/istenrot/centos-dirty-cow-ansible) :  ![starts](https://img.shields.io/github/stars/istenrot/centos-dirty-cow-ansible.svg) ![forks](https://img.shields.io/github/forks/istenrot/centos-dirty-cow-ansible.svg)
 
-- [https://github.com/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195](https://github.com/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195) :  ![starts](https://img.shields.io/github/stars/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195.svg) ![forks](https://img.shields.io/github/forks/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195.svg)
-
 - [https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg)
+
+- [https://github.com/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195](https://github.com/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195) :  ![starts](https://img.shields.io/github/stars/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195.svg) ![forks](https://img.shields.io/github/forks/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195.svg)
 
 ## CVE-2016-5063
  The RSCD agent in BMC Server Automation before 8.6 SP1 Patch 2 and 8.7 before Patch 3 on Windows might allow remote attackers to bypass authorization checks and make an RPC call via unspecified vectors.
@@ -1414,7 +1414,7 @@
 
 
 
-- [https://github.com/c1ph3rm4st3r/CVE-2016-1531](https://github.com/c1ph3rm4st3r/CVE-2016-1531) :  ![starts](https://img.shields.io/github/stars/c1ph3rm4st3r/CVE-2016-1531.svg) ![forks](https://img.shields.io/github/forks/c1ph3rm4st3r/CVE-2016-1531.svg)
+- [https://github.com/crypticdante/CVE-2016-1531](https://github.com/crypticdante/CVE-2016-1531) :  ![starts](https://img.shields.io/github/stars/crypticdante/CVE-2016-1531.svg) ![forks](https://img.shields.io/github/forks/crypticdante/CVE-2016-1531.svg)
 
 ## CVE-2016-1494
  The verify function in the RSA package for Python (Python-RSA) before 3.3 allows attackers to spoof signatures with a small public exponent via crafted signature padding, aka a BERserk attack.
