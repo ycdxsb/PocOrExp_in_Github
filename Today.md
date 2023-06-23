@@ -1,95 +1,104 @@
-# Update 2023-06-22
-## CVE-2023-34584
+# Update 2023-06-23
+## CVE-2023-30347
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/fu2x2000/-CVE-2023-34584](https://github.com/fu2x2000/-CVE-2023-34584) :  ![starts](https://img.shields.io/github/stars/fu2x2000/-CVE-2023-34584.svg) ![forks](https://img.shields.io/github/forks/fu2x2000/-CVE-2023-34584.svg)
+- [https://github.com/huzefa2212/CVE-2023-30347](https://github.com/huzefa2212/CVE-2023-30347) :  ![starts](https://img.shields.io/github/stars/huzefa2212/CVE-2023-30347.svg) ![forks](https://img.shields.io/github/forks/huzefa2212/CVE-2023-30347.svg)
 
 
-## CVE-2023-33405
+## CVE-2023-2033
+ Type confusion in V8 in Google Chrome prior to 112.0.5615.121 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+- [https://github.com/gretchenfrage/CVE-2023-2033-analysis](https://github.com/gretchenfrage/CVE-2023-2033-analysis) :  ![starts](https://img.shields.io/github/stars/gretchenfrage/CVE-2023-2033-analysis.svg) ![forks](https://img.shields.io/github/forks/gretchenfrage/CVE-2023-2033-analysis.svg)
+
+
+## CVE-2022-42475
+ A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 through 7.2.2, 7.0.0 through 7.0.8, 6.4.0 through 6.4.10, 6.2.0 through 6.2.11, 6.0.15 and earlier and FortiProxy SSL-VPN 7.2.0 through 7.2.1, 7.0.7 and earlier may allow a remote unauthenticated attacker to execute arbitrary code or commands via specifically crafted requests.
+
+- [https://github.com/0xhaggis/CVE-2022-42475](https://github.com/0xhaggis/CVE-2022-42475) :  ![starts](https://img.shields.io/github/stars/0xhaggis/CVE-2022-42475.svg) ![forks](https://img.shields.io/github/forks/0xhaggis/CVE-2022-42475.svg)
+
+
+## CVE-2022-2588
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/hacip/CVE-2023-33405](https://github.com/hacip/CVE-2023-33405) :  ![starts](https://img.shields.io/github/stars/hacip/CVE-2023-33405.svg) ![forks](https://img.shields.io/github/forks/hacip/CVE-2023-33405.svg)
+- [https://github.com/konoha279/2022-LPE-UAF](https://github.com/konoha279/2022-LPE-UAF) :  ![starts](https://img.shields.io/github/stars/konoha279/2022-LPE-UAF.svg) ![forks](https://img.shields.io/github/forks/konoha279/2022-LPE-UAF.svg)
 
 
-## CVE-2023-33404
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2021-46704
+ In GenieACS 1.2.x before 1.2.8, the UI interface API is vulnerable to unauthenticated OS command injection via the ping host argument (lib/ui/api.ts and lib/ping.ts). The vulnerability arises from insufficient input validation combined with a missing authorization check.
 
-- [https://github.com/hacip/CVE-2023-33404](https://github.com/hacip/CVE-2023-33404) :  ![starts](https://img.shields.io/github/stars/hacip/CVE-2023-33404.svg) ![forks](https://img.shields.io/github/forks/hacip/CVE-2023-33404.svg)
-
-
-## CVE-2023-30212
- OURPHP &lt;= 7.2.0 is vulnerale to Cross Site Scripting (XSS) via /client/manage/ourphp_out.php.
-
-- [https://github.com/AAsh035/CVE-2023-30212](https://github.com/AAsh035/CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/AAsh035/CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/AAsh035/CVE-2023-30212.svg)
-- [https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212](https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/VisDev23/Vulnerable-Docker-CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/VisDev23/Vulnerable-Docker-CVE-2023-30212.svg)
-- [https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-](https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-) :  ![starts](https://img.shields.io/github/stars/VisDev23/Vulnerable-Docker--CVE-2023-30212-.svg) ![forks](https://img.shields.io/github/forks/VisDev23/Vulnerable-Docker--CVE-2023-30212-.svg)
-- [https://github.com/hheeyywweellccoommee/CVE-2023-30212-Vulnerable-Lab-xjghb](https://github.com/hheeyywweellccoommee/CVE-2023-30212-Vulnerable-Lab-xjghb) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2023-30212-Vulnerable-Lab-xjghb.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2023-30212-Vulnerable-Lab-xjghb.svg)
-- [https://github.com/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-](https://github.com/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-) :  ![starts](https://img.shields.io/github/stars/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-.svg) ![forks](https://img.shields.io/github/forks/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-.svg)
+- [https://github.com/Erenlancaster/CVE-2021-46704](https://github.com/Erenlancaster/CVE-2021-46704) :  ![starts](https://img.shields.io/github/stars/Erenlancaster/CVE-2021-46704.svg) ![forks](https://img.shields.io/github/forks/Erenlancaster/CVE-2021-46704.svg)
+- [https://github.com/MithatGuner/CVE-2021-46704-POC](https://github.com/MithatGuner/CVE-2021-46704-POC) :  ![starts](https://img.shields.io/github/stars/MithatGuner/CVE-2021-46704-POC.svg) ![forks](https://img.shields.io/github/forks/MithatGuner/CVE-2021-46704-POC.svg)
 
 
-## CVE-2023-1454
- A vulnerability classified as critical has been found in jeecg-boot 3.5.0. This affects an unknown part of the file jmreport/qurestSql. The manipulation of the argument apiSelectId leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-223299.
+## CVE-2021-45468
+ Imperva Web Application Firewall (WAF) before 2021-12-23 allows remote unauthenticated attackers to use &quot;Content-Encoding: gzip&quot; to evade WAF security controls and send malicious HTTP POST requests to web servers behind the WAF.
 
-- [https://github.com/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln](https://github.com/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln) :  ![starts](https://img.shields.io/github/stars/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln.svg) ![forks](https://img.shields.io/github/forks/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln.svg)
-
-
-## CVE-2022-22965
- A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.
-
-- [https://github.com/jakabakos/spring4shell](https://github.com/jakabakos/spring4shell) :  ![starts](https://img.shields.io/github/stars/jakabakos/spring4shell.svg) ![forks](https://img.shields.io/github/forks/jakabakos/spring4shell.svg)
+- [https://github.com/0xhaggis/Imperva_gzip_bypass](https://github.com/0xhaggis/Imperva_gzip_bypass) :  ![starts](https://img.shields.io/github/stars/0xhaggis/Imperva_gzip_bypass.svg) ![forks](https://img.shields.io/github/forks/0xhaggis/Imperva_gzip_bypass.svg)
 
 
-## CVE-2022-4450
- The function PEM_read_bio_ex() reads a PEM file from a BIO and parses and decodes the &quot;name&quot; (e.g. &quot;CERTIFICATE&quot;), any header data and the payload data. If the function succeeds then the &quot;name_out&quot;, &quot;header&quot; and &quot;data&quot; arguments are populated with pointers to buffers containing the relevant decoded data. The caller is responsible for freeing those buffers. It is possible to construct a PEM file that results in 0 bytes of payload data. In this case PEM_read_bio_ex() will return a failure code but will populate the header argument with a pointer to a buffer that has already been freed. If the caller also frees this buffer then a double free will occur. This will most likely lead to a crash. This could be exploited by an attacker who has the ability to supply malicious PEM files for parsing to achieve a denial of service attack. The functions PEM_read_bio() and PEM_read() are simple wrappers around PEM_read_bio_ex() and therefore these functions are also directly affected. These functions are also called indirectly by a number of other OpenSSL functions including PEM_X509_INFO_read_bio_ex() and SSL_CTX_use_serverinfo_file() which are also vulnerable. Some OpenSSL internal uses of these functions are not vulnerable because the caller does not free the header argument if PEM_read_bio_ex() returns a failure code. These locations include the PEM_read_bio_TYPE() functions as well as the decoders introduced in OpenSSL 3.0. The OpenSSL asn1parse command line application is also impacted by this issue.
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2022-4450](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2022-4450) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2022-4450.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2022-4450.svg)
-
-
-## CVE-2022-0847
- A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
-
-- [https://github.com/0xeremus/dirty-pipe-poc](https://github.com/0xeremus/dirty-pipe-poc) :  ![starts](https://img.shields.io/github/stars/0xeremus/dirty-pipe-poc.svg) ![forks](https://img.shields.io/github/forks/0xeremus/dirty-pipe-poc.svg)
+- [https://github.com/LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/LayarKacaSiber/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/LayarKacaSiber/CVE-2021-41773.svg)
 
 
-## CVE-2020-17382
- The MSI AmbientLink MsIo64 driver 1.0.0.8 has a Buffer Overflow (0x80102040, 0x80102044, 0x80102050,and 0x80102054).
+## CVE-2021-41277
+ Metabase is an open source data analytics platform. In affected versions a security issue has been discovered with the custom GeoJSON map (`admin-&gt;settings-&gt;maps-&gt;custom maps-&gt;add a map`) support and potential local file inclusion (including environment variables). URLs were not validated prior to being loaded. This issue is fixed in a new maintenance release (0.40.5 and 1.40.5), and any subsequent release after that. If you&#8217;re unable to upgrade immediately, you can mitigate this by including rules in your reverse proxy or load balancer or WAF to provide a validation filter before the application.
 
-- [https://github.com/Exploitables/CVE-2020-17382](https://github.com/Exploitables/CVE-2020-17382) :  ![starts](https://img.shields.io/github/stars/Exploitables/CVE-2020-17382.svg) ![forks](https://img.shields.io/github/forks/Exploitables/CVE-2020-17382.svg)
-
-
-## CVE-2020-12702
- Weak encryption in the Quick Pairing mode in the eWeLink mobile application (Android application V4.9.2 and earlier, iOS application V4.9.1 and earlier) allows physically proximate attackers to eavesdrop on Wi-Fi credentials and other sensitive information by monitoring the Wi-Fi spectrum during the pairing process.
-
-- [https://github.com/salgio/eWeLink-QR-Code](https://github.com/salgio/eWeLink-QR-Code) :  ![starts](https://img.shields.io/github/stars/salgio/eWeLink-QR-Code.svg) ![forks](https://img.shields.io/github/forks/salgio/eWeLink-QR-Code.svg)
+- [https://github.com/RubXkuB/PoC-Metabase-CVE-2021-41277](https://github.com/RubXkuB/PoC-Metabase-CVE-2021-41277) :  ![starts](https://img.shields.io/github/stars/RubXkuB/PoC-Metabase-CVE-2021-41277.svg) ![forks](https://img.shields.io/github/forks/RubXkuB/PoC-Metabase-CVE-2021-41277.svg)
 
 
-## CVE-2020-1938
- When using the Apache JServ Protocol (AJP), care must be taken when trusting incoming connections to Apache Tomcat. Tomcat treats AJP connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited in ways that may be surprising. In Apache Tomcat 9.0.0.M1 to 9.0.0.30, 8.5.0 to 8.5.50 and 7.0.0 to 7.0.99, Tomcat shipped with an AJP Connector enabled by default that listened on all configured IP addresses. It was expected (and recommended in the security guide) that this Connector would be disabled if not required. This vulnerability report identified a mechanism that allowed: - returning arbitrary files from anywhere in the web application - processing any file in the web application as a JSP Further, if the web application allowed file upload and stored those files within the web application (or the attacker was able to control the content of the web application by some other means) then this, along with the ability to process a file as a JSP, made remote code execution possible. It is important to note that mitigation is only required if an AJP port is accessible to untrusted users. Users wishing to take a defence-in-depth approach and block the vector that permits returning arbitrary files and execution as JSP may upgrade to Apache Tomcat 9.0.31, 8.5.51 or 7.0.100 or later. A number of changes were made to the default AJP Connector configuration in 9.0.31 to harden the default configuration. It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 or later will need to make small changes to their configurations.
+## CVE-2021-34730
+ A vulnerability in the Universal Plug-and-Play (UPnP) service of Cisco Small Business RV110W, RV130, RV130W, and RV215W Routers could allow an unauthenticated, remote attacker to execute arbitrary code or cause an affected device to restart unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to improper validation of incoming UPnP traffic. An attacker could exploit this vulnerability by sending a crafted UPnP request to an affected device. A successful exploit could allow the attacker to execute arbitrary code as the root user on the underlying operating system or cause the device to reload, resulting in a DoS condition. Cisco has not released software updates that address this vulnerability.
 
-- [https://github.com/zhzyker/exphub](https://github.com/zhzyker/exphub) :  ![starts](https://img.shields.io/github/stars/zhzyker/exphub.svg) ![forks](https://img.shields.io/github/forks/zhzyker/exphub.svg)
-- [https://github.com/hypn0s/AJPy](https://github.com/hypn0s/AJPy) :  ![starts](https://img.shields.io/github/stars/hypn0s/AJPy.svg) ![forks](https://img.shields.io/github/forks/hypn0s/AJPy.svg)
-- [https://github.com/00theway/Ghostcat-CNVD-2020-10487](https://github.com/00theway/Ghostcat-CNVD-2020-10487) :  ![starts](https://img.shields.io/github/stars/00theway/Ghostcat-CNVD-2020-10487.svg) ![forks](https://img.shields.io/github/forks/00theway/Ghostcat-CNVD-2020-10487.svg)
-- [https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC](https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC) :  ![starts](https://img.shields.io/github/stars/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC.svg) ![forks](https://img.shields.io/github/forks/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC.svg)
-- [https://github.com/sgdream/CVE-2020-1938](https://github.com/sgdream/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/sgdream/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/sgdream/CVE-2020-1938.svg)
-- [https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938](https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/Zaziki1337/Ghostcat-CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/Zaziki1337/Ghostcat-CVE-2020-1938.svg)
-- [https://github.com/acodervic/CVE-2020-1938-MSF-MODULE](https://github.com/acodervic/CVE-2020-1938-MSF-MODULE) :  ![starts](https://img.shields.io/github/stars/acodervic/CVE-2020-1938-MSF-MODULE.svg) ![forks](https://img.shields.io/github/forks/acodervic/CVE-2020-1938-MSF-MODULE.svg)
-- [https://github.com/MateoSec/ghostcatch](https://github.com/MateoSec/ghostcatch) :  ![starts](https://img.shields.io/github/stars/MateoSec/ghostcatch.svg) ![forks](https://img.shields.io/github/forks/MateoSec/ghostcatch.svg)
+- [https://github.com/badmonkey7/CVE-2021-34730](https://github.com/badmonkey7/CVE-2021-34730) :  ![starts](https://img.shields.io/github/stars/badmonkey7/CVE-2021-34730.svg) ![forks](https://img.shields.io/github/forks/badmonkey7/CVE-2021-34730.svg)
 
 
-## CVE-2020-0917
- An elevation of privilege vulnerability exists when Windows Hyper-V on a host server fails to properly handle objects in memory, aka 'Windows Hyper-V Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0918.
+## CVE-2021-34473
+ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-31196, CVE-2021-31206.
 
-- [https://github.com/L0ch/CVE-2020-0917_Exploit](https://github.com/L0ch/CVE-2020-0917_Exploit) :  ![starts](https://img.shields.io/github/stars/L0ch/CVE-2020-0917_Exploit.svg) ![forks](https://img.shields.io/github/forks/L0ch/CVE-2020-0917_Exploit.svg)
-
-
-## CVE-2018-3252
- Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
-
-- [https://github.com/go-spider/CVE-2018-3252](https://github.com/go-spider/CVE-2018-3252) :  ![starts](https://img.shields.io/github/stars/go-spider/CVE-2018-3252.svg) ![forks](https://img.shields.io/github/forks/go-spider/CVE-2018-3252.svg)
+- [https://github.com/gobysec/Goby](https://github.com/gobysec/Goby) :  ![starts](https://img.shields.io/github/stars/gobysec/Goby.svg) ![forks](https://img.shields.io/github/forks/gobysec/Goby.svg)
+- [https://github.com/RaouzRouik/CVE-2021-34473-scanner](https://github.com/RaouzRouik/CVE-2021-34473-scanner) :  ![starts](https://img.shields.io/github/stars/RaouzRouik/CVE-2021-34473-scanner.svg) ![forks](https://img.shields.io/github/forks/RaouzRouik/CVE-2021-34473-scanner.svg)
 
 
-## CVE-2014-6271
- GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
+## CVE-2021-22911
+ A improper input sanitization vulnerability exists in Rocket.Chat server 3.11, 3.12 &amp; 3.13 that could lead to unauthenticated NoSQL injection, resulting potentially in RCE.
 
-- [https://github.com/Darkrai-404/CVE-2014-6271-Shellshock-Vulnerability](https://github.com/Darkrai-404/CVE-2014-6271-Shellshock-Vulnerability) :  ![starts](https://img.shields.io/github/stars/Darkrai-404/CVE-2014-6271-Shellshock-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/Darkrai-404/CVE-2014-6271-Shellshock-Vulnerability.svg)
+- [https://github.com/ChrisPritchard/CVE-2021-22911-rust](https://github.com/ChrisPritchard/CVE-2021-22911-rust) :  ![starts](https://img.shields.io/github/stars/ChrisPritchard/CVE-2021-22911-rust.svg) ![forks](https://img.shields.io/github/forks/ChrisPritchard/CVE-2021-22911-rust.svg)
+
+
+## CVE-2021-3064
+ A memory corruption vulnerability exists in Palo Alto Networks GlobalProtect portal and gateway interfaces that enables an unauthenticated network-based attacker to disrupt system processes and potentially execute arbitrary code with root privileges. The attacker must have network access to the GlobalProtect interface to exploit this issue. This issue impacts PAN-OS 8.1 versions earlier than PAN-OS 8.1.17. Prisma Access customers are not impacted by this issue.
+
+- [https://github.com/0xhaggis/CVE-2021-3064](https://github.com/0xhaggis/CVE-2021-3064) :  ![starts](https://img.shields.io/github/stars/0xhaggis/CVE-2021-3064.svg) ![forks](https://img.shields.io/github/forks/0xhaggis/CVE-2021-3064.svg)
+
+
+## CVE-2021-3036
+ An information exposure through log file vulnerability exists in Palo Alto Networks PAN-OS software where secrets in PAN-OS XML API requests are logged in cleartext to the web server logs when the API is used incorrectly. This vulnerability applies only to PAN-OS appliances that are configured to use the PAN-OS XML API and exists only when a client includes a duplicate API parameter in API requests. Logged information includes the cleartext username, password, and API key of the administrator making the PAN-OS XML API request.
+
+- [https://github.com/0xhaggis/CVE-2021-3064](https://github.com/0xhaggis/CVE-2021-3064) :  ![starts](https://img.shields.io/github/stars/0xhaggis/CVE-2021-3064.svg) ![forks](https://img.shields.io/github/forks/0xhaggis/CVE-2021-3064.svg)
+
+
+## CVE-2019-17662
+ ThinVNC 1.0b1 is vulnerable to arbitrary file read, which leads to a compromise of the VNC server. The vulnerability exists even when authentication is turned on during the deployment of the VNC server. The password for authentication is stored in cleartext in a file that can be read via a ../../ThinVnc.ini directory traversal attack vector.
+
+- [https://github.com/medarov411/vnc-lab-cve-2019-17662](https://github.com/medarov411/vnc-lab-cve-2019-17662) :  ![starts](https://img.shields.io/github/stars/medarov411/vnc-lab-cve-2019-17662.svg) ![forks](https://img.shields.io/github/forks/medarov411/vnc-lab-cve-2019-17662.svg)
+
+
+## CVE-2019-7238
+ Sonatype Nexus Repository Manager before 3.15.0 has Incorrect Access Control.
+
+- [https://github.com/jas502n/CVE-2019-7238](https://github.com/jas502n/CVE-2019-7238) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-7238.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-7238.svg)
+
+
+## CVE-2018-11776
+ Apache Struts versions 2.3 to 2.3.34 and 2.5 to 2.5.16 suffer from possible Remote Code Execution when alwaysSelectFullNamespace is true (either by user or a plugin like Convention Plugin) and then: results are used with no namespace and in same time, its upper package have no or wildcard namespace and similar to results, same possibility when using url tag which doesn't have value and action set and in same time, its upper package have no or wildcard namespace.
+
+- [https://github.com/tsong0ku/CVE-2018-11776-FIS](https://github.com/tsong0ku/CVE-2018-11776-FIS) :  ![starts](https://img.shields.io/github/stars/tsong0ku/CVE-2018-11776-FIS.svg) ![forks](https://img.shields.io/github/forks/tsong0ku/CVE-2018-11776-FIS.svg)
+
+
+## CVE-2016-8025
+ SQL injection vulnerability in Intel Security VirusScan Enterprise Linux (VSEL) 2.0.3 (and earlier) allows remote authenticated users to obtain product information via a crafted HTTP request parameter.
+
+- [https://github.com/opsxcq/exploit-CVE-2016-8016-25](https://github.com/opsxcq/exploit-CVE-2016-8016-25) :  ![starts](https://img.shields.io/github/stars/opsxcq/exploit-CVE-2016-8016-25.svg) ![forks](https://img.shields.io/github/forks/opsxcq/exploit-CVE-2016-8016-25.svg)
 
