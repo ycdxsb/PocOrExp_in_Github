@@ -229,6 +229,8 @@
 
 - [https://github.com/0xkasra/CVE-2015-6967](https://github.com/0xkasra/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2015-6967.svg)
 
+- [https://github.com/FredBrave/CVE-2015-6967](https://github.com/FredBrave/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/FredBrave/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/FredBrave/CVE-2015-6967.svg)
+
 - [https://github.com/hadrian3689/nibbleblog_4.0.3](https://github.com/hadrian3689/nibbleblog_4.0.3) :  ![starts](https://img.shields.io/github/stars/hadrian3689/nibbleblog_4.0.3.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/nibbleblog_4.0.3.svg)
 
 ## CVE-2015-6835
