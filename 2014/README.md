@@ -309,11 +309,11 @@
 
 - [https://github.com/352926/shellshock_crawler](https://github.com/352926/shellshock_crawler) :  ![starts](https://img.shields.io/github/stars/352926/shellshock_crawler.svg) ![forks](https://img.shields.io/github/forks/352926/shellshock_crawler.svg)
 
-- [https://github.com/cved-sources/cve-2014-6271](https://github.com/cved-sources/cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2014-6271.svg)
-
 - [https://github.com/wenyu1999/bash-shellshock](https://github.com/wenyu1999/bash-shellshock) :  ![starts](https://img.shields.io/github/stars/wenyu1999/bash-shellshock.svg) ![forks](https://img.shields.io/github/forks/wenyu1999/bash-shellshock.svg)
 
 - [https://github.com/hadrian3689/shellshock](https://github.com/hadrian3689/shellshock) :  ![starts](https://img.shields.io/github/stars/hadrian3689/shellshock.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/shellshock.svg)
+
+- [https://github.com/cved-sources/cve-2014-6271](https://github.com/cved-sources/cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2014-6271.svg)
 
 - [https://github.com/villadora/CVE-2014-6271](https://github.com/villadora/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/villadora/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/villadora/CVE-2014-6271.svg)
 
@@ -394,6 +394,13 @@
 
 
 - [https://github.com/warmilk/http-Dos-Attack-Detection](https://github.com/warmilk/http-Dos-Attack-Detection) :  ![starts](https://img.shields.io/github/stars/warmilk/http-Dos-Attack-Detection.svg) ![forks](https://img.shields.io/github/forks/warmilk/http-Dos-Attack-Detection.svg)
+
+## CVE-2014-5301
+ Directory traversal vulnerability in ServiceDesk Plus MSP v5 to v9.0 v9030; AssetExplorer v4 to v6.1; SupportCenter v5 to v7.9; IT360 v8 to v10.4.
+
+
+
+- [https://github.com/AndyCyberSec/OSCP](https://github.com/AndyCyberSec/OSCP) :  ![starts](https://img.shields.io/github/stars/AndyCyberSec/OSCP.svg) ![forks](https://img.shields.io/github/forks/AndyCyberSec/OSCP.svg)
 
 ## CVE-2014-5284
  host-deny.sh in OSSEC before 2.8.1 writes to temporary files with predictable filenames without verifying ownership, which allows local users to modify access restrictions in hosts.deny and gain root privileges by creating the temporary files before automatic IP blocking is performed.
@@ -958,19 +965,19 @@
 
 - [https://github.com/sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix) :  ![starts](https://img.shields.io/github/stars/sammyfung/openssl-heartbleed-fix.svg) ![forks](https://img.shields.io/github/forks/sammyfung/openssl-heartbleed-fix.svg)
 
+- [https://github.com/proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention) :  ![starts](https://img.shields.io/github/stars/proactiveRISK/heartbleed-extention.svg) ![forks](https://img.shields.io/github/forks/proactiveRISK/heartbleed-extention.svg)
+
 - [https://github.com/amerine/coronary](https://github.com/amerine/coronary) :  ![starts](https://img.shields.io/github/stars/amerine/coronary.svg) ![forks](https://img.shields.io/github/forks/amerine/coronary.svg)
 
 - [https://github.com/GardeniaWhite/fuzzing](https://github.com/GardeniaWhite/fuzzing) :  ![starts](https://img.shields.io/github/stars/GardeniaWhite/fuzzing.svg) ![forks](https://img.shields.io/github/forks/GardeniaWhite/fuzzing.svg)
-
-- [https://github.com/proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention) :  ![starts](https://img.shields.io/github/stars/proactiveRISK/heartbleed-extention.svg) ![forks](https://img.shields.io/github/forks/proactiveRISK/heartbleed-extention.svg)
 
 - [https://github.com/xlucas/heartbleed](https://github.com/xlucas/heartbleed) :  ![starts](https://img.shields.io/github/stars/xlucas/heartbleed.svg) ![forks](https://img.shields.io/github/forks/xlucas/heartbleed.svg)
 
 - [https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker](https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker) :  ![starts](https://img.shields.io/github/stars/waqasjamal-zz/HeartBleed-Vulnerability-Checker.svg) ![forks](https://img.shields.io/github/forks/waqasjamal-zz/HeartBleed-Vulnerability-Checker.svg)
 
-- [https://github.com/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC](https://github.com/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC) :  ![starts](https://img.shields.io/github/stars/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC.svg) ![forks](https://img.shields.io/github/forks/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC.svg)
-
 - [https://github.com/cheese-hub/heartbleed](https://github.com/cheese-hub/heartbleed) :  ![starts](https://img.shields.io/github/stars/cheese-hub/heartbleed.svg) ![forks](https://img.shields.io/github/forks/cheese-hub/heartbleed.svg)
+
+- [https://github.com/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC](https://github.com/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC) :  ![starts](https://img.shields.io/github/stars/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC.svg) ![forks](https://img.shields.io/github/forks/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC.svg)
 
 - [https://github.com/cved-sources/cve-2014-0160](https://github.com/cved-sources/cve-2014-0160) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2014-0160.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2014-0160.svg)
 
@@ -994,15 +1001,15 @@
 
 - [https://github.com/iwaffles/heartbleed-test.crx](https://github.com/iwaffles/heartbleed-test.crx) :  ![starts](https://img.shields.io/github/stars/iwaffles/heartbleed-test.crx.svg) ![forks](https://img.shields.io/github/forks/iwaffles/heartbleed-test.crx.svg)
 
-- [https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed](https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed) :  ![starts](https://img.shields.io/github/stars/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg)
-
 - [https://github.com/froyo75/Heartbleed_Dockerfile_with_Nginx](https://github.com/froyo75/Heartbleed_Dockerfile_with_Nginx) :  ![starts](https://img.shields.io/github/stars/froyo75/Heartbleed_Dockerfile_with_Nginx.svg) ![forks](https://img.shields.io/github/forks/froyo75/Heartbleed_Dockerfile_with_Nginx.svg)
+
+- [https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed](https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed) :  ![starts](https://img.shields.io/github/stars/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed.svg)
 
 - [https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS) :  ![starts](https://img.shields.io/github/stars/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg) ![forks](https://img.shields.io/github/forks/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg)
 
-- [https://github.com/indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-) :  ![starts](https://img.shields.io/github/stars/indiw0rm/-Heartbleed-.svg) ![forks](https://img.shields.io/github/forks/indiw0rm/-Heartbleed-.svg)
-
 - [https://github.com/takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse) :  ![starts](https://img.shields.io/github/stars/takeshixx/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/takeshixx/ssl-heartbleed.nse.svg)
+
+- [https://github.com/indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-) :  ![starts](https://img.shields.io/github/stars/indiw0rm/-Heartbleed-.svg) ![forks](https://img.shields.io/github/forks/indiw0rm/-Heartbleed-.svg)
 
 - [https://github.com/iSCInc/heartbleed](https://github.com/iSCInc/heartbleed) :  ![starts](https://img.shields.io/github/stars/iSCInc/heartbleed.svg) ![forks](https://img.shields.io/github/forks/iSCInc/heartbleed.svg)
 
