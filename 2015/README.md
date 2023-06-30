@@ -3,7 +3,11 @@
 
 
 
-- [https://github.com/andrenasx/CVE-2015-10034-Test](https://github.com/andrenasx/CVE-2015-10034-Test) :  ![starts](https://img.shields.io/github/stars/andrenasx/CVE-2015-10034-Test.svg) ![forks](https://img.shields.io/github/forks/andrenasx/CVE-2015-10034-Test.svg)
+- [https://github.com/andrenasx/CVE-2015-10034](https://github.com/andrenasx/CVE-2015-10034) :  ![starts](https://img.shields.io/github/stars/andrenasx/CVE-2015-10034.svg) ![forks](https://img.shields.io/github/forks/andrenasx/CVE-2015-10034.svg)
+
+- [https://github.com/hheeyywweellccoommee/CVE-2015-10034-posua](https://github.com/hheeyywweellccoommee/CVE-2015-10034-posua) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2015-10034-posua.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2015-10034-posua.svg)
+
+- [https://github.com/hheeyywweellccoommee/CVE-2015-10034-Test-lazmv](https://github.com/hheeyywweellccoommee/CVE-2015-10034-Test-lazmv) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2015-10034-Test-lazmv.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2015-10034-Test-lazmv.svg)
 
 ## CVE-2015-9251
  jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed.
