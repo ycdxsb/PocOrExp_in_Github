@@ -13,7 +13,7 @@
 - [https://github.com/leonardobg/CVE-2023-36146](https://github.com/leonardobg/CVE-2023-36146) :  ![starts](https://img.shields.io/github/stars/leonardobg/CVE-2023-36146.svg) ![forks](https://img.shields.io/github/forks/leonardobg/CVE-2023-36146.svg)
 
 ## CVE-2023-36144
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An authentication bypass in Intelbras Switch SG 2404 MR in firmware 1.00.54 allows an unauthenticated attacker to download the backup file of the device, exposing critical information about the device configuration.
 
 
 
@@ -82,8 +82,10 @@
 
 - [https://github.com/rootd4ddy/CVE-2023-34843](https://github.com/rootd4ddy/CVE-2023-34843) :  ![starts](https://img.shields.io/github/stars/rootd4ddy/CVE-2023-34843.svg) ![forks](https://img.shields.io/github/forks/rootd4ddy/CVE-2023-34843.svg)
 
+- [https://github.com/Imahian/CVE-2023-34843](https://github.com/Imahian/CVE-2023-34843) :  ![starts](https://img.shields.io/github/stars/Imahian/CVE-2023-34843.svg) ![forks](https://img.shields.io/github/forks/Imahian/CVE-2023-34843.svg)
+
 ## CVE-2023-34840
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ angular-ui-notification v0.1.0, v0.2.0, and v0.3.6 was discovered to contain a cross-site scripting (XSS) vulnerability.
 
 
 
@@ -154,6 +156,8 @@
 
 - [https://github.com/maddsec/CVE-2023-34599](https://github.com/maddsec/CVE-2023-34599) :  ![starts](https://img.shields.io/github/stars/maddsec/CVE-2023-34599.svg) ![forks](https://img.shields.io/github/forks/maddsec/CVE-2023-34599.svg)
 
+- [https://github.com/Imahian/CVE-2023-34599](https://github.com/Imahian/CVE-2023-34599) :  ![starts](https://img.shields.io/github/stars/Imahian/CVE-2023-34599.svg) ![forks](https://img.shields.io/github/forks/Imahian/CVE-2023-34599.svg)
+
 ## CVE-2023-34598
  Gibbon v25.0.0 is vulnerable to a Local File Inclusion (LFI) where it's possible to include the content of several files present in the installation folder in the server's response.
 
@@ -162,6 +166,8 @@
 - [https://github.com/maddsec/CVE-2023-34598](https://github.com/maddsec/CVE-2023-34598) :  ![starts](https://img.shields.io/github/stars/maddsec/CVE-2023-34598.svg) ![forks](https://img.shields.io/github/forks/maddsec/CVE-2023-34598.svg)
 
 - [https://github.com/Szlein/CVE-2023-34598](https://github.com/Szlein/CVE-2023-34598) :  ![starts](https://img.shields.io/github/stars/Szlein/CVE-2023-34598.svg) ![forks](https://img.shields.io/github/forks/Szlein/CVE-2023-34598.svg)
+
+- [https://github.com/Imahian/CVE-2023-34598](https://github.com/Imahian/CVE-2023-34598) :  ![starts](https://img.shields.io/github/stars/Imahian/CVE-2023-34598.svg) ![forks](https://img.shields.io/github/forks/Imahian/CVE-2023-34598.svg)
 
 ## CVE-2023-34584
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -720,21 +726,21 @@
 
 - [https://github.com/arunsnap/CVE-2023-30212-POC](https://github.com/arunsnap/CVE-2023-30212-POC) :  ![starts](https://img.shields.io/github/stars/arunsnap/CVE-2023-30212-POC.svg) ![forks](https://img.shields.io/github/forks/arunsnap/CVE-2023-30212-POC.svg)
 
-- [https://github.com/AAsh035/CVE-2023-30212](https://github.com/AAsh035/CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/AAsh035/CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/AAsh035/CVE-2023-30212.svg)
-
 - [https://github.com/libas7994/CVE-2023-30212](https://github.com/libas7994/CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/libas7994/CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/libas7994/CVE-2023-30212.svg)
 
 - [https://github.com/kuttappu123/CVE-2023-30212-LAB](https://github.com/kuttappu123/CVE-2023-30212-LAB) :  ![starts](https://img.shields.io/github/stars/kuttappu123/CVE-2023-30212-LAB.svg) ![forks](https://img.shields.io/github/forks/kuttappu123/CVE-2023-30212-LAB.svg)
 
 - [https://github.com/mallutrojan/CVE-2023-30212-Lab](https://github.com/mallutrojan/CVE-2023-30212-Lab) :  ![starts](https://img.shields.io/github/stars/mallutrojan/CVE-2023-30212-Lab.svg) ![forks](https://img.shields.io/github/forks/mallutrojan/CVE-2023-30212-Lab.svg)
 
+- [https://github.com/AAsh035/CVE-2023-30212](https://github.com/AAsh035/CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/AAsh035/CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/AAsh035/CVE-2023-30212.svg)
+
 - [https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability](https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability) :  ![starts](https://img.shields.io/github/stars/libas7994/Exploit-the-CVE-2023-30212-vulnerability.svg) ![forks](https://img.shields.io/github/forks/libas7994/Exploit-the-CVE-2023-30212-vulnerability.svg)
+
+- [https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability](https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability) :  ![starts](https://img.shields.io/github/stars/libasv/Exploite-CVE-2023-30212-vulnerability.svg) ![forks](https://img.shields.io/github/forks/libasv/Exploite-CVE-2023-30212-vulnerability.svg)
 
 - [https://github.com/kai-iszz/CVE-2023-30212](https://github.com/kai-iszz/CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/kai-iszz/CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/kai-iszz/CVE-2023-30212.svg)
 
 - [https://github.com/Anandhu990/CVE-2023-30212-iab](https://github.com/Anandhu990/CVE-2023-30212-iab) :  ![starts](https://img.shields.io/github/stars/Anandhu990/CVE-2023-30212-iab.svg) ![forks](https://img.shields.io/github/forks/Anandhu990/CVE-2023-30212-iab.svg)
-
-- [https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability](https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability) :  ![starts](https://img.shields.io/github/stars/libasv/Exploite-CVE-2023-30212-vulnerability.svg) ![forks](https://img.shields.io/github/forks/libasv/Exploite-CVE-2023-30212-vulnerability.svg)
 
 - [https://github.com/Anandhu990/CVE-2023-30212_lab](https://github.com/Anandhu990/CVE-2023-30212_lab) :  ![starts](https://img.shields.io/github/stars/Anandhu990/CVE-2023-30212_lab.svg) ![forks](https://img.shields.io/github/forks/Anandhu990/CVE-2023-30212_lab.svg)
 
@@ -1040,6 +1046,13 @@
 
 - [https://github.com/frankthetank-music/Acropalypse-Multi-Tool](https://github.com/frankthetank-music/Acropalypse-Multi-Tool) :  ![starts](https://img.shields.io/github/stars/frankthetank-music/Acropalypse-Multi-Tool.svg) ![forks](https://img.shields.io/github/forks/frankthetank-music/Acropalypse-Multi-Tool.svg)
 
+## CVE-2023-28252
+ Windows Common Log File System Driver Elevation of Privilege Vulnerability
+
+
+
+- [https://github.com/fortra/CVE-2023-28252](https://github.com/fortra/CVE-2023-28252) :  ![starts](https://img.shields.io/github/stars/fortra/CVE-2023-28252.svg) ![forks](https://img.shields.io/github/forks/fortra/CVE-2023-28252.svg)
+
 ## CVE-2023-28244
  Windows Kerberos Elevation of Privilege Vulnerability
 
@@ -1329,6 +1342,8 @@
 
 - [https://github.com/mdsecactivebreach/CVE-2023-26258-ArcServe](https://github.com/mdsecactivebreach/CVE-2023-26258-ArcServe) :  ![starts](https://img.shields.io/github/stars/mdsecactivebreach/CVE-2023-26258-ArcServe.svg) ![forks](https://img.shields.io/github/forks/mdsecactivebreach/CVE-2023-26258-ArcServe.svg)
 
+- [https://github.com/Imahian/CVE-2023-26258](https://github.com/Imahian/CVE-2023-26258) :  ![starts](https://img.shields.io/github/stars/Imahian/CVE-2023-26258.svg) ![forks](https://img.shields.io/github/forks/Imahian/CVE-2023-26258.svg)
+
 ## CVE-2023-25690
  Some mod_proxy configurations on Apache HTTP Server versions 2.4.0 through 2.4.55 allow a HTTP Request Smuggling attack. Configurations are affected when mod_proxy is enabled along with some form of RewriteRule or ProxyPassMatch in which a non-specific pattern matches some portion of the user-supplied request-target (URL) data and is then re-inserted into the proxied request-target using variable substitution. For example, something like: RewriteEngine on RewriteRule &quot;^/here/(.*)&quot; &quot;http://example.com:8080/elsewhere?$1&quot;; [P] ProxyPassReverse /here/ http://example.com:8080/ Request splitting/smuggling could result in bypass of access controls in the proxy server, proxying unintended URLs to existing origin servers, and cache poisoning. Users are recommended to update to at least version 2.4.56 of Apache HTTP Server.
 
@@ -1437,6 +1452,8 @@
 
 - [https://github.com/axylisdead/CVE-2023-25136_POC](https://github.com/axylisdead/CVE-2023-25136_POC) :  ![starts](https://img.shields.io/github/stars/axylisdead/CVE-2023-25136_POC.svg) ![forks](https://img.shields.io/github/forks/axylisdead/CVE-2023-25136_POC.svg)
 
+- [https://github.com/H4K6/CVE-2023-25136](https://github.com/H4K6/CVE-2023-25136) :  ![starts](https://img.shields.io/github/stars/H4K6/CVE-2023-25136.svg) ![forks](https://img.shields.io/github/forks/H4K6/CVE-2023-25136.svg)
+
 ## CVE-2023-24998
  Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads. Note that, like all of the file upload limits, the new configuration option (FileUploadBase#setFileCountMax) is not enabled by default and must be explicitly configured.
 
@@ -1513,6 +1530,8 @@
 
 
 - [https://github.com/rio128128/CVE-2023-24078](https://github.com/rio128128/CVE-2023-24078) :  ![starts](https://img.shields.io/github/stars/rio128128/CVE-2023-24078.svg) ![forks](https://img.shields.io/github/forks/rio128128/CVE-2023-24078.svg)
+
+- [https://github.com/overgrowncarrot1/CVE-2023-24078](https://github.com/overgrowncarrot1/CVE-2023-24078) :  ![starts](https://img.shields.io/github/stars/overgrowncarrot1/CVE-2023-24078.svg) ![forks](https://img.shields.io/github/forks/overgrowncarrot1/CVE-2023-24078.svg)
 
 ## CVE-2023-24059
  Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.
@@ -1673,17 +1692,17 @@
 
 - [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
 
-- [https://github.com/CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-23397-POC.svg)
-
 - [https://github.com/SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/SecCTechs/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/SecCTechs/CVE-2023-23397.svg)
+
+- [https://github.com/CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-23397-POC.svg)
 
 - [https://github.com/moneertv/CVE-2023-23397](https://github.com/moneertv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/moneertv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/moneertv/CVE-2023-23397.svg)
 
 - [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)
 
-- [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)
-
 - [https://github.com/stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/stevesec/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/stevesec/CVE-2023-23397.svg)
+
+- [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)
 
 - [https://github.com/im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/im007/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/im007/CVE-2023-23397.svg)
 
@@ -1989,6 +2008,13 @@
 
 - [https://github.com/mikesxrs/CVE-2023-21716_YARA_Results](https://github.com/mikesxrs/CVE-2023-21716_YARA_Results) :  ![starts](https://img.shields.io/github/stars/mikesxrs/CVE-2023-21716_YARA_Results.svg) ![forks](https://img.shields.io/github/forks/mikesxrs/CVE-2023-21716_YARA_Results.svg)
 
+## CVE-2023-21707
+ Microsoft Exchange Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/N1k0la-T/CVE-2023-21707](https://github.com/N1k0la-T/CVE-2023-21707) :  ![starts](https://img.shields.io/github/stars/N1k0la-T/CVE-2023-21707.svg) ![forks](https://img.shields.io/github/forks/N1k0la-T/CVE-2023-21707.svg)
+
 ## CVE-2023-21608
  Adobe Acrobat Reader versions 22.003.20282 (and earlier), 22.003.20281 (and earlier) and 20.005.30418 (and earlier) are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 
@@ -2108,7 +2134,7 @@
 - [https://github.com/nokn0wthing/CVE-2023-20052](https://github.com/nokn0wthing/CVE-2023-20052) :  ![starts](https://img.shields.io/github/stars/nokn0wthing/CVE-2023-20052.svg) ![forks](https://img.shields.io/github/forks/nokn0wthing/CVE-2023-20052.svg)
 
 ## CVE-2023-3338
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A flaw null pointer dereference in the Linux kernel DECnet networking protocol was found. A remote user could use this flaw to crash the system.
 
 
 
@@ -2143,6 +2169,8 @@
 
 
 - [https://github.com/RandomRobbieBF/CVE-2023-2982](https://github.com/RandomRobbieBF/CVE-2023-2982) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2023-2982.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2023-2982.svg)
+
+- [https://github.com/H4K6/CVE-2023-2982-POC](https://github.com/H4K6/CVE-2023-2982-POC) :  ![starts](https://img.shields.io/github/stars/H4K6/CVE-2023-2982-POC.svg) ![forks](https://img.shields.io/github/forks/H4K6/CVE-2023-2982-POC.svg)
 
 ## CVE-2023-2877
  The Formidable Forms WordPress plugin before 6.3.1 does not adequately authorize the user or validate the plugin URL in its functionality for installing add-ons. This allows a user with a role as low as Subscriber to install and activate arbitrary plugins of arbitrary versions from the WordPress.org plugin repository onto the site, leading to Remote Code Execution.
@@ -2183,9 +2211,9 @@
 
 - [https://github.com/EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/EmmanuelCruzL/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/EmmanuelCruzL/CVE-2023-2825.svg)
 
-- [https://github.com/hheeyywweellccoommee/CVE-2023-2825-zaskh](https://github.com/hheeyywweellccoommee/CVE-2023-2825-zaskh) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2023-2825-zaskh.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2023-2825-zaskh.svg)
-
 - [https://github.com/Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab) :  ![starts](https://img.shields.io/github/stars/Tornad0007/CVE-2023-2825-Gitlab.svg) ![forks](https://img.shields.io/github/forks/Tornad0007/CVE-2023-2825-Gitlab.svg)
+
+- [https://github.com/hheeyywweellccoommee/CVE-2023-2825-zaskh](https://github.com/hheeyywweellccoommee/CVE-2023-2825-zaskh) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2023-2825-zaskh.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2023-2825-zaskh.svg)
 
 ## CVE-2023-2822
  A vulnerability was found in Ellucian Ethos Identity up to 5.10.5. It has been classified as problematic. Affected is an unknown function of the file /cas/logout. The manipulation of the argument url leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 5.10.6 is able to address this issue. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-229596.
@@ -2369,9 +2397,9 @@
 
 
 
-- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)
-
 - [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)
+
+- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)
 
 ## CVE-2023-1177
  Path Traversal: '\..\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.
