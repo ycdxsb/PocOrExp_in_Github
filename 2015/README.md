@@ -3,9 +3,9 @@
 
 
 
-- [https://github.com/andrenasx/CVE-2015-10034](https://github.com/andrenasx/CVE-2015-10034) :  ![starts](https://img.shields.io/github/stars/andrenasx/CVE-2015-10034.svg) ![forks](https://img.shields.io/github/forks/andrenasx/CVE-2015-10034.svg)
-
 - [https://github.com/andrenasx/CVE-2015-10034-Test](https://github.com/andrenasx/CVE-2015-10034-Test) :  ![starts](https://img.shields.io/github/stars/andrenasx/CVE-2015-10034-Test.svg) ![forks](https://img.shields.io/github/forks/andrenasx/CVE-2015-10034-Test.svg)
+
+- [https://github.com/andrenasx/CVE-2015-10034](https://github.com/andrenasx/CVE-2015-10034) :  ![starts](https://img.shields.io/github/stars/andrenasx/CVE-2015-10034.svg) ![forks](https://img.shields.io/github/forks/andrenasx/CVE-2015-10034.svg)
 
 - [https://github.com/hheeyywweellccoommee/CVE-2015-10034-posua](https://github.com/hheeyywweellccoommee/CVE-2015-10034-posua) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2015-10034-posua.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2015-10034-posua.svg)
 
@@ -859,6 +859,13 @@
 - [https://github.com/paralelo14/WordPressMassExploiter](https://github.com/paralelo14/WordPressMassExploiter) :  ![starts](https://img.shields.io/github/stars/paralelo14/WordPressMassExploiter.svg) ![forks](https://img.shields.io/github/forks/paralelo14/WordPressMassExploiter.svg)
 
 - [https://github.com/paralelo14/CVE-2015-1579](https://github.com/paralelo14/CVE-2015-1579) :  ![starts](https://img.shields.io/github/stars/paralelo14/CVE-2015-1579.svg) ![forks](https://img.shields.io/github/forks/paralelo14/CVE-2015-1579.svg)
+
+## CVE-2015-1578
+ Multiple open redirect vulnerabilities in u5CMS before 3.9.4 allow remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via a URL in the (1) pidvesa cookie to u5admin/pidvesa.php or (2) uri parameter to u5admin/meta2.php.
+
+
+
+- [https://github.com/Zeppperoni/CVE-2015-1578](https://github.com/Zeppperoni/CVE-2015-1578) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2015-1578.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2015-1578.svg)
 
 ## CVE-2015-1561
  The escape_command function in include/Administration/corePerformance/getStats.php in Centreon (formerly Merethis Centreon) 2.5.4 and earlier (fixed in Centreon 19.10.0) uses an incorrect regular expression, which allows remote authenticated users to execute arbitrary commands via shell metacharacters in the ns_id parameter.
