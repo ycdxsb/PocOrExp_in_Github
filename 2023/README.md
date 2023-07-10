@@ -144,6 +144,8 @@
 
 - [https://github.com/Jenderal92/CHAMILO-CVE-2023-34960](https://github.com/Jenderal92/CHAMILO-CVE-2023-34960) :  ![starts](https://img.shields.io/github/stars/Jenderal92/CHAMILO-CVE-2023-34960.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/CHAMILO-CVE-2023-34960.svg)
 
+- [https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP](https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP) :  ![starts](https://img.shields.io/github/stars/YongYe-Security/Chamilo_CVE-2023-34960-EXP.svg) ![forks](https://img.shields.io/github/forks/YongYe-Security/Chamilo_CVE-2023-34960-EXP.svg)
+
 ## CVE-2023-34924
  H3C Magic B1STW B1STV100R012 was discovered to contain a stack overflow via the function SetAPInfoById. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request.
 
@@ -274,6 +276,8 @@
 - [https://github.com/horizon3ai/CVE-2023-34362](https://github.com/horizon3ai/CVE-2023-34362) :  ![starts](https://img.shields.io/github/stars/horizon3ai/CVE-2023-34362.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/CVE-2023-34362.svg)
 
 - [https://github.com/sfewer-r7/CVE-2023-34362](https://github.com/sfewer-r7/CVE-2023-34362) :  ![starts](https://img.shields.io/github/stars/sfewer-r7/CVE-2023-34362.svg) ![forks](https://img.shields.io/github/forks/sfewer-r7/CVE-2023-34362.svg)
+
+- [https://github.com/Malwareman007/CVE-2023-34362](https://github.com/Malwareman007/CVE-2023-34362) :  ![starts](https://img.shields.io/github/stars/Malwareman007/CVE-2023-34362.svg) ![forks](https://img.shields.io/github/forks/Malwareman007/CVE-2023-34362.svg)
 
 - [https://github.com/kenbuckler/MOVEit-CVE-2023-34362](https://github.com/kenbuckler/MOVEit-CVE-2023-34362) :  ![starts](https://img.shields.io/github/stars/kenbuckler/MOVEit-CVE-2023-34362.svg) ![forks](https://img.shields.io/github/forks/kenbuckler/MOVEit-CVE-2023-34362.svg)
 
@@ -476,11 +480,11 @@
 
 
 
-- [https://github.com/I5N0rth/CVE-2023-33246](https://github.com/I5N0rth/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/I5N0rth/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/I5N0rth/CVE-2023-33246.svg)
+- [https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT](https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT.svg)
 
 - [https://github.com/SuperZero/CVE-2023-33246](https://github.com/SuperZero/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/SuperZero/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/SuperZero/CVE-2023-33246.svg)
 
-- [https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT](https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT) :  ![starts](https://img.shields.io/github/stars/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT.svg)
+- [https://github.com/I5N0rth/CVE-2023-33246](https://github.com/I5N0rth/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/I5N0rth/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/I5N0rth/CVE-2023-33246.svg)
 
 - [https://github.com/Le1a/CVE-2023-33246](https://github.com/Le1a/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/Le1a/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/Le1a/CVE-2023-33246.svg)
 
@@ -575,6 +579,13 @@
 - [https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept) :  ![starts](https://img.shields.io/github/stars/manavvedawala2/CVE-2023-32243-proof-of-concept.svg) ![forks](https://img.shields.io/github/forks/manavvedawala2/CVE-2023-32243-proof-of-concept.svg)
 
 - [https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept) :  ![starts](https://img.shields.io/github/stars/manavvedawala/CVE-2023-32243-proof-of-concept.svg) ![forks](https://img.shields.io/github/forks/manavvedawala/CVE-2023-32243-proof-of-concept.svg)
+
+## CVE-2023-32235
+ Ghost before 5.42.1 allows remote attackers to read arbitrary files within the active theme's folder via /assets/built%2F..%2F..%2F/ directory traversal. This occurs in frontend/web/middleware/static-theme.js.
+
+
+
+- [https://github.com/VEEXH/Ghost-Path-Traversal-CVE-2023-32235-](https://github.com/VEEXH/Ghost-Path-Traversal-CVE-2023-32235-) :  ![starts](https://img.shields.io/github/stars/VEEXH/Ghost-Path-Traversal-CVE-2023-32235-.svg) ![forks](https://img.shields.io/github/forks/VEEXH/Ghost-Path-Traversal-CVE-2023-32235-.svg)
 
 ## CVE-2023-32233
  In the Linux kernel through 6.3.1, a use-after-free in Netfilter nf_tables when processing batch requests can be abused to perform arbitrary read and write operations on kernel memory. Unprivileged local users can obtain root privileges. This occurs because anonymous sets are mishandled.
@@ -856,9 +867,9 @@
 
 - [https://github.com/Anandhu990/CVE-2023-30212_lab](https://github.com/Anandhu990/CVE-2023-30212_lab) :  ![starts](https://img.shields.io/github/stars/Anandhu990/CVE-2023-30212_lab.svg) ![forks](https://img.shields.io/github/forks/Anandhu990/CVE-2023-30212_lab.svg)
 
-- [https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212](https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/VisDev23/Vulnerable-Docker-CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/VisDev23/Vulnerable-Docker-CVE-2023-30212.svg)
-
 - [https://github.com/Anandhu990/r-CVE-2023-30212-lab](https://github.com/Anandhu990/r-CVE-2023-30212-lab) :  ![starts](https://img.shields.io/github/stars/Anandhu990/r-CVE-2023-30212-lab.svg) ![forks](https://img.shields.io/github/forks/Anandhu990/r-CVE-2023-30212-lab.svg)
+
+- [https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212](https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/VisDev23/Vulnerable-Docker-CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/VisDev23/Vulnerable-Docker-CVE-2023-30212.svg)
 
 - [https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-](https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-) :  ![starts](https://img.shields.io/github/stars/VisDev23/Vulnerable-Docker--CVE-2023-30212-.svg) ![forks](https://img.shields.io/github/forks/VisDev23/Vulnerable-Docker--CVE-2023-30212-.svg)
 
@@ -1221,7 +1232,7 @@
 
 - [https://github.com/puckiestyle/cve-2023-27997](https://github.com/puckiestyle/cve-2023-27997) :  ![starts](https://img.shields.io/github/stars/puckiestyle/cve-2023-27997.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/cve-2023-27997.svg)
 
-- [https://github.com/gysf666/CVE-2023-27997-test](https://github.com/gysf666/CVE-2023-27997-test) :  ![starts](https://img.shields.io/github/stars/gysf666/CVE-2023-27997-test.svg) ![forks](https://img.shields.io/github/forks/gysf666/CVE-2023-27997-test.svg)
+- [https://github.com/hheeyywweellccoommee/CVE-2023-27997-test-nleyl](https://github.com/hheeyywweellccoommee/CVE-2023-27997-test-nleyl) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2023-27997-test-nleyl.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2023-27997-test-nleyl.svg)
 
 ## CVE-2023-27842
  Insecure Permissions vulnerability found in Extplorer File manager eXtplorer v.2.1.15 allows a remote attacker to execute arbitrary code via the index.php compenent
@@ -1651,9 +1662,9 @@
 
 - [https://github.com/SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC) :  ![starts](https://img.shields.io/github/stars/SirBugs/CVE-2023-24488-PoC.svg) ![forks](https://img.shields.io/github/forks/SirBugs/CVE-2023-24488-PoC.svg)
 
-- [https://github.com/codeb0ss/cve-2023-24488](https://github.com/codeb0ss/cve-2023-24488) :  ![starts](https://img.shields.io/github/stars/codeb0ss/cve-2023-24488.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/cve-2023-24488.svg)
-
 - [https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule](https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule) :  ![starts](https://img.shields.io/github/stars/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule.svg) ![forks](https://img.shields.io/github/forks/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule.svg)
+
+- [https://github.com/codeb0ss/cve-2023-24488](https://github.com/codeb0ss/cve-2023-24488) :  ![starts](https://img.shields.io/github/stars/codeb0ss/cve-2023-24488.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/cve-2023-24488.svg)
 
 ## CVE-2023-24362
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -1837,9 +1848,9 @@
 
 - [https://github.com/j0eyv/CVE-2023-23397](https://github.com/j0eyv/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/j0eyv/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/j0eyv/CVE-2023-23397.svg)
 
-- [https://github.com/SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/SecCTechs/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/SecCTechs/CVE-2023-23397.svg)
-
 - [https://github.com/jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/jacquesquail/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/jacquesquail/CVE-2023-23397.svg)
+
+- [https://github.com/SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/SecCTechs/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/SecCTechs/CVE-2023-23397.svg)
 
 - [https://github.com/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar](https://github.com/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar) :  ![starts](https://img.shields.io/github/stars/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar.svg) ![forks](https://img.shields.io/github/forks/securiteinfo/expl_outlook_cve_2023_23397_securiteinfo.yar.svg)
 
@@ -1847,9 +1858,9 @@
 
 - [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)
 
-- [https://github.com/stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/stevesec/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/stevesec/CVE-2023-23397.svg)
-
 - [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)
+
+- [https://github.com/stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/stevesec/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/stevesec/CVE-2023-23397.svg)
 
 - [https://github.com/im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/im007/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/im007/CVE-2023-23397.svg)
 
@@ -2299,6 +2310,8 @@
 
 - [https://github.com/gbrsh/CVE-2023-3460](https://github.com/gbrsh/CVE-2023-3460) :  ![starts](https://img.shields.io/github/stars/gbrsh/CVE-2023-3460.svg) ![forks](https://img.shields.io/github/forks/gbrsh/CVE-2023-3460.svg)
 
+- [https://github.com/yon3zu/Mass-CVE-2023-3460](https://github.com/yon3zu/Mass-CVE-2023-3460) :  ![starts](https://img.shields.io/github/stars/yon3zu/Mass-CVE-2023-3460.svg) ![forks](https://img.shields.io/github/forks/yon3zu/Mass-CVE-2023-3460.svg)
+
 - [https://github.com/rizqimaulanaa/CVE-2023-3460](https://github.com/rizqimaulanaa/CVE-2023-3460) :  ![starts](https://img.shields.io/github/stars/rizqimaulanaa/CVE-2023-3460.svg) ![forks](https://img.shields.io/github/forks/rizqimaulanaa/CVE-2023-3460.svg)
 
 ## CVE-2023-3338
@@ -2347,8 +2360,6 @@
 
 - [https://github.com/H4K6/CVE-2023-2982-POC](https://github.com/H4K6/CVE-2023-2982-POC) :  ![starts](https://img.shields.io/github/stars/H4K6/CVE-2023-2982-POC.svg) ![forks](https://img.shields.io/github/forks/H4K6/CVE-2023-2982-POC.svg)
 
-- [https://github.com/hheeyywweellccoommee/CVE-2023-2982-ugdqh](https://github.com/hheeyywweellccoommee/CVE-2023-2982-ugdqh) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2023-2982-ugdqh.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2023-2982-ugdqh.svg)
-
 - [https://github.com/LoaiEsam37/CVE-2023-2982](https://github.com/LoaiEsam37/CVE-2023-2982) :  ![starts](https://img.shields.io/github/stars/LoaiEsam37/CVE-2023-2982.svg) ![forks](https://img.shields.io/github/forks/LoaiEsam37/CVE-2023-2982.svg)
 
 ## CVE-2023-2877
@@ -2390,11 +2401,11 @@
 
 - [https://github.com/yuimarudev/CVE-2023-2825](https://github.com/yuimarudev/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/yuimarudev/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/yuimarudev/CVE-2023-2825.svg)
 
-- [https://github.com/Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab) :  ![starts](https://img.shields.io/github/stars/Tornad0007/CVE-2023-2825-Gitlab.svg) ![forks](https://img.shields.io/github/forks/Tornad0007/CVE-2023-2825-Gitlab.svg)
+- [https://github.com/EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/EmmanuelCruzL/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/EmmanuelCruzL/CVE-2023-2825.svg)
 
 - [https://github.com/hheeyywweellccoommee/CVE-2023-2825-zaskh](https://github.com/hheeyywweellccoommee/CVE-2023-2825-zaskh) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2023-2825-zaskh.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2023-2825-zaskh.svg)
 
-- [https://github.com/EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/EmmanuelCruzL/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/EmmanuelCruzL/CVE-2023-2825.svg)
+- [https://github.com/Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab) :  ![starts](https://img.shields.io/github/stars/Tornad0007/CVE-2023-2825-Gitlab.svg) ![forks](https://img.shields.io/github/forks/Tornad0007/CVE-2023-2825-Gitlab.svg)
 
 ## CVE-2023-2822
  A vulnerability was found in Ellucian Ethos Identity up to 5.10.5. It has been classified as problematic. Affected is an unknown function of the file /cas/logout. The manipulation of the argument url leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 5.10.6 is able to address this issue. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-229596.
