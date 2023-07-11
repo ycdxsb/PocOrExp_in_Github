@@ -273,9 +273,9 @@
 
 - [https://github.com/GrrrDog/ACEDcup](https://github.com/GrrrDog/ACEDcup) :  ![starts](https://img.shields.io/github/stars/GrrrDog/ACEDcup.svg) ![forks](https://img.shields.io/github/forks/GrrrDog/ACEDcup.svg)
 
-- [https://github.com/sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/CVE_2013_2186.svg)
-
 - [https://github.com/sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/Payload_CVE_2013_2186.svg)
+
+- [https://github.com/sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/CVE_2013_2186.svg)
 
 ## CVE-2013-2171
  The vm_map_lookup function in sys/vm/vm_map.c in the mmap implementation in the kernel in FreeBSD 9.0 through 9.1-RELEASE-p4 does not properly determine whether a task should have write access to a memory location, which allows local users to bypass filesystem write permissions and consequently gain privileges via a crafted application that leverages read permissions, and makes mmap and ptrace system calls.
@@ -321,8 +321,6 @@
 
 
 - [https://github.com/kitctf/nginxpwn](https://github.com/kitctf/nginxpwn) :  ![starts](https://img.shields.io/github/stars/kitctf/nginxpwn.svg) ![forks](https://img.shields.io/github/forks/kitctf/nginxpwn.svg)
-
-- [https://github.com/danghvu/nginx-1.4.0](https://github.com/danghvu/nginx-1.4.0) :  ![starts](https://img.shields.io/github/stars/danghvu/nginx-1.4.0.svg) ![forks](https://img.shields.io/github/forks/danghvu/nginx-1.4.0.svg)
 
 - [https://github.com/m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit) :  ![starts](https://img.shields.io/github/stars/m4drat/CVE-2013-2028-Exploit.svg) ![forks](https://img.shields.io/github/forks/m4drat/CVE-2013-2028-Exploit.svg)
 
