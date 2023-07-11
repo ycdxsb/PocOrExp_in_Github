@@ -1,85 +1,67 @@
-# Update 2023-07-10
-## CVE-2023-36167
+# Update 2023-07-11
+## CVE-2023-34960
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/TraiLeR2/CVE-2023-36167](https://github.com/TraiLeR2/CVE-2023-36167) :  ![starts](https://img.shields.io/github/stars/TraiLeR2/CVE-2023-36167.svg) ![forks](https://img.shields.io/github/forks/TraiLeR2/CVE-2023-36167.svg)
+- [https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP](https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP) :  ![starts](https://img.shields.io/github/stars/YongYe-Security/Chamilo_CVE-2023-34960-EXP.svg) ![forks](https://img.shields.io/github/forks/YongYe-Security/Chamilo_CVE-2023-34960-EXP.svg)
 
 
-## CVE-2023-36166
+## CVE-2023-34362
+ In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.4 (14.0.4), 2022.1.5 (14.1.5), and 2023.0.1 (15.0.1), a SQL injection vulnerability has been found in the MOVEit Transfer web application that could allow an unauthenticated attacker to gain access to MOVEit Transfer's database. Depending on the database engine being used (MySQL, Microsoft SQL Server, or Azure SQL), an attacker may be able to infer information about the structure and contents of the database, and execute SQL statements that alter or delete database elements. NOTE: this is exploited in the wild in May and June 2023; exploitation of unpatched systems can occur via HTTP or HTTPS. All versions (e.g., 2020.0 and 2019x) before the five explicitly mentioned versions are affected, including older unsupported versions.
+
+- [https://github.com/Malwareman007/CVE-2023-34362](https://github.com/Malwareman007/CVE-2023-34362) :  ![starts](https://img.shields.io/github/stars/Malwareman007/CVE-2023-34362.svg) ![forks](https://img.shields.io/github/forks/Malwareman007/CVE-2023-34362.svg)
+
+
+## CVE-2023-32235
+ Ghost before 5.42.1 allows remote attackers to read arbitrary files within the active theme's folder via /assets/built%2F..%2F..%2F/ directory traversal. This occurs in frontend/web/middleware/static-theme.js.
+
+- [https://github.com/VEEXH/Ghost-Path-Traversal-CVE-2023-32235-](https://github.com/VEEXH/Ghost-Path-Traversal-CVE-2023-32235-) :  ![starts](https://img.shields.io/github/stars/VEEXH/Ghost-Path-Traversal-CVE-2023-32235-.svg) ![forks](https://img.shields.io/github/forks/VEEXH/Ghost-Path-Traversal-CVE-2023-32235-.svg)
+
+
+## CVE-2023-27997
+ A heap-based buffer overflow vulnerability [CWE-122] in FortiOS version 7.2.4 and below, version 7.0.11 and below, version 6.4.12 and below, version 6.0.16 and below and FortiProxy version 7.2.3 and below, version 7.0.9 and below, version 2.0.12 and below, version 1.2 all versions, version 1.1 all versions SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests.
+
+- [https://github.com/hheeyywweellccoommee/CVE-2023-27997-test-nleyl](https://github.com/hheeyywweellccoommee/CVE-2023-27997-test-nleyl) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2023-27997-test-nleyl.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2023-27997-test-nleyl.svg)
+
+
+## CVE-2023-3460
+ The Ultimate Member WordPress plugin before 2.6.7 does not prevent visitors from creating user accounts with arbitrary capabilities, effectively allowing attackers to create administrator accounts at will. This is actively being exploited in the wild.
+
+- [https://github.com/yon3zu/Mass-CVE-2023-3460](https://github.com/yon3zu/Mass-CVE-2023-3460) :  ![starts](https://img.shields.io/github/stars/yon3zu/Mass-CVE-2023-3460.svg) ![forks](https://img.shields.io/github/forks/yon3zu/Mass-CVE-2023-3460.svg)
+
+
+## CVE-2022-4543
+ A flaw named &quot;EntryBleed&quot; was found in the Linux Kernel Page Table Isolation (KPTI). This issue could allow a local attacker to leak KASLR base via prefetch side-channels based on TLB timing for Intel systems.
+
+- [https://github.com/sunichi/cve-2022-4543-wrapper](https://github.com/sunichi/cve-2022-4543-wrapper) :  ![starts](https://img.shields.io/github/stars/sunichi/cve-2022-4543-wrapper.svg) ![forks](https://img.shields.io/github/forks/sunichi/cve-2022-4543-wrapper.svg)
+
+
+## CVE-2022-0847
+ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
+
+- [https://github.com/hheeyywweellccoommee/CVE-2022-0847-gfobj](https://github.com/hheeyywweellccoommee/CVE-2022-0847-gfobj) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2022-0847-gfobj.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2022-0847-gfobj.svg)
+- [https://github.com/joeymeech/CVE-2022-0847-Exploit-Implementation](https://github.com/joeymeech/CVE-2022-0847-Exploit-Implementation) :  ![starts](https://img.shields.io/github/stars/joeymeech/CVE-2022-0847-Exploit-Implementation.svg) ![forks](https://img.shields.io/github/forks/joeymeech/CVE-2022-0847-Exploit-Implementation.svg)
+
+
+## CVE-2021-26084
+ In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
+
+- [https://github.com/chatapts/CVE-2021-26084-EXP](https://github.com/chatapts/CVE-2021-26084-EXP) :  ![starts](https://img.shields.io/github/stars/chatapts/CVE-2021-26084-EXP.svg) ![forks](https://img.shields.io/github/forks/chatapts/CVE-2021-26084-EXP.svg)
+
+
+## CVE-2021-3560
+ It was found that polkit could be tricked into bypassing the credential checks for D-Bus requests, elevating the privileges of the requestor to the root user. This flaw could be used by an unprivileged local attacker to, for example, create a new local administrator. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
+
+- [https://github.com/asepsaepdin/CVE-2021-3560](https://github.com/asepsaepdin/CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/asepsaepdin/CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/asepsaepdin/CVE-2021-3560.svg)
+
+
+## CVE-2019-19268
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/TraiLeR2/CVE-2023-36166](https://github.com/TraiLeR2/CVE-2023-36166) :  ![starts](https://img.shields.io/github/stars/TraiLeR2/CVE-2023-36166.svg) ![forks](https://img.shields.io/github/forks/TraiLeR2/CVE-2023-36166.svg)
+- [https://github.com/TheCyberGeek/CVE-2019-19268](https://github.com/TheCyberGeek/CVE-2019-19268) :  ![starts](https://img.shields.io/github/stars/TheCyberGeek/CVE-2019-19268.svg) ![forks](https://img.shields.io/github/forks/TheCyberGeek/CVE-2019-19268.svg)
 
 
-## CVE-2023-36165
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2017-10661
+ Race condition in fs/timerfd.c in the Linux kernel before 4.10.15 allows local users to gain privileges or cause a denial of service (list corruption or use-after-free) via simultaneous file-descriptor operations that leverage improper might_cancel queueing.
 
-- [https://github.com/TraiLeR2/CVE-2023-36165](https://github.com/TraiLeR2/CVE-2023-36165) :  ![starts](https://img.shields.io/github/stars/TraiLeR2/CVE-2023-36165.svg) ![forks](https://img.shields.io/github/forks/TraiLeR2/CVE-2023-36165.svg)
-
-
-## CVE-2023-36164
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/TraiLeR2/CVE-2023-36164](https://github.com/TraiLeR2/CVE-2023-36164) :  ![starts](https://img.shields.io/github/stars/TraiLeR2/CVE-2023-36164.svg) ![forks](https://img.shields.io/github/forks/TraiLeR2/CVE-2023-36164.svg)
-
-
-## CVE-2023-36163
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/TraiLeR2/CVE-2023-36163](https://github.com/TraiLeR2/CVE-2023-36163) :  ![starts](https://img.shields.io/github/stars/TraiLeR2/CVE-2023-36163.svg) ![forks](https://img.shields.io/github/forks/TraiLeR2/CVE-2023-36163.svg)
-
-
-## CVE-2023-35843
- NocoDB through 0.106.0 (or 0.109.1) has a path traversal vulnerability that allows an unauthenticated attacker to access arbitrary files on the server by manipulating the path parameter of the /download route. This vulnerability could allow an attacker to access sensitive files and data on the server, including configuration files, source code, and other sensitive information.
-
-- [https://github.com/b3nguang/CVE-2023-35843](https://github.com/b3nguang/CVE-2023-35843) :  ![starts](https://img.shields.io/github/stars/b3nguang/CVE-2023-35843.svg) ![forks](https://img.shields.io/github/forks/b3nguang/CVE-2023-35843.svg)
-
-
-## CVE-2023-33668
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/lodi-g/CVE-2023-33668](https://github.com/lodi-g/CVE-2023-33668) :  ![starts](https://img.shields.io/github/stars/lodi-g/CVE-2023-33668.svg) ![forks](https://img.shields.io/github/forks/lodi-g/CVE-2023-33668.svg)
-
-
-## CVE-2023-30226
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/ifyGecko/CVE-2023-30226](https://github.com/ifyGecko/CVE-2023-30226) :  ![starts](https://img.shields.io/github/stars/ifyGecko/CVE-2023-30226.svg) ![forks](https://img.shields.io/github/forks/ifyGecko/CVE-2023-30226.svg)
-
-
-## CVE-2023-2982
- The WordPress Social Login and Register (Discord, Google, Twitter, LinkedIn) plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 7.6.4. This is due to insufficient encryption on the user being supplied during a login validated through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they know the email address associated with that user. This was partially patched in version 7.6.4 and fully patched in version 7.6.5.
-
-- [https://github.com/LoaiEsam37/CVE-2023-2982](https://github.com/LoaiEsam37/CVE-2023-2982) :  ![starts](https://img.shields.io/github/stars/LoaiEsam37/CVE-2023-2982.svg) ![forks](https://img.shields.io/github/forks/LoaiEsam37/CVE-2023-2982.svg)
-
-
-## CVE-2022-24715
- Icinga Web 2 is an open source monitoring web interface, framework and command-line interface. Authenticated users, with access to the configuration, can create SSH resource files in unintended directories, leading to the execution of arbitrary code. This issue has been resolved in versions 2.8.6, 2.9.6 and 2.10 of Icinga Web 2. Users unable to upgrade should limit access to the Icinga Web 2 configuration.
-
-- [https://github.com/hheeyywweellccoommee/CVE-2022-24715-crrxa](https://github.com/hheeyywweellccoommee/CVE-2022-24715-crrxa) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2022-24715-crrxa.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2022-24715-crrxa.svg)
-- [https://github.com/cxdxnt/CVE-2022-24715](https://github.com/cxdxnt/CVE-2022-24715) :  ![starts](https://img.shields.io/github/stars/cxdxnt/CVE-2022-24715.svg) ![forks](https://img.shields.io/github/forks/cxdxnt/CVE-2022-24715.svg)
-
-
-## CVE-2021-44731
- A race condition existed in the snapd 2.54.2 snap-confine binary when preparing a private mount namespace for a snap. This could allow a local attacker to gain root privileges by bind-mounting their own contents inside the snap's private mount namespace and causing snap-confine to execute arbitrary code and hence gain privilege escalation. Fixed in snapd versions 2.54.3+18.04, 2.54.3+20.04 and 2.54.3+21.10.1
-
-- [https://github.com/deeexcee-io/CVE-2021-44731-snap-confine-SUID](https://github.com/deeexcee-io/CVE-2021-44731-snap-confine-SUID) :  ![starts](https://img.shields.io/github/stars/deeexcee-io/CVE-2021-44731-snap-confine-SUID.svg) ![forks](https://img.shields.io/github/forks/deeexcee-io/CVE-2021-44731-snap-confine-SUID.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/LayarKacaSiber/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/LayarKacaSiber/CVE-2021-41773.svg)
-
-
-## CVE-2021-3864
- A flaw was found in the way the dumpable flag setting was handled when certain SUID binaries executed its descendants. The prerequisite is a SUID binary that sets real UID equal to effective UID, and real GID equal to effective GID. The descendant will then have a dumpable value set to 1. As a result, if the descendant process crashes and core_pattern is set to a relative value, its core dump is stored in the current directory with uid:gid permissions. An unprivileged local user with eligible root SUID binary could use this flaw to place core dumps into root-owned directories, potentially resulting in escalation of privileges.
-
-- [https://github.com/walac/cve-2021-3864](https://github.com/walac/cve-2021-3864) :  ![starts](https://img.shields.io/github/stars/walac/cve-2021-3864.svg) ![forks](https://img.shields.io/github/forks/walac/cve-2021-3864.svg)
-
-
-## CVE-2019-9053
- An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News module, through a crafted URL, to achieve unauthenticated blind time-based SQL injection via the m1_idlist parameter.
-
-- [https://github.com/bthnrml/guncel-cve-2019-9053.py](https://github.com/bthnrml/guncel-cve-2019-9053.py) :  ![starts](https://img.shields.io/github/stars/bthnrml/guncel-cve-2019-9053.py.svg) ![forks](https://img.shields.io/github/forks/bthnrml/guncel-cve-2019-9053.py.svg)
+- [https://github.com/GeneBlue/CVE-2017-10661_POC](https://github.com/GeneBlue/CVE-2017-10661_POC) :  ![starts](https://img.shields.io/github/stars/GeneBlue/CVE-2017-10661_POC.svg) ![forks](https://img.shields.io/github/forks/GeneBlue/CVE-2017-10661_POC.svg)
 
