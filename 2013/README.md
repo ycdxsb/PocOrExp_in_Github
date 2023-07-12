@@ -322,6 +322,8 @@
 
 - [https://github.com/kitctf/nginxpwn](https://github.com/kitctf/nginxpwn) :  ![starts](https://img.shields.io/github/stars/kitctf/nginxpwn.svg) ![forks](https://img.shields.io/github/forks/kitctf/nginxpwn.svg)
 
+- [https://github.com/danghvu/nginx-1.4.0](https://github.com/danghvu/nginx-1.4.0) :  ![starts](https://img.shields.io/github/stars/danghvu/nginx-1.4.0.svg) ![forks](https://img.shields.io/github/forks/danghvu/nginx-1.4.0.svg)
+
 - [https://github.com/m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit) :  ![starts](https://img.shields.io/github/stars/m4drat/CVE-2013-2028-Exploit.svg) ![forks](https://img.shields.io/github/forks/m4drat/CVE-2013-2028-Exploit.svg)
 
 - [https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC](https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC) :  ![starts](https://img.shields.io/github/stars/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC.svg) ![forks](https://img.shields.io/github/forks/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC.svg)
