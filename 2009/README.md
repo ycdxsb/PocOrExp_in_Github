@@ -58,7 +58,7 @@
 
 
 
-- [https://github.com/expFlash/CVE-2009-4049](https://github.com/expFlash/CVE-2009-4049) :  ![starts](https://img.shields.io/github/stars/expFlash/CVE-2009-4049.svg) ![forks](https://img.shields.io/github/forks/expFlash/CVE-2009-4049.svg)
+- [https://github.com/fengjixuchui/CVE-2009-4049](https://github.com/fengjixuchui/CVE-2009-4049) :  ![starts](https://img.shields.io/github/stars/fengjixuchui/CVE-2009-4049.svg) ![forks](https://img.shields.io/github/forks/fengjixuchui/CVE-2009-4049.svg)
 
 ## CVE-2009-3555
  The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a &quot;plaintext injection&quot; attack, aka the &quot;Project Mogul&quot; issue.
@@ -107,7 +107,7 @@
 
 
 
-- [https://github.com/0xkasra/CVE-2009-2265](https://github.com/0xkasra/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/0xkasra/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/0xkasra/CVE-2009-2265.svg)
+- [https://github.com/0xConstant/CVE-2009-2265](https://github.com/0xConstant/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/0xConstant/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/0xConstant/CVE-2009-2265.svg)
 
 - [https://github.com/zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion) :  ![starts](https://img.shields.io/github/stars/zaphoxx/zaphoxx-coldfusion.svg) ![forks](https://img.shields.io/github/forks/zaphoxx/zaphoxx-coldfusion.svg)
 
@@ -160,13 +160,6 @@
 
 
 - [https://github.com/pagvac/pocs](https://github.com/pagvac/pocs) :  ![starts](https://img.shields.io/github/stars/pagvac/pocs.svg) ![forks](https://img.shields.io/github/forks/pagvac/pocs.svg)
-
-## CVE-2009-0824
- Elaborate Bytes ElbyCDIO.sys 6.0.2.0 and earlier, as distributed in SlySoft AnyDVD before 6.5.2.6, Virtual CloneDrive 5.4.2.3 and earlier, CloneDVD 2.9.2.0 and earlier, and CloneCD 5.3.1.3 and earlier, uses the METHOD_NEITHER communication method for IOCTLs and does not properly validate a buffer associated with the Irp object, which allows local users to cause a denial of service (system crash) via a crafted IOCTL call.
-
-
-
-- [https://github.com/expFlash/CVE-2009-0824](https://github.com/expFlash/CVE-2009-0824) :  ![starts](https://img.shields.io/github/stars/expFlash/CVE-2009-0824.svg) ![forks](https://img.shields.io/github/forks/expFlash/CVE-2009-0824.svg)
 
 ## CVE-2009-0689
  Array index error in the (1) dtoa implementation in dtoa.c (aka pdtoa.c) and the (2) gdtoa (aka new dtoa) implementation in gdtoa/misc.c in libc, as used in multiple operating systems and products including in FreeBSD 6.4 and 7.2, NetBSD 5.0, OpenBSD 4.5, Mozilla Firefox 3.0.x before 3.0.15 and 3.5.x before 3.5.4, K-Meleon 1.5.3, SeaMonkey 1.1.8, and other products, allows context-dependent attackers to cause a denial of service (application crash) and possibly execute arbitrary code via a large precision value in the format argument to a printf function, which triggers incorrect memory allocation and a heap-based buffer overflow during conversion to a floating-point number.
