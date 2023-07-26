@@ -26,6 +26,13 @@
 
 - [https://github.com/alt3kx/CVE-2002-0991](https://github.com/alt3kx/CVE-2002-0991) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0991.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0991.svg)
 
+## CVE-2002-0748
+ LabVIEW Web Server 5.1.1 through 6.1 allows remote attackers to cause a denial of service (crash) via an HTTP GET request that ends in two newline characters, instead of the expected carriage return/newline combinations.
+
+
+
+- [https://github.com/fauzanwijaya/CVE-2002-0748](https://github.com/fauzanwijaya/CVE-2002-0748) :  ![starts](https://img.shields.io/github/stars/fauzanwijaya/CVE-2002-0748.svg) ![forks](https://img.shields.io/github/forks/fauzanwijaya/CVE-2002-0748.svg)
+
 ## CVE-2002-0740
  Buffer overflow in slrnpull for the SLRN package, when installed setuid or setgid, allows local users to gain privileges via a long -d (SPOOLDIR) argument.
 
