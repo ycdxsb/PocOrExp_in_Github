@@ -1000,8 +1000,6 @@
 
 - [https://github.com/brianwrf/Magento-CVE-2016-4010](https://github.com/brianwrf/Magento-CVE-2016-4010) :  ![starts](https://img.shields.io/github/stars/brianwrf/Magento-CVE-2016-4010.svg) ![forks](https://img.shields.io/github/forks/brianwrf/Magento-CVE-2016-4010.svg)
 
-- [https://github.com/shadofren/CVE-2016-4010](https://github.com/shadofren/CVE-2016-4010) :  ![starts](https://img.shields.io/github/stars/shadofren/CVE-2016-4010.svg) ![forks](https://img.shields.io/github/forks/shadofren/CVE-2016-4010.svg)
-
 ## CVE-2016-4004
  Directory traversal vulnerability in Dell OpenManage Server Administrator (OMSA) 8.2 allows remote authenticated administrators to read arbitrary files via a ..\ (dot dot backslash) in the file parameter to ViewFile.
 
