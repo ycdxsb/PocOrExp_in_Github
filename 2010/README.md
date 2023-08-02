@@ -175,6 +175,8 @@
 
 - [https://github.com/omarothmann/Embedded-Backdoor-Connection](https://github.com/omarothmann/Embedded-Backdoor-Connection) :  ![starts](https://img.shields.io/github/stars/omarothmann/Embedded-Backdoor-Connection.svg) ![forks](https://img.shields.io/github/forks/omarothmann/Embedded-Backdoor-Connection.svg)
 
+- [https://github.com/asepsaepdin/CVE-2010-1240](https://github.com/asepsaepdin/CVE-2010-1240) :  ![starts](https://img.shields.io/github/stars/asepsaepdin/CVE-2010-1240.svg) ![forks](https://img.shields.io/github/forks/asepsaepdin/CVE-2010-1240.svg)
+
 ## CVE-2010-1205
  Buffer overflow in pngpread.c in libpng before 1.2.44 and 1.4.x before 1.4.3, as used in progressive applications, might allow remote attackers to execute arbitrary code via a PNG image that triggers an additional data row.
 
