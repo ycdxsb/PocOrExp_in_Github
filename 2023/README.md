@@ -1,5 +1,5 @@
 ## CVE-2023-39144
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Element55 KnowMore appliances version 21 and older was discovered to store passwords in plaintext.
 
 
 
@@ -30,6 +30,8 @@
 
 - [https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-](https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-) :  ![starts](https://img.shields.io/github/stars/adriyansyah-mf/CVE-2023-38646--Metabase-.svg) ![forks](https://img.shields.io/github/forks/adriyansyah-mf/CVE-2023-38646--Metabase-.svg)
 
+- [https://github.com/shamo0/CVE-2023-38646-PoC](https://github.com/shamo0/CVE-2023-38646-PoC) :  ![starts](https://img.shields.io/github/stars/shamo0/CVE-2023-38646-PoC.svg) ![forks](https://img.shields.io/github/forks/shamo0/CVE-2023-38646-PoC.svg)
+
 ## CVE-2023-38632
  async-sockets-cpp through 0.3.1 has a stack-based buffer overflow in tcpsocket.hpp when processing malformed TCP packets.
 
@@ -56,9 +58,9 @@
 
 
 
-- [https://github.com/Fire-Null/CVE-2023-37979](https://github.com/Fire-Null/CVE-2023-37979) :  ![starts](https://img.shields.io/github/stars/Fire-Null/CVE-2023-37979.svg) ![forks](https://img.shields.io/github/forks/Fire-Null/CVE-2023-37979.svg)
-
 - [https://github.com/Mehran-Seifalinia/CVE-2023-37979](https://github.com/Mehran-Seifalinia/CVE-2023-37979) :  ![starts](https://img.shields.io/github/stars/Mehran-Seifalinia/CVE-2023-37979.svg) ![forks](https://img.shields.io/github/forks/Mehran-Seifalinia/CVE-2023-37979.svg)
+
+- [https://github.com/Fire-Null/CVE-2023-37979](https://github.com/Fire-Null/CVE-2023-37979) :  ![starts](https://img.shields.io/github/stars/Fire-Null/CVE-2023-37979.svg) ![forks](https://img.shields.io/github/forks/Fire-Null/CVE-2023-37979.svg)
 
 ## CVE-2023-37847
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -66,6 +68,13 @@
 
 
 - [https://github.com/KingBangQ/CVE-2023-37847](https://github.com/KingBangQ/CVE-2023-37847) :  ![starts](https://img.shields.io/github/stars/KingBangQ/CVE-2023-37847.svg) ![forks](https://img.shields.io/github/forks/KingBangQ/CVE-2023-37847.svg)
+
+## CVE-2023-37800
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
+
+
+
+- [https://github.com/TraiLeR2/CVE-2023-37800](https://github.com/TraiLeR2/CVE-2023-37800) :  ![starts](https://img.shields.io/github/stars/TraiLeR2/CVE-2023-37800.svg) ![forks](https://img.shields.io/github/forks/TraiLeR2/CVE-2023-37800.svg)
 
 ## CVE-2023-37786
  Multiple cross-site scripting (XSS) vulnerabilities in Geeklog v2.2.2 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Mail Settings[backend], Mail Settings[host], Mail Settings[port] and Mail Settings[auth] parameters of the /admin/configuration.php.
@@ -235,12 +244,12 @@
 
 - [https://github.com/actuator/cve](https://github.com/actuator/cve) :  ![starts](https://img.shields.io/github/stars/actuator/cve.svg) ![forks](https://img.shields.io/github/forks/actuator/cve.svg)
 
-## CVE-2023-36167
+## CVE-2023-36168
  ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
 
 
 
-- [https://github.com/TraiLeR2/CVE-2023-36167](https://github.com/TraiLeR2/CVE-2023-36167) :  ![starts](https://img.shields.io/github/stars/TraiLeR2/CVE-2023-36167.svg) ![forks](https://img.shields.io/github/forks/TraiLeR2/CVE-2023-36167.svg)
+- [https://github.com/TraiLeR2/CVE-2023-36168](https://github.com/TraiLeR2/CVE-2023-36168) :  ![starts](https://img.shields.io/github/stars/TraiLeR2/CVE-2023-36168.svg) ![forks](https://img.shields.io/github/forks/TraiLeR2/CVE-2023-36168.svg)
 
 ## CVE-2023-36166
  ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
@@ -269,6 +278,20 @@
 
 
 - [https://github.com/TraiLeR2/CVE-2023-36163](https://github.com/TraiLeR2/CVE-2023-36163) :  ![starts](https://img.shields.io/github/stars/TraiLeR2/CVE-2023-36163.svg) ![forks](https://img.shields.io/github/forks/TraiLeR2/CVE-2023-36163.svg)
+
+## CVE-2023-36159
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/unknown00759/CVE-2023-36159](https://github.com/unknown00759/CVE-2023-36159) :  ![starts](https://img.shields.io/github/stars/unknown00759/CVE-2023-36159.svg) ![forks](https://img.shields.io/github/forks/unknown00759/CVE-2023-36159.svg)
+
+## CVE-2023-36158
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/unknown00759/CVE-2023-36158](https://github.com/unknown00759/CVE-2023-36158) :  ![starts](https://img.shields.io/github/stars/unknown00759/CVE-2023-36158.svg) ![forks](https://img.shields.io/github/forks/unknown00759/CVE-2023-36158.svg)
 
 ## CVE-2023-36146
  A Stored Cross-Site Scripting (XSS) vulnerability was found in Multilaser RE 170 using firmware 2.2.6733.
@@ -1468,9 +1491,9 @@
 
 - [https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772](https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/Trinadh465/linux-4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/linux-4.1.15_CVE-2023-28772.svg)
 
-- [https://github.com/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu](https://github.com/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu.svg)
-
 - [https://github.com/hshivhare67/kernel_v4.1.15_CVE-2023-28772](https://github.com/hshivhare67/kernel_v4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/hshivhare67/kernel_v4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/kernel_v4.1.15_CVE-2023-28772.svg)
+
+- [https://github.com/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu](https://github.com/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu.svg)
 
 ## CVE-2023-28771
  Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series firmware versions 4.60 through 5.35, and ATP series firmware versions 4.60 through 5.35, which could allow an unauthenticated attacker to execute some OS commands remotely by sending crafted packets to an affected device.
@@ -1572,6 +1595,8 @@
 - [https://github.com/fortra/CVE-2023-28252](https://github.com/fortra/CVE-2023-28252) :  ![starts](https://img.shields.io/github/stars/fortra/CVE-2023-28252.svg) ![forks](https://img.shields.io/github/forks/fortra/CVE-2023-28252.svg)
 
 - [https://github.com/hheeyywweellccoommee/CVE-2023-28252-vseik](https://github.com/hheeyywweellccoommee/CVE-2023-28252-vseik) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2023-28252-vseik.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2023-28252-vseik.svg)
+
+- [https://github.com/hheeyywweellccoommee/CVE-2023-28252-djtiu](https://github.com/hheeyywweellccoommee/CVE-2023-28252-djtiu) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2023-28252-djtiu.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2023-28252-djtiu.svg)
 
 ## CVE-2023-28244
  Windows Kerberos Elevation of Privilege Vulnerability
@@ -2084,8 +2109,6 @@
 
 
 
-- [https://github.com/codeb0ss/CVE-2023-24489-PoC](https://github.com/codeb0ss/CVE-2023-24489-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2023-24489-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2023-24489-PoC.svg)
-
 - [https://github.com/adhikara13/CVE-2023-24489-ShareFile](https://github.com/adhikara13/CVE-2023-24489-ShareFile) :  ![starts](https://img.shields.io/github/stars/adhikara13/CVE-2023-24489-ShareFile.svg) ![forks](https://img.shields.io/github/forks/adhikara13/CVE-2023-24489-ShareFile.svg)
 
 ## CVE-2023-24488
@@ -2301,9 +2324,9 @@
 
 - [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)
 
-- [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)
-
 - [https://github.com/im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/im007/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/im007/CVE-2023-23397.svg)
+
+- [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)
 
 - [https://github.com/stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/stevesec/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/stevesec/CVE-2023-23397.svg)
 
@@ -2815,6 +2838,25 @@
 
 - [https://github.com/d0rb/CVE-2023-3519](https://github.com/d0rb/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2023-3519.svg)
 
+## CVE-2023-3460
+ The Ultimate Member WordPress plugin before 2.6.7 does not prevent visitors from creating user accounts with arbitrary capabilities, effectively allowing attackers to create administrator accounts at will. This is actively being exploited in the wild.
+
+
+
+- [https://github.com/gbrsh/CVE-2023-3460](https://github.com/gbrsh/CVE-2023-3460) :  ![starts](https://img.shields.io/github/stars/gbrsh/CVE-2023-3460.svg) ![forks](https://img.shields.io/github/forks/gbrsh/CVE-2023-3460.svg)
+
+- [https://github.com/Fire-Null/CVE-2023-3460](https://github.com/Fire-Null/CVE-2023-3460) :  ![starts](https://img.shields.io/github/stars/Fire-Null/CVE-2023-3460.svg) ![forks](https://img.shields.io/github/forks/Fire-Null/CVE-2023-3460.svg)
+
+- [https://github.com/diego-tella/CVE-2023-3460](https://github.com/diego-tella/CVE-2023-3460) :  ![starts](https://img.shields.io/github/stars/diego-tella/CVE-2023-3460.svg) ![forks](https://img.shields.io/github/forks/diego-tella/CVE-2023-3460.svg)
+
+- [https://github.com/yon3zu/Mass-CVE-2023-3460](https://github.com/yon3zu/Mass-CVE-2023-3460) :  ![starts](https://img.shields.io/github/stars/yon3zu/Mass-CVE-2023-3460.svg) ![forks](https://img.shields.io/github/forks/yon3zu/Mass-CVE-2023-3460.svg)
+
+- [https://github.com/Rajneeshkarya/CVE-2023-3460](https://github.com/Rajneeshkarya/CVE-2023-3460) :  ![starts](https://img.shields.io/github/stars/Rajneeshkarya/CVE-2023-3460.svg) ![forks](https://img.shields.io/github/forks/Rajneeshkarya/CVE-2023-3460.svg)
+
+- [https://github.com/hheeyywweellccoommee/CVE-2023-3460-obgen](https://github.com/hheeyywweellccoommee/CVE-2023-3460-obgen) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/CVE-2023-3460-obgen.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/CVE-2023-3460-obgen.svg)
+
+- [https://github.com/rizqimaulanaa/CVE-2023-3460](https://github.com/rizqimaulanaa/CVE-2023-3460) :  ![starts](https://img.shields.io/github/stars/rizqimaulanaa/CVE-2023-3460.svg) ![forks](https://img.shields.io/github/forks/rizqimaulanaa/CVE-2023-3460.svg)
+
 ## CVE-2023-3338
  A null pointer dereference flaw was found in the Linux kernel's DECnet networking protocol. This issue could allow a remote user to crash the system.
 
@@ -3014,6 +3056,8 @@
 
 
 
+- [https://github.com/mistymntncop/CVE-2023-2033](https://github.com/mistymntncop/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/mistymntncop/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/mistymntncop/CVE-2023-2033.svg)
+
 - [https://github.com/sandumjacob/CVE-2023-2033-Analysis](https://github.com/sandumjacob/CVE-2023-2033-Analysis) :  ![starts](https://img.shields.io/github/stars/sandumjacob/CVE-2023-2033-Analysis.svg) ![forks](https://img.shields.io/github/forks/sandumjacob/CVE-2023-2033-Analysis.svg)
 
 - [https://github.com/insoxin/CVE-2023-2033](https://github.com/insoxin/CVE-2023-2033) :  ![starts](https://img.shields.io/github/stars/insoxin/CVE-2023-2033.svg) ![forks](https://img.shields.io/github/forks/insoxin/CVE-2023-2033.svg)
@@ -3154,7 +3198,7 @@
 
 
 
-- [https://github.com/b35363/cve-2023-10608-PoC](https://github.com/b35363/cve-2023-10608-PoC) :  ![starts](https://img.shields.io/github/stars/b35363/cve-2023-10608-PoC.svg) ![forks](https://img.shields.io/github/forks/b35363/cve-2023-10608-PoC.svg)
+- [https://github.com/hheeyywweellccoommee/cve-2023-10608-PoC-ywawk](https://github.com/hheeyywweellccoommee/cve-2023-10608-PoC-ywawk) :  ![starts](https://img.shields.io/github/stars/hheeyywweellccoommee/cve-2023-10608-PoC-ywawk.svg) ![forks](https://img.shields.io/github/forks/hheeyywweellccoommee/cve-2023-10608-PoC-ywawk.svg)
 
 ## CVE-2023-0861
  NetModule NSRW web administration interface executes an OS command constructed with unsanitized user input. A successful exploit could allow an authenticated user to execute arbitrary commands with elevated privileges. This issue affects NSRW: from 4.3.0.0 before 4.3.0.119, from 4.4.0.0 before 4.4.0.118, from 4.6.0.0 before 4.6.0.105, from 4.7.0.0 before 4.7.0.103.
@@ -3233,11 +3277,11 @@
 
 - [https://github.com/chenaotian/CVE-2023-0386](https://github.com/chenaotian/CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/chenaotian/CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/chenaotian/CVE-2023-0386.svg)
 
+- [https://github.com/Fanxiaoyao66/CVE-2023-0386](https://github.com/Fanxiaoyao66/CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/Fanxiaoyao66/CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/Fanxiaoyao66/CVE-2023-0386.svg)
+
 - [https://github.com/veritas501/CVE-2023-0386](https://github.com/veritas501/CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/veritas501/CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/veritas501/CVE-2023-0386.svg)
 
 - [https://github.com/sxlmnwb/CVE-2023-0386](https://github.com/sxlmnwb/CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/sxlmnwb/CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/sxlmnwb/CVE-2023-0386.svg)
-
-- [https://github.com/Fanxiaoyao66/CVE-2023-0386](https://github.com/Fanxiaoyao66/CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/Fanxiaoyao66/CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/Fanxiaoyao66/CVE-2023-0386.svg)
 
 - [https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386](https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/linux-4.19.72_CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/linux-4.19.72_CVE-2023-0386.svg)
 
