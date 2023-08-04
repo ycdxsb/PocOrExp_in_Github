@@ -259,6 +259,13 @@
 
 - [https://github.com/fi01/libmsm_cameraconfig_exploit](https://github.com/fi01/libmsm_cameraconfig_exploit) :  ![starts](https://img.shields.io/github/stars/fi01/libmsm_cameraconfig_exploit.svg) ![forks](https://img.shields.io/github/forks/fi01/libmsm_cameraconfig_exploit.svg)
 
+## CVE-2013-2251
+ Apache Struts 2.0.0 through 2.3.15 allows remote attackers to execute arbitrary OGNL expressions via a parameter with a crafted (1) action:, (2) redirect:, or (3) redirectAction: prefix.
+
+
+
+- [https://github.com/nth347/CVE-2013-2251](https://github.com/nth347/CVE-2013-2251) :  ![starts](https://img.shields.io/github/stars/nth347/CVE-2013-2251.svg) ![forks](https://img.shields.io/github/forks/nth347/CVE-2013-2251.svg)
+
 ## CVE-2013-2217
  cache.py in Suds 0.4, when tempdir is set to None, allows local users to redirect SOAP queries and possibly have other unspecified impact via a symlink attack on a cache file with a predictable name in /tmp/suds/.
 
@@ -273,9 +280,9 @@
 
 - [https://github.com/GrrrDog/ACEDcup](https://github.com/GrrrDog/ACEDcup) :  ![starts](https://img.shields.io/github/stars/GrrrDog/ACEDcup.svg) ![forks](https://img.shields.io/github/forks/GrrrDog/ACEDcup.svg)
 
-- [https://github.com/sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/Payload_CVE_2013_2186.svg)
-
 - [https://github.com/sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/CVE_2013_2186.svg)
+
+- [https://github.com/sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/Payload_CVE_2013_2186.svg)
 
 ## CVE-2013-2171
  The vm_map_lookup function in sys/vm/vm_map.c in the mmap implementation in the kernel in FreeBSD 9.0 through 9.1-RELEASE-p4 does not properly determine whether a task should have write access to a memory location, which allows local users to bypass filesystem write permissions and consequently gain privileges via a crafted application that leverages read permissions, and makes mmap and ptrace system calls.
