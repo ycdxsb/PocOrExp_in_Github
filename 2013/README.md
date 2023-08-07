@@ -19,13 +19,6 @@
 
 - [https://github.com/Everdoh/CVE-2013-6490](https://github.com/Everdoh/CVE-2013-6490) :  ![starts](https://img.shields.io/github/stars/Everdoh/CVE-2013-6490.svg) ![forks](https://img.shields.io/github/forks/Everdoh/CVE-2013-6490.svg)
 
-## CVE-2013-6375
- Xen 4.2.x and 4.3.x, when using Intel VT-d for PCI passthrough, does not properly flush the TLB after clearing a present translation table entry, which allows local guest administrators to cause a denial of service or gain privileges via unspecified vectors related to an &quot;inverted boolean parameter.&quot;
-
-
-
-- [https://github.com/bl4ck5un/cve-2013-6375](https://github.com/bl4ck5un/cve-2013-6375) :  ![starts](https://img.shields.io/github/stars/bl4ck5un/cve-2013-6375.svg) ![forks](https://img.shields.io/github/forks/bl4ck5un/cve-2013-6375.svg)
-
 ## CVE-2013-6282
  The (1) get_user and (2) put_user API functions in the Linux kernel before 3.5.5 on the v6k and v7 ARM platforms do not validate certain addresses, which allows attackers to read or modify the contents of arbitrary kernel memory locations via a crafted application, as exploited in the wild against Android devices in October and November 2013.
 
@@ -287,9 +280,9 @@
 
 - [https://github.com/GrrrDog/ACEDcup](https://github.com/GrrrDog/ACEDcup) :  ![starts](https://img.shields.io/github/stars/GrrrDog/ACEDcup.svg) ![forks](https://img.shields.io/github/forks/GrrrDog/ACEDcup.svg)
 
-- [https://github.com/sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/CVE_2013_2186.svg)
-
 - [https://github.com/sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/Payload_CVE_2013_2186.svg)
+
+- [https://github.com/sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/CVE_2013_2186.svg)
 
 ## CVE-2013-2171
  The vm_map_lookup function in sys/vm/vm_map.c in the mmap implementation in the kernel in FreeBSD 9.0 through 9.1-RELEASE-p4 does not properly determine whether a task should have write access to a memory location, which allows local users to bypass filesystem write permissions and consequently gain privileges via a crafted application that leverages read permissions, and makes mmap and ptrace system calls.
