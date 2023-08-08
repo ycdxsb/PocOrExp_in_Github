@@ -19,6 +19,13 @@
 
 - [https://github.com/Everdoh/CVE-2013-6490](https://github.com/Everdoh/CVE-2013-6490) :  ![starts](https://img.shields.io/github/stars/Everdoh/CVE-2013-6490.svg) ![forks](https://img.shields.io/github/forks/Everdoh/CVE-2013-6490.svg)
 
+## CVE-2013-6375
+ Xen 4.2.x and 4.3.x, when using Intel VT-d for PCI passthrough, does not properly flush the TLB after clearing a present translation table entry, which allows local guest administrators to cause a denial of service or gain privileges via unspecified vectors related to an &quot;inverted boolean parameter.&quot;
+
+
+
+- [https://github.com/bl4ck5un/cve-2013-6375](https://github.com/bl4ck5un/cve-2013-6375) :  ![starts](https://img.shields.io/github/stars/bl4ck5un/cve-2013-6375.svg) ![forks](https://img.shields.io/github/forks/bl4ck5un/cve-2013-6375.svg)
+
 ## CVE-2013-6282
  The (1) get_user and (2) put_user API functions in the Linux kernel before 3.5.5 on the v6k and v7 ARM platforms do not validate certain addresses, which allows attackers to read or modify the contents of arbitrary kernel memory locations via a crafted application, as exploited in the wild against Android devices in October and November 2013.
 
