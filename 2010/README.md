@@ -12,13 +12,6 @@
 
 - [https://github.com/otofoto/CVE-2010-5230](https://github.com/otofoto/CVE-2010-5230) :  ![starts](https://img.shields.io/github/stars/otofoto/CVE-2010-5230.svg) ![forks](https://img.shields.io/github/forks/otofoto/CVE-2010-5230.svg)
 
-## CVE-2010-4804
- The Android browser in Android before 2.3.4 allows remote attackers to obtain SD card contents via crafted content:// URIs, related to (1) BrowserActivity.java and (2) BrowserSettings.java in com/android/browser/.
-
-
-
-- [https://github.com/thomascannon/android-cve-2010-4804](https://github.com/thomascannon/android-cve-2010-4804) :  ![starts](https://img.shields.io/github/stars/thomascannon/android-cve-2010-4804.svg) ![forks](https://img.shields.io/github/forks/thomascannon/android-cve-2010-4804.svg)
-
 ## CVE-2010-4476
  The Double.parseDouble method in Java Runtime Environment (JRE) in Oracle Java SE and Java for Business 6 Update 23 and earlier, 5.0 Update 27 and earlier, and 1.4.2_29 and earlier, as used in OpenJDK, Apache, JBossweb, and other products, allows remote attackers to cause a denial of service via a crafted string that triggers an infinite loop of estimations during conversion to a double-precision binary floating-point number, as demonstrated using 2.2250738585072012e-308.
 
@@ -74,13 +67,6 @@
 
 
 - [https://github.com/LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2](https://github.com/LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2) :  ![starts](https://img.shields.io/github/stars/LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2.svg) ![forks](https://img.shields.io/github/forks/LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2.svg)
-
-## CVE-2010-3490
- Directory traversal vulnerability in page.recordings.php in the System Recordings component in the configuration interface in FreePBX 2.8.0 and earlier allows remote authenticated administrators to create arbitrary files via a .. (dot dot) in the usersnum parameter to admin/config.php, as demonstrated by creating a .php file under the web root.
-
-
-
-- [https://github.com/moayadalmalat/CVE-2010-3490](https://github.com/moayadalmalat/CVE-2010-3490) :  ![starts](https://img.shields.io/github/stars/moayadalmalat/CVE-2010-3490.svg) ![forks](https://img.shields.io/github/forks/moayadalmalat/CVE-2010-3490.svg)
 
 ## CVE-2010-3333
  Stack-based buffer overflow in Microsoft Office XP SP3, Office 2003 SP3, Office 2007 SP2, Office 2010, Office 2004 and 2008 for Mac, Office for Mac 2011, and Open XML File Format Converter for Mac allows remote attackers to execute arbitrary code via crafted RTF data, aka &quot;RTF Stack Buffer Overflow Vulnerability.&quot;
