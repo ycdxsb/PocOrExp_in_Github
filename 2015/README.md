@@ -619,13 +619,13 @@
 
 - [https://github.com/0xm4ud/ProFTPD_CVE-2015-3306](https://github.com/0xm4ud/ProFTPD_CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/0xm4ud/ProFTPD_CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/0xm4ud/ProFTPD_CVE-2015-3306.svg)
 
+- [https://github.com/cd6629/CVE-2015-3306-Python-PoC](https://github.com/cd6629/CVE-2015-3306-Python-PoC) :  ![starts](https://img.shields.io/github/stars/cd6629/CVE-2015-3306-Python-PoC.svg) ![forks](https://img.shields.io/github/forks/cd6629/CVE-2015-3306-Python-PoC.svg)
+
 - [https://github.com/cved-sources/cve-2015-3306](https://github.com/cved-sources/cve-2015-3306) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-3306.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-3306.svg)
 
 - [https://github.com/hackarada/cve-2015-3306](https://github.com/hackarada/cve-2015-3306) :  ![starts](https://img.shields.io/github/stars/hackarada/cve-2015-3306.svg) ![forks](https://img.shields.io/github/forks/hackarada/cve-2015-3306.svg)
 
 - [https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit](https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit) :  ![starts](https://img.shields.io/github/stars/cdedmondson/Modified-CVE-2015-3306-Exploit.svg) ![forks](https://img.shields.io/github/forks/cdedmondson/Modified-CVE-2015-3306-Exploit.svg)
-
-- [https://github.com/cd6629/CVE-2015-3306-Python-PoC](https://github.com/cd6629/CVE-2015-3306-Python-PoC) :  ![starts](https://img.shields.io/github/stars/cd6629/CVE-2015-3306-Python-PoC.svg) ![forks](https://img.shields.io/github/forks/cd6629/CVE-2015-3306-Python-PoC.svg)
 
 ## CVE-2015-3224
  request.rb in Web Console before 2.1.3, as used with Ruby on Rails 3.x and 4.x, does not properly restrict the use of X-Forwarded-For headers in determining a client's IP address, which allows remote attackers to bypass the whitelisted_ips protection mechanism via a crafted request.
@@ -920,9 +920,9 @@
 
 - [https://github.com/t0kx/exploit-CVE-2015-1427](https://github.com/t0kx/exploit-CVE-2015-1427) :  ![starts](https://img.shields.io/github/stars/t0kx/exploit-CVE-2015-1427.svg) ![forks](https://img.shields.io/github/forks/t0kx/exploit-CVE-2015-1427.svg)
 
-- [https://github.com/cved-sources/cve-2015-1427](https://github.com/cved-sources/cve-2015-1427) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-1427.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-1427.svg)
-
 - [https://github.com/h3inzzz/cve2015_1427](https://github.com/h3inzzz/cve2015_1427) :  ![starts](https://img.shields.io/github/stars/h3inzzz/cve2015_1427.svg) ![forks](https://img.shields.io/github/forks/h3inzzz/cve2015_1427.svg)
+
+- [https://github.com/cved-sources/cve-2015-1427](https://github.com/cved-sources/cve-2015-1427) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-1427.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-1427.svg)
 
 - [https://github.com/xpgdgit/CVE-2015-1427](https://github.com/xpgdgit/CVE-2015-1427) :  ![starts](https://img.shields.io/github/stars/xpgdgit/CVE-2015-1427.svg) ![forks](https://img.shields.io/github/forks/xpgdgit/CVE-2015-1427.svg)
 
