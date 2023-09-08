@@ -10,8 +10,6 @@
 
 
 
-- [https://github.com/mdisec/CVE-2014-9390](https://github.com/mdisec/CVE-2014-9390) :  ![starts](https://img.shields.io/github/stars/mdisec/CVE-2014-9390.svg) ![forks](https://img.shields.io/github/forks/mdisec/CVE-2014-9390.svg)
-
 - [https://github.com/hakatashi/CVE-2014-9390](https://github.com/hakatashi/CVE-2014-9390) :  ![starts](https://img.shields.io/github/stars/hakatashi/CVE-2014-9390.svg) ![forks](https://img.shields.io/github/forks/hakatashi/CVE-2014-9390.svg)
 
 ## CVE-2014-9322
@@ -391,7 +389,7 @@
 - [https://github.com/brookeses69/CVE-2014-5460](https://github.com/brookeses69/CVE-2014-5460) :  ![starts](https://img.shields.io/github/stars/brookeses69/CVE-2014-5460.svg) ![forks](https://img.shields.io/github/forks/brookeses69/CVE-2014-5460.svg)
 
 ## CVE-2014-5329
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
+ GIGAPOD file servers (Appliance model and Software model) provide two web interfaces, 80/tcp and 443/tcp for user operation, and 8001/tcp for administrative operation. 8001/tcp is served by a version of Apache HTTP server containing a flaw in handling HTTP requests (CVE-2011-3192), which may lead to a denial-of-service (DoS) condition.
 
 
 
@@ -977,9 +975,9 @@
 
 - [https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker](https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker) :  ![starts](https://img.shields.io/github/stars/waqasjamal-zz/HeartBleed-Vulnerability-Checker.svg) ![forks](https://img.shields.io/github/forks/waqasjamal-zz/HeartBleed-Vulnerability-Checker.svg)
 
-- [https://github.com/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC](https://github.com/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC) :  ![starts](https://img.shields.io/github/stars/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC.svg) ![forks](https://img.shields.io/github/forks/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC.svg)
-
 - [https://github.com/cheese-hub/heartbleed](https://github.com/cheese-hub/heartbleed) :  ![starts](https://img.shields.io/github/stars/cheese-hub/heartbleed.svg) ![forks](https://img.shields.io/github/forks/cheese-hub/heartbleed.svg)
+
+- [https://github.com/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC](https://github.com/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC) :  ![starts](https://img.shields.io/github/stars/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC.svg) ![forks](https://img.shields.io/github/forks/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC.svg)
 
 - [https://github.com/cved-sources/cve-2014-0160](https://github.com/cved-sources/cve-2014-0160) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2014-0160.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2014-0160.svg)
 
@@ -1011,9 +1009,9 @@
 
 - [https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS) :  ![starts](https://img.shields.io/github/stars/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg) ![forks](https://img.shields.io/github/forks/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg)
 
-- [https://github.com/indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-) :  ![starts](https://img.shields.io/github/stars/indiw0rm/-Heartbleed-.svg) ![forks](https://img.shields.io/github/forks/indiw0rm/-Heartbleed-.svg)
-
 - [https://github.com/takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse) :  ![starts](https://img.shields.io/github/stars/takeshixx/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/takeshixx/ssl-heartbleed.nse.svg)
+
+- [https://github.com/indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-) :  ![starts](https://img.shields.io/github/stars/indiw0rm/-Heartbleed-.svg) ![forks](https://img.shields.io/github/forks/indiw0rm/-Heartbleed-.svg)
 
 - [https://github.com/iSCInc/heartbleed](https://github.com/iSCInc/heartbleed) :  ![starts](https://img.shields.io/github/stars/iSCInc/heartbleed.svg) ![forks](https://img.shields.io/github/forks/iSCInc/heartbleed.svg)
 
@@ -1027,9 +1025,9 @@
 
 - [https://github.com/ThanHuuTuan/Heartexploit](https://github.com/ThanHuuTuan/Heartexploit) :  ![starts](https://img.shields.io/github/stars/ThanHuuTuan/Heartexploit.svg) ![forks](https://img.shields.io/github/forks/ThanHuuTuan/Heartexploit.svg)
 
-- [https://github.com/PinkP4nther/Heartbleed_PoC](https://github.com/PinkP4nther/Heartbleed_PoC) :  ![starts](https://img.shields.io/github/stars/PinkP4nther/Heartbleed_PoC.svg) ![forks](https://img.shields.io/github/forks/PinkP4nther/Heartbleed_PoC.svg)
-
 - [https://github.com/pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart) :  ![starts](https://img.shields.io/github/stars/pierceoneill/bleeding-heart.svg) ![forks](https://img.shields.io/github/forks/pierceoneill/bleeding-heart.svg)
+
+- [https://github.com/PinkP4nther/Heartbleed_PoC](https://github.com/PinkP4nther/Heartbleed_PoC) :  ![starts](https://img.shields.io/github/stars/PinkP4nther/Heartbleed_PoC.svg) ![forks](https://img.shields.io/github/forks/PinkP4nther/Heartbleed_PoC.svg)
 
 - [https://github.com/xanas/heartbleed.py](https://github.com/xanas/heartbleed.py) :  ![starts](https://img.shields.io/github/stars/xanas/heartbleed.py.svg) ![forks](https://img.shields.io/github/forks/xanas/heartbleed.py.svg)
 
