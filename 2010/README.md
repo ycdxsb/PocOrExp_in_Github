@@ -203,3 +203,10 @@
 - [https://github.com/cved-sources/cve-2010-0426](https://github.com/cved-sources/cve-2010-0426) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2010-0426.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2010-0426.svg)
 
 - [https://github.com/g1vi/CVE-2010-0426](https://github.com/g1vi/CVE-2010-0426) :  ![starts](https://img.shields.io/github/stars/g1vi/CVE-2010-0426.svg) ![forks](https://img.shields.io/github/forks/g1vi/CVE-2010-0426.svg)
+
+## CVE-2010-0232
+ The kernel in Microsoft Windows NT 3.1 through Windows 7, including Windows 2000 SP4, Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista Gold, SP1, and SP2, and Windows Server 2008 Gold and SP2, when access to 16-bit applications is enabled on a 32-bit x86 platform, does not properly validate certain BIOS calls, which allows local users to gain privileges by crafting a VDM_TIB data structure in the Thread Environment Block (TEB), and then calling the NtVdmControl function to start the Windows Virtual DOS Machine (aka NTVDM) subsystem, leading to improperly handled exceptions involving the #GP trap handler (nt!KiTrap0D), aka &quot;Windows Kernel Exception Handler Vulnerability.&quot;
+
+
+
+- [https://github.com/azorfus/CVE-2010-0232](https://github.com/azorfus/CVE-2010-0232) :  ![starts](https://img.shields.io/github/stars/azorfus/CVE-2010-0232.svg) ![forks](https://img.shields.io/github/forks/azorfus/CVE-2010-0232.svg)
