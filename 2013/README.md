@@ -108,13 +108,6 @@
 
 - [https://github.com/cyberharsh/Nginx-CVE-2013-4547](https://github.com/cyberharsh/Nginx-CVE-2013-4547) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Nginx-CVE-2013-4547.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Nginx-CVE-2013-4547.svg)
 
-## CVE-2013-4434
- Dropbear SSH Server before 2013.59 generates error messages for a failed logon attempt with different time delays depending on whether the user account exists, which allows remote attackers to discover valid usernames.
-
-
-
-- [https://github.com/styx00/Dropbear_CVE-2013-4434](https://github.com/styx00/Dropbear_CVE-2013-4434) :  ![starts](https://img.shields.io/github/stars/styx00/Dropbear_CVE-2013-4434.svg) ![forks](https://img.shields.io/github/forks/styx00/Dropbear_CVE-2013-4434.svg)
-
 ## CVE-2013-4378
  Cross-site scripting (XSS) vulnerability in HtmlSessionInformationsReport.java in JavaMelody 1.46 and earlier allows remote attackers to inject arbitrary web script or HTML via a crafted X-Forwarded-For header.
 
