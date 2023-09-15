@@ -27,7 +27,7 @@
 - [https://github.com/actuator/com.cutestudio.colordialer](https://github.com/actuator/com.cutestudio.colordialer) :  ![starts](https://img.shields.io/github/stars/actuator/com.cutestudio.colordialer.svg) ![forks](https://img.shields.io/github/forks/actuator/com.cutestudio.colordialer.svg)
 
 ## CVE-2023-42362
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An arbitrary file upload vulnerability in Teller Web App v.4.4.0 allows a remote attacker to execute arbitrary commands and obtain sensitive information via uploading a crafted file.
 
 
 
@@ -139,14 +139,14 @@
 - [https://github.com/Yobing1/CVE-2023-40924](https://github.com/Yobing1/CVE-2023-40924) :  ![starts](https://img.shields.io/github/stars/Yobing1/CVE-2023-40924.svg) ![forks](https://img.shields.io/github/forks/Yobing1/CVE-2023-40924.svg)
 
 ## CVE-2023-40869
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Scripting vulnerability in mooSocial mooSocial Software 3.1.6 and 3.1.7 allows a remote attacker to execute arbitrary code via a crafted script to the edit_menu, copuon, and group_categorias functions.
 
 
 
 - [https://github.com/MinoTauro2020/CVE-2023-40869](https://github.com/MinoTauro2020/CVE-2023-40869) :  ![starts](https://img.shields.io/github/stars/MinoTauro2020/CVE-2023-40869.svg) ![forks](https://img.shields.io/github/forks/MinoTauro2020/CVE-2023-40869.svg)
 
 ## CVE-2023-40868
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Request Forgery vulnerability in mooSocial MooSocial Software v.Demo allows a remote attacker to execute arbitrary code via the Delete Account and Deactivate functions.
 
 
 
@@ -330,7 +330,7 @@
 - [https://github.com/afine-com/CVE-2023-39062](https://github.com/afine-com/CVE-2023-39062) :  ![starts](https://img.shields.io/github/stars/afine-com/CVE-2023-39062.svg) ![forks](https://img.shields.io/github/forks/afine-com/CVE-2023-39062.svg)
 
 ## CVE-2023-38891
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL injection vulnerability in Vtiger CRM v.7.5.0 allows a remote authenticated attacker to escalate privileges via the getQueryColumnsList function in ReportRun.php.
 
 
 
@@ -395,21 +395,19 @@
 
 - [https://github.com/asepsaepdin/CVE-2023-38831](https://github.com/asepsaepdin/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/asepsaepdin/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/asepsaepdin/CVE-2023-38831.svg)
 
-- [https://github.com/nhman-python/CVE-2023-38831](https://github.com/nhman-python/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/nhman-python/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/nhman-python/CVE-2023-38831.svg)
-
 - [https://github.com/xaitax/WinRAR-CVE-2023-38831](https://github.com/xaitax/WinRAR-CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/xaitax/WinRAR-CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/xaitax/WinRAR-CVE-2023-38831.svg)
+
+- [https://github.com/nhman-python/CVE-2023-38831](https://github.com/nhman-python/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/nhman-python/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/nhman-python/CVE-2023-38831.svg)
 
 - [https://github.com/LuxCodeDev/CVE-2023-38831_WinRAR](https://github.com/LuxCodeDev/CVE-2023-38831_WinRAR) :  ![starts](https://img.shields.io/github/stars/LuxCodeDev/CVE-2023-38831_WinRAR.svg) ![forks](https://img.shields.io/github/forks/LuxCodeDev/CVE-2023-38831_WinRAR.svg)
 
 - [https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit](https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2023-38831-winrar-exploit.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2023-38831-winrar-exploit.svg)
 
-- [https://github.com/Rezaguii/winrar-exploit-CVE-2023-38831-tool](https://github.com/Rezaguii/winrar-exploit-CVE-2023-38831-tool) :  ![starts](https://img.shields.io/github/stars/Rezaguii/winrar-exploit-CVE-2023-38831-tool.svg) ![forks](https://img.shields.io/github/forks/Rezaguii/winrar-exploit-CVE-2023-38831-tool.svg)
-
 - [https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar](https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar) :  ![starts](https://img.shields.io/github/stars/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar.svg) ![forks](https://img.shields.io/github/forks/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar.svg)
 
-- [https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit](https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit) :  ![starts](https://img.shields.io/github/stars/ameerpornillos/CVE-2023-38831-WinRAR-Exploit.svg) ![forks](https://img.shields.io/github/forks/ameerpornillos/CVE-2023-38831-WinRAR-Exploit.svg)
-
 - [https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection](https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection) :  ![starts](https://img.shields.io/github/stars/MortySecurity/CVE-2023-38831-Exploit-and-Detection.svg) ![forks](https://img.shields.io/github/forks/MortySecurity/CVE-2023-38831-Exploit-and-Detection.svg)
+
+- [https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit](https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit) :  ![starts](https://img.shields.io/github/stars/ameerpornillos/CVE-2023-38831-WinRAR-Exploit.svg) ![forks](https://img.shields.io/github/forks/ameerpornillos/CVE-2023-38831-WinRAR-Exploit.svg)
 
 ## CVE-2023-38829
  An issue in NETIS SYSTEMS WF2409E v.3.6.42541 allows a remote attacker to execute arbitrary code via the ping and traceroute functions of the diagnostic tools component in the admin management interface.
@@ -448,9 +446,9 @@
 
 - [https://github.com/0xrobiul/CVE-2023-38646](https://github.com/0xrobiul/CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/0xrobiul/CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/0xrobiul/CVE-2023-38646.svg)
 
-- [https://github.com/securezeron/CVE-2023-38646](https://github.com/securezeron/CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/securezeron/CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/securezeron/CVE-2023-38646.svg)
-
 - [https://github.com/getdrive/PoC](https://github.com/getdrive/PoC) :  ![starts](https://img.shields.io/github/stars/getdrive/PoC.svg) ![forks](https://img.shields.io/github/forks/getdrive/PoC.svg)
+
+- [https://github.com/securezeron/CVE-2023-38646](https://github.com/securezeron/CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/securezeron/CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/securezeron/CVE-2023-38646.svg)
 
 - [https://github.com/Pumpkin-Garden/POC_Metabase_CVE-2023-38646](https://github.com/Pumpkin-Garden/POC_Metabase_CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/Pumpkin-Garden/POC_Metabase_CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/Pumpkin-Garden/POC_Metabase_CVE-2023-38646.svg)
 
@@ -602,21 +600,21 @@
 - [https://github.com/anky-123/CVE-2023-37771](https://github.com/anky-123/CVE-2023-37771) :  ![starts](https://img.shields.io/github/stars/anky-123/CVE-2023-37771.svg) ![forks](https://img.shields.io/github/forks/anky-123/CVE-2023-37771.svg)
 
 ## CVE-2023-37756
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ I-doit pro 25 and below and I-doit open 25 and below employ weak password requirements for Administrator account creation. Attackers are able to easily guess users' passwords via a bruteforce attack.
 
 
 
 - [https://github.com/leekenghwa/CVE-2023-37756-CWE-521-lead-to-malicious-plugin-upload-in-the-i-doit-Pro-25-and-below](https://github.com/leekenghwa/CVE-2023-37756-CWE-521-lead-to-malicious-plugin-upload-in-the-i-doit-Pro-25-and-below) :  ![starts](https://img.shields.io/github/stars/leekenghwa/CVE-2023-37756-CWE-521-lead-to-malicious-plugin-upload-in-the-i-doit-Pro-25-and-below.svg) ![forks](https://img.shields.io/github/forks/leekenghwa/CVE-2023-37756-CWE-521-lead-to-malicious-plugin-upload-in-the-i-doit-Pro-25-and-below.svg)
 
 ## CVE-2023-37755
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ i-doit pro 25 and below and I-doit open 25 and below are configured with insecure default administrator credentials, and there is no warning or prompt to ask users to change the default password and account name. Unauthenticated attackers can exploit this vulnerability to obtain Administrator privileges, resulting in them being able to perform arbitrary system operations or cause a Denial of Service (DoS).
 
 
 
 - [https://github.com/leekenghwa/CVE-2023-37755---Hardcoded-Admin-Credential-in-i-doit-Pro-25-and-below](https://github.com/leekenghwa/CVE-2023-37755---Hardcoded-Admin-Credential-in-i-doit-Pro-25-and-below) :  ![starts](https://img.shields.io/github/stars/leekenghwa/CVE-2023-37755---Hardcoded-Admin-Credential-in-i-doit-Pro-25-and-below.svg) ![forks](https://img.shields.io/github/forks/leekenghwa/CVE-2023-37755---Hardcoded-Admin-Credential-in-i-doit-Pro-25-and-below.svg)
 
 ## CVE-2023-37739
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ i-doit Pro v25 and below was discovered to be vulnerable to path traversal.
 
 
 
@@ -801,7 +799,7 @@
 - [https://github.com/tagomaru/CVE-2023-36281](https://github.com/tagomaru/CVE-2023-36281) :  ![starts](https://img.shields.io/github/stars/tagomaru/CVE-2023-36281.svg) ![forks](https://img.shields.io/github/forks/tagomaru/CVE-2023-36281.svg)
 
 ## CVE-2023-36250
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ CSV Injection vulnerability in GNOME time tracker version 3.0.2, allows local attackers to execute arbitrary code via crafted .tsv file when creating a new record.
 
 
 
@@ -977,8 +975,6 @@
 
 
 - [https://github.com/vchan-in/CVE-2023-35078-Exploit-POC](https://github.com/vchan-in/CVE-2023-35078-Exploit-POC) :  ![starts](https://img.shields.io/github/stars/vchan-in/CVE-2023-35078-Exploit-POC.svg) ![forks](https://img.shields.io/github/forks/vchan-in/CVE-2023-35078-Exploit-POC.svg)
-
-- [https://github.com/getdrive/PoC](https://github.com/getdrive/PoC) :  ![starts](https://img.shields.io/github/stars/getdrive/PoC.svg) ![forks](https://img.shields.io/github/forks/getdrive/PoC.svg)
 
 - [https://github.com/LazyySec/CVE-2023-35078](https://github.com/LazyySec/CVE-2023-35078) :  ![starts](https://img.shields.io/github/stars/LazyySec/CVE-2023-35078.svg) ![forks](https://img.shields.io/github/forks/LazyySec/CVE-2023-35078.svg)
 
@@ -1222,8 +1218,6 @@
 
 - [https://github.com/sinsinology/CVE-2023-34039](https://github.com/sinsinology/CVE-2023-34039) :  ![starts](https://img.shields.io/github/stars/sinsinology/CVE-2023-34039.svg) ![forks](https://img.shields.io/github/forks/sinsinology/CVE-2023-34039.svg)
 
-- [https://github.com/getdrive/PoC](https://github.com/getdrive/PoC) :  ![starts](https://img.shields.io/github/stars/getdrive/PoC.svg) ![forks](https://img.shields.io/github/forks/getdrive/PoC.svg)
-
 - [https://github.com/Cyb3rEnthusiast/CVE-2023-34039](https://github.com/Cyb3rEnthusiast/CVE-2023-34039) :  ![starts](https://img.shields.io/github/stars/Cyb3rEnthusiast/CVE-2023-34039.svg) ![forks](https://img.shields.io/github/forks/Cyb3rEnthusiast/CVE-2023-34039.svg)
 
 - [https://github.com/syedhafiz1234/CVE-2023-34039](https://github.com/syedhafiz1234/CVE-2023-34039) :  ![starts](https://img.shields.io/github/stars/syedhafiz1234/CVE-2023-34039.svg) ![forks](https://img.shields.io/github/forks/syedhafiz1234/CVE-2023-34039.svg)
@@ -1453,9 +1447,9 @@
 
 - [https://github.com/CKevens/CVE-2023-33246](https://github.com/CKevens/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-33246.svg)
 
-- [https://github.com/Devil0ll/CVE-2023-33246](https://github.com/Devil0ll/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/Devil0ll/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/Devil0ll/CVE-2023-33246.svg)
-
 - [https://github.com/d0rb/CVE-2023-33246](https://github.com/d0rb/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2023-33246.svg)
+
+- [https://github.com/Devil0ll/CVE-2023-33246](https://github.com/Devil0ll/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/Devil0ll/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/Devil0ll/CVE-2023-33246.svg)
 
 ## CVE-2023-33243
  RedTeam Pentesting discovered that the web interface of STARFACE as well as its REST API allows authentication using the SHA512 hash of the password instead of the cleartext password. While storing password hashes instead of cleartext passwords in an application's database generally has become best practice to protect users' passwords in case of a database compromise, this is rendered ineffective when allowing to authenticate using the password hash.
@@ -1531,9 +1525,9 @@
 
 - [https://github.com/miko550/CVE-2023-32315](https://github.com/miko550/CVE-2023-32315) :  ![starts](https://img.shields.io/github/stars/miko550/CVE-2023-32315.svg) ![forks](https://img.shields.io/github/forks/miko550/CVE-2023-32315.svg)
 
-- [https://github.com/izzz0/CVE-2023-32315-POC](https://github.com/izzz0/CVE-2023-32315-POC) :  ![starts](https://img.shields.io/github/stars/izzz0/CVE-2023-32315-POC.svg) ![forks](https://img.shields.io/github/forks/izzz0/CVE-2023-32315-POC.svg)
-
 - [https://github.com/Pari-Malam/CVE-2023-32315](https://github.com/Pari-Malam/CVE-2023-32315) :  ![starts](https://img.shields.io/github/stars/Pari-Malam/CVE-2023-32315.svg) ![forks](https://img.shields.io/github/forks/Pari-Malam/CVE-2023-32315.svg)
+
+- [https://github.com/izzz0/CVE-2023-32315-POC](https://github.com/izzz0/CVE-2023-32315-POC) :  ![starts](https://img.shields.io/github/stars/izzz0/CVE-2023-32315-POC.svg) ![forks](https://img.shields.io/github/forks/izzz0/CVE-2023-32315-POC.svg)
 
 - [https://github.com/gibran-abdillah/CVE-2023-32315](https://github.com/gibran-abdillah/CVE-2023-32315) :  ![starts](https://img.shields.io/github/stars/gibran-abdillah/CVE-2023-32315.svg) ![forks](https://img.shields.io/github/forks/gibran-abdillah/CVE-2023-32315.svg)
 
@@ -1954,9 +1948,9 @@
 
 - [https://github.com/AAsh035/CVE-2023-30212](https://github.com/AAsh035/CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/AAsh035/CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/AAsh035/CVE-2023-30212.svg)
 
-- [https://github.com/Anandhu990/CVE-2023-30212-iab](https://github.com/Anandhu990/CVE-2023-30212-iab) :  ![starts](https://img.shields.io/github/stars/Anandhu990/CVE-2023-30212-iab.svg) ![forks](https://img.shields.io/github/forks/Anandhu990/CVE-2023-30212-iab.svg)
-
 - [https://github.com/kai-iszz/CVE-2023-30212](https://github.com/kai-iszz/CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/kai-iszz/CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/kai-iszz/CVE-2023-30212.svg)
+
+- [https://github.com/Anandhu990/CVE-2023-30212-iab](https://github.com/Anandhu990/CVE-2023-30212-iab) :  ![starts](https://img.shields.io/github/stars/Anandhu990/CVE-2023-30212-iab.svg) ![forks](https://img.shields.io/github/forks/Anandhu990/CVE-2023-30212-iab.svg)
 
 - [https://github.com/Anandhu990/CVE-2023-30212_lab](https://github.com/Anandhu990/CVE-2023-30212_lab) :  ![starts](https://img.shields.io/github/stars/Anandhu990/CVE-2023-30212_lab.svg) ![forks](https://img.shields.io/github/forks/Anandhu990/CVE-2023-30212_lab.svg)
 
@@ -1964,9 +1958,9 @@
 
 - [https://github.com/Anandhu990/r-CVE-2023-30212-lab](https://github.com/Anandhu990/r-CVE-2023-30212-lab) :  ![starts](https://img.shields.io/github/stars/Anandhu990/r-CVE-2023-30212-lab.svg) ![forks](https://img.shields.io/github/forks/Anandhu990/r-CVE-2023-30212-lab.svg)
 
-- [https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212](https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/VisDev23/Vulnerable-Docker-CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/VisDev23/Vulnerable-Docker-CVE-2023-30212.svg)
-
 - [https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-](https://github.com/VisDev23/Vulnerable-Docker--CVE-2023-30212-) :  ![starts](https://img.shields.io/github/stars/VisDev23/Vulnerable-Docker--CVE-2023-30212-.svg) ![forks](https://img.shields.io/github/forks/VisDev23/Vulnerable-Docker--CVE-2023-30212-.svg)
+
+- [https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212](https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212) :  ![starts](https://img.shields.io/github/stars/VisDev23/Vulnerable-Docker-CVE-2023-30212.svg) ![forks](https://img.shields.io/github/forks/VisDev23/Vulnerable-Docker-CVE-2023-30212.svg)
 
 - [https://github.com/Anandhu990/r-CVE-2023-30212--lab](https://github.com/Anandhu990/r-CVE-2023-30212--lab) :  ![starts](https://img.shields.io/github/stars/Anandhu990/r-CVE-2023-30212--lab.svg) ![forks](https://img.shields.io/github/forks/Anandhu990/r-CVE-2023-30212--lab.svg)
 
@@ -2190,6 +2184,13 @@
 - [https://github.com/x-Defender/CVE-2023-29007_win-version](https://github.com/x-Defender/CVE-2023-29007_win-version) :  ![starts](https://img.shields.io/github/stars/x-Defender/CVE-2023-29007_win-version.svg) ![forks](https://img.shields.io/github/forks/x-Defender/CVE-2023-29007_win-version.svg)
 
 - [https://github.com/omespino/CVE-2023-29007](https://github.com/omespino/CVE-2023-29007) :  ![starts](https://img.shields.io/github/stars/omespino/CVE-2023-29007.svg) ![forks](https://img.shields.io/github/forks/omespino/CVE-2023-29007.svg)
+
+## CVE-2023-28810
+ Some access control/intercom products have unauthorized modification of device network configuration vulnerabilities. Attackers can modify device network configuration by sending specific data packets to the vulnerable interface within the same local network.
+
+
+
+- [https://github.com/skylightcyber/CVE-2023-28810](https://github.com/skylightcyber/CVE-2023-28810) :  ![starts](https://img.shields.io/github/stars/skylightcyber/CVE-2023-28810.svg) ![forks](https://img.shields.io/github/forks/skylightcyber/CVE-2023-28810.svg)
 
 ## CVE-2023-28772
  An issue was discovered in the Linux kernel before 5.13.3. lib/seq_buf.c has a seq_buf_putmem_hex buffer overflow.
@@ -3661,9 +3662,9 @@
 
 
 
-- [https://github.com/RegularITCat/CVE-2023-20073](https://github.com/RegularITCat/CVE-2023-20073) :  ![starts](https://img.shields.io/github/stars/RegularITCat/CVE-2023-20073.svg) ![forks](https://img.shields.io/github/forks/RegularITCat/CVE-2023-20073.svg)
-
 - [https://github.com/codeb0ss/CVE-2023-20073-](https://github.com/codeb0ss/CVE-2023-20073-) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2023-20073-.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2023-20073-.svg)
+
+- [https://github.com/RegularITCat/CVE-2023-20073](https://github.com/RegularITCat/CVE-2023-20073) :  ![starts](https://img.shields.io/github/stars/RegularITCat/CVE-2023-20073.svg) ![forks](https://img.shields.io/github/forks/RegularITCat/CVE-2023-20073.svg)
 
 ## CVE-2023-20052
  On Feb 15, 2023, the following vulnerability in the ClamAV scanning library was disclosed: A vulnerability in the DMG file parser of ClamAV versions 1.0.0 and earlier, 0.105.1 and earlier, and 0.103.7 and earlier could allow an unauthenticated, remote attacker to access sensitive information on an affected device. This vulnerability is due to enabling XML entity substitution that may result in XML external entity injection. An attacker could exploit this vulnerability by submitting a crafted DMG file to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to leak bytes from any file that may be read by the ClamAV scanning process.
@@ -3781,9 +3782,9 @@
 
 
 
-- [https://github.com/zh-byte/CVE-2023-3836](https://github.com/zh-byte/CVE-2023-3836) :  ![starts](https://img.shields.io/github/stars/zh-byte/CVE-2023-3836.svg) ![forks](https://img.shields.io/github/forks/zh-byte/CVE-2023-3836.svg)
-
 - [https://github.com/codeb0ss/CVE-2023-3836](https://github.com/codeb0ss/CVE-2023-3836) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2023-3836.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2023-3836.svg)
+
+- [https://github.com/zh-byte/CVE-2023-3836](https://github.com/zh-byte/CVE-2023-3836) :  ![starts](https://img.shields.io/github/stars/zh-byte/CVE-2023-3836.svg) ![forks](https://img.shields.io/github/forks/zh-byte/CVE-2023-3836.svg)
 
 ## CVE-2023-3812
  An out-of-bounds memory access flaw was found in the Linux kernel&#8217;s TUN/TAP device driver functionality in how a user generates a malicious (too big) networking packet when napi frags is enabled. This flaw allows a local user to crash or potentially escalate their privileges on the system.
@@ -3873,6 +3874,8 @@
 
 
 - [https://github.com/yuanjinyuyuyu/CVE-2023-3450](https://github.com/yuanjinyuyuyu/CVE-2023-3450) :  ![starts](https://img.shields.io/github/stars/yuanjinyuyuyu/CVE-2023-3450.svg) ![forks](https://img.shields.io/github/forks/yuanjinyuyuyu/CVE-2023-3450.svg)
+
+- [https://github.com/caopengyan/CVE-2023-3450](https://github.com/caopengyan/CVE-2023-3450) :  ![starts](https://img.shields.io/github/stars/caopengyan/CVE-2023-3450.svg) ![forks](https://img.shields.io/github/forks/caopengyan/CVE-2023-3450.svg)
 
 ## CVE-2023-3338
  A null pointer dereference flaw was found in the Linux kernel's DECnet networking protocol. This issue could allow a remote user to crash the system.
@@ -4224,9 +4227,9 @@
 
 - [https://github.com/CKevens/CVE-2023-1454-EXP](https://github.com/CKevens/CVE-2023-1454-EXP) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-1454-EXP.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-1454-EXP.svg)
 
-- [https://github.com/BugFor-Pings/CVE-2023-1454](https://github.com/BugFor-Pings/CVE-2023-1454) :  ![starts](https://img.shields.io/github/stars/BugFor-Pings/CVE-2023-1454.svg) ![forks](https://img.shields.io/github/forks/BugFor-Pings/CVE-2023-1454.svg)
-
 - [https://github.com/cjybao/CVE-2023-1454](https://github.com/cjybao/CVE-2023-1454) :  ![starts](https://img.shields.io/github/stars/cjybao/CVE-2023-1454.svg) ![forks](https://img.shields.io/github/forks/cjybao/CVE-2023-1454.svg)
+
+- [https://github.com/BugFor-Pings/CVE-2023-1454](https://github.com/BugFor-Pings/CVE-2023-1454) :  ![starts](https://img.shields.io/github/stars/BugFor-Pings/CVE-2023-1454.svg) ![forks](https://img.shields.io/github/forks/BugFor-Pings/CVE-2023-1454.svg)
 
 ## CVE-2023-1430
  The FluentCRM - Marketing Automation For WordPress plugin for WordPress is vulnerable to unauthorized modification of data in versions up to, and including, 2.7.40 due to the use of an MD5 hash without a salt to control subscriptions. This makes it possible for unauthenticated attackers to unsubscribe users from lists and manage subscriptions, granted they gain access to any targeted subscribers email address.
@@ -4270,9 +4273,9 @@
 
 
 
-- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)
-
 - [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)
+
+- [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)
 
 ## CVE-2023-1177
  Path Traversal: '\..\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.
