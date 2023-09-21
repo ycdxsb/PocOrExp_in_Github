@@ -159,6 +159,13 @@
 
 - [https://github.com/strainerart/Spring4Shell](https://github.com/strainerart/Spring4Shell) :  ![starts](https://img.shields.io/github/stars/strainerart/Spring4Shell.svg) ![forks](https://img.shields.io/github/forks/strainerart/Spring4Shell.svg)
 
+## CVE-2010-1598
+ phpThumb.php in phpThumb() 1.7.9 and possibly other versions, when ImageMagick is installed, allows remote attackers to execute arbitrary commands via the fltr[] parameter, as discovered in the wild in April 2010.  NOTE: the provenance of this information is unknown; the details are obtained solely from third party information.
+
+
+
+- [https://github.com/connar/vulnerable_phpThumb](https://github.com/connar/vulnerable_phpThumb) :  ![starts](https://img.shields.io/github/stars/connar/vulnerable_phpThumb.svg) ![forks](https://img.shields.io/github/forks/connar/vulnerable_phpThumb.svg)
+
 ## CVE-2010-1411
  Multiple integer overflows in the Fax3SetupState function in tif_fax3.c in the FAX3 decoder in LibTIFF before 3.9.3, as used in ImageIO in Apple Mac OS X 10.5.8 and Mac OS X 10.6 before 10.6.4, allow remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted TIFF file that triggers a heap-based buffer overflow.
 
