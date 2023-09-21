@@ -5,6 +5,13 @@
 
 - [https://github.com/stoicboomer/CVE-2013-6987](https://github.com/stoicboomer/CVE-2013-6987) :  ![starts](https://img.shields.io/github/stars/stoicboomer/CVE-2013-6987.svg) ![forks](https://img.shields.io/github/forks/stoicboomer/CVE-2013-6987.svg)
 
+## CVE-2013-6919
+ The default configuration of phpThumb before 1.7.12 has a false value for the disable_debug option, which allows remote attackers to conduct Server-Side Request Forgery (SSRF) attacks via the src parameter.
+
+
+
+- [https://github.com/connar/vulnerable_phpThumb](https://github.com/connar/vulnerable_phpThumb) :  ![starts](https://img.shields.io/github/stars/connar/vulnerable_phpThumb.svg) ![forks](https://img.shields.io/github/forks/connar/vulnerable_phpThumb.svg)
+
 ## CVE-2013-6668
  Multiple unspecified vulnerabilities in Google V8 before 3.24.35.10, as used in Google Chrome before 33.0.1750.146, allow attackers to cause a denial of service or possibly have other impact via unknown vectors.
 
@@ -287,9 +294,9 @@
 
 - [https://github.com/GrrrDog/ACEDcup](https://github.com/GrrrDog/ACEDcup) :  ![starts](https://img.shields.io/github/stars/GrrrDog/ACEDcup.svg) ![forks](https://img.shields.io/github/forks/GrrrDog/ACEDcup.svg)
 
-- [https://github.com/sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/CVE_2013_2186.svg)
-
 - [https://github.com/sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/Payload_CVE_2013_2186.svg)
+
+- [https://github.com/sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/CVE_2013_2186.svg)
 
 ## CVE-2013-2171
  The vm_map_lookup function in sys/vm/vm_map.c in the mmap implementation in the kernel in FreeBSD 9.0 through 9.1-RELEASE-p4 does not properly determine whether a task should have write access to a memory location, which allows local users to bypass filesystem write permissions and consequently gain privileges via a crafted application that leverages read permissions, and makes mmap and ptrace system calls.
