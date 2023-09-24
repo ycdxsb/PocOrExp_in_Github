@@ -1,96 +1,78 @@
-# Update 2023-09-23
-## CVE-2023-43339
+# Update 2023-09-24
+## CVE-2023-43326
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation](https://github.com/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation) :  ![starts](https://img.shields.io/github/stars/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation.svg) ![forks](https://img.shields.io/github/forks/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation.svg)
+- [https://github.com/ahrixia/CVE-2023-43326](https://github.com/ahrixia/CVE-2023-43326) :  ![starts](https://img.shields.io/github/stars/ahrixia/CVE-2023-43326.svg) ![forks](https://img.shields.io/github/forks/ahrixia/CVE-2023-43326.svg)
 
 
-## CVE-2023-41436
- Cross Site Scripting vulnerability in CSZCMS v.1.3.0 allows a local attacker to execute arbitrary code via a crafted script to the Additional Meta Tag parameter in the Pages Content Menu component.
-
-- [https://github.com/sromanhu/CVE-2023-41436-CSZ-CMS-Stored-XSS---Pages-Content](https://github.com/sromanhu/CVE-2023-41436-CSZ-CMS-Stored-XSS---Pages-Content) :  ![starts](https://img.shields.io/github/stars/sromanhu/CVE-2023-41436-CSZ-CMS-Stored-XSS---Pages-Content.svg) ![forks](https://img.shields.io/github/forks/sromanhu/CVE-2023-41436-CSZ-CMS-Stored-XSS---Pages-Content.svg)
-
-
-## CVE-2023-38831
- RARLabs WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through August 2023.
-
-- [https://github.com/malvika-thakur/CVE-2023-38831](https://github.com/malvika-thakur/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/malvika-thakur/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/malvika-thakur/CVE-2023-38831.svg)
-
-
-## CVE-2023-36846
- A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on SRX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity. With a specific request that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of integrity for a certain part of the file system, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on SRX Series: * All versions prior to 20.4R3-S8; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S3; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3; * 22.4 versions prior to 22.4R2-S1, 22.4R3.
-
-- [https://github.com/Dreamy-elfland/CVE-2023-36846](https://github.com/Dreamy-elfland/CVE-2023-36846) :  ![starts](https://img.shields.io/github/stars/Dreamy-elfland/CVE-2023-36846.svg) ![forks](https://img.shields.io/github/forks/Dreamy-elfland/CVE-2023-36846.svg)
-
-
-## CVE-2023-35844
- packages/backend/src/routers in Lightdash before 0.510.3 has insecure file endpoints, e.g., they allow .. directory traversal and do not ensure that an intended file extension (.csv or .png) is used.
-
-- [https://github.com/Lserein/CVE-2023-35844](https://github.com/Lserein/CVE-2023-35844) :  ![starts](https://img.shields.io/github/stars/Lserein/CVE-2023-35844.svg) ![forks](https://img.shields.io/github/forks/Lserein/CVE-2023-35844.svg)
-
-
-## CVE-2023-35843
- NocoDB through 0.106.0 (or 0.109.1) has a path traversal vulnerability that allows an unauthenticated attacker to access arbitrary files on the server by manipulating the path parameter of the /download route. This vulnerability could allow an attacker to access sensitive files and data on the server, including configuration files, source code, and other sensitive information.
-
-- [https://github.com/Lserein/CVE-2023-35843](https://github.com/Lserein/CVE-2023-35843) :  ![starts](https://img.shields.io/github/stars/Lserein/CVE-2023-35843.svg) ![forks](https://img.shields.io/github/forks/Lserein/CVE-2023-35843.svg)
-
-
-## CVE-2023-35687
- In MtpPropertyValue of MtpProperty.h, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
-
-- [https://github.com/pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679](https://github.com/pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679.svg)
-
-
-## CVE-2023-35679
- In MtpPropertyValue of MtpProperty.h, there is a possible out of bounds read due to uninitialized data. This could lead to local information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.
-
-- [https://github.com/pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679](https://github.com/pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679.svg)
-
-
-## CVE-2023-34838
- A Cross Site Scripting vulnerability in Microworld Technologies eScan Management console v.14.0.1400.2281 allows a remote attacker to execute arbitrary code via a crafted script to the Description parameter.
-
-- [https://github.com/sahiloj/CVE-2023-34838](https://github.com/sahiloj/CVE-2023-34838) :  ![starts](https://img.shields.io/github/stars/sahiloj/CVE-2023-34838.svg) ![forks](https://img.shields.io/github/forks/sahiloj/CVE-2023-34838.svg)
-
-
-## CVE-2023-34598
- Gibbon v25.0.0 is vulnerable to a Local File Inclusion (LFI) where it's possible to include the content of several files present in the installation folder in the server's response.
-
-- [https://github.com/Lserein/CVE-2023-34598](https://github.com/Lserein/CVE-2023-34598) :  ![starts](https://img.shields.io/github/stars/Lserein/CVE-2023-34598.svg) ![forks](https://img.shields.io/github/forks/Lserein/CVE-2023-34598.svg)
-
-
-## CVE-2023-30845
- ESPv2 is a service proxy that provides API management capabilities using Google Service Infrastructure. ESPv2 2.20.0 through 2.42.0 contains an authentication bypass vulnerability. API clients can craft a malicious `X-HTTP-Method-Override` header value to bypass JWT authentication in specific cases. ESPv2 allows malicious requests to bypass authentication if both the conditions are true: The requested HTTP method is **not** in the API service definition (OpenAPI spec or gRPC `google.api.http` proto annotations, and the specified `X-HTTP-Method-Override` is a valid HTTP method in the API service definition. ESPv2 will forward the request to your backend without checking the JWT. Attackers can craft requests with a malicious `X-HTTP-Method-Override` value that allows them to bypass specifying JWTs. Restricting API access with API keys works as intended and is not affected by this vulnerability. Upgrade deployments to release v2.43.0 or higher to receive a patch. This release ensures that JWT authentication occurs, even when the caller specifies `x-http-method-override`. `x-http-method-override` is still supported by v2.43.0+. API clients can continue sending this header to ESPv2.
-
-- [https://github.com/himori123/-CVE-2023-30845](https://github.com/himori123/-CVE-2023-30845) :  ![starts](https://img.shields.io/github/stars/himori123/-CVE-2023-30845.svg) ![forks](https://img.shields.io/github/forks/himori123/-CVE-2023-30845.svg)
-
-
-## CVE-2023-25136
- OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be leveraged, by an unauthenticated remote attacker in the default configuration, to jump to any location in the sshd address space. One third-party report states &quot;remote code execution is theoretically possible.&quot;
-
-- [https://github.com/malvika-thakur/CVE-2023-25136](https://github.com/malvika-thakur/CVE-2023-25136) :  ![starts](https://img.shields.io/github/stars/malvika-thakur/CVE-2023-25136.svg) ![forks](https://img.shields.io/github/forks/malvika-thakur/CVE-2023-25136.svg)
-
-
-## CVE-2023-4863
- Heap buffer overflow in WebP in Google Chrome prior to 116.0.5845.187 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)
-
-- [https://github.com/mistymntncop/CVE-2023-4863](https://github.com/mistymntncop/CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/mistymntncop/CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/mistymntncop/CVE-2023-4863.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/mightysai1997/cve-2021-41773](https://github.com/mightysai1997/cve-2021-41773) :  ![starts](https://img.shields.io/github/stars/mightysai1997/cve-2021-41773.svg) ![forks](https://img.shields.io/github/forks/mightysai1997/cve-2021-41773.svg)
-
-
-## CVE-2021-3157
+## CVE-2023-43325
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157) :  ![starts](https://img.shields.io/github/stars/CrackerCat/cve-2021-3157.svg) ![forks](https://img.shields.io/github/forks/CrackerCat/cve-2021-3157.svg)
+- [https://github.com/ahrixia/CVE-2023-43325](https://github.com/ahrixia/CVE-2023-43325) :  ![starts](https://img.shields.io/github/stars/ahrixia/CVE-2023-43325.svg) ![forks](https://img.shields.io/github/forks/ahrixia/CVE-2023-43325.svg)
 
 
-## CVE-2017-0108
- The Windows Graphics Component in Microsoft Office 2007 SP3; 2010 SP2; and Word Viewer; Skype for Business 2016; Lync 2013 SP1; Lync 2010; Live Meeting 2007; Silverlight 5; Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; and Windows 7 SP1 allows remote attackers to execute arbitrary code via a crafted web site, aka &quot;Graphics Component Remote Code Execution Vulnerability.&quot; This vulnerability is different from that described in CVE-2017-0014.
+## CVE-2023-43154
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/homjxi0e/CVE-2017-0108](https://github.com/homjxi0e/CVE-2017-0108) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-0108.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-0108.svg)
+- [https://github.com/ally-petitt/CVE-2023-43154-PoC](https://github.com/ally-petitt/CVE-2023-43154-PoC) :  ![starts](https://img.shields.io/github/stars/ally-petitt/CVE-2023-43154-PoC.svg) ![forks](https://img.shields.io/github/forks/ally-petitt/CVE-2023-43154-PoC.svg)
+
+
+## CVE-2022-42889
+ Apache Commons Text performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is &quot;${prefix:name}&quot;, where &quot;prefix&quot; is used to locate an instance of org.apache.commons.text.lookup.StringLookup that performs the interpolation. Starting with version 1.5 and continuing through 1.9, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: - &quot;script&quot; - execute expressions using the JVM script execution engine (javax.script) - &quot;dns&quot; - resolve dns records - &quot;url&quot; - load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used. Users are recommended to upgrade to Apache Commons Text 1.10.0, which disables the problematic interpolators by default.
+
+- [https://github.com/DimaMend/cve-2022-42889-text4shell](https://github.com/DimaMend/cve-2022-42889-text4shell) :  ![starts](https://img.shields.io/github/stars/DimaMend/cve-2022-42889-text4shell.svg) ![forks](https://img.shields.io/github/forks/DimaMend/cve-2022-42889-text4shell.svg)
+
+
+## CVE-2022-34753
+ A CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability exists that could cause remote root exploit when the command is compromised. Affected Products: SpaceLogic C-Bus Home Controller (5200WHC2), formerly known as C-Bus Wiser Homer Controller MK2 (V1.31.460 and prior)
+
+- [https://github.com/K3ysTr0K3R/CVE-2022-34753-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2022-34753-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2022-34753-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2022-34753-EXPLOIT.svg)
+
+
+## CVE-2022-28113
+ An issue in upload.csp of FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows attackers to write files and reset the user passwords without having a valid session cookie.
+
+- [https://github.com/code-byter/CVE-2022-28113](https://github.com/code-byter/CVE-2022-28113) :  ![starts](https://img.shields.io/github/stars/code-byter/CVE-2022-28113.svg) ![forks](https://img.shields.io/github/forks/code-byter/CVE-2022-28113.svg)
+
+
+## CVE-2022-4510
+ A path traversal vulnerability was identified in ReFirm Labs binwalk from version 2.1.2b through 2.3.3 included. By crafting a malicious PFS filesystem file, an attacker can get binwalk's PFS extractor to extract files at arbitrary locations when binwalk is run in extraction mode (-e option). Remote code execution can be achieved by building a PFS filesystem that, upon extraction, would extract a malicious binwalk module into the folder .config/binwalk/plugins. This vulnerability is associated with program files src/binwalk/plugins/unpfs.py. This issue affects binwalk from 2.1.2b through 2.3.3 included.
+
+- [https://github.com/electr0sm0g/CVE-2022-4510](https://github.com/electr0sm0g/CVE-2022-4510) :  ![starts](https://img.shields.io/github/stars/electr0sm0g/CVE-2022-4510.svg) ![forks](https://img.shields.io/github/forks/electr0sm0g/CVE-2022-4510.svg)
+
+
+## CVE-2021-38149
+ index.php/admin/add_user in Chikitsa Patient Management System 2.0.0 allows XSS.
+
+- [https://github.com/jboogie15/CVE-2021-38149](https://github.com/jboogie15/CVE-2021-38149) :  ![starts](https://img.shields.io/github/stars/jboogie15/CVE-2021-38149.svg) ![forks](https://img.shields.io/github/forks/jboogie15/CVE-2021-38149.svg)
+
+
+## CVE-2021-35464
+ ForgeRock AM server before 7.0 has a Java deserialization vulnerability in the jato.pageSession parameter on multiple pages. The exploitation does not require authentication, and remote code execution can be triggered by sending a single crafted /ccversion/* request to the server. The vulnerability exists due to the usage of Sun ONE Application Framework (JATO) found in versions of Java 8 or earlier
+
+- [https://github.com/Y4er/openam-CVE-2021-35464](https://github.com/Y4er/openam-CVE-2021-35464) :  ![starts](https://img.shields.io/github/stars/Y4er/openam-CVE-2021-35464.svg) ![forks](https://img.shields.io/github/forks/Y4er/openam-CVE-2021-35464.svg)
+
+
+## CVE-2021-3438
+ A potential buffer overflow in the software drivers for certain HP LaserJet products and Samsung product printers could lead to an escalation of privilege.
+
+- [https://github.com/CrackerCat/CVE-2021-3438](https://github.com/CrackerCat/CVE-2021-3438) :  ![starts](https://img.shields.io/github/stars/CrackerCat/CVE-2021-3438.svg) ![forks](https://img.shields.io/github/forks/CrackerCat/CVE-2021-3438.svg)
+
+
+## CVE-2020-35191
+ The official drupal docker images before 8.5.10-fpm-alpine (Alpine specific) contain a blank password for a root user. System using the drupal docker container deployed by affected versions of the docker image may allow a remote attacker to achieve root access with a blank password.
+
+- [https://github.com/megadimenex/MegaHiDocker](https://github.com/megadimenex/MegaHiDocker) :  ![starts](https://img.shields.io/github/stars/megadimenex/MegaHiDocker.svg) ![forks](https://img.shields.io/github/forks/megadimenex/MegaHiDocker.svg)
+
+
+## CVE-2018-1273
+ Spring Data Commons, versions prior to 1.13 to 1.13.10, 2.0 to 2.0.5, and older unsupported versions, contain a property binder vulnerability caused by improper neutralization of special elements. An unauthenticated remote malicious user (or attacker) can supply specially crafted request parameters against Spring Data REST backed HTTP resources or using Spring Data's projection-based request payload binding hat can lead to a remote code execution attack.
+
+- [https://github.com/cved-sources/cve-2018-1273](https://github.com/cved-sources/cve-2018-1273) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2018-1273.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2018-1273.svg)
+
+
+## CVE-2017-8570
+ Microsoft Office allows a remote code execution vulnerability due to the way that it handles objects in memory, aka &quot;Microsoft Office Remote Code Execution Vulnerability&quot;. This CVE ID is unique from CVE-2017-0243.
+
+- [https://github.com/temesgeny/ppsx-file-generator](https://github.com/temesgeny/ppsx-file-generator) :  ![starts](https://img.shields.io/github/stars/temesgeny/ppsx-file-generator.svg) ![forks](https://img.shields.io/github/forks/temesgeny/ppsx-file-generator.svg)
 
