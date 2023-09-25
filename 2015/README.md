@@ -803,9 +803,9 @@
 
 - [https://github.com/hfiref0x/CVE-2015-1701](https://github.com/hfiref0x/CVE-2015-1701) :  ![starts](https://img.shields.io/github/stars/hfiref0x/CVE-2015-1701.svg) ![forks](https://img.shields.io/github/forks/hfiref0x/CVE-2015-1701.svg)
 
-- [https://github.com/Anonymous-Family/CVE-2015-1701-download](https://github.com/Anonymous-Family/CVE-2015-1701-download) :  ![starts](https://img.shields.io/github/stars/Anonymous-Family/CVE-2015-1701-download.svg) ![forks](https://img.shields.io/github/forks/Anonymous-Family/CVE-2015-1701-download.svg)
-
 - [https://github.com/Anonymous-Family/CVE-2015-1701](https://github.com/Anonymous-Family/CVE-2015-1701) :  ![starts](https://img.shields.io/github/stars/Anonymous-Family/CVE-2015-1701.svg) ![forks](https://img.shields.io/github/forks/Anonymous-Family/CVE-2015-1701.svg)
+
+- [https://github.com/Anonymous-Family/CVE-2015-1701-download](https://github.com/Anonymous-Family/CVE-2015-1701-download) :  ![starts](https://img.shields.io/github/stars/Anonymous-Family/CVE-2015-1701-download.svg) ![forks](https://img.shields.io/github/forks/Anonymous-Family/CVE-2015-1701-download.svg)
 
 ## CVE-2015-1641
  Microsoft Word 2007 SP3, Office 2010 SP2, Word 2010 SP2, Word 2013 SP1, Word 2013 RT SP1, Word for Mac 2011, Office Compatibility Pack SP3, Word Automation Services on SharePoint Server 2010 SP2 and 2013 SP1, and Office Web Apps Server 2010 SP2 and 2013 SP1 allow remote attackers to execute arbitrary code via a crafted RTF document, aka &quot;Microsoft Office Memory Corruption Vulnerability.&quot;
@@ -827,9 +827,9 @@
 
 - [https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635](https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/Zx7ffa4512-Python/Project-CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/Zx7ffa4512-Python/Project-CVE-2015-1635.svg)
 
-- [https://github.com/neu5ron/cve_2015-1635](https://github.com/neu5ron/cve_2015-1635) :  ![starts](https://img.shields.io/github/stars/neu5ron/cve_2015-1635.svg) ![forks](https://img.shields.io/github/forks/neu5ron/cve_2015-1635.svg)
-
 - [https://github.com/bongbongco/MS15-034](https://github.com/bongbongco/MS15-034) :  ![starts](https://img.shields.io/github/stars/bongbongco/MS15-034.svg) ![forks](https://img.shields.io/github/forks/bongbongco/MS15-034.svg)
+
+- [https://github.com/neu5ron/cve_2015-1635](https://github.com/neu5ron/cve_2015-1635) :  ![starts](https://img.shields.io/github/stars/neu5ron/cve_2015-1635.svg) ![forks](https://img.shields.io/github/forks/neu5ron/cve_2015-1635.svg)
 
 - [https://github.com/w01ke/CVE-2015-1635-POC](https://github.com/w01ke/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/w01ke/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/w01ke/CVE-2015-1635-POC.svg)
 
@@ -893,11 +893,7 @@
 
 - [https://github.com/renjithsasidharan/cve-2015-1538-1](https://github.com/renjithsasidharan/cve-2015-1538-1) :  ![starts](https://img.shields.io/github/stars/renjithsasidharan/cve-2015-1538-1.svg) ![forks](https://img.shields.io/github/forks/renjithsasidharan/cve-2015-1538-1.svg)
 
-- [https://github.com/Tharana/Android-vulnerability-exploitation](https://github.com/Tharana/Android-vulnerability-exploitation) :  ![starts](https://img.shields.io/github/stars/Tharana/Android-vulnerability-exploitation.svg) ![forks](https://img.shields.io/github/forks/Tharana/Android-vulnerability-exploitation.svg)
-
 - [https://github.com/Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation) :  ![starts](https://img.shields.io/github/stars/Tharana/vulnerability-exploitation.svg) ![forks](https://img.shields.io/github/forks/Tharana/vulnerability-exploitation.svg)
-
-- [https://github.com/niranjanshr13/Stagefright-cve-2015-1538-1](https://github.com/niranjanshr13/Stagefright-cve-2015-1538-1) :  ![starts](https://img.shields.io/github/stars/niranjanshr13/Stagefright-cve-2015-1538-1.svg) ![forks](https://img.shields.io/github/forks/niranjanshr13/Stagefright-cve-2015-1538-1.svg)
 
 ## CVE-2015-1528
  Integer overflow in the native_handle_create function in libcutils/native_handle.c in Android before 5.1.1 LMY48M allows attackers to obtain a different application's privileges or cause a denial of service (Binder heap memory corruption) via a crafted application, aka internal bug 19334482.
