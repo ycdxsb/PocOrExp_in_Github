@@ -6,7 +6,7 @@
 - [https://github.com/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation](https://github.com/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation) :  ![starts](https://img.shields.io/github/stars/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation.svg) ![forks](https://img.shields.io/github/forks/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation.svg)
 
 ## CVE-2023-43326
- mooSocial v3.1.8 was discovered to contain a cross-site scripting (XSS) vulnerability via the change email function.
+ A reflected cross-site scripting (XSS) vulnerability exisits in multiple url of mooSocial v3.1.8 allows attackers to steal user's session cookies and impersonate their account via a crafted URL.
 
 
 
@@ -26,8 +26,15 @@
 
 - [https://github.com/ahrixia/CVE-2023-43323](https://github.com/ahrixia/CVE-2023-43323) :  ![starts](https://img.shields.io/github/stars/ahrixia/CVE-2023-43323.svg) ![forks](https://img.shields.io/github/forks/ahrixia/CVE-2023-43323.svg)
 
+## CVE-2023-43263
+ A Cross-site scripting (XSS) vulnerability in Froala Editor v.4.1.1 allows attackers to execute arbitrary code via the Markdown component.
+
+
+
+- [https://github.com/b0marek/CVE-2023-43263](https://github.com/b0marek/CVE-2023-43263) :  ![starts](https://img.shields.io/github/stars/b0marek/CVE-2023-43263.svg) ![forks](https://img.shields.io/github/forks/b0marek/CVE-2023-43263.svg)
+
 ## CVE-2023-43154
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ In Macrob7 Macs Framework Content Management System (CMS) 1.1.4f, loose comparison in &quot;isValidLogin()&quot; function during login attempt results in PHP type confusion vulnerability that leads to authentication bypass and takeover of the administrator account.
 
 
 
@@ -68,6 +75,13 @@
 - [https://github.com/actuator/com.cutestudio.colordialer](https://github.com/actuator/com.cutestudio.colordialer) :  ![starts](https://img.shields.io/github/stars/actuator/com.cutestudio.colordialer.svg) ![forks](https://img.shields.io/github/forks/actuator/com.cutestudio.colordialer.svg)
 
 - [https://github.com/actuator/cve](https://github.com/actuator/cve) :  ![starts](https://img.shields.io/github/stars/actuator/cve.svg) ![forks](https://img.shields.io/github/forks/actuator/cve.svg)
+
+## CVE-2023-42442
+ JumpServer is an open source bastion host and a professional operation and maintenance security audit system. Starting in version 3.0.0 and prior to versions 3.5.5 and 3.6.4, session replays can download without authentication. Session replays stored in S3, OSS, or other cloud storage are not affected. The api `/api/v1/terminal/sessions/` permission control is broken and can be accessed anonymously. SessionViewSet permission classes set to `[RBACPermission | IsSessionAssignee]`, relation is or, so any permission matched will be allowed. Versions 3.5.5 and 3.6.4 have a fix. After upgrading, visit the api `$HOST/api/v1/terminal/sessions/?limit=1`. The expected http response code is 401 (`not_authenticated`).
+
+
+
+- [https://github.com/HolyGu/CVE-2023-42442](https://github.com/HolyGu/CVE-2023-42442) :  ![starts](https://img.shields.io/github/stars/HolyGu/CVE-2023-42442.svg) ![forks](https://img.shields.io/github/forks/HolyGu/CVE-2023-42442.svg)
 
 ## CVE-2023-42426
  Cross-site scripting (XSS) vulnerability in Froala Froala Editor v.4.1.1 allows remote attackers to execute arbitrary code via the 'Insert link' parameter in the 'Insert Image' component.
@@ -110,13 +124,6 @@
 
 
 - [https://github.com/MATRIXDEVIL/CVE](https://github.com/MATRIXDEVIL/CVE) :  ![starts](https://img.shields.io/github/stars/MATRIXDEVIL/CVE.svg) ![forks](https://img.shields.io/github/forks/MATRIXDEVIL/CVE.svg)
-
-## CVE-2023-41575
- Multiple stored cross-site scripting (XSS) vulnerabilities in /bbdms/sign-up.php of Blood Bank &amp; Donor Management v2.2 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Full Name, Message, or Address parameters.
-
-
-
-- [https://github.com/soundarkutty/Stored-xss](https://github.com/soundarkutty/Stored-xss) :  ![starts](https://img.shields.io/github/stars/soundarkutty/Stored-xss.svg) ![forks](https://img.shields.io/github/forks/soundarkutty/Stored-xss.svg)
 
 ## CVE-2023-41538
  phpjabbers PHP Forum Script 3.0 is vulnerable to Cross Site Scripting (XSS) via the keyword parameter.
@@ -482,9 +489,9 @@
 
 - [https://github.com/GOTonyGO/CVE-2023-38831-winrar](https://github.com/GOTonyGO/CVE-2023-38831-winrar) :  ![starts](https://img.shields.io/github/stars/GOTonyGO/CVE-2023-38831-winrar.svg) ![forks](https://img.shields.io/github/forks/GOTonyGO/CVE-2023-38831-winrar.svg)
 
-- [https://github.com/asepsaepdin/CVE-2023-38831](https://github.com/asepsaepdin/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/asepsaepdin/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/asepsaepdin/CVE-2023-38831.svg)
-
 - [https://github.com/an040702/CVE-2023-38831](https://github.com/an040702/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/an040702/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/an040702/CVE-2023-38831.svg)
+
+- [https://github.com/asepsaepdin/CVE-2023-38831](https://github.com/asepsaepdin/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/asepsaepdin/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/asepsaepdin/CVE-2023-38831.svg)
 
 - [https://github.com/IMHarman/CVE-2023-38831](https://github.com/IMHarman/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/IMHarman/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/IMHarman/CVE-2023-38831.svg)
 
@@ -846,14 +853,14 @@
 - [https://github.com/crisprss/CVE-2023-36874](https://github.com/crisprss/CVE-2023-36874) :  ![starts](https://img.shields.io/github/stars/crisprss/CVE-2023-36874.svg) ![forks](https://img.shields.io/github/forks/crisprss/CVE-2023-36874.svg)
 
 ## CVE-2023-36847
- A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity. With a specific request that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of integrity for a certain part of the file system, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on EX Series: * All versions prior to 20.4R3-S8; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S4; * 22.1 versions prior to 22.1R3-S3; * 22.2 versions prior to 22.2R3-S1; * 22.3 versions prior to 22.3R2-S2, 22.3R3; * 22.4 versions prior to 22.4R2-S1, 22.4R3.
+ A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity. With a specific request to installAppPackage.php that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of integrity for a certain part of the file system, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on EX Series: * All versions prior to 20.4R3-S8; * 21.1 versions 21.1R1 and later; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S4; * 22.1 versions prior to 22.1R3-S3; * 22.2 versions prior to 22.2R3-S1; * 22.3 versions prior to 22.3R2-S2, 22.3R3; * 22.4 versions prior to 22.4R2-S1, 22.4R3.
 
 
 
 - [https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE](https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE) :  ![starts](https://img.shields.io/github/stars/r3dcl1ff/CVE-2023-36844_Juniper_RCE.svg) ![forks](https://img.shields.io/github/forks/r3dcl1ff/CVE-2023-36844_Juniper_RCE.svg)
 
 ## CVE-2023-36846
- A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on SRX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity. With a specific request that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of integrity for a certain part of the file system, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on SRX Series: * All versions prior to 20.4R3-S8; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S3; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3; * 22.4 versions prior to 22.4R2-S1, 22.4R3.
+ A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on SRX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity. With a specific request to user.php that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of integrity for a certain part of the file system, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on SRX Series: * All versions prior to 20.4R3-S8; * 21.1 versions 21.1R1 and later; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S3; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3; * 22.4 versions prior to 22.4R2-S1, 22.4R3.
 
 
 
@@ -862,16 +869,18 @@
 - [https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE](https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE) :  ![starts](https://img.shields.io/github/stars/r3dcl1ff/CVE-2023-36844_Juniper_RCE.svg) ![forks](https://img.shields.io/github/forks/r3dcl1ff/CVE-2023-36844_Juniper_RCE.svg)
 
 ## CVE-2023-36845
- A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series and SRX Series allows an unauthenticated, network-based attacker to control certain, important environments variables. Utilizing a crafted request an attacker is able to modify a certain PHP environment variable leading to partial loss of integrity, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on SRX Series: * All versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S4; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3-S1; * 22.4 versions prior to 22.4R2-S1, 22.4R3; * 23.2 versions prior to 23.2R1-S1, 23.2R2.
+ A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series and SRX Series allows an unauthenticated, network-based attacker to remotely execute code. Using a crafted request which sets the variable PHPRC an attacker is able to modify the PHP execution environment allowing the injection und execution of code. This issue affects Juniper Networks Junos OS on EX Series and SRX Series: * All versions prior to 20.4R3-S9; * 21.1 versions 21.1R1 and later; * 21.2 versions prior to 21.2R3-S7; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S4; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3-S1; * 22.4 versions prior to 22.4R2-S1, 22.4R3; * 23.2 versions prior to 23.2R1-S1, 23.2R2.
 
 
 
 - [https://github.com/vulncheck-oss/cve-2023-36845-scanner](https://github.com/vulncheck-oss/cve-2023-36845-scanner) :  ![starts](https://img.shields.io/github/stars/vulncheck-oss/cve-2023-36845-scanner.svg) ![forks](https://img.shields.io/github/forks/vulncheck-oss/cve-2023-36845-scanner.svg)
 
+- [https://github.com/kljunowsky/CVE-2023-36845](https://github.com/kljunowsky/CVE-2023-36845) :  ![starts](https://img.shields.io/github/stars/kljunowsky/CVE-2023-36845.svg) ![forks](https://img.shields.io/github/forks/kljunowsky/CVE-2023-36845.svg)
+
 - [https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE](https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE) :  ![starts](https://img.shields.io/github/stars/r3dcl1ff/CVE-2023-36844_Juniper_RCE.svg) ![forks](https://img.shields.io/github/forks/r3dcl1ff/CVE-2023-36844_Juniper_RCE.svg)
 
 ## CVE-2023-36844
- A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to control certain, important environments variables. Utilizing a crafted request an attacker is able to modify certain PHP environments variables leading to partial loss of integrity, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on EX Series: * All versions prior to 20.4R3-S9; * 21.2 versions prior to 21.2R3-S6; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S4; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R3-S1; * 22.4 versions prior to 22.4R2-S2, 22.4R3.
+ A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to control certain, important environment variables. Using a crafted request an attacker is able to modify certain PHP environment variables leading to partial loss of integrity, which may allow chaining to other vulnerabilities. This issue affects Juniper Networks Junos OS on EX Series: * All versions prior to 20.4R3-S9; * 21.1 versions 21.1R1 and later; * 21.2 versions prior to 21.2R3-S7; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S4; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R3-S1; * 22.4 versions prior to 22.4R2-S2, 22.4R3; * 23.2 versions prior to 23.2R1-S1, 23.2R2.
 
 
 
@@ -1074,6 +1083,13 @@
 
 
 - [https://github.com/trustcves/CVE-2023-35801](https://github.com/trustcves/CVE-2023-35801) :  ![starts](https://img.shields.io/github/stars/trustcves/CVE-2023-35801.svg) ![forks](https://img.shields.io/github/forks/trustcves/CVE-2023-35801.svg)
+
+## CVE-2023-35793
+ An issue was discovered in Cassia Access Controller 2.1.1.2303271039. Establishing a web SSH session to gateways is vulnerable to Cross Site Request Forgery (CSRF) attacks.
+
+
+
+- [https://github.com/Dodge-MPTC/CVE-2023-35793-CSRF-On-Web-SSH](https://github.com/Dodge-MPTC/CVE-2023-35793-CSRF-On-Web-SSH) :  ![starts](https://img.shields.io/github/stars/Dodge-MPTC/CVE-2023-35793-CSRF-On-Web-SSH.svg) ![forks](https://img.shields.io/github/forks/Dodge-MPTC/CVE-2023-35793-CSRF-On-Web-SSH.svg)
 
 ## CVE-2023-35744
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -1338,6 +1354,13 @@
 
 - [https://github.com/lan1oc/CVE-2023-34312-exp](https://github.com/lan1oc/CVE-2023-34312-exp) :  ![starts](https://img.shields.io/github/stars/lan1oc/CVE-2023-34312-exp.svg) ![forks](https://img.shields.io/github/forks/lan1oc/CVE-2023-34312-exp.svg)
 
+## CVE-2023-34152
+ A vulnerability was found in ImageMagick. This security flaw cause a remote code execution vulnerability in OpenBlob with --enable-pipes configured.
+
+
+
+- [https://github.com/overgrowncarrot1/ImageTragick_CVE-2023-34152](https://github.com/overgrowncarrot1/ImageTragick_CVE-2023-34152) :  ![starts](https://img.shields.io/github/stars/overgrowncarrot1/ImageTragick_CVE-2023-34152.svg) ![forks](https://img.shields.io/github/forks/overgrowncarrot1/ImageTragick_CVE-2023-34152.svg)
+
 ## CVE-2023-34124
  The authentication mechanism in SonicWall GMS and Analytics Web Services had insufficient checks, allowing authentication bypass. This issue affects GMS: 9.3.2-SP1 and earlier versions; Analytics: 2.5.0.4-R7 and earlier versions.
 
@@ -1595,9 +1618,9 @@
 
 - [https://github.com/CKevens/CVE-2023-33246](https://github.com/CKevens/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-33246.svg)
 
-- [https://github.com/Devil0ll/CVE-2023-33246](https://github.com/Devil0ll/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/Devil0ll/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/Devil0ll/CVE-2023-33246.svg)
-
 - [https://github.com/d0rb/CVE-2023-33246](https://github.com/d0rb/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2023-33246.svg)
+
+- [https://github.com/Devil0ll/CVE-2023-33246](https://github.com/Devil0ll/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/Devil0ll/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/Devil0ll/CVE-2023-33246.svg)
 
 ## CVE-2023-33243
  RedTeam Pentesting discovered that the web interface of STARFACE as well as its REST API allows authentication using the SHA512 hash of the password instead of the cleartext password. While storing password hashes instead of cleartext passwords in an application's database generally has become best practice to protect users' passwords in case of a database compromise, this is rendered ineffective when allowing to authenticate using the password hash.
@@ -1666,6 +1689,13 @@
 
 - [https://github.com/x0rb3l/CVE-2023-32560](https://github.com/x0rb3l/CVE-2023-32560) :  ![starts](https://img.shields.io/github/stars/x0rb3l/CVE-2023-32560.svg) ![forks](https://img.shields.io/github/forks/x0rb3l/CVE-2023-32560.svg)
 
+## CVE-2023-32364
+ A logic issue was addressed with improved restrictions. This issue is fixed in macOS Ventura 13.5. A sandboxed process may be able to circumvent sandbox restrictions.
+
+
+
+- [https://github.com/gergelykalman/CVE-2023-32364-macos-app-sandbox-escape](https://github.com/gergelykalman/CVE-2023-32364-macos-app-sandbox-escape) :  ![starts](https://img.shields.io/github/stars/gergelykalman/CVE-2023-32364-macos-app-sandbox-escape.svg) ![forks](https://img.shields.io/github/forks/gergelykalman/CVE-2023-32364-macos-app-sandbox-escape.svg)
+
 ## CVE-2023-32353
  A logic issue was addressed with improved checks. This issue is fixed in iTunes 12.12.9 for Windows. An app may be able to elevate privileges.
 
@@ -1715,9 +1745,9 @@
 
 - [https://github.com/manavvedawala2/CVE-2023-32243-POC](https://github.com/manavvedawala2/CVE-2023-32243-POC) :  ![starts](https://img.shields.io/github/stars/manavvedawala2/CVE-2023-32243-POC.svg) ![forks](https://img.shields.io/github/forks/manavvedawala2/CVE-2023-32243-POC.svg)
 
-- [https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept) :  ![starts](https://img.shields.io/github/stars/manavvedawala2/CVE-2023-32243-proof-of-concept.svg) ![forks](https://img.shields.io/github/forks/manavvedawala2/CVE-2023-32243-proof-of-concept.svg)
-
 - [https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept) :  ![starts](https://img.shields.io/github/stars/manavvedawala/CVE-2023-32243-proof-of-concept.svg) ![forks](https://img.shields.io/github/forks/manavvedawala/CVE-2023-32243-proof-of-concept.svg)
+
+- [https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept) :  ![starts](https://img.shields.io/github/stars/manavvedawala2/CVE-2023-32243-proof-of-concept.svg) ![forks](https://img.shields.io/github/forks/manavvedawala2/CVE-2023-32243-proof-of-concept.svg)
 
 ## CVE-2023-32235
  Ghost before 5.42.1 allows remote attackers to read arbitrary files within the active theme's folder via /assets/built%2F..%2F..%2F/ directory traversal. This occurs in frontend/web/middleware/static-theme.js.
@@ -2326,6 +2356,13 @@
 
 
 - [https://github.com/Nero22k/cve-2023-29360](https://github.com/Nero22k/cve-2023-29360) :  ![starts](https://img.shields.io/github/stars/Nero22k/cve-2023-29360.svg) ![forks](https://img.shields.io/github/forks/Nero22k/cve-2023-29360.svg)
+
+## CVE-2023-29357
+ Microsoft SharePoint Server Elevation of Privilege Vulnerability
+
+
+
+- [https://github.com/Chocapikk/CVE-2023-29357](https://github.com/Chocapikk/CVE-2023-29357) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-29357.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-29357.svg)
 
 ## CVE-2023-29343
  SysInternals Sysmon for Windows Elevation of Privilege Vulnerability
@@ -3086,6 +3123,13 @@
 
 - [https://github.com/nice1st/CVE-2023-24998](https://github.com/nice1st/CVE-2023-24998) :  ![starts](https://img.shields.io/github/stars/nice1st/CVE-2023-24998.svg) ![forks](https://img.shields.io/github/forks/nice1st/CVE-2023-24998.svg)
 
+## CVE-2023-24955
+ Microsoft SharePoint Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/Chocapikk/CVE-2023-29357](https://github.com/Chocapikk/CVE-2023-29357) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-29357.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-29357.svg)
+
 ## CVE-2023-24932
  Secure Boot Security Feature Bypass Vulnerability
 
@@ -3268,9 +3312,9 @@
 
 - [https://github.com/ibaiw/joomla_CVE-2023-23752](https://github.com/ibaiw/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/ibaiw/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/ibaiw/joomla_CVE-2023-23752.svg)
 
-- [https://github.com/0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xNahim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xNahim/CVE-2023-23752.svg)
-
 - [https://github.com/YusinoMy/CVE-2023-23752](https://github.com/YusinoMy/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/YusinoMy/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/YusinoMy/CVE-2023-23752.svg)
+
+- [https://github.com/0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xNahim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xNahim/CVE-2023-23752.svg)
 
 - [https://github.com/HaxorSec1945/CVE2023-23752](https://github.com/HaxorSec1945/CVE2023-23752) :  ![starts](https://img.shields.io/github/stars/HaxorSec1945/CVE2023-23752.svg) ![forks](https://img.shields.io/github/forks/HaxorSec1945/CVE2023-23752.svg)
 
@@ -3286,11 +3330,11 @@
 
 - [https://github.com/adriyansyah-mf/CVE-2023-23752](https://github.com/adriyansyah-mf/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/adriyansyah-mf/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/adriyansyah-mf/CVE-2023-23752.svg)
 
-- [https://github.com/wibuheker/Joomla-CVE-2023-23752](https://github.com/wibuheker/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/wibuheker/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/wibuheker/Joomla-CVE-2023-23752.svg)
-
 - [https://github.com/H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-23752.svg)
 
 - [https://github.com/Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Jenderal92/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/Joomla-CVE-2023-23752.svg)
+
+- [https://github.com/wibuheker/Joomla-CVE-2023-23752](https://github.com/wibuheker/Joomla-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/wibuheker/Joomla-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/wibuheker/Joomla-CVE-2023-23752.svg)
 
 ## CVE-2023-23638
  A deserialization vulnerability existed when dubbo generic invoke, which could lead to malicious code execution. This issue affects Apache Dubbo 2.7.x version 2.7.21 and prior versions; Apache Dubbo 3.0.x version 3.0.13 and prior versions; Apache Dubbo 3.1.x version 3.1.5 and prior versions.
@@ -3758,6 +3802,13 @@
 
 - [https://github.com/sxsuperxuan/Weblogic_CVE-2023-21389](https://github.com/sxsuperxuan/Weblogic_CVE-2023-21389) :  ![starts](https://img.shields.io/github/stars/sxsuperxuan/Weblogic_CVE-2023-21389.svg) ![forks](https://img.shields.io/github/forks/sxsuperxuan/Weblogic_CVE-2023-21389.svg)
 
+## CVE-2023-21272
+ In readFrom of Uri.java, there is a possible bad URI permission grant due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+
+
+
+- [https://github.com/Trinadh465/frameworks_base_AOSP-4.2.2_r1_CVE-2023-21272](https://github.com/Trinadh465/frameworks_base_AOSP-4.2.2_r1_CVE-2023-21272) :  ![starts](https://img.shields.io/github/stars/Trinadh465/frameworks_base_AOSP-4.2.2_r1_CVE-2023-21272.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/frameworks_base_AOSP-4.2.2_r1_CVE-2023-21272.svg)
+
 ## CVE-2023-21036
  In BitmapExport.java, there is a possible failure to truncate images due to a logic error in the code.Product: AndroidVersions: Android kernelAndroid ID: A-264261868References: N/A
 
@@ -3900,6 +3951,13 @@
 
 
 - [https://github.com/Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504) :  ![starts](https://img.shields.io/github/stars/Sybelle03/CVE-2023-51504.svg) ![forks](https://img.shields.io/github/forks/Sybelle03/CVE-2023-51504.svg)
+
+## CVE-2023-5024
+ A vulnerability was found in Planno 23.04.04. It has been classified as problematic. This affects an unknown part of the component Comment Handler. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-239865 was assigned to this vulnerability.
+
+
+
+- [https://github.com/PH03N1XSP/CVE-2023-5024](https://github.com/PH03N1XSP/CVE-2023-5024) :  ![starts](https://img.shields.io/github/stars/PH03N1XSP/CVE-2023-5024.svg) ![forks](https://img.shields.io/github/forks/PH03N1XSP/CVE-2023-5024.svg)
 
 ## CVE-2023-5000
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -4095,9 +4153,9 @@
 
 
 
-- [https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567](https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567) :  ![starts](https://img.shields.io/github/stars/nidhi7598/linux-4.1.15_CVE-2023-3567.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/linux-4.1.15_CVE-2023-3567.svg)
-
 - [https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3567](https://github.com/nidhi7598/linux-4.19.72_CVE-2023-3567) :  ![starts](https://img.shields.io/github/stars/nidhi7598/linux-4.19.72_CVE-2023-3567.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/linux-4.19.72_CVE-2023-3567.svg)
+
+- [https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567](https://github.com/nidhi7598/linux-4.1.15_CVE-2023-3567) :  ![starts](https://img.shields.io/github/stars/nidhi7598/linux-4.1.15_CVE-2023-3567.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/linux-4.1.15_CVE-2023-3567.svg)
 
 ## CVE-2023-3519
  Unauthenticated remote code execution
@@ -4295,9 +4353,9 @@
 
 - [https://github.com/EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/EmmanuelCruzL/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/EmmanuelCruzL/CVE-2023-2825.svg)
 
-- [https://github.com/caopengyan/CVE-2023-2825](https://github.com/caopengyan/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/caopengyan/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/caopengyan/CVE-2023-2825.svg)
-
 - [https://github.com/Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab) :  ![starts](https://img.shields.io/github/stars/Tornad0007/CVE-2023-2825-Gitlab.svg) ![forks](https://img.shields.io/github/forks/Tornad0007/CVE-2023-2825-Gitlab.svg)
+
+- [https://github.com/caopengyan/CVE-2023-2825](https://github.com/caopengyan/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/caopengyan/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/caopengyan/CVE-2023-2825.svg)
 
 ## CVE-2023-2822
  A vulnerability was found in Ellucian Ethos Identity up to 5.10.5. It has been classified as problematic. Affected is an unknown function of the file /cas/logout. The manipulation of the argument url leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 5.10.6 is able to address this issue. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-229596.
@@ -4411,13 +4469,6 @@
 
 - [https://github.com/ixiacom/CVE-2023-2249](https://github.com/ixiacom/CVE-2023-2249) :  ![starts](https://img.shields.io/github/stars/ixiacom/CVE-2023-2249.svg) ![forks](https://img.shields.io/github/forks/ixiacom/CVE-2023-2249.svg)
 
-## CVE-2023-2123
- The WP Inventory Manager WordPress plugin before 2.1.0.13 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting.
-
-
-
-- [https://github.com/daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin](https://github.com/daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin) :  ![starts](https://img.shields.io/github/stars/daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin.svg) ![forks](https://img.shields.io/github/forks/daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin.svg)
-
 ## CVE-2023-2114
  The NEX-Forms WordPress plugin before 8.4 does not properly escape the `table` parameter, which is populated with user input, before concatenating it to an SQL query.
 
@@ -4521,9 +4572,9 @@
 
 - [https://github.com/CKevens/CVE-2023-1454-EXP](https://github.com/CKevens/CVE-2023-1454-EXP) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-1454-EXP.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-1454-EXP.svg)
 
-- [https://github.com/cjybao/CVE-2023-1454](https://github.com/cjybao/CVE-2023-1454) :  ![starts](https://img.shields.io/github/stars/cjybao/CVE-2023-1454.svg) ![forks](https://img.shields.io/github/forks/cjybao/CVE-2023-1454.svg)
-
 - [https://github.com/BugFor-Pings/CVE-2023-1454](https://github.com/BugFor-Pings/CVE-2023-1454) :  ![starts](https://img.shields.io/github/stars/BugFor-Pings/CVE-2023-1454.svg) ![forks](https://img.shields.io/github/forks/BugFor-Pings/CVE-2023-1454.svg)
+
+- [https://github.com/cjybao/CVE-2023-1454](https://github.com/cjybao/CVE-2023-1454) :  ![starts](https://img.shields.io/github/stars/cjybao/CVE-2023-1454.svg) ![forks](https://img.shields.io/github/forks/cjybao/CVE-2023-1454.svg)
 
 ## CVE-2023-1430
  The FluentCRM - Marketing Automation For WordPress plugin for WordPress is vulnerable to unauthorized modification of data in versions up to, and including, 2.7.40 due to the use of an MD5 hash without a salt to control subscriptions. This makes it possible for unauthenticated attackers to unsubscribe users from lists and manage subscriptions, granted they gain access to any targeted subscribers email address.
