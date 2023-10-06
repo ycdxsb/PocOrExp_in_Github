@@ -149,9 +149,9 @@
 
 - [https://github.com/chipironcin/CVE-2016-10033](https://github.com/chipironcin/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/chipironcin/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/chipironcin/CVE-2016-10033.svg)
 
-- [https://github.com/awidardi/opsxcq-cve-2016-10033](https://github.com/awidardi/opsxcq-cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/awidardi/opsxcq-cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/awidardi/opsxcq-cve-2016-10033.svg)
-
 - [https://github.com/pedro823/cve-2016-10033-45](https://github.com/pedro823/cve-2016-10033-45) :  ![starts](https://img.shields.io/github/stars/pedro823/cve-2016-10033-45.svg) ![forks](https://img.shields.io/github/forks/pedro823/cve-2016-10033-45.svg)
+
+- [https://github.com/awidardi/opsxcq-cve-2016-10033](https://github.com/awidardi/opsxcq-cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/awidardi/opsxcq-cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/awidardi/opsxcq-cve-2016-10033.svg)
 
 - [https://github.com/j4k0m/CVE-2016-10033](https://github.com/j4k0m/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/j4k0m/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/j4k0m/CVE-2016-10033.svg)
 
@@ -298,6 +298,8 @@
 - [https://github.com/martinmullins/CVE-2016-8655_Android](https://github.com/martinmullins/CVE-2016-8655_Android) :  ![starts](https://img.shields.io/github/stars/martinmullins/CVE-2016-8655_Android.svg) ![forks](https://img.shields.io/github/forks/martinmullins/CVE-2016-8655_Android.svg)
 
 - [https://github.com/LakshmiDesai/CVE-2016-8655](https://github.com/LakshmiDesai/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/LakshmiDesai/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/LakshmiDesai/CVE-2016-8655.svg)
+
+- [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) :  ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
 
 - [https://github.com/agkunkle/chocobo](https://github.com/agkunkle/chocobo) :  ![starts](https://img.shields.io/github/stars/agkunkle/chocobo.svg) ![forks](https://img.shields.io/github/forks/agkunkle/chocobo.svg)
 
@@ -776,11 +778,11 @@
 
 - [https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg)
 
+- [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
+
 - [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
 
 - [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
-
-- [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
 
 - [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
 
