@@ -765,13 +765,6 @@
 
 - [https://github.com/arntsonl/CVE-2015-2153](https://github.com/arntsonl/CVE-2015-2153) :  ![starts](https://img.shields.io/github/stars/arntsonl/CVE-2015-2153.svg) ![forks](https://img.shields.io/github/forks/arntsonl/CVE-2015-2153.svg)
 
-## CVE-2015-1855
- verify_certificate_identity in the OpenSSL extension in Ruby before 2.0.0 patchlevel 645, 2.1.x before 2.1.6, and 2.2.x before 2.2.2 does not properly validate hostnames, which allows remote attackers to spoof servers via vectors related to (1) multiple wildcards, (1) wildcards in IDNA names, (3) case sensitivity, and (4) non-ASCII characters.
-
-
-
-- [https://github.com/vpereira/CVE-2015-1855](https://github.com/vpereira/CVE-2015-1855) :  ![starts](https://img.shields.io/github/stars/vpereira/CVE-2015-1855.svg) ![forks](https://img.shields.io/github/forks/vpereira/CVE-2015-1855.svg)
-
 ## CVE-2015-1805
  The (1) pipe_read and (2) pipe_write implementations in fs/pipe.c in the Linux kernel before 3.16 do not properly consider the side effects of failed __copy_to_user_inatomic and __copy_from_user_inatomic calls, which allows local users to cause a denial of service (system crash) or possibly gain privileges via a crafted application, aka an &quot;I/O vector array overrun.&quot;
 
@@ -1041,9 +1034,9 @@
 
 - [https://github.com/sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/sUbc0ol/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/sUbc0ol/CVE-2015-0235.svg)
 
-- [https://github.com/tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/tobyzxj/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/tobyzxj/CVE-2015-0235.svg)
-
 - [https://github.com/nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE_2015_0235.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE_2015_0235.svg)
+
+- [https://github.com/tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/tobyzxj/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/tobyzxj/CVE-2015-0235.svg)
 
 - [https://github.com/adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST) :  ![starts](https://img.shields.io/github/stars/adherzog/ansible-CVE-2015-0235-GHOST.svg) ![forks](https://img.shields.io/github/forks/adherzog/ansible-CVE-2015-0235-GHOST.svg)
 
