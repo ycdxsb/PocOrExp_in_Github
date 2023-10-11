@@ -149,9 +149,9 @@
 
 - [https://github.com/chipironcin/CVE-2016-10033](https://github.com/chipironcin/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/chipironcin/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/chipironcin/CVE-2016-10033.svg)
 
-- [https://github.com/awidardi/opsxcq-cve-2016-10033](https://github.com/awidardi/opsxcq-cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/awidardi/opsxcq-cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/awidardi/opsxcq-cve-2016-10033.svg)
-
 - [https://github.com/pedro823/cve-2016-10033-45](https://github.com/pedro823/cve-2016-10033-45) :  ![starts](https://img.shields.io/github/stars/pedro823/cve-2016-10033-45.svg) ![forks](https://img.shields.io/github/forks/pedro823/cve-2016-10033-45.svg)
+
+- [https://github.com/awidardi/opsxcq-cve-2016-10033](https://github.com/awidardi/opsxcq-cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/awidardi/opsxcq-cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/awidardi/opsxcq-cve-2016-10033.svg)
 
 - [https://github.com/j4k0m/CVE-2016-10033](https://github.com/j4k0m/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/j4k0m/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/j4k0m/CVE-2016-10033.svg)
 
@@ -1181,6 +1181,13 @@
 - [https://github.com/infobyte/CVE-2016-2776](https://github.com/infobyte/CVE-2016-2776) :  ![starts](https://img.shields.io/github/stars/infobyte/CVE-2016-2776.svg) ![forks](https://img.shields.io/github/forks/infobyte/CVE-2016-2776.svg)
 
 - [https://github.com/KosukeShimofuji/CVE-2016-2776](https://github.com/KosukeShimofuji/CVE-2016-2776) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-2776.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-2776.svg)
+
+## CVE-2016-2569
+ Squid 3.x before 3.5.15 and 4.x before 4.0.7 does not properly append data to String objects, which allows remote servers to cause a denial of service (assertion failure and daemon exit) via a long string, as demonstrated by a crafted HTTP Vary header.
+
+
+
+- [https://github.com/amit-raut/CVE-2016-2569](https://github.com/amit-raut/CVE-2016-2569) :  ![starts](https://img.shields.io/github/stars/amit-raut/CVE-2016-2569.svg) ![forks](https://img.shields.io/github/forks/amit-raut/CVE-2016-2569.svg)
 
 ## CVE-2016-2563
  Stack-based buffer overflow in the SCP command-line utility in PuTTY before 0.67 and KiTTY 0.66.6.3 and earlier allows remote servers to cause a denial of service (stack memory corruption) or execute arbitrary code via a crafted SCP-SINK file-size response to an SCP download request.
