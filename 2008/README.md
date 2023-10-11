@@ -52,6 +52,8 @@
 
 
 
+- [https://github.com/nmurilo/CVE-2008-4687-exploit](https://github.com/nmurilo/CVE-2008-4687-exploit) :  ![starts](https://img.shields.io/github/stars/nmurilo/CVE-2008-4687-exploit.svg) ![forks](https://img.shields.io/github/forks/nmurilo/CVE-2008-4687-exploit.svg)
+
 - [https://github.com/twisted007/mantis_rce](https://github.com/twisted007/mantis_rce) :  ![starts](https://img.shields.io/github/stars/twisted007/mantis_rce.svg) ![forks](https://img.shields.io/github/forks/twisted007/mantis_rce.svg)
 
 ## CVE-2008-4654
