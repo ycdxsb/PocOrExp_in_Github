@@ -765,6 +765,13 @@
 
 - [https://github.com/arntsonl/CVE-2015-2153](https://github.com/arntsonl/CVE-2015-2153) :  ![starts](https://img.shields.io/github/stars/arntsonl/CVE-2015-2153.svg) ![forks](https://img.shields.io/github/forks/arntsonl/CVE-2015-2153.svg)
 
+## CVE-2015-1855
+ verify_certificate_identity in the OpenSSL extension in Ruby before 2.0.0 patchlevel 645, 2.1.x before 2.1.6, and 2.2.x before 2.2.2 does not properly validate hostnames, which allows remote attackers to spoof servers via vectors related to (1) multiple wildcards, (1) wildcards in IDNA names, (3) case sensitivity, and (4) non-ASCII characters.
+
+
+
+- [https://github.com/vpereira/CVE-2015-1855](https://github.com/vpereira/CVE-2015-1855) :  ![starts](https://img.shields.io/github/stars/vpereira/CVE-2015-1855.svg) ![forks](https://img.shields.io/github/forks/vpereira/CVE-2015-1855.svg)
+
 ## CVE-2015-1805
  The (1) pipe_read and (2) pipe_write implementations in fs/pipe.c in the Linux kernel before 3.16 do not properly consider the side effects of failed __copy_to_user_inatomic and __copy_from_user_inatomic calls, which allows local users to cause a denial of service (system crash) or possibly gain privileges via a crafted application, aka an &quot;I/O vector array overrun.&quot;
 
@@ -915,9 +922,9 @@
 
 - [https://github.com/t0kx/exploit-CVE-2015-1427](https://github.com/t0kx/exploit-CVE-2015-1427) :  ![starts](https://img.shields.io/github/stars/t0kx/exploit-CVE-2015-1427.svg) ![forks](https://img.shields.io/github/forks/t0kx/exploit-CVE-2015-1427.svg)
 
-- [https://github.com/h3inzzz/cve2015_1427](https://github.com/h3inzzz/cve2015_1427) :  ![starts](https://img.shields.io/github/stars/h3inzzz/cve2015_1427.svg) ![forks](https://img.shields.io/github/forks/h3inzzz/cve2015_1427.svg)
-
 - [https://github.com/cved-sources/cve-2015-1427](https://github.com/cved-sources/cve-2015-1427) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-1427.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-1427.svg)
+
+- [https://github.com/h3inzzz/cve2015_1427](https://github.com/h3inzzz/cve2015_1427) :  ![starts](https://img.shields.io/github/stars/h3inzzz/cve2015_1427.svg) ![forks](https://img.shields.io/github/forks/h3inzzz/cve2015_1427.svg)
 
 - [https://github.com/xpgdgit/CVE-2015-1427](https://github.com/xpgdgit/CVE-2015-1427) :  ![starts](https://img.shields.io/github/stars/xpgdgit/CVE-2015-1427.svg) ![forks](https://img.shields.io/github/forks/xpgdgit/CVE-2015-1427.svg)
 
