@@ -88,3 +88,10 @@
 
 
 - [https://github.com/alt3kx/CVE-2002-0201](https://github.com/alt3kx/CVE-2002-0201) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0201.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0201.svg)
+
+## CVE-2002-0200
+ Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service via an HTTP request for an MS-DOS device name.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0200](https://github.com/alt3kx/CVE-2002-0200) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0200.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0200.svg)
