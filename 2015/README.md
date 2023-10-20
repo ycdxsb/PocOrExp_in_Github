@@ -1,5 +1,5 @@
 ## CVE-2015-10034
- A vulnerability has been found in j-nowak workout-organizer and classified as critical. This vulnerability affects unknown code. The manipulation leads to sql injection. The name of the patch is 13cd6c3d1210640bfdb39872b2bb3597aa991279. It is recommended to apply a patch to fix this issue. VDB-217714 is the identifier assigned to this vulnerability.
+ A vulnerability has been found in j-nowak workout-organizer and classified as critical. This vulnerability affects unknown code. The manipulation leads to sql injection. The patch is identified as 13cd6c3d1210640bfdb39872b2bb3597aa991279. It is recommended to apply a patch to fix this issue. VDB-217714 is the identifier assigned to this vulnerability.
 
 
 
@@ -829,9 +829,9 @@
 
 - [https://github.com/limkokholefork/CVE-2015-1635](https://github.com/limkokholefork/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/limkokholefork/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/CVE-2015-1635.svg)
 
-- [https://github.com/bongbongco/MS15-034](https://github.com/bongbongco/MS15-034) :  ![starts](https://img.shields.io/github/stars/bongbongco/MS15-034.svg) ![forks](https://img.shields.io/github/forks/bongbongco/MS15-034.svg)
-
 - [https://github.com/neu5ron/cve_2015-1635](https://github.com/neu5ron/cve_2015-1635) :  ![starts](https://img.shields.io/github/stars/neu5ron/cve_2015-1635.svg) ![forks](https://img.shields.io/github/forks/neu5ron/cve_2015-1635.svg)
+
+- [https://github.com/bongbongco/MS15-034](https://github.com/bongbongco/MS15-034) :  ![starts](https://img.shields.io/github/stars/bongbongco/MS15-034.svg) ![forks](https://img.shields.io/github/forks/bongbongco/MS15-034.svg)
 
 - [https://github.com/u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS) :  ![starts](https://img.shields.io/github/stars/u0pattern/Remove-IIS-RIIS.svg) ![forks](https://img.shields.io/github/forks/u0pattern/Remove-IIS-RIIS.svg)
 
