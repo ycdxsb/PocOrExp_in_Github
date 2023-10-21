@@ -118,6 +118,8 @@
 
 - [https://github.com/MikeRega7/CVE-2007-2447-RCE](https://github.com/MikeRega7/CVE-2007-2447-RCE) :  ![starts](https://img.shields.io/github/stars/MikeRega7/CVE-2007-2447-RCE.svg) ![forks](https://img.shields.io/github/forks/MikeRega7/CVE-2007-2447-RCE.svg)
 
+- [https://github.com/ShivamDey/Samba-CVE-2007-2447-Exploit](https://github.com/ShivamDey/Samba-CVE-2007-2447-Exploit) :  ![starts](https://img.shields.io/github/stars/ShivamDey/Samba-CVE-2007-2447-Exploit.svg) ![forks](https://img.shields.io/github/forks/ShivamDey/Samba-CVE-2007-2447-Exploit.svg)
+
 - [https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-) :  ![starts](https://img.shields.io/github/stars/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-.svg) ![forks](https://img.shields.io/github/forks/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-.svg)
 
 - [https://github.com/HerculesRD/PyUsernameMapScriptRCE](https://github.com/HerculesRD/PyUsernameMapScriptRCE) :  ![starts](https://img.shields.io/github/stars/HerculesRD/PyUsernameMapScriptRCE.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/PyUsernameMapScriptRCE.svg)
