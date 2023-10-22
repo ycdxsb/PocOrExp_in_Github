@@ -1,107 +1,114 @@
-# Update 2023-10-21
-## CVE-2023-46003
+# Update 2023-10-22
+## CVE-2023-45657
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/leekenghwa/CVE-2023-46003](https://github.com/leekenghwa/CVE-2023-46003) :  ![starts](https://img.shields.io/github/stars/leekenghwa/CVE-2023-46003.svg) ![forks](https://img.shields.io/github/forks/leekenghwa/CVE-2023-46003.svg)
+- [https://github.com/RandomRobbieBF/CVE-2023-45657](https://github.com/RandomRobbieBF/CVE-2023-45657) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2023-45657.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2023-45657.svg)
 
 
-## CVE-2023-45992
- Cross Site Scripting vulnerability in Ruckus Wireless (CommScope) Ruckus CloudPath v.5.12.54414 allows a remote attacker to escalate privileges via a crafted script to the macaddress parameter in the onboarding portal.
+## CVE-2023-42442
+ JumpServer is an open source bastion host and a professional operation and maintenance security audit system. Starting in version 3.0.0 and prior to versions 3.5.5 and 3.6.4, session replays can download without authentication. Session replays stored in S3, OSS, or other cloud storage are not affected. The api `/api/v1/terminal/sessions/` permission control is broken and can be accessed anonymously. SessionViewSet permission classes set to `[RBACPermission | IsSessionAssignee]`, relation is or, so any permission matched will be allowed. Versions 3.5.5 and 3.6.4 have a fix. After upgrading, visit the api `$HOST/api/v1/terminal/sessions/?limit=1`. The expected http response code is 401 (`not_authenticated`).
 
-- [https://github.com/harry935/CVE-2023-45992](https://github.com/harry935/CVE-2023-45992) :  ![starts](https://img.shields.io/github/stars/harry935/CVE-2023-45992.svg) ![forks](https://img.shields.io/github/forks/harry935/CVE-2023-45992.svg)
-
-
-## CVE-2023-36802
- Microsoft Streaming Service Proxy Elevation of Privilege Vulnerability
-
-- [https://github.com/4zur-0312/CVE-2023-36802](https://github.com/4zur-0312/CVE-2023-36802) :  ![starts](https://img.shields.io/github/stars/4zur-0312/CVE-2023-36802.svg) ![forks](https://img.shields.io/github/forks/4zur-0312/CVE-2023-36802.svg)
-- [https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE](https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE) :  ![starts](https://img.shields.io/github/stars/x0rb3l/CVE-2023-36802-MSKSSRV-LPE.svg) ![forks](https://img.shields.io/github/forks/x0rb3l/CVE-2023-36802-MSKSSRV-LPE.svg)
+- [https://github.com/C1ph3rX13/CVE-2023-42442](https://github.com/C1ph3rX13/CVE-2023-42442) :  ![starts](https://img.shields.io/github/stars/C1ph3rX13/CVE-2023-42442.svg) ![forks](https://img.shields.io/github/forks/C1ph3rX13/CVE-2023-42442.svg)
 
 
-## CVE-2023-29360
- Microsoft Streaming Service Elevation of Privilege Vulnerability
+## CVE-2023-41993
+ The issue was addressed with improved checks. This issue is fixed in Safari 17, iOS 16.7 and iPadOS 16.7, macOS Sonoma 14. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
 
-- [https://github.com/exotikcheat/cve-2023-29360](https://github.com/exotikcheat/cve-2023-29360) :  ![starts](https://img.shields.io/github/stars/exotikcheat/cve-2023-29360.svg) ![forks](https://img.shields.io/github/forks/exotikcheat/cve-2023-29360.svg)
-
-
-## CVE-2023-21118
- In unflattenString8 of Sensor.cpp, there is a possible out of bounds read due to a heap buffer overflow. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-269014004
-
-- [https://github.com/nidhi7598/Frameworks_native_AOSP_10_r33_CVE-2023-21118](https://github.com/nidhi7598/Frameworks_native_AOSP_10_r33_CVE-2023-21118) :  ![starts](https://img.shields.io/github/stars/nidhi7598/Frameworks_native_AOSP_10_r33_CVE-2023-21118.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/Frameworks_native_AOSP_10_r33_CVE-2023-21118.svg)
+- [https://github.com/Mangaia/cve-test](https://github.com/Mangaia/cve-test) :  ![starts](https://img.shields.io/github/stars/Mangaia/cve-test.svg) ![forks](https://img.shields.io/github/forks/Mangaia/cve-test.svg)
 
 
-## CVE-2023-21109
- In multiple places of AccessibilityService, there is a possible way to hide the app from the user due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-261589597
+## CVE-2023-38646
+ Metabase open source before 0.46.6.1 and Metabase Enterprise before 1.46.6.1 allow attackers to execute arbitrary commands on the server, at the server's privilege level. Authentication is not required for exploitation. The other fixed versions are 0.45.4.1, 1.45.4.1, 0.44.7.1, 1.44.7.1, 0.43.7.2, and 1.43.7.2.
 
-- [https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-21109](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-21109) :  ![starts](https://img.shields.io/github/stars/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-21109.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-21109.svg)
-
-
-## CVE-2023-2114
- The NEX-Forms WordPress plugin before 8.4 does not properly escape the `table` parameter, which is populated with user input, before concatenating it to an SQL query.
-
-- [https://github.com/SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114](https://github.com/SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114) :  ![starts](https://img.shields.io/github/stars/SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114.svg) ![forks](https://img.shields.io/github/forks/SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114.svg)
+- [https://github.com/AnvithLobo/CVE-2023-38646](https://github.com/AnvithLobo/CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/AnvithLobo/CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/AnvithLobo/CVE-2023-38646.svg)
 
 
-## CVE-2022-46169
- Cacti is an open source platform which provides a robust and extensible operational monitoring and fault management framework for users. In affected versions a command injection vulnerability allows an unauthenticated user to execute arbitrary code on a server running Cacti, if a specific data source was selected for any monitored device. The vulnerability resides in the `remote_agent.php` file. This file can be accessed without authentication. This function retrieves the IP address of the client via `get_client_addr` and resolves this IP address to the corresponding hostname via `gethostbyaddr`. After this, it is verified that an entry within the `poller` table exists, where the hostname corresponds to the resolved hostname. If such an entry was found, the function returns `true` and the client is authorized. This authorization can be bypassed due to the implementation of the `get_client_addr` function. The function is defined in the file `lib/functions.php` and checks serval `$_SERVER` variables to determine the IP address of the client. The variables beginning with `HTTP_` can be arbitrarily set by an attacker. Since there is a default entry in the `poller` table with the hostname of the server running Cacti, an attacker can bypass the authentication e.g. by providing the header `Forwarded-For: &lt;TARGETIP&gt;`. This way the function `get_client_addr` returns the IP address of the server running Cacti. The following call to `gethostbyaddr` will resolve this IP address to the hostname of the server, which will pass the `poller` hostname check because of the default entry. After the authorization of the `remote_agent.php` file is bypassed, an attacker can trigger different actions. One of these actions is called `polldata`. The called function `poll_for_data` retrieves a few request parameters and loads the corresponding `poller_item` entries from the database. If the `action` of a `poller_item` equals `POLLER_ACTION_SCRIPT_PHP`, the function `proc_open` is used to execute a PHP script. The attacker-controlled parameter `$poller_id` is retrieved via the function `get_nfilter_request_var`, which allows arbitrary strings. This variable is later inserted into the string passed to `proc_open`, which leads to a command injection vulnerability. By e.g. providing the `poller_id=;id` the `id` command is executed. In order to reach the vulnerable call, the attacker must provide a `host_id` and `local_data_id`, where the `action` of the corresponding `poller_item` is set to `POLLER_ACTION_SCRIPT_PHP`. Both of these ids (`host_id` and `local_data_id`) can easily be bruteforced. The only requirement is that a `poller_item` with an `POLLER_ACTION_SCRIPT_PHP` action exists. This is very likely on a productive instance because this action is added by some predefined templates like `Device - Uptime` or `Device - Polling Time`. This command injection vulnerability allows an unauthenticated user to execute arbitrary commands if a `poller_item` with the `action` type `POLLER_ACTION_SCRIPT_PHP` (`2`) is configured. The authorization bypass should be prevented by not allowing an attacker to make `get_client_addr` (file `lib/functions.php`) return an arbitrary IP address. This could be done by not honoring the `HTTP_...` `$_SERVER` variables. If these should be kept for compatibility reasons it should at least be prevented to fake the IP address of the server running Cacti. This vulnerability has been addressed in both the 1.2.x and 1.3.x release branches with `1.2.23` being the first release containing the patch.
+## CVE-2023-34051
+ VMware Aria Operations for Logs contains an authentication bypass vulnerability. An unauthenticated, malicious actor can inject files into the operating system of an impacted appliance which can result in remote code execution.
 
-- [https://github.com/botfather0x0/CVE-2022-46169](https://github.com/botfather0x0/CVE-2022-46169) :  ![starts](https://img.shields.io/github/stars/botfather0x0/CVE-2022-46169.svg) ![forks](https://img.shields.io/github/forks/botfather0x0/CVE-2022-46169.svg)
+- [https://github.com/horizon3ai/CVE-2023-34051](https://github.com/horizon3ai/CVE-2023-34051) :  ![starts](https://img.shields.io/github/stars/horizon3ai/CVE-2023-34051.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/CVE-2023-34051.svg)
+
+
+## CVE-2023-34050
+ In spring AMQP versions 1.0.0 to 2.4.16 and 3.0.0 to 3.0.9 , allowed list patterns for deserializable class names were added to Spring AMQP, allowing users to lock down deserialization of data in messages from untrusted sources; however by default, when no allowed list was provided, all classes could be deserialized. Specifically, an application is vulnerable if * the SimpleMessageConverter or SerializerMessageConverter is used * the user does not configure allowed list patterns * untrusted message originators gain permissions to write messages to the RabbitMQ broker to send malicious content
+
+- [https://github.com/X1r0z/spring-amqp-deserialization](https://github.com/X1r0z/spring-amqp-deserialization) :  ![starts](https://img.shields.io/github/stars/X1r0z/spring-amqp-deserialization.svg) ![forks](https://img.shields.io/github/forks/X1r0z/spring-amqp-deserialization.svg)
+
+
+## CVE-2023-28432
+ Minio is a Multi-Cloud Object Storage framework. In a cluster deployment starting with RELEASE.2019-12-17T23-16-33Z and prior to RELEASE.2023-03-20T20-16-18Z, MinIO returns all environment variables, including `MINIO_SECRET_KEY` and `MINIO_ROOT_PASSWORD`, resulting in information disclosure. All users of distributed deployment are impacted. All users are advised to upgrade to RELEASE.2023-03-20T20-16-18Z.
+
+- [https://github.com/yTxZx/CVE-2023-28432](https://github.com/yTxZx/CVE-2023-28432) :  ![starts](https://img.shields.io/github/stars/yTxZx/CVE-2023-28432.svg) ![forks](https://img.shields.io/github/forks/yTxZx/CVE-2023-28432.svg)
+
+
+## CVE-2023-23752
+ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.
+
+- [https://github.com/yTxZx/CVE-2023-23752](https://github.com/yTxZx/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/yTxZx/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/yTxZx/CVE-2023-23752.svg)
+- [https://github.com/AlissoftCodes/CVE-2023-23752](https://github.com/AlissoftCodes/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/AlissoftCodes/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/AlissoftCodes/CVE-2023-23752.svg)
+
+
+## CVE-2023-22515
+ Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances. Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.
+
+- [https://github.com/youcannotseemeagain/CVE-2023-22515_RCE](https://github.com/youcannotseemeagain/CVE-2023-22515_RCE) :  ![starts](https://img.shields.io/github/stars/youcannotseemeagain/CVE-2023-22515_RCE.svg) ![forks](https://img.shields.io/github/forks/youcannotseemeagain/CVE-2023-22515_RCE.svg)
+
+
+## CVE-2023-20963
+ In WorkSource, there is a possible parcel mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-220302519
+
+- [https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20963](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20963) :  ![starts](https://img.shields.io/github/stars/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20963.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20963.svg)
+
+
+## CVE-2023-20198
+ Cisco is aware of active exploitation of a previously unknown vulnerability in the web UI feature of Cisco IOS XE Software when exposed to the internet or to untrusted networks. This vulnerability allows a remote, unauthenticated attacker to create an account on an affected system with privilege level 15 access. The attacker can then use that account to gain control of the affected system. For steps to close the attack vector for this vulnerability, see the Recommendations section of this advisory Cisco will provide updates on the status of this investigation and when a software patch is available.
+
+- [https://github.com/iveresk/cve-2023-20198](https://github.com/iveresk/cve-2023-20198) :  ![starts](https://img.shields.io/github/stars/iveresk/cve-2023-20198.svg) ![forks](https://img.shields.io/github/forks/iveresk/cve-2023-20198.svg)
+- [https://github.com/sohaibeb/CVE-2023-20198](https://github.com/sohaibeb/CVE-2023-20198) :  ![starts](https://img.shields.io/github/stars/sohaibeb/CVE-2023-20198.svg) ![forks](https://img.shields.io/github/forks/sohaibeb/CVE-2023-20198.svg)
+- [https://github.com/reket99/Cisco_CVE-2023-20198](https://github.com/reket99/Cisco_CVE-2023-20198) :  ![starts](https://img.shields.io/github/stars/reket99/Cisco_CVE-2023-20198.svg) ![forks](https://img.shields.io/github/forks/reket99/Cisco_CVE-2023-20198.svg)
+- [https://github.com/m474r5/CVE-2023-20198-RCE](https://github.com/m474r5/CVE-2023-20198-RCE) :  ![starts](https://img.shields.io/github/stars/m474r5/CVE-2023-20198-RCE.svg) ![forks](https://img.shields.io/github/forks/m474r5/CVE-2023-20198-RCE.svg)
+
+
+## CVE-2023-3971
+ An HTML injection flaw was found in Controller in the user interface settings. This flaw allows an attacker to capture credentials by creating a custom login page by injecting HTML, resulting in a complete compromise.
+
+- [https://github.com/ashangp923/CVE-2023-3971](https://github.com/ashangp923/CVE-2023-3971) :  ![starts](https://img.shields.io/github/stars/ashangp923/CVE-2023-3971.svg) ![forks](https://img.shields.io/github/forks/ashangp923/CVE-2023-3971.svg)
+
+
+## CVE-2023-1698
+ In multiple products of WAGO a vulnerability allows an unauthenticated, remote attacker to create new users and change the device configuration which can result in unintended behaviour, Denial of Service and full system compromise.
+
+- [https://github.com/thedarknessdied/WAGO-CVE-2023-1698](https://github.com/thedarknessdied/WAGO-CVE-2023-1698) :  ![starts](https://img.shields.io/github/stars/thedarknessdied/WAGO-CVE-2023-1698.svg) ![forks](https://img.shields.io/github/forks/thedarknessdied/WAGO-CVE-2023-1698.svg)
+- [https://github.com/deIndra/CVE-2023-1698](https://github.com/deIndra/CVE-2023-1698) :  ![starts](https://img.shields.io/github/stars/deIndra/CVE-2023-1698.svg) ![forks](https://img.shields.io/github/forks/deIndra/CVE-2023-1698.svg)
 
 
 ## CVE-2021-41773
  A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/LayarKacaSiber/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/LayarKacaSiber/CVE-2021-41773.svg)
-- [https://github.com/xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/xMohamed0/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/xMohamed0/CVE-2021-41773.svg)
-- [https://github.com/sixpacksecurity/CVE-2021-41773](https://github.com/sixpacksecurity/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/sixpacksecurity/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/sixpacksecurity/CVE-2021-41773.svg)
-- [https://github.com/TheLastVvV/CVE-2021-41773](https://github.com/TheLastVvV/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/TheLastVvV/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/TheLastVvV/CVE-2021-41773.svg)
-- [https://github.com/qwutony/CVE-2021-41773](https://github.com/qwutony/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/qwutony/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/qwutony/CVE-2021-41773.svg)
+- [https://github.com/wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/wolf1892/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/wolf1892/CVE-2021-41773.svg)
+- [https://github.com/honypot/CVE-2021-41773](https://github.com/honypot/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/honypot/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/honypot/CVE-2021-41773.svg)
 
 
-## CVE-2021-40154
- NXP LPC55S69 devices before A3 have a buffer over-read via a crafted wlength value in a GET Descriptor Configuration request during use of USB In-System Programming (ISP) mode. This discloses protected flash memory.
+## CVE-2021-23017
+ A security issue in nginx resolver was identified, which might allow an attacker who is able to forge UDP packets from the DNS server to cause 1-byte memory overwrite, resulting in worker process crash or potential other impact.
 
-- [https://github.com/Jeromeyoung/CVE-2021-40154](https://github.com/Jeromeyoung/CVE-2021-40154) :  ![starts](https://img.shields.io/github/stars/Jeromeyoung/CVE-2021-40154.svg) ![forks](https://img.shields.io/github/forks/Jeromeyoung/CVE-2021-40154.svg)
-
-
-## CVE-2021-28797
- A stack-based buffer overflow vulnerability has been reported to affect QNAP NAS devices running Surveillance Station. If exploited, this vulnerability allows attackers to execute arbitrary code. QNAP have already fixed this vulnerability in the following versions: Surveillance Station 5.1.5.4.3 (and later) for ARM CPU NAS (64bit OS) and x86 CPU NAS (64bit OS) Surveillance Station 5.1.5.3.3 (and later) for ARM CPU NAS (32bit OS) and x86 CPU NAS (32bit OS)
-
-- [https://github.com/Alonzozzz/alonzzzo](https://github.com/Alonzozzz/alonzzzo) :  ![starts](https://img.shields.io/github/stars/Alonzozzz/alonzzzo.svg) ![forks](https://img.shields.io/github/forks/Alonzozzz/alonzzzo.svg)
+- [https://github.com/ShivamDey/CVE-2021-23017](https://github.com/ShivamDey/CVE-2021-23017) :  ![starts](https://img.shields.io/github/stars/ShivamDey/CVE-2021-23017.svg) ![forks](https://img.shields.io/github/forks/ShivamDey/CVE-2021-23017.svg)
 
 
-## CVE-2021-21234
- spring-boot-actuator-logview in a library that adds a simple logfile viewer as spring boot actuator endpoint. It is maven package &quot;eu.hinsch:spring-boot-actuator-logview&quot;. In spring-boot-actuator-logview before version 0.2.13 there is a directory traversal vulnerability. The nature of this library is to expose a log file directory via admin (spring boot actuator) HTTP endpoints. Both the filename to view and a base folder (relative to the logging folder root) can be specified via request parameters. While the filename parameter was checked to prevent directory traversal exploits (so that `filename=../somefile` would not work), the base folder parameter was not sufficiently checked, so that `filename=somefile&amp;base=../` could access a file outside the logging base directory). The vulnerability has been patched in release 0.2.13. Any users of 0.2.12 should be able to update without any issues as there are no other changes in that release. There is no workaround to fix the vulnerability other than updating or removing the dependency. However, removing read access of the user the application is run with to any directory not required for running the application can limit the impact. Additionally, access to the logview endpoint can be limited by deploying the application behind a reverse proxy.
+## CVE-2018-10097
+ XSS exists in Domain Trader 2.5.3 via the recoverlogin.php email_address parameter.
 
-- [https://github.com/sule01u/SBSCAN](https://github.com/sule01u/SBSCAN) :  ![starts](https://img.shields.io/github/stars/sule01u/SBSCAN.svg) ![forks](https://img.shields.io/github/forks/sule01u/SBSCAN.svg)
-
-
-## CVE-2021-3449
- An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation ClientHello message from a client. If a TLSv1.2 renegotiation ClientHello omits the signature_algorithms extension (where it was present in the initial ClientHello), but includes a signature_algorithms_cert extension then a NULL pointer dereference will result, leading to a crash and a denial of service attack. A server is only vulnerable if it has TLSv1.2 and renegotiation enabled (which is the default configuration). OpenSSL TLS clients are not impacted by this issue. All OpenSSL 1.1.1 versions are affected by this issue. Users of these versions should upgrade to OpenSSL 1.1.1k. OpenSSL 1.0.2 is not impacted by this issue. Fixed in OpenSSL 1.1.1k (Affected 1.1.1-1.1.1j).
-
-- [https://github.com/nidhi7598/OPENSSL_1.1.1g_CVE-2021-3449](https://github.com/nidhi7598/OPENSSL_1.1.1g_CVE-2021-3449) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.1.1g_CVE-2021-3449.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.1.1g_CVE-2021-3449.svg)
+- [https://github.com/ashangp923/CVE-2018-10097](https://github.com/ashangp923/CVE-2018-10097) :  ![starts](https://img.shields.io/github/stars/ashangp923/CVE-2018-10097.svg) ![forks](https://img.shields.io/github/forks/ashangp923/CVE-2018-10097.svg)
 
 
-## CVE-2020-1472
- An elevation of privilege vulnerability exists when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller, using the Netlogon Remote Protocol (MS-NRPC), aka 'Netlogon Elevation of Privilege Vulnerability'.
+## CVE-2017-7410
+ Multiple SQL injection vulnerabilities in account/signup.php and account/signup2.php in WebsiteBaker 2.10.0 and earlier allow remote attackers to execute arbitrary SQL commands via the (1) username, (2) display_name parameter.
 
-- [https://github.com/botfather0x0/ZeroLogon-to-Shell](https://github.com/botfather0x0/ZeroLogon-to-Shell) :  ![starts](https://img.shields.io/github/stars/botfather0x0/ZeroLogon-to-Shell.svg) ![forks](https://img.shields.io/github/forks/botfather0x0/ZeroLogon-to-Shell.svg)
-
-
-## CVE-2018-16156
- In PaperStream IP (TWAIN) 1.42.0.5685 (Service Update 7), the FJTWSVIC service running with SYSTEM privilege processes unauthenticated messages received over the FjtwMkic_Fjicube_32 named pipe. One of these message processing functions attempts to dynamically load the UninOldIS.dll library and executes an exported function named ChangeUninstallString. The default install does not contain this library and therefore if any DLL with that name exists in any directory listed in the PATH variable, it can be used to escalate to SYSTEM level privilege.
-
-- [https://github.com/securifera/CVE-2018-16156-Exploit](https://github.com/securifera/CVE-2018-16156-Exploit) :  ![starts](https://img.shields.io/github/stars/securifera/CVE-2018-16156-Exploit.svg) ![forks](https://img.shields.io/github/forks/securifera/CVE-2018-16156-Exploit.svg)
+- [https://github.com/ashangp923/CVE-2017-7410](https://github.com/ashangp923/CVE-2017-7410) :  ![starts](https://img.shields.io/github/stars/ashangp923/CVE-2017-7410.svg) ![forks](https://img.shields.io/github/forks/ashangp923/CVE-2017-7410.svg)
 
 
-## CVE-2018-7844
- A CWE-200: Information Exposure vulnerability exists in all versions of the Modicon M580, Modicon M340, Modicon Quantum, and Modicon Premium which could cause the disclosure of SNMP information when reading memory blocks from the controller over Modbus.
+## CVE-2007-2447
+ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 
-- [https://github.com/yanissec/CVE-2018-7844](https://github.com/yanissec/CVE-2018-7844) :  ![starts](https://img.shields.io/github/stars/yanissec/CVE-2018-7844.svg) ![forks](https://img.shields.io/github/forks/yanissec/CVE-2018-7844.svg)
-
-
-## CVE-2018-1111
- DHCP packages in Red Hat Enterprise Linux 6 and 7, Fedora 28, and earlier are vulnerable to a command injection flaw in the NetworkManager integration script included in the DHCP client. A malicious DHCP server, or an attacker on the local network able to spoof DHCP responses, could use this flaw to execute arbitrary commands with root privileges on systems using NetworkManager and configured to obtain network configuration using the DHCP protocol.
-
-- [https://github.com/knqyf263/CVE-2018-1111](https://github.com/knqyf263/CVE-2018-1111) :  ![starts](https://img.shields.io/github/stars/knqyf263/CVE-2018-1111.svg) ![forks](https://img.shields.io/github/forks/knqyf263/CVE-2018-1111.svg)
+- [https://github.com/ShivamDey/Samba-CVE-2007-2447-Exploit](https://github.com/ShivamDey/Samba-CVE-2007-2447-Exploit) :  ![starts](https://img.shields.io/github/stars/ShivamDey/Samba-CVE-2007-2447-Exploit.svg) ![forks](https://img.shields.io/github/forks/ShivamDey/Samba-CVE-2007-2447-Exploit.svg)
 
