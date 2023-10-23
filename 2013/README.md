@@ -87,6 +87,13 @@
 
 - [https://github.com/Friarfukd/RobbinHood](https://github.com/Friarfukd/RobbinHood) :  ![starts](https://img.shields.io/github/stars/Friarfukd/RobbinHood.svg) ![forks](https://img.shields.io/github/forks/Friarfukd/RobbinHood.svg)
 
+## CVE-2013-4786
+ The IPMI 2.0 specification supports RMCP+ Authenticated Key-Exchange Protocol (RAKP) authentication, which allows remote attackers to obtain password hashes and conduct offline password guessing attacks by obtaining the HMAC from a RAKP message 2 response from a BMC.
+
+
+
+- [https://github.com/fin3ss3g0d/CosmicRakp](https://github.com/fin3ss3g0d/CosmicRakp) :  ![starts](https://img.shields.io/github/stars/fin3ss3g0d/CosmicRakp.svg) ![forks](https://img.shields.io/github/forks/fin3ss3g0d/CosmicRakp.svg)
+
 ## CVE-2013-4784
  The HP Integrated Lights-Out (iLO) BMC implementation allows remote attackers to bypass authentication and execute arbitrary IPMI commands by using cipher suite 0 (aka cipher zero) and an arbitrary password.
 
