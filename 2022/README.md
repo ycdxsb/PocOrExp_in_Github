@@ -2103,9 +2103,9 @@
 
 - [https://github.com/devengpk/CVE-2022-36804](https://github.com/devengpk/CVE-2022-36804) :  ![starts](https://img.shields.io/github/stars/devengpk/CVE-2022-36804.svg) ![forks](https://img.shields.io/github/forks/devengpk/CVE-2022-36804.svg)
 
-- [https://github.com/JRandomSage/CVE-2022-36804-MASS-RCE](https://github.com/JRandomSage/CVE-2022-36804-MASS-RCE) :  ![starts](https://img.shields.io/github/stars/JRandomSage/CVE-2022-36804-MASS-RCE.svg) ![forks](https://img.shields.io/github/forks/JRandomSage/CVE-2022-36804-MASS-RCE.svg)
-
 - [https://github.com/imbas007/Atlassian-Bitbucket-CVE-2022-36804](https://github.com/imbas007/Atlassian-Bitbucket-CVE-2022-36804) :  ![starts](https://img.shields.io/github/stars/imbas007/Atlassian-Bitbucket-CVE-2022-36804.svg) ![forks](https://img.shields.io/github/forks/imbas007/Atlassian-Bitbucket-CVE-2022-36804.svg)
+
+- [https://github.com/JRandomSage/CVE-2022-36804-MASS-RCE](https://github.com/JRandomSage/CVE-2022-36804-MASS-RCE) :  ![starts](https://img.shields.io/github/stars/JRandomSage/CVE-2022-36804-MASS-RCE.svg) ![forks](https://img.shields.io/github/forks/JRandomSage/CVE-2022-36804-MASS-RCE.svg)
 
 ## CVE-2022-36752
  png2webp v1.0.4 was discovered to contain an out-of-bounds write via the function w2p. This vulnerability is exploitable via a crafted png file.
@@ -2608,6 +2608,13 @@
 - [https://github.com/Muirey03/CVE-2022-32832](https://github.com/Muirey03/CVE-2022-32832) :  ![starts](https://img.shields.io/github/stars/Muirey03/CVE-2022-32832.svg) ![forks](https://img.shields.io/github/forks/Muirey03/CVE-2022-32832.svg)
 
 - [https://github.com/AkbarTrilaksana/CVE-2022-32832](https://github.com/AkbarTrilaksana/CVE-2022-32832) :  ![starts](https://img.shields.io/github/stars/AkbarTrilaksana/CVE-2022-32832.svg) ![forks](https://img.shields.io/github/forks/AkbarTrilaksana/CVE-2022-32832.svg)
+
+## CVE-2022-32548
+ An issue was discovered on certain DrayTek Vigor routers before July 2022 such as the Vigor3910 before 4.3.1.1. /cgi-bin/wlogin.cgi has a buffer overflow via the username or password to the aa or ab field.
+
+
+
+- [https://github.com/MosaedH/CVE-2022-32548-RCE-POC](https://github.com/MosaedH/CVE-2022-32548-RCE-POC) :  ![starts](https://img.shields.io/github/stars/MosaedH/CVE-2022-32548-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/MosaedH/CVE-2022-32548-RCE-POC.svg)
 
 ## CVE-2022-32532
  Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypassed on some servlet containers. Applications using RegExPatternMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass.
@@ -3340,11 +3347,11 @@
 
 - [https://github.com/mattjmillner/CVE-Smackdown](https://github.com/mattjmillner/CVE-Smackdown) :  ![starts](https://img.shields.io/github/stars/mattjmillner/CVE-Smackdown.svg) ![forks](https://img.shields.io/github/forks/mattjmillner/CVE-Smackdown.svg)
 
-- [https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-](https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-) :  ![starts](https://img.shields.io/github/stars/aymankhder/MSDT_CVE-2022-30190-follina-.svg) ![forks](https://img.shields.io/github/forks/aymankhder/MSDT_CVE-2022-30190-follina-.svg)
-
 - [https://github.com/SrCroqueta/CVE-2022-30190_Temporary_Fix](https://github.com/SrCroqueta/CVE-2022-30190_Temporary_Fix) :  ![starts](https://img.shields.io/github/stars/SrCroqueta/CVE-2022-30190_Temporary_Fix.svg) ![forks](https://img.shields.io/github/forks/SrCroqueta/CVE-2022-30190_Temporary_Fix.svg)
 
 - [https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-](https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-) :  ![starts](https://img.shields.io/github/stars/Imeneallouche/Follina-attack-CVE-2022-30190-.svg) ![forks](https://img.shields.io/github/forks/Imeneallouche/Follina-attack-CVE-2022-30190-.svg)
+
+- [https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-](https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-) :  ![starts](https://img.shields.io/github/stars/aymankhder/MSDT_CVE-2022-30190-follina-.svg) ![forks](https://img.shields.io/github/forks/aymankhder/MSDT_CVE-2022-30190-follina-.svg)
 
 - [https://github.com/sentrium-security/Follina-Workaround-CVE-2022-30190](https://github.com/sentrium-security/Follina-Workaround-CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/sentrium-security/Follina-Workaround-CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/sentrium-security/Follina-Workaround-CVE-2022-30190.svg)
 
@@ -6689,9 +6696,9 @@
 
 - [https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2022-20347](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2022-20347) :  ![starts](https://img.shields.io/github/stars/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2022-20347.svg) ![forks](https://img.shields.io/github/forks/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2022-20347.svg)
 
-- [https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347) :  ![starts](https://img.shields.io/github/stars/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347.svg)
-
 - [https://github.com/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20347](https://github.com/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20347) :  ![starts](https://img.shields.io/github/stars/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20347.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20347.svg)
+
+- [https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347) :  ![starts](https://img.shields.io/github/stars/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347.svg)
 
 - [https://github.com/hshivhare67/platform_packages_apps_settings_AOSP10_r33_CVE-2022-20347](https://github.com/hshivhare67/platform_packages_apps_settings_AOSP10_r33_CVE-2022-20347) :  ![starts](https://img.shields.io/github/stars/hshivhare67/platform_packages_apps_settings_AOSP10_r33_CVE-2022-20347.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/platform_packages_apps_settings_AOSP10_r33_CVE-2022-20347.svg)
 
@@ -7568,23 +7575,6 @@
 
 - [https://github.com/dexit/CVE-2022-1329](https://github.com/dexit/CVE-2022-1329) :  ![starts](https://img.shields.io/github/stars/dexit/CVE-2022-1329.svg) ![forks](https://img.shields.io/github/forks/dexit/CVE-2022-1329.svg)
 
-## CVE-2022-1292
- The c_rehash script does not properly sanitise shell metacharacters to prevent command injection. This script is distributed by some operating systems in a manner where it is automatically executed. On such operating systems, an attacker could execute arbitrary commands with the privileges of the script. Use of the c_rehash script is considered obsolete and should be replaced by the OpenSSL rehash command line tool. Fixed in OpenSSL 3.0.3 (Affected 3.0.0,3.0.1,3.0.2). Fixed in OpenSSL 1.1.1o (Affected 1.1.1-1.1.1n). Fixed in OpenSSL 1.0.2ze (Affected 1.0.2-1.0.2zd).
-
-
-
-- [https://github.com/alcaparra/CVE-2022-1292](https://github.com/alcaparra/CVE-2022-1292) :  ![starts](https://img.shields.io/github/stars/alcaparra/CVE-2022-1292.svg) ![forks](https://img.shields.io/github/forks/alcaparra/CVE-2022-1292.svg)
-
-- [https://github.com/greek0x0/CVE-2022-1292](https://github.com/greek0x0/CVE-2022-1292) :  ![starts](https://img.shields.io/github/stars/greek0x0/CVE-2022-1292.svg) ![forks](https://img.shields.io/github/forks/greek0x0/CVE-2022-1292.svg)
-
-- [https://github.com/li8u99/CVE-2022-1292](https://github.com/li8u99/CVE-2022-1292) :  ![starts](https://img.shields.io/github/stars/li8u99/CVE-2022-1292.svg) ![forks](https://img.shields.io/github/forks/li8u99/CVE-2022-1292.svg)
-
-- [https://github.com/rama291041610/CVE-2022-1292](https://github.com/rama291041610/CVE-2022-1292) :  ![starts](https://img.shields.io/github/stars/rama291041610/CVE-2022-1292.svg) ![forks](https://img.shields.io/github/forks/rama291041610/CVE-2022-1292.svg)
-
-- [https://github.com/und3sc0n0c1d0/CVE-2022-1292](https://github.com/und3sc0n0c1d0/CVE-2022-1292) :  ![starts](https://img.shields.io/github/stars/und3sc0n0c1d0/CVE-2022-1292.svg) ![forks](https://img.shields.io/github/forks/und3sc0n0c1d0/CVE-2022-1292.svg)
-
-- [https://github.com/nidhi7598/openssl-OpenSSL_1_1_1g_AOSP_10_r33_CVE-2022-1292](https://github.com/nidhi7598/openssl-OpenSSL_1_1_1g_AOSP_10_r33_CVE-2022-1292) :  ![starts](https://img.shields.io/github/stars/nidhi7598/openssl-OpenSSL_1_1_1g_AOSP_10_r33_CVE-2022-1292.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/openssl-OpenSSL_1_1_1g_AOSP_10_r33_CVE-2022-1292.svg)
-
 ## CVE-2022-1227
  A privilege escalation flaw was found in Podman. This flaw allows an attacker to publish a malicious image to a public registry. Once this image is downloaded by a potential victim, the vulnerability is triggered after a user runs the 'podman top' command. This action gives the attacker access to the host filesystem, leading to information disclosure or denial of service.
 
@@ -7833,11 +7823,11 @@
 
 - [https://github.com/Mustafa1986/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/Mustafa1986/CVE-2022-0847-DirtyPipe-Exploit) :  ![starts](https://img.shields.io/github/stars/Mustafa1986/CVE-2022-0847-DirtyPipe-Exploit.svg) ![forks](https://img.shields.io/github/forks/Mustafa1986/CVE-2022-0847-DirtyPipe-Exploit.svg)
 
+- [https://github.com/drapl0n/dirtypipe](https://github.com/drapl0n/dirtypipe) :  ![starts](https://img.shields.io/github/stars/drapl0n/dirtypipe.svg) ![forks](https://img.shields.io/github/forks/drapl0n/dirtypipe.svg)
+
 - [https://github.com/arttnba3/CVE-2022-0847](https://github.com/arttnba3/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/arttnba3/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/arttnba3/CVE-2022-0847.svg)
 
 - [https://github.com/qwert419/linux-](https://github.com/qwert419/linux-) :  ![starts](https://img.shields.io/github/stars/qwert419/linux-.svg) ![forks](https://img.shields.io/github/forks/qwert419/linux-.svg)
-
-- [https://github.com/drapl0n/dirtypipe](https://github.com/drapl0n/dirtypipe) :  ![starts](https://img.shields.io/github/stars/drapl0n/dirtypipe.svg) ![forks](https://img.shields.io/github/forks/drapl0n/dirtypipe.svg)
 
 - [https://github.com/yoeelingBin/CVE-2022-0847-Container-Escape](https://github.com/yoeelingBin/CVE-2022-0847-Container-Escape) :  ![starts](https://img.shields.io/github/stars/yoeelingBin/CVE-2022-0847-Container-Escape.svg) ![forks](https://img.shields.io/github/forks/yoeelingBin/CVE-2022-0847-Container-Escape.svg)
 
@@ -7951,13 +7941,13 @@
 
 - [https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847](https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/pmihsan/Dirty-Pipe-CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/pmihsan/Dirty-Pipe-CVE-2022-0847.svg)
 
+- [https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-](https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-) :  ![starts](https://img.shields.io/github/stars/edsonjt81/CVE-2022-0847-DirtyPipe-.svg) ![forks](https://img.shields.io/github/forks/edsonjt81/CVE-2022-0847-DirtyPipe-.svg)
+
 - [https://github.com/al4xs/CVE-2022-0847-Dirty-Pipe](https://github.com/al4xs/CVE-2022-0847-Dirty-Pipe) :  ![starts](https://img.shields.io/github/stars/al4xs/CVE-2022-0847-Dirty-Pipe.svg) ![forks](https://img.shields.io/github/forks/al4xs/CVE-2022-0847-Dirty-Pipe.svg)
 
 - [https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe](https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe) :  ![starts](https://img.shields.io/github/stars/Greetdawn/CVE-2022-0847-DirtyPipe.svg) ![forks](https://img.shields.io/github/forks/Greetdawn/CVE-2022-0847-DirtyPipe.svg)
 
 - [https://github.com/joeymeech/CVE-2022-0847-Exploit-Implementation](https://github.com/joeymeech/CVE-2022-0847-Exploit-Implementation) :  ![starts](https://img.shields.io/github/stars/joeymeech/CVE-2022-0847-Exploit-Implementation.svg) ![forks](https://img.shields.io/github/forks/joeymeech/CVE-2022-0847-Exploit-Implementation.svg)
-
-- [https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-](https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-) :  ![starts](https://img.shields.io/github/stars/edsonjt81/CVE-2022-0847-DirtyPipe-.svg) ![forks](https://img.shields.io/github/forks/edsonjt81/CVE-2022-0847-DirtyPipe-.svg)
 
 - [https://github.com/AyoubNajim/cve-2022-0847dirtypipe-exploit](https://github.com/AyoubNajim/cve-2022-0847dirtypipe-exploit) :  ![starts](https://img.shields.io/github/stars/AyoubNajim/cve-2022-0847dirtypipe-exploit.svg) ![forks](https://img.shields.io/github/forks/AyoubNajim/cve-2022-0847dirtypipe-exploit.svg)
 
