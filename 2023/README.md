@@ -1190,9 +1190,9 @@
 
 - [https://github.com/Boogipop/MetabaseRceTools](https://github.com/Boogipop/MetabaseRceTools) :  ![starts](https://img.shields.io/github/stars/Boogipop/MetabaseRceTools.svg) ![forks](https://img.shields.io/github/forks/Boogipop/MetabaseRceTools.svg)
 
-- [https://github.com/getdrive/PoC](https://github.com/getdrive/PoC) :  ![starts](https://img.shields.io/github/stars/getdrive/PoC.svg) ![forks](https://img.shields.io/github/forks/getdrive/PoC.svg)
-
 - [https://github.com/robotmikhro/CVE-2023-38646](https://github.com/robotmikhro/CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/robotmikhro/CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/robotmikhro/CVE-2023-38646.svg)
+
+- [https://github.com/getdrive/PoC](https://github.com/getdrive/PoC) :  ![starts](https://img.shields.io/github/stars/getdrive/PoC.svg) ![forks](https://img.shields.io/github/forks/getdrive/PoC.svg)
 
 - [https://github.com/securezeron/CVE-2023-38646](https://github.com/securezeron/CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/securezeron/CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/securezeron/CVE-2023-38646.svg)
 
@@ -2445,6 +2445,8 @@
 
 - [https://github.com/d0rb/CVE-2023-33246](https://github.com/d0rb/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2023-33246.svg)
 
+- [https://github.com/0xKayala/CVE-2023-33246](https://github.com/0xKayala/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/0xKayala/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/0xKayala/CVE-2023-33246.svg)
+
 ## CVE-2023-33243
  RedTeam Pentesting discovered that the web interface of STARFACE as well as its REST API allows authentication using the SHA512 hash of the password instead of the cleartext password. While storing password hashes instead of cleartext passwords in an application's database generally has become best practice to protect users' passwords in case of a database compromise, this is rendered ineffective when allowing to authenticate using the password hash.
 
@@ -3141,6 +3143,13 @@
 
 
 - [https://github.com/zPrototype/CVE-2023-29808](https://github.com/zPrototype/CVE-2023-29808) :  ![starts](https://img.shields.io/github/stars/zPrototype/CVE-2023-29808.svg) ![forks](https://img.shields.io/github/forks/zPrototype/CVE-2023-29808.svg)
+
+## CVE-2023-29552
+ The Service Location Protocol (SLP, RFC 2608) allows an unauthenticated, remote attacker to register arbitrary services. This could allow the attacker to use spoofed UDP traffic to conduct a denial-of-service attack with a significant amplification factor.
+
+
+
+- [https://github.com/0xKayala/CVE-2023-29552](https://github.com/0xKayala/CVE-2023-29552) :  ![starts](https://img.shields.io/github/stars/0xKayala/CVE-2023-29552.svg) ![forks](https://img.shields.io/github/forks/0xKayala/CVE-2023-29552.svg)
 
 ## CVE-2023-29489
  An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the cpsrvd error page via an invalid webcall ID, aka SEC-669. The fixed versions are 11.109.9999.116, 11.108.0.13, 11.106.0.18, and 11.102.0.31.
@@ -5240,6 +5249,8 @@
 
 - [https://github.com/mlynchcogent/CVE-2023-4966-POC](https://github.com/mlynchcogent/CVE-2023-4966-POC) :  ![starts](https://img.shields.io/github/stars/mlynchcogent/CVE-2023-4966-POC.svg) ![forks](https://img.shields.io/github/forks/mlynchcogent/CVE-2023-4966-POC.svg)
 
+- [https://github.com/certat/citrix-logchecker](https://github.com/certat/citrix-logchecker) :  ![starts](https://img.shields.io/github/stars/certat/citrix-logchecker.svg) ![forks](https://img.shields.io/github/forks/certat/citrix-logchecker.svg)
+
 ## CVE-2023-4911
  A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.
 
@@ -5251,15 +5262,17 @@
 
 - [https://github.com/Green-Avocado/CVE-2023-4911](https://github.com/Green-Avocado/CVE-2023-4911) :  ![starts](https://img.shields.io/github/stars/Green-Avocado/CVE-2023-4911.svg) ![forks](https://img.shields.io/github/forks/Green-Avocado/CVE-2023-4911.svg)
 
-- [https://github.com/hadrian3689/looney-tunables-CVE-2023-4911](https://github.com/hadrian3689/looney-tunables-CVE-2023-4911) :  ![starts](https://img.shields.io/github/stars/hadrian3689/looney-tunables-CVE-2023-4911.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/looney-tunables-CVE-2023-4911.svg)
-
 - [https://github.com/chaudharyarjun/LooneyPwner](https://github.com/chaudharyarjun/LooneyPwner) :  ![starts](https://img.shields.io/github/stars/chaudharyarjun/LooneyPwner.svg) ![forks](https://img.shields.io/github/forks/chaudharyarjun/LooneyPwner.svg)
+
+- [https://github.com/hadrian3689/looney-tunables-CVE-2023-4911](https://github.com/hadrian3689/looney-tunables-CVE-2023-4911) :  ![starts](https://img.shields.io/github/stars/hadrian3689/looney-tunables-CVE-2023-4911.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/looney-tunables-CVE-2023-4911.svg)
 
 - [https://github.com/ruycr4ft/CVE-2023-4911](https://github.com/ruycr4ft/CVE-2023-4911) :  ![starts](https://img.shields.io/github/stars/ruycr4ft/CVE-2023-4911.svg) ![forks](https://img.shields.io/github/forks/ruycr4ft/CVE-2023-4911.svg)
 
 - [https://github.com/xiaoQ1z/CVE-2023-4911](https://github.com/xiaoQ1z/CVE-2023-4911) :  ![starts](https://img.shields.io/github/stars/xiaoQ1z/CVE-2023-4911.svg) ![forks](https://img.shields.io/github/forks/xiaoQ1z/CVE-2023-4911.svg)
 
 - [https://github.com/KernelKrise/CVE-2023-4911](https://github.com/KernelKrise/CVE-2023-4911) :  ![starts](https://img.shields.io/github/stars/KernelKrise/CVE-2023-4911.svg) ![forks](https://img.shields.io/github/forks/KernelKrise/CVE-2023-4911.svg)
+
+- [https://github.com/Diego-AltF4/CVE-2023-4911](https://github.com/Diego-AltF4/CVE-2023-4911) :  ![starts](https://img.shields.io/github/stars/Diego-AltF4/CVE-2023-4911.svg) ![forks](https://img.shields.io/github/forks/Diego-AltF4/CVE-2023-4911.svg)
 
 - [https://github.com/silent6trinity/looney-tuneables](https://github.com/silent6trinity/looney-tuneables) :  ![starts](https://img.shields.io/github/stars/silent6trinity/looney-tuneables.svg) ![forks](https://img.shields.io/github/forks/silent6trinity/looney-tuneables.svg)
 
@@ -5547,11 +5560,11 @@
 
 - [https://github.com/rwincey/cve-2023-3519](https://github.com/rwincey/cve-2023-3519) :  ![starts](https://img.shields.io/github/stars/rwincey/cve-2023-3519.svg) ![forks](https://img.shields.io/github/forks/rwincey/cve-2023-3519.svg)
 
-- [https://github.com/passwa11/CVE-2023-3519](https://github.com/passwa11/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/passwa11/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/passwa11/CVE-2023-3519.svg)
-
 - [https://github.com/KR0N-SECURITY/CVE-2023-3519](https://github.com/KR0N-SECURITY/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/KR0N-SECURITY/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/KR0N-SECURITY/CVE-2023-3519.svg)
 
 - [https://github.com/Mohammaddvd/CVE-2023-3519](https://github.com/Mohammaddvd/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/Mohammaddvd/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/Mohammaddvd/CVE-2023-3519.svg)
+
+- [https://github.com/passwa11/CVE-2023-3519](https://github.com/passwa11/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/passwa11/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/passwa11/CVE-2023-3519.svg)
 
 - [https://github.com/d0rb/CVE-2023-3519](https://github.com/d0rb/CVE-2023-3519) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2023-3519.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2023-3519.svg)
 
