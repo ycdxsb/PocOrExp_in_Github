@@ -1276,6 +1276,13 @@
 
 - [https://github.com/fath0218/CVE-2016-2233](https://github.com/fath0218/CVE-2016-2233) :  ![starts](https://img.shields.io/github/stars/fath0218/CVE-2016-2233.svg) ![forks](https://img.shields.io/github/forks/fath0218/CVE-2016-2233.svg)
 
+## CVE-2016-2176
+ The X509_NAME_oneline function in crypto/x509/x509_obj.c in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h allows remote attackers to obtain sensitive information from process stack memory or cause a denial of service (buffer over-read) via crafted EBCDIC ASN.1 data.
+
+
+
+- [https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2176](https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2176) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2176.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2176.svg)
+
 ## CVE-2016-2173
  org.springframework.core.serializer.DefaultDeserializer in Spring AMQP before 1.5.5 allows remote attackers to execute arbitrary code.
 
@@ -1289,6 +1296,13 @@
 
 
 - [https://github.com/nickanderson/cfengine-CVE-2016-2118](https://github.com/nickanderson/cfengine-CVE-2016-2118) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE-2016-2118.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE-2016-2118.svg)
+
+## CVE-2016-2109
+ The asn1_d2i_read_bio function in crypto/asn1/a_d2i_fp.c in the ASN.1 BIO implementation in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h allows remote attackers to cause a denial of service (memory consumption) via a short invalid encoding.
+
+
+
+- [https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2109](https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2109) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2109.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2109.svg)
 
 ## CVE-2016-2107
  The AES-NI implementation in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h does not consider memory allocation during a certain padding check, which allows remote attackers to obtain sensitive cleartext information via a padding-oracle attack against an AES CBC session. NOTE: this vulnerability exists because of an incorrect fix for CVE-2013-0169.
