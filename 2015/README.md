@@ -789,6 +789,13 @@
 
 - [https://github.com/mobilelinux/iovy_root_research](https://github.com/mobilelinux/iovy_root_research) :  ![starts](https://img.shields.io/github/stars/mobilelinux/iovy_root_research.svg) ![forks](https://img.shields.io/github/forks/mobilelinux/iovy_root_research.svg)
 
+## CVE-2015-1788
+ The BN_GF2m_mod_inv function in crypto/bn/bn_gf2m.c in OpenSSL before 0.9.8s, 1.0.0 before 1.0.0e, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b does not properly handle ECParameters structures in which the curve is over a malformed binary polynomial field, which allows remote attackers to cause a denial of service (infinite loop) via a session that uses an Elliptic Curve algorithm, as demonstrated by an attack against a server that supports client authentication.
+
+
+
+- [https://github.com/pazhanivel07/OpenSSL_1_0_1g_CVE-2015-1788](https://github.com/pazhanivel07/OpenSSL_1_0_1g_CVE-2015-1788) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/OpenSSL_1_0_1g_CVE-2015-1788.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/OpenSSL_1_0_1g_CVE-2015-1788.svg)
+
 ## CVE-2015-1769
  Mount Manager in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 mishandles symlinks, which allows physically proximate attackers to execute arbitrary code by connecting a crafted USB device, aka &quot;Mount Manager Elevation of Privilege Vulnerability.&quot;
 
