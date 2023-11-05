@@ -79,6 +79,8 @@
 
 - [https://github.com/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ](https://github.com/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ) :  ![starts](https://img.shields.io/github/stars/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ.svg) ![forks](https://img.shields.io/github/forks/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ.svg)
 
+- [https://github.com/evkl1d/CVE-2023-46604](https://github.com/evkl1d/CVE-2023-46604) :  ![starts](https://img.shields.io/github/stars/evkl1d/CVE-2023-46604.svg) ![forks](https://img.shields.io/github/forks/evkl1d/CVE-2023-46604.svg)
+
 ## CVE-2023-46501
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -199,6 +201,13 @@
 
 
 - [https://github.com/itsAptx/CVE-2023-45471](https://github.com/itsAptx/CVE-2023-45471) :  ![starts](https://img.shields.io/github/stars/itsAptx/CVE-2023-45471.svg) ![forks](https://img.shields.io/github/forks/itsAptx/CVE-2023-45471.svg)
+
+## CVE-2023-45158
+ An OS command injection vulnerability exists in web2py 2.24.1 and earlier. When the product is configured to use notifySendHandler for logging (not the default configuration), a crafted web request may execute an arbitrary OS command on the web server using the product.
+
+
+
+- [https://github.com/Evan-Zhangyf/CVE-2023-45158](https://github.com/Evan-Zhangyf/CVE-2023-45158) :  ![starts](https://img.shields.io/github/stars/Evan-Zhangyf/CVE-2023-45158.svg) ![forks](https://img.shields.io/github/forks/Evan-Zhangyf/CVE-2023-45158.svg)
 
 ## CVE-2023-44962
  File Upload vulnerability in Koha Library Software 23.05.04 and before allows a remote attacker to read arbitrary files via the upload-cover-image.pl component.
@@ -337,6 +346,8 @@
 - [https://github.com/ReToCode/golang-CVE-2023-44487](https://github.com/ReToCode/golang-CVE-2023-44487) :  ![starts](https://img.shields.io/github/stars/ReToCode/golang-CVE-2023-44487.svg) ![forks](https://img.shields.io/github/forks/ReToCode/golang-CVE-2023-44487.svg)
 
 - [https://github.com/ByteHackr/CVE-2023-44487](https://github.com/ByteHackr/CVE-2023-44487) :  ![starts](https://img.shields.io/github/stars/ByteHackr/CVE-2023-44487.svg) ![forks](https://img.shields.io/github/forks/ByteHackr/CVE-2023-44487.svg)
+
+- [https://github.com/sigridou/CVE-2023-44487](https://github.com/sigridou/CVE-2023-44487) :  ![starts](https://img.shields.io/github/stars/sigridou/CVE-2023-44487.svg) ![forks](https://img.shields.io/github/forks/sigridou/CVE-2023-44487.svg)
 
 ## CVE-2023-44227
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -688,9 +699,9 @@
 
 
 
-- [https://github.com/actuator/wave.ai.browser](https://github.com/actuator/wave.ai.browser) :  ![starts](https://img.shields.io/github/stars/actuator/wave.ai.browser.svg) ![forks](https://img.shields.io/github/forks/actuator/wave.ai.browser.svg)
-
 - [https://github.com/actuator/cve](https://github.com/actuator/cve) :  ![starts](https://img.shields.io/github/stars/actuator/cve.svg) ![forks](https://img.shields.io/github/forks/actuator/cve.svg)
+
+- [https://github.com/actuator/wave.ai.browser](https://github.com/actuator/wave.ai.browser) :  ![starts](https://img.shields.io/github/stars/actuator/wave.ai.browser.svg) ![forks](https://img.shields.io/github/forks/actuator/wave.ai.browser.svg)
 
 ## CVE-2023-42470
  The Imou Life com.mm.android.smartlifeiot application through 6.8.0 for Android allows Remote Code Execution via a crafted intent to an exported component. This relates to the com.mm.android.easy4ip.MainActivity activity. JavaScript execution is enabled in the WebView, and direct web content loading occurs.
@@ -706,18 +717,18 @@
 
 
 
-- [https://github.com/actuator/com.full.dialer.top.secure.encrypted](https://github.com/actuator/com.full.dialer.top.secure.encrypted) :  ![starts](https://img.shields.io/github/stars/actuator/com.full.dialer.top.secure.encrypted.svg) ![forks](https://img.shields.io/github/forks/actuator/com.full.dialer.top.secure.encrypted.svg)
-
 - [https://github.com/actuator/cve](https://github.com/actuator/cve) :  ![starts](https://img.shields.io/github/stars/actuator/cve.svg) ![forks](https://img.shields.io/github/forks/actuator/cve.svg)
+
+- [https://github.com/actuator/com.full.dialer.top.secure.encrypted](https://github.com/actuator/com.full.dialer.top.secure.encrypted) :  ![starts](https://img.shields.io/github/stars/actuator/com.full.dialer.top.secure.encrypted.svg) ![forks](https://img.shields.io/github/forks/actuator/com.full.dialer.top.secure.encrypted.svg)
 
 ## CVE-2023-42468
  The com.cutestudio.colordialer application through 2.1.8-2 for Android allows a remote attacker to initiate phone calls without user consent, because of improper export of the com.cutestudio.dialer.activities.DialerActivity component. A third-party application (without any permissions) can craft an intent targeting com.cutestudio.dialer.activities.DialerActivity via the android.intent.action.CALL action in conjunction with a tel: URI, thereby placing a phone call.
 
 
 
-- [https://github.com/actuator/com.cutestudio.colordialer](https://github.com/actuator/com.cutestudio.colordialer) :  ![starts](https://img.shields.io/github/stars/actuator/com.cutestudio.colordialer.svg) ![forks](https://img.shields.io/github/forks/actuator/com.cutestudio.colordialer.svg)
-
 - [https://github.com/actuator/cve](https://github.com/actuator/cve) :  ![starts](https://img.shields.io/github/stars/actuator/cve.svg) ![forks](https://img.shields.io/github/forks/actuator/cve.svg)
+
+- [https://github.com/actuator/com.cutestudio.colordialer](https://github.com/actuator/com.cutestudio.colordialer) :  ![starts](https://img.shields.io/github/stars/actuator/com.cutestudio.colordialer.svg) ![forks](https://img.shields.io/github/forks/actuator/com.cutestudio.colordialer.svg)
 
 ## CVE-2023-42442
  JumpServer is an open source bastion host and a professional operation and maintenance security audit system. Starting in version 3.0.0 and prior to versions 3.5.5 and 3.6.4, session replays can download without authentication. Session replays stored in S3, OSS, or other cloud storage are not affected. The api `/api/v1/terminal/sessions/` permission control is broken and can be accessed anonymously. SessionViewSet permission classes set to `[RBACPermission | IsSessionAssignee]`, relation is or, so any permission matched will be allowed. Versions 3.5.5 and 3.6.4 have a fix. After upgrading, visit the api `$HOST/api/v1/terminal/sessions/?limit=1`. The expected http response code is 401 (`not_authenticated`).
@@ -845,13 +856,6 @@
 
 
 - [https://github.com/redblueteam/CVE-2023-41507](https://github.com/redblueteam/CVE-2023-41507) :  ![starts](https://img.shields.io/github/stars/redblueteam/CVE-2023-41507.svg) ![forks](https://img.shields.io/github/forks/redblueteam/CVE-2023-41507.svg)
-
-## CVE-2023-41444
- An issue in Binalyze IREC.sys v.3.11.0 and before allows a local attacker to execute arbitrary code and escalate privileges via the fun_1400084d0 function in IREC.sys driver.
-
-
-
-- [https://github.com/hfiref0x/KDU](https://github.com/hfiref0x/KDU) :  ![starts](https://img.shields.io/github/stars/hfiref0x/KDU.svg) ![forks](https://img.shields.io/github/forks/hfiref0x/KDU.svg)
 
 ## CVE-2023-41436
  Cross Site Scripting vulnerability in CSZCMS v.1.3.0 allows a local attacker to execute arbitrary code via a crafted script to the Additional Meta Tag parameter in the Pages Content Menu component.
@@ -1894,9 +1898,9 @@
 
 
 
-- [https://github.com/leonardobg/CVE-2023-36143](https://github.com/leonardobg/CVE-2023-36143) :  ![starts](https://img.shields.io/github/stars/leonardobg/CVE-2023-36143.svg) ![forks](https://img.shields.io/github/forks/leonardobg/CVE-2023-36143.svg)
-
 - [https://github.com/RobinTrigon/CVE-2023-36143](https://github.com/RobinTrigon/CVE-2023-36143) :  ![starts](https://img.shields.io/github/stars/RobinTrigon/CVE-2023-36143.svg) ![forks](https://img.shields.io/github/forks/RobinTrigon/CVE-2023-36143.svg)
+
+- [https://github.com/leonardobg/CVE-2023-36143](https://github.com/leonardobg/CVE-2023-36143) :  ![starts](https://img.shields.io/github/stars/leonardobg/CVE-2023-36143.svg) ![forks](https://img.shields.io/github/forks/leonardobg/CVE-2023-36143.svg)
 
 ## CVE-2023-36123
  Directory Traversal vulnerability in Hex-Dragon Plain Craft Launcher 2 version Alpha 1.3.9, allows local attackers to execute arbitrary code and gain sensitive information.
@@ -3271,9 +3275,9 @@
 
 - [https://github.com/learnerboy88/CVE-2023-29489](https://github.com/learnerboy88/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/learnerboy88/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/learnerboy88/CVE-2023-29489.svg)
 
-- [https://github.com/Mostafa-Elguerdawi/CVE-2023-29489](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/Mostafa-Elguerdawi/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/Mostafa-Elguerdawi/CVE-2023-29489.svg)
-
 - [https://github.com/tucommenceapousser/CVE-2023-29489](https://github.com/tucommenceapousser/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/tucommenceapousser/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/tucommenceapousser/CVE-2023-29489.svg)
+
+- [https://github.com/Mostafa-Elguerdawi/CVE-2023-29489](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/Mostafa-Elguerdawi/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/Mostafa-Elguerdawi/CVE-2023-29489.svg)
 
 - [https://github.com/ViperM4sk/cpanel-xss-177](https://github.com/ViperM4sk/cpanel-xss-177) :  ![starts](https://img.shields.io/github/stars/ViperM4sk/cpanel-xss-177.svg) ![forks](https://img.shields.io/github/forks/ViperM4sk/cpanel-xss-177.svg)
 
@@ -3814,11 +3818,11 @@
 
 - [https://github.com/overgrowncarrot1/CVE-2023-27163](https://github.com/overgrowncarrot1/CVE-2023-27163) :  ![starts](https://img.shields.io/github/stars/overgrowncarrot1/CVE-2023-27163.svg) ![forks](https://img.shields.io/github/forks/overgrowncarrot1/CVE-2023-27163.svg)
 
-- [https://github.com/thomas-osgood/CVE-2023-27163](https://github.com/thomas-osgood/CVE-2023-27163) :  ![starts](https://img.shields.io/github/stars/thomas-osgood/CVE-2023-27163.svg) ![forks](https://img.shields.io/github/forks/thomas-osgood/CVE-2023-27163.svg)
-
 - [https://github.com/Hamibubu/CVE-2023-27163](https://github.com/Hamibubu/CVE-2023-27163) :  ![starts](https://img.shields.io/github/stars/Hamibubu/CVE-2023-27163.svg) ![forks](https://img.shields.io/github/forks/Hamibubu/CVE-2023-27163.svg)
 
 - [https://github.com/0xFTW/CVE-2023-27163](https://github.com/0xFTW/CVE-2023-27163) :  ![starts](https://img.shields.io/github/stars/0xFTW/CVE-2023-27163.svg) ![forks](https://img.shields.io/github/forks/0xFTW/CVE-2023-27163.svg)
+
+- [https://github.com/thomas-osgood/CVE-2023-27163](https://github.com/thomas-osgood/CVE-2023-27163) :  ![starts](https://img.shields.io/github/stars/thomas-osgood/CVE-2023-27163.svg) ![forks](https://img.shields.io/github/forks/thomas-osgood/CVE-2023-27163.svg)
 
 - [https://github.com/rvizx/CVE-2023-27163](https://github.com/rvizx/CVE-2023-27163) :  ![starts](https://img.shields.io/github/stars/rvizx/CVE-2023-27163.svg) ![forks](https://img.shields.io/github/forks/rvizx/CVE-2023-27163.svg)
 
@@ -4341,9 +4345,9 @@
 
 - [https://github.com/adhikara13/CVE-2023-23752](https://github.com/adhikara13/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/adhikara13/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/adhikara13/CVE-2023-23752.svg)
 
-- [https://github.com/0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xNahim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xNahim/CVE-2023-23752.svg)
-
 - [https://github.com/GhostToKnow/CVE-2023-23752](https://github.com/GhostToKnow/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/GhostToKnow/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/GhostToKnow/CVE-2023-23752.svg)
+
+- [https://github.com/0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xNahim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xNahim/CVE-2023-23752.svg)
 
 - [https://github.com/YusinoMy/CVE-2023-23752](https://github.com/YusinoMy/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/YusinoMy/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/YusinoMy/CVE-2023-23752.svg)
 
@@ -4681,15 +4685,15 @@
 
 - [https://github.com/getdrive/PoC](https://github.com/getdrive/PoC) :  ![starts](https://img.shields.io/github/stars/getdrive/PoC.svg) ![forks](https://img.shields.io/github/forks/getdrive/PoC.svg)
 
-- [https://github.com/sincere9/CVE-2023-22515](https://github.com/sincere9/CVE-2023-22515) :  ![starts](https://img.shields.io/github/stars/sincere9/CVE-2023-22515.svg) ![forks](https://img.shields.io/github/forks/sincere9/CVE-2023-22515.svg)
-
 - [https://github.com/AIex-3/confluence-hack](https://github.com/AIex-3/confluence-hack) :  ![starts](https://img.shields.io/github/stars/AIex-3/confluence-hack.svg) ![forks](https://img.shields.io/github/forks/AIex-3/confluence-hack.svg)
+
+- [https://github.com/sincere9/CVE-2023-22515](https://github.com/sincere9/CVE-2023-22515) :  ![starts](https://img.shields.io/github/stars/sincere9/CVE-2023-22515.svg) ![forks](https://img.shields.io/github/forks/sincere9/CVE-2023-22515.svg)
 
 - [https://github.com/j3seer/CVE-2023-22515-POC](https://github.com/j3seer/CVE-2023-22515-POC) :  ![starts](https://img.shields.io/github/stars/j3seer/CVE-2023-22515-POC.svg) ![forks](https://img.shields.io/github/forks/j3seer/CVE-2023-22515-POC.svg)
 
-- [https://github.com/youcannotseemeagain/CVE-2023-22515_RCE](https://github.com/youcannotseemeagain/CVE-2023-22515_RCE) :  ![starts](https://img.shields.io/github/stars/youcannotseemeagain/CVE-2023-22515_RCE.svg) ![forks](https://img.shields.io/github/forks/youcannotseemeagain/CVE-2023-22515_RCE.svg)
-
 - [https://github.com/Le1a/CVE-2023-22515](https://github.com/Le1a/CVE-2023-22515) :  ![starts](https://img.shields.io/github/stars/Le1a/CVE-2023-22515.svg) ![forks](https://img.shields.io/github/forks/Le1a/CVE-2023-22515.svg)
+
+- [https://github.com/youcannotseemeagain/CVE-2023-22515_RCE](https://github.com/youcannotseemeagain/CVE-2023-22515_RCE) :  ![starts](https://img.shields.io/github/stars/youcannotseemeagain/CVE-2023-22515_RCE.svg) ![forks](https://img.shields.io/github/forks/youcannotseemeagain/CVE-2023-22515_RCE.svg)
 
 - [https://github.com/joaoviictorti/CVE-2023-22515](https://github.com/joaoviictorti/CVE-2023-22515) :  ![starts](https://img.shields.io/github/stars/joaoviictorti/CVE-2023-22515.svg) ![forks](https://img.shields.io/github/forks/joaoviictorti/CVE-2023-22515.svg)
 
@@ -4868,6 +4872,8 @@
 - [https://github.com/CKevens/CVE-2023-21716-POC](https://github.com/CKevens/CVE-2023-21716-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-21716-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-21716-POC.svg)
 
 - [https://github.com/mikesxrs/CVE-2023-21716_YARA_Results](https://github.com/mikesxrs/CVE-2023-21716_YARA_Results) :  ![starts](https://img.shields.io/github/stars/mikesxrs/CVE-2023-21716_YARA_Results.svg) ![forks](https://img.shields.io/github/forks/mikesxrs/CVE-2023-21716_YARA_Results.svg)
+
+- [https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py) :  ![starts](https://img.shields.io/github/stars/MojithaR/CVE-2023-21716-EXPLOIT.py.svg) ![forks](https://img.shields.io/github/forks/MojithaR/CVE-2023-21716-EXPLOIT.py.svg)
 
 ## CVE-2023-21707
  Microsoft Exchange Server Remote Code Execution Vulnerability
@@ -5288,11 +5294,11 @@
 
 - [https://github.com/sagsooz/CVE-2023-5360](https://github.com/sagsooz/CVE-2023-5360) :  ![starts](https://img.shields.io/github/stars/sagsooz/CVE-2023-5360.svg) ![forks](https://img.shields.io/github/forks/sagsooz/CVE-2023-5360.svg)
 
+- [https://github.com/Chocapikk/CVE-2023-5360](https://github.com/Chocapikk/CVE-2023-5360) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-5360.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-5360.svg)
+
 - [https://github.com/codeb0ss/xWP-2](https://github.com/codeb0ss/xWP-2) :  ![starts](https://img.shields.io/github/stars/codeb0ss/xWP-2.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/xWP-2.svg)
 
 - [https://github.com/nastar-id/CVE-2023-5360](https://github.com/nastar-id/CVE-2023-5360) :  ![starts](https://img.shields.io/github/stars/nastar-id/CVE-2023-5360.svg) ![forks](https://img.shields.io/github/forks/nastar-id/CVE-2023-5360.svg)
-
-- [https://github.com/Chocapikk/CVE-2023-5360](https://github.com/Chocapikk/CVE-2023-5360) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-5360.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-5360.svg)
 
 - [https://github.com/tucommenceapousser/CVE-2023-5360](https://github.com/tucommenceapousser/CVE-2023-5360) :  ![starts](https://img.shields.io/github/stars/tucommenceapousser/CVE-2023-5360.svg) ![forks](https://img.shields.io/github/forks/tucommenceapousser/CVE-2023-5360.svg)
 
@@ -5863,9 +5869,9 @@
 
 - [https://github.com/yuimarudev/CVE-2023-2825](https://github.com/yuimarudev/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/yuimarudev/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/yuimarudev/CVE-2023-2825.svg)
 
-- [https://github.com/caopengyan/CVE-2023-2825](https://github.com/caopengyan/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/caopengyan/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/caopengyan/CVE-2023-2825.svg)
-
 - [https://github.com/Rubikcuv5/CVE-2023-2825](https://github.com/Rubikcuv5/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/Rubikcuv5/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/Rubikcuv5/CVE-2023-2825.svg)
+
+- [https://github.com/caopengyan/CVE-2023-2825](https://github.com/caopengyan/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/caopengyan/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/caopengyan/CVE-2023-2825.svg)
 
 - [https://github.com/Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab) :  ![starts](https://img.shields.io/github/stars/Tornad0007/CVE-2023-2825-Gitlab.svg) ![forks](https://img.shields.io/github/forks/Tornad0007/CVE-2023-2825-Gitlab.svg)
 
@@ -5968,6 +5974,13 @@
 
 
 - [https://github.com/codeb0ss/CVE-2023-2333-EXP](https://github.com/codeb0ss/CVE-2023-2333-EXP) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2023-2333-EXP.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2023-2333-EXP.svg)
+
+## CVE-2023-2255
+ Improper access control in editor components of The Document Foundation LibreOffice allowed an attacker to craft a document that would cause external links to be loaded without prompt. In the affected versions of LibreOffice documents that used &quot;floating frames&quot; linked to external files, would load the contents of those frames without prompting the user for permission to do so. This was inconsistent with the treatment of other linked content in LibreOffice. This issue affects: The Document Foundation LibreOffice 7.4 versions prior to 7.4.7; 7.5 versions prior to 7.5.3.
+
+
+
+- [https://github.com/elweth-sec/CVE-2023-2255](https://github.com/elweth-sec/CVE-2023-2255) :  ![starts](https://img.shields.io/github/stars/elweth-sec/CVE-2023-2255.svg) ![forks](https://img.shields.io/github/forks/elweth-sec/CVE-2023-2255.svg)
 
 ## CVE-2023-2249
  The wpForo Forum plugin for WordPress is vulnerable to Local File Include, Server-Side Request Forgery, and PHAR Deserialization in versions up to, and including, 2.1.7. This is due to the insecure use of file_get_contents without appropriate verification of the data being supplied to the function. This makes it possible for authenticated attackers, with minimal permissions such as a subscriber, to retrieve the contents of files like wp-config.php hosted on the system, perform a deserialization attack and possibly achieve remote code execution, and make requests to internal services.
@@ -6143,9 +6156,9 @@
 
 
 
-- [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)
-
 - [https://github.com/emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/emotest1/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/emotest1/CVE-2023-123456.svg)
+
+- [https://github.com/yrtsec/CVE-2023-123456](https://github.com/yrtsec/CVE-2023-123456) :  ![starts](https://img.shields.io/github/stars/yrtsec/CVE-2023-123456.svg) ![forks](https://img.shields.io/github/forks/yrtsec/CVE-2023-123456.svg)
 
 ## CVE-2023-1177
  Path Traversal: '\..\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.
