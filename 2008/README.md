@@ -45,7 +45,7 @@
 
 
 
-- [https://github.com/pankajjarial-dev/OpenSSH_4.7p1](https://github.com/pankajjarial-dev/OpenSSH_4.7p1) :  ![starts](https://img.shields.io/github/stars/pankajjarial-dev/OpenSSH_4.7p1.svg) ![forks](https://img.shields.io/github/forks/pankajjarial-dev/OpenSSH_4.7p1.svg)
+- [https://github.com/dev-doom/OpenSSH_4.7p1](https://github.com/dev-doom/OpenSSH_4.7p1) :  ![starts](https://img.shields.io/github/stars/dev-doom/OpenSSH_4.7p1.svg) ![forks](https://img.shields.io/github/forks/dev-doom/OpenSSH_4.7p1.svg)
 
 ## CVE-2008-4687
  manage_proj_page.php in Mantis before 1.1.4 allows remote authenticated users to execute arbitrary code via a sort parameter containing PHP sequences, which are processed by create_function within the multi_sort function in core/utility_api.php.
