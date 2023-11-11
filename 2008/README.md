@@ -40,13 +40,6 @@
 
 - [https://github.com/SECFORCE/CVE-2008-5416](https://github.com/SECFORCE/CVE-2008-5416) :  ![starts](https://img.shields.io/github/stars/SECFORCE/CVE-2008-5416.svg) ![forks](https://img.shields.io/github/forks/SECFORCE/CVE-2008-5416.svg)
 
-## CVE-2008-5161
- Error handling in the SSH protocol in (1) SSH Tectia Client and Server and Connector 4.0 through 4.4.11, 5.0 through 5.2.4, and 5.3 through 5.3.8; Client and Server and ConnectSecure 6.0 through 6.0.4; Server for Linux on IBM System z 6.0.4; Server for IBM z/OS 5.5.1 and earlier, 6.0.0, and 6.0.1; and Client 4.0-J through 4.3.3-J and 4.0-K through 4.3.10-K; and (2) OpenSSH 4.7p1 and possibly other versions, when using a block cipher algorithm in Cipher Block Chaining (CBC) mode, makes it easier for remote attackers to recover certain plaintext data from an arbitrary block of ciphertext in an SSH session via unknown vectors.
-
-
-
-- [https://github.com/dev-doom/OpenSSH_4.7p1](https://github.com/dev-doom/OpenSSH_4.7p1) :  ![starts](https://img.shields.io/github/stars/dev-doom/OpenSSH_4.7p1.svg) ![forks](https://img.shields.io/github/forks/dev-doom/OpenSSH_4.7p1.svg)
-
 ## CVE-2008-4687
  manage_proj_page.php in Mantis before 1.1.4 allows remote authenticated users to execute arbitrary code via a sort parameter containing PHP sequences, which are processed by create_function within the multi_sort function in core/utility_api.php.
 
