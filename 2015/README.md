@@ -51,9 +51,9 @@
 
 - [https://github.com/paralelo14/JoomlaMassExploiter](https://github.com/paralelo14/JoomlaMassExploiter) :  ![starts](https://img.shields.io/github/stars/paralelo14/JoomlaMassExploiter.svg) ![forks](https://img.shields.io/github/forks/paralelo14/JoomlaMassExploiter.svg)
 
-- [https://github.com/ZaleHack/joomla_rce_CVE-2015-8562](https://github.com/ZaleHack/joomla_rce_CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/ZaleHack/joomla_rce_CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/ZaleHack/joomla_rce_CVE-2015-8562.svg)
-
 - [https://github.com/VoidSec/Joomla_CVE-2015-8562](https://github.com/VoidSec/Joomla_CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/VoidSec/Joomla_CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/VoidSec/Joomla_CVE-2015-8562.svg)
+
+- [https://github.com/ZaleHack/joomla_rce_CVE-2015-8562](https://github.com/ZaleHack/joomla_rce_CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/ZaleHack/joomla_rce_CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/ZaleHack/joomla_rce_CVE-2015-8562.svg)
 
 - [https://github.com/paralelo14/CVE-2015-8562](https://github.com/paralelo14/CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/paralelo14/CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/paralelo14/CVE-2015-8562.svg)
 
@@ -978,9 +978,9 @@
 
 - [https://github.com/t0kx/exploit-CVE-2015-1427](https://github.com/t0kx/exploit-CVE-2015-1427) :  ![starts](https://img.shields.io/github/stars/t0kx/exploit-CVE-2015-1427.svg) ![forks](https://img.shields.io/github/forks/t0kx/exploit-CVE-2015-1427.svg)
 
-- [https://github.com/cved-sources/cve-2015-1427](https://github.com/cved-sources/cve-2015-1427) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-1427.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-1427.svg)
-
 - [https://github.com/h3inzzz/cve2015_1427](https://github.com/h3inzzz/cve2015_1427) :  ![starts](https://img.shields.io/github/stars/h3inzzz/cve2015_1427.svg) ![forks](https://img.shields.io/github/forks/h3inzzz/cve2015_1427.svg)
+
+- [https://github.com/cved-sources/cve-2015-1427](https://github.com/cved-sources/cve-2015-1427) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-1427.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-1427.svg)
 
 - [https://github.com/xpgdgit/CVE-2015-1427](https://github.com/xpgdgit/CVE-2015-1427) :  ![starts](https://img.shields.io/github/stars/xpgdgit/CVE-2015-1427.svg) ![forks](https://img.shields.io/github/forks/xpgdgit/CVE-2015-1427.svg)
 
