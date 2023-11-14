@@ -390,13 +390,6 @@
 
 - [https://github.com/qkrtjsrbs315/CVE-2013-1763](https://github.com/qkrtjsrbs315/CVE-2013-1763) :  ![starts](https://img.shields.io/github/stars/qkrtjsrbs315/CVE-2013-1763.svg) ![forks](https://img.shields.io/github/forks/qkrtjsrbs315/CVE-2013-1763.svg)
 
-## CVE-2013-1690
- Mozilla Firefox before 22.0, Firefox ESR 17.x before 17.0.7, Thunderbird before 17.0.7, and Thunderbird ESR 17.x before 17.0.7 do not properly handle onreadystatechange events in conjunction with page reloading, which allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted web site that triggers an attempt to execute data at an unmapped memory location.
-
-
-
-- [https://github.com/vlad902/annotated-fbi-tbb-exploit](https://github.com/vlad902/annotated-fbi-tbb-exploit) :  ![starts](https://img.shields.io/github/stars/vlad902/annotated-fbi-tbb-exploit.svg) ![forks](https://img.shields.io/github/forks/vlad902/annotated-fbi-tbb-exploit.svg)
-
 ## CVE-2013-1491
  The Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier, 6 Update 43 and earlier, 5.0 Update 41 and earlier, and JavaFX 2.2.7 and earlier allows remote attackers to execute arbitrary code via vectors related to 2D, as demonstrated by Joshua Drake during a Pwn2Own competition at CanSecWest 2013.
 
