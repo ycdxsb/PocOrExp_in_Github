@@ -278,11 +278,11 @@
 
 - [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
 
+- [https://github.com/sch3m4/RIS](https://github.com/sch3m4/RIS) :  ![starts](https://img.shields.io/github/stars/sch3m4/RIS.svg) ![forks](https://img.shields.io/github/forks/sch3m4/RIS.svg)
+
 - [https://github.com/akiraaisha/shellshocker-python](https://github.com/akiraaisha/shellshocker-python) :  ![starts](https://img.shields.io/github/stars/akiraaisha/shellshocker-python.svg) ![forks](https://img.shields.io/github/forks/akiraaisha/shellshocker-python.svg)
 
 - [https://github.com/RainMak3r/Rainstorm](https://github.com/RainMak3r/Rainstorm) :  ![starts](https://img.shields.io/github/stars/RainMak3r/Rainstorm.svg) ![forks](https://img.shields.io/github/forks/RainMak3r/Rainstorm.svg)
-
-- [https://github.com/sch3m4/RIS](https://github.com/sch3m4/RIS) :  ![starts](https://img.shields.io/github/stars/sch3m4/RIS.svg) ![forks](https://img.shields.io/github/forks/sch3m4/RIS.svg)
 
 - [https://github.com/r4z0r5/SwissArmyShellshocker](https://github.com/r4z0r5/SwissArmyShellshocker) :  ![starts](https://img.shields.io/github/stars/r4z0r5/SwissArmyShellshocker.svg) ![forks](https://img.shields.io/github/forks/r4z0r5/SwissArmyShellshocker.svg)
 
@@ -824,13 +824,6 @@
 
 
 - [https://github.com/tagatac/libvirt-CVE-2014-1447](https://github.com/tagatac/libvirt-CVE-2014-1447) :  ![starts](https://img.shields.io/github/stars/tagatac/libvirt-CVE-2014-1447.svg) ![forks](https://img.shields.io/github/forks/tagatac/libvirt-CVE-2014-1447.svg)
-
-## CVE-2014-1322
- The kernel in Apple OS X through 10.9.2 places a kernel pointer into an XNU object data structure accessible from user space, which makes it easier for local users to bypass the ASLR protection mechanism by reading an unspecified attribute of the object.
-
-
-
-- [https://github.com/raymondpittman/IPC-Memory-Mac-OSX-Exploit](https://github.com/raymondpittman/IPC-Memory-Mac-OSX-Exploit) :  ![starts](https://img.shields.io/github/stars/raymondpittman/IPC-Memory-Mac-OSX-Exploit.svg) ![forks](https://img.shields.io/github/forks/raymondpittman/IPC-Memory-Mac-OSX-Exploit.svg)
 
 ## CVE-2014-1303
  Heap-based buffer overflow in Apple Safari 7.0.2 allows remote attackers to execute arbitrary code and bypass a sandbox protection mechanism via unspecified vectors, as demonstrated by Liang Chen during a Pwn2Own competition at CanSecWest 2014.
