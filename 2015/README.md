@@ -535,9 +535,9 @@
 
 - [https://github.com/pwnaccelerator/stagefright-cve-2015-3864](https://github.com/pwnaccelerator/stagefright-cve-2015-3864) :  ![starts](https://img.shields.io/github/stars/pwnaccelerator/stagefright-cve-2015-3864.svg) ![forks](https://img.shields.io/github/forks/pwnaccelerator/stagefright-cve-2015-3864.svg)
 
-- [https://github.com/HenryVHuang/CVE-2015-3864](https://github.com/HenryVHuang/CVE-2015-3864) :  ![starts](https://img.shields.io/github/stars/HenryVHuang/CVE-2015-3864.svg) ![forks](https://img.shields.io/github/forks/HenryVHuang/CVE-2015-3864.svg)
-
 - [https://github.com/Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864](https://github.com/Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864) :  ![starts](https://img.shields.io/github/stars/Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864.svg) ![forks](https://img.shields.io/github/forks/Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864.svg)
+
+- [https://github.com/HenryVHuang/CVE-2015-3864](https://github.com/HenryVHuang/CVE-2015-3864) :  ![starts](https://img.shields.io/github/stars/HenryVHuang/CVE-2015-3864.svg) ![forks](https://img.shields.io/github/forks/HenryVHuang/CVE-2015-3864.svg)
 
 ## CVE-2015-3839
  The updateMessageStatus function in Android 5.1.1 and earlier allows local users to cause a denial of service (NULL pointer exception and process crash).
