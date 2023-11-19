@@ -1402,13 +1402,6 @@
 
 - [https://github.com/gdbinit/mach_race](https://github.com/gdbinit/mach_race) :  ![starts](https://img.shields.io/github/stars/gdbinit/mach_race.svg) ![forks](https://img.shields.io/github/forks/gdbinit/mach_race.svg)
 
-## CVE-2016-1734
- AppleUSBNetworking in Apple iOS before 9.3 and OS X before 10.11.4 allows physically proximate attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted USB device.
-
-
-
-- [https://github.com/Manouchehri/CVE-2016-1734](https://github.com/Manouchehri/CVE-2016-1734) :  ![starts](https://img.shields.io/github/stars/Manouchehri/CVE-2016-1734.svg) ![forks](https://img.shields.io/github/forks/Manouchehri/CVE-2016-1734.svg)
-
 ## CVE-2016-1555
  (1) boardData102.php, (2) boardData103.php, (3) boardDataJP.php, (4) boardDataNA.php, and (5) boardDataWW.php in Netgear WN604 before 3.3.3 and WN802Tv2, WNAP210v2, WNAP320, WNDAP350, WNDAP360, and WNDAP660 before 3.5.5.0 allow remote attackers to execute arbitrary commands.
 
