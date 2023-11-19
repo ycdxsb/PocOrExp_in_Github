@@ -1,111 +1,84 @@
-# Update 2023-11-18
-## CVE-2023-48123
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+# Update 2023-11-19
+## CVE-2023-47246
+ In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to code execution after an attacker writes a file to the Tomcat webroot, as exploited in the wild in November 2023.
 
-- [https://github.com/NHPT/CVE-2023-48123](https://github.com/NHPT/CVE-2023-48123) :  ![starts](https://img.shields.io/github/stars/NHPT/CVE-2023-48123.svg) ![forks](https://img.shields.io/github/forks/NHPT/CVE-2023-48123.svg)
-
-
-## CVE-2023-48031
- OpenSupports v4.11.0 is vulnerable to Unrestricted Upload of File with Dangerous Type. In the comment function, an attacker can bypass security restrictions and upload a .bat file by manipulating the file's magic bytes to masquerade as an allowed type. This can enable the attacker to execute arbitrary code or establish a reverse shell, leading to unauthorized file writes or control over the victim's station via a crafted file upload operation.
-
-- [https://github.com/nitipoom-jar/CVE-2023-48031](https://github.com/nitipoom-jar/CVE-2023-48031) :  ![starts](https://img.shields.io/github/stars/nitipoom-jar/CVE-2023-48031.svg) ![forks](https://img.shields.io/github/forks/nitipoom-jar/CVE-2023-48031.svg)
+- [https://github.com/W01fh4cker/CVE-2023-47246-EXP](https://github.com/W01fh4cker/CVE-2023-47246-EXP) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/CVE-2023-47246-EXP.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/CVE-2023-47246-EXP.svg)
 
 
-## CVE-2023-48029
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2023-46865
+ /api/v1/company/upload-logo in CompanyController.php in crater through 6.0.6 allows a superadmin to execute arbitrary PHP code by placing this code into an image/png IDAT chunk of a Company Logo image.
 
-- [https://github.com/nitipoom-jar/CVE-2023-48029](https://github.com/nitipoom-jar/CVE-2023-48029) :  ![starts](https://img.shields.io/github/stars/nitipoom-jar/CVE-2023-48029.svg) ![forks](https://img.shields.io/github/forks/nitipoom-jar/CVE-2023-48029.svg)
-
-
-## CVE-2023-48028
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/nitipoom-jar/CVE-2023-48028](https://github.com/nitipoom-jar/CVE-2023-48028) :  ![starts](https://img.shields.io/github/stars/nitipoom-jar/CVE-2023-48028.svg) ![forks](https://img.shields.io/github/forks/nitipoom-jar/CVE-2023-48028.svg)
+- [https://github.com/asylumdx/Crater-CVE-2023-46865-RCE](https://github.com/asylumdx/Crater-CVE-2023-46865-RCE) :  ![starts](https://img.shields.io/github/stars/asylumdx/Crater-CVE-2023-46865-RCE.svg) ![forks](https://img.shields.io/github/forks/asylumdx/Crater-CVE-2023-46865-RCE.svg)
 
 
-## CVE-2023-41320
- GLPI stands for Gestionnaire Libre de Parc Informatique is a Free Asset and IT Management Software package, that provides ITIL Service Desk features, licenses tracking and software auditing. UI layout preferences management can be hijacked to lead to SQL injection. This injection can be use to takeover an administrator account. Users are advised to upgrade to version 10.0.10. There are no known workarounds for this vulnerability.
+## CVE-2023-44796
+ Cross Site Scripting (XSS) vulnerability in LimeSurvey before version 6.2.9-230925 allows a remote attacker to escalate privileges via a crafted script to the _generaloptions_panel.php component.
 
-- [https://github.com/Guilhem7/CVE_2023_41320](https://github.com/Guilhem7/CVE_2023_41320) :  ![starts](https://img.shields.io/github/stars/Guilhem7/CVE_2023_41320.svg) ![forks](https://img.shields.io/github/forks/Guilhem7/CVE_2023_41320.svg)
-
-
-## CVE-2023-29489
- An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the cpsrvd error page via an invalid webcall ID, aka SEC-669. The fixed versions are 11.109.9999.116, 11.108.0.13, 11.106.0.18, and 11.102.0.31.
-
-- [https://github.com/SynixCyberCrimeMy/CVE-2023-29489](https://github.com/SynixCyberCrimeMy/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/SynixCyberCrimeMy/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/SynixCyberCrimeMy/CVE-2023-29489.svg)
+- [https://github.com/Hebing123/CVE-2023-44796](https://github.com/Hebing123/CVE-2023-44796) :  ![starts](https://img.shields.io/github/stars/Hebing123/CVE-2023-44796.svg) ![forks](https://img.shields.io/github/forks/Hebing123/CVE-2023-44796.svg)
 
 
-## CVE-2023-20198
- Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.
+## CVE-2023-38831
+ RARLAB WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.
 
-- [https://github.com/smokeintheshell/CVE-2023-20198](https://github.com/smokeintheshell/CVE-2023-20198) :  ![starts](https://img.shields.io/github/stars/smokeintheshell/CVE-2023-20198.svg) ![forks](https://img.shields.io/github/forks/smokeintheshell/CVE-2023-20198.svg)
-
-
-## CVE-2023-6063
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/thesafdari/CVE-2023-6063](https://github.com/thesafdari/CVE-2023-6063) :  ![starts](https://img.shields.io/github/stars/thesafdari/CVE-2023-6063.svg) ![forks](https://img.shields.io/github/forks/thesafdari/CVE-2023-6063.svg)
-- [https://github.com/hackersroot/CVE-2023-6063-PoC](https://github.com/hackersroot/CVE-2023-6063-PoC) :  ![starts](https://img.shields.io/github/stars/hackersroot/CVE-2023-6063-PoC.svg) ![forks](https://img.shields.io/github/forks/hackersroot/CVE-2023-6063-PoC.svg)
+- [https://github.com/h3xecute/SideCopy-Exploits-CVE-2023-38831](https://github.com/h3xecute/SideCopy-Exploits-CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/h3xecute/SideCopy-Exploits-CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/h3xecute/SideCopy-Exploits-CVE-2023-38831.svg)
 
 
-## CVE-2023-4698
- Improper Input Validation in GitHub repository usememos/memos prior to 0.13.2.
+## CVE-2023-36025
+ Windows SmartScreen Security Feature Bypass Vulnerability
 
-- [https://github.com/mnqazi/CVE-2023-4698](https://github.com/mnqazi/CVE-2023-4698) :  ![starts](https://img.shields.io/github/stars/mnqazi/CVE-2023-4698.svg) ![forks](https://img.shields.io/github/forks/mnqazi/CVE-2023-4698.svg)
-
-
-## CVE-2023-4278
- The MasterStudy LMS WordPress Plugin WordPress plugin before 3.0.18 does not have proper checks in place during registration allowing anyone to register on the site as an instructor. They can then add courses and/or posts.
-
-- [https://github.com/revan-ar/CVE-2023-4278](https://github.com/revan-ar/CVE-2023-4278) :  ![starts](https://img.shields.io/github/stars/revan-ar/CVE-2023-4278.svg) ![forks](https://img.shields.io/github/forks/revan-ar/CVE-2023-4278.svg)
+- [https://github.com/ka7ana/CVE-2023-36025](https://github.com/ka7ana/CVE-2023-36025) :  ![starts](https://img.shields.io/github/stars/ka7ana/CVE-2023-36025.svg) ![forks](https://img.shields.io/github/forks/ka7ana/CVE-2023-36025.svg)
 
 
-## CVE-2022-29464
- Certain WSO2 products allow unrestricted file upload with resultant remote code execution. The attacker must use a /fileupload endpoint with a Content-Disposition directory traversal sequence to reach a directory under the web root, such as a ../../../../repository/deployment/server/webapps directory. This affects WSO2 API Manager 2.2.0 up to 4.0.0, WSO2 Identity Server 5.2.0 up to 5.11.0, WSO2 Identity Server Analytics 5.4.0, 5.4.1, 5.5.0 and 5.6.0, WSO2 Identity Server as Key Manager 5.3.0 up to 5.11.0, WSO2 Enterprise Integrator 6.2.0 up to 6.6.0, WSO2 Open Banking AM 1.4.0 up to 2.0.0 and WSO2 Open Banking KM 1.4.0, up to 2.0.0.
+## CVE-2023-20932
+ In onCreatePreferences of EditInfoFragment.java, there is a possible way to read contacts belonging to other users due to improper input validation. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-248251018
 
-- [https://github.com/SynixCyberCrimeMy/CVE-2022-29464](https://github.com/SynixCyberCrimeMy/CVE-2022-29464) :  ![starts](https://img.shields.io/github/stars/SynixCyberCrimeMy/CVE-2022-29464.svg) ![forks](https://img.shields.io/github/forks/SynixCyberCrimeMy/CVE-2022-29464.svg)
-
-
-## CVE-2022-3328
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/Mr-xn/CVE-2022-3328](https://github.com/Mr-xn/CVE-2022-3328) :  ![starts](https://img.shields.io/github/stars/Mr-xn/CVE-2022-3328.svg) ![forks](https://img.shields.io/github/forks/Mr-xn/CVE-2022-3328.svg)
+- [https://github.com/nidhi7598/packages_apps_EmergencyInfo_AOSP_10_r33_CVE-2023-20932](https://github.com/nidhi7598/packages_apps_EmergencyInfo_AOSP_10_r33_CVE-2023-20932) :  ![starts](https://img.shields.io/github/stars/nidhi7598/packages_apps_EmergencyInfo_AOSP_10_r33_CVE-2023-20932.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/packages_apps_EmergencyInfo_AOSP_10_r33_CVE-2023-20932.svg)
 
 
-## CVE-2021-45046
- It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in an information leak and remote code execution in some environments and local code execution in all environments. Log4j 2.16.0 (Java 8) and 2.12.2 (Java 7) fix this issue by removing support for message lookup patterns and disabling JNDI functionality by default.
+## CVE-2023-4699
+ Insufficient Verification of Data Authenticity vulnerability in Mitsubishi Electric Corporation MELSEC-F Series main modules and MELSEC iQ-F Series CPU modules allows a remote unauthenticated attacker to reset the memory of the products to factory default state and cause denial-of-service (DoS) condition on the products by sending specific packets.
 
-- [https://github.com/taise-IERAE/log4j-poc](https://github.com/taise-IERAE/log4j-poc) :  ![starts](https://img.shields.io/github/stars/taise-IERAE/log4j-poc.svg) ![forks](https://img.shields.io/github/forks/taise-IERAE/log4j-poc.svg)
-
-
-## CVE-2021-35975
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/fbkcs/CVE-2021-35975](https://github.com/fbkcs/CVE-2021-35975) :  ![starts](https://img.shields.io/github/stars/fbkcs/CVE-2021-35975.svg) ![forks](https://img.shields.io/github/forks/fbkcs/CVE-2021-35975.svg)
+- [https://github.com/Scottzxor/Citrix-Bleed-Buffer-Overread-Demo](https://github.com/Scottzxor/Citrix-Bleed-Buffer-Overread-Demo) :  ![starts](https://img.shields.io/github/stars/Scottzxor/Citrix-Bleed-Buffer-Overread-Demo.svg) ![forks](https://img.shields.io/github/forks/Scottzxor/Citrix-Bleed-Buffer-Overread-Demo.svg)
 
 
-## CVE-2020-24765
- InterMind iMind Server through 3.13.65 allows remote unauthenticated attackers to read the self-diagnostic archive via a direct api/rs/monitoring/rs/api/system/dump-diagnostic-info?server=127.0.0.1 request.
+## CVE-2023-4357
+ Insufficient validation of untrusted input in XML in Google Chrome prior to 116.0.5845.96 allowed a remote attacker to bypass file access restrictions via a crafted HTML page. (Chromium security severity: Medium)
 
-- [https://github.com/fbkcs/CVE-2020-24765](https://github.com/fbkcs/CVE-2020-24765) :  ![starts](https://img.shields.io/github/stars/fbkcs/CVE-2020-24765.svg) ![forks](https://img.shields.io/github/forks/fbkcs/CVE-2020-24765.svg)
-
-
-## CVE-2020-2551
- Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: WLS Core Components). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
-
-- [https://github.com/hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551) :  ![starts](https://img.shields.io/github/stars/hktalent/CVE-2020-2551.svg) ![forks](https://img.shields.io/github/forks/hktalent/CVE-2020-2551.svg)
-- [https://github.com/DSO-Lab/defvul](https://github.com/DSO-Lab/defvul) :  ![starts](https://img.shields.io/github/stars/DSO-Lab/defvul.svg) ![forks](https://img.shields.io/github/forks/DSO-Lab/defvul.svg)
-- [https://github.com/jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2020-2551.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2020-2551.svg)
+- [https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI](https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI) :  ![starts](https://img.shields.io/github/stars/xcanwin/CVE-2023-4357-Chrome-LFI.svg) ![forks](https://img.shields.io/github/forks/xcanwin/CVE-2023-4357-Chrome-LFI.svg)
 
 
-## CVE-2019-0709
- A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka 'Windows Hyper-V Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-0620, CVE-2019-0722.
+## CVE-2023-2598
+ A flaw was found in the fixed buffer registration code for io_uring (io_sqe_buffer_register in io_uring/rsrc.c) in the Linux kernel that allows out-of-bounds access to physical memory beyond the end of the buffer. This flaw enables full local privilege escalation.
 
-- [https://github.com/qq431169079/CVE-2019-0709](https://github.com/qq431169079/CVE-2019-0709) :  ![starts](https://img.shields.io/github/stars/qq431169079/CVE-2019-0709.svg) ![forks](https://img.shields.io/github/forks/qq431169079/CVE-2019-0709.svg)
+- [https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598](https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598) :  ![starts](https://img.shields.io/github/stars/ysanatomic/io_uring_LPE-CVE-2023-2598.svg) ![forks](https://img.shields.io/github/forks/ysanatomic/io_uring_LPE-CVE-2023-2598.svg)
 
 
-## CVE-2018-1335
- From Apache Tika versions 1.7 to 1.17, clients could send carefully crafted headers to tika-server that could be used to inject commands into the command line of the server running tika-server. This vulnerability only affects those running tika-server on a server that is open to untrusted clients. The mitigation is to upgrade to Tika 1.18.
+## CVE-2021-3131
+ The Web server in 1C:Enterprise 8 before 8.3.17.1851 sends base64 encoded credentials in the creds URL parameter.
 
-- [https://github.com/SkyBlueEternal/CVE-2018-1335-EXP-GUI](https://github.com/SkyBlueEternal/CVE-2018-1335-EXP-GUI) :  ![starts](https://img.shields.io/github/stars/SkyBlueEternal/CVE-2018-1335-EXP-GUI.svg) ![forks](https://img.shields.io/github/forks/SkyBlueEternal/CVE-2018-1335-EXP-GUI.svg)
+- [https://github.com/jet-pentest/CVE-2021-3131](https://github.com/jet-pentest/CVE-2021-3131) :  ![starts](https://img.shields.io/github/stars/jet-pentest/CVE-2021-3131.svg) ![forks](https://img.shields.io/github/forks/jet-pentest/CVE-2021-3131.svg)
+
+
+## CVE-2021-1636
+ Microsoft SQL Elevation of Privilege Vulnerability
+
+- [https://github.com/Nate0634034090/bug-free-memory](https://github.com/Nate0634034090/bug-free-memory) :  ![starts](https://img.shields.io/github/stars/Nate0634034090/bug-free-memory.svg) ![forks](https://img.shields.io/github/forks/Nate0634034090/bug-free-memory.svg)
+
+
+## CVE-2020-0121
+ In updateUidProcState of AppOpsService.java, there is a possible permission bypass due to a logic error. This could lead to local information disclosure of location data with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-148180766
+
+- [https://github.com/mooneee/CVE-2020-0121](https://github.com/mooneee/CVE-2020-0121) :  ![starts](https://img.shields.io/github/stars/mooneee/CVE-2020-0121.svg) ![forks](https://img.shields.io/github/forks/mooneee/CVE-2020-0121.svg)
+
+
+## CVE-2018-6242
+ Some NVIDIA Tegra mobile processors released prior to 2016 contain a buffer overflow vulnerability in BootROM Recovery Mode (RCM). An attacker with physical access to the device's USB and the ability to force the device to reboot into RCM could exploit the vulnerability to execute unverified code.
+
+- [https://github.com/nyawox/nix-switch-boot](https://github.com/nyawox/nix-switch-boot) :  ![starts](https://img.shields.io/github/stars/nyawox/nix-switch-boot.svg) ![forks](https://img.shields.io/github/forks/nyawox/nix-switch-boot.svg)
+
+
+## CVE-2015-3145
+ The sanitize_cookie_path function in cURL and libcurl 7.31.0 through 7.41.0 does not properly calculate an index, which allows remote attackers to cause a denial of service (out-of-bounds write and crash) or possibly have other unspecified impact via a cookie path containing only a double-quote character.
+
+- [https://github.com/serz999/CVE-2015-3145](https://github.com/serz999/CVE-2015-3145) :  ![starts](https://img.shields.io/github/stars/serz999/CVE-2015-3145.svg) ![forks](https://img.shields.io/github/forks/serz999/CVE-2015-3145.svg)
 
