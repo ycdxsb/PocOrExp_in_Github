@@ -5,6 +5,13 @@
 
 - [https://github.com/aimoda/hitron-cfg-decrypter](https://github.com/aimoda/hitron-cfg-decrypter) :  ![starts](https://img.shields.io/github/stars/aimoda/hitron-cfg-decrypter.svg) ![forks](https://img.shields.io/github/forks/aimoda/hitron-cfg-decrypter.svg)
 
+## CVE-2014-9690
+ Huawei home gateways WS318 with software V100R001C01B022 and earlier versions are affected by the PIN offline brute force cracking vulnerability of the WPS protocol because the random number generator (RNG) used in the supplier's solution is not random enough. As a result, brute force cracking the PIN code is easier. After an attacker cracks the PIN, the attacker can access the Internet via the cracked device.
+
+
+
+- [https://github.com/ForceFledgling/CVE-2014-9690](https://github.com/ForceFledgling/CVE-2014-9690) :  ![starts](https://img.shields.io/github/stars/ForceFledgling/CVE-2014-9690.svg) ![forks](https://img.shields.io/github/forks/ForceFledgling/CVE-2014-9690.svg)
+
 ## CVE-2014-9390
  Git before 1.8.5.6, 1.9.x before 1.9.5, 2.0.x before 2.0.5, 2.1.x before 2.1.4, and 2.2.x before 2.2.1 on Windows and OS X; Mercurial before 3.2.3 on Windows and OS X; Apple Xcode before 6.2 beta 3; mine all versions before 08-12-2014; libgit2 all versions up to 0.21.2; Egit all versions before 08-12-2014; and JGit all versions before 08-12-2014 allow remote Git servers to execute arbitrary commands via a tree containing a crafted .git/config file with (1) an ignorable Unicode codepoint, (2) a git~1/config representation, or (3) mixed case that is improperly handled on a case-insensitive filesystem.
 
