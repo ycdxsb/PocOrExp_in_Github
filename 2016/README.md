@@ -469,8 +469,6 @@
 
 - [https://github.com/heh3/CVE-2016-7255](https://github.com/heh3/CVE-2016-7255) :  ![starts](https://img.shields.io/github/stars/heh3/CVE-2016-7255.svg) ![forks](https://img.shields.io/github/forks/heh3/CVE-2016-7255.svg)
 
-- [https://github.com/bbolmin/cve-2016-7255_x86_x64](https://github.com/bbolmin/cve-2016-7255_x86_x64) :  ![starts](https://img.shields.io/github/stars/bbolmin/cve-2016-7255_x86_x64.svg) ![forks](https://img.shields.io/github/forks/bbolmin/cve-2016-7255_x86_x64.svg)
-
 - [https://github.com/homjxi0e/CVE-2016-7255](https://github.com/homjxi0e/CVE-2016-7255) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2016-7255.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2016-7255.svg)
 
 ## CVE-2016-7201
