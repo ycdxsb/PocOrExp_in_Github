@@ -19,13 +19,6 @@
 
 - [https://github.com/sdneon/CveTest](https://github.com/sdneon/CveTest) :  ![starts](https://img.shields.io/github/stars/sdneon/CveTest.svg) ![forks](https://img.shields.io/github/forks/sdneon/CveTest.svg)
 
-## CVE-2013-6490
- The SIMPLE protocol functionality in Pidgin before 2.10.8 allows remote attackers to have an unspecified impact via a negative Content-Length header, which triggers a buffer overflow.
-
-
-
-- [https://github.com/Everdoh/CVE-2013-6490](https://github.com/Everdoh/CVE-2013-6490) :  ![starts](https://img.shields.io/github/stars/Everdoh/CVE-2013-6490.svg) ![forks](https://img.shields.io/github/forks/Everdoh/CVE-2013-6490.svg)
-
 ## CVE-2013-6375
  Xen 4.2.x and 4.3.x, when using Intel VT-d for PCI passthrough, does not properly flush the TLB after clearing a present translation table entry, which allows local guest administrators to cause a denial of service or gain privileges via unspecified vectors related to an &quot;inverted boolean parameter.&quot;
 
