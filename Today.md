@@ -1,60 +1,60 @@
-# Update 2023-11-26
-## CVE-2023-45857
- An issue discovered in Axios 1.5.1 inadvertently reveals the confidential XSRF-TOKEN stored in cookies by including it in the HTTP header X-XSRF-TOKEN for every request made to any host allowing attackers to view sensitive information.
+# Update 2023-11-27
+## CVE-2023-38646
+ Metabase open source before 0.46.6.1 and Metabase Enterprise before 1.46.6.1 allow attackers to execute arbitrary commands on the server, at the server's privilege level. Authentication is not required for exploitation. The other fixed versions are 0.45.4.1, 1.45.4.1, 0.44.7.1, 1.44.7.1, 0.43.7.2, and 1.43.7.2.
 
-- [https://github.com/fuyuooumi1027/CVE-2023-45857-Demo](https://github.com/fuyuooumi1027/CVE-2023-45857-Demo) :  ![starts](https://img.shields.io/github/stars/fuyuooumi1027/CVE-2023-45857-Demo.svg) ![forks](https://img.shields.io/github/forks/fuyuooumi1027/CVE-2023-45857-Demo.svg)
-
-
-## CVE-2023-44487
- The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
-
-- [https://github.com/terrorist/HTTP-2-Rapid-Reset-Client](https://github.com/terrorist/HTTP-2-Rapid-Reset-Client) :  ![starts](https://img.shields.io/github/stars/terrorist/HTTP-2-Rapid-Reset-Client.svg) ![forks](https://img.shields.io/github/forks/terrorist/HTTP-2-Rapid-Reset-Client.svg)
+- [https://github.com/Ego1stoo/CVE-2023-38646](https://github.com/Ego1stoo/CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/Ego1stoo/CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/Ego1stoo/CVE-2023-38646.svg)
 
 
-## CVE-2023-3306
- A vulnerability was found in Ruijie RG-EW1200G EW_3.0(1)B11P204. It has been declared as critical. This vulnerability affects unknown code of the file app.09df2a9e44ab48766f5f.js of the component Admin Password Handler. The manipulation leads to improper access controls. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-231802 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+## CVE-2023-34468
+ The DBCPConnectionPool and HikariCPConnectionPool Controller Services in Apache NiFi 0.0.2 through 1.21.0 allow an authenticated and authorized user to configure a Database URL with the H2 driver that enables custom code execution. The resolution validates the Database URL and rejects H2 JDBC locations. You are recommended to upgrade to version 1.22.0 or later which fixes this issue.
 
-- [https://github.com/thedarknessdied/CVE-2023-4169_CVE-2023-3306_CVE-2023-4415](https://github.com/thedarknessdied/CVE-2023-4169_CVE-2023-3306_CVE-2023-4415) :  ![starts](https://img.shields.io/github/stars/thedarknessdied/CVE-2023-4169_CVE-2023-3306_CVE-2023-4415.svg) ![forks](https://img.shields.io/github/forks/thedarknessdied/CVE-2023-4169_CVE-2023-3306_CVE-2023-4415.svg)
-
-
-## CVE-2022-41853
- Those using java.sql.Statement or java.sql.PreparedStatement in hsqldb (HyperSQL DataBase) to process untrusted input may be vulnerable to a remote code execution attack. By default it is allowed to call any static method of any Java class in the classpath resulting in code execution. The issue can be prevented by updating to 2.7.1 or by setting the system property &quot;hsqldb.method_class_names&quot; to classes which are allowed to be called. For example, System.setProperty(&quot;hsqldb.method_class_names&quot;, &quot;abc&quot;) or Java argument -Dhsqldb.method_class_names=&quot;abc&quot; can be used. From version 2.7.1 all classes by default are not accessible except those in java.lang.Math and need to be manually enabled.
-
-- [https://github.com/mbadanoiu/CVE-2022-41853](https://github.com/mbadanoiu/CVE-2022-41853) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2022-41853.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2022-41853.svg)
+- [https://github.com/mbadanoiu/CVE-2023-34468](https://github.com/mbadanoiu/CVE-2023-34468) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2023-34468.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2023-34468.svg)
 
 
-## CVE-2022-22720
- Apache HTTP Server 2.4.52 and earlier fails to close inbound connection when errors are encountered discarding the request body, exposing the server to HTTP Request Smuggling
+## CVE-2023-5561
+ WordPress does not properly restrict which user fields are searchable via the REST API, allowing unauthenticated attackers to discern the email addresses of users who have published public posts on an affected website via an Oracle style attack
 
-- [https://github.com/Benasin/CVE-2022-22720](https://github.com/Benasin/CVE-2022-22720) :  ![starts](https://img.shields.io/github/stars/Benasin/CVE-2022-22720.svg) ![forks](https://img.shields.io/github/forks/Benasin/CVE-2022-22720.svg)
-
-
-## CVE-2022-4047
- The Return Refund and Exchange For WooCommerce WordPress plugin before 4.0.9 does not validate attachment files to be uploaded via an AJAX action available to unauthenticated users, which could allow them to upload arbitrary files such as PHP and lead to RCE
-
-- [https://github.com/im-hanzou/WooRefer](https://github.com/im-hanzou/WooRefer) :  ![starts](https://img.shields.io/github/stars/im-hanzou/WooRefer.svg) ![forks](https://img.shields.io/github/forks/im-hanzou/WooRefer.svg)
+- [https://github.com/justhx0r/CVE-2023-5561](https://github.com/justhx0r/CVE-2023-5561) :  ![starts](https://img.shields.io/github/stars/justhx0r/CVE-2023-5561.svg) ![forks](https://img.shields.io/github/forks/justhx0r/CVE-2023-5561.svg)
 
 
-## CVE-2021-40447
- Windows Print Spooler Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-38667, CVE-2021-38671.
+## CVE-2023-2650
+ Issue summary: Processing some specially crafted ASN.1 object identifiers or data containing them may be very slow. Impact summary: Applications that use OBJ_obj2txt() directly, or use any of the OpenSSL subsystems OCSP, PKCS7/SMIME, CMS, CMP/CRMF or TS with no message size limit may experience notable to very long delays when processing those messages, which may lead to a Denial of Service. An OBJECT IDENTIFIER is composed of a series of numbers - sub-identifiers - most of which have no size limit. OBJ_obj2txt() may be used to translate an ASN.1 OBJECT IDENTIFIER given in DER encoding form (using the OpenSSL type ASN1_OBJECT) to its canonical numeric text form, which are the sub-identifiers of the OBJECT IDENTIFIER in decimal form, separated by periods. When one of the sub-identifiers in the OBJECT IDENTIFIER is very large (these are sizes that are seen as absurdly large, taking up tens or hundreds of KiBs), the translation to a decimal number in text may take a very long time. The time complexity is O(n^2) with 'n' being the size of the sub-identifiers in bytes (*). With OpenSSL 3.0, support to fetch cryptographic algorithms using names / identifiers in string form was introduced. This includes using OBJECT IDENTIFIERs in canonical numeric text form as identifiers for fetching algorithms. Such OBJECT IDENTIFIERs may be received through the ASN.1 structure AlgorithmIdentifier, which is commonly used in multiple protocols to specify what cryptographic algorithm should be used to sign or verify, encrypt or decrypt, or digest passed data. Applications that call OBJ_obj2txt() directly with untrusted data are affected, with any version of OpenSSL. If the use is for the mere purpose of display, the severity is considered low. In OpenSSL 3.0 and newer, this affects the subsystems OCSP, PKCS7/SMIME, CMS, CMP/CRMF or TS. It also impacts anything that processes X.509 certificates, including simple things like verifying its signature. The impact on TLS is relatively low, because all versions of OpenSSL have a 100KiB limit on the peer's certificate chain. Additionally, this only impacts clients, or servers that have explicitly enabled client authentication. In OpenSSL 1.1.1 and 1.0.2, this only affects displaying diverse objects, such as X.509 certificates. This is assumed to not happen in such a way that it would cause a Denial of Service, so these versions are considered not affected by this issue in such a way that it would be cause for concern, and the severity is therefore considered low.
 
-- [https://github.com/Tomparte/PrintNightmare](https://github.com/Tomparte/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/Tomparte/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/Tomparte/PrintNightmare.svg)
-
-
-## CVE-2020-12116
- Zoho ManageEngine OpManager Stable build before 124196 and Released build before 125125 allows an unauthenticated attacker to read arbitrary files on the server by sending a crafted request.
-
-- [https://github.com/BeetleChunks/CVE-2020-12116](https://github.com/BeetleChunks/CVE-2020-12116) :  ![starts](https://img.shields.io/github/stars/BeetleChunks/CVE-2020-12116.svg) ![forks](https://img.shields.io/github/forks/BeetleChunks/CVE-2020-12116.svg)
+- [https://github.com/hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650](https://github.com/hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650) :  ![starts](https://img.shields.io/github/stars/hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650.svg)
 
 
-## CVE-2020-9038
- Joplin through 1.0.184 allows Arbitrary File Read via XSS.
+## CVE-2021-28165
+ In Eclipse Jetty 7.2.2 to 9.4.38, 10.0.0.alpha0 to 10.0.1, and 11.0.0.alpha0 to 11.0.1, CPU usage can reach 100% upon receiving a large invalid TLS frame.
 
-- [https://github.com/JavierOlmedo/CVE-2020-9038](https://github.com/JavierOlmedo/CVE-2020-9038) :  ![starts](https://img.shields.io/github/stars/JavierOlmedo/CVE-2020-9038.svg) ![forks](https://img.shields.io/github/forks/JavierOlmedo/CVE-2020-9038.svg)
+- [https://github.com/uthrasri/CVE-2021-28165](https://github.com/uthrasri/CVE-2021-28165) :  ![starts](https://img.shields.io/github/stars/uthrasri/CVE-2021-28165.svg) ![forks](https://img.shields.io/github/forks/uthrasri/CVE-2021-28165.svg)
 
 
-## CVE-2015-3306
- The mod_copy module in ProFTPD 1.3.5 allows remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.
+## CVE-2021-20253
+ A flaw was found in ansible-tower. The default installation is vulnerable to Job Isolation escape allowing an attacker to elevate the privilege from a low privileged user to the awx user from outside the isolated environment. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
 
-- [https://github.com/xchg-rax-rax/CVE-2015-3306-](https://github.com/xchg-rax-rax/CVE-2015-3306-) :  ![starts](https://img.shields.io/github/stars/xchg-rax-rax/CVE-2015-3306-.svg) ![forks](https://img.shields.io/github/forks/xchg-rax-rax/CVE-2015-3306-.svg)
+- [https://github.com/mbadanoiu/CVE-2021-20253](https://github.com/mbadanoiu/CVE-2021-20253) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2021-20253.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2021-20253.svg)
+
+
+## CVE-2019-13024
+ Centreon 18.x before 18.10.6, 19.x before 19.04.3, and Centreon web before 2.8.29 allows the attacker to execute arbitrary system commands by using the value &quot;init_script&quot;-&quot;Monitoring Engine Binary&quot; in main.get.php to insert a arbitrary command into the database, and execute it by calling the vulnerable page www/include/configuration/configGenerate/xml/generateFiles.php (which passes the inserted value to the database to shell_exec without sanitizing it, allowing one to execute system arbitrary commands).
+
+- [https://github.com/get-get-get-get/Centreon-RCE](https://github.com/get-get-get-get/Centreon-RCE) :  ![starts](https://img.shields.io/github/stars/get-get-get-get/Centreon-RCE.svg) ![forks](https://img.shields.io/github/forks/get-get-get-get/Centreon-RCE.svg)
+
+
+## CVE-2019-11409
+ app/operator_panel/exec.php in the Operator Panel module in FusionPBX 4.4.3 suffers from a command injection vulnerability due to a lack of input validation that allows authenticated non-administrative attackers to execute commands on the host. This can further lead to remote code execution when combined with an XSS vulnerability also present in the FusionPBX Operator Panel module.
+
+- [https://github.com/HoseynHeydari/fusionpbx_rce_vulnerability](https://github.com/HoseynHeydari/fusionpbx_rce_vulnerability) :  ![starts](https://img.shields.io/github/stars/HoseynHeydari/fusionpbx_rce_vulnerability.svg) ![forks](https://img.shields.io/github/forks/HoseynHeydari/fusionpbx_rce_vulnerability.svg)
+
+
+## CVE-2019-11408
+ XSS in app/operator_panel/index_inc.php in the Operator Panel module in FusionPBX 4.4.3 allows remote unauthenticated attackers to inject arbitrary JavaScript characters by placing a phone call using a specially crafted caller ID number. This can further lead to remote code execution by chaining this vulnerability with a command injection vulnerability also present in FusionPBX.
+
+- [https://github.com/HoseynHeydari/fusionpbx_rce_vulnerability](https://github.com/HoseynHeydari/fusionpbx_rce_vulnerability) :  ![starts](https://img.shields.io/github/stars/HoseynHeydari/fusionpbx_rce_vulnerability.svg) ![forks](https://img.shields.io/github/forks/HoseynHeydari/fusionpbx_rce_vulnerability.svg)
+
+
+## CVE-2003-0282
+ Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
+
+- [https://github.com/theseann/cve-2003-0282](https://github.com/theseann/cve-2003-0282) :  ![starts](https://img.shields.io/github/stars/theseann/cve-2003-0282.svg) ![forks](https://img.shields.io/github/forks/theseann/cve-2003-0282.svg)
 
