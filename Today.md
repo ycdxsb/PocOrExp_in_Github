@@ -1,60 +1,86 @@
-# Update 2023-11-27
-## CVE-2023-38646
- Metabase open source before 0.46.6.1 and Metabase Enterprise before 1.46.6.1 allow attackers to execute arbitrary commands on the server, at the server's privilege level. Authentication is not required for exploitation. The other fixed versions are 0.45.4.1, 1.45.4.1, 0.44.7.1, 1.44.7.1, 0.43.7.2, and 1.43.7.2.
+# Update 2023-11-28
+## CVE-2023-46480
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Ego1stoo/CVE-2023-38646](https://github.com/Ego1stoo/CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/Ego1stoo/CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/Ego1stoo/CVE-2023-38646.svg)
-
-
-## CVE-2023-34468
- The DBCPConnectionPool and HikariCPConnectionPool Controller Services in Apache NiFi 0.0.2 through 1.21.0 allow an authenticated and authorized user to configure a Database URL with the H2 driver that enables custom code execution. The resolution validates the Database URL and rejects H2 JDBC locations. You are recommended to upgrade to version 1.22.0 or later which fixes this issue.
-
-- [https://github.com/mbadanoiu/CVE-2023-34468](https://github.com/mbadanoiu/CVE-2023-34468) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2023-34468.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2023-34468.svg)
+- [https://github.com/shahzaibak96/CVE-2023-46480](https://github.com/shahzaibak96/CVE-2023-46480) :  ![starts](https://img.shields.io/github/stars/shahzaibak96/CVE-2023-46480.svg) ![forks](https://img.shields.io/github/forks/shahzaibak96/CVE-2023-46480.svg)
 
 
-## CVE-2023-5561
- WordPress does not properly restrict which user fields are searchable via the REST API, allowing unauthenticated attackers to discern the email addresses of users who have published public posts on an affected website via an Oracle style attack
+## CVE-2023-28432
+ Minio is a Multi-Cloud Object Storage framework. In a cluster deployment starting with RELEASE.2019-12-17T23-16-33Z and prior to RELEASE.2023-03-20T20-16-18Z, MinIO returns all environment variables, including `MINIO_SECRET_KEY` and `MINIO_ROOT_PASSWORD`, resulting in information disclosure. All users of distributed deployment are impacted. All users are advised to upgrade to RELEASE.2023-03-20T20-16-18Z.
 
-- [https://github.com/justhx0r/CVE-2023-5561](https://github.com/justhx0r/CVE-2023-5561) :  ![starts](https://img.shields.io/github/stars/justhx0r/CVE-2023-5561.svg) ![forks](https://img.shields.io/github/forks/justhx0r/CVE-2023-5561.svg)
-
-
-## CVE-2023-2650
- Issue summary: Processing some specially crafted ASN.1 object identifiers or data containing them may be very slow. Impact summary: Applications that use OBJ_obj2txt() directly, or use any of the OpenSSL subsystems OCSP, PKCS7/SMIME, CMS, CMP/CRMF or TS with no message size limit may experience notable to very long delays when processing those messages, which may lead to a Denial of Service. An OBJECT IDENTIFIER is composed of a series of numbers - sub-identifiers - most of which have no size limit. OBJ_obj2txt() may be used to translate an ASN.1 OBJECT IDENTIFIER given in DER encoding form (using the OpenSSL type ASN1_OBJECT) to its canonical numeric text form, which are the sub-identifiers of the OBJECT IDENTIFIER in decimal form, separated by periods. When one of the sub-identifiers in the OBJECT IDENTIFIER is very large (these are sizes that are seen as absurdly large, taking up tens or hundreds of KiBs), the translation to a decimal number in text may take a very long time. The time complexity is O(n^2) with 'n' being the size of the sub-identifiers in bytes (*). With OpenSSL 3.0, support to fetch cryptographic algorithms using names / identifiers in string form was introduced. This includes using OBJECT IDENTIFIERs in canonical numeric text form as identifiers for fetching algorithms. Such OBJECT IDENTIFIERs may be received through the ASN.1 structure AlgorithmIdentifier, which is commonly used in multiple protocols to specify what cryptographic algorithm should be used to sign or verify, encrypt or decrypt, or digest passed data. Applications that call OBJ_obj2txt() directly with untrusted data are affected, with any version of OpenSSL. If the use is for the mere purpose of display, the severity is considered low. In OpenSSL 3.0 and newer, this affects the subsystems OCSP, PKCS7/SMIME, CMS, CMP/CRMF or TS. It also impacts anything that processes X.509 certificates, including simple things like verifying its signature. The impact on TLS is relatively low, because all versions of OpenSSL have a 100KiB limit on the peer's certificate chain. Additionally, this only impacts clients, or servers that have explicitly enabled client authentication. In OpenSSL 1.1.1 and 1.0.2, this only affects displaying diverse objects, such as X.509 certificates. This is assumed to not happen in such a way that it would cause a Denial of Service, so these versions are considered not affected by this issue in such a way that it would be cause for concern, and the severity is therefore considered low.
-
-- [https://github.com/hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650](https://github.com/hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650) :  ![starts](https://img.shields.io/github/stars/hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/OpenSSL_1.1.1g_CVE-2023-2650.svg)
+- [https://github.com/Fw-fW-fw/CVE-2023-28432-minio_update_rce](https://github.com/Fw-fW-fw/CVE-2023-28432-minio_update_rce) :  ![starts](https://img.shields.io/github/stars/Fw-fW-fw/CVE-2023-28432-minio_update_rce.svg) ![forks](https://img.shields.io/github/forks/Fw-fW-fw/CVE-2023-28432-minio_update_rce.svg)
 
 
-## CVE-2021-28165
- In Eclipse Jetty 7.2.2 to 9.4.38, 10.0.0.alpha0 to 10.0.1, and 11.0.0.alpha0 to 11.0.1, CPU usage can reach 100% upon receiving a large invalid TLS frame.
+## CVE-2023-22515
+ Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances. Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.
 
-- [https://github.com/uthrasri/CVE-2021-28165](https://github.com/uthrasri/CVE-2021-28165) :  ![starts](https://img.shields.io/github/stars/uthrasri/CVE-2021-28165.svg) ![forks](https://img.shields.io/github/forks/uthrasri/CVE-2021-28165.svg)
-
-
-## CVE-2021-20253
- A flaw was found in ansible-tower. The default installation is vulnerable to Job Isolation escape allowing an attacker to elevate the privilege from a low privileged user to the awx user from outside the isolated environment. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
-
-- [https://github.com/mbadanoiu/CVE-2021-20253](https://github.com/mbadanoiu/CVE-2021-20253) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2021-20253.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2021-20253.svg)
+- [https://github.com/edsonjt81/CVE-2023-22515-Scan.](https://github.com/edsonjt81/CVE-2023-22515-Scan.) :  ![starts](https://img.shields.io/github/stars/edsonjt81/CVE-2023-22515-Scan..svg) ![forks](https://img.shields.io/github/forks/edsonjt81/CVE-2023-22515-Scan..svg)
 
 
-## CVE-2019-13024
- Centreon 18.x before 18.10.6, 19.x before 19.04.3, and Centreon web before 2.8.29 allows the attacker to execute arbitrary system commands by using the value &quot;init_script&quot;-&quot;Monitoring Engine Binary&quot; in main.get.php to insert a arbitrary command into the database, and execute it by calling the vulnerable page www/include/configuration/configGenerate/xml/generateFiles.php (which passes the inserted value to the database to shell_exec without sanitizing it, allowing one to execute system arbitrary commands).
+## CVE-2022-33891
+ The Apache Spark UI offers the possibility to enable ACLs via the configuration option spark.acls.enable. With an authentication filter, this checks whether a user has access permissions to view or modify the application. If ACLs are enabled, a code path in HttpSecurityFilter can allow someone to perform impersonation by providing an arbitrary user name. A malicious user might then be able to reach a permission check function that will ultimately build a Unix shell command based on their input, and execute it. This will result in arbitrary shell command execution as the user Spark is currently running as. This affects Apache Spark versions 3.0.3 and earlier, versions 3.1.1 to 3.1.2, and versions 3.2.0 to 3.2.1.
 
-- [https://github.com/get-get-get-get/Centreon-RCE](https://github.com/get-get-get-get/Centreon-RCE) :  ![starts](https://img.shields.io/github/stars/get-get-get-get/Centreon-RCE.svg) ![forks](https://img.shields.io/github/forks/get-get-get-get/Centreon-RCE.svg)
-
-
-## CVE-2019-11409
- app/operator_panel/exec.php in the Operator Panel module in FusionPBX 4.4.3 suffers from a command injection vulnerability due to a lack of input validation that allows authenticated non-administrative attackers to execute commands on the host. This can further lead to remote code execution when combined with an XSS vulnerability also present in the FusionPBX Operator Panel module.
-
-- [https://github.com/HoseynHeydari/fusionpbx_rce_vulnerability](https://github.com/HoseynHeydari/fusionpbx_rce_vulnerability) :  ![starts](https://img.shields.io/github/stars/HoseynHeydari/fusionpbx_rce_vulnerability.svg) ![forks](https://img.shields.io/github/forks/HoseynHeydari/fusionpbx_rce_vulnerability.svg)
+- [https://github.com/elsvital/cve-2022-33891-fix](https://github.com/elsvital/cve-2022-33891-fix) :  ![starts](https://img.shields.io/github/stars/elsvital/cve-2022-33891-fix.svg) ![forks](https://img.shields.io/github/forks/elsvital/cve-2022-33891-fix.svg)
 
 
-## CVE-2019-11408
- XSS in app/operator_panel/index_inc.php in the Operator Panel module in FusionPBX 4.4.3 allows remote unauthenticated attackers to inject arbitrary JavaScript characters by placing a phone call using a specially crafted caller ID number. This can further lead to remote code execution by chaining this vulnerability with a command injection vulnerability also present in FusionPBX.
+## CVE-2020-8254
+ A vulnerability in the Pulse Secure Desktop Client &lt; 9.1R9 has Remote Code Execution (RCE) if users can be convinced to connect to a malicious server. This vulnerability only affects Windows PDC.To improve the security of connections between Pulse clients and Pulse Connect Secure, see below recommendation(s):Disable Dynamic certificate trust for PDC.
 
-- [https://github.com/HoseynHeydari/fusionpbx_rce_vulnerability](https://github.com/HoseynHeydari/fusionpbx_rce_vulnerability) :  ![starts](https://img.shields.io/github/stars/HoseynHeydari/fusionpbx_rce_vulnerability.svg) ![forks](https://img.shields.io/github/forks/HoseynHeydari/fusionpbx_rce_vulnerability.svg)
+- [https://github.com/mbadanoiu/CVE-2020-8254](https://github.com/mbadanoiu/CVE-2020-8254) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2020-8254.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2020-8254.svg)
 
 
-## CVE-2003-0282
- Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
+## CVE-2020-8250
+ A vulnerability in the Pulse Secure Desktop Client (Linux) &lt; 9.1R9 could allow local attackers to escalate privilege.
 
-- [https://github.com/theseann/cve-2003-0282](https://github.com/theseann/cve-2003-0282) :  ![starts](https://img.shields.io/github/stars/theseann/cve-2003-0282.svg) ![forks](https://img.shields.io/github/forks/theseann/cve-2003-0282.svg)
+- [https://github.com/mbadanoiu/CVE-2020-8250](https://github.com/mbadanoiu/CVE-2020-8250) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2020-8250.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2020-8250.svg)
+
+
+## CVE-2020-8249
+ A vulnerability in the Pulse Secure Desktop Client (Linux) &lt; 9.1R9 could allow local attackers to perform buffer overflow.
+
+- [https://github.com/mbadanoiu/CVE-2020-8249](https://github.com/mbadanoiu/CVE-2020-8249) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2020-8249.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2020-8249.svg)
+
+
+## CVE-2020-8248
+ A vulnerability in the Pulse Secure Desktop Client (Linux) &lt; 9.1R9 could allow local attackers to escalate privilege.
+
+- [https://github.com/mbadanoiu/CVE-2020-8248](https://github.com/mbadanoiu/CVE-2020-8248) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2020-8248.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2020-8248.svg)
+
+
+## CVE-2020-7961
+ Deserialization of Untrusted Data in Liferay Portal prior to 7.2.1 CE GA2 allows remote attackers to execute arbitrary code via JSON web services (JSONWS).
+
+- [https://github.com/mzer0one/CVE-2020-7961-POC](https://github.com/mzer0one/CVE-2020-7961-POC) :  ![starts](https://img.shields.io/github/stars/mzer0one/CVE-2020-7961-POC.svg) ![forks](https://img.shields.io/github/forks/mzer0one/CVE-2020-7961-POC.svg)
+- [https://github.com/ShutdownRepo/CVE-2020-7961](https://github.com/ShutdownRepo/CVE-2020-7961) :  ![starts](https://img.shields.io/github/stars/ShutdownRepo/CVE-2020-7961.svg) ![forks](https://img.shields.io/github/forks/ShutdownRepo/CVE-2020-7961.svg)
+- [https://github.com/pashayogi/CVE-2020-7961-Mass](https://github.com/pashayogi/CVE-2020-7961-Mass) :  ![starts](https://img.shields.io/github/stars/pashayogi/CVE-2020-7961-Mass.svg) ![forks](https://img.shields.io/github/forks/pashayogi/CVE-2020-7961-Mass.svg)
+
+
+## CVE-2020-1948
+ This vulnerability can affect all Dubbo users stay on version 2.7.6 or lower. An attacker can send RPC requests with unrecognized service name or method name along with some malicious parameter payloads. When the malicious parameter is deserialized, it will execute some malicious code. More details can be found below.
+
+- [https://github.com/L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization) :  ![starts](https://img.shields.io/github/stars/L0kiii/Dubbo-deserialization.svg) ![forks](https://img.shields.io/github/forks/L0kiii/Dubbo-deserialization.svg)
+
+
+## CVE-2019-19447
+ In the Linux kernel 5.0.21, mounting a crafted ext4 filesystem image, performing some operations, and unmounting can lead to a use-after-free in ext4_put_super in fs/ext4/super.c, related to dump_orphan_list in fs/ext4/super.c.
+
+- [https://github.com/Trinadh465/linux-4.19.72_CVE-2019-19447](https://github.com/Trinadh465/linux-4.19.72_CVE-2019-19447) :  ![starts](https://img.shields.io/github/stars/Trinadh465/linux-4.19.72_CVE-2019-19447.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/linux-4.19.72_CVE-2019-19447.svg)
+
+
+## CVE-2019-9053
+ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News module, through a crafted URL, to achieve unauthenticated blind time-based SQL injection via the m1_idlist parameter.
+
+- [https://github.com/davcwikla/CVE-2019-9053-exploit](https://github.com/davcwikla/CVE-2019-9053-exploit) :  ![starts](https://img.shields.io/github/stars/davcwikla/CVE-2019-9053-exploit.svg) ![forks](https://img.shields.io/github/forks/davcwikla/CVE-2019-9053-exploit.svg)
+
+
+## CVE-2017-8464
+ Windows Shell in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allows local users or remote attackers to execute arbitrary code via a crafted .LNK file, which is not properly handled during icon display in Windows Explorer or any other application that parses the icon of the shortcut. aka &quot;LNK Remote Code Execution Vulnerability.&quot;
+
+- [https://github.com/TieuLong21Prosper/Detect-CVE-2017-8464](https://github.com/TieuLong21Prosper/Detect-CVE-2017-8464) :  ![starts](https://img.shields.io/github/stars/TieuLong21Prosper/Detect-CVE-2017-8464.svg) ![forks](https://img.shields.io/github/forks/TieuLong21Prosper/Detect-CVE-2017-8464.svg)
+
+
+## CVE-2017-5689
+ An unprivileged network attacker could gain system privileges to provisioned Intel manageability SKUs: Intel Active Management Technology (AMT) and Intel Standard Manageability (ISM). An unprivileged local attacker could provision manageability features gaining unprivileged network or local system privileges on Intel manageability SKUs: Intel Active Management Technology (AMT), Intel Standard Manageability (ISM), and Intel Small Business Technology (SBT).
+
+- [https://github.com/lapis33/CVE-2017-5689](https://github.com/lapis33/CVE-2017-5689) :  ![starts](https://img.shields.io/github/stars/lapis33/CVE-2017-5689.svg) ![forks](https://img.shields.io/github/forks/lapis33/CVE-2017-5689.svg)
 
