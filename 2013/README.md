@@ -53,13 +53,6 @@
 
 - [https://github.com/milo2012/CVE-2013-6117](https://github.com/milo2012/CVE-2013-6117) :  ![starts](https://img.shields.io/github/stars/milo2012/CVE-2013-6117.svg) ![forks](https://img.shields.io/github/forks/milo2012/CVE-2013-6117.svg)
 
-## CVE-2013-5842
- Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries, a different vulnerability than CVE-2013-5850.
-
-
-
-- [https://github.com/guhe120/CVE-2013-5842](https://github.com/guhe120/CVE-2013-5842) :  ![starts](https://img.shields.io/github/stars/guhe120/CVE-2013-5842.svg) ![forks](https://img.shields.io/github/forks/guhe120/CVE-2013-5842.svg)
-
 ## CVE-2013-5664
  Cross-site scripting (XSS) vulnerability in the web-based device-management API browser in Palo Alto Networks PAN-OS before 4.1.13 and 5.0.x before 5.0.6 allows remote attackers to inject arbitrary web script or HTML via crafted data, aka Ref ID 50908.
 
