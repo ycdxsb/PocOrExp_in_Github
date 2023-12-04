@@ -88,6 +88,13 @@
 
 - [https://github.com/TheRook/AudioCaptchaBypass-CVE-2008-2019](https://github.com/TheRook/AudioCaptchaBypass-CVE-2008-2019) :  ![starts](https://img.shields.io/github/stars/TheRook/AudioCaptchaBypass-CVE-2008-2019.svg) ![forks](https://img.shields.io/github/forks/TheRook/AudioCaptchaBypass-CVE-2008-2019.svg)
 
+## CVE-2008-1613
+ SQL injection vulnerability in ioRD.asp in RedDot CMS 7.5 Build 7.5.0.48, and possibly other versions including 6.5 and 7.0, allows remote attackers to execute arbitrary SQL commands via the LngId parameter.
+
+
+
+- [https://github.com/SECFORCE/CVE-2008-1613](https://github.com/SECFORCE/CVE-2008-1613) :  ![starts](https://img.shields.io/github/stars/SECFORCE/CVE-2008-1613.svg) ![forks](https://img.shields.io/github/forks/SECFORCE/CVE-2008-1613.svg)
+
 ## CVE-2008-1611
  Stack-based buffer overflow in TFTP Server SP 1.4 for Windows allows remote attackers to cause a denial of service or execute arbitrary code via a long filename in a read or write request.
 
