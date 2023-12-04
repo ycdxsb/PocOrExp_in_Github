@@ -551,8 +551,6 @@
 
 
 
-- [https://github.com/roeeh/conscryptchecker](https://github.com/roeeh/conscryptchecker) :  ![starts](https://img.shields.io/github/stars/roeeh/conscryptchecker.svg) ![forks](https://img.shields.io/github/forks/roeeh/conscryptchecker.svg)
-
 - [https://github.com/itibs/IsildursBane](https://github.com/itibs/IsildursBane) :  ![starts](https://img.shields.io/github/stars/itibs/IsildursBane.svg) ![forks](https://img.shields.io/github/forks/itibs/IsildursBane.svg)
 
 ## CVE-2015-3825
