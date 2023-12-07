@@ -112,9 +112,9 @@
 
 - [https://github.com/4m3rr0r/CVE-2011-2523-poc](https://github.com/4m3rr0r/CVE-2011-2523-poc) :  ![starts](https://img.shields.io/github/stars/4m3rr0r/CVE-2011-2523-poc.svg) ![forks](https://img.shields.io/github/forks/4m3rr0r/CVE-2011-2523-poc.svg)
 
-- [https://github.com/vaishnavucv/CVE-2011-2523](https://github.com/vaishnavucv/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/vaishnavucv/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/vaishnavucv/CVE-2011-2523.svg)
-
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
+
+- [https://github.com/vaishnavucv/CVE-2011-2523](https://github.com/vaishnavucv/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/vaishnavucv/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/vaishnavucv/CVE-2011-2523.svg)
 
 - [https://github.com/chleba124/vsftpd-exploit](https://github.com/chleba124/vsftpd-exploit) :  ![starts](https://img.shields.io/github/stars/chleba124/vsftpd-exploit.svg) ![forks](https://img.shields.io/github/forks/chleba124/vsftpd-exploit.svg)
 
