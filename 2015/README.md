@@ -861,9 +861,9 @@
 
 - [https://github.com/hfiref0x/CVE-2015-1701](https://github.com/hfiref0x/CVE-2015-1701) :  ![starts](https://img.shields.io/github/stars/hfiref0x/CVE-2015-1701.svg) ![forks](https://img.shields.io/github/forks/hfiref0x/CVE-2015-1701.svg)
 
-- [https://github.com/Anonymous-Family/CVE-2015-1701-download](https://github.com/Anonymous-Family/CVE-2015-1701-download) :  ![starts](https://img.shields.io/github/stars/Anonymous-Family/CVE-2015-1701-download.svg) ![forks](https://img.shields.io/github/forks/Anonymous-Family/CVE-2015-1701-download.svg)
-
 - [https://github.com/Anonymous-Family/CVE-2015-1701](https://github.com/Anonymous-Family/CVE-2015-1701) :  ![starts](https://img.shields.io/github/stars/Anonymous-Family/CVE-2015-1701.svg) ![forks](https://img.shields.io/github/forks/Anonymous-Family/CVE-2015-1701.svg)
+
+- [https://github.com/Anonymous-Family/CVE-2015-1701-download](https://github.com/Anonymous-Family/CVE-2015-1701-download) :  ![starts](https://img.shields.io/github/stars/Anonymous-Family/CVE-2015-1701-download.svg) ![forks](https://img.shields.io/github/forks/Anonymous-Family/CVE-2015-1701-download.svg)
 
 ## CVE-2015-1641
  Microsoft Word 2007 SP3, Office 2010 SP2, Word 2010 SP2, Word 2013 SP1, Word 2013 RT SP1, Word for Mac 2011, Office Compatibility Pack SP3, Word Automation Services on SharePoint Server 2010 SP2 and 2013 SP1, and Office Web Apps Server 2010 SP2 and 2013 SP1 allow remote attackers to execute arbitrary code via a crafted RTF document, aka &quot;Microsoft Office Memory Corruption Vulnerability.&quot;
@@ -951,9 +951,9 @@
 
 - [https://github.com/renjithsasidharan/cve-2015-1538-1](https://github.com/renjithsasidharan/cve-2015-1538-1) :  ![starts](https://img.shields.io/github/stars/renjithsasidharan/cve-2015-1538-1.svg) ![forks](https://img.shields.io/github/forks/renjithsasidharan/cve-2015-1538-1.svg)
 
-- [https://github.com/Tharana/Android-vulnerability-exploitation](https://github.com/Tharana/Android-vulnerability-exploitation) :  ![starts](https://img.shields.io/github/stars/Tharana/Android-vulnerability-exploitation.svg) ![forks](https://img.shields.io/github/forks/Tharana/Android-vulnerability-exploitation.svg)
-
 - [https://github.com/Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation) :  ![starts](https://img.shields.io/github/stars/Tharana/vulnerability-exploitation.svg) ![forks](https://img.shields.io/github/forks/Tharana/vulnerability-exploitation.svg)
+
+- [https://github.com/Tharana/Android-vulnerability-exploitation](https://github.com/Tharana/Android-vulnerability-exploitation) :  ![starts](https://img.shields.io/github/stars/Tharana/Android-vulnerability-exploitation.svg) ![forks](https://img.shields.io/github/forks/Tharana/Android-vulnerability-exploitation.svg)
 
 - [https://github.com/niranjanshr13/Stagefright-cve-2015-1538-1](https://github.com/niranjanshr13/Stagefright-cve-2015-1538-1) :  ![starts](https://img.shields.io/github/stars/niranjanshr13/Stagefright-cve-2015-1538-1.svg) ![forks](https://img.shields.io/github/forks/niranjanshr13/Stagefright-cve-2015-1538-1.svg)
 
@@ -1113,9 +1113,9 @@
 
 - [https://github.com/favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6) :  ![starts](https://img.shields.io/github/stars/favoretti/lenny-libc6.svg) ![forks](https://img.shields.io/github/forks/favoretti/lenny-libc6.svg)
 
-- [https://github.com/1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester) :  ![starts](https://img.shields.io/github/stars/1and1-serversupport/ghosttester.svg) ![forks](https://img.shields.io/github/forks/1and1-serversupport/ghosttester.svg)
-
 - [https://github.com/F88/ghostbusters15](https://github.com/F88/ghostbusters15) :  ![starts](https://img.shields.io/github/stars/F88/ghostbusters15.svg) ![forks](https://img.shields.io/github/forks/F88/ghostbusters15.svg)
+
+- [https://github.com/1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester) :  ![starts](https://img.shields.io/github/stars/1and1-serversupport/ghosttester.svg) ![forks](https://img.shields.io/github/forks/1and1-serversupport/ghosttester.svg)
 
 - [https://github.com/koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc) :  ![starts](https://img.shields.io/github/stars/koudaiii-archives/cookbook-update-glibc.svg) ![forks](https://img.shields.io/github/forks/koudaiii-archives/cookbook-update-glibc.svg)
 
@@ -1130,10 +1130,6 @@
  The ssl3_get_key_exchange function in s3_clnt.c in OpenSSL before 0.9.8zd, 1.0.0 before 1.0.0p, and 1.0.1 before 1.0.1k allows remote SSL servers to conduct RSA-to-EXPORT_RSA downgrade attacks and facilitate brute-force decryption by offering a weak ephemeral RSA key in a noncompliant role, related to the &quot;FREAK&quot; issue.  NOTE: the scope of this CVE is only client code based on OpenSSL, not EXPORT_RSA issues associated with servers or other TLS implementations.
 
 
-
-- [https://github.com/scottjpack/Freak-Scanner](https://github.com/scottjpack/Freak-Scanner) :  ![starts](https://img.shields.io/github/stars/scottjpack/Freak-Scanner.svg) ![forks](https://img.shields.io/github/forks/scottjpack/Freak-Scanner.svg)
-
-- [https://github.com/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script](https://github.com/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script) :  ![starts](https://img.shields.io/github/stars/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script.svg) ![forks](https://img.shields.io/github/forks/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script.svg)
 
 - [https://github.com/clino-mania/A2SV--SSL-VUL-Scan](https://github.com/clino-mania/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/clino-mania/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/clino-mania/A2SV--SSL-VUL-Scan.svg)
 
