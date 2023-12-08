@@ -951,9 +951,9 @@
 
 - [https://github.com/renjithsasidharan/cve-2015-1538-1](https://github.com/renjithsasidharan/cve-2015-1538-1) :  ![starts](https://img.shields.io/github/stars/renjithsasidharan/cve-2015-1538-1.svg) ![forks](https://img.shields.io/github/forks/renjithsasidharan/cve-2015-1538-1.svg)
 
-- [https://github.com/Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation) :  ![starts](https://img.shields.io/github/stars/Tharana/vulnerability-exploitation.svg) ![forks](https://img.shields.io/github/forks/Tharana/vulnerability-exploitation.svg)
-
 - [https://github.com/Tharana/Android-vulnerability-exploitation](https://github.com/Tharana/Android-vulnerability-exploitation) :  ![starts](https://img.shields.io/github/stars/Tharana/Android-vulnerability-exploitation.svg) ![forks](https://img.shields.io/github/forks/Tharana/Android-vulnerability-exploitation.svg)
+
+- [https://github.com/Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation) :  ![starts](https://img.shields.io/github/stars/Tharana/vulnerability-exploitation.svg) ![forks](https://img.shields.io/github/forks/Tharana/vulnerability-exploitation.svg)
 
 - [https://github.com/niranjanshr13/Stagefright-cve-2015-1538-1](https://github.com/niranjanshr13/Stagefright-cve-2015-1538-1) :  ![starts](https://img.shields.io/github/stars/niranjanshr13/Stagefright-cve-2015-1538-1.svg) ![forks](https://img.shields.io/github/forks/niranjanshr13/Stagefright-cve-2015-1538-1.svg)
 
@@ -1130,6 +1130,10 @@
  The ssl3_get_key_exchange function in s3_clnt.c in OpenSSL before 0.9.8zd, 1.0.0 before 1.0.0p, and 1.0.1 before 1.0.1k allows remote SSL servers to conduct RSA-to-EXPORT_RSA downgrade attacks and facilitate brute-force decryption by offering a weak ephemeral RSA key in a noncompliant role, related to the &quot;FREAK&quot; issue.  NOTE: the scope of this CVE is only client code based on OpenSSL, not EXPORT_RSA issues associated with servers or other TLS implementations.
 
 
+
+- [https://github.com/scottjpack/Freak-Scanner](https://github.com/scottjpack/Freak-Scanner) :  ![starts](https://img.shields.io/github/stars/scottjpack/Freak-Scanner.svg) ![forks](https://img.shields.io/github/forks/scottjpack/Freak-Scanner.svg)
+
+- [https://github.com/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script](https://github.com/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script) :  ![starts](https://img.shields.io/github/stars/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script.svg) ![forks](https://img.shields.io/github/forks/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script.svg)
 
 - [https://github.com/clino-mania/A2SV--SSL-VUL-Scan](https://github.com/clino-mania/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/clino-mania/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/clino-mania/A2SV--SSL-VUL-Scan.svg)
 
