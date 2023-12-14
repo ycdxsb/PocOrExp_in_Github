@@ -1,110 +1,155 @@
-# Update 2023-12-13
-## CVE-2023-44487
- The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
+# Update 2023-12-14
+## CVE-2023-42793
+ In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible
 
-- [https://github.com/sigridou/CVE-2023-44487-](https://github.com/sigridou/CVE-2023-44487-) :  ![starts](https://img.shields.io/github/stars/sigridou/CVE-2023-44487-.svg) ![forks](https://img.shields.io/github/forks/sigridou/CVE-2023-44487-.svg)
-
-
-## CVE-2023-32571
- Dynamic Linq 1.0.7.10 through 1.2.25 before 1.3.0 allows attackers to execute arbitrary code and commands when untrusted input to methods including Where, Select, OrderBy is parsed.
-
-- [https://github.com/Tris0n/CVE-2023-32571-POC](https://github.com/Tris0n/CVE-2023-32571-POC) :  ![starts](https://img.shields.io/github/stars/Tris0n/CVE-2023-32571-POC.svg) ![forks](https://img.shields.io/github/forks/Tris0n/CVE-2023-32571-POC.svg)
+- [https://github.com/WhiteOwl-Pub/JetBrains-PoC-CVE-2023-42793](https://github.com/WhiteOwl-Pub/JetBrains-PoC-CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/WhiteOwl-Pub/JetBrains-PoC-CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/WhiteOwl-Pub/JetBrains-PoC-CVE-2023-42793.svg)
 
 
-## CVE-2023-28197
+## CVE-2023-38408
+ The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Code in /usr/lib is not necessarily safe for loading into ssh-agent.) NOTE: this issue exists because of an incomplete fix for CVE-2016-10009.
+
+- [https://github.com/kali-mx/CVE-2023-38408](https://github.com/kali-mx/CVE-2023-38408) :  ![starts](https://img.shields.io/github/stars/kali-mx/CVE-2023-38408.svg) ![forks](https://img.shields.io/github/forks/kali-mx/CVE-2023-38408.svg)
+- [https://github.com/LucasPDiniz/CVE-2023-38408](https://github.com/LucasPDiniz/CVE-2023-38408) :  ![starts](https://img.shields.io/github/stars/LucasPDiniz/CVE-2023-38408.svg) ![forks](https://img.shields.io/github/forks/LucasPDiniz/CVE-2023-38408.svg)
+
+
+## CVE-2023-38146
+ Windows Themes Remote Code Execution Vulnerability
+
+- [https://github.com/Durge5/ThemeBleedPy](https://github.com/Durge5/ThemeBleedPy) :  ![starts](https://img.shields.io/github/stars/Durge5/ThemeBleedPy.svg) ![forks](https://img.shields.io/github/forks/Durge5/ThemeBleedPy.svg)
+
+
+## CVE-2023-36845
+ A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series and SRX Series allows an unauthenticated, network-based attacker to remotely execute code. Using a crafted request which sets the variable PHPRC an attacker is able to modify the PHP execution environment allowing the injection und execution of code. This issue affects Juniper Networks Junos OS on EX Series and SRX Series: * All versions prior to 20.4R3-S9; * 21.1 versions 21.1R1 and later; * 21.2 versions prior to 21.2R3-S7; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S4; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3-S1; * 22.4 versions prior to 22.4R2-S1, 22.4R3; * 23.2 versions prior to 23.2R1-S1, 23.2R2.
+
+- [https://github.com/WhiteOwl-Pub/Juniper-PoC-CVE-2023-36845](https://github.com/WhiteOwl-Pub/Juniper-PoC-CVE-2023-36845) :  ![starts](https://img.shields.io/github/stars/WhiteOwl-Pub/Juniper-PoC-CVE-2023-36845.svg) ![forks](https://img.shields.io/github/forks/WhiteOwl-Pub/Juniper-PoC-CVE-2023-36845.svg)
+
+
+## CVE-2023-31546
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/spotlightishere/inputcontrol](https://github.com/spotlightishere/inputcontrol) :  ![starts](https://img.shields.io/github/stars/spotlightishere/inputcontrol.svg) ![forks](https://img.shields.io/github/forks/spotlightishere/inputcontrol.svg)
+- [https://github.com/ran9ege/CVE-2023-31546](https://github.com/ran9ege/CVE-2023-31546) :  ![starts](https://img.shields.io/github/stars/ran9ege/CVE-2023-31546.svg) ![forks](https://img.shields.io/github/forks/ran9ege/CVE-2023-31546.svg)
+
+
+## CVE-2023-28771
+ Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series firmware versions 4.60 through 5.35, and ATP series firmware versions 4.60 through 5.35, which could allow an unauthenticated attacker to execute some OS commands remotely by sending crafted packets to an affected device.
+
+- [https://github.com/WhiteOwl-Pub/Zyxel-PoC-CVE-2023-28771](https://github.com/WhiteOwl-Pub/Zyxel-PoC-CVE-2023-28771) :  ![starts](https://img.shields.io/github/stars/WhiteOwl-Pub/Zyxel-PoC-CVE-2023-28771.svg) ![forks](https://img.shields.io/github/forks/WhiteOwl-Pub/Zyxel-PoC-CVE-2023-28771.svg)
 
 
 ## CVE-2023-26035
  ZoneMinder is a free, open source Closed-circuit television software application for Linux which supports IP, USB and Analog cameras. Versions prior to 1.36.33 and 1.37.33 are vulnerable to Unauthenticated Remote Code Execution via Missing Authorization. There are no permissions check on the snapshot action, which expects an id to fetch an existing monitor but can be passed an object to create a new one instead. TriggerOn ends up calling shell_exec using the supplied Id. This issue is fixed in This issue is fixed in versions 1.36.33 and 1.37.33.
 
-- [https://github.com/rvizx/CVE-2023-26035](https://github.com/rvizx/CVE-2023-26035) :  ![starts](https://img.shields.io/github/stars/rvizx/CVE-2023-26035.svg) ![forks](https://img.shields.io/github/forks/rvizx/CVE-2023-26035.svg)
+- [https://github.com/m3m0o/zoneminder-snapshots-rce-poc](https://github.com/m3m0o/zoneminder-snapshots-rce-poc) :  ![starts](https://img.shields.io/github/stars/m3m0o/zoneminder-snapshots-rce-poc.svg) ![forks](https://img.shields.io/github/forks/m3m0o/zoneminder-snapshots-rce-poc.svg)
 
 
 ## CVE-2023-23752
  An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.
 
-- [https://github.com/hadrian3689/CVE-2023-23752_Joomla](https://github.com/hadrian3689/CVE-2023-23752_Joomla) :  ![starts](https://img.shields.io/github/stars/hadrian3689/CVE-2023-23752_Joomla.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/CVE-2023-23752_Joomla.svg)
+- [https://github.com/WhiteOwl-Pub/Joomla-PoC-CVE-2023-23752](https://github.com/WhiteOwl-Pub/Joomla-PoC-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/WhiteOwl-Pub/Joomla-PoC-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/WhiteOwl-Pub/Joomla-PoC-CVE-2023-23752.svg)
+- [https://github.com/C1ph3rX13/CVE-2023-23752](https://github.com/C1ph3rX13/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/C1ph3rX13/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/C1ph3rX13/CVE-2023-23752.svg)
 
 
-## CVE-2023-20909
- In multiple functions of RunningTasks.java, there is a possible privilege escalation due to a missing privilege check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-243130512
+## CVE-2023-23333
+ There is a command injection vulnerability in SolarView Compact through 6.00, attackers can execute commands by bypassing internal restrictions through downloader.php.
 
-- [https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20909](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20909) :  ![starts](https://img.shields.io/github/stars/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20909.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20909.svg)
-- [https://github.com/Trinadh465/platform_frameworks_base_AOSP10_r33_CVE-2023-20909](https://github.com/Trinadh465/platform_frameworks_base_AOSP10_r33_CVE-2023-20909) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_frameworks_base_AOSP10_r33_CVE-2023-20909.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_frameworks_base_AOSP10_r33_CVE-2023-20909.svg)
-
-
-## CVE-2023-20198
- Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.
-
-- [https://github.com/Vulnmachines/Cisco_CVE-2023-20198](https://github.com/Vulnmachines/Cisco_CVE-2023-20198) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/Cisco_CVE-2023-20198.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/Cisco_CVE-2023-20198.svg)
+- [https://github.com/WhiteOwl-Pub/SolarView-PoC-CVE-2023-23333](https://github.com/WhiteOwl-Pub/SolarView-PoC-CVE-2023-23333) :  ![starts](https://img.shields.io/github/stars/WhiteOwl-Pub/SolarView-PoC-CVE-2023-23333.svg) ![forks](https://img.shields.io/github/forks/WhiteOwl-Pub/SolarView-PoC-CVE-2023-23333.svg)
 
 
-## CVE-2022-2585
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2023-21144
+ In doInBackground of NotificationContentInflater.java, there is a possible temporary denial or service due to long running operations. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-252766417
 
-- [https://github.com/pirenga/2022-LPE-UAF](https://github.com/pirenga/2022-LPE-UAF) :  ![starts](https://img.shields.io/github/stars/pirenga/2022-LPE-UAF.svg) ![forks](https://img.shields.io/github/forks/pirenga/2022-LPE-UAF.svg)
-
-
-## CVE-2020-16947
- A remote code execution vulnerability exists in Microsoft Outlook software when the software fails to properly handle objects in memory, aka 'Microsoft Outlook Remote Code Execution Vulnerability'.
-
-- [https://github.com/Ken-Abruzzi/cve_2020_16947](https://github.com/Ken-Abruzzi/cve_2020_16947) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve_2020_16947.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve_2020_16947.svg)
+- [https://github.com/hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144](https://github.com/hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144) :  ![starts](https://img.shields.io/github/stars/hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144.svg)
+- [https://github.com/hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144_new](https://github.com/hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144_new) :  ![starts](https://img.shields.io/github/stars/hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144_new.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144_new.svg)
 
 
-## CVE-2020-2556
- Vulnerability in the Primavera P6 Enterprise Project Portfolio Management product of Oracle Construction and Engineering (component: Core). Supported versions that are affected are 16.2.0.0-16.2.19.0, 17.12.0.0-17.12.16.0, 18.8.0.0-18.8.16.0, 19.12.0.0 and 20.1.0.0. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Primavera P6 Enterprise Project Portfolio Management executes to compromise Primavera P6 Enterprise Project Portfolio Management. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Primavera P6 Enterprise Project Portfolio Management, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Primavera P6 Enterprise Project Portfolio Management accessible data as well as unauthorized read access to a subset of Primavera P6 Enterprise Project Portfolio Management accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Primavera P6 Enterprise Project Portfolio Management. CVSS 3.0 Base Score 7.3 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:L/UI:R/S:C/C:L/I:H/A:L).
+## CVE-2023-3306
+ A vulnerability was found in Ruijie RG-EW1200G EW_3.0(1)B11P204. It has been declared as critical. This vulnerability affects unknown code of the file app.09df2a9e44ab48766f5f.js of the component Admin Password Handler. The manipulation leads to improper access controls. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-231802 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
 
-- [https://github.com/5l1v3r1/CVE-2020-2556](https://github.com/5l1v3r1/CVE-2020-2556) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/CVE-2020-2556.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/CVE-2020-2556.svg)
-
-
-## CVE-2020-2021
- When Security Assertion Markup Language (SAML) authentication is enabled and the 'Validate Identity Provider Certificate' option is disabled (unchecked), improper verification of signatures in PAN-OS SAML authentication enables an unauthenticated network-based attacker to access protected resources. The attacker must have network access to the vulnerable server to exploit this vulnerability. This issue affects PAN-OS 9.1 versions earlier than PAN-OS 9.1.3; PAN-OS 9.0 versions earlier than PAN-OS 9.0.9; PAN-OS 8.1 versions earlier than PAN-OS 8.1.15, and all versions of PAN-OS 8.0 (EOL). This issue does not affect PAN-OS 7.1. This issue cannot be exploited if SAML is not used for authentication. This issue cannot be exploited if the 'Validate Identity Provider Certificate' option is enabled (checked) in the SAML Identity Provider Server Profile. Resources that can be protected by SAML-based single sign-on (SSO) authentication are: GlobalProtect Gateway, GlobalProtect Portal, GlobalProtect Clientless VPN, Authentication and Captive Portal, PAN-OS next-generation firewalls (PA-Series, VM-Series) and Panorama web interfaces, Prisma Access In the case of GlobalProtect Gateways, GlobalProtect Portal, Clientless VPN, Captive Portal, and Prisma Access, an unauthenticated attacker with network access to the affected servers can gain access to protected resources if allowed by configured authentication and Security policies. There is no impact on the integrity and availability of the gateway, portal or VPN server. An attacker cannot inspect or tamper with sessions of regular users. In the worst case, this is a critical severity vulnerability with a CVSS Base Score of 10.0 (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N). In the case of PAN-OS and Panorama web interfaces, this issue allows an unauthenticated attacker with network access to the PAN-OS or Panorama web interfaces to log in as an administrator and perform administrative actions. In the worst-case scenario, this is a critical severity vulnerability with a CVSS Base Score of 10.0 (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H). If the web interfaces are only accessible to a restricted management network, then the issue is lowered to a CVSS Base Score of 9.6 (CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H). Palo Alto Networks is not aware of any malicious attempts to exploit this vulnerability.
-
-- [https://github.com/mr-r3b00t/CVE-2020-2021](https://github.com/mr-r3b00t/CVE-2020-2021) :  ![starts](https://img.shields.io/github/stars/mr-r3b00t/CVE-2020-2021.svg) ![forks](https://img.shields.io/github/forks/mr-r3b00t/CVE-2020-2021.svg)
+- [https://github.com/thedarknessdied/CVE-2023-4169_CVE-2023-3306_CVE-2023-4415](https://github.com/thedarknessdied/CVE-2023-4169_CVE-2023-3306_CVE-2023-4415) :  ![starts](https://img.shields.io/github/stars/thedarknessdied/CVE-2023-4169_CVE-2023-3306_CVE-2023-4415.svg) ![forks](https://img.shields.io/github/forks/thedarknessdied/CVE-2023-4169_CVE-2023-3306_CVE-2023-4415.svg)
 
 
-## CVE-2020-1350
- A remote code execution vulnerability exists in Windows Domain Name System servers when they fail to properly handle requests, aka 'Windows DNS Server Remote Code Execution Vulnerability'.
+## CVE-2023-2982
+ The WordPress Social Login and Register (Discord, Google, Twitter, LinkedIn) plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 7.6.4. This is due to insufficient encryption on the user being supplied during a login validated through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they know the email address associated with that user. This was partially patched in version 7.6.4 and fully patched in version 7.6.5.
 
-- [https://github.com/corelight/SIGRed](https://github.com/corelight/SIGRed) :  ![starts](https://img.shields.io/github/stars/corelight/SIGRed.svg) ![forks](https://img.shields.io/github/forks/corelight/SIGRed.svg)
-
-
-## CVE-2020-0215
- In onCreate of ConfirmConnectActivity.java, there is a possible leak of Bluetooth information due to a permissions bypass. This could lead to local escalation of privilege that exposes a pairing Bluetooth MAC address with no additional execution privileges needed. User interaction is needed for exploitation. Product: Android Versions: Android-9 Android-10 Android-11 Android-8.0 Android-8.1 Android ID: A-140417248
-
-- [https://github.com/Trinadh465/packages_apps_Nfc_AOSP10_r33_CVE-2020-0215](https://github.com/Trinadh465/packages_apps_Nfc_AOSP10_r33_CVE-2020-0215) :  ![starts](https://img.shields.io/github/stars/Trinadh465/packages_apps_Nfc_AOSP10_r33_CVE-2020-0215.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/packages_apps_Nfc_AOSP10_r33_CVE-2020-0215.svg)
+- [https://github.com/H4K6/CVE-2023-2982-POC](https://github.com/H4K6/CVE-2023-2982-POC) :  ![starts](https://img.shields.io/github/stars/H4K6/CVE-2023-2982-POC.svg) ![forks](https://img.shields.io/github/forks/H4K6/CVE-2023-2982-POC.svg)
+- [https://github.com/LoaiEsam37/CVE-2023-2982](https://github.com/LoaiEsam37/CVE-2023-2982) :  ![starts](https://img.shields.io/github/stars/LoaiEsam37/CVE-2023-2982.svg) ![forks](https://img.shields.io/github/forks/LoaiEsam37/CVE-2023-2982.svg)
 
 
-## CVE-2019-3396
- The Widget Connector macro in Atlassian Confluence Server before version 6.6.12 (the fixed version for 6.6.x), from version 6.7.0 before 6.12.3 (the fixed version for 6.12.x), from version 6.13.0 before 6.13.3 (the fixed version for 6.13.x), and from version 6.14.0 before 6.14.2 (the fixed version for 6.14.x), allows remote attackers to achieve path traversal and remote code execution on a Confluence Server or Data Center instance via server-side template injection.
+## CVE-2022-21661
+ WordPress is a free and open-source content management system written in PHP and paired with a MariaDB database. Due to improper sanitization in WP_Query, there can be cases where SQL injection is possible through plugins or themes that use it in a certain way. This has been patched in WordPress version 5.8.3. Older affected versions are also fixed via security release, that go back till 3.7.37. We strongly recommend that you keep auto-updates enabled. There are no known workarounds for this vulnerability.
 
-- [https://github.com/0xNinjaCyclone/cve-2019-3396](https://github.com/0xNinjaCyclone/cve-2019-3396) :  ![starts](https://img.shields.io/github/stars/0xNinjaCyclone/cve-2019-3396.svg) ![forks](https://img.shields.io/github/forks/0xNinjaCyclone/cve-2019-3396.svg)
-
-
-## CVE-2019-1579
- Remote Code Execution in PAN-OS 7.1.18 and earlier, PAN-OS 8.0.11-h1 and earlier, and PAN-OS 8.1.2 and earlier with GlobalProtect Portal or GlobalProtect Gateway Interface enabled may allow an unauthenticated remote attacker to execute arbitrary code.
-
-- [https://github.com/securifera/CVE-2019-1579](https://github.com/securifera/CVE-2019-1579) :  ![starts](https://img.shields.io/github/stars/securifera/CVE-2019-1579.svg) ![forks](https://img.shields.io/github/forks/securifera/CVE-2019-1579.svg)
-- [https://github.com/Elsfa7-110/CVE-2019-1579](https://github.com/Elsfa7-110/CVE-2019-1579) :  ![starts](https://img.shields.io/github/stars/Elsfa7-110/CVE-2019-1579.svg) ![forks](https://img.shields.io/github/forks/Elsfa7-110/CVE-2019-1579.svg)
+- [https://github.com/guestzz/CVE-2022-21661](https://github.com/guestzz/CVE-2022-21661) :  ![starts](https://img.shields.io/github/stars/guestzz/CVE-2022-21661.svg) ![forks](https://img.shields.io/github/forks/guestzz/CVE-2022-21661.svg)
 
 
-## CVE-2019-1040
- A tampering vulnerability exists in Microsoft Windows when a man-in-the-middle attacker is able to successfully bypass the NTLM MIC (Message Integrity Check) protection, aka 'Windows NTLM Tampering Vulnerability'.
+## CVE-2021-40438
+ A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.
 
-- [https://github.com/Ridter/CVE-2019-1040](https://github.com/Ridter/CVE-2019-1040) :  ![starts](https://img.shields.io/github/stars/Ridter/CVE-2019-1040.svg) ![forks](https://img.shields.io/github/forks/Ridter/CVE-2019-1040.svg)
-
-
-## CVE-2017-7494
- Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to remote code execution vulnerability, allowing a malicious client to upload a shared library to a writable share, and then cause the server to load and execute it.
-
-- [https://github.com/NhutMinh2801/CVE_2017_7494](https://github.com/NhutMinh2801/CVE_2017_7494) :  ![starts](https://img.shields.io/github/stars/NhutMinh2801/CVE_2017_7494.svg) ![forks](https://img.shields.io/github/forks/NhutMinh2801/CVE_2017_7494.svg)
+- [https://github.com/sergiovks/CVE-2021-40438-Apache-2.4.48-SSRF-exploit](https://github.com/sergiovks/CVE-2021-40438-Apache-2.4.48-SSRF-exploit) :  ![starts](https://img.shields.io/github/stars/sergiovks/CVE-2021-40438-Apache-2.4.48-SSRF-exploit.svg) ![forks](https://img.shields.io/github/forks/sergiovks/CVE-2021-40438-Apache-2.4.48-SSRF-exploit.svg)
 
 
-## CVE-2009-4137
- The loadContentFromCookie function in core/Cookie.php in Piwik before 0.5 does not validate strings obtained from cookies before calling the unserialize function, which allows remote attackers to execute arbitrary code or upload arbitrary files via vectors related to the __destruct function in the Piwik_Config class; php://filter URIs; the __destruct functions in Zend Framework, as demonstrated by the Zend_Log destructor; the shutdown functions in Zend Framework, as demonstrated by the Zend_Log_Writer_Mail class; the render function in the Piwik_View class; Smarty templates; and the _eval function in Smarty.
+## CVE-2021-4191
+ An issue has been discovered in GitLab CE/EE affecting versions 13.0 to 14.6.5, 14.7 to 14.7.4, and 14.8 to 14.8.2. Private GitLab instances with restricted sign-ups may be vulnerable to user enumeration to unauthenticated users through the GraphQL API.
 
-- [https://github.com/Alexeyan/CVE-2009-4137](https://github.com/Alexeyan/CVE-2009-4137) :  ![starts](https://img.shields.io/github/stars/Alexeyan/CVE-2009-4137.svg) ![forks](https://img.shields.io/github/forks/Alexeyan/CVE-2009-4137.svg)
+- [https://github.com/K3ysTr0K3R/CVE-2021-4191-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-4191-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2021-4191-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2021-4191-EXPLOIT.svg)
+
+
+## CVE-2021-4104
+ JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when the attacker has write access to the Log4j configuration. The attacker can provide TopicBindingName and TopicConnectionFactoryBindingName configurations causing JMSAppender to perform JNDI requests that result in remote code execution in a similar fashion to CVE-2021-44228. Note this issue only affects Log4j 1.2 when specifically configured to use JMSAppender, which is not the default. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions.
+
+- [https://github.com/logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner) :  ![starts](https://img.shields.io/github/stars/logpresso/CVE-2021-44228-Scanner.svg) ![forks](https://img.shields.io/github/forks/logpresso/CVE-2021-44228-Scanner.svg)
+- [https://github.com/open-AIMS/log4j](https://github.com/open-AIMS/log4j) :  ![starts](https://img.shields.io/github/stars/open-AIMS/log4j.svg) ![forks](https://img.shields.io/github/forks/open-AIMS/log4j.svg)
+
+
+## CVE-2020-25668
+ A flaw was found in Linux Kernel because access to the global variable fg_console is not properly synchronized leading to a use after free in con_font_op.
+
+- [https://github.com/hshivhare67/Kernel_4.1.15_CVE-2020-25668](https://github.com/hshivhare67/Kernel_4.1.15_CVE-2020-25668) :  ![starts](https://img.shields.io/github/stars/hshivhare67/Kernel_4.1.15_CVE-2020-25668.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/Kernel_4.1.15_CVE-2020-25668.svg)
+
+
+## CVE-2020-25068
+ Setelsa Conacwin v3.7.1.2 is vulnerable to a local file inclusion vulnerability. This vulnerability allows a remote unauthenticated attacker to read internal files on the server via an http:IP:PORT/../../path/file_to_disclose Directory Traversal URI. NOTE: The manufacturer indicated that the affected version does not exist. Furthermore, they indicated that they detected this problem in an internal audit more than 3 years ago and fixed it in 2017.
+
+- [https://github.com/bryanroma/CVE-2020-25068](https://github.com/bryanroma/CVE-2020-25068) :  ![starts](https://img.shields.io/github/stars/bryanroma/CVE-2020-25068.svg) ![forks](https://img.shields.io/github/forks/bryanroma/CVE-2020-25068.svg)
+
+
+## CVE-2020-9375
+ TP-Link Archer C50 V3 devices before Build 200318 Rel. 62209 allows remote attackers to cause a denial of service via a crafted HTTP Header containing an unexpected Referer field.
+
+- [https://github.com/thewhiteh4t/cve-2020-9375](https://github.com/thewhiteh4t/cve-2020-9375) :  ![starts](https://img.shields.io/github/stars/thewhiteh4t/cve-2020-9375.svg) ![forks](https://img.shields.io/github/forks/thewhiteh4t/cve-2020-9375.svg)
+
+
+## CVE-2020-1337
+ An elevation of privilege vulnerability exists when the Windows Print Spooler service improperly allows arbitrary writing to the file system, aka 'Windows Print Spooler Elevation of Privilege Vulnerability'.
+
+- [https://github.com/Al1ex/WindowsElevation](https://github.com/Al1ex/WindowsElevation) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
+
+
+## CVE-2020-1206
+ An information disclosure vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Information Disclosure Vulnerability'.
+
+- [https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit) :  ![starts](https://img.shields.io/github/stars/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit.svg) ![forks](https://img.shields.io/github/forks/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit.svg)
+
+
+## CVE-2019-15107
+ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_change.cgi contains a command injection vulnerability.
+
+- [https://github.com/0x4r2/Webmin-CVE-2019-15107](https://github.com/0x4r2/Webmin-CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/0x4r2/Webmin-CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/0x4r2/Webmin-CVE-2019-15107.svg)
+
+
+## CVE-2019-12260
+ Wind River VxWorks 6.9 and vx7 has a Buffer Overflow in the TCP component (issue 2 of 4). This is an IPNET security vulnerability: TCP Urgent Pointer state confusion caused by a malformed TCP AO option.
+
+- [https://github.com/sud0woodo/Urgent11-Suricata-LUA-scripts](https://github.com/sud0woodo/Urgent11-Suricata-LUA-scripts) :  ![starts](https://img.shields.io/github/stars/sud0woodo/Urgent11-Suricata-LUA-scripts.svg) ![forks](https://img.shields.io/github/forks/sud0woodo/Urgent11-Suricata-LUA-scripts.svg)
+
+
+## CVE-2018-6574
+ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10rc2 allow &quot;go get&quot; remote command execution during source code build, by leveraging the gcc or clang plugin feature, because -fplugin= and -plugin= arguments were not blocked.
+
+- [https://github.com/zerbaliy3v/cve-2018-6574-exploit](https://github.com/zerbaliy3v/cve-2018-6574-exploit) :  ![starts](https://img.shields.io/github/stars/zerbaliy3v/cve-2018-6574-exploit.svg) ![forks](https://img.shields.io/github/forks/zerbaliy3v/cve-2018-6574-exploit.svg)
+
+
+## CVE-2014-6271
+ GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
+
+- [https://github.com/MY7H404/CVE-2014-6271-Shellshock](https://github.com/MY7H404/CVE-2014-6271-Shellshock) :  ![starts](https://img.shields.io/github/stars/MY7H404/CVE-2014-6271-Shellshock.svg) ![forks](https://img.shields.io/github/forks/MY7H404/CVE-2014-6271-Shellshock.svg)
 
