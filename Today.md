@@ -1,102 +1,85 @@
-# Update 2023-12-17
-## CVE-2023-50643
+# Update 2023-12-18
+## CVE-2023-50132
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/V3x0r/CVE-2023-50643](https://github.com/V3x0r/CVE-2023-50643) :  ![starts](https://img.shields.io/github/stars/V3x0r/CVE-2023-50643.svg) ![forks](https://img.shields.io/github/forks/V3x0r/CVE-2023-50643.svg)
+- [https://github.com/sajaljat/CVE-2023-50132](https://github.com/sajaljat/CVE-2023-50132) :  ![starts](https://img.shields.io/github/stars/sajaljat/CVE-2023-50132.svg) ![forks](https://img.shields.io/github/forks/sajaljat/CVE-2023-50132.svg)
 
 
-## CVE-2023-50164
- An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution. Users are recommended to upgrade to versions Struts 2.5.33 or Struts 6.3.0.2 or greater to fix this issue.
-
-- [https://github.com/bcdannyboy/CVE-2023-50164](https://github.com/bcdannyboy/CVE-2023-50164) :  ![starts](https://img.shields.io/github/stars/bcdannyboy/CVE-2023-50164.svg) ![forks](https://img.shields.io/github/forks/bcdannyboy/CVE-2023-50164.svg)
-
-
-## CVE-2023-50070
+## CVE-2023-50131
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/geraldoalcantara/CVE-2023-50070](https://github.com/geraldoalcantara/CVE-2023-50070) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-50070.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-50070.svg)
+- [https://github.com/sajaljat/CVE-2023-50131](https://github.com/sajaljat/CVE-2023-50131) :  ![starts](https://img.shields.io/github/stars/sajaljat/CVE-2023-50131.svg) ![forks](https://img.shields.io/github/forks/sajaljat/CVE-2023-50131.svg)
 
 
-## CVE-2023-45184
- IBM i Access Client Solutions 1.1.2 through 1.1.4 and 1.1.4.3 through 1.1.9.3 could allow an attacker to obtain a decryption key due to improper authority checks. IBM X-Force ID: 268270.
+## CVE-2023-50071
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/afine-com/CVE-2023-45184](https://github.com/afine-com/CVE-2023-45184) :  ![starts](https://img.shields.io/github/stars/afine-com/CVE-2023-45184.svg) ![forks](https://img.shields.io/github/forks/afine-com/CVE-2023-45184.svg)
-
-
-## CVE-2023-32315
- Openfire is an XMPP server licensed under the Open Source Apache License. Openfire's administrative console, a web-based application, was found to be vulnerable to a path traversal attack via the setup environment. This permitted an unauthenticated user to use the unauthenticated Openfire Setup Environment in an already configured Openfire environment to access restricted pages in the Openfire Admin Console reserved for administrative users. This vulnerability affects all versions of Openfire that have been released since April 2015, starting with version 3.10.0. The problem has been patched in Openfire release 4.7.5 and 4.6.8, and further improvements will be included in the yet-to-be released first version on the 4.8 branch (which is expected to be version 4.8.0). Users are advised to upgrade. If an Openfire upgrade isn&#8217;t available for a specific release, or isn&#8217;t quickly actionable, users may see the linked github advisory (GHSA-gw42-f939-fhvm) for mitigation advice.
-
-- [https://github.com/K3ysTr0K3R/CVE-2023-32315-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-32315-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2023-32315-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2023-32315-EXPLOIT.svg)
+- [https://github.com/geraldoalcantara/CVE-2023-50071](https://github.com/geraldoalcantara/CVE-2023-50071) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-50071.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-50071.svg)
 
 
-## CVE-2022-44830
- Sourcecodester Event Registration App v1.0 was discovered to contain multiple CSV injection vulnerabilities via the First Name, Contact and Remarks fields. These vulnerabilities allow attackers to execute arbitrary code via a crafted excel file.
+## CVE-2023-46604
+ The Java OpenWire protocol marshaller is vulnerable to Remote Code Execution. This vulnerability may allow a remote attacker with network access to either a Java-based OpenWire broker or client to run arbitrary shell commands by manipulating serialized class types in the OpenWire protocol to cause either the client or the broker (respectively) to instantiate any class on the classpath. Users are recommended to upgrade both brokers and clients to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3 which fixes this issue.
 
-- [https://github.com/RashidKhanPathan/CVE-2022-44830](https://github.com/RashidKhanPathan/CVE-2022-44830) :  ![starts](https://img.shields.io/github/stars/RashidKhanPathan/CVE-2022-44830.svg) ![forks](https://img.shields.io/github/forks/RashidKhanPathan/CVE-2022-44830.svg)
-
-
-## CVE-2022-25061
- TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain a command injection vulnerability via the component oal_setIp6DefaultRoute.
-
-- [https://github.com/exploitwritter/CVE-2022-25061](https://github.com/exploitwritter/CVE-2022-25061) :  ![starts](https://img.shields.io/github/stars/exploitwritter/CVE-2022-25061.svg) ![forks](https://img.shields.io/github/forks/exploitwritter/CVE-2022-25061.svg)
+- [https://github.com/dcm2406/CVE-2023-46604](https://github.com/dcm2406/CVE-2023-46604) :  ![starts](https://img.shields.io/github/stars/dcm2406/CVE-2023-46604.svg) ![forks](https://img.shields.io/github/forks/dcm2406/CVE-2023-46604.svg)
+- [https://github.com/dcm2406/CVELab](https://github.com/dcm2406/CVELab) :  ![starts](https://img.shields.io/github/stars/dcm2406/CVELab.svg) ![forks](https://img.shields.io/github/forks/dcm2406/CVELab.svg)
 
 
-## CVE-2022-24716
- Icinga Web 2 is an open source monitoring web interface, framework and command-line interface. Unauthenticated users can leak the contents of files of the local system accessible to the web-server user, including `icingaweb2` configuration files with database credentials. This issue has been resolved in versions 2.9.6 and 2.10 of Icinga Web 2. Database credentials should be rotated.
+## CVE-2023-4966
+ Sensitive information disclosure in NetScaler ADC and NetScaler Gateway when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server.
 
-- [https://github.com/joaoviictorti/CVE-2022-24716](https://github.com/joaoviictorti/CVE-2022-24716) :  ![starts](https://img.shields.io/github/stars/joaoviictorti/CVE-2022-24716.svg) ![forks](https://img.shields.io/github/forks/joaoviictorti/CVE-2022-24716.svg)
-
-
-## CVE-2022-3949
- A vulnerability, which was classified as problematic, has been found in Sourcecodester Simple Cashiering System. This issue affects some unknown processing of the component User Account Handler. The manipulation of the argument fullname leads to cross site scripting. The attack may be initiated remotely. The associated identifier of this vulnerability is VDB-213455.
-
-- [https://github.com/maikroservice/CVE-2022-3949](https://github.com/maikroservice/CVE-2022-3949) :  ![starts](https://img.shields.io/github/stars/maikroservice/CVE-2022-3949.svg) ![forks](https://img.shields.io/github/forks/maikroservice/CVE-2022-3949.svg)
+- [https://github.com/morganwdavis/overread](https://github.com/morganwdavis/overread) :  ![starts](https://img.shields.io/github/stars/morganwdavis/overread.svg) ![forks](https://img.shields.io/github/forks/morganwdavis/overread.svg)
 
 
-## CVE-2021-22204
- Improper neutralization of user data in the DjVu file format in ExifTool versions 7.44 and up allows arbitrary code execution when parsing the malicious image
+## CVE-2023-2255
+ Improper access control in editor components of The Document Foundation LibreOffice allowed an attacker to craft a document that would cause external links to be loaded without prompt. In the affected versions of LibreOffice documents that used &quot;floating frames&quot; linked to external files, would load the contents of those frames without prompting the user for permission to do so. This was inconsistent with the treatment of other linked content in LibreOffice. This issue affects: The Document Foundation LibreOffice 7.4 versions prior to 7.4.7; 7.5 versions prior to 7.5.3.
 
-- [https://github.com/convisolabs/CVE-2021-22204-exiftool](https://github.com/convisolabs/CVE-2021-22204-exiftool) :  ![starts](https://img.shields.io/github/stars/convisolabs/CVE-2021-22204-exiftool.svg) ![forks](https://img.shields.io/github/forks/convisolabs/CVE-2021-22204-exiftool.svg)
-
-
-## CVE-2021-4191
- An issue has been discovered in GitLab CE/EE affecting versions 13.0 to 14.6.5, 14.7 to 14.7.4, and 14.8 to 14.8.2. Private GitLab instances with restricted sign-ups may be vulnerable to user enumeration to unauthenticated users through the GraphQL API.
-
-- [https://github.com/K3ysTr0K3R/CVE-2021-4191-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-4191-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2021-4191-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2021-4191-EXPLOIT.svg)
+- [https://github.com/elweth-sec/CVE-2023-2255](https://github.com/elweth-sec/CVE-2023-2255) :  ![starts](https://img.shields.io/github/stars/elweth-sec/CVE-2023-2255.svg) ![forks](https://img.shields.io/github/forks/elweth-sec/CVE-2023-2255.svg)
 
 
-## CVE-2020-1956
- Apache Kylin 2.3.0, and releases up to 2.6.5 and 3.0.1 has some restful apis which will concatenate os command with the user input string, a user is likely to be able to execute any os command without any protection or validation.
+## CVE-2022-3518
+ A vulnerability classified as problematic has been found in SourceCodester Sanitization Management System 1.0. Affected is an unknown function of the component User Creation Handler. The manipulation of the argument First Name/Middle Name/Last Name leads to cross site scripting. It is possible to launch the attack remotely. VDB-211014 is the identifier assigned to this vulnerability.
 
-- [https://github.com/b510/CVE-2020-1956](https://github.com/b510/CVE-2020-1956) :  ![starts](https://img.shields.io/github/stars/b510/CVE-2020-1956.svg) ![forks](https://img.shields.io/github/forks/b510/CVE-2020-1956.svg)
-
-
-## CVE-2020-1313
- An elevation of privilege vulnerability exists when the Windows Update Orchestrator Service improperly handles file operations, aka 'Windows Update Orchestrator Service Elevation of Privilege Vulnerability'.
-
-- [https://github.com/irsl/CVE-2020-1313](https://github.com/irsl/CVE-2020-1313) :  ![starts](https://img.shields.io/github/stars/irsl/CVE-2020-1313.svg) ![forks](https://img.shields.io/github/forks/irsl/CVE-2020-1313.svg)
+- [https://github.com/lohith19/CVE-2022-3518](https://github.com/lohith19/CVE-2022-3518) :  ![starts](https://img.shields.io/github/stars/lohith19/CVE-2022-3518.svg) ![forks](https://img.shields.io/github/forks/lohith19/CVE-2022-3518.svg)
 
 
-## CVE-2019-12272
- In OpenWrt LuCI through 0.10, the endpoints admin/status/realtime/bandwidth_status and admin/status/realtime/wireless_status of the web application are affected by a command injection vulnerability.
+## CVE-2021-36799
+ ** UNSUPPORTED WHEN ASSIGNED ** KNX ETS5 through 5.7.6 uses the hard-coded password ETS5Password, with a salt value of Ivan Medvedev, allowing local users to read project information. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
 
-- [https://github.com/nevercodecorrect/lede-17.01.3](https://github.com/nevercodecorrect/lede-17.01.3) :  ![starts](https://img.shields.io/github/stars/nevercodecorrect/lede-17.01.3.svg) ![forks](https://img.shields.io/github/forks/nevercodecorrect/lede-17.01.3.svg)
-
-
-## CVE-2018-1273
- Spring Data Commons, versions prior to 1.13 to 1.13.10, 2.0 to 2.0.5, and older unsupported versions, contain a property binder vulnerability caused by improper neutralization of special elements. An unauthenticated remote malicious user (or attacker) can supply specially crafted request parameters against Spring Data REST backed HTTP resources or using Spring Data's projection-based request payload binding hat can lead to a remote code execution attack.
-
-- [https://github.com/wearearima/poc-cve-2018-1273](https://github.com/wearearima/poc-cve-2018-1273) :  ![starts](https://img.shields.io/github/stars/wearearima/poc-cve-2018-1273.svg) ![forks](https://img.shields.io/github/forks/wearearima/poc-cve-2018-1273.svg)
+- [https://github.com/robertguetzkow/ets5-password-recovery](https://github.com/robertguetzkow/ets5-password-recovery) :  ![starts](https://img.shields.io/github/stars/robertguetzkow/ets5-password-recovery.svg) ![forks](https://img.shields.io/github/forks/robertguetzkow/ets5-password-recovery.svg)
 
 
-## CVE-2018-1123
- procps-ng before version 3.3.15 is vulnerable to a denial of service in ps via mmap buffer overflow. Inbuilt protection in ps maps a guard page at the end of the overflowed buffer, ensuring that the impact of this flaw is limited to a crash (temporary denial of service).
+## CVE-2020-12717
+ The COVIDSafe (Australia) app 1.0 and 1.1 for iOS allows a remote attacker to crash the app, and consequently interfere with COVID-19 contact tracing, via a Bluetooth advertisement containing manufacturer data that is too short. This occurs because of an erroneous OpenTrace manuData.subdata call. The ABTraceTogether (Alberta), ProteGO (Poland), and TraceTogether (Singapore) apps were also affected.
 
-- [https://github.com/aravinddathd/CVE-2018-1123](https://github.com/aravinddathd/CVE-2018-1123) :  ![starts](https://img.shields.io/github/stars/aravinddathd/CVE-2018-1123.svg) ![forks](https://img.shields.io/github/forks/aravinddathd/CVE-2018-1123.svg)
+- [https://github.com/wabzqem/covidsafe-CVE-2020-12717-exploit](https://github.com/wabzqem/covidsafe-CVE-2020-12717-exploit) :  ![starts](https://img.shields.io/github/stars/wabzqem/covidsafe-CVE-2020-12717-exploit.svg) ![forks](https://img.shields.io/github/forks/wabzqem/covidsafe-CVE-2020-12717-exploit.svg)
 
 
-## CVE-2012-2593
- Cross-site scripting (XSS) vulnerability in the administrative interface in Atmail Webmail Server 6.4 allows remote attackers to inject arbitrary web script or HTML via the Date field of an email.
+## CVE-2020-9496
+ XML-RPC request are vulnerable to unsafe deserialization and Cross-Site Scripting issues in Apache OFBiz 17.12.03
 
-- [https://github.com/AndrewTrube/CVE-2012-2593](https://github.com/AndrewTrube/CVE-2012-2593) :  ![starts](https://img.shields.io/github/stars/AndrewTrube/CVE-2012-2593.svg) ![forks](https://img.shields.io/github/forks/AndrewTrube/CVE-2012-2593.svg)
+- [https://github.com/Ly0nt4r/CVE-2020-9496](https://github.com/Ly0nt4r/CVE-2020-9496) :  ![starts](https://img.shields.io/github/stars/Ly0nt4r/CVE-2020-9496.svg) ![forks](https://img.shields.io/github/forks/Ly0nt4r/CVE-2020-9496.svg)
+
+
+## CVE-2019-1388
+ An elevation of privilege vulnerability exists in the Windows Certificate Dialog when it does not properly enforce user privileges, aka 'Windows Certificate Dialog Elevation of Privilege Vulnerability'.
+
+- [https://github.com/nobodyatall648/CVE-2019-1388](https://github.com/nobodyatall648/CVE-2019-1388) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2019-1388.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2019-1388.svg)
+
+
+## CVE-2018-19278
+ Buffer overflow in DNS SRV and NAPTR lookups in Digium Asterisk 15.x before 15.6.2 and 16.x before 16.0.1 allows remote attackers to crash Asterisk via a specially crafted DNS SRV or NAPTR response, because a buffer size is supposed to match an expanded length but actually matches a compressed length.
+
+- [https://github.com/Rodrigo-D/astDoS](https://github.com/Rodrigo-D/astDoS) :  ![starts](https://img.shields.io/github/stars/Rodrigo-D/astDoS.svg) ![forks](https://img.shields.io/github/forks/Rodrigo-D/astDoS.svg)
+
+
+## CVE-2017-8570
+ Microsoft Office allows a remote code execution vulnerability due to the way that it handles objects in memory, aka &quot;Microsoft Office Remote Code Execution Vulnerability&quot;. This CVE ID is unique from CVE-2017-0243.
+
+- [https://github.com/erfze/CVE-2017-8570](https://github.com/erfze/CVE-2017-8570) :  ![starts](https://img.shields.io/github/stars/erfze/CVE-2017-8570.svg) ![forks](https://img.shields.io/github/forks/erfze/CVE-2017-8570.svg)
+
+
+## CVE-2001-1473
+ The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
+
+- [https://github.com/0xget/cve-2001-1473](https://github.com/0xget/cve-2001-1473) :  ![starts](https://img.shields.io/github/stars/0xget/cve-2001-1473.svg) ![forks](https://img.shields.io/github/forks/0xget/cve-2001-1473.svg)
 
