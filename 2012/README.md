@@ -227,6 +227,8 @@
 
 - [https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Oracle-mysql-CVE-2012-2122.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Oracle-mysql-CVE-2012-2122.svg)
 
+- [https://github.com/zhangkaibin0921/CVE-2012-2122](https://github.com/zhangkaibin0921/CVE-2012-2122) :  ![starts](https://img.shields.io/github/stars/zhangkaibin0921/CVE-2012-2122.svg) ![forks](https://img.shields.io/github/forks/zhangkaibin0921/CVE-2012-2122.svg)
+
 ## CVE-2012-2012
  HP System Management Homepage (SMH) before 7.1.1 does not have an off autocomplete attribute for unspecified form fields, which makes it easier for remote attackers to obtain access by leveraging an unattended workstation.
 
@@ -335,3 +337,10 @@
 
 
 - [https://github.com/k0keoyo/CVE-2012-0003_eXP](https://github.com/k0keoyo/CVE-2012-0003_eXP) :  ![starts](https://img.shields.io/github/stars/k0keoyo/CVE-2012-0003_eXP.svg) ![forks](https://img.shields.io/github/forks/k0keoyo/CVE-2012-0003_eXP.svg)
+
+## CVE-2012-0002
+ The Remote Desktop Protocol (RDP) implementation in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly process packets in memory, which allows remote attackers to execute arbitrary code by sending crafted RDP packets triggering access to an object that (1) was not properly initialized or (2) is deleted, aka &quot;Remote Desktop Protocol Vulnerability.&quot;
+
+
+
+- [https://github.com/zhangkaibin0921/MS12-020-CVE-2012-0002](https://github.com/zhangkaibin0921/MS12-020-CVE-2012-0002) :  ![starts](https://img.shields.io/github/stars/zhangkaibin0921/MS12-020-CVE-2012-0002.svg) ![forks](https://img.shields.io/github/forks/zhangkaibin0921/MS12-020-CVE-2012-0002.svg)
