@@ -189,7 +189,7 @@
 
 
 
-- [https://github.com/crypticdante/CVE-2011-1249](https://github.com/crypticdante/CVE-2011-1249) :  ![starts](https://img.shields.io/github/stars/crypticdante/CVE-2011-1249.svg) ![forks](https://img.shields.io/github/forks/crypticdante/CVE-2011-1249.svg)
+- [https://github.com/H3xL00m/CVE-2011-1249](https://github.com/H3xL00m/CVE-2011-1249) :  ![starts](https://img.shields.io/github/stars/H3xL00m/CVE-2011-1249.svg) ![forks](https://img.shields.io/github/forks/H3xL00m/CVE-2011-1249.svg)
 
 - [https://github.com/Madusanka99/OHTS](https://github.com/Madusanka99/OHTS) :  ![starts](https://img.shields.io/github/stars/Madusanka99/OHTS.svg) ![forks](https://img.shields.io/github/forks/Madusanka99/OHTS.svg)
 
