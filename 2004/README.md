@@ -7,7 +7,7 @@
 
 - [https://github.com/angelpimentell/distcc_cve_2004-2687_exploit](https://github.com/angelpimentell/distcc_cve_2004-2687_exploit) :  ![starts](https://img.shields.io/github/stars/angelpimentell/distcc_cve_2004-2687_exploit.svg) ![forks](https://img.shields.io/github/forks/angelpimentell/distcc_cve_2004-2687_exploit.svg)
 
-- [https://github.com/crypticdante/distccd_rce_CVE-2004-2687](https://github.com/crypticdante/distccd_rce_CVE-2004-2687) :  ![starts](https://img.shields.io/github/stars/crypticdante/distccd_rce_CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/crypticdante/distccd_rce_CVE-2004-2687.svg)
+- [https://github.com/H3xL00m/distccd_rce_CVE-2004-2687](https://github.com/H3xL00m/distccd_rce_CVE-2004-2687) :  ![starts](https://img.shields.io/github/stars/H3xL00m/distccd_rce_CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/H3xL00m/distccd_rce_CVE-2004-2687.svg)
 
 - [https://github.com/ss0wl/CVE-2004-2687_distcc_v1](https://github.com/ss0wl/CVE-2004-2687_distcc_v1) :  ![starts](https://img.shields.io/github/stars/ss0wl/CVE-2004-2687_distcc_v1.svg) ![forks](https://img.shields.io/github/forks/ss0wl/CVE-2004-2687_distcc_v1.svg)
 
