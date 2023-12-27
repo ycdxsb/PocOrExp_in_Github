@@ -262,6 +262,13 @@
 
 - [https://github.com/mephi42/CVE-2016-8863](https://github.com/mephi42/CVE-2016-8863) :  ![starts](https://img.shields.io/github/stars/mephi42/CVE-2016-8863.svg) ![forks](https://img.shields.io/github/forks/mephi42/CVE-2016-8863.svg)
 
+## CVE-2016-8858
+ ** DISPUTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;
+
+
+
+- [https://github.com/dag-erling/kexkill](https://github.com/dag-erling/kexkill) :  ![starts](https://img.shields.io/github/stars/dag-erling/kexkill.svg) ![forks](https://img.shields.io/github/forks/dag-erling/kexkill.svg)
+
 ## CVE-2016-8776
  Huawei P9 phones with software EVA-AL10C00,EVA-CL10C00,EVA-DL10C00,EVA-TL10C00 and P9 Lite phones with software VNS-L21C185 allow attackers to bypass the factory reset protection (FRP) to enter some functional modules without authorization and perform operations to update the Google account.
 
@@ -535,9 +542,9 @@
 
 - [https://github.com/KosukeShimofuji/CVE-2016-6662](https://github.com/KosukeShimofuji/CVE-2016-6662) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-6662.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-6662.svg)
 
-- [https://github.com/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch](https://github.com/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch) :  ![starts](https://img.shields.io/github/stars/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch.svg) ![forks](https://img.shields.io/github/forks/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch.svg)
-
 - [https://github.com/boompig/cve-2016-6662](https://github.com/boompig/cve-2016-6662) :  ![starts](https://img.shields.io/github/stars/boompig/cve-2016-6662.svg) ![forks](https://img.shields.io/github/forks/boompig/cve-2016-6662.svg)
+
+- [https://github.com/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch](https://github.com/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch) :  ![starts](https://img.shields.io/github/stars/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch.svg) ![forks](https://img.shields.io/github/forks/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch.svg)
 
 ## CVE-2016-6584
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
