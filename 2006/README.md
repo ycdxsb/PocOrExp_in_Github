@@ -63,6 +63,13 @@
 
 - [https://github.com/gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin) :  ![starts](https://img.shields.io/github/stars/gb21oc/ExploitWebmin.svg) ![forks](https://img.shields.io/github/forks/gb21oc/ExploitWebmin.svg)
 
+## CVE-2006-2842
+ ** DISP
+
+
+
+- [https://github.com/karthi-the-hacker/CVE-2006-2842](https://github.com/karthi-the-hacker/CVE-2006-2842) :  ![starts](https://img.shields.io/github/stars/karthi-the-hacker/CVE-2006-2842.svg) ![forks](https://img.shields.io/github/forks/karthi-the-hacker/CVE-2006-2842.svg)
+
 ## CVE-2006-1236
  Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
 
