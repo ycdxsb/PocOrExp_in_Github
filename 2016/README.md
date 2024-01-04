@@ -151,21 +151,21 @@
 
 - [https://github.com/chipironcin/CVE-2016-10033](https://github.com/chipironcin/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/chipironcin/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/chipironcin/CVE-2016-10033.svg)
 
-- [https://github.com/pedro823/cve-2016-10033-45](https://github.com/pedro823/cve-2016-10033-45) :  ![starts](https://img.shields.io/github/stars/pedro823/cve-2016-10033-45.svg) ![forks](https://img.shields.io/github/forks/pedro823/cve-2016-10033-45.svg)
-
 - [https://github.com/awidardi/opsxcq-cve-2016-10033](https://github.com/awidardi/opsxcq-cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/awidardi/opsxcq-cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/awidardi/opsxcq-cve-2016-10033.svg)
 
 - [https://github.com/j4k0m/CVE-2016-10033](https://github.com/j4k0m/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/j4k0m/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/j4k0m/CVE-2016-10033.svg)
+
+- [https://github.com/pedro823/cve-2016-10033-45](https://github.com/pedro823/cve-2016-10033-45) :  ![starts](https://img.shields.io/github/stars/pedro823/cve-2016-10033-45.svg) ![forks](https://img.shields.io/github/forks/pedro823/cve-2016-10033-45.svg)
 
 - [https://github.com/cved-sources/cve-2016-10033](https://github.com/cved-sources/cve-2016-10033) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2016-10033.svg)
 
 - [https://github.com/eb613819/CTF_CVE-2016-10033](https://github.com/eb613819/CTF_CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/eb613819/CTF_CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/eb613819/CTF_CVE-2016-10033.svg)
 
-- [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
-
 - [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
 
 - [https://github.com/CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/CAOlvchonger/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/CAOlvchonger/CVE-2016-10033.svg)
+
+- [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
 
 - [https://github.com/zeeshanbhattined/exploit-CVE-2016-10033](https://github.com/zeeshanbhattined/exploit-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/zeeshanbhattined/exploit-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/zeeshanbhattined/exploit-CVE-2016-10033.svg)
 
@@ -780,11 +780,11 @@
 
 - [https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg)
 
-- [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
+- [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
 
 - [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
 
-- [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
+- [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
 
 - [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
 
@@ -822,9 +822,9 @@
 
 - [https://github.com/istenrot/centos-dirty-cow-ansible](https://github.com/istenrot/centos-dirty-cow-ansible) :  ![starts](https://img.shields.io/github/stars/istenrot/centos-dirty-cow-ansible.svg) ![forks](https://img.shields.io/github/forks/istenrot/centos-dirty-cow-ansible.svg)
 
-- [https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg)
-
 - [https://github.com/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195](https://github.com/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195) :  ![starts](https://img.shields.io/github/stars/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195.svg) ![forks](https://img.shields.io/github/forks/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195.svg)
+
+- [https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg)
 
 ## CVE-2016-5063
  The RSCD agent in BMC Server Automation before 8.6 SP1 Patch 2 and 8.7 before Patch 3 on Windows might allow remote attackers to bypass authorization checks and make an RPC call via unspecified vectors.
