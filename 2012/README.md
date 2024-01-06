@@ -223,6 +223,8 @@
 
 
 
+- [https://github.com/Avinza/CVE-2012-2122-scanner](https://github.com/Avinza/CVE-2012-2122-scanner) :  ![starts](https://img.shields.io/github/stars/Avinza/CVE-2012-2122-scanner.svg) ![forks](https://img.shields.io/github/forks/Avinza/CVE-2012-2122-scanner.svg)
+
 - [https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Oracle-mysql-CVE-2012-2122.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Oracle-mysql-CVE-2012-2122.svg)
 
 - [https://github.com/zhangkaibin0921/CVE-2012-2122](https://github.com/zhangkaibin0921/CVE-2012-2122) :  ![starts](https://img.shields.io/github/stars/zhangkaibin0921/CVE-2012-2122.svg) ![forks](https://img.shields.io/github/forks/zhangkaibin0921/CVE-2012-2122.svg)
