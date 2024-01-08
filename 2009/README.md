@@ -174,6 +174,13 @@
 
 - [https://github.com/Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax) :  ![starts](https://img.shields.io/github/stars/Fullmetal5/str2hax.svg) ![forks](https://img.shields.io/github/forks/Fullmetal5/str2hax.svg)
 
+## CVE-2009-0473
+ Open redirect vulnerability in the web interface in the Rockwell Automation ControlLogix 1756-ENBT/A EtherNet/IP Bridge Module allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.
+
+
+
+- [https://github.com/akbarq/CVE-2009-0473-check](https://github.com/akbarq/CVE-2009-0473-check) :  ![starts](https://img.shields.io/github/stars/akbarq/CVE-2009-0473-check.svg) ![forks](https://img.shields.io/github/forks/akbarq/CVE-2009-0473-check.svg)
+
 ## CVE-2009-0229
  The Windows Printing Service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP2, Vista Gold, SP1, and SP2, and Server 2008 SP2 allows local users to read arbitrary files via a crafted separator page, aka &quot;Print Spooler Read File Vulnerability.&quot;
 
