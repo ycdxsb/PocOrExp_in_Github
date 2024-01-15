@@ -1,98 +1,82 @@
-# Update 2024-01-14
-## CVE-2024-20656
+# Update 2024-01-15
+## CVE-2023-51000
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Wh04m1001/CVE-2024-20656](https://github.com/Wh04m1001/CVE-2024-20656) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/CVE-2024-20656.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/CVE-2024-20656.svg)
+- [https://github.com/Team-Byerus/CVE-2023-51000](https://github.com/Team-Byerus/CVE-2023-51000) :  ![starts](https://img.shields.io/github/stars/Team-Byerus/CVE-2023-51000.svg) ![forks](https://img.shields.io/github/forks/Team-Byerus/CVE-2023-51000.svg)
 
 
-## CVE-2023-51467
- The vulnerability permits attackers to circumvent authentication processes, enabling them to remotely execute arbitrary code
+## CVE-2023-31747
+ Wondershare Filmora 12 (Build 12.2.1.2088) was discovered to contain an unquoted service path vulnerability via the component NativePushService. This vulnerability allows attackers to launch processes with elevated privileges.
 
-- [https://github.com/Jake123otte1/BadBizness](https://github.com/Jake123otte1/BadBizness) :  ![starts](https://img.shields.io/github/stars/Jake123otte1/BadBizness.svg) ![forks](https://img.shields.io/github/forks/Jake123otte1/BadBizness.svg)
-
-
-## CVE-2023-50164
- An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution. Users are recommended to upgrade to versions Struts 2.5.33 or Struts 6.3.0.2 or greater to fix this issue.
-
-- [https://github.com/sunnyvale-it/CVE-2023-50164-PoC](https://github.com/sunnyvale-it/CVE-2023-50164-PoC) :  ![starts](https://img.shields.io/github/stars/sunnyvale-it/CVE-2023-50164-PoC.svg) ![forks](https://img.shields.io/github/forks/sunnyvale-it/CVE-2023-50164-PoC.svg)
+- [https://github.com/msd0pe-1/CVE-2023-31747](https://github.com/msd0pe-1/CVE-2023-31747) :  ![starts](https://img.shields.io/github/stars/msd0pe-1/CVE-2023-31747.svg) ![forks](https://img.shields.io/github/forks/msd0pe-1/CVE-2023-31747.svg)
 
 
-## CVE-2023-28588
- Transient DOS in Bluetooth Host while rfc slot allocation.
+## CVE-2023-31714
+ Chitor-CMS before v1.1.2 was discovered to contain multiple SQL injection vulnerabilities.
 
-- [https://github.com/Trinadh465/CVE-2023-28588](https://github.com/Trinadh465/CVE-2023-28588) :  ![starts](https://img.shields.io/github/stars/Trinadh465/CVE-2023-28588.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/CVE-2023-28588.svg)
-- [https://github.com/uthrasri/CVE-2023-28588_system_bt](https://github.com/uthrasri/CVE-2023-28588_system_bt) :  ![starts](https://img.shields.io/github/stars/uthrasri/CVE-2023-28588_system_bt.svg) ![forks](https://img.shields.io/github/forks/uthrasri/CVE-2023-28588_system_bt.svg)
-- [https://github.com/uthrasri/CVE-2023-28588](https://github.com/uthrasri/CVE-2023-28588) :  ![starts](https://img.shields.io/github/stars/uthrasri/CVE-2023-28588.svg) ![forks](https://img.shields.io/github/forks/uthrasri/CVE-2023-28588.svg)
+- [https://github.com/msd0pe-1/CVE-2023-31714](https://github.com/msd0pe-1/CVE-2023-31714) :  ![starts](https://img.shields.io/github/stars/msd0pe-1/CVE-2023-31714.svg) ![forks](https://img.shields.io/github/forks/msd0pe-1/CVE-2023-31714.svg)
 
 
-## CVE-2023-7028
+## CVE-2023-6875
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Vozec/CVE-2023-7028](https://github.com/Vozec/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/Vozec/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/Vozec/CVE-2023-7028.svg)
-- [https://github.com/V1lu0/CVE-2023-7028](https://github.com/V1lu0/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/V1lu0/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/V1lu0/CVE-2023-7028.svg)
-- [https://github.com/RandomRobbieBF/CVE-2023-7028](https://github.com/RandomRobbieBF/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2023-7028.svg)
-- [https://github.com/duy-31/CVE-2023-7028](https://github.com/duy-31/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/duy-31/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/duy-31/CVE-2023-7028.svg)
+- [https://github.com/UlyssesSaicha/CVE-2023-6875](https://github.com/UlyssesSaicha/CVE-2023-6875) :  ![starts](https://img.shields.io/github/stars/UlyssesSaicha/CVE-2023-6875.svg) ![forks](https://img.shields.io/github/forks/UlyssesSaicha/CVE-2023-6875.svg)
 
 
-## CVE-2022-35919
- MinIO is a High Performance Object Storage released under GNU Affero General Public License v3.0. In affected versions all 'admin' users authorized for `admin:ServerUpdate` can selectively trigger an error that in response, returns the content of the path requested. Any normal OS system would allow access to contents at any arbitrary paths that are readable by MinIO process. Users are advised to upgrade. Users unable to upgrade may disable ServerUpdate API by denying the `admin:ServerUpdate` action for your admin users via IAM policies.
+## CVE-2022-20818
+ Multiple vulnerabilities in the CLI of Cisco SD-WAN Software could allow an authenticated, local attacker to gain elevated privileges. These vulnerabilities are due to improper access controls on commands within the application CLI. An attacker could exploit these vulnerabilities by running a malicious command on the application CLI. A successful exploit could allow the attacker to execute arbitrary commands as the root user.
 
-- [https://github.com/ifulxploit/Minio-Security-Vulnerability-Checker](https://github.com/ifulxploit/Minio-Security-Vulnerability-Checker) :  ![starts](https://img.shields.io/github/stars/ifulxploit/Minio-Security-Vulnerability-Checker.svg) ![forks](https://img.shields.io/github/forks/ifulxploit/Minio-Security-Vulnerability-Checker.svg)
-
-
-## CVE-2022-23222
- kernel/bpf/verifier.c in the Linux kernel through 5.15.14 allows local users to gain privileges because of the availability of pointer arithmetic via certain *_OR_NULL pointer types.
-
-- [https://github.com/tr3ee/CVE-2022-23222](https://github.com/tr3ee/CVE-2022-23222) :  ![starts](https://img.shields.io/github/stars/tr3ee/CVE-2022-23222.svg) ![forks](https://img.shields.io/github/forks/tr3ee/CVE-2022-23222.svg)
+- [https://github.com/mbadanoiu/CVE-2022-20818](https://github.com/mbadanoiu/CVE-2022-20818) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2022-20818.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2022-20818.svg)
 
 
-## CVE-2022-3590
- WordPress is affected by an unauthenticated blind SSRF in the pingback feature. Because of a TOCTOU race condition between the validation checks and the HTTP request, attackers can reach internal hosts that are explicitly forbidden.
+## CVE-2021-42013
+ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue only affects Apache 2.4.49 and Apache 2.4.50 and not earlier versions.
 
-- [https://github.com/hxlxmjxbbxs/CVE-2022-3590-WordPress-Vulnerability-Scanner](https://github.com/hxlxmjxbbxs/CVE-2022-3590-WordPress-Vulnerability-Scanner) :  ![starts](https://img.shields.io/github/stars/hxlxmjxbbxs/CVE-2022-3590-WordPress-Vulnerability-Scanner.svg) ![forks](https://img.shields.io/github/forks/hxlxmjxbbxs/CVE-2022-3590-WordPress-Vulnerability-Scanner.svg)
-
-
-## CVE-2022-0847
- A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
-
-- [https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit) :  ![starts](https://img.shields.io/github/stars/Arinerron/CVE-2022-0847-DirtyPipe-Exploit.svg) ![forks](https://img.shields.io/github/forks/Arinerron/CVE-2022-0847-DirtyPipe-Exploit.svg)
-- [https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits) :  ![starts](https://img.shields.io/github/stars/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits.svg) ![forks](https://img.shields.io/github/forks/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits.svg)
+- [https://github.com/sergiovks/LFI-RCE-Unauthenticated-Apache-2.4.49-2.4.50](https://github.com/sergiovks/LFI-RCE-Unauthenticated-Apache-2.4.49-2.4.50) :  ![starts](https://img.shields.io/github/stars/sergiovks/LFI-RCE-Unauthenticated-Apache-2.4.49-2.4.50.svg) ![forks](https://img.shields.io/github/forks/sergiovks/LFI-RCE-Unauthenticated-Apache-2.4.49-2.4.50.svg)
+- [https://github.com/robotsense1337/CVE-2021-42013](https://github.com/robotsense1337/CVE-2021-42013) :  ![starts](https://img.shields.io/github/stars/robotsense1337/CVE-2021-42013.svg) ![forks](https://img.shields.io/github/forks/robotsense1337/CVE-2021-42013.svg)
+- [https://github.com/ksanchezcld/httpd-2.4.49](https://github.com/ksanchezcld/httpd-2.4.49) :  ![starts](https://img.shields.io/github/stars/ksanchezcld/httpd-2.4.49.svg) ![forks](https://img.shields.io/github/forks/ksanchezcld/httpd-2.4.49.svg)
+- [https://github.com/mightysai1997/cve-2021-42013](https://github.com/mightysai1997/cve-2021-42013) :  ![starts](https://img.shields.io/github/stars/mightysai1997/cve-2021-42013.svg) ![forks](https://img.shields.io/github/forks/mightysai1997/cve-2021-42013.svg)
 
 
-## CVE-2021-20038
- A Stack-based buffer overflow vulnerability in SMA100 Apache httpd server's mod_cgi module environment variables allows a remote unauthenticated attacker to potentially execute code as a 'nobody' user in the appliance. This vulnerability affected SMA 200, 210, 400, 410 and 500v appliances firmware 10.2.0.8-37sv, 10.2.1.1-19sv, 10.2.1.2-24sv and earlier versions.
+## CVE-2021-25253
+ An improper access control vulnerability in Trend Micro Apex One, Trend Micro Apex One as a Service and OfficeScan XG SP1 on a resource used by the service could allow a local attacker to escalate privileges on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.
 
-- [https://github.com/jbaines-r7/badblood](https://github.com/jbaines-r7/badblood) :  ![starts](https://img.shields.io/github/stars/jbaines-r7/badblood.svg) ![forks](https://img.shields.io/github/forks/jbaines-r7/badblood.svg)
-
-
-## CVE-2021-3138
- In Discourse 2.7.0 through beta1, a rate-limit bypass leads to a bypass of the 2FA requirement for certain forms.
-
-- [https://github.com/Mesh3l911/CVE-2021-3138](https://github.com/Mesh3l911/CVE-2021-3138) :  ![starts](https://img.shields.io/github/stars/Mesh3l911/CVE-2021-3138.svg) ![forks](https://img.shields.io/github/forks/Mesh3l911/CVE-2021-3138.svg)
+- [https://github.com/msd0pe-1/CVE-2021-25253](https://github.com/msd0pe-1/CVE-2021-25253) :  ![starts](https://img.shields.io/github/stars/msd0pe-1/CVE-2021-25253.svg) ![forks](https://img.shields.io/github/forks/msd0pe-1/CVE-2021-25253.svg)
 
 
-## CVE-2021-3130
- Within the Open-AudIT up to version 3.5.3 application, the web interface hides SSH secrets, Windows passwords, and SNMP strings from users using HTML 'password field' obfuscation. By using Developer tools or similar, it is possible to change the obfuscation so that the credentials are visible.
+## CVE-2021-3493
+ The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges.
 
-- [https://github.com/jet-pentest/CVE-2021-3130](https://github.com/jet-pentest/CVE-2021-3130) :  ![starts](https://img.shields.io/github/stars/jet-pentest/CVE-2021-3130.svg) ![forks](https://img.shields.io/github/forks/jet-pentest/CVE-2021-3130.svg)
-
-
-## CVE-2020-1938
- When using the Apache JServ Protocol (AJP), care must be taken when trusting incoming connections to Apache Tomcat. Tomcat treats AJP connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited in ways that may be surprising. In Apache Tomcat 9.0.0.M1 to 9.0.0.30, 8.5.0 to 8.5.50 and 7.0.0 to 7.0.99, Tomcat shipped with an AJP Connector enabled by default that listened on all configured IP addresses. It was expected (and recommended in the security guide) that this Connector would be disabled if not required. This vulnerability report identified a mechanism that allowed: - returning arbitrary files from anywhere in the web application - processing any file in the web application as a JSP Further, if the web application allowed file upload and stored those files within the web application (or the attacker was able to control the content of the web application by some other means) then this, along with the ability to process a file as a JSP, made remote code execution possible. It is important to note that mitigation is only required if an AJP port is accessible to untrusted users. Users wishing to take a defence-in-depth approach and block the vector that permits returning arbitrary files and execution as JSP may upgrade to Apache Tomcat 9.0.31, 8.5.51 or 7.0.100 or later. A number of changes were made to the default AJP Connector configuration in 9.0.31 to harden the default configuration. It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 or later will need to make small changes to their configurations.
-
-- [https://github.com/laolisafe/CVE-2020-1938](https://github.com/laolisafe/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/laolisafe/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/laolisafe/CVE-2020-1938.svg)
-- [https://github.com/YounesTasra-R4z3rSw0rd/CVE-2020-1938](https://github.com/YounesTasra-R4z3rSw0rd/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/YounesTasra-R4z3rSw0rd/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/YounesTasra-R4z3rSw0rd/CVE-2020-1938.svg)
+- [https://github.com/briskets/CVE-2021-3493](https://github.com/briskets/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/briskets/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/briskets/CVE-2021-3493.svg)
+- [https://github.com/pmihsan/OverlayFS-CVE-2021-3493](https://github.com/pmihsan/OverlayFS-CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/pmihsan/OverlayFS-CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/pmihsan/OverlayFS-CVE-2021-3493.svg)
 
 
-## CVE-2020-1313
- An elevation of privilege vulnerability exists when the Windows Update Orchestrator Service improperly handles file operations, aka 'Windows Update Orchestrator Service Elevation of Privilege Vulnerability'.
+## CVE-2020-2553
+ Vulnerability in the Oracle Knowledge product of Oracle Knowledge (component: Information Manager Console). Supported versions that are affected are 8.6.0-8.6.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Knowledge. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Knowledge accessible data as well as unauthorized read access to a subset of Oracle Knowledge accessible data. CVSS 3.0 Base Score 4.8 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).
 
-- [https://github.com/irsl/CVE-2020-1313](https://github.com/irsl/CVE-2020-1313) :  ![starts](https://img.shields.io/github/stars/irsl/CVE-2020-1313.svg) ![forks](https://img.shields.io/github/forks/irsl/CVE-2020-1313.svg)
+- [https://github.com/5l1v3r1/CVE-2020-2553](https://github.com/5l1v3r1/CVE-2020-2553) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/CVE-2020-2553.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/CVE-2020-2553.svg)
 
 
-## CVE-2018-1207
- Dell EMC iDRAC7/iDRAC8, versions prior to 2.52.52.52, contain CGI injection vulnerability which could be used to execute remote code. A remote unauthenticated attacker may potentially be able to use CGI variables to execute remote code.
+## CVE-2020-0796
+ A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.
 
-- [https://github.com/mgargiullo/cve-2018-1207](https://github.com/mgargiullo/cve-2018-1207) :  ![starts](https://img.shields.io/github/stars/mgargiullo/cve-2018-1207.svg) ![forks](https://img.shields.io/github/forks/mgargiullo/cve-2018-1207.svg)
-- [https://github.com/un4gi/CVE-2018-1207](https://github.com/un4gi/CVE-2018-1207) :  ![starts](https://img.shields.io/github/stars/un4gi/CVE-2018-1207.svg) ![forks](https://img.shields.io/github/forks/un4gi/CVE-2018-1207.svg)
+- [https://github.com/Vladshambaryan/https-github.com-jamf-CVE-2020-0796-RCE-POC](https://github.com/Vladshambaryan/https-github.com-jamf-CVE-2020-0796-RCE-POC) :  ![starts](https://img.shields.io/github/stars/Vladshambaryan/https-github.com-jamf-CVE-2020-0796-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/Vladshambaryan/https-github.com-jamf-CVE-2020-0796-RCE-POC.svg)
+
+
+## CVE-2019-1351
+ A tampering vulnerability exists when Git for Visual Studio improperly handles virtual drive paths, aka 'Git for Visual Studio Tampering Vulnerability'.
+
+- [https://github.com/JonasDL/PruebaCVE20191351](https://github.com/JonasDL/PruebaCVE20191351) :  ![starts](https://img.shields.io/github/stars/JonasDL/PruebaCVE20191351.svg) ![forks](https://img.shields.io/github/forks/JonasDL/PruebaCVE20191351.svg)
+
+
+## CVE-2019-0808
+ An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0797.
+
+- [https://github.com/rakesh143/CVE-2019-0808](https://github.com/rakesh143/CVE-2019-0808) :  ![starts](https://img.shields.io/github/stars/rakesh143/CVE-2019-0808.svg) ![forks](https://img.shields.io/github/forks/rakesh143/CVE-2019-0808.svg)
+
+
+## CVE-2018-0708
+ Command injection vulnerability in networking of QNAP Q'center Virtual Appliance version 1.7.1063 and earlier could allow authenticated users to run arbitrary commands.
+
+- [https://github.com/ntkernel0/CVE-2019-0708](https://github.com/ntkernel0/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ntkernel0/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ntkernel0/CVE-2019-0708.svg)
 
