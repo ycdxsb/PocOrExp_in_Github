@@ -754,9 +754,9 @@
 
 - [https://github.com/nkwejj/CVE-2018-17456](https://github.com/nkwejj/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/nkwejj/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/nkwejj/CVE-2018-17456.svg)
 
-- [https://github.com/shpik-kr/CVE-2018-17456](https://github.com/shpik-kr/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/shpik-kr/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/shpik-kr/CVE-2018-17456.svg)
-
 - [https://github.com/799600966/CVE-2018-17456](https://github.com/799600966/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/799600966/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/799600966/CVE-2018-17456.svg)
+
+- [https://github.com/shpik-kr/CVE-2018-17456](https://github.com/shpik-kr/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/shpik-kr/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/shpik-kr/CVE-2018-17456.svg)
 
 ## CVE-2018-17431
  Web Console in Comodo UTM Firewall before 2.7.0 allows remote attackers to execute arbitrary code without authentication via a crafted URL.
@@ -939,7 +939,7 @@
 
 - [https://github.com/kxisxr/Bash-Script-CVE-2018-16763](https://github.com/kxisxr/Bash-Script-CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/kxisxr/Bash-Script-CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/kxisxr/Bash-Script-CVE-2018-16763.svg)
 
-- [https://github.com/H3xL00m/CVE-2018-16763](https://github.com/H3xL00m/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/H3xL00m/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/H3xL00m/CVE-2018-16763.svg)
+- [https://github.com/n3ov4n1sh/CVE-2018-16763](https://github.com/n3ov4n1sh/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2018-16763.svg)
 
 - [https://github.com/not1cyyy/CVE-2018-16763](https://github.com/not1cyyy/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/not1cyyy/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/not1cyyy/CVE-2018-16763.svg)
 
@@ -1919,9 +1919,9 @@
 
 - [https://github.com/gh0st27/Struts2Scanner](https://github.com/gh0st27/Struts2Scanner) :  ![starts](https://img.shields.io/github/stars/gh0st27/Struts2Scanner.svg) ![forks](https://img.shields.io/github/forks/gh0st27/Struts2Scanner.svg)
 
-- [https://github.com/sonpt-afk/CVE-2018-11776-FIS](https://github.com/sonpt-afk/CVE-2018-11776-FIS) :  ![starts](https://img.shields.io/github/stars/sonpt-afk/CVE-2018-11776-FIS.svg) ![forks](https://img.shields.io/github/forks/sonpt-afk/CVE-2018-11776-FIS.svg)
-
 - [https://github.com/cucadili/CVE-2018-11776](https://github.com/cucadili/CVE-2018-11776) :  ![starts](https://img.shields.io/github/stars/cucadili/CVE-2018-11776.svg) ![forks](https://img.shields.io/github/forks/cucadili/CVE-2018-11776.svg)
+
+- [https://github.com/sonpt-afk/CVE-2018-11776-FIS](https://github.com/sonpt-afk/CVE-2018-11776-FIS) :  ![starts](https://img.shields.io/github/stars/sonpt-afk/CVE-2018-11776-FIS.svg) ![forks](https://img.shields.io/github/forks/sonpt-afk/CVE-2018-11776-FIS.svg)
 
 - [https://github.com/freshdemo/ApacheStruts-CVE-2018-11776](https://github.com/freshdemo/ApacheStruts-CVE-2018-11776) :  ![starts](https://img.shields.io/github/stars/freshdemo/ApacheStruts-CVE-2018-11776.svg) ![forks](https://img.shields.io/github/forks/freshdemo/ApacheStruts-CVE-2018-11776.svg)
 
@@ -2147,15 +2147,15 @@
 
 - [https://github.com/ensimag-security/CVE-2018-10933](https://github.com/ensimag-security/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/ensimag-security/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/ensimag-security/CVE-2018-10933.svg)
 
-- [https://github.com/SilasSpringer/CVE-2018-10933](https://github.com/SilasSpringer/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/SilasSpringer/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/SilasSpringer/CVE-2018-10933.svg)
-
-- [https://github.com/cve-2018/cve-2018-10933](https://github.com/cve-2018/cve-2018-10933) :  ![starts](https://img.shields.io/github/stars/cve-2018/cve-2018-10933.svg) ![forks](https://img.shields.io/github/forks/cve-2018/cve-2018-10933.svg)
-
 - [https://github.com/youkergav/CVE-2018-10933](https://github.com/youkergav/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/youkergav/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/youkergav/CVE-2018-10933.svg)
 
 - [https://github.com/kristyna-mlcakova/CVE-2018-10933](https://github.com/kristyna-mlcakova/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/kristyna-mlcakova/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/kristyna-mlcakova/CVE-2018-10933.svg)
 
+- [https://github.com/SilasSpringer/CVE-2018-10933](https://github.com/SilasSpringer/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/SilasSpringer/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/SilasSpringer/CVE-2018-10933.svg)
+
 - [https://github.com/lalishasanduwara/CVE-2018-10933](https://github.com/lalishasanduwara/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/lalishasanduwara/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/lalishasanduwara/CVE-2018-10933.svg)
+
+- [https://github.com/cve-2018/cve-2018-10933](https://github.com/cve-2018/cve-2018-10933) :  ![starts](https://img.shields.io/github/stars/cve-2018/cve-2018-10933.svg) ![forks](https://img.shields.io/github/forks/cve-2018/cve-2018-10933.svg)
 
 - [https://github.com/Kurlee/LibSSH-exploit](https://github.com/Kurlee/LibSSH-exploit) :  ![starts](https://img.shields.io/github/stars/Kurlee/LibSSH-exploit.svg) ![forks](https://img.shields.io/github/forks/Kurlee/LibSSH-exploit.svg)
 
@@ -4422,15 +4422,15 @@
 
 - [https://github.com/cscadoge/weblogic-cve-2018-2628](https://github.com/cscadoge/weblogic-cve-2018-2628) :  ![starts](https://img.shields.io/github/stars/cscadoge/weblogic-cve-2018-2628.svg) ![forks](https://img.shields.io/github/forks/cscadoge/weblogic-cve-2018-2628.svg)
 
-- [https://github.com/Serendipity-Lucky/CVE-2018-2628](https://github.com/Serendipity-Lucky/CVE-2018-2628) :  ![starts](https://img.shields.io/github/stars/Serendipity-Lucky/CVE-2018-2628.svg) ![forks](https://img.shields.io/github/forks/Serendipity-Lucky/CVE-2018-2628.svg)
-
 - [https://github.com/shaoshore/CVE-2018-2628](https://github.com/shaoshore/CVE-2018-2628) :  ![starts](https://img.shields.io/github/stars/shaoshore/CVE-2018-2628.svg) ![forks](https://img.shields.io/github/forks/shaoshore/CVE-2018-2628.svg)
+
+- [https://github.com/Serendipity-Lucky/CVE-2018-2628](https://github.com/Serendipity-Lucky/CVE-2018-2628) :  ![starts](https://img.shields.io/github/stars/Serendipity-Lucky/CVE-2018-2628.svg) ![forks](https://img.shields.io/github/forks/Serendipity-Lucky/CVE-2018-2628.svg)
 
 - [https://github.com/stevenlinfeng/CVE-2018-2628](https://github.com/stevenlinfeng/CVE-2018-2628) :  ![starts](https://img.shields.io/github/stars/stevenlinfeng/CVE-2018-2628.svg) ![forks](https://img.shields.io/github/forks/stevenlinfeng/CVE-2018-2628.svg)
 
-- [https://github.com/seethen/cve-2018-2628](https://github.com/seethen/cve-2018-2628) :  ![starts](https://img.shields.io/github/stars/seethen/cve-2018-2628.svg) ![forks](https://img.shields.io/github/forks/seethen/cve-2018-2628.svg)
-
 - [https://github.com/wrysunny/cve-2018-2628](https://github.com/wrysunny/cve-2018-2628) :  ![starts](https://img.shields.io/github/stars/wrysunny/cve-2018-2628.svg) ![forks](https://img.shields.io/github/forks/wrysunny/cve-2018-2628.svg)
+
+- [https://github.com/seethen/cve-2018-2628](https://github.com/seethen/cve-2018-2628) :  ![starts](https://img.shields.io/github/stars/seethen/cve-2018-2628.svg) ![forks](https://img.shields.io/github/forks/seethen/cve-2018-2628.svg)
 
 ## CVE-2018-2393
  Under certain conditions SAP Internet Graphics Server (IGS) 7.20, 7.20EXT, 7.45, 7.49, 7.53, fails to validate XML External Entity appropriately causing the SAP Internet Graphics Server (IGS) to become unavailable.
@@ -4568,9 +4568,9 @@
 
 - [https://github.com/genxor/CVE-2018-1270_EXP](https://github.com/genxor/CVE-2018-1270_EXP) :  ![starts](https://img.shields.io/github/stars/genxor/CVE-2018-1270_EXP.svg) ![forks](https://img.shields.io/github/forks/genxor/CVE-2018-1270_EXP.svg)
 
-- [https://github.com/tafamace/CVE-2018-1270](https://github.com/tafamace/CVE-2018-1270) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2018-1270.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2018-1270.svg)
-
 - [https://github.com/Venscor/CVE-2018-1270](https://github.com/Venscor/CVE-2018-1270) :  ![starts](https://img.shields.io/github/stars/Venscor/CVE-2018-1270.svg) ![forks](https://img.shields.io/github/forks/Venscor/CVE-2018-1270.svg)
+
+- [https://github.com/tafamace/CVE-2018-1270](https://github.com/tafamace/CVE-2018-1270) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2018-1270.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2018-1270.svg)
 
 - [https://github.com/mprunet/owasp-formation-cve-2018-1270](https://github.com/mprunet/owasp-formation-cve-2018-1270) :  ![starts](https://img.shields.io/github/stars/mprunet/owasp-formation-cve-2018-1270.svg) ![forks](https://img.shields.io/github/forks/mprunet/owasp-formation-cve-2018-1270.svg)
 
