@@ -1454,7 +1454,7 @@
 
 
 
-- [https://github.com/H3xL00m/CVE-2016-1531](https://github.com/H3xL00m/CVE-2016-1531) :  ![starts](https://img.shields.io/github/stars/H3xL00m/CVE-2016-1531.svg) ![forks](https://img.shields.io/github/forks/H3xL00m/CVE-2016-1531.svg)
+- [https://github.com/n3ov4n1sh/CVE-2016-1531](https://github.com/n3ov4n1sh/CVE-2016-1531) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2016-1531.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2016-1531.svg)
 
 ## CVE-2016-1494
  The verify function in the RSA package for Python (Python-RSA) before 3.3 allows attackers to spoof signatures with a small public exponent via crafted signature padding, aka a BERserk attack.
