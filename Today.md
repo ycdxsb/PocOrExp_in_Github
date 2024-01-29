@@ -1,77 +1,136 @@
-# Update 2024-01-28
-## CVE-2023-47400
+# Update 2024-01-29
+## CVE-2024-22894
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/LucasVanHaaren/CVE-2023-47400](https://github.com/LucasVanHaaren/CVE-2023-47400) :  ![starts](https://img.shields.io/github/stars/LucasVanHaaren/CVE-2023-47400.svg) ![forks](https://img.shields.io/github/forks/LucasVanHaaren/CVE-2023-47400.svg)
+- [https://github.com/Jaarden/CVE-2024-22894](https://github.com/Jaarden/CVE-2024-22894) :  ![starts](https://img.shields.io/github/stars/Jaarden/CVE-2024-22894.svg) ![forks](https://img.shields.io/github/forks/Jaarden/CVE-2024-22894.svg)
 
 
-## CVE-2022-34729
- Windows GDI Elevation of Privilege Vulnerability
+## CVE-2024-22515
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/MagicPwnrin/CVE-2022-34729](https://github.com/MagicPwnrin/CVE-2022-34729) :  ![starts](https://img.shields.io/github/stars/MagicPwnrin/CVE-2022-34729.svg) ![forks](https://img.shields.io/github/forks/MagicPwnrin/CVE-2022-34729.svg)
-
-
-## CVE-2022-30206
- Windows Print Spooler Elevation of Privilege Vulnerability
-
-- [https://github.com/MagicPwnrin/CVE-2022-30206](https://github.com/MagicPwnrin/CVE-2022-30206) :  ![starts](https://img.shields.io/github/stars/MagicPwnrin/CVE-2022-30206.svg) ![forks](https://img.shields.io/github/forks/MagicPwnrin/CVE-2022-30206.svg)
+- [https://github.com/Orange-418/CVE-2024-22515-File-Upload-Vulnerability](https://github.com/Orange-418/CVE-2024-22515-File-Upload-Vulnerability) :  ![starts](https://img.shields.io/github/stars/Orange-418/CVE-2024-22515-File-Upload-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/Orange-418/CVE-2024-22515-File-Upload-Vulnerability.svg)
+- [https://github.com/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution](https://github.com/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution.svg)
 
 
-## CVE-2022-28282
- By using a link with &lt;code&gt;rel=&quot;localization&quot;&lt;/code&gt; a use-after-free could have been triggered by destroying an object during JavaScript execution and then referencing the object through a freed pointer, leading to a potential exploitable crash. This vulnerability affects Thunderbird &lt; 91.8, Firefox &lt; 99, and Firefox ESR &lt; 91.8.
+## CVE-2024-22514
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/MagicPwnrin/CVE-2022-28282](https://github.com/MagicPwnrin/CVE-2022-28282) :  ![starts](https://img.shields.io/github/stars/MagicPwnrin/CVE-2022-28282.svg) ![forks](https://img.shields.io/github/forks/MagicPwnrin/CVE-2022-28282.svg)
-
-
-## CVE-2022-3910
- Use After Free vulnerability in Linux Kernel allows Privilege Escalation. An improper Update of Reference Count in io_uring leads to Use-After-Free and Local Privilege Escalation. When io_msg_ring was invoked with a fixed file, it called io_fput_file() which improperly decreased its reference count (leading to Use-After-Free and Local Privilege Escalation). Fixed files are permanently registered to the ring, and should not be put separately. We recommend upgrading past commit https://github.com/torvalds/linux/commit/fc7222c3a9f56271fba02aabbfbae999042f1679 https://github.com/torvalds/linux/commit/fc7222c3a9f56271fba02aabbfbae999042f1679
-
-- [https://github.com/veritas501/CVE-2022-3910](https://github.com/veritas501/CVE-2022-3910) :  ![starts](https://img.shields.io/github/stars/veritas501/CVE-2022-3910.svg) ![forks](https://img.shields.io/github/forks/veritas501/CVE-2022-3910.svg)
+- [https://github.com/Orange-418/CVE-2024-22514-Remote-Code-Execution](https://github.com/Orange-418/CVE-2024-22514-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/Orange-418/CVE-2024-22514-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/Orange-418/CVE-2024-22514-Remote-Code-Execution.svg)
+- [https://github.com/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution](https://github.com/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution.svg)
 
 
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+## CVE-2023-30258
+ Command Injection vulnerability in MagnusSolution magnusbilling 6.x and 7.x allows remote attackers to run arbitrary commands via unauthenticated HTTP request.
 
-- [https://github.com/scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/scarmandef/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/scarmandef/CVE-2021-41773.svg)
-- [https://github.com/McSl0vv/CVE-2021-41773](https://github.com/McSl0vv/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/McSl0vv/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/McSl0vv/CVE-2021-41773.svg)
-- [https://github.com/12345qwert123456/CVE-2021-41773](https://github.com/12345qwert123456/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/12345qwert123456/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/12345qwert123456/CVE-2021-41773.svg)
-- [https://github.com/qwutony/CVE-2021-41773](https://github.com/qwutony/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/qwutony/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/qwutony/CVE-2021-41773.svg)
-- [https://github.com/TheLastVvV/CVE-2021-41773](https://github.com/TheLastVvV/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/TheLastVvV/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/TheLastVvV/CVE-2021-41773.svg)
-- [https://github.com/vuongnv3389-sec/cve-2021-41773](https://github.com/vuongnv3389-sec/cve-2021-41773) :  ![starts](https://img.shields.io/github/stars/vuongnv3389-sec/cve-2021-41773.svg) ![forks](https://img.shields.io/github/forks/vuongnv3389-sec/cve-2021-41773.svg)
+- [https://github.com/gy741/CVE-2023-30258-setup](https://github.com/gy741/CVE-2023-30258-setup) :  ![starts](https://img.shields.io/github/stars/gy741/CVE-2023-30258-setup.svg) ![forks](https://img.shields.io/github/forks/gy741/CVE-2023-30258-setup.svg)
 
 
-## CVE-2021-4034
- A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
+## CVE-2023-6875
+ The POST SMTP Mailer &#8211; Email log, Delivery Failure Notifications and Best Mail SMTP for WordPress plugin for WordPress is vulnerable to unauthorized access of data and modification of data due to a type juggling issue on the connect-app REST endpoint in all versions up to, and including, 2.8.7. This makes it possible for unauthenticated attackers to reset the API key used to authenticate to the mailer and view logs, including password reset emails, allowing site takeover.
 
-- [https://github.com/locksec/CVE-2021-4034](https://github.com/locksec/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/locksec/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/locksec/CVE-2021-4034.svg)
-
-
-## CVE-2021-3449
- An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation ClientHello message from a client. If a TLSv1.2 renegotiation ClientHello omits the signature_algorithms extension (where it was present in the initial ClientHello), but includes a signature_algorithms_cert extension then a NULL pointer dereference will result, leading to a crash and a denial of service attack. A server is only vulnerable if it has TLSv1.2 and renegotiation enabled (which is the default configuration). OpenSSL TLS clients are not impacted by this issue. All OpenSSL 1.1.1 versions are affected by this issue. Users of these versions should upgrade to OpenSSL 1.1.1k. OpenSSL 1.0.2 is not impacted by this issue. Fixed in OpenSSL 1.1.1k (Affected 1.1.1-1.1.1j).
-
-- [https://github.com/riptl/cve-2021-3449](https://github.com/riptl/cve-2021-3449) :  ![starts](https://img.shields.io/github/stars/riptl/cve-2021-3449.svg) ![forks](https://img.shields.io/github/forks/riptl/cve-2021-3449.svg)
+- [https://github.com/gbrsh/CVE-2023-6875](https://github.com/gbrsh/CVE-2023-6875) :  ![starts](https://img.shields.io/github/stars/gbrsh/CVE-2023-6875.svg) ![forks](https://img.shields.io/github/forks/gbrsh/CVE-2023-6875.svg)
 
 
-## CVE-2021-2022
- Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB). Supported versions that are affected are 5.6.50 and prior, 5.7.32 and prior and 8.0.22 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.4 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H).
+## CVE-2019-16278
+ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6 allows an attacker to achieve remote code execution via a crafted HTTP request.
 
-- [https://github.com/Lotus6/ConfluenceMemshell](https://github.com/Lotus6/ConfluenceMemshell) :  ![starts](https://img.shields.io/github/stars/Lotus6/ConfluenceMemshell.svg) ![forks](https://img.shields.io/github/forks/Lotus6/ConfluenceMemshell.svg)
-
-
-## CVE-2019-1322
- An elevation of privilege vulnerability exists when Windows improperly handles authentication requests, aka 'Microsoft Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1320, CVE-2019-1340.
-
-- [https://github.com/apt69/COMahawk](https://github.com/apt69/COMahawk) :  ![starts](https://img.shields.io/github/stars/apt69/COMahawk.svg) ![forks](https://img.shields.io/github/forks/apt69/COMahawk.svg)
+- [https://github.com/n3ov4n1sh/CVE-2019-16278](https://github.com/n3ov4n1sh/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2019-16278.svg)
 
 
-## CVE-2018-9160
- SickRage before v2018.03.09-1 includes cleartext credentials in HTTP responses.
+## CVE-2019-14287
+ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can bypass certain policy blacklists and session PAM modules, and can cause incorrect logging, by invoking sudo with a crafted user ID. For example, this allows bypass of !root configuration, and USER= logging, for a &quot;sudo -u \#$((0xffffffff))&quot; command.
 
-- [https://github.com/mechanico/sickrageWTF](https://github.com/mechanico/sickrageWTF) :  ![starts](https://img.shields.io/github/stars/mechanico/sickrageWTF.svg) ![forks](https://img.shields.io/github/forks/mechanico/sickrageWTF.svg)
+- [https://github.com/n3ov4n1sh/CVE-2019-14287](https://github.com/n3ov4n1sh/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2019-14287.svg)
 
 
-## CVE-2017-16894
- In Laravel framework through 5.5.21, remote attackers can obtain sensitive information (such as externally usable passwords) via a direct request for the /.env URI. NOTE: this CVE is only about Laravel framework's writeNewEnvironmentFileWith function in src/Illuminate/Foundation/Console/KeyGenerateCommand.php, which uses file_put_contents without restricting the .env permissions. The .env filename is not used exclusively by Laravel framework.
+## CVE-2019-9053
+ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News module, through a crafted URL, to achieve unauthenticated blind time-based SQL injection via the m1_idlist parameter.
 
-- [https://github.com/H3dI/ENV-Mass-Exploit](https://github.com/H3dI/ENV-Mass-Exploit) :  ![starts](https://img.shields.io/github/stars/H3dI/ENV-Mass-Exploit.svg) ![forks](https://img.shields.io/github/forks/H3dI/ENV-Mass-Exploit.svg)
+- [https://github.com/n3ov4n1sh/CVE-2019-9053](https://github.com/n3ov4n1sh/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2019-9053.svg)
+
+
+## CVE-2019-6447
+ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allows remote attackers to read arbitrary files or execute applications via TCP port 59777 requests on the local Wi-Fi network. This TCP port remains open after the ES application has been launched once, and responds to unauthenticated application/json data over HTTP.
+
+- [https://github.com/n3ov4n1sh/CVE-2019-6447](https://github.com/n3ov4n1sh/CVE-2019-6447) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2019-6447.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2019-6447.svg)
+
+
+## CVE-2019-5736
+ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allows attackers to overwrite the host runc binary (and consequently obtain host root access) by leveraging the ability to execute a command as root within one of these types of containers: (1) a new container with an attacker-controlled image, or (2) an existing container, to which the attacker previously had write access, that can be attached with docker exec. This occurs because of file-descriptor mishandling, related to /proc/self/exe.
+
+- [https://github.com/n3ov4n1sh/CVE-2019-5736](https://github.com/n3ov4n1sh/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2019-5736.svg)
+
+
+## CVE-2019-3398
+ Confluence Server and Data Center had a path traversal vulnerability in the downloadallattachments resource. A remote attacker who has permission to add attachments to pages and / or blogs or to create a new space or a personal space or who has 'Admin' permissions for a space can exploit this path traversal vulnerability to write files to arbitrary locations which can lead to remote code execution on systems that run a vulnerable version of Confluence Server or Data Center. All versions of Confluence Server from 2.0.0 before 6.6.13 (the fixed version for 6.6.x), from 6.7.0 before 6.12.4 (the fixed version for 6.12.x), from 6.13.0 before 6.13.4 (the fixed version for 6.13.x), from 6.14.0 before 6.14.3 (the fixed version for 6.14.x), and from 6.15.0 before 6.15.2 are affected by this vulnerability.
+
+- [https://github.com/132231g/CVE-2019-3398](https://github.com/132231g/CVE-2019-3398) :  ![starts](https://img.shields.io/github/stars/132231g/CVE-2019-3398.svg) ![forks](https://img.shields.io/github/forks/132231g/CVE-2019-3398.svg)
+
+
+## CVE-2018-16763
+ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter or the preview/ data parameter. This can lead to Pre-Auth Remote Code Execution.
+
+- [https://github.com/n3ov4n1sh/CVE-2018-16763](https://github.com/n3ov4n1sh/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2018-16763.svg)
+
+
+## CVE-2017-7269
+ Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with &quot;If: &lt;http://&quot; in a PROPFIND request, as exploited in the wild in July or August 2016.
+
+- [https://github.com/n3ov4n1sh/CVE-2017-7269](https://github.com/n3ov4n1sh/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2017-7269.svg)
+
+
+## CVE-2017-0143
+ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka &quot;Windows SMB Remote Code Execution Vulnerability.&quot; This vulnerability is different from those described in CVE-2017-0144, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
+
+- [https://github.com/n3ov4n1sh/MS17-010_CVE-2017-0143](https://github.com/n3ov4n1sh/MS17-010_CVE-2017-0143) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/MS17-010_CVE-2017-0143.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/MS17-010_CVE-2017-0143.svg)
+
+
+## CVE-2016-1531
+ Exim before 4.86.2, when installed setuid root, allows local users to gain privileges via the perl_startup argument.
+
+- [https://github.com/n3ov4n1sh/CVE-2016-1531](https://github.com/n3ov4n1sh/CVE-2016-1531) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2016-1531.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2016-1531.svg)
+
+
+## CVE-2015-6668
+ The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary CV files via a brute force attack to the WordPress upload directory structure, related to an insecure direct object reference.
+
+- [https://github.com/n3ov4n1sh/CVE-2015-6668](https://github.com/n3ov4n1sh/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2015-6668.svg)
+
+
+## CVE-2015-1635
+ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 allows remote attackers to execute arbitrary code via crafted HTTP requests, aka &quot;HTTP.sys Remote Code Execution Vulnerability.&quot;
+
+- [https://github.com/n3ov4n1sh/CVE-2015-1635-POC](https://github.com/n3ov4n1sh/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2015-1635-POC.svg)
+- [https://github.com/n3ov4n1sh/CVE-2015-1635](https://github.com/n3ov4n1sh/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2015-1635.svg)
+
+
+## CVE-2014-0160
+ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not properly handle Heartbeat Extension packets, which allows remote attackers to obtain sensitive information from process memory via crafted packets that trigger a buffer over-read, as demonstrated by reading private keys, related to d1_both.c and t1_lib.c, aka the Heartbleed bug.
+
+- [https://github.com/n3ov4n1sh/CVE-2014-0160_Heartbleed](https://github.com/n3ov4n1sh/CVE-2014-0160_Heartbleed) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2014-0160_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2014-0160_Heartbleed.svg)
+
+
+## CVE-2011-1249
+ The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka &quot;Ancillary Function Driver Elevation of Privilege Vulnerability.&quot;
+
+- [https://github.com/n3ov4n1sh/CVE-2011-1249](https://github.com/n3ov4n1sh/CVE-2011-1249) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2011-1249.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2011-1249.svg)
+
+
+## CVE-2009-2265
+ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow remote attackers to create executable files in arbitrary directories via directory traversal sequences in the input to unspecified connector modules, as exploited in the wild for remote code execution in July 2009, related to the file browser and the editor/filemanager/connectors/ directory.
+
+- [https://github.com/n3ov4n1sh/CVE-2009-2265](https://github.com/n3ov4n1sh/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2009-2265.svg)
+
+
+## CVE-2007-2447
+ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
+
+- [https://github.com/n3ov4n1sh/CVE-2007-2447](https://github.com/n3ov4n1sh/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2007-2447.svg)
+- [https://github.com/Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447) :  ![starts](https://img.shields.io/github/stars/Juantos/cve-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Juantos/cve-2007-2447.svg)
+
+
+## CVE-2004-2687
+ distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.
+
+- [https://github.com/n3ov4n1sh/distccd_rce_CVE-2004-2687](https://github.com/n3ov4n1sh/distccd_rce_CVE-2004-2687) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/distccd_rce_CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/distccd_rce_CVE-2004-2687.svg)
 
