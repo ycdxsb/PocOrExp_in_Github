@@ -1,78 +1,123 @@
-# Update 2024-02-02
-## CVE-2024-24488
+# Update 2024-02-03
+## CVE-2024-22903
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/minj-ae/CVE-2024-24488](https://github.com/minj-ae/CVE-2024-24488) :  ![starts](https://img.shields.io/github/stars/minj-ae/CVE-2024-24488.svg) ![forks](https://img.shields.io/github/forks/minj-ae/CVE-2024-24488.svg)
+- [https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain](https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-22899-to-22903-ExploitChain.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-22899-to-22903-ExploitChain.svg)
 
 
-## CVE-2024-23897
- Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
-
-- [https://github.com/AbraXa5/Jenkins-CVE-2024-23897](https://github.com/AbraXa5/Jenkins-CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/AbraXa5/Jenkins-CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/AbraXa5/Jenkins-CVE-2024-23897.svg)
-
-
-## CVE-2024-0402
- An issue has been discovered in GitLab CE/EE affecting all versions from 16.0 prior to 16.6.6, 16.7 prior to 16.7.4, and 16.8 prior to 16.8.1 which allows an authenticated user to write files to arbitrary locations on the GitLab server while creating a workspace.
-
-- [https://github.com/ch4nui/CVE-2024-0402-RCE](https://github.com/ch4nui/CVE-2024-0402-RCE) :  ![starts](https://img.shields.io/github/stars/ch4nui/CVE-2024-0402-RCE.svg) ![forks](https://img.shields.io/github/forks/ch4nui/CVE-2024-0402-RCE.svg)
-
-
-## CVE-2023-49950
+## CVE-2024-22902
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/shrikeinfosec/cve-2023-49950](https://github.com/shrikeinfosec/cve-2023-49950) :  ![starts](https://img.shields.io/github/stars/shrikeinfosec/cve-2023-49950.svg) ![forks](https://img.shields.io/github/forks/shrikeinfosec/cve-2023-49950.svg)
+- [https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain](https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-22899-to-22903-ExploitChain.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-22899-to-22903-ExploitChain.svg)
 
 
-## CVE-2023-40459
- The ACEManager component of ALEOS 4.16 and earlier does not adequately perform input sanitization during authentication, which could potentially result in a Denial of Service (DoS) condition for ACEManager without impairing other router functions. ACEManager recovers from the DoS condition by restarting within ten seconds of becoming unavailable.
+## CVE-2024-22901
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/majidmc2/CVE-2023-40459](https://github.com/majidmc2/CVE-2023-40459) :  ![starts](https://img.shields.io/github/stars/majidmc2/CVE-2023-40459.svg) ![forks](https://img.shields.io/github/forks/majidmc2/CVE-2023-40459.svg)
+- [https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain](https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-22899-to-22903-ExploitChain.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-22899-to-22903-ExploitChain.svg)
+
+
+## CVE-2024-22900
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain](https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-22899-to-22903-ExploitChain.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-22899-to-22903-ExploitChain.svg)
+
+
+## CVE-2024-22899
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain](https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-22899-to-22903-ExploitChain.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-22899-to-22903-ExploitChain.svg)
+
+
+## CVE-2024-21626
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/NitroCao/CVE-2024-21626](https://github.com/NitroCao/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/NitroCao/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/NitroCao/CVE-2024-21626.svg)
+- [https://github.com/Wall1e/CVE-2024-21626-POC](https://github.com/Wall1e/CVE-2024-21626-POC) :  ![starts](https://img.shields.io/github/stars/Wall1e/CVE-2024-21626-POC.svg) ![forks](https://img.shields.io/github/forks/Wall1e/CVE-2024-21626-POC.svg)
+- [https://github.com/cdxiaodong/CVE-2024-21626](https://github.com/cdxiaodong/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/cdxiaodong/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/cdxiaodong/CVE-2024-21626.svg)
+- [https://github.com/zpxlz/CVE-2024-21626-POC](https://github.com/zpxlz/CVE-2024-21626-POC) :  ![starts](https://img.shields.io/github/stars/zpxlz/CVE-2024-21626-POC.svg) ![forks](https://img.shields.io/github/forks/zpxlz/CVE-2024-21626-POC.svg)
+
+
+## CVE-2024-20931
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/GlassyAmadeus/CVE-2024-20931](https://github.com/GlassyAmadeus/CVE-2024-20931) :  ![starts](https://img.shields.io/github/stars/GlassyAmadeus/CVE-2024-20931.svg) ![forks](https://img.shields.io/github/forks/GlassyAmadeus/CVE-2024-20931.svg)
+
+
+## CVE-2024-0652
+ A vulnerability was found in PHPGurukul Company Visitor Management System 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file search-visitor.php. The manipulation leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-251378 is the identifier assigned to this vulnerability.
+
+- [https://github.com/White-Hat-HackerX/CVE-2024-0652](https://github.com/White-Hat-HackerX/CVE-2024-0652) :  ![starts](https://img.shields.io/github/stars/White-Hat-HackerX/CVE-2024-0652.svg) ![forks](https://img.shields.io/github/forks/White-Hat-HackerX/CVE-2024-0652.svg)
+
+
+## CVE-2023-47889
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/actuator/com.bdrm.superreboot](https://github.com/actuator/com.bdrm.superreboot) :  ![starts](https://img.shields.io/github/stars/actuator/com.bdrm.superreboot.svg) ![forks](https://img.shields.io/github/forks/actuator/com.bdrm.superreboot.svg)
+
+
+## CVE-2023-47355
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/actuator/com.eypcnnapps.quickreboot](https://github.com/actuator/com.eypcnnapps.quickreboot) :  ![starts](https://img.shields.io/github/stars/actuator/com.eypcnnapps.quickreboot.svg) ![forks](https://img.shields.io/github/forks/actuator/com.eypcnnapps.quickreboot.svg)
+
+
+## CVE-2023-47354
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/actuator/com.bdrm.superreboot](https://github.com/actuator/com.bdrm.superreboot) :  ![starts](https://img.shields.io/github/stars/actuator/com.bdrm.superreboot.svg) ![forks](https://img.shields.io/github/forks/actuator/com.bdrm.superreboot.svg)
+
+
+## CVE-2023-47352
+ Technicolor TC8715D devices have predictable default WPA2 security passwords. An attacker who scans for SSID and BSSID values may be able to predict these passwords.
+
+- [https://github.com/actuator/cve](https://github.com/actuator/cve) :  ![starts](https://img.shields.io/github/stars/actuator/cve.svg) ![forks](https://img.shields.io/github/forks/actuator/cve.svg)
+
+
+## CVE-2023-40140
+ In android_view_InputDevice_create of android_view_InputDevice.cpp, there is a possible way to execute arbitrary code due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+
+- [https://github.com/hshivhare67/platform_frameworks_base_AOSP6_r22_CVE-2023-40140](https://github.com/hshivhare67/platform_frameworks_base_AOSP6_r22_CVE-2023-40140) :  ![starts](https://img.shields.io/github/stars/hshivhare67/platform_frameworks_base_AOSP6_r22_CVE-2023-40140.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/platform_frameworks_base_AOSP6_r22_CVE-2023-40140.svg)
 
 
 ## CVE-2023-36845
  A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series and SRX Series allows an unauthenticated, network-based attacker to remotely execute code. Using a crafted request which sets the variable PHPRC an attacker is able to modify the PHP execution environment allowing the injection und execution of code. This issue affects Juniper Networks Junos OS on EX Series and SRX Series: * All versions prior to 20.4R3-S9; * 21.1 versions 21.1R1 and later; * 21.2 versions prior to 21.2R3-S7; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S4; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3-S1; * 22.4 versions prior to 22.4R2-S1, 22.4R3; * 23.2 versions prior to 23.2R1-S1, 23.2R2.
 
-- [https://github.com/cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845](https://github.com/cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845) :  ![starts](https://img.shields.io/github/stars/cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845.svg) ![forks](https://img.shields.io/github/forks/cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845.svg)
+- [https://github.com/hackingyseguridad/nmap](https://github.com/hackingyseguridad/nmap) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/nmap.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/nmap.svg)
 
 
-## CVE-2023-34092
- Vite provides frontend tooling. Prior to versions 2.9.16, 3.2.7, 4.0.5, 4.1.5, 4.2.3, and 4.3.9, Vite Server Options (`server.fs.deny`) can be bypassed using double forward-slash (//) allows any unauthenticated user to read file from the Vite root-path of the application including the default `fs.deny` settings (`['.env', '.env.*', '*.{crt,pem}']`). Only users explicitly exposing the Vite dev server to the network (using `--host` or `server.host` config option) are affected, and only files in the immediate Vite project root folder could be exposed. This issue is fixed in vite@4.3.9, vite@4.2.3, vite@4.1.5, vite@4.0.5, vite@3.2.7, and vite@2.9.16.
+## CVE-2023-32784
+ In KeePass 2.x before 2.54, it is possible to recover the cleartext master password from a memory dump, even when a workspace is locked or no longer running. The memory dump can be a KeePass process dump, swap file (pagefile.sys), hibernation file (hiberfil.sys), or RAM dump of the entire system. The first character cannot be recovered. In 2.54, there is different API usage and/or random string insertion for mitigation.
 
-- [https://github.com/FlapyPan/test-cve-2023-34092](https://github.com/FlapyPan/test-cve-2023-34092) :  ![starts](https://img.shields.io/github/stars/FlapyPan/test-cve-2023-34092.svg) ![forks](https://img.shields.io/github/forks/FlapyPan/test-cve-2023-34092.svg)
+- [https://github.com/mister-turtle/cve-2023-32784](https://github.com/mister-turtle/cve-2023-32784) :  ![starts](https://img.shields.io/github/stars/mister-turtle/cve-2023-32784.svg) ![forks](https://img.shields.io/github/forks/mister-turtle/cve-2023-32784.svg)
 
 
-## CVE-2023-6036
+## CVE-2023-22960
+ Lexmark products through 2023-01-10 have Improper Control of Interaction Frequency.
+
+- [https://github.com/k0mi-tg/CVE-2023-22960](https://github.com/k0mi-tg/CVE-2023-22960) :  ![starts](https://img.shields.io/github/stars/k0mi-tg/CVE-2023-22960.svg) ![forks](https://img.shields.io/github/forks/k0mi-tg/CVE-2023-22960.svg)
+
+
+## CVE-2023-22527
+ A template injection vulnerability on older versions of Confluence Data Center and Server allows an unauthenticated attacker to achieve RCE on an affected instance. Customers using an affected version must take immediate action. Most recent supported versions of Confluence Data Center and Server are not affected by this vulnerability as it was ultimately mitigated during regular version updates. However, Atlassian recommends that customers take care to install the latest version to protect their instances from non-critical vulnerabilities outlined in Atlassian&#8217;s January Security Bulletin.
+
+- [https://github.com/YongYe-Security/CVE-2023-22527](https://github.com/YongYe-Security/CVE-2023-22527) :  ![starts](https://img.shields.io/github/stars/YongYe-Security/CVE-2023-22527.svg) ![forks](https://img.shields.io/github/forks/YongYe-Security/CVE-2023-22527.svg)
+
+
+## CVE-2022-37434
+ zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field. NOTE: only applications that call inflateGetHeader are affected. Some common applications bundle the affected zlib source code but may be unable to call inflateGetHeader (e.g., see the nodejs/node reference).
+
+- [https://github.com/Trinadh465/external_zlib_android-6.0.1_r22_CVE-2022-37434](https://github.com/Trinadh465/external_zlib_android-6.0.1_r22_CVE-2022-37434) :  ![starts](https://img.shields.io/github/stars/Trinadh465/external_zlib_android-6.0.1_r22_CVE-2022-37434.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/external_zlib_android-6.0.1_r22_CVE-2022-37434.svg)
+
+
+## CVE-2020-25769
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/pctripsesp/CVE-2023-6036](https://github.com/pctripsesp/CVE-2023-6036) :  ![starts](https://img.shields.io/github/stars/pctripsesp/CVE-2023-6036.svg) ![forks](https://img.shields.io/github/forks/pctripsesp/CVE-2023-6036.svg)
+- [https://github.com/defrancescojp/CVE-2020-25769](https://github.com/defrancescojp/CVE-2020-25769) :  ![starts](https://img.shields.io/github/stars/defrancescojp/CVE-2020-25769.svg) ![forks](https://img.shields.io/github/forks/defrancescojp/CVE-2020-25769.svg)
 
 
-## CVE-2023-5961
- A Cross-Site Request Forgery (CSRF) vulnerability has been identified in ioLogik E1200 Series firmware versions v3.3 and prior. An attacker can exploit this vulnerability to trick a client into making an unintentional request to the web server, which will be treated as an authentic request. This vulnerability may lead an attacker to perform operations on behalf of the victimized user.
+## CVE-2017-7921
+ An Improper Authentication issue was discovered in Hikvision DS-2CD2xx2F-I Series V5.2.0 build 140721 to V5.4.0 build 160530, DS-2CD2xx0F-I Series V5.2.0 build 140721 to V5.4.0 Build 160401, DS-2CD2xx2FWD Series V5.3.1 build 150410 to V5.4.4 Build 161125, DS-2CD4x2xFWD Series V5.2.0 build 140721 to V5.4.0 Build 160414, DS-2CD4xx5 Series V5.2.0 build 140721 to V5.4.0 Build 160421, DS-2DFx Series V5.2.0 build 140805 to V5.4.5 Build 160928, and DS-2CD63xx Series V5.0.9 build 140305 to V5.3.5 Build 160106 devices. The improper authentication vulnerability occurs when an application does not adequately or correctly authenticate users. This may allow a malicious user to escalate his or her privileges on the system and gain access to sensitive information.
 
-- [https://github.com/HadessCS/CVE-2023-5961](https://github.com/HadessCS/CVE-2023-5961) :  ![starts](https://img.shields.io/github/stars/HadessCS/CVE-2023-5961.svg) ![forks](https://img.shields.io/github/forks/HadessCS/CVE-2023-5961.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/skentagon/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/skentagon/CVE-2021-41773.svg)
-
-
-## CVE-2021-4034
- A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
-
-- [https://github.com/thatstraw/CVE-2021-4034](https://github.com/thatstraw/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/thatstraw/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/thatstraw/CVE-2021-4034.svg)
-
-
-## CVE-2019-13272
- In the Linux kernel before 5.1.17, ptrace_link in kernel/ptrace.c mishandles the recording of the credentials of a process that wants to create a ptrace relationship, which allows local users to obtain root access by leveraging certain scenarios with a parent-child process relationship, where a parent drops privileges and calls execve (potentially allowing control by an attacker). One contributing factor is an object lifetime issue (which can also cause a panic). Another contributing factor is incorrect marking of a ptrace relationship as privileged, which is exploitable through (for example) Polkit's pkexec helper with PTRACE_TRACEME. NOTE: SELinux deny_ptrace might be a usable workaround in some environments.
-
-- [https://github.com/MDS1GNAL/ptrace_scope-CVE-2019-13272-privilege-escalation](https://github.com/MDS1GNAL/ptrace_scope-CVE-2019-13272-privilege-escalation) :  ![starts](https://img.shields.io/github/stars/MDS1GNAL/ptrace_scope-CVE-2019-13272-privilege-escalation.svg) ![forks](https://img.shields.io/github/forks/MDS1GNAL/ptrace_scope-CVE-2019-13272-privilege-escalation.svg)
-
-
-## CVE-2018-7600
- Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1 allows remote attackers to execute arbitrary code because of an issue affecting multiple subsystems with default or common module configurations.
-
-- [https://github.com/killeveee/CVE-2018-7600](https://github.com/killeveee/CVE-2018-7600) :  ![starts](https://img.shields.io/github/stars/killeveee/CVE-2018-7600.svg) ![forks](https://img.shields.io/github/forks/killeveee/CVE-2018-7600.svg)
+- [https://github.com/yousouf-Tasfin/cve-2017-7921-Mass-Exploit](https://github.com/yousouf-Tasfin/cve-2017-7921-Mass-Exploit) :  ![starts](https://img.shields.io/github/stars/yousouf-Tasfin/cve-2017-7921-Mass-Exploit.svg) ![forks](https://img.shields.io/github/forks/yousouf-Tasfin/cve-2017-7921-Mass-Exploit.svg)
 
