@@ -1,54 +1,72 @@
-# Update 2024-02-06
-## CVE-2024-23208
- The issue was addressed with improved memory handling. This issue is fixed in macOS Sonoma 14.3, watchOS 10.3, tvOS 17.3, iOS 17.3 and iPadOS 17.3. An app may be able to execute arbitrary code with kernel privileges.
+# Update 2024-02-07
+## CVE-2024-24398
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/hrtowii/CVE-2024-23208-test](https://github.com/hrtowii/CVE-2024-23208-test) :  ![starts](https://img.shields.io/github/stars/hrtowii/CVE-2024-23208-test.svg) ![forks](https://img.shields.io/github/forks/hrtowii/CVE-2024-23208-test.svg)
-
-
-## CVE-2023-38646
- Metabase open source before 0.46.6.1 and Metabase Enterprise before 1.46.6.1 allow attackers to execute arbitrary commands on the server, at the server's privilege level. Authentication is not required for exploitation. The other fixed versions are 0.45.4.1, 1.45.4.1, 0.44.7.1, 1.44.7.1, 0.43.7.2, and 1.43.7.2.
-
-- [https://github.com/Shisones/MetabaseRCE_CVE-2023-38646](https://github.com/Shisones/MetabaseRCE_CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/Shisones/MetabaseRCE_CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/Shisones/MetabaseRCE_CVE-2023-38646.svg)
+- [https://github.com/trustcves/CVE-2024-24398](https://github.com/trustcves/CVE-2024-24398) :  ![starts](https://img.shields.io/github/stars/trustcves/CVE-2024-24398.svg) ![forks](https://img.shields.io/github/forks/trustcves/CVE-2024-24398.svg)
 
 
-## CVE-2023-29199
- There exists a vulnerability in source code transformer (exception sanitization logic) of vm2 for versions up to 3.9.15, allowing attackers to bypass `handleException()` and leak unsanitized host exceptions which can be used to escape the sandbox and run arbitrary code in host context. A threat actor can bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version `3.9.16` of `vm2`.
+## CVE-2024-24397
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/u-crew/vm2-test](https://github.com/u-crew/vm2-test) :  ![starts](https://img.shields.io/github/stars/u-crew/vm2-test.svg) ![forks](https://img.shields.io/github/forks/u-crew/vm2-test.svg)
-
-
-## CVE-2022-2639
- An integer coercion error was found in the openvswitch kernel module. Given a sufficiently large number of actions, while copying and reserving memory for a new action of a new flow, the reserve_sfa_size() function does not return -EMSGSIZE as expected, potentially leading to an out-of-bounds write access. This flaw allows a local user to crash or potentially escalate their privileges on the system.
-
-- [https://github.com/kakaroot1337/-2022-LOCALROOT-CVE-2022-2639](https://github.com/kakaroot1337/-2022-LOCALROOT-CVE-2022-2639) :  ![starts](https://img.shields.io/github/stars/kakaroot1337/-2022-LOCALROOT-CVE-2022-2639.svg) ![forks](https://img.shields.io/github/forks/kakaroot1337/-2022-LOCALROOT-CVE-2022-2639.svg)
+- [https://github.com/trustcves/CVE-2024-24397](https://github.com/trustcves/CVE-2024-24397) :  ![starts](https://img.shields.io/github/stars/trustcves/CVE-2024-24397.svg) ![forks](https://img.shields.io/github/forks/trustcves/CVE-2024-24397.svg)
 
 
-## CVE-2022-1040
- An authentication bypass vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v18.5 MR3 and older.
+## CVE-2024-24396
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/xMr110/CVE-2022-1040](https://github.com/xMr110/CVE-2022-1040) :  ![starts](https://img.shields.io/github/stars/xMr110/CVE-2022-1040.svg) ![forks](https://img.shields.io/github/forks/xMr110/CVE-2022-1040.svg)
-
-
-## CVE-2021-22555
- A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in net/netfilter/x_tables.c. This allows an attacker to gain privileges or cause a DoS (via heap memory corruption) through user name space
-
-- [https://github.com/kakaroot1337/-2021-LOCALROOT-CVE-2021-22555](https://github.com/kakaroot1337/-2021-LOCALROOT-CVE-2021-22555) :  ![starts](https://img.shields.io/github/stars/kakaroot1337/-2021-LOCALROOT-CVE-2021-22555.svg) ![forks](https://img.shields.io/github/forks/kakaroot1337/-2021-LOCALROOT-CVE-2021-22555.svg)
+- [https://github.com/trustcves/CVE-2024-24396](https://github.com/trustcves/CVE-2024-24396) :  ![starts](https://img.shields.io/github/stars/trustcves/CVE-2024-24396.svg) ![forks](https://img.shields.io/github/forks/trustcves/CVE-2024-24396.svg)
 
 
-## CVE-2021-4034
- A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
+## CVE-2024-23897
+ Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
 
-- [https://github.com/wechicken456/CVE-2021-4034-writeup](https://github.com/wechicken456/CVE-2021-4034-writeup) :  ![starts](https://img.shields.io/github/stars/wechicken456/CVE-2021-4034-writeup.svg) ![forks](https://img.shields.io/github/forks/wechicken456/CVE-2021-4034-writeup.svg)
-
-
-## CVE-2019-2215
- A use-after-free in binder.c allows an elevation of privilege from an application to the Linux Kernel. No user interaction is required to exploit this vulnerability, however exploitation does require either the installation of a malicious local application or a separate vulnerability in a network facing application.Product: AndroidAndroid ID: A-141720095
-
-- [https://github.com/willboka/CVE-2019-2215-HuaweiP20Lite](https://github.com/willboka/CVE-2019-2215-HuaweiP20Lite) :  ![starts](https://img.shields.io/github/stars/willboka/CVE-2019-2215-HuaweiP20Lite.svg) ![forks](https://img.shields.io/github/forks/willboka/CVE-2019-2215-HuaweiP20Lite.svg)
+- [https://github.com/kaanatmacaa/CVE-2024-23897](https://github.com/kaanatmacaa/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/kaanatmacaa/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/kaanatmacaa/CVE-2024-23897.svg)
 
 
-## CVE-2019-1332
- A cross-site scripting (XSS) vulnerability exists when Microsoft SQL Server Reporting Services (SSRS) does not properly sanitize a specially-crafted web request to an affected SSRS server, aka 'Microsoft SQL Server Reporting Services XSS Vulnerability'.
+## CVE-2024-23774
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/mbadanoiu/CVE-2019-1332](https://github.com/mbadanoiu/CVE-2019-1332) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2019-1332.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2019-1332.svg)
+- [https://github.com/Verrideo/CVE-2024-23774](https://github.com/Verrideo/CVE-2024-23774) :  ![starts](https://img.shields.io/github/stars/Verrideo/CVE-2024-23774.svg) ![forks](https://img.shields.io/github/forks/Verrideo/CVE-2024-23774.svg)
+
+
+## CVE-2024-23773
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/Verrideo/CVE-2024-23773](https://github.com/Verrideo/CVE-2024-23773) :  ![starts](https://img.shields.io/github/stars/Verrideo/CVE-2024-23773.svg) ![forks](https://img.shields.io/github/forks/Verrideo/CVE-2024-23773.svg)
+
+
+## CVE-2024-23772
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/Verrideo/CVE-2024-23772](https://github.com/Verrideo/CVE-2024-23772) :  ![starts](https://img.shields.io/github/stars/Verrideo/CVE-2024-23772.svg) ![forks](https://img.shields.io/github/forks/Verrideo/CVE-2024-23772.svg)
+
+
+## CVE-2024-21626
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/V0WKeep3r/CVE-2024-21626-runcPOC](https://github.com/V0WKeep3r/CVE-2024-21626-runcPOC) :  ![starts](https://img.shields.io/github/stars/V0WKeep3r/CVE-2024-21626-runcPOC.svg) ![forks](https://img.shields.io/github/forks/V0WKeep3r/CVE-2024-21626-runcPOC.svg)
+
+
+## CVE-2023-47564
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/C411e/CVE-2023-47564](https://github.com/C411e/CVE-2023-47564) :  ![starts](https://img.shields.io/github/stars/C411e/CVE-2023-47564.svg) ![forks](https://img.shields.io/github/forks/C411e/CVE-2023-47564.svg)
+
+
+## CVE-2023-6875
+ The POST SMTP Mailer &#8211; Email log, Delivery Failure Notifications and Best Mail SMTP for WordPress plugin for WordPress is vulnerable to unauthorized access of data and modification of data due to a type juggling issue on the connect-app REST endpoint in all versions up to, and including, 2.8.7. This makes it possible for unauthenticated attackers to reset the API key used to authenticate to the mailer and view logs, including password reset emails, allowing site takeover.
+
+- [https://github.com/hatlesswizard/CVE-2023-6875](https://github.com/hatlesswizard/CVE-2023-6875) :  ![starts](https://img.shields.io/github/stars/hatlesswizard/CVE-2023-6875.svg) ![forks](https://img.shields.io/github/forks/hatlesswizard/CVE-2023-6875.svg)
+
+
+## CVE-2023-4427
+ Out of bounds memory access in V8 in Google Chrome prior to 116.0.5845.110 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: High)
+
+- [https://github.com/tianstcht/CVE-2023-4427](https://github.com/tianstcht/CVE-2023-4427) :  ![starts](https://img.shields.io/github/stars/tianstcht/CVE-2023-4427.svg) ![forks](https://img.shields.io/github/forks/tianstcht/CVE-2023-4427.svg)
+
+
+## CVE-2018-16763
+ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter or the preview/ data parameter. This can lead to Pre-Auth Remote Code Execution.
+
+- [https://github.com/n3m1sys/CVE-2018-16763-Exploit-Python3](https://github.com/n3m1sys/CVE-2018-16763-Exploit-Python3) :  ![starts](https://img.shields.io/github/stars/n3m1sys/CVE-2018-16763-Exploit-Python3.svg) ![forks](https://img.shields.io/github/forks/n3m1sys/CVE-2018-16763-Exploit-Python3.svg)
 
