@@ -92,13 +92,6 @@
 
 - [https://github.com/xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698) :  ![starts](https://img.shields.io/github/stars/xiaoxiaoleo/CVE-2009-2698.svg) ![forks](https://img.shields.io/github/forks/xiaoxiaoleo/CVE-2009-2698.svg)
 
-## CVE-2009-2692
- The Linux kernel 2.6.0 through 2.6.30.4, and 2.4.4 through 2.4.37.4, does not initialize all function pointers for socket operations in proto_ops structures, which allows local users to trigger a NULL pointer dereference and gain privileges by using mmap to map page zero, placing arbitrary code on this page, and then invoking an unavailable operation, as demonstrated by the sendpage operation (sock_sendpage function) on a PF_PPPOX socket.
-
-
-
-- [https://github.com/jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692) :  ![starts](https://img.shields.io/github/stars/jdvalentini/CVE-2009-2692.svg) ![forks](https://img.shields.io/github/forks/jdvalentini/CVE-2009-2692.svg)
-
 ## CVE-2009-2585
  SQL injection vulnerability in index.php in Mlffat 2.2 allows remote attackers to execute arbitrary SQL commands via a member cookie in an account editprofile action, a different vector than CVE-2009-1731.
 
@@ -117,7 +110,7 @@
 
 - [https://github.com/p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/p1ckzi/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/p1ckzi/CVE-2009-2265.svg)
 
-- [https://github.com/n3ov4n1sh/CVE-2009-2265](https://github.com/n3ov4n1sh/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/n3ov4n1sh/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/n3ov4n1sh/CVE-2009-2265.svg)
+- [https://github.com/c0d3cr4f73r/CVE-2009-2265](https://github.com/c0d3cr4f73r/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/c0d3cr4f73r/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/c0d3cr4f73r/CVE-2009-2265.svg)
 
 - [https://github.com/brunorhis/CVE2009-2265](https://github.com/brunorhis/CVE2009-2265) :  ![starts](https://img.shields.io/github/stars/brunorhis/CVE2009-2265.svg) ![forks](https://img.shields.io/github/forks/brunorhis/CVE2009-2265.svg)
 
@@ -140,9 +133,9 @@
 
 
 
-- [https://github.com/war4uthor/CVE-2009-1330](https://github.com/war4uthor/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2009-1330.svg)
-
 - [https://github.com/adenkiewicz/CVE-2009-1330](https://github.com/adenkiewicz/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2009-1330.svg)
+
+- [https://github.com/war4uthor/CVE-2009-1330](https://github.com/war4uthor/CVE-2009-1330) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2009-1330.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2009-1330.svg)
 
 - [https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter](https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter) :  ![starts](https://img.shields.io/github/stars/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter.svg) ![forks](https://img.shields.io/github/forks/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter.svg)
 
