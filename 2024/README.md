@@ -377,6 +377,13 @@
 
 - [https://github.com/shenhav12/CVE-2024-22889-Plone-v6.0.9](https://github.com/shenhav12/CVE-2024-22889-Plone-v6.0.9) :  ![starts](https://img.shields.io/github/stars/shenhav12/CVE-2024-22889-Plone-v6.0.9.svg) ![forks](https://img.shields.io/github/forks/shenhav12/CVE-2024-22889-Plone-v6.0.9.svg)
 
+## CVE-2024-22867
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/brandon-t-elliott/CVE-2024-22867](https://github.com/brandon-t-elliott/CVE-2024-22867) :  ![starts](https://img.shields.io/github/stars/brandon-t-elliott/CVE-2024-22867.svg) ![forks](https://img.shields.io/github/forks/brandon-t-elliott/CVE-2024-22867.svg)
+
 ## CVE-2024-22678
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -450,6 +457,8 @@
 
 
 - [https://github.com/0dteam/CVE-2024-22024](https://github.com/0dteam/CVE-2024-22024) :  ![starts](https://img.shields.io/github/stars/0dteam/CVE-2024-22024.svg) ![forks](https://img.shields.io/github/forks/0dteam/CVE-2024-22024.svg)
+
+- [https://github.com/labesterOct/CVE-2024-22024](https://github.com/labesterOct/CVE-2024-22024) :  ![starts](https://img.shields.io/github/stars/labesterOct/CVE-2024-22024.svg) ![forks](https://img.shields.io/github/forks/labesterOct/CVE-2024-22024.svg)
 
 ## CVE-2024-21893
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
