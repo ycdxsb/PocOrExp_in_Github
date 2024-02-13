@@ -1,43 +1,30 @@
-# Update 2024-02-12
-## CVE-2024-22867
+# Update 2024-02-13
+## CVE-2024-24409
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/brandon-t-elliott/CVE-2024-22867](https://github.com/brandon-t-elliott/CVE-2024-22867) :  ![starts](https://img.shields.io/github/stars/brandon-t-elliott/CVE-2024-22867.svg) ![forks](https://img.shields.io/github/forks/brandon-t-elliott/CVE-2024-22867.svg)
+- [https://github.com/passtheticket/CVE-2024-24409](https://github.com/passtheticket/CVE-2024-24409) :  ![starts](https://img.shields.io/github/stars/passtheticket/CVE-2024-24409.svg) ![forks](https://img.shields.io/github/forks/passtheticket/CVE-2024-24409.svg)
 
 
-## CVE-2024-22024
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2023-46747
+ Undisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated
 
-- [https://github.com/labesterOct/CVE-2024-22024](https://github.com/labesterOct/CVE-2024-22024) :  ![starts](https://img.shields.io/github/stars/labesterOct/CVE-2024-22024.svg) ![forks](https://img.shields.io/github/forks/labesterOct/CVE-2024-22024.svg)
-
-
-## CVE-2023-35080
- A vulnerability has been identified in the Ivanti Secure Access Windows client, which could allow a locally authenticated attacker to exploit a vulnerable configuration, potentially leading to various security risks, including the escalation of privileges, denial of service, or information disclosure.
-
-- [https://github.com/HopHouse/Ivanti-Pulse_VPN-Client_Exploit-CVE-2023-35080_Privilege-escalation](https://github.com/HopHouse/Ivanti-Pulse_VPN-Client_Exploit-CVE-2023-35080_Privilege-escalation) :  ![starts](https://img.shields.io/github/stars/HopHouse/Ivanti-Pulse_VPN-Client_Exploit-CVE-2023-35080_Privilege-escalation.svg) ![forks](https://img.shields.io/github/forks/HopHouse/Ivanti-Pulse_VPN-Client_Exploit-CVE-2023-35080_Privilege-escalation.svg)
+- [https://github.com/vidura2/cve-2023-46747](https://github.com/vidura2/cve-2023-46747) :  ![starts](https://img.shields.io/github/stars/vidura2/cve-2023-46747.svg) ![forks](https://img.shields.io/github/forks/vidura2/cve-2023-46747.svg)
 
 
-## CVE-2023-33592
- Lost and Found Information System v1.0 was discovered to contain a SQL injection vulnerability via the component /php-lfis/admin/?page=system_info/contact_information.
+## CVE-2023-22527
+ A template injection vulnerability on older versions of Confluence Data Center and Server allows an unauthenticated attacker to achieve RCE on an affected instance. Customers using an affected version must take immediate action. Most recent supported versions of Confluence Data Center and Server are not affected by this vulnerability as it was ultimately mitigated during regular version updates. However, Atlassian recommends that customers take care to install the latest version to protect their instances from non-critical vulnerabilities outlined in Atlassian&#8217;s January Security Bulletin.
 
-- [https://github.com/FuckingHack3r/CVE-2023-33592](https://github.com/FuckingHack3r/CVE-2023-33592) :  ![starts](https://img.shields.io/github/stars/FuckingHack3r/CVE-2023-33592.svg) ![forks](https://img.shields.io/github/forks/FuckingHack3r/CVE-2023-33592.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/TheLastVvV/CVE-2021-41773](https://github.com/TheLastVvV/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/TheLastVvV/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/TheLastVvV/CVE-2021-41773.svg)
-- [https://github.com/vuongnv3389-sec/cve-2021-41773](https://github.com/vuongnv3389-sec/cve-2021-41773) :  ![starts](https://img.shields.io/github/stars/vuongnv3389-sec/cve-2021-41773.svg) ![forks](https://img.shields.io/github/forks/vuongnv3389-sec/cve-2021-41773.svg)
+- [https://github.com/Boogipop/CVE-2023-22527-Godzilla-MEMSHELL](https://github.com/Boogipop/CVE-2023-22527-Godzilla-MEMSHELL) :  ![starts](https://img.shields.io/github/stars/Boogipop/CVE-2023-22527-Godzilla-MEMSHELL.svg) ![forks](https://img.shields.io/github/forks/Boogipop/CVE-2023-22527-Godzilla-MEMSHELL.svg)
 
 
-## CVE-2018-5234
- The Norton Core router prior to v237 may be susceptible to a command injection exploit. This is a type of attack in which the goal is execution of arbitrary commands on the host system via vulnerable software.
+## CVE-2022-4262
+ Type confusion in V8 in Google Chrome prior to 108.0.5359.94 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
 
-- [https://github.com/saruman9/ble_connect_rust](https://github.com/saruman9/ble_connect_rust) :  ![starts](https://img.shields.io/github/stars/saruman9/ble_connect_rust.svg) ![forks](https://img.shields.io/github/forks/saruman9/ble_connect_rust.svg)
+- [https://github.com/quangnh89/CVE-2022-4262](https://github.com/quangnh89/CVE-2022-4262) :  ![starts](https://img.shields.io/github/stars/quangnh89/CVE-2022-4262.svg) ![forks](https://img.shields.io/github/forks/quangnh89/CVE-2022-4262.svg)
 
 
-## CVE-2014-6271
- GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
+## CVE-2019-11447
+ An issue was discovered in CutePHP CuteNews 2.1.2. An attacker can infiltrate the server through the avatar upload process in the profile area via the avatar_file field to index.php?mod=main&amp;opt=personal. There is no effective control of $imgsize in /core/modules/dashboard.php. The header content of a file can be changed and the control can be bypassed for code execution. (An attacker can use the GIF header for this.)
 
-- [https://github.com/hackintoanetwork/shellshock](https://github.com/hackintoanetwork/shellshock) :  ![starts](https://img.shields.io/github/stars/hackintoanetwork/shellshock.svg) ![forks](https://img.shields.io/github/forks/hackintoanetwork/shellshock.svg)
+- [https://github.com/CRFSlick/CVE-2019-11447-POC](https://github.com/CRFSlick/CVE-2019-11447-POC) :  ![starts](https://img.shields.io/github/stars/CRFSlick/CVE-2019-11447-POC.svg) ![forks](https://img.shields.io/github/forks/CRFSlick/CVE-2019-11447-POC.svg)
 
