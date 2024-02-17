@@ -1,3 +1,17 @@
+## CVE-2024-25753
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/codeb0ss/CVE-2024-25735-PoC](https://github.com/codeb0ss/CVE-2024-25735-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2024-25735-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2024-25735-PoC.svg)
+
+## CVE-2024-25735
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/codeb0ss/CVE-2024-25735-PoC](https://github.com/codeb0ss/CVE-2024-25735-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2024-25735-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2024-25735-PoC.svg)
+
 ## CVE-2024-25466
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -191,9 +205,9 @@
 
 - [https://github.com/wjlin0/CVE-2024-23897](https://github.com/wjlin0/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/wjlin0/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/wjlin0/CVE-2024-23897.svg)
 
-- [https://github.com/xaitax/CVE-2024-23897](https://github.com/xaitax/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/xaitax/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/xaitax/CVE-2024-23897.svg)
-
 - [https://github.com/kaanatmacaa/CVE-2024-23897](https://github.com/kaanatmacaa/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/kaanatmacaa/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/kaanatmacaa/CVE-2024-23897.svg)
+
+- [https://github.com/xaitax/CVE-2024-23897](https://github.com/xaitax/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/xaitax/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/xaitax/CVE-2024-23897.svg)
 
 - [https://github.com/Vozec/CVE-2024-23897](https://github.com/Vozec/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Vozec/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Vozec/CVE-2024-23897.svg)
 
@@ -216,6 +230,10 @@
 - [https://github.com/vmtyan/poc-cve-2024-23897](https://github.com/vmtyan/poc-cve-2024-23897) :  ![starts](https://img.shields.io/github/stars/vmtyan/poc-cve-2024-23897.svg) ![forks](https://img.shields.io/github/forks/vmtyan/poc-cve-2024-23897.svg)
 
 - [https://github.com/B4CK4TT4CK/CVE-2024-23897](https://github.com/B4CK4TT4CK/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/B4CK4TT4CK/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/B4CK4TT4CK/CVE-2024-23897.svg)
+
+- [https://github.com/ifconfig-me/CVE-2024-23897](https://github.com/ifconfig-me/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/ifconfig-me/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/ifconfig-me/CVE-2024-23897.svg)
+
+- [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
 
 - [https://github.com/abdomagdy0/CVE-2024-23897-htb](https://github.com/abdomagdy0/CVE-2024-23897-htb) :  ![starts](https://img.shields.io/github/stars/abdomagdy0/CVE-2024-23897-htb.svg) ![forks](https://img.shields.io/github/forks/abdomagdy0/CVE-2024-23897-htb.svg)
 
@@ -575,7 +593,11 @@
 
 
 
+- [https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability) :  ![starts](https://img.shields.io/github/stars/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability.svg)
+
 - [https://github.com/duy-31/CVE-2024-21413](https://github.com/duy-31/CVE-2024-21413) :  ![starts](https://img.shields.io/github/stars/duy-31/CVE-2024-21413.svg) ![forks](https://img.shields.io/github/forks/duy-31/CVE-2024-21413.svg)
+
+- [https://github.com/r00tb1t/CVE-2024-21413-POC](https://github.com/r00tb1t/CVE-2024-21413-POC) :  ![starts](https://img.shields.io/github/stars/r00tb1t/CVE-2024-21413-POC.svg) ![forks](https://img.shields.io/github/forks/r00tb1t/CVE-2024-21413-POC.svg)
 
 ## CVE-2024-21305
  Hypervisor-Protected Code Integrity (HVCI) Security Feature Bypass Vulnerability
