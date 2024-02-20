@@ -552,6 +552,13 @@
 
 - [https://github.com/tamaloa/avo-CVE-2024-22411](https://github.com/tamaloa/avo-CVE-2024-22411) :  ![starts](https://img.shields.io/github/stars/tamaloa/avo-CVE-2024-22411.svg) ![forks](https://img.shields.io/github/forks/tamaloa/avo-CVE-2024-22411.svg)
 
+## CVE-2024-22369
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/oscerd/CVE-2024-22369](https://github.com/oscerd/CVE-2024-22369) :  ![starts](https://img.shields.io/github/stars/oscerd/CVE-2024-22369.svg) ![forks](https://img.shields.io/github/forks/oscerd/CVE-2024-22369.svg)
+
 ## CVE-2024-22145
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -598,9 +605,9 @@
 
 - [https://github.com/TheRedDevil1/Check-Vulns-Script](https://github.com/TheRedDevil1/Check-Vulns-Script) :  ![starts](https://img.shields.io/github/stars/TheRedDevil1/Check-Vulns-Script.svg) ![forks](https://img.shields.io/github/forks/TheRedDevil1/Check-Vulns-Script.svg)
 
-- [https://github.com/tucommenceapousser/CVE-2024-21887](https://github.com/tucommenceapousser/CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/tucommenceapousser/CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/tucommenceapousser/CVE-2024-21887.svg)
-
 - [https://github.com/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887](https://github.com/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887.svg)
+
+- [https://github.com/tucommenceapousser/CVE-2024-21887](https://github.com/tucommenceapousser/CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/tucommenceapousser/CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/tucommenceapousser/CVE-2024-21887.svg)
 
 - [https://github.com/imhunterand/CVE-2024-21887](https://github.com/imhunterand/CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/imhunterand/CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/imhunterand/CVE-2024-21887.svg)
 
@@ -645,9 +652,9 @@
 
 - [https://github.com/labesterOct/CVE-2024-21413](https://github.com/labesterOct/CVE-2024-21413) :  ![starts](https://img.shields.io/github/stars/labesterOct/CVE-2024-21413.svg) ![forks](https://img.shields.io/github/forks/labesterOct/CVE-2024-21413.svg)
 
-- [https://github.com/CMNatic/CVE-2024-21413](https://github.com/CMNatic/CVE-2024-21413) :  ![starts](https://img.shields.io/github/stars/CMNatic/CVE-2024-21413.svg) ![forks](https://img.shields.io/github/forks/CMNatic/CVE-2024-21413.svg)
-
 - [https://github.com/MSeymenD/CVE-2024-21413](https://github.com/MSeymenD/CVE-2024-21413) :  ![starts](https://img.shields.io/github/stars/MSeymenD/CVE-2024-21413.svg) ![forks](https://img.shields.io/github/forks/MSeymenD/CVE-2024-21413.svg)
+
+- [https://github.com/CMNatic/CVE-2024-21413](https://github.com/CMNatic/CVE-2024-21413) :  ![starts](https://img.shields.io/github/stars/CMNatic/CVE-2024-21413.svg) ![forks](https://img.shields.io/github/forks/CMNatic/CVE-2024-21413.svg)
 
 ## CVE-2024-21305
  Hypervisor-Protected Code Integrity (HVCI) Security Feature Bypass Vulnerability
