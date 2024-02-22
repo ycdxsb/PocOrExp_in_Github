@@ -105,9 +105,9 @@
 
 - [https://github.com/mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/mr-l0n3lly/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/mr-l0n3lly/CVE-2007-2447.svg)
 
-- [https://github.com/G01d3nW01f/CVE-2007-2447](https://github.com/G01d3nW01f/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2007-2447.svg)
-
 - [https://github.com/0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xKn/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xKn/CVE-2007-2447.svg)
+
+- [https://github.com/G01d3nW01f/CVE-2007-2447](https://github.com/G01d3nW01f/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2007-2447.svg)
 
 - [https://github.com/0xTabun/CVE-2007-2447](https://github.com/0xTabun/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xTabun/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xTabun/CVE-2007-2447.svg)
 
@@ -140,7 +140,7 @@
 
 
 
-- [https://github.com/clino-mania/A2SV--SSL-VUL-Scan](https://github.com/clino-mania/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/clino-mania/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/clino-mania/A2SV--SSL-VUL-Scan.svg)
+- [https://github.com/anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/anthophilee/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/anthophilee/A2SV--SSL-VUL-Scan.svg)
 
 ## CVE-2007-1567
  Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows remote attackers to cause a denial of service or execute arbitrary code via unspecified vectors, as demonstrated by warftp_165.tar by Immunity.  NOTE: this might be the same issue as CVE-1999-0256, CVE-2000-0131, or CVE-2006-2171, but due to Immunity's lack of details, this cannot be certain.
