@@ -2704,6 +2704,8 @@
 
 - [https://github.com/jason3e7/CVE-2019-11510](https://github.com/jason3e7/CVE-2019-11510) :  ![starts](https://img.shields.io/github/stars/jason3e7/CVE-2019-11510.svg) ![forks](https://img.shields.io/github/forks/jason3e7/CVE-2019-11510.svg)
 
+- [https://github.com/0xab01/-CVE-2019-11510-Exploit](https://github.com/0xab01/-CVE-2019-11510-Exploit) :  ![starts](https://img.shields.io/github/stars/0xab01/-CVE-2019-11510-Exploit.svg) ![forks](https://img.shields.io/github/forks/0xab01/-CVE-2019-11510-Exploit.svg)
+
 ## CVE-2019-11477
  Jonathan Looney discovered that the TCP_SKB_CB(skb)-&gt;tcp_gso_segs value was subject to an integer overflow in the Linux kernel when handling TCP Selective Acknowledgments (SACKs). A remote attacker could use this to cause a denial of service. This has been fixed in stable kernel releases 4.4.182, 4.9.182, 4.14.127, 4.19.52, 5.1.11, and is fixed in commit 3b4929f65b0d8249f19a50245cd88ed1a2f78cff.
 
@@ -3463,9 +3465,9 @@
 
 - [https://github.com/kahluri/CVE-2019-9053](https://github.com/kahluri/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/kahluri/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/kahluri/CVE-2019-9053.svg)
 
-- [https://github.com/BjarneVerschorre/CVE-2019-9053](https://github.com/BjarneVerschorre/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/BjarneVerschorre/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/BjarneVerschorre/CVE-2019-9053.svg)
-
 - [https://github.com/fernandobortotti/CVE-2019-9053](https://github.com/fernandobortotti/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/fernandobortotti/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/fernandobortotti/CVE-2019-9053.svg)
+
+- [https://github.com/BjarneVerschorre/CVE-2019-9053](https://github.com/BjarneVerschorre/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/BjarneVerschorre/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/BjarneVerschorre/CVE-2019-9053.svg)
 
 - [https://github.com/STERN3L/CVE-2019-9053](https://github.com/STERN3L/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/STERN3L/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/STERN3L/CVE-2019-9053.svg)
 
@@ -4563,9 +4565,9 @@
 
 - [https://github.com/quanpt103/CVE-2019-3396](https://github.com/quanpt103/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/quanpt103/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/quanpt103/CVE-2019-3396.svg)
 
-- [https://github.com/xiaoshuier/CVE-2019-3396](https://github.com/xiaoshuier/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/xiaoshuier/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/xiaoshuier/CVE-2019-3396.svg)
-
 - [https://github.com/yuehanked/cve-2019-3396](https://github.com/yuehanked/cve-2019-3396) :  ![starts](https://img.shields.io/github/stars/yuehanked/cve-2019-3396.svg) ![forks](https://img.shields.io/github/forks/yuehanked/cve-2019-3396.svg)
+
+- [https://github.com/xiaoshuier/CVE-2019-3396](https://github.com/xiaoshuier/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/xiaoshuier/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/xiaoshuier/CVE-2019-3396.svg)
 
 - [https://github.com/am6539/CVE-2019-3396](https://github.com/am6539/CVE-2019-3396) :  ![starts](https://img.shields.io/github/stars/am6539/CVE-2019-3396.svg) ![forks](https://img.shields.io/github/forks/am6539/CVE-2019-3396.svg)
 
@@ -5530,9 +5532,9 @@
 
 
 
-- [https://github.com/NatteeSetobol/Chakra-CVE-2019-0567](https://github.com/NatteeSetobol/Chakra-CVE-2019-0567) :  ![starts](https://img.shields.io/github/stars/NatteeSetobol/Chakra-CVE-2019-0567.svg) ![forks](https://img.shields.io/github/forks/NatteeSetobol/Chakra-CVE-2019-0567.svg)
-
 - [https://github.com/ommadawn46/Chakra-TypeConfusions](https://github.com/ommadawn46/Chakra-TypeConfusions) :  ![starts](https://img.shields.io/github/stars/ommadawn46/Chakra-TypeConfusions.svg) ![forks](https://img.shields.io/github/forks/ommadawn46/Chakra-TypeConfusions.svg)
+
+- [https://github.com/NatteeSetobol/Chakra-CVE-2019-0567](https://github.com/NatteeSetobol/Chakra-CVE-2019-0567) :  ![starts](https://img.shields.io/github/stars/NatteeSetobol/Chakra-CVE-2019-0567.svg) ![forks](https://img.shields.io/github/forks/NatteeSetobol/Chakra-CVE-2019-0567.svg)
 
 ## CVE-2019-0541
  A remote code execution vulnerability exists in the way that the MSHTML engine inproperly validates input, aka &quot;MSHTML Engine Remote Code Execution Vulnerability.&quot; This affects Microsoft Office, Microsoft Office Word Viewer, Internet Explorer 9, Internet Explorer 11, Microsoft Excel Viewer, Internet Explorer 10, Office 365 ProPlus.
