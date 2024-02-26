@@ -1,36 +1,72 @@
-# Update 2024-02-25
-## CVE-2024-22243
+# Update 2024-02-26
+## CVE-2024-25376
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234](https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234) :  ![starts](https://img.shields.io/github/stars/shellfeel/CVE-2024-22243-CVE-2024-22234.svg) ![forks](https://img.shields.io/github/forks/shellfeel/CVE-2024-22243-CVE-2024-22234.svg)
+- [https://github.com/ewilded/CVE-2024-25376-POC](https://github.com/ewilded/CVE-2024-25376-POC) :  ![starts](https://img.shields.io/github/stars/ewilded/CVE-2024-25376-POC.svg) ![forks](https://img.shields.io/github/forks/ewilded/CVE-2024-25376-POC.svg)
 
 
-## CVE-2024-22234
+## CVE-2023-39320
+ The go.mod toolchain directive, introduced in Go 1.21, can be leveraged to execute scripts and binaries relative to the root of the module when the &quot;go&quot; command was executed within the module. This applies to modules downloaded using the &quot;go&quot; command from the module proxy, as well as modules downloaded directly using VCS software.
+
+- [https://github.com/ayrustogaru/cve-2023-39320](https://github.com/ayrustogaru/cve-2023-39320) :  ![starts](https://img.shields.io/github/stars/ayrustogaru/cve-2023-39320.svg) ![forks](https://img.shields.io/github/forks/ayrustogaru/cve-2023-39320.svg)
+
+
+## CVE-2023-22515
+ Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances. Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.
+
+- [https://github.com/rxerium/CVE-2023-22515](https://github.com/rxerium/CVE-2023-22515) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2023-22515.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2023-22515.svg)
+
+
+## CVE-2022-46499
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234](https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234) :  ![starts](https://img.shields.io/github/stars/shellfeel/CVE-2024-22243-CVE-2024-22234.svg) ![forks](https://img.shields.io/github/forks/shellfeel/CVE-2024-22243-CVE-2024-22234.svg)
+- [https://github.com/ASR511-OO7/CVE-2022-46499](https://github.com/ASR511-OO7/CVE-2022-46499) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2022-46499.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2022-46499.svg)
 
 
-## CVE-2024-21413
+## CVE-2022-46498
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability) :  ![starts](https://img.shields.io/github/stars/ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability.svg)
+- [https://github.com/ASR511-OO7/CVE-2022-46498](https://github.com/ASR511-OO7/CVE-2022-46498) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2022-46498.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2022-46498.svg)
 
 
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+## CVE-2022-46497
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2021-41773.svg)
-
-
-## CVE-2021-4204
- An out-of-bounds (OOB) memory access flaw was found in the Linux kernel's eBPF due to an Improper Input Validation. This flaw allows a local attacker with a special privilege to crash the system or leak internal information.
-
-- [https://github.com/tr3ee/CVE-2021-4204](https://github.com/tr3ee/CVE-2021-4204) :  ![starts](https://img.shields.io/github/stars/tr3ee/CVE-2021-4204.svg) ![forks](https://img.shields.io/github/forks/tr3ee/CVE-2021-4204.svg)
+- [https://github.com/ASR511-OO7/CVE-2022-46497](https://github.com/ASR511-OO7/CVE-2022-46497) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2022-46497.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2022-46497.svg)
 
 
-## CVE-2020-36730
- The CMP for WordPress is vulnerable to authorization bypass due to a missing capability check on the cmp_get_post_detail(), niteo_export_csv(), and cmp_disable_comingsoon_ajax() functions in versions up to, and including, 3.8.1. This makes it possible for unauthenticated attackers to read posts, export subscriber lists, and/or deactivate the plugin.
+## CVE-2022-46091
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/RandomRobbieBF/CVE-2020-36730](https://github.com/RandomRobbieBF/CVE-2020-36730) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2020-36730.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2020-36730.svg)
+- [https://github.com/ASR511-OO7/CVE-2022-46091](https://github.com/ASR511-OO7/CVE-2022-46091) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2022-46091.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2022-46091.svg)
+
+
+## CVE-2022-46089
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/ASR511-OO7/CVE-2022-46089](https://github.com/ASR511-OO7/CVE-2022-46089) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2022-46089.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2022-46089.svg)
+
+
+## CVE-2022-46088
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/ASR511-OO7/CVE-2022-46088](https://github.com/ASR511-OO7/CVE-2022-46088) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2022-46088.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2022-46088.svg)
+
+
+## CVE-2020-10189
+ Zoho ManageEngine Desktop Central before 10.0.474 allows remote code execution because of deserialization of untrusted data in getChartImage in the FileStorage class. This is related to the CewolfServlet and MDMLogUploaderServlet servlets.
+
+- [https://github.com/BLACKpwn/Remote_Code_Execution-](https://github.com/BLACKpwn/Remote_Code_Execution-) :  ![starts](https://img.shields.io/github/stars/BLACKpwn/Remote_Code_Execution-.svg) ![forks](https://img.shields.io/github/forks/BLACKpwn/Remote_Code_Execution-.svg)
+
+
+## CVE-2020-3452
+ A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct directory traversal attacks and read sensitive files on a targeted system. The vulnerability is due to a lack of proper input validation of URLs in HTTP requests processed by an affected device. An attacker could exploit this vulnerability by sending a crafted HTTP request containing directory traversal character sequences to an affected device. A successful exploit could allow the attacker to view arbitrary files within the web services file system on the targeted device. The web services file system is enabled when the affected device is configured with either WebVPN or AnyConnect features. This vulnerability cannot be used to obtain access to ASA or FTD system files or underlying operating system (OS) files.
+
+- [https://github.com/imhunterand/CVE-2020-3452](https://github.com/imhunterand/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/imhunterand/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/imhunterand/CVE-2020-3452.svg)
+
+
+## CVE-2017-5123
+ Insufficient data validation in waitid allowed an user to escape sandboxes on Linux.
+
+- [https://github.com/h1bAna/CVE-2017-5123](https://github.com/h1bAna/CVE-2017-5123) :  ![starts](https://img.shields.io/github/stars/h1bAna/CVE-2017-5123.svg) ![forks](https://img.shields.io/github/forks/h1bAna/CVE-2017-5123.svg)
 
