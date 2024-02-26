@@ -114,6 +114,20 @@
 
 - [https://github.com/Agampreet-Singh/CVE-2024-25202](https://github.com/Agampreet-Singh/CVE-2024-25202) :  ![starts](https://img.shields.io/github/stars/Agampreet-Singh/CVE-2024-25202.svg) ![forks](https://img.shields.io/github/forks/Agampreet-Singh/CVE-2024-25202.svg)
 
+## CVE-2024-25170
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0](https://github.com/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0) :  ![starts](https://img.shields.io/github/stars/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0.svg) ![forks](https://img.shields.io/github/forks/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0.svg)
+
+## CVE-2024-25169
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0](https://github.com/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0) :  ![starts](https://img.shields.io/github/stars/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0.svg) ![forks](https://img.shields.io/github/forks/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0.svg)
+
 ## CVE-2024-25092
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -289,6 +303,20 @@
 
 - [https://github.com/ASR511-OO7/CVE-2024-24101](https://github.com/ASR511-OO7/CVE-2024-24101) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24101.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24101.svg)
 
+## CVE-2024-24100
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ASR511-OO7/CVE-2024-24100](https://github.com/ASR511-OO7/CVE-2024-24100) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24100.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24100.svg)
+
+## CVE-2024-24099
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ASR511-OO7/CVE-2024-24099](https://github.com/ASR511-OO7/CVE-2024-24099) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24099.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24099.svg)
+
 ## CVE-2024-24098
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -302,6 +330,20 @@
 
 
 - [https://github.com/ASR511-OO7/CVE-2024-24097](https://github.com/ASR511-OO7/CVE-2024-24097) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24097.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24097.svg)
+
+## CVE-2024-24096
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ASR511-OO7/CVE-2024-24096](https://github.com/ASR511-OO7/CVE-2024-24096) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24096.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24096.svg)
+
+## CVE-2024-24095
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ASR511-OO7/CVE-2024-24095](https://github.com/ASR511-OO7/CVE-2024-24095) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24095.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24095.svg)
 
 ## CVE-2024-24094
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -390,6 +432,8 @@
 
 - [https://github.com/ThatNotEasy/CVE-2024-23897](https://github.com/ThatNotEasy/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/ThatNotEasy/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/ThatNotEasy/CVE-2024-23897.svg)
 
+- [https://github.com/Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2024-23897.svg)
+
 - [https://github.com/abdomagdy0/CVE-2024-23897-htb](https://github.com/abdomagdy0/CVE-2024-23897-htb) :  ![starts](https://img.shields.io/github/stars/abdomagdy0/CVE-2024-23897-htb.svg) ![forks](https://img.shields.io/github/forks/abdomagdy0/CVE-2024-23897-htb.svg)
 
 - [https://github.com/brijne/CVE-2024-23897-RCE](https://github.com/brijne/CVE-2024-23897-RCE) :  ![starts](https://img.shields.io/github/stars/brijne/CVE-2024-23897-RCE.svg) ![forks](https://img.shields.io/github/forks/brijne/CVE-2024-23897-RCE.svg)
@@ -447,44 +491,44 @@
 
 
 
-- [https://github.com/V3x0r/CVE-2024-23743](https://github.com/V3x0r/CVE-2024-23743) :  ![starts](https://img.shields.io/github/stars/V3x0r/CVE-2024-23743.svg) ![forks](https://img.shields.io/github/forks/V3x0r/CVE-2024-23743.svg)
+- [https://github.com/giovannipajeu1/CVE-2024-23743](https://github.com/giovannipajeu1/CVE-2024-23743) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23743.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23743.svg)
 
 ## CVE-2024-23742
  An issue in Loom on macOS version 0.196.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 
 
 
-- [https://github.com/V3x0r/CVE-2024-23742](https://github.com/V3x0r/CVE-2024-23742) :  ![starts](https://img.shields.io/github/stars/V3x0r/CVE-2024-23742.svg) ![forks](https://img.shields.io/github/forks/V3x0r/CVE-2024-23742.svg)
+- [https://github.com/giovannipajeu1/CVE-2024-23742](https://github.com/giovannipajeu1/CVE-2024-23742) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23742.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23742.svg)
 
 ## CVE-2024-23741
  An issue in Hyper on macOS version 3.4.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 
 
 
-- [https://github.com/V3x0r/CVE-2024-23741](https://github.com/V3x0r/CVE-2024-23741) :  ![starts](https://img.shields.io/github/stars/V3x0r/CVE-2024-23741.svg) ![forks](https://img.shields.io/github/forks/V3x0r/CVE-2024-23741.svg)
+- [https://github.com/giovannipajeu1/CVE-2024-23741](https://github.com/giovannipajeu1/CVE-2024-23741) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23741.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23741.svg)
 
 ## CVE-2024-23740
  An issue in Kap for macOS version 3.6.0 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 
 
 
-- [https://github.com/V3x0r/CVE-2024-23740](https://github.com/V3x0r/CVE-2024-23740) :  ![starts](https://img.shields.io/github/stars/V3x0r/CVE-2024-23740.svg) ![forks](https://img.shields.io/github/forks/V3x0r/CVE-2024-23740.svg)
+- [https://github.com/giovannipajeu1/CVE-2024-23740](https://github.com/giovannipajeu1/CVE-2024-23740) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23740.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23740.svg)
 
 ## CVE-2024-23739
  An issue in Discord for macOS version 0.0.291 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 
 
 
-- [https://github.com/V3x0r/CVE-2024-23739](https://github.com/V3x0r/CVE-2024-23739) :  ![starts](https://img.shields.io/github/stars/V3x0r/CVE-2024-23739.svg) ![forks](https://img.shields.io/github/forks/V3x0r/CVE-2024-23739.svg)
+- [https://github.com/giovannipajeu1/CVE-2024-23739](https://github.com/giovannipajeu1/CVE-2024-23739) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23739.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23739.svg)
 
-- [https://github.com/V3x0r/CVE-2024-23740](https://github.com/V3x0r/CVE-2024-23740) :  ![starts](https://img.shields.io/github/stars/V3x0r/CVE-2024-23740.svg) ![forks](https://img.shields.io/github/forks/V3x0r/CVE-2024-23740.svg)
+- [https://github.com/giovannipajeu1/CVE-2024-23740](https://github.com/giovannipajeu1/CVE-2024-23740) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23740.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23740.svg)
 
 ## CVE-2024-23738
  An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 
 
 
-- [https://github.com/V3x0r/CVE-2024-23738](https://github.com/V3x0r/CVE-2024-23738) :  ![starts](https://img.shields.io/github/stars/V3x0r/CVE-2024-23738.svg) ![forks](https://img.shields.io/github/forks/V3x0r/CVE-2024-23738.svg)
+- [https://github.com/giovannipajeu1/CVE-2024-23738](https://github.com/giovannipajeu1/CVE-2024-23738) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23738.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23738.svg)
 
 ## CVE-2024-23208
  The issue was addressed with improved memory handling. This issue is fixed in macOS Sonoma 14.3, watchOS 10.3, tvOS 17.3, iOS 17.3 and iPadOS 17.3. An app may be able to execute arbitrary code with kernel privileges.
@@ -527,6 +571,13 @@
 
 
 - [https://github.com/keru6k/CVE-2024-22922](https://github.com/keru6k/CVE-2024-22922) :  ![starts](https://img.shields.io/github/stars/keru6k/CVE-2024-22922.svg) ![forks](https://img.shields.io/github/forks/keru6k/CVE-2024-22922.svg)
+
+## CVE-2024-22917
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ASR511-OO7/CVE-2024-22917](https://github.com/ASR511-OO7/CVE-2024-22917) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-22917.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-22917.svg)
 
 ## CVE-2024-22909
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -834,6 +885,13 @@
 
 
 - [https://github.com/Wh04m1001/CVE-2024-20656](https://github.com/Wh04m1001/CVE-2024-20656) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/CVE-2024-20656.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/CVE-2024-20656.svg)
+
+## CVE-2024-1346
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/PeterGabaldon/CVE-2024-1346](https://github.com/PeterGabaldon/CVE-2024-1346) :  ![starts](https://img.shields.io/github/stars/PeterGabaldon/CVE-2024-1346.svg) ![forks](https://img.shields.io/github/forks/PeterGabaldon/CVE-2024-1346.svg)
 
 ## CVE-2024-1269
  A vulnerability has been found in SourceCodester Product Management System 1.0 and classified as problematic. This vulnerability affects unknown code of the file /supplier.php. The manipulation of the argument supplier_name/supplier_contact leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-253012.
