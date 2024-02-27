@@ -156,6 +156,20 @@
 
 - [https://github.com/passtheticket/CVE-2024-24409](https://github.com/passtheticket/CVE-2024-24409) :  ![starts](https://img.shields.io/github/stars/passtheticket/CVE-2024-24409.svg) ![forks](https://img.shields.io/github/forks/passtheticket/CVE-2024-24409.svg)
 
+## CVE-2024-24402
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/MAWK0235/CVE-2024-24402](https://github.com/MAWK0235/CVE-2024-24402) :  ![starts](https://img.shields.io/github/stars/MAWK0235/CVE-2024-24402.svg) ![forks](https://img.shields.io/github/forks/MAWK0235/CVE-2024-24402.svg)
+
+## CVE-2024-24401
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/MAWK0235/CVE-2024-24401](https://github.com/MAWK0235/CVE-2024-24401) :  ![starts](https://img.shields.io/github/stars/MAWK0235/CVE-2024-24401.svg) ![forks](https://img.shields.io/github/forks/MAWK0235/CVE-2024-24401.svg)
+
 ## CVE-2024-24398
  Directory Traversal vulnerability in Stimulsoft GmbH Stimulsoft Dashboard.JS before v.2024.1.2 allows a remote attacker to execute arbitrary code via a crafted payload to the fileName parameter of the Save function.
 
