@@ -1,187 +1,62 @@
-# Update 2024-02-27
-## CVE-2024-25170
+# Update 2024-02-28
+## CVE-2024-24402
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0](https://github.com/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0) :  ![starts](https://img.shields.io/github/stars/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0.svg) ![forks](https://img.shields.io/github/forks/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0.svg)
+- [https://github.com/MAWK0235/CVE-2024-24402](https://github.com/MAWK0235/CVE-2024-24402) :  ![starts](https://img.shields.io/github/stars/MAWK0235/CVE-2024-24402.svg) ![forks](https://img.shields.io/github/forks/MAWK0235/CVE-2024-24402.svg)
 
 
-## CVE-2024-25169
+## CVE-2024-24401
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0](https://github.com/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0) :  ![starts](https://img.shields.io/github/stars/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0.svg) ![forks](https://img.shields.io/github/forks/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0.svg)
+- [https://github.com/MAWK0235/CVE-2024-24401](https://github.com/MAWK0235/CVE-2024-24401) :  ![starts](https://img.shields.io/github/stars/MAWK0235/CVE-2024-24401.svg) ![forks](https://img.shields.io/github/forks/MAWK0235/CVE-2024-24401.svg)
 
 
-## CVE-2024-24100
+## CVE-2023-52160
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/ASR511-OO7/CVE-2024-24100](https://github.com/ASR511-OO7/CVE-2024-24100) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24100.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24100.svg)
+- [https://github.com/Helica-core/eap_pwn](https://github.com/Helica-core/eap_pwn) :  ![starts](https://img.shields.io/github/stars/Helica-core/eap_pwn.svg) ![forks](https://img.shields.io/github/forks/Helica-core/eap_pwn.svg)
 
 
-## CVE-2024-24099
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2023-41892
+ Craft CMS is a platform for creating digital experiences. This is a high-impact, low-complexity attack vector. Users running Craft installations before 4.4.15 are encouraged to update to at least that version to mitigate the issue. This issue has been fixed in Craft CMS 4.4.15.
 
-- [https://github.com/ASR511-OO7/CVE-2024-24099](https://github.com/ASR511-OO7/CVE-2024-24099) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24099.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24099.svg)
+- [https://github.com/acesoyeo/CVE-2023-41892](https://github.com/acesoyeo/CVE-2023-41892) :  ![starts](https://img.shields.io/github/stars/acesoyeo/CVE-2023-41892.svg) ![forks](https://img.shields.io/github/forks/acesoyeo/CVE-2023-41892.svg)
 
 
-## CVE-2024-24096
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2023-21118
+ In unflattenString8 of Sensor.cpp, there is a possible out of bounds read due to a heap buffer overflow. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-269014004
 
-- [https://github.com/ASR511-OO7/CVE-2024-24096](https://github.com/ASR511-OO7/CVE-2024-24096) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24096.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24096.svg)
+- [https://github.com/Satheesh575555/frameworks_native_AOSP10_r33_CVE-2023-21118](https://github.com/Satheesh575555/frameworks_native_AOSP10_r33_CVE-2023-21118) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/frameworks_native_AOSP10_r33_CVE-2023-21118.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/frameworks_native_AOSP10_r33_CVE-2023-21118.svg)
 
 
-## CVE-2024-24095
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2022-30525
+ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W) firmware versions 5.00 through 5.21 Patch 1, USG FLEX 200 firmware versions 5.00 through 5.21 Patch 1, USG FLEX 500 firmware versions 5.00 through 5.21 Patch 1, USG FLEX 700 firmware versions 5.00 through 5.21 Patch 1, USG FLEX 50(W) firmware versions 5.10 through 5.21 Patch 1, USG20(W)-VPN firmware versions 5.10 through 5.21 Patch 1, ATP series firmware versions 5.10 through 5.21 Patch 1, VPN series firmware versions 4.60 through 5.21 Patch 1, which could allow an attacker to modify specific files and then execute some OS commands on a vulnerable device.
 
-- [https://github.com/ASR511-OO7/CVE-2024-24095](https://github.com/ASR511-OO7/CVE-2024-24095) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24095.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24095.svg)
+- [https://github.com/arajsingh-infosec/CVE-2022-30525_Exploit](https://github.com/arajsingh-infosec/CVE-2022-30525_Exploit) :  ![starts](https://img.shields.io/github/stars/arajsingh-infosec/CVE-2022-30525_Exploit.svg) ![forks](https://img.shields.io/github/forks/arajsingh-infosec/CVE-2022-30525_Exploit.svg)
 
 
-## CVE-2024-23897
- Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
+## CVE-2022-21445
+ Vulnerability in the Oracle JDeveloper product of Oracle Fusion Middleware (component: ADF Faces). Supported versions that are affected are 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle JDeveloper. Successful attacks of this vulnerability can result in takeover of Oracle JDeveloper. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 
-- [https://github.com/Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2024-23897.svg)
+- [https://github.com/M0chae1/CVE-2022-21445](https://github.com/M0chae1/CVE-2022-21445) :  ![starts](https://img.shields.io/github/stars/M0chae1/CVE-2022-21445.svg) ![forks](https://img.shields.io/github/forks/M0chae1/CVE-2022-21445.svg)
 
 
-## CVE-2024-23743
- An issue in Notion for macOS version 3.1.0 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments components.
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/giovannipajeu1/CVE-2024-23743](https://github.com/giovannipajeu1/CVE-2024-23743) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23743.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23743.svg)
+- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
+- [https://github.com/xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/xMohamed0/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/xMohamed0/CVE-2021-41773.svg)
+- [https://github.com/sixpacksecurity/CVE-2021-41773](https://github.com/sixpacksecurity/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/sixpacksecurity/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/sixpacksecurity/CVE-2021-41773.svg)
 
 
-## CVE-2024-23742
- An issue in Loom on macOS version 0.196.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
+## CVE-2021-22555
+ A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in net/netfilter/x_tables.c. This allows an attacker to gain privileges or cause a DoS (via heap memory corruption) through user name space
 
-- [https://github.com/giovannipajeu1/CVE-2024-23742](https://github.com/giovannipajeu1/CVE-2024-23742) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23742.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23742.svg)
+- [https://github.com/letsr00t/CVE-2021-22555](https://github.com/letsr00t/CVE-2021-22555) :  ![starts](https://img.shields.io/github/stars/letsr00t/CVE-2021-22555.svg) ![forks](https://img.shields.io/github/forks/letsr00t/CVE-2021-22555.svg)
 
 
-## CVE-2024-23741
- An issue in Hyper on macOS version 3.4.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
+## CVE-2017-2903
+ An exploitable integer overflow exists in the DPX loading functionality of the Blender open-source 3d creation suite version 2.78c. A specially crafted '.cin' file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to use the file as an asset via the sequencer in order to trigger this vulnerability.
 
-- [https://github.com/giovannipajeu1/CVE-2024-23741](https://github.com/giovannipajeu1/CVE-2024-23741) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23741.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23741.svg)
-
-
-## CVE-2024-23740
- An issue in Kap for macOS version 3.6.0 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
-
-- [https://github.com/giovannipajeu1/CVE-2024-23740](https://github.com/giovannipajeu1/CVE-2024-23740) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23740.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23740.svg)
-
-
-## CVE-2024-23739
- An issue in Discord for macOS version 0.0.291 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
-
-- [https://github.com/giovannipajeu1/CVE-2024-23739](https://github.com/giovannipajeu1/CVE-2024-23739) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23739.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23739.svg)
-- [https://github.com/giovannipajeu1/CVE-2024-23740](https://github.com/giovannipajeu1/CVE-2024-23740) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23740.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23740.svg)
-
-
-## CVE-2024-23738
- An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
-
-- [https://github.com/giovannipajeu1/CVE-2024-23738](https://github.com/giovannipajeu1/CVE-2024-23738) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23738.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23738.svg)
-
-
-## CVE-2024-22917
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/ASR511-OO7/CVE-2024-22917](https://github.com/ASR511-OO7/CVE-2024-22917) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-22917.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-22917.svg)
-
-
-## CVE-2024-1346
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/PeterGabaldon/CVE-2024-1346](https://github.com/PeterGabaldon/CVE-2024-1346) :  ![starts](https://img.shields.io/github/stars/PeterGabaldon/CVE-2024-1346.svg) ![forks](https://img.shields.io/github/forks/PeterGabaldon/CVE-2024-1346.svg)
-
-
-## CVE-2023-50643
- An issue in Evernote Evernote for MacOS v.10.68.2 allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments components.
-
-- [https://github.com/giovannipajeu1/CVE-2023-50643](https://github.com/giovannipajeu1/CVE-2023-50643) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2023-50643.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2023-50643.svg)
-
-
-## CVE-2023-42793
- In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible
-
-- [https://github.com/StanleyJobsonAU/GhostTown](https://github.com/StanleyJobsonAU/GhostTown) :  ![starts](https://img.shields.io/github/stars/StanleyJobsonAU/GhostTown.svg) ![forks](https://img.shields.io/github/forks/StanleyJobsonAU/GhostTown.svg)
-
-
-## CVE-2023-41506
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/ASR511-OO7/CVE-2023-41506](https://github.com/ASR511-OO7/CVE-2023-41506) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-41506.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-41506.svg)
-
-
-## CVE-2023-41505
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/ASR511-OO7/CVE-2023-41505](https://github.com/ASR511-OO7/CVE-2023-41505) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-41505.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-41505.svg)
-
-
-## CVE-2023-41504
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/ASR511-OO7/CVE-2023-41504](https://github.com/ASR511-OO7/CVE-2023-41504) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-41504.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-41504.svg)
-
-
-## CVE-2023-41503
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/ASR511-OO7/CVE-2023-41503](https://github.com/ASR511-OO7/CVE-2023-41503) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-41503.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-41503.svg)
-
-
-## CVE-2023-41015
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/ASR511-OO7/CVE-2023-41015](https://github.com/ASR511-OO7/CVE-2023-41015) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-41015.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-41015.svg)
-
-
-## CVE-2023-41014
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/ASR511-OO7/CVE-2023-41014](https://github.com/ASR511-OO7/CVE-2023-41014) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-41014.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-41014.svg)
-
-
-## CVE-2023-38831
- RARLAB WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.
-
-- [https://github.com/ahmed-fa7im/CVE-2023-38831-winrar-expoit-simple-Poc](https://github.com/ahmed-fa7im/CVE-2023-38831-winrar-expoit-simple-Poc) :  ![starts](https://img.shields.io/github/stars/ahmed-fa7im/CVE-2023-38831-winrar-expoit-simple-Poc.svg) ![forks](https://img.shields.io/github/forks/ahmed-fa7im/CVE-2023-38831-winrar-expoit-simple-Poc.svg)
-
-
-## CVE-2023-38041
- A logged in user may elevate its permissions by abusing a Time-of-Check to Time-of-Use (TOCTOU) race condition. When a particular process flow is initiated, an attacker can exploit this condition to gain unauthorized elevated privileges on the affected system.
-
-- [https://github.com/ewilded/CVE-2023-38041-POC](https://github.com/ewilded/CVE-2023-38041-POC) :  ![starts](https://img.shields.io/github/stars/ewilded/CVE-2023-38041-POC.svg) ![forks](https://img.shields.io/github/forks/ewilded/CVE-2023-38041-POC.svg)
-
-
-## CVE-2023-37250
- Unity Parsec has a TOCTOU race condition that permits local attackers to escalate privileges to SYSTEM if Parsec was installed in &quot;Per User&quot; mode. The application intentionally launches DLLs from a user-owned directory but intended to always perform integrity verification of those DLLs. This affects Parsec Loader versions through 8. Parsec Loader 9 is a fixed version.
-
-- [https://github.com/ewilded/CVE-2023-37250-POC](https://github.com/ewilded/CVE-2023-37250-POC) :  ![starts](https://img.shields.io/github/stars/ewilded/CVE-2023-37250-POC.svg) ![forks](https://img.shields.io/github/forks/ewilded/CVE-2023-37250-POC.svg)
-
-
-## CVE-2023-33677
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/ASR511-OO7/CVE-2023-33677](https://github.com/ASR511-OO7/CVE-2023-33677) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-33677.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-33677.svg)
-
-
-## CVE-2023-33676
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/ASR511-OO7/CVE-2023-33676](https://github.com/ASR511-OO7/CVE-2023-33676) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-33676.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-33676.svg)
-
-
-## CVE-2023-28218
- Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
-
-- [https://github.com/h1bAna/CVE-2023-28218](https://github.com/h1bAna/CVE-2023-28218) :  ![starts](https://img.shields.io/github/stars/h1bAna/CVE-2023-28218.svg) ![forks](https://img.shields.io/github/forks/h1bAna/CVE-2023-28218.svg)
-
-
-## CVE-2023-22527
- A template injection vulnerability on older versions of Confluence Data Center and Server allows an unauthenticated attacker to achieve RCE on an affected instance. Customers using an affected version must take immediate action. Most recent supported versions of Confluence Data Center and Server are not affected by this vulnerability as it was ultimately mitigated during regular version updates. However, Atlassian recommends that customers take care to install the latest version to protect their instances from non-critical vulnerabilities outlined in Atlassian&#8217;s January Security Bulletin.
-
-- [https://github.com/M0untainShley/CVE-2023-22527-MEMSHELL](https://github.com/M0untainShley/CVE-2023-22527-MEMSHELL) :  ![starts](https://img.shields.io/github/stars/M0untainShley/CVE-2023-22527-MEMSHELL.svg) ![forks](https://img.shields.io/github/forks/M0untainShley/CVE-2023-22527-MEMSHELL.svg)
-
-
-## CVE-2019-11395
- A buffer overflow in MailCarrier 2.51 allows remote attackers to execute arbitrary code via a long string, as demonstrated by SMTP RCPT TO, POP3 USER, POP3 LIST, POP3 TOP, or POP3 RETR.
-
-- [https://github.com/RedAlien00/CVE-2019-11395](https://github.com/RedAlien00/CVE-2019-11395) :  ![starts](https://img.shields.io/github/stars/RedAlien00/CVE-2019-11395.svg) ![forks](https://img.shields.io/github/forks/RedAlien00/CVE-2019-11395.svg)
+- [https://github.com/SpiralBL0CK/dpx_work_CVE-2017-2903](https://github.com/SpiralBL0CK/dpx_work_CVE-2017-2903) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/dpx_work_CVE-2017-2903.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/dpx_work_CVE-2017-2903.svg)
 
