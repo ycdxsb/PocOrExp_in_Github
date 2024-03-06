@@ -1,9 +1,29 @@
+## CVE-2024-27619
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos) :  ![starts](https://img.shields.io/github/stars/ioprojecton/dir-3040_dos.svg) ![forks](https://img.shields.io/github/forks/ioprojecton/dir-3040_dos.svg)
+
+## CVE-2024-27199
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/W01fh4cker/CVE-2024-27198-RCE](https://github.com/W01fh4cker/CVE-2024-27198-RCE) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/CVE-2024-27198-RCE.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/CVE-2024-27198-RCE.svg)
+
 ## CVE-2024-27198
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
 
 
-- [https://github.com/tucommenceapousser/CVE-2024-27198](https://github.com/tucommenceapousser/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/tucommenceapousser/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/tucommenceapousser/CVE-2024-27198.svg)
+- [https://github.com/yoryio/CVE-2024-27198](https://github.com/yoryio/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2024-27198.svg)
+
+- [https://github.com/W01fh4cker/CVE-2024-27198-RCE](https://github.com/W01fh4cker/CVE-2024-27198-RCE) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/CVE-2024-27198-RCE.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/CVE-2024-27198-RCE.svg)
+
+- [https://github.com/Chocapikk/CVE-2024-27198](https://github.com/Chocapikk/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-27198.svg)
+
+- [https://github.com/labesterOct/CVE-2024-27198](https://github.com/labesterOct/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/labesterOct/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/labesterOct/CVE-2024-27198.svg)
 
 ## CVE-2024-26560
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -32,6 +52,13 @@
 
 
 - [https://github.com/hackervegas001/CVE-2024-26521](https://github.com/hackervegas001/CVE-2024-26521) :  ![starts](https://img.shields.io/github/stars/hackervegas001/CVE-2024-26521.svg) ![forks](https://img.shields.io/github/forks/hackervegas001/CVE-2024-26521.svg)
+
+## CVE-2024-25832
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC) :  ![starts](https://img.shields.io/github/stars/0xNslabs/CVE-2024-25832-PoC.svg) ![forks](https://img.shields.io/github/forks/0xNslabs/CVE-2024-25832-PoC.svg)
 
 ## CVE-2024-25809
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -473,9 +500,9 @@
 
 - [https://github.com/binganao/CVE-2024-23897](https://github.com/binganao/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/binganao/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/binganao/CVE-2024-23897.svg)
 
-- [https://github.com/wjlin0/CVE-2024-23897](https://github.com/wjlin0/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/wjlin0/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/wjlin0/CVE-2024-23897.svg)
-
 - [https://github.com/xaitax/CVE-2024-23897](https://github.com/xaitax/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/xaitax/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/xaitax/CVE-2024-23897.svg)
+
+- [https://github.com/wjlin0/CVE-2024-23897](https://github.com/wjlin0/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/wjlin0/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/wjlin0/CVE-2024-23897.svg)
 
 - [https://github.com/kaanatmacaa/CVE-2024-23897](https://github.com/kaanatmacaa/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/kaanatmacaa/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/kaanatmacaa/CVE-2024-23897.svg)
 
@@ -491,9 +518,9 @@
 
 - [https://github.com/yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2024-23897.svg)
 
-- [https://github.com/jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2024-23897.svg)
-
 - [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
+
+- [https://github.com/jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2024-23897.svg)
 
 - [https://github.com/Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Nebian/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Nebian/CVE-2024-23897.svg)
 
@@ -740,6 +767,13 @@
 
 - [https://github.com/brandon-t-elliott/CVE-2024-22867](https://github.com/brandon-t-elliott/CVE-2024-22867) :  ![starts](https://img.shields.io/github/stars/brandon-t-elliott/CVE-2024-22867.svg) ![forks](https://img.shields.io/github/forks/brandon-t-elliott/CVE-2024-22867.svg)
 
+## CVE-2024-22752
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/hacker625/CVE-2024-22752](https://github.com/hacker625/CVE-2024-22752) :  ![starts](https://img.shields.io/github/stars/hacker625/CVE-2024-22752.svg) ![forks](https://img.shields.io/github/forks/hacker625/CVE-2024-22752.svg)
+
 ## CVE-2024-22678
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -975,6 +1009,13 @@
 
 - [https://github.com/FreakyM0ndy/CVE-2024-21410-poc](https://github.com/FreakyM0ndy/CVE-2024-21410-poc) :  ![starts](https://img.shields.io/github/stars/FreakyM0ndy/CVE-2024-21410-poc.svg) ![forks](https://img.shields.io/github/forks/FreakyM0ndy/CVE-2024-21410-poc.svg)
 
+## CVE-2024-21338
+ Windows Kernel Elevation of Privilege Vulnerability
+
+
+
+- [https://github.com/gogobuster/CVE-2024-21338-POC](https://github.com/gogobuster/CVE-2024-21338-POC) :  ![starts](https://img.shields.io/github/stars/gogobuster/CVE-2024-21338-POC.svg) ![forks](https://img.shields.io/github/forks/gogobuster/CVE-2024-21338-POC.svg)
+
 ## CVE-2024-21305
  Hypervisor-Protected Code Integrity (HVCI) Security Feature Bypass Vulnerability
 
@@ -1027,7 +1068,7 @@
 
 
 
-- [https://github.com/greandfather/CVE-2024-20291-POC](https://github.com/greandfather/CVE-2024-20291-POC) :  ![starts](https://img.shields.io/github/stars/greandfather/CVE-2024-20291-POC.svg) ![forks](https://img.shields.io/github/forks/greandfather/CVE-2024-20291-POC.svg)
+- [https://github.com/BetterCzz/CVE-2024-20291-POC](https://github.com/BetterCzz/CVE-2024-20291-POC) :  ![starts](https://img.shields.io/github/stars/BetterCzz/CVE-2024-20291-POC.svg) ![forks](https://img.shields.io/github/forks/BetterCzz/CVE-2024-20291-POC.svg)
 
 ## CVE-2024-1709
  ConnectWise ScreenConnect 23.9.7 and prior are affected by an Authentication Bypass Using an Alternate Path or Channel vulnerability, which may allow an attacker direct access to confidential information or critical systems.
