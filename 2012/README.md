@@ -81,6 +81,15 @@
 
 - [https://github.com/war4uthor/CVE-2012-5106](https://github.com/war4uthor/CVE-2012-5106) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2012-5106.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2012-5106.svg)
 
+## CVE-2012-4929
+ The TLS protocol 1.2 and earlier, as used in Mozilla Firefox, Google Chrome, Qt, and other products, can encrypt compressed data without properly obfuscating the length of the unencrypted data, which allows man-in-the-middle attackers to obtain plaintext HTTP headers by observing length differences during a series of guesses in which a string in an HTTP request potentially matches an unknown string in an HTTP header, aka a &quot;CRIME&quot; attack.
+
+
+
+- [https://github.com/mpgn/CRIME-poc](https://github.com/mpgn/CRIME-poc) :  ![starts](https://img.shields.io/github/stars/mpgn/CRIME-poc.svg) ![forks](https://img.shields.io/github/forks/mpgn/CRIME-poc.svg)
+
+- [https://github.com/anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/anthophilee/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/anthophilee/A2SV--SSL-VUL-Scan.svg)
+
 ## CVE-2012-4869
  The callme_startcall function in recordings/misc/callme_page.php in FreePBX 2.9, 2.10, and earlier allows remote attackers to execute arbitrary commands via the callmenum parameter in a c action.
 
