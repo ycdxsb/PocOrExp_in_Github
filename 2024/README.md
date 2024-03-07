@@ -17,9 +17,9 @@
 
 
 
-- [https://github.com/yoryio/CVE-2024-27198](https://github.com/yoryio/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2024-27198.svg)
-
 - [https://github.com/W01fh4cker/CVE-2024-27198-RCE](https://github.com/W01fh4cker/CVE-2024-27198-RCE) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/CVE-2024-27198-RCE.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/CVE-2024-27198-RCE.svg)
+
+- [https://github.com/yoryio/CVE-2024-27198](https://github.com/yoryio/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2024-27198.svg)
 
 - [https://github.com/Chocapikk/CVE-2024-27198](https://github.com/Chocapikk/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-27198.svg)
 
@@ -54,6 +54,13 @@
 - [https://github.com/hackervegas001/CVE-2024-26521](https://github.com/hackervegas001/CVE-2024-26521) :  ![starts](https://img.shields.io/github/stars/hackervegas001/CVE-2024-26521.svg) ![forks](https://img.shields.io/github/forks/hackervegas001/CVE-2024-26521.svg)
 
 ## CVE-2024-25832
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC) :  ![starts](https://img.shields.io/github/stars/0xNslabs/CVE-2024-25832-PoC.svg) ![forks](https://img.shields.io/github/forks/0xNslabs/CVE-2024-25832-PoC.svg)
+
+## CVE-2024-25830
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
 
@@ -178,6 +185,13 @@
 
 
 - [https://github.com/ASR511-OO7/CVE-2024-25251](https://github.com/ASR511-OO7/CVE-2024-25251) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-25251.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-25251.svg)
+
+## CVE-2024-25250
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ASR511-OO7/CVE-2024-25250.](https://github.com/ASR511-OO7/CVE-2024-25250.) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-25250..svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-25250..svg)
 
 ## CVE-2024-25249
  An issue in He3 App for macOS version 2.0.17, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
@@ -381,6 +395,27 @@
 
 
 - [https://github.com/BurakSevben/CVE-2024-24134](https://github.com/BurakSevben/CVE-2024-24134) :  ![starts](https://img.shields.io/github/stars/BurakSevben/CVE-2024-24134.svg) ![forks](https://img.shields.io/github/forks/BurakSevben/CVE-2024-24134.svg)
+
+## CVE-2024-24108
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ASR511-OO7/CVE-2024-24108](https://github.com/ASR511-OO7/CVE-2024-24108) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24108.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24108.svg)
+
+## CVE-2024-24105
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ASR511-OO7/CVE-2024-24105](https://github.com/ASR511-OO7/CVE-2024-24105) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24105.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24105.svg)
+
+## CVE-2024-24104
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ASR511-OO7/CVE-2024-24104](https://github.com/ASR511-OO7/CVE-2024-24104) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24104.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24104.svg)
 
 ## CVE-2024-24103
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -936,11 +971,11 @@
 
 - [https://github.com/BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/cve-2024-21762-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/cve-2024-21762-check.svg)
 
-- [https://github.com/tr1pl3ight/CVE-2024-21762-POC](https://github.com/tr1pl3ight/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/tr1pl3ight/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/tr1pl3ight/CVE-2024-21762-POC.svg)
-
-- [https://github.com/c0d3b3af/CVE-2024-21762-POC](https://github.com/c0d3b3af/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/c0d3b3af/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/c0d3b3af/CVE-2024-21762-POC.svg)
-
 - [https://github.com/Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/Gh71m/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/Gh71m/CVE-2024-21762-POC.svg)
+
+- [https://github.com/redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/redCode001/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/redCode001/CVE-2024-21762-POC.svg)
+
+- [https://github.com/c0d3b3af/CVE-2024-21762-Exploit](https://github.com/c0d3b3af/CVE-2024-21762-Exploit) :  ![starts](https://img.shields.io/github/stars/c0d3b3af/CVE-2024-21762-Exploit.svg) ![forks](https://img.shields.io/github/forks/c0d3b3af/CVE-2024-21762-Exploit.svg)
 
 ## CVE-2024-21672
  This High severity Remote Code Execution (RCE) vulnerability was introduced in version 2.1.0 of Confluence Data Center and Server. Remote Code Execution (RCE) vulnerability, with a CVSS Score of 8.3 and a CVSS Vector of CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H allows an unauthenticated attacker to remotely expose assets in your environment susceptible to exploitation which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires user interaction. Atlassian recommends that Confluence Data Center and Server customers upgrade to latest version, if you are unable to do so, upgrade your instance to one of the specified supported fixed versions: * Confluence Data Center and Server 7.19: Upgrade to a release 7.19.18, or any higher 7.19.x release * Confluence Data Center and Server 8.5: Upgrade to a release 8.5.5 or any higher 8.5.x release * Confluence Data Center and Server 8.7: Upgrade to a release 8.7.2 or any higher release See the release notes (https://confluence.atlassian.com/doc/confluence-release-notes-327.html ). You can download the latest version of Confluence Data Center and Server from the download center (https://www.atlassian.com/software/confluence/download-archives).
@@ -1077,8 +1112,6 @@
 
 - [https://github.com/W01fh4cker/ScreenConnect-AuthBypass-RCE](https://github.com/W01fh4cker/ScreenConnect-AuthBypass-RCE) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/ScreenConnect-AuthBypass-RCE.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/ScreenConnect-AuthBypass-RCE.svg)
 
-- [https://github.com/tr1pl3ight/POCv2.0-for-CVE-2024-1709](https://github.com/tr1pl3ight/POCv2.0-for-CVE-2024-1709) :  ![starts](https://img.shields.io/github/stars/tr1pl3ight/POCv2.0-for-CVE-2024-1709.svg) ![forks](https://img.shields.io/github/forks/tr1pl3ight/POCv2.0-for-CVE-2024-1709.svg)
-
 - [https://github.com/HussainFathy/CVE-2024-1709](https://github.com/HussainFathy/CVE-2024-1709) :  ![starts](https://img.shields.io/github/stars/HussainFathy/CVE-2024-1709.svg) ![forks](https://img.shields.io/github/forks/HussainFathy/CVE-2024-1709.svg)
 
 ## CVE-2024-1708
@@ -1104,12 +1137,47 @@
 
 - [https://github.com/rat-c/CVE-2024-1512](https://github.com/rat-c/CVE-2024-1512) :  ![starts](https://img.shields.io/github/stars/rat-c/CVE-2024-1512.svg) ![forks](https://img.shields.io/github/forks/rat-c/CVE-2024-1512.svg)
 
+## CVE-2024-1403
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/horizon3ai/CVE-2024-1403](https://github.com/horizon3ai/CVE-2024-1403) :  ![starts](https://img.shields.io/github/stars/horizon3ai/CVE-2024-1403.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/CVE-2024-1403.svg)
+
 ## CVE-2024-1346
  Weak MySQL database root password in LaborOfficeFree affects version 19.10. This vulnerability allows an attacker to calculate the root password of the MySQL database used by LaborOfficeFree using two constants.
 
 
 
 - [https://github.com/PeterGabaldon/CVE-2024-1346](https://github.com/PeterGabaldon/CVE-2024-1346) :  ![starts](https://img.shields.io/github/stars/PeterGabaldon/CVE-2024-1346.svg) ![forks](https://img.shields.io/github/forks/PeterGabaldon/CVE-2024-1346.svg)
+
+## CVE-2024-1304
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/guillermogm4/CVE-2024-1304---Badgermeter-moni-tool-Reflected-Cross-Site-Scripting-XSS](https://github.com/guillermogm4/CVE-2024-1304---Badgermeter-moni-tool-Reflected-Cross-Site-Scripting-XSS) :  ![starts](https://img.shields.io/github/stars/guillermogm4/CVE-2024-1304---Badgermeter-moni-tool-Reflected-Cross-Site-Scripting-XSS.svg) ![forks](https://img.shields.io/github/forks/guillermogm4/CVE-2024-1304---Badgermeter-moni-tool-Reflected-Cross-Site-Scripting-XSS.svg)
+
+## CVE-2024-1303
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/guillermogm4/CVE-2024-1303---Badgermeter-moni-tool-Path-Traversal](https://github.com/guillermogm4/CVE-2024-1303---Badgermeter-moni-tool-Path-Traversal) :  ![starts](https://img.shields.io/github/stars/guillermogm4/CVE-2024-1303---Badgermeter-moni-tool-Path-Traversal.svg) ![forks](https://img.shields.io/github/forks/guillermogm4/CVE-2024-1303---Badgermeter-moni-tool-Path-Traversal.svg)
+
+## CVE-2024-1302
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/guillermogm4/CVE-2024-1302---Badgermeter-moni-tool-Sensitive-information-exposure](https://github.com/guillermogm4/CVE-2024-1302---Badgermeter-moni-tool-Sensitive-information-exposure) :  ![starts](https://img.shields.io/github/stars/guillermogm4/CVE-2024-1302---Badgermeter-moni-tool-Sensitive-information-exposure.svg) ![forks](https://img.shields.io/github/forks/guillermogm4/CVE-2024-1302---Badgermeter-moni-tool-Sensitive-information-exposure.svg)
+
+## CVE-2024-1301
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/guillermogm4/CVE-2024-1301---Badgermeter-moni-tool-SQL-Injection](https://github.com/guillermogm4/CVE-2024-1301---Badgermeter-moni-tool-SQL-Injection) :  ![starts](https://img.shields.io/github/stars/guillermogm4/CVE-2024-1301---Badgermeter-moni-tool-SQL-Injection.svg) ![forks](https://img.shields.io/github/forks/guillermogm4/CVE-2024-1301---Badgermeter-moni-tool-SQL-Injection.svg)
 
 ## CVE-2024-1269
  A vulnerability has been found in SourceCodester Product Management System 1.0 and classified as problematic. This vulnerability affects unknown code of the file /supplier.php. The manipulation of the argument supplier_name/supplier_contact leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-253012.
@@ -1147,13 +1215,6 @@
 - [https://github.com/gbrsh/CVE-2024-1071](https://github.com/gbrsh/CVE-2024-1071) :  ![starts](https://img.shields.io/github/stars/gbrsh/CVE-2024-1071.svg) ![forks](https://img.shields.io/github/forks/gbrsh/CVE-2024-1071.svg)
 
 - [https://github.com/Trackflaw/CVE-2024-1071-Docker](https://github.com/Trackflaw/CVE-2024-1071-Docker) :  ![starts](https://img.shields.io/github/stars/Trackflaw/CVE-2024-1071-Docker.svg) ![forks](https://img.shields.io/github/forks/Trackflaw/CVE-2024-1071-Docker.svg)
-
-## CVE-2024-0967
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/Oxdestiny/CVE-2024-0967-exploit](https://github.com/Oxdestiny/CVE-2024-0967-exploit) :  ![starts](https://img.shields.io/github/stars/Oxdestiny/CVE-2024-0967-exploit.svg) ![forks](https://img.shields.io/github/forks/Oxdestiny/CVE-2024-0967-exploit.svg)
 
 ## CVE-2024-0844
  The Popup More Popups, Lightboxes, and more popup modules plugin for WordPress is vulnerable to Local File Inclusion in version 2.1.6 via the ycfChangeElementData() function. This makes it possible for authenticated attackers, with administrator-level access and above, to include and execute arbitrary files ending with &quot;Form.php&quot; on the server , allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other &#8220;safe&#8221; file types can be uploaded and included.
