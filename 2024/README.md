@@ -25,6 +25,8 @@
 
 - [https://github.com/labesterOct/CVE-2024-27198](https://github.com/labesterOct/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/labesterOct/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/labesterOct/CVE-2024-27198.svg)
 
+- [https://github.com/rampantspark/CVE-2024-27198](https://github.com/rampantspark/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/rampantspark/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/rampantspark/CVE-2024-27198.svg)
+
 ## CVE-2024-26560
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -535,9 +537,9 @@
 
 - [https://github.com/binganao/CVE-2024-23897](https://github.com/binganao/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/binganao/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/binganao/CVE-2024-23897.svg)
 
-- [https://github.com/xaitax/CVE-2024-23897](https://github.com/xaitax/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/xaitax/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/xaitax/CVE-2024-23897.svg)
-
 - [https://github.com/wjlin0/CVE-2024-23897](https://github.com/wjlin0/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/wjlin0/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/wjlin0/CVE-2024-23897.svg)
+
+- [https://github.com/xaitax/CVE-2024-23897](https://github.com/xaitax/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/xaitax/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/xaitax/CVE-2024-23897.svg)
 
 - [https://github.com/kaanatmacaa/CVE-2024-23897](https://github.com/kaanatmacaa/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/kaanatmacaa/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/kaanatmacaa/CVE-2024-23897.svg)
 
@@ -575,11 +577,11 @@
 
 - [https://github.com/ThatNotEasy/CVE-2024-23897](https://github.com/ThatNotEasy/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/ThatNotEasy/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/ThatNotEasy/CVE-2024-23897.svg)
 
-- [https://github.com/abdomagdy0/CVE-2024-23897-htb](https://github.com/abdomagdy0/CVE-2024-23897-htb) :  ![starts](https://img.shields.io/github/stars/abdomagdy0/CVE-2024-23897-htb.svg) ![forks](https://img.shields.io/github/forks/abdomagdy0/CVE-2024-23897-htb.svg)
-
 - [https://github.com/brijne/CVE-2024-23897-RCE](https://github.com/brijne/CVE-2024-23897-RCE) :  ![starts](https://img.shields.io/github/stars/brijne/CVE-2024-23897-RCE.svg) ![forks](https://img.shields.io/github/forks/brijne/CVE-2024-23897-RCE.svg)
 
 - [https://github.com/WLXQqwer/Jenkins-CVE-2024-23897-](https://github.com/WLXQqwer/Jenkins-CVE-2024-23897-) :  ![starts](https://img.shields.io/github/stars/WLXQqwer/Jenkins-CVE-2024-23897-.svg) ![forks](https://img.shields.io/github/forks/WLXQqwer/Jenkins-CVE-2024-23897-.svg)
+
+- [https://github.com/abdomagdy0/CVE-2024-23897-htb](https://github.com/abdomagdy0/CVE-2024-23897-htb) :  ![starts](https://img.shields.io/github/stars/abdomagdy0/CVE-2024-23897-htb.svg) ![forks](https://img.shields.io/github/forks/abdomagdy0/CVE-2024-23897-htb.svg)
 
 - [https://github.com/pulentoski/CVE-2024-23897-Arbitrary-file-read](https://github.com/pulentoski/CVE-2024-23897-Arbitrary-file-read) :  ![starts](https://img.shields.io/github/stars/pulentoski/CVE-2024-23897-Arbitrary-file-read.svg) ![forks](https://img.shields.io/github/forks/pulentoski/CVE-2024-23897-Arbitrary-file-read.svg)
 
@@ -869,6 +871,13 @@
 
 - [https://github.com/Orange-418/CVE-2024-22514-Remote-Code-Execution](https://github.com/Orange-418/CVE-2024-22514-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/Orange-418/CVE-2024-22514-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/Orange-418/CVE-2024-22514-Remote-Code-Execution.svg)
 
+## CVE-2024-22513
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/dmdhrumilmistry/CVEs](https://github.com/dmdhrumilmistry/CVEs) :  ![starts](https://img.shields.io/github/stars/dmdhrumilmistry/CVEs.svg) ![forks](https://img.shields.io/github/forks/dmdhrumilmistry/CVEs.svg)
+
 ## CVE-2024-22416
  pyLoad is a free and open-source Download Manager written in pure Python. The `pyload` API allows any API call to be made using GET requests. Since the session cookie is not set to `SameSite: strict`, this opens the library up to severe attack possibilities via a Cross-Site Request Forgery (CSRF) attack. As a result any API call can be made via a CSRF attack by an unauthenticated user. This issue has been addressed in release `0.5.0b3.dev78`. All users are advised to upgrade.
 
@@ -971,18 +980,15 @@
 
 - [https://github.com/BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/cve-2024-21762-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/cve-2024-21762-check.svg)
 
+- [https://github.com/c0d3b3af/CVE-2024-21762-Exploit](https://github.com/c0d3b3af/CVE-2024-21762-Exploit) :  ![starts](https://img.shields.io/github/stars/c0d3b3af/CVE-2024-21762-Exploit.svg) ![forks](https://img.shields.io/github/forks/c0d3b3af/CVE-2024-21762-Exploit.svg)
+
+- [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)
+
 - [https://github.com/Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/Gh71m/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/Gh71m/CVE-2024-21762-POC.svg)
 
 - [https://github.com/redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/redCode001/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/redCode001/CVE-2024-21762-POC.svg)
 
-- [https://github.com/c0d3b3af/CVE-2024-21762-Exploit](https://github.com/c0d3b3af/CVE-2024-21762-Exploit) :  ![starts](https://img.shields.io/github/stars/c0d3b3af/CVE-2024-21762-Exploit.svg) ![forks](https://img.shields.io/github/forks/c0d3b3af/CVE-2024-21762-Exploit.svg)
-
-## CVE-2024-21672
- This High severity Remote Code Execution (RCE) vulnerability was introduced in version 2.1.0 of Confluence Data Center and Server. Remote Code Execution (RCE) vulnerability, with a CVSS Score of 8.3 and a CVSS Vector of CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H allows an unauthenticated attacker to remotely expose assets in your environment susceptible to exploitation which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires user interaction. Atlassian recommends that Confluence Data Center and Server customers upgrade to latest version, if you are unable to do so, upgrade your instance to one of the specified supported fixed versions: * Confluence Data Center and Server 7.19: Upgrade to a release 7.19.18, or any higher 7.19.x release * Confluence Data Center and Server 8.5: Upgrade to a release 8.5.5 or any higher 8.5.x release * Confluence Data Center and Server 8.7: Upgrade to a release 8.7.2 or any higher release See the release notes (https://confluence.atlassian.com/doc/confluence-release-notes-327.html ). You can download the latest version of Confluence Data Center and Server from the download center (https://www.atlassian.com/software/confluence/download-archives).
-
-
-
-- [https://github.com/swagcrafted/CVE-2024-21672-POC](https://github.com/swagcrafted/CVE-2024-21672-POC) :  ![starts](https://img.shields.io/github/stars/swagcrafted/CVE-2024-21672-POC.svg) ![forks](https://img.shields.io/github/forks/swagcrafted/CVE-2024-21672-POC.svg)
+- [https://github.com/RequestXss/CVE-2024-21762-Exploit-POC](https://github.com/RequestXss/CVE-2024-21762-Exploit-POC) :  ![starts](https://img.shields.io/github/stars/RequestXss/CVE-2024-21762-Exploit-POC.svg) ![forks](https://img.shields.io/github/forks/RequestXss/CVE-2024-21762-Exploit-POC.svg)
 
 ## CVE-2024-21633
  Apktool is a tool for reverse engineering Android APK files. In versions 2.9.1 and prior, Apktool infers resource files' output path according to their resource names which can be manipulated by attacker to place files at desired location on the system Apktool runs on. Affected environments are those in which an attacker may write/overwrite any file that user has write access, and either user name is known or cwd is under user folder. Commit d348c43b24a9de350ff6e5bd610545a10c1fc712 contains a patch for this issue.
@@ -1049,7 +1055,7 @@
 
 
 
-- [https://github.com/gogobuster/CVE-2024-21338-POC](https://github.com/gogobuster/CVE-2024-21338-POC) :  ![starts](https://img.shields.io/github/stars/gogobuster/CVE-2024-21338-POC.svg) ![forks](https://img.shields.io/github/forks/gogobuster/CVE-2024-21338-POC.svg)
+- [https://github.com/crackmapEZec/CVE-2024-21338-POC](https://github.com/crackmapEZec/CVE-2024-21338-POC) :  ![starts](https://img.shields.io/github/stars/crackmapEZec/CVE-2024-21338-POC.svg) ![forks](https://img.shields.io/github/forks/crackmapEZec/CVE-2024-21338-POC.svg)
 
 ## CVE-2024-21305
  Hypervisor-Protected Code Integrity (HVCI) Security Feature Bypass Vulnerability
@@ -1215,6 +1221,13 @@
 - [https://github.com/gbrsh/CVE-2024-1071](https://github.com/gbrsh/CVE-2024-1071) :  ![starts](https://img.shields.io/github/stars/gbrsh/CVE-2024-1071.svg) ![forks](https://img.shields.io/github/forks/gbrsh/CVE-2024-1071.svg)
 
 - [https://github.com/Trackflaw/CVE-2024-1071-Docker](https://github.com/Trackflaw/CVE-2024-1071-Docker) :  ![starts](https://img.shields.io/github/stars/Trackflaw/CVE-2024-1071-Docker.svg) ![forks](https://img.shields.io/github/forks/Trackflaw/CVE-2024-1071-Docker.svg)
+
+## CVE-2024-0967
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/Oxdestiny/CVE-2024-0967-exploit](https://github.com/Oxdestiny/CVE-2024-0967-exploit) :  ![starts](https://img.shields.io/github/stars/Oxdestiny/CVE-2024-0967-exploit.svg) ![forks](https://img.shields.io/github/forks/Oxdestiny/CVE-2024-0967-exploit.svg)
 
 ## CVE-2024-0844
  The Popup More Popups, Lightboxes, and more popup modules plugin for WordPress is vulnerable to Local File Inclusion in version 2.1.6 via the ycfChangeElementData() function. This makes it possible for authenticated attackers, with administrator-level access and above, to include and execute arbitrary files ending with &quot;Form.php&quot; on the server , allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other &#8220;safe&#8221; file types can be uploaded and included.
