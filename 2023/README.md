@@ -136,9 +136,9 @@
 
 - [https://github.com/2048JiaLi/CVE-2023-51385](https://github.com/2048JiaLi/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/2048JiaLi/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/2048JiaLi/CVE-2023-51385.svg)
 
-- [https://github.com/N0rther/CVE-2023-51385_TT](https://github.com/N0rther/CVE-2023-51385_TT) :  ![starts](https://img.shields.io/github/stars/N0rther/CVE-2023-51385_TT.svg) ![forks](https://img.shields.io/github/forks/N0rther/CVE-2023-51385_TT.svg)
-
 - [https://github.com/Sonicrrrr/CVE-2023-51385](https://github.com/Sonicrrrr/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/Sonicrrrr/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/Sonicrrrr/CVE-2023-51385.svg)
+
+- [https://github.com/N0rther/CVE-2023-51385_TT](https://github.com/N0rther/CVE-2023-51385_TT) :  ![starts](https://img.shields.io/github/stars/N0rther/CVE-2023-51385_TT.svg) ![forks](https://img.shields.io/github/forks/N0rther/CVE-2023-51385_TT.svg)
 
 - [https://github.com/FeatherStark/CVE-2023-51385](https://github.com/FeatherStark/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/FeatherStark/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/FeatherStark/CVE-2023-51385.svg)
 
@@ -304,6 +304,8 @@
 
 
 - [https://github.com/greandfather/CVE-2023-50358-POC](https://github.com/greandfather/CVE-2023-50358-POC) :  ![starts](https://img.shields.io/github/stars/greandfather/CVE-2023-50358-POC.svg) ![forks](https://img.shields.io/github/forks/greandfather/CVE-2023-50358-POC.svg)
+
+- [https://github.com/greandfather/CVE-2023-50358-POC-RCE](https://github.com/greandfather/CVE-2023-50358-POC-RCE) :  ![starts](https://img.shields.io/github/stars/greandfather/CVE-2023-50358-POC-RCE.svg) ![forks](https://img.shields.io/github/forks/greandfather/CVE-2023-50358-POC-RCE.svg)
 
 ## CVE-2023-50254
  Deepin Linux's default document reader `deepin-reader` software suffers from a serious vulnerability in versions prior to 6.0.7 due to a design flaw that leads to remote command execution via crafted docx document. This is a file overwrite vulnerability. Remote code execution (RCE) can be achieved by overwriting files like .bash_rc, .bash_login, etc. RCE will be triggered when the user opens the terminal. Version 6.0.7 contains a patch for the issue.
@@ -623,6 +625,13 @@
 
 
 - [https://github.com/zunak/CVE-2023-49471](https://github.com/zunak/CVE-2023-49471) :  ![starts](https://img.shields.io/github/stars/zunak/CVE-2023-49471.svg) ![forks](https://img.shields.io/github/forks/zunak/CVE-2023-49471.svg)
+
+## CVE-2023-49453
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/nitipoom-jar/CVE-2023-49453](https://github.com/nitipoom-jar/CVE-2023-49453) :  ![starts](https://img.shields.io/github/stars/nitipoom-jar/CVE-2023-49453.svg) ![forks](https://img.shields.io/github/forks/nitipoom-jar/CVE-2023-49453.svg)
 
 ## CVE-2023-49438
  An open redirect vulnerability in the python package Flask-Security-Too &lt;=5.3.2 allows attackers to redirect unsuspecting users to malicious sites via a crafted URL by abusing the ?next parameter on the /login and /register routes.
@@ -1231,13 +1240,13 @@
 
 - [https://github.com/hh-hunter/cve-2023-46604](https://github.com/hh-hunter/cve-2023-46604) :  ![starts](https://img.shields.io/github/stars/hh-hunter/cve-2023-46604.svg) ![forks](https://img.shields.io/github/forks/hh-hunter/cve-2023-46604.svg)
 
-- [https://github.com/nitzanoligo/CVE-2023-46604-demo](https://github.com/nitzanoligo/CVE-2023-46604-demo) :  ![starts](https://img.shields.io/github/stars/nitzanoligo/CVE-2023-46604-demo.svg) ![forks](https://img.shields.io/github/forks/nitzanoligo/CVE-2023-46604-demo.svg)
-
 - [https://github.com/dcm2406/CVE-2023-46604](https://github.com/dcm2406/CVE-2023-46604) :  ![starts](https://img.shields.io/github/stars/dcm2406/CVE-2023-46604.svg) ![forks](https://img.shields.io/github/forks/dcm2406/CVE-2023-46604.svg)
 
 - [https://github.com/vjayant93/CVE-2023-46604-POC](https://github.com/vjayant93/CVE-2023-46604-POC) :  ![starts](https://img.shields.io/github/stars/vjayant93/CVE-2023-46604-POC.svg) ![forks](https://img.shields.io/github/forks/vjayant93/CVE-2023-46604-POC.svg)
 
 - [https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604](https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604) :  ![starts](https://img.shields.io/github/stars/tomasmussi-mulesoft/activemq-cve-2023-46604.svg) ![forks](https://img.shields.io/github/forks/tomasmussi-mulesoft/activemq-cve-2023-46604.svg)
+
+- [https://github.com/nitzanoligo/CVE-2023-46604-demo](https://github.com/nitzanoligo/CVE-2023-46604-demo) :  ![starts](https://img.shields.io/github/stars/nitzanoligo/CVE-2023-46604-demo.svg) ![forks](https://img.shields.io/github/forks/nitzanoligo/CVE-2023-46604-demo.svg)
 
 - [https://github.com/Mudoleto/Broker_ApacheMQ](https://github.com/Mudoleto/Broker_ApacheMQ) :  ![starts](https://img.shields.io/github/stars/Mudoleto/Broker_ApacheMQ.svg) ![forks](https://img.shields.io/github/forks/Mudoleto/Broker_ApacheMQ.svg)
 
@@ -1516,6 +1525,13 @@
 
 
 - [https://github.com/itsAptx/CVE-2023-45471](https://github.com/itsAptx/CVE-2023-45471) :  ![starts](https://img.shields.io/github/stars/itsAptx/CVE-2023-45471.svg) ![forks](https://img.shields.io/github/forks/itsAptx/CVE-2023-45471.svg)
+
+## CVE-2023-45318
+ A heap-based buffer overflow vulnerability exists in the HTTP Server functionality of Weston Embedded uC-HTTP git commit 80d4004. A specially crafted network packet can lead to arbitrary code execution. An attacker can send a malicious packet to trigger this vulnerability.
+
+
+
+- [https://github.com/greandfather/CVE-2023-50358-POC-RCE](https://github.com/greandfather/CVE-2023-50358-POC-RCE) :  ![starts](https://img.shields.io/github/stars/greandfather/CVE-2023-50358-POC-RCE.svg) ![forks](https://img.shields.io/github/forks/greandfather/CVE-2023-50358-POC-RCE.svg)
 
 ## CVE-2023-45185
  IBM i Access Client Solutions 1.1.2 through 1.1.4 and 1.1.4.3 through 1.1.9.3 could allow an attacker to execute remote code. Due to improper authority checks the attacker could perform operations on the PC under the user's authority. IBM X-Force ID: 268273.
@@ -6603,13 +6619,13 @@
 
 - [https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script](https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script) :  ![starts](https://img.shields.io/github/stars/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script.svg) ![forks](https://img.shields.io/github/forks/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script.svg)
 
-- [https://github.com/cybernetwiz/CVE-2023-23752](https://github.com/cybernetwiz/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/cybernetwiz/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/cybernetwiz/CVE-2023-23752.svg)
-
-- [https://github.com/C1ph3rX13/CVE-2023-23752](https://github.com/C1ph3rX13/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/C1ph3rX13/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/C1ph3rX13/CVE-2023-23752.svg)
-
 - [https://github.com/svaltheim/CVE-2023-23752](https://github.com/svaltheim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/svaltheim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/svaltheim/CVE-2023-23752.svg)
 
 - [https://github.com/Rival420/CVE-2023-23752](https://github.com/Rival420/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Rival420/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Rival420/CVE-2023-23752.svg)
+
+- [https://github.com/cybernetwiz/CVE-2023-23752](https://github.com/cybernetwiz/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/cybernetwiz/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/cybernetwiz/CVE-2023-23752.svg)
+
+- [https://github.com/C1ph3rX13/CVE-2023-23752](https://github.com/C1ph3rX13/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/C1ph3rX13/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/C1ph3rX13/CVE-2023-23752.svg)
 
 - [https://github.com/TindalyTn/CVE-2023-23752](https://github.com/TindalyTn/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/TindalyTn/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/TindalyTn/CVE-2023-23752.svg)
 
@@ -6955,6 +6971,8 @@
 
 - [https://github.com/yoryio/CVE-2023-22527](https://github.com/yoryio/CVE-2023-22527) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2023-22527.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2023-22527.svg)
 
+- [https://github.com/vulncheck-oss/cve-2023-22527](https://github.com/vulncheck-oss/cve-2023-22527) :  ![starts](https://img.shields.io/github/stars/vulncheck-oss/cve-2023-22527.svg) ![forks](https://img.shields.io/github/forks/vulncheck-oss/cve-2023-22527.svg)
+
 - [https://github.com/Drun1baby/CVE-2023-22527](https://github.com/Drun1baby/CVE-2023-22527) :  ![starts](https://img.shields.io/github/stars/Drun1baby/CVE-2023-22527.svg) ![forks](https://img.shields.io/github/forks/Drun1baby/CVE-2023-22527.svg)
 
 - [https://github.com/Sudistark/patch-diff-CVE-2023-22527](https://github.com/Sudistark/patch-diff-CVE-2023-22527) :  ![starts](https://img.shields.io/github/stars/Sudistark/patch-diff-CVE-2023-22527.svg) ![forks](https://img.shields.io/github/forks/Sudistark/patch-diff-CVE-2023-22527.svg)
@@ -7268,6 +7286,13 @@
 - [https://github.com/zoemurmure/CVE-2023-21554-PoC](https://github.com/zoemurmure/CVE-2023-21554-PoC) :  ![starts](https://img.shields.io/github/stars/zoemurmure/CVE-2023-21554-PoC.svg) ![forks](https://img.shields.io/github/forks/zoemurmure/CVE-2023-21554-PoC.svg)
 
 - [https://github.com/3tternp/CVE-2023-21554](https://github.com/3tternp/CVE-2023-21554) :  ![starts](https://img.shields.io/github/stars/3tternp/CVE-2023-21554.svg) ![forks](https://img.shields.io/github/forks/3tternp/CVE-2023-21554.svg)
+
+## CVE-2023-21529
+ Microsoft Exchange Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/tr1pl3ight/CVE-2023-21529-POC](https://github.com/tr1pl3ight/CVE-2023-21529-POC) :  ![starts](https://img.shields.io/github/stars/tr1pl3ight/CVE-2023-21529-POC.svg) ![forks](https://img.shields.io/github/forks/tr1pl3ight/CVE-2023-21529-POC.svg)
 
 ## CVE-2023-21288
  In visitUris of Notification.java, there is a possible way to reveal images across users due to a missing permission check. This could lead to local information disclosure with User execution privileges needed. User interaction is not needed for exploitation.
@@ -7705,13 +7730,13 @@
 
 - [https://github.com/hackeremmen/gitlab-exploit](https://github.com/hackeremmen/gitlab-exploit) :  ![starts](https://img.shields.io/github/stars/hackeremmen/gitlab-exploit.svg) ![forks](https://img.shields.io/github/forks/hackeremmen/gitlab-exploit.svg)
 
+- [https://github.com/thanhlam-attt/CVE-2023-7028](https://github.com/thanhlam-attt/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/thanhlam-attt/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/thanhlam-attt/CVE-2023-7028.svg)
+
 - [https://github.com/TheRedDevil1/CVE-2023-7028](https://github.com/TheRedDevil1/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/TheRedDevil1/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/TheRedDevil1/CVE-2023-7028.svg)
 
 - [https://github.com/yoryio/CVE-2023-7028](https://github.com/yoryio/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2023-7028.svg)
 
 - [https://github.com/mochammadrafi/CVE-2023-7028](https://github.com/mochammadrafi/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/mochammadrafi/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/mochammadrafi/CVE-2023-7028.svg)
-
-- [https://github.com/thanhlam-attt/CVE-2023-7028](https://github.com/thanhlam-attt/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/thanhlam-attt/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/thanhlam-attt/CVE-2023-7028.svg)
 
 - [https://github.com/Trackflaw/CVE-2023-7028-Docker](https://github.com/Trackflaw/CVE-2023-7028-Docker) :  ![starts](https://img.shields.io/github/stars/Trackflaw/CVE-2023-7028-Docker.svg) ![forks](https://img.shields.io/github/forks/Trackflaw/CVE-2023-7028-Docker.svg)
 
@@ -7914,6 +7939,13 @@
 
 
 - [https://github.com/uthrasri/CVE-2023-5717](https://github.com/uthrasri/CVE-2023-5717) :  ![starts](https://img.shields.io/github/stars/uthrasri/CVE-2023-5717.svg) ![forks](https://img.shields.io/github/forks/uthrasri/CVE-2023-5717.svg)
+
+## CVE-2023-5631
+ Roundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stored XSS via an HTML e-mail message with a crafted SVG document because of program/lib/Roundcube/rcube_washtml.php behavior. This could allow a remote attacker to load arbitrary JavaScript code.
+
+
+
+- [https://github.com/greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-](https://github.com/greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-) :  ![starts](https://img.shields.io/github/stars/greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-.svg) ![forks](https://img.shields.io/github/forks/greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-.svg)
 
 ## CVE-2023-5601
  The WooCommerce Ninja Forms Product Add-ons WordPress plugin before 1.7.1 does not validate the file to be uploaded, allowing any unauthenticated users to upload arbitrary files to the server, leading to RCE.
@@ -8623,6 +8655,8 @@
 
 - [https://github.com/Phamchie/CVE-2023-3047](https://github.com/Phamchie/CVE-2023-3047) :  ![starts](https://img.shields.io/github/stars/Phamchie/CVE-2023-3047.svg) ![forks](https://img.shields.io/github/forks/Phamchie/CVE-2023-3047.svg)
 
+- [https://github.com/Kimsovannareth/Phamchie](https://github.com/Kimsovannareth/Phamchie) :  ![starts](https://img.shields.io/github/stars/Kimsovannareth/Phamchie.svg) ![forks](https://img.shields.io/github/forks/Kimsovannareth/Phamchie.svg)
+
 ## CVE-2023-3009
  Cross-site Scripting (XSS) - Stored in GitHub repository nilsteampassnet/teampass prior to 3.0.9.
 
@@ -8851,8 +8885,6 @@
 
 - [https://github.com/elweth-sec/CVE-2023-2255](https://github.com/elweth-sec/CVE-2023-2255) :  ![starts](https://img.shields.io/github/stars/elweth-sec/CVE-2023-2255.svg) ![forks](https://img.shields.io/github/forks/elweth-sec/CVE-2023-2255.svg)
 
-- [https://github.com/Mathieuleto/CVE-2023-2255](https://github.com/Mathieuleto/CVE-2023-2255) :  ![starts](https://img.shields.io/github/stars/Mathieuleto/CVE-2023-2255.svg) ![forks](https://img.shields.io/github/forks/Mathieuleto/CVE-2023-2255.svg)
-
 ## CVE-2023-2249
  The wpForo Forum plugin for WordPress is vulnerable to Local File Include, Server-Side Request Forgery, and PHAR Deserialization in versions up to, and including, 2.1.7. This is due to the insecure use of file_get_contents without appropriate verification of the data being supplied to the function. This makes it possible for authenticated attackers, with minimal permissions such as a subscriber, to retrieve the contents of files like wp-config.php hosted on the system, perform a deserialization attack and possibly achieve remote code execution, and make requests to internal services.
 
@@ -8995,6 +9027,20 @@
 
 
 - [https://github.com/0xsu3ks/CVE-2023-1665](https://github.com/0xsu3ks/CVE-2023-1665) :  ![starts](https://img.shields.io/github/stars/0xsu3ks/CVE-2023-1665.svg) ![forks](https://img.shields.io/github/forks/0xsu3ks/CVE-2023-1665.svg)
+
+## CVE-2023-1500
+ A vulnerability, which was classified as problematic, has been found in code-projects Simple Art Gallery 1.0. Affected by this issue is some unknown functionality of the file adminHome.php. The manipulation of the argument about_info leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-223400.
+
+
+
+- [https://github.com/Decemberus/BugHub](https://github.com/Decemberus/BugHub) :  ![starts](https://img.shields.io/github/stars/Decemberus/BugHub.svg) ![forks](https://img.shields.io/github/forks/Decemberus/BugHub.svg)
+
+## CVE-2023-1498
+ A vulnerability classified as critical has been found in code-projects Responsive Hotel Site 1.0. Affected is an unknown function of the file messages.php of the component Newsletter Log Handler. The manipulation of the argument title leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-223398 is the identifier assigned to this vulnerability.
+
+
+
+- [https://github.com/Decemberus/BugHub](https://github.com/Decemberus/BugHub) :  ![starts](https://img.shields.io/github/stars/Decemberus/BugHub.svg) ![forks](https://img.shields.io/github/forks/Decemberus/BugHub.svg)
 
 ## CVE-2023-1454
  A vulnerability classified as critical has been found in jeecg-boot 3.5.0. This affects an unknown part of the file jmreport/qurestSql. The manipulation of the argument apiSelectId leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-223299.
