@@ -1,110 +1,92 @@
-# Update 2024-03-09
+# Update 2024-03-10
 ## CVE-2024-27198
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/rampantspark/CVE-2024-27198](https://github.com/rampantspark/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/rampantspark/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/rampantspark/CVE-2024-27198.svg)
+- [https://github.com/CharonDefalt/CVE-2024-27198-RCE](https://github.com/CharonDefalt/CVE-2024-27198-RCE) :  ![starts](https://img.shields.io/github/stars/CharonDefalt/CVE-2024-27198-RCE.svg) ![forks](https://img.shields.io/github/forks/CharonDefalt/CVE-2024-27198-RCE.svg)
+- [https://github.com/passwa11/CVE-2024-27198-RCE](https://github.com/passwa11/CVE-2024-27198-RCE) :  ![starts](https://img.shields.io/github/stars/passwa11/CVE-2024-27198-RCE.svg) ![forks](https://img.shields.io/github/forks/passwa11/CVE-2024-27198-RCE.svg)
 
 
-## CVE-2024-22513
+## CVE-2024-23780
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/dmdhrumilmistry/CVEs](https://github.com/dmdhrumilmistry/CVEs) :  ![starts](https://img.shields.io/github/stars/dmdhrumilmistry/CVEs.svg) ![forks](https://img.shields.io/github/forks/dmdhrumilmistry/CVEs.svg)
+- [https://github.com/HazardLab-IO/CVE-2024-23780](https://github.com/HazardLab-IO/CVE-2024-23780) :  ![starts](https://img.shields.io/github/stars/HazardLab-IO/CVE-2024-23780.svg) ![forks](https://img.shields.io/github/forks/HazardLab-IO/CVE-2024-23780.svg)
 
 
-## CVE-2024-21762
- A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests
+## CVE-2024-23113
+ A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
 
-- [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)
-- [https://github.com/RequestXss/CVE-2024-21762-Exploit-POC](https://github.com/RequestXss/CVE-2024-21762-Exploit-POC) :  ![starts](https://img.shields.io/github/stars/RequestXss/CVE-2024-21762-Exploit-POC.svg) ![forks](https://img.shields.io/github/forks/RequestXss/CVE-2024-21762-Exploit-POC.svg)
-
-
-## CVE-2024-21338
- Windows Kernel Elevation of Privilege Vulnerability
-
-- [https://github.com/crackmapEZec/CVE-2024-21338-POC](https://github.com/crackmapEZec/CVE-2024-21338-POC) :  ![starts](https://img.shields.io/github/stars/crackmapEZec/CVE-2024-21338-POC.svg) ![forks](https://img.shields.io/github/forks/crackmapEZec/CVE-2024-21338-POC.svg)
+- [https://github.com/cvedayprotech/CVE-2024-23113](https://github.com/cvedayprotech/CVE-2024-23113) :  ![starts](https://img.shields.io/github/stars/cvedayprotech/CVE-2024-23113.svg) ![forks](https://img.shields.io/github/forks/cvedayprotech/CVE-2024-23113.svg)
+- [https://github.com/tr1pl3ight/CVE-2024-23113-POC](https://github.com/tr1pl3ight/CVE-2024-23113-POC) :  ![starts](https://img.shields.io/github/stars/tr1pl3ight/CVE-2024-23113-POC.svg) ![forks](https://img.shields.io/github/forks/tr1pl3ight/CVE-2024-23113-POC.svg)
 
 
-## CVE-2024-0967
+## CVE-2024-22393
+ Unrestricted Upload of File with Dangerous Type vulnerability in Apache Answer.This issue affects Apache Answer: through 1.2.1. Pixel Flood Attack by uploading large pixel files will cause server out of memory. A logged-in user can cause such an attack by uploading an image when posting content. Users are recommended to upgrade to version [1.2.5], which fixes the issue.
+
+- [https://github.com/omranisecurity/CVE-2024-22393](https://github.com/omranisecurity/CVE-2024-22393) :  ![starts](https://img.shields.io/github/stars/omranisecurity/CVE-2024-22393.svg) ![forks](https://img.shields.io/github/forks/omranisecurity/CVE-2024-22393.svg)
+
+
+## CVE-2024-22252
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Oxdestiny/CVE-2024-0967-exploit](https://github.com/Oxdestiny/CVE-2024-0967-exploit) :  ![starts](https://img.shields.io/github/stars/Oxdestiny/CVE-2024-0967-exploit.svg) ![forks](https://img.shields.io/github/forks/Oxdestiny/CVE-2024-0967-exploit.svg)
+- [https://github.com/crackmapEZec/CVE-2024-22252-POC](https://github.com/crackmapEZec/CVE-2024-22252-POC) :  ![starts](https://img.shields.io/github/stars/crackmapEZec/CVE-2024-22252-POC.svg) ![forks](https://img.shields.io/github/forks/crackmapEZec/CVE-2024-22252-POC.svg)
 
 
-## CVE-2023-46453
+## CVE-2023-50358
+ An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network. We have already fixed the vulnerability in the following versions: QTS 5.1.5.2645 build 20240116 and later QTS 4.5.4.2627 build 20231225 and later QTS 4.3.6.2665 build 20240131 and later QTS 4.3.4.2675 build 20240131 and later QTS 4.3.3.2644 build 20240131 and later QTS 4.2.6 build 20240131 and later QuTS hero h5.1.5.2647 build 20240118 and later QuTS hero h4.5.4.2626 build 20231225 and later QuTScloud c5.1.5.2651 and later
+
+- [https://github.com/greandfather/CVE-2023-50358-POC-RCE](https://github.com/greandfather/CVE-2023-50358-POC-RCE) :  ![starts](https://img.shields.io/github/stars/greandfather/CVE-2023-50358-POC-RCE.svg) ![forks](https://img.shields.io/github/forks/greandfather/CVE-2023-50358-POC-RCE.svg)
+
+
+## CVE-2023-49453
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/0x1x02/GLiNet-Router-Auth-Bypass](https://github.com/0x1x02/GLiNet-Router-Auth-Bypass) :  ![starts](https://img.shields.io/github/stars/0x1x02/GLiNet-Router-Auth-Bypass.svg) ![forks](https://img.shields.io/github/forks/0x1x02/GLiNet-Router-Auth-Bypass.svg)
+- [https://github.com/nitipoom-jar/CVE-2023-49453](https://github.com/nitipoom-jar/CVE-2023-49453) :  ![starts](https://img.shields.io/github/stars/nitipoom-jar/CVE-2023-49453.svg) ![forks](https://img.shields.io/github/forks/nitipoom-jar/CVE-2023-49453.svg)
 
 
-## CVE-2023-21674
- Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability
+## CVE-2023-45318
+ A heap-based buffer overflow vulnerability exists in the HTTP Server functionality of Weston Embedded uC-HTTP git commit 80d4004. A specially crafted network packet can lead to arbitrary code execution. An attacker can send a malicious packet to trigger this vulnerability.
 
-- [https://github.com/hd3s5aa/CVE-2023-21674](https://github.com/hd3s5aa/CVE-2023-21674) :  ![starts](https://img.shields.io/github/stars/hd3s5aa/CVE-2023-21674.svg) ![forks](https://img.shields.io/github/forks/hd3s5aa/CVE-2023-21674.svg)
+- [https://github.com/greandfather/CVE-2023-50358-POC-RCE](https://github.com/greandfather/CVE-2023-50358-POC-RCE) :  ![starts](https://img.shields.io/github/stars/greandfather/CVE-2023-50358-POC-RCE.svg) ![forks](https://img.shields.io/github/forks/greandfather/CVE-2023-50358-POC-RCE.svg)
+
+
+## CVE-2023-22527
+ A template injection vulnerability on older versions of Confluence Data Center and Server allows an unauthenticated attacker to achieve RCE on an affected instance. Customers using an affected version must take immediate action. Most recent supported versions of Confluence Data Center and Server are not affected by this vulnerability as it was ultimately mitigated during regular version updates. However, Atlassian recommends that customers take care to install the latest version to protect their instances from non-critical vulnerabilities outlined in Atlassian&#8217;s January Security Bulletin.
+
+- [https://github.com/vulncheck-oss/cve-2023-22527](https://github.com/vulncheck-oss/cve-2023-22527) :  ![starts](https://img.shields.io/github/stars/vulncheck-oss/cve-2023-22527.svg) ![forks](https://img.shields.io/github/forks/vulncheck-oss/cve-2023-22527.svg)
+
+
+## CVE-2023-21529
+ Microsoft Exchange Server Remote Code Execution Vulnerability
+
+- [https://github.com/tr1pl3ight/CVE-2023-21529-POC](https://github.com/tr1pl3ight/CVE-2023-21529-POC) :  ![starts](https://img.shields.io/github/stars/tr1pl3ight/CVE-2023-21529-POC.svg) ![forks](https://img.shields.io/github/forks/tr1pl3ight/CVE-2023-21529-POC.svg)
+
+
+## CVE-2023-5631
+ Roundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stored XSS via an HTML e-mail message with a crafted SVG document because of program/lib/Roundcube/rcube_washtml.php behavior. This could allow a remote attacker to load arbitrary JavaScript code.
+
+- [https://github.com/greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-](https://github.com/greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-) :  ![starts](https://img.shields.io/github/stars/greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-.svg) ![forks](https://img.shields.io/github/forks/greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-.svg)
 
 
 ## CVE-2023-3047
  Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in TMT Lockcell allows SQL Injection.This issue affects Lockcell: before 15.
 
-- [https://github.com/Phamchie/CVE-2023-3047](https://github.com/Phamchie/CVE-2023-3047) :  ![starts](https://img.shields.io/github/stars/Phamchie/CVE-2023-3047.svg) ![forks](https://img.shields.io/github/forks/Phamchie/CVE-2023-3047.svg)
+- [https://github.com/Kimsovannareth/Phamchie](https://github.com/Kimsovannareth/Phamchie) :  ![starts](https://img.shields.io/github/stars/Kimsovannareth/Phamchie.svg) ![forks](https://img.shields.io/github/forks/Kimsovannareth/Phamchie.svg)
 
 
-## CVE-2022-35501
- Stored Cross-site Scripting (XSS) exists in the Amasty Blog Pro 2.10.3 and 2.10.4 plugin for Magento 2 because of the duplicate post function.
+## CVE-2023-1500
+ A vulnerability, which was classified as problematic, has been found in code-projects Simple Art Gallery 1.0. Affected by this issue is some unknown functionality of the file adminHome.php. The manipulation of the argument about_info leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-223400.
 
-- [https://github.com/afine-com/CVE-2022-35501](https://github.com/afine-com/CVE-2022-35501) :  ![starts](https://img.shields.io/github/stars/afine-com/CVE-2022-35501.svg) ![forks](https://img.shields.io/github/forks/afine-com/CVE-2022-35501.svg)
-
-
-## CVE-2022-3699
- A privilege escalation vulnerability was reported in the Lenovo HardwareScanPlugin prior to version 1.3.1.2 and Lenovo Diagnostics prior to version 4.45 that could allow a local user to execute code with elevated privileges.
-
-- [https://github.com/alfarom256/CVE-2022-3699](https://github.com/alfarom256/CVE-2022-3699) :  ![starts](https://img.shields.io/github/stars/alfarom256/CVE-2022-3699.svg) ![forks](https://img.shields.io/github/forks/alfarom256/CVE-2022-3699.svg)
-- [https://github.com/estimated1337/lenovo_exec](https://github.com/estimated1337/lenovo_exec) :  ![starts](https://img.shields.io/github/stars/estimated1337/lenovo_exec.svg) ![forks](https://img.shields.io/github/forks/estimated1337/lenovo_exec.svg)
+- [https://github.com/Decemberus/BugHub](https://github.com/Decemberus/BugHub) :  ![starts](https://img.shields.io/github/stars/Decemberus/BugHub.svg) ![forks](https://img.shields.io/github/forks/Decemberus/BugHub.svg)
 
 
-## CVE-2022-3564
- A vulnerability classified as critical was found in Linux Kernel. Affected by this vulnerability is the function l2cap_reassemble_sdu of the file net/bluetooth/l2cap_core.c of the component Bluetooth. The manipulation leads to use after free. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-211087.
+## CVE-2023-1498
+ A vulnerability classified as critical has been found in code-projects Responsive Hotel Site 1.0. Affected is an unknown function of the file messages.php of the component Newsletter Log Handler. The manipulation of the argument title leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-223398 is the identifier assigned to this vulnerability.
 
-- [https://github.com/Trinadh465/linux-4.1.15_CVE-2022-3564](https://github.com/Trinadh465/linux-4.1.15_CVE-2022-3564) :  ![starts](https://img.shields.io/github/stars/Trinadh465/linux-4.1.15_CVE-2022-3564.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/linux-4.1.15_CVE-2022-3564.svg)
-
-
-## CVE-2022-3552
- Unrestricted Upload of File with Dangerous Type in GitHub repository boxbilling/boxbilling prior to 0.0.1.
-
-- [https://github.com/kabir0x23/CVE-2022-3552](https://github.com/kabir0x23/CVE-2022-3552) :  ![starts](https://img.shields.io/github/stars/kabir0x23/CVE-2022-3552.svg) ![forks](https://img.shields.io/github/forks/kabir0x23/CVE-2022-3552.svg)
+- [https://github.com/Decemberus/BugHub](https://github.com/Decemberus/BugHub) :  ![starts](https://img.shields.io/github/stars/Decemberus/BugHub.svg) ![forks](https://img.shields.io/github/forks/Decemberus/BugHub.svg)
 
 
-## CVE-2022-3546
- A vulnerability was found in SourceCodester Simple Cold Storage Management System 1.0 and classified as problematic. Affected by this issue is some unknown functionality of the file /csms/admin/?page=user/list of the component Create User Handler. The manipulation of the argument First Name/Last Name leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-211046 is the identifier assigned to this vulnerability.
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/thehackingverse/CVE-2022-3546](https://github.com/thehackingverse/CVE-2022-3546) :  ![starts](https://img.shields.io/github/stars/thehackingverse/CVE-2022-3546.svg) ![forks](https://img.shields.io/github/forks/thehackingverse/CVE-2022-3546.svg)
-
-
-## CVE-2022-3464
- A vulnerability classified as problematic has been found in puppyCMS up to 5.1. This affects an unknown part of the file /admin/settings.php. The manipulation of the argument site_name leads to cross site scripting. It is possible to initiate the attack remotely. The associated identifier of this vulnerability is VDB-210699.
-
-- [https://github.com/GYLQ/CVE-2022-3464](https://github.com/GYLQ/CVE-2022-3464) :  ![starts](https://img.shields.io/github/stars/GYLQ/CVE-2022-3464.svg) ![forks](https://img.shields.io/github/forks/GYLQ/CVE-2022-3464.svg)
-
-
-## CVE-2022-3368
- A vulnerability within the Software Updater functionality of Avira Security for Windows allowed an attacker with write access to the filesystem, to escalate his privileges in certain scenarios. The issue was fixed with Avira Security version 1.1.72.30556.
-
-- [https://github.com/Wh04m1001/CVE-2022-3368](https://github.com/Wh04m1001/CVE-2022-3368) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/CVE-2022-3368.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/CVE-2022-3368.svg)
-
-
-## CVE-2021-44228
- Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0 (along with 2.12.2, 2.12.3, and 2.3.1), this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects.
-
-- [https://github.com/khulnasoft-lab/awesome-security](https://github.com/khulnasoft-lab/awesome-security) :  ![starts](https://img.shields.io/github/stars/khulnasoft-lab/awesome-security.svg) ![forks](https://img.shields.io/github/forks/khulnasoft-lab/awesome-security.svg)
-
-
-## CVE-2020-1472
- An elevation of privilege vulnerability exists when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller, using the Netlogon Remote Protocol (MS-NRPC). An attacker who successfully exploited the vulnerability could run a specially crafted application on a device on the network. To exploit the vulnerability, an unauthenticated attacker would be required to use MS-NRPC to connect to a domain controller to obtain domain administrator access. Microsoft is addressing the vulnerability in a phased two-part rollout. These updates address the vulnerability by modifying how Netlogon handles the usage of Netlogon secure channels. For guidelines on how to manage the changes required for this vulnerability and more information on the phased rollout, see How to manage the changes in Netlogon secure channel connections associated with CVE-2020-1472 (updated September 28, 2020). When the second phase of Windows updates become available in Q1 2021, customers will be notified via a revision to this security vulnerability. If you wish to be notified when these updates are released, we recommend that you register for the security notifications mailer to be alerted of content changes to this advisory. See Microsoft Technical Security Notifications.
-
-- [https://github.com/okay-scam/zabbix-template-CVE-2020-1472](https://github.com/okay-scam/zabbix-template-CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/okay-scam/zabbix-template-CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/okay-scam/zabbix-template-CVE-2020-1472.svg)
-
-
-## CVE-2019-17225
- Subrion 4.2.1 allows XSS via the panel/members/ Username, Full Name, or Email field, aka an &quot;Admin Member JSON Update&quot; issue.
-
-- [https://github.com/hacker625/CVE-2019-17225](https://github.com/hacker625/CVE-2019-17225) :  ![starts](https://img.shields.io/github/stars/hacker625/CVE-2019-17225.svg) ![forks](https://img.shields.io/github/forks/hacker625/CVE-2019-17225.svg)
+- [https://github.com/Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2021-41773.svg)
 
