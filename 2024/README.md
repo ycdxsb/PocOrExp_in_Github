@@ -1,3 +1,10 @@
+## CVE-2024-27697
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697) :  ![starts](https://img.shields.io/github/stars/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697.svg) ![forks](https://img.shields.io/github/forks/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697.svg)
+
 ## CVE-2024-27619
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -23,13 +30,13 @@
 
 - [https://github.com/Chocapikk/CVE-2024-27198](https://github.com/Chocapikk/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-27198.svg)
 
-- [https://github.com/labesterOct/CVE-2024-27198](https://github.com/labesterOct/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/labesterOct/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/labesterOct/CVE-2024-27198.svg)
-
-- [https://github.com/rampantspark/CVE-2024-27198](https://github.com/rampantspark/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/rampantspark/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/rampantspark/CVE-2024-27198.svg)
+- [https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2024-27198-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2024-27198-EXPLOIT.svg)
 
 - [https://github.com/CharonDefalt/CVE-2024-27198-RCE](https://github.com/CharonDefalt/CVE-2024-27198-RCE) :  ![starts](https://img.shields.io/github/stars/CharonDefalt/CVE-2024-27198-RCE.svg) ![forks](https://img.shields.io/github/forks/CharonDefalt/CVE-2024-27198-RCE.svg)
 
-- [https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2024-27198-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2024-27198-EXPLOIT.svg)
+- [https://github.com/labesterOct/CVE-2024-27198](https://github.com/labesterOct/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/labesterOct/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/labesterOct/CVE-2024-27198.svg)
+
+- [https://github.com/rampantspark/CVE-2024-27198](https://github.com/rampantspark/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/rampantspark/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/rampantspark/CVE-2024-27198.svg)
 
 - [https://github.com/passwa11/CVE-2024-27198-RCE](https://github.com/passwa11/CVE-2024-27198-RCE) :  ![starts](https://img.shields.io/github/stars/passwa11/CVE-2024-27198-RCE.svg) ![forks](https://img.shields.io/github/forks/passwa11/CVE-2024-27198-RCE.svg)
 
@@ -60,6 +67,13 @@
 
 
 - [https://github.com/hackervegas001/CVE-2024-26521](https://github.com/hackervegas001/CVE-2024-26521) :  ![starts](https://img.shields.io/github/stars/hackervegas001/CVE-2024-26521.svg) ![forks](https://img.shields.io/github/forks/hackervegas001/CVE-2024-26521.svg)
+
+## CVE-2024-26475
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/TronciuVlad/CVE-2024-26475](https://github.com/TronciuVlad/CVE-2024-26475) :  ![starts](https://img.shields.io/github/stars/TronciuVlad/CVE-2024-26475.svg) ![forks](https://img.shields.io/github/forks/TronciuVlad/CVE-2024-26475.svg)
 
 ## CVE-2024-25832
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -722,7 +736,11 @@
 
 
 
+- [https://github.com/foxymoxxy/CVE-2024-23113-POC](https://github.com/foxymoxxy/CVE-2024-23113-POC) :  ![starts](https://img.shields.io/github/stars/foxymoxxy/CVE-2024-23113-POC.svg) ![forks](https://img.shields.io/github/forks/foxymoxxy/CVE-2024-23113-POC.svg)
+
 - [https://github.com/cvedayprotech3s/cve-2024-23113](https://github.com/cvedayprotech3s/cve-2024-23113) :  ![starts](https://img.shields.io/github/stars/cvedayprotech3s/cve-2024-23113.svg) ![forks](https://img.shields.io/github/forks/cvedayprotech3s/cve-2024-23113.svg)
+
+- [https://github.com/labesterOct/CVE-2024-23113](https://github.com/labesterOct/CVE-2024-23113) :  ![starts](https://img.shields.io/github/stars/labesterOct/CVE-2024-23113.svg) ![forks](https://img.shields.io/github/forks/labesterOct/CVE-2024-23113.svg)
 
 ## CVE-2024-22983
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -917,6 +935,13 @@
 
 - [https://github.com/oscerd/CVE-2024-22369](https://github.com/oscerd/CVE-2024-22369) :  ![starts](https://img.shields.io/github/stars/oscerd/CVE-2024-22369.svg) ![forks](https://img.shields.io/github/forks/oscerd/CVE-2024-22369.svg)
 
+## CVE-2024-22254
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/crackmapEZec/CVE-2024-22252-POC](https://github.com/crackmapEZec/CVE-2024-22252-POC) :  ![starts](https://img.shields.io/github/stars/crackmapEZec/CVE-2024-22252-POC.svg) ![forks](https://img.shields.io/github/forks/crackmapEZec/CVE-2024-22252-POC.svg)
+
 ## CVE-2024-22252
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -1014,6 +1039,8 @@
 - [https://github.com/redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/redCode001/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/redCode001/CVE-2024-21762-POC.svg)
 
 - [https://github.com/RequestXss/CVE-2024-21762-Exploit-POC](https://github.com/RequestXss/CVE-2024-21762-Exploit-POC) :  ![starts](https://img.shields.io/github/stars/RequestXss/CVE-2024-21762-Exploit-POC.svg) ![forks](https://img.shields.io/github/forks/RequestXss/CVE-2024-21762-Exploit-POC.svg)
+
+- [https://github.com/t4ril/CVE-2024-21762-PoC](https://github.com/t4ril/CVE-2024-21762-PoC) :  ![starts](https://img.shields.io/github/stars/t4ril/CVE-2024-21762-PoC.svg) ![forks](https://img.shields.io/github/forks/t4ril/CVE-2024-21762-PoC.svg)
 
 ## CVE-2024-21633
  Apktool is a tool for reverse engineering Android APK files. In versions 2.9.1 and prior, Apktool infers resource files' output path according to their resource names which can be manipulated by attacker to place files at desired location on the system Apktool runs on. Affected environments are those in which an attacker may write/overwrite any file that user has write access, and either user name is known or cwd is under user folder. Commit d348c43b24a9de350ff6e5bd610545a10c1fc712 contains a patch for this issue.
@@ -1128,6 +1155,13 @@
 
 
 - [https://github.com/Wh04m1001/CVE-2024-20656](https://github.com/Wh04m1001/CVE-2024-20656) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/CVE-2024-20656.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/CVE-2024-20656.svg)
+
+## CVE-2024-20337
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/swagcraftedd/CVE-2024-20337-POC](https://github.com/swagcraftedd/CVE-2024-20337-POC) :  ![starts](https://img.shields.io/github/stars/swagcraftedd/CVE-2024-20337-POC.svg) ![forks](https://img.shields.io/github/forks/swagcraftedd/CVE-2024-20337-POC.svg)
 
 ## CVE-2024-20291
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
