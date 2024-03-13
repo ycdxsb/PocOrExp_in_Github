@@ -1,49 +1,37 @@
-# Update 2024-03-12
-## CVE-2024-27697
+# Update 2024-03-13
+## CVE-2024-27665
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697) :  ![starts](https://img.shields.io/github/stars/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697.svg) ![forks](https://img.shields.io/github/forks/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697.svg)
-
-
-## CVE-2024-26475
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/TronciuVlad/CVE-2024-26475](https://github.com/TronciuVlad/CVE-2024-26475) :  ![starts](https://img.shields.io/github/stars/TronciuVlad/CVE-2024-26475.svg) ![forks](https://img.shields.io/github/forks/TronciuVlad/CVE-2024-26475.svg)
-
-
-## CVE-2024-23113
- A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
-
-- [https://github.com/foxymoxxy/CVE-2024-23113-POC](https://github.com/foxymoxxy/CVE-2024-23113-POC) :  ![starts](https://img.shields.io/github/stars/foxymoxxy/CVE-2024-23113-POC.svg) ![forks](https://img.shields.io/github/forks/foxymoxxy/CVE-2024-23113-POC.svg)
-- [https://github.com/labesterOct/CVE-2024-23113](https://github.com/labesterOct/CVE-2024-23113) :  ![starts](https://img.shields.io/github/stars/labesterOct/CVE-2024-23113.svg) ![forks](https://img.shields.io/github/forks/labesterOct/CVE-2024-23113.svg)
-
-
-## CVE-2024-22254
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/crackmapEZec/CVE-2024-22252-POC](https://github.com/crackmapEZec/CVE-2024-22252-POC) :  ![starts](https://img.shields.io/github/stars/crackmapEZec/CVE-2024-22252-POC.svg) ![forks](https://img.shields.io/github/forks/crackmapEZec/CVE-2024-22252-POC.svg)
+- [https://github.com/Thirukrishnan/CVE-2024-27665](https://github.com/Thirukrishnan/CVE-2024-27665) :  ![starts](https://img.shields.io/github/stars/Thirukrishnan/CVE-2024-27665.svg) ![forks](https://img.shields.io/github/forks/Thirukrishnan/CVE-2024-27665.svg)
 
 
 ## CVE-2024-21762
  A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests
 
-- [https://github.com/t4ril/CVE-2024-21762-PoC](https://github.com/t4ril/CVE-2024-21762-PoC) :  ![starts](https://img.shields.io/github/stars/t4ril/CVE-2024-21762-PoC.svg) ![forks](https://img.shields.io/github/forks/t4ril/CVE-2024-21762-PoC.svg)
+- [https://github.com/c0d3b3af/CVE-2024-21762-RCE-exploit](https://github.com/c0d3b3af/CVE-2024-21762-RCE-exploit) :  ![starts](https://img.shields.io/github/stars/c0d3b3af/CVE-2024-21762-RCE-exploit.svg) ![forks](https://img.shields.io/github/forks/c0d3b3af/CVE-2024-21762-RCE-exploit.svg)
+- [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)
 
 
-## CVE-2024-20337
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2022-20114
+ In placeCall of TelecomManager.java, there is a possible way for an application to keep itself running with foreground service importance due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-211114016
 
-- [https://github.com/swagcraftedd/CVE-2024-20337-POC](https://github.com/swagcraftedd/CVE-2024-20337-POC) :  ![starts](https://img.shields.io/github/stars/swagcraftedd/CVE-2024-20337-POC.svg) ![forks](https://img.shields.io/github/forks/swagcraftedd/CVE-2024-20337-POC.svg)
-
-
-## CVE-2023-6000
- The Popup Builder WordPress plugin before 4.2.3 does not prevent simple visitors from updating existing popups, and injecting raw JavaScript in them, which could lead to Stored XSS attacks.
-
-- [https://github.com/rxerium/CVE-2023-6000](https://github.com/rxerium/CVE-2023-6000) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2023-6000.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2023-6000.svg)
+- [https://github.com/hienkiet/CVE-2022-201145-12.2.1.3.0-Weblogic](https://github.com/hienkiet/CVE-2022-201145-12.2.1.3.0-Weblogic) :  ![starts](https://img.shields.io/github/stars/hienkiet/CVE-2022-201145-12.2.1.3.0-Weblogic.svg) ![forks](https://img.shields.io/github/forks/hienkiet/CVE-2022-201145-12.2.1.3.0-Weblogic.svg)
 
 
-## CVE-2022-26134
- In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are from 1.3.0 before 7.4.17, from 7.13.0 before 7.13.7, from 7.14.0 before 7.14.3, from 7.15.0 before 7.15.2, from 7.16.0 before 7.16.4, from 7.17.0 before 7.17.4, and from 7.18.0 before 7.18.1.
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/CatAnnaDev/CVE-2022-26134](https://github.com/CatAnnaDev/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/CatAnnaDev/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/CatAnnaDev/CVE-2022-26134.svg)
+- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
+
+
+## CVE-2020-25579
+ In FreeBSD 12.2-STABLE before r368969, 11.4-STABLE before r369047, 12.2-RELEASE before p3, 12.1-RELEASE before p13 and 11.4-RELEASE before p7 msdosfs(5) was failing to zero-fill a pair of padding fields in the dirent structure, resulting in a leak of three uninitialized bytes.
+
+- [https://github.com/farazsth98/freebsd-dirent-info-leak-bugs](https://github.com/farazsth98/freebsd-dirent-info-leak-bugs) :  ![starts](https://img.shields.io/github/stars/farazsth98/freebsd-dirent-info-leak-bugs.svg) ![forks](https://img.shields.io/github/forks/farazsth98/freebsd-dirent-info-leak-bugs.svg)
+
+
+## CVE-2020-25578
+ In FreeBSD 12.2-STABLE before r368969, 11.4-STABLE before r369047, 12.2-RELEASE before p3, 12.1-RELEASE before p13 and 11.4-RELEASE before p7 several file systems were not properly initializing the d_off field of the dirent structures returned by VOP_READDIR. In particular, tmpfs(5), smbfs(5), autofs(5) and mqueuefs(5) were failing to do so. As a result, eight uninitialized kernel stack bytes may be leaked to userspace by these file systems.
+
+- [https://github.com/farazsth98/freebsd-dirent-info-leak-bugs](https://github.com/farazsth98/freebsd-dirent-info-leak-bugs) :  ![starts](https://img.shields.io/github/stars/farazsth98/freebsd-dirent-info-leak-bugs.svg) ![forks](https://img.shields.io/github/forks/farazsth98/freebsd-dirent-info-leak-bugs.svg)
 
