@@ -35,13 +35,6 @@
 
 - [https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure](https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure) :  ![starts](https://img.shields.io/github/stars/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure.svg) ![forks](https://img.shields.io/github/forks/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure.svg)
 
-## CVE-2005-0575
- Buffer overflow in Stormy Studios Knet 1.04c and earlier allows remote attackers to cause a denial of service and possibly execute arbitrary code via a long HTTP GET request.
-
-
-
-- [https://github.com/3t3rn4lv01d/CVE-2005-0575](https://github.com/3t3rn4lv01d/CVE-2005-0575) :  ![starts](https://img.shields.io/github/stars/3t3rn4lv01d/CVE-2005-0575.svg) ![forks](https://img.shields.io/github/forks/3t3rn4lv01d/CVE-2005-0575.svg)
-
 ## CVE-2005-0452
  Multiple cross-site scripting (XSS) vulnerabilities in Microsoft ASP.NET (.Net) 1.0 and 1.1 to SP1 allow remote attackers to inject arbitrary HTML or web script via Unicode representations for ASCII fullwidth characters that are converted to normal ASCII characters, including &quot;&gt;&quot; and &quot;&lt;&quot;.
 
