@@ -1,75 +1,104 @@
-# Update 2024-03-14
-## CVE-2024-21899
+# Update 2024-03-15
+## CVE-2024-26198
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/JohnHormond/CVE-2024-21899-RCE-exploit](https://github.com/JohnHormond/CVE-2024-21899-RCE-exploit) :  ![starts](https://img.shields.io/github/stars/JohnHormond/CVE-2024-21899-RCE-exploit.svg) ![forks](https://img.shields.io/github/forks/JohnHormond/CVE-2024-21899-RCE-exploit.svg)
+- [https://github.com/MrCyberSec/CVE-2024-26198-Exchange-RCE](https://github.com/MrCyberSec/CVE-2024-26198-Exchange-RCE) :  ![starts](https://img.shields.io/github/stars/MrCyberSec/CVE-2024-26198-Exchange-RCE.svg) ![forks](https://img.shields.io/github/forks/MrCyberSec/CVE-2024-26198-Exchange-RCE.svg)
+
+
+## CVE-2024-25227
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227](https://github.com/thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227) :  ![starts](https://img.shields.io/github/stars/thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227.svg) ![forks](https://img.shields.io/github/forks/thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227.svg)
+- [https://github.com/thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227](https://github.com/thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227) :  ![starts](https://img.shields.io/github/stars/thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227.svg) ![forks](https://img.shields.io/github/forks/thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227.svg)
+
+
+## CVE-2024-25153
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/nettitude/CVE-2024-25153](https://github.com/nettitude/CVE-2024-25153) :  ![starts](https://img.shields.io/github/stars/nettitude/CVE-2024-25153.svg) ![forks](https://img.shields.io/github/forks/nettitude/CVE-2024-25153.svg)
 
 
 ## CVE-2024-21762
  A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests
 
-- [https://github.com/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK](https://github.com/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK) :  ![starts](https://img.shields.io/github/stars/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK.svg) ![forks](https://img.shields.io/github/forks/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK.svg)
+- [https://github.com/h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/h4x0r-dz/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/h4x0r-dz/CVE-2024-21762.svg)
+- [https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check) :  ![starts](https://img.shields.io/github/stars/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg) ![forks](https://img.shields.io/github/forks/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg)
 
 
-## CVE-2024-21378
- Microsoft Outlook Remote Code Execution Vulnerability
-
-- [https://github.com/JohnHormond/CVE-2024-21378](https://github.com/JohnHormond/CVE-2024-21378) :  ![starts](https://img.shields.io/github/stars/JohnHormond/CVE-2024-21378.svg) ![forks](https://img.shields.io/github/forks/JohnHormond/CVE-2024-21378.svg)
-- [https://github.com/d0rb/CVE-2024-21378](https://github.com/d0rb/CVE-2024-21378) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21378.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21378.svg)
-
-
-## CVE-2024-20696
- Windows Libarchive Remote Code Execution Vulnerability
-
-- [https://github.com/clearbluejar/CVE-2024-20696](https://github.com/clearbluejar/CVE-2024-20696) :  ![starts](https://img.shields.io/github/stars/clearbluejar/CVE-2024-20696.svg) ![forks](https://img.shields.io/github/forks/clearbluejar/CVE-2024-20696.svg)
-
-
-## CVE-2024-0713
- A vulnerability was found in Monitorr 1.7.6m. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file /assets/php/upload.php of the component Services Configuration. The manipulation of the argument fileToUpload leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-251539. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
-
-- [https://github.com/kitodd/CVE-2024-0713](https://github.com/kitodd/CVE-2024-0713) :  ![starts](https://img.shields.io/github/stars/kitodd/CVE-2024-0713.svg) ![forks](https://img.shields.io/github/forks/kitodd/CVE-2024-0713.svg)
-
-
-## CVE-2023-42789
+## CVE-2024-21411
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/CrimBit/CVE-2023-42789-POC](https://github.com/CrimBit/CVE-2023-42789-POC) :  ![starts](https://img.shields.io/github/stars/CrimBit/CVE-2023-42789-POC.svg) ![forks](https://img.shields.io/github/forks/CrimBit/CVE-2023-42789-POC.svg)
+- [https://github.com/rkraper339/CVE-2024-21411-POC](https://github.com/rkraper339/CVE-2024-21411-POC) :  ![starts](https://img.shields.io/github/stars/rkraper339/CVE-2024-21411-POC.svg) ![forks](https://img.shields.io/github/forks/rkraper339/CVE-2024-21411-POC.svg)
 
 
-## CVE-2023-23752
- An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.
+## CVE-2024-21400
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/JohnDoeAnonITA/CVE-2023-23752](https://github.com/JohnDoeAnonITA/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/JohnDoeAnonITA/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/JohnDoeAnonITA/CVE-2023-23752.svg)
-
-
-## CVE-2023-5217
- Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-
-- [https://github.com/UT-Security/cve-2023-5217-poc](https://github.com/UT-Security/cve-2023-5217-poc) :  ![starts](https://img.shields.io/github/stars/UT-Security/cve-2023-5217-poc.svg) ![forks](https://img.shields.io/github/forks/UT-Security/cve-2023-5217-poc.svg)
-- [https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217.svg)
-- [https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217) :  ![starts](https://img.shields.io/github/stars/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217.svg)
+- [https://github.com/MegaCorp001/CVE-2024-21400-POC](https://github.com/MegaCorp001/CVE-2024-21400-POC) :  ![starts](https://img.shields.io/github/stars/MegaCorp001/CVE-2024-21400-POC.svg) ![forks](https://img.shields.io/github/forks/MegaCorp001/CVE-2024-21400-POC.svg)
 
 
-## CVE-2023-4596
- The Forminator plugin for WordPress is vulnerable to arbitrary file uploads due to file type validation occurring after a file has been uploaded to the server in the upload_post_image() function in versions up to, and including, 1.24.6. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+## CVE-2024-21334
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/AlabamicHero/caldera_sandcat-usecase](https://github.com/AlabamicHero/caldera_sandcat-usecase) :  ![starts](https://img.shields.io/github/stars/AlabamicHero/caldera_sandcat-usecase.svg) ![forks](https://img.shields.io/github/forks/AlabamicHero/caldera_sandcat-usecase.svg)
-
-
-## CVE-2023-2916
- The InfiniteWP Client plugin for WordPress is vulnerable to Sensitive Information Exposure in versions up to, and including, 1.11.1 via the 'admin_notice' function. This can allow authenticated attackers with subscriber-level permissions or above to extract sensitive data including configuration. It can only be exploited if the plugin has not been configured yet. If combined with another arbitrary plugin installation and activation vulnerability, it may be possible to connect a site to InfiniteWP which would make remote management possible and allow for elevation of privileges.
-
-- [https://github.com/d0rb/CVE-2023-2916](https://github.com/d0rb/CVE-2023-2916) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2023-2916.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2023-2916.svg)
+- [https://github.com/bigbozzez/CVE-2024-21334-POC](https://github.com/bigbozzez/CVE-2024-21334-POC) :  ![starts](https://img.shields.io/github/stars/bigbozzez/CVE-2024-21334-POC.svg) ![forks](https://img.shields.io/github/forks/bigbozzez/CVE-2024-21334-POC.svg)
 
 
-## CVE-2022-1609
- The School Management WordPress plugin before 9.9.7 contains an obfuscated backdoor injected in it's license checking code that registers a REST API handler, allowing an unauthenticated attacker to execute arbitrary PHP code on the site.
+## CVE-2023-48788
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/tuxsyscall/cve-2022-1609-exploit](https://github.com/tuxsyscall/cve-2022-1609-exploit) :  ![starts](https://img.shields.io/github/stars/tuxsyscall/cve-2022-1609-exploit.svg) ![forks](https://img.shields.io/github/forks/tuxsyscall/cve-2022-1609-exploit.svg)
+- [https://github.com/CVETechnologic/CVE-2023-48788-Proof-of-concept-SQLinj](https://github.com/CVETechnologic/CVE-2023-48788-Proof-of-concept-SQLinj) :  ![starts](https://img.shields.io/github/stars/CVETechnologic/CVE-2023-48788-Proof-of-concept-SQLinj.svg) ![forks](https://img.shields.io/github/forks/CVETechnologic/CVE-2023-48788-Proof-of-concept-SQLinj.svg)
 
 
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+## CVE-2023-33246
+ For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk of remote command execution. Several components of RocketMQ, including NameServer, Broker, and Controller, are leaked on the extranet and lack permission verification, an attacker can exploit this vulnerability by using the update configuration function to execute commands as the system users that RocketMQ is running as. Additionally, an attacker can achieve the same effect by forging the RocketMQ protocol content. To prevent these attacks, users are recommended to upgrade to version 5.1.1 or above for using RocketMQ 5.x or 4.9.6 or above for using RocketMQ 4.x .
 
-- [https://github.com/Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2021-41773.svg)
+- [https://github.com/hanch7274/CVE-2023-33246](https://github.com/hanch7274/CVE-2023-33246) :  ![starts](https://img.shields.io/github/stars/hanch7274/CVE-2023-33246.svg) ![forks](https://img.shields.io/github/forks/hanch7274/CVE-2023-33246.svg)
+
+
+## CVE-2023-20048
+ A vulnerability in the web services interface of Cisco Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to execute certain unauthorized configuration commands on a Firepower Threat Defense (FTD) device that is managed by the FMC Software. This vulnerability is due to insufficient authorization of configuration commands that are sent through the web service interface. An attacker could exploit this vulnerability by authenticating to the FMC web services interface and sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to execute certain configuration commands on the targeted FTD device. To successfully exploit this vulnerability, an attacker would need valid credentials on the FMC Software.
+
+- [https://github.com/0zer0d4y/FuegoTest](https://github.com/0zer0d4y/FuegoTest) :  ![starts](https://img.shields.io/github/stars/0zer0d4y/FuegoTest.svg) ![forks](https://img.shields.io/github/forks/0zer0d4y/FuegoTest.svg)
+
+
+## CVE-2021-38647
+ Open Management Infrastructure Remote Code Execution Vulnerability
+
+- [https://github.com/corelight/CVE-2021-38647-noimages](https://github.com/corelight/CVE-2021-38647-noimages) :  ![starts](https://img.shields.io/github/stars/corelight/CVE-2021-38647-noimages.svg) ![forks](https://img.shields.io/github/forks/corelight/CVE-2021-38647-noimages.svg)
+
+
+## CVE-2020-7961
+ Deserialization of Untrusted Data in Liferay Portal prior to 7.2.1 CE GA2 allows remote attackers to execute arbitrary code via JSON web services (JSONWS).
+
+- [https://github.com/manrop2702/CVE-2020-7961](https://github.com/manrop2702/CVE-2020-7961) :  ![starts](https://img.shields.io/github/stars/manrop2702/CVE-2020-7961.svg) ![forks](https://img.shields.io/github/forks/manrop2702/CVE-2020-7961.svg)
+
+
+## CVE-2019-14678
+ SAS XML Mapper 9.45 has an XML External Entity (XXE) vulnerability that can be leveraged by malicious attackers in multiple ways. Examples are Local File Reading, Out Of Band File Exfiltration, Server Side Request Forgery, and/or Potential Denial of Service attacks. This vulnerability also affects the XMLV2 LIBNAME engine when the AUTOMAP option is used.
+
+- [https://github.com/mbadanoiu/CVE-2019-14678](https://github.com/mbadanoiu/CVE-2019-14678) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2019-14678.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2019-14678.svg)
+
+
+## CVE-2017-0785
+ A information disclosure vulnerability in the Android system (bluetooth). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2, 8.0. Android ID: A-63146698.
+
+- [https://github.com/ojasookert/CVE-2017-0785](https://github.com/ojasookert/CVE-2017-0785) :  ![starts](https://img.shields.io/github/stars/ojasookert/CVE-2017-0785.svg) ![forks](https://img.shields.io/github/forks/ojasookert/CVE-2017-0785.svg)
+
+
+## CVE-2016-8870
+ The register method in the UsersModelRegistration class in controllers/user.php in the Users component in Joomla! before 3.6.4, when registration has been disabled, allows remote attackers to create user accounts by leveraging failure to check the Allow User Registration configuration setting.
+
+- [https://github.com/zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870](https://github.com/zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870) :  ![starts](https://img.shields.io/github/stars/zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870.svg) ![forks](https://img.shields.io/github/forks/zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870.svg)
+
+
+## CVE-2016-8869
+ The register method in the UsersModelRegistration class in controllers/user.php in the Users component in Joomla! before 3.6.4 allows remote attackers to gain privileges by leveraging incorrect use of unfiltered data when registering on a site.
+
+- [https://github.com/zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870](https://github.com/zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870) :  ![starts](https://img.shields.io/github/stars/zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870.svg) ![forks](https://img.shields.io/github/forks/zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870.svg)
+
+
+## CVE-2005-0575
+ Buffer overflow in Stormy Studios Knet 1.04c and earlier allows remote attackers to cause a denial of service and possibly execute arbitrary code via a long HTTP GET request.
+
+- [https://github.com/3t3rn4lv01d/CVE-2005-0575](https://github.com/3t3rn4lv01d/CVE-2005-0575) :  ![starts](https://img.shields.io/github/stars/3t3rn4lv01d/CVE-2005-0575.svg) ![forks](https://img.shields.io/github/forks/3t3rn4lv01d/CVE-2005-0575.svg)
 
