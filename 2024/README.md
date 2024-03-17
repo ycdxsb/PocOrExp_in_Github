@@ -1072,9 +1072,9 @@
 
 - [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)
 
-- [https://github.com/RequestXss/CVE-2024-21762-Exploit-POC](https://github.com/RequestXss/CVE-2024-21762-Exploit-POC) :  ![starts](https://img.shields.io/github/stars/RequestXss/CVE-2024-21762-Exploit-POC.svg) ![forks](https://img.shields.io/github/forks/RequestXss/CVE-2024-21762-Exploit-POC.svg)
-
 - [https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check) :  ![starts](https://img.shields.io/github/stars/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg) ![forks](https://img.shields.io/github/forks/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg)
+
+- [https://github.com/TheRedDevil1/CVE-2024-21762](https://github.com/TheRedDevil1/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/TheRedDevil1/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/TheRedDevil1/CVE-2024-21762.svg)
 
 - [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)
 
@@ -1114,13 +1114,6 @@
 
 - [https://github.com/abian2/CVE-2024-21626](https://github.com/abian2/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/abian2/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/abian2/CVE-2024-21626.svg)
 
-## CVE-2024-21426
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/CVE-searcher/CVE-2024-21426-SharePoint-RCE](https://github.com/CVE-searcher/CVE-2024-21426-SharePoint-RCE) :  ![starts](https://img.shields.io/github/stars/CVE-searcher/CVE-2024-21426-SharePoint-RCE.svg) ![forks](https://img.shields.io/github/forks/CVE-searcher/CVE-2024-21426-SharePoint-RCE.svg)
-
 ## CVE-2024-21413
  Microsoft Outlook Remote Code Execution Vulnerability
 
@@ -1157,6 +1150,13 @@
 
 
 - [https://github.com/FreakyM0ndy/CVE-2024-21410-poc](https://github.com/FreakyM0ndy/CVE-2024-21410-poc) :  ![starts](https://img.shields.io/github/stars/FreakyM0ndy/CVE-2024-21410-poc.svg) ![forks](https://img.shields.io/github/forks/FreakyM0ndy/CVE-2024-21410-poc.svg)
+
+## CVE-2024-21407
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/swagcrafte/CVE-2024-21407-POC](https://github.com/swagcrafte/CVE-2024-21407-POC) :  ![starts](https://img.shields.io/github/stars/swagcrafte/CVE-2024-21407-POC.svg) ![forks](https://img.shields.io/github/forks/swagcrafte/CVE-2024-21407-POC.svg)
 
 ## CVE-2024-21400
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
