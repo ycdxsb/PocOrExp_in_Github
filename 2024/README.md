@@ -306,6 +306,13 @@
 
 - [https://github.com/killerbees19/CVE-2024-24760](https://github.com/killerbees19/CVE-2024-24760) :  ![starts](https://img.shields.io/github/stars/killerbees19/CVE-2024-24760.svg) ![forks](https://img.shields.io/github/forks/killerbees19/CVE-2024-24760.svg)
 
+## CVE-2024-24520
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/xF-9979/CVE-2024-24520](https://github.com/xF-9979/CVE-2024-24520) :  ![starts](https://img.shields.io/github/stars/xF-9979/CVE-2024-24520.svg) ![forks](https://img.shields.io/github/forks/xF-9979/CVE-2024-24520.svg)
+
 ## CVE-2024-24488
  An issue in Shenzen Tenda Technology CP3V2.0 V11.10.00.2311090948 allows a local attacker to obtain sensitive information via the password component.
 
@@ -625,6 +632,8 @@
 
 - [https://github.com/AbraXa5/Jenkins-CVE-2024-23897](https://github.com/AbraXa5/Jenkins-CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/AbraXa5/Jenkins-CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/AbraXa5/Jenkins-CVE-2024-23897.svg)
 
+- [https://github.com/TheRedDevil1/CVE-2024-23897](https://github.com/TheRedDevil1/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/TheRedDevil1/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/TheRedDevil1/CVE-2024-23897.svg)
+
 - [https://github.com/Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2024-23897.svg)
 
 - [https://github.com/raheel0x01/CVE-2024-23897](https://github.com/raheel0x01/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/raheel0x01/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/raheel0x01/CVE-2024-23897.svg)
@@ -751,6 +760,8 @@
 
 
 - [https://github.com/ox1111/CVE-2024-23334](https://github.com/ox1111/CVE-2024-23334) :  ![starts](https://img.shields.io/github/stars/ox1111/CVE-2024-23334.svg) ![forks](https://img.shields.io/github/forks/ox1111/CVE-2024-23334.svg)
+
+- [https://github.com/sxyrxyy/aiohttp-exploit-CVE-2024-23334-certstream](https://github.com/sxyrxyy/aiohttp-exploit-CVE-2024-23334-certstream) :  ![starts](https://img.shields.io/github/stars/sxyrxyy/aiohttp-exploit-CVE-2024-23334-certstream.svg) ![forks](https://img.shields.io/github/forks/sxyrxyy/aiohttp-exploit-CVE-2024-23334-certstream.svg)
 
 ## CVE-2024-23208
  The issue was addressed with improved memory handling. This issue is fixed in macOS Sonoma 14.3, watchOS 10.3, tvOS 17.3, iOS 17.3 and iPadOS 17.3. An app may be able to execute arbitrary code with kernel privileges.
@@ -1070,13 +1081,15 @@
 
 - [https://github.com/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK](https://github.com/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK) :  ![starts](https://img.shields.io/github/stars/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK.svg) ![forks](https://img.shields.io/github/forks/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK.svg)
 
-- [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)
-
 - [https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check) :  ![starts](https://img.shields.io/github/stars/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg) ![forks](https://img.shields.io/github/forks/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg)
+
+- [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)
 
 - [https://github.com/TheRedDevil1/CVE-2024-21762](https://github.com/TheRedDevil1/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/TheRedDevil1/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/TheRedDevil1/CVE-2024-21762.svg)
 
 - [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)
+
+- [https://github.com/d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21762.svg)
 
 - [https://github.com/Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/Gh71m/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/Gh71m/CVE-2024-21762-POC.svg)
 
@@ -1114,6 +1127,8 @@
 
 - [https://github.com/abian2/CVE-2024-21626](https://github.com/abian2/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/abian2/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/abian2/CVE-2024-21626.svg)
 
+- [https://github.com/Sk3pper/CVE-2024-21626](https://github.com/Sk3pper/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/Sk3pper/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/Sk3pper/CVE-2024-21626.svg)
+
 ## CVE-2024-21413
  Microsoft Outlook Remote Code Execution Vulnerability
 
@@ -1150,13 +1165,6 @@
 
 
 - [https://github.com/FreakyM0ndy/CVE-2024-21410-poc](https://github.com/FreakyM0ndy/CVE-2024-21410-poc) :  ![starts](https://img.shields.io/github/stars/FreakyM0ndy/CVE-2024-21410-poc.svg) ![forks](https://img.shields.io/github/forks/FreakyM0ndy/CVE-2024-21410-poc.svg)
-
-## CVE-2024-21407
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/swagcrafte/CVE-2024-21407-POC](https://github.com/swagcrafte/CVE-2024-21407-POC) :  ![starts](https://img.shields.io/github/stars/swagcrafte/CVE-2024-21407-POC.svg) ![forks](https://img.shields.io/github/forks/swagcrafte/CVE-2024-21407-POC.svg)
 
 ## CVE-2024-21400
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
