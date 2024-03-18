@@ -1,60 +1,90 @@
-# Update 2024-03-17
-## CVE-2024-26503
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/RoboGR00t/Exploit-CVE-2024-26503](https://github.com/RoboGR00t/Exploit-CVE-2024-26503) :  ![starts](https://img.shields.io/github/stars/RoboGR00t/Exploit-CVE-2024-26503.svg) ![forks](https://img.shields.io/github/forks/RoboGR00t/Exploit-CVE-2024-26503.svg)
-
-
+# Update 2024-03-18
 ## CVE-2024-21762
  A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests
 
-- [https://github.com/vorotilovaawex/CVE-2024-21762_POC](https://github.com/vorotilovaawex/CVE-2024-21762_POC) :  ![starts](https://img.shields.io/github/stars/vorotilovaawex/CVE-2024-21762_POC.svg) ![forks](https://img.shields.io/github/forks/vorotilovaawex/CVE-2024-21762_POC.svg)
+- [https://github.com/TheRedDevil1/CVE-2024-21762](https://github.com/TheRedDevil1/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/TheRedDevil1/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/TheRedDevil1/CVE-2024-21762.svg)
 
 
-## CVE-2024-21426
+## CVE-2024-21407
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/CVE-searcher/CVE-2024-21426-SharePoint-RCE](https://github.com/CVE-searcher/CVE-2024-21426-SharePoint-RCE) :  ![starts](https://img.shields.io/github/stars/CVE-searcher/CVE-2024-21426-SharePoint-RCE.svg) ![forks](https://img.shields.io/github/forks/CVE-searcher/CVE-2024-21426-SharePoint-RCE.svg)
+- [https://github.com/swagcrafte/CVE-2024-21407-POC](https://github.com/swagcrafte/CVE-2024-21407-POC) :  ![starts](https://img.shields.io/github/stars/swagcrafte/CVE-2024-21407-POC.svg) ![forks](https://img.shields.io/github/forks/swagcrafte/CVE-2024-21407-POC.svg)
 
 
-## CVE-2023-46747
- Undisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated
+## CVE-2023-51385
+ In ssh in OpenSSH before 9.6, OS command injection might occur if a user name or host name has shell metacharacters, and this name is referenced by an expansion token in certain situations. For example, an untrusted Git repository can have a submodule with shell metacharacters in a user name or host name.
 
-- [https://github.com/rainbowhatrkn/CVE-2023-46747-RCE](https://github.com/rainbowhatrkn/CVE-2023-46747-RCE) :  ![starts](https://img.shields.io/github/stars/rainbowhatrkn/CVE-2023-46747-RCE.svg) ![forks](https://img.shields.io/github/forks/rainbowhatrkn/CVE-2023-46747-RCE.svg)
-
-
-## CVE-2023-43208
- NextGen Healthcare Mirth Connect before version 4.4.1 is vulnerable to unauthenticated remote code execution. Note that this vulnerability is caused by the incomplete patch of CVE-2023-37679.
-
-- [https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2023-43208-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2023-43208-EXPLOIT.svg)
+- [https://github.com/vin01/poc-proxycommand-vulnerable](https://github.com/vin01/poc-proxycommand-vulnerable) :  ![starts](https://img.shields.io/github/stars/vin01/poc-proxycommand-vulnerable.svg) ![forks](https://img.shields.io/github/forks/vin01/poc-proxycommand-vulnerable.svg)
 
 
-## CVE-2023-29357
- Microsoft SharePoint Server Elevation of Privilege Vulnerability
+## CVE-2023-40280
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Jev1337/CVE-2023-29357-Check](https://github.com/Jev1337/CVE-2023-29357-Check) :  ![starts](https://img.shields.io/github/stars/Jev1337/CVE-2023-29357-Check.svg) ![forks](https://img.shields.io/github/forks/Jev1337/CVE-2023-29357-Check.svg)
-
-
-## CVE-2022-1609
- The School Management WordPress plugin before 9.9.7 contains an obfuscated backdoor injected in it's license checking code that registers a REST API handler, allowing an unauthenticated attacker to execute arbitrary PHP code on the site.
-
-- [https://github.com/w4r3s/cve-2022-1609-exploit](https://github.com/w4r3s/cve-2022-1609-exploit) :  ![starts](https://img.shields.io/github/stars/w4r3s/cve-2022-1609-exploit.svg) ![forks](https://img.shields.io/github/forks/w4r3s/cve-2022-1609-exploit.svg)
+- [https://github.com/BugBountyHunterCVE/CVE-2023-40280](https://github.com/BugBountyHunterCVE/CVE-2023-40280) :  ![starts](https://img.shields.io/github/stars/BugBountyHunterCVE/CVE-2023-40280.svg) ![forks](https://img.shields.io/github/forks/BugBountyHunterCVE/CVE-2023-40280.svg)
 
 
-## CVE-2017-5753
- Systems with microprocessors utilizing speculative execution and branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
+## CVE-2023-40279
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/00052/spectre-attack-example](https://github.com/00052/spectre-attack-example) :  ![starts](https://img.shields.io/github/stars/00052/spectre-attack-example.svg) ![forks](https://img.shields.io/github/forks/00052/spectre-attack-example.svg)
-
-
-## CVE-2017-5715
- Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
-
-- [https://github.com/00052/spectre-attack-example](https://github.com/00052/spectre-attack-example) :  ![starts](https://img.shields.io/github/stars/00052/spectre-attack-example.svg) ![forks](https://img.shields.io/github/forks/00052/spectre-attack-example.svg)
+- [https://github.com/BugBountyHunterCVE/CVE-2023-40279](https://github.com/BugBountyHunterCVE/CVE-2023-40279) :  ![starts](https://img.shields.io/github/stars/BugBountyHunterCVE/CVE-2023-40279.svg) ![forks](https://img.shields.io/github/forks/BugBountyHunterCVE/CVE-2023-40279.svg)
 
 
-## CVE-2009-1151
- Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.11.9.5 and 3.x before 3.1.3.1 allows remote attackers to inject arbitrary PHP code into a configuration file via the save action.
+## CVE-2023-40278
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/ItaIia/PhpMyAdmin](https://github.com/ItaIia/PhpMyAdmin) :  ![starts](https://img.shields.io/github/stars/ItaIia/PhpMyAdmin.svg) ![forks](https://img.shields.io/github/forks/ItaIia/PhpMyAdmin.svg)
+- [https://github.com/BugBountyHunterCVE/CVE-2023-40278](https://github.com/BugBountyHunterCVE/CVE-2023-40278) :  ![starts](https://img.shields.io/github/stars/BugBountyHunterCVE/CVE-2023-40278.svg) ![forks](https://img.shields.io/github/forks/BugBountyHunterCVE/CVE-2023-40278.svg)
+
+
+## CVE-2023-40277
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/BugBountyHunterCVE/CVE-2023-40277](https://github.com/BugBountyHunterCVE/CVE-2023-40277) :  ![starts](https://img.shields.io/github/stars/BugBountyHunterCVE/CVE-2023-40277.svg) ![forks](https://img.shields.io/github/forks/BugBountyHunterCVE/CVE-2023-40277.svg)
+
+
+## CVE-2023-40276
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/BugBountyHunterCVE/CVE-2023-40276](https://github.com/BugBountyHunterCVE/CVE-2023-40276) :  ![starts](https://img.shields.io/github/stars/BugBountyHunterCVE/CVE-2023-40276.svg) ![forks](https://img.shields.io/github/forks/BugBountyHunterCVE/CVE-2023-40276.svg)
+
+
+## CVE-2023-40275
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/BugBountyHunterCVE/CVE-2023-40275](https://github.com/BugBountyHunterCVE/CVE-2023-40275) :  ![starts](https://img.shields.io/github/stars/BugBountyHunterCVE/CVE-2023-40275.svg) ![forks](https://img.shields.io/github/forks/BugBountyHunterCVE/CVE-2023-40275.svg)
+
+
+## CVE-2023-4911
+ A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.
+
+- [https://github.com/xem6/CVE-2023-4911](https://github.com/xem6/CVE-2023-4911) :  ![starts](https://img.shields.io/github/stars/xem6/CVE-2023-4911.svg) ![forks](https://img.shields.io/github/forks/xem6/CVE-2023-4911.svg)
+
+
+## CVE-2022-4262
+ Type confusion in V8 in Google Chrome prior to 108.0.5359.94 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+- [https://github.com/xem6/CVE-2022-4262](https://github.com/xem6/CVE-2022-4262) :  ![starts](https://img.shields.io/github/stars/xem6/CVE-2022-4262.svg) ![forks](https://img.shields.io/github/forks/xem6/CVE-2022-4262.svg)
+
+
+## CVE-2021-41379
+ Windows Installer Elevation of Privilege Vulnerability
+
+- [https://github.com/linuixtux/Cve2021-41379](https://github.com/linuixtux/Cve2021-41379) :  ![starts](https://img.shields.io/github/stars/linuixtux/Cve2021-41379.svg) ![forks](https://img.shields.io/github/forks/linuixtux/Cve2021-41379.svg)
+
+
+## CVE-2021-4034
+ A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
+
+- [https://github.com/Rvn0xsy/CVE-2021-4034](https://github.com/Rvn0xsy/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/Rvn0xsy/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/Rvn0xsy/CVE-2021-4034.svg)
+
+
+## CVE-2014-6721
+ The Pharmaguideline (aka com.pharmaguideline) application 1.2.0 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
+
+- [https://github.com/sagisar1/CVE-2014-6721-exploit-Shellshock](https://github.com/sagisar1/CVE-2014-6721-exploit-Shellshock) :  ![starts](https://img.shields.io/github/stars/sagisar1/CVE-2014-6721-exploit-Shellshock.svg) ![forks](https://img.shields.io/github/forks/sagisar1/CVE-2014-6721-exploit-Shellshock.svg)
+
+
+## CVE-2004-2271
+ Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.
+
+- [https://github.com/lautarolopez4/CVE-2004-2271](https://github.com/lautarolopez4/CVE-2004-2271) :  ![starts](https://img.shields.io/github/stars/lautarolopez4/CVE-2004-2271.svg) ![forks](https://img.shields.io/github/forks/lautarolopez4/CVE-2004-2271.svg)
 
