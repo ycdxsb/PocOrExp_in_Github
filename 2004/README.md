@@ -32,6 +32,8 @@
 
 - [https://github.com/kkirsche/CVE-2004-2271](https://github.com/kkirsche/CVE-2004-2271) :  ![starts](https://img.shields.io/github/stars/kkirsche/CVE-2004-2271.svg) ![forks](https://img.shields.io/github/forks/kkirsche/CVE-2004-2271.svg)
 
+- [https://github.com/lautarolopez4/CVE-2004-2271](https://github.com/lautarolopez4/CVE-2004-2271) :  ![starts](https://img.shields.io/github/stars/lautarolopez4/CVE-2004-2271.svg) ![forks](https://img.shields.io/github/forks/lautarolopez4/CVE-2004-2271.svg)
+
 - [https://github.com/war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2004-2271.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2004-2271.svg)
 
 - [https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF) :  ![starts](https://img.shields.io/github/stars/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF.svg) ![forks](https://img.shields.io/github/forks/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF.svg)
