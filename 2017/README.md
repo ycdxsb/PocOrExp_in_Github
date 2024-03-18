@@ -477,9 +477,9 @@
 
 - [https://github.com/senyuuri/cve-2017-16995](https://github.com/senyuuri/cve-2017-16995) :  ![starts](https://img.shields.io/github/stars/senyuuri/cve-2017-16995.svg) ![forks](https://img.shields.io/github/forks/senyuuri/cve-2017-16995.svg)
 
-- [https://github.com/littlebin404/CVE-2017-16995](https://github.com/littlebin404/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/littlebin404/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/littlebin404/CVE-2017-16995.svg)
-
 - [https://github.com/C0dak/CVE-2017-16995](https://github.com/C0dak/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/C0dak/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/C0dak/CVE-2017-16995.svg)
+
+- [https://github.com/littlebin404/CVE-2017-16995](https://github.com/littlebin404/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/littlebin404/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/littlebin404/CVE-2017-16995.svg)
 
 - [https://github.com/anldori/CVE-2017-16995](https://github.com/anldori/CVE-2017-16995) :  ![starts](https://img.shields.io/github/stars/anldori/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/anldori/CVE-2017-16995.svg)
 
@@ -1103,9 +1103,9 @@
 
 - [https://github.com/ppapadatis/python-janus-vulnerability-scan](https://github.com/ppapadatis/python-janus-vulnerability-scan) :  ![starts](https://img.shields.io/github/stars/ppapadatis/python-janus-vulnerability-scan.svg) ![forks](https://img.shields.io/github/forks/ppapadatis/python-janus-vulnerability-scan.svg)
 
-- [https://github.com/caxmd/CVE-2017-13156](https://github.com/caxmd/CVE-2017-13156) :  ![starts](https://img.shields.io/github/stars/caxmd/CVE-2017-13156.svg) ![forks](https://img.shields.io/github/forks/caxmd/CVE-2017-13156.svg)
-
 - [https://github.com/M507/CVE-2017-13156](https://github.com/M507/CVE-2017-13156) :  ![starts](https://img.shields.io/github/stars/M507/CVE-2017-13156.svg) ![forks](https://img.shields.io/github/forks/M507/CVE-2017-13156.svg)
+
+- [https://github.com/caxmd/CVE-2017-13156](https://github.com/caxmd/CVE-2017-13156) :  ![starts](https://img.shields.io/github/stars/caxmd/CVE-2017-13156.svg) ![forks](https://img.shields.io/github/forks/caxmd/CVE-2017-13156.svg)
 
 - [https://github.com/entediado97/rosa_dex_injetor](https://github.com/entediado97/rosa_dex_injetor) :  ![starts](https://img.shields.io/github/stars/entediado97/rosa_dex_injetor.svg) ![forks](https://img.shields.io/github/forks/entediado97/rosa_dex_injetor.svg)
 
@@ -1245,6 +1245,8 @@
 
 - [https://github.com/cyberharsh/Tomcat-CVE-2017-12615](https://github.com/cyberharsh/Tomcat-CVE-2017-12615) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Tomcat-CVE-2017-12615.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Tomcat-CVE-2017-12615.svg)
 
+- [https://github.com/K3ysTr0K3R/CVE-2017-12615-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-12615-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2017-12615-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2017-12615-EXPLOIT.svg)
+
 ## CVE-2017-12611
  In Apache Struts 2.0.0 through 2.3.33 and 2.5 through 2.5.10.1, using an unintentional expression in a Freemarker tag instead of string literals can lead to a RCE attack.
 
@@ -1288,9 +1290,9 @@
 
 - [https://github.com/jreppiks/CVE-2017-12149](https://github.com/jreppiks/CVE-2017-12149) :  ![starts](https://img.shields.io/github/stars/jreppiks/CVE-2017-12149.svg) ![forks](https://img.shields.io/github/forks/jreppiks/CVE-2017-12149.svg)
 
-- [https://github.com/VVeakee/CVE-2017-12149](https://github.com/VVeakee/CVE-2017-12149) :  ![starts](https://img.shields.io/github/stars/VVeakee/CVE-2017-12149.svg) ![forks](https://img.shields.io/github/forks/VVeakee/CVE-2017-12149.svg)
-
 - [https://github.com/MrE-Fog/jboss-_CVE-2017-12149](https://github.com/MrE-Fog/jboss-_CVE-2017-12149) :  ![starts](https://img.shields.io/github/stars/MrE-Fog/jboss-_CVE-2017-12149.svg) ![forks](https://img.shields.io/github/forks/MrE-Fog/jboss-_CVE-2017-12149.svg)
+
+- [https://github.com/VVeakee/CVE-2017-12149](https://github.com/VVeakee/CVE-2017-12149) :  ![starts](https://img.shields.io/github/stars/VVeakee/CVE-2017-12149.svg) ![forks](https://img.shields.io/github/forks/VVeakee/CVE-2017-12149.svg)
 
 - [https://github.com/Xcatolin/jboss-deserialization](https://github.com/Xcatolin/jboss-deserialization) :  ![starts](https://img.shields.io/github/stars/Xcatolin/jboss-deserialization.svg) ![forks](https://img.shields.io/github/forks/Xcatolin/jboss-deserialization.svg)
 
@@ -2009,9 +2011,9 @@
 
 - [https://github.com/Siopy/CVE-2017-8917](https://github.com/Siopy/CVE-2017-8917) :  ![starts](https://img.shields.io/github/stars/Siopy/CVE-2017-8917.svg) ![forks](https://img.shields.io/github/forks/Siopy/CVE-2017-8917.svg)
 
-- [https://github.com/BaptisteContreras/CVE-2017-8917-Joomla](https://github.com/BaptisteContreras/CVE-2017-8917-Joomla) :  ![starts](https://img.shields.io/github/stars/BaptisteContreras/CVE-2017-8917-Joomla.svg) ![forks](https://img.shields.io/github/forks/BaptisteContreras/CVE-2017-8917-Joomla.svg)
-
 - [https://github.com/ionutbaltariu/joomla_CVE-2017-8917](https://github.com/ionutbaltariu/joomla_CVE-2017-8917) :  ![starts](https://img.shields.io/github/stars/ionutbaltariu/joomla_CVE-2017-8917.svg) ![forks](https://img.shields.io/github/forks/ionutbaltariu/joomla_CVE-2017-8917.svg)
+
+- [https://github.com/BaptisteContreras/CVE-2017-8917-Joomla](https://github.com/BaptisteContreras/CVE-2017-8917-Joomla) :  ![starts](https://img.shields.io/github/stars/BaptisteContreras/CVE-2017-8917-Joomla.svg) ![forks](https://img.shields.io/github/forks/BaptisteContreras/CVE-2017-8917-Joomla.svg)
 
 ## CVE-2017-8890
  The inet_csk_clone_lock function in net/ipv4/inet_connection_sock.c in the Linux kernel through 4.10.15 allows attackers to cause a denial of service (double free) or possibly have unspecified other impact by leveraging use of the accept system call.
@@ -2938,13 +2940,13 @@
 
 - [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
 
+- [https://github.com/mritunjay-k/CVE-2017-5638](https://github.com/mritunjay-k/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2017-5638.svg)
+
 - [https://github.com/AndreasKl/CVE-2017-5638](https://github.com/AndreasKl/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/AndreasKl/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/AndreasKl/CVE-2017-5638.svg)
 
 - [https://github.com/eeehit/CVE-2017-5638](https://github.com/eeehit/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/eeehit/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/eeehit/CVE-2017-5638.svg)
 
 - [https://github.com/Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Badbird3/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Badbird3/CVE-2017-5638.svg)
-
-- [https://github.com/mritunjay-k/CVE-2017-5638](https://github.com/mritunjay-k/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2017-5638.svg)
 
 - [https://github.com/colorblindpentester/CVE-2017-5638](https://github.com/colorblindpentester/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/colorblindpentester/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/colorblindpentester/CVE-2017-5638.svg)
 
