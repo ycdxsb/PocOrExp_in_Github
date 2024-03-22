@@ -614,9 +614,9 @@
 
 - [https://github.com/kaanatmacaa/CVE-2024-23897](https://github.com/kaanatmacaa/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/kaanatmacaa/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/kaanatmacaa/CVE-2024-23897.svg)
 
-- [https://github.com/CKevens/CVE-2024-23897](https://github.com/CKevens/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2024-23897.svg)
-
 - [https://github.com/Vozec/CVE-2024-23897](https://github.com/Vozec/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Vozec/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Vozec/CVE-2024-23897.svg)
+
+- [https://github.com/CKevens/CVE-2024-23897](https://github.com/CKevens/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2024-23897.svg)
 
 - [https://github.com/jenkinsci-cert/SECURITY-3314-3315](https://github.com/jenkinsci-cert/SECURITY-3314-3315) :  ![starts](https://img.shields.io/github/stars/jenkinsci-cert/SECURITY-3314-3315.svg) ![forks](https://img.shields.io/github/forks/jenkinsci-cert/SECURITY-3314-3315.svg)
 
@@ -630,9 +630,9 @@
 
 - [https://github.com/TheRedDevil1/CVE-2024-23897](https://github.com/TheRedDevil1/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/TheRedDevil1/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/TheRedDevil1/CVE-2024-23897.svg)
 
-- [https://github.com/jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2024-23897.svg)
-
 - [https://github.com/Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Nebian/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Nebian/CVE-2024-23897.svg)
+
+- [https://github.com/jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2024-23897.svg)
 
 - [https://github.com/Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2024-23897.svg)
 
@@ -1018,13 +1018,6 @@
 
 - [https://github.com/0dteam/CVE-2024-22024](https://github.com/0dteam/CVE-2024-22024) :  ![starts](https://img.shields.io/github/stars/0dteam/CVE-2024-22024.svg) ![forks](https://img.shields.io/github/forks/0dteam/CVE-2024-22024.svg)
 
-## CVE-2024-21899
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/JohnHormond/CVE-2024-21899-RCE-exploit](https://github.com/JohnHormond/CVE-2024-21899-RCE-exploit) :  ![starts](https://img.shields.io/github/stars/JohnHormond/CVE-2024-21899-RCE-exploit.svg) ![forks](https://img.shields.io/github/forks/JohnHormond/CVE-2024-21899-RCE-exploit.svg)
-
 ## CVE-2024-21893
  A server-side request forgery vulnerability in the SAML component of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x) and Ivanti Neurons for ZTA allows an attacker to access certain restricted resources without authentication.
 
@@ -1077,8 +1070,6 @@
 - [https://github.com/BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/cve-2024-21762-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/cve-2024-21762-check.svg)
 
 - [https://github.com/h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/h4x0r-dz/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/h4x0r-dz/CVE-2024-21762.svg)
-
-- [https://github.com/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK](https://github.com/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK) :  ![starts](https://img.shields.io/github/stars/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK.svg) ![forks](https://img.shields.io/github/forks/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK.svg)
 
 - [https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check) :  ![starts](https://img.shields.io/github/stars/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg) ![forks](https://img.shields.io/github/forks/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg)
 
@@ -1151,19 +1142,19 @@
 
 - [https://github.com/MSeymenD/CVE-2024-21413](https://github.com/MSeymenD/CVE-2024-21413) :  ![starts](https://img.shields.io/github/stars/MSeymenD/CVE-2024-21413.svg) ![forks](https://img.shields.io/github/forks/MSeymenD/CVE-2024-21413.svg)
 
+## CVE-2024-21412
+ Internet Shortcut Files Security Feature Bypass Vulnerability
+
+
+
+- [https://github.com/wr00t/CVE-2024-21412_Water-Hydra](https://github.com/wr00t/CVE-2024-21412_Water-Hydra) :  ![starts](https://img.shields.io/github/stars/wr00t/CVE-2024-21412_Water-Hydra.svg) ![forks](https://img.shields.io/github/forks/wr00t/CVE-2024-21412_Water-Hydra.svg)
+
 ## CVE-2024-21411
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
 
 
 - [https://github.com/rkraper339/CVE-2024-21411-POC](https://github.com/rkraper339/CVE-2024-21411-POC) :  ![starts](https://img.shields.io/github/stars/rkraper339/CVE-2024-21411-POC.svg) ![forks](https://img.shields.io/github/forks/rkraper339/CVE-2024-21411-POC.svg)
-
-## CVE-2024-21410
- Microsoft Exchange Server Elevation of Privilege Vulnerability
-
-
-
-- [https://github.com/FreakyM0ndy/CVE-2024-21410-poc](https://github.com/FreakyM0ndy/CVE-2024-21410-poc) :  ![starts](https://img.shields.io/github/stars/FreakyM0ndy/CVE-2024-21410-poc.svg) ![forks](https://img.shields.io/github/forks/FreakyM0ndy/CVE-2024-21410-poc.svg)
 
 ## CVE-2024-21400
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -1176,8 +1167,6 @@
  Microsoft Outlook Remote Code Execution Vulnerability
 
 
-
-- [https://github.com/JohnHormond/CVE-2024-21378](https://github.com/JohnHormond/CVE-2024-21378) :  ![starts](https://img.shields.io/github/stars/JohnHormond/CVE-2024-21378.svg) ![forks](https://img.shields.io/github/forks/JohnHormond/CVE-2024-21378.svg)
 
 - [https://github.com/d0rb/CVE-2024-21378](https://github.com/d0rb/CVE-2024-21378) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21378.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21378.svg)
 
@@ -1445,13 +1434,6 @@
 
 
 - [https://github.com/RandomRobbieBF/CVE-2024-0679](https://github.com/RandomRobbieBF/CVE-2024-0679) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-0679.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-0679.svg)
-
-## CVE-2024-0519
- Out of bounds memory access in V8 in Google Chrome prior to 120.0.6099.224 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-
-
-
-- [https://github.com/JohnHormond/CVE-2024-0519-Chrome-exploit](https://github.com/JohnHormond/CVE-2024-0519-Chrome-exploit) :  ![starts](https://img.shields.io/github/stars/JohnHormond/CVE-2024-0519-Chrome-exploit.svg) ![forks](https://img.shields.io/github/forks/JohnHormond/CVE-2024-0519-Chrome-exploit.svg)
 
 ## CVE-2024-0204
  Authentication bypass in Fortra's GoAnywhere MFT prior to 7.4.1 allows an unauthorized user to create an admin user via the administration portal.
