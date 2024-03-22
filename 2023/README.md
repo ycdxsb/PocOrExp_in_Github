@@ -816,6 +816,8 @@
 
 
 
+- [https://github.com/horizon3ai/CVE-2023-48788](https://github.com/horizon3ai/CVE-2023-48788) :  ![starts](https://img.shields.io/github/stars/horizon3ai/CVE-2023-48788.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/CVE-2023-48788.svg)
+
 - [https://github.com/CVETechnologic/CVE-2023-48788-Proof-of-concept-SQLinj](https://github.com/CVETechnologic/CVE-2023-48788-Proof-of-concept-SQLinj) :  ![starts](https://img.shields.io/github/stars/CVETechnologic/CVE-2023-48788-Proof-of-concept-SQLinj.svg) ![forks](https://img.shields.io/github/forks/CVETechnologic/CVE-2023-48788-Proof-of-concept-SQLinj.svg)
 
 - [https://github.com/TheRedDevil1/CVE-2023-48788](https://github.com/TheRedDevil1/CVE-2023-48788) :  ![starts](https://img.shields.io/github/stars/TheRedDevil1/CVE-2023-48788.svg) ![forks](https://img.shields.io/github/forks/TheRedDevil1/CVE-2023-48788.svg)
@@ -3270,7 +3272,7 @@
 
 - [https://github.com/LeakIX/sentryexploit](https://github.com/LeakIX/sentryexploit) :  ![starts](https://img.shields.io/github/stars/LeakIX/sentryexploit.svg) ![forks](https://img.shields.io/github/forks/LeakIX/sentryexploit.svg)
 
-- [https://github.com/mind2hex/MICS_Hunter](https://github.com/mind2hex/MICS_Hunter) :  ![starts](https://img.shields.io/github/stars/mind2hex/MICS_Hunter.svg) ![forks](https://img.shields.io/github/forks/mind2hex/MICS_Hunter.svg)
+- [https://github.com/mind2hex/CVE-2023-38035](https://github.com/mind2hex/CVE-2023-38035) :  ![starts](https://img.shields.io/github/stars/mind2hex/CVE-2023-38035.svg) ![forks](https://img.shields.io/github/forks/mind2hex/CVE-2023-38035.svg)
 
 ## CVE-2023-37988
  Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Creative Solutions Contact Form Generator plugin &lt;= 2.5.5 versions.
@@ -3665,6 +3667,13 @@
 
 
 - [https://github.com/tandasat/CVE-2023-36427](https://github.com/tandasat/CVE-2023-36427) :  ![starts](https://img.shields.io/github/stars/tandasat/CVE-2023-36427.svg) ![forks](https://img.shields.io/github/forks/tandasat/CVE-2023-36427.svg)
+
+## CVE-2023-36424
+ Windows Common Log File System Driver Elevation of Privilege Vulnerability
+
+
+
+- [https://github.com/Nassim-Asrir/CVE-2023-36424](https://github.com/Nassim-Asrir/CVE-2023-36424) :  ![starts](https://img.shields.io/github/stars/Nassim-Asrir/CVE-2023-36424.svg) ![forks](https://img.shields.io/github/forks/Nassim-Asrir/CVE-2023-36424.svg)
 
 ## CVE-2023-36407
  Windows Hyper-V Elevation of Privilege Vulnerability
@@ -5109,6 +5118,8 @@
 
 - [https://github.com/Chocapikk/CVE-2023-30943](https://github.com/Chocapikk/CVE-2023-30943) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-30943.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-30943.svg)
 
+- [https://github.com/RubyCat1337/CVE-2023-30943](https://github.com/RubyCat1337/CVE-2023-30943) :  ![starts](https://img.shields.io/github/stars/RubyCat1337/CVE-2023-30943.svg) ![forks](https://img.shields.io/github/forks/RubyCat1337/CVE-2023-30943.svg)
+
 ## CVE-2023-30861
  Flask is a lightweight WSGI web application framework. When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by the proxy to other clients. If the proxy also caches `Set-Cookie` headers, it may send one client's `session` cookie to other clients. The severity depends on the application's use of the session and the proxy's behavior regarding cookies. The risk depends on all these conditions being met. 1. The application must be hosted behind a caching proxy that does not strip cookies or ignore responses with cookies. 2. The application sets `session.permanent = True` 3. The application does not access or modify the session at any point during a request. 4. `SESSION_REFRESH_EACH_REQUEST` enabled (the default). 5. The application does not set a `Cache-Control` header to indicate that a page is private or should not be cached. This happens because vulnerable versions of Flask only set the `Vary: Cookie` header when the session is accessed or modified, not when it is refreshed (re-sent to update the expiration) without being accessed or modified. This issue has been fixed in versions 2.3.2 and 2.2.5.
 
@@ -5335,13 +5346,6 @@
 
 - [https://github.com/YSaxon/TFTPlunder](https://github.com/YSaxon/TFTPlunder) :  ![starts](https://img.shields.io/github/stars/YSaxon/TFTPlunder.svg) ![forks](https://img.shields.io/github/forks/YSaxon/TFTPlunder.svg)
 
-## CVE-2023-29929
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/YSaxon/CVE-2023-29929](https://github.com/YSaxon/CVE-2023-29929) :  ![starts](https://img.shields.io/github/stars/YSaxon/CVE-2023-29929.svg) ![forks](https://img.shields.io/github/forks/YSaxon/CVE-2023-29929.svg)
-
 ## CVE-2023-29923
  PowerJob V4.3.1 is vulnerable to Insecure Permissions. via the list job interface.
 
@@ -5417,9 +5421,9 @@
 
 - [https://github.com/SynixCyberCrimeMy/CVE-2023-29489](https://github.com/SynixCyberCrimeMy/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/SynixCyberCrimeMy/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/SynixCyberCrimeMy/CVE-2023-29489.svg)
 
-- [https://github.com/ViperM4sk/cpanel-xss-177](https://github.com/ViperM4sk/cpanel-xss-177) :  ![starts](https://img.shields.io/github/stars/ViperM4sk/cpanel-xss-177.svg) ![forks](https://img.shields.io/github/forks/ViperM4sk/cpanel-xss-177.svg)
-
 - [https://github.com/Mostafa-Elguerdawi/CVE-2023-29489](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/Mostafa-Elguerdawi/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/Mostafa-Elguerdawi/CVE-2023-29489.svg)
+
+- [https://github.com/ViperM4sk/cpanel-xss-177](https://github.com/ViperM4sk/cpanel-xss-177) :  ![starts](https://img.shields.io/github/stars/ViperM4sk/cpanel-xss-177.svg) ![forks](https://img.shields.io/github/forks/ViperM4sk/cpanel-xss-177.svg)
 
 - [https://github.com/tucommenceapousser/CVE-2023-29489](https://github.com/tucommenceapousser/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/tucommenceapousser/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/tucommenceapousser/CVE-2023-29489.svg)
 
@@ -6386,9 +6390,9 @@
 
 - [https://github.com/win3zz/CVE-2023-25157](https://github.com/win3zz/CVE-2023-25157) :  ![starts](https://img.shields.io/github/stars/win3zz/CVE-2023-25157.svg) ![forks](https://img.shields.io/github/forks/win3zz/CVE-2023-25157.svg)
 
-- [https://github.com/0x2458bughunt/CVE-2023-25157](https://github.com/0x2458bughunt/CVE-2023-25157) :  ![starts](https://img.shields.io/github/stars/0x2458bughunt/CVE-2023-25157.svg) ![forks](https://img.shields.io/github/forks/0x2458bughunt/CVE-2023-25157.svg)
-
 - [https://github.com/murataydemir/CVE-2023-25157-and-CVE-2023-25158](https://github.com/murataydemir/CVE-2023-25157-and-CVE-2023-25158) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2023-25157-and-CVE-2023-25158.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2023-25157-and-CVE-2023-25158.svg)
+
+- [https://github.com/0x2458bughunt/CVE-2023-25157](https://github.com/0x2458bughunt/CVE-2023-25157) :  ![starts](https://img.shields.io/github/stars/0x2458bughunt/CVE-2023-25157.svg) ![forks](https://img.shields.io/github/forks/0x2458bughunt/CVE-2023-25157.svg)
 
 - [https://github.com/7imbitz/CVE-2023-25157-checker](https://github.com/7imbitz/CVE-2023-25157-checker) :  ![starts](https://img.shields.io/github/stars/7imbitz/CVE-2023-25157-checker.svg) ![forks](https://img.shields.io/github/forks/7imbitz/CVE-2023-25157-checker.svg)
 
@@ -6700,10 +6704,6 @@
 
 - [https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script](https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script) :  ![starts](https://img.shields.io/github/stars/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script.svg) ![forks](https://img.shields.io/github/forks/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script.svg)
 
-- [https://github.com/svaltheim/CVE-2023-23752](https://github.com/svaltheim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/svaltheim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/svaltheim/CVE-2023-23752.svg)
-
-- [https://github.com/Rival420/CVE-2023-23752](https://github.com/Rival420/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Rival420/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Rival420/CVE-2023-23752.svg)
-
 - [https://github.com/cybernetwiz/CVE-2023-23752](https://github.com/cybernetwiz/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/cybernetwiz/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/cybernetwiz/CVE-2023-23752.svg)
 
 - [https://github.com/C1ph3rX13/CVE-2023-23752](https://github.com/C1ph3rX13/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/C1ph3rX13/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/C1ph3rX13/CVE-2023-23752.svg)
@@ -6711,6 +6711,10 @@
 - [https://github.com/TindalyTn/CVE-2023-23752](https://github.com/TindalyTn/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/TindalyTn/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/TindalyTn/CVE-2023-23752.svg)
 
 - [https://github.com/yTxZx/CVE-2023-23752](https://github.com/yTxZx/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/yTxZx/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/yTxZx/CVE-2023-23752.svg)
+
+- [https://github.com/svaltheim/CVE-2023-23752](https://github.com/svaltheim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/svaltheim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/svaltheim/CVE-2023-23752.svg)
+
+- [https://github.com/Rival420/CVE-2023-23752](https://github.com/Rival420/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Rival420/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Rival420/CVE-2023-23752.svg)
 
 - [https://github.com/Pushkarup/CVE-2023-23752](https://github.com/Pushkarup/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Pushkarup/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Pushkarup/CVE-2023-23752.svg)
 
@@ -7095,6 +7099,8 @@
 - [https://github.com/bibo318/CVE-2023-22518](https://github.com/bibo318/CVE-2023-22518) :  ![starts](https://img.shields.io/github/stars/bibo318/CVE-2023-22518.svg) ![forks](https://img.shields.io/github/forks/bibo318/CVE-2023-22518.svg)
 
 - [https://github.com/C1ph3rX13/CVE-2023-22518](https://github.com/C1ph3rX13/CVE-2023-22518) :  ![starts](https://img.shields.io/github/stars/C1ph3rX13/CVE-2023-22518.svg) ![forks](https://img.shields.io/github/forks/C1ph3rX13/CVE-2023-22518.svg)
+
+- [https://github.com/Lilly-dox/Exploit-CVE-2023-22518](https://github.com/Lilly-dox/Exploit-CVE-2023-22518) :  ![starts](https://img.shields.io/github/stars/Lilly-dox/Exploit-CVE-2023-22518.svg) ![forks](https://img.shields.io/github/forks/Lilly-dox/Exploit-CVE-2023-22518.svg)
 
 ## CVE-2023-22515
  Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances. Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.
@@ -8231,9 +8237,9 @@
 
 - [https://github.com/morganwdavis/overread](https://github.com/morganwdavis/overread) :  ![starts](https://img.shields.io/github/stars/morganwdavis/overread.svg) ![forks](https://img.shields.io/github/forks/morganwdavis/overread.svg)
 
-- [https://github.com/0xKayala/CVE-2023-4966](https://github.com/0xKayala/CVE-2023-4966) :  ![starts](https://img.shields.io/github/stars/0xKayala/CVE-2023-4966.svg) ![forks](https://img.shields.io/github/forks/0xKayala/CVE-2023-4966.svg)
-
 - [https://github.com/s-bt/CVE-2023-4966](https://github.com/s-bt/CVE-2023-4966) :  ![starts](https://img.shields.io/github/stars/s-bt/CVE-2023-4966.svg) ![forks](https://img.shields.io/github/forks/s-bt/CVE-2023-4966.svg)
+
+- [https://github.com/0xKayala/CVE-2023-4966](https://github.com/0xKayala/CVE-2023-4966) :  ![starts](https://img.shields.io/github/stars/0xKayala/CVE-2023-4966.svg) ![forks](https://img.shields.io/github/forks/0xKayala/CVE-2023-4966.svg)
 
 - [https://github.com/byte4RR4Y/CVE-2023-4966](https://github.com/byte4RR4Y/CVE-2023-4966) :  ![starts](https://img.shields.io/github/stars/byte4RR4Y/CVE-2023-4966.svg) ![forks](https://img.shields.io/github/forks/byte4RR4Y/CVE-2023-4966.svg)
 
@@ -9235,9 +9241,9 @@
 
 - [https://github.com/iumiro/CVE-2023-1177-MLFlow](https://github.com/iumiro/CVE-2023-1177-MLFlow) :  ![starts](https://img.shields.io/github/stars/iumiro/CVE-2023-1177-MLFlow.svg) ![forks](https://img.shields.io/github/forks/iumiro/CVE-2023-1177-MLFlow.svg)
 
-- [https://github.com/tiyeume25112004/CVE-2023-1177-rebuild](https://github.com/tiyeume25112004/CVE-2023-1177-rebuild) :  ![starts](https://img.shields.io/github/stars/tiyeume25112004/CVE-2023-1177-rebuild.svg) ![forks](https://img.shields.io/github/forks/tiyeume25112004/CVE-2023-1177-rebuild.svg)
-
 - [https://github.com/hh-hunter/ml-CVE-2023-1177](https://github.com/hh-hunter/ml-CVE-2023-1177) :  ![starts](https://img.shields.io/github/stars/hh-hunter/ml-CVE-2023-1177.svg) ![forks](https://img.shields.io/github/forks/hh-hunter/ml-CVE-2023-1177.svg)
+
+- [https://github.com/tiyeume25112004/CVE-2023-1177-rebuild](https://github.com/tiyeume25112004/CVE-2023-1177-rebuild) :  ![starts](https://img.shields.io/github/stars/tiyeume25112004/CVE-2023-1177-rebuild.svg) ![forks](https://img.shields.io/github/forks/tiyeume25112004/CVE-2023-1177-rebuild.svg)
 
 ## CVE-2023-1112
  A vulnerability was found in Drag and Drop Multiple File Upload Contact Form 7 5.0.6.1 on WordPress. It has been classified as critical. Affected is an unknown function of the file admin-ajax.php. The manipulation of the argument upload_name leads to relative path traversal. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-222072.
