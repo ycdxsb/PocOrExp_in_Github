@@ -503,6 +503,13 @@
 
 - [https://github.com/nex1less/CVE-2015-4852](https://github.com/nex1less/CVE-2015-4852) :  ![starts](https://img.shields.io/github/stars/nex1less/CVE-2015-4852.svg) ![forks](https://img.shields.io/github/forks/nex1less/CVE-2015-4852.svg)
 
+## CVE-2015-4843
+ Unspecified vulnerability in Oracle Java SE 6u101, 7u85, and 8u60, and Java SE Embedded 8u51, allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries.
+
+
+
+- [https://github.com/Soteria-Research/cve-2015-4843-type-confusion-phrack](https://github.com/Soteria-Research/cve-2015-4843-type-confusion-phrack) :  ![starts](https://img.shields.io/github/stars/Soteria-Research/cve-2015-4843-type-confusion-phrack.svg) ![forks](https://img.shields.io/github/forks/Soteria-Research/cve-2015-4843-type-confusion-phrack.svg)
+
 ## CVE-2015-4495
  The PDF reader in Mozilla Firefox before 39.0.3, Firefox ESR 38.x before 38.1.1, and Firefox OS before 2.2 allows remote attackers to bypass the Same Origin Policy, and read arbitrary files or gain privileges, via vectors involving crafted JavaScript code and a native setter, as exploited in the wild in August 2015.
 
