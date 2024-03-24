@@ -1,73 +1,48 @@
-# Update 2024-03-23
-## CVE-2024-21412
- Internet Shortcut Files Security Feature Bypass Vulnerability
+# Update 2024-03-24
+## CVE-2024-25175
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/wr00t/CVE-2024-21412_Water-Hydra](https://github.com/wr00t/CVE-2024-21412_Water-Hydra) :  ![starts](https://img.shields.io/github/stars/wr00t/CVE-2024-21412_Water-Hydra.svg) ![forks](https://img.shields.io/github/forks/wr00t/CVE-2024-21412_Water-Hydra.svg)
+- [https://github.com/jet-pentest/CVE-2024-25175](https://github.com/jet-pentest/CVE-2024-25175) :  ![starts](https://img.shields.io/github/stars/jet-pentest/CVE-2024-25175.svg) ![forks](https://img.shields.io/github/forks/jet-pentest/CVE-2024-25175.svg)
+
+
+## CVE-2024-1709
+ ConnectWise ScreenConnect 23.9.7 and prior are affected by an Authentication Bypass Using an Alternate Path or Channel vulnerability, which may allow an attacker direct access to confidential information or critical systems.
+
+- [https://github.com/sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass](https://github.com/sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass) :  ![starts](https://img.shields.io/github/stars/sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass.svg) ![forks](https://img.shields.io/github/forks/sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass.svg)
 
 
 ## CVE-2023-48788
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/horizon3ai/CVE-2023-48788](https://github.com/horizon3ai/CVE-2023-48788) :  ![starts](https://img.shields.io/github/stars/horizon3ai/CVE-2023-48788.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/CVE-2023-48788.svg)
+- [https://github.com/TheRedDevil1/CVE-2023-48788-exploit](https://github.com/TheRedDevil1/CVE-2023-48788-exploit) :  ![starts](https://img.shields.io/github/stars/TheRedDevil1/CVE-2023-48788-exploit.svg) ![forks](https://img.shields.io/github/forks/TheRedDevil1/CVE-2023-48788-exploit.svg)
 
 
-## CVE-2023-38035
- A security vulnerability in MICS Admin Portal in Ivanti MobileIron Sentry versions 9.18.0 and below, which may allow an attacker to bypass authentication controls on the administrative interface due to an insufficiently restrictive Apache HTTPD configuration.
+## CVE-2023-48084
+ Nagios XI before version 5.11.3 was discovered to contain a SQL injection vulnerability via the bulk modification tool.
 
-- [https://github.com/mind2hex/CVE-2023-38035](https://github.com/mind2hex/CVE-2023-38035) :  ![starts](https://img.shields.io/github/stars/mind2hex/CVE-2023-38035.svg) ![forks](https://img.shields.io/github/forks/mind2hex/CVE-2023-38035.svg)
-
-
-## CVE-2023-36424
- Windows Common Log File System Driver Elevation of Privilege Vulnerability
-
-- [https://github.com/Nassim-Asrir/CVE-2023-36424](https://github.com/Nassim-Asrir/CVE-2023-36424) :  ![starts](https://img.shields.io/github/stars/Nassim-Asrir/CVE-2023-36424.svg) ![forks](https://img.shields.io/github/forks/Nassim-Asrir/CVE-2023-36424.svg)
+- [https://github.com/bucketcat/CVE-2023-48084](https://github.com/bucketcat/CVE-2023-48084) :  ![starts](https://img.shields.io/github/stars/bucketcat/CVE-2023-48084.svg) ![forks](https://img.shields.io/github/forks/bucketcat/CVE-2023-48084.svg)
 
 
-## CVE-2023-30943
- The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user can send a specially crafted HTTP request and create arbitrary folders on the system.
+## CVE-2023-41064
+ A buffer overflow issue was addressed with improved memory handling. This issue is fixed in iOS 16.6.1 and iPadOS 16.6.1, macOS Monterey 12.6.9, macOS Ventura 13.5.2, iOS 15.7.9 and iPadOS 15.7.9, macOS Big Sur 11.7.10. Processing a maliciously crafted image may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
 
-- [https://github.com/RubyCat1337/CVE-2023-30943](https://github.com/RubyCat1337/CVE-2023-30943) :  ![starts](https://img.shields.io/github/stars/RubyCat1337/CVE-2023-30943.svg) ![forks](https://img.shields.io/github/forks/RubyCat1337/CVE-2023-30943.svg)
-
-
-## CVE-2023-22518
- All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authorization vulnerability allows an unauthenticated attacker to reset Confluence and create a Confluence instance administrator account. Using this account, an attacker can then perform all administrative actions that are available to Confluence instance administrator leading to - but not limited to - full loss of confidentiality, integrity and availability. Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.
-
-- [https://github.com/Lilly-dox/Exploit-CVE-2023-22518](https://github.com/Lilly-dox/Exploit-CVE-2023-22518) :  ![starts](https://img.shields.io/github/stars/Lilly-dox/Exploit-CVE-2023-22518.svg) ![forks](https://img.shields.io/github/forks/Lilly-dox/Exploit-CVE-2023-22518.svg)
+- [https://github.com/alsaeroth/CVE-2023-41064-POC](https://github.com/alsaeroth/CVE-2023-41064-POC) :  ![starts](https://img.shields.io/github/stars/alsaeroth/CVE-2023-41064-POC.svg) ![forks](https://img.shields.io/github/forks/alsaeroth/CVE-2023-41064-POC.svg)
 
 
-## CVE-2022-39986
- A Command injection vulnerability in RaspAP 2.8.0 thru 2.8.7 allows unauthenticated attackers to execute arbitrary commands via the cfg_id parameter in /ajax/openvpn/activate_ovpncfg.php and /ajax/openvpn/del_ovpncfg.php.
+## CVE-2022-23093
+ ping reads raw IP packets from the network to process responses in the pr_pack() function. As part of processing a response ping has to reconstruct the IP header, the ICMP header and if present a &quot;quoted packet,&quot; which represents the packet that generated an ICMP error. The quoted packet again has an IP header and an ICMP header. The pr_pack() copies received IP and ICMP headers into stack buffers for further processing. In so doing, it fails to take into account the possible presence of IP option headers following the IP header in either the response or the quoted packet. When IP options are present, pr_pack() overflows the destination buffer by up to 40 bytes. The memory safety bugs described above can be triggered by a remote host, causing the ping program to crash. The ping process runs in a capability mode sandbox on all affected versions of FreeBSD and is thus very constrained in how it can interact with the rest of the system at the point where the bug can occur.
 
-- [https://github.com/mind2hex/CVE-2022-39986](https://github.com/mind2hex/CVE-2022-39986) :  ![starts](https://img.shields.io/github/stars/mind2hex/CVE-2022-39986.svg) ![forks](https://img.shields.io/github/forks/mind2hex/CVE-2022-39986.svg)
-
-
-## CVE-2022-21445
- Vulnerability in the Oracle JDeveloper product of Oracle Fusion Middleware (component: ADF Faces). Supported versions that are affected are 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle JDeveloper. Successful attacks of this vulnerability can result in takeover of Oracle JDeveloper. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
-
-- [https://github.com/hienkiet/CVE-2022-21445-for-12.2.1.3.0-Weblogic](https://github.com/hienkiet/CVE-2022-21445-for-12.2.1.3.0-Weblogic) :  ![starts](https://img.shields.io/github/stars/hienkiet/CVE-2022-21445-for-12.2.1.3.0-Weblogic.svg) ![forks](https://img.shields.io/github/forks/hienkiet/CVE-2022-21445-for-12.2.1.3.0-Weblogic.svg)
+- [https://github.com/Symbolexe/DrayTek-Exploit](https://github.com/Symbolexe/DrayTek-Exploit) :  ![starts](https://img.shields.io/github/stars/Symbolexe/DrayTek-Exploit.svg) ![forks](https://img.shields.io/github/forks/Symbolexe/DrayTek-Exploit.svg)
 
 
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+## CVE-2021-40444
+ &lt;p&gt;Microsoft is investigating reports of a remote code execution vulnerability in MSHTML that affects Microsoft Windows. Microsoft is aware of targeted attacks that attempt to exploit this vulnerability by using specially-crafted Microsoft Office documents.&lt;/p&gt; &lt;p&gt;An attacker could craft a malicious ActiveX control to be used by a Microsoft Office document that hosts the browser rendering engine. The attacker would then have to convince the user to open the malicious document. Users whose accounts are configured to have fewer user rights on the system could be less impacted than users who operate with administrative user rights.&lt;/p&gt; &lt;p&gt;Microsoft Defender Antivirus and Microsoft Defender for Endpoint both provide detection and protections for the known vulnerability. Customers should keep antimalware products up to date. Customers who utilize automatic updates do not need to take additional action. Enterprise customers who manage updates should select the detection build 1.349.22.0 or newer and deploy it across their environments. Microsoft Defender for Endpoint alerts will be displayed as: &#8220;Suspicious Cpl File Execution&#8221;.&lt;/p&gt; &lt;p&gt;Upon completion of this investigation, Microsoft will take the appropriate action to help protect our customers. This may include providing a security update through our monthly release process or providing an out-of-cycle security update, depending on customer needs.&lt;/p&gt; &lt;p&gt;Please see the &lt;strong&gt;Mitigations&lt;/strong&gt; and &lt;strong&gt;Workaround&lt;/strong&gt; sections for important information about steps you can take to protect your system from this vulnerability.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; September 14, 2021: Microsoft has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. Please see the FAQ for important information about which updates are applicable to your system.&lt;/p&gt;
 
-- [https://github.com/xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/xMohamed0/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/xMohamed0/CVE-2021-41773.svg)
-- [https://github.com/sixpacksecurity/CVE-2021-41773](https://github.com/sixpacksecurity/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/sixpacksecurity/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/sixpacksecurity/CVE-2021-41773.svg)
-
-
-## CVE-2015-4843
- Unspecified vulnerability in Oracle Java SE 6u101, 7u85, and 8u60, and Java SE Embedded 8u51, allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries.
-
-- [https://github.com/Soteria-Research/cve-2015-4843-type-confusion-phrack](https://github.com/Soteria-Research/cve-2015-4843-type-confusion-phrack) :  ![starts](https://img.shields.io/github/stars/Soteria-Research/cve-2015-4843-type-confusion-phrack.svg) ![forks](https://img.shields.io/github/forks/Soteria-Research/cve-2015-4843-type-confusion-phrack.svg)
+- [https://github.com/kagura-maru/CVE-2021-40444-POC](https://github.com/kagura-maru/CVE-2021-40444-POC) :  ![starts](https://img.shields.io/github/stars/kagura-maru/CVE-2021-40444-POC.svg) ![forks](https://img.shields.io/github/forks/kagura-maru/CVE-2021-40444-POC.svg)
 
 
-## CVE-2014-0160
- The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not properly handle Heartbeat Extension packets, which allows remote attackers to obtain sensitive information from process memory via crafted packets that trigger a buffer over-read, as demonstrated by reading private keys, related to d1_both.c and t1_lib.c, aka the Heartbleed bug.
+## CVE-2016-3861
+ LibUtils in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, 6.x before 2016-09-01, and 7.0 before 2016-09-01 mishandles conversions between Unicode character encodings with different encoding widths, which allows remote attackers to execute arbitrary code or cause a denial of service (heap-based buffer overflow) via a crafted file, aka internal bug 29250543.
 
-- [https://github.com/pblittle/aws-suture](https://github.com/pblittle/aws-suture) :  ![starts](https://img.shields.io/github/stars/pblittle/aws-suture.svg) ![forks](https://img.shields.io/github/forks/pblittle/aws-suture.svg)
-
-
-## CVE-2010-3124
- Untrusted search path vulnerability in bin/winvlc.c in VLC Media Player 1.1.3 and earlier allows local users, and possibly remote attackers, to execute arbitrary code and conduct DLL hijacking attacks via a Trojan horse wintab32.dll that is located in the same folder as a .mp3 file.
-
-- [https://github.com/Nhom6KTLT/CVE-2010-3124](https://github.com/Nhom6KTLT/CVE-2010-3124) :  ![starts](https://img.shields.io/github/stars/Nhom6KTLT/CVE-2010-3124.svg) ![forks](https://img.shields.io/github/forks/Nhom6KTLT/CVE-2010-3124.svg)
+- [https://github.com/zxkevn/CVE-2016-3861](https://github.com/zxkevn/CVE-2016-3861) :  ![starts](https://img.shields.io/github/stars/zxkevn/CVE-2016-3861.svg) ![forks](https://img.shields.io/github/forks/zxkevn/CVE-2016-3861.svg)
 
