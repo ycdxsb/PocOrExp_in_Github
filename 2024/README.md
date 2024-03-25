@@ -631,9 +631,9 @@
 
 - [https://github.com/viszsec/CVE-2024-23897](https://github.com/viszsec/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/viszsec/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/viszsec/CVE-2024-23897.svg)
 
-- [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
-
 - [https://github.com/yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2024-23897.svg)
+
+- [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
 
 - [https://github.com/jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2024-23897.svg)
 
@@ -753,6 +753,13 @@
 
 
 - [https://github.com/giovannipajeu1/CVE-2024-23738](https://github.com/giovannipajeu1/CVE-2024-23738) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23738.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23738.svg)
+
+## CVE-2024-23727
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/actuator/yi](https://github.com/actuator/yi) :  ![starts](https://img.shields.io/github/stars/actuator/yi.svg) ![forks](https://img.shields.io/github/forks/actuator/yi.svg)
 
 ## CVE-2024-23652
  BuildKit is a toolkit for converting source code to build artifacts in an efficient, expressive and repeatable manner. A malicious BuildKit frontend or Dockerfile using RUN --mount could trick the feature that removes empty files created for the mountpoints into removing a file outside the container, from the host system. The issue has been fixed in v0.12.5. Workarounds include avoiding using BuildKit frontends from an untrusted source or building an untrusted Dockerfile containing RUN --mount feature.
@@ -1047,9 +1054,9 @@
 
 - [https://github.com/Chocapikk/CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-21887.svg)
 
-- [https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-21893-to-CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-21893-to-CVE-2024-21887.svg)
-
 - [https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/duy-31/CVE-2023-46805_CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/duy-31/CVE-2023-46805_CVE-2024-21887.svg)
+
+- [https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-21893-to-CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-21893-to-CVE-2024-21887.svg)
 
 - [https://github.com/seajaysec/Ivanti-Connect-Around-Scan](https://github.com/seajaysec/Ivanti-Connect-Around-Scan) :  ![starts](https://img.shields.io/github/stars/seajaysec/Ivanti-Connect-Around-Scan.svg) ![forks](https://img.shields.io/github/forks/seajaysec/Ivanti-Connect-Around-Scan.svg)
 
@@ -1076,9 +1083,9 @@
 
 - [https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check) :  ![starts](https://img.shields.io/github/stars/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg) ![forks](https://img.shields.io/github/forks/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg)
 
-- [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)
-
 - [https://github.com/d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21762.svg)
+
+- [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)
 
 - [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)
 
