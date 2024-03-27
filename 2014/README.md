@@ -251,9 +251,9 @@
 
 - [https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution](https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution) :  ![starts](https://img.shields.io/github/stars/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution.svg)
 
-- [https://github.com/0xTabun/CVE-2014-6287](https://github.com/0xTabun/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/0xTabun/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/0xTabun/CVE-2014-6287.svg)
-
 - [https://github.com/zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/zhsh9/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/zhsh9/CVE-2014-6287.svg)
+
+- [https://github.com/0xTabun/CVE-2014-6287](https://github.com/0xTabun/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/0xTabun/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/0xTabun/CVE-2014-6287.svg)
 
 - [https://github.com/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287](https://github.com/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287.svg)
 
@@ -356,9 +356,9 @@
 
 - [https://github.com/mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2014-6271.svg)
 
-- [https://github.com/Jsmoreira02/CVE-2014-6271](https://github.com/Jsmoreira02/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Jsmoreira02/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Jsmoreira02/CVE-2014-6271.svg)
-
 - [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
+
+- [https://github.com/Jsmoreira02/CVE-2014-6271](https://github.com/Jsmoreira02/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Jsmoreira02/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Jsmoreira02/CVE-2014-6271.svg)
 
 - [https://github.com/mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mattclegg/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mattclegg/CVE-2014-6271.svg)
 
