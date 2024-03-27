@@ -27,21 +27,21 @@
 - [https://github.com/Pastea/CVE-2023-51810](https://github.com/Pastea/CVE-2023-51810) :  ![starts](https://img.shields.io/github/stars/Pastea/CVE-2023-51810.svg) ![forks](https://img.shields.io/github/forks/Pastea/CVE-2023-51810.svg)
 
 ## CVE-2023-51802
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Scripting (XSS) vulnerability in the Simple Student Attendance System v.1.0 allows a remote attacker to execute arbitrary code via a crafted payload to the page or class_month parameter in the /php-attendance/attendance_report component.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-51802](https://github.com/geraldoalcantara/CVE-2023-51802) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-51802.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-51802.svg)
 
 ## CVE-2023-51801
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL Injection vulnerability in the Simple Student Attendance System v.1.0 allows a remote attacker to execute arbitrary code via a crafted payload to the id parameter in the student_form.php and the class_form.php pages.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-51801](https://github.com/geraldoalcantara/CVE-2023-51801) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-51801.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-51801.svg)
 
 ## CVE-2023-51800
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Scripting (XSS) vulnerability in School Fees Management System v.1.0 allows a remote attacker to execute arbitrary code via a crafted payload to the main_settings component in the phone, address, bank, acc_name, acc_number parameters, new_class and cname parameter, add_new_parent function in the name email parameters, new_term function in the tname parameter, and the edit_student function in the name parameter.
 
 
 
@@ -136,17 +136,17 @@
 
 - [https://github.com/farliy-hacker/CVE-2023-51385-save](https://github.com/farliy-hacker/CVE-2023-51385-save) :  ![starts](https://img.shields.io/github/stars/farliy-hacker/CVE-2023-51385-save.svg) ![forks](https://img.shields.io/github/forks/farliy-hacker/CVE-2023-51385-save.svg)
 
+- [https://github.com/2048JiaLi/CVE-2023-51385](https://github.com/2048JiaLi/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/2048JiaLi/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/2048JiaLi/CVE-2023-51385.svg)
+
+- [https://github.com/Sonicrrrr/CVE-2023-51385](https://github.com/Sonicrrrr/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/Sonicrrrr/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/Sonicrrrr/CVE-2023-51385.svg)
+
 - [https://github.com/N0rther/CVE-2023-51385_TT](https://github.com/N0rther/CVE-2023-51385_TT) :  ![starts](https://img.shields.io/github/stars/N0rther/CVE-2023-51385_TT.svg) ![forks](https://img.shields.io/github/forks/N0rther/CVE-2023-51385_TT.svg)
 
 - [https://github.com/FeatherStark/CVE-2023-51385](https://github.com/FeatherStark/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/FeatherStark/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/FeatherStark/CVE-2023-51385.svg)
 
 - [https://github.com/uccu99/CVE-2023-51385](https://github.com/uccu99/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/uccu99/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/uccu99/CVE-2023-51385.svg)
 
-- [https://github.com/2048JiaLi/CVE-2023-51385](https://github.com/2048JiaLi/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/2048JiaLi/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/2048JiaLi/CVE-2023-51385.svg)
-
 - [https://github.com/watarium/poc-cve-2023-51385](https://github.com/watarium/poc-cve-2023-51385) :  ![starts](https://img.shields.io/github/stars/watarium/poc-cve-2023-51385.svg) ![forks](https://img.shields.io/github/forks/watarium/poc-cve-2023-51385.svg)
-
-- [https://github.com/Sonicrrrr/CVE-2023-51385](https://github.com/Sonicrrrr/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/Sonicrrrr/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/Sonicrrrr/CVE-2023-51385.svg)
 
 - [https://github.com/power1314520/CVE-2023-51385_test](https://github.com/power1314520/CVE-2023-51385_test) :  ![starts](https://img.shields.io/github/stars/power1314520/CVE-2023-51385_test.svg) ![forks](https://img.shields.io/github/forks/power1314520/CVE-2023-51385_test.svg)
 
@@ -159,7 +159,7 @@
 - [https://github.com/Tachanka-zz/CVE-2023-51385_test](https://github.com/Tachanka-zz/CVE-2023-51385_test) :  ![starts](https://img.shields.io/github/stars/Tachanka-zz/CVE-2023-51385_test.svg) ![forks](https://img.shields.io/github/forks/Tachanka-zz/CVE-2023-51385_test.svg)
 
 ## CVE-2023-51281
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Scripting vulnerability in Customer Support System v.1.0 allows a remote attacker to escalate privileges via a crafted script firstname, &quot;lastname&quot;, &quot;middlename&quot;, &quot;contact&quot; and address parameters.
 
 
 
@@ -382,140 +382,140 @@
 - [https://github.com/geraldoalcantara/CVE-2023-50070](https://github.com/geraldoalcantara/CVE-2023-50070) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-50070.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-50070.svg)
 
 ## CVE-2023-49989
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Hotel Booking Management v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at update.php.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49989](https://github.com/geraldoalcantara/CVE-2023-49989) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49989.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49989.svg)
 
 ## CVE-2023-49988
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Hotel Booking Management v1.0 was discovered to contain a SQL injection vulnerability via the npss parameter at rooms.php.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49988](https://github.com/geraldoalcantara/CVE-2023-49988) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49988.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49988.svg)
 
 ## CVE-2023-49987
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A cross-site scripting (XSS) vulnerability in the component /management/term of School Fees Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the tname parameter.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49987](https://github.com/geraldoalcantara/CVE-2023-49987) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49987.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49987.svg)
 
 ## CVE-2023-49986
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A cross-site scripting (XSS) vulnerability in the component /admin/parent of School Fees Management System 1.0 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49986](https://github.com/geraldoalcantara/CVE-2023-49986) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49986.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49986.svg)
 
 ## CVE-2023-49985
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A cross-site scripting (XSS) vulnerability in the component /management/class of School Fees Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the cname parameter.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49985](https://github.com/geraldoalcantara/CVE-2023-49985) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49985.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49985.svg)
 
 ## CVE-2023-49984
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A cross-site scripting (XSS) vulnerability in the component /management/settings of School Fees Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49984](https://github.com/geraldoalcantara/CVE-2023-49984) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49984.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49984.svg)
 
 ## CVE-2023-49983
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A cross-site scripting (XSS) vulnerability in the component /management/class of School Fees Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49983](https://github.com/geraldoalcantara/CVE-2023-49983) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49983.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49983.svg)
 
 ## CVE-2023-49982
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Broken access control in the component /admin/management/users of School Fees Management System v1.0 allows attackers to escalate privileges and perform Administrative actions, including adding and deleting user accounts.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49982](https://github.com/geraldoalcantara/CVE-2023-49982) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49982.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49982.svg)
 
 ## CVE-2023-49981
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A directory listing vulnerability in School Fees Management System v1.0 allows attackers to list directories and sensitive files within the application without requiring authorization.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49981](https://github.com/geraldoalcantara/CVE-2023-49981) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49981.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49981.svg)
 
 ## CVE-2023-49980
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A directory listing vulnerability in Best Student Result Management System v1.0 allows attackers to list directories and sensitive files within the application without requiring authorization.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49980](https://github.com/geraldoalcantara/CVE-2023-49980) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49980.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49980.svg)
 
 ## CVE-2023-49979
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A directory listing vulnerability in Customer Support System v1 allows attackers to list directories and sensitive files within the application without requiring authorization.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49979](https://github.com/geraldoalcantara/CVE-2023-49979) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49979.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49979.svg)
 
 ## CVE-2023-49978
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Incorrect access control in Customer Support System v1 allows non-administrator users to access administrative pages and execute actions reserved for administrators.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49978](https://github.com/geraldoalcantara/CVE-2023-49978) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49978.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49978.svg)
 
 ## CVE-2023-49977
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the address parameter at /customer_support/index.php?page=new_customer.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49977](https://github.com/geraldoalcantara/CVE-2023-49977) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49977.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49977.svg)
 
 ## CVE-2023-49976
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the subject parameter at /customer_support/index.php?page=new_ticket.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49976](https://github.com/geraldoalcantara/CVE-2023-49976) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49976.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49976.svg)
 
 ## CVE-2023-49974
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the contact parameter at /customer_support/index.php?page=customer_list.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49974](https://github.com/geraldoalcantara/CVE-2023-49974) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49974.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49974.svg)
 
 ## CVE-2023-49973
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the email parameter at /customer_support/index.php?page=customer_list.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49973](https://github.com/geraldoalcantara/CVE-2023-49973) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49973.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49973.svg)
 
 ## CVE-2023-49971
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the firstname parameter at /customer_support/index.php?page=customer_list.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49971](https://github.com/geraldoalcantara/CVE-2023-49971) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49971.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49971.svg)
 
 ## CVE-2023-49970
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Customer Support System v1 was discovered to contain a SQL injection vulnerability via the subject parameter at /customer_support/ajax.php?action=save_ticket.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49970](https://github.com/geraldoalcantara/CVE-2023-49970) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49970.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49970.svg)
 
 ## CVE-2023-49969
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Customer Support System v1 was discovered to contain a SQL injection vulnerability via the id parameter at /customer_support/index.php?page=edit_customer.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49969](https://github.com/geraldoalcantara/CVE-2023-49969) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49969.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49969.svg)
 
 ## CVE-2023-49968
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Customer Support System v1 was discovered to contain a SQL injection vulnerability via the id parameter at /customer_support/manage_department.php.
 
 
 
@@ -557,56 +557,56 @@
 - [https://github.com/codeb0ss/CVE-2023-49948-PoC](https://github.com/codeb0ss/CVE-2023-49948-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2023-49948-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2023-49948-PoC.svg)
 
 ## CVE-2023-49548
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Customer Support System v1 was discovered to contain a SQL injection vulnerability via the lastname parameter at /customer_support/ajax.php?action=save_user.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49548](https://github.com/geraldoalcantara/CVE-2023-49548) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49548.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49548.svg)
 
 ## CVE-2023-49547
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Customer Support System v1 was discovered to contain a SQL injection vulnerability via the username parameter at /customer_support/ajax.php?action=login.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49547](https://github.com/geraldoalcantara/CVE-2023-49547) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49547.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49547.svg)
 
 ## CVE-2023-49546
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Customer Support System v1 was discovered to contain a SQL injection vulnerability via the email parameter at /customer_support/ajax.php.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49546](https://github.com/geraldoalcantara/CVE-2023-49546) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49546.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49546.svg)
 
 ## CVE-2023-49545
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A directory listing vulnerability in Customer Support System v1 allows attackers to list directories and sensitive files within the application without requiring authorization.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49545](https://github.com/geraldoalcantara/CVE-2023-49545) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49545.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49545.svg)
 
 ## CVE-2023-49544
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A local file inclusion (LFI) in Customer Support System v1 allows attackers to include internal PHP files and gain unauthorized acces via manipulation of the page= parameter at /customer_support/index.php.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49544](https://github.com/geraldoalcantara/CVE-2023-49544) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49544.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49544.svg)
 
 ## CVE-2023-49543
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Incorrect access control in Book Store Management System v1 allows attackers to access unauthorized pages and execute administrative functions without authenticating.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49543](https://github.com/geraldoalcantara/CVE-2023-49543) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49543.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49543.svg)
 
 ## CVE-2023-49540
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Book Store Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability in /bsms_ci/index.php/history. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the history parameter.
 
 
 
 - [https://github.com/geraldoalcantara/CVE-2023-49540](https://github.com/geraldoalcantara/CVE-2023-49540) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49540.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49540.svg)
 
 ## CVE-2023-49539
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Book Store Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability in /bsms_ci/index.php/category. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the category parameter.
 
 
 
@@ -627,7 +627,7 @@
 - [https://github.com/zunak/CVE-2023-49471](https://github.com/zunak/CVE-2023-49471) :  ![starts](https://img.shields.io/github/stars/zunak/CVE-2023-49471.svg) ![forks](https://img.shields.io/github/forks/zunak/CVE-2023-49471.svg)
 
 ## CVE-2023-49453
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Reflected cross-site scripting (XSS) vulnerability in Racktables v0.22.0 and before, allows local attackers to execute arbitrary code and obtain sensitive information via the search component in index.php.
 
 
 
@@ -777,7 +777,7 @@
 - [https://github.com/tristao-marinho/CVE-2023-48981](https://github.com/tristao-marinho/CVE-2023-48981) :  ![starts](https://img.shields.io/github/stars/tristao-marinho/CVE-2023-48981.svg) ![forks](https://img.shields.io/github/forks/tristao-marinho/CVE-2023-48981.svg)
 
 ## CVE-2023-48974
- Cross Site Scripting vulnerability in Axigen WebMail v.10.5.7 and before allows a remote attacker to escalate privileges via a crafted script to the serverName_input parameter.
+ Cross Site Scripting vulnerability in Axigen WebMail prior to 10.3.3.61 allows a remote attacker to escalate privileges via a crafted script to the serverName_input parameter.
 
 
 
@@ -812,7 +812,7 @@
 - [https://github.com/creacitysec/CVE-2023-48842](https://github.com/creacitysec/CVE-2023-48842) :  ![starts](https://img.shields.io/github/stars/creacitysec/CVE-2023-48842.svg) ![forks](https://img.shields.io/github/forks/creacitysec/CVE-2023-48842.svg)
 
 ## CVE-2023-48788
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A improper neutralization of special elements used in an sql command ('sql injection') in Fortinet FortiClientEMS version 7.2.0 through 7.2.2, FortiClientEMS 7.0.1 through 7.0.10 allows attacker to execute unauthorized code or commands via specially crafted packets.
 
 
 
@@ -2022,7 +2022,7 @@
 - [https://github.com/ahrixia/CVE-2023-43323](https://github.com/ahrixia/CVE-2023-43323) :  ![starts](https://img.shields.io/github/stars/ahrixia/CVE-2023-43323.svg) ![forks](https://img.shields.io/github/forks/ahrixia/CVE-2023-43323.svg)
 
 ## CVE-2023-43318
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ TP-Link JetStream Smart Switch TL-SG2210P 5.0 Build 20211201 allows attackers to escalate privileges via modification of the 'tid' and 'usrlvl' values in GET requests.
 
 
 
@@ -2036,7 +2036,7 @@
 - [https://github.com/amjadali-110/CVE-2023-43317](https://github.com/amjadali-110/CVE-2023-43317) :  ![starts](https://img.shields.io/github/stars/amjadali-110/CVE-2023-43317.svg) ![forks](https://img.shields.io/github/forks/amjadali-110/CVE-2023-43317.svg)
 
 ## CVE-2023-43292
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Scripting vulnerability in My Food Recipe Using PHP with Source Code v.1.0 allows a local attacker to execute arbitrary code via a crafted payload to the Recipe Name, Procedure, and ingredients parameters.
 
 
 
@@ -2122,6 +2122,13 @@
 
 
 - [https://github.com/jostaub/ghostscript-CVE-2023-43115](https://github.com/jostaub/ghostscript-CVE-2023-43115) :  ![starts](https://img.shields.io/github/stars/jostaub/ghostscript-CVE-2023-43115.svg) ![forks](https://img.shields.io/github/forks/jostaub/ghostscript-CVE-2023-43115.svg)
+
+## CVE-2023-42931
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/d0rb/CVE-2023-42931](https://github.com/d0rb/CVE-2023-42931) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2023-42931.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2023-42931.svg)
 
 ## CVE-2023-42820
  JumpServer is an open source bastion host. This vulnerability is due to exposing the random number seed to the API, potentially allowing the randomly generated verification codes to be replayed, which could lead to password resets. If MFA is enabled users are not affect. Users not using local authentication are also not affected. Users are advised to upgrade to either version 2.28.19 or to 3.6.5. There are no known workarounds or this issue.
@@ -2225,14 +2232,14 @@
 - [https://github.com/Mr-n0b3dy/CVE-2023-42362](https://github.com/Mr-n0b3dy/CVE-2023-42362) :  ![starts](https://img.shields.io/github/stars/Mr-n0b3dy/CVE-2023-42362.svg) ![forks](https://img.shields.io/github/forks/Mr-n0b3dy/CVE-2023-42362.svg)
 
 ## CVE-2023-42308
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Scripting (XSS) vulnerability in Manage Fastrack Subjects in Code-Projects Exam Form Submission 1.0 allows attackers to run arbitrary code via the &quot;Subject Name&quot; and &quot;Subject Code&quot; Section.
 
 
 
 - [https://github.com/ASR511-OO7/CVE-2023-42308](https://github.com/ASR511-OO7/CVE-2023-42308) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-42308.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-42308.svg)
 
 ## CVE-2023-42307
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Scripting (XSS) vulnerability in Code-Projects Exam Form Submission 1.0 allows attackers to run arbitrary code via &quot;Subject Name&quot; and &quot;Subject Code&quot; section.
 
 
 
@@ -2298,13 +2305,6 @@
 
 
 - [https://github.com/R41N3RZUF477/CVE-2023-41772](https://github.com/R41N3RZUF477/CVE-2023-41772) :  ![starts](https://img.shields.io/github/stars/R41N3RZUF477/CVE-2023-41772.svg) ![forks](https://img.shields.io/github/forks/R41N3RZUF477/CVE-2023-41772.svg)
-
-## CVE-2023-41724
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/russhackerr/CVE-2023-41724](https://github.com/russhackerr/CVE-2023-41724) :  ![starts](https://img.shields.io/github/stars/russhackerr/CVE-2023-41724.svg) ![forks](https://img.shields.io/github/forks/russhackerr/CVE-2023-41724.svg)
 
 ## CVE-2023-41717
  Inappropriate file type control in Zscaler Proxy versions 3.6.1.25 and prior allows local attackers to bypass file download/upload restrictions.
@@ -2398,21 +2398,21 @@
 - [https://github.com/ASR511-OO7/CVE-2023-41506](https://github.com/ASR511-OO7/CVE-2023-41506) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-41506.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-41506.svg)
 
 ## CVE-2023-41505
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An arbitrary file upload vulnerability in the Add Student's Profile Picture function of Student Enrollment In PHP v1.0 allows attackers to execute arbitrary code via uploading a crafted PHP file.
 
 
 
 - [https://github.com/ASR511-OO7/CVE-2023-41505](https://github.com/ASR511-OO7/CVE-2023-41505) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-41505.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-41505.svg)
 
 ## CVE-2023-41504
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL Injection vulnerability in Student Enrollment In PHP 1.0 allows attackers to run arbitrary code via the Student Search function.
 
 
 
 - [https://github.com/ASR511-OO7/CVE-2023-41504](https://github.com/ASR511-OO7/CVE-2023-41504) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-41504.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-41504.svg)
 
 ## CVE-2023-41503
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Student Enrollment In PHP v1.0 was discovered to contain a SQL injection vulnerability via the Login function.
 
 
 
@@ -2528,14 +2528,14 @@
 - [https://github.com/MrR0b0t19/vulnerabilidad-LibWebP-CVE-2023-41064](https://github.com/MrR0b0t19/vulnerabilidad-LibWebP-CVE-2023-41064) :  ![starts](https://img.shields.io/github/stars/MrR0b0t19/vulnerabilidad-LibWebP-CVE-2023-41064.svg) ![forks](https://img.shields.io/github/forks/MrR0b0t19/vulnerabilidad-LibWebP-CVE-2023-41064.svg)
 
 ## CVE-2023-41015
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ code-projects.org Online Job Portal 1.0 is vulnerable to SQL Injection via /Employer/DeleteJob.php?JobId=1.
 
 
 
 - [https://github.com/ASR511-OO7/CVE-2023-41015](https://github.com/ASR511-OO7/CVE-2023-41015) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-41015.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-41015.svg)
 
 ## CVE-2023-41014
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ code-projects.org Online Job Portal 1.0 is vulnerable to SQL Injection via the Username parameter for &quot;Employer.&quot;
 
 
 
@@ -2549,7 +2549,7 @@
 - [https://github.com/Zone1-Z/CVE-2023-40989](https://github.com/Zone1-Z/CVE-2023-40989) :  ![starts](https://img.shields.io/github/stars/Zone1-Z/CVE-2023-40989.svg) ![forks](https://img.shields.io/github/forks/Zone1-Z/CVE-2023-40989.svg)
 
 ## CVE-2023-40930
- Skyworth 3.0 OS is vulnerable to Directory Traversal.
+ An issue in the directory /system/bin/blkid of Skyworth v3.0 allows attackers to perform a directory traversal via mounting the Udisk to /mnt/.
 
 
 
@@ -2656,42 +2656,42 @@
 - [https://github.com/Halcy0nic/CVE-2023-40294-and-CVE-2023-40295](https://github.com/Halcy0nic/CVE-2023-40294-and-CVE-2023-40295) :  ![starts](https://img.shields.io/github/stars/Halcy0nic/CVE-2023-40294-and-CVE-2023-40295.svg) ![forks](https://img.shields.io/github/forks/Halcy0nic/CVE-2023-40294-and-CVE-2023-40295.svg)
 
 ## CVE-2023-40280
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue was discovered in OpenClinic GA 5.247.01. An attacker can perform a directory path traversal via the Page parameter in a GET request to popup.jsp.
 
 
 
 - [https://github.com/BugBountyHunterCVE/CVE-2023-40280](https://github.com/BugBountyHunterCVE/CVE-2023-40280) :  ![starts](https://img.shields.io/github/stars/BugBountyHunterCVE/CVE-2023-40280.svg) ![forks](https://img.shields.io/github/forks/BugBountyHunterCVE/CVE-2023-40280.svg)
 
 ## CVE-2023-40279
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue was discovered in OpenClinic GA 5.247.01. An attacker can perform a directory path traversal via the Page parameter in a GET request to main.do.
 
 
 
 - [https://github.com/BugBountyHunterCVE/CVE-2023-40279](https://github.com/BugBountyHunterCVE/CVE-2023-40279) :  ![starts](https://img.shields.io/github/stars/BugBountyHunterCVE/CVE-2023-40279.svg) ![forks](https://img.shields.io/github/forks/BugBountyHunterCVE/CVE-2023-40279.svg)
 
 ## CVE-2023-40278
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue was discovered in OpenClinic GA 5.247.01. An Information Disclosure vulnerability has been identified in the printAppointmentPdf.jsp component of OpenClinic GA. By changing the AppointmentUid parameter, an attacker can determine whether a specific appointment exists based on the error message.
 
 
 
 - [https://github.com/BugBountyHunterCVE/CVE-2023-40278](https://github.com/BugBountyHunterCVE/CVE-2023-40278) :  ![starts](https://img.shields.io/github/stars/BugBountyHunterCVE/CVE-2023-40278.svg) ![forks](https://img.shields.io/github/forks/BugBountyHunterCVE/CVE-2023-40278.svg)
 
 ## CVE-2023-40277
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue was discovered in OpenClinic GA 5.247.01. A Reflected Cross-Site Scripting (XSS) vulnerability has been discovered in the login.jsp message parameter.
 
 
 
 - [https://github.com/BugBountyHunterCVE/CVE-2023-40277](https://github.com/BugBountyHunterCVE/CVE-2023-40277) :  ![starts](https://img.shields.io/github/stars/BugBountyHunterCVE/CVE-2023-40277.svg) ![forks](https://img.shields.io/github/forks/BugBountyHunterCVE/CVE-2023-40277.svg)
 
 ## CVE-2023-40276
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue was discovered in OpenClinic GA 5.247.01. An Unauthenticated File Download vulnerability has been discovered in pharmacy/exportFile.jsp.
 
 
 
 - [https://github.com/BugBountyHunterCVE/CVE-2023-40276](https://github.com/BugBountyHunterCVE/CVE-2023-40276) :  ![starts](https://img.shields.io/github/stars/BugBountyHunterCVE/CVE-2023-40276.svg) ![forks](https://img.shields.io/github/forks/BugBountyHunterCVE/CVE-2023-40276.svg)
 
 ## CVE-2023-40275
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue was discovered in OpenClinic GA 5.247.01. It allows retrieval of patient lists via queries such as findFirstname= to _common/search/searchByAjax/patientslistShow.jsp.
 
 
 
@@ -3121,9 +3121,9 @@
 
 - [https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell](https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell) :  ![starts](https://img.shields.io/github/stars/Any3ite/cve-2023-38646-metabase-ReverseShell.svg) ![forks](https://img.shields.io/github/forks/Any3ite/cve-2023-38646-metabase-ReverseShell.svg)
 
-- [https://github.com/birdm4nw/CVE-2023-38646](https://github.com/birdm4nw/CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/birdm4nw/CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/birdm4nw/CVE-2023-38646.svg)
-
 - [https://github.com/Ego1stoo/CVE-2023-38646](https://github.com/Ego1stoo/CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/Ego1stoo/CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/Ego1stoo/CVE-2023-38646.svg)
+
+- [https://github.com/birdm4nw/CVE-2023-38646](https://github.com/birdm4nw/CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/birdm4nw/CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/birdm4nw/CVE-2023-38646.svg)
 
 - [https://github.com/Mrunalkaran/CVE-2023-38646](https://github.com/Mrunalkaran/CVE-2023-38646) :  ![starts](https://img.shields.io/github/stars/Mrunalkaran/CVE-2023-38646.svg) ![forks](https://img.shields.io/github/forks/Mrunalkaran/CVE-2023-38646.svg)
 
@@ -4426,14 +4426,14 @@
 - [https://github.com/sahiloj/CVE-2023-33730](https://github.com/sahiloj/CVE-2023-33730) :  ![starts](https://img.shields.io/github/stars/sahiloj/CVE-2023-33730.svg) ![forks](https://img.shields.io/github/forks/sahiloj/CVE-2023-33730.svg)
 
 ## CVE-2023-33677
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Sourcecodester Lost and Found Information System's Version 1.0 is vulnerable to unauthenticated SQL Injection at &quot;?page=items/view&amp;id=*&quot;.
 
 
 
 - [https://github.com/ASR511-OO7/CVE-2023-33677](https://github.com/ASR511-OO7/CVE-2023-33677) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2023-33677.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2023-33677.svg)
 
 ## CVE-2023-33676
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Sourcecodester Lost and Found Information System's Version 1.0 is vulnerable to unauthenticated SQL Injection at &quot;?page=items/view&amp;id=*&quot; which can be escalated to the remote command execution.
 
 
 
@@ -4744,9 +4744,9 @@
 
 - [https://github.com/5rGJ5aCh5oCq5YW9/CVE-2023-32315exp](https://github.com/5rGJ5aCh5oCq5YW9/CVE-2023-32315exp) :  ![starts](https://img.shields.io/github/stars/5rGJ5aCh5oCq5YW9/CVE-2023-32315exp.svg) ![forks](https://img.shields.io/github/forks/5rGJ5aCh5oCq5YW9/CVE-2023-32315exp.svg)
 
-- [https://github.com/ohnonoyesyes/CVE-2023-32315](https://github.com/ohnonoyesyes/CVE-2023-32315) :  ![starts](https://img.shields.io/github/stars/ohnonoyesyes/CVE-2023-32315.svg) ![forks](https://img.shields.io/github/forks/ohnonoyesyes/CVE-2023-32315.svg)
-
 - [https://github.com/K3ysTr0K3R/CVE-2023-32315-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-32315-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2023-32315-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2023-32315-EXPLOIT.svg)
+
+- [https://github.com/ohnonoyesyes/CVE-2023-32315](https://github.com/ohnonoyesyes/CVE-2023-32315) :  ![starts](https://img.shields.io/github/stars/ohnonoyesyes/CVE-2023-32315.svg) ![forks](https://img.shields.io/github/forks/ohnonoyesyes/CVE-2023-32315.svg)
 
 - [https://github.com/CN016/Openfire-RCE-CVE-2023-32315-](https://github.com/CN016/Openfire-RCE-CVE-2023-32315-) :  ![starts](https://img.shields.io/github/stars/CN016/Openfire-RCE-CVE-2023-32315-.svg) ![forks](https://img.shields.io/github/forks/CN016/Openfire-RCE-CVE-2023-32315-.svg)
 
@@ -6703,11 +6703,11 @@
 
 - [https://github.com/wangking1/CVE-2023-23752-poc](https://github.com/wangking1/CVE-2023-23752-poc) :  ![starts](https://img.shields.io/github/stars/wangking1/CVE-2023-23752-poc.svg) ![forks](https://img.shields.io/github/forks/wangking1/CVE-2023-23752-poc.svg)
 
-- [https://github.com/Pushkarup/CVE-2023-23752](https://github.com/Pushkarup/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Pushkarup/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Pushkarup/CVE-2023-23752.svg)
-
 - [https://github.com/r3dston3/CVE-2023-23752](https://github.com/r3dston3/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/r3dston3/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/r3dston3/CVE-2023-23752.svg)
 
 - [https://github.com/AlissoftCodes/CVE-2023-23752](https://github.com/AlissoftCodes/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/AlissoftCodes/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/AlissoftCodes/CVE-2023-23752.svg)
+
+- [https://github.com/Pushkarup/CVE-2023-23752](https://github.com/Pushkarup/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Pushkarup/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Pushkarup/CVE-2023-23752.svg)
 
 - [https://github.com/MrP4nda1337/CVE-2023-23752](https://github.com/MrP4nda1337/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/MrP4nda1337/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/MrP4nda1337/CVE-2023-23752.svg)
 
@@ -6731,17 +6731,17 @@
 
 - [https://github.com/C1ph3rX13/CVE-2023-23752](https://github.com/C1ph3rX13/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/C1ph3rX13/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/C1ph3rX13/CVE-2023-23752.svg)
 
-- [https://github.com/TindalyTn/CVE-2023-23752](https://github.com/TindalyTn/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/TindalyTn/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/TindalyTn/CVE-2023-23752.svg)
-
 - [https://github.com/yTxZx/CVE-2023-23752](https://github.com/yTxZx/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/yTxZx/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/yTxZx/CVE-2023-23752.svg)
 
 - [https://github.com/svaltheim/CVE-2023-23752](https://github.com/svaltheim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/svaltheim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/svaltheim/CVE-2023-23752.svg)
 
 - [https://github.com/Rival420/CVE-2023-23752](https://github.com/Rival420/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Rival420/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Rival420/CVE-2023-23752.svg)
 
-- [https://github.com/sw0rd1ight/CVE-2023-23752](https://github.com/sw0rd1ight/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/sw0rd1ight/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/sw0rd1ight/CVE-2023-23752.svg)
-
 - [https://github.com/H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/H454NSec/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/H454NSec/CVE-2023-23752.svg)
+
+- [https://github.com/TindalyTn/CVE-2023-23752](https://github.com/TindalyTn/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/TindalyTn/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/TindalyTn/CVE-2023-23752.svg)
+
+- [https://github.com/sw0rd1ight/CVE-2023-23752](https://github.com/sw0rd1ight/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/sw0rd1ight/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/sw0rd1ight/CVE-2023-23752.svg)
 
 - [https://github.com/shellvik/CVE-2023-23752](https://github.com/shellvik/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/shellvik/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/shellvik/CVE-2023-23752.svg)
 
@@ -7842,9 +7842,9 @@
 
 - [https://github.com/hackeremmen/gitlab-exploit](https://github.com/hackeremmen/gitlab-exploit) :  ![starts](https://img.shields.io/github/stars/hackeremmen/gitlab-exploit.svg) ![forks](https://img.shields.io/github/forks/hackeremmen/gitlab-exploit.svg)
 
-- [https://github.com/thanhlam-attt/CVE-2023-7028](https://github.com/thanhlam-attt/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/thanhlam-attt/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/thanhlam-attt/CVE-2023-7028.svg)
-
 - [https://github.com/mochammadrafi/CVE-2023-7028](https://github.com/mochammadrafi/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/mochammadrafi/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/mochammadrafi/CVE-2023-7028.svg)
+
+- [https://github.com/thanhlam-attt/CVE-2023-7028](https://github.com/thanhlam-attt/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/thanhlam-attt/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/thanhlam-attt/CVE-2023-7028.svg)
 
 - [https://github.com/yoryio/CVE-2023-7028](https://github.com/yoryio/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2023-7028.svg)
 
@@ -8256,9 +8256,9 @@
 
 - [https://github.com/morganwdavis/overread](https://github.com/morganwdavis/overread) :  ![starts](https://img.shields.io/github/stars/morganwdavis/overread.svg) ![forks](https://img.shields.io/github/forks/morganwdavis/overread.svg)
 
-- [https://github.com/s-bt/CVE-2023-4966](https://github.com/s-bt/CVE-2023-4966) :  ![starts](https://img.shields.io/github/stars/s-bt/CVE-2023-4966.svg) ![forks](https://img.shields.io/github/forks/s-bt/CVE-2023-4966.svg)
-
 - [https://github.com/0xKayala/CVE-2023-4966](https://github.com/0xKayala/CVE-2023-4966) :  ![starts](https://img.shields.io/github/stars/0xKayala/CVE-2023-4966.svg) ![forks](https://img.shields.io/github/forks/0xKayala/CVE-2023-4966.svg)
+
+- [https://github.com/s-bt/CVE-2023-4966](https://github.com/s-bt/CVE-2023-4966) :  ![starts](https://img.shields.io/github/stars/s-bt/CVE-2023-4966.svg) ![forks](https://img.shields.io/github/forks/s-bt/CVE-2023-4966.svg)
 
 - [https://github.com/byte4RR4Y/CVE-2023-4966](https://github.com/byte4RR4Y/CVE-2023-4966) :  ![starts](https://img.shields.io/github/stars/byte4RR4Y/CVE-2023-4966.svg) ![forks](https://img.shields.io/github/forks/byte4RR4Y/CVE-2023-4966.svg)
 
