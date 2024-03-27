@@ -1,3 +1,185 @@
+## CVE-2024-29455
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29455](https://github.com/yashpatelphd/CVE-2024-29455) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29455.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29455.svg)
+
+## CVE-2024-29454
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29454](https://github.com/yashpatelphd/CVE-2024-29454) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29454.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29454.svg)
+
+## CVE-2024-29452
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29452](https://github.com/yashpatelphd/CVE-2024-29452) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29452.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29452.svg)
+
+## CVE-2024-29450
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29450](https://github.com/yashpatelphd/CVE-2024-29450) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29450.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29450.svg)
+
+## CVE-2024-29449
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29449](https://github.com/yashpatelphd/CVE-2024-29449) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29449.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29449.svg)
+
+## CVE-2024-29448
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29448](https://github.com/yashpatelphd/CVE-2024-29448) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29448.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29448.svg)
+
+## CVE-2024-29447
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29447](https://github.com/yashpatelphd/CVE-2024-29447) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29447.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29447.svg)
+
+## CVE-2024-29445
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29445](https://github.com/yashpatelphd/CVE-2024-29445) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29445.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29445.svg)
+
+## CVE-2024-29444
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29444](https://github.com/yashpatelphd/CVE-2024-29444) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29444.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29444.svg)
+
+## CVE-2024-29443
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29443](https://github.com/yashpatelphd/CVE-2024-29443) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29443.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29443.svg)
+
+## CVE-2024-29442
+ An unauthorized access vulnerability has been discovered in ROS2 Humble Hawksbill versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized access to multiple ROS2 nodes remotely. Unauthorized access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29442](https://github.com/yashpatelphd/CVE-2024-29442) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29442.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29442.svg)
+
+## CVE-2024-29441
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29441](https://github.com/yashpatelphd/CVE-2024-29441) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29441.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29441.svg)
+
+## CVE-2024-29440
+ An unauthorized access vulnerability has been discovered in ROS2 Humble Hawksbill versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized access to multiple ROS2 nodes remotely. Unauthorized access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29440](https://github.com/yashpatelphd/CVE-2024-29440) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29440.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29440.svg)
+
+## CVE-2024-29439
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/yashpatelphd/CVE-2024-29439](https://github.com/yashpatelphd/CVE-2024-29439) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29439.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29439.svg)
+
+## CVE-2024-29272
+ Arbitrary File Upload vulnerability in VvvebJs before version 1.7.5, allows unauthenticated remote attackers to execute arbitrary code and obtain sensitive information via the sanitizeFileName parameter in save.php.
+
+
+
+- [https://github.com/awjkjflkwlekfdjs/CVE-2024-29272](https://github.com/awjkjflkwlekfdjs/CVE-2024-29272) :  ![starts](https://img.shields.io/github/stars/awjkjflkwlekfdjs/CVE-2024-29272.svg) ![forks](https://img.shields.io/github/forks/awjkjflkwlekfdjs/CVE-2024-29272.svg)
+
+## CVE-2024-29197
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/mansploit/CVE-2024-29197-exploit](https://github.com/mansploit/CVE-2024-29197-exploit) :  ![starts](https://img.shields.io/github/stars/mansploit/CVE-2024-29197-exploit.svg) ![forks](https://img.shields.io/github/forks/mansploit/CVE-2024-29197-exploit.svg)
+
+## CVE-2024-29194
+ OneUptime is a solution for monitoring and managing online services. The vulnerability lies in the improper validation of client-side stored data within the web application. Specifically, the is_master_admin key, stored in the local storage of the browser, can be manipulated by an attacker. By changing this key from false to true, the application grants administrative privileges to the user, without proper server-side validation. This has been patched in 7.0.1815.
+
+
+
+- [https://github.com/mansploit/CVE-2024-29194-POC](https://github.com/mansploit/CVE-2024-29194-POC) :  ![starts](https://img.shields.io/github/stars/mansploit/CVE-2024-29194-POC.svg) ![forks](https://img.shields.io/github/forks/mansploit/CVE-2024-29194-POC.svg)
+
+## CVE-2024-29059
+ .NET Framework Information Disclosure Vulnerability
+
+
+
+- [https://github.com/codewhitesec/HttpRemotingObjRefLeak](https://github.com/codewhitesec/HttpRemotingObjRefLeak) :  ![starts](https://img.shields.io/github/stars/codewhitesec/HttpRemotingObjRefLeak.svg) ![forks](https://img.shields.io/github/forks/codewhitesec/HttpRemotingObjRefLeak.svg)
+
+## CVE-2024-28741
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/chebuya/CVE-2024-28741-northstar-agent-rce-poc](https://github.com/chebuya/CVE-2024-28741-northstar-agent-rce-poc) :  ![starts](https://img.shields.io/github/stars/chebuya/CVE-2024-28741-northstar-agent-rce-poc.svg) ![forks](https://img.shields.io/github/forks/chebuya/CVE-2024-28741-northstar-agent-rce-poc.svg)
+
+## CVE-2024-28715
+ Cross Site Scripting vulnerability in DOraCMS v.2.18 and before allows a remote attacker to execute arbitrary code via the markdown0 function in the /app/public/apidoc/oas3/wrap-components/markdown.jsx endpoint.
+
+
+
+- [https://github.com/Lq0ne/CVE-2024-28715](https://github.com/Lq0ne/CVE-2024-28715) :  ![starts](https://img.shields.io/github/stars/Lq0ne/CVE-2024-28715.svg) ![forks](https://img.shields.io/github/forks/Lq0ne/CVE-2024-28715.svg)
+
+## CVE-2024-28515
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/heshi906/CVE-2024-28515](https://github.com/heshi906/CVE-2024-28515) :  ![starts](https://img.shields.io/github/stars/heshi906/CVE-2024-28515.svg) ![forks](https://img.shields.io/github/forks/heshi906/CVE-2024-28515.svg)
+
+## CVE-2024-28397
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/Marven11/CVE-2024-28397](https://github.com/Marven11/CVE-2024-28397) :  ![starts](https://img.shields.io/github/stars/Marven11/CVE-2024-28397.svg) ![forks](https://img.shields.io/github/forks/Marven11/CVE-2024-28397.svg)
+
+## CVE-2024-28288
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/adminquit/CVE-2024-28288](https://github.com/adminquit/CVE-2024-28288) :  ![starts](https://img.shields.io/github/stars/adminquit/CVE-2024-28288.svg) ![forks](https://img.shields.io/github/forks/adminquit/CVE-2024-28288.svg)
+
+## CVE-2024-28213
+ nGrinder before 3.5.9 allows to accept serialized Java objects from unauthenticated users, which could allow remote attacker to execute arbitrary code via unsafe Java objects deserialization.
+
+
+
+- [https://github.com/0x1x02/CVE-2024-28213](https://github.com/0x1x02/CVE-2024-28213) :  ![starts](https://img.shields.io/github/stars/0x1x02/CVE-2024-28213.svg) ![forks](https://img.shields.io/github/forks/0x1x02/CVE-2024-28213.svg)
+
+## CVE-2024-28116
+ Grav is an open-source, flat-file content management system. Grav CMS prior to version 1.7.45 is vulnerable to a Server-Side Template Injection (SSTI), which allows any authenticated user (editor permissions are sufficient) to execute arbitrary code on the remote server bypassing the existing security sandbox. Version 1.7.45 contains a patch for this issue.
+
+
+
+- [https://github.com/akabe1/Graver](https://github.com/akabe1/Graver) :  ![starts](https://img.shields.io/github/stars/akabe1/Graver.svg) ![forks](https://img.shields.io/github/forks/akabe1/Graver.svg)
+
+## CVE-2024-28088
+ LangChain through 0.1.10 allows ../ directory traversal by an actor who is able to control the final part of the path parameter in a load_chain call. This bypasses the intended behavior of loading configurations only from the hwchase17/langchain-hub GitHub repository. The outcome can be disclosure of an API key for a large language model online service, or remote code execution. (A patch is available as of release 0.1.29 of langchain-core.)
+
+
+
+- [https://github.com/levpachmanov/cve-2024-28088-poc](https://github.com/levpachmanov/cve-2024-28088-poc) :  ![starts](https://img.shields.io/github/stars/levpachmanov/cve-2024-28088-poc.svg) ![forks](https://img.shields.io/github/forks/levpachmanov/cve-2024-28088-poc.svg)
+
 ## CVE-2024-27697
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -20,14 +202,14 @@
 - [https://github.com/ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos) :  ![starts](https://img.shields.io/github/stars/ioprojecton/dir-3040_dos.svg) ![forks](https://img.shields.io/github/forks/ioprojecton/dir-3040_dos.svg)
 
 ## CVE-2024-27199
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ In JetBrains TeamCity before 2023.11.4 path traversal allowing to perform limited admin actions was possible
 
 
 
 - [https://github.com/W01fh4cker/CVE-2024-27198-RCE](https://github.com/W01fh4cker/CVE-2024-27198-RCE) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/CVE-2024-27198-RCE.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/CVE-2024-27198-RCE.svg)
 
 ## CVE-2024-27198
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
 
 
 
@@ -67,42 +249,42 @@
 - [https://github.com/sajaljat/CVE-2024-26534](https://github.com/sajaljat/CVE-2024-26534) :  ![starts](https://img.shields.io/github/stars/sajaljat/CVE-2024-26534.svg) ![forks](https://img.shields.io/github/forks/sajaljat/CVE-2024-26534.svg)
 
 ## CVE-2024-26521
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ HTML Injection vulnerability in CE Phoenix v1.0.8.20 and before allows a remote attacker to execute arbitrary code, escalate privileges, and obtain sensitive information via a crafted payload to the english.php component.
 
 
 
 - [https://github.com/hackervegas001/CVE-2024-26521](https://github.com/hackervegas001/CVE-2024-26521) :  ![starts](https://img.shields.io/github/stars/hackervegas001/CVE-2024-26521.svg) ![forks](https://img.shields.io/github/forks/hackervegas001/CVE-2024-26521.svg)
 
 ## CVE-2024-26503
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Unrestricted File Upload vulnerability in Greek Universities Network Open eClass v.3.15 and earlier allows attackers to run arbitrary code via upload of crafted file to certbadge.php endpoint.
 
 
 
 - [https://github.com/RoboGR00t/Exploit-CVE-2024-26503](https://github.com/RoboGR00t/Exploit-CVE-2024-26503) :  ![starts](https://img.shields.io/github/stars/RoboGR00t/Exploit-CVE-2024-26503.svg) ![forks](https://img.shields.io/github/forks/RoboGR00t/Exploit-CVE-2024-26503.svg)
 
 ## CVE-2024-26475
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue in radareorg radare2 v.0.9.7 through v.5.8.6 and fixed in v.5.8.8 allows a local attacker to cause a denial of service via the grub_sfs_read_extent function.
 
 
 
 - [https://github.com/TronciuVlad/CVE-2024-26475](https://github.com/TronciuVlad/CVE-2024-26475) :  ![starts](https://img.shields.io/github/stars/TronciuVlad/CVE-2024-26475.svg) ![forks](https://img.shields.io/github/forks/TronciuVlad/CVE-2024-26475.svg)
 
 ## CVE-2024-26198
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Microsoft Exchange Server Remote Code Execution Vulnerability
 
 
 
 - [https://github.com/MrCyberSec/CVE-2024-26198-Exchange-RCE](https://github.com/MrCyberSec/CVE-2024-26198-Exchange-RCE) :  ![starts](https://img.shields.io/github/stars/MrCyberSec/CVE-2024-26198-Exchange-RCE.svg) ![forks](https://img.shields.io/github/forks/MrCyberSec/CVE-2024-26198-Exchange-RCE.svg)
 
 ## CVE-2024-25832
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ F-logic DataCube3 v1.0 is vulnerable to unrestricted file upload, which could allow an authenticated malicious actor to upload a file of dangerous type by manipulating the filename extension.
 
 
 
 - [https://github.com/0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC) :  ![starts](https://img.shields.io/github/stars/0xNslabs/CVE-2024-25832-PoC.svg) ![forks](https://img.shields.io/github/forks/0xNslabs/CVE-2024-25832-PoC.svg)
 
 ## CVE-2024-25830
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ F-logic DataCube3 v1.0 is vulnerable to Incorrect Access Control due to an improper directory access restriction. An unauthenticated, remote attacker can exploit this, by sending a URI that contains the path of the configuration file. A successful exploit could allow the attacker to extract the root and admin password.
 
 
 
@@ -130,7 +312,7 @@
 - [https://github.com/codeb0ss/CVE-2024-25735-PoC](https://github.com/codeb0ss/CVE-2024-25735-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2024-25735-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2024-25735-PoC.svg)
 
 ## CVE-2024-25731
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ The Elink Smart eSmartCam (com.cn.dq.ipc) application 2.1.5 for Android contains hardcoded AES encryption keys that can be extracted from a binary file. Thus, encryption can be defeated by an attacker who can observe packet data (e.g., over Wi-Fi).
 
 
 
@@ -228,7 +410,7 @@
 - [https://github.com/ASR511-OO7/CVE-2024-25251](https://github.com/ASR511-OO7/CVE-2024-25251) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-25251.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-25251.svg)
 
 ## CVE-2024-25250
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL Injection vulnerability in code-projects Agro-School Management System 1.0 allows attackers to run arbitrary code via the Login page.
 
 
 
@@ -241,15 +423,8 @@
 
 - [https://github.com/intbjw/CVE-2024-25249](https://github.com/intbjw/CVE-2024-25249) :  ![starts](https://img.shields.io/github/stars/intbjw/CVE-2024-25249.svg) ![forks](https://img.shields.io/github/forks/intbjw/CVE-2024-25249.svg)
 
-## CVE-2024-25228
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/rkraper339/CVE-2024-25228-POC](https://github.com/rkraper339/CVE-2024-25228-POC) :  ![starts](https://img.shields.io/github/stars/rkraper339/CVE-2024-25228-POC.svg) ![forks](https://img.shields.io/github/forks/rkraper339/CVE-2024-25228-POC.svg)
-
 ## CVE-2024-25227
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL Injection vulnerability in ABO.CMS version 5.8, allows remote attackers to execute arbitrary code, cause a denial of service (DoS), escalate privileges, and obtain sensitive information via the tb_login parameter in admin login page.
 
 
 
@@ -258,35 +433,35 @@
 - [https://github.com/thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227](https://github.com/thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227) :  ![starts](https://img.shields.io/github/stars/thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227.svg) ![forks](https://img.shields.io/github/forks/thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227.svg)
 
 ## CVE-2024-25202
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Scripting vulnerability in Phpgurukul User Registration &amp; Login and User Management System 1.0 allows attackers to run arbitrary code via the search bar.
 
 
 
 - [https://github.com/Agampreet-Singh/CVE-2024-25202](https://github.com/Agampreet-Singh/CVE-2024-25202) :  ![starts](https://img.shields.io/github/stars/Agampreet-Singh/CVE-2024-25202.svg) ![forks](https://img.shields.io/github/forks/Agampreet-Singh/CVE-2024-25202.svg)
 
 ## CVE-2024-25175
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue in Kickdler before v1.107.0 allows attackers to provide an XSS payload via a HTTP response splitting attack.
 
 
 
 - [https://github.com/jet-pentest/CVE-2024-25175](https://github.com/jet-pentest/CVE-2024-25175) :  ![starts](https://img.shields.io/github/stars/jet-pentest/CVE-2024-25175.svg) ![forks](https://img.shields.io/github/forks/jet-pentest/CVE-2024-25175.svg)
 
 ## CVE-2024-25170
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue in Mezzanine v6.0.0 allows attackers to bypass access controls via manipulating the Host header.
 
 
 
 - [https://github.com/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0](https://github.com/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0) :  ![starts](https://img.shields.io/github/stars/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0.svg) ![forks](https://img.shields.io/github/forks/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0.svg)
 
 ## CVE-2024-25169
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue in Mezzanine v6.0.0 allows attackers to bypass access control mechanisms in the admin panel via a crafted request.
 
 
 
 - [https://github.com/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0](https://github.com/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0) :  ![starts](https://img.shields.io/github/stars/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0.svg) ![forks](https://img.shields.io/github/forks/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0.svg)
 
 ## CVE-2024-25153
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A directory traversal within the &#8216;ftpservlet&#8217; of the FileCatalyst Workflow Web Portal allows files to be uploaded outside of the intended &#8216;uploadtemp&#8217; directory with a specially crafted POST request. In situations where a file is successfully uploaded to web portal&#8217;s DocumentRoot, specially crafted JSP files could be used to execute code, including web shells.
 
 
 
@@ -316,7 +491,7 @@
 - [https://github.com/killerbees19/CVE-2024-24760](https://github.com/killerbees19/CVE-2024-24760) :  ![starts](https://img.shields.io/github/stars/killerbees19/CVE-2024-24760.svg) ![forks](https://img.shields.io/github/forks/killerbees19/CVE-2024-24760.svg)
 
 ## CVE-2024-24520
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue in Lepton CMS v.7.0.0 allows a local attacker to execute arbitrary code via the upgrade.php file in the languages place.
 
 
 
@@ -386,7 +561,7 @@
 - [https://github.com/nitipoom-jar/CVE-2024-24337](https://github.com/nitipoom-jar/CVE-2024-24337) :  ![starts](https://img.shields.io/github/stars/nitipoom-jar/CVE-2024-24337.svg) ![forks](https://img.shields.io/github/forks/nitipoom-jar/CVE-2024-24337.svg)
 
 ## CVE-2024-24336
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A multiple Cross-site scripting (XSS) vulnerability in the '/members/moremember.pl', and &#8216;/members/members-home.pl&#8217; endpoints within Koha Library Management System version 23.05.05 and earlier allows malicious staff users to carry out CSRF attacks, including unauthorized changes to usernames and passwords of users visiting the affected page, via the 'Circulation note' and &#8216;Patrons Restriction&#8217; components.
 
 
 
@@ -484,7 +659,7 @@
 - [https://github.com/ASR511-OO7/CVE-2024-24108](https://github.com/ASR511-OO7/CVE-2024-24108) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24108.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24108.svg)
 
 ## CVE-2024-24105
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL Injection vulnerability in Code-projects Computer Science Time Table System 1.0 allows attackers to run arbitrary code via adminFormvalidation.php.
 
 
 
@@ -512,7 +687,7 @@
 - [https://github.com/ASR511-OO7/CVE-2024-24102](https://github.com/ASR511-OO7/CVE-2024-24102) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24102.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24102.svg)
 
 ## CVE-2024-24101
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Code-projects Scholars Tracking System 1.0 is vulnerable to SQL Injection under Eligibility Information Update.
 
 
 
@@ -533,14 +708,14 @@
 - [https://github.com/ASR511-OO7/CVE-2024-24099](https://github.com/ASR511-OO7/CVE-2024-24099) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24099.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24099.svg)
 
 ## CVE-2024-24098
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Code-projects Scholars Tracking System 1.0 is vulnerable to SQL Injection via the News Feed.
 
 
 
 - [https://github.com/ASR511-OO7/CVE-2024-24098](https://github.com/ASR511-OO7/CVE-2024-24098) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24098.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24098.svg)
 
 ## CVE-2024-24097
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Scripting (XSS) vulnerability in Code-projects Scholars Tracking System 1.0 allows attackers to run arbitrary code via the News Feed.
 
 
 
@@ -568,21 +743,21 @@
 - [https://github.com/ASR511-OO7/CVE-2024-24094](https://github.com/ASR511-OO7/CVE-2024-24094) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24094.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24094.svg)
 
 ## CVE-2024-24093
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL Injection vulnerability in Code-projects Scholars Tracking System 1.0 allows attackers to run arbitrary code via Personal Information Update information.
 
 
 
 - [https://github.com/ASR511-OO7/CVE-2024-24093](https://github.com/ASR511-OO7/CVE-2024-24093) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24093.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24093.svg)
 
 ## CVE-2024-24092
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL Injection vulnerability in Code-projects.org Scholars Tracking System 1.0 allows attackers to run arbitrary code via login.php.
 
 
 
 - [https://github.com/ASR511-OO7/CVE-2024-24092](https://github.com/ASR511-OO7/CVE-2024-24092) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-24092.svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-24092.svg)
 
 ## CVE-2024-24035
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross Site Scripting (XSS) vulnerability in Setor Informatica SIL 3.1 allows attackers to run arbitrary code via the hmessage parameter.
 
 
 
@@ -631,13 +806,13 @@
 
 - [https://github.com/viszsec/CVE-2024-23897](https://github.com/viszsec/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/viszsec/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/viszsec/CVE-2024-23897.svg)
 
-- [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
-
 - [https://github.com/yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2024-23897.svg)
 
-- [https://github.com/Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Nebian/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Nebian/CVE-2024-23897.svg)
+- [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
 
 - [https://github.com/jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2024-23897.svg)
+
+- [https://github.com/Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Nebian/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Nebian/CVE-2024-23897.svg)
 
 - [https://github.com/Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2024-23897.svg)
 
@@ -697,28 +872,28 @@
 - [https://github.com/louiselalanne/CVE-2024-23747](https://github.com/louiselalanne/CVE-2024-23747) :  ![starts](https://img.shields.io/github/stars/louiselalanne/CVE-2024-23747.svg) ![forks](https://img.shields.io/github/forks/louiselalanne/CVE-2024-23747.svg)
 
 ## CVE-2024-23746
- Miro Desktop 0.8.18 on macOS allows Electron code injection.
+ Miro Desktop 0.8.18 on macOS allows local Electron code injection via a complex series of steps that might be usable in some environments (bypass a kTCCServiceSystemPolicyAppBundles requirement via a file copy, an app.app/Contents rename, an asar modification, and a rename back to app.app/Contents).
 
 
 
 - [https://github.com/louiselalanne/CVE-2024-23746](https://github.com/louiselalanne/CVE-2024-23746) :  ![starts](https://img.shields.io/github/stars/louiselalanne/CVE-2024-23746.svg) ![forks](https://img.shields.io/github/forks/louiselalanne/CVE-2024-23746.svg)
 
 ## CVE-2024-23745
- In Notion Web Clipper 1.0.3(7), a .nib file is susceptible to the Dirty NIB attack. NIB files can be manipulated to execute arbitrary commands. Additionally, even if a NIB file is modified within an application, Gatekeeper may still permit the execution of the application, enabling the execution of arbitrary commands within the application's context.
+ ** DISPUTED ** In Notion Web Clipper 1.0.3(7), a .nib file is susceptible to the Dirty NIB attack. NIB files can be manipulated to execute arbitrary commands. Additionally, even if a NIB file is modified within an application, Gatekeeper may still permit the execution of the application, enabling the execution of arbitrary commands within the application's context. NOTE: the vendor's perspective is that this is simply an instance of CVE-2022-48505, cannot properly be categorized as a product-level vulnerability, and cannot have a product-level fix because it is about incorrect caching of file signatures on macOS.
 
 
 
 - [https://github.com/louiselalanne/CVE-2024-23745](https://github.com/louiselalanne/CVE-2024-23745) :  ![starts](https://img.shields.io/github/stars/louiselalanne/CVE-2024-23745.svg) ![forks](https://img.shields.io/github/forks/louiselalanne/CVE-2024-23745.svg)
 
 ## CVE-2024-23743
- An issue in Notion for macOS version 3.1.0 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments components.
+ ** DISPUTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;
 
 
 
 - [https://github.com/giovannipajeu1/CVE-2024-23743](https://github.com/giovannipajeu1/CVE-2024-23743) :  ![starts](https://img.shields.io/github/stars/giovannipajeu1/CVE-2024-23743.svg) ![forks](https://img.shields.io/github/forks/giovannipajeu1/CVE-2024-23743.svg)
 
 ## CVE-2024-23742
- An issue in Loom on macOS version 0.196.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
+ ** DISPUTED ** An issue in Loom on macOS version 0.196.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor disputes this because it requires local access to a victim's machine.
 
 
 
@@ -810,7 +985,7 @@
 - [https://github.com/l00neyhacker/CVE-2024-23199](https://github.com/l00neyhacker/CVE-2024-23199) :  ![starts](https://img.shields.io/github/stars/l00neyhacker/CVE-2024-23199.svg) ![forks](https://img.shields.io/github/forks/l00neyhacker/CVE-2024-23199.svg)
 
 ## CVE-2024-22983
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL injection vulnerability in Projectworlds Visitor Management System in PHP v.1.0 allows a remote attacker to escalate privileges via the name parameter in the myform.php endpoint.
 
 
 
@@ -880,7 +1055,7 @@
 - [https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain](https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-22899-to-22903-ExploitChain.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-22899-to-22903-ExploitChain.svg)
 
 ## CVE-2024-22894
- An issue in AIT-Deutschland Alpha Innotec Heatpumps wp2reg-V.3.88.0-9015 and Novelan Heatpumps wp2reg-V.3.88.0-9015, allows remote attackers to execute arbitrary code via the password component in the shadow file.
+ An issue fixed in AIT-Deutschland Alpha Innotec Heatpumps V2.88.3 or later, V3.89.0 or later, V4.81.3 or later and Novelan Heatpumps V2.88.3 or later, V3.89.0 or later, V4.81.3 or later, allows remote attackers to execute arbitrary code via the password component in the shadow file.
 
 
 
@@ -894,7 +1069,7 @@
 - [https://github.com/BurakSevben/CVE-2024-22890](https://github.com/BurakSevben/CVE-2024-22890) :  ![starts](https://img.shields.io/github/stars/BurakSevben/CVE-2024-22890.svg) ![forks](https://img.shields.io/github/forks/BurakSevben/CVE-2024-22890.svg)
 
 ## CVE-2024-22889
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Due to incorrect access control in Plone version v6.0.9, remote attackers can view and list all files hosted on the website via sending a crafted request.
 
 
 
@@ -908,7 +1083,7 @@
 - [https://github.com/brandon-t-elliott/CVE-2024-22867](https://github.com/brandon-t-elliott/CVE-2024-22867) :  ![starts](https://img.shields.io/github/stars/brandon-t-elliott/CVE-2024-22867.svg) ![forks](https://img.shields.io/github/forks/brandon-t-elliott/CVE-2024-22867.svg)
 
 ## CVE-2024-22752
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Insecure permissions issue in EaseUS MobiMover 6.0.5 Build 21620 allows attackers to gain escalated privileges via use of crafted executable launched from the application installation directory.
 
 
 
@@ -943,7 +1118,7 @@
 - [https://github.com/austino2000/CVE-2024-22534](https://github.com/austino2000/CVE-2024-22534) :  ![starts](https://img.shields.io/github/stars/austino2000/CVE-2024-22534.svg) ![forks](https://img.shields.io/github/forks/austino2000/CVE-2024-22534.svg)
 
 ## CVE-2024-22532
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Buffer Overflow vulnerability in XNSoft NConvert 7.163 (for Windows x86) allows attackers to cause a denial of service via crafted xwd file.
 
 
 
@@ -968,7 +1143,7 @@
 - [https://github.com/Orange-418/CVE-2024-22514-Remote-Code-Execution](https://github.com/Orange-418/CVE-2024-22514-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/Orange-418/CVE-2024-22514-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/Orange-418/CVE-2024-22514-Remote-Code-Execution.svg)
 
 ## CVE-2024-22513
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ djangorestframework-simplejwt version 5.3.1 and before is vulnerable to information disclosure. A user can access web application resources even after their account has been disabled due to missing user validation checks via the for_user method.
 
 
 
@@ -994,20 +1169,6 @@
 
 
 - [https://github.com/oscerd/CVE-2024-22369](https://github.com/oscerd/CVE-2024-22369) :  ![starts](https://img.shields.io/github/stars/oscerd/CVE-2024-22369.svg) ![forks](https://img.shields.io/github/forks/oscerd/CVE-2024-22369.svg)
-
-## CVE-2024-22254
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/crackmapEZec/CVE-2024-22252-POC](https://github.com/crackmapEZec/CVE-2024-22252-POC) :  ![starts](https://img.shields.io/github/stars/crackmapEZec/CVE-2024-22252-POC.svg) ![forks](https://img.shields.io/github/forks/crackmapEZec/CVE-2024-22252-POC.svg)
-
-## CVE-2024-22252
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/crackmapEZec/CVE-2024-22252-POC](https://github.com/crackmapEZec/CVE-2024-22252-POC) :  ![starts](https://img.shields.io/github/stars/crackmapEZec/CVE-2024-22252-POC.svg) ![forks](https://img.shields.io/github/forks/crackmapEZec/CVE-2024-22252-POC.svg)
 
 ## CVE-2024-22243
  Applications that use UriComponentsBuilder to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a open redirect https://cwe.mitre.org/data/definitions/601.html attack or to a SSRF attack if the URL is used after passing validation checks.
@@ -1094,6 +1255,8 @@
 
 - [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)
 
+- [https://github.com/S0SkiPlosK1/CVE-2024-21762-POC](https://github.com/S0SkiPlosK1/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/S0SkiPlosK1/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/S0SkiPlosK1/CVE-2024-21762-POC.svg)
+
 - [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)
 
 - [https://github.com/Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/Gh71m/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/Gh71m/CVE-2024-21762-POC.svg)
@@ -1162,15 +1325,8 @@
 
 - [https://github.com/wr00t/CVE-2024-21412_Water-Hydra](https://github.com/wr00t/CVE-2024-21412_Water-Hydra) :  ![starts](https://img.shields.io/github/stars/wr00t/CVE-2024-21412_Water-Hydra.svg) ![forks](https://img.shields.io/github/forks/wr00t/CVE-2024-21412_Water-Hydra.svg)
 
-## CVE-2024-21411
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/rkraper339/CVE-2024-21411-POC](https://github.com/rkraper339/CVE-2024-21411-POC) :  ![starts](https://img.shields.io/github/stars/rkraper339/CVE-2024-21411-POC.svg) ![forks](https://img.shields.io/github/forks/rkraper339/CVE-2024-21411-POC.svg)
-
 ## CVE-2024-21400
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Microsoft Azure Kubernetes Service Confidential Container Elevation of Privilege Vulnerability
 
 
 
@@ -1182,13 +1338,6 @@
 
 
 - [https://github.com/d0rb/CVE-2024-21378](https://github.com/d0rb/CVE-2024-21378) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21378.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21378.svg)
-
-## CVE-2024-21338
- Windows Kernel Elevation of Privilege Vulnerability
-
-
-
-- [https://github.com/crackmapEZec/CVE-2024-21338-POC](https://github.com/crackmapEZec/CVE-2024-21338-POC) :  ![starts](https://img.shields.io/github/stars/crackmapEZec/CVE-2024-21338-POC.svg) ![forks](https://img.shields.io/github/forks/crackmapEZec/CVE-2024-21338-POC.svg)
 
 ## CVE-2024-21305
  Hypervisor-Protected Code Integrity (HVCI) Security Feature Bypass Vulnerability
@@ -1213,6 +1362,17 @@
 - [https://github.com/Leocodefocus/CVE-2024-20931-Poc](https://github.com/Leocodefocus/CVE-2024-20931-Poc) :  ![starts](https://img.shields.io/github/stars/Leocodefocus/CVE-2024-20931-Poc.svg) ![forks](https://img.shields.io/github/forks/Leocodefocus/CVE-2024-20931-Poc.svg)
 
 - [https://github.com/ATonysan/CVE-2024-20931_weblogic](https://github.com/ATonysan/CVE-2024-20931_weblogic) :  ![starts](https://img.shields.io/github/stars/ATonysan/CVE-2024-20931_weblogic.svg) ![forks](https://img.shields.io/github/forks/ATonysan/CVE-2024-20931_weblogic.svg)
+
+## CVE-2024-20767
+ ColdFusion versions 2023.6, 2021.12 and earlier are affected by an Improper Access Control vulnerability that could lead to arbitrary file system read. An attacker could leverage this vulnerability to bypass security measures and gain unauthorized access to sensitive files and perform arbitrary file system write. Exploitation of this issue does not require user interaction.
+
+
+
+- [https://github.com/yoryio/CVE-2024-20767](https://github.com/yoryio/CVE-2024-20767) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2024-20767.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2024-20767.svg)
+
+- [https://github.com/Chocapikk/CVE-2024-20767](https://github.com/Chocapikk/CVE-2024-20767) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-20767.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-20767.svg)
+
+- [https://github.com/m-cetin/CVE-2024-20767](https://github.com/m-cetin/CVE-2024-20767) :  ![starts](https://img.shields.io/github/stars/m-cetin/CVE-2024-20767.svg) ![forks](https://img.shields.io/github/forks/m-cetin/CVE-2024-20767.svg)
 
 ## CVE-2024-20698
  Windows Kernel Elevation of Privilege Vulnerability
@@ -1242,19 +1402,54 @@
 
 - [https://github.com/Wh04m1001/CVE-2024-20656](https://github.com/Wh04m1001/CVE-2024-20656) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/CVE-2024-20656.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/CVE-2024-20656.svg)
 
-## CVE-2024-20337
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/swagcraftedd/CVE-2024-20337-POC](https://github.com/swagcraftedd/CVE-2024-20337-POC) :  ![starts](https://img.shields.io/github/stars/swagcraftedd/CVE-2024-20337-POC.svg) ![forks](https://img.shields.io/github/forks/swagcraftedd/CVE-2024-20337-POC.svg)
-
 ## CVE-2024-20291
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A vulnerability in the access control list (ACL) programming for port channel subinterfaces of Cisco Nexus 3000 and 9000 Series Switches in standalone NX-OS mode could allow an unauthenticated, remote attacker to send traffic that should be blocked through an affected device. This vulnerability is due to incorrect hardware programming that occurs when configuration changes are made to port channel member ports. An attacker could exploit this vulnerability by attempting to send traffic through an affected device. A successful exploit could allow the attacker to access network resources that should be protected by an ACL that was applied on port channel subinterfaces.
 
 
 
 - [https://github.com/BetterCzz/CVE-2024-20291-POC](https://github.com/BetterCzz/CVE-2024-20291-POC) :  ![starts](https://img.shields.io/github/stars/BetterCzz/CVE-2024-20291-POC.svg) ![forks](https://img.shields.io/github/forks/BetterCzz/CVE-2024-20291-POC.svg)
+
+## CVE-2024-2865
+ Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Mergen Software Quality Management System allows SQL Injection.This issue affects Quality Management System: through 25032024.
+
+
+
+- [https://github.com/RobertSecurity/CVE-2024-2865-CRITICAL](https://github.com/RobertSecurity/CVE-2024-2865-CRITICAL) :  ![starts](https://img.shields.io/github/stars/RobertSecurity/CVE-2024-2865-CRITICAL.svg) ![forks](https://img.shields.io/github/forks/RobertSecurity/CVE-2024-2865-CRITICAL.svg)
+
+## CVE-2024-2856
+ A vulnerability, which was classified as critical, has been found in Tenda AC10 16.03.10.13/16.03.10.20. Affected by this issue is the function fromSetSysTime of the file /goform/SetSysTimeCfg. The manipulation of the argument timeZone leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-257780. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+
+
+- [https://github.com/Schnaidr/CVE-2024-2856-Stack-overflow-EXP](https://github.com/Schnaidr/CVE-2024-2856-Stack-overflow-EXP) :  ![starts](https://img.shields.io/github/stars/Schnaidr/CVE-2024-2856-Stack-overflow-EXP.svg) ![forks](https://img.shields.io/github/forks/Schnaidr/CVE-2024-2856-Stack-overflow-EXP.svg)
+
+## CVE-2024-2432
+ A privilege escalation (PE) vulnerability in the Palo Alto Networks GlobalProtect app on Windows devices enables a local user to execute programs with elevated privileges. However, execution requires that the local user is able to successfully exploit a race condition.
+
+
+
+- [https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP) :  ![starts](https://img.shields.io/github/stars/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP.svg) ![forks](https://img.shields.io/github/forks/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP.svg)
+
+## CVE-2024-2169
+ Implementations of UDP application protocol are vulnerable to network loops. An unauthenticated attacker can use maliciously-crafted packets against a vulnerable implementation that can lead to Denial of Service (DOS) and/or abuse of resources.
+
+
+
+- [https://github.com/douglasbuzatto/G3-Loop-DoS](https://github.com/douglasbuzatto/G3-Loop-DoS) :  ![starts](https://img.shields.io/github/stars/douglasbuzatto/G3-Loop-DoS.svg) ![forks](https://img.shields.io/github/forks/douglasbuzatto/G3-Loop-DoS.svg)
+
+## CVE-2024-2074
+ A vulnerability was found in Mini-Tmall up to 20231017 and classified as critical. This issue affects some unknown processing of the file ?r=tmall/admin/user/1/1. The manipulation of the argument orderBy leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-255389 was assigned to this vulnerability.
+
+
+
+- [https://github.com/yuziiiiiiiiii/CVE-2024-2074](https://github.com/yuziiiiiiiiii/CVE-2024-2074) :  ![starts](https://img.shields.io/github/stars/yuziiiiiiiiii/CVE-2024-2074.svg) ![forks](https://img.shields.io/github/forks/yuziiiiiiiiii/CVE-2024-2074.svg)
+
+## CVE-2024-2054
+ The Artica-Proxy administrative web application will deserialize arbitrary PHP objects supplied by unauthenticated users and subsequently enable code execution as the &quot;www-data&quot; user.
+
+
+
+- [https://github.com/Madan301/CVE-2024-2054](https://github.com/Madan301/CVE-2024-2054) :  ![starts](https://img.shields.io/github/stars/Madan301/CVE-2024-2054.svg) ![forks](https://img.shields.io/github/forks/Madan301/CVE-2024-2054.svg)
 
 ## CVE-2024-1781
  A vulnerability was found in Totolink X6000R AX3000 9.4.0cu.852_20230719. It has been rated as critical. This issue affects the function setWizardCfg of the file /cgi-bin/cstecgi.cgi of the component shttpd. The manipulation leads to command injection. The exploit has been disclosed to the public and may be used. The identifier VDB-254573 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
@@ -1305,7 +1500,7 @@
 - [https://github.com/rat-c/CVE-2024-1512](https://github.com/rat-c/CVE-2024-1512) :  ![starts](https://img.shields.io/github/stars/rat-c/CVE-2024-1512.svg) ![forks](https://img.shields.io/github/forks/rat-c/CVE-2024-1512.svg)
 
 ## CVE-2024-1403
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ In OpenEdge Authentication Gateway and AdminServer prior to 11.7.19, 12.2.14, 12.8.1 on all platforms supported by the OpenEdge product, an authentication bypass vulnerability has been identified. The vulnerability is a bypass to authentication based on a failure to properly handle username and password. Certain unexpected content passed into the credentials can lead to unauthorized access without proper authentication.
 
 
 
@@ -1319,28 +1514,28 @@
 - [https://github.com/PeterGabaldon/CVE-2024-1346](https://github.com/PeterGabaldon/CVE-2024-1346) :  ![starts](https://img.shields.io/github/stars/PeterGabaldon/CVE-2024-1346.svg) ![forks](https://img.shields.io/github/forks/PeterGabaldon/CVE-2024-1346.svg)
 
 ## CVE-2024-1304
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cross-site scripting vulnerability in Badger Meter Monitool that affects versions up to 4.6.3 and earlier. This vulnerability allows a remote attacker to send a specially crafted javascript payload to an authenticated user and partially hijack their browser session.
 
 
 
 - [https://github.com/guillermogm4/CVE-2024-1304---Badgermeter-moni-tool-Reflected-Cross-Site-Scripting-XSS](https://github.com/guillermogm4/CVE-2024-1304---Badgermeter-moni-tool-Reflected-Cross-Site-Scripting-XSS) :  ![starts](https://img.shields.io/github/stars/guillermogm4/CVE-2024-1304---Badgermeter-moni-tool-Reflected-Cross-Site-Scripting-XSS.svg) ![forks](https://img.shields.io/github/forks/guillermogm4/CVE-2024-1304---Badgermeter-moni-tool-Reflected-Cross-Site-Scripting-XSS.svg)
 
 ## CVE-2024-1303
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Incorrectly limiting the path to a restricted directory vulnerability in Badger Meter Monitool that affects versions up to 4.6.3 and earlier. This vulnerability allows an authenticated attacker to retrieve any file from the device using the download-file functionality.
 
 
 
 - [https://github.com/guillermogm4/CVE-2024-1303---Badgermeter-moni-tool-Path-Traversal](https://github.com/guillermogm4/CVE-2024-1303---Badgermeter-moni-tool-Path-Traversal) :  ![starts](https://img.shields.io/github/stars/guillermogm4/CVE-2024-1303---Badgermeter-moni-tool-Path-Traversal.svg) ![forks](https://img.shields.io/github/forks/guillermogm4/CVE-2024-1303---Badgermeter-moni-tool-Path-Traversal.svg)
 
 ## CVE-2024-1302
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Information exposure vulnerability in Badger Meter Monitool affecting versions up to 4.6.3 and earlier. A local attacker could change the application's file parameter to a log file obtaining all sensitive information such as database credentials.
 
 
 
 - [https://github.com/guillermogm4/CVE-2024-1302---Badgermeter-moni-tool-Sensitive-information-exposure](https://github.com/guillermogm4/CVE-2024-1302---Badgermeter-moni-tool-Sensitive-information-exposure) :  ![starts](https://img.shields.io/github/stars/guillermogm4/CVE-2024-1302---Badgermeter-moni-tool-Sensitive-information-exposure.svg) ![forks](https://img.shields.io/github/forks/guillermogm4/CVE-2024-1302---Badgermeter-moni-tool-Sensitive-information-exposure.svg)
 
 ## CVE-2024-1301
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL injection vulnerability in Badger Meter Monitool affecting versions 4.6.3 and earlier. A remote attacker could send a specially crafted SQL query to the server via the j_username parameter and retrieve the information stored in the database.
 
 
 
@@ -1388,8 +1583,15 @@
 
 - [https://github.com/karlemilnikka/CVE-2024-1208-and-CVE-2024-1210](https://github.com/karlemilnikka/CVE-2024-1208-and-CVE-2024-1210) :  ![starts](https://img.shields.io/github/stars/karlemilnikka/CVE-2024-1208-and-CVE-2024-1210.svg) ![forks](https://img.shields.io/github/forks/karlemilnikka/CVE-2024-1208-and-CVE-2024-1210.svg)
 
+## CVE-2024-1086
+ A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation. The nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT. We recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.
+
+
+
+- [https://github.com/Notselwyn/CVE-2024-1086](https://github.com/Notselwyn/CVE-2024-1086) :  ![starts](https://img.shields.io/github/stars/Notselwyn/CVE-2024-1086.svg) ![forks](https://img.shields.io/github/forks/Notselwyn/CVE-2024-1086.svg)
+
 ## CVE-2024-1071
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ The Ultimate Member &#8211; User Profile, Registration, Login, Member Directory, Content Restriction &amp; Membership Plugin plugin for WordPress is vulnerable to SQL Injection via the 'sorting' parameter in versions 2.1.3 to 2.8.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 
 
 
@@ -1402,7 +1604,7 @@
 - [https://github.com/Trackflaw/CVE-2024-1071-Docker](https://github.com/Trackflaw/CVE-2024-1071-Docker) :  ![starts](https://img.shields.io/github/stars/Trackflaw/CVE-2024-1071-Docker.svg) ![forks](https://img.shields.io/github/forks/Trackflaw/CVE-2024-1071-Docker.svg)
 
 ## CVE-2024-0967
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A potential vulnerability has been identified in OpenText / Micro Focus ArcSight Enterprise Security Manager (ESM). The vulnerability could be remotely exploited.
 
 
 
