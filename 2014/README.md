@@ -5,13 +5,6 @@
 
 - [https://github.com/aimoda/hitron-cfg-decrypter](https://github.com/aimoda/hitron-cfg-decrypter) :  ![starts](https://img.shields.io/github/stars/aimoda/hitron-cfg-decrypter.svg) ![forks](https://img.shields.io/github/forks/aimoda/hitron-cfg-decrypter.svg)
 
-## CVE-2014-9690
- Huawei home gateways WS318 with software V100R001C01B022 and earlier versions are affected by the PIN offline brute force cracking vulnerability of the WPS protocol because the random number generator (RNG) used in the supplier's solution is not random enough. As a result, brute force cracking the PIN code is easier. After an attacker cracks the PIN, the attacker can access the Internet via the cracked device.
-
-
-
-- [https://github.com/ForceFledgling/CVE-2014-9690](https://github.com/ForceFledgling/CVE-2014-9690) :  ![starts](https://img.shields.io/github/stars/ForceFledgling/CVE-2014-9690.svg) ![forks](https://img.shields.io/github/forks/ForceFledgling/CVE-2014-9690.svg)
-
 ## CVE-2014-9390
  Git before 1.8.5.6, 1.9.x before 1.9.5, 2.0.x before 2.0.5, 2.1.x before 2.1.4, and 2.2.x before 2.2.1 on Windows and OS X; Mercurial before 3.2.3 on Windows and OS X; Apple Xcode before 6.2 beta 3; mine all versions before 08-12-2014; libgit2 all versions up to 0.21.2; Egit all versions before 08-12-2014; and JGit all versions before 08-12-2014 allow remote Git servers to execute arbitrary commands via a tree containing a crafted .git/config file with (1) an ignorable Unicode codepoint, (2) a git~1/config representation, or (3) mixed case that is improperly handled on a case-insensitive filesystem.
 
@@ -251,9 +244,9 @@
 
 - [https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution](https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution) :  ![starts](https://img.shields.io/github/stars/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution.svg)
 
-- [https://github.com/zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/zhsh9/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/zhsh9/CVE-2014-6287.svg)
-
 - [https://github.com/0xTabun/CVE-2014-6287](https://github.com/0xTabun/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/0xTabun/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/0xTabun/CVE-2014-6287.svg)
+
+- [https://github.com/zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/zhsh9/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/zhsh9/CVE-2014-6287.svg)
 
 - [https://github.com/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287](https://github.com/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287.svg)
 
@@ -356,13 +349,13 @@
 
 - [https://github.com/mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2014-6271.svg)
 
-- [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
-
-- [https://github.com/Jsmoreira02/CVE-2014-6271](https://github.com/Jsmoreira02/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Jsmoreira02/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Jsmoreira02/CVE-2014-6271.svg)
-
 - [https://github.com/mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mattclegg/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mattclegg/CVE-2014-6271.svg)
 
 - [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
+
+- [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
+
+- [https://github.com/Jsmoreira02/CVE-2014-6271](https://github.com/Jsmoreira02/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Jsmoreira02/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Jsmoreira02/CVE-2014-6271.svg)
 
 - [https://github.com/woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/woltage/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/woltage/CVE-2014-6271.svg)
 
@@ -382,9 +375,9 @@
 
 - [https://github.com/cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Shellbash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Shellbash-CVE-2014-6271.svg)
 
-- [https://github.com/dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes) :  ![starts](https://img.shields.io/github/stars/dlitz/bash-cve-2014-6271-fixes.svg) ![forks](https://img.shields.io/github/forks/dlitz/bash-cve-2014-6271-fixes.svg)
-
 - [https://github.com/Pilou-Pilou/docker_CVE-2014-6271.](https://github.com/Pilou-Pilou/docker_CVE-2014-6271.) :  ![starts](https://img.shields.io/github/stars/Pilou-Pilou/docker_CVE-2014-6271..svg) ![forks](https://img.shields.io/github/forks/Pilou-Pilou/docker_CVE-2014-6271..svg)
+
+- [https://github.com/dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes) :  ![starts](https://img.shields.io/github/stars/dlitz/bash-cve-2014-6271-fixes.svg) ![forks](https://img.shields.io/github/forks/dlitz/bash-cve-2014-6271-fixes.svg)
 
 - [https://github.com/ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check) :  ![starts](https://img.shields.io/github/stars/ilismal/Nessus_CVE-2014-6271_check.svg) ![forks](https://img.shields.io/github/forks/ilismal/Nessus_CVE-2014-6271_check.svg)
 
@@ -569,6 +562,13 @@
 
 - [https://github.com/day6reak/CVE-2014-4140](https://github.com/day6reak/CVE-2014-4140) :  ![starts](https://img.shields.io/github/stars/day6reak/CVE-2014-4140.svg) ![forks](https://img.shields.io/github/forks/day6reak/CVE-2014-4140.svg)
 
+## CVE-2014-4114
+ Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allow remote attackers to execute arbitrary code via a crafted OLE object in an Office document, as exploited in the wild with a &quot;Sandworm&quot; attack in June through October 2014, aka &quot;Windows OLE Remote Code Execution Vulnerability.&quot;
+
+
+
+- [https://github.com/chefphenix25/vuln-rabilit-windows7](https://github.com/chefphenix25/vuln-rabilit-windows7) :  ![starts](https://img.shields.io/github/stars/chefphenix25/vuln-rabilit-windows7.svg) ![forks](https://img.shields.io/github/forks/chefphenix25/vuln-rabilit-windows7.svg)
+
 ## CVE-2014-4113
  win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, as exploited in the wild in October 2014, aka &quot;Win32k.sys Elevation of Privilege Vulnerability.&quot;
 
@@ -633,6 +633,13 @@
 - [https://github.com/uthrasri/Openssl_G2.5_CVE-2014-3570_01](https://github.com/uthrasri/Openssl_G2.5_CVE-2014-3570_01) :  ![starts](https://img.shields.io/github/stars/uthrasri/Openssl_G2.5_CVE-2014-3570_01.svg) ![forks](https://img.shields.io/github/forks/uthrasri/Openssl_G2.5_CVE-2014-3570_01.svg)
 
 - [https://github.com/uthrasri/CVE-2014-3570_G2.5_openssl_no_patch](https://github.com/uthrasri/CVE-2014-3570_G2.5_openssl_no_patch) :  ![starts](https://img.shields.io/github/stars/uthrasri/CVE-2014-3570_G2.5_openssl_no_patch.svg) ![forks](https://img.shields.io/github/forks/uthrasri/CVE-2014-3570_G2.5_openssl_no_patch.svg)
+
+## CVE-2014-3568
+ OpenSSL before 0.9.8zc, 1.0.0 before 1.0.0o, and 1.0.1 before 1.0.1j does not properly enforce the no-ssl3 build option, which allows remote attackers to bypass intended access restrictions via an SSL 3.0 handshake, related to s23_clnt.c and s23_srvr.c.
+
+
+
+- [https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2014-3568](https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2014-3568) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.0.1g_CVE-2014-3568.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.0.1g_CVE-2014-3568.svg)
 
 ## CVE-2014-3566
  The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other products, uses nondeterministic CBC padding, which makes it easier for man-in-the-middle attackers to obtain cleartext data via a padding-oracle attack, aka the &quot;POODLE&quot; issue.
