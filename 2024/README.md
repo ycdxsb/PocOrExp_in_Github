@@ -817,9 +817,9 @@
 
 - [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
 
-- [https://github.com/Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Nebian/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Nebian/CVE-2024-23897.svg)
-
 - [https://github.com/jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2024-23897.svg)
+
+- [https://github.com/Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Nebian/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Nebian/CVE-2024-23897.svg)
 
 - [https://github.com/Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2024-23897.svg)
 
@@ -1236,9 +1236,9 @@
 
 - [https://github.com/Chocapikk/CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-21887.svg)
 
-- [https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/duy-31/CVE-2023-46805_CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/duy-31/CVE-2023-46805_CVE-2024-21887.svg)
-
 - [https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-21893-to-CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-21893-to-CVE-2024-21887.svg)
+
+- [https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/duy-31/CVE-2023-46805_CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/duy-31/CVE-2023-46805_CVE-2024-21887.svg)
 
 - [https://github.com/seajaysec/Ivanti-Connect-Around-Scan](https://github.com/seajaysec/Ivanti-Connect-Around-Scan) :  ![starts](https://img.shields.io/github/stars/seajaysec/Ivanti-Connect-Around-Scan.svg) ![forks](https://img.shields.io/github/forks/seajaysec/Ivanti-Connect-Around-Scan.svg)
 
@@ -1348,6 +1348,13 @@
 
 - [https://github.com/MegaCorp001/CVE-2024-21400-POC](https://github.com/MegaCorp001/CVE-2024-21400-POC) :  ![starts](https://img.shields.io/github/stars/MegaCorp001/CVE-2024-21400-POC.svg) ![forks](https://img.shields.io/github/forks/MegaCorp001/CVE-2024-21400-POC.svg)
 
+## CVE-2024-21388
+ Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability
+
+
+
+- [https://github.com/d0rb/CVE-2024-21388](https://github.com/d0rb/CVE-2024-21388) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21388.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21388.svg)
+
 ## CVE-2024-21378
  Microsoft Outlook Remote Code Execution Vulnerability
 
@@ -1389,6 +1396,8 @@
 - [https://github.com/Chocapikk/CVE-2024-20767](https://github.com/Chocapikk/CVE-2024-20767) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-20767.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-20767.svg)
 
 - [https://github.com/m-cetin/CVE-2024-20767](https://github.com/m-cetin/CVE-2024-20767) :  ![starts](https://img.shields.io/github/stars/m-cetin/CVE-2024-20767.svg) ![forks](https://img.shields.io/github/forks/m-cetin/CVE-2024-20767.svg)
+
+- [https://github.com/huyqa/cve-2024-20767](https://github.com/huyqa/cve-2024-20767) :  ![starts](https://img.shields.io/github/stars/huyqa/cve-2024-20767.svg) ![forks](https://img.shields.io/github/forks/huyqa/cve-2024-20767.svg)
 
 ## CVE-2024-20698
  Windows Kernel Elevation of Privilege Vulnerability
@@ -1445,6 +1454,13 @@
 
 
 - [https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP) :  ![starts](https://img.shields.io/github/stars/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP.svg) ![forks](https://img.shields.io/github/forks/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP.svg)
+
+## CVE-2024-2193
+ A Speculative Race Condition (SRC) vulnerability that impacts modern CPU architectures supporting speculative execution (related to Spectre V1) has been disclosed. An unauthenticated attacker can exploit this vulnerability to disclose arbitrary data from the CPU using race conditions to access the speculative executable code paths.
+
+
+
+- [https://github.com/uthrasri/CVE-2024-2193](https://github.com/uthrasri/CVE-2024-2193) :  ![starts](https://img.shields.io/github/stars/uthrasri/CVE-2024-2193.svg) ![forks](https://img.shields.io/github/forks/uthrasri/CVE-2024-2193.svg)
 
 ## CVE-2024-2169
  Implementations of UDP application protocol are vulnerable to network loops. An unauthenticated attacker can use maliciously-crafted packets against a vulnerable implementation that can lead to Denial of Service (DOS) and/or abuse of resources.
