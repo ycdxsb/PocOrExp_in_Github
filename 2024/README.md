@@ -96,6 +96,13 @@
 
 - [https://github.com/yashpatelphd/CVE-2024-29439](https://github.com/yashpatelphd/CVE-2024-29439) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29439.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29439.svg)
 
+## CVE-2024-29278
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/QDming/cve](https://github.com/QDming/cve) :  ![starts](https://img.shields.io/github/stars/QDming/cve.svg) ![forks](https://img.shields.io/github/forks/QDming/cve.svg)
+
 ## CVE-2024-29272
  Arbitrary File Upload vulnerability in VvvebJs before version 1.7.5, allows unauthenticated remote attackers to execute arbitrary code and obtain sensitive information via the sanitizeFileName parameter in save.php.
 
@@ -1281,6 +1288,13 @@
 
 - [https://github.com/t4ril/CVE-2024-21762-PoC](https://github.com/t4ril/CVE-2024-21762-PoC) :  ![starts](https://img.shields.io/github/stars/t4ril/CVE-2024-21762-PoC.svg) ![forks](https://img.shields.io/github/forks/t4ril/CVE-2024-21762-PoC.svg)
 
+## CVE-2024-21644
+ pyLoad is the free and open-source Download Manager written in pure Python. Any unauthenticated user can browse to a specific URL to expose the Flask config, including the `SECRET_KEY` variable. This issue has been patched in version 0.5.0b3.dev77.
+
+
+
+- [https://github.com/ltranquility/CVE-2024-21644-Poc](https://github.com/ltranquility/CVE-2024-21644-Poc) :  ![starts](https://img.shields.io/github/stars/ltranquility/CVE-2024-21644-Poc.svg) ![forks](https://img.shields.io/github/forks/ltranquility/CVE-2024-21644-Poc.svg)
+
 ## CVE-2024-21633
  Apktool is a tool for reverse engineering Android APK files. In versions 2.9.1 and prior, Apktool infers resource files' output path according to their resource names which can be manipulated by attacker to place files at desired location on the system Apktool runs on. Affected environments are those in which an attacker may write/overwrite any file that user has write access, and either user name is known or cwd is under user folder. Commit d348c43b24a9de350ff6e5bd610545a10c1fc712 contains a patch for this issue.
 
@@ -1513,6 +1527,8 @@
 
 
 
+- [https://github.com/kamranhasan/CVE-2024-1698-Exploit](https://github.com/kamranhasan/CVE-2024-1698-Exploit) :  ![starts](https://img.shields.io/github/stars/kamranhasan/CVE-2024-1698-Exploit.svg) ![forks](https://img.shields.io/github/forks/kamranhasan/CVE-2024-1698-Exploit.svg)
+
 - [https://github.com/codeb0ss/CVE-2024-1698-PoC](https://github.com/codeb0ss/CVE-2024-1698-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2024-1698-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2024-1698-PoC.svg)
 
 ## CVE-2024-1651
@@ -1676,6 +1692,13 @@
 
 
 - [https://github.com/RandomRobbieBF/CVE-2024-0679](https://github.com/RandomRobbieBF/CVE-2024-0679) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-0679.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-0679.svg)
+
+## CVE-2024-0582
+ A memory leak flaw was found in the Linux kernel&#8217;s io_uring functionality in how a user registers a buffer ring with IORING_REGISTER_PBUF_RING, mmap() it, and then frees it. This flaw allows a local user to crash or potentially escalate their privileges on the system.
+
+
+
+- [https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582](https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582) :  ![starts](https://img.shields.io/github/stars/ysanatomic/io_uring_LPE-CVE-2024-0582.svg) ![forks](https://img.shields.io/github/forks/ysanatomic/io_uring_LPE-CVE-2024-0582.svg)
 
 ## CVE-2024-0519
  Out of bounds memory access in V8 in Google Chrome prior to 120.0.6099.224 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
