@@ -1,91 +1,84 @@
-# Update 2024-03-29
-## CVE-2024-28085
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+# Update 2024-03-30
+## CVE-2024-21388
+ Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability
 
-- [https://github.com/skyler-ferrante/CVE-2024-28085](https://github.com/skyler-ferrante/CVE-2024-28085) :  ![starts](https://img.shields.io/github/stars/skyler-ferrante/CVE-2024-28085.svg) ![forks](https://img.shields.io/github/forks/skyler-ferrante/CVE-2024-28085.svg)
-
-
-## CVE-2024-21899
- An improper authentication vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to compromise the security of the system via a network. We have already fixed the vulnerability in the following versions: QTS 5.1.3.2578 build 20231110 and later QTS 4.5.4.2627 build 20231225 and later QuTS hero h5.1.3.2578 build 20231110 and later QuTS hero h4.5.4.2626 build 20231225 and later QuTScloud c5.1.5.2651 and later
-
-- [https://github.com/Oxdestiny/CVE-2024-21899-RCE-POC](https://github.com/Oxdestiny/CVE-2024-21899-RCE-POC) :  ![starts](https://img.shields.io/github/stars/Oxdestiny/CVE-2024-21899-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/Oxdestiny/CVE-2024-21899-RCE-POC.svg)
+- [https://github.com/d0rb/CVE-2024-21388](https://github.com/d0rb/CVE-2024-21388) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21388.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21388.svg)
 
 
-## CVE-2024-21762
- A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests
+## CVE-2024-20767
+ ColdFusion versions 2023.6, 2021.12 and earlier are affected by an Improper Access Control vulnerability that could lead to arbitrary file system read. An attacker could leverage this vulnerability to bypass security measures and gain unauthorized access to sensitive files and perform arbitrary file system write. Exploitation of this issue does not require user interaction.
 
-- [https://github.com/MrCyberSec/CVE-2024-21762-Fortinet-RCE-ALLWORK](https://github.com/MrCyberSec/CVE-2024-21762-Fortinet-RCE-ALLWORK) :  ![starts](https://img.shields.io/github/stars/MrCyberSec/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg) ![forks](https://img.shields.io/github/forks/MrCyberSec/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg)
-
-
-## CVE-2024-0519
- Out of bounds memory access in V8 in Google Chrome prior to 120.0.6099.224 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-
-- [https://github.com/Oxdestiny/CVE-2024-0519-Chrome-exploit](https://github.com/Oxdestiny/CVE-2024-0519-Chrome-exploit) :  ![starts](https://img.shields.io/github/stars/Oxdestiny/CVE-2024-0519-Chrome-exploit.svg) ![forks](https://img.shields.io/github/forks/Oxdestiny/CVE-2024-0519-Chrome-exploit.svg)
+- [https://github.com/huyqa/cve-2024-20767](https://github.com/huyqa/cve-2024-20767) :  ![starts](https://img.shields.io/github/stars/huyqa/cve-2024-20767.svg) ![forks](https://img.shields.io/github/forks/huyqa/cve-2024-20767.svg)
 
 
-## CVE-2023-3824
- In PHP version 8.0.* before 8.0.30, 8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE.
+## CVE-2024-2193
+ A Speculative Race Condition (SRC) vulnerability that impacts modern CPU architectures supporting speculative execution (related to Spectre V1) has been disclosed. An unauthenticated attacker can exploit this vulnerability to disclose arbitrary data from the CPU using race conditions to access the speculative executable code paths.
 
-- [https://github.com/NewLockBit/CVE-2023-3824-PHP-to-RCE](https://github.com/NewLockBit/CVE-2023-3824-PHP-to-RCE) :  ![starts](https://img.shields.io/github/stars/NewLockBit/CVE-2023-3824-PHP-to-RCE.svg) ![forks](https://img.shields.io/github/forks/NewLockBit/CVE-2023-3824-PHP-to-RCE.svg)
-- [https://github.com/StayBeautiful-collab/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/StayBeautiful-collab/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK) :  ![starts](https://img.shields.io/github/stars/StayBeautiful-collab/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK.svg) ![forks](https://img.shields.io/github/forks/StayBeautiful-collab/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK.svg)
-
-
-## CVE-2022-35869
- This vulnerability allows remote attackers to bypass authentication on affected installations of Inductive Automation Ignition 8.1.15 (b2022030114). Authentication is not required to exploit this vulnerability. The specific flaw exists within com.inductiveautomation.ignition.gateway.web.pages. The issue results from the lack of proper authentication prior to access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-17211.
-
-- [https://github.com/at4111/CVE_2022_35869](https://github.com/at4111/CVE_2022_35869) :  ![starts](https://img.shields.io/github/stars/at4111/CVE_2022_35869.svg) ![forks](https://img.shields.io/github/forks/at4111/CVE_2022_35869.svg)
+- [https://github.com/uthrasri/CVE-2024-2193](https://github.com/uthrasri/CVE-2024-2193) :  ![starts](https://img.shields.io/github/stars/uthrasri/CVE-2024-2193.svg) ![forks](https://img.shields.io/github/forks/uthrasri/CVE-2024-2193.svg)
 
 
-## CVE-2022-21661
- WordPress is a free and open-source content management system written in PHP and paired with a MariaDB database. Due to improper sanitization in WP_Query, there can be cases where SQL injection is possible through plugins or themes that use it in a certain way. This has been patched in WordPress version 5.8.3. Older affected versions are also fixed via security release, that go back till 3.7.37. We strongly recommend that you keep auto-updates enabled. There are no known workarounds for this vulnerability.
+## CVE-2023-42789
+ A out-of-bounds write in Fortinet FortiOS 7.4.0 through 7.4.1, 7.2.0 through 7.2.5, 7.0.0 through 7.0.12, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, FortiProxy 7.4.0, 7.2.0 through 7.2.6, 7.0.0 through 7.0.12, 2.0.0 through 2.0.13 allows attacker to execute unauthorized code or commands via specially crafted HTTP requests.
 
-- [https://github.com/safe3s/CVE-2022-21661](https://github.com/safe3s/CVE-2022-21661) :  ![starts](https://img.shields.io/github/stars/safe3s/CVE-2022-21661.svg) ![forks](https://img.shields.io/github/forks/safe3s/CVE-2022-21661.svg)
-
-
-## CVE-2022-20140
- In read_multi_rsp of gatt_sr.cc, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12 Android-12LAndroid ID: A-227618988
-
-- [https://github.com/RenukaSelvar/system_bt_aosp10_cve-2022-20140](https://github.com/RenukaSelvar/system_bt_aosp10_cve-2022-20140) :  ![starts](https://img.shields.io/github/stars/RenukaSelvar/system_bt_aosp10_cve-2022-20140.svg) ![forks](https://img.shields.io/github/forks/RenukaSelvar/system_bt_aosp10_cve-2022-20140.svg)
+- [https://github.com/jhonnybonny/CVE-2023-42789](https://github.com/jhonnybonny/CVE-2023-42789) :  ![starts](https://img.shields.io/github/stars/jhonnybonny/CVE-2023-42789.svg) ![forks](https://img.shields.io/github/forks/jhonnybonny/CVE-2023-42789.svg)
 
 
-## CVE-2022-1040
- An authentication bypass vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v18.5 MR3 and older.
+## CVE-2022-46169
+ Cacti is an open source platform which provides a robust and extensible operational monitoring and fault management framework for users. In affected versions a command injection vulnerability allows an unauthenticated user to execute arbitrary code on a server running Cacti, if a specific data source was selected for any monitored device. The vulnerability resides in the `remote_agent.php` file. This file can be accessed without authentication. This function retrieves the IP address of the client via `get_client_addr` and resolves this IP address to the corresponding hostname via `gethostbyaddr`. After this, it is verified that an entry within the `poller` table exists, where the hostname corresponds to the resolved hostname. If such an entry was found, the function returns `true` and the client is authorized. This authorization can be bypassed due to the implementation of the `get_client_addr` function. The function is defined in the file `lib/functions.php` and checks serval `$_SERVER` variables to determine the IP address of the client. The variables beginning with `HTTP_` can be arbitrarily set by an attacker. Since there is a default entry in the `poller` table with the hostname of the server running Cacti, an attacker can bypass the authentication e.g. by providing the header `Forwarded-For: &lt;TARGETIP&gt;`. This way the function `get_client_addr` returns the IP address of the server running Cacti. The following call to `gethostbyaddr` will resolve this IP address to the hostname of the server, which will pass the `poller` hostname check because of the default entry. After the authorization of the `remote_agent.php` file is bypassed, an attacker can trigger different actions. One of these actions is called `polldata`. The called function `poll_for_data` retrieves a few request parameters and loads the corresponding `poller_item` entries from the database. If the `action` of a `poller_item` equals `POLLER_ACTION_SCRIPT_PHP`, the function `proc_open` is used to execute a PHP script. The attacker-controlled parameter `$poller_id` is retrieved via the function `get_nfilter_request_var`, which allows arbitrary strings. This variable is later inserted into the string passed to `proc_open`, which leads to a command injection vulnerability. By e.g. providing the `poller_id=;id` the `id` command is executed. In order to reach the vulnerable call, the attacker must provide a `host_id` and `local_data_id`, where the `action` of the corresponding `poller_item` is set to `POLLER_ACTION_SCRIPT_PHP`. Both of these ids (`host_id` and `local_data_id`) can easily be bruteforced. The only requirement is that a `poller_item` with an `POLLER_ACTION_SCRIPT_PHP` action exists. This is very likely on a productive instance because this action is added by some predefined templates like `Device - Uptime` or `Device - Polling Time`. This command injection vulnerability allows an unauthenticated user to execute arbitrary commands if a `poller_item` with the `action` type `POLLER_ACTION_SCRIPT_PHP` (`2`) is configured. The authorization bypass should be prevented by not allowing an attacker to make `get_client_addr` (file `lib/functions.php`) return an arbitrary IP address. This could be done by not honoring the `HTTP_...` `$_SERVER` variables. If these should be kept for compatibility reasons it should at least be prevented to fake the IP address of the server running Cacti. This vulnerability has been addressed in both the 1.2.x and 1.3.x release branches with `1.2.23` being the first release containing the patch.
 
-- [https://github.com/jackson5sec/CVE-2022-1040](https://github.com/jackson5sec/CVE-2022-1040) :  ![starts](https://img.shields.io/github/stars/jackson5sec/CVE-2022-1040.svg) ![forks](https://img.shields.io/github/forks/jackson5sec/CVE-2022-1040.svg)
-
-
-## CVE-2021-43798
- Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `&lt;grafana_host_url&gt;/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
-
-- [https://github.com/ticofookfook/CVE-2021-43798](https://github.com/ticofookfook/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/ticofookfook/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/ticofookfook/CVE-2021-43798.svg)
+- [https://github.com/mind2hex/CVE-2022-46169](https://github.com/mind2hex/CVE-2022-46169) :  ![starts](https://img.shields.io/github/stars/mind2hex/CVE-2022-46169.svg) ![forks](https://img.shields.io/github/forks/mind2hex/CVE-2022-46169.svg)
 
 
-## CVE-2015-1701
- Win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Vista SP2, and Server 2008 SP2 allows local users to gain privileges via a crafted application, as exploited in the wild in April 2015, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot;
+## CVE-2022-39227
+ python-jwt is a module for generating and verifying JSON Web Tokens. Versions prior to 3.3.4 are subject to Authentication Bypass by Spoofing, resulting in identity spoofing, session hijacking or authentication bypass. An attacker who obtains a JWT can arbitrarily forge its contents without knowing the secret key. Depending on the application, this may for example enable the attacker to spoof other user's identities, hijack their sessions, or bypass authentication. Users should upgrade to version 3.3.4. There are no known workarounds.
+
+- [https://github.com/NoSpaceAvailable/CVE-2022-39227](https://github.com/NoSpaceAvailable/CVE-2022-39227) :  ![starts](https://img.shields.io/github/stars/NoSpaceAvailable/CVE-2022-39227.svg) ![forks](https://img.shields.io/github/forks/NoSpaceAvailable/CVE-2022-39227.svg)
+
+
+## CVE-2021-31630
+ Command Injection in Open PLC Webserver v3 allows remote attackers to execute arbitrary code via the &quot;Hardware Layer Code Box&quot; component on the &quot;/hardware&quot; page of the application.
+
+- [https://github.com/thewhiteh4t/cve-2021-31630](https://github.com/thewhiteh4t/cve-2021-31630) :  ![starts](https://img.shields.io/github/stars/thewhiteh4t/cve-2021-31630.svg) ![forks](https://img.shields.io/github/forks/thewhiteh4t/cve-2021-31630.svg)
+
+
+## CVE-2019-17240
+ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-force protection mechanism by using many different forged X-Forwarded-For or Client-IP HTTP headers.
+
+- [https://github.com/mind2hex/CVE-2019-17240](https://github.com/mind2hex/CVE-2019-17240) :  ![starts](https://img.shields.io/github/stars/mind2hex/CVE-2019-17240.svg) ![forks](https://img.shields.io/github/forks/mind2hex/CVE-2019-17240.svg)
+
+
+## CVE-2019-16113
+ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php because PHP code can be entered with a .jpg file name, and then this PHP code can write other PHP code to a ../ pathname.
+
+- [https://github.com/mind2hex/CVE-2019-16113](https://github.com/mind2hex/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/mind2hex/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/mind2hex/CVE-2019-16113.svg)
+
+
+## CVE-2019-1182
+ A remote code execution vulnerability exists in Remote Desktop Services &#8364;&#8220; formerly known as Terminal Services &#8364;&#8220; when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1181, CVE-2019-1222, CVE-2019-1226.
 
 - [https://github.com/chefphenix25/vuln-rabilit-windows7](https://github.com/chefphenix25/vuln-rabilit-windows7) :  ![starts](https://img.shields.io/github/stars/chefphenix25/vuln-rabilit-windows7.svg) ![forks](https://img.shields.io/github/forks/chefphenix25/vuln-rabilit-windows7.svg)
 
 
-## CVE-2014-4114
- Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allow remote attackers to execute arbitrary code via a crafted OLE object in an Office document, as exploited in the wild with a &quot;Sandworm&quot; attack in June through October 2014, aka &quot;Windows OLE Remote Code Execution Vulnerability.&quot;
+## CVE-2019-1181
+ A remote code execution vulnerability exists in Remote Desktop Services &#8364;&#8220; formerly known as Terminal Services &#8364;&#8220; when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1182, CVE-2019-1222, CVE-2019-1226.
 
 - [https://github.com/chefphenix25/vuln-rabilit-windows7](https://github.com/chefphenix25/vuln-rabilit-windows7) :  ![starts](https://img.shields.io/github/stars/chefphenix25/vuln-rabilit-windows7.svg) ![forks](https://img.shields.io/github/forks/chefphenix25/vuln-rabilit-windows7.svg)
 
 
-## CVE-2014-3568
- OpenSSL before 0.9.8zc, 1.0.0 before 1.0.0o, and 1.0.1 before 1.0.1j does not properly enforce the no-ssl3 build option, which allows remote attackers to bypass intended access restrictions via an SSL 3.0 handshake, related to s23_clnt.c and s23_srvr.c.
+## CVE-2017-16894
+ In Laravel framework through 5.5.21, remote attackers can obtain sensitive information (such as externally usable passwords) via a direct request for the /.env URI. NOTE: this CVE is only about Laravel framework's writeNewEnvironmentFileWith function in src/Illuminate/Foundation/Console/KeyGenerateCommand.php, which uses file_put_contents without restricting the .env permissions. The .env filename is not used exclusively by Laravel framework.
 
-- [https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2014-3568](https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2014-3568) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.0.1g_CVE-2014-3568.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.0.1g_CVE-2014-3568.svg)
+- [https://github.com/ibnurusdianto/.env-cve2017](https://github.com/ibnurusdianto/.env-cve2017) :  ![starts](https://img.shields.io/github/stars/ibnurusdianto/.env-cve2017.svg) ![forks](https://img.shields.io/github/forks/ibnurusdianto/.env-cve2017.svg)
 
 
-## CVE-2012-0003
- Unspecified vulnerability in winmm.dll in Windows Multimedia Library in Windows Media Player (WMP) in Microsoft Windows XP SP2 and SP3, Server 2003 SP2, Vista SP2, and Server 2008 SP2 allows remote attackers to execute arbitrary code via a crafted MIDI file, aka &quot;MIDI Remote Code Execution Vulnerability.&quot;
+## CVE-2017-8759
+ Microsoft .NET Framework 2.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2 and 4.7 allow an attacker to execute code remotely via a malicious document or application, aka &quot;.NET Framework Remote Code Execution Vulnerability.&quot;
 
 - [https://github.com/chefphenix25/vuln-rabilit-windows7](https://github.com/chefphenix25/vuln-rabilit-windows7) :  ![starts](https://img.shields.io/github/stars/chefphenix25/vuln-rabilit-windows7.svg) ![forks](https://img.shields.io/github/forks/chefphenix25/vuln-rabilit-windows7.svg)
 
 
-## CVE-2010-3333
- Stack-based buffer overflow in Microsoft Office XP SP3, Office 2003 SP3, Office 2007 SP2, Office 2010, Office 2004 and 2008 for Mac, Office for Mac 2011, and Open XML File Format Converter for Mac allows remote attackers to execute arbitrary code via crafted RTF data, aka &quot;RTF Stack Buffer Overflow Vulnerability.&quot;
+## CVE-2017-0143
+ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka &quot;Windows SMB Remote Code Execution Vulnerability.&quot; This vulnerability is different from those described in CVE-2017-0144, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
 
 - [https://github.com/chefphenix25/vuln-rabilit-windows7](https://github.com/chefphenix25/vuln-rabilit-windows7) :  ![starts](https://img.shields.io/github/stars/chefphenix25/vuln-rabilit-windows7.svg) ![forks](https://img.shields.io/github/forks/chefphenix25/vuln-rabilit-windows7.svg)
 
