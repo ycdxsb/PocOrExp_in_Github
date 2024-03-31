@@ -1876,6 +1876,13 @@
 
 - [https://github.com/OligoCyberSecurity/ShellTorchChecker](https://github.com/OligoCyberSecurity/ShellTorchChecker) :  ![starts](https://img.shields.io/github/stars/OligoCyberSecurity/ShellTorchChecker.svg) ![forks](https://img.shields.io/github/forks/OligoCyberSecurity/ShellTorchChecker.svg)
 
+## CVE-2023-43482
+ A command execution vulnerability exists in the guest resource functionality of Tp-Link ER7206 Omada Gigabit VPN Router 1.3.0 build 20230322 Rel.70591. A specially crafted HTTP request can lead to arbitrary command execution. An attacker can make an authenticated HTTP request to trigger this vulnerability.
+
+
+
+- [https://github.com/Mr-xn/CVE-2023-43482](https://github.com/Mr-xn/CVE-2023-43482) :  ![starts](https://img.shields.io/github/stars/Mr-xn/CVE-2023-43482.svg) ![forks](https://img.shields.io/github/forks/Mr-xn/CVE-2023-43482.svg)
+
 ## CVE-2023-43481
  An issue in Shenzhen TCL Browser TV Web BrowseHere (aka com.tcl.browser) 6.65.022_dab24cc6_231221_gp allows a remote attacker to execute arbitrary JavaScript code via the com.tcl.browser.portal.browse.activity.BrowsePageActivity component.
 
@@ -4009,11 +4016,11 @@
 
 - [https://github.com/emanueldosreis/nmap-CVE-2023-35078-Exploit](https://github.com/emanueldosreis/nmap-CVE-2023-35078-Exploit) :  ![starts](https://img.shields.io/github/stars/emanueldosreis/nmap-CVE-2023-35078-Exploit.svg) ![forks](https://img.shields.io/github/forks/emanueldosreis/nmap-CVE-2023-35078-Exploit.svg)
 
+- [https://github.com/0nsec/CVE-2023-35078](https://github.com/0nsec/CVE-2023-35078) :  ![starts](https://img.shields.io/github/stars/0nsec/CVE-2023-35078.svg) ![forks](https://img.shields.io/github/forks/0nsec/CVE-2023-35078.svg)
+
 - [https://github.com/synfinner/CVE-2023-35078](https://github.com/synfinner/CVE-2023-35078) :  ![starts](https://img.shields.io/github/stars/synfinner/CVE-2023-35078.svg) ![forks](https://img.shields.io/github/forks/synfinner/CVE-2023-35078.svg)
 
 - [https://github.com/Blue-number/CVE-2023-35078](https://github.com/Blue-number/CVE-2023-35078) :  ![starts](https://img.shields.io/github/stars/Blue-number/CVE-2023-35078.svg) ![forks](https://img.shields.io/github/forks/Blue-number/CVE-2023-35078.svg)
-
-- [https://github.com/0nsec/CVE-2023-35078](https://github.com/0nsec/CVE-2023-35078) :  ![starts](https://img.shields.io/github/stars/0nsec/CVE-2023-35078.svg) ![forks](https://img.shields.io/github/forks/0nsec/CVE-2023-35078.svg)
 
 ## CVE-2023-35001
  Linux Kernel nftables Out-Of-Bounds Read/Write Vulnerability; nft_byteorder poorly handled vm register contents when CAP_NET_ADMIN is in any user or network namespace
@@ -4686,7 +4693,7 @@
 
 - [https://github.com/johnlettman/juju-scripts](https://github.com/johnlettman/juju-scripts) :  ![starts](https://img.shields.io/github/stars/johnlettman/juju-scripts.svg) ![forks](https://img.shields.io/github/forks/johnlettman/juju-scripts.svg)
 
-- [https://github.com/vinetsuicide/CVE-2023-2640-CVE-2023-32629](https://github.com/vinetsuicide/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/vinetsuicide/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/vinetsuicide/CVE-2023-2640-CVE-2023-32629.svg)
+- [https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629](https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/musorblyat/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/musorblyat/CVE-2023-2640-CVE-2023-32629.svg)
 
 - [https://github.com/Umutkgz/CVE-2023-32629-CVE-2023-2640-Ubuntu-Privilege-Escalation-POC](https://github.com/Umutkgz/CVE-2023-32629-CVE-2023-2640-Ubuntu-Privilege-Escalation-POC) :  ![starts](https://img.shields.io/github/stars/Umutkgz/CVE-2023-32629-CVE-2023-2640-Ubuntu-Privilege-Escalation-POC.svg) ![forks](https://img.shields.io/github/forks/Umutkgz/CVE-2023-32629-CVE-2023-2640-Ubuntu-Privilege-Escalation-POC.svg)
 
@@ -6471,6 +6478,8 @@
 
 - [https://github.com/former-farmer/CVE-2023-24955-PoC](https://github.com/former-farmer/CVE-2023-24955-PoC) :  ![starts](https://img.shields.io/github/stars/former-farmer/CVE-2023-24955-PoC.svg) ![forks](https://img.shields.io/github/forks/former-farmer/CVE-2023-24955-PoC.svg)
 
+- [https://github.com/AndreOve/CVE-2023-24955-real-RCE](https://github.com/AndreOve/CVE-2023-24955-real-RCE) :  ![starts](https://img.shields.io/github/stars/AndreOve/CVE-2023-24955-real-RCE.svg) ![forks](https://img.shields.io/github/forks/AndreOve/CVE-2023-24955-real-RCE.svg)
+
 ## CVE-2023-24932
  Secure Boot Security Feature Bypass Vulnerability
 
@@ -6865,9 +6874,9 @@
 
 - [https://github.com/im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/im007/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/im007/CVE-2023-23397.svg)
 
-- [https://github.com/alsaeroth/CVE-2023-23397-POC](https://github.com/alsaeroth/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/alsaeroth/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/alsaeroth/CVE-2023-23397-POC.svg)
-
 - [https://github.com/madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report) :  ![starts](https://img.shields.io/github/stars/madelynadams9/CVE-2023-23397-Report.svg) ![forks](https://img.shields.io/github/forks/madelynadams9/CVE-2023-23397-Report.svg)
+
+- [https://github.com/alsaeroth/CVE-2023-23397-POC](https://github.com/alsaeroth/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/alsaeroth/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/alsaeroth/CVE-2023-23397-POC.svg)
 
 - [https://github.com/Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2023-23397-Patch.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2023-23397-Patch.svg)
 
@@ -8227,6 +8236,8 @@
 
 - [https://github.com/4ARMED/cve-2023-5044](https://github.com/4ARMED/cve-2023-5044) :  ![starts](https://img.shields.io/github/stars/4ARMED/cve-2023-5044.svg) ![forks](https://img.shields.io/github/forks/4ARMED/cve-2023-5044.svg)
 
+- [https://github.com/KubernetesBachelor/CVE-2023-5044](https://github.com/KubernetesBachelor/CVE-2023-5044) :  ![starts](https://img.shields.io/github/stars/KubernetesBachelor/CVE-2023-5044.svg) ![forks](https://img.shields.io/github/forks/KubernetesBachelor/CVE-2023-5044.svg)
+
 ## CVE-2023-5043
  Ingress nginx annotation injection causes arbitrary command execution.
 
@@ -8955,7 +8966,7 @@
 
 - [https://github.com/SanjayRagavendar/Ubuntu-GameOver-Lay](https://github.com/SanjayRagavendar/Ubuntu-GameOver-Lay) :  ![starts](https://img.shields.io/github/stars/SanjayRagavendar/Ubuntu-GameOver-Lay.svg) ![forks](https://img.shields.io/github/forks/SanjayRagavendar/Ubuntu-GameOver-Lay.svg)
 
-- [https://github.com/vinetsuicide/CVE-2023-2640-CVE-2023-32629](https://github.com/vinetsuicide/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/vinetsuicide/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/vinetsuicide/CVE-2023-2640-CVE-2023-32629.svg)
+- [https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629](https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/musorblyat/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/musorblyat/CVE-2023-2640-CVE-2023-32629.svg)
 
 - [https://github.com/Umutkgz/CVE-2023-32629-CVE-2023-2640-Ubuntu-Privilege-Escalation-POC](https://github.com/Umutkgz/CVE-2023-32629-CVE-2023-2640-Ubuntu-Privilege-Escalation-POC) :  ![starts](https://img.shields.io/github/stars/Umutkgz/CVE-2023-32629-CVE-2023-2640-Ubuntu-Privilege-Escalation-POC.svg) ![forks](https://img.shields.io/github/forks/Umutkgz/CVE-2023-32629-CVE-2023-2640-Ubuntu-Privilege-Escalation-POC.svg)
 
