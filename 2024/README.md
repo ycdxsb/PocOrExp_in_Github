@@ -96,6 +96,13 @@
 
 - [https://github.com/yashpatelphd/CVE-2024-29439](https://github.com/yashpatelphd/CVE-2024-29439) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29439.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29439.svg)
 
+## CVE-2024-29375
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/c0rvane/CVE-2024-29375](https://github.com/c0rvane/CVE-2024-29375) :  ![starts](https://img.shields.io/github/stars/c0rvane/CVE-2024-29375.svg) ![forks](https://img.shields.io/github/forks/c0rvane/CVE-2024-29375.svg)
+
 ## CVE-2024-29278
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -282,13 +289,6 @@
 
 
 - [https://github.com/TronciuVlad/CVE-2024-26475](https://github.com/TronciuVlad/CVE-2024-26475) :  ![starts](https://img.shields.io/github/stars/TronciuVlad/CVE-2024-26475.svg) ![forks](https://img.shields.io/github/forks/TronciuVlad/CVE-2024-26475.svg)
-
-## CVE-2024-26198
- Microsoft Exchange Server Remote Code Execution Vulnerability
-
-
-
-- [https://github.com/MrCyberSec/CVE-2024-26198-Exchange-RCE](https://github.com/MrCyberSec/CVE-2024-26198-Exchange-RCE) :  ![starts](https://img.shields.io/github/stars/MrCyberSec/CVE-2024-26198-Exchange-RCE.svg) ![forks](https://img.shields.io/github/forks/MrCyberSec/CVE-2024-26198-Exchange-RCE.svg)
 
 ## CVE-2024-25832
  F-logic DataCube3 v1.0 is vulnerable to unrestricted file upload, which could allow an authenticated malicious actor to upload a file of dangerous type by manipulating the filename extension.
@@ -1270,11 +1270,7 @@
 
 - [https://github.com/h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/h4x0r-dz/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/h4x0r-dz/CVE-2024-21762.svg)
 
-- [https://github.com/MrCyberSec/CVE-2024-21762-Fortinet-RCE-ALLWORK](https://github.com/MrCyberSec/CVE-2024-21762-Fortinet-RCE-ALLWORK) :  ![starts](https://img.shields.io/github/stars/MrCyberSec/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg) ![forks](https://img.shields.io/github/forks/MrCyberSec/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg)
-
 - [https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check) :  ![starts](https://img.shields.io/github/stars/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg) ![forks](https://img.shields.io/github/forks/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg)
-
-- [https://github.com/S0SkiPlosK1/CVE-2024-21762-POC](https://github.com/S0SkiPlosK1/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/S0SkiPlosK1/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/S0SkiPlosK1/CVE-2024-21762-POC.svg)
 
 - [https://github.com/d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21762.svg)
 
@@ -1282,11 +1278,7 @@
 
 - [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)
 
-- [https://github.com/Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/Gh71m/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/Gh71m/CVE-2024-21762-POC.svg)
-
 - [https://github.com/redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/redCode001/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/redCode001/CVE-2024-21762-POC.svg)
-
-- [https://github.com/t4ril/CVE-2024-21762-PoC](https://github.com/t4ril/CVE-2024-21762-PoC) :  ![starts](https://img.shields.io/github/stars/t4ril/CVE-2024-21762-PoC.svg) ![forks](https://img.shields.io/github/forks/t4ril/CVE-2024-21762-PoC.svg)
 
 ## CVE-2024-21644
  pyLoad is the free and open-source Download Manager written in pure Python. Any unauthenticated user can browse to a specific URL to expose the Flask config, including the `SECRET_KEY` variable. This issue has been patched in version 0.5.0b3.dev77.
@@ -1482,6 +1474,13 @@
 
 
 - [https://github.com/douglasbuzatto/G3-Loop-DoS](https://github.com/douglasbuzatto/G3-Loop-DoS) :  ![starts](https://img.shields.io/github/stars/douglasbuzatto/G3-Loop-DoS.svg) ![forks](https://img.shields.io/github/forks/douglasbuzatto/G3-Loop-DoS.svg)
+
+## CVE-2024-2086
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE](https://github.com/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE) :  ![starts](https://img.shields.io/github/stars/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE.svg) ![forks](https://img.shields.io/github/forks/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE.svg)
 
 ## CVE-2024-2074
  A vulnerability was found in Mini-Tmall up to 20231017 and classified as critical. This issue affects some unknown processing of the file ?r=tmall/admin/user/1/1. The manipulation of the argument orderBy leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-255389 was assigned to this vulnerability.
