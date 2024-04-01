@@ -1,54 +1,54 @@
-# Update 2024-03-31
-## CVE-2024-29278
+# Update 2024-04-01
+## CVE-2024-29375
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/QDming/cve](https://github.com/QDming/cve) :  ![starts](https://img.shields.io/github/stars/QDming/cve.svg) ![forks](https://img.shields.io/github/forks/QDming/cve.svg)
+- [https://github.com/c0rvane/CVE-2024-29375](https://github.com/c0rvane/CVE-2024-29375) :  ![starts](https://img.shields.io/github/stars/c0rvane/CVE-2024-29375.svg) ![forks](https://img.shields.io/github/forks/c0rvane/CVE-2024-29375.svg)
 
 
-## CVE-2024-21644
- pyLoad is the free and open-source Download Manager written in pure Python. Any unauthenticated user can browse to a specific URL to expose the Flask config, including the `SECRET_KEY` variable. This issue has been patched in version 0.5.0b3.dev77.
+## CVE-2024-2086
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/ltranquility/CVE-2024-21644-Poc](https://github.com/ltranquility/CVE-2024-21644-Poc) :  ![starts](https://img.shields.io/github/stars/ltranquility/CVE-2024-21644-Poc.svg) ![forks](https://img.shields.io/github/forks/ltranquility/CVE-2024-21644-Poc.svg)
-
-
-## CVE-2024-1698
- The NotificationX &#8211; Best FOMO, Social Proof, WooCommerce Sales Popup &amp; Notification Bar Plugin With Elementor plugin for WordPress is vulnerable to SQL Injection via the 'type' parameter in all versions up to, and including, 2.8.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
-
-- [https://github.com/kamranhasan/CVE-2024-1698-Exploit](https://github.com/kamranhasan/CVE-2024-1698-Exploit) :  ![starts](https://img.shields.io/github/stars/kamranhasan/CVE-2024-1698-Exploit.svg) ![forks](https://img.shields.io/github/forks/kamranhasan/CVE-2024-1698-Exploit.svg)
+- [https://github.com/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE](https://github.com/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE) :  ![starts](https://img.shields.io/github/stars/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE.svg) ![forks](https://img.shields.io/github/forks/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE.svg)
 
 
-## CVE-2024-0582
- A memory leak flaw was found in the Linux kernel&#8217;s io_uring functionality in how a user registers a buffer ring with IORING_REGISTER_PBUF_RING, mmap() it, and then frees it. This flaw allows a local user to crash or potentially escalate their privileges on the system.
+## CVE-2023-43482
+ A command execution vulnerability exists in the guest resource functionality of Tp-Link ER7206 Omada Gigabit VPN Router 1.3.0 build 20230322 Rel.70591. A specially crafted HTTP request can lead to arbitrary command execution. An attacker can make an authenticated HTTP request to trigger this vulnerability.
 
-- [https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582](https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582) :  ![starts](https://img.shields.io/github/stars/ysanatomic/io_uring_LPE-CVE-2024-0582.svg) ![forks](https://img.shields.io/github/forks/ysanatomic/io_uring_LPE-CVE-2024-0582.svg)
-
-
-## CVE-2023-48022
- ** DISPUTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment
-
-- [https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022](https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022) :  ![starts](https://img.shields.io/github/stars/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg) ![forks](https://img.shields.io/github/forks/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022.svg)
+- [https://github.com/Mr-xn/CVE-2023-43482](https://github.com/Mr-xn/CVE-2023-43482) :  ![starts](https://img.shields.io/github/stars/Mr-xn/CVE-2023-43482.svg) ![forks](https://img.shields.io/github/forks/Mr-xn/CVE-2023-43482.svg)
 
 
-## CVE-2023-35078
- An authentication bypass vulnerability in Ivanti EPMM allows unauthorized users to access restricted functionality or resources of the application without proper authentication.
+## CVE-2023-32629
+ Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels
 
-- [https://github.com/0nsec/CVE-2023-35078](https://github.com/0nsec/CVE-2023-35078) :  ![starts](https://img.shields.io/github/stars/0nsec/CVE-2023-35078.svg) ![forks](https://img.shields.io/github/forks/0nsec/CVE-2023-35078.svg)
-
-
-## CVE-2021-45232
- In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks and introduces framework `droplet` on the basis of framework `gin`, all APIs and authentication middleware are developed based on framework `droplet`, but some API directly use the interface of framework `gin` thus bypassing the authentication.
-
-- [https://github.com/xiju2003/-cve-2021-45232](https://github.com/xiju2003/-cve-2021-45232) :  ![starts](https://img.shields.io/github/stars/xiju2003/-cve-2021-45232.svg) ![forks](https://img.shields.io/github/forks/xiju2003/-cve-2021-45232.svg)
+- [https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629](https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/musorblyat/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/musorblyat/CVE-2023-2640-CVE-2023-32629.svg)
 
 
-## CVE-2017-9757
- IPFire 2.19 has a Remote Command Injection vulnerability in ids.cgi via the OINKCODE parameter, which is mishandled by a shell. This can be exploited directly by authenticated users, or through CSRF.
+## CVE-2023-24955
+ Microsoft SharePoint Server Remote Code Execution Vulnerability
 
-- [https://github.com/peterleiva/CVE-2017-9757](https://github.com/peterleiva/CVE-2017-9757) :  ![starts](https://img.shields.io/github/stars/peterleiva/CVE-2017-9757.svg) ![forks](https://img.shields.io/github/forks/peterleiva/CVE-2017-9757.svg)
+- [https://github.com/AndreOve/CVE-2023-24955-real-RCE](https://github.com/AndreOve/CVE-2023-24955-real-RCE) :  ![starts](https://img.shields.io/github/stars/AndreOve/CVE-2023-24955-real-RCE.svg) ![forks](https://img.shields.io/github/forks/AndreOve/CVE-2023-24955-real-RCE.svg)
 
 
-## CVE-2016-5195
- Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allows local users to gain privileges by leveraging incorrect handling of a copy-on-write (COW) feature to write to a read-only memory mapping, as exploited in the wild in October 2016, aka &quot;Dirty COW.&quot;
+## CVE-2023-5044
+ Code injection via nginx.ingress.kubernetes.io/permanent-redirect annotation.
 
-- [https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB](https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB) :  ![starts](https://img.shields.io/github/stars/sakilahamed/Linux-Kernel-Exploit-LAB.svg) ![forks](https://img.shields.io/github/forks/sakilahamed/Linux-Kernel-Exploit-LAB.svg)
+- [https://github.com/KubernetesBachelor/CVE-2023-5044](https://github.com/KubernetesBachelor/CVE-2023-5044) :  ![starts](https://img.shields.io/github/stars/KubernetesBachelor/CVE-2023-5044.svg) ![forks](https://img.shields.io/github/forks/KubernetesBachelor/CVE-2023-5044.svg)
+
+
+## CVE-2023-2640
+ On Ubuntu kernels carrying both c914c0e27eb0 and &quot;UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs&quot;, an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.
+
+- [https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629](https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/musorblyat/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/musorblyat/CVE-2023-2640-CVE-2023-32629.svg)
+
+
+## CVE-2021-31630
+ Command Injection in Open PLC Webserver v3 allows remote attackers to execute arbitrary code via the &quot;Hardware Layer Code Box&quot; component on the &quot;/hardware&quot; page of the application.
+
+- [https://github.com/UserB1ank/CVE-2021-31630](https://github.com/UserB1ank/CVE-2021-31630) :  ![starts](https://img.shields.io/github/stars/UserB1ank/CVE-2021-31630.svg) ![forks](https://img.shields.io/github/forks/UserB1ank/CVE-2021-31630.svg)
+
+
+## CVE-2017-0785
+ A information disclosure vulnerability in the Android system (bluetooth). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2, 8.0. Android ID: A-63146698.
+
+- [https://github.com/MasterCode112/Upgraded_BlueBourne-CVE-2017-0785-](https://github.com/MasterCode112/Upgraded_BlueBourne-CVE-2017-0785-) :  ![starts](https://img.shields.io/github/stars/MasterCode112/Upgraded_BlueBourne-CVE-2017-0785-.svg) ![forks](https://img.shields.io/github/forks/MasterCode112/Upgraded_BlueBourne-CVE-2017-0785-.svg)
 
