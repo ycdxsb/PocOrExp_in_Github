@@ -305,9 +305,9 @@
 
 - [https://github.com/Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2014-6271.svg)
 
-- [https://github.com/ryeyao/CVE-2014-6271_Test](https://github.com/ryeyao/CVE-2014-6271_Test) :  ![starts](https://img.shields.io/github/stars/ryeyao/CVE-2014-6271_Test.svg) ![forks](https://img.shields.io/github/forks/ryeyao/CVE-2014-6271_Test.svg)
-
 - [https://github.com/MY7H404/CVE-2014-6271-Shellshock](https://github.com/MY7H404/CVE-2014-6271-Shellshock) :  ![starts](https://img.shields.io/github/stars/MY7H404/CVE-2014-6271-Shellshock.svg) ![forks](https://img.shields.io/github/forks/MY7H404/CVE-2014-6271-Shellshock.svg)
+
+- [https://github.com/ryeyao/CVE-2014-6271_Test](https://github.com/ryeyao/CVE-2014-6271_Test) :  ![starts](https://img.shields.io/github/stars/ryeyao/CVE-2014-6271_Test.svg) ![forks](https://img.shields.io/github/forks/ryeyao/CVE-2014-6271_Test.svg)
 
 - [https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian) :  ![starts](https://img.shields.io/github/stars/mochizuki875/CVE-2014-6271-Apache-Debian.svg) ![forks](https://img.shields.io/github/forks/mochizuki875/CVE-2014-6271-Apache-Debian.svg)
 
@@ -341,11 +341,11 @@
 
 - [https://github.com/AlissoftCodes/Shellshock](https://github.com/AlissoftCodes/Shellshock) :  ![starts](https://img.shields.io/github/stars/AlissoftCodes/Shellshock.svg) ![forks](https://img.shields.io/github/forks/AlissoftCodes/Shellshock.svg)
 
-- [https://github.com/hackintoanetwork/shellshock](https://github.com/hackintoanetwork/shellshock) :  ![starts](https://img.shields.io/github/stars/hackintoanetwork/shellshock.svg) ![forks](https://img.shields.io/github/forks/hackintoanetwork/shellshock.svg)
-
 - [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
 
 - [https://github.com/0xConstant/CVE-2014-6271](https://github.com/0xConstant/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/0xConstant/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/0xConstant/CVE-2014-6271.svg)
+
+- [https://github.com/hackintoanetwork/shellshock](https://github.com/hackintoanetwork/shellshock) :  ![starts](https://img.shields.io/github/stars/hackintoanetwork/shellshock.svg) ![forks](https://img.shields.io/github/forks/hackintoanetwork/shellshock.svg)
 
 - [https://github.com/mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2014-6271.svg)
 
@@ -671,13 +671,6 @@
 
 
 - [https://github.com/aforesaid/MoodleHack](https://github.com/aforesaid/MoodleHack) :  ![starts](https://img.shields.io/github/stars/aforesaid/MoodleHack.svg) ![forks](https://img.shields.io/github/forks/aforesaid/MoodleHack.svg)
-
-## CVE-2014-3508
- The OBJ_obj2txt function in crypto/objects/obj_dat.c in OpenSSL 0.9.8 before 0.9.8zb, 1.0.0 before 1.0.0n, and 1.0.1 before 1.0.1i, when pretty printing is used, does not ensure the presence of '\0' characters, which allows context-dependent attackers to obtain sensitive information from process stack memory by reading output from X509_name_oneline, X509_name_print_ex, and unspecified other functions.
-
-
-
-- [https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2014-3508](https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2014-3508) :  ![starts](https://img.shields.io/github/stars/hshivhare67/OpenSSL_1.0.1g_CVE-2014-3508.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/OpenSSL_1.0.1g_CVE-2014-3508.svg)
 
 ## CVE-2014-3507
  Memory leak in d1_both.c in the DTLS implementation in OpenSSL 0.9.8 before 0.9.8zb, 1.0.0 before 1.0.0n, and 1.0.1 before 1.0.1i allows remote attackers to cause a denial of service (memory consumption) via zero-length DTLS fragments that trigger improper handling of the return value of a certain insert function.
