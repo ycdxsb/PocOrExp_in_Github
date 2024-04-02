@@ -1,54 +1,30 @@
-# Update 2024-04-01
-## CVE-2024-29375
+# Update 2024-04-02
+## CVE-2024-28247
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/c0rvane/CVE-2024-29375](https://github.com/c0rvane/CVE-2024-29375) :  ![starts](https://img.shields.io/github/stars/c0rvane/CVE-2024-29375.svg) ![forks](https://img.shields.io/github/forks/c0rvane/CVE-2024-29375.svg)
+- [https://github.com/T0X1Cx/CVE-2024-28247-Pi-hole-Arbitrary-File-Read](https://github.com/T0X1Cx/CVE-2024-28247-Pi-hole-Arbitrary-File-Read) :  ![starts](https://img.shields.io/github/stars/T0X1Cx/CVE-2024-28247-Pi-hole-Arbitrary-File-Read.svg) ![forks](https://img.shields.io/github/forks/T0X1Cx/CVE-2024-28247-Pi-hole-Arbitrary-File-Read.svg)
 
 
-## CVE-2024-2086
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2024-21412
+ Internet Shortcut Files Security Feature Bypass Vulnerability
 
-- [https://github.com/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE](https://github.com/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE) :  ![starts](https://img.shields.io/github/stars/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE.svg) ![forks](https://img.shields.io/github/forks/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE.svg)
-
-
-## CVE-2023-43482
- A command execution vulnerability exists in the guest resource functionality of Tp-Link ER7206 Omada Gigabit VPN Router 1.3.0 build 20230322 Rel.70591. A specially crafted HTTP request can lead to arbitrary command execution. An attacker can make an authenticated HTTP request to trigger this vulnerability.
-
-- [https://github.com/Mr-xn/CVE-2023-43482](https://github.com/Mr-xn/CVE-2023-43482) :  ![starts](https://img.shields.io/github/stars/Mr-xn/CVE-2023-43482.svg) ![forks](https://img.shields.io/github/forks/Mr-xn/CVE-2023-43482.svg)
+- [https://github.com/lsr00ter/CVE-2024-21412_Water-Hydra](https://github.com/lsr00ter/CVE-2024-21412_Water-Hydra) :  ![starts](https://img.shields.io/github/stars/lsr00ter/CVE-2024-21412_Water-Hydra.svg) ![forks](https://img.shields.io/github/forks/lsr00ter/CVE-2024-21412_Water-Hydra.svg)
 
 
-## CVE-2023-32629
- Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels
+## CVE-2023-32233
+ In the Linux kernel through 6.3.1, a use-after-free in Netfilter nf_tables when processing batch requests can be abused to perform arbitrary read and write operations on kernel memory. Unprivileged local users can obtain root privileges. This occurs because anonymous sets are mishandled.
 
-- [https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629](https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/musorblyat/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/musorblyat/CVE-2023-2640-CVE-2023-32629.svg)
-
-
-## CVE-2023-24955
- Microsoft SharePoint Server Remote Code Execution Vulnerability
-
-- [https://github.com/AndreOve/CVE-2023-24955-real-RCE](https://github.com/AndreOve/CVE-2023-24955-real-RCE) :  ![starts](https://img.shields.io/github/stars/AndreOve/CVE-2023-24955-real-RCE.svg) ![forks](https://img.shields.io/github/forks/AndreOve/CVE-2023-24955-real-RCE.svg)
+- [https://github.com/void0red/CVE-2023-32233](https://github.com/void0red/CVE-2023-32233) :  ![starts](https://img.shields.io/github/stars/void0red/CVE-2023-32233.svg) ![forks](https://img.shields.io/github/forks/void0red/CVE-2023-32233.svg)
 
 
-## CVE-2023-5044
- Code injection via nginx.ingress.kubernetes.io/permanent-redirect annotation.
+## CVE-2018-10933
+ A vulnerability was found in libssh's server-side state machine before versions 0.7.6 and 0.8.4. A malicious client could create channels without first performing authentication, resulting in unauthorized access.
 
-- [https://github.com/KubernetesBachelor/CVE-2023-5044](https://github.com/KubernetesBachelor/CVE-2023-5044) :  ![starts](https://img.shields.io/github/stars/KubernetesBachelor/CVE-2023-5044.svg) ![forks](https://img.shields.io/github/forks/KubernetesBachelor/CVE-2023-5044.svg)
-
-
-## CVE-2023-2640
- On Ubuntu kernels carrying both c914c0e27eb0 and &quot;UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs&quot;, an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.
-
-- [https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629](https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629) :  ![starts](https://img.shields.io/github/stars/musorblyat/CVE-2023-2640-CVE-2023-32629.svg) ![forks](https://img.shields.io/github/forks/musorblyat/CVE-2023-2640-CVE-2023-32629.svg)
+- [https://github.com/HSw109/CVE-2018-10933-PoC](https://github.com/HSw109/CVE-2018-10933-PoC) :  ![starts](https://img.shields.io/github/stars/HSw109/CVE-2018-10933-PoC.svg) ![forks](https://img.shields.io/github/forks/HSw109/CVE-2018-10933-PoC.svg)
 
 
-## CVE-2021-31630
- Command Injection in Open PLC Webserver v3 allows remote attackers to execute arbitrary code via the &quot;Hardware Layer Code Box&quot; component on the &quot;/hardware&quot; page of the application.
+## CVE-2016-0705
+ Double free vulnerability in the dsa_priv_decode function in crypto/dsa/dsa_ameth.c in OpenSSL 1.0.1 before 1.0.1s and 1.0.2 before 1.0.2g allows remote attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via a malformed DSA private key.
 
-- [https://github.com/UserB1ank/CVE-2021-31630](https://github.com/UserB1ank/CVE-2021-31630) :  ![starts](https://img.shields.io/github/stars/UserB1ank/CVE-2021-31630.svg) ![forks](https://img.shields.io/github/forks/UserB1ank/CVE-2021-31630.svg)
-
-
-## CVE-2017-0785
- A information disclosure vulnerability in the Android system (bluetooth). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2, 8.0. Android ID: A-63146698.
-
-- [https://github.com/MasterCode112/Upgraded_BlueBourne-CVE-2017-0785-](https://github.com/MasterCode112/Upgraded_BlueBourne-CVE-2017-0785-) :  ![starts](https://img.shields.io/github/stars/MasterCode112/Upgraded_BlueBourne-CVE-2017-0785-.svg) ![forks](https://img.shields.io/github/forks/MasterCode112/Upgraded_BlueBourne-CVE-2017-0785-.svg)
+- [https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705](https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705) :  ![starts](https://img.shields.io/github/stars/hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705.svg)
 
