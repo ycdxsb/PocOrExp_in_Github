@@ -101,7 +101,7 @@
 
 
 
-- [https://github.com/c0rvane/CVE-2024-29375](https://github.com/c0rvane/CVE-2024-29375) :  ![starts](https://img.shields.io/github/stars/c0rvane/CVE-2024-29375.svg) ![forks](https://img.shields.io/github/forks/c0rvane/CVE-2024-29375.svg)
+- [https://github.com/ismailcemunver/CVE-2024-29375](https://github.com/ismailcemunver/CVE-2024-29375) :  ![starts](https://img.shields.io/github/stars/ismailcemunver/CVE-2024-29375.svg) ![forks](https://img.shields.io/github/forks/ismailcemunver/CVE-2024-29375.svg)
 
 ## CVE-2024-29278
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -158,6 +158,13 @@
 
 
 - [https://github.com/Lq0ne/CVE-2024-28715](https://github.com/Lq0ne/CVE-2024-28715) :  ![starts](https://img.shields.io/github/stars/Lq0ne/CVE-2024-28715.svg) ![forks](https://img.shields.io/github/forks/Lq0ne/CVE-2024-28715.svg)
+
+## CVE-2024-28589
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/Alaatk/CVE-2024-28589](https://github.com/Alaatk/CVE-2024-28589) :  ![starts](https://img.shields.io/github/stars/Alaatk/CVE-2024-28589.svg) ![forks](https://img.shields.io/github/forks/Alaatk/CVE-2024-28589.svg)
 
 ## CVE-2024-28515
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -222,6 +229,20 @@
 
 - [https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697) :  ![starts](https://img.shields.io/github/stars/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697.svg) ![forks](https://img.shields.io/github/forks/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697.svg)
 
+## CVE-2024-27674
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/Alaatk/CVE-2024-27674](https://github.com/Alaatk/CVE-2024-27674) :  ![starts](https://img.shields.io/github/stars/Alaatk/CVE-2024-27674.svg) ![forks](https://img.shields.io/github/forks/Alaatk/CVE-2024-27674.svg)
+
+## CVE-2024-27673
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/Alaatk/CVE-2024-27673](https://github.com/Alaatk/CVE-2024-27673) :  ![starts](https://img.shields.io/github/stars/Alaatk/CVE-2024-27673.svg) ![forks](https://img.shields.io/github/forks/Alaatk/CVE-2024-27673.svg)
+
 ## CVE-2024-27665
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -235,6 +256,13 @@
 
 
 - [https://github.com/ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos) :  ![starts](https://img.shields.io/github/stars/ioprojecton/dir-3040_dos.svg) ![forks](https://img.shields.io/github/forks/ioprojecton/dir-3040_dos.svg)
+
+## CVE-2024-27518
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/secunnix/CVE-2024-27518](https://github.com/secunnix/CVE-2024-27518) :  ![starts](https://img.shields.io/github/stars/secunnix/CVE-2024-27518.svg) ![forks](https://img.shields.io/github/forks/secunnix/CVE-2024-27518.svg)
 
 ## CVE-2024-27199
  In JetBrains TeamCity before 2023.11.4 path traversal allowing to perform limited admin actions was possible
@@ -307,6 +335,13 @@
 
 
 - [https://github.com/TronciuVlad/CVE-2024-26475](https://github.com/TronciuVlad/CVE-2024-26475) :  ![starts](https://img.shields.io/github/stars/TronciuVlad/CVE-2024-26475.svg) ![forks](https://img.shields.io/github/forks/TronciuVlad/CVE-2024-26475.svg)
+
+## CVE-2024-26198
+ Microsoft Exchange Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/babywalkerenc/CVE-2024-26198-POC](https://github.com/babywalkerenc/CVE-2024-26198-POC) :  ![starts](https://img.shields.io/github/stars/babywalkerenc/CVE-2024-26198-POC.svg) ![forks](https://img.shields.io/github/forks/babywalkerenc/CVE-2024-26198-POC.svg)
 
 ## CVE-2024-25832
  F-logic DataCube3 v1.0 is vulnerable to unrestricted file upload, which could allow an authenticated malicious actor to upload a file of dangerous type by manipulating the filename extension.
@@ -843,9 +878,9 @@
 
 - [https://github.com/jenkinsci-cert/SECURITY-3314-3315](https://github.com/jenkinsci-cert/SECURITY-3314-3315) :  ![starts](https://img.shields.io/github/stars/jenkinsci-cert/SECURITY-3314-3315.svg) ![forks](https://img.shields.io/github/forks/jenkinsci-cert/SECURITY-3314-3315.svg)
 
-- [https://github.com/viszsec/CVE-2024-23897](https://github.com/viszsec/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/viszsec/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/viszsec/CVE-2024-23897.svg)
-
 - [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
+
+- [https://github.com/viszsec/CVE-2024-23897](https://github.com/viszsec/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/viszsec/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/viszsec/CVE-2024-23897.svg)
 
 - [https://github.com/yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2024-23897.svg)
 
@@ -1319,6 +1354,8 @@
 
 - [https://github.com/redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/redCode001/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/redCode001/CVE-2024-21762-POC.svg)
 
+- [https://github.com/lore-is-already-taken/multicheck_CVE-2024-21762](https://github.com/lore-is-already-taken/multicheck_CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/lore-is-already-taken/multicheck_CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/lore-is-already-taken/multicheck_CVE-2024-21762.svg)
+
 ## CVE-2024-21644
  pyLoad is the free and open-source Download Manager written in pure Python. Any unauthenticated user can browse to a specific URL to expose the Flask config, including the `SECRET_KEY` variable. This issue has been patched in version 0.5.0b3.dev77.
 
@@ -1355,6 +1392,8 @@
 - [https://github.com/zpxlz/CVE-2024-21626-POC](https://github.com/zpxlz/CVE-2024-21626-POC) :  ![starts](https://img.shields.io/github/stars/zpxlz/CVE-2024-21626-POC.svg) ![forks](https://img.shields.io/github/forks/zpxlz/CVE-2024-21626-POC.svg)
 
 - [https://github.com/abian2/CVE-2024-21626](https://github.com/abian2/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/abian2/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/abian2/CVE-2024-21626.svg)
+
+- [https://github.com/KubernetesBachelor/CVE-2024-21626](https://github.com/KubernetesBachelor/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/KubernetesBachelor/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/KubernetesBachelor/CVE-2024-21626.svg)
 
 ## CVE-2024-21413
  Microsoft Outlook Remote Code Execution Vulnerability
@@ -1681,6 +1720,8 @@
 
 
 - [https://github.com/Notselwyn/CVE-2024-1086](https://github.com/Notselwyn/CVE-2024-1086) :  ![starts](https://img.shields.io/github/stars/Notselwyn/CVE-2024-1086.svg) ![forks](https://img.shields.io/github/forks/Notselwyn/CVE-2024-1086.svg)
+
+- [https://github.com/Alicey0719/docker-POC_CVE-2024-1086](https://github.com/Alicey0719/docker-POC_CVE-2024-1086) :  ![starts](https://img.shields.io/github/stars/Alicey0719/docker-POC_CVE-2024-1086.svg) ![forks](https://img.shields.io/github/forks/Alicey0719/docker-POC_CVE-2024-1086.svg)
 
 ## CVE-2024-1071
  The Ultimate Member &#8211; User Profile, Registration, Login, Member Directory, Content Restriction &amp; Membership Plugin plugin for WordPress is vulnerable to SQL Injection via the 'sorting' parameter in versions 2.1.3 to 2.8.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
