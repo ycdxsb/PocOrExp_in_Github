@@ -124,6 +124,13 @@
 
 - [https://github.com/wutalent/CVE-2024-29269](https://github.com/wutalent/CVE-2024-29269) :  ![starts](https://img.shields.io/github/stars/wutalent/CVE-2024-29269.svg) ![forks](https://img.shields.io/github/forks/wutalent/CVE-2024-29269.svg)
 
+## CVE-2024-29201
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/chokopikk/CVE-2024-29201-POC](https://github.com/chokopikk/CVE-2024-29201-POC) :  ![starts](https://img.shields.io/github/stars/chokopikk/CVE-2024-29201-POC.svg) ![forks](https://img.shields.io/github/forks/chokopikk/CVE-2024-29201-POC.svg)
+
 ## CVE-2024-29197
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -412,6 +419,13 @@
 
 
 - [https://github.com/david-botelho-mariano/exploit-CVE-2024-25723](https://github.com/david-botelho-mariano/exploit-CVE-2024-25723) :  ![starts](https://img.shields.io/github/stars/david-botelho-mariano/exploit-CVE-2024-25723.svg) ![forks](https://img.shields.io/github/forks/david-botelho-mariano/exploit-CVE-2024-25723.svg)
+
+## CVE-2024-25693
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/MrCyb3rSec/CVE-2024-25693-exploit](https://github.com/MrCyb3rSec/CVE-2024-25693-exploit) :  ![starts](https://img.shields.io/github/stars/MrCyb3rSec/CVE-2024-25693-exploit.svg) ![forks](https://img.shields.io/github/forks/MrCyb3rSec/CVE-2024-25693-exploit.svg)
 
 ## CVE-2024-25600
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -891,9 +905,9 @@
 
 - [https://github.com/kaanatmacaa/CVE-2024-23897](https://github.com/kaanatmacaa/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/kaanatmacaa/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/kaanatmacaa/CVE-2024-23897.svg)
 
-- [https://github.com/Vozec/CVE-2024-23897](https://github.com/Vozec/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Vozec/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Vozec/CVE-2024-23897.svg)
-
 - [https://github.com/CKevens/CVE-2024-23897](https://github.com/CKevens/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2024-23897.svg)
+
+- [https://github.com/Vozec/CVE-2024-23897](https://github.com/Vozec/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Vozec/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Vozec/CVE-2024-23897.svg)
 
 - [https://github.com/10T4/PoC-Fix-jenkins-rce_CVE-2024-23897](https://github.com/10T4/PoC-Fix-jenkins-rce_CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/10T4/PoC-Fix-jenkins-rce_CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/10T4/PoC-Fix-jenkins-rce_CVE-2024-23897.svg)
 
@@ -1375,7 +1389,7 @@
 
 - [https://github.com/redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/redCode001/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/redCode001/CVE-2024-21762-POC.svg)
 
-- [https://github.com/lore-is-already-taken/multicheck_CVE-2024-21762](https://github.com/lore-is-already-taken/multicheck_CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/lore-is-already-taken/multicheck_CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/lore-is-already-taken/multicheck_CVE-2024-21762.svg)
+- [https://github.com/lolminerxmrig/multicheck_CVE-2024-21762](https://github.com/lolminerxmrig/multicheck_CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/lolminerxmrig/multicheck_CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/lolminerxmrig/multicheck_CVE-2024-21762.svg)
 
 ## CVE-2024-21644
  pyLoad is the free and open-source Download Manager written in pure Python. Any unauthenticated user can browse to a specific URL to expose the Flask config, including the `SECRET_KEY` variable. This issue has been patched in version 0.5.0b3.dev77.
@@ -1812,6 +1826,10 @@
 
 
 - [https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582](https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582) :  ![starts](https://img.shields.io/github/stars/ysanatomic/io_uring_LPE-CVE-2024-0582.svg) ![forks](https://img.shields.io/github/forks/ysanatomic/io_uring_LPE-CVE-2024-0582.svg)
+
+- [https://github.com/FoxyProxys/CVE-2024-0582](https://github.com/FoxyProxys/CVE-2024-0582) :  ![starts](https://img.shields.io/github/stars/FoxyProxys/CVE-2024-0582.svg) ![forks](https://img.shields.io/github/forks/FoxyProxys/CVE-2024-0582.svg)
+
+- [https://github.com/Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582) :  ![starts](https://img.shields.io/github/stars/Forsaken0129/CVE-2024-0582.svg) ![forks](https://img.shields.io/github/forks/Forsaken0129/CVE-2024-0582.svg)
 
 ## CVE-2024-0519
  Out of bounds memory access in V8 in Google Chrome prior to 120.0.6099.224 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
