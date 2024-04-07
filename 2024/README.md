@@ -124,13 +124,6 @@
 
 - [https://github.com/wutalent/CVE-2024-29269](https://github.com/wutalent/CVE-2024-29269) :  ![starts](https://img.shields.io/github/stars/wutalent/CVE-2024-29269.svg) ![forks](https://img.shields.io/github/forks/wutalent/CVE-2024-29269.svg)
 
-## CVE-2024-29201
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/chokopikk/CVE-2024-29201-POC](https://github.com/chokopikk/CVE-2024-29201-POC) :  ![starts](https://img.shields.io/github/stars/chokopikk/CVE-2024-29201-POC.svg) ![forks](https://img.shields.io/github/forks/chokopikk/CVE-2024-29201-POC.svg)
-
 ## CVE-2024-29197
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -250,6 +243,27 @@
 
 - [https://github.com/Thirukrishnan/CVE-2024-27665](https://github.com/Thirukrishnan/CVE-2024-27665) :  ![starts](https://img.shields.io/github/stars/Thirukrishnan/CVE-2024-27665.svg) ![forks](https://img.shields.io/github/forks/Thirukrishnan/CVE-2024-27665.svg)
 
+## CVE-2024-27632
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ally-petitt/CVE-2024-27632](https://github.com/ally-petitt/CVE-2024-27632) :  ![starts](https://img.shields.io/github/stars/ally-petitt/CVE-2024-27632.svg) ![forks](https://img.shields.io/github/forks/ally-petitt/CVE-2024-27632.svg)
+
+## CVE-2024-27631
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ally-petitt/CVE-2024-27631](https://github.com/ally-petitt/CVE-2024-27631) :  ![starts](https://img.shields.io/github/stars/ally-petitt/CVE-2024-27631.svg) ![forks](https://img.shields.io/github/forks/ally-petitt/CVE-2024-27631.svg)
+
+## CVE-2024-27630
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ally-petitt/CVE-2024-27630](https://github.com/ally-petitt/CVE-2024-27630) :  ![starts](https://img.shields.io/github/stars/ally-petitt/CVE-2024-27630.svg) ![forks](https://img.shields.io/github/forks/ally-petitt/CVE-2024-27630.svg)
+
 ## CVE-2024-27619
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -314,13 +328,6 @@
 - [https://github.com/passwa11/CVE-2024-27198-RCE](https://github.com/passwa11/CVE-2024-27198-RCE) :  ![starts](https://img.shields.io/github/stars/passwa11/CVE-2024-27198-RCE.svg) ![forks](https://img.shields.io/github/forks/passwa11/CVE-2024-27198-RCE.svg)
 
 - [https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-](https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-) :  ![starts](https://img.shields.io/github/stars/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-.svg) ![forks](https://img.shields.io/github/forks/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-.svg)
-
-## CVE-2024-27191
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/somecodeinjection/CVE-2024-27191-POC](https://github.com/somecodeinjection/CVE-2024-27191-POC) :  ![starts](https://img.shields.io/github/stars/somecodeinjection/CVE-2024-27191-POC.svg) ![forks](https://img.shields.io/github/forks/somecodeinjection/CVE-2024-27191-POC.svg)
 
 ## CVE-2024-26574
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -406,6 +413,13 @@
 
 - [https://github.com/codeb0ss/CVE-2024-25735-PoC](https://github.com/codeb0ss/CVE-2024-25735-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2024-25735-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2024-25735-PoC.svg)
 
+## CVE-2024-25733
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC](https://github.com/hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC) :  ![starts](https://img.shields.io/github/stars/hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC.svg) ![forks](https://img.shields.io/github/forks/hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC.svg)
+
 ## CVE-2024-25731
  The Elink Smart eSmartCam (com.cn.dq.ipc) application 2.1.5 for Android contains hardcoded AES encryption keys that can be extracted from a binary file. Thus, encryption can be defeated by an attacker who can observe packet data (e.g., over Wi-Fi).
 
@@ -419,13 +433,6 @@
 
 
 - [https://github.com/david-botelho-mariano/exploit-CVE-2024-25723](https://github.com/david-botelho-mariano/exploit-CVE-2024-25723) :  ![starts](https://img.shields.io/github/stars/david-botelho-mariano/exploit-CVE-2024-25723.svg) ![forks](https://img.shields.io/github/forks/david-botelho-mariano/exploit-CVE-2024-25723.svg)
-
-## CVE-2024-25693
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/MrCyb3rSec/CVE-2024-25693-exploit](https://github.com/MrCyb3rSec/CVE-2024-25693-exploit) :  ![starts](https://img.shields.io/github/stars/MrCyb3rSec/CVE-2024-25693-exploit.svg) ![forks](https://img.shields.io/github/forks/MrCyb3rSec/CVE-2024-25693-exploit.svg)
 
 ## CVE-2024-25600
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -913,9 +920,9 @@
 
 - [https://github.com/jenkinsci-cert/SECURITY-3314-3315](https://github.com/jenkinsci-cert/SECURITY-3314-3315) :  ![starts](https://img.shields.io/github/stars/jenkinsci-cert/SECURITY-3314-3315.svg) ![forks](https://img.shields.io/github/forks/jenkinsci-cert/SECURITY-3314-3315.svg)
 
-- [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
-
 - [https://github.com/viszsec/CVE-2024-23897](https://github.com/viszsec/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/viszsec/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/viszsec/CVE-2024-23897.svg)
+
+- [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
 
 - [https://github.com/yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2024-23897.svg)
 
@@ -1827,9 +1834,9 @@
 
 - [https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582](https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582) :  ![starts](https://img.shields.io/github/stars/ysanatomic/io_uring_LPE-CVE-2024-0582.svg) ![forks](https://img.shields.io/github/forks/ysanatomic/io_uring_LPE-CVE-2024-0582.svg)
 
-- [https://github.com/FoxyProxys/CVE-2024-0582](https://github.com/FoxyProxys/CVE-2024-0582) :  ![starts](https://img.shields.io/github/stars/FoxyProxys/CVE-2024-0582.svg) ![forks](https://img.shields.io/github/forks/FoxyProxys/CVE-2024-0582.svg)
-
 - [https://github.com/Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582) :  ![starts](https://img.shields.io/github/stars/Forsaken0129/CVE-2024-0582.svg) ![forks](https://img.shields.io/github/forks/Forsaken0129/CVE-2024-0582.svg)
+
+- [https://github.com/FoxyProxys/CVE-2024-0582](https://github.com/FoxyProxys/CVE-2024-0582) :  ![starts](https://img.shields.io/github/stars/FoxyProxys/CVE-2024-0582.svg) ![forks](https://img.shields.io/github/forks/FoxyProxys/CVE-2024-0582.svg)
 
 ## CVE-2024-0519
  Out of bounds memory access in V8 in Google Chrome prior to 120.0.6099.224 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
