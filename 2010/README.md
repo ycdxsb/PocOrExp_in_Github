@@ -52,7 +52,7 @@
 
 
 
-- [https://github.com/M31MOTH/cve-2010-4221](https://github.com/M31MOTH/cve-2010-4221) :  ![starts](https://img.shields.io/github/stars/M31MOTH/cve-2010-4221.svg) ![forks](https://img.shields.io/github/forks/M31MOTH/cve-2010-4221.svg)
+- [https://github.com/M41doror/cve-2010-4221](https://github.com/M41doror/cve-2010-4221) :  ![starts](https://img.shields.io/github/stars/M41doror/cve-2010-4221.svg) ![forks](https://img.shields.io/github/forks/M41doror/cve-2010-4221.svg)
 
 ## CVE-2010-4180
  OpenSSL before 0.9.8q, and 1.0.x before 1.0.0c, when SSL_OP_NETSCAPE_REUSE_CIPHER_CHANGE_BUG is enabled, does not properly prevent modification of the ciphersuite in the session cache, which allows remote attackers to force the downgrade to an unintended cipher via vectors involving sniffing network traffic to discover a session identifier.
