@@ -96,6 +96,13 @@
 
 - [https://github.com/yashpatelphd/CVE-2024-29439](https://github.com/yashpatelphd/CVE-2024-29439) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29439.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29439.svg)
 
+## CVE-2024-29399
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399) :  ![starts](https://img.shields.io/github/stars/ally-petitt/CVE-2024-29399.svg) ![forks](https://img.shields.io/github/forks/ally-petitt/CVE-2024-29399.svg)
+
 ## CVE-2024-29375
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -920,9 +927,9 @@
 
 - [https://github.com/jenkinsci-cert/SECURITY-3314-3315](https://github.com/jenkinsci-cert/SECURITY-3314-3315) :  ![starts](https://img.shields.io/github/stars/jenkinsci-cert/SECURITY-3314-3315.svg) ![forks](https://img.shields.io/github/forks/jenkinsci-cert/SECURITY-3314-3315.svg)
 
-- [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
-
 - [https://github.com/viszsec/CVE-2024-23897](https://github.com/viszsec/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/viszsec/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/viszsec/CVE-2024-23897.svg)
+
+- [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
 
 - [https://github.com/yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2024-23897.svg)
 
@@ -1342,6 +1349,13 @@
 
 - [https://github.com/Oxdestiny/CVE-2024-21899-RCE-POC](https://github.com/Oxdestiny/CVE-2024-21899-RCE-POC) :  ![starts](https://img.shields.io/github/stars/Oxdestiny/CVE-2024-21899-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/Oxdestiny/CVE-2024-21899-RCE-POC.svg)
 
+## CVE-2024-21894
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/RansomGroupCVE/CVE-2024-21894-POC](https://github.com/RansomGroupCVE/CVE-2024-21894-POC) :  ![starts](https://img.shields.io/github/stars/RansomGroupCVE/CVE-2024-21894-POC.svg) ![forks](https://img.shields.io/github/forks/RansomGroupCVE/CVE-2024-21894-POC.svg)
+
 ## CVE-2024-21893
  A server-side request forgery vulnerability in the SAML component of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x) and Ivanti Neurons for ZTA allows an attacker to access certain restricted resources without authentication.
 
@@ -1399,6 +1413,8 @@
 
 - [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)
 
+- [https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK](https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK) :  ![starts](https://img.shields.io/github/stars/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg) ![forks](https://img.shields.io/github/forks/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg)
+
 - [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)
 
 - [https://github.com/redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC) :  ![starts](https://img.shields.io/github/stars/redCode001/CVE-2024-21762-POC.svg) ![forks](https://img.shields.io/github/forks/redCode001/CVE-2024-21762-POC.svg)
@@ -1444,6 +1460,13 @@
 
 - [https://github.com/KubernetesBachelor/CVE-2024-21626](https://github.com/KubernetesBachelor/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/KubernetesBachelor/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/KubernetesBachelor/CVE-2024-21626.svg)
 
+## CVE-2024-21426
+ Microsoft SharePoint Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/JohnnyBradvo/CVE-2024-21426-SharePoint-RCE](https://github.com/JohnnyBradvo/CVE-2024-21426-SharePoint-RCE) :  ![starts](https://img.shields.io/github/stars/JohnnyBradvo/CVE-2024-21426-SharePoint-RCE.svg) ![forks](https://img.shields.io/github/forks/JohnnyBradvo/CVE-2024-21426-SharePoint-RCE.svg)
+
 ## CVE-2024-21413
  Microsoft Outlook Remote Code Execution Vulnerability
 
@@ -1473,6 +1496,13 @@
 
 
 - [https://github.com/lsr00ter/CVE-2024-21412_Water-Hydra](https://github.com/lsr00ter/CVE-2024-21412_Water-Hydra) :  ![starts](https://img.shields.io/github/stars/lsr00ter/CVE-2024-21412_Water-Hydra.svg) ![forks](https://img.shields.io/github/forks/lsr00ter/CVE-2024-21412_Water-Hydra.svg)
+
+## CVE-2024-21410
+ Microsoft Exchange Server Elevation of Privilege Vulnerability
+
+
+
+- [https://github.com/JohnBordon/CVE-2024-21410-poc](https://github.com/JohnBordon/CVE-2024-21410-poc) :  ![starts](https://img.shields.io/github/stars/JohnBordon/CVE-2024-21410-poc.svg) ![forks](https://img.shields.io/github/forks/JohnBordon/CVE-2024-21410-poc.svg)
 
 ## CVE-2024-21400
  Microsoft Azure Kubernetes Service Confidential Container Elevation of Privilege Vulnerability
@@ -1574,7 +1604,7 @@
 
 
 
-- [https://github.com/BetterCzz/CVE-2024-20291-POC](https://github.com/BetterCzz/CVE-2024-20291-POC) :  ![starts](https://img.shields.io/github/stars/BetterCzz/CVE-2024-20291-POC.svg) ![forks](https://img.shields.io/github/forks/BetterCzz/CVE-2024-20291-POC.svg)
+- [https://github.com/Instructor-Team8/CVE-2024-20291-POC](https://github.com/Instructor-Team8/CVE-2024-20291-POC) :  ![starts](https://img.shields.io/github/stars/Instructor-Team8/CVE-2024-20291-POC.svg) ![forks](https://img.shields.io/github/forks/Instructor-Team8/CVE-2024-20291-POC.svg)
 
 ## CVE-2024-2879
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -1582,6 +1612,8 @@
 
 
 - [https://github.com/JohnNetSouldRU/CVE-2024-2879-POC](https://github.com/JohnNetSouldRU/CVE-2024-2879-POC) :  ![starts](https://img.shields.io/github/stars/JohnNetSouldRU/CVE-2024-2879-POC.svg) ![forks](https://img.shields.io/github/forks/JohnNetSouldRU/CVE-2024-2879-POC.svg)
+
+- [https://github.com/herculeszxc/CVE-2024-2879](https://github.com/herculeszxc/CVE-2024-2879) :  ![starts](https://img.shields.io/github/stars/herculeszxc/CVE-2024-2879.svg) ![forks](https://img.shields.io/github/forks/herculeszxc/CVE-2024-2879.svg)
 
 ## CVE-2024-2865
  Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Mergen Software Quality Management System allows SQL Injection.This issue affects Quality Management System: through 25032024.
@@ -1603,6 +1635,13 @@
 
 
 - [https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP) :  ![starts](https://img.shields.io/github/stars/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP.svg) ![forks](https://img.shields.io/github/forks/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP.svg)
+
+## CVE-2024-2222
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/JohnnyBradvo/CVE-2024-2222](https://github.com/JohnnyBradvo/CVE-2024-2222) :  ![starts](https://img.shields.io/github/stars/JohnnyBradvo/CVE-2024-2222.svg) ![forks](https://img.shields.io/github/forks/JohnnyBradvo/CVE-2024-2222.svg)
 
 ## CVE-2024-2193
  A Speculative Race Condition (SRC) vulnerability that impacts modern CPU architectures supporting speculative execution (related to Spectre V1) has been disclosed. An unauthenticated attacker can exploit this vulnerability to disclose arbitrary data from the CPU using race conditions to access the speculative executable code paths.
