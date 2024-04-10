@@ -1,3 +1,12 @@
+## CVE-2024-30255
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/lockness-Ko/CVE-2024-27316](https://github.com/lockness-Ko/CVE-2024-27316) :  ![starts](https://img.shields.io/github/stars/lockness-Ko/CVE-2024-27316.svg) ![forks](https://img.shields.io/github/forks/lockness-Ko/CVE-2024-27316.svg)
+
+- [https://github.com/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC](https://github.com/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC) :  ![starts](https://img.shields.io/github/stars/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC.svg) ![forks](https://img.shields.io/github/forks/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC.svg)
+
 ## CVE-2024-29455
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -110,6 +119,13 @@
 
 - [https://github.com/ismailcemunver/CVE-2024-29375](https://github.com/ismailcemunver/CVE-2024-29375) :  ![starts](https://img.shields.io/github/stars/ismailcemunver/CVE-2024-29375.svg) ![forks](https://img.shields.io/github/forks/ismailcemunver/CVE-2024-29375.svg)
 
+## CVE-2024-29296
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ThaySolis/CVE-2024-29296](https://github.com/ThaySolis/CVE-2024-29296) :  ![starts](https://img.shields.io/github/stars/ThaySolis/CVE-2024-29296.svg) ![forks](https://img.shields.io/github/forks/ThaySolis/CVE-2024-29296.svg)
+
 ## CVE-2024-29278
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -201,6 +217,13 @@
 
 - [https://github.com/0x1x02/CVE-2024-28213](https://github.com/0x1x02/CVE-2024-28213) :  ![starts](https://img.shields.io/github/stars/0x1x02/CVE-2024-28213.svg) ![forks](https://img.shields.io/github/forks/0x1x02/CVE-2024-28213.svg)
 
+## CVE-2024-28182
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/lockness-Ko/CVE-2024-27316](https://github.com/lockness-Ko/CVE-2024-27316) :  ![starts](https://img.shields.io/github/stars/lockness-Ko/CVE-2024-27316.svg) ![forks](https://img.shields.io/github/forks/lockness-Ko/CVE-2024-27316.svg)
+
 ## CVE-2024-28116
  Grav is an open-source, flat-file content management system. Grav CMS prior to version 1.7.45 is vulnerable to a Server-Side Template Injection (SSTI), which allows any authenticated user (editor permissions are sufficient) to execute arbitrary code on the remote server bypassing the existing security sandbox. Version 1.7.45 contains a patch for this issue.
 
@@ -221,6 +244,13 @@
 
 
 - [https://github.com/skyler-ferrante/CVE-2024-28085](https://github.com/skyler-ferrante/CVE-2024-28085) :  ![starts](https://img.shields.io/github/stars/skyler-ferrante/CVE-2024-28085.svg) ![forks](https://img.shields.io/github/forks/skyler-ferrante/CVE-2024-28085.svg)
+
+## CVE-2024-27919
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/lockness-Ko/CVE-2024-27316](https://github.com/lockness-Ko/CVE-2024-27316) :  ![starts](https://img.shields.io/github/stars/lockness-Ko/CVE-2024-27316.svg) ![forks](https://img.shields.io/github/forks/lockness-Ko/CVE-2024-27316.svg)
 
 ## CVE-2024-27697
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -306,6 +336,13 @@
 
 - [https://github.com/dead1nfluence/Leantime-POC](https://github.com/dead1nfluence/Leantime-POC) :  ![starts](https://img.shields.io/github/stars/dead1nfluence/Leantime-POC.svg) ![forks](https://img.shields.io/github/forks/dead1nfluence/Leantime-POC.svg)
 
+## CVE-2024-27316
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/lockness-Ko/CVE-2024-27316](https://github.com/lockness-Ko/CVE-2024-27316) :  ![starts](https://img.shields.io/github/stars/lockness-Ko/CVE-2024-27316.svg) ![forks](https://img.shields.io/github/forks/lockness-Ko/CVE-2024-27316.svg)
+
 ## CVE-2024-27199
  In JetBrains TeamCity before 2023.11.4 path traversal allowing to perform limited admin actions was possible
 
@@ -384,6 +421,13 @@
 
 
 - [https://github.com/TronciuVlad/CVE-2024-26475](https://github.com/TronciuVlad/CVE-2024-26475) :  ![starts](https://img.shields.io/github/stars/TronciuVlad/CVE-2024-26475.svg) ![forks](https://img.shields.io/github/forks/TronciuVlad/CVE-2024-26475.svg)
+
+## CVE-2024-26198
+ Microsoft Exchange Server Remote Code Execution Vulnerability
+
+
+
+- [https://github.com/MrSecby/CVE-2024-26198-Exchange-RCE](https://github.com/MrSecby/CVE-2024-26198-Exchange-RCE) :  ![starts](https://img.shields.io/github/stars/MrSecby/CVE-2024-26198-Exchange-RCE.svg) ![forks](https://img.shields.io/github/forks/MrSecby/CVE-2024-26198-Exchange-RCE.svg)
 
 ## CVE-2024-25832
  F-logic DataCube3 v1.0 is vulnerable to unrestricted file upload, which could allow an authenticated malicious actor to upload a file of dangerous type by manipulating the filename extension.
@@ -612,6 +656,13 @@
 
 
 - [https://github.com/killerbees19/CVE-2024-24760](https://github.com/killerbees19/CVE-2024-24760) :  ![starts](https://img.shields.io/github/stars/killerbees19/CVE-2024-24760.svg) ![forks](https://img.shields.io/github/forks/killerbees19/CVE-2024-24760.svg)
+
+## CVE-2024-24576
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/frostb1ten/CVE-2024-24576-PoC](https://github.com/frostb1ten/CVE-2024-24576-PoC) :  ![starts](https://img.shields.io/github/stars/frostb1ten/CVE-2024-24576-PoC.svg) ![forks](https://img.shields.io/github/forks/frostb1ten/CVE-2024-24576-PoC.svg)
 
 ## CVE-2024-24520
  An issue in Lepton CMS v.7.0.0 allows a local attacker to execute arbitrary code via the upgrade.php file in the languages place.
@@ -935,9 +986,9 @@
 
 - [https://github.com/jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2024-23897.svg)
 
-- [https://github.com/AbraXa5/Jenkins-CVE-2024-23897](https://github.com/AbraXa5/Jenkins-CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/AbraXa5/Jenkins-CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/AbraXa5/Jenkins-CVE-2024-23897.svg)
-
 - [https://github.com/Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Nebian/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Nebian/CVE-2024-23897.svg)
+
+- [https://github.com/AbraXa5/Jenkins-CVE-2024-23897](https://github.com/AbraXa5/Jenkins-CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/AbraXa5/Jenkins-CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/AbraXa5/Jenkins-CVE-2024-23897.svg)
 
 - [https://github.com/Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2024-23897.svg)
 
@@ -1380,9 +1431,9 @@
 
 - [https://github.com/Chocapikk/CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-21887.svg)
 
-- [https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-21893-to-CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-21893-to-CVE-2024-21887.svg)
-
 - [https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/duy-31/CVE-2023-46805_CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/duy-31/CVE-2023-46805_CVE-2024-21887.svg)
+
+- [https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-21893-to-CVE-2024-21887.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-21893-to-CVE-2024-21887.svg)
 
 - [https://github.com/seajaysec/Ivanti-Connect-Around-Scan](https://github.com/seajaysec/Ivanti-Connect-Around-Scan) :  ![starts](https://img.shields.io/github/stars/seajaysec/Ivanti-Connect-Around-Scan.svg) ![forks](https://img.shields.io/github/forks/seajaysec/Ivanti-Connect-Around-Scan.svg)
 
@@ -1407,13 +1458,13 @@
 
 - [https://github.com/BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/cve-2024-21762-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/cve-2024-21762-check.svg)
 
+- [https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK](https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK) :  ![starts](https://img.shields.io/github/stars/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg) ![forks](https://img.shields.io/github/forks/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg)
+
 - [https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check) :  ![starts](https://img.shields.io/github/stars/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg) ![forks](https://img.shields.io/github/forks/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg)
 
 - [https://github.com/d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21762.svg)
 
 - [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)
-
-- [https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK](https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK) :  ![starts](https://img.shields.io/github/stars/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg) ![forks](https://img.shields.io/github/forks/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK.svg)
 
 - [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)
 
@@ -1571,6 +1622,13 @@
 
 - [https://github.com/huyqa/cve-2024-20767](https://github.com/huyqa/cve-2024-20767) :  ![starts](https://img.shields.io/github/stars/huyqa/cve-2024-20767.svg) ![forks](https://img.shields.io/github/forks/huyqa/cve-2024-20767.svg)
 
+## CVE-2024-20720
+ Adobe Commerce versions 2.4.6-p3, 2.4.5-p5, 2.4.4-p6 and earlier are affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that could lead in arbitrary code execution by an attacker. Exploitation of this issue does not require user interaction.
+
+
+
+- [https://github.com/xxDlib/CVE-2024-20720-PoC](https://github.com/xxDlib/CVE-2024-20720-PoC) :  ![starts](https://img.shields.io/github/stars/xxDlib/CVE-2024-20720-PoC.svg) ![forks](https://img.shields.io/github/forks/xxDlib/CVE-2024-20720-PoC.svg)
+
 ## CVE-2024-20698
  Windows Kernel Elevation of Privilege Vulnerability
 
@@ -1611,9 +1669,9 @@
 
 
 
-- [https://github.com/JohnNetSouldRU/CVE-2024-2879-POC](https://github.com/JohnNetSouldRU/CVE-2024-2879-POC) :  ![starts](https://img.shields.io/github/stars/JohnNetSouldRU/CVE-2024-2879-POC.svg) ![forks](https://img.shields.io/github/forks/JohnNetSouldRU/CVE-2024-2879-POC.svg)
-
 - [https://github.com/herculeszxc/CVE-2024-2879](https://github.com/herculeszxc/CVE-2024-2879) :  ![starts](https://img.shields.io/github/stars/herculeszxc/CVE-2024-2879.svg) ![forks](https://img.shields.io/github/forks/herculeszxc/CVE-2024-2879.svg)
+
+- [https://github.com/JohnNetSouldRU/CVE-2024-2879-POC](https://github.com/JohnNetSouldRU/CVE-2024-2879-POC) :  ![starts](https://img.shields.io/github/stars/JohnNetSouldRU/CVE-2024-2879-POC.svg) ![forks](https://img.shields.io/github/forks/JohnNetSouldRU/CVE-2024-2879-POC.svg)
 
 ## CVE-2024-2865
  Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Mergen Software Quality Management System allows SQL Injection.This issue affects Quality Management System: through 25032024.
@@ -1628,6 +1686,13 @@
 
 
 - [https://github.com/Schnaidr/CVE-2024-2856-Stack-overflow-EXP](https://github.com/Schnaidr/CVE-2024-2856-Stack-overflow-EXP) :  ![starts](https://img.shields.io/github/stars/Schnaidr/CVE-2024-2856-Stack-overflow-EXP.svg) ![forks](https://img.shields.io/github/forks/Schnaidr/CVE-2024-2856-Stack-overflow-EXP.svg)
+
+## CVE-2024-2653
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/lockness-Ko/CVE-2024-27316](https://github.com/lockness-Ko/CVE-2024-27316) :  ![starts](https://img.shields.io/github/stars/lockness-Ko/CVE-2024-27316.svg) ![forks](https://img.shields.io/github/forks/lockness-Ko/CVE-2024-27316.svg)
 
 ## CVE-2024-2432
  A privilege escalation (PE) vulnerability in the Palo Alto Networks GlobalProtect app on Windows devices enables a local user to execute programs with elevated privileges. However, execution requires that the local user is able to successfully exploit a race condition.
