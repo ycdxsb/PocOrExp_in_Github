@@ -664,6 +664,10 @@
 
 - [https://github.com/frostb1ten/CVE-2024-24576-PoC](https://github.com/frostb1ten/CVE-2024-24576-PoC) :  ![starts](https://img.shields.io/github/stars/frostb1ten/CVE-2024-24576-PoC.svg) ![forks](https://img.shields.io/github/forks/frostb1ten/CVE-2024-24576-PoC.svg)
 
+- [https://github.com/aydinnyunus/CVE-2024-24576-Exploit](https://github.com/aydinnyunus/CVE-2024-24576-Exploit) :  ![starts](https://img.shields.io/github/stars/aydinnyunus/CVE-2024-24576-Exploit.svg) ![forks](https://img.shields.io/github/forks/aydinnyunus/CVE-2024-24576-Exploit.svg)
+
+- [https://github.com/brains93/CVE-2024-24576-PoC-Python](https://github.com/brains93/CVE-2024-24576-PoC-Python) :  ![starts](https://img.shields.io/github/stars/brains93/CVE-2024-24576-PoC-Python.svg) ![forks](https://img.shields.io/github/forks/brains93/CVE-2024-24576-PoC-Python.svg)
+
 ## CVE-2024-24520
  An issue in Lepton CMS v.7.0.0 allows a local attacker to execute arbitrary code via the upgrade.php file in the languages place.
 
@@ -1511,12 +1515,7 @@
 
 - [https://github.com/KubernetesBachelor/CVE-2024-21626](https://github.com/KubernetesBachelor/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/KubernetesBachelor/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/KubernetesBachelor/CVE-2024-21626.svg)
 
-## CVE-2024-21426
- Microsoft SharePoint Server Remote Code Execution Vulnerability
-
-
-
-- [https://github.com/JohnnyBradvo/CVE-2024-21426-SharePoint-RCE](https://github.com/JohnnyBradvo/CVE-2024-21426-SharePoint-RCE) :  ![starts](https://img.shields.io/github/stars/JohnnyBradvo/CVE-2024-21426-SharePoint-RCE.svg) ![forks](https://img.shields.io/github/forks/JohnnyBradvo/CVE-2024-21426-SharePoint-RCE.svg)
+- [https://github.com/dorser/cve-2024-21626](https://github.com/dorser/cve-2024-21626) :  ![starts](https://img.shields.io/github/stars/dorser/cve-2024-21626.svg) ![forks](https://img.shields.io/github/forks/dorser/cve-2024-21626.svg)
 
 ## CVE-2024-21413
  Microsoft Outlook Remote Code Execution Vulnerability
@@ -1700,13 +1699,6 @@
 
 
 - [https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP) :  ![starts](https://img.shields.io/github/stars/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP.svg) ![forks](https://img.shields.io/github/forks/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP.svg)
-
-## CVE-2024-2222
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/JohnnyBradvo/CVE-2024-2222](https://github.com/JohnnyBradvo/CVE-2024-2222) :  ![starts](https://img.shields.io/github/stars/JohnnyBradvo/CVE-2024-2222.svg) ![forks](https://img.shields.io/github/forks/JohnnyBradvo/CVE-2024-2222.svg)
 
 ## CVE-2024-2193
  A Speculative Race Condition (SRC) vulnerability that impacts modern CPU architectures supporting speculative execution (related to Spectre V1) has been disclosed. An unauthenticated attacker can exploit this vulnerability to disclose arbitrary data from the CPU using race conditions to access the speculative executable code paths.
@@ -1930,6 +1922,13 @@
 
 
 - [https://github.com/kitodd/CVE-2024-0713](https://github.com/kitodd/CVE-2024-0713) :  ![starts](https://img.shields.io/github/stars/kitodd/CVE-2024-0713.svg) ![forks](https://img.shields.io/github/forks/kitodd/CVE-2024-0713.svg)
+
+## CVE-2024-0710
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/karlemilnikka/CVE-2024-0710](https://github.com/karlemilnikka/CVE-2024-0710) :  ![starts](https://img.shields.io/github/stars/karlemilnikka/CVE-2024-0710.svg) ![forks](https://img.shields.io/github/forks/karlemilnikka/CVE-2024-0710.svg)
 
 ## CVE-2024-0684
  A flaw was found in the GNU coreutils &quot;split&quot; program. A heap overflow with user-controlled data of multiple hundred bytes in length could occur in the line_bytes_split() function, potentially leading to an application crash and denial of service.
