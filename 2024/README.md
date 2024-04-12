@@ -203,6 +203,13 @@
 
 - [https://github.com/Marven11/CVE-2024-28397](https://github.com/Marven11/CVE-2024-28397) :  ![starts](https://img.shields.io/github/stars/Marven11/CVE-2024-28397.svg) ![forks](https://img.shields.io/github/forks/Marven11/CVE-2024-28397.svg)
 
+## CVE-2024-28255
+ OpenMetadata is a unified platform for discovery, observability, and governance powered by a central metadata repository, in-depth lineage, and seamless team collaboration. The `JwtFilter` handles the API authentication by requiring and verifying JWT tokens. When a new request comes in, the request's path is checked against this list. When the request's path contains any of the excluded endpoints the filter returns without validating the JWT. Unfortunately, an attacker may use Path Parameters to make any path contain any arbitrary strings. For example, a request to `GET /api/v1;v1%2fusers%2flogin/events/subscriptions/validation/condition/111` will match the excluded endpoint condition and therefore will be processed with no JWT validation allowing an attacker to bypass the authentication mechanism and reach any arbitrary endpoint, including the ones listed above that lead to arbitrary SpEL expression injection. This bypass will not work when the endpoint uses the `SecurityContext.getUserPrincipal()` since it will return `null` and will throw an NPE. This issue may lead to authentication bypass and has been addressed in version 1.2.4. Users are advised to upgrade. There are no known workarounds for this vulnerability. This issue is also tracked as `GHSL-2023-237`.
+
+
+
+- [https://github.com/YongYe-Security/CVE-2024-28255](https://github.com/YongYe-Security/CVE-2024-28255) :  ![starts](https://img.shields.io/github/stars/YongYe-Security/CVE-2024-28255.svg) ![forks](https://img.shields.io/github/forks/YongYe-Security/CVE-2024-28255.svg)
+
 ## CVE-2024-28247
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -667,6 +674,8 @@
 - [https://github.com/aydinnyunus/CVE-2024-24576-Exploit](https://github.com/aydinnyunus/CVE-2024-24576-Exploit) :  ![starts](https://img.shields.io/github/stars/aydinnyunus/CVE-2024-24576-Exploit.svg) ![forks](https://img.shields.io/github/forks/aydinnyunus/CVE-2024-24576-Exploit.svg)
 
 - [https://github.com/brains93/CVE-2024-24576-PoC-Python](https://github.com/brains93/CVE-2024-24576-PoC-Python) :  ![starts](https://img.shields.io/github/stars/brains93/CVE-2024-24576-PoC-Python.svg) ![forks](https://img.shields.io/github/forks/brains93/CVE-2024-24576-PoC-Python.svg)
+
+- [https://github.com/foxoman/CVE-2024-24576-PoC---Nim](https://github.com/foxoman/CVE-2024-24576-PoC---Nim) :  ![starts](https://img.shields.io/github/stars/foxoman/CVE-2024-24576-PoC---Nim.svg) ![forks](https://img.shields.io/github/forks/foxoman/CVE-2024-24576-PoC---Nim.svg)
 
 ## CVE-2024-24520
  An issue in Lepton CMS v.7.0.0 allows a local attacker to execute arbitrary code via the upgrade.php file in the languages place.
@@ -1621,13 +1630,6 @@
 
 - [https://github.com/huyqa/cve-2024-20767](https://github.com/huyqa/cve-2024-20767) :  ![starts](https://img.shields.io/github/stars/huyqa/cve-2024-20767.svg) ![forks](https://img.shields.io/github/forks/huyqa/cve-2024-20767.svg)
 
-## CVE-2024-20720
- Adobe Commerce versions 2.4.6-p3, 2.4.5-p5, 2.4.4-p6 and earlier are affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that could lead in arbitrary code execution by an attacker. Exploitation of this issue does not require user interaction.
-
-
-
-- [https://github.com/xxDlib/CVE-2024-20720-PoC](https://github.com/xxDlib/CVE-2024-20720-PoC) :  ![starts](https://img.shields.io/github/stars/xxDlib/CVE-2024-20720-PoC.svg) ![forks](https://img.shields.io/github/forks/xxDlib/CVE-2024-20720-PoC.svg)
-
 ## CVE-2024-20698
  Windows Kernel Elevation of Privilege Vulnerability
 
@@ -1699,6 +1701,13 @@
 
 
 - [https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP) :  ![starts](https://img.shields.io/github/stars/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP.svg) ![forks](https://img.shields.io/github/forks/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP.svg)
+
+## CVE-2024-2389
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/adhikara13/CVE-2024-2389](https://github.com/adhikara13/CVE-2024-2389) :  ![starts](https://img.shields.io/github/stars/adhikara13/CVE-2024-2389.svg) ![forks](https://img.shields.io/github/forks/adhikara13/CVE-2024-2389.svg)
 
 ## CVE-2024-2193
  A Speculative Race Condition (SRC) vulnerability that impacts modern CPU architectures supporting speculative execution (related to Spectre V1) has been disclosed. An unauthenticated attacker can exploit this vulnerability to disclose arbitrary data from the CPU using race conditions to access the speculative executable code paths.
