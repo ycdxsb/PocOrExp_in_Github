@@ -352,6 +352,13 @@
 
 - [https://github.com/dead1nfluence/Leantime-POC](https://github.com/dead1nfluence/Leantime-POC) :  ![starts](https://img.shields.io/github/stars/dead1nfluence/Leantime-POC.svg) ![forks](https://img.shields.io/github/forks/dead1nfluence/Leantime-POC.svg)
 
+## CVE-2024-27462
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/Alaatk/CVE-2024-27462](https://github.com/Alaatk/CVE-2024-27462) :  ![starts](https://img.shields.io/github/stars/Alaatk/CVE-2024-27462.svg) ![forks](https://img.shields.io/github/forks/Alaatk/CVE-2024-27462.svg)
+
 ## CVE-2024-27316
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -678,6 +685,8 @@
 - [https://github.com/brains93/CVE-2024-24576-PoC-Python](https://github.com/brains93/CVE-2024-24576-PoC-Python) :  ![starts](https://img.shields.io/github/stars/brains93/CVE-2024-24576-PoC-Python.svg) ![forks](https://img.shields.io/github/forks/brains93/CVE-2024-24576-PoC-Python.svg)
 
 - [https://github.com/foxoman/CVE-2024-24576-PoC---Nim](https://github.com/foxoman/CVE-2024-24576-PoC---Nim) :  ![starts](https://img.shields.io/github/stars/foxoman/CVE-2024-24576-PoC---Nim.svg) ![forks](https://img.shields.io/github/forks/foxoman/CVE-2024-24576-PoC---Nim.svg)
+
+- [https://github.com/mishalhossin/CVE-2024-24576-PoC-Python](https://github.com/mishalhossin/CVE-2024-24576-PoC-Python) :  ![starts](https://img.shields.io/github/stars/mishalhossin/CVE-2024-24576-PoC-Python.svg) ![forks](https://img.shields.io/github/forks/mishalhossin/CVE-2024-24576-PoC-Python.svg)
 
 - [https://github.com/corysabol/batbadbut-demo](https://github.com/corysabol/batbadbut-demo) :  ![starts](https://img.shields.io/github/stars/corysabol/batbadbut-demo.svg) ![forks](https://img.shields.io/github/forks/corysabol/batbadbut-demo.svg)
 
