@@ -1154,9 +1154,9 @@
 
 
 
-- [https://github.com/scottjpack/Freak-Scanner](https://github.com/scottjpack/Freak-Scanner) :  ![starts](https://img.shields.io/github/stars/scottjpack/Freak-Scanner.svg) ![forks](https://img.shields.io/github/forks/scottjpack/Freak-Scanner.svg)
-
 - [https://github.com/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script](https://github.com/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script) :  ![starts](https://img.shields.io/github/stars/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script.svg) ![forks](https://img.shields.io/github/forks/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script.svg)
+
+- [https://github.com/scottjpack/Freak-Scanner](https://github.com/scottjpack/Freak-Scanner) :  ![starts](https://img.shields.io/github/stars/scottjpack/Freak-Scanner.svg) ![forks](https://img.shields.io/github/forks/scottjpack/Freak-Scanner.svg)
 
 - [https://github.com/anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/anthophilee/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/anthophilee/A2SV--SSL-VUL-Scan.svg)
 
