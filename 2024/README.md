@@ -380,6 +380,8 @@
 
 - [https://github.com/lockness-Ko/CVE-2024-27316](https://github.com/lockness-Ko/CVE-2024-27316) :  ![starts](https://img.shields.io/github/stars/lockness-Ko/CVE-2024-27316.svg) ![forks](https://img.shields.io/github/forks/lockness-Ko/CVE-2024-27316.svg)
 
+- [https://github.com/aeyesec/CVE-2024-27316_poc](https://github.com/aeyesec/CVE-2024-27316_poc) :  ![starts](https://img.shields.io/github/stars/aeyesec/CVE-2024-27316_poc.svg) ![forks](https://img.shields.io/github/forks/aeyesec/CVE-2024-27316_poc.svg)
+
 ## CVE-2024-27199
  In JetBrains TeamCity before 2023.11.4 path traversal allowing to perform limited admin actions was possible
 
@@ -557,6 +559,8 @@
 
 - [https://github.com/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress) :  ![starts](https://img.shields.io/github/stars/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress.svg) ![forks](https://img.shields.io/github/forks/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress.svg)
 
+- [https://github.com/0bl1v10nf0rg0773n/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/0bl1v10nf0rg0773n/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress) :  ![starts](https://img.shields.io/github/stars/0bl1v10nf0rg0773n/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress.svg) ![forks](https://img.shields.io/github/forks/0bl1v10nf0rg0773n/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress.svg)
+
 ## CVE-2024-25466
  Directory Traversal vulnerability in React Native Document Picker before v.9.1.1 and fixed in v.9.1.1 allows a local attacker to execute arbitrary code via a crafted script to the Android library component.
 
@@ -719,13 +723,13 @@
 
 - [https://github.com/brains93/CVE-2024-24576-PoC-Python](https://github.com/brains93/CVE-2024-24576-PoC-Python) :  ![starts](https://img.shields.io/github/stars/brains93/CVE-2024-24576-PoC-Python.svg) ![forks](https://img.shields.io/github/forks/brains93/CVE-2024-24576-PoC-Python.svg)
 
-- [https://github.com/lpn/CVE-2024-24576.jl](https://github.com/lpn/CVE-2024-24576.jl) :  ![starts](https://img.shields.io/github/stars/lpn/CVE-2024-24576.jl.svg) ![forks](https://img.shields.io/github/forks/lpn/CVE-2024-24576.jl.svg)
+- [https://github.com/mishalhossin/CVE-2024-24576-PoC-Python](https://github.com/mishalhossin/CVE-2024-24576-PoC-Python) :  ![starts](https://img.shields.io/github/stars/mishalhossin/CVE-2024-24576-PoC-Python.svg) ![forks](https://img.shields.io/github/forks/mishalhossin/CVE-2024-24576-PoC-Python.svg)
 
 - [https://github.com/corysabol/batbadbut-demo](https://github.com/corysabol/batbadbut-demo) :  ![starts](https://img.shields.io/github/stars/corysabol/batbadbut-demo.svg) ![forks](https://img.shields.io/github/forks/corysabol/batbadbut-demo.svg)
 
-- [https://github.com/foxoman/CVE-2024-24576-PoC---Nim](https://github.com/foxoman/CVE-2024-24576-PoC---Nim) :  ![starts](https://img.shields.io/github/stars/foxoman/CVE-2024-24576-PoC---Nim.svg) ![forks](https://img.shields.io/github/forks/foxoman/CVE-2024-24576-PoC---Nim.svg)
+- [https://github.com/lpn/CVE-2024-24576.jl](https://github.com/lpn/CVE-2024-24576.jl) :  ![starts](https://img.shields.io/github/stars/lpn/CVE-2024-24576.jl.svg) ![forks](https://img.shields.io/github/forks/lpn/CVE-2024-24576.jl.svg)
 
-- [https://github.com/mishalhossin/CVE-2024-24576-PoC-Python](https://github.com/mishalhossin/CVE-2024-24576-PoC-Python) :  ![starts](https://img.shields.io/github/stars/mishalhossin/CVE-2024-24576-PoC-Python.svg) ![forks](https://img.shields.io/github/forks/mishalhossin/CVE-2024-24576-PoC-Python.svg)
+- [https://github.com/foxoman/CVE-2024-24576-PoC---Nim](https://github.com/foxoman/CVE-2024-24576-PoC---Nim) :  ![starts](https://img.shields.io/github/stars/foxoman/CVE-2024-24576-PoC---Nim.svg) ![forks](https://img.shields.io/github/forks/foxoman/CVE-2024-24576-PoC---Nim.svg)
 
 ## CVE-2024-24520
  An issue in Lepton CMS v.7.0.0 allows a local attacker to execute arbitrary code via the upgrade.php file in the languages place.
@@ -1047,9 +1051,9 @@
 
 - [https://github.com/yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2024-23897.svg)
 
-- [https://github.com/jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2024-23897.svg)
-
 - [https://github.com/Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Nebian/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Nebian/CVE-2024-23897.svg)
+
+- [https://github.com/jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2024-23897.svg)
 
 - [https://github.com/Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2024-23897.svg)
 
@@ -1570,13 +1574,13 @@
 
 - [https://github.com/laysakura/CVE-2024-21626-demo](https://github.com/laysakura/CVE-2024-21626-demo) :  ![starts](https://img.shields.io/github/stars/laysakura/CVE-2024-21626-demo.svg) ![forks](https://img.shields.io/github/forks/laysakura/CVE-2024-21626-demo.svg)
 
+- [https://github.com/dorser/cve-2024-21626](https://github.com/dorser/cve-2024-21626) :  ![starts](https://img.shields.io/github/stars/dorser/cve-2024-21626.svg) ![forks](https://img.shields.io/github/forks/dorser/cve-2024-21626.svg)
+
 - [https://github.com/Sk3pper/CVE-2024-21626](https://github.com/Sk3pper/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/Sk3pper/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/Sk3pper/CVE-2024-21626.svg)
 
 - [https://github.com/zpxlz/CVE-2024-21626-POC](https://github.com/zpxlz/CVE-2024-21626-POC) :  ![starts](https://img.shields.io/github/stars/zpxlz/CVE-2024-21626-POC.svg) ![forks](https://img.shields.io/github/forks/zpxlz/CVE-2024-21626-POC.svg)
 
 - [https://github.com/abian2/CVE-2024-21626](https://github.com/abian2/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/abian2/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/abian2/CVE-2024-21626.svg)
-
-- [https://github.com/dorser/cve-2024-21626](https://github.com/dorser/cve-2024-21626) :  ![starts](https://img.shields.io/github/stars/dorser/cve-2024-21626.svg) ![forks](https://img.shields.io/github/forks/dorser/cve-2024-21626.svg)
 
 - [https://github.com/KubernetesBachelor/CVE-2024-21626](https://github.com/KubernetesBachelor/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/KubernetesBachelor/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/KubernetesBachelor/CVE-2024-21626.svg)
 
@@ -1659,6 +1663,8 @@
 
 - [https://github.com/hakaioffsec/CVE-2024-21338](https://github.com/hakaioffsec/CVE-2024-21338) :  ![starts](https://img.shields.io/github/stars/hakaioffsec/CVE-2024-21338.svg) ![forks](https://img.shields.io/github/forks/hakaioffsec/CVE-2024-21338.svg)
 
+- [https://github.com/UMU618/CVE-2024-21338](https://github.com/UMU618/CVE-2024-21338) :  ![starts](https://img.shields.io/github/stars/UMU618/CVE-2024-21338.svg) ![forks](https://img.shields.io/github/forks/UMU618/CVE-2024-21338.svg)
+
 ## CVE-2024-21306
  Microsoft Bluetooth Driver Spoofing Vulnerability
 
@@ -1672,6 +1678,13 @@
 
 
 - [https://github.com/tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305) :  ![starts](https://img.shields.io/github/stars/tandasat/CVE-2024-21305.svg) ![forks](https://img.shields.io/github/forks/tandasat/CVE-2024-21305.svg)
+
+## CVE-2024-21107
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/Alaatk/CVE-2024-21107](https://github.com/Alaatk/CVE-2024-21107) :  ![starts](https://img.shields.io/github/stars/Alaatk/CVE-2024-21107.svg) ![forks](https://img.shields.io/github/forks/Alaatk/CVE-2024-21107.svg)
 
 ## CVE-2024-20931
  Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
@@ -1818,6 +1831,13 @@
 
 
 - [https://github.com/Madan301/CVE-2024-2054](https://github.com/Madan301/CVE-2024-2054) :  ![starts](https://img.shields.io/github/stars/Madan301/CVE-2024-2054.svg) ![forks](https://img.shields.io/github/forks/Madan301/CVE-2024-2054.svg)
+
+## CVE-2024-1874
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/ox1111/-CVE-2024-1874-](https://github.com/ox1111/-CVE-2024-1874-) :  ![starts](https://img.shields.io/github/stars/ox1111/-CVE-2024-1874-.svg) ![forks](https://img.shields.io/github/forks/ox1111/-CVE-2024-1874-.svg)
 
 ## CVE-2024-1781
  A vulnerability was found in Totolink X6000R AX3000 9.4.0cu.852_20230719. It has been rated as critical. This issue affects the function setWizardCfg of the file /cgi-bin/cstecgi.cgi of the component shttpd. The manipulation leads to command injection. The exploit has been disclosed to the public and may be used. The identifier VDB-254573 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
@@ -2064,6 +2084,13 @@
 
 
 - [https://github.com/Oxdestiny/CVE-2024-0519-Chrome-exploit](https://github.com/Oxdestiny/CVE-2024-0519-Chrome-exploit) :  ![starts](https://img.shields.io/github/stars/Oxdestiny/CVE-2024-0519-Chrome-exploit.svg) ![forks](https://img.shields.io/github/forks/Oxdestiny/CVE-2024-0519-Chrome-exploit.svg)
+
+## CVE-2024-0305
+ A vulnerability was found in Guangzhou Yingke Electronic Technology Ncast up to 2017 and classified as problematic. Affected by this issue is some unknown functionality of the file /manage/IPSetup.php of the component Guest Login. The manipulation leads to information disclosure. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-249872.
+
+
+
+- [https://github.com/jidle123/cve-2024-0305exp](https://github.com/jidle123/cve-2024-0305exp) :  ![starts](https://img.shields.io/github/stars/jidle123/cve-2024-0305exp.svg) ![forks](https://img.shields.io/github/forks/jidle123/cve-2024-0305exp.svg)
 
 ## CVE-2024-0204
  Authentication bypass in Fortra's GoAnywhere MFT prior to 7.4.1 allows an unauthorized user to create an admin user via the administration portal.
