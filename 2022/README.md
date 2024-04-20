@@ -352,9 +352,9 @@
 
 - [https://github.com/doosec101/CVE-2022-46169](https://github.com/doosec101/CVE-2022-46169) :  ![starts](https://img.shields.io/github/stars/doosec101/CVE-2022-46169.svg) ![forks](https://img.shields.io/github/forks/doosec101/CVE-2022-46169.svg)
 
-- [https://github.com/icebreack/CVE-2022-46169](https://github.com/icebreack/CVE-2022-46169) :  ![starts](https://img.shields.io/github/stars/icebreack/CVE-2022-46169.svg) ![forks](https://img.shields.io/github/forks/icebreack/CVE-2022-46169.svg)
-
 - [https://github.com/0xN7y/CVE-2022-46169](https://github.com/0xN7y/CVE-2022-46169) :  ![starts](https://img.shields.io/github/stars/0xN7y/CVE-2022-46169.svg) ![forks](https://img.shields.io/github/forks/0xN7y/CVE-2022-46169.svg)
+
+- [https://github.com/icebreack/CVE-2022-46169](https://github.com/icebreack/CVE-2022-46169) :  ![starts](https://img.shields.io/github/stars/icebreack/CVE-2022-46169.svg) ![forks](https://img.shields.io/github/forks/icebreack/CVE-2022-46169.svg)
 
 - [https://github.com/Safarchand/CVE-2022-46169](https://github.com/Safarchand/CVE-2022-46169) :  ![starts](https://img.shields.io/github/stars/Safarchand/CVE-2022-46169.svg) ![forks](https://img.shields.io/github/forks/Safarchand/CVE-2022-46169.svg)
 
@@ -460,9 +460,9 @@
 
 - [https://github.com/Trinadh465/linux-4.1.15_CVE-2022-45934](https://github.com/Trinadh465/linux-4.1.15_CVE-2022-45934) :  ![starts](https://img.shields.io/github/stars/Trinadh465/linux-4.1.15_CVE-2022-45934.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/linux-4.1.15_CVE-2022-45934.svg)
 
-- [https://github.com/Satheesh575555/linux-4.1.15_CVE-2022-45934](https://github.com/Satheesh575555/linux-4.1.15_CVE-2022-45934) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/linux-4.1.15_CVE-2022-45934.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/linux-4.1.15_CVE-2022-45934.svg)
-
 - [https://github.com/Trinadh465/linux-4.19.72_CVE-2022-45934](https://github.com/Trinadh465/linux-4.19.72_CVE-2022-45934) :  ![starts](https://img.shields.io/github/stars/Trinadh465/linux-4.19.72_CVE-2022-45934.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/linux-4.19.72_CVE-2022-45934.svg)
+
+- [https://github.com/Satheesh575555/linux-4.1.15_CVE-2022-45934](https://github.com/Satheesh575555/linux-4.1.15_CVE-2022-45934) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/linux-4.1.15_CVE-2022-45934.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/linux-4.1.15_CVE-2022-45934.svg)
 
 ## CVE-2022-45808
  SQL Injection vulnerability in LearnPress &#8211; WordPress LMS Plugin &lt;= 4.1.7.3.2 versions.
@@ -1050,11 +1050,11 @@
 
 - [https://github.com/akshayithape-devops/CVE-2022-42889-POC](https://github.com/akshayithape-devops/CVE-2022-42889-POC) :  ![starts](https://img.shields.io/github/stars/akshayithape-devops/CVE-2022-42889-POC.svg) ![forks](https://img.shields.io/github/forks/akshayithape-devops/CVE-2022-42889-POC.svg)
 
+- [https://github.com/gustanini/CVE-2022-42889-Text4Shell-POC](https://github.com/gustanini/CVE-2022-42889-Text4Shell-POC) :  ![starts](https://img.shields.io/github/stars/gustanini/CVE-2022-42889-Text4Shell-POC.svg) ![forks](https://img.shields.io/github/forks/gustanini/CVE-2022-42889-Text4Shell-POC.svg)
+
 - [https://github.com/smileostrich/Text4Shell-Scanner](https://github.com/smileostrich/Text4Shell-Scanner) :  ![starts](https://img.shields.io/github/stars/smileostrich/Text4Shell-Scanner.svg) ![forks](https://img.shields.io/github/forks/smileostrich/Text4Shell-Scanner.svg)
 
 - [https://github.com/pwnb0y/Text4shell-exploit](https://github.com/pwnb0y/Text4shell-exploit) :  ![starts](https://img.shields.io/github/stars/pwnb0y/Text4shell-exploit.svg) ![forks](https://img.shields.io/github/forks/pwnb0y/Text4shell-exploit.svg)
-
-- [https://github.com/gustanini/CVE-2022-42889-Text4Shell-POC](https://github.com/gustanini/CVE-2022-42889-Text4Shell-POC) :  ![starts](https://img.shields.io/github/stars/gustanini/CVE-2022-42889-Text4Shell-POC.svg) ![forks](https://img.shields.io/github/forks/gustanini/CVE-2022-42889-Text4Shell-POC.svg)
 
 - [https://github.com/chainguard-dev/text4shell-policy](https://github.com/chainguard-dev/text4shell-policy) :  ![starts](https://img.shields.io/github/stars/chainguard-dev/text4shell-policy.svg) ![forks](https://img.shields.io/github/forks/chainguard-dev/text4shell-policy.svg)
 
@@ -1766,9 +1766,9 @@
 
 - [https://github.com/miguelc49/CVE-2022-39987-3](https://github.com/miguelc49/CVE-2022-39987-3) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2022-39987-3.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2022-39987-3.svg)
 
-- [https://github.com/miguelc49/CVE-2022-39987-1](https://github.com/miguelc49/CVE-2022-39987-1) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2022-39987-1.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2022-39987-1.svg)
-
 - [https://github.com/miguelc49/CVE-2022-39987-2](https://github.com/miguelc49/CVE-2022-39987-2) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2022-39987-2.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2022-39987-2.svg)
+
+- [https://github.com/miguelc49/CVE-2022-39987-1](https://github.com/miguelc49/CVE-2022-39987-1) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2022-39987-1.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2022-39987-1.svg)
 
 ## CVE-2022-39986
  A Command injection vulnerability in RaspAP 2.8.0 thru 2.8.7 allows unauthenticated attackers to execute arbitrary commands via the cfg_id parameter in /ajax/openvpn/activate_ovpncfg.php and /ajax/openvpn/del_ovpncfg.php.
@@ -3491,8 +3491,6 @@
 
 - [https://github.com/winstxnhdw/CVE-2022-30190](https://github.com/winstxnhdw/CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/winstxnhdw/CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/winstxnhdw/CVE-2022-30190.svg)
 
-- [https://github.com/Muhammad-Ali007/Follina_MSDT_CVE-2022-30190](https://github.com/Muhammad-Ali007/Follina_MSDT_CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/Muhammad-Ali007/Follina_MSDT_CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/Muhammad-Ali007/Follina_MSDT_CVE-2022-30190.svg)
-
 - [https://github.com/joshuavanderpoll/CVE-2022-30190](https://github.com/joshuavanderpoll/CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/joshuavanderpoll/CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/joshuavanderpoll/CVE-2022-30190.svg)
 
 - [https://github.com/ToxicEnvelope/FOLLINA-CVE-2022-30190](https://github.com/ToxicEnvelope/FOLLINA-CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/ToxicEnvelope/FOLLINA-CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/ToxicEnvelope/FOLLINA-CVE-2022-30190.svg)
@@ -3504,6 +3502,8 @@
 - [https://github.com/Lucaskrell/go_follina](https://github.com/Lucaskrell/go_follina) :  ![starts](https://img.shields.io/github/stars/Lucaskrell/go_follina.svg) ![forks](https://img.shields.io/github/forks/Lucaskrell/go_follina.svg)
 
 - [https://github.com/EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-](https://github.com/EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-) :  ![starts](https://img.shields.io/github/stars/EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-.svg) ![forks](https://img.shields.io/github/forks/EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-.svg)
+
+- [https://github.com/Muhammad-Ali007/Follina_MSDT_CVE-2022-30190](https://github.com/Muhammad-Ali007/Follina_MSDT_CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/Muhammad-Ali007/Follina_MSDT_CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/Muhammad-Ali007/Follina_MSDT_CVE-2022-30190.svg)
 
 - [https://github.com/Jump-Wang-111/AmzWord](https://github.com/Jump-Wang-111/AmzWord) :  ![starts](https://img.shields.io/github/stars/Jump-Wang-111/AmzWord.svg) ![forks](https://img.shields.io/github/forks/Jump-Wang-111/AmzWord.svg)
 
@@ -4517,9 +4517,9 @@
 
 
 
-- [https://github.com/scopion/CVE-2022-26629](https://github.com/scopion/CVE-2022-26629) :  ![starts](https://img.shields.io/github/stars/scopion/CVE-2022-26629.svg) ![forks](https://img.shields.io/github/forks/scopion/CVE-2022-26629.svg)
-
 - [https://github.com/sysenter-eip/CVE-2022-26629](https://github.com/sysenter-eip/CVE-2022-26629) :  ![starts](https://img.shields.io/github/stars/sysenter-eip/CVE-2022-26629.svg) ![forks](https://img.shields.io/github/forks/sysenter-eip/CVE-2022-26629.svg)
+
+- [https://github.com/scopion/CVE-2022-26629](https://github.com/scopion/CVE-2022-26629) :  ![starts](https://img.shields.io/github/stars/scopion/CVE-2022-26629.svg) ![forks](https://img.shields.io/github/forks/scopion/CVE-2022-26629.svg)
 
 ## CVE-2022-26627
  Online Project Time Management System v1.0 was discovered to contain an arbitrary file write vulnerability which allows attackers to execute arbitrary code via a crafted HTML file.
@@ -4740,9 +4740,9 @@
 
 - [https://github.com/f4yd4-s3c/cve-2022-26134](https://github.com/f4yd4-s3c/cve-2022-26134) :  ![starts](https://img.shields.io/github/stars/f4yd4-s3c/cve-2022-26134.svg) ![forks](https://img.shields.io/github/forks/f4yd4-s3c/cve-2022-26134.svg)
 
-- [https://github.com/b4dboy17/CVE-2022-26134](https://github.com/b4dboy17/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/b4dboy17/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/b4dboy17/CVE-2022-26134.svg)
-
 - [https://github.com/0xAgun/CVE-2022-26134](https://github.com/0xAgun/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/0xAgun/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/0xAgun/CVE-2022-26134.svg)
+
+- [https://github.com/b4dboy17/CVE-2022-26134](https://github.com/b4dboy17/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/b4dboy17/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/b4dboy17/CVE-2022-26134.svg)
 
 - [https://github.com/ColdFusionX/CVE-2022-26134](https://github.com/ColdFusionX/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/ColdFusionX/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/ColdFusionX/CVE-2022-26134.svg)
 
@@ -4758,13 +4758,13 @@
 
 - [https://github.com/kailing0220/CVE-2022-26134](https://github.com/kailing0220/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/kailing0220/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/kailing0220/CVE-2022-26134.svg)
 
-- [https://github.com/Sakura-nee/CVE-2022-26134](https://github.com/Sakura-nee/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/Sakura-nee/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/Sakura-nee/CVE-2022-26134.svg)
-
 - [https://github.com/1337in/CVE-2022-26134web](https://github.com/1337in/CVE-2022-26134web) :  ![starts](https://img.shields.io/github/stars/1337in/CVE-2022-26134web.svg) ![forks](https://img.shields.io/github/forks/1337in/CVE-2022-26134web.svg)
 
-- [https://github.com/Brucetg/CVE-2022-26134](https://github.com/Brucetg/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/Brucetg/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/Brucetg/CVE-2022-26134.svg)
+- [https://github.com/Sakura-nee/CVE-2022-26134](https://github.com/Sakura-nee/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/Sakura-nee/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/Sakura-nee/CVE-2022-26134.svg)
 
 - [https://github.com/kelemaoya/CVE-2022-26134](https://github.com/kelemaoya/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/kelemaoya/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/kelemaoya/CVE-2022-26134.svg)
+
+- [https://github.com/Brucetg/CVE-2022-26134](https://github.com/Brucetg/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/Brucetg/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/Brucetg/CVE-2022-26134.svg)
 
 - [https://github.com/404fu/CVE-2022-26134-POC](https://github.com/404fu/CVE-2022-26134-POC) :  ![starts](https://img.shields.io/github/stars/404fu/CVE-2022-26134-POC.svg) ![forks](https://img.shields.io/github/forks/404fu/CVE-2022-26134-POC.svg)
 
@@ -4788,13 +4788,13 @@
 
 - [https://github.com/wjlin0/CVE-2022-26134](https://github.com/wjlin0/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/wjlin0/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/wjlin0/CVE-2022-26134.svg)
 
-- [https://github.com/Habib0x0/CVE-2022-26134](https://github.com/Habib0x0/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/Habib0x0/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/Habib0x0/CVE-2022-26134.svg)
-
 - [https://github.com/Jhonsonwannaa/CVE_20222_26134](https://github.com/Jhonsonwannaa/CVE_20222_26134) :  ![starts](https://img.shields.io/github/stars/Jhonsonwannaa/CVE_20222_26134.svg) ![forks](https://img.shields.io/github/forks/Jhonsonwannaa/CVE_20222_26134.svg)
 
 - [https://github.com/yyqxi/CVE-2022-26134](https://github.com/yyqxi/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/yyqxi/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/yyqxi/CVE-2022-26134.svg)
 
 - [https://github.com/DARKSTUFF-LAB/-CVE-2022-26134](https://github.com/DARKSTUFF-LAB/-CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/DARKSTUFF-LAB/-CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/DARKSTUFF-LAB/-CVE-2022-26134.svg)
+
+- [https://github.com/Habib0x0/CVE-2022-26134](https://github.com/Habib0x0/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/Habib0x0/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/Habib0x0/CVE-2022-26134.svg)
 
 - [https://github.com/axingde/CVE-2022-26134](https://github.com/axingde/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/axingde/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/axingde/CVE-2022-26134.svg)
 
@@ -4804,9 +4804,9 @@
 
 - [https://github.com/incogbyte/CVE_2022_26134-detect](https://github.com/incogbyte/CVE_2022_26134-detect) :  ![starts](https://img.shields.io/github/stars/incogbyte/CVE_2022_26134-detect.svg) ![forks](https://img.shields.io/github/forks/incogbyte/CVE_2022_26134-detect.svg)
 
-- [https://github.com/Muhammad-Ali007/Atlassian_CVE-2022-26134](https://github.com/Muhammad-Ali007/Atlassian_CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/Muhammad-Ali007/Atlassian_CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/Muhammad-Ali007/Atlassian_CVE-2022-26134.svg)
-
 - [https://github.com/vesperp/CVE-2022-26134-Confluence](https://github.com/vesperp/CVE-2022-26134-Confluence) :  ![starts](https://img.shields.io/github/stars/vesperp/CVE-2022-26134-Confluence.svg) ![forks](https://img.shields.io/github/forks/vesperp/CVE-2022-26134-Confluence.svg)
+
+- [https://github.com/Muhammad-Ali007/Atlassian_CVE-2022-26134](https://github.com/Muhammad-Ali007/Atlassian_CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/Muhammad-Ali007/Atlassian_CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/Muhammad-Ali007/Atlassian_CVE-2022-26134.svg)
 
 - [https://github.com/Luchoane/CVE-2022-26134_conFLU](https://github.com/Luchoane/CVE-2022-26134_conFLU) :  ![starts](https://img.shields.io/github/stars/Luchoane/CVE-2022-26134_conFLU.svg) ![forks](https://img.shields.io/github/forks/Luchoane/CVE-2022-26134_conFLU.svg)
 
@@ -6116,9 +6116,9 @@
 
 - [https://github.com/SealPaPaPa/SpringCloudFunction-Research](https://github.com/SealPaPaPa/SpringCloudFunction-Research) :  ![starts](https://img.shields.io/github/stars/SealPaPaPa/SpringCloudFunction-Research.svg) ![forks](https://img.shields.io/github/forks/SealPaPaPa/SpringCloudFunction-Research.svg)
 
-- [https://github.com/AayushmanThapaMagar/CVE-2022-22963](https://github.com/AayushmanThapaMagar/CVE-2022-22963) :  ![starts](https://img.shields.io/github/stars/AayushmanThapaMagar/CVE-2022-22963.svg) ![forks](https://img.shields.io/github/forks/AayushmanThapaMagar/CVE-2022-22963.svg)
-
 - [https://github.com/puckiestyle/CVE-2022-22963](https://github.com/puckiestyle/CVE-2022-22963) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2022-22963.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2022-22963.svg)
+
+- [https://github.com/AayushmanThapaMagar/CVE-2022-22963](https://github.com/AayushmanThapaMagar/CVE-2022-22963) :  ![starts](https://img.shields.io/github/stars/AayushmanThapaMagar/CVE-2022-22963.svg) ![forks](https://img.shields.io/github/forks/AayushmanThapaMagar/CVE-2022-22963.svg)
 
 - [https://github.com/dr6817/CVE-2022-22963](https://github.com/dr6817/CVE-2022-22963) :  ![starts](https://img.shields.io/github/stars/dr6817/CVE-2022-22963.svg) ![forks](https://img.shields.io/github/forks/dr6817/CVE-2022-22963.svg)
 
@@ -7434,11 +7434,11 @@
 
 - [https://github.com/mr-vill4in/CVE-2022-1388](https://github.com/mr-vill4in/CVE-2022-1388) :  ![starts](https://img.shields.io/github/stars/mr-vill4in/CVE-2022-1388.svg) ![forks](https://img.shields.io/github/forks/mr-vill4in/CVE-2022-1388.svg)
 
+- [https://github.com/battleofthebots/refresh](https://github.com/battleofthebots/refresh) :  ![starts](https://img.shields.io/github/stars/battleofthebots/refresh.svg) ![forks](https://img.shields.io/github/forks/battleofthebots/refresh.svg)
+
 - [https://github.com/Hudi233/CVE-2022-1388](https://github.com/Hudi233/CVE-2022-1388) :  ![starts](https://img.shields.io/github/stars/Hudi233/CVE-2022-1388.svg) ![forks](https://img.shields.io/github/forks/Hudi233/CVE-2022-1388.svg)
 
 - [https://github.com/v4sh25/CVE_2022_1388](https://github.com/v4sh25/CVE_2022_1388) :  ![starts](https://img.shields.io/github/stars/v4sh25/CVE_2022_1388.svg) ![forks](https://img.shields.io/github/forks/v4sh25/CVE_2022_1388.svg)
-
-- [https://github.com/battleofthebots/refresh](https://github.com/battleofthebots/refresh) :  ![starts](https://img.shields.io/github/stars/battleofthebots/refresh.svg) ![forks](https://img.shields.io/github/forks/battleofthebots/refresh.svg)
 
 - [https://github.com/omnigodz/CVE-2022-1388](https://github.com/omnigodz/CVE-2022-1388) :  ![starts](https://img.shields.io/github/stars/omnigodz/CVE-2022-1388.svg) ![forks](https://img.shields.io/github/forks/omnigodz/CVE-2022-1388.svg)
 
@@ -7630,13 +7630,13 @@
 
 - [https://github.com/shuttterman/bob_kern_exp1](https://github.com/shuttterman/bob_kern_exp1) :  ![starts](https://img.shields.io/github/stars/shuttterman/bob_kern_exp1.svg) ![forks](https://img.shields.io/github/forks/shuttterman/bob_kern_exp1.svg)
 
-- [https://github.com/more-kohii/CVE-2022-1015](https://github.com/more-kohii/CVE-2022-1015) :  ![starts](https://img.shields.io/github/stars/more-kohii/CVE-2022-1015.svg) ![forks](https://img.shields.io/github/forks/more-kohii/CVE-2022-1015.svg)
-
 - [https://github.com/0range1337/CVE-2022-1015](https://github.com/0range1337/CVE-2022-1015) :  ![starts](https://img.shields.io/github/stars/0range1337/CVE-2022-1015.svg) ![forks](https://img.shields.io/github/forks/0range1337/CVE-2022-1015.svg)
 
-- [https://github.com/delsploit/CVE-2022-1015](https://github.com/delsploit/CVE-2022-1015) :  ![starts](https://img.shields.io/github/stars/delsploit/CVE-2022-1015.svg) ![forks](https://img.shields.io/github/forks/delsploit/CVE-2022-1015.svg)
+- [https://github.com/more-kohii/CVE-2022-1015](https://github.com/more-kohii/CVE-2022-1015) :  ![starts](https://img.shields.io/github/stars/more-kohii/CVE-2022-1015.svg) ![forks](https://img.shields.io/github/forks/more-kohii/CVE-2022-1015.svg)
 
 - [https://github.com/wlswotmd/CVE-2022-1015](https://github.com/wlswotmd/CVE-2022-1015) :  ![starts](https://img.shields.io/github/stars/wlswotmd/CVE-2022-1015.svg) ![forks](https://img.shields.io/github/forks/wlswotmd/CVE-2022-1015.svg)
+
+- [https://github.com/delsploit/CVE-2022-1015](https://github.com/delsploit/CVE-2022-1015) :  ![starts](https://img.shields.io/github/stars/delsploit/CVE-2022-1015.svg) ![forks](https://img.shields.io/github/forks/delsploit/CVE-2022-1015.svg)
 
 - [https://github.com/zanezhub/CVE-2022-1015-1016](https://github.com/zanezhub/CVE-2022-1015-1016) :  ![starts](https://img.shields.io/github/stars/zanezhub/CVE-2022-1015-1016.svg) ![forks](https://img.shields.io/github/forks/zanezhub/CVE-2022-1015-1016.svg)
 
@@ -7856,15 +7856,15 @@
 
 - [https://github.com/V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit) :  ![starts](https://img.shields.io/github/stars/V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit.svg) ![forks](https://img.shields.io/github/forks/V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit.svg)
 
-- [https://github.com/letsr00t/CVE-2022-0847](https://github.com/letsr00t/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/letsr00t/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/letsr00t/CVE-2022-0847.svg)
-
 - [https://github.com/cont3mpt/CVE-2022-0847](https://github.com/cont3mpt/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/cont3mpt/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/cont3mpt/CVE-2022-0847.svg)
 
-- [https://github.com/babyshen/CVE-2022-0847](https://github.com/babyshen/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/babyshen/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/babyshen/CVE-2022-0847.svg)
+- [https://github.com/letsr00t/CVE-2022-0847](https://github.com/letsr00t/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/letsr00t/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/letsr00t/CVE-2022-0847.svg)
 
 - [https://github.com/qqdagustian/CVE_2022_0847](https://github.com/qqdagustian/CVE_2022_0847) :  ![starts](https://img.shields.io/github/stars/qqdagustian/CVE_2022_0847.svg) ![forks](https://img.shields.io/github/forks/qqdagustian/CVE_2022_0847.svg)
 
 - [https://github.com/s3mPr1linux/CVE_2022_0847](https://github.com/s3mPr1linux/CVE_2022_0847) :  ![starts](https://img.shields.io/github/stars/s3mPr1linux/CVE_2022_0847.svg) ![forks](https://img.shields.io/github/forks/s3mPr1linux/CVE_2022_0847.svg)
+
+- [https://github.com/babyshen/CVE-2022-0847](https://github.com/babyshen/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/babyshen/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/babyshen/CVE-2022-0847.svg)
 
 - [https://github.com/2xYuan/CVE-2022-0847](https://github.com/2xYuan/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/2xYuan/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/2xYuan/CVE-2022-0847.svg)
 
@@ -7880,8 +7880,6 @@
 
 - [https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-](https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-) :  ![starts](https://img.shields.io/github/stars/Greetdawn/CVE-2022-0847-DirtyPipe-.svg) ![forks](https://img.shields.io/github/forks/Greetdawn/CVE-2022-0847-DirtyPipe-.svg)
 
-- [https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-](https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-) :  ![starts](https://img.shields.io/github/stars/edsonjt81/CVE-2022-0847-DirtyPipe-.svg) ![forks](https://img.shields.io/github/forks/edsonjt81/CVE-2022-0847-DirtyPipe-.svg)
-
 - [https://github.com/al4xs/CVE-2022-0847-Dirty-Pipe](https://github.com/al4xs/CVE-2022-0847-Dirty-Pipe) :  ![starts](https://img.shields.io/github/stars/al4xs/CVE-2022-0847-Dirty-Pipe.svg) ![forks](https://img.shields.io/github/forks/al4xs/CVE-2022-0847-Dirty-Pipe.svg)
 
 - [https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe](https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe) :  ![starts](https://img.shields.io/github/stars/Greetdawn/CVE-2022-0847-DirtyPipe.svg) ![forks](https://img.shields.io/github/forks/Greetdawn/CVE-2022-0847-DirtyPipe.svg)
@@ -7889,6 +7887,8 @@
 - [https://github.com/joeymeech/CVE-2022-0847-Exploit-Implementation](https://github.com/joeymeech/CVE-2022-0847-Exploit-Implementation) :  ![starts](https://img.shields.io/github/stars/joeymeech/CVE-2022-0847-Exploit-Implementation.svg) ![forks](https://img.shields.io/github/forks/joeymeech/CVE-2022-0847-Exploit-Implementation.svg)
 
 - [https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847](https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/pmihsan/Dirty-Pipe-CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/pmihsan/Dirty-Pipe-CVE-2022-0847.svg)
+
+- [https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-](https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-) :  ![starts](https://img.shields.io/github/stars/edsonjt81/CVE-2022-0847-DirtyPipe-.svg) ![forks](https://img.shields.io/github/forks/edsonjt81/CVE-2022-0847-DirtyPipe-.svg)
 
 - [https://github.com/AyoubNajim/cve-2022-0847dirtypipe-exploit](https://github.com/AyoubNajim/cve-2022-0847dirtypipe-exploit) :  ![starts](https://img.shields.io/github/stars/AyoubNajim/cve-2022-0847dirtypipe-exploit.svg) ![forks](https://img.shields.io/github/forks/AyoubNajim/cve-2022-0847dirtypipe-exploit.svg)
 
