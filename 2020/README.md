@@ -1350,9 +1350,9 @@
 
 
 
-- [https://github.com/underprotection/CVE-2020-24030](https://github.com/underprotection/CVE-2020-24030) :  ![starts](https://img.shields.io/github/stars/underprotection/CVE-2020-24030.svg) ![forks](https://img.shields.io/github/forks/underprotection/CVE-2020-24030.svg)
-
 - [https://github.com/redteambrasil/CVE-2020-24030](https://github.com/redteambrasil/CVE-2020-24030) :  ![starts](https://img.shields.io/github/stars/redteambrasil/CVE-2020-24030.svg) ![forks](https://img.shields.io/github/forks/redteambrasil/CVE-2020-24030.svg)
+
+- [https://github.com/underprotection/CVE-2020-24030](https://github.com/underprotection/CVE-2020-24030) :  ![starts](https://img.shields.io/github/stars/underprotection/CVE-2020-24030.svg) ![forks](https://img.shields.io/github/forks/underprotection/CVE-2020-24030.svg)
 
 ## CVE-2020-24029
  Because of unauthenticated password changes in ForLogic Qualiex v1 and v3, customer and admin permissions and data can be accessed via a simple request.
@@ -4078,9 +4078,9 @@
 
 
 
-- [https://github.com/SnipJoe/CVE-2020-8888](https://github.com/SnipJoe/CVE-2020-8888) :  ![starts](https://img.shields.io/github/stars/SnipJoe/CVE-2020-8888.svg) ![forks](https://img.shields.io/github/forks/SnipJoe/CVE-2020-8888.svg)
-
 - [https://github.com/tdcoming/CVE-2020-88888](https://github.com/tdcoming/CVE-2020-88888) :  ![starts](https://img.shields.io/github/stars/tdcoming/CVE-2020-88888.svg) ![forks](https://img.shields.io/github/forks/tdcoming/CVE-2020-88888.svg)
+
+- [https://github.com/SnipJoe/CVE-2020-8888](https://github.com/SnipJoe/CVE-2020-8888) :  ![starts](https://img.shields.io/github/stars/SnipJoe/CVE-2020-8888.svg) ![forks](https://img.shields.io/github/forks/SnipJoe/CVE-2020-8888.svg)
 
 ## CVE-2020-8841
  An issue was discovered in TestLink 1.9.19. The relation_type parameter of the lib/requirements/reqSearch.php endpoint is vulnerable to authenticated SQL Injection.
@@ -4801,9 +4801,9 @@
 
 - [https://github.com/r0lh/CVE-2020-7247](https://github.com/r0lh/CVE-2020-7247) :  ![starts](https://img.shields.io/github/stars/r0lh/CVE-2020-7247.svg) ![forks](https://img.shields.io/github/forks/r0lh/CVE-2020-7247.svg)
 
-- [https://github.com/SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC) :  ![starts](https://img.shields.io/github/stars/SimonSchoeni/CVE-2020-7247-POC.svg) ![forks](https://img.shields.io/github/forks/SimonSchoeni/CVE-2020-7247-POC.svg)
-
 - [https://github.com/presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud) :  ![starts](https://img.shields.io/github/stars/presentdaypresenttime/shai_hulud.svg) ![forks](https://img.shields.io/github/forks/presentdaypresenttime/shai_hulud.svg)
+
+- [https://github.com/SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC) :  ![starts](https://img.shields.io/github/stars/SimonSchoeni/CVE-2020-7247-POC.svg) ![forks](https://img.shields.io/github/forks/SimonSchoeni/CVE-2020-7247-POC.svg)
 
 - [https://github.com/f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247) :  ![starts](https://img.shields.io/github/stars/f4T1H21/CVE-2020-7247.svg) ![forks](https://img.shields.io/github/forks/f4T1H21/CVE-2020-7247.svg)
 
@@ -5016,9 +5016,9 @@
 
 - [https://github.com/f5devcentral/cve-2020-5902-ioc-bigip-checker](https://github.com/f5devcentral/cve-2020-5902-ioc-bigip-checker) :  ![starts](https://img.shields.io/github/stars/f5devcentral/cve-2020-5902-ioc-bigip-checker.svg) ![forks](https://img.shields.io/github/forks/f5devcentral/cve-2020-5902-ioc-bigip-checker.svg)
 
-- [https://github.com/zhzyker/CVE-2020-5902](https://github.com/zhzyker/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/zhzyker/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/zhzyker/CVE-2020-5902.svg)
-
 - [https://github.com/PushpenderIndia/CVE-2020-5902-Scanner](https://github.com/PushpenderIndia/CVE-2020-5902-Scanner) :  ![starts](https://img.shields.io/github/stars/PushpenderIndia/CVE-2020-5902-Scanner.svg) ![forks](https://img.shields.io/github/forks/PushpenderIndia/CVE-2020-5902-Scanner.svg)
+
+- [https://github.com/zhzyker/CVE-2020-5902](https://github.com/zhzyker/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/zhzyker/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/zhzyker/CVE-2020-5902.svg)
 
 - [https://github.com/ar0dd/CVE-2020-5902](https://github.com/ar0dd/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/ar0dd/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/ar0dd/CVE-2020-5902.svg)
 
@@ -5729,9 +5729,9 @@
 
 - [https://github.com/arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/arzuozkan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/arzuozkan/CVE-2020-0796.svg)
 
-- [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
-
 - [https://github.com/datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/datntsec/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/datntsec/CVE-2020-0796.svg)
+
+- [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
 
 - [https://github.com/intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/intelliroot-tech/cve-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/intelliroot-tech/cve-2020-0796-Scanner.svg)
 
@@ -5761,9 +5761,9 @@
 
 - [https://github.com/Opensitoo/cve-2020-0796](https://github.com/Opensitoo/cve-2020-0796) :  ![starts](https://img.shields.io/github/stars/Opensitoo/cve-2020-0796.svg) ![forks](https://img.shields.io/github/forks/Opensitoo/cve-2020-0796.svg)
 
-- [https://github.com/krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/krizzz07/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/krizzz07/CVE-2020-0796.svg)
-
 - [https://github.com/abdullah098/CVE_2020_0796](https://github.com/abdullah098/CVE_2020_0796) :  ![starts](https://img.shields.io/github/stars/abdullah098/CVE_2020_0796.svg) ![forks](https://img.shields.io/github/forks/abdullah098/CVE_2020_0796.svg)
+
+- [https://github.com/krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/krizzz07/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/krizzz07/CVE-2020-0796.svg)
 
 - [https://github.com/heeloo123/CVE-2020-0796](https://github.com/heeloo123/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/heeloo123/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/heeloo123/CVE-2020-0796.svg)
 
