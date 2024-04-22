@@ -1,18 +1,37 @@
-# Update 2024-04-21
-## CVE-2024-1651
- Torrentpier version 2.4.1 allows executing arbitrary commands on the server. This is possible because the application is vulnerable to insecure deserialization.
+# Update 2024-04-22
+## CVE-2024-25600
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Whiteh4tWolf/CVE-2024-1651-PoC](https://github.com/Whiteh4tWolf/CVE-2024-1651-PoC) :  ![starts](https://img.shields.io/github/stars/Whiteh4tWolf/CVE-2024-1651-PoC.svg) ![forks](https://img.shields.io/github/forks/Whiteh4tWolf/CVE-2024-1651-PoC.svg)
-
-
-## CVE-2023-51385
- In ssh in OpenSSH before 9.6, OS command injection might occur if a user name or host name has shell metacharacters, and this name is referenced by an expansion token in certain situations. For example, an untrusted Git repository can have a submodule with shell metacharacters in a user name or host name.
-
-- [https://github.com/GoodPeople-ZhangSan/CVE-2023-51385_test](https://github.com/GoodPeople-ZhangSan/CVE-2023-51385_test) :  ![starts](https://img.shields.io/github/stars/GoodPeople-ZhangSan/CVE-2023-51385_test.svg) ![forks](https://img.shields.io/github/forks/GoodPeople-ZhangSan/CVE-2023-51385_test.svg)
+- [https://github.com/X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE](https://github.com/X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE) :  ![starts](https://img.shields.io/github/stars/X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE.svg) ![forks](https://img.shields.io/github/forks/X-Projetion/WORDPRESS-CVE-2024-25600-EXPLOIT-RCE.svg)
 
 
-## CVE-2018-6574
- Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10rc2 allow &quot;go get&quot; remote command execution during source code build, by leveraging the gcc or clang plugin feature, because -fplugin= and -plugin= arguments were not blocked.
+## CVE-2024-24576
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/faiqu3/cve-2018-6574](https://github.com/faiqu3/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/faiqu3/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/faiqu3/cve-2018-6574.svg)
+- [https://github.com/p14t1num/cve-2024-24576-python](https://github.com/p14t1num/cve-2024-24576-python) :  ![starts](https://img.shields.io/github/stars/p14t1num/cve-2024-24576-python.svg) ![forks](https://img.shields.io/github/forks/p14t1num/cve-2024-24576-python.svg)
+- [https://github.com/Gaurav1020/CVE-2024-24576-PoC-Rust](https://github.com/Gaurav1020/CVE-2024-24576-PoC-Rust) :  ![starts](https://img.shields.io/github/stars/Gaurav1020/CVE-2024-24576-PoC-Rust.svg) ![forks](https://img.shields.io/github/forks/Gaurav1020/CVE-2024-24576-PoC-Rust.svg)
+
+
+## CVE-2023-51119
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/OscarAkaElvis/CVE-2023-51119](https://github.com/OscarAkaElvis/CVE-2023-51119) :  ![starts](https://img.shields.io/github/stars/OscarAkaElvis/CVE-2023-51119.svg) ![forks](https://img.shields.io/github/forks/OscarAkaElvis/CVE-2023-51119.svg)
+
+
+## CVE-2019-11395
+ A buffer overflow in MailCarrier 2.51 allows remote attackers to execute arbitrary code via a long string, as demonstrated by SMTP RCPT TO, POP3 USER, POP3 LIST, POP3 TOP, or POP3 RETR.
+
+- [https://github.com/caioprince/CVE-2019-11395](https://github.com/caioprince/CVE-2019-11395) :  ![starts](https://img.shields.io/github/stars/caioprince/CVE-2019-11395.svg) ![forks](https://img.shields.io/github/forks/caioprince/CVE-2019-11395.svg)
+
+
+## CVE-2018-8062
+ A cross-site scripting (XSS) vulnerability on Comtrend AR-5387un devices with A731-410JAZ-C04_R02.A2pD035g.d23i firmware allows remote attackers to inject arbitrary web script or HTML via the Service Description parameter while creating a WAN service.
+
+- [https://github.com/OscarAkaElvis/CVE-2018-8062](https://github.com/OscarAkaElvis/CVE-2018-8062) :  ![starts](https://img.shields.io/github/stars/OscarAkaElvis/CVE-2018-8062.svg) ![forks](https://img.shields.io/github/forks/OscarAkaElvis/CVE-2018-8062.svg)
+
+
+## CVE-2017-5638
+ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
+
+- [https://github.com/xeroxis-xs/Computer-Security-Apache-Struts-Vulnerability](https://github.com/xeroxis-xs/Computer-Security-Apache-Struts-Vulnerability) :  ![starts](https://img.shields.io/github/stars/xeroxis-xs/Computer-Security-Apache-Struts-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/xeroxis-xs/Computer-Security-Apache-Struts-Vulnerability.svg)
 
