@@ -1,3 +1,10 @@
+## CVE-2015-20107
+ In Python (aka CPython) up to 3.10.8, the mailcap module does not add escape characters into commands discovered in the system mailcap file. This may allow attackers to inject shell commands into applications that call mailcap.findmatch with untrusted input (if they lack validation of user-provided filenames or arguments). The fix is also back-ported to 3.7, 3.8, 3.9
+
+
+
+- [https://github.com/codeskipper/Snake-Patrol](https://github.com/codeskipper/Snake-Patrol) :  ![starts](https://img.shields.io/github/stars/codeskipper/Snake-Patrol.svg) ![forks](https://img.shields.io/github/forks/codeskipper/Snake-Patrol.svg)
+
 ## CVE-2015-10034
  A vulnerability has been found in j-nowak workout-organizer and classified as critical. This vulnerability affects unknown code. The manipulation leads to sql injection. The patch is identified as 13cd6c3d1210640bfdb39872b2bb3597aa991279. It is recommended to apply a patch to fix this issue. VDB-217714 is the identifier assigned to this vulnerability.
 
@@ -1109,9 +1116,9 @@
 
 - [https://github.com/arm13/ghost_exploit](https://github.com/arm13/ghost_exploit) :  ![starts](https://img.shields.io/github/stars/arm13/ghost_exploit.svg) ![forks](https://img.shields.io/github/forks/arm13/ghost_exploit.svg)
 
-- [https://github.com/mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook) :  ![starts](https://img.shields.io/github/stars/mikesplain/CVE-2015-0235-cookbook.svg) ![forks](https://img.shields.io/github/forks/mikesplain/CVE-2015-0235-cookbook.svg)
-
 - [https://github.com/mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST) :  ![starts](https://img.shields.io/github/stars/mholzinger/CVE-2015-0235_GHOST.svg) ![forks](https://img.shields.io/github/forks/mholzinger/CVE-2015-0235_GHOST.svg)
+
+- [https://github.com/mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook) :  ![starts](https://img.shields.io/github/stars/mikesplain/CVE-2015-0235-cookbook.svg) ![forks](https://img.shields.io/github/forks/mikesplain/CVE-2015-0235-cookbook.svg)
 
 - [https://github.com/piyokango/ghost](https://github.com/piyokango/ghost) :  ![starts](https://img.shields.io/github/stars/piyokango/ghost.svg) ![forks](https://img.shields.io/github/forks/piyokango/ghost.svg)
 
@@ -1160,11 +1167,11 @@
 
 - [https://github.com/scottjpack/Freak-Scanner](https://github.com/scottjpack/Freak-Scanner) :  ![starts](https://img.shields.io/github/stars/scottjpack/Freak-Scanner.svg) ![forks](https://img.shields.io/github/forks/scottjpack/Freak-Scanner.svg)
 
+- [https://github.com/felmoltor/FreakVulnChecker](https://github.com/felmoltor/FreakVulnChecker) :  ![starts](https://img.shields.io/github/stars/felmoltor/FreakVulnChecker.svg) ![forks](https://img.shields.io/github/forks/felmoltor/FreakVulnChecker.svg)
+
 - [https://github.com/anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/anthophilee/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/anthophilee/A2SV--SSL-VUL-Scan.svg)
 
 - [https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204) :  ![starts](https://img.shields.io/github/stars/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204.svg) ![forks](https://img.shields.io/github/forks/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204.svg)
-
-- [https://github.com/felmoltor/FreakVulnChecker](https://github.com/felmoltor/FreakVulnChecker) :  ![starts](https://img.shields.io/github/stars/felmoltor/FreakVulnChecker.svg) ![forks](https://img.shields.io/github/forks/felmoltor/FreakVulnChecker.svg)
 
 ## CVE-2015-0072
  Cross-site scripting (XSS) vulnerability in Microsoft Internet Explorer 9 through 11 allows remote attackers to bypass the Same Origin Policy and inject arbitrary web script or HTML via vectors involving an IFRAME element that triggers a redirect, a second IFRAME element that does not trigger a redirect, and an eval of a WindowProxy object, aka &quot;Universal XSS (UXSS).&quot;
