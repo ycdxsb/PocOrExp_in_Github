@@ -7,13 +7,6 @@
 
 - [https://github.com/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC](https://github.com/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC) :  ![starts](https://img.shields.io/github/stars/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC.svg) ![forks](https://img.shields.io/github/forks/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC.svg)
 
-## CVE-2024-29988
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/AlexDoe11/CVE-2024-29988-MS-Exchange-RCE](https://github.com/AlexDoe11/CVE-2024-29988-MS-Exchange-RCE) :  ![starts](https://img.shields.io/github/stars/AlexDoe11/CVE-2024-29988-MS-Exchange-RCE.svg) ![forks](https://img.shields.io/github/forks/AlexDoe11/CVE-2024-29988-MS-Exchange-RCE.svg)
-
 ## CVE-2024-29455
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -368,7 +361,7 @@
 
 - [https://github.com/W01fh4cker/CVE-2024-27198-RCE](https://github.com/W01fh4cker/CVE-2024-27198-RCE) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/CVE-2024-27198-RCE.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/CVE-2024-27198-RCE.svg)
 
-- [https://github.com/Stuub/RCity-CVE-2024-27199](https://github.com/Stuub/RCity-CVE-2024-27199) :  ![starts](https://img.shields.io/github/stars/Stuub/RCity-CVE-2024-27199.svg) ![forks](https://img.shields.io/github/forks/Stuub/RCity-CVE-2024-27199.svg)
+- [https://github.com/Stuub/RCity-CVE-2024-27198](https://github.com/Stuub/RCity-CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/Stuub/RCity-CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/Stuub/RCity-CVE-2024-27198.svg)
 
 - [https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-](https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-) :  ![starts](https://img.shields.io/github/stars/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-.svg) ![forks](https://img.shields.io/github/forks/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-.svg)
 
@@ -379,9 +372,11 @@
 
 - [https://github.com/W01fh4cker/CVE-2024-27198-RCE](https://github.com/W01fh4cker/CVE-2024-27198-RCE) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/CVE-2024-27198-RCE.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/CVE-2024-27198-RCE.svg)
 
+- [https://github.com/Chocapikk/CVE-2024-27198](https://github.com/Chocapikk/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-27198.svg)
+
 - [https://github.com/yoryio/CVE-2024-27198](https://github.com/yoryio/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2024-27198.svg)
 
-- [https://github.com/Chocapikk/CVE-2024-27198](https://github.com/Chocapikk/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-27198.svg)
+- [https://github.com/Stuub/RCity-CVE-2024-27198](https://github.com/Stuub/RCity-CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/Stuub/RCity-CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/Stuub/RCity-CVE-2024-27198.svg)
 
 - [https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2024-27198-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2024-27198-EXPLOIT.svg)
 
@@ -449,13 +444,6 @@
 
 - [https://github.com/TronciuVlad/CVE-2024-26475](https://github.com/TronciuVlad/CVE-2024-26475) :  ![starts](https://img.shields.io/github/stars/TronciuVlad/CVE-2024-26475.svg) ![forks](https://img.shields.io/github/forks/TronciuVlad/CVE-2024-26475.svg)
 
-## CVE-2024-26198
- Microsoft Exchange Server Remote Code Execution Vulnerability
-
-
-
-- [https://github.com/AlexDoe11/CVE-2024-26198-Exchange-RCE](https://github.com/AlexDoe11/CVE-2024-26198-Exchange-RCE) :  ![starts](https://img.shields.io/github/stars/AlexDoe11/CVE-2024-26198-Exchange-RCE.svg) ![forks](https://img.shields.io/github/forks/AlexDoe11/CVE-2024-26198-Exchange-RCE.svg)
-
 ## CVE-2024-25832
  F-logic DataCube3 v1.0 is vulnerable to unrestricted file upload, which could allow an authenticated malicious actor to upload a file of dangerous type by manipulating the filename extension.
 
@@ -511,13 +499,6 @@
 
 
 - [https://github.com/david-botelho-mariano/exploit-CVE-2024-25723](https://github.com/david-botelho-mariano/exploit-CVE-2024-25723) :  ![starts](https://img.shields.io/github/stars/david-botelho-mariano/exploit-CVE-2024-25723.svg) ![forks](https://img.shields.io/github/forks/david-botelho-mariano/exploit-CVE-2024-25723.svg)
-
-## CVE-2024-25693
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/AlexDoe11/CVE-2024-25693-exploit](https://github.com/AlexDoe11/CVE-2024-25693-exploit) :  ![starts](https://img.shields.io/github/stars/AlexDoe11/CVE-2024-25693-exploit.svg) ![forks](https://img.shields.io/github/forks/AlexDoe11/CVE-2024-25693-exploit.svg)
 
 ## CVE-2024-25600
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -599,6 +580,13 @@
 
 
 - [https://github.com/sajaljat/CVE-2024-25278](https://github.com/sajaljat/CVE-2024-25278) :  ![starts](https://img.shields.io/github/stars/sajaljat/CVE-2024-25278.svg) ![forks](https://img.shields.io/github/forks/sajaljat/CVE-2024-25278.svg)
+
+## CVE-2024-25277
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/maen08/CVE-2024-25277](https://github.com/maen08/CVE-2024-25277) :  ![starts](https://img.shields.io/github/stars/maen08/CVE-2024-25277.svg) ![forks](https://img.shields.io/github/forks/maen08/CVE-2024-25277.svg)
 
 ## CVE-2024-25270
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -709,8 +697,6 @@
 - [https://github.com/corysabol/batbadbut-demo](https://github.com/corysabol/batbadbut-demo) :  ![starts](https://img.shields.io/github/stars/corysabol/batbadbut-demo.svg) ![forks](https://img.shields.io/github/forks/corysabol/batbadbut-demo.svg)
 
 - [https://github.com/mishalhossin/CVE-2024-24576-PoC-Python](https://github.com/mishalhossin/CVE-2024-24576-PoC-Python) :  ![starts](https://img.shields.io/github/stars/mishalhossin/CVE-2024-24576-PoC-Python.svg) ![forks](https://img.shields.io/github/forks/mishalhossin/CVE-2024-24576-PoC-Python.svg)
-
-- [https://github.com/p14t1num/cve-2024-24576-python](https://github.com/p14t1num/cve-2024-24576-python) :  ![starts](https://img.shields.io/github/stars/p14t1num/cve-2024-24576-python.svg) ![forks](https://img.shields.io/github/forks/p14t1num/cve-2024-24576-python.svg)
 
 - [https://github.com/lpn/CVE-2024-24576.jl](https://github.com/lpn/CVE-2024-24576.jl) :  ![starts](https://img.shields.io/github/stars/lpn/CVE-2024-24576.jl.svg) ![forks](https://img.shields.io/github/forks/lpn/CVE-2024-24576.jl.svg)
 
@@ -1040,13 +1026,13 @@
 
 - [https://github.com/yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/yoryio/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/yoryio/CVE-2024-23897.svg)
 
+- [https://github.com/Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2024-23897.svg)
+
 - [https://github.com/Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Nebian/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Nebian/CVE-2024-23897.svg)
 
 - [https://github.com/jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2024-23897.svg)
 
 - [https://github.com/AbraXa5/Jenkins-CVE-2024-23897](https://github.com/AbraXa5/Jenkins-CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/AbraXa5/Jenkins-CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/AbraXa5/Jenkins-CVE-2024-23897.svg)
-
-- [https://github.com/Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2024-23897.svg)
 
 - [https://github.com/raheel0x01/CVE-2024-23897](https://github.com/raheel0x01/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/raheel0x01/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/raheel0x01/CVE-2024-23897.svg)
 
@@ -1442,13 +1428,6 @@
 
 - [https://github.com/0dteam/CVE-2024-22024](https://github.com/0dteam/CVE-2024-22024) :  ![starts](https://img.shields.io/github/stars/0dteam/CVE-2024-22024.svg) ![forks](https://img.shields.io/github/forks/0dteam/CVE-2024-22024.svg)
 
-## CVE-2024-21899
- An improper authentication vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to compromise the security of the system via a network. We have already fixed the vulnerability in the following versions: QTS 5.1.3.2578 build 20231110 and later QTS 4.5.4.2627 build 20231225 and later QuTS hero h5.1.3.2578 build 20231110 and later QuTS hero h4.5.4.2626 build 20231225 and later QuTScloud c5.1.5.2651 and later
-
-
-
-- [https://github.com/Oxdestiny/CVE-2024-21899-RCE-POC](https://github.com/Oxdestiny/CVE-2024-21899-RCE-POC) :  ![starts](https://img.shields.io/github/stars/Oxdestiny/CVE-2024-21899-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/Oxdestiny/CVE-2024-21899-RCE-POC.svg)
-
 ## CVE-2024-21893
  A server-side request forgery vulnerability in the SAML component of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x) and Ivanti Neurons for ZTA allows an attacker to access certain restricted resources without authentication.
 
@@ -1502,9 +1481,9 @@
 
 - [https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check) :  ![starts](https://img.shields.io/github/stars/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg) ![forks](https://img.shields.io/github/forks/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check.svg)
 
-- [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)
-
 - [https://github.com/d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21762.svg)
+
+- [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)
 
 - [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)
 
@@ -1553,20 +1532,6 @@
 
 - [https://github.com/KubernetesBachelor/CVE-2024-21626](https://github.com/KubernetesBachelor/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/KubernetesBachelor/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/KubernetesBachelor/CVE-2024-21626.svg)
 
-## CVE-2024-21508
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/Geniorio01/CVE-2024-21508-mysql2-RCE](https://github.com/Geniorio01/CVE-2024-21508-mysql2-RCE) :  ![starts](https://img.shields.io/github/stars/Geniorio01/CVE-2024-21508-mysql2-RCE.svg) ![forks](https://img.shields.io/github/forks/Geniorio01/CVE-2024-21508-mysql2-RCE.svg)
-
-## CVE-2024-21426
- Microsoft SharePoint Server Remote Code Execution Vulnerability
-
-
-
-- [https://github.com/Geniorio01/CVE-2024-21426-SharePoint-RCE](https://github.com/Geniorio01/CVE-2024-21426-SharePoint-RCE) :  ![starts](https://img.shields.io/github/stars/Geniorio01/CVE-2024-21426-SharePoint-RCE.svg) ![forks](https://img.shields.io/github/forks/Geniorio01/CVE-2024-21426-SharePoint-RCE.svg)
-
 ## CVE-2024-21413
  Microsoft Outlook Remote Code Execution Vulnerability
 
@@ -1604,13 +1569,6 @@
 
 - [https://github.com/JohnBordon/CVE-2024-21410-poc](https://github.com/JohnBordon/CVE-2024-21410-poc) :  ![starts](https://img.shields.io/github/stars/JohnBordon/CVE-2024-21410-poc.svg) ![forks](https://img.shields.io/github/forks/JohnBordon/CVE-2024-21410-poc.svg)
 
-## CVE-2024-21400
- Microsoft Azure Kubernetes Service Confidential Container Elevation of Privilege Vulnerability
-
-
-
-- [https://github.com/MegaCorp001/CVE-2024-21400-POC](https://github.com/MegaCorp001/CVE-2024-21400-POC) :  ![starts](https://img.shields.io/github/stars/MegaCorp001/CVE-2024-21400-POC.svg) ![forks](https://img.shields.io/github/forks/MegaCorp001/CVE-2024-21400-POC.svg)
-
 ## CVE-2024-21388
  Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability
 
@@ -1631,6 +1589,8 @@
 
 
 - [https://github.com/hakaioffsec/CVE-2024-21338](https://github.com/hakaioffsec/CVE-2024-21338) :  ![starts](https://img.shields.io/github/stars/hakaioffsec/CVE-2024-21338.svg) ![forks](https://img.shields.io/github/forks/hakaioffsec/CVE-2024-21338.svg)
+
+- [https://github.com/varwara/CVE-2024-21338](https://github.com/varwara/CVE-2024-21338) :  ![starts](https://img.shields.io/github/stars/varwara/CVE-2024-21338.svg) ![forks](https://img.shields.io/github/forks/varwara/CVE-2024-21338.svg)
 
 - [https://github.com/UMU618/CVE-2024-21338](https://github.com/UMU618/CVE-2024-21338) :  ![starts](https://img.shields.io/github/stars/UMU618/CVE-2024-21338.svg) ![forks](https://img.shields.io/github/forks/UMU618/CVE-2024-21338.svg)
 
@@ -1926,13 +1886,6 @@
 
 - [https://github.com/gunzf0x/Issabel-PBX-4.0.0-RCE-Authenticated](https://github.com/gunzf0x/Issabel-PBX-4.0.0-RCE-Authenticated) :  ![starts](https://img.shields.io/github/stars/gunzf0x/Issabel-PBX-4.0.0-RCE-Authenticated.svg) ![forks](https://img.shields.io/github/forks/gunzf0x/Issabel-PBX-4.0.0-RCE-Authenticated.svg)
 
-## CVE-2024-0967
- A potential vulnerability has been identified in OpenText / Micro Focus ArcSight Enterprise Security Manager (ESM). The vulnerability could be remotely exploited.
-
-
-
-- [https://github.com/Oxdestiny/CVE-2024-0967-exploit](https://github.com/Oxdestiny/CVE-2024-0967-exploit) :  ![starts](https://img.shields.io/github/stars/Oxdestiny/CVE-2024-0967-exploit.svg) ![forks](https://img.shields.io/github/forks/Oxdestiny/CVE-2024-0967-exploit.svg)
-
 ## CVE-2024-0844
  The Popup More Popups, Lightboxes, and more popup modules plugin for WordPress is vulnerable to Local File Inclusion in version 2.1.6 via the ycfChangeElementData() function. This makes it possible for authenticated attackers, with administrator-level access and above, to include and execute arbitrary files ending with &quot;Form.php&quot; on the server , allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other &#8220;safe&#8221; file types can be uploaded and included.
 
@@ -1983,13 +1936,6 @@
 - [https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582](https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582) :  ![starts](https://img.shields.io/github/stars/ysanatomic/io_uring_LPE-CVE-2024-0582.svg) ![forks](https://img.shields.io/github/forks/ysanatomic/io_uring_LPE-CVE-2024-0582.svg)
 
 - [https://github.com/Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582) :  ![starts](https://img.shields.io/github/stars/Forsaken0129/CVE-2024-0582.svg) ![forks](https://img.shields.io/github/forks/Forsaken0129/CVE-2024-0582.svg)
-
-## CVE-2024-0519
- Out of bounds memory access in V8 in Google Chrome prior to 120.0.6099.224 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-
-
-
-- [https://github.com/Oxdestiny/CVE-2024-0519-Chrome-exploit](https://github.com/Oxdestiny/CVE-2024-0519-Chrome-exploit) :  ![starts](https://img.shields.io/github/stars/Oxdestiny/CVE-2024-0519-Chrome-exploit.svg) ![forks](https://img.shields.io/github/forks/Oxdestiny/CVE-2024-0519-Chrome-exploit.svg)
 
 ## CVE-2024-0305
  A vulnerability was found in Guangzhou Yingke Electronic Technology Ncast up to 2017 and classified as problematic. Affected by this issue is some unknown functionality of the file /manage/IPSetup.php of the component Guest Login. The manipulation leads to information disclosure. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-249872.
