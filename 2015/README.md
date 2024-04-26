@@ -3,7 +3,7 @@
 
 
 
-- [https://github.com/codeskipper/Snake-Patrol](https://github.com/codeskipper/Snake-Patrol) :  ![starts](https://img.shields.io/github/stars/codeskipper/Snake-Patrol.svg) ![forks](https://img.shields.io/github/forks/codeskipper/Snake-Patrol.svg)
+- [https://github.com/codeskipper/python-patrol](https://github.com/codeskipper/python-patrol) :  ![starts](https://img.shields.io/github/stars/codeskipper/python-patrol.svg) ![forks](https://img.shields.io/github/forks/codeskipper/python-patrol.svg)
 
 ## CVE-2015-10034
  A vulnerability has been found in j-nowak workout-organizer and classified as critical. This vulnerability affects unknown code. The manipulation leads to sql injection. The patch is identified as 13cd6c3d1210640bfdb39872b2bb3597aa991279. It is recommended to apply a patch to fix this issue. VDB-217714 is the identifier assigned to this vulnerability.
