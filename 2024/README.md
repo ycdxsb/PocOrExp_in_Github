@@ -112,6 +112,13 @@
 
 - [https://github.com/ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399) :  ![starts](https://img.shields.io/github/stars/ally-petitt/CVE-2024-29399.svg) ![forks](https://img.shields.io/github/forks/ally-petitt/CVE-2024-29399.svg)
 
+## CVE-2024-29384
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/randshell/CSS-Exfil-Protection-POC](https://github.com/randshell/CSS-Exfil-Protection-POC) :  ![starts](https://img.shields.io/github/stars/randshell/CSS-Exfil-Protection-POC.svg) ![forks](https://img.shields.io/github/forks/randshell/CSS-Exfil-Protection-POC.svg)
+
 ## CVE-2024-29375
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -443,6 +450,13 @@
 
 
 - [https://github.com/TronciuVlad/CVE-2024-26475](https://github.com/TronciuVlad/CVE-2024-26475) :  ![starts](https://img.shields.io/github/stars/TronciuVlad/CVE-2024-26475.svg) ![forks](https://img.shields.io/github/forks/TronciuVlad/CVE-2024-26475.svg)
+
+## CVE-2024-26218
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/exploits-forsale/CVE-2024-26218](https://github.com/exploits-forsale/CVE-2024-26218) :  ![starts](https://img.shields.io/github/stars/exploits-forsale/CVE-2024-26218.svg) ![forks](https://img.shields.io/github/forks/exploits-forsale/CVE-2024-26218.svg)
 
 ## CVE-2024-25832
  F-logic DataCube3 v1.0 is vulnerable to unrestricted file upload, which could allow an authenticated malicious actor to upload a file of dangerous type by manipulating the filename extension.
@@ -1582,6 +1596,13 @@
 
 
 - [https://github.com/d0rb/CVE-2024-21378](https://github.com/d0rb/CVE-2024-21378) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-21378.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-21378.svg)
+
+## CVE-2024-21345
+ Windows Kernel Elevation of Privilege Vulnerability
+
+
+
+- [https://github.com/exploits-forsale/CVE-2024-21345](https://github.com/exploits-forsale/CVE-2024-21345) :  ![starts](https://img.shields.io/github/stars/exploits-forsale/CVE-2024-21345.svg) ![forks](https://img.shields.io/github/forks/exploits-forsale/CVE-2024-21345.svg)
 
 ## CVE-2024-21338
  Windows Kernel Elevation of Privilege Vulnerability
