@@ -1167,9 +1167,9 @@
 
 - [https://github.com/scottjpack/Freak-Scanner](https://github.com/scottjpack/Freak-Scanner) :  ![starts](https://img.shields.io/github/stars/scottjpack/Freak-Scanner.svg) ![forks](https://img.shields.io/github/forks/scottjpack/Freak-Scanner.svg)
 
-- [https://github.com/felmoltor/FreakVulnChecker](https://github.com/felmoltor/FreakVulnChecker) :  ![starts](https://img.shields.io/github/stars/felmoltor/FreakVulnChecker.svg) ![forks](https://img.shields.io/github/forks/felmoltor/FreakVulnChecker.svg)
-
 - [https://github.com/anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/anthophilee/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/anthophilee/A2SV--SSL-VUL-Scan.svg)
+
+- [https://github.com/felmoltor/FreakVulnChecker](https://github.com/felmoltor/FreakVulnChecker) :  ![starts](https://img.shields.io/github/stars/felmoltor/FreakVulnChecker.svg) ![forks](https://img.shields.io/github/forks/felmoltor/FreakVulnChecker.svg)
 
 - [https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204) :  ![starts](https://img.shields.io/github/stars/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204.svg) ![forks](https://img.shields.io/github/forks/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204.svg)
 
