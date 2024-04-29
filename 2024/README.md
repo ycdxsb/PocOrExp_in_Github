@@ -1037,11 +1037,11 @@
 
 - [https://github.com/Vozec/CVE-2024-23897](https://github.com/Vozec/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Vozec/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Vozec/CVE-2024-23897.svg)
 
+- [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
+
 - [https://github.com/10T4/PoC-Fix-jenkins-rce_CVE-2024-23897](https://github.com/10T4/PoC-Fix-jenkins-rce_CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/10T4/PoC-Fix-jenkins-rce_CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/10T4/PoC-Fix-jenkins-rce_CVE-2024-23897.svg)
 
 - [https://github.com/jenkinsci-cert/SECURITY-3314-3315](https://github.com/jenkinsci-cert/SECURITY-3314-3315) :  ![starts](https://img.shields.io/github/stars/jenkinsci-cert/SECURITY-3314-3315.svg) ![forks](https://img.shields.io/github/forks/jenkinsci-cert/SECURITY-3314-3315.svg)
-
-- [https://github.com/godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2024-23897.svg)
 
 - [https://github.com/viszsec/CVE-2024-23897](https://github.com/viszsec/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/viszsec/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/viszsec/CVE-2024-23897.svg)
 
@@ -1508,9 +1508,9 @@
 
 - [https://github.com/cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker) :  ![starts](https://img.shields.io/github/stars/cleverg0d/CVE-2024-21762-Checker.svg) ![forks](https://img.shields.io/github/forks/cleverg0d/CVE-2024-21762-Checker.svg)
 
-- [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)
-
 - [https://github.com/Codeb3af/Cve-2024-21762-](https://github.com/Codeb3af/Cve-2024-21762-) :  ![starts](https://img.shields.io/github/stars/Codeb3af/Cve-2024-21762-.svg) ![forks](https://img.shields.io/github/forks/Codeb3af/Cve-2024-21762-.svg)
+
+- [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)
 
 - [https://github.com/lolminerxmrig/multicheck_CVE-2024-21762](https://github.com/lolminerxmrig/multicheck_CVE-2024-21762) :  ![starts](https://img.shields.io/github/stars/lolminerxmrig/multicheck_CVE-2024-21762.svg) ![forks](https://img.shields.io/github/forks/lolminerxmrig/multicheck_CVE-2024-21762.svg)
 
@@ -1612,6 +1612,8 @@
 
 
 - [https://github.com/exploits-forsale/CVE-2024-21345](https://github.com/exploits-forsale/CVE-2024-21345) :  ![starts](https://img.shields.io/github/stars/exploits-forsale/CVE-2024-21345.svg) ![forks](https://img.shields.io/github/forks/exploits-forsale/CVE-2024-21345.svg)
+
+- [https://github.com/FoxyProxys/CVE-2024-21345](https://github.com/FoxyProxys/CVE-2024-21345) :  ![starts](https://img.shields.io/github/stars/FoxyProxys/CVE-2024-21345.svg) ![forks](https://img.shields.io/github/forks/FoxyProxys/CVE-2024-21345.svg)
 
 ## CVE-2024-21338
  Windows Kernel Elevation of Privilege Vulnerability
@@ -1746,6 +1748,13 @@
 
 
 - [https://github.com/Schnaidr/CVE-2024-2856-Stack-overflow-EXP](https://github.com/Schnaidr/CVE-2024-2856-Stack-overflow-EXP) :  ![starts](https://img.shields.io/github/stars/Schnaidr/CVE-2024-2856-Stack-overflow-EXP.svg) ![forks](https://img.shields.io/github/forks/Schnaidr/CVE-2024-2856-Stack-overflow-EXP.svg)
+
+## CVE-2024-2667
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/Puvipavan/CVE-2024-2667](https://github.com/Puvipavan/CVE-2024-2667) :  ![starts](https://img.shields.io/github/stars/Puvipavan/CVE-2024-2667.svg) ![forks](https://img.shields.io/github/forks/Puvipavan/CVE-2024-2667.svg)
 
 ## CVE-2024-2653
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
