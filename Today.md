@@ -1,42 +1,43 @@
-# Update 2024-04-29
-## CVE-2024-27956
- Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ValvePress Automatic allows SQL Injection.This issue affects Automatic: from n/a through 3.92.0.
+# Update 2024-04-30
+## CVE-2024-21345
+ Windows Kernel Elevation of Privilege Vulnerability
 
-- [https://github.com/truonghuuphuc/CVE-2024-27956](https://github.com/truonghuuphuc/CVE-2024-27956) :  ![starts](https://img.shields.io/github/stars/truonghuuphuc/CVE-2024-27956.svg) ![forks](https://img.shields.io/github/forks/truonghuuphuc/CVE-2024-27956.svg)
-
-
-## CVE-2024-23334
- aiohttp is an asynchronous HTTP client/server framework for asyncio and Python. When using aiohttp as a web server and configuring static routes, it is necessary to specify the root path for static files. Additionally, the option 'follow_symlinks' can be used to determine whether to follow symbolic links outside the static root directory. When 'follow_symlinks' is set to True, there is no validation to check if reading a file is within the root directory. This can lead to directory traversal vulnerabilities, resulting in unauthorized access to arbitrary files on the system, even when symlinks are not present. Disabling follow_symlinks and using a reverse proxy are encouraged mitigations. Version 3.9.2 fixes this issue.
-
-- [https://github.com/brian-edgar-re/poc-cve-2024-23334](https://github.com/brian-edgar-re/poc-cve-2024-23334) :  ![starts](https://img.shields.io/github/stars/brian-edgar-re/poc-cve-2024-23334.svg) ![forks](https://img.shields.io/github/forks/brian-edgar-re/poc-cve-2024-23334.svg)
+- [https://github.com/FoxyProxys/CVE-2024-21345](https://github.com/FoxyProxys/CVE-2024-21345) :  ![starts](https://img.shields.io/github/stars/FoxyProxys/CVE-2024-21345.svg) ![forks](https://img.shields.io/github/forks/FoxyProxys/CVE-2024-21345.svg)
 
 
-## CVE-2023-20198
- Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.
+## CVE-2024-2667
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Codeb3af/CVE-2023-20198-RCE](https://github.com/Codeb3af/CVE-2023-20198-RCE) :  ![starts](https://img.shields.io/github/stars/Codeb3af/CVE-2023-20198-RCE.svg) ![forks](https://img.shields.io/github/forks/Codeb3af/CVE-2023-20198-RCE.svg)
-
-
-## CVE-2023-2255
- Improper access control in editor components of The Document Foundation LibreOffice allowed an attacker to craft a document that would cause external links to be loaded without prompt. In the affected versions of LibreOffice documents that used &quot;floating frames&quot; linked to external files, would load the contents of those frames without prompting the user for permission to do so. This was inconsistent with the treatment of other linked content in LibreOffice. This issue affects: The Document Foundation LibreOffice 7.4 versions prior to 7.4.7; 7.5 versions prior to 7.5.3.
-
-- [https://github.com/SaintMichae64/CVE-2023-2255](https://github.com/SaintMichae64/CVE-2023-2255) :  ![starts](https://img.shields.io/github/stars/SaintMichae64/CVE-2023-2255.svg) ![forks](https://img.shields.io/github/forks/SaintMichae64/CVE-2023-2255.svg)
+- [https://github.com/Puvipavan/CVE-2024-2667](https://github.com/Puvipavan/CVE-2024-2667) :  ![starts](https://img.shields.io/github/stars/Puvipavan/CVE-2024-2667.svg) ![forks](https://img.shields.io/github/forks/Puvipavan/CVE-2024-2667.svg)
 
 
-## CVE-2021-42063
- A security vulnerability has been discovered in the SAP Knowledge Warehouse - versions 7.30, 7.31, 7.40, 7.50. The usage of one SAP KW component within a Web browser enables unauthorized attackers to conduct XSS attacks, which might lead to disclose sensitive data.
+## CVE-2023-23752
+ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.
 
-- [https://github.com/Cappricio-Securities/CVE-2021-42063](https://github.com/Cappricio-Securities/CVE-2021-42063) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2021-42063.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2021-42063.svg)
-
-
-## CVE-2021-26084
- In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
-
-- [https://github.com/nahcusira/CVE-2021-26084](https://github.com/nahcusira/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/nahcusira/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/nahcusira/CVE-2021-26084.svg)
+- [https://github.com/0xx01/CVE-2023-23752](https://github.com/0xx01/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xx01/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xx01/CVE-2023-23752.svg)
 
 
-## CVE-2021-22005
- The vCenter Server contains an arbitrary file upload vulnerability in the Analytics service. A malicious actor with network access to port 443 on vCenter Server may exploit this issue to execute code on vCenter Server by uploading a specially crafted file.
+## CVE-2022-30190
+ &lt;p&gt;A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the calling application. The attacker can then install programs, view, change, or delete data, or create new accounts in the context allowed by the user&#8217;s rights.&lt;/p&gt; &lt;p&gt;Please see the &lt;a href=&quot;https://aka.ms/CVE-2022-30190-Guidance&quot;&gt;MSRC Blog Entry&lt;/a&gt; for important information about steps you can take to protect your system from this vulnerability.&lt;/p&gt;
 
-- [https://github.com/Jeromeyoung/VMWare-CVE-Check](https://github.com/Jeromeyoung/VMWare-CVE-Check) :  ![starts](https://img.shields.io/github/stars/Jeromeyoung/VMWare-CVE-Check.svg) ![forks](https://img.shields.io/github/forks/Jeromeyoung/VMWare-CVE-Check.svg)
+- [https://github.com/SystemJargon/info-sec](https://github.com/SystemJargon/info-sec) :  ![starts](https://img.shields.io/github/stars/SystemJargon/info-sec.svg) ![forks](https://img.shields.io/github/forks/SystemJargon/info-sec.svg)
+
+
+## CVE-2022-29361
+ ** DISPUTED ** Improper parsing of HTTP requests in Pallets Werkzeug v2.1.0 and below allows attackers to perform HTTP Request Smuggling using a crafted HTTP request with multiple requests included inside the body. NOTE: the vendor's position is that this behavior can only occur in unsupported configurations involving development mode and an HTTP server from outside the Werkzeug project.
+
+- [https://github.com/l3ragio/CVE-2022-29361_Werkzeug_Client-Side-Desync-to-XSS](https://github.com/l3ragio/CVE-2022-29361_Werkzeug_Client-Side-Desync-to-XSS) :  ![starts](https://img.shields.io/github/stars/l3ragio/CVE-2022-29361_Werkzeug_Client-Side-Desync-to-XSS.svg) ![forks](https://img.shields.io/github/forks/l3ragio/CVE-2022-29361_Werkzeug_Client-Side-Desync-to-XSS.svg)
+
+
+## CVE-2021-34527
+ &lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt; &lt;p&gt;UPDATE July 7, 2021: The security update for Windows Server 2012, Windows Server 2016 and Windows 10, Version 1607 have been released. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability.&lt;/p&gt; &lt;p&gt;In addition to installing the updates, in order to secure your system, you must confirm that the following registry settings are set to 0 (zero) or are not defined (&lt;strong&gt;Note&lt;/strong&gt;: These registry keys do not exist by default, and therefore are already at the secure setting.), also that your Group Policy setting are correct (see FAQ):&lt;/p&gt; &lt;ul&gt; &lt;li&gt;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Printers\PointAndPrint&lt;/li&gt; &lt;li&gt;NoWarningNoElevationOnInstall = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;li&gt;UpdatePromptSettings = 0 (DWORD) or not defined (default setting)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Having NoWarningNoElevationOnInstall set to 1 makes your system vulnerable by design.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;UPDATE July 6, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability. See also &lt;a href=&quot;https://support.microsoft.com/topic/31b91c02-05bc-4ada-a7ea-183b129578a7&quot;&gt;KB5005010: Restricting installation of new printer drivers after applying the July 6, 2021 updates&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Note that the security updates released on and after July 6, 2021 contain protections for CVE-2021-1675 and the additional remote code execution exploit in the Windows Print Spooler service known as &#8220;PrintNightmare&#8221;, documented in CVE-2021-34527.&lt;/p&gt;
+
+- [https://github.com/SystemJargon/info-sec](https://github.com/SystemJargon/info-sec) :  ![starts](https://img.shields.io/github/stars/SystemJargon/info-sec.svg) ![forks](https://img.shields.io/github/forks/SystemJargon/info-sec.svg)
+
+
+## CVE-2020-24490
+ Improper buffer restrictions in BlueZ may allow an unauthenticated user to potentially enable denial of service via adjacent access. This affects all Linux kernel versions that support BlueZ.
+
+- [https://github.com/AbrarKhan/linux_CVE-2020-24490-beforePatch](https://github.com/AbrarKhan/linux_CVE-2020-24490-beforePatch) :  ![starts](https://img.shields.io/github/stars/AbrarKhan/linux_CVE-2020-24490-beforePatch.svg) ![forks](https://img.shields.io/github/forks/AbrarKhan/linux_CVE-2020-24490-beforePatch.svg)
+- [https://github.com/AbrarKhan/Linux-4.19.72_CVE-2020-24490](https://github.com/AbrarKhan/Linux-4.19.72_CVE-2020-24490) :  ![starts](https://img.shields.io/github/stars/AbrarKhan/Linux-4.19.72_CVE-2020-24490.svg) ![forks](https://img.shields.io/github/forks/AbrarKhan/Linux-4.19.72_CVE-2020-24490.svg)
 
