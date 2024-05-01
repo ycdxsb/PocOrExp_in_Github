@@ -113,7 +113,7 @@
 - [https://github.com/jakabakos/CVE-2023-51448-cacti-sqli-poc](https://github.com/jakabakos/CVE-2023-51448-cacti-sqli-poc) :  ![starts](https://img.shields.io/github/stars/jakabakos/CVE-2023-51448-cacti-sqli-poc.svg) ![forks](https://img.shields.io/github/forks/jakabakos/CVE-2023-51448-cacti-sqli-poc.svg)
 
 ## CVE-2023-51409
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Unrestricted Upload of File with Dangerous Type vulnerability in Jordy Meow AI Engine: ChatGPT Chatbot.This issue affects AI Engine: ChatGPT Chatbot: from n/a through 1.9.98.
 
 
 
@@ -146,21 +146,21 @@
 
 - [https://github.com/Sonicrrrr/CVE-2023-51385](https://github.com/Sonicrrrr/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/Sonicrrrr/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/Sonicrrrr/CVE-2023-51385.svg)
 
-- [https://github.com/FeatherStark/CVE-2023-51385](https://github.com/FeatherStark/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/FeatherStark/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/FeatherStark/CVE-2023-51385.svg)
-
 - [https://github.com/uccu99/CVE-2023-51385](https://github.com/uccu99/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/uccu99/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/uccu99/CVE-2023-51385.svg)
+
+- [https://github.com/FeatherStark/CVE-2023-51385](https://github.com/FeatherStark/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/FeatherStark/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/FeatherStark/CVE-2023-51385.svg)
 
 - [https://github.com/watarium/poc-cve-2023-51385](https://github.com/watarium/poc-cve-2023-51385) :  ![starts](https://img.shields.io/github/stars/watarium/poc-cve-2023-51385.svg) ![forks](https://img.shields.io/github/forks/watarium/poc-cve-2023-51385.svg)
 
-- [https://github.com/power1314520/CVE-2023-51385_test](https://github.com/power1314520/CVE-2023-51385_test) :  ![starts](https://img.shields.io/github/stars/power1314520/CVE-2023-51385_test.svg) ![forks](https://img.shields.io/github/forks/power1314520/CVE-2023-51385_test.svg)
-
 - [https://github.com/julienbrs/exploit-CVE-2023-51385](https://github.com/julienbrs/exploit-CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/julienbrs/exploit-CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/julienbrs/exploit-CVE-2023-51385.svg)
 
-- [https://github.com/WLaoDuo/CVE-2023-51385_poc-test](https://github.com/WLaoDuo/CVE-2023-51385_poc-test) :  ![starts](https://img.shields.io/github/stars/WLaoDuo/CVE-2023-51385_poc-test.svg) ![forks](https://img.shields.io/github/forks/WLaoDuo/CVE-2023-51385_poc-test.svg)
+- [https://github.com/power1314520/CVE-2023-51385_test](https://github.com/power1314520/CVE-2023-51385_test) :  ![starts](https://img.shields.io/github/stars/power1314520/CVE-2023-51385_test.svg) ![forks](https://img.shields.io/github/forks/power1314520/CVE-2023-51385_test.svg)
 
 - [https://github.com/julienbrs/malicious-exploit-CVE-2023-51385](https://github.com/julienbrs/malicious-exploit-CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/julienbrs/malicious-exploit-CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/julienbrs/malicious-exploit-CVE-2023-51385.svg)
 
 - [https://github.com/GoodPeople-ZhangSan/CVE-2023-51385_test](https://github.com/GoodPeople-ZhangSan/CVE-2023-51385_test) :  ![starts](https://img.shields.io/github/stars/GoodPeople-ZhangSan/CVE-2023-51385_test.svg) ![forks](https://img.shields.io/github/forks/GoodPeople-ZhangSan/CVE-2023-51385_test.svg)
+
+- [https://github.com/WLaoDuo/CVE-2023-51385_poc-test](https://github.com/WLaoDuo/CVE-2023-51385_poc-test) :  ![starts](https://img.shields.io/github/stars/WLaoDuo/CVE-2023-51385_poc-test.svg) ![forks](https://img.shields.io/github/forks/WLaoDuo/CVE-2023-51385_poc-test.svg)
 
 ## CVE-2023-51281
  Cross Site Scripting vulnerability in Customer Support System v.1.0 allows a remote attacker to escalate privileges via a crafted script firstname, &quot;lastname&quot;, &quot;middlename&quot;, &quot;contact&quot; and address parameters.
@@ -177,56 +177,56 @@
 - [https://github.com/chandraprarikraj/CVE-2023-51214](https://github.com/chandraprarikraj/CVE-2023-51214) :  ![starts](https://img.shields.io/github/stars/chandraprarikraj/CVE-2023-51214.svg) ![forks](https://img.shields.io/github/forks/chandraprarikraj/CVE-2023-51214.svg)
 
 ## CVE-2023-51208
- An Arbitrary File Upload vulnerability in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary code and cause other impacts via upload of crafted file.
+ ** DISPUTED ** An Arbitrary File Upload vulnerability in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary code and cause other impacts via upload of crafted file. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2023-51208](https://github.com/yashpatelphd/CVE-2023-51208) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2023-51208.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2023-51208.svg)
 
 ## CVE-2023-51204
- Insecure deserialization in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to execute arbitrary code via a crafted input.
+ ** DISPUTED ** Insecure deserialization in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to execute arbitrary code via a crafted input. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2023-51204](https://github.com/yashpatelphd/CVE-2023-51204) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2023-51204.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2023-51204.svg)
 
 ## CVE-2023-51202
- OS command injection vulnerability in command processing or system call componentsROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary commands.
+ ** DISPUTED ** OS command injection vulnerability in command processing or system call componentsROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary commands. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2023-51202](https://github.com/yashpatelphd/CVE-2023-51202) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2023-51202.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2023-51202.svg)
 
 ## CVE-2023-51201
- Cleartext Transmission issue in ROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to access sensitive information via a man-in-the-middle attack.
+ ** DISPUTED ** Cleartext Transmission issue in ROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to access sensitive information via a man-in-the-middle attack. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2023-51201](https://github.com/yashpatelphd/CVE-2023-51201) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2023-51201.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2023-51201.svg)
 
 ## CVE-2023-51200
- An issue in the default configurations of ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows unauthenticated attackers to authenticate using default credentials.
+ ** DISPUTED ** An issue in the default configurations of ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows unauthenticated attackers to authenticate using default credentials. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2023-51200](https://github.com/yashpatelphd/CVE-2023-51200) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2023-51200.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2023-51200.svg)
 
 ## CVE-2023-51199
- Buffer Overflow vulnerability in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary code or cause a denial of service via improper handling of arrays or strings.
+ ** DISPUTED ** Buffer Overflow vulnerability in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary code or cause a denial of service via improper handling of arrays or strings. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2023-51199](https://github.com/yashpatelphd/CVE-2023-51199) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2023-51199.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2023-51199.svg)
 
 ## CVE-2023-51198
- An issue in the permission and access control components within ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to gain escalate privileges.
+ ** DISPUTED ** An issue in the permission and access control components within ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to gain escalate privileges. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2023-51198](https://github.com/yashpatelphd/CVE-2023-51198) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2023-51198.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2023-51198.svg)
 
 ## CVE-2023-51197
- An issue discovered in shell command execution in ROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows an attacker to run arbitrary commands and cause other impacts.
+ ** DISPUTED ** An issue discovered in shell command execution in ROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows an attacker to run arbitrary commands and cause other impacts. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
@@ -528,7 +528,7 @@
 - [https://github.com/geraldoalcantara/CVE-2023-49968](https://github.com/geraldoalcantara/CVE-2023-49968) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49968.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49968.svg)
 
 ## CVE-2023-49965
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SpaceX Starlink Wi-Fi router Gen 2 before 2023.48.0 allows XSS via the ssid and password parameters on the Setup Page.
 
 
 
@@ -824,7 +824,7 @@
 - [https://github.com/horizon3ai/CVE-2023-48788](https://github.com/horizon3ai/CVE-2023-48788) :  ![starts](https://img.shields.io/github/stars/horizon3ai/CVE-2023-48788.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/CVE-2023-48788.svg)
 
 ## CVE-2023-48777
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Unrestricted Upload of File with Dangerous Type vulnerability in Elementor.Com Elementor Website Builder.This issue affects Elementor Website Builder: from 3.3.0 through 3.18.1.
 
 
 
@@ -1380,7 +1380,7 @@
 - [https://github.com/vinnie1717/CVE-2023-46344](https://github.com/vinnie1717/CVE-2023-46344) :  ![starts](https://img.shields.io/github/stars/vinnie1717/CVE-2023-46344.svg) ![forks](https://img.shields.io/github/forks/vinnie1717/CVE-2023-46344.svg)
 
 ## CVE-2023-46304
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ modules/Users/models/Module.php in Vtiger CRM 7.5.0 allows a remote authenticated attacker to run arbitrary PHP code because an unprotected endpoint allows them to write this code to the config.inc.php file (executed on every page load).
 
 
 
@@ -1502,9 +1502,9 @@
 
 - [https://github.com/fuyuooumi1027/CVE-2023-45857-Demo](https://github.com/fuyuooumi1027/CVE-2023-45857-Demo) :  ![starts](https://img.shields.io/github/stars/fuyuooumi1027/CVE-2023-45857-Demo.svg) ![forks](https://img.shields.io/github/forks/fuyuooumi1027/CVE-2023-45857-Demo.svg)
 
-- [https://github.com/intercept6/CVE-2023-45857-Demo](https://github.com/intercept6/CVE-2023-45857-Demo) :  ![starts](https://img.shields.io/github/stars/intercept6/CVE-2023-45857-Demo.svg) ![forks](https://img.shields.io/github/forks/intercept6/CVE-2023-45857-Demo.svg)
-
 - [https://github.com/valentin-panov/CVE-2023-45857](https://github.com/valentin-panov/CVE-2023-45857) :  ![starts](https://img.shields.io/github/stars/valentin-panov/CVE-2023-45857.svg) ![forks](https://img.shields.io/github/forks/valentin-panov/CVE-2023-45857.svg)
+
+- [https://github.com/intercept6/CVE-2023-45857-Demo](https://github.com/intercept6/CVE-2023-45857-Demo) :  ![starts](https://img.shields.io/github/stars/intercept6/CVE-2023-45857-Demo.svg) ![forks](https://img.shields.io/github/forks/intercept6/CVE-2023-45857-Demo.svg)
 
 ## CVE-2023-45828
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -1556,7 +1556,7 @@
 - [https://github.com/soundarkutty/CVE-2023-45540](https://github.com/soundarkutty/CVE-2023-45540) :  ![starts](https://img.shields.io/github/stars/soundarkutty/CVE-2023-45540.svg) ![forks](https://img.shields.io/github/forks/soundarkutty/CVE-2023-45540.svg)
 
 ## CVE-2023-45503
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL Injection vulnerability in Macrob7 Macs CMS 1.1.4f, allows remote attackers to execute arbitrary code, cause a denial of service (DoS), escalate privileges, and obtain sensitive information via crafted payload to resetPassword, forgotPasswordProcess, saveUser, saveRole, deleteUser, deleteRole, deleteComment, deleteUser, allowComment, saveRole, forgotPasswordProcess, resetPassword, saveUser, addComment, saveRole, and saveUser endpoints.
 
 
 
@@ -1570,7 +1570,7 @@
 - [https://github.com/itsAptx/CVE-2023-45471](https://github.com/itsAptx/CVE-2023-45471) :  ![starts](https://img.shields.io/github/stars/itsAptx/CVE-2023-45471.svg) ![forks](https://img.shields.io/github/forks/itsAptx/CVE-2023-45471.svg)
 
 ## CVE-2023-45288
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
 
 
 
@@ -1792,7 +1792,7 @@
 - [https://github.com/SpiralBL0CK/cve2023-44372](https://github.com/SpiralBL0CK/cve2023-44372) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/cve2023-44372.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/cve2023-44372.svg)
 
 ## CVE-2023-44227
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Missing Authorization vulnerability in Mitchell Bennis Simple File List.This issue affects Simple File List: from n/a through 6.1.9.
 
 
 
@@ -2194,7 +2194,7 @@
 - [https://github.com/jostaub/ghostscript-CVE-2023-43115](https://github.com/jostaub/ghostscript-CVE-2023-43115) :  ![starts](https://img.shields.io/github/stars/jostaub/ghostscript-CVE-2023-43115.svg) ![forks](https://img.shields.io/github/forks/jostaub/ghostscript-CVE-2023-43115.svg)
 
 ## CVE-2023-42931
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.6.3, macOS Sonoma 14.2, macOS Monterey 12.7.2. A process may gain admin privileges without proper authentication.
 
 
 
@@ -2876,7 +2876,7 @@
 - [https://github.com/0xyassine/CVE-2023-40028](https://github.com/0xyassine/CVE-2023-40028) :  ![starts](https://img.shields.io/github/stars/0xyassine/CVE-2023-40028.svg) ![forks](https://img.shields.io/github/forks/0xyassine/CVE-2023-40028.svg)
 
 ## CVE-2023-40000
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in LiteSpeed Technologies LiteSpeed Cache allows Stored XSS.This issue affects LiteSpeed Cache: from n/a through 5.7.
 
 
 
@@ -3347,7 +3347,7 @@
 - [https://github.com/codeb0ss/CVE-2023-38389-PoC](https://github.com/codeb0ss/CVE-2023-38389-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2023-38389-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2023-38389-PoC.svg)
 
 ## CVE-2023-38388
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Unrestricted Upload of File with Dangerous Type vulnerability in Artbees JupiterX Core.This issue affects JupiterX Core: from n/a through 3.3.5.
 
 
 
@@ -3499,7 +3499,7 @@
 - [https://github.com/benjaminpsinclair/Netbox-CVE-2023-37625](https://github.com/benjaminpsinclair/Netbox-CVE-2023-37625) :  ![starts](https://img.shields.io/github/stars/benjaminpsinclair/Netbox-CVE-2023-37625.svg) ![forks](https://img.shields.io/github/forks/benjaminpsinclair/Netbox-CVE-2023-37625.svg)
 
 ## CVE-2023-37621
- An issue in Fronius Datalogger Web v.2.0.5-4, allows remote attackers to obtain sensitive information via a crafted request.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
 
 
 
@@ -3772,21 +3772,21 @@
 - [https://github.com/winkler-winsen/Scan_GhostScript](https://github.com/winkler-winsen/Scan_GhostScript) :  ![starts](https://img.shields.io/github/stars/winkler-winsen/Scan_GhostScript.svg) ![forks](https://img.shields.io/github/forks/winkler-winsen/Scan_GhostScript.svg)
 
 ## CVE-2023-36645
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL injection vulnerability in ITB-GmbH TradePro v9.5, allows remote attackers to run SQL queries via oordershow component in customer function.
 
 
 
 - [https://github.com/caffeinated-labs/CVE-2023-36645](https://github.com/caffeinated-labs/CVE-2023-36645) :  ![starts](https://img.shields.io/github/stars/caffeinated-labs/CVE-2023-36645.svg) ![forks](https://img.shields.io/github/forks/caffeinated-labs/CVE-2023-36645.svg)
 
 ## CVE-2023-36644
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Incorrect Access Control in ITB-GmbH TradePro v9.5, allows remote attackers to receive all order confirmations from the online shop via the printmail plugin.
 
 
 
 - [https://github.com/caffeinated-labs/CVE-2023-36644](https://github.com/caffeinated-labs/CVE-2023-36644) :  ![starts](https://img.shields.io/github/stars/caffeinated-labs/CVE-2023-36644.svg) ![forks](https://img.shields.io/github/forks/caffeinated-labs/CVE-2023-36644.svg)
 
 ## CVE-2023-36643
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Incorrect Access Control in ITB-GmbH TradePro v9.5, allows remote attackers to receive all orders from the online shop via oordershow component in customer function.
 
 
 
@@ -3915,9 +3915,9 @@
 
 
 
-- [https://github.com/leonardobg/CVE-2023-36143](https://github.com/leonardobg/CVE-2023-36143) :  ![starts](https://img.shields.io/github/stars/leonardobg/CVE-2023-36143.svg) ![forks](https://img.shields.io/github/forks/leonardobg/CVE-2023-36143.svg)
-
 - [https://github.com/RobinTrigon/CVE-2023-36143](https://github.com/RobinTrigon/CVE-2023-36143) :  ![starts](https://img.shields.io/github/stars/RobinTrigon/CVE-2023-36143.svg) ![forks](https://img.shields.io/github/forks/RobinTrigon/CVE-2023-36143.svg)
+
+- [https://github.com/leonardobg/CVE-2023-36143](https://github.com/leonardobg/CVE-2023-36143) :  ![starts](https://img.shields.io/github/stars/leonardobg/CVE-2023-36143.svg) ![forks](https://img.shields.io/github/forks/leonardobg/CVE-2023-36143.svg)
 
 ## CVE-2023-36123
  Directory Traversal vulnerability in Hex-Dragon Plain Craft Launcher 2 version Alpha 1.3.9, allows local attackers to execute arbitrary code and gain sensitive information.
@@ -4097,7 +4097,7 @@
 - [https://github.com/duy-31/CVE-2023-35636](https://github.com/duy-31/CVE-2023-35636) :  ![starts](https://img.shields.io/github/stars/duy-31/CVE-2023-35636.svg) ![forks](https://img.shields.io/github/forks/duy-31/CVE-2023-35636.svg)
 
 ## CVE-2023-35086
- It is identified a format string vulnerability in ASUS RT-AX56U V2 &amp; RT-AC86U. This vulnerability is caused by directly using input as a format string when calling syslog in logmessage_normal function, in the do_detwan_cgi module of httpd. An unauthenticated remote attacker without privilege can exploit this vulnerability to perform remote arbitrary code execution, arbitrary system operation or disrupt service. This issue affects RT-AX56U V2: 3.0.0.4.386_50460; RT-AC86U: 3.0.0.4_386_51529.
+ It is identified a format string vulnerability in ASUS RT-AX56U V2 &amp; RT-AC86U. This vulnerability is caused by directly using input as a format string when calling syslog in logmessage_normal function, in the do_detwan_cgi module of httpd. A remote attacker with administrator privilege can exploit this vulnerability to perform remote arbitrary code execution, arbitrary system operation or disrupt service. This issue affects RT-AX56U V2: 3.0.0.4.386_50460; RT-AC86U: 3.0.0.4_386_51529.
 
 
 
@@ -4622,21 +4622,21 @@
 - [https://github.com/sudovivek/My-CVE](https://github.com/sudovivek/My-CVE) :  ![starts](https://img.shields.io/github/stars/sudovivek/My-CVE.svg) ![forks](https://img.shields.io/github/forks/sudovivek/My-CVE.svg)
 
 ## CVE-2023-33567
- An unauthorized access vulnerability has been discovered in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized access to multiple ROS2 nodes remotely. Unauthorized access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information.
+ ** DISPUTED ** An unauthorized access vulnerability has been discovered in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized access to multiple ROS2 nodes remotely. Unauthorized access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2023-33567](https://github.com/yashpatelphd/CVE-2023-33567) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2023-33567.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2023-33567.svg)
 
 ## CVE-2023-33566
- An unauthorized node injection vulnerability has been identified in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could allow a malicious user to inject malicious ROS2 nodes into the system remotely. Once injected, these nodes could disrupt the normal operations of the system or cause other potentially harmful behavior.
+ ** DISPUTED ** An unauthorized node injection vulnerability has been identified in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could allow a malicious user to inject malicious ROS2 nodes into the system remotely. Once injected, these nodes could disrupt the normal operations of the system or cause other potentially harmful behavior. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2023-33566](https://github.com/yashpatelphd/CVE-2023-33566) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2023-33566.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2023-33566.svg)
 
 ## CVE-2023-33565
- ROS2 (Robot Operating System 2) Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 are vulnerable to Denial-of-Service (DoS) attacks. A malicious user potentially exploited the vulnerability remotely and crashed the ROS2 nodes.
+ ** DISPUTED ** ROS2 (Robot Operating System 2) Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 are vulnerable to Denial-of-Service (DoS) attacks. A malicious user potentially exploited the vulnerability remotely and crashed the ROS2 nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
@@ -5161,7 +5161,7 @@
 - [https://github.com/adilkhan7/CVE-2023-31664](https://github.com/adilkhan7/CVE-2023-31664) :  ![starts](https://img.shields.io/github/stars/adilkhan7/CVE-2023-31664.svg) ![forks](https://img.shields.io/github/forks/adilkhan7/CVE-2023-31664.svg)
 
 ## CVE-2023-31634
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ In TeslaMate before 1.27.2, there is unauthorized access to port 4000 for remote viewing and operation of user data. After accessing the IP address for the TeslaMate instance, an attacker can switch the port to 3000 to enter Grafana for remote operations. At that time, the default username and password can be used to enter the Grafana management console without logging in, a related issue to CVE-2022-23126.
 
 
 
@@ -5663,7 +5663,7 @@
 - [https://github.com/LuizGustavoP/EP3_Redes](https://github.com/LuizGustavoP/EP3_Redes) :  ![starts](https://img.shields.io/github/stars/LuizGustavoP/EP3_Redes.svg) ![forks](https://img.shields.io/github/forks/LuizGustavoP/EP3_Redes.svg)
 
 ## CVE-2023-29386
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Unrestricted Upload of File with Dangerous Type vulnerability in Julien Crego Manager for Icomoon.This issue affects Manager for Icomoon: from n/a through 2.0.
 
 
 
@@ -5760,9 +5760,9 @@
 
 
 
-- [https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772](https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/linux-4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/linux-4.1.15_CVE-2023-28772.svg)
-
 - [https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772](https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/Trinadh465/linux-4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/linux-4.1.15_CVE-2023-28772.svg)
+
+- [https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772](https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/linux-4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/linux-4.1.15_CVE-2023-28772.svg)
 
 - [https://github.com/hshivhare67/kernel_v4.1.15_CVE-2023-28772](https://github.com/hshivhare67/kernel_v4.1.15_CVE-2023-28772) :  ![starts](https://img.shields.io/github/stars/hshivhare67/kernel_v4.1.15_CVE-2023-28772.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/kernel_v4.1.15_CVE-2023-28772.svg)
 
@@ -6079,7 +6079,7 @@
 - [https://github.com/horizon3ai/CVE-2023-27532](https://github.com/horizon3ai/CVE-2023-27532) :  ![starts](https://img.shields.io/github/stars/horizon3ai/CVE-2023-27532.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/CVE-2023-27532.svg)
 
 ## CVE-2023-27524
- Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY according to installation instructions allow for an attacker to authenticate and access unauthorized resources. This does not affect Superset administrators who have changed the default value for SECRET_KEY config.
+ Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY according to installation instructions allow for an attacker to authenticate and access unauthorized resources. This does not affect Superset administrators who have changed the default value for SECRET_KEY config. All superset installations should always set a unique secure random SECRET_KEY. Your SECRET_KEY is used to securely sign all session cookies and encrypting sensitive information on the database. Add a strong SECRET_KEY to your `superset_config.py` file like: SECRET_KEY = &lt;YOUR_OWN_RANDOM_GENERATED_SECRET_KEY&gt; Alternatively you can set it with `SUPERSET_SECRET_KEY` environment variable.
 
 
 
@@ -6906,6 +6906,10 @@
 
 - [https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script](https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script) :  ![starts](https://img.shields.io/github/stars/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script.svg) ![forks](https://img.shields.io/github/forks/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script.svg)
 
+- [https://github.com/svaltheim/CVE-2023-23752](https://github.com/svaltheim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/svaltheim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/svaltheim/CVE-2023-23752.svg)
+
+- [https://github.com/Rival420/CVE-2023-23752](https://github.com/Rival420/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Rival420/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Rival420/CVE-2023-23752.svg)
+
 - [https://github.com/yTxZx/CVE-2023-23752](https://github.com/yTxZx/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/yTxZx/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/yTxZx/CVE-2023-23752.svg)
 
 - [https://github.com/cybernetwiz/CVE-2023-23752](https://github.com/cybernetwiz/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/cybernetwiz/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/cybernetwiz/CVE-2023-23752.svg)
@@ -6913,10 +6917,6 @@
 - [https://github.com/C1ph3rX13/CVE-2023-23752](https://github.com/C1ph3rX13/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/C1ph3rX13/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/C1ph3rX13/CVE-2023-23752.svg)
 
 - [https://github.com/TindalyTn/CVE-2023-23752](https://github.com/TindalyTn/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/TindalyTn/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/TindalyTn/CVE-2023-23752.svg)
-
-- [https://github.com/svaltheim/CVE-2023-23752](https://github.com/svaltheim/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/svaltheim/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/svaltheim/CVE-2023-23752.svg)
-
-- [https://github.com/Rival420/CVE-2023-23752](https://github.com/Rival420/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Rival420/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Rival420/CVE-2023-23752.svg)
 
 - [https://github.com/sw0rd1ight/CVE-2023-23752](https://github.com/sw0rd1ight/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/sw0rd1ight/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/sw0rd1ight/CVE-2023-23752.svg)
 
@@ -6935,7 +6935,7 @@
 - [https://github.com/mariovata/CVE-2023-23752-Python](https://github.com/mariovata/CVE-2023-23752-Python) :  ![starts](https://img.shields.io/github/stars/mariovata/CVE-2023-23752-Python.svg) ![forks](https://img.shields.io/github/forks/mariovata/CVE-2023-23752-Python.svg)
 
 ## CVE-2023-23656
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Unrestricted Upload of File with Dangerous Type vulnerability in MainWP MainWP File Uploader Extension.This issue affects MainWP File Uploader Extension: from n/a through 4.1.
 
 
 
@@ -8173,7 +8173,7 @@
 - [https://github.com/Arszilla/CVE-2023-6538](https://github.com/Arszilla/CVE-2023-6538) :  ![starts](https://img.shields.io/github/stars/Arszilla/CVE-2023-6538.svg) ![forks](https://img.shields.io/github/forks/Arszilla/CVE-2023-6538.svg)
 
 ## CVE-2023-6319
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A command injection vulnerability exists in the getAudioMetadata method from the com.webos.service.attachedstoragemanager service on webOS version 4 through 7. A series of specially crafted requests can lead to command execution as the root user. An attacker can make authenticated requests to trigger this vulnerability. * webOS 4.9.7 - 5.30.40 running on LG43UM7000PLA * webOS 5.5.0 - 04.50.51 running on OLED55CXPUA * webOS 6.3.3-442 (kisscurl-kinglake) - 03.36.50 running on OLED48C1PUB * webOS 7.3.1-43 (mullet-mebin) - 03.33.85 running on OLED55A23LA
 
 
 
@@ -9127,9 +9127,9 @@
 
 - [https://github.com/yuimarudev/CVE-2023-2825](https://github.com/yuimarudev/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/yuimarudev/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/yuimarudev/CVE-2023-2825.svg)
 
-- [https://github.com/caopengyan/CVE-2023-2825](https://github.com/caopengyan/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/caopengyan/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/caopengyan/CVE-2023-2825.svg)
-
 - [https://github.com/Rubikcuv5/CVE-2023-2825](https://github.com/Rubikcuv5/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/Rubikcuv5/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/Rubikcuv5/CVE-2023-2825.svg)
+
+- [https://github.com/caopengyan/CVE-2023-2825](https://github.com/caopengyan/CVE-2023-2825) :  ![starts](https://img.shields.io/github/stars/caopengyan/CVE-2023-2825.svg) ![forks](https://img.shields.io/github/forks/caopengyan/CVE-2023-2825.svg)
 
 - [https://github.com/Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab) :  ![starts](https://img.shields.io/github/stars/Tornad0007/CVE-2023-2825-Gitlab.svg) ![forks](https://img.shields.io/github/forks/Tornad0007/CVE-2023-2825-Gitlab.svg)
 
@@ -9402,52 +9402,12 @@
 
 - [https://github.com/0xsu3ks/CVE-2023-1665](https://github.com/0xsu3ks/CVE-2023-1665) :  ![starts](https://img.shields.io/github/stars/0xsu3ks/CVE-2023-1665.svg) ![forks](https://img.shields.io/github/forks/0xsu3ks/CVE-2023-1665.svg)
 
-## CVE-2023-1500
- A vulnerability, which was classified as problematic, has been found in code-projects Simple Art Gallery 1.0. Affected by this issue is some unknown functionality of the file adminHome.php. The manipulation of the argument about_info leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-223400.
-
-
-
-- [https://github.com/Decemberus/BugHub](https://github.com/Decemberus/BugHub) :  ![starts](https://img.shields.io/github/stars/Decemberus/BugHub.svg) ![forks](https://img.shields.io/github/forks/Decemberus/BugHub.svg)
-
 ## CVE-2023-1498
  A vulnerability classified as critical has been found in code-projects Responsive Hotel Site 1.0. Affected is an unknown function of the file messages.php of the component Newsletter Log Handler. The manipulation of the argument title leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-223398 is the identifier assigned to this vulnerability.
 
 
 
 - [https://github.com/Decemberus/BugHub](https://github.com/Decemberus/BugHub) :  ![starts](https://img.shields.io/github/stars/Decemberus/BugHub.svg) ![forks](https://img.shields.io/github/forks/Decemberus/BugHub.svg)
-
-## CVE-2023-1454
- A vulnerability classified as critical has been found in jeecg-boot 3.5.0. This affects an unknown part of the file jmreport/qurestSql. The manipulation of the argument apiSelectId leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-223299.
-
-
-
-- [https://github.com/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln](https://github.com/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln) :  ![starts](https://img.shields.io/github/stars/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln.svg) ![forks](https://img.shields.io/github/forks/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln.svg)
-
-- [https://github.com/padbergpete47/CVE-2023-1454](https://github.com/padbergpete47/CVE-2023-1454) :  ![starts](https://img.shields.io/github/stars/padbergpete47/CVE-2023-1454.svg) ![forks](https://img.shields.io/github/forks/padbergpete47/CVE-2023-1454.svg)
-
-- [https://github.com/gobysec/CVE-2023-1454](https://github.com/gobysec/CVE-2023-1454) :  ![starts](https://img.shields.io/github/stars/gobysec/CVE-2023-1454.svg) ![forks](https://img.shields.io/github/forks/gobysec/CVE-2023-1454.svg)
-
-- [https://github.com/CKevens/CVE-2023-1454-EXP](https://github.com/CKevens/CVE-2023-1454-EXP) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-1454-EXP.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-1454-EXP.svg)
-
-- [https://github.com/cjybao/CVE-2023-1454](https://github.com/cjybao/CVE-2023-1454) :  ![starts](https://img.shields.io/github/stars/cjybao/CVE-2023-1454.svg) ![forks](https://img.shields.io/github/forks/cjybao/CVE-2023-1454.svg)
-
-- [https://github.com/BugFor-Pings/CVE-2023-1454](https://github.com/BugFor-Pings/CVE-2023-1454) :  ![starts](https://img.shields.io/github/stars/BugFor-Pings/CVE-2023-1454.svg) ![forks](https://img.shields.io/github/forks/BugFor-Pings/CVE-2023-1454.svg)
-
-- [https://github.com/shad0w0sec/CVE-2023-1454-EXP](https://github.com/shad0w0sec/CVE-2023-1454-EXP) :  ![starts](https://img.shields.io/github/stars/shad0w0sec/CVE-2023-1454-EXP.svg) ![forks](https://img.shields.io/github/forks/shad0w0sec/CVE-2023-1454-EXP.svg)
-
-## CVE-2023-1430
- The FluentCRM - Marketing Automation For WordPress plugin for WordPress is vulnerable to unauthorized modification of data in versions up to, and including, 2.7.40 due to the use of an MD5 hash without a salt to control subscriptions. This makes it possible for unauthenticated attackers to unsubscribe users from lists and manage subscriptions, granted they gain access to any targeted subscribers email address.
-
-
-
-- [https://github.com/karlemilnikka/CVE-2023-1430](https://github.com/karlemilnikka/CVE-2023-1430) :  ![starts](https://img.shields.io/github/stars/karlemilnikka/CVE-2023-1430.svg) ![forks](https://img.shields.io/github/forks/karlemilnikka/CVE-2023-1430.svg)
-
-## CVE-2023-1415
- A vulnerability was found in Simple Art Gallery 1.0. It has been declared as critical. This vulnerability affects the function sliderPicSubmit of the file adminHome.php. The manipulation leads to unrestricted upload. The attack can be initiated remotely. VDB-223126 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/0xxtoby/CVE-2023-1415](https://github.com/0xxtoby/CVE-2023-1415) :  ![starts](https://img.shields.io/github/stars/0xxtoby/CVE-2023-1415.svg) ![forks](https://img.shields.io/github/forks/0xxtoby/CVE-2023-1415.svg)
 
 ## CVE-2023-1389
  TP-Link Archer AX21 (AX1800) firmware versions before 1.1.4 Build 20230219 contained a command injection vulnerability in the country form of the /cgi-bin/luci;stok=/locale endpoint on the web management interface. Specifically, the country parameter of the write operation was not sanitized before being used in a call to popen(), allowing an unauthenticated attacker to inject commands, which would be run as root, with a simple POST request.
