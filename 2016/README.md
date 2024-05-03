@@ -1297,13 +1297,6 @@
 
 - [https://github.com/fath0218/CVE-2016-2233](https://github.com/fath0218/CVE-2016-2233) :  ![starts](https://img.shields.io/github/stars/fath0218/CVE-2016-2233.svg) ![forks](https://img.shields.io/github/forks/fath0218/CVE-2016-2233.svg)
 
-## CVE-2016-2176
- The X509_NAME_oneline function in crypto/x509/x509_obj.c in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h allows remote attackers to obtain sensitive information from process stack memory or cause a denial of service (buffer over-read) via crafted EBCDIC ASN.1 data.
-
-
-
-- [https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2176](https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2176) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2176.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2176.svg)
-
 ## CVE-2016-2173
  org.springframework.core.serializer.DefaultDeserializer in Spring AMQP before 1.5.5 allows remote attackers to execute arbitrary code.
 
@@ -1317,13 +1310,6 @@
 
 
 - [https://github.com/nickanderson/cfengine-CVE-2016-2118](https://github.com/nickanderson/cfengine-CVE-2016-2118) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE-2016-2118.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE-2016-2118.svg)
-
-## CVE-2016-2109
- The asn1_d2i_read_bio function in crypto/asn1/a_d2i_fp.c in the ASN.1 BIO implementation in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h allows remote attackers to cause a denial of service (memory consumption) via a short invalid encoding.
-
-
-
-- [https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2109](https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2109) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2109.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.0.1g_CVE-2016-2109.svg)
 
 ## CVE-2016-2107
  The AES-NI implementation in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h does not consider memory allocation during a certain padding check, which allows remote attackers to obtain sensitive cleartext information via a padding-oracle attack against an AES CBC session. NOTE: this vulnerability exists because of an incorrect fix for CVE-2013-0169.
@@ -1537,13 +1523,6 @@
 
 - [https://github.com/anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/anthophilee/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/anthophilee/A2SV--SSL-VUL-Scan.svg)
 
-## CVE-2016-0798
- Memory leak in the SRP_VBASE_get_by_user implementation in OpenSSL 1.0.1 before 1.0.1s and 1.0.2 before 1.0.2g allows remote attackers to cause a denial of service (memory consumption) by providing an invalid username in a connection attempt, related to apps/s_server.c and crypto/srp/srp_vfy.c.
-
-
-
-- [https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2016-0798](https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2016-0798) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.0.1g_CVE-2016-0798.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.0.1g_CVE-2016-0798.svg)
-
 ## CVE-2016-0793
  Incomplete blacklist vulnerability in the servlet filter restriction mechanism in WildFly (formerly JBoss Application Server) before 10.0.0.Final on Windows allows remote attackers to read the sensitive files in the (1) WEB-INF or (2) META-INF directory via a request that contains (a) lowercase or (b) &quot;meaningless&quot; characters.
 
@@ -1621,8 +1600,6 @@
  Double free vulnerability in the dsa_priv_decode function in crypto/dsa/dsa_ameth.c in OpenSSL 1.0.1 before 1.0.1s and 1.0.2 before 1.0.2g allows remote attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via a malformed DSA private key.
 
 
-
-- [https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2016-0705](https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2016-0705) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.0.1g_CVE-2016-0705.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.0.1g_CVE-2016-0705.svg)
 
 - [https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705](https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705) :  ![starts](https://img.shields.io/github/stars/hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705.svg)
 
