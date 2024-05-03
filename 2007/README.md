@@ -58,6 +58,8 @@
 
 - [https://github.com/davidholiday/CVE-2007-4559](https://github.com/davidholiday/CVE-2007-4559) :  ![starts](https://img.shields.io/github/stars/davidholiday/CVE-2007-4559.svg) ![forks](https://img.shields.io/github/forks/davidholiday/CVE-2007-4559.svg)
 
+- [https://github.com/luigigubello/trellix-tarslip-patch-bypass](https://github.com/luigigubello/trellix-tarslip-patch-bypass) :  ![starts](https://img.shields.io/github/stars/luigigubello/trellix-tarslip-patch-bypass.svg) ![forks](https://img.shields.io/github/forks/luigigubello/trellix-tarslip-patch-bypass.svg)
+
 ## CVE-2007-3831
  PHP remote file inclusion in main.php in ISS Proventia Network IPS GX5108 1.3 and GX5008 1.5 allows remote attackers to execute arbitrary PHP code via a URL in the page parameter.
 
@@ -113,9 +115,9 @@
 
 - [https://github.com/Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447) :  ![starts](https://img.shields.io/github/stars/Juantos/cve-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Juantos/cve-2007-2447.svg)
 
-- [https://github.com/testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/testaross4/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/testaross4/CVE-2007-2447.svg)
-
 - [https://github.com/cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/cherrera0001/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/cherrera0001/CVE-2007-2447.svg)
+
+- [https://github.com/testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/testaross4/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/testaross4/CVE-2007-2447.svg)
 
 - [https://github.com/0xConstant/CVE-2007-2447](https://github.com/0xConstant/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xConstant/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xConstant/CVE-2007-2447.svg)
 
