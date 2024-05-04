@@ -5,13 +5,6 @@
 
 - [https://github.com/lem0nSec/CVE-2010-5301](https://github.com/lem0nSec/CVE-2010-5301) :  ![starts](https://img.shields.io/github/stars/lem0nSec/CVE-2010-5301.svg) ![forks](https://img.shields.io/github/forks/lem0nSec/CVE-2010-5301.svg)
 
-## CVE-2010-5298
- Race condition in the ssl3_read_bytes function in s3_pkt.c in OpenSSL through 1.0.1g, when SSL_MODE_RELEASE_BUFFERS is enabled, allows remote attackers to inject data across sessions or cause a denial of service (use-after-free and parsing error) via an SSL connection in a multithreaded environment.
-
-
-
-- [https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2010-5298](https://github.com/nidhi7598/OPENSSL_1.0.1g_CVE-2010-5298) :  ![starts](https://img.shields.io/github/stars/nidhi7598/OPENSSL_1.0.1g_CVE-2010-5298.svg) ![forks](https://img.shields.io/github/forks/nidhi7598/OPENSSL_1.0.1g_CVE-2010-5298.svg)
-
 ## CVE-2010-5230
  Multiple untrusted search path vulnerabilities in MicroStation 7.1 allow local users to gain privileges via a Trojan horse (1) mptools.dll, (2) baseman.dll, (3) wintab32.dll, or (4) wintab.dll file in the current working directory, as demonstrated by a directory that contains a .hln or .rdl file.  NOTE: some of these details are obtained from third party information.
 
