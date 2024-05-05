@@ -312,9 +312,9 @@
 
 - [https://github.com/agkunkle/chocobo](https://github.com/agkunkle/chocobo) :  ![starts](https://img.shields.io/github/stars/agkunkle/chocobo.svg) ![forks](https://img.shields.io/github/forks/agkunkle/chocobo.svg)
 
-- [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
-
 - [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) :  ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
+
+- [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
 
 ## CVE-2016-8636
  Integer overflow in the mem_check_range function in drivers/infiniband/sw/rxe/rxe_mr.c in the Linux kernel before 4.9.10 allows local users to cause a denial of service (memory corruption), obtain sensitive information from kernel memory, or possibly have unspecified other impact via a write or read request involving the &quot;RDMA protocol over infiniband&quot; (aka Soft RoCE) technology.
@@ -766,8 +766,6 @@
 - [https://github.com/droidvoider/dirtycow-replacer](https://github.com/droidvoider/dirtycow-replacer) :  ![starts](https://img.shields.io/github/stars/droidvoider/dirtycow-replacer.svg) ![forks](https://img.shields.io/github/forks/droidvoider/dirtycow-replacer.svg)
 
 - [https://github.com/esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo) :  ![starts](https://img.shields.io/github/stars/esc0rtd3w/org.cowpoop.moooooo.svg) ![forks](https://img.shields.io/github/forks/esc0rtd3w/org.cowpoop.moooooo.svg)
-
-- [https://github.com/flux10n/dirtycow](https://github.com/flux10n/dirtycow) :  ![starts](https://img.shields.io/github/stars/flux10n/dirtycow.svg) ![forks](https://img.shields.io/github/forks/flux10n/dirtycow.svg)
 
 - [https://github.com/LinuxKernelContent/DirtyCow](https://github.com/LinuxKernelContent/DirtyCow) :  ![starts](https://img.shields.io/github/stars/LinuxKernelContent/DirtyCow.svg) ![forks](https://img.shields.io/github/forks/LinuxKernelContent/DirtyCow.svg)
 
