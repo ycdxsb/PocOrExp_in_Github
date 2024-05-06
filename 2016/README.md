@@ -910,8 +910,6 @@
 
 - [https://github.com/viai957/webkit-vulnerability](https://github.com/viai957/webkit-vulnerability) :  ![starts](https://img.shields.io/github/stars/viai957/webkit-vulnerability.svg) ![forks](https://img.shields.io/github/forks/viai957/webkit-vulnerability.svg)
 
-- [https://github.com/Traiver/CVE-2016-4657-Switch-Browser-Binary](https://github.com/Traiver/CVE-2016-4657-Switch-Browser-Binary) :  ![starts](https://img.shields.io/github/stars/Traiver/CVE-2016-4657-Switch-Browser-Binary.svg) ![forks](https://img.shields.io/github/forks/Traiver/CVE-2016-4657-Switch-Browser-Binary.svg)
-
 - [https://github.com/Mimoja/CVE-2016-4657-NintendoSwitch](https://github.com/Mimoja/CVE-2016-4657-NintendoSwitch) :  ![starts](https://img.shields.io/github/stars/Mimoja/CVE-2016-4657-NintendoSwitch.svg) ![forks](https://img.shields.io/github/forks/Mimoja/CVE-2016-4657-NintendoSwitch.svg)
 
 ## CVE-2016-4656
