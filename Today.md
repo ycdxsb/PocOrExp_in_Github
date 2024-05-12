@@ -1,78 +1,60 @@
-# Update 2024-05-11
-## CVE-2024-28279
+# Update 2024-05-12
+## CVE-2024-31497
+ In PuTTY 0.68 through 0.80 before 0.81, biased ECDSA nonce generation allows an attacker to recover a user's NIST P-521 secret key via a quick attack in approximately 60 signatures. This is especially important in a scenario where an adversary is able to read messages signed by PuTTY or Pageant. The required set of signed messages may be publicly readable because they are stored in a public Git service that supports use of SSH for commit signing, and the signatures were made by Pageant through an agent-forwarding mechanism. In other words, an adversary may already have enough signature information to compromise a victim's private key, even if there is no further use of vulnerable PuTTY versions. After a key compromise, an adversary may be able to conduct supply-chain attacks on software maintained in Git. A second, independent scenario is that the adversary is an operator of an SSH server to which the victim authenticates (for remote login or file copy), even though this server is not fully trusted by the victim, and the victim uses the same private key for SSH connections to other services operated by other entities. Here, the rogue server operator (who would otherwise have no way to determine the victim's private key) can derive the victim's private key, and then use it for unauthorized access to those other services. If the other services include Git services, then again it may be possible to conduct supply-chain attacks on software maintained in Git. This also affects, for example, FileZilla before 3.67.0, WinSCP before 6.3.3, TortoiseGit before 2.15.0.1, and TortoiseSVN through 1.14.6.
+
+- [https://github.com/HugoBond/CVE-2024-31497-POC](https://github.com/HugoBond/CVE-2024-31497-POC) :  ![starts](https://img.shields.io/github/stars/HugoBond/CVE-2024-31497-POC.svg) ![forks](https://img.shields.io/github/forks/HugoBond/CVE-2024-31497-POC.svg)
+
+
+## CVE-2024-24787
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/unrealjbr/CVE-2024-28279](https://github.com/unrealjbr/CVE-2024-28279) :  ![starts](https://img.shields.io/github/stars/unrealjbr/CVE-2024-28279.svg) ![forks](https://img.shields.io/github/forks/unrealjbr/CVE-2024-28279.svg)
+- [https://github.com/LOURC0D3/CVE-2024-24787-PoC](https://github.com/LOURC0D3/CVE-2024-24787-PoC) :  ![starts](https://img.shields.io/github/stars/LOURC0D3/CVE-2024-24787-PoC.svg) ![forks](https://img.shields.io/github/forks/LOURC0D3/CVE-2024-24787-PoC.svg)
 
 
-## CVE-2024-28277
+## CVE-2024-3807
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/unrealjbr/CVE-2024-28277](https://github.com/unrealjbr/CVE-2024-28277) :  ![starts](https://img.shields.io/github/stars/unrealjbr/CVE-2024-28277.svg) ![forks](https://img.shields.io/github/forks/unrealjbr/CVE-2024-28277.svg)
+- [https://github.com/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc](https://github.com/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc) :  ![starts](https://img.shields.io/github/stars/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc.svg) ![forks](https://img.shields.io/github/forks/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc.svg)
 
 
-## CVE-2024-28276
+## CVE-2024-3806
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/unrealjbr/CVE-2024-28276](https://github.com/unrealjbr/CVE-2024-28276) :  ![starts](https://img.shields.io/github/stars/unrealjbr/CVE-2024-28276.svg) ![forks](https://img.shields.io/github/forks/unrealjbr/CVE-2024-28276.svg)
+- [https://github.com/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc](https://github.com/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc) :  ![starts](https://img.shields.io/github/stars/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc.svg) ![forks](https://img.shields.io/github/forks/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc.svg)
 
 
-## CVE-2024-27956
- Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ValvePress Automatic allows SQL Injection.This issue affects Automatic: from n/a through 3.92.0.
+## CVE-2024-3431
+ A vulnerability was found in EyouCMS 1.6.5. It has been declared as critical. This vulnerability affects unknown code of the file /login.php?m=admin&amp;c=Field&amp;a=channel_edit of the component Backend. The manipulation of the argument channel_id leads to deserialization. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-259612. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
 
-- [https://github.com/nancyariah4/CVE-2024-27956](https://github.com/nancyariah4/CVE-2024-27956) :  ![starts](https://img.shields.io/github/stars/nancyariah4/CVE-2024-27956.svg) ![forks](https://img.shields.io/github/forks/nancyariah4/CVE-2024-27956.svg)
-
-
-## CVE-2024-3422
- A vulnerability was found in SourceCodester Online Courseware 1.0. It has been declared as critical. This vulnerability affects unknown code of the file admin/activatestud.php. The manipulation of the argument selector leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-259594 is the identifier assigned to this vulnerability.
-
-- [https://github.com/dovankha/CVE-2024-34220](https://github.com/dovankha/CVE-2024-34220) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34220.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34220.svg)
+- [https://github.com/3309899621/CVE-2024-34310](https://github.com/3309899621/CVE-2024-34310) :  ![starts](https://img.shields.io/github/stars/3309899621/CVE-2024-34310.svg) ![forks](https://img.shields.io/github/forks/3309899621/CVE-2024-34310.svg)
 
 
-## CVE-2024-0566
- The Smart Manager WordPress plugin before 8.28.0 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by high privilege users such as admin.
-
-- [https://github.com/xbz0n/CVE-2024-0566](https://github.com/xbz0n/CVE-2024-0566) :  ![starts](https://img.shields.io/github/stars/xbz0n/CVE-2024-0566.svg) ![forks](https://img.shields.io/github/forks/xbz0n/CVE-2024-0566.svg)
-
-
-## CVE-2024-0399
- The WooCommerce Customers Manager WordPress plugin before 29.7 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to an SQL injection exploitable by Subscriber+ role.
-
-- [https://github.com/xbz0n/CVE-2024-0399](https://github.com/xbz0n/CVE-2024-0399) :  ![starts](https://img.shields.io/github/stars/xbz0n/CVE-2024-0399.svg) ![forks](https://img.shields.io/github/forks/xbz0n/CVE-2024-0399.svg)
-
-
-## CVE-2023-52654
+## CVE-2023-49606
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/FoxyProxys/CVE-2023-52654](https://github.com/FoxyProxys/CVE-2023-52654) :  ![starts](https://img.shields.io/github/stars/FoxyProxys/CVE-2023-52654.svg) ![forks](https://img.shields.io/github/forks/FoxyProxys/CVE-2023-52654.svg)
+- [https://github.com/rezardoss/CVE-2023-49606-Poc](https://github.com/rezardoss/CVE-2023-49606-Poc) :  ![starts](https://img.shields.io/github/stars/rezardoss/CVE-2023-49606-Poc.svg) ![forks](https://img.shields.io/github/forks/rezardoss/CVE-2023-49606-Poc.svg)
 
 
-## CVE-2022-41218
- In drivers/media/dvb-core/dmxdev.c in the Linux kernel through 5.19.10, there is a use-after-free caused by refcount races, affecting dvb_demux_open and dvb_dmxdev_release.
+## CVE-2023-46870
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Tobey123/CVE-2022-41218](https://github.com/Tobey123/CVE-2022-41218) :  ![starts](https://img.shields.io/github/stars/Tobey123/CVE-2022-41218.svg) ![forks](https://img.shields.io/github/forks/Tobey123/CVE-2022-41218.svg)
-
-
-## CVE-2021-41091
- Moby is an open-source project created by Docker to enable software containerization. A bug was found in Moby (Docker Engine) where the data directory (typically `/var/lib/docker`) contained subdirectories with insufficiently restricted permissions, allowing otherwise unprivileged Linux users to traverse directory contents and execute programs. When containers included executable programs with extended permission bits (such as `setuid`), unprivileged Linux users could discover and execute those programs. When the UID of an unprivileged Linux user on the host collided with the file owner or group inside a container, the unprivileged Linux user on the host could discover, read, and modify those files. This bug has been fixed in Moby (Docker Engine) 20.10.9. Users should update to this version as soon as possible. Running containers should be stopped and restarted for the permissions to be fixed. For users unable to upgrade limit access to the host to trusted users. Limit access to host volumes to trusted containers.
-
-- [https://github.com/jrbH4CK/CVE-2021-41091](https://github.com/jrbH4CK/CVE-2021-41091) :  ![starts](https://img.shields.io/github/stars/jrbH4CK/CVE-2021-41091.svg) ![forks](https://img.shields.io/github/forks/jrbH4CK/CVE-2021-41091.svg)
+- [https://github.com/Chapoly1305/CVE-2023-46870](https://github.com/Chapoly1305/CVE-2023-46870) :  ![starts](https://img.shields.io/github/stars/Chapoly1305/CVE-2023-46870.svg) ![forks](https://img.shields.io/github/forks/Chapoly1305/CVE-2023-46870.svg)
 
 
-## CVE-2019-2215
- A use-after-free in binder.c allows an elevation of privilege from an application to the Linux Kernel. No user interaction is required to exploit this vulnerability, however exploitation does require either the installation of a malicious local application or a separate vulnerability in a network facing application.Product: AndroidAndroid ID: A-141720095
+## CVE-2023-27350
+ This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not required to exploit this vulnerability. The specific flaw exists within the SetupCompleted class. The issue results from improper access control. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-18987.
 
-- [https://github.com/CrackerCat/Rootsmart-v2.0](https://github.com/CrackerCat/Rootsmart-v2.0) :  ![starts](https://img.shields.io/github/stars/CrackerCat/Rootsmart-v2.0.svg) ![forks](https://img.shields.io/github/forks/CrackerCat/Rootsmart-v2.0.svg)
-
-
-## CVE-2014-7169
- GNU Bash through 4.3 bash43-025 processes trailing strings after certain malformed function definitions in the values of environment variables, which allows remote attackers to write to files or possibly have unknown other impact via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-6271.
-
-- [https://github.com/ajansha/shellshock](https://github.com/ajansha/shellshock) :  ![starts](https://img.shields.io/github/stars/ajansha/shellshock.svg) ![forks](https://img.shields.io/github/forks/ajansha/shellshock.svg)
+- [https://github.com/rasan2001/CVE-2023-27350](https://github.com/rasan2001/CVE-2023-27350) :  ![starts](https://img.shields.io/github/stars/rasan2001/CVE-2023-27350.svg) ![forks](https://img.shields.io/github/forks/rasan2001/CVE-2023-27350.svg)
 
 
-## CVE-2014-6271
- GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
+## CVE-2022-29072
+ ** DISPUTED ** 7-Zip through 21.07 on Windows allows privilege escalation and command execution when a file with the .7z extension is dragged to the Help&gt;Contents area. This is caused by misconfiguration of 7z.dll and a heap overflow. The command runs in a child process under the 7zFM.exe process. NOTE: multiple third parties have reported that no privilege escalation can occur.
 
-- [https://github.com/ajansha/shellshock](https://github.com/ajansha/shellshock) :  ![starts](https://img.shields.io/github/stars/ajansha/shellshock.svg) ![forks](https://img.shields.io/github/forks/ajansha/shellshock.svg)
+- [https://github.com/rasan2001/CVE-2022-29072](https://github.com/rasan2001/CVE-2022-29072) :  ![starts](https://img.shields.io/github/stars/rasan2001/CVE-2022-29072.svg) ![forks](https://img.shields.io/github/forks/rasan2001/CVE-2022-29072.svg)
+
+
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+
+- [https://github.com/blasty/CVE-2021-41773](https://github.com/blasty/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/blasty/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/blasty/CVE-2021-41773.svg)
 
