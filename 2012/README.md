@@ -191,9 +191,9 @@
 
 - [https://github.com/blu3ming/CVE-2012-2982](https://github.com/blu3ming/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/blu3ming/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/blu3ming/CVE-2012-2982.svg)
 
-- [https://github.com/CpyRe/CVE-2012-2982](https://github.com/CpyRe/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/CpyRe/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/CpyRe/CVE-2012-2982.svg)
-
 - [https://github.com/wizardy0ga/CVE_2012-2982](https://github.com/wizardy0ga/CVE_2012-2982) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/CVE_2012-2982.svg)
+
+- [https://github.com/CpyRe/CVE-2012-2982](https://github.com/CpyRe/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/CpyRe/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/CpyRe/CVE-2012-2982.svg)
 
 - [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
 
@@ -230,13 +230,6 @@
 - [https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Oracle-mysql-CVE-2012-2122.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Oracle-mysql-CVE-2012-2122.svg)
 
 - [https://github.com/zhangkaibin0921/CVE-2012-2122](https://github.com/zhangkaibin0921/CVE-2012-2122) :  ![starts](https://img.shields.io/github/stars/zhangkaibin0921/CVE-2012-2122.svg) ![forks](https://img.shields.io/github/forks/zhangkaibin0921/CVE-2012-2122.svg)
-
-## CVE-2012-2012
- HP System Management Homepage (SMH) before 7.1.1 does not have an off autocomplete attribute for unspecified form fields, which makes it easier for remote attackers to obtain access by leveraging an unattended workstation.
-
-
-
-- [https://github.com/Ashro-one/CVE-2012-2012](https://github.com/Ashro-one/CVE-2012-2012) :  ![starts](https://img.shields.io/github/stars/Ashro-one/CVE-2012-2012.svg) ![forks](https://img.shields.io/github/forks/Ashro-one/CVE-2012-2012.svg)
 
 ## CVE-2012-1889
  Microsoft XML Core Services 3.0, 4.0, 5.0, and 6.0 accesses uninitialized memory locations, which allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site.
