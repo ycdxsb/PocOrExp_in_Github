@@ -1,91 +1,67 @@
-# Update 2024-05-18
-## CVE-2024-33559
- Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in 8theme XStore allows SQL Injection.This issue affects XStore: from n/a through 9.3.5.
+# Update 2024-05-19
+## CVE-2024-32640
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/absholi7ly/WordPress-XStore-theme-SQL-Injection](https://github.com/absholi7ly/WordPress-XStore-theme-SQL-Injection) :  ![starts](https://img.shields.io/github/stars/absholi7ly/WordPress-XStore-theme-SQL-Injection.svg) ![forks](https://img.shields.io/github/forks/absholi7ly/WordPress-XStore-theme-SQL-Injection.svg)
+- [https://github.com/0x3f3c/CVE-2024-32640-SQLI-MuraCMS](https://github.com/0x3f3c/CVE-2024-32640-SQLI-MuraCMS) :  ![starts](https://img.shields.io/github/stars/0x3f3c/CVE-2024-32640-SQLI-MuraCMS.svg) ![forks](https://img.shields.io/github/forks/0x3f3c/CVE-2024-32640-SQLI-MuraCMS.svg)
 
 
 ## CVE-2024-32002
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Disseminator/CVE-2024-32002](https://github.com/Disseminator/CVE-2024-32002) :  ![starts](https://img.shields.io/github/stars/Disseminator/CVE-2024-32002.svg) ![forks](https://img.shields.io/github/forks/Disseminator/CVE-2024-32002.svg)
-
-
-## CVE-2024-31974
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/actuator/com.solarized.firedown](https://github.com/actuator/com.solarized.firedown) :  ![starts](https://img.shields.io/github/stars/actuator/com.solarized.firedown.svg) ![forks](https://img.shields.io/github/forks/actuator/com.solarized.firedown.svg)
+- [https://github.com/markuta/hooky](https://github.com/markuta/hooky) :  ![starts](https://img.shields.io/github/stars/markuta/hooky.svg) ![forks](https://img.shields.io/github/forks/markuta/hooky.svg)
 
 
 ## CVE-2024-29895
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/secunnix/CVE-2024-29895](https://github.com/secunnix/CVE-2024-29895) :  ![starts](https://img.shields.io/github/stars/secunnix/CVE-2024-29895.svg) ![forks](https://img.shields.io/github/forks/secunnix/CVE-2024-29895.svg)
-- [https://github.com/ticofookfook/CVE-2024-29895.py](https://github.com/ticofookfook/CVE-2024-29895.py) :  ![starts](https://img.shields.io/github/stars/ticofookfook/CVE-2024-29895.py.svg) ![forks](https://img.shields.io/github/forks/ticofookfook/CVE-2024-29895.py.svg)
+- [https://github.com/Rubioo02/CVE-2024-29895](https://github.com/Rubioo02/CVE-2024-29895) :  ![starts](https://img.shields.io/github/stars/Rubioo02/CVE-2024-29895.svg) ![forks](https://img.shields.io/github/forks/Rubioo02/CVE-2024-29895.svg)
 
 
-## CVE-2024-23897
- Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
-
-- [https://github.com/Maalfer/CVE-2024-23897](https://github.com/Maalfer/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Maalfer/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Maalfer/CVE-2024-23897.svg)
-
-
-## CVE-2024-21306
- Microsoft Bluetooth Driver Spoofing Vulnerability
-
-- [https://github.com/PhucHauDeveloper/BadbBlue](https://github.com/PhucHauDeveloper/BadbBlue) :  ![starts](https://img.shields.io/github/stars/PhucHauDeveloper/BadbBlue.svg) ![forks](https://img.shields.io/github/forks/PhucHauDeveloper/BadbBlue.svg)
-
-
-## CVE-2024-3458
- A vulnerability classified as critical was found in Netentsec NS-ASG Application Security Gateway 6.3. This vulnerability affects unknown code of the file /admin/add_ikev2.php. The manipulation of the argument TunnelId leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-259714 is the identifier assigned to this vulnerability.
-
-- [https://github.com/silent6trinity/CVE-2024-34582](https://github.com/silent6trinity/CVE-2024-34582) :  ![starts](https://img.shields.io/github/stars/silent6trinity/CVE-2024-34582.svg) ![forks](https://img.shields.io/github/forks/silent6trinity/CVE-2024-34582.svg)
-
-
-## CVE-2023-48643
+## CVE-2024-27460
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/takeshixx/tac_plus-pre-auth-rce](https://github.com/takeshixx/tac_plus-pre-auth-rce) :  ![starts](https://img.shields.io/github/stars/takeshixx/tac_plus-pre-auth-rce.svg) ![forks](https://img.shields.io/github/forks/takeshixx/tac_plus-pre-auth-rce.svg)
+- [https://github.com/10cks/CVE-2024-27460-installer](https://github.com/10cks/CVE-2024-27460-installer) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-27460-installer.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-27460-installer.svg)
 
 
-## CVE-2023-45239
- A lack of input validation exists in tac_plus prior to commit 4fdf178 which, when pre or post auth commands are enabled, allows an attacker who can control the username, rem-addr, or NAC address sent to tac_plus to inject shell commands and gain remote code execution on the tac_plus server.
+## CVE-2024-27130
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/takeshixx/tac_plus-pre-auth-rce](https://github.com/takeshixx/tac_plus-pre-auth-rce) :  ![starts](https://img.shields.io/github/stars/takeshixx/tac_plus-pre-auth-rce.svg) ![forks](https://img.shields.io/github/forks/takeshixx/tac_plus-pre-auth-rce.svg)
-
-
-## CVE-2023-6241
- Use After Free vulnerability in Arm Ltd Midgard GPU Kernel Driver, Arm Ltd Bifrost GPU Kernel Driver, Arm Ltd Valhall GPU Kernel Driver, Arm Ltd Arm 5th Gen GPU Architecture Kernel Driver allows a local non-privileged user to exploit a software race condition to perform improper memory processing operations. If the system&#8217;s memory is carefully prepared by the user, then this in turn cause a use-after-free.This issue affects Midgard GPU Kernel Driver: from r13p0 through r32p0; Bifrost GPU Kernel Driver: from r11p0 through r25p0; Valhall GPU Kernel Driver: from r19p0 through r25p0, from r29p0 through r46p0; Arm 5th Gen GPU Architecture Kernel Driver: from r41p0 through r46p0.
-
-- [https://github.com/SmileTabLabo/CVE-2023-6241](https://github.com/SmileTabLabo/CVE-2023-6241) :  ![starts](https://img.shields.io/github/stars/SmileTabLabo/CVE-2023-6241.svg) ![forks](https://img.shields.io/github/forks/SmileTabLabo/CVE-2023-6241.svg)
+- [https://github.com/watchtowrlabs/CVE-2024-27130](https://github.com/watchtowrlabs/CVE-2024-27130) :  ![starts](https://img.shields.io/github/stars/watchtowrlabs/CVE-2024-27130.svg) ![forks](https://img.shields.io/github/forks/watchtowrlabs/CVE-2024-27130.svg)
 
 
-## CVE-2022-22978
- In spring security versions prior to 5.4.11+, 5.5.7+ , 5.6.4+ and older unsupported versions, RegexRequestMatcher can easily be misconfigured to be bypassed on some servlet containers. Applications using RegexRequestMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass.
+## CVE-2024-21111
+ Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). Supported versions that are affected are Prior to 7.0.16. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. Note: This vulnerability applies to Windows hosts only. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).
 
-- [https://github.com/wan9xx/CVE-2022-22978-demo](https://github.com/wan9xx/CVE-2022-22978-demo) :  ![starts](https://img.shields.io/github/stars/wan9xx/CVE-2022-22978-demo.svg) ![forks](https://img.shields.io/github/forks/wan9xx/CVE-2022-22978-demo.svg)
-
-
-## CVE-2019-9054
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/FedericoTorres233/CVE-2019-9053-Fixed](https://github.com/FedericoTorres233/CVE-2019-9053-Fixed) :  ![starts](https://img.shields.io/github/stars/FedericoTorres233/CVE-2019-9053-Fixed.svg) ![forks](https://img.shields.io/github/forks/FedericoTorres233/CVE-2019-9053-Fixed.svg)
+- [https://github.com/10cks/CVE-2024-21111-del](https://github.com/10cks/CVE-2024-21111-del) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-21111-del.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-21111-del.svg)
 
 
-## CVE-2019-9053
- An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News module, through a crafted URL, to achieve unauthenticated blind time-based SQL injection via the m1_idlist parameter.
+## CVE-2023-4596
+ The Forminator plugin for WordPress is vulnerable to arbitrary file uploads due to file type validation occurring after a file has been uploaded to the server in the upload_post_image() function in versions up to, and including, 1.24.6. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
 
-- [https://github.com/FedericoTorres233/CVE-2019-9053-Fixed](https://github.com/FedericoTorres233/CVE-2019-9053-Fixed) :  ![starts](https://img.shields.io/github/stars/FedericoTorres233/CVE-2019-9053-Fixed.svg) ![forks](https://img.shields.io/github/forks/FedericoTorres233/CVE-2019-9053-Fixed.svg)
-
-
-## CVE-2018-25075
- A vulnerability classified as critical has been found in karsany OBridge up to 1.3. Affected is the function getAllStandaloneProcedureAndFunction of the file obridge-main/src/main/java/org/obridge/dao/ProcedureDao.java. The manipulation leads to sql injection. The complexity of an attack is rather high. The exploitability is told to be difficult. Upgrading to version 1.4 is able to address this issue. The name of the patch is 52eca4ad05f3c292aed3178b2f58977686ffa376. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218376.
-
-- [https://github.com/epicosy/obridge](https://github.com/epicosy/obridge) :  ![starts](https://img.shields.io/github/stars/epicosy/obridge.svg) ![forks](https://img.shields.io/github/forks/epicosy/obridge.svg)
+- [https://github.com/X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version](https://github.com/X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version) :  ![starts](https://img.shields.io/github/stars/X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version.svg) ![forks](https://img.shields.io/github/forks/X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version.svg)
 
 
-## CVE-2018-6574
- Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10rc2 allow &quot;go get&quot; remote command execution during source code build, by leveraging the gcc or clang plugin feature, because -fplugin= and -plugin= arguments were not blocked.
+## CVE-2020-27252
+ Medtronic MyCareLink Smart 25000 all versions are vulnerable to a race condition in the MCL Smart Patient Reader software update system, which allows unsigned firmware to be uploaded and executed on the Patient Reader. If exploited an attacker could remotely execute code on the MCL Smart Patient Reader device, leading to control of the device.
 
-- [https://github.com/Dannners/CVE-2018-6574-go-get-RCE](https://github.com/Dannners/CVE-2018-6574-go-get-RCE) :  ![starts](https://img.shields.io/github/stars/Dannners/CVE-2018-6574-go-get-RCE.svg) ![forks](https://img.shields.io/github/forks/Dannners/CVE-2018-6574-go-get-RCE.svg)
+- [https://github.com/OccultSlolem/GatorMed](https://github.com/OccultSlolem/GatorMed) :  ![starts](https://img.shields.io/github/stars/OccultSlolem/GatorMed.svg) ![forks](https://img.shields.io/github/forks/OccultSlolem/GatorMed.svg)
+
+
+## CVE-2019-1609
+ A vulnerability in the CLI of Cisco NX-OS Software could allow an authenticated, local attacker to execute arbitrary commands on the underlying operating system of an affected device. The vulnerability is due to insufficient validation of arguments passed to certain CLI commands. An attacker could exploit this vulnerability by including malicious input as the argument of an affected command. A successful exploit could allow the attacker to execute arbitrary commands on the underlying operating system with elevated privileges. An attacker would need valid administrator credentials to exploit this vulnerability. MDS 9000 Series Multilayer Switches are affected in versions prior to 6.2(27), 8.1(1b), and 8.3(2). Nexus 3500 Platform Switches are affected in versions prior to 7.0(3)I7(6). Nexus 3000 Series Switches are affected in versions prior to 7.0(3)I4(9) and 7.0(3)I7(6). Nexus 3600 Platform Switches are affected in versions prior to 7.0(3)F3(5). Nexus 7000 and 7700 Series Switches are affected in versions prior to 6.2(22), 7.3(3)D1(1), 8.2(3), and 8.3(2). Nexus 9000 Series Switches in Standalone NX-OS Mode are affected in versions prior to 7.0(3)I4(9) and7.0(3)I7(6). Nexus 9500 R-Series Line Cards and Fabric Modules are affected in versions prior to 7.0(3)F3(5).
+
+- [https://github.com/1X14720f130x/CVE-2019-1609](https://github.com/1X14720f130x/CVE-2019-1609) :  ![starts](https://img.shields.io/github/stars/1X14720f130x/CVE-2019-1609.svg) ![forks](https://img.shields.io/github/forks/1X14720f130x/CVE-2019-1609.svg)
+
+
+## CVE-2015-1397
+ SQL injection vulnerability in the getCsvFile function in the Mage_Adminhtml_Block_Widget_Grid class in Magento Community Edition (CE) 1.9.1.0 and Enterprise Edition (EE) 1.14.1.0 allows remote administrators to execute arbitrary SQL commands via the popularity[field_expr] parameter when the popularity[from] or popularity[to] parameter is set.
+
+- [https://github.com/47Cid/Magento-Shoplift-SQLI](https://github.com/47Cid/Magento-Shoplift-SQLI) :  ![starts](https://img.shields.io/github/stars/47Cid/Magento-Shoplift-SQLI.svg) ![forks](https://img.shields.io/github/forks/47Cid/Magento-Shoplift-SQLI.svg)
+- [https://github.com/WHOISshuvam/CVE-2015-1397](https://github.com/WHOISshuvam/CVE-2015-1397) :  ![starts](https://img.shields.io/github/stars/WHOISshuvam/CVE-2015-1397.svg) ![forks](https://img.shields.io/github/forks/WHOISshuvam/CVE-2015-1397.svg)
+
+
+## CVE-2014-6271
+ GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
+
+- [https://github.com/K3ysTr0K3R/CVE-2014-6271-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2014-6271-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2014-6271-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2014-6271-EXPLOIT.svg)
 
