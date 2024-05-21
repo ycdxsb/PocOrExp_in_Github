@@ -1,65 +1,57 @@
-# Update 2024-05-20
+# Update 2024-05-21
+## CVE-2024-32004
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/Wadewfsssss/CVE-2024-32004](https://github.com/Wadewfsssss/CVE-2024-32004) :  ![starts](https://img.shields.io/github/stars/Wadewfsssss/CVE-2024-32004.svg) ![forks](https://img.shields.io/github/forks/Wadewfsssss/CVE-2024-32004.svg)
+
+
 ## CVE-2024-32002
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/safebuffer/CVE-2024-32002](https://github.com/safebuffer/CVE-2024-32002) :  ![starts](https://img.shields.io/github/stars/safebuffer/CVE-2024-32002.svg) ![forks](https://img.shields.io/github/forks/safebuffer/CVE-2024-32002.svg)
-- [https://github.com/M507/CVE-2024-32002](https://github.com/M507/CVE-2024-32002) :  ![starts](https://img.shields.io/github/stars/M507/CVE-2024-32002.svg) ![forks](https://img.shields.io/github/forks/M507/CVE-2024-32002.svg)
-- [https://github.com/10cks/CVE-2024-32002-smash](https://github.com/10cks/CVE-2024-32002-smash) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-smash.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-smash.svg)
-- [https://github.com/10cks/CVE-2024-32002-submod](https://github.com/10cks/CVE-2024-32002-submod) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-submod.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-submod.svg)
-- [https://github.com/10cks/CVE-2024-32002-POC](https://github.com/10cks/CVE-2024-32002-POC) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-POC.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-POC.svg)
-- [https://github.com/10cks/CVE-2024-32002-hulk](https://github.com/10cks/CVE-2024-32002-hulk) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-hulk.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-hulk.svg)
+- [https://github.com/amalmurali47/git_rce](https://github.com/amalmurali47/git_rce) :  ![starts](https://img.shields.io/github/stars/amalmurali47/git_rce.svg) ![forks](https://img.shields.io/github/forks/amalmurali47/git_rce.svg)
+- [https://github.com/10cks/hook](https://github.com/10cks/hook) :  ![starts](https://img.shields.io/github/stars/10cks/hook.svg) ![forks](https://img.shields.io/github/forks/10cks/hook.svg)
+- [https://github.com/aitorcastel/poc_CVE-2024-32002](https://github.com/aitorcastel/poc_CVE-2024-32002) :  ![starts](https://img.shields.io/github/stars/aitorcastel/poc_CVE-2024-32002.svg) ![forks](https://img.shields.io/github/forks/aitorcastel/poc_CVE-2024-32002.svg)
+- [https://github.com/jweny/CVE-2024-32002_HOOK](https://github.com/jweny/CVE-2024-32002_HOOK) :  ![starts](https://img.shields.io/github/stars/jweny/CVE-2024-32002_HOOK.svg) ![forks](https://img.shields.io/github/forks/jweny/CVE-2024-32002_HOOK.svg)
+- [https://github.com/10cks/CVE-2024-32002-linux-submod](https://github.com/10cks/CVE-2024-32002-linux-submod) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-linux-submod.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-linux-submod.svg)
+- [https://github.com/jweny/CVE-2024-32002_EXP](https://github.com/jweny/CVE-2024-32002_EXP) :  ![starts](https://img.shields.io/github/stars/jweny/CVE-2024-32002_EXP.svg) ![forks](https://img.shields.io/github/forks/jweny/CVE-2024-32002_EXP.svg)
+- [https://github.com/10cks/CVE-2024-32002-linux-smash](https://github.com/10cks/CVE-2024-32002-linux-smash) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-linux-smash.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-linux-smash.svg)
+- [https://github.com/aitorcastel/poc_CVE-2024-32002_submodule](https://github.com/aitorcastel/poc_CVE-2024-32002_submodule) :  ![starts](https://img.shields.io/github/stars/aitorcastel/poc_CVE-2024-32002_submodule.svg) ![forks](https://img.shields.io/github/forks/aitorcastel/poc_CVE-2024-32002_submodule.svg)
+- [https://github.com/10cks/CVE-2024-32002-linux-hulk](https://github.com/10cks/CVE-2024-32002-linux-hulk) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-linux-hulk.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-linux-hulk.svg)
+- [https://github.com/amalmurali47/hook](https://github.com/amalmurali47/hook) :  ![starts](https://img.shields.io/github/stars/amalmurali47/hook.svg) ![forks](https://img.shields.io/github/forks/amalmurali47/hook.svg)
 
 
-## CVE-2024-27972
- Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability in Very Good Plugins WP Fusion Lite allows Command Injection.This issue affects WP Fusion Lite: from n/a through 3.41.24.
+## CVE-2024-29269
+ An issue discovered in Telesquare TLR-2005Ksh 1.0.0 and 1.1.4 allows attackers to run arbitrary system commands via the Cmd parameter.
 
-- [https://github.com/truonghuuphuc/CVE-2024-27972-Poc](https://github.com/truonghuuphuc/CVE-2024-27972-Poc) :  ![starts](https://img.shields.io/github/stars/truonghuuphuc/CVE-2024-27972-Poc.svg) ![forks](https://img.shields.io/github/forks/truonghuuphuc/CVE-2024-27972-Poc.svg)
-
-
-## CVE-2024-21338
- Windows Kernel Elevation of Privilege Vulnerability
-
-- [https://github.com/Zombie-Kaiser/CVE-2024-21338-x64-build-](https://github.com/Zombie-Kaiser/CVE-2024-21338-x64-build-) :  ![starts](https://img.shields.io/github/stars/Zombie-Kaiser/CVE-2024-21338-x64-build-.svg) ![forks](https://img.shields.io/github/forks/Zombie-Kaiser/CVE-2024-21338-x64-build-.svg)
+- [https://github.com/Chocapikk/CVE-2024-29269](https://github.com/Chocapikk/CVE-2024-29269) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-29269.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-29269.svg)
 
 
-## CVE-2023-4762
- Type Confusion in V8 in Google Chrome prior to 116.0.5845.179 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)
+## CVE-2024-22120
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/buptsb/CVE-2023-4762](https://github.com/buptsb/CVE-2023-4762) :  ![starts](https://img.shields.io/github/stars/buptsb/CVE-2023-4762.svg) ![forks](https://img.shields.io/github/forks/buptsb/CVE-2023-4762.svg)
-
-
-## CVE-2021-40438
- A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.
-
-- [https://github.com/Cappricio-Securities/CVE-2021-40438](https://github.com/Cappricio-Securities/CVE-2021-40438) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2021-40438.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2021-40438.svg)
+- [https://github.com/W01fh4cker/CVE-2024-22120-RCE](https://github.com/W01fh4cker/CVE-2024-22120-RCE) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/CVE-2024-22120-RCE.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/CVE-2024-22120-RCE.svg)
 
 
-## CVE-2020-35489
- The contact-form-7 (aka Contact Form 7) plugin before 5.3.2 for WordPress allows Unrestricted File Upload and remote code execution because a filename may contain special characters.
+## CVE-2024-20356
+ A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker with Administrator-level privileges to perform command injection attacks on an affected system and elevate their privileges to root. This vulnerability is due to insufficient user input validation. An attacker could exploit this vulnerability by sending crafted commands to the web-based management interface of the affected software. A successful exploit could allow the attacker to elevate their privileges to root.
 
-- [https://github.com/Cappricio-Securities/CVE-2020-35489](https://github.com/Cappricio-Securities/CVE-2020-35489) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2020-35489.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2020-35489.svg)
-
-
-## CVE-2020-3187
- A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct directory traversal attacks and obtain read and delete access to sensitive files on a targeted system. The vulnerability is due to a lack of proper input validation of the HTTP URL. An attacker could exploit this vulnerability by sending a crafted HTTP request containing directory traversal character sequences. An exploit could allow the attacker to view or delete arbitrary files on the targeted system. When the device is reloaded after exploitation of this vulnerability, any files that were deleted are restored. The attacker can only view and delete files within the web services file system. This file system is enabled when the affected device is configured with either WebVPN or AnyConnect features. This vulnerability can not be used to obtain access to ASA or FTD system files or underlying operating system (OS) files. Reloading the affected device will restore all files within the web services file system.
-
-- [https://github.com/Cappricio-Securities/CVE-2020-3187](https://github.com/Cappricio-Securities/CVE-2020-3187) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2020-3187.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2020-3187.svg)
+- [https://github.com/SherllyNeo/CVE_2024_20356](https://github.com/SherllyNeo/CVE_2024_20356) :  ![starts](https://img.shields.io/github/stars/SherllyNeo/CVE_2024_20356.svg) ![forks](https://img.shields.io/github/forks/SherllyNeo/CVE_2024_20356.svg)
 
 
-## CVE-2019-14271
- In Docker 19.03.x before 19.03.1 linked against the GNU C Library (aka glibc), code injection can occur when the nsswitch facility dynamically loads a library inside a chroot that contains the contents of the container.
+## CVE-2024-3435
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Laihoang2k3/CVE_2019_14271](https://github.com/Laihoang2k3/CVE_2019_14271) :  ![starts](https://img.shields.io/github/stars/Laihoang2k3/CVE_2019_14271.svg) ![forks](https://img.shields.io/github/forks/Laihoang2k3/CVE_2019_14271.svg)
-
-
-## CVE-2019-5736
- runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allows attackers to overwrite the host runc binary (and consequently obtain host root access) by leveraging the ability to execute a command as root within one of these types of containers: (1) a new container with an attacker-controlled image, or (2) an existing container, to which the attacker previously had write access, that can be attached with docker exec. This occurs because of file-descriptor mishandling, related to /proc/self/exe.
-
-- [https://github.com/Laihoang2k3/CVE_2019_5736](https://github.com/Laihoang2k3/CVE_2019_5736) :  ![starts](https://img.shields.io/github/stars/Laihoang2k3/CVE_2019_5736.svg) ![forks](https://img.shields.io/github/forks/Laihoang2k3/CVE_2019_5736.svg)
+- [https://github.com/ymuraki-csc/cve-2024-3435](https://github.com/ymuraki-csc/cve-2024-3435) :  ![starts](https://img.shields.io/github/stars/ymuraki-csc/cve-2024-3435.svg) ![forks](https://img.shields.io/github/forks/ymuraki-csc/cve-2024-3435.svg)
 
 
-## CVE-2017-7269
- Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with &quot;If: &lt;http://&quot; in a PROPFIND request, as exploited in the wild in July or August 2016.
+## CVE-2024-3400
+ A command injection as a result of arbitrary file creation vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an unauthenticated attacker to execute arbitrary code with root privileges on the firewall. Cloud NGFW, Panorama appliances, and Prisma Access are not impacted by this vulnerability.
 
-- [https://github.com/Cappricio-Securities/CVE-2017-7269](https://github.com/Cappricio-Securities/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2017-7269.svg)
+- [https://github.com/iwallarm/cve-2024-3400](https://github.com/iwallarm/cve-2024-3400) :  ![starts](https://img.shields.io/github/stars/iwallarm/cve-2024-3400.svg) ![forks](https://img.shields.io/github/forks/iwallarm/cve-2024-3400.svg)
+
+
+## CVE-2023-38146
+ Windows Themes Remote Code Execution Vulnerability
+
+- [https://github.com/exploits-forsale/themebleed](https://github.com/exploits-forsale/themebleed) :  ![starts](https://img.shields.io/github/stars/exploits-forsale/themebleed.svg) ![forks](https://img.shields.io/github/forks/exploits-forsale/themebleed.svg)
 
