@@ -227,6 +227,8 @@
 
 - [https://github.com/CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory) :  ![starts](https://img.shields.io/github/stars/CCrashBandicot/ContentHistory.svg) ![forks](https://img.shields.io/github/forks/CCrashBandicot/ContentHistory.svg)
 
+- [https://github.com/Cappricio-Securities/CVE-2015-7297](https://github.com/Cappricio-Securities/CVE-2015-7297) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2015-7297.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2015-7297.svg)
+
 - [https://github.com/areaventuno/exploit-joomla](https://github.com/areaventuno/exploit-joomla) :  ![starts](https://img.shields.io/github/stars/areaventuno/exploit-joomla.svg) ![forks](https://img.shields.io/github/forks/areaventuno/exploit-joomla.svg)
 
 ## CVE-2015-7214
