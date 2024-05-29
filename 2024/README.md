@@ -1,12 +1,166 @@
-## CVE-2024-33911
+## CVE-2024-36079
+ An issue was discovered in Vaultize 21.07.27. When uploading files, there is no check that the filename parameter is correct. As a result, a temporary file will be created outside the specified directory when the file is downloaded. To exploit this, an authenticated user would upload a file with an incorrect file name, and then download it.
+
+
+
+- [https://github.com/DxRvs/vaultize_CVE-2024-36079](https://github.com/DxRvs/vaultize_CVE-2024-36079) :  ![starts](https://img.shields.io/github/stars/DxRvs/vaultize_CVE-2024-36079.svg) ![forks](https://img.shields.io/github/forks/DxRvs/vaultize_CVE-2024-36079.svg)
+
+## CVE-2024-35511
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/efekaanakkar/CVE-2024-35511](https://github.com/efekaanakkar/CVE-2024-35511) :  ![starts](https://img.shields.io/github/stars/efekaanakkar/CVE-2024-35511.svg) ![forks](https://img.shields.io/github/forks/efekaanakkar/CVE-2024-35511.svg)
+
+## CVE-2024-35475
+ A Cross-Site Request Forgery (CSRF) vulnerability was discovered in OpenKM Community Edition on or before version 6.3.12. The vulnerability exists in /admin/DatabaseQuery, which allows an attacker to manipulate a victim with administrative privileges to execute arbitrary SQL commands.
+
+
+
+- [https://github.com/carsonchan12345/CVE-2024-35475](https://github.com/carsonchan12345/CVE-2024-35475) :  ![starts](https://img.shields.io/github/stars/carsonchan12345/CVE-2024-35475.svg) ![forks](https://img.shields.io/github/forks/carsonchan12345/CVE-2024-35475.svg)
+
+## CVE-2024-35333
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+
+
+- [https://github.com/momo1239/CVE-2024-35333](https://github.com/momo1239/CVE-2024-35333) :  ![starts](https://img.shields.io/github/stars/momo1239/CVE-2024-35333.svg) ![forks](https://img.shields.io/github/forks/momo1239/CVE-2024-35333.svg)
+
+## CVE-2024-34958
+ idccms v1.35 was discovered to contain a Cross-Site Request Forgery (CSRF) via the component admin/banner_deal.php?mudi=add
+
+
+
+- [https://github.com/Gr-1m/CVE-2024-34958-1](https://github.com/Gr-1m/CVE-2024-34958-1) :  ![starts](https://img.shields.io/github/stars/Gr-1m/CVE-2024-34958-1.svg) ![forks](https://img.shields.io/github/forks/Gr-1m/CVE-2024-34958-1.svg)
+
+## CVE-2024-34716
+ PrestaShop is an open source e-commerce web application. A cross-site scripting (XSS) vulnerability that only affects PrestaShops with customer-thread feature flag enabled is present starting from PrestaShop 8.1.0 and prior to PrestaShop 8.1.6. When the customer thread feature flag is enabled through the front-office contact form, a hacker can upload a malicious file containing an XSS that will be executed when an admin opens the attached file in back office. The script injected can access the session and the security token, which allows it to perform any authenticated action in the scope of the administrator's right. This vulnerability is patched in 8.1.6. A workaround is to disable the customer-thread feature-flag.
+
+
+
+- [https://github.com/aelmokhtar/CVE-2024-34716_PoC](https://github.com/aelmokhtar/CVE-2024-34716_PoC) :  ![starts](https://img.shields.io/github/stars/aelmokhtar/CVE-2024-34716_PoC.svg) ![forks](https://img.shields.io/github/forks/aelmokhtar/CVE-2024-34716_PoC.svg)
+
+## CVE-2024-34582
+ Sunhillo SureLine through 8.10.0 on RICI 5000 devices allows cgi/usrPasswd.cgi userid_change XSS within the Forgot Password feature.
+
+
+
+- [https://github.com/silent6trinity/CVE-2024-34582](https://github.com/silent6trinity/CVE-2024-34582) :  ![starts](https://img.shields.io/github/stars/silent6trinity/CVE-2024-34582.svg) ![forks](https://img.shields.io/github/forks/silent6trinity/CVE-2024-34582.svg)
+
+## CVE-2024-34474
+ Clario through 2024-04-11 for Desktop has weak permissions for %PROGRAMDATA%\Clario and tries to load DLLs from there as SYSTEM.
+
+
+
+- [https://github.com/Alaatk/CVE-2024-34474](https://github.com/Alaatk/CVE-2024-34474) :  ![starts](https://img.shields.io/github/stars/Alaatk/CVE-2024-34474.svg) ![forks](https://img.shields.io/github/forks/Alaatk/CVE-2024-34474.svg)
+
+## CVE-2024-34472
+ An issue was discovered in HSC Mailinspector 5.2.17-3 through v.5.2.18. An authenticated blind SQL injection vulnerability exists in the mliRealtimeEmails.php file. The ordemGrid parameter in a POST request to /mailinspector/mliRealtimeEmails.php does not properly sanitize input, allowing an authenticated attacker to execute arbitrary SQL commands, leading to the potential disclosure of the entire application database.
+
+
+
+- [https://github.com/osvaldotenorio/CVE-2024-34472](https://github.com/osvaldotenorio/CVE-2024-34472) :  ![starts](https://img.shields.io/github/stars/osvaldotenorio/CVE-2024-34472.svg) ![forks](https://img.shields.io/github/forks/osvaldotenorio/CVE-2024-34472.svg)
+
+## CVE-2024-34471
+ An issue was discovered in HSC Mailinspector 5.2.17-3. A Path Traversal vulnerability (resulting in file deletion) exists in the mliRealtimeEmails.php file. The filename parameter in the export HTML functionality does not properly validate the file location, allowing an attacker to read and delete arbitrary files on the server. This was observed when the mliRealtimeEmails.php file itself was read and subsequently deleted, resulting in a 404 error for the file and disruption of email information loading.
+
+
+
+- [https://github.com/osvaldotenorio/CVE-2024-34471](https://github.com/osvaldotenorio/CVE-2024-34471) :  ![starts](https://img.shields.io/github/stars/osvaldotenorio/CVE-2024-34471.svg) ![forks](https://img.shields.io/github/forks/osvaldotenorio/CVE-2024-34471.svg)
+
+## CVE-2024-34470
+ An issue was discovered in HSC Mailinspector 5.2.17-3 through v.5.2.18. An Unauthenticated Path Traversal vulnerability exists in the /public/loader.php file. The path parameter does not properly filter whether the file and directory passed are part of the webroot, allowing an attacker to read arbitrary files on the server.
+
+
+
+- [https://github.com/osvaldotenorio/CVE-2024-34470](https://github.com/osvaldotenorio/CVE-2024-34470) :  ![starts](https://img.shields.io/github/stars/osvaldotenorio/CVE-2024-34470.svg) ![forks](https://img.shields.io/github/forks/osvaldotenorio/CVE-2024-34470.svg)
+
+## CVE-2024-34469
+ Rukovoditel before 3.5.3 allows XSS via user_photo to index.php?module=users/registration&amp;action=save.
+
+
+
+- [https://github.com/Toxich4/CVE-2024-34469](https://github.com/Toxich4/CVE-2024-34469) :  ![starts](https://img.shields.io/github/stars/Toxich4/CVE-2024-34469.svg) ![forks](https://img.shields.io/github/forks/Toxich4/CVE-2024-34469.svg)
+
+## CVE-2024-34351
+ Next.js is a React framework that can provide building blocks to create web applications. A Server-Side Request Forgery (SSRF) vulnerability was identified in Next.js Server Actions. If the `Host` header is modified, and the below conditions are also met, an attacker may be able to make requests that appear to be originating from the Next.js application server itself. The required conditions are 1) Next.js is running in a self-hosted manner; 2) the Next.js application makes use of Server Actions; and 3) the Server Action performs a redirect to a relative path which starts with a `/`. This vulnerability was fixed in Next.js `14.1.1`.
+
+
+
+- [https://github.com/Voorivex/CVE-2024-34351](https://github.com/Voorivex/CVE-2024-34351) :  ![starts](https://img.shields.io/github/stars/Voorivex/CVE-2024-34351.svg) ![forks](https://img.shields.io/github/forks/Voorivex/CVE-2024-34351.svg)
+
+## CVE-2024-34342
+ react-pdf displays PDFs in React apps. If PDF.js is used to load a malicious PDF, and PDF.js is configured with `isEvalSupported` set to `true` (which is the default value), unrestricted attacker-controlled JavaScript will be executed in the context of the hosting domain. This vulnerability is fixed in 7.7.3 and 8.0.2.
+
+
+
+- [https://github.com/LOURC0D3/CVE-2024-4367-PoC](https://github.com/LOURC0D3/CVE-2024-4367-PoC) :  ![starts](https://img.shields.io/github/stars/LOURC0D3/CVE-2024-4367-PoC.svg) ![forks](https://img.shields.io/github/forks/LOURC0D3/CVE-2024-4367-PoC.svg)
+
+## CVE-2024-34310
+ Jin Fang Times Content Management System v3.2.3 was discovered to contain a SQL injection vulnerability via the id parameter.
+
+
+
+- [https://github.com/3309899621/CVE-2024-34310](https://github.com/3309899621/CVE-2024-34310) :  ![starts](https://img.shields.io/github/stars/3309899621/CVE-2024-34310.svg) ![forks](https://img.shields.io/github/forks/3309899621/CVE-2024-34310.svg)
+
+## CVE-2024-34226
+ SQL injection vulnerability in /php-sqlite-vms/?page=manage_visitor&amp;id=1 in SourceCodester Visitor Management System 1.0 allow attackers to execute arbitrary SQL commands via the id parameters.
+
+
+
+- [https://github.com/dovankha/CVE-2024-34226](https://github.com/dovankha/CVE-2024-34226) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34226.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34226.svg)
+
+## CVE-2024-34225
+ Cross Site Scripting vulnerability in php-lms/admin/?page=system_info in Computer Laboratory Management System using PHP and MySQL 1.0 allow remote attackers to inject arbitrary web script or HTML via the name, shortname parameters.
+
+
+
+- [https://github.com/dovankha/CVE-2024-34225](https://github.com/dovankha/CVE-2024-34225) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34225.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34225.svg)
+
+## CVE-2024-34224
+ Cross Site Scripting vulnerability in /php-lms/classes/Users.php?f=save in Computer Laboratory Management System using PHP and MySQL 1.0 allow remote attackers to inject arbitrary web script or HTML via the firstname, middlename, lastname parameters.
+
+
+
+- [https://github.com/dovankha/CVE-2024-34224](https://github.com/dovankha/CVE-2024-34224) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34224.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34224.svg)
+
+## CVE-2024-34223
+ Insecure permission vulnerability in /hrm/leaverequest.php in SourceCodester Human Resource Management System 1.0 allow attackers to approve or reject leave ticket.
+
+
+
+- [https://github.com/dovankha/CVE-2024-34223](https://github.com/dovankha/CVE-2024-34223) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34223.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34223.svg)
+
+## CVE-2024-34222
+ Sourcecodester Human Resource Management System 1.0 is vulnerable to SQL Injection via the searccountry parameter.
+
+
+
+- [https://github.com/dovankha/CVE-2024-34222](https://github.com/dovankha/CVE-2024-34222) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34222.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34222.svg)
+
+## CVE-2024-34221
+ Sourcecodester Human Resource Management System 1.0 is vulnerable to Insecure Permissions resulting in privilege escalation.
+
+
+
+- [https://github.com/dovankha/CVE-2024-34221](https://github.com/dovankha/CVE-2024-34221) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34221.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34221.svg)
+
+## CVE-2024-34220
+ Sourcecodester Human Resource Management System 1.0 is vulnerable to SQL Injection via the 'leave' parameter.
+
+
+
+- [https://github.com/dovankha/CVE-2024-34220](https://github.com/dovankha/CVE-2024-34220) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34220.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34220.svg)
+
+## CVE-2024-33911
+ Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Weblizar School Management Pro.This issue affects School Management Pro: from n/a through 10.3.4.
 
 
 
 - [https://github.com/xbz0n/CVE-2024-33911](https://github.com/xbz0n/CVE-2024-33911) :  ![starts](https://img.shields.io/github/stars/xbz0n/CVE-2024-33911.svg) ![forks](https://img.shields.io/github/forks/xbz0n/CVE-2024-33911.svg)
 
 ## CVE-2024-33775
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue with the Autodiscover component in Nagios XI 2024R1.01 allows a remote attacker to escalate privileges via a crafted Dashlet.
 
 
 
@@ -41,14 +195,14 @@
 - [https://github.com/julio-cfa/CVE-2024-33438](https://github.com/julio-cfa/CVE-2024-33438) :  ![starts](https://img.shields.io/github/stars/julio-cfa/CVE-2024-33438.svg) ![forks](https://img.shields.io/github/forks/julio-cfa/CVE-2024-33438.svg)
 
 ## CVE-2024-33437
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue in CSS Exfil Protection v.1.1.0 allows a remote attacker to obtain sensitive information due to missing support for CSS Style Rules.
 
 
 
 - [https://github.com/randshell/CSS-Exfil-Protection-POC](https://github.com/randshell/CSS-Exfil-Protection-POC) :  ![starts](https://img.shields.io/github/stars/randshell/CSS-Exfil-Protection-POC.svg) ![forks](https://img.shields.io/github/forks/randshell/CSS-Exfil-Protection-POC.svg)
 
 ## CVE-2024-33436
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue in CSS Exfil Protection v.1.1.0 allows a remote attacker to obtain sensitive information due to missing support for CSS variables
 
 
 
@@ -62,7 +216,7 @@
 - [https://github.com/balckgu1/Poc](https://github.com/balckgu1/Poc) :  ![starts](https://img.shields.io/github/stars/balckgu1/Poc.svg) ![forks](https://img.shields.io/github/forks/balckgu1/Poc.svg)
 
 ## CVE-2024-33078
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Tencent Libpag v4.3 is vulnerable to Buffer Overflow. A user can send a crafted image to trigger a overflow leading to remote code execution.
 
 
 
@@ -99,7 +253,7 @@
 - [https://github.com/0x3f3c/CVE-2024-32640-SQLI-MuraCMS](https://github.com/0x3f3c/CVE-2024-32640-SQLI-MuraCMS) :  ![starts](https://img.shields.io/github/stars/0x3f3c/CVE-2024-32640-SQLI-MuraCMS.svg) ![forks](https://img.shields.io/github/forks/0x3f3c/CVE-2024-32640-SQLI-MuraCMS.svg)
 
 ## CVE-2024-32523
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in EverPress Mailster allows PHP Local File Inclusion.This issue affects Mailster: from n/a through 4.0.6.
 
 
 
@@ -120,21 +274,21 @@
 - [https://github.com/NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399) :  ![starts](https://img.shields.io/github/stars/NN0b0dy/CVE-2024-32399.svg) ![forks](https://img.shields.io/github/forks/NN0b0dy/CVE-2024-32399.svg)
 
 ## CVE-2024-32371
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue in HSC Cybersecurity HC Mailinspector 5.2.17-3 through 5.2.18 allows a regular user account to escalate their privileges and gain administrative access by changing the type parameter from 1 to 0.
 
 
 
 - [https://github.com/chucrutis/CVE-2024-32371](https://github.com/chucrutis/CVE-2024-32371) :  ![starts](https://img.shields.io/github/stars/chucrutis/CVE-2024-32371.svg) ![forks](https://img.shields.io/github/forks/chucrutis/CVE-2024-32371.svg)
 
 ## CVE-2024-32370
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue in HSC Cybersecurity HC Mailinspector 5.2.17-3 through 5.2.18 allows a remote attacker to obtain sensitive information via a crafted payload to the id parameter in the mliSystemUsers.php component.
 
 
 
 - [https://github.com/chucrutis/CVE-2024-32370](https://github.com/chucrutis/CVE-2024-32370) :  ![starts](https://img.shields.io/github/stars/chucrutis/CVE-2024-32370.svg) ![forks](https://img.shields.io/github/forks/chucrutis/CVE-2024-32370.svg)
 
 ## CVE-2024-32369
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ SQL Injection vulnerability in HSC Cybersecurity HC Mailinspector 5.2.17-3 through 5.2.18 allows a remote attacker to obtain sensitive information via a crafted payload to the start and limit parameter in the mliWhiteList.php component.
 
 
 
@@ -171,7 +325,7 @@
 - [https://github.com/xbz0n/CVE-2024-32136](https://github.com/xbz0n/CVE-2024-32136) :  ![starts](https://img.shields.io/github/stars/xbz0n/CVE-2024-32136.svg) ![forks](https://img.shields.io/github/forks/xbz0n/CVE-2024-32136.svg)
 
 ## CVE-2024-32004
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, an attacker can prepare a local repository in such a way that, when cloned, will execute arbitrary code during the operation. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. As a workaround, avoid cloning repositories from untrusted sources.
 
 
 
@@ -180,7 +334,7 @@
 - [https://github.com/10cks/CVE-2024-32004-POC](https://github.com/10cks/CVE-2024-32004-POC) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32004-POC.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32004-POC.svg)
 
 ## CVE-2024-32002
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
 
 
 
@@ -198,11 +352,11 @@
 
 - [https://github.com/jweny/CVE-2024-32002_EXP](https://github.com/jweny/CVE-2024-32002_EXP) :  ![starts](https://img.shields.io/github/stars/jweny/CVE-2024-32002_EXP.svg) ![forks](https://img.shields.io/github/forks/jweny/CVE-2024-32002_EXP.svg)
 
+- [https://github.com/bfengj/CVE-2024-32002-Exploit](https://github.com/bfengj/CVE-2024-32002-Exploit) :  ![starts](https://img.shields.io/github/stars/bfengj/CVE-2024-32002-Exploit.svg) ![forks](https://img.shields.io/github/forks/bfengj/CVE-2024-32002-Exploit.svg)
+
 - [https://github.com/10cks/CVE-2024-32002-EXP](https://github.com/10cks/CVE-2024-32002-EXP) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-EXP.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-EXP.svg)
 
 - [https://github.com/10cks/hook](https://github.com/10cks/hook) :  ![starts](https://img.shields.io/github/stars/10cks/hook.svg) ![forks](https://img.shields.io/github/forks/10cks/hook.svg)
-
-- [https://github.com/bfengj/CVE-2024-32002-Exploit](https://github.com/bfengj/CVE-2024-32002-Exploit) :  ![starts](https://img.shields.io/github/stars/bfengj/CVE-2024-32002-Exploit.svg) ![forks](https://img.shields.io/github/forks/bfengj/CVE-2024-32002-Exploit.svg)
 
 - [https://github.com/CrackerCat/CVE-2024-32002_EXP](https://github.com/CrackerCat/CVE-2024-32002_EXP) :  ![starts](https://img.shields.io/github/stars/CrackerCat/CVE-2024-32002_EXP.svg) ![forks](https://img.shields.io/github/forks/CrackerCat/CVE-2024-32002_EXP.svg)
 
@@ -214,11 +368,11 @@
 
 - [https://github.com/Roronoawjd/hook](https://github.com/Roronoawjd/hook) :  ![starts](https://img.shields.io/github/stars/Roronoawjd/hook.svg) ![forks](https://img.shields.io/github/forks/Roronoawjd/hook.svg)
 
+- [https://github.com/WOOOOONG/hook](https://github.com/WOOOOONG/hook) :  ![starts](https://img.shields.io/github/stars/WOOOOONG/hook.svg) ![forks](https://img.shields.io/github/forks/WOOOOONG/hook.svg)
+
 - [https://github.com/KiranKumarK20/CVE-2024-32002](https://github.com/KiranKumarK20/CVE-2024-32002) :  ![starts](https://img.shields.io/github/stars/KiranKumarK20/CVE-2024-32002.svg) ![forks](https://img.shields.io/github/forks/KiranKumarK20/CVE-2024-32002.svg)
 
 - [https://github.com/fadhilthomas/hook](https://github.com/fadhilthomas/hook) :  ![starts](https://img.shields.io/github/stars/fadhilthomas/hook.svg) ![forks](https://img.shields.io/github/forks/fadhilthomas/hook.svg)
-
-- [https://github.com/WOOOOONG/hook](https://github.com/WOOOOONG/hook) :  ![starts](https://img.shields.io/github/stars/WOOOOONG/hook.svg) ![forks](https://img.shields.io/github/forks/WOOOOONG/hook.svg)
 
 - [https://github.com/vincepsh/CVE-2024-32002](https://github.com/vincepsh/CVE-2024-32002) :  ![starts](https://img.shields.io/github/stars/vincepsh/CVE-2024-32002.svg) ![forks](https://img.shields.io/github/forks/vincepsh/CVE-2024-32002.svg)
 
@@ -228,15 +382,21 @@
 
 - [https://github.com/10cks/CVE-2024-32002-submod](https://github.com/10cks/CVE-2024-32002-submod) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-submod.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-submod.svg)
 
-- [https://github.com/10cks/CVE-2024-32002-POC](https://github.com/10cks/CVE-2024-32002-POC) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-POC.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-POC.svg)
+- [https://github.com/10cks/CVE-2024-32002-smash](https://github.com/10cks/CVE-2024-32002-smash) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-smash.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-smash.svg)
 
-- [https://github.com/jerrydotlam/cve-2024-32002-1](https://github.com/jerrydotlam/cve-2024-32002-1) :  ![starts](https://img.shields.io/github/stars/jerrydotlam/cve-2024-32002-1.svg) ![forks](https://img.shields.io/github/forks/jerrydotlam/cve-2024-32002-1.svg)
+- [https://github.com/jerrydotlam/cve-2024-32002-2](https://github.com/jerrydotlam/cve-2024-32002-2) :  ![starts](https://img.shields.io/github/stars/jerrydotlam/cve-2024-32002-2.svg) ![forks](https://img.shields.io/github/forks/jerrydotlam/cve-2024-32002-2.svg)
+
+- [https://github.com/1mxml/CVE-2024-32002-poc](https://github.com/1mxml/CVE-2024-32002-poc) :  ![starts](https://img.shields.io/github/stars/1mxml/CVE-2024-32002-poc.svg) ![forks](https://img.shields.io/github/forks/1mxml/CVE-2024-32002-poc.svg)
+
+- [https://github.com/10cks/CVE-2024-32002-POC](https://github.com/10cks/CVE-2024-32002-POC) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-POC.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-POC.svg)
 
 - [https://github.com/jerrydotlam/cve-2024-32002-3](https://github.com/jerrydotlam/cve-2024-32002-3) :  ![starts](https://img.shields.io/github/stars/jerrydotlam/cve-2024-32002-3.svg) ![forks](https://img.shields.io/github/forks/jerrydotlam/cve-2024-32002-3.svg)
 
+- [https://github.com/jerrydotlam/cve-2024-32002-1](https://github.com/jerrydotlam/cve-2024-32002-1) :  ![starts](https://img.shields.io/github/stars/jerrydotlam/cve-2024-32002-1.svg) ![forks](https://img.shields.io/github/forks/jerrydotlam/cve-2024-32002-1.svg)
+
 - [https://github.com/YuanlooSec/CVE-2024-32002-poc](https://github.com/YuanlooSec/CVE-2024-32002-poc) :  ![starts](https://img.shields.io/github/stars/YuanlooSec/CVE-2024-32002-poc.svg) ![forks](https://img.shields.io/github/forks/YuanlooSec/CVE-2024-32002-poc.svg)
 
-- [https://github.com/jerrydotlam/cve-2024-32002-2](https://github.com/jerrydotlam/cve-2024-32002-2) :  ![starts](https://img.shields.io/github/stars/jerrydotlam/cve-2024-32002-2.svg) ![forks](https://img.shields.io/github/forks/jerrydotlam/cve-2024-32002-2.svg)
+- [https://github.com/10cks/CVE-2024-32002-hulk](https://github.com/10cks/CVE-2024-32002-hulk) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-hulk.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-hulk.svg)
 
 - [https://github.com/bfengj/CVE-2024-32002-hook](https://github.com/bfengj/CVE-2024-32002-hook) :  ![starts](https://img.shields.io/github/stars/bfengj/CVE-2024-32002-hook.svg) ![forks](https://img.shields.io/github/forks/bfengj/CVE-2024-32002-hook.svg)
 
@@ -244,34 +404,30 @@
 
 - [https://github.com/ycdxsb/CVE-2024-32002-submod](https://github.com/ycdxsb/CVE-2024-32002-submod) :  ![starts](https://img.shields.io/github/stars/ycdxsb/CVE-2024-32002-submod.svg) ![forks](https://img.shields.io/github/forks/ycdxsb/CVE-2024-32002-submod.svg)
 
-- [https://github.com/1mxml/CVE-2024-32002-poc](https://github.com/1mxml/CVE-2024-32002-poc) :  ![starts](https://img.shields.io/github/stars/1mxml/CVE-2024-32002-poc.svg) ![forks](https://img.shields.io/github/forks/1mxml/CVE-2024-32002-poc.svg)
-
-- [https://github.com/10cks/CVE-2024-32002-hulk](https://github.com/10cks/CVE-2024-32002-hulk) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-hulk.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-hulk.svg)
-
 - [https://github.com/aitorcastel/poc_CVE-2024-32002](https://github.com/aitorcastel/poc_CVE-2024-32002) :  ![starts](https://img.shields.io/github/stars/aitorcastel/poc_CVE-2024-32002.svg) ![forks](https://img.shields.io/github/forks/aitorcastel/poc_CVE-2024-32002.svg)
 
 - [https://github.com/10cks/CVE-2024-32002-linux-hulk](https://github.com/10cks/CVE-2024-32002-linux-hulk) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-linux-hulk.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-linux-hulk.svg)
 
 - [https://github.com/10cks/CVE-2024-32002-linux-submod](https://github.com/10cks/CVE-2024-32002-linux-submod) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-linux-submod.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-linux-submod.svg)
 
-- [https://github.com/10cks/CVE-2024-32002-smash](https://github.com/10cks/CVE-2024-32002-smash) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-smash.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-smash.svg)
+- [https://github.com/Goplush/CVE-2024-32002-git-rce](https://github.com/Goplush/CVE-2024-32002-git-rce) :  ![starts](https://img.shields.io/github/stars/Goplush/CVE-2024-32002-git-rce.svg) ![forks](https://img.shields.io/github/forks/Goplush/CVE-2024-32002-git-rce.svg)
 
 - [https://github.com/10cks/CVE-2024-32002-linux-smash](https://github.com/10cks/CVE-2024-32002-linux-smash) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2024-32002-linux-smash.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2024-32002-linux-smash.svg)
 
 - [https://github.com/aitorcastel/poc_CVE-2024-32002_submodule](https://github.com/aitorcastel/poc_CVE-2024-32002_submodule) :  ![starts](https://img.shields.io/github/stars/aitorcastel/poc_CVE-2024-32002_submodule.svg) ![forks](https://img.shields.io/github/forks/aitorcastel/poc_CVE-2024-32002_submodule.svg)
 
-- [https://github.com/JakobTheDev/cve-2024-32002-poc-rce](https://github.com/JakobTheDev/cve-2024-32002-poc-rce) :  ![starts](https://img.shields.io/github/stars/JakobTheDev/cve-2024-32002-poc-rce.svg) ![forks](https://img.shields.io/github/forks/JakobTheDev/cve-2024-32002-poc-rce.svg)
-
 - [https://github.com/JakobTheDev/cve-2024-32002-submodule-rce](https://github.com/JakobTheDev/cve-2024-32002-submodule-rce) :  ![starts](https://img.shields.io/github/stars/JakobTheDev/cve-2024-32002-submodule-rce.svg) ![forks](https://img.shields.io/github/forks/JakobTheDev/cve-2024-32002-submodule-rce.svg)
 
 - [https://github.com/JakobTheDev/cve-2024-32002-poc-aw](https://github.com/JakobTheDev/cve-2024-32002-poc-aw) :  ![starts](https://img.shields.io/github/stars/JakobTheDev/cve-2024-32002-poc-aw.svg) ![forks](https://img.shields.io/github/forks/JakobTheDev/cve-2024-32002-poc-aw.svg)
+
+- [https://github.com/JakobTheDev/cve-2024-32002-poc-rce](https://github.com/JakobTheDev/cve-2024-32002-poc-rce) :  ![starts](https://img.shields.io/github/stars/JakobTheDev/cve-2024-32002-poc-rce.svg) ![forks](https://img.shields.io/github/forks/JakobTheDev/cve-2024-32002-poc-rce.svg)
 
 - [https://github.com/JakobTheDev/cve-2024-32002-submodule-aw](https://github.com/JakobTheDev/cve-2024-32002-submodule-aw) :  ![starts](https://img.shields.io/github/stars/JakobTheDev/cve-2024-32002-submodule-aw.svg) ![forks](https://img.shields.io/github/forks/JakobTheDev/cve-2024-32002-submodule-aw.svg)
 
 - [https://github.com/markuta/hooky](https://github.com/markuta/hooky) :  ![starts](https://img.shields.io/github/stars/markuta/hooky.svg) ![forks](https://img.shields.io/github/forks/markuta/hooky.svg)
 
 ## CVE-2024-31974
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ The com.solarized.firedown (aka Solarized FireDown Browser &amp; Downloader) application 1.0.76 for Android allows a remote attacker to execute arbitrary JavaScript code via a crafted intent. com.solarized.firedown.IntentActivity uses a WebView component to display web content and doesn't adequately sanitize the URI or any extra data passed in the intent by any installed application (with no permissions).
 
 
 
@@ -322,7 +478,7 @@
 - [https://github.com/FreySolarEye/Exploit-CVE-2024-31777](https://github.com/FreySolarEye/Exploit-CVE-2024-31777) :  ![starts](https://img.shields.io/github/stars/FreySolarEye/Exploit-CVE-2024-31777.svg) ![forks](https://img.shields.io/github/forks/FreySolarEye/Exploit-CVE-2024-31777.svg)
 
 ## CVE-2024-31771
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Insecure Permission vulnerability in TotalAV v.6.0.740 allows a local attacker to escalate privileges via a crafted file
 
 
 
@@ -354,7 +510,7 @@
 - [https://github.com/sh1k4ku/CVE-2024-31497](https://github.com/sh1k4ku/CVE-2024-31497) :  ![starts](https://img.shields.io/github/stars/sh1k4ku/CVE-2024-31497.svg) ![forks](https://img.shields.io/github/forks/sh1k4ku/CVE-2024-31497.svg)
 
 ## CVE-2024-31351
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Unrestricted Upload of File with Dangerous Type vulnerability in Copymatic Copymatic &#8211; AI Content Writer &amp; Generator.This issue affects Copymatic &#8211; AI Content Writer &amp; Generator: from n/a through 1.6.
 
 
 
@@ -382,7 +538,7 @@
 - [https://github.com/efekaanakkar/CVE-2024-30998](https://github.com/efekaanakkar/CVE-2024-30998) :  ![starts](https://img.shields.io/github/stars/efekaanakkar/CVE-2024-30998.svg) ![forks](https://img.shields.io/github/forks/efekaanakkar/CVE-2024-30998.svg)
 
 ## CVE-2024-30973
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue in V-SOL G/EPON ONU HG323AC-B with firmware version V2.0.08-210715 allows an attacker to execute arbtirary code and obtain sensitive information via crafted POST request to /boaform/getASPdata/formFirewall, /boaform/getASPdata/formAcc.
 
 
 
@@ -396,7 +552,7 @@
 - [https://github.com/XenoM0rph97/CVE-2024-30896](https://github.com/XenoM0rph97/CVE-2024-30896) :  ![starts](https://img.shields.io/github/stars/XenoM0rph97/CVE-2024-30896.svg) ![forks](https://img.shields.io/github/forks/XenoM0rph97/CVE-2024-30896.svg)
 
 ## CVE-2024-30851
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Directory Traversal vulnerability in codesiddhant Jasmin Ransomware v.1.0.1 allows an attacker to obtain sensitive information via the download_file.php component.
 
 
 
@@ -410,406 +566,406 @@
 - [https://github.com/chebuya/CVE-2024-30850-chaos-rat-rce-poc](https://github.com/chebuya/CVE-2024-30850-chaos-rat-rce-poc) :  ![starts](https://img.shields.io/github/stars/chebuya/CVE-2024-30850-chaos-rat-rce-poc.svg) ![forks](https://img.shields.io/github/forks/chebuya/CVE-2024-30850-chaos-rat-rce-poc.svg)
 
 ## CVE-2024-30737
- ** DISPUTED ** An issue was discovered in ROS Kinetic Kame in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code via packages or nodes within the ROS system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30737](https://github.com/yashpatelphd/CVE-2024-30737) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30737.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30737.svg)
 
 ## CVE-2024-30736
- ** DISPUTED ** An insecure deserialization vulnerability has been identified in ROS Kinetic Kame in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code and obtain sensitive information via the Data Serialization and Deserialization Components, Inter-Process Communication Mechanisms, and Network Communication Interfaces. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30736](https://github.com/yashpatelphd/CVE-2024-30736) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30736.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30736.svg)
 
 ## CVE-2024-30735
- ** DISPUTED ** An arbitrary file upload vulnerability has been discovered in ROS Kinetic Kame in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, cause a denial of service (DoS), and obtain sensitive information via crafted payload to the file upload mechanism of the ROS system, including the server&#8217;s functionality for handling file uploads and the associated validation processes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30735](https://github.com/yashpatelphd/CVE-2024-30735) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30735.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30735.svg)
 
 ## CVE-2024-30733
- ** DISPUTED ** A buffer overflow vulnerability has been discovered in the C++ components of ROS Kinetic Kame in ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, allows attackers to execute arbitrary code or cause a denial of service (DoS) via improper handling of arrays or strings within these components. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30733](https://github.com/yashpatelphd/CVE-2024-30733) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30733.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30733.svg)
 
 ## CVE-2024-30730
- ** DISPUTED ** An insecure logging vulnerability has been identified within ROS Kinetic Kame in ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, allows attackers to obtain sensitive information via inadequate security measures implemented within the logging mechanisms of ROS. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30730](https://github.com/yashpatelphd/CVE-2024-30730) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30730.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30730.svg)
 
 ## CVE-2024-30729
- ** DISPUTED ** An OS command injection vulnerability has been discovered in ROS Kinetic Kame in ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information via the External Command Execution Modules, System Call Handlers, and Interface Scripts. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30729](https://github.com/yashpatelphd/CVE-2024-30729) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30729.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30729.svg)
 
 ## CVE-2024-30728
- ** DISPUTED ** An issue was discovered in the default configurations of ROS (Robot Operating System) Kinetic Kame ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, allows unauthenticated attackers to gain access using default credentials. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30728](https://github.com/yashpatelphd/CVE-2024-30728) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30728.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30728.svg)
 
 ## CVE-2024-30727
- ** DISPUTED ** An issue was discovered in ROS Kinetic Kame in Kinetic Kame ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, where the system transmits messages in plaintext, allowing attackers to obtain sensitive information via a man-in-the-middle attack. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30727](https://github.com/yashpatelphd/CVE-2024-30727) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30727.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30727.svg)
 
 ## CVE-2024-30726
- ** DISPUTED ** A shell injection vulnerability was discovered in ROS (Robot Operating System) Kinetic Kame in ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information due to the way ROS handles shell command execution in components like command interpreters or interfaces that process external inputs. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30726](https://github.com/yashpatelphd/CVE-2024-30726) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30726.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30726.svg)
 
 ## CVE-2024-30724
- ** DISPUTED ** An issue was discovered in ROS Kinetic Kame in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, obtain sensitive information, and gain unauthorized access to multiple ROS nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30724](https://github.com/yashpatelphd/CVE-2024-30724) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30724.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30724.svg)
 
 ## CVE-2024-30723
- ** DISPUTED ** An unauthorized node injection vulnerability has been identified in ROS Kinetic Kame in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows remote attackers to escalate privileges and inject malicious ROS nodes into the system due to insecure permissions. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30723](https://github.com/yashpatelphd/CVE-2024-30723) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30723.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30723.svg)
 
 ## CVE-2024-30722
- ** DISPUTED ** An issue was discovered in ROS Kinetic Kame in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows remote attackers to cause a denial of service (DoS) via the ROS nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30722](https://github.com/yashpatelphd/CVE-2024-30722) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30722.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30722.svg)
 
 ## CVE-2024-30721
- ** DISPUTED ** An arbitrary file upload vulnerability has been discovered in ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, cause a denial of service (DoS), and obtain sensitive information via a crafted payload to the file upload mechanism of the ROS2 system, including the server&#8217;s functionality for handling file uploads and the associated validation processes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30721](https://github.com/yashpatelphd/CVE-2024-30721) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30721.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30721.svg)
 
 ## CVE-2024-30719
- ** DISPUTED ** An insecure deserialization vulnerability has been identified in ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code and obtain sensitive information via Data Serialization and Deserialization Components, Inter-Process Communication Mechanisms, and Network Communication Interfaces. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30719](https://github.com/yashpatelphd/CVE-2024-30719) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30719.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30719.svg)
 
 ## CVE-2024-30718
- ** DISPUTED ** An issue was discovered in ROS2 Dashing Diademata in ROS_VERSION=2 and ROS_PYTHON_VERSION=3, allows remote attackers to execute arbitrary code via packages or nodes within the ROS2 system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30718](https://github.com/yashpatelphd/CVE-2024-30718) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30718.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30718.svg)
 
 ## CVE-2024-30716
- ** DISPUTED ** An insecure logging vulnerability in ROS2 Dashing Diademata ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attacks to obtain sensitive information via inadequate security measures implemented within the logging mechanisms of ROS2. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30716](https://github.com/yashpatelphd/CVE-2024-30716) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30716.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30716.svg)
 
 ## CVE-2024-30715
- ** DISPUTED ** A buffer overflow vulnerability has been discovered in the C++ components of ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code or cause a Denial of Service (DoS) via improper handling of arrays or strings. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30715](https://github.com/yashpatelphd/CVE-2024-30715) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30715.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30715.svg)
 
 ## CVE-2024-30713
- ** DISPUTED ** An OS command injection vulnerability has been discovered in ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information via the External Command Execution Modules, System Call Handlers, and Interface Scripts. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30713](https://github.com/yashpatelphd/CVE-2024-30713) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30713.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30713.svg)
 
 ## CVE-2024-30712
- ** DISPUTED ** A shell injection vulnerability was discovered in ROS2 (Robot Operating System 2) Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information due to the way ROS2 handles shell command execution in components like command interpreters or interfaces that process external inputs. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30712](https://github.com/yashpatelphd/CVE-2024-30712) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30712.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30712.svg)
 
 ## CVE-2024-30711
- ** DISPUTED ** An issue was discovered in the default configurations of ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows unauthenticated attackers to gain access using default credentials. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30711](https://github.com/yashpatelphd/CVE-2024-30711) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30711.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30711.svg)
 
 ## CVE-2024-30710
- ** DISPUTED ** An issue was discovered in ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, where the system transmits messages in plaintext. This flaw exposes sensitive information, making it vulnerable to man-in-the-middle (MitM) attacks, and allowing attackers to easily intercept and access this data. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30710](https://github.com/yashpatelphd/CVE-2024-30710) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30710.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30710.svg)
 
 ## CVE-2024-30708
- ** DISPUTED ** An issue was discovered in ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to cause a denial of service (DoS) via the ROS2 nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30708](https://github.com/yashpatelphd/CVE-2024-30708) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30708.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30708.svg)
 
 ## CVE-2024-30707
- ** DISPUTED ** Unauthorized node injection vulnerability in ROS2 Dashing Diademata in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to escalate privileges and inject malicious ROS2 nodes into the system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30707](https://github.com/yashpatelphd/CVE-2024-30707) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30707.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30707.svg)
 
 ## CVE-2024-30706
- ** DISPUTED ** An issue was discovered in ROS2 Dashing Diademata versions ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3, allows remote attackers to execute arbitrary code, escalate privileges, obtain sensitive information, and gain unauthorized access to multiple ROS2 nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30706](https://github.com/yashpatelphd/CVE-2024-30706) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30706.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30706.svg)
 
 ## CVE-2024-30704
- ** DISPUTED ** An insecure deserialization vulnerability has been identified in ROS2 Galactic Geochelone ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code and obtain sensitive information via crafted input to the Data Serialization and Deserialization Components, Inter-Process Communication Mechanisms, and Network Communication Interfaces. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30704](https://github.com/yashpatelphd/CVE-2024-30704) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30704.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30704.svg)
 
 ## CVE-2024-30703
- ** DISPUTED ** An arbitrary file upload vulnerability has been discovered in ROS2 (Robot Operating System 2) Galactic Geochelone ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, cause a denial of service (DoS), and obtain sensitive information via a crafted payload to the file upload mechanism of the ROS2 system, including the server&#8217;s functionality for handling file uploads and the associated validation processes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30703](https://github.com/yashpatelphd/CVE-2024-30703) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30703.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30703.svg)
 
 ## CVE-2024-30702
- ** DISPUTED ** An issue was discovered in ROS2 Galactic Geochelone in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code via packages or nodes within the ROS2 system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30702](https://github.com/yashpatelphd/CVE-2024-30702) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30702.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30702.svg)
 
 ## CVE-2024-30701
- ** DISPUTED ** An insecure logging vulnerability in ROS2 Galactic Geochelone ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to obtain sensitive information via inadequate security measures implemented within the logging mechanisms of ROS2. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30701](https://github.com/yashpatelphd/CVE-2024-30701) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30701.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30701.svg)
 
 ## CVE-2024-30699
- ** DISPUTED ** A buffer overflow vulnerability has been discovered in the C++ components of ROS2 Galactic Geochelone ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code or cause a denial of service (DoS) via improper handling of arrays or strings. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30699](https://github.com/yashpatelphd/CVE-2024-30699) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30699.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30699.svg)
 
 ## CVE-2024-30697
- ** DISPUTED ** An issue was discovered in ROS2 Galactic Geochelone in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, where the system transmits messages in plaintext, allowing attackers to access sensitive information via a man-in-the-middle attack. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30697](https://github.com/yashpatelphd/CVE-2024-30697) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30697.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30697.svg)
 
 ## CVE-2024-30696
- ** DISPUTED ** OS command injection vulnerability in ROS2 Galactic Geochelone in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information via the command processing or system call components in ROS2, including External Command Execution Modules, System Call Handlers, and Interface Scripts. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30696](https://github.com/yashpatelphd/CVE-2024-30696) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30696.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30696.svg)
 
 ## CVE-2024-30695
- ** DISPUTED ** An issue was discovered in the default configurations of ROS2 Galactic Geochelone versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows unauthenticated attackers to gain access using default credentials. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30695](https://github.com/yashpatelphd/CVE-2024-30695) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30695.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30695.svg)
 
 ## CVE-2024-30694
- ** DISPUTED ** A shell injection vulnerability was discovered in ROS2 (Robot Operating System 2) Galactic Geochelone ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, escalate privileges, and obtain sensitive information due to the way ROS2 handles shell command execution in components like command interpreters or interfaces that process external inputs. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30694](https://github.com/yashpatelphd/CVE-2024-30694) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30694.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30694.svg)
 
 ## CVE-2024-30692
- ** DISPUTED ** A issue was discovered in ROS2 Galactic Geochelone versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to cause a denial of service (DoS) in the ROS2 nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30692](https://github.com/yashpatelphd/CVE-2024-30692) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30692.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30692.svg)
 
 ## CVE-2024-30691
- ** DISPUTED ** An issue was discovered in ROS2 Galactic Geochelone in version ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, obtain sensitive information, and gain unauthorized access to multiple ROS2 nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30691](https://github.com/yashpatelphd/CVE-2024-30691) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30691.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30691.svg)
 
 ## CVE-2024-30690
- ** DISPUTED ** An unauthorized node injection vulnerability has been identified in ROS2 Galactic Geochelone versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3, allows remote attackers to escalate privileges. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30690](https://github.com/yashpatelphd/CVE-2024-30690) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30690.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30690.svg)
 
 ## CVE-2024-30688
- ** DISPUTED ** An arbitrary file upload vulnerability has been discovered in ROS2 Iron Irwini versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code via a crafted payload to the file upload mechanism of the ROS2 system, including the server&#8217;s functionality for handling file uploads and the associated validation processes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30688](https://github.com/yashpatelphd/CVE-2024-30688) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30688.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30688.svg)
 
 ## CVE-2024-30687
- ** DISPUTED ** An insecure deserialization vulnerability has been identified in ROS2 Iron Irwini versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code via a crafted input to the Data Serialization and Deserialization Components, Inter-Process Communication Mechanisms, and Network Communication Interfaces. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30687](https://github.com/yashpatelphd/CVE-2024-30687) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30687.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30687.svg)
 
 ## CVE-2024-30686
- ** DISPUTED ** An issue was discovered in ROS2 Iron Irwini versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code via packages or nodes within the ROS2 system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30686](https://github.com/yashpatelphd/CVE-2024-30686) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30686.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30686.svg)
 
 ## CVE-2024-30684
- ** DISPUTED ** An insecure logging vulnerability has been identified within ROS2 Iron Irwini versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to access sensitive information via inadequate security measures implemented within the logging mechanisms of ROS2. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30684](https://github.com/yashpatelphd/CVE-2024-30684) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30684.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30684.svg)
 
 ## CVE-2024-30683
- ** DISPUTED ** A buffer overflow vulnerability has been discovered in the C++ components of ROS2 Iron Irwini versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code or cause a Denial of Service (DoS) via improper handling of arrays or strings. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30683](https://github.com/yashpatelphd/CVE-2024-30683) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30683.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30683.svg)
 
 ## CVE-2024-30681
- ** DISPUTED ** An OS command injection vulnerability has been discovered in ROS2 Iron Irwini version ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, escalate privileges, and obtain sensitive information via the command processing or system call components in ROS2. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30681](https://github.com/yashpatelphd/CVE-2024-30681) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30681.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30681.svg)
 
 ## CVE-2024-30680
- ** DISPUTED ** Shell injection vulnerability was discovered in ROS2 (Robot Operating System 2) Iron Irwini in versions ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code escalate privileges, and obtain sensitive information due to the way ROS2 handles shell command execution in components like command interpreters or interfaces that process external inputs. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30680](https://github.com/yashpatelphd/CVE-2024-30680) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30680.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30680.svg)
 
 ## CVE-2024-30679
- ** DISPUTED ** An issue was discovered in the default configurations of ROS2 Iron Irwini ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows unauthenticated attackers to authenticate using default credentials. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30679](https://github.com/yashpatelphd/CVE-2024-30679) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30679.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30679.svg)
 
 ## CVE-2024-30678
- ** DISPUTED ** An issue has been discovered in ROS2 Iron Irwini ROS_VERSION 2 and ROS_PYTHON_VERSION 3, where the system transmits messages in plaintext. This flaw exposes sensitive information, making it vulnerable to man-in-the-middle (MitM) attacks, and allowing attackers to intercept and access this data. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30678](https://github.com/yashpatelphd/CVE-2024-30678) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30678.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30678.svg)
 
 ## CVE-2024-30676
- ** DISPUTED ** A Denial-of-Service (DoS) vulnerability exists in ROS2 Iron Irwini versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. A malicious user could potentially exploit this vulnerability remotely to crash the ROS2 nodes, thereby causing a denial of service. The flaw allows an attacker to cause unexpected behavior in the operation of ROS2 nodes, which leads to their failure and interrupts the regular operation of the system, thus making it unavailable for its intended users. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30676](https://github.com/yashpatelphd/CVE-2024-30676) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30676.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30676.svg)
 
 ## CVE-2024-30675
- ** DISPUTED ** Unauthorized node injection vulnerability in ROS2 Iron Irwini in ROS_VERSION 2 and ROS_PYTHON_VERSION 3. This vulnerability could allow a malicious user to escalate privileges by injecting malicious ROS2 nodes into the system remotely. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30675](https://github.com/yashpatelphd/CVE-2024-30675) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30675.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30675.svg)
 
 ## CVE-2024-30674
- ** DISPUTED ** Unauthorized access vulnerability in ROS2 Iron Irwini in ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3, allows remote attackers to gain control of multiple ROS2 nodes. Unauthorized information access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30674](https://github.com/yashpatelphd/CVE-2024-30674) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30674.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30674.svg)
 
 ## CVE-2024-30672
- ** DISPUTED ** Arbitrary file upload vulnerability in ROS (Robot Operating System) Melodic Morenia in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, cause a denial of service (DoS), and obtain sensitive information via the file upload component. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30672](https://github.com/yashpatelphd/CVE-2024-30672) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30672.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30672.svg)
 
 ## CVE-2024-30667
- ** DISPUTED ** Insecure deserialization vulnerability in ROS (Robot Operating System) Melodic Morenia in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code or obtain sensitive information via crafted input to the data handling components. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30667](https://github.com/yashpatelphd/CVE-2024-30667) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30667.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30667.svg)
 
 ## CVE-2024-30666
- ** DISPUTED ** A buffer overflow vulnerability has been discovered in the C++ components of ROS (Robot Operating System) Melodic Morenia in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code via improper handling of arrays or strings within these components. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30666](https://github.com/yashpatelphd/CVE-2024-30666) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30666.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30666.svg)
 
 ## CVE-2024-30665
- ** DISPUTED ** An OS command injection vulnerability has been discovered in ROS (Robot Operating System) Melodic Morenia in ROS_VERSION 1 and ROS_PYTHON_VERSION 3. This vulnerability primarily affects the command processing or system call components in ROS, making them susceptible to manipulation by malicious entities. Through this, unauthorized commands can be executed, leading to remote code execution (RCE), data theft, and malicious activities. The affected components include External Command Execution Modules, System Call Handlers, and Interface Scripts. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30665](https://github.com/yashpatelphd/CVE-2024-30665) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30665.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30665.svg)
 
 ## CVE-2024-30663
- ** DISPUTED ** An issue was discovered in the default configurations of ROS (Robot Operating System) Melodic Morenia in ROS_VERSION 1 and ROS_PYTHON_VERSION 3. This vulnerability allows unauthenticated attackers to gain access using default credentials, posing a serious threat to the integrity and security of the system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30663](https://github.com/yashpatelphd/CVE-2024-30663) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30663.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30663.svg)
 
 ## CVE-2024-30662
- ** DISPUTED ** An issue was discovered in ROS (Robot Operating System) Melodic Morenia in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, where the system transmits messages in plaintext. This flaw exposes sensitive information, making it vulnerable to man-in-the-middle (MitM) attacks, and allowing attackers to easily intercept and access this data. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30662](https://github.com/yashpatelphd/CVE-2024-30662) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30662.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30662.svg)
 
 ## CVE-2024-30661
- ** DISPUTED ** An unauthorized access vulnerability has been discovered in ROS Melodic Morenia versions where ROS_VERSION is 1 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized information access to multiple ROS nodes remotely. Unauthorized information access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30661](https://github.com/yashpatelphd/CVE-2024-30661) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30661.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30661.svg)
 
 ## CVE-2024-30659
- ** DISPUTED ** Shell Injection vulnerability in ROS (Robot Operating System) Melodic Morenia versions ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, escalate privileges, and obtain sensitive information. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30659](https://github.com/yashpatelphd/CVE-2024-30659) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30659.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30659.svg)
 
 ## CVE-2024-30658
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-30658](https://github.com/yashpatelphd/CVE-2024-30658) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-30658.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-30658.svg)
 
 ## CVE-2024-30657
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
@@ -846,7 +1002,7 @@
 - [https://github.com/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC](https://github.com/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC) :  ![starts](https://img.shields.io/github/stars/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC.svg) ![forks](https://img.shields.io/github/forks/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC.svg)
 
 ## CVE-2024-30056
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Microsoft Edge (Chromium-based) Information Disclosure Vulnerability
 
 
 
@@ -860,7 +1016,7 @@
 - [https://github.com/Sploitus/CVE-2024-29988-exploit](https://github.com/Sploitus/CVE-2024-29988-exploit) :  ![starts](https://img.shields.io/github/stars/Sploitus/CVE-2024-29988-exploit.svg) ![forks](https://img.shields.io/github/forks/Sploitus/CVE-2024-29988-exploit.svg)
 
 ## CVE-2024-29895
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Cacti provides an operational monitoring and fault management framework. A command injection vulnerability on the 1.3.x DEV branch allows any unauthenticated user to execute arbitrary command on the server when `register_argc_argv` option of PHP is `On`. In `cmd_realtime.php` line 119, the `$poller_id` used as part of the command execution is sourced from `$_SERVER['argv']`, which can be controlled by URL when `register_argc_argv` option of PHP is `On`. And this option is `On` by default in many environments such as the main PHP Docker image for PHP. Commit 53e8014d1f082034e0646edc6286cde3800c683d contains a patch for the issue, but this commit was reverted in commit 99633903cad0de5ace636249de16f77e57a3c8fc.
 
 
 
@@ -873,98 +1029,98 @@
 - [https://github.com/ticofookfook/CVE-2024-29895.py](https://github.com/ticofookfook/CVE-2024-29895.py) :  ![starts](https://img.shields.io/github/stars/ticofookfook/CVE-2024-29895.py.svg) ![forks](https://img.shields.io/github/forks/ticofookfook/CVE-2024-29895.py.svg)
 
 ## CVE-2024-29455
- ** DISPUTED ** An arbitrary file upload vulnerability has been discovered in ROS2 Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, cause a denial of service (DoS), and obtain sensitive information via crafted payload to the file upload mechanism of the ROS2 system, including the server&#8217;s functionality for handling file uploads and the associated validation processes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-29455](https://github.com/yashpatelphd/CVE-2024-29455) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29455.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29455.svg)
 
 ## CVE-2024-29454
- ** DISPUTED ** An issue discovered in packages or nodes in ROS2 Humble Hawksbill with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to execute arbitrary commands potentially leading to unauthorized system control, data breaches, system and network compromise, and operational disruption. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-29454](https://github.com/yashpatelphd/CVE-2024-29454) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29454.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29454.svg)
 
 ## CVE-2024-29452
- ** DISPUTED ** An insecure deserialization vulnerability has been identified in ROS2 Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code and obtain sensitive information via crafted input to the Data Serialization and Deserialization Components, Inter-Process Communication Mechanisms, and Network Communication Interfaces. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-29452](https://github.com/yashpatelphd/CVE-2024-29452) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29452.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29452.svg)
 
 ## CVE-2024-29450
- ** DISPUTED ** An issue has been discovered in the permission and access control components within ROS2 Humble Hawksbill, in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, cause a denial of service (DoS), escalate privileges, and obtain sensitive information via the authentication system, including protocols, processes, and checks designed to verify the identities of users or devices attempting to access the ROS2 system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-29450](https://github.com/yashpatelphd/CVE-2024-29450) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29450.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29450.svg)
 
 ## CVE-2024-29449
- ** DISPUTED ** An issue was discovered in ROS2 Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to obtain sensitive information via man-in-the-middle attacks due to cleartext transmission of data across the ROS2 nodes' communication channels. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-29449](https://github.com/yashpatelphd/CVE-2024-29449) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29449.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29449.svg)
 
 ## CVE-2024-29448
- ** DISPUTED ** A buffer overflow vulnerability has been discovered in the C++ components of ROS2 Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code or cause a denial of service (DoS) via improper handling of arrays or strings. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-29448](https://github.com/yashpatelphd/CVE-2024-29448) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29448.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29448.svg)
 
 ## CVE-2024-29447
- ** DISPUTED ** An issue was discovered in the default configurations of ROS2 Humble Hawksbill in ROS2 Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows unauthenticated attackers to gain access using default credentials. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-29447](https://github.com/yashpatelphd/CVE-2024-29447) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29447.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29447.svg)
 
 ## CVE-2024-29445
- ** DISPUTED ** An issue was discovered in ROS2 (Robot Operating System 2) Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3 where the system transmits messages in plaintext, allowing attackers to access sensitive information via a man-in-the-middle attack. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-29445](https://github.com/yashpatelphd/CVE-2024-29445) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29445.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29445.svg)
 
 ## CVE-2024-29444
- ** DISPUTED ** An OS command injection vulnerability has been discovered in ROS2 (Robot Operating System 2) Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information via External Command Execution Modules, System Call Handlers, and Interface Scripts. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-29444](https://github.com/yashpatelphd/CVE-2024-29444) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29444.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29444.svg)
 
 ## CVE-2024-29443
- ** DISPUTED ** A shell injection vulnerability was discovered in ROS2 (Robot Operating System 2) Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information due to the way ROS2 handles shell command execution in components like command interpreters or interfaces that process external inputs. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-29443](https://github.com/yashpatelphd/CVE-2024-29443) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29443.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29443.svg)
 
 ## CVE-2024-29442
- ** DISPUTED ** An unauthorized access vulnerability has been discovered in ROS2 Humble Hawksbill versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized access to multiple ROS2 nodes remotely. Unauthorized access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-29442](https://github.com/yashpatelphd/CVE-2024-29442) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29442.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29442.svg)
 
 ## CVE-2024-29441
- ** DISPUTED ** An issue was discovered in ROS2 (Robot Operating System 2) Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to cause a denial of service (DoS) via the ROS2 nodes. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-29441](https://github.com/yashpatelphd/CVE-2024-29441) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29441.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29441.svg)
 
 ## CVE-2024-29440
- ** DISPUTED ** An unauthorized access vulnerability has been discovered in ROS2 Humble Hawksbill versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized access to multiple ROS2 nodes remotely. Unauthorized access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
 - [https://github.com/yashpatelphd/CVE-2024-29440](https://github.com/yashpatelphd/CVE-2024-29440) :  ![starts](https://img.shields.io/github/stars/yashpatelphd/CVE-2024-29440.svg) ![forks](https://img.shields.io/github/forks/yashpatelphd/CVE-2024-29440.svg)
 
 ## CVE-2024-29439
- ** DISPUTED ** An unauthorized node injection vulnerability has been identified in ROS2 Humble Hawksbill in ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows remote attackers to escalate privileges and inject malicious ROS2 nodes into the system. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability.
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that there was not reasonable evidence to determine the existence of a vulnerability.
 
 
 
@@ -978,7 +1134,7 @@
 - [https://github.com/ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399) :  ![starts](https://img.shields.io/github/stars/ally-petitt/CVE-2024-29399.svg) ![forks](https://img.shields.io/github/forks/ally-petitt/CVE-2024-29399.svg)
 
 ## CVE-2024-29384
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue in CSS Exfil Protection v.1.1.0 allows a remote attacker to obtain sensitive information via the content.js and parseCSSRules functions.
 
 
 
@@ -1041,9 +1197,9 @@
 
 - [https://github.com/saurabh2088/expat_2_1_0_CVE-2024-28757](https://github.com/saurabh2088/expat_2_1_0_CVE-2024-28757) :  ![starts](https://img.shields.io/github/stars/saurabh2088/expat_2_1_0_CVE-2024-28757.svg) ![forks](https://img.shields.io/github/forks/saurabh2088/expat_2_1_0_CVE-2024-28757.svg)
 
-- [https://github.com/saurabh2088/expat_2_1_1_CVE-2024-28757](https://github.com/saurabh2088/expat_2_1_1_CVE-2024-28757) :  ![starts](https://img.shields.io/github/stars/saurabh2088/expat_2_1_1_CVE-2024-28757.svg) ![forks](https://img.shields.io/github/forks/saurabh2088/expat_2_1_1_CVE-2024-28757.svg)
-
 - [https://github.com/krnidhi/expat_2.1.1_CVE-2024-28757](https://github.com/krnidhi/expat_2.1.1_CVE-2024-28757) :  ![starts](https://img.shields.io/github/stars/krnidhi/expat_2.1.1_CVE-2024-28757.svg) ![forks](https://img.shields.io/github/forks/krnidhi/expat_2.1.1_CVE-2024-28757.svg)
+
+- [https://github.com/saurabh2088/expat_2_1_1_CVE-2024-28757](https://github.com/saurabh2088/expat_2_1_1_CVE-2024-28757) :  ![starts](https://img.shields.io/github/stars/saurabh2088/expat_2_1_1_CVE-2024-28757.svg) ![forks](https://img.shields.io/github/forks/saurabh2088/expat_2_1_1_CVE-2024-28757.svg)
 
 ## CVE-2024-28741
  Cross Site Scripting vulnerability in EginDemirbilek NorthStar C2 v1 allows a remote attacker to execute arbitrary code via the login.php component.
@@ -1144,7 +1300,7 @@
 - [https://github.com/truonghuuphuc/CVE-2024-27972-Poc](https://github.com/truonghuuphuc/CVE-2024-27972-Poc) :  ![starts](https://img.shields.io/github/stars/truonghuuphuc/CVE-2024-27972-Poc.svg) ![forks](https://img.shields.io/github/forks/truonghuuphuc/CVE-2024-27972-Poc.svg)
 
 ## CVE-2024-27971
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Premmerce Premmerce Permalink Manager for WooCommerce allows PHP Local File Inclusion.This issue affects Premmerce Permalink Manager for WooCommerce: from n/a through 2.3.10.
 
 
 
@@ -1177,7 +1333,7 @@
 - [https://github.com/lockness-Ko/CVE-2024-27316](https://github.com/lockness-Ko/CVE-2024-27316) :  ![starts](https://img.shields.io/github/stars/lockness-Ko/CVE-2024-27316.svg) ![forks](https://img.shields.io/github/forks/lockness-Ko/CVE-2024-27316.svg)
 
 ## CVE-2024-27804
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ The issue was addressed with improved memory handling. This issue is fixed in iOS 17.5 and iPadOS 17.5, tvOS 17.5, watchOS 10.5, macOS Sonoma 14.5. An app may be able to execute arbitrary code with kernel privileges.
 
 
 
@@ -1275,7 +1431,7 @@
 - [https://github.com/Alaatk/CVE-2024-27462](https://github.com/Alaatk/CVE-2024-27462) :  ![starts](https://img.shields.io/github/stars/Alaatk/CVE-2024-27462.svg) ![forks](https://img.shields.io/github/forks/Alaatk/CVE-2024-27462.svg)
 
 ## CVE-2024-27460
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A privilege escalation exists in the updater for Plantronics Hub 3.25.1 and below.
 
 
 
@@ -1329,7 +1485,7 @@
 - [https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-](https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-) :  ![starts](https://img.shields.io/github/stars/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-.svg) ![forks](https://img.shields.io/github/forks/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-.svg)
 
 ## CVE-2024-27130
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A buffer copy without checking size of input vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute code via a network. We have already fixed the vulnerability in the following version: QTS 5.1.7.2770 build 20240520 and later QuTS hero h5.1.7.2770 build 20240520 and later
 
 
 
@@ -1394,7 +1550,7 @@
 - [https://github.com/TronciuVlad/CVE-2024-26475](https://github.com/TronciuVlad/CVE-2024-26475) :  ![starts](https://img.shields.io/github/stars/TronciuVlad/CVE-2024-26475.svg) ![forks](https://img.shields.io/github/forks/TronciuVlad/CVE-2024-26475.svg)
 
 ## CVE-2024-26304
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ There is a buffer overflow vulnerability in the underlying L2/L3 Management service that could lead to unauthenticated remote code execution by sending specially crafted packets destined to the PAPI (Aruba's access point management protocol) UDP port (8211). Successful exploitation of this vulnerability results in the ability to execute arbitrary code as a privileged user on the underlying operating system.
 
 
 
@@ -1408,7 +1564,7 @@
 - [https://github.com/exploits-forsale/CVE-2024-26218](https://github.com/exploits-forsale/CVE-2024-26218) :  ![starts](https://img.shields.io/github/stars/exploits-forsale/CVE-2024-26218.svg) ![forks](https://img.shields.io/github/forks/exploits-forsale/CVE-2024-26218.svg)
 
 ## CVE-2024-26026
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An SQL injection vulnerability exists in the BIG-IP Next Central Manager API (URI). Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated
 
 
 
@@ -1583,13 +1739,6 @@
 
 - [https://github.com/ASR511-OO7/CVE-2024-25250.](https://github.com/ASR511-OO7/CVE-2024-25250.) :  ![starts](https://img.shields.io/github/stars/ASR511-OO7/CVE-2024-25250..svg) ![forks](https://img.shields.io/github/forks/ASR511-OO7/CVE-2024-25250..svg)
 
-## CVE-2024-25249
- An issue in He3 App for macOS version 2.0.17, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
-
-
-
-- [https://github.com/intbjw/CVE-2024-25249](https://github.com/intbjw/CVE-2024-25249) :  ![starts](https://img.shields.io/github/stars/intbjw/CVE-2024-25249.svg) ![forks](https://img.shields.io/github/forks/intbjw/CVE-2024-25249.svg)
-
 ## CVE-2024-25227
  SQL Injection vulnerability in ABO.CMS version 5.8, allows remote attackers to execute arbitrary code, cause a denial of service (DoS), escalate privileges, and obtain sensitive information via the tb_login parameter in admin login page.
 
@@ -1651,7 +1800,7 @@
 - [https://github.com/afine-com/CVE-2024-24816](https://github.com/afine-com/CVE-2024-24816) :  ![starts](https://img.shields.io/github/stars/afine-com/CVE-2024-24816.svg) ![forks](https://img.shields.io/github/forks/afine-com/CVE-2024-24816.svg)
 
 ## CVE-2024-24787
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ On Darwin, building a Go module which contains CGO can trigger arbitrary code execution when using the Apple version of ld, due to usage of the -lto_library flag in a &quot;#cgo LDFLAGS&quot; directive.
 
 
 
@@ -2013,9 +2162,9 @@
 
 - [https://github.com/jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/jopraveen/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/jopraveen/CVE-2024-23897.svg)
 
-- [https://github.com/Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Nebian/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Nebian/CVE-2024-23897.svg)
-
 - [https://github.com/Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Abo5/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Abo5/CVE-2024-23897.svg)
+
+- [https://github.com/Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/Nebian/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/Nebian/CVE-2024-23897.svg)
 
 - [https://github.com/AbraXa5/Jenkins-CVE-2024-23897](https://github.com/AbraXa5/Jenkins-CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/AbraXa5/Jenkins-CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/AbraXa5/Jenkins-CVE-2024-23897.svg)
 
@@ -2053,14 +2202,14 @@
 - [https://github.com/HazardLab-IO/CVE-2024-23780](https://github.com/HazardLab-IO/CVE-2024-23780) :  ![starts](https://img.shields.io/github/stars/HazardLab-IO/CVE-2024-23780.svg) ![forks](https://img.shields.io/github/forks/HazardLab-IO/CVE-2024-23780.svg)
 
 ## CVE-2024-23774
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue was discovered in Quest KACE Agent for Windows 12.0.38 and 13.1.23.0. An unquoted Windows search path vulnerability exists in the KSchedulerSvc.exe and AMPTools.exe components. This allows local attackers to execute code of their choice with NT Authority\SYSTEM privileges.
 
 
 
 - [https://github.com/Verrideo/CVE-2024-23774](https://github.com/Verrideo/CVE-2024-23774) :  ![starts](https://img.shields.io/github/stars/Verrideo/CVE-2024-23774.svg) ![forks](https://img.shields.io/github/forks/Verrideo/CVE-2024-23774.svg)
 
 ## CVE-2024-23773
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue was discovered in Quest KACE Agent for Windows 12.0.38 and 13.1.23.0. An Arbitrary file delete vulnerability exists in the KSchedulerSvc.exe component. Local attackers can delete any file of their choice with NT Authority\SYSTEM privileges.
 
 
 
@@ -2195,6 +2344,15 @@
 
 - [https://github.com/l00neyhacker/CVE-2024-23199](https://github.com/l00neyhacker/CVE-2024-23199) :  ![starts](https://img.shields.io/github/stars/l00neyhacker/CVE-2024-23199.svg) ![forks](https://img.shields.io/github/forks/l00neyhacker/CVE-2024-23199.svg)
 
+## CVE-2024-23108
+ An improper neutralization of special elements used in an os command ('os command injection') in Fortinet FortiSIEM version 7.1.0 through 7.1.1 and 7.0.0 through 7.0.2 and 6.7.0 through 6.7.8 and 6.6.0 through 6.6.3 and 6.5.0 through 6.5.2 and 6.4.0 through 6.4.2 allows attacker to execute unauthorized code or commands via via crafted API requests.
+
+
+
+- [https://github.com/horizon3ai/CVE-2024-23108](https://github.com/horizon3ai/CVE-2024-23108) :  ![starts](https://img.shields.io/github/stars/horizon3ai/CVE-2024-23108.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/CVE-2024-23108.svg)
+
+- [https://github.com/hitem/CVE-2024-23108](https://github.com/hitem/CVE-2024-23108) :  ![starts](https://img.shields.io/github/stars/hitem/CVE-2024-23108.svg) ![forks](https://img.shields.io/github/forks/hitem/CVE-2024-23108.svg)
+
 ## CVE-2024-22983
  SQL injection vulnerability in Projectworlds Visitor Management System in PHP v.1.0 allows a remote attacker to escalate privileges via the name parameter in the myform.php endpoint.
 
@@ -2294,7 +2452,7 @@
 - [https://github.com/brandon-t-elliott/CVE-2024-22867](https://github.com/brandon-t-elliott/CVE-2024-22867) :  ![starts](https://img.shields.io/github/stars/brandon-t-elliott/CVE-2024-22867.svg) ![forks](https://img.shields.io/github/forks/brandon-t-elliott/CVE-2024-22867.svg)
 
 ## CVE-2024-22774
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An issue in Panoramic Corporation Digital Imaging Software v.9.1.2.7600 allows a local attacker to escalate privileges via the ccsservice.exe component.
 
 
 
@@ -2426,21 +2584,21 @@
 - [https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234](https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234) :  ![starts](https://img.shields.io/github/stars/shellfeel/CVE-2024-22243-CVE-2024-22234.svg) ![forks](https://img.shields.io/github/forks/shellfeel/CVE-2024-22243-CVE-2024-22234.svg)
 
 ## CVE-2024-22145
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Improper Privilege Management vulnerability in InstaWP Team InstaWP Connect allows Privilege Escalation.This issue affects InstaWP Connect: from n/a through 0.1.0.8.
 
 
 
 - [https://github.com/RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-22145.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-22145.svg)
 
 ## CVE-2024-22120
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ Zabbix server can perform command execution for configured scripts. After command is executed, audit entry is added to &quot;Audit Log&quot;. Due to &quot;clientip&quot; field is not sanitized, it is possible to injection SQL into &quot;clientip&quot; and exploit time based blind SQL injection.
 
 
 
 - [https://github.com/W01fh4cker/CVE-2024-22120-RCE](https://github.com/W01fh4cker/CVE-2024-22120-RCE) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/CVE-2024-22120-RCE.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/CVE-2024-22120-RCE.svg)
 
 ## CVE-2024-22026
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A local privilege escalation vulnerability in EPMM before 12.1.0.0 allows an authenticated local user to bypass shell restriction and execute arbitrary commands on the appliance.
 
 
 
@@ -2503,7 +2661,7 @@
 - [https://github.com/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped](https://github.com/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped) :  ![starts](https://img.shields.io/github/stars/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped.svg) ![forks](https://img.shields.io/github/forks/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped.svg)
 
 ## CVE-2024-21793
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ An OData injection vulnerability exists in the BIG-IP Next Central Manager API (URI). Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
 
 
 
@@ -2531,7 +2689,7 @@
 - [https://github.com/bsekercioglu/cve2024-21762-ShodanChecker](https://github.com/bsekercioglu/cve2024-21762-ShodanChecker) :  ![starts](https://img.shields.io/github/stars/bsekercioglu/cve2024-21762-ShodanChecker.svg) ![forks](https://img.shields.io/github/forks/bsekercioglu/cve2024-21762-ShodanChecker.svg)
 
 ## CVE-2024-21683
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ This High severity RCE (Remote Code Execution) vulnerability was introduced in version 5.2 of Confluence Data Center and Server. This RCE (Remote Code Execution) vulnerability, with a CVSS Score of 8.3, allows an authenticated attacker to execute arbitrary code which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires no user interaction. Atlassian recommends that Confluence Data Center and Server customers upgrade to latest version. If you are unable to do so, upgrade your instance to one of the specified supported fixed versions. See the release notes https://confluence.atlassian.com/doc/confluence-release-notes-327.html You can download the latest version of Confluence Data Center and Server from the download center https://www.atlassian.com/software/confluence/download-archives. This vulnerability was found internally.
 
 
 
@@ -2607,9 +2765,9 @@
 
 - [https://github.com/dshabani96/CVE-2024-21413](https://github.com/dshabani96/CVE-2024-21413) :  ![starts](https://img.shields.io/github/stars/dshabani96/CVE-2024-21413.svg) ![forks](https://img.shields.io/github/forks/dshabani96/CVE-2024-21413.svg)
 
-- [https://github.com/th3Hellion/CVE-2024-21413](https://github.com/th3Hellion/CVE-2024-21413) :  ![starts](https://img.shields.io/github/stars/th3Hellion/CVE-2024-21413.svg) ![forks](https://img.shields.io/github/forks/th3Hellion/CVE-2024-21413.svg)
-
 - [https://github.com/X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit](https://github.com/X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit) :  ![starts](https://img.shields.io/github/stars/X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit.svg) ![forks](https://img.shields.io/github/forks/X-Projetion/CVE-2024-21413-Microsoft-Outlook-RCE-Exploit.svg)
+
+- [https://github.com/th3Hellion/CVE-2024-21413](https://github.com/th3Hellion/CVE-2024-21413) :  ![starts](https://img.shields.io/github/stars/th3Hellion/CVE-2024-21413.svg) ![forks](https://img.shields.io/github/forks/th3Hellion/CVE-2024-21413.svg)
 
 - [https://github.com/MSeymenD/CVE-2024-21413](https://github.com/MSeymenD/CVE-2024-21413) :  ![starts](https://img.shields.io/github/stars/MSeymenD/CVE-2024-21413.svg) ![forks](https://img.shields.io/github/forks/MSeymenD/CVE-2024-21413.svg)
 
@@ -2785,8 +2943,99 @@
 
 - [https://github.com/Instructor-Team8/CVE-2024-20291-POC](https://github.com/Instructor-Team8/CVE-2024-20291-POC) :  ![starts](https://img.shields.io/github/stars/Instructor-Team8/CVE-2024-20291-POC.svg) ![forks](https://img.shields.io/github/forks/Instructor-Team8/CVE-2024-20291-POC.svg)
 
+## CVE-2024-5084
+ The Hash Form &#8211; Drag &amp; Drop Form Builder plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'file_upload_action' function in all versions up to, and including, 1.1.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+
+
+
+- [https://github.com/Chocapikk/CVE-2024-5084](https://github.com/Chocapikk/CVE-2024-5084) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-5084.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-5084.svg)
+
+- [https://github.com/KTN1990/CVE-2024-5084](https://github.com/KTN1990/CVE-2024-5084) :  ![starts](https://img.shields.io/github/stars/KTN1990/CVE-2024-5084.svg) ![forks](https://img.shields.io/github/forks/KTN1990/CVE-2024-5084.svg)
+
+## CVE-2024-4956
+ Path Traversal in Sonatype Nexus Repository 3 allows an unauthenticated attacker to read system files. Fixed in version 3.68.1.
+
+
+
+- [https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner) :  ![starts](https://img.shields.io/github/stars/ifconfig-me/CVE-2024-4956-Bulk-Scanner.svg) ![forks](https://img.shields.io/github/forks/ifconfig-me/CVE-2024-4956-Bulk-Scanner.svg)
+
+- [https://github.com/xungzzz/CVE-2024-4956](https://github.com/xungzzz/CVE-2024-4956) :  ![starts](https://img.shields.io/github/stars/xungzzz/CVE-2024-4956.svg) ![forks](https://img.shields.io/github/forks/xungzzz/CVE-2024-4956.svg)
+
+- [https://github.com/TypicalModMaker/list-of-vulnerable-sonatype-servers](https://github.com/TypicalModMaker/list-of-vulnerable-sonatype-servers) :  ![starts](https://img.shields.io/github/stars/TypicalModMaker/list-of-vulnerable-sonatype-servers.svg) ![forks](https://img.shields.io/github/forks/TypicalModMaker/list-of-vulnerable-sonatype-servers.svg)
+
+- [https://github.com/banditzCyber0x/CVE-2024-4956](https://github.com/banditzCyber0x/CVE-2024-4956) :  ![starts](https://img.shields.io/github/stars/banditzCyber0x/CVE-2024-4956.svg) ![forks](https://img.shields.io/github/forks/banditzCyber0x/CVE-2024-4956.svg)
+
+- [https://github.com/codeb0ss/CVE-2024-4956-PoC](https://github.com/codeb0ss/CVE-2024-4956-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2024-4956-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2024-4956-PoC.svg)
+
+- [https://github.com/gmh5225/CVE-2024-4956](https://github.com/gmh5225/CVE-2024-4956) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2024-4956.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2024-4956.svg)
+
+- [https://github.com/eoslvs/CVE-2024-4956](https://github.com/eoslvs/CVE-2024-4956) :  ![starts](https://img.shields.io/github/stars/eoslvs/CVE-2024-4956.svg) ![forks](https://img.shields.io/github/forks/eoslvs/CVE-2024-4956.svg)
+
+- [https://github.com/GoatSecurity/CVE-2024-4956](https://github.com/GoatSecurity/CVE-2024-4956) :  ![starts](https://img.shields.io/github/stars/GoatSecurity/CVE-2024-4956.svg) ![forks](https://img.shields.io/github/forks/GoatSecurity/CVE-2024-4956.svg)
+
+- [https://github.com/thinhap/CVE-2024-4956-PoC](https://github.com/thinhap/CVE-2024-4956-PoC) :  ![starts](https://img.shields.io/github/stars/thinhap/CVE-2024-4956-PoC.svg) ![forks](https://img.shields.io/github/forks/thinhap/CVE-2024-4956-PoC.svg)
+
+## CVE-2024-4875
+ The HT Mega &#8211; Absolute Addons For Elementor plugin for WordPress is vulnerable to unauthorized modification of data|loss of data due to a missing capability check on the 'ajax_dismiss' function in versions up to, and including, 2.5.2. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to update options such as users_can_register, which can lead to unauthorized user registration.
+
+
+
+- [https://github.com/RandomRobbieBF/CVE-2024-4875](https://github.com/RandomRobbieBF/CVE-2024-4875) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-4875.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-4875.svg)
+
+## CVE-2024-4761
+ Out of bounds write in V8 in Google Chrome prior to 124.0.6367.207 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: High)
+
+
+
+- [https://github.com/michredteam/CVE-2024-4761](https://github.com/michredteam/CVE-2024-4761) :  ![starts](https://img.shields.io/github/stars/michredteam/CVE-2024-4761.svg) ![forks](https://img.shields.io/github/forks/michredteam/CVE-2024-4761.svg)
+
+## CVE-2024-4701
+ A path traversal issue potentially leading to remote code execution in Genie for all versions prior to 4.3.18
+
+
+
+- [https://github.com/JoeBeeton/CVE-2024-4701-POC](https://github.com/JoeBeeton/CVE-2024-4701-POC) :  ![starts](https://img.shields.io/github/stars/JoeBeeton/CVE-2024-4701-POC.svg) ![forks](https://img.shields.io/github/forks/JoeBeeton/CVE-2024-4701-POC.svg)
+
+## CVE-2024-4443
+ The Business Directory Plugin &#8211; Easy Listing Directories for WordPress plugin for WordPress is vulnerable to time-based SQL Injection via the &#8216;listingfields&#8217; parameter in all versions up to, and including, 6.4.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+
+
+
+- [https://github.com/truonghuuphuc/CVE-2024-4443-Poc](https://github.com/truonghuuphuc/CVE-2024-4443-Poc) :  ![starts](https://img.shields.io/github/stars/truonghuuphuc/CVE-2024-4443-Poc.svg) ![forks](https://img.shields.io/github/forks/truonghuuphuc/CVE-2024-4443-Poc.svg)
+
+## CVE-2024-4439
+ WordPress Core is vulnerable to Stored Cross-Site Scripting via user display names in the Avatar block in various versions up to 6.5.2 due to insufficient output escaping on the display name. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. In addition, it also makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that have the comment block present and display the comment author's avatar.
+
+
+
+- [https://github.com/d0rb/CVE-2024-4439](https://github.com/d0rb/CVE-2024-4439) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-4439.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-4439.svg)
+
+- [https://github.com/MielPopsssssss/CVE-2024-4439](https://github.com/MielPopsssssss/CVE-2024-4439) :  ![starts](https://img.shields.io/github/stars/MielPopsssssss/CVE-2024-4439.svg) ![forks](https://img.shields.io/github/forks/MielPopsssssss/CVE-2024-4439.svg)
+
+- [https://github.com/xssor-dz/-CVE-2024-4439](https://github.com/xssor-dz/-CVE-2024-4439) :  ![starts](https://img.shields.io/github/stars/xssor-dz/-CVE-2024-4439.svg) ![forks](https://img.shields.io/github/forks/xssor-dz/-CVE-2024-4439.svg)
+
+## CVE-2024-4367
+ A type check was missing when handling fonts in PDF.js, which would allow arbitrary JavaScript execution in the PDF.js context. This vulnerability affects Firefox &lt; 126, Firefox ESR &lt; 115.11, and Thunderbird &lt; 115.11.
+
+
+
+- [https://github.com/s4vvysec/CVE-2024-4367-POC](https://github.com/s4vvysec/CVE-2024-4367-POC) :  ![starts](https://img.shields.io/github/stars/s4vvysec/CVE-2024-4367-POC.svg) ![forks](https://img.shields.io/github/forks/s4vvysec/CVE-2024-4367-POC.svg)
+
+- [https://github.com/LOURC0D3/CVE-2024-4367-PoC](https://github.com/LOURC0D3/CVE-2024-4367-PoC) :  ![starts](https://img.shields.io/github/stars/LOURC0D3/CVE-2024-4367-PoC.svg) ![forks](https://img.shields.io/github/forks/LOURC0D3/CVE-2024-4367-PoC.svg)
+
+- [https://github.com/spaceraccoon/detect-cve-2024-4367](https://github.com/spaceraccoon/detect-cve-2024-4367) :  ![starts](https://img.shields.io/github/stars/spaceraccoon/detect-cve-2024-4367.svg) ![forks](https://img.shields.io/github/forks/spaceraccoon/detect-cve-2024-4367.svg)
+
+- [https://github.com/avalahEE/pdfjs_disable_eval](https://github.com/avalahEE/pdfjs_disable_eval) :  ![starts](https://img.shields.io/github/stars/avalahEE/pdfjs_disable_eval.svg) ![forks](https://img.shields.io/github/forks/avalahEE/pdfjs_disable_eval.svg)
+
+## CVE-2024-4352
+ The Tutor LMS Pro plugin for WordPress is vulnerable to unauthorized access of data, modification of data, loss of data due to a missing capability check on the 'get_calendar_materials' function. The plugin is also vulnerable to SQL Injection via the &#8216;year&#8217; parameter of that function due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+
+
+
+- [https://github.com/truonghuuphuc/CVE-2024-4352-Poc](https://github.com/truonghuuphuc/CVE-2024-4352-Poc) :  ![starts](https://img.shields.io/github/stars/truonghuuphuc/CVE-2024-4352-Poc.svg) ![forks](https://img.shields.io/github/forks/truonghuuphuc/CVE-2024-4352-Poc.svg)
+
 ## CVE-2024-4323
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A memory corruption vulnerability in Fluent Bit versions 2.0.7 thru 3.0.3. This issue lies in the embedded http server&#8217;s parsing of trace requests and may result in denial of service conditions, information disclosure, or remote code execution.
 
 
 
@@ -2829,25 +3078,18 @@
 - [https://github.com/c4cnm/CVE-2024-3867](https://github.com/c4cnm/CVE-2024-3867) :  ![starts](https://img.shields.io/github/stars/c4cnm/CVE-2024-3867.svg) ![forks](https://img.shields.io/github/forks/c4cnm/CVE-2024-3867.svg)
 
 ## CVE-2024-3807
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ The Porto theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 7.1.0 via 'porto_page_header_shortcode_type', 'slideshow_type' and 'post_layout' post meta. This makes it possible for authenticated attackers, with contributor-level and above permissions, to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where php file type can be uploaded and included. This was partially patched in version 7.1.0 and fully patched in version 7.1.1.
 
 
 
 - [https://github.com/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc](https://github.com/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc) :  ![starts](https://img.shields.io/github/stars/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc.svg) ![forks](https://img.shields.io/github/forks/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc.svg)
 
 ## CVE-2024-3806
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ The Porto theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 7.1.0 via the 'porto_ajax_posts' function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where php file type can be uploaded and included.
 
 
 
 - [https://github.com/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc](https://github.com/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc) :  ![starts](https://img.shields.io/github/stars/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc.svg) ![forks](https://img.shields.io/github/forks/truonghuuphuc/CVE-2024-3806-AND-CVE-2024-3807-Poc.svg)
-
-## CVE-2024-3607
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/DxRvs/vaultize_CVE-2024-36079](https://github.com/DxRvs/vaultize_CVE-2024-36079) :  ![starts](https://img.shields.io/github/stars/DxRvs/vaultize_CVE-2024-36079.svg) ![forks](https://img.shields.io/github/forks/DxRvs/vaultize_CVE-2024-36079.svg)
 
 ## CVE-2024-3552
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -2856,99 +3098,21 @@
 
 - [https://github.com/truonghuuphuc/CVE-2024-3552-Poc](https://github.com/truonghuuphuc/CVE-2024-3552-Poc) :  ![starts](https://img.shields.io/github/stars/truonghuuphuc/CVE-2024-3552-Poc.svg) ![forks](https://img.shields.io/github/forks/truonghuuphuc/CVE-2024-3552-Poc.svg)
 
-## CVE-2024-3551
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/efekaanakkar/CVE-2024-35511](https://github.com/efekaanakkar/CVE-2024-35511) :  ![starts](https://img.shields.io/github/stars/efekaanakkar/CVE-2024-35511.svg) ![forks](https://img.shields.io/github/forks/efekaanakkar/CVE-2024-35511.svg)
-
-## CVE-2024-3547
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/carsonchan12345/CVE-2024-35475](https://github.com/carsonchan12345/CVE-2024-35475) :  ![starts](https://img.shields.io/github/stars/carsonchan12345/CVE-2024-35475.svg) ![forks](https://img.shields.io/github/forks/carsonchan12345/CVE-2024-35475.svg)
-
 ## CVE-2024-3495
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ The Country State City Dropdown CF7 plugin for WordPress is vulnerable to SQL Injection via the &#8216;cnt&#8217; and 'sid' parameters in versions up to, and including, 2.7.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 
 
 
 - [https://github.com/truonghuuphuc/CVE-2024-3495-Poc](https://github.com/truonghuuphuc/CVE-2024-3495-Poc) :  ![starts](https://img.shields.io/github/stars/truonghuuphuc/CVE-2024-3495-Poc.svg) ![forks](https://img.shields.io/github/forks/truonghuuphuc/CVE-2024-3495-Poc.svg)
 
-- [https://github.com/Gr-1m/CVE-2024-34958-1](https://github.com/Gr-1m/CVE-2024-34958-1) :  ![starts](https://img.shields.io/github/stars/Gr-1m/CVE-2024-34958-1.svg) ![forks](https://img.shields.io/github/forks/Gr-1m/CVE-2024-34958-1.svg)
-
 - [https://github.com/zomasec/CVE-2024-3495-POC](https://github.com/zomasec/CVE-2024-3495-POC) :  ![starts](https://img.shields.io/github/stars/zomasec/CVE-2024-3495-POC.svg) ![forks](https://img.shields.io/github/forks/zomasec/CVE-2024-3495-POC.svg)
 
-## CVE-2024-3471
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/aelmokhtar/CVE-2024-34716_PoC](https://github.com/aelmokhtar/CVE-2024-34716_PoC) :  ![starts](https://img.shields.io/github/stars/aelmokhtar/CVE-2024-34716_PoC.svg) ![forks](https://img.shields.io/github/forks/aelmokhtar/CVE-2024-34716_PoC.svg)
-
-## CVE-2024-3458
- A vulnerability classified as critical was found in Netentsec NS-ASG Application Security Gateway 6.3. This vulnerability affects unknown code of the file /admin/add_ikev2.php. The manipulation of the argument TunnelId leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-259714 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/silent6trinity/CVE-2024-34582](https://github.com/silent6trinity/CVE-2024-34582) :  ![starts](https://img.shields.io/github/stars/silent6trinity/CVE-2024-34582.svg) ![forks](https://img.shields.io/github/forks/silent6trinity/CVE-2024-34582.svg)
-
-## CVE-2024-3447
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-
-
-- [https://github.com/Alaatk/CVE-2024-34474](https://github.com/Alaatk/CVE-2024-34474) :  ![starts](https://img.shields.io/github/stars/Alaatk/CVE-2024-34474.svg) ![forks](https://img.shields.io/github/forks/Alaatk/CVE-2024-34474.svg)
-
-- [https://github.com/osvaldotenorio/CVE-2024-34470](https://github.com/osvaldotenorio/CVE-2024-34470) :  ![starts](https://img.shields.io/github/stars/osvaldotenorio/CVE-2024-34470.svg) ![forks](https://img.shields.io/github/forks/osvaldotenorio/CVE-2024-34470.svg)
-
-- [https://github.com/osvaldotenorio/CVE-2024-34471](https://github.com/osvaldotenorio/CVE-2024-34471) :  ![starts](https://img.shields.io/github/stars/osvaldotenorio/CVE-2024-34471.svg) ![forks](https://img.shields.io/github/forks/osvaldotenorio/CVE-2024-34471.svg)
-
-- [https://github.com/osvaldotenorio/CVE-2024-34472](https://github.com/osvaldotenorio/CVE-2024-34472) :  ![starts](https://img.shields.io/github/stars/osvaldotenorio/CVE-2024-34472.svg) ![forks](https://img.shields.io/github/forks/osvaldotenorio/CVE-2024-34472.svg)
-
-## CVE-2024-3446
- A double free vulnerability was found in QEMU virtio devices (virtio-gpu, virtio-serial-bus, virtio-crypto), where the mem_reentrancy_guard flag insufficiently protects against DMA reentrancy issues. This issue could allow a malicious privileged guest user to crash the QEMU process on the host, resulting in a denial of service or allow arbitrary code execution within the context of the QEMU process on the host.
-
-
-
-- [https://github.com/Toxich4/CVE-2024-34469](https://github.com/Toxich4/CVE-2024-34469) :  ![starts](https://img.shields.io/github/stars/Toxich4/CVE-2024-34469.svg) ![forks](https://img.shields.io/github/forks/Toxich4/CVE-2024-34469.svg)
-
 ## CVE-2024-3435
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ A path traversal vulnerability exists in the 'save_settings' endpoint of the parisneo/lollms-webui application, affecting versions up to the latest release before 9.5. The vulnerability arises due to insufficient sanitization of the 'config' parameter in the 'apply_settings' function, allowing an attacker to manipulate the application's configuration by sending specially crafted JSON payloads. This could lead to remote code execution (RCE) by bypassing existing patches designed to mitigate such vulnerabilities.
 
 
-
-- [https://github.com/Voorivex/CVE-2024-34351](https://github.com/Voorivex/CVE-2024-34351) :  ![starts](https://img.shields.io/github/stars/Voorivex/CVE-2024-34351.svg) ![forks](https://img.shields.io/github/forks/Voorivex/CVE-2024-34351.svg)
 
 - [https://github.com/ymuraki-csc/cve-2024-3435](https://github.com/ymuraki-csc/cve-2024-3435) :  ![starts](https://img.shields.io/github/stars/ymuraki-csc/cve-2024-3435.svg) ![forks](https://img.shields.io/github/forks/ymuraki-csc/cve-2024-3435.svg)
-
-## CVE-2024-3431
- A vulnerability was found in EyouCMS 1.6.5. It has been declared as critical. This vulnerability affects unknown code of the file /login.php?m=admin&amp;c=Field&amp;a=channel_edit of the component Backend. The manipulation of the argument channel_id leads to deserialization. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-259612. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
-
-
-
-- [https://github.com/3309899621/CVE-2024-34310](https://github.com/3309899621/CVE-2024-34310) :  ![starts](https://img.shields.io/github/stars/3309899621/CVE-2024-34310.svg) ![forks](https://img.shields.io/github/forks/3309899621/CVE-2024-34310.svg)
-
-## CVE-2024-3422
- A vulnerability was found in SourceCodester Online Courseware 1.0. It has been declared as critical. This vulnerability affects unknown code of the file admin/activatestud.php. The manipulation of the argument selector leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-259594 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/dovankha/CVE-2024-34223](https://github.com/dovankha/CVE-2024-34223) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34223.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34223.svg)
-
-- [https://github.com/dovankha/CVE-2024-34221](https://github.com/dovankha/CVE-2024-34221) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34221.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34221.svg)
-
-- [https://github.com/dovankha/CVE-2024-34220](https://github.com/dovankha/CVE-2024-34220) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34220.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34220.svg)
-
-- [https://github.com/dovankha/CVE-2024-34226](https://github.com/dovankha/CVE-2024-34226) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34226.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34226.svg)
-
-- [https://github.com/dovankha/CVE-2024-34224](https://github.com/dovankha/CVE-2024-34224) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34224.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34224.svg)
-
-- [https://github.com/dovankha/CVE-2024-34225](https://github.com/dovankha/CVE-2024-34225) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34225.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34225.svg)
-
-- [https://github.com/dovankha/CVE-2024-34222](https://github.com/dovankha/CVE-2024-34222) :  ![starts](https://img.shields.io/github/stars/dovankha/CVE-2024-34222.svg) ![forks](https://img.shields.io/github/forks/dovankha/CVE-2024-34222.svg)
 
 ## CVE-2024-3400
  A command injection as a result of arbitrary file creation vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an unauthenticated attacker to execute arbitrary code with root privileges on the firewall. Cloud NGFW, Panorama appliances, and Prisma Access are not impacted by this vulnerability.
@@ -2995,21 +3159,21 @@
 
 - [https://github.com/phantomradar/cve-2024-3400-poc](https://github.com/phantomradar/cve-2024-3400-poc) :  ![starts](https://img.shields.io/github/stars/phantomradar/cve-2024-3400-poc.svg) ![forks](https://img.shields.io/github/forks/phantomradar/cve-2024-3400-poc.svg)
 
-- [https://github.com/andrelia-hacks/CVE-2024-3400](https://github.com/andrelia-hacks/CVE-2024-3400) :  ![starts](https://img.shields.io/github/stars/andrelia-hacks/CVE-2024-3400.svg) ![forks](https://img.shields.io/github/forks/andrelia-hacks/CVE-2024-3400.svg)
+- [https://github.com/hahasagined/CVE-2024-3400](https://github.com/hahasagined/CVE-2024-3400) :  ![starts](https://img.shields.io/github/stars/hahasagined/CVE-2024-3400.svg) ![forks](https://img.shields.io/github/forks/hahasagined/CVE-2024-3400.svg)
+
+- [https://github.com/codeblueprint/CVE-2024-3400](https://github.com/codeblueprint/CVE-2024-3400) :  ![starts](https://img.shields.io/github/stars/codeblueprint/CVE-2024-3400.svg) ![forks](https://img.shields.io/github/forks/codeblueprint/CVE-2024-3400.svg)
+
+- [https://github.com/LoanVitor/CVE-2024-3400-](https://github.com/LoanVitor/CVE-2024-3400-) :  ![starts](https://img.shields.io/github/stars/LoanVitor/CVE-2024-3400-.svg) ![forks](https://img.shields.io/github/forks/LoanVitor/CVE-2024-3400-.svg)
 
 - [https://github.com/iwallarm/cve-2024-3400](https://github.com/iwallarm/cve-2024-3400) :  ![starts](https://img.shields.io/github/stars/iwallarm/cve-2024-3400.svg) ![forks](https://img.shields.io/github/forks/iwallarm/cve-2024-3400.svg)
 
 - [https://github.com/Kr0ff/cve-2024-3400](https://github.com/Kr0ff/cve-2024-3400) :  ![starts](https://img.shields.io/github/stars/Kr0ff/cve-2024-3400.svg) ![forks](https://img.shields.io/github/forks/Kr0ff/cve-2024-3400.svg)
 
-- [https://github.com/hahasagined/CVE-2024-3400](https://github.com/hahasagined/CVE-2024-3400) :  ![starts](https://img.shields.io/github/stars/hahasagined/CVE-2024-3400.svg) ![forks](https://img.shields.io/github/forks/hahasagined/CVE-2024-3400.svg)
+- [https://github.com/Ravaan21/CVE-2024-3400](https://github.com/Ravaan21/CVE-2024-3400) :  ![starts](https://img.shields.io/github/stars/Ravaan21/CVE-2024-3400.svg) ![forks](https://img.shields.io/github/forks/Ravaan21/CVE-2024-3400.svg)
 
 - [https://github.com/pwnj0hn/CVE-2024-3400](https://github.com/pwnj0hn/CVE-2024-3400) :  ![starts](https://img.shields.io/github/stars/pwnj0hn/CVE-2024-3400.svg) ![forks](https://img.shields.io/github/forks/pwnj0hn/CVE-2024-3400.svg)
 
-- [https://github.com/Ravaan21/CVE-2024-3400](https://github.com/Ravaan21/CVE-2024-3400) :  ![starts](https://img.shields.io/github/stars/Ravaan21/CVE-2024-3400.svg) ![forks](https://img.shields.io/github/forks/Ravaan21/CVE-2024-3400.svg)
-
-- [https://github.com/LoanVitor/CVE-2024-3400-](https://github.com/LoanVitor/CVE-2024-3400-) :  ![starts](https://img.shields.io/github/stars/LoanVitor/CVE-2024-3400-.svg) ![forks](https://img.shields.io/github/forks/LoanVitor/CVE-2024-3400-.svg)
-
-- [https://github.com/codeblueprint/CVE-2024-3400](https://github.com/codeblueprint/CVE-2024-3400) :  ![starts](https://img.shields.io/github/stars/codeblueprint/CVE-2024-3400.svg) ![forks](https://img.shields.io/github/forks/codeblueprint/CVE-2024-3400.svg)
+- [https://github.com/andrelia-hacks/CVE-2024-3400](https://github.com/andrelia-hacks/CVE-2024-3400) :  ![starts](https://img.shields.io/github/stars/andrelia-hacks/CVE-2024-3400.svg) ![forks](https://img.shields.io/github/forks/andrelia-hacks/CVE-2024-3400.svg)
 
 - [https://github.com/MrR0b0t19/CVE-2024-3400](https://github.com/MrR0b0t19/CVE-2024-3400) :  ![starts](https://img.shields.io/github/stars/MrR0b0t19/CVE-2024-3400.svg) ![forks](https://img.shields.io/github/forks/MrR0b0t19/CVE-2024-3400.svg)
 
@@ -3105,9 +3269,9 @@
 
 - [https://github.com/wgetnz/CVE-2024-3094-check](https://github.com/wgetnz/CVE-2024-3094-check) :  ![starts](https://img.shields.io/github/stars/wgetnz/CVE-2024-3094-check.svg) ![forks](https://img.shields.io/github/forks/wgetnz/CVE-2024-3094-check.svg)
 
-- [https://github.com/Hacker-Hermanos/CVE-2024-3094_xz_check](https://github.com/Hacker-Hermanos/CVE-2024-3094_xz_check) :  ![starts](https://img.shields.io/github/stars/Hacker-Hermanos/CVE-2024-3094_xz_check.svg) ![forks](https://img.shields.io/github/forks/Hacker-Hermanos/CVE-2024-3094_xz_check.svg)
-
 - [https://github.com/robertdebock/ansible-role-cve_2024_3094](https://github.com/robertdebock/ansible-role-cve_2024_3094) :  ![starts](https://img.shields.io/github/stars/robertdebock/ansible-role-cve_2024_3094.svg) ![forks](https://img.shields.io/github/forks/robertdebock/ansible-role-cve_2024_3094.svg)
+
+- [https://github.com/Hacker-Hermanos/CVE-2024-3094_xz_check](https://github.com/Hacker-Hermanos/CVE-2024-3094_xz_check) :  ![starts](https://img.shields.io/github/stars/Hacker-Hermanos/CVE-2024-3094_xz_check.svg) ![forks](https://img.shields.io/github/forks/Hacker-Hermanos/CVE-2024-3094_xz_check.svg)
 
 - [https://github.com/Yuma-Tsushima07/CVE-2024-3094](https://github.com/Yuma-Tsushima07/CVE-2024-3094) :  ![starts](https://img.shields.io/github/stars/Yuma-Tsushima07/CVE-2024-3094.svg) ![forks](https://img.shields.io/github/forks/Yuma-Tsushima07/CVE-2024-3094.svg)
 
@@ -3131,15 +3295,15 @@
 
 - [https://github.com/reuteras/CVE-2024-3094](https://github.com/reuteras/CVE-2024-3094) :  ![starts](https://img.shields.io/github/stars/reuteras/CVE-2024-3094.svg) ![forks](https://img.shields.io/github/forks/reuteras/CVE-2024-3094.svg)
 
-- [https://github.com/Horizon-Software-Development/CVE-2024-3094](https://github.com/Horizon-Software-Development/CVE-2024-3094) :  ![starts](https://img.shields.io/github/stars/Horizon-Software-Development/CVE-2024-3094.svg) ![forks](https://img.shields.io/github/forks/Horizon-Software-Development/CVE-2024-3094.svg)
-
 - [https://github.com/pentestfunctions/CVE-2024-3094](https://github.com/pentestfunctions/CVE-2024-3094) :  ![starts](https://img.shields.io/github/stars/pentestfunctions/CVE-2024-3094.svg) ![forks](https://img.shields.io/github/forks/pentestfunctions/CVE-2024-3094.svg)
+
+- [https://github.com/Horizon-Software-Development/CVE-2024-3094](https://github.com/Horizon-Software-Development/CVE-2024-3094) :  ![starts](https://img.shields.io/github/stars/Horizon-Software-Development/CVE-2024-3094.svg) ![forks](https://img.shields.io/github/forks/Horizon-Software-Development/CVE-2024-3094.svg)
 
 - [https://github.com/galacticquest/cve-2024-3094-detect](https://github.com/galacticquest/cve-2024-3094-detect) :  ![starts](https://img.shields.io/github/stars/galacticquest/cve-2024-3094-detect.svg) ![forks](https://img.shields.io/github/forks/galacticquest/cve-2024-3094-detect.svg)
 
-- [https://github.com/robertdebock/ansible-playbook-cve-2024-3094](https://github.com/robertdebock/ansible-playbook-cve-2024-3094) :  ![starts](https://img.shields.io/github/stars/robertdebock/ansible-playbook-cve-2024-3094.svg) ![forks](https://img.shields.io/github/forks/robertdebock/ansible-playbook-cve-2024-3094.svg)
-
 - [https://github.com/Security-Phoenix-demo/CVE-2024-3094-fix-exploits](https://github.com/Security-Phoenix-demo/CVE-2024-3094-fix-exploits) :  ![starts](https://img.shields.io/github/stars/Security-Phoenix-demo/CVE-2024-3094-fix-exploits.svg) ![forks](https://img.shields.io/github/forks/Security-Phoenix-demo/CVE-2024-3094-fix-exploits.svg)
+
+- [https://github.com/robertdebock/ansible-playbook-cve-2024-3094](https://github.com/robertdebock/ansible-playbook-cve-2024-3094) :  ![starts](https://img.shields.io/github/stars/robertdebock/ansible-playbook-cve-2024-3094.svg) ![forks](https://img.shields.io/github/forks/robertdebock/ansible-playbook-cve-2024-3094.svg)
 
 - [https://github.com/brinhosa/CVE-2024-3094-One-Liner](https://github.com/brinhosa/CVE-2024-3094-One-Liner) :  ![starts](https://img.shields.io/github/stars/brinhosa/CVE-2024-3094-One-Liner.svg) ![forks](https://img.shields.io/github/forks/brinhosa/CVE-2024-3094-One-Liner.svg)
 
@@ -3161,11 +3325,11 @@
 
 - [https://github.com/mightysai1997/CVE-2024-3094](https://github.com/mightysai1997/CVE-2024-3094) :  ![starts](https://img.shields.io/github/stars/mightysai1997/CVE-2024-3094.svg) ![forks](https://img.shields.io/github/forks/mightysai1997/CVE-2024-3094.svg)
 
+- [https://github.com/Fractal-Tess/CVE-2024-3094](https://github.com/Fractal-Tess/CVE-2024-3094) :  ![starts](https://img.shields.io/github/stars/Fractal-Tess/CVE-2024-3094.svg) ![forks](https://img.shields.io/github/forks/Fractal-Tess/CVE-2024-3094.svg)
+
 - [https://github.com/CyberGuard-Foundation/CVE-2024-3094](https://github.com/CyberGuard-Foundation/CVE-2024-3094) :  ![starts](https://img.shields.io/github/stars/CyberGuard-Foundation/CVE-2024-3094.svg) ![forks](https://img.shields.io/github/forks/CyberGuard-Foundation/CVE-2024-3094.svg)
 
 - [https://github.com/dah4k/CVE-2024-3094](https://github.com/dah4k/CVE-2024-3094) :  ![starts](https://img.shields.io/github/stars/dah4k/CVE-2024-3094.svg) ![forks](https://img.shields.io/github/forks/dah4k/CVE-2024-3094.svg)
-
-- [https://github.com/Fractal-Tess/CVE-2024-3094](https://github.com/Fractal-Tess/CVE-2024-3094) :  ![starts](https://img.shields.io/github/stars/Fractal-Tess/CVE-2024-3094.svg) ![forks](https://img.shields.io/github/forks/Fractal-Tess/CVE-2024-3094.svg)
 
 - [https://github.com/ackemed/detectar_cve-2024-3094](https://github.com/ackemed/detectar_cve-2024-3094) :  ![starts](https://img.shields.io/github/stars/ackemed/detectar_cve-2024-3094.svg) ![forks](https://img.shields.io/github/forks/ackemed/detectar_cve-2024-3094.svg)
 
@@ -3175,23 +3339,23 @@
 
 - [https://github.com/hazemkya/CVE-2024-3094-checker](https://github.com/hazemkya/CVE-2024-3094-checker) :  ![starts](https://img.shields.io/github/stars/hazemkya/CVE-2024-3094-checker.svg) ![forks](https://img.shields.io/github/forks/hazemkya/CVE-2024-3094-checker.svg)
 
-- [https://github.com/krascovict/OSINT---CVE-2024-3094-](https://github.com/krascovict/OSINT---CVE-2024-3094-) :  ![starts](https://img.shields.io/github/stars/krascovict/OSINT---CVE-2024-3094-.svg) ![forks](https://img.shields.io/github/forks/krascovict/OSINT---CVE-2024-3094-.svg)
-
 - [https://github.com/mightysai1997/CVE-2024-3094-info](https://github.com/mightysai1997/CVE-2024-3094-info) :  ![starts](https://img.shields.io/github/stars/mightysai1997/CVE-2024-3094-info.svg) ![forks](https://img.shields.io/github/forks/mightysai1997/CVE-2024-3094-info.svg)
 
+- [https://github.com/krascovict/OSINT---CVE-2024-3094-](https://github.com/krascovict/OSINT---CVE-2024-3094-) :  ![starts](https://img.shields.io/github/stars/krascovict/OSINT---CVE-2024-3094-.svg) ![forks](https://img.shields.io/github/forks/krascovict/OSINT---CVE-2024-3094-.svg)
+
 - [https://github.com/iheb2b/CVE-2024-3094-Checker](https://github.com/iheb2b/CVE-2024-3094-Checker) :  ![starts](https://img.shields.io/github/stars/iheb2b/CVE-2024-3094-Checker.svg) ![forks](https://img.shields.io/github/forks/iheb2b/CVE-2024-3094-Checker.svg)
+
+- [https://github.com/buluma/ansible-role-cve_2024_3094](https://github.com/buluma/ansible-role-cve_2024_3094) :  ![starts](https://img.shields.io/github/stars/buluma/ansible-role-cve_2024_3094.svg) ![forks](https://img.shields.io/github/forks/buluma/ansible-role-cve_2024_3094.svg)
 
 - [https://github.com/OpensourceICTSolutions/xz_utils-CVE-2024-3094](https://github.com/OpensourceICTSolutions/xz_utils-CVE-2024-3094) :  ![starts](https://img.shields.io/github/stars/OpensourceICTSolutions/xz_utils-CVE-2024-3094.svg) ![forks](https://img.shields.io/github/forks/OpensourceICTSolutions/xz_utils-CVE-2024-3094.svg)
 
 - [https://github.com/MrBUGLF/XZ-Utils_CVE-2024-3094](https://github.com/MrBUGLF/XZ-Utils_CVE-2024-3094) :  ![starts](https://img.shields.io/github/stars/MrBUGLF/XZ-Utils_CVE-2024-3094.svg) ![forks](https://img.shields.io/github/forks/MrBUGLF/XZ-Utils_CVE-2024-3094.svg)
 
-- [https://github.com/buluma/ansible-role-cve_2024_3094](https://github.com/buluma/ansible-role-cve_2024_3094) :  ![starts](https://img.shields.io/github/stars/buluma/ansible-role-cve_2024_3094.svg) ![forks](https://img.shields.io/github/forks/buluma/ansible-role-cve_2024_3094.svg)
+- [https://github.com/gayatriracha/CVE-2024-3094-Nmap-NSE-script](https://github.com/gayatriracha/CVE-2024-3094-Nmap-NSE-script) :  ![starts](https://img.shields.io/github/stars/gayatriracha/CVE-2024-3094-Nmap-NSE-script.svg) ![forks](https://img.shields.io/github/forks/gayatriracha/CVE-2024-3094-Nmap-NSE-script.svg)
 
 - [https://github.com/weltregie/liblzma-scan](https://github.com/weltregie/liblzma-scan) :  ![starts](https://img.shields.io/github/stars/weltregie/liblzma-scan.svg) ![forks](https://img.shields.io/github/forks/weltregie/liblzma-scan.svg)
 
 - [https://github.com/przemoc/xz-backdoor-links](https://github.com/przemoc/xz-backdoor-links) :  ![starts](https://img.shields.io/github/stars/przemoc/xz-backdoor-links.svg) ![forks](https://img.shields.io/github/forks/przemoc/xz-backdoor-links.svg)
-
-- [https://github.com/gayatriracha/CVE-2024-3094-Nmap-NSE-script](https://github.com/gayatriracha/CVE-2024-3094-Nmap-NSE-script) :  ![starts](https://img.shields.io/github/stars/gayatriracha/CVE-2024-3094-Nmap-NSE-script.svg) ![forks](https://img.shields.io/github/forks/gayatriracha/CVE-2024-3094-Nmap-NSE-script.svg)
 
 - [https://github.com/MagpieRYL/CVE-2024-3094-backdoor-env-container](https://github.com/MagpieRYL/CVE-2024-3094-backdoor-env-container) :  ![starts](https://img.shields.io/github/stars/MagpieRYL/CVE-2024-3094-backdoor-env-container.svg) ![forks](https://img.shields.io/github/forks/MagpieRYL/CVE-2024-3094-backdoor-env-container.svg)
 
@@ -3222,7 +3386,7 @@
 - [https://github.com/herculeszxc/CVE-2024-2879](https://github.com/herculeszxc/CVE-2024-2879) :  ![starts](https://img.shields.io/github/stars/herculeszxc/CVE-2024-2879.svg) ![forks](https://img.shields.io/github/forks/herculeszxc/CVE-2024-2879.svg)
 
 ## CVE-2024-2876
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ The Email Subscribers by Icegram Express &#8211; Email Marketing, Newsletters, Automation for WordPress &amp; WooCommerce plugin for WordPress is vulnerable to SQL Injection via the 'run' function of the 'IG_ES_Subscribers_Query' class in all versions up to, and including, 5.7.14 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 
 
 
@@ -3236,7 +3400,7 @@
 - [https://github.com/Schnaidr/CVE-2024-2856-Stack-overflow-EXP](https://github.com/Schnaidr/CVE-2024-2856-Stack-overflow-EXP) :  ![starts](https://img.shields.io/github/stars/Schnaidr/CVE-2024-2856-Stack-overflow-EXP.svg) ![forks](https://img.shields.io/github/forks/Schnaidr/CVE-2024-2856-Stack-overflow-EXP.svg)
 
 ## CVE-2024-2667
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ The InstaWP Connect &#8211; 1-click WP Staging &amp; Migration plugin for WordPress is vulnerable to arbitrary file uploads due to insufficient file validation in the /wp-json/instawp-connect/v1/config REST API endpoint in all versions up to, and including, 0.1.0.22. This makes it possible for unauthenticated attackers to upload arbitrary files.
 
 
 
@@ -3523,7 +3687,7 @@
 - [https://github.com/kitodd/CVE-2024-0713](https://github.com/kitodd/CVE-2024-0713) :  ![starts](https://img.shields.io/github/stars/kitodd/CVE-2024-0713.svg) ![forks](https://img.shields.io/github/forks/kitodd/CVE-2024-0713.svg)
 
 ## CVE-2024-0710
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+ The GP Unique ID plugin for WordPress is vulnerable to Unique ID Modification in all versions up to, and including, 1.5.5. This is due to insufficient input validation. This makes it possible for unauthenticated attackers to tamper with the generation of a unique ID on a form submission and replace the generated unique ID with a user-controlled one, leading to a loss of integrity in cases where the ID's uniqueness is relied upon in a security-specific context.
 
 
 
