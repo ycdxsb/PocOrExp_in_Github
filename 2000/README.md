@@ -20,3 +20,10 @@
 
 
 - [https://github.com/mike182/exploit](https://github.com/mike182/exploit) :  ![starts](https://img.shields.io/github/stars/mike182/exploit.svg) ![forks](https://img.shields.io/github/forks/mike182/exploit.svg)
+
+## CVE-2000-0114
+ Frontpage Server Extensions allows remote attackers to determine the name of the anonymous account via an RPC POST request to shtml.dll in the /_vti_bin/ virtual directory.
+
+
+
+- [https://github.com/Cappricio-Securities/CVE-2000-0114](https://github.com/Cappricio-Securities/CVE-2000-0114) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2000-0114.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2000-0114.svg)
