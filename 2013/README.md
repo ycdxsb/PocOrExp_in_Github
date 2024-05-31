@@ -134,6 +134,8 @@
 
 
 
+- [https://github.com/epicosy/VUL4J-50](https://github.com/epicosy/VUL4J-50) :  ![starts](https://img.shields.io/github/stars/epicosy/VUL4J-50.svg) ![forks](https://img.shields.io/github/forks/epicosy/VUL4J-50.svg)
+
 - [https://github.com/theratpack/grails-javamelody-sample-app](https://github.com/theratpack/grails-javamelody-sample-app) :  ![starts](https://img.shields.io/github/stars/theratpack/grails-javamelody-sample-app.svg) ![forks](https://img.shields.io/github/forks/theratpack/grails-javamelody-sample-app.svg)
 
 ## CVE-2013-4362
