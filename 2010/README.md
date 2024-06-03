@@ -47,13 +47,6 @@
 
 - [https://github.com/M41doror/cve-2010-4221](https://github.com/M41doror/cve-2010-4221) :  ![starts](https://img.shields.io/github/stars/M41doror/cve-2010-4221.svg) ![forks](https://img.shields.io/github/forks/M41doror/cve-2010-4221.svg)
 
-## CVE-2010-4180
- OpenSSL before 0.9.8q, and 1.0.x before 1.0.0c, when SSL_OP_NETSCAPE_REUSE_CIPHER_CHANGE_BUG is enabled, does not properly prevent modification of the ciphersuite in the session cache, which allows remote attackers to force the downgrade to an unintended cipher via vectors involving sniffing network traffic to discover a session identifier.
-
-
-
-- [https://github.com/protonnegativo/CVE-2010-4180-by-ChatGPT](https://github.com/protonnegativo/CVE-2010-4180-by-ChatGPT) :  ![starts](https://img.shields.io/github/stars/protonnegativo/CVE-2010-4180-by-ChatGPT.svg) ![forks](https://img.shields.io/github/forks/protonnegativo/CVE-2010-4180-by-ChatGPT.svg)
-
 ## CVE-2010-3971
  Use-after-free vulnerability in the CSharedStyleSheet::Notify function in the Cascading Style Sheets (CSS) parser in mshtml.dll, as used in Microsoft Internet Explorer 6 through 8 and other products, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a self-referential @import rule in a stylesheet, aka &quot;CSS Memory Corruption Vulnerability.&quot;
 
