@@ -807,9 +807,9 @@
 
 - [https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195.svg)
 
-- [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
-
 - [https://github.com/ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ASUKA39/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ASUKA39/CVE-2016-5195.svg)
+
+- [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
 
 - [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
 
@@ -1608,9 +1608,9 @@
 
 - [https://github.com/sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/sibilleg/exploit_cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/sibilleg/exploit_cve-2016-0728.svg)
 
-- [https://github.com/googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728) :  ![starts](https://img.shields.io/github/stars/googleweb/CVE-2016-0728.svg) ![forks](https://img.shields.io/github/forks/googleweb/CVE-2016-0728.svg)
-
 - [https://github.com/sidrk01/cve-2016-0728](https://github.com/sidrk01/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/sidrk01/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/sidrk01/cve-2016-0728.svg)
+
+- [https://github.com/googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728) :  ![starts](https://img.shields.io/github/stars/googleweb/CVE-2016-0728.svg) ![forks](https://img.shields.io/github/forks/googleweb/CVE-2016-0728.svg)
 
 - [https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit](https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit) :  ![starts](https://img.shields.io/github/stars/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit.svg) ![forks](https://img.shields.io/github/forks/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit.svg)
 
