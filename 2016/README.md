@@ -30,6 +30,8 @@
 
 - [https://github.com/p0dalirius/CVE-2016-10956-mail-masta](https://github.com/p0dalirius/CVE-2016-10956-mail-masta) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2016-10956-mail-masta.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2016-10956-mail-masta.svg)
 
+- [https://github.com/Hackhoven/wp-mail-masta-exploit](https://github.com/Hackhoven/wp-mail-masta-exploit) :  ![starts](https://img.shields.io/github/stars/Hackhoven/wp-mail-masta-exploit.svg) ![forks](https://img.shields.io/github/forks/Hackhoven/wp-mail-masta-exploit.svg)
+
 ## CVE-2016-10924
  The ebook-download plugin before 1.2 for WordPress has directory traversal.
 
@@ -779,9 +781,9 @@
 
 - [https://github.com/sideeffect42/DirtyCOWTester](https://github.com/sideeffect42/DirtyCOWTester) :  ![starts](https://img.shields.io/github/stars/sideeffect42/DirtyCOWTester.svg) ![forks](https://img.shields.io/github/forks/sideeffect42/DirtyCOWTester.svg)
 
-- [https://github.com/oleg-fiksel/ansible_CVE-2016-5195_check](https://github.com/oleg-fiksel/ansible_CVE-2016-5195_check) :  ![starts](https://img.shields.io/github/stars/oleg-fiksel/ansible_CVE-2016-5195_check.svg) ![forks](https://img.shields.io/github/forks/oleg-fiksel/ansible_CVE-2016-5195_check.svg)
-
 - [https://github.com/jas502n/CVE-2016-5195](https://github.com/jas502n/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2016-5195.svg)
+
+- [https://github.com/oleg-fiksel/ansible_CVE-2016-5195_check](https://github.com/oleg-fiksel/ansible_CVE-2016-5195_check) :  ![starts](https://img.shields.io/github/stars/oleg-fiksel/ansible_CVE-2016-5195_check.svg) ![forks](https://img.shields.io/github/forks/oleg-fiksel/ansible_CVE-2016-5195_check.svg)
 
 - [https://github.com/droidvoider/dirtycow-replacer](https://github.com/droidvoider/dirtycow-replacer) :  ![starts](https://img.shields.io/github/stars/droidvoider/dirtycow-replacer.svg) ![forks](https://img.shields.io/github/forks/droidvoider/dirtycow-replacer.svg)
 
