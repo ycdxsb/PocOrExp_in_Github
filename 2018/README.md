@@ -842,9 +842,9 @@
 
 - [https://github.com/likescam/vmacache_CVE-2018-17182](https://github.com/likescam/vmacache_CVE-2018-17182) :  ![starts](https://img.shields.io/github/stars/likescam/vmacache_CVE-2018-17182.svg) ![forks](https://img.shields.io/github/forks/likescam/vmacache_CVE-2018-17182.svg)
 
-- [https://github.com/jedai47/cve-2018-17182](https://github.com/jedai47/cve-2018-17182) :  ![starts](https://img.shields.io/github/stars/jedai47/cve-2018-17182.svg) ![forks](https://img.shields.io/github/forks/jedai47/cve-2018-17182.svg)
-
 - [https://github.com/likescam/CVE-2018-17182](https://github.com/likescam/CVE-2018-17182) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2018-17182.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2018-17182.svg)
+
+- [https://github.com/jedai47/cve-2018-17182](https://github.com/jedai47/cve-2018-17182) :  ![starts](https://img.shields.io/github/stars/jedai47/cve-2018-17182.svg) ![forks](https://img.shields.io/github/forks/jedai47/cve-2018-17182.svg)
 
 ## CVE-2018-17144
  Bitcoin Core 0.14.x before 0.14.3, 0.15.x before 0.15.2, and 0.16.x before 0.16.3 and Bitcoin Knots 0.14.x through 0.16.x before 0.16.3 allow a remote denial of service (application crash) exploitable by miners via duplicate input. An attacker can make bitcoind or Bitcoin-Qt crash.
@@ -3052,9 +3052,9 @@
 
 - [https://github.com/shellord/Drupalgeddon-Mass-Exploiter](https://github.com/shellord/Drupalgeddon-Mass-Exploiter) :  ![starts](https://img.shields.io/github/stars/shellord/Drupalgeddon-Mass-Exploiter.svg) ![forks](https://img.shields.io/github/forks/shellord/Drupalgeddon-Mass-Exploiter.svg)
 
-- [https://github.com/happynote3966/CVE-2018-7602](https://github.com/happynote3966/CVE-2018-7602) :  ![starts](https://img.shields.io/github/stars/happynote3966/CVE-2018-7602.svg) ![forks](https://img.shields.io/github/forks/happynote3966/CVE-2018-7602.svg)
-
 - [https://github.com/132231g/CVE-2018-7602](https://github.com/132231g/CVE-2018-7602) :  ![starts](https://img.shields.io/github/stars/132231g/CVE-2018-7602.svg) ![forks](https://img.shields.io/github/forks/132231g/CVE-2018-7602.svg)
+
+- [https://github.com/happynote3966/CVE-2018-7602](https://github.com/happynote3966/CVE-2018-7602) :  ![starts](https://img.shields.io/github/stars/happynote3966/CVE-2018-7602.svg) ![forks](https://img.shields.io/github/forks/happynote3966/CVE-2018-7602.svg)
 
 - [https://github.com/1AmG0d/myDrupal](https://github.com/1AmG0d/myDrupal) :  ![starts](https://img.shields.io/github/stars/1AmG0d/myDrupal.svg) ![forks](https://img.shields.io/github/forks/1AmG0d/myDrupal.svg)
 
@@ -3394,6 +3394,8 @@
 
 - [https://github.com/OLAOLAOLA789/CVE-2018-6574](https://github.com/OLAOLAOLA789/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/OLAOLAOLA789/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/OLAOLAOLA789/CVE-2018-6574.svg)
 
+- [https://github.com/faiqu3/cve-2018-6574](https://github.com/faiqu3/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/faiqu3/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/faiqu3/cve-2018-6574.svg)
+
 - [https://github.com/ahmetmanga/cve-2018-6574](https://github.com/ahmetmanga/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/ahmetmanga/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/ahmetmanga/cve-2018-6574.svg)
 
 - [https://github.com/chaosura/CVE-2018-6574](https://github.com/chaosura/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/chaosura/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/chaosura/CVE-2018-6574.svg)
@@ -3413,8 +3415,6 @@
 - [https://github.com/ErnestZiemkowski/cve-2018-6574](https://github.com/ErnestZiemkowski/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/ErnestZiemkowski/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/ErnestZiemkowski/cve-2018-6574.svg)
 
 - [https://github.com/yavolo/CVE-2018-6574](https://github.com/yavolo/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/yavolo/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/yavolo/CVE-2018-6574.svg)
-
-- [https://github.com/faiqu3/cve-2018-6574](https://github.com/faiqu3/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/faiqu3/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/faiqu3/cve-2018-6574.svg)
 
 - [https://github.com/coblax/CVE-2018-6574](https://github.com/coblax/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/coblax/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/coblax/CVE-2018-6574.svg)
 
