@@ -1099,9 +1099,9 @@
 
 - [https://github.com/jayaram-yalla/CVE-2022-42889-POC_TEXT4SHELL](https://github.com/jayaram-yalla/CVE-2022-42889-POC_TEXT4SHELL) :  ![starts](https://img.shields.io/github/stars/jayaram-yalla/CVE-2022-42889-POC_TEXT4SHELL.svg) ![forks](https://img.shields.io/github/forks/jayaram-yalla/CVE-2022-42889-POC_TEXT4SHELL.svg)
 
-- [https://github.com/necroteddy/CVE-2022-42889](https://github.com/necroteddy/CVE-2022-42889) :  ![starts](https://img.shields.io/github/stars/necroteddy/CVE-2022-42889.svg) ![forks](https://img.shields.io/github/forks/necroteddy/CVE-2022-42889.svg)
-
 - [https://github.com/34006133/CVE-2022-42889](https://github.com/34006133/CVE-2022-42889) :  ![starts](https://img.shields.io/github/stars/34006133/CVE-2022-42889.svg) ![forks](https://img.shields.io/github/forks/34006133/CVE-2022-42889.svg)
+
+- [https://github.com/necroteddy/CVE-2022-42889](https://github.com/necroteddy/CVE-2022-42889) :  ![starts](https://img.shields.io/github/stars/necroteddy/CVE-2022-42889.svg) ![forks](https://img.shields.io/github/forks/necroteddy/CVE-2022-42889.svg)
 
 - [https://github.com/neerazz/CVE-2022-42889](https://github.com/neerazz/CVE-2022-42889) :  ![starts](https://img.shields.io/github/stars/neerazz/CVE-2022-42889.svg) ![forks](https://img.shields.io/github/forks/neerazz/CVE-2022-42889.svg)
 
@@ -2852,6 +2852,8 @@
 
 - [https://github.com/Decstor5/2022-32250LPE](https://github.com/Decstor5/2022-32250LPE) :  ![starts](https://img.shields.io/github/stars/Decstor5/2022-32250LPE.svg) ![forks](https://img.shields.io/github/forks/Decstor5/2022-32250LPE.svg)
 
+- [https://github.com/Kristal-g/CVE-2022-32250](https://github.com/Kristal-g/CVE-2022-32250) :  ![starts](https://img.shields.io/github/stars/Kristal-g/CVE-2022-32250.svg) ![forks](https://img.shields.io/github/forks/Kristal-g/CVE-2022-32250.svg)
+
 ## CVE-2022-32224
  A possible escalation to RCE vulnerability exists when using YAML serialized columns in Active Record &lt; 7.0.3.1, &lt;6.1.6.1, &lt;6.0.5.1 and &lt;5.2.8.1 which could allow an attacker, that can manipulate data in the database (via means like SQL injection), the ability to escalate to an RCE.
 
@@ -2994,9 +2996,9 @@
 
 - [https://github.com/drcayber/RCE](https://github.com/drcayber/RCE) :  ![starts](https://img.shields.io/github/stars/drcayber/RCE.svg) ![forks](https://img.shields.io/github/forks/drcayber/RCE.svg)
 
-- [https://github.com/Chocapikk/CVE-2022-31814](https://github.com/Chocapikk/CVE-2022-31814) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2022-31814.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2022-31814.svg)
-
 - [https://github.com/TheUnknownSoul/CVE-2022-31814](https://github.com/TheUnknownSoul/CVE-2022-31814) :  ![starts](https://img.shields.io/github/stars/TheUnknownSoul/CVE-2022-31814.svg) ![forks](https://img.shields.io/github/forks/TheUnknownSoul/CVE-2022-31814.svg)
+
+- [https://github.com/Chocapikk/CVE-2022-31814](https://github.com/Chocapikk/CVE-2022-31814) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2022-31814.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2022-31814.svg)
 
 - [https://github.com/Madliife0/CVE-2022-31814](https://github.com/Madliife0/CVE-2022-31814) :  ![starts](https://img.shields.io/github/stars/Madliife0/CVE-2022-31814.svg) ![forks](https://img.shields.io/github/forks/Madliife0/CVE-2022-31814.svg)
 
@@ -3406,6 +3408,8 @@
 - [https://github.com/aslitsecurity/Zimbra-CVE-2022-30333](https://github.com/aslitsecurity/Zimbra-CVE-2022-30333) :  ![starts](https://img.shields.io/github/stars/aslitsecurity/Zimbra-CVE-2022-30333.svg) ![forks](https://img.shields.io/github/forks/aslitsecurity/Zimbra-CVE-2022-30333.svg)
 
 - [https://github.com/J0hnbX/CVE-2022-30333](https://github.com/J0hnbX/CVE-2022-30333) :  ![starts](https://img.shields.io/github/stars/J0hnbX/CVE-2022-30333.svg) ![forks](https://img.shields.io/github/forks/J0hnbX/CVE-2022-30333.svg)
+
+- [https://github.com/paradox0909/cve-2022-30333_online_rar_extracor](https://github.com/paradox0909/cve-2022-30333_online_rar_extracor) :  ![starts](https://img.shields.io/github/stars/paradox0909/cve-2022-30333_online_rar_extracor.svg) ![forks](https://img.shields.io/github/forks/paradox0909/cve-2022-30333_online_rar_extracor.svg)
 
 ## CVE-2022-30292
  Heap-based buffer overflow in sqbaselib.cpp in SQUIRREL 3.2 due to lack of a certain sq_reservestack call.
@@ -4819,9 +4823,9 @@
 
 - [https://github.com/Habib0x0/CVE-2022-26134](https://github.com/Habib0x0/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/Habib0x0/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/Habib0x0/CVE-2022-26134.svg)
 
-- [https://github.com/axingde/CVE-2022-26134](https://github.com/axingde/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/axingde/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/axingde/CVE-2022-26134.svg)
-
 - [https://github.com/cc3305/CVE-2022-26134](https://github.com/cc3305/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/cc3305/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/cc3305/CVE-2022-26134.svg)
+
+- [https://github.com/axingde/CVE-2022-26134](https://github.com/axingde/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/axingde/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/axingde/CVE-2022-26134.svg)
 
 - [https://github.com/sunny-kathuria/exploit_CVE-2022-26134](https://github.com/sunny-kathuria/exploit_CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/sunny-kathuria/exploit_CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/sunny-kathuria/exploit_CVE-2022-26134.svg)
 
@@ -8028,9 +8032,9 @@
 
 - [https://github.com/xMr110/CVE-2022-1040](https://github.com/xMr110/CVE-2022-1040) :  ![starts](https://img.shields.io/github/stars/xMr110/CVE-2022-1040.svg) ![forks](https://img.shields.io/github/forks/xMr110/CVE-2022-1040.svg)
 
-- [https://github.com/Cyb3rEnthusiast/CVE-2022-1040](https://github.com/Cyb3rEnthusiast/CVE-2022-1040) :  ![starts](https://img.shields.io/github/stars/Cyb3rEnthusiast/CVE-2022-1040.svg) ![forks](https://img.shields.io/github/forks/Cyb3rEnthusiast/CVE-2022-1040.svg)
-
 - [https://github.com/michealadams30/CVE-2022-1040](https://github.com/michealadams30/CVE-2022-1040) :  ![starts](https://img.shields.io/github/stars/michealadams30/CVE-2022-1040.svg) ![forks](https://img.shields.io/github/forks/michealadams30/CVE-2022-1040.svg)
+
+- [https://github.com/Cyb3rEnthusiast/CVE-2022-1040](https://github.com/Cyb3rEnthusiast/CVE-2022-1040) :  ![starts](https://img.shields.io/github/stars/Cyb3rEnthusiast/CVE-2022-1040.svg) ![forks](https://img.shields.io/github/forks/Cyb3rEnthusiast/CVE-2022-1040.svg)
 
 ## CVE-2022-1026
  Kyocera multifunction printers running vulnerable versions of Net View unintentionally expose sensitive user information, including usernames and passwords, through an insufficiently protected address book export function.
@@ -8058,9 +8062,9 @@
 
 - [https://github.com/more-kohii/CVE-2022-1015](https://github.com/more-kohii/CVE-2022-1015) :  ![starts](https://img.shields.io/github/stars/more-kohii/CVE-2022-1015.svg) ![forks](https://img.shields.io/github/forks/more-kohii/CVE-2022-1015.svg)
 
-- [https://github.com/delsploit/CVE-2022-1015](https://github.com/delsploit/CVE-2022-1015) :  ![starts](https://img.shields.io/github/stars/delsploit/CVE-2022-1015.svg) ![forks](https://img.shields.io/github/forks/delsploit/CVE-2022-1015.svg)
-
 - [https://github.com/wlswotmd/CVE-2022-1015](https://github.com/wlswotmd/CVE-2022-1015) :  ![starts](https://img.shields.io/github/stars/wlswotmd/CVE-2022-1015.svg) ![forks](https://img.shields.io/github/forks/wlswotmd/CVE-2022-1015.svg)
+
+- [https://github.com/delsploit/CVE-2022-1015](https://github.com/delsploit/CVE-2022-1015) :  ![starts](https://img.shields.io/github/stars/delsploit/CVE-2022-1015.svg) ![forks](https://img.shields.io/github/forks/delsploit/CVE-2022-1015.svg)
 
 - [https://github.com/zanezhub/CVE-2022-1015-1016](https://github.com/zanezhub/CVE-2022-1015-1016) :  ![starts](https://img.shields.io/github/stars/zanezhub/CVE-2022-1015-1016.svg) ![forks](https://img.shields.io/github/forks/zanezhub/CVE-2022-1015-1016.svg)
 
@@ -8399,9 +8403,9 @@
 
 - [https://github.com/hadrian3689/wp_bookingpress_1.0.11](https://github.com/hadrian3689/wp_bookingpress_1.0.11) :  ![starts](https://img.shields.io/github/stars/hadrian3689/wp_bookingpress_1.0.11.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/wp_bookingpress_1.0.11.svg)
 
-- [https://github.com/ElGanz0/CVE-2022-0739](https://github.com/ElGanz0/CVE-2022-0739) :  ![starts](https://img.shields.io/github/stars/ElGanz0/CVE-2022-0739.svg) ![forks](https://img.shields.io/github/forks/ElGanz0/CVE-2022-0739.svg)
-
 - [https://github.com/G01d3nW01f/CVE-2022-0739](https://github.com/G01d3nW01f/CVE-2022-0739) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2022-0739.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2022-0739.svg)
+
+- [https://github.com/ElGanz0/CVE-2022-0739](https://github.com/ElGanz0/CVE-2022-0739) :  ![starts](https://img.shields.io/github/stars/ElGanz0/CVE-2022-0739.svg) ![forks](https://img.shields.io/github/forks/ElGanz0/CVE-2022-0739.svg)
 
 ## CVE-2022-0725
  A flaw was found in keepass. The vulnerability occurs due to logging the plain text passwords in system log and leads to an Information Exposure vulnerability. This flaw allows an attacker to interact and read sensitive passwords and logs.
