@@ -65,9 +65,9 @@
 
 - [https://github.com/thel1nus/CVE-2004-1561-Notes](https://github.com/thel1nus/CVE-2004-1561-Notes) :  ![starts](https://img.shields.io/github/stars/thel1nus/CVE-2004-1561-Notes.svg) ![forks](https://img.shields.io/github/forks/thel1nus/CVE-2004-1561-Notes.svg)
 
-- [https://github.com/darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/darrynb89/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/darrynb89/CVE-2004-1561.svg)
-
 - [https://github.com/ratiros01/CVE-2004-1561](https://github.com/ratiros01/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2004-1561.svg)
+
+- [https://github.com/darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/darrynb89/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/darrynb89/CVE-2004-1561.svg)
 
 ## CVE-2004-0558
  The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows remote attackers to cause a denial of service (service hang) via a certain UDP packet to the IPP port.
