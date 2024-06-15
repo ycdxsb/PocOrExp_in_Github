@@ -67,6 +67,13 @@
 
 - [https://github.com/p1ckzi/CVE-2012-5519](https://github.com/p1ckzi/CVE-2012-5519) :  ![starts](https://img.shields.io/github/stars/p1ckzi/CVE-2012-5519.svg) ![forks](https://img.shields.io/github/forks/p1ckzi/CVE-2012-5519.svg)
 
+## CVE-2012-5321
+ tiki-featured_link.php in TikiWiki CMS/Groupware 8.3 allows remote attackers to load arbitrary web site pages into frames and conduct phishing attacks via the url parameter, aka &quot;frame injection.&quot;
+
+
+
+- [https://github.com/Cappricio-Securities/CVE-2012-5321](https://github.com/Cappricio-Securities/CVE-2012-5321) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2012-5321.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2012-5321.svg)
+
 ## CVE-2012-5221
  Directory traversal vulnerability in the PostScript Interpreter, as used on the HP LaserJet 4xxx, 5200, 90xx, M30xx, M4345, M50xx, M90xx, P3005, and P4xxx; LaserJet Enterprise P3015; Color LaserJet 3xxx, 47xx, 5550, 9500, CM60xx, CP35xx, CP4005, and CP6015; Color LaserJet Enterprise CP4xxx; and 9250c Digital Sender with model-dependent firmware through 52.x allows remote attackers to read arbitrary files via unknown vectors.
 
