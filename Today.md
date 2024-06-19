@@ -1,61 +1,94 @@
-# Update 2024-06-18
-## CVE-2024-26229
- Windows CSC Service Elevation of Privilege Vulnerability
+# Update 2024-06-19
+## CVE-2024-36104
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229) :  ![starts](https://img.shields.io/github/stars/team-MineDEV/CVE-2024-26229.svg) ![forks](https://img.shields.io/github/forks/team-MineDEV/CVE-2024-26229.svg)
+- [https://github.com/ggfzx/CVE-2024-36104](https://github.com/ggfzx/CVE-2024-36104) :  ![starts](https://img.shields.io/github/stars/ggfzx/CVE-2024-36104.svg) ![forks](https://img.shields.io/github/forks/ggfzx/CVE-2024-36104.svg)
+
+
+## CVE-2024-30078
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/lvyitian/CVE-2024-30078-](https://github.com/lvyitian/CVE-2024-30078-) :  ![starts](https://img.shields.io/github/stars/lvyitian/CVE-2024-30078-.svg) ![forks](https://img.shields.io/github/forks/lvyitian/CVE-2024-30078-.svg)
+- [https://github.com/52by/CVE-2024-30078](https://github.com/52by/CVE-2024-30078) :  ![starts](https://img.shields.io/github/stars/52by/CVE-2024-30078.svg) ![forks](https://img.shields.io/github/forks/52by/CVE-2024-30078.svg)
+- [https://github.com/kvx07/CVE_2024_30078_A_POC](https://github.com/kvx07/CVE_2024_30078_A_POC) :  ![starts](https://img.shields.io/github/stars/kvx07/CVE_2024_30078_A_POC.svg) ![forks](https://img.shields.io/github/forks/kvx07/CVE_2024_30078_A_POC.svg)
 
 
 ## CVE-2024-23692
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Tupler/CVE-2024-23692-exp](https://github.com/Tupler/CVE-2024-23692-exp) :  ![starts](https://img.shields.io/github/stars/Tupler/CVE-2024-23692-exp.svg) ![forks](https://img.shields.io/github/forks/Tupler/CVE-2024-23692-exp.svg)
+- [https://github.com/BBD-YZZ/CVE-2024-23692](https://github.com/BBD-YZZ/CVE-2024-23692) :  ![starts](https://img.shields.io/github/stars/BBD-YZZ/CVE-2024-23692.svg) ![forks](https://img.shields.io/github/forks/BBD-YZZ/CVE-2024-23692.svg)
+- [https://github.com/0x20c/CVE-2024-23692-EXP](https://github.com/0x20c/CVE-2024-23692-EXP) :  ![starts](https://img.shields.io/github/stars/0x20c/CVE-2024-23692-EXP.svg) ![forks](https://img.shields.io/github/forks/0x20c/CVE-2024-23692-EXP.svg)
 
 
-## CVE-2024-3839
- Out of bounds read in Fonts in Google Chrome prior to 124.0.6367.60 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page. (Chromium security severity: Medium)
+## CVE-2024-23334
+ aiohttp is an asynchronous HTTP client/server framework for asyncio and Python. When using aiohttp as a web server and configuring static routes, it is necessary to specify the root path for static files. Additionally, the option 'follow_symlinks' can be used to determine whether to follow symbolic links outside the static root directory. When 'follow_symlinks' is set to True, there is no validation to check if reading a file is within the root directory. This can lead to directory traversal vulnerabilities, resulting in unauthorized access to arbitrary files on the system, even when symlinks are not present. Disabling follow_symlinks and using a reverse proxy are encouraged mitigations. Version 3.9.2 fixes this issue.
 
-- [https://github.com/vin01/poc-cve-2024-38396](https://github.com/vin01/poc-cve-2024-38396) :  ![starts](https://img.shields.io/github/stars/vin01/poc-cve-2024-38396.svg) ![forks](https://img.shields.io/github/forks/vin01/poc-cve-2024-38396.svg)
-
-
-## CVE-2024-3788
- Vulnerability in WBSAirback 21.02.04, which involves improper neutralisation of Server-Side Includes (SSI), through License (/admin/CDPUsers). Exploitation of this vulnerability could allow a remote user to execute arbitrary code.
-
-- [https://github.com/uname-s/CVE-2024-37889](https://github.com/uname-s/CVE-2024-37889) :  ![starts](https://img.shields.io/github/stars/uname-s/CVE-2024-37889.svg) ![forks](https://img.shields.io/github/forks/uname-s/CVE-2024-37889.svg)
+- [https://github.com/binaryninja/CVE-2024-23334](https://github.com/binaryninja/CVE-2024-23334) :  ![starts](https://img.shields.io/github/stars/binaryninja/CVE-2024-23334.svg) ![forks](https://img.shields.io/github/forks/binaryninja/CVE-2024-23334.svg)
 
 
-## CVE-2023-38831
- RARLAB WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.
+## CVE-2024-4577
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/imbyter/imbyter-WinRAR_CVE-2023-38831](https://github.com/imbyter/imbyter-WinRAR_CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/imbyter/imbyter-WinRAR_CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/imbyter/imbyter-WinRAR_CVE-2023-38831.svg)
-
-
-## CVE-2023-31290
- Trust Wallet Core before 3.1.1, as used in the Trust Wallet browser extension before 0.0.183, allows theft of funds because the entropy is 32 bits, as exploited in the wild in December 2022 and March 2023. This occurs because the mt19937 Mersenne Twister takes a single 32-bit value as an input seed, resulting in only four billion possible mnemonics. The affected versions of the browser extension are 0.0.172 through 0.0.182. To steal funds efficiently, an attacker can identify all Ethereum addresses created since the 0.0.172 release, and check whether they are Ethereum addresses that could have been created by this extension. To respond to the risk, affected users need to upgrade the product version and also move funds to a new wallet address.
-
-- [https://github.com/oooooorest/py_trustwallet_wasm](https://github.com/oooooorest/py_trustwallet_wasm) :  ![starts](https://img.shields.io/github/stars/oooooorest/py_trustwallet_wasm.svg) ![forks](https://img.shields.io/github/forks/oooooorest/py_trustwallet_wasm.svg)
+- [https://github.com/VictorShem/CVE-2024-4577](https://github.com/VictorShem/CVE-2024-4577) :  ![starts](https://img.shields.io/github/stars/VictorShem/CVE-2024-4577.svg) ![forks](https://img.shields.io/github/forks/VictorShem/CVE-2024-4577.svg)
 
 
-## CVE-2023-28252
- Windows Common Log File System Driver Elevation of Privilege Vulnerability
+## CVE-2024-4367
+ A type check was missing when handling fonts in PDF.js, which would allow arbitrary JavaScript execution in the PDF.js context. This vulnerability affects Firefox &lt; 126, Firefox ESR &lt; 115.11, and Thunderbird &lt; 115.11.
 
-- [https://github.com/Vulmatch/CVE-2023-28252](https://github.com/Vulmatch/CVE-2023-28252) :  ![starts](https://img.shields.io/github/stars/Vulmatch/CVE-2023-28252.svg) ![forks](https://img.shields.io/github/forks/Vulmatch/CVE-2023-28252.svg)
-
-
-## CVE-2023-23607
- erohtar/Dasherr is a dashboard for self-hosted services. In affected versions unrestricted file upload allows any unauthenticated user to execute arbitrary code on the server. The file /www/include/filesave.php allows for any file to uploaded to anywhere. If an attacker uploads a php file they can execute code on the server. This issue has been addressed in version 1.05.00. Users are advised to upgrade. There are no known workarounds for this issue.
-
-- [https://github.com/Pylonet/CVE-2023-23607](https://github.com/Pylonet/CVE-2023-23607) :  ![starts](https://img.shields.io/github/stars/Pylonet/CVE-2023-23607.svg) ![forks](https://img.shields.io/github/forks/Pylonet/CVE-2023-23607.svg)
+- [https://github.com/snyk-labs/pdfjs-vuln-demo](https://github.com/snyk-labs/pdfjs-vuln-demo) :  ![starts](https://img.shields.io/github/stars/snyk-labs/pdfjs-vuln-demo.svg) ![forks](https://img.shields.io/github/forks/snyk-labs/pdfjs-vuln-demo.svg)
 
 
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+## CVE-2024-3784
+ Vulnerability in WBSAirback 21.02.04, which involves improper neutralisation of Server-Side Includes (SSI), through S3 Accounts (/admin/CloudAccounts). Exploitation of this vulnerability could allow a remote user to execute arbitrary code.
 
-- [https://github.com/puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-41773.svg)
-- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
+- [https://github.com/gsmith257-cyber/CVE-2024-37843-POC](https://github.com/gsmith257-cyber/CVE-2024-37843-POC) :  ![starts](https://img.shields.io/github/stars/gsmith257-cyber/CVE-2024-37843-POC.svg) ![forks](https://img.shields.io/github/forks/gsmith257-cyber/CVE-2024-37843-POC.svg)
 
 
-## CVE-2018-9995
- TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in 1, Securus, Night OWL, DVR Login, HVR Login, and MDVR Login, which run re-branded versions of the original TBK DVR4104 and DVR4216 series, allow remote attackers to bypass authentication via a &quot;Cookie: uid=admin&quot; header, as demonstrated by a device.rsp?opt=user&amp;cmd=list request that provides credentials within JSON data in a response.
+## CVE-2024-0757
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/wmasday/HTC](https://github.com/wmasday/HTC) :  ![starts](https://img.shields.io/github/stars/wmasday/HTC.svg) ![forks](https://img.shields.io/github/forks/wmasday/HTC.svg)
+- [https://github.com/hunThubSpace/CVE-2024-0757-Exploit](https://github.com/hunThubSpace/CVE-2024-0757-Exploit) :  ![starts](https://img.shields.io/github/stars/hunThubSpace/CVE-2024-0757-Exploit.svg) ![forks](https://img.shields.io/github/forks/hunThubSpace/CVE-2024-0757-Exploit.svg)
+
+
+## CVE-2021-3129
+ Ignition before 2.5.2, as used in Laravel and other products, allows unauthenticated remote attackers to execute arbitrary code because of insecure usage of file_get_contents() and file_put_contents(). This is exploitable on sites using debug mode with Laravel before 8.4.2.
+
+- [https://github.com/wmasday/CVE-2021-3129](https://github.com/wmasday/CVE-2021-3129) :  ![starts](https://img.shields.io/github/stars/wmasday/CVE-2021-3129.svg) ![forks](https://img.shields.io/github/forks/wmasday/CVE-2021-3129.svg)
+
+
+## CVE-2021-0392
+ In main of main.cpp, there is a possible memory corruption due to a double free. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-9Android ID: A-175124730
+
+- [https://github.com/uthrasri/System_Connectivity_Wificond_CVE-2021-0392](https://github.com/uthrasri/System_Connectivity_Wificond_CVE-2021-0392) :  ![starts](https://img.shields.io/github/stars/uthrasri/System_Connectivity_Wificond_CVE-2021-0392.svg) ![forks](https://img.shields.io/github/forks/uthrasri/System_Connectivity_Wificond_CVE-2021-0392.svg)
+
+
+## CVE-2020-0201
+ In showSecurityFields of WifiConfigController.java there is a possible credential leak due to a confused deputy. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-143601727
+
+- [https://github.com/uthrasri/Packages_app_settings_CVE-2020-0201](https://github.com/uthrasri/Packages_app_settings_CVE-2020-0201) :  ![starts](https://img.shields.io/github/stars/uthrasri/Packages_app_settings_CVE-2020-0201.svg) ![forks](https://img.shields.io/github/forks/uthrasri/Packages_app_settings_CVE-2020-0201.svg)
+- [https://github.com/Trinadh465/packages_apps_Settings_CVE-2020-0201](https://github.com/Trinadh465/packages_apps_Settings_CVE-2020-0201) :  ![starts](https://img.shields.io/github/stars/Trinadh465/packages_apps_Settings_CVE-2020-0201.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/packages_apps_Settings_CVE-2020-0201.svg)
+
+
+## CVE-2019-17133
+ In the Linux kernel through 5.3.2, cfg80211_mgd_wext_giwessid in net/wireless/wext-sme.c does not reject a long SSID IE, leading to a Buffer Overflow.
+
+- [https://github.com/krnidhi/linux_4.19.72_CVE-2019-17133](https://github.com/krnidhi/linux_4.19.72_CVE-2019-17133) :  ![starts](https://img.shields.io/github/stars/krnidhi/linux_4.19.72_CVE-2019-17133.svg) ![forks](https://img.shields.io/github/forks/krnidhi/linux_4.19.72_CVE-2019-17133.svg)
+
+
+## CVE-2019-8805
+ A validation issue existed in the entitlement verification. This issue was addressed with improved validation of the process entitlement. This issue is fixed in macOS Catalina 10.15.1. An application may be able to execute arbitrary code with system privileges.
+
+- [https://github.com/securelayer7/CVE-2019-8805](https://github.com/securelayer7/CVE-2019-8805) :  ![starts](https://img.shields.io/github/stars/securelayer7/CVE-2019-8805.svg) ![forks](https://img.shields.io/github/forks/securelayer7/CVE-2019-8805.svg)
+
+
+## CVE-2017-9841
+ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows remote attackers to execute arbitrary PHP code via HTTP POST data beginning with a &quot;&lt;?php &quot; substring, as demonstrated by an attack on a site with an exposed /vendor folder, i.e., external access to the /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php URI.
+
+- [https://github.com/omgdomgd/CVE-2017-9841-Scan](https://github.com/omgdomgd/CVE-2017-9841-Scan) :  ![starts](https://img.shields.io/github/stars/omgdomgd/CVE-2017-9841-Scan.svg) ![forks](https://img.shields.io/github/forks/omgdomgd/CVE-2017-9841-Scan.svg)
+
+
+## CVE-2000-0649
+ IIS 4.0 allows remote attackers to obtain the internal IP address of the server via an HTTP 1.0 request for a web page which is protected by basic authentication and has no realm defined.
+
+- [https://github.com/Downgraderz/PoC-CVE-2000-0649](https://github.com/Downgraderz/PoC-CVE-2000-0649) :  ![starts](https://img.shields.io/github/stars/Downgraderz/PoC-CVE-2000-0649.svg) ![forks](https://img.shields.io/github/forks/Downgraderz/PoC-CVE-2000-0649.svg)
 
