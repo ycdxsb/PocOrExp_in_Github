@@ -159,31 +159,6 @@
 
 - [https://github.com/hartwork/mysecureshell-issues](https://github.com/hartwork/mysecureshell-issues) :  ![starts](https://img.shields.io/github/stars/hartwork/mysecureshell-issues.svg) ![forks](https://img.shields.io/github/forks/hartwork/mysecureshell-issues.svg)
 
-## CVE-2013-4002
- XMLscanner.java in Apache Xerces2 Java Parser before 2.12.0, as used in the Java Runtime Environment (JRE) in IBM Java 5.0 before 5.0 SR16-FP3, 6 before 6 SR14, 6.0.1 before 6.0.1 SR6, and 7 before 7 SR5 as well as Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JRockit R28.2.8 and earlier, JRockit R27.7.6 and earlier, Java SE Embedded 7u40 and earlier, and possibly other products allows remote attackers to cause a denial of service via vectors related to XML attribute names.
-
-
-
-- [https://github.com/tafamace/CVE-2013-4002](https://github.com/tafamace/CVE-2013-4002) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2013-4002.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2013-4002.svg)
-
-## CVE-2013-3900
- The WinVerifyTrust function in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 does not properly validate PE file digests during Authenticode signature verification, which allows remote attackers to execute arbitrary code via a crafted PE file, aka &quot;WinVerifyTrust Signature Validation Vulnerability.&quot;
-
-
-
-- [https://github.com/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln](https://github.com/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln) :  ![starts](https://img.shields.io/github/stars/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln.svg) ![forks](https://img.shields.io/github/forks/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln.svg)
-
-- [https://github.com/snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/snoopopsec/vulnerability-CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/snoopopsec/vulnerability-CVE-2013-3900.svg)
-
-- [https://github.com/Securenetology/CVE-2013-3900](https://github.com/Securenetology/CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/Securenetology/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Securenetology/CVE-2013-3900.svg)
-
-## CVE-2013-3893
- Use-after-free vulnerability in the SetMouseCapture implementation in mshtml.dll in Microsoft Internet Explorer 6 through 11 allows remote attackers to execute arbitrary code via crafted JavaScript strings, as demonstrated by use of an ms-help: URL that triggers loading of hxds.dll.
-
-
-
-- [https://github.com/travelworld/cve_2013_3893_trigger.html](https://github.com/travelworld/cve_2013_3893_trigger.html) :  ![starts](https://img.shields.io/github/stars/travelworld/cve_2013_3893_trigger.html.svg) ![forks](https://img.shields.io/github/forks/travelworld/cve_2013_3893_trigger.html.svg)
-
 ## CVE-2013-3664
  Trimble SketchUp (formerly Google SketchUp) before 2013 (13.0.3689) allows remote attackers to execute arbitrary code via a crafted color palette table in a MAC Pict texture, which triggers an out-of-bounds stack write.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2013-3662.  NOTE: this issue was SPLIT due to different affected products and codebases (ADT1); CVE-2013-7388 has been assigned to the paintlib issue.
 
