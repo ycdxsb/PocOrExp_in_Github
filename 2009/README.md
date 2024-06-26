@@ -60,31 +60,6 @@
 
 - [https://github.com/fengjixuchui/CVE-2009-4049](https://github.com/fengjixuchui/CVE-2009-4049) :  ![starts](https://img.shields.io/github/stars/fengjixuchui/CVE-2009-4049.svg) ![forks](https://img.shields.io/github/forks/fengjixuchui/CVE-2009-4049.svg)
 
-## CVE-2009-3555
- The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a &quot;plaintext injection&quot; attack, aka the &quot;Project Mogul&quot; issue.
-
-
-
-- [https://github.com/johnwchadwick/cve-2009-3555-test-server](https://github.com/johnwchadwick/cve-2009-3555-test-server) :  ![starts](https://img.shields.io/github/stars/johnwchadwick/cve-2009-3555-test-server.svg) ![forks](https://img.shields.io/github/forks/johnwchadwick/cve-2009-3555-test-server.svg)
-
-## CVE-2009-3548
- The Windows installer for Apache Tomcat 6.0.0 through 6.0.20, 5.5.0 through 5.5.28, and possibly earlier versions uses a blank default password for the administrative user, which allows remote attackers to gain privileges.
-
-
-
-- [https://github.com/cocomelonc/vulnexipy](https://github.com/cocomelonc/vulnexipy) :  ![starts](https://img.shields.io/github/stars/cocomelonc/vulnexipy.svg) ![forks](https://img.shields.io/github/forks/cocomelonc/vulnexipy.svg)
-
-## CVE-2009-3103
- Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a denial of service (system crash) via an &amp; (ampersand) character in a Process ID High header field in a NEGOTIATE PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location, aka &quot;SMBv2 Negotiation Vulnerability.&quot; NOTE: some of these details are obtained from third party information.
-
-
-
-- [https://github.com/sooklalad/ms09050](https://github.com/sooklalad/ms09050) :  ![starts](https://img.shields.io/github/stars/sooklalad/ms09050.svg) ![forks](https://img.shields.io/github/forks/sooklalad/ms09050.svg)
-
-- [https://github.com/Sic4rio/CVE-2009-3103---srv2.sys-SMB-Code-Execution-Python-MS09-050-](https://github.com/Sic4rio/CVE-2009-3103---srv2.sys-SMB-Code-Execution-Python-MS09-050-) :  ![starts](https://img.shields.io/github/stars/Sic4rio/CVE-2009-3103---srv2.sys-SMB-Code-Execution-Python-MS09-050-.svg) ![forks](https://img.shields.io/github/forks/Sic4rio/CVE-2009-3103---srv2.sys-SMB-Code-Execution-Python-MS09-050-.svg)
-
-- [https://github.com/sec13b/ms09-050_CVE-2009-3103](https://github.com/sec13b/ms09-050_CVE-2009-3103) :  ![starts](https://img.shields.io/github/stars/sec13b/ms09-050_CVE-2009-3103.svg) ![forks](https://img.shields.io/github/forks/sec13b/ms09-050_CVE-2009-3103.svg)
-
 ## CVE-2009-3036
  Cross-site scripting (XSS) vulnerability in the console in Symantec IM Manager 8.3 and 8.4 before 8.4.13 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
 
@@ -175,13 +150,6 @@
 - [https://github.com/pagvac/pocs](https://github.com/pagvac/pocs) :  ![starts](https://img.shields.io/github/stars/pagvac/pocs.svg) ![forks](https://img.shields.io/github/forks/pagvac/pocs.svg)
 
 - [https://github.com/e-Thug/PhpMyAdmin](https://github.com/e-Thug/PhpMyAdmin) :  ![starts](https://img.shields.io/github/stars/e-Thug/PhpMyAdmin.svg) ![forks](https://img.shields.io/github/forks/e-Thug/PhpMyAdmin.svg)
-
-## CVE-2009-0689
- Array index error in the (1) dtoa implementation in dtoa.c (aka pdtoa.c) and the (2) gdtoa (aka new dtoa) implementation in gdtoa/misc.c in libc, as used in multiple operating systems and products including in FreeBSD 6.4 and 7.2, NetBSD 5.0, OpenBSD 4.5, Mozilla Firefox 3.0.x before 3.0.15 and 3.5.x before 3.5.4, K-Meleon 1.5.3, SeaMonkey 1.1.8, and other products, allows context-dependent attackers to cause a denial of service (application crash) and possibly execute arbitrary code via a large precision value in the format argument to a printf function, which triggers incorrect memory allocation and a heap-based buffer overflow during conversion to a floating-point number.
-
-
-
-- [https://github.com/Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax) :  ![starts](https://img.shields.io/github/stars/Fullmetal5/str2hax.svg) ![forks](https://img.shields.io/github/forks/Fullmetal5/str2hax.svg)
 
 ## CVE-2009-0473
  Open redirect vulnerability in the web interface in the Rockwell Automation ControlLogix 1756-ENBT/A EtherNet/IP Bridge Module allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.
