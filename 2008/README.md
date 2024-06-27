@@ -72,8 +72,6 @@
 
 
 
-- [https://github.com/pxcs/CVE-29343-Sysmon-list](https://github.com/pxcs/CVE-29343-Sysmon-list) :  ![starts](https://img.shields.io/github/stars/pxcs/CVE-29343-Sysmon-list.svg) ![forks](https://img.shields.io/github/forks/pxcs/CVE-29343-Sysmon-list.svg)
-
 - [https://github.com/thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts) :  ![starts](https://img.shields.io/github/stars/thunderstrike9090/Conflicker_analysis_scripts.svg) ![forks](https://img.shields.io/github/forks/thunderstrike9090/Conflicker_analysis_scripts.svg)
 
 ## CVE-2008-2938
