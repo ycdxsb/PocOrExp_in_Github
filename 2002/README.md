@@ -40,12 +40,33 @@
 
 - [https://github.com/alt3kx/CVE-2002-0448](https://github.com/alt3kx/CVE-2002-0448) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0448.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0448.svg)
 
+## CVE-2002-0348
+ service.cgi in Cobalt RAQ 4 allows remote attackers to cause a denial of service, and possibly execute arbitrary code, via a long service argument.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0348](https://github.com/alt3kx/CVE-2002-0348) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0348.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0348.svg)
+
+## CVE-2002-0347
+ Directory traversal vulnerability in Cobalt RAQ 4 allows remote attackers to read password-protected files, and possibly files outside the web root, via a .. (dot dot) in an HTTP request.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0347](https://github.com/alt3kx/CVE-2002-0347) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0347.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0347.svg)
+
 ## CVE-2002-0346
  Cross-site scripting vulnerability in Cobalt RAQ 4 allows remote attackers to execute arbitrary script as other Cobalt users via Javascript in a URL to (1) service.cgi or (2) alert.cgi.
 
 
 
 - [https://github.com/alt3kx/CVE-2002-0346](https://github.com/alt3kx/CVE-2002-0346) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0346.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0346.svg)
+
+## CVE-2002-0289
+ Buffer overflow in Phusion web server 1.0 allows remote attackers to cause a denial of service and execute arbitrary code via a long HTTP request.
+
+
+
+- [https://github.com/alt3kx/CVE-2002-0289](https://github.com/alt3kx/CVE-2002-0289) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0289.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0289.svg)
 
 ## CVE-2002-0288
  Directory traversal vulnerability in Phusion web server 1.0 allows remote attackers to read arbitrary files via a ... (triple dot dot) in the HTTP request.
