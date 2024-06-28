@@ -108,6 +108,8 @@
 
 - [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
 
+- [https://github.com/Fatalitysec/vsftpd_2.3.4_Backdoor](https://github.com/Fatalitysec/vsftpd_2.3.4_Backdoor) :  ![starts](https://img.shields.io/github/stars/Fatalitysec/vsftpd_2.3.4_Backdoor.svg) ![forks](https://img.shields.io/github/forks/Fatalitysec/vsftpd_2.3.4_Backdoor.svg)
+
 - [https://github.com/0xSojalSec/CVE-2011-2523](https://github.com/0xSojalSec/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/CVE-2011-2523.svg)
 
 - [https://github.com/vaishnavucv/CVE-2011-2523](https://github.com/vaishnavucv/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/vaishnavucv/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/vaishnavucv/CVE-2011-2523.svg)
