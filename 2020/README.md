@@ -3737,7 +3737,7 @@
 
 - [https://github.com/rdoix/CVE-2020-10148-Solarwinds-Orion](https://github.com/rdoix/CVE-2020-10148-Solarwinds-Orion) :  ![starts](https://img.shields.io/github/stars/rdoix/CVE-2020-10148-Solarwinds-Orion.svg) ![forks](https://img.shields.io/github/forks/rdoix/CVE-2020-10148-Solarwinds-Orion.svg)
 
-- [https://github.com/Udyz/CVE-2020-10148-Solarwinds-Orion](https://github.com/Udyz/CVE-2020-10148-Solarwinds-Orion) :  ![starts](https://img.shields.io/github/stars/Udyz/CVE-2020-10148-Solarwinds-Orion.svg) ![forks](https://img.shields.io/github/forks/Udyz/CVE-2020-10148-Solarwinds-Orion.svg)
+- [https://github.com/5l1v3r1/CVE-2020-10148-Solarwinds-Orion](https://github.com/5l1v3r1/CVE-2020-10148-Solarwinds-Orion) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/CVE-2020-10148-Solarwinds-Orion.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/CVE-2020-10148-Solarwinds-Orion.svg)
 
 ## CVE-2020-10135
  Legacy pairing and secure-connections pairing authentication in Bluetooth BR/EDR Core Specification v5.2 and earlier may allow an unauthenticated user to complete authentication without pairing credentials via adjacent access. An unauthenticated, adjacent attacker could impersonate a Bluetooth BR/EDR master or slave to pair with a previously paired remote device to successfully complete the authentication procedure without knowing the link key.
@@ -4596,8 +4596,6 @@
 
 - [https://github.com/ShutdownRepo/CVE-2020-7961](https://github.com/ShutdownRepo/CVE-2020-7961) :  ![starts](https://img.shields.io/github/stars/ShutdownRepo/CVE-2020-7961.svg) ![forks](https://img.shields.io/github/forks/ShutdownRepo/CVE-2020-7961.svg)
 
-- [https://github.com/Udyz/CVE-2020-7961-Mass](https://github.com/Udyz/CVE-2020-7961-Mass) :  ![starts](https://img.shields.io/github/stars/Udyz/CVE-2020-7961-Mass.svg) ![forks](https://img.shields.io/github/forks/Udyz/CVE-2020-7961-Mass.svg)
-
 - [https://github.com/thelostworldFree/CVE-2020-7961-payloads](https://github.com/thelostworldFree/CVE-2020-7961-payloads) :  ![starts](https://img.shields.io/github/stars/thelostworldFree/CVE-2020-7961-payloads.svg) ![forks](https://img.shields.io/github/forks/thelostworldFree/CVE-2020-7961-payloads.svg)
 
 - [https://github.com/shacojx/LifeRCEJsonWSTool-POC-CVE-2020-7961-Gui](https://github.com/shacojx/LifeRCEJsonWSTool-POC-CVE-2020-7961-Gui) :  ![starts](https://img.shields.io/github/stars/shacojx/LifeRCEJsonWSTool-POC-CVE-2020-7961-Gui.svg) ![forks](https://img.shields.io/github/forks/shacojx/LifeRCEJsonWSTool-POC-CVE-2020-7961-Gui.svg)
@@ -4609,6 +4607,8 @@
 - [https://github.com/wcxxxxx/CVE-2020-7961](https://github.com/wcxxxxx/CVE-2020-7961) :  ![starts](https://img.shields.io/github/stars/wcxxxxx/CVE-2020-7961.svg) ![forks](https://img.shields.io/github/forks/wcxxxxx/CVE-2020-7961.svg)
 
 - [https://github.com/pashayogi/CVE-2020-7961-Mass](https://github.com/pashayogi/CVE-2020-7961-Mass) :  ![starts](https://img.shields.io/github/stars/pashayogi/CVE-2020-7961-Mass.svg) ![forks](https://img.shields.io/github/forks/pashayogi/CVE-2020-7961-Mass.svg)
+
+- [https://github.com/CrackerCat/CVE-2020-7961-Mass](https://github.com/CrackerCat/CVE-2020-7961-Mass) :  ![starts](https://img.shields.io/github/stars/CrackerCat/CVE-2020-7961-Mass.svg) ![forks](https://img.shields.io/github/forks/CrackerCat/CVE-2020-7961-Mass.svg)
 
 - [https://github.com/manrop2702/CVE-2020-7961](https://github.com/manrop2702/CVE-2020-7961) :  ![starts](https://img.shields.io/github/stars/manrop2702/CVE-2020-7961.svg) ![forks](https://img.shields.io/github/forks/manrop2702/CVE-2020-7961.svg)
 
@@ -5512,9 +5512,9 @@
 
 - [https://github.com/iveresk/cve-2020-3452](https://github.com/iveresk/cve-2020-3452) :  ![starts](https://img.shields.io/github/stars/iveresk/cve-2020-3452.svg) ![forks](https://img.shields.io/github/forks/iveresk/cve-2020-3452.svg)
 
-- [https://github.com/Cappricio-Securities/CVE-2020-3452](https://github.com/Cappricio-Securities/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2020-3452.svg)
-
 - [https://github.com/sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/sujaygr8/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/sujaygr8/CVE-2020-3452.svg)
+
+- [https://github.com/Cappricio-Securities/CVE-2020-3452](https://github.com/Cappricio-Securities/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2020-3452.svg)
 
 - [https://github.com/imhunterand/CVE-2020-3452](https://github.com/imhunterand/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/imhunterand/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/imhunterand/CVE-2020-3452.svg)
 
@@ -6024,9 +6024,9 @@
 
 - [https://github.com/npocmak/CVE-2020-1472](https://github.com/npocmak/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/npocmak/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/npocmak/CVE-2020-1472.svg)
 
-- [https://github.com/shanfenglan/cve-2020-1472](https://github.com/shanfenglan/cve-2020-1472) :  ![starts](https://img.shields.io/github/stars/shanfenglan/cve-2020-1472.svg) ![forks](https://img.shields.io/github/forks/shanfenglan/cve-2020-1472.svg)
-
 - [https://github.com/Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/Akash7350/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Akash7350/CVE-2020-1472.svg)
+
+- [https://github.com/shanfenglan/cve-2020-1472](https://github.com/shanfenglan/cve-2020-1472) :  ![starts](https://img.shields.io/github/stars/shanfenglan/cve-2020-1472.svg) ![forks](https://img.shields.io/github/forks/shanfenglan/cve-2020-1472.svg)
 
 - [https://github.com/McKinnonIT/zabbix-template-CVE-2020-1472](https://github.com/McKinnonIT/zabbix-template-CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/McKinnonIT/zabbix-template-CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/McKinnonIT/zabbix-template-CVE-2020-1472.svg)
 
@@ -6094,9 +6094,9 @@
 
 - [https://github.com/blackh00d/zerologon-poc](https://github.com/blackh00d/zerologon-poc) :  ![starts](https://img.shields.io/github/stars/blackh00d/zerologon-poc.svg) ![forks](https://img.shields.io/github/forks/blackh00d/zerologon-poc.svg)
 
-- [https://github.com/johnpathe/zerologon-cve-2020-1472-notes](https://github.com/johnpathe/zerologon-cve-2020-1472-notes) :  ![starts](https://img.shields.io/github/stars/johnpathe/zerologon-cve-2020-1472-notes.svg) ![forks](https://img.shields.io/github/forks/johnpathe/zerologon-cve-2020-1472-notes.svg)
-
 - [https://github.com/TheJoyOfHacking/SecuraBV-CVE-2020-1472](https://github.com/TheJoyOfHacking/SecuraBV-CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/TheJoyOfHacking/SecuraBV-CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/TheJoyOfHacking/SecuraBV-CVE-2020-1472.svg)
+
+- [https://github.com/johnpathe/zerologon-cve-2020-1472-notes](https://github.com/johnpathe/zerologon-cve-2020-1472-notes) :  ![starts](https://img.shields.io/github/stars/johnpathe/zerologon-cve-2020-1472-notes.svg) ![forks](https://img.shields.io/github/forks/johnpathe/zerologon-cve-2020-1472-notes.svg)
 
 - [https://github.com/logg-1/0logon](https://github.com/logg-1/0logon) :  ![starts](https://img.shields.io/github/stars/logg-1/0logon.svg) ![forks](https://img.shields.io/github/forks/logg-1/0logon.svg)
 
