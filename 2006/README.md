@@ -14,6 +14,13 @@
 
 - [https://github.com/b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184) :  ![starts](https://img.shields.io/github/stars/b03902043/CVE-2006-6184.svg) ![forks](https://img.shields.io/github/forks/b03902043/CVE-2006-6184.svg)
 
+## CVE-2006-5051
+ Signal handler race condition in OpenSSH before 4.4 allows remote attackers to cause a denial of service (crash), and possibly execute arbitrary code if GSSAPI authentication is enabled, via unspecified vectors that lead to a double-free.
+
+
+
+- [https://github.com/bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387) :  ![starts](https://img.shields.io/github/stars/bigb0x/CVE-2024-6387.svg) ![forks](https://img.shields.io/github/forks/bigb0x/CVE-2024-6387.svg)
+
 ## CVE-2006-4814
  The mincore function in the Linux kernel before 2.4.33.6 does not properly lock access to user space, which has unspecified impact and attack vectors, possibly related to a deadlock.
 
