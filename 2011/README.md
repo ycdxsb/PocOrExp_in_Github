@@ -112,9 +112,9 @@
 
 - [https://github.com/0xSojalSec/CVE-2011-2523](https://github.com/0xSojalSec/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/CVE-2011-2523.svg)
 
-- [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
-
 - [https://github.com/vaishnavucv/CVE-2011-2523](https://github.com/vaishnavucv/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/vaishnavucv/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/vaishnavucv/CVE-2011-2523.svg)
+
+- [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
 - [https://github.com/XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/XiangSi-Howard/CTF---CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/XiangSi-Howard/CTF---CVE-2011-2523.svg)
 
@@ -195,7 +195,7 @@
 
 
 
-- [https://github.com/c0d3cr4f73r/CVE-2011-1249](https://github.com/c0d3cr4f73r/CVE-2011-1249) :  ![starts](https://img.shields.io/github/stars/c0d3cr4f73r/CVE-2011-1249.svg) ![forks](https://img.shields.io/github/forks/c0d3cr4f73r/CVE-2011-1249.svg)
+- [https://github.com/Sp3c73rSh4d0w/CVE-2011-1249](https://github.com/Sp3c73rSh4d0w/CVE-2011-1249) :  ![starts](https://img.shields.io/github/stars/Sp3c73rSh4d0w/CVE-2011-1249.svg) ![forks](https://img.shields.io/github/forks/Sp3c73rSh4d0w/CVE-2011-1249.svg)
 
 - [https://github.com/Madusanka99/OHTS](https://github.com/Madusanka99/OHTS) :  ![starts](https://img.shields.io/github/stars/Madusanka99/OHTS.svg) ![forks](https://img.shields.io/github/forks/Madusanka99/OHTS.svg)
 
