@@ -1,140 +1,85 @@
-# Update 2024-07-03
-## CVE-2024-38366
+# Update 2024-07-04
+## CVE-2024-32002
+ Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
+
+- [https://github.com/AmbroseCdMeng/CVE-2024-32002](https://github.com/AmbroseCdMeng/CVE-2024-32002) :  ![starts](https://img.shields.io/github/stars/AmbroseCdMeng/CVE-2024-32002.svg) ![forks](https://img.shields.io/github/forks/AmbroseCdMeng/CVE-2024-32002.svg)
+- [https://github.com/EQSTSeminar/git_rce](https://github.com/EQSTSeminar/git_rce) :  ![starts](https://img.shields.io/github/stars/EQSTSeminar/git_rce.svg) ![forks](https://img.shields.io/github/forks/EQSTSeminar/git_rce.svg)
+
+
+## CVE-2024-21006
+ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+
+- [https://github.com/lightr3d/CVE-2024-21006_jar](https://github.com/lightr3d/CVE-2024-21006_jar) :  ![starts](https://img.shields.io/github/stars/lightr3d/CVE-2024-21006_jar.svg) ![forks](https://img.shields.io/github/forks/lightr3d/CVE-2024-21006_jar.svg)
+
+
+## CVE-2024-20399
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/ReeFSpeK/CocoaPods-RCE](https://github.com/ReeFSpeK/CocoaPods-RCE) :  ![starts](https://img.shields.io/github/stars/ReeFSpeK/CocoaPods-RCE.svg) ![forks](https://img.shields.io/github/forks/ReeFSpeK/CocoaPods-RCE.svg)
+- [https://github.com/Blootus/CVE-2024-20399-Cisco-RCE](https://github.com/Blootus/CVE-2024-20399-Cisco-RCE) :  ![starts](https://img.shields.io/github/stars/Blootus/CVE-2024-20399-Cisco-RCE.svg) ![forks](https://img.shields.io/github/forks/Blootus/CVE-2024-20399-Cisco-RCE.svg)
 
 
-## CVE-2024-37765
+## CVE-2024-5084
+ The Hash Form &#8211; Drag &amp; Drop Form Builder plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'file_upload_action' function in all versions up to, and including, 1.1.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+
+- [https://github.com/WOOOOONG/CVE-2024-5084](https://github.com/WOOOOONG/CVE-2024-5084) :  ![starts](https://img.shields.io/github/stars/WOOOOONG/CVE-2024-5084.svg) ![forks](https://img.shields.io/github/forks/WOOOOONG/CVE-2024-5084.svg)
+
+
+## CVE-2024-4836
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Atreb92/cve-2024-37765](https://github.com/Atreb92/cve-2024-37765) :  ![starts](https://img.shields.io/github/stars/Atreb92/cve-2024-37765.svg) ![forks](https://img.shields.io/github/forks/Atreb92/cve-2024-37765.svg)
+- [https://github.com/sleep46/CVE-2024-4836_Check](https://github.com/sleep46/CVE-2024-4836_Check) :  ![starts](https://img.shields.io/github/stars/sleep46/CVE-2024-4836_Check.svg) ![forks](https://img.shields.io/github/forks/sleep46/CVE-2024-4836_Check.svg)
 
 
-## CVE-2024-37764
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2023-43654
+ TorchServe is a tool for serving and scaling PyTorch models in production. TorchServe default configuration lacks proper input validation, enabling third parties to invoke remote HTTP download requests and write files to the disk. This issue could be taken advantage of to compromise the integrity of the system and sensitive data. This issue is present in versions 0.1.0 to 0.8.1. A user is able to load the model of their choice from any URL that they would like to use. The user of TorchServe is responsible for configuring both the allowed_urls and specifying the model URL to be used. A pull request to warn the user when the default value for allowed_urls is used has been merged in PR #2534. TorchServe release 0.8.2 includes this change. Users are advised to upgrade. There are no known workarounds for this issue.
 
-- [https://github.com/Atreb92/cve-2024-37764](https://github.com/Atreb92/cve-2024-37764) :  ![starts](https://img.shields.io/github/stars/Atreb92/cve-2024-37764.svg) ![forks](https://img.shields.io/github/forks/Atreb92/cve-2024-37764.svg)
-
-
-## CVE-2024-37763
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/Atreb92/cve-2024-37763](https://github.com/Atreb92/cve-2024-37763) :  ![starts](https://img.shields.io/github/stars/Atreb92/cve-2024-37763.svg) ![forks](https://img.shields.io/github/forks/Atreb92/cve-2024-37763.svg)
+- [https://github.com/OligoCyberSecurity/CVE-2023-43654](https://github.com/OligoCyberSecurity/CVE-2023-43654) :  ![starts](https://img.shields.io/github/stars/OligoCyberSecurity/CVE-2023-43654.svg) ![forks](https://img.shields.io/github/forks/OligoCyberSecurity/CVE-2023-43654.svg)
 
 
-## CVE-2024-37762
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2023-35985
+ An arbitrary file creation vulnerability exists in the Javascript exportDataObject API of Foxit Reader 12.1.3.15356 due to a failure to properly validate a dangerous extension. A specially crafted malicious file can create files at arbitrary locations, which can lead to arbitrary code execution. An attacker needs to trick the user into opening the malicious file to trigger this vulnerability. Exploitation is also possible if a user visits a specially-crafted malicious site if the browser plugin extension is enabled.
 
-- [https://github.com/Atreb92/cve-2024-37762](https://github.com/Atreb92/cve-2024-37762) :  ![starts](https://img.shields.io/github/stars/Atreb92/cve-2024-37762.svg) ![forks](https://img.shields.io/github/forks/Atreb92/cve-2024-37762.svg)
-
-
-## CVE-2024-34102
- Adobe Commerce versions 2.4.7, 2.4.6-p5, 2.4.5-p7, 2.4.4-p8 and earlier are affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could result in arbitrary code execution. An attacker could exploit this vulnerability by sending a crafted XML document that references external entities. Exploitation of this issue does not require user interaction.
-
-- [https://github.com/jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento](https://github.com/jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento) :  ![starts](https://img.shields.io/github/stars/jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento.svg) ![forks](https://img.shields.io/github/forks/jakabakos/CVE-2024-34102-CosmicSting-XXE-in-Adobe-Commerce-and-Magento.svg)
-
-
-## CVE-2024-29269
- An issue discovered in Telesquare TLR-2005Ksh 1.0.0 and 1.1.4 allows attackers to run arbitrary system commands via the Cmd parameter.
-
-- [https://github.com/K3ysTr0K3R/CVE-2024-29269-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-29269-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2024-29269-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2024-29269-EXPLOIT.svg)
-
-
-## CVE-2024-28995
- SolarWinds Serv-U was susceptible to a directory transversal vulnerability that would allow access to read sensitive files on the host machine.
-
-- [https://github.com/Stuub/CVE-2024-28995](https://github.com/Stuub/CVE-2024-28995) :  ![starts](https://img.shields.io/github/stars/Stuub/CVE-2024-28995.svg) ![forks](https://img.shields.io/github/forks/Stuub/CVE-2024-28995.svg)
-
-
-## CVE-2024-28955
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/Stuub/CVE-2024-28995](https://github.com/Stuub/CVE-2024-28995) :  ![starts](https://img.shields.io/github/stars/Stuub/CVE-2024-28995.svg) ![forks](https://img.shields.io/github/forks/Stuub/CVE-2024-28995.svg)
-
-
-## CVE-2024-27292
- Docassemble is an expert system for guided interviews and document assembly. The vulnerability allows attackers to gain unauthorized access to information on the system through URL manipulation. It affects versions 1.4.53 to 1.4.96. The vulnerability has been patched in version 1.4.97 of the master branch.
-
-- [https://github.com/th3gokul/CVE-2024-27292](https://github.com/th3gokul/CVE-2024-27292) :  ![starts](https://img.shields.io/github/stars/th3gokul/CVE-2024-27292.svg) ![forks](https://img.shields.io/github/forks/th3gokul/CVE-2024-27292.svg)
-
-
-## CVE-2024-26229
- Windows CSC Service Elevation of Privilege Vulnerability
-
-- [https://github.com/apkc/CVE-2024-26229-BOF](https://github.com/apkc/CVE-2024-26229-BOF) :  ![starts](https://img.shields.io/github/stars/apkc/CVE-2024-26229-BOF.svg) ![forks](https://img.shields.io/github/forks/apkc/CVE-2024-26229-BOF.svg)
-
-
-## CVE-2024-20666
- BitLocker Security Feature Bypass Vulnerability
-
-- [https://github.com/invaderslabs/CVE-2024-20666](https://github.com/invaderslabs/CVE-2024-20666) :  ![starts](https://img.shields.io/github/stars/invaderslabs/CVE-2024-20666.svg) ![forks](https://img.shields.io/github/forks/invaderslabs/CVE-2024-20666.svg)
-
-
-## CVE-2024-6050
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/kac89/CVE-2024-6050](https://github.com/kac89/CVE-2024-6050) :  ![starts](https://img.shields.io/github/stars/kac89/CVE-2024-6050.svg) ![forks](https://img.shields.io/github/forks/kac89/CVE-2024-6050.svg)
-
-
-## CVE-2024-5961
- Improper neutralization of input during web page generation vulnerability in 2ClickPortal software allows reflected cross-site scripting (XSS). An attacker might trick somebody into using a crafted URL, which will cause a script to be run in user's browser. This issue affects 2ClickPortal software versions from 7.2.31 through 7.6.4.
-
-- [https://github.com/kac89/CVE-2024-5961](https://github.com/kac89/CVE-2024-5961) :  ![starts](https://img.shields.io/github/stars/kac89/CVE-2024-5961.svg) ![forks](https://img.shields.io/github/forks/kac89/CVE-2024-5961.svg)
-
-
-## CVE-2023-40127
- In multiple locations, there is a possible way to access screenshots due to a confused deputy. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.
-
-- [https://github.com/RenukaSelvar/packages_providers_MediaProvider_CVE-2023-40127](https://github.com/RenukaSelvar/packages_providers_MediaProvider_CVE-2023-40127) :  ![starts](https://img.shields.io/github/stars/RenukaSelvar/packages_providers_MediaProvider_CVE-2023-40127.svg) ![forks](https://img.shields.io/github/forks/RenukaSelvar/packages_providers_MediaProvider_CVE-2023-40127.svg)
-- [https://github.com/saurabh2088/platform_packages_providers_MediaProvider_CVE-2023-40127](https://github.com/saurabh2088/platform_packages_providers_MediaProvider_CVE-2023-40127) :  ![starts](https://img.shields.io/github/stars/saurabh2088/platform_packages_providers_MediaProvider_CVE-2023-40127.svg) ![forks](https://img.shields.io/github/forks/saurabh2088/platform_packages_providers_MediaProvider_CVE-2023-40127.svg)
-- [https://github.com/RenukaSelvar/platform_packages_providers_MediaProvider_CVE-2023-40127](https://github.com/RenukaSelvar/platform_packages_providers_MediaProvider_CVE-2023-40127) :  ![starts](https://img.shields.io/github/stars/RenukaSelvar/platform_packages_providers_MediaProvider_CVE-2023-40127.svg) ![forks](https://img.shields.io/github/forks/RenukaSelvar/platform_packages_providers_MediaProvider_CVE-2023-40127.svg)
-
-
-## CVE-2023-39361
- Cacti is an open source operational monitoring and fault management framework. Affected versions are subject to a SQL injection discovered in graph_view.php. Since guest users can access graph_view.php without authentication by default, if guest users are being utilized in an enabled state, there could be the potential for significant damage. Attackers may exploit this vulnerability, and there may be possibilities for actions such as the usurpation of administrative privileges or remote code execution. This issue has been addressed in version 1.2.25. Users are advised to upgrade. There are no known workarounds for this vulnerability.
-
-- [https://github.com/HPT-Intern-Task-Submission/CVE-2023-39361](https://github.com/HPT-Intern-Task-Submission/CVE-2023-39361) :  ![starts](https://img.shields.io/github/stars/HPT-Intern-Task-Submission/CVE-2023-39361.svg) ![forks](https://img.shields.io/github/forks/HPT-Intern-Task-Submission/CVE-2023-39361.svg)
+- [https://github.com/N00BIER/CVE-2023-35985](https://github.com/N00BIER/CVE-2023-35985) :  ![starts](https://img.shields.io/github/stars/N00BIER/CVE-2023-35985.svg) ![forks](https://img.shields.io/github/forks/N00BIER/CVE-2023-35985.svg)
 
 
 ## CVE-2023-23752
  An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.
 
-- [https://github.com/Sp3c73rSh4d0w/CVE-2023-23752](https://github.com/Sp3c73rSh4d0w/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Sp3c73rSh4d0w/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Sp3c73rSh4d0w/CVE-2023-23752.svg)
+- [https://github.com/0x0jr/HTB-Devvortex-CVE-2023-2375-PoC](https://github.com/0x0jr/HTB-Devvortex-CVE-2023-2375-PoC) :  ![starts](https://img.shields.io/github/stars/0x0jr/HTB-Devvortex-CVE-2023-2375-PoC.svg) ![forks](https://img.shields.io/github/forks/0x0jr/HTB-Devvortex-CVE-2023-2375-PoC.svg)
 
 
-## CVE-2023-1326
- A privilege escalation attack was found in apport-cli 2.26.0 and earlier which is similar to CVE-2023-26604. If a system is specially configured to allow unprivileged users to run sudo apport-cli, less is configured as the pager, and the terminal size can be set: a local attacker can escalate privilege. It is extremely unlikely that a system administrator would configure sudo to allow unprivileged users to perform this class of exploit.
+## CVE-2023-3881
+ A vulnerability classified as critical was found in Campcodes Beauty Salon Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/forgot-password.php. The manipulation of the argument contactno leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-235243.
 
-- [https://github.com/Sp3c73rSh4d0w/CVE-2023-1326](https://github.com/Sp3c73rSh4d0w/CVE-2023-1326) :  ![starts](https://img.shields.io/github/stars/Sp3c73rSh4d0w/CVE-2023-1326.svg) ![forks](https://img.shields.io/github/forks/Sp3c73rSh4d0w/CVE-2023-1326.svg)
-
-
-## CVE-2022-29464
- Certain WSO2 products allow unrestricted file upload with resultant remote code execution. The attacker must use a /fileupload endpoint with a Content-Disposition directory traversal sequence to reach a directory under the web root, such as a ../../../../repository/deployment/server/webapps directory. This affects WSO2 API Manager 2.2.0 up to 4.0.0, WSO2 Identity Server 5.2.0 up to 5.11.0, WSO2 Identity Server Analytics 5.4.0, 5.4.1, 5.5.0 and 5.6.0, WSO2 Identity Server as Key Manager 5.3.0 up to 5.11.0, WSO2 Enterprise Integrator 6.2.0 up to 6.6.0, WSO2 Open Banking AM 1.4.0 up to 2.0.0 and WSO2 Open Banking KM 1.4.0, up to 2.0.0.
-
-- [https://github.com/Sp3c73rSh4d0w/CVE-2022-29464](https://github.com/Sp3c73rSh4d0w/CVE-2022-29464) :  ![starts](https://img.shields.io/github/stars/Sp3c73rSh4d0w/CVE-2022-29464.svg) ![forks](https://img.shields.io/github/forks/Sp3c73rSh4d0w/CVE-2022-29464.svg)
+- [https://github.com/AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research) :  ![starts](https://img.shields.io/github/stars/AnugiArrawwala/CVE-Research.svg) ![forks](https://img.shields.io/github/forks/AnugiArrawwala/CVE-Research.svg)
 
 
-## CVE-2021-43798
- Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `&lt;grafana_host_url&gt;/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
+## CVE-2022-30525
+ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W) firmware versions 5.00 through 5.21 Patch 1, USG FLEX 200 firmware versions 5.00 through 5.21 Patch 1, USG FLEX 500 firmware versions 5.00 through 5.21 Patch 1, USG FLEX 700 firmware versions 5.00 through 5.21 Patch 1, USG FLEX 50(W) firmware versions 5.10 through 5.21 Patch 1, USG20(W)-VPN firmware versions 5.10 through 5.21 Patch 1, ATP series firmware versions 5.10 through 5.21 Patch 1, VPN series firmware versions 4.60 through 5.21 Patch 1, which could allow an attacker to modify specific files and then execute some OS commands on a vulnerable device.
 
-- [https://github.com/Sic4rio/Grafana-Decryptor-for-CVE-2021-43798](https://github.com/Sic4rio/Grafana-Decryptor-for-CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/Sic4rio/Grafana-Decryptor-for-CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/Sic4rio/Grafana-Decryptor-for-CVE-2021-43798.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2021-41773.svg)
+- [https://github.com/5l1v3r1/CVE-2022-30525-Reverse-Shell](https://github.com/5l1v3r1/CVE-2022-30525-Reverse-Shell) :  ![starts](https://img.shields.io/github/stars/5l1v3r1/CVE-2022-30525-Reverse-Shell.svg) ![forks](https://img.shields.io/github/forks/5l1v3r1/CVE-2022-30525-Reverse-Shell.svg)
 
 
-## CVE-2019-2215
- A use-after-free in binder.c allows an elevation of privilege from an application to the Linux Kernel. No user interaction is required to exploit this vulnerability, however exploitation does require either the installation of a malicious local application or a separate vulnerability in a network facing application.Product: AndroidAndroid ID: A-141720095
+## CVE-2018-14714
+ System command injection in appGet.cgi on ASUS RT-AC3200 version 3.0.0.4.382.50010 allows attackers to execute system commands via the &quot;load_script&quot; URL parameter.
 
-- [https://github.com/raymontag/CVE-2019-2215](https://github.com/raymontag/CVE-2019-2215) :  ![starts](https://img.shields.io/github/stars/raymontag/CVE-2019-2215.svg) ![forks](https://img.shields.io/github/forks/raymontag/CVE-2019-2215.svg)
+- [https://github.com/BTtea/CVE-2018-14714-RCE_exploit](https://github.com/BTtea/CVE-2018-14714-RCE_exploit) :  ![starts](https://img.shields.io/github/stars/BTtea/CVE-2018-14714-RCE_exploit.svg) ![forks](https://img.shields.io/github/forks/BTtea/CVE-2018-14714-RCE_exploit.svg)
 
 
-## CVE-2017-7921
- An Improper Authentication issue was discovered in Hikvision DS-2CD2xx2F-I Series V5.2.0 build 140721 to V5.4.0 build 160530, DS-2CD2xx0F-I Series V5.2.0 build 140721 to V5.4.0 Build 160401, DS-2CD2xx2FWD Series V5.3.1 build 150410 to V5.4.4 Build 161125, DS-2CD4x2xFWD Series V5.2.0 build 140721 to V5.4.0 Build 160414, DS-2CD4xx5 Series V5.2.0 build 140721 to V5.4.0 Build 160421, DS-2DFx Series V5.2.0 build 140805 to V5.4.5 Build 160928, and DS-2CD63xx Series V5.0.9 build 140305 to V5.3.5 Build 160106 devices. The improper authentication vulnerability occurs when an application does not adequately or correctly authenticate users. This may allow a malicious user to escalate his or her privileges on the system and gain access to sensitive information.
+## CVE-2017-1000251
+ The native Bluetooth stack in the Linux Kernel (BlueZ), starting at the Linux kernel version 2.6.32 and up to and including 4.13.1, are vulnerable to a stack overflow vulnerability in the processing of L2CAP configuration responses resulting in Remote code execution in kernel space.
 
-- [https://github.com/kooroshsanaei/HikVision-CVE-2017-7921](https://github.com/kooroshsanaei/HikVision-CVE-2017-7921) :  ![starts](https://img.shields.io/github/stars/kooroshsanaei/HikVision-CVE-2017-7921.svg) ![forks](https://img.shields.io/github/forks/kooroshsanaei/HikVision-CVE-2017-7921.svg)
+- [https://github.com/sgxgsx/blueborne-CVE-2017-1000251](https://github.com/sgxgsx/blueborne-CVE-2017-1000251) :  ![starts](https://img.shields.io/github/stars/sgxgsx/blueborne-CVE-2017-1000251.svg) ![forks](https://img.shields.io/github/forks/sgxgsx/blueborne-CVE-2017-1000251.svg)
+
+
+## CVE-2017-0144
+ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka &quot;Windows SMB Remote Code Execution Vulnerability.&quot; This vulnerability is different from those described in CVE-2017-0143, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
+
+- [https://github.com/AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research) :  ![starts](https://img.shields.io/github/stars/AnugiArrawwala/CVE-Research.svg) ![forks](https://img.shields.io/github/forks/AnugiArrawwala/CVE-Research.svg)
+
+
+## CVE-2011-2523
+ vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which opens a shell on port 6200/tcp.
+
+- [https://github.com/AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research) :  ![starts](https://img.shields.io/github/stars/AnugiArrawwala/CVE-Research.svg) ![forks](https://img.shields.io/github/forks/AnugiArrawwala/CVE-Research.svg)
 
