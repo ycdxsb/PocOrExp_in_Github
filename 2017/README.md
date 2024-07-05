@@ -1108,11 +1108,11 @@
 
 - [https://github.com/giacomoferretti/janus-toolkit](https://github.com/giacomoferretti/janus-toolkit) :  ![starts](https://img.shields.io/github/stars/giacomoferretti/janus-toolkit.svg) ![forks](https://img.shields.io/github/forks/giacomoferretti/janus-toolkit.svg)
 
+- [https://github.com/ppapadatis/python-janus-vulnerability-scan](https://github.com/ppapadatis/python-janus-vulnerability-scan) :  ![starts](https://img.shields.io/github/stars/ppapadatis/python-janus-vulnerability-scan.svg) ![forks](https://img.shields.io/github/forks/ppapadatis/python-janus-vulnerability-scan.svg)
+
 - [https://github.com/M507/CVE-2017-13156](https://github.com/M507/CVE-2017-13156) :  ![starts](https://img.shields.io/github/stars/M507/CVE-2017-13156.svg) ![forks](https://img.shields.io/github/forks/M507/CVE-2017-13156.svg)
 
 - [https://github.com/nahid0x1/Janus-Vulnerability-CVE-2017-13156-Exploit](https://github.com/nahid0x1/Janus-Vulnerability-CVE-2017-13156-Exploit) :  ![starts](https://img.shields.io/github/stars/nahid0x1/Janus-Vulnerability-CVE-2017-13156-Exploit.svg) ![forks](https://img.shields.io/github/forks/nahid0x1/Janus-Vulnerability-CVE-2017-13156-Exploit.svg)
-
-- [https://github.com/ppapadatis/python-janus-vulnerability-scan](https://github.com/ppapadatis/python-janus-vulnerability-scan) :  ![starts](https://img.shields.io/github/stars/ppapadatis/python-janus-vulnerability-scan.svg) ![forks](https://img.shields.io/github/forks/ppapadatis/python-janus-vulnerability-scan.svg)
 
 - [https://github.com/caxmd/CVE-2017-13156](https://github.com/caxmd/CVE-2017-13156) :  ![starts](https://img.shields.io/github/stars/caxmd/CVE-2017-13156.svg) ![forks](https://img.shields.io/github/forks/caxmd/CVE-2017-13156.svg)
 
@@ -2112,9 +2112,9 @@
 
 - [https://github.com/adeljck/CVE-2017-8759](https://github.com/adeljck/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/adeljck/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/adeljck/CVE-2017-8759.svg)
 
-- [https://github.com/l0n3rs/CVE-2017-8759](https://github.com/l0n3rs/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/l0n3rs/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/l0n3rs/CVE-2017-8759.svg)
-
 - [https://github.com/Winter3un/cve_2017_8759](https://github.com/Winter3un/cve_2017_8759) :  ![starts](https://img.shields.io/github/stars/Winter3un/cve_2017_8759.svg) ![forks](https://img.shields.io/github/forks/Winter3un/cve_2017_8759.svg)
+
+- [https://github.com/l0n3rs/CVE-2017-8759](https://github.com/l0n3rs/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/l0n3rs/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/l0n3rs/CVE-2017-8759.svg)
 
 - [https://github.com/smashinu/CVE-2017-8759Expoit](https://github.com/smashinu/CVE-2017-8759Expoit) :  ![starts](https://img.shields.io/github/stars/smashinu/CVE-2017-8759Expoit.svg) ![forks](https://img.shields.io/github/forks/smashinu/CVE-2017-8759Expoit.svg)
 
@@ -2834,9 +2834,9 @@
 
 - [https://github.com/GalloLuigi/Analisi-CVE-2017-5715](https://github.com/GalloLuigi/Analisi-CVE-2017-5715) :  ![starts](https://img.shields.io/github/stars/GalloLuigi/Analisi-CVE-2017-5715.svg) ![forks](https://img.shields.io/github/forks/GalloLuigi/Analisi-CVE-2017-5715.svg)
 
-- [https://github.com/GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment) :  ![starts](https://img.shields.io/github/stars/GregAskew/SpeculativeExecutionAssessment.svg) ![forks](https://img.shields.io/github/forks/GregAskew/SpeculativeExecutionAssessment.svg)
-
 - [https://github.com/dmo2118/retpoline-audit](https://github.com/dmo2118/retpoline-audit) :  ![starts](https://img.shields.io/github/stars/dmo2118/retpoline-audit.svg) ![forks](https://img.shields.io/github/forks/dmo2118/retpoline-audit.svg)
+
+- [https://github.com/GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment) :  ![starts](https://img.shields.io/github/stars/GregAskew/SpeculativeExecutionAssessment.svg) ![forks](https://img.shields.io/github/forks/GregAskew/SpeculativeExecutionAssessment.svg)
 
 - [https://github.com/kevincoakley/puppet-spectre_meltdown](https://github.com/kevincoakley/puppet-spectre_meltdown) :  ![starts](https://img.shields.io/github/stars/kevincoakley/puppet-spectre_meltdown.svg) ![forks](https://img.shields.io/github/forks/kevincoakley/puppet-spectre_meltdown.svg)
 
@@ -3622,9 +3622,9 @@
 
 - [https://github.com/kimocoder/eternalblue](https://github.com/kimocoder/eternalblue) :  ![starts](https://img.shields.io/github/stars/kimocoder/eternalblue.svg) ![forks](https://img.shields.io/github/forks/kimocoder/eternalblue.svg)
 
-- [https://github.com/ducanh2oo3/Vulnerability-Research-CVE-2017-0144](https://github.com/ducanh2oo3/Vulnerability-Research-CVE-2017-0144) :  ![starts](https://img.shields.io/github/stars/ducanh2oo3/Vulnerability-Research-CVE-2017-0144.svg) ![forks](https://img.shields.io/github/forks/ducanh2oo3/Vulnerability-Research-CVE-2017-0144.svg)
-
 - [https://github.com/quynhold/Detect-CVE-2017-0144-attack](https://github.com/quynhold/Detect-CVE-2017-0144-attack) :  ![starts](https://img.shields.io/github/stars/quynhold/Detect-CVE-2017-0144-attack.svg) ![forks](https://img.shields.io/github/forks/quynhold/Detect-CVE-2017-0144-attack.svg)
+
+- [https://github.com/ducanh2oo3/Vulnerability-Research-CVE-2017-0144](https://github.com/ducanh2oo3/Vulnerability-Research-CVE-2017-0144) :  ![starts](https://img.shields.io/github/stars/ducanh2oo3/Vulnerability-Research-CVE-2017-0144.svg) ![forks](https://img.shields.io/github/forks/ducanh2oo3/Vulnerability-Research-CVE-2017-0144.svg)
 
 - [https://github.com/AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research) :  ![starts](https://img.shields.io/github/stars/AnugiArrawwala/CVE-Research.svg) ![forks](https://img.shields.io/github/forks/AnugiArrawwala/CVE-Research.svg)
 
