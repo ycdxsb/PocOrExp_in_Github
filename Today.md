@@ -1,123 +1,78 @@
-# Update 2024-07-11
-## CVE-2024-39069
+# Update 2024-07-12
+## CVE-2024-37032
+ Ollama before 0.1.34 does not validate the format of the digest (sha256 with 64 hex digits) when getting the model path, and thus mishandles the TestGetBlobsPath test cases such as fewer than 64 hex digits, more than 64 hex digits, or an initial ../ substring.
+
+- [https://github.com/ahboon/CVE-2024-37032-scanner](https://github.com/ahboon/CVE-2024-37032-scanner) :  ![starts](https://img.shields.io/github/stars/ahboon/CVE-2024-37032-scanner.svg) ![forks](https://img.shields.io/github/forks/ahboon/CVE-2024-37032-scanner.svg)
+
+
+## CVE-2024-36991
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/AungSoePaing/CVE-2024-39069](https://github.com/AungSoePaing/CVE-2024-39069) :  ![starts](https://img.shields.io/github/stars/AungSoePaing/CVE-2024-39069.svg) ![forks](https://img.shields.io/github/forks/AungSoePaing/CVE-2024-39069.svg)
+- [https://github.com/Cappricio-Securities/CVE-2024-36991](https://github.com/Cappricio-Securities/CVE-2024-36991) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2024-36991.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2024-36991.svg)
 
 
-## CVE-2024-37081
- The vCenter Server contains multiple local privilege escalation vulnerabilities due to misconfiguration of sudo. An authenticated local user with non-administrative privileges may exploit these issues to elevate privileges to root on vCenter Server Appliance.
+## CVE-2024-34102
+ Adobe Commerce versions 2.4.7, 2.4.6-p5, 2.4.5-p7, 2.4.4-p8 and earlier are affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could result in arbitrary code execution. An attacker could exploit this vulnerability by sending a crafted XML document that references external entities. Exploitation of this issue does not require user interaction.
 
-- [https://github.com/Mr-r00t11/CVE-2024-37081](https://github.com/Mr-r00t11/CVE-2024-37081) :  ![starts](https://img.shields.io/github/stars/Mr-r00t11/CVE-2024-37081.svg) ![forks](https://img.shields.io/github/forks/Mr-r00t11/CVE-2024-37081.svg)
+- [https://github.com/Ex-Arn/CVE-2024-34102-RCE](https://github.com/Ex-Arn/CVE-2024-34102-RCE) :  ![starts](https://img.shields.io/github/stars/Ex-Arn/CVE-2024-34102-RCE.svg) ![forks](https://img.shields.io/github/forks/Ex-Arn/CVE-2024-34102-RCE.svg)
 
 
-## CVE-2024-36401
+## CVE-2024-29510
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/peiqiF4ck/WebFrameworkTools-5.1-main](https://github.com/peiqiF4ck/WebFrameworkTools-5.1-main) :  ![starts](https://img.shields.io/github/stars/peiqiF4ck/WebFrameworkTools-5.1-main.svg) ![forks](https://img.shields.io/github/forks/peiqiF4ck/WebFrameworkTools-5.1-main.svg)
+- [https://github.com/swsmith2391/CVE-2024-29510](https://github.com/swsmith2391/CVE-2024-29510) :  ![starts](https://img.shields.io/github/stars/swsmith2391/CVE-2024-29510.svg) ![forks](https://img.shields.io/github/forks/swsmith2391/CVE-2024-29510.svg)
 
 
-## CVE-2024-5274
- Type Confusion in V8 in Google Chrome prior to 125.0.6422.112 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
+## CVE-2024-23692
+ Rejetto HTTP File Server, up to and including version 2.3m, is vulnerable to a template injection vulnerability. This vulnerability allows a remote, unauthenticated attacker to execute arbitrary commands on the affected system by sending a specially crafted HTTP request. As of the CVE assignment date, Rejetto HFS 2.3m is no longer supported.
 
-- [https://github.com/Alchemist3dot14/CVE-2024-5274-Detection](https://github.com/Alchemist3dot14/CVE-2024-5274-Detection) :  ![starts](https://img.shields.io/github/stars/Alchemist3dot14/CVE-2024-5274-Detection.svg) ![forks](https://img.shields.io/github/forks/Alchemist3dot14/CVE-2024-5274-Detection.svg)
-
-
-## CVE-2024-5009
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/th3gokul/CVE-2024-5009](https://github.com/th3gokul/CVE-2024-5009) :  ![starts](https://img.shields.io/github/stars/th3gokul/CVE-2024-5009.svg) ![forks](https://img.shields.io/github/forks/th3gokul/CVE-2024-5009.svg)
+- [https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692-](https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692-) :  ![starts](https://img.shields.io/github/stars/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692-.svg) ![forks](https://img.shields.io/github/forks/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692-.svg)
 
 
-## CVE-2024-3596
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2024-22274
+ The vCenter Server contains an authenticated remote code execution vulnerability. A malicious actor with administrative privileges on the vCenter appliance shell may exploit this issue to run arbitrary commands on the underlying operating system.
 
-- [https://github.com/alperenugurlu/CVE-2024-3596-Detector](https://github.com/alperenugurlu/CVE-2024-3596-Detector) :  ![starts](https://img.shields.io/github/stars/alperenugurlu/CVE-2024-3596-Detector.svg) ![forks](https://img.shields.io/github/forks/alperenugurlu/CVE-2024-3596-Detector.svg)
-
-
-## CVE-2023-38817
- ** DISPUTED ** An issue in Inspect Element Ltd Echo.ac v.5.2.1.0 allows a local attacker to gain privileges via a crafted command to the echo_driver.sys component. NOTE: the vendor's position is that the reported ability for user-mode applications to execute code as NT AUTHORITY\SYSTEM was &quot;deactivated by Microsoft itself.&quot;
-
-- [https://github.com/vxcall/kur](https://github.com/vxcall/kur) :  ![starts](https://img.shields.io/github/stars/vxcall/kur.svg) ![forks](https://img.shields.io/github/forks/vxcall/kur.svg)
+- [https://github.com/ninhpn1337/CVE-2024-22274](https://github.com/ninhpn1337/CVE-2024-22274) :  ![starts](https://img.shields.io/github/stars/ninhpn1337/CVE-2024-22274.svg) ![forks](https://img.shields.io/github/forks/ninhpn1337/CVE-2024-22274.svg)
 
 
-## CVE-2023-30253
- Dolibarr before 17.0.1 allows remote code execution by an authenticated user via an uppercase manipulation: &lt;?PHP instead of &lt;?php in injected data.
+## CVE-2024-4577
+ In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use &quot;Best-Fit&quot; behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
 
-- [https://github.com/andria-dev/DolibabyPhp](https://github.com/andria-dev/DolibabyPhp) :  ![starts](https://img.shields.io/github/stars/andria-dev/DolibabyPhp.svg) ![forks](https://img.shields.io/github/forks/andria-dev/DolibabyPhp.svg)
-
-
-## CVE-2023-28432
- Minio is a Multi-Cloud Object Storage framework. In a cluster deployment starting with RELEASE.2019-12-17T23-16-33Z and prior to RELEASE.2023-03-20T20-16-18Z, MinIO returns all environment variables, including `MINIO_SECRET_KEY` and `MINIO_ROOT_PASSWORD`, resulting in information disclosure. All users of distributed deployment are impacted. All users are advised to upgrade to RELEASE.2023-03-20T20-16-18Z.
-
-- [https://github.com/fhAnso/CVE-2023-28432](https://github.com/fhAnso/CVE-2023-28432) :  ![starts](https://img.shields.io/github/stars/fhAnso/CVE-2023-28432.svg) ![forks](https://img.shields.io/github/forks/fhAnso/CVE-2023-28432.svg)
+- [https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK](https://github.com/bibo318/CVE-2024-4577-RCE-ATTACK) :  ![starts](https://img.shields.io/github/stars/bibo318/CVE-2024-4577-RCE-ATTACK.svg) ![forks](https://img.shields.io/github/forks/bibo318/CVE-2024-4577-RCE-ATTACK.svg)
 
 
-## CVE-2023-28252
- Windows Common Log File System Driver Elevation of Privilege Vulnerability
+## CVE-2023-32784
+ In KeePass 2.x before 2.54, it is possible to recover the cleartext master password from a memory dump, even when a workspace is locked or no longer running. The memory dump can be a KeePass process dump, swap file (pagefile.sys), hibernation file (hiberfil.sys), or RAM dump of the entire system. The first character cannot be recovered. In 2.54, there is different API usage and/or random string insertion for mitigation.
 
-- [https://github.com/pxcs/CLFS](https://github.com/pxcs/CLFS) :  ![starts](https://img.shields.io/github/stars/pxcs/CLFS.svg) ![forks](https://img.shields.io/github/forks/pxcs/CLFS.svg)
-
-
-## CVE-2023-28229
- Windows CNG Key Isolation Service Elevation of Privilege Vulnerability
-
-- [https://github.com/pxcs/CrackKeyIso](https://github.com/pxcs/CrackKeyIso) :  ![starts](https://img.shields.io/github/stars/pxcs/CrackKeyIso.svg) ![forks](https://img.shields.io/github/forks/pxcs/CrackKeyIso.svg)
+- [https://github.com/Cmadhushanka/CVE-2023-32784-Exploitation](https://github.com/Cmadhushanka/CVE-2023-32784-Exploitation) :  ![starts](https://img.shields.io/github/stars/Cmadhushanka/CVE-2023-32784-Exploitation.svg) ![forks](https://img.shields.io/github/forks/Cmadhushanka/CVE-2023-32784-Exploitation.svg)
 
 
-## CVE-2023-4226
- Unrestricted file upload in `/main/inc/ajax/work.ajax.php` in Chamilo LMS &lt;= v1.11.24 allows authenticated attackers with learner role to obtain remote code execution via uploading of PHP files.
+## CVE-2022-27646
+ This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NETGEAR R6700v3 1.0.4.120_10.0.91 routers. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the circled daemon. A crafted circleinfo.txt file can trigger an overflow of a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-15879.
 
-- [https://github.com/krishnan-tech/CVE-2023-4226-POC](https://github.com/krishnan-tech/CVE-2023-4226-POC) :  ![starts](https://img.shields.io/github/stars/krishnan-tech/CVE-2023-4226-POC.svg) ![forks](https://img.shields.io/github/forks/krishnan-tech/CVE-2023-4226-POC.svg)
-
-
-## CVE-2023-4220
- Unrestricted file upload in big file upload functionality in `/main/inc/lib/javascript/bigupload/inc/bigUpload.php` in Chamilo LMS &lt;= v1.11.24 allows unauthenticated attackers to perform stored cross-site scripting attacks and obtain remote code execution via uploading of web shell.
-
-- [https://github.com/Ziad-Sakr/Chamilo-CVE-2023-4220-Exploit](https://github.com/Ziad-Sakr/Chamilo-CVE-2023-4220-Exploit) :  ![starts](https://img.shields.io/github/stars/Ziad-Sakr/Chamilo-CVE-2023-4220-Exploit.svg) ![forks](https://img.shields.io/github/forks/Ziad-Sakr/Chamilo-CVE-2023-4220-Exploit.svg)
-- [https://github.com/HO4XXX/cve-2023-4220-poc](https://github.com/HO4XXX/cve-2023-4220-poc) :  ![starts](https://img.shields.io/github/stars/HO4XXX/cve-2023-4220-poc.svg) ![forks](https://img.shields.io/github/forks/HO4XXX/cve-2023-4220-poc.svg)
-- [https://github.com/B1TC0R3/CVE-2023-4220-PoC](https://github.com/B1TC0R3/CVE-2023-4220-PoC) :  ![starts](https://img.shields.io/github/stars/B1TC0R3/CVE-2023-4220-PoC.svg) ![forks](https://img.shields.io/github/forks/B1TC0R3/CVE-2023-4220-PoC.svg)
-- [https://github.com/krishnan-tech/CVE-2023-4226-POC](https://github.com/krishnan-tech/CVE-2023-4226-POC) :  ![starts](https://img.shields.io/github/stars/krishnan-tech/CVE-2023-4226-POC.svg) ![forks](https://img.shields.io/github/forks/krishnan-tech/CVE-2023-4226-POC.svg)
+- [https://github.com/cyber-defence-campus/netgear_r6700v3_circled](https://github.com/cyber-defence-campus/netgear_r6700v3_circled) :  ![starts](https://img.shields.io/github/stars/cyber-defence-campus/netgear_r6700v3_circled.svg) ![forks](https://img.shields.io/github/forks/cyber-defence-campus/netgear_r6700v3_circled.svg)
 
 
-## CVE-2020-17530
- Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution. Affected software : Apache Struts 2.0.0 - Struts 2.5.25.
+## CVE-2020-25540
+ ThinkAdmin v6 is affected by a directory traversal vulnerability. An unauthorized attacker can read arbitrarily file on a remote server via GET request encode parameter.
 
-- [https://github.com/secpool2000/CVE-2020-17530](https://github.com/secpool2000/CVE-2020-17530) :  ![starts](https://img.shields.io/github/stars/secpool2000/CVE-2020-17530.svg) ![forks](https://img.shields.io/github/forks/secpool2000/CVE-2020-17530.svg)
-
-
-## CVE-2020-11898
- The Treck TCP/IP stack before 6.0.1.66 improperly handles an IPv4/ICMPv4 Length Parameter Inconsistency, which might allow remote attackers to trigger an information leak.
-
-- [https://github.com/scamwork/POC_CVE-2020-11898](https://github.com/scamwork/POC_CVE-2020-11898) :  ![starts](https://img.shields.io/github/stars/scamwork/POC_CVE-2020-11898.svg) ![forks](https://img.shields.io/github/forks/scamwork/POC_CVE-2020-11898.svg)
+- [https://github.com/simonlee-hello/CVE-2020-25540](https://github.com/simonlee-hello/CVE-2020-25540) :  ![starts](https://img.shields.io/github/stars/simonlee-hello/CVE-2020-25540.svg) ![forks](https://img.shields.io/github/forks/simonlee-hello/CVE-2020-25540.svg)
 
 
-## CVE-2020-6514
- Inappropriate implementation in WebRTC in Google Chrome prior to 84.0.4147.89 allowed an attacker in a privileged network position to potentially exploit heap corruption via a crafted SCTP stream.
+## CVE-2017-11882
+ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Microsoft Office 2013 Service Pack 1, and Microsoft Office 2016 allow an attacker to run arbitrary code in the context of the current user by failing to properly handle objects in memory, aka &quot;Microsoft Office Memory Corruption Vulnerability&quot;. This CVE ID is unique from CVE-2017-11884.
 
-- [https://github.com/hasan-khalil/CVE-2020-6514](https://github.com/hasan-khalil/CVE-2020-6514) :  ![starts](https://img.shields.io/github/stars/hasan-khalil/CVE-2020-6514.svg) ![forks](https://img.shields.io/github/forks/hasan-khalil/CVE-2020-6514.svg)
-
-
-## CVE-2019-6447
- The ES File Explorer File Manager application through 4.1.9.7.4 for Android allows remote attackers to read arbitrary files or execute applications via TCP port 59777 requests on the local Wi-Fi network. This TCP port remains open after the ES application has been launched once, and responds to unauthenticated application/json data over HTTP.
-
-- [https://github.com/Cmadhushanka/CVE-2019-6447-Exploitation](https://github.com/Cmadhushanka/CVE-2019-6447-Exploitation) :  ![starts](https://img.shields.io/github/stars/Cmadhushanka/CVE-2019-6447-Exploitation.svg) ![forks](https://img.shields.io/github/forks/Cmadhushanka/CVE-2019-6447-Exploitation.svg)
+- [https://github.com/jadeapar/Dragonfish-s-Malware-Cyber-Analysis](https://github.com/jadeapar/Dragonfish-s-Malware-Cyber-Analysis) :  ![starts](https://img.shields.io/github/stars/jadeapar/Dragonfish-s-Malware-Cyber-Analysis.svg) ![forks](https://img.shields.io/github/forks/jadeapar/Dragonfish-s-Malware-Cyber-Analysis.svg)
 
 
-## CVE-2019-2215
- A use-after-free in binder.c allows an elevation of privilege from an application to the Linux Kernel. No user interaction is required to exploit this vulnerability, however exploitation does require either the installation of a malicious local application or a separate vulnerability in a network facing application.Product: AndroidAndroid ID: A-141720095
+## CVE-2017-5638
+ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 
-- [https://github.com/R0rt1z2/huawei-unlock](https://github.com/R0rt1z2/huawei-unlock) :  ![starts](https://img.shields.io/github/stars/R0rt1z2/huawei-unlock.svg) ![forks](https://img.shields.io/github/forks/R0rt1z2/huawei-unlock.svg)
-
-
-## CVE-2017-15099
- INSERT ... ON CONFLICT DO UPDATE commands in PostgreSQL 10.x before 10.1, 9.6.x before 9.6.6, and 9.5.x before 9.5.10 disclose table contents that the invoker lacks privilege to read. These exploits affect only tables where the attacker lacks full read access but has both INSERT and UPDATE privileges. Exploits bypass row level security policies and lack of SELECT privilege.
-
-- [https://github.com/ToontjeM/CVE-2017-15099](https://github.com/ToontjeM/CVE-2017-15099) :  ![starts](https://img.shields.io/github/stars/ToontjeM/CVE-2017-15099.svg) ![forks](https://img.shields.io/github/forks/ToontjeM/CVE-2017-15099.svg)
+- [https://github.com/Nithylesh/web-application-firewall-](https://github.com/Nithylesh/web-application-firewall-) :  ![starts](https://img.shields.io/github/stars/Nithylesh/web-application-firewall-.svg) ![forks](https://img.shields.io/github/forks/Nithylesh/web-application-firewall-.svg)
 
 
-## CVE-2015-3864
- Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.cpp in libstagefright in mediaserver in Android before 5.1.1 LMY48M allows remote attackers to execute arbitrary code via crafted MPEG-4 data, aka internal bug 23034759.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-3824.
+## CVE-2006-5051
+ Signal handler race condition in OpenSSH before 4.4 allows remote attackers to cause a denial of service (crash), and possibly execute arbitrary code if GSSAPI authentication is enabled, via unspecified vectors that lead to a double-free.
 
-- [https://github.com/Cmadhushanka/CVE-2015-3864-Exploitation](https://github.com/Cmadhushanka/CVE-2015-3864-Exploitation) :  ![starts](https://img.shields.io/github/stars/Cmadhushanka/CVE-2015-3864-Exploitation.svg) ![forks](https://img.shields.io/github/forks/Cmadhushanka/CVE-2015-3864-Exploitation.svg)
+- [https://github.com/ThemeHackers/CVE-2024-6387](https://github.com/ThemeHackers/CVE-2024-6387) :  ![starts](https://img.shields.io/github/stars/ThemeHackers/CVE-2024-6387.svg) ![forks](https://img.shields.io/github/forks/ThemeHackers/CVE-2024-6387.svg)
 
