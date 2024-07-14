@@ -1,60 +1,56 @@
-# Update 2024-07-13
-## CVE-2024-37147
+# Update 2024-07-14
+## CVE-2024-36401
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/0xmupa/CVE-2024-37147-PoC](https://github.com/0xmupa/CVE-2024-37147-PoC) :  ![starts](https://img.shields.io/github/stars/0xmupa/CVE-2024-37147-PoC.svg) ![forks](https://img.shields.io/github/forks/0xmupa/CVE-2024-37147-PoC.svg)
+- [https://github.com/jakabakos/CVE-2024-36401-GeoServer-RCE](https://github.com/jakabakos/CVE-2024-36401-GeoServer-RCE) :  ![starts](https://img.shields.io/github/stars/jakabakos/CVE-2024-36401-GeoServer-RCE.svg) ![forks](https://img.shields.io/github/forks/jakabakos/CVE-2024-36401-GeoServer-RCE.svg)
 
 
 ## CVE-2024-34102
  Adobe Commerce versions 2.4.7, 2.4.6-p5, 2.4.5-p7, 2.4.4-p8 and earlier are affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could result in arbitrary code execution. An attacker could exploit this vulnerability by sending a crafted XML document that references external entities. Exploitation of this issue does not require user interaction.
 
-- [https://github.com/crynomore/CVE-2024-34102](https://github.com/crynomore/CVE-2024-34102) :  ![starts](https://img.shields.io/github/stars/crynomore/CVE-2024-34102.svg) ![forks](https://img.shields.io/github/forks/crynomore/CVE-2024-34102.svg)
+- [https://github.com/1mpl3ment3d/CVE-2024-34102-RCE-POC](https://github.com/1mpl3ment3d/CVE-2024-34102-RCE-POC) :  ![starts](https://img.shields.io/github/stars/1mpl3ment3d/CVE-2024-34102-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/1mpl3ment3d/CVE-2024-34102-RCE-POC.svg)
 
 
-## CVE-2024-27956
- Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ValvePress Automatic allows SQL Injection.This issue affects Automatic: from n/a through 3.92.0.
+## CVE-2024-29824
+ An unspecified SQL Injection vulnerability in Core server of Ivanti EPM 2022 SU5 and prior allows an unauthenticated attacker within the same network to execute arbitrary code.
 
-- [https://github.com/ThatNotEasy/CVE-2024-27956](https://github.com/ThatNotEasy/CVE-2024-27956) :  ![starts](https://img.shields.io/github/stars/ThatNotEasy/CVE-2024-27956.svg) ![forks](https://img.shields.io/github/forks/ThatNotEasy/CVE-2024-27956.svg)
-
-
-## CVE-2024-23692
- Rejetto HTTP File Server, up to and including version 2.3m, is vulnerable to a template injection vulnerability. This vulnerability allows a remote, unauthenticated attacker to execute arbitrary commands on the affected system by sending a specially crafted HTTP request. As of the CVE assignment date, Rejetto HFS 2.3m is no longer supported.
-
-- [https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692](https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692) :  ![starts](https://img.shields.io/github/stars/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692.svg) ![forks](https://img.shields.io/github/forks/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692.svg)
+- [https://github.com/codeb0ss/CVE-2024-29824-PoC](https://github.com/codeb0ss/CVE-2024-29824-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2024-29824-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2024-29824-PoC.svg)
 
 
-## CVE-2024-1145
- User enumeration vulnerability in Devklan's Alma Blog that affects versions 2.1.10 and earlier. This vulnerability could allow a remote user to retrieve all valid users registered in the application just by looking at the request response.
+## CVE-2024-21520
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451) :  ![starts](https://img.shields.io/github/stars/Xiaolqy/CVE-2024-11451.svg) ![forks](https://img.shields.io/github/forks/Xiaolqy/CVE-2024-11451.svg)
-
-
-## CVE-2024-0044
- In createSessionInternal of PackageInstallerService.java, there is a possible run-as any app due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
-
-- [https://github.com/007CRIPTOGRAFIA/c-CVE-2024-0044](https://github.com/007CRIPTOGRAFIA/c-CVE-2024-0044) :  ![starts](https://img.shields.io/github/stars/007CRIPTOGRAFIA/c-CVE-2024-0044.svg) ![forks](https://img.shields.io/github/forks/007CRIPTOGRAFIA/c-CVE-2024-0044.svg)
+- [https://github.com/ch4n3-yoon/CVE-2024-21520-Demo](https://github.com/ch4n3-yoon/CVE-2024-21520-Demo) :  ![starts](https://img.shields.io/github/stars/ch4n3-yoon/CVE-2024-21520-Demo.svg) ![forks](https://img.shields.io/github/forks/ch4n3-yoon/CVE-2024-21520-Demo.svg)
 
 
-## CVE-2023-4220
- Unrestricted file upload in big file upload functionality in `/main/inc/lib/javascript/bigupload/inc/bigUpload.php` in Chamilo LMS &lt;= v1.11.24 allows unauthenticated attackers to perform stored cross-site scripting attacks and obtain remote code execution via uploading of web shell.
+## CVE-2024-4879
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/nr4x4/CVE-2023-4220](https://github.com/nr4x4/CVE-2023-4220) :  ![starts](https://img.shields.io/github/stars/nr4x4/CVE-2023-4220.svg) ![forks](https://img.shields.io/github/forks/nr4x4/CVE-2023-4220.svg)
-
-
-## CVE-2022-28171
- The web module in some Hikvision Hybrid SAN/Cluster Storage products have the following security vulnerability. Due to the insufficient input validation, attacker can exploit the vulnerability to execute restricted commands by sending messages with malicious commands to the affected device.
-
-- [https://github.com/NyaMeeEain/CVE-2022-28171-POC](https://github.com/NyaMeeEain/CVE-2022-28171-POC) :  ![starts](https://img.shields.io/github/stars/NyaMeeEain/CVE-2022-28171-POC.svg) ![forks](https://img.shields.io/github/forks/NyaMeeEain/CVE-2022-28171-POC.svg)
+- [https://github.com/Brut-Security/CVE-2024-4879](https://github.com/Brut-Security/CVE-2024-4879) :  ![starts](https://img.shields.io/github/stars/Brut-Security/CVE-2024-4879.svg) ![forks](https://img.shields.io/github/forks/Brut-Security/CVE-2024-4879.svg)
+- [https://github.com/bigb0x/CVE-2024-4879](https://github.com/bigb0x/CVE-2024-4879) :  ![starts](https://img.shields.io/github/stars/bigb0x/CVE-2024-4879.svg) ![forks](https://img.shields.io/github/forks/bigb0x/CVE-2024-4879.svg)
+- [https://github.com/Mr-r00t11/CVE-2024-4879](https://github.com/Mr-r00t11/CVE-2024-4879) :  ![starts](https://img.shields.io/github/stars/Mr-r00t11/CVE-2024-4879.svg) ![forks](https://img.shields.io/github/forks/Mr-r00t11/CVE-2024-4879.svg)
 
 
-## CVE-2017-1235
- IBM WebSphere MQ 8.0 could allow an authenticated user to cause a premature termination of a client application thread which could potentially cause denial of service. IBM X-Force ID: 123914.
+## CVE-2024-4049
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/11k4r/CVE-2017-1235_exploit](https://github.com/11k4r/CVE-2017-1235_exploit) :  ![starts](https://img.shields.io/github/stars/11k4r/CVE-2017-1235_exploit.svg) ![forks](https://img.shields.io/github/forks/11k4r/CVE-2017-1235_exploit.svg)
+- [https://github.com/minendie/POC_CVE-2024-40492](https://github.com/minendie/POC_CVE-2024-40492) :  ![starts](https://img.shields.io/github/stars/minendie/POC_CVE-2024-40492.svg) ![forks](https://img.shields.io/github/forks/minendie/POC_CVE-2024-40492.svg)
 
 
-## CVE-2015-1328
- The overlayfs implementation in the linux (aka Linux kernel) package before 3.19.0-21.21 in Ubuntu through 15.04 does not properly check permissions for file creation in the upper filesystem directory, which allows local users to obtain root access by leveraging a configuration in which overlayfs is permitted in an arbitrary mount namespace.
+## CVE-2024-3992
+ The Amen WordPress plugin through 3.3.1 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)
 
-- [https://github.com/BlackFrog-hub/cve-2015-1328](https://github.com/BlackFrog-hub/cve-2015-1328) :  ![starts](https://img.shields.io/github/stars/BlackFrog-hub/cve-2015-1328.svg) ![forks](https://img.shields.io/github/forks/BlackFrog-hub/cve-2015-1328.svg)
+- [https://github.com/rxerium/CVE-2024-39929](https://github.com/rxerium/CVE-2024-39929) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2024-39929.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2024-39929.svg)
+
+
+## CVE-2022-20713
+ A vulnerability in the VPN web client services component of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct browser-based attacks against users of an affected device. This vulnerability is due to improper validation of input that is passed to the VPN web client services component before being returned to the browser that is in use. An attacker could exploit this vulnerability by persuading a user to visit a website that is designed to pass malicious requests to a device that is running Cisco ASA Software or Cisco FTD Software and has web services endpoints supporting VPN features enabled. A successful exploit could allow the attacker to reflect malicious input from the affected device to the browser that is in use and conduct browser-based attacks, including cross-site scripting attacks. The attacker could not directly impact the affected device.
+
+- [https://github.com/s1d6point7bugcrowd/CVE-2022-20713-Vulnerability-Detection-Script](https://github.com/s1d6point7bugcrowd/CVE-2022-20713-Vulnerability-Detection-Script) :  ![starts](https://img.shields.io/github/stars/s1d6point7bugcrowd/CVE-2022-20713-Vulnerability-Detection-Script.svg) ![forks](https://img.shields.io/github/forks/s1d6point7bugcrowd/CVE-2022-20713-Vulnerability-Detection-Script.svg)
+
+
+## CVE-2021-45105
+ Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3 and 2.3.1) did not protect from uncontrolled recursion from self-referential lookups. This allows an attacker with control over Thread Context Map data to cause a denial of service when a crafted string is interpreted. This issue was fixed in Log4j 2.17.0, 2.12.3, and 2.3.1.
+
+- [https://github.com/name/log4j-remediation](https://github.com/name/log4j-remediation) :  ![starts](https://img.shields.io/github/stars/name/log4j-remediation.svg) ![forks](https://img.shields.io/github/forks/name/log4j-remediation.svg)
 
