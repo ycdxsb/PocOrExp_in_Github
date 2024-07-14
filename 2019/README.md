@@ -972,9 +972,9 @@
 
 - [https://github.com/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass](https://github.com/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass) :  ![starts](https://img.shields.io/github/stars/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass.svg) ![forks](https://img.shields.io/github/forks/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass.svg)
 
-- [https://github.com/jayngng/bludit-CVE-2019-17240](https://github.com/jayngng/bludit-CVE-2019-17240) :  ![starts](https://img.shields.io/github/stars/jayngng/bludit-CVE-2019-17240.svg) ![forks](https://img.shields.io/github/forks/jayngng/bludit-CVE-2019-17240.svg)
-
 - [https://github.com/spyx/cve-2019-17240](https://github.com/spyx/cve-2019-17240) :  ![starts](https://img.shields.io/github/stars/spyx/cve-2019-17240.svg) ![forks](https://img.shields.io/github/forks/spyx/cve-2019-17240.svg)
+
+- [https://github.com/jayngng/bludit-CVE-2019-17240](https://github.com/jayngng/bludit-CVE-2019-17240) :  ![starts](https://img.shields.io/github/stars/jayngng/bludit-CVE-2019-17240.svg) ![forks](https://img.shields.io/github/forks/jayngng/bludit-CVE-2019-17240.svg)
 
 - [https://github.com/mind2hex/CVE-2019-17240](https://github.com/mind2hex/CVE-2019-17240) :  ![starts](https://img.shields.io/github/stars/mind2hex/CVE-2019-17240.svg) ![forks](https://img.shields.io/github/forks/mind2hex/CVE-2019-17240.svg)
 
@@ -1289,11 +1289,11 @@
 
 - [https://github.com/tronghoang89/cve-2019-16113](https://github.com/tronghoang89/cve-2019-16113) :  ![starts](https://img.shields.io/github/stars/tronghoang89/cve-2019-16113.svg) ![forks](https://img.shields.io/github/forks/tronghoang89/cve-2019-16113.svg)
 
-- [https://github.com/0xConstant/CVE-2019-16113_](https://github.com/0xConstant/CVE-2019-16113_) :  ![starts](https://img.shields.io/github/stars/0xConstant/CVE-2019-16113_.svg) ![forks](https://img.shields.io/github/forks/0xConstant/CVE-2019-16113_.svg)
-
 - [https://github.com/DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/DXY0411/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/DXY0411/CVE-2019-16113.svg)
 
 - [https://github.com/Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile) :  ![starts](https://img.shields.io/github/stars/Kenun99/CVE-2019-16113-Dockerfile.svg) ![forks](https://img.shields.io/github/forks/Kenun99/CVE-2019-16113-Dockerfile.svg)
+
+- [https://github.com/0xConstant/CVE-2019-16113_](https://github.com/0xConstant/CVE-2019-16113_) :  ![starts](https://img.shields.io/github/stars/0xConstant/CVE-2019-16113_.svg) ![forks](https://img.shields.io/github/forks/0xConstant/CVE-2019-16113_.svg)
 
 ## CVE-2019-16098
  The driver in Micro-Star MSI Afterburner 4.6.2.15658 (aka RTCore64.sys and RTCore32.sys) allows any authenticated user to read and write to arbitrary memory, I/O ports, and MSRs. This can be exploited for privilege escalation, code execution under high privileges, and information disclosure. These signed drivers can also be used to bypass the Microsoft driver-signing policy to deploy malicious code.
@@ -2950,11 +2950,11 @@
 
 - [https://github.com/0th3rs-Security-Team/CVE-2019-11043](https://github.com/0th3rs-Security-Team/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/0th3rs-Security-Team/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/0th3rs-Security-Team/CVE-2019-11043.svg)
 
+- [https://github.com/kriskhub/CVE-2019-11043](https://github.com/kriskhub/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/kriskhub/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/kriskhub/CVE-2019-11043.svg)
+
 - [https://github.com/ypereirareis/docker-CVE-2019-11043](https://github.com/ypereirareis/docker-CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/ypereirareis/docker-CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/ypereirareis/docker-CVE-2019-11043.svg)
 
 - [https://github.com/huowen/CVE-2019-11043](https://github.com/huowen/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/huowen/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/huowen/CVE-2019-11043.svg)
-
-- [https://github.com/kriskhub/CVE-2019-11043](https://github.com/kriskhub/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/kriskhub/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/kriskhub/CVE-2019-11043.svg)
 
 - [https://github.com/AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-](https://github.com/AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-) :  ![starts](https://img.shields.io/github/stars/AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-.svg) ![forks](https://img.shields.io/github/forks/AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-.svg)
 
@@ -3408,9 +3408,9 @@
 
 - [https://github.com/huangyutange0uywlcn/HyperSine](https://github.com/huangyutange0uywlcn/HyperSine) :  ![starts](https://img.shields.io/github/stars/huangyutange0uywlcn/HyperSine.svg) ![forks](https://img.shields.io/github/forks/huangyutange0uywlcn/HyperSine.svg)
 
-- [https://github.com/recozone/HyperSine](https://github.com/recozone/HyperSine) :  ![starts](https://img.shields.io/github/stars/recozone/HyperSine.svg) ![forks](https://img.shields.io/github/forks/recozone/HyperSine.svg)
-
 - [https://github.com/timeowilliamsq/HyperSine](https://github.com/timeowilliamsq/HyperSine) :  ![starts](https://img.shields.io/github/stars/timeowilliamsq/HyperSine.svg) ![forks](https://img.shields.io/github/forks/timeowilliamsq/HyperSine.svg)
+
+- [https://github.com/recozone/HyperSine](https://github.com/recozone/HyperSine) :  ![starts](https://img.shields.io/github/stars/recozone/HyperSine.svg) ![forks](https://img.shields.io/github/forks/recozone/HyperSine.svg)
 
 ## CVE-2019-9673
  Freenet 1483 has a MIME type bypass that allows arbitrary JavaScript execution via a crafted Freenet URI.
@@ -5058,9 +5058,9 @@
 
 
 
-- [https://github.com/abrumsen/CVE-2019-1663](https://github.com/abrumsen/CVE-2019-1663) :  ![starts](https://img.shields.io/github/stars/abrumsen/CVE-2019-1663.svg) ![forks](https://img.shields.io/github/forks/abrumsen/CVE-2019-1663.svg)
-
 - [https://github.com/StealYourCode/CVE-2019-1663](https://github.com/StealYourCode/CVE-2019-1663) :  ![starts](https://img.shields.io/github/stars/StealYourCode/CVE-2019-1663.svg) ![forks](https://img.shields.io/github/forks/StealYourCode/CVE-2019-1663.svg)
+
+- [https://github.com/abrumsen/CVE-2019-1663](https://github.com/abrumsen/CVE-2019-1663) :  ![starts](https://img.shields.io/github/stars/abrumsen/CVE-2019-1663.svg) ![forks](https://img.shields.io/github/forks/abrumsen/CVE-2019-1663.svg)
 
 ## CVE-2019-1653
  A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.
