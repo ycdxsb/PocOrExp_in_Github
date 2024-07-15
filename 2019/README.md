@@ -33,13 +33,6 @@
 
 - [https://github.com/ossf-cve-benchmark/CVE-2019-1010266](https://github.com/ossf-cve-benchmark/CVE-2019-1010266) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-1010266.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-1010266.svg)
 
-## CVE-2019-1010091
- tinymce 4.7.11, 4.7.12 is affected by: CWE-79: Improper Neutralization of Input During Web Page Generation. The impact is: JavaScript code execution. The component is: Media element. The attack vector is: The victim must paste malicious content to media element's embed tab.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2019-1010091](https://github.com/ossf-cve-benchmark/CVE-2019-1010091) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-1010091.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-1010091.svg)
-
 ## CVE-2019-1010054
  Dolibarr 7.0.0 is affected by: Cross Site Request Forgery (CSRF). The impact is: allow malitious html to change user password, disable users and disable password encryptation. The component is: Function User password change, user disable and password encryptation. The attack vector is: admin access malitious urls.
 
@@ -936,9 +929,9 @@
 
 
 
-- [https://github.com/SecT0uch/CVE-2019-17495-test](https://github.com/SecT0uch/CVE-2019-17495-test) :  ![starts](https://img.shields.io/github/stars/SecT0uch/CVE-2019-17495-test.svg) ![forks](https://img.shields.io/github/forks/SecT0uch/CVE-2019-17495-test.svg)
-
 - [https://github.com/ossf-cve-benchmark/CVE-2019-17495](https://github.com/ossf-cve-benchmark/CVE-2019-17495) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-17495.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-17495.svg)
+
+- [https://github.com/SecT0uch/CVE-2019-17495-test](https://github.com/SecT0uch/CVE-2019-17495-test) :  ![starts](https://img.shields.io/github/stars/SecT0uch/CVE-2019-17495-test.svg) ![forks](https://img.shields.io/github/forks/SecT0uch/CVE-2019-17495-test.svg)
 
 ## CVE-2019-17427
  In Redmine before 3.4.11 and 4.0.x before 4.0.4, persistent XSS exists due to textile formatting errors.
@@ -1289,11 +1282,11 @@
 
 - [https://github.com/tronghoang89/cve-2019-16113](https://github.com/tronghoang89/cve-2019-16113) :  ![starts](https://img.shields.io/github/stars/tronghoang89/cve-2019-16113.svg) ![forks](https://img.shields.io/github/forks/tronghoang89/cve-2019-16113.svg)
 
+- [https://github.com/0xConstant/CVE-2019-16113_](https://github.com/0xConstant/CVE-2019-16113_) :  ![starts](https://img.shields.io/github/stars/0xConstant/CVE-2019-16113_.svg) ![forks](https://img.shields.io/github/forks/0xConstant/CVE-2019-16113_.svg)
+
 - [https://github.com/DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/DXY0411/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/DXY0411/CVE-2019-16113.svg)
 
 - [https://github.com/Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile) :  ![starts](https://img.shields.io/github/stars/Kenun99/CVE-2019-16113-Dockerfile.svg) ![forks](https://img.shields.io/github/forks/Kenun99/CVE-2019-16113-Dockerfile.svg)
-
-- [https://github.com/0xConstant/CVE-2019-16113_](https://github.com/0xConstant/CVE-2019-16113_) :  ![starts](https://img.shields.io/github/stars/0xConstant/CVE-2019-16113_.svg) ![forks](https://img.shields.io/github/forks/0xConstant/CVE-2019-16113_.svg)
 
 ## CVE-2019-16098
  The driver in Micro-Star MSI Afterburner 4.6.2.15658 (aka RTCore64.sys and RTCore32.sys) allows any authenticated user to read and write to arbitrary memory, I/O ports, and MSRs. This can be exploited for privilege escalation, code execution under high privileges, and information disclosure. These signed drivers can also be used to bypass the Microsoft driver-signing policy to deploy malicious code.
@@ -1597,9 +1590,9 @@
 
 - [https://github.com/Tuz-Wwsd/CVE-2019-15107_detection](https://github.com/Tuz-Wwsd/CVE-2019-15107_detection) :  ![starts](https://img.shields.io/github/stars/Tuz-Wwsd/CVE-2019-15107_detection.svg) ![forks](https://img.shields.io/github/forks/Tuz-Wwsd/CVE-2019-15107_detection.svg)
 
-- [https://github.com/aamfrk/Webmin-CVE-2019-15107](https://github.com/aamfrk/Webmin-CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/aamfrk/Webmin-CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/aamfrk/Webmin-CVE-2019-15107.svg)
-
 - [https://github.com/hadrian3689/webmin_1.920](https://github.com/hadrian3689/webmin_1.920) :  ![starts](https://img.shields.io/github/stars/hadrian3689/webmin_1.920.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/webmin_1.920.svg)
+
+- [https://github.com/aamfrk/Webmin-CVE-2019-15107](https://github.com/aamfrk/Webmin-CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/aamfrk/Webmin-CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/aamfrk/Webmin-CVE-2019-15107.svg)
 
 - [https://github.com/psw01/CVE-2019-15107_webminRCE](https://github.com/psw01/CVE-2019-15107_webminRCE) :  ![starts](https://img.shields.io/github/stars/psw01/CVE-2019-15107_webminRCE.svg) ![forks](https://img.shields.io/github/forks/psw01/CVE-2019-15107_webminRCE.svg)
 
@@ -2958,9 +2951,9 @@
 
 - [https://github.com/AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-](https://github.com/AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-) :  ![starts](https://img.shields.io/github/stars/AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-.svg) ![forks](https://img.shields.io/github/forks/AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-.svg)
 
-- [https://github.com/MRdoulestar/CVE-2019-11043](https://github.com/MRdoulestar/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/MRdoulestar/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/MRdoulestar/CVE-2019-11043.svg)
-
 - [https://github.com/lindemer/CVE-2019-11043](https://github.com/lindemer/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/lindemer/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/lindemer/CVE-2019-11043.svg)
+
+- [https://github.com/MRdoulestar/CVE-2019-11043](https://github.com/MRdoulestar/CVE-2019-11043) :  ![starts](https://img.shields.io/github/stars/MRdoulestar/CVE-2019-11043.svg) ![forks](https://img.shields.io/github/forks/MRdoulestar/CVE-2019-11043.svg)
 
 - [https://github.com/HxDDD/CVE-PoC](https://github.com/HxDDD/CVE-PoC) :  ![starts](https://img.shields.io/github/stars/HxDDD/CVE-PoC.svg) ![forks](https://img.shields.io/github/forks/HxDDD/CVE-PoC.svg)
 
@@ -4966,9 +4959,9 @@
 
 - [https://github.com/Karma2424/cve2019-2215-3.18](https://github.com/Karma2424/cve2019-2215-3.18) :  ![starts](https://img.shields.io/github/stars/Karma2424/cve2019-2215-3.18.svg) ![forks](https://img.shields.io/github/forks/Karma2424/cve2019-2215-3.18.svg)
 
-- [https://github.com/Byte-Master-101/CVE-2019-2215](https://github.com/Byte-Master-101/CVE-2019-2215) :  ![starts](https://img.shields.io/github/stars/Byte-Master-101/CVE-2019-2215.svg) ![forks](https://img.shields.io/github/forks/Byte-Master-101/CVE-2019-2215.svg)
-
 - [https://github.com/R0rt1z2/huawei-unlock](https://github.com/R0rt1z2/huawei-unlock) :  ![starts](https://img.shields.io/github/stars/R0rt1z2/huawei-unlock.svg) ![forks](https://img.shields.io/github/forks/R0rt1z2/huawei-unlock.svg)
+
+- [https://github.com/Byte-Master-101/CVE-2019-2215](https://github.com/Byte-Master-101/CVE-2019-2215) :  ![starts](https://img.shields.io/github/stars/Byte-Master-101/CVE-2019-2215.svg) ![forks](https://img.shields.io/github/forks/Byte-Master-101/CVE-2019-2215.svg)
 
 - [https://github.com/mufidmb38/CVE-2019-2215](https://github.com/mufidmb38/CVE-2019-2215) :  ![starts](https://img.shields.io/github/stars/mufidmb38/CVE-2019-2215.svg) ![forks](https://img.shields.io/github/forks/mufidmb38/CVE-2019-2215.svg)
 
@@ -5629,13 +5622,13 @@
 
 - [https://github.com/303sec/CVE-2019-0708](https://github.com/303sec/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/303sec/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/303sec/CVE-2019-0708.svg)
 
-- [https://github.com/1aa87148377/CVE-2019-0708](https://github.com/1aa87148377/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/1aa87148377/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/1aa87148377/CVE-2019-0708.svg)
-
-- [https://github.com/gildaaa/CVE-2019-0708](https://github.com/gildaaa/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/gildaaa/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/gildaaa/CVE-2019-0708.svg)
-
 - [https://github.com/distance-vector/CVE-2019-0708](https://github.com/distance-vector/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/distance-vector/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/distance-vector/CVE-2019-0708.svg)
 
 - [https://github.com/JasonLOU/CVE-2019-0708](https://github.com/JasonLOU/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/JasonLOU/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/JasonLOU/CVE-2019-0708.svg)
+
+- [https://github.com/1aa87148377/CVE-2019-0708](https://github.com/1aa87148377/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/1aa87148377/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/1aa87148377/CVE-2019-0708.svg)
+
+- [https://github.com/gildaaa/CVE-2019-0708](https://github.com/gildaaa/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/gildaaa/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/gildaaa/CVE-2019-0708.svg)
 
 - [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
 
