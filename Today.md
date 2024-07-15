@@ -1,56 +1,54 @@
-# Update 2024-07-14
-## CVE-2024-36401
+# Update 2024-07-15
+## CVE-2024-39250
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/jakabakos/CVE-2024-36401-GeoServer-RCE](https://github.com/jakabakos/CVE-2024-36401-GeoServer-RCE) :  ![starts](https://img.shields.io/github/stars/jakabakos/CVE-2024-36401-GeoServer-RCE.svg) ![forks](https://img.shields.io/github/forks/jakabakos/CVE-2024-36401-GeoServer-RCE.svg)
+- [https://github.com/efrann/CVE-2024-39250](https://github.com/efrann/CVE-2024-39250) :  ![starts](https://img.shields.io/github/stars/efrann/CVE-2024-39250.svg) ![forks](https://img.shields.io/github/forks/efrann/CVE-2024-39250.svg)
 
 
 ## CVE-2024-34102
  Adobe Commerce versions 2.4.7, 2.4.6-p5, 2.4.5-p7, 2.4.4-p8 and earlier are affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could result in arbitrary code execution. An attacker could exploit this vulnerability by sending a crafted XML document that references external entities. Exploitation of this issue does not require user interaction.
 
-- [https://github.com/1mpl3ment3d/CVE-2024-34102-RCE-POC](https://github.com/1mpl3ment3d/CVE-2024-34102-RCE-POC) :  ![starts](https://img.shields.io/github/stars/1mpl3ment3d/CVE-2024-34102-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/1mpl3ment3d/CVE-2024-34102-RCE-POC.svg)
+- [https://github.com/bughuntar/CVE-2024-34102](https://github.com/bughuntar/CVE-2024-34102) :  ![starts](https://img.shields.io/github/stars/bughuntar/CVE-2024-34102.svg) ![forks](https://img.shields.io/github/forks/bughuntar/CVE-2024-34102.svg)
+- [https://github.com/bughuntar/CVE-2024-34102-Python](https://github.com/bughuntar/CVE-2024-34102-Python) :  ![starts](https://img.shields.io/github/stars/bughuntar/CVE-2024-34102-Python.svg) ![forks](https://img.shields.io/github/forks/bughuntar/CVE-2024-34102-Python.svg)
 
 
-## CVE-2024-29824
- An unspecified SQL Injection vulnerability in Core server of Ivanti EPM 2022 SU5 and prior allows an unauthenticated attacker within the same network to execute arbitrary code.
+## CVE-2024-20353
+ A vulnerability in the management and VPN web servers for Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to incomplete error checking when parsing an HTTP header. An attacker could exploit this vulnerability by sending a crafted HTTP request to a targeted web server on a device. A successful exploit could allow the attacker to cause a DoS condition when the device reloads.
 
-- [https://github.com/codeb0ss/CVE-2024-29824-PoC](https://github.com/codeb0ss/CVE-2024-29824-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2024-29824-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2024-29824-PoC.svg)
-
-
-## CVE-2024-21520
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/ch4n3-yoon/CVE-2024-21520-Demo](https://github.com/ch4n3-yoon/CVE-2024-21520-Demo) :  ![starts](https://img.shields.io/github/stars/ch4n3-yoon/CVE-2024-21520-Demo.svg) ![forks](https://img.shields.io/github/forks/ch4n3-yoon/CVE-2024-21520-Demo.svg)
+- [https://github.com/codeb0ss/CVE-2024-20353-PoC](https://github.com/codeb0ss/CVE-2024-20353-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2024-20353-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2024-20353-PoC.svg)
 
 
 ## CVE-2024-4879
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Brut-Security/CVE-2024-4879](https://github.com/Brut-Security/CVE-2024-4879) :  ![starts](https://img.shields.io/github/stars/Brut-Security/CVE-2024-4879.svg) ![forks](https://img.shields.io/github/forks/Brut-Security/CVE-2024-4879.svg)
-- [https://github.com/bigb0x/CVE-2024-4879](https://github.com/bigb0x/CVE-2024-4879) :  ![starts](https://img.shields.io/github/stars/bigb0x/CVE-2024-4879.svg) ![forks](https://img.shields.io/github/forks/bigb0x/CVE-2024-4879.svg)
-- [https://github.com/Mr-r00t11/CVE-2024-4879](https://github.com/Mr-r00t11/CVE-2024-4879) :  ![starts](https://img.shields.io/github/stars/Mr-r00t11/CVE-2024-4879.svg) ![forks](https://img.shields.io/github/forks/Mr-r00t11/CVE-2024-4879.svg)
+- [https://github.com/zgimszhd61/CVE-2024-4879](https://github.com/zgimszhd61/CVE-2024-4879) :  ![starts](https://img.shields.io/github/stars/zgimszhd61/CVE-2024-4879.svg) ![forks](https://img.shields.io/github/forks/zgimszhd61/CVE-2024-4879.svg)
 
 
-## CVE-2024-4049
+## CVE-2024-4051
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/minendie/POC_CVE-2024-40492](https://github.com/minendie/POC_CVE-2024-40492) :  ![starts](https://img.shields.io/github/stars/minendie/POC_CVE-2024-40492.svg) ![forks](https://img.shields.io/github/forks/minendie/POC_CVE-2024-40492.svg)
+- [https://github.com/Jansen-C-Moreira/CVE-2024-40510](https://github.com/Jansen-C-Moreira/CVE-2024-40510) :  ![starts](https://img.shields.io/github/stars/Jansen-C-Moreira/CVE-2024-40510.svg) ![forks](https://img.shields.io/github/forks/Jansen-C-Moreira/CVE-2024-40510.svg)
+- [https://github.com/Jansen-C-Moreira/CVE-2024-40511](https://github.com/Jansen-C-Moreira/CVE-2024-40511) :  ![starts](https://img.shields.io/github/stars/Jansen-C-Moreira/CVE-2024-40511.svg) ![forks](https://img.shields.io/github/forks/Jansen-C-Moreira/CVE-2024-40511.svg)
+- [https://github.com/Jansen-C-Moreira/CVE-2024-40512](https://github.com/Jansen-C-Moreira/CVE-2024-40512) :  ![starts](https://img.shields.io/github/stars/Jansen-C-Moreira/CVE-2024-40512.svg) ![forks](https://img.shields.io/github/forks/Jansen-C-Moreira/CVE-2024-40512.svg)
 
 
-## CVE-2024-3992
- The Amen WordPress plugin through 3.3.1 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)
+## CVE-2024-4050
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/rxerium/CVE-2024-39929](https://github.com/rxerium/CVE-2024-39929) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2024-39929.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2024-39929.svg)
-
-
-## CVE-2022-20713
- A vulnerability in the VPN web client services component of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct browser-based attacks against users of an affected device. This vulnerability is due to improper validation of input that is passed to the VPN web client services component before being returned to the browser that is in use. An attacker could exploit this vulnerability by persuading a user to visit a website that is designed to pass malicious requests to a device that is running Cisco ASA Software or Cisco FTD Software and has web services endpoints supporting VPN features enabled. A successful exploit could allow the attacker to reflect malicious input from the affected device to the browser that is in use and conduct browser-based attacks, including cross-site scripting attacks. The attacker could not directly impact the affected device.
-
-- [https://github.com/s1d6point7bugcrowd/CVE-2022-20713-Vulnerability-Detection-Script](https://github.com/s1d6point7bugcrowd/CVE-2022-20713-Vulnerability-Detection-Script) :  ![starts](https://img.shields.io/github/stars/s1d6point7bugcrowd/CVE-2022-20713-Vulnerability-Detection-Script.svg) ![forks](https://img.shields.io/github/forks/s1d6point7bugcrowd/CVE-2022-20713-Vulnerability-Detection-Script.svg)
+- [https://github.com/Jansen-C-Moreira/CVE-2024-40507](https://github.com/Jansen-C-Moreira/CVE-2024-40507) :  ![starts](https://img.shields.io/github/stars/Jansen-C-Moreira/CVE-2024-40507.svg) ![forks](https://img.shields.io/github/forks/Jansen-C-Moreira/CVE-2024-40507.svg)
+- [https://github.com/Jansen-C-Moreira/CVE-2024-40508](https://github.com/Jansen-C-Moreira/CVE-2024-40508) :  ![starts](https://img.shields.io/github/stars/Jansen-C-Moreira/CVE-2024-40508.svg) ![forks](https://img.shields.io/github/forks/Jansen-C-Moreira/CVE-2024-40508.svg)
+- [https://github.com/Jansen-C-Moreira/CVE-2024-40506](https://github.com/Jansen-C-Moreira/CVE-2024-40506) :  ![starts](https://img.shields.io/github/stars/Jansen-C-Moreira/CVE-2024-40506.svg) ![forks](https://img.shields.io/github/forks/Jansen-C-Moreira/CVE-2024-40506.svg)
+- [https://github.com/Jansen-C-Moreira/CVE-2024-40509](https://github.com/Jansen-C-Moreira/CVE-2024-40509) :  ![starts](https://img.shields.io/github/stars/Jansen-C-Moreira/CVE-2024-40509.svg) ![forks](https://img.shields.io/github/forks/Jansen-C-Moreira/CVE-2024-40509.svg)
 
 
-## CVE-2021-45105
- Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3 and 2.3.1) did not protect from uncontrolled recursion from self-referential lookups. This allows an attacker with control over Thread Context Map data to cause a denial of service when a crafted string is interpreted. This issue was fixed in Log4j 2.17.0, 2.12.3, and 2.3.1.
+## CVE-2023-34960
+ A command injection vulnerability in the wsConvertPpt component of Chamilo v1.11.* up to v1.11.18 allows attackers to execute arbitrary commands via a SOAP API call with a crafted PowerPoint name.
 
-- [https://github.com/name/log4j-remediation](https://github.com/name/log4j-remediation) :  ![starts](https://img.shields.io/github/stars/name/log4j-remediation.svg) ![forks](https://img.shields.io/github/forks/name/log4j-remediation.svg)
+- [https://github.com/dvtarsoul/ChExp](https://github.com/dvtarsoul/ChExp) :  ![starts](https://img.shields.io/github/stars/dvtarsoul/ChExp.svg) ![forks](https://img.shields.io/github/forks/dvtarsoul/ChExp.svg)
+
+
+## CVE-2014-6271
+ GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
+
+- [https://github.com/TheRealCiscoo/Shellshock-Exploit](https://github.com/TheRealCiscoo/Shellshock-Exploit) :  ![starts](https://img.shields.io/github/stars/TheRealCiscoo/Shellshock-Exploit.svg) ![forks](https://img.shields.io/github/forks/TheRealCiscoo/Shellshock-Exploit.svg)
 
