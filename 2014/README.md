@@ -876,6 +876,8 @@
 
 - [https://github.com/linusyang/SSLPatch](https://github.com/linusyang/SSLPatch) :  ![starts](https://img.shields.io/github/stars/linusyang/SSLPatch.svg) ![forks](https://img.shields.io/github/forks/linusyang/SSLPatch.svg)
 
+- [https://github.com/meetlight942/PentesterLab-Intercept-CVE-2014-1266](https://github.com/meetlight942/PentesterLab-Intercept-CVE-2014-1266) :  ![starts](https://img.shields.io/github/stars/meetlight942/PentesterLab-Intercept-CVE-2014-1266.svg) ![forks](https://img.shields.io/github/forks/meetlight942/PentesterLab-Intercept-CVE-2014-1266.svg)
+
 ## CVE-2014-0994
  Heap-based buffer overflow in the ReadDIB function in the Vcl.Graphics.TPicture.Bitmap implementation in the Visual Component Library (VCL) in Embarcadero Delphi XE6 20.0.15596.9843 and C++ Builder XE6 20.0.15596.9843 allows context-dependent attackers to execute arbitrary code via the BITMAPINFOHEADER.biClrUsed field in a BMP file.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-0993.
 
