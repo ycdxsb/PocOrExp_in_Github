@@ -1,48 +1,48 @@
-# Update 2024-07-18
-## CVE-2024-36401
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+# Update 2024-07-19
+## CVE-2024-33544
+ Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in AA-Team WZone allows SQL Injection.This issue affects WZone: from n/a through 14.0.10.
 
-- [https://github.com/MInggongK/geoserver-](https://github.com/MInggongK/geoserver-) :  ![starts](https://img.shields.io/github/stars/MInggongK/geoserver-.svg) ![forks](https://img.shields.io/github/forks/MInggongK/geoserver-.svg)
-
-
-## CVE-2024-33352
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/mmiszczyk/CVE-2024-33352](https://github.com/mmiszczyk/CVE-2024-33352) :  ![starts](https://img.shields.io/github/stars/mmiszczyk/CVE-2024-33352.svg) ![forks](https://img.shields.io/github/forks/mmiszczyk/CVE-2024-33352.svg)
+- [https://github.com/codeb0ss/CVE-2024-33544-PoC](https://github.com/codeb0ss/CVE-2024-33544-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2024-33544-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2024-33544-PoC.svg)
 
 
-## CVE-2024-4011
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2023-30800
+ The web server used by MikroTik RouterOS version 6 is affected by a heap memory corruption issue. A remote and unauthenticated attacker can corrupt the server's heap memory by sending a crafted HTTP request. As a result, the web interface crashes and is immediately restarted. The issue was fixed in RouterOS 6.49.10 stable. RouterOS version 7 is not affected.
 
-- [https://github.com/sudo-subho/nepstech-xpon-router-CVE-2024-40119](https://github.com/sudo-subho/nepstech-xpon-router-CVE-2024-40119) :  ![starts](https://img.shields.io/github/stars/sudo-subho/nepstech-xpon-router-CVE-2024-40119.svg) ![forks](https://img.shields.io/github/forks/sudo-subho/nepstech-xpon-router-CVE-2024-40119.svg)
-
-
-## CVE-2023-38831
- RARLAB WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.
-
-- [https://github.com/khanhtranngoccva/cve-2023-38831-poc](https://github.com/khanhtranngoccva/cve-2023-38831-poc) :  ![starts](https://img.shields.io/github/stars/khanhtranngoccva/cve-2023-38831-poc.svg) ![forks](https://img.shields.io/github/forks/khanhtranngoccva/cve-2023-38831-poc.svg)
+- [https://github.com/griffinsectio/CVE-2023-30800_PoC](https://github.com/griffinsectio/CVE-2023-30800_PoC) :  ![starts](https://img.shields.io/github/stars/griffinsectio/CVE-2023-30800_PoC.svg) ![forks](https://img.shields.io/github/forks/griffinsectio/CVE-2023-30800_PoC.svg)
 
 
-## CVE-2023-38408
- The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Code in /usr/lib is not necessarily safe for loading into ssh-agent.) NOTE: this issue exists because of an incomplete fix for CVE-2016-10009.
+## CVE-2023-4357
+ Insufficient validation of untrusted input in XML in Google Chrome prior to 116.0.5845.96 allowed a remote attacker to bypass file access restrictions via a crafted HTML page. (Chromium security severity: Medium)
 
-- [https://github.com/mrtacojr/CVE-2023-38408](https://github.com/mrtacojr/CVE-2023-38408) :  ![starts](https://img.shields.io/github/stars/mrtacojr/CVE-2023-38408.svg) ![forks](https://img.shields.io/github/forks/mrtacojr/CVE-2023-38408.svg)
-
-
-## CVE-2023-31290
- Trust Wallet Core before 3.1.1, as used in the Trust Wallet browser extension before 0.0.183, allows theft of funds because the entropy is 32 bits, as exploited in the wild in December 2022 and March 2023. This occurs because the mt19937 Mersenne Twister takes a single 32-bit value as an input seed, resulting in only four billion possible mnemonics. The affected versions of the browser extension are 0.0.172 through 0.0.182. To steal funds efficiently, an attacker can identify all Ethereum addresses created since the 0.0.172 release, and check whether they are Ethereum addresses that could have been created by this extension. To respond to the risk, affected users need to upgrade the product version and also move funds to a new wallet address.
-
-- [https://github.com/ohexa/py_trustwallet_wasm](https://github.com/ohexa/py_trustwallet_wasm) :  ![starts](https://img.shields.io/github/stars/ohexa/py_trustwallet_wasm.svg) ![forks](https://img.shields.io/github/forks/ohexa/py_trustwallet_wasm.svg)
+- [https://github.com/lon5948/CVE-2023-4357-Exploitation](https://github.com/lon5948/CVE-2023-4357-Exploitation) :  ![starts](https://img.shields.io/github/stars/lon5948/CVE-2023-4357-Exploitation.svg) ![forks](https://img.shields.io/github/forks/lon5948/CVE-2023-4357-Exploitation.svg)
 
 
-## CVE-2017-9248
- Telerik.Web.UI.dll in Progress Telerik UI for ASP.NET AJAX before R2 2017 SP1 and Sitefinity before 10.0.6412.0 does not properly protect Telerik.Web.UI.DialogParametersEncryptionKey or the MachineKey, which makes it easier for remote attackers to defeat cryptographic protection mechanisms, leading to a MachineKey leak, arbitrary file uploads or downloads, XSS, or ASP.NET ViewState compromise.
+## CVE-2021-3773
+ A flaw in netfilter could allow a network-connected attacker to infer openvpn connection endpoint information for further use in traditional network attacks.
 
-- [https://github.com/hlong12042/CVE-2017-9248](https://github.com/hlong12042/CVE-2017-9248) :  ![starts](https://img.shields.io/github/stars/hlong12042/CVE-2017-9248.svg) ![forks](https://img.shields.io/github/forks/hlong12042/CVE-2017-9248.svg)
+- [https://github.com/d0rb/CVE-2021-3773](https://github.com/d0rb/CVE-2021-3773) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2021-3773.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2021-3773.svg)
 
 
-## CVE-2011-0228
- The Data Security component in Apple iOS before 4.2.10 and 4.3.x before 4.3.5 does not check the basicConstraints parameter during validation of X.509 certificate chains, which allows man-in-the-middle attackers to spoof an SSL server by using a non-CA certificate to sign a certificate for an arbitrary domain.
+## CVE-2018-17456
+ Git before 2.14.5, 2.15.x before 2.15.3, 2.16.x before 2.16.5, 2.17.x before 2.17.2, 2.18.x before 2.18.1, and 2.19.x before 2.19.1 allows remote code execution during processing of a recursive &quot;git clone&quot; of a superproject if a .gitmodules file has a URL field beginning with a '-' character.
 
-- [https://github.com/meetlight942/PentesterLab-Intercept-CVE-2011-0228](https://github.com/meetlight942/PentesterLab-Intercept-CVE-2011-0228) :  ![starts](https://img.shields.io/github/stars/meetlight942/PentesterLab-Intercept-CVE-2011-0228.svg) ![forks](https://img.shields.io/github/forks/meetlight942/PentesterLab-Intercept-CVE-2011-0228.svg)
+- [https://github.com/KKkai0315/CVE-2018-17456](https://github.com/KKkai0315/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/KKkai0315/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/KKkai0315/CVE-2018-17456.svg)
+
+
+## CVE-2017-11357
+ Progress Telerik UI for ASP.NET AJAX before R2 2017 SP2 does not properly restrict user input to RadAsyncUpload, which allows remote attackers to perform arbitrary file uploads or execute arbitrary code.
+
+- [https://github.com/hlong12042/CVE-2017-11317-and-CVE-2017-11357-in-Telerik](https://github.com/hlong12042/CVE-2017-11317-and-CVE-2017-11357-in-Telerik) :  ![starts](https://img.shields.io/github/stars/hlong12042/CVE-2017-11317-and-CVE-2017-11357-in-Telerik.svg) ![forks](https://img.shields.io/github/forks/hlong12042/CVE-2017-11317-and-CVE-2017-11357-in-Telerik.svg)
+
+
+## CVE-2017-11317
+ Telerik.Web.UI in Progress Telerik UI for ASP.NET AJAX before R1 2017 and R2 before R2 2017 SP2 uses weak RadAsyncUpload encryption, which allows remote attackers to perform arbitrary file uploads or execute arbitrary code.
+
+- [https://github.com/hlong12042/CVE-2017-11317-and-CVE-2017-11357-in-Telerik](https://github.com/hlong12042/CVE-2017-11317-and-CVE-2017-11357-in-Telerik) :  ![starts](https://img.shields.io/github/stars/hlong12042/CVE-2017-11317-and-CVE-2017-11357-in-Telerik.svg) ![forks](https://img.shields.io/github/forks/hlong12042/CVE-2017-11317-and-CVE-2017-11357-in-Telerik.svg)
+
+
+## CVE-2014-1266
+ The SSLVerifySignedServerKeyExchange function in libsecurity_ssl/lib/sslKeyExchange.c in the Secure Transport feature in the Data Security component in Apple iOS 6.x before 6.1.6 and 7.x before 7.0.6, Apple TV 6.x before 6.0.2, and Apple OS X 10.9.x before 10.9.2 does not check the signature in a TLS Server Key Exchange message, which allows man-in-the-middle attackers to spoof SSL servers by (1) using an arbitrary private key for the signing step or (2) omitting the signing step.
+
+- [https://github.com/meetlight942/PentesterLab-Intercept-CVE-2014-1266](https://github.com/meetlight942/PentesterLab-Intercept-CVE-2014-1266) :  ![starts](https://img.shields.io/github/stars/meetlight942/PentesterLab-Intercept-CVE-2014-1266.svg) ![forks](https://img.shields.io/github/forks/meetlight942/PentesterLab-Intercept-CVE-2014-1266.svg)
 
