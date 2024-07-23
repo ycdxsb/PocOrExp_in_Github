@@ -29,3 +29,7 @@
 
 
 - [https://github.com/Cappricio-Securities/CVE-2000-0114](https://github.com/Cappricio-Securities/CVE-2000-0114) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2000-0114.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2000-0114.svg)
+
+- [https://github.com/0xMe5war/CVE-2000-0114](https://github.com/0xMe5war/CVE-2000-0114) :  ![starts](https://img.shields.io/github/stars/0xMe5war/CVE-2000-0114.svg) ![forks](https://img.shields.io/github/forks/0xMe5war/CVE-2000-0114.svg)
+
+- [https://github.com/Josekutty-K/frontpage-server-extensions-vulnerability-scanner](https://github.com/Josekutty-K/frontpage-server-extensions-vulnerability-scanner) :  ![starts](https://img.shields.io/github/stars/Josekutty-K/frontpage-server-extensions-vulnerability-scanner.svg) ![forks](https://img.shields.io/github/forks/Josekutty-K/frontpage-server-extensions-vulnerability-scanner.svg)
