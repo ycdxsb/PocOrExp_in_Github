@@ -357,6 +357,8 @@
 
 - [https://github.com/Sunqiz/CVE-2013-2028-reproduction](https://github.com/Sunqiz/CVE-2013-2028-reproduction) :  ![starts](https://img.shields.io/github/stars/Sunqiz/CVE-2013-2028-reproduction.svg) ![forks](https://img.shields.io/github/forks/Sunqiz/CVE-2013-2028-reproduction.svg)
 
+- [https://github.com/xiw1ll/CVE-2013-2028_Checker](https://github.com/xiw1ll/CVE-2013-2028_Checker) :  ![starts](https://img.shields.io/github/stars/xiw1ll/CVE-2013-2028_Checker.svg) ![forks](https://img.shields.io/github/forks/xiw1ll/CVE-2013-2028_Checker.svg)
+
 ## CVE-2013-2006
  OpenStack Identity (Keystone) Grizzly 2013.1.1, when DEBUG mode logging is enabled, logs the (1) admin_token and (2) LDAP password in plaintext, which allows local users to obtain sensitive by reading the log file.
 
