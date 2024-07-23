@@ -96,7 +96,7 @@ python3 exp.py -y all -i y
 - 2021-04-13: Switched to CVE official data due to missing CVE numbers on the NVD website, released an asynchronous script.
 - 2021-04-14: Completed the first round of PocOrExp crawling, now using 20 GitHub API tokens to poll all CVEs within 12 hours and update.
 - 2021-04-16: Added -w parameter.
-- 2021-04-17: Added a daily update script today.py. The update content can be seen in [Today](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Today.md). You can modify it, for example, to send the `get_today_update` results to yourself through services like Server酱 or wxpusher.
+- 2021-04-17: Added a daily update script today.py. The update content can be seen in [Today](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/Today.md). You can modify it, for example, to send the `get_today_update` results to yourself through services like Dingding or wxpusher.
 - 2021-04-20: Found some non-PoC repos, removed them by adding a blacklist, and updated the asynchronous script to v2.
 - 2021-04-23: Discovered that some results in today's update are not recently updated repos due to the following reasons:
 - 1. The repo changed from private to public.
