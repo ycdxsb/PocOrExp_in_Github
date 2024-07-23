@@ -65,6 +65,7 @@ optional arguments:
 
 ## PocOrExps
 - [PocOrExp All](https://github.com/ycdxsb/PocOrExp_in_Github/blob/main/PocOrExp.md)
+- [2024](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/2024/README.md)
 - [2023](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/2023/README.md)
 - [2022](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/2022/README.md)
 - [2021](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/2021/README.md)
