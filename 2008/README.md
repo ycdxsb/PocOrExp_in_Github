@@ -81,6 +81,13 @@
 
 - [https://github.com/bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387) :  ![starts](https://img.shields.io/github/stars/bigb0x/CVE-2024-6387.svg) ![forks](https://img.shields.io/github/forks/bigb0x/CVE-2024-6387.svg)
 
+## CVE-2008-3531
+ Stack-based buffer overflow in sys/kern/vfs_mount.c in the kernel in FreeBSD 7.0 and 7.1, when vfs.usermount is enabled, allows local users to gain privileges via a crafted (1) mount or (2) nmount system call, related to copying of &quot;user defined data&quot; in &quot;certain error conditions.&quot;
+
+
+
+- [https://github.com/test-one9/ps4-11.50.github.io](https://github.com/test-one9/ps4-11.50.github.io) :  ![starts](https://img.shields.io/github/stars/test-one9/ps4-11.50.github.io.svg) ![forks](https://img.shields.io/github/forks/test-one9/ps4-11.50.github.io.svg)
+
 ## CVE-2008-2938
  Directory traversal vulnerability in Apache Tomcat 4.1.0 through 4.1.37, 5.5.0 through 5.5.26, and 6.0.0 through 6.0.16, when allowLinking and UTF-8 are enabled, allows remote attackers to read arbitrary files via encoded directory traversal sequences in the URI, a different vulnerability than CVE-2008-2370. NOTE: versions earlier than 6.0.18 were reported affected, but the vendor advisory lists 6.0.16 as the last affected version.
 
