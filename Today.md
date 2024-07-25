@@ -1,42 +1,30 @@
-# Update 2024-07-24
-## CVE-2024-34329
+# Update 2024-07-25
+## CVE-2024-27956
+ Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ValvePress Automatic allows SQL Injection.This issue affects Automatic: from n/a through 3.92.0.
+
+- [https://github.com/CERTologists/EXPLOITING-CVE-2024-27956](https://github.com/CERTologists/EXPLOITING-CVE-2024-27956) :  ![starts](https://img.shields.io/github/stars/CERTologists/EXPLOITING-CVE-2024-27956.svg) ![forks](https://img.shields.io/github/forks/CERTologists/EXPLOITING-CVE-2024-27956.svg)
+
+
+## CVE-2024-4166
+ A vulnerability has been found in Tenda 4G300 1.01.42 and classified as critical. Affected by this vulnerability is the function sub_41E858. The manipulation of the argument GO/page leads to stack-based buffer overflow. The attack can be launched remotely. The identifier VDB-261985 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+- [https://github.com/sh3bu/CVE-2024-41662](https://github.com/sh3bu/CVE-2024-41662) :  ![starts](https://img.shields.io/github/stars/sh3bu/CVE-2024-41662.svg) ![forks](https://img.shields.io/github/forks/sh3bu/CVE-2024-41662.svg)
+
+
+## CVE-2024-4110
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/pamoutaf/CVE-2024-34329](https://github.com/pamoutaf/CVE-2024-34329) :  ![starts](https://img.shields.io/github/stars/pamoutaf/CVE-2024-34329.svg) ![forks](https://img.shields.io/github/forks/pamoutaf/CVE-2024-34329.svg)
+- [https://github.com/d0rb/CVE-2024-41107](https://github.com/d0rb/CVE-2024-41107) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2024-41107.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2024-41107.svg)
 
 
-## CVE-2024-29863
- A race condition in the installer executable in Qlik Qlikview before versions May 2022 SR3 (12.70.20300) and May 2023 SR2 (12,80.20200) may allow an existing lower privileged user to cause code to be executed in the context of a Windows Administrator.
+## CVE-2023-38831
+ RARLAB WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.
 
-- [https://github.com/pawlokk/qlikview-poc-CVE-2024-29863](https://github.com/pawlokk/qlikview-poc-CVE-2024-29863) :  ![starts](https://img.shields.io/github/stars/pawlokk/qlikview-poc-CVE-2024-29863.svg) ![forks](https://img.shields.io/github/forks/pawlokk/qlikview-poc-CVE-2024-29863.svg)
-
-
-## CVE-2024-24919
- Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN or Mobile Access Software Blades. A Security fix that mitigates this vulnerability is available.
-
-- [https://github.com/H3KEY/CVE-2024-24919](https://github.com/H3KEY/CVE-2024-24919) :  ![starts](https://img.shields.io/github/stars/H3KEY/CVE-2024-24919.svg) ![forks](https://img.shields.io/github/forks/H3KEY/CVE-2024-24919.svg)
+- [https://github.com/MaorBuskila/Windows-X64-RAT](https://github.com/MaorBuskila/Windows-X64-RAT) :  ![starts](https://img.shields.io/github/stars/MaorBuskila/Windows-X64-RAT.svg) ![forks](https://img.shields.io/github/forks/MaorBuskila/Windows-X64-RAT.svg)
 
 
-## CVE-2024-4042
- The Post Grid, Form Maker, Popup Maker, WooCommerce Blocks, Post Blocks, Post Carousel &#8211; Combo Blocks plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'class' attribute of the menu-wrap-item block in all versions up to, and including, 2.2.80 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+## CVE-2021-44270
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/alpernae/CVE-2024-40422](https://github.com/alpernae/CVE-2024-40422) :  ![starts](https://img.shields.io/github/stars/alpernae/CVE-2024-40422.svg) ![forks](https://img.shields.io/github/forks/alpernae/CVE-2024-40422.svg)
-
-
-## CVE-2023-30800
- The web server used by MikroTik RouterOS version 6 is affected by a heap memory corruption issue. A remote and unauthenticated attacker can corrupt the server's heap memory by sending a crafted HTTP request. As a result, the web interface crashes and is immediately restarted. The issue was fixed in RouterOS 6.49.10 stable. RouterOS version 7 is not affected.
-
-- [https://github.com/griffinsectio/CVE-2023-30800_PoC_go](https://github.com/griffinsectio/CVE-2023-30800_PoC_go) :  ![starts](https://img.shields.io/github/stars/griffinsectio/CVE-2023-30800_PoC_go.svg) ![forks](https://img.shields.io/github/forks/griffinsectio/CVE-2023-30800_PoC_go.svg)
-
-
-## CVE-2023-1773
- A vulnerability was found in Rockoa 2.3.2. It has been declared as critical. This vulnerability affects unknown code of the file webmainConfig.php of the component Configuration File Handler. The manipulation leads to code injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-224674 is the identifier assigned to this vulnerability.
-
-- [https://github.com/CTF-Archives/xinhu-v2.3.2](https://github.com/CTF-Archives/xinhu-v2.3.2) :  ![starts](https://img.shields.io/github/stars/CTF-Archives/xinhu-v2.3.2.svg) ![forks](https://img.shields.io/github/forks/CTF-Archives/xinhu-v2.3.2.svg)
-
-
-## CVE-2013-2028
- The ngx_http_parse_chunked function in http/ngx_http_parse.c in nginx 1.3.9 through 1.4.0 allows remote attackers to cause a denial of service (crash) and execute arbitrary code via a chunked Transfer-Encoding request with a large chunk size, which triggers an integer signedness error and a stack-based buffer overflow.
-
-- [https://github.com/xiw1ll/CVE-2013-2028_Checker](https://github.com/xiw1ll/CVE-2013-2028_Checker) :  ![starts](https://img.shields.io/github/stars/xiw1ll/CVE-2013-2028_Checker.svg) ![forks](https://img.shields.io/github/forks/xiw1ll/CVE-2013-2028_Checker.svg)
+- [https://github.com/pinpinsec/CVE-2021-44270](https://github.com/pinpinsec/CVE-2021-44270) :  ![starts](https://img.shields.io/github/stars/pinpinsec/CVE-2021-44270.svg) ![forks](https://img.shields.io/github/forks/pinpinsec/CVE-2021-44270.svg)
 
