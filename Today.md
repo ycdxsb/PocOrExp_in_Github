@@ -1,79 +1,90 @@
-# Update 2024-07-26
-## CVE-2024-36401
+# Update 2024-07-27
+## CVE-2024-38761
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/ahisec/geoserver-](https://github.com/ahisec/geoserver-) :  ![starts](https://img.shields.io/github/stars/ahisec/geoserver-.svg) ![forks](https://img.shields.io/github/forks/ahisec/geoserver-.svg)
+- [https://github.com/codeb0ss/CVEploiterv2](https://github.com/codeb0ss/CVEploiterv2) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVEploiterv2.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVEploiterv2.svg)
 
 
-## CVE-2024-30078
- Windows Wi-Fi Driver Remote Code Execution Vulnerability
+## CVE-2024-38759
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/a-roshbaik/CVE_2024_30078_POC_WIFI](https://github.com/a-roshbaik/CVE_2024_30078_POC_WIFI) :  ![starts](https://img.shields.io/github/stars/a-roshbaik/CVE_2024_30078_POC_WIFI.svg) ![forks](https://img.shields.io/github/forks/a-roshbaik/CVE_2024_30078_POC_WIFI.svg)
+- [https://github.com/codeb0ss/CVEploiterv2](https://github.com/codeb0ss/CVEploiterv2) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVEploiterv2.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVEploiterv2.svg)
 
 
-## CVE-2024-22198
- Nginx-UI is a web interface to manage Nginx configurations. It is vulnerable to arbitrary command execution by abusing the configuration settings. The `Home &gt; Preference` page exposes a list of system settings such as `Run Mode`, `Jwt Secret`, `Node Secret` and `Terminal Start Command`. While the UI doesn't allow users to modify the `Terminal Start Command` setting, it is possible to do so by sending a request to the API. This issue may lead to authenticated remote code execution, privilege escalation, and information disclosure. This vulnerability has been patched in version 2.0.0.beta.9.
+## CVE-2024-32399
+ Directory Traversal vulnerability in RaidenMAILD Mail Server v.4.9.4 and before allows a remote attacker to obtain sensitive information via the /webeditor/ component.
 
-- [https://github.com/xiw1ll/CVE-2024-22198_Checker](https://github.com/xiw1ll/CVE-2024-22198_Checker) :  ![starts](https://img.shields.io/github/stars/xiw1ll/CVE-2024-22198_Checker.svg) ![forks](https://img.shields.io/github/forks/xiw1ll/CVE-2024-22198_Checker.svg)
+- [https://github.com/codeb0ss/CVEploiterv2](https://github.com/codeb0ss/CVEploiterv2) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVEploiterv2.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVEploiterv2.svg)
+
+
+## CVE-2024-23897
+ Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
+
+- [https://github.com/AnastasiaStill/CVE-2024-23897](https://github.com/AnastasiaStill/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/AnastasiaStill/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/AnastasiaStill/CVE-2024-23897.svg)
+
+
+## CVE-2024-21006
+ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+
+- [https://github.com/dadvlingd/CVE-2024-21006](https://github.com/dadvlingd/CVE-2024-21006) :  ![starts](https://img.shields.io/github/stars/dadvlingd/CVE-2024-21006.svg) ![forks](https://img.shields.io/github/forks/dadvlingd/CVE-2024-21006.svg)
+
+
+## CVE-2024-6313
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/codeb0ss/CVEploiterv2](https://github.com/codeb0ss/CVEploiterv2) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVEploiterv2.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVEploiterv2.svg)
+
+
+## CVE-2024-6164
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/codeb0ss/CVEploiterv2](https://github.com/codeb0ss/CVEploiterv2) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVEploiterv2.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVEploiterv2.svg)
+
+
+## CVE-2024-4836
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/codeb0ss/CVEploiterv2](https://github.com/codeb0ss/CVEploiterv2) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVEploiterv2.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVEploiterv2.svg)
 
 
 ## CVE-2024-4577
  In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use &quot;Best-Fit&quot; behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
 
-- [https://github.com/a-roshbaik/CVE-2024-4577](https://github.com/a-roshbaik/CVE-2024-4577) :  ![starts](https://img.shields.io/github/stars/a-roshbaik/CVE-2024-4577.svg) ![forks](https://img.shields.io/github/forks/a-roshbaik/CVE-2024-4577.svg)
-- [https://github.com/a-roshbaik/CVE-2024-4577-PHP-RCE](https://github.com/a-roshbaik/CVE-2024-4577-PHP-RCE) :  ![starts](https://img.shields.io/github/stars/a-roshbaik/CVE-2024-4577-PHP-RCE.svg) ![forks](https://img.shields.io/github/forks/a-roshbaik/CVE-2024-4577-PHP-RCE.svg)
+- [https://github.com/codeb0ss/CVEploiterv2](https://github.com/codeb0ss/CVEploiterv2) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVEploiterv2.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVEploiterv2.svg)
 
 
-## CVE-2024-4034
- The Virtue theme for WordPress is vulnerable to Stored Cross-Site Scripting via a Post Author's name in all versions up to, and including, 3.4.8 due to insufficient input sanitization and output escaping when the latest posts feature is enabled on the homepage. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+## CVE-2024-4295
+ The Email Subscribers by Icegram Express plugin for WordPress is vulnerable to SQL Injection via the &#8216;hash&#8217; parameter in all versions up to, and including, 5.7.20 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 
-- [https://github.com/codeb0ss/CVE-2024-40348-PoC](https://github.com/codeb0ss/CVE-2024-40348-PoC) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVE-2024-40348-PoC.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVE-2024-40348-PoC.svg)
-
-
-## CVE-2023-23752
- An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.
-
-- [https://github.com/zerowork1/CVE2023-23752](https://github.com/zerowork1/CVE2023-23752) :  ![starts](https://img.shields.io/github/stars/zerowork1/CVE2023-23752.svg) ![forks](https://img.shields.io/github/forks/zerowork1/CVE2023-23752.svg)
+- [https://github.com/codeb0ss/CVEploiterv2](https://github.com/codeb0ss/CVEploiterv2) :  ![starts](https://img.shields.io/github/stars/codeb0ss/CVEploiterv2.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/CVEploiterv2.svg)
 
 
-## CVE-2023-0400
- The protection bypass vulnerability in DLP for Windows 11.9.x is addressed in version 11.10.0. This allowed a local user to bypass DLP controls when uploading sensitive data from a mapped drive into a web email client. Loading from a local driver was correctly prevented. Versions prior to 11.9 correctly detected and blocked the attempted upload of sensitive data.
+## CVE-2024-4111
+ A vulnerability was found in Tenda TX9 22.03.02.10. It has been rated as critical. Affected by this issue is the function sub_42BD7C of the file /goform/SetLEDCfg. The manipulation of the argument time leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-261854 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
 
-- [https://github.com/pinpinsec/CVE-2023-0400](https://github.com/pinpinsec/CVE-2023-0400) :  ![starts](https://img.shields.io/github/stars/pinpinsec/CVE-2023-0400.svg) ![forks](https://img.shields.io/github/forks/pinpinsec/CVE-2023-0400.svg)
-
-
-## CVE-2021-31630
- Command Injection in Open PLC Webserver v3 allows remote attackers to execute arbitrary code via the &quot;Hardware Layer Code Box&quot; component on the &quot;/hardware&quot; page of the application.
-
-- [https://github.com/manuelsantosiglesias/CVE-2021-31630](https://github.com/manuelsantosiglesias/CVE-2021-31630) :  ![starts](https://img.shields.io/github/stars/manuelsantosiglesias/CVE-2021-31630.svg) ![forks](https://img.shields.io/github/forks/manuelsantosiglesias/CVE-2021-31630.svg)
+- [https://github.com/vvpoglazov/cve-2024-41110-checker](https://github.com/vvpoglazov/cve-2024-41110-checker) :  ![starts](https://img.shields.io/github/stars/vvpoglazov/cve-2024-41110-checker.svg) ![forks](https://img.shields.io/github/forks/vvpoglazov/cve-2024-41110-checker.svg)
 
 
-## CVE-2020-14066
- IceWarp Email Server 12.3.0.1 allows remote attackers to upload JavaScript files that are dangerous for clients to access.
+## CVE-2024-4032
+ The &#8220;ipaddress&#8221; module contained incorrect information about whether certain IPv4 and IPv6 addresses were designated as &#8220;globally reachable&#8221; or &#8220;private&#8221;. This affected the is_private and is_global properties of the ipaddress.IPv4Address, ipaddress.IPv4Network, ipaddress.IPv6Address, and ipaddress.IPv6Network classes, where values wouldn&#8217;t be returned in accordance with the latest information from the IANA Special-Purpose Address Registries. CPython 3.12.4 and 3.13.0a6 contain updated information from these registries and thus have the intended behavior.
 
-- [https://github.com/pinpinsec/CVE-2020-14066](https://github.com/pinpinsec/CVE-2020-14066) :  ![starts](https://img.shields.io/github/stars/pinpinsec/CVE-2020-14066.svg) ![forks](https://img.shields.io/github/forks/pinpinsec/CVE-2020-14066.svg)
-
-
-## CVE-2020-14065
- IceWarp Email Server 12.3.0.1 allows remote attackers to upload files and consume disk space.
-
-- [https://github.com/pinpinsec/CVE-2020-14065](https://github.com/pinpinsec/CVE-2020-14065) :  ![starts](https://img.shields.io/github/stars/pinpinsec/CVE-2020-14065.svg) ![forks](https://img.shields.io/github/forks/pinpinsec/CVE-2020-14065.svg)
+- [https://github.com/aleksey-vi/CVE-2024-40324](https://github.com/aleksey-vi/CVE-2024-40324) :  ![starts](https://img.shields.io/github/stars/aleksey-vi/CVE-2024-40324.svg) ![forks](https://img.shields.io/github/forks/aleksey-vi/CVE-2024-40324.svg)
 
 
-## CVE-2020-9480
- In Apache Spark 2.4.5 and earlier, a standalone resource manager's master may be configured to require authentication (spark.authenticate) via a shared secret. When enabled, however, a specially-crafted RPC to the master can succeed in starting an application's resources on the Spark cluster, even without the shared key. This can be leveraged to execute shell commands on the host machine. This does not affect Spark clusters using other resource managers (YARN, Mesos, etc).
+## CVE-2024-4031
+ Unquoted Search Path or Element vulnerability in Logitech MEVO WEBCAM APP on Windows allows Local Execution of Code.
 
-- [https://github.com/XiaoShaYu617/CVE-2020-9480](https://github.com/XiaoShaYu617/CVE-2020-9480) :  ![starts](https://img.shields.io/github/stars/XiaoShaYu617/CVE-2020-9480.svg) ![forks](https://img.shields.io/github/forks/XiaoShaYu617/CVE-2020-9480.svg)
-
-
-## CVE-2018-25031
- Swagger UI before 4.1.3 could allow a remote attacker to conduct spoofing attacks. By persuading a victim to open a crafted URL, an attacker could exploit this vulnerability to display remote OpenAPI definitions.
-
-- [https://github.com/natpakun/SSRF-CVE-2018-25031-](https://github.com/natpakun/SSRF-CVE-2018-25031-) :  ![starts](https://img.shields.io/github/stars/natpakun/SSRF-CVE-2018-25031-.svg) ![forks](https://img.shields.io/github/forks/natpakun/SSRF-CVE-2018-25031-.svg)
+- [https://github.com/3v1lC0d3/RCE-QloApps-CVE-2024-40318](https://github.com/3v1lC0d3/RCE-QloApps-CVE-2024-40318) :  ![starts](https://img.shields.io/github/stars/3v1lC0d3/RCE-QloApps-CVE-2024-40318.svg) ![forks](https://img.shields.io/github/forks/3v1lC0d3/RCE-QloApps-CVE-2024-40318.svg)
 
 
-## CVE-2008-3531
- Stack-based buffer overflow in sys/kern/vfs_mount.c in the kernel in FreeBSD 7.0 and 7.1, when vfs.usermount is enabled, allows local users to gain privileges via a crafted (1) mount or (2) nmount system call, related to copying of &quot;user defined data&quot; in &quot;certain error conditions.&quot;
+## CVE-2023-7028
+ An issue has been discovered in GitLab CE/EE affecting all versions from 16.1 prior to 16.1.6, 16.2 prior to 16.2.9, 16.3 prior to 16.3.7, 16.4 prior to 16.4.5, 16.5 prior to 16.5.6, 16.6 prior to 16.6.4, and 16.7 prior to 16.7.2 in which user account password reset emails could be delivered to an unverified email address.
 
-- [https://github.com/test-one9/ps4-11.50.github.io](https://github.com/test-one9/ps4-11.50.github.io) :  ![starts](https://img.shields.io/github/stars/test-one9/ps4-11.50.github.io.svg) ![forks](https://img.shields.io/github/forks/test-one9/ps4-11.50.github.io.svg)
+- [https://github.com/soltanali0/CVE-2023-7028](https://github.com/soltanali0/CVE-2023-7028) :  ![starts](https://img.shields.io/github/stars/soltanali0/CVE-2023-7028.svg) ![forks](https://img.shields.io/github/forks/soltanali0/CVE-2023-7028.svg)
+
+
+## CVE-2022-3910
+ Use After Free vulnerability in Linux Kernel allows Privilege Escalation. An improper Update of Reference Count in io_uring leads to Use-After-Free and Local Privilege Escalation. When io_msg_ring was invoked with a fixed file, it called io_fput_file() which improperly decreased its reference count (leading to Use-After-Free and Local Privilege Escalation). Fixed files are permanently registered to the ring, and should not be put separately. We recommend upgrading past commit https://github.com/torvalds/linux/commit/fc7222c3a9f56271fba02aabbfbae999042f1679 https://github.com/torvalds/linux/commit/fc7222c3a9f56271fba02aabbfbae999042f1679
+
+- [https://github.com/TLD1027/CVE-2022-3910](https://github.com/TLD1027/CVE-2022-3910) :  ![starts](https://img.shields.io/github/stars/TLD1027/CVE-2022-3910.svg) ![forks](https://img.shields.io/github/forks/TLD1027/CVE-2022-3910.svg)
 
