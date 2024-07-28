@@ -221,3 +221,10 @@
 
 
 - [https://github.com/azorfus/CVE-2010-0232](https://github.com/azorfus/CVE-2010-0232) :  ![starts](https://img.shields.io/github/stars/azorfus/CVE-2010-0232.svg) ![forks](https://img.shields.io/github/forks/azorfus/CVE-2010-0232.svg)
+
+## CVE-2010-0219
+ Apache Axis2, as used in dswsbobje.war in SAP BusinessObjects Enterprise XI 3.2, CA ARCserve D2D r15, and other products, has a default password of axis2 for the admin account, which makes it easier for remote attackers to execute arbitrary code by uploading a crafted web service.
+
+
+
+- [https://github.com/veritas-rt/CVE-2010-0219](https://github.com/veritas-rt/CVE-2010-0219) :  ![starts](https://img.shields.io/github/stars/veritas-rt/CVE-2010-0219.svg) ![forks](https://img.shields.io/github/forks/veritas-rt/CVE-2010-0219.svg)
