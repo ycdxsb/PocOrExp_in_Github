@@ -69,6 +69,13 @@
 
 - [https://github.com/darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/darrynb89/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/darrynb89/CVE-2004-1561.svg)
 
+## CVE-2004-1151
+ Multiple buffer overflows in the (1) sys32_ni_syscall and (2) sys32_vm86_warning functions in sys_ia32.c for Linux 2.6.x may allow local attackers to modify kernel memory and gain privileges.
+
+
+
+- [https://github.com/lulugelian/CVE_TEST](https://github.com/lulugelian/CVE_TEST) :  ![starts](https://img.shields.io/github/stars/lulugelian/CVE_TEST.svg) ![forks](https://img.shields.io/github/forks/lulugelian/CVE_TEST.svg)
+
 ## CVE-2004-0558
  The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows remote attackers to cause a denial of service (service hang) via a certain UDP packet to the IPP port.
 
