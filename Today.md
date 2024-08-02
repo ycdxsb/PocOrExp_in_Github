@@ -1,104 +1,78 @@
-# Update 2024-08-01
-## CVE-2024-36401
+# Update 2024-08-02
+## CVE-2024-39306
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Chocapikk/CVE-2024-36401](https://github.com/Chocapikk/CVE-2024-36401) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-36401.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-36401.svg)
+- [https://github.com/apena-ba/CVE-2024-39306](https://github.com/apena-ba/CVE-2024-39306) :  ![starts](https://img.shields.io/github/stars/apena-ba/CVE-2024-39306.svg) ![forks](https://img.shields.io/github/forks/apena-ba/CVE-2024-39306.svg)
 
 
-## CVE-2024-34693
- Improper Input Validation vulnerability in Apache Superset, allows for an authenticated attacker to create a MariaDB connection with local_infile enabled. If both the MariaDB server (off by default) and the local mysql client on the web server are set to allow for local infile, it's possible for the attacker to execute a specific MySQL/MariaDB SQL command that is able to read files from the server and insert their content on a MariaDB database table.This issue affects Apache Superset: before 3.1.3 and version 4.0.0 Users are recommended to upgrade to version 4.0.1 or 3.1.3, which fixes the issue.
-
-- [https://github.com/Mr-r00t11/CVE-2024-34693](https://github.com/Mr-r00t11/CVE-2024-34693) :  ![starts](https://img.shields.io/github/stars/Mr-r00t11/CVE-2024-34693.svg) ![forks](https://img.shields.io/github/forks/Mr-r00t11/CVE-2024-34693.svg)
-
-
-## CVE-2024-34102
- Adobe Commerce versions 2.4.7, 2.4.6-p5, 2.4.5-p7, 2.4.4-p8 and earlier are affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could result in arbitrary code execution. An attacker could exploit this vulnerability by sending a crafted XML document that references external entities. Exploitation of this issue does not require user interaction.
-
-- [https://github.com/etx-Arn/CVE-2024-34102-RCE](https://github.com/etx-Arn/CVE-2024-34102-RCE) :  ![starts](https://img.shields.io/github/stars/etx-Arn/CVE-2024-34102-RCE.svg) ![forks](https://img.shields.io/github/forks/etx-Arn/CVE-2024-34102-RCE.svg)
-
-
-## CVE-2024-32002
- Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
-
-- [https://github.com/NishanthAnand21/CVE-2024-32002-PoC](https://github.com/NishanthAnand21/CVE-2024-32002-PoC) :  ![starts](https://img.shields.io/github/stars/NishanthAnand21/CVE-2024-32002-PoC.svg) ![forks](https://img.shields.io/github/forks/NishanthAnand21/CVE-2024-32002-PoC.svg)
-- [https://github.com/tiyeume25112004/CVE-2024-32002](https://github.com/tiyeume25112004/CVE-2024-32002) :  ![starts](https://img.shields.io/github/stars/tiyeume25112004/CVE-2024-32002.svg) ![forks](https://img.shields.io/github/forks/tiyeume25112004/CVE-2024-32002.svg)
-
-
-## CVE-2024-25600
- Improper Control of Generation of Code ('Code Injection') vulnerability in Codeer Limited Bricks Builder allows Code Injection.This issue affects Bricks Builder: from n/a through 1.9.6.
-
-- [https://github.com/KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress](https://github.com/KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress) :  ![starts](https://img.shields.io/github/stars/KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress.svg) ![forks](https://img.shields.io/github/forks/KaSooMi0228/CVE-2024-25600-Bricks-Builder-WordPress.svg)
-
-
-## CVE-2024-4130
+## CVE-2024-39304
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/patrickdeanramos/CVE-2024-41302-Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection](https://github.com/patrickdeanramos/CVE-2024-41302-Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection) :  ![starts](https://img.shields.io/github/stars/patrickdeanramos/CVE-2024-41302-Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection.svg) ![forks](https://img.shields.io/github/forks/patrickdeanramos/CVE-2024-41302-Bookea-tu-Mesa-is-vulnerable-to-SQL-Injection.svg)
-- [https://github.com/patrickdeanramos/CVE-2024-41301-Bookea-tu-Mesa-is-vulnerable-to-Stored-Cross-Site-Scripting](https://github.com/patrickdeanramos/CVE-2024-41301-Bookea-tu-Mesa-is-vulnerable-to-Stored-Cross-Site-Scripting) :  ![starts](https://img.shields.io/github/stars/patrickdeanramos/CVE-2024-41301-Bookea-tu-Mesa-is-vulnerable-to-Stored-Cross-Site-Scripting.svg) ![forks](https://img.shields.io/github/forks/patrickdeanramos/CVE-2024-41301-Bookea-tu-Mesa-is-vulnerable-to-Stored-Cross-Site-Scripting.svg)
+- [https://github.com/apena-ba/CVE-2024-39304](https://github.com/apena-ba/CVE-2024-39304) :  ![starts](https://img.shields.io/github/stars/apena-ba/CVE-2024-39304.svg) ![forks](https://img.shields.io/github/forks/apena-ba/CVE-2024-39304.svg)
 
 
-## CVE-2024-4061
- The Survey Maker WordPress plugin before 4.2.9 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)
+## CVE-2024-39081
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/KyssK00L/CVE-2024-40617](https://github.com/KyssK00L/CVE-2024-40617) :  ![starts](https://img.shields.io/github/stars/KyssK00L/CVE-2024-40617.svg) ![forks](https://img.shields.io/github/forks/KyssK00L/CVE-2024-40617.svg)
-
-
-## CVE-2023-43040
- IBM Spectrum Fusion HCI 2.5.2 through 2.7.2 could allow an attacker to perform unauthorized actions in RGW for Ceph due to improper bucket access. IBM X-Force ID: 266807.
-
-- [https://github.com/riza/CVE-2023-43040](https://github.com/riza/CVE-2023-43040) :  ![starts](https://img.shields.io/github/stars/riza/CVE-2023-43040.svg) ![forks](https://img.shields.io/github/forks/riza/CVE-2023-43040.svg)
+- [https://github.com/Amirasaiyad/BLE-TPMS](https://github.com/Amirasaiyad/BLE-TPMS) :  ![starts](https://img.shields.io/github/stars/Amirasaiyad/BLE-TPMS.svg) ![forks](https://img.shields.io/github/forks/Amirasaiyad/BLE-TPMS.svg)
 
 
-## CVE-2023-33592
- Lost and Found Information System v1.0 was discovered to contain a SQL injection vulnerability via the component /php-lfis/admin/?page=system_info/contact_information.
+## CVE-2024-36842
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/ChineseOldboy/CVE-2023-33592](https://github.com/ChineseOldboy/CVE-2023-33592) :  ![starts](https://img.shields.io/github/stars/ChineseOldboy/CVE-2023-33592.svg) ![forks](https://img.shields.io/github/forks/ChineseOldboy/CVE-2023-33592.svg)
-
-
-## CVE-2023-31606
- A Regular Expression Denial of Service (ReDoS) issue was discovered in the sanitize_html function of redcloth gem v4.0.0. This vulnerability allows attackers to cause a Denial of Service (DoS) via supplying a crafted payload.
-
-- [https://github.com/merbinr/CVE-2023-31606](https://github.com/merbinr/CVE-2023-31606) :  ![starts](https://img.shields.io/github/stars/merbinr/CVE-2023-31606.svg) ![forks](https://img.shields.io/github/forks/merbinr/CVE-2023-31606.svg)
+- [https://github.com/abbiy/Backdooring-Oncord-Android-Sterio-](https://github.com/abbiy/Backdooring-Oncord-Android-Sterio-) :  ![starts](https://img.shields.io/github/stars/abbiy/Backdooring-Oncord-Android-Sterio-.svg) ![forks](https://img.shields.io/github/forks/abbiy/Backdooring-Oncord-Android-Sterio-.svg)
 
 
-## CVE-2022-40146
- Server-Side Request Forgery (SSRF) vulnerability in Batik of Apache XML Graphics allows an attacker to access files using a Jar url. This issue affects Apache XML Graphics Batik 1.14.
+## CVE-2024-32104
+ Cross-Site Request Forgery (CSRF) vulnerability in XLPlugins NextMove Lite.This issue affects NextMove Lite: from n/a through 2.18.1.
 
-- [https://github.com/soulfoodisgood/CVE-2022-40146](https://github.com/soulfoodisgood/CVE-2022-40146) :  ![starts](https://img.shields.io/github/stars/soulfoodisgood/CVE-2022-40146.svg) ![forks](https://img.shields.io/github/forks/soulfoodisgood/CVE-2022-40146.svg)
-
-
-## CVE-2022-2590
- A race condition was found in the way the Linux kernel's memory subsystem handled the copy-on-write (COW) breakage of private read-only shared memory mappings. This flaw allows an unprivileged, local user to gain write access to read-only memory mappings, increasing their privileges on the system.
-
-- [https://github.com/hyeonjun17/CVE-2022-2590-analysis](https://github.com/hyeonjun17/CVE-2022-2590-analysis) :  ![starts](https://img.shields.io/github/stars/hyeonjun17/CVE-2022-2590-analysis.svg) ![forks](https://img.shields.io/github/forks/hyeonjun17/CVE-2022-2590-analysis.svg)
+- [https://github.com/Cerberus-HiproPlus/CVE-2024-32104](https://github.com/Cerberus-HiproPlus/CVE-2024-32104) :  ![starts](https://img.shields.io/github/stars/Cerberus-HiproPlus/CVE-2024-32104.svg) ![forks](https://img.shields.io/github/forks/Cerberus-HiproPlus/CVE-2024-32104.svg)
 
 
-## CVE-2021-42013
- It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue only affects Apache 2.4.49 and Apache 2.4.50 and not earlier versions.
+## CVE-2024-24919
+ Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN or Mobile Access Software Blades. A Security fix that mitigates this vulnerability is available.
 
-- [https://github.com/bananoname/cve-2021-42013](https://github.com/bananoname/cve-2021-42013) :  ![starts](https://img.shields.io/github/stars/bananoname/cve-2021-42013.svg) ![forks](https://img.shields.io/github/forks/bananoname/cve-2021-42013.svg)
-
-
-## CVE-2021-33699
- Task Hijacking is a vulnerability that affects the applications running on Android devices due to a misconfiguration in their AndroidManifest.xml with their Task Control features. This allows an unauthorized attacker or malware to takeover legitimate apps and to steal user's sensitive information.
-
-- [https://github.com/naroSEC/CVE-2021-33699_Task_Hijacking](https://github.com/naroSEC/CVE-2021-33699_Task_Hijacking) :  ![starts](https://img.shields.io/github/stars/naroSEC/CVE-2021-33699_Task_Hijacking.svg) ![forks](https://img.shields.io/github/forks/naroSEC/CVE-2021-33699_Task_Hijacking.svg)
+- [https://github.com/smkxt1/CVE-2024-24919](https://github.com/smkxt1/CVE-2024-24919) :  ![starts](https://img.shields.io/github/stars/smkxt1/CVE-2024-24919.svg) ![forks](https://img.shields.io/github/forks/smkxt1/CVE-2024-24919.svg)
 
 
-## CVE-2021-29442
- Nacos is a platform designed for dynamic service discovery and configuration and service management. In Nacos before version 1.4.1, the ConfigOpsController lets the user perform management operations like querying the database or even wiping it out. While the /data/remove endpoint is properly protected with the @Secured annotation, the /derby endpoint is not protected and can be openly accessed by unauthenticated users. These endpoints are only valid when using embedded storage (derby DB) so this issue should not affect those installations using external storage (e.g. mysql)
+## CVE-2024-4577
+ In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use &quot;Best-Fit&quot; behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
 
-- [https://github.com/VictorShem/QVD-2024-26473](https://github.com/VictorShem/QVD-2024-26473) :  ![starts](https://img.shields.io/github/stars/VictorShem/QVD-2024-26473.svg) ![forks](https://img.shields.io/github/forks/VictorShem/QVD-2024-26473.svg)
-
-
-## CVE-2021-4034
- A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
-
-- [https://github.com/fnknda/CVE-2021-4034_POC](https://github.com/fnknda/CVE-2021-4034_POC) :  ![starts](https://img.shields.io/github/stars/fnknda/CVE-2021-4034_POC.svg) ![forks](https://img.shields.io/github/forks/fnknda/CVE-2021-4034_POC.svg)
+- [https://github.com/Jcccccx/CVE-2024-4577](https://github.com/Jcccccx/CVE-2024-4577) :  ![starts](https://img.shields.io/github/stars/Jcccccx/CVE-2024-4577.svg) ![forks](https://img.shields.io/github/forks/Jcccccx/CVE-2024-4577.svg)
 
 
-## CVE-2019-1698
- A vulnerability in the web-based user interface of Cisco Internet of Things Field Network Director (IoT-FND) Software could allow an authenticated, remote attacker to gain read access to information that is stored on an affected system. The vulnerability is due to improper handling of XML External Entity (XXE) entries when parsing certain XML files. An attacker could exploit this vulnerability by importing a crafted XML file with malicious entries, which could allow the attacker to read files within the affected application. Versions prior to 4.4(0.26) are affected.
+## CVE-2024-4320
+ A remote code execution (RCE) vulnerability exists in the '/install_extension' endpoint of the parisneo/lollms-webui application, specifically within the `@router.post(&quot;/install_extension&quot;)` route handler. The vulnerability arises due to improper handling of the `name` parameter in the `ExtensionBuilder().build_extension()` method, which allows for local file inclusion (LFI) leading to arbitrary code execution. An attacker can exploit this vulnerability by crafting a malicious `name` parameter that causes the server to load and execute a `__init__.py` file from an arbitrary location, such as the upload directory for discussions. This vulnerability affects the latest version of parisneo/lollms-webui and can lead to remote code execution without requiring user interaction, especially when the application is exposed to an external endpoint or operated in headless mode.
 
-- [https://github.com/raytran54/CVE-2019-1698](https://github.com/raytran54/CVE-2019-1698) :  ![starts](https://img.shields.io/github/stars/raytran54/CVE-2019-1698.svg) ![forks](https://img.shields.io/github/forks/raytran54/CVE-2019-1698.svg)
+- [https://github.com/bolkv/CVE-2024-4320](https://github.com/bolkv/CVE-2024-4320) :  ![starts](https://img.shields.io/github/stars/bolkv/CVE-2024-4320.svg) ![forks](https://img.shields.io/github/forks/bolkv/CVE-2024-4320.svg)
+
+
+## CVE-2024-3970
+ Server Side Request Forgery vulnerability has been discovered in OpenText&#8482; iManager 3.2.6.0200. This could lead to senstive information disclosure by directory traversal.
+
+- [https://github.com/LOURC0D3/CVE-2024-39700-PoC](https://github.com/LOURC0D3/CVE-2024-39700-PoC) :  ![starts](https://img.shields.io/github/stars/LOURC0D3/CVE-2024-39700-PoC.svg) ![forks](https://img.shields.io/github/forks/LOURC0D3/CVE-2024-39700-PoC.svg)
+
+
+## CVE-2022-41544
+ GetSimple CMS v3.3.16 was discovered to contain a remote code execution (RCE) vulnerability via the edited_file parameter in admin/theme-edit.php.
+
+- [https://github.com/Sp3c73rSh4d0w/CVE-2022-41544](https://github.com/Sp3c73rSh4d0w/CVE-2022-41544) :  ![starts](https://img.shields.io/github/stars/Sp3c73rSh4d0w/CVE-2022-41544.svg) ![forks](https://img.shields.io/github/forks/Sp3c73rSh4d0w/CVE-2022-41544.svg)
+
+
+## CVE-2022-22978
+ In spring security versions prior to 5.4.11+, 5.5.7+ , 5.6.4+ and older unsupported versions, RegexRequestMatcher can easily be misconfigured to be bypassed on some servlet containers. Applications using RegexRequestMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass.
+
+- [https://github.com/BoB13-Opensource-Contribution-Team9/CVE-2022-22978](https://github.com/BoB13-Opensource-Contribution-Team9/CVE-2022-22978) :  ![starts](https://img.shields.io/github/stars/BoB13-Opensource-Contribution-Team9/CVE-2022-22978.svg) ![forks](https://img.shields.io/github/forks/BoB13-Opensource-Contribution-Team9/CVE-2022-22978.svg)
+
+
+## CVE-2022-21449
+ Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 17.0.2 and 18; Oracle GraalVM Enterprise Edition: 21.3.1 and 22.0.0.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 7.5 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N).
+
+- [https://github.com/HeyMrSalt/AIS3-2024-Project-D5Team](https://github.com/HeyMrSalt/AIS3-2024-Project-D5Team) :  ![starts](https://img.shields.io/github/stars/HeyMrSalt/AIS3-2024-Project-D5Team.svg) ![forks](https://img.shields.io/github/forks/HeyMrSalt/AIS3-2024-Project-D5Team.svg)
+
+
+## CVE-2021-42056
+ Thales Safenet Authentication Client (SAC) for Linux and Windows through 10.7.7 creates insecure temporary hid and lock files allowing a local attacker, through a symlink attack, to overwrite arbitrary files, and potentially achieve arbitrary command execution with high privileges.
+
+- [https://github.com/z00z00z00/Safenet_SAC_CVE-2021-42056](https://github.com/z00z00z00/Safenet_SAC_CVE-2021-42056) :  ![starts](https://img.shields.io/github/stars/z00z00z00/Safenet_SAC_CVE-2021-42056.svg) ![forks](https://img.shields.io/github/forks/z00z00z00/Safenet_SAC_CVE-2021-42056.svg)
 
