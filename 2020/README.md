@@ -1922,6 +1922,15 @@
 
 - [https://github.com/CPO-EH/CVE-2020-16898_Checker](https://github.com/CPO-EH/CVE-2020-16898_Checker) :  ![starts](https://img.shields.io/github/stars/CPO-EH/CVE-2020-16898_Checker.svg) ![forks](https://img.shields.io/github/forks/CPO-EH/CVE-2020-16898_Checker.svg)
 
+## CVE-2020-16846
+ An issue was discovered in SaltStack Salt through 3002. Sending crafted web requests to the Salt API, with the SSH client enabled, can result in shell injection.
+
+
+
+- [https://github.com/hamza-boudouche/projet-secu](https://github.com/hamza-boudouche/projet-secu) :  ![starts](https://img.shields.io/github/stars/hamza-boudouche/projet-secu.svg) ![forks](https://img.shields.io/github/forks/hamza-boudouche/projet-secu.svg)
+
+- [https://github.com/zomy22/CVE-2020-16846-Saltstack-Salt-API](https://github.com/zomy22/CVE-2020-16846-Saltstack-Salt-API) :  ![starts](https://img.shields.io/github/stars/zomy22/CVE-2020-16846-Saltstack-Salt-API.svg) ![forks](https://img.shields.io/github/forks/zomy22/CVE-2020-16846-Saltstack-Salt-API.svg)
+
 ## CVE-2020-16270
  OLIMPOKS under 3.3.39 allows Auth/Admin ErrorMessage XSS. Remote Attacker can use discovered vulnerability to inject malicious JavaScript payload to victim&#8217;s browsers in context of vulnerable applications. Executed code can be used to steal administrator&#8217;s cookies, influence HTML content of targeted application and perform phishing-related attacks. Vulnerable application used in more than 3000 organizations in different sectors from retail to industries.
 
@@ -6497,9 +6506,9 @@
 
 - [https://github.com/arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/arzuozkan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/arzuozkan/CVE-2020-0796.svg)
 
-- [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
-
 - [https://github.com/datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/datntsec/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/datntsec/CVE-2020-0796.svg)
+
+- [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
 
 - [https://github.com/OldDream666/cve-2020-0796](https://github.com/OldDream666/cve-2020-0796) :  ![starts](https://img.shields.io/github/stars/OldDream666/cve-2020-0796.svg) ![forks](https://img.shields.io/github/forks/OldDream666/cve-2020-0796.svg)
 
@@ -6507,9 +6516,9 @@
 
 - [https://github.com/1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/1stPeak/CVE-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/1stPeak/CVE-2020-0796-Scanner.svg)
 
-- [https://github.com/F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning) :  ![starts](https://img.shields.io/github/stars/F6JO/CVE-2020-0796-Batch-scanning.svg) ![forks](https://img.shields.io/github/forks/F6JO/CVE-2020-0796-Batch-scanning.svg)
-
 - [https://github.com/AdamSonov/smbGhostCVE-2020-0796](https://github.com/AdamSonov/smbGhostCVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/AdamSonov/smbGhostCVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/AdamSonov/smbGhostCVE-2020-0796.svg)
+
+- [https://github.com/F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning) :  ![starts](https://img.shields.io/github/stars/F6JO/CVE-2020-0796-Batch-scanning.svg) ![forks](https://img.shields.io/github/forks/F6JO/CVE-2020-0796-Batch-scanning.svg)
 
 - [https://github.com/Almorabea/SMBGhost-WorkaroundApplier](https://github.com/Almorabea/SMBGhost-WorkaroundApplier) :  ![starts](https://img.shields.io/github/stars/Almorabea/SMBGhost-WorkaroundApplier.svg) ![forks](https://img.shields.io/github/forks/Almorabea/SMBGhost-WorkaroundApplier.svg)
 
@@ -6545,9 +6554,9 @@
 
 - [https://github.com/hungdnvp/POC-CVE-2020-0796](https://github.com/hungdnvp/POC-CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/hungdnvp/POC-CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/hungdnvp/POC-CVE-2020-0796.svg)
 
-- [https://github.com/lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2020-0796-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2020-0796-exp.svg)
-
 - [https://github.com/tripledd/cve-2020-0796-vuln](https://github.com/tripledd/cve-2020-0796-vuln) :  ![starts](https://img.shields.io/github/stars/tripledd/cve-2020-0796-vuln.svg) ![forks](https://img.shields.io/github/forks/tripledd/cve-2020-0796-vuln.svg)
+
+- [https://github.com/lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2020-0796-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2020-0796-exp.svg)
 
 - [https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC) :  ![starts](https://img.shields.io/github/stars/Murasame-nc/CVE-2020-0796-LPE-POC.svg) ![forks](https://img.shields.io/github/forks/Murasame-nc/CVE-2020-0796-LPE-POC.svg)
 
