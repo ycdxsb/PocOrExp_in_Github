@@ -89,7 +89,7 @@
 
 - [https://github.com/Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Alien0ne/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Alien0ne/CVE-2007-2447.svg)
 
-- [https://github.com/Sp3c73rSh4d0w/CVE-2007-2447](https://github.com/Sp3c73rSh4d0w/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/Sp3c73rSh4d0w/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Sp3c73rSh4d0w/CVE-2007-2447.svg)
+- [https://github.com/0xwh1pl4sh/CVE-2007-2447](https://github.com/0xwh1pl4sh/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xwh1pl4sh/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xwh1pl4sh/CVE-2007-2447.svg)
 
 - [https://github.com/xbufu/CVE-2007-2447](https://github.com/xbufu/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xbufu/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xbufu/CVE-2007-2447.svg)
 
