@@ -272,7 +272,7 @@
 
 
 
-- [https://github.com/Sp3c73rSh4d0w/CVE-2015-6668](https://github.com/Sp3c73rSh4d0w/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/Sp3c73rSh4d0w/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/Sp3c73rSh4d0w/CVE-2015-6668.svg)
+- [https://github.com/N3rdyN3xus/CVE-2015-6668](https://github.com/N3rdyN3xus/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/N3rdyN3xus/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/N3rdyN3xus/CVE-2015-6668.svg)
 
 - [https://github.com/G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2015-6668.svg)
 
@@ -787,8 +787,6 @@
 
 - [https://github.com/Tare05/Intel-CVE-2015-2291](https://github.com/Tare05/Intel-CVE-2015-2291) :  ![starts](https://img.shields.io/github/stars/Tare05/Intel-CVE-2015-2291.svg) ![forks](https://img.shields.io/github/forks/Tare05/Intel-CVE-2015-2291.svg)
 
-- [https://github.com/gmh5225/CVE-2015-2291](https://github.com/gmh5225/CVE-2015-2291) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2015-2291.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2015-2291.svg)
-
 ## CVE-2015-2231
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -918,7 +916,7 @@
 
 - [https://github.com/limkokholefork/CVE-2015-1635](https://github.com/limkokholefork/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/limkokholefork/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/CVE-2015-1635.svg)
 
-- [https://github.com/Sp3c73rSh4d0w/CVE-2015-1635-POC](https://github.com/Sp3c73rSh4d0w/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/Sp3c73rSh4d0w/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/Sp3c73rSh4d0w/CVE-2015-1635-POC.svg)
+- [https://github.com/N3rdyN3xus/CVE-2015-1635-POC](https://github.com/N3rdyN3xus/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/N3rdyN3xus/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/N3rdyN3xus/CVE-2015-1635-POC.svg)
 
 - [https://github.com/neu5ron/cve_2015-1635](https://github.com/neu5ron/cve_2015-1635) :  ![starts](https://img.shields.io/github/stars/neu5ron/cve_2015-1635.svg) ![forks](https://img.shields.io/github/forks/neu5ron/cve_2015-1635.svg)
 
@@ -930,7 +928,7 @@
 
 - [https://github.com/Cappricio-Securities/CVE-2015-1635](https://github.com/Cappricio-Securities/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2015-1635.svg)
 
-- [https://github.com/Sp3c73rSh4d0w/CVE-2015-1635](https://github.com/Sp3c73rSh4d0w/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/Sp3c73rSh4d0w/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/Sp3c73rSh4d0w/CVE-2015-1635.svg)
+- [https://github.com/N3rdyN3xus/CVE-2015-1635](https://github.com/N3rdyN3xus/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/N3rdyN3xus/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/N3rdyN3xus/CVE-2015-1635.svg)
 
 - [https://github.com/SkinAir/ms15-034-Scan](https://github.com/SkinAir/ms15-034-Scan) :  ![starts](https://img.shields.io/github/stars/SkinAir/ms15-034-Scan.svg) ![forks](https://img.shields.io/github/forks/SkinAir/ms15-034-Scan.svg)
 
