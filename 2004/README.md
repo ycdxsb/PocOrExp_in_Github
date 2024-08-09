@@ -9,7 +9,7 @@
 
 - [https://github.com/ss0wl/CVE-2004-2687_distcc_v1](https://github.com/ss0wl/CVE-2004-2687_distcc_v1) :  ![starts](https://img.shields.io/github/stars/ss0wl/CVE-2004-2687_distcc_v1.svg) ![forks](https://img.shields.io/github/forks/ss0wl/CVE-2004-2687_distcc_v1.svg)
 
-- [https://github.com/0xwh1pl4sh/distccd_rce_CVE-2004-2687](https://github.com/0xwh1pl4sh/distccd_rce_CVE-2004-2687) :  ![starts](https://img.shields.io/github/stars/0xwh1pl4sh/distccd_rce_CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/0xwh1pl4sh/distccd_rce_CVE-2004-2687.svg)
+- [https://github.com/N3rdyN3xus/distccd_rce_CVE-2004-2687](https://github.com/N3rdyN3xus/distccd_rce_CVE-2004-2687) :  ![starts](https://img.shields.io/github/stars/N3rdyN3xus/distccd_rce_CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/N3rdyN3xus/distccd_rce_CVE-2004-2687.svg)
 
 ## CVE-2004-2549
  Nortel Wireless LAN (WLAN) Access Point (AP) 2220, 2221, and 2225 allow remote attackers to cause a denial of service (service crash) via a TCP request with a large string, followed by 8 newline characters, to (1) the Telnet service on TCP port 23 and (2) the HTTP service on TCP port 80, possibly due to a buffer overflow.
@@ -63,9 +63,9 @@
 
 - [https://github.com/thel1nus/CVE-2004-1561-Notes](https://github.com/thel1nus/CVE-2004-1561-Notes) :  ![starts](https://img.shields.io/github/stars/thel1nus/CVE-2004-1561-Notes.svg) ![forks](https://img.shields.io/github/forks/thel1nus/CVE-2004-1561-Notes.svg)
 
-- [https://github.com/darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/darrynb89/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/darrynb89/CVE-2004-1561.svg)
-
 - [https://github.com/ratiros01/CVE-2004-1561](https://github.com/ratiros01/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2004-1561.svg)
+
+- [https://github.com/darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/darrynb89/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/darrynb89/CVE-2004-1561.svg)
 
 ## CVE-2004-1151
  Multiple buffer overflows in the (1) sys32_ni_syscall and (2) sys32_vm86_warning functions in sys_ia32.c for Linux 2.6.x may allow local attackers to modify kernel memory and gain privileges.
