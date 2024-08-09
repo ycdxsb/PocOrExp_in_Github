@@ -197,7 +197,7 @@
 
 
 
-- [https://github.com/Sp3c73rSh4d0w/CVE-2011-1249](https://github.com/Sp3c73rSh4d0w/CVE-2011-1249) :  ![starts](https://img.shields.io/github/stars/Sp3c73rSh4d0w/CVE-2011-1249.svg) ![forks](https://img.shields.io/github/forks/Sp3c73rSh4d0w/CVE-2011-1249.svg)
+- [https://github.com/N3rdyN3xus/CVE-2011-1249](https://github.com/N3rdyN3xus/CVE-2011-1249) :  ![starts](https://img.shields.io/github/stars/N3rdyN3xus/CVE-2011-1249.svg) ![forks](https://img.shields.io/github/forks/N3rdyN3xus/CVE-2011-1249.svg)
 
 - [https://github.com/Madusanka99/OHTS](https://github.com/Madusanka99/OHTS) :  ![starts](https://img.shields.io/github/stars/Madusanka99/OHTS.svg) ![forks](https://img.shields.io/github/forks/Madusanka99/OHTS.svg)
 
