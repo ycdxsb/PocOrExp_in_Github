@@ -813,9 +813,9 @@
 
 - [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
 
-- [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
-
 - [https://github.com/ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ldenevi/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ldenevi/CVE-2016-5195.svg)
+
+- [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
 
 - [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
 
@@ -1111,7 +1111,7 @@
 
 - [https://github.com/JoshMorrison99/CVE-2016-3714](https://github.com/JoshMorrison99/CVE-2016-3714) :  ![starts](https://img.shields.io/github/stars/JoshMorrison99/CVE-2016-3714.svg) ![forks](https://img.shields.io/github/forks/JoshMorrison99/CVE-2016-3714.svg)
 
-- [https://github.com/MrrRaph/pandagik](https://github.com/MrrRaph/pandagik) :  ![starts](https://img.shields.io/github/stars/MrrRaph/pandagik.svg) ![forks](https://img.shields.io/github/forks/MrrRaph/pandagik.svg)
+- [https://github.com/PandH4cker/pandagik](https://github.com/PandH4cker/pandagik) :  ![starts](https://img.shields.io/github/stars/PandH4cker/pandagik.svg) ![forks](https://img.shields.io/github/forks/PandH4cker/pandagik.svg)
 
 - [https://github.com/tommiionfire/CVE-2016-3714](https://github.com/tommiionfire/CVE-2016-3714) :  ![starts](https://img.shields.io/github/stars/tommiionfire/CVE-2016-3714.svg) ![forks](https://img.shields.io/github/forks/tommiionfire/CVE-2016-3714.svg)
 
