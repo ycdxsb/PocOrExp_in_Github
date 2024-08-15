@@ -1,109 +1,78 @@
-# Update 2024-08-14
-## CVE-2024-37085
+# Update 2024-08-15
+## CVE-2024-36424
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/WTN-arny/Vmware-ESXI](https://github.com/WTN-arny/Vmware-ESXI) :  ![starts](https://img.shields.io/github/stars/WTN-arny/Vmware-ESXI.svg) ![forks](https://img.shields.io/github/forks/WTN-arny/Vmware-ESXI.svg)
+- [https://github.com/secunnix/CVE-2024-36424](https://github.com/secunnix/CVE-2024-36424) :  ![starts](https://img.shields.io/github/stars/secunnix/CVE-2024-36424.svg) ![forks](https://img.shields.io/github/forks/secunnix/CVE-2024-36424.svg)
 
 
-## CVE-2024-27199
- In JetBrains TeamCity before 2023.11.4 path traversal allowing to perform limited admin actions was possible
+## CVE-2024-34102
+ Adobe Commerce versions 2.4.7, 2.4.6-p5, 2.4.5-p7, 2.4.4-p8 and earlier are affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could result in arbitrary code execution. An attacker could exploit this vulnerability by sending a crafted XML document that references external entities. Exploitation of this issue does not require user interaction.
 
-- [https://github.com/Pypi-Project/RCity-CVE-2024-27198](https://github.com/Pypi-Project/RCity-CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/Pypi-Project/RCity-CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/Pypi-Project/RCity-CVE-2024-27198.svg)
-
-
-## CVE-2024-27198
- In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
-
-- [https://github.com/Pypi-Project/RCity-CVE-2024-27198](https://github.com/Pypi-Project/RCity-CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/Pypi-Project/RCity-CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/Pypi-Project/RCity-CVE-2024-27198.svg)
+- [https://github.com/EQSTSeminar/CVE-2024-34102](https://github.com/EQSTSeminar/CVE-2024-34102) :  ![starts](https://img.shields.io/github/stars/EQSTSeminar/CVE-2024-34102.svg) ![forks](https://img.shields.io/github/forks/EQSTSeminar/CVE-2024-34102.svg)
 
 
-## CVE-2024-0741
- An out of bounds write in ANGLE could have allowed an attacker to corrupt memory leading to a potentially exploitable crash. This vulnerability affects Firefox &lt; 122, Firefox ESR &lt; 115.7, and Thunderbird &lt; 115.7.
+## CVE-2024-31315
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/HyHy100/Firefox-ANGLE-CVE-2024-0741](https://github.com/HyHy100/Firefox-ANGLE-CVE-2024-0741) :  ![starts](https://img.shields.io/github/stars/HyHy100/Firefox-ANGLE-CVE-2024-0741.svg) ![forks](https://img.shields.io/github/forks/HyHy100/Firefox-ANGLE-CVE-2024-0741.svg)
-
-
-## CVE-2023-41425
- Cross Site Scripting vulnerability in Wonder CMS v.3.2.0 thru v.3.4.2 allows a remote attacker to execute arbitrary code via a crafted script uploaded to the installModule component.
-
-- [https://github.com/insomnia-jacob/CVE-2023-41425](https://github.com/insomnia-jacob/CVE-2023-41425) :  ![starts](https://img.shields.io/github/stars/insomnia-jacob/CVE-2023-41425.svg) ![forks](https://img.shields.io/github/forks/insomnia-jacob/CVE-2023-41425.svg)
+- [https://github.com/uthrasri/frameworks_base_CVE-2024-31315](https://github.com/uthrasri/frameworks_base_CVE-2024-31315) :  ![starts](https://img.shields.io/github/stars/uthrasri/frameworks_base_CVE-2024-31315.svg) ![forks](https://img.shields.io/github/forks/uthrasri/frameworks_base_CVE-2024-31315.svg)
 
 
-## CVE-2022-38725
- An integer overflow in the RFC3164 parser in One Identity syslog-ng 3.0 through 3.37 allows remote attackers to cause a Denial of Service via crafted syslog input that is mishandled by the tcp or network function. syslog-ng Premium Edition 7.0.30 and syslog-ng Store Box 6.10.0 are also affected.
+## CVE-2024-23709
+ In multiple locations, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.
 
-- [https://github.com/wdahlenburg/CVE-2022-38725](https://github.com/wdahlenburg/CVE-2022-38725) :  ![starts](https://img.shields.io/github/stars/wdahlenburg/CVE-2022-38725.svg) ![forks](https://img.shields.io/github/forks/wdahlenburg/CVE-2022-38725.svg)
-
-
-## CVE-2022-31814
- pfSense pfBlockerNG through 2.1.4_26 allows remote attackers to execute arbitrary OS commands as root via shell metacharacters in the HTTP Host header. NOTE: 3.x is unaffected.
-
-- [https://github.com/ArunHAtter/CVE-2022-31814](https://github.com/ArunHAtter/CVE-2022-31814) :  ![starts](https://img.shields.io/github/stars/ArunHAtter/CVE-2022-31814.svg) ![forks](https://img.shields.io/github/forks/ArunHAtter/CVE-2022-31814.svg)
+- [https://github.com/AbrarKhan/external_sonivox_CVE-2024-23709](https://github.com/AbrarKhan/external_sonivox_CVE-2024-23709) :  ![starts](https://img.shields.io/github/stars/AbrarKhan/external_sonivox_CVE-2024-23709.svg) ![forks](https://img.shields.io/github/forks/AbrarKhan/external_sonivox_CVE-2024-23709.svg)
 
 
-## CVE-2022-26134
- In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are from 1.3.0 before 7.4.17, from 7.13.0 before 7.13.7, from 7.14.0 before 7.14.3, from 7.15.0 before 7.15.2, from 7.16.0 before 7.16.4, from 7.17.0 before 7.17.4, and from 7.18.0 before 7.18.1.
+## CVE-2024-5666
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/xsxtw/CVE-2022-26134](https://github.com/xsxtw/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/xsxtw/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/xsxtw/CVE-2022-26134.svg)
-
-
-## CVE-2022-22965
- A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.
-
-- [https://github.com/xsxtw/SpringFramework_CVE-2022-22965_RCE](https://github.com/xsxtw/SpringFramework_CVE-2022-22965_RCE) :  ![starts](https://img.shields.io/github/stars/xsxtw/SpringFramework_CVE-2022-22965_RCE.svg) ![forks](https://img.shields.io/github/forks/xsxtw/SpringFramework_CVE-2022-22965_RCE.svg)
+- [https://github.com/nimosec/cve-2024-56662](https://github.com/nimosec/cve-2024-56662) :  ![starts](https://img.shields.io/github/stars/nimosec/cve-2024-56662.svg) ![forks](https://img.shields.io/github/forks/nimosec/cve-2024-56662.svg)
 
 
-## CVE-2022-0847
- A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
+## CVE-2024-4304
+ A Cross-Site Scripting XSS vulnerability has been detected on GT3 Soluciones SWAL. This vulnerability consists in a reflected XSS in the Titular parameter inside Gestion 'Documental &gt; Seguimiento de Expedientes &gt; Alta de Expedientes'.
 
-- [https://github.com/xsxtw/CVE-2022-0847](https://github.com/xsxtw/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/xsxtw/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/xsxtw/CVE-2022-0847.svg)
-
-
-## CVE-2021-44228
- Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0 (along with 2.12.2, 2.12.3, and 2.3.1), this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects.
-
-- [https://github.com/Nanitor/log4fix](https://github.com/Nanitor/log4fix) :  ![starts](https://img.shields.io/github/stars/Nanitor/log4fix.svg) ![forks](https://img.shields.io/github/forks/Nanitor/log4fix.svg)
+- [https://github.com/v9d0g/CVE-2024-43044-POC](https://github.com/v9d0g/CVE-2024-43044-POC) :  ![starts](https://img.shields.io/github/stars/v9d0g/CVE-2024-43044-POC.svg) ![forks](https://img.shields.io/github/forks/v9d0g/CVE-2024-43044-POC.svg)
 
 
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+## CVE-2024-1931
+ NLnet Labs Unbound version 1.18.0 up to and including version 1.19.1 contain a vulnerability that can cause denial of service by a certain code path that can lead to an infinite loop. Unbound 1.18.0 introduced a feature that removes EDE records from responses with size higher than the client's advertised buffer size. Before removing all the EDE records however, it would try to see if trimming the extra text fields on those records would result in an acceptable size while still retaining the EDE codes. Due to an unchecked condition, the code that trims the text of the EDE records could loop indefinitely. This happens when Unbound would reply with attached EDE information on a positive reply and the client's buffer size is smaller than the needed space to include EDE records. The vulnerability can only be triggered when the 'ede: yes' option is used; non default configuration. From version 1.19.2 on, the code is fixed to avoid looping indefinitely.
 
-- [https://github.com/puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-41773.svg)
-- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
-
-
-## CVE-2021-40444
- &lt;p&gt;Microsoft is investigating reports of a remote code execution vulnerability in MSHTML that affects Microsoft Windows. Microsoft is aware of targeted attacks that attempt to exploit this vulnerability by using specially-crafted Microsoft Office documents.&lt;/p&gt; &lt;p&gt;An attacker could craft a malicious ActiveX control to be used by a Microsoft Office document that hosts the browser rendering engine. The attacker would then have to convince the user to open the malicious document. Users whose accounts are configured to have fewer user rights on the system could be less impacted than users who operate with administrative user rights.&lt;/p&gt; &lt;p&gt;Microsoft Defender Antivirus and Microsoft Defender for Endpoint both provide detection and protections for the known vulnerability. Customers should keep antimalware products up to date. Customers who utilize automatic updates do not need to take additional action. Enterprise customers who manage updates should select the detection build 1.349.22.0 or newer and deploy it across their environments. Microsoft Defender for Endpoint alerts will be displayed as: &#8220;Suspicious Cpl File Execution&#8221;.&lt;/p&gt; &lt;p&gt;Upon completion of this investigation, Microsoft will take the appropriate action to help protect our customers. This may include providing a security update through our monthly release process or providing an out-of-cycle security update, depending on customer needs.&lt;/p&gt; &lt;p&gt;Please see the &lt;strong&gt;Mitigations&lt;/strong&gt; and &lt;strong&gt;Workaround&lt;/strong&gt; sections for important information about steps you can take to protect your system from this vulnerability.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; September 14, 2021: Microsoft has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. Please see the FAQ for important information about which updates are applicable to your system.&lt;/p&gt;
-
-- [https://github.com/k8gege/CVE-2021-40444](https://github.com/k8gege/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/k8gege/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/k8gege/CVE-2021-40444.svg)
+- [https://github.com/passer12/CVE-2024-1931-reproduction](https://github.com/passer12/CVE-2024-1931-reproduction) :  ![starts](https://img.shields.io/github/stars/passer12/CVE-2024-1931-reproduction.svg) ![forks](https://img.shields.io/github/forks/passer12/CVE-2024-1931-reproduction.svg)
 
 
-## CVE-2020-6308
- SAP BusinessObjects Business Intelligence Platform (Web Services) versions - 410, 420, 430, allows an unauthenticated attacker to inject arbitrary values as CMS parameters to perform lookups on the internal network which is otherwise not accessible externally. On successful exploitation, attacker can scan internal network to determine internal infrastructure and gather information for further attacks like remote file inclusion, retrieve server files, bypass firewall and force the vulnerable server to perform malicious requests, resulting in a Server-Side Request Forgery vulnerability.
+## CVE-2024-0044
+ In createSessionInternal of PackageInstallerService.java, there is a possible run-as any app due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
 
-- [https://github.com/MachadoOtto/sap_bo_launchpad-ssrf-timing_attack](https://github.com/MachadoOtto/sap_bo_launchpad-ssrf-timing_attack) :  ![starts](https://img.shields.io/github/stars/MachadoOtto/sap_bo_launchpad-ssrf-timing_attack.svg) ![forks](https://img.shields.io/github/forks/MachadoOtto/sap_bo_launchpad-ssrf-timing_attack.svg)
-
-
-## CVE-2019-0232
- When running on Windows with enableCmdLineArguments enabled, the CGI Servlet in Apache Tomcat 9.0.0.M1 to 9.0.17, 8.5.0 to 8.5.39 and 7.0.0 to 7.0.93 is vulnerable to Remote Code Execution due to a bug in the way the JRE passes command line arguments to Windows. The CGI Servlet is disabled by default. The CGI option enableCmdLineArguments is disable by default in Tomcat 9.0.x (and will be disabled by default in all versions in response to this vulnerability). For a detailed explanation of the JRE behaviour, see Markus Wulftange's blog (https://codewhitesec.blogspot.com/2016/02/java-and-command-line-injections-in-windows.html) and this archived MSDN blog (https://web.archive.org/web/20161228144344/https://blogs.msdn.microsoft.com/twistylittlepassagesallalike/2011/04/23/everyone-quotes-command-line-arguments-the-wrong-way/).
-
-- [https://github.com/xsxtw/CVE-2019-0232](https://github.com/xsxtw/CVE-2019-0232) :  ![starts](https://img.shields.io/github/stars/xsxtw/CVE-2019-0232.svg) ![forks](https://img.shields.io/github/forks/xsxtw/CVE-2019-0232.svg)
+- [https://github.com/nahid0x1/CVE-2024-0044](https://github.com/nahid0x1/CVE-2024-0044) :  ![starts](https://img.shields.io/github/stars/nahid0x1/CVE-2024-0044.svg) ![forks](https://img.shields.io/github/forks/nahid0x1/CVE-2024-0044.svg)
 
 
-## CVE-2017-8759
- Microsoft .NET Framework 2.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2 and 4.7 allow an attacker to execute code remotely via a malicious document or application, aka &quot;.NET Framework Remote Code Execution Vulnerability.&quot;
+## CVE-2023-52709
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/vysecurity/CVE-2017-8759](https://github.com/vysecurity/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/vysecurity/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/vysecurity/CVE-2017-8759.svg)
-
-
-## CVE-2017-8464
- Windows Shell in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allows local users or remote attackers to execute arbitrary code via a crafted .LNK file, which is not properly handled during icon display in Windows Explorer or any other application that parses the icon of the shortcut. aka &quot;LNK Remote Code Execution Vulnerability.&quot;
-
-- [https://github.com/3gstudent/CVE-2017-8464-EXP](https://github.com/3gstudent/CVE-2017-8464-EXP) :  ![starts](https://img.shields.io/github/stars/3gstudent/CVE-2017-8464-EXP.svg) ![forks](https://img.shields.io/github/forks/3gstudent/CVE-2017-8464-EXP.svg)
+- [https://github.com/KevinMitchell-OSWP-CISSP/CVE-2023-52709-PoC](https://github.com/KevinMitchell-OSWP-CISSP/CVE-2023-52709-PoC) :  ![starts](https://img.shields.io/github/stars/KevinMitchell-OSWP-CISSP/CVE-2023-52709-PoC.svg) ![forks](https://img.shields.io/github/forks/KevinMitchell-OSWP-CISSP/CVE-2023-52709-PoC.svg)
 
 
-## CVE-2017-5638
- The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
+## CVE-2023-3897
+ Username enumeration is possible through Bypassing CAPTCHA in On-premise SureMDM Solution on Windows deployment allows attacker to enumerate local user information via error message. This issue affects SureMDM On-premise: 6.31 and below version
 
-- [https://github.com/jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS) :  ![starts](https://img.shields.io/github/stars/jas502n/S2-045-EXP-POC-TOOLS.svg) ![forks](https://img.shields.io/github/forks/jas502n/S2-045-EXP-POC-TOOLS.svg)
+- [https://github.com/jFriedli/CVE-2023-3897](https://github.com/jFriedli/CVE-2023-3897) :  ![starts](https://img.shields.io/github/stars/jFriedli/CVE-2023-3897.svg) ![forks](https://img.shields.io/github/forks/jFriedli/CVE-2023-3897.svg)
+
+
+## CVE-2021-39863
+ Acrobat Reader DC versions 2021.005.20060 (and earlier), 2020.004.30006 (and earlier) and 2017.011.30199 (and earlier) are affected by a Buffer Overflow vulnerability when parsing a specially crafted PDF file. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+
+- [https://github.com/WHS-SEGFAULT/CVE-2021-39863](https://github.com/WHS-SEGFAULT/CVE-2021-39863) :  ![starts](https://img.shields.io/github/stars/WHS-SEGFAULT/CVE-2021-39863.svg) ![forks](https://img.shields.io/github/forks/WHS-SEGFAULT/CVE-2021-39863.svg)
+
+
+## CVE-2020-10560
+ An issue was discovered in Open Source Social Network (OSSN) through 5.3. A user-controlled file path with a weak cryptographic rand() can be used to read any file with the permissions of the webserver. This can lead to further compromise. The attacker must conduct a brute-force attack against the SiteKey to insert into a crafted URL for components/OssnComments/ossn_com.php and/or libraries/ossn.lib.upgrade.php.
+
+- [https://github.com/alex-seymour/CVE-2020-10560-Key-Recovery](https://github.com/alex-seymour/CVE-2020-10560-Key-Recovery) :  ![starts](https://img.shields.io/github/stars/alex-seymour/CVE-2020-10560-Key-Recovery.svg) ![forks](https://img.shields.io/github/forks/alex-seymour/CVE-2020-10560-Key-Recovery.svg)
+
+
+## CVE-2012-1823
+ sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured as a CGI script (aka php-cgi), does not properly handle query strings that lack an = (equals sign) character, which allows remote attackers to execute arbitrary code by placing command-line options in the query string, related to lack of skipping a certain php_getopt for the 'd' case.
+
+- [https://github.com/0xFatality/CVE-2012-1823](https://github.com/0xFatality/CVE-2012-1823) :  ![starts](https://img.shields.io/github/stars/0xFatality/CVE-2012-1823.svg) ![forks](https://img.shields.io/github/forks/0xFatality/CVE-2012-1823.svg)
 
