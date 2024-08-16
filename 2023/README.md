@@ -177,11 +177,11 @@
 
 - [https://github.com/endasugrue/CVE-2023-51385_poc](https://github.com/endasugrue/CVE-2023-51385_poc) :  ![starts](https://img.shields.io/github/stars/endasugrue/CVE-2023-51385_poc.svg) ![forks](https://img.shields.io/github/forks/endasugrue/CVE-2023-51385_poc.svg)
 
+- [https://github.com/MiningBot-eth/CVE-2023-51385-exploit](https://github.com/MiningBot-eth/CVE-2023-51385-exploit) :  ![starts](https://img.shields.io/github/stars/MiningBot-eth/CVE-2023-51385-exploit.svg) ![forks](https://img.shields.io/github/forks/MiningBot-eth/CVE-2023-51385-exploit.svg)
+
 - [https://github.com/julienbrs/exploit-CVE-2023-51385](https://github.com/julienbrs/exploit-CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/julienbrs/exploit-CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/julienbrs/exploit-CVE-2023-51385.svg)
 
 - [https://github.com/power1314520/CVE-2023-51385_test](https://github.com/power1314520/CVE-2023-51385_test) :  ![starts](https://img.shields.io/github/stars/power1314520/CVE-2023-51385_test.svg) ![forks](https://img.shields.io/github/forks/power1314520/CVE-2023-51385_test.svg)
-
-- [https://github.com/MiningBot-eth/CVE-2023-51385-exploit](https://github.com/MiningBot-eth/CVE-2023-51385-exploit) :  ![starts](https://img.shields.io/github/stars/MiningBot-eth/CVE-2023-51385-exploit.svg) ![forks](https://img.shields.io/github/forks/MiningBot-eth/CVE-2023-51385-exploit.svg)
 
 - [https://github.com/WLaoDuo/CVE-2023-51385_poc-test](https://github.com/WLaoDuo/CVE-2023-51385_poc-test) :  ![starts](https://img.shields.io/github/stars/WLaoDuo/CVE-2023-51385_poc-test.svg) ![forks](https://img.shields.io/github/forks/WLaoDuo/CVE-2023-51385_poc-test.svg)
 
@@ -1639,9 +1639,9 @@
 
 
 
-- [https://github.com/miguelc49/CVE-2023-45280-2](https://github.com/miguelc49/CVE-2023-45280-2) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-45280-2.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-45280-2.svg)
-
 - [https://github.com/miguelc49/CVE-2023-45280-1](https://github.com/miguelc49/CVE-2023-45280-1) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-45280-1.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-45280-1.svg)
+
+- [https://github.com/miguelc49/CVE-2023-45280-2](https://github.com/miguelc49/CVE-2023-45280-2) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-45280-2.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-45280-2.svg)
 
 - [https://github.com/miguelc49/CVE-2023-45280-3](https://github.com/miguelc49/CVE-2023-45280-3) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-45280-3.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-45280-3.svg)
 
@@ -6425,6 +6425,8 @@
 
 - [https://github.com/izzz0/CVE-2023-27372-POC](https://github.com/izzz0/CVE-2023-27372-POC) :  ![starts](https://img.shields.io/github/stars/izzz0/CVE-2023-27372-POC.svg) ![forks](https://img.shields.io/github/forks/izzz0/CVE-2023-27372-POC.svg)
 
+- [https://github.com/1amthebest1/CVE-2023-27372](https://github.com/1amthebest1/CVE-2023-27372) :  ![starts](https://img.shields.io/github/stars/1amthebest1/CVE-2023-27372.svg) ![forks](https://img.shields.io/github/forks/1amthebest1/CVE-2023-27372.svg)
+
 - [https://github.com/Jhonsonwannaa/CVE-2023-27372](https://github.com/Jhonsonwannaa/CVE-2023-27372) :  ![starts](https://img.shields.io/github/stars/Jhonsonwannaa/CVE-2023-27372.svg) ![forks](https://img.shields.io/github/forks/Jhonsonwannaa/CVE-2023-27372.svg)
 
 - [https://github.com/redboltsec/CVE-2023-27372-PoC](https://github.com/redboltsec/CVE-2023-27372-PoC) :  ![starts](https://img.shields.io/github/stars/redboltsec/CVE-2023-27372-PoC.svg) ![forks](https://img.shields.io/github/forks/redboltsec/CVE-2023-27372-PoC.svg)
@@ -7685,9 +7687,9 @@
 
 - [https://github.com/0x00sector/CVE_2023_22518_Checker](https://github.com/0x00sector/CVE_2023_22518_Checker) :  ![starts](https://img.shields.io/github/stars/0x00sector/CVE_2023_22518_Checker.svg) ![forks](https://img.shields.io/github/forks/0x00sector/CVE_2023_22518_Checker.svg)
 
-- [https://github.com/bibo318/CVE-2023-22518](https://github.com/bibo318/CVE-2023-22518) :  ![starts](https://img.shields.io/github/stars/bibo318/CVE-2023-22518.svg) ![forks](https://img.shields.io/github/forks/bibo318/CVE-2023-22518.svg)
-
 - [https://github.com/Lilly-dox/Exploit-CVE-2023-22518](https://github.com/Lilly-dox/Exploit-CVE-2023-22518) :  ![starts](https://img.shields.io/github/stars/Lilly-dox/Exploit-CVE-2023-22518.svg) ![forks](https://img.shields.io/github/forks/Lilly-dox/Exploit-CVE-2023-22518.svg)
+
+- [https://github.com/bibo318/CVE-2023-22518](https://github.com/bibo318/CVE-2023-22518) :  ![starts](https://img.shields.io/github/stars/bibo318/CVE-2023-22518.svg) ![forks](https://img.shields.io/github/forks/bibo318/CVE-2023-22518.svg)
 
 - [https://github.com/C1ph3rX13/CVE-2023-22518](https://github.com/C1ph3rX13/CVE-2023-22518) :  ![starts](https://img.shields.io/github/stars/C1ph3rX13/CVE-2023-22518.svg) ![forks](https://img.shields.io/github/forks/C1ph3rX13/CVE-2023-22518.svg)
 
@@ -8985,9 +8987,9 @@
 
 - [https://github.com/talbeerysec/BAD-WEBP-CVE-2023-4863](https://github.com/talbeerysec/BAD-WEBP-CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/talbeerysec/BAD-WEBP-CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/talbeerysec/BAD-WEBP-CVE-2023-4863.svg)
 
-- [https://github.com/CrackerCat/CVE-2023-4863-](https://github.com/CrackerCat/CVE-2023-4863-) :  ![starts](https://img.shields.io/github/stars/CrackerCat/CVE-2023-4863-.svg) ![forks](https://img.shields.io/github/forks/CrackerCat/CVE-2023-4863-.svg)
-
 - [https://github.com/huiwen-yayaya/CVE-2023-4863](https://github.com/huiwen-yayaya/CVE-2023-4863) :  ![starts](https://img.shields.io/github/stars/huiwen-yayaya/CVE-2023-4863.svg) ![forks](https://img.shields.io/github/forks/huiwen-yayaya/CVE-2023-4863.svg)
+
+- [https://github.com/CrackerCat/CVE-2023-4863-](https://github.com/CrackerCat/CVE-2023-4863-) :  ![starts](https://img.shields.io/github/stars/CrackerCat/CVE-2023-4863-.svg) ![forks](https://img.shields.io/github/forks/CrackerCat/CVE-2023-4863-.svg)
 
 - [https://github.com/alsaeroth/CVE-2023-4863-POC](https://github.com/alsaeroth/CVE-2023-4863-POC) :  ![starts](https://img.shields.io/github/stars/alsaeroth/CVE-2023-4863-POC.svg) ![forks](https://img.shields.io/github/forks/alsaeroth/CVE-2023-4863-POC.svg)
 
@@ -9299,9 +9301,9 @@
 
 
 
-- [https://github.com/miguelc49/CVE-2023-4145-3](https://github.com/miguelc49/CVE-2023-4145-3) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-4145-3.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-4145-3.svg)
-
 - [https://github.com/miguelc49/CVE-2023-4145-2](https://github.com/miguelc49/CVE-2023-4145-2) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-4145-2.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-4145-2.svg)
+
+- [https://github.com/miguelc49/CVE-2023-4145-3](https://github.com/miguelc49/CVE-2023-4145-3) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-4145-3.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-4145-3.svg)
 
 - [https://github.com/miguelc49/CVE-2023-4145-1](https://github.com/miguelc49/CVE-2023-4145-1) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2023-4145-1.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2023-4145-1.svg)
 
