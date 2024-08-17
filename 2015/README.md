@@ -656,8 +656,6 @@
 
 - [https://github.com/hackarada/cve-2015-3306](https://github.com/hackarada/cve-2015-3306) :  ![starts](https://img.shields.io/github/stars/hackarada/cve-2015-3306.svg) ![forks](https://img.shields.io/github/forks/hackarada/cve-2015-3306.svg)
 
-- [https://github.com/xchg-rax-rax/CVE-2015-3306-](https://github.com/xchg-rax-rax/CVE-2015-3306-) :  ![starts](https://img.shields.io/github/stars/xchg-rax-rax/CVE-2015-3306-.svg) ![forks](https://img.shields.io/github/forks/xchg-rax-rax/CVE-2015-3306-.svg)
-
 - [https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit](https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit) :  ![starts](https://img.shields.io/github/stars/cdedmondson/Modified-CVE-2015-3306-Exploit.svg) ![forks](https://img.shields.io/github/forks/cdedmondson/Modified-CVE-2015-3306-Exploit.svg)
 
 - [https://github.com/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution](https://github.com/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution) :  ![starts](https://img.shields.io/github/stars/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution.svg)
