@@ -1,73 +1,45 @@
-# Update 2024-08-17
-## CVE-2024-38077
+# Update 2024-08-18
+## CVE-2024-38143
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/BBD-YZZ/fyne-gui](https://github.com/BBD-YZZ/fyne-gui) :  ![starts](https://img.shields.io/github/stars/BBD-YZZ/fyne-gui.svg) ![forks](https://img.shields.io/github/forks/BBD-YZZ/fyne-gui.svg)
-- [https://github.com/SecStarBot/CVE-2024-38077-POC](https://github.com/SecStarBot/CVE-2024-38077-POC) :  ![starts](https://img.shields.io/github/stars/SecStarBot/CVE-2024-38077-POC.svg) ![forks](https://img.shields.io/github/forks/SecStarBot/CVE-2024-38077-POC.svg)
+- [https://github.com/hanks445/CVE-2024-38143-poc](https://github.com/hanks445/CVE-2024-38143-poc) :  ![starts](https://img.shields.io/github/stars/hanks445/CVE-2024-38143-poc.svg) ![forks](https://img.shields.io/github/forks/hanks445/CVE-2024-38143-poc.svg)
 
 
 ## CVE-2024-38063
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/diegoalbuquerque/CVE-2024-38063](https://github.com/diegoalbuquerque/CVE-2024-38063) :  ![starts](https://img.shields.io/github/stars/diegoalbuquerque/CVE-2024-38063.svg) ![forks](https://img.shields.io/github/forks/diegoalbuquerque/CVE-2024-38063.svg)
+- [https://github.com/proxykingdev/CVE-2024-38063](https://github.com/proxykingdev/CVE-2024-38063) :  ![starts](https://img.shields.io/github/stars/proxykingdev/CVE-2024-38063.svg) ![forks](https://img.shields.io/github/forks/proxykingdev/CVE-2024-38063.svg)
+- [https://github.com/noradlb1/CVE-2024-38063-VB](https://github.com/noradlb1/CVE-2024-38063-VB) :  ![starts](https://img.shields.io/github/stars/noradlb1/CVE-2024-38063-VB.svg) ![forks](https://img.shields.io/github/forks/noradlb1/CVE-2024-38063-VB.svg)
 
 
-## CVE-2024-21733
- Generation of Error Message Containing Sensitive Information vulnerability in Apache Tomcat.This issue affects Apache Tomcat: from 8.5.7 through 8.5.63, from 9.0.0-M11 through 9.0.43. Users are recommended to upgrade to version 8.5.64 onwards or 9.0.44 onwards, which contain a fix for the issue.
-
-- [https://github.com/LtmThink/CVE-2024-21733](https://github.com/LtmThink/CVE-2024-21733) :  ![starts](https://img.shields.io/github/stars/LtmThink/CVE-2024-21733.svg) ![forks](https://img.shields.io/github/forks/LtmThink/CVE-2024-21733.svg)
-
-
-## CVE-2024-4285
+## CVE-2024-38036
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/njmbb8/CVE-2024-42850](https://github.com/njmbb8/CVE-2024-42850) :  ![starts](https://img.shields.io/github/stars/njmbb8/CVE-2024-42850.svg) ![forks](https://img.shields.io/github/forks/njmbb8/CVE-2024-42850.svg)
+- [https://github.com/hnytgl/CVE-2024-38036](https://github.com/hnytgl/CVE-2024-38036) :  ![starts](https://img.shields.io/github/stars/hnytgl/CVE-2024-38036.svg) ![forks](https://img.shields.io/github/forks/hnytgl/CVE-2024-38036.svg)
 
 
-## CVE-2024-4284
- A vulnerability in mintplex-labs/anything-llm allows for a denial of service (DoS) condition through the modification of a user's `id` attribute to a value of 0. This issue affects the current version of the software, with the latest commit id `57984fa85c31988b2eff429adfc654c46e0c342a`. By exploiting this vulnerability, an attacker, with manager or admin privileges, can render a chosen account completely inaccessible. The application's mechanism for suspending accounts does not provide a means to reverse this condition through the UI, leading to uncontrolled resource consumption. The vulnerability is introduced due to the lack of input validation and sanitization in the user modification endpoint and the middleware's token validation logic. This issue has been addressed in version 1.0.0 of the software.
+## CVE-2024-27198
+ In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
 
-- [https://github.com/njmbb8/CVE-2024-42849](https://github.com/njmbb8/CVE-2024-42849) :  ![starts](https://img.shields.io/github/stars/njmbb8/CVE-2024-42849.svg) ![forks](https://img.shields.io/github/forks/njmbb8/CVE-2024-42849.svg)
-
-
-## CVE-2024-4275
- The Essential Addons for Elementor &#8211; Best Elementor Templates, Widgets, Kits &amp; WooCommerce Builders plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's Interactive Circle widget in all versions up to, and including, 5.9.19 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-
-- [https://github.com/1s1ldur/CVE-2024-42758](https://github.com/1s1ldur/CVE-2024-42758) :  ![starts](https://img.shields.io/github/stars/1s1ldur/CVE-2024-42758.svg) ![forks](https://img.shields.io/github/forks/1s1ldur/CVE-2024-42758.svg)
+- [https://github.com/jrbH4CK/CVE-2024-27198](https://github.com/jrbH4CK/CVE-2024-27198) :  ![starts](https://img.shields.io/github/stars/jrbH4CK/CVE-2024-27198.svg) ![forks](https://img.shields.io/github/forks/jrbH4CK/CVE-2024-27198.svg)
 
 
-## CVE-2024-1086
- A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation. The nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT. We recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.
+## CVE-2024-3183
+ A vulnerability was found in FreeIPA in a way when a Kerberos TGS-REQ is encrypted using the client&#8217;s session key. This key is different for each new session, which protects it from brute force attacks. However, the ticket it contains is encrypted using the target principal key directly. For user principals, this key is a hash of a public per-principal randomly-generated salt and the user&#8217;s password. If a principal is compromised it means the attacker would be able to retrieve tickets encrypted to any principal, all of them being encrypted by their own key directly. By taking these tickets and salts offline, the attacker could run brute force attacks to find character strings able to decrypt tickets when combined to a principal salt (i.e. find the principal&#8217;s password).
 
-- [https://github.com/pl0xe/CVE-2024-1086](https://github.com/pl0xe/CVE-2024-1086) :  ![starts](https://img.shields.io/github/stars/pl0xe/CVE-2024-1086.svg) ![forks](https://img.shields.io/github/forks/pl0xe/CVE-2024-1086.svg)
-
-
-## CVE-2023-27372
- SPIP before 4.2.1 allows Remote Code Execution via form values in the public area because serialization is mishandled. The fixed versions are 3.2.18, 4.0.10, 4.1.8, and 4.2.1.
-
-- [https://github.com/1amthebest1/CVE-2023-27372](https://github.com/1amthebest1/CVE-2023-27372) :  ![starts](https://img.shields.io/github/stars/1amthebest1/CVE-2023-27372.svg) ![forks](https://img.shields.io/github/forks/1amthebest1/CVE-2023-27372.svg)
+- [https://github.com/c2micro/ipapocket](https://github.com/c2micro/ipapocket) :  ![starts](https://img.shields.io/github/stars/c2micro/ipapocket.svg) ![forks](https://img.shields.io/github/forks/c2micro/ipapocket.svg)
 
 
-## CVE-2021-24807
- The Support Board WordPress plugin before 3.3.5 allows Authenticated (Agent+) users to perform Cross-Site Scripting attacks by placing a payload in the notes field, when an administrator or any authenticated user go to the chat the XSS will be automatically executed.
+## CVE-2021-44142
+ The Samba vfs_fruit module uses extended file attributes (EA, xattr) to provide &quot;...enhanced compatibility with Apple SMB clients and interoperability with a Netatalk 3 AFP fileserver.&quot; Samba versions prior to 4.13.17, 4.14.12 and 4.15.5 with vfs_fruit configured allow out-of-bounds heap read and write via specially crafted extended file attributes. A remote attacker with write access to extended file attributes can execute arbitrary code with the privileges of smbd, typically root.
 
-- [https://github.com/dldygnl/CVE-2021-24807](https://github.com/dldygnl/CVE-2021-24807) :  ![starts](https://img.shields.io/github/stars/dldygnl/CVE-2021-24807.svg) ![forks](https://img.shields.io/github/forks/dldygnl/CVE-2021-24807.svg)
-
-
-## CVE-2021-24741
- The Support Board WordPress plugin before 3.3.4 does not escape multiple POST parameters (such as status_code, department, user_id, conversation_id, conversation_status_code, and recipient_id) before using them in SQL statements, leading to SQL injections which are exploitable by unauthenticated users.
-
-- [https://github.com/dldygnl/CVE-2021-24741](https://github.com/dldygnl/CVE-2021-24741) :  ![starts](https://img.shields.io/github/stars/dldygnl/CVE-2021-24741.svg) ![forks](https://img.shields.io/github/forks/dldygnl/CVE-2021-24741.svg)
+- [https://github.com/horizon3ai/CVE-2021-44142](https://github.com/horizon3ai/CVE-2021-44142) :  ![starts](https://img.shields.io/github/stars/horizon3ai/CVE-2021-44142.svg) ![forks](https://img.shields.io/github/forks/horizon3ai/CVE-2021-44142.svg)
+- [https://github.com/gudyrmik/CVE-2021-44142](https://github.com/gudyrmik/CVE-2021-44142) :  ![starts](https://img.shields.io/github/stars/gudyrmik/CVE-2021-44142.svg) ![forks](https://img.shields.io/github/forks/gudyrmik/CVE-2021-44142.svg)
+- [https://github.com/hrsman/Samba-CVE-2021-44142](https://github.com/hrsman/Samba-CVE-2021-44142) :  ![starts](https://img.shields.io/github/stars/hrsman/Samba-CVE-2021-44142.svg) ![forks](https://img.shields.io/github/forks/hrsman/Samba-CVE-2021-44142.svg)
 
 
-## CVE-2020-5902
- In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.1.5.1, and 11.6.1-11.6.5.1, the Traffic Management User Interface (TMUI), also referred to as the Configuration utility, has a Remote Code Execution (RCE) vulnerability in undisclosed pages.
+## CVE-2021-3129
+ Ignition before 2.5.2, as used in Laravel and other products, allows unauthenticated remote attackers to execute arbitrary code because of insecure usage of file_get_contents() and file_put_contents(). This is exploitable on sites using debug mode with Laravel before 8.4.2.
 
-- [https://github.com/flyopenair/CVE-2020-5902](https://github.com/flyopenair/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/flyopenair/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/flyopenair/CVE-2020-5902.svg)
-
-
-## CVE-2019-16113
- Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php because PHP code can be entered with a .jpg file name, and then this PHP code can write other PHP code to a ../ pathname.
-
-- [https://github.com/dldygnl/CVE-2019-16113](https://github.com/dldygnl/CVE-2019-16113) :  ![starts](https://img.shields.io/github/stars/dldygnl/CVE-2019-16113.svg) ![forks](https://img.shields.io/github/forks/dldygnl/CVE-2019-16113.svg)
+- [https://github.com/Y0s9/CVE-2021-3129](https://github.com/Y0s9/CVE-2021-3129) :  ![starts](https://img.shields.io/github/stars/Y0s9/CVE-2021-3129.svg) ![forks](https://img.shields.io/github/forks/Y0s9/CVE-2021-3129.svg)
 
