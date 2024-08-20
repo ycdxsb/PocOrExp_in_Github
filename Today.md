@@ -1,44 +1,66 @@
-# Update 2024-08-19
+# Update 2024-08-20
+## CVE-2024-38856
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/Praison001/CVE-2024-38856-ApacheOfBiz](https://github.com/Praison001/CVE-2024-38856-ApacheOfBiz) :  ![starts](https://img.shields.io/github/stars/Praison001/CVE-2024-38856-ApacheOfBiz.svg) ![forks](https://img.shields.io/github/forks/Praison001/CVE-2024-38856-ApacheOfBiz.svg)
+
+
+## CVE-2024-38793
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/ret2desync/CVE-2024-38793-PoC](https://github.com/ret2desync/CVE-2024-38793-PoC) :  ![starts](https://img.shields.io/github/stars/ret2desync/CVE-2024-38793-PoC.svg) ![forks](https://img.shields.io/github/forks/ret2desync/CVE-2024-38793-PoC.svg)
+
+
+## CVE-2024-38475
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/p0in7s/CVE-2024-38475](https://github.com/p0in7s/CVE-2024-38475) :  ![starts](https://img.shields.io/github/stars/p0in7s/CVE-2024-38475.svg) ![forks](https://img.shields.io/github/forks/p0in7s/CVE-2024-38475.svg)
+
+
 ## CVE-2024-38063
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/hanks445/CVE-2024-38063](https://github.com/hanks445/CVE-2024-38063) :  ![starts](https://img.shields.io/github/stars/hanks445/CVE-2024-38063.svg) ![forks](https://img.shields.io/github/forks/hanks445/CVE-2024-38063.svg)
-- [https://github.com/Sachinart/CVE-2024-38063-POC](https://github.com/Sachinart/CVE-2024-38063-POC) :  ![starts](https://img.shields.io/github/stars/Sachinart/CVE-2024-38063-POC.svg) ![forks](https://img.shields.io/github/forks/Sachinart/CVE-2024-38063-POC.svg)
+- [https://github.com/p33d/cve-2024-38063](https://github.com/p33d/cve-2024-38063) :  ![starts](https://img.shields.io/github/stars/p33d/cve-2024-38063.svg) ![forks](https://img.shields.io/github/forks/p33d/cve-2024-38063.svg)
 
 
-## CVE-2024-36877
+## CVE-2024-37085
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/CERTologists/POC-CVE-2024-36877](https://github.com/CERTologists/POC-CVE-2024-36877) :  ![starts](https://img.shields.io/github/stars/CERTologists/POC-CVE-2024-36877.svg) ![forks](https://img.shields.io/github/forks/CERTologists/POC-CVE-2024-36877.svg)
+- [https://github.com/WTN-arny/CVE-2024-37085](https://github.com/WTN-arny/CVE-2024-37085) :  ![starts](https://img.shields.io/github/stars/WTN-arny/CVE-2024-37085.svg) ![forks](https://img.shields.io/github/forks/WTN-arny/CVE-2024-37085.svg)
 
 
-## CVE-2024-6043
- A vulnerability classified as critical has been found in SourceCodester Best House Rental Management System 1.0. This affects the function login of the file admin_class.php. The manipulation of the argument username leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-268767.
+## CVE-2024-35540
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/lfillaz/CVE-2024-6043](https://github.com/lfillaz/CVE-2024-6043) :  ![starts](https://img.shields.io/github/stars/lfillaz/CVE-2024-6043.svg) ![forks](https://img.shields.io/github/forks/lfillaz/CVE-2024-6043.svg)
-
-
-## CVE-2024-4577
- In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use &quot;Best-Fit&quot; behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
-
-- [https://github.com/bughuntar/CVE-2024-4577](https://github.com/bughuntar/CVE-2024-4577) :  ![starts](https://img.shields.io/github/stars/bughuntar/CVE-2024-4577.svg) ![forks](https://img.shields.io/github/forks/bughuntar/CVE-2024-4577.svg)
+- [https://github.com/cyberaz0r/Typecho-Multiple-Vulnerabilities](https://github.com/cyberaz0r/Typecho-Multiple-Vulnerabilities) :  ![starts](https://img.shields.io/github/stars/cyberaz0r/Typecho-Multiple-Vulnerabilities.svg) ![forks](https://img.shields.io/github/forks/cyberaz0r/Typecho-Multiple-Vulnerabilities.svg)
 
 
-## CVE-2024-4265
- The Master Addons &#8211; Free Widgets, Hover Effects, Toggle, Conditions, Animations for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the &#8216;url&#8217; parameter in versions up to, and including, 2.0.5.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+## CVE-2024-35539
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/sudo-subho/CVE-2024-42657](https://github.com/sudo-subho/CVE-2024-42657) :  ![starts](https://img.shields.io/github/stars/sudo-subho/CVE-2024-42657.svg) ![forks](https://img.shields.io/github/forks/sudo-subho/CVE-2024-42657.svg)
-- [https://github.com/sudo-subho/CVE-2024-42658](https://github.com/sudo-subho/CVE-2024-42658) :  ![starts](https://img.shields.io/github/stars/sudo-subho/CVE-2024-42658.svg) ![forks](https://img.shields.io/github/forks/sudo-subho/CVE-2024-42658.svg)
-
-
-## CVE-2023-50564
- An arbitrary file upload vulnerability in the component /inc/modules_install.php of Pluck-CMS v4.7.18 allows attackers to execute arbitrary code via uploading a crafted ZIP file.
-
-- [https://github.com/rwexecute/CVE-2023-50564](https://github.com/rwexecute/CVE-2023-50564) :  ![starts](https://img.shields.io/github/stars/rwexecute/CVE-2023-50564.svg) ![forks](https://img.shields.io/github/forks/rwexecute/CVE-2023-50564.svg)
+- [https://github.com/cyberaz0r/Typecho-Multiple-Vulnerabilities](https://github.com/cyberaz0r/Typecho-Multiple-Vulnerabilities) :  ![starts](https://img.shields.io/github/stars/cyberaz0r/Typecho-Multiple-Vulnerabilities.svg) ![forks](https://img.shields.io/github/forks/cyberaz0r/Typecho-Multiple-Vulnerabilities.svg)
 
 
-## CVE-2007-2426
- PHP remote file inclusion vulnerability in myfunctions/mygallerybrowser.php in the myGallery 1.4b4 and earlier plugin for WordPress allows remote attackers to execute arbitrary PHP code via a URL in the myPath parameter.
+## CVE-2024-35538
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/goudunz1/CVE-2007-2426](https://github.com/goudunz1/CVE-2007-2426) :  ![starts](https://img.shields.io/github/stars/goudunz1/CVE-2007-2426.svg) ![forks](https://img.shields.io/github/forks/goudunz1/CVE-2007-2426.svg)
+- [https://github.com/cyberaz0r/Typecho-Multiple-Vulnerabilities](https://github.com/cyberaz0r/Typecho-Multiple-Vulnerabilities) :  ![starts](https://img.shields.io/github/stars/cyberaz0r/Typecho-Multiple-Vulnerabilities.svg) ![forks](https://img.shields.io/github/forks/cyberaz0r/Typecho-Multiple-Vulnerabilities.svg)
+
+
+## CVE-2023-4220
+ Unrestricted file upload in big file upload functionality in `/main/inc/lib/javascript/bigupload/inc/bigUpload.php` in Chamilo LMS &lt;= v1.11.24 allows unauthenticated attackers to perform stored cross-site scripting attacks and obtain remote code execution via uploading of web shell.
+
+- [https://github.com/LGenAgul/CVE-2023-4220-Proof-of-concept](https://github.com/LGenAgul/CVE-2023-4220-Proof-of-concept) :  ![starts](https://img.shields.io/github/stars/LGenAgul/CVE-2023-4220-Proof-of-concept.svg) ![forks](https://img.shields.io/github/forks/LGenAgul/CVE-2023-4220-Proof-of-concept.svg)
+
+
+## CVE-2022-24834
+ Redis is an in-memory database that persists on disk. A specially crafted Lua script executing in Redis can trigger a heap overflow in the cjson library, and result with heap corruption and potentially remote code execution. The problem exists in all versions of Redis with Lua scripting support, starting from 2.6, and affects only authenticated and authorized users. The problem is fixed in versions 7.0.12, 6.2.13, and 6.0.20.
+
+- [https://github.com/DukeSec97/CVE-2022-24834-](https://github.com/DukeSec97/CVE-2022-24834-) :  ![starts](https://img.shields.io/github/stars/DukeSec97/CVE-2022-24834-.svg) ![forks](https://img.shields.io/github/forks/DukeSec97/CVE-2022-24834-.svg)
+
+
+## CVE-2020-2733
+ Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Monitoring and Diagnostics). The supported version that is affected is 9.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools. Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+
+- [https://github.com/anmolksachan/CVE-2020-2733](https://github.com/anmolksachan/CVE-2020-2733) :  ![starts](https://img.shields.io/github/stars/anmolksachan/CVE-2020-2733.svg) ![forks](https://img.shields.io/github/forks/anmolksachan/CVE-2020-2733.svg)
 
