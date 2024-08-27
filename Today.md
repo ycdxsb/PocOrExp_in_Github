@@ -1,68 +1,61 @@
-# Update 2024-08-26
-## CVE-2024-38063
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+# Update 2024-08-27
+## CVE-2024-30088
+ Windows Kernel Elevation of Privilege Vulnerability
 
-- [https://github.com/ynwarcs/CVE-2024-38063](https://github.com/ynwarcs/CVE-2024-38063) :  ![starts](https://img.shields.io/github/stars/ynwarcs/CVE-2024-38063.svg) ![forks](https://img.shields.io/github/forks/ynwarcs/CVE-2024-38063.svg)
-- [https://github.com/haroonawanofficial/CVE-2024-38063-Research-Tool](https://github.com/haroonawanofficial/CVE-2024-38063-Research-Tool) :  ![starts](https://img.shields.io/github/stars/haroonawanofficial/CVE-2024-38063-Research-Tool.svg) ![forks](https://img.shields.io/github/forks/haroonawanofficial/CVE-2024-38063-Research-Tool.svg)
-
-
-## CVE-2024-32002
- Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
-
-- [https://github.com/FlojBoj/CVE-2024-32002](https://github.com/FlojBoj/CVE-2024-32002) :  ![starts](https://img.shields.io/github/stars/FlojBoj/CVE-2024-32002.svg) ![forks](https://img.shields.io/github/forks/FlojBoj/CVE-2024-32002.svg)
-
-
-## CVE-2024-28995
- SolarWinds Serv-U was susceptible to a directory transversal vulnerability that would allow access to read sensitive files on the host machine.
-
-- [https://github.com/gotr00t0day/CVE-2024-28995](https://github.com/gotr00t0day/CVE-2024-28995) :  ![starts](https://img.shields.io/github/stars/gotr00t0day/CVE-2024-28995.svg) ![forks](https://img.shields.io/github/forks/gotr00t0day/CVE-2024-28995.svg)
+- [https://github.com/Justintroup85/exploits-forsale-collateral-damage](https://github.com/Justintroup85/exploits-forsale-collateral-damage) :  ![starts](https://img.shields.io/github/stars/Justintroup85/exploits-forsale-collateral-damage.svg) ![forks](https://img.shields.io/github/forks/Justintroup85/exploits-forsale-collateral-damage.svg)
 
 
 ## CVE-2024-28000
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Alucard0x1/CVE-2024-28000](https://github.com/Alucard0x1/CVE-2024-28000) :  ![starts](https://img.shields.io/github/stars/Alucard0x1/CVE-2024-28000.svg) ![forks](https://img.shields.io/github/forks/Alucard0x1/CVE-2024-28000.svg)
+- [https://github.com/ebrasha/CVE-2024-28000](https://github.com/ebrasha/CVE-2024-28000) :  ![starts](https://img.shields.io/github/stars/ebrasha/CVE-2024-28000.svg) ![forks](https://img.shields.io/github/forks/ebrasha/CVE-2024-28000.svg)
 
 
-## CVE-2024-4358
- In Progress Telerik Report Server, version 2024 Q1 (10.0.24.305) or earlier, on IIS, an unauthenticated attacker can gain access to Telerik Report Server restricted functionality via an authentication bypass vulnerability.
+## CVE-2024-21626
+ runc is a CLI tool for spawning and running containers on Linux according to the OCI specification. In runc 1.1.11 and earlier, due to an internal file descriptor leak, an attacker could cause a newly-spawned container process (from runc exec) to have a working directory in the host filesystem namespace, allowing for a container escape by giving access to the host filesystem (&quot;attack 2&quot;). The same attack could be used by a malicious image to allow a container process to gain access to the host filesystem through runc run (&quot;attack 1&quot;). Variants of attacks 1 and 2 could be also be used to overwrite semi-arbitrary host binaries, allowing for complete container escapes (&quot;attack 3a&quot; and &quot;attack 3b&quot;). runc 1.1.12 includes patches for this issue.
 
-- [https://github.com/fa-rrel/CVE-2024-4358](https://github.com/fa-rrel/CVE-2024-4358) :  ![starts](https://img.shields.io/github/stars/fa-rrel/CVE-2024-4358.svg) ![forks](https://img.shields.io/github/forks/fa-rrel/CVE-2024-4358.svg)
+- [https://github.com/FlojBoj/CVE-2024-21626](https://github.com/FlojBoj/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/FlojBoj/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/FlojBoj/CVE-2024-21626.svg)
 
 
-## CVE-2024-4283
+## CVE-2024-5932
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/CyberSec-Supra/CVE-2024-42834](https://github.com/CyberSec-Supra/CVE-2024-42834) :  ![starts](https://img.shields.io/github/stars/CyberSec-Supra/CVE-2024-42834.svg) ![forks](https://img.shields.io/github/forks/CyberSec-Supra/CVE-2024-42834.svg)
+- [https://github.com/EQSTSeminar/CVE-2024-5932](https://github.com/EQSTSeminar/CVE-2024-5932) :  ![starts](https://img.shields.io/github/stars/EQSTSeminar/CVE-2024-5932.svg) ![forks](https://img.shields.io/github/forks/EQSTSeminar/CVE-2024-5932.svg)
 
 
-## CVE-2024-1800
- In Progress Telerik Report Server versions prior to 2024 Q1 (10.0.24.130), a remote code execution attack is possible through an insecure deserialization vulnerability.
+## CVE-2024-4524
+ A vulnerability, which was classified as problematic, was found in Campcodes Complete Web-Based School Management System 1.0. This affects an unknown part of the file /view/student_payment_invoice.php. The manipulation of the argument desc leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-263127.
 
-- [https://github.com/fa-rrel/CVE-2024-4358](https://github.com/fa-rrel/CVE-2024-4358) :  ![starts](https://img.shields.io/github/stars/fa-rrel/CVE-2024-4358.svg) ![forks](https://img.shields.io/github/forks/fa-rrel/CVE-2024-4358.svg)
-
-
-## CVE-2023-50564
- An arbitrary file upload vulnerability in the component /inc/modules_install.php of Pluck-CMS v4.7.18 allows attackers to execute arbitrary code via uploading a crafted ZIP file.
-
-- [https://github.com/thefizzyfish/CVE-2023-50564-pluck](https://github.com/thefizzyfish/CVE-2023-50564-pluck) :  ![starts](https://img.shields.io/github/stars/thefizzyfish/CVE-2023-50564-pluck.svg) ![forks](https://img.shields.io/github/forks/thefizzyfish/CVE-2023-50564-pluck.svg)
+- [https://github.com/d4lyw/CVE-2024-45241](https://github.com/d4lyw/CVE-2024-45241) :  ![starts](https://img.shields.io/github/stars/d4lyw/CVE-2024-45241.svg) ![forks](https://img.shields.io/github/forks/d4lyw/CVE-2024-45241.svg)
 
 
-## CVE-2023-42793
- In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible
+## CVE-2024-4408
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/FlojBoj/CVE-2023-42793](https://github.com/FlojBoj/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/FlojBoj/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/FlojBoj/CVE-2023-42793.svg)
-
-
-## CVE-2023-29489
- An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the cpsrvd error page via an invalid webcall ID, aka SEC-669. The fixed versions are 11.109.9999.116, 11.108.0.13, 11.106.0.18, and 11.102.0.31.
-
-- [https://github.com/0-d3y/CVE-2023-29489](https://github.com/0-d3y/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/0-d3y/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/0-d3y/CVE-2023-29489.svg)
+- [https://github.com/Azvanzed/CVE-2024-44083](https://github.com/Azvanzed/CVE-2024-44083) :  ![starts](https://img.shields.io/github/stars/Azvanzed/CVE-2024-44083.svg) ![forks](https://img.shields.io/github/forks/Azvanzed/CVE-2024-44083.svg)
 
 
-## CVE-2023-4220
- Unrestricted file upload in big file upload functionality in `/main/inc/lib/javascript/bigupload/inc/bigUpload.php` in Chamilo LMS &lt;= v1.11.24 allows unauthenticated attackers to perform stored cross-site scripting attacks and obtain remote code execution via uploading of web shell.
+## CVE-2024-2887
+ Type Confusion in WebAssembly in Google Chrome prior to 123.0.6312.86 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)
 
-- [https://github.com/VanishedPeople/CVE-2023-4220](https://github.com/VanishedPeople/CVE-2023-4220) :  ![starts](https://img.shields.io/github/stars/VanishedPeople/CVE-2023-4220.svg) ![forks](https://img.shields.io/github/forks/VanishedPeople/CVE-2023-4220.svg)
-- [https://github.com/thefizzyfish/CVE-2023-4220](https://github.com/thefizzyfish/CVE-2023-4220) :  ![starts](https://img.shields.io/github/stars/thefizzyfish/CVE-2023-4220.svg) ![forks](https://img.shields.io/github/forks/thefizzyfish/CVE-2023-4220.svg)
+- [https://github.com/rycbar77/CVE-2024-2887](https://github.com/rycbar77/CVE-2024-2887) :  ![starts](https://img.shields.io/github/stars/rycbar77/CVE-2024-2887.svg) ![forks](https://img.shields.io/github/forks/rycbar77/CVE-2024-2887.svg)
+- [https://github.com/PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc](https://github.com/PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc) :  ![starts](https://img.shields.io/github/stars/PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc.svg) ![forks](https://img.shields.io/github/forks/PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc.svg)
+
+
+## CVE-2024-1939
+ Type Confusion in V8 in Google Chrome prior to 122.0.6261.94 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+
+- [https://github.com/rycbar77/CVE-2024-1939](https://github.com/rycbar77/CVE-2024-1939) :  ![starts](https://img.shields.io/github/stars/rycbar77/CVE-2024-1939.svg) ![forks](https://img.shields.io/github/forks/rycbar77/CVE-2024-1939.svg)
+
+
+## CVE-2022-35914
+ /vendor/htmlawed/htmlawed/htmLawedTest.php in the htmlawed module for GLPI through 10.0.2 allows PHP code injection.
+
+- [https://github.com/noxlumens/CVE-2022-35914_poc](https://github.com/noxlumens/CVE-2022-35914_poc) :  ![starts](https://img.shields.io/github/stars/noxlumens/CVE-2022-35914_poc.svg) ![forks](https://img.shields.io/github/forks/noxlumens/CVE-2022-35914_poc.svg)
+
+
+## CVE-2007-4559
+ Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.
+
+- [https://github.com/JamesDarf/tarpioka](https://github.com/JamesDarf/tarpioka) :  ![starts](https://img.shields.io/github/stars/JamesDarf/tarpioka.svg) ![forks](https://img.shields.io/github/forks/JamesDarf/tarpioka.svg)
 
