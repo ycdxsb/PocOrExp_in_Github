@@ -16,6 +16,13 @@
 
 - [https://github.com/yihtserns/spring-web-without-remoting](https://github.com/yihtserns/spring-web-without-remoting) :  ![starts](https://img.shields.io/github/stars/yihtserns/spring-web-without-remoting.svg) ![forks](https://img.shields.io/github/forks/yihtserns/spring-web-without-remoting.svg)
 
+## CVE-2016-20012
+ ** DISPUTED ** OpenSSH through 8.7 allows remote attackers, who have a suspicion that a certain combination of username and public key is known to an SSH server, to test whether this suspicion is correct. This occurs because a challenge is sent only when that combination could be valid for a login session. NOTE: the vendor does not recognize user enumeration as a vulnerability for this product.
+
+
+
+- [https://github.com/aztec-eagle/cve-2016-20012](https://github.com/aztec-eagle/cve-2016-20012) :  ![starts](https://img.shields.io/github/stars/aztec-eagle/cve-2016-20012.svg) ![forks](https://img.shields.io/github/forks/aztec-eagle/cve-2016-20012.svg)
+
 ## CVE-2016-10993
  The ScoreMe theme through 2016-04-01 for WordPress has XSS via the s parameter.
 
@@ -325,9 +332,9 @@
 
 - [https://github.com/agkunkle/chocobo](https://github.com/agkunkle/chocobo) :  ![starts](https://img.shields.io/github/stars/agkunkle/chocobo.svg) ![forks](https://img.shields.io/github/forks/agkunkle/chocobo.svg)
 
-- [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
-
 - [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) :  ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
+
+- [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
 
 ## CVE-2016-8636
  Integer overflow in the mem_check_range function in drivers/infiniband/sw/rxe/rxe_mr.c in the Linux kernel before 4.9.10 allows local users to cause a denial of service (memory corruption), obtain sensitive information from kernel memory, or possibly have unspecified other impact via a write or read request involving the &quot;RDMA protocol over infiniband&quot; (aka Soft RoCE) technology.
