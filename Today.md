@@ -1,61 +1,49 @@
-# Update 2024-08-27
-## CVE-2024-30088
- Windows Kernel Elevation of Privilege Vulnerability
-
-- [https://github.com/Justintroup85/exploits-forsale-collateral-damage](https://github.com/Justintroup85/exploits-forsale-collateral-damage) :  ![starts](https://img.shields.io/github/stars/Justintroup85/exploits-forsale-collateral-damage.svg) ![forks](https://img.shields.io/github/forks/Justintroup85/exploits-forsale-collateral-damage.svg)
-
-
-## CVE-2024-28000
+# Update 2024-08-28
+## CVE-2024-38063
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/ebrasha/CVE-2024-28000](https://github.com/ebrasha/CVE-2024-28000) :  ![starts](https://img.shields.io/github/stars/ebrasha/CVE-2024-28000.svg) ![forks](https://img.shields.io/github/forks/ebrasha/CVE-2024-28000.svg)
+- [https://github.com/Sachinart/CVE-2024-38063-simulation](https://github.com/Sachinart/CVE-2024-38063-simulation) :  ![starts](https://img.shields.io/github/stars/Sachinart/CVE-2024-38063-simulation.svg) ![forks](https://img.shields.io/github/forks/Sachinart/CVE-2024-38063-simulation.svg)
 
 
-## CVE-2024-21626
- runc is a CLI tool for spawning and running containers on Linux according to the OCI specification. In runc 1.1.11 and earlier, due to an internal file descriptor leak, an attacker could cause a newly-spawned container process (from runc exec) to have a working directory in the host filesystem namespace, allowing for a container escape by giving access to the host filesystem (&quot;attack 2&quot;). The same attack could be used by a malicious image to allow a container process to gain access to the host filesystem through runc run (&quot;attack 1&quot;). Variants of attacks 1 and 2 could be also be used to overwrite semi-arbitrary host binaries, allowing for complete container escapes (&quot;attack 3a&quot; and &quot;attack 3b&quot;). runc 1.1.12 includes patches for this issue.
+## CVE-2024-25641
+ Cacti provides an operational monitoring and fault management framework. Prior to version 1.2.27, an arbitrary file write vulnerability, exploitable through the &quot;Package Import&quot; feature, allows authenticated users having the &quot;Import Templates&quot; permission to execute arbitrary PHP code on the web server. The vulnerability is located within the `import_package()` function defined into the `/lib/import.php` script. The function blindly trusts the filename and file content provided within the XML data, and writes such files into the Cacti base path (or even outside, since path traversal sequences are not filtered). This can be exploited to write or overwrite arbitrary files on the web server, leading to execution of arbitrary PHP code or other security impacts. Version 1.2.27 contains a patch for this issue.
 
-- [https://github.com/FlojBoj/CVE-2024-21626](https://github.com/FlojBoj/CVE-2024-21626) :  ![starts](https://img.shields.io/github/stars/FlojBoj/CVE-2024-21626.svg) ![forks](https://img.shields.io/github/forks/FlojBoj/CVE-2024-21626.svg)
+- [https://github.com/5ma1l/CVE-2024-25641](https://github.com/5ma1l/CVE-2024-25641) :  ![starts](https://img.shields.io/github/stars/5ma1l/CVE-2024-25641.svg) ![forks](https://img.shields.io/github/forks/5ma1l/CVE-2024-25641.svg)
 
 
-## CVE-2024-5932
+## CVE-2024-4526
+ A vulnerability was found in Campcodes Complete Web-Based School Management System 1.0 and classified as problematic. This issue affects some unknown processing of the file /view/student_payment_details3.php. The manipulation of the argument month leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-263129 was assigned to this vulnerability.
+
+- [https://github.com/TheHermione/CVE-2024-45265](https://github.com/TheHermione/CVE-2024-45265) :  ![starts](https://img.shields.io/github/stars/TheHermione/CVE-2024-45265.svg) ![forks](https://img.shields.io/github/forks/TheHermione/CVE-2024-45265.svg)
+- [https://github.com/TheHermione/CVE-2024-45264](https://github.com/TheHermione/CVE-2024-45264) :  ![starts](https://img.shields.io/github/stars/TheHermione/CVE-2024-45264.svg) ![forks](https://img.shields.io/github/forks/TheHermione/CVE-2024-45264.svg)
+
+
+## CVE-2024-4131
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/EQSTSeminar/CVE-2024-5932](https://github.com/EQSTSeminar/CVE-2024-5932) :  ![starts](https://img.shields.io/github/stars/EQSTSeminar/CVE-2024-5932.svg) ![forks](https://img.shields.io/github/forks/EQSTSeminar/CVE-2024-5932.svg)
+- [https://github.com/Amal264882/CVE-2024-41312.](https://github.com/Amal264882/CVE-2024-41312.) :  ![starts](https://img.shields.io/github/stars/Amal264882/CVE-2024-41312..svg) ![forks](https://img.shields.io/github/forks/Amal264882/CVE-2024-41312..svg)
 
 
-## CVE-2024-4524
- A vulnerability, which was classified as problematic, was found in Campcodes Complete Web-Based School Management System 1.0. This affects an unknown part of the file /view/student_payment_invoice.php. The manipulation of the argument desc leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-263127.
+## CVE-2023-22809
+ In Sudo before 1.9.12p2, the sudoedit (aka -e) feature mishandles extra arguments passed in the user-provided environment variables (SUDO_EDITOR, VISUAL, and EDITOR), allowing a local attacker to append arbitrary entries to the list of files to process. This can lead to privilege escalation. Affected versions are 1.8.0 through 1.9.12.p1. The problem exists because a user-specified editor may contain a &quot;--&quot; argument that defeats a protection mechanism, e.g., an EDITOR='vim -- /path/to/extra/file' value.
 
-- [https://github.com/d4lyw/CVE-2024-45241](https://github.com/d4lyw/CVE-2024-45241) :  ![starts](https://img.shields.io/github/stars/d4lyw/CVE-2024-45241.svg) ![forks](https://img.shields.io/github/forks/d4lyw/CVE-2024-45241.svg)
-
-
-## CVE-2024-4408
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/Azvanzed/CVE-2024-44083](https://github.com/Azvanzed/CVE-2024-44083) :  ![starts](https://img.shields.io/github/stars/Azvanzed/CVE-2024-44083.svg) ![forks](https://img.shields.io/github/forks/Azvanzed/CVE-2024-44083.svg)
+- [https://github.com/laxmiyamkolu/SUDO-privilege-escalation](https://github.com/laxmiyamkolu/SUDO-privilege-escalation) :  ![starts](https://img.shields.io/github/stars/laxmiyamkolu/SUDO-privilege-escalation.svg) ![forks](https://img.shields.io/github/forks/laxmiyamkolu/SUDO-privilege-escalation.svg)
 
 
-## CVE-2024-2887
- Type Confusion in WebAssembly in Google Chrome prior to 123.0.6312.86 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)
+## CVE-2023-20198
+ Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.
 
-- [https://github.com/rycbar77/CVE-2024-2887](https://github.com/rycbar77/CVE-2024-2887) :  ![starts](https://img.shields.io/github/stars/rycbar77/CVE-2024-2887.svg) ![forks](https://img.shields.io/github/forks/rycbar77/CVE-2024-2887.svg)
-- [https://github.com/PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc](https://github.com/PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc) :  ![starts](https://img.shields.io/github/stars/PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc.svg) ![forks](https://img.shields.io/github/forks/PumpkinBridge/Chrome-CVE-2024-2887-RCE-Poc.svg)
-
-
-## CVE-2024-1939
- Type Confusion in V8 in Google Chrome prior to 122.0.6261.94 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-
-- [https://github.com/rycbar77/CVE-2024-1939](https://github.com/rycbar77/CVE-2024-1939) :  ![starts](https://img.shields.io/github/stars/rycbar77/CVE-2024-1939.svg) ![forks](https://img.shields.io/github/forks/rycbar77/CVE-2024-1939.svg)
+- [https://github.com/sanan2004/CVE-2023-20198](https://github.com/sanan2004/CVE-2023-20198) :  ![starts](https://img.shields.io/github/stars/sanan2004/CVE-2023-20198.svg) ![forks](https://img.shields.io/github/forks/sanan2004/CVE-2023-20198.svg)
 
 
-## CVE-2022-35914
- /vendor/htmlawed/htmlawed/htmLawedTest.php in the htmlawed module for GLPI through 10.0.2 allows PHP code injection.
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/noxlumens/CVE-2022-35914_poc](https://github.com/noxlumens/CVE-2022-35914_poc) :  ![starts](https://img.shields.io/github/stars/noxlumens/CVE-2022-35914_poc.svg) ![forks](https://img.shields.io/github/forks/noxlumens/CVE-2022-35914_poc.svg)
+- [https://github.com/0xc4t/CVE-2021-41773](https://github.com/0xc4t/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/0xc4t/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/0xc4t/CVE-2021-41773.svg)
 
 
-## CVE-2007-4559
- Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.
+## CVE-2015-1328
+ The overlayfs implementation in the linux (aka Linux kernel) package before 3.19.0-21.21 in Ubuntu through 15.04 does not properly check permissions for file creation in the upper filesystem directory, which allows local users to obtain root access by leveraging a configuration in which overlayfs is permitted in an arbitrary mount namespace.
 
-- [https://github.com/JamesDarf/tarpioka](https://github.com/JamesDarf/tarpioka) :  ![starts](https://img.shields.io/github/stars/JamesDarf/tarpioka.svg) ![forks](https://img.shields.io/github/forks/JamesDarf/tarpioka.svg)
+- [https://github.com/elit3pwner/CVE-2015-1328-GoldenEye](https://github.com/elit3pwner/CVE-2015-1328-GoldenEye) :  ![starts](https://img.shields.io/github/stars/elit3pwner/CVE-2015-1328-GoldenEye.svg) ![forks](https://img.shields.io/github/forks/elit3pwner/CVE-2015-1328-GoldenEye.svg)
 
