@@ -1,66 +1,60 @@
-# Update 2024-08-31
-## CVE-2024-25641
- Cacti provides an operational monitoring and fault management framework. Prior to version 1.2.27, an arbitrary file write vulnerability, exploitable through the &quot;Package Import&quot; feature, allows authenticated users having the &quot;Import Templates&quot; permission to execute arbitrary PHP code on the web server. The vulnerability is located within the `import_package()` function defined into the `/lib/import.php` script. The function blindly trusts the filename and file content provided within the XML data, and writes such files into the Cacti base path (or even outside, since path traversal sequences are not filtered). This can be exploited to write or overwrite arbitrary files on the web server, leading to execution of arbitrary PHP code or other security impacts. Version 1.2.27 contains a patch for this issue.
+# Update 2024-09-01
+## CVE-2024-20017
+ In wlan service, there is a possible out of bounds write due to improper input validation. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation Patch ID: WCNCR00350938; Issue ID: MSV-1132.
 
-- [https://github.com/StopThatTalace/CVE-2024-25641-CACTI-RCE-1.2.26](https://github.com/StopThatTalace/CVE-2024-25641-CACTI-RCE-1.2.26) :  ![starts](https://img.shields.io/github/stars/StopThatTalace/CVE-2024-25641-CACTI-RCE-1.2.26.svg) ![forks](https://img.shields.io/github/forks/StopThatTalace/CVE-2024-25641-CACTI-RCE-1.2.26.svg)
-
-
-## CVE-2024-24919
- Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN or Mobile Access Software Blades. A Security fix that mitigates this vulnerability is available.
-
-- [https://github.com/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919](https://github.com/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919) :  ![starts](https://img.shields.io/github/stars/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919.svg) ![forks](https://img.shields.io/github/forks/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919.svg)
+- [https://github.com/mellow-hype/cve-2024-20017](https://github.com/mellow-hype/cve-2024-20017) :  ![starts](https://img.shields.io/github/stars/mellow-hype/cve-2024-20017.svg) ![forks](https://img.shields.io/github/forks/mellow-hype/cve-2024-20017.svg)
 
 
-## CVE-2024-23897
- Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
+## CVE-2024-6239
+ A flaw was found in the Poppler's Pdfinfo utility. This issue occurs when using -dests parameter with pdfinfo utility. By using certain malformed input files, an attacker could cause the utility to crash, leading to a denial of service.
 
-- [https://github.com/JAthulya/CVE-2024-23897](https://github.com/JAthulya/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/JAthulya/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/JAthulya/CVE-2024-23897.svg)
-
-
-## CVE-2024-5274
- Type Confusion in V8 in Google Chrome prior to 125.0.6422.112 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)
-
-- [https://github.com/mistymntncop/CVE-2024-5274](https://github.com/mistymntncop/CVE-2024-5274) :  ![starts](https://img.shields.io/github/stars/mistymntncop/CVE-2024-5274.svg) ![forks](https://img.shields.io/github/forks/mistymntncop/CVE-2024-5274.svg)
+- [https://github.com/Sharkkcode/CVE_2024_6239_slide](https://github.com/Sharkkcode/CVE_2024_6239_slide) :  ![starts](https://img.shields.io/github/stars/Sharkkcode/CVE_2024_6239_slide.svg) ![forks](https://img.shields.io/github/forks/Sharkkcode/CVE_2024_6239_slide.svg)
 
 
-## CVE-2024-4516
- A vulnerability was found in Campcodes Complete Web-Based School Management System 1.0 and classified as problematic. Affected by this issue is some unknown functionality of the file /view/timetable.php. The manipulation of the argument grade leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-263120.
+## CVE-2024-4291
+ A vulnerability was found in Tenda A301 15.13.08.12_multi_TDE01. It has been rated as critical. This issue affects the function formAddMacfilterRule of the file /goform/setBlackRule. The manipulation of the argument deviceList leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-262223. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
 
-- [https://github.com/0romos/CVE-2024-45163](https://github.com/0romos/CVE-2024-45163) :  ![starts](https://img.shields.io/github/stars/0romos/CVE-2024-45163.svg) ![forks](https://img.shields.io/github/forks/0romos/CVE-2024-45163.svg)
-
-
-## CVE-2024-4304
- A Cross-Site Scripting XSS vulnerability has been detected on GT3 Soluciones SWAL. This vulnerability consists in a reflected XSS in the Titular parameter inside Gestion 'Documental &gt; Seguimiento de Expedientes &gt; Alta de Expedientes'.
-
-- [https://github.com/convisolabs/CVE-2024-43044-jenkins](https://github.com/convisolabs/CVE-2024-43044-jenkins) :  ![starts](https://img.shields.io/github/stars/convisolabs/CVE-2024-43044-jenkins.svg) ![forks](https://img.shields.io/github/forks/convisolabs/CVE-2024-43044-jenkins.svg)
+- [https://github.com/kkll5875/CVE-2024-42913](https://github.com/kkll5875/CVE-2024-42913) :  ![starts](https://img.shields.io/github/stars/kkll5875/CVE-2024-42913.svg) ![forks](https://img.shields.io/github/forks/kkll5875/CVE-2024-42913.svg)
 
 
-## CVE-2022-22965
- A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.
+## CVE-2024-1071
+ The Ultimate Member &#8211; User Profile, Registration, Login, Member Directory, Content Restriction &amp; Membership Plugin plugin for WordPress is vulnerable to SQL Injection via the 'sorting' parameter in versions 2.1.3 to 2.8.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 
-- [https://github.com/te5t321/Spring4Shell-CVE-2022-22965.py](https://github.com/te5t321/Spring4Shell-CVE-2022-22965.py) :  ![starts](https://img.shields.io/github/stars/te5t321/Spring4Shell-CVE-2022-22965.py.svg) ![forks](https://img.shields.io/github/forks/te5t321/Spring4Shell-CVE-2022-22965.py.svg)
-
-
-## CVE-2021-34473
- Microsoft Exchange Server Remote Code Execution Vulnerability
-
-- [https://github.com/learningsurface/ProxyShell-CVE-2021-34473.py](https://github.com/learningsurface/ProxyShell-CVE-2021-34473.py) :  ![starts](https://img.shields.io/github/stars/learningsurface/ProxyShell-CVE-2021-34473.py.svg) ![forks](https://img.shields.io/github/forks/learningsurface/ProxyShell-CVE-2021-34473.py.svg)
+- [https://github.com/fa-rrel/CVE-2024-1071-SQL-Injection](https://github.com/fa-rrel/CVE-2024-1071-SQL-Injection) :  ![starts](https://img.shields.io/github/stars/fa-rrel/CVE-2024-1071-SQL-Injection.svg) ![forks](https://img.shields.io/github/forks/fa-rrel/CVE-2024-1071-SQL-Injection.svg)
 
 
-## CVE-2019-15107
- An issue was discovered in Webmin &lt;=1.920. The parameter old in password_change.cgi contains a command injection vulnerability.
+## CVE-2023-38831
+ RARLAB WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.
 
-- [https://github.com/NasrallahBaadi/CVE-2019-15107](https://github.com/NasrallahBaadi/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/NasrallahBaadi/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/NasrallahBaadi/CVE-2019-15107.svg)
-
-
-## CVE-2019-9168
- WooCommerce before 3.5.5 allows XSS via a Photoswipe caption.
-
-- [https://github.com/flouciel/WooCommerce-CVEs](https://github.com/flouciel/WooCommerce-CVEs) :  ![starts](https://img.shields.io/github/stars/flouciel/WooCommerce-CVEs.svg) ![forks](https://img.shields.io/github/forks/flouciel/WooCommerce-CVEs.svg)
+- [https://github.com/FirFirdaus/CVE-2023-38831](https://github.com/FirFirdaus/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/FirFirdaus/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/FirFirdaus/CVE-2023-38831.svg)
 
 
-## CVE-2018-20148
- In WordPress before 4.9.9 and 5.x before 5.0.1, contributors could conduct PHP object injection attacks via crafted metadata in a wp.getMediaItem XMLRPC call. This is caused by mishandling of serialized data at phar:// URLs in the wp_get_attachment_thumb_file function in wp-includes/post.php.
+## CVE-2023-33675
+ Tenda AC8V4.0-V16.03.34.06 was discovered to contain a stack overflow via the time parameter in the get_parentControl_list_Info function.
 
-- [https://github.com/flouciel/WooCommerce-CVEs](https://github.com/flouciel/WooCommerce-CVEs) :  ![starts](https://img.shields.io/github/stars/flouciel/WooCommerce-CVEs.svg) ![forks](https://img.shields.io/github/forks/flouciel/WooCommerce-CVEs.svg)
+- [https://github.com/retr0reg/tenda-ac8v4-rop](https://github.com/retr0reg/tenda-ac8v4-rop) :  ![starts](https://img.shields.io/github/stars/retr0reg/tenda-ac8v4-rop.svg) ![forks](https://img.shields.io/github/forks/retr0reg/tenda-ac8v4-rop.svg)
+
+
+## CVE-2023-33669
+ Tenda AC8V4.0-V16.03.34.06 was discovered to contain a stack overflow via the timeZone parameter in the sub_44db3c function.
+
+- [https://github.com/retr0reg/tenda-ac8v4-rop](https://github.com/retr0reg/tenda-ac8v4-rop) :  ![starts](https://img.shields.io/github/stars/retr0reg/tenda-ac8v4-rop.svg) ![forks](https://img.shields.io/github/forks/retr0reg/tenda-ac8v4-rop.svg)
+
+
+## CVE-2023-23488
+ The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an unauthenticated SQL injection vulnerability in the 'code' parameter of the '/pmpro/v1/order' REST route.
+
+- [https://github.com/long-rookie/CVE-2023-23488-PoC](https://github.com/long-rookie/CVE-2023-23488-PoC) :  ![starts](https://img.shields.io/github/stars/long-rookie/CVE-2023-23488-PoC.svg) ![forks](https://img.shields.io/github/forks/long-rookie/CVE-2023-23488-PoC.svg)
+
+
+## CVE-2022-1388
+ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.1, 14.1.x versions prior to 14.1.4.6, 13.1.x versions prior to 13.1.5, and all 12.1.x and 11.6.x versions, undisclosed requests may bypass iControl REST authentication. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated
+
+- [https://github.com/Chocapikk/CVE-2022-1388](https://github.com/Chocapikk/CVE-2022-1388) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2022-1388.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2022-1388.svg)
+
+
+## CVE-2020-8163
+ The is a code injection vulnerability in versions of Rails prior to 5.0.1 that wouldallow an attacker who controlled the `locals` argument of a `render` call to perform a RCE.
+
+- [https://github.com/RedPhantomRoot/CVE-2020-8163](https://github.com/RedPhantomRoot/CVE-2020-8163) :  ![starts](https://img.shields.io/github/stars/RedPhantomRoot/CVE-2020-8163.svg) ![forks](https://img.shields.io/github/forks/RedPhantomRoot/CVE-2020-8163.svg)
 
