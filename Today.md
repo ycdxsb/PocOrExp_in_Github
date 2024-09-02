@@ -1,60 +1,84 @@
-# Update 2024-09-01
-## CVE-2024-20017
- In wlan service, there is a possible out of bounds write due to improper input validation. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation Patch ID: WCNCR00350938; Issue ID: MSV-1132.
+# Update 2024-09-02
+## CVE-2024-38063
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/mellow-hype/cve-2024-20017](https://github.com/mellow-hype/cve-2024-20017) :  ![starts](https://img.shields.io/github/stars/mellow-hype/cve-2024-20017.svg) ![forks](https://img.shields.io/github/forks/mellow-hype/cve-2024-20017.svg)
-
-
-## CVE-2024-6239
- A flaw was found in the Poppler's Pdfinfo utility. This issue occurs when using -dests parameter with pdfinfo utility. By using certain malformed input files, an attacker could cause the utility to crash, leading to a denial of service.
-
-- [https://github.com/Sharkkcode/CVE_2024_6239_slide](https://github.com/Sharkkcode/CVE_2024_6239_slide) :  ![starts](https://img.shields.io/github/stars/Sharkkcode/CVE_2024_6239_slide.svg) ![forks](https://img.shields.io/github/forks/Sharkkcode/CVE_2024_6239_slide.svg)
+- [https://github.com/ThemeHackers/CVE-2024-38063](https://github.com/ThemeHackers/CVE-2024-38063) :  ![starts](https://img.shields.io/github/stars/ThemeHackers/CVE-2024-38063.svg) ![forks](https://img.shields.io/github/forks/ThemeHackers/CVE-2024-38063.svg)
 
 
-## CVE-2024-4291
- A vulnerability was found in Tenda A301 15.13.08.12_multi_TDE01. It has been rated as critical. This issue affects the function formAddMacfilterRule of the file /goform/setBlackRule. The manipulation of the argument deviceList leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-262223. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+## CVE-2024-32640
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/kkll5875/CVE-2024-42913](https://github.com/kkll5875/CVE-2024-42913) :  ![starts](https://img.shields.io/github/stars/kkll5875/CVE-2024-42913.svg) ![forks](https://img.shields.io/github/forks/kkll5875/CVE-2024-42913.svg)
-
-
-## CVE-2024-1071
- The Ultimate Member &#8211; User Profile, Registration, Login, Member Directory, Content Restriction &amp; Membership Plugin plugin for WordPress is vulnerable to SQL Injection via the 'sorting' parameter in versions 2.1.3 to 2.8.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
-
-- [https://github.com/fa-rrel/CVE-2024-1071-SQL-Injection](https://github.com/fa-rrel/CVE-2024-1071-SQL-Injection) :  ![starts](https://img.shields.io/github/stars/fa-rrel/CVE-2024-1071-SQL-Injection.svg) ![forks](https://img.shields.io/github/forks/fa-rrel/CVE-2024-1071-SQL-Injection.svg)
+- [https://github.com/0xYumeko/CVE-2024-32640-SQLI-MuraCMS](https://github.com/0xYumeko/CVE-2024-32640-SQLI-MuraCMS) :  ![starts](https://img.shields.io/github/stars/0xYumeko/CVE-2024-32640-SQLI-MuraCMS.svg) ![forks](https://img.shields.io/github/forks/0xYumeko/CVE-2024-32640-SQLI-MuraCMS.svg)
 
 
-## CVE-2023-38831
- RARLAB WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.
+## CVE-2024-24919
+ Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN or Mobile Access Software Blades. A Security fix that mitigates this vulnerability is available.
 
-- [https://github.com/FirFirdaus/CVE-2023-38831](https://github.com/FirFirdaus/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/FirFirdaus/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/FirFirdaus/CVE-2023-38831.svg)
-
-
-## CVE-2023-33675
- Tenda AC8V4.0-V16.03.34.06 was discovered to contain a stack overflow via the time parameter in the get_parentControl_list_Info function.
-
-- [https://github.com/retr0reg/tenda-ac8v4-rop](https://github.com/retr0reg/tenda-ac8v4-rop) :  ![starts](https://img.shields.io/github/stars/retr0reg/tenda-ac8v4-rop.svg) ![forks](https://img.shields.io/github/forks/retr0reg/tenda-ac8v4-rop.svg)
+- [https://github.com/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-](https://github.com/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-) :  ![starts](https://img.shields.io/github/stars/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-.svg) ![forks](https://img.shields.io/github/forks/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-.svg)
 
 
-## CVE-2023-33669
- Tenda AC8V4.0-V16.03.34.06 was discovered to contain a stack overflow via the timeZone parameter in the sub_44db3c function.
+## CVE-2024-21413
+ Microsoft Outlook Remote Code Execution Vulnerability
 
-- [https://github.com/retr0reg/tenda-ac8v4-rop](https://github.com/retr0reg/tenda-ac8v4-rop) :  ![starts](https://img.shields.io/github/stars/retr0reg/tenda-ac8v4-rop.svg) ![forks](https://img.shields.io/github/forks/retr0reg/tenda-ac8v4-rop.svg)
-
-
-## CVE-2023-23488
- The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an unauthenticated SQL injection vulnerability in the 'code' parameter of the '/pmpro/v1/order' REST route.
-
-- [https://github.com/long-rookie/CVE-2023-23488-PoC](https://github.com/long-rookie/CVE-2023-23488-PoC) :  ![starts](https://img.shields.io/github/stars/long-rookie/CVE-2023-23488-PoC.svg) ![forks](https://img.shields.io/github/forks/long-rookie/CVE-2023-23488-PoC.svg)
+- [https://github.com/ThemeHackers/CVE-2024-21413](https://github.com/ThemeHackers/CVE-2024-21413) :  ![starts](https://img.shields.io/github/stars/ThemeHackers/CVE-2024-21413.svg) ![forks](https://img.shields.io/github/forks/ThemeHackers/CVE-2024-21413.svg)
 
 
-## CVE-2022-1388
- On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.1, 14.1.x versions prior to 14.1.4.6, 13.1.x versions prior to 13.1.5, and all 12.1.x and 11.6.x versions, undisclosed requests may bypass iControl REST authentication. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated
+## CVE-2024-4577
+ In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use &quot;Best-Fit&quot; behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
 
-- [https://github.com/Chocapikk/CVE-2022-1388](https://github.com/Chocapikk/CVE-2022-1388) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2022-1388.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2022-1388.svg)
+- [https://github.com/aaddmin1122345/cve-2024-4577](https://github.com/aaddmin1122345/cve-2024-4577) :  ![starts](https://img.shields.io/github/stars/aaddmin1122345/cve-2024-4577.svg) ![forks](https://img.shields.io/github/forks/aaddmin1122345/cve-2024-4577.svg)
 
 
-## CVE-2020-8163
- The is a code injection vulnerability in versions of Rails prior to 5.0.1 that wouldallow an attacker who controlled the `locals` argument of a `render` call to perform a RCE.
+## CVE-2024-4481
+ The Gutenberg Blocks with AI by Kadence WP plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'link' attribute of the plugin's blocks in all versions up to, and including, 3.2.36 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 
-- [https://github.com/RedPhantomRoot/CVE-2020-8163](https://github.com/RedPhantomRoot/CVE-2020-8163) :  ![starts](https://img.shields.io/github/stars/RedPhantomRoot/CVE-2020-8163.svg) ![forks](https://img.shields.io/github/forks/RedPhantomRoot/CVE-2020-8163.svg)
+- [https://github.com/b1u3st0rm/CVE-2024-44812-PoC](https://github.com/b1u3st0rm/CVE-2024-44812-PoC) :  ![starts](https://img.shields.io/github/stars/b1u3st0rm/CVE-2024-44812-PoC.svg) ![forks](https://img.shields.io/github/forks/b1u3st0rm/CVE-2024-44812-PoC.svg)
+
+
+## CVE-2024-4264
+ A remote code execution (RCE) vulnerability exists in the berriai/litellm project due to improper control of the generation of code when using the `eval` function unsafely in the `litellm.get_secret()` method. Specifically, when the server utilizes Google KMS, untrusted data is passed to the `eval` function without any sanitization. Attackers can exploit this vulnerability by injecting malicious values into environment variables through the `/config/update` endpoint, which allows for the update of settings in `proxy_server_config.yaml`.
+
+- [https://github.com/VL4DR/CVE-2024-42642](https://github.com/VL4DR/CVE-2024-42642) :  ![starts](https://img.shields.io/github/stars/VL4DR/CVE-2024-42642.svg) ![forks](https://img.shields.io/github/forks/VL4DR/CVE-2024-42642.svg)
+
+
+## CVE-2024-0195
+ A vulnerability, which was classified as critical, was found in spider-flow 0.4.3. Affected is the function FunctionService.saveFunction of the file src/main/java/org/spiderflow/controller/FunctionController.java. The manipulation leads to code injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-249510 is the identifier assigned to this vulnerability.
+
+- [https://github.com/fa-rrel/CVE-2024-0195-SpiderFlow](https://github.com/fa-rrel/CVE-2024-0195-SpiderFlow) :  ![starts](https://img.shields.io/github/stars/fa-rrel/CVE-2024-0195-SpiderFlow.svg) ![forks](https://img.shields.io/github/forks/fa-rrel/CVE-2024-0195-SpiderFlow.svg)
+
+
+## CVE-2023-41064
+ A buffer overflow issue was addressed with improved memory handling. This issue is fixed in iOS 16.6.1 and iPadOS 16.6.1, macOS Monterey 12.6.9, macOS Ventura 13.5.2, iOS 15.7.9 and iPadOS 15.7.9, macOS Big Sur 11.7.10. Processing a maliciously crafted image may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
+
+- [https://github.com/sarsaeroth/CVE-2023-41064-POC](https://github.com/sarsaeroth/CVE-2023-41064-POC) :  ![starts](https://img.shields.io/github/stars/sarsaeroth/CVE-2023-41064-POC.svg) ![forks](https://img.shields.io/github/forks/sarsaeroth/CVE-2023-41064-POC.svg)
+
+
+## CVE-2023-32784
+ In KeePass 2.x before 2.54, it is possible to recover the cleartext master password from a memory dump, even when a workspace is locked or no longer running. The memory dump can be a KeePass process dump, swap file (pagefile.sys), hibernation file (hiberfil.sys), or RAM dump of the entire system. The first character cannot be recovered. In 2.54, there is different API usage and/or random string insertion for mitigation.
+
+- [https://github.com/le01s/poc-CVE-2023-32784](https://github.com/le01s/poc-CVE-2023-32784) :  ![starts](https://img.shields.io/github/stars/le01s/poc-CVE-2023-32784.svg) ![forks](https://img.shields.io/github/forks/le01s/poc-CVE-2023-32784.svg)
+
+
+## CVE-2023-29360
+ Microsoft Streaming Service Elevation of Privilege Vulnerability
+
+- [https://github.com/0xDivyanshu-new/CVE-2023-29360](https://github.com/0xDivyanshu-new/CVE-2023-29360) :  ![starts](https://img.shields.io/github/stars/0xDivyanshu-new/CVE-2023-29360.svg) ![forks](https://img.shields.io/github/forks/0xDivyanshu-new/CVE-2023-29360.svg)
+
+
+## CVE-2023-23397
+ Microsoft Outlook Elevation of Privilege Vulnerability
+
+- [https://github.com/sarsaeroth/CVE-2023-23397-POC](https://github.com/sarsaeroth/CVE-2023-23397-POC) :  ![starts](https://img.shields.io/github/stars/sarsaeroth/CVE-2023-23397-POC.svg) ![forks](https://img.shields.io/github/forks/sarsaeroth/CVE-2023-23397-POC.svg)
+
+
+## CVE-2023-4863
+ Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)
+
+- [https://github.com/sarsaeroth/CVE-2023-4863-POC](https://github.com/sarsaeroth/CVE-2023-4863-POC) :  ![starts](https://img.shields.io/github/stars/sarsaeroth/CVE-2023-4863-POC.svg) ![forks](https://img.shields.io/github/forks/sarsaeroth/CVE-2023-4863-POC.svg)
+
+
+## CVE-2023-2598
+ A flaw was found in the fixed buffer registration code for io_uring (io_sqe_buffer_register in io_uring/rsrc.c) in the Linux kernel that allows out-of-bounds access to physical memory beyond the end of the buffer. This flaw enables full local privilege escalation.
+
+- [https://github.com/cainiao159357/CVE-2023-2598](https://github.com/cainiao159357/CVE-2023-2598) :  ![starts](https://img.shields.io/github/stars/cainiao159357/CVE-2023-2598.svg) ![forks](https://img.shields.io/github/forks/cainiao159357/CVE-2023-2598.svg)
 
