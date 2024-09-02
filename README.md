@@ -103,6 +103,7 @@ python3 exp.py -y all -i y
 - 2. When querying through the API, the script strategy is to take the top 30 results by star count, so when the number of other repos with the same CVE increases, they enter the top 30 list, appearing as newly added today. Found that only CVE-2019-0708 has more than 100 search results, so pagination was not used to crawl all. Changed to taking the top 100 results by star count each time.
 - 2021-04-30: [download](https://github.com/ycdxsb/PocOrExp_in_Github/tree/main/download.py) to download all PoC/Exp to prevent repo deletion by publishers. Please update git to the latest version to prevent attacks when cloning on Windows [CVE-2020-27955](https://github.com/yhsung/cve-2020-27955-poc).
 - 2021-05-19: Found some phishing attempts using CVE on GitHub, like [JamesGee](https://github.com/JamesGeee). No special handling, please be cautious.
+- 2024-09-01: If you are unable to find the POC/EXP on GitHub, you can also check here: https://pocorexps.nsa.im/
 
 ## Stargazers
 
