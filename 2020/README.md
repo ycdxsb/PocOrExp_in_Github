@@ -1024,9 +1024,9 @@
 
 - [https://github.com/Rajchowdhury420/ThinkAdmin-CVE-2020-25540](https://github.com/Rajchowdhury420/ThinkAdmin-CVE-2020-25540) :  ![starts](https://img.shields.io/github/stars/Rajchowdhury420/ThinkAdmin-CVE-2020-25540.svg) ![forks](https://img.shields.io/github/forks/Rajchowdhury420/ThinkAdmin-CVE-2020-25540.svg)
 
-- [https://github.com/lowkey0808/cve-2020-25540](https://github.com/lowkey0808/cve-2020-25540) :  ![starts](https://img.shields.io/github/stars/lowkey0808/cve-2020-25540.svg) ![forks](https://img.shields.io/github/forks/lowkey0808/cve-2020-25540.svg)
-
 - [https://github.com/simonlee-hello/CVE-2020-25540](https://github.com/simonlee-hello/CVE-2020-25540) :  ![starts](https://img.shields.io/github/stars/simonlee-hello/CVE-2020-25540.svg) ![forks](https://img.shields.io/github/forks/simonlee-hello/CVE-2020-25540.svg)
+
+- [https://github.com/lowkey0808/cve-2020-25540](https://github.com/lowkey0808/cve-2020-25540) :  ![starts](https://img.shields.io/github/stars/lowkey0808/cve-2020-25540.svg) ![forks](https://img.shields.io/github/forks/lowkey0808/cve-2020-25540.svg)
 
 ## CVE-2020-25538
  An authenticated attacker can inject malicious code into &quot;lang&quot; parameter in /uno/central.php file in CMSuno 1.6.2 and run this PHP code in the web page. In this way, attacker can takeover the control of the server.
@@ -1402,9 +1402,9 @@
 
 
 
-- [https://github.com/redteambrasil/CVE-2020-24028](https://github.com/redteambrasil/CVE-2020-24028) :  ![starts](https://img.shields.io/github/stars/redteambrasil/CVE-2020-24028.svg) ![forks](https://img.shields.io/github/forks/redteambrasil/CVE-2020-24028.svg)
-
 - [https://github.com/underprotection/CVE-2020-24028](https://github.com/underprotection/CVE-2020-24028) :  ![starts](https://img.shields.io/github/stars/underprotection/CVE-2020-24028.svg) ![forks](https://img.shields.io/github/forks/underprotection/CVE-2020-24028.svg)
+
+- [https://github.com/redteambrasil/CVE-2020-24028](https://github.com/redteambrasil/CVE-2020-24028) :  ![starts](https://img.shields.io/github/stars/redteambrasil/CVE-2020-24028.svg) ![forks](https://img.shields.io/github/forks/redteambrasil/CVE-2020-24028.svg)
 
 ## CVE-2020-23968
  Ilex International Sign&amp;go Workstation Security Suite 7.1 allows elevation of privileges via a symlink attack on ProgramData\Ilex\S&amp;G\Logs\000-sngWSService1.log.
@@ -2706,6 +2706,8 @@
 - [https://github.com/K3ysTr0K3R/CVE-2020-13945-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2020-13945-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2020-13945-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2020-13945-EXPLOIT.svg)
 
 - [https://github.com/YutuSec/Apisix_Crack](https://github.com/YutuSec/Apisix_Crack) :  ![starts](https://img.shields.io/github/stars/YutuSec/Apisix_Crack.svg) ![forks](https://img.shields.io/github/forks/YutuSec/Apisix_Crack.svg)
+
+- [https://github.com/Pixelcraftch/CVE-2020-13945-EXPLOIT](https://github.com/Pixelcraftch/CVE-2020-13945-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/Pixelcraftch/CVE-2020-13945-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/Pixelcraftch/CVE-2020-13945-EXPLOIT.svg)
 
 ## CVE-2020-13942
  It is possible to inject malicious OGNL or MVEL scripts into the /context.json public endpoint. This was partially fixed in 1.5.1 but a new attack vector was found. In Apache Unomi version 1.5.2 scripts are now completely filtered from the input. It is highly recommended to upgrade to the latest available version of the 1.5.x release to fix this problem.
@@ -4132,9 +4134,9 @@
 
 - [https://github.com/Veraxy00/CVE-2020-8840](https://github.com/Veraxy00/CVE-2020-8840) :  ![starts](https://img.shields.io/github/stars/Veraxy00/CVE-2020-8840.svg) ![forks](https://img.shields.io/github/forks/Veraxy00/CVE-2020-8840.svg)
 
-- [https://github.com/dpredrag/CVE-2020-8840](https://github.com/dpredrag/CVE-2020-8840) :  ![starts](https://img.shields.io/github/stars/dpredrag/CVE-2020-8840.svg) ![forks](https://img.shields.io/github/forks/dpredrag/CVE-2020-8840.svg)
-
 - [https://github.com/Blyth0He/CVE-2020-8840](https://github.com/Blyth0He/CVE-2020-8840) :  ![starts](https://img.shields.io/github/stars/Blyth0He/CVE-2020-8840.svg) ![forks](https://img.shields.io/github/forks/Blyth0He/CVE-2020-8840.svg)
+
+- [https://github.com/dpredrag/CVE-2020-8840](https://github.com/dpredrag/CVE-2020-8840) :  ![starts](https://img.shields.io/github/stars/dpredrag/CVE-2020-8840.svg) ![forks](https://img.shields.io/github/forks/dpredrag/CVE-2020-8840.svg)
 
 ## CVE-2020-8835
  In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) did not properly restrict the register bounds for 32-bit operations, leading to out-of-bounds reads and writes in kernel memory. The vulnerability also affects the Linux 5.4 stable series, starting with v5.4.7, as the introducing commit was backported to that branch. This vulnerability was fixed in 5.6.1, 5.5.14, and 5.4.29. (issue is aka ZDI-CAN-10780)
@@ -6035,9 +6037,9 @@
 
 - [https://github.com/JolynNgSC/Zerologon_CVE-2020-1472](https://github.com/JolynNgSC/Zerologon_CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/JolynNgSC/Zerologon_CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/JolynNgSC/Zerologon_CVE-2020-1472.svg)
 
-- [https://github.com/TheJoyOfHacking/dirkjanm-CVE-2020-1472](https://github.com/TheJoyOfHacking/dirkjanm-CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/TheJoyOfHacking/dirkjanm-CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/TheJoyOfHacking/dirkjanm-CVE-2020-1472.svg)
-
 - [https://github.com/Fa1c0n35/CVE-2020-1472-02-](https://github.com/Fa1c0n35/CVE-2020-1472-02-) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472-02-.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472-02-.svg)
+
+- [https://github.com/TheJoyOfHacking/dirkjanm-CVE-2020-1472](https://github.com/TheJoyOfHacking/dirkjanm-CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/TheJoyOfHacking/dirkjanm-CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/TheJoyOfHacking/dirkjanm-CVE-2020-1472.svg)
 
 - [https://github.com/blackh00d/zerologon-poc](https://github.com/blackh00d/zerologon-poc) :  ![starts](https://img.shields.io/github/stars/blackh00d/zerologon-poc.svg) ![forks](https://img.shields.io/github/forks/blackh00d/zerologon-poc.svg)
 
@@ -6427,13 +6429,13 @@
 
 - [https://github.com/AaronCaiii/CVE-2020-0796-POC](https://github.com/AaronCaiii/CVE-2020-0796-POC) :  ![starts](https://img.shields.io/github/stars/AaronCaiii/CVE-2020-0796-POC.svg) ![forks](https://img.shields.io/github/forks/AaronCaiii/CVE-2020-0796-POC.svg)
 
-- [https://github.com/kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/kn6869610/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/kn6869610/CVE-2020-0796.svg)
-
 - [https://github.com/section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/section-c/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/section-c/CVE-2020-0796.svg)
 
 - [https://github.com/TweatherQ/CVE-2020-0796](https://github.com/TweatherQ/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/TweatherQ/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/TweatherQ/CVE-2020-0796.svg)
 
 - [https://github.com/Opensitoo/cve-2020-0796](https://github.com/Opensitoo/cve-2020-0796) :  ![starts](https://img.shields.io/github/stars/Opensitoo/cve-2020-0796.svg) ![forks](https://img.shields.io/github/forks/Opensitoo/cve-2020-0796.svg)
+
+- [https://github.com/kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/kn6869610/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/kn6869610/CVE-2020-0796.svg)
 
 - [https://github.com/abdullah098/CVE_2020_0796](https://github.com/abdullah098/CVE_2020_0796) :  ![starts](https://img.shields.io/github/stars/abdullah098/CVE_2020_0796.svg) ![forks](https://img.shields.io/github/forks/abdullah098/CVE_2020_0796.svg)
 
