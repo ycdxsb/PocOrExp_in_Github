@@ -389,6 +389,13 @@
 
 - [https://github.com/jndok/tpwn-bis](https://github.com/jndok/tpwn-bis) :  ![starts](https://img.shields.io/github/stars/jndok/tpwn-bis.svg) ![forks](https://img.shields.io/github/forks/jndok/tpwn-bis.svg)
 
+## CVE-2015-5711
+ TIBCO Managed File Transfer Internet Server before 7.2.5, Managed File Transfer Command Center before 7.2.5, Slingshot before 1.9.4, and Vault before 2.0.1 allow remote authenticated users to obtain sensitive information via a crafted HTTP request.
+
+
+
+- [https://github.com/TrixSec/CVE-2015-57115](https://github.com/TrixSec/CVE-2015-57115) :  ![starts](https://img.shields.io/github/stars/TrixSec/CVE-2015-57115.svg) ![forks](https://img.shields.io/github/forks/TrixSec/CVE-2015-57115.svg)
+
 ## CVE-2015-5602
  sudoedit in Sudo before 1.8.15 allows local users to gain privileges via a symlink attack on a file whose full path is defined using multiple wildcards in /etc/sudoers, as demonstrated by &quot;/home/*/*/file.txt.&quot;
 
