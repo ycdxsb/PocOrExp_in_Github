@@ -3354,9 +3354,9 @@
 
 
 
-- [https://github.com/Official-BlackHat13/CVE-2020-11546](https://github.com/Official-BlackHat13/CVE-2020-11546) :  ![starts](https://img.shields.io/github/stars/Official-BlackHat13/CVE-2020-11546.svg) ![forks](https://img.shields.io/github/forks/Official-BlackHat13/CVE-2020-11546.svg)
-
 - [https://github.com/damit5/CVE-2020-11546](https://github.com/damit5/CVE-2020-11546) :  ![starts](https://img.shields.io/github/stars/damit5/CVE-2020-11546.svg) ![forks](https://img.shields.io/github/forks/damit5/CVE-2020-11546.svg)
+
+- [https://github.com/Official-BlackHat13/CVE-2020-11546](https://github.com/Official-BlackHat13/CVE-2020-11546) :  ![starts](https://img.shields.io/github/stars/Official-BlackHat13/CVE-2020-11546.svg) ![forks](https://img.shields.io/github/forks/Official-BlackHat13/CVE-2020-11546.svg)
 
 ## CVE-2020-11539
  An issue was discovered on Tata Sonata Smart SF Rush 1.12 devices. It has been identified that the smart band has no pairing (mode 0 Bluetooth LE security level) The data being transmitted over the air is not encrypted. Adding to this, the data being sent to the smart band doesn't have any authentication or signature verification. Thus, any attacker can control a parameter of the device.
@@ -5132,9 +5132,9 @@
 
 - [https://github.com/k3nundrum/CVE-2020-5902](https://github.com/k3nundrum/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/k3nundrum/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/k3nundrum/CVE-2020-5902.svg)
 
-- [https://github.com/GoodiesHQ/F5-Patch](https://github.com/GoodiesHQ/F5-Patch) :  ![starts](https://img.shields.io/github/stars/GoodiesHQ/F5-Patch.svg) ![forks](https://img.shields.io/github/forks/GoodiesHQ/F5-Patch.svg)
-
 - [https://github.com/qiong-qi/CVE-2020-5902-POC](https://github.com/qiong-qi/CVE-2020-5902-POC) :  ![starts](https://img.shields.io/github/stars/qiong-qi/CVE-2020-5902-POC.svg) ![forks](https://img.shields.io/github/forks/qiong-qi/CVE-2020-5902-POC.svg)
+
+- [https://github.com/GoodiesHQ/F5-Patch](https://github.com/GoodiesHQ/F5-Patch) :  ![starts](https://img.shields.io/github/stars/GoodiesHQ/F5-Patch.svg) ![forks](https://img.shields.io/github/forks/GoodiesHQ/F5-Patch.svg)
 
 - [https://github.com/TheCyberViking/CVE-2020-5902-Vuln-Checker](https://github.com/TheCyberViking/CVE-2020-5902-Vuln-Checker) :  ![starts](https://img.shields.io/github/stars/TheCyberViking/CVE-2020-5902-Vuln-Checker.svg) ![forks](https://img.shields.io/github/forks/TheCyberViking/CVE-2020-5902-Vuln-Checker.svg)
 
@@ -5831,7 +5831,7 @@
 
 - [https://github.com/laolisafe/CVE-2020-1938](https://github.com/laolisafe/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/laolisafe/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/laolisafe/CVE-2020-1938.svg)
 
-- [https://github.com/lizhianyuguangming/TomcatWeakPassChecker](https://github.com/lizhianyuguangming/TomcatWeakPassChecker) :  ![starts](https://img.shields.io/github/stars/lizhianyuguangming/TomcatWeakPassChecker.svg) ![forks](https://img.shields.io/github/forks/lizhianyuguangming/TomcatWeakPassChecker.svg)
+- [https://github.com/lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro) :  ![starts](https://img.shields.io/github/stars/lizhianyuguangming/TomcatScanPro.svg) ![forks](https://img.shields.io/github/forks/lizhianyuguangming/TomcatScanPro.svg)
 
 - [https://github.com/woaiqiukui/CVE-2020-1938TomcatAjpScanner](https://github.com/woaiqiukui/CVE-2020-1938TomcatAjpScanner) :  ![starts](https://img.shields.io/github/stars/woaiqiukui/CVE-2020-1938TomcatAjpScanner.svg) ![forks](https://img.shields.io/github/forks/woaiqiukui/CVE-2020-1938TomcatAjpScanner.svg)
 
@@ -6051,9 +6051,9 @@
 
 - [https://github.com/logg-1/0logon](https://github.com/logg-1/0logon) :  ![starts](https://img.shields.io/github/stars/logg-1/0logon.svg) ![forks](https://img.shields.io/github/forks/logg-1/0logon.svg)
 
-- [https://github.com/technion/ZeroLogonAssess](https://github.com/technion/ZeroLogonAssess) :  ![starts](https://img.shields.io/github/stars/technion/ZeroLogonAssess.svg) ![forks](https://img.shields.io/github/forks/technion/ZeroLogonAssess.svg)
-
 - [https://github.com/likeww/MassZeroLogon](https://github.com/likeww/MassZeroLogon) :  ![starts](https://img.shields.io/github/stars/likeww/MassZeroLogon.svg) ![forks](https://img.shields.io/github/forks/likeww/MassZeroLogon.svg)
+
+- [https://github.com/technion/ZeroLogonAssess](https://github.com/technion/ZeroLogonAssess) :  ![starts](https://img.shields.io/github/stars/technion/ZeroLogonAssess.svg) ![forks](https://img.shields.io/github/forks/technion/ZeroLogonAssess.svg)
 
 - [https://github.com/maikelnight/zerologon](https://github.com/maikelnight/zerologon) :  ![starts](https://img.shields.io/github/stars/maikelnight/zerologon.svg) ![forks](https://img.shields.io/github/forks/maikelnight/zerologon.svg)
 
