@@ -69,6 +69,13 @@
 
 - [https://github.com/alt3kx/CVE-2007-3830](https://github.com/alt3kx/CVE-2007-3830) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2007-3830.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2007-3830.svg)
 
+## CVE-2007-3280
+ The Database Link library (dblink) in PostgreSQL 8.1 implements functions via CREATE statements that map to arbitrary libraries based on the C programming language, which allows remote authenticated superusers to map and execute a function from any library, as demonstrated by using the system function in libc.so.6 to gain shell access.
+
+
+
+- [https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports](https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports) :  ![starts](https://img.shields.io/github/stars/DenuwanJayasekara/CVE-Exploitation-Reports.svg) ![forks](https://img.shields.io/github/forks/DenuwanJayasekara/CVE-Exploitation-Reports.svg)
+
 ## CVE-2007-2447
  The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 
@@ -102,19 +109,19 @@
 
 - [https://github.com/0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xKn/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xKn/CVE-2007-2447.svg)
 
-- [https://github.com/G01d3nW01f/CVE-2007-2447](https://github.com/G01d3nW01f/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2007-2447.svg)
-
 - [https://github.com/xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/xlcc4096/exploit-CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/xlcc4096/exploit-CVE-2007-2447.svg)
 
-- [https://github.com/0xTabun/CVE-2007-2447](https://github.com/0xTabun/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xTabun/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xTabun/CVE-2007-2447.svg)
+- [https://github.com/G01d3nW01f/CVE-2007-2447](https://github.com/G01d3nW01f/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2007-2447.svg)
 
-- [https://github.com/Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447) :  ![starts](https://img.shields.io/github/stars/Juantos/cve-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Juantos/cve-2007-2447.svg)
+- [https://github.com/0xTabun/CVE-2007-2447](https://github.com/0xTabun/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xTabun/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xTabun/CVE-2007-2447.svg)
 
 - [https://github.com/testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/testaross4/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/testaross4/CVE-2007-2447.svg)
 
 - [https://github.com/0xConstant/CVE-2007-2447](https://github.com/0xConstant/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xConstant/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xConstant/CVE-2007-2447.svg)
 
 - [https://github.com/JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/JoseBarrios/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/JoseBarrios/CVE-2007-2447.svg)
+
+- [https://github.com/Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447) :  ![starts](https://img.shields.io/github/stars/Juantos/cve-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Juantos/cve-2007-2447.svg)
 
 - [https://github.com/b1fair/smb_usermap](https://github.com/b1fair/smb_usermap) :  ![starts](https://img.shields.io/github/stars/b1fair/smb_usermap.svg) ![forks](https://img.shields.io/github/forks/b1fair/smb_usermap.svg)
 
