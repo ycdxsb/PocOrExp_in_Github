@@ -1,90 +1,102 @@
-# Update 2024-09-12
-## CVE-2024-38063
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/Faizan-Khanx/CVE-2024-38063](https://github.com/Faizan-Khanx/CVE-2024-38063) :  ![starts](https://img.shields.io/github/stars/Faizan-Khanx/CVE-2024-38063.svg) ![forks](https://img.shields.io/github/forks/Faizan-Khanx/CVE-2024-38063.svg)
-
-
+# Update 2024-09-13
 ## CVE-2024-37084
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Kayiyan/CVE-2024-37084-Poc](https://github.com/Kayiyan/CVE-2024-37084-Poc) :  ![starts](https://img.shields.io/github/stars/Kayiyan/CVE-2024-37084-Poc.svg) ![forks](https://img.shields.io/github/forks/Kayiyan/CVE-2024-37084-Poc.svg)
-
-
-## CVE-2024-28000
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/JohnDoeAnonITA/CVE-2024-28000](https://github.com/JohnDoeAnonITA/CVE-2024-28000) :  ![starts](https://img.shields.io/github/stars/JohnDoeAnonITA/CVE-2024-28000.svg) ![forks](https://img.shields.io/github/forks/JohnDoeAnonITA/CVE-2024-28000.svg)
+- [https://github.com/vuhz/CVE-2024-37084](https://github.com/vuhz/CVE-2024-37084) :  ![starts](https://img.shields.io/github/stars/vuhz/CVE-2024-37084.svg) ![forks](https://img.shields.io/github/forks/vuhz/CVE-2024-37084.svg)
 
 
 ## CVE-2024-26581
  In the Linux kernel, the following vulnerability has been resolved: netfilter: nft_set_rbtree: skip end interval element from gc rbtree lazy gc on insert might collect an end interval element that has been just added in this transactions, skip end interval elements that are not yet active.
 
-- [https://github.com/madfxr/CVE-2024-26581-Checker](https://github.com/madfxr/CVE-2024-26581-Checker) :  ![starts](https://img.shields.io/github/stars/madfxr/CVE-2024-26581-Checker.svg) ![forks](https://img.shields.io/github/forks/madfxr/CVE-2024-26581-Checker.svg)
+- [https://github.com/laoqin1234/Linux-Root-CVE-2024-26581-PoC](https://github.com/laoqin1234/Linux-Root-CVE-2024-26581-PoC) :  ![starts](https://img.shields.io/github/stars/laoqin1234/Linux-Root-CVE-2024-26581-PoC.svg) ![forks](https://img.shields.io/github/forks/laoqin1234/Linux-Root-CVE-2024-26581-PoC.svg)
 
 
-## CVE-2024-0944
- A vulnerability was found in Totolink T8 4.1.5cu.833_20220905. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /cgi-bin/cstecgi.cgi. The manipulation leads to session expiration. The attack may be launched remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-252188. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+## CVE-2024-5522
+ The HTML5 Video Player WordPress plugin before 2.5.27 does not sanitize and escape a parameter from a REST route before using it in a SQL statement, allowing unauthenticated users to perform SQL injection attacks
 
-- [https://github.com/Artemisxxx37/cve-2024-0944](https://github.com/Artemisxxx37/cve-2024-0944) :  ![starts](https://img.shields.io/github/stars/Artemisxxx37/cve-2024-0944.svg) ![forks](https://img.shields.io/github/forks/Artemisxxx37/cve-2024-0944.svg)
-
-
-## CVE-2024-0906
- The f(x) Private Site plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.2.1 via the API. This makes it possible for unauthenticated attackers to obtain page and post contents of a site protected with this plugin.
-
-- [https://github.com/sudoCreate258/lab1_patch](https://github.com/sudoCreate258/lab1_patch) :  ![starts](https://img.shields.io/github/stars/sudoCreate258/lab1_patch.svg) ![forks](https://img.shields.io/github/forks/sudoCreate258/lab1_patch.svg)
+- [https://github.com/kryptonproject/CVE-2024-5522-PoC](https://github.com/kryptonproject/CVE-2024-5522-PoC) :  ![starts](https://img.shields.io/github/stars/kryptonproject/CVE-2024-5522-PoC.svg) ![forks](https://img.shields.io/github/forks/kryptonproject/CVE-2024-5522-PoC.svg)
 
 
-## CVE-2023-46527
- TP-LINK TL-WR886N V7.0_3.0.14_Build_221115_Rel.56908n.bin was discovered to contain a stack overflow via the function bindRequestHandle.
+## CVE-2024-4577
+ In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use &quot;Best-Fit&quot; behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
 
-- [https://github.com/Jianchun-Ding/CVE-poc-update](https://github.com/Jianchun-Ding/CVE-poc-update) :  ![starts](https://img.shields.io/github/stars/Jianchun-Ding/CVE-poc-update.svg) ![forks](https://img.shields.io/github/forks/Jianchun-Ding/CVE-poc-update.svg)
-
-
-## CVE-2023-46371
- TP-Link device TL-WDR7660 2.0.30 has a stack overflow vulnerability via the function upgradeInfoJsonToBin.
-
-- [https://github.com/Jianchun-Ding/CVE-poc-update](https://github.com/Jianchun-Ding/CVE-poc-update) :  ![starts](https://img.shields.io/github/stars/Jianchun-Ding/CVE-poc-update.svg) ![forks](https://img.shields.io/github/forks/Jianchun-Ding/CVE-poc-update.svg)
+- [https://github.com/ywChen-NTUST/PHP-CGI-RCE-Scanner](https://github.com/ywChen-NTUST/PHP-CGI-RCE-Scanner) :  ![starts](https://img.shields.io/github/stars/ywChen-NTUST/PHP-CGI-RCE-Scanner.svg) ![forks](https://img.shields.io/github/forks/ywChen-NTUST/PHP-CGI-RCE-Scanner.svg)
 
 
-## CVE-2022-37706
- enlightenment_sys in Enlightenment before 0.25.4 allows local users to gain privileges because it is setuid root, and the system library function mishandles pathnames that begin with a /dev/.. substring.
+## CVE-2024-4550
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/KaoXx/CVE-2022-37706](https://github.com/KaoXx/CVE-2022-37706) :  ![starts](https://img.shields.io/github/stars/KaoXx/CVE-2022-37706.svg) ![forks](https://img.shields.io/github/forks/KaoXx/CVE-2022-37706.svg)
-
-
-## CVE-2022-24181
- Cross-site scripting (XSS) via Host Header injection in PKP Open Journals System 2.4.8 &gt;= 3.3 allows remote attackers to inject arbitary code via the X-Forwarded-Host Header.
-
-- [https://github.com/cyberhawk000/CVE-2022-24181](https://github.com/cyberhawk000/CVE-2022-24181) :  ![starts](https://img.shields.io/github/stars/cyberhawk000/CVE-2022-24181.svg) ![forks](https://img.shields.io/github/forks/cyberhawk000/CVE-2022-24181.svg)
+- [https://github.com/Avento/CVE-2024-45507_Behinder_Webshell](https://github.com/Avento/CVE-2024-45507_Behinder_Webshell) :  ![starts](https://img.shields.io/github/stars/Avento/CVE-2024-45507_Behinder_Webshell.svg) ![forks](https://img.shields.io/github/forks/Avento/CVE-2024-45507_Behinder_Webshell.svg)
 
 
-## CVE-2022-0944
- Template injection in connection test endpoint leads to RCE in GitHub repository sqlpad/sqlpad prior to 6.10.1.
+## CVE-2024-4454
+ WithSecure Elements Endpoint Protection Link Following Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of WithSecure Elements Endpoint Protection. User interaction on the part of an administrator is required to exploit this vulnerability. The specific flaw exists within the WithSecure plugin hosting service. By creating a symbolic link, an attacker can abuse the service to create a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-23035.
 
-- [https://github.com/0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944](https://github.com/0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944) :  ![starts](https://img.shields.io/github/stars/0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944.svg) ![forks](https://img.shields.io/github/forks/0xRoqeeb/sqlpad-rce-exploit-CVE-2022-0944.svg)
-
-
-## CVE-2021-1112
- NVIDIA Linux kernel distributions contain a vulnerability in nvmap, where a null pointer dereference may lead to complete denial of service.
-
-- [https://github.com/chenanu123/cve-2021-11123](https://github.com/chenanu123/cve-2021-11123) :  ![starts](https://img.shields.io/github/stars/chenanu123/cve-2021-11123.svg) ![forks](https://img.shields.io/github/forks/chenanu123/cve-2021-11123.svg)
+- [https://github.com/pointedsec/CVE-2024-44541](https://github.com/pointedsec/CVE-2024-44541) :  ![starts](https://img.shields.io/github/stars/pointedsec/CVE-2024-44541.svg) ![forks](https://img.shields.io/github/forks/pointedsec/CVE-2024-44541.svg)
 
 
-## CVE-2019-0567
- A remote code execution vulnerability exists in the way that the Chakra scripting engine handles objects in memory in Microsoft Edge, aka &quot;Chakra Scripting Engine Memory Corruption Vulnerability.&quot; This affects Microsoft Edge, ChakraCore. This CVE ID is unique from CVE-2019-0539, CVE-2019-0568.
+## CVE-2024-0624
+ The Paid Memberships Pro &#8211; Content Restriction, User Registration, &amp; Paid Subscriptions plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.12.7. This is due to missing or incorrect nonce validation on the pmpro_update_level_order() function. This makes it possible for unauthenticated attackers to update the order of levels via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
 
-- [https://github.com/NatteeSetobol/CVE-2019-0567-MS-Edge](https://github.com/NatteeSetobol/CVE-2019-0567-MS-Edge) :  ![starts](https://img.shields.io/github/stars/NatteeSetobol/CVE-2019-0567-MS-Edge.svg) ![forks](https://img.shields.io/github/forks/NatteeSetobol/CVE-2019-0567-MS-Edge.svg)
+- [https://github.com/kodaichodai/CVE-2024-0624](https://github.com/kodaichodai/CVE-2024-0624) :  ![starts](https://img.shields.io/github/stars/kodaichodai/CVE-2024-0624.svg) ![forks](https://img.shields.io/github/forks/kodaichodai/CVE-2024-0624.svg)
 
 
-## CVE-2017-0144
- The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka &quot;Windows SMB Remote Code Execution Vulnerability.&quot; This vulnerability is different from those described in CVE-2017-0143, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
+## CVE-2024-0623
+ The VK Block Patterns plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.31.1.1. This is due to missing or incorrect nonce validation on the vbp_clear_patterns_cache() function. This makes it possible for unauthenticated attackers to clear the patterns cache via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+- [https://github.com/kodaichodai/CVE-2024-0623](https://github.com/kodaichodai/CVE-2024-0623) :  ![starts](https://img.shields.io/github/stars/kodaichodai/CVE-2024-0623.svg) ![forks](https://img.shields.io/github/forks/kodaichodai/CVE-2024-0623.svg)
+
+
+## CVE-2024-0590
+ The Microsoft Clarity plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 0.9.3. This is due to missing nonce validation on the edit_clarity_project_id() function. This makes it possible for unauthenticated attackers to change the project id and add malicious JavaScript via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+- [https://github.com/kodaichodai/CVE-2024-0590](https://github.com/kodaichodai/CVE-2024-0590) :  ![starts](https://img.shields.io/github/stars/kodaichodai/CVE-2024-0590.svg) ![forks](https://img.shields.io/github/forks/kodaichodai/CVE-2024-0590.svg)
+
+
+## CVE-2024-0588
+ The Paid Memberships Pro &#8211; Content Restriction, User Registration, &amp; Paid Subscriptions plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.12.10. This is due to missing nonce validation on the pmpro_lifter_save_streamline_option() function. This makes it possible for unauthenticated attackers to enable the streamline setting with Lifter LMS via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+- [https://github.com/kodaichodai/CVE-2024-0588](https://github.com/kodaichodai/CVE-2024-0588) :  ![starts](https://img.shields.io/github/stars/kodaichodai/CVE-2024-0588.svg) ![forks](https://img.shields.io/github/forks/kodaichodai/CVE-2024-0588.svg)
+
+
+## CVE-2024-0509
+ The WP 404 Auto Redirect to Similar Post plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the &#8216;request&#8217; parameter in all versions up to, and including, 1.0.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
+
+- [https://github.com/kodaichodai/CVE-2024-0509](https://github.com/kodaichodai/CVE-2024-0509) :  ![starts](https://img.shields.io/github/stars/kodaichodai/CVE-2024-0509.svg) ![forks](https://img.shields.io/github/forks/kodaichodai/CVE-2024-0509.svg)
+
+
+## CVE-2024-0379
+ The Custom Twitter Feeds &#8211; A Tweets Widget or X Feed Widget plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.2.1. This is due to missing or incorrect nonce validation on the ctf_auto_save_tokens function. This makes it possible for unauthenticated attackers to update the site's twitter API token and secret via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+- [https://github.com/kodaichodai/CVE-2024-0379](https://github.com/kodaichodai/CVE-2024-0379) :  ![starts](https://img.shields.io/github/stars/kodaichodai/CVE-2024-0379.svg) ![forks](https://img.shields.io/github/forks/kodaichodai/CVE-2024-0379.svg)
+
+
+## CVE-2024-0324
+ The User Profile Builder &#8211; Beautiful User Registration Forms, User Profiles &amp; User Role Editor plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'wppb_two_factor_authentication_settings_update' function in all versions up to, and including, 3.10.8. This makes it possible for unauthenticated attackers to enable or disable the 2FA functionality present in the Premium version of the plugin for arbitrary user roles.
+
+- [https://github.com/kodaichodai/CVE-2024-0324](https://github.com/kodaichodai/CVE-2024-0324) :  ![starts](https://img.shields.io/github/stars/kodaichodai/CVE-2024-0324.svg) ![forks](https://img.shields.io/github/forks/kodaichodai/CVE-2024-0324.svg)
+
+
+## CVE-2023-48194
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/zt20xx/CVE-2023-48194](https://github.com/zt20xx/CVE-2023-48194) :  ![starts](https://img.shields.io/github/stars/zt20xx/CVE-2023-48194.svg) ![forks](https://img.shields.io/github/forks/zt20xx/CVE-2023-48194.svg)
+
+
+## CVE-2022-41852
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
+
+- [https://github.com/xpectomas/CVE-2022-41852-Disable](https://github.com/xpectomas/CVE-2022-41852-Disable) :  ![starts](https://img.shields.io/github/stars/xpectomas/CVE-2022-41852-Disable.svg) ![forks](https://img.shields.io/github/forks/xpectomas/CVE-2022-41852-Disable.svg)
+
+
+## CVE-2019-5784
+ Incorrect handling of deferred code in V8 in Google Chrome prior to 72.0.3626.96 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+
+- [https://github.com/rooootdev/CVE-2019-5784-PoC](https://github.com/rooootdev/CVE-2019-5784-PoC) :  ![starts](https://img.shields.io/github/stars/rooootdev/CVE-2019-5784-PoC.svg) ![forks](https://img.shields.io/github/forks/rooootdev/CVE-2019-5784-PoC.svg)
+
+
+## CVE-2007-3280
+ The Database Link library (dblink) in PostgreSQL 8.1 implements functions via CREATE statements that map to arbitrary libraries based on the C programming language, which allows remote authenticated superusers to map and execute a function from any library, as demonstrated by using the system function in libc.so.6 to gain shell access.
 
 - [https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports](https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports) :  ![starts](https://img.shields.io/github/stars/DenuwanJayasekara/CVE-Exploitation-Reports.svg) ![forks](https://img.shields.io/github/forks/DenuwanJayasekara/CVE-Exploitation-Reports.svg)
-
-
-## CVE-2013-3900
- The WinVerifyTrust function in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 does not properly validate PE file digests during Authenticode signature verification, which allows remote attackers to execute arbitrary code via a crafted PE file, aka &quot;WinVerifyTrust Signature Validation Vulnerability.&quot;
-
-- [https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify](https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify) :  ![starts](https://img.shields.io/github/stars/OtisSymbos/CVE-2013-3900-WinTrustVerify.svg) ![forks](https://img.shields.io/github/forks/OtisSymbos/CVE-2013-3900-WinTrustVerify.svg)
 
