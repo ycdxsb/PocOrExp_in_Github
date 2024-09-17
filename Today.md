@@ -1,84 +1,49 @@
-# Update 2024-09-16
-## CVE-2024-4956
- Path Traversal in Sonatype Nexus Repository 3 allows an unauthenticated attacker to read system files. Fixed in version 3.68.1.
+# Update 2024-09-17
+## CVE-2024-38127
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/gmh5225/CVE-2024-4956](https://github.com/gmh5225/CVE-2024-4956) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2024-4956.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2024-4956.svg)
-
-
-## CVE-2024-2876
- The Email Subscribers by Icegram Express &#8211; Email Marketing, Newsletters, Automation for WordPress &amp; WooCommerce plugin for WordPress is vulnerable to SQL Injection via the 'run' function of the 'IG_ES_Subscribers_Query' class in all versions up to, and including, 5.7.14 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
-
-- [https://github.com/Quantum-Hacker/CVE-2024-2876](https://github.com/Quantum-Hacker/CVE-2024-2876) :  ![starts](https://img.shields.io/github/stars/Quantum-Hacker/CVE-2024-2876.svg) ![forks](https://img.shields.io/github/forks/Quantum-Hacker/CVE-2024-2876.svg)
+- [https://github.com/pwndorei/CVE-2024-38127](https://github.com/pwndorei/CVE-2024-38127) :  ![starts](https://img.shields.io/github/stars/pwndorei/CVE-2024-38127.svg) ![forks](https://img.shields.io/github/forks/pwndorei/CVE-2024-38127.svg)
 
 
-## CVE-2023-24059
- Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.
+## CVE-2024-34716
+ PrestaShop is an open source e-commerce web application. A cross-site scripting (XSS) vulnerability that only affects PrestaShops with customer-thread feature flag enabled is present starting from PrestaShop 8.1.0 and prior to PrestaShop 8.1.6. When the customer thread feature flag is enabled through the front-office contact form, a hacker can upload a malicious file containing an XSS that will be executed when an admin opens the attached file in back office. The script injected can access the session and the security token, which allows it to perform any authenticated action in the scope of the administrator's right. This vulnerability is patched in 8.1.6. A workaround is to disable the customer-thread feature-flag.
 
-- [https://github.com/gmh5225/CVE-2023-24059](https://github.com/gmh5225/CVE-2023-24059) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2023-24059.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2023-24059.svg)
-
-
-## CVE-2023-21739
- Windows Bluetooth Driver Elevation of Privilege Vulnerability
-
-- [https://github.com/gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2023-21739.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2023-21739.svg)
+- [https://github.com/aelmokhtar/CVE-2024-34716](https://github.com/aelmokhtar/CVE-2024-34716) :  ![starts](https://img.shields.io/github/stars/aelmokhtar/CVE-2024-34716.svg) ![forks](https://img.shields.io/github/forks/aelmokhtar/CVE-2024-34716.svg)
 
 
-## CVE-2022-44721
- ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2022-2841. Reason: This issue was MERGED into CVE-2022-2841 in accordance with CVE content decisions, because it is the same type of vulnerability and affects the same versions. Notes: All CVE users should reference CVE-2022-2841 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+## CVE-2024-27564
+ A Server-Side Request Forgery (SSRF) in pictureproxy.php of ChatGPT commit f9f4bbc allows attackers to force the application to make arbitrary requests via injection of crafted URLs into the urlparameter.
 
-- [https://github.com/gmh5225/CVE-2022-44721-CsFalconUninstaller](https://github.com/gmh5225/CVE-2022-44721-CsFalconUninstaller) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2022-44721-CsFalconUninstaller.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2022-44721-CsFalconUninstaller.svg)
-
-
-## CVE-2022-41114
- Windows Bind Filter Driver Elevation of Privilege Vulnerability
-
-- [https://github.com/gmh5225/CVE-2022-41114](https://github.com/gmh5225/CVE-2022-41114) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2022-41114.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2022-41114.svg)
+- [https://github.com/Quantum-Hacker/CVE-2024-27564](https://github.com/Quantum-Hacker/CVE-2024-27564) :  ![starts](https://img.shields.io/github/stars/Quantum-Hacker/CVE-2024-27564.svg) ![forks](https://img.shields.io/github/forks/Quantum-Hacker/CVE-2024-27564.svg)
+- [https://github.com/MuhammadWaseem29/SSRF-Exploit-CVE-2024-27564](https://github.com/MuhammadWaseem29/SSRF-Exploit-CVE-2024-27564) :  ![starts](https://img.shields.io/github/stars/MuhammadWaseem29/SSRF-Exploit-CVE-2024-27564.svg) ![forks](https://img.shields.io/github/forks/MuhammadWaseem29/SSRF-Exploit-CVE-2024-27564.svg)
 
 
-## CVE-2022-35737
- SQLite 1.0.12 through 3.39.x before 3.39.2 sometimes allows an array-bounds overflow if billions of bytes are used in a string argument to a C API.
+## CVE-2024-23692
+ Rejetto HTTP File Server, up to and including version 2.3m, is vulnerable to a template injection vulnerability. This vulnerability allows a remote, unauthenticated attacker to execute arbitrary commands on the affected system by sending a specially crafted HTTP request. As of the CVE assignment date, Rejetto HFS 2.3m is no longer supported.
 
-- [https://github.com/gmh5225/CVE-2022-35737](https://github.com/gmh5225/CVE-2022-35737) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2022-35737.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2022-35737.svg)
-
-
-## CVE-2022-34683
- NVIDIA GPU Display Driver for Windows contains a vulnerability in the kernel mode layer (nvlddmkm.sys) handler for DxgkDdiEscape, where a null-pointer dereference occurs, which may lead to denial of service.
-
-- [https://github.com/gmh5225/CVE-2022-34683](https://github.com/gmh5225/CVE-2022-34683) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2022-34683.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2022-34683.svg)
+- [https://github.com/verylazytech/CVE-2024-23692](https://github.com/verylazytech/CVE-2024-23692) :  ![starts](https://img.shields.io/github/stars/verylazytech/CVE-2024-23692.svg) ![forks](https://img.shields.io/github/forks/verylazytech/CVE-2024-23692.svg)
 
 
-## CVE-2021-42205
- ELAN Miniport touchpad Windows driver before 24.21.51.2, as used in PC hardware from multiple manufacturers, allows local users to cause a system crash by sending a certain IOCTL request, because that request is handled twice.
+## CVE-2024-1071
+ The Ultimate Member &#8211; User Profile, Registration, Login, Member Directory, Content Restriction &amp; Membership Plugin plugin for WordPress is vulnerable to SQL Injection via the 'sorting' parameter in versions 2.1.3 to 2.8.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 
-- [https://github.com/gmh5225/CVE-2021-42205](https://github.com/gmh5225/CVE-2021-42205) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2021-42205.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2021-42205.svg)
-
-
-## CVE-2021-38304
- Improper input validation in the National Instruments NI-PAL driver in versions 20.0.0 and prior may allow a privileged user to potentially enable escalation of privilege via local access.
-
-- [https://github.com/philsajdak/CVE-2021-38304-PoC](https://github.com/philsajdak/CVE-2021-38304-PoC) :  ![starts](https://img.shields.io/github/stars/philsajdak/CVE-2021-38304-PoC.svg) ![forks](https://img.shields.io/github/forks/philsajdak/CVE-2021-38304-PoC.svg)
+- [https://github.com/Dogu589/WordPress-Exploit-CVE-2024-1071](https://github.com/Dogu589/WordPress-Exploit-CVE-2024-1071) :  ![starts](https://img.shields.io/github/stars/Dogu589/WordPress-Exploit-CVE-2024-1071.svg) ![forks](https://img.shields.io/github/forks/Dogu589/WordPress-Exploit-CVE-2024-1071.svg)
 
 
-## CVE-2020-36603
- The HoYoVerse (formerly miHoYo) Genshin Impact mhyprot2.sys 1.0.0.0 anti-cheat driver does not adequately restrict unprivileged function calls, allowing local, unprivileged users to execute arbitrary code with SYSTEM privileges on Microsoft Windows systems. The mhyprot2.sys driver must first be installed by a user with administrative privileges.
+## CVE-2023-0297
+ Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 
-- [https://github.com/gmh5225/CVE-2020-36603](https://github.com/gmh5225/CVE-2020-36603) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2020-36603.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2020-36603.svg)
-
-
-## CVE-2020-13945
- In Apache APISIX, the user enabled the Admin API and deleted the Admin API access IP restriction rules. Eventually, the default token is allowed to access APISIX management data. This affects versions 1.2, 1.3, 1.4, 1.5.
-
-- [https://github.com/x0root/CVE-2020-13945-EXPLOIT](https://github.com/x0root/CVE-2020-13945-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/x0root/CVE-2020-13945-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/x0root/CVE-2020-13945-EXPLOIT.svg)
+- [https://github.com/btar1gan/exploit_CVE-2023-0297](https://github.com/btar1gan/exploit_CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/btar1gan/exploit_CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/btar1gan/exploit_CVE-2023-0297.svg)
 
 
-## CVE-2015-2291
- (1) IQVW32.sys before 1.3.1.0 and (2) IQVW64.sys before 1.3.1.0 in the Intel Ethernet diagnostics driver for Windows allows local users to cause a denial of service or possibly execute arbitrary code with kernel privileges via a crafted (a) 0x80862013, (b) 0x8086200B, (c) 0x8086200F, or (d) 0x80862007 IOCTL call.
+## CVE-2020-27950
+ A memory initialization issue was addressed. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.1, iOS 12.4.9, watchOS 6.2.9, Security Update 2020-006 High Sierra, Security Update 2020-006 Mojave, iOS 14.2 and iPadOS 14.2, watchOS 5.3.9, macOS Catalina 10.15.7 Supplemental Update, macOS Catalina 10.15.7 Update. A malicious application may be able to disclose kernel memory.
 
-- [https://github.com/gmh5225/CVE-2015-2291](https://github.com/gmh5225/CVE-2015-2291) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2015-2291.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2015-2291.svg)
+- [https://github.com/lyonzon2/browser-crash-tool](https://github.com/lyonzon2/browser-crash-tool) :  ![starts](https://img.shields.io/github/stars/lyonzon2/browser-crash-tool.svg) ![forks](https://img.shields.io/github/forks/lyonzon2/browser-crash-tool.svg)
 
 
-## CVE-2011-2523
- vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which opens a shell on port 6200/tcp.
+## CVE-2016-10924
+ The ebook-download plugin before 1.2 for WordPress has directory traversal.
 
-- [https://github.com/Uno13x/CVE-2011-2523-PoC](https://github.com/Uno13x/CVE-2011-2523-PoC) :  ![starts](https://img.shields.io/github/stars/Uno13x/CVE-2011-2523-PoC.svg) ![forks](https://img.shields.io/github/forks/Uno13x/CVE-2011-2523-PoC.svg)
+- [https://github.com/LGenAgul/Wordpress-ebook-CVE-2016-10924](https://github.com/LGenAgul/Wordpress-ebook-CVE-2016-10924) :  ![starts](https://img.shields.io/github/stars/LGenAgul/Wordpress-ebook-CVE-2016-10924.svg) ![forks](https://img.shields.io/github/forks/LGenAgul/Wordpress-ebook-CVE-2016-10924.svg)
 
