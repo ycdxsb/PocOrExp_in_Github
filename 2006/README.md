@@ -88,6 +88,13 @@
 
 - [https://github.com/Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236) :  ![starts](https://img.shields.io/github/stars/Axua/CVE-2006-1236.svg) ![forks](https://img.shields.io/github/forks/Axua/CVE-2006-1236.svg)
 
+## CVE-2006-0987
+ The default configuration of ISC BIND before 9.4.1-P1, when configured as a caching name server, allows recursive queries and provides additional delegation information to arbitrary IP addresses, which allows remote attackers to cause a denial of service (traffic amplification) via DNS queries with spoofed source IP addresses.
+
+
+
+- [https://github.com/pcastagnaro/check_CVE-2006-0987](https://github.com/pcastagnaro/check_CVE-2006-0987) :  ![starts](https://img.shields.io/github/stars/pcastagnaro/check_CVE-2006-0987.svg) ![forks](https://img.shields.io/github/forks/pcastagnaro/check_CVE-2006-0987.svg)
+
 ## CVE-2006-0450
  phpBB 2.0.19 and earlier allows remote attackers to cause a denial of service (application crash) by (1) registering many users through profile.php or (2) using search.php to search in a certain way that confuses the database.
 
