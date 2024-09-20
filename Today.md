@@ -1,90 +1,102 @@
-# Update 2024-09-19
-## CVE-2024-4434
- The LearnPress &#8211; WordPress LMS Plugin plugin for WordPress is vulnerable to time-based SQL Injection via the &#8216;term_id&#8217; parameter in versions up to, and including, 4.2.6.5 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+# Update 2024-09-20
+## CVE-2024-28991
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/sahil3276/CVE-2024-44346](https://github.com/sahil3276/CVE-2024-44346) :  ![starts](https://img.shields.io/github/stars/sahil3276/CVE-2024-44346.svg) ![forks](https://img.shields.io/github/forks/sahil3276/CVE-2024-44346.svg)
+- [https://github.com/maybeheisenberg/PoC-for-CVE-2024-28991](https://github.com/maybeheisenberg/PoC-for-CVE-2024-28991) :  ![starts](https://img.shields.io/github/stars/maybeheisenberg/PoC-for-CVE-2024-28991.svg) ![forks](https://img.shields.io/github/forks/maybeheisenberg/PoC-for-CVE-2024-28991.svg)
+
+
+## CVE-2024-4538
+ IDOR vulnerability in Janto Ticketing Software affecting version 4.3r10. This vulnerability could allow a remote user to obtain a user's event ticket by creating a specific request with the ticket reference ID, leading to the exposure of sensitive user data.
+
+- [https://github.com/SpiralBL0CK/CVE-2024-45383](https://github.com/SpiralBL0CK/CVE-2024-45383) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/CVE-2024-45383.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/CVE-2024-45383.svg)
 
 
 ## CVE-2024-4316
  The EmbedPress &#8211; Embed PDF, Google Docs, Vimeo, Wistia, Embed YouTube Videos, Audios, Maps &amp; Embed Any Documents in Gutenberg &amp; Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the &#8216;id&#8217; parameter in all versions up to, and including, 3.9.16 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 
-- [https://github.com/KTN1990/CVE-2024-43160](https://github.com/KTN1990/CVE-2024-43160) :  ![starts](https://img.shields.io/github/stars/KTN1990/CVE-2024-43160.svg) ![forks](https://img.shields.io/github/forks/KTN1990/CVE-2024-43160.svg)
+- [https://github.com/maybeheisenberg/PoC-for-CVE-2024-43160](https://github.com/maybeheisenberg/PoC-for-CVE-2024-43160) :  ![starts](https://img.shields.io/github/stars/maybeheisenberg/PoC-for-CVE-2024-43160.svg) ![forks](https://img.shields.io/github/forks/maybeheisenberg/PoC-for-CVE-2024-43160.svg)
 
 
-## CVE-2024-4043
- The WP Ultimate Post Grid plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'wpupg-text' shortcode in all versions up to, and including, 3.9.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+## CVE-2024-4040
+ A server side template injection vulnerability in CrushFTP in all versions before 10.7.1 and 11.1.0 on all platforms allows unauthenticated remote attackers to read files from the filesystem outside of the VFS Sandbox, bypass authentication to gain administrative access, and perform remote code execution on the server.
 
-- [https://github.com/SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN](https://github.com/SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN.svg)
-
-
-## CVE-2024-2876
- The Email Subscribers by Icegram Express &#8211; Email Marketing, Newsletters, Automation for WordPress &amp; WooCommerce plugin for WordPress is vulnerable to SQL Injection via the 'run' function of the 'IG_ES_Subscribers_Query' class in all versions up to, and including, 5.7.14 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
-
-- [https://github.com/0xAgun/CVE-2024-2876](https://github.com/0xAgun/CVE-2024-2876) :  ![starts](https://img.shields.io/github/stars/0xAgun/CVE-2024-2876.svg) ![forks](https://img.shields.io/github/forks/0xAgun/CVE-2024-2876.svg)
+- [https://github.com/safeer-accuknox/CrushFTP-cve-2024-4040-poc](https://github.com/safeer-accuknox/CrushFTP-cve-2024-4040-poc) :  ![starts](https://img.shields.io/github/stars/safeer-accuknox/CrushFTP-cve-2024-4040-poc.svg) ![forks](https://img.shields.io/github/forks/safeer-accuknox/CrushFTP-cve-2024-4040-poc.svg)
 
 
-## CVE-2024-2188
- Cross-Site Scripting (XSS) vulnerability stored in TP-Link Archer AX50 affecting firmware version 1.0.11 build 2022052. This vulnerability could allow an unauthenticated attacker to create a port mapping rule via a SOAP request and store a malicious JavaScript payload within that rule, which could result in an execution of the JavaScript payload when the rule is loaded.
+## CVE-2023-46805
+ An authentication bypass vulnerability in the web component of Ivanti ICS 9.x, 22.x and Ivanti Policy Secure allows a remote attacker to access restricted resources by bypassing control checks.
 
-- [https://github.com/hacefresko/CVE-2024-2188](https://github.com/hacefresko/CVE-2024-2188) :  ![starts](https://img.shields.io/github/stars/hacefresko/CVE-2024-2188.svg) ![forks](https://img.shields.io/github/forks/hacefresko/CVE-2024-2188.svg)
-
-
-## CVE-2023-28252
- Windows Common Log File System Driver Elevation of Privilege Vulnerability
-
-- [https://github.com/byt3n33dl3/CLFS](https://github.com/byt3n33dl3/CLFS) :  ![starts](https://img.shields.io/github/stars/byt3n33dl3/CLFS.svg) ![forks](https://img.shields.io/github/forks/byt3n33dl3/CLFS.svg)
+- [https://github.com/maybeheisenberg/CVE-2023-46805](https://github.com/maybeheisenberg/CVE-2023-46805) :  ![starts](https://img.shields.io/github/stars/maybeheisenberg/CVE-2023-46805.svg) ![forks](https://img.shields.io/github/forks/maybeheisenberg/CVE-2023-46805.svg)
 
 
-## CVE-2023-28229
- Windows CNG Key Isolation Service Elevation of Privilege Vulnerability
+## CVE-2023-27524
+ Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY according to installation instructions allow for an attacker to authenticate and access unauthorized resources. This does not affect Superset administrators who have changed the default value for SECRET_KEY config. All superset installations should always set a unique secure random SECRET_KEY. Your SECRET_KEY is used to securely sign all session cookies and encrypting sensitive information on the database. Add a strong SECRET_KEY to your `superset_config.py` file like: SECRET_KEY = &lt;YOUR_OWN_RANDOM_GENERATED_SECRET_KEY&gt; Alternatively you can set it with `SUPERSET_SECRET_KEY` environment variable.
 
-- [https://github.com/byt3n33dl3/CrackKeyIso](https://github.com/byt3n33dl3/CrackKeyIso) :  ![starts](https://img.shields.io/github/stars/byt3n33dl3/CrackKeyIso.svg) ![forks](https://img.shields.io/github/forks/byt3n33dl3/CrackKeyIso.svg)
-
-
-## CVE-2023-21939
- Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Swing). Supported versions that are affected are Oracle Java SE: 8u361, 8u361-perf, 11.0.18, 17.0.6, 20; Oracle GraalVM Enterprise Edition: 20.3.9, 21.3.5 and 22.3.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).
-
-- [https://github.com/Y4Sec-Team/CVE-2023-21939](https://github.com/Y4Sec-Team/CVE-2023-21939) :  ![starts](https://img.shields.io/github/stars/Y4Sec-Team/CVE-2023-21939.svg) ![forks](https://img.shields.io/github/forks/Y4Sec-Team/CVE-2023-21939.svg)
+- [https://github.com/ZZ-SOCMAP/CVE-2023-27524](https://github.com/ZZ-SOCMAP/CVE-2023-27524) :  ![starts](https://img.shields.io/github/stars/ZZ-SOCMAP/CVE-2023-27524.svg) ![forks](https://img.shields.io/github/forks/ZZ-SOCMAP/CVE-2023-27524.svg)
 
 
-## CVE-2023-5000
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2022-24990
+ TerraMaster NAS 4.2.29 and earlier allows remote attackers to discover the administrative password by sending &quot;User-Agent: TNAS&quot; to module/api.php?mobile/webNasIPS and then reading the PWD field in the response.
 
-- [https://github.com/codeb0ss/Wordpress-Forminator-Exploiter](https://github.com/codeb0ss/Wordpress-Forminator-Exploiter) :  ![starts](https://img.shields.io/github/stars/codeb0ss/Wordpress-Forminator-Exploiter.svg) ![forks](https://img.shields.io/github/forks/codeb0ss/Wordpress-Forminator-Exploiter.svg)
-
-
-## CVE-2023-2215
- A vulnerability classified as critical has been found in Campcodes Coffee Shop POS System 1.0. Affected is an unknown function of the file /admin/user/manage_user.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-226980.
-
-- [https://github.com/zwxxb/CVE-2023-2215](https://github.com/zwxxb/CVE-2023-2215) :  ![starts](https://img.shields.io/github/stars/zwxxb/CVE-2023-2215.svg) ![forks](https://img.shields.io/github/forks/zwxxb/CVE-2023-2215.svg)
+- [https://github.com/ZZ-SOCMAP/CVE-2022-24990](https://github.com/ZZ-SOCMAP/CVE-2022-24990) :  ![starts](https://img.shields.io/github/stars/ZZ-SOCMAP/CVE-2022-24990.svg) ![forks](https://img.shields.io/github/forks/ZZ-SOCMAP/CVE-2022-24990.svg)
 
 
-## CVE-2023-2123
- The WP Inventory Manager WordPress plugin before 2.1.0.13 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting.
+## CVE-2022-23131
+ In the case of instances where the SAML SSO authentication is enabled (non-default), session data can be modified by a malicious actor, because a user login stored in the session was not verified. Malicious unauthenticated actor may exploit this issue to escalate privileges and gain admin access to Zabbix Frontend. To perform the attack, SAML authentication is required to be enabled and the actor has to know the username of Zabbix user (or use the guest account, which is disabled by default).
 
-- [https://github.com/0xn4d/poc-cve-xss-encoded-wp-inventory-manager-plugin](https://github.com/0xn4d/poc-cve-xss-encoded-wp-inventory-manager-plugin) :  ![starts](https://img.shields.io/github/stars/0xn4d/poc-cve-xss-encoded-wp-inventory-manager-plugin.svg) ![forks](https://img.shields.io/github/forks/0xn4d/poc-cve-xss-encoded-wp-inventory-manager-plugin.svg)
-
-
-## CVE-2023-2114
- The NEX-Forms WordPress plugin before 8.4 does not properly escape the `table` parameter, which is populated with user input, before concatenating it to an SQL query.
-
-- [https://github.com/SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114](https://github.com/SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114) :  ![starts](https://img.shields.io/github/stars/SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114.svg) ![forks](https://img.shields.io/github/forks/SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114.svg)
+- [https://github.com/fork-bombed/CVE-2022-23131](https://github.com/fork-bombed/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/fork-bombed/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/fork-bombed/CVE-2022-23131.svg)
 
 
-## CVE-2022-25479
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2022-22536
+ SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, ABAP Platform, SAP Content Server 7.53 and SAP Web Dispatcher are vulnerable for request smuggling and request concatenation. An unauthenticated attacker can prepend a victim's request with arbitrary data. This way, the attacker can execute functions impersonating the victim or poison intermediary Web caches. A successful attack could result in complete compromise of Confidentiality, Integrity and Availability of the system.
 
-- [https://github.com/SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN](https://github.com/SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN.svg)
-
-
-## CVE-2022-3368
- A vulnerability within the Software Updater functionality of Avira Security for Windows allowed an attacker with write access to the filesystem, to escalate his privileges in certain scenarios. The issue was fixed with Avira Security version 1.1.72.30556.
-
-- [https://github.com/byt3n33dl3/CrackAVFee](https://github.com/byt3n33dl3/CrackAVFee) :  ![starts](https://img.shields.io/github/stars/byt3n33dl3/CrackAVFee.svg) ![forks](https://img.shields.io/github/forks/byt3n33dl3/CrackAVFee.svg)
+- [https://github.com/ZZ-SOCMAP/CVE-2022-22536](https://github.com/ZZ-SOCMAP/CVE-2022-22536) :  ![starts](https://img.shields.io/github/stars/ZZ-SOCMAP/CVE-2022-22536.svg) ![forks](https://img.shields.io/github/forks/ZZ-SOCMAP/CVE-2022-22536.svg)
 
 
-## CVE-2021-4045
- TP-Link Tapo C200 IP camera, on its 1.1.15 firmware version and below, is affected by an unauthenticated RCE vulnerability, present in the uhttpd binary running by default as root. The exploitation of this vulnerability allows an attacker to take full control of the camera.
+## CVE-2022-0847
+ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
 
-- [https://github.com/hacefresko/CVE-2021-4045](https://github.com/hacefresko/CVE-2021-4045) :  ![starts](https://img.shields.io/github/stars/hacefresko/CVE-2021-4045.svg) ![forks](https://img.shields.io/github/forks/hacefresko/CVE-2021-4045.svg)
+- [https://github.com/ZZ-SOCMAP/CVE-2022-0847](https://github.com/ZZ-SOCMAP/CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/ZZ-SOCMAP/CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/ZZ-SOCMAP/CVE-2022-0847.svg)
+
+
+## CVE-2021-35587
+ Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: OpenSSO Agent). Supported versions that are affected are 11.1.2.3.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager. Successful attacks of this vulnerability can result in takeover of Oracle Access Manager. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+
+- [https://github.com/ZZ-SOCMAP/CVE-2021-35587](https://github.com/ZZ-SOCMAP/CVE-2021-35587) :  ![starts](https://img.shields.io/github/stars/ZZ-SOCMAP/CVE-2021-35587.svg) ![forks](https://img.shields.io/github/forks/ZZ-SOCMAP/CVE-2021-35587.svg)
+
+
+## CVE-2021-31630
+ Command Injection in Open PLC Webserver v3 allows remote attackers to execute arbitrary code via the &quot;Hardware Layer Code Box&quot; component on the &quot;/hardware&quot; page of the application.
+
+- [https://github.com/behindsecurity/htb-wifinetictwo-exploit](https://github.com/behindsecurity/htb-wifinetictwo-exploit) :  ![starts](https://img.shields.io/github/stars/behindsecurity/htb-wifinetictwo-exploit.svg) ![forks](https://img.shields.io/github/forks/behindsecurity/htb-wifinetictwo-exploit.svg)
+
+
+## CVE-2021-31166
+ HTTP Protocol Stack Remote Code Execution Vulnerability
+
+- [https://github.com/ZZ-SOCMAP/CVE-2021-31166](https://github.com/ZZ-SOCMAP/CVE-2021-31166) :  ![starts](https://img.shields.io/github/stars/ZZ-SOCMAP/CVE-2021-31166.svg) ![forks](https://img.shields.io/github/forks/ZZ-SOCMAP/CVE-2021-31166.svg)
+
+
+## CVE-2021-26084
+ In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
+
+- [https://github.com/ZZ-SOCMAP/CVE-2021-26084](https://github.com/ZZ-SOCMAP/CVE-2021-26084) :  ![starts](https://img.shields.io/github/stars/ZZ-SOCMAP/CVE-2021-26084.svg) ![forks](https://img.shields.io/github/forks/ZZ-SOCMAP/CVE-2021-26084.svg)
+
+
+## CVE-2021-22214
+ When requests to the internal network for webhooks are enabled, a server-side request forgery vulnerability in GitLab CE/EE affecting all versions starting from 10.5 was possible to exploit for an unauthenticated attacker even on a GitLab instance where registration is limited
+
+- [https://github.com/ZZ-SOCMAP/CVE-2021-22214](https://github.com/ZZ-SOCMAP/CVE-2021-22214) :  ![starts](https://img.shields.io/github/stars/ZZ-SOCMAP/CVE-2021-22214.svg) ![forks](https://img.shields.io/github/forks/ZZ-SOCMAP/CVE-2021-22214.svg)
+
+
+## CVE-2021-22205
+ An issue has been discovered in GitLab CE/EE affecting all versions starting from 11.9. GitLab was not properly validating image files that were passed to a file parser which resulted in a remote command execution.
+
+- [https://github.com/ZZ-SOCMAP/CVE-2021-22205](https://github.com/ZZ-SOCMAP/CVE-2021-22205) :  ![starts](https://img.shields.io/github/stars/ZZ-SOCMAP/CVE-2021-22205.svg) ![forks](https://img.shields.io/github/forks/ZZ-SOCMAP/CVE-2021-22205.svg)
+
+
+## CVE-2019-14322
+ In Pallets Werkzeug before 0.15.5, SharedDataMiddleware mishandles drive names (such as C:) in Windows pathnames.
+
+- [https://github.com/sergiovks/CVE-2019-14322](https://github.com/sergiovks/CVE-2019-14322) :  ![starts](https://img.shields.io/github/stars/sergiovks/CVE-2019-14322.svg) ![forks](https://img.shields.io/github/forks/sergiovks/CVE-2019-14322.svg)
 
