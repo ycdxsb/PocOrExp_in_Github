@@ -93,7 +93,7 @@
 
 
 
-- [https://github.com/pcastagnaro/check_CVE-2006-0987](https://github.com/pcastagnaro/check_CVE-2006-0987) :  ![starts](https://img.shields.io/github/stars/pcastagnaro/check_CVE-2006-0987.svg) ![forks](https://img.shields.io/github/forks/pcastagnaro/check_CVE-2006-0987.svg)
+- [https://github.com/pcastagnaro/dns_amplification_scanner](https://github.com/pcastagnaro/dns_amplification_scanner) :  ![starts](https://img.shields.io/github/stars/pcastagnaro/dns_amplification_scanner.svg) ![forks](https://img.shields.io/github/forks/pcastagnaro/dns_amplification_scanner.svg)
 
 ## CVE-2006-0450
  phpBB 2.0.19 and earlier allows remote attackers to cause a denial of service (application crash) by (1) registering many users through profile.php or (2) using search.php to search in a certain way that confuses the database.
