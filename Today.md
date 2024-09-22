@@ -1,97 +1,74 @@
-# Update 2024-09-21
-## CVE-2024-38812
+# Update 2024-09-22
+## CVE-2024-38816
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/maybeheisenberg/CVE-2024-38812](https://github.com/maybeheisenberg/CVE-2024-38812) :  ![starts](https://img.shields.io/github/stars/maybeheisenberg/CVE-2024-38812.svg) ![forks](https://img.shields.io/github/forks/maybeheisenberg/CVE-2024-38812.svg)
+- [https://github.com/weliveby/cve-2024-38816-demo](https://github.com/weliveby/cve-2024-38816-demo) :  ![starts](https://img.shields.io/github/stars/weliveby/cve-2024-38816-demo.svg) ![forks](https://img.shields.io/github/forks/weliveby/cve-2024-38816-demo.svg)
 
 
-## CVE-2024-4524
- A vulnerability, which was classified as problematic, was found in Campcodes Complete Web-Based School Management System 1.0. This affects an unknown part of the file /view/student_payment_invoice.php. The manipulation of the argument desc leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-263127.
+## CVE-2024-24919
+ Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN or Mobile Access Software Blades. A Security fix that mitigates this vulnerability is available.
 
-- [https://github.com/verylazytech/CVE-2024-45241](https://github.com/verylazytech/CVE-2024-45241) :  ![starts](https://img.shields.io/github/stars/verylazytech/CVE-2024-45241.svg) ![forks](https://img.shields.io/github/forks/verylazytech/CVE-2024-45241.svg)
-
-
-## CVE-2023-47253
- Qualitor through 8.20 allows remote attackers to execute arbitrary code via PHP code in the html/ad/adpesquisasql/request/processVariavel.php gridValoresPopHidden parameter.
-
-- [https://github.com/OpenXP-Research/CVE-2023-47253](https://github.com/OpenXP-Research/CVE-2023-47253) :  ![starts](https://img.shields.io/github/stars/OpenXP-Research/CVE-2023-47253.svg) ![forks](https://img.shields.io/github/forks/OpenXP-Research/CVE-2023-47253.svg)
-- [https://github.com/vnxdtzip/CVE-2023-47253](https://github.com/vnxdtzip/CVE-2023-47253) :  ![starts](https://img.shields.io/github/stars/vnxdtzip/CVE-2023-47253.svg) ![forks](https://img.shields.io/github/forks/vnxdtzip/CVE-2023-47253.svg)
+- [https://github.com/ifconfig-me/CVE-2024-24919-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-24919-Bulk-Scanner) :  ![starts](https://img.shields.io/github/stars/ifconfig-me/CVE-2024-24919-Bulk-Scanner.svg) ![forks](https://img.shields.io/github/forks/ifconfig-me/CVE-2024-24919-Bulk-Scanner.svg)
 
 
-## CVE-2023-33246
- For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk of remote command execution. Several components of RocketMQ, including NameServer, Broker, and Controller, are leaked on the extranet and lack permission verification, an attacker can exploit this vulnerability by using the update configuration function to execute commands as the system users that RocketMQ is running as. Additionally, an attacker can achieve the same effect by forging the RocketMQ protocol content. To prevent these attacks, users are recommended to upgrade to version 5.1.1 or above for using RocketMQ 5.x or 4.9.6 or above for using RocketMQ 4.x .
+## CVE-2024-23897
+ Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
 
-- [https://github.com/4mazing/CVE-2023-33246-Copy](https://github.com/4mazing/CVE-2023-33246-Copy) :  ![starts](https://img.shields.io/github/stars/4mazing/CVE-2023-33246-Copy.svg) ![forks](https://img.shields.io/github/forks/4mazing/CVE-2023-33246-Copy.svg)
-
-
-## CVE-2023-1177
- Path Traversal: '\..\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.
-
-- [https://github.com/charlesgargasson/CVE-2023-1177](https://github.com/charlesgargasson/CVE-2023-1177) :  ![starts](https://img.shields.io/github/stars/charlesgargasson/CVE-2023-1177.svg) ![forks](https://img.shields.io/github/forks/charlesgargasson/CVE-2023-1177.svg)
+- [https://github.com/fullaw4ke/CVE-2024-23897-Jenkins-4.441](https://github.com/fullaw4ke/CVE-2024-23897-Jenkins-4.441) :  ![starts](https://img.shields.io/github/stars/fullaw4ke/CVE-2024-23897-Jenkins-4.441.svg) ![forks](https://img.shields.io/github/forks/fullaw4ke/CVE-2024-23897-Jenkins-4.441.svg)
+- [https://github.com/ifconfig-me/CVE-2024-23897](https://github.com/ifconfig-me/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/ifconfig-me/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/ifconfig-me/CVE-2024-23897.svg)
 
 
-## CVE-2022-47132
- A Cross-Site Request Forgery (CSRF) in Academy LMS before v5.10 allows attackers to arbitrarily add Administrator users.
+## CVE-2024-4956
+ Path Traversal in Sonatype Nexus Repository 3 allows an unauthenticated attacker to read system files. Fixed in version 3.68.1.
 
-- [https://github.com/OpenXP-Research/CVE-2022-47132](https://github.com/OpenXP-Research/CVE-2022-47132) :  ![starts](https://img.shields.io/github/stars/OpenXP-Research/CVE-2022-47132.svg) ![forks](https://img.shields.io/github/forks/OpenXP-Research/CVE-2022-47132.svg)
-
-
-## CVE-2022-47131
- A Cross-Site Request Forgery (CSRF) in Academy LMS before v5.10 allows an attacker to arbitrarily create a page.
-
-- [https://github.com/OpenXP-Research/CVE-2022-47131](https://github.com/OpenXP-Research/CVE-2022-47131) :  ![starts](https://img.shields.io/github/stars/OpenXP-Research/CVE-2022-47131.svg) ![forks](https://img.shields.io/github/forks/OpenXP-Research/CVE-2022-47131.svg)
+- [https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner](https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner) :  ![starts](https://img.shields.io/github/stars/ifconfig-me/CVE-2024-4956-Bulk-Scanner.svg) ![forks](https://img.shields.io/github/forks/ifconfig-me/CVE-2024-4956-Bulk-Scanner.svg)
 
 
-## CVE-2022-47130
- A Cross-Site Request Forgery (CSRF) in Academy LMS before v5.10 allows a discount coupon to be arbitrarily created if an attacker with administrative privileges interacts on the CSRF page.
+## CVE-2024-4286
+ Mintplex-Labs' anything-llm application is vulnerable to improper neutralization of special elements used in an expression language statement, identified in the commit id `57984fa85c31988b2eff429adfc654c46e0c342a`. The vulnerability arises from the application's handling of user modifications by managers or admins, allowing for the modification of all existing attributes of the `user` database entity without proper checks or sanitization. This flaw can be exploited to delete user threads, denying users access to their previously submitted data, or to inject fake threads and/or chat history for social engineering attacks.
 
-- [https://github.com/OpenXP-Research/CVE-2022-47130](https://github.com/OpenXP-Research/CVE-2022-47130) :  ![starts](https://img.shields.io/github/stars/OpenXP-Research/CVE-2022-47130.svg) ![forks](https://img.shields.io/github/forks/OpenXP-Research/CVE-2022-47130.svg)
-
-
-## CVE-2022-2546
- The All-in-One WP Migration WordPress plugin before 7.63 uses the wrong content type, and does not properly escape the response from the ai1wm_export AJAX action, allowing an attacker to craft a request that when submitted by any visitor will inject arbitrary html or javascript into the response that will be executed in the victims session. Note: This requires knowledge of a static secret key
-
-- [https://github.com/OpenXP-Research/CVE-2022-2546](https://github.com/OpenXP-Research/CVE-2022-2546) :  ![starts](https://img.shields.io/github/stars/OpenXP-Research/CVE-2022-2546.svg) ![forks](https://img.shields.io/github/forks/OpenXP-Research/CVE-2022-2546.svg)
+- [https://github.com/qiupy123/CVE-2024-42861](https://github.com/qiupy123/CVE-2024-42861) :  ![starts](https://img.shields.io/github/stars/qiupy123/CVE-2024-42861.svg) ![forks](https://img.shields.io/github/forks/qiupy123/CVE-2024-42861.svg)
 
 
-## CVE-2021-43650
- WebRun 3.6.0.42 is vulnerable to SQL Injection via the P_0 parameter used to set the username during the login process.
+## CVE-2023-42793
+ In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible
 
-- [https://github.com/OpenXP-Research/CVE-2021-43650](https://github.com/OpenXP-Research/CVE-2021-43650) :  ![starts](https://img.shields.io/github/stars/OpenXP-Research/CVE-2021-43650.svg) ![forks](https://img.shields.io/github/forks/OpenXP-Research/CVE-2021-43650.svg)
-
-
-## CVE-2021-4034
- A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
-
-- [https://github.com/hohn/codeql-sample-polkit](https://github.com/hohn/codeql-sample-polkit) :  ![starts](https://img.shields.io/github/stars/hohn/codeql-sample-polkit.svg) ![forks](https://img.shields.io/github/forks/hohn/codeql-sample-polkit.svg)
+- [https://github.com/SwiftSecur/teamcity-exploit-cve-2023-42793](https://github.com/SwiftSecur/teamcity-exploit-cve-2023-42793) :  ![starts](https://img.shields.io/github/stars/SwiftSecur/teamcity-exploit-cve-2023-42793.svg) ![forks](https://img.shields.io/github/forks/SwiftSecur/teamcity-exploit-cve-2023-42793.svg)
+- [https://github.com/whoamins/CVE-2023-42793](https://github.com/whoamins/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/whoamins/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/whoamins/CVE-2023-42793.svg)
 
 
-## CVE-2020-35489
- The contact-form-7 (aka Contact Form 7) plugin before 5.3.2 for WordPress allows Unrestricted File Upload and remote code execution because a filename may contain special characters.
+## CVE-2023-36845
+ A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series and SRX Series allows an unauthenticated, network-based attacker to remotely execute code. Using a crafted request which sets the variable PHPRC an attacker is able to modify the PHP execution environment allowing the injection und execution of code. This issue affects Juniper Networks Junos OS on EX Series and SRX Series: * All versions prior to 20.4R3-S9; * 21.1 versions 21.1R1 and later; * 21.2 versions prior to 21.2R3-S7; * 21.3 versions prior to 21.3R3-S5; * 21.4 versions prior to 21.4R3-S5; * 22.1 versions prior to 22.1R3-S4; * 22.2 versions prior to 22.2R3-S2; * 22.3 versions prior to 22.3R2-S2, 22.3R3-S1; * 22.4 versions prior to 22.4R2-S1, 22.4R3; * 23.2 versions prior to 23.2R1-S1, 23.2R2.
 
-- [https://github.com/aifuzzer/poc-CVE-2020-35489](https://github.com/aifuzzer/poc-CVE-2020-35489) :  ![starts](https://img.shields.io/github/stars/aifuzzer/poc-CVE-2020-35489.svg) ![forks](https://img.shields.io/github/forks/aifuzzer/poc-CVE-2020-35489.svg)
-
-
-## CVE-2020-29661
- A locking issue was discovered in the tty subsystem of the Linux kernel through 5.9.13. drivers/tty/tty_jobctrl.c allows a use-after-free attack against TIOCSPGRP, aka CID-54ffccbf053b.
-
-- [https://github.com/TLD1027/CVE-2020-29661](https://github.com/TLD1027/CVE-2020-29661) :  ![starts](https://img.shields.io/github/stars/TLD1027/CVE-2020-29661.svg) ![forks](https://img.shields.io/github/forks/TLD1027/CVE-2020-29661.svg)
+- [https://github.com/ifconfig-me/CVE-2023-36845](https://github.com/ifconfig-me/CVE-2023-36845) :  ![starts](https://img.shields.io/github/stars/ifconfig-me/CVE-2023-36845.svg) ![forks](https://img.shields.io/github/forks/ifconfig-me/CVE-2023-36845.svg)
 
 
-## CVE-2019-9978
- The social-warfare plugin before 3.5.3 for WordPress has stored XSS via the wp-admin/admin-post.php?swp_debug=load_options swp_url parameter, as exploited in the wild in March 2019. This affects Social Warfare and Social Warfare Pro.
+## CVE-2023-30253
+ Dolibarr before 17.0.1 allows remote code execution by an authenticated user via an uppercase manipulation: &lt;?PHP instead of &lt;?php in injected data.
 
-- [https://github.com/MAHajian/CVE-2019-9978](https://github.com/MAHajian/CVE-2019-9978) :  ![starts](https://img.shields.io/github/stars/MAHajian/CVE-2019-9978.svg) ![forks](https://img.shields.io/github/forks/MAHajian/CVE-2019-9978.svg)
+- [https://github.com/bluetoothStrawberry/CVE-2023-30253](https://github.com/bluetoothStrawberry/CVE-2023-30253) :  ![starts](https://img.shields.io/github/stars/bluetoothStrawberry/CVE-2023-30253.svg) ![forks](https://img.shields.io/github/forks/bluetoothStrawberry/CVE-2023-30253.svg)
 
 
-## CVE-2014-0160
- The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not properly handle Heartbeat Extension packets, which allows remote attackers to obtain sensitive information from process memory via crafted packets that trigger a buffer over-read, as demonstrated by reading private keys, related to d1_both.c and t1_lib.c, aka the Heartbleed bug.
+## CVE-2023-23752
+ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.
 
-- [https://github.com/Yash-Thakkar77/CVE-2014-0160-HeartBleed](https://github.com/Yash-Thakkar77/CVE-2014-0160-HeartBleed) :  ![starts](https://img.shields.io/github/stars/Yash-Thakkar77/CVE-2014-0160-HeartBleed.svg) ![forks](https://img.shields.io/github/forks/Yash-Thakkar77/CVE-2014-0160-HeartBleed.svg)
+- [https://github.com/fullaw4ke/CVE-2023-23752-Joomla-v4.2.8](https://github.com/fullaw4ke/CVE-2023-23752-Joomla-v4.2.8) :  ![starts](https://img.shields.io/github/stars/fullaw4ke/CVE-2023-23752-Joomla-v4.2.8.svg) ![forks](https://img.shields.io/github/forks/fullaw4ke/CVE-2023-23752-Joomla-v4.2.8.svg)
+
+
+## CVE-2022-35914
+ /vendor/htmlawed/htmlawed/htmLawedTest.php in the htmlawed module for GLPI through 10.0.2 allows PHP code injection.
+
+- [https://github.com/btar1gan/exploit_CVE-2022-35914](https://github.com/btar1gan/exploit_CVE-2022-35914) :  ![starts](https://img.shields.io/github/stars/btar1gan/exploit_CVE-2022-35914.svg) ![forks](https://img.shields.io/github/forks/btar1gan/exploit_CVE-2022-35914.svg)
+
+
+## CVE-2019-9053
+ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News module, through a crafted URL, to achieve unauthenticated blind time-based SQL injection via the m1_idlist parameter.
+
+- [https://github.com/Azrenom/CMS-Made-Simple-2.2.9-SQL-Injection-Exploit-CVE-2019-9053-](https://github.com/Azrenom/CMS-Made-Simple-2.2.9-SQL-Injection-Exploit-CVE-2019-9053-) :  ![starts](https://img.shields.io/github/stars/Azrenom/CMS-Made-Simple-2.2.9-SQL-Injection-Exploit-CVE-2019-9053-.svg) ![forks](https://img.shields.io/github/forks/Azrenom/CMS-Made-Simple-2.2.9-SQL-Injection-Exploit-CVE-2019-9053-.svg)
 
 
 ## CVE-2006-0987
  The default configuration of ISC BIND before 9.4.1-P1, when configured as a caching name server, allows recursive queries and provides additional delegation information to arbitrary IP addresses, which allows remote attackers to cause a denial of service (traffic amplification) via DNS queries with spoofed source IP addresses.
 
-- [https://github.com/pcastagnaro/check_CVE-2006-0987](https://github.com/pcastagnaro/check_CVE-2006-0987) :  ![starts](https://img.shields.io/github/stars/pcastagnaro/check_CVE-2006-0987.svg) ![forks](https://img.shields.io/github/forks/pcastagnaro/check_CVE-2006-0987.svg)
+- [https://github.com/pcastagnaro/dns_amplification_scanner](https://github.com/pcastagnaro/dns_amplification_scanner) :  ![starts](https://img.shields.io/github/stars/pcastagnaro/dns_amplification_scanner.svg) ![forks](https://img.shields.io/github/forks/pcastagnaro/dns_amplification_scanner.svg)
 
