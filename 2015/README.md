@@ -274,7 +274,7 @@
 
 
 
-- [https://github.com/N3rdyN3xus/CVE-2015-6668](https://github.com/N3rdyN3xus/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/N3rdyN3xus/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/N3rdyN3xus/CVE-2015-6668.svg)
+- [https://github.com/NyxByt3/CVE-2015-6668](https://github.com/NyxByt3/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/NyxByt3/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/NyxByt3/CVE-2015-6668.svg)
 
 - [https://github.com/G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2015-6668.svg)
 
@@ -923,7 +923,7 @@
 
 - [https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635](https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/Zx7ffa4512-Python/Project-CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/Zx7ffa4512-Python/Project-CVE-2015-1635.svg)
 
-- [https://github.com/N3rdyN3xus/CVE-2015-1635-POC](https://github.com/N3rdyN3xus/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/N3rdyN3xus/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/N3rdyN3xus/CVE-2015-1635-POC.svg)
+- [https://github.com/NyxByt3/CVE-2015-1635-POC](https://github.com/NyxByt3/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/NyxByt3/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/NyxByt3/CVE-2015-1635-POC.svg)
 
 - [https://github.com/bongbongco/MS15-034](https://github.com/bongbongco/MS15-034) :  ![starts](https://img.shields.io/github/stars/bongbongco/MS15-034.svg) ![forks](https://img.shields.io/github/forks/bongbongco/MS15-034.svg)
 
@@ -937,7 +937,7 @@
 
 - [https://github.com/Cappricio-Securities/CVE-2015-1635](https://github.com/Cappricio-Securities/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2015-1635.svg)
 
-- [https://github.com/N3rdyN3xus/CVE-2015-1635](https://github.com/N3rdyN3xus/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/N3rdyN3xus/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/N3rdyN3xus/CVE-2015-1635.svg)
+- [https://github.com/NyxByt3/CVE-2015-1635](https://github.com/NyxByt3/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/NyxByt3/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/NyxByt3/CVE-2015-1635.svg)
 
 - [https://github.com/SkinAir/ms15-034-Scan](https://github.com/SkinAir/ms15-034-Scan) :  ![starts](https://img.shields.io/github/stars/SkinAir/ms15-034-Scan.svg) ![forks](https://img.shields.io/github/forks/SkinAir/ms15-034-Scan.svg)
 
