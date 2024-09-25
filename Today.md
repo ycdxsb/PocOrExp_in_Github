@@ -1,36 +1,36 @@
-# Update 2024-09-24
-## CVE-2024-4698
- The Testimonial Carousel For Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'show_line_text ' and 'slide_button_hover_animation' parameters in versions up to, and including, 10.1.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+# Update 2024-09-25
+## CVE-2024-38063
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/vidura2/CVE-2024-46986](https://github.com/vidura2/CVE-2024-46986) :  ![starts](https://img.shields.io/github/stars/vidura2/CVE-2024-46986.svg) ![forks](https://img.shields.io/github/forks/vidura2/CVE-2024-46986.svg)
-
-
-## CVE-2024-4645
- A vulnerability was found in SourceCodester Prison Management System 1.0 and classified as problematic. This issue affects some unknown processing of the file /Admin/changepassword.php. The manipulation of the argument txtold_password/txtnew_password/txtconfirm_password leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-263489 was assigned to this vulnerability.
-
-- [https://github.com/vidura2/CVE-2024-46451](https://github.com/vidura2/CVE-2024-46451) :  ![starts](https://img.shields.io/github/stars/vidura2/CVE-2024-46451.svg) ![forks](https://img.shields.io/github/forks/vidura2/CVE-2024-46451.svg)
+- [https://github.com/lnx-dvlpr/cve-2024-38063](https://github.com/lnx-dvlpr/cve-2024-38063) :  ![starts](https://img.shields.io/github/stars/lnx-dvlpr/cve-2024-38063.svg) ![forks](https://img.shields.io/github/forks/lnx-dvlpr/cve-2024-38063.svg)
 
 
-## CVE-2023-27163
- request-baskets up to v1.2.1 was discovered to contain a Server-Side Request Forgery (SSRF) via the component /api/baskets/{name}. This vulnerability allows attackers to access network resources and sensitive information via a crafted API request.
+## CVE-2024-23897
+ Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
 
-- [https://github.com/btar1gan/exploit_CVE-2023-27163](https://github.com/btar1gan/exploit_CVE-2023-27163) :  ![starts](https://img.shields.io/github/stars/btar1gan/exploit_CVE-2023-27163.svg) ![forks](https://img.shields.io/github/forks/btar1gan/exploit_CVE-2023-27163.svg)
-
-
-## CVE-2020-10977
- GitLab EE/CE 8.5 to 12.9 is vulnerable to a an path traversal when moving an issue between projects.
-
-- [https://github.com/possib1e/cve-2020-10977](https://github.com/possib1e/cve-2020-10977) :  ![starts](https://img.shields.io/github/stars/possib1e/cve-2020-10977.svg) ![forks](https://img.shields.io/github/forks/possib1e/cve-2020-10977.svg)
+- [https://github.com/r0xdeadbeef/CVE-2024-23897](https://github.com/r0xdeadbeef/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/r0xdeadbeef/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/r0xdeadbeef/CVE-2024-23897.svg)
 
 
-## CVE-2018-16763
- FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter or the preview/ data parameter. This can lead to Pre-Auth Remote Code Execution.
+## CVE-2024-4637
+ The Slider Revolution plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 6.7.10 due to insufficient input sanitization and output escaping on the user supplied Elementor 'wrapperid' and 'zindex' display attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 
-- [https://github.com/Luigi31415/CVE-2018-16763](https://github.com/Luigi31415/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/Luigi31415/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/Luigi31415/CVE-2018-16763.svg)
+- [https://github.com/vidura2/CVE-2024-46377](https://github.com/vidura2/CVE-2024-46377) :  ![starts](https://img.shields.io/github/stars/vidura2/CVE-2024-46377.svg) ![forks](https://img.shields.io/github/forks/vidura2/CVE-2024-46377.svg)
 
 
-## CVE-2011-2523
- vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which opens a shell on port 6200/tcp.
+## CVE-2023-36664
+ Artifex Ghostscript through 10.01.2 mishandles permission validation for pipe devices (with the %pipe% prefix or the | pipe character prefix).
 
-- [https://github.com/R4idB0Y/CVE-2011-2523-PoC](https://github.com/R4idB0Y/CVE-2011-2523-PoC) :  ![starts](https://img.shields.io/github/stars/R4idB0Y/CVE-2011-2523-PoC.svg) ![forks](https://img.shields.io/github/forks/R4idB0Y/CVE-2011-2523-PoC.svg)
+- [https://github.com/jeanchpt/CVE-2023-36664](https://github.com/jeanchpt/CVE-2023-36664) :  ![starts](https://img.shields.io/github/stars/jeanchpt/CVE-2023-36664.svg) ![forks](https://img.shields.io/github/forks/jeanchpt/CVE-2023-36664.svg)
+
+
+## CVE-2022-35914
+ /vendor/htmlawed/htmlawed/htmLawedTest.php in the htmlawed module for GLPI through 10.0.2 allows PHP code injection.
+
+- [https://github.com/senderend/CVE-2022-35914](https://github.com/senderend/CVE-2022-35914) :  ![starts](https://img.shields.io/github/stars/senderend/CVE-2022-35914.svg) ![forks](https://img.shields.io/github/forks/senderend/CVE-2022-35914.svg)
+
+
+## CVE-2021-26855
+ Microsoft Exchange Server Remote Code Execution Vulnerability
+
+- [https://github.com/r0xdeadbeef/CVE-2021-26855](https://github.com/r0xdeadbeef/CVE-2021-26855) :  ![starts](https://img.shields.io/github/stars/r0xdeadbeef/CVE-2021-26855.svg) ![forks](https://img.shields.io/github/forks/r0xdeadbeef/CVE-2021-26855.svg)
 
