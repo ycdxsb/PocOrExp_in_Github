@@ -124,7 +124,7 @@
 
 - [https://github.com/p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/p1ckzi/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/p1ckzi/CVE-2009-2265.svg)
 
-- [https://github.com/N3rdyN3xus/CVE-2009-2265](https://github.com/N3rdyN3xus/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/N3rdyN3xus/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/N3rdyN3xus/CVE-2009-2265.svg)
+- [https://github.com/NyxByt3/CVE-2009-2265](https://github.com/NyxByt3/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/NyxByt3/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/NyxByt3/CVE-2009-2265.svg)
 
 - [https://github.com/brunorhis/CVE2009-2265](https://github.com/brunorhis/CVE2009-2265) :  ![starts](https://img.shields.io/github/stars/brunorhis/CVE2009-2265.svg) ![forks](https://img.shields.io/github/forks/brunorhis/CVE2009-2265.svg)
 
