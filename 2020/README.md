@@ -3,9 +3,9 @@
 
 
 
-- [https://github.com/miguelc49/CVE-2020-36732-2](https://github.com/miguelc49/CVE-2020-36732-2) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2020-36732-2.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2020-36732-2.svg)
-
 - [https://github.com/miguelc49/CVE-2020-36732-1](https://github.com/miguelc49/CVE-2020-36732-1) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2020-36732-1.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2020-36732-1.svg)
+
+- [https://github.com/miguelc49/CVE-2020-36732-2](https://github.com/miguelc49/CVE-2020-36732-2) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2020-36732-2.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2020-36732-2.svg)
 
 ## CVE-2020-36730
  The CMP for WordPress is vulnerable to authorization bypass due to a missing capability check on the cmp_get_post_detail(), niteo_export_csv(), and cmp_disable_comingsoon_ajax() functions in versions up to, and including, 3.8.1. This makes it possible for unauthenticated attackers to read posts, export subscriber lists, and/or deactivate the plugin.
@@ -2855,6 +2855,13 @@
 
 - [https://github.com/asterite3/CVE-2020-13640](https://github.com/asterite3/CVE-2020-13640) :  ![starts](https://img.shields.io/github/stars/asterite3/CVE-2020-13640.svg) ![forks](https://img.shields.io/github/forks/asterite3/CVE-2020-13640.svg)
 
+## CVE-2020-13519
+ A privilege escalation vulnerability exists in the WinRing0x64 Driver IRP 0x9c402088 functionality of NZXT CAM 4.8.0. A specially crafted I/O request packet (IRP) can cause increased privileges. An attacker can send a malicious IRP to trigger this vulnerability.
+
+
+
+- [https://github.com/SpiralBL0CK/poc-for-CVE-2020-13519-still-under-construction-](https://github.com/SpiralBL0CK/poc-for-CVE-2020-13519-still-under-construction-) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/poc-for-CVE-2020-13519-still-under-construction-.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/poc-for-CVE-2020-13519-still-under-construction-.svg)
+
 ## CVE-2020-13457
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -5491,9 +5498,9 @@
 
 - [https://github.com/iveresk/cve-2020-3452](https://github.com/iveresk/cve-2020-3452) :  ![starts](https://img.shields.io/github/stars/iveresk/cve-2020-3452.svg) ![forks](https://img.shields.io/github/forks/iveresk/cve-2020-3452.svg)
 
-- [https://github.com/sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/sujaygr8/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/sujaygr8/CVE-2020-3452.svg)
-
 - [https://github.com/Cappricio-Securities/CVE-2020-3452](https://github.com/Cappricio-Securities/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2020-3452.svg)
+
+- [https://github.com/sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/sujaygr8/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/sujaygr8/CVE-2020-3452.svg)
 
 - [https://github.com/toy0756428/CVE_2020_3452_Detect](https://github.com/toy0756428/CVE_2020_3452_Detect) :  ![starts](https://img.shields.io/github/stars/toy0756428/CVE_2020_3452_Detect.svg) ![forks](https://img.shields.io/github/forks/toy0756428/CVE_2020_3452_Detect.svg)
 
@@ -5888,9 +5895,9 @@
 
 - [https://github.com/b1cat/CVE_2020_1938_ajp_poc](https://github.com/b1cat/CVE_2020_1938_ajp_poc) :  ![starts](https://img.shields.io/github/stars/b1cat/CVE_2020_1938_ajp_poc.svg) ![forks](https://img.shields.io/github/forks/b1cat/CVE_2020_1938_ajp_poc.svg)
 
-- [https://github.com/haerin7427/CVE_2020_1938](https://github.com/haerin7427/CVE_2020_1938) :  ![starts](https://img.shields.io/github/stars/haerin7427/CVE_2020_1938.svg) ![forks](https://img.shields.io/github/forks/haerin7427/CVE_2020_1938.svg)
-
 - [https://github.com/I-Runtime-Error/CVE-2020-1938](https://github.com/I-Runtime-Error/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/I-Runtime-Error/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/I-Runtime-Error/CVE-2020-1938.svg)
+
+- [https://github.com/haerin7427/CVE_2020_1938](https://github.com/haerin7427/CVE_2020_1938) :  ![starts](https://img.shields.io/github/stars/haerin7427/CVE_2020_1938.svg) ![forks](https://img.shields.io/github/forks/haerin7427/CVE_2020_1938.svg)
 
 - [https://github.com/acodervic/CVE-2020-1938-MSF-MODULE](https://github.com/acodervic/CVE-2020-1938-MSF-MODULE) :  ![starts](https://img.shields.io/github/stars/acodervic/CVE-2020-1938-MSF-MODULE.svg) ![forks](https://img.shields.io/github/forks/acodervic/CVE-2020-1938-MSF-MODULE.svg)
 
@@ -6448,11 +6455,11 @@
 
 - [https://github.com/TweatherQ/CVE-2020-0796](https://github.com/TweatherQ/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/TweatherQ/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/TweatherQ/CVE-2020-0796.svg)
 
+- [https://github.com/Opensitoo/cve-2020-0796](https://github.com/Opensitoo/cve-2020-0796) :  ![starts](https://img.shields.io/github/stars/Opensitoo/cve-2020-0796.svg) ![forks](https://img.shields.io/github/forks/Opensitoo/cve-2020-0796.svg)
+
 - [https://github.com/abdullah098/CVE_2020_0796](https://github.com/abdullah098/CVE_2020_0796) :  ![starts](https://img.shields.io/github/stars/abdullah098/CVE_2020_0796.svg) ![forks](https://img.shields.io/github/forks/abdullah098/CVE_2020_0796.svg)
 
 - [https://github.com/kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/kn6869610/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/kn6869610/CVE-2020-0796.svg)
-
-- [https://github.com/Opensitoo/cve-2020-0796](https://github.com/Opensitoo/cve-2020-0796) :  ![starts](https://img.shields.io/github/stars/Opensitoo/cve-2020-0796.svg) ![forks](https://img.shields.io/github/forks/Opensitoo/cve-2020-0796.svg)
 
 - [https://github.com/krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/krizzz07/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/krizzz07/CVE-2020-0796.svg)
 
