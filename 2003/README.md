@@ -53,3 +53,10 @@
 
 
 - [https://github.com/cyberdesu/Remote-Buffer-overflow-CVE-2003-0172](https://github.com/cyberdesu/Remote-Buffer-overflow-CVE-2003-0172) :  ![starts](https://img.shields.io/github/stars/cyberdesu/Remote-Buffer-overflow-CVE-2003-0172.svg) ![forks](https://img.shields.io/github/forks/cyberdesu/Remote-Buffer-overflow-CVE-2003-0172.svg)
+
+## CVE-2003-0001
+ Multiple ethernet Network Interface Card (NIC) device drivers do not pad frames with null bytes, which allows remote attackers to obtain information from previous packets or kernel memory by using malformed packets, as demonstrated by Etherleak.
+
+
+
+- [https://github.com/marb08/etherleak-checker](https://github.com/marb08/etherleak-checker) :  ![starts](https://img.shields.io/github/stars/marb08/etherleak-checker.svg) ![forks](https://img.shields.io/github/forks/marb08/etherleak-checker.svg)
