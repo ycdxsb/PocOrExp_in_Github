@@ -19,6 +19,13 @@
 
 - [https://github.com/halkichi0308/CVE-2015-9251](https://github.com/halkichi0308/CVE-2015-9251) :  ![starts](https://img.shields.io/github/stars/halkichi0308/CVE-2015-9251.svg) ![forks](https://img.shields.io/github/forks/halkichi0308/CVE-2015-9251.svg)
 
+## CVE-2015-9238
+ secure-compare 3.0.0 and below do not actually compare two strings properly. compare was actually comparing the first argument with itself, meaning the check passed for any two strings of the same length.
+
+
+
+- [https://github.com/JamesDarf/wargame-secure_compare](https://github.com/JamesDarf/wargame-secure_compare) :  ![starts](https://img.shields.io/github/stars/JamesDarf/wargame-secure_compare.svg) ![forks](https://img.shields.io/github/forks/JamesDarf/wargame-secure_compare.svg)
+
 ## CVE-2015-9235
  In jsonwebtoken node module before 4.2.2 it is possible for an attacker to bypass verification when a token digitally signed with an asymmetric key (RS/ES family) of algorithms but instead the attacker send a token digitally signed with a symmetric algorithm (HS* family).
 
