@@ -1,30 +1,48 @@
-# Update 2024-10-03
-## CVE-2024-35205
- The WPS Office (aka cn.wps.moffice_eng) application before 17.0.0 for Android fails to properly sanitize file names before processing them through external application interactions, leading to a form of path traversal. This potentially enables any application to dispatch a crafted library file, aiming to overwrite an existing native library utilized by WPS Office. Successful exploitation could result in the execution of arbitrary commands under the guise of WPS Office's application ID.
+# Update 2024-10-04
+## CVE-2024-35293
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/cyb3r-w0lf/Dirty_Stream-Android-POC](https://github.com/cyb3r-w0lf/Dirty_Stream-Android-POC) :  ![starts](https://img.shields.io/github/stars/cyb3r-w0lf/Dirty_Stream-Android-POC.svg) ![forks](https://img.shields.io/github/forks/cyb3r-w0lf/Dirty_Stream-Android-POC.svg)
-
-
-## CVE-2024-5522
- The HTML5 Video Player WordPress plugin before 2.5.27 does not sanitize and escape a parameter from a REST route before using it in a SQL statement, allowing unauthenticated users to perform SQL injection attacks
-
-- [https://github.com/geniuszlyy/CVE-2024-5522](https://github.com/geniuszlyy/CVE-2024-5522) :  ![starts](https://img.shields.io/github/stars/geniuszlyy/CVE-2024-5522.svg) ![forks](https://img.shields.io/github/forks/geniuszlyy/CVE-2024-5522.svg)
+- [https://github.com/nothe1senberg/CVE-2024-35293](https://github.com/nothe1senberg/CVE-2024-35293) :  ![starts](https://img.shields.io/github/stars/nothe1senberg/CVE-2024-35293.svg) ![forks](https://img.shields.io/github/forks/nothe1senberg/CVE-2024-35293.svg)
 
 
-## CVE-2024-4663
- The OSM Map Widget for Elementor plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the &#8216;id&#8217; parameter in all versions up to, and including, 1.2.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
+## CVE-2024-4717
+ A vulnerability was found in Campcodes Complete Web-Based School Management System 1.0 and classified as problematic. This issue affects some unknown processing of the file /model/update_classroom.php. The manipulation of the argument name leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-263795.
 
-- [https://github.com/h1thub/CVE-2024-46635](https://github.com/h1thub/CVE-2024-46635) :  ![starts](https://img.shields.io/github/stars/h1thub/CVE-2024-46635.svg) ![forks](https://img.shields.io/github/forks/h1thub/CVE-2024-46635.svg)
-
-
-## CVE-2024-4129
- Improper Authentication vulnerability in Snow Software AB Snow License Manager on Windows allows a networked attacker to perform an Authentication Bypass if Active Directory Authentication is enabled.This issue affects Snow License Manager: from 9.33.2 through 9.34.0.
-
-- [https://github.com/paragbagul111/CVE-2024-41290](https://github.com/paragbagul111/CVE-2024-41290) :  ![starts](https://img.shields.io/github/stars/paragbagul111/CVE-2024-41290.svg) ![forks](https://img.shields.io/github/forks/paragbagul111/CVE-2024-41290.svg)
+- [https://github.com/pearlmansara/CVE-2024-47176-CUPS](https://github.com/pearlmansara/CVE-2024-47176-CUPS) :  ![starts](https://img.shields.io/github/stars/pearlmansara/CVE-2024-47176-CUPS.svg) ![forks](https://img.shields.io/github/forks/pearlmansara/CVE-2024-47176-CUPS.svg)
 
 
-## CVE-2019-17662
- ThinVNC 1.0b1 is vulnerable to arbitrary file read, which leads to a compromise of the VNC server. The vulnerability exists even when authentication is turned on during the deployment of the VNC server. The password for authentication is stored in cleartext in a file that can be read via a ../../ThinVnc.ini directory traversal attack vector.
+## CVE-2024-0044
+ In createSessionInternal of PackageInstallerService.java, there is a possible run-as any app due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
 
-- [https://github.com/medarov411/vnc-lab-cve-2019-17662](https://github.com/medarov411/vnc-lab-cve-2019-17662) :  ![starts](https://img.shields.io/github/stars/medarov411/vnc-lab-cve-2019-17662.svg) ![forks](https://img.shields.io/github/forks/medarov411/vnc-lab-cve-2019-17662.svg)
+- [https://github.com/a-roshbaik/cve_2024_0044](https://github.com/a-roshbaik/cve_2024_0044) :  ![starts](https://img.shields.io/github/stars/a-roshbaik/cve_2024_0044.svg) ![forks](https://img.shields.io/github/forks/a-roshbaik/cve_2024_0044.svg)
+
+
+## CVE-2023-41993
+ The issue was addressed with improved checks. This issue is fixed in macOS Sonoma 14. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
+
+- [https://github.com/0x06060606/CVE-2023-41993](https://github.com/0x06060606/CVE-2023-41993) :  ![starts](https://img.shields.io/github/stars/0x06060606/CVE-2023-41993.svg) ![forks](https://img.shields.io/github/forks/0x06060606/CVE-2023-41993.svg)
+
+
+## CVE-2023-41425
+ Cross Site Scripting vulnerability in Wonder CMS v.3.2.0 thru v.3.4.2 allows a remote attacker to execute arbitrary code via a crafted script uploaded to the installModule component.
+
+- [https://github.com/duck-sec/CVE-2023-41425](https://github.com/duck-sec/CVE-2023-41425) :  ![starts](https://img.shields.io/github/stars/duck-sec/CVE-2023-41425.svg) ![forks](https://img.shields.io/github/forks/duck-sec/CVE-2023-41425.svg)
+
+
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+
+- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
+
+
+## CVE-2019-19781
+ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gateway 10.5, 11.1, 12.0, 12.1, and 13.0. They allow Directory Traversal.
+
+- [https://github.com/citrixgitoff/-ioc-scanner-CVE-2019-19781](https://github.com/citrixgitoff/-ioc-scanner-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/citrixgitoff/-ioc-scanner-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/citrixgitoff/-ioc-scanner-CVE-2019-19781.svg)
+
+
+## CVE-2019-11248
+ The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
+
+- [https://github.com/nop2nop/cve-2019-11248](https://github.com/nop2nop/cve-2019-11248) :  ![starts](https://img.shields.io/github/stars/nop2nop/cve-2019-11248.svg) ![forks](https://img.shields.io/github/forks/nop2nop/cve-2019-11248.svg)
 
