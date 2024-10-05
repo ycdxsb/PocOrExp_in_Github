@@ -3,7 +3,7 @@
 
 
 
-- [https://github.com/0xget/cve-2001-1473](https://github.com/0xget/cve-2001-1473) :  ![starts](https://img.shields.io/github/stars/0xget/cve-2001-1473.svg) ![forks](https://img.shields.io/github/forks/0xget/cve-2001-1473.svg)
+- [https://github.com/masm3264/poc-CVE-2001-1473](https://github.com/masm3264/poc-CVE-2001-1473) :  ![starts](https://img.shields.io/github/stars/masm3264/poc-CVE-2001-1473.svg) ![forks](https://img.shields.io/github/forks/masm3264/poc-CVE-2001-1473.svg)
 
 ## CVE-2001-1442
  Buffer overflow in innfeed for ISC InterNetNews (INN) before 2.3.0 allows local users in the &quot;news&quot; group to gain privileges via a long -c command line argument.
