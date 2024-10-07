@@ -283,9 +283,9 @@
 
 - [https://github.com/NyxByt3/CVE-2015-6668](https://github.com/NyxByt3/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/NyxByt3/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/NyxByt3/CVE-2015-6668.svg)
 
-- [https://github.com/G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2015-6668.svg)
-
 - [https://github.com/jimdiroffii/CVE-2015-6668](https://github.com/jimdiroffii/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/jimdiroffii/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/jimdiroffii/CVE-2015-6668.svg)
+
+- [https://github.com/G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2015-6668.svg)
 
 ## CVE-2015-6640
  The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 does not ensure that only one vma is accessed in a certain update action, which allows attackers to gain privileges or cause a denial of service (vma list corruption) via a crafted application, aka internal bug 20017123.
@@ -442,7 +442,7 @@
 
 - [https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit](https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit) :  ![starts](https://img.shields.io/github/stars/xycloops123/TKEY-remote-DoS-vulnerability-exploit.svg) ![forks](https://img.shields.io/github/forks/xycloops123/TKEY-remote-DoS-vulnerability-exploit.svg)
 
-- [https://github.com/likescam/ShareDoc_cve-2015-5477](https://github.com/likescam/ShareDoc_cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/likescam/ShareDoc_cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/likescam/ShareDoc_cve-2015-5477.svg)
+- [https://github.com/likekabin/ShareDoc_cve-2015-5477](https://github.com/likekabin/ShareDoc_cve-2015-5477) :  ![starts](https://img.shields.io/github/stars/likekabin/ShareDoc_cve-2015-5477.svg) ![forks](https://img.shields.io/github/forks/likekabin/ShareDoc_cve-2015-5477.svg)
 
 ## CVE-2015-5383
  Roundcube Webmail 1.1.x before 1.1.2 allows remote attackers to obtain sensitive information by reading files in the (1) config, (2) temp, or (3) logs directory.
