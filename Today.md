@@ -1,122 +1,103 @@
-# Update 2024-10-06
-## CVE-2024-34741
+# Update 2024-10-07
+## CVE-2024-38477
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/uthrasri/CVE-2024-34741](https://github.com/uthrasri/CVE-2024-34741) :  ![starts](https://img.shields.io/github/stars/uthrasri/CVE-2024-34741.svg) ![forks](https://img.shields.io/github/forks/uthrasri/CVE-2024-34741.svg)
+- [https://github.com/mrmtwoj/apache-vulnerability-testing](https://github.com/mrmtwoj/apache-vulnerability-testing) :  ![starts](https://img.shields.io/github/stars/mrmtwoj/apache-vulnerability-testing.svg) ![forks](https://img.shields.io/github/forks/mrmtwoj/apache-vulnerability-testing.svg)
 
 
-## CVE-2024-34739
+## CVE-2024-38476
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/uthrasri/CVE-2024-34739](https://github.com/uthrasri/CVE-2024-34739) :  ![starts](https://img.shields.io/github/stars/uthrasri/CVE-2024-34739.svg) ![forks](https://img.shields.io/github/forks/uthrasri/CVE-2024-34739.svg)
+- [https://github.com/mrmtwoj/apache-vulnerability-testing](https://github.com/mrmtwoj/apache-vulnerability-testing) :  ![starts](https://img.shields.io/github/stars/mrmtwoj/apache-vulnerability-testing.svg) ![forks](https://img.shields.io/github/forks/mrmtwoj/apache-vulnerability-testing.svg)
 
 
-## CVE-2024-30052
- Visual Studio Remote Code Execution Vulnerability
+## CVE-2024-38475
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/ynwarcs/CVE-2024-30052](https://github.com/ynwarcs/CVE-2024-30052) :  ![starts](https://img.shields.io/github/stars/ynwarcs/CVE-2024-30052.svg) ![forks](https://img.shields.io/github/forks/ynwarcs/CVE-2024-30052.svg)
-
-
-## CVE-2024-29050
- Windows Cryptographic Services Remote Code Execution Vulnerability
-
-- [https://github.com/Akrachli/CVE-2024-29050](https://github.com/Akrachli/CVE-2024-29050) :  ![starts](https://img.shields.io/github/stars/Akrachli/CVE-2024-29050.svg) ![forks](https://img.shields.io/github/forks/Akrachli/CVE-2024-29050.svg)
+- [https://github.com/mrmtwoj/apache-vulnerability-testing](https://github.com/mrmtwoj/apache-vulnerability-testing) :  ![starts](https://img.shields.io/github/stars/mrmtwoj/apache-vulnerability-testing.svg) ![forks](https://img.shields.io/github/forks/mrmtwoj/apache-vulnerability-testing.svg)
 
 
-## CVE-2024-4956
- Path Traversal in Sonatype Nexus Repository 3 allows an unauthenticated attacker to read system files. Fixed in version 3.68.1.
+## CVE-2024-38474
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/An00bRektn/shirocrack](https://github.com/An00bRektn/shirocrack) :  ![starts](https://img.shields.io/github/stars/An00bRektn/shirocrack.svg) ![forks](https://img.shields.io/github/forks/An00bRektn/shirocrack.svg)
-
-
-## CVE-2024-4577
- In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use &quot;Best-Fit&quot; behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
-
-- [https://github.com/JeninSutradhar/CVE-2024-4577-checker](https://github.com/JeninSutradhar/CVE-2024-4577-checker) :  ![starts](https://img.shields.io/github/stars/JeninSutradhar/CVE-2024-4577-checker.svg) ![forks](https://img.shields.io/github/forks/JeninSutradhar/CVE-2024-4577-checker.svg)
+- [https://github.com/mrmtwoj/apache-vulnerability-testing](https://github.com/mrmtwoj/apache-vulnerability-testing) :  ![starts](https://img.shields.io/github/stars/mrmtwoj/apache-vulnerability-testing.svg) ![forks](https://img.shields.io/github/forks/mrmtwoj/apache-vulnerability-testing.svg)
 
 
-## CVE-2024-4551
- The Video Gallery &#8211; YouTube Playlist, Channel Gallery by YotuWP plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 1.3.13 via the display function. This makes it possible for authenticated attackers, with contributor access and higher, to include and execute arbitrary php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other &#8220;safe&#8221; file types can be uploaded and included.
+## CVE-2024-38473
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Chocapikk/CVE-2024-45519](https://github.com/Chocapikk/CVE-2024-45519) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2024-45519.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2024-45519.svg)
-
-
-## CVE-2024-4419
- The Fetch JFT plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 1.8.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
-
-- [https://github.com/mbog14/CVE-2024-44193](https://github.com/mbog14/CVE-2024-44193) :  ![starts](https://img.shields.io/github/stars/mbog14/CVE-2024-44193.svg) ![forks](https://img.shields.io/github/forks/mbog14/CVE-2024-44193.svg)
+- [https://github.com/mrmtwoj/apache-vulnerability-testing](https://github.com/mrmtwoj/apache-vulnerability-testing) :  ![starts](https://img.shields.io/github/stars/mrmtwoj/apache-vulnerability-testing.svg) ![forks](https://img.shields.io/github/forks/mrmtwoj/apache-vulnerability-testing.svg)
 
 
-## CVE-2023-41564
- An arbitrary file upload vulnerability in the Upload Asset function of Cockpit CMS v2.6.3 allows attackers to execute arbitrary code via uploading a crafted .shtml file.
+## CVE-2024-38472
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/sota70/cve-2023-41564-research](https://github.com/sota70/cve-2023-41564-research) :  ![starts](https://img.shields.io/github/stars/sota70/cve-2023-41564-research.svg) ![forks](https://img.shields.io/github/forks/sota70/cve-2023-41564-research.svg)
-
-
-## CVE-2023-1874
- The WP Data Access plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 5.3.7. This is due to a lack of authorization checks on the multiple_roles_update function. This makes it possible for authenticated attackers, with minimal permissions such as a subscriber, to modify their user role by supplying the 'wpda_role[]' parameter during a profile update. This requires the 'Enable role management' setting to be enabled for the site.
-
-- [https://github.com/thomas-osgood/cve-2023-1874](https://github.com/thomas-osgood/cve-2023-1874) :  ![starts](https://img.shields.io/github/stars/thomas-osgood/cve-2023-1874.svg) ![forks](https://img.shields.io/github/forks/thomas-osgood/cve-2023-1874.svg)
+- [https://github.com/mrmtwoj/apache-vulnerability-testing](https://github.com/mrmtwoj/apache-vulnerability-testing) :  ![starts](https://img.shields.io/github/stars/mrmtwoj/apache-vulnerability-testing.svg) ![forks](https://img.shields.io/github/forks/mrmtwoj/apache-vulnerability-testing.svg)
 
 
-## CVE-2023-0297
- Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
+## CVE-2024-36401
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/S4MY9/CVE-2023-0297](https://github.com/S4MY9/CVE-2023-0297) :  ![starts](https://img.shields.io/github/stars/S4MY9/CVE-2023-0297.svg) ![forks](https://img.shields.io/github/forks/S4MY9/CVE-2023-0297.svg)
+- [https://github.com/netuseradministrator/CVE-2024-36401](https://github.com/netuseradministrator/CVE-2024-36401) :  ![starts](https://img.shields.io/github/stars/netuseradministrator/CVE-2024-36401.svg) ![forks](https://img.shields.io/github/forks/netuseradministrator/CVE-2024-36401.svg)
 
 
-## CVE-2022-38181
- The Arm Mali GPU kernel driver allows unprivileged users to access freed memory because GPU memory operations are mishandled. This affects Bifrost r0p0 through r38p1, and r39p0; Valhall r19p0 through r38p1, and r39p0; and Midgard r4p0 through r32p0.
+## CVE-2024-32640
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/R0rt1z2/CVE-2022-38181](https://github.com/R0rt1z2/CVE-2022-38181) :  ![starts](https://img.shields.io/github/stars/R0rt1z2/CVE-2022-38181.svg) ![forks](https://img.shields.io/github/forks/R0rt1z2/CVE-2022-38181.svg)
+- [https://github.com/inviewp/CVE-2024-32640](https://github.com/inviewp/CVE-2024-32640) :  ![starts](https://img.shields.io/github/stars/inviewp/CVE-2024-32640.svg) ![forks](https://img.shields.io/github/forks/inviewp/CVE-2024-32640.svg)
+
+
+## CVE-2024-28116
+ Grav is an open-source, flat-file content management system. Grav CMS prior to version 1.7.45 is vulnerable to a Server-Side Template Injection (SSTI), which allows any authenticated user (editor permissions are sufficient) to execute arbitrary code on the remote server bypassing the existing security sandbox. Version 1.7.45 contains a patch for this issue.
+
+- [https://github.com/geniuszlyy/GenGravSSTIExploit](https://github.com/geniuszlyy/GenGravSSTIExploit) :  ![starts](https://img.shields.io/github/stars/geniuszlyy/GenGravSSTIExploit.svg) ![forks](https://img.shields.io/github/forks/geniuszlyy/GenGravSSTIExploit.svg)
+
+
+## CVE-2024-26304
+ There is a buffer overflow vulnerability in the underlying L2/L3 Management service that could lead to unauthenticated remote code execution by sending specially crafted packets destined to the PAPI (Aruba's access point management protocol) UDP port (8211). Successful exploitation of this vulnerability results in the ability to execute arbitrary code as a privileged user on the underlying operating system.
+
+- [https://github.com/X-Projetion/CVE-2024-26304-RCE-exploit](https://github.com/X-Projetion/CVE-2024-26304-RCE-exploit) :  ![starts](https://img.shields.io/github/stars/X-Projetion/CVE-2024-26304-RCE-exploit.svg) ![forks](https://img.shields.io/github/forks/X-Projetion/CVE-2024-26304-RCE-exploit.svg)
+
+
+## CVE-2024-4717
+ A vulnerability was found in Campcodes Complete Web-Based School Management System 1.0 and classified as problematic. This issue affects some unknown processing of the file /model/update_classroom.php. The manipulation of the argument name leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-263795.
+
+- [https://github.com/gumerzzzindo/CVE-2024-47176](https://github.com/gumerzzzindo/CVE-2024-47176) :  ![starts](https://img.shields.io/github/stars/gumerzzzindo/CVE-2024-47176.svg) ![forks](https://img.shields.io/github/forks/gumerzzzindo/CVE-2024-47176.svg)
+
+
+## CVE-2023-47253
+ Qualitor through 8.20 allows remote attackers to execute arbitrary code via PHP code in the html/ad/adpesquisasql/request/processVariavel.php gridValoresPopHidden parameter.
+
+- [https://github.com/inviewp/Qualitor_CVE-2023-47253](https://github.com/inviewp/Qualitor_CVE-2023-47253) :  ![starts](https://img.shields.io/github/stars/inviewp/Qualitor_CVE-2023-47253.svg) ![forks](https://img.shields.io/github/forks/inviewp/Qualitor_CVE-2023-47253.svg)
+
+
+## CVE-2023-38709
+ Faulty input validation in the core of Apache allows malicious or exploitable backend/content generators to split HTTP responses. This issue affects Apache HTTP Server: through 2.4.58.
+
+- [https://github.com/mrmtwoj/apache-vulnerability-testing](https://github.com/mrmtwoj/apache-vulnerability-testing) :  ![starts](https://img.shields.io/github/stars/mrmtwoj/apache-vulnerability-testing.svg) ![forks](https://img.shields.io/github/forks/mrmtwoj/apache-vulnerability-testing.svg)
+
+
+## CVE-2023-35854
+ ** DISPUTED ** Zoho ManageEngine ADSelfService Plus through 6113 has an authentication bypass that can be exploited to steal the domain controller session token for identity spoofing, thereby achieving the privileges of the domain controller administrator. NOTE: the vendor's perspective is that they have &quot;found no evidence or detail of a security vulnerability.&quot;
+
+- [https://github.com/bluestarry33/exp](https://github.com/bluestarry33/exp) :  ![starts](https://img.shields.io/github/stars/bluestarry33/exp.svg) ![forks](https://img.shields.io/github/forks/bluestarry33/exp.svg)
+
+
+## CVE-2023-30800
+ The web server used by MikroTik RouterOS version 6 is affected by a heap memory corruption issue. A remote and unauthenticated attacker can corrupt the server's heap memory by sending a crafted HTTP request. As a result, the web interface crashes and is immediately restarted. The issue was fixed in RouterOS 6.49.10 stable. RouterOS version 7 is not affected.
+
+- [https://github.com/AxthonyV/MikroTik](https://github.com/AxthonyV/MikroTik) :  ![starts](https://img.shields.io/github/stars/AxthonyV/MikroTik.svg) ![forks](https://img.shields.io/github/forks/AxthonyV/MikroTik.svg)
+
+
+## CVE-2021-43798
+ Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `&lt;grafana_host_url&gt;/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
+
+- [https://github.com/sazzad1337/Grafana-CVE-2021-43798](https://github.com/sazzad1337/Grafana-CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/sazzad1337/Grafana-CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/sazzad1337/Grafana-CVE-2021-43798.svg)
 
 
 ## CVE-2021-41773
  A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2021-41773.svg)
-- [https://github.com/xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/xMohamed0/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/xMohamed0/CVE-2021-41773.svg)
-- [https://github.com/sixpacksecurity/CVE-2021-41773](https://github.com/sixpacksecurity/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/sixpacksecurity/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/sixpacksecurity/CVE-2021-41773.svg)
-
-
-## CVE-2021-25646
- Apache Druid includes the ability to execute user-provided JavaScript code embedded in various types of requests. This functionality is intended for use in high-trust environments, and is disabled by default. However, in Druid 0.20.0 and earlier, it is possible for an authenticated user to send a specially-crafted request that forces Druid to run user-provided JavaScript code for that request, regardless of server configuration. This can be leveraged to execute code on the target machine with the privileges of the Druid server process.
-
-- [https://github.com/luobai8/CVE-2021-25646-exp](https://github.com/luobai8/CVE-2021-25646-exp) :  ![starts](https://img.shields.io/github/stars/luobai8/CVE-2021-25646-exp.svg) ![forks](https://img.shields.io/github/forks/luobai8/CVE-2021-25646-exp.svg)
-
-
-## CVE-2021-23639
- The package md-to-pdf before 5.0.0 are vulnerable to Remote Code Execution (RCE) due to utilizing the library gray-matter to parse front matter content, without disabling the JS engine.
-
-- [https://github.com/MohandAcherir/CVE-2021-23639](https://github.com/MohandAcherir/CVE-2021-23639) :  ![starts](https://img.shields.io/github/stars/MohandAcherir/CVE-2021-23639.svg) ![forks](https://img.shields.io/github/forks/MohandAcherir/CVE-2021-23639.svg)
-
-
-## CVE-2020-35489
- The contact-form-7 (aka Contact Form 7) plugin before 5.3.2 for WordPress allows Unrestricted File Upload and remote code execution because a filename may contain special characters.
-
-- [https://github.com/aitech66/poc-CVE-2020-35489](https://github.com/aitech66/poc-CVE-2020-35489) :  ![starts](https://img.shields.io/github/stars/aitech66/poc-CVE-2020-35489.svg) ![forks](https://img.shields.io/github/forks/aitech66/poc-CVE-2020-35489.svg)
-
-
-## CVE-2019-16172
- LimeSurvey before v3.17.14 allows stored XSS for escalating privileges from a low-privileged account to, for example, SuperAdmin. The attack uses a survey group in which the title contains JavaScript that is mishandled upon group deletion.
-
-- [https://github.com/TrixSec/CVE-2019-16172](https://github.com/TrixSec/CVE-2019-16172) :  ![starts](https://img.shields.io/github/stars/TrixSec/CVE-2019-16172.svg) ![forks](https://img.shields.io/github/forks/TrixSec/CVE-2019-16172.svg)
-
-
-## CVE-2019-11248
- The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
-
-- [https://github.com/masm3264/poc-CVE-2019-11248](https://github.com/masm3264/poc-CVE-2019-11248) :  ![starts](https://img.shields.io/github/stars/masm3264/poc-CVE-2019-11248.svg) ![forks](https://img.shields.io/github/forks/masm3264/poc-CVE-2019-11248.svg)
-
-
-## CVE-2010-1938
- Off-by-one error in the __opiereadrec function in readrec.c in libopie in OPIE 2.4.1-test1 and earlier, as used on FreeBSD 6.4 through 8.1-PRERELEASE and other platforms, allows remote attackers to cause a denial of service (daemon crash) or possibly execute arbitrary code via a long username, as demonstrated by a long USER command to the FreeBSD 8.0 ftpd.
-
-- [https://github.com/Nexxus67/cve-2010-1938](https://github.com/Nexxus67/cve-2010-1938) :  ![starts](https://img.shields.io/github/stars/Nexxus67/cve-2010-1938.svg) ![forks](https://img.shields.io/github/forks/Nexxus67/cve-2010-1938.svg)
-
-
-## CVE-2001-1473
- The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
-
-- [https://github.com/masm3264/poc-CVE-2001-1473](https://github.com/masm3264/poc-CVE-2001-1473) :  ![starts](https://img.shields.io/github/stars/masm3264/poc-CVE-2001-1473.svg) ![forks](https://img.shields.io/github/forks/masm3264/poc-CVE-2001-1473.svg)
+- [https://github.com/shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/shiomiyan/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/shiomiyan/CVE-2021-41773.svg)
+- [https://github.com/puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-41773.svg)
 
