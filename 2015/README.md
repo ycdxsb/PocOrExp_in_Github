@@ -19,13 +19,6 @@
 
 - [https://github.com/halkichi0308/CVE-2015-9251](https://github.com/halkichi0308/CVE-2015-9251) :  ![starts](https://img.shields.io/github/stars/halkichi0308/CVE-2015-9251.svg) ![forks](https://img.shields.io/github/forks/halkichi0308/CVE-2015-9251.svg)
 
-## CVE-2015-9238
- secure-compare 3.0.0 and below do not actually compare two strings properly. compare was actually comparing the first argument with itself, meaning the check passed for any two strings of the same length.
-
-
-
-- [https://github.com/JamesDarf/wargame-secure_compare](https://github.com/JamesDarf/wargame-secure_compare) :  ![starts](https://img.shields.io/github/stars/JamesDarf/wargame-secure_compare.svg) ![forks](https://img.shields.io/github/forks/JamesDarf/wargame-secure_compare.svg)
-
 ## CVE-2015-9235
  In jsonwebtoken node module before 4.2.2 it is possible for an attacker to bypass verification when a token digitally signed with an asymmetric key (RS/ES family) of algorithms but instead the attacker send a token digitally signed with a symmetric algorithm (HS* family).
 
@@ -49,9 +42,9 @@
 
 - [https://github.com/whu-enjoy/CVE-2015-8660](https://github.com/whu-enjoy/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/whu-enjoy/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/whu-enjoy/CVE-2015-8660.svg)
 
-- [https://github.com/carradolly/CVE-2015-8660](https://github.com/carradolly/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/carradolly/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/carradolly/CVE-2015-8660.svg)
-
 - [https://github.com/nhamle2/CVE-2015-8660](https://github.com/nhamle2/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/nhamle2/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/nhamle2/CVE-2015-8660.svg)
+
+- [https://github.com/carradolly/CVE-2015-8660](https://github.com/carradolly/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/carradolly/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/carradolly/CVE-2015-8660.svg)
 
 ## CVE-2015-8651
  Integer overflow in Adobe Flash Player before 18.0.0.324 and 19.x and 20.x before 20.0.0.267 on Windows and OS X and before 11.2.202.559 on Linux, Adobe AIR before 20.0.0.233, Adobe AIR SDK before 20.0.0.233, and Adobe AIR SDK &amp; Compiler before 20.0.0.233 allows attackers to execute arbitrary code via unspecified vectors.
@@ -67,9 +60,9 @@
 
 - [https://github.com/paralelo14/JoomlaMassExploiter](https://github.com/paralelo14/JoomlaMassExploiter) :  ![starts](https://img.shields.io/github/stars/paralelo14/JoomlaMassExploiter.svg) ![forks](https://img.shields.io/github/forks/paralelo14/JoomlaMassExploiter.svg)
 
-- [https://github.com/ZaleHack/joomla_rce_CVE-2015-8562](https://github.com/ZaleHack/joomla_rce_CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/ZaleHack/joomla_rce_CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/ZaleHack/joomla_rce_CVE-2015-8562.svg)
-
 - [https://github.com/VoidSec/Joomla_CVE-2015-8562](https://github.com/VoidSec/Joomla_CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/VoidSec/Joomla_CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/VoidSec/Joomla_CVE-2015-8562.svg)
+
+- [https://github.com/ZaleHack/joomla_rce_CVE-2015-8562](https://github.com/ZaleHack/joomla_rce_CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/ZaleHack/joomla_rce_CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/ZaleHack/joomla_rce_CVE-2015-8562.svg)
 
 - [https://github.com/paralelo14/CVE-2015-8562](https://github.com/paralelo14/CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/paralelo14/CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/paralelo14/CVE-2015-8562.svg)
 
@@ -283,9 +276,9 @@
 
 - [https://github.com/NyxByt3/CVE-2015-6668](https://github.com/NyxByt3/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/NyxByt3/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/NyxByt3/CVE-2015-6668.svg)
 
-- [https://github.com/G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2015-6668.svg)
-
 - [https://github.com/jimdiroffii/CVE-2015-6668](https://github.com/jimdiroffii/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/jimdiroffii/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/jimdiroffii/CVE-2015-6668.svg)
+
+- [https://github.com/G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2015-6668.svg)
 
 ## CVE-2015-6640
  The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 does not ensure that only one vma is accessed in a certain update action, which allows attackers to gain privileges or cause a denial of service (vma list corruption) via a crafted application, aka internal bug 20017123.
@@ -932,9 +925,9 @@
 
 - [https://github.com/NyxByt3/CVE-2015-1635-POC](https://github.com/NyxByt3/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/NyxByt3/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/NyxByt3/CVE-2015-1635-POC.svg)
 
-- [https://github.com/bongbongco/MS15-034](https://github.com/bongbongco/MS15-034) :  ![starts](https://img.shields.io/github/stars/bongbongco/MS15-034.svg) ![forks](https://img.shields.io/github/forks/bongbongco/MS15-034.svg)
-
 - [https://github.com/neu5ron/cve_2015-1635](https://github.com/neu5ron/cve_2015-1635) :  ![starts](https://img.shields.io/github/stars/neu5ron/cve_2015-1635.svg) ![forks](https://img.shields.io/github/forks/neu5ron/cve_2015-1635.svg)
+
+- [https://github.com/bongbongco/MS15-034](https://github.com/bongbongco/MS15-034) :  ![starts](https://img.shields.io/github/stars/bongbongco/MS15-034.svg) ![forks](https://img.shields.io/github/forks/bongbongco/MS15-034.svg)
 
 - [https://github.com/limkokholefork/CVE-2015-1635](https://github.com/limkokholefork/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/limkokholefork/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/CVE-2015-1635.svg)
 
@@ -942,9 +935,9 @@
 
 - [https://github.com/u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS) :  ![starts](https://img.shields.io/github/stars/u0pattern/Remove-IIS-RIIS.svg) ![forks](https://img.shields.io/github/forks/u0pattern/Remove-IIS-RIIS.svg)
 
-- [https://github.com/Cappricio-Securities/CVE-2015-1635](https://github.com/Cappricio-Securities/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2015-1635.svg)
-
 - [https://github.com/NyxByt3/CVE-2015-1635](https://github.com/NyxByt3/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/NyxByt3/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/NyxByt3/CVE-2015-1635.svg)
+
+- [https://github.com/Cappricio-Securities/CVE-2015-1635](https://github.com/Cappricio-Securities/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2015-1635.svg)
 
 - [https://github.com/SkinAir/ms15-034-Scan](https://github.com/SkinAir/ms15-034-Scan) :  ![starts](https://img.shields.io/github/stars/SkinAir/ms15-034-Scan.svg) ![forks](https://img.shields.io/github/forks/SkinAir/ms15-034-Scan.svg)
 
