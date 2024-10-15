@@ -1,49 +1,30 @@
-# Update 2024-10-14
-## CVE-2024-37404
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+# Update 2024-10-15
+## CVE-2024-35250
+ Windows Kernel-Mode Driver Elevation of Privilege Vulnerability
 
-- [https://github.com/nothe1senberg/CVE-2024-37404](https://github.com/nothe1senberg/CVE-2024-37404) :  ![starts](https://img.shields.io/github/stars/nothe1senberg/CVE-2024-37404.svg) ![forks](https://img.shields.io/github/forks/nothe1senberg/CVE-2024-37404.svg)
-
-
-## CVE-2024-24919
- Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN or Mobile Access Software Blades. A Security fix that mitigates this vulnerability is available.
-
-- [https://github.com/0xkalawy/CVE-2024-24919](https://github.com/0xkalawy/CVE-2024-24919) :  ![starts](https://img.shields.io/github/stars/0xkalawy/CVE-2024-24919.svg) ![forks](https://img.shields.io/github/forks/0xkalawy/CVE-2024-24919.svg)
+- [https://github.com/varwara/CVE-2024-35250](https://github.com/varwara/CVE-2024-35250) :  ![starts](https://img.shields.io/github/stars/varwara/CVE-2024-35250.svg) ![forks](https://img.shields.io/github/forks/varwara/CVE-2024-35250.svg)
 
 
-## CVE-2024-3656
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2024-26229
+ Windows CSC Service Elevation of Privilege Vulnerability
 
-- [https://github.com/h4x0r-dz/CVE-2024-3656](https://github.com/h4x0r-dz/CVE-2024-3656) :  ![starts](https://img.shields.io/github/stars/h4x0r-dz/CVE-2024-3656.svg) ![forks](https://img.shields.io/github/forks/h4x0r-dz/CVE-2024-3656.svg)
-
-
-## CVE-2023-52268
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/squ1dw3rm/CVE-2023-52268](https://github.com/squ1dw3rm/CVE-2023-52268) :  ![starts](https://img.shields.io/github/stars/squ1dw3rm/CVE-2023-52268.svg) ![forks](https://img.shields.io/github/forks/squ1dw3rm/CVE-2023-52268.svg)
+- [https://github.com/mqxmm/CVE-2024-26229](https://github.com/mqxmm/CVE-2024-26229) :  ![starts](https://img.shields.io/github/stars/mqxmm/CVE-2024-26229.svg) ![forks](https://img.shields.io/github/forks/mqxmm/CVE-2024-26229.svg)
 
 
-## CVE-2021-40539
- Zoho ManageEngine ADSelfService Plus version 6113 and prior is vulnerable to REST API authentication bypass with resultant remote code execution.
+## CVE-2022-26134
+ In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are from 1.3.0 before 7.4.17, from 7.13.0 before 7.13.7, from 7.14.0 before 7.14.3, from 7.15.0 before 7.15.2, from 7.16.0 before 7.16.4, from 7.17.0 before 7.17.4, and from 7.18.0 before 7.18.1.
 
-- [https://github.com/lpyydxs/CVE-2021-40539](https://github.com/lpyydxs/CVE-2021-40539) :  ![starts](https://img.shields.io/github/stars/lpyydxs/CVE-2021-40539.svg) ![forks](https://img.shields.io/github/forks/lpyydxs/CVE-2021-40539.svg)
-
-
-## CVE-2019-14287
- In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can bypass certain policy blacklists and session PAM modules, and can cause incorrect logging, by invoking sudo with a crafted user ID. For example, this allows bypass of !root configuration, and USER= logging, for a &quot;sudo -u \#$((0xffffffff))&quot; command.
-
-- [https://github.com/lemonadern/poc-cve-2019-14287](https://github.com/lemonadern/poc-cve-2019-14287) :  ![starts](https://img.shields.io/github/stars/lemonadern/poc-cve-2019-14287.svg) ![forks](https://img.shields.io/github/forks/lemonadern/poc-cve-2019-14287.svg)
+- [https://github.com/Agentgilspy/CVE-2022-26134](https://github.com/Agentgilspy/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/Agentgilspy/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/Agentgilspy/CVE-2022-26134.svg)
 
 
-## CVE-2016-5195
- Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allows local users to gain privileges by leveraging incorrect handling of a copy-on-write (COW) feature to write to a read-only memory mapping, as exploited in the wild in October 2016, aka &quot;Dirty COW.&quot;
+## CVE-2022-0944
+ Template injection in connection test endpoint leads to RCE in GitHub repository sqlpad/sqlpad prior to 6.10.1.
 
-- [https://github.com/talsim/root-dirtyc0w](https://github.com/talsim/root-dirtyc0w) :  ![starts](https://img.shields.io/github/stars/talsim/root-dirtyc0w.svg) ![forks](https://img.shields.io/github/forks/talsim/root-dirtyc0w.svg)
-- [https://github.com/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195](https://github.com/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195.svg)
+- [https://github.com/toneillcodes/poc-cve-2022-0944](https://github.com/toneillcodes/poc-cve-2022-0944) :  ![starts](https://img.shields.io/github/stars/toneillcodes/poc-cve-2022-0944.svg) ![forks](https://img.shields.io/github/forks/toneillcodes/poc-cve-2022-0944.svg)
 
 
-## CVE-2014-9137
- Huawei USG9500 with software V200R001C01SPC800 and earlier versions, V300R001C00; USG2100 with software V300R001C00SPC900 and earlier versions; USG2200 with software V300R001C00SPC900; USG5100 with software V300R001C00SPC900 could allow an unauthenticated, remote attacker to conduct a CSRF attack against the user of the web interface.
+## CVE-2020-15916
+ goform/AdvSetLanip endpoint on Tenda AC15 AC1900 15.03.05.19 devices allows remote attackers to execute arbitrary system commands via shell metacharacters in the lanIp POST parameter.
 
-- [https://github.com/jamaal001/CVE-2014-91371-Wordpress-](https://github.com/jamaal001/CVE-2014-91371-Wordpress-) :  ![starts](https://img.shields.io/github/stars/jamaal001/CVE-2014-91371-Wordpress-.svg) ![forks](https://img.shields.io/github/forks/jamaal001/CVE-2014-91371-Wordpress-.svg)
+- [https://github.com/geniuszlyy/CVE-2020-15916](https://github.com/geniuszlyy/CVE-2020-15916) :  ![starts](https://img.shields.io/github/stars/geniuszlyy/CVE-2020-15916.svg) ![forks](https://img.shields.io/github/forks/geniuszlyy/CVE-2020-15916.svg)
 
