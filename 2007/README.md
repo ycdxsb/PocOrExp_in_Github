@@ -113,11 +113,11 @@
 
 - [https://github.com/testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/testaross4/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/testaross4/CVE-2007-2447.svg)
 
+- [https://github.com/G01d3nW01f/CVE-2007-2447](https://github.com/G01d3nW01f/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2007-2447.svg)
+
 - [https://github.com/Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447) :  ![starts](https://img.shields.io/github/stars/Juantos/cve-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Juantos/cve-2007-2447.svg)
 
 - [https://github.com/cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/cherrera0001/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/cherrera0001/CVE-2007-2447.svg)
-
-- [https://github.com/G01d3nW01f/CVE-2007-2447](https://github.com/G01d3nW01f/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2007-2447.svg)
 
 - [https://github.com/0xTabun/CVE-2007-2447](https://github.com/0xTabun/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xTabun/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xTabun/CVE-2007-2447.svg)
 
@@ -140,13 +140,6 @@
 - [https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-) :  ![starts](https://img.shields.io/github/stars/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-.svg) ![forks](https://img.shields.io/github/forks/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-.svg)
 
 - [https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3) :  ![starts](https://img.shields.io/github/stars/WildfootW/CVE-2007-2447_Samba_3.0.25rc3.svg) ![forks](https://img.shields.io/github/forks/WildfootW/CVE-2007-2447_Samba_3.0.25rc3.svg)
-
-## CVE-2007-2426
- PHP remote file inclusion vulnerability in myfunctions/mygallerybrowser.php in the myGallery 1.4b4 and earlier plugin for WordPress allows remote attackers to execute arbitrary PHP code via a URL in the myPath parameter.
-
-
-
-- [https://github.com/goudunz1/CVE-2007-2426](https://github.com/goudunz1/CVE-2007-2426) :  ![starts](https://img.shields.io/github/stars/goudunz1/CVE-2007-2426.svg) ![forks](https://img.shields.io/github/forks/goudunz1/CVE-2007-2426.svg)
 
 ## CVE-2007-1858
  The default SSL cipher configuration in Apache Tomcat 4.1.28 through 4.1.31, 5.0.0 through 5.0.30, and 5.5.0 through 5.5.17 uses certain insecure ciphers, including the anonymous cipher, which allows remote attackers to obtain sensitive information or have other, unspecified impacts.
