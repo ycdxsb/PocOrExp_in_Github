@@ -80,6 +80,10 @@
 
 - [https://github.com/suedadam/ntpscanner](https://github.com/suedadam/ntpscanner) :  ![starts](https://img.shields.io/github/stars/suedadam/ntpscanner.svg) ![forks](https://img.shields.io/github/forks/suedadam/ntpscanner.svg)
 
+- [https://github.com/requiempentest/NTP_CVE-2013-5211](https://github.com/requiempentest/NTP_CVE-2013-5211) :  ![starts](https://img.shields.io/github/stars/requiempentest/NTP_CVE-2013-5211.svg) ![forks](https://img.shields.io/github/forks/requiempentest/NTP_CVE-2013-5211.svg)
+
+- [https://github.com/requiempentest/-exploit-check-CVE-2013-5211](https://github.com/requiempentest/-exploit-check-CVE-2013-5211) :  ![starts](https://img.shields.io/github/stars/requiempentest/-exploit-check-CVE-2013-5211.svg) ![forks](https://img.shields.io/github/forks/requiempentest/-exploit-check-CVE-2013-5211.svg)
+
 ## CVE-2013-5065
  NDProxy.sys in the kernel in Microsoft Windows XP SP2 and SP3 and Server 2003 SP2 allows local users to gain privileges via a crafted application, as exploited in the wild in November 2013.
 
@@ -445,6 +449,8 @@
 
 - [https://github.com/heroku/heroku-CVE-2013-0269](https://github.com/heroku/heroku-CVE-2013-0269) :  ![starts](https://img.shields.io/github/stars/heroku/heroku-CVE-2013-0269.svg) ![forks](https://img.shields.io/github/forks/heroku/heroku-CVE-2013-0269.svg)
 
+- [https://github.com/danring/heroku-CVE-2013-0269](https://github.com/danring/heroku-CVE-2013-0269) :  ![starts](https://img.shields.io/github/stars/danring/heroku-CVE-2013-0269.svg) ![forks](https://img.shields.io/github/forks/danring/heroku-CVE-2013-0269.svg)
+
 ## CVE-2013-0230
  Stack-based buffer overflow in the ExecuteSoapAction function in the SOAPAction handler in the HTTP service in MiniUPnP MiniUPnPd 1.0 allows remote attackers to execute arbitrary code via a long quoted method.
 
@@ -473,11 +479,11 @@
 
 - [https://github.com/bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156) :  ![starts](https://img.shields.io/github/stars/bsodmike/rails-exploit-cve-2013-0156.svg) ![forks](https://img.shields.io/github/forks/bsodmike/rails-exploit-cve-2013-0156.svg)
 
-- [https://github.com/heroku/heroku-CVE-2013-0156](https://github.com/heroku/heroku-CVE-2013-0156) :  ![starts](https://img.shields.io/github/stars/heroku/heroku-CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/heroku/heroku-CVE-2013-0156.svg)
-
 - [https://github.com/Jjdt12/kuang_grade_mk11](https://github.com/Jjdt12/kuang_grade_mk11) :  ![starts](https://img.shields.io/github/stars/Jjdt12/kuang_grade_mk11.svg) ![forks](https://img.shields.io/github/forks/Jjdt12/kuang_grade_mk11.svg)
 
 - [https://github.com/R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156) :  ![starts](https://img.shields.io/github/stars/R3dKn33-zz/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/R3dKn33-zz/CVE-2013-0156.svg)
+
+- [https://github.com/heroku/heroku-CVE-2013-0156](https://github.com/heroku/heroku-CVE-2013-0156) :  ![starts](https://img.shields.io/github/stars/heroku/heroku-CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/heroku/heroku-CVE-2013-0156.svg)
 
 - [https://github.com/mitaku/rails_cve_2013_0156_patch](https://github.com/mitaku/rails_cve_2013_0156_patch) :  ![starts](https://img.shields.io/github/stars/mitaku/rails_cve_2013_0156_patch.svg) ![forks](https://img.shields.io/github/forks/mitaku/rails_cve_2013_0156_patch.svg)
 
