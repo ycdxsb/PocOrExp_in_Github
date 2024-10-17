@@ -1,72 +1,97 @@
-# Update 2024-10-16
+# Update 2024-10-17
+## CVE-2024-38816
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/Galaxy-system/cve-2024-38816](https://github.com/Galaxy-system/cve-2024-38816) :  ![starts](https://img.shields.io/github/stars/Galaxy-system/cve-2024-38816.svg) ![forks](https://img.shields.io/github/forks/Galaxy-system/cve-2024-38816.svg)
+
+
 ## CVE-2024-38063
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/idkwastaken/CVE-2024-38063](https://github.com/idkwastaken/CVE-2024-38063) :  ![starts](https://img.shields.io/github/stars/idkwastaken/CVE-2024-38063.svg) ![forks](https://img.shields.io/github/forks/idkwastaken/CVE-2024-38063.svg)
+- [https://github.com/thanawee321/CVE-2024-38063](https://github.com/thanawee321/CVE-2024-38063) :  ![starts](https://img.shields.io/github/stars/thanawee321/CVE-2024-38063.svg) ![forks](https://img.shields.io/github/forks/thanawee321/CVE-2024-38063.svg)
 
 
-## CVE-2024-36401
+## CVE-2024-37084
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/kkhackz0013/CVE-2024-36401](https://github.com/kkhackz0013/CVE-2024-36401) :  ![starts](https://img.shields.io/github/stars/kkhackz0013/CVE-2024-36401.svg) ![forks](https://img.shields.io/github/forks/kkhackz0013/CVE-2024-36401.svg)
+- [https://github.com/Ly4j/CVE-2024-37084-Exp](https://github.com/Ly4j/CVE-2024-37084-Exp) :  ![starts](https://img.shields.io/github/stars/Ly4j/CVE-2024-37084-Exp.svg) ![forks](https://img.shields.io/github/forks/Ly4j/CVE-2024-37084-Exp.svg)
+- [https://github.com/A0be/CVE-2024-37084-Exp](https://github.com/A0be/CVE-2024-37084-Exp) :  ![starts](https://img.shields.io/github/stars/A0be/CVE-2024-37084-Exp.svg) ![forks](https://img.shields.io/github/forks/A0be/CVE-2024-37084-Exp.svg)
 
 
-## CVE-2024-35584
+## CVE-2024-36842
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/whwhwh96/CVE-2024-35584](https://github.com/whwhwh96/CVE-2024-35584) :  ![starts](https://img.shields.io/github/stars/whwhwh96/CVE-2024-35584.svg) ![forks](https://img.shields.io/github/forks/whwhwh96/CVE-2024-35584.svg)
+- [https://github.com/abbiy/CVE-2024-36842-Backdooring-Oncord-Android-Sterio-](https://github.com/abbiy/CVE-2024-36842-Backdooring-Oncord-Android-Sterio-) :  ![starts](https://img.shields.io/github/stars/abbiy/CVE-2024-36842-Backdooring-Oncord-Android-Sterio-.svg) ![forks](https://img.shields.io/github/forks/abbiy/CVE-2024-36842-Backdooring-Oncord-Android-Sterio-.svg)
 
 
-## CVE-2024-27198
- In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
+## CVE-2024-24686
+ Multiple stack-based buffer overflow vulnerabilities exist in the readOFF functionality of libigl v2.5.0. A specially crafted .off file can lead to stack-based buffer overflow. An attacker can provide a malicious file to trigger this vulnerability.This vulnerability concerns the parsing of comments within the faces section of an `.off` file processed via the `readOFF` function.
 
-- [https://github.com/Cythonic1/CVE-2024-27198_POC](https://github.com/Cythonic1/CVE-2024-27198_POC) :  ![starts](https://img.shields.io/github/stars/Cythonic1/CVE-2024-27198_POC.svg) ![forks](https://img.shields.io/github/forks/Cythonic1/CVE-2024-27198_POC.svg)
-
-
-## CVE-2024-4577
- In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use &quot;Best-Fit&quot; behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
-
-- [https://github.com/longhoangth18/CVE-2024-4577](https://github.com/longhoangth18/CVE-2024-4577) :  ![starts](https://img.shields.io/github/stars/longhoangth18/CVE-2024-4577.svg) ![forks](https://img.shields.io/github/forks/longhoangth18/CVE-2024-4577.svg)
+- [https://github.com/SpiralBL0CK/CVE-2024-24686](https://github.com/SpiralBL0CK/CVE-2024-24686) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/CVE-2024-24686.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/CVE-2024-24686.svg)
 
 
-## CVE-2024-4406
- Xiaomi Pro 13 GetApps integral-dialog-page Cross-Site Scripting Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Xiaomi Pro 13 smartphones. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the integral-dialog-page.html file. When parsing the integralInfo parameter, the process does not properly sanitize user-supplied data, which can lead to the injection of an arbitrary script. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-22332.
+## CVE-2024-24685
+ Multiple stack-based buffer overflow vulnerabilities exist in the readOFF functionality of libigl v2.5.0. A specially crafted .off file can lead to stack-based buffer overflow. An attacker can provide a malicious file to trigger this vulnerability.This vulnerability concerns the parsing of comments within the vertex section of an `.off` file processed via the `readOFF` function.
 
-- [https://github.com/Yogehi/cve-2024-4406-xiaomi13pro-exploit-files](https://github.com/Yogehi/cve-2024-4406-xiaomi13pro-exploit-files) :  ![starts](https://img.shields.io/github/stars/Yogehi/cve-2024-4406-xiaomi13pro-exploit-files.svg) ![forks](https://img.shields.io/github/forks/Yogehi/cve-2024-4406-xiaomi13pro-exploit-files.svg)
-
-
-## CVE-2024-1698
- The NotificationX &#8211; Best FOMO, Social Proof, WooCommerce Sales Popup &amp; Notification Bar Plugin With Elementor plugin for WordPress is vulnerable to SQL Injection via the 'type' parameter in all versions up to, and including, 2.8.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
-
-- [https://github.com/shanglyu/CVE-2024-1698](https://github.com/shanglyu/CVE-2024-1698) :  ![starts](https://img.shields.io/github/stars/shanglyu/CVE-2024-1698.svg) ![forks](https://img.shields.io/github/forks/shanglyu/CVE-2024-1698.svg)
+- [https://github.com/SpiralBL0CK/CVE-2024-24685](https://github.com/SpiralBL0CK/CVE-2024-24685) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/CVE-2024-24685.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/CVE-2024-24685.svg)
 
 
-## CVE-2023-51467
- The vulnerability permits attackers to circumvent authentication processes, enabling them to remotely execute arbitrary code
+## CVE-2024-24684
+ Multiple stack-based buffer overflow vulnerabilities exist in the readOFF functionality of libigl v2.5.0. A specially crafted .off file can lead to stack-based buffer overflow. An attacker can provide a malicious file to trigger this vulnerability.This vulnerability concerns the header parsing occuring while processing an `.off` file via the `readOFF` function. We can see above that at [0] a stack-based buffer called `comment` is defined with an hardcoded size of `1000 bytes`. The call to `fscanf` at [1] is unsafe and if the first line of the header of the `.off` files is longer than 1000 bytes it will overflow the `header` buffer.
 
-- [https://github.com/2ptr/BadBizness-CVE-2023-51467](https://github.com/2ptr/BadBizness-CVE-2023-51467) :  ![starts](https://img.shields.io/github/stars/2ptr/BadBizness-CVE-2023-51467.svg) ![forks](https://img.shields.io/github/forks/2ptr/BadBizness-CVE-2023-51467.svg)
-
-
-## CVE-2023-1488
- A vulnerability, which was classified as problematic, was found in Lespeed WiseCleaner Wise System Monitor 1.5.3.54. Affected is the function 0x9C40A0D8/0x9C40A0DC/0x9C40A0E0 in the library WiseHDInfo64.dll of the component IoControlCode Handler. The manipulation leads to denial of service. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used. VDB-223374 is the identifier assigned to this vulnerability.
-
-- [https://github.com/bxtshit/CVE-2023-1488](https://github.com/bxtshit/CVE-2023-1488) :  ![starts](https://img.shields.io/github/stars/bxtshit/CVE-2023-1488.svg) ![forks](https://img.shields.io/github/forks/bxtshit/CVE-2023-1488.svg)
+- [https://github.com/SpiralBL0CK/CVE-2024-24684](https://github.com/SpiralBL0CK/CVE-2024-24684) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/CVE-2024-24684.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/CVE-2024-24684.svg)
 
 
-## CVE-2022-0944
- Template injection in connection test endpoint leads to RCE in GitHub repository sqlpad/sqlpad prior to 6.10.1.
+## CVE-2024-4433
+ Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Mr Digital Simple Image Popup allows Stored XSS.This issue affects Simple Image Popup: from n/a through 2.4.0.
 
-- [https://github.com/toneillcodes/CVE-2022-0944](https://github.com/toneillcodes/CVE-2022-0944) :  ![starts](https://img.shields.io/github/stars/toneillcodes/CVE-2022-0944.svg) ![forks](https://img.shields.io/github/forks/toneillcodes/CVE-2022-0944.svg)
-
-
-## CVE-2020-3992
- OpenSLP as used in VMware ESXi (7.0 before ESXi_7.0.1-0.0.16850804, 6.7 before ESXi670-202010401-SG, 6.5 before ESXi650-202010401-SG) has a use-after-free issue. A malicious actor residing in the management network who has access to port 427 on an ESXi machine may be able to trigger a use-after-free in the OpenSLP service resulting in remote code execution.
-
-- [https://github.com/vpxuser/VMware-ESXI-OpenSLP-Exploit](https://github.com/vpxuser/VMware-ESXI-OpenSLP-Exploit) :  ![starts](https://img.shields.io/github/stars/vpxuser/VMware-ESXI-OpenSLP-Exploit.svg) ![forks](https://img.shields.io/github/forks/vpxuser/VMware-ESXI-OpenSLP-Exploit.svg)
+- [https://github.com/Brinmon/CVE-2024-44337](https://github.com/Brinmon/CVE-2024-44337) :  ![starts](https://img.shields.io/github/stars/Brinmon/CVE-2024-44337.svg) ![forks](https://img.shields.io/github/forks/Brinmon/CVE-2024-44337.svg)
 
 
-## CVE-2019-5544
- OpenSLP as used in ESXi and the Horizon DaaS appliances has a heap overwrite issue. VMware has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8.
+## CVE-2023-50564
+ An arbitrary file upload vulnerability in the component /inc/modules_install.php of Pluck-CMS v4.7.18 allows attackers to execute arbitrary code via uploading a crafted ZIP file.
 
-- [https://github.com/vpxuser/VMware-ESXI-OpenSLP-Exploit](https://github.com/vpxuser/VMware-ESXI-OpenSLP-Exploit) :  ![starts](https://img.shields.io/github/stars/vpxuser/VMware-ESXI-OpenSLP-Exploit.svg) ![forks](https://img.shields.io/github/forks/vpxuser/VMware-ESXI-OpenSLP-Exploit.svg)
+- [https://github.com/Mrterrestrial/CVE-2023-50564](https://github.com/Mrterrestrial/CVE-2023-50564) :  ![starts](https://img.shields.io/github/stars/Mrterrestrial/CVE-2023-50564.svg) ![forks](https://img.shields.io/github/forks/Mrterrestrial/CVE-2023-50564.svg)
+
+
+## CVE-2023-38831
+ RARLAB WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.
+
+- [https://github.com/idkwastaken/CVE-2023-38831](https://github.com/idkwastaken/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/idkwastaken/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/idkwastaken/CVE-2023-38831.svg)
+
+
+## CVE-2023-35674
+ In onCreate of WindowState.java, there is a possible way to launch a background activity due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+
+- [https://github.com/SpiralBL0CK/Guide-and-theoretical-code-for-CVE-2023-35674](https://github.com/SpiralBL0CK/Guide-and-theoretical-code-for-CVE-2023-35674) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/Guide-and-theoretical-code-for-CVE-2023-35674.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/Guide-and-theoretical-code-for-CVE-2023-35674.svg)
+
+
+## CVE-2023-32560
+ An attacker can send a specially crafted message to the Wavelink Avalanche Manager, which could result in service disruption or arbitrary code execution. Thanks to a Researcher at Tenable for finding and reporting. Fixed in version 6.4.1.
+
+- [https://github.com/idkwastaken/CVE-2023-32560](https://github.com/idkwastaken/CVE-2023-32560) :  ![starts](https://img.shields.io/github/stars/idkwastaken/CVE-2023-32560.svg) ![forks](https://img.shields.io/github/forks/idkwastaken/CVE-2023-32560.svg)
+
+
+## CVE-2023-25581
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+
+- [https://github.com/p33d/CVE-2023-25581](https://github.com/p33d/CVE-2023-25581) :  ![starts](https://img.shields.io/github/stars/p33d/CVE-2023-25581.svg) ![forks](https://img.shields.io/github/forks/p33d/CVE-2023-25581.svg)
+
+
+## CVE-2022-24439
+ All versions of package gitpython are vulnerable to Remote Code Execution (RCE) due to improper user input validation, which makes it possible to inject a maliciously crafted remote URL into the clone command. Exploiting this vulnerability is possible because the library makes external calls to git without sufficient sanitization of input arguments.
+
+- [https://github.com/muhammadhendro/CVE-2022-24439](https://github.com/muhammadhendro/CVE-2022-24439) :  ![starts](https://img.shields.io/github/stars/muhammadhendro/CVE-2022-24439.svg) ![forks](https://img.shields.io/github/forks/muhammadhendro/CVE-2022-24439.svg)
+
+
+## CVE-2022-1015
+ A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of the netfilter subsystem. This flaw allows a local user to cause an out-of-bounds write issue.
+
+- [https://github.com/hoanghailongvn/CVE-2022-1015](https://github.com/hoanghailongvn/CVE-2022-1015) :  ![starts](https://img.shields.io/github/stars/hoanghailongvn/CVE-2022-1015.svg) ![forks](https://img.shields.io/github/forks/hoanghailongvn/CVE-2022-1015.svg)
+
+
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+
+- [https://github.com/nwclasantha/Apache_2.4.29_Exploit](https://github.com/nwclasantha/Apache_2.4.29_Exploit) :  ![starts](https://img.shields.io/github/stars/nwclasantha/Apache_2.4.29_Exploit.svg) ![forks](https://img.shields.io/github/forks/nwclasantha/Apache_2.4.29_Exploit.svg)
 
