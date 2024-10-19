@@ -1,56 +1,57 @@
-# Update 2024-10-18
-## CVE-2024-23113
- A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
+# Update 2024-10-19
+## CVE-2024-30090
+ Microsoft Streaming Service Elevation of Privilege Vulnerability
 
-- [https://github.com/HazeLook/CVE-2024-23113](https://github.com/HazeLook/CVE-2024-23113) :  ![starts](https://img.shields.io/github/stars/HazeLook/CVE-2024-23113.svg) ![forks](https://img.shields.io/github/forks/HazeLook/CVE-2024-23113.svg)
-- [https://github.com/maybelookis/CVE-2024-23113](https://github.com/maybelookis/CVE-2024-23113) :  ![starts](https://img.shields.io/github/stars/maybelookis/CVE-2024-23113.svg) ![forks](https://img.shields.io/github/forks/maybelookis/CVE-2024-23113.svg)
-
-
-## CVE-2024-4071
- A vulnerability was found in Kashipara Online Furniture Shopping Ecommerce Website 1.0 and classified as critical. This issue affects some unknown processing of the file prodInfo.php. The manipulation of the argument prodId leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-261797 was assigned to this vulnerability.
-
-- [https://github.com/realstatus/CVE-2024-40711-Exp](https://github.com/realstatus/CVE-2024-40711-Exp) :  ![starts](https://img.shields.io/github/stars/realstatus/CVE-2024-40711-Exp.svg) ![forks](https://img.shields.io/github/forks/realstatus/CVE-2024-40711-Exp.svg)
+- [https://github.com/Dor00tkit/CVE-2024-30090](https://github.com/Dor00tkit/CVE-2024-30090) :  ![starts](https://img.shields.io/github/stars/Dor00tkit/CVE-2024-30090.svg) ![forks](https://img.shields.io/github/forks/Dor00tkit/CVE-2024-30090.svg)
 
 
-## CVE-2024-1709
- ConnectWise ScreenConnect 23.9.7 and prior are affected by an Authentication Bypass Using an Alternate Path or Channel vulnerability, which may allow an attacker direct access to confidential information or critical systems.
+## CVE-2024-28987
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/AMRICHASFUCK/Mass-CVE-2024-1709](https://github.com/AMRICHASFUCK/Mass-CVE-2024-1709) :  ![starts](https://img.shields.io/github/stars/AMRICHASFUCK/Mass-CVE-2024-1709.svg) ![forks](https://img.shields.io/github/forks/AMRICHASFUCK/Mass-CVE-2024-1709.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit](https://github.com/IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit) :  ![starts](https://img.shields.io/github/stars/IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit.svg) ![forks](https://img.shields.io/github/forks/IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit.svg)
+- [https://github.com/HazeLook/CVE-2024-28987](https://github.com/HazeLook/CVE-2024-28987) :  ![starts](https://img.shields.io/github/stars/HazeLook/CVE-2024-28987.svg) ![forks](https://img.shields.io/github/forks/HazeLook/CVE-2024-28987.svg)
 
 
-## CVE-2021-40539
- Zoho ManageEngine ADSelfService Plus version 6113 and prior is vulnerable to REST API authentication bypass with resultant remote code execution.
+## CVE-2024-5836
+ Inappropriate Implementation in DevTools in Google Chrome prior to 126.0.6478.54 allowed an attacker who convinced a user to install a malicious extension to execute arbitrary code via a crafted Chrome Extension. (Chromium security severity: High)
 
-- [https://github.com/Bu0uCat/ADSelfService-Plus-RCE-CVE-2021-40539](https://github.com/Bu0uCat/ADSelfService-Plus-RCE-CVE-2021-40539) :  ![starts](https://img.shields.io/github/stars/Bu0uCat/ADSelfService-Plus-RCE-CVE-2021-40539.svg) ![forks](https://img.shields.io/github/forks/Bu0uCat/ADSelfService-Plus-RCE-CVE-2021-40539.svg)
-
-
-## CVE-2013-5211
- The monlist feature in ntp_request.c in ntpd in NTP before 4.2.7p26 allows remote attackers to cause a denial of service (traffic amplification) via forged (1) REQ_MON_GETLIST or (2) REQ_MON_GETLIST_1 requests, as exploited in the wild in December 2013.
-
-- [https://github.com/requiempentest/NTP_CVE-2013-5211](https://github.com/requiempentest/NTP_CVE-2013-5211) :  ![starts](https://img.shields.io/github/stars/requiempentest/NTP_CVE-2013-5211.svg) ![forks](https://img.shields.io/github/forks/requiempentest/NTP_CVE-2013-5211.svg)
-- [https://github.com/requiempentest/-exploit-check-CVE-2013-5211](https://github.com/requiempentest/-exploit-check-CVE-2013-5211) :  ![starts](https://img.shields.io/github/stars/requiempentest/-exploit-check-CVE-2013-5211.svg) ![forks](https://img.shields.io/github/forks/requiempentest/-exploit-check-CVE-2013-5211.svg)
+- [https://github.com/ading2210/CVE-2024-6778-POC](https://github.com/ading2210/CVE-2024-6778-POC) :  ![starts](https://img.shields.io/github/stars/ading2210/CVE-2024-6778-POC.svg) ![forks](https://img.shields.io/github/forks/ading2210/CVE-2024-6778-POC.svg)
 
 
-## CVE-2013-0269
- The JSON gem before 1.5.5, 1.6.x before 1.6.8, and 1.7.x before 1.7.7 for Ruby allows remote attackers to cause a denial of service (resource consumption) or bypass the mass assignment protection mechanism via a crafted JSON document that triggers the creation of arbitrary Ruby symbols or certain internal objects, as demonstrated by conducting a SQL injection attack against Ruby on Rails, aka &quot;Unsafe Object Creation Vulnerability.&quot;
+## CVE-2024-4717
+ A vulnerability was found in Campcodes Complete Web-Based School Management System 1.0 and classified as problematic. This issue affects some unknown processing of the file /model/update_classroom.php. The manipulation of the argument name leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-263795.
 
-- [https://github.com/danring/heroku-CVE-2013-0269](https://github.com/danring/heroku-CVE-2013-0269) :  ![starts](https://img.shields.io/github/stars/danring/heroku-CVE-2013-0269.svg) ![forks](https://img.shields.io/github/forks/danring/heroku-CVE-2013-0269.svg)
-
-
-## CVE-2010-2075
- UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 through June 2010, contains an externally introduced modification (Trojan Horse) in the DEBUG3_DOLOG_SYSTEM macro, which allows remote attackers to execute arbitrary commands.
-
-- [https://github.com/nwclasantha/unreal_ircd_3281_backdoor_and_mitigation](https://github.com/nwclasantha/unreal_ircd_3281_backdoor_and_mitigation) :  ![starts](https://img.shields.io/github/stars/nwclasantha/unreal_ircd_3281_backdoor_and_mitigation.svg) ![forks](https://img.shields.io/github/forks/nwclasantha/unreal_ircd_3281_backdoor_and_mitigation.svg)
+- [https://github.com/gianlu111/CUPS-CVE-2024-47176](https://github.com/gianlu111/CUPS-CVE-2024-47176) :  ![starts](https://img.shields.io/github/stars/gianlu111/CUPS-CVE-2024-47176.svg) ![forks](https://img.shields.io/github/forks/gianlu111/CUPS-CVE-2024-47176.svg)
 
 
-## CVE-2001-1473
- The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
+## CVE-2024-4067
+ The NPM package `micromatch` is vulnerable to Regular Expression Denial of Service (ReDoS). The vulnerability occurs in `micromatch.braces()` in `index.js` because the pattern `.*` will greedily match anything. By passing a malicious payload, the pattern matching will keep backtracking to the input while it doesn't find the closing bracket. As the input size increases, the consumption time will also increase until it causes the application to hang or slow down. There was a merged fix but further testing shows the issue persists. This issue should be mitigated by using a safe pattern that won't start backtracking the regular expression due to greedy matching.
 
-- [https://github.com/p1ton3rr/poc-cve-2001-1473](https://github.com/p1ton3rr/poc-cve-2001-1473) :  ![starts](https://img.shields.io/github/stars/p1ton3rr/poc-cve-2001-1473.svg) ![forks](https://img.shields.io/github/forks/p1ton3rr/poc-cve-2001-1473.svg)
+- [https://github.com/Aakashmom/intent_CVE-2024-40675](https://github.com/Aakashmom/intent_CVE-2024-40675) :  ![starts](https://img.shields.io/github/stars/Aakashmom/intent_CVE-2024-40675.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/intent_CVE-2024-40675.svg)
+- [https://github.com/Aakashmom/accounts_CVE-2024-40676-](https://github.com/Aakashmom/accounts_CVE-2024-40676-) :  ![starts](https://img.shields.io/github/stars/Aakashmom/accounts_CVE-2024-40676-.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/accounts_CVE-2024-40676-.svg)
+- [https://github.com/Aakashmom/frameworks_base_accounts_CVE-2024-40676](https://github.com/Aakashmom/frameworks_base_accounts_CVE-2024-40676) :  ![starts](https://img.shields.io/github/stars/Aakashmom/frameworks_base_accounts_CVE-2024-40676.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/frameworks_base_accounts_CVE-2024-40676.svg)
+- [https://github.com/Aakashmom/G3_libcore_native_CVE-2024-40673](https://github.com/Aakashmom/G3_libcore_native_CVE-2024-40673) :  ![starts](https://img.shields.io/github/stars/Aakashmom/G3_libcore_native_CVE-2024-40673.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/G3_libcore_native_CVE-2024-40673.svg)
+
+
+## CVE-2024-4066
+ A vulnerability classified as critical has been found in Tenda AC8 16.03.34.09. Affected is the function fromAdvSetMacMtuWan of the file /goform/AdvSetMacMtuWan. The manipulation of the argument wanMTU/wanSpeed/cloneType/mac/serviceName/serverName leads to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-261792. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+
+- [https://github.com/Aakashmom/net_G2.5_CVE-2024-40662](https://github.com/Aakashmom/net_G2.5_CVE-2024-40662) :  ![starts](https://img.shields.io/github/stars/Aakashmom/net_G2.5_CVE-2024-40662.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/net_G2.5_CVE-2024-40662.svg)
+
+
+## CVE-2023-38408
+ The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Code in /usr/lib is not necessarily safe for loading into ssh-agent.) NOTE: this issue exists because of an incomplete fix for CVE-2016-10009.
+
+- [https://github.com/fazilbaig1/cve_2023_38408_scanner](https://github.com/fazilbaig1/cve_2023_38408_scanner) :  ![starts](https://img.shields.io/github/stars/fazilbaig1/cve_2023_38408_scanner.svg) ![forks](https://img.shields.io/github/forks/fazilbaig1/cve_2023_38408_scanner.svg)
+
+
+## CVE-2023-22098
+ Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). Supported versions that are affected are Prior to 7.0.12. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. Note: Only applicable to 7.0.x platform. CVSS 3.1 Base Score 8.2 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H).
+
+- [https://github.com/Diego-AltF4/CVE-2023-22098](https://github.com/Diego-AltF4/CVE-2023-22098) :  ![starts](https://img.shields.io/github/stars/Diego-AltF4/CVE-2023-22098.svg) ![forks](https://img.shields.io/github/forks/Diego-AltF4/CVE-2023-22098.svg)
+
+
+## CVE-2022-26809
+ Remote Procedure Call Runtime Remote Code Execution Vulnerability
+
+- [https://github.com/quijadajose/CVE-2022-26809-RCE](https://github.com/quijadajose/CVE-2022-26809-RCE) :  ![starts](https://img.shields.io/github/stars/quijadajose/CVE-2022-26809-RCE.svg) ![forks](https://img.shields.io/github/forks/quijadajose/CVE-2022-26809-RCE.svg)
 
