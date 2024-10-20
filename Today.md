@@ -1,57 +1,54 @@
-# Update 2024-10-19
-## CVE-2024-30090
- Microsoft Streaming Service Elevation of Privilege Vulnerability
-
-- [https://github.com/Dor00tkit/CVE-2024-30090](https://github.com/Dor00tkit/CVE-2024-30090) :  ![starts](https://img.shields.io/github/stars/Dor00tkit/CVE-2024-30090.svg) ![forks](https://img.shields.io/github/forks/Dor00tkit/CVE-2024-30090.svg)
-
-
-## CVE-2024-28987
+# Update 2024-10-20
+## CVE-2024-33231
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/HazeLook/CVE-2024-28987](https://github.com/HazeLook/CVE-2024-28987) :  ![starts](https://img.shields.io/github/stars/HazeLook/CVE-2024-28987.svg) ![forks](https://img.shields.io/github/forks/HazeLook/CVE-2024-28987.svg)
+- [https://github.com/fdzdev/CVE-2024-33231](https://github.com/fdzdev/CVE-2024-33231) :  ![starts](https://img.shields.io/github/stars/fdzdev/CVE-2024-33231.svg) ![forks](https://img.shields.io/github/forks/fdzdev/CVE-2024-33231.svg)
 
 
-## CVE-2024-5836
- Inappropriate Implementation in DevTools in Google Chrome prior to 126.0.6478.54 allowed an attacker who convinced a user to install a malicious extension to execute arbitrary code via a crafted Chrome Extension. (Chromium security severity: High)
+## CVE-2024-4864
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/ading2210/CVE-2024-6778-POC](https://github.com/ading2210/CVE-2024-6778-POC) :  ![starts](https://img.shields.io/github/stars/ading2210/CVE-2024-6778-POC.svg) ![forks](https://img.shields.io/github/forks/ading2210/CVE-2024-6778-POC.svg)
-
-
-## CVE-2024-4717
- A vulnerability was found in Campcodes Complete Web-Based School Management System 1.0 and classified as problematic. This issue affects some unknown processing of the file /model/update_classroom.php. The manipulation of the argument name leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-263795.
-
-- [https://github.com/gianlu111/CUPS-CVE-2024-47176](https://github.com/gianlu111/CUPS-CVE-2024-47176) :  ![starts](https://img.shields.io/github/stars/gianlu111/CUPS-CVE-2024-47176.svg) ![forks](https://img.shields.io/github/forks/gianlu111/CUPS-CVE-2024-47176.svg)
+- [https://github.com/rosembergpro/CVE-2024-48644](https://github.com/rosembergpro/CVE-2024-48644) :  ![starts](https://img.shields.io/github/stars/rosembergpro/CVE-2024-48644.svg) ![forks](https://img.shields.io/github/forks/rosembergpro/CVE-2024-48644.svg)
 
 
-## CVE-2024-4067
- The NPM package `micromatch` is vulnerable to Regular Expression Denial of Service (ReDoS). The vulnerability occurs in `micromatch.braces()` in `index.js` because the pattern `.*` will greedily match anything. By passing a malicious payload, the pattern matching will keep backtracking to the input while it doesn't find the closing bracket. As the input size increases, the consumption time will also increase until it causes the application to hang or slow down. There was a merged fix but further testing shows the issue persists. This issue should be mitigated by using a safe pattern that won't start backtracking the regular expression due to greedy matching.
+## CVE-2024-4648
+ A vulnerability was found in Campcodes Complete Web-Based School Management System 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /view/student_exam_mark_update_form.php. The manipulation of the argument std_index leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-263492.
 
-- [https://github.com/Aakashmom/intent_CVE-2024-40675](https://github.com/Aakashmom/intent_CVE-2024-40675) :  ![starts](https://img.shields.io/github/stars/Aakashmom/intent_CVE-2024-40675.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/intent_CVE-2024-40675.svg)
-- [https://github.com/Aakashmom/accounts_CVE-2024-40676-](https://github.com/Aakashmom/accounts_CVE-2024-40676-) :  ![starts](https://img.shields.io/github/stars/Aakashmom/accounts_CVE-2024-40676-.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/accounts_CVE-2024-40676-.svg)
-- [https://github.com/Aakashmom/frameworks_base_accounts_CVE-2024-40676](https://github.com/Aakashmom/frameworks_base_accounts_CVE-2024-40676) :  ![starts](https://img.shields.io/github/stars/Aakashmom/frameworks_base_accounts_CVE-2024-40676.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/frameworks_base_accounts_CVE-2024-40676.svg)
-- [https://github.com/Aakashmom/G3_libcore_native_CVE-2024-40673](https://github.com/Aakashmom/G3_libcore_native_CVE-2024-40673) :  ![starts](https://img.shields.io/github/stars/Aakashmom/G3_libcore_native_CVE-2024-40673.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/G3_libcore_native_CVE-2024-40673.svg)
+- [https://github.com/kn32/cve-2024-46483](https://github.com/kn32/cve-2024-46483) :  ![starts](https://img.shields.io/github/stars/kn32/cve-2024-46483.svg) ![forks](https://img.shields.io/github/forks/kn32/cve-2024-46483.svg)
 
 
-## CVE-2024-4066
- A vulnerability classified as critical has been found in Tenda AC8 16.03.34.09. Affected is the function fromAdvSetMacMtuWan of the file /goform/AdvSetMacMtuWan. The manipulation of the argument wanMTU/wanSpeed/cloneType/mac/serviceName/serverName leads to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-261792. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+## CVE-2024-4396
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/Aakashmom/net_G2.5_CVE-2024-40662](https://github.com/Aakashmom/net_G2.5_CVE-2024-40662) :  ![starts](https://img.shields.io/github/stars/Aakashmom/net_G2.5_CVE-2024-40662.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/net_G2.5_CVE-2024-40662.svg)
-
-
-## CVE-2023-38408
- The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Code in /usr/lib is not necessarily safe for loading into ssh-agent.) NOTE: this issue exists because of an incomplete fix for CVE-2016-10009.
-
-- [https://github.com/fazilbaig1/cve_2023_38408_scanner](https://github.com/fazilbaig1/cve_2023_38408_scanner) :  ![starts](https://img.shields.io/github/stars/fazilbaig1/cve_2023_38408_scanner.svg) ![forks](https://img.shields.io/github/forks/fazilbaig1/cve_2023_38408_scanner.svg)
+- [https://github.com/RandomRobbieBF/CVE-2024-43965](https://github.com/RandomRobbieBF/CVE-2024-43965) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-43965.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-43965.svg)
 
 
-## CVE-2023-22098
- Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). Supported versions that are affected are Prior to 7.0.12. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. Note: Only applicable to 7.0.x platform. CVSS 3.1 Base Score 8.2 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H).
+## CVE-2022-1015
+ A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of the netfilter subsystem. This flaw allows a local user to cause an out-of-bounds write issue.
 
-- [https://github.com/Diego-AltF4/CVE-2023-22098](https://github.com/Diego-AltF4/CVE-2023-22098) :  ![starts](https://img.shields.io/github/stars/Diego-AltF4/CVE-2023-22098.svg) ![forks](https://img.shields.io/github/forks/Diego-AltF4/CVE-2023-22098.svg)
+- [https://github.com/seadragnol/CVE-2022-1015](https://github.com/seadragnol/CVE-2022-1015) :  ![starts](https://img.shields.io/github/stars/seadragnol/CVE-2022-1015.svg) ![forks](https://img.shields.io/github/forks/seadragnol/CVE-2022-1015.svg)
 
 
-## CVE-2022-26809
- Remote Procedure Call Runtime Remote Code Execution Vulnerability
+## CVE-2020-35575
+ A password-disclosure issue in the web interface on certain TP-Link devices allows a remote attacker to get full administrative access to the web panel. This affects WA901ND devices before 3.16.9(201211) beta, and Archer C5, Archer C7, MR3420, MR6400, WA701ND, WA801ND, WDR3500, WDR3600, WE843N, WR1043ND, WR1045ND, WR740N, WR741ND, WR749N, WR802N, WR840N, WR841HP, WR841N, WR842N, WR842ND, WR845N, WR940N, WR941HP, WR945N, WR949N, and WRD4300 devices.
 
-- [https://github.com/quijadajose/CVE-2022-26809-RCE](https://github.com/quijadajose/CVE-2022-26809-RCE) :  ![starts](https://img.shields.io/github/stars/quijadajose/CVE-2022-26809-RCE.svg) ![forks](https://img.shields.io/github/forks/quijadajose/CVE-2022-26809-RCE.svg)
+- [https://github.com/dylvie/CVE-2020-35575-TP-LINK-TL-WR841ND-password-disclosure](https://github.com/dylvie/CVE-2020-35575-TP-LINK-TL-WR841ND-password-disclosure) :  ![starts](https://img.shields.io/github/stars/dylvie/CVE-2020-35575-TP-LINK-TL-WR841ND-password-disclosure.svg) ![forks](https://img.shields.io/github/forks/dylvie/CVE-2020-35575-TP-LINK-TL-WR841ND-password-disclosure.svg)
+
+
+## CVE-2019-19919
+ Versions of handlebars prior to 4.3.0 are vulnerable to Prototype Pollution leading to Remote Code Execution. Templates may alter an Object's __proto__ and __defineGetter__ properties, which may allow an attacker to execute arbitrary code through crafted payloads.
+
+- [https://github.com/fazilbaig1/CVE-2019-19919](https://github.com/fazilbaig1/CVE-2019-19919) :  ![starts](https://img.shields.io/github/stars/fazilbaig1/CVE-2019-19919.svg) ![forks](https://img.shields.io/github/forks/fazilbaig1/CVE-2019-19919.svg)
+
+
+## CVE-2019-11248
+ The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
+
+- [https://github.com/nod3jzzz/poc-CVE-2019-11248](https://github.com/nod3jzzz/poc-CVE-2019-11248) :  ![starts](https://img.shields.io/github/stars/nod3jzzz/poc-CVE-2019-11248.svg) ![forks](https://img.shields.io/github/forks/nod3jzzz/poc-CVE-2019-11248.svg)
+
+
+## CVE-2017-5638
+ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
+
+- [https://github.com/sighup1/cybersecurity-struts2](https://github.com/sighup1/cybersecurity-struts2) :  ![starts](https://img.shields.io/github/stars/sighup1/cybersecurity-struts2.svg) ![forks](https://img.shields.io/github/forks/sighup1/cybersecurity-struts2.svg)
 
