@@ -1470,7 +1470,7 @@
 
 
 
-- [https://github.com/NyxByt3/CVE-2016-1531](https://github.com/NyxByt3/CVE-2016-1531) :  ![starts](https://img.shields.io/github/stars/NyxByt3/CVE-2016-1531.svg) ![forks](https://img.shields.io/github/forks/NyxByt3/CVE-2016-1531.svg)
+- [https://github.com/h3xcr4ck3r/CVE-2016-1531](https://github.com/h3xcr4ck3r/CVE-2016-1531) :  ![starts](https://img.shields.io/github/stars/h3xcr4ck3r/CVE-2016-1531.svg) ![forks](https://img.shields.io/github/forks/h3xcr4ck3r/CVE-2016-1531.svg)
 
 ## CVE-2016-1494
  The verify function in the RSA package for Python (Python-RSA) before 3.3 allows attackers to spoof signatures with a small public exponent via crafted signature padding, aka a BERserk attack.
@@ -1503,6 +1503,8 @@
 
 
 - [https://github.com/LeBlogDuHacker/vulnlab](https://github.com/LeBlogDuHacker/vulnlab) :  ![starts](https://img.shields.io/github/stars/LeBlogDuHacker/vulnlab.svg) ![forks](https://img.shields.io/github/forks/LeBlogDuHacker/vulnlab.svg)
+
+- [https://github.com/SWICYBERLWA7DA/vulnlab-main](https://github.com/SWICYBERLWA7DA/vulnlab-main) :  ![starts](https://img.shields.io/github/stars/SWICYBERLWA7DA/vulnlab-main.svg) ![forks](https://img.shields.io/github/forks/SWICYBERLWA7DA/vulnlab-main.svg)
 
 ## CVE-2016-0974
  Use-after-free vulnerability in Adobe Flash Player before 18.0.0.329 and 19.x and 20.x before 20.0.0.306 on Windows and OS X and before 11.2.202.569 on Linux, Adobe AIR before 20.0.0.260, Adobe AIR SDK before 20.0.0.260, and Adobe AIR SDK &amp; Compiler before 20.0.0.260 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0973, CVE-2016-0975, CVE-2016-0982, CVE-2016-0983, and CVE-2016-0984.
