@@ -190,14 +190,21 @@
 
 - [https://github.com/travelworld/cve_2013_3893_trigger.html](https://github.com/travelworld/cve_2013_3893_trigger.html) :  ![starts](https://img.shields.io/github/stars/travelworld/cve_2013_3893_trigger.html.svg) ![forks](https://img.shields.io/github/forks/travelworld/cve_2013_3893_trigger.html.svg)
 
+## CVE-2013-3827
+ Unspecified vulnerability in the Oracle GlassFish Server component in Oracle Fusion Middleware 2.1.1, 3.0.1, and 3.1.2; the Oracle JDeveloper component in Oracle Fusion Middleware 11.1.2.3.0, 11.1.2.4.0, and 12.1.2.0.0; and the Oracle WebLogic Server component in Oracle Fusion Middleware 10.3.6.0 and 12.1.1 allows remote attackers to affect confidentiality via unknown vectors related to Java Server Faces or Web Container.
+
+
+
+- [https://github.com/thistehneisen/CVE-2013-3827](https://github.com/thistehneisen/CVE-2013-3827) :  ![starts](https://img.shields.io/github/stars/thistehneisen/CVE-2013-3827.svg) ![forks](https://img.shields.io/github/forks/thistehneisen/CVE-2013-3827.svg)
+
 ## CVE-2013-3664
  Trimble SketchUp (formerly Google SketchUp) before 2013 (13.0.3689) allows remote attackers to execute arbitrary code via a crafted color palette table in a MAC Pict texture, which triggers an out-of-bounds stack write.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2013-3662.  NOTE: this issue was SPLIT due to different affected products and codebases (ADT1); CVE-2013-7388 has been assigned to the paintlib issue.
 
 
 
-- [https://github.com/defrancescojp/CVE-2013-3664_BMP](https://github.com/defrancescojp/CVE-2013-3664_BMP) :  ![starts](https://img.shields.io/github/stars/defrancescojp/CVE-2013-3664_BMP.svg) ![forks](https://img.shields.io/github/forks/defrancescojp/CVE-2013-3664_BMP.svg)
-
 - [https://github.com/defrancescojp/CVE-2013-3664_MAC](https://github.com/defrancescojp/CVE-2013-3664_MAC) :  ![starts](https://img.shields.io/github/stars/defrancescojp/CVE-2013-3664_MAC.svg) ![forks](https://img.shields.io/github/forks/defrancescojp/CVE-2013-3664_MAC.svg)
+
+- [https://github.com/defrancescojp/CVE-2013-3664_BMP](https://github.com/defrancescojp/CVE-2013-3664_BMP) :  ![starts](https://img.shields.io/github/stars/defrancescojp/CVE-2013-3664_BMP.svg) ![forks](https://img.shields.io/github/forks/defrancescojp/CVE-2013-3664_BMP.svg)
 
 ## CVE-2013-3660
  The EPATHOBJ::pprFlattenRec function in win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, and Windows Server 2012 does not properly initialize a pointer for the next object in a certain list, which allows local users to obtain write access to the PATHRECORD chain, and consequently gain privileges, by triggering excessive consumption of paged memory and then making many FlattenPath function calls, aka &quot;Win32k Read AV Vulnerability.&quot;
