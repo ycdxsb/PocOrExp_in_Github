@@ -1,116 +1,91 @@
-# Update 2024-10-27
-## CVE-2024-39205
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/Marven11/CVE-2024-39205-Pyload-RCE](https://github.com/Marven11/CVE-2024-39205-Pyload-RCE) :  ![starts](https://img.shields.io/github/stars/Marven11/CVE-2024-39205-Pyload-RCE.svg) ![forks](https://img.shields.io/github/forks/Marven11/CVE-2024-39205-Pyload-RCE.svg)
-
-
-## CVE-2024-38124
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/tadash10/Detailed-Analysis-and-Mitigation-Strategies-for-CVE-2024-38124-and-CVE-2024-43468](https://github.com/tadash10/Detailed-Analysis-and-Mitigation-Strategies-for-CVE-2024-38124-and-CVE-2024-43468) :  ![starts](https://img.shields.io/github/stars/tadash10/Detailed-Analysis-and-Mitigation-Strategies-for-CVE-2024-38124-and-CVE-2024-43468.svg) ![forks](https://img.shields.io/github/forks/tadash10/Detailed-Analysis-and-Mitigation-Strategies-for-CVE-2024-38124-and-CVE-2024-43468.svg)
-
-
-## CVE-2024-23113
- A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
-
-- [https://github.com/groshi/CVE-2024-23113-Private-POC](https://github.com/groshi/CVE-2024-23113-Private-POC) :  ![starts](https://img.shields.io/github/stars/groshi/CVE-2024-23113-Private-POC.svg) ![forks](https://img.shields.io/github/forks/groshi/CVE-2024-23113-Private-POC.svg)
-
-
-## CVE-2024-4839
- A Cross-Site Request Forgery (CSRF) vulnerability exists in the 'Servers Configurations' function of the parisneo/lollms-webui, versions 9.6 to the latest. The affected functions include Elastic search Service (under construction), XTTS service, Petals service, vLLM service, and Motion Ctrl service, which lack CSRF protection. This vulnerability allows attackers to deceive users into unwittingly installing the XTTS service among other packages by submitting a malicious installation request. Successful exploitation results in attackers tricking users into performing actions without their consent.
-
-- [https://github.com/Renzusclarke/CVE-2024-48392-PoC](https://github.com/Renzusclarke/CVE-2024-48392-PoC) :  ![starts](https://img.shields.io/github/stars/Renzusclarke/CVE-2024-48392-PoC.svg) ![forks](https://img.shields.io/github/forks/Renzusclarke/CVE-2024-48392-PoC.svg)
-
-
-## CVE-2024-4757
- The Logo Manager For Enamad WordPress plugin through 0.7.0 does not have CSRF check in some places, and is missing sanitisation as well as escaping, which could allow attackers to make logged in admin add Stored XSS payloads via a CSRF attack
-
-- [https://github.com/maybelookis/CVE-2024-47575](https://github.com/maybelookis/CVE-2024-47575) :  ![starts](https://img.shields.io/github/stars/maybelookis/CVE-2024-47575.svg) ![forks](https://img.shields.io/github/forks/maybelookis/CVE-2024-47575.svg)
-- [https://github.com/HazeLook/CVE-2024-47575](https://github.com/HazeLook/CVE-2024-47575) :  ![starts](https://img.shields.io/github/stars/HazeLook/CVE-2024-47575.svg) ![forks](https://img.shields.io/github/forks/HazeLook/CVE-2024-47575.svg)
-
-
-## CVE-2024-4353
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/HazeLook/CVE-2024-43532](https://github.com/HazeLook/CVE-2024-43532) :  ![starts](https://img.shields.io/github/stars/HazeLook/CVE-2024-43532.svg) ![forks](https://img.shields.io/github/forks/HazeLook/CVE-2024-43532.svg)
-
-
-## CVE-2024-4346
- The Startklar Elementor Addons plugin for WordPress is vulnerable to arbitrary file deletion in all versions up to, and including, 1.7.13. This is due to the plugin not properly validating the path of an uploaded file prior to deleting it. This makes it possible for unauthenticated attackers to delete arbitrary files, including the wp-config.php file, which can make site takeover and remote code execution possible.
-
-- [https://github.com/tadash10/Detailed-Analysis-and-Mitigation-Strategies-for-CVE-2024-38124-and-CVE-2024-43468](https://github.com/tadash10/Detailed-Analysis-and-Mitigation-Strategies-for-CVE-2024-38124-and-CVE-2024-43468) :  ![starts](https://img.shields.io/github/stars/tadash10/Detailed-Analysis-and-Mitigation-Strategies-for-CVE-2024-38124-and-CVE-2024-43468.svg) ![forks](https://img.shields.io/github/forks/tadash10/Detailed-Analysis-and-Mitigation-Strategies-for-CVE-2024-38124-and-CVE-2024-43468.svg)
-
-
-## CVE-2023-46747
- Undisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated
-
-- [https://github.com/MacTavish2/CVE-2023-46747-Mass-RCE](https://github.com/MacTavish2/CVE-2023-46747-Mass-RCE) :  ![starts](https://img.shields.io/github/stars/MacTavish2/CVE-2023-46747-Mass-RCE.svg) ![forks](https://img.shields.io/github/forks/MacTavish2/CVE-2023-46747-Mass-RCE.svg)
-
-
-## CVE-2023-23752
- An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.
-
-- [https://github.com/h3xcr4ck3r/CVE-2023-23752](https://github.com/h3xcr4ck3r/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/h3xcr4ck3r/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/h3xcr4ck3r/CVE-2023-23752.svg)
-
-
-## CVE-2023-1326
- A privilege escalation attack was found in apport-cli 2.26.0 and earlier which is similar to CVE-2023-26604. If a system is specially configured to allow unprivileged users to run sudo apport-cli, less is configured as the pager, and the terminal size can be set: a local attacker can escalate privilege. It is extremely unlikely that a system administrator would configure sudo to allow unprivileged users to perform this class of exploit.
-
-- [https://github.com/h3xcr4ck3r/CVE-2023-1326](https://github.com/h3xcr4ck3r/CVE-2023-1326) :  ![starts](https://img.shields.io/github/stars/h3xcr4ck3r/CVE-2023-1326.svg) ![forks](https://img.shields.io/github/forks/h3xcr4ck3r/CVE-2023-1326.svg)
-
-
-## CVE-2022-29464
- Certain WSO2 products allow unrestricted file upload with resultant remote code execution. The attacker must use a /fileupload endpoint with a Content-Disposition directory traversal sequence to reach a directory under the web root, such as a ../../../../repository/deployment/server/webapps directory. This affects WSO2 API Manager 2.2.0 up to 4.0.0, WSO2 Identity Server 5.2.0 up to 5.11.0, WSO2 Identity Server Analytics 5.4.0, 5.4.1, 5.5.0 and 5.6.0, WSO2 Identity Server as Key Manager 5.3.0 up to 5.11.0, WSO2 Enterprise Integrator 6.2.0 up to 6.6.0, WSO2 Open Banking AM 1.4.0 up to 2.0.0 and WSO2 Open Banking KM 1.4.0, up to 2.0.0.
-
-- [https://github.com/h3xcr4ck3r/CVE-2022-29464](https://github.com/h3xcr4ck3r/CVE-2022-29464) :  ![starts](https://img.shields.io/github/stars/h3xcr4ck3r/CVE-2022-29464.svg) ![forks](https://img.shields.io/github/forks/h3xcr4ck3r/CVE-2022-29464.svg)
-
-
-## CVE-2022-23131
- In the case of instances where the SAML SSO authentication is enabled (non-default), session data can be modified by a malicious actor, because a user login stored in the session was not verified. Malicious unauthenticated actor may exploit this issue to escalate privileges and gain admin access to Zabbix Frontend. To perform the attack, SAML authentication is required to be enabled and the actor has to know the username of Zabbix user (or use the guest account, which is disabled by default).
-
-- [https://github.com/davidzzo23/CVE-2022-23131](https://github.com/davidzzo23/CVE-2022-23131) :  ![starts](https://img.shields.io/github/stars/davidzzo23/CVE-2022-23131.svg) ![forks](https://img.shields.io/github/forks/davidzzo23/CVE-2022-23131.svg)
-
-
-## CVE-2022-20223
- In assertSafeToStartCustomActivity of AppRestrictionsFragment.java, there is a possible way to start a phone call without permissions due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-223578534
-
-- [https://github.com/xbee9/cve-2022-20223](https://github.com/xbee9/cve-2022-20223) :  ![starts](https://img.shields.io/github/stars/xbee9/cve-2022-20223.svg) ![forks](https://img.shields.io/github/forks/xbee9/cve-2022-20223.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-41773.svg)
-- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
-
-
-## CVE-2020-25223
- A remote code execution vulnerability exists in the WebAdmin of Sophos SG UTM before v9.705 MR5, v9.607 MR7, and v9.511 MR11
-
-- [https://github.com/reneww/poc-CVE-2020-25223](https://github.com/reneww/poc-CVE-2020-25223) :  ![starts](https://img.shields.io/github/stars/reneww/poc-CVE-2020-25223.svg) ![forks](https://img.shields.io/github/forks/reneww/poc-CVE-2020-25223.svg)
-
-
-## CVE-2019-2725
- Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Web Services). Supported versions that are affected are 10.3.6.0.0 and 12.1.3.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
-
-- [https://github.com/tobechenghuai/CNTA-2019-0014xCVE-2019-2725](https://github.com/tobechenghuai/CNTA-2019-0014xCVE-2019-2725) :  ![starts](https://img.shields.io/github/stars/tobechenghuai/CNTA-2019-0014xCVE-2019-2725.svg) ![forks](https://img.shields.io/github/forks/tobechenghuai/CNTA-2019-0014xCVE-2019-2725.svg)
-
-
-## CVE-2015-0235
- Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka &quot;GHOST.&quot;
-
-- [https://github.com/fa-rrel/XMLRPC-Ghost](https://github.com/fa-rrel/XMLRPC-Ghost) :  ![starts](https://img.shields.io/github/stars/fa-rrel/XMLRPC-Ghost.svg) ![forks](https://img.shields.io/github/forks/fa-rrel/XMLRPC-Ghost.svg)
-
-
-## CVE-2010-2626
- index.pl in Miyabi CGI Tools SEO Links 1.02 allows remote attackers to execute arbitrary commands via shell metacharacters in the fn command. NOTE: some of these details are obtained from third party information.
+# Update 2024-10-28
+## CVE-2024-23828
+ Nginx-UI is a web interface to manage Nginx configurations. It is vulnerable to an authenticated arbitrary command execution via CRLF attack when changing the value of test_config_cmd or start_cmd. This vulnerability exists due to an incomplete fix for CVE-2024-22197 and CVE-2024-22198. This vulnerability has been patched in version 2.0.0.beta.12.
 
 - [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
 
 
-## CVE-2006-3392
- Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
+## CVE-2024-4918
+ A vulnerability was found in Campcodes Online Examination System 1.0. It has been classified as critical. This affects an unknown part of the file updateQuestion.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-264453 was assigned to this vulnerability.
+
+- [https://github.com/cyb3res3c/CVE-2024-49186](https://github.com/cyb3res3c/CVE-2024-49186) :  ![starts](https://img.shields.io/github/stars/cyb3res3c/CVE-2024-49186.svg) ![forks](https://img.shields.io/github/forks/cyb3res3c/CVE-2024-49186.svg)
+
+
+## CVE-2024-4819
+ A vulnerability was found in Campcodes Online Laundry Management System 1.0. It has been classified as problematic. Affected is an unknown function of the file admin_class.php. The manipulation of the argument type with the input 1 leads to improper authorization. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-263940.
+
+- [https://github.com/cyb3res3c/CVE-2024-48195](https://github.com/cyb3res3c/CVE-2024-48195) :  ![starts](https://img.shields.io/github/stars/cyb3res3c/CVE-2024-48195.svg) ![forks](https://img.shields.io/github/forks/cyb3res3c/CVE-2024-48195.svg)
+
+
+## CVE-2024-4293
+ A vulnerability classified as problematic was found in PHPGurukul Doctor Appointment Management System 1.0. Affected by this vulnerability is an unknown functionality of the file appointment-bwdates-reports-details.php. The manipulation of the argument fromdate/todate leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-262225 was assigned to this vulnerability.
+
+- [https://github.com/cyb3res3c/CVE-2024-42930](https://github.com/cyb3res3c/CVE-2024-42930) :  ![starts](https://img.shields.io/github/stars/cyb3res3c/CVE-2024-42930.svg) ![forks](https://img.shields.io/github/forks/cyb3res3c/CVE-2024-42930.svg)
+
+
+## CVE-2024-1041
+ The WP Radio &#8211; Worldwide Online Radio Stations Directory for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's settings in all versions up to, and including, 3.1.9 due to insufficient input sanitization and output escaping as well as insufficient access control on the settings. This makes it possible for authenticated attackers, with subscriber access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+- [https://github.com/K1nako0/CVE-2024-10410](https://github.com/K1nako0/CVE-2024-10410) :  ![starts](https://img.shields.io/github/stars/K1nako0/CVE-2024-10410.svg) ![forks](https://img.shields.io/github/forks/K1nako0/CVE-2024-10410.svg)
+
+
+## CVE-2024-1035
+ A vulnerability has been found in openBI up to 1.0.8 and classified as critical. This vulnerability affects the function uploadIcon of the file /application/index/controller/Icon.php. The manipulation of the argument image leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-252310 is the identifier assigned to this vulnerability.
+
+- [https://github.com/K1nako0/CVE-2024-10355](https://github.com/K1nako0/CVE-2024-10355) :  ![starts](https://img.shields.io/github/stars/K1nako0/CVE-2024-10355.svg) ![forks](https://img.shields.io/github/forks/K1nako0/CVE-2024-10355.svg)
+- [https://github.com/K1nako0/CVE-2024-10354](https://github.com/K1nako0/CVE-2024-10354) :  ![starts](https://img.shields.io/github/stars/K1nako0/CVE-2024-10354.svg) ![forks](https://img.shields.io/github/forks/K1nako0/CVE-2024-10354.svg)
+
+
+## CVE-2023-48251
+ The vulnerability allows a remote attacker to authenticate to the SSH service with root privileges through a hidden hard-coded account.
+
+- [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
+
+
+## CVE-2023-38941
+ django-sspanel v2022.2.2 was discovered to contain a remote command execution (RCE) vulnerability via the component sspanel/admin_view.py -&gt; GoodsCreateView._post.
+
+- [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
+
+
+## CVE-2021-3560
+ It was found that polkit could be tricked into bypassing the credential checks for D-Bus requests, elevating the privileges of the requestor to the root user. This flaw could be used by an unprivileged local attacker to, for example, create a new local administrator. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
+
+- [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
+
+
+## CVE-2019-15947
+ In Bitcoin Core 0.18.0, bitcoin-qt stores wallet.dat data unencrypted in memory. Upon a crash, it may dump a core file. If a user were to mishandle a core file, an attacker can reconstruct the user's wallet.dat file, including their private keys, via a grep &quot;6231 0500&quot; command.
+
+- [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
+
+
+## CVE-2019-12881
+ i915_gem_userptr_get_pages in drivers/gpu/drm/i915/i915_gem_userptr.c in the Linux kernel 4.15.0 on Ubuntu 18.04.2 allows local users to cause a denial of service (NULL pointer dereference and BUG) or possibly have unspecified other impact via crafted ioctl calls to /dev/dri/card0.
+
+- [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
+
+
+## CVE-2019-9053
+ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News module, through a crafted URL, to achieve unauthenticated blind time-based SQL injection via the m1_idlist parameter.
+
+- [https://github.com/louisthedonothing/CVE-2019-9053](https://github.com/louisthedonothing/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/louisthedonothing/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/louisthedonothing/CVE-2019-9053.svg)
+
+
+## CVE-2018-17336
+ UDisks 2.8.0 has a format string vulnerability in udisks_log in udiskslogging.c, allowing attackers to obtain sensitive information (stack contents), cause a denial of service (memory corruption), or possibly have unspecified other impact via a malformed filesystem label, as demonstrated by %d or %n substrings.
+
+- [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
+
+
+## CVE-2017-5816
+ A Remote Code Execution vulnerability in HPE Intelligent Management Center (iMC) PLAT version 7.3 E0504P04 was found.
+
+- [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
+
+
+## CVE-2016-10401
+ ZyXEL PK5001Z devices have zyad5001 as the su password, which makes it easier for remote attackers to obtain root access if a non-root account password is known (or a non-root default account exists within an ISP's deployment of these devices).
 
 - [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
 
