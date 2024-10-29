@@ -60,7 +60,7 @@
 
 - [https://github.com/IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/IvanGlinkin/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/IvanGlinkin/CVE-2006-3392.svg)
 
-- [https://github.com/MrEmpy/CVE-2006-3392](https://github.com/MrEmpy/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/MrEmpy/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/MrEmpy/CVE-2006-3392.svg)
+- [https://github.com/brosck/CVE-2006-3392](https://github.com/brosck/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/brosck/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/brosck/CVE-2006-3392.svg)
 
 - [https://github.com/g1vi/CVE-2006-3392](https://github.com/g1vi/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/g1vi/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/g1vi/CVE-2006-3392.svg)
 
