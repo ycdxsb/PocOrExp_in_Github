@@ -1,79 +1,92 @@
-# Update 2024-10-30
-## CVE-2024-34716
- PrestaShop is an open source e-commerce web application. A cross-site scripting (XSS) vulnerability that only affects PrestaShops with customer-thread feature flag enabled is present starting from PrestaShop 8.1.0 and prior to PrestaShop 8.1.6. When the customer thread feature flag is enabled through the front-office contact form, a hacker can upload a malicious file containing an XSS that will be executed when an admin opens the attached file in back office. The script injected can access the session and the security token, which allows it to perform any authenticated action in the scope of the administrator's right. This vulnerability is patched in 8.1.6. A workaround is to disable the customer-thread feature-flag.
+# Update 2024-10-31
+## CVE-2024-27954
+ Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in WP Automatic Automatic allows Path Traversal, Server Side Request Forgery.This issue affects Automatic: from n/a through 3.92.0.
 
-- [https://github.com/TanveerS1ngh/Prestashop-CVE-2024-34716](https://github.com/TanveerS1ngh/Prestashop-CVE-2024-34716) :  ![starts](https://img.shields.io/github/stars/TanveerS1ngh/Prestashop-CVE-2024-34716.svg) ![forks](https://img.shields.io/github/forks/TanveerS1ngh/Prestashop-CVE-2024-34716.svg)
-
-
-## CVE-2024-24919
- Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN or Mobile Access Software Blades. A Security fix that mitigates this vulnerability is available.
-
-- [https://github.com/sar-3mar/CVE-2024-24919_POC](https://github.com/sar-3mar/CVE-2024-24919_POC) :  ![starts](https://img.shields.io/github/stars/sar-3mar/CVE-2024-24919_POC.svg) ![forks](https://img.shields.io/github/forks/sar-3mar/CVE-2024-24919_POC.svg)
+- [https://github.com/fa-rrel/CVE-2024-27954](https://github.com/fa-rrel/CVE-2024-27954) :  ![starts](https://img.shields.io/github/stars/fa-rrel/CVE-2024-27954.svg) ![forks](https://img.shields.io/github/forks/fa-rrel/CVE-2024-27954.svg)
 
 
-## CVE-2024-23897
- Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
+## CVE-2024-23113
+ A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
 
-- [https://github.com/cc3305/CVE-2024-23897](https://github.com/cc3305/CVE-2024-23897) :  ![starts](https://img.shields.io/github/stars/cc3305/CVE-2024-23897.svg) ![forks](https://img.shields.io/github/forks/cc3305/CVE-2024-23897.svg)
+- [https://github.com/zgimszhd61/CVE-2024-23113](https://github.com/zgimszhd61/CVE-2024-23113) :  ![starts](https://img.shields.io/github/stars/zgimszhd61/CVE-2024-23113.svg) ![forks](https://img.shields.io/github/forks/zgimszhd61/CVE-2024-23113.svg)
 
 
 ## CVE-2024-5143
  A user with device administrative privileges can change existing SMTP server settings on the device, without having to re-enter SMTP server credentials. By redirecting send-to-email traffic to the new server, the original SMTP server credentials may potentially be exposed.
 
-- [https://github.com/bevennyamande/CVE-2024-51435](https://github.com/bevennyamande/CVE-2024-51435) :  ![starts](https://img.shields.io/github/stars/bevennyamande/CVE-2024-51435.svg) ![forks](https://img.shields.io/github/forks/bevennyamande/CVE-2024-51435.svg)
+- [https://github.com/BLACK-SCORP10/CVE-2024-51430](https://github.com/BLACK-SCORP10/CVE-2024-51430) :  ![starts](https://img.shields.io/github/stars/BLACK-SCORP10/CVE-2024-51430.svg) ![forks](https://img.shields.io/github/forks/BLACK-SCORP10/CVE-2024-51430.svg)
+
+
+## CVE-2024-5137
+ A vulnerability classified as problematic was found in PHPGurukul Directory Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/admin-profile.php of the component Searchbar. The manipulation leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-265213 was assigned to this vulnerability.
+
+- [https://github.com/refr4g/CVE-2024-51378](https://github.com/refr4g/CVE-2024-51378) :  ![starts](https://img.shields.io/github/stars/refr4g/CVE-2024-51378.svg) ![forks](https://img.shields.io/github/forks/refr4g/CVE-2024-51378.svg)
+
+
+## CVE-2024-5055
+ Uncontrolled resource consumption vulnerability in XAMPP Windows, versions 7.3.2 and earlier. This vulnerability exists when XAMPP attempts to process many incomplete HTTP requests, resulting in resource consumption and system crashes.
+
+- [https://github.com/AleksaZatezalo/CVE-2024-50550](https://github.com/AleksaZatezalo/CVE-2024-50550) :  ![starts](https://img.shields.io/github/stars/AleksaZatezalo/CVE-2024-50550.svg) ![forks](https://img.shields.io/github/forks/AleksaZatezalo/CVE-2024-50550.svg)
+
+
+## CVE-2024-4895
+ The wpDataTables &#8211; WordPress Data Table, Dynamic Tables &amp; Table Charts Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the CSV import functionality in all versions up to, and including, 3.4.2.12 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+- [https://github.com/BrotherOfJhonny/CVE-2024-48955_Overview](https://github.com/BrotherOfJhonny/CVE-2024-48955_Overview) :  ![starts](https://img.shields.io/github/stars/BrotherOfJhonny/CVE-2024-48955_Overview.svg) ![forks](https://img.shields.io/github/forks/BrotherOfJhonny/CVE-2024-48955_Overview.svg)
+
+
+## CVE-2024-4873
+ The Replace Image plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.1.10 via the image replacement functionality due to missing validation on a user controlled key. This makes it possible for authenticated attackers, with Author-level access and above, to replace images uploaded by higher level users such as admins.
+
+- [https://github.com/ACN-CVEs/CVE-2024-48734](https://github.com/ACN-CVEs/CVE-2024-48734) :  ![starts](https://img.shields.io/github/stars/ACN-CVEs/CVE-2024-48734.svg) ![forks](https://img.shields.io/github/forks/ACN-CVEs/CVE-2024-48734.svg)
+- [https://github.com/ACN-CVEs/CVE-2024-48733](https://github.com/ACN-CVEs/CVE-2024-48733) :  ![starts](https://img.shields.io/github/stars/ACN-CVEs/CVE-2024-48733.svg) ![forks](https://img.shields.io/github/forks/ACN-CVEs/CVE-2024-48733.svg)
+- [https://github.com/ACN-CVEs/CVE-2024-48735](https://github.com/ACN-CVEs/CVE-2024-48735) :  ![starts](https://img.shields.io/github/stars/ACN-CVEs/CVE-2024-48735.svg) ![forks](https://img.shields.io/github/forks/ACN-CVEs/CVE-2024-48735.svg)
 
 
 ## CVE-2024-4757
  The Logo Manager For Enamad WordPress plugin through 0.7.0 does not have CSRF check in some places, and is missing sanitisation as well as escaping, which could allow attackers to make logged in admin add Stored XSS payloads via a CSRF attack
 
-- [https://github.com/hazesecurity/CVE-2024-47575](https://github.com/hazesecurity/CVE-2024-47575) :  ![starts](https://img.shields.io/github/stars/hazesecurity/CVE-2024-47575.svg) ![forks](https://img.shields.io/github/forks/hazesecurity/CVE-2024-47575.svg)
-- [https://github.com/groshi/CVE-2024-47575-POC](https://github.com/groshi/CVE-2024-47575-POC) :  ![starts](https://img.shields.io/github/stars/groshi/CVE-2024-47575-POC.svg) ![forks](https://img.shields.io/github/forks/groshi/CVE-2024-47575-POC.svg)
+- [https://github.com/zgimszhd61/CVE-2024-47575-POC](https://github.com/zgimszhd61/CVE-2024-47575-POC) :  ![starts](https://img.shields.io/github/stars/zgimszhd61/CVE-2024-47575-POC.svg) ![forks](https://img.shields.io/github/forks/zgimszhd61/CVE-2024-47575-POC.svg)
 
 
-## CVE-2024-4577
- In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use &quot;Best-Fit&quot; behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
+## CVE-2023-22518
+ All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authorization vulnerability allows an unauthenticated attacker to reset Confluence and create a Confluence instance administrator account. Using this account, an attacker can then perform all administrative actions that are available to Confluence instance administrator leading to - but not limited to - full loss of confidentiality, integrity and availability. Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.
 
-- [https://github.com/0xbd2/CVE-2024-4577](https://github.com/0xbd2/CVE-2024-4577) :  ![starts](https://img.shields.io/github/stars/0xbd2/CVE-2024-4577.svg) ![forks](https://img.shields.io/github/forks/0xbd2/CVE-2024-4577.svg)
-
-
-## CVE-2024-1044
- The Customer Reviews for WooCommerce plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'submit_review' function in all versions up to, and including, 5.38.12. This makes it possible for unauthenticated attackers to submit reviews with arbitrary email addresses regardless of whether reviews are globally enabled.
-
-- [https://github.com/bevennyamande/CVE-2024-10448](https://github.com/bevennyamande/CVE-2024-10448) :  ![starts](https://img.shields.io/github/stars/bevennyamande/CVE-2024-10448.svg) ![forks](https://img.shields.io/github/forks/bevennyamande/CVE-2024-10448.svg)
+- [https://github.com/zgimszhd61/CVE-2023-22518](https://github.com/zgimszhd61/CVE-2023-22518) :  ![starts](https://img.shields.io/github/stars/zgimszhd61/CVE-2023-22518.svg) ![forks](https://img.shields.io/github/forks/zgimszhd61/CVE-2023-22518.svg)
 
 
-## CVE-2023-50564
- An arbitrary file upload vulnerability in the component /inc/modules_install.php of Pluck-CMS v4.7.18 allows attackers to execute arbitrary code via uploading a crafted ZIP file.
+## CVE-2022-38029
+ Windows ALPC Elevation of Privilege Vulnerability
 
-- [https://github.com/TanveerS1ngh/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564](https://github.com/TanveerS1ngh/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564) :  ![starts](https://img.shields.io/github/stars/TanveerS1ngh/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564.svg) ![forks](https://img.shields.io/github/forks/TanveerS1ngh/Pluck-CMS-v4.7.18-Remote-Code-Execution-CVE-2023-50564.svg)
-
-
-## CVE-2023-33669
- Tenda AC8V4.0-V16.03.34.06 was discovered to contain a stack overflow via the timeZone parameter in the sub_44db3c function.
-
-- [https://github.com/Mohammaddvd/CVE-2023-33669](https://github.com/Mohammaddvd/CVE-2023-33669) :  ![starts](https://img.shields.io/github/stars/Mohammaddvd/CVE-2023-33669.svg) ![forks](https://img.shields.io/github/forks/Mohammaddvd/CVE-2023-33669.svg)
+- [https://github.com/SpiralBL0CK/SIDECHANNEL-CVE-2022-38029](https://github.com/SpiralBL0CK/SIDECHANNEL-CVE-2022-38029) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/SIDECHANNEL-CVE-2022-38029.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/SIDECHANNEL-CVE-2022-38029.svg)
 
 
-## CVE-2022-48565
- An XML External Entity (XXE) issue was discovered in Python through 3.9.1. The plistlib module no longer accepts entity declarations in XML plist files to avoid XML vulnerabilities.
+## CVE-2022-4944
+ A vulnerability, which was classified as problematic, has been found in kalcaddle KodExplorer up to 4.49. Affected by this issue is some unknown functionality. The manipulation leads to cross-site request forgery. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 4.50 is able to address this issue. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-227000.
 
-- [https://github.com/Einstein2150/CVE-2022-48565-POC](https://github.com/Einstein2150/CVE-2022-48565-POC) :  ![starts](https://img.shields.io/github/stars/Einstein2150/CVE-2022-48565-POC.svg) ![forks](https://img.shields.io/github/forks/Einstein2150/CVE-2022-48565-POC.svg)
-
-
-## CVE-2019-19842
- emfd in Ruckus Wireless Unleashed through 200.7.10.102.64 allows remote attackers to execute OS commands via a POST request with the attribute xcmd=spectra-analysis to admin/_cmdstat.jsp via the mac attribute.
-
-- [https://github.com/bdunlap9/CVE-2019-19842](https://github.com/bdunlap9/CVE-2019-19842) :  ![starts](https://img.shields.io/github/stars/bdunlap9/CVE-2019-19842.svg) ![forks](https://img.shields.io/github/forks/bdunlap9/CVE-2019-19842.svg)
+- [https://github.com/brosck/CVE-2022-4944](https://github.com/brosck/CVE-2022-4944) :  ![starts](https://img.shields.io/github/stars/brosck/CVE-2022-4944.svg) ![forks](https://img.shields.io/github/forks/brosck/CVE-2022-4944.svg)
 
 
-## CVE-2018-6789
- An issue was discovered in the base64d function in the SMTP listener in Exim before 4.90.1. By sending a handcrafted message, a buffer overflow may happen. This can be used to execute code remotely.
+## CVE-2022-1077
+ A vulnerability was found in TEM FLEX-1080 and FLEX-1085 1.6.0. It has been declared as problematic. This vulnerability log.cgi of the component Log Handler. A direct request leads to information disclosure of hardware information. The attack can be initiated remotely and does not require any form of authentication.
 
-- [https://github.com/thistehneisen/CVE-2018-6789-Python3](https://github.com/thistehneisen/CVE-2018-6789-Python3) :  ![starts](https://img.shields.io/github/stars/thistehneisen/CVE-2018-6789-Python3.svg) ![forks](https://img.shields.io/github/forks/thistehneisen/CVE-2018-6789-Python3.svg)
+- [https://github.com/brosck/CVE-2022-1077](https://github.com/brosck/CVE-2022-1077) :  ![starts](https://img.shields.io/github/stars/brosck/CVE-2022-1077.svg) ![forks](https://img.shields.io/github/forks/brosck/CVE-2022-1077.svg)
 
 
-## CVE-2006-3392
- Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
+## CVE-2019-1351
+ A tampering vulnerability exists when Git for Visual Studio improperly handles virtual drive paths, aka 'Git for Visual Studio Tampering Vulnerability'.
 
-- [https://github.com/brosck/CVE-2006-3392](https://github.com/brosck/CVE-2006-3392) :  ![starts](https://img.shields.io/github/stars/brosck/CVE-2006-3392.svg) ![forks](https://img.shields.io/github/forks/brosck/CVE-2006-3392.svg)
+- [https://github.com/JonasDL/PruebaCVE20191351](https://github.com/JonasDL/PruebaCVE20191351) :  ![starts](https://img.shields.io/github/stars/JonasDL/PruebaCVE20191351.svg) ![forks](https://img.shields.io/github/forks/JonasDL/PruebaCVE20191351.svg)
+
+
+## CVE-2019-1083
+ A denial of service vulnerability exists when Microsoft Common Object Runtime Library improperly handles web requests, aka '.NET Denial of Service Vulnerability'.
+
+- [https://github.com/stevenseeley/HowCVE-2019-1083Works](https://github.com/stevenseeley/HowCVE-2019-1083Works) :  ![starts](https://img.shields.io/github/stars/stevenseeley/HowCVE-2019-1083Works.svg) ![forks](https://img.shields.io/github/forks/stevenseeley/HowCVE-2019-1083Works.svg)
+
+
+## CVE-2017-12635
+ Due to differences in the Erlang-based JSON parser and JavaScript-based JSON parser, it is possible in Apache CouchDB before 1.7.0 and 2.x before 2.1.1 to submit _users documents with duplicate keys for 'roles' used for access control within the database, including the special case '_admin' role, that denotes administrative users. In combination with CVE-2017-12636 (Remote Code Execution), this can be used to give non-admin users access to arbitrary shell commands on the server as the database system user. The JSON parser differences result in behaviour that if two 'roles' keys are available in the JSON, the second one will be used for authorising the document write, but the first 'roles' key is used for subsequent authorization for the newly created user. By design, users can not assign themselves roles. The vulnerability allows non-admin users to give themselves admin privileges.
+
+- [https://github.com/Weisant/CVE-2017-12635-EXP](https://github.com/Weisant/CVE-2017-12635-EXP) :  ![starts](https://img.shields.io/github/stars/Weisant/CVE-2017-12635-EXP.svg) ![forks](https://img.shields.io/github/forks/Weisant/CVE-2017-12635-EXP.svg)
 
