@@ -1,78 +1,109 @@
-# Update 2024-11-11
-## CVE-2024-23334
- aiohttp is an asynchronous HTTP client/server framework for asyncio and Python. When using aiohttp as a web server and configuring static routes, it is necessary to specify the root path for static files. Additionally, the option 'follow_symlinks' can be used to determine whether to follow symbolic links outside the static root directory. When 'follow_symlinks' is set to True, there is no validation to check if reading a file is within the root directory. This can lead to directory traversal vulnerabilities, resulting in unauthorized access to arbitrary files on the system, even when symlinks are not present. Disabling follow_symlinks and using a reverse proxy are encouraged mitigations. Version 3.9.2 fixes this issue.
+# Update 2024-11-12
+## CVE-2024-5166
+ An Insecure Direct Object Reference in Google Cloud's Looker allowed metadata exposure across authenticated Looker users sharing the same LookML model.
 
-- [https://github.com/Arc4he/CVE-2024-23334-PoC](https://github.com/Arc4he/CVE-2024-23334-PoC) :  ![starts](https://img.shields.io/github/stars/Arc4he/CVE-2024-23334-PoC.svg) ![forks](https://img.shields.io/github/forks/Arc4he/CVE-2024-23334-PoC.svg)
-
-
-## CVE-2024-5113
- A vulnerability was found in Campcodes Complete Web-Based School Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /view/student_profile1.php. The manipulation of the argument std_index leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-265103.
-
-- [https://github.com/JAckLosingHeart/CVE-2024-51135](https://github.com/JAckLosingHeart/CVE-2024-51135) :  ![starts](https://img.shields.io/github/stars/JAckLosingHeart/CVE-2024-51135.svg) ![forks](https://img.shields.io/github/forks/JAckLosingHeart/CVE-2024-51135.svg)
+- [https://github.com/RandomRobbieBF/CVE-2024-51665](https://github.com/RandomRobbieBF/CVE-2024-51665) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-51665.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-51665.svg)
 
 
-## CVE-2024-5048
- A vulnerability classified as critical was found in code-projects Budget Management 1.0. Affected by this vulnerability is an unknown functionality of the file /index.php. The manipulation of the argument edit leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-264745 was assigned to this vulnerability.
+## CVE-2024-5049
+ A vulnerability, which was classified as critical, has been found in Codezips E-Commerce Site 1.0. Affected by this issue is some unknown functionality of the file admin/editproduct.php. The manipulation of the argument profilepic leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-264746 is the identifier assigned to this vulnerability.
 
-- [https://github.com/RandomRobbieBF/CVE-2024-50488](https://github.com/RandomRobbieBF/CVE-2024-50488) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-50488.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-50488.svg)
-
-
-## CVE-2024-5047
- A vulnerability classified as critical has been found in SourceCodester Student Management System 1.0. Affected is an unknown function of the file /student/controller.php. The manipulation of the argument photo leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-264744.
-
-- [https://github.com/RandomRobbieBF/CVE-2024-50473](https://github.com/RandomRobbieBF/CVE-2024-50473) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-50473.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-50473.svg)
+- [https://github.com/RandomRobbieBF/CVE-2024-50493](https://github.com/RandomRobbieBF/CVE-2024-50493) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-50493.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-50493.svg)
 
 
-## CVE-2024-4968
- A vulnerability was found in SourceCodester Interactive Map with Marker 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file Marker Name of the component Add Marker. The manipulation leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-264536.
-
-- [https://github.com/RandomRobbieBF/CVE-2024-49681](https://github.com/RandomRobbieBF/CVE-2024-49681) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-49681.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-49681.svg)
-
-
-## CVE-2024-4832
+## CVE-2024-5033
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/trqt/CVE-2024-48322](https://github.com/trqt/CVE-2024-48322) :  ![starts](https://img.shields.io/github/stars/trqt/CVE-2024-48322.svg) ![forks](https://img.shields.io/github/forks/trqt/CVE-2024-48322.svg)
+- [https://github.com/shellkraft/CVE-2024-50335](https://github.com/shellkraft/CVE-2024-50335) :  ![starts](https://img.shields.io/github/stars/shellkraft/CVE-2024-50335.svg) ![forks](https://img.shields.io/github/forks/shellkraft/CVE-2024-50335.svg)
 
 
-## CVE-2024-4413
- The Hotel Booking Lite plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 4.11.1 via deserialization of untrusted input. This makes it possible for unauthenticated attackers to inject a PHP Object. No known POP chain is present in the vulnerable plugin. If a POP chain is present via an additional plugin or theme installed on the target system, it could allow the attacker to delete arbitrary files, retrieve sensitive data, or execute code.
+## CVE-2024-4044
+ A deserialization of untrusted data vulnerability exists in common code used by FlexLogger and InstrumentStudio that may result in remote code execution. Successful exploitation requires an attacker to get a user to open a specially crafted project file. This vulnerability affects NI FlexLogger 2024 Q1 and prior versions as well as NI InstrumentStudio 2024 Q1 and prior versions.
 
-- [https://github.com/Ununp3ntium115/prevent_cve_2024_44133](https://github.com/Ununp3ntium115/prevent_cve_2024_44133) :  ![starts](https://img.shields.io/github/stars/Ununp3ntium115/prevent_cve_2024_44133.svg) ![forks](https://img.shields.io/github/forks/Ununp3ntium115/prevent_cve_2024_44133.svg)
+- [https://github.com/Yuma-Tsushima07/CVE-2024-40443](https://github.com/Yuma-Tsushima07/CVE-2024-40443) :  ![starts](https://img.shields.io/github/stars/Yuma-Tsushima07/CVE-2024-40443.svg) ![forks](https://img.shields.io/github/forks/Yuma-Tsushima07/CVE-2024-40443.svg)
+
+
+## CVE-2024-1095
+ The Build &amp; Control Block Patterns &#8211; Boost up Gutenberg Editor plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the settings_export() function in all versions up to, and including, 1.3.5.4. This makes it possible for unauthenticated attackers to export the plugin's settings.
+
+- [https://github.com/reinh3rz/CVE-2024-10958-WPPA-Exploit](https://github.com/reinh3rz/CVE-2024-10958-WPPA-Exploit) :  ![starts](https://img.shields.io/github/stars/reinh3rz/CVE-2024-10958-WPPA-Exploit.svg) ![forks](https://img.shields.io/github/forks/reinh3rz/CVE-2024-10958-WPPA-Exploit.svg)
 
 
 ## CVE-2024-1091
  The ImageRecycle pdf &amp; image compression plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the reinitialize function in all versions up to, and including, 3.1.13. This makes it possible for authenticated attackers, with subscriber-level access and above, to remove all plugin data.
 
-- [https://github.com/imnotcha0s/CVE-2024-10914](https://github.com/imnotcha0s/CVE-2024-10914) :  ![starts](https://img.shields.io/github/stars/imnotcha0s/CVE-2024-10914.svg) ![forks](https://img.shields.io/github/forks/imnotcha0s/CVE-2024-10914.svg)
+- [https://github.com/verylazytech/CVE-2024-10914](https://github.com/verylazytech/CVE-2024-10914) :  ![starts](https://img.shields.io/github/stars/verylazytech/CVE-2024-10914.svg) ![forks](https://img.shields.io/github/forks/verylazytech/CVE-2024-10914.svg)
 
 
-## CVE-2024-1000
- A vulnerability was found in Totolink N200RE 9.3.5u.6139_B20201216. It has been rated as critical. This issue affects the function setTracerouteCfg of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument command leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-252269 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+## CVE-2024-1058
+ The SiteOrigin Widgets Bundle plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the onclick parameter in all versions up to, and including, 1.58.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers with contributor access or higher to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. 1.58.3 offers a partial fix.
 
-- [https://github.com/RandomRobbieBF/CVE-2024-10008](https://github.com/RandomRobbieBF/CVE-2024-10008) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-10008.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-10008.svg)
-
-
-## CVE-2023-25813
- Sequelize is a Node.js ORM tool. In versions prior to 6.19.1 a SQL injection exploit exists related to replacements. Parameters which are passed through replacements are not properly escaped which can lead to arbitrary SQL injection depending on the specific queries in use. The issue has been fixed in Sequelize 6.19.1. Users are advised to upgrade. Users unable to upgrade should not use the `replacements` and the `where` option in the same query.
-
-- [https://github.com/sea-middle/cve-2023-25813](https://github.com/sea-middle/cve-2023-25813) :  ![starts](https://img.shields.io/github/stars/sea-middle/cve-2023-25813.svg) ![forks](https://img.shields.io/github/forks/sea-middle/cve-2023-25813.svg)
+- [https://github.com/RandomRobbieBF/CVE-2024-10586](https://github.com/RandomRobbieBF/CVE-2024-10586) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-10586.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-10586.svg)
 
 
 ## CVE-2023-4220
  Unrestricted file upload in big file upload functionality in `/main/inc/lib/javascript/bigupload/inc/bigUpload.php` in Chamilo LMS &lt;= v1.11.24 allows unauthenticated attackers to perform stored cross-site scripting attacks and obtain remote code execution via uploading of web shell.
 
-- [https://github.com/thefizzyfish/CVE-2023-4220_Chamilo_RCE](https://github.com/thefizzyfish/CVE-2023-4220_Chamilo_RCE) :  ![starts](https://img.shields.io/github/stars/thefizzyfish/CVE-2023-4220_Chamilo_RCE.svg) ![forks](https://img.shields.io/github/forks/thefizzyfish/CVE-2023-4220_Chamilo_RCE.svg)
+- [https://github.com/oxapavan/CVE-2023-4220-HTB-PermX](https://github.com/oxapavan/CVE-2023-4220-HTB-PermX) :  ![starts](https://img.shields.io/github/stars/oxapavan/CVE-2023-4220-HTB-PermX.svg) ![forks](https://img.shields.io/github/forks/oxapavan/CVE-2023-4220-HTB-PermX.svg)
 
 
-## CVE-2021-20837
- Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 and earlier (Movable Type 6 Series), Movable Type Advanced 7 r.5002 and earlier (Movable Type Advanced 7 Series), Movable Type Advanced 6.8.2 and earlier (Movable Type Advanced 6 Series), Movable Type Premium 1.46 and earlier, and Movable Type Premium Advanced 1.46 and earlier allow remote attackers to execute arbitrary OS commands via unspecified vectors. Note that all versions of Movable Type 4.0 or later including unsupported (End-of-Life, EOL) versions are also affected by this vulnerability.
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/lamcodeofpwnosec/CVE-2021-20837](https://github.com/lamcodeofpwnosec/CVE-2021-20837) :  ![starts](https://img.shields.io/github/stars/lamcodeofpwnosec/CVE-2021-20837.svg) ![forks](https://img.shields.io/github/forks/lamcodeofpwnosec/CVE-2021-20837.svg)
+- [https://github.com/vuongnv3389-sec/cve-2021-41773](https://github.com/vuongnv3389-sec/cve-2021-41773) :  ![starts](https://img.shields.io/github/stars/vuongnv3389-sec/cve-2021-41773.svg) ![forks](https://img.shields.io/github/forks/vuongnv3389-sec/cve-2021-41773.svg)
 
 
-## CVE-2015-1427
- The Groovy scripting engine in Elasticsearch before 1.3.8 and 1.4.x before 1.4.3 allows remote attackers to bypass the sandbox protection mechanism and execute arbitrary shell commands via a crafted script.
+## CVE-2017-7269
+ Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with &quot;If: &lt;http://&quot; in a PROPFIND request, as exploited in the wild in July or August 2016.
 
-- [https://github.com/Sebikea/CVE-2015-1427-for-trixie](https://github.com/Sebikea/CVE-2015-1427-for-trixie) :  ![starts](https://img.shields.io/github/stars/Sebikea/CVE-2015-1427-for-trixie.svg) ![forks](https://img.shields.io/github/forks/Sebikea/CVE-2015-1427-for-trixie.svg)
+- [https://github.com/n3rdh4x0r/CVE-2017-7269](https://github.com/n3rdh4x0r/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2017-7269.svg)
+
+
+## CVE-2016-1531
+ Exim before 4.86.2, when installed setuid root, allows local users to gain privileges via the perl_startup argument.
+
+- [https://github.com/n3rdh4x0r/CVE-2016-1531](https://github.com/n3rdh4x0r/CVE-2016-1531) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2016-1531.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2016-1531.svg)
+
+
+## CVE-2015-6668
+ The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary CV files via a brute force attack to the WordPress upload directory structure, related to an insecure direct object reference.
+
+- [https://github.com/n3rdh4x0r/CVE-2015-6668](https://github.com/n3rdh4x0r/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2015-6668.svg)
+
+
+## CVE-2015-1635
+ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 allows remote attackers to execute arbitrary code via crafted HTTP requests, aka &quot;HTTP.sys Remote Code Execution Vulnerability.&quot;
+
+- [https://github.com/n3rdh4x0r/CVE-2015-1635-POC](https://github.com/n3rdh4x0r/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2015-1635-POC.svg)
+- [https://github.com/n3rdh4x0r/CVE-2015-1635](https://github.com/n3rdh4x0r/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2015-1635.svg)
+
+
+## CVE-2014-0160
+ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not properly handle Heartbeat Extension packets, which allows remote attackers to obtain sensitive information from process memory via crafted packets that trigger a buffer over-read, as demonstrated by reading private keys, related to d1_both.c and t1_lib.c, aka the Heartbleed bug.
+
+- [https://github.com/n3rdh4x0r/CVE-2014-0160_Heartbleed](https://github.com/n3rdh4x0r/CVE-2014-0160_Heartbleed) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2014-0160_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2014-0160_Heartbleed.svg)
+
+
+## CVE-2011-1249
+ The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka &quot;Ancillary Function Driver Elevation of Privilege Vulnerability.&quot;
+
+- [https://github.com/n3rdh4x0r/CVE-2011-1249](https://github.com/n3rdh4x0r/CVE-2011-1249) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2011-1249.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2011-1249.svg)
+
+
+## CVE-2009-2265
+ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow remote attackers to create executable files in arbitrary directories via directory traversal sequences in the input to unspecified connector modules, as exploited in the wild for remote code execution in July 2009, related to the file browser and the editor/filemanager/connectors/ directory.
+
+- [https://github.com/n3rdh4x0r/CVE-2009-2265](https://github.com/n3rdh4x0r/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2009-2265.svg)
+
+
+## CVE-2007-2447
+ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
+
+- [https://github.com/n3rdh4x0r/CVE-2007-2447](https://github.com/n3rdh4x0r/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2007-2447.svg)
+
+
+## CVE-2004-2687
+ distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.
+
+- [https://github.com/n3rdh4x0r/distccd_rce_CVE-2004-2687](https://github.com/n3rdh4x0r/distccd_rce_CVE-2004-2687) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/distccd_rce_CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/distccd_rce_CVE-2004-2687.svg)
 
