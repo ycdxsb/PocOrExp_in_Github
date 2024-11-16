@@ -1,63 +1,85 @@
-# Update 2024-11-15
-## CVE-2024-21534
+# Update 2024-11-16
+## CVE-2024-23334
+ aiohttp is an asynchronous HTTP client/server framework for asyncio and Python. When using aiohttp as a web server and configuring static routes, it is necessary to specify the root path for static files. Additionally, the option 'follow_symlinks' can be used to determine whether to follow symbolic links outside the static root directory. When 'follow_symlinks' is set to True, there is no validation to check if reading a file is within the root directory. This can lead to directory traversal vulnerabilities, resulting in unauthorized access to arbitrary files on the system, even when symlinks are not present. Disabling follow_symlinks and using a reverse proxy are encouraged mitigations. Version 3.9.2 fixes this issue.
+
+- [https://github.com/TheRedP4nther/LFI-aiohttp-CVE-2024-23334-PoC](https://github.com/TheRedP4nther/LFI-aiohttp-CVE-2024-23334-PoC) :  ![starts](https://img.shields.io/github/stars/TheRedP4nther/LFI-aiohttp-CVE-2024-23334-PoC.svg) ![forks](https://img.shields.io/github/forks/TheRedP4nther/LFI-aiohttp-CVE-2024-23334-PoC.svg)
+
+
+## CVE-2024-5764
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/pabloopez/CVE-2024-21534](https://github.com/pabloopez/CVE-2024-21534) :  ![starts](https://img.shields.io/github/stars/pabloopez/CVE-2024-21534.svg) ![forks](https://img.shields.io/github/forks/pabloopez/CVE-2024-21534.svg)
+- [https://github.com/fin3ss3g0d/CVE-2024-5764](https://github.com/fin3ss3g0d/CVE-2024-5764) :  ![starts](https://img.shields.io/github/stars/fin3ss3g0d/CVE-2024-5764.svg) ![forks](https://img.shields.io/github/forks/fin3ss3g0d/CVE-2024-5764.svg)
 
 
-## CVE-2024-5910
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
+## CVE-2024-5230
+ A vulnerability has been found in EnvaySoft FleetCart up to 4.1.1 and classified as problematic. Affected by this vulnerability is an unknown functionality. The manipulation of the argument razorpayKeyId leads to information disclosure. The attack can be launched remotely. It is recommended to upgrade the affected component. The identifier VDB-265981 was assigned to this vulnerability.
 
-- [https://github.com/zetraxz/CVE-2024-5910](https://github.com/zetraxz/CVE-2024-5910) :  ![starts](https://img.shields.io/github/stars/zetraxz/CVE-2024-5910.svg) ![forks](https://img.shields.io/github/forks/zetraxz/CVE-2024-5910.svg)
-
-
-## CVE-2024-5098
- A vulnerability has been found in SourceCodester Simple Inventory System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file login.php. The manipulation of the argument username leads to sql injection. The exploit has been disclosed to the public and may be used. The identifier VDB-265081 was assigned to this vulnerability.
-
-- [https://github.com/riftsandroses/CVE-2024-50986](https://github.com/riftsandroses/CVE-2024-50986) :  ![starts](https://img.shields.io/github/stars/riftsandroses/CVE-2024-50986.svg) ![forks](https://img.shields.io/github/forks/riftsandroses/CVE-2024-50986.svg)
+- [https://github.com/d3sca/CVE-2024-52302](https://github.com/d3sca/CVE-2024-52302) :  ![starts](https://img.shields.io/github/stars/d3sca/CVE-2024-52302.svg) ![forks](https://img.shields.io/github/forks/d3sca/CVE-2024-52302.svg)
+- [https://github.com/Nyamort/CVE-2024-52301](https://github.com/Nyamort/CVE-2024-52301) :  ![starts](https://img.shields.io/github/stars/Nyamort/CVE-2024-52301.svg) ![forks](https://img.shields.io/github/forks/Nyamort/CVE-2024-52301.svg)
 
 
-## CVE-2024-5096
- A vulnerability classified as problematic was found in Hipcam Device up to 20240511. This vulnerability affects unknown code of the file /log/wifi.mac of the component MAC Address Handler. The manipulation leads to information disclosure. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-265078 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+## CVE-2024-4757
+ The Logo Manager For Enamad WordPress plugin through 0.7.0 does not have CSRF check in some places, and is missing sanitisation as well as escaping, which could allow attackers to make logged in admin add Stored XSS payloads via a CSRF attack
 
-- [https://github.com/fdzdev/CVE-2024-50964](https://github.com/fdzdev/CVE-2024-50964) :  ![starts](https://img.shields.io/github/stars/fdzdev/CVE-2024-50964.svg) ![forks](https://img.shields.io/github/forks/fdzdev/CVE-2024-50964.svg)
-- [https://github.com/fdzdev/CVE-2024-50962](https://github.com/fdzdev/CVE-2024-50962) :  ![starts](https://img.shields.io/github/stars/fdzdev/CVE-2024-50962.svg) ![forks](https://img.shields.io/github/forks/fdzdev/CVE-2024-50962.svg)
-- [https://github.com/fdzdev/CVE-2024-50961](https://github.com/fdzdev/CVE-2024-50961) :  ![starts](https://img.shields.io/github/stars/fdzdev/CVE-2024-50961.svg) ![forks](https://img.shields.io/github/forks/fdzdev/CVE-2024-50961.svg)
+- [https://github.com/watchtowrlabs/Fortijump-Exploit-CVE-2024-47575](https://github.com/watchtowrlabs/Fortijump-Exploit-CVE-2024-47575) :  ![starts](https://img.shields.io/github/stars/watchtowrlabs/Fortijump-Exploit-CVE-2024-47575.svg) ![forks](https://img.shields.io/github/forks/watchtowrlabs/Fortijump-Exploit-CVE-2024-47575.svg)
 
 
-## CVE-2024-4309
- SQL injection vulnerability in HubBank affecting version 1.0.2. This vulnerability could allow an attacker to send a specially crafted SQL query to the database through different endpoints (/user/transaction.php?id=1, /user/credit-debit_transaction.php?id=1,/user/view_transaction. php?id=1 and /user/viewloantrans.php?id=1, id parameter) and retrieve the information stored in the database.
+## CVE-2024-4638
+ OnCell G3470A-LTE Series firmware versions v1.7.7 and prior have been identified as vulnerable due to a lack of neutralized inputs in the web key upload function. An attacker could modify the intended commands sent to target functions, which could cause malicious users to execute unauthorized commands.
 
-- [https://github.com/expl0itsecurity/CVE-2024-43093-43047](https://github.com/expl0itsecurity/CVE-2024-43093-43047) :  ![starts](https://img.shields.io/github/stars/expl0itsecurity/CVE-2024-43093-43047.svg) ![forks](https://img.shields.io/github/forks/expl0itsecurity/CVE-2024-43093-43047.svg)
-
-
-## CVE-2023-4220
- Unrestricted file upload in big file upload functionality in `/main/inc/lib/javascript/bigupload/inc/bigUpload.php` in Chamilo LMS &lt;= v1.11.24 allows unauthenticated attackers to perform stored cross-site scripting attacks and obtain remote code execution via uploading of web shell.
-
-- [https://github.com/numaan911098/CVE-2023-4220](https://github.com/numaan911098/CVE-2023-4220) :  ![starts](https://img.shields.io/github/stars/numaan911098/CVE-2023-4220.svg) ![forks](https://img.shields.io/github/forks/numaan911098/CVE-2023-4220.svg)
+- [https://github.com/nitinronge91/Sensitive-Information-disclosure-via-SPI-flash-firmware-for-Hathway-router-CVE-2024-46383](https://github.com/nitinronge91/Sensitive-Information-disclosure-via-SPI-flash-firmware-for-Hathway-router-CVE-2024-46383) :  ![starts](https://img.shields.io/github/stars/nitinronge91/Sensitive-Information-disclosure-via-SPI-flash-firmware-for-Hathway-router-CVE-2024-46383.svg) ![forks](https://img.shields.io/github/forks/nitinronge91/Sensitive-Information-disclosure-via-SPI-flash-firmware-for-Hathway-router-CVE-2024-46383.svg)
 
 
-## CVE-2022-21661
- WordPress is a free and open-source content management system written in PHP and paired with a MariaDB database. Due to improper sanitization in WP_Query, there can be cases where SQL injection is possible through plugins or themes that use it in a certain way. This has been patched in WordPress version 5.8.3. Older affected versions are also fixed via security release, that go back till 3.7.37. We strongly recommend that you keep auto-updates enabled. There are no known workarounds for this vulnerability.
+## CVE-2024-4462
+ The Nafeza Prayer Time plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 1.2.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
 
-- [https://github.com/kittypurrnaz/cve-2022-21661](https://github.com/kittypurrnaz/cve-2022-21661) :  ![starts](https://img.shields.io/github/stars/kittypurrnaz/cve-2022-21661.svg) ![forks](https://img.shields.io/github/forks/kittypurrnaz/cve-2022-21661.svg)
-
-
-## CVE-2021-3831
- gnuboard5 is vulnerable to Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
-
-- [https://github.com/aratane/CVE-2021-3831](https://github.com/aratane/CVE-2021-3831) :  ![starts](https://img.shields.io/github/stars/aratane/CVE-2021-3831.svg) ![forks](https://img.shields.io/github/forks/aratane/CVE-2021-3831.svg)
+- [https://github.com/Fysac/CVE-2024-44625](https://github.com/Fysac/CVE-2024-44625) :  ![starts](https://img.shields.io/github/stars/Fysac/CVE-2024-44625.svg) ![forks](https://img.shields.io/github/forks/Fysac/CVE-2024-44625.svg)
 
 
-## CVE-2021-3156
- Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
+## CVE-2024-1092
+ The RSS Aggregator by Feedzy &#8211; Feed to Post, Autoblogging, News &amp; YouTube Video Feeds Aggregator plugin for WordPress is vulnerable to unauthorized data modification due to a missing capability check on the feedzy dashboard in all versions up to, and including, 4.4.1. This makes it possible for authenticated attackers, with contributor access or higher, to create, edit or delete feed categories created by them.
 
-- [https://github.com/Bad3r/CVE-2021-3156-without-ip-command](https://github.com/Bad3r/CVE-2021-3156-without-ip-command) :  ![starts](https://img.shields.io/github/stars/Bad3r/CVE-2021-3156-without-ip-command.svg) ![forks](https://img.shields.io/github/forks/Bad3r/CVE-2021-3156-without-ip-command.svg)
+- [https://github.com/RandomRobbieBF/CVE-2024-10924](https://github.com/RandomRobbieBF/CVE-2024-10924) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-10924.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-10924.svg)
 
 
-## CVE-2019-11869
- The Yuzo Related Posts plugin 5.12.94 for WordPress has XSS because it mistakenly expects that is_admin() verifies that the request comes from an admin user (it actually only verifies that the request is for an admin page). An unauthenticated attacker can inject a payload into the plugin settings, such as the yuzo_related_post_css_and_style setting.
+## CVE-2023-36424
+ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
-- [https://github.com/gitrecon1455/CVE-2019-11869](https://github.com/gitrecon1455/CVE-2019-11869) :  ![starts](https://img.shields.io/github/stars/gitrecon1455/CVE-2019-11869.svg) ![forks](https://img.shields.io/github/forks/gitrecon1455/CVE-2019-11869.svg)
-- [https://github.com/rix4uni/CVE-2019-11869](https://github.com/rix4uni/CVE-2019-11869) :  ![starts](https://img.shields.io/github/stars/rix4uni/CVE-2019-11869.svg) ![forks](https://img.shields.io/github/forks/rix4uni/CVE-2019-11869.svg)
+- [https://github.com/zerozenxlabs/CVE-2023-36424](https://github.com/zerozenxlabs/CVE-2023-36424) :  ![starts](https://img.shields.io/github/stars/zerozenxlabs/CVE-2023-36424.svg) ![forks](https://img.shields.io/github/forks/zerozenxlabs/CVE-2023-36424.svg)
+
+
+## CVE-2023-27997
+ A heap-based buffer overflow vulnerability [CWE-122] in FortiOS version 7.2.4 and below, version 7.0.11 and below, version 6.4.12 and below, version 6.0.16 and below and FortiProxy version 7.2.3 and below, version 7.0.9 and below, version 2.0.12 and below, version 1.2 all versions, version 1.1 all versions SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests.
+
+- [https://github.com/node011/CVE-2023-27997-POC](https://github.com/node011/CVE-2023-27997-POC) :  ![starts](https://img.shields.io/github/stars/node011/CVE-2023-27997-POC.svg) ![forks](https://img.shields.io/github/forks/node011/CVE-2023-27997-POC.svg)
+
+
+## CVE-2023-7261
+ Inappropriate implementation in Google Updator prior to 1.3.36.351 in Google Chrome allowed a local attacker to perform privilege escalation via a malicious file. (Chromium security severity: High)
+
+- [https://github.com/zerozenxlabs/CVE-2023-7261](https://github.com/zerozenxlabs/CVE-2023-7261) :  ![starts](https://img.shields.io/github/stars/zerozenxlabs/CVE-2023-7261.svg) ![forks](https://img.shields.io/github/forks/zerozenxlabs/CVE-2023-7261.svg)
+
+
+## CVE-2022-20474
+ In readLazyValue of Parcel.java, there is a possible loading of arbitrary code into the System Settings app due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-240138294
+
+- [https://github.com/cxxsheng/CVE-2022-20474](https://github.com/cxxsheng/CVE-2022-20474) :  ![starts](https://img.shields.io/github/stars/cxxsheng/CVE-2022-20474.svg) ![forks](https://img.shields.io/github/forks/cxxsheng/CVE-2022-20474.svg)
+
+
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+
+- [https://github.com/xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/xMohamed0/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/xMohamed0/CVE-2021-41773.svg)
+
+
+## CVE-2019-1653
+ A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.
+
+- [https://github.com/elzerjp/nuclei-CiscoRV320Dump-CVE-2019-1653](https://github.com/elzerjp/nuclei-CiscoRV320Dump-CVE-2019-1653) :  ![starts](https://img.shields.io/github/stars/elzerjp/nuclei-CiscoRV320Dump-CVE-2019-1653.svg) ![forks](https://img.shields.io/github/forks/elzerjp/nuclei-CiscoRV320Dump-CVE-2019-1653.svg)
+
+
+## CVE-2018-25031
+ Swagger UI before 4.1.3 could allow a remote attacker to conduct spoofing attacks. By persuading a victim to open a crafted URL, an attacker could exploit this vulnerability to display remote OpenAPI definitions.
+
+- [https://github.com/KonEch0/CVE-2018-25031-SG](https://github.com/KonEch0/CVE-2018-25031-SG) :  ![starts](https://img.shields.io/github/stars/KonEch0/CVE-2018-25031-SG.svg) ![forks](https://img.shields.io/github/forks/KonEch0/CVE-2018-25031-SG.svg)
 
