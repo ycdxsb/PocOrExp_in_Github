@@ -255,6 +255,8 @@
 
 - [https://github.com/zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/zhsh9/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/zhsh9/CVE-2014-6287.svg)
 
+- [https://github.com/francescobrina/hfs-cve-2014-6287-exploit](https://github.com/francescobrina/hfs-cve-2014-6287-exploit) :  ![starts](https://img.shields.io/github/stars/francescobrina/hfs-cve-2014-6287-exploit.svg) ![forks](https://img.shields.io/github/forks/francescobrina/hfs-cve-2014-6287-exploit.svg)
+
 - [https://github.com/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287](https://github.com/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287.svg)
 
 ## CVE-2014-6271
@@ -374,17 +376,17 @@
 
 - [https://github.com/hanmin0512/CVE-2014-6271_pwnable](https://github.com/hanmin0512/CVE-2014-6271_pwnable) :  ![starts](https://img.shields.io/github/stars/hanmin0512/CVE-2014-6271_pwnable.svg) ![forks](https://img.shields.io/github/forks/hanmin0512/CVE-2014-6271_pwnable.svg)
 
-- [https://github.com/Pilou-Pilou/docker_CVE-2014-6271.](https://github.com/Pilou-Pilou/docker_CVE-2014-6271.) :  ![starts](https://img.shields.io/github/stars/Pilou-Pilou/docker_CVE-2014-6271..svg) ![forks](https://img.shields.io/github/forks/Pilou-Pilou/docker_CVE-2014-6271..svg)
-
 - [https://github.com/dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes) :  ![starts](https://img.shields.io/github/stars/dlitz/bash-cve-2014-6271-fixes.svg) ![forks](https://img.shields.io/github/forks/dlitz/bash-cve-2014-6271-fixes.svg)
+
+- [https://github.com/Pilou-Pilou/docker_CVE-2014-6271.](https://github.com/Pilou-Pilou/docker_CVE-2014-6271.) :  ![starts](https://img.shields.io/github/stars/Pilou-Pilou/docker_CVE-2014-6271..svg) ![forks](https://img.shields.io/github/forks/Pilou-Pilou/docker_CVE-2014-6271..svg)
 
 - [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
 
 - [https://github.com/cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Shellbash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Shellbash-CVE-2014-6271.svg)
 
-- [https://github.com/ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check) :  ![starts](https://img.shields.io/github/stars/ilismal/Nessus_CVE-2014-6271_check.svg) ![forks](https://img.shields.io/github/forks/ilismal/Nessus_CVE-2014-6271_check.svg)
-
 - [https://github.com/kelleykong/cve-2014-6271-mengjia-kong](https://github.com/kelleykong/cve-2014-6271-mengjia-kong) :  ![starts](https://img.shields.io/github/stars/kelleykong/cve-2014-6271-mengjia-kong.svg) ![forks](https://img.shields.io/github/forks/kelleykong/cve-2014-6271-mengjia-kong.svg)
+
+- [https://github.com/ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check) :  ![starts](https://img.shields.io/github/stars/ilismal/Nessus_CVE-2014-6271_check.svg) ![forks](https://img.shields.io/github/forks/ilismal/Nessus_CVE-2014-6271_check.svg)
 
 - [https://github.com/jblaine/cookbook-bash-CVE-2014-6271](https://github.com/jblaine/cookbook-bash-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/jblaine/cookbook-bash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/jblaine/cookbook-bash-CVE-2014-6271.svg)
 
