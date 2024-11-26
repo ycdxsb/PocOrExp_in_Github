@@ -204,9 +204,9 @@
 
 - [https://github.com/CpyRe/CVE-2012-2982](https://github.com/CpyRe/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/CpyRe/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/CpyRe/CVE-2012-2982.svg)
 
-- [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
-
 - [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
+
+- [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
 
 - [https://github.com/Shadow-Spinner/CVE-2012-2982_python](https://github.com/Shadow-Spinner/CVE-2012-2982_python) :  ![starts](https://img.shields.io/github/stars/Shadow-Spinner/CVE-2012-2982_python.svg) ![forks](https://img.shields.io/github/forks/Shadow-Spinner/CVE-2012-2982_python.svg)
 
@@ -266,6 +266,13 @@
 
 
 - [https://github.com/dja2TaqkGEEfA45/CVE-2012-1870](https://github.com/dja2TaqkGEEfA45/CVE-2012-1870) :  ![starts](https://img.shields.io/github/stars/dja2TaqkGEEfA45/CVE-2012-1870.svg) ![forks](https://img.shields.io/github/forks/dja2TaqkGEEfA45/CVE-2012-1870.svg)
+
+## CVE-2012-1831
+ Heap-based buffer overflow in WellinTech KingView 6.53 allows remote attackers to execute arbitrary code via a crafted packet to TCP port 555.
+
+
+
+- [https://github.com/Astrowmist/POC-CVE-2012-1831](https://github.com/Astrowmist/POC-CVE-2012-1831) :  ![starts](https://img.shields.io/github/stars/Astrowmist/POC-CVE-2012-1831.svg) ![forks](https://img.shields.io/github/forks/Astrowmist/POC-CVE-2012-1831.svg)
 
 ## CVE-2012-1823
  sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured as a CGI script (aka php-cgi), does not properly handle query strings that lack an = (equals sign) character, which allows remote attackers to execute arbitrary code by placing command-line options in the query string, related to lack of skipping a certain php_getopt for the 'd' case.
