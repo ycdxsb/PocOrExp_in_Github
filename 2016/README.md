@@ -801,6 +801,8 @@
 
 - [https://github.com/droidvoider/dirtycow-replacer](https://github.com/droidvoider/dirtycow-replacer) :  ![starts](https://img.shields.io/github/stars/droidvoider/dirtycow-replacer.svg) ![forks](https://img.shields.io/github/forks/droidvoider/dirtycow-replacer.svg)
 
+- [https://github.com/talsim/root-dirtyc0w](https://github.com/talsim/root-dirtyc0w) :  ![starts](https://img.shields.io/github/stars/talsim/root-dirtyc0w.svg) ![forks](https://img.shields.io/github/forks/talsim/root-dirtyc0w.svg)
+
 - [https://github.com/esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo) :  ![starts](https://img.shields.io/github/stars/esc0rtd3w/org.cowpoop.moooooo.svg) ![forks](https://img.shields.io/github/forks/esc0rtd3w/org.cowpoop.moooooo.svg)
 
 - [https://github.com/LinuxKernelContent/DirtyCow](https://github.com/LinuxKernelContent/DirtyCow) :  ![starts](https://img.shields.io/github/stars/LinuxKernelContent/DirtyCow.svg) ![forks](https://img.shields.io/github/forks/LinuxKernelContent/DirtyCow.svg)
@@ -808,8 +810,6 @@
 - [https://github.com/arttnba3/CVE-2016-5195](https://github.com/arttnba3/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/arttnba3/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/arttnba3/CVE-2016-5195.svg)
 
 - [https://github.com/FloridSleeves/os-experiment-4](https://github.com/FloridSleeves/os-experiment-4) :  ![starts](https://img.shields.io/github/stars/FloridSleeves/os-experiment-4.svg) ![forks](https://img.shields.io/github/forks/FloridSleeves/os-experiment-4.svg)
-
-- [https://github.com/talsim/root-dirtyc0w](https://github.com/talsim/root-dirtyc0w) :  ![starts](https://img.shields.io/github/stars/talsim/root-dirtyc0w.svg) ![forks](https://img.shields.io/github/forks/talsim/root-dirtyc0w.svg)
 
 - [https://github.com/TotallyNotAHaxxer/CVE-2016-5195](https://github.com/TotallyNotAHaxxer/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/TotallyNotAHaxxer/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/TotallyNotAHaxxer/CVE-2016-5195.svg)
 
