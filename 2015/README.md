@@ -1058,6 +1058,8 @@
 
 - [https://github.com/Wytchwulf/CVE-2015-1397-Magento-Shoplift](https://github.com/Wytchwulf/CVE-2015-1397-Magento-Shoplift) :  ![starts](https://img.shields.io/github/stars/Wytchwulf/CVE-2015-1397-Magento-Shoplift.svg) ![forks](https://img.shields.io/github/forks/Wytchwulf/CVE-2015-1397-Magento-Shoplift.svg)
 
+- [https://github.com/0xDTC/Magento-eCommerce-RCE-CVE-2015-1397](https://github.com/0xDTC/Magento-eCommerce-RCE-CVE-2015-1397) :  ![starts](https://img.shields.io/github/stars/0xDTC/Magento-eCommerce-RCE-CVE-2015-1397.svg) ![forks](https://img.shields.io/github/forks/0xDTC/Magento-eCommerce-RCE-CVE-2015-1397.svg)
+
 ## CVE-2015-1328
  The overlayfs implementation in the linux (aka Linux kernel) package before 3.19.0-21.21 in Ubuntu through 15.04 does not properly check permissions for file creation in the upper filesystem directory, which allows local users to obtain root access by leveraging a configuration in which overlayfs is permitted in an arbitrary mount namespace.
 
@@ -1070,6 +1072,8 @@
 - [https://github.com/YastrebX/CVE-2015-1328](https://github.com/YastrebX/CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/YastrebX/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/YastrebX/CVE-2015-1328.svg)
 
 - [https://github.com/BlackFrog-hub/cve-2015-1328](https://github.com/BlackFrog-hub/cve-2015-1328) :  ![starts](https://img.shields.io/github/stars/BlackFrog-hub/cve-2015-1328.svg) ![forks](https://img.shields.io/github/forks/BlackFrog-hub/cve-2015-1328.svg)
+
+- [https://github.com/devtz007/overlayfs_CVE-2015-1328](https://github.com/devtz007/overlayfs_CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/devtz007/overlayfs_CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/devtz007/overlayfs_CVE-2015-1328.svg)
 
 - [https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328](https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328.svg)
 
