@@ -1,86 +1,62 @@
-# Update 2024-11-28
-## CVE-2024-5325
+# Update 2024-11-29
+## CVE-2024-39090
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/0x4M3R/CVE-2024-53255](https://github.com/0x4M3R/CVE-2024-53255) :  ![starts](https://img.shields.io/github/stars/0x4M3R/CVE-2024-53255.svg) ![forks](https://img.shields.io/github/forks/0x4M3R/CVE-2024-53255.svg)
+- [https://github.com/ghostwirez/CVE-2024-39090-PoC](https://github.com/ghostwirez/CVE-2024-39090-PoC) :  ![starts](https://img.shields.io/github/stars/ghostwirez/CVE-2024-39090-PoC.svg) ![forks](https://img.shields.io/github/forks/ghostwirez/CVE-2024-39090-PoC.svg)
 
 
-## CVE-2024-5156
- The Flatsome theme for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's shortcode(s) in all versions up to, and including, 3.18.7 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+## CVE-2024-36401
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/XiaomingX/cve-2024-51567-poc](https://github.com/XiaomingX/cve-2024-51567-poc) :  ![starts](https://img.shields.io/github/stars/XiaomingX/cve-2024-51567-poc.svg) ![forks](https://img.shields.io/github/forks/XiaomingX/cve-2024-51567-poc.svg)
+- [https://github.com/0x0d3ad/CVE-2024-36401](https://github.com/0x0d3ad/CVE-2024-36401) :  ![starts](https://img.shields.io/github/stars/0x0d3ad/CVE-2024-36401.svg) ![forks](https://img.shields.io/github/forks/0x0d3ad/CVE-2024-36401.svg)
 
 
-## CVE-2024-1147
- Weak access control in OpenText PVCS Version Manager allows potential bypassing of authentication and download of files.
+## CVE-2024-1168
+ The SEOPress &#8211; On-site SEO plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's social image URL in all versions up to, and including, 7.9 due to insufficient input sanitization and output escaping on user supplied image URLs. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 
-- [https://github.com/maybelookis/CVE-2024-11477](https://github.com/maybelookis/CVE-2024-11477) :  ![starts](https://img.shields.io/github/stars/maybelookis/CVE-2024-11477.svg) ![forks](https://img.shields.io/github/forks/maybelookis/CVE-2024-11477.svg)
+- [https://github.com/exploitboom/CVE-2024-11680](https://github.com/exploitboom/CVE-2024-11680) :  ![starts](https://img.shields.io/github/stars/exploitboom/CVE-2024-11680.svg) ![forks](https://img.shields.io/github/forks/exploitboom/CVE-2024-11680.svg)
+- [https://github.com/famixcm/CVE-2024-11680](https://github.com/famixcm/CVE-2024-11680) :  ![starts](https://img.shields.io/github/stars/famixcm/CVE-2024-11680.svg) ![forks](https://img.shields.io/github/forks/famixcm/CVE-2024-11680.svg)
+
+
+## CVE-2024-1092
+ The RSS Aggregator by Feedzy &#8211; Feed to Post, Autoblogging, News &amp; YouTube Video Feeds Aggregator plugin for WordPress is vulnerable to unauthorized data modification due to a missing capability check on the feedzy dashboard in all versions up to, and including, 4.4.1. This makes it possible for authenticated attackers, with contributor access or higher, to create, edit or delete feed categories created by them.
+
+- [https://github.com/Maalfer/CVE-2024-10924-PoC](https://github.com/Maalfer/CVE-2024-10924-PoC) :  ![starts](https://img.shields.io/github/stars/Maalfer/CVE-2024-10924-PoC.svg) ![forks](https://img.shields.io/github/forks/Maalfer/CVE-2024-10924-PoC.svg)
+
+
+## CVE-2024-1091
+ The ImageRecycle pdf &amp; image compression plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the reinitialize function in all versions up to, and including, 3.1.13. This makes it possible for authenticated attackers, with subscriber-level access and above, to remove all plugin data.
+
+- [https://github.com/retuci0/cve-2024-10914-port](https://github.com/retuci0/cve-2024-10914-port) :  ![starts](https://img.shields.io/github/stars/retuci0/cve-2024-10914-port.svg) ![forks](https://img.shields.io/github/forks/retuci0/cve-2024-10914-port.svg)
+- [https://github.com/K3ysTr0K3R/CVE-2024-10914-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-10914-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2024-10914-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2024-10914-EXPLOIT.svg)
 
 
 ## CVE-2024-1054
  The Booster for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'wcj_product_barcode' shortcode in all versions up to, and including, 7.1.6 due to insufficient input sanitization and output escaping on user supplied attributes like 'color'. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 
-- [https://github.com/ubaii/CVE-2024-10542](https://github.com/ubaii/CVE-2024-10542) :  ![starts](https://img.shields.io/github/stars/ubaii/CVE-2024-10542.svg) ![forks](https://img.shields.io/github/forks/ubaii/CVE-2024-10542.svg)
+- [https://github.com/FoKiiin/CVE-2024-10542](https://github.com/FoKiiin/CVE-2024-10542) :  ![starts](https://img.shields.io/github/stars/FoKiiin/CVE-2024-10542.svg) ![forks](https://img.shields.io/github/forks/FoKiiin/CVE-2024-10542.svg)
 
 
-## CVE-2023-38646
- Metabase open source before 0.46.6.1 and Metabase Enterprise before 1.46.6.1 allow attackers to execute arbitrary commands on the server, at the server's privilege level. Authentication is not required for exploitation. The other fixed versions are 0.45.4.1, 1.45.4.1, 0.44.7.1, 1.44.7.1, 0.43.7.2, and 1.43.7.2.
+## CVE-2023-2163
+ Incorrect verifier pruning in BPF in Linux Kernel &gt;=5.4 leads to unsafe code paths being incorrectly marked as safe, resulting in arbitrary read/write in kernel memory, lateral privilege escalation, and container escape.
 
-- [https://github.com/JayRyz/CVE-2023-38646-PoC-Metabase](https://github.com/JayRyz/CVE-2023-38646-PoC-Metabase) :  ![starts](https://img.shields.io/github/stars/JayRyz/CVE-2023-38646-PoC-Metabase.svg) ![forks](https://img.shields.io/github/forks/JayRyz/CVE-2023-38646-PoC-Metabase.svg)
-
-
-## CVE-2023-33246
- For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk of remote command execution. Several components of RocketMQ, including NameServer, Broker, and Controller, are leaked on the extranet and lack permission verification, an attacker can exploit this vulnerability by using the update configuration function to execute commands as the system users that RocketMQ is running as. Additionally, an attacker can achieve the same effect by forging the RocketMQ protocol content. To prevent these attacks, users are recommended to upgrade to version 5.1.1 or above for using RocketMQ 5.x or 4.9.6 or above for using RocketMQ 4.x .
-
-- [https://github.com/Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-](https://github.com/Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-) :  ![starts](https://img.shields.io/github/stars/Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-.svg) ![forks](https://img.shields.io/github/forks/Sumitpathania03/Apache-RocketMQ-CVE-2023-33246-.svg)
+- [https://github.com/letsr00t/CVE-2023-2163](https://github.com/letsr00t/CVE-2023-2163) :  ![starts](https://img.shields.io/github/stars/letsr00t/CVE-2023-2163.svg) ![forks](https://img.shields.io/github/forks/letsr00t/CVE-2023-2163.svg)
 
 
-## CVE-2023-32428
- This issue was addressed with improved file handling. This issue is fixed in macOS Ventura 13.4, tvOS 16.5, iOS 16.5 and iPadOS 16.5, watchOS 9.5. An app may be able to gain root privileges.
+## CVE-2021-3490
+ The eBPF ALU32 bounds tracking for bitwise ops (AND, OR and XOR) in the Linux kernel did not properly update 32-bit bounds, which could be turned into out of bounds reads and writes in the Linux kernel and therefore, arbitrary code execution. This issue was fixed via commit 049c4e13714e (&quot;bpf: Fix alu32 const subreg bound tracking on bitwise operations&quot;) (v5.13-rc4) and backported to the stable kernels in v5.12.4, v5.11.21, and v5.10.37. The AND/OR issues were introduced by commit 3f50f132d840 (&quot;bpf: Verifier, do explicit ALU32 bounds tracking&quot;) (5.7-rc1) and the XOR variant was introduced by 2921c90d4718 (&quot;bpf:Fix a verifier failure with xor&quot;) ( 5.10-rc1).
 
-- [https://github.com/gergelykalman/CVE-2023-32428-a-macOS-LPE-via-MallocStackLogging](https://github.com/gergelykalman/CVE-2023-32428-a-macOS-LPE-via-MallocStackLogging) :  ![starts](https://img.shields.io/github/stars/gergelykalman/CVE-2023-32428-a-macOS-LPE-via-MallocStackLogging.svg) ![forks](https://img.shields.io/github/forks/gergelykalman/CVE-2023-32428-a-macOS-LPE-via-MallocStackLogging.svg)
-
-
-## CVE-2022-28171
- The web module in some Hikvision Hybrid SAN/Cluster Storage products have the following security vulnerability. Due to the insufficient input validation, attacker can exploit the vulnerability to execute restricted commands by sending messages with malicious commands to the affected device.
-
-- [https://github.com/aengussong/hikvision_probe](https://github.com/aengussong/hikvision_probe) :  ![starts](https://img.shields.io/github/stars/aengussong/hikvision_probe.svg) ![forks](https://img.shields.io/github/forks/aengussong/hikvision_probe.svg)
+- [https://github.com/BanaxavSplit/CVE-2021-3490](https://github.com/BanaxavSplit/CVE-2021-3490) :  ![starts](https://img.shields.io/github/stars/BanaxavSplit/CVE-2021-3490.svg) ![forks](https://img.shields.io/github/forks/BanaxavSplit/CVE-2021-3490.svg)
 
 
-## CVE-2022-25845
- The package com.alibaba:fastjson before 1.2.83 are vulnerable to Deserialization of Untrusted Data by bypassing the default autoType shutdown restrictions, which is possible under certain conditions. Exploiting this vulnerability allows attacking remote servers. Workaround: If upgrading is not possible, you can enable [safeMode](https://github.com/alibaba/fastjson/wiki/fastjson_safemode).
+## CVE-2019-5736
+ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allows attackers to overwrite the host runc binary (and consequently obtain host root access) by leveraging the ability to execute a command as root within one of these types of containers: (1) a new container with an attacker-controlled image, or (2) an existing container, to which the attacker previously had write access, that can be attached with docker exec. This occurs because of file-descriptor mishandling, related to /proc/self/exe.
 
-- [https://github.com/ph0ebus/CVE-2022-25845-In-Spring](https://github.com/ph0ebus/CVE-2022-25845-In-Spring) :  ![starts](https://img.shields.io/github/stars/ph0ebus/CVE-2022-25845-In-Spring.svg) ![forks](https://img.shields.io/github/forks/ph0ebus/CVE-2022-25845-In-Spring.svg)
-
-
-## CVE-2022-22947
- In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enabled, exposed and unsecured. A remote attacker could make a maliciously crafted request that could allow arbitrary remote execution on the remote host.
-
-- [https://github.com/Sumitpathania03/CVE-2022-22947](https://github.com/Sumitpathania03/CVE-2022-22947) :  ![starts](https://img.shields.io/github/stars/Sumitpathania03/CVE-2022-22947.svg) ![forks](https://img.shields.io/github/forks/Sumitpathania03/CVE-2022-22947.svg)
+- [https://github.com/sonyavalo/CVE-2019-5736-attack-and-security-mechanism](https://github.com/sonyavalo/CVE-2019-5736-attack-and-security-mechanism) :  ![starts](https://img.shields.io/github/stars/sonyavalo/CVE-2019-5736-attack-and-security-mechanism.svg) ![forks](https://img.shields.io/github/forks/sonyavalo/CVE-2019-5736-attack-and-security-mechanism.svg)
 
 
-## CVE-2021-36260
- A command injection vulnerability in the web server of some Hikvision product. Due to the insufficient input validation, attacker can exploit the vulnerability to launch a command injection attack by sending some messages with malicious commands.
+## CVE-2018-13379
+ An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Traversal&quot;) in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.3 to 5.6.7 and 5.4.6 to 5.4.12 and FortiProxy 2.0.0, 1.2.0 to 1.2.8, 1.1.0 to 1.1.6, 1.0.0 to 1.0.7 under SSL VPN web portal allows an unauthenticated attacker to download system files via special crafted HTTP resource requests.
 
-- [https://github.com/aengussong/hikvision_probe](https://github.com/aengussong/hikvision_probe) :  ![starts](https://img.shields.io/github/stars/aengussong/hikvision_probe.svg) ![forks](https://img.shields.io/github/forks/aengussong/hikvision_probe.svg)
-
-
-## CVE-2018-7422
- A Local File Inclusion vulnerability in the Site Editor plugin through 1.1.1 for WordPress allows remote attackers to retrieve arbitrary files via the ajax_path parameter to editor/extensions/pagebuilder/includes/ajax_shortcode_pattern.php, aka absolute path traversal.
-
-- [https://github.com/JacobEbben/CVE-2018-7422](https://github.com/JacobEbben/CVE-2018-7422) :  ![starts](https://img.shields.io/github/stars/JacobEbben/CVE-2018-7422.svg) ![forks](https://img.shields.io/github/forks/JacobEbben/CVE-2018-7422.svg)
-- [https://github.com/jessisec/CVE-2018-7422](https://github.com/jessisec/CVE-2018-7422) :  ![starts](https://img.shields.io/github/stars/jessisec/CVE-2018-7422.svg) ![forks](https://img.shields.io/github/forks/jessisec/CVE-2018-7422.svg)
-- [https://github.com/0x00-0x00/CVE-2018-7422](https://github.com/0x00-0x00/CVE-2018-7422) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2018-7422.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2018-7422.svg)
-
-
-## CVE-2015-1397
- SQL injection vulnerability in the getCsvFile function in the Mage_Adminhtml_Block_Widget_Grid class in Magento Community Edition (CE) 1.9.1.0 and Enterprise Edition (EE) 1.14.1.0 allows remote administrators to execute arbitrary SQL commands via the popularity[field_expr] parameter when the popularity[from] or popularity[to] parameter is set.
-
-- [https://github.com/0xDTC/Magento-eCommerce-RCE-CVE-2015-1397](https://github.com/0xDTC/Magento-eCommerce-RCE-CVE-2015-1397) :  ![starts](https://img.shields.io/github/stars/0xDTC/Magento-eCommerce-RCE-CVE-2015-1397.svg) ![forks](https://img.shields.io/github/forks/0xDTC/Magento-eCommerce-RCE-CVE-2015-1397.svg)
-
-
-## CVE-2015-1328
- The overlayfs implementation in the linux (aka Linux kernel) package before 3.19.0-21.21 in Ubuntu through 15.04 does not properly check permissions for file creation in the upper filesystem directory, which allows local users to obtain root access by leveraging a configuration in which overlayfs is permitted in an arbitrary mount namespace.
-
-- [https://github.com/devtz007/overlayfs_CVE-2015-1328](https://github.com/devtz007/overlayfs_CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/devtz007/overlayfs_CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/devtz007/overlayfs_CVE-2015-1328.svg)
+- [https://github.com/Farzan-Kh/CVE-2018-13379](https://github.com/Farzan-Kh/CVE-2018-13379) :  ![starts](https://img.shields.io/github/stars/Farzan-Kh/CVE-2018-13379.svg) ![forks](https://img.shields.io/github/forks/Farzan-Kh/CVE-2018-13379.svg)
 
