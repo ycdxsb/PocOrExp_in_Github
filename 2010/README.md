@@ -207,9 +207,9 @@
 
 
 
-- [https://github.com/ChristianPapathanasiou/jboss-autopwn](https://github.com/ChristianPapathanasiou/jboss-autopwn) :  ![starts](https://img.shields.io/github/stars/ChristianPapathanasiou/jboss-autopwn.svg) ![forks](https://img.shields.io/github/forks/ChristianPapathanasiou/jboss-autopwn.svg)
-
 - [https://github.com/gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn) :  ![starts](https://img.shields.io/github/stars/gitcollect/jboss-autopwn.svg) ![forks](https://img.shields.io/github/forks/gitcollect/jboss-autopwn.svg)
+
+- [https://github.com/1872892142/jboss-autopwn-1](https://github.com/1872892142/jboss-autopwn-1) :  ![starts](https://img.shields.io/github/stars/1872892142/jboss-autopwn-1.svg) ![forks](https://img.shields.io/github/forks/1872892142/jboss-autopwn-1.svg)
 
 ## CVE-2010-0426
  sudo 1.6.x before 1.6.9p21 and 1.7.x before 1.7.2p4, when a pseudo-command is enabled, permits a match between the name of the pseudo-command and the name of an executable file in an arbitrary directory, which allows local users to gain privileges via a crafted executable file, as demonstrated by a file named sudoedit in a user's home directory.
