@@ -1,3 +1,10 @@
+## CVE-2004-2761
+ The MD5 Message-Digest Algorithm is not collision resistant, which makes it easier for context-dependent attackers to conduct spoofing attacks, as demonstrated by attacks on the use of MD5 in the signature algorithm of an X.509 certificate.
+
+
+
+- [https://github.com/chaos198800/Windows-xia-SSL-zheng-shu-zhi-zuo-gong-ju--CVE-2004-2761-lou-dong-xiu-fu](https://github.com/chaos198800/Windows-xia-SSL-zheng-shu-zhi-zuo-gong-ju--CVE-2004-2761-lou-dong-xiu-fu) :  ![starts](https://img.shields.io/github/stars/chaos198800/Windows-xia-SSL-zheng-shu-zhi-zuo-gong-ju--CVE-2004-2761-lou-dong-xiu-fu.svg) ![forks](https://img.shields.io/github/forks/chaos198800/Windows-xia-SSL-zheng-shu-zhi-zuo-gong-ju--CVE-2004-2761-lou-dong-xiu-fu.svg)
+
 ## CVE-2004-2687
  distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.
 
@@ -63,9 +70,9 @@
 
 - [https://github.com/thel1nus/CVE-2004-1561-Notes](https://github.com/thel1nus/CVE-2004-1561-Notes) :  ![starts](https://img.shields.io/github/stars/thel1nus/CVE-2004-1561-Notes.svg) ![forks](https://img.shields.io/github/forks/thel1nus/CVE-2004-1561-Notes.svg)
 
-- [https://github.com/ratiros01/CVE-2004-1561](https://github.com/ratiros01/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2004-1561.svg)
-
 - [https://github.com/darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/darrynb89/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/darrynb89/CVE-2004-1561.svg)
+
+- [https://github.com/ratiros01/CVE-2004-1561](https://github.com/ratiros01/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2004-1561.svg)
 
 - [https://github.com/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-](https://github.com/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-) :  ![starts](https://img.shields.io/github/stars/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-.svg) ![forks](https://img.shields.io/github/forks/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-.svg)
 
