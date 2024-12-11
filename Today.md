@@ -1,42 +1,60 @@
-# Update 2024-12-10
-## CVE-2024-23897
- Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
+# Update 2024-12-11
+## CVE-2024-24549
+ Denial of Service due to improper input validation vulnerability for HTTP/2 requests in Apache Tomcat. When processing an HTTP/2 request, if the request exceeded any of the configured limits for headers, the associated HTTP/2 stream was not reset until after all of the headers had been processed.This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.0-M16, from 10.1.0-M1 through 10.1.18, from 9.0.0-M1 through 9.0.85, from 8.5.0 through 8.5.98. Users are recommended to upgrade to version 11.0.0-M17, 10.1.19, 9.0.86 or 8.5.99 which fix the issue.
 
-- [https://github.com/D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins](https://github.com/D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins) :  ![starts](https://img.shields.io/github/stars/D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins.svg) ![forks](https://img.shields.io/github/forks/D1se0/CVE-2024-23897-Vulnerabilidad-Jenkins.svg)
-
-
-## CVE-2021-23017
- A security issue in nginx resolver was identified, which might allow an attacker who is able to forge UDP packets from the DNS server to cause 1-byte memory overwrite, resulting in worker process crash or potential other impact.
-
-- [https://github.com/z3usx01/CVE-2021-23017-POC](https://github.com/z3usx01/CVE-2021-23017-POC) :  ![starts](https://img.shields.io/github/stars/z3usx01/CVE-2021-23017-POC.svg) ![forks](https://img.shields.io/github/forks/z3usx01/CVE-2021-23017-POC.svg)
+- [https://github.com/JFOZ1010/CVE-2024-24549](https://github.com/JFOZ1010/CVE-2024-24549) :  ![starts](https://img.shields.io/github/stars/JFOZ1010/CVE-2024-24549.svg) ![forks](https://img.shields.io/github/forks/JFOZ1010/CVE-2024-24549.svg)
 
 
-## CVE-2019-8943
- WordPress through 5.0.3 allows Path Traversal in wp_crop_image(). An attacker (who has privileges to crop an image) can write the output image to an arbitrary directory via a filename containing two image extensions and ../ sequences, such as a filename ending with the .jpg?/../../file.jpg substring.
+## CVE-2024-23346
+ Pymatgen (Python Materials Genomics) is an open-source Python library for materials analysis. A critical security vulnerability exists in the `JonesFaithfulTransformation.from_transformation_str()` method within the `pymatgen` library prior to version 2024.2.20. This method insecurely utilizes `eval()` for processing input, enabling execution of arbitrary code when parsing untrusted input. Version 2024.2.20 fixes this issue.
 
-- [https://github.com/oussama-rahali/CVE-2019-8943](https://github.com/oussama-rahali/CVE-2019-8943) :  ![starts](https://img.shields.io/github/stars/oussama-rahali/CVE-2019-8943.svg) ![forks](https://img.shields.io/github/forks/oussama-rahali/CVE-2019-8943.svg)
-
-
-## CVE-2019-8942
- WordPress before 4.9.9 and 5.x before 5.0.1 allows remote code execution because an _wp_attached_file Post Meta entry can be changed to an arbitrary string, such as one ending with a .jpg?file.php substring. An attacker with author privileges can execute arbitrary code by uploading a crafted image containing PHP code in the Exif metadata. Exploitation can leverage CVE-2019-8943.
-
-- [https://github.com/oussama-rahali/CVE-2019-8943](https://github.com/oussama-rahali/CVE-2019-8943) :  ![starts](https://img.shields.io/github/stars/oussama-rahali/CVE-2019-8943.svg) ![forks](https://img.shields.io/github/forks/oussama-rahali/CVE-2019-8943.svg)
+- [https://github.com/MAWK0235/CVE-2024-23346](https://github.com/MAWK0235/CVE-2024-23346) :  ![starts](https://img.shields.io/github/stars/MAWK0235/CVE-2024-23346.svg) ![forks](https://img.shields.io/github/forks/MAWK0235/CVE-2024-23346.svg)
 
 
-## CVE-2017-5638
- The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
+## CVE-2024-23334
+ aiohttp is an asynchronous HTTP client/server framework for asyncio and Python. When using aiohttp as a web server and configuring static routes, it is necessary to specify the root path for static files. Additionally, the option 'follow_symlinks' can be used to determine whether to follow symbolic links outside the static root directory. When 'follow_symlinks' is set to True, there is no validation to check if reading a file is within the root directory. This can lead to directory traversal vulnerabilities, resulting in unauthorized access to arbitrary files on the system, even when symlinks are not present. Disabling follow_symlinks and using a reverse proxy are encouraged mitigations. Version 3.9.2 fixes this issue.
 
-- [https://github.com/Xernary/CVE-2017-5638-POC](https://github.com/Xernary/CVE-2017-5638-POC) :  ![starts](https://img.shields.io/github/stars/Xernary/CVE-2017-5638-POC.svg) ![forks](https://img.shields.io/github/forks/Xernary/CVE-2017-5638-POC.svg)
-
-
-## CVE-2012-1823
- sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured as a CGI script (aka php-cgi), does not properly handle query strings that lack an = (equals sign) character, which allows remote attackers to execute arbitrary code by placing command-line options in the query string, related to lack of skipping a certain php_getopt for the 'd' case.
-
-- [https://github.com/Jimmy01240397/CVE-2012-1823-Analyze](https://github.com/Jimmy01240397/CVE-2012-1823-Analyze) :  ![starts](https://img.shields.io/github/stars/Jimmy01240397/CVE-2012-1823-Analyze.svg) ![forks](https://img.shields.io/github/forks/Jimmy01240397/CVE-2012-1823-Analyze.svg)
+- [https://github.com/Betan423/CVE-2024-23334-PoC](https://github.com/Betan423/CVE-2024-23334-PoC) :  ![starts](https://img.shields.io/github/stars/Betan423/CVE-2024-23334-PoC.svg) ![forks](https://img.shields.io/github/forks/Betan423/CVE-2024-23334-PoC.svg)
 
 
-## CVE-2004-1561
- Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute arbitrary code via an HTTP request with a large number of headers.
+## CVE-2024-4899
+ The SEOPress WordPress plugin before 7.8 does not sanitise and escape some of its Post settings, which could allow high privilege users such as contributor to perform Stored Cross-Site Scripting attacks.
 
-- [https://github.com/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-](https://github.com/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-) :  ![starts](https://img.shields.io/github/stars/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-.svg) ![forks](https://img.shields.io/github/forks/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-.svg)
+- [https://github.com/CyberCrowCC/CVE-2024-48990](https://github.com/CyberCrowCC/CVE-2024-48990) :  ![starts](https://img.shields.io/github/stars/CyberCrowCC/CVE-2024-48990.svg) ![forks](https://img.shields.io/github/forks/CyberCrowCC/CVE-2024-48990.svg)
+
+
+## CVE-2024-1227
+ An open redirect vulnerability, the exploitation of which could allow an attacker to create a custom URL and redirect a legitimate page to a malicious site.
+
+- [https://github.com/RandomRobbieBF/CVE-2024-12270](https://github.com/RandomRobbieBF/CVE-2024-12270) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-12270.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-12270.svg)
+
+
+## CVE-2024-1220
+ A stack-based buffer overflow in the built-in web server in Moxa NPort W2150A/W2250A Series firmware version 2.3 and prior allows a remote attacker to exploit the vulnerability by sending crafted payload to the web service. Successful exploitation of the vulnerability could result in denial of service.
+
+- [https://github.com/RandomRobbieBF/CVE-2024-12209](https://github.com/RandomRobbieBF/CVE-2024-12209) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-12209.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-12209.svg)
+
+
+## CVE-2024-0044
+ In createSessionInternal of PackageInstallerService.java, there is a possible run-as any app due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+
+- [https://github.com/Dit-Developers/CVE-2024-0044-](https://github.com/Dit-Developers/CVE-2024-0044-) :  ![starts](https://img.shields.io/github/stars/Dit-Developers/CVE-2024-0044-.svg) ![forks](https://img.shields.io/github/forks/Dit-Developers/CVE-2024-0044-.svg)
+
+
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+
+- [https://github.com/xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/xMohamed0/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/xMohamed0/CVE-2021-41773.svg)
+
+
+## CVE-2021-21389
+ BuddyPress is an open source WordPress plugin to build a community site. In releases of BuddyPress from 5.0.0 before 7.2.1 it's possible for a non-privileged, regular user to obtain administrator rights by exploiting an issue in the REST API members endpoint. The vulnerability has been fixed in BuddyPress 7.2.1. Existing installations of the plugin should be updated to this version to mitigate the issue.
+
+- [https://github.com/mynameSumin/CVE-2021-21389](https://github.com/mynameSumin/CVE-2021-21389) :  ![starts](https://img.shields.io/github/stars/mynameSumin/CVE-2021-21389.svg) ![forks](https://img.shields.io/github/forks/mynameSumin/CVE-2021-21389.svg)
+
+
+## CVE-2018-25031
+ Swagger UI before 4.1.3 could allow a remote attacker to conduct spoofing attacks. By persuading a victim to open a crafted URL, an attacker could exploit this vulnerability to display remote OpenAPI definitions.
+
+- [https://github.com/Proklinius897/CVE-2018-25031-tests](https://github.com/Proklinius897/CVE-2018-25031-tests) :  ![starts](https://img.shields.io/github/stars/Proklinius897/CVE-2018-25031-tests.svg) ![forks](https://img.shields.io/github/forks/Proklinius897/CVE-2018-25031-tests.svg)
 
