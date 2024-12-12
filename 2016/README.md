@@ -1039,8 +1039,6 @@
 
 
 
-- [https://github.com/hybridious/CVE-2016-4117](https://github.com/hybridious/CVE-2016-4117) :  ![starts](https://img.shields.io/github/stars/hybridious/CVE-2016-4117.svg) ![forks](https://img.shields.io/github/forks/hybridious/CVE-2016-4117.svg)
-
 - [https://github.com/amit-raut/CVE-2016-4117-Report](https://github.com/amit-raut/CVE-2016-4117-Report) :  ![starts](https://img.shields.io/github/stars/amit-raut/CVE-2016-4117-Report.svg) ![forks](https://img.shields.io/github/forks/amit-raut/CVE-2016-4117-Report.svg)
 
 ## CVE-2016-4014
@@ -1743,10 +1741,3 @@
 - [https://github.com/Rootkitsmm-zz/cve-2016-0040](https://github.com/Rootkitsmm-zz/cve-2016-0040) :  ![starts](https://img.shields.io/github/stars/Rootkitsmm-zz/cve-2016-0040.svg) ![forks](https://img.shields.io/github/forks/Rootkitsmm-zz/cve-2016-0040.svg)
 
 - [https://github.com/de7ec7ed/CVE-2016-0040](https://github.com/de7ec7ed/CVE-2016-0040) :  ![starts](https://img.shields.io/github/stars/de7ec7ed/CVE-2016-0040.svg) ![forks](https://img.shields.io/github/forks/de7ec7ed/CVE-2016-0040.svg)
-
-## CVE-2016-0034
- Microsoft Silverlight 5 before 5.1.41212.0 mishandles negative offsets during decoding, which allows remote attackers to execute arbitrary code or cause a denial of service (object-header corruption) via a crafted web site, aka &quot;Silverlight Runtime Remote Code Execution Vulnerability.&quot;
-
-
-
-- [https://github.com/hybridious/CVE-2016-0034-Decompile](https://github.com/hybridious/CVE-2016-0034-Decompile) :  ![starts](https://img.shields.io/github/stars/hybridious/CVE-2016-0034-Decompile.svg) ![forks](https://img.shields.io/github/forks/hybridious/CVE-2016-0034-Decompile.svg)
