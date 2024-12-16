@@ -3,7 +3,7 @@
 
 
 
-- [https://github.com/Saksham2002/CVE-2006-20001](https://github.com/Saksham2002/CVE-2006-20001) :  ![starts](https://img.shields.io/github/stars/Saksham2002/CVE-2006-20001.svg) ![forks](https://img.shields.io/github/forks/Saksham2002/CVE-2006-20001.svg)
+- [https://github.com/r1az4r/CVE-2006-20001](https://github.com/r1az4r/CVE-2006-20001) :  ![starts](https://img.shields.io/github/stars/r1az4r/CVE-2006-20001.svg) ![forks](https://img.shields.io/github/forks/r1az4r/CVE-2006-20001.svg)
 
 ## CVE-2006-6184
  Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
