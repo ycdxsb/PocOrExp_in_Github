@@ -1152,8 +1152,6 @@
 
 - [https://github.com/mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook) :  ![starts](https://img.shields.io/github/stars/mikesplain/CVE-2015-0235-cookbook.svg) ![forks](https://img.shields.io/github/forks/mikesplain/CVE-2015-0235-cookbook.svg)
 
-- [https://github.com/piyokango/ghost](https://github.com/piyokango/ghost) :  ![starts](https://img.shields.io/github/stars/piyokango/ghost.svg) ![forks](https://img.shields.io/github/forks/piyokango/ghost.svg)
-
 - [https://github.com/gh-ost00/XMLRPC-Ghost](https://github.com/gh-ost00/XMLRPC-Ghost) :  ![starts](https://img.shields.io/github/stars/gh-ost00/XMLRPC-Ghost.svg) ![forks](https://img.shields.io/github/forks/gh-ost00/XMLRPC-Ghost.svg)
 
 - [https://github.com/nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE_2015_0235.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE_2015_0235.svg)
