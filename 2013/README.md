@@ -255,13 +255,6 @@
 
 - [https://github.com/yjaaidi/exploits](https://github.com/yjaaidi/exploits) :  ![starts](https://img.shields.io/github/stars/yjaaidi/exploits.svg) ![forks](https://img.shields.io/github/forks/yjaaidi/exploits.svg)
 
-## CVE-2013-2730
- Buffer overflow in Adobe Reader and Acrobat 9.x before 9.5.5, 10.x before 10.1.7, and 11.x before 11.0.03 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2013-2733.
-
-
-
-- [https://github.com/feliam/CVE-2013-2730](https://github.com/feliam/CVE-2013-2730) :  ![starts](https://img.shields.io/github/stars/feliam/CVE-2013-2730.svg) ![forks](https://img.shields.io/github/forks/feliam/CVE-2013-2730.svg)
-
 ## CVE-2013-2729
  Integer overflow in Adobe Reader and Acrobat 9.x before 9.5.5, 10.x before 10.1.7, and 11.x before 11.0.03 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2013-2727.
 
