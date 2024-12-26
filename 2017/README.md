@@ -1387,6 +1387,8 @@
 
 - [https://github.com/Grey-Li/CVE-2017-11882](https://github.com/Grey-Li/CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/Grey-Li/CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/Grey-Li/CVE-2017-11882.svg)
 
+- [https://github.com/yaseenibnakhtar/Malware-Analysis-CVE-2017-11882](https://github.com/yaseenibnakhtar/Malware-Analysis-CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/yaseenibnakhtar/Malware-Analysis-CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/yaseenibnakhtar/Malware-Analysis-CVE-2017-11882.svg)
+
 - [https://github.com/lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2017-11882-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2017-11882-exp.svg)
 
 - [https://github.com/n18dcat053-luuvannga/DetectPacket-CVE-2017-11882](https://github.com/n18dcat053-luuvannga/DetectPacket-CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/n18dcat053-luuvannga/DetectPacket-CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/n18dcat053-luuvannga/DetectPacket-CVE-2017-11882.svg)
@@ -2536,9 +2538,9 @@
 
 - [https://github.com/xiaovpn/CVE-2017-7269](https://github.com/xiaovpn/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/xiaovpn/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/xiaovpn/CVE-2017-7269.svg)
 
-- [https://github.com/denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/denchief1/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/denchief1/CVE-2017-7269.svg)
-
 - [https://github.com/VanishedPeople/CVE-2017-7269](https://github.com/VanishedPeople/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/VanishedPeople/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/VanishedPeople/CVE-2017-7269.svg)
+
+- [https://github.com/denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/denchief1/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/denchief1/CVE-2017-7269.svg)
 
 - [https://github.com/denchief1/CVE-2017-7269_Python3](https://github.com/denchief1/CVE-2017-7269_Python3) :  ![starts](https://img.shields.io/github/stars/denchief1/CVE-2017-7269_Python3.svg) ![forks](https://img.shields.io/github/forks/denchief1/CVE-2017-7269_Python3.svg)
 
@@ -3617,9 +3619,9 @@
 
 - [https://github.com/joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199) :  ![starts](https://img.shields.io/github/stars/joke998/Cve-2017-0199.svg) ![forks](https://img.shields.io/github/forks/joke998/Cve-2017-0199.svg)
 
-- [https://github.com/viethdgit/CVE-2017-0199](https://github.com/viethdgit/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/viethdgit/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/viethdgit/CVE-2017-0199.svg)
-
 - [https://github.com/BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/BRAINIAC22/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/BRAINIAC22/CVE-2017-0199.svg)
+
+- [https://github.com/viethdgit/CVE-2017-0199](https://github.com/viethdgit/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/viethdgit/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/viethdgit/CVE-2017-0199.svg)
 
 - [https://github.com/ryhanson/CVE-2017-0199](https://github.com/ryhanson/CVE-2017-0199) :  ![starts](https://img.shields.io/github/stars/ryhanson/CVE-2017-0199.svg) ![forks](https://img.shields.io/github/forks/ryhanson/CVE-2017-0199.svg)
 
