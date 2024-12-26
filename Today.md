@@ -1,87 +1,48 @@
-# Update 2024-12-25
-## CVE-2024-5367
- A vulnerability was found in Kashipara College Management System 1.0 and classified as problematic. This issue affects some unknown processing of the file each_extracurricula_activities.php. The manipulation of the argument id leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-266279.
+# Update 2024-12-26
+## CVE-2024-32113
+ Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache OFBiz.This issue affects Apache OFBiz: before 18.12.13. Users are recommended to upgrade to version 18.12.13, which fixes the issue.
 
-- [https://github.com/0xdeviner/CVE-2024-53677](https://github.com/0xdeviner/CVE-2024-53677) :  ![starts](https://img.shields.io/github/stars/0xdeviner/CVE-2024-53677.svg) ![forks](https://img.shields.io/github/forks/0xdeviner/CVE-2024-53677.svg)
-- [https://github.com/Q0LT/VM-CVE-2024-53677](https://github.com/Q0LT/VM-CVE-2024-53677) :  ![starts](https://img.shields.io/github/stars/Q0LT/VM-CVE-2024-53677.svg) ![forks](https://img.shields.io/github/forks/Q0LT/VM-CVE-2024-53677.svg)
+- [https://github.com/MikeyPPPPPPPP/CVE-2024-32113](https://github.com/MikeyPPPPPPPP/CVE-2024-32113) :  ![starts](https://img.shields.io/github/stars/MikeyPPPPPPPP/CVE-2024-32113.svg) ![forks](https://img.shields.io/github/forks/MikeyPPPPPPPP/CVE-2024-32113.svg)
 
 
-## CVE-2024-5334
+## CVE-2024-1248
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/ShadowByte1/CVE-2024-53345](https://github.com/ShadowByte1/CVE-2024-53345) :  ![starts](https://img.shields.io/github/stars/ShadowByte1/CVE-2024-53345.svg) ![forks](https://img.shields.io/github/forks/ShadowByte1/CVE-2024-53345.svg)
+- [https://github.com/LiChaser/CVE-2024-12484](https://github.com/LiChaser/CVE-2024-12484) :  ![starts](https://img.shields.io/github/stars/LiChaser/CVE-2024-12484.svg) ![forks](https://img.shields.io/github/forks/LiChaser/CVE-2024-12484.svg)
 
 
-## CVE-2024-5122
- A vulnerability was found in SourceCodester Event Registration System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /registrar/. The manipulation of the argument search leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-265202 is the identifier assigned to this vulnerability.
+## CVE-2024-1220
+ A stack-based buffer overflow in the built-in web server in Moxa NPort W2150A/W2250A Series firmware version 2.3 and prior allows a remote attacker to exploit the vulnerability by sending crafted payload to the web service. Successful exploitation of the vulnerability could result in denial of service.
 
-- [https://github.com/tequilasunsh1ne/CVE_2024_51228](https://github.com/tequilasunsh1ne/CVE_2024_51228) :  ![starts](https://img.shields.io/github/stars/tequilasunsh1ne/CVE_2024_51228.svg) ![forks](https://img.shields.io/github/forks/tequilasunsh1ne/CVE_2024_51228.svg)
-
-
-## CVE-2024-5062
- ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
-
-- [https://github.com/verylazytech/CVE-2024-50623](https://github.com/verylazytech/CVE-2024-50623) :  ![starts](https://img.shields.io/github/stars/verylazytech/CVE-2024-50623.svg) ![forks](https://img.shields.io/github/forks/verylazytech/CVE-2024-50623.svg)
+- [https://github.com/Nxploited/CVE-2024-12209](https://github.com/Nxploited/CVE-2024-12209) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-12209.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-12209.svg)
 
 
-## CVE-2024-5037
- A flaw was found in OpenShift's Telemeter. If certain conditions are in place, an attacker can use a forged token to bypass the issue (&quot;iss&quot;) check during JSON web token (JWT) authentication.
+## CVE-2024-1091
+ The ImageRecycle pdf &amp; image compression plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the reinitialize function in all versions up to, and including, 3.1.13. This makes it possible for authenticated attackers, with subscriber-level access and above, to remove all plugin data.
 
-- [https://github.com/SleepingBag945/CVE-2024-50379](https://github.com/SleepingBag945/CVE-2024-50379) :  ![starts](https://img.shields.io/github/stars/SleepingBag945/CVE-2024-50379.svg) ![forks](https://img.shields.io/github/forks/SleepingBag945/CVE-2024-50379.svg)
-- [https://github.com/dear-cell/CVE-2024-50379](https://github.com/dear-cell/CVE-2024-50379) :  ![starts](https://img.shields.io/github/stars/dear-cell/CVE-2024-50379.svg) ![forks](https://img.shields.io/github/forks/dear-cell/CVE-2024-50379.svg)
-
-
-## CVE-2024-4824
- Vulnerability in School ERP Pro+Responsive 1.0 that allows SQL injection through the '/SchoolERP/office_admin/' index in the parameters groups_id, examname, classes_id, es_voucherid, es_class, etc. This vulnerability could allow a remote attacker to send a specially crafted SQL query to the server and retrieve all the information stored in the database.
-
-- [https://github.com/ShadowByte1/CVE-2024-48245](https://github.com/ShadowByte1/CVE-2024-48245) :  ![starts](https://img.shields.io/github/stars/ShadowByte1/CVE-2024-48245.svg) ![forks](https://img.shields.io/github/forks/ShadowByte1/CVE-2024-48245.svg)
-- [https://github.com/ShadowByte1/CVE-2024-48246](https://github.com/ShadowByte1/CVE-2024-48246) :  ![starts](https://img.shields.io/github/stars/ShadowByte1/CVE-2024-48246.svg) ![forks](https://img.shields.io/github/forks/ShadowByte1/CVE-2024-48246.svg)
+- [https://github.com/dragonXZH/CVE-2024-10914](https://github.com/dragonXZH/CVE-2024-10914) :  ![starts](https://img.shields.io/github/stars/dragonXZH/CVE-2024-10914.svg) ![forks](https://img.shields.io/github/forks/dragonXZH/CVE-2024-10914.svg)
 
 
-## CVE-2024-1134
- The SEOPress &#8211; On-site SEO plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the SEO title and description parameters as well as others in all versions up to, and including, 7.5.2.1 due to insufficient input sanitization and output escaping. This makes it possible for attackers, with contributor access or higher, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+## CVE-2024-1051
+ The List category posts plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'catlist' shortcode in all versions up to, and including, 0.89.6 due to insufficient input sanitization and output escaping on user supplied attributes like 'title_tag'. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 
-- [https://github.com/linunyang/CVE-2024-11349](https://github.com/linunyang/CVE-2024-11349) :  ![starts](https://img.shields.io/github/stars/linunyang/CVE-2024-11349.svg) ![forks](https://img.shields.io/github/forks/linunyang/CVE-2024-11349.svg)
-
-
-## CVE-2023-28293
- Windows Kernel Elevation of Privilege Vulnerability
-
-- [https://github.com/CrazyDaveX86/CVE-2023-28293](https://github.com/CrazyDaveX86/CVE-2023-28293) :  ![starts](https://img.shields.io/github/stars/CrazyDaveX86/CVE-2023-28293.svg) ![forks](https://img.shields.io/github/forks/CrazyDaveX86/CVE-2023-28293.svg)
+- [https://github.com/revengsmK/CVE-2024-10511](https://github.com/revengsmK/CVE-2024-10511) :  ![starts](https://img.shields.io/github/stars/revengsmK/CVE-2024-10511.svg) ![forks](https://img.shields.io/github/forks/revengsmK/CVE-2024-10511.svg)
 
 
-## CVE-2023-24278
- Squidex before 7.4.0 was discovered to contain a squid.svg cross-site scripting (XSS) vulnerability.
+## CVE-2022-27499
+ Premature release of resource during expected lifetime in the Intel(R) SGX SDK software may allow a privileged user to potentially enable information disclosure via local access.
 
-- [https://github.com/NeCr00/CVE-2023-24278_XSS-in-Squidex](https://github.com/NeCr00/CVE-2023-24278_XSS-in-Squidex) :  ![starts](https://img.shields.io/github/stars/NeCr00/CVE-2023-24278_XSS-in-Squidex.svg) ![forks](https://img.shields.io/github/forks/NeCr00/CVE-2023-24278_XSS-in-Squidex.svg)
-
-
-## CVE-2022-46463
- ** DISPUTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;
-
-- [https://github.com/CodeSecurityTeam/harbor](https://github.com/CodeSecurityTeam/harbor) :  ![starts](https://img.shields.io/github/stars/CodeSecurityTeam/harbor.svg) ![forks](https://img.shields.io/github/forks/CodeSecurityTeam/harbor.svg)
+- [https://github.com/web-logs2/snapshot-demo](https://github.com/web-logs2/snapshot-demo) :  ![starts](https://img.shields.io/github/stars/web-logs2/snapshot-demo.svg) ![forks](https://img.shields.io/github/forks/web-logs2/snapshot-demo.svg)
 
 
-## CVE-2022-0847
- A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
+## CVE-2017-2370
+ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected. macOS before 10.12.3 is affected. tvOS before 10.1.1 is affected. watchOS before 3.1.3 is affected. The issue involves the &quot;Kernel&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (buffer overflow) via a crafted app.
 
-- [https://github.com/qdagustian/CVE_2022_0847](https://github.com/qdagustian/CVE_2022_0847) :  ![starts](https://img.shields.io/github/stars/qdagustian/CVE_2022_0847.svg) ![forks](https://img.shields.io/github/forks/qdagustian/CVE_2022_0847.svg)
-
-
-## CVE-2021-31630
- Command Injection in Open PLC Webserver v3 allows remote attackers to execute arbitrary code via the &quot;Hardware Layer Code Box&quot; component on the &quot;/hardware&quot; page of the application.
-
-- [https://github.com/ttps-byte/cve-2021-31630](https://github.com/ttps-byte/cve-2021-31630) :  ![starts](https://img.shields.io/github/stars/ttps-byte/cve-2021-31630.svg) ![forks](https://img.shields.io/github/forks/ttps-byte/cve-2021-31630.svg)
+- [https://github.com/ldebug/extra_recipe](https://github.com/ldebug/extra_recipe) :  ![starts](https://img.shields.io/github/stars/ldebug/extra_recipe.svg) ![forks](https://img.shields.io/github/forks/ldebug/extra_recipe.svg)
 
 
-## CVE-2019-7216
- An issue was discovered in FileChucker 4.99e-free-e02. filechucker.cgi has a filter bypass that allows a malicious user to upload any type of file by using % characters within the extension, e.g., file.%ph%p becomes file.php.
+## CVE-2011-2523
+ vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which opens a shell on port 6200/tcp.
 
-- [https://github.com/Ekultek/CVE-2019-7216](https://github.com/Ekultek/CVE-2019-7216) :  ![starts](https://img.shields.io/github/stars/Ekultek/CVE-2019-7216.svg) ![forks](https://img.shields.io/github/forks/Ekultek/CVE-2019-7216.svg)
-
-
-## CVE-2018-9206
- Unauthenticated arbitrary file upload vulnerability in Blueimp jQuery-File-Upload &lt;= v9.22.0
-
-- [https://github.com/MikeyPPPPPPPP/CVE-2018-9206](https://github.com/MikeyPPPPPPPP/CVE-2018-9206) :  ![starts](https://img.shields.io/github/stars/MikeyPPPPPPPP/CVE-2018-9206.svg) ![forks](https://img.shields.io/github/forks/MikeyPPPPPPPP/CVE-2018-9206.svg)
+- [https://github.com/NullBrunk/CVE-2011-2523](https://github.com/NullBrunk/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/NullBrunk/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/NullBrunk/CVE-2011-2523.svg)
 
