@@ -433,7 +433,7 @@
 
 
 
-- [https://github.com/brookeses69/CVE-2014-5460](https://github.com/brookeses69/CVE-2014-5460) :  ![starts](https://img.shields.io/github/stars/brookeses69/CVE-2014-5460.svg) ![forks](https://img.shields.io/github/forks/brookeses69/CVE-2014-5460.svg)
+- [https://github.com/F-0x57/CVE-2014-5460](https://github.com/F-0x57/CVE-2014-5460) :  ![starts](https://img.shields.io/github/stars/F-0x57/CVE-2014-5460.svg) ![forks](https://img.shields.io/github/forks/F-0x57/CVE-2014-5460.svg)
 
 ## CVE-2014-5329
  GIGAPOD file servers (Appliance model and Software model) provide two web interfaces, 80/tcp and 443/tcp for user operation, and 8001/tcp for administrative operation. 8001/tcp is served by a version of Apache HTTP server containing a flaw in handling HTTP requests (CVE-2011-3192), which may lead to a denial-of-service (DoS) condition.
