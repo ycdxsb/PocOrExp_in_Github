@@ -1,24 +1,36 @@
-# Update 2024-12-30
-## CVE-2024-30085
- Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability
+# Update 2024-12-31
+## CVE-2024-21182
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/murdok1982/Exploit-PoC-para-CVE-2024-30085](https://github.com/murdok1982/Exploit-PoC-para-CVE-2024-30085) :  ![starts](https://img.shields.io/github/stars/murdok1982/Exploit-PoC-para-CVE-2024-30085.svg) ![forks](https://img.shields.io/github/forks/murdok1982/Exploit-PoC-para-CVE-2024-30085.svg)
-
-
-## CVE-2024-1161
- The Brizy &#8211; Page Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's Custom Attributes for blocks in all versions up to, and including, 2.4.43 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-
-- [https://github.com/inb1ts/CVE-2024-11616](https://github.com/inb1ts/CVE-2024-11616) :  ![starts](https://img.shields.io/github/stars/inb1ts/CVE-2024-11616.svg) ![forks](https://img.shields.io/github/forks/inb1ts/CVE-2024-11616.svg)
+- [https://github.com/k4it0k1d/CVE-2024-21182](https://github.com/k4it0k1d/CVE-2024-21182) :  ![starts](https://img.shields.io/github/stars/k4it0k1d/CVE-2024-21182.svg) ![forks](https://img.shields.io/github/forks/k4it0k1d/CVE-2024-21182.svg)
 
 
-## CVE-2023-40028
- Ghost is an open source content management system. Versions prior to 5.59.1 are subject to a vulnerability which allows authenticated users to upload files that are symlinks. This can be exploited to perform an arbitrary file read of any file on the host operating system. Site administrators can check for exploitation of this issue by looking for unknown symlinks within Ghost's `content/` folder. Version 5.59.1 contains a fix for this issue. All users are advised to upgrade. There are no known workarounds for this vulnerability.
+## CVE-2024-5415
+ A vulnerability have been discovered in PhpMyBackupPro affecting version 2.3 that could allow an attacker to execute XSS through /phpmybackuppro/backup.php, 'comments' and 'db' parameters. This vulnerabilities could allow an attacker to create a specially crafted URL and send it to a victim to retrieve their session details.
 
-- [https://github.com/rvizx/CVE-2023-40028](https://github.com/rvizx/CVE-2023-40028) :  ![starts](https://img.shields.io/github/stars/rvizx/CVE-2023-40028.svg) ![forks](https://img.shields.io/github/forks/rvizx/CVE-2023-40028.svg)
+- [https://github.com/math-x-io/CVE-2024-54152-poc](https://github.com/math-x-io/CVE-2024-54152-poc) :  ![starts](https://img.shields.io/github/stars/math-x-io/CVE-2024-54152-poc.svg) ![forks](https://img.shields.io/github/forks/math-x-io/CVE-2024-54152-poc.svg)
 
 
-## CVE-2019-0232
- When running on Windows with enableCmdLineArguments enabled, the CGI Servlet in Apache Tomcat 9.0.0.M1 to 9.0.17, 8.5.0 to 8.5.39 and 7.0.0 to 7.0.93 is vulnerable to Remote Code Execution due to a bug in the way the JRE passes command line arguments to Windows. The CGI Servlet is disabled by default. The CGI option enableCmdLineArguments is disable by default in Tomcat 9.0.x (and will be disabled by default in all versions in response to this vulnerability). For a detailed explanation of the JRE behaviour, see Markus Wulftange's blog (https://codewhitesec.blogspot.com/2016/02/java-and-command-line-injections-in-windows.html) and this archived MSDN blog (https://web.archive.org/web/20161228144344/https://blogs.msdn.microsoft.com/twistylittlepassagesallalike/2011/04/23/everyone-quotes-command-line-arguments-the-wrong-way/).
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/Dharan10/CVE-2019-0232](https://github.com/Dharan10/CVE-2019-0232) :  ![starts](https://img.shields.io/github/stars/Dharan10/CVE-2019-0232.svg) ![forks](https://img.shields.io/github/forks/Dharan10/CVE-2019-0232.svg)
+- [https://github.com/luongchivi/CVE-2021-41773](https://github.com/luongchivi/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/luongchivi/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/luongchivi/CVE-2021-41773.svg)
+
+
+## CVE-2020-0796
+ A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.
+
+- [https://github.com/dungnm24/CVE-2020-0796](https://github.com/dungnm24/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/dungnm24/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/dungnm24/CVE-2020-0796.svg)
+
+
+## CVE-2017-0144
+ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka &quot;Windows SMB Remote Code Execution Vulnerability.&quot; This vulnerability is different from those described in CVE-2017-0143, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
+
+- [https://github.com/AtithKhawas/autoblue](https://github.com/AtithKhawas/autoblue) :  ![starts](https://img.shields.io/github/stars/AtithKhawas/autoblue.svg) ![forks](https://img.shields.io/github/forks/AtithKhawas/autoblue.svg)
+
+
+## CVE-2014-3206
+ Seagate BlackArmor NAS allows remote attackers to execute arbitrary code via the session parameter to localhost/backupmgt/localJob.php or the auth_name parameter to localhost/backupmgmt/pre_connect_check.php.
+
+- [https://github.com/laccart/CVE-2014-3206](https://github.com/laccart/CVE-2014-3206) :  ![starts](https://img.shields.io/github/stars/laccart/CVE-2014-3206.svg) ![forks](https://img.shields.io/github/forks/laccart/CVE-2014-3206.svg)
 
