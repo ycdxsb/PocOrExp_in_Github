@@ -104,7 +104,7 @@
 
 - [https://github.com/AndyCyberSec/OSCP](https://github.com/AndyCyberSec/OSCP) :  ![starts](https://img.shields.io/github/stars/AndyCyberSec/OSCP.svg) ![forks](https://img.shields.io/github/forks/AndyCyberSec/OSCP.svg)
 
-- [https://github.com/0xConstant/CVE-2012-4869](https://github.com/0xConstant/CVE-2012-4869) :  ![starts](https://img.shields.io/github/stars/0xConstant/CVE-2012-4869.svg) ![forks](https://img.shields.io/github/forks/0xConstant/CVE-2012-4869.svg)
+- [https://github.com/banomaly/CVE-2012-4869](https://github.com/banomaly/CVE-2012-4869) :  ![starts](https://img.shields.io/github/stars/banomaly/CVE-2012-4869.svg) ![forks](https://img.shields.io/github/forks/banomaly/CVE-2012-4869.svg)
 
 - [https://github.com/bitc0de/Elastix-Remote-Code-Execution](https://github.com/bitc0de/Elastix-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/bitc0de/Elastix-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/bitc0de/Elastix-Remote-Code-Execution.svg)
 
@@ -200,13 +200,13 @@
 
 - [https://github.com/CpyRe/CVE-2012-2982](https://github.com/CpyRe/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/CpyRe/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/CpyRe/CVE-2012-2982.svg)
 
-- [https://github.com/wizardy0ga/CVE_2012-2982](https://github.com/wizardy0ga/CVE_2012-2982) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/CVE_2012-2982.svg)
-
-- [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
-
 - [https://github.com/elliotosama/CVE-2012-2982](https://github.com/elliotosama/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/elliotosama/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/elliotosama/CVE-2012-2982.svg)
 
+- [https://github.com/wizardy0ga/CVE_2012-2982](https://github.com/wizardy0ga/CVE_2012-2982) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/CVE_2012-2982.svg)
+
 - [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
+
+- [https://github.com/R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/R00tendo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/R00tendo/CVE-2012-2982.svg)
 
 - [https://github.com/Shadow-Spinner/CVE-2012-2982_python](https://github.com/Shadow-Spinner/CVE-2012-2982_python) :  ![starts](https://img.shields.io/github/stars/Shadow-Spinner/CVE-2012-2982_python.svg) ![forks](https://img.shields.io/github/forks/Shadow-Spinner/CVE-2012-2982_python.svg)
 
@@ -281,15 +281,15 @@
 
 - [https://github.com/0xl0k1/CVE-2012-1823](https://github.com/0xl0k1/CVE-2012-1823) :  ![starts](https://img.shields.io/github/stars/0xl0k1/CVE-2012-1823.svg) ![forks](https://img.shields.io/github/forks/0xl0k1/CVE-2012-1823.svg)
 
-- [https://github.com/tardummy01/oscp_scripts-1](https://github.com/tardummy01/oscp_scripts-1) :  ![starts](https://img.shields.io/github/stars/tardummy01/oscp_scripts-1.svg) ![forks](https://img.shields.io/github/forks/tardummy01/oscp_scripts-1.svg)
-
 - [https://github.com/Unix13/metasploitable2](https://github.com/Unix13/metasploitable2) :  ![starts](https://img.shields.io/github/stars/Unix13/metasploitable2.svg) ![forks](https://img.shields.io/github/forks/Unix13/metasploitable2.svg)
 
-- [https://github.com/cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823) :  ![starts](https://img.shields.io/github/stars/cyberharsh/PHP_CVE-2012-1823.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/PHP_CVE-2012-1823.svg)
+- [https://github.com/tardummy01/oscp_scripts-1](https://github.com/tardummy01/oscp_scripts-1) :  ![starts](https://img.shields.io/github/stars/tardummy01/oscp_scripts-1.svg) ![forks](https://img.shields.io/github/forks/tardummy01/oscp_scripts-1.svg)
 
 - [https://github.com/drone789/CVE-2012-1823](https://github.com/drone789/CVE-2012-1823) :  ![starts](https://img.shields.io/github/stars/drone789/CVE-2012-1823.svg) ![forks](https://img.shields.io/github/forks/drone789/CVE-2012-1823.svg)
 
 - [https://github.com/Jimmy01240397/CVE-2012-1823-Analyze](https://github.com/Jimmy01240397/CVE-2012-1823-Analyze) :  ![starts](https://img.shields.io/github/stars/Jimmy01240397/CVE-2012-1823-Analyze.svg) ![forks](https://img.shields.io/github/forks/Jimmy01240397/CVE-2012-1823-Analyze.svg)
+
+- [https://github.com/cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823) :  ![starts](https://img.shields.io/github/stars/cyberharsh/PHP_CVE-2012-1823.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/PHP_CVE-2012-1823.svg)
 
 ## CVE-2012-1723
  Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 update 4 and earlier, 6 update 32 and earlier, 5 update 35 and earlier, and 1.4.2_37 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Hotspot.
