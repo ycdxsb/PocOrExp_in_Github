@@ -249,7 +249,7 @@
 
 - [https://github.com/dix0nym/CVE-2015-6967](https://github.com/dix0nym/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/dix0nym/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/dix0nym/CVE-2015-6967.svg)
 
-- [https://github.com/0xConstant/CVE-2015-6967](https://github.com/0xConstant/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/0xConstant/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/0xConstant/CVE-2015-6967.svg)
+- [https://github.com/banomaly/CVE-2015-6967](https://github.com/banomaly/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/banomaly/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/banomaly/CVE-2015-6967.svg)
 
 - [https://github.com/FredBrave/CVE-2015-6967](https://github.com/FredBrave/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/FredBrave/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/FredBrave/CVE-2015-6967.svg)
 
@@ -336,13 +336,6 @@
 
 
 - [https://github.com/CallMeJonas/CVE-2015-6576](https://github.com/CallMeJonas/CVE-2015-6576) :  ![starts](https://img.shields.io/github/stars/CallMeJonas/CVE-2015-6576.svg) ![forks](https://img.shields.io/github/forks/CallMeJonas/CVE-2015-6576.svg)
-
-## CVE-2015-6357
- The rule-update feature in Cisco FireSIGHT Management Center (MC) 5.2 through 5.4.0.1 does not verify the X.509 certificate of the support.sourcefire.com SSL server, which allows man-in-the-middle attackers to spoof this server and provide an invalid package, and consequently execute arbitrary code, via a crafted certificate, aka Bug ID CSCuw06444.
-
-
-
-- [https://github.com/mattimustang/firepwner](https://github.com/mattimustang/firepwner) :  ![starts](https://img.shields.io/github/stars/mattimustang/firepwner.svg) ![forks](https://img.shields.io/github/forks/mattimustang/firepwner.svg)
 
 ## CVE-2015-6132
  Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 Gold and 1511 mishandle library loading, which allows local users to gain privileges via a crafted application, aka &quot;Windows Library Loading Remote Code Execution Vulnerability.&quot;
