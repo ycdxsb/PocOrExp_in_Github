@@ -21,7 +21,7 @@
 
 - [https://github.com/bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387) :  ![starts](https://img.shields.io/github/stars/bigb0x/CVE-2024-6387.svg) ![forks](https://img.shields.io/github/forks/bigb0x/CVE-2024-6387.svg)
 
-- [https://github.com/ThemeHackers/CVE-2024-6387](https://github.com/ThemeHackers/CVE-2024-6387) :  ![starts](https://img.shields.io/github/stars/ThemeHackers/CVE-2024-6387.svg) ![forks](https://img.shields.io/github/forks/ThemeHackers/CVE-2024-6387.svg)
+- [https://github.com/anhvutuan/CVE-2024-6387-poc-1](https://github.com/anhvutuan/CVE-2024-6387-poc-1) :  ![starts](https://img.shields.io/github/stars/anhvutuan/CVE-2024-6387-poc-1.svg) ![forks](https://img.shields.io/github/forks/anhvutuan/CVE-2024-6387-poc-1.svg)
 
 - [https://github.com/sardine-web/CVE-2024-6387_Check](https://github.com/sardine-web/CVE-2024-6387_Check) :  ![starts](https://img.shields.io/github/stars/sardine-web/CVE-2024-6387_Check.svg) ![forks](https://img.shields.io/github/forks/sardine-web/CVE-2024-6387_Check.svg)
 
