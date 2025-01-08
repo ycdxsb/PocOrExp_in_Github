@@ -21,6 +21,8 @@
 
 - [https://github.com/moften/CVE-2015-9251](https://github.com/moften/CVE-2015-9251) :  ![starts](https://img.shields.io/github/stars/moften/CVE-2015-9251.svg) ![forks](https://img.shields.io/github/forks/moften/CVE-2015-9251.svg)
 
+- [https://github.com/hackgiver/CVE-2015-9251](https://github.com/hackgiver/CVE-2015-9251) :  ![starts](https://img.shields.io/github/stars/hackgiver/CVE-2015-9251.svg) ![forks](https://img.shields.io/github/forks/hackgiver/CVE-2015-9251.svg)
+
 ## CVE-2015-9235
  In jsonwebtoken node module before 4.2.2 it is possible for an attacker to bypass verification when a token digitally signed with an asymmetric key (RS/ES family) of algorithms but instead the attacker send a token digitally signed with a symmetric algorithm (HS* family).
 
@@ -336,6 +338,13 @@
 
 
 - [https://github.com/CallMeJonas/CVE-2015-6576](https://github.com/CallMeJonas/CVE-2015-6576) :  ![starts](https://img.shields.io/github/stars/CallMeJonas/CVE-2015-6576.svg) ![forks](https://img.shields.io/github/forks/CallMeJonas/CVE-2015-6576.svg)
+
+## CVE-2015-6357
+ The rule-update feature in Cisco FireSIGHT Management Center (MC) 5.2 through 5.4.0.1 does not verify the X.509 certificate of the support.sourcefire.com SSL server, which allows man-in-the-middle attackers to spoof this server and provide an invalid package, and consequently execute arbitrary code, via a crafted certificate, aka Bug ID CSCuw06444.
+
+
+
+- [https://github.com/mattimustang/firepwner](https://github.com/mattimustang/firepwner) :  ![starts](https://img.shields.io/github/stars/mattimustang/firepwner.svg) ![forks](https://img.shields.io/github/forks/mattimustang/firepwner.svg)
 
 ## CVE-2015-6132
  Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 Gold and 1511 mishandle library loading, which allows local users to gain privileges via a crafted application, aka &quot;Windows Library Loading Remote Code Execution Vulnerability.&quot;
@@ -1045,9 +1054,9 @@
 
 - [https://github.com/47Cid/Magento-Shoplift-SQLI](https://github.com/47Cid/Magento-Shoplift-SQLI) :  ![starts](https://img.shields.io/github/stars/47Cid/Magento-Shoplift-SQLI.svg) ![forks](https://img.shields.io/github/forks/47Cid/Magento-Shoplift-SQLI.svg)
 
-- [https://github.com/WHOISshuvam/CVE-2015-1397](https://github.com/WHOISshuvam/CVE-2015-1397) :  ![starts](https://img.shields.io/github/stars/WHOISshuvam/CVE-2015-1397.svg) ![forks](https://img.shields.io/github/forks/WHOISshuvam/CVE-2015-1397.svg)
-
 - [https://github.com/tmatejicek/CVE-2015-1397](https://github.com/tmatejicek/CVE-2015-1397) :  ![starts](https://img.shields.io/github/stars/tmatejicek/CVE-2015-1397.svg) ![forks](https://img.shields.io/github/forks/tmatejicek/CVE-2015-1397.svg)
+
+- [https://github.com/WHOISshuvam/CVE-2015-1397](https://github.com/WHOISshuvam/CVE-2015-1397) :  ![starts](https://img.shields.io/github/stars/WHOISshuvam/CVE-2015-1397.svg) ![forks](https://img.shields.io/github/forks/WHOISshuvam/CVE-2015-1397.svg)
 
 - [https://github.com/Wytchwulf/CVE-2015-1397-Magento-Shoplift](https://github.com/Wytchwulf/CVE-2015-1397-Magento-Shoplift) :  ![starts](https://img.shields.io/github/stars/Wytchwulf/CVE-2015-1397-Magento-Shoplift.svg) ![forks](https://img.shields.io/github/forks/Wytchwulf/CVE-2015-1397-Magento-Shoplift.svg)
 
@@ -1210,7 +1219,7 @@
 
 
 
-- [https://github.com/55-AA/CVE-2015-0057](https://github.com/55-AA/CVE-2015-0057) :  ![starts](https://img.shields.io/github/stars/55-AA/CVE-2015-0057.svg) ![forks](https://img.shields.io/github/forks/55-AA/CVE-2015-0057.svg)
+- [https://github.com/highandhigh/CVE-2015-0057](https://github.com/highandhigh/CVE-2015-0057) :  ![starts](https://img.shields.io/github/stars/highandhigh/CVE-2015-0057.svg) ![forks](https://img.shields.io/github/forks/highandhigh/CVE-2015-0057.svg)
 
 ## CVE-2015-0006
  The Network Location Awareness (NLA) service in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not perform mutual authentication to determine a domain connection, which allows remote attackers to trigger an unintended permissive configuration by spoofing DNS and LDAP responses on a local network, aka &quot;NLA Security Feature Bypass Vulnerability.&quot;
