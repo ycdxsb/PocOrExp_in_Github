@@ -1,5 +1,12 @@
+## CVE-2001-1473
+ The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
+
+
+
+- [https://github.com/bash3rt3am/poc-cve](https://github.com/bash3rt3am/poc-cve) :  ![starts](https://img.shields.io/github/stars/bash3rt3am/poc-cve.svg) ![forks](https://img.shields.io/github/forks/bash3rt3am/poc-cve.svg)
+
 ## CVE-2001-1442
- Buffer overflow in innfeed for ISC InterNetNews (INN) before 2.3.0 allows local users in the &quot;news&quot; group to gain privileges via a long -c command line argument.
+ Buffer overflow in innfeed for ISC InterNetNews (INN) before 2.3.0 allows local users in the "news" group to gain privileges via a long -c command line argument.
 
 
 
@@ -13,7 +20,7 @@
 - [https://github.com/alt3kx/CVE-2001-0934](https://github.com/alt3kx/CVE-2001-0934) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2001-0934.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2001-0934.svg)
 
 ## CVE-2001-0933
- Cooolsoft PowerFTP Server 2.03 allows remote attackers to list the contents of arbitrary drives via a ls (LIST) command that includes the drive letter as an argument, e.g. &quot;ls C:&quot;.
+ Cooolsoft PowerFTP Server 2.03 allows remote attackers to list the contents of arbitrary drives via a ls (LIST) command that includes the drive letter as an argument, e.g. "ls C:".
 
 
 
@@ -34,21 +41,21 @@
 - [https://github.com/alt3kx/CVE-2001-0931](https://github.com/alt3kx/CVE-2001-0931) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2001-0931.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2001-0931.svg)
 
 ## CVE-2001-0758
- Directory traversal vulnerability in Shambala 4.5 allows remote attackers to escape the FTP root directory via &quot;CWD ...&quot;  command.
+ Directory traversal vulnerability in Shambala 4.5 allows remote attackers to escape the FTP root directory via "CWD ..."  command.
 
 
 
 - [https://github.com/alt3kx/CVE-2001-0758](https://github.com/alt3kx/CVE-2001-0758) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2001-0758.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2001-0758.svg)
 
 ## CVE-2001-0680
- Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 allows a remote attacker to traverse directories on the web server via a &quot;dot dot&quot; attack in a LIST (ls) command.
+ Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 allows a remote attacker to traverse directories on the web server via a "dot dot" attack in a LIST (ls) command.
 
 
 
 - [https://github.com/alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2001-0680.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2001-0680.svg)
 
 ## CVE-2001-0550
- wu-ftpd 2.6.1 allows remote attackers to execute arbitrary commands via a &quot;~{&quot; argument to commands such as CWD, which is not properly handled by the glob function (ftpglob).
+ wu-ftpd 2.6.1 allows remote attackers to execute arbitrary commands via a "~{" argument to commands such as CWD, which is not properly handled by the glob function (ftpglob).
 
 
 
