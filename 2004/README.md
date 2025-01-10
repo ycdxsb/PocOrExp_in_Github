@@ -1,10 +1,3 @@
-## CVE-2004-2761
- The MD5 Message-Digest Algorithm is not collision resistant, which makes it easier for context-dependent attackers to conduct spoofing attacks, as demonstrated by attacks on the use of MD5 in the signature algorithm of an X.509 certificate.
-
-
-
-- [https://github.com/chaos198800/Windows-xia-SSL-zheng-shu-zhi-zuo-gong-ju--CVE-2004-2761-lou-dong-xiu-fu](https://github.com/chaos198800/Windows-xia-SSL-zheng-shu-zhi-zuo-gong-ju--CVE-2004-2761-lou-dong-xiu-fu) :  ![starts](https://img.shields.io/github/stars/chaos198800/Windows-xia-SSL-zheng-shu-zhi-zuo-gong-ju--CVE-2004-2761-lou-dong-xiu-fu.svg) ![forks](https://img.shields.io/github/forks/chaos198800/Windows-xia-SSL-zheng-shu-zhi-zuo-gong-ju--CVE-2004-2761-lou-dong-xiu-fu.svg)
-
 ## CVE-2004-2687
  distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.
 
@@ -53,7 +46,7 @@
 - [https://github.com/uzzzval/cve-2004-2167](https://github.com/uzzzval/cve-2004-2167) :  ![starts](https://img.shields.io/github/stars/uzzzval/cve-2004-2167.svg) ![forks](https://img.shields.io/github/forks/uzzzval/cve-2004-2167.svg)
 
 ## CVE-2004-1769
- The &quot;Allow cPanel users to reset their password via email&quot; feature in cPanel 9.1.0 build 34 and earlier, including 8.x, allows remote attackers to execute arbitrary code via the user parameter to resetpass.
+ The "Allow cPanel users to reset their password via email" feature in cPanel 9.1.0 build 34 and earlier, including 8.x, allows remote attackers to execute arbitrary code via the user parameter to resetpass.
 
 
 
