@@ -41,7 +41,7 @@
 - [https://github.com/alt3kx/CVE-2002-0740](https://github.com/alt3kx/CVE-2002-0740) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0740.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0740.svg)
 
 ## CVE-2002-0448
- Xerver Free Web Server 2.10 and earlier allows remote attackers to cause a denial of service (crash) via an HTTP request that contains many &quot;C:/&quot; sequences.
+ Xerver Free Web Server 2.10 and earlier allows remote attackers to cause a denial of service (crash) via an HTTP request that contains many "C:/" sequences.
 
 
 
