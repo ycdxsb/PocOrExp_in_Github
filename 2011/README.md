@@ -31,7 +31,7 @@
 - [https://github.com/SECFORCE/CVE-2011-4107](https://github.com/SECFORCE/CVE-2011-4107) :  ![starts](https://img.shields.io/github/stars/SECFORCE/CVE-2011-4107.svg) ![forks](https://img.shields.io/github/forks/SECFORCE/CVE-2011-4107.svg)
 
 ## CVE-2011-3872
- Puppet 2.6.x before 2.6.12 and 2.7.x before 2.7.6, and Puppet Enterprise (PE) Users 1.0, 1.1, and 1.2 before 1.2.4, when signing an agent certificate, adds the Puppet master's certdnsnames values to the X.509 Subject Alternative Name field of the certificate, which allows remote attackers to spoof a Puppet master via a man-in-the-middle (MITM) attack against an agent that uses an alternate DNS name for the master, aka &quot;AltNames Vulnerability.&quot;
+ Puppet 2.6.x before 2.6.12 and 2.7.x before 2.7.6, and Puppet Enterprise (PE) Users 1.0, 1.1, and 1.2 before 1.2.4, when signing an agent certificate, adds the Puppet master's certdnsnames values to the X.509 Subject Alternative Name field of the certificate, which allows remote attackers to spoof a Puppet master via a man-in-the-middle (MITM) attack against an agent that uses an alternate DNS name for the master, aka "AltNames Vulnerability."
 
 
 
@@ -45,7 +45,7 @@
 - [https://github.com/sk4la/cve_2011_3556](https://github.com/sk4la/cve_2011_3556) :  ![starts](https://img.shields.io/github/stars/sk4la/cve_2011_3556.svg) ![forks](https://img.shields.io/github/forks/sk4la/cve_2011_3556.svg)
 
 ## CVE-2011-3389
- The SSL protocol, as used in certain configurations in Microsoft Windows and Microsoft Internet Explorer, Mozilla Firefox, Google Chrome, Opera, and other products, encrypts data by using CBC mode with chained initialization vectors, which allows man-in-the-middle attackers to obtain plaintext HTTP headers via a blockwise chosen-boundary attack (BCBA) on an HTTPS session, in conjunction with JavaScript code that uses (1) the HTML5 WebSocket API, (2) the Java URLConnection API, or (3) the Silverlight WebClient API, aka a &quot;BEAST&quot; attack.
+ The SSL protocol, as used in certain configurations in Microsoft Windows and Microsoft Internet Explorer, Mozilla Firefox, Google Chrome, Opera, and other products, encrypts data by using CBC mode with chained initialization vectors, which allows man-in-the-middle attackers to obtain plaintext HTTP headers via a blockwise chosen-boundary attack (BCBA) on an HTTPS session, in conjunction with JavaScript code that uses (1) the HTML5 WebSocket API, (2) the Java URLConnection API, or (3) the Silverlight WebClient API, aka a "BEAST" attack.
 
 
 
@@ -150,7 +150,7 @@
 - [https://github.com/u-maxx/magento-swf-patched-CVE-2011-2461](https://github.com/u-maxx/magento-swf-patched-CVE-2011-2461) :  ![starts](https://img.shields.io/github/stars/u-maxx/magento-swf-patched-CVE-2011-2461.svg) ![forks](https://img.shields.io/github/forks/u-maxx/magento-swf-patched-CVE-2011-2461.svg)
 
 ## CVE-2011-1974
- NDISTAPI.sys in the NDISTAPI driver in Remote Access Service (RAS) in Microsoft Windows XP SP2 and SP3 and Windows Server 2003 SP2 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka &quot;NDISTAPI Elevation of Privilege Vulnerability.&quot;
+ NDISTAPI.sys in the NDISTAPI driver in Remote Access Service (RAS) in Microsoft Windows XP SP2 and SP3 and Windows Server 2003 SP2 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka "NDISTAPI Elevation of Privilege Vulnerability."
 
 
 
@@ -164,7 +164,7 @@
 - [https://github.com/nbeguier/postfix_exploit](https://github.com/nbeguier/postfix_exploit) :  ![starts](https://img.shields.io/github/stars/nbeguier/postfix_exploit.svg) ![forks](https://img.shields.io/github/forks/nbeguier/postfix_exploit.svg)
 
 ## CVE-2011-1575
- The STARTTLS implementation in ftp_parser.c in Pure-FTPd before 1.0.30 does not properly restrict I/O buffering, which allows man-in-the-middle attackers to insert commands into encrypted FTP sessions by sending a cleartext command that is processed after TLS is in place, related to a &quot;plaintext command injection&quot; attack, a similar issue to CVE-2011-0411.
+ The STARTTLS implementation in ftp_parser.c in Pure-FTPd before 1.0.30 does not properly restrict I/O buffering, which allows man-in-the-middle attackers to insert commands into encrypted FTP sessions by sending a cleartext command that is processed after TLS is in place, related to a "plaintext command injection" attack, a similar issue to CVE-2011-0411.
 
 
 
@@ -185,14 +185,14 @@
 - [https://github.com/Pashkela/CVE-2011-1485](https://github.com/Pashkela/CVE-2011-1485) :  ![starts](https://img.shields.io/github/stars/Pashkela/CVE-2011-1485.svg) ![forks](https://img.shields.io/github/forks/Pashkela/CVE-2011-1485.svg)
 
 ## CVE-2011-1475
- The HTTP BIO connector in Apache Tomcat 7.0.x before 7.0.12 does not properly handle HTTP pipelining, which allows remote attackers to read responses intended for other clients in opportunistic circumstances by examining the application data in HTTP packets, related to &quot;a mix-up of responses for requests from different users.&quot;
+ The HTTP BIO connector in Apache Tomcat 7.0.x before 7.0.12 does not properly handle HTTP pipelining, which allows remote attackers to read responses intended for other clients in opportunistic circumstances by examining the application data in HTTP packets, related to "a mix-up of responses for requests from different users."
 
 
 
 - [https://github.com/samaujs/CVE-2011-1475](https://github.com/samaujs/CVE-2011-1475) :  ![starts](https://img.shields.io/github/stars/samaujs/CVE-2011-1475.svg) ![forks](https://img.shields.io/github/forks/samaujs/CVE-2011-1475.svg)
 
 ## CVE-2011-1473
- ** DISPUTED ** OpenSSL before 0.9.8l, and 0.9.8m through 1.x, does not properly restrict client-initiated renegotiation within the SSL and TLS protocols, which might make it easier for remote attackers to cause a denial of service (CPU consumption) by performing many renegotiations within a single connection, a different vulnerability than CVE-2011-5094.  NOTE: it can also be argued that it is the responsibility of server deployments, not a security library, to prevent or limit renegotiation when it is inappropriate within a specific environment.
+ OpenSSL before 0.9.8l, and 0.9.8m through 1.x, does not properly restrict client-initiated renegotiation within the SSL and TLS protocols, which might make it easier for remote attackers to cause a denial of service (CPU consumption) by performing many renegotiations within a single connection, a different vulnerability than CVE-2011-5094.  NOTE: it can also be argued that it is the responsibility of server deployments, not a security library, to prevent or limit renegotiation when it is inappropriate within a specific environment
 
 
 
@@ -201,7 +201,7 @@
 - [https://github.com/zjt674449039/cve-2011-1473](https://github.com/zjt674449039/cve-2011-1473) :  ![starts](https://img.shields.io/github/stars/zjt674449039/cve-2011-1473.svg) ![forks](https://img.shields.io/github/forks/zjt674449039/cve-2011-1473.svg)
 
 ## CVE-2011-1249
- The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka &quot;Ancillary Function Driver Elevation of Privilege Vulnerability.&quot;
+ The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka "Ancillary Function Driver Elevation of Privilege Vulnerability."
 
 
 
@@ -210,7 +210,7 @@
 - [https://github.com/Madusanka99/OHTS](https://github.com/Madusanka99/OHTS) :  ![starts](https://img.shields.io/github/stars/Madusanka99/OHTS.svg) ![forks](https://img.shields.io/github/forks/Madusanka99/OHTS.svg)
 
 ## CVE-2011-1237
- Use-after-free vulnerability in win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 allows local users to gain privileges via a crafted application that leverages incorrect driver object management, a different vulnerability than other &quot;Vulnerability Type 1&quot; CVEs listed in MS11-034, aka &quot;Win32k Use After Free Vulnerability.&quot;
+ Use-after-free vulnerability in win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 allows local users to gain privileges via a crafted application that leverages incorrect driver object management, a different vulnerability than other "Vulnerability Type 1" CVEs listed in MS11-034, aka "Win32k Use After Free Vulnerability."
 
 
 
@@ -226,7 +226,7 @@
 - [https://github.com/amil-ptl-test/ptl_cve_2011_0228](https://github.com/amil-ptl-test/ptl_cve_2011_0228) :  ![starts](https://img.shields.io/github/stars/amil-ptl-test/ptl_cve_2011_0228.svg) ![forks](https://img.shields.io/github/forks/amil-ptl-test/ptl_cve_2011_0228.svg)
 
 ## CVE-2011-0104
- Microsoft Excel 2002 SP3 and 2003 SP3, Office 2004 and 2008 for Mac, and Open XML File Format Converter for Mac allow remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted HLink record in an Excel file, aka &quot;Excel Buffer Overwrite Vulnerability.&quot;
+ Microsoft Excel 2002 SP3 and 2003 SP3, Office 2004 and 2008 for Mac, and Open XML File Format Converter for Mac allow remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted HLink record in an Excel file, aka "Excel Buffer Overwrite Vulnerability."
 
 
 
