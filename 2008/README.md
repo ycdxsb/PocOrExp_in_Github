@@ -1,5 +1,5 @@
 ## CVE-2008-7220
- Unspecified vulnerability in Prototype JavaScript framework (prototypejs) before 1.6.0.2 allows attackers to make &quot;cross-site ajax requests&quot; via unknown vectors.
+ Unspecified vulnerability in Prototype JavaScript framework (prototypejs) before 1.6.0.2 allows attackers to make "cross-site ajax requests" via unknown vectors.
 
 
 
@@ -13,7 +13,7 @@
 - [https://github.com/KyomaHooin/CVE-2008-6970](https://github.com/KyomaHooin/CVE-2008-6970) :  ![starts](https://img.shields.io/github/stars/KyomaHooin/CVE-2008-6970.svg) ![forks](https://img.shields.io/github/forks/KyomaHooin/CVE-2008-6970.svg)
 
 ## CVE-2008-6827
- The ListView control in the Client GUI (AClient.exe) in Symantec Altiris Deployment Solution 6.x before 6.9.355 SP1 allows local users to gain SYSTEM privileges and execute arbitrary commands via a &quot;Shatter&quot; style attack on the &quot;command prompt&quot; hidden GUI button to (1) overwrite the CommandLine parameter to cmd.exe to use SYSTEM privileges and (2) modify the DLL that is loaded using the LoadLibrary API function.
+ The ListView control in the Client GUI (AClient.exe) in Symantec Altiris Deployment Solution 6.x before 6.9.355 SP1 allows local users to gain SYSTEM privileges and execute arbitrary commands via a "Shatter" style attack on the "command prompt" hidden GUI button to (1) overwrite the CommandLine parameter to cmd.exe to use SYSTEM privileges and (2) modify the DLL that is loaded using the LoadLibrary API function.
 
 
 
@@ -34,7 +34,7 @@
 - [https://github.com/K3ysTr0K3R/CVE-2008-5862-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2008-5862-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2008-5862-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2008-5862-EXPLOIT.svg)
 
 ## CVE-2008-5416
- Heap-based buffer overflow in Microsoft SQL Server 2000 SP4, 8.00.2050, 8.00.2039, and earlier; SQL Server 2000 Desktop Engine (MSDE 2000) SP4; SQL Server 2005 SP2 and 9.00.1399.06; SQL Server 2000 Desktop Engine (WMSDE) on Windows Server 2003 SP1 and SP2; and Windows Internal Database (WYukon) SP2 allows remote authenticated users to cause a denial of service (access violation exception) or execute arbitrary code by calling the sp_replwritetovarbin extended stored procedure with a set of invalid parameters that trigger memory overwrite, aka &quot;SQL Server sp_replwritetovarbin Limited Memory Overwrite Vulnerability.&quot;
+ Heap-based buffer overflow in Microsoft SQL Server 2000 SP4, 8.00.2050, 8.00.2039, and earlier; SQL Server 2000 Desktop Engine (MSDE 2000) SP4; SQL Server 2005 SP2 and 9.00.1399.06; SQL Server 2000 Desktop Engine (WMSDE) on Windows Server 2003 SP1 and SP2; and Windows Internal Database (WYukon) SP2 allows remote authenticated users to cause a denial of service (access violation exception) or execute arbitrary code by calling the sp_replwritetovarbin extended stored procedure with a set of invalid parameters that trigger memory overwrite, aka "SQL Server sp_replwritetovarbin Limited Memory Overwrite Vulnerability."
 
 
 
@@ -68,7 +68,7 @@
 - [https://github.com/mrclki/sockstress](https://github.com/mrclki/sockstress) :  ![starts](https://img.shields.io/github/stars/mrclki/sockstress.svg) ![forks](https://img.shields.io/github/forks/mrclki/sockstress.svg)
 
 ## CVE-2008-4250
- The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, Server 2008, and 7 Pre-Beta allows remote attackers to execute arbitrary code via a crafted RPC request that triggers the overflow during path canonicalization, as exploited in the wild by Gimmiv.A in October 2008, aka &quot;Server Service Vulnerability.&quot;
+ The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, Server 2008, and 7 Pre-Beta allows remote attackers to execute arbitrary code via a crafted RPC request that triggers the overflow during path canonicalization, as exploited in the wild by Gimmiv.A in October 2008, aka "Server Service Vulnerability."
 
 
 
@@ -82,21 +82,21 @@
 - [https://github.com/bigb0x/CVE-2024-6387](https://github.com/bigb0x/CVE-2024-6387) :  ![starts](https://img.shields.io/github/stars/bigb0x/CVE-2024-6387.svg) ![forks](https://img.shields.io/github/forks/bigb0x/CVE-2024-6387.svg)
 
 ## CVE-2008-3531
- Stack-based buffer overflow in sys/kern/vfs_mount.c in the kernel in FreeBSD 7.0 and 7.1, when vfs.usermount is enabled, allows local users to gain privileges via a crafted (1) mount or (2) nmount system call, related to copying of &quot;user defined data&quot; in &quot;certain error conditions.&quot;
+ Stack-based buffer overflow in sys/kern/vfs_mount.c in the kernel in FreeBSD 7.0 and 7.1, when vfs.usermount is enabled, allows local users to gain privileges via a crafted (1) mount or (2) nmount system call, related to copying of "user defined data" in "certain error conditions."
 
 
 
 - [https://github.com/test-one9/ps4-11.50.github.io](https://github.com/test-one9/ps4-11.50.github.io) :  ![starts](https://img.shields.io/github/stars/test-one9/ps4-11.50.github.io.svg) ![forks](https://img.shields.io/github/forks/test-one9/ps4-11.50.github.io.svg)
 
 ## CVE-2008-2938
- Directory traversal vulnerability in Apache Tomcat 4.1.0 through 4.1.37, 5.5.0 through 5.5.26, and 6.0.0 through 6.0.16, when allowLinking and UTF-8 are enabled, allows remote attackers to read arbitrary files via encoded directory traversal sequences in the URI, a different vulnerability than CVE-2008-2370. NOTE: versions earlier than 6.0.18 were reported affected, but the vendor advisory lists 6.0.16 as the last affected version.
+ Directory traversal vulnerability in Apache Tomcat 4.1.0 through 4.1.37, 5.5.0 through 5.5.26, and 6.0.0 through 6.0.16, when allowLinking and UTF-8 are enabled, allows remote attackers to read arbitrary files via encoded directory traversal sequences in the URI, a different vulnerability than CVE-2008-2370.  NOTE: versions earlier than 6.0.18 were reported affected, but the vendor advisory lists 6.0.16 as the last affected version.
 
 
 
 - [https://github.com/Naramsim/Offensive](https://github.com/Naramsim/Offensive) :  ![starts](https://img.shields.io/github/stars/Naramsim/Offensive.svg) ![forks](https://img.shields.io/github/forks/Naramsim/Offensive.svg)
 
 ## CVE-2008-2019
- Simple Machines Forum (SMF), probably 1.1.4, relies on &quot;randomly generated static&quot; to hinder brute-force attacks on the WAV file (aka audio) CAPTCHA, which allows remote attackers to pass the CAPTCHA test via an automated attack that considers Hamming distances.  NOTE: this issue reportedly exists because of an insufficient fix for CVE-2007-3308.
+ Simple Machines Forum (SMF), probably 1.1.4, relies on "randomly generated static" to hinder brute-force attacks on the WAV file (aka audio) CAPTCHA, which allows remote attackers to pass the CAPTCHA test via an automated attack that considers Hamming distances.  NOTE: this issue reportedly exists because of an insufficient fix for CVE-2007-3308.
 
 
 
@@ -117,14 +117,14 @@
 - [https://github.com/Axua/CVE-2008-1611](https://github.com/Axua/CVE-2008-1611) :  ![starts](https://img.shields.io/github/stars/Axua/CVE-2008-1611.svg) ![forks](https://img.shields.io/github/forks/Axua/CVE-2008-1611.svg)
 
 ## CVE-2008-1447
- The DNS protocol, as implemented in (1) BIND 8 and 9 before 9.5.0-P1, 9.4.2-P1, and 9.3.5-P1; (2) Microsoft DNS in Windows 2000 SP4, XP SP2 and SP3, and Server 2003 SP1 and SP2; and other implementations allow remote attackers to spoof DNS traffic via a birthday attack that uses in-bailiwick referrals to conduct cache poisoning against recursive resolvers, related to insufficient randomness of DNS transaction IDs and source ports, aka &quot;DNS Insufficient Socket Entropy Vulnerability&quot; or &quot;the Kaminsky bug.&quot;
+ The DNS protocol, as implemented in (1) BIND 8 and 9 before 9.5.0-P1, 9.4.2-P1, and 9.3.5-P1; (2) Microsoft DNS in Windows 2000 SP4, XP SP2 and SP3, and Server 2003 SP1 and SP2; and other implementations allow remote attackers to spoof DNS traffic via a birthday attack that uses in-bailiwick referrals to conduct cache poisoning against recursive resolvers, related to insufficient randomness of DNS transaction IDs and source ports, aka "DNS Insufficient Socket Entropy Vulnerability" or "the Kaminsky bug."
 
 
 
 - [https://github.com/hackingyseguridad/dnspoison](https://github.com/hackingyseguridad/dnspoison) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/dnspoison.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/dnspoison.svg)
 
 ## CVE-2008-0244
- SAP MaxDB 7.6.03 build 007 and earlier allows remote attackers to execute arbitrary commands via &quot;&amp;&amp;&quot; and other shell metacharacters in exec_sdbinfo and other unspecified commands, which are executed when MaxDB invokes cons.exe.
+ SAP MaxDB 7.6.03 build 007 and earlier allows remote attackers to execute arbitrary commands via "&&" and other shell metacharacters in exec_sdbinfo and other unspecified commands, which are executed when MaxDB invokes cons.exe.
 
 
 
