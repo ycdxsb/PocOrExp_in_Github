@@ -1,5 +1,8 @@
 ## CVE-2006-20001
- A carefully crafted If: request header can cause a memory read, or write of a single zero byte, in a pool (heap) memory location beyond the header value sent. This could cause the process to crash. This issue affects Apache HTTP Server 2.4.54 and earlier.
+ A carefully crafted If: request header can cause a memory read, or write of a single zero byte, in a pool (heap) memory location beyond the header value sent. This could cause the process to crash.
+
+This issue affects Apache HTTP Server 2.4.54 and earlier.
+
 
 
 
@@ -47,14 +50,14 @@
 - [https://github.com/defensahacker/CVE-2006-3747](https://github.com/defensahacker/CVE-2006-3747) :  ![starts](https://img.shields.io/github/stars/defensahacker/CVE-2006-3747.svg) ![forks](https://img.shields.io/github/forks/defensahacker/CVE-2006-3747.svg)
 
 ## CVE-2006-3592
- Unspecified vulnerability in the command line interface (CLI) in Cisco Unified CallManager (CUCM) 5.0(1) through 5.0(3a) allows local users to execute arbitrary commands with elevated privileges via unspecified vectors, involving &quot;certain CLI commands,&quot; aka bug CSCse11005.
+ Unspecified vulnerability in the command line interface (CLI) in Cisco Unified CallManager (CUCM) 5.0(1) through 5.0(3a) allows local users to execute arbitrary commands with elevated privileges via unspecified vectors, involving "certain CLI commands," aka bug CSCse11005.
 
 
 
 - [https://github.com/adenkiewicz/CVE-2006-3592](https://github.com/adenkiewicz/CVE-2006-3592) :  ![starts](https://img.shields.io/github/stars/adenkiewicz/CVE-2006-3592.svg) ![forks](https://img.shields.io/github/forks/adenkiewicz/CVE-2006-3592.svg)
 
 ## CVE-2006-3392
- Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
+ Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using "..%01" sequences, which bypass the removal of "../" sequences before bytes such as "%01" are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
 
 
 
@@ -75,7 +78,7 @@
 - [https://github.com/gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin) :  ![starts](https://img.shields.io/github/stars/gb21oc/ExploitWebmin.svg) ![forks](https://img.shields.io/github/forks/gb21oc/ExploitWebmin.svg)
 
 ## CVE-2006-2842
- ** DISP
+ PHP remote file inclusion vulnerability in functions/plugin.php in SquirrelMail 1.4.6 and earlier, if register_globals is enabled and magic_quotes_gpc is disabled, allows remote attackers to execute arbitrary PHP code via a URL in the plugins array parameter.  NOTE: this issue has been disputed by third parties, who state that Squirrelmail provides prominent warnings to the administrator when register_globals is enabled.  Since the varieties of administrator negligence are uncountable, perhaps this type of issue should not be included in CVE.  However, the original developer has posted a security advisory, so there might be relevant real-world environments under which this vulnerability is applicable
 
 
 
