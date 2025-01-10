@@ -8,7 +8,7 @@
 - [https://github.com/Cr0w-ui/-CVE-2005-3299-](https://github.com/Cr0w-ui/-CVE-2005-3299-) :  ![starts](https://img.shields.io/github/stars/Cr0w-ui/-CVE-2005-3299-.svg) ![forks](https://img.shields.io/github/forks/Cr0w-ui/-CVE-2005-3299-.svg)
 
 ## CVE-2005-2428
- Lotus Domino R5 and R6 WebMail, with &quot;Generate HTML for all fields&quot; enabled, stores sensitive data from names.nsf in hidden form fields, which allows remote attackers to read the HTML source to obtain sensitive information such as (1) the password hash in the HTTPPassword field, (2) the password change date in the HTTPPasswordChangeDate field, (3) the client platform in the ClntPltfrm field, (4) the client machine name in the ClntMachine field, and (5) the client Lotus Domino release in the ClntBld field, a different vulnerability than CVE-2005-2696.
+ Lotus Domino R5 and R6 WebMail, with "Generate HTML for all fields" enabled, stores sensitive data from names.nsf in hidden form fields, which allows remote attackers to read the HTML source to obtain sensitive information such as (1) the password hash in the HTTPPassword field, (2) the password change date in the HTTPPasswordChangeDate field, (3) the client platform in the ClntPltfrm field, (4) the client machine name in the ClntMachine field, and (5) the client Lotus Domino release in the ClntBld field, a different vulnerability than CVE-2005-2696.
 
 
 
@@ -43,7 +43,7 @@
 - [https://github.com/3t3rn4lv01d/CVE-2005-0575](https://github.com/3t3rn4lv01d/CVE-2005-0575) :  ![starts](https://img.shields.io/github/stars/3t3rn4lv01d/CVE-2005-0575.svg) ![forks](https://img.shields.io/github/forks/3t3rn4lv01d/CVE-2005-0575.svg)
 
 ## CVE-2005-0452
- Multiple cross-site scripting (XSS) vulnerabilities in Microsoft ASP.NET (.Net) 1.0 and 1.1 to SP1 allow remote attackers to inject arbitrary HTML or web script via Unicode representations for ASCII fullwidth characters that are converted to normal ASCII characters, including &quot;&gt;&quot; and &quot;&lt;&quot;.
+ Multiple cross-site scripting (XSS) vulnerabilities in Microsoft ASP.NET (.Net) 1.0 and 1.1 to SP1 allow remote attackers to inject arbitrary HTML or web script via Unicode representations for ASCII fullwidth characters that are converted to normal ASCII characters, including "" and "".
 
 
 
