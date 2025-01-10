@@ -17,7 +17,7 @@
 - [https://github.com/yihtserns/spring-web-without-remoting](https://github.com/yihtserns/spring-web-without-remoting) :  ![starts](https://img.shields.io/github/stars/yihtserns/spring-web-without-remoting.svg) ![forks](https://img.shields.io/github/forks/yihtserns/spring-web-without-remoting.svg)
 
 ## CVE-2016-20012
- ** DISPUTED ** OpenSSH through 8.7 allows remote attackers, who have a suspicion that a certain combination of username and public key is known to an SSH server, to test whether this suspicion is correct. This occurs because a challenge is sent only when that combination could be valid for a login session. NOTE: the vendor does not recognize user enumeration as a vulnerability for this product.
+ OpenSSH through 8.7 allows remote attackers, who have a suspicion that a certain combination of username and public key is known to an SSH server, to test whether this suspicion is correct. This occurs because a challenge is sent only when that combination could be valid for a login session. NOTE: the vendor does not recognize user enumeration as a vulnerability for this product
 
 
 
@@ -63,7 +63,7 @@
 - [https://github.com/ossf-cve-benchmark/CVE-2016-10735](https://github.com/ossf-cve-benchmark/CVE-2016-10735) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2016-10735.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2016-10735.svg)
 
 ## CVE-2016-10725
- In Bitcoin Core before v0.13.0, a non-final alert is able to block the special &quot;final alert&quot; (which is supposed to override all other alerts) because operations occur in the wrong order. This behavior occurs in the remote network alert system (deprecated since Q1 2016). This affects other uses of the codebase, such as Bitcoin Knots before v0.13.0.knots20160814 and many altcoins.
+ In Bitcoin Core before v0.13.0, a non-final alert is able to block the special "final alert" (which is supposed to override all other alerts) because operations occur in the wrong order. This behavior occurs in the remote network alert system (deprecated since Q1 2016). This affects other uses of the codebase, such as Bitcoin Knots before v0.13.0.knots20160814 and many altcoins.
 
 
 
@@ -84,7 +84,7 @@
 - [https://github.com/wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development) :  ![starts](https://img.shields.io/github/stars/wetw0rk/Exploit-Development.svg) ![forks](https://img.shields.io/github/forks/wetw0rk/Exploit-Development.svg)
 
 ## CVE-2016-10555
- Since &quot;algorithm&quot; isn't enforced in jwt.decode()in jwt-simple 0.3.0 and earlier, a malicious user could choose what algorithm is sent sent to the server. If the server is expecting RSA but is sent HMAC-SHA with RSA's public key, the server will think the public key is actually an HMAC private key. This could be used to forge any data an attacker wants.
+ Since "algorithm" isn't enforced in jwt.decode()in jwt-simple 0.3.0 and earlier, a malicious user could choose what algorithm is sent sent to the server. If the server is expecting RSA but is sent HMAC-SHA with RSA's public key, the server will think the public key is actually an HMAC private key. This could be used to forge any data an attacker wants.
 
 
 
@@ -139,14 +139,14 @@
 - [https://github.com/pedro823/cve-2016-10033-45](https://github.com/pedro823/cve-2016-10033-45) :  ![starts](https://img.shields.io/github/stars/pedro823/cve-2016-10033-45.svg) ![forks](https://img.shields.io/github/forks/pedro823/cve-2016-10033-45.svg)
 
 ## CVE-2016-10034
- The setFrom function in the Sendmail adapter in the zend-mail component before 2.4.11, 2.5.x, 2.6.x, and 2.7.x before 2.7.2, and Zend Framework before 2.4.11 might allow remote attackers to pass extra parameters to the mail command and consequently execute arbitrary code via a \&quot; (backslash double quote) in a crafted e-mail address.
+ The setFrom function in the Sendmail adapter in the zend-mail component before 2.4.11, 2.5.x, 2.6.x, and 2.7.x before 2.7.2, and Zend Framework before 2.4.11 might allow remote attackers to pass extra parameters to the mail command and consequently execute arbitrary code via a \" (backslash double quote) in a crafted e-mail address.
 
 
 
 - [https://github.com/heikipikker/exploit-CVE-2016-10034](https://github.com/heikipikker/exploit-CVE-2016-10034) :  ![starts](https://img.shields.io/github/stars/heikipikker/exploit-CVE-2016-10034.svg) ![forks](https://img.shields.io/github/forks/heikipikker/exploit-CVE-2016-10034.svg)
 
 ## CVE-2016-10033
- The mailSend function in the isMail transport in PHPMailer before 5.2.18 might allow remote attackers to pass extra parameters to the mail command and consequently execute arbitrary code via a \&quot; (backslash double quote) in a crafted Sender property.
+ The mailSend function in the isMail transport in PHPMailer before 5.2.18 might allow remote attackers to pass extra parameters to the mail command and consequently execute arbitrary code via a \" (backslash double quote) in a crafted Sender property.
 
 
 
@@ -238,7 +238,7 @@
 - [https://github.com/serializingme/cve-2016-9192](https://github.com/serializingme/cve-2016-9192) :  ![starts](https://img.shields.io/github/stars/serializingme/cve-2016-9192.svg) ![forks](https://img.shields.io/github/forks/serializingme/cve-2016-9192.svg)
 
 ## CVE-2016-9079
- A use-after-free vulnerability in SVG Animation has been discovered. An exploit built on this vulnerability has been discovered in the wild targeting Firefox and Tor Browser users on Windows. This vulnerability affects Firefox &lt; 50.0.2, Firefox ESR &lt; 45.5.1, and Thunderbird &lt; 45.5.1.
+ A use-after-free vulnerability in SVG Animation has been discovered. An exploit built on this vulnerability has been discovered in the wild targeting Firefox and Tor Browser users on Windows. This vulnerability affects Firefox  50.0.2, Firefox ESR  45.5.1, and Thunderbird  45.5.1.
 
 
 
@@ -249,7 +249,7 @@
 - [https://github.com/Tau-hub/Firefox-CVE-2016-9079](https://github.com/Tau-hub/Firefox-CVE-2016-9079) :  ![starts](https://img.shields.io/github/stars/Tau-hub/Firefox-CVE-2016-9079.svg) ![forks](https://img.shields.io/github/forks/Tau-hub/Firefox-CVE-2016-9079.svg)
 
 ## CVE-2016-9066
- A buffer overflow resulting in a potentially exploitable crash due to memory allocation issues when handling large amounts of incoming data. This vulnerability affects Thunderbird &lt; 45.5, Firefox ESR &lt; 45.5, and Firefox &lt; 50.
+ A buffer overflow resulting in a potentially exploitable crash due to memory allocation issues when handling large amounts of incoming data. This vulnerability affects Thunderbird  45.5, Firefox ESR  45.5, and Firefox  50.
 
 
 
@@ -285,7 +285,7 @@
 - [https://github.com/mephi42/CVE-2016-8863](https://github.com/mephi42/CVE-2016-8863) :  ![starts](https://img.shields.io/github/stars/mephi42/CVE-2016-8863.svg) ![forks](https://img.shields.io/github/forks/mephi42/CVE-2016-8863.svg)
 
 ## CVE-2016-8858
- ** DISPUTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;
+ The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that "OpenSSH upstream does not consider this as a security issue."
 
 
 
@@ -337,7 +337,7 @@
 - [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) :  ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
 
 ## CVE-2016-8636
- Integer overflow in the mem_check_range function in drivers/infiniband/sw/rxe/rxe_mr.c in the Linux kernel before 4.9.10 allows local users to cause a denial of service (memory corruption), obtain sensitive information from kernel memory, or possibly have unspecified other impact via a write or read request involving the &quot;RDMA protocol over infiniband&quot; (aka Soft RoCE) technology.
+ Integer overflow in the mem_check_range function in drivers/infiniband/sw/rxe/rxe_mr.c in the Linux kernel before 4.9.10 allows local users to cause a denial of service (memory corruption), obtain sensitive information from kernel memory, or possibly have unspecified other impact via a write or read request involving the "RDMA protocol over infiniband" (aka Soft RoCE) technology.
 
 
 
@@ -463,14 +463,14 @@
 - [https://github.com/swagatbora90/CheckFlashPlayerVersion](https://github.com/swagatbora90/CheckFlashPlayerVersion) :  ![starts](https://img.shields.io/github/stars/swagatbora90/CheckFlashPlayerVersion.svg) ![forks](https://img.shields.io/github/forks/swagatbora90/CheckFlashPlayerVersion.svg)
 
 ## CVE-2016-7617
- An issue was discovered in certain Apple products. macOS before 10.12.2 is affected. The issue involves the &quot;Bluetooth&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (type confusion) via a crafted app.
+ An issue was discovered in certain Apple products. macOS before 10.12.2 is affected. The issue involves the "Bluetooth" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (type confusion) via a crafted app.
 
 
 
 - [https://github.com/bazad/physmem](https://github.com/bazad/physmem) :  ![starts](https://img.shields.io/github/stars/bazad/physmem.svg) ![forks](https://img.shields.io/github/forks/bazad/physmem.svg)
 
 ## CVE-2016-7608
- An issue was discovered in certain Apple products. macOS before 10.12.2 is affected. The issue involves the &quot;IOFireWireFamily&quot; component, which allows local users to obtain sensitive information from kernel memory via unspecified vectors.
+ An issue was discovered in certain Apple products. macOS before 10.12.2 is affected. The issue involves the "IOFireWireFamily" component, which allows local users to obtain sensitive information from kernel memory via unspecified vectors.
 
 
 
@@ -488,7 +488,7 @@
 - [https://github.com/shekkbuilder/CVE-2016-7434](https://github.com/shekkbuilder/CVE-2016-7434) :  ![starts](https://img.shields.io/github/stars/shekkbuilder/CVE-2016-7434.svg) ![forks](https://img.shields.io/github/forks/shekkbuilder/CVE-2016-7434.svg)
 
 ## CVE-2016-7255
- The kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, and 1607, and Windows Server 2016 allow local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot;
+ The kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, and 1607, and Windows Server 2016 allow local users to gain privileges via a crafted application, aka "Win32k Elevation of Privilege Vulnerability."
 
 
 
@@ -503,21 +503,21 @@
 - [https://github.com/homjxi0e/CVE-2016-7255](https://github.com/homjxi0e/CVE-2016-7255) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2016-7255.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2016-7255.svg)
 
 ## CVE-2016-7201
- The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Scripting Engine Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-7200, CVE-2016-7202, CVE-2016-7203, CVE-2016-7208, CVE-2016-7240, CVE-2016-7242, and CVE-2016-7243.
+ The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka "Scripting Engine Memory Corruption Vulnerability," a different vulnerability than CVE-2016-7200, CVE-2016-7202, CVE-2016-7203, CVE-2016-7208, CVE-2016-7240, CVE-2016-7242, and CVE-2016-7243.
 
 
 
 - [https://github.com/theori-io/chakra-2016-11](https://github.com/theori-io/chakra-2016-11) :  ![starts](https://img.shields.io/github/stars/theori-io/chakra-2016-11.svg) ![forks](https://img.shields.io/github/forks/theori-io/chakra-2016-11.svg)
 
 ## CVE-2016-7200
- The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Scripting Engine Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-7201, CVE-2016-7202, CVE-2016-7203, CVE-2016-7208, CVE-2016-7240, CVE-2016-7242, and CVE-2016-7243.
+ The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka "Scripting Engine Memory Corruption Vulnerability," a different vulnerability than CVE-2016-7201, CVE-2016-7202, CVE-2016-7203, CVE-2016-7208, CVE-2016-7240, CVE-2016-7242, and CVE-2016-7243.
 
 
 
 - [https://github.com/theori-io/chakra-2016-11](https://github.com/theori-io/chakra-2016-11) :  ![starts](https://img.shields.io/github/stars/theori-io/chakra-2016-11.svg) ![forks](https://img.shields.io/github/forks/theori-io/chakra-2016-11.svg)
 
 ## CVE-2016-7190
- The Chakra JavaScript engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Scripting Engine Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-3386, CVE-2016-3389, and CVE-2016-7194.
+ The Chakra JavaScript engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka "Scripting Engine Memory Corruption Vulnerability," a different vulnerability than CVE-2016-3386, CVE-2016-3389, and CVE-2016-7194.
 
 
 
@@ -583,7 +583,7 @@
 - [https://github.com/ViralSecurityGroup/KNOXout](https://github.com/ViralSecurityGroup/KNOXout) :  ![starts](https://img.shields.io/github/stars/ViralSecurityGroup/KNOXout.svg) ![forks](https://img.shields.io/github/forks/ViralSecurityGroup/KNOXout.svg)
 
 ## CVE-2016-6516
- Race condition in the ioctl_file_dedupe_range function in fs/ioctl.c in the Linux kernel through 4.7 allows local users to cause a denial of service (heap-based buffer overflow) or possibly gain privileges by changing a certain count value, aka a &quot;double fetch&quot; vulnerability.
+ Race condition in the ioctl_file_dedupe_range function in fs/ioctl.c in the Linux kernel through 4.7 allows local users to cause a denial of service (heap-based buffer overflow) or possibly gain privileges by changing a certain count value, aka a "double fetch" vulnerability.
 
 
 
@@ -622,7 +622,7 @@
 - [https://github.com/Pazhanivelmani/libexif_Android10_r33_CVE-2016-6328](https://github.com/Pazhanivelmani/libexif_Android10_r33_CVE-2016-6328) :  ![starts](https://img.shields.io/github/stars/Pazhanivelmani/libexif_Android10_r33_CVE-2016-6328.svg) ![forks](https://img.shields.io/github/forks/Pazhanivelmani/libexif_Android10_r33_CVE-2016-6328.svg)
 
 ## CVE-2016-6317
- Action Record in Ruby on Rails 4.2.x before 4.2.7.1 does not properly consider differences in parameter handling between the Active Record component and the JSON implementation, which allows remote attackers to bypass intended database-query restrictions and perform NULL checks or trigger missing WHERE clauses via a crafted request, as demonstrated by certain &quot;[nil]&quot; values, a related issue to CVE-2012-2660, CVE-2012-2694, and CVE-2013-0155.
+ Action Record in Ruby on Rails 4.2.x before 4.2.7.1 does not properly consider differences in parameter handling between the Active Record component and the JSON implementation, which allows remote attackers to bypass intended database-query restrictions and perform NULL checks or trigger missing WHERE clauses via a crafted request, as demonstrated by certain "[nil]" values, a related issue to CVE-2012-2660, CVE-2012-2694, and CVE-2013-0155.
 
 
 
@@ -759,7 +759,7 @@
 - [https://github.com/NickStephens/cve-2016-5345](https://github.com/NickStephens/cve-2016-5345) :  ![starts](https://img.shields.io/github/stars/NickStephens/cve-2016-5345.svg) ![forks](https://img.shields.io/github/forks/NickStephens/cve-2016-5345.svg)
 
 ## CVE-2016-5195
- Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allows local users to gain privileges by leveraging incorrect handling of a copy-on-write (COW) feature to write to a read-only memory mapping, as exploited in the wild in October 2016, aka &quot;Dirty COW.&quot;
+ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allows local users to gain privileges by leveraging incorrect handling of a copy-on-write (COW) feature to write to a read-only memory mapping, as exploited in the wild in October 2016, aka "Dirty COW."
 
 
 
@@ -827,9 +827,9 @@
 
 - [https://github.com/ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ASUKA39/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ASUKA39/CVE-2016-5195.svg)
 
-- [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
-
 - [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
+
+- [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
 
 - [https://github.com/ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ldenevi/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ldenevi/CVE-2016-5195.svg)
 
@@ -933,7 +933,7 @@
 - [https://github.com/kaito834/cve-2016-4845_csrf](https://github.com/kaito834/cve-2016-4845_csrf) :  ![starts](https://img.shields.io/github/stars/kaito834/cve-2016-4845_csrf.svg) ![forks](https://img.shields.io/github/forks/kaito834/cve-2016-4845_csrf.svg)
 
 ## CVE-2016-4669
- An issue was discovered in certain Apple products. iOS before 10.1 is affected. macOS before 10.12.1 is affected. tvOS before 10.0.1 is affected. watchOS before 3.1 is affected. The issue involves the &quot;Kernel&quot; component. It allows local users to execute arbitrary code in a privileged context or cause a denial of service (MIG code mishandling and system crash) via unspecified vectors.
+ An issue was discovered in certain Apple products. iOS before 10.1 is affected. macOS before 10.12.1 is affected. tvOS before 10.0.1 is affected. watchOS before 3.1 is affected. The issue involves the "Kernel" component. It allows local users to execute arbitrary code in a privileged context or cause a denial of service (MIG code mishandling and system crash) via unspecified vectors.
 
 
 
@@ -1016,7 +1016,7 @@
 - [https://github.com/tafamace/CVE-2016-4438](https://github.com/tafamace/CVE-2016-4438) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2016-4438.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2016-4438.svg)
 
 ## CVE-2016-4437
- Apache Shiro before 1.2.5, when a cipher key has not been configured for the &quot;remember me&quot; feature, allows remote attackers to execute arbitrary code or bypass intended access restrictions via an unspecified request parameter.
+ Apache Shiro before 1.2.5, when a cipher key has not been configured for the "remember me" feature, allows remote attackers to execute arbitrary code or bypass intended access restrictions via an unspecified request parameter.
 
 
 
@@ -1107,7 +1107,7 @@
 - [https://github.com/nirdev/CVE-2016-3749-PoC](https://github.com/nirdev/CVE-2016-3749-PoC) :  ![starts](https://img.shields.io/github/stars/nirdev/CVE-2016-3749-PoC.svg) ![forks](https://img.shields.io/github/forks/nirdev/CVE-2016-3749-PoC.svg)
 
 ## CVE-2016-3714
- The (1) EPHEMERAL, (2) HTTPS, (3) MVG, (4) MSL, (5) TEXT, (6) SHOW, (7) WIN, and (8) PLT coders in ImageMagick before 6.9.3-10 and 7.x before 7.0.1-1 allow remote attackers to execute arbitrary code via shell metacharacters in a crafted image, aka &quot;ImageTragick.&quot;
+ The (1) EPHEMERAL, (2) HTTPS, (3) MVG, (4) MSL, (5) TEXT, (6) SHOW, (7) WIN, and (8) PLT coders in ImageMagick before 6.9.3-10 and 7.x before 7.0.1-1 allow remote attackers to execute arbitrary code via shell metacharacters in a crafted image, aka "ImageTragick."
 
 
 
@@ -1154,21 +1154,21 @@
 - [https://github.com/qtc-de/beanshooter](https://github.com/qtc-de/beanshooter) :  ![starts](https://img.shields.io/github/stars/qtc-de/beanshooter.svg) ![forks](https://img.shields.io/github/forks/qtc-de/beanshooter.svg)
 
 ## CVE-2016-3309
- The kernel-mode drivers in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607 allow local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability,&quot; a different vulnerability than CVE-2016-3308, CVE-2016-3310, and CVE-2016-3311.
+ The kernel-mode drivers in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607 allow local users to gain privileges via a crafted application, aka "Win32k Elevation of Privilege Vulnerability," a different vulnerability than CVE-2016-3308, CVE-2016-3310, and CVE-2016-3311.
 
 
 
 - [https://github.com/siberas/CVE-2016-3309_Reloaded](https://github.com/siberas/CVE-2016-3309_Reloaded) :  ![starts](https://img.shields.io/github/stars/siberas/CVE-2016-3309_Reloaded.svg) ![forks](https://img.shields.io/github/forks/siberas/CVE-2016-3309_Reloaded.svg)
 
 ## CVE-2016-3308
- The kernel-mode drivers in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607 allow local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability,&quot; a different vulnerability than CVE-2016-3309, CVE-2016-3310, and CVE-2016-3311.
+ The kernel-mode drivers in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607 allow local users to gain privileges via a crafted application, aka "Win32k Elevation of Privilege Vulnerability," a different vulnerability than CVE-2016-3309, CVE-2016-3310, and CVE-2016-3311.
 
 
 
 - [https://github.com/jackhuyh/CVE-2016-3308](https://github.com/jackhuyh/CVE-2016-3308) :  ![starts](https://img.shields.io/github/stars/jackhuyh/CVE-2016-3308.svg) ![forks](https://img.shields.io/github/forks/jackhuyh/CVE-2016-3308.svg)
 
 ## CVE-2016-3238
- The Print Spooler service in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows man-in-the-middle attackers to execute arbitrary code by providing a crafted print driver during printer installation, aka &quot;Windows Print Spooler Remote Code Execution Vulnerability.&quot;
+ The Print Spooler service in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows man-in-the-middle attackers to execute arbitrary code by providing a crafted print driver during printer installation, aka "Windows Print Spooler Remote Code Execution Vulnerability."
 
 
 
@@ -1309,7 +1309,7 @@
 - [https://github.com/murataydemir/CVE-2016-2386](https://github.com/murataydemir/CVE-2016-2386) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2016-2386.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2016-2386.svg)
 
 ## CVE-2016-2338
- An exploitable heap overflow vulnerability exists in the Psych::Emitter start_document function of Ruby. In Psych::Emitter start_document function heap buffer &quot;head&quot; allocation is made based on tags array length. Specially constructed object passed as element of tags array can increase this array size after mentioned allocation and cause heap overflow.
+ An exploitable heap overflow vulnerability exists in the Psych::Emitter start_document function of Ruby. In Psych::Emitter start_document function heap buffer "head" allocation is made based on tags array length. Specially constructed object passed as element of tags array can increase this array size after mentioned allocation and cause heap overflow.
 
 
 
@@ -1337,7 +1337,7 @@
 - [https://github.com/HaToan/CVE-2016-2173](https://github.com/HaToan/CVE-2016-2173) :  ![starts](https://img.shields.io/github/stars/HaToan/CVE-2016-2173.svg) ![forks](https://img.shields.io/github/forks/HaToan/CVE-2016-2173.svg)
 
 ## CVE-2016-2118
- The MS-SAMR and MS-LSAD protocol implementations in Samba 3.x and 4.x before 4.2.11, 4.3.x before 4.3.8, and 4.4.x before 4.4.2 mishandle DCERPC connections, which allows man-in-the-middle attackers to perform protocol-downgrade attacks and impersonate users by modifying the client-server data stream, aka &quot;BADLOCK.&quot;
+ The MS-SAMR and MS-LSAD protocol implementations in Samba 3.x and 4.x before 4.2.11, 4.3.x before 4.3.8, and 4.4.x before 4.4.2 mishandle DCERPC connections, which allows man-in-the-middle attackers to perform protocol-downgrade attacks and impersonate users by modifying the client-server data stream, aka "BADLOCK."
 
 
 
@@ -1517,7 +1517,7 @@
 - [https://github.com/SWICYBERLWA7DA/vulnlab-main](https://github.com/SWICYBERLWA7DA/vulnlab-main) :  ![starts](https://img.shields.io/github/stars/SWICYBERLWA7DA/vulnlab-main.svg) ![forks](https://img.shields.io/github/forks/SWICYBERLWA7DA/vulnlab-main.svg)
 
 ## CVE-2016-0974
- Use-after-free vulnerability in Adobe Flash Player before 18.0.0.329 and 19.x and 20.x before 20.0.0.306 on Windows and OS X and before 11.2.202.569 on Linux, Adobe AIR before 20.0.0.260, Adobe AIR SDK before 20.0.0.260, and Adobe AIR SDK &amp; Compiler before 20.0.0.260 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0973, CVE-2016-0975, CVE-2016-0982, CVE-2016-0983, and CVE-2016-0984.
+ Use-after-free vulnerability in Adobe Flash Player before 18.0.0.329 and 19.x and 20.x before 20.0.0.306 on Windows and OS X and before 11.2.202.569 on Linux, Adobe AIR before 20.0.0.260, Adobe AIR SDK before 20.0.0.260, and Adobe AIR SDK & Compiler before 20.0.0.260 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0973, CVE-2016-0975, CVE-2016-0982, CVE-2016-0983, and CVE-2016-0984.
 
 
 
@@ -1558,14 +1558,14 @@
 - [https://github.com/zsaurus/CVE-2016-0801-test](https://github.com/zsaurus/CVE-2016-0801-test) :  ![starts](https://img.shields.io/github/stars/zsaurus/CVE-2016-0801-test.svg) ![forks](https://img.shields.io/github/forks/zsaurus/CVE-2016-0801-test.svg)
 
 ## CVE-2016-0800
- The SSLv2 protocol, as used in OpenSSL before 1.0.1s and 1.0.2 before 1.0.2g and other products, requires a server to send a ServerVerify message before establishing that a client possesses certain plaintext RSA data, which makes it easier for remote attackers to decrypt TLS ciphertext data by leveraging a Bleichenbacher RSA padding oracle, aka a &quot;DROWN&quot; attack.
+ The SSLv2 protocol, as used in OpenSSL before 1.0.1s and 1.0.2 before 1.0.2g and other products, requires a server to send a ServerVerify message before establishing that a client possesses certain plaintext RSA data, which makes it easier for remote attackers to decrypt TLS ciphertext data by leveraging a Bleichenbacher RSA padding oracle, aka a "DROWN" attack.
 
 
 
 - [https://github.com/anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/anthophilee/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/anthophilee/A2SV--SSL-VUL-Scan.svg)
 
 ## CVE-2016-0793
- Incomplete blacklist vulnerability in the servlet filter restriction mechanism in WildFly (formerly JBoss Application Server) before 10.0.0.Final on Windows allows remote attackers to read the sensitive files in the (1) WEB-INF or (2) META-INF directory via a request that contains (a) lowercase or (b) &quot;meaningless&quot; characters.
+ Incomplete blacklist vulnerability in the servlet filter restriction mechanism in WildFly (formerly JBoss Application Server) before 10.0.0.Final on Windows allows remote attackers to read the sensitive files in the (1) WEB-INF or (2) META-INF directory via a request that contains (a) lowercase or (b) "meaningless" characters.
 
 
 
@@ -1581,7 +1581,7 @@
 - [https://github.com/Aviksaikat/CVE-2016-0792](https://github.com/Aviksaikat/CVE-2016-0792) :  ![starts](https://img.shields.io/github/stars/Aviksaikat/CVE-2016-0792.svg) ![forks](https://img.shields.io/github/forks/Aviksaikat/CVE-2016-0792.svg)
 
 ## CVE-2016-0772
- The smtplib library in CPython (aka Python) before 2.7.12, 3.x before 3.4.5, and 3.5.x before 3.5.2 does not return an error when StartTLS fails, which might allow man-in-the-middle attackers to bypass the TLS protections by leveraging a network position between the client and the registry to block the StartTLS command, aka a &quot;StartTLS stripping attack.&quot;
+ The smtplib library in CPython (aka Python) before 2.7.12, 3.x before 3.4.5, and 3.5.x before 3.5.2 does not return an error when StartTLS fails, which might allow man-in-the-middle attackers to bypass the TLS protections by leveraging a network position between the client and the registry to block the StartTLS command, aka a "StartTLS stripping attack."
 
 
 
@@ -1645,7 +1645,7 @@
 - [https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705](https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705) :  ![starts](https://img.shields.io/github/stars/hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705.svg)
 
 ## CVE-2016-0702
- The MOD_EXP_CTIME_COPY_FROM_PREBUF function in crypto/bn/bn_exp.c in OpenSSL 1.0.1 before 1.0.1s and 1.0.2 before 1.0.2g does not properly consider cache-bank access times during modular exponentiation, which makes it easier for local users to discover RSA keys by running a crafted application on the same Intel Sandy Bridge CPU core as a victim and leveraging cache-bank conflicts, aka a &quot;CacheBleed&quot; attack.
+ The MOD_EXP_CTIME_COPY_FROM_PREBUF function in crypto/bn/bn_exp.c in OpenSSL 1.0.1 before 1.0.1s and 1.0.2 before 1.0.2g does not properly consider cache-bank access times during modular exponentiation, which makes it easier for local users to discover RSA keys by running a crafted application on the same Intel Sandy Bridge CPU core as a victim and leveraging cache-bank conflicts, aka a "CacheBleed" attack.
 
 
 
@@ -1679,14 +1679,14 @@
 - [https://github.com/rwincey/Oracle-GoldenGate---CVE-2016-0451](https://github.com/rwincey/Oracle-GoldenGate---CVE-2016-0451) :  ![starts](https://img.shields.io/github/stars/rwincey/Oracle-GoldenGate---CVE-2016-0451.svg) ![forks](https://img.shields.io/github/forks/rwincey/Oracle-GoldenGate---CVE-2016-0451.svg)
 
 ## CVE-2016-0199
- Microsoft Internet Explorer 9 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-0200 and CVE-2016-3211.
+ Microsoft Internet Explorer 9 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka "Internet Explorer Memory Corruption Vulnerability," a different vulnerability than CVE-2016-0200 and CVE-2016-3211.
 
 
 
 - [https://github.com/LeoonZHANG/CVE-2016-0199](https://github.com/LeoonZHANG/CVE-2016-0199) :  ![starts](https://img.shields.io/github/stars/LeoonZHANG/CVE-2016-0199.svg) ![forks](https://img.shields.io/github/forks/LeoonZHANG/CVE-2016-0199.svg)
 
 ## CVE-2016-0189
- The Microsoft (1) JScript 5.8 and (2) VBScript 5.7 and 5.8 engines, as used in Internet Explorer 9 through 11 and other products, allow remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Scripting Engine Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-0187.
+ The Microsoft (1) JScript 5.8 and (2) VBScript 5.7 and 5.8 engines, as used in Internet Explorer 9 through 11 and other products, allow remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka "Scripting Engine Memory Corruption Vulnerability," a different vulnerability than CVE-2016-0187.
 
 
 
@@ -1695,28 +1695,28 @@
 - [https://github.com/deamwork/MS16-051-poc](https://github.com/deamwork/MS16-051-poc) :  ![starts](https://img.shields.io/github/stars/deamwork/MS16-051-poc.svg) ![forks](https://img.shields.io/github/forks/deamwork/MS16-051-poc.svg)
 
 ## CVE-2016-0100
- Microsoft Windows Vista SP2 and Server 2008 SP2 mishandle library loading, which allows local users to gain privileges via a crafted application, aka &quot;Library Loading Input Validation Remote Code Execution Vulnerability.&quot;
+ Microsoft Windows Vista SP2 and Server 2008 SP2 mishandle library loading, which allows local users to gain privileges via a crafted application, aka "Library Loading Input Validation Remote Code Execution Vulnerability."
 
 
 
 - [https://github.com/zi0Black/CVE-2016-010033-010045](https://github.com/zi0Black/CVE-2016-010033-010045) :  ![starts](https://img.shields.io/github/stars/zi0Black/CVE-2016-010033-010045.svg) ![forks](https://img.shields.io/github/forks/zi0Black/CVE-2016-010033-010045.svg)
 
 ## CVE-2016-0099
- The Secondary Logon Service in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 does not properly process request handles, which allows local users to gain privileges via a crafted application, aka &quot;Secondary Logon Elevation of Privilege Vulnerability.&quot;
+ The Secondary Logon Service in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 does not properly process request handles, which allows local users to gain privileges via a crafted application, aka "Secondary Logon Elevation of Privilege Vulnerability."
 
 
 
 - [https://github.com/zcgonvh/MS16-032](https://github.com/zcgonvh/MS16-032) :  ![starts](https://img.shields.io/github/stars/zcgonvh/MS16-032.svg) ![forks](https://img.shields.io/github/forks/zcgonvh/MS16-032.svg)
 
 ## CVE-2016-0095
- The kernel-mode driver in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability,&quot; a different vulnerability than CVE-2016-0093, CVE-2016-0094, and CVE-2016-0096.
+ The kernel-mode driver in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows local users to gain privileges via a crafted application, aka "Win32k Elevation of Privilege Vulnerability," a different vulnerability than CVE-2016-0093, CVE-2016-0094, and CVE-2016-0096.
 
 
 
 - [https://github.com/fengjixuchui/cve-2016-0095-x64](https://github.com/fengjixuchui/cve-2016-0095-x64) :  ![starts](https://img.shields.io/github/stars/fengjixuchui/cve-2016-0095-x64.svg) ![forks](https://img.shields.io/github/forks/fengjixuchui/cve-2016-0095-x64.svg)
 
 ## CVE-2016-0051
- The WebDAV client in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows local users to gain privileges via a crafted application, aka &quot;WebDAV Elevation of Privilege Vulnerability.&quot;
+ The WebDAV client in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows local users to gain privileges via a crafted application, aka "WebDAV Elevation of Privilege Vulnerability."
 
 
 
@@ -1727,14 +1727,14 @@
 - [https://github.com/ganrann/CVE-2016-0051](https://github.com/ganrann/CVE-2016-0051) :  ![starts](https://img.shields.io/github/stars/ganrann/CVE-2016-0051.svg) ![forks](https://img.shields.io/github/forks/ganrann/CVE-2016-0051.svg)
 
 ## CVE-2016-0049
- Kerberos in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, and Windows 10 Gold and 1511 does not properly validate password changes, which allows remote attackers to bypass authentication by deploying a crafted Key Distribution Center (KDC) and then performing a sign-in action, aka &quot;Windows Kerberos Security Feature Bypass.&quot;
+ Kerberos in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, and Windows 10 Gold and 1511 does not properly validate password changes, which allows remote attackers to bypass authentication by deploying a crafted Key Distribution Center (KDC) and then performing a sign-in action, aka "Windows Kerberos Security Feature Bypass."
 
 
 
 - [https://github.com/JackOfMostTrades/bluebox](https://github.com/JackOfMostTrades/bluebox) :  ![starts](https://img.shields.io/github/stars/JackOfMostTrades/bluebox.svg) ![forks](https://img.shields.io/github/forks/JackOfMostTrades/bluebox.svg)
 
 ## CVE-2016-0040
- The kernel in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, and Windows 7 SP1 allows local users to gain privileges via a crafted application, aka &quot;Windows Elevation of Privilege Vulnerability.&quot;
+ The kernel in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, and Windows 7 SP1 allows local users to gain privileges via a crafted application, aka "Windows Elevation of Privilege Vulnerability."
 
 
 
