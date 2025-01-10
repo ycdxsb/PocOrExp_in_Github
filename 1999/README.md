@@ -1,5 +1,5 @@
 ## CVE-1999-1053
- guestbook.pl cleanses user-inserted SSI commands by removing text between &quot;&lt;!--&quot; and &quot;--&gt;&quot; separators, which allows remote attackers to execute arbitrary commands when guestbook.pl is run on Apache 1.3.9 and possibly other versions, since Apache allows other closing sequences besides &quot;--&gt;&quot;.
+ guestbook.pl cleanses user-inserted SSI commands by removing text between "!--" and "--" separators, which allows remote attackers to execute arbitrary commands when guestbook.pl is run on Apache 1.3.9 and possibly other versions, since Apache allows other closing sequences besides "--".
 
 
 
