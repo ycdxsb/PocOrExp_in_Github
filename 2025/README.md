@@ -17,6 +17,8 @@
 
 
 
+- [https://github.com/absholi7ly/CVE-2025-0282-Ivanti-exploit](https://github.com/absholi7ly/CVE-2025-0282-Ivanti-exploit) :  ![starts](https://img.shields.io/github/stars/absholi7ly/CVE-2025-0282-Ivanti-exploit.svg) ![forks](https://img.shields.io/github/forks/absholi7ly/CVE-2025-0282-Ivanti-exploit.svg)
+
 - [https://github.com/securexploit1/CVE-2025-0282](https://github.com/securexploit1/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/securexploit1/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/securexploit1/CVE-2025-0282.svg)
 
 - [https://github.com/BishopFox/CVE-2025-0282-check](https://github.com/BishopFox/CVE-2025-0282-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/CVE-2025-0282-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/CVE-2025-0282-check.svg)
