@@ -23,4 +23,6 @@
 
 - [https://github.com/BishopFox/CVE-2025-0282-check](https://github.com/BishopFox/CVE-2025-0282-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/CVE-2025-0282-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/CVE-2025-0282-check.svg)
 
+- [https://github.com/AnonStorks/CVE-2025-0282-Full-version](https://github.com/AnonStorks/CVE-2025-0282-Full-version) :  ![starts](https://img.shields.io/github/stars/AnonStorks/CVE-2025-0282-Full-version.svg) ![forks](https://img.shields.io/github/forks/AnonStorks/CVE-2025-0282-Full-version.svg)
+
 - [https://github.com/NyxanGoat/CVE-2025-0282-PoC](https://github.com/NyxanGoat/CVE-2025-0282-PoC) :  ![starts](https://img.shields.io/github/stars/NyxanGoat/CVE-2025-0282-PoC.svg) ![forks](https://img.shields.io/github/forks/NyxanGoat/CVE-2025-0282-PoC.svg)
