@@ -1,66 +1,60 @@
-# Update 2025-01-13
+# Update 2025-01-14
 ## CVE-2025-0282
  A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gateways before version 22.7R2.3 allows a remote unauthenticated attacker to achieve remote code execution.
 
-- [https://github.com/absholi7ly/CVE-2025-0282-Ivanti-exploit](https://github.com/absholi7ly/CVE-2025-0282-Ivanti-exploit) :  ![starts](https://img.shields.io/github/stars/absholi7ly/CVE-2025-0282-Ivanti-exploit.svg) ![forks](https://img.shields.io/github/forks/absholi7ly/CVE-2025-0282-Ivanti-exploit.svg)
+- [https://github.com/AnonStorks/CVE-2025-0282-Full-version](https://github.com/AnonStorks/CVE-2025-0282-Full-version) :  ![starts](https://img.shields.io/github/stars/AnonStorks/CVE-2025-0282-Full-version.svg) ![forks](https://img.shields.io/github/forks/AnonStorks/CVE-2025-0282-Full-version.svg)
 
 
-## CVE-2024-49328
- Authentication Bypass Using an Alternate Path or Channel vulnerability in Vivek Tamrakar WP REST API FNS allows Authentication Bypass.This issue affects WP REST API FNS: from n/a through 1.0.0.
+## CVE-2024-50603
+ An issue was discovered in Aviatrix Controller before 7.1.4191 and 7.2.x before 7.2.4996. Due to the improper neutralization of special elements used in an OS command, an unauthenticated attacker is able to execute arbitrary code. Shell metacharacters can be sent to /v1/api in cloud_type for list_flightpath_destination_instances, or src_cloud_type for flightpath_connection_test.
 
-- [https://github.com/Nxploited/CVE-2024-49328-exploit](https://github.com/Nxploited/CVE-2024-49328-exploit) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-49328-exploit.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-49328-exploit.svg)
-
-
-## CVE-2024-12856
- The Four-Faith router models F3x24 and F3x36 are affected by an operating system (OS) command injection vulnerability. At least firmware version 2.0 allows authenticated and remote attackers to execute arbitrary OS commands over HTTP when modifying the system time via apply.cgi. Additionally, this firmware version has default credentials which, if not changed, would effectively change this vulnerability into an unauthenticated and remote OS command execution issue.
-
-- [https://github.com/nu113d/CVE-2024-12856](https://github.com/nu113d/CVE-2024-12856) :  ![starts](https://img.shields.io/github/stars/nu113d/CVE-2024-12856.svg) ![forks](https://img.shields.io/github/forks/nu113d/CVE-2024-12856.svg)
+- [https://github.com/th3gokul/CVE-2024-50603](https://github.com/th3gokul/CVE-2024-50603) :  ![starts](https://img.shields.io/github/stars/th3gokul/CVE-2024-50603.svg) ![forks](https://img.shields.io/github/forks/th3gokul/CVE-2024-50603.svg)
 
 
-## CVE-2024-12558
- The WP BASE Booking of Appointments, Services and Events plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the export_db function in all versions up to, and including, 4.9.2. This makes it possible for authenticated attackers, with Subscriber-level access and above, to expose sensitive information from the database, such as the hashed administrator password.
+## CVE-2024-43044
+ Jenkins 2.470 and earlier, LTS 2.452.3 and earlier allows agent processes to read arbitrary files from the Jenkins controller file system by using the `ClassLoaderProxy#fetchJar` method in the Remoting library.
 
-- [https://github.com/Nxploited/CVE-2024-12558-exploit](https://github.com/Nxploited/CVE-2024-12558-exploit) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-12558-exploit.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-12558-exploit.svg)
-
-
-## CVE-2024-10586
- The Debug Tool plugin for WordPress is vulnerable to arbitrary file creation due to a missing capability check on the dbt_pull_image() function and missing file type validation in all versions up to, and including, 2.2. This makes it possible for unauthenticated attackers to to create arbitrary files such as .php files that can be leveraged for remote code execution.
-
-- [https://github.com/Nxploited/CVE-2024-10586-Poc](https://github.com/Nxploited/CVE-2024-10586-Poc) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-10586-Poc.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-10586-Poc.svg)
+- [https://github.com/DACC4/CVE-2024-43044-jenkins-creds](https://github.com/DACC4/CVE-2024-43044-jenkins-creds) :  ![starts](https://img.shields.io/github/stars/DACC4/CVE-2024-43044-jenkins-creds.svg) ![forks](https://img.shields.io/github/forks/DACC4/CVE-2024-43044-jenkins-creds.svg)
 
 
-## CVE-2024-9932
- The Wux Blog Editor plugin for WordPress is vulnerable to arbitrary file uploads due to insufficient file type validation in the 'wuxbt_insertImageNew' function in versions up to, and including, 3.0.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+## CVE-2024-30078
+ Windows Wi-Fi Driver Remote Code Execution Vulnerability
 
-- [https://github.com/Nxploited/CVE-2024-9932-POC](https://github.com/Nxploited/CVE-2024-9932-POC) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-9932-POC.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-9932-POC.svg)
-
-
-## CVE-2024-5550
- In h2oai/h2o-3 version 3.40.0.4, an exposure of sensitive information vulnerability exists due to an arbitrary system path lookup feature. This vulnerability allows any remote user to view full paths in the entire file system where h2o-3 is hosted. Specifically, the issue resides in the Typeahead API call, which when requested with a typeahead lookup of '/', exposes the root filesystem including directories such as /home, /usr, /bin, among others. This vulnerability could allow attackers to explore the entire filesystem, and when combined with a Local File Inclusion (LFI) vulnerability, could make exploitation of the server trivial.
-
-- [https://github.com/SyFi/CVE-2024-55503](https://github.com/SyFi/CVE-2024-55503) :  ![starts](https://img.shields.io/github/stars/SyFi/CVE-2024-55503.svg) ![forks](https://img.shields.io/github/forks/SyFi/CVE-2024-55503.svg)
+- [https://github.com/Casp3r-0/CVE_2024_30078_A_POC](https://github.com/Casp3r-0/CVE_2024_30078_A_POC) :  ![starts](https://img.shields.io/github/stars/Casp3r-0/CVE_2024_30078_A_POC.svg) ![forks](https://img.shields.io/github/forks/Casp3r-0/CVE_2024_30078_A_POC.svg)
 
 
-## CVE-2023-3824
- In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE. 
+## CVE-2024-22017
+This vulnerability affects all users using version greater or equal than Node.js 18.18.0, Node.js 20.4.0 and Node.js 21.
 
-- [https://github.com/bluefish3r/poc-cve](https://github.com/bluefish3r/poc-cve) :  ![starts](https://img.shields.io/github/stars/bluefish3r/poc-cve.svg) ![forks](https://img.shields.io/github/forks/bluefish3r/poc-cve.svg)
-
-
-## CVE-2019-17240
- bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-force protection mechanism by using many different forged X-Forwarded-For or Client-IP HTTP headers.
-
-- [https://github.com/0xDTC/Bludit-3.9.2-Auth-Bruteforce-Bypass-CVE-2019-17240](https://github.com/0xDTC/Bludit-3.9.2-Auth-Bruteforce-Bypass-CVE-2019-17240) :  ![starts](https://img.shields.io/github/stars/0xDTC/Bludit-3.9.2-Auth-Bruteforce-Bypass-CVE-2019-17240.svg) ![forks](https://img.shields.io/github/forks/0xDTC/Bludit-3.9.2-Auth-Bruteforce-Bypass-CVE-2019-17240.svg)
+- [https://github.com/SpiralBL0CK/cve-2024-22017_to_test](https://github.com/SpiralBL0CK/cve-2024-22017_to_test) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/cve-2024-22017_to_test.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/cve-2024-22017_to_test.svg)
 
 
-## CVE-2019-5602
- In FreeBSD 12.0-STABLE before r349628, 12.0-RELEASE before 12.0-RELEASE-p7, 11.3-PRERELEASE before r349629, 11.3-RC3 before 11.3-RC3-p1, and 11.2-RELEASE before 11.2-RELEASE-p11, a bug in the cdrom driver allows users with read access to the cdrom device to arbitrarily overwrite kernel memory when media is present thereby allowing a malicious user in the operator group to gain root privileges.
+## CVE-2024-21338
+ Windows Kernel Elevation of Privilege Vulnerability
 
-- [https://github.com/test-one9/CVE-2019-5602-poc](https://github.com/test-one9/CVE-2019-5602-poc) :  ![starts](https://img.shields.io/github/stars/test-one9/CVE-2019-5602-poc.svg) ![forks](https://img.shields.io/github/forks/test-one9/CVE-2019-5602-poc.svg)
+- [https://github.com/hackyboiz/kcfg-bypass](https://github.com/hackyboiz/kcfg-bypass) :  ![starts](https://img.shields.io/github/stars/hackyboiz/kcfg-bypass.svg) ![forks](https://img.shields.io/github/forks/hackyboiz/kcfg-bypass.svg)
 
 
-## CVE-2016-3861
- LibUtils in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, 6.x before 2016-09-01, and 7.0 before 2016-09-01 mishandles conversions between Unicode character encodings with different encoding widths, which allows remote attackers to execute arbitrary code or cause a denial of service (heap-based buffer overflow) via a crafted file, aka internal bug 29250543.
+## CVE-2024-9707
+ The Hunk Companion plugin for WordPress is vulnerable to unauthorized plugin installation/activation due to a missing capability check on the /wp-json/hc/v1/themehunk-import REST API endpoint in all versions up to, and including, 1.8.4. This makes it possible for unauthenticated attackers to install and activate arbitrary plugins which can be leveraged to achieve remote code execution if another vulnerable plugin is installed and activated.
 
-- [https://github.com/kswzzl/CVE-2016-3861](https://github.com/kswzzl/CVE-2016-3861) :  ![starts](https://img.shields.io/github/stars/kswzzl/CVE-2016-3861.svg) ![forks](https://img.shields.io/github/forks/kswzzl/CVE-2016-3861.svg)
+- [https://github.com/Nxploited/CVE-2024-9707-Poc](https://github.com/Nxploited/CVE-2024-9707-Poc) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-9707-Poc.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-9707-Poc.svg)
+
+
+## CVE-2022-30190
+Please see the MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability.
+
+- [https://github.com/Zitchev/go_follina](https://github.com/Zitchev/go_follina) :  ![starts](https://img.shields.io/github/stars/Zitchev/go_follina.svg) ![forks](https://img.shields.io/github/forks/Zitchev/go_follina.svg)
+
+
+## CVE-2021-21551
+ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability which may lead to escalation of privileges, denial of service, or information disclosure. Local authenticated user access is required.
+
+- [https://github.com/IlanDudnik/CVE-2021-21551](https://github.com/IlanDudnik/CVE-2021-21551) :  ![starts](https://img.shields.io/github/stars/IlanDudnik/CVE-2021-21551.svg) ![forks](https://img.shields.io/github/forks/IlanDudnik/CVE-2021-21551.svg)
+
+
+## CVE-2020-7384
+ Rapid7's Metasploit msfvenom framework handles APK files in a way that allows for a malicious user to craft and publish a file that would execute arbitrary commands on a victim's machine.
+
+- [https://github.com/CarsonShaffer/CVE-2020-7384](https://github.com/CarsonShaffer/CVE-2020-7384) :  ![starts](https://img.shields.io/github/stars/CarsonShaffer/CVE-2020-7384.svg) ![forks](https://img.shields.io/github/forks/CarsonShaffer/CVE-2020-7384.svg)
 
