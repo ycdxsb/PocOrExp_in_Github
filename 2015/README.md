@@ -46,9 +46,9 @@
 
 - [https://github.com/whu-enjoy/CVE-2015-8660](https://github.com/whu-enjoy/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/whu-enjoy/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/whu-enjoy/CVE-2015-8660.svg)
 
-- [https://github.com/carradolly/CVE-2015-8660](https://github.com/carradolly/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/carradolly/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/carradolly/CVE-2015-8660.svg)
-
 - [https://github.com/nhamle2/CVE-2015-8660](https://github.com/nhamle2/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/nhamle2/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/nhamle2/CVE-2015-8660.svg)
+
+- [https://github.com/carradolly/CVE-2015-8660](https://github.com/carradolly/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/carradolly/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/carradolly/CVE-2015-8660.svg)
 
 ## CVE-2015-8651
  Integer overflow in Adobe Flash Player before 18.0.0.324 and 19.x and 20.x before 20.0.0.267 on Windows and OS X and before 11.2.202.559 on Linux, Adobe AIR before 20.0.0.233, Adobe AIR SDK before 20.0.0.233, and Adobe AIR SDK & Compiler before 20.0.0.233 allows attackers to execute arbitrary code via unspecified vectors.
@@ -281,6 +281,13 @@
 - [https://github.com/G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2015-6668.svg)
 
 - [https://github.com/jimdiroffii/CVE-2015-6668](https://github.com/jimdiroffii/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/jimdiroffii/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/jimdiroffii/CVE-2015-6668.svg)
+
+## CVE-2015-6640
+ The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 does not ensure that only one vma is accessed in a certain update action, which allows attackers to gain privileges or cause a denial of service (vma list corruption) via a crafted application, aka internal bug 20017123.
+
+
+
+- [https://github.com/betalphafai/CVE-2015-6640](https://github.com/betalphafai/CVE-2015-6640) :  ![starts](https://img.shields.io/github/stars/betalphafai/CVE-2015-6640.svg) ![forks](https://img.shields.io/github/forks/betalphafai/CVE-2015-6640.svg)
 
 ## CVE-2015-6639
  The Widevine QSEE TrustZone application in Android 5.x before 5.1.1 LMY49F and 6.0 before 2016-01-01 allows attackers to gain privileges via a crafted application that leverages QSEECOM access, aka internal bug 24446875.
@@ -1159,9 +1166,9 @@
 
 - [https://github.com/chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235) :  ![starts](https://img.shields.io/github/stars/chayim/GHOSTCHECK-cve-2015-0235.svg) ![forks](https://img.shields.io/github/forks/chayim/GHOSTCHECK-cve-2015-0235.svg)
 
-- [https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235) :  ![starts](https://img.shields.io/github/stars/limkokholefork/GHOSTCHECK-cve-2015-0235.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/GHOSTCHECK-cve-2015-0235.svg)
-
 - [https://github.com/koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc) :  ![starts](https://img.shields.io/github/stars/koudaiii-archives/cookbook-update-glibc.svg) ![forks](https://img.shields.io/github/forks/koudaiii-archives/cookbook-update-glibc.svg)
+
+- [https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235) :  ![starts](https://img.shields.io/github/stars/limkokholefork/GHOSTCHECK-cve-2015-0235.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/GHOSTCHECK-cve-2015-0235.svg)
 
 - [https://github.com/1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester) :  ![starts](https://img.shields.io/github/stars/1and1-serversupport/ghosttester.svg) ![forks](https://img.shields.io/github/forks/1and1-serversupport/ghosttester.svg)
 
