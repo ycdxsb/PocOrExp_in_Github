@@ -44,8 +44,6 @@
 
 - [https://github.com/watchtowrlabs/CVE-2025-0282](https://github.com/watchtowrlabs/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/watchtowrlabs/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/watchtowrlabs/CVE-2025-0282.svg)
 
-- [https://github.com/BishopFox/CVE-2025-0282-check](https://github.com/BishopFox/CVE-2025-0282-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/CVE-2025-0282-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/CVE-2025-0282-check.svg)
-
 - [https://github.com/securexploit1/CVE-2025-0282](https://github.com/securexploit1/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/securexploit1/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/securexploit1/CVE-2025-0282.svg)
 
 - [https://github.com/AnonStorks/CVE-2025-0282-Full-version](https://github.com/AnonStorks/CVE-2025-0282-Full-version) :  ![starts](https://img.shields.io/github/stars/AnonStorks/CVE-2025-0282-Full-version.svg) ![forks](https://img.shields.io/github/forks/AnonStorks/CVE-2025-0282-Full-version.svg)
