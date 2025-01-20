@@ -1,90 +1,100 @@
-# Update 2025-01-19
-## CVE-2024-57785
- Zenitel AlphaWeb XE v11.2.3.10 was discovered to contain a local file inclusion vulnerability via the component amc_uploads.php.
+# Update 2025-01-20
+## CVE-2024-55591
+ An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0 through 7.0.19 and 7.2.0 through 7.2.12 allows a remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module.
 
-- [https://github.com/s4fv4n/CVE-2024-57785](https://github.com/s4fv4n/CVE-2024-57785) :  ![starts](https://img.shields.io/github/stars/s4fv4n/CVE-2024-57785.svg) ![forks](https://img.shields.io/github/forks/s4fv4n/CVE-2024-57785.svg)
-
-
-## CVE-2024-57784
- An issue in the component /php/script_uploads.php of Zenitel AlphaWeb XE v11.2.3.10 allows attackers to execute a directory traversal.
-
-- [https://github.com/s4fv4n/CVE-2024-57784](https://github.com/s4fv4n/CVE-2024-57784) :  ![starts](https://img.shields.io/github/stars/s4fv4n/CVE-2024-57784.svg) ![forks](https://img.shields.io/github/forks/s4fv4n/CVE-2024-57784.svg)
+- [https://github.com/souzatyler/fortios-auth-bypass-check-CVE-2024-55591](https://github.com/souzatyler/fortios-auth-bypass-check-CVE-2024-55591) :  ![starts](https://img.shields.io/github/stars/souzatyler/fortios-auth-bypass-check-CVE-2024-55591.svg) ![forks](https://img.shields.io/github/forks/souzatyler/fortios-auth-bypass-check-CVE-2024-55591.svg)
 
 
-## CVE-2024-57727
- SimpleHelp remote support software v5.5.7 and before is vulnerable to multiple path traversal vulnerabilities that enable unauthenticated remote attackers to download arbitrary files from the SimpleHelp host via crafted HTTP requests. These files include server configuration files containing various secrets and hashed user passwords.
+## CVE-2024-54369
+ Missing Authorization vulnerability in ThemeHunk Zita Site Builder allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Zita Site Builder: from n/a through 1.0.2.
 
-- [https://github.com/imjdl/CVE-2024-57727](https://github.com/imjdl/CVE-2024-57727) :  ![starts](https://img.shields.io/github/stars/imjdl/CVE-2024-57727.svg) ![forks](https://img.shields.io/github/forks/imjdl/CVE-2024-57727.svg)
-
-
-## CVE-2024-57252
- OtCMS =V7.46 is vulnerable to Server-Side Request Forgery (SSRF) in /admin/read.php, which can Read system files arbitrarily.
-
-- [https://github.com/J-0k3r/CVE-2024-57252](https://github.com/J-0k3r/CVE-2024-57252) :  ![starts](https://img.shields.io/github/stars/J-0k3r/CVE-2024-57252.svg) ![forks](https://img.shields.io/github/forks/J-0k3r/CVE-2024-57252.svg)
+- [https://github.com/Nxploited/CVE-2024-54369-PoC](https://github.com/Nxploited/CVE-2024-54369-PoC) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-54369-PoC.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-54369-PoC.svg)
 
 
-## CVE-2024-54262
- Unrestricted Upload of File with Dangerous Type vulnerability in Siddharth Nagar Import Export For WooCommerce allows Upload a Web Shell to a Web Server.This issue affects Import Export For WooCommerce: from n/a through 1.5.
+## CVE-2024-52380
+ Unrestricted Upload of File with Dangerous Type vulnerability in Softpulse Infotech Picsmize allows Upload a Web Shell to a Web Server.This issue affects Picsmize: from n/a through 1.0.0.
 
-- [https://github.com/Nxploited/CVE-2024-54262](https://github.com/Nxploited/CVE-2024-54262) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-54262.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-54262.svg)
-
-
-## CVE-2024-50967
- The /rest/rights/ REST API endpoint in Becon DATAGerry through 2.2.0 contains an Incorrect Access Control vulnerability. An attacker can remotely access this endpoint without authentication, leading to unauthorized disclosure of sensitive information.
-
-- [https://github.com/0xByteHunter/CVE-2024-50967](https://github.com/0xByteHunter/CVE-2024-50967) :  ![starts](https://img.shields.io/github/stars/0xByteHunter/CVE-2024-50967.svg) ![forks](https://img.shields.io/github/forks/0xByteHunter/CVE-2024-50967.svg)
+- [https://github.com/Nxploited/CVE-2024-52380-Exploit](https://github.com/Nxploited/CVE-2024-52380-Exploit) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-52380-Exploit.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-52380-Exploit.svg)
 
 
-## CVE-2024-43468
- Microsoft Configuration Manager Remote Code Execution Vulnerability
+## CVE-2024-38821
+  *  It must have a non-permitAll authorization rule applied to the static resources support
 
-- [https://github.com/nikallass/CVE-2024-43468_mTLS_go](https://github.com/nikallass/CVE-2024-43468_mTLS_go) :  ![starts](https://img.shields.io/github/stars/nikallass/CVE-2024-43468_mTLS_go.svg) ![forks](https://img.shields.io/github/forks/nikallass/CVE-2024-43468_mTLS_go.svg)
-
-
-## CVE-2024-40094
- GraphQL Java (aka graphql-java) before 21.5 does not properly consider ExecutableNormalizedFields (ENFs) as part of preventing denial of service via introspection queries. 20.9 and 19.11 are also fixed versions.
-
-- [https://github.com/inpentest/CVE-2024-40094](https://github.com/inpentest/CVE-2024-40094) :  ![starts](https://img.shields.io/github/stars/inpentest/CVE-2024-40094.svg) ![forks](https://img.shields.io/github/forks/inpentest/CVE-2024-40094.svg)
+- [https://github.com/masa42/CVE-2024-38821-POC](https://github.com/masa42/CVE-2024-38821-POC) :  ![starts](https://img.shields.io/github/stars/masa42/CVE-2024-38821-POC.svg) ![forks](https://img.shields.io/github/forks/masa42/CVE-2024-38821-POC.svg)
 
 
-## CVE-2024-6387
- A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
+## CVE-2024-13375
+ The Adifier System plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 3.1.7. This is due to the plugin not properly validating a user's identity prior to updating their details like password through the adifier_recover() function. This makes it possible for unauthenticated attackers to change arbitrary user's passwords, including administrators, and leverage that to gain access to their account.
 
-- [https://github.com/liqhtnd/sshd-logingracetime](https://github.com/liqhtnd/sshd-logingracetime) :  ![starts](https://img.shields.io/github/stars/liqhtnd/sshd-logingracetime.svg) ![forks](https://img.shields.io/github/forks/liqhtnd/sshd-logingracetime.svg)
-
-
-## CVE-2024-2169
- Implementations of UDP application protocol are vulnerable to network loops.   An unauthenticated attacker can use maliciously-crafted packets against a vulnerable implementation that can lead to Denial of Service (DOS) and/or abuse of resources.
-
-- [https://github.com/renancesarr/G3-Loop-DoS](https://github.com/renancesarr/G3-Loop-DoS) :  ![starts](https://img.shields.io/github/stars/renancesarr/G3-Loop-DoS.svg) ![forks](https://img.shields.io/github/forks/renancesarr/G3-Loop-DoS.svg)
+- [https://github.com/McTavishSue/CVE-2024-13375](https://github.com/McTavishSue/CVE-2024-13375) :  ![starts](https://img.shields.io/github/stars/McTavishSue/CVE-2024-13375.svg) ![forks](https://img.shields.io/github/forks/McTavishSue/CVE-2024-13375.svg)
 
 
-## CVE-2022-34169
- The Apache Xalan Java XSLT library is vulnerable to an integer truncation issue when processing malicious XSLT stylesheets. This can be used to corrupt Java class files generated by the internal XSLTC compiler and execute arbitrary Java bytecode. Users are recommended to update to version 2.7.3 or later. Note: Java runtimes (such as OpenJDK) include repackaged copies of Xalan.
+## CVE-2024-9474
+Cloud NGFW and Prisma Access are not impacted by this vulnerability.
 
-- [https://github.com/Disnaming/CVE-2022-34169](https://github.com/Disnaming/CVE-2022-34169) :  ![starts](https://img.shields.io/github/stars/Disnaming/CVE-2022-34169.svg) ![forks](https://img.shields.io/github/forks/Disnaming/CVE-2022-34169.svg)
-
-
-## CVE-2022-29464
- Certain WSO2 products allow unrestricted file upload with resultant remote code execution. The attacker must use a /fileupload endpoint with a Content-Disposition directory traversal sequence to reach a directory under the web root, such as a ../../../../repository/deployment/server/webapps directory. This affects WSO2 API Manager 2.2.0 up to 4.0.0, WSO2 Identity Server 5.2.0 up to 5.11.0, WSO2 Identity Server Analytics 5.4.0, 5.4.1, 5.5.0 and 5.6.0, WSO2 Identity Server as Key Manager 5.3.0 up to 5.11.0, WSO2 Enterprise Integrator 6.2.0 up to 6.6.0, WSO2 Open Banking AM 1.4.0 up to 2.0.0 and WSO2 Open Banking KM 1.4.0, up to 2.0.0.
-
-- [https://github.com/c1ph3rbyt3/CVE-2022-29464](https://github.com/c1ph3rbyt3/CVE-2022-29464) :  ![starts](https://img.shields.io/github/stars/c1ph3rbyt3/CVE-2022-29464.svg) ![forks](https://img.shields.io/github/forks/c1ph3rbyt3/CVE-2022-29464.svg)
+- [https://github.com/aratane/CVE-2024-9474](https://github.com/aratane/CVE-2024-9474) :  ![starts](https://img.shields.io/github/stars/aratane/CVE-2024-9474.svg) ![forks](https://img.shields.io/github/forks/aratane/CVE-2024-9474.svg)
 
 
-## CVE-2022-24816
- JAI-EXT is an open-source project which aims to extend the Java Advanced Imaging (JAI) API. Programs allowing Jiffle script to be provided via network request can lead to a Remote Code Execution as the Jiffle script is compiled into Java code via Janino, and executed. In particular, this affects the downstream GeoServer project. Version 1.2.22 will contain a patch that disables the ability to inject malicious code into the resulting script. Users unable to upgrade may negate the ability to compile Jiffle scripts from the final application, by removing janino-x.y.z.jar from the classpath.
+## CVE-2024-5479
+ The Easy Pixels plugin for WordPress is vulnerable to Stored Cross-Site Scripting via plugin settings in all versions up to, and including, 2.13 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 
-- [https://github.com/c1ph3rbyt3/CVE-2022-24816](https://github.com/c1ph3rbyt3/CVE-2022-24816) :  ![starts](https://img.shields.io/github/stars/c1ph3rbyt3/CVE-2022-24816.svg) ![forks](https://img.shields.io/github/forks/c1ph3rbyt3/CVE-2022-24816.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
+- [https://github.com/MarioTesoro/CVE-2024-54792](https://github.com/MarioTesoro/CVE-2024-54792) :  ![starts](https://img.shields.io/github/stars/MarioTesoro/CVE-2024-54792.svg) ![forks](https://img.shields.io/github/forks/MarioTesoro/CVE-2024-54792.svg)
+- [https://github.com/MarioTesoro/CVE-2024-54795](https://github.com/MarioTesoro/CVE-2024-54795) :  ![starts](https://img.shields.io/github/stars/MarioTesoro/CVE-2024-54795.svg) ![forks](https://img.shields.io/github/forks/MarioTesoro/CVE-2024-54795.svg)
+- [https://github.com/MarioTesoro/CVE-2024-54794](https://github.com/MarioTesoro/CVE-2024-54794) :  ![starts](https://img.shields.io/github/stars/MarioTesoro/CVE-2024-54794.svg) ![forks](https://img.shields.io/github/forks/MarioTesoro/CVE-2024-54794.svg)
 
 
-## CVE-2013-0156
- active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.x before 3.0.19, 3.1.x before 3.1.10, and 3.2.x before 3.2.11 does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code, or cause a denial of service (memory and CPU consumption) involving nested XML entity references, by leveraging Action Pack support for (1) YAML type conversion or (2) Symbol type conversion.
+## CVE-2023-44487
+ The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
 
-- [https://github.com/oxben10/CVE-2013-0156](https://github.com/oxben10/CVE-2013-0156) :  ![starts](https://img.shields.io/github/stars/oxben10/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/oxben10/CVE-2013-0156.svg)
+- [https://github.com/aulauniversal/CVE-2023-44487](https://github.com/aulauniversal/CVE-2023-44487) :  ![starts](https://img.shields.io/github/stars/aulauniversal/CVE-2023-44487.svg) ![forks](https://img.shields.io/github/forks/aulauniversal/CVE-2023-44487.svg)
+
+
+## CVE-2023-41646
+ Buttercup v2.20.3 allows attackers to obtain the hash of the master password for the password manager via accessing the file /vaults.json/
+
+- [https://github.com/tristao-io/CVE-2023-41646](https://github.com/tristao-io/CVE-2023-41646) :  ![starts](https://img.shields.io/github/stars/tristao-io/CVE-2023-41646.svg) ![forks](https://img.shields.io/github/forks/tristao-io/CVE-2023-41646.svg)
+
+
+## CVE-2023-35080
+ A vulnerability has been identified in the Ivanti Secure Access Windows client, which could allow a locally authenticated attacker to exploit a vulnerable configuration, potentially leading to various security risks, including the escalation of privileges, denial of service, or information disclosure.
+
+- [https://github.com/tijme/ivanti-cve-2023-35080-privilege-escalation-bof](https://github.com/tijme/ivanti-cve-2023-35080-privilege-escalation-bof) :  ![starts](https://img.shields.io/github/stars/tijme/ivanti-cve-2023-35080-privilege-escalation-bof.svg) ![forks](https://img.shields.io/github/forks/tijme/ivanti-cve-2023-35080-privilege-escalation-bof.svg)
+
+
+## CVE-2023-27842
+ Insecure Permissions vulnerability found in Extplorer File manager eXtplorer v.2.1.15 allows a remote attacker to execute arbitrary code via the index.php compenent
+
+- [https://github.com/tristao-io/CVE-2023-27842](https://github.com/tristao-io/CVE-2023-27842) :  ![starts](https://img.shields.io/github/stars/tristao-io/CVE-2023-27842.svg) ![forks](https://img.shields.io/github/forks/tristao-io/CVE-2023-27842.svg)
+
+
+## CVE-2023-4898
+ Authentication Bypass by Primary Weakness in GitHub repository mintplex-labs/anything-llm prior to 0.0.1.
+
+- [https://github.com/tristao-io/CVE-2023-48983](https://github.com/tristao-io/CVE-2023-48983) :  ![starts](https://img.shields.io/github/stars/tristao-io/CVE-2023-48983.svg) ![forks](https://img.shields.io/github/forks/tristao-io/CVE-2023-48983.svg)
+- [https://github.com/tristao-io/CVE-2023-48982](https://github.com/tristao-io/CVE-2023-48982) :  ![starts](https://img.shields.io/github/stars/tristao-io/CVE-2023-48982.svg) ![forks](https://img.shields.io/github/forks/tristao-io/CVE-2023-48982.svg)
+- [https://github.com/tristao-io/CVE-2023-48981](https://github.com/tristao-io/CVE-2023-48981) :  ![starts](https://img.shields.io/github/stars/tristao-io/CVE-2023-48981.svg) ![forks](https://img.shields.io/github/forks/tristao-io/CVE-2023-48981.svg)
+
+
+## CVE-2022-47052
+ The web interface of the 'Nighthawk R6220 AC1200 Smart Wi-Fi Router' is vulnerable to a CRLF Injection attack that can be leveraged to perform Reflected XSS and HTML Injection. A malicious unauthenticated attacker can exploit this vulnerability using a specially crafted URL. This affects firmware versions: V1.1.0.112_1.0.1, V1.1.0.114_1.0.1.
+
+- [https://github.com/dest-3/CVE-2022-47052](https://github.com/dest-3/CVE-2022-47052) :  ![starts](https://img.shields.io/github/stars/dest-3/CVE-2022-47052.svg) ![forks](https://img.shields.io/github/forks/dest-3/CVE-2022-47052.svg)
+
+
+## CVE-2022-45544
+ Insecure Permission vulnerability in Schlix Web Inc SCHLIX CMS 2.2.7-2 allows attacker to upload arbitrary files and execute arbitrary code via the tristao parameter. NOTE: this is disputed by the vendor because an admin is intentionally allowed to upload new executable PHP code, such as a theme that was obtained from a trusted source or was developed for their own website. Only an admin can upload such code, not someone else in an "attacker" role.
+
+- [https://github.com/tristao-io/CVE-2022-45544](https://github.com/tristao-io/CVE-2022-45544) :  ![starts](https://img.shields.io/github/stars/tristao-io/CVE-2022-45544.svg) ![forks](https://img.shields.io/github/forks/tristao-io/CVE-2022-45544.svg)
+
+
+## CVE-2022-40684
+ An authentication bypass using an alternate path or channel [CWE-288] in Fortinet FortiOS version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.6, FortiProxy version 7.2.0 and version 7.0.0 through 7.0.6 and FortiSwitchManager version 7.2.0 and 7.0.0 allows an unauthenticated atttacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests.
+
+- [https://github.com/AKboss1221/fortigate-belsen-leak](https://github.com/AKboss1221/fortigate-belsen-leak) :  ![starts](https://img.shields.io/github/stars/AKboss1221/fortigate-belsen-leak.svg) ![forks](https://img.shields.io/github/forks/AKboss1221/fortigate-belsen-leak.svg)
+
+
+## CVE-2020-17382
+ The MSI AmbientLink MsIo64 driver 1.0.0.8 has a Buffer Overflow (0x80102040, 0x80102044, 0x80102050,and 0x80102054).
+
+- [https://github.com/houseofint3/CVE-2020-17382](https://github.com/houseofint3/CVE-2020-17382) :  ![starts](https://img.shields.io/github/stars/houseofint3/CVE-2020-17382.svg) ![forks](https://img.shields.io/github/forks/houseofint3/CVE-2020-17382.svg)
 
