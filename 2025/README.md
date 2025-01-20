@@ -50,4 +50,6 @@
 
 - [https://github.com/NyxanGoat/CVE-2025-0282-PoC](https://github.com/NyxanGoat/CVE-2025-0282-PoC) :  ![starts](https://img.shields.io/github/stars/NyxanGoat/CVE-2025-0282-PoC.svg) ![forks](https://img.shields.io/github/forks/NyxanGoat/CVE-2025-0282-PoC.svg)
 
+- [https://github.com/Hexastrike/Ivanti-Secure-Connect-Logs-Parser](https://github.com/Hexastrike/Ivanti-Secure-Connect-Logs-Parser) :  ![starts](https://img.shields.io/github/stars/Hexastrike/Ivanti-Secure-Connect-Logs-Parser.svg) ![forks](https://img.shields.io/github/forks/Hexastrike/Ivanti-Secure-Connect-Logs-Parser.svg)
+
 - [https://github.com/rxwx/pulse-meter](https://github.com/rxwx/pulse-meter) :  ![starts](https://img.shields.io/github/stars/rxwx/pulse-meter.svg) ![forks](https://img.shields.io/github/forks/rxwx/pulse-meter.svg)
