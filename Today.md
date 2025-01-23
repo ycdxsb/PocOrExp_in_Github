@@ -1,108 +1,121 @@
-# Update 2025-01-22
-## CVE-2025-22620
- gitoxide is an implementation of git written in Rust. Prior to 0.17.0, gix-worktree-state specifies 0777 permissions when checking out executable files, intending that the umask will restrict them appropriately. But one of the strategies it uses to set permissions is not subject to the umask. This causes files in a repository to be world-writable in some situations. This vulnerability is fixed in 0.17.0.
+# Update 2025-01-23
+## CVE-2025-22710
+ Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in StoreApps Smart Manager allows Blind SQL Injection. This issue affects Smart Manager: from n/a through 8.52.0.
 
-- [https://github.com/EliahKagan/checkout-index](https://github.com/EliahKagan/checkout-index) :  ![starts](https://img.shields.io/github/stars/EliahKagan/checkout-index.svg) ![forks](https://img.shields.io/github/forks/EliahKagan/checkout-index.svg)
-
-
-## CVE-2025-21298
- Windows OLE Remote Code Execution Vulnerability
-
-- [https://github.com/ynwarcs/CVE-2025-21298](https://github.com/ynwarcs/CVE-2025-21298) :  ![starts](https://img.shields.io/github/stars/ynwarcs/CVE-2025-21298.svg) ![forks](https://img.shields.io/github/forks/ynwarcs/CVE-2025-21298.svg)
+- [https://github.com/DoTTak/CVE-2025-22710](https://github.com/DoTTak/CVE-2025-22710) :  ![starts](https://img.shields.io/github/stars/DoTTak/CVE-2025-22710.svg) ![forks](https://img.shields.io/github/forks/DoTTak/CVE-2025-22710.svg)
 
 
-## CVE-2025-0282
- A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gateways before version 22.7R2.3 allows a remote unauthenticated attacker to achieve remote code execution.
+## CVE-2024-55591
+ An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0 through 7.0.19 and 7.2.0 through 7.2.12 allows a remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module.
 
-- [https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser](https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser) :  ![starts](https://img.shields.io/github/stars/Hexastrike/Ivanti-Connect-Secure-Logs-Parser.svg) ![forks](https://img.shields.io/github/forks/Hexastrike/Ivanti-Connect-Secure-Logs-Parser.svg)
-
-
-## CVE-2024-55511
- A null pointer dereference vulnerability in Macrium Reflect prior to 8.1.8017 allows an attacker to elevate their privileges via executing a specially crafted executable.
-
-- [https://github.com/nikosecurity/CVE-2024-55511](https://github.com/nikosecurity/CVE-2024-55511) :  ![starts](https://img.shields.io/github/stars/nikosecurity/CVE-2024-55511.svg) ![forks](https://img.shields.io/github/forks/nikosecurity/CVE-2024-55511.svg)
+- [https://github.com/sysirq/fortios-auth-bypass-poc-CVE-2024-55591](https://github.com/sysirq/fortios-auth-bypass-poc-CVE-2024-55591) :  ![starts](https://img.shields.io/github/stars/sysirq/fortios-auth-bypass-poc-CVE-2024-55591.svg) ![forks](https://img.shields.io/github/forks/sysirq/fortios-auth-bypass-poc-CVE-2024-55591.svg)
 
 
-## CVE-2024-54880
- SeaCMS V13.1 is vulnerable to Incorrect Access Control. A logic flaw can be exploited by an attacker to allow any user to register accounts in bulk.
+## CVE-2024-55504
+ An issue in RAR Extractor - Unarchiver Free and Pro v.6.4.0 allows local attackers to inject arbitrary code potentially leading to remote control and unauthorized access to sensitive user data via the exploit_combined.dylib component on MacOS.
 
-- [https://github.com/ailenye/CVE-2024-54880](https://github.com/ailenye/CVE-2024-54880) :  ![starts](https://img.shields.io/github/stars/ailenye/CVE-2024-54880.svg) ![forks](https://img.shields.io/github/forks/ailenye/CVE-2024-54880.svg)
-
-
-## CVE-2024-54879
- SeaCMS V13.1 is vulnerable to Incorrect Access Control. A logic flaw can be exploited by an attacker to allow any user to recharge members indefinitely.
-
-- [https://github.com/ailenye/CVE-2024-54879](https://github.com/ailenye/CVE-2024-54879) :  ![starts](https://img.shields.io/github/stars/ailenye/CVE-2024-54879.svg) ![forks](https://img.shields.io/github/forks/ailenye/CVE-2024-54879.svg)
+- [https://github.com/SyFi/CVE-2024-55504](https://github.com/SyFi/CVE-2024-55504) :  ![starts](https://img.shields.io/github/stars/SyFi/CVE-2024-55504.svg) ![forks](https://img.shields.io/github/forks/SyFi/CVE-2024-55504.svg)
 
 
-## CVE-2024-43998
- Missing Authorization vulnerability in WebsiteinWP Blogpoet allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Blogpoet: from n/a through 1.0.3.
+## CVE-2024-54795
+ SpagoBI v3.5.1 contains multiple Stored Cross-Site Scripting (XSS) vulnerabilities in the create/edit forms of the worksheet designer function.
 
-- [https://github.com/Nxploited/CVE-2024-43998](https://github.com/Nxploited/CVE-2024-43998) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-43998.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-43998.svg)
-
-
-## CVE-2024-21887
- A command injection vulnerability in web components of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x)  allows an authenticated administrator to send specially crafted requests and execute arbitrary commands on the appliance.
-
-- [https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser](https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser) :  ![starts](https://img.shields.io/github/stars/Hexastrike/Ivanti-Connect-Secure-Logs-Parser.svg) ![forks](https://img.shields.io/github/forks/Hexastrike/Ivanti-Connect-Secure-Logs-Parser.svg)
+- [https://github.com/MarioTesoro/CVE-2024-54795](https://github.com/MarioTesoro/CVE-2024-54795) :  ![starts](https://img.shields.io/github/stars/MarioTesoro/CVE-2024-54795.svg) ![forks](https://img.shields.io/github/forks/MarioTesoro/CVE-2024-54795.svg)
 
 
-## CVE-2024-6387
- A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
+## CVE-2024-54794
+ The script input feature of SpagoBI 3.5.1 allows arbitrary code execution.
 
-- [https://github.com/AzrDll/CVE-2024-6387](https://github.com/AzrDll/CVE-2024-6387) :  ![starts](https://img.shields.io/github/stars/AzrDll/CVE-2024-6387.svg) ![forks](https://img.shields.io/github/forks/AzrDll/CVE-2024-6387.svg)
-
-
-## CVE-2024-0582
- A memory leak flaw was found in the Linux kernel’s io_uring functionality in how a user registers a buffer ring with IORING_REGISTER_PBUF_RING, mmap() it, and then frees it. This flaw allows a local user to crash or potentially escalate their privileges on the system.
-
-- [https://github.com/101010zyl/CVE-2024-0582-dataonly](https://github.com/101010zyl/CVE-2024-0582-dataonly) :  ![starts](https://img.shields.io/github/stars/101010zyl/CVE-2024-0582-dataonly.svg) ![forks](https://img.shields.io/github/forks/101010zyl/CVE-2024-0582-dataonly.svg)
+- [https://github.com/MarioTesoro/CVE-2024-54794](https://github.com/MarioTesoro/CVE-2024-54794) :  ![starts](https://img.shields.io/github/stars/MarioTesoro/CVE-2024-54794.svg) ![forks](https://img.shields.io/github/forks/MarioTesoro/CVE-2024-54794.svg)
 
 
-## CVE-2023-46805
- An authentication bypass vulnerability in the web component of Ivanti ICS 9.x, 22.x and Ivanti Policy Secure allows a remote attacker to access restricted resources by bypassing control checks.
+## CVE-2024-54792
+ A Cross-Site Request Forgery (CSRF) vulnerability has been found in SpagoBI v3.5.1 in the user administration panel. An authenticated user can lead another user into executing unwanted actions inside the application they are logged in, like adding, editing or deleting users.
 
-- [https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser](https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser) :  ![starts](https://img.shields.io/github/stars/Hexastrike/Ivanti-Connect-Secure-Logs-Parser.svg) ![forks](https://img.shields.io/github/forks/Hexastrike/Ivanti-Connect-Secure-Logs-Parser.svg)
-
-
-## CVE-2023-40028
- Ghost is an open source content management system. Versions prior to 5.59.1 are subject to a vulnerability which allows authenticated users to upload files that are symlinks. This can be exploited to perform an arbitrary file read of any file on the host operating system. Site administrators can check for exploitation of this issue by looking for unknown symlinks within Ghost's `content/` folder. Version 5.59.1 contains a fix for this issue. All users are advised to upgrade. There are no known workarounds for this vulnerability.
-
-- [https://github.com/godylockz/CVE-2023-40028](https://github.com/godylockz/CVE-2023-40028) :  ![starts](https://img.shields.io/github/stars/godylockz/CVE-2023-40028.svg) ![forks](https://img.shields.io/github/forks/godylockz/CVE-2023-40028.svg)
+- [https://github.com/MarioTesoro/CVE-2024-54792](https://github.com/MarioTesoro/CVE-2024-54792) :  ![starts](https://img.shields.io/github/stars/MarioTesoro/CVE-2024-54792.svg) ![forks](https://img.shields.io/github/forks/MarioTesoro/CVE-2024-54792.svg)
 
 
-## CVE-2022-22965
- A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.
+## CVE-2024-51818
+ Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in NotFound Fancy Product Designer. This issue affects Fancy Product Designer: from n/a through 6.4.3.
 
-- [https://github.com/WuliRuler/SBSCAN](https://github.com/WuliRuler/SBSCAN) :  ![starts](https://img.shields.io/github/stars/WuliRuler/SBSCAN.svg) ![forks](https://img.shields.io/github/forks/WuliRuler/SBSCAN.svg)
-
-
-## CVE-2022-22963
- In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources.
-
-- [https://github.com/WuliRuler/SBSCAN](https://github.com/WuliRuler/SBSCAN) :  ![starts](https://img.shields.io/github/stars/WuliRuler/SBSCAN.svg) ![forks](https://img.shields.io/github/forks/WuliRuler/SBSCAN.svg)
+- [https://github.com/RandomRobbieBF/CVE-2024-51818](https://github.com/RandomRobbieBF/CVE-2024-51818) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-51818.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-51818.svg)
 
 
-## CVE-2022-22947
- In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enabled, exposed and unsecured. A remote attacker could make a maliciously crafted request that could allow arbitrary remote execution on the remote host.
+## CVE-2024-49699
+ Deserialization of Untrusted Data vulnerability in NotFound ARPrice allows Object Injection. This issue affects ARPrice: from n/a through 4.0.3.
 
-- [https://github.com/WuliRuler/SBSCAN](https://github.com/WuliRuler/SBSCAN) :  ![starts](https://img.shields.io/github/stars/WuliRuler/SBSCAN.svg) ![forks](https://img.shields.io/github/forks/WuliRuler/SBSCAN.svg)
-
-
-## CVE-2022-21888
- Windows Modern Execution Server Remote Code Execution Vulnerability
-
-- [https://github.com/Sausageinforest/CVE-2022-218882](https://github.com/Sausageinforest/CVE-2022-218882) :  ![starts](https://img.shields.io/github/stars/Sausageinforest/CVE-2022-218882.svg) ![forks](https://img.shields.io/github/forks/Sausageinforest/CVE-2022-218882.svg)
+- [https://github.com/RandomRobbieBF/CVE-2024-49699](https://github.com/RandomRobbieBF/CVE-2024-49699) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-49699.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-49699.svg)
 
 
-## CVE-2021-21234
- spring-boot-actuator-logview in a library that adds a simple logfile viewer as spring boot actuator endpoint. It is maven package "eu.hinsch:spring-boot-actuator-logview". In spring-boot-actuator-logview before version 0.2.13 there is a directory traversal vulnerability. The nature of this library is to expose a log file directory via admin (spring boot actuator) HTTP endpoints. Both the filename to view and a base folder (relative to the logging folder root) can be specified via request parameters. While the filename parameter was checked to prevent directory traversal exploits (so that `filename=../somefile` would not work), the base folder parameter was not sufficiently checked, so that `filename=somefile&base=../` could access a file outside the logging base directory). The vulnerability has been patched in release 0.2.13. Any users of 0.2.12 should be able to update without any issues as there are no other changes in that release. There is no workaround to fix the vulnerability other than updating or removing the dependency. However, removing read access of the user the application is run with to any directory not required for running the application can limit the impact. Additionally, access to the logview endpoint can be limited by deploying the application behind a reverse proxy.
+## CVE-2024-49138
+ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
-- [https://github.com/WuliRuler/SBSCAN](https://github.com/WuliRuler/SBSCAN) :  ![starts](https://img.shields.io/github/stars/WuliRuler/SBSCAN.svg) ![forks](https://img.shields.io/github/forks/WuliRuler/SBSCAN.svg)
+- [https://github.com/bananoname/CVE-2024-49138-POC](https://github.com/bananoname/CVE-2024-49138-POC) :  ![starts](https://img.shields.io/github/stars/bananoname/CVE-2024-49138-POC.svg) ![forks](https://img.shields.io/github/forks/bananoname/CVE-2024-49138-POC.svg)
 
 
-## CVE-2021-1732
- Windows Win32k Elevation of Privilege Vulnerability
+## CVE-2024-48392
+ OrangeScrum v2.0.11 is vulnerable to Cross Site Scripting (XSS). An attacker can inject malicious JavaScript code into user email due to lack of input validation, which could lead to account takeover.
 
-- [https://github.com/Sausageinforest/CVE-2021-1732](https://github.com/Sausageinforest/CVE-2021-1732) :  ![starts](https://img.shields.io/github/stars/Sausageinforest/CVE-2021-1732.svg) ![forks](https://img.shields.io/github/forks/Sausageinforest/CVE-2021-1732.svg)
+- [https://github.com/Renzusclarke/CVE-2024-48392-PoC](https://github.com/Renzusclarke/CVE-2024-48392-PoC) :  ![starts](https://img.shields.io/github/stars/Renzusclarke/CVE-2024-48392-PoC.svg) ![forks](https://img.shields.io/github/forks/Renzusclarke/CVE-2024-48392-PoC.svg)
+
+
+## CVE-2024-43451
+ NTLM Hash Disclosure Spoofing Vulnerability
+
+- [https://github.com/RonF98/CVE-2024-43451-POC](https://github.com/RonF98/CVE-2024-43451-POC) :  ![starts](https://img.shields.io/github/stars/RonF98/CVE-2024-43451-POC.svg) ![forks](https://img.shields.io/github/forks/RonF98/CVE-2024-43451-POC.svg)
+
+
+## CVE-2024-41570
+ An Unauthenticated Server-Side Request Forgery (SSRF) in demon callback handling in Havoc 2 0.7 allows attackers to send arbitrary network traffic originating from the team server.
+
+- [https://github.com/kit4py/CVE-2024-41570](https://github.com/kit4py/CVE-2024-41570) :  ![starts](https://img.shields.io/github/stars/kit4py/CVE-2024-41570.svg) ![forks](https://img.shields.io/github/forks/kit4py/CVE-2024-41570.svg)
+- [https://github.com/sebr-dev/Havoc-C2-SSRF-to-RCE](https://github.com/sebr-dev/Havoc-C2-SSRF-to-RCE) :  ![starts](https://img.shields.io/github/stars/sebr-dev/Havoc-C2-SSRF-to-RCE.svg) ![forks](https://img.shields.io/github/forks/sebr-dev/Havoc-C2-SSRF-to-RCE.svg)
+
+
+## CVE-2024-27198
+ In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
+
+- [https://github.com/ArtemCyberLab/Project-Exploiting-CVE-2024-27198-RCE-Vulnerability](https://github.com/ArtemCyberLab/Project-Exploiting-CVE-2024-27198-RCE-Vulnerability) :  ![starts](https://img.shields.io/github/stars/ArtemCyberLab/Project-Exploiting-CVE-2024-27198-RCE-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/ArtemCyberLab/Project-Exploiting-CVE-2024-27198-RCE-Vulnerability.svg)
+
+
+## CVE-2024-12084
+ A heap-based buffer overflow flaw was found in the rsync daemon. This issue is due to improper handling of attacker-controlled checksum lengths (s2length) in the code. When MAX_DIGEST_LEN exceeds the fixed SUM_LENGTH (16 bytes), an attacker can write out of bounds in the sum2 buffer.
+
+- [https://github.com/themirze/cve-2024-12084](https://github.com/themirze/cve-2024-12084) :  ![starts](https://img.shields.io/github/stars/themirze/cve-2024-12084.svg) ![forks](https://img.shields.io/github/forks/themirze/cve-2024-12084.svg)
+
+
+## CVE-2024-6460
+ The Grow by Tradedoubler  WordPress plugin through 2.0.21 is vulnerable to Local File Inclusion via the component parameter. This makes it possible for attackers to include and execute PHP files on the server, allowing the execution of any PHP code in those files.
+
+- [https://github.com/Nxploited/CVE-2024-6460](https://github.com/Nxploited/CVE-2024-6460) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-6460.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-6460.svg)
+
+
+## CVE-2023-46604
+which fixes this issue.
+
+- [https://github.com/tomasmussi/activemq-cve-2023-46604](https://github.com/tomasmussi/activemq-cve-2023-46604) :  ![starts](https://img.shields.io/github/stars/tomasmussi/activemq-cve-2023-46604.svg) ![forks](https://img.shields.io/github/forks/tomasmussi/activemq-cve-2023-46604.svg)
+
+
+## CVE-2022-30190
+Please see the MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability.
+
+- [https://github.com/Nyx2022/Follina-CVE-2022-30190-Sample](https://github.com/Nyx2022/Follina-CVE-2022-30190-Sample) :  ![starts](https://img.shields.io/github/stars/Nyx2022/Follina-CVE-2022-30190-Sample.svg) ![forks](https://img.shields.io/github/forks/Nyx2022/Follina-CVE-2022-30190-Sample.svg)
+
+
+## CVE-2022-0847
+ A flaw was found in the way the "flags" member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
+
+- [https://github.com/Mephierr/DirtyPipe_exploit](https://github.com/Mephierr/DirtyPipe_exploit) :  ![starts](https://img.shields.io/github/stars/Mephierr/DirtyPipe_exploit.svg) ![forks](https://img.shields.io/github/forks/Mephierr/DirtyPipe_exploit.svg)
+
+
+## CVE-2021-40438
+ A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.
+
+- [https://github.com/element-security/check-point-gateways-rce](https://github.com/element-security/check-point-gateways-rce) :  ![starts](https://img.shields.io/github/stars/element-security/check-point-gateways-rce.svg) ![forks](https://img.shields.io/github/forks/element-security/check-point-gateways-rce.svg)
+
+
+## CVE-2020-10136
+ IP-in-IP protocol specifies IP Encapsulation within IP standard (RFC 2003, STD 1) that decapsulate and route IP-in-IP traffic is vulnerable to spoofing, access-control bypass and other unexpected behavior due to the lack of validation to verify network packets before decapsulation and routing.
+
+- [https://github.com/PapayaJackal/ipeeyoupeewepee](https://github.com/PapayaJackal/ipeeyoupeewepee) :  ![starts](https://img.shields.io/github/stars/PapayaJackal/ipeeyoupeewepee.svg) ![forks](https://img.shields.io/github/forks/PapayaJackal/ipeeyoupeewepee.svg)
 
