@@ -338,11 +338,11 @@ use after free.
 
 - [https://github.com/Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Castaldio86/Detect-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Castaldio86/Detect-CVE-2019-19781.svg)
 
+- [https://github.com/zgelici/CVE-2019-19781-Checker](https://github.com/zgelici/CVE-2019-19781-Checker) :  ![starts](https://img.shields.io/github/stars/zgelici/CVE-2019-19781-Checker.svg) ![forks](https://img.shields.io/github/forks/zgelici/CVE-2019-19781-Checker.svg)
+
 - [https://github.com/qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc) :  ![starts](https://img.shields.io/github/stars/qiong-qi/CVE-2019-19781-poc.svg) ![forks](https://img.shields.io/github/forks/qiong-qi/CVE-2019-19781-poc.svg)
 
 - [https://github.com/darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC) :  ![starts](https://img.shields.io/github/stars/darren646/CVE-2019-19781POC.svg) ![forks](https://img.shields.io/github/forks/darren646/CVE-2019-19781POC.svg)
-
-- [https://github.com/zgelici/CVE-2019-19781-Checker](https://github.com/zgelici/CVE-2019-19781-Checker) :  ![starts](https://img.shields.io/github/stars/zgelici/CVE-2019-19781-Checker.svg) ![forks](https://img.shields.io/github/forks/zgelici/CVE-2019-19781-Checker.svg)
 
 - [https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes](https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes) :  ![starts](https://img.shields.io/github/stars/Azeemering/CVE-2019-19781-DFIR-Notes.svg) ![forks](https://img.shields.io/github/forks/Azeemering/CVE-2019-19781-DFIR-Notes.svg)
 
@@ -495,9 +495,9 @@ use after free.
 
 - [https://github.com/Chocapikk/CVE-2019-19492](https://github.com/Chocapikk/CVE-2019-19492) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2019-19492.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2019-19492.svg)
 
-- [https://github.com/tucommenceapousser/CVE-2019-19492-2](https://github.com/tucommenceapousser/CVE-2019-19492-2) :  ![starts](https://img.shields.io/github/stars/tucommenceapousser/CVE-2019-19492-2.svg) ![forks](https://img.shields.io/github/forks/tucommenceapousser/CVE-2019-19492-2.svg)
-
 - [https://github.com/tucommenceapousser/CVE-2019-19492](https://github.com/tucommenceapousser/CVE-2019-19492) :  ![starts](https://img.shields.io/github/stars/tucommenceapousser/CVE-2019-19492.svg) ![forks](https://img.shields.io/github/forks/tucommenceapousser/CVE-2019-19492.svg)
+
+- [https://github.com/tucommenceapousser/CVE-2019-19492-2](https://github.com/tucommenceapousser/CVE-2019-19492-2) :  ![starts](https://img.shields.io/github/stars/tucommenceapousser/CVE-2019-19492-2.svg) ![forks](https://img.shields.io/github/forks/tucommenceapousser/CVE-2019-19492-2.svg)
 
 ## CVE-2019-19470
  Unsafe usage of .NET deserialization in Named Pipe message processing allows privilege escalation to NT AUTHORITY\SYSTEM for a local attacker. Affected product is TinyWall, all versions up to and including 2.1.12. Fixed in version 2.1.13.
@@ -1868,11 +1868,11 @@ use after free.
 
 - [https://github.com/axax002/sudo-vulnerability-CVE-2019-14287](https://github.com/axax002/sudo-vulnerability-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/axax002/sudo-vulnerability-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/axax002/sudo-vulnerability-CVE-2019-14287.svg)
 
+- [https://github.com/n3rdh4x0r/CVE-2019-14287](https://github.com/n3rdh4x0r/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2019-14287.svg)
+
 - [https://github.com/DewmiApsara/CVE-2019-14287](https://github.com/DewmiApsara/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/DewmiApsara/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/DewmiApsara/CVE-2019-14287.svg)
 
 - [https://github.com/Sindadziy/cve-2019-14287](https://github.com/Sindadziy/cve-2019-14287) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2019-14287.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2019-14287.svg)
-
-- [https://github.com/n3rdh4x0r/CVE-2019-14287](https://github.com/n3rdh4x0r/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2019-14287.svg)
 
 - [https://github.com/Ijinleife/CVE-2019-14287](https://github.com/Ijinleife/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/Ijinleife/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/Ijinleife/CVE-2019-14287.svg)
 
@@ -3656,19 +3656,19 @@ use after free.
 
 - [https://github.com/kahluri/CVE-2019-9053](https://github.com/kahluri/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/kahluri/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/kahluri/CVE-2019-9053.svg)
 
-- [https://github.com/fernandobortotti/CVE-2019-9053](https://github.com/fernandobortotti/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/fernandobortotti/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/fernandobortotti/CVE-2019-9053.svg)
-
 - [https://github.com/AppyAppy/super-octo-carnival](https://github.com/AppyAppy/super-octo-carnival) :  ![starts](https://img.shields.io/github/stars/AppyAppy/super-octo-carnival.svg) ![forks](https://img.shields.io/github/forks/AppyAppy/super-octo-carnival.svg)
 
 - [https://github.com/byrek/CVE-2019-9053](https://github.com/byrek/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/byrek/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/byrek/CVE-2019-9053.svg)
 
-- [https://github.com/louisthedonothing/CVE-2019-9053](https://github.com/louisthedonothing/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/louisthedonothing/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/louisthedonothing/CVE-2019-9053.svg)
-
 - [https://github.com/im-suman-roy/CVE-2019-9053](https://github.com/im-suman-roy/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/im-suman-roy/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/im-suman-roy/CVE-2019-9053.svg)
 
-- [https://github.com/BjarneVerschorre/CVE-2019-9053](https://github.com/BjarneVerschorre/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/BjarneVerschorre/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/BjarneVerschorre/CVE-2019-9053.svg)
-
 - [https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3](https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3) :  ![starts](https://img.shields.io/github/stars/pedrojosenavasperez/CVE-2019-9053-Python3.svg) ![forks](https://img.shields.io/github/forks/pedrojosenavasperez/CVE-2019-9053-Python3.svg)
+
+- [https://github.com/louisthedonothing/CVE-2019-9053](https://github.com/louisthedonothing/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/louisthedonothing/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/louisthedonothing/CVE-2019-9053.svg)
+
+- [https://github.com/fernandobortotti/CVE-2019-9053](https://github.com/fernandobortotti/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/fernandobortotti/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/fernandobortotti/CVE-2019-9053.svg)
+
+- [https://github.com/BjarneVerschorre/CVE-2019-9053](https://github.com/BjarneVerschorre/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/BjarneVerschorre/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/BjarneVerschorre/CVE-2019-9053.svg)
 
 - [https://github.com/FedericoTorres233/CVE-2019-9053-Fixed](https://github.com/FedericoTorres233/CVE-2019-9053-Fixed) :  ![starts](https://img.shields.io/github/stars/FedericoTorres233/CVE-2019-9053-Fixed.svg) ![forks](https://img.shields.io/github/forks/FedericoTorres233/CVE-2019-9053-Fixed.svg)
 
@@ -5777,9 +5777,9 @@ Microsoft released a security update on July 9, 2019 that addresses the vulnerab
 
 - [https://github.com/YSheldon/MS_T120](https://github.com/YSheldon/MS_T120) :  ![starts](https://img.shields.io/github/stars/YSheldon/MS_T120.svg) ![forks](https://img.shields.io/github/forks/YSheldon/MS_T120.svg)
 
-- [https://github.com/temp-user-2014/CVE-2019-0708](https://github.com/temp-user-2014/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/temp-user-2014/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/temp-user-2014/CVE-2019-0708.svg)
-
 - [https://github.com/UraSecTeam/CVE-2019-0708](https://github.com/UraSecTeam/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/UraSecTeam/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/UraSecTeam/CVE-2019-0708.svg)
+
+- [https://github.com/temp-user-2014/CVE-2019-0708](https://github.com/temp-user-2014/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/temp-user-2014/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/temp-user-2014/CVE-2019-0708.svg)
 
 - [https://github.com/CircuitSoul/CVE-2019-0708](https://github.com/CircuitSoul/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/CircuitSoul/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/CircuitSoul/CVE-2019-0708.svg)
 
@@ -5787,13 +5787,13 @@ Microsoft released a security update on July 9, 2019 that addresses the vulnerab
 
 - [https://github.com/distance-vector/CVE-2019-0708](https://github.com/distance-vector/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/distance-vector/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/distance-vector/CVE-2019-0708.svg)
 
-- [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
-
 - [https://github.com/1aa87148377/CVE-2019-0708](https://github.com/1aa87148377/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/1aa87148377/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/1aa87148377/CVE-2019-0708.svg)
 
 - [https://github.com/gildaaa/CVE-2019-0708](https://github.com/gildaaa/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/gildaaa/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/gildaaa/CVE-2019-0708.svg)
 
 - [https://github.com/JasonLOU/CVE-2019-0708](https://github.com/JasonLOU/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/JasonLOU/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/JasonLOU/CVE-2019-0708.svg)
+
+- [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
 
 - [https://github.com/ttsite/CVE-2019-0708](https://github.com/ttsite/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ttsite/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ttsite/CVE-2019-0708.svg)
 
@@ -5807,9 +5807,9 @@ Microsoft released a security update on July 9, 2019 that addresses the vulnerab
 
 - [https://github.com/ulisesrc/-2-CVE-2019-0708](https://github.com/ulisesrc/-2-CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ulisesrc/-2-CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ulisesrc/-2-CVE-2019-0708.svg)
 
-- [https://github.com/sbkcbig/CVE-2019-0708-Poc-exploit](https://github.com/sbkcbig/CVE-2019-0708-Poc-exploit) :  ![starts](https://img.shields.io/github/stars/sbkcbig/CVE-2019-0708-Poc-exploit.svg) ![forks](https://img.shields.io/github/forks/sbkcbig/CVE-2019-0708-Poc-exploit.svg)
-
 - [https://github.com/nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI) :  ![starts](https://img.shields.io/github/stars/nochemax/bLuEkEeP-GUI.svg) ![forks](https://img.shields.io/github/forks/nochemax/bLuEkEeP-GUI.svg)
+
+- [https://github.com/sbkcbig/CVE-2019-0708-Poc-exploit](https://github.com/sbkcbig/CVE-2019-0708-Poc-exploit) :  ![starts](https://img.shields.io/github/stars/sbkcbig/CVE-2019-0708-Poc-exploit.svg) ![forks](https://img.shields.io/github/forks/sbkcbig/CVE-2019-0708-Poc-exploit.svg)
 
 ## CVE-2019-0683
  An elevation of privilege vulnerability exists in Active Directory Forest trusts due to a default setting that lets an attacker in the trusting forest request delegation of a TGT for an identity from the trusted forest, aka 'Active Directory Elevation of Privilege Vulnerability'.
