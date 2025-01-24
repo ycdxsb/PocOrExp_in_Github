@@ -6,7 +6,7 @@
 - [https://github.com/CRUNZEX/CVE-2025-22968](https://github.com/CRUNZEX/CVE-2025-22968) :  ![starts](https://img.shields.io/github/stars/CRUNZEX/CVE-2025-22968.svg) ![forks](https://img.shields.io/github/forks/CRUNZEX/CVE-2025-22968.svg)
 
 ## CVE-2025-22964
- SQL Injection vulnerability in DDSN Net Pty Ltd (DDSN Interactive) DDSN Interactive cm3 Acora CMS 10.1.1 allows an attacker to execute arbitrary code via the table parameter.
+ DDSN Interactive cm3 Acora CMS version 10.1.1 has an unauthenticated time-based blind SQL Injection vulnerability caused by insufficient input sanitization and validation in the "table" parameter. This flaw allows attackers to inject malicious SQL queries by directly incorporating user-supplied input into database queries without proper escaping or validation. Exploiting this issue enables unauthorized access, manipulation of data, or exposure of sensitive information, posing significant risks to the integrity and confidentiality of the application.
 
 
 
