@@ -1,60 +1,37 @@
-# Update 2025-01-26
+# Update 2025-01-27
+## CVE-2025-0411
+The specific flaw exists within the handling of archived files. When extracting files from a crafted archive that bears the Mark-of-the-Web, 7-Zip does not propagate the Mark-of-the-Web to the extracted files. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user. Was ZDI-CAN-25456.
+
+- [https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC](https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC) :  ![starts](https://img.shields.io/github/stars/dhmosfunk/7-Zip-CVE-2025-0411-POC.svg) ![forks](https://img.shields.io/github/forks/dhmosfunk/7-Zip-CVE-2025-0411-POC.svg)
+- [https://github.com/CastroJared/7-Zip-CVE-2025-0411-POC](https://github.com/CastroJared/7-Zip-CVE-2025-0411-POC) :  ![starts](https://img.shields.io/github/stars/CastroJared/7-Zip-CVE-2025-0411-POC.svg) ![forks](https://img.shields.io/github/forks/CastroJared/7-Zip-CVE-2025-0411-POC.svg)
+
+
 ## CVE-2024-55591
  An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0 through 7.0.19 and 7.2.0 through 7.2.12 allows a remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module.
 
-- [https://github.com/amfg145/Private-CVE-2024-55591.](https://github.com/amfg145/Private-CVE-2024-55591.) :  ![starts](https://img.shields.io/github/stars/amfg145/Private-CVE-2024-55591..svg) ![forks](https://img.shields.io/github/forks/amfg145/Private-CVE-2024-55591..svg)
+- [https://github.com/robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591](https://github.com/robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591) :  ![starts](https://img.shields.io/github/stars/robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591.svg) ![forks](https://img.shields.io/github/forks/robomusk52/exp-cmd-add-admin-vpn-CVE-2024-55591.svg)
 
 
-## CVE-2024-45337
- Applications and libraries which misuse the ServerConfig.PublicKeyCallback callback may be susceptible to an authorization bypass. The documentation for ServerConfig.PublicKeyCallback says that "A call to this function does not guarantee that the key offered is in fact used to authenticate." Specifically, the SSH protocol allows clients to inquire about whether a public key is acceptable before proving control of the corresponding private key. PublicKeyCallback may be called with multiple keys, and the order in which the keys were provided cannot be used to infer which key the client successfully authenticated with, if any. Some applications, which store the key(s) passed to PublicKeyCallback (or derived information) and make security relevant determinations based on it once the connection is established, may make incorrect assumptions. For example, an attacker may send public keys A and B, and then authenticate with A. PublicKeyCallback would be called only twice, first with A and then with B. A vulnerable application may then make authorization decisions based on key B for which the attacker does not actually control the private key. Since this API is widely misused, as a partial mitigation golang.org/x/cry...@v0.31.0 enforces the property that, when successfully authenticating via public key, the last key passed to ServerConfig.PublicKeyCallback will be the key used to authenticate the connection. PublicKeyCallback will now be called multiple times with the same key, if necessary. Note that the client may still not control the last key passed to PublicKeyCallback if the connection is then authenticated with a different method, such as PasswordCallback, KeyboardInteractiveCallback, or NoClientAuth. Users should be using the Extensions field of the Permissions return value from the various authentication callbacks to record data associated with the authentication attempt instead of referencing external state. Once the connection is established the state corresponding to the successful authentication attempt can be retrieved via the ServerConn.Permissions field. Note that some third-party libraries misuse the Permissions type by sharing it across authentication attempts; users of third-party libraries should refer to the relevant projects for guidance.
+## CVE-2024-9047
+ The WordPress File Upload plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 4.24.11 via wfu_file_downloader.php. This makes it possible for unauthenticated attackers to read or delete files outside of the originally intended directory. Successful exploitation requires the targeted WordPress installation to be using PHP 7.4 or earlier.
 
-- [https://github.com/peace-maker/CVE-2024-45337](https://github.com/peace-maker/CVE-2024-45337) :  ![starts](https://img.shields.io/github/stars/peace-maker/CVE-2024-45337.svg) ![forks](https://img.shields.io/github/forks/peace-maker/CVE-2024-45337.svg)
-
-
-## CVE-2024-41570
- An Unauthenticated Server-Side Request Forgery (SSRF) in demon callback handling in Havoc 2 0.7 allows attackers to send arbitrary network traffic originating from the team server.
-
-- [https://github.com/0xLynk/CVE-2024-41570-POC](https://github.com/0xLynk/CVE-2024-41570-POC) :  ![starts](https://img.shields.io/github/stars/0xLynk/CVE-2024-41570-POC.svg) ![forks](https://img.shields.io/github/forks/0xLynk/CVE-2024-41570-POC.svg)
+- [https://github.com/Nxploited/CVE-2024-9047-Exploit](https://github.com/Nxploited/CVE-2024-9047-Exploit) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-9047-Exploit.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-9047-Exploit.svg)
 
 
-## CVE-2024-3673
- The Web Directory Free WordPress plugin before 1.7.3 does not validate a parameter before using it in an include(), which could lead to Local File Inclusion issues.
+## CVE-2023-40029
+ Argo CD is a declarative continuous deployment for Kubernetes. Argo CD Cluster secrets might be managed declaratively using Argo CD / kubectl apply. As a result, the full secret body is stored in`kubectl.kubernetes.io/last-applied-configuration` annotation. pull request #7139 introduced the ability to manage cluster labels and annotations. Since clusters are stored as secrets it also exposes the `kubectl.kubernetes.io/last-applied-configuration` annotation which includes full secret body. In order to view the cluster annotations via the Argo CD API, the user must have `clusters, get` RBAC access. **Note:** In many cases, cluster secrets do not contain any actually-secret information. But sometimes, as in bearer-token auth, the contents might be very sensitive. The bug has been patched in versions 2.8.3, 2.7.14, and 2.6.15. Users are advised to upgrade. Users unable to upgrade should update/deploy cluster secret with `server-side-apply` flag which does not use or rely on `kubectl.kubernetes.io/last-applied-configuration` annotation. Note: annotation for existing secrets will require manual removal.
 
-- [https://github.com/Nxploited/CVE-2024-3673](https://github.com/Nxploited/CVE-2024-3673) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-3673.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-3673.svg)
-
-
-## CVE-2024-3244
-'embedpress_calendar' shortcode in all versions up to, and including, 3.9.14 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-
-- [https://github.com/rxerium/CVE-2024-32444](https://github.com/rxerium/CVE-2024-32444) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2024-32444.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2024-32444.svg)
+- [https://github.com/guobei233/CVE-2023-40029](https://github.com/guobei233/CVE-2023-40029) :  ![starts](https://img.shields.io/github/stars/guobei233/CVE-2023-40029.svg) ![forks](https://img.shields.io/github/forks/guobei233/CVE-2023-40029.svg)
 
 
-## CVE-2023-6063
- The WP Fastest Cache WordPress plugin before 1.2.2 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by unauthenticated users.
+## CVE-2021-22893
+ Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication bypass vulnerability exposed by the Windows File Share Browser and Pulse Secure Collaboration features of Pulse Connect Secure that can allow an unauthenticated user to perform remote arbitrary code execution on the Pulse Connect Secure gateway. This vulnerability has been exploited in the wild.
 
-- [https://github.com/Eulex0x/CVE-2023-6063](https://github.com/Eulex0x/CVE-2023-6063) :  ![starts](https://img.shields.io/github/stars/Eulex0x/CVE-2023-6063.svg) ![forks](https://img.shields.io/github/forks/Eulex0x/CVE-2023-6063.svg)
-
-
-## CVE-2023-4220
- Unrestricted file upload in big file upload functionality in `/main/inc/lib/javascript/bigupload/inc/bigUpload.php` in Chamilo LMS = v1.11.24 allows unauthenticated attackers to perform stored cross-site scripting attacks and obtain remote code execution via uploading of web shell.
-
-- [https://github.com/zora-beep/CVE-2023-4220](https://github.com/zora-beep/CVE-2023-4220) :  ![starts](https://img.shields.io/github/stars/zora-beep/CVE-2023-4220.svg) ![forks](https://img.shields.io/github/forks/zora-beep/CVE-2023-4220.svg)
+- [https://github.com/MRLEE123456/CVE-2021-22893](https://github.com/MRLEE123456/CVE-2021-22893) :  ![starts](https://img.shields.io/github/stars/MRLEE123456/CVE-2021-22893.svg) ![forks](https://img.shields.io/github/forks/MRLEE123456/CVE-2021-22893.svg)
 
 
-## CVE-2022-40684
- An authentication bypass using an alternate path or channel [CWE-288] in Fortinet FortiOS version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.6, FortiProxy version 7.2.0 and version 7.0.0 through 7.0.6 and FortiSwitchManager version 7.2.0 and 7.0.0 allows an unauthenticated atttacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests.
+## CVE-2016-2555
+ SQL injection vulnerability in include/lib/mysql_connect.inc.php in ATutor 2.2.1 allows remote attackers to execute arbitrary SQL commands via the searchFriends function to friends.inc.php.
 
-- [https://github.com/niklasmato/fortileak-01-2025-Be](https://github.com/niklasmato/fortileak-01-2025-Be) :  ![starts](https://img.shields.io/github/stars/niklasmato/fortileak-01-2025-Be.svg) ![forks](https://img.shields.io/github/forks/niklasmato/fortileak-01-2025-Be.svg)
-
-
-## CVE-2022-1609
- The School Management WordPress plugin before 9.9.7 contains an obfuscated backdoor injected in it's license checking code that registers a REST API handler, allowing an unauthenticated attacker to execute arbitrary PHP code on the site.
-
-- [https://github.com/iaaaannn0/cve-2022-1609-exploit](https://github.com/iaaaannn0/cve-2022-1609-exploit) :  ![starts](https://img.shields.io/github/stars/iaaaannn0/cve-2022-1609-exploit.svg) ![forks](https://img.shields.io/github/forks/iaaaannn0/cve-2022-1609-exploit.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/skentagon/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/skentagon/CVE-2021-41773.svg)
+- [https://github.com/HussainFathy/CVE-2016-2555](https://github.com/HussainFathy/CVE-2016-2555) :  ![starts](https://img.shields.io/github/stars/HussainFathy/CVE-2016-2555.svg) ![forks](https://img.shields.io/github/forks/HussainFathy/CVE-2016-2555.svg)
 
