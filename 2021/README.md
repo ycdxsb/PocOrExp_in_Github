@@ -36,9 +36,9 @@
 
 - [https://github.com/nobodyatall648/CVE-2021-46422](https://github.com/nobodyatall648/CVE-2021-46422) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2021-46422.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2021-46422.svg)
 
-- [https://github.com/kailing0220/CVE-2021-46422](https://github.com/kailing0220/CVE-2021-46422) :  ![starts](https://img.shields.io/github/stars/kailing0220/CVE-2021-46422.svg) ![forks](https://img.shields.io/github/forks/kailing0220/CVE-2021-46422.svg)
-
 - [https://github.com/polerstar/CVE-2021-46422-poc](https://github.com/polerstar/CVE-2021-46422-poc) :  ![starts](https://img.shields.io/github/stars/polerstar/CVE-2021-46422-poc.svg) ![forks](https://img.shields.io/github/forks/polerstar/CVE-2021-46422-poc.svg)
+
+- [https://github.com/kailing0220/CVE-2021-46422](https://github.com/kailing0220/CVE-2021-46422) :  ![starts](https://img.shields.io/github/stars/kailing0220/CVE-2021-46422.svg) ![forks](https://img.shields.io/github/forks/kailing0220/CVE-2021-46422.svg)
 
 - [https://github.com/xanszZZ/SDT_CW3B1_rce](https://github.com/xanszZZ/SDT_CW3B1_rce) :  ![starts](https://img.shields.io/github/stars/xanszZZ/SDT_CW3B1_rce.svg) ![forks](https://img.shields.io/github/forks/xanszZZ/SDT_CW3B1_rce.svg)
 
@@ -529,9 +529,9 @@
 
 - [https://github.com/gitlab-de/log4j-resources](https://github.com/gitlab-de/log4j-resources) :  ![starts](https://img.shields.io/github/stars/gitlab-de/log4j-resources.svg) ![forks](https://img.shields.io/github/forks/gitlab-de/log4j-resources.svg)
 
-- [https://github.com/andalik/log4j-filescan](https://github.com/andalik/log4j-filescan) :  ![starts](https://img.shields.io/github/stars/andalik/log4j-filescan.svg) ![forks](https://img.shields.io/github/forks/andalik/log4j-filescan.svg)
-
 - [https://github.com/at-bay/log4j-checker](https://github.com/at-bay/log4j-checker) :  ![starts](https://img.shields.io/github/stars/at-bay/log4j-checker.svg) ![forks](https://img.shields.io/github/forks/at-bay/log4j-checker.svg)
+
+- [https://github.com/andalik/log4j-filescan](https://github.com/andalik/log4j-filescan) :  ![starts](https://img.shields.io/github/stars/andalik/log4j-filescan.svg) ![forks](https://img.shields.io/github/forks/andalik/log4j-filescan.svg)
 
 - [https://github.com/nagten/JndiLookupRemoval](https://github.com/nagten/JndiLookupRemoval) :  ![starts](https://img.shields.io/github/stars/nagten/JndiLookupRemoval.svg) ![forks](https://img.shields.io/github/forks/nagten/JndiLookupRemoval.svg)
 
@@ -846,9 +846,9 @@
 
 - [https://github.com/alexbakker/log4shell-tools](https://github.com/alexbakker/log4shell-tools) :  ![starts](https://img.shields.io/github/stars/alexbakker/log4shell-tools.svg) ![forks](https://img.shields.io/github/forks/alexbakker/log4shell-tools.svg)
 
-- [https://github.com/giterlizzi/nmap-log4shell](https://github.com/giterlizzi/nmap-log4shell) :  ![starts](https://img.shields.io/github/stars/giterlizzi/nmap-log4shell.svg) ![forks](https://img.shields.io/github/forks/giterlizzi/nmap-log4shell.svg)
-
 - [https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce) :  ![starts](https://img.shields.io/github/stars/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce.svg) ![forks](https://img.shields.io/github/forks/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce.svg)
+
+- [https://github.com/giterlizzi/nmap-log4shell](https://github.com/giterlizzi/nmap-log4shell) :  ![starts](https://img.shields.io/github/stars/giterlizzi/nmap-log4shell.svg) ![forks](https://img.shields.io/github/forks/giterlizzi/nmap-log4shell.svg)
 
 - [https://github.com/aalex954/Log4PowerShell](https://github.com/aalex954/Log4PowerShell) :  ![starts](https://img.shields.io/github/stars/aalex954/Log4PowerShell.svg) ![forks](https://img.shields.io/github/forks/aalex954/Log4PowerShell.svg)
 
@@ -1142,9 +1142,9 @@
 
 - [https://github.com/hupe1980/CVE-2021-43798](https://github.com/hupe1980/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/hupe1980/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/hupe1980/CVE-2021-43798.svg)
 
-- [https://github.com/Ryze-T/CVE-2021-43798](https://github.com/Ryze-T/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/Ryze-T/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/Ryze-T/CVE-2021-43798.svg)
-
 - [https://github.com/Sic4rio/Grafana-Decryptor-for-CVE-2021-43798](https://github.com/Sic4rio/Grafana-Decryptor-for-CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/Sic4rio/Grafana-Decryptor-for-CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/Sic4rio/Grafana-Decryptor-for-CVE-2021-43798.svg)
+
+- [https://github.com/Ryze-T/CVE-2021-43798](https://github.com/Ryze-T/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/Ryze-T/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/Ryze-T/CVE-2021-43798.svg)
 
 - [https://github.com/topyagyuu/CVE-2021-43798](https://github.com/topyagyuu/CVE-2021-43798) :  ![starts](https://img.shields.io/github/stars/topyagyuu/CVE-2021-43798.svg) ![forks](https://img.shields.io/github/forks/topyagyuu/CVE-2021-43798.svg)
 
@@ -1881,9 +1881,9 @@
 
 - [https://github.com/viliuspovilaika/cve-2021-42013](https://github.com/viliuspovilaika/cve-2021-42013) :  ![starts](https://img.shields.io/github/stars/viliuspovilaika/cve-2021-42013.svg) ![forks](https://img.shields.io/github/forks/viliuspovilaika/cve-2021-42013.svg)
 
-- [https://github.com/12345qwert123456/CVE-2021-42013](https://github.com/12345qwert123456/CVE-2021-42013) :  ![starts](https://img.shields.io/github/stars/12345qwert123456/CVE-2021-42013.svg) ![forks](https://img.shields.io/github/forks/12345qwert123456/CVE-2021-42013.svg)
-
 - [https://github.com/mightysai1997/cve-2021-42013](https://github.com/mightysai1997/cve-2021-42013) :  ![starts](https://img.shields.io/github/stars/mightysai1997/cve-2021-42013.svg) ![forks](https://img.shields.io/github/forks/mightysai1997/cve-2021-42013.svg)
+
+- [https://github.com/12345qwert123456/CVE-2021-42013](https://github.com/12345qwert123456/CVE-2021-42013) :  ![starts](https://img.shields.io/github/stars/12345qwert123456/CVE-2021-42013.svg) ![forks](https://img.shields.io/github/forks/12345qwert123456/CVE-2021-42013.svg)
 
 - [https://github.com/honypot/CVE-2021-42013](https://github.com/honypot/CVE-2021-42013) :  ![starts](https://img.shields.io/github/stars/honypot/CVE-2021-42013.svg) ![forks](https://img.shields.io/github/forks/honypot/CVE-2021-42013.svg)
 
@@ -2149,17 +2149,17 @@
 
 - [https://github.com/zer0qs/CVE-2021-41773](https://github.com/zer0qs/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/zer0qs/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/zer0qs/CVE-2021-41773.svg)
 
-- [https://github.com/shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/shiomiyan/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/shiomiyan/CVE-2021-41773.svg)
-
-- [https://github.com/puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-41773.svg)
-
-- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
-
 - [https://github.com/TheLastVvV/CVE-2021-41773](https://github.com/TheLastVvV/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/TheLastVvV/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/TheLastVvV/CVE-2021-41773.svg)
 
 - [https://github.com/vuongnv3389-sec/cve-2021-41773](https://github.com/vuongnv3389-sec/cve-2021-41773) :  ![starts](https://img.shields.io/github/stars/vuongnv3389-sec/cve-2021-41773.svg) ![forks](https://img.shields.io/github/forks/vuongnv3389-sec/cve-2021-41773.svg)
 
 - [https://github.com/Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2021-41773.svg)
+
+- [https://github.com/skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/skentagon/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/skentagon/CVE-2021-41773.svg)
+
+- [https://github.com/shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/shiomiyan/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/shiomiyan/CVE-2021-41773.svg)
+
+- [https://github.com/puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-41773.svg)
 
 ## CVE-2021-41753
  A denial-of-service attack in WPA2, and WPA3-SAE authentication methods in D-Link DIR-X1560, v1.04B04, and DIR-X6060, v1.11B04 allows a remote unauthenticated attacker to disconnect a wireless client via sending specific spoofed SAE authentication frames.
@@ -6842,11 +6842,11 @@ pstrongUPDATE/strong August 10, 2021: Microsoft has completed the investigation 
 
 - [https://github.com/d3sh1n/cve-2021-21972](https://github.com/d3sh1n/cve-2021-21972) :  ![starts](https://img.shields.io/github/stars/d3sh1n/cve-2021-21972.svg) ![forks](https://img.shields.io/github/forks/d3sh1n/cve-2021-21972.svg)
 
-- [https://github.com/ZTK-009/CVE-2021-21972](https://github.com/ZTK-009/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/ZTK-009/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/ZTK-009/CVE-2021-21972.svg)
-
 - [https://github.com/DougCarroll/CVE_2021_21972](https://github.com/DougCarroll/CVE_2021_21972) :  ![starts](https://img.shields.io/github/stars/DougCarroll/CVE_2021_21972.svg) ![forks](https://img.shields.io/github/forks/DougCarroll/CVE_2021_21972.svg)
 
 - [https://github.com/TAI-REx/CVE-2021-21972](https://github.com/TAI-REx/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/TAI-REx/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/TAI-REx/CVE-2021-21972.svg)
+
+- [https://github.com/ZTK-009/CVE-2021-21972](https://github.com/ZTK-009/CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/ZTK-009/CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/ZTK-009/CVE-2021-21972.svg)
 
 - [https://github.com/JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972) :  ![starts](https://img.shields.io/github/stars/JMousqueton/Detect-CVE-2021-21972.svg) ![forks](https://img.shields.io/github/forks/JMousqueton/Detect-CVE-2021-21972.svg)
 
@@ -7459,17 +7459,15 @@ pstrongUPDATE/strong August 10, 2021: Microsoft has completed the investigation 
 
 - [https://github.com/codiobert/pwnkit-scanner](https://github.com/codiobert/pwnkit-scanner) :  ![starts](https://img.shields.io/github/stars/codiobert/pwnkit-scanner.svg) ![forks](https://img.shields.io/github/forks/codiobert/pwnkit-scanner.svg)
 
-- [https://github.com/hackingyseguridad/CVE-2021-4034](https://github.com/hackingyseguridad/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/CVE-2021-4034.svg)
-
 - [https://github.com/gbrsh/CVE-2021-4034](https://github.com/gbrsh/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/gbrsh/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/gbrsh/CVE-2021-4034.svg)
 
 - [https://github.com/Pixailz/CVE-2021-4034](https://github.com/Pixailz/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/Pixailz/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/Pixailz/CVE-2021-4034.svg)
 
+- [https://github.com/LJP-TW/CVE-2021-4034](https://github.com/LJP-TW/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/LJP-TW/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/LJP-TW/CVE-2021-4034.svg)
+
 - [https://github.com/Anonymous-Family/CVE-2021-4034](https://github.com/Anonymous-Family/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/Anonymous-Family/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/Anonymous-Family/CVE-2021-4034.svg)
 
 - [https://github.com/locksec/CVE-2021-4034](https://github.com/locksec/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/locksec/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/locksec/CVE-2021-4034.svg)
-
-- [https://github.com/LJP-TW/CVE-2021-4034](https://github.com/LJP-TW/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/LJP-TW/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/LJP-TW/CVE-2021-4034.svg)
 
 - [https://github.com/deoxykev/CVE-2021-4034-Rust](https://github.com/deoxykev/CVE-2021-4034-Rust) :  ![starts](https://img.shields.io/github/stars/deoxykev/CVE-2021-4034-Rust.svg) ![forks](https://img.shields.io/github/forks/deoxykev/CVE-2021-4034-Rust.svg)
 
@@ -7497,19 +7495,19 @@ pstrongUPDATE/strong August 10, 2021: Microsoft has completed the investigation 
 
 - [https://github.com/A1vinSmith/CVE-2021-4034](https://github.com/A1vinSmith/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/A1vinSmith/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/A1vinSmith/CVE-2021-4034.svg)
 
-- [https://github.com/Immersive-Labs-Sec/CVE-2021-4034](https://github.com/Immersive-Labs-Sec/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/Immersive-Labs-Sec/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/Immersive-Labs-Sec/CVE-2021-4034.svg)
-
-- [https://github.com/0x01-sec/CVE-2021-4034-](https://github.com/0x01-sec/CVE-2021-4034-) :  ![starts](https://img.shields.io/github/stars/0x01-sec/CVE-2021-4034-.svg) ![forks](https://img.shields.io/github/forks/0x01-sec/CVE-2021-4034-.svg)
-
-- [https://github.com/mutur4/CVE-2021-4034](https://github.com/mutur4/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/mutur4/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/mutur4/CVE-2021-4034.svg)
+- [https://github.com/defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034) :  ![starts](https://img.shields.io/github/stars/defhacks/cve-2021-4034.svg) ![forks](https://img.shields.io/github/forks/defhacks/cve-2021-4034.svg)
 
 - [https://github.com/vilasboasph/CVE-2021-4034](https://github.com/vilasboasph/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/vilasboasph/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/vilasboasph/CVE-2021-4034.svg)
 
 - [https://github.com/thatstraw/CVE-2021-4034](https://github.com/thatstraw/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/thatstraw/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/thatstraw/CVE-2021-4034.svg)
 
-- [https://github.com/defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034) :  ![starts](https://img.shields.io/github/stars/defhacks/cve-2021-4034.svg) ![forks](https://img.shields.io/github/forks/defhacks/cve-2021-4034.svg)
-
 - [https://github.com/HrishitJoshi/CVE-2021-4034](https://github.com/HrishitJoshi/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/HrishitJoshi/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/HrishitJoshi/CVE-2021-4034.svg)
+
+- [https://github.com/Immersive-Labs-Sec/CVE-2021-4034](https://github.com/Immersive-Labs-Sec/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/Immersive-Labs-Sec/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/Immersive-Labs-Sec/CVE-2021-4034.svg)
+
+- [https://github.com/0x01-sec/CVE-2021-4034-](https://github.com/0x01-sec/CVE-2021-4034-) :  ![starts](https://img.shields.io/github/stars/0x01-sec/CVE-2021-4034-.svg) ![forks](https://img.shields.io/github/forks/0x01-sec/CVE-2021-4034-.svg)
+
+- [https://github.com/mutur4/CVE-2021-4034](https://github.com/mutur4/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/mutur4/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/mutur4/CVE-2021-4034.svg)
 
 - [https://github.com/cd80-ctf/CVE-2021-4034](https://github.com/cd80-ctf/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/cd80-ctf/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/cd80-ctf/CVE-2021-4034.svg)
 
@@ -7523,9 +7521,9 @@ pstrongUPDATE/strong August 10, 2021: Microsoft has completed the investigation 
 
 - [https://github.com/jehovah2002/CVE-2021-4034-pwnkit](https://github.com/jehovah2002/CVE-2021-4034-pwnkit) :  ![starts](https://img.shields.io/github/stars/jehovah2002/CVE-2021-4034-pwnkit.svg) ![forks](https://img.shields.io/github/forks/jehovah2002/CVE-2021-4034-pwnkit.svg)
 
-- [https://github.com/CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC) :  ![starts](https://img.shields.io/github/stars/CYB3RK1D/CVE-2021-4034-POC.svg) ![forks](https://img.shields.io/github/forks/CYB3RK1D/CVE-2021-4034-POC.svg)
-
 - [https://github.com/fnknda/CVE-2021-4034_POC](https://github.com/fnknda/CVE-2021-4034_POC) :  ![starts](https://img.shields.io/github/stars/fnknda/CVE-2021-4034_POC.svg) ![forks](https://img.shields.io/github/forks/fnknda/CVE-2021-4034_POC.svg)
+
+- [https://github.com/CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC) :  ![starts](https://img.shields.io/github/stars/CYB3RK1D/CVE-2021-4034-POC.svg) ![forks](https://img.shields.io/github/forks/CYB3RK1D/CVE-2021-4034-POC.svg)
 
 - [https://github.com/cdxiaodong/CVE-2021-4034-touch](https://github.com/cdxiaodong/CVE-2021-4034-touch) :  ![starts](https://img.shields.io/github/stars/cdxiaodong/CVE-2021-4034-touch.svg) ![forks](https://img.shields.io/github/forks/cdxiaodong/CVE-2021-4034-touch.svg)
 
@@ -7540,6 +7538,8 @@ pstrongUPDATE/strong August 10, 2021: Microsoft has completed the investigation 
 - [https://github.com/sentryCyberSec/sentryCyberSec.github.io](https://github.com/sentryCyberSec/sentryCyberSec.github.io) :  ![starts](https://img.shields.io/github/stars/sentryCyberSec/sentryCyberSec.github.io.svg) ![forks](https://img.shields.io/github/forks/sentryCyberSec/sentryCyberSec.github.io.svg)
 
 - [https://github.com/Fato07/Pwnkit-exploit](https://github.com/Fato07/Pwnkit-exploit) :  ![starts](https://img.shields.io/github/stars/Fato07/Pwnkit-exploit.svg) ![forks](https://img.shields.io/github/forks/Fato07/Pwnkit-exploit.svg)
+
+- [https://github.com/nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/nobelh/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/nobelh/CVE-2021-4034.svg)
 
 ## CVE-2021-3972
  A potential vulnerability by a driver used during manufacturing process on some consumer Lenovo Notebook devices' BIOS that was mistakenly not deactivated may allow an attacker with elevated privileges to modify secure boot setting by modifying an NVRAM variable.
@@ -7766,13 +7766,13 @@ pstrongUPDATE/strong August 10, 2021: Microsoft has completed the investigation 
 
 - [https://github.com/puckiestyle/CVE-2021-3493](https://github.com/puckiestyle/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-3493.svg)
 
-- [https://github.com/smallkill/CVE-2021-3493](https://github.com/smallkill/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/smallkill/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/smallkill/CVE-2021-3493.svg)
-
 - [https://github.com/Abdennour-py/CVE-2021-3493](https://github.com/Abdennour-py/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/Abdennour-py/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/Abdennour-py/CVE-2021-3493.svg)
 
-- [https://github.com/ptkhai15/OverlayFS---CVE-2021-3493](https://github.com/ptkhai15/OverlayFS---CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/ptkhai15/OverlayFS---CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/ptkhai15/OverlayFS---CVE-2021-3493.svg)
+- [https://github.com/smallkill/CVE-2021-3493](https://github.com/smallkill/CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/smallkill/CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/smallkill/CVE-2021-3493.svg)
 
 - [https://github.com/fathallah17/OverlayFS-CVE-2021-3493](https://github.com/fathallah17/OverlayFS-CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/fathallah17/OverlayFS-CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/fathallah17/OverlayFS-CVE-2021-3493.svg)
+
+- [https://github.com/ptkhai15/OverlayFS---CVE-2021-3493](https://github.com/ptkhai15/OverlayFS---CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/ptkhai15/OverlayFS---CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/ptkhai15/OverlayFS---CVE-2021-3493.svg)
 
 - [https://github.com/pmihsan/OverlayFS-CVE-2021-3493](https://github.com/pmihsan/OverlayFS-CVE-2021-3493) :  ![starts](https://img.shields.io/github/stars/pmihsan/OverlayFS-CVE-2021-3493.svg) ![forks](https://img.shields.io/github/forks/pmihsan/OverlayFS-CVE-2021-3493.svg)
 
@@ -8014,11 +8014,11 @@ pstrongUPDATE/strong August 10, 2021: Microsoft has completed the investigation 
 
 - [https://github.com/donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/donghyunlee00/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/donghyunlee00/CVE-2021-3156.svg)
 
+- [https://github.com/0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/0x7183/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/0x7183/CVE-2021-3156.svg)
+
 - [https://github.com/BearCat4/CVE-2021-3156](https://github.com/BearCat4/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/BearCat4/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/BearCat4/CVE-2021-3156.svg)
 
 - [https://github.com/puckiestyle/CVE-2021-3156](https://github.com/puckiestyle/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-3156.svg)
-
-- [https://github.com/0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/0x7183/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/0x7183/CVE-2021-3156.svg)
 
 - [https://github.com/TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156) :  ![starts](https://img.shields.io/github/stars/TheFlash2k/CVE-2021-3156.svg) ![forks](https://img.shields.io/github/forks/TheFlash2k/CVE-2021-3156.svg)
 
@@ -8188,9 +8188,9 @@ pstrongUPDATE/strong August 10, 2021: Microsoft has completed the investigation 
 
 - [https://github.com/qaisarafridi/cve-2021-3129](https://github.com/qaisarafridi/cve-2021-3129) :  ![starts](https://img.shields.io/github/stars/qaisarafridi/cve-2021-3129.svg) ![forks](https://img.shields.io/github/forks/qaisarafridi/cve-2021-3129.svg)
 
-- [https://github.com/GodOfServer/CVE-2021-3129](https://github.com/GodOfServer/CVE-2021-3129) :  ![starts](https://img.shields.io/github/stars/GodOfServer/CVE-2021-3129.svg) ![forks](https://img.shields.io/github/forks/GodOfServer/CVE-2021-3129.svg)
-
 - [https://github.com/piperpwn/CVE-2021-3129-](https://github.com/piperpwn/CVE-2021-3129-) :  ![starts](https://img.shields.io/github/stars/piperpwn/CVE-2021-3129-.svg) ![forks](https://img.shields.io/github/forks/piperpwn/CVE-2021-3129-.svg)
+
+- [https://github.com/GodOfServer/CVE-2021-3129](https://github.com/GodOfServer/CVE-2021-3129) :  ![starts](https://img.shields.io/github/stars/GodOfServer/CVE-2021-3129.svg) ![forks](https://img.shields.io/github/forks/GodOfServer/CVE-2021-3129.svg)
 
 - [https://github.com/banyaksepuh/Mass-CVE-2021-3129-Scanner](https://github.com/banyaksepuh/Mass-CVE-2021-3129-Scanner) :  ![starts](https://img.shields.io/github/stars/banyaksepuh/Mass-CVE-2021-3129-Scanner.svg) ![forks](https://img.shields.io/github/forks/banyaksepuh/Mass-CVE-2021-3129-Scanner.svg)
 
@@ -8892,9 +8892,9 @@ pstrongUPDATE/strong August 10, 2021: Microsoft has completed the investigation 
 
 
 
-- [https://github.com/pazhanivel07/system_bt_A10-r33_CVE-2021-0474](https://github.com/pazhanivel07/system_bt_A10-r33_CVE-2021-0474) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/system_bt_A10-r33_CVE-2021-0474.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/system_bt_A10-r33_CVE-2021-0474.svg)
-
 - [https://github.com/pazhanivel07/system_bt_A10_r33_CVE-2021-0474](https://github.com/pazhanivel07/system_bt_A10_r33_CVE-2021-0474) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/system_bt_A10_r33_CVE-2021-0474.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/system_bt_A10_r33_CVE-2021-0474.svg)
+
+- [https://github.com/pazhanivel07/system_bt_A10-r33_CVE-2021-0474](https://github.com/pazhanivel07/system_bt_A10-r33_CVE-2021-0474) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/system_bt_A10-r33_CVE-2021-0474.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/system_bt_A10-r33_CVE-2021-0474.svg)
 
 ## CVE-2021-0472
  In shouldLockKeyguard of LockTaskController.java, there is a possible way to exit App Pinning without a PIN due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-9 Android-10Android ID: A-176801033
@@ -9145,9 +9145,9 @@ pstrongUPDATE/strong August 10, 2021: Microsoft has completed the investigation 
 
 - [https://github.com/nanopathi/frameworks_base1_CVE-2021-0315](https://github.com/nanopathi/frameworks_base1_CVE-2021-0315) :  ![starts](https://img.shields.io/github/stars/nanopathi/frameworks_base1_CVE-2021-0315.svg) ![forks](https://img.shields.io/github/forks/nanopathi/frameworks_base1_CVE-2021-0315.svg)
 
-- [https://github.com/pazhanivel07/frameworks_base_Aosp10_r33_CVE-2021-0315](https://github.com/pazhanivel07/frameworks_base_Aosp10_r33_CVE-2021-0315) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/frameworks_base_Aosp10_r33_CVE-2021-0315.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/frameworks_base_Aosp10_r33_CVE-2021-0315.svg)
-
 - [https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0315](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0315) :  ![starts](https://img.shields.io/github/stars/nanopathi/framework_base_AOSP10_r33_CVE-2021-0315.svg) ![forks](https://img.shields.io/github/forks/nanopathi/framework_base_AOSP10_r33_CVE-2021-0315.svg)
+
+- [https://github.com/pazhanivel07/frameworks_base_Aosp10_r33_CVE-2021-0315](https://github.com/pazhanivel07/frameworks_base_Aosp10_r33_CVE-2021-0315) :  ![starts](https://img.shields.io/github/stars/pazhanivel07/frameworks_base_Aosp10_r33_CVE-2021-0315.svg) ![forks](https://img.shields.io/github/forks/pazhanivel07/frameworks_base_Aosp10_r33_CVE-2021-0315.svg)
 
 ## CVE-2021-0314
  In onCreate of UninstallerActivity, there is a possible way to uninstall an all without informed user consent due to a tapjacking/overlay attack. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-8.1 Android-9Android ID: A-171221302
