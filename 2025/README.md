@@ -1,3 +1,10 @@
+## CVE-2025-24085
+ A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
+
+
+
+- [https://github.com/clidanc/CVE-2025-24085](https://github.com/clidanc/CVE-2025-24085) :  ![starts](https://img.shields.io/github/stars/clidanc/CVE-2025-24085.svg) ![forks](https://img.shields.io/github/forks/clidanc/CVE-2025-24085.svg)
+
 ## CVE-2025-22968
  An issue in D-Link DWR-M972V 1.05SSG allows a remote attacker to execute arbitrary code via SSH using root account without restrictions
 
@@ -81,6 +88,8 @@ The specific flaw exists within the handling of archived files. When extracting 
 - [https://github.com/securexploit1/CVE-2025-0282](https://github.com/securexploit1/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/securexploit1/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/securexploit1/CVE-2025-0282.svg)
 
 - [https://github.com/AnonStorks/CVE-2025-0282-Full-version](https://github.com/AnonStorks/CVE-2025-0282-Full-version) :  ![starts](https://img.shields.io/github/stars/AnonStorks/CVE-2025-0282-Full-version.svg) ![forks](https://img.shields.io/github/forks/AnonStorks/CVE-2025-0282-Full-version.svg)
+
+- [https://github.com/AdaniKamal/CVE-2025-0282](https://github.com/AdaniKamal/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/AdaniKamal/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/AdaniKamal/CVE-2025-0282.svg)
 
 - [https://github.com/chiefchainer/CVE-2025-0282](https://github.com/chiefchainer/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/chiefchainer/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/chiefchainer/CVE-2025-0282.svg)
 
