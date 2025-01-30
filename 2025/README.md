@@ -3,7 +3,7 @@
 
 
 
-- [https://github.com/clidanc/CVE-2025-24085](https://github.com/clidanc/CVE-2025-24085) :  ![starts](https://img.shields.io/github/stars/clidanc/CVE-2025-24085.svg) ![forks](https://img.shields.io/github/forks/clidanc/CVE-2025-24085.svg)
+- [https://github.com/clidancc1/CVE-2025-24085](https://github.com/clidancc1/CVE-2025-24085) :  ![starts](https://img.shields.io/github/stars/clidancc1/CVE-2025-24085.svg) ![forks](https://img.shields.io/github/forks/clidancc1/CVE-2025-24085.svg)
 
 ## CVE-2025-22968
  An issue in D-Link DWR-M972V 1.05SSG allows a remote attacker to execute arbitrary code via SSH using root account without restrictions
