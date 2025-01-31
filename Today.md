@@ -1,50 +1,67 @@
-# Update 2025-01-30
+# Update 2025-01-31
 ## CVE-2025-24085
  A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
 
-- [https://github.com/clidanc/CVE-2025-24085](https://github.com/clidanc/CVE-2025-24085) :  ![starts](https://img.shields.io/github/stars/clidanc/CVE-2025-24085.svg) ![forks](https://img.shields.io/github/forks/clidanc/CVE-2025-24085.svg)
+- [https://github.com/clidancc1/CVE-2025-24085](https://github.com/clidancc1/CVE-2025-24085) :  ![starts](https://img.shields.io/github/stars/clidancc1/CVE-2025-24085.svg) ![forks](https://img.shields.io/github/forks/clidancc1/CVE-2025-24085.svg)
 
 
-## CVE-2025-0282
- A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gateways before version 22.7R2.3 allows a remote unauthenticated attacker to achieve remote code execution.
+## CVE-2024-55591
+ An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0 through 7.0.19 and 7.2.0 through 7.2.12 allows a remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module.
 
-- [https://github.com/AdaniKamal/CVE-2025-0282](https://github.com/AdaniKamal/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/AdaniKamal/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/AdaniKamal/CVE-2025-0282.svg)
-
-
-## CVE-2024-55968
- An issue was discovered in DTEX DEC-M (DTEX Forwarder) 6.1.1. The com.dtexsystems.helper service, responsible for handling privileged operations within the macOS DTEX Event Forwarder agent, fails to implement critical client validation during XPC interprocess communication (IPC). Specifically, the service does not verify the code requirements, entitlements, security flags, or version of any client attempting to establish a connection. This lack of proper logic validation allows malicious actors to exploit the service's methods via unauthorized client connections, and escalate privileges to root by abusing the DTConnectionHelperProtocol protocol's submitQuery method over an unauthorized XPC connection.
-
-- [https://github.com/Wi1DN00B/CVE-2024-55968](https://github.com/Wi1DN00B/CVE-2024-55968) :  ![starts](https://img.shields.io/github/stars/Wi1DN00B/CVE-2024-55968.svg) ![forks](https://img.shields.io/github/forks/Wi1DN00B/CVE-2024-55968.svg)
-- [https://github.com/null-event/CVE-2024-55968](https://github.com/null-event/CVE-2024-55968) :  ![starts](https://img.shields.io/github/stars/null-event/CVE-2024-55968.svg) ![forks](https://img.shields.io/github/forks/null-event/CVE-2024-55968.svg)
+- [https://github.com/rawtips/CVE-2024-55591](https://github.com/rawtips/CVE-2024-55591) :  ![starts](https://img.shields.io/github/stars/rawtips/CVE-2024-55591.svg) ![forks](https://img.shields.io/github/forks/rawtips/CVE-2024-55591.svg)
+- [https://github.com/exfil0/CVE-2024-55591-POC](https://github.com/exfil0/CVE-2024-55591-POC) :  ![starts](https://img.shields.io/github/stars/exfil0/CVE-2024-55591-POC.svg) ![forks](https://img.shields.io/github/forks/exfil0/CVE-2024-55591-POC.svg)
 
 
-## CVE-2024-40676
- In checkKeyIntent of AccountManagerService.java, there is a possible way to bypass intent security check and install an unknown app due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+## CVE-2024-23733
+ The /WmAdmin/,/invoke/vm.server/login login page in the Integration Server in Software AG webMethods 10.15.0 before Core_Fix7 allows remote attackers to reach the administration panel and discover hostname and version information by sending an arbitrary username and a blank password to the /WmAdmin/#/login/ URI.
 
-- [https://github.com/Aakashmom/accounts_CVE-2024-40676-](https://github.com/Aakashmom/accounts_CVE-2024-40676-) :  ![starts](https://img.shields.io/github/stars/Aakashmom/accounts_CVE-2024-40676-.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/accounts_CVE-2024-40676-.svg)
-- [https://github.com/Aakashmom/frameworks_base_accounts_CVE-2024-40676](https://github.com/Aakashmom/frameworks_base_accounts_CVE-2024-40676) :  ![starts](https://img.shields.io/github/stars/Aakashmom/frameworks_base_accounts_CVE-2024-40676.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/frameworks_base_accounts_CVE-2024-40676.svg)
-
-
-## CVE-2024-40675
- In parseUriInternal of Intent.java, there is a possible infinite loop due to improper input validation. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.
-
-- [https://github.com/Aakashmom/intent_CVE-2024-40675](https://github.com/Aakashmom/intent_CVE-2024-40675) :  ![starts](https://img.shields.io/github/stars/Aakashmom/intent_CVE-2024-40675.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/intent_CVE-2024-40675.svg)
+- [https://github.com/ekcrsm/CVE-2024-23733](https://github.com/ekcrsm/CVE-2024-23733) :  ![starts](https://img.shields.io/github/stars/ekcrsm/CVE-2024-23733.svg) ![forks](https://img.shields.io/github/forks/ekcrsm/CVE-2024-23733.svg)
 
 
-## CVE-2024-40673
- In Source of ZipFile.java, there is a possible way for an attacker to execute arbitrary code by manipulating Dynamic Code Loading due to improper input validation. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.
+## CVE-2024-12084
+ A heap-based buffer overflow flaw was found in the rsync daemon. This issue is due to improper handling of attacker-controlled checksum lengths (s2length) in the code. When MAX_DIGEST_LEN exceeds the fixed SUM_LENGTH (16 bytes), an attacker can write out of bounds in the sum2 buffer.
 
-- [https://github.com/Aakashmom/G3_libcore_native_CVE-2024-40673](https://github.com/Aakashmom/G3_libcore_native_CVE-2024-40673) :  ![starts](https://img.shields.io/github/stars/Aakashmom/G3_libcore_native_CVE-2024-40673.svg) ![forks](https://img.shields.io/github/forks/Aakashmom/G3_libcore_native_CVE-2024-40673.svg)
+- [https://github.com/rxerium/CVE-2024-12084](https://github.com/rxerium/CVE-2024-12084) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2024-12084.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2024-12084.svg)
+
+
+## CVE-2024-11972
+ The Hunk Companion WordPress plugin before 1.9.0 does not correctly authorize some REST API endpoints, allowing unauthenticated requests to install and activate arbitrary Hunk Companion WordPress plugin before 1.9.0 from the WordPress.org repo, including vulnerable Hunk Companion WordPress plugin before 1.9.0 that have been closed.
+
+- [https://github.com/Nxploited/CVE-2024-11972-PoC](https://github.com/Nxploited/CVE-2024-11972-PoC) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-11972-PoC.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-11972-PoC.svg)
+
+
+## CVE-2024-5361
+ A vulnerability was found in PHPGurukul Zoo Management System 2.1. It has been rated as critical. This issue affects some unknown processing of the file /admin/normal-bwdates-reports-details.php. The manipulation of the argument fromdate leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-266273 was assigned to this vulnerability.
+
+- [https://github.com/beune/CVE-2024-53615](https://github.com/beune/CVE-2024-53615) :  ![starts](https://img.shields.io/github/stars/beune/CVE-2024-53615.svg) ![forks](https://img.shields.io/github/forks/beune/CVE-2024-53615.svg)
+
+
+## CVE-2024-2961
+ The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.
+
+- [https://github.com/4wayhandshake/CVE-2024-2961](https://github.com/4wayhandshake/CVE-2024-2961) :  ![starts](https://img.shields.io/github/stars/4wayhandshake/CVE-2024-2961.svg) ![forks](https://img.shields.io/github/forks/4wayhandshake/CVE-2024-2961.svg)
+
+
+## CVE-2021-42013
+ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue only affects Apache 2.4.49 and Apache 2.4.50 and not earlier versions.
+
+- [https://github.com/asepsaepdin/cve-2021-42013](https://github.com/asepsaepdin/cve-2021-42013) :  ![starts](https://img.shields.io/github/stars/asepsaepdin/cve-2021-42013.svg) ![forks](https://img.shields.io/github/forks/asepsaepdin/cve-2021-42013.svg)
 
 
 ## CVE-2021-41773
  A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/skentagon/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/skentagon/CVE-2021-41773.svg)
+- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
 
 
-## CVE-2021-4034
- A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
+## CVE-2020-0796
+ A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.
 
-- [https://github.com/nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034) :  ![starts](https://img.shields.io/github/stars/nobelh/CVE-2021-4034.svg) ![forks](https://img.shields.io/github/forks/nobelh/CVE-2021-4034.svg)
+- [https://github.com/Kaizzzo1/CVE-2020-0796](https://github.com/Kaizzzo1/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/Kaizzzo1/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/Kaizzzo1/CVE-2020-0796.svg)
+
+
+## CVE-2020-0079
+ In decrypt_1_2 of CryptoPlugin.cpp, there is a possible out of bounds write due to stale pointer. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10Android ID: A-144506242
+
+- [https://github.com/Kaizzzo1/cve-2020-00796](https://github.com/Kaizzzo1/cve-2020-00796) :  ![starts](https://img.shields.io/github/stars/Kaizzzo1/cve-2020-00796.svg) ![forks](https://img.shields.io/github/forks/Kaizzzo1/cve-2020-00796.svg)
 
