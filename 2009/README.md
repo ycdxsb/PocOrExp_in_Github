@@ -106,13 +106,6 @@
 
 - [https://github.com/jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692) :  ![starts](https://img.shields.io/github/stars/jdvalentini/CVE-2009-2692.svg) ![forks](https://img.shields.io/github/forks/jdvalentini/CVE-2009-2692.svg)
 
-## CVE-2009-2685
- Stack-based buffer overflow in the login form in the management web server in HP Power Manager allows remote attackers to execute arbitrary code via the Login variable.
-
-
-
-- [https://github.com/rflemen/CVE-2009-2685](https://github.com/rflemen/CVE-2009-2685) :  ![starts](https://img.shields.io/github/stars/rflemen/CVE-2009-2685.svg) ![forks](https://img.shields.io/github/forks/rflemen/CVE-2009-2685.svg)
-
 ## CVE-2009-2585
  SQL injection vulnerability in index.php in Mlffat 2.2 allows remote attackers to execute arbitrary SQL commands via a member cookie in an account editprofile action, a different vector than CVE-2009-1731.
 
