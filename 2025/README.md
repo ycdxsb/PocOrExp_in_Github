@@ -19,6 +19,8 @@
 
 - [https://github.com/jprx/CVE-2025-24118](https://github.com/jprx/CVE-2025-24118) :  ![starts](https://img.shields.io/github/stars/jprx/CVE-2025-24118.svg) ![forks](https://img.shields.io/github/forks/jprx/CVE-2025-24118.svg)
 
+- [https://github.com/rawtips/-CVE-2025-24118](https://github.com/rawtips/-CVE-2025-24118) :  ![starts](https://img.shields.io/github/stars/rawtips/-CVE-2025-24118.svg) ![forks](https://img.shields.io/github/forks/rawtips/-CVE-2025-24118.svg)
+
 ## CVE-2025-24085
  A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
 
@@ -104,6 +106,13 @@ CloudStack admins may also disallow listAnnotations and addAnnotation API access
 
 
 - [https://github.com/ynwarcs/CVE-2025-21298](https://github.com/ynwarcs/CVE-2025-21298) :  ![starts](https://img.shields.io/github/stars/ynwarcs/CVE-2025-21298.svg) ![forks](https://img.shields.io/github/forks/ynwarcs/CVE-2025-21298.svg)
+
+## CVE-2025-0929
+ SQL injection vulnerability in TeamCal Neo, version 3.8.2. This could allow an attacker to retrieve, update and delete all database information by injecting a malicious SQL statement via the ‘abs’ parameter in ‘/teamcal/src/index.php’.
+
+
+
+- [https://github.com/McTavishSue/CVE-2025-0929](https://github.com/McTavishSue/CVE-2025-0929) :  ![starts](https://img.shields.io/github/stars/McTavishSue/CVE-2025-0929.svg) ![forks](https://img.shields.io/github/forks/McTavishSue/CVE-2025-0929.svg)
 
 ## CVE-2025-0411
  7-Zip Mark-of-the-Web Bypass Vulnerability. This vulnerability allows remote attackers to bypass the Mark-of-the-Web protection mechanism on affected installations of 7-Zip. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.
