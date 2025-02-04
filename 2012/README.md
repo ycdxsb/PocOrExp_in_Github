@@ -88,6 +88,13 @@
 
 - [https://github.com/war4uthor/CVE-2012-5106](https://github.com/war4uthor/CVE-2012-5106) :  ![starts](https://img.shields.io/github/stars/war4uthor/CVE-2012-5106.svg) ![forks](https://img.shields.io/github/forks/war4uthor/CVE-2012-5106.svg)
 
+## CVE-2012-4960
+ The Huawei NE5000E, MA5200G, NE40E, NE80E, ATN, NE40, NE80, NE20E-X6, NE20, ME60, CX600, CX200, CX300, ACU, WLAN AC 6605, S9300, S7700, S2300, S3300, S5300, S3300HI, S5300HI, S5306, S6300, S2700, S3700, S5700, S6700, AR G3, H3C AR(OEM IN), AR 19, AR 29, AR 49, Eudemon100E, Eudemon200, Eudemon300, Eudemon500, Eudemon1000, Eudemon1000E-U/USG5300, Eudemon1000E-X/USG5500, Eudemon8080E/USG9300, Eudemon8160E/USG9300, Eudemon8000E-X/USG9500, E200E-C/USG2200, E200E-X3/USG2200, E200E-X5/USG2200, E200E-X7/USG2200, E200E-C/USG5100, E200E-X3/USG5100, E200E-X5/USG5100, E200E-X7/USG5100, E200E-B/USG2100, E200E-X1/USG2100, E200E-X2/USG2100, SVN5300, SVN2000, SVN5000, SVN3000, NIP100, NIP200, NIP1000, NIP2100, NIP2200, and NIP5100 use the DES algorithm for stored passwords, which makes it easier for context-dependent attackers to obtain cleartext passwords via a brute-force attack.
+
+
+
+- [https://github.com/ghcohu/Decrypt-passwords-for-Huawei-routers-and-switches-CVE-2012-4960](https://github.com/ghcohu/Decrypt-passwords-for-Huawei-routers-and-switches-CVE-2012-4960) :  ![starts](https://img.shields.io/github/stars/ghcohu/Decrypt-passwords-for-Huawei-routers-and-switches-CVE-2012-4960.svg) ![forks](https://img.shields.io/github/forks/ghcohu/Decrypt-passwords-for-Huawei-routers-and-switches-CVE-2012-4960.svg)
+
 ## CVE-2012-4929
  The TLS protocol 1.2 and earlier, as used in Mozilla Firefox, Google Chrome, Qt, and other products, can encrypt compressed data without properly obfuscating the length of the unencrypted data, which allows man-in-the-middle attackers to obtain plaintext HTTP headers by observing length differences during a series of guesses in which a string in an HTTP request potentially matches an unknown string in an HTTP header, aka a "CRIME" attack.
 
