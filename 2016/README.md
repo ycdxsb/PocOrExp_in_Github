@@ -833,27 +833,27 @@
 
 - [https://github.com/ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ldenevi/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ldenevi/CVE-2016-5195.svg)
 
-- [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
-
 - [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
 
 - [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
 
-- [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
+- [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
 
 - [https://github.com/EDLLT/CVE-2016-5195-master](https://github.com/EDLLT/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/EDLLT/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/EDLLT/CVE-2016-5195-master.svg)
 
 - [https://github.com/h1n4mx0/Research-CVE-2016-5195](https://github.com/h1n4mx0/Research-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/h1n4mx0/Research-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/h1n4mx0/Research-CVE-2016-5195.svg)
 
+- [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
+
 - [https://github.com/gurpreetsinghsaluja/dirtycow](https://github.com/gurpreetsinghsaluja/dirtycow) :  ![starts](https://img.shields.io/github/stars/gurpreetsinghsaluja/dirtycow.svg) ![forks](https://img.shields.io/github/forks/gurpreetsinghsaluja/dirtycow.svg)
 
 - [https://github.com/xpcmdshell/derpyc0w](https://github.com/xpcmdshell/derpyc0w) :  ![starts](https://img.shields.io/github/stars/xpcmdshell/derpyc0w.svg) ![forks](https://img.shields.io/github/forks/xpcmdshell/derpyc0w.svg)
 
-- [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
-
 - [https://github.com/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195](https://github.com/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195.svg)
 
 - [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
+
+- [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) :  ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
 
 - [https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB](https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB) :  ![starts](https://img.shields.io/github/stars/sakilahamed/Linux-Kernel-Exploit-LAB.svg) ![forks](https://img.shields.io/github/forks/sakilahamed/Linux-Kernel-Exploit-LAB.svg)
 
@@ -1367,11 +1367,11 @@
 
 - [https://github.com/j4k0m/CVE-2016-2098](https://github.com/j4k0m/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/j4k0m/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/j4k0m/CVE-2016-2098.svg)
 
+- [https://github.com/DanielHemmati/CVE-2016-2098-my-first-exploit](https://github.com/DanielHemmati/CVE-2016-2098-my-first-exploit) :  ![starts](https://img.shields.io/github/stars/DanielHemmati/CVE-2016-2098-my-first-exploit.svg) ![forks](https://img.shields.io/github/forks/DanielHemmati/CVE-2016-2098-my-first-exploit.svg)
+
 - [https://github.com/its-arun/CVE-2016-2098](https://github.com/its-arun/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/its-arun/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/its-arun/CVE-2016-2098.svg)
 
 - [https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Alejandro-MartinG/rails-PoC-CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Alejandro-MartinG/rails-PoC-CVE-2016-2098.svg)
-
-- [https://github.com/DanielHemmati/CVE-2016-2098-my-first-exploit](https://github.com/DanielHemmati/CVE-2016-2098-my-first-exploit) :  ![starts](https://img.shields.io/github/stars/DanielHemmati/CVE-2016-2098-my-first-exploit.svg) ![forks](https://img.shields.io/github/forks/DanielHemmati/CVE-2016-2098-my-first-exploit.svg)
 
 - [https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42](https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42) :  ![starts](https://img.shields.io/github/stars/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42.svg) ![forks](https://img.shields.io/github/forks/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42.svg)
 
