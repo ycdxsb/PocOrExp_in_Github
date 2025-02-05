@@ -591,14 +591,14 @@
 - [https://github.com/sephiroth950911/CVE-2017-16651-Exploit](https://github.com/sephiroth950911/CVE-2017-16651-Exploit) :  ![starts](https://img.shields.io/github/stars/sephiroth950911/CVE-2017-16651-Exploit.svg) ![forks](https://img.shields.io/github/forks/sephiroth950911/CVE-2017-16651-Exploit.svg)
 
 ## CVE-2017-16568
- Cross-site scripting (XSS) vulnerability in Logitech Media Server 7.9.0 allows remote attackers to inject arbitrary web script or HTML via a radio URL.
+ Persistent Cross-Site Scripting (XSS) vulnerability in Logitech Media Server 7.9.0, affecting the "Radio" functionality. This vulnerability allows attackers to inject malicious JavaScript payloads, which become permanently stored on the server and execute when a user plays the compromised radio stream. Exploitation of this vulnerability can lead to Session hijacking and unauthorized access, Persistent manipulation of web content within the application, and Phishing or malicious redirects to external domains. This vulnerability can be exploited to manipulate media server behavior in enterprise and home network environments.
 
 
 
 - [https://github.com/dewankpant/CVE-2017-16568](https://github.com/dewankpant/CVE-2017-16568) :  ![starts](https://img.shields.io/github/stars/dewankpant/CVE-2017-16568.svg) ![forks](https://img.shields.io/github/forks/dewankpant/CVE-2017-16568.svg)
 
 ## CVE-2017-16567
- Cross-site scripting (XSS) vulnerability in Logitech Media Server 7.9.0 allows remote attackers to inject arbitrary web script or HTML via a "favorite."
+ Persistent Cross-Site Scripting (XSS) vulnerability in Logitech Media Server 7.9.0, affecting the "Favorites" feature. This vulnerability allows remote attackers to inject and permanently store malicious JavaScript payloads, which are executed when users access the affected functionality. Exploitation of this vulnerability can lead to Session Hijacking and Credential Theft, Execution of unauthorized actions on behalf of users, and Exfiltration of sensitive data. This vulnerability presents a potential risk for widespread exploitation in connected IoT environments.
 
 
 
@@ -2407,9 +2407,9 @@
 
 - [https://github.com/MaxSecurity/CVE-2017-7529-POC](https://github.com/MaxSecurity/CVE-2017-7529-POC) :  ![starts](https://img.shields.io/github/stars/MaxSecurity/CVE-2017-7529-POC.svg) ![forks](https://img.shields.io/github/forks/MaxSecurity/CVE-2017-7529-POC.svg)
 
-- [https://github.com/mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability](https://github.com/mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability) :  ![starts](https://img.shields.io/github/stars/mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability.svg)
-
 - [https://github.com/cyberharsh/nginx-CVE-2017-7529](https://github.com/cyberharsh/nginx-CVE-2017-7529) :  ![starts](https://img.shields.io/github/stars/cyberharsh/nginx-CVE-2017-7529.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/nginx-CVE-2017-7529.svg)
+
+- [https://github.com/mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability](https://github.com/mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability) :  ![starts](https://img.shields.io/github/stars/mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability.svg)
 
 - [https://github.com/cved-sources/cve-2017-7529](https://github.com/cved-sources/cve-2017-7529) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2017-7529.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2017-7529.svg)
 
@@ -3051,15 +3051,15 @@
 
 - [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
 
-- [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
-
-- [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
-
 - [https://github.com/bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/bhagdave/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bhagdave/CVE-2017-5638.svg)
 
 - [https://github.com/Tankirat/CVE-2017-5638](https://github.com/Tankirat/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Tankirat/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Tankirat/CVE-2017-5638.svg)
 
 - [https://github.com/jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jrrombaldo/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jrrombaldo/CVE-2017-5638.svg)
+
+- [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
+
+- [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
 
 - [https://github.com/homjxi0e/CVE-2017-5638](https://github.com/homjxi0e/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-5638.svg)
 
