@@ -1,85 +1,99 @@
-# Update 2025-02-05
-## CVE-2025-25062
- An XSS issue was discovered in Backdrop CMS 1.28.x before 1.28.5 and 1.29.x before 1.29.3. It doesn't sufficiently isolate long text content when the CKEditor 5 rich text editor is used. This allows a potential attacker to craft specialized HTML and JavaScript that may be executed when an administrator attempts to edit a piece of content. This vulnerability is mitigated by the fact that an attacker must have the ability to create long text content (such as through the node or comment forms) and an administrator must edit (not view) the content that contains the malicious content. This problem only exists when using the CKEditor 5 module.
+# Update 2025-02-06
+## CVE-2024-47575
+ A missing authentication for critical function in FortiManager 7.6.0, FortiManager 7.4.0 through 7.4.4, FortiManager 7.2.0 through 7.2.7, FortiManager 7.0.0 through 7.0.12, FortiManager 6.4.0 through 6.4.14, FortiManager 6.2.0 through 6.2.12, Fortinet FortiManager Cloud 7.4.1 through 7.4.4, FortiManager Cloud 7.2.1 through 7.2.7, FortiManager Cloud 7.0.1 through 7.0.12, FortiManager Cloud 6.4.1 through 6.4.7 allows attacker to execute arbitrary code or commands via specially crafted requests.
 
-- [https://github.com/rhburt/CVE-2025-25062](https://github.com/rhburt/CVE-2025-25062) :  ![starts](https://img.shields.io/github/stars/rhburt/CVE-2025-25062.svg) ![forks](https://img.shields.io/github/forks/rhburt/CVE-2025-25062.svg)
-
-
-## CVE-2024-57522
- SourceCodester Packers and Movers Management System v1.0 is vulnerable to Cross Site Scripting (XSS) in Users.php. An attacker can inject a malicious script into the username or name field during user creation.
-
-- [https://github.com/HackWidMaddy/CVE-2024-57522](https://github.com/HackWidMaddy/CVE-2024-57522) :  ![starts](https://img.shields.io/github/stars/HackWidMaddy/CVE-2024-57522.svg) ![forks](https://img.shields.io/github/forks/HackWidMaddy/CVE-2024-57522.svg)
+- [https://github.com/Raygrants/CVE-2024-47575-POC](https://github.com/Raygrants/CVE-2024-47575-POC) :  ![starts](https://img.shields.io/github/stars/Raygrants/CVE-2024-47575-POC.svg) ![forks](https://img.shields.io/github/forks/Raygrants/CVE-2024-47575-POC.svg)
 
 
-## CVE-2024-57175
- A Stored Cross-Site Scripting (XSS) vulnerability was identified in the PHPGURUKUL Online Birth Certificate System v1.0 via the profile name to /user/certificate-form.php.
+## CVE-2024-35235
+ OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.8 and earlier, when starting the cupsd server with a Listen configuration item pointing to a symbolic link, the cupsd process can be caused to perform an arbitrary chmod of the provided argument, providing world-writable access to the target. Given that cupsd is often running as root, this can result in the change of permission of any user or system files to be world writable. Given the aforementioned Ubuntu AppArmor context, on such systems this vulnerability is limited to those files modifiable by the cupsd process. In that specific case it was found to be possible to turn the configuration of the Listen argument into full control over the cupsd.conf and cups-files.conf configuration files. By later setting the User and Group arguments in cups-files.conf, and printing with a printer configured by PPD with a `FoomaticRIPCommandLine` argument, arbitrary user and group (not root) command execution could be achieved, which can further be used on Ubuntu systems to achieve full root command execution. Commit ff1f8a623e090dee8a8aadf12a6a4b25efac143d contains a patch for the issue.
 
-- [https://github.com/Ajmal101/CVE-2024-57175](https://github.com/Ajmal101/CVE-2024-57175) :  ![starts](https://img.shields.io/github/stars/Ajmal101/CVE-2024-57175.svg) ![forks](https://img.shields.io/github/forks/Ajmal101/CVE-2024-57175.svg)
-
-
-## CVE-2024-56903
- A Cross-Site Request Forgery (CSRF) in Geovision GV-ASWeb with the version 6.1.1.0 or less allows attackers to execute arbitrary operations via supplying a crafted HTTP request.
-
-- [https://github.com/DRAGOWN/CVE-2024-56903](https://github.com/DRAGOWN/CVE-2024-56903) :  ![starts](https://img.shields.io/github/stars/DRAGOWN/CVE-2024-56903.svg) ![forks](https://img.shields.io/github/forks/DRAGOWN/CVE-2024-56903.svg)
-
-
-## CVE-2024-56902
- An issue in Geovision GV-ASWeb with version 6.1.0.0 or less allows unauthorized attackers with low-level privileges to be able to request information about other accounts via a crafted HTTP request.
-
-- [https://github.com/DRAGOWN/CVE-2024-56902](https://github.com/DRAGOWN/CVE-2024-56902) :  ![starts](https://img.shields.io/github/stars/DRAGOWN/CVE-2024-56902.svg) ![forks](https://img.shields.io/github/forks/DRAGOWN/CVE-2024-56902.svg)
-
-
-## CVE-2024-56901
- A Cross-Site Request Forgery (CSRF) in the Account Management component of Geovision GV-ASWeb version 6.1.1.0 or less allows attackers to arbitrarily create Admin accounts via a crafted GET request method.
-
-- [https://github.com/DRAGOWN/CVE-2024-56901](https://github.com/DRAGOWN/CVE-2024-56901) :  ![starts](https://img.shields.io/github/stars/DRAGOWN/CVE-2024-56901.svg) ![forks](https://img.shields.io/github/forks/DRAGOWN/CVE-2024-56901.svg)
-- [https://github.com/DRAGOWN/CVE-2024-56903](https://github.com/DRAGOWN/CVE-2024-56903) :  ![starts](https://img.shields.io/github/stars/DRAGOWN/CVE-2024-56903.svg) ![forks](https://img.shields.io/github/forks/DRAGOWN/CVE-2024-56903.svg)
-
-
-## CVE-2024-56898
- Incorrect access control in Geovision GV-ASWeb version 6.1.0.0 or less allows unauthorized attackers with low-level privileges to manage and create new user accounts via supplying a crafted HTTP request.
-
-- [https://github.com/DRAGOWN/CVE-2024-56898](https://github.com/DRAGOWN/CVE-2024-56898) :  ![starts](https://img.shields.io/github/stars/DRAGOWN/CVE-2024-56898.svg) ![forks](https://img.shields.io/github/forks/DRAGOWN/CVE-2024-56898.svg)
-
-
-## CVE-2024-56145
- Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Users of affected versions are affected by this vulnerability if their php.ini configuration has `register_argc_argv` enabled. For these users an unspecified remote code execution vector is present. Users are advised to update to version 3.9.14, 4.13.2, or 5.5.2. Users unable to upgrade should disable `register_argc_argv` to mitigate the issue.
-
-- [https://github.com/rawtips/craft_cve_2024_56145_exploit.py](https://github.com/rawtips/craft_cve_2024_56145_exploit.py) :  ![starts](https://img.shields.io/github/stars/rawtips/craft_cve_2024_56145_exploit.py.svg) ![forks](https://img.shields.io/github/forks/rawtips/craft_cve_2024_56145_exploit.py.svg)
+- [https://github.com/zrax-x/CVE-2024-35235-CVE-2024-5290-exp](https://github.com/zrax-x/CVE-2024-35235-CVE-2024-5290-exp) :  ![starts](https://img.shields.io/github/stars/zrax-x/CVE-2024-35235-CVE-2024-5290-exp.svg) ![forks](https://img.shields.io/github/forks/zrax-x/CVE-2024-35235-CVE-2024-5290-exp.svg)
 
 
 ## CVE-2024-24919
  Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN or Mobile Access Software Blades. A Security fix that mitigates this vulnerability is available.
 
-- [https://github.com/ronniensale/CVE-2024-24919-Exploit](https://github.com/ronniensale/CVE-2024-24919-Exploit) :  ![starts](https://img.shields.io/github/stars/ronniensale/CVE-2024-24919-Exploit.svg) ![forks](https://img.shields.io/github/forks/ronniensale/CVE-2024-24919-Exploit.svg)
+- [https://github.com/nullcult/CVE-2024-24919-Exploit](https://github.com/nullcult/CVE-2024-24919-Exploit) :  ![starts](https://img.shields.io/github/stars/nullcult/CVE-2024-24919-Exploit.svg) ![forks](https://img.shields.io/github/forks/nullcult/CVE-2024-24919-Exploit.svg)
 
 
-## CVE-2022-22965
- A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.
+## CVE-2024-12542
+ The linkID plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check when including the 'phpinfo' function in all versions up to, and including, 0.1.2. This makes it possible for unauthenticated attackers to read configuration settings and predefined variables on the site's server. The plugin does not need to be activated for the vulnerability to be exploited.
 
-- [https://github.com/jashan-lefty/Spring4Shell](https://github.com/jashan-lefty/Spring4Shell) :  ![starts](https://img.shields.io/github/stars/jashan-lefty/Spring4Shell.svg) ![forks](https://img.shields.io/github/forks/jashan-lefty/Spring4Shell.svg)
-
-
-## CVE-2019-2215
- A use-after-free in binder.c allows an elevation of privilege from an application to the Linux Kernel. No user interaction is required to exploit this vulnerability, however exploitation does require either the installation of a malicious local application or a separate vulnerability in a network facing application.Product: AndroidAndroid ID: A-141720095
-
-- [https://github.com/llccd/TempRoot-Huawei](https://github.com/llccd/TempRoot-Huawei) :  ![starts](https://img.shields.io/github/stars/llccd/TempRoot-Huawei.svg) ![forks](https://img.shields.io/github/forks/llccd/TempRoot-Huawei.svg)
+- [https://github.com/Nxploited/CVE-2024-12542-PoC](https://github.com/Nxploited/CVE-2024-12542-PoC) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-12542-PoC.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-12542-PoC.svg)
 
 
-## CVE-2017-14980
- Buffer overflow in Sync Breeze Enterprise 10.0.28 allows remote attackers to have unspecified impact via a long username parameter to /login.
+## CVE-2024-5761
+ ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: [CVE-2024-5260]. Reason: This candidate is a reservation duplicate of [CVE-2024-5260]. Notes: All CVE users should reference [CVE-ID] instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
 
-- [https://github.com/xn0kkx/Exploit_Sync_Breeze_v10.0.28_CVE-2017-14980](https://github.com/xn0kkx/Exploit_Sync_Breeze_v10.0.28_CVE-2017-14980) :  ![starts](https://img.shields.io/github/stars/xn0kkx/Exploit_Sync_Breeze_v10.0.28_CVE-2017-14980.svg) ![forks](https://img.shields.io/github/forks/xn0kkx/Exploit_Sync_Breeze_v10.0.28_CVE-2017-14980.svg)
-
-
-## CVE-2017-0144
- The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka "Windows SMB Remote Code Execution Vulnerability." This vulnerability is different from those described in CVE-2017-0143, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
-
-- [https://github.com/MedX267/EternalBlue-Vulnerability-Scanner](https://github.com/MedX267/EternalBlue-Vulnerability-Scanner) :  ![starts](https://img.shields.io/github/stars/MedX267/EternalBlue-Vulnerability-Scanner.svg) ![forks](https://img.shields.io/github/forks/MedX267/EternalBlue-Vulnerability-Scanner.svg)
+- [https://github.com/nca785/CVE-2024-57610](https://github.com/nca785/CVE-2024-57610) :  ![starts](https://img.shields.io/github/stars/nca785/CVE-2024-57610.svg) ![forks](https://img.shields.io/github/forks/nca785/CVE-2024-57610.svg)
 
 
-## CVE-2012-4960
- The Huawei NE5000E, MA5200G, NE40E, NE80E, ATN, NE40, NE80, NE20E-X6, NE20, ME60, CX600, CX200, CX300, ACU, WLAN AC 6605, S9300, S7700, S2300, S3300, S5300, S3300HI, S5300HI, S5306, S6300, S2700, S3700, S5700, S6700, AR G3, H3C AR(OEM IN), AR 19, AR 29, AR 49, Eudemon100E, Eudemon200, Eudemon300, Eudemon500, Eudemon1000, Eudemon1000E-U/USG5300, Eudemon1000E-X/USG5500, Eudemon8080E/USG9300, Eudemon8160E/USG9300, Eudemon8000E-X/USG9500, E200E-C/USG2200, E200E-X3/USG2200, E200E-X5/USG2200, E200E-X7/USG2200, E200E-C/USG5100, E200E-X3/USG5100, E200E-X5/USG5100, E200E-X7/USG5100, E200E-B/USG2100, E200E-X1/USG2100, E200E-X2/USG2100, SVN5300, SVN2000, SVN5000, SVN3000, NIP100, NIP200, NIP1000, NIP2100, NIP2200, and NIP5100 use the DES algorithm for stored passwords, which makes it easier for context-dependent attackers to obtain cleartext passwords via a brute-force attack.
+## CVE-2024-5760
+ The Samsung Universal Print Driver for Windows is potentially vulnerable to escalation of privilege allowing the creation of a reverse shell in the tool. This is only applicable for products in the application released or manufactured before 2018.
 
-- [https://github.com/ghcohu/Decrypt-passwords-for-Huawei-routers-and-switches-CVE-2012-4960](https://github.com/ghcohu/Decrypt-passwords-for-Huawei-routers-and-switches-CVE-2012-4960) :  ![starts](https://img.shields.io/github/stars/ghcohu/Decrypt-passwords-for-Huawei-routers-and-switches-CVE-2012-4960.svg) ![forks](https://img.shields.io/github/forks/ghcohu/Decrypt-passwords-for-Huawei-routers-and-switches-CVE-2012-4960.svg)
+- [https://github.com/nca785/CVE-2024-57609](https://github.com/nca785/CVE-2024-57609) :  ![starts](https://img.shields.io/github/stars/nca785/CVE-2024-57609.svg) ![forks](https://img.shields.io/github/forks/nca785/CVE-2024-57609.svg)
+
+
+## CVE-2024-5743
+This issue affects Eve Play: through 1.1.42.
+
+- [https://github.com/ahrixia/CVE-2024-57430](https://github.com/ahrixia/CVE-2024-57430) :  ![starts](https://img.shields.io/github/stars/ahrixia/CVE-2024-57430.svg) ![forks](https://img.shields.io/github/forks/ahrixia/CVE-2024-57430.svg)
+
+
+## CVE-2024-5742
+ A vulnerability was found in GNU Nano that allows a possible privilege escalation through an insecure temporary file. If Nano is killed while editing, a file it saves to an emergency file with the permissions of the running user provides a window of opportunity for attackers to escalate privileges through a malicious symlink.
+
+- [https://github.com/ahrixia/CVE-2024-57427](https://github.com/ahrixia/CVE-2024-57427) :  ![starts](https://img.shields.io/github/stars/ahrixia/CVE-2024-57427.svg) ![forks](https://img.shields.io/github/forks/ahrixia/CVE-2024-57427.svg)
+- [https://github.com/ahrixia/CVE-2024-57429](https://github.com/ahrixia/CVE-2024-57429) :  ![starts](https://img.shields.io/github/stars/ahrixia/CVE-2024-57429.svg) ![forks](https://img.shields.io/github/forks/ahrixia/CVE-2024-57429.svg)
+- [https://github.com/ahrixia/CVE-2024-57428](https://github.com/ahrixia/CVE-2024-57428) :  ![starts](https://img.shields.io/github/stars/ahrixia/CVE-2024-57428.svg) ![forks](https://img.shields.io/github/forks/ahrixia/CVE-2024-57428.svg)
+
+
+## CVE-2024-5504
+ The Rife Elementor Extensions & Templates plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'tag' attribute within the plugin's Writing Effect Headline widget in all versions up to, and including, 1.2.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+
+- [https://github.com/tcbutler320/CVE-2024-55040-Sensaphone-XSS](https://github.com/tcbutler320/CVE-2024-55040-Sensaphone-XSS) :  ![starts](https://img.shields.io/github/stars/tcbutler320/CVE-2024-55040-Sensaphone-XSS.svg) ![forks](https://img.shields.io/github/forks/tcbutler320/CVE-2024-55040-Sensaphone-XSS.svg)
+
+
+## CVE-2024-5290
+Membership in the netdev group or access to the dbus interface of wpa_supplicant allow an unprivileged user to specify an arbitrary path to a module to be loaded by the wpa_supplicant process; other escalation paths might exist.
+
+- [https://github.com/zrax-x/CVE-2024-35235-CVE-2024-5290-exp](https://github.com/zrax-x/CVE-2024-35235-CVE-2024-5290-exp) :  ![starts](https://img.shields.io/github/stars/zrax-x/CVE-2024-35235-CVE-2024-5290-exp.svg) ![forks](https://img.shields.io/github/forks/zrax-x/CVE-2024-35235-CVE-2024-5290-exp.svg)
+
+
+## CVE-2024-2961
+ The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.
+
+- [https://github.com/suce0155/CVE-2024-2961_buddyforms_2.7.7](https://github.com/suce0155/CVE-2024-2961_buddyforms_2.7.7) :  ![starts](https://img.shields.io/github/stars/suce0155/CVE-2024-2961_buddyforms_2.7.7.svg) ![forks](https://img.shields.io/github/forks/suce0155/CVE-2024-2961_buddyforms_2.7.7.svg)
+
+
+## CVE-2023-26136
+ Versions of the package tough-cookie before 4.1.3 are vulnerable to Prototype Pollution due to improper handling of Cookies when using CookieJar in rejectPublicSuffixes=false mode. This issue arises from the manner in which the objects are initialized.
+
+- [https://github.com/dani33339/tough-cookie-Seal-Security](https://github.com/dani33339/tough-cookie-Seal-Security) :  ![starts](https://img.shields.io/github/stars/dani33339/tough-cookie-Seal-Security.svg) ![forks](https://img.shields.io/github/forks/dani33339/tough-cookie-Seal-Security.svg)
+- [https://github.com/dani33339/tough-cookie-SealSecurity](https://github.com/dani33339/tough-cookie-SealSecurity) :  ![starts](https://img.shields.io/github/stars/dani33339/tough-cookie-SealSecurity.svg) ![forks](https://img.shields.io/github/forks/dani33339/tough-cookie-SealSecurity.svg)
+
+
+## CVE-2023-2245
+ A vulnerability was found in hansunCMS 1.4.3. It has been declared as critical. This vulnerability affects unknown code of the file /ueditor/net/controller.ashx?action=catchimage. The manipulation leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-227230 is the identifier assigned to this vulnerability.
+
+- [https://github.com/chihyeonwon/2023-2245](https://github.com/chihyeonwon/2023-2245) :  ![starts](https://img.shields.io/github/stars/chihyeonwon/2023-2245.svg) ![forks](https://img.shields.io/github/forks/chihyeonwon/2023-2245.svg)
+
+
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+
+- [https://github.com/0xc4t/CVE-2021-41773](https://github.com/0xc4t/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/0xc4t/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/0xc4t/CVE-2021-41773.svg)
+
+
+## CVE-2021-30862
+ A validation issue was addressed with improved input sanitization. This issue is fixed in iTunes U 3.8.3. Processing a maliciously crafted URL may lead to arbitrary javascript code execution.
+
+- [https://github.com/Umarovm/CVE-2021-30862](https://github.com/Umarovm/CVE-2021-30862) :  ![starts](https://img.shields.io/github/stars/Umarovm/CVE-2021-30862.svg) ![forks](https://img.shields.io/github/forks/Umarovm/CVE-2021-30862.svg)
+
+
+## CVE-2018-25031
+ Swagger UI 4.1.2 and earlier could allow a remote attacker to conduct spoofing attacks. By persuading a victim to open a crafted URL, an attacker could exploit this vulnerability to display remote OpenAPI definitions. Note: This was originally claimed to be resolved in 4.1.3. However, third parties have indicated this is not resolved in 4.1.3 and even occurs in that version and possibly others.
+
+- [https://github.com/MMAKINGDOM/CVE-2018-25031](https://github.com/MMAKINGDOM/CVE-2018-25031) :  ![starts](https://img.shields.io/github/stars/MMAKINGDOM/CVE-2018-25031.svg) ![forks](https://img.shields.io/github/forks/MMAKINGDOM/CVE-2018-25031.svg)
 
