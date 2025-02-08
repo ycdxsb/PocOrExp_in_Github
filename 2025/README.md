@@ -121,6 +121,13 @@ CloudStack admins may also disallow listAnnotations and addAnnotation API access
 
 - [https://github.com/r3m0t3nu11/CVE-2025-1015](https://github.com/r3m0t3nu11/CVE-2025-1015) :  ![starts](https://img.shields.io/github/stars/r3m0t3nu11/CVE-2025-1015.svg) ![forks](https://img.shields.io/github/forks/r3m0t3nu11/CVE-2025-1015.svg)
 
+## CVE-2025-0994
+ Trimble Cityworks versions prior to 15.8.9 and Cityworks with office companion versions prior to 23.10 are vulnerable to a deserialization vulnerability. This could allow an authenticated user to perform a remote code execution attack against a customer’s Microsoft Internet Information Services (IIS) web server.
+
+
+
+- [https://github.com/rxerium/CVE-2025-0994](https://github.com/rxerium/CVE-2025-0994) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2025-0994.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2025-0994.svg)
+
 ## CVE-2025-0411
  7-Zip Mark-of-the-Web Bypass Vulnerability. This vulnerability allows remote attackers to bypass the Mark-of-the-Web protection mechanism on affected installations of 7-Zip. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.
 
