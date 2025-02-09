@@ -92,8 +92,6 @@
 
 - [https://github.com/n3rdh4x0r/CVE-2007-2447](https://github.com/n3rdh4x0r/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2007-2447.svg)
 
-- [https://github.com/un4gi/CVE-2007-2447](https://github.com/un4gi/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/un4gi/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/un4gi/CVE-2007-2447.svg)
-
 - [https://github.com/Unix13/metasploitable2](https://github.com/Unix13/metasploitable2) :  ![starts](https://img.shields.io/github/stars/Unix13/metasploitable2.svg) ![forks](https://img.shields.io/github/forks/Unix13/metasploitable2.svg)
 
 - [https://github.com/Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python) :  ![starts](https://img.shields.io/github/stars/Ziemni/CVE-2007-2447-in-Python.svg) ![forks](https://img.shields.io/github/forks/Ziemni/CVE-2007-2447-in-Python.svg)
@@ -126,11 +124,11 @@
 
 - [https://github.com/foudadev/CVE-2007-2447](https://github.com/foudadev/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/foudadev/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/foudadev/CVE-2007-2447.svg)
 
-- [https://github.com/Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447) :  ![starts](https://img.shields.io/github/stars/Juantos/cve-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Juantos/cve-2007-2447.svg)
-
 - [https://github.com/cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/cherrera0001/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/cherrera0001/CVE-2007-2447.svg)
 
 - [https://github.com/JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/JoseBarrios/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/JoseBarrios/CVE-2007-2447.svg)
+
+- [https://github.com/Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447) :  ![starts](https://img.shields.io/github/stars/Juantos/cve-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Juantos/cve-2007-2447.svg)
 
 - [https://github.com/b1fair/smb_usermap](https://github.com/b1fair/smb_usermap) :  ![starts](https://img.shields.io/github/stars/b1fair/smb_usermap.svg) ![forks](https://img.shields.io/github/forks/b1fair/smb_usermap.svg)
 
