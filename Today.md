@@ -1,108 +1,110 @@
-# Update 2025-02-08
-## CVE-2025-1015
- The Thunderbird Address Book URI fields contained unsanitized links. This could be used by an attacker to create and export an address book containing a malicious payload in a field. For example, in the “Other” field of the Instant Messaging section. If another user imported the address book, clicking on the link could result in opening a web page inside Thunderbird, and that page could execute (unprivileged) JavaScript. This vulnerability affects Thunderbird  128.7.
+# Update 2025-02-09
+## CVE-2025-0994
+ Trimble Cityworks versions prior to 15.8.9 and Cityworks with office companion versions prior to 23.10 are vulnerable to a deserialization vulnerability. This could allow an authenticated user to perform a remote code execution attack against a customer’s Microsoft Internet Information Services (IIS) web server.
 
-- [https://github.com/r3m0t3nu11/CVE-2025-1015](https://github.com/r3m0t3nu11/CVE-2025-1015) :  ![starts](https://img.shields.io/github/stars/r3m0t3nu11/CVE-2025-1015.svg) ![forks](https://img.shields.io/github/forks/r3m0t3nu11/CVE-2025-1015.svg)
-
-
-## CVE-2024-57610
- A rate limiting issue in Sylius v2.0.2 allows a remote attacker to perform unrestricted brute-force attacks on user accounts, significantly increasing the risk of account compromise and denial of service for legitimate users.
-
-- [https://github.com/nca785/CVE-2024-57610](https://github.com/nca785/CVE-2024-57610) :  ![starts](https://img.shields.io/github/stars/nca785/CVE-2024-57610.svg) ![forks](https://img.shields.io/github/forks/nca785/CVE-2024-57610.svg)
+- [https://github.com/rxerium/CVE-2025-0994](https://github.com/rxerium/CVE-2025-0994) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2025-0994.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2025-0994.svg)
 
 
-## CVE-2024-57609
- An issue in Kanaries Inc Pygwalker before v.0.4.9.9 allows a remote attacker to obtain sensitive information and execute arbitrary code via the redirect_path parameter of the login redirection function.
+## CVE-2024-55215
+ An issue in trojan v.2.0.0 through v.2.15.3 allows a remote attacker to escalate privileges via the initialization interface /auth/register.
 
-- [https://github.com/nca785/CVE-2024-57609](https://github.com/nca785/CVE-2024-57609) :  ![starts](https://img.shields.io/github/stars/nca785/CVE-2024-57609.svg) ![forks](https://img.shields.io/github/forks/nca785/CVE-2024-57609.svg)
-
-
-## CVE-2024-57523
- Cross Site Request Forgery (CSRF) in Users.php in SourceCodester Packers and Movers Management System 1.0 allows attackers to create unauthorized admin accounts via crafted requests sent to an authenticated admin user.
-
-- [https://github.com/HackWidMaddy/CVE-2024-57523.](https://github.com/HackWidMaddy/CVE-2024-57523.) :  ![starts](https://img.shields.io/github/stars/HackWidMaddy/CVE-2024-57523..svg) ![forks](https://img.shields.io/github/forks/HackWidMaddy/CVE-2024-57523..svg)
+- [https://github.com/ainrm/Jrohy-trojan-unauth-poc](https://github.com/ainrm/Jrohy-trojan-unauth-poc) :  ![starts](https://img.shields.io/github/stars/ainrm/Jrohy-trojan-unauth-poc.svg) ![forks](https://img.shields.io/github/forks/ainrm/Jrohy-trojan-unauth-poc.svg)
 
 
-## CVE-2024-57430
- An SQL injection vulnerability in the pjActionGetUser function of PHPJabbers Cinema Booking System v2.0 allows attackers to manipulate database queries via the column parameter. Exploiting this flaw can lead to unauthorized information disclosure, privilege escalation, or database manipulation.
+## CVE-2024-50379
+Users are recommended to upgrade to version 11.0.2, 10.1.34 or 9.0.98, which fixes the issue.
 
-- [https://github.com/ahrixia/CVE-2024-57430](https://github.com/ahrixia/CVE-2024-57430) :  ![starts](https://img.shields.io/github/stars/ahrixia/CVE-2024-57430.svg) ![forks](https://img.shields.io/github/forks/ahrixia/CVE-2024-57430.svg)
-
-
-## CVE-2024-57429
- A cross-site request forgery (CSRF) vulnerability in the pjActionUpdate function of PHPJabbers Cinema Booking System v2.0 allows remote attackers to escalate privileges by tricking an authenticated admin into submitting an unauthorized request.
-
-- [https://github.com/ahrixia/CVE-2024-57429](https://github.com/ahrixia/CVE-2024-57429) :  ![starts](https://img.shields.io/github/stars/ahrixia/CVE-2024-57429.svg) ![forks](https://img.shields.io/github/forks/ahrixia/CVE-2024-57429.svg)
+- [https://github.com/dkstar11q/CVE-2024-50379-nuclei](https://github.com/dkstar11q/CVE-2024-50379-nuclei) :  ![starts](https://img.shields.io/github/stars/dkstar11q/CVE-2024-50379-nuclei.svg) ![forks](https://img.shields.io/github/forks/dkstar11q/CVE-2024-50379-nuclei.svg)
 
 
-## CVE-2024-57428
- A stored cross-site scripting (XSS) vulnerability in PHPJabbers Cinema Booking System v2.0 exists due to unsanitized input in file upload fields (event_img, seat_maps) and seat number configurations (number[new_X] in pjActionCreate). Attackers can inject persistent JavaScript, leading to phishing, malware injection, and session hijacking.
+## CVE-2024-43425
+ A flaw was found in Moodle. Additional restrictions are required to avoid a remote code execution risk in calculated question types. Note: This requires the capability to add/update questions.
 
-- [https://github.com/ahrixia/CVE-2024-57428](https://github.com/ahrixia/CVE-2024-57428) :  ![starts](https://img.shields.io/github/stars/ahrixia/CVE-2024-57428.svg) ![forks](https://img.shields.io/github/forks/ahrixia/CVE-2024-57428.svg)
-
-
-## CVE-2024-57427
- PHPJabbers Cinema Booking System v2.0 is vulnerable to reflected cross-site scripting (XSS). Multiple endpoints improperly handle user input, allowing malicious scripts to execute in a victim’s browser. Attackers can craft malicious links to steal session cookies or conduct phishing attacks.
-
-- [https://github.com/ahrixia/CVE-2024-57427](https://github.com/ahrixia/CVE-2024-57427) :  ![starts](https://img.shields.io/github/stars/ahrixia/CVE-2024-57427.svg) ![forks](https://img.shields.io/github/forks/ahrixia/CVE-2024-57427.svg)
+- [https://github.com/Snizi/Moodle-CVE-2024-43425-Exploit](https://github.com/Snizi/Moodle-CVE-2024-43425-Exploit) :  ![starts](https://img.shields.io/github/stars/Snizi/Moodle-CVE-2024-43425-Exploit.svg) ![forks](https://img.shields.io/github/forks/Snizi/Moodle-CVE-2024-43425-Exploit.svg)
 
 
-## CVE-2024-56889
- Incorrect access control in the endpoint /admin/m_delete.php of CodeAstro Complaint Management System v1.0 allows unauthorized attackers to arbitrarily delete complaints via modification of the id parameter.
+## CVE-2024-39713
+ A Server-Side Request Forgery (SSRF) affects Rocket.Chat's Twilio webhook endpoint before version 6.10.1.
 
-- [https://github.com/vigneshr232/CVE-2024-56889](https://github.com/vigneshr232/CVE-2024-56889) :  ![starts](https://img.shields.io/github/stars/vigneshr232/CVE-2024-56889.svg) ![forks](https://img.shields.io/github/forks/vigneshr232/CVE-2024-56889.svg)
-
-
-## CVE-2024-48589
- Cross Site Scripting vulnerability in Gilnei Moraes phpABook v.0.9 allows a remote attacker to execute arbitrary code via the rol parameter in index.php
-
-- [https://github.com/Exek1el/CVE-2024-48589](https://github.com/Exek1el/CVE-2024-48589) :  ![starts](https://img.shields.io/github/stars/Exek1el/CVE-2024-48589.svg) ![forks](https://img.shields.io/github/forks/Exek1el/CVE-2024-48589.svg)
+- [https://github.com/typical-pashochek/CVE-2024-39713](https://github.com/typical-pashochek/CVE-2024-39713) :  ![starts](https://img.shields.io/github/stars/typical-pashochek/CVE-2024-39713.svg) ![forks](https://img.shields.io/github/forks/typical-pashochek/CVE-2024-39713.svg)
 
 
-## CVE-2024-35235
- OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.8 and earlier, when starting the cupsd server with a Listen configuration item pointing to a symbolic link, the cupsd process can be caused to perform an arbitrary chmod of the provided argument, providing world-writable access to the target. Given that cupsd is often running as root, this can result in the change of permission of any user or system files to be world writable. Given the aforementioned Ubuntu AppArmor context, on such systems this vulnerability is limited to those files modifiable by the cupsd process. In that specific case it was found to be possible to turn the configuration of the Listen argument into full control over the cupsd.conf and cups-files.conf configuration files. By later setting the User and Group arguments in cups-files.conf, and printing with a printer configured by PPD with a `FoomaticRIPCommandLine` argument, arbitrary user and group (not root) command execution could be achieved, which can further be used on Ubuntu systems to achieve full root command execution. Commit ff1f8a623e090dee8a8aadf12a6a4b25efac143d contains a patch for the issue.
+## CVE-2024-36404
+ GeoTools is an open source Java library that provides tools for geospatial data. Prior to versions 31.2, 30.4, and 29.6, Remote Code Execution (RCE) is possible if an application uses certain GeoTools functionality to evaluate XPath expressions supplied by user input. Versions 31.2, 30.4, and 29.6 contain a fix for this issue. As a workaround, GeoTools can operate with reduced functionality by removing the `gt-complex` jar from one's application. As an example of the impact, application schema `datastore` would not function without the ability to use XPath expressions to query complex content. Alternatively, one may utilize a drop-in replacement GeoTools jar from SourceForge for versions 31.1, 30.3, 30.2, 29.2, 28.2, 27.5, 27.4, 26.7, 26.4, 25.2, and 24.0. These jars are for download only and are not available from maven central, intended to quickly provide a fix to affected applications.
 
-- [https://github.com/zrax-x/CVE-2024-5290-exp](https://github.com/zrax-x/CVE-2024-5290-exp) :  ![starts](https://img.shields.io/github/stars/zrax-x/CVE-2024-5290-exp.svg) ![forks](https://img.shields.io/github/forks/zrax-x/CVE-2024-5290-exp.svg)
-
-
-## CVE-2024-9474
-Cloud NGFW and Prisma Access are not impacted by this vulnerability.
-
-- [https://github.com/dcollaoa/cve-2024-0012-gui-poc](https://github.com/dcollaoa/cve-2024-0012-gui-poc) :  ![starts](https://img.shields.io/github/stars/dcollaoa/cve-2024-0012-gui-poc.svg) ![forks](https://img.shields.io/github/forks/dcollaoa/cve-2024-0012-gui-poc.svg)
+- [https://github.com/whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit) :  ![starts](https://img.shields.io/github/stars/whitebear-ch/GeoServerExploit.svg) ![forks](https://img.shields.io/github/forks/whitebear-ch/GeoServerExploit.svg)
 
 
-## CVE-2024-6624
- The JSON API User plugin for WordPress is vulnerable to privilege escalation in all versions up to, and including, 3.9.3. This is due to improper controls on custom user meta fields. This makes it possible for unauthenticated attackers to register as administrators on the site. The plugin requires the JSON API plugin to also be installed.
+## CVE-2024-36401
+Versions 2.23.6, 2.24.4, and 2.25.2 contain a patch for the issue. A workaround exists by removing the `gt-complex-x.y.jar` file from the GeoServer where `x.y` is the GeoTools version (e.g., `gt-complex-31.1.jar` if running GeoServer 2.25.1). This will remove the vulnerable code from GeoServer but may break some GeoServer functionality or prevent GeoServer from deploying if the gt-complex module is needed.
 
-- [https://github.com/Jenderal92/CVE-2024-6624](https://github.com/Jenderal92/CVE-2024-6624) :  ![starts](https://img.shields.io/github/stars/Jenderal92/CVE-2024-6624.svg) ![forks](https://img.shields.io/github/forks/Jenderal92/CVE-2024-6624.svg)
-
-
-## CVE-2024-5290
-Membership in the netdev group or access to the dbus interface of wpa_supplicant allow an unprivileged user to specify an arbitrary path to a module to be loaded by the wpa_supplicant process; other escalation paths might exist.
-
-- [https://github.com/zrax-x/CVE-2024-5290-exp](https://github.com/zrax-x/CVE-2024-5290-exp) :  ![starts](https://img.shields.io/github/stars/zrax-x/CVE-2024-5290-exp.svg) ![forks](https://img.shields.io/github/forks/zrax-x/CVE-2024-5290-exp.svg)
+- [https://github.com/whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit) :  ![starts](https://img.shields.io/github/stars/whitebear-ch/GeoServerExploit.svg) ![forks](https://img.shields.io/github/forks/whitebear-ch/GeoServerExploit.svg)
 
 
-## CVE-2024-0012
-Cloud NGFW and Prisma Access are not impacted by this vulnerability.
+## CVE-2024-35106
+ NEXTU FLETA AX1500 WIFI6 v1.0.3 was discovered to contain a buffer overflow at /boafrm/formIpQoS. This vulnerability allows attackers to cause a Denial of Service (DoS) or potentially arbitrary code execution via a crafted POST request.
 
-- [https://github.com/dcollaoa/cve-2024-0012-gui-poc](https://github.com/dcollaoa/cve-2024-0012-gui-poc) :  ![starts](https://img.shields.io/github/stars/dcollaoa/cve-2024-0012-gui-poc.svg) ![forks](https://img.shields.io/github/forks/dcollaoa/cve-2024-0012-gui-poc.svg)
+- [https://github.com/laskdjlaskdj12/CVE-2024-35106-POC](https://github.com/laskdjlaskdj12/CVE-2024-35106-POC) :  ![starts](https://img.shields.io/github/stars/laskdjlaskdj12/CVE-2024-35106-POC.svg) ![forks](https://img.shields.io/github/forks/laskdjlaskdj12/CVE-2024-35106-POC.svg)
 
 
-## CVE-2022-30190
-Please see the MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability.
+## CVE-2024-32002
+ Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
 
-- [https://github.com/Potato-9257/CVE-2022-30190_page](https://github.com/Potato-9257/CVE-2022-30190_page) :  ![starts](https://img.shields.io/github/stars/Potato-9257/CVE-2022-30190_page.svg) ![forks](https://img.shields.io/github/forks/Potato-9257/CVE-2022-30190_page.svg)
+- [https://github.com/YukaFake/CVE-2024-32002-Reverse-Shell](https://github.com/YukaFake/CVE-2024-32002-Reverse-Shell) :  ![starts](https://img.shields.io/github/stars/YukaFake/CVE-2024-32002-Reverse-Shell.svg) ![forks](https://img.shields.io/github/forks/YukaFake/CVE-2024-32002-Reverse-Shell.svg)
+- [https://github.com/YukaFake/CVE-2024-32002](https://github.com/YukaFake/CVE-2024-32002) :  ![starts](https://img.shields.io/github/stars/YukaFake/CVE-2024-32002.svg) ![forks](https://img.shields.io/github/forks/YukaFake/CVE-2024-32002.svg)
+- [https://github.com/YukaFake/malicious-hook](https://github.com/YukaFake/malicious-hook) :  ![starts](https://img.shields.io/github/stars/YukaFake/malicious-hook.svg) ![forks](https://img.shields.io/github/forks/YukaFake/malicious-hook.svg)
+
+
+## CVE-2024-5491
+ Denial of Service in NetScaler ADC and NetScaler Gateway in NetScaler
+
+- [https://github.com/SAHALLL/CVE-2024-54916](https://github.com/SAHALLL/CVE-2024-54916) :  ![starts](https://img.shields.io/github/stars/SAHALLL/CVE-2024-54916.svg) ![forks](https://img.shields.io/github/forks/SAHALLL/CVE-2024-54916.svg)
+
+
+## CVE-2023-38831
+ RARLAB WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.
+
+- [https://github.com/ML-K-eng/CVE-2023-38831-Exploit-and-Detection](https://github.com/ML-K-eng/CVE-2023-38831-Exploit-and-Detection) :  ![starts](https://img.shields.io/github/stars/ML-K-eng/CVE-2023-38831-Exploit-and-Detection.svg) ![forks](https://img.shields.io/github/forks/ML-K-eng/CVE-2023-38831-Exploit-and-Detection.svg)
+
+
+## CVE-2023-28432
+and `MINIO_ROOT_PASSWORD`, resulting in information disclosure. All users of distributed deployment are impacted. All users are advised to upgrade to RELEASE.2023-03-20T20-16-18Z.
+
+- [https://github.com/BitWiz4rd/CVE-2023-28432](https://github.com/BitWiz4rd/CVE-2023-28432) :  ![starts](https://img.shields.io/github/stars/BitWiz4rd/CVE-2023-28432.svg) ![forks](https://img.shields.io/github/forks/BitWiz4rd/CVE-2023-28432.svg)
+
+
+## CVE-2023-24932
+ Secure Boot Security Feature Bypass Vulnerability
+
+- [https://github.com/helleflo1312/Orchestrated-Powershell-for-CVE-2023-24932](https://github.com/helleflo1312/Orchestrated-Powershell-for-CVE-2023-24932) :  ![starts](https://img.shields.io/github/stars/helleflo1312/Orchestrated-Powershell-for-CVE-2023-24932.svg) ![forks](https://img.shields.io/github/forks/helleflo1312/Orchestrated-Powershell-for-CVE-2023-24932.svg)
+
+
+## CVE-2022-45460
+ Multiple Xiongmai NVR devices, including MBD6304T V4.02.R11.00000117.10001.131900.00000 and NBD6808T-PL V4.02.R11.C7431119.12001.130000.00000, allow an unauthenticated and remote user to exploit a stack-based buffer overflow and crash the web server, resulting in a system reboot. An unauthenticated and remote attacker can execute arbitrary code by sending a crafted HTTP request that triggers the overflow condition via a long URI passed to a sprintf call. NOTE: this is different than CVE-2018-10088, but this may overlap CVE-2017-16725.
+
+- [https://github.com/born0monday/CVE-2022-45460](https://github.com/born0monday/CVE-2022-45460) :  ![starts](https://img.shields.io/github/stars/born0monday/CVE-2022-45460.svg) ![forks](https://img.shields.io/github/forks/born0monday/CVE-2022-45460.svg)
 
 
 ## CVE-2021-41773
  A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
+- [https://github.com/zer0qs/CVE-2021-41773](https://github.com/zer0qs/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/zer0qs/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/zer0qs/CVE-2021-41773.svg)
 
 
-## CVE-2007-4559
- Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.
+## CVE-2020-8163
+ The is a code injection vulnerability in versions of Rails prior to 5.0.1 that wouldallow an attacker who controlled the `locals` argument of a `render` call to perform a RCE.
 
-- [https://github.com/JamesDarf/wargame-tarpioka](https://github.com/JamesDarf/wargame-tarpioka) :  ![starts](https://img.shields.io/github/stars/JamesDarf/wargame-tarpioka.svg) ![forks](https://img.shields.io/github/forks/JamesDarf/wargame-tarpioka.svg)
+- [https://github.com/RedBinaryRabbit/CVE-2020-8163](https://github.com/RedBinaryRabbit/CVE-2020-8163) :  ![starts](https://img.shields.io/github/stars/RedBinaryRabbit/CVE-2020-8163.svg) ![forks](https://img.shields.io/github/forks/RedBinaryRabbit/CVE-2020-8163.svg)
+
+
+## CVE-2019-20372
+ NGINX before 1.17.7, with certain error_page configurations, allows HTTP request smuggling, as demonstrated by the ability of an attacker to read unauthorized web pages in environments where NGINX is being fronted by a load balancer.
+
+- [https://github.com/moften/cve_2019_20372](https://github.com/moften/cve_2019_20372) :  ![starts](https://img.shields.io/github/stars/moften/cve_2019_20372.svg) ![forks](https://img.shields.io/github/forks/moften/cve_2019_20372.svg)
+
+
+## CVE-2001-1473
+ The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
+
+- [https://github.com/s1mpl3c0d3/cvepoc](https://github.com/s1mpl3c0d3/cvepoc) :  ![starts](https://img.shields.io/github/stars/s1mpl3c0d3/cvepoc.svg) ![forks](https://img.shields.io/github/forks/s1mpl3c0d3/cvepoc.svg)
 
