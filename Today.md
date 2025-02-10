@@ -1,110 +1,67 @@
-# Update 2025-02-09
-## CVE-2025-0994
- Trimble Cityworks versions prior to 15.8.9 and Cityworks with office companion versions prior to 23.10 are vulnerable to a deserialization vulnerability. This could allow an authenticated user to perform a remote code execution attack against a customer’s Microsoft Internet Information Services (IIS) web server.
+# Update 2025-02-10
+## CVE-2025-23369
+ An improper verification of cryptographic signature vulnerability was identified in GitHub Enterprise Server that allowed signature spoofing for unauthorized internal users.  Instances not utilizing SAML single sign-on or where the attacker is not already an existing user were not impacted. This vulnerability affected all versions of GitHub Enterprise Server prior to 3.12.14, 3.13.10, 3.14.7, 3.15.2, and 3.16.0. This vulnerability was reported via the GitHub Bug Bounty program.
 
-- [https://github.com/rxerium/CVE-2025-0994](https://github.com/rxerium/CVE-2025-0994) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2025-0994.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2025-0994.svg)
-
-
-## CVE-2024-55215
- An issue in trojan v.2.0.0 through v.2.15.3 allows a remote attacker to escalate privileges via the initialization interface /auth/register.
-
-- [https://github.com/ainrm/Jrohy-trojan-unauth-poc](https://github.com/ainrm/Jrohy-trojan-unauth-poc) :  ![starts](https://img.shields.io/github/stars/ainrm/Jrohy-trojan-unauth-poc.svg) ![forks](https://img.shields.io/github/forks/ainrm/Jrohy-trojan-unauth-poc.svg)
+- [https://github.com/hakivvi/CVE-2025-23369](https://github.com/hakivvi/CVE-2025-23369) :  ![starts](https://img.shields.io/github/stars/hakivvi/CVE-2025-23369.svg) ![forks](https://img.shields.io/github/forks/hakivvi/CVE-2025-23369.svg)
 
 
-## CVE-2024-50379
-Users are recommended to upgrade to version 11.0.2, 10.1.34 or 9.0.98, which fixes the issue.
+## CVE-2024-6244
+ The PZ Frontend Manager WordPress plugin before 1.0.6 does not have CSRF checks in some places, which could allow attackers to make logged in users perform unwanted actions via CSRF attacks
 
-- [https://github.com/dkstar11q/CVE-2024-50379-nuclei](https://github.com/dkstar11q/CVE-2024-50379-nuclei) :  ![starts](https://img.shields.io/github/stars/dkstar11q/CVE-2024-50379-nuclei.svg) ![forks](https://img.shields.io/github/forks/dkstar11q/CVE-2024-50379-nuclei.svg)
-
-
-## CVE-2024-43425
- A flaw was found in Moodle. Additional restrictions are required to avoid a remote code execution risk in calculated question types. Note: This requires the capability to add/update questions.
-
-- [https://github.com/Snizi/Moodle-CVE-2024-43425-Exploit](https://github.com/Snizi/Moodle-CVE-2024-43425-Exploit) :  ![starts](https://img.shields.io/github/stars/Snizi/Moodle-CVE-2024-43425-Exploit.svg) ![forks](https://img.shields.io/github/forks/Snizi/Moodle-CVE-2024-43425-Exploit.svg)
+- [https://github.com/Nxploited/CVE-2024-6244](https://github.com/Nxploited/CVE-2024-6244) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-6244.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-6244.svg)
 
 
-## CVE-2024-39713
- A Server-Side Request Forgery (SSRF) affects Rocket.Chat's Twilio webhook endpoint before version 6.10.1.
+## CVE-2024-5057
+ Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Easy Digital Downloads allows SQL Injection.This issue affects Easy Digital Downloads: from n/a through 3.2.12.
 
-- [https://github.com/typical-pashochek/CVE-2024-39713](https://github.com/typical-pashochek/CVE-2024-39713) :  ![starts](https://img.shields.io/github/stars/typical-pashochek/CVE-2024-39713.svg) ![forks](https://img.shields.io/github/forks/typical-pashochek/CVE-2024-39713.svg)
-
-
-## CVE-2024-36404
- GeoTools is an open source Java library that provides tools for geospatial data. Prior to versions 31.2, 30.4, and 29.6, Remote Code Execution (RCE) is possible if an application uses certain GeoTools functionality to evaluate XPath expressions supplied by user input. Versions 31.2, 30.4, and 29.6 contain a fix for this issue. As a workaround, GeoTools can operate with reduced functionality by removing the `gt-complex` jar from one's application. As an example of the impact, application schema `datastore` would not function without the ability to use XPath expressions to query complex content. Alternatively, one may utilize a drop-in replacement GeoTools jar from SourceForge for versions 31.1, 30.3, 30.2, 29.2, 28.2, 27.5, 27.4, 26.7, 26.4, 25.2, and 24.0. These jars are for download only and are not available from maven central, intended to quickly provide a fix to affected applications.
-
-- [https://github.com/whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit) :  ![starts](https://img.shields.io/github/stars/whitebear-ch/GeoServerExploit.svg) ![forks](https://img.shields.io/github/forks/whitebear-ch/GeoServerExploit.svg)
+- [https://github.com/s1mpl3c0d3/cvepoc](https://github.com/s1mpl3c0d3/cvepoc) :  ![starts](https://img.shields.io/github/stars/s1mpl3c0d3/cvepoc.svg) ![forks](https://img.shields.io/github/forks/s1mpl3c0d3/cvepoc.svg)
 
 
-## CVE-2024-36401
-Versions 2.23.6, 2.24.4, and 2.25.2 contain a patch for the issue. A workaround exists by removing the `gt-complex-x.y.jar` file from the GeoServer where `x.y` is the GeoTools version (e.g., `gt-complex-31.1.jar` if running GeoServer 2.25.1). This will remove the vulnerable code from GeoServer but may break some GeoServer functionality or prevent GeoServer from deploying if the gt-complex module is needed.
+## CVE-2023-47119
+ Discourse is an open source platform for community discussion. Prior to version 3.1.3 of the `stable` branch and version 3.2.0.beta3 of the `beta` and `tests-passed` branches, some links can inject arbitrary HTML tags when rendered through our Onebox engine. The issue is patched in version 3.1.3 of the `stable` branch and version 3.2.0.beta3 of the `beta` and `tests-passed` branches. There are no known workarounds.
 
-- [https://github.com/whitebear-ch/GeoServerExploit](https://github.com/whitebear-ch/GeoServerExploit) :  ![starts](https://img.shields.io/github/stars/whitebear-ch/GeoServerExploit.svg) ![forks](https://img.shields.io/github/forks/whitebear-ch/GeoServerExploit.svg)
-
-
-## CVE-2024-35106
- NEXTU FLETA AX1500 WIFI6 v1.0.3 was discovered to contain a buffer overflow at /boafrm/formIpQoS. This vulnerability allows attackers to cause a Denial of Service (DoS) or potentially arbitrary code execution via a crafted POST request.
-
-- [https://github.com/laskdjlaskdj12/CVE-2024-35106-POC](https://github.com/laskdjlaskdj12/CVE-2024-35106-POC) :  ![starts](https://img.shields.io/github/stars/laskdjlaskdj12/CVE-2024-35106-POC.svg) ![forks](https://img.shields.io/github/forks/laskdjlaskdj12/CVE-2024-35106-POC.svg)
+- [https://github.com/BaadMaro/CVE-2023-47119](https://github.com/BaadMaro/CVE-2023-47119) :  ![starts](https://img.shields.io/github/stars/BaadMaro/CVE-2023-47119.svg) ![forks](https://img.shields.io/github/forks/BaadMaro/CVE-2023-47119.svg)
+- [https://github.com/Cristiano100/CVE-2023-47119](https://github.com/Cristiano100/CVE-2023-47119) :  ![starts](https://img.shields.io/github/stars/Cristiano100/CVE-2023-47119.svg) ![forks](https://img.shields.io/github/forks/Cristiano100/CVE-2023-47119.svg)
 
 
-## CVE-2024-32002
- Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
+## CVE-2023-26136
+ Versions of the package tough-cookie before 4.1.3 are vulnerable to Prototype Pollution due to improper handling of Cookies when using CookieJar in rejectPublicSuffixes=false mode. This issue arises from the manner in which the objects are initialized.
 
-- [https://github.com/YukaFake/CVE-2024-32002-Reverse-Shell](https://github.com/YukaFake/CVE-2024-32002-Reverse-Shell) :  ![starts](https://img.shields.io/github/stars/YukaFake/CVE-2024-32002-Reverse-Shell.svg) ![forks](https://img.shields.io/github/forks/YukaFake/CVE-2024-32002-Reverse-Shell.svg)
-- [https://github.com/YukaFake/CVE-2024-32002](https://github.com/YukaFake/CVE-2024-32002) :  ![starts](https://img.shields.io/github/stars/YukaFake/CVE-2024-32002.svg) ![forks](https://img.shields.io/github/forks/YukaFake/CVE-2024-32002.svg)
-- [https://github.com/YukaFake/malicious-hook](https://github.com/YukaFake/malicious-hook) :  ![starts](https://img.shields.io/github/stars/YukaFake/malicious-hook.svg) ![forks](https://img.shields.io/github/forks/YukaFake/malicious-hook.svg)
+- [https://github.com/morrisel/CVE-2023-26136](https://github.com/morrisel/CVE-2023-26136) :  ![starts](https://img.shields.io/github/stars/morrisel/CVE-2023-26136.svg) ![forks](https://img.shields.io/github/forks/morrisel/CVE-2023-26136.svg)
 
 
-## CVE-2024-5491
- Denial of Service in NetScaler ADC and NetScaler Gateway in NetScaler
+## CVE-2023-21716
+ Microsoft Word Remote Code Execution Vulnerability
 
-- [https://github.com/SAHALLL/CVE-2024-54916](https://github.com/SAHALLL/CVE-2024-54916) :  ![starts](https://img.shields.io/github/stars/SAHALLL/CVE-2024-54916.svg) ![forks](https://img.shields.io/github/forks/SAHALLL/CVE-2024-54916.svg)
-
-
-## CVE-2023-38831
- RARLAB WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.
-
-- [https://github.com/ML-K-eng/CVE-2023-38831-Exploit-and-Detection](https://github.com/ML-K-eng/CVE-2023-38831-Exploit-and-Detection) :  ![starts](https://img.shields.io/github/stars/ML-K-eng/CVE-2023-38831-Exploit-and-Detection.svg) ![forks](https://img.shields.io/github/forks/ML-K-eng/CVE-2023-38831-Exploit-and-Detection.svg)
+- [https://github.com/s1mpl3c0d3/cvepoc](https://github.com/s1mpl3c0d3/cvepoc) :  ![starts](https://img.shields.io/github/stars/s1mpl3c0d3/cvepoc.svg) ![forks](https://img.shields.io/github/forks/s1mpl3c0d3/cvepoc.svg)
 
 
-## CVE-2023-28432
-and `MINIO_ROOT_PASSWORD`, resulting in information disclosure. All users of distributed deployment are impacted. All users are advised to upgrade to RELEASE.2023-03-20T20-16-18Z.
+## CVE-2023-3824
+ In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE. 
 
-- [https://github.com/BitWiz4rd/CVE-2023-28432](https://github.com/BitWiz4rd/CVE-2023-28432) :  ![starts](https://img.shields.io/github/stars/BitWiz4rd/CVE-2023-28432.svg) ![forks](https://img.shields.io/github/forks/BitWiz4rd/CVE-2023-28432.svg)
-
-
-## CVE-2023-24932
- Secure Boot Security Feature Bypass Vulnerability
-
-- [https://github.com/helleflo1312/Orchestrated-Powershell-for-CVE-2023-24932](https://github.com/helleflo1312/Orchestrated-Powershell-for-CVE-2023-24932) :  ![starts](https://img.shields.io/github/stars/helleflo1312/Orchestrated-Powershell-for-CVE-2023-24932.svg) ![forks](https://img.shields.io/github/forks/helleflo1312/Orchestrated-Powershell-for-CVE-2023-24932.svg)
-
-
-## CVE-2022-45460
- Multiple Xiongmai NVR devices, including MBD6304T V4.02.R11.00000117.10001.131900.00000 and NBD6808T-PL V4.02.R11.C7431119.12001.130000.00000, allow an unauthenticated and remote user to exploit a stack-based buffer overflow and crash the web server, resulting in a system reboot. An unauthenticated and remote attacker can execute arbitrary code by sending a crafted HTTP request that triggers the overflow condition via a long URI passed to a sprintf call. NOTE: this is different than CVE-2018-10088, but this may overlap CVE-2017-16725.
-
-- [https://github.com/born0monday/CVE-2022-45460](https://github.com/born0monday/CVE-2022-45460) :  ![starts](https://img.shields.io/github/stars/born0monday/CVE-2022-45460.svg) ![forks](https://img.shields.io/github/forks/born0monday/CVE-2022-45460.svg)
+- [https://github.com/s1mpl3c0d3/cvepoc](https://github.com/s1mpl3c0d3/cvepoc) :  ![starts](https://img.shields.io/github/stars/s1mpl3c0d3/cvepoc.svg) ![forks](https://img.shields.io/github/forks/s1mpl3c0d3/cvepoc.svg)
 
 
 ## CVE-2021-41773
  A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/zer0qs/CVE-2021-41773](https://github.com/zer0qs/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/zer0qs/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/zer0qs/CVE-2021-41773.svg)
+- [https://github.com/Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Plunder283/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Plunder283/CVE-2021-41773.svg)
 
 
-## CVE-2020-8163
- The is a code injection vulnerability in versions of Rails prior to 5.0.1 that wouldallow an attacker who controlled the `locals` argument of a `render` call to perform a RCE.
+## CVE-2021-31755
+ An issue was discovered on Tenda AC11 devices with firmware through 02.03.01.104_CN. A stack buffer overflow vulnerability in /goform/setmac allows attackers to execute arbitrary code on the system via a crafted post request.
 
-- [https://github.com/RedBinaryRabbit/CVE-2020-8163](https://github.com/RedBinaryRabbit/CVE-2020-8163) :  ![starts](https://img.shields.io/github/stars/RedBinaryRabbit/CVE-2020-8163.svg) ![forks](https://img.shields.io/github/forks/RedBinaryRabbit/CVE-2020-8163.svg)
-
-
-## CVE-2019-20372
- NGINX before 1.17.7, with certain error_page configurations, allows HTTP request smuggling, as demonstrated by the ability of an attacker to read unauthorized web pages in environments where NGINX is being fronted by a load balancer.
-
-- [https://github.com/moften/cve_2019_20372](https://github.com/moften/cve_2019_20372) :  ![starts](https://img.shields.io/github/stars/moften/cve_2019_20372.svg) ![forks](https://img.shields.io/github/forks/moften/cve_2019_20372.svg)
+- [https://github.com/s1mpl3c0d3/cvepoc](https://github.com/s1mpl3c0d3/cvepoc) :  ![starts](https://img.shields.io/github/stars/s1mpl3c0d3/cvepoc.svg) ![forks](https://img.shields.io/github/forks/s1mpl3c0d3/cvepoc.svg)
 
 
-## CVE-2001-1473
- The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
+## CVE-2021-26855
+ Microsoft Exchange Server Remote Code Execution Vulnerability
+
+- [https://github.com/ShyTangerine/cve-2021-26855](https://github.com/ShyTangerine/cve-2021-26855) :  ![starts](https://img.shields.io/github/stars/ShyTangerine/cve-2021-26855.svg) ![forks](https://img.shields.io/github/forks/ShyTangerine/cve-2021-26855.svg)
+
+
+## CVE-2019-11248
+ The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
 
 - [https://github.com/s1mpl3c0d3/cvepoc](https://github.com/s1mpl3c0d3/cvepoc) :  ![starts](https://img.shields.io/github/stars/s1mpl3c0d3/cvepoc.svg) ![forks](https://img.shields.io/github/forks/s1mpl3c0d3/cvepoc.svg)
 
