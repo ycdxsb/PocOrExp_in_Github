@@ -350,11 +350,11 @@
 
 - [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
 
+- [https://github.com/mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2014-6271.svg)
+
 - [https://github.com/mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mattclegg/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mattclegg/CVE-2014-6271.svg)
 
 - [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
-
-- [https://github.com/mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2014-6271.svg)
 
 - [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
 
@@ -406,13 +406,13 @@
 
 - [https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/u20024804/bash-3.2-fixed-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/u20024804/bash-3.2-fixed-CVE-2014-6271.svg)
 
-- [https://github.com/teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit) :  ![starts](https://img.shields.io/github/stars/teedeedubya/bash-fix-exploit.svg) ![forks](https://img.shields.io/github/forks/teedeedubya/bash-fix-exploit.svg)
-
 - [https://github.com/u20024804/bash-4.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.2-fixed-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/u20024804/bash-4.2-fixed-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/u20024804/bash-4.2-fixed-CVE-2014-6271.svg)
 
 - [https://github.com/u20024804/bash-4.3-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.3-fixed-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/u20024804/bash-4.3-fixed-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/u20024804/bash-4.3-fixed-CVE-2014-6271.svg)
 
 - [https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-](https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-) :  ![starts](https://img.shields.io/github/stars/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-.svg) ![forks](https://img.shields.io/github/forks/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-.svg)
+
+- [https://github.com/teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit) :  ![starts](https://img.shields.io/github/stars/teedeedubya/bash-fix-exploit.svg) ![forks](https://img.shields.io/github/forks/teedeedubya/bash-fix-exploit.svg)
 
 - [https://github.com/ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock) :  ![starts](https://img.shields.io/github/stars/ariarijp/vagrant-shellshock.svg) ![forks](https://img.shields.io/github/forks/ariarijp/vagrant-shellshock.svg)
 
