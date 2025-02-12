@@ -19,6 +19,13 @@
 
 - [https://github.com/DoTTak/CVE-2025-24587](https://github.com/DoTTak/CVE-2025-24587) :  ![starts](https://img.shields.io/github/stars/DoTTak/CVE-2025-24587.svg) ![forks](https://img.shields.io/github/forks/DoTTak/CVE-2025-24587.svg)
 
+## CVE-2025-24200
+ An authorization issue was addressed with improved state management. This issue is fixed in iPadOS 17.7.5, iOS 18.3.1 and iPadOS 18.3.1. A physical attack may disable USB Restricted Mode on a locked device. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals.
+
+
+
+- [https://github.com/McTavishSue/CVE-2025-24200](https://github.com/McTavishSue/CVE-2025-24200) :  ![starts](https://img.shields.io/github/stars/McTavishSue/CVE-2025-24200.svg) ![forks](https://img.shields.io/github/forks/McTavishSue/CVE-2025-24200.svg)
+
 ## CVE-2025-24118
  The issue was addressed with improved memory handling. This issue is fixed in iPadOS 17.7.4, macOS Sequoia 15.3, macOS Sonoma 14.7.3. An app may be able to cause unexpected system termination or write kernel memory.
 
