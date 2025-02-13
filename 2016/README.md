@@ -530,6 +530,13 @@
 
 - [https://github.com/KosukeShimofuji/CVE-2016-7117](https://github.com/KosukeShimofuji/CVE-2016-7117) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-7117.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-7117.svg)
 
+## CVE-2016-6914
+ Ubiquiti UniFi Video before 3.8.0 for Windows uses weak permissions for the installation directory, which allows local users to gain SYSTEM privileges via a Trojan horse taskkill.exe file.
+
+
+
+- [https://github.com/CybermonkX/CVE-2016-6914-UniFiVideo-LPE](https://github.com/CybermonkX/CVE-2016-6914-UniFiVideo-LPE) :  ![starts](https://img.shields.io/github/stars/CybermonkX/CVE-2016-6914-UniFiVideo-LPE.svg) ![forks](https://img.shields.io/github/forks/CybermonkX/CVE-2016-6914-UniFiVideo-LPE.svg)
+
 ## CVE-2016-6801
  Cross-site request forgery (CSRF) vulnerability in the CSRF content-type check in Jackrabbit-Webdav in Apache Jackrabbit 2.4.x before 2.4.6, 2.6.x before 2.6.6, 2.8.x before 2.8.3, 2.10.x before 2.10.4, 2.12.x before 2.12.4, and 2.13.x before 2.13.3 allows remote attackers to hijack the authentication of unspecified victims for requests that create a resource via an HTTP POST request with a (1) missing or (2) crafted Content-Type header.
 
@@ -833,13 +840,13 @@
 
 - [https://github.com/ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ldenevi/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ldenevi/CVE-2016-5195.svg)
 
-- [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
-
-- [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
-
 - [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
 
 - [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
+
+- [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
+
+- [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
 
 - [https://github.com/EDLLT/CVE-2016-5195-master](https://github.com/EDLLT/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/EDLLT/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/EDLLT/CVE-2016-5195-master.svg)
 
@@ -857,9 +864,9 @@
 
 - [https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB](https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB) :  ![starts](https://img.shields.io/github/stars/sakilahamed/Linux-Kernel-Exploit-LAB.svg) ![forks](https://img.shields.io/github/forks/sakilahamed/Linux-Kernel-Exploit-LAB.svg)
 
-- [https://github.com/passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs) :  ![starts](https://img.shields.io/github/stars/passionchenjianyegmail8/scumjrs.svg) ![forks](https://img.shields.io/github/forks/passionchenjianyegmail8/scumjrs.svg)
-
 - [https://github.com/vinspiert/scumjrs](https://github.com/vinspiert/scumjrs) :  ![starts](https://img.shields.io/github/stars/vinspiert/scumjrs.svg) ![forks](https://img.shields.io/github/forks/vinspiert/scumjrs.svg)
+
+- [https://github.com/passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs) :  ![starts](https://img.shields.io/github/stars/passionchenjianyegmail8/scumjrs.svg) ![forks](https://img.shields.io/github/forks/passionchenjianyegmail8/scumjrs.svg)
 
 - [https://github.com/1equeneRise/scumjr9](https://github.com/1equeneRise/scumjr9) :  ![starts](https://img.shields.io/github/stars/1equeneRise/scumjr9.svg) ![forks](https://img.shields.io/github/forks/1equeneRise/scumjr9.svg)
 
@@ -1409,9 +1416,9 @@
 
 - [https://github.com/bazad/rootsh](https://github.com/bazad/rootsh) :  ![starts](https://img.shields.io/github/stars/bazad/rootsh.svg) ![forks](https://img.shields.io/github/forks/bazad/rootsh.svg)
 
-- [https://github.com/berritus163t/bazad5](https://github.com/berritus163t/bazad5) :  ![starts](https://img.shields.io/github/stars/berritus163t/bazad5.svg) ![forks](https://img.shields.io/github/forks/berritus163t/bazad5.svg)
-
 - [https://github.com/zqlblingzs/bazad5](https://github.com/zqlblingzs/bazad5) :  ![starts](https://img.shields.io/github/stars/zqlblingzs/bazad5.svg) ![forks](https://img.shields.io/github/forks/zqlblingzs/bazad5.svg)
+
+- [https://github.com/berritus163t/bazad5](https://github.com/berritus163t/bazad5) :  ![starts](https://img.shields.io/github/stars/berritus163t/bazad5.svg) ![forks](https://img.shields.io/github/forks/berritus163t/bazad5.svg)
 
 - [https://github.com/SideGreenHand100/bazad5](https://github.com/SideGreenHand100/bazad5) :  ![starts](https://img.shields.io/github/stars/SideGreenHand100/bazad5.svg) ![forks](https://img.shields.io/github/forks/SideGreenHand100/bazad5.svg)
 
