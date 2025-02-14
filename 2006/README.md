@@ -5,7 +5,6 @@ This issue affects Apache HTTP Server 2.4.54 and earlier.
 
 
 
-
 - [https://github.com/r1az4r/CVE-2006-20001](https://github.com/r1az4r/CVE-2006-20001) :  ![starts](https://img.shields.io/github/stars/r1az4r/CVE-2006-20001.svg) ![forks](https://img.shields.io/github/forks/r1az4r/CVE-2006-20001.svg)
 
 ## CVE-2006-6184
