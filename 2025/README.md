@@ -1,3 +1,10 @@
+## CVE-2025-25064
+ SQL injection vulnerability in the ZimbraSync Service SOAP endpoint in Zimbra Collaboration 10.0.x before 10.0.12 and 10.1.x before 10.1.4 due to insufficient sanitization of a user-supplied parameter. Authenticated attackers can exploit this vulnerability by manipulating a specific parameter in the request, allowing them to inject arbitrary SQL queries that could retrieve email metadata.
+
+
+
+- [https://github.com/yelang123/Zimbra10_SQL_Injection](https://github.com/yelang123/Zimbra10_SQL_Injection) :  ![starts](https://img.shields.io/github/stars/yelang123/Zimbra10_SQL_Injection.svg) ![forks](https://img.shields.io/github/forks/yelang123/Zimbra10_SQL_Injection.svg)
+
 ## CVE-2025-25062
  An XSS issue was discovered in Backdrop CMS 1.28.x before 1.28.5 and 1.29.x before 1.29.3. It doesn't sufficiently isolate long text content when the CKEditor 5 rich text editor is used. This allows a potential attacker to craft specialized HTML and JavaScript that may be executed when an administrator attempts to edit a piece of content. This vulnerability is mitigated by the fact that an attacker must have the ability to create long text content (such as through the node or comment forms) and an administrator must edit (not view) the content that contains the malicious content. This problem only exists when using the CKEditor 5 module.
 
@@ -116,6 +123,13 @@ CloudStack admins may also disallow listAnnotations and addAnnotation API access
 
 - [https://github.com/DoTTak/CVE-2025-22510](https://github.com/DoTTak/CVE-2025-22510) :  ![starts](https://img.shields.io/github/stars/DoTTak/CVE-2025-22510.svg) ![forks](https://img.shields.io/github/forks/DoTTak/CVE-2025-22510.svg)
 
+## CVE-2025-22467
+ A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6 allows a remote authenticated attacker to achieve remote code execution.
+
+
+
+- [https://github.com/NyxanGoat/CVE-2025-22467-PoC](https://github.com/NyxanGoat/CVE-2025-22467-PoC) :  ![starts](https://img.shields.io/github/stars/NyxanGoat/CVE-2025-22467-PoC.svg) ![forks](https://img.shields.io/github/forks/NyxanGoat/CVE-2025-22467-PoC.svg)
+
 ## CVE-2025-22352
  Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ELEXtensions ELEX WooCommerce Advanced Bulk Edit Products, Prices & Attributes allows Blind SQL Injection.This issue affects ELEX WooCommerce Advanced Bulk Edit Products, Prices & Attributes: from n/a through 1.4.8.
 
@@ -180,8 +194,6 @@ The specific flaw exists within the handling of archived files. When extracting 
 - [https://github.com/AdaniKamal/CVE-2025-0282](https://github.com/AdaniKamal/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/AdaniKamal/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/AdaniKamal/CVE-2025-0282.svg)
 
 - [https://github.com/chiefchainer/CVE-2025-0282](https://github.com/chiefchainer/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/chiefchainer/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/chiefchainer/CVE-2025-0282.svg)
-
-- [https://github.com/NyxanGoat/CVE-2025-0282-PoC](https://github.com/NyxanGoat/CVE-2025-0282-PoC) :  ![starts](https://img.shields.io/github/stars/NyxanGoat/CVE-2025-0282-PoC.svg) ![forks](https://img.shields.io/github/forks/NyxanGoat/CVE-2025-0282-PoC.svg)
 
 - [https://github.com/rxwx/pulse-meter](https://github.com/rxwx/pulse-meter) :  ![starts](https://img.shields.io/github/stars/rxwx/pulse-meter.svg) ![forks](https://img.shields.io/github/forks/rxwx/pulse-meter.svg)
 
