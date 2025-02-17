@@ -1,55 +1,64 @@
-# Update 2025-02-16
-## CVE-2025-0108
-This issue does not affect Cloud NGFW or Prisma Access software.
+# Update 2025-02-17
+## CVE-2025-25064
+ SQL injection vulnerability in the ZimbraSync Service SOAP endpoint in Zimbra Collaboration 10.0.x before 10.0.12 and 10.1.x before 10.1.4 due to insufficient sanitization of a user-supplied parameter. Authenticated attackers can exploit this vulnerability by manipulating a specific parameter in the request, allowing them to inject arbitrary SQL queries that could retrieve email metadata.
 
-- [https://github.com/FOLKS-iwd/CVE-2025-0108-PoC](https://github.com/FOLKS-iwd/CVE-2025-0108-PoC) :  ![starts](https://img.shields.io/github/stars/FOLKS-iwd/CVE-2025-0108-PoC.svg) ![forks](https://img.shields.io/github/forks/FOLKS-iwd/CVE-2025-0108-PoC.svg)
-
-
-## CVE-2024-57778
- An issue in Orbe ONetView Roeador Onet-1200 Orbe 1680210096 allows a remote attacker to escalate privileges via the servers response from status code 500 to status code 200.
-
-- [https://github.com/KUK3N4N/CVE-2024-57778](https://github.com/KUK3N4N/CVE-2024-57778) :  ![starts](https://img.shields.io/github/stars/KUK3N4N/CVE-2024-57778.svg) ![forks](https://img.shields.io/github/forks/KUK3N4N/CVE-2024-57778.svg)
+- [https://github.com/yelang123/Zimbra10_SQL_Injection](https://github.com/yelang123/Zimbra10_SQL_Injection) :  ![starts](https://img.shields.io/github/stars/yelang123/Zimbra10_SQL_Injection.svg) ![forks](https://img.shields.io/github/forks/yelang123/Zimbra10_SQL_Injection.svg)
 
 
-## CVE-2024-57725
- An issue in the Arcadyan Livebox Fibra PRV3399B_B_LT allows a remote or local attacker to modify the GPON link value without authentication, causing an internet service disruption via the /firstconnection.cgi endpoint.
+## CVE-2025-22467
+ A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6 allows a remote authenticated attacker to achieve remote code execution.
 
-- [https://github.com/pointedsec/CVE-2024-57725](https://github.com/pointedsec/CVE-2024-57725) :  ![starts](https://img.shields.io/github/stars/pointedsec/CVE-2024-57725.svg) ![forks](https://img.shields.io/github/forks/pointedsec/CVE-2024-57725.svg)
-
-
-## CVE-2024-38819
- Applications serving static resources through the functional web frameworks WebMvc.fn or WebFlux.fn are vulnerable to path traversal attacks. An attacker can craft malicious HTTP requests and obtain any file on the file system that is also accessible to the process in which the Spring application is running.
-
-- [https://github.com/skrkcb2/cve-2024-38819](https://github.com/skrkcb2/cve-2024-38819) :  ![starts](https://img.shields.io/github/stars/skrkcb2/cve-2024-38819.svg) ![forks](https://img.shields.io/github/forks/skrkcb2/cve-2024-38819.svg)
+- [https://github.com/NyxanGoat/CVE-2025-22467-PoC](https://github.com/NyxanGoat/CVE-2025-22467-PoC) :  ![starts](https://img.shields.io/github/stars/NyxanGoat/CVE-2025-22467-PoC.svg) ![forks](https://img.shields.io/github/forks/NyxanGoat/CVE-2025-22467-PoC.svg)
 
 
-## CVE-2024-36401
-Versions 2.23.6, 2.24.4, and 2.25.2 contain a patch for the issue. A workaround exists by removing the `gt-complex-x.y.jar` file from the GeoServer where `x.y` is the GeoTools version (e.g., `gt-complex-31.1.jar` if running GeoServer 2.25.1). This will remove the vulnerable code from GeoServer but may break some GeoServer functionality or prevent GeoServer from deploying if the gt-complex module is needed.
+## CVE-2024-49113
+ Windows Lightweight Directory Access Protocol (LDAP) Denial of Service Vulnerability
 
-- [https://github.com/unlinedvol/CVE-2024-36401](https://github.com/unlinedvol/CVE-2024-36401) :  ![starts](https://img.shields.io/github/stars/unlinedvol/CVE-2024-36401.svg) ![forks](https://img.shields.io/github/forks/unlinedvol/CVE-2024-36401.svg)
-
-
-## CVE-2024-10924
- The Really Simple Security (Free, Pro, and Pro Multisite) plugins for WordPress are vulnerable to authentication bypass in versions 9.0.0 to 9.1.1.1. This is due to improper user check error handling in the two-factor REST API actions with the 'check_login_and_get_user' function. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, when the "Two-Factor Authentication" setting is enabled (disabled by default).
-
-- [https://github.com/h8sU/wordpress-cve-2024-10924-exploit](https://github.com/h8sU/wordpress-cve-2024-10924-exploit) :  ![starts](https://img.shields.io/github/stars/h8sU/wordpress-cve-2024-10924-exploit.svg) ![forks](https://img.shields.io/github/forks/h8sU/wordpress-cve-2024-10924-exploit.svg)
+- [https://github.com/0xMetr0/metasploit-ldapnightmare](https://github.com/0xMetr0/metasploit-ldapnightmare) :  ![starts](https://img.shields.io/github/stars/0xMetr0/metasploit-ldapnightmare.svg) ![forks](https://img.shields.io/github/forks/0xMetr0/metasploit-ldapnightmare.svg)
 
 
-## CVE-2024-10914
- A vulnerability was found in D-Link DNS-320, DNS-320LW, DNS-325 and DNS-340L up to 20241028. It has been declared as critical. Affected by this vulnerability is the function cgi_user_add of the file /cgi-bin/account_mgr.cgi?cmd=cgi_user_add. The manipulation of the argument name leads to os command injection. The attack can be launched remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used.
+## CVE-2024-24919
+ Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN or Mobile Access Software Blades. A Security fix that mitigates this vulnerability is available.
 
-- [https://github.com/silverxpymaster/CVE-2024-10914-Exploit](https://github.com/silverxpymaster/CVE-2024-10914-Exploit) :  ![starts](https://img.shields.io/github/stars/silverxpymaster/CVE-2024-10914-Exploit.svg) ![forks](https://img.shields.io/github/forks/silverxpymaster/CVE-2024-10914-Exploit.svg)
-
-
-## CVE-2024-5452
- A remote code execution (RCE) vulnerability exists in the lightning-ai/pytorch-lightning library version 2.2.1 due to improper handling of deserialized user input and mismanagement of dunder attributes by the `deepdiff` library. The library uses `deepdiff.Delta` objects to modify application state based on frontend actions. However, it is possible to bypass the intended restrictions on modifying dunder attributes, allowing an attacker to construct a serialized delta that passes the deserializer whitelist and contains dunder attributes. When processed, this can be exploited to access other modules, classes, and instances, leading to arbitrary attribute write and total RCE on any self-hosted pytorch-lightning application in its default configuration, as the delta endpoint is enabled by default.
-
-- [https://github.com/skrkcb2/CVE-2024-5452](https://github.com/skrkcb2/CVE-2024-5452) :  ![starts](https://img.shields.io/github/stars/skrkcb2/CVE-2024-5452.svg) ![forks](https://img.shields.io/github/forks/skrkcb2/CVE-2024-5452.svg)
+- [https://github.com/hashdr1ft/SOC_287](https://github.com/hashdr1ft/SOC_287) :  ![starts](https://img.shields.io/github/stars/hashdr1ft/SOC_287.svg) ![forks](https://img.shields.io/github/forks/hashdr1ft/SOC_287.svg)
 
 
-## CVE-2024-4577
- In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use "Best-Fit" behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
+## CVE-2024-7985
+ The FileOrganizer – Manage WordPress and Website Files plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the "fileorganizer_ajax_handler" function in all versions up to, and including, 1.0.9. This makes it possible for authenticated attackers, with Subscriber-level access and above, and permissions granted by an administrator, to upload arbitrary files on the affected site's server which may make remote code execution possible. NOTE: The FileOrganizer Pro plugin must be installed and active to allow Subscriber+ users to upload files.
 
-- [https://github.com/chihyeonwon/php-cgi-cve-2024-4577](https://github.com/chihyeonwon/php-cgi-cve-2024-4577) :  ![starts](https://img.shields.io/github/stars/chihyeonwon/php-cgi-cve-2024-4577.svg) ![forks](https://img.shields.io/github/forks/chihyeonwon/php-cgi-cve-2024-4577.svg)
-- [https://github.com/Didarul342/CVE-2024-4577](https://github.com/Didarul342/CVE-2024-4577) :  ![starts](https://img.shields.io/github/stars/Didarul342/CVE-2024-4577.svg) ![forks](https://img.shields.io/github/forks/Didarul342/CVE-2024-4577.svg)
+- [https://github.com/Nxploited/CVE-2024-7985-PoC](https://github.com/Nxploited/CVE-2024-7985-PoC) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-7985-PoC.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-7985-PoC.svg)
+
+
+## CVE-2024-3400
+Cloud NGFW, Panorama appliances, and Prisma Access are not impacted by this vulnerability.
+
+- [https://github.com/hashdr1ft/SOC274-Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400](https://github.com/hashdr1ft/SOC274-Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400) :  ![starts](https://img.shields.io/github/stars/hashdr1ft/SOC274-Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400.svg) ![forks](https://img.shields.io/github/forks/hashdr1ft/SOC274-Palo-Alto-Networks-PAN-OS-Command-Injection-Vulnerability-Exploitation-CVE-2024-3400.svg)
+
+
+## CVE-2023-3824
+ In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE.
+
+- [https://github.com/exploitdevelop/CVE-2023-3824](https://github.com/exploitdevelop/CVE-2023-3824) :  ![starts](https://img.shields.io/github/stars/exploitdevelop/CVE-2023-3824.svg) ![forks](https://img.shields.io/github/forks/exploitdevelop/CVE-2023-3824.svg)
+- [https://github.com/fr33c0d3/poc-cve-2023-3824](https://github.com/fr33c0d3/poc-cve-2023-3824) :  ![starts](https://img.shields.io/github/stars/fr33c0d3/poc-cve-2023-3824.svg) ![forks](https://img.shields.io/github/forks/fr33c0d3/poc-cve-2023-3824.svg)
+- [https://github.com/jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824) :  ![starts](https://img.shields.io/github/stars/jhonnybonny/CVE-2023-3824.svg) ![forks](https://img.shields.io/github/forks/jhonnybonny/CVE-2023-3824.svg)
+- [https://github.com/bluefish3r/poc-cve](https://github.com/bluefish3r/poc-cve) :  ![starts](https://img.shields.io/github/stars/bluefish3r/poc-cve.svg) ![forks](https://img.shields.io/github/forks/bluefish3r/poc-cve.svg)
+- [https://github.com/s1mpl3c0d3/cvepoc](https://github.com/s1mpl3c0d3/cvepoc) :  ![starts](https://img.shields.io/github/stars/s1mpl3c0d3/cvepoc.svg) ![forks](https://img.shields.io/github/forks/s1mpl3c0d3/cvepoc.svg)
+
+
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+
+- [https://github.com/ch4os443/CVE-2021-41773](https://github.com/ch4os443/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/ch4os443/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/ch4os443/CVE-2021-41773.svg)
+
+
+## CVE-2020-1938
+ When using the Apache JServ Protocol (AJP), care must be taken when trusting incoming connections to Apache Tomcat. Tomcat treats AJP connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited in ways that may be surprising. In Apache Tomcat 9.0.0.M1 to 9.0.0.30, 8.5.0 to 8.5.50 and 7.0.0 to 7.0.99, Tomcat shipped with an AJP Connector enabled by default that listened on all configured IP addresses. It was expected (and recommended in the security guide) that this Connector would be disabled if not required. This vulnerability report identified a mechanism that allowed: - returning arbitrary files from anywhere in the web application - processing any file in the web application as a JSP Further, if the web application allowed file upload and stored those files within the web application (or the attacker was able to control the content of the web application by some other means) then this, along with the ability to process a file as a JSP, made remote code execution possible. It is important to note that mitigation is only required if an AJP port is accessible to untrusted users. Users wishing to take a defence-in-depth approach and block the vector that permits returning arbitrary files and execution as JSP may upgrade to Apache Tomcat 9.0.31, 8.5.51 or 7.0.100 or later. A number of changes were made to the default AJP Connector configuration in 9.0.31 to harden the default configuration. It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 or later will need to make small changes to their configurations.
+
+- [https://github.com/hopsypopsy8/CVE-2020-1938-Exploitation](https://github.com/hopsypopsy8/CVE-2020-1938-Exploitation) :  ![starts](https://img.shields.io/github/stars/hopsypopsy8/CVE-2020-1938-Exploitation.svg) ![forks](https://img.shields.io/github/forks/hopsypopsy8/CVE-2020-1938-Exploitation.svg)
+
+
+## CVE-2019-0567
+ A remote code execution vulnerability exists in the way that the Chakra scripting engine handles objects in memory in Microsoft Edge, aka "Chakra Scripting Engine Memory Corruption Vulnerability." This affects Microsoft Edge, ChakraCore. This CVE ID is unique from CVE-2019-0539, CVE-2019-0568.
+
+- [https://github.com/ntdelta/chakra-exploit-framework](https://github.com/ntdelta/chakra-exploit-framework) :  ![starts](https://img.shields.io/github/stars/ntdelta/chakra-exploit-framework.svg) ![forks](https://img.shields.io/github/forks/ntdelta/chakra-exploit-framework.svg)
 
