@@ -5,6 +5,13 @@
 
 - [https://github.com/rxerium/CVE-2025-26465](https://github.com/rxerium/CVE-2025-26465) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2025-26465.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2025-26465.svg)
 
+## CVE-2025-25968
+ DDSN Interactive cm3 Acora CMS version 10.1.1 contains an improper access control vulnerability. An editor-privileged user can access sensitive information, such as system administrator credentials, by force browsing the endpoint and exploiting the 'file' parameter. By referencing specific files (e.g., cm3.xml), attackers can bypass access controls, leading to account takeover and potential privilege escalation.
+
+
+
+- [https://github.com/padayali-JD/CVE-2025-25968](https://github.com/padayali-JD/CVE-2025-25968) :  ![starts](https://img.shields.io/github/stars/padayali-JD/CVE-2025-25968.svg) ![forks](https://img.shields.io/github/forks/padayali-JD/CVE-2025-25968.svg)
+
 ## CVE-2025-25163
  Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Zach Swetz Plugin A/B Image Optimizer allows Path Traversal. This issue affects Plugin A/B Image Optimizer: from n/a through 3.3.
 
@@ -27,6 +34,13 @@
 
 
 - [https://github.com/rhburt/CVE-2025-25062](https://github.com/rhburt/CVE-2025-25062) :  ![starts](https://img.shields.io/github/stars/rhburt/CVE-2025-25062.svg) ![forks](https://img.shields.io/github/forks/rhburt/CVE-2025-25062.svg)
+
+## CVE-2025-24971
+ DumpDrop is a stupid simple file upload application that provides an interface for dragging and dropping files. An OS Command Injection vulnerability was discovered in the DumbDrop application, `/upload/init` endpoint. This vulnerability could allow an attacker to execute arbitrary code remotely when the **Apprise Notification** enabled. This issue has been addressed in commit `4ff8469d` and all users are advised to patch. There are no known workarounds for this vulnerability.
+
+
+
+- [https://github.com/be4zad/CVE-2025-24971](https://github.com/be4zad/CVE-2025-24971) :  ![starts](https://img.shields.io/github/stars/be4zad/CVE-2025-24971.svg) ![forks](https://img.shields.io/github/forks/be4zad/CVE-2025-24971.svg)
 
 ## CVE-2025-24659
  Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WordPress Download Manager Premium Packages allows Blind SQL Injection. This issue affects Premium Packages: from n/a through 5.9.6.
@@ -73,6 +87,8 @@
 - [https://github.com/0xjessie21/CVE-2025-24016](https://github.com/0xjessie21/CVE-2025-24016) :  ![starts](https://img.shields.io/github/stars/0xjessie21/CVE-2025-24016.svg) ![forks](https://img.shields.io/github/forks/0xjessie21/CVE-2025-24016.svg)
 
 - [https://github.com/huseyinstif/CVE-2025-24016-Nuclei-Template](https://github.com/huseyinstif/CVE-2025-24016-Nuclei-Template) :  ![starts](https://img.shields.io/github/stars/huseyinstif/CVE-2025-24016-Nuclei-Template.svg) ![forks](https://img.shields.io/github/forks/huseyinstif/CVE-2025-24016-Nuclei-Template.svg)
+
+- [https://github.com/MuhammadWaseem29/CVE-2025-24016](https://github.com/MuhammadWaseem29/CVE-2025-24016) :  ![starts](https://img.shields.io/github/stars/MuhammadWaseem29/CVE-2025-24016.svg) ![forks](https://img.shields.io/github/forks/MuhammadWaseem29/CVE-2025-24016.svg)
 
 ## CVE-2025-23369
  An improper verification of cryptographic signature vulnerability was identified in GitHub Enterprise Server that allowed signature spoofing for unauthorized internal users.  Instances not utilizing SAML single sign-on or where the attacker is not already an existing user were not impacted. This vulnerability affected all versions of GitHub Enterprise Server prior to 3.12.14, 3.13.10, 3.14.7, 3.15.2, and 3.16.0. This vulnerability was reported via the GitHub Bug Bounty program.
@@ -168,6 +184,15 @@ CloudStack admins may also disallow listAnnotations and addAnnotation API access
 
 
 - [https://github.com/Network-Sec/CVE-2025-21420-PoC](https://github.com/Network-Sec/CVE-2025-21420-PoC) :  ![starts](https://img.shields.io/github/stars/Network-Sec/CVE-2025-21420-PoC.svg) ![forks](https://img.shields.io/github/forks/Network-Sec/CVE-2025-21420-PoC.svg)
+
+- [https://github.com/toxy4ny/edge-maradeur](https://github.com/toxy4ny/edge-maradeur) :  ![starts](https://img.shields.io/github/stars/toxy4ny/edge-maradeur.svg) ![forks](https://img.shields.io/github/forks/toxy4ny/edge-maradeur.svg)
+
+## CVE-2025-21401
+ Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability
+
+
+
+- [https://github.com/toxy4ny/edge-maradeur](https://github.com/toxy4ny/edge-maradeur) :  ![starts](https://img.shields.io/github/stars/toxy4ny/edge-maradeur.svg) ![forks](https://img.shields.io/github/forks/toxy4ny/edge-maradeur.svg)
 
 ## CVE-2025-21385
  A Server-Side Request Forgery (SSRF) vulnerability in Microsoft Purview allows an authorized attacker to disclose information over a network.
