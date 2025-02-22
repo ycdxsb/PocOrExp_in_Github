@@ -365,13 +365,13 @@
 
 - [https://github.com/tannlh/CVE-2018-20250](https://github.com/tannlh/CVE-2018-20250) :  ![starts](https://img.shields.io/github/stars/tannlh/CVE-2018-20250.svg) ![forks](https://img.shields.io/github/forks/tannlh/CVE-2018-20250.svg)
 
-- [https://github.com/likekabin/CVE-2018-20250](https://github.com/likekabin/CVE-2018-20250) :  ![starts](https://img.shields.io/github/stars/likekabin/CVE-2018-20250.svg) ![forks](https://img.shields.io/github/forks/likekabin/CVE-2018-20250.svg)
-
 - [https://github.com/tzwlhack/CVE-2018-20250](https://github.com/tzwlhack/CVE-2018-20250) :  ![starts](https://img.shields.io/github/stars/tzwlhack/CVE-2018-20250.svg) ![forks](https://img.shields.io/github/forks/tzwlhack/CVE-2018-20250.svg)
 
-- [https://github.com/joydragon/Detect-CVE-2018-20250](https://github.com/joydragon/Detect-CVE-2018-20250) :  ![starts](https://img.shields.io/github/stars/joydragon/Detect-CVE-2018-20250.svg) ![forks](https://img.shields.io/github/forks/joydragon/Detect-CVE-2018-20250.svg)
+- [https://github.com/likekabin/CVE-2018-20250](https://github.com/likekabin/CVE-2018-20250) :  ![starts](https://img.shields.io/github/stars/likekabin/CVE-2018-20250.svg) ![forks](https://img.shields.io/github/forks/likekabin/CVE-2018-20250.svg)
 
 - [https://github.com/LamSonBinh/CVE-2018-20250](https://github.com/LamSonBinh/CVE-2018-20250) :  ![starts](https://img.shields.io/github/stars/LamSonBinh/CVE-2018-20250.svg) ![forks](https://img.shields.io/github/forks/LamSonBinh/CVE-2018-20250.svg)
+
+- [https://github.com/joydragon/Detect-CVE-2018-20250](https://github.com/joydragon/Detect-CVE-2018-20250) :  ![starts](https://img.shields.io/github/stars/joydragon/Detect-CVE-2018-20250.svg) ![forks](https://img.shields.io/github/forks/joydragon/Detect-CVE-2018-20250.svg)
 
 ## CVE-2018-20165
  Cross-site scripting (XSS) vulnerability in OpenText Portal 7.4.4 allows remote attackers to inject arbitrary web script or HTML via the vgnextoid parameter to a menuitem URI.
@@ -776,11 +776,11 @@
 
 - [https://github.com/jiahuiLeee/test](https://github.com/jiahuiLeee/test) :  ![starts](https://img.shields.io/github/stars/jiahuiLeee/test.svg) ![forks](https://img.shields.io/github/forks/jiahuiLeee/test.svg)
 
-- [https://github.com/matlink/CVE-2018-17456](https://github.com/matlink/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/matlink/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/matlink/CVE-2018-17456.svg)
-
 - [https://github.com/KKkai0315/CVE-2018-17456](https://github.com/KKkai0315/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/KKkai0315/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/KKkai0315/CVE-2018-17456.svg)
 
 - [https://github.com/shpik-kr/CVE-2018-17456](https://github.com/shpik-kr/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/shpik-kr/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/shpik-kr/CVE-2018-17456.svg)
+
+- [https://github.com/matlink/CVE-2018-17456](https://github.com/matlink/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/matlink/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/matlink/CVE-2018-17456.svg)
 
 - [https://github.com/799600966/CVE-2018-17456](https://github.com/799600966/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/799600966/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/799600966/CVE-2018-17456.svg)
 
@@ -977,9 +977,9 @@
 
 - [https://github.com/dinhbaouit/CVE-2018-16763](https://github.com/dinhbaouit/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/dinhbaouit/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/dinhbaouit/CVE-2018-16763.svg)
 
-- [https://github.com/VitoBonetti/CVE-2018-16763](https://github.com/VitoBonetti/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/VitoBonetti/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/VitoBonetti/CVE-2018-16763.svg)
-
 - [https://github.com/antisecc/CVE-2018-16763](https://github.com/antisecc/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/antisecc/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/antisecc/CVE-2018-16763.svg)
+
+- [https://github.com/VitoBonetti/CVE-2018-16763](https://github.com/VitoBonetti/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/VitoBonetti/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/VitoBonetti/CVE-2018-16763.svg)
 
 - [https://github.com/Kz0x-337/CVE-2018-16763](https://github.com/Kz0x-337/CVE-2018-16763) :  ![starts](https://img.shields.io/github/stars/Kz0x-337/CVE-2018-16763.svg) ![forks](https://img.shields.io/github/forks/Kz0x-337/CVE-2018-16763.svg)
 
@@ -2203,9 +2203,9 @@
 
 - [https://github.com/cve-2018/cve-2018-10933](https://github.com/cve-2018/cve-2018-10933) :  ![starts](https://img.shields.io/github/stars/cve-2018/cve-2018-10933.svg) ![forks](https://img.shields.io/github/forks/cve-2018/cve-2018-10933.svg)
 
-- [https://github.com/kristyna-mlcakova/CVE-2018-10933](https://github.com/kristyna-mlcakova/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/kristyna-mlcakova/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/kristyna-mlcakova/CVE-2018-10933.svg)
-
 - [https://github.com/lalishasanduwara/CVE-2018-10933](https://github.com/lalishasanduwara/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/lalishasanduwara/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/lalishasanduwara/CVE-2018-10933.svg)
+
+- [https://github.com/kristyna-mlcakova/CVE-2018-10933](https://github.com/kristyna-mlcakova/CVE-2018-10933) :  ![starts](https://img.shields.io/github/stars/kristyna-mlcakova/CVE-2018-10933.svg) ![forks](https://img.shields.io/github/forks/kristyna-mlcakova/CVE-2018-10933.svg)
 
 - [https://github.com/Kurlee/LibSSH-exploit](https://github.com/Kurlee/LibSSH-exploit) :  ![starts](https://img.shields.io/github/stars/Kurlee/LibSSH-exploit.svg) ![forks](https://img.shields.io/github/forks/Kurlee/LibSSH-exploit.svg)
 
@@ -2481,6 +2481,13 @@
 
 
 - [https://github.com/IOActive/AOSP-ExploitUserDictionary](https://github.com/IOActive/AOSP-ExploitUserDictionary) :  ![starts](https://img.shields.io/github/stars/IOActive/AOSP-ExploitUserDictionary.svg) ![forks](https://img.shields.io/github/forks/IOActive/AOSP-ExploitUserDictionary.svg)
+
+## CVE-2018-9338
+ In ResStringPool::setTo of ResourceTypes.cpp, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+
+
+
+- [https://github.com/Pazhanivelmani/frameworks_base_Android_6.0.1_r22_CVE-2018-9338](https://github.com/Pazhanivelmani/frameworks_base_Android_6.0.1_r22_CVE-2018-9338) :  ![starts](https://img.shields.io/github/stars/Pazhanivelmani/frameworks_base_Android_6.0.1_r22_CVE-2018-9338.svg) ![forks](https://img.shields.io/github/forks/Pazhanivelmani/frameworks_base_Android_6.0.1_r22_CVE-2018-9338.svg)
 
 ## CVE-2018-9276
  An issue was discovered in PRTG Network Monitor before 18.2.39. An attacker who has access to the PRTG System Administrator web console with administrative privileges can exploit an OS command injection vulnerability (both on the server and on devices) by sending malformed parameters in sensor or notification management scenarios.
@@ -3341,11 +3348,11 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/seoqqq/CVE-2018-6574](https://github.com/seoqqq/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/seoqqq/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/seoqqq/CVE-2018-6574.svg)
 
+- [https://github.com/sirius-bl4ck/cve2018-6574](https://github.com/sirius-bl4ck/cve2018-6574) :  ![starts](https://img.shields.io/github/stars/sirius-bl4ck/cve2018-6574.svg) ![forks](https://img.shields.io/github/forks/sirius-bl4ck/cve2018-6574.svg)
+
 - [https://github.com/darthvader-htb/CVE-2018-6574](https://github.com/darthvader-htb/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/darthvader-htb/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/darthvader-htb/CVE-2018-6574.svg)
 
 - [https://github.com/twseptian/cve-2018-6574](https://github.com/twseptian/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/twseptian/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/twseptian/cve-2018-6574.svg)
-
-- [https://github.com/sirius-bl4ck/cve2018-6574](https://github.com/sirius-bl4ck/cve2018-6574) :  ![starts](https://img.shields.io/github/stars/sirius-bl4ck/cve2018-6574.svg) ![forks](https://img.shields.io/github/forks/sirius-bl4ck/cve2018-6574.svg)
 
 - [https://github.com/d4rkshell/go-get-rce](https://github.com/d4rkshell/go-get-rce) :  ![starts](https://img.shields.io/github/stars/d4rkshell/go-get-rce.svg) ![forks](https://img.shields.io/github/forks/d4rkshell/go-get-rce.svg)
 
@@ -3353,9 +3360,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/french560/ptl6574](https://github.com/french560/ptl6574) :  ![starts](https://img.shields.io/github/stars/french560/ptl6574.svg) ![forks](https://img.shields.io/github/forks/french560/ptl6574.svg)
 
-- [https://github.com/antunesmpedro/CVE-2018-6574](https://github.com/antunesmpedro/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/antunesmpedro/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/antunesmpedro/CVE-2018-6574.svg)
-
 - [https://github.com/faqihudin13/CVE-2018-6574](https://github.com/faqihudin13/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/faqihudin13/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/faqihudin13/CVE-2018-6574.svg)
+
+- [https://github.com/antunesmpedro/CVE-2018-6574](https://github.com/antunesmpedro/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/antunesmpedro/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/antunesmpedro/CVE-2018-6574.svg)
 
 - [https://github.com/Dannners/CVE-2018-6574-go-get-RCE](https://github.com/Dannners/CVE-2018-6574-go-get-RCE) :  ![starts](https://img.shields.io/github/stars/Dannners/CVE-2018-6574-go-get-RCE.svg) ![forks](https://img.shields.io/github/forks/Dannners/CVE-2018-6574-go-get-RCE.svg)
 
@@ -3371,11 +3378,11 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/NikolaT3sla/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/NikolaT3sla/cve-2018-6574.svg)
 
-- [https://github.com/markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/markisback/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/markisback/CVE-2018-6574.svg)
-
 - [https://github.com/VikasVarshney/CVE_2018_6574](https://github.com/VikasVarshney/CVE_2018_6574) :  ![starts](https://img.shields.io/github/stars/VikasVarshney/CVE_2018_6574.svg) ![forks](https://img.shields.io/github/forks/VikasVarshney/CVE_2018_6574.svg)
 
 - [https://github.com/jftierno/-CVE-2018-6574](https://github.com/jftierno/-CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/jftierno/-CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/jftierno/-CVE-2018-6574.svg)
+
+- [https://github.com/markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/markisback/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/markisback/CVE-2018-6574.svg)
 
 - [https://github.com/kawkab101/cve-2018-6574](https://github.com/kawkab101/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/kawkab101/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/kawkab101/cve-2018-6574.svg)
 
@@ -3384,18 +3391,6 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 - [https://github.com/shadofren/CVE-2018-6574](https://github.com/shadofren/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/shadofren/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/shadofren/CVE-2018-6574.svg)
 
 - [https://github.com/lisu60/cve-2018-6574](https://github.com/lisu60/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/lisu60/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/lisu60/cve-2018-6574.svg)
-
-- [https://github.com/faiqu3/cve-2018-6574](https://github.com/faiqu3/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/faiqu3/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/faiqu3/cve-2018-6574.svg)
-
-- [https://github.com/acole76/cve-2018-6574](https://github.com/acole76/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/acole76/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/acole76/cve-2018-6574.svg)
-
-- [https://github.com/dollyptm/cve-2018-6574](https://github.com/dollyptm/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/dollyptm/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/dollyptm/cve-2018-6574.svg)
-
-- [https://github.com/ErnestZiemkowski/cve-2018-6574](https://github.com/ErnestZiemkowski/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/ErnestZiemkowski/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/ErnestZiemkowski/cve-2018-6574.svg)
-
-- [https://github.com/yavolo/CVE-2018-6574](https://github.com/yavolo/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/yavolo/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/yavolo/CVE-2018-6574.svg)
-
-- [https://github.com/iNoSec2/cve-2018-6574](https://github.com/iNoSec2/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/iNoSec2/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/iNoSec2/cve-2018-6574.svg)
 
 - [https://github.com/redirected/cve-2018-6574](https://github.com/redirected/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/redirected/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/redirected/cve-2018-6574.svg)
 
@@ -3408,6 +3403,18 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 - [https://github.com/jeyaseelans86/CVE-2018-6574](https://github.com/jeyaseelans86/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/jeyaseelans86/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/jeyaseelans86/CVE-2018-6574.svg)
 
 - [https://github.com/mux0x/CVE-2018-6574](https://github.com/mux0x/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/mux0x/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/mux0x/CVE-2018-6574.svg)
+
+- [https://github.com/faiqu3/cve-2018-6574](https://github.com/faiqu3/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/faiqu3/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/faiqu3/cve-2018-6574.svg)
+
+- [https://github.com/acole76/cve-2018-6574](https://github.com/acole76/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/acole76/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/acole76/cve-2018-6574.svg)
+
+- [https://github.com/dollyptm/cve-2018-6574](https://github.com/dollyptm/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/dollyptm/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/dollyptm/cve-2018-6574.svg)
+
+- [https://github.com/ErnestZiemkowski/cve-2018-6574](https://github.com/ErnestZiemkowski/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/ErnestZiemkowski/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/ErnestZiemkowski/cve-2018-6574.svg)
+
+- [https://github.com/yavolo/CVE-2018-6574](https://github.com/yavolo/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/yavolo/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/yavolo/CVE-2018-6574.svg)
+
+- [https://github.com/iNoSec2/cve-2018-6574](https://github.com/iNoSec2/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/iNoSec2/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/iNoSec2/cve-2018-6574.svg)
 
 - [https://github.com/noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/noobTest1122/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/noobTest1122/CVE-2018-6574.svg)
 
@@ -3441,6 +3448,12 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/sec000/cve-2018-6574](https://github.com/sec000/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/sec000/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/sec000/cve-2018-6574.svg)
 
+- [https://github.com/AdriVillaB/CVE-2018-6574](https://github.com/AdriVillaB/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/AdriVillaB/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/AdriVillaB/CVE-2018-6574.svg)
+
+- [https://github.com/illnino/CVE-2018-6574](https://github.com/illnino/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/illnino/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/illnino/CVE-2018-6574.svg)
+
+- [https://github.com/chr1sM/CVE-2018-6574](https://github.com/chr1sM/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/chr1sM/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/chr1sM/CVE-2018-6574.svg)
+
 - [https://github.com/coblax/CVE-2018-6574](https://github.com/coblax/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/coblax/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/coblax/CVE-2018-6574.svg)
 
 - [https://github.com/nthuong95/CVE-2018-6574](https://github.com/nthuong95/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/nthuong95/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/nthuong95/CVE-2018-6574.svg)
@@ -3450,12 +3463,6 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 - [https://github.com/jftierno/CVE-2018-6574](https://github.com/jftierno/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/jftierno/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/jftierno/CVE-2018-6574.svg)
 
 - [https://github.com/mekhalleh/cve-2018-6574](https://github.com/mekhalleh/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/mekhalleh/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/mekhalleh/cve-2018-6574.svg)
-
-- [https://github.com/AdriVillaB/CVE-2018-6574](https://github.com/AdriVillaB/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/AdriVillaB/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/AdriVillaB/CVE-2018-6574.svg)
-
-- [https://github.com/illnino/CVE-2018-6574](https://github.com/illnino/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/illnino/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/illnino/CVE-2018-6574.svg)
-
-- [https://github.com/chr1sM/CVE-2018-6574](https://github.com/chr1sM/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/chr1sM/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/chr1sM/CVE-2018-6574.svg)
 
 - [https://github.com/jongmartinez/CVE-2018-6574-POC](https://github.com/jongmartinez/CVE-2018-6574-POC) :  ![starts](https://img.shields.io/github/stars/jongmartinez/CVE-2018-6574-POC.svg) ![forks](https://img.shields.io/github/forks/jongmartinez/CVE-2018-6574-POC.svg)
 
@@ -3485,15 +3492,15 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/repos13579/labCVE-2018-6574](https://github.com/repos13579/labCVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/repos13579/labCVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/repos13579/labCVE-2018-6574.svg)
 
-- [https://github.com/PLP-Orange/cve-2018-6574-exercise](https://github.com/PLP-Orange/cve-2018-6574-exercise) :  ![starts](https://img.shields.io/github/stars/PLP-Orange/cve-2018-6574-exercise.svg) ![forks](https://img.shields.io/github/forks/PLP-Orange/cve-2018-6574-exercise.svg)
-
-- [https://github.com/l3ouu4n9/CVE-2018-6574-POC](https://github.com/l3ouu4n9/CVE-2018-6574-POC) :  ![starts](https://img.shields.io/github/stars/l3ouu4n9/CVE-2018-6574-POC.svg) ![forks](https://img.shields.io/github/forks/l3ouu4n9/CVE-2018-6574-POC.svg)
-
 - [https://github.com/theJuan1112/pentesterlab-cve-2018-6574](https://github.com/theJuan1112/pentesterlab-cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/theJuan1112/pentesterlab-cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/theJuan1112/pentesterlab-cve-2018-6574.svg)
 
 - [https://github.com/purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2) :  ![starts](https://img.shields.io/github/stars/purgedemo/CVE-2018-6574_2.svg) ![forks](https://img.shields.io/github/forks/purgedemo/CVE-2018-6574_2.svg)
 
 - [https://github.com/jeyaseelans86/new-CVE-2018-6574](https://github.com/jeyaseelans86/new-CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/jeyaseelans86/new-CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/jeyaseelans86/new-CVE-2018-6574.svg)
+
+- [https://github.com/PLP-Orange/cve-2018-6574-exercise](https://github.com/PLP-Orange/cve-2018-6574-exercise) :  ![starts](https://img.shields.io/github/stars/PLP-Orange/cve-2018-6574-exercise.svg) ![forks](https://img.shields.io/github/forks/PLP-Orange/cve-2018-6574-exercise.svg)
+
+- [https://github.com/l3ouu4n9/CVE-2018-6574-POC](https://github.com/l3ouu4n9/CVE-2018-6574-POC) :  ![starts](https://img.shields.io/github/stars/l3ouu4n9/CVE-2018-6574-POC.svg) ![forks](https://img.shields.io/github/forks/l3ouu4n9/CVE-2018-6574-POC.svg)
 
 - [https://github.com/No1zy/CVE-2018-6574-PoC](https://github.com/No1zy/CVE-2018-6574-PoC) :  ![starts](https://img.shields.io/github/stars/No1zy/CVE-2018-6574-PoC.svg) ![forks](https://img.shields.io/github/forks/No1zy/CVE-2018-6574-PoC.svg)
 
@@ -3596,9 +3603,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/amit-pathak009/CVE-2018-6389-FIX](https://github.com/amit-pathak009/CVE-2018-6389-FIX) :  ![starts](https://img.shields.io/github/stars/amit-pathak009/CVE-2018-6389-FIX.svg) ![forks](https://img.shields.io/github/forks/amit-pathak009/CVE-2018-6389-FIX.svg)
 
-- [https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389](https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/mudhappy/Wordpress-Hack-CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/mudhappy/Wordpress-Hack-CVE-2018-6389.svg)
-
 - [https://github.com/alessiogilardi/PoC---CVE-2018-6389](https://github.com/alessiogilardi/PoC---CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/alessiogilardi/PoC---CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/alessiogilardi/PoC---CVE-2018-6389.svg)
+
+- [https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389](https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/mudhappy/Wordpress-Hack-CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/mudhappy/Wordpress-Hack-CVE-2018-6389.svg)
 
 - [https://github.com/DeyaaMuhammad/WPDOSLoader](https://github.com/DeyaaMuhammad/WPDOSLoader) :  ![starts](https://img.shields.io/github/stars/DeyaaMuhammad/WPDOSLoader.svg) ![forks](https://img.shields.io/github/forks/DeyaaMuhammad/WPDOSLoader.svg)
 
@@ -3812,9 +3819,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/ydl555/CVE-2018-4878](https://github.com/ydl555/CVE-2018-4878) :  ![starts](https://img.shields.io/github/stars/ydl555/CVE-2018-4878.svg) ![forks](https://img.shields.io/github/forks/ydl555/CVE-2018-4878.svg)
 
-- [https://github.com/Yable/CVE-2018-4878](https://github.com/Yable/CVE-2018-4878) :  ![starts](https://img.shields.io/github/stars/Yable/CVE-2018-4878.svg) ![forks](https://img.shields.io/github/forks/Yable/CVE-2018-4878.svg)
-
 - [https://github.com/lvyoshino/CVE-2018-4878](https://github.com/lvyoshino/CVE-2018-4878) :  ![starts](https://img.shields.io/github/stars/lvyoshino/CVE-2018-4878.svg) ![forks](https://img.shields.io/github/forks/lvyoshino/CVE-2018-4878.svg)
+
+- [https://github.com/Yable/CVE-2018-4878](https://github.com/Yable/CVE-2018-4878) :  ![starts](https://img.shields.io/github/stars/Yable/CVE-2018-4878.svg) ![forks](https://img.shields.io/github/forks/Yable/CVE-2018-4878.svg)
 
 ## CVE-2018-4441
  A memory corruption issue was addressed with improved memory handling. This issue affected versions prior to iOS 12.1.1, tvOS 12.1.1, watchOS 5.1.2, Safari 12.0.2, iTunes 12.9.2 for Windows, iCloud for Windows 7.9.
