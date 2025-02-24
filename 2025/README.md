@@ -217,6 +217,18 @@ CloudStack admins may also disallow listAnnotations and addAnnotation API access
 
 - [https://github.com/ynwarcs/CVE-2025-21298](https://github.com/ynwarcs/CVE-2025-21298) :  ![starts](https://img.shields.io/github/stars/ynwarcs/CVE-2025-21298.svg) ![forks](https://img.shields.io/github/forks/ynwarcs/CVE-2025-21298.svg)
 
+## CVE-2025-20029
+ Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.
+
+ 
+
+
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+
+
+
+- [https://github.com/mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2025-20029.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2025-20029.svg)
+
 ## CVE-2025-1015
  The Thunderbird Address Book URI fields contained unsanitized links. This could be used by an attacker to create and export an address book containing a malicious payload in a field. For example, in the “Other” field of the Instant Messaging section. If another user imported the address book, clicking on the link could result in opening a web page inside Thunderbird, and that page could execute (unprivileged) JavaScript. This vulnerability affects Thunderbird  128.7.
 
@@ -236,7 +248,7 @@ CloudStack admins may also disallow listAnnotations and addAnnotation API access
 
 
 
-- [https://github.com/skrkcb2/CVE-2025-0924](https://github.com/skrkcb2/CVE-2025-0924) :  ![starts](https://img.shields.io/github/stars/skrkcb2/CVE-2025-0924.svg) ![forks](https://img.shields.io/github/forks/skrkcb2/CVE-2025-0924.svg)
+- [https://github.com/skrkcb2/CVE-2025-0924-different](https://github.com/skrkcb2/CVE-2025-0924-different) :  ![starts](https://img.shields.io/github/stars/skrkcb2/CVE-2025-0924-different.svg) ![forks](https://img.shields.io/github/forks/skrkcb2/CVE-2025-0924-different.svg)
 
 ## CVE-2025-0851
  A path traversal issue in ZipUtils.unzip and TarUtils.untar in Deep Java Library (DJL) on all platforms allows a bad actor to write files to arbitrary locations.
@@ -255,6 +267,8 @@ The specific flaw exists within the handling of archived files. When extracting 
 - [https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC](https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC) :  ![starts](https://img.shields.io/github/stars/dhmosfunk/7-Zip-CVE-2025-0411-POC.svg) ![forks](https://img.shields.io/github/forks/dhmosfunk/7-Zip-CVE-2025-0411-POC.svg)
 
 - [https://github.com/iSee857/CVE-2025-0411-PoC](https://github.com/iSee857/CVE-2025-0411-PoC) :  ![starts](https://img.shields.io/github/stars/iSee857/CVE-2025-0411-PoC.svg) ![forks](https://img.shields.io/github/forks/iSee857/CVE-2025-0411-PoC.svg)
+
+- [https://github.com/cesarbtakeda/7-Zip-CVE-2025-0411-POC](https://github.com/cesarbtakeda/7-Zip-CVE-2025-0411-POC) :  ![starts](https://img.shields.io/github/stars/cesarbtakeda/7-Zip-CVE-2025-0411-POC.svg) ![forks](https://img.shields.io/github/forks/cesarbtakeda/7-Zip-CVE-2025-0411-POC.svg)
 
 - [https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC](https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC) :  ![starts](https://img.shields.io/github/stars/ishwardeepp/CVE-2025-0411-MoTW-PoC.svg) ![forks](https://img.shields.io/github/forks/ishwardeepp/CVE-2025-0411-MoTW-PoC.svg)
 
