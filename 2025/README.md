@@ -70,7 +70,7 @@
 
 
 
-- [https://github.com/sug4r-wr41th/CVE-2025-24893](https://github.com/sug4r-wr41th/CVE-2025-24893) :  ![starts](https://img.shields.io/github/stars/sug4r-wr41th/CVE-2025-24893.svg) ![forks](https://img.shields.io/github/forks/sug4r-wr41th/CVE-2025-24893.svg)
+- [https://github.com/iSee857/CVE-2025-24893-PoC](https://github.com/iSee857/CVE-2025-24893-PoC) :  ![starts](https://img.shields.io/github/stars/iSee857/CVE-2025-24893-PoC.svg) ![forks](https://img.shields.io/github/forks/iSee857/CVE-2025-24893-PoC.svg)
 
 ## CVE-2025-24659
  Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WordPress Download Manager Premium Packages allows Blind SQL Injection. This issue affects Premium Packages: from n/a through 5.9.6.
@@ -102,6 +102,13 @@
 
 - [https://github.com/rawtips/-CVE-2025-24118](https://github.com/rawtips/-CVE-2025-24118) :  ![starts](https://img.shields.io/github/stars/rawtips/-CVE-2025-24118.svg) ![forks](https://img.shields.io/github/forks/rawtips/-CVE-2025-24118.svg)
 
+## CVE-2025-24104
+ This issue was addressed with improved handling of symlinks. This issue is fixed in iPadOS 17.7.4, iOS 18.3 and iPadOS 18.3. Restoring a maliciously crafted backup file may lead to modification of protected system files.
+
+
+
+- [https://github.com/ifpdz/CVE-2025-24104](https://github.com/ifpdz/CVE-2025-24104) :  ![starts](https://img.shields.io/github/stars/ifpdz/CVE-2025-24104.svg) ![forks](https://img.shields.io/github/forks/ifpdz/CVE-2025-24104.svg)
+
 ## CVE-2025-24085
  A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
 
@@ -119,6 +126,13 @@
 - [https://github.com/MuhammadWaseem29/CVE-2025-24016](https://github.com/MuhammadWaseem29/CVE-2025-24016) :  ![starts](https://img.shields.io/github/stars/MuhammadWaseem29/CVE-2025-24016.svg) ![forks](https://img.shields.io/github/forks/MuhammadWaseem29/CVE-2025-24016.svg)
 
 - [https://github.com/huseyinstif/CVE-2025-24016-Nuclei-Template](https://github.com/huseyinstif/CVE-2025-24016-Nuclei-Template) :  ![starts](https://img.shields.io/github/stars/huseyinstif/CVE-2025-24016-Nuclei-Template.svg) ![forks](https://img.shields.io/github/forks/huseyinstif/CVE-2025-24016-Nuclei-Template.svg)
+
+## CVE-2025-23942
+ Unrestricted Upload of File with Dangerous Type vulnerability in NgocCode WP Load Gallery allows Upload a Web Shell to a Web Server. This issue affects WP Load Gallery: from n/a through 2.1.6.
+
+
+
+- [https://github.com/Nxploited/CVE-2025-23942-poc](https://github.com/Nxploited/CVE-2025-23942-poc) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-23942-poc.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-23942-poc.svg)
 
 ## CVE-2025-23369
  An improper verification of cryptographic signature vulnerability was identified in GitHub Enterprise Server that allowed signature spoofing for unauthorized internal users.  Instances not utilizing SAML single sign-on or where the attacker is not already an existing user were not impacted. This vulnerability affected all versions of GitHub Enterprise Server prior to 3.12.14, 3.13.10, 3.14.7, 3.15.2, and 3.16.0. This vulnerability was reported via the GitHub Bug Bounty program.
@@ -257,6 +271,13 @@ Note: Software versions which have reached End of Technical Support (EoTS) are n
 
 - [https://github.com/mbadanoiu/CVE-2025-20029](https://github.com/mbadanoiu/CVE-2025-20029) :  ![starts](https://img.shields.io/github/stars/mbadanoiu/CVE-2025-20029.svg) ![forks](https://img.shields.io/github/forks/mbadanoiu/CVE-2025-20029.svg)
 
+## CVE-2025-1302
+ Versions of the package jsonpath-plus before 10.3.0 are vulnerable to Remote Code Execution (RCE) due to improper input sanitization. An attacker can execute aribitrary code on the system by exploiting the unsafe default usage of eval='safe' mode.**Note:**This is caused by an incomplete fix for [CVE-2024-21534](https://security.snyk.io/vuln/SNYK-JS-JSONPATHPLUS-7945884).
+
+
+
+- [https://github.com/EQSTLab/CVE-2025-1302](https://github.com/EQSTLab/CVE-2025-1302) :  ![starts](https://img.shields.io/github/stars/EQSTLab/CVE-2025-1302.svg) ![forks](https://img.shields.io/github/forks/EQSTLab/CVE-2025-1302.svg)
+
 ## CVE-2025-1015
  The Thunderbird Address Book URI fields contained unsanitized links. This could be used by an attacker to create and export an address book containing a malicious payload in a field. For example, in the “Other” field of the Instant Messaging section. If another user imported the address book, clicking on the link could result in opening a web page inside Thunderbird, and that page could execute (unprivileged) JavaScript. This vulnerability affects Thunderbird  128.7.
 
@@ -319,9 +340,11 @@ The specific flaw exists within the handling of archived files. When extracting 
 
 - [https://github.com/rxwx/pulse-meter](https://github.com/rxwx/pulse-meter) :  ![starts](https://img.shields.io/github/stars/rxwx/pulse-meter.svg) ![forks](https://img.shields.io/github/forks/rxwx/pulse-meter.svg)
 
+- [https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser](https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser) :  ![starts](https://img.shields.io/github/stars/Hexastrike/Ivanti-Connect-Secure-Logs-Parser.svg) ![forks](https://img.shields.io/github/forks/Hexastrike/Ivanti-Connect-Secure-Logs-Parser.svg)
+
 - [https://github.com/chiefchainer/CVE-2025-0282](https://github.com/chiefchainer/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/chiefchainer/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/chiefchainer/CVE-2025-0282.svg)
 
-- [https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser](https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser) :  ![starts](https://img.shields.io/github/stars/Hexastrike/Ivanti-Connect-Secure-Logs-Parser.svg) ![forks](https://img.shields.io/github/forks/Hexastrike/Ivanti-Connect-Secure-Logs-Parser.svg)
+- [https://github.com/44xo/CVE-2025-0282](https://github.com/44xo/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/44xo/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/44xo/CVE-2025-0282.svg)
 
 ## CVE-2025-0108
  An authentication bypass in the Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to bypass the authentication otherwise required by the PAN-OS management web interface and invoke certain PHP scripts. While invoking these PHP scripts does not enable remote code execution, it can negatively impact integrity and confidentiality of PAN-OS.
