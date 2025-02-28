@@ -150,6 +150,8 @@
 
 - [https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution) :  ![starts](https://img.shields.io/github/stars/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg)
 
+- [https://github.com/abhinavcybersec/PenTest-Lab](https://github.com/abhinavcybersec/PenTest-Lab) :  ![starts](https://img.shields.io/github/stars/abhinavcybersec/PenTest-Lab.svg) ![forks](https://img.shields.io/github/forks/abhinavcybersec/PenTest-Lab.svg)
+
 ## CVE-2010-1938
  Off-by-one error in the __opiereadrec function in readrec.c in libopie in OPIE 2.4.1-test1 and earlier, as used on FreeBSD 6.4 through 8.1-PRERELEASE and other platforms, allows remote attackers to cause a denial of service (daemon crash) or possibly execute arbitrary code via a long username, as demonstrated by a long USER command to the FreeBSD 8.0 ftpd.
 
