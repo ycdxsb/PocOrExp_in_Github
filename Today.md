@@ -1,139 +1,107 @@
-# Update 2025-02-28
-## CVE-2024-56898
- Incorrect access control in Geovision GV-ASWeb version 6.1.0.0 or less allows unauthorized attackers with low-level privileges to manage and create new user accounts via supplying a crafted HTTP request.
+# Update 2025-03-01
+## CVE-2025-26264
+ GeoVision GV-ASWeb with the version 6.1.2.0 or less, contains a Remote Code Execution (RCE) vulnerability within its Notification Settings feature. An authenticated attacker with "System Settings" privileges in ASWeb can exploit this flaw to execute arbitrary commands on the server, leading to a full system compromise.
 
-- [https://github.com/DRAGOWN/CVE-2025-26263](https://github.com/DRAGOWN/CVE-2025-26263) :  ![starts](https://img.shields.io/github/stars/DRAGOWN/CVE-2025-26263.svg) ![forks](https://img.shields.io/github/forks/DRAGOWN/CVE-2025-26263.svg)
+- [https://github.com/DRAGOWN/CVE-2025-26264](https://github.com/DRAGOWN/CVE-2025-26264) :  ![starts](https://img.shields.io/github/stars/DRAGOWN/CVE-2025-26264.svg) ![forks](https://img.shields.io/github/forks/DRAGOWN/CVE-2025-26264.svg)
 
 
-## CVE-2024-56337
-Tomcat 11.0.3, 10.1.35 and 9.0.99 onwards will include checks that sun.io.useCanonCaches is set appropriately before allowing the default servlet to be write enabled on a case insensitive file system. Tomcat will also set sun.io.useCanonCaches to false by default where it can.
+## CVE-2025-21333
+ Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability
 
-- [https://github.com/paltrybelly/CVE-2024-50379](https://github.com/paltrybelly/CVE-2024-50379) :  ![starts](https://img.shields.io/github/stars/paltrybelly/CVE-2024-50379.svg) ![forks](https://img.shields.io/github/forks/paltrybelly/CVE-2024-50379.svg)
+- [https://github.com/MrAle98/CVE-2025-21333-POC](https://github.com/MrAle98/CVE-2025-21333-POC) :  ![starts](https://img.shields.io/github/stars/MrAle98/CVE-2025-21333-POC.svg) ![forks](https://img.shields.io/github/forks/MrAle98/CVE-2025-21333-POC.svg)
 
 
-## CVE-2024-50379
-Users are recommended to upgrade to version 11.0.2, 10.1.34 or 9.0.98, which fixes the issue.
+## CVE-2025-1094
+ Improper neutralization of quoting syntax in PostgreSQL libpq functions PQescapeLiteral(), PQescapeIdentifier(), PQescapeString(), and PQescapeStringConn() allows a database input provider to achieve SQL injection in certain usage patterns.  Specifically, SQL injection requires the application to use the function result to construct input to psql, the PostgreSQL interactive terminal.  Similarly, improper neutralization of quoting syntax in PostgreSQL command line utility programs allows a source of command line arguments to achieve SQL injection when client_encoding is BIG5 and server_encoding is one of EUC_TW or MULE_INTERNAL.  Versions before PostgreSQL 17.3, 16.7, 15.11, 14.16, and 13.19 are affected.
 
-- [https://github.com/paltrybelly/CVE-2024-50379](https://github.com/paltrybelly/CVE-2024-50379) :  ![starts](https://img.shields.io/github/stars/paltrybelly/CVE-2024-50379.svg) ![forks](https://img.shields.io/github/forks/paltrybelly/CVE-2024-50379.svg)
+- [https://github.com/soltanali0/CVE-2025-1094-Exploit](https://github.com/soltanali0/CVE-2025-1094-Exploit) :  ![starts](https://img.shields.io/github/stars/soltanali0/CVE-2025-1094-Exploit.svg) ![forks](https://img.shields.io/github/forks/soltanali0/CVE-2025-1094-Exploit.svg)
 
 
-## CVE-2024-42658
- An issue in wishnet Nepstech Wifi Router NTPL-XPON1GFEVN v1.0 allows a remote attacker to obtain sensitive information via the cookie's parameter
+## CVE-2025-0364
+ BigAntSoft BigAnt Server, up to and including version 5.6.06, is vulnerable to unauthenticated remote code execution via account registration. An unauthenticated remote attacker can create an administrative user through the default exposed SaaS registration mechanism. Once an administrator, the attacker can upload and execute arbitrary PHP code using the "Cloud Storage Addin," leading to unauthenticated code execution.
 
-- [https://github.com/baroi-ai/CVE-2024-42658](https://github.com/baroi-ai/CVE-2024-42658) :  ![starts](https://img.shields.io/github/stars/baroi-ai/CVE-2024-42658.svg) ![forks](https://img.shields.io/github/forks/baroi-ai/CVE-2024-42658.svg)
+- [https://github.com/vulncheck-oss/cve-2025-0364](https://github.com/vulncheck-oss/cve-2025-0364) :  ![starts](https://img.shields.io/github/stars/vulncheck-oss/cve-2025-0364.svg) ![forks](https://img.shields.io/github/forks/vulncheck-oss/cve-2025-0364.svg)
 
 
-## CVE-2024-42657
- An issue in wishnet Nepstech Wifi Router NTPL-XPON1GFEVN v1.0 allows a remote attacker to obtain sensitive information via the lack of encryption during login process
+## CVE-2024-56264
+ Unrestricted Upload of File with Dangerous Type vulnerability in Beee ACF City Selector allows Upload a Web Shell to a Web Server.This issue affects ACF City Selector: from n/a through 1.14.0.
 
-- [https://github.com/baroi-ai/CVE-2024-42657](https://github.com/baroi-ai/CVE-2024-42657) :  ![starts](https://img.shields.io/github/stars/baroi-ai/CVE-2024-42657.svg) ![forks](https://img.shields.io/github/forks/baroi-ai/CVE-2024-42657.svg)
+- [https://github.com/dpakmrya/CVE-2024-56264](https://github.com/dpakmrya/CVE-2024-56264) :  ![starts](https://img.shields.io/github/stars/dpakmrya/CVE-2024-56264.svg) ![forks](https://img.shields.io/github/forks/dpakmrya/CVE-2024-56264.svg)
 
 
-## CVE-2024-40119
- Nepstech Wifi Router xpon (terminal) model NTPL-Xpon1GFEVN v.1.0 Firmware V2.0.1 contains a Cross-Site Request Forgery (CSRF) vulnerability in the password change function, which allows remote attackers to change the admin password without the user's consent, leading to a potential account takeover.
+## CVE-2024-36401
+Versions 2.23.6, 2.24.4, and 2.25.2 contain a patch for the issue. A workaround exists by removing the `gt-complex-x.y.jar` file from the GeoServer where `x.y` is the GeoTools version (e.g., `gt-complex-31.1.jar` if running GeoServer 2.25.1). This will remove the vulnerable code from GeoServer but may break some GeoServer functionality or prevent GeoServer from deploying if the gt-complex module is needed.
 
-- [https://github.com/baroi-ai/nepstech-xpon-router-CVE-2024-40119](https://github.com/baroi-ai/nepstech-xpon-router-CVE-2024-40119) :  ![starts](https://img.shields.io/github/stars/baroi-ai/nepstech-xpon-router-CVE-2024-40119.svg) ![forks](https://img.shields.io/github/forks/baroi-ai/nepstech-xpon-router-CVE-2024-40119.svg)
+- [https://github.com/wingedmicroph/CVE-2024-36401](https://github.com/wingedmicroph/CVE-2024-36401) :  ![starts](https://img.shields.io/github/stars/wingedmicroph/CVE-2024-36401.svg) ![forks](https://img.shields.io/github/forks/wingedmicroph/CVE-2024-36401.svg)
 
 
-## CVE-2024-24919
- Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN or Mobile Access Software Blades. A Security fix that mitigates this vulnerability is available.
+## CVE-2024-20671
+ Microsoft Defender Security Feature Bypass Vulnerability
 
-- [https://github.com/spider00009/CVE-2024-24919-POC](https://github.com/spider00009/CVE-2024-24919-POC) :  ![starts](https://img.shields.io/github/stars/spider00009/CVE-2024-24919-POC.svg) ![forks](https://img.shields.io/github/forks/spider00009/CVE-2024-24919-POC.svg)
+- [https://github.com/ig-labs/EDR-ALPC-Block-POC](https://github.com/ig-labs/EDR-ALPC-Block-POC) :  ![starts](https://img.shields.io/github/stars/ig-labs/EDR-ALPC-Block-POC.svg) ![forks](https://img.shields.io/github/forks/ig-labs/EDR-ALPC-Block-POC.svg)
 
 
-## CVE-2024-9474
-Cloud NGFW and Prisma Access are not impacted by this vulnerability.
+## CVE-2024-6387
+ A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
 
-- [https://github.com/uniformince/CVE-2024-9474](https://github.com/uniformince/CVE-2024-9474) :  ![starts](https://img.shields.io/github/stars/uniformince/CVE-2024-9474.svg) ![forks](https://img.shields.io/github/forks/uniformince/CVE-2024-9474.svg)
+- [https://github.com/Karmakstylez/CVE-2024-6387](https://github.com/Karmakstylez/CVE-2024-6387) :  ![starts](https://img.shields.io/github/stars/Karmakstylez/CVE-2024-6387.svg) ![forks](https://img.shields.io/github/forks/Karmakstylez/CVE-2024-6387.svg)
 
 
-## CVE-2024-4824
- Vulnerability in School ERP Pro+Responsive 1.0 that allows SQL injection through the '/SchoolERP/office_admin/' index in the parameters groups_id, examname, classes_id, es_voucherid, es_class, etc. This vulnerability could allow a remote attacker to send a specially crafted SQL query to the server and retrieve all the information stored in the database.
+## CVE-2024-5909
+ A problem with a protection mechanism in the Palo Alto Networks Cortex XDR agent on Windows devices allows a low privileged local Windows user to disable the agent. This issue may be leveraged by malware to disable the Cortex XDR agent and then to perform malicious activity.
 
-- [https://github.com/watchtowrlabs/nakivo-arbitrary-file-read-poc-CVE-2024-48248](https://github.com/watchtowrlabs/nakivo-arbitrary-file-read-poc-CVE-2024-48248) :  ![starts](https://img.shields.io/github/stars/watchtowrlabs/nakivo-arbitrary-file-read-poc-CVE-2024-48248.svg) ![forks](https://img.shields.io/github/forks/watchtowrlabs/nakivo-arbitrary-file-read-poc-CVE-2024-48248.svg)
+- [https://github.com/ig-labs/EDR-ALPC-Block-POC](https://github.com/ig-labs/EDR-ALPC-Block-POC) :  ![starts](https://img.shields.io/github/stars/ig-labs/EDR-ALPC-Block-POC.svg) ![forks](https://img.shields.io/github/forks/ig-labs/EDR-ALPC-Block-POC.svg)
 
 
-## CVE-2024-3867
- The archive-tainacan-collection theme for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in version 2.7.2. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
+## CVE-2023-26049
+ Jetty is a java based web server and servlet engine. Nonstandard cookie parsing in Jetty may allow an attacker to smuggle cookies within other cookies, or otherwise perform unintended behavior by tampering with the cookie parsing mechanism. If Jetty sees a cookie VALUE that starts with `"` (double quote), it will continue to read the cookie string until it sees a closing quote -- even if a semicolon is encountered. So, a cookie header such as: `DISPLAY_LANGUAGE="b; JSESSIONID=1337; c=d"` will be parsed as one cookie, with the name DISPLAY_LANGUAGE and a value of b; JSESSIONID=1337; c=d instead of 3 separate cookies. This has security implications because if, say, JSESSIONID is an HttpOnly cookie, and the DISPLAY_LANGUAGE cookie value is rendered on the page, an attacker can smuggle the JSESSIONID cookie into the DISPLAY_LANGUAGE cookie and thereby exfiltrate it. This is significant when an intermediary is enacting some policy based on cookies, so a smuggled cookie can bypass that policy yet still be seen by the Jetty server or its logging system. This issue has been addressed in versions 9.4.51, 10.0.14, 11.0.14, and 12.0.0.beta0 and users are advised to upgrade. There are no known workarounds for this issue.
 
-- [https://github.com/c4cnm/CVE-2024-3867](https://github.com/c4cnm/CVE-2024-3867) :  ![starts](https://img.shields.io/github/stars/c4cnm/CVE-2024-3867.svg) ![forks](https://img.shields.io/github/forks/c4cnm/CVE-2024-3867.svg)
+- [https://github.com/nidhihcl75/jetty-9.4.31.v20200723_G3_CVE-2023-26049](https://github.com/nidhihcl75/jetty-9.4.31.v20200723_G3_CVE-2023-26049) :  ![starts](https://img.shields.io/github/stars/nidhihcl75/jetty-9.4.31.v20200723_G3_CVE-2023-26049.svg) ![forks](https://img.shields.io/github/forks/nidhihcl75/jetty-9.4.31.v20200723_G3_CVE-2023-26049.svg)
 
 
-## CVE-2023-50164
-Users are recommended to upgrade to versions Struts 2.5.33 or Struts 6.3.0.2 or greater to fix this issue.
+## CVE-2023-20198
+ Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.
 
-- [https://github.com/powerlesssta/cve-2023-50164-poc](https://github.com/powerlesssta/cve-2023-50164-poc) :  ![starts](https://img.shields.io/github/stars/powerlesssta/cve-2023-50164-poc.svg) ![forks](https://img.shields.io/github/forks/powerlesssta/cve-2023-50164-poc.svg)
+- [https://github.com/unsightlyabol/cisco-ios-xe-implant-scanner](https://github.com/unsightlyabol/cisco-ios-xe-implant-scanner) :  ![starts](https://img.shields.io/github/stars/unsightlyabol/cisco-ios-xe-implant-scanner.svg) ![forks](https://img.shields.io/github/forks/unsightlyabol/cisco-ios-xe-implant-scanner.svg)
 
 
-## CVE-2023-46604
-which fixes this issue.
+## CVE-2023-4357
+ Insufficient validation of untrusted input in XML in Google Chrome prior to 116.0.5845.96 allowed a remote attacker to bypass file access restrictions via a crafted HTML page. (Chromium security severity: Medium)
 
-- [https://github.com/skrkcb2/CVE-2023-46604](https://github.com/skrkcb2/CVE-2023-46604) :  ![starts](https://img.shields.io/github/stars/skrkcb2/CVE-2023-46604.svg) ![forks](https://img.shields.io/github/forks/skrkcb2/CVE-2023-46604.svg)
+- [https://github.com/xcanwin/CVE-2023-4357-Chrome-XXE](https://github.com/xcanwin/CVE-2023-4357-Chrome-XXE) :  ![starts](https://img.shields.io/github/stars/xcanwin/CVE-2023-4357-Chrome-XXE.svg) ![forks](https://img.shields.io/github/forks/xcanwin/CVE-2023-4357-Chrome-XXE.svg)
+- [https://github.com/lon5948/CVE-2023-4357-Exploitation](https://github.com/lon5948/CVE-2023-4357-Exploitation) :  ![starts](https://img.shields.io/github/stars/lon5948/CVE-2023-4357-Exploitation.svg) ![forks](https://img.shields.io/github/forks/lon5948/CVE-2023-4357-Exploitation.svg)
+- [https://github.com/sunu11/chrome-CVE-2023-4357](https://github.com/sunu11/chrome-CVE-2023-4357) :  ![starts](https://img.shields.io/github/stars/sunu11/chrome-CVE-2023-4357.svg) ![forks](https://img.shields.io/github/forks/sunu11/chrome-CVE-2023-4357.svg)
+- [https://github.com/WinnieZy/CVE-2023-4357](https://github.com/WinnieZy/CVE-2023-4357) :  ![starts](https://img.shields.io/github/stars/WinnieZy/CVE-2023-4357.svg) ![forks](https://img.shields.io/github/forks/WinnieZy/CVE-2023-4357.svg)
+- [https://github.com/CamillaFranceschini/CVE-2023-4357](https://github.com/CamillaFranceschini/CVE-2023-4357) :  ![starts](https://img.shields.io/github/stars/CamillaFranceschini/CVE-2023-4357.svg) ![forks](https://img.shields.io/github/forks/CamillaFranceschini/CVE-2023-4357.svg)
+- [https://github.com/passwa11/CVE-2023-4357-APT-Style-exploitation](https://github.com/passwa11/CVE-2023-4357-APT-Style-exploitation) :  ![starts](https://img.shields.io/github/stars/passwa11/CVE-2023-4357-APT-Style-exploitation.svg) ![forks](https://img.shields.io/github/forks/passwa11/CVE-2023-4357-APT-Style-exploitation.svg)
 
 
-## CVE-2023-42829
- The issue was addressed with additional restrictions on the observability of app states. This issue is fixed in macOS Big Sur 11.7.9, macOS Monterey 12.6.8, macOS Ventura 13.5. An app may be able to access SSH passphrases.
+## CVE-2023-3280
+ A problem with a protection mechanism in the Palo Alto Networks Cortex XDR agent on Windows devices allows a local user to disable the agent.
 
-- [https://github.com/JamesD4/CVE-2023-42829](https://github.com/JamesD4/CVE-2023-42829) :  ![starts](https://img.shields.io/github/stars/JamesD4/CVE-2023-42829.svg) ![forks](https://img.shields.io/github/forks/JamesD4/CVE-2023-42829.svg)
+- [https://github.com/ig-labs/EDR-ALPC-Block-POC](https://github.com/ig-labs/EDR-ALPC-Block-POC) :  ![starts](https://img.shields.io/github/stars/ig-labs/EDR-ALPC-Block-POC.svg) ![forks](https://img.shields.io/github/forks/ig-labs/EDR-ALPC-Block-POC.svg)
 
 
-## CVE-2023-26136
- Versions of the package tough-cookie before 4.1.3 are vulnerable to Prototype Pollution due to improper handling of Cookies when using CookieJar in rejectPublicSuffixes=false mode. This issue arises from the manner in which the objects are initialized.
+## CVE-2022-35978
+ Minetest is a free open-source voxel game engine with easy modding and game creation. In **single player**, a mod can set a global setting that controls the Lua script loaded to display the main menu. The script is then loaded as soon as the game session is exited. The Lua environment the menu runs in is not sandboxed and can directly interfere with the user's system. There are currently no known workarounds.
 
-- [https://github.com/dani33339/Tough-Cookie-v2.5.0-Patched](https://github.com/dani33339/Tough-Cookie-v2.5.0-Patched) :  ![starts](https://img.shields.io/github/stars/dani33339/Tough-Cookie-v2.5.0-Patched.svg) ![forks](https://img.shields.io/github/forks/dani33339/Tough-Cookie-v2.5.0-Patched.svg)
+- [https://github.com/CanVo/CVE-2022-35978-POC](https://github.com/CanVo/CVE-2022-35978-POC) :  ![starts](https://img.shields.io/github/stars/CanVo/CVE-2022-35978-POC.svg) ![forks](https://img.shields.io/github/forks/CanVo/CVE-2022-35978-POC.svg)
 
 
-## CVE-2023-2123
- The WP Inventory Manager WordPress plugin before 2.1.0.13 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting.
+## CVE-2020-27223
+ In Eclipse Jetty 9.4.6.v20170531 to 9.4.36.v20210114 (inclusive), 10.0.0, and 11.0.0 when Jetty handles a request containing multiple Accept headers with a large number of “quality” (i.e. q) parameters, the server may enter a denial of service (DoS) state due to high CPU usage processing those quality values, resulting in minutes of CPU time exhausted processing those quality values.
 
-- [https://github.com/0xn4d/poc-cve-xss-encoded-wp-inventory-manager-plugin](https://github.com/0xn4d/poc-cve-xss-encoded-wp-inventory-manager-plugin) :  ![starts](https://img.shields.io/github/stars/0xn4d/poc-cve-xss-encoded-wp-inventory-manager-plugin.svg) ![forks](https://img.shields.io/github/forks/0xn4d/poc-cve-xss-encoded-wp-inventory-manager-plugin.svg)
+- [https://github.com/Mahesh-970/G3_Jetty.project_CVE-2020-27223](https://github.com/Mahesh-970/G3_Jetty.project_CVE-2020-27223) :  ![starts](https://img.shields.io/github/stars/Mahesh-970/G3_Jetty.project_CVE-2020-27223.svg) ![forks](https://img.shields.io/github/forks/Mahesh-970/G3_Jetty.project_CVE-2020-27223.svg)
 
 
-## CVE-2023-0748
- Open Redirect in GitHub repository btcpayserver/btcpayserver prior to 1.7.6.
+## CVE-2015-9238
+ secure-compare 3.0.0 and below do not actually compare two strings properly. compare was actually comparing the first argument with itself, meaning the check passed for any two strings of the same length.
 
-- [https://github.com/gonzxph/CVE-2023-0748](https://github.com/gonzxph/CVE-2023-0748) :  ![starts](https://img.shields.io/github/stars/gonzxph/CVE-2023-0748.svg) ![forks](https://img.shields.io/github/forks/gonzxph/CVE-2023-0748.svg)
+- [https://github.com/JamesDarf/wargame-turkey_in_2](https://github.com/JamesDarf/wargame-turkey_in_2) :  ![starts](https://img.shields.io/github/stars/JamesDarf/wargame-turkey_in_2.svg) ![forks](https://img.shields.io/github/forks/JamesDarf/wargame-turkey_in_2.svg)
 
 
-## CVE-2023-0461
-We recommend upgrading past commit 2c02d41d71f90a5168391b6a5f2954112ba2307c
+## CVE-2010-2075
+ UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 through June 2010, contains an externally introduced modification (Trojan Horse) in the DEBUG3_DOLOG_SYSTEM macro, which allows remote attackers to execute arbitrary commands.
 
-- [https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0461](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0461) :  ![starts](https://img.shields.io/github/stars/hshivhare67/kernel_v4.19.72_CVE-2023-0461.svg) ![forks](https://img.shields.io/github/forks/hshivhare67/kernel_v4.19.72_CVE-2023-0461.svg)
-
-
-## CVE-2022-24992
- A vulnerability in the component process.php of QR Code Generator v5.2.7 allows attackers to perform directory traversal.
-
-- [https://github.com/n0lpointer/CVE-2022-24992](https://github.com/n0lpointer/CVE-2022-24992) :  ![starts](https://img.shields.io/github/stars/n0lpointer/CVE-2022-24992.svg) ![forks](https://img.shields.io/github/forks/n0lpointer/CVE-2022-24992.svg)
-
-
-## CVE-2019-12890
- RedwoodHQ 2.5.5 does not require any authentication for database operations, which allows remote attackers to create admin users via a con.automationframework users insert_one call.
-
-- [https://github.com/EthicalHCOP/CVE-2019-12890_RedxploitHQ](https://github.com/EthicalHCOP/CVE-2019-12890_RedxploitHQ) :  ![starts](https://img.shields.io/github/stars/EthicalHCOP/CVE-2019-12890_RedxploitHQ.svg) ![forks](https://img.shields.io/github/forks/EthicalHCOP/CVE-2019-12890_RedxploitHQ.svg)
-
-
-## CVE-2019-12460
- Web Port 1.19.1 allows XSS via the /access/setup type parameter.
-
-- [https://github.com/EmreOvunc/WebPort-v1.19.1-Reflected-XSS](https://github.com/EmreOvunc/WebPort-v1.19.1-Reflected-XSS) :  ![starts](https://img.shields.io/github/stars/EmreOvunc/WebPort-v1.19.1-Reflected-XSS.svg) ![forks](https://img.shields.io/github/forks/EmreOvunc/WebPort-v1.19.1-Reflected-XSS.svg)
-
-
-## CVE-2019-12409
- The 8.1.1 and 8.2.0 releases of Apache Solr contain an insecure setting for the ENABLE_REMOTE_JMX_OPTS configuration option in the default solr.in.sh configuration file shipping with Solr. If you use the default solr.in.sh file from the affected releases, then JMX monitoring will be enabled and exposed on RMI_PORT (default=18983), without any authentication. If this port is opened for inbound traffic in your firewall, then anyone with network access to your Solr nodes will be able to access JMX, which may in turn allow them to upload malicious code for execution on the Solr server.
-
-- [https://github.com/Imanfeng/Apache-Solr-RCE](https://github.com/Imanfeng/Apache-Solr-RCE) :  ![starts](https://img.shields.io/github/stars/Imanfeng/Apache-Solr-RCE.svg) ![forks](https://img.shields.io/github/forks/Imanfeng/Apache-Solr-RCE.svg)
-- [https://github.com/jas502n/CVE-2019-12409](https://github.com/jas502n/CVE-2019-12409) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-12409.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-12409.svg)
-
-
-## CVE-2019-12256
- Wind River VxWorks 6.9 and vx7 has a Buffer Overflow in the IPv4 component. There is an IPNET security vulnerability: Stack overflow in the parsing of IPv4 packets’ IP options.
-
-- [https://github.com/sud0woodo/Urgent11-Suricata-LUA-scripts](https://github.com/sud0woodo/Urgent11-Suricata-LUA-scripts) :  ![starts](https://img.shields.io/github/stars/sud0woodo/Urgent11-Suricata-LUA-scripts.svg) ![forks](https://img.shields.io/github/forks/sud0woodo/Urgent11-Suricata-LUA-scripts.svg)
-
-
-## CVE-2018-13382
- An Improper Authorization vulnerability in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.0 to 5.6.8 and 5.4.1 to 5.4.10 and FortiProxy 2.0.0, 1.2.0 to 1.2.8, 1.1.0 to 1.1.6, 1.0.0 to 1.0.7 under SSL VPN web portal allows an unauthenticated attacker to modify the password of an SSL VPN web portal user via specially crafted HTTP requests
-
-- [https://github.com/cojoben/CVE-2018-13382](https://github.com/cojoben/CVE-2018-13382) :  ![starts](https://img.shields.io/github/stars/cojoben/CVE-2018-13382.svg) ![forks](https://img.shields.io/github/forks/cojoben/CVE-2018-13382.svg)
+- [https://github.com/abhinavcybersec/PenTest-Lab](https://github.com/abhinavcybersec/PenTest-Lab) :  ![starts](https://img.shields.io/github/stars/abhinavcybersec/PenTest-Lab.svg) ![forks](https://img.shields.io/github/forks/abhinavcybersec/PenTest-Lab.svg)
 
