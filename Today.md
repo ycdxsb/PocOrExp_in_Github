@@ -1,66 +1,102 @@
-# Update 2025-03-04
-## CVE-2023-1488
- A vulnerability, which was classified as problematic, was found in Lespeed WiseCleaner Wise System Monitor 1.5.3.54. Affected is the function 0x9C40A0D8/0x9C40A0DC/0x9C40A0E0 in the library WiseHDInfo64.dll of the component IoControlCode Handler. The manipulation leads to denial of service. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used. VDB-223374 is the identifier assigned to this vulnerability.
+# Update 2025-03-05
+## CVE-2025-26206
+ Cross Site Request Forgery vulnerability in sell done storefront v.1.0 allows a remote attacker to escalate privileges via the index.html component
 
-- [https://github.com/sqqrky/CVE-2023-1488](https://github.com/sqqrky/CVE-2023-1488) :  ![starts](https://img.shields.io/github/stars/sqqrky/CVE-2023-1488.svg) ![forks](https://img.shields.io/github/forks/sqqrky/CVE-2023-1488.svg)
-
-
-## CVE-2022-30190
-Please see the MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability.
-
-- [https://github.com/yeep1115/ICT287_CVE-2022-30190_Exploit](https://github.com/yeep1115/ICT287_CVE-2022-30190_Exploit) :  ![starts](https://img.shields.io/github/stars/yeep1115/ICT287_CVE-2022-30190_Exploit.svg) ![forks](https://img.shields.io/github/forks/yeep1115/ICT287_CVE-2022-30190_Exploit.svg)
+- [https://github.com/xibhi/CVE-2025-26206](https://github.com/xibhi/CVE-2025-26206) :  ![starts](https://img.shields.io/github/stars/xibhi/CVE-2025-26206.svg) ![forks](https://img.shields.io/github/forks/xibhi/CVE-2025-26206.svg)
 
 
-## CVE-2020-35391
- Tenda N300 F3 12.01.01.48 devices allow remote attackers to obtain sensitive information (possibly including an http_passwd line) via a direct request for cgi-bin/DownloadCfg/RouterCfm.cfg, a related issue to CVE-2017-14942. NOTE: the vulnerability report may suggest that either a ? character must be placed after the RouterCfm.cfg filename, or that the HTTP request headers must be unusual, but it is not known why these are relevant to the device's HTTP response behavior.
+## CVE-2025-25967
+ Acora CMS version 10.1.1 is vulnerable to Cross-Site Request Forgery (CSRF). This flaw enables attackers to trick authenticated users into performing unauthorized actions, such as account deletion or user creation, by embedding malicious requests in external content. The lack of CSRF protections allows exploitation via crafted requests.
 
-- [https://github.com/4d000/Tenda-F3-V4](https://github.com/4d000/Tenda-F3-V4) :  ![starts](https://img.shields.io/github/stars/4d000/Tenda-F3-V4.svg) ![forks](https://img.shields.io/github/forks/4d000/Tenda-F3-V4.svg)
-
-
-## CVE-2020-17519
- A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as well) allows attackers to read any file on the local filesystem of the JobManager through the REST interface of the JobManager process. Access is restricted to files accessible by the JobManager process. All users should upgrade to Flink 1.11.3 or 1.12.0 if their Flink instance(s) are exposed. The issue was fixed in commit b561010b0ee741543c3953306037f00d7a9f0801 from apache/flink:master.
-
-- [https://github.com/GazettEl/CVE-2020-17519](https://github.com/GazettEl/CVE-2020-17519) :  ![starts](https://img.shields.io/github/stars/GazettEl/CVE-2020-17519.svg) ![forks](https://img.shields.io/github/forks/GazettEl/CVE-2020-17519.svg)
+- [https://github.com/padayali-JD/CVE-2025-25967](https://github.com/padayali-JD/CVE-2025-25967) :  ![starts](https://img.shields.io/github/stars/padayali-JD/CVE-2025-25967.svg) ![forks](https://img.shields.io/github/forks/padayali-JD/CVE-2025-25967.svg)
 
 
-## CVE-2019-0678
- An elevation of privilege vulnerability exists when Microsoft Edge does not properly enforce cross-domain policies, which could allow an attacker to access information from one domain and inject it into another domain.In a web-based attack scenario, an attacker could host a website that is used to attempt to exploit the vulnerability, aka 'Microsoft Edge Elevation of Privilege Vulnerability'.
+## CVE-2024-56340
+ IBM Cognos Analytics 11.2.0 through 11.2.4 FP5 is vulnerable to local file inclusion vulnerability, allowing an attacker to access sensitive files by inserting path traversal payloads inside the deficon parameter.
 
-- [https://github.com/sandi-go/CVE-2019-0678](https://github.com/sandi-go/CVE-2019-0678) :  ![starts](https://img.shields.io/github/stars/sandi-go/CVE-2019-0678.svg) ![forks](https://img.shields.io/github/forks/sandi-go/CVE-2019-0678.svg)
-
-
-## CVE-2018-15968
- Adobe Acrobat and Reader versions 2018.011.20063 and earlier, 2017.011.30102 and earlier, and 2015.006.30452 and earlier have an out-of-bounds read vulnerability. Successful exploitation could lead to information disclosure.
-
-- [https://github.com/sandi-go/cve-2018-15968](https://github.com/sandi-go/cve-2018-15968) :  ![starts](https://img.shields.io/github/stars/sandi-go/cve-2018-15968.svg) ![forks](https://img.shields.io/github/forks/sandi-go/cve-2018-15968.svg)
+- [https://github.com/MarioTesoro/CVE-2024-56340](https://github.com/MarioTesoro/CVE-2024-56340) :  ![starts](https://img.shields.io/github/stars/MarioTesoro/CVE-2024-56340.svg) ![forks](https://img.shields.io/github/forks/MarioTesoro/CVE-2024-56340.svg)
 
 
-## CVE-2018-14442
- Foxit Reader before 9.2 and PhantomPDF before 9.2 have a Use-After-Free that leads to Remote Code Execution, aka V-88f4smlocs.
+## CVE-2024-56337
+Tomcat 11.0.3, 10.1.35 and 9.0.99 onwards will include checks that sun.io.useCanonCaches is set appropriately before allowing the default servlet to be write enabled on a case insensitive file system. Tomcat will also set sun.io.useCanonCaches to false by default where it can.
 
-- [https://github.com/sandi-go/PS-2018-002---CVE-2018-14442](https://github.com/sandi-go/PS-2018-002---CVE-2018-14442) :  ![starts](https://img.shields.io/github/stars/sandi-go/PS-2018-002---CVE-2018-14442.svg) ![forks](https://img.shields.io/github/forks/sandi-go/PS-2018-002---CVE-2018-14442.svg)
-
-
-## CVE-2018-12798
- Adobe Acrobat and Reader 2018.011.20040 and earlier, 2017.011.30080 and earlier, and 2015.006.30418 and earlier versions have a Heap Overflow vulnerability. Successful exploitation could lead to arbitrary code execution in the context of the current user.
-
-- [https://github.com/sandi-go/cve-2018-12798](https://github.com/sandi-go/cve-2018-12798) :  ![starts](https://img.shields.io/github/stars/sandi-go/cve-2018-12798.svg) ![forks](https://img.shields.io/github/forks/sandi-go/cve-2018-12798.svg)
+- [https://github.com/shoddykilom/CVE-2024-50379](https://github.com/shoddykilom/CVE-2024-50379) :  ![starts](https://img.shields.io/github/stars/shoddykilom/CVE-2024-50379.svg) ![forks](https://img.shields.io/github/forks/shoddykilom/CVE-2024-50379.svg)
 
 
-## CVE-2018-9951
- This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader 9.0.0.29935. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of CPDF_Object objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process. Was ZDI-CAN-5414.
+## CVE-2024-50379
+Users are recommended to upgrade to version 11.0.2, 10.1.34 or 9.0.98, which fixes the issue.
 
-- [https://github.com/sandi-go/cve-2018-9951](https://github.com/sandi-go/cve-2018-9951) :  ![starts](https://img.shields.io/github/stars/sandi-go/cve-2018-9951.svg) ![forks](https://img.shields.io/github/forks/sandi-go/cve-2018-9951.svg)
-
-
-## CVE-2018-9950
- This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Foxit Reader 9.0.0.29935. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF documents. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. Was ZDI-CAN-5413.
-
-- [https://github.com/sandi-go/PS-2017-13---CVE-2018-9950](https://github.com/sandi-go/PS-2017-13---CVE-2018-9950) :  ![starts](https://img.shields.io/github/stars/sandi-go/PS-2017-13---CVE-2018-9950.svg) ![forks](https://img.shields.io/github/forks/sandi-go/PS-2017-13---CVE-2018-9950.svg)
+- [https://github.com/shoddykilom/CVE-2024-50379](https://github.com/shoddykilom/CVE-2024-50379) :  ![starts](https://img.shields.io/github/stars/shoddykilom/CVE-2024-50379.svg) ![forks](https://img.shields.io/github/forks/shoddykilom/CVE-2024-50379.svg)
 
 
-## CVE-2018-8389
- A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka "Scripting Engine Memory Corruption Vulnerability." This affects Internet Explorer 9, Internet Explorer 11, Internet Explorer 10. This CVE ID is unique from CVE-2018-8353, CVE-2018-8355, CVE-2018-8359, CVE-2018-8371, CVE-2018-8372, CVE-2018-8373, CVE-2018-8385, CVE-2018-8390.
+## CVE-2024-10605
+ A vulnerability was found in code-projects Blood Bank Management System 1.0. It has been classified as problematic. This affects an unknown part of the file /file/request.php. The manipulation leads to cross-site request forgery. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 
-- [https://github.com/sandi-go/cve-2018-8389](https://github.com/sandi-go/cve-2018-8389) :  ![starts](https://img.shields.io/github/stars/sandi-go/cve-2018-8389.svg) ![forks](https://img.shields.io/github/forks/sandi-go/cve-2018-8389.svg)
+- [https://github.com/bevennyamande/CVE-2024-10605](https://github.com/bevennyamande/CVE-2024-10605) :  ![starts](https://img.shields.io/github/stars/bevennyamande/CVE-2024-10605.svg) ![forks](https://img.shields.io/github/forks/bevennyamande/CVE-2024-10605.svg)
+
+
+## CVE-2024-10557
+ A vulnerability has been found in code-projects Blood Bank Management System 1.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /file/updateprofile.php. The manipulation leads to cross-site request forgery. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+
+- [https://github.com/bevennyamande/CVE-2024-10557](https://github.com/bevennyamande/CVE-2024-10557) :  ![starts](https://img.shields.io/github/stars/bevennyamande/CVE-2024-10557.svg) ![forks](https://img.shields.io/github/forks/bevennyamande/CVE-2024-10557.svg)
+
+
+## CVE-2024-10448
+ A vulnerability, which was classified as problematic, has been found in code-projects Blood Bank Management System 1.0. Affected by this issue is some unknown functionality of the file /file/delete.php. The manipulation of the argument bid leads to cross-site request forgery. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. Other endpoints might be affected as well.
+
+- [https://github.com/bevennyamande/CVE-2024-10448](https://github.com/bevennyamande/CVE-2024-10448) :  ![starts](https://img.shields.io/github/stars/bevennyamande/CVE-2024-10448.svg) ![forks](https://img.shields.io/github/forks/bevennyamande/CVE-2024-10448.svg)
+
+
+## CVE-2024-9474
+Cloud NGFW and Prisma Access are not impacted by this vulnerability.
+
+- [https://github.com/concretesign/CVE-2024-9474](https://github.com/concretesign/CVE-2024-9474) :  ![starts](https://img.shields.io/github/stars/concretesign/CVE-2024-9474.svg) ![forks](https://img.shields.io/github/forks/concretesign/CVE-2024-9474.svg)
+
+
+## CVE-2024-5143
+ A user with device administrative privileges can change existing SMTP server settings on the device, without having to re-enter SMTP server credentials.  By redirecting send-to-email traffic to the new server, the original SMTP server credentials may potentially be exposed.
+
+- [https://github.com/bevennyamande/CVE-2024-51435](https://github.com/bevennyamande/CVE-2024-51435) :  ![starts](https://img.shields.io/github/stars/bevennyamande/CVE-2024-51435.svg) ![forks](https://img.shields.io/github/forks/bevennyamande/CVE-2024-51435.svg)
+
+
+## CVE-2024-4650
+ A vulnerability classified as problematic was found in Campcodes Complete Web-Based School Management System 1.0. This vulnerability affects unknown code of the file /view/student_due_payment.php. The manipulation of the argument due_month leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-263494 is the identifier assigned to this vulnerability.
+
+- [https://github.com/Somchandra17/CVE-2024-46507](https://github.com/Somchandra17/CVE-2024-46507) :  ![starts](https://img.shields.io/github/stars/Somchandra17/CVE-2024-46507.svg) ![forks](https://img.shields.io/github/forks/Somchandra17/CVE-2024-46507.svg)
+
+
+## CVE-2023-49031
+ Directory Traversal (Local File Inclusion) vulnerability in Tikit (now Advanced) eMarketing platform 6.8.3.0 allows a remote attacker to read arbitrary files and obtain sensitive information via a crafted payload to the filename parameter to the OpenLogFile endpoint.
+
+- [https://github.com/Yoshik0xF6/CVE-2023-49031](https://github.com/Yoshik0xF6/CVE-2023-49031) :  ![starts](https://img.shields.io/github/stars/Yoshik0xF6/CVE-2023-49031.svg) ![forks](https://img.shields.io/github/forks/Yoshik0xF6/CVE-2023-49031.svg)
+
+
+## CVE-2023-47102
+ UrBackup Server 2.5.31 allows brute-force enumeration of user accounts because a failure message confirms that a username is not valid.
+
+- [https://github.com/quantiano/cve-2023-47102](https://github.com/quantiano/cve-2023-47102) :  ![starts](https://img.shields.io/github/stars/quantiano/cve-2023-47102.svg) ![forks](https://img.shields.io/github/forks/quantiano/cve-2023-47102.svg)
+
+
+## CVE-2023-46604
+which fixes this issue.
+
+- [https://github.com/mnbvcxz131421/CVE-2023-46604](https://github.com/mnbvcxz131421/CVE-2023-46604) :  ![starts](https://img.shields.io/github/stars/mnbvcxz131421/CVE-2023-46604.svg) ![forks](https://img.shields.io/github/forks/mnbvcxz131421/CVE-2023-46604.svg)
+
+
+## CVE-2023-40167
+ Jetty is a Java based web server and servlet engine. Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty accepts the `+` character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response. Versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1 contain a patch for this issue. There is no workaround as there is no known exploit scenario.
+
+- [https://github.com/uthrasri/Jetty-v9.4.31_CVE-2023-40167-](https://github.com/uthrasri/Jetty-v9.4.31_CVE-2023-40167-) :  ![starts](https://img.shields.io/github/stars/uthrasri/Jetty-v9.4.31_CVE-2023-40167-.svg) ![forks](https://img.shields.io/github/forks/uthrasri/Jetty-v9.4.31_CVE-2023-40167-.svg)
+
+
+## CVE-2023-26049
+ Jetty is a java based web server and servlet engine. Nonstandard cookie parsing in Jetty may allow an attacker to smuggle cookies within other cookies, or otherwise perform unintended behavior by tampering with the cookie parsing mechanism. If Jetty sees a cookie VALUE that starts with `"` (double quote), it will continue to read the cookie string until it sees a closing quote -- even if a semicolon is encountered. So, a cookie header such as: `DISPLAY_LANGUAGE="b; JSESSIONID=1337; c=d"` will be parsed as one cookie, with the name DISPLAY_LANGUAGE and a value of b; JSESSIONID=1337; c=d instead of 3 separate cookies. This has security implications because if, say, JSESSIONID is an HttpOnly cookie, and the DISPLAY_LANGUAGE cookie value is rendered on the page, an attacker can smuggle the JSESSIONID cookie into the DISPLAY_LANGUAGE cookie and thereby exfiltrate it. This is significant when an intermediary is enacting some policy based on cookies, so a smuggled cookie can bypass that policy yet still be seen by the Jetty server or its logging system. This issue has been addressed in versions 9.4.51, 10.0.14, 11.0.14, and 12.0.0.beta0 and users are advised to upgrade. There are no known workarounds for this issue.
+
+- [https://github.com/uthrasri/jetty-9.4.31.v20200723_CVE-2023-26049](https://github.com/uthrasri/jetty-9.4.31.v20200723_CVE-2023-26049) :  ![starts](https://img.shields.io/github/stars/uthrasri/jetty-9.4.31.v20200723_CVE-2023-26049.svg) ![forks](https://img.shields.io/github/forks/uthrasri/jetty-9.4.31.v20200723_CVE-2023-26049.svg)
+
+
+## CVE-2022-28171
+ The web module in some Hikvision Hybrid SAN/Cluster Storage products have the following security vulnerability. Due to the insufficient input validation, attacker can exploit the vulnerability to execute restricted commands by sending messages with malicious commands to the affected device.
+
+- [https://github.com/Sapphire2017/CVE-2022-28171-POC](https://github.com/Sapphire2017/CVE-2022-28171-POC) :  ![starts](https://img.shields.io/github/stars/Sapphire2017/CVE-2022-28171-POC.svg) ![forks](https://img.shields.io/github/forks/Sapphire2017/CVE-2022-28171-POC.svg)
 
