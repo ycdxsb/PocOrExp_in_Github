@@ -28,13 +28,6 @@
 
 - [https://github.com/tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125) :  ![starts](https://img.shields.io/github/stars/tagatac/libsafe-CVE-2005-1125.svg) ![forks](https://img.shields.io/github/forks/tagatac/libsafe-CVE-2005-1125.svg)
 
-## CVE-2005-0603
- viewtopic.php in phpBB 2.0.12 and earlier allows remote attackers to obtain sensitive information via a highlight parameter containing invalid regular expression syntax, which reveals the path in a PHP error message.
-
-
-
-- [https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure](https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure) :  ![starts](https://img.shields.io/github/stars/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure.svg) ![forks](https://img.shields.io/github/forks/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure.svg)
-
 ## CVE-2005-0575
  Buffer overflow in Stormy Studios Knet 1.04c and earlier allows remote attackers to cause a denial of service and possibly execute arbitrary code via a long HTTP GET request.
 
