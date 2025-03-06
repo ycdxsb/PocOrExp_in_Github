@@ -5,14 +5,16 @@
 
 - [https://github.com/OscarBataille/CVE-2025-26794](https://github.com/OscarBataille/CVE-2025-26794) :  ![starts](https://img.shields.io/github/stars/OscarBataille/CVE-2025-26794.svg) ![forks](https://img.shields.io/github/forks/OscarBataille/CVE-2025-26794.svg)
 
+- [https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi](https://github.com/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi) :  ![starts](https://img.shields.io/github/stars/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi.svg) ![forks](https://img.shields.io/github/forks/ishwardeepp/CVE-2025-26794-Exim-Mail-SQLi.svg)
+
 ## CVE-2025-26466
  A flaw was found in the OpenSSH package. For each ping packet the SSH server receives, a pong packet is allocated in a memory buffer and stored in a queue of packages. It is only freed when the server/client key exchange has finished. A malicious client may keep sending such packages, leading to an uncontrolled increase in memory consumption on the server side. Consequently, the server may become unavailable, resulting in a denial of service attack.
 
 
 
-- [https://github.com/rxerium/CVE-2025-26466](https://github.com/rxerium/CVE-2025-26466) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2025-26466.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2025-26466.svg)
-
 - [https://github.com/jhonnybonny/CVE-2025-26466](https://github.com/jhonnybonny/CVE-2025-26466) :  ![starts](https://img.shields.io/github/stars/jhonnybonny/CVE-2025-26466.svg) ![forks](https://img.shields.io/github/forks/jhonnybonny/CVE-2025-26466.svg)
+
+- [https://github.com/rxerium/CVE-2025-26466](https://github.com/rxerium/CVE-2025-26466) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2025-26466.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2025-26466.svg)
 
 - [https://github.com/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466](https://github.com/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466) :  ![starts](https://img.shields.io/github/stars/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466.svg) ![forks](https://img.shields.io/github/forks/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466.svg)
 
@@ -123,7 +125,7 @@
 
 - [https://github.com/RandomRobbieBF/CVE-2025-25163](https://github.com/RandomRobbieBF/CVE-2025-25163) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2025-25163.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2025-25163.svg)
 
-- [https://github.com/rootharpy/CVE-2025-25163-Nuclei-Template](https://github.com/rootharpy/CVE-2025-25163-Nuclei-Template) :  ![starts](https://img.shields.io/github/stars/rootharpy/CVE-2025-25163-Nuclei-Template.svg) ![forks](https://img.shields.io/github/forks/rootharpy/CVE-2025-25163-Nuclei-Template.svg)
+- [https://github.com/RootHarpy/CVE-2025-25163-Nuclei-Template](https://github.com/RootHarpy/CVE-2025-25163-Nuclei-Template) :  ![starts](https://img.shields.io/github/stars/RootHarpy/CVE-2025-25163-Nuclei-Template.svg) ![forks](https://img.shields.io/github/forks/RootHarpy/CVE-2025-25163-Nuclei-Template.svg)
 
 ## CVE-2025-25064
  SQL injection vulnerability in the ZimbraSync Service SOAP endpoint in Zimbra Collaboration 10.0.x before 10.0.12 and 10.1.x before 10.1.4 due to insufficient sanitization of a user-supplied parameter. Authenticated attackers can exploit this vulnerability by manipulating a specific parameter in the request, allowing them to inject arbitrary SQL queries that could retrieve email metadata.
@@ -380,6 +382,8 @@ Note: Software versions which have reached End of Technical Support (EoTS) are n
 
 - [https://github.com/McTavishSue/CVE-2025-1307](https://github.com/McTavishSue/CVE-2025-1307) :  ![starts](https://img.shields.io/github/stars/McTavishSue/CVE-2025-1307.svg) ![forks](https://img.shields.io/github/forks/McTavishSue/CVE-2025-1307.svg)
 
+- [https://github.com/Nxploited/CVE-2025-1307](https://github.com/Nxploited/CVE-2025-1307) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-1307.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-1307.svg)
+
 ## CVE-2025-1302
  Versions of the package jsonpath-plus before 10.3.0 are vulnerable to Remote Code Execution (RCE) due to improper input sanitization. An attacker can execute aribitrary code on the system by exploiting the unsafe default usage of eval='safe' mode.**Note:**This is caused by an incomplete fix for [CVE-2024-21534](https://security.snyk.io/vuln/SNYK-JS-JSONPATHPLUS-7945884).
 
@@ -393,6 +397,8 @@ Note: Software versions which have reached End of Technical Support (EoTS) are n
 
 
 - [https://github.com/soltanali0/CVE-2025-1094-Exploit](https://github.com/soltanali0/CVE-2025-1094-Exploit) :  ![starts](https://img.shields.io/github/stars/soltanali0/CVE-2025-1094-Exploit.svg) ![forks](https://img.shields.io/github/forks/soltanali0/CVE-2025-1094-Exploit.svg)
+
+- [https://github.com/shacojx/CVE-2025-1094-Exploit](https://github.com/shacojx/CVE-2025-1094-Exploit) :  ![starts](https://img.shields.io/github/stars/shacojx/CVE-2025-1094-Exploit.svg) ![forks](https://img.shields.io/github/forks/shacojx/CVE-2025-1094-Exploit.svg)
 
 ## CVE-2025-1015
  The Thunderbird Address Book URI fields contained unsanitized links. This could be used by an attacker to create and export an address book containing a malicious payload in a field. For example, in the “Other” field of the Instant Messaging section. If another user imported the address book, clicking on the link could result in opening a web page inside Thunderbird, and that page could execute (unprivileged) JavaScript. This vulnerability affects Thunderbird  128.7.
