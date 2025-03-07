@@ -12,9 +12,9 @@
 
 
 
-- [https://github.com/jhonnybonny/CVE-2025-26466](https://github.com/jhonnybonny/CVE-2025-26466) :  ![starts](https://img.shields.io/github/stars/jhonnybonny/CVE-2025-26466.svg) ![forks](https://img.shields.io/github/forks/jhonnybonny/CVE-2025-26466.svg)
-
 - [https://github.com/rxerium/CVE-2025-26466](https://github.com/rxerium/CVE-2025-26466) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2025-26466.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2025-26466.svg)
+
+- [https://github.com/jhonnybonny/CVE-2025-26466](https://github.com/jhonnybonny/CVE-2025-26466) :  ![starts](https://img.shields.io/github/stars/jhonnybonny/CVE-2025-26466.svg) ![forks](https://img.shields.io/github/forks/jhonnybonny/CVE-2025-26466.svg)
 
 - [https://github.com/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466](https://github.com/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466) :  ![starts](https://img.shields.io/github/stars/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466.svg) ![forks](https://img.shields.io/github/forks/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466.svg)
 
@@ -89,6 +89,13 @@
 
 
 - [https://github.com/padayali-JD/CVE-2025-25967](https://github.com/padayali-JD/CVE-2025-25967) :  ![starts](https://img.shields.io/github/stars/padayali-JD/CVE-2025-25967.svg) ![forks](https://img.shields.io/github/forks/padayali-JD/CVE-2025-25967.svg)
+
+## CVE-2025-25763
+ crmeb CRMEB-KY v5.4.0 and before has a SQL Injection vulnerability at getRead() in /system/SystemDatabackupServices.php
+
+
+
+- [https://github.com/J-0k3r/CVE-2025-25763](https://github.com/J-0k3r/CVE-2025-25763) :  ![starts](https://img.shields.io/github/stars/J-0k3r/CVE-2025-25763.svg) ![forks](https://img.shields.io/github/forks/J-0k3r/CVE-2025-25763.svg)
 
 ## CVE-2025-25461
  A Stored Cross-Site Scripting (XSS) vulnerability exists in SeedDMS 6.0.29. A user or rogue admin with the "Add Category" permission can inject a malicious XSS payload into the category name field. When a document is subsequently associated with this category, the payload is stored on the server and rendered without proper sanitization or output encoding. This results in the XSS payload executing in the browser of any user who views the document.
@@ -312,13 +319,6 @@ CloudStack admins may also disallow listAnnotations and addAnnotation API access
 
 - [https://github.com/DoTTak/CVE-2025-22352](https://github.com/DoTTak/CVE-2025-22352) :  ![starts](https://img.shields.io/github/stars/DoTTak/CVE-2025-22352.svg) ![forks](https://img.shields.io/github/forks/DoTTak/CVE-2025-22352.svg)
 
-## CVE-2025-21624
- ClipBucket V5 provides open source video hosting with PHP. Prior to 5.5.1 - 239, a file upload vulnerability exists in the Manage Playlist functionality of the application, specifically surrounding the uploading of playlist cover images. Without proper checks, an attacker can upload a PHP script file instead of an image file, thus allowing a webshell or other malicious files to be stored and executed on the server. This attack vector exists in both the admin area and low-level user area. This vulnerability is fixed in 5.5.1 - 239.
-
-
-
-- [https://github.com/shreyas-malhotra/CVE-2025-21624](https://github.com/shreyas-malhotra/CVE-2025-21624) :  ![starts](https://img.shields.io/github/stars/shreyas-malhotra/CVE-2025-21624.svg) ![forks](https://img.shields.io/github/forks/shreyas-malhotra/CVE-2025-21624.svg)
-
 ## CVE-2025-21420
  Windows Disk Cleanup Tool Elevation of Privilege Vulnerability
 
@@ -383,6 +383,13 @@ Note: Software versions which have reached End of Technical Support (EoTS) are n
 - [https://github.com/McTavishSue/CVE-2025-1307](https://github.com/McTavishSue/CVE-2025-1307) :  ![starts](https://img.shields.io/github/stars/McTavishSue/CVE-2025-1307.svg) ![forks](https://img.shields.io/github/forks/McTavishSue/CVE-2025-1307.svg)
 
 - [https://github.com/Nxploited/CVE-2025-1307](https://github.com/Nxploited/CVE-2025-1307) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-1307.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-1307.svg)
+
+## CVE-2025-1306
+ The Newscrunch theme for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.8.4. This is due to missing or incorrect nonce validation on the newscrunch_install_and_activate_plugin() function. This makes it possible for unauthenticated attackers to upload arbitrary files via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+
+
+
+- [https://github.com/Nxploited/CVE-2025-1306](https://github.com/Nxploited/CVE-2025-1306) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-1306.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-1306.svg)
 
 ## CVE-2025-1302
  Versions of the package jsonpath-plus before 10.3.0 are vulnerable to Remote Code Execution (RCE) due to improper input sanitization. An attacker can execute aribitrary code on the system by exploiting the unsafe default usage of eval='safe' mode.**Note:**This is caused by an incomplete fix for [CVE-2024-21534](https://security.snyk.io/vuln/SNYK-JS-JSONPATHPLUS-7945884).
