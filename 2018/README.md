@@ -1,3 +1,14 @@
+## CVE-2018-1999002
+ A arbitrary file read vulnerability exists in Jenkins 2.132 and earlier, 2.121.1 and earlier in the Stapler web framework's org/kohsuke/stapler/Stapler.java that allows attackers to send crafted HTTP requests returning the contents of any file on the Jenkins master file system that the Jenkins master has access to.
+
+
+
+- [https://github.com/wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development) :  ![starts](https://img.shields.io/github/stars/wetw0rk/Exploit-Development.svg) ![forks](https://img.shields.io/github/forks/wetw0rk/Exploit-Development.svg)
+
+- [https://github.com/slowmistio/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins](https://github.com/slowmistio/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins) :  ![starts](https://img.shields.io/github/stars/slowmistio/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins.svg) ![forks](https://img.shields.io/github/forks/slowmistio/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins.svg)
+
+- [https://github.com/0x6b7966/CVE-2018-1999002](https://github.com/0x6b7966/CVE-2018-1999002) :  ![starts](https://img.shields.io/github/stars/0x6b7966/CVE-2018-1999002.svg) ![forks](https://img.shields.io/github/forks/0x6b7966/CVE-2018-1999002.svg)
+
 ## CVE-2018-1002204
  adm-zip npm library before 0.4.9 is vulnerable to directory traversal, allowing attackers to write to arbitrary files via a ../ (dot dot slash) in a Zip archive entry that is mishandled during extraction. This vulnerability is also known as 'Zip-Slip'.
 
@@ -164,6 +175,13 @@
 - [https://github.com/0x00-0x00/CVE-2018-1000001](https://github.com/0x00-0x00/CVE-2018-1000001) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2018-1000001.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2018-1000001.svg)
 
 - [https://github.com/usernameid0/tools-for-CVE-2018-1000001](https://github.com/usernameid0/tools-for-CVE-2018-1000001) :  ![starts](https://img.shields.io/github/stars/usernameid0/tools-for-CVE-2018-1000001.svg) ![forks](https://img.shields.io/github/forks/usernameid0/tools-for-CVE-2018-1000001.svg)
+
+## CVE-2018-25075
+ A vulnerability classified as critical has been found in karsany OBridge up to 1.3. Affected is the function getAllStandaloneProcedureAndFunction of the file obridge-main/src/main/java/org/obridge/dao/ProcedureDao.java. The manipulation leads to sql injection. The complexity of an attack is rather high. The exploitability is told to be difficult. Upgrading to version 1.4 is able to address this issue. The name of the patch is 52eca4ad05f3c292aed3178b2f58977686ffa376. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218376.
+
+
+
+- [https://github.com/epicosy/obridge](https://github.com/epicosy/obridge) :  ![starts](https://img.shields.io/github/stars/epicosy/obridge.svg) ![forks](https://img.shields.io/github/forks/epicosy/obridge.svg)
 
 ## CVE-2018-25032
  zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches.
@@ -1378,9 +1396,9 @@
 
 - [https://github.com/NestyF/SSH_Enum_CVE-2018-15473](https://github.com/NestyF/SSH_Enum_CVE-2018-15473) :  ![starts](https://img.shields.io/github/stars/NestyF/SSH_Enum_CVE-2018-15473.svg) ![forks](https://img.shields.io/github/forks/NestyF/SSH_Enum_CVE-2018-15473.svg)
 
-- [https://github.com/Dirty-Racoon/CVE-2018-15473-py3](https://github.com/Dirty-Racoon/CVE-2018-15473-py3) :  ![starts](https://img.shields.io/github/stars/Dirty-Racoon/CVE-2018-15473-py3.svg) ![forks](https://img.shields.io/github/forks/Dirty-Racoon/CVE-2018-15473-py3.svg)
-
 - [https://github.com/SUDORM0X/PoC-CVE-2018-15473](https://github.com/SUDORM0X/PoC-CVE-2018-15473) :  ![starts](https://img.shields.io/github/stars/SUDORM0X/PoC-CVE-2018-15473.svg) ![forks](https://img.shields.io/github/forks/SUDORM0X/PoC-CVE-2018-15473.svg)
+
+- [https://github.com/Dirty-Racoon/CVE-2018-15473-py3](https://github.com/Dirty-Racoon/CVE-2018-15473-py3) :  ![starts](https://img.shields.io/github/stars/Dirty-Racoon/CVE-2018-15473-py3.svg) ![forks](https://img.shields.io/github/forks/Dirty-Racoon/CVE-2018-15473-py3.svg)
 
 - [https://github.com/Anonimo501/ssh_enum_users_CVE-2018-15473](https://github.com/Anonimo501/ssh_enum_users_CVE-2018-15473) :  ![starts](https://img.shields.io/github/stars/Anonimo501/ssh_enum_users_CVE-2018-15473.svg) ![forks](https://img.shields.io/github/forks/Anonimo501/ssh_enum_users_CVE-2018-15473.svg)
 
@@ -1654,6 +1672,15 @@
 
 - [https://github.com/ossf-cve-benchmark/CVE-2018-13863](https://github.com/ossf-cve-benchmark/CVE-2018-13863) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2018-13863.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2018-13863.svg)
 
+## CVE-2018-13797
+ The macaddress module before 0.2.9 for Node.js is prone to an arbitrary command injection flaw, due to allowing unsanitized input to an exec (rather than execFile) call.
+
+
+
+- [https://github.com/ossf-cve-benchmark/CVE-2018-13797](https://github.com/ossf-cve-benchmark/CVE-2018-13797) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2018-13797.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2018-13797.svg)
+
+- [https://github.com/dsp-testing/CVE-2018-13797](https://github.com/dsp-testing/CVE-2018-13797) :  ![starts](https://img.shields.io/github/stars/dsp-testing/CVE-2018-13797.svg) ![forks](https://img.shields.io/github/forks/dsp-testing/CVE-2018-13797.svg)
+
 ## CVE-2018-13784
  PrestaShop before 1.6.1.20 and 1.7.x before 1.7.3.4 mishandles cookie encryption in Cookie.php, Rinjdael.php, and Blowfish.php.
 
@@ -1667,6 +1694,55 @@
 
 
 - [https://github.com/shinecome/zip](https://github.com/shinecome/zip) :  ![starts](https://img.shields.io/github/stars/shinecome/zip.svg) ![forks](https://img.shields.io/github/forks/shinecome/zip.svg)
+
+## CVE-2018-13382
+ An Improper Authorization vulnerability in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.0 to 5.6.8 and 5.4.1 to 5.4.10 and FortiProxy 2.0.0, 1.2.0 to 1.2.8, 1.1.0 to 1.1.6, 1.0.0 to 1.0.7 under SSL VPN web portal allows an unauthenticated attacker to modify the password of an SSL VPN web portal user via specially crafted HTTP requests
+
+
+
+- [https://github.com/milo2012/CVE-2018-13382](https://github.com/milo2012/CVE-2018-13382) :  ![starts](https://img.shields.io/github/stars/milo2012/CVE-2018-13382.svg) ![forks](https://img.shields.io/github/forks/milo2012/CVE-2018-13382.svg)
+
+- [https://github.com/tumikoto/Exploit-FortinetMagicBackdoor](https://github.com/tumikoto/Exploit-FortinetMagicBackdoor) :  ![starts](https://img.shields.io/github/stars/tumikoto/Exploit-FortinetMagicBackdoor.svg) ![forks](https://img.shields.io/github/forks/tumikoto/Exploit-FortinetMagicBackdoor.svg)
+
+- [https://github.com/cojoben/CVE-2018-13382](https://github.com/cojoben/CVE-2018-13382) :  ![starts](https://img.shields.io/github/stars/cojoben/CVE-2018-13382.svg) ![forks](https://img.shields.io/github/forks/cojoben/CVE-2018-13382.svg)
+
+## CVE-2018-13379
+ An Improper Limitation of a Pathname to a Restricted Directory ("Path Traversal") in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.3 to 5.6.7 and 5.4.6 to 5.4.12 and FortiProxy 2.0.0, 1.2.0 to 1.2.8, 1.1.0 to 1.1.6, 1.0.0 to 1.0.7 under SSL VPN web portal allows an unauthenticated attacker to download system files via special crafted HTTP resource requests.
+
+
+
+- [https://github.com/W01fh4cker/Serein](https://github.com/W01fh4cker/Serein) :  ![starts](https://img.shields.io/github/stars/W01fh4cker/Serein.svg) ![forks](https://img.shields.io/github/forks/W01fh4cker/Serein.svg)
+
+- [https://github.com/milo2012/CVE-2018-13379](https://github.com/milo2012/CVE-2018-13379) :  ![starts](https://img.shields.io/github/stars/milo2012/CVE-2018-13379.svg) ![forks](https://img.shields.io/github/forks/milo2012/CVE-2018-13379.svg)
+
+- [https://github.com/Blazz3/cve2018-13379-nmap-script](https://github.com/Blazz3/cve2018-13379-nmap-script) :  ![starts](https://img.shields.io/github/stars/Blazz3/cve2018-13379-nmap-script.svg) ![forks](https://img.shields.io/github/forks/Blazz3/cve2018-13379-nmap-script.svg)
+
+- [https://github.com/hackingyseguridad/directoriotraversal](https://github.com/hackingyseguridad/directoriotraversal) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/directoriotraversal.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/directoriotraversal.svg)
+
+- [https://github.com/Zeop-CyberSec/fortios_vpnssl_traversal_leak](https://github.com/Zeop-CyberSec/fortios_vpnssl_traversal_leak) :  ![starts](https://img.shields.io/github/stars/Zeop-CyberSec/fortios_vpnssl_traversal_leak.svg) ![forks](https://img.shields.io/github/forks/Zeop-CyberSec/fortios_vpnssl_traversal_leak.svg)
+
+- [https://github.com/B1anda0/CVE-2018-13379](https://github.com/B1anda0/CVE-2018-13379) :  ![starts](https://img.shields.io/github/stars/B1anda0/CVE-2018-13379.svg) ![forks](https://img.shields.io/github/forks/B1anda0/CVE-2018-13379.svg)
+
+- [https://github.com/0xHunter/FortiOS-Credentials-Disclosure](https://github.com/0xHunter/FortiOS-Credentials-Disclosure) :  ![starts](https://img.shields.io/github/stars/0xHunter/FortiOS-Credentials-Disclosure.svg) ![forks](https://img.shields.io/github/forks/0xHunter/FortiOS-Credentials-Disclosure.svg)
+
+- [https://github.com/k4nfr3/CVE-2018-13379-Fortinet](https://github.com/k4nfr3/CVE-2018-13379-Fortinet) :  ![starts](https://img.shields.io/github/stars/k4nfr3/CVE-2018-13379-Fortinet.svg) ![forks](https://img.shields.io/github/forks/k4nfr3/CVE-2018-13379-Fortinet.svg)
+
+- [https://github.com/jpiechowka/at-doom-fortigate](https://github.com/jpiechowka/at-doom-fortigate) :  ![starts](https://img.shields.io/github/stars/jpiechowka/at-doom-fortigate.svg) ![forks](https://img.shields.io/github/forks/jpiechowka/at-doom-fortigate.svg)
+
+- [https://github.com/pwn3z/CVE-2018-13379-FortinetVPN](https://github.com/pwn3z/CVE-2018-13379-FortinetVPN) :  ![starts](https://img.shields.io/github/stars/pwn3z/CVE-2018-13379-FortinetVPN.svg) ![forks](https://img.shields.io/github/forks/pwn3z/CVE-2018-13379-FortinetVPN.svg)
+
+- [https://github.com/yukar1z0e/CVE-2018-13379](https://github.com/yukar1z0e/CVE-2018-13379) :  ![starts](https://img.shields.io/github/stars/yukar1z0e/CVE-2018-13379.svg) ![forks](https://img.shields.io/github/forks/yukar1z0e/CVE-2018-13379.svg)
+
+- [https://github.com/nivdolgin/CVE-2018-13379](https://github.com/nivdolgin/CVE-2018-13379) :  ![starts](https://img.shields.io/github/stars/nivdolgin/CVE-2018-13379.svg) ![forks](https://img.shields.io/github/forks/nivdolgin/CVE-2018-13379.svg)
+
+## CVE-2018-13341
+ Crestron TSW-X60 all versions prior to 2.001.0037.001 and MC3 all versions prior to 1.502.0047.00, The passwords for special sudo accounts may be calculated using information accessible to those with regular user privileges. Attackers could decipher these passwords, which may allow them to execute hidden API calls and escape the CTP console sandbox environment with elevated privileges.
+
+
+
+- [https://github.com/axcheron/crestron_getsudopwd](https://github.com/axcheron/crestron_getsudopwd) :  ![starts](https://img.shields.io/github/stars/axcheron/crestron_getsudopwd.svg) ![forks](https://img.shields.io/github/forks/axcheron/crestron_getsudopwd.svg)
+
+- [https://github.com/RajChowdhury240/CVE-2018-13341](https://github.com/RajChowdhury240/CVE-2018-13341) :  ![starts](https://img.shields.io/github/stars/RajChowdhury240/CVE-2018-13341.svg) ![forks](https://img.shields.io/github/forks/RajChowdhury240/CVE-2018-13341.svg)
 
 ## CVE-2018-13257
  The bb-auth-provider-cas authentication module within Blackboard Learn 2018-07-02 is susceptible to HTTP host header spoofing during Central Authentication Service (CAS) service ticket validation, enabling a phishing attack from the CAS server login page.
@@ -1723,12 +1799,44 @@
 
 - [https://github.com/alt3kx/CVE-2018-12597](https://github.com/alt3kx/CVE-2018-12597) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2018-12597.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2018-12597.svg)
 
+## CVE-2018-12596
+ Episerver Ektron CMS before 9.0 SP3 Site CU 31, 9.1 before SP3 Site CU 45, or 9.2 before SP2 Site CU 22 allows remote attackers to call aspx pages via the "activateuser.aspx" page, even if a page is located under the /WorkArea/ path, which is forbidden (normally available exclusively for local admins).
+
+
+
+- [https://github.com/alt3kx/CVE-2018-12596](https://github.com/alt3kx/CVE-2018-12596) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2018-12596.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2018-12596.svg)
+
+## CVE-2018-12540
+ In version from 3.0.0 to 3.5.2 of Eclipse Vert.x, the CSRFHandler do not assert that the XSRF Cookie matches the returned XSRF header/form parameter. This allows replay attacks with previously issued tokens which are not expired yet.
+
+
+
+- [https://github.com/tafamace/CVE-2018-12540](https://github.com/tafamace/CVE-2018-12540) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2018-12540.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2018-12540.svg)
+
+- [https://github.com/bernard-wagner/vertx-web-xsrf](https://github.com/bernard-wagner/vertx-web-xsrf) :  ![starts](https://img.shields.io/github/stars/bernard-wagner/vertx-web-xsrf.svg) ![forks](https://img.shields.io/github/forks/bernard-wagner/vertx-web-xsrf.svg)
+
 ## CVE-2018-12537
  In Eclipse Vert.x version 3.0 to 3.5.1, the HttpServer response headers and HttpClient request headers do not filter carriage return and line feed characters from the header value. This allow unfiltered values to inject a new header in the client request or server response.
 
 
 
 - [https://github.com/tafamace/CVE-2018-12537](https://github.com/tafamace/CVE-2018-12537) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2018-12537.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2018-12537.svg)
+
+## CVE-2018-12533
+ JBoss RichFaces 3.1.0 through 3.3.4 allows unauthenticated remote attackers to inject expression language (EL) expressions and execute arbitrary Java code via a /DATA/ substring in a path with an org.richfaces.renderkit.html.Paint2DResource$ImageData object, aka RF-14310.
+
+
+
+- [https://github.com/llamaonsecurity/CVE-2018-12533](https://github.com/llamaonsecurity/CVE-2018-12533) :  ![starts](https://img.shields.io/github/stars/llamaonsecurity/CVE-2018-12533.svg) ![forks](https://img.shields.io/github/forks/llamaonsecurity/CVE-2018-12533.svg)
+
+- [https://github.com/Pastea/CVE-2018-12533](https://github.com/Pastea/CVE-2018-12533) :  ![starts](https://img.shields.io/github/stars/Pastea/CVE-2018-12533.svg) ![forks](https://img.shields.io/github/forks/Pastea/CVE-2018-12533.svg)
+
+## CVE-2018-12463
+ An XML external entity (XXE) vulnerability in Fortify Software Security Center (SSC), version 17.1, 17.2, 18.1 allows remote unauthenticated users to read arbitrary files or conduct server-side request forgery (SSRF) attacks via a crafted DTD in an XML request.
+
+
+
+- [https://github.com/alt3kx/CVE-2018-12463](https://github.com/alt3kx/CVE-2018-12463) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2018-12463.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2018-12463.svg)
 
 ## CVE-2018-12421
  LTB (aka LDAP Tool Box) Self Service Password before 1.3 allows a change to a user password (without knowing the old password) via a crafted POST request, because the ldap_bind return value is mishandled and the PHP data type is not constrained to be a string.
@@ -1787,6 +1895,13 @@
 
 
 - [https://github.com/bnbdr/swisscheese](https://github.com/bnbdr/swisscheese) :  ![starts](https://img.shields.io/github/stars/bnbdr/swisscheese.svg) ![forks](https://img.shields.io/github/forks/bnbdr/swisscheese.svg)
+
+## CVE-2018-12031
+ Local file inclusion in Eaton Intelligent Power Manager v1.6 allows an attacker to include a file via server/node_upgrade_srv.js directory traversal with the firmware parameter in a downloadFirmware action.
+
+
+
+- [https://github.com/EmreOvunc/Eaton-Intelligent-Power-Manager-Local-File-Inclusion](https://github.com/EmreOvunc/Eaton-Intelligent-Power-Manager-Local-File-Inclusion) :  ![starts](https://img.shields.io/github/stars/EmreOvunc/Eaton-Intelligent-Power-Manager-Local-File-Inclusion.svg) ![forks](https://img.shields.io/github/forks/EmreOvunc/Eaton-Intelligent-Power-Manager-Local-File-Inclusion.svg)
 
 ## CVE-2018-12018
  The GetBlockHeadersMsg handler in the LES protocol implementation in Go Ethereum (aka geth) before 1.8.11 may lead to an access violation because of an integer signedness error for the array index, which allows attackers to launch a Denial of Service attack by sending a packet with a -1 query.Skip value. The vulnerable remote node would be crashed by such an attack immediately, aka the EPoD (Ethereum Packet of Death) issue.
@@ -2117,6 +2232,20 @@
 
 - [https://github.com/shutingrz/CVE-2018-10920_PoC](https://github.com/shutingrz/CVE-2018-10920_PoC) :  ![starts](https://img.shields.io/github/stars/shutingrz/CVE-2018-10920_PoC.svg) ![forks](https://img.shields.io/github/forks/shutingrz/CVE-2018-10920_PoC.svg)
 
+## CVE-2018-10821
+ Cross-site scripting (XSS) vulnerability in backend/pages/modify.php in BlackCatCMS 1.3 allows remote authenticated users with the Admin role to inject arbitrary web script or HTML via the search panel.
+
+
+
+- [https://github.com/BalvinderSingh23/Cross-Site-Scripting-Reflected-XSS-Vulnerability-in-blackcatcms_v1.3](https://github.com/BalvinderSingh23/Cross-Site-Scripting-Reflected-XSS-Vulnerability-in-blackcatcms_v1.3) :  ![starts](https://img.shields.io/github/stars/BalvinderSingh23/Cross-Site-Scripting-Reflected-XSS-Vulnerability-in-blackcatcms_v1.3.svg) ![forks](https://img.shields.io/github/forks/BalvinderSingh23/Cross-Site-Scripting-Reflected-XSS-Vulnerability-in-blackcatcms_v1.3.svg)
+
+## CVE-2018-10732
+ The REST API in Dataiku DSS before 4.2.3 allows remote attackers to obtain sensitive information (i.e., determine if a username is valid) because of profile pictures visibility.
+
+
+
+- [https://github.com/alt3kx/CVE-2018-10732](https://github.com/alt3kx/CVE-2018-10732) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2018-10732.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2018-10732.svg)
+
 ## CVE-2018-10715
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -2155,6 +2284,13 @@
 
 - [https://github.com/dsfau/CVE-2018-10546](https://github.com/dsfau/CVE-2018-10546) :  ![starts](https://img.shields.io/github/stars/dsfau/CVE-2018-10546.svg) ![forks](https://img.shields.io/github/forks/dsfau/CVE-2018-10546.svg)
 
+## CVE-2018-10517
+ In CMS Made Simple (CMSMS) through 2.2.7, the "module import" operation in the admin dashboard contains a remote code execution vulnerability, exploitable by an admin user, because an XML Package can contain base64-encoded PHP code in a data element.
+
+
+
+- [https://github.com/0x00-0x00/CVE-2018-10517](https://github.com/0x00-0x00/CVE-2018-10517) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2018-10517.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2018-10517.svg)
+
 ## CVE-2018-10467
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
 
@@ -2168,6 +2304,13 @@
 
 
 - [https://github.com/0xddaa/CVE-2018-10388](https://github.com/0xddaa/CVE-2018-10388) :  ![starts](https://img.shields.io/github/stars/0xddaa/CVE-2018-10388.svg) ![forks](https://img.shields.io/github/forks/0xddaa/CVE-2018-10388.svg)
+
+## CVE-2018-10376
+ An integer overflow in the transferProxy function of a smart contract implementation for SmartMesh (aka SMT), an Ethereum ERC20 token, allows attackers to accomplish an unauthorized increase of digital assets via crafted _fee and _value parameters, as exploited in the wild in April 2018, aka the "proxyOverflow" issue.
+
+
+
+- [https://github.com/zhanlulab/Exploit_SMT_ProxyOverflow](https://github.com/zhanlulab/Exploit_SMT_ProxyOverflow) :  ![starts](https://img.shields.io/github/stars/zhanlulab/Exploit_SMT_ProxyOverflow.svg) ![forks](https://img.shields.io/github/forks/zhanlulab/Exploit_SMT_ProxyOverflow.svg)
 
 ## CVE-2018-10299
  An integer overflow in the batchTransfer function of a smart contract implementation for Beauty Ecosystem Coin (BEC), the Ethereum ERC20 token used in the Beauty Chain economic system, allows attackers to accomplish an unauthorized increase of digital assets by providing two _receivers arguments in conjunction with a large _value argument, as exploited in the wild in April 2018, aka the "batchOverflow" issue.
@@ -2189,6 +2332,13 @@
 
 
 - [https://github.com/ashangp923/CVE-2018-10097](https://github.com/ashangp923/CVE-2018-10097) :  ![starts](https://img.shields.io/github/stars/ashangp923/CVE-2018-10097.svg) ![forks](https://img.shields.io/github/forks/ashangp923/CVE-2018-10097.svg)
+
+## CVE-2018-10058
+ The remote management interface of cgminer 4.10.0 and bfgminer 5.5.0 allows an authenticated remote attacker to execute arbitrary code due to a stack-based buffer overflow in the addpool, failover-only, poolquota, and save command handlers.
+
+
+
+- [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
 
 ## CVE-2018-10057
  The remote management interface of cgminer 4.10.0 and bfgminer 5.5.0 allows an authenticated remote attacker to write the miner configuration file to arbitrary locations on the server due to missing basedir restrictions (absolute directory traversal).
@@ -3198,11 +3348,11 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/seoqqq/CVE-2018-6574](https://github.com/seoqqq/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/seoqqq/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/seoqqq/CVE-2018-6574.svg)
 
+- [https://github.com/sirius-bl4ck/cve2018-6574](https://github.com/sirius-bl4ck/cve2018-6574) :  ![starts](https://img.shields.io/github/stars/sirius-bl4ck/cve2018-6574.svg) ![forks](https://img.shields.io/github/forks/sirius-bl4ck/cve2018-6574.svg)
+
 - [https://github.com/darthvader-htb/CVE-2018-6574](https://github.com/darthvader-htb/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/darthvader-htb/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/darthvader-htb/CVE-2018-6574.svg)
 
 - [https://github.com/twseptian/cve-2018-6574](https://github.com/twseptian/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/twseptian/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/twseptian/cve-2018-6574.svg)
-
-- [https://github.com/sirius-bl4ck/cve2018-6574](https://github.com/sirius-bl4ck/cve2018-6574) :  ![starts](https://img.shields.io/github/stars/sirius-bl4ck/cve2018-6574.svg) ![forks](https://img.shields.io/github/forks/sirius-bl4ck/cve2018-6574.svg)
 
 - [https://github.com/d4rkshell/go-get-rce](https://github.com/d4rkshell/go-get-rce) :  ![starts](https://img.shields.io/github/stars/d4rkshell/go-get-rce.svg) ![forks](https://img.shields.io/github/forks/d4rkshell/go-get-rce.svg)
 
@@ -3210,9 +3360,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/french560/ptl6574](https://github.com/french560/ptl6574) :  ![starts](https://img.shields.io/github/stars/french560/ptl6574.svg) ![forks](https://img.shields.io/github/forks/french560/ptl6574.svg)
 
-- [https://github.com/faqihudin13/CVE-2018-6574](https://github.com/faqihudin13/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/faqihudin13/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/faqihudin13/CVE-2018-6574.svg)
-
 - [https://github.com/antunesmpedro/CVE-2018-6574](https://github.com/antunesmpedro/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/antunesmpedro/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/antunesmpedro/CVE-2018-6574.svg)
+
+- [https://github.com/faqihudin13/CVE-2018-6574](https://github.com/faqihudin13/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/faqihudin13/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/faqihudin13/CVE-2018-6574.svg)
 
 - [https://github.com/Dannners/CVE-2018-6574-go-get-RCE](https://github.com/Dannners/CVE-2018-6574-go-get-RCE) :  ![starts](https://img.shields.io/github/stars/Dannners/CVE-2018-6574-go-get-RCE.svg) ![forks](https://img.shields.io/github/forks/Dannners/CVE-2018-6574-go-get-RCE.svg)
 
@@ -3228,8 +3378,6 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/NikolaT3sla/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/NikolaT3sla/cve-2018-6574.svg)
 
-- [https://github.com/markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/markisback/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/markisback/CVE-2018-6574.svg)
-
 - [https://github.com/shadofren/CVE-2018-6574](https://github.com/shadofren/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/shadofren/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/shadofren/CVE-2018-6574.svg)
 
 - [https://github.com/lisu60/cve-2018-6574](https://github.com/lisu60/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/lisu60/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/lisu60/cve-2018-6574.svg)
@@ -3237,6 +3385,8 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 - [https://github.com/VikasVarshney/CVE_2018_6574](https://github.com/VikasVarshney/CVE_2018_6574) :  ![starts](https://img.shields.io/github/stars/VikasVarshney/CVE_2018_6574.svg) ![forks](https://img.shields.io/github/forks/VikasVarshney/CVE_2018_6574.svg)
 
 - [https://github.com/jftierno/-CVE-2018-6574](https://github.com/jftierno/-CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/jftierno/-CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/jftierno/-CVE-2018-6574.svg)
+
+- [https://github.com/markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/markisback/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/markisback/CVE-2018-6574.svg)
 
 - [https://github.com/kawkab101/cve-2018-6574](https://github.com/kawkab101/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/kawkab101/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/kawkab101/cve-2018-6574.svg)
 
@@ -3320,9 +3470,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/yitingfan/CVE-2018-6574_demo](https://github.com/yitingfan/CVE-2018-6574_demo) :  ![starts](https://img.shields.io/github/stars/yitingfan/CVE-2018-6574_demo.svg) ![forks](https://img.shields.io/github/forks/yitingfan/CVE-2018-6574_demo.svg)
 
-- [https://github.com/amil-ptl-test/ptl_cve_2018_6574](https://github.com/amil-ptl-test/ptl_cve_2018_6574) :  ![starts](https://img.shields.io/github/stars/amil-ptl-test/ptl_cve_2018_6574.svg) ![forks](https://img.shields.io/github/forks/amil-ptl-test/ptl_cve_2018_6574.svg)
-
 - [https://github.com/jftierno/CVE-2018-6574-2](https://github.com/jftierno/CVE-2018-6574-2) :  ![starts](https://img.shields.io/github/stars/jftierno/CVE-2018-6574-2.svg) ![forks](https://img.shields.io/github/forks/jftierno/CVE-2018-6574-2.svg)
+
+- [https://github.com/amil-ptl-test/ptl_cve_2018_6574](https://github.com/amil-ptl-test/ptl_cve_2018_6574) :  ![starts](https://img.shields.io/github/stars/amil-ptl-test/ptl_cve_2018_6574.svg) ![forks](https://img.shields.io/github/forks/amil-ptl-test/ptl_cve_2018_6574.svg)
 
 - [https://github.com/kev-ho/cve-2018-6574-payload](https://github.com/kev-ho/cve-2018-6574-payload) :  ![starts](https://img.shields.io/github/stars/kev-ho/cve-2018-6574-payload.svg) ![forks](https://img.shields.io/github/forks/kev-ho/cve-2018-6574-payload.svg)
 
@@ -3351,6 +3501,8 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 - [https://github.com/PLP-Orange/cve-2018-6574-exercise](https://github.com/PLP-Orange/cve-2018-6574-exercise) :  ![starts](https://img.shields.io/github/stars/PLP-Orange/cve-2018-6574-exercise.svg) ![forks](https://img.shields.io/github/forks/PLP-Orange/cve-2018-6574-exercise.svg)
 
 - [https://github.com/l3ouu4n9/CVE-2018-6574-POC](https://github.com/l3ouu4n9/CVE-2018-6574-POC) :  ![starts](https://img.shields.io/github/stars/l3ouu4n9/CVE-2018-6574-POC.svg) ![forks](https://img.shields.io/github/forks/l3ouu4n9/CVE-2018-6574-POC.svg)
+
+- [https://github.com/elw0od/PentesterLab](https://github.com/elw0od/PentesterLab) :  ![starts](https://img.shields.io/github/stars/elw0od/PentesterLab.svg) ![forks](https://img.shields.io/github/forks/elw0od/PentesterLab.svg)
 
 - [https://github.com/No1zy/CVE-2018-6574-PoC](https://github.com/No1zy/CVE-2018-6574-PoC) :  ![starts](https://img.shields.io/github/stars/No1zy/CVE-2018-6574-PoC.svg) ![forks](https://img.shields.io/github/forks/No1zy/CVE-2018-6574-PoC.svg)
 
@@ -3425,9 +3577,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/m3ssap0/wordpress_cve-2018-6389](https://github.com/m3ssap0/wordpress_cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/m3ssap0/wordpress_cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/m3ssap0/wordpress_cve-2018-6389.svg)
 
-- [https://github.com/dsfau/wordpress-CVE-2018-6389](https://github.com/dsfau/wordpress-CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/dsfau/wordpress-CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/dsfau/wordpress-CVE-2018-6389.svg)
-
 - [https://github.com/JavierOlmedo/wordpress-cve-2018-6389](https://github.com/JavierOlmedo/wordpress-cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/JavierOlmedo/wordpress-cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/JavierOlmedo/wordpress-cve-2018-6389.svg)
+
+- [https://github.com/dsfau/wordpress-CVE-2018-6389](https://github.com/dsfau/wordpress-CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/dsfau/wordpress-CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/dsfau/wordpress-CVE-2018-6389.svg)
 
 - [https://github.com/JulienGadanho/cve-2018-6389-php-patcher](https://github.com/JulienGadanho/cve-2018-6389-php-patcher) :  ![starts](https://img.shields.io/github/stars/JulienGadanho/cve-2018-6389-php-patcher.svg) ![forks](https://img.shields.io/github/forks/JulienGadanho/cve-2018-6389-php-patcher.svg)
 
@@ -3449,13 +3601,13 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/amit-pathak009/CVE-2018-6389-FIX](https://github.com/amit-pathak009/CVE-2018-6389-FIX) :  ![starts](https://img.shields.io/github/stars/amit-pathak009/CVE-2018-6389-FIX.svg) ![forks](https://img.shields.io/github/forks/amit-pathak009/CVE-2018-6389-FIX.svg)
 
-- [https://github.com/rastating/modsecurity-cve-2018-6389](https://github.com/rastating/modsecurity-cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/rastating/modsecurity-cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/rastating/modsecurity-cve-2018-6389.svg)
-
 - [https://github.com/Jetserver/CVE-2018-6389-FIX](https://github.com/Jetserver/CVE-2018-6389-FIX) :  ![starts](https://img.shields.io/github/stars/Jetserver/CVE-2018-6389-FIX.svg) ![forks](https://img.shields.io/github/forks/Jetserver/CVE-2018-6389-FIX.svg)
 
-- [https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389](https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/mudhappy/Wordpress-Hack-CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/mudhappy/Wordpress-Hack-CVE-2018-6389.svg)
+- [https://github.com/rastating/modsecurity-cve-2018-6389](https://github.com/rastating/modsecurity-cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/rastating/modsecurity-cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/rastating/modsecurity-cve-2018-6389.svg)
 
 - [https://github.com/alessiogilardi/PoC---CVE-2018-6389](https://github.com/alessiogilardi/PoC---CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/alessiogilardi/PoC---CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/alessiogilardi/PoC---CVE-2018-6389.svg)
+
+- [https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389](https://github.com/mudhappy/Wordpress-Hack-CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/mudhappy/Wordpress-Hack-CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/mudhappy/Wordpress-Hack-CVE-2018-6389.svg)
 
 - [https://github.com/DeyaaMuhammad/WPDOSLoader](https://github.com/DeyaaMuhammad/WPDOSLoader) :  ![starts](https://img.shields.io/github/stars/DeyaaMuhammad/WPDOSLoader.svg) ![forks](https://img.shields.io/github/forks/DeyaaMuhammad/WPDOSLoader.svg)
 
@@ -4241,6 +4393,44 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/arongmh/CVE-2018-3191](https://github.com/arongmh/CVE-2018-3191) :  ![starts](https://img.shields.io/github/stars/arongmh/CVE-2018-3191.svg) ![forks](https://img.shields.io/github/forks/arongmh/CVE-2018-3191.svg)
 
+## CVE-2018-2894
+ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS - Web Services). Supported versions that are affected are 12.1.3.0, 12.2.1.2 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+
+
+
+- [https://github.com/0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner) :  ![starts](https://img.shields.io/github/stars/0xn0ne/weblogicScanner.svg) ![forks](https://img.shields.io/github/forks/0xn0ne/weblogicScanner.svg)
+
+- [https://github.com/LandGrey/CVE-2018-2894](https://github.com/LandGrey/CVE-2018-2894) :  ![starts](https://img.shields.io/github/stars/LandGrey/CVE-2018-2894.svg) ![forks](https://img.shields.io/github/forks/LandGrey/CVE-2018-2894.svg)
+
+- [https://github.com/k8gege/PyLadon](https://github.com/k8gege/PyLadon) :  ![starts](https://img.shields.io/github/stars/k8gege/PyLadon.svg) ![forks](https://img.shields.io/github/forks/k8gege/PyLadon.svg)
+
+- [https://github.com/jas502n/CVE-2018-2894](https://github.com/jas502n/CVE-2018-2894) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2018-2894.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2018-2894.svg)
+
+- [https://github.com/111ddea/cve-2018-2894](https://github.com/111ddea/cve-2018-2894) :  ![starts](https://img.shields.io/github/stars/111ddea/cve-2018-2894.svg) ![forks](https://img.shields.io/github/forks/111ddea/cve-2018-2894.svg)
+
+## CVE-2018-2893
+ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.2 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+
+
+
+- [https://github.com/0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner) :  ![starts](https://img.shields.io/github/stars/0xn0ne/weblogicScanner.svg) ![forks](https://img.shields.io/github/forks/0xn0ne/weblogicScanner.svg)
+
+- [https://github.com/pyn3rd/CVE-2018-2893](https://github.com/pyn3rd/CVE-2018-2893) :  ![starts](https://img.shields.io/github/stars/pyn3rd/CVE-2018-2893.svg) ![forks](https://img.shields.io/github/forks/pyn3rd/CVE-2018-2893.svg)
+
+- [https://github.com/shengqi158/CVE-2018-2628](https://github.com/shengqi158/CVE-2018-2628) :  ![starts](https://img.shields.io/github/stars/shengqi158/CVE-2018-2628.svg) ![forks](https://img.shields.io/github/forks/shengqi158/CVE-2018-2628.svg)
+
+- [https://github.com/qianl0ng/CVE-2018-2893](https://github.com/qianl0ng/CVE-2018-2893) :  ![starts](https://img.shields.io/github/stars/qianl0ng/CVE-2018-2893.svg) ![forks](https://img.shields.io/github/forks/qianl0ng/CVE-2018-2893.svg)
+
+- [https://github.com/bigsizeme/CVE-2018-2893](https://github.com/bigsizeme/CVE-2018-2893) :  ![starts](https://img.shields.io/github/stars/bigsizeme/CVE-2018-2893.svg) ![forks](https://img.shields.io/github/forks/bigsizeme/CVE-2018-2893.svg)
+
+- [https://github.com/jas502n/CVE-2018-2893](https://github.com/jas502n/CVE-2018-2893) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2018-2893.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2018-2893.svg)
+
+- [https://github.com/sry309/CVE-2018-2893](https://github.com/sry309/CVE-2018-2893) :  ![starts](https://img.shields.io/github/stars/sry309/CVE-2018-2893.svg) ![forks](https://img.shields.io/github/forks/sry309/CVE-2018-2893.svg)
+
+- [https://github.com/artofwar344/CVE-2018-2893](https://github.com/artofwar344/CVE-2018-2893) :  ![starts](https://img.shields.io/github/stars/artofwar344/CVE-2018-2893.svg) ![forks](https://img.shields.io/github/forks/artofwar344/CVE-2018-2893.svg)
+
+- [https://github.com/ianxtianxt/CVE-2018-2893](https://github.com/ianxtianxt/CVE-2018-2893) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2018-2893.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2018-2893.svg)
+
 ## CVE-2018-2879
  Vulnerability in the Oracle Access Manager component of Oracle Fusion Middleware (subcomponent: Authentication Engine). Supported versions that are affected are 11.1.2.3.0 and 12.2.1.3.0. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager. While the vulnerability is in Oracle Access Manager, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Oracle Access Manager. Note: Please refer to Doc ID a href="http://support.oracle.com/CSP/main/article?cmd=show&type=NOT&id=2386496.1"My Oracle Support Note 2386496.1 for instructions on how to address this issue. CVSS 3.0 Base Score 9.0 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H).
 
@@ -4251,6 +4441,13 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 - [https://github.com/MostafaSoliman/Oracle-OAM-Padding-Oracle-CVE-2018-2879-Exploit](https://github.com/MostafaSoliman/Oracle-OAM-Padding-Oracle-CVE-2018-2879-Exploit) :  ![starts](https://img.shields.io/github/stars/MostafaSoliman/Oracle-OAM-Padding-Oracle-CVE-2018-2879-Exploit.svg) ![forks](https://img.shields.io/github/forks/MostafaSoliman/Oracle-OAM-Padding-Oracle-CVE-2018-2879-Exploit.svg)
 
 - [https://github.com/AymanElSherif/oracle-oam-authentication-bypas-exploit](https://github.com/AymanElSherif/oracle-oam-authentication-bypas-exploit) :  ![starts](https://img.shields.io/github/stars/AymanElSherif/oracle-oam-authentication-bypas-exploit.svg) ![forks](https://img.shields.io/github/forks/AymanElSherif/oracle-oam-authentication-bypas-exploit.svg)
+
+## CVE-2018-2844
+ Vulnerability in the Oracle VM VirtualBox component of Oracle Virtualization (subcomponent: Core). Supported versions that are affected are Prior to 5.1.36 and Prior to 5.2.10. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.0 Base Score 8.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H).
+
+
+
+- [https://github.com/renorobert/virtualbox-cve-2018-2844](https://github.com/renorobert/virtualbox-cve-2018-2844) :  ![starts](https://img.shields.io/github/stars/renorobert/virtualbox-cve-2018-2844.svg) ![forks](https://img.shields.io/github/forks/renorobert/virtualbox-cve-2018-2844.svg)
 
 ## CVE-2018-2636
  Vulnerability in the Oracle Hospitality Simphony component of Oracle Hospitality Applications (subcomponent: Security). Supported versions that are affected are 2.7, 2.8 and 2.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Hospitality Simphony. Successful attacks of this vulnerability can result in takeover of Oracle Hospitality Simphony. CVSS 3.0 Base Score 8.1 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H).
@@ -4306,9 +4503,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/BabyTeam1024/cve-2018-2628](https://github.com/BabyTeam1024/cve-2018-2628) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/cve-2018-2628.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/cve-2018-2628.svg)
 
-- [https://github.com/wrysunny/cve-2018-2628](https://github.com/wrysunny/cve-2018-2628) :  ![starts](https://img.shields.io/github/stars/wrysunny/cve-2018-2628.svg) ![forks](https://img.shields.io/github/forks/wrysunny/cve-2018-2628.svg)
-
 - [https://github.com/seethen/cve-2018-2628](https://github.com/seethen/cve-2018-2628) :  ![starts](https://img.shields.io/github/stars/seethen/cve-2018-2628.svg) ![forks](https://img.shields.io/github/forks/seethen/cve-2018-2628.svg)
+
+- [https://github.com/wrysunny/cve-2018-2628](https://github.com/wrysunny/cve-2018-2628) :  ![starts](https://img.shields.io/github/stars/wrysunny/cve-2018-2628.svg) ![forks](https://img.shields.io/github/forks/wrysunny/cve-2018-2628.svg)
 
 ## CVE-2018-2393
  Under certain conditions SAP Internet Graphics Server (IGS) 7.20, 7.20EXT, 7.45, 7.49, 7.53, fails to validate XML External Entity appropriately causing the SAP Internet Graphics Server (IGS) to become unavailable.
@@ -4331,12 +4528,169 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/erpscanteam/CVE-2018-2380](https://github.com/erpscanteam/CVE-2018-2380) :  ![starts](https://img.shields.io/github/stars/erpscanteam/CVE-2018-2380.svg) ![forks](https://img.shields.io/github/forks/erpscanteam/CVE-2018-2380.svg)
 
+## CVE-2018-1932
+ IBM API Connect 5.0.0.0 through 5.0.8.4 is affected by a vulnerability in the role-based access control in the management server that could allow an authenticated user to obtain highly sensitive information. IBM X-Force ID: 153175.
+
+
+
+- [https://github.com/BKreisel/CVE-2018-1932X](https://github.com/BKreisel/CVE-2018-1932X) :  ![starts](https://img.shields.io/github/stars/BKreisel/CVE-2018-1932X.svg) ![forks](https://img.shields.io/github/forks/BKreisel/CVE-2018-1932X.svg)
+
+## CVE-2018-1634
+ IBM Informix Dynamic Server Enterprise Edition 12.1 could allow a local user logged in with database administrator user to gain root privileges through a symbolic link vulnerability in infos.DBSERVERNAME. IBM X-Force ID: 144437.
+
+
+
+- [https://github.com/mpgn/CVE-2018-16341](https://github.com/mpgn/CVE-2018-16341) :  ![starts](https://img.shields.io/github/stars/mpgn/CVE-2018-16341.svg) ![forks](https://img.shields.io/github/forks/mpgn/CVE-2018-16341.svg)
+
+- [https://github.com/CN016/Nuxeo-CVE-2018-16341](https://github.com/CN016/Nuxeo-CVE-2018-16341) :  ![starts](https://img.shields.io/github/stars/CN016/Nuxeo-CVE-2018-16341.svg) ![forks](https://img.shields.io/github/forks/CN016/Nuxeo-CVE-2018-16341.svg)
+
+## CVE-2018-1335
+ From Apache Tika versions 1.7 to 1.17, clients could send carefully crafted headers to tika-server that could be used to inject commands into the command line of the server running tika-server. This vulnerability only affects those running tika-server on a server that is open to untrusted clients. The mitigation is to upgrade to Tika 1.18.
+
+
+
+- [https://github.com/SkyBlueEternal/CVE-2018-1335-EXP-GUI](https://github.com/SkyBlueEternal/CVE-2018-1335-EXP-GUI) :  ![starts](https://img.shields.io/github/stars/SkyBlueEternal/CVE-2018-1335-EXP-GUI.svg) ![forks](https://img.shields.io/github/forks/SkyBlueEternal/CVE-2018-1335-EXP-GUI.svg)
+
+- [https://github.com/canumay/cve-2018-1335](https://github.com/canumay/cve-2018-1335) :  ![starts](https://img.shields.io/github/stars/canumay/cve-2018-1335.svg) ![forks](https://img.shields.io/github/forks/canumay/cve-2018-1335.svg)
+
+- [https://github.com/DigitalNinja00/CVE-2018-1335](https://github.com/DigitalNinja00/CVE-2018-1335) :  ![starts](https://img.shields.io/github/stars/DigitalNinja00/CVE-2018-1335.svg) ![forks](https://img.shields.io/github/forks/DigitalNinja00/CVE-2018-1335.svg)
+
+- [https://github.com/siramk/CVE-2018-1335](https://github.com/siramk/CVE-2018-1335) :  ![starts](https://img.shields.io/github/stars/siramk/CVE-2018-1335.svg) ![forks](https://img.shields.io/github/forks/siramk/CVE-2018-1335.svg)
+
+- [https://github.com/N0b1e6/CVE-2018-1335-Python3](https://github.com/N0b1e6/CVE-2018-1335-Python3) :  ![starts](https://img.shields.io/github/stars/N0b1e6/CVE-2018-1335-Python3.svg) ![forks](https://img.shields.io/github/forks/N0b1e6/CVE-2018-1335-Python3.svg)
+
 ## CVE-2018-1324
  A specially crafted ZIP archive can be used to cause an infinite loop inside of Apache Commons Compress' extra field parser used by the ZipFile and ZipArchiveInputStream classes in versions 1.11 to 1.15. This can be used to mount a denial of service attack against services that use Compress' zip package.
 
 
 
 - [https://github.com/tafamace/CVE-2018-1324](https://github.com/tafamace/CVE-2018-1324) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2018-1324.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2018-1324.svg)
+
+## CVE-2018-1313
+ In Apache Derby 10.3.1.4 to 10.14.1.0, a specially-crafted network packet can be used to request the Derby Network Server to boot a database whose location and contents are under the user's control. If the Derby Network Server is not running with a Java Security Manager policy file, the attack is successful. If the server is using a policy file, the policy file must permit the database location to be read for the attack to work. The default Derby Network Server policy file distributed with the affected releases includes a permissive policy as the default Network Server policy, which allows the attack to work.
+
+
+
+- [https://github.com/tafamace/CVE-2018-1313](https://github.com/tafamace/CVE-2018-1313) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2018-1313.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2018-1313.svg)
+
+## CVE-2018-1311
+ The Apache Xerces-C 3.0.0 to 3.2.3 XML parser contains a use-after-free error triggered during the scanning of external DTDs. This flaw has not been addressed in the maintained version of the library and has no current mitigation other than to disable DTD processing. This can be accomplished via the DOM using a standard parser feature, or via SAX using the XERCES_DISABLE_DTD environment variable.
+
+
+
+- [https://github.com/johnjamesmccann/xerces-3.2.3-DTD-hotfix](https://github.com/johnjamesmccann/xerces-3.2.3-DTD-hotfix) :  ![starts](https://img.shields.io/github/stars/johnjamesmccann/xerces-3.2.3-DTD-hotfix.svg) ![forks](https://img.shields.io/github/forks/johnjamesmccann/xerces-3.2.3-DTD-hotfix.svg)
+
+## CVE-2018-1306
+ The PortletV3AnnotatedDemo Multipart Portlet war file code provided in Apache Pluto version 3.0.0 could allow a remote attacker to obtain sensitive information, caused by the failure to restrict path information provided during a file upload. An attacker could exploit this vulnerability to obtain configuration data and other sensitive information.
+
+
+
+- [https://github.com/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306](https://github.com/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306) :  ![starts](https://img.shields.io/github/stars/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306.svg) ![forks](https://img.shields.io/github/forks/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306.svg)
+
+## CVE-2018-1305
+ Security constraints defined by annotations of Servlets in Apache Tomcat 9.0.0.M1 to 9.0.4, 8.5.0 to 8.5.27, 8.0.0.RC1 to 8.0.49 and 7.0.0 to 7.0.84 were only applied once a Servlet had been loaded. Because security constraints defined in this way apply to the URL pattern and any URLs below that point, it was possible - depending on the order Servlets were loaded - for some security constraints not to be applied. This could have exposed resources to users who were not authorised to access them.
+
+
+
+- [https://github.com/Pa55w0rd/CVE-2018-1305](https://github.com/Pa55w0rd/CVE-2018-1305) :  ![starts](https://img.shields.io/github/stars/Pa55w0rd/CVE-2018-1305.svg) ![forks](https://img.shields.io/github/forks/Pa55w0rd/CVE-2018-1305.svg)
+
+## CVE-2018-1304
+ The URL pattern of "" (the empty string) which exactly maps to the context root was not correctly handled in Apache Tomcat 9.0.0.M1 to 9.0.4, 8.5.0 to 8.5.27, 8.0.0.RC1 to 8.0.49 and 7.0.0 to 7.0.84 when used as part of a security constraint definition. This caused the constraint to be ignored. It was, therefore, possible for unauthorised users to gain access to web application resources that should have been protected. Only security constraints with a URL pattern of the empty string were affected.
+
+
+
+- [https://github.com/knqyf263/CVE-2018-1304](https://github.com/knqyf263/CVE-2018-1304) :  ![starts](https://img.shields.io/github/stars/knqyf263/CVE-2018-1304.svg) ![forks](https://img.shields.io/github/forks/knqyf263/CVE-2018-1304.svg)
+
+- [https://github.com/thariyarox/tomcat_CVE-2018-1304_testing](https://github.com/thariyarox/tomcat_CVE-2018-1304_testing) :  ![starts](https://img.shields.io/github/stars/thariyarox/tomcat_CVE-2018-1304_testing.svg) ![forks](https://img.shields.io/github/forks/thariyarox/tomcat_CVE-2018-1304_testing.svg)
+
+## CVE-2018-1297
+ When using Distributed Test only (RMI based), Apache JMeter 2.x and 3.x uses an unsecured RMI connection. This could allow an attacker to get Access to JMeterEngine and send unauthorized code.
+
+
+
+- [https://github.com/Al1ex/CVE-2018-1297](https://github.com/Al1ex/CVE-2018-1297) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2018-1297.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2018-1297.svg)
+
+- [https://github.com/48484848484848/Jmeter-CVE-2018-1297-](https://github.com/48484848484848/Jmeter-CVE-2018-1297-) :  ![starts](https://img.shields.io/github/stars/48484848484848/Jmeter-CVE-2018-1297-.svg) ![forks](https://img.shields.io/github/forks/48484848484848/Jmeter-CVE-2018-1297-.svg)
+
+## CVE-2018-1288
+ In Apache Kafka 0.9.0.0 to 0.9.0.1, 0.10.0.0 to 0.10.2.1, 0.11.0.0 to 0.11.0.2, and 1.0.0, authenticated Kafka users may perform action reserved for the Broker via a manually created fetch request interfering with data replication, resulting in data loss.
+
+
+
+- [https://github.com/joegallagher4/CVE-2018-1288-](https://github.com/joegallagher4/CVE-2018-1288-) :  ![starts](https://img.shields.io/github/stars/joegallagher4/CVE-2018-1288-.svg) ![forks](https://img.shields.io/github/forks/joegallagher4/CVE-2018-1288-.svg)
+
+## CVE-2018-1285
+ Apache log4net versions before 2.0.10 do not disable XML external entities when parsing log4net configuration files. This allows for XXE-based attacks in applications that accept attacker-controlled log4net configuration files.
+
+
+
+- [https://github.com/alex-ermolaev/Log4NetSolarWindsSNMP-](https://github.com/alex-ermolaev/Log4NetSolarWindsSNMP-) :  ![starts](https://img.shields.io/github/stars/alex-ermolaev/Log4NetSolarWindsSNMP-.svg) ![forks](https://img.shields.io/github/forks/alex-ermolaev/Log4NetSolarWindsSNMP-.svg)
+
+## CVE-2018-1273
+ Spring Data Commons, versions prior to 1.13 to 1.13.10, 2.0 to 2.0.5, and older unsupported versions, contain a property binder vulnerability caused by improper neutralization of special elements. An unauthenticated remote malicious user (or attacker) can supply specially crafted request parameters against Spring Data REST backed HTTP resources or using Spring Data's projection-based request payload binding hat can lead to a remote code execution attack.
+
+
+
+- [https://github.com/AabyssZG/SpringBoot-Scan](https://github.com/AabyssZG/SpringBoot-Scan) :  ![starts](https://img.shields.io/github/stars/AabyssZG/SpringBoot-Scan.svg) ![forks](https://img.shields.io/github/forks/AabyssZG/SpringBoot-Scan.svg)
+
+- [https://github.com/jas502n/cve-2018-1273](https://github.com/jas502n/cve-2018-1273) :  ![starts](https://img.shields.io/github/stars/jas502n/cve-2018-1273.svg) ![forks](https://img.shields.io/github/forks/jas502n/cve-2018-1273.svg)
+
+- [https://github.com/wearearima/poc-cve-2018-1273](https://github.com/wearearima/poc-cve-2018-1273) :  ![starts](https://img.shields.io/github/stars/wearearima/poc-cve-2018-1273.svg) ![forks](https://img.shields.io/github/forks/wearearima/poc-cve-2018-1273.svg)
+
+- [https://github.com/WuliRuler/SBSCAN](https://github.com/WuliRuler/SBSCAN) :  ![starts](https://img.shields.io/github/stars/WuliRuler/SBSCAN.svg) ![forks](https://img.shields.io/github/forks/WuliRuler/SBSCAN.svg)
+
+- [https://github.com/knqyf263/CVE-2018-1273](https://github.com/knqyf263/CVE-2018-1273) :  ![starts](https://img.shields.io/github/stars/knqyf263/CVE-2018-1273.svg) ![forks](https://img.shields.io/github/forks/knqyf263/CVE-2018-1273.svg)
+
+- [https://github.com/webr0ck/poc-cve-2018-1273](https://github.com/webr0ck/poc-cve-2018-1273) :  ![starts](https://img.shields.io/github/stars/webr0ck/poc-cve-2018-1273.svg) ![forks](https://img.shields.io/github/forks/webr0ck/poc-cve-2018-1273.svg)
+
+- [https://github.com/cved-sources/cve-2018-1273](https://github.com/cved-sources/cve-2018-1273) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2018-1273.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2018-1273.svg)
+
+## CVE-2018-1270
+ Spring Framework, versions 5.0 prior to 5.0.5 and versions 4.3 prior to 4.3.15 and older unsupported versions, allow applications to expose STOMP over WebSocket endpoints with a simple, in-memory STOMP broker through the spring-messaging module. A malicious user (or attacker) can craft a message to the broker that can lead to a remote code execution attack.
+
+
+
+- [https://github.com/CaledoniaProject/CVE-2018-1270](https://github.com/CaledoniaProject/CVE-2018-1270) :  ![starts](https://img.shields.io/github/stars/CaledoniaProject/CVE-2018-1270.svg) ![forks](https://img.shields.io/github/forks/CaledoniaProject/CVE-2018-1270.svg)
+
+- [https://github.com/genxor/CVE-2018-1270_EXP](https://github.com/genxor/CVE-2018-1270_EXP) :  ![starts](https://img.shields.io/github/stars/genxor/CVE-2018-1270_EXP.svg) ![forks](https://img.shields.io/github/forks/genxor/CVE-2018-1270_EXP.svg)
+
+- [https://github.com/Venscor/CVE-2018-1270](https://github.com/Venscor/CVE-2018-1270) :  ![starts](https://img.shields.io/github/stars/Venscor/CVE-2018-1270.svg) ![forks](https://img.shields.io/github/forks/Venscor/CVE-2018-1270.svg)
+
+- [https://github.com/tafamace/CVE-2018-1270](https://github.com/tafamace/CVE-2018-1270) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2018-1270.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2018-1270.svg)
+
+- [https://github.com/mprunet/owasp-formation-cve-2018-1270](https://github.com/mprunet/owasp-formation-cve-2018-1270) :  ![starts](https://img.shields.io/github/stars/mprunet/owasp-formation-cve-2018-1270.svg) ![forks](https://img.shields.io/github/forks/mprunet/owasp-formation-cve-2018-1270.svg)
+
+## CVE-2018-1263
+ Addresses partial fix in CVE-2018-1261. Pivotal spring-integration-zip, versions prior to 1.0.2, exposes an arbitrary file write vulnerability, that can be achieved using a specially crafted zip archive (affects other archives as well, bzip2, tar, xz, war, cpio, 7z), that holds path traversal filenames. So when the filename gets concatenated to the target extraction directory, the final path ends up outside of the target folder.
+
+
+
+- [https://github.com/sakib570/CVE-2018-1263-Demo](https://github.com/sakib570/CVE-2018-1263-Demo) :  ![starts](https://img.shields.io/github/stars/sakib570/CVE-2018-1263-Demo.svg) ![forks](https://img.shields.io/github/forks/sakib570/CVE-2018-1263-Demo.svg)
+
+## CVE-2018-1259
+ Spring Data Commons, versions 1.13 prior to 1.13.12 and 2.0 prior to 2.0.7, used in combination with XMLBeam 1.4.14 or earlier versions, contains a property binder vulnerability caused by improper restriction of XML external entity references as underlying library XMLBeam does not restrict external reference expansion. An unauthenticated remote malicious user can supply specially crafted request parameters against Spring Data's projection-based request payload binding to access arbitrary files on the system.
+
+
+
+- [https://github.com/tafamace/CVE-2018-1259](https://github.com/tafamace/CVE-2018-1259) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2018-1259.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2018-1259.svg)
+
+- [https://github.com/alt3kx/CVE-2018-12597](https://github.com/alt3kx/CVE-2018-12597) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2018-12597.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2018-12597.svg)
+
+- [https://github.com/alt3kx/CVE-2018-12598](https://github.com/alt3kx/CVE-2018-12598) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2018-12598.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2018-12598.svg)
+
+## CVE-2018-1235
+ Dell EMC RecoverPoint versions prior to 5.1.2 and RecoverPoint for VMs versions prior to 5.1.1.3, contain a command injection vulnerability. An unauthenticated remote attacker may potentially exploit this vulnerability to execute arbitrary commands on the affected system with root privilege.
+
+
+
+- [https://github.com/AbsoZed/CVE-2018-1235](https://github.com/AbsoZed/CVE-2018-1235) :  ![starts](https://img.shields.io/github/stars/AbsoZed/CVE-2018-1235.svg) ![forks](https://img.shields.io/github/forks/AbsoZed/CVE-2018-1235.svg)
+
+## CVE-2018-1207
+ Dell EMC iDRAC7/iDRAC8, versions prior to 2.52.52.52, contain CGI injection vulnerability which could be used to execute remote code. A remote unauthenticated attacker may potentially be able to use CGI variables to execute remote code.
+
+
+
+- [https://github.com/mgargiullo/cve-2018-1207](https://github.com/mgargiullo/cve-2018-1207) :  ![starts](https://img.shields.io/github/stars/mgargiullo/cve-2018-1207.svg) ![forks](https://img.shields.io/github/forks/mgargiullo/cve-2018-1207.svg)
 
 ## CVE-2018-1160
  Netatalk before 3.1.12 is vulnerable to an out of bounds write in dsi_opensess.c. This is due to lack of bounds checking on attacker controlled data. A remote unauthenticated attacker can leverage this vulnerability to achieve arbitrary code execution.
@@ -4345,12 +4699,92 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/SachinThanushka/CVE-2018-1160](https://github.com/SachinThanushka/CVE-2018-1160) :  ![starts](https://img.shields.io/github/stars/SachinThanushka/CVE-2018-1160.svg) ![forks](https://img.shields.io/github/forks/SachinThanushka/CVE-2018-1160.svg)
 
+## CVE-2018-1133
+ An issue was discovered in Moodle 3.x. A Teacher creating a Calculated question can intentionally cause remote code execution on the server, aka eval injection.
+
+
+
+- [https://github.com/cocomelonc/vulnexipy](https://github.com/cocomelonc/vulnexipy) :  ![starts](https://img.shields.io/github/stars/cocomelonc/vulnexipy.svg) ![forks](https://img.shields.io/github/forks/cocomelonc/vulnexipy.svg)
+
+- [https://github.com/darrynten/MoodleExploit](https://github.com/darrynten/MoodleExploit) :  ![starts](https://img.shields.io/github/stars/darrynten/MoodleExploit.svg) ![forks](https://img.shields.io/github/forks/darrynten/MoodleExploit.svg)
+
+- [https://github.com/That-Guy-Steve/CVE-2018-1133-Exploit](https://github.com/That-Guy-Steve/CVE-2018-1133-Exploit) :  ![starts](https://img.shields.io/github/stars/That-Guy-Steve/CVE-2018-1133-Exploit.svg) ![forks](https://img.shields.io/github/forks/That-Guy-Steve/CVE-2018-1133-Exploit.svg)
+
+- [https://github.com/Feidao-fei/MOODLE-3.X-Remote-Code-Execution](https://github.com/Feidao-fei/MOODLE-3.X-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/Feidao-fei/MOODLE-3.X-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/Feidao-fei/MOODLE-3.X-Remote-Code-Execution.svg)
+
+## CVE-2018-1123
+ procps-ng before version 3.3.15 is vulnerable to a denial of service in ps via mmap buffer overflow. Inbuilt protection in ps maps a guard page at the end of the overflowed buffer, ensuring that the impact of this flaw is limited to a crash (temporary denial of service).
+
+
+
+- [https://github.com/aravinddathd/CVE-2018-1123](https://github.com/aravinddathd/CVE-2018-1123) :  ![starts](https://img.shields.io/github/stars/aravinddathd/CVE-2018-1123.svg) ![forks](https://img.shields.io/github/forks/aravinddathd/CVE-2018-1123.svg)
+
+## CVE-2018-1112
+ glusterfs server before versions 3.10.12, 4.0.2 is vulnerable when using 'auth.allow' option which allows any unauthenticated gluster client to connect from any network to mount gluster storage volumes. NOTE: this vulnerability exists because of a CVE-2018-1088 regression.
+
+
+
+- [https://github.com/MauroEldritch/GEVAUDAN](https://github.com/MauroEldritch/GEVAUDAN) :  ![starts](https://img.shields.io/github/stars/MauroEldritch/GEVAUDAN.svg) ![forks](https://img.shields.io/github/forks/MauroEldritch/GEVAUDAN.svg)
+
+## CVE-2018-1111
+ DHCP packages in Red Hat Enterprise Linux 6 and 7, Fedora 28, and earlier are vulnerable to a command injection flaw in the NetworkManager integration script included in the DHCP client. A malicious DHCP server, or an attacker on the local network able to spoof DHCP responses, could use this flaw to execute arbitrary commands with root privileges on systems using NetworkManager and configured to obtain network configuration using the DHCP protocol.
+
+
+
+- [https://github.com/knqyf263/CVE-2018-1111](https://github.com/knqyf263/CVE-2018-1111) :  ![starts](https://img.shields.io/github/stars/knqyf263/CVE-2018-1111.svg) ![forks](https://img.shields.io/github/forks/knqyf263/CVE-2018-1111.svg)
+
+- [https://github.com/kkirsche/CVE-2018-1111](https://github.com/kkirsche/CVE-2018-1111) :  ![starts](https://img.shields.io/github/stars/kkirsche/CVE-2018-1111.svg) ![forks](https://img.shields.io/github/forks/kkirsche/CVE-2018-1111.svg)
+
+- [https://github.com/baldassarreFe/FEP3370-advanced-ethical-hacking](https://github.com/baldassarreFe/FEP3370-advanced-ethical-hacking) :  ![starts](https://img.shields.io/github/stars/baldassarreFe/FEP3370-advanced-ethical-hacking.svg) ![forks](https://img.shields.io/github/forks/baldassarreFe/FEP3370-advanced-ethical-hacking.svg)
+
+## CVE-2018-1099
+ DNS rebinding vulnerability found in etcd 3.3.1 and earlier. An attacker can control his DNS records to direct to localhost, and trick the browser into sending requests to localhost (or any other address).
+
+
+
+- [https://github.com/nicolastsk/cve-2018-10993](https://github.com/nicolastsk/cve-2018-10993) :  ![starts](https://img.shields.io/github/stars/nicolastsk/cve-2018-10993.svg) ![forks](https://img.shields.io/github/forks/nicolastsk/cve-2018-10993.svg)
+
+## CVE-2018-1088
+ A privilege escalation flaw was found in gluster 3.x snapshot scheduler. Any gluster client allowed to mount gluster volumes could also mount shared gluster storage volume and escalate privileges by scheduling malicious cronjob via symlink.
+
+
+
+- [https://github.com/MauroEldritch/GEVAUDAN](https://github.com/MauroEldritch/GEVAUDAN) :  ![starts](https://img.shields.io/github/stars/MauroEldritch/GEVAUDAN.svg) ![forks](https://img.shields.io/github/forks/MauroEldritch/GEVAUDAN.svg)
+
+## CVE-2018-1071
+ zsh through version 5.4.2 is vulnerable to a stack-based buffer overflow in the exec.c:hashcmd() function. A local attacker could exploit this to cause a denial of service.
+
+
+
+- [https://github.com/alt3kx/CVE-2018-10715](https://github.com/alt3kx/CVE-2018-10715) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2018-10715.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2018-10715.svg)
+
 ## CVE-2018-1046
  pdns before version 4.1.2 is vulnerable to a buffer overflow in dnsreplay. In the dnsreplay tool provided with PowerDNS Authoritative, replaying a specially crafted PCAP file can trigger a stack-based buffer overflow, leading to a crash and potentially arbitrary code execution. This buffer overflow only occurs when the -ecs-stamp option of dnsreplay is used.
 
 
 
 - [https://github.com/alt3kx/CVE-2018-10467](https://github.com/alt3kx/CVE-2018-10467) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2018-10467.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2018-10467.svg)
+
+## CVE-2018-1042
+ Moodle 3.x has Server Side Request Forgery in the filepicker.
+
+
+
+- [https://github.com/UDPsycho/Moodle-CVE-2018-1042](https://github.com/UDPsycho/Moodle-CVE-2018-1042) :  ![starts](https://img.shields.io/github/stars/UDPsycho/Moodle-CVE-2018-1042.svg) ![forks](https://img.shields.io/github/forks/UDPsycho/Moodle-CVE-2018-1042.svg)
+
+## CVE-2018-1026
+ A remote code execution vulnerability exists in Microsoft Office software when the software fails to properly handle objects in memory, aka "Microsoft Office Remote Code Execution Vulnerability." This affects Microsoft Office. This CVE ID is unique from CVE-2018-1030.
+
+
+
+- [https://github.com/ymgh96/Detecting-the-CVE-2018-1026-and-its-patch](https://github.com/ymgh96/Detecting-the-CVE-2018-1026-and-its-patch) :  ![starts](https://img.shields.io/github/stars/ymgh96/Detecting-the-CVE-2018-1026-and-its-patch.svg) ![forks](https://img.shields.io/github/forks/ymgh96/Detecting-the-CVE-2018-1026-and-its-patch.svg)
+
+## CVE-2018-1010
+ A remote code execution vulnerability exists when the Windows font library improperly handles specially crafted embedded fonts, aka "Microsoft Graphics Remote Code Execution Vulnerability." This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-1012, CVE-2018-1013, CVE-2018-1015, CVE-2018-1016.
+
+
+
+- [https://github.com/ymgh96/Detecting-the-patch-of-CVE-2018-1010](https://github.com/ymgh96/Detecting-the-patch-of-CVE-2018-1010) :  ![starts](https://img.shields.io/github/stars/ymgh96/Detecting-the-patch-of-CVE-2018-1010.svg) ![forks](https://img.shields.io/github/forks/ymgh96/Detecting-the-patch-of-CVE-2018-1010.svg)
 
 ## CVE-2018-0959
  A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka "Hyper-V Remote Code Execution Vulnerability." This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
@@ -4366,6 +4800,13 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/atredispartners/CVE-2018-0952-SystemCollector](https://github.com/atredispartners/CVE-2018-0952-SystemCollector) :  ![starts](https://img.shields.io/github/stars/atredispartners/CVE-2018-0952-SystemCollector.svg) ![forks](https://img.shields.io/github/forks/atredispartners/CVE-2018-0952-SystemCollector.svg)
 
+## CVE-2018-0886
+ The Credential Security Support Provider protocol (CredSSP) in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1 and RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, 1703, and 1709 Windows Server 2016 and Windows Server, version 1709 allows a remote code execution vulnerability due to how CredSSP validates request during the authentication process, aka "CredSSP Remote Code Execution Vulnerability".
+
+
+
+- [https://github.com/preempt/credssp](https://github.com/preempt/credssp) :  ![starts](https://img.shields.io/github/stars/preempt/credssp.svg) ![forks](https://img.shields.io/github/forks/preempt/credssp.svg)
+
 ## CVE-2018-0834
  Microsoft Edge and ChakraCore in Microsoft Windows 10 Gold, 1511, 1607, 1703, 1709, and Windows Server 2016 allows remote code execution, due to how the scripting engine handles objects in memory, aka "Scripting Engine Memory Corruption Vulnerability". This CVE ID is unique from CVE-2018-0835, CVE-2018-0836, CVE-2018-0837, CVE-2018-0838, CVE-2018-0840, CVE-2018-0856, CVE-2018-0857, CVE-2018-0858, CVE-2018-0859, CVE-2018-0860, CVE-2018-0861, and CVE-2018-0866.
 
@@ -4373,12 +4814,67 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/SpiralBL0CK/-CVE-2018-0834-aab-aar](https://github.com/SpiralBL0CK/-CVE-2018-0834-aab-aar) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/-CVE-2018-0834-aab-aar.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/-CVE-2018-0834-aab-aar.svg)
 
+## CVE-2018-0824
+ A remote code execution vulnerability exists in "Microsoft COM for Windows" when it fails to properly handle serialized objects, aka "Microsoft COM for Windows Remote Code Execution Vulnerability." This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
+
+
+
+- [https://github.com/codewhitesec/UnmarshalPwn](https://github.com/codewhitesec/UnmarshalPwn) :  ![starts](https://img.shields.io/github/stars/codewhitesec/UnmarshalPwn.svg) ![forks](https://img.shields.io/github/forks/codewhitesec/UnmarshalPwn.svg)
+
+## CVE-2018-0802
+ Equation Editor in Microsoft Office 2007, Microsoft Office 2010, Microsoft Office 2013, and Microsoft Office 2016 allow a remote code execution vulnerability due to the way objects are handled in memory, aka "Microsoft Office Memory Corruption Vulnerability". This CVE is unique from CVE-2018-0797 and CVE-2018-0812.
+
+
+
+- [https://github.com/rxwx/CVE-2018-0802](https://github.com/rxwx/CVE-2018-0802) :  ![starts](https://img.shields.io/github/stars/rxwx/CVE-2018-0802.svg) ![forks](https://img.shields.io/github/forks/rxwx/CVE-2018-0802.svg)
+
+- [https://github.com/Ridter/RTF_11882_0802](https://github.com/Ridter/RTF_11882_0802) :  ![starts](https://img.shields.io/github/stars/Ridter/RTF_11882_0802.svg) ![forks](https://img.shields.io/github/forks/Ridter/RTF_11882_0802.svg)
+
+- [https://github.com/zldww2011/CVE-2018-0802_POC](https://github.com/zldww2011/CVE-2018-0802_POC) :  ![starts](https://img.shields.io/github/stars/zldww2011/CVE-2018-0802_POC.svg) ![forks](https://img.shields.io/github/forks/zldww2011/CVE-2018-0802_POC.svg)
+
+- [https://github.com/likekabin/CVE-2018-0802_CVE-2017-11882](https://github.com/likekabin/CVE-2018-0802_CVE-2017-11882) :  ![starts](https://img.shields.io/github/stars/likekabin/CVE-2018-0802_CVE-2017-11882.svg) ![forks](https://img.shields.io/github/forks/likekabin/CVE-2018-0802_CVE-2017-11882.svg)
+
+- [https://github.com/Palvinder-Singh/PS_CVE2018-0802](https://github.com/Palvinder-Singh/PS_CVE2018-0802) :  ![starts](https://img.shields.io/github/stars/Palvinder-Singh/PS_CVE2018-0802.svg) ![forks](https://img.shields.io/github/forks/Palvinder-Singh/PS_CVE2018-0802.svg)
+
+- [https://github.com/Abdibimantara/Maldoc-Analysis](https://github.com/Abdibimantara/Maldoc-Analysis) :  ![starts](https://img.shields.io/github/stars/Abdibimantara/Maldoc-Analysis.svg) ![forks](https://img.shields.io/github/forks/Abdibimantara/Maldoc-Analysis.svg)
+
+- [https://github.com/roninAPT/CVE-2018-0802](https://github.com/roninAPT/CVE-2018-0802) :  ![starts](https://img.shields.io/github/stars/roninAPT/CVE-2018-0802.svg) ![forks](https://img.shields.io/github/forks/roninAPT/CVE-2018-0802.svg)
+
 ## CVE-2018-0798
  Equation Editor in Microsoft Office 2007, Microsoft Office 2010, Microsoft Office 2013, and Microsoft Office 2016 allows a remote code execution vulnerability due to the way objects are handled in memory, aka "Microsoft Office Memory Corruption Vulnerability".
 
 
 
 - [https://github.com/Sunqiz/CVE-2018-0798-reproduction](https://github.com/Sunqiz/CVE-2018-0798-reproduction) :  ![starts](https://img.shields.io/github/stars/Sunqiz/CVE-2018-0798-reproduction.svg) ![forks](https://img.shields.io/github/forks/Sunqiz/CVE-2018-0798-reproduction.svg)
+
+## CVE-2018-0708
+ Command injection vulnerability in networking of QNAP Q'center Virtual Appliance version 1.7.1063 and earlier could allow authenticated users to run arbitrary commands.
+
+
+
+- [https://github.com/ntkernel0/CVE-2019-0708](https://github.com/ntkernel0/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ntkernel0/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ntkernel0/CVE-2019-0708.svg)
+
+## CVE-2018-0296
+ A vulnerability in the web interface of the Cisco Adaptive Security Appliance (ASA) could allow an unauthenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service (DoS) condition. It is also possible on certain software releases that the ASA will not reload, but an attacker could view sensitive system information without authentication by using directory traversal techniques. The vulnerability is due to lack of proper input validation of the HTTP URL. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. An exploit could allow the attacker to cause a DoS condition or unauthenticated disclosure of information. This vulnerability applies to IPv4 and IPv6 HTTP traffic. This vulnerability affects Cisco ASA Software and Cisco Firepower Threat Defense (FTD) Software that is running on the following Cisco products: 3000 Series Industrial Security Appliance (ISA), ASA 1000V Cloud Firewall, ASA 5500 Series Adaptive Security Appliances, ASA 5500-X Series Next-Generation Firewalls, ASA Services Module for Cisco Catalyst 6500 Series Switches and Cisco 7600 Series Routers, Adaptive Security Virtual Appliance (ASAv), Firepower 2100 Series Security Appliance, Firepower 4100 Series Security Appliance, Firepower 9300 ASA Security Module, FTD Virtual (FTDv). Cisco Bug IDs: CSCvi16029.
+
+
+
+- [https://github.com/yassineaboukir/CVE-2018-0296](https://github.com/yassineaboukir/CVE-2018-0296) :  ![starts](https://img.shields.io/github/stars/yassineaboukir/CVE-2018-0296.svg) ![forks](https://img.shields.io/github/forks/yassineaboukir/CVE-2018-0296.svg)
+
+- [https://github.com/milo2012/CVE-2018-0296](https://github.com/milo2012/CVE-2018-0296) :  ![starts](https://img.shields.io/github/stars/milo2012/CVE-2018-0296.svg) ![forks](https://img.shields.io/github/forks/milo2012/CVE-2018-0296.svg)
+
+- [https://github.com/hackingyseguridad/directoriotraversal](https://github.com/hackingyseguridad/directoriotraversal) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/directoriotraversal.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/directoriotraversal.svg)
+
+- [https://github.com/bhenner1/CVE-2018-0296](https://github.com/bhenner1/CVE-2018-0296) :  ![starts](https://img.shields.io/github/stars/bhenner1/CVE-2018-0296.svg) ![forks](https://img.shields.io/github/forks/bhenner1/CVE-2018-0296.svg)
+
+- [https://github.com/qiantu88/CVE-2018-0296](https://github.com/qiantu88/CVE-2018-0296) :  ![starts](https://img.shields.io/github/stars/qiantu88/CVE-2018-0296.svg) ![forks](https://img.shields.io/github/forks/qiantu88/CVE-2018-0296.svg)
+
+## CVE-2018-0208
+ A vulnerability in the web-based management interface of the (cloud based) Cisco Registered Envelope Service could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the web-based management interface of the affected service. The vulnerability is due to insufficient validation of user-supplied input that is processed by the web-based management interface of the affected service. An attacker could exploit this vulnerability by persuading a user of the interface to click a malicious link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface or access sensitive browser-based information. Cisco Bug IDs: CSCvg74126.
+
+
+
+- [https://github.com/dima5455/Cve-2018-0208](https://github.com/dima5455/Cve-2018-0208) :  ![starts](https://img.shields.io/github/stars/dima5455/Cve-2018-0208.svg) ![forks](https://img.shields.io/github/forks/dima5455/Cve-2018-0208.svg)
 
 ## CVE-2018-0202
  clamscan in ClamAV before 0.99.4 contains a vulnerability that could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device. The vulnerability is due to improper input validation checking mechanisms when handling Portable Document Format (.pdf) files sent to an affected device. An unauthenticated, remote attacker could exploit this vulnerability by sending a crafted .pdf file to an affected device. This action could cause an out-of-bounds read when ClamAV scans the malicious file, allowing the attacker to cause a DoS condition. This concerns pdf_parse_array and pdf_parse_string in libclamav/pdfng.c. Cisco Bug IDs: CSCvh91380, CSCvh91400.
@@ -4395,6 +4891,33 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 - [https://github.com/hellowenying/CVE2018-0171](https://github.com/hellowenying/CVE2018-0171) :  ![starts](https://img.shields.io/github/stars/hellowenying/CVE2018-0171.svg) ![forks](https://img.shields.io/github/forks/hellowenying/CVE2018-0171.svg)
 
 - [https://github.com/AlrikRr/Cisco-Smart-Exploit](https://github.com/AlrikRr/Cisco-Smart-Exploit) :  ![starts](https://img.shields.io/github/stars/AlrikRr/Cisco-Smart-Exploit.svg) ![forks](https://img.shields.io/github/forks/AlrikRr/Cisco-Smart-Exploit.svg)
+
+## CVE-2018-0114
+ A vulnerability in the Cisco node-jose open source library before 0.11.0 could allow an unauthenticated, remote attacker to re-sign tokens using a key that is embedded within the token. The vulnerability is due to node-jose following the JSON Web Signature (JWS) standard for JSON Web Tokens (JWTs). This standard specifies that a JSON Web Key (JWK) representing a public key can be embedded within the header of a JWS. This public key is then trusted for verification. An attacker could exploit this by forging valid JWS objects by removing the original signature, adding a new public key to the header, and then signing the object using the (attacker-owned) private key associated with the public key embedded in that JWS header.
+
+
+
+- [https://github.com/z-bool/Venom-JWT](https://github.com/z-bool/Venom-JWT) :  ![starts](https://img.shields.io/github/stars/z-bool/Venom-JWT.svg) ![forks](https://img.shields.io/github/forks/z-bool/Venom-JWT.svg)
+
+- [https://github.com/zi0Black/POC-CVE-2018-0114](https://github.com/zi0Black/POC-CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/zi0Black/POC-CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/zi0Black/POC-CVE-2018-0114.svg)
+
+- [https://github.com/scumdestroy/CVE-2018-0114](https://github.com/scumdestroy/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/scumdestroy/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/scumdestroy/CVE-2018-0114.svg)
+
+- [https://github.com/j4k0m/CVE-2018-0114](https://github.com/j4k0m/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/j4k0m/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/j4k0m/CVE-2018-0114.svg)
+
+- [https://github.com/Eremiel/CVE-2018-0114](https://github.com/Eremiel/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/Eremiel/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/Eremiel/CVE-2018-0114.svg)
+
+- [https://github.com/adityathebe/POC-CVE-2018-0114](https://github.com/adityathebe/POC-CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/adityathebe/POC-CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/adityathebe/POC-CVE-2018-0114.svg)
+
+- [https://github.com/amr9k8/jwt-spoof-tool](https://github.com/amr9k8/jwt-spoof-tool) :  ![starts](https://img.shields.io/github/stars/amr9k8/jwt-spoof-tool.svg) ![forks](https://img.shields.io/github/forks/amr9k8/jwt-spoof-tool.svg)
+
+- [https://github.com/Logeirs/CVE-2018-0114](https://github.com/Logeirs/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/Logeirs/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/Logeirs/CVE-2018-0114.svg)
+
+- [https://github.com/Starry-lord/CVE-2018-0114](https://github.com/Starry-lord/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/Starry-lord/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/Starry-lord/CVE-2018-0114.svg)
+
+- [https://github.com/mmeza-developer/CVE-2018-0114](https://github.com/mmeza-developer/CVE-2018-0114) :  ![starts](https://img.shields.io/github/stars/mmeza-developer/CVE-2018-0114.svg) ![forks](https://img.shields.io/github/forks/mmeza-developer/CVE-2018-0114.svg)
+
+- [https://github.com/Pandora-research/CVE-2018-0114-Exploit](https://github.com/Pandora-research/CVE-2018-0114-Exploit) :  ![starts](https://img.shields.io/github/stars/Pandora-research/CVE-2018-0114-Exploit.svg) ![forks](https://img.shields.io/github/forks/Pandora-research/CVE-2018-0114-Exploit.svg)
 
 ## CVE-2018-0101
  A vulnerability in the Secure Sockets Layer (SSL) VPN functionality of the Cisco Adaptive Security Appliance (ASA) Software could allow an unauthenticated, remote attacker to cause a reload of the affected system or to remotely execute code. The vulnerability is due to an attempt to double free a region of memory when the webvpn feature is enabled on the Cisco ASA device. An attacker could exploit this vulnerability by sending multiple, crafted XML packets to a webvpn-configured interface on the affected system. An exploit could allow the attacker to execute arbitrary code and obtain full control of the system, or cause a reload of the affected device. This vulnerability affects Cisco ASA Software that is running on the following Cisco products: 3000 Series Industrial Security Appliance (ISA), ASA 5500 Series Adaptive Security Appliances, ASA 5500-X Series Next-Generation Firewalls, ASA Services Module for Cisco Catalyst 6500 Series Switches and Cisco 7600 Series Routers, ASA 1000V Cloud Firewall, Adaptive Security Virtual Appliance (ASAv), Firepower 2100 Series Security Appliance, Firepower 4110 Security Appliance, Firepower 9300 ASA Security Module, Firepower Threat Defense Software (FTD). Cisco Bug IDs: CSCvg35618.
