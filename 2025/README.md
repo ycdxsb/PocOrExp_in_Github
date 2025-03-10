@@ -1,3 +1,10 @@
+## CVE-2025-27840
+ Espressif ESP32 chips allow 29 hidden HCI commands, such as 0xFC02 (Write memory).
+
+
+
+- [https://github.com/em0gi/CVE-2025-27840](https://github.com/em0gi/CVE-2025-27840) :  ![starts](https://img.shields.io/github/stars/em0gi/CVE-2025-27840.svg) ![forks](https://img.shields.io/github/forks/em0gi/CVE-2025-27840.svg)
+
 ## CVE-2025-26794
  Exim 4.98 before 4.98.1, when SQLite hints and ETRN serialization are used, allows remote SQL injection.
 
@@ -342,6 +349,8 @@ CloudStack admins may also disallow listAnnotations and addAnnotation API access
 
 - [https://github.com/MrAle98/CVE-2025-21333-POC](https://github.com/MrAle98/CVE-2025-21333-POC) :  ![starts](https://img.shields.io/github/stars/MrAle98/CVE-2025-21333-POC.svg) ![forks](https://img.shields.io/github/forks/MrAle98/CVE-2025-21333-POC.svg)
 
+- [https://github.com/Mukesh-blend/CVE-2025-21333-POC](https://github.com/Mukesh-blend/CVE-2025-21333-POC) :  ![starts](https://img.shields.io/github/stars/Mukesh-blend/CVE-2025-21333-POC.svg) ![forks](https://img.shields.io/github/forks/Mukesh-blend/CVE-2025-21333-POC.svg)
+
 ## CVE-2025-21298
  Windows OLE Remote Code Execution Vulnerability
 
@@ -369,6 +378,13 @@ Note: Software versions which have reached End of Technical Support (EoTS) are n
 
 
 - [https://github.com/shybu9/poc_CVE-2025-1716](https://github.com/shybu9/poc_CVE-2025-1716) :  ![starts](https://img.shields.io/github/stars/shybu9/poc_CVE-2025-1716.svg) ![forks](https://img.shields.io/github/forks/shybu9/poc_CVE-2025-1716.svg)
+
+## CVE-2025-1316
+ Edimax IC-7100 does not properly neutralize requests. An attacker can create specially crafted requests to achieve remote code execution on the device
+
+
+
+- [https://github.com/Rimasue/CVE-2025-1316](https://github.com/Rimasue/CVE-2025-1316) :  ![starts](https://img.shields.io/github/stars/Rimasue/CVE-2025-1316.svg) ![forks](https://img.shields.io/github/forks/Rimasue/CVE-2025-1316.svg)
 
 ## CVE-2025-1307
  The Newscrunch theme for WordPress is vulnerable to arbitrary file uploads due to a missing capability check in the newscrunch_install_and_activate_plugin() function in all versions up to, and including, 1.8.4.1. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
