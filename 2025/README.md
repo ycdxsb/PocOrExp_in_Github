@@ -5,6 +5,38 @@
 
 - [https://github.com/em0gi/CVE-2025-27840](https://github.com/em0gi/CVE-2025-27840) :  ![starts](https://img.shields.io/github/stars/em0gi/CVE-2025-27840.svg) ![forks](https://img.shields.io/github/forks/em0gi/CVE-2025-27840.svg)
 
+## CVE-2025-27636
+ Bypass/Injection vulnerability in Apache Camel-Bean component under particular conditions.
+
+This issue affects Apache Camel: from 4.10.0 through = 4.10.1, from 4.8.0 through = 4.8.4, from 3.10.0 through = 3.22.3.
+
+Users are recommended to upgrade to version 4.10.2 for 4.10.x LTS, 4.8.5 for 4.8.x LTS and 3.22.4 for 3.x releases.
+
+This vulnerability is only present in the following situation. The user is using one of the following HTTP Servers via one the of the following Camel components
+
+  *  camel-servlet
+  *  camel-jetty
+  *  camel-undertow
+  *  camel-platform-http
+  *  camel-netty-http
+
+
+and in the route, the exchange will be routed to a camel-bean producer. So ONLY camel-bean component is affected. In particular: 
+
+  *  The bean invocation (is only affected if you use any of the above together with camel-bean component).
+
+  *  The bean that can be called, has more than 1 method implemented.
+In these conditions an attacker could be able to forge a Camel header name and make the bean component invoking other methods in the same bean.
+
+The vulnerability arises due to a bug in the default filtering mechanism that only blocks headers starting with "Camel", "camel", or "org.apache.camel.". 
+
+
+Mitigation: You can easily work around this in your Camel applications by removing the headers in your Camel routes. There are many ways of doing this, also globally or per route. This means you could use the removeHeaders EIP, to filter out anything like "cAmel, cAMEL" etc, or in general everything not starting with "Camel", "camel" or "org.apache.camel.".
+
+
+
+- [https://github.com/akamai/CVE-2025-27636-Apache-Camel-PoC](https://github.com/akamai/CVE-2025-27636-Apache-Camel-PoC) :  ![starts](https://img.shields.io/github/stars/akamai/CVE-2025-27636-Apache-Camel-PoC.svg) ![forks](https://img.shields.io/github/forks/akamai/CVE-2025-27636-Apache-Camel-PoC.svg)
+
 ## CVE-2025-26794
  Exim 4.98 before 4.98.1, when SQLite hints and ETRN serialization are used, allows remote SQL injection.
 
@@ -97,12 +129,40 @@
 
 - [https://github.com/padayali-JD/CVE-2025-25967](https://github.com/padayali-JD/CVE-2025-25967) :  ![starts](https://img.shields.io/github/stars/padayali-JD/CVE-2025-25967.svg) ![forks](https://img.shields.io/github/forks/padayali-JD/CVE-2025-25967.svg)
 
+## CVE-2025-25620
+ Unifiedtransform 2.0 is vulnerable to Cross Site Scripting (XSS) in the Create assignment function.
+
+
+
+- [https://github.com/armaansidana2003/CVE-2025-25620](https://github.com/armaansidana2003/CVE-2025-25620) :  ![starts](https://img.shields.io/github/stars/armaansidana2003/CVE-2025-25620.svg) ![forks](https://img.shields.io/github/forks/armaansidana2003/CVE-2025-25620.svg)
+
 ## CVE-2025-25617
  Incorrect Access Control in Unifiedtransform 2.X leads to Privilege Escalation allowing teachers to create syllabus.
 
 
 
 - [https://github.com/armaansidana2003/CVE-2025-25617](https://github.com/armaansidana2003/CVE-2025-25617) :  ![starts](https://img.shields.io/github/stars/armaansidana2003/CVE-2025-25617.svg) ![forks](https://img.shields.io/github/forks/armaansidana2003/CVE-2025-25617.svg)
+
+## CVE-2025-25616
+ Unifiedtransform 2.0 is vulnerable to Incorrect Access Control, which allows students to modify rules for exams. The affected endpoint is /exams/edit-rule?exam_rule_id=1.
+
+
+
+- [https://github.com/armaansidana2003/CVE-2025-25616](https://github.com/armaansidana2003/CVE-2025-25616) :  ![starts](https://img.shields.io/github/stars/armaansidana2003/CVE-2025-25616.svg) ![forks](https://img.shields.io/github/forks/armaansidana2003/CVE-2025-25616.svg)
+
+## CVE-2025-25615
+ Unifiedtransform 2.0 is vulnerable to Incorrect Access Control which allows viewing attendance list for all class sections.
+
+
+
+- [https://github.com/armaansidana2003/CVE-2025-25615](https://github.com/armaansidana2003/CVE-2025-25615) :  ![starts](https://img.shields.io/github/stars/armaansidana2003/CVE-2025-25615.svg) ![forks](https://img.shields.io/github/forks/armaansidana2003/CVE-2025-25615.svg)
+
+## CVE-2025-25614
+ Incorrect Access Control in Unifiedtransform 2.0 leads to Privilege Escalation, which allows teachers to update the personal data of fellow teachers.
+
+
+
+- [https://github.com/armaansidana2003/CVE-2025-25614](https://github.com/armaansidana2003/CVE-2025-25614) :  ![starts](https://img.shields.io/github/stars/armaansidana2003/CVE-2025-25614.svg) ![forks](https://img.shields.io/github/forks/armaansidana2003/CVE-2025-25614.svg)
 
 ## CVE-2025-25461
  A Stored Cross-Site Scripting (XSS) vulnerability exists in SeedDMS 6.0.29. A user or rogue admin with the "Add Category" permission can inject a malicious XSS payload into the category name field. When a document is subsequently associated with this category, the payload is stored on the server and rendered without proper sanitization or output encoding. This results in the XSS payload executing in the browser of any user who views the document.
@@ -360,6 +420,13 @@ CloudStack admins may also disallow listAnnotations and addAnnotation API access
 
 - [https://github.com/Dit-Developers/CVE-2025-21298](https://github.com/Dit-Developers/CVE-2025-21298) :  ![starts](https://img.shields.io/github/stars/Dit-Developers/CVE-2025-21298.svg) ![forks](https://img.shields.io/github/forks/Dit-Developers/CVE-2025-21298.svg)
 
+## CVE-2025-21293
+ Active Directory Domain Services Elevation of Privilege Vulnerability
+
+
+
+- [https://github.com/ahmedumarehman/CVE-2025-21293](https://github.com/ahmedumarehman/CVE-2025-21293) :  ![starts](https://img.shields.io/github/stars/ahmedumarehman/CVE-2025-21293.svg) ![forks](https://img.shields.io/github/forks/ahmedumarehman/CVE-2025-21293.svg)
+
 ## CVE-2025-20029
  Command injection vulnerability exists in iControl REST and BIG-IP TMOS Shell (tmsh) save command, which may allow an authenticated attacker to execute arbitrary system commands.
 
@@ -419,7 +486,7 @@ Note: Software versions which have reached End of Technical Support (EoTS) are n
 - [https://github.com/shacojx/CVE-2025-1094-Exploit](https://github.com/shacojx/CVE-2025-1094-Exploit) :  ![starts](https://img.shields.io/github/stars/shacojx/CVE-2025-1094-Exploit.svg) ![forks](https://img.shields.io/github/forks/shacojx/CVE-2025-1094-Exploit.svg)
 
 ## CVE-2025-1015
- The Thunderbird Address Book URI fields contained unsanitized links. This could be used by an attacker to create and export an address book containing a malicious payload in a field. For example, in the “Other” field of the Instant Messaging section. If another user imported the address book, clicking on the link could result in opening a web page inside Thunderbird, and that page could execute (unprivileged) JavaScript. This vulnerability affects Thunderbird  128.7.
+ The Thunderbird Address Book URI fields contained unsanitized links. This could be used by an attacker to create and export an address book containing a malicious payload in a field. For example, in the “Other” field of the Instant Messaging section. If another user imported the address book, clicking on the link could result in opening a web page inside Thunderbird, and that page could execute (unprivileged) JavaScript. This vulnerability affects Thunderbird  128.7 and Thunderbird  135.
 
 
 
@@ -492,6 +559,8 @@ The specific flaw exists within the handling of archived files. When extracting 
 - [https://github.com/44xo/CVE-2025-0282](https://github.com/44xo/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/44xo/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/44xo/CVE-2025-0282.svg)
 
 - [https://github.com/almanatra/CVE-2025-0282](https://github.com/almanatra/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/almanatra/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/almanatra/CVE-2025-0282.svg)
+
+- [https://github.com/punitdarji/Ivanti-CVE-2025-0282](https://github.com/punitdarji/Ivanti-CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/punitdarji/Ivanti-CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/punitdarji/Ivanti-CVE-2025-0282.svg)
 
 ## CVE-2025-0108
  An authentication bypass in the Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to bypass the authentication otherwise required by the PAN-OS management web interface and invoke certain PHP scripts. While invoking these PHP scripts does not enable remote code execution, it can negatively impact integrity and confidentiality of PAN-OS.
