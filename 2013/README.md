@@ -380,6 +380,13 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/xiw1ll/CVE-2013-2028_Checker](https://github.com/xiw1ll/CVE-2013-2028_Checker) :  ![starts](https://img.shields.io/github/stars/xiw1ll/CVE-2013-2028_Checker.svg) ![forks](https://img.shields.io/github/forks/xiw1ll/CVE-2013-2028_Checker.svg)
 
+## CVE-2013-2010
+ WordPress W3 Total Cache Plugin 0.9.2.8 has a Remote PHP Code Execution Vulnerability
+
+
+
+- [https://github.com/spyata123/w3-total-cache-cve-2013-2010](https://github.com/spyata123/w3-total-cache-cve-2013-2010) :  ![starts](https://img.shields.io/github/stars/spyata123/w3-total-cache-cve-2013-2010.svg) ![forks](https://img.shields.io/github/forks/spyata123/w3-total-cache-cve-2013-2010.svg)
+
 ## CVE-2013-2006
  OpenStack Identity (Keystone) Grizzly 2013.1.1, when DEBUG mode logging is enabled, logs the (1) admin_token and (2) LDAP password in plaintext, which allows local users to obtain sensitive by reading the log file.
 
