@@ -1228,6 +1228,13 @@
 
 - [https://github.com/highandhigh/CVE-2015-0057](https://github.com/highandhigh/CVE-2015-0057) :  ![starts](https://img.shields.io/github/stars/highandhigh/CVE-2015-0057.svg) ![forks](https://img.shields.io/github/forks/highandhigh/CVE-2015-0057.svg)
 
+## CVE-2015-0009
+ The Group Policy Security Configuration policy implementation in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows man-in-the-middle attackers to disable a signing requirement and trigger a revert-to-default action by spoofing domain-controller responses, aka "Group Policy Security Feature Bypass Vulnerability."
+
+
+
+- [https://github.com/PhoenixC46/ExploitPOC_MS15-014_CVE-2015-0009](https://github.com/PhoenixC46/ExploitPOC_MS15-014_CVE-2015-0009) :  ![starts](https://img.shields.io/github/stars/PhoenixC46/ExploitPOC_MS15-014_CVE-2015-0009.svg) ![forks](https://img.shields.io/github/forks/PhoenixC46/ExploitPOC_MS15-014_CVE-2015-0009.svg)
+
 ## CVE-2015-0006
  The Network Location Awareness (NLA) service in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not perform mutual authentication to determine a domain connection, which allows remote attackers to trigger an unintended permissive configuration by spoofing DNS and LDAP responses on a local network, aka "NLA Security Feature Bypass Vulnerability."
 
