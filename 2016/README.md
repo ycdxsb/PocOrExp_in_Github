@@ -663,6 +663,8 @@
 
 - [https://github.com/bassitone/OpenSSH-User-Enumeration](https://github.com/bassitone/OpenSSH-User-Enumeration) :  ![starts](https://img.shields.io/github/stars/bassitone/OpenSSH-User-Enumeration.svg) ![forks](https://img.shields.io/github/forks/bassitone/OpenSSH-User-Enumeration.svg)
 
+- [https://github.com/coolbabayaga/CVE-2016-6210](https://github.com/coolbabayaga/CVE-2016-6210) :  ![starts](https://img.shields.io/github/stars/coolbabayaga/CVE-2016-6210.svg) ![forks](https://img.shields.io/github/forks/coolbabayaga/CVE-2016-6210.svg)
+
 ## CVE-2016-6187
  The apparmor_setprocattr function in security/apparmor/lsm.c in the Linux kernel before 4.6.5 does not validate the buffer size, which allows local users to gain privileges by triggering an AppArmor setprocattr hook.
 
@@ -1278,13 +1280,6 @@
 
 - [https://github.com/gitcollect/CVE-2016-2468](https://github.com/gitcollect/CVE-2016-2468) :  ![starts](https://img.shields.io/github/stars/gitcollect/CVE-2016-2468.svg) ![forks](https://img.shields.io/github/forks/gitcollect/CVE-2016-2468.svg)
 
-## CVE-2016-2434
- The NVIDIA video driver in Android before 2016-05-01 on Nexus 9 devices allows attackers to gain privileges via a crafted application, aka internal bug 27251090.
-
-
-
-- [https://github.com/jianqiangzhao/CVE-2016-2434](https://github.com/jianqiangzhao/CVE-2016-2434) :  ![starts](https://img.shields.io/github/stars/jianqiangzhao/CVE-2016-2434.svg) ![forks](https://img.shields.io/github/forks/jianqiangzhao/CVE-2016-2434.svg)
-
 ## CVE-2016-2431
  The Qualcomm TrustZone component in Android before 2016-05-01 on Nexus 5, Nexus 6, Nexus 7 (2013), and Android One devices allows attackers to gain privileges via a crafted application, aka internal bug 24968809.
 
@@ -1309,22 +1304,6 @@
 
 
 - [https://github.com/vah13/SAP_exploit](https://github.com/vah13/SAP_exploit) :  ![starts](https://img.shields.io/github/stars/vah13/SAP_exploit.svg) ![forks](https://img.shields.io/github/forks/vah13/SAP_exploit.svg)
-
-## CVE-2016-2386
- SQL injection vulnerability in the UDDI server in SAP NetWeaver J2EE Engine 7.40 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, aka SAP Security Note 2101079.
-
-
-
-- [https://github.com/vah13/SAP_exploit](https://github.com/vah13/SAP_exploit) :  ![starts](https://img.shields.io/github/stars/vah13/SAP_exploit.svg) ![forks](https://img.shields.io/github/forks/vah13/SAP_exploit.svg)
-
-- [https://github.com/murataydemir/CVE-2016-2386](https://github.com/murataydemir/CVE-2016-2386) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2016-2386.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2016-2386.svg)
-
-## CVE-2016-2338
- An exploitable heap overflow vulnerability exists in the Psych::Emitter start_document function of Ruby. In Psych::Emitter start_document function heap buffer "head" allocation is made based on tags array length. Specially constructed object passed as element of tags array can increase this array size after mentioned allocation and cause heap overflow.
-
-
-
-- [https://github.com/SpiralBL0CK/CVE-2016-2338-nday](https://github.com/SpiralBL0CK/CVE-2016-2338-nday) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/CVE-2016-2338-nday.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/CVE-2016-2338-nday.svg)
 
 ## CVE-2016-2334
  Heap-based buffer overflow in the NArchive::NHfs::CHandler::ExtractZlibFile method in 7zip before 16.00 and p7zip allows remote attackers to execute arbitrary code via a crafted HFS+ image.
@@ -1362,40 +1341,6 @@
 - [https://github.com/FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107) :  ![starts](https://img.shields.io/github/stars/FiloSottile/CVE-2016-2107.svg) ![forks](https://img.shields.io/github/forks/FiloSottile/CVE-2016-2107.svg)
 
 - [https://github.com/tmiklas/docker-cve-2016-2107](https://github.com/tmiklas/docker-cve-2016-2107) :  ![starts](https://img.shields.io/github/stars/tmiklas/docker-cve-2016-2107.svg) ![forks](https://img.shields.io/github/forks/tmiklas/docker-cve-2016-2107.svg)
-
-## CVE-2016-2098
- Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x before 4.2.5.2 allows remote attackers to execute arbitrary Ruby code by leveraging an application's unrestricted use of the render method.
-
-
-
-- [https://github.com/0x00-0x00/CVE-2016-2098](https://github.com/0x00-0x00/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2016-2098.svg)
-
-- [https://github.com/hderms/dh-CVE_2016_2098](https://github.com/hderms/dh-CVE_2016_2098) :  ![starts](https://img.shields.io/github/stars/hderms/dh-CVE_2016_2098.svg) ![forks](https://img.shields.io/github/forks/hderms/dh-CVE_2016_2098.svg)
-
-- [https://github.com/Shakun8/CVE-2016-2098](https://github.com/Shakun8/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Shakun8/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Shakun8/CVE-2016-2098.svg)
-
-- [https://github.com/j4k0m/CVE-2016-2098](https://github.com/j4k0m/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/j4k0m/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/j4k0m/CVE-2016-2098.svg)
-
-- [https://github.com/DanielHemmati/CVE-2016-2098-my-first-exploit](https://github.com/DanielHemmati/CVE-2016-2098-my-first-exploit) :  ![starts](https://img.shields.io/github/stars/DanielHemmati/CVE-2016-2098-my-first-exploit.svg) ![forks](https://img.shields.io/github/forks/DanielHemmati/CVE-2016-2098-my-first-exploit.svg)
-
-- [https://github.com/its-arun/CVE-2016-2098](https://github.com/its-arun/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/its-arun/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/its-arun/CVE-2016-2098.svg)
-
-- [https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Alejandro-MartinG/rails-PoC-CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Alejandro-MartinG/rails-PoC-CVE-2016-2098.svg)
-
-- [https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42](https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42) :  ![starts](https://img.shields.io/github/stars/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42.svg) ![forks](https://img.shields.io/github/forks/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42.svg)
-
-- [https://github.com/Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Debalinax64/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Debalinax64/CVE-2016-2098.svg)
-
-- [https://github.com/3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/3rg1s/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/3rg1s/CVE-2016-2098.svg)
-
-- [https://github.com/JoseLRC97/Ruby-on-Rails-ActionPack-Inline-ERB-Remote-Code-Execution](https://github.com/JoseLRC97/Ruby-on-Rails-ActionPack-Inline-ERB-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/JoseLRC97/Ruby-on-Rails-ActionPack-Inline-ERB-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/JoseLRC97/Ruby-on-Rails-ActionPack-Inline-ERB-Remote-Code-Execution.svg)
-
-## CVE-2016-2067
- drivers/gpu/msm/kgsl.c in the MSM graphics driver (aka GPU driver) for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, mishandles the KGSL_MEMFLAGS_GPUREADONLY flag, which allows attackers to gain privileges by leveraging accidental read-write mappings, aka Qualcomm internal bug CR988993.
-
-
-
-- [https://github.com/hhj4ck/CVE-2016-2067](https://github.com/hhj4ck/CVE-2016-2067) :  ![starts](https://img.shields.io/github/stars/hhj4ck/CVE-2016-2067.svg) ![forks](https://img.shields.io/github/forks/hhj4ck/CVE-2016-2067.svg)
 
 ## CVE-2016-2004
  HPE Data Protector before 7.03_108, 8.x before 8.15, and 9.x before 9.06 allow remote attackers to execute arbitrary code via unspecified vectors related to lack of authentication.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-2623.
