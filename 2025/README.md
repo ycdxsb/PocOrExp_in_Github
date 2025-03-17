@@ -352,6 +352,8 @@ Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.98, which fix
 
 - [https://github.com/FY036/cve-2025-24813_poc](https://github.com/FY036/cve-2025-24813_poc) :  ![starts](https://img.shields.io/github/stars/FY036/cve-2025-24813_poc.svg) ![forks](https://img.shields.io/github/forks/FY036/cve-2025-24813_poc.svg)
 
+- [https://github.com/charis3306/CVE-2025-24813](https://github.com/charis3306/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/charis3306/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/charis3306/CVE-2025-24813.svg)
+
 - [https://github.com/N0c1or/CVE-2025-24813_POC](https://github.com/N0c1or/CVE-2025-24813_POC) :  ![starts](https://img.shields.io/github/stars/N0c1or/CVE-2025-24813_POC.svg) ![forks](https://img.shields.io/github/forks/N0c1or/CVE-2025-24813_POC.svg)
 
 - [https://github.com/gregk4sec/CVE-2025-24813](https://github.com/gregk4sec/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/gregk4sec/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/gregk4sec/CVE-2025-24813.svg)
@@ -536,9 +538,9 @@ CloudStack admins may also disallow listAnnotations and addAnnotation API access
 
 - [https://github.com/MrAle98/CVE-2025-21333-POC](https://github.com/MrAle98/CVE-2025-21333-POC) :  ![starts](https://img.shields.io/github/stars/MrAle98/CVE-2025-21333-POC.svg) ![forks](https://img.shields.io/github/forks/MrAle98/CVE-2025-21333-POC.svg)
 
-- [https://github.com/Mukesh-blend/CVE-2025-21333-POC](https://github.com/Mukesh-blend/CVE-2025-21333-POC) :  ![starts](https://img.shields.io/github/stars/Mukesh-blend/CVE-2025-21333-POC.svg) ![forks](https://img.shields.io/github/forks/Mukesh-blend/CVE-2025-21333-POC.svg)
-
 - [https://github.com/aleongx/KQL_sentinel_CVE-2025-21333](https://github.com/aleongx/KQL_sentinel_CVE-2025-21333) :  ![starts](https://img.shields.io/github/stars/aleongx/KQL_sentinel_CVE-2025-21333.svg) ![forks](https://img.shields.io/github/forks/aleongx/KQL_sentinel_CVE-2025-21333.svg)
+
+- [https://github.com/Mukesh-blend/CVE-2025-21333-POC](https://github.com/Mukesh-blend/CVE-2025-21333-POC) :  ![starts](https://img.shields.io/github/stars/Mukesh-blend/CVE-2025-21333-POC.svg) ![forks](https://img.shields.io/github/forks/Mukesh-blend/CVE-2025-21333-POC.svg)
 
 ## CVE-2025-21298
  Windows OLE Remote Code Execution Vulnerability
@@ -695,6 +697,8 @@ The specific flaw exists within the handling of archived files. When extracting 
 - [https://github.com/cesarbtakeda/7-Zip-CVE-2025-0411-POC](https://github.com/cesarbtakeda/7-Zip-CVE-2025-0411-POC) :  ![starts](https://img.shields.io/github/stars/cesarbtakeda/7-Zip-CVE-2025-0411-POC.svg) ![forks](https://img.shields.io/github/forks/cesarbtakeda/7-Zip-CVE-2025-0411-POC.svg)
 
 - [https://github.com/dpextreme/7-Zip-CVE-2025-0411-POC](https://github.com/dpextreme/7-Zip-CVE-2025-0411-POC) :  ![starts](https://img.shields.io/github/stars/dpextreme/7-Zip-CVE-2025-0411-POC.svg) ![forks](https://img.shields.io/github/forks/dpextreme/7-Zip-CVE-2025-0411-POC.svg)
+
+- [https://github.com/SalehAlgnay/7-Zip-CVE-2025-0411-POC](https://github.com/SalehAlgnay/7-Zip-CVE-2025-0411-POC) :  ![starts](https://img.shields.io/github/stars/SalehAlgnay/7-Zip-CVE-2025-0411-POC.svg) ![forks](https://img.shields.io/github/forks/SalehAlgnay/7-Zip-CVE-2025-0411-POC.svg)
 
 - [https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC](https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC) :  ![starts](https://img.shields.io/github/stars/ishwardeepp/CVE-2025-0411-MoTW-PoC.svg) ![forks](https://img.shields.io/github/forks/ishwardeepp/CVE-2025-0411-MoTW-PoC.svg)
 
