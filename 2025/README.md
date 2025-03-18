@@ -1,3 +1,10 @@
+## CVE-2025-30066
+ tj-actions changed-files before 46 allows remote attackers to discover secrets by reading actions logs. (The tags v1 through v45.0.7 were affected on 2025-03-14 and 2025-03-15 because they were modified by a threat actor to point at commit 0e58ed8, which contained malicious updateFeatures code.)
+
+
+
+- [https://github.com/OS-pedrogustavobilro/test-changed-files](https://github.com/OS-pedrogustavobilro/test-changed-files) :  ![starts](https://img.shields.io/github/stars/OS-pedrogustavobilro/test-changed-files.svg) ![forks](https://img.shields.io/github/forks/OS-pedrogustavobilro/test-changed-files.svg)
+
 ## CVE-2025-28915
  Unrestricted Upload of File with Dangerous Type vulnerability in Theme Egg ThemeEgg ToolKit allows Upload a Web Shell to a Web Server. This issue affects ThemeEgg ToolKit: from n/a through 1.2.9.
 
@@ -34,9 +41,9 @@ This vulnerability is present in Camel's default incoming header filter, that al
 
 headers that for some Camel components can alter the behaviours such as the camel-bean component, to call another method
 
-on the bean, than was coded in the application. In the camel-jms component, then a mallicous header can be used to send
+on the bean, than was coded in the application. In the camel-jms component, then a malicious header can be used to send
 
-the message to another queue (on the same broker) than was coded in the application.
+the message to another queue (on the same broker) than was coded in the application. This could also be seen by using the camel-exec component
 
 
 
@@ -116,9 +123,9 @@ Mitigation: You can easily work around this in your Camel applications by remov
 
 
 
-- [https://github.com/jhonnybonny/CVE-2025-26466](https://github.com/jhonnybonny/CVE-2025-26466) :  ![starts](https://img.shields.io/github/stars/jhonnybonny/CVE-2025-26466.svg) ![forks](https://img.shields.io/github/forks/jhonnybonny/CVE-2025-26466.svg)
-
 - [https://github.com/rxerium/CVE-2025-26466](https://github.com/rxerium/CVE-2025-26466) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2025-26466.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2025-26466.svg)
+
+- [https://github.com/jhonnybonny/CVE-2025-26466](https://github.com/jhonnybonny/CVE-2025-26466) :  ![starts](https://img.shields.io/github/stars/jhonnybonny/CVE-2025-26466.svg) ![forks](https://img.shields.io/github/forks/jhonnybonny/CVE-2025-26466.svg)
 
 - [https://github.com/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466](https://github.com/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466) :  ![starts](https://img.shields.io/github/stars/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466.svg) ![forks](https://img.shields.io/github/forks/dolutech/patch-manual-CVE-2025-26465-e-CVE-2025-26466.svg)
 
@@ -182,6 +189,13 @@ Mitigation: You can easily work around this in your Camel applications by remov
 
 - [https://github.com/A17-ba/CVE-2025-26202-Details](https://github.com/A17-ba/CVE-2025-26202-Details) :  ![starts](https://img.shields.io/github/stars/A17-ba/CVE-2025-26202-Details.svg) ![forks](https://img.shields.io/github/forks/A17-ba/CVE-2025-26202-Details.svg)
 
+## CVE-2025-26125
+ An exposed ioctl in the IMFForceDelete driver of IObit Malware Fighter v12.1.0 allows attackers to arbitrarily delete files and escalate privileges.
+
+
+
+- [https://github.com/ZeroMemoryEx/CVE-2025-26125](https://github.com/ZeroMemoryEx/CVE-2025-26125) :  ![starts](https://img.shields.io/github/stars/ZeroMemoryEx/CVE-2025-26125.svg) ![forks](https://img.shields.io/github/forks/ZeroMemoryEx/CVE-2025-26125.svg)
+
 ## CVE-2025-25968
  DDSN Interactive cm3 Acora CMS version 10.1.1 contains an improper access control vulnerability. An editor-privileged user can access sensitive information, such as system administrator credentials, by force browsing the endpoint and exploiting the 'file' parameter. By referencing specific files (e.g., cm3.xml), attackers can bypass access controls, leading to account takeover and potential privilege escalation.
 
@@ -195,6 +209,13 @@ Mitigation: You can easily work around this in your Camel applications by remov
 
 
 - [https://github.com/padayali-JD/CVE-2025-25967](https://github.com/padayali-JD/CVE-2025-25967) :  ![starts](https://img.shields.io/github/stars/padayali-JD/CVE-2025-25967.svg) ![forks](https://img.shields.io/github/forks/padayali-JD/CVE-2025-25967.svg)
+
+## CVE-2025-25763
+ crmeb CRMEB-KY v5.4.0 and before has a SQL Injection vulnerability at getRead() in /system/SystemDatabackupServices.php
+
+
+
+- [https://github.com/Oyst3r1ng/CVE-2025-25763](https://github.com/Oyst3r1ng/CVE-2025-25763) :  ![starts](https://img.shields.io/github/stars/Oyst3r1ng/CVE-2025-25763.svg) ![forks](https://img.shields.io/github/forks/Oyst3r1ng/CVE-2025-25763.svg)
 
 ## CVE-2025-25749
  An issue in HotelDruid version 3.0.7 and earlier allows users to set weak passwords due to the lack of enforcement of password strength policies.
@@ -217,12 +238,33 @@ Mitigation: You can easily work around this in your Camel applications by remov
 
 - [https://github.com/huyvo2910/CVE-2025-25747-HotelDruid-3-0-7-Reflected-XSS](https://github.com/huyvo2910/CVE-2025-25747-HotelDruid-3-0-7-Reflected-XSS) :  ![starts](https://img.shields.io/github/stars/huyvo2910/CVE-2025-25747-HotelDruid-3-0-7-Reflected-XSS.svg) ![forks](https://img.shields.io/github/forks/huyvo2910/CVE-2025-25747-HotelDruid-3-0-7-Reflected-XSS.svg)
 
+## CVE-2025-25650
+ An issue in the storage of NFC card data in Dorset DG 201 Digital Lock H5_433WBSK_v2.2_220605 allows attackers to produce cloned NFC cards to bypass authentication.
+
+
+
+- [https://github.com/AbhijithAJ/Dorset_SmartLock_Vulnerability](https://github.com/AbhijithAJ/Dorset_SmartLock_Vulnerability) :  ![starts](https://img.shields.io/github/stars/AbhijithAJ/Dorset_SmartLock_Vulnerability.svg) ![forks](https://img.shields.io/github/forks/AbhijithAJ/Dorset_SmartLock_Vulnerability.svg)
+
+## CVE-2025-25621
+ Unifiedtransform 2.0 is vulnerable to Incorrect Access Control, which allows teachers to take attendance of fellow teachers. This affected endpoint is /courses/teacher/index?teacher_id=2&semester_id=1.
+
+
+
+- [https://github.com/armaansidana2003/CVE-2025-25621](https://github.com/armaansidana2003/CVE-2025-25621) :  ![starts](https://img.shields.io/github/stars/armaansidana2003/CVE-2025-25621.svg) ![forks](https://img.shields.io/github/forks/armaansidana2003/CVE-2025-25621.svg)
+
 ## CVE-2025-25620
  Unifiedtransform 2.0 is vulnerable to Cross Site Scripting (XSS) in the Create assignment function.
 
 
 
 - [https://github.com/armaansidana2003/CVE-2025-25620](https://github.com/armaansidana2003/CVE-2025-25620) :  ![starts](https://img.shields.io/github/stars/armaansidana2003/CVE-2025-25620.svg) ![forks](https://img.shields.io/github/forks/armaansidana2003/CVE-2025-25620.svg)
+
+## CVE-2025-25618
+ Incorrect Access Control in Unifiedtransform 2.0 leads to Privilege Escalation allowing the change of Section Name and Room Number by Teachers.
+
+
+
+- [https://github.com/armaansidana2003/CVE-2025-25618](https://github.com/armaansidana2003/CVE-2025-25618) :  ![starts](https://img.shields.io/github/stars/armaansidana2003/CVE-2025-25618.svg) ![forks](https://img.shields.io/github/forks/armaansidana2003/CVE-2025-25618.svg)
 
 ## CVE-2025-25617
  Incorrect Access Control in Unifiedtransform 2.X leads to Privilege Escalation allowing teachers to create syllabus.
@@ -251,6 +293,13 @@ Mitigation: You can easily work around this in your Camel applications by remov
 
 
 - [https://github.com/armaansidana2003/CVE-2025-25614](https://github.com/armaansidana2003/CVE-2025-25614) :  ![starts](https://img.shields.io/github/stars/armaansidana2003/CVE-2025-25614.svg) ![forks](https://img.shields.io/github/forks/armaansidana2003/CVE-2025-25614.svg)
+
+## CVE-2025-25612
+ FS Inc S3150-8T2F prior to version S3150-8T2F_2.2.0D_135103 is vulnerable to Cross Site Scripting (XSS) in the Time Range Configuration functionality of the administration interface. An attacker can inject malicious JavaScript into the "Time Range Name" field, which is improperly sanitized. When this input is saved, it is later executed in the browser of any user accessing the affected page, including administrators, resulting in arbitrary script execution in the user's browser.
+
+
+
+- [https://github.com/secmuzz/CVE-2025-25612](https://github.com/secmuzz/CVE-2025-25612) :  ![starts](https://img.shields.io/github/stars/secmuzz/CVE-2025-25612.svg) ![forks](https://img.shields.io/github/forks/secmuzz/CVE-2025-25612.svg)
 
 ## CVE-2025-25461
  A Stored Cross-Site Scripting (XSS) vulnerability exists in SeedDMS 6.0.29. A user or rogue admin with the "Add Category" permission can inject a malicious XSS payload into the category name field. When a document is subsequently associated with this category, the payload is stored on the server and rendered without proper sanitization or output encoding. This results in the XSS payload executing in the browser of any user who views the document.
@@ -346,17 +395,21 @@ Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.98, which fix
 
 
 
-- [https://github.com/iSee857/CVE-2025-24813-PoC](https://github.com/iSee857/CVE-2025-24813-PoC) :  ![starts](https://img.shields.io/github/stars/iSee857/CVE-2025-24813-PoC.svg) ![forks](https://img.shields.io/github/forks/iSee857/CVE-2025-24813-PoC.svg)
-
 - [https://github.com/absholi7ly/POC-CVE-2025-24813](https://github.com/absholi7ly/POC-CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/absholi7ly/POC-CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/absholi7ly/POC-CVE-2025-24813.svg)
+
+- [https://github.com/iSee857/CVE-2025-24813-PoC](https://github.com/iSee857/CVE-2025-24813-PoC) :  ![starts](https://img.shields.io/github/stars/iSee857/CVE-2025-24813-PoC.svg) ![forks](https://img.shields.io/github/forks/iSee857/CVE-2025-24813-PoC.svg)
 
 - [https://github.com/FY036/cve-2025-24813_poc](https://github.com/FY036/cve-2025-24813_poc) :  ![starts](https://img.shields.io/github/stars/FY036/cve-2025-24813_poc.svg) ![forks](https://img.shields.io/github/forks/FY036/cve-2025-24813_poc.svg)
 
-- [https://github.com/charis3306/CVE-2025-24813](https://github.com/charis3306/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/charis3306/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/charis3306/CVE-2025-24813.svg)
-
 - [https://github.com/N0c1or/CVE-2025-24813_POC](https://github.com/N0c1or/CVE-2025-24813_POC) :  ![starts](https://img.shields.io/github/stars/N0c1or/CVE-2025-24813_POC.svg) ![forks](https://img.shields.io/github/forks/N0c1or/CVE-2025-24813_POC.svg)
 
+- [https://github.com/charis3306/CVE-2025-24813](https://github.com/charis3306/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/charis3306/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/charis3306/CVE-2025-24813.svg)
+
 - [https://github.com/gregk4sec/CVE-2025-24813](https://github.com/gregk4sec/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/gregk4sec/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/gregk4sec/CVE-2025-24813.svg)
+
+- [https://github.com/imbas007/CVE-2025-24813-apache-tomcat](https://github.com/imbas007/CVE-2025-24813-apache-tomcat) :  ![starts](https://img.shields.io/github/stars/imbas007/CVE-2025-24813-apache-tomcat.svg) ![forks](https://img.shields.io/github/forks/imbas007/CVE-2025-24813-apache-tomcat.svg)
+
+- [https://github.com/issamjr/CVE-2025-24813-Scanner](https://github.com/issamjr/CVE-2025-24813-Scanner) :  ![starts](https://img.shields.io/github/stars/issamjr/CVE-2025-24813-Scanner.svg) ![forks](https://img.shields.io/github/forks/issamjr/CVE-2025-24813-Scanner.svg)
 
 ## CVE-2025-24659
  Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WordPress Download Manager Premium Packages allows Blind SQL Injection. This issue affects Premium Packages: from n/a through 5.9.6.
@@ -614,19 +667,10 @@ The specific flaw exists within the Hub Local API service, which listens on TCP 
 
 - [https://github.com/Nxploited/CVE-2025-1639](https://github.com/Nxploited/CVE-2025-1639) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-1639.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-1639.svg)
 
-## CVE-2025-1316
- Edimax IC-7100 does not properly neutralize requests. An attacker can create specially crafted requests to achieve remote code execution on the device
-
-
-
-- [https://github.com/Rimasue/CVE-2025-1316](https://github.com/Rimasue/CVE-2025-1316) :  ![starts](https://img.shields.io/github/stars/Rimasue/CVE-2025-1316.svg) ![forks](https://img.shields.io/github/forks/Rimasue/CVE-2025-1316.svg)
-
 ## CVE-2025-1307
  The Newscrunch theme for WordPress is vulnerable to arbitrary file uploads due to a missing capability check in the newscrunch_install_and_activate_plugin() function in all versions up to, and including, 1.8.4.1. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
 
 
-
-- [https://github.com/McTavishSue/CVE-2025-1307](https://github.com/McTavishSue/CVE-2025-1307) :  ![starts](https://img.shields.io/github/stars/McTavishSue/CVE-2025-1307.svg) ![forks](https://img.shields.io/github/forks/McTavishSue/CVE-2025-1307.svg)
 
 - [https://github.com/Nxploited/CVE-2025-1307](https://github.com/Nxploited/CVE-2025-1307) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-1307.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-1307.svg)
 
@@ -698,8 +742,6 @@ The specific flaw exists within the handling of archived files. When extracting 
 
 - [https://github.com/dpextreme/7-Zip-CVE-2025-0411-POC](https://github.com/dpextreme/7-Zip-CVE-2025-0411-POC) :  ![starts](https://img.shields.io/github/stars/dpextreme/7-Zip-CVE-2025-0411-POC.svg) ![forks](https://img.shields.io/github/forks/dpextreme/7-Zip-CVE-2025-0411-POC.svg)
 
-- [https://github.com/SalehAlgnay/7-Zip-CVE-2025-0411-POC](https://github.com/SalehAlgnay/7-Zip-CVE-2025-0411-POC) :  ![starts](https://img.shields.io/github/stars/SalehAlgnay/7-Zip-CVE-2025-0411-POC.svg) ![forks](https://img.shields.io/github/forks/SalehAlgnay/7-Zip-CVE-2025-0411-POC.svg)
-
 - [https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC](https://github.com/ishwardeepp/CVE-2025-0411-MoTW-PoC) :  ![starts](https://img.shields.io/github/stars/ishwardeepp/CVE-2025-0411-MoTW-PoC.svg) ![forks](https://img.shields.io/github/forks/ishwardeepp/CVE-2025-0411-MoTW-PoC.svg)
 
 ## CVE-2025-0364
@@ -722,6 +764,8 @@ The specific flaw exists within the handling of archived files. When extracting 
 
 - [https://github.com/AnonStorks/CVE-2025-0282-Full-version](https://github.com/AnonStorks/CVE-2025-0282-Full-version) :  ![starts](https://img.shields.io/github/stars/AnonStorks/CVE-2025-0282-Full-version.svg) ![forks](https://img.shields.io/github/forks/AnonStorks/CVE-2025-0282-Full-version.svg)
 
+- [https://github.com/punitdarji/Ivanti-CVE-2025-0282](https://github.com/punitdarji/Ivanti-CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/punitdarji/Ivanti-CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/punitdarji/Ivanti-CVE-2025-0282.svg)
+
 - [https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser](https://github.com/Hexastrike/Ivanti-Connect-Secure-Logs-Parser) :  ![starts](https://img.shields.io/github/stars/Hexastrike/Ivanti-Connect-Secure-Logs-Parser.svg) ![forks](https://img.shields.io/github/forks/Hexastrike/Ivanti-Connect-Secure-Logs-Parser.svg)
 
 - [https://github.com/AdaniKamal/CVE-2025-0282](https://github.com/AdaniKamal/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/AdaniKamal/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/AdaniKamal/CVE-2025-0282.svg)
@@ -731,8 +775,6 @@ The specific flaw exists within the handling of archived files. When extracting 
 - [https://github.com/44xo/CVE-2025-0282](https://github.com/44xo/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/44xo/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/44xo/CVE-2025-0282.svg)
 
 - [https://github.com/almanatra/CVE-2025-0282](https://github.com/almanatra/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/almanatra/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/almanatra/CVE-2025-0282.svg)
-
-- [https://github.com/punitdarji/Ivanti-CVE-2025-0282](https://github.com/punitdarji/Ivanti-CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/punitdarji/Ivanti-CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/punitdarji/Ivanti-CVE-2025-0282.svg)
 
 ## CVE-2025-0108
  An authentication bypass in the Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to bypass the authentication otherwise required by the PAN-OS management web interface and invoke certain PHP scripts. While invoking these PHP scripts does not enable remote code execution, it can negatively impact integrity and confidentiality of PAN-OS.
