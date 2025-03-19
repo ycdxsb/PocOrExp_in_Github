@@ -3,7 +3,16 @@
 
 
 
+- [https://github.com/Checkmarx/Checkmarx-CVE-2025-30066-Detection-Tool](https://github.com/Checkmarx/Checkmarx-CVE-2025-30066-Detection-Tool) :  ![starts](https://img.shields.io/github/stars/Checkmarx/Checkmarx-CVE-2025-30066-Detection-Tool.svg) ![forks](https://img.shields.io/github/forks/Checkmarx/Checkmarx-CVE-2025-30066-Detection-Tool.svg)
+
 - [https://github.com/OS-pedrogustavobilro/test-changed-files](https://github.com/OS-pedrogustavobilro/test-changed-files) :  ![starts](https://img.shields.io/github/stars/OS-pedrogustavobilro/test-changed-files.svg) ![forks](https://img.shields.io/github/forks/OS-pedrogustavobilro/test-changed-files.svg)
+
+## CVE-2025-29384
+ In Tenda AC9 v1.0 V15.03.05.14_multi, the wanMTU parameter of /goform/AdvSetMacMtuWan has a stack overflow vulnerability, which can lead to remote arbitrary code execution.
+
+
+
+- [https://github.com/Otsmane-Ahmed/cve-2025-29384-poc](https://github.com/Otsmane-Ahmed/cve-2025-29384-poc) :  ![starts](https://img.shields.io/github/stars/Otsmane-Ahmed/cve-2025-29384-poc.svg) ![forks](https://img.shields.io/github/forks/Otsmane-Ahmed/cve-2025-29384-poc.svg)
 
 ## CVE-2025-28915
  Unrestricted Upload of File with Dangerous Type vulnerability in Theme Egg ThemeEgg ToolKit allows Upload a Web Shell to a Web Server. This issue affects ThemeEgg ToolKit: from n/a through 1.2.9.
@@ -108,6 +117,13 @@ Mitigation: You can easily work around this in your Camel applications by remov
 
 
 - [https://github.com/Barsug/msgspec-python313-pre](https://github.com/Barsug/msgspec-python313-pre) :  ![starts](https://img.shields.io/github/stars/Barsug/msgspec-python313-pre.svg) ![forks](https://img.shields.io/github/forks/Barsug/msgspec-python313-pre.svg)
+
+## CVE-2025-27410
+ PwnDoc is a penetration test reporting application. Prior to version 1.2.0, the backup restore functionality is vulnerable to path traversal in the TAR entry's name, allowing an attacker to overwrite any file on the system with their content. By overwriting an included `.js` file and restarting the container, this allows for Remote Code Execution as an administrator. The remote code execution occurs because any user with the `backups:create` and `backups:update` (only administrators by default) is able to overwrite any file on the system. Version 1.2.0 fixes the issue.
+
+
+
+- [https://github.com/shreyas-malhotra/CVE-2025-27410](https://github.com/shreyas-malhotra/CVE-2025-27410) :  ![starts](https://img.shields.io/github/stars/shreyas-malhotra/CVE-2025-27410.svg) ![forks](https://img.shields.io/github/forks/shreyas-malhotra/CVE-2025-27410.svg)
 
 ## CVE-2025-26794
  Exim 4.98 before 4.98.1, when SQLite hints and ETRN serialization are used, allows remote SQL injection.
@@ -391,7 +407,7 @@ If all of the following were true, a malicious user was able to       perform re
 - application was using Tomcat's file based session persistence with the default storage location
 - application included a library that may be leveraged in a deserialization attack
 
-Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.98, which fixes the issue.
+Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
 
 
 
@@ -401,15 +417,19 @@ Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.98, which fix
 
 - [https://github.com/FY036/cve-2025-24813_poc](https://github.com/FY036/cve-2025-24813_poc) :  ![starts](https://img.shields.io/github/stars/FY036/cve-2025-24813_poc.svg) ![forks](https://img.shields.io/github/forks/FY036/cve-2025-24813_poc.svg)
 
-- [https://github.com/N0c1or/CVE-2025-24813_POC](https://github.com/N0c1or/CVE-2025-24813_POC) :  ![starts](https://img.shields.io/github/stars/N0c1or/CVE-2025-24813_POC.svg) ![forks](https://img.shields.io/github/forks/N0c1or/CVE-2025-24813_POC.svg)
-
 - [https://github.com/charis3306/CVE-2025-24813](https://github.com/charis3306/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/charis3306/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/charis3306/CVE-2025-24813.svg)
 
-- [https://github.com/gregk4sec/CVE-2025-24813](https://github.com/gregk4sec/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/gregk4sec/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/gregk4sec/CVE-2025-24813.svg)
+- [https://github.com/N0c1or/CVE-2025-24813_POC](https://github.com/N0c1or/CVE-2025-24813_POC) :  ![starts](https://img.shields.io/github/stars/N0c1or/CVE-2025-24813_POC.svg) ![forks](https://img.shields.io/github/forks/N0c1or/CVE-2025-24813_POC.svg)
+
+- [https://github.com/naikordian/CVE-2025-24813](https://github.com/naikordian/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/naikordian/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/naikordian/CVE-2025-24813.svg)
+
+- [https://github.com/msadeghkarimi/CVE-2025-24813-Exploit](https://github.com/msadeghkarimi/CVE-2025-24813-Exploit) :  ![starts](https://img.shields.io/github/stars/msadeghkarimi/CVE-2025-24813-Exploit.svg) ![forks](https://img.shields.io/github/forks/msadeghkarimi/CVE-2025-24813-Exploit.svg)
+
+- [https://github.com/issamjr/CVE-2025-24813-Scanner](https://github.com/issamjr/CVE-2025-24813-Scanner) :  ![starts](https://img.shields.io/github/stars/issamjr/CVE-2025-24813-Scanner.svg) ![forks](https://img.shields.io/github/forks/issamjr/CVE-2025-24813-Scanner.svg)
 
 - [https://github.com/imbas007/CVE-2025-24813-apache-tomcat](https://github.com/imbas007/CVE-2025-24813-apache-tomcat) :  ![starts](https://img.shields.io/github/stars/imbas007/CVE-2025-24813-apache-tomcat.svg) ![forks](https://img.shields.io/github/forks/imbas007/CVE-2025-24813-apache-tomcat.svg)
 
-- [https://github.com/issamjr/CVE-2025-24813-Scanner](https://github.com/issamjr/CVE-2025-24813-Scanner) :  ![starts](https://img.shields.io/github/stars/issamjr/CVE-2025-24813-Scanner.svg) ![forks](https://img.shields.io/github/forks/issamjr/CVE-2025-24813-Scanner.svg)
+- [https://github.com/gregk4sec/CVE-2025-24813](https://github.com/gregk4sec/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/gregk4sec/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/gregk4sec/CVE-2025-24813.svg)
 
 ## CVE-2025-24659
  Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WordPress Download Manager Premium Packages allows Blind SQL Injection. This issue affects Premium Packages: from n/a through 5.9.6.
@@ -454,6 +474,15 @@ Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.98, which fix
 
 
 - [https://github.com/bronsoneaver/CVE-2025-24085](https://github.com/bronsoneaver/CVE-2025-24085) :  ![starts](https://img.shields.io/github/stars/bronsoneaver/CVE-2025-24085.svg) ![forks](https://img.shields.io/github/forks/bronsoneaver/CVE-2025-24085.svg)
+
+## CVE-2025-24071
+ Exposure of sensitive information to an unauthorized actor in Windows File Explorer allows an unauthorized attacker to perform spoofing over a network.
+
+
+
+- [https://github.com/0x6rss/CVE-2025-24071_PoC](https://github.com/0x6rss/CVE-2025-24071_PoC) :  ![starts](https://img.shields.io/github/stars/0x6rss/CVE-2025-24071_PoC.svg) ![forks](https://img.shields.io/github/forks/0x6rss/CVE-2025-24071_PoC.svg)
+
+- [https://github.com/FOLKS-iwd/CVE-2025-24071-msfvenom](https://github.com/FOLKS-iwd/CVE-2025-24071-msfvenom) :  ![starts](https://img.shields.io/github/stars/FOLKS-iwd/CVE-2025-24071-msfvenom.svg) ![forks](https://img.shields.io/github/forks/FOLKS-iwd/CVE-2025-24071-msfvenom.svg)
 
 ## CVE-2025-24016
  Wazuh is a free and open source platform used for threat prevention, detection, and response. Starting in version 4.4.0 and prior to version 4.9.1, an unsafe deserialization vulnerability allows for remote code execution on Wazuh servers. DistributedAPI parameters are a serialized as JSON and deserialized using `as_wazuh_object` (in `framework/wazuh/core/cluster/common.py`). If an attacker manages to inject an unsanitized dictionary in DAPI request/response, they can forge an unhandled exception (`__unhandled_exc__`) to evaluate arbitrary python code. The vulnerability can be triggered by anybody with API access (compromised dashboard or Wazuh servers in the cluster) or, in certain configurations, even by a compromised agent. Version 4.9.1 contains a fix.
@@ -591,6 +620,10 @@ CloudStack admins may also disallow listAnnotations and addAnnotation API access
 
 - [https://github.com/MrAle98/CVE-2025-21333-POC](https://github.com/MrAle98/CVE-2025-21333-POC) :  ![starts](https://img.shields.io/github/stars/MrAle98/CVE-2025-21333-POC.svg) ![forks](https://img.shields.io/github/forks/MrAle98/CVE-2025-21333-POC.svg)
 
+- [https://github.com/160102/CVE-2025-21333-POC](https://github.com/160102/CVE-2025-21333-POC) :  ![starts](https://img.shields.io/github/stars/160102/CVE-2025-21333-POC.svg) ![forks](https://img.shields.io/github/forks/160102/CVE-2025-21333-POC.svg)
+
+- [https://github.com/SerabiLem/CVE-2025-21333-POC](https://github.com/SerabiLem/CVE-2025-21333-POC) :  ![starts](https://img.shields.io/github/stars/SerabiLem/CVE-2025-21333-POC.svg) ![forks](https://img.shields.io/github/forks/SerabiLem/CVE-2025-21333-POC.svg)
+
 - [https://github.com/aleongx/KQL_sentinel_CVE-2025-21333](https://github.com/aleongx/KQL_sentinel_CVE-2025-21333) :  ![starts](https://img.shields.io/github/stars/aleongx/KQL_sentinel_CVE-2025-21333.svg) ![forks](https://img.shields.io/github/forks/aleongx/KQL_sentinel_CVE-2025-21333.svg)
 
 - [https://github.com/Mukesh-blend/CVE-2025-21333-POC](https://github.com/Mukesh-blend/CVE-2025-21333-POC) :  ![starts](https://img.shields.io/github/stars/Mukesh-blend/CVE-2025-21333-POC.svg) ![forks](https://img.shields.io/github/forks/Mukesh-blend/CVE-2025-21333-POC.svg)
@@ -659,6 +692,8 @@ The specific flaw exists within the Hub Local API service, which listens on TCP 
 
 
 - [https://github.com/gbrsh/CVE-2025-1661](https://github.com/gbrsh/CVE-2025-1661) :  ![starts](https://img.shields.io/github/stars/gbrsh/CVE-2025-1661.svg) ![forks](https://img.shields.io/github/forks/gbrsh/CVE-2025-1661.svg)
+
+- [https://github.com/MuhammadWaseem29/CVE-2025-1661](https://github.com/MuhammadWaseem29/CVE-2025-1661) :  ![starts](https://img.shields.io/github/stars/MuhammadWaseem29/CVE-2025-1661.svg) ![forks](https://img.shields.io/github/forks/MuhammadWaseem29/CVE-2025-1661.svg)
 
 ## CVE-2025-1639
  The Animation Addons for Elementor Pro plugin for WordPress is vulnerable to unauthorized arbitrary plugin installation due to a missing capability check on the install_elementor_plugin_handler() function in all versions up to, and including, 1.6. This makes it possible for authenticated attackers, with Subscriber-level access and above, to install and activate arbitrary plugins which can be leveraged to further infect a victim when Elementor is not activated on a vulnerable site.
