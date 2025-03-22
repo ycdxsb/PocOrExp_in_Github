@@ -1,80 +1,62 @@
-# Update 2025-03-21
+# Update 2025-03-22
 ## CVE-2025-24813
 Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
 
-- [https://github.com/ps-interactive/lab-cve-2025-24813](https://github.com/ps-interactive/lab-cve-2025-24813) :  ![starts](https://img.shields.io/github/stars/ps-interactive/lab-cve-2025-24813.svg) ![forks](https://img.shields.io/github/forks/ps-interactive/lab-cve-2025-24813.svg)
-- [https://github.com/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813](https://github.com/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813.svg)
+- [https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813](https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813.svg)
 
 
-## CVE-2025-24071
- Exposure of sensitive information to an unauthorized actor in Windows File Explorer allows an unauthorized attacker to perform spoofing over a network.
+## CVE-2025-2476
+ Use after free in Lens in Google Chrome prior to 134.0.6998.117 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)
 
-- [https://github.com/ctabango/CVE-2025-24071_PoCExtra](https://github.com/ctabango/CVE-2025-24071_PoCExtra) :  ![starts](https://img.shields.io/github/stars/ctabango/CVE-2025-24071_PoCExtra.svg) ![forks](https://img.shields.io/github/forks/ctabango/CVE-2025-24071_PoCExtra.svg)
-- [https://github.com/aleongx/CVE-2025-24071](https://github.com/aleongx/CVE-2025-24071) :  ![starts](https://img.shields.io/github/stars/aleongx/CVE-2025-24071.svg) ![forks](https://img.shields.io/github/forks/aleongx/CVE-2025-24071.svg)
-
-
-## CVE-2025-22954
- GetLateOrMissingIssues in C4/Serials.pm in Koha before 24.11.02 allows SQL Injection in /serials/lateissues-export.pl via the supplierid or serialid parameter.
-
-- [https://github.com/RandomRobbieBF/CVE-2025-22954](https://github.com/RandomRobbieBF/CVE-2025-22954) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2025-22954.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2025-22954.svg)
+- [https://github.com/McTavishSue/CVE-2025-2476](https://github.com/McTavishSue/CVE-2025-2476) :  ![starts](https://img.shields.io/github/stars/McTavishSue/CVE-2025-2476.svg) ![forks](https://img.shields.io/github/forks/McTavishSue/CVE-2025-2476.svg)
 
 
-## CVE-2025-2536
- Cross-site scripting (XSS) vulnerability on Liferay Portal 7.4.3.82 through 7.4.3.128, and Liferay DXP 2024.Q3.0, 2024.Q2.0 through 2024.Q2.13, 2024.Q1.1 through 2024.Q1.12, 2023.Q4.0 through 2023.Q4.10, 2023.Q3.1 through 2023.Q3.10, 7.4 update 82 through update 92 in the Frontend JS module's layout-taglib/__liferay__/index.js allows remote attackers to inject arbitrary web script or HTML via toastData parameter
+## CVE-2024-48591
+ Inflectra SpiraTeam 7.2.00 is vulnerable to Cross Site Scripting (XSS). A specially crafted SVG file can be uploaded that will render and execute JavaScript upon direct viewing.
 
-- [https://github.com/lkasjkasj/CVE-2025-25369](https://github.com/lkasjkasj/CVE-2025-25369) :  ![starts](https://img.shields.io/github/stars/lkasjkasj/CVE-2025-25369.svg) ![forks](https://img.shields.io/github/forks/lkasjkasj/CVE-2025-25369.svg)
-
-
-## CVE-2024-45872
- Bandisoft BandiView 7.05 is vulnerable to Buffer Overflow via sub_0x410d1d. The vulnerability occurs due to insufficient validation of PSD files.
-
-- [https://github.com/bshyuunn/bandiview-7.05-vuln-PoC](https://github.com/bshyuunn/bandiview-7.05-vuln-PoC) :  ![starts](https://img.shields.io/github/stars/bshyuunn/bandiview-7.05-vuln-PoC.svg) ![forks](https://img.shields.io/github/forks/bshyuunn/bandiview-7.05-vuln-PoC.svg)
+- [https://github.com/GCatt-AS/CVE-2024-48591](https://github.com/GCatt-AS/CVE-2024-48591) :  ![starts](https://img.shields.io/github/stars/GCatt-AS/CVE-2024-48591.svg) ![forks](https://img.shields.io/github/forks/GCatt-AS/CVE-2024-48591.svg)
 
 
-## CVE-2024-45871
- Bandisoft BandiView 7.05 is Incorrect Access Control via sub_0x232bd8 resulting in denial of service (DOS).
+## CVE-2024-48590
+ Inflectra SpiraTeam 7.2.00 is vulnerable to Server-Side Request Forgery (SSRF) via the NewsReaderService. This allows an attacker to escalate privileges and obtain sensitive information.
 
-- [https://github.com/bshyuunn/bandiview-7.05-vuln-PoC](https://github.com/bshyuunn/bandiview-7.05-vuln-PoC) :  ![starts](https://img.shields.io/github/stars/bshyuunn/bandiview-7.05-vuln-PoC.svg) ![forks](https://img.shields.io/github/forks/bshyuunn/bandiview-7.05-vuln-PoC.svg)
-
-
-## CVE-2024-45870
- Bandisoft BandiView 7.05 is vulnerable to Incorrect Access Control in sub_0x3d80fc via a crafted POC file.
-
-- [https://github.com/bshyuunn/bandiview-7.05-vuln-PoC](https://github.com/bshyuunn/bandiview-7.05-vuln-PoC) :  ![starts](https://img.shields.io/github/stars/bshyuunn/bandiview-7.05-vuln-PoC.svg) ![forks](https://img.shields.io/github/forks/bshyuunn/bandiview-7.05-vuln-PoC.svg)
+- [https://github.com/GCatt-AS/CVE-2024-48590](https://github.com/GCatt-AS/CVE-2024-48590) :  ![starts](https://img.shields.io/github/stars/GCatt-AS/CVE-2024-48590.svg) ![forks](https://img.shields.io/github/forks/GCatt-AS/CVE-2024-48590.svg)
 
 
-## CVE-2024-44313
- TastyIgniter 3.7.6 contains an Incorrect Access Control vulnerability in the invoice() function within Orders.php which allows unauthorized users to access and generate invoices due to missing permission checks.
+## CVE-2024-46981
+ Redis is an open source, in-memory database that persists on disk. An authenticated user may use a specially crafted Lua script to manipulate the garbage collector and potentially lead to remote code execution. The problem is fixed in 7.4.2, 7.2.7, and 6.2.17. An additional workaround to mitigate the problem without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.
 
-- [https://github.com/cnetsec/CVE-2024-44313](https://github.com/cnetsec/CVE-2024-44313) :  ![starts](https://img.shields.io/github/stars/cnetsec/CVE-2024-44313.svg) ![forks](https://img.shields.io/github/forks/cnetsec/CVE-2024-44313.svg)
-
-
-## CVE-2024-41817
- ImageMagick is a free and open-source software suite, used for editing and manipulating digital images. The `AppImage` version `ImageMagick` might use an empty path when setting `MAGICK_CONFIGURE_PATH` and `LD_LIBRARY_PATH` environment variables while executing, which might lead to arbitrary code execution by loading malicious configuration files or shared libraries in the current working directory while executing `ImageMagick`. The vulnerability is fixed in 7.11-36.
-
-- [https://github.com/Dxsk/CVE-2024-41817-poc](https://github.com/Dxsk/CVE-2024-41817-poc) :  ![starts](https://img.shields.io/github/stars/Dxsk/CVE-2024-41817-poc.svg) ![forks](https://img.shields.io/github/forks/Dxsk/CVE-2024-41817-poc.svg)
+- [https://github.com/publicqi/CVE-2024-46981](https://github.com/publicqi/CVE-2024-46981) :  ![starts](https://img.shields.io/github/stars/publicqi/CVE-2024-46981.svg) ![forks](https://img.shields.io/github/forks/publicqi/CVE-2024-46981.svg)
 
 
-## CVE-2024-30078
- Windows Wi-Fi Driver Remote Code Execution Vulnerability
+## CVE-2024-32962
+ xml-crypto is an xml digital signature and encryption library for Node.js. In affected versions the default configuration does not check authorization of the signer, it only checks the validity of the signature per section 3.2.2 of the w3 xmldsig-core-20080610 spec. As such, without additional validation steps, the default configuration allows a malicious actor to re-sign an XML document, place the certificate in a `KeyInfo /` element, and pass `xml-crypto` default validation checks. As a result `xml-crypto` trusts by default any certificate provided via digitally signed XML document's `KeyInfo /`. `xml-crypto` prefers to use any certificate provided via digitally signed XML document's `KeyInfo /` even if library was configured to use specific certificate (`publicCert`) for signature verification purposes.  An attacker can spoof signature verification by modifying XML document and replacing existing signature with signature generated with malicious private key (created by attacker) and by attaching that private key's certificate to `KeyInfo /` element. This vulnerability is combination of changes introduced to `4.0.0` on pull request 301 / commit `c2b83f98` and has been addressed in version 6.0.0 with pull request 445 / commit `21201723d`. Users are advised to upgrade. Users unable to upgrade may either check the certificate extracted via `getCertFromKeyInfo` against trusted certificates before accepting the results of the validation or set `xml-crypto's getCertFromKeyInfo` to `() = undefined` forcing `xml-crypto` to use an explicitly configured `publicCert` or `privateKey` for signature verification.
 
-- [https://github.com/Jailman/CVE_2024_30078_A_POC](https://github.com/Jailman/CVE_2024_30078_A_POC) :  ![starts](https://img.shields.io/github/stars/Jailman/CVE_2024_30078_A_POC.svg) ![forks](https://img.shields.io/github/forks/Jailman/CVE_2024_30078_A_POC.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/javaamo/CVE-2021-41773](https://github.com/javaamo/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/javaamo/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/javaamo/CVE-2021-41773.svg)
+- [https://github.com/absholi7ly/Poc-CVE-2024-32962-xml-crypto](https://github.com/absholi7ly/Poc-CVE-2024-32962-xml-crypto) :  ![starts](https://img.shields.io/github/stars/absholi7ly/Poc-CVE-2024-32962-xml-crypto.svg) ![forks](https://img.shields.io/github/forks/absholi7ly/Poc-CVE-2024-32962-xml-crypto.svg)
 
 
-## CVE-2020-7247
- smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and other products, allows remote attackers to execute arbitrary commands as root via a crafted SMTP session, as demonstrated by shell metacharacters in a MAIL FROM field. This affects the "uncommented" default configuration. The issue exists because of an incorrect return value upon failure of input validation.
+## CVE-2023-45878
+ GibbonEdu Gibbon version 25.0.1 and before allows Arbitrary File Write because rubrics_visualise_saveAjax.phps does not require authentication. The endpoint accepts the img, path, and gibbonPersonID parameters. The img parameter is expected to be a base64 encoded image. If the path parameter is set, the defined path is used as the destination folder, concatenated with the absolute path of the installation directory. The content of the img parameter is base64 decoded and written to the defined file path. This allows creation of PHP files that permit Remote Code Execution (unauthenticated).
 
-- [https://github.com/minhluannguyen/CVE-2020-7247-reproducer](https://github.com/minhluannguyen/CVE-2020-7247-reproducer) :  ![starts](https://img.shields.io/github/stars/minhluannguyen/CVE-2020-7247-reproducer.svg) ![forks](https://img.shields.io/github/forks/minhluannguyen/CVE-2020-7247-reproducer.svg)
+- [https://github.com/killercd/CVE-2023-45878](https://github.com/killercd/CVE-2023-45878) :  ![starts](https://img.shields.io/github/stars/killercd/CVE-2023-45878.svg) ![forks](https://img.shields.io/github/forks/killercd/CVE-2023-45878.svg)
+- [https://github.com/PaulDHaes/CVE-2023-45878-POC](https://github.com/PaulDHaes/CVE-2023-45878-POC) :  ![starts](https://img.shields.io/github/stars/PaulDHaes/CVE-2023-45878-POC.svg) ![forks](https://img.shields.io/github/forks/PaulDHaes/CVE-2023-45878-POC.svg)
 
 
-## CVE-2016-1000229
- swagger-ui has XSS in key names
+## CVE-2022-38181
+ The Arm Mali GPU kernel driver allows unprivileged users to access freed memory because GPU memory operations are mishandled. This affects Bifrost r0p0 through r38p1, and r39p0; Valhall r19p0 through r38p1, and r39p0; and Midgard r4p0 through r32p0.
 
-- [https://github.com/barteeees/SwaggerUI-CVE-2016-1000229](https://github.com/barteeees/SwaggerUI-CVE-2016-1000229) :  ![starts](https://img.shields.io/github/stars/barteeees/SwaggerUI-CVE-2016-1000229.svg) ![forks](https://img.shields.io/github/forks/barteeees/SwaggerUI-CVE-2016-1000229.svg)
+- [https://github.com/Bariskizilkaya/CVE_2022_38181-Mali-SAMSUNG-S6-Lite-Tablet](https://github.com/Bariskizilkaya/CVE_2022_38181-Mali-SAMSUNG-S6-Lite-Tablet) :  ![starts](https://img.shields.io/github/stars/Bariskizilkaya/CVE_2022_38181-Mali-SAMSUNG-S6-Lite-Tablet.svg) ![forks](https://img.shields.io/github/forks/Bariskizilkaya/CVE_2022_38181-Mali-SAMSUNG-S6-Lite-Tablet.svg)
+
+
+## CVE-2022-30190
+Please see the MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability.
+
+- [https://github.com/JotaQC/CVE-2022-30190_Temporary_Fix](https://github.com/JotaQC/CVE-2022-30190_Temporary_Fix) :  ![starts](https://img.shields.io/github/stars/JotaQC/CVE-2022-30190_Temporary_Fix.svg) ![forks](https://img.shields.io/github/forks/JotaQC/CVE-2022-30190_Temporary_Fix.svg)
+- [https://github.com/JotaQC/CVE-2022-30190_Temporary_Fix_Source_Code](https://github.com/JotaQC/CVE-2022-30190_Temporary_Fix_Source_Code) :  ![starts](https://img.shields.io/github/stars/JotaQC/CVE-2022-30190_Temporary_Fix_Source_Code.svg) ![forks](https://img.shields.io/github/forks/JotaQC/CVE-2022-30190_Temporary_Fix_Source_Code.svg)
+
+
+## CVE-2016-10924
+ The ebook-download plugin before 1.2 for WordPress has directory traversal.
+
+- [https://github.com/808ale/cve-2016-10924-POC](https://github.com/808ale/cve-2016-10924-POC) :  ![starts](https://img.shields.io/github/stars/808ale/cve-2016-10924-POC.svg) ![forks](https://img.shields.io/github/forks/808ale/cve-2016-10924-POC.svg)
 
