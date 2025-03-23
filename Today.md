@@ -1,62 +1,103 @@
-# Update 2025-03-22
+# Update 2025-03-23
+## CVE-2025-30144
+ fast-jwt provides fast JSON Web Token (JWT) implementation. Prior to 5.0.6, the fast-jwt library does not properly validate the iss claim based on the RFC 7519. The iss (issuer) claim validation within the fast-jwt library permits an array of strings as a valid iss value. This design flaw enables a potential attack where a malicious actor crafts a JWT with an iss claim structured as ['https://attacker-domain/', 'https://valid-iss']. Due to the permissive validation, the JWT will be deemed valid. Furthermore, if the application relies on external libraries like get-jwks that do not independently validate the iss claim, the attacker can leverage this vulnerability to forge a JWT that will be accepted by the victim application. Essentially, the attacker can insert their own domain into the iss array, alongside the legitimate issuer, and bypass the intended security checks. This issue is fixed in 5.0.6.
+
+- [https://github.com/tibrn/CVE-2025-30144](https://github.com/tibrn/CVE-2025-30144) :  ![starts](https://img.shields.io/github/stars/tibrn/CVE-2025-30144.svg) ![forks](https://img.shields.io/github/forks/tibrn/CVE-2025-30144.svg)
+
+
+## CVE-2025-29814
+ Improper authorization in Microsoft Partner Center allows an authorized attacker to elevate privileges over a network.
+
+- [https://github.com/SatiresHashi/CVE-2025-29814](https://github.com/SatiresHashi/CVE-2025-29814) :  ![starts](https://img.shields.io/github/stars/SatiresHashi/CVE-2025-29814.svg) ![forks](https://img.shields.io/github/forks/SatiresHashi/CVE-2025-29814.svg)
+
+
 ## CVE-2025-24813
 Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
 
-- [https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813](https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813.svg)
+- [https://github.com/MuhammadWaseem29/CVE-2025-24813](https://github.com/MuhammadWaseem29/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/MuhammadWaseem29/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/MuhammadWaseem29/CVE-2025-24813.svg)
+- [https://github.com/Alaatk/CVE-2025-24813-POC](https://github.com/Alaatk/CVE-2025-24813-POC) :  ![starts](https://img.shields.io/github/stars/Alaatk/CVE-2025-24813-POC.svg) ![forks](https://img.shields.io/github/forks/Alaatk/CVE-2025-24813-POC.svg)
 
 
-## CVE-2025-2476
- Use after free in Lens in Google Chrome prior to 134.0.6998.117 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)
+## CVE-2025-24071
+ Exposure of sensitive information to an unauthorized actor in Windows File Explorer allows an unauthorized attacker to perform spoofing over a network.
 
-- [https://github.com/McTavishSue/CVE-2025-2476](https://github.com/McTavishSue/CVE-2025-2476) :  ![starts](https://img.shields.io/github/stars/McTavishSue/CVE-2025-2476.svg) ![forks](https://img.shields.io/github/forks/McTavishSue/CVE-2025-2476.svg)
-
-
-## CVE-2024-48591
- Inflectra SpiraTeam 7.2.00 is vulnerable to Cross Site Scripting (XSS). A specially crafted SVG file can be uploaded that will render and execute JavaScript upon direct viewing.
-
-- [https://github.com/GCatt-AS/CVE-2024-48591](https://github.com/GCatt-AS/CVE-2024-48591) :  ![starts](https://img.shields.io/github/stars/GCatt-AS/CVE-2024-48591.svg) ![forks](https://img.shields.io/github/forks/GCatt-AS/CVE-2024-48591.svg)
+- [https://github.com/shacojx/CVE-2025-24071-Exploit](https://github.com/shacojx/CVE-2025-24071-Exploit) :  ![starts](https://img.shields.io/github/stars/shacojx/CVE-2025-24071-Exploit.svg) ![forks](https://img.shields.io/github/forks/shacojx/CVE-2025-24071-Exploit.svg)
 
 
-## CVE-2024-48590
- Inflectra SpiraTeam 7.2.00 is vulnerable to Server-Side Request Forgery (SSRF) via the NewsReaderService. This allows an attacker to escalate privileges and obtain sensitive information.
+## CVE-2025-24011
+ Umbraco is a free and open source .NET content management system. Starting in version 14.0.0 and prior to versions 14.3.2 and 15.1.2, it's possible to determine whether an account exists based on an analysis of response codes and timing of Umbraco management API responses. Versions 14.3.2 and 15.1.2 contain a patch. No known workarounds are available.
 
-- [https://github.com/GCatt-AS/CVE-2024-48590](https://github.com/GCatt-AS/CVE-2024-48590) :  ![starts](https://img.shields.io/github/stars/GCatt-AS/CVE-2024-48590.svg) ![forks](https://img.shields.io/github/forks/GCatt-AS/CVE-2024-48590.svg)
+- [https://github.com/Puben/CVE-2025-24011-PoC](https://github.com/Puben/CVE-2025-24011-PoC) :  ![starts](https://img.shields.io/github/stars/Puben/CVE-2025-24011-PoC.svg) ![forks](https://img.shields.io/github/forks/Puben/CVE-2025-24011-PoC.svg)
+
+
+## CVE-2025-23922
+ Cross-Site Request Forgery (CSRF) vulnerability in Harsh iSpring Embedder allows Upload a Web Shell to a Web Server.This issue affects iSpring Embedder: from n/a through 1.0.
+
+- [https://github.com/Nxploited/CVE-2025-23922](https://github.com/Nxploited/CVE-2025-23922) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-23922.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-23922.svg)
+
+
+## CVE-2024-56337
+Tomcat 11.0.3, 10.1.35 and 9.0.99 onwards will include checks that sun.io.useCanonCaches is set appropriately before allowing the default servlet to be write enabled on a case insensitive file system. Tomcat will also set sun.io.useCanonCaches to false by default where it can.
+
+- [https://github.com/carefreegarb/CVE-2024-50379](https://github.com/carefreegarb/CVE-2024-50379) :  ![starts](https://img.shields.io/github/stars/carefreegarb/CVE-2024-50379.svg) ![forks](https://img.shields.io/github/forks/carefreegarb/CVE-2024-50379.svg)
+
+
+## CVE-2024-52375
+ Unrestricted Upload of File with Dangerous Type vulnerability in Arttia Creative Datasets Manager by Arttia Creative.This issue affects Datasets Manager by Arttia Creative: from n/a through 1.5.
+
+- [https://github.com/Nxploited/CVE-2024-52375](https://github.com/Nxploited/CVE-2024-52375) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-52375.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-52375.svg)
+
+
+## CVE-2024-50379
+Users are recommended to upgrade to version 11.0.2, 10.1.34 or 9.0.98, which fixes the issue.
+
+- [https://github.com/carefreegarb/CVE-2024-50379](https://github.com/carefreegarb/CVE-2024-50379) :  ![starts](https://img.shields.io/github/stars/carefreegarb/CVE-2024-50379.svg) ![forks](https://img.shields.io/github/forks/carefreegarb/CVE-2024-50379.svg)
 
 
 ## CVE-2024-46981
  Redis is an open source, in-memory database that persists on disk. An authenticated user may use a specially crafted Lua script to manipulate the garbage collector and potentially lead to remote code execution. The problem is fixed in 7.4.2, 7.2.7, and 6.2.17. An additional workaround to mitigate the problem without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.
 
-- [https://github.com/publicqi/CVE-2024-46981](https://github.com/publicqi/CVE-2024-46981) :  ![starts](https://img.shields.io/github/stars/publicqi/CVE-2024-46981.svg) ![forks](https://img.shields.io/github/forks/publicqi/CVE-2024-46981.svg)
+- [https://github.com/xsshk/CVE-2024-46981](https://github.com/xsshk/CVE-2024-46981) :  ![starts](https://img.shields.io/github/stars/xsshk/CVE-2024-46981.svg) ![forks](https://img.shields.io/github/forks/xsshk/CVE-2024-46981.svg)
 
 
-## CVE-2024-32962
- xml-crypto is an xml digital signature and encryption library for Node.js. In affected versions the default configuration does not check authorization of the signer, it only checks the validity of the signature per section 3.2.2 of the w3 xmldsig-core-20080610 spec. As such, without additional validation steps, the default configuration allows a malicious actor to re-sign an XML document, place the certificate in a `KeyInfo /` element, and pass `xml-crypto` default validation checks. As a result `xml-crypto` trusts by default any certificate provided via digitally signed XML document's `KeyInfo /`. `xml-crypto` prefers to use any certificate provided via digitally signed XML document's `KeyInfo /` even if library was configured to use specific certificate (`publicCert`) for signature verification purposes.  An attacker can spoof signature verification by modifying XML document and replacing existing signature with signature generated with malicious private key (created by attacker) and by attaching that private key's certificate to `KeyInfo /` element. This vulnerability is combination of changes introduced to `4.0.0` on pull request 301 / commit `c2b83f98` and has been addressed in version 6.0.0 with pull request 445 / commit `21201723d`. Users are advised to upgrade. Users unable to upgrade may either check the certificate extracted via `getCertFromKeyInfo` against trusted certificates before accepting the results of the validation or set `xml-crypto's getCertFromKeyInfo` to `() = undefined` forcing `xml-crypto` to use an explicitly configured `publicCert` or `privateKey` for signature verification.
+## CVE-2024-11042
+ In invoke-ai/invokeai version v5.0.2, the web API `POST /api/v1/images/delete` is vulnerable to Arbitrary File Deletion. This vulnerability allows unauthorized attackers to delete arbitrary files on the server, potentially including critical or sensitive system files such as SSH keys, SQLite databases, and configuration files. This can impact the integrity and availability of applications relying on these files.
 
-- [https://github.com/absholi7ly/Poc-CVE-2024-32962-xml-crypto](https://github.com/absholi7ly/Poc-CVE-2024-32962-xml-crypto) :  ![starts](https://img.shields.io/github/stars/absholi7ly/Poc-CVE-2024-32962-xml-crypto.svg) ![forks](https://img.shields.io/github/forks/absholi7ly/Poc-CVE-2024-32962-xml-crypto.svg)
-
-
-## CVE-2023-45878
- GibbonEdu Gibbon version 25.0.1 and before allows Arbitrary File Write because rubrics_visualise_saveAjax.phps does not require authentication. The endpoint accepts the img, path, and gibbonPersonID parameters. The img parameter is expected to be a base64 encoded image. If the path parameter is set, the defined path is used as the destination folder, concatenated with the absolute path of the installation directory. The content of the img parameter is base64 decoded and written to the defined file path. This allows creation of PHP files that permit Remote Code Execution (unauthenticated).
-
-- [https://github.com/killercd/CVE-2023-45878](https://github.com/killercd/CVE-2023-45878) :  ![starts](https://img.shields.io/github/stars/killercd/CVE-2023-45878.svg) ![forks](https://img.shields.io/github/forks/killercd/CVE-2023-45878.svg)
-- [https://github.com/PaulDHaes/CVE-2023-45878-POC](https://github.com/PaulDHaes/CVE-2023-45878-POC) :  ![starts](https://img.shields.io/github/stars/PaulDHaes/CVE-2023-45878-POC.svg) ![forks](https://img.shields.io/github/forks/PaulDHaes/CVE-2023-45878-POC.svg)
+- [https://github.com/gothburz/CVE-2024-11042](https://github.com/gothburz/CVE-2024-11042) :  ![starts](https://img.shields.io/github/stars/gothburz/CVE-2024-11042.svg) ![forks](https://img.shields.io/github/forks/gothburz/CVE-2024-11042.svg)
 
 
-## CVE-2022-38181
- The Arm Mali GPU kernel driver allows unprivileged users to access freed memory because GPU memory operations are mishandled. This affects Bifrost r0p0 through r38p1, and r39p0; Valhall r19p0 through r38p1, and r39p0; and Midgard r4p0 through r32p0.
+## CVE-2024-11040
+ vllm-project vllm version 0.5.2.2 is vulnerable to Denial of Service attacks. The issue occurs in the 'POST /v1/completions' and 'POST /v1/embeddings' endpoints. For 'POST /v1/completions', enabling 'use_beam_search' and setting 'best_of' to a high value causes the HTTP connection to time out, with vllm ceasing effective work and the request remaining in a 'pending' state, blocking new completion requests. For 'POST /v1/embeddings', supplying invalid inputs to the JSON object causes an issue in the background loop, resulting in all further completion requests returning a 500 HTTP error code ('Internal Server Error') until vllm is restarted.
 
-- [https://github.com/Bariskizilkaya/CVE_2022_38181-Mali-SAMSUNG-S6-Lite-Tablet](https://github.com/Bariskizilkaya/CVE_2022_38181-Mali-SAMSUNG-S6-Lite-Tablet) :  ![starts](https://img.shields.io/github/stars/Bariskizilkaya/CVE_2022_38181-Mali-SAMSUNG-S6-Lite-Tablet.svg) ![forks](https://img.shields.io/github/forks/Bariskizilkaya/CVE_2022_38181-Mali-SAMSUNG-S6-Lite-Tablet.svg)
-
-
-## CVE-2022-30190
-Please see the MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability.
-
-- [https://github.com/JotaQC/CVE-2022-30190_Temporary_Fix](https://github.com/JotaQC/CVE-2022-30190_Temporary_Fix) :  ![starts](https://img.shields.io/github/stars/JotaQC/CVE-2022-30190_Temporary_Fix.svg) ![forks](https://img.shields.io/github/forks/JotaQC/CVE-2022-30190_Temporary_Fix.svg)
-- [https://github.com/JotaQC/CVE-2022-30190_Temporary_Fix_Source_Code](https://github.com/JotaQC/CVE-2022-30190_Temporary_Fix_Source_Code) :  ![starts](https://img.shields.io/github/stars/JotaQC/CVE-2022-30190_Temporary_Fix_Source_Code.svg) ![forks](https://img.shields.io/github/forks/JotaQC/CVE-2022-30190_Temporary_Fix_Source_Code.svg)
+- [https://github.com/gothburz/CVE-2024-11040](https://github.com/gothburz/CVE-2024-11040) :  ![starts](https://img.shields.io/github/stars/gothburz/CVE-2024-11040.svg) ![forks](https://img.shields.io/github/forks/gothburz/CVE-2024-11040.svg)
 
 
-## CVE-2016-10924
- The ebook-download plugin before 1.2 for WordPress has directory traversal.
+## CVE-2024-9474
+Cloud NGFW and Prisma Access are not impacted by this vulnerability.
 
-- [https://github.com/808ale/cve-2016-10924-POC](https://github.com/808ale/cve-2016-10924-POC) :  ![starts](https://img.shields.io/github/stars/808ale/cve-2016-10924-POC.svg) ![forks](https://img.shields.io/github/forks/808ale/cve-2016-10924-POC.svg)
+- [https://github.com/experiencedt/CVE-2024-9474](https://github.com/experiencedt/CVE-2024-9474) :  ![starts](https://img.shields.io/github/stars/experiencedt/CVE-2024-9474.svg) ![forks](https://img.shields.io/github/forks/experiencedt/CVE-2024-9474.svg)
+
+
+## CVE-2024-4577
+ In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use "Best-Fit" behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
+
+- [https://github.com/mistakes1337/CVE-2024-4577](https://github.com/mistakes1337/CVE-2024-4577) :  ![starts](https://img.shields.io/github/stars/mistakes1337/CVE-2024-4577.svg) ![forks](https://img.shields.io/github/forks/mistakes1337/CVE-2024-4577.svg)
+
+
+## CVE-2023-21839
+ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+
+- [https://github.com/illegalbrea/CVE-2023-21839](https://github.com/illegalbrea/CVE-2023-21839) :  ![starts](https://img.shields.io/github/stars/illegalbrea/CVE-2023-21839.svg) ![forks](https://img.shields.io/github/forks/illegalbrea/CVE-2023-21839.svg)
+
+
+## CVE-2023-6241
+ Use After Free vulnerability in Arm Ltd Midgard GPU Kernel Driver, Arm Ltd Bifrost GPU Kernel Driver, Arm Ltd Valhall GPU Kernel Driver, Arm Ltd Arm 5th Gen GPU Architecture Kernel Driver allows a local non-privileged user to exploit a software race condition to perform improper memory processing operations. If the system’s memory is carefully prepared by the user, then this in turn cause a use-after-free.This issue affects Midgard GPU Kernel Driver: from r13p0 through r32p0; Bifrost GPU Kernel Driver: from r11p0 through r25p0; Valhall GPU Kernel Driver: from r19p0 through r25p0, from r29p0 through r46p0; Arm 5th Gen GPU Architecture Kernel Driver: from r41p0 through r46p0.
+
+- [https://github.com/ilGobbo00/CVE-2023-6241-Pixel7_Adaptation](https://github.com/ilGobbo00/CVE-2023-6241-Pixel7_Adaptation) :  ![starts](https://img.shields.io/github/stars/ilGobbo00/CVE-2023-6241-Pixel7_Adaptation.svg) ![forks](https://img.shields.io/github/forks/ilGobbo00/CVE-2023-6241-Pixel7_Adaptation.svg)
+
+
+## CVE-2016-5195
+ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allows local users to gain privileges by leveraging incorrect handling of a copy-on-write (COW) feature to write to a read-only memory mapping, as exploited in the wild in October 2016, aka "Dirty COW."
+
+- [https://github.com/LiEnby/PSSRoot](https://github.com/LiEnby/PSSRoot) :  ![starts](https://img.shields.io/github/stars/LiEnby/PSSRoot.svg) ![forks](https://img.shields.io/github/forks/LiEnby/PSSRoot.svg)
 
