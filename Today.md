@@ -1,123 +1,130 @@
-# Update 2025-03-27
+# Update 2025-03-28
+## CVE-2025-30567
+ Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in wp01ru WP01 allows Path Traversal. This issue affects WP01: from n/a through 2.6.2.
+
+- [https://github.com/Oyst3r1ng/CVE-2025-30567](https://github.com/Oyst3r1ng/CVE-2025-30567) :  ![starts](https://img.shields.io/github/stars/Oyst3r1ng/CVE-2025-30567.svg) ![forks](https://img.shields.io/github/forks/Oyst3r1ng/CVE-2025-30567.svg)
+
+
+## CVE-2025-30216
+ CryptoLib provides a software-only solution using the CCSDS Space Data Link Security Protocol - Extended Procedures (SDLS-EP) to secure communications between a spacecraft running the core Flight System (cFS) and a ground station. In versions 1.3.3 and prior, a Heap Overflow vulnerability occurs in the `Crypto_TM_ProcessSecurity` function (`crypto_tm.c:1735:8`). When processing the Secondary Header Length of a TM protocol packet, if the Secondary Header Length exceeds the packet's total length, a heap overflow is triggered during the memcpy operation that copies packet data into the dynamically allocated buffer `p_new_dec_frame`. This allows an attacker to overwrite adjacent heap memory, potentially leading to arbitrary code execution or system instability. A patch is available at commit 810fd66d592c883125272fef123c3240db2f170f.
+
+- [https://github.com/oliviaisntcringe/CVE-2025-30216-PoC](https://github.com/oliviaisntcringe/CVE-2025-30216-PoC) :  ![starts](https://img.shields.io/github/stars/oliviaisntcringe/CVE-2025-30216-PoC.svg) ![forks](https://img.shields.io/github/forks/oliviaisntcringe/CVE-2025-30216-PoC.svg)
+
+
+## CVE-2025-30208
+ Vite, a provider of frontend development tooling, has a vulnerability in versions prior to 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10. `@fs` denies access to files outside of Vite serving allow list. Adding `?raw??` or `?import&raw??` to the URL bypasses this limitation and returns the file content if it exists. This bypass exists because trailing separators such as `?` are removed in several places, but are not accounted for in query string regexes. The contents of arbitrary files can be returned to the browser. Only apps explicitly exposing the Vite dev server to the network (using `--host` or `server.host` config option) are affected. Versions 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10 fix the issue.
+
+- [https://github.com/ThumpBo/CVE-2025-30208-EXP](https://github.com/ThumpBo/CVE-2025-30208-EXP) :  ![starts](https://img.shields.io/github/stars/ThumpBo/CVE-2025-30208-EXP.svg) ![forks](https://img.shields.io/github/forks/ThumpBo/CVE-2025-30208-EXP.svg)
+- [https://github.com/xuemian168/CVE-2025-30208](https://github.com/xuemian168/CVE-2025-30208) :  ![starts](https://img.shields.io/github/stars/xuemian168/CVE-2025-30208.svg) ![forks](https://img.shields.io/github/forks/xuemian168/CVE-2025-30208.svg)
+- [https://github.com/marino-admin/Vite-CVE-2025-30208-Scanner](https://github.com/marino-admin/Vite-CVE-2025-30208-Scanner) :  ![starts](https://img.shields.io/github/stars/marino-admin/Vite-CVE-2025-30208-Scanner.svg) ![forks](https://img.shields.io/github/forks/marino-admin/Vite-CVE-2025-30208-Scanner.svg)
+- [https://github.com/xaitx/CVE-2025-30208](https://github.com/xaitx/CVE-2025-30208) :  ![starts](https://img.shields.io/github/stars/xaitx/CVE-2025-30208.svg) ![forks](https://img.shields.io/github/forks/xaitx/CVE-2025-30208.svg)
+- [https://github.com/kk12-30/CVE-2025-30208](https://github.com/kk12-30/CVE-2025-30208) :  ![starts](https://img.shields.io/github/stars/kk12-30/CVE-2025-30208.svg) ![forks](https://img.shields.io/github/forks/kk12-30/CVE-2025-30208.svg)
+- [https://github.com/YuanBenSir/CVE-2025-30208_POC](https://github.com/YuanBenSir/CVE-2025-30208_POC) :  ![starts](https://img.shields.io/github/stars/YuanBenSir/CVE-2025-30208_POC.svg) ![forks](https://img.shields.io/github/forks/YuanBenSir/CVE-2025-30208_POC.svg)
+
+
 ## CVE-2025-29927
  Next.js is a React framework for building full-stack web applications. Prior to 14.2.25 and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 14.2.25 and 15.2.3.
 
-- [https://github.com/c0dejump/CVE-2025-29927-check](https://github.com/c0dejump/CVE-2025-29927-check) :  ![starts](https://img.shields.io/github/stars/c0dejump/CVE-2025-29927-check.svg) ![forks](https://img.shields.io/github/forks/c0dejump/CVE-2025-29927-check.svg)
-- [https://github.com/ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972) :  ![starts](https://img.shields.io/github/stars/ThemeHackers/CVE-2025-29972.svg) ![forks](https://img.shields.io/github/forks/ThemeHackers/CVE-2025-29972.svg)
-- [https://github.com/takumade/ghost-route](https://github.com/takumade/ghost-route) :  ![starts](https://img.shields.io/github/stars/takumade/ghost-route.svg) ![forks](https://img.shields.io/github/forks/takumade/ghost-route.svg)
-- [https://github.com/furmak331/CVE-2025-29927](https://github.com/furmak331/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/furmak331/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/furmak331/CVE-2025-29927.svg)
-- [https://github.com/jeymo092/cve-2025-29927](https://github.com/jeymo092/cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/jeymo092/cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/jeymo092/cve-2025-29927.svg)
-- [https://github.com/0xcucumbersalad/cve-2025-29927](https://github.com/0xcucumbersalad/cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/0xcucumbersalad/cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/0xcucumbersalad/cve-2025-29927.svg)
-- [https://github.com/TheresAFewConors/CVE-2025-29927-Testing](https://github.com/TheresAFewConors/CVE-2025-29927-Testing) :  ![starts](https://img.shields.io/github/stars/TheresAFewConors/CVE-2025-29927-Testing.svg) ![forks](https://img.shields.io/github/forks/TheresAFewConors/CVE-2025-29927-Testing.svg)
-- [https://github.com/kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/kOaDT/poc-cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/kOaDT/poc-cve-2025-29927.svg)
-- [https://github.com/0xPb1/Next.js-CVE-2025-29927](https://github.com/0xPb1/Next.js-CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/0xPb1/Next.js-CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/0xPb1/Next.js-CVE-2025-29927.svg)
-- [https://github.com/memmedrehimzade/CVE-2025-29927-vuln-app](https://github.com/memmedrehimzade/CVE-2025-29927-vuln-app) :  ![starts](https://img.shields.io/github/stars/memmedrehimzade/CVE-2025-29927-vuln-app.svg) ![forks](https://img.shields.io/github/forks/memmedrehimzade/CVE-2025-29927-vuln-app.svg)
-- [https://github.com/0xPThree/next.js_cve-2025-29927](https://github.com/0xPThree/next.js_cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/0xPThree/next.js_cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/0xPThree/next.js_cve-2025-29927.svg)
-- [https://github.com/maronnjapan/claude-create-CVE-2025-29927](https://github.com/maronnjapan/claude-create-CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/maronnjapan/claude-create-CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/maronnjapan/claude-create-CVE-2025-29927.svg)
-- [https://github.com/alihussainzada/CVE-2025-29927-PoC](https://github.com/alihussainzada/CVE-2025-29927-PoC) :  ![starts](https://img.shields.io/github/stars/alihussainzada/CVE-2025-29927-PoC.svg) ![forks](https://img.shields.io/github/forks/alihussainzada/CVE-2025-29927-PoC.svg)
-- [https://github.com/Jull3Hax0r/next.js-exploit](https://github.com/Jull3Hax0r/next.js-exploit) :  ![starts](https://img.shields.io/github/stars/Jull3Hax0r/next.js-exploit.svg) ![forks](https://img.shields.io/github/forks/Jull3Hax0r/next.js-exploit.svg)
+- [https://github.com/yugo-eliatrope/test-cve-2025-29927](https://github.com/yugo-eliatrope/test-cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/yugo-eliatrope/test-cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/yugo-eliatrope/test-cve-2025-29927.svg)
+- [https://github.com/Eve-SatOrU/POC-CVE-2025-29927](https://github.com/Eve-SatOrU/POC-CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/Eve-SatOrU/POC-CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/Eve-SatOrU/POC-CVE-2025-29927.svg)
+- [https://github.com/aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/aleongx/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/aleongx/CVE-2025-29927.svg)
+- [https://github.com/Slvignesh05/CVE-2025-29927](https://github.com/Slvignesh05/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/Slvignesh05/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/Slvignesh05/CVE-2025-29927.svg)
+- [https://github.com/gotcadumitru/test-cve-2025-29927](https://github.com/gotcadumitru/test-cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/gotcadumitru/test-cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/gotcadumitru/test-cve-2025-29927.svg)
+- [https://github.com/nicknisi/next-attack](https://github.com/nicknisi/next-attack) :  ![starts](https://img.shields.io/github/stars/nicknisi/next-attack.svg) ![forks](https://img.shields.io/github/forks/nicknisi/next-attack.svg)
 
 
-## CVE-2025-22226
- VMware ESXi, Workstation, and Fusion contain an information disclosure vulnerability due to an out-of-bounds read in HGFS. A malicious actor with administrative privileges to a virtual machine may be able to exploit this issue to leak memory from the vmx process.
+## CVE-2025-24514
+ A security issue was discovered in  ingress-nginx https://github.com/kubernetes/ingress-nginx  where the `auth-url` Ingress annotation can be used to inject configuration into nginx. This can lead to arbitrary code execution in the context of the ingress-nginx controller, and disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)
 
-- [https://github.com/bronsoneaver/vme-escape](https://github.com/bronsoneaver/vme-escape) :  ![starts](https://img.shields.io/github/stars/bronsoneaver/vme-escape.svg) ![forks](https://img.shields.io/github/forks/bronsoneaver/vme-escape.svg)
-
-
-## CVE-2025-22225
- VMware ESXi contains an arbitrary write vulnerability. A malicious actor with privileges within the VMX process may trigger an arbitrary kernel write leading to an escape of the sandbox.
-
-- [https://github.com/bronsoneaver/vme-escape](https://github.com/bronsoneaver/vme-escape) :  ![starts](https://img.shields.io/github/stars/bronsoneaver/vme-escape.svg) ![forks](https://img.shields.io/github/forks/bronsoneaver/vme-escape.svg)
+- [https://github.com/hakaioffsec/IngressNightmare-PoC](https://github.com/hakaioffsec/IngressNightmare-PoC) :  ![starts](https://img.shields.io/github/stars/hakaioffsec/IngressNightmare-PoC.svg) ![forks](https://img.shields.io/github/forks/hakaioffsec/IngressNightmare-PoC.svg)
 
 
-## CVE-2025-22224
- VMware ESXi, and Workstation contain a TOCTOU (Time-of-Check Time-of-Use) vulnerability that leads to an out-of-bounds write. A malicious actor with local administrative privileges on a virtual machine may exploit this issue to execute code as the virtual machine's VMX process running on the host.
+## CVE-2025-2783
+ Incorrect handle provided in unspecified circumstances in Mojo in Google Chrome on Windows prior to 134.0.6998.177 allowed a remote attacker to perform a sandbox escape via a malicious file. (Chromium security severity: High)
 
-- [https://github.com/bronsoneaver/vme-escape](https://github.com/bronsoneaver/vme-escape) :  ![starts](https://img.shields.io/github/stars/bronsoneaver/vme-escape.svg) ![forks](https://img.shields.io/github/forks/bronsoneaver/vme-escape.svg)
-
-
-## CVE-2025-2559
- A flaw was found in Keycloak. When the configuration uses JWT tokens for authentication, the tokens are cached until expiration. If a client uses JWT tokens with an excessively long expiration time, for example, 24 or 48 hours, the cache can grow indefinitely, leading to an OutOfMemoryError. This issue could result in a denial of service condition, preventing legitimate users from accessing the system.
-
-- [https://github.com/Certitude-Consulting/CVE-2025-25599](https://github.com/Certitude-Consulting/CVE-2025-25599) :  ![starts](https://img.shields.io/github/stars/Certitude-Consulting/CVE-2025-25599.svg) ![forks](https://img.shields.io/github/forks/Certitude-Consulting/CVE-2025-25599.svg)
+- [https://github.com/raulchung/CVE-2025-2783](https://github.com/raulchung/CVE-2025-2783) :  ![starts](https://img.shields.io/github/stars/raulchung/CVE-2025-2783.svg) ![forks](https://img.shields.io/github/forks/raulchung/CVE-2025-2783.svg)
 
 
-## CVE-2025-2295
- EDK2 contains a vulnerability in BIOS where a user may cause an Integer Overflow or Wraparound by network means. A successful exploitation of this vulnerability may lead to denial of service.
+## CVE-2025-2596
+ Session logout could be overwritten in Checkmk GmbH's Checkmk versions 2.3.0p30, 2.2.0p41, and 2.1.0p49 (EOL)
 
-- [https://github.com/maliktawfiq/CVE-2025-22953](https://github.com/maliktawfiq/CVE-2025-22953) :  ![starts](https://img.shields.io/github/stars/maliktawfiq/CVE-2025-22953.svg) ![forks](https://img.shields.io/github/forks/maliktawfiq/CVE-2025-22953.svg)
+- [https://github.com/Sudo-Sakib/CVE-2025-25964](https://github.com/Sudo-Sakib/CVE-2025-25964) :  ![starts](https://img.shields.io/github/stars/Sudo-Sakib/CVE-2025-25964.svg) ![forks](https://img.shields.io/github/forks/Sudo-Sakib/CVE-2025-25964.svg)
+- [https://github.com/Sudo-Sakib/CVE-2025-25965](https://github.com/Sudo-Sakib/CVE-2025-25965) :  ![starts](https://img.shields.io/github/stars/Sudo-Sakib/CVE-2025-25965.svg) ![forks](https://img.shields.io/github/forks/Sudo-Sakib/CVE-2025-25965.svg)
 
 
 ## CVE-2025-1974
  A security issue was discovered in Kubernetes where under certain conditions, an unauthenticated attacker with access to the pod network can achieve arbitrary code execution in the context of the ingress-nginx controller. This can lead to disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)
 
-- [https://github.com/sandumjacob/IngressNightmare-POCs](https://github.com/sandumjacob/IngressNightmare-POCs) :  ![starts](https://img.shields.io/github/stars/sandumjacob/IngressNightmare-POCs.svg) ![forks](https://img.shields.io/github/forks/sandumjacob/IngressNightmare-POCs.svg)
-- [https://github.com/yoshino-s/CVE-2025-1974](https://github.com/yoshino-s/CVE-2025-1974) :  ![starts](https://img.shields.io/github/stars/yoshino-s/CVE-2025-1974.svg) ![forks](https://img.shields.io/github/forks/yoshino-s/CVE-2025-1974.svg)
-- [https://github.com/yanmarques/CVE-2025-1974](https://github.com/yanmarques/CVE-2025-1974) :  ![starts](https://img.shields.io/github/stars/yanmarques/CVE-2025-1974.svg) ![forks](https://img.shields.io/github/forks/yanmarques/CVE-2025-1974.svg)
+- [https://github.com/hakaioffsec/IngressNightmare-PoC](https://github.com/hakaioffsec/IngressNightmare-PoC) :  ![starts](https://img.shields.io/github/stars/hakaioffsec/IngressNightmare-PoC.svg) ![forks](https://img.shields.io/github/forks/hakaioffsec/IngressNightmare-PoC.svg)
+- [https://github.com/Esonhugh/nginxnightmare](https://github.com/Esonhugh/nginxnightmare) :  ![starts](https://img.shields.io/github/stars/Esonhugh/nginxnightmare.svg) ![forks](https://img.shields.io/github/forks/Esonhugh/nginxnightmare.svg)
+- [https://github.com/zwxxb/CVE-2025-1974](https://github.com/zwxxb/CVE-2025-1974) :  ![starts](https://img.shields.io/github/stars/zwxxb/CVE-2025-1974.svg) ![forks](https://img.shields.io/github/forks/zwxxb/CVE-2025-1974.svg)
+- [https://github.com/hi-unc1e/CVE-2025-1974-poc](https://github.com/hi-unc1e/CVE-2025-1974-poc) :  ![starts](https://img.shields.io/github/stars/hi-unc1e/CVE-2025-1974-poc.svg) ![forks](https://img.shields.io/github/forks/hi-unc1e/CVE-2025-1974-poc.svg)
+- [https://github.com/m-q-t/ingressnightmare-detection-poc](https://github.com/m-q-t/ingressnightmare-detection-poc) :  ![starts](https://img.shields.io/github/stars/m-q-t/ingressnightmare-detection-poc.svg) ![forks](https://img.shields.io/github/forks/m-q-t/ingressnightmare-detection-poc.svg)
+- [https://github.com/dttuss/IngressNightmare-RCE-POC](https://github.com/dttuss/IngressNightmare-RCE-POC) :  ![starts](https://img.shields.io/github/stars/dttuss/IngressNightmare-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/dttuss/IngressNightmare-RCE-POC.svg)
 
 
-## CVE-2024-50492
- Improper Control of Generation of Code ('Code Injection') vulnerability in Scott Paterson ScottCart allows Code Injection.This issue affects ScottCart: from n/a through 1.1.
+## CVE-2025-1098
+ A security issue was discovered in  ingress-nginx https://github.com/kubernetes/ingress-nginx  where the `mirror-target` and `mirror-host` Ingress annotations can be used to inject arbitrary configuration into nginx. This can lead to arbitrary code execution in the context of the ingress-nginx controller, and disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)
 
-- [https://github.com/Nxploited/CVE-2024-50492](https://github.com/Nxploited/CVE-2024-50492) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-50492.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-50492.svg)
-
-
-## CVE-2024-21413
- Microsoft Outlook Remote Code Execution Vulnerability
-
-- [https://github.com/ArtemCyberLab/Project-NTLM-Hash-Capture-and-Phishing-Email-Exploitation-for-CVE-2024-21413](https://github.com/ArtemCyberLab/Project-NTLM-Hash-Capture-and-Phishing-Email-Exploitation-for-CVE-2024-21413) :  ![starts](https://img.shields.io/github/stars/ArtemCyberLab/Project-NTLM-Hash-Capture-and-Phishing-Email-Exploitation-for-CVE-2024-21413.svg) ![forks](https://img.shields.io/github/forks/ArtemCyberLab/Project-NTLM-Hash-Capture-and-Phishing-Email-Exploitation-for-CVE-2024-21413.svg)
+- [https://github.com/hakaioffsec/IngressNightmare-PoC](https://github.com/hakaioffsec/IngressNightmare-PoC) :  ![starts](https://img.shields.io/github/stars/hakaioffsec/IngressNightmare-PoC.svg) ![forks](https://img.shields.io/github/forks/hakaioffsec/IngressNightmare-PoC.svg)
 
 
-## CVE-2024-12252
- The SEO LAT Auto Post plugin for WordPress is vulnerable to file overwrite due to a missing capability check on the remote_update AJAX action in all versions up to, and including, 2.2.1. This makes it possible for unauthenticated attackers to overwrite the seo-beginner-auto-post.php file which can be leveraged to achieve remote code execution.
+## CVE-2025-1097
+ A security issue was discovered in  ingress-nginx https://github.com/kubernetes/ingress-nginx  where the `auth-tls-match-cn` Ingress annotation can be used to inject configuration into nginx. This can lead to arbitrary code execution in the context of the ingress-nginx controller, and disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)
 
-- [https://github.com/Nxploited/CVE-2024-12252](https://github.com/Nxploited/CVE-2024-12252) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-12252.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-12252.svg)
-
-
-## CVE-2024-4367
- A type check was missing when handling fonts in PDF.js, which would allow arbitrary JavaScript execution in the PDF.js context. This vulnerability affects Firefox  126, Firefox ESR  115.11, and Thunderbird  115.11.
-
-- [https://github.com/elamani-drawing/CVE-2024-4367-POC-PDFJS](https://github.com/elamani-drawing/CVE-2024-4367-POC-PDFJS) :  ![starts](https://img.shields.io/github/stars/elamani-drawing/CVE-2024-4367-POC-PDFJS.svg) ![forks](https://img.shields.io/github/forks/elamani-drawing/CVE-2024-4367-POC-PDFJS.svg)
+- [https://github.com/hakaioffsec/IngressNightmare-PoC](https://github.com/hakaioffsec/IngressNightmare-PoC) :  ![starts](https://img.shields.io/github/stars/hakaioffsec/IngressNightmare-PoC.svg) ![forks](https://img.shields.io/github/forks/hakaioffsec/IngressNightmare-PoC.svg)
 
 
-## CVE-2023-30258
- Command Injection vulnerability in MagnusSolution magnusbilling 6.x and 7.x allows remote attackers to run arbitrary commands via unauthenticated HTTP request.
+## CVE-2024-52510
+ The Nextcloud Desktop Client is a tool to synchronize files from Nextcloud Server with your computer. The Desktop client did not stop with an error but allowed by-passing the signature validation, if a manipulated server sends an empty initial signature. It is recommended that the Nextcloud Desktop client is upgraded to 3.14.2 or later.
 
-- [https://github.com/n00o00b/CVE-2023-30258-RCE-POC](https://github.com/n00o00b/CVE-2023-30258-RCE-POC) :  ![starts](https://img.shields.io/github/stars/n00o00b/CVE-2023-30258-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/n00o00b/CVE-2023-30258-RCE-POC.svg)
-
-
-## CVE-2023-28432
-and `MINIO_ROOT_PASSWORD`, resulting in information disclosure. All users of distributed deployment are impacted. All users are advised to upgrade to RELEASE.2023-03-20T20-16-18Z.
-
-- [https://github.com/NET-Flowers/CVE-2023-28432](https://github.com/NET-Flowers/CVE-2023-28432) :  ![starts](https://img.shields.io/github/stars/NET-Flowers/CVE-2023-28432.svg) ![forks](https://img.shields.io/github/forks/NET-Flowers/CVE-2023-28432.svg)
+- [https://github.com/d-xuan/CVE-2024-52510](https://github.com/d-xuan/CVE-2024-52510) :  ![starts](https://img.shields.io/github/stars/d-xuan/CVE-2024-52510.svg) ![forks](https://img.shields.io/github/forks/d-xuan/CVE-2024-52510.svg)
 
 
-## CVE-2023-2648
- A vulnerability was found in Weaver E-Office 9.5. It has been classified as critical. This affects an unknown part of the file /inc/jquery/uploadify/uploadify.php. The manipulation of the argument Filedata leads to unrestricted upload. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-228777 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+## CVE-2024-7479
+ Improper verification of cryptographic signature during installation of a VPN driver via the TeamViewer_service.exe component of TeamViewer Remote Clients prior version 15.58.4 for Windows allows an attacker with local unprivileged access on a Windows system to elevate their privileges and install drivers.
 
-- [https://github.com/werwolfz/cve-2023-2523-and-cve-2023-2648](https://github.com/werwolfz/cve-2023-2523-and-cve-2023-2648) :  ![starts](https://img.shields.io/github/stars/werwolfz/cve-2023-2523-and-cve-2023-2648.svg) ![forks](https://img.shields.io/github/forks/werwolfz/cve-2023-2523-and-cve-2023-2648.svg)
-
-
-## CVE-2023-2523
- A vulnerability was found in Weaver E-Office 9.5. It has been rated as critical. Affected by this issue is some unknown functionality of the file App/Ajax/ajax.php?action=mobile_upload_save. The manipulation of the argument upload_quwan leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-228014 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
-
-- [https://github.com/werwolfz/cve-2023-2523-and-cve-2023-2648](https://github.com/werwolfz/cve-2023-2523-and-cve-2023-2648) :  ![starts](https://img.shields.io/github/stars/werwolfz/cve-2023-2523-and-cve-2023-2648.svg) ![forks](https://img.shields.io/github/forks/werwolfz/cve-2023-2523-and-cve-2023-2648.svg)
+- [https://github.com/fortra/CVE-2024-7479](https://github.com/fortra/CVE-2024-7479) :  ![starts](https://img.shields.io/github/stars/fortra/CVE-2024-7479.svg) ![forks](https://img.shields.io/github/forks/fortra/CVE-2024-7479.svg)
 
 
-## CVE-2022-0847
- A flaw was found in the way the "flags" member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
+## CVE-2024-4956
+ Path Traversal in Sonatype Nexus Repository 3 allows an unauthenticated attacker to read system files. Fixed in version 3.68.1.
 
-- [https://github.com/cypherlobo/DirtyPipe-BSI](https://github.com/cypherlobo/DirtyPipe-BSI) :  ![starts](https://img.shields.io/github/stars/cypherlobo/DirtyPipe-BSI.svg) ![forks](https://img.shields.io/github/forks/cypherlobo/DirtyPipe-BSI.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/Soliux/CVE-2021-41773](https://github.com/Soliux/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Soliux/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Soliux/CVE-2021-41773.svg)
+- [https://github.com/art-of-defence/CVE-2024-4956](https://github.com/art-of-defence/CVE-2024-4956) :  ![starts](https://img.shields.io/github/stars/art-of-defence/CVE-2024-4956.svg) ![forks](https://img.shields.io/github/forks/art-of-defence/CVE-2024-4956.svg)
 
 
-## CVE-2018-15473
- OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not delaying bailout for an invalid authenticating user until after the packet containing the request has been fully parsed, related to auth2-gss.c, auth2-hostbased.c, and auth2-pubkey.c.
+## CVE-2023-45878
+ GibbonEdu Gibbon version 25.0.1 and before allows Arbitrary File Write because rubrics_visualise_saveAjax.phps does not require authentication. The endpoint accepts the img, path, and gibbonPersonID parameters. The img parameter is expected to be a base64 encoded image. If the path parameter is set, the defined path is used as the destination folder, concatenated with the absolute path of the installation directory. The content of the img parameter is base64 decoded and written to the defined file path. This allows creation of PHP files that permit Remote Code Execution (unauthenticated).
 
-- [https://github.com/0xNehru/ssh_Enum_vaild](https://github.com/0xNehru/ssh_Enum_vaild) :  ![starts](https://img.shields.io/github/stars/0xNehru/ssh_Enum_vaild.svg) ![forks](https://img.shields.io/github/forks/0xNehru/ssh_Enum_vaild.svg)
+- [https://github.com/nrazv/CVE-2023-45878](https://github.com/nrazv/CVE-2023-45878) :  ![starts](https://img.shields.io/github/stars/nrazv/CVE-2023-45878.svg) ![forks](https://img.shields.io/github/forks/nrazv/CVE-2023-45878.svg)
+
+
+## CVE-2023-1521
+If the server is run as root (which is the default when installing the  snap package https://snapcraft.io/sccache ), this means a user running the sccache client can get root privileges.
+
+- [https://github.com/rubbxalc/CVE-2023-1521](https://github.com/rubbxalc/CVE-2023-1521) :  ![starts](https://img.shields.io/github/stars/rubbxalc/CVE-2023-1521.svg) ![forks](https://img.shields.io/github/forks/rubbxalc/CVE-2023-1521.svg)
+
+
+## CVE-2022-46689
+ A race condition was addressed with additional validation. This issue is fixed in tvOS 16.2, macOS Monterey 12.6.2, macOS Ventura 13.1, macOS Big Sur 11.7.2, iOS 15.7.2 and iPadOS 15.7.2, iOS 16.2 and iPadOS 16.2, watchOS 9.2. An app may be able to execute arbitrary code with kernel privileges.
+
+- [https://github.com/Code2Crusader/46689](https://github.com/Code2Crusader/46689) :  ![starts](https://img.shields.io/github/stars/Code2Crusader/46689.svg) ![forks](https://img.shields.io/github/forks/Code2Crusader/46689.svg)
+
+
+## CVE-2022-0944
+ Template injection in connection test endpoint leads to RCE in GitHub repository sqlpad/sqlpad prior to 6.10.1.
+
+- [https://github.com/Artemisxxx37/OverlayFS-PrivEsc-CVE-2022-0944](https://github.com/Artemisxxx37/OverlayFS-PrivEsc-CVE-2022-0944) :  ![starts](https://img.shields.io/github/stars/Artemisxxx37/OverlayFS-PrivEsc-CVE-2022-0944.svg) ![forks](https://img.shields.io/github/forks/Artemisxxx37/OverlayFS-PrivEsc-CVE-2022-0944.svg)
+
+
+## CVE-2018-9206
+ Unauthenticated arbitrary file upload vulnerability in Blueimp jQuery-File-Upload = v9.22.0
+
+- [https://github.com/liemkaka/CVE-2018-9206](https://github.com/liemkaka/CVE-2018-9206) :  ![starts](https://img.shields.io/github/stars/liemkaka/CVE-2018-9206.svg) ![forks](https://img.shields.io/github/forks/liemkaka/CVE-2018-9206.svg)
+
+
+## CVE-2018-4150
+ An issue was discovered in certain Apple products. iOS before 11.3 is affected. macOS before 10.13.4 is affected. tvOS before 11.3 is affected. watchOS before 4.3 is affected. The issue involves the "Kernel" component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
+
+- [https://github.com/mirdhan/LovelySn0w](https://github.com/mirdhan/LovelySn0w) :  ![starts](https://img.shields.io/github/stars/mirdhan/LovelySn0w.svg) ![forks](https://img.shields.io/github/forks/mirdhan/LovelySn0w.svg)
 
