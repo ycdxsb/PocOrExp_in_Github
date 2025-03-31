@@ -111,6 +111,8 @@
 
 - [https://github.com/AndyCyberSec/OSCP](https://github.com/AndyCyberSec/OSCP) :  ![starts](https://img.shields.io/github/stars/AndyCyberSec/OSCP.svg) ![forks](https://img.shields.io/github/forks/AndyCyberSec/OSCP.svg)
 
+- [https://github.com/cyberdesu/Elastix-2.2.0-CVE-2012-4869](https://github.com/cyberdesu/Elastix-2.2.0-CVE-2012-4869) :  ![starts](https://img.shields.io/github/stars/cyberdesu/Elastix-2.2.0-CVE-2012-4869.svg) ![forks](https://img.shields.io/github/forks/cyberdesu/Elastix-2.2.0-CVE-2012-4869.svg)
+
 - [https://github.com/bitc0de/Elastix-Remote-Code-Execution](https://github.com/bitc0de/Elastix-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/bitc0de/Elastix-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/bitc0de/Elastix-Remote-Code-Execution.svg)
 
 ## CVE-2012-4792
@@ -197,7 +199,7 @@
 
 - [https://github.com/LeDucKhiem/CVE-2012-2982](https://github.com/LeDucKhiem/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/LeDucKhiem/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/LeDucKhiem/CVE-2012-2982.svg)
 
-- [https://github.com/AlexJS6/CVE-2012-2982_Python](https://github.com/AlexJS6/CVE-2012-2982_Python) :  ![starts](https://img.shields.io/github/stars/AlexJS6/CVE-2012-2982_Python.svg) ![forks](https://img.shields.io/github/forks/AlexJS6/CVE-2012-2982_Python.svg)
+- [https://github.com/Gvmyz/CVE-2012-2982_Python](https://github.com/Gvmyz/CVE-2012-2982_Python) :  ![starts](https://img.shields.io/github/stars/Gvmyz/CVE-2012-2982_Python.svg) ![forks](https://img.shields.io/github/forks/Gvmyz/CVE-2012-2982_Python.svg)
 
 - [https://github.com/Ari-Weinberg/CVE-2012-2982](https://github.com/Ari-Weinberg/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/Ari-Weinberg/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/Ari-Weinberg/CVE-2012-2982.svg)
 
@@ -206,6 +208,8 @@
 - [https://github.com/wizardy0ga/CVE_2012-2982](https://github.com/wizardy0ga/CVE_2012-2982) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/CVE_2012-2982.svg)
 
 - [https://github.com/CpyRe/CVE-2012-2982](https://github.com/CpyRe/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/CpyRe/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/CpyRe/CVE-2012-2982.svg)
+
+- [https://github.com/lpuv/CVE-2012-2982](https://github.com/lpuv/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/lpuv/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/lpuv/CVE-2012-2982.svg)
 
 - [https://github.com/elliotosama/CVE-2012-2982](https://github.com/elliotosama/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/elliotosama/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/elliotosama/CVE-2012-2982.svg)
 
