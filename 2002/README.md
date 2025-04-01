@@ -95,3 +95,10 @@
 
 
 - [https://github.com/alt3kx/CVE-2002-0200](https://github.com/alt3kx/CVE-2002-0200) :  ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2002-0200.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2002-0200.svg)
+
+## CVE-2002-0082
+ The dbm and shm session cache code in mod_ssl before 2.8.7-1.3.23, and Apache-SSL before 1.3.22+1.46, does not properly initialize memory using the i2d_SSL_SESSION function, which allows remote attackers to use a buffer overflow to execute arbitrary code via a large client certificate that is signed by a trusted Certificate Authority (CA), which produces a large serialized session.
+
+
+
+- [https://github.com/ratiros01/CVE-2002-0082](https://github.com/ratiros01/CVE-2002-0082) :  ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2002-0082.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2002-0082.svg)
