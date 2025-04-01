@@ -496,6 +496,13 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/LogSec/CVE-2013-0212](https://github.com/LogSec/CVE-2013-0212) :  ![starts](https://img.shields.io/github/stars/LogSec/CVE-2013-0212.svg) ![forks](https://img.shields.io/github/forks/LogSec/CVE-2013-0212.svg)
 
+## CVE-2013-0169
+ The TLS protocol 1.1 and 1.2 and the DTLS protocol 1.0 and 1.2, as used in OpenSSL, OpenJDK, PolarSSL, and other products, do not properly consider timing side-channel attacks on a MAC check requirement during the processing of malformed CBC padding, which allows remote attackers to conduct distinguishing attacks and plaintext-recovery attacks via statistical analysis of timing data for crafted packets, aka the "Lucky Thirteen" issue.
+
+
+
+- [https://github.com/wearohat/lucky13](https://github.com/wearohat/lucky13) :  ![starts](https://img.shields.io/github/stars/wearohat/lucky13.svg) ![forks](https://img.shields.io/github/forks/wearohat/lucky13.svg)
+
 ## CVE-2013-0156
  active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.x before 3.0.19, 3.1.x before 3.1.10, and 3.2.x before 3.2.11 does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code, or cause a denial of service (memory and CPU consumption) involving nested XML entity references, by leveraging Action Pack support for (1) YAML type conversion or (2) Symbol type conversion.
 
