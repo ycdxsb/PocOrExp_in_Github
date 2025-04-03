@@ -1,10 +1,3 @@
-## CVE-2007-6750
- The Apache HTTP Server 1.x and 2.x allows remote attackers to cause a denial of service (daemon outage) via partial HTTP requests, as demonstrated by Slowloris, related to the lack of the mod_reqtimeout module in versions before 2.2.15.
-
-
-
-- [https://github.com/Jeanpseven/slowl0ris](https://github.com/Jeanpseven/slowl0ris) :  ![starts](https://img.shields.io/github/stars/Jeanpseven/slowl0ris.svg) ![forks](https://img.shields.io/github/forks/Jeanpseven/slowl0ris.svg)
-
 ## CVE-2007-6638
  March Networks DVR 3204 stores sensitive information under the web root with insufficient access control, which allows remote attackers to obtain usernames, passwords, device names, and IP addresses via a direct request for scripts/logfiles.tar.gz.
 
