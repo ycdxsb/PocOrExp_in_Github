@@ -1,103 +1,99 @@
-# Update 2025-04-02
-## CVE-2025-30208
- Vite, a provider of frontend development tooling, has a vulnerability in versions prior to 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10. `@fs` denies access to files outside of Vite serving allow list. Adding `?raw??` or `?import&raw??` to the URL bypasses this limitation and returns the file content if it exists. This bypass exists because trailing separators such as `?` are removed in several places, but are not accounted for in query string regexes. The contents of arbitrary files can be returned to the browser. Only apps explicitly exposing the Vite dev server to the network (using `--host` or `server.host` config option) are affected. Versions 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10 fix the issue.
+# Update 2025-04-03
+## CVE-2025-31129
+ Jooby is a web framework for Java and Kotlin. The pac4j io.jooby.internal.pac4j.SessionStoreImpl#get module deserializes untrusted data. This vulnerability is fixed in 2.17.0 (2.x) and 3.7.0 (3.x).
 
-- [https://github.com/jackieya/CVE-2025-30208](https://github.com/jackieya/CVE-2025-30208) :  ![starts](https://img.shields.io/github/stars/jackieya/CVE-2025-30208.svg) ![forks](https://img.shields.io/github/forks/jackieya/CVE-2025-30208.svg)
-
-
-## CVE-2025-24813
-Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
-
-- [https://github.com/B1gN0Se/Tomcat-CVE-2025-24813](https://github.com/B1gN0Se/Tomcat-CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/B1gN0Se/Tomcat-CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/B1gN0Se/Tomcat-CVE-2025-24813.svg)
+- [https://github.com/cwm1123/CVE-2025-31129](https://github.com/cwm1123/CVE-2025-31129) :  ![starts](https://img.shields.io/github/stars/cwm1123/CVE-2025-31129.svg) ![forks](https://img.shields.io/github/forks/cwm1123/CVE-2025-31129.svg)
 
 
-## CVE-2025-24799
- GLPI is a free asset and IT management software package. An unauthenticated user can perform a SQL injection through the inventory endpoint. This vulnerability is fixed in 10.0.18.
+## CVE-2025-31125
+ Vite is a frontend tooling framework for javascript. Vite exposes content of non-allowed files using ?inline&import or ?raw?import. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) are affected. This vulnerability is fixed in 6.2.4, 6.1.3, 6.0.13, 5.4.16, and 4.5.11.
 
-- [https://github.com/realcodeb0ss/CVE-2025-24799-PoC](https://github.com/realcodeb0ss/CVE-2025-24799-PoC) :  ![starts](https://img.shields.io/github/stars/realcodeb0ss/CVE-2025-24799-PoC.svg) ![forks](https://img.shields.io/github/forks/realcodeb0ss/CVE-2025-24799-PoC.svg)
-
-
-## CVE-2025-3010
- A vulnerability, which was classified as problematic, has been found in Khronos Group glslang 15.1.0. Affected by this issue is the function glslang::TIntermediate::isConversionAllowed of the file glslang/MachineIndependent/Intermediate.cpp. The manipulation leads to null pointer dereference. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.
-
-- [https://github.com/4xura/CVE-2025-30108](https://github.com/4xura/CVE-2025-30108) :  ![starts](https://img.shields.io/github/stars/4xura/CVE-2025-30108.svg) ![forks](https://img.shields.io/github/forks/4xura/CVE-2025-30108.svg)
+- [https://github.com/sunhuiHi666/CVE-2025-31125](https://github.com/sunhuiHi666/CVE-2025-31125) :  ![starts](https://img.shields.io/github/stars/sunhuiHi666/CVE-2025-31125.svg) ![forks](https://img.shields.io/github/forks/sunhuiHi666/CVE-2025-31125.svg)
 
 
-## CVE-2025-2997
- A vulnerability was found in zhangyanbo2007 youkefu 4.2.0. It has been classified as critical. Affected is an unknown function of the file /res/url. The manipulation of the argument url leads to server-side request forgery. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+## CVE-2025-29927
+ Next.js is a React framework for building full-stack web applications. Prior to 14.2.25 and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 14.2.25 and 15.2.3.
 
-- [https://github.com/ThemeHackers/CVE-2025-29972](https://github.com/ThemeHackers/CVE-2025-29972) :  ![starts](https://img.shields.io/github/stars/ThemeHackers/CVE-2025-29972.svg) ![forks](https://img.shields.io/github/forks/ThemeHackers/CVE-2025-29972.svg)
-
-
-## CVE-2025-2294
- The Kubio AI Page Builder plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.5.1 via thekubio_hybrid_theme_load_template function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
-
-- [https://github.com/mrrivaldo/CVE-2025-2294](https://github.com/mrrivaldo/CVE-2025-2294) :  ![starts](https://img.shields.io/github/stars/mrrivaldo/CVE-2025-2294.svg) ![forks](https://img.shields.io/github/forks/mrrivaldo/CVE-2025-2294.svg)
+- [https://github.com/alastair66/CVE-2025-29927](https://github.com/alastair66/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/alastair66/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/alastair66/CVE-2025-29927.svg)
+- [https://github.com/nyctophile0969/CVE-2025-29927](https://github.com/nyctophile0969/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/nyctophile0969/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/nyctophile0969/CVE-2025-29927.svg)
+- [https://github.com/BilalGns/CVE-2025-29927](https://github.com/BilalGns/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/BilalGns/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/BilalGns/CVE-2025-29927.svg)
+- [https://github.com/narasimhauppala/nextjs-middleware-bypass](https://github.com/narasimhauppala/nextjs-middleware-bypass) :  ![starts](https://img.shields.io/github/stars/narasimhauppala/nextjs-middleware-bypass.svg) ![forks](https://img.shields.io/github/forks/narasimhauppala/nextjs-middleware-bypass.svg)
 
 
-## CVE-2025-1974
- A security issue was discovered in Kubernetes where under certain conditions, an unauthenticated attacker with access to the pod network can achieve arbitrary code execution in the context of the ingress-nginx controller. This can lead to disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)
+## CVE-2025-26056
+ A command injection vulnerability exists in the Infinxt iEdge 100 2.1.32 in the Troubleshoot module "MTR" functionality. The vulnerability is due to improper validation of user-supplied input in the mtrIp parameter. An attacker can exploit this flaw to execute arbitrary operating system commands on the underlying system with the same privileges as the web application process.
 
-- [https://github.com/zulloper/CVE-2025-1974](https://github.com/zulloper/CVE-2025-1974) :  ![starts](https://img.shields.io/github/stars/zulloper/CVE-2025-1974.svg) ![forks](https://img.shields.io/github/forks/zulloper/CVE-2025-1974.svg)
-- [https://github.com/gian2dchris/ingress-nightmare-poc](https://github.com/gian2dchris/ingress-nightmare-poc) :  ![starts](https://img.shields.io/github/stars/gian2dchris/ingress-nightmare-poc.svg) ![forks](https://img.shields.io/github/forks/gian2dchris/ingress-nightmare-poc.svg)
-
-
-## CVE-2025-0868
-This issue affects DocsGPT: from 0.8.1 through 0.12.0.
-
-- [https://github.com/shreyas-malhotra/PoC_CVE-2025-0868](https://github.com/shreyas-malhotra/PoC_CVE-2025-0868) :  ![starts](https://img.shields.io/github/stars/shreyas-malhotra/PoC_CVE-2025-0868.svg) ![forks](https://img.shields.io/github/forks/shreyas-malhotra/PoC_CVE-2025-0868.svg)
+- [https://github.com/rohan-pt/CVE-2025-26056](https://github.com/rohan-pt/CVE-2025-26056) :  ![starts](https://img.shields.io/github/stars/rohan-pt/CVE-2025-26056.svg) ![forks](https://img.shields.io/github/forks/rohan-pt/CVE-2025-26056.svg)
 
 
-## CVE-2024-44450
- Multiple functions are vulnerable to Authorization Bypass in AIMS eCrew. The issue was fixed in version JUN23 #190.
+## CVE-2025-26055
+ An OS Command Injection vulnerability exists in the Infinxt iEdge 100 2.1.32 Troubleshoot module, specifically in the tracertVal parameter of the Tracert function.
 
-- [https://github.com/NaunetEU/CVE-2024-44450](https://github.com/NaunetEU/CVE-2024-44450) :  ![starts](https://img.shields.io/github/stars/NaunetEU/CVE-2024-44450.svg) ![forks](https://img.shields.io/github/forks/NaunetEU/CVE-2024-44450.svg)
-
-
-## CVE-2024-36991
- In Splunk Enterprise on Windows versions below 9.2.2, 9.1.5, and 9.0.10, an attacker could perform a path traversal on the /modules/messaging/ endpoint in Splunk Enterprise on Windows. This vulnerability should only affect Splunk Enterprise on Windows.
-
-- [https://github.com/gunzf0x/CVE-2024-36991](https://github.com/gunzf0x/CVE-2024-36991) :  ![starts](https://img.shields.io/github/stars/gunzf0x/CVE-2024-36991.svg) ![forks](https://img.shields.io/github/forks/gunzf0x/CVE-2024-36991.svg)
+- [https://github.com/rohan-pt/CVE-2025-26055](https://github.com/rohan-pt/CVE-2025-26055) :  ![starts](https://img.shields.io/github/stars/rohan-pt/CVE-2025-26055.svg) ![forks](https://img.shields.io/github/forks/rohan-pt/CVE-2025-26055.svg)
 
 
-## CVE-2024-25600
- Improper Control of Generation of Code ('Code Injection') vulnerability in Codeer Limited Bricks Builder allows Code Injection.This issue affects Bricks Builder: from n/a through 1.9.6.
+## CVE-2025-26054
+ Infinxt iEdge 100 2.1.32 is vulnerable to Cross Site Scripting (XSS) via the "Description" field during LAN configuration.
 
-- [https://github.com/so1icitx/CVE-2024-25600](https://github.com/so1icitx/CVE-2024-25600) :  ![starts](https://img.shields.io/github/stars/so1icitx/CVE-2024-25600.svg) ![forks](https://img.shields.io/github/forks/so1icitx/CVE-2024-25600.svg)
-
-
-## CVE-2023-32784
- In KeePass 2.x before 2.54, it is possible to recover the cleartext master password from a memory dump, even when a workspace is locked or no longer running. The memory dump can be a KeePass process dump, swap file (pagefile.sys), hibernation file (hiberfil.sys), or RAM dump of the entire system. The first character cannot be recovered. In 2.54, there is different API usage and/or random string insertion for mitigation.
-
-- [https://github.com/G4sp4rCS/CVE-2023-32784-password-combinator-fixer](https://github.com/G4sp4rCS/CVE-2023-32784-password-combinator-fixer) :  ![starts](https://img.shields.io/github/stars/G4sp4rCS/CVE-2023-32784-password-combinator-fixer.svg) ![forks](https://img.shields.io/github/forks/G4sp4rCS/CVE-2023-32784-password-combinator-fixer.svg)
+- [https://github.com/rohan-pt/CVE-2025-26054](https://github.com/rohan-pt/CVE-2025-26054) :  ![starts](https://img.shields.io/github/stars/rohan-pt/CVE-2025-26054.svg) ![forks](https://img.shields.io/github/forks/rohan-pt/CVE-2025-26054.svg)
 
 
-## CVE-2023-21554
- Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
+## CVE-2025-2960
+ A vulnerability classified as problematic has been found in TRENDnet TEW-637AP and TEW-638APB 1.2.7/1.3.0.106. This affects the function sub_41DED0 of the file /bin/goahead of the component HTTP Request Handler. The manipulation leads to null pointer dereference. Access to the local network is required for this attack. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
 
-- [https://github.com/leongxudong/MSMQ-Vulnerbaility](https://github.com/leongxudong/MSMQ-Vulnerbaility) :  ![starts](https://img.shields.io/github/stars/leongxudong/MSMQ-Vulnerbaility.svg) ![forks](https://img.shields.io/github/forks/leongxudong/MSMQ-Vulnerbaility.svg)
-
-
-## CVE-2020-7699
- This affects the package express-fileupload before 1.1.8. If the parseNested option is enabled, sending a corrupt HTTP request can lead to denial of service or arbitrary code execution.
-
-- [https://github.com/zodiac12-pub/CVE-2020-7699_reproduce](https://github.com/zodiac12-pub/CVE-2020-7699_reproduce) :  ![starts](https://img.shields.io/github/stars/zodiac12-pub/CVE-2020-7699_reproduce.svg) ![forks](https://img.shields.io/github/forks/zodiac12-pub/CVE-2020-7699_reproduce.svg)
+- [https://github.com/harish0x/CVE-2025-29602](https://github.com/harish0x/CVE-2025-29602) :  ![starts](https://img.shields.io/github/stars/harish0x/CVE-2025-29602.svg) ![forks](https://img.shields.io/github/forks/harish0x/CVE-2025-29602.svg)
 
 
-## CVE-2013-0169
- The TLS protocol 1.1 and 1.2 and the DTLS protocol 1.0 and 1.2, as used in OpenSSL, OpenJDK, PolarSSL, and other products, do not properly consider timing side-channel attacks on a MAC check requirement during the processing of malformed CBC padding, which allows remote attackers to conduct distinguishing attacks and plaintext-recovery attacks via statistical analysis of timing data for crafted packets, aka the "Lucky Thirteen" issue.
+## CVE-2025-0401
+ A vulnerability classified as critical has been found in 1902756969 reggie 1.0. Affected is the function download of the file src/main/java/com/itheima/reggie/controller/CommonController.java. The manipulation of the argument name leads to path traversal. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 
-- [https://github.com/wearohat/lucky13](https://github.com/wearohat/lucky13) :  ![starts](https://img.shields.io/github/stars/wearohat/lucky13.svg) ![forks](https://img.shields.io/github/forks/wearohat/lucky13.svg)
-
-
-## CVE-2003-0282
- Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a ".." sequence.
-
-- [https://github.com/angus-cx/cve-2003-0282](https://github.com/angus-cx/cve-2003-0282) :  ![starts](https://img.shields.io/github/stars/angus-cx/cve-2003-0282.svg) ![forks](https://img.shields.io/github/forks/angus-cx/cve-2003-0282.svg)
+- [https://github.com/CyberSecurityUP/CVE-2025-0401](https://github.com/CyberSecurityUP/CVE-2025-0401) :  ![starts](https://img.shields.io/github/stars/CyberSecurityUP/CVE-2025-0401.svg) ![forks](https://img.shields.io/github/forks/CyberSecurityUP/CVE-2025-0401.svg)
 
 
-## CVE-2002-0082
- The dbm and shm session cache code in mod_ssl before 2.8.7-1.3.23, and Apache-SSL before 1.3.22+1.46, does not properly initialize memory using the i2d_SSL_SESSION function, which allows remote attackers to use a buffer overflow to execute arbitrary code via a large client certificate that is signed by a trusted Certificate Authority (CA), which produces a large serialized session.
+## CVE-2024-50623
+ In Cleo Harmony before 5.8.0.21, VLTrader before 5.8.0.21, and LexiCom before 5.8.0.21, there is an unrestricted file upload and download that could lead to remote code execution.
 
-- [https://github.com/ratiros01/CVE-2002-0082](https://github.com/ratiros01/CVE-2002-0082) :  ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2002-0082.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2002-0082.svg)
+- [https://github.com/congdong007/CVE-2024-50623-poc](https://github.com/congdong007/CVE-2024-50623-poc) :  ![starts](https://img.shields.io/github/stars/congdong007/CVE-2024-50623-poc.svg) ![forks](https://img.shields.io/github/forks/congdong007/CVE-2024-50623-poc.svg)
+
+
+## CVE-2024-10441
+ Improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) before 1.1-65374 and Synology DiskStation Manager (DSM) before 7.2-64570-4, 7.2.1-69057-6 and 7.2.2-72806-1 allows remote attackers to execute arbitrary code via unspecified vectors.
+
+- [https://github.com/hazzzein/CVE-2024-10441](https://github.com/hazzzein/CVE-2024-10441) :  ![starts](https://img.shields.io/github/stars/hazzzein/CVE-2024-10441.svg) ![forks](https://img.shields.io/github/forks/hazzzein/CVE-2024-10441.svg)
+
+
+## CVE-2023-32309
+ PyMdown Extensions is a set of extensions for the `Python-Markdown` markdown project. In affected versions an arbitrary file read is possible when using include file syntax. By using the syntax `--8--"/etc/passwd"` or `--8--"/proc/self/environ"` the content of these files will be rendered in the generated documentation. Additionally, a path relative to a specified, allowed base path can also be used to render the content of a file outside the specified base paths: `--8-- "../../../../etc/passwd"`. Within the Snippets extension, there exists a `base_path` option but the implementation is vulnerable to Directory Traversal. The vulnerable section exists in `get_snippet_path(self, path)` lines 155 to 174 in snippets.py. Any readable file on the host where the plugin is executing may have its content exposed. This can impact any use of Snippets that exposes the use of Snippets to external users. It is never recommended to use Snippets to process user-facing, dynamic content. It is designed to process known content on the backend under the control of the host, but if someone were to accidentally enable it for user-facing content, undesired information could be exposed. This issue has been addressed in version 10.0. Users are advised to upgrade. Users unable to upgrade may restrict relative paths by filtering input.
+
+- [https://github.com/itlabbet/CVE-2023-32309](https://github.com/itlabbet/CVE-2023-32309) :  ![starts](https://img.shields.io/github/stars/itlabbet/CVE-2023-32309.svg) ![forks](https://img.shields.io/github/forks/itlabbet/CVE-2023-32309.svg)
+
+
+## CVE-2023-29357
+ Microsoft SharePoint Server Elevation of Privilege Vulnerability
+
+- [https://github.com/DeividasTerechovas/SOC227-Microsoft-SharePoint-Server-Elevation-of-Privilege-Possible-CVE-2023-29357-Exploitation](https://github.com/DeividasTerechovas/SOC227-Microsoft-SharePoint-Server-Elevation-of-Privilege-Possible-CVE-2023-29357-Exploitation) :  ![starts](https://img.shields.io/github/stars/DeividasTerechovas/SOC227-Microsoft-SharePoint-Server-Elevation-of-Privilege-Possible-CVE-2023-29357-Exploitation.svg) ![forks](https://img.shields.io/github/forks/DeividasTerechovas/SOC227-Microsoft-SharePoint-Server-Elevation-of-Privilege-Possible-CVE-2023-29357-Exploitation.svg)
+
+
+## CVE-2023-22047
+ Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Portal).  Supported versions that are affected are 8.59 and  8.60. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise PeopleSoft Enterprise PeopleTools.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all PeopleSoft Enterprise PeopleTools accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+
+- [https://github.com/tuo4n8/CVE-2023-22047](https://github.com/tuo4n8/CVE-2023-22047) :  ![starts](https://img.shields.io/github/stars/tuo4n8/CVE-2023-22047.svg) ![forks](https://img.shields.io/github/forks/tuo4n8/CVE-2023-22047.svg)
+
+
+## CVE-2023-5561
+ WordPress does not properly restrict which user fields are searchable via the REST API, allowing unauthenticated attackers to discern the email addresses of users who have published public posts on an affected website via an Oracle style attack
+
+- [https://github.com/rootxsushant/CVE-2023-5561-POC-Updated](https://github.com/rootxsushant/CVE-2023-5561-POC-Updated) :  ![starts](https://img.shields.io/github/stars/rootxsushant/CVE-2023-5561-POC-Updated.svg) ![forks](https://img.shields.io/github/forks/rootxsushant/CVE-2023-5561-POC-Updated.svg)
+
+
+## CVE-2022-22536
+ SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, ABAP Platform, SAP Content Server 7.53 and SAP Web Dispatcher are vulnerable for request smuggling and request concatenation. An unauthenticated attacker can prepend a victim's request with arbitrary data. This way, the attacker can execute functions impersonating the victim or poison intermediary Web caches. A successful attack could result in complete compromise of Confidentiality, Integrity and Availability of the system.
+
+- [https://github.com/BecodoExploit-mrCAT/SAPGateBreaker-Exploit](https://github.com/BecodoExploit-mrCAT/SAPGateBreaker-Exploit) :  ![starts](https://img.shields.io/github/stars/BecodoExploit-mrCAT/SAPGateBreaker-Exploit.svg) ![forks](https://img.shields.io/github/forks/BecodoExploit-mrCAT/SAPGateBreaker-Exploit.svg)
+
+
+## CVE-2021-3493
+ The overlayfs implementation in the linux kernel did not properly validate with respect to user namespaces the setting of file capabilities on files in an underlying file system. Due to the combination of unprivileged user namespaces along with a patch carried in the Ubuntu kernel to allow unprivileged overlay mounts, an attacker could use this to gain elevated privileges.
+
+- [https://github.com/azazhe1/Ransomware_CVE_2021_3493](https://github.com/azazhe1/Ransomware_CVE_2021_3493) :  ![starts](https://img.shields.io/github/stars/azazhe1/Ransomware_CVE_2021_3493.svg) ![forks](https://img.shields.io/github/forks/azazhe1/Ransomware_CVE_2021_3493.svg)
 
