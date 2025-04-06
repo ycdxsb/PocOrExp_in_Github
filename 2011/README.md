@@ -124,6 +124,8 @@
 
 - [https://github.com/sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/sug4r-wr41th/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/sug4r-wr41th/CVE-2011-2523.svg)
 
+- [https://github.com/madanokr001/CVE-2011-2523](https://github.com/madanokr001/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/madanokr001/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/madanokr001/CVE-2011-2523.svg)
+
 - [https://github.com/XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/XiangSi-Howard/CTF---CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/XiangSi-Howard/CTF---CVE-2011-2523.svg)
 
 - [https://github.com/Shubham-2k1/Exploit-CVE-2011-2523](https://github.com/Shubham-2k1/Exploit-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Shubham-2k1/Exploit-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Shubham-2k1/Exploit-CVE-2011-2523.svg)
