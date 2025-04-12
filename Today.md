@@ -1,129 +1,99 @@
-# Update 2025-04-11
-## CVE-2025-31161
- CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as exploited in the wild in March and April 2025, aka "Unauthenticated HTTP(S) port access." A race condition exists in the AWS4-HMAC (compatible with S3) authorization method of the HTTP component of the FTP server. The server first verifies the existence of the user by performing a call to login_user_pass() with no password requirement. This will authenticate the session through the HMAC verification process and up until the server checks for user verification once more. The vulnerability can be further stabilized, eliminating the need for successfully triggering a race condition, by sending a mangled AWS4-HMAC header. By providing only the username and a following slash (/), the server will successfully find a username, which triggers the successful anypass authentication process, but the server will fail to find the expected SignedHeaders entry, resulting in an index-out-of-bounds error that stops the code from reaching the session cleanup. Together, these issues make it trivial to authenticate as any known or guessable user (e.g., crushadmin), and can lead to a full compromise of the system by obtaining an administrative account.
+# Update 2025-04-12
+## CVE-2025-31033
+ Cross-Site Request Forgery (CSRF) vulnerability in Adam Nowak Buddypress Humanity allows Cross Site Request Forgery. This issue affects Buddypress Humanity: from n/a through 1.2.
 
-- [https://github.com/llussiess/CVE-2025-31161](https://github.com/llussiess/CVE-2025-31161) :  ![starts](https://img.shields.io/github/stars/llussiess/CVE-2025-31161.svg) ![forks](https://img.shields.io/github/forks/llussiess/CVE-2025-31161.svg)
-
-
-## CVE-2025-31125
- Vite is a frontend tooling framework for javascript. Vite exposes content of non-allowed files using ?inline&import or ?raw?import. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) are affected. This vulnerability is fixed in 6.2.4, 6.1.3, 6.0.13, 5.4.16, and 4.5.11.
-
-- [https://github.com/jackieya/ViteVulScan](https://github.com/jackieya/ViteVulScan) :  ![starts](https://img.shields.io/github/stars/jackieya/ViteVulScan.svg) ![forks](https://img.shields.io/github/forks/jackieya/ViteVulScan.svg)
-
-
-## CVE-2025-30208
- Vite, a provider of frontend development tooling, has a vulnerability in versions prior to 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10. `@fs` denies access to files outside of Vite serving allow list. Adding `?raw??` or `?import&raw??` to the URL bypasses this limitation and returns the file content if it exists. This bypass exists because trailing separators such as `?` are removed in several places, but are not accounted for in query string regexes. The contents of arbitrary files can be returned to the browser. Only apps explicitly exposing the Vite dev server to the network (using `--host` or `server.host` config option) are affected. Versions 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10 fix the issue.
-
-- [https://github.com/jackieya/ViteVulScan](https://github.com/jackieya/ViteVulScan) :  ![starts](https://img.shields.io/github/stars/jackieya/ViteVulScan.svg) ![forks](https://img.shields.io/github/forks/jackieya/ViteVulScan.svg)
-- [https://github.com/4xura/CVE-2025-30208](https://github.com/4xura/CVE-2025-30208) :  ![starts](https://img.shields.io/github/stars/4xura/CVE-2025-30208.svg) ![forks](https://img.shields.io/github/forks/4xura/CVE-2025-30208.svg)
+- [https://github.com/Nxploited/CVE-2025-31033](https://github.com/Nxploited/CVE-2025-31033) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-31033.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-31033.svg)
 
 
 ## CVE-2025-29927
  Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
 
-- [https://github.com/l1uk/nextjs-middleware-exploit](https://github.com/l1uk/nextjs-middleware-exploit) :  ![starts](https://img.shields.io/github/stars/l1uk/nextjs-middleware-exploit.svg) ![forks](https://img.shields.io/github/forks/l1uk/nextjs-middleware-exploit.svg)
+- [https://github.com/KaztoRay/CVE-2025-29927-Research](https://github.com/KaztoRay/CVE-2025-29927-Research) :  ![starts](https://img.shields.io/github/stars/KaztoRay/CVE-2025-29927-Research.svg) ![forks](https://img.shields.io/github/forks/KaztoRay/CVE-2025-29927-Research.svg)
 
 
-## CVE-2025-29810
- Improper access control in Active Directory Domain Services allows an authorized attacker to elevate privileges over a network.
+## CVE-2025-29017
+ A Remote Code Execution (RCE) vulnerability exists in Code Astro Internet Banking System 2.0.0 due to improper file upload validation in the profile_pic parameter within pages_view_client.php.
 
-- [https://github.com/aleongx/CVE-2025-29810-check](https://github.com/aleongx/CVE-2025-29810-check) :  ![starts](https://img.shields.io/github/stars/aleongx/CVE-2025-29810-check.svg) ![forks](https://img.shields.io/github/forks/aleongx/CVE-2025-29810-check.svg)
-
-
-## CVE-2025-29018
- A Stored Cross-Site Scripting (XSS) vulnerability exists in the name parameter of pages_add_acc_type.php in Code Astro Internet Banking System 2.0.0.
-
-- [https://github.com/b1tm4r/CVE-2025-29018](https://github.com/b1tm4r/CVE-2025-29018) :  ![starts](https://img.shields.io/github/stars/b1tm4r/CVE-2025-29018.svg) ![forks](https://img.shields.io/github/forks/b1tm4r/CVE-2025-29018.svg)
-
-
-## CVE-2025-26647
- Improper input validation in Windows Kerberos allows an unauthorized attacker to elevate privileges over a network.
-
-- [https://github.com/groshi215/CVE-2025-26647-Exploit](https://github.com/groshi215/CVE-2025-26647-Exploit) :  ![starts](https://img.shields.io/github/stars/groshi215/CVE-2025-26647-Exploit.svg) ![forks](https://img.shields.io/github/forks/groshi215/CVE-2025-26647-Exploit.svg)
-
-
-## CVE-2025-24985
- Integer overflow or wraparound in Windows Fast FAT Driver allows an unauthorized attacker to execute code locally.
-
-- [https://github.com/airbus-cert/cve-2025-24985](https://github.com/airbus-cert/cve-2025-24985) :  ![starts](https://img.shields.io/github/stars/airbus-cert/cve-2025-24985.svg) ![forks](https://img.shields.io/github/forks/airbus-cert/cve-2025-24985.svg)
+- [https://github.com/b1tm4r/CVE-2025-29017](https://github.com/b1tm4r/CVE-2025-29017) :  ![starts](https://img.shields.io/github/stars/b1tm4r/CVE-2025-29017.svg) ![forks](https://img.shields.io/github/forks/b1tm4r/CVE-2025-29017.svg)
 
 
 ## CVE-2025-24813
 Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
 
-- [https://github.com/f8l124/CVE-2025-24813-POC](https://github.com/f8l124/CVE-2025-24813-POC) :  ![starts](https://img.shields.io/github/stars/f8l124/CVE-2025-24813-POC.svg) ![forks](https://img.shields.io/github/forks/f8l124/CVE-2025-24813-POC.svg)
+- [https://github.com/Franconyu/Poc_for_CVE-2025-24813](https://github.com/Franconyu/Poc_for_CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/Franconyu/Poc_for_CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/Franconyu/Poc_for_CVE-2025-24813.svg)
 
 
-## CVE-2025-24221
- This issue was addressed with improved data access restriction. This issue is fixed in visionOS 2.4, iOS 18.4 and iPadOS 18.4, iPadOS 17.7.6. Sensitive keychain data may be accessible from an iOS backup.
+## CVE-2025-22457
+ A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6, Ivanti Policy Secure before version 22.7R1.4, and Ivanti ZTA Gateways before version 22.8R2.2 allows a remote unauthenticated attacker to achieve remote code execution.
 
-- [https://github.com/AnonymousDeveloper69/CVE-2025-24221](https://github.com/AnonymousDeveloper69/CVE-2025-24221) :  ![starts](https://img.shields.io/github/stars/AnonymousDeveloper69/CVE-2025-24221.svg) ![forks](https://img.shields.io/github/forks/AnonymousDeveloper69/CVE-2025-24221.svg)
-
-
-## CVE-2024-56071
- Incorrect Privilege Assignment vulnerability in Mike Leembruggen Simple Dashboard allows Privilege Escalation.This issue affects Simple Dashboard: from n/a through 2.0.
-
-- [https://github.com/Nxploited/CVE-2024-56071](https://github.com/Nxploited/CVE-2024-56071) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2024-56071.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2024-56071.svg)
+- [https://github.com/sfewer-r7/CVE-2025-22457](https://github.com/sfewer-r7/CVE-2025-22457) :  ![starts](https://img.shields.io/github/stars/sfewer-r7/CVE-2025-22457.svg) ![forks](https://img.shields.io/github/forks/sfewer-r7/CVE-2025-22457.svg)
+- [https://github.com/securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457) :  ![starts](https://img.shields.io/github/stars/securekomodo/CVE-2025-22457.svg) ![forks](https://img.shields.io/github/forks/securekomodo/CVE-2025-22457.svg)
 
 
-## CVE-2024-55210
- An issue in TOTVS Framework (Linha Protheus) 12.1.2310 allows attackers to bypass multi-factor authentication (MFA) via a crafted websocket message.
+## CVE-2025-3248
+code.
 
-- [https://github.com/c4cnm/CVE-2024-55210](https://github.com/c4cnm/CVE-2024-55210) :  ![starts](https://img.shields.io/github/stars/c4cnm/CVE-2024-55210.svg) ![forks](https://img.shields.io/github/forks/c4cnm/CVE-2024-55210.svg)
+- [https://github.com/xuemian168/CVE-2025-3248](https://github.com/xuemian168/CVE-2025-3248) :  ![starts](https://img.shields.io/github/stars/xuemian168/CVE-2025-3248.svg) ![forks](https://img.shields.io/github/forks/xuemian168/CVE-2025-3248.svg)
+- [https://github.com/PuddinCat/CVE-2025-3248-POC](https://github.com/PuddinCat/CVE-2025-3248-POC) :  ![starts](https://img.shields.io/github/stars/PuddinCat/CVE-2025-3248-POC.svg) ![forks](https://img.shields.io/github/forks/PuddinCat/CVE-2025-3248-POC.svg)
+
+
+## CVE-2025-2970
+ This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
+
+- [https://github.com/yxzrw/CVE-2025-29705](https://github.com/yxzrw/CVE-2025-29705) :  ![starts](https://img.shields.io/github/stars/yxzrw/CVE-2025-29705.svg) ![forks](https://img.shields.io/github/forks/yxzrw/CVE-2025-29705.svg)
+
+
+## CVE-2025-1974
+ A security issue was discovered in Kubernetes where under certain conditions, an unauthenticated attacker with access to the pod network can achieve arbitrary code execution in the context of the ingress-nginx controller. This can lead to disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)
+
+- [https://github.com/Rubby2001/CVE-2025-1974-go](https://github.com/Rubby2001/CVE-2025-1974-go) :  ![starts](https://img.shields.io/github/stars/Rubby2001/CVE-2025-1974-go.svg) ![forks](https://img.shields.io/github/forks/Rubby2001/CVE-2025-1974-go.svg)
 
 
 ## CVE-2024-48887
  A  unverified password change vulnerability in Fortinet FortiSwitch GUI may allow a remote unauthenticated attacker to change admin passwords via a specially crafted request
 
-- [https://github.com/IndominusRexes/CVE-2024-48887-Exploit](https://github.com/IndominusRexes/CVE-2024-48887-Exploit) :  ![starts](https://img.shields.io/github/stars/IndominusRexes/CVE-2024-48887-Exploit.svg) ![forks](https://img.shields.io/github/forks/IndominusRexes/CVE-2024-48887-Exploit.svg)
-- [https://github.com/cybersecplayground/CVE-2024-48887-FortiSwitch-Exploit](https://github.com/cybersecplayground/CVE-2024-48887-FortiSwitch-Exploit) :  ![starts](https://img.shields.io/github/stars/cybersecplayground/CVE-2024-48887-FortiSwitch-Exploit.svg) ![forks](https://img.shields.io/github/forks/cybersecplayground/CVE-2024-48887-FortiSwitch-Exploit.svg)
+- [https://github.com/groshi215/CVE-2024-48887-Exploit](https://github.com/groshi215/CVE-2024-48887-Exploit) :  ![starts](https://img.shields.io/github/stars/groshi215/CVE-2024-48887-Exploit.svg) ![forks](https://img.shields.io/github/forks/groshi215/CVE-2024-48887-Exploit.svg)
 
 
-## CVE-2024-25600
- Improper Control of Generation of Code ('Code Injection') vulnerability in Codeer Limited Bricks Builder allows Code Injection.This issue affects Bricks Builder: from n/a through 1.9.6.
+## CVE-2024-4577
+ In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use "Best-Fit" behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
 
-- [https://github.com/ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM](https://github.com/ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM) :  ![starts](https://img.shields.io/github/stars/ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM.svg) ![forks](https://img.shields.io/github/forks/ivanbg2004/ODH-BricksBuilder-CVE-2024-25600-THM.svg)
-
-
-## CVE-2024-21513
-AT:P: An attacker needs to be able to influence the input prompt, whilst the server is configured with the VectorSQLDatabaseChain plugin.
-
-- [https://github.com/nskath/CVE-2024-21513](https://github.com/nskath/CVE-2024-21513) :  ![starts](https://img.shields.io/github/stars/nskath/CVE-2024-21513.svg) ![forks](https://img.shields.io/github/forks/nskath/CVE-2024-21513.svg)
+- [https://github.com/deadlybangle/CVE-2024-4577-PHP-RCE](https://github.com/deadlybangle/CVE-2024-4577-PHP-RCE) :  ![starts](https://img.shields.io/github/stars/deadlybangle/CVE-2024-4577-PHP-RCE.svg) ![forks](https://img.shields.io/github/forks/deadlybangle/CVE-2024-4577-PHP-RCE.svg)
 
 
-## CVE-2024-3640
- An unquoted executable path exists in the Rockwell Automation FactoryTalk® Remote Access™ possibly resulting in remote code execution if exploited. While running the FTRA installer package, the executable path is not properly quoted, which could allow a threat actor to enter a malicious executable and run it as a System user. A threat actor needs admin privileges to exploit this vulnerability.
+## CVE-2023-20904
+ In getTrampolineIntent of SettingsActivity.java, there is a possible launch of arbitrary activity due to an Intent mismatch in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12L Android-13Android ID: A-246300272
 
-- [https://github.com/H1ng007/CVE-2024-3640_WafBypass](https://github.com/H1ng007/CVE-2024-3640_WafBypass) :  ![starts](https://img.shields.io/github/stars/H1ng007/CVE-2024-3640_WafBypass.svg) ![forks](https://img.shields.io/github/forks/H1ng007/CVE-2024-3640_WafBypass.svg)
-
-
-## CVE-2023-39141
- webui-aria2 commit 4fe2e was discovered to contain a path traversal vulnerability.
-
-- [https://github.com/MartiSabate/CVE-2023-39141-LFI-enumerator](https://github.com/MartiSabate/CVE-2023-39141-LFI-enumerator) :  ![starts](https://img.shields.io/github/stars/MartiSabate/CVE-2023-39141-LFI-enumerator.svg) ![forks](https://img.shields.io/github/forks/MartiSabate/CVE-2023-39141-LFI-enumerator.svg)
+- [https://github.com/FishMan132/CVE-2023-20904](https://github.com/FishMan132/CVE-2023-20904) :  ![starts](https://img.shields.io/github/stars/FishMan132/CVE-2023-20904.svg) ![forks](https://img.shields.io/github/forks/FishMan132/CVE-2023-20904.svg)
 
 
-## CVE-2022-37932
- A potential security vulnerability has been identified in Hewlett Packard Enterprise OfficeConnect 1820, 1850, and 1920S Network switches. The vulnerability could be remotely exploited to allow authentication bypass. HPE has made the following software updates to resolve the vulnerability in Hewlett Packard Enterprise OfficeConnect 1820, 1850 and 1920S Network switches versions: Prior to PT.02.14; Prior to PC.01.22; Prior to PO.01.21; Prior to PD.02.22;
+## CVE-2023-6063
+ The WP Fastest Cache WordPress plugin before 1.2.2 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by unauthenticated users.
 
-- [https://github.com/Tim-Hoekstra/CVE-2022-37932](https://github.com/Tim-Hoekstra/CVE-2022-37932) :  ![starts](https://img.shields.io/github/stars/Tim-Hoekstra/CVE-2022-37932.svg) ![forks](https://img.shields.io/github/forks/Tim-Hoekstra/CVE-2022-37932.svg)
-
-
-## CVE-2022-29464
- Certain WSO2 products allow unrestricted file upload with resultant remote code execution. The attacker must use a /fileupload endpoint with a Content-Disposition directory traversal sequence to reach a directory under the web root, such as a ../../../../repository/deployment/server/webapps directory. This affects WSO2 API Manager 2.2.0 up to 4.0.0, WSO2 Identity Server 5.2.0 up to 5.11.0, WSO2 Identity Server Analytics 5.4.0, 5.4.1, 5.5.0 and 5.6.0, WSO2 Identity Server as Key Manager 5.3.0 up to 5.11.0, WSO2 Enterprise Integrator 6.2.0 up to 6.6.0, WSO2 Open Banking AM 1.4.0 up to 2.0.0 and WSO2 Open Banking KM 1.4.0, up to 2.0.0.
-
-- [https://github.com/000pp/WSOB](https://github.com/000pp/WSOB) :  ![starts](https://img.shields.io/github/stars/000pp/WSOB.svg) ![forks](https://img.shields.io/github/forks/000pp/WSOB.svg)
+- [https://github.com/incommatose/CVE-2023-6063](https://github.com/incommatose/CVE-2023-6063) :  ![starts](https://img.shields.io/github/stars/incommatose/CVE-2023-6063.svg) ![forks](https://img.shields.io/github/forks/incommatose/CVE-2023-6063.svg)
 
 
-## CVE-2019-9670
- mailboxd component in Synacor Zimbra Collaboration Suite 8.7.x before 8.7.11p10 has an XML External Entity injection (XXE) vulnerability, as demonstrated by Autodiscover/Autodiscover.xml.
+## CVE-2022-39299
+ Passport-SAML is a SAML 2.0 authentication provider for Passport, the Node.js authentication library. A remote attacker may be able to bypass SAML authentication on a website using passport-saml. A successful attack requires that the attacker is in possession of an arbitrary IDP signed XML element. Depending on the IDP used, fully unauthenticated attacks (e.g without access to a valid user) might also be feasible if generation of a signed message can be triggered. Users should upgrade to passport-saml version 3.2.2 or newer. The issue was also present in the beta releases of `node-saml` before version 4.0.0-beta.5. If you cannot upgrade, disabling SAML authentication may be done as a workaround.
 
-- [https://github.com/000pp/zaber](https://github.com/000pp/zaber) :  ![starts](https://img.shields.io/github/stars/000pp/zaber.svg) ![forks](https://img.shields.io/github/forks/000pp/zaber.svg)
-- [https://github.com/000pp/arbimz](https://github.com/000pp/arbimz) :  ![starts](https://img.shields.io/github/stars/000pp/arbimz.svg) ![forks](https://img.shields.io/github/forks/000pp/arbimz.svg)
+- [https://github.com/KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research) :  ![starts](https://img.shields.io/github/stars/KaztoRay/CVE-2022-39299-Research.svg) ![forks](https://img.shields.io/github/forks/KaztoRay/CVE-2022-39299-Research.svg)
 
 
-## CVE-2017-1000486
- Primetek Primefaces 5.x is vulnerable to a weak encryption flaw resulting in remote code execution
+## CVE-2019-18634
+ In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigger a stack-based buffer overflow in the privileged sudo process. (pwfeedback is a default setting in Linux Mint and elementary OS; however, it is NOT the default for upstream and many other packages, and would exist only if enabled by an administrator.) The attacker needs to deliver a long string to the stdin of getln() in tgetpass.c.
 
-- [https://github.com/000pp/pwnfaces](https://github.com/000pp/pwnfaces) :  ![starts](https://img.shields.io/github/stars/000pp/pwnfaces.svg) ![forks](https://img.shields.io/github/forks/000pp/pwnfaces.svg)
+- [https://github.com/ngyinkit/cve-2019-18634](https://github.com/ngyinkit/cve-2019-18634) :  ![starts](https://img.shields.io/github/stars/ngyinkit/cve-2019-18634.svg) ![forks](https://img.shields.io/github/forks/ngyinkit/cve-2019-18634.svg)
+
+
+## CVE-2019-15107
+ An issue was discovered in Webmin =1.920. The parameter old in password_change.cgi contains a command injection vulnerability.
+
+- [https://github.com/Mattb709/CVE-2019-15107-Scanner](https://github.com/Mattb709/CVE-2019-15107-Scanner) :  ![starts](https://img.shields.io/github/stars/Mattb709/CVE-2019-15107-Scanner.svg) ![forks](https://img.shields.io/github/forks/Mattb709/CVE-2019-15107-Scanner.svg)
+- [https://github.com/Mattb709/CVE-2019-15107-Webmin-RCE-PoC](https://github.com/Mattb709/CVE-2019-15107-Webmin-RCE-PoC) :  ![starts](https://img.shields.io/github/stars/Mattb709/CVE-2019-15107-Webmin-RCE-PoC.svg) ![forks](https://img.shields.io/github/forks/Mattb709/CVE-2019-15107-Webmin-RCE-PoC.svg)
+
+
+## CVE-2019-11395
+ A buffer overflow in MailCarrier 2.51 allows remote attackers to execute arbitrary code via a long string, as demonstrated by SMTP RCPT TO, POP3 USER, POP3 LIST, POP3 TOP, or POP3 RETR.
+
+- [https://github.com/RafaelBicas/CVE-2019-11395](https://github.com/RafaelBicas/CVE-2019-11395) :  ![starts](https://img.shields.io/github/stars/RafaelBicas/CVE-2019-11395.svg) ![forks](https://img.shields.io/github/forks/RafaelBicas/CVE-2019-11395.svg)
 
