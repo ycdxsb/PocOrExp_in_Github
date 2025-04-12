@@ -557,6 +557,13 @@
 
 - [https://github.com/vincd/CVE-2015-4495](https://github.com/vincd/CVE-2015-4495) :  ![starts](https://img.shields.io/github/stars/vincd/CVE-2015-4495.svg) ![forks](https://img.shields.io/github/forks/vincd/CVE-2015-4495.svg)
 
+## CVE-2015-4133
+ Unrestricted file upload vulnerability in admin/scripts/FileUploader/php.php in the ReFlex Gallery plugin before 3.1.4 for WordPress allows remote attackers to execute arbitrary PHP code by uploading a file with a PHP extension, then accessing it via a direct request to the file in uploads/ directory.
+
+
+
+- [https://github.com/sug4r-wr41th/CVE-2015-4133](https://github.com/sug4r-wr41th/CVE-2015-4133) :  ![starts](https://img.shields.io/github/stars/sug4r-wr41th/CVE-2015-4133.svg) ![forks](https://img.shields.io/github/forks/sug4r-wr41th/CVE-2015-4133.svg)
+
 ## CVE-2015-4024
  Algorithmic complexity vulnerability in the multipart_buffer_headers function in main/rfc1867.c in PHP before 5.4.41, 5.5.x before 5.5.25, and 5.6.x before 5.6.9 allows remote attackers to cause a denial of service (CPU consumption) via crafted form data that triggers an improper order-of-growth outcome.
 
