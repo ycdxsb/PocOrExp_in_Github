@@ -40,7 +40,7 @@
 
 
 
-- [https://github.com/3t3rn4lv01d/CVE-2005-0575](https://github.com/3t3rn4lv01d/CVE-2005-0575) :  ![starts](https://img.shields.io/github/stars/3t3rn4lv01d/CVE-2005-0575.svg) ![forks](https://img.shields.io/github/forks/3t3rn4lv01d/CVE-2005-0575.svg)
+- [https://github.com/MayaOfVeil/CVE-2005-0575](https://github.com/MayaOfVeil/CVE-2005-0575) :  ![starts](https://img.shields.io/github/stars/MayaOfVeil/CVE-2005-0575.svg) ![forks](https://img.shields.io/github/forks/MayaOfVeil/CVE-2005-0575.svg)
 
 ## CVE-2005-0452
  Multiple cross-site scripting (XSS) vulnerabilities in Microsoft ASP.NET (.Net) 1.0 and 1.1 to SP1 allow remote attackers to inject arbitrary HTML or web script via Unicode representations for ASCII fullwidth characters that are converted to normal ASCII characters, including "" and "".
