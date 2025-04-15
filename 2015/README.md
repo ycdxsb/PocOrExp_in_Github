@@ -860,7 +860,7 @@
 
 
 
-- [https://github.com/3t3rn4lv01d/CVE-2015-1986](https://github.com/3t3rn4lv01d/CVE-2015-1986) :  ![starts](https://img.shields.io/github/stars/3t3rn4lv01d/CVE-2015-1986.svg) ![forks](https://img.shields.io/github/forks/3t3rn4lv01d/CVE-2015-1986.svg)
+- [https://github.com/MayaOfVeil/CVE-2015-1986](https://github.com/MayaOfVeil/CVE-2015-1986) :  ![starts](https://img.shields.io/github/stars/MayaOfVeil/CVE-2015-1986.svg) ![forks](https://img.shields.io/github/forks/MayaOfVeil/CVE-2015-1986.svg)
 
 ## CVE-2015-1855
  verify_certificate_identity in the OpenSSL extension in Ruby before 2.0.0 patchlevel 645, 2.1.x before 2.1.6, and 2.2.x before 2.2.2 does not properly validate hostnames, which allows remote attackers to spoof servers via vectors related to (1) multiple wildcards, (1) wildcards in IDNA names, (3) case sensitivity, and (4) non-ASCII characters.
