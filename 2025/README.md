@@ -5,6 +5,13 @@
 
 - [https://github.com/Nxploited/CVE-2025-39601](https://github.com/Nxploited/CVE-2025-39601) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-39601.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-39601.svg)
 
+## CVE-2025-32682
+ Unrestricted Upload of File with Dangerous Type vulnerability in RomanCode MapSVG Lite allows Upload a Web Shell to a Web Server. This issue affects MapSVG Lite: from n/a through 8.5.34.
+
+
+
+- [https://github.com/Nxploited/CVE-2025-32682](https://github.com/Nxploited/CVE-2025-32682) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-32682.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-32682.svg)
+
 ## CVE-2025-32641
  Cross-Site Request Forgery (CSRF) vulnerability in anantaddons Anant Addons for Elementor allows Cross Site Request Forgery. This issue affects Anant Addons for Elementor: from n/a through 1.1.5.
 
@@ -19,12 +26,35 @@
 
 - [https://github.com/Nxploited/CVE-2025-32579](https://github.com/Nxploited/CVE-2025-32579) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-32579.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-32579.svg)
 
+## CVE-2025-32433
+ Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.
+
+
+
+- [https://github.com/ProDefense/CVE-2025-32433](https://github.com/ProDefense/CVE-2025-32433) :  ![starts](https://img.shields.io/github/stars/ProDefense/CVE-2025-32433.svg) ![forks](https://img.shields.io/github/forks/ProDefense/CVE-2025-32433.svg)
+
+- [https://github.com/LemieOne/CVE-2025-32433](https://github.com/LemieOne/CVE-2025-32433) :  ![starts](https://img.shields.io/github/stars/LemieOne/CVE-2025-32433.svg) ![forks](https://img.shields.io/github/forks/LemieOne/CVE-2025-32433.svg)
+
+- [https://github.com/omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC](https://github.com/omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC) :  ![starts](https://img.shields.io/github/stars/omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC.svg) ![forks](https://img.shields.io/github/forks/omer-efe-curkus/CVE-2025-32433-Erlang-OTP-SSH-RCE-PoC.svg)
+
+- [https://github.com/darses/CVE-2025-32433](https://github.com/darses/CVE-2025-32433) :  ![starts](https://img.shields.io/github/stars/darses/CVE-2025-32433.svg) ![forks](https://img.shields.io/github/forks/darses/CVE-2025-32433.svg)
+
+- [https://github.com/teamtopkarl/CVE-2025-32433](https://github.com/teamtopkarl/CVE-2025-32433) :  ![starts](https://img.shields.io/github/stars/teamtopkarl/CVE-2025-32433.svg) ![forks](https://img.shields.io/github/forks/teamtopkarl/CVE-2025-32433.svg)
+
+- [https://github.com/Epivalent/CVE-2025-32433-detection](https://github.com/Epivalent/CVE-2025-32433-detection) :  ![starts](https://img.shields.io/github/stars/Epivalent/CVE-2025-32433-detection.svg) ![forks](https://img.shields.io/github/forks/Epivalent/CVE-2025-32433-detection.svg)
+
+- [https://github.com/exa-offsec/ssh_erlangotp_rce](https://github.com/exa-offsec/ssh_erlangotp_rce) :  ![starts](https://img.shields.io/github/stars/exa-offsec/ssh_erlangotp_rce.svg) ![forks](https://img.shields.io/github/forks/exa-offsec/ssh_erlangotp_rce.svg)
+
+- [https://github.com/m0usem0use/erl_mouse](https://github.com/m0usem0use/erl_mouse) :  ![starts](https://img.shields.io/github/stars/m0usem0use/erl_mouse.svg) ![forks](https://img.shields.io/github/forks/m0usem0use/erl_mouse.svg)
+
 ## CVE-2025-32395
  Vite is a frontend tooling framework for javascript. Prior to 6.2.6, 6.1.5, 6.0.15, 5.4.18, and 4.5.13, the contents of arbitrary files can be returned to the browser if the dev server is running on Node or Bun. HTTP 1.1 spec (RFC 9112) does not allow # in request-target. Although an attacker can send such a request. For those requests with an invalid request-line (it includes request-target), the spec recommends to reject them with 400 or 301. The same can be said for HTTP 2. On Node and Bun, those requests are not rejected internally and is passed to the user land. For those requests, the value of http.IncomingMessage.url contains #. Vite assumed req.url won't contain # when checking server.fs.deny, allowing those kinds of requests to bypass the check. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) and running the Vite dev server on runtimes that are not Deno (e.g. Node, Bun) are affected. This vulnerability is fixed in 6.2.6, 6.1.5, 6.0.15, 5.4.18, and 4.5.13.
 
 
 
 - [https://github.com/xuemian168/CVE-2025-30208](https://github.com/xuemian168/CVE-2025-30208) :  ![starts](https://img.shields.io/github/stars/xuemian168/CVE-2025-30208.svg) ![forks](https://img.shields.io/github/forks/xuemian168/CVE-2025-30208.svg)
+
+- [https://github.com/ruiwenya/CVE-2025-32395](https://github.com/ruiwenya/CVE-2025-32395) :  ![starts](https://img.shields.io/github/stars/ruiwenya/CVE-2025-32395.svg) ![forks](https://img.shields.io/github/forks/ruiwenya/CVE-2025-32395.svg)
 
 ## CVE-2025-32367
  The Oz Forensics face recognition application before 4.0.8 late 2023 allows PII retrieval via /statistic/list Insecure Direct Object Reference. NOTE: the number 4.0.8 was used for both the unpatched and patched versions.
@@ -328,25 +358,25 @@ Users are recommended to upgrade to version 1.15.1, which fixes the issue.
 
 - [https://github.com/BilalGns/CVE-2025-29927](https://github.com/BilalGns/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/BilalGns/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/BilalGns/CVE-2025-29927.svg)
 
-- [https://github.com/aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/aleongx/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/aleongx/CVE-2025-29927.svg)
-
-- [https://github.com/alastair66/CVE-2025-29927](https://github.com/alastair66/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/alastair66/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/alastair66/CVE-2025-29927.svg)
-
 - [https://github.com/iSee857/CVE-2025-29927](https://github.com/iSee857/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/iSee857/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/iSee857/CVE-2025-29927.svg)
 
 - [https://github.com/Balajih4kr/cve-2025-29927](https://github.com/Balajih4kr/cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/Balajih4kr/cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/Balajih4kr/cve-2025-29927.svg)
 
 - [https://github.com/jeymo092/cve-2025-29927](https://github.com/jeymo092/cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/jeymo092/cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/jeymo092/cve-2025-29927.svg)
 
+- [https://github.com/aleongx/CVE-2025-29927](https://github.com/aleongx/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/aleongx/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/aleongx/CVE-2025-29927.svg)
+
+- [https://github.com/alastair66/CVE-2025-29927](https://github.com/alastair66/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/alastair66/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/alastair66/CVE-2025-29927.svg)
+
 - [https://github.com/Gokul-Krishnan-V-R/cve-2025-29927](https://github.com/Gokul-Krishnan-V-R/cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/Gokul-Krishnan-V-R/cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/Gokul-Krishnan-V-R/cve-2025-29927.svg)
 
 - [https://github.com/0xcucumbersalad/cve-2025-29927](https://github.com/0xcucumbersalad/cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/0xcucumbersalad/cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/0xcucumbersalad/cve-2025-29927.svg)
 
+- [https://github.com/furmak331/CVE-2025-29927](https://github.com/furmak331/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/furmak331/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/furmak331/CVE-2025-29927.svg)
+
 - [https://github.com/nyctophile0969/CVE-2025-29927](https://github.com/nyctophile0969/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/nyctophile0969/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/nyctophile0969/CVE-2025-29927.svg)
 
 - [https://github.com/ricsirigu/CVE-2025-29927](https://github.com/ricsirigu/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/ricsirigu/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/ricsirigu/CVE-2025-29927.svg)
-
-- [https://github.com/furmak331/CVE-2025-29927](https://github.com/furmak331/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/furmak331/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/furmak331/CVE-2025-29927.svg)
 
 - [https://github.com/mhamzakhattak/CVE-2025-29927](https://github.com/mhamzakhattak/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/mhamzakhattak/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/mhamzakhattak/CVE-2025-29927.svg)
 
@@ -362,11 +392,11 @@ Users are recommended to upgrade to version 1.15.1, which fixes the issue.
 
 - [https://github.com/kOaDT/poc-cve-2025-29927](https://github.com/kOaDT/poc-cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/kOaDT/poc-cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/kOaDT/poc-cve-2025-29927.svg)
 
+- [https://github.com/yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo) :  ![starts](https://img.shields.io/github/stars/yuzu-juice/CVE-2025-29927_demo.svg) ![forks](https://img.shields.io/github/forks/yuzu-juice/CVE-2025-29927_demo.svg)
+
 - [https://github.com/serhalp/test-cve-2025-29927](https://github.com/serhalp/test-cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/serhalp/test-cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/serhalp/test-cve-2025-29927.svg)
 
 - [https://github.com/Nekicj/CVE-2025-29927-exploit](https://github.com/Nekicj/CVE-2025-29927-exploit) :  ![starts](https://img.shields.io/github/stars/Nekicj/CVE-2025-29927-exploit.svg) ![forks](https://img.shields.io/github/forks/Nekicj/CVE-2025-29927-exploit.svg)
-
-- [https://github.com/yuzu-juice/CVE-2025-29927_demo](https://github.com/yuzu-juice/CVE-2025-29927_demo) :  ![starts](https://img.shields.io/github/stars/yuzu-juice/CVE-2025-29927_demo.svg) ![forks](https://img.shields.io/github/forks/yuzu-juice/CVE-2025-29927_demo.svg)
 
 - [https://github.com/nocomp/CVE-2025-29927-scanner](https://github.com/nocomp/CVE-2025-29927-scanner) :  ![starts](https://img.shields.io/github/stars/nocomp/CVE-2025-29927-scanner.svg) ![forks](https://img.shields.io/github/forks/nocomp/CVE-2025-29927-scanner.svg)
 
@@ -384,13 +414,15 @@ Users are recommended to upgrade to version 1.15.1, which fixes the issue.
 
 - [https://github.com/enochgitgamefied/NextJS-CVE-2025-29927](https://github.com/enochgitgamefied/NextJS-CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/enochgitgamefied/NextJS-CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/enochgitgamefied/NextJS-CVE-2025-29927.svg)
 
-- [https://github.com/jmbowes/NextSecureScan](https://github.com/jmbowes/NextSecureScan) :  ![starts](https://img.shields.io/github/stars/jmbowes/NextSecureScan.svg) ![forks](https://img.shields.io/github/forks/jmbowes/NextSecureScan.svg)
-
 - [https://github.com/maronnjapan/claude-create-CVE-2025-29927](https://github.com/maronnjapan/claude-create-CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/maronnjapan/claude-create-CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/maronnjapan/claude-create-CVE-2025-29927.svg)
 
 - [https://github.com/0xPThree/next.js_cve-2025-29927](https://github.com/0xPThree/next.js_cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/0xPThree/next.js_cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/0xPThree/next.js_cve-2025-29927.svg)
 
+- [https://github.com/jmbowes/NextSecureScan](https://github.com/jmbowes/NextSecureScan) :  ![starts](https://img.shields.io/github/stars/jmbowes/NextSecureScan.svg) ![forks](https://img.shields.io/github/forks/jmbowes/NextSecureScan.svg)
+
 - [https://github.com/Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC) :  ![starts](https://img.shields.io/github/stars/Heimd411/CVE-2025-29927-PoC.svg) ![forks](https://img.shields.io/github/forks/Heimd411/CVE-2025-29927-PoC.svg)
+
+- [https://github.com/Grand-Moomin/Vuln-Next.js-CVE-2025-29927](https://github.com/Grand-Moomin/Vuln-Next.js-CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/Grand-Moomin/Vuln-Next.js-CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/Grand-Moomin/Vuln-Next.js-CVE-2025-29927.svg)
 
 - [https://github.com/pickovven/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/pickovven/vulnerable-nextjs-14-CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/pickovven/vulnerable-nextjs-14-CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/pickovven/vulnerable-nextjs-14-CVE-2025-29927.svg)
 
@@ -478,6 +510,13 @@ Users are recommended to upgrade to version 1.15.1, which fixes the issue.
 - [https://github.com/Nxploited/CVE-2025-28915](https://github.com/Nxploited/CVE-2025-28915) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-28915.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-28915.svg)
 
 - [https://github.com/Pei4AN/CVE-2025-28915](https://github.com/Pei4AN/CVE-2025-28915) :  ![starts](https://img.shields.io/github/stars/Pei4AN/CVE-2025-28915.svg) ![forks](https://img.shields.io/github/forks/Pei4AN/CVE-2025-28915.svg)
+
+## CVE-2025-28355
+ Volmarg Personal Management System 1.4.65 is vulnerable to Cross Site Request Forgery (CSRF) allowing attackers to execute arbitrary code and obtain sensitive information via the SameSite cookie attribute defaults value set to none
+
+
+
+- [https://github.com/abbisQQ/CVE-2025-28355](https://github.com/abbisQQ/CVE-2025-28355) :  ![starts](https://img.shields.io/github/stars/abbisQQ/CVE-2025-28355.svg) ![forks](https://img.shields.io/github/forks/abbisQQ/CVE-2025-28355.svg)
 
 ## CVE-2025-28009
  A SQL Injection vulnerability exists in the `u` parameter of the progress-body-weight.php endpoint of Dietiqa App v1.0.20.
@@ -862,6 +901,13 @@ required additional sanitizing to prevent a stored XSS risk.
 
 - [https://github.com/RoNiXxCybSeC0101/CVE-2025-25460](https://github.com/RoNiXxCybSeC0101/CVE-2025-25460) :  ![starts](https://img.shields.io/github/stars/RoNiXxCybSeC0101/CVE-2025-25460.svg) ![forks](https://img.shields.io/github/forks/RoNiXxCybSeC0101/CVE-2025-25460.svg)
 
+## CVE-2025-25427
+ A Stored cross-site scripting (XSS) vulnerability in upnp page of the web Interface in TP-Link WR841N v14/v14.6/v14.8 = Build 231119 Rel.67074n allows adjacent attackers to inject arbitrary JavaScript code via the port mapping description. This leads to an execution of the JavaScript payload when the upnp page is loaded.
+
+
+
+- [https://github.com/slin99/2025-25427](https://github.com/slin99/2025-25427) :  ![starts](https://img.shields.io/github/stars/slin99/2025-25427.svg) ![forks](https://img.shields.io/github/forks/slin99/2025-25427.svg)
+
 ## CVE-2025-25296
  Label Studio is an open source data labeling tool. Prior to version 1.16.0, Label Studio's `/projects/upload-example` endpoint allows injection of arbitrary HTML through a `GET` request with an appropriately crafted `label_config` query parameter. By crafting a specially formatted XML label config with inline task data containing malicious HTML/JavaScript, an attacker can achieve Cross-Site Scripting (XSS). While the application has a Content Security Policy (CSP), it is only set in report-only mode, making it ineffective at preventing script execution. The vulnerability exists because the upload-example endpoint renders user-provided HTML content without proper sanitization on a GET request. This allows attackers to inject and execute arbitrary JavaScript in victims' browsers by getting them to visit a maliciously crafted URL. This is considered vulnerable because it enables attackers to execute JavaScript in victims' contexts, potentially allowing theft of sensitive data, session hijacking, or other malicious actions. Version 1.16.0 contains a patch for the issue.
 
@@ -973,11 +1019,13 @@ Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fix
 
 - [https://github.com/beyond-devsecops/CVE-2025-24813](https://github.com/beyond-devsecops/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/beyond-devsecops/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/beyond-devsecops/CVE-2025-24813.svg)
 
-- [https://github.com/gregk4sec/CVE-2025-24813](https://github.com/gregk4sec/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/gregk4sec/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/gregk4sec/CVE-2025-24813.svg)
-
 - [https://github.com/AlperenY-cs/CVE-2025-24813](https://github.com/AlperenY-cs/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/AlperenY-cs/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/AlperenY-cs/CVE-2025-24813.svg)
 
+- [https://github.com/gregk4sec/CVE-2025-24813](https://github.com/gregk4sec/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/gregk4sec/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/gregk4sec/CVE-2025-24813.svg)
+
 - [https://github.com/tonyarris/CVE-2025-24813-PoC](https://github.com/tonyarris/CVE-2025-24813-PoC) :  ![starts](https://img.shields.io/github/stars/tonyarris/CVE-2025-24813-PoC.svg) ![forks](https://img.shields.io/github/forks/tonyarris/CVE-2025-24813-PoC.svg)
+
+- [https://github.com/Erosion2020/CVE-2025-24813-vulhub](https://github.com/Erosion2020/CVE-2025-24813-vulhub) :  ![starts](https://img.shields.io/github/stars/Erosion2020/CVE-2025-24813-vulhub.svg) ![forks](https://img.shields.io/github/forks/Erosion2020/CVE-2025-24813-vulhub.svg)
 
 - [https://github.com/Alaatk/CVE-2025-24813-POC](https://github.com/Alaatk/CVE-2025-24813-POC) :  ![starts](https://img.shields.io/github/stars/Alaatk/CVE-2025-24813-POC.svg) ![forks](https://img.shields.io/github/forks/Alaatk/CVE-2025-24813-POC.svg)
 
@@ -985,25 +1033,25 @@ Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fix
 
 - [https://github.com/manjula-aw/CVE-2025-24813](https://github.com/manjula-aw/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/manjula-aw/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/manjula-aw/CVE-2025-24813.svg)
 
-- [https://github.com/B1gN0Se/Tomcat-CVE-2025-24813](https://github.com/B1gN0Se/Tomcat-CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/B1gN0Se/Tomcat-CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/B1gN0Se/Tomcat-CVE-2025-24813.svg)
-
 - [https://github.com/GadaLuBau1337/CVE-2025-24813](https://github.com/GadaLuBau1337/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/GadaLuBau1337/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/GadaLuBau1337/CVE-2025-24813.svg)
+
+- [https://github.com/B1gN0Se/Tomcat-CVE-2025-24813](https://github.com/B1gN0Se/Tomcat-CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/B1gN0Se/Tomcat-CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/B1gN0Se/Tomcat-CVE-2025-24813.svg)
 
 - [https://github.com/horsehacks/CVE-2025-24813-checker](https://github.com/horsehacks/CVE-2025-24813-checker) :  ![starts](https://img.shields.io/github/stars/horsehacks/CVE-2025-24813-checker.svg) ![forks](https://img.shields.io/github/forks/horsehacks/CVE-2025-24813-checker.svg)
 
-- [https://github.com/La3B0z/CVE-2025-24813-POC](https://github.com/La3B0z/CVE-2025-24813-POC) :  ![starts](https://img.shields.io/github/stars/La3B0z/CVE-2025-24813-POC.svg) ![forks](https://img.shields.io/github/forks/La3B0z/CVE-2025-24813-POC.svg)
+- [https://github.com/ps-interactive/lab-cve-2025-24813](https://github.com/ps-interactive/lab-cve-2025-24813) :  ![starts](https://img.shields.io/github/stars/ps-interactive/lab-cve-2025-24813.svg) ![forks](https://img.shields.io/github/forks/ps-interactive/lab-cve-2025-24813.svg)
 
 - [https://github.com/Mattb709/CVE-2025-24813-Scanner](https://github.com/Mattb709/CVE-2025-24813-Scanner) :  ![starts](https://img.shields.io/github/stars/Mattb709/CVE-2025-24813-Scanner.svg) ![forks](https://img.shields.io/github/forks/Mattb709/CVE-2025-24813-Scanner.svg)
 
-- [https://github.com/ps-interactive/lab-cve-2025-24813](https://github.com/ps-interactive/lab-cve-2025-24813) :  ![starts](https://img.shields.io/github/stars/ps-interactive/lab-cve-2025-24813.svg) ![forks](https://img.shields.io/github/forks/ps-interactive/lab-cve-2025-24813.svg)
+- [https://github.com/La3B0z/CVE-2025-24813-POC](https://github.com/La3B0z/CVE-2025-24813-POC) :  ![starts](https://img.shields.io/github/stars/La3B0z/CVE-2025-24813-POC.svg) ![forks](https://img.shields.io/github/forks/La3B0z/CVE-2025-24813-POC.svg)
 
 - [https://github.com/f8l124/CVE-2025-24813-POC](https://github.com/f8l124/CVE-2025-24813-POC) :  ![starts](https://img.shields.io/github/stars/f8l124/CVE-2025-24813-POC.svg) ![forks](https://img.shields.io/github/forks/f8l124/CVE-2025-24813-POC.svg)
 
 - [https://github.com/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813](https://github.com/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/michael-david-fry/Apache-Tomcat-Vulnerability-POC-CVE-2025-24813.svg)
 
-- [https://github.com/Heimd411/CVE-2025-24813-noPoC](https://github.com/Heimd411/CVE-2025-24813-noPoC) :  ![starts](https://img.shields.io/github/stars/Heimd411/CVE-2025-24813-noPoC.svg) ![forks](https://img.shields.io/github/forks/Heimd411/CVE-2025-24813-noPoC.svg)
-
 - [https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813](https://github.com/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/n0n-zer0/Spring-Boot-Tomcat-CVE-2025-24813.svg)
+
+- [https://github.com/Heimd411/CVE-2025-24813-noPoC](https://github.com/Heimd411/CVE-2025-24813-noPoC) :  ![starts](https://img.shields.io/github/stars/Heimd411/CVE-2025-24813-noPoC.svg) ![forks](https://img.shields.io/github/forks/Heimd411/CVE-2025-24813-noPoC.svg)
 
 - [https://github.com/Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE](https://github.com/Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE) :  ![starts](https://img.shields.io/github/stars/Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE.svg) ![forks](https://img.shields.io/github/forks/Mattb709/CVE-2025-24813-PoC-Apache-Tomcat-RCE.svg)
 
@@ -1098,6 +1146,8 @@ Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fix
 
 - [https://github.com/FOLKS-iwd/CVE-2025-24071-msfvenom](https://github.com/FOLKS-iwd/CVE-2025-24071-msfvenom) :  ![starts](https://img.shields.io/github/stars/FOLKS-iwd/CVE-2025-24071-msfvenom.svg) ![forks](https://img.shields.io/github/forks/FOLKS-iwd/CVE-2025-24071-msfvenom.svg)
 
+- [https://github.com/Marcejr117/CVE-2025-24071_PoC](https://github.com/Marcejr117/CVE-2025-24071_PoC) :  ![starts](https://img.shields.io/github/stars/Marcejr117/CVE-2025-24071_PoC.svg) ![forks](https://img.shields.io/github/forks/Marcejr117/CVE-2025-24071_PoC.svg)
+
 - [https://github.com/shacojx/CVE-2025-24071-Exploit](https://github.com/shacojx/CVE-2025-24071-Exploit) :  ![starts](https://img.shields.io/github/stars/shacojx/CVE-2025-24071-Exploit.svg) ![forks](https://img.shields.io/github/forks/shacojx/CVE-2025-24071-Exploit.svg)
 
 - [https://github.com/ctabango/CVE-2025-24071_PoCExtra](https://github.com/ctabango/CVE-2025-24071_PoCExtra) :  ![starts](https://img.shields.io/github/stars/ctabango/CVE-2025-24071_PoCExtra.svg) ![forks](https://img.shields.io/github/forks/ctabango/CVE-2025-24071_PoCExtra.svg)
@@ -1110,7 +1160,7 @@ Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fix
 
 - [https://github.com/aleongx/CVE-2025-24071](https://github.com/aleongx/CVE-2025-24071) :  ![starts](https://img.shields.io/github/stars/aleongx/CVE-2025-24071.svg) ![forks](https://img.shields.io/github/forks/aleongx/CVE-2025-24071.svg)
 
-- [https://github.com/Marcejr117/CVE-2025-24071_PoC](https://github.com/Marcejr117/CVE-2025-24071_PoC) :  ![starts](https://img.shields.io/github/stars/Marcejr117/CVE-2025-24071_PoC.svg) ![forks](https://img.shields.io/github/forks/Marcejr117/CVE-2025-24071_PoC.svg)
+- [https://github.com/xigney/CVE-2025-24054_PoC](https://github.com/xigney/CVE-2025-24054_PoC) :  ![starts](https://img.shields.io/github/stars/xigney/CVE-2025-24054_PoC.svg) ![forks](https://img.shields.io/github/forks/xigney/CVE-2025-24054_PoC.svg)
 
 ## CVE-2025-24054
  External control of file name or path in Windows NTLM allows an unauthorized attacker to perform spoofing over a network.
@@ -1118,6 +1168,8 @@ Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fix
 
 
 - [https://github.com/Marcejr117/CVE-2025-24071_PoC](https://github.com/Marcejr117/CVE-2025-24071_PoC) :  ![starts](https://img.shields.io/github/stars/Marcejr117/CVE-2025-24071_PoC.svg) ![forks](https://img.shields.io/github/forks/Marcejr117/CVE-2025-24071_PoC.svg)
+
+- [https://github.com/xigney/CVE-2025-24054_PoC](https://github.com/xigney/CVE-2025-24054_PoC) :  ![starts](https://img.shields.io/github/stars/xigney/CVE-2025-24054_PoC.svg) ![forks](https://img.shields.io/github/forks/xigney/CVE-2025-24054_PoC.svg)
 
 ## CVE-2025-24016
  Wazuh is a free and open source platform used for threat prevention, detection, and response. Starting in version 4.4.0 and prior to version 4.9.1, an unsafe deserialization vulnerability allows for remote code execution on Wazuh servers. DistributedAPI parameters are a serialized as JSON and deserialized using `as_wazuh_object` (in `framework/wazuh/core/cluster/common.py`). If an attacker manages to inject an unsanitized dictionary in DAPI request/response, they can forge an unhandled exception (`__unhandled_exc__`) to evaluate arbitrary python code. The vulnerability can be triggered by anybody with API access (compromised dashboard or Wazuh servers in the cluster) or, in certain configurations, even by a compromised agent. Version 4.9.1 contains a fix.
@@ -1315,6 +1367,98 @@ you do not have method security annotations on parameterized types or methods, o
 
 - [https://github.com/1ucky7/cve-2025-22223-demo-1.0.0](https://github.com/1ucky7/cve-2025-22223-demo-1.0.0) :  ![starts](https://img.shields.io/github/stars/1ucky7/cve-2025-22223-demo-1.0.0.svg) ![forks](https://img.shields.io/github/forks/1ucky7/cve-2025-22223-demo-1.0.0.svg)
 
+## CVE-2025-21756
+ In the Linux kernel, the following vulnerability has been resolved:
+
+vsock: Keep the binding until socket destruction
+
+Preserve sockets bindings; this includes both resulting from an explicit
+bind() and those implicitly bound through autobind during connect().
+
+Prevents socket unbinding during a transport reassignment, which fixes a
+use-after-free:
+
+    1. vsock_create() (refcnt=1) calls vsock_insert_unbound() (refcnt=2)
+    2. transport-release() calls vsock_remove_bound() without checking if
+       sk was bound and moved to bound list (refcnt=1)
+    3. vsock_bind() assumes sk is in unbound list and before
+       __vsock_insert_bound(vsock_bound_sockets()) calls
+       __vsock_remove_bound() which does:
+           list_del_init(&vsk-bound_table); // nop
+           sock_put(&vsk-sk);               // refcnt=0
+
+BUG: KASAN: slab-use-after-free in __vsock_bind+0x62e/0x730
+Read of size 4 at addr ffff88816b46a74c by task a.out/2057
+ dump_stack_lvl+0x68/0x90
+ print_report+0x174/0x4f6
+ kasan_report+0xb9/0x190
+ __vsock_bind+0x62e/0x730
+ vsock_bind+0x97/0xe0
+ __sys_bind+0x154/0x1f0
+ __x64_sys_bind+0x6e/0xb0
+ do_syscall_64+0x93/0x1b0
+ entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+Allocated by task 2057:
+ kasan_save_stack+0x1e/0x40
+ kasan_save_track+0x10/0x30
+ __kasan_slab_alloc+0x85/0x90
+ kmem_cache_alloc_noprof+0x131/0x450
+ sk_prot_alloc+0x5b/0x220
+ sk_alloc+0x2c/0x870
+ __vsock_create.constprop.0+0x2e/0xb60
+ vsock_create+0xe4/0x420
+ __sock_create+0x241/0x650
+ __sys_socket+0xf2/0x1a0
+ __x64_sys_socket+0x6e/0xb0
+ do_syscall_64+0x93/0x1b0
+ entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+Freed by task 2057:
+ kasan_save_stack+0x1e/0x40
+ kasan_save_track+0x10/0x30
+ kasan_save_free_info+0x37/0x60
+ __kasan_slab_free+0x4b/0x70
+ kmem_cache_free+0x1a1/0x590
+ __sk_destruct+0x388/0x5a0
+ __vsock_bind+0x5e1/0x730
+ vsock_bind+0x97/0xe0
+ __sys_bind+0x154/0x1f0
+ __x64_sys_bind+0x6e/0xb0
+ do_syscall_64+0x93/0x1b0
+ entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+refcount_t: addition on 0; use-after-free.
+WARNING: CPU: 7 PID: 2057 at lib/refcount.c:25 refcount_warn_saturate+0xce/0x150
+RIP: 0010:refcount_warn_saturate+0xce/0x150
+ __vsock_bind+0x66d/0x730
+ vsock_bind+0x97/0xe0
+ __sys_bind+0x154/0x1f0
+ __x64_sys_bind+0x6e/0xb0
+ do_syscall_64+0x93/0x1b0
+ entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+refcount_t: underflow; use-after-free.
+WARNING: CPU: 7 PID: 2057 at lib/refcount.c:28 refcount_warn_saturate+0xee/0x150
+RIP: 0010:refcount_warn_saturate+0xee/0x150
+ vsock_remove_bound+0x187/0x1e0
+ __vsock_release+0x383/0x4a0
+ vsock_release+0x90/0x120
+ __sock_release+0xa3/0x250
+ sock_close+0x14/0x20
+ __fput+0x359/0xa80
+ task_work_run+0x107/0x1d0
+ do_exit+0x847/0x2560
+ do_group_exit+0xb8/0x250
+ __x64_sys_exit_group+0x3a/0x50
+ x64_sys_call+0xfec/0x14f0
+ do_syscall_64+0x93/0x1b0
+ entry_SYSCALL_64_after_hwframe+0x76/0x7e
+
+
+
+- [https://github.com/hoefler02/CVE-2025-21756](https://github.com/hoefler02/CVE-2025-21756) :  ![starts](https://img.shields.io/github/stars/hoefler02/CVE-2025-21756.svg) ![forks](https://img.shields.io/github/forks/hoefler02/CVE-2025-21756.svg)
+
 ## CVE-2025-21420
  Windows Disk Cleanup Tool Elevation of Privilege Vulnerability
 
@@ -1391,15 +1535,15 @@ Note: Software versions which have reached End of Technical Support (EoTS) are n
 
 
 
-- [https://github.com/itssixtyn3in/CVE-2025-3292025](https://github.com/itssixtyn3in/CVE-2025-3292025) :  ![starts](https://img.shields.io/github/stars/itssixtyn3in/CVE-2025-3292025.svg) ![forks](https://img.shields.io/github/forks/itssixtyn3in/CVE-2025-3292025.svg)
-
 - [https://github.com/itssixtyn3in/CVE-2025-3292027](https://github.com/itssixtyn3in/CVE-2025-3292027) :  ![starts](https://img.shields.io/github/stars/itssixtyn3in/CVE-2025-3292027.svg) ![forks](https://img.shields.io/github/forks/itssixtyn3in/CVE-2025-3292027.svg)
+
+- [https://github.com/itssixtyn3in/CVE-2025-3292025](https://github.com/itssixtyn3in/CVE-2025-3292025) :  ![starts](https://img.shields.io/github/stars/itssixtyn3in/CVE-2025-3292025.svg) ![forks](https://img.shields.io/github/forks/itssixtyn3in/CVE-2025-3292025.svg)
 
 - [https://github.com/itssixtyn3in/CVE-2025-3292028](https://github.com/itssixtyn3in/CVE-2025-3292028) :  ![starts](https://img.shields.io/github/stars/itssixtyn3in/CVE-2025-3292028.svg) ![forks](https://img.shields.io/github/forks/itssixtyn3in/CVE-2025-3292028.svg)
 
-- [https://github.com/itssixtyn3in/CVE-2025-3292029](https://github.com/itssixtyn3in/CVE-2025-3292029) :  ![starts](https://img.shields.io/github/stars/itssixtyn3in/CVE-2025-3292029.svg) ![forks](https://img.shields.io/github/forks/itssixtyn3in/CVE-2025-3292029.svg)
-
 - [https://github.com/itssixtyn3in/CVE-2025-3292026](https://github.com/itssixtyn3in/CVE-2025-3292026) :  ![starts](https://img.shields.io/github/stars/itssixtyn3in/CVE-2025-3292026.svg) ![forks](https://img.shields.io/github/forks/itssixtyn3in/CVE-2025-3292026.svg)
+
+- [https://github.com/itssixtyn3in/CVE-2025-3292029](https://github.com/itssixtyn3in/CVE-2025-3292029) :  ![starts](https://img.shields.io/github/stars/itssixtyn3in/CVE-2025-3292029.svg) ![forks](https://img.shields.io/github/forks/itssixtyn3in/CVE-2025-3292029.svg)
 
 ## CVE-2025-3282
  The User Registration & Membership – Custom Registration Form, Login Form, and User Profile plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 4.1.3 via the user_registration_membership_register_member() due to missing validation on the 'membership_id' user controlled key. This makes it possible for unauthenticated attackers to update any user's membership to any other active or non-active membership type.
@@ -1435,11 +1579,11 @@ code.
 
 
 
+- [https://github.com/rhz0d/CVE-2025-3102](https://github.com/rhz0d/CVE-2025-3102) :  ![starts](https://img.shields.io/github/stars/rhz0d/CVE-2025-3102.svg) ![forks](https://img.shields.io/github/forks/rhz0d/CVE-2025-3102.svg)
+
 - [https://github.com/Nxploited/CVE-2025-3102](https://github.com/Nxploited/CVE-2025-3102) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-3102.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-3102.svg)
 
 - [https://github.com/itsismarcos/vanda-CVE-2025-3102](https://github.com/itsismarcos/vanda-CVE-2025-3102) :  ![starts](https://img.shields.io/github/stars/itsismarcos/vanda-CVE-2025-3102.svg) ![forks](https://img.shields.io/github/forks/itsismarcos/vanda-CVE-2025-3102.svg)
-
-- [https://github.com/rhz0d/CVE-2025-3102](https://github.com/rhz0d/CVE-2025-3102) :  ![starts](https://img.shields.io/github/stars/rhz0d/CVE-2025-3102.svg) ![forks](https://img.shields.io/github/forks/rhz0d/CVE-2025-3102.svg)
 
 ## CVE-2025-3048
  After completing a build with AWS Serverless Application Model Command Line Interface (SAM CLI) which include symlinks, the content of those symlinks are copied to the cache of the local workspace as regular files or directories. As a result, a user who does not have access to those symlinks outside of the Docker container would now have access via the local workspace.
@@ -1566,9 +1710,9 @@ The original vulnerability was being exploited in the wild.
 
 
 
-- [https://github.com/Habuon/CVE-2025-26240](https://github.com/Habuon/CVE-2025-26240) :  ![starts](https://img.shields.io/github/stars/Habuon/CVE-2025-26240.svg) ![forks](https://img.shields.io/github/forks/Habuon/CVE-2025-26240.svg)
-
 - [https://github.com/JaRm222/CVE-2025-26244](https://github.com/JaRm222/CVE-2025-26244) :  ![starts](https://img.shields.io/github/stars/JaRm222/CVE-2025-26244.svg) ![forks](https://img.shields.io/github/forks/JaRm222/CVE-2025-26244.svg)
+
+- [https://github.com/Habuon/CVE-2025-26240](https://github.com/Habuon/CVE-2025-26240) :  ![starts](https://img.shields.io/github/stars/Habuon/CVE-2025-26240.svg) ![forks](https://img.shields.io/github/forks/Habuon/CVE-2025-26240.svg)
 
 ## CVE-2025-2620
  A vulnerability has been found in D-Link DAP-1620 1.03 and classified as critical. This vulnerability affects the function mod_graph_auth_uri_handler of the file /storage of the component Authentication Handler. The manipulation leads to stack-based buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. This vulnerability only affects products that are no longer supported by the maintainer.
@@ -1688,9 +1832,9 @@ The specific flaw exists within the Hub Local API service, which listens on TCP 
 
 - [https://github.com/rjhaikal/POC-IngressNightmare-CVE-2025-1974](https://github.com/rjhaikal/POC-IngressNightmare-CVE-2025-1974) :  ![starts](https://img.shields.io/github/stars/rjhaikal/POC-IngressNightmare-CVE-2025-1974.svg) ![forks](https://img.shields.io/github/forks/rjhaikal/POC-IngressNightmare-CVE-2025-1974.svg)
 
-- [https://github.com/yanmarques/CVE-2025-1974](https://github.com/yanmarques/CVE-2025-1974) :  ![starts](https://img.shields.io/github/stars/yanmarques/CVE-2025-1974.svg) ![forks](https://img.shields.io/github/forks/yanmarques/CVE-2025-1974.svg)
-
 - [https://github.com/0xBingo/CVE-2025-1974](https://github.com/0xBingo/CVE-2025-1974) :  ![starts](https://img.shields.io/github/stars/0xBingo/CVE-2025-1974.svg) ![forks](https://img.shields.io/github/forks/0xBingo/CVE-2025-1974.svg)
+
+- [https://github.com/yanmarques/CVE-2025-1974](https://github.com/yanmarques/CVE-2025-1974) :  ![starts](https://img.shields.io/github/stars/yanmarques/CVE-2025-1974.svg) ![forks](https://img.shields.io/github/forks/yanmarques/CVE-2025-1974.svg)
 
 - [https://github.com/Rubby2001/CVE-2025-1974-go](https://github.com/Rubby2001/CVE-2025-1974-go) :  ![starts](https://img.shields.io/github/stars/Rubby2001/CVE-2025-1974-go.svg) ![forks](https://img.shields.io/github/forks/Rubby2001/CVE-2025-1974-go.svg)
 
@@ -1892,9 +2036,9 @@ The specific flaw exists within the handling of archived files. When extracting 
 
 - [https://github.com/rxwx/pulse-meter](https://github.com/rxwx/pulse-meter) :  ![starts](https://img.shields.io/github/stars/rxwx/pulse-meter.svg) ![forks](https://img.shields.io/github/forks/rxwx/pulse-meter.svg)
 
-- [https://github.com/44xo/CVE-2025-0282](https://github.com/44xo/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/44xo/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/44xo/CVE-2025-0282.svg)
-
 - [https://github.com/almanatra/CVE-2025-0282](https://github.com/almanatra/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/almanatra/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/almanatra/CVE-2025-0282.svg)
+
+- [https://github.com/44xo/CVE-2025-0282](https://github.com/44xo/CVE-2025-0282) :  ![starts](https://img.shields.io/github/stars/44xo/CVE-2025-0282.svg) ![forks](https://img.shields.io/github/forks/44xo/CVE-2025-0282.svg)
 
 ## CVE-2025-0108
  An authentication bypass in the Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to bypass the authentication otherwise required by the PAN-OS management web interface and invoke certain PHP scripts. While invoking these PHP scripts does not enable remote code execution, it can negatively impact integrity and confidentiality of PAN-OS.
