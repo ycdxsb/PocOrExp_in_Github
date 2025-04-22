@@ -1,75 +1,102 @@
-# Update 2025-04-21
-## CVE-2025-39436
- Unrestricted Upload of File with Dangerous Type vulnerability in aidraw I Draw allows Using Malicious Files. This issue affects I Draw: from n/a through 1.0.
+# Update 2025-04-22
+## CVE-2025-43929
+ open_actions.py in kitty before 0.41.0 does not ask for user confirmation before running a local executable file that may have been linked from an untrusted document (e.g., a document opened in KDE ghostwriter).
 
-- [https://github.com/Nxploited/CVE-2025-39436](https://github.com/Nxploited/CVE-2025-39436) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-39436.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-39436.svg)
-
-
-## CVE-2025-32433
- Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.
-
-- [https://github.com/ekomsSavior/POC_CVE-2025-32433](https://github.com/ekomsSavior/POC_CVE-2025-32433) :  ![starts](https://img.shields.io/github/stars/ekomsSavior/POC_CVE-2025-32433.svg) ![forks](https://img.shields.io/github/forks/ekomsSavior/POC_CVE-2025-32433.svg)
-- [https://github.com/0xPThree/cve-2025-32433](https://github.com/0xPThree/cve-2025-32433) :  ![starts](https://img.shields.io/github/stars/0xPThree/cve-2025-32433.svg) ![forks](https://img.shields.io/github/forks/0xPThree/cve-2025-32433.svg)
-- [https://github.com/SDX442/CVE-2025-32433](https://github.com/SDX442/CVE-2025-32433) :  ![starts](https://img.shields.io/github/stars/SDX442/CVE-2025-32433.svg) ![forks](https://img.shields.io/github/forks/SDX442/CVE-2025-32433.svg)
-- [https://github.com/meloppeitreet/CVE-2025-32433-Remote-Shell](https://github.com/meloppeitreet/CVE-2025-32433-Remote-Shell) :  ![starts](https://img.shields.io/github/stars/meloppeitreet/CVE-2025-32433-Remote-Shell.svg) ![forks](https://img.shields.io/github/forks/meloppeitreet/CVE-2025-32433-Remote-Shell.svg)
+- [https://github.com/0xBenCantCode/CVE-2025-43929](https://github.com/0xBenCantCode/CVE-2025-43929) :  ![starts](https://img.shields.io/github/stars/0xBenCantCode/CVE-2025-43929.svg) ![forks](https://img.shields.io/github/forks/0xBenCantCode/CVE-2025-43929.svg)
 
 
-## CVE-2025-24801
- GLPI is a free asset and IT management software package. An authenticated user can upload and force the execution of *.php files located on the GLPI server. This vulnerability is fixed in 10.0.18.
+## CVE-2025-43921
+ GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to create lists via the /mailman/create endpoint.
 
-- [https://github.com/r1beirin/CVE-2025-24801](https://github.com/r1beirin/CVE-2025-24801) :  ![starts](https://img.shields.io/github/stars/r1beirin/CVE-2025-24801.svg) ![forks](https://img.shields.io/github/forks/r1beirin/CVE-2025-24801.svg)
-
-
-## CVE-2024-42327
- A non-admin user account on the Zabbix frontend with the default User role, or with any other role that gives API access can exploit this vulnerability. An SQLi exists in the CUser class in the addRelatedObjects function, this function is being called from the CUser.get function which is available for every user who has API access.
-
-- [https://github.com/874anthony/CVE-2024-42327_Zabbix_SQLi](https://github.com/874anthony/CVE-2024-42327_Zabbix_SQLi) :  ![starts](https://img.shields.io/github/stars/874anthony/CVE-2024-42327_Zabbix_SQLi.svg) ![forks](https://img.shields.io/github/forks/874anthony/CVE-2024-42327_Zabbix_SQLi.svg)
+- [https://github.com/0NYX-MY7H/CVE-2025-43921](https://github.com/0NYX-MY7H/CVE-2025-43921) :  ![starts](https://img.shields.io/github/stars/0NYX-MY7H/CVE-2025-43921.svg) ![forks](https://img.shields.io/github/forks/0NYX-MY7H/CVE-2025-43921.svg)
 
 
-## CVE-2024-39943
- rejetto HFS (aka HTTP File Server) 3 before 0.52.10 on Linux, UNIX, and macOS allows OS command execution by remote authenticated users (if they have Upload permissions). This occurs because a shell is used to execute df (i.e., with execSync instead of spawnSync in child_process in Node.js).
+## CVE-2025-43920
+ GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to execute arbitrary OS commands via shell metacharacters in an email Subject line.
 
-- [https://github.com/JenmrR/Node.js-CVE-2024-39943](https://github.com/JenmrR/Node.js-CVE-2024-39943) :  ![starts](https://img.shields.io/github/stars/JenmrR/Node.js-CVE-2024-39943.svg) ![forks](https://img.shields.io/github/forks/JenmrR/Node.js-CVE-2024-39943.svg)
-
-
-## CVE-2024-31317
- In multiple functions of ZygoteProcess.java, there is a possible way to achieve code execution as any app via WRITE_SECURE_SETTINGS due to unsafe deserialization. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.
-
-- [https://github.com/Webldix/CVE-2024-31317-PoC-Deployer](https://github.com/Webldix/CVE-2024-31317-PoC-Deployer) :  ![starts](https://img.shields.io/github/stars/Webldix/CVE-2024-31317-PoC-Deployer.svg) ![forks](https://img.shields.io/github/forks/Webldix/CVE-2024-31317-PoC-Deployer.svg)
+- [https://github.com/0NYX-MY7H/CVE-2025-43920](https://github.com/0NYX-MY7H/CVE-2025-43920) :  ![starts](https://img.shields.io/github/stars/0NYX-MY7H/CVE-2025-43920.svg) ![forks](https://img.shields.io/github/forks/0NYX-MY7H/CVE-2025-43920.svg)
 
 
-## CVE-2024-8425
- The WooCommerce Ultimate Gift Card plugin for WordPress is vulnerable to arbitrary file uploads due to insufficient file type validation in the 'mwb_wgm_preview_mail' and 'mwb_wgm_woocommerce_add_cart_item_data' functions in all versions up to, and including, 2.6.0. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+## CVE-2025-43919
+ GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to read arbitrary files via ../ directory traversal at /mailman/private/mailman (aka the private archive authentication endpoint) via the username parameter.
 
-- [https://github.com/KTN1990/CVE-2024-8425](https://github.com/KTN1990/CVE-2024-8425) :  ![starts](https://img.shields.io/github/stars/KTN1990/CVE-2024-8425.svg) ![forks](https://img.shields.io/github/forks/KTN1990/CVE-2024-8425.svg)
-
-
-## CVE-2023-38408
- The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Code in /usr/lib is not necessarily safe for loading into ssh-agent.) NOTE: this issue exists because of an incomplete fix for CVE-2016-10009.
-
-- [https://github.com/TX-One/CVE-2023-38408](https://github.com/TX-One/CVE-2023-38408) :  ![starts](https://img.shields.io/github/stars/TX-One/CVE-2023-38408.svg) ![forks](https://img.shields.io/github/forks/TX-One/CVE-2023-38408.svg)
+- [https://github.com/0NYX-MY7H/CVE-2025-43919](https://github.com/0NYX-MY7H/CVE-2025-43919) :  ![starts](https://img.shields.io/github/stars/0NYX-MY7H/CVE-2025-43919.svg) ![forks](https://img.shields.io/github/forks/0NYX-MY7H/CVE-2025-43919.svg)
 
 
-## CVE-2021-44026
- Roundcube before 1.3.17 and 1.4.x before 1.4.12 is prone to a potential SQL injection via search or search_params.
+## CVE-2025-3102
+ The SureTriggers: All-in-One Automation Platform plugin for WordPress is vulnerable to an authentication bypass leading to administrative account creation due to a missing empty value check on the 'secret_key' value in the 'autheticate_user' function in all versions up to, and including, 1.0.78. This makes it possible for unauthenticated attackers to create administrator accounts on the target website when the plugin is installed and activated but not configured with an API key.
+
+- [https://github.com/dennisec/CVE-2025-3102](https://github.com/dennisec/CVE-2025-3102) :  ![starts](https://img.shields.io/github/stars/dennisec/CVE-2025-3102.svg) ![forks](https://img.shields.io/github/forks/dennisec/CVE-2025-3102.svg)
+
+
+## CVE-2025-0054
+ SAP NetWeaver Application Server Java does not sufficiently handle user input, resulting in a stored cross-site scripting vulnerability. The application allows attackers with basic user privileges to store a Javascript payload on the server, which could be later executed in the victim's web browser. With this the attacker might be able to read or modify information associated with the vulnerable web page.
+
+- [https://github.com/z3usx01/CVE-2025-0054](https://github.com/z3usx01/CVE-2025-0054) :  ![starts](https://img.shields.io/github/stars/z3usx01/CVE-2025-0054.svg) ![forks](https://img.shields.io/github/forks/z3usx01/CVE-2025-0054.svg)
+
+
+## CVE-2024-4577
+ In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use "Best-Fit" behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
+
+- [https://github.com/cheerfulempl/CVE-2024-4577-PHP-RCE](https://github.com/cheerfulempl/CVE-2024-4577-PHP-RCE) :  ![starts](https://img.shields.io/github/stars/cheerfulempl/CVE-2024-4577-PHP-RCE.svg) ![forks](https://img.shields.io/github/forks/cheerfulempl/CVE-2024-4577-PHP-RCE.svg)
+
+
+## CVE-2023-50257
+ eProsima Fast DDS (formerly Fast RTPS) is a C++ implementation of the Data Distribution Service standard of the Object Management Group. Even with the application of SROS2, due to the issue where the data (`p[UD]`) and `guid` values used to disconnect between nodes are not encrypted, a vulnerability has been discovered where a malicious attacker can forcibly disconnect a Subscriber and can deny a Subscriber attempting to connect. Afterwards, if the attacker sends the packet for disconnecting, which is data (`p[UD]`), to the Global Data Space (`239.255.0.1:7400`) using the said Publisher ID, all the Subscribers (Listeners) connected to the Publisher (Talker) will not receive any data and their connection will be disconnected. Moreover, if this disconnection packet is sent continuously, the Subscribers (Listeners) trying to connect will not be able to do so. Since the initial commit of the `SecurityManager.cpp` code (`init`, `on_process_handshake`) on Nov 8, 2016, the Disconnect Vulnerability in RTPS Packets Used by SROS2 has been present prior to versions 2.13.0, 2.12.2, 2.11.3, 2.10.3, and 2.6.7.
+
+- [https://github.com/Jminis/CVE-2023-50257](https://github.com/Jminis/CVE-2023-50257) :  ![starts](https://img.shields.io/github/stars/Jminis/CVE-2023-50257.svg) ![forks](https://img.shields.io/github/forks/Jminis/CVE-2023-50257.svg)
+
+
+## CVE-2023-43770
+ Roundcube before 1.4.14, 1.5.x before 1.5.4, and 1.6.x before 1.6.3 allows XSS via text/plain e-mail messages with crafted links because of program/lib/Roundcube/rcube_string_replacer.php behavior.
 
 - [https://github.com/skyllpro/CVE-2021-44026-PoC](https://github.com/skyllpro/CVE-2021-44026-PoC) :  ![starts](https://img.shields.io/github/stars/skyllpro/CVE-2021-44026-PoC.svg) ![forks](https://img.shields.io/github/forks/skyllpro/CVE-2021-44026-PoC.svg)
 
 
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+## CVE-2023-32233
+ In the Linux kernel through 6.3.1, a use-after-free in Netfilter nf_tables when processing batch requests can be abused to perform arbitrary read and write operations on kernel memory. Unprivileged local users can obtain root privileges. This occurs because anonymous sets are mishandled.
 
-- [https://github.com/Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2021-41773.svg)
-
-
-## CVE-2020-35730
- An XSS issue was discovered in Roundcube Webmail before 1.2.13, 1.3.x before 1.3.16, and 1.4.x before 1.4.10. The attacker can send a plain text e-mail message, with JavaScript in a link reference element that is mishandled by linkref_addindex in rcube_string_replacer.php.
-
-- [https://github.com/skyllpro/CVE-2021-44026-PoC](https://github.com/skyllpro/CVE-2021-44026-PoC) :  ![starts](https://img.shields.io/github/stars/skyllpro/CVE-2021-44026-PoC.svg) ![forks](https://img.shields.io/github/forks/skyllpro/CVE-2021-44026-PoC.svg)
+- [https://github.com/mr-spongebob/a-CVE-2023-32233](https://github.com/mr-spongebob/a-CVE-2023-32233) :  ![starts](https://img.shields.io/github/stars/mr-spongebob/a-CVE-2023-32233.svg) ![forks](https://img.shields.io/github/forks/mr-spongebob/a-CVE-2023-32233.svg)
 
 
-## CVE-2019-2215
- A use-after-free in binder.c allows an elevation of privilege from an application to the Linux Kernel. No user interaction is required to exploit this vulnerability, however exploitation does require either the installation of a malicious local application or a separate vulnerability in a network facing application.Product: AndroidAndroid ID: A-141720095
+## CVE-2023-21554
+ Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
 
-- [https://github.com/mouseos/cve-2019-2215_SH-M08](https://github.com/mouseos/cve-2019-2215_SH-M08) :  ![starts](https://img.shields.io/github/stars/mouseos/cve-2019-2215_SH-M08.svg) ![forks](https://img.shields.io/github/forks/mouseos/cve-2019-2215_SH-M08.svg)
+- [https://github.com/leongxudong/MSMQ-Vulnerability](https://github.com/leongxudong/MSMQ-Vulnerability) :  ![starts](https://img.shields.io/github/stars/leongxudong/MSMQ-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/leongxudong/MSMQ-Vulnerability.svg)
+
+
+## CVE-2021-41788
+ MediaTek microchips, as used in NETGEAR devices through 2021-12-13 and other devices, mishandle attempts at Wi-Fi authentication flooding. (Affected Chipsets MT7603E, MT7612, MT7613, MT7615, MT7622, MT7628, MT7629, MT7915; Affected Software Versions 7.4.0.0).
+
+- [https://github.com/efchatz/easy-exploits](https://github.com/efchatz/easy-exploits) :  ![starts](https://img.shields.io/github/stars/efchatz/easy-exploits.svg) ![forks](https://img.shields.io/github/forks/efchatz/easy-exploits.svg)
+
+
+## CVE-2021-41437
+ An HTTP response splitting attack in web application in ASUS RT-AX88U before v3.0.0.4.388.20558 allows an attacker to craft a specific URL that if an authenticated victim visits it, the URL will give access to the cloud storage of the attacker.
+
+- [https://github.com/efchatz/easy-exploits](https://github.com/efchatz/easy-exploits) :  ![starts](https://img.shields.io/github/stars/efchatz/easy-exploits.svg) ![forks](https://img.shields.io/github/forks/efchatz/easy-exploits.svg)
+
+
+## CVE-2021-41160
+ FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. In affected versions a malicious server might trigger out of bound writes in a connected client. Connections using GDI or SurfaceCommands to send graphics updates to the client might send `0` width/height or out of bound rectangles to trigger out of bound writes. With `0` width or heigth the memory allocation will be `0` but the missing bounds checks allow writing to the pointer at this (not allocated) region. This issue has been patched in FreeRDP 2.4.1.
+
+- [https://github.com/Jajangjaman/CVE-2021-41160](https://github.com/Jajangjaman/CVE-2021-41160) :  ![starts](https://img.shields.io/github/stars/Jajangjaman/CVE-2021-41160.svg) ![forks](https://img.shields.io/github/forks/Jajangjaman/CVE-2021-41160.svg)
+
+
+## CVE-2020-0796
+ A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.
+
+- [https://github.com/DannyRavi/nmap-scripts](https://github.com/DannyRavi/nmap-scripts) :  ![starts](https://img.shields.io/github/stars/DannyRavi/nmap-scripts.svg) ![forks](https://img.shields.io/github/forks/DannyRavi/nmap-scripts.svg)
+
+
+## CVE-2019-7238
+ Sonatype Nexus Repository Manager before 3.15.0 has Incorrect Access Control.
+
+- [https://github.com/DannyRavi/nmap-scripts](https://github.com/DannyRavi/nmap-scripts) :  ![starts](https://img.shields.io/github/stars/DannyRavi/nmap-scripts.svg) ![forks](https://img.shields.io/github/forks/DannyRavi/nmap-scripts.svg)
+
+
+## CVE-2017-10910
+ MQTT.js 2.x.x prior to 2.15.0 issue in handling PUBLISH tickets may lead to an attacker causing a denial-of-service condition.
+
+- [https://github.com/ossf-cve-benchmark/CVE-2017-10910](https://github.com/ossf-cve-benchmark/CVE-2017-10910) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-10910.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-10910.svg)
 
