@@ -1,102 +1,115 @@
-# Update 2025-04-22
-## CVE-2025-43929
- open_actions.py in kitty before 0.41.0 does not ask for user confirmation before running a local executable file that may have been linked from an untrusted document (e.g., a document opened in KDE ghostwriter).
+# Update 2025-04-23
+## CVE-2025-31200
+ A memory corruption issue was addressed with improved bounds checking. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. Processing an audio stream in a maliciously crafted media file may result in code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.
 
-- [https://github.com/0xBenCantCode/CVE-2025-43929](https://github.com/0xBenCantCode/CVE-2025-43929) :  ![starts](https://img.shields.io/github/stars/0xBenCantCode/CVE-2025-43929.svg) ![forks](https://img.shields.io/github/forks/0xBenCantCode/CVE-2025-43929.svg)
-
-
-## CVE-2025-43921
- GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to create lists via the /mailman/create endpoint.
-
-- [https://github.com/0NYX-MY7H/CVE-2025-43921](https://github.com/0NYX-MY7H/CVE-2025-43921) :  ![starts](https://img.shields.io/github/stars/0NYX-MY7H/CVE-2025-43921.svg) ![forks](https://img.shields.io/github/forks/0NYX-MY7H/CVE-2025-43921.svg)
+- [https://github.com/zhuowei/apple-positional-audio-codec-invalid-header](https://github.com/zhuowei/apple-positional-audio-codec-invalid-header) :  ![starts](https://img.shields.io/github/stars/zhuowei/apple-positional-audio-codec-invalid-header.svg) ![forks](https://img.shields.io/github/forks/zhuowei/apple-positional-audio-codec-invalid-header.svg)
 
 
-## CVE-2025-43920
- GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to execute arbitrary OS commands via shell metacharacters in an email Subject line.
+## CVE-2025-31161
+ CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as exploited in the wild in March and April 2025, aka "Unauthenticated HTTP(S) port access." A race condition exists in the AWS4-HMAC (compatible with S3) authorization method of the HTTP component of the FTP server. The server first verifies the existence of the user by performing a call to login_user_pass() with no password requirement. This will authenticate the session through the HMAC verification process and up until the server checks for user verification once more. The vulnerability can be further stabilized, eliminating the need for successfully triggering a race condition, by sending a mangled AWS4-HMAC header. By providing only the username and a following slash (/), the server will successfully find a username, which triggers the successful anypass authentication process, but the server will fail to find the expected SignedHeaders entry, resulting in an index-out-of-bounds error that stops the code from reaching the session cleanup. Together, these issues make it trivial to authenticate as any known or guessable user (e.g., crushadmin), and can lead to a full compromise of the system by obtaining an administrative account.
 
-- [https://github.com/0NYX-MY7H/CVE-2025-43920](https://github.com/0NYX-MY7H/CVE-2025-43920) :  ![starts](https://img.shields.io/github/stars/0NYX-MY7H/CVE-2025-43920.svg) ![forks](https://img.shields.io/github/forks/0NYX-MY7H/CVE-2025-43920.svg)
-
-
-## CVE-2025-43919
- GNU Mailman 2.1.39, as bundled in cPanel (and WHM), allows unauthenticated attackers to read arbitrary files via ../ directory traversal at /mailman/private/mailman (aka the private archive authentication endpoint) via the username parameter.
-
-- [https://github.com/0NYX-MY7H/CVE-2025-43919](https://github.com/0NYX-MY7H/CVE-2025-43919) :  ![starts](https://img.shields.io/github/stars/0NYX-MY7H/CVE-2025-43919.svg) ![forks](https://img.shields.io/github/forks/0NYX-MY7H/CVE-2025-43919.svg)
+- [https://github.com/TX-One/CVE-2025-31161](https://github.com/TX-One/CVE-2025-31161) :  ![starts](https://img.shields.io/github/stars/TX-One/CVE-2025-31161.svg) ![forks](https://img.shields.io/github/forks/TX-One/CVE-2025-31161.svg)
 
 
-## CVE-2025-3102
- The SureTriggers: All-in-One Automation Platform plugin for WordPress is vulnerable to an authentication bypass leading to administrative account creation due to a missing empty value check on the 'secret_key' value in the 'autheticate_user' function in all versions up to, and including, 1.0.78. This makes it possible for unauthenticated attackers to create administrator accounts on the target website when the plugin is installed and activated but not configured with an API key.
+## CVE-2025-30208
+ Vite, a provider of frontend development tooling, has a vulnerability in versions prior to 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10. `@fs` denies access to files outside of Vite serving allow list. Adding `?raw??` or `?import&raw??` to the URL bypasses this limitation and returns the file content if it exists. This bypass exists because trailing separators such as `?` are removed in several places, but are not accounted for in query string regexes. The contents of arbitrary files can be returned to the browser. Only apps explicitly exposing the Vite dev server to the network (using `--host` or `server.host` config option) are affected. Versions 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10 fix the issue.
 
-- [https://github.com/dennisec/CVE-2025-3102](https://github.com/dennisec/CVE-2025-3102) :  ![starts](https://img.shields.io/github/stars/dennisec/CVE-2025-3102.svg) ![forks](https://img.shields.io/github/forks/dennisec/CVE-2025-3102.svg)
-
-
-## CVE-2025-0054
- SAP NetWeaver Application Server Java does not sufficiently handle user input, resulting in a stored cross-site scripting vulnerability. The application allows attackers with basic user privileges to store a Javascript payload on the server, which could be later executed in the victim's web browser. With this the attacker might be able to read or modify information associated with the vulnerable web page.
-
-- [https://github.com/z3usx01/CVE-2025-0054](https://github.com/z3usx01/CVE-2025-0054) :  ![starts](https://img.shields.io/github/stars/z3usx01/CVE-2025-0054.svg) ![forks](https://img.shields.io/github/forks/z3usx01/CVE-2025-0054.svg)
+- [https://github.com/imbas007/CVE-2025-30208-template](https://github.com/imbas007/CVE-2025-30208-template) :  ![starts](https://img.shields.io/github/stars/imbas007/CVE-2025-30208-template.svg) ![forks](https://img.shields.io/github/forks/imbas007/CVE-2025-30208-template.svg)
 
 
-## CVE-2024-4577
- In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use "Best-Fit" behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
+## CVE-2025-30065
+Users are recommended to upgrade to version 1.15.1, which fixes the issue.
 
-- [https://github.com/cheerfulempl/CVE-2024-4577-PHP-RCE](https://github.com/cheerfulempl/CVE-2024-4577-PHP-RCE) :  ![starts](https://img.shields.io/github/stars/cheerfulempl/CVE-2024-4577-PHP-RCE.svg) ![forks](https://img.shields.io/github/forks/cheerfulempl/CVE-2024-4577-PHP-RCE.svg)
-
-
-## CVE-2023-50257
- eProsima Fast DDS (formerly Fast RTPS) is a C++ implementation of the Data Distribution Service standard of the Object Management Group. Even with the application of SROS2, due to the issue where the data (`p[UD]`) and `guid` values used to disconnect between nodes are not encrypted, a vulnerability has been discovered where a malicious attacker can forcibly disconnect a Subscriber and can deny a Subscriber attempting to connect. Afterwards, if the attacker sends the packet for disconnecting, which is data (`p[UD]`), to the Global Data Space (`239.255.0.1:7400`) using the said Publisher ID, all the Subscribers (Listeners) connected to the Publisher (Talker) will not receive any data and their connection will be disconnected. Moreover, if this disconnection packet is sent continuously, the Subscribers (Listeners) trying to connect will not be able to do so. Since the initial commit of the `SecurityManager.cpp` code (`init`, `on_process_handshake`) on Nov 8, 2016, the Disconnect Vulnerability in RTPS Packets Used by SROS2 has been present prior to versions 2.13.0, 2.12.2, 2.11.3, 2.10.3, and 2.6.7.
-
-- [https://github.com/Jminis/CVE-2023-50257](https://github.com/Jminis/CVE-2023-50257) :  ![starts](https://img.shields.io/github/stars/Jminis/CVE-2023-50257.svg) ![forks](https://img.shields.io/github/forks/Jminis/CVE-2023-50257.svg)
+- [https://github.com/ThreatRadarAI/TRA-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation-](https://github.com/ThreatRadarAI/TRA-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation-) :  ![starts](https://img.shields.io/github/stars/ThreatRadarAI/TRA-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation-.svg) ![forks](https://img.shields.io/github/forks/ThreatRadarAI/TRA-001-Critical-RCE-Vulnerability-in-Apache-Parquet-CVE-2025-30065-Simulation-.svg)
 
 
-## CVE-2023-43770
- Roundcube before 1.4.14, 1.5.x before 1.5.4, and 1.6.x before 1.6.3 allows XSS via text/plain e-mail messages with crafted links because of program/lib/Roundcube/rcube_string_replacer.php behavior.
+## CVE-2025-29927
+ Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
 
-- [https://github.com/skyllpro/CVE-2021-44026-PoC](https://github.com/skyllpro/CVE-2021-44026-PoC) :  ![starts](https://img.shields.io/github/stars/skyllpro/CVE-2021-44026-PoC.svg) ![forks](https://img.shields.io/github/forks/skyllpro/CVE-2021-44026-PoC.svg)
-
-
-## CVE-2023-32233
- In the Linux kernel through 6.3.1, a use-after-free in Netfilter nf_tables when processing batch requests can be abused to perform arbitrary read and write operations on kernel memory. Unprivileged local users can obtain root privileges. This occurs because anonymous sets are mishandled.
-
-- [https://github.com/mr-spongebob/a-CVE-2023-32233](https://github.com/mr-spongebob/a-CVE-2023-32233) :  ![starts](https://img.shields.io/github/stars/mr-spongebob/a-CVE-2023-32233.svg) ![forks](https://img.shields.io/github/forks/mr-spongebob/a-CVE-2023-32233.svg)
+- [https://github.com/pouriam23/Next.js-Middleware-Bypass-CVE-2025-29927-](https://github.com/pouriam23/Next.js-Middleware-Bypass-CVE-2025-29927-) :  ![starts](https://img.shields.io/github/stars/pouriam23/Next.js-Middleware-Bypass-CVE-2025-29927-.svg) ![forks](https://img.shields.io/github/forks/pouriam23/Next.js-Middleware-Bypass-CVE-2025-29927-.svg)
 
 
-## CVE-2023-21554
- Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
+## CVE-2025-28121
+ code-projects Online Exam Mastering System 1.0 is vulnerable to Cross Site Scripting (XSS) in feedback.php via the "q" parameter allowing remote attackers to execute arbitrary code.
 
-- [https://github.com/leongxudong/MSMQ-Vulnerability](https://github.com/leongxudong/MSMQ-Vulnerability) :  ![starts](https://img.shields.io/github/stars/leongxudong/MSMQ-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/leongxudong/MSMQ-Vulnerability.svg)
-
-
-## CVE-2021-41788
- MediaTek microchips, as used in NETGEAR devices through 2021-12-13 and other devices, mishandle attempts at Wi-Fi authentication flooding. (Affected Chipsets MT7603E, MT7612, MT7613, MT7615, MT7622, MT7628, MT7629, MT7915; Affected Software Versions 7.4.0.0).
-
-- [https://github.com/efchatz/easy-exploits](https://github.com/efchatz/easy-exploits) :  ![starts](https://img.shields.io/github/stars/efchatz/easy-exploits.svg) ![forks](https://img.shields.io/github/forks/efchatz/easy-exploits.svg)
+- [https://github.com/pruthuraut/CVE-2025-28121](https://github.com/pruthuraut/CVE-2025-28121) :  ![starts](https://img.shields.io/github/stars/pruthuraut/CVE-2025-28121.svg) ![forks](https://img.shields.io/github/forks/pruthuraut/CVE-2025-28121.svg)
 
 
-## CVE-2021-41437
- An HTTP response splitting attack in web application in ASUS RT-AX88U before v3.0.0.4.388.20558 allows an attacker to craft a specific URL that if an authenticated victim visits it, the URL will give access to the cloud storage of the attacker.
+## CVE-2025-24071
+ Exposure of sensitive information to an unauthorized actor in Windows File Explorer allows an unauthorized attacker to perform spoofing over a network.
 
-- [https://github.com/efchatz/easy-exploits](https://github.com/efchatz/easy-exploits) :  ![starts](https://img.shields.io/github/stars/efchatz/easy-exploits.svg) ![forks](https://img.shields.io/github/forks/efchatz/easy-exploits.svg)
-
-
-## CVE-2021-41160
- FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. In affected versions a malicious server might trigger out of bound writes in a connected client. Connections using GDI or SurfaceCommands to send graphics updates to the client might send `0` width/height or out of bound rectangles to trigger out of bound writes. With `0` width or heigth the memory allocation will be `0` but the missing bounds checks allow writing to the pointer at this (not allocated) region. This issue has been patched in FreeRDP 2.4.1.
-
-- [https://github.com/Jajangjaman/CVE-2021-41160](https://github.com/Jajangjaman/CVE-2021-41160) :  ![starts](https://img.shields.io/github/stars/Jajangjaman/CVE-2021-41160.svg) ![forks](https://img.shields.io/github/forks/Jajangjaman/CVE-2021-41160.svg)
+- [https://github.com/pswalia2u/CVE-2025-24071_POC](https://github.com/pswalia2u/CVE-2025-24071_POC) :  ![starts](https://img.shields.io/github/stars/pswalia2u/CVE-2025-24071_POC.svg) ![forks](https://img.shields.io/github/forks/pswalia2u/CVE-2025-24071_POC.svg)
 
 
-## CVE-2020-0796
- A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.
+## CVE-2025-24016
+ Wazuh is a free and open source platform used for threat prevention, detection, and response. Starting in version 4.4.0 and prior to version 4.9.1, an unsafe deserialization vulnerability allows for remote code execution on Wazuh servers. DistributedAPI parameters are a serialized as JSON and deserialized using `as_wazuh_object` (in `framework/wazuh/core/cluster/common.py`). If an attacker manages to inject an unsanitized dictionary in DAPI request/response, they can forge an unhandled exception (`__unhandled_exc__`) to evaluate arbitrary python code. The vulnerability can be triggered by anybody with API access (compromised dashboard or Wazuh servers in the cluster) or, in certain configurations, even by a compromised agent. Version 4.9.1 contains a fix.
 
-- [https://github.com/DannyRavi/nmap-scripts](https://github.com/DannyRavi/nmap-scripts) :  ![starts](https://img.shields.io/github/stars/DannyRavi/nmap-scripts.svg) ![forks](https://img.shields.io/github/forks/DannyRavi/nmap-scripts.svg)
-
-
-## CVE-2019-7238
- Sonatype Nexus Repository Manager before 3.15.0 has Incorrect Access Control.
-
-- [https://github.com/DannyRavi/nmap-scripts](https://github.com/DannyRavi/nmap-scripts) :  ![starts](https://img.shields.io/github/stars/DannyRavi/nmap-scripts.svg) ![forks](https://img.shields.io/github/forks/DannyRavi/nmap-scripts.svg)
+- [https://github.com/cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC](https://github.com/cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC) :  ![starts](https://img.shields.io/github/stars/cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC.svg) ![forks](https://img.shields.io/github/forks/cybersecplayground/CVE-2025-24016-Wazuh-Remote-Code-Execution-RCE-PoC.svg)
 
 
-## CVE-2017-10910
- MQTT.js 2.x.x prior to 2.15.0 issue in handling PUBLISH tickets may lead to an attacker causing a denial-of-service condition.
+## CVE-2025-2971
+ This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
 
-- [https://github.com/ossf-cve-benchmark/CVE-2017-10910](https://github.com/ossf-cve-benchmark/CVE-2017-10910) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-10910.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-10910.svg)
+- [https://github.com/SteamPunk424/CVE-2025-29712-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Authenticated-Stored-XSS](https://github.com/SteamPunk424/CVE-2025-29712-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Authenticated-Stored-XSS) :  ![starts](https://img.shields.io/github/stars/SteamPunk424/CVE-2025-29712-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Authenticated-Stored-XSS.svg) ![forks](https://img.shields.io/github/forks/SteamPunk424/CVE-2025-29712-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Authenticated-Stored-XSS.svg)
+- [https://github.com/SteamPunk424/CVE-2025-29711-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Incorrect-Access-Control](https://github.com/SteamPunk424/CVE-2025-29711-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Incorrect-Access-Control) :  ![starts](https://img.shields.io/github/stars/SteamPunk424/CVE-2025-29711-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Incorrect-Access-Control.svg) ![forks](https://img.shields.io/github/forks/SteamPunk424/CVE-2025-29711-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Incorrect-Access-Control.svg)
+
+
+## CVE-2024-57394
+ The quarantine - restore function in Qi-ANXIN Tianqing Endpoint Security Management System v10.0 allows user to restore a malicious file to an arbitrary file path. Attackers can write malicious DLL to system path and perform privilege escalation by leveraging Windows DLL hijacking vulnerabilities.
+
+- [https://github.com/cwjchoi01/CVE-2024-57394](https://github.com/cwjchoi01/CVE-2024-57394) :  ![starts](https://img.shields.io/github/stars/cwjchoi01/CVE-2024-57394.svg) ![forks](https://img.shields.io/github/forks/cwjchoi01/CVE-2024-57394.svg)
+
+
+## CVE-2024-37606
+ A Stack overflow vulnerability in D-Link DCS-932L REVB_FIRMWARE_2.18.01 allows attackers to cause a Denial of Service (DoS) via a crafted HTTP request.
+
+- [https://github.com/itwizardo/DCS932L-Emulation-CVE-2024-37606-Attack](https://github.com/itwizardo/DCS932L-Emulation-CVE-2024-37606-Attack) :  ![starts](https://img.shields.io/github/stars/itwizardo/DCS932L-Emulation-CVE-2024-37606-Attack.svg) ![forks](https://img.shields.io/github/forks/itwizardo/DCS932L-Emulation-CVE-2024-37606-Attack.svg)
+
+
+## CVE-2024-28987
+ The SolarWinds Web Help Desk (WHD) software is affected by a hardcoded credential vulnerability, allowing remote unauthenticated user to access internal functionality and modify data.
+
+- [https://github.com/alecclyde/CVE-2024-28987](https://github.com/alecclyde/CVE-2024-28987) :  ![starts](https://img.shields.io/github/stars/alecclyde/CVE-2024-28987.svg) ![forks](https://img.shields.io/github/forks/alecclyde/CVE-2024-28987.svg)
+
+
+## CVE-2024-4044
+ A deserialization of untrusted data vulnerability exists in common code used by FlexLogger and InstrumentStudio that may result in remote code execution.  Successful exploitation requires an attacker to get a user to open a specially crafted project file.  This vulnerability affects NI FlexLogger 2024 Q1 and prior versions as well as NI InstrumentStudio 2024 Q1 and prior versions.
+
+- [https://github.com/TaiYou-TW/CVE-2024-40445_CVE-2024-40446](https://github.com/TaiYou-TW/CVE-2024-40445_CVE-2024-40446) :  ![starts](https://img.shields.io/github/stars/TaiYou-TW/CVE-2024-40445_CVE-2024-40446.svg) ![forks](https://img.shields.io/github/forks/TaiYou-TW/CVE-2024-40445_CVE-2024-40446.svg)
+
+
+## CVE-2023-25157
+ GeoServer is an open source software server written in Java that allows users to share and edit geospatial data. GeoServer includes support for the OGC Filter expression language and the OGC Common Query Language (CQL) as part of the Web Feature Service (WFS) and Web Map Service (WMS) protocols.  CQL is also supported through the Web Coverage Service (WCS) protocol for ImageMosaic coverages. Users are advised to upgrade to either version 2.21.4, or version 2.22.2 to resolve this issue. Users unable to upgrade should disable the PostGIS Datastore *encode functions* setting to mitigate ``strEndsWith``, ``strStartsWith`` and ``PropertyIsLike `` misuse and enable the PostGIS DataStore *preparedStatements* setting to mitigate the ``FeatureId`` misuse.
+
+- [https://github.com/custiya/geoserver-CVE-2023-25157](https://github.com/custiya/geoserver-CVE-2023-25157) :  ![starts](https://img.shields.io/github/stars/custiya/geoserver-CVE-2023-25157.svg) ![forks](https://img.shields.io/github/forks/custiya/geoserver-CVE-2023-25157.svg)
+
+
+## CVE-2022-35914
+ /vendor/htmlawed/htmlawed/htmLawedTest.php in the htmlawed module for GLPI through 10.0.2 allows PHP code injection.
+
+- [https://github.com/joelindra/HTMLawedChecker](https://github.com/joelindra/HTMLawedChecker) :  ![starts](https://img.shields.io/github/stars/joelindra/HTMLawedChecker.svg) ![forks](https://img.shields.io/github/forks/joelindra/HTMLawedChecker.svg)
+
+
+## CVE-2022-0847
+ A flaw was found in the way the "flags" member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
+
+- [https://github.com/byteReaper77/Dirty-Pipe](https://github.com/byteReaper77/Dirty-Pipe) :  ![starts](https://img.shields.io/github/stars/byteReaper77/Dirty-Pipe.svg) ![forks](https://img.shields.io/github/forks/byteReaper77/Dirty-Pipe.svg)
+
+
+## CVE-2021-41351
+ Microsoft Edge (Chrome based) Spoofing on IE Mode
+
+- [https://github.com/ImuSpirit/CVE-2021-41351-POC](https://github.com/ImuSpirit/CVE-2021-41351-POC) :  ![starts](https://img.shields.io/github/stars/ImuSpirit/CVE-2021-41351-POC.svg) ![forks](https://img.shields.io/github/forks/ImuSpirit/CVE-2021-41351-POC.svg)
+
+
+## CVE-2021-38666
+ Remote Desktop Client Remote Code Execution Vulnerability
+
+- [https://github.com/ImuSpirit/CVE-2021-38666](https://github.com/ImuSpirit/CVE-2021-38666) :  ![starts](https://img.shields.io/github/stars/ImuSpirit/CVE-2021-38666.svg) ![forks](https://img.shields.io/github/forks/ImuSpirit/CVE-2021-38666.svg)
+
+
+## CVE-2021-34371
+ Neo4j through 3.4.18 (with the shell server enabled) exposes an RMI service that arbitrarily deserializes Java objects, e.g., through setSessionVariable. An attacker can abuse this for remote code execution because there are dependencies with exploitable gadget chains.
+
+- [https://github.com/tavgar/CVE-2021-34371](https://github.com/tavgar/CVE-2021-34371) :  ![starts](https://img.shields.io/github/stars/tavgar/CVE-2021-34371.svg) ![forks](https://img.shields.io/github/forks/tavgar/CVE-2021-34371.svg)
 
