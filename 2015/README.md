@@ -19,9 +19,9 @@
 
 - [https://github.com/halkichi0308/CVE-2015-9251](https://github.com/halkichi0308/CVE-2015-9251) :  ![starts](https://img.shields.io/github/stars/halkichi0308/CVE-2015-9251.svg) ![forks](https://img.shields.io/github/forks/halkichi0308/CVE-2015-9251.svg)
 
-- [https://github.com/hackgiver/CVE-2015-9251](https://github.com/hackgiver/CVE-2015-9251) :  ![starts](https://img.shields.io/github/stars/hackgiver/CVE-2015-9251.svg) ![forks](https://img.shields.io/github/forks/hackgiver/CVE-2015-9251.svg)
-
 - [https://github.com/moften/CVE-2015-9251](https://github.com/moften/CVE-2015-9251) :  ![starts](https://img.shields.io/github/stars/moften/CVE-2015-9251.svg) ![forks](https://img.shields.io/github/forks/moften/CVE-2015-9251.svg)
+
+- [https://github.com/hackgiver/CVE-2015-9251](https://github.com/hackgiver/CVE-2015-9251) :  ![starts](https://img.shields.io/github/stars/hackgiver/CVE-2015-9251.svg) ![forks](https://img.shields.io/github/forks/hackgiver/CVE-2015-9251.svg)
 
 ## CVE-2015-9238
  secure-compare 3.0.0 and below do not actually compare two strings properly. compare was actually comparing the first argument with itself, meaning the check passed for any two strings of the same length.
@@ -99,6 +99,15 @@
 
 
 - [https://github.com/bittorrent3389/CVE-2015-8543_for_SLE12SP1](https://github.com/bittorrent3389/CVE-2015-8543_for_SLE12SP1) :  ![starts](https://img.shields.io/github/stars/bittorrent3389/CVE-2015-8543_for_SLE12SP1.svg) ![forks](https://img.shields.io/github/forks/bittorrent3389/CVE-2015-8543_for_SLE12SP1.svg)
+
+## CVE-2015-8351
+ PHP remote file inclusion vulnerability in the Gwolle Guestbook plugin before 1.5.4 for WordPress, when allow_url_include is enabled, allows remote authenticated users to execute arbitrary PHP code via a URL in the abspath parameter to frontend/captcha/ajaxresponse.php.  NOTE: this can also be leveraged to include and execute arbitrary local files via directory traversal sequences regardless of whether allow_url_include is enabled.
+
+
+
+- [https://github.com/G4sp4rCS/exploit-CVE-2015-8351](https://github.com/G4sp4rCS/exploit-CVE-2015-8351) :  ![starts](https://img.shields.io/github/stars/G4sp4rCS/exploit-CVE-2015-8351.svg) ![forks](https://img.shields.io/github/forks/G4sp4rCS/exploit-CVE-2015-8351.svg)
+
+- [https://github.com/G01d3nW01f/CVE-2015-8351](https://github.com/G01d3nW01f/CVE-2015-8351) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2015-8351.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2015-8351.svg)
 
 ## CVE-2015-8299
  Buffer overflow in the Group messages monitor (Falcon) in KNX ETS 4.1.5 (Build 3246) allows remote attackers to execute arbitrary code via a crafted KNXnet/IP UDP packet.
