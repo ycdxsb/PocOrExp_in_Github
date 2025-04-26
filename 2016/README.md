@@ -190,6 +190,8 @@
 
 - [https://github.com/liusec/WP-CVE-2016-10033](https://github.com/liusec/WP-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/liusec/WP-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/liusec/WP-CVE-2016-10033.svg)
 
+- [https://github.com/sealldeveloper/CVE-2016-10033-PoC](https://github.com/sealldeveloper/CVE-2016-10033-PoC) :  ![starts](https://img.shields.io/github/stars/sealldeveloper/CVE-2016-10033-PoC.svg) ![forks](https://img.shields.io/github/forks/sealldeveloper/CVE-2016-10033-PoC.svg)
+
 ## CVE-2016-10006
  In OWASP AntiSamy before 1.5.5, by submitting a specially crafted input (a tag that supports style with active content), you could bypass the library protections and supply executable code. The impact is XSS.
 
@@ -1397,6 +1399,8 @@
 - [https://github.com/Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/Debalinax64/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/Debalinax64/CVE-2016-2098.svg)
 
 - [https://github.com/3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098) :  ![starts](https://img.shields.io/github/stars/3rg1s/CVE-2016-2098.svg) ![forks](https://img.shields.io/github/forks/3rg1s/CVE-2016-2098.svg)
+
+- [https://github.com/sealldeveloper/CVE-2016-2098-PoC](https://github.com/sealldeveloper/CVE-2016-2098-PoC) :  ![starts](https://img.shields.io/github/stars/sealldeveloper/CVE-2016-2098-PoC.svg) ![forks](https://img.shields.io/github/forks/sealldeveloper/CVE-2016-2098-PoC.svg)
 
 - [https://github.com/JoseLRC97/Ruby-on-Rails-ActionPack-Inline-ERB-Remote-Code-Execution](https://github.com/JoseLRC97/Ruby-on-Rails-ActionPack-Inline-ERB-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/JoseLRC97/Ruby-on-Rails-ActionPack-Inline-ERB-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/JoseLRC97/Ruby-on-Rails-ActionPack-Inline-ERB-Remote-Code-Execution.svg)
 
