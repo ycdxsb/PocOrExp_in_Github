@@ -154,6 +154,13 @@
 
 - [https://github.com/d4rkcat/killosx](https://github.com/d4rkcat/killosx) :  ![starts](https://img.shields.io/github/stars/d4rkcat/killosx.svg) ![forks](https://img.shields.io/github/forks/d4rkcat/killosx.svg)
 
+## CVE-2012-3576
+ Unrestricted file upload vulnerability in php/upload.php in the wpStoreCart plugin before 2.5.30 for WordPress allows remote attackers to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in uploads/wpstorecart.
+
+
+
+- [https://github.com/Ydvmtzv/wpstorecart-exploit](https://github.com/Ydvmtzv/wpstorecart-exploit) :  ![starts](https://img.shields.io/github/stars/Ydvmtzv/wpstorecart-exploit.svg) ![forks](https://img.shields.io/github/forks/Ydvmtzv/wpstorecart-exploit.svg)
+
 ## CVE-2012-3452
  gnome-screensaver 3.4.x before 3.4.4 and 3.5.x before 3.5.4, when multiple screens are used, only locks the screen with the active focus, which allows physically proximate attackers to bypass screen locking and access an unattended workstation.
 
