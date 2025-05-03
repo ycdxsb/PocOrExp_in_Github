@@ -1314,9 +1314,9 @@ use after free.
 
 - [https://github.com/keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278) :  ![starts](https://img.shields.io/github/stars/keshiba/cve-2019-16278.svg) ![forks](https://img.shields.io/github/forks/keshiba/cve-2019-16278.svg)
 
-- [https://github.com/alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/alexander-fernandes/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/alexander-fernandes/CVE-2019-16278.svg)
-
 - [https://github.com/n3rdh4x0r/CVE-2019-16278](https://github.com/n3rdh4x0r/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2019-16278.svg)
+
+- [https://github.com/alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/alexander-fernandes/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/alexander-fernandes/CVE-2019-16278.svg)
 
 - [https://github.com/NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278) :  ![starts](https://img.shields.io/github/stars/NHPT/CVE-2019-16278.svg) ![forks](https://img.shields.io/github/forks/NHPT/CVE-2019-16278.svg)
 
@@ -1906,9 +1906,9 @@ use after free.
 
 - [https://github.com/Ijinleife/CVE-2019-14287](https://github.com/Ijinleife/CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/Ijinleife/CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/Ijinleife/CVE-2019-14287.svg)
 
-- [https://github.com/edsonjt81/CVE-2019-14287-](https://github.com/edsonjt81/CVE-2019-14287-) :  ![starts](https://img.shields.io/github/stars/edsonjt81/CVE-2019-14287-.svg) ![forks](https://img.shields.io/github/forks/edsonjt81/CVE-2019-14287-.svg)
-
 - [https://github.com/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287](https://github.com/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287) :  ![starts](https://img.shields.io/github/stars/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287.svg) ![forks](https://img.shields.io/github/forks/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287.svg)
+
+- [https://github.com/edsonjt81/CVE-2019-14287-](https://github.com/edsonjt81/CVE-2019-14287-) :  ![starts](https://img.shields.io/github/stars/edsonjt81/CVE-2019-14287-.svg) ![forks](https://img.shields.io/github/forks/edsonjt81/CVE-2019-14287-.svg)
 
 - [https://github.com/lemonadern/poc-cve-2019-14287](https://github.com/lemonadern/poc-cve-2019-14287) :  ![starts](https://img.shields.io/github/stars/lemonadern/poc-cve-2019-14287.svg) ![forks](https://img.shields.io/github/forks/lemonadern/poc-cve-2019-14287.svg)
 
@@ -2727,9 +2727,9 @@ use after free.
 
 
 
-- [https://github.com/KISH84172/CVE-2019-11933](https://github.com/KISH84172/CVE-2019-11933) :  ![starts](https://img.shields.io/github/stars/KISH84172/CVE-2019-11933.svg) ![forks](https://img.shields.io/github/forks/KISH84172/CVE-2019-11933.svg)
-
 - [https://github.com/NatleoJ/CVE-2019-11933](https://github.com/NatleoJ/CVE-2019-11933) :  ![starts](https://img.shields.io/github/stars/NatleoJ/CVE-2019-11933.svg) ![forks](https://img.shields.io/github/forks/NatleoJ/CVE-2019-11933.svg)
+
+- [https://github.com/KISH84172/CVE-2019-11933](https://github.com/KISH84172/CVE-2019-11933) :  ![starts](https://img.shields.io/github/stars/KISH84172/CVE-2019-11933.svg) ![forks](https://img.shields.io/github/forks/KISH84172/CVE-2019-11933.svg)
 
 ## CVE-2019-11932
  A double free vulnerability in the DDGifSlurp function in decoding.c in the android-gif-drawable library before version 1.2.18, as used in WhatsApp for Android before version 2.19.244 and many other Android applications, allows remote attackers to execute arbitrary code or cause a denial of service when the library is used to parse a specially crafted GIF image.
@@ -3745,8 +3745,6 @@ use after free.
 
 - [https://github.com/so1icitx/CVE-2019-9053](https://github.com/so1icitx/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/so1icitx/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/so1icitx/CVE-2019-9053.svg)
 
-- [https://github.com/BjarneVerschorre/CVE-2019-9053](https://github.com/BjarneVerschorre/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/BjarneVerschorre/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/BjarneVerschorre/CVE-2019-9053.svg)
-
 - [https://github.com/im-suman-roy/CVE-2019-9053](https://github.com/im-suman-roy/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/im-suman-roy/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/im-suman-roy/CVE-2019-9053.svg)
 
 - [https://github.com/kaizoku73/CVE-2019-9053](https://github.com/kaizoku73/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/kaizoku73/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/kaizoku73/CVE-2019-9053.svg)
@@ -3754,6 +3752,8 @@ use after free.
 - [https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3](https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3) :  ![starts](https://img.shields.io/github/stars/pedrojosenavasperez/CVE-2019-9053-Python3.svg) ![forks](https://img.shields.io/github/forks/pedrojosenavasperez/CVE-2019-9053-Python3.svg)
 
 - [https://github.com/Hackheart-tech/-exploit-lab](https://github.com/Hackheart-tech/-exploit-lab) :  ![starts](https://img.shields.io/github/stars/Hackheart-tech/-exploit-lab.svg) ![forks](https://img.shields.io/github/forks/Hackheart-tech/-exploit-lab.svg)
+
+- [https://github.com/BjarneVerschorre/CVE-2019-9053](https://github.com/BjarneVerschorre/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/BjarneVerschorre/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/BjarneVerschorre/CVE-2019-9053.svg)
 
 - [https://github.com/FedericoTorres233/CVE-2019-9053-Fixed](https://github.com/FedericoTorres233/CVE-2019-9053-Fixed) :  ![starts](https://img.shields.io/github/stars/FedericoTorres233/CVE-2019-9053-Fixed.svg) ![forks](https://img.shields.io/github/forks/FedericoTorres233/CVE-2019-9053-Fixed.svg)
 
@@ -4273,17 +4273,17 @@ use after free.
 
 - [https://github.com/Kayky-cmd/CVE-2019-6447--.](https://github.com/Kayky-cmd/CVE-2019-6447--.) :  ![starts](https://img.shields.io/github/stars/Kayky-cmd/CVE-2019-6447--..svg) ![forks](https://img.shields.io/github/forks/Kayky-cmd/CVE-2019-6447--..svg)
 
-- [https://github.com/n3rdh4x0r/CVE-2019-6447](https://github.com/n3rdh4x0r/CVE-2019-6447) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2019-6447.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2019-6447.svg)
-
 - [https://github.com/Osuni-99/CVE-2019-6447](https://github.com/Osuni-99/CVE-2019-6447) :  ![starts](https://img.shields.io/github/stars/Osuni-99/CVE-2019-6447.svg) ![forks](https://img.shields.io/github/forks/Osuni-99/CVE-2019-6447.svg)
+
+- [https://github.com/n3rdh4x0r/CVE-2019-6447](https://github.com/n3rdh4x0r/CVE-2019-6447) :  ![starts](https://img.shields.io/github/stars/n3rdh4x0r/CVE-2019-6447.svg) ![forks](https://img.shields.io/github/forks/n3rdh4x0r/CVE-2019-6447.svg)
 
 - [https://github.com/Cmadhushanka/CVE-2019-6447-Exploitation](https://github.com/Cmadhushanka/CVE-2019-6447-Exploitation) :  ![starts](https://img.shields.io/github/stars/Cmadhushanka/CVE-2019-6447-Exploitation.svg) ![forks](https://img.shields.io/github/forks/Cmadhushanka/CVE-2019-6447-Exploitation.svg)
 
 - [https://github.com/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer](https://github.com/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer) :  ![starts](https://img.shields.io/github/stars/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer.svg) ![forks](https://img.shields.io/github/forks/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer.svg)
 
-- [https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit) :  ![starts](https://img.shields.io/github/stars/febinrev/CVE-2019-6447-ESfile-explorer-exploit.svg) ![forks](https://img.shields.io/github/forks/febinrev/CVE-2019-6447-ESfile-explorer-exploit.svg)
-
 - [https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application](https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application) :  ![starts](https://img.shields.io/github/stars/KaviDk/CVE-2019-6447-in-Mobile-Application.svg) ![forks](https://img.shields.io/github/forks/KaviDk/CVE-2019-6447-in-Mobile-Application.svg)
+
+- [https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit) :  ![starts](https://img.shields.io/github/stars/febinrev/CVE-2019-6447-ESfile-explorer-exploit.svg) ![forks](https://img.shields.io/github/forks/febinrev/CVE-2019-6447-ESfile-explorer-exploit.svg)
 
 - [https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447](https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447) :  ![starts](https://img.shields.io/github/stars/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447.svg) ![forks](https://img.shields.io/github/forks/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447.svg)
 
@@ -5243,9 +5243,9 @@ use after free.
 
 - [https://github.com/jra89/CVE-2019-19651](https://github.com/jra89/CVE-2019-19651) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19651.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19651.svg)
 
-- [https://github.com/jra89/CVE-2019-19654](https://github.com/jra89/CVE-2019-19654) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19654.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19654.svg)
-
 - [https://github.com/jra89/CVE-2019-19658](https://github.com/jra89/CVE-2019-19658) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19658.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19658.svg)
+
+- [https://github.com/jra89/CVE-2019-19654](https://github.com/jra89/CVE-2019-19654) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19654.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19654.svg)
 
 - [https://github.com/jra89/CVE-2019-19653](https://github.com/jra89/CVE-2019-19653) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19653.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19653.svg)
 
@@ -5887,9 +5887,9 @@ Microsoft released a security update on July 9, 2019 that addresses the vulnerab
 
 - [https://github.com/Gh0st0ne/rdpscan-BlueKeep](https://github.com/Gh0st0ne/rdpscan-BlueKeep) :  ![starts](https://img.shields.io/github/stars/Gh0st0ne/rdpscan-BlueKeep.svg) ![forks](https://img.shields.io/github/forks/Gh0st0ne/rdpscan-BlueKeep.svg)
 
-- [https://github.com/YSheldon/MS_T120](https://github.com/YSheldon/MS_T120) :  ![starts](https://img.shields.io/github/stars/YSheldon/MS_T120.svg) ![forks](https://img.shields.io/github/forks/YSheldon/MS_T120.svg)
-
 - [https://github.com/temp-user-2014/CVE-2019-0708](https://github.com/temp-user-2014/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/temp-user-2014/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/temp-user-2014/CVE-2019-0708.svg)
+
+- [https://github.com/YSheldon/MS_T120](https://github.com/YSheldon/MS_T120) :  ![starts](https://img.shields.io/github/stars/YSheldon/MS_T120.svg) ![forks](https://img.shields.io/github/forks/YSheldon/MS_T120.svg)
 
 - [https://github.com/UraSecTeam/CVE-2019-0708](https://github.com/UraSecTeam/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/UraSecTeam/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/UraSecTeam/CVE-2019-0708.svg)
 
@@ -5905,9 +5905,9 @@ Microsoft released a security update on July 9, 2019 that addresses the vulnerab
 
 - [https://github.com/JasonLOU/CVE-2019-0708](https://github.com/JasonLOU/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/JasonLOU/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/JasonLOU/CVE-2019-0708.svg)
 
-- [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
-
 - [https://github.com/ttsite/CVE-2019-0708](https://github.com/ttsite/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ttsite/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ttsite/CVE-2019-0708.svg)
+
+- [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
 
 - [https://github.com/wdfcc/CVE-2019-0708](https://github.com/wdfcc/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/wdfcc/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/wdfcc/CVE-2019-0708.svg)
 
@@ -5919,9 +5919,9 @@ Microsoft released a security update on July 9, 2019 that addresses the vulnerab
 
 - [https://github.com/ulisesrc/-2-CVE-2019-0708](https://github.com/ulisesrc/-2-CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ulisesrc/-2-CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ulisesrc/-2-CVE-2019-0708.svg)
 
-- [https://github.com/nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI) :  ![starts](https://img.shields.io/github/stars/nochemax/bLuEkEeP-GUI.svg) ![forks](https://img.shields.io/github/forks/nochemax/bLuEkEeP-GUI.svg)
-
 - [https://github.com/sbkcbig/CVE-2019-0708-Poc-exploit](https://github.com/sbkcbig/CVE-2019-0708-Poc-exploit) :  ![starts](https://img.shields.io/github/stars/sbkcbig/CVE-2019-0708-Poc-exploit.svg) ![forks](https://img.shields.io/github/forks/sbkcbig/CVE-2019-0708-Poc-exploit.svg)
+
+- [https://github.com/nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI) :  ![starts](https://img.shields.io/github/stars/nochemax/bLuEkEeP-GUI.svg) ![forks](https://img.shields.io/github/forks/nochemax/bLuEkEeP-GUI.svg)
 
 ## CVE-2019-0683
  An elevation of privilege vulnerability exists in Active Directory Forest trusts due to a default setting that lets an attacker in the trusting forest request delegation of a TGT for an identity from the trusted forest, aka 'Active Directory Elevation of Privilege Vulnerability'.
