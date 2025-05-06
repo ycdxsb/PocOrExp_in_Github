@@ -1,69 +1,63 @@
-# Update 2025-05-05
-## CVE-2025-47226
- Grokability Snipe-IT before 8.1.0 has incorrect authorization for accessing asset information.
+# Update 2025-05-06
+## CVE-2024-49138
+ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
-- [https://github.com/koyomihack00/CVE-2025-47226](https://github.com/koyomihack00/CVE-2025-47226) :  ![starts](https://img.shields.io/github/stars/koyomihack00/CVE-2025-47226.svg) ![forks](https://img.shields.io/github/forks/koyomihack00/CVE-2025-47226.svg)
-
-
-## CVE-2025-32433
- Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.
-
-- [https://github.com/vigilante-1337/CVE-2025-32433](https://github.com/vigilante-1337/CVE-2025-32433) :  ![starts](https://img.shields.io/github/stars/vigilante-1337/CVE-2025-32433.svg) ![forks](https://img.shields.io/github/forks/vigilante-1337/CVE-2025-32433.svg)
+- [https://github.com/Glitch-ao/SOC335-CVE-2024-49138-Exploitation-Detected](https://github.com/Glitch-ao/SOC335-CVE-2024-49138-Exploitation-Detected) :  ![starts](https://img.shields.io/github/stars/Glitch-ao/SOC335-CVE-2024-49138-Exploitation-Detected.svg) ![forks](https://img.shields.io/github/forks/Glitch-ao/SOC335-CVE-2024-49138-Exploitation-Detected.svg)
 
 
-## CVE-2025-32375
- BentoML is a Python library for building online serving systems optimized for AI apps and model inference. Prior to 1.4.8, there was an insecure deserialization in BentoML's runner server. By setting specific headers and parameters in the POST request, it is possible to execute any unauthorized arbitrary code on the server, which will grant the attackers to have the initial access and information disclosure on the server. This vulnerability is fixed in 1.4.8.
+## CVE-2024-36401
+Versions 2.22.6, 2.23.6, 2.24.4, and 2.25.2 contain a patch for the issue. A workaround exists by removing the `gt-complex-x.y.jar` file from the GeoServer where `x.y` is the GeoTools version (e.g., `gt-complex-31.1.jar` if running GeoServer 2.25.1). This will remove the vulnerable code from GeoServer but may break some GeoServer functionality or prevent GeoServer from deploying if the gt-complex module is needed.
 
-- [https://github.com/theGEBIRGE/CVE-2025-32375](https://github.com/theGEBIRGE/CVE-2025-32375) :  ![starts](https://img.shields.io/github/stars/theGEBIRGE/CVE-2025-32375.svg) ![forks](https://img.shields.io/github/forks/theGEBIRGE/CVE-2025-32375.svg)
-
-
-## CVE-2025-29927
- Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
-
-- [https://github.com/olimpiofreitas/CVE-2025-29927_scanner](https://github.com/olimpiofreitas/CVE-2025-29927_scanner) :  ![starts](https://img.shields.io/github/stars/olimpiofreitas/CVE-2025-29927_scanner.svg) ![forks](https://img.shields.io/github/forks/olimpiofreitas/CVE-2025-29927_scanner.svg)
+- [https://github.com/cochaviz/cve-2024-36401-poc](https://github.com/cochaviz/cve-2024-36401-poc) :  ![starts](https://img.shields.io/github/stars/cochaviz/cve-2024-36401-poc.svg) ![forks](https://img.shields.io/github/forks/cochaviz/cve-2024-36401-poc.svg)
 
 
-## CVE-2025-26529
-required additional sanitizing to prevent a stored XSS risk.
+## CVE-2024-4577
+ In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use "Best-Fit" behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
 
-- [https://github.com/exfil0/UNISA_CVE-2025-26529](https://github.com/exfil0/UNISA_CVE-2025-26529) :  ![starts](https://img.shields.io/github/stars/exfil0/UNISA_CVE-2025-26529.svg) ![forks](https://img.shields.io/github/forks/exfil0/UNISA_CVE-2025-26529.svg)
-
-
-## CVE-2025-4172
- The VerticalResponse Newsletter Widget plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'verticalresponse' shortcode in all versions up to, and including, 1.6 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-
-- [https://github.com/NotItsSixtyN3in/CVE-2025-4172026](https://github.com/NotItsSixtyN3in/CVE-2025-4172026) :  ![starts](https://img.shields.io/github/stars/NotItsSixtyN3in/CVE-2025-4172026.svg) ![forks](https://img.shields.io/github/forks/NotItsSixtyN3in/CVE-2025-4172026.svg)
-- [https://github.com/NotItsSixtyN3in/CVE-2025-4172025](https://github.com/NotItsSixtyN3in/CVE-2025-4172025) :  ![starts](https://img.shields.io/github/stars/NotItsSixtyN3in/CVE-2025-4172025.svg) ![forks](https://img.shields.io/github/forks/NotItsSixtyN3in/CVE-2025-4172025.svg)
+- [https://github.com/gmh5225/CVE-2024-4577-PHP-RCE](https://github.com/gmh5225/CVE-2024-4577-PHP-RCE) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2024-4577-PHP-RCE.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2024-4577-PHP-RCE.svg)
 
 
-## CVE-2025-1323
- The WP-Recall – Registration, Profile, Commerce & More plugin for WordPress is vulnerable to SQL Injection via the 'databeat' parameter in all versions up to, and including, 16.26.10 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+## CVE-2023-46604
+which fixes this issue.
 
-- [https://github.com/p33d/cve-2025-1323](https://github.com/p33d/cve-2025-1323) :  ![starts](https://img.shields.io/github/stars/p33d/cve-2025-1323.svg) ![forks](https://img.shields.io/github/forks/p33d/cve-2025-1323.svg)
-
-
-## CVE-2024-44308
- The issue was addressed with improved checks. This issue is fixed in Safari 18.1.1, iOS 17.7.2 and iPadOS 17.7.2, macOS Sequoia 15.1.1, iOS 18.1.1 and iPadOS 18.1.1, visionOS 2.1.1. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited on Intel-based Mac systems.
-
-- [https://github.com/migopp/cve-2024-44308](https://github.com/migopp/cve-2024-44308) :  ![starts](https://img.shields.io/github/stars/migopp/cve-2024-44308.svg) ![forks](https://img.shields.io/github/forks/migopp/cve-2024-44308.svg)
+- [https://github.com/CCIEVoice2009/CVE-2023-46604](https://github.com/CCIEVoice2009/CVE-2023-46604) :  ![starts](https://img.shields.io/github/stars/CCIEVoice2009/CVE-2023-46604.svg) ![forks](https://img.shields.io/github/forks/CCIEVoice2009/CVE-2023-46604.svg)
 
 
-## CVE-2022-30887
- Pharmacy Management System v1.0 was discovered to contain a remote code execution (RCE) vulnerability via the component /php_action/editProductImage.php. This vulnerability allows attackers to execute arbitrary code via a crafted image file.
+## CVE-2023-22518
+Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.
 
-- [https://github.com/Sonerctnkya/CVE-2022-30887](https://github.com/Sonerctnkya/CVE-2022-30887) :  ![starts](https://img.shields.io/github/stars/Sonerctnkya/CVE-2022-30887.svg) ![forks](https://img.shields.io/github/forks/Sonerctnkya/CVE-2022-30887.svg)
+- [https://github.com/ductink98lhp/analyze-Exploit-CVE-2023-22518-Confluence](https://github.com/ductink98lhp/analyze-Exploit-CVE-2023-22518-Confluence) :  ![starts](https://img.shields.io/github/stars/ductink98lhp/analyze-Exploit-CVE-2023-22518-Confluence.svg) ![forks](https://img.shields.io/github/forks/ductink98lhp/analyze-Exploit-CVE-2023-22518-Confluence.svg)
 
 
 ## CVE-2022-0847
  A flaw was found in the way the "flags" member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
 
-- [https://github.com/cypherlobo/DirtyPipe-BSI](https://github.com/cypherlobo/DirtyPipe-BSI) :  ![starts](https://img.shields.io/github/stars/cypherlobo/DirtyPipe-BSI.svg) ![forks](https://img.shields.io/github/forks/cypherlobo/DirtyPipe-BSI.svg)
+- [https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc](https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc) :  ![starts](https://img.shields.io/github/stars/tufanturhan/CVE-2022-0847-L-nux-PrivEsc.svg) ![forks](https://img.shields.io/github/forks/tufanturhan/CVE-2022-0847-L-nux-PrivEsc.svg)
 
 
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+## CVE-2021-1931
+ Possible buffer overflow due to improper validation of buffer length while processing fast boot commands in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music
 
-- [https://github.com/zer0qs/CVE-2021-41773](https://github.com/zer0qs/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/zer0qs/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/zer0qs/CVE-2021-41773.svg)
-- [https://github.com/Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2021-41773.svg)
-- [https://github.com/skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/skentagon/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/skentagon/CVE-2021-41773.svg)
+- [https://github.com/FakeShell/CVE-2021-1931-BBRY-KEY2](https://github.com/FakeShell/CVE-2021-1931-BBRY-KEY2) :  ![starts](https://img.shields.io/github/stars/FakeShell/CVE-2021-1931-BBRY-KEY2.svg) ![forks](https://img.shields.io/github/forks/FakeShell/CVE-2021-1931-BBRY-KEY2.svg)
+
+
+## CVE-2018-1000001
+ In glibc 2.26 and earlier there is confusion in the usage of getcwd() by realpath() which can be used to write before the destination buffer leading to a buffer underflow and potential code execution.
+
+- [https://github.com/Al1ex/LinuxEelvation](https://github.com/Al1ex/LinuxEelvation) :  ![starts](https://img.shields.io/github/stars/Al1ex/LinuxEelvation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/LinuxEelvation.svg)
+- [https://github.com/5H311-1NJ3C706/local-root-exploits](https://github.com/5H311-1NJ3C706/local-root-exploits) :  ![starts](https://img.shields.io/github/stars/5H311-1NJ3C706/local-root-exploits.svg) ![forks](https://img.shields.io/github/forks/5H311-1NJ3C706/local-root-exploits.svg)
+- [https://github.com/0x00-0x00/CVE-2018-1000001](https://github.com/0x00-0x00/CVE-2018-1000001) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2018-1000001.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2018-1000001.svg)
+- [https://github.com/usernameid0/tools-for-CVE-2018-1000001](https://github.com/usernameid0/tools-for-CVE-2018-1000001) :  ![starts](https://img.shields.io/github/stars/usernameid0/tools-for-CVE-2018-1000001.svg) ![forks](https://img.shields.io/github/forks/usernameid0/tools-for-CVE-2018-1000001.svg)
+
+
+## CVE-2018-11790
+ When loading a document with Apache Open Office 4.1.5 and earlier with smaller end line termination than the operating system uses, the defect occurs. In this case OpenOffice runs into an Arithmetic Overflow at a string length calculation.
+
+- [https://github.com/anmuxi-bai/CVE-2018-11790](https://github.com/anmuxi-bai/CVE-2018-11790) :  ![starts](https://img.shields.io/github/stars/anmuxi-bai/CVE-2018-11790.svg) ![forks](https://img.shields.io/github/forks/anmuxi-bai/CVE-2018-11790.svg)
+
+
+## CVE-2018-4084
+ An issue was discovered in certain Apple products. macOS before 10.13.3 is affected. The issue involves the "Wi-Fi" component. It allows attackers to bypass intended memory-read restrictions via a crafted app.
+
+- [https://github.com/dybrkr/wifi_leak](https://github.com/dybrkr/wifi_leak) :  ![starts](https://img.shields.io/github/stars/dybrkr/wifi_leak.svg) ![forks](https://img.shields.io/github/forks/dybrkr/wifi_leak.svg)
 
