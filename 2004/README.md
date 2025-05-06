@@ -78,6 +78,13 @@
 
 - [https://github.com/lulugelian/CVE_TEST](https://github.com/lulugelian/CVE_TEST) :  ![starts](https://img.shields.io/github/stars/lulugelian/CVE_TEST.svg) ![forks](https://img.shields.io/github/forks/lulugelian/CVE_TEST.svg)
 
+## CVE-2004-0789
+ Multiple implementations of the DNS protocol, including (1) Poslib 1.0.2-1 and earlier as used by Posadis, (2) Axis Network products before firmware 3.13, and (3) Men & Mice Suite 2.2x before 2.2.3 and 3.5.x before 3.5.2, allow remote attackers to cause a denial of service (CPU and network bandwidth consumption) by triggering a communications loop via (a) DNS query packets with localhost as a spoofed source address, or (b) a response packet that triggers a response packet.
+
+
+
+- [https://github.com/HimmeL-Byte/CVE-2004-0789-DDOS](https://github.com/HimmeL-Byte/CVE-2004-0789-DDOS) :  ![starts](https://img.shields.io/github/stars/HimmeL-Byte/CVE-2004-0789-DDOS.svg) ![forks](https://img.shields.io/github/forks/HimmeL-Byte/CVE-2004-0789-DDOS.svg)
+
 ## CVE-2004-0558
  The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows remote attackers to cause a denial of service (service hang) via a certain UDP packet to the IPP port.
 
