@@ -12,6 +12,13 @@
 
 - [https://github.com/krdsploit/CVE-2002-2420](https://github.com/krdsploit/CVE-2002-2420) :  ![starts](https://img.shields.io/github/stars/krdsploit/CVE-2002-2420.svg) ![forks](https://img.shields.io/github/forks/krdsploit/CVE-2002-2420.svg)
 
+## CVE-2002-2154
+ Directory traversal vulnerability in Monkey HTTP Daemon 0.1.4 allows remote attackers to read arbitrary files via .. (dot dot) sequences.
+
+
+
+- [https://github.com/Hirainsingadia/CVE-2002-2154](https://github.com/Hirainsingadia/CVE-2002-2154) :  ![starts](https://img.shields.io/github/stars/Hirainsingadia/CVE-2002-2154.svg) ![forks](https://img.shields.io/github/forks/Hirainsingadia/CVE-2002-2154.svg)
+
 ## CVE-2002-1614
  Buffer overflow in HP Tru64 UNIX allows local users to execute arbitrary code via a long argument to /usr/bin/at.
 
