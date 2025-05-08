@@ -47,6 +47,8 @@
 
 - [https://github.com/KernelPan1k/trans2open-CVE-2003-0201](https://github.com/KernelPan1k/trans2open-CVE-2003-0201) :  ![starts](https://img.shields.io/github/stars/KernelPan1k/trans2open-CVE-2003-0201.svg) ![forks](https://img.shields.io/github/forks/KernelPan1k/trans2open-CVE-2003-0201.svg)
 
+- [https://github.com/Bakr-Ht/samba-trans2open-exploit-report](https://github.com/Bakr-Ht/samba-trans2open-exploit-report) :  ![starts](https://img.shields.io/github/stars/Bakr-Ht/samba-trans2open-exploit-report.svg) ![forks](https://img.shields.io/github/forks/Bakr-Ht/samba-trans2open-exploit-report.svg)
+
 ## CVE-2003-0172
  Buffer overflow in openlog function for PHP 4.3.1 on Windows operating system, and possibly other OSes, allows remote attackers to cause a crash and possibly execute arbitrary code via a long filename argument.
 
