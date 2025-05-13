@@ -114,13 +114,13 @@
 
 - [https://github.com/0xB0y426/CVE-2011-2523-PoC](https://github.com/0xB0y426/CVE-2011-2523-PoC) :  ![starts](https://img.shields.io/github/stars/0xB0y426/CVE-2011-2523-PoC.svg) ![forks](https://img.shields.io/github/forks/0xB0y426/CVE-2011-2523-PoC.svg)
 
-- [https://github.com/madanokr001/CVE-2011-2523](https://github.com/madanokr001/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/madanokr001/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/madanokr001/CVE-2011-2523.svg)
-
-- [https://github.com/0xSojalSec/CVE-2011-2523](https://github.com/0xSojalSec/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/CVE-2011-2523.svg)
+- [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
 
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
-- [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
+- [https://github.com/0xSojalSec/CVE-2011-2523](https://github.com/0xSojalSec/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/CVE-2011-2523.svg)
+
+- [https://github.com/madanokr001/CVE-2011-2523](https://github.com/madanokr001/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/madanokr001/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/madanokr001/CVE-2011-2523.svg)
 
 - [https://github.com/vaishnavucv/CVE-2011-2523](https://github.com/vaishnavucv/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/vaishnavucv/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/vaishnavucv/CVE-2011-2523.svg)
 
@@ -128,9 +128,9 @@
 
 - [https://github.com/XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/XiangSi-Howard/CTF---CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/XiangSi-Howard/CTF---CVE-2011-2523.svg)
 
-- [https://github.com/Shubham-2k1/Exploit-CVE-2011-2523](https://github.com/Shubham-2k1/Exploit-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Shubham-2k1/Exploit-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Shubham-2k1/Exploit-CVE-2011-2523.svg)
-
 - [https://github.com/Tenor-Z/SmileySploit](https://github.com/Tenor-Z/SmileySploit) :  ![starts](https://img.shields.io/github/stars/Tenor-Z/SmileySploit.svg) ![forks](https://img.shields.io/github/forks/Tenor-Z/SmileySploit.svg)
+
+- [https://github.com/Shubham-2k1/Exploit-CVE-2011-2523](https://github.com/Shubham-2k1/Exploit-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Shubham-2k1/Exploit-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Shubham-2k1/Exploit-CVE-2011-2523.svg)
 
 - [https://github.com/chleba124/vsftpd-exploit](https://github.com/chleba124/vsftpd-exploit) :  ![starts](https://img.shields.io/github/stars/chleba124/vsftpd-exploit.svg) ![forks](https://img.shields.io/github/forks/chleba124/vsftpd-exploit.svg)
 
