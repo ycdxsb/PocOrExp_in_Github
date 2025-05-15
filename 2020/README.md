@@ -10,9 +10,9 @@
 
 
 
-- [https://github.com/miguelc49/CVE-2020-36732-2](https://github.com/miguelc49/CVE-2020-36732-2) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2020-36732-2.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2020-36732-2.svg)
-
 - [https://github.com/miguelc49/CVE-2020-36732-1](https://github.com/miguelc49/CVE-2020-36732-1) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2020-36732-1.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2020-36732-1.svg)
+
+- [https://github.com/miguelc49/CVE-2020-36732-2](https://github.com/miguelc49/CVE-2020-36732-2) :  ![starts](https://img.shields.io/github/stars/miguelc49/CVE-2020-36732-2.svg) ![forks](https://img.shields.io/github/forks/miguelc49/CVE-2020-36732-2.svg)
 
 ## CVE-2020-36730
  The CMP for WordPress is vulnerable to authorization bypass due to a missing capability check on the cmp_get_post_detail(), niteo_export_csv(), and cmp_disable_comingsoon_ajax() functions in versions up to, and including, 3.8.1. This makes it possible for unauthenticated attackers to read posts, export subscriber lists, and/or deactivate the plugin.
@@ -1775,6 +1775,8 @@
 
 - [https://github.com/keyuan15/CVE-2020-17530](https://github.com/keyuan15/CVE-2020-17530) :  ![starts](https://img.shields.io/github/stars/keyuan15/CVE-2020-17530.svg) ![forks](https://img.shields.io/github/forks/keyuan15/CVE-2020-17530.svg)
 
+- [https://github.com/fatkz/CVE-2020-17530](https://github.com/fatkz/CVE-2020-17530) :  ![starts](https://img.shields.io/github/stars/fatkz/CVE-2020-17530.svg) ![forks](https://img.shields.io/github/forks/fatkz/CVE-2020-17530.svg)
+
 - [https://github.com/killmonday/CVE-2020-17530-s2-061](https://github.com/killmonday/CVE-2020-17530-s2-061) :  ![starts](https://img.shields.io/github/stars/killmonday/CVE-2020-17530-s2-061.svg) ![forks](https://img.shields.io/github/forks/killmonday/CVE-2020-17530-s2-061.svg)
 
 - [https://github.com/154802388/CVE-2020-17531](https://github.com/154802388/CVE-2020-17531) :  ![starts](https://img.shields.io/github/stars/154802388/CVE-2020-17531.svg) ![forks](https://img.shields.io/github/forks/154802388/CVE-2020-17531.svg)
@@ -2074,6 +2076,8 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 
 - [https://github.com/aleksejspopovs/cve-2020-16012](https://github.com/aleksejspopovs/cve-2020-16012) :  ![starts](https://img.shields.io/github/stars/aleksejspopovs/cve-2020-16012.svg) ![forks](https://img.shields.io/github/forks/aleksejspopovs/cve-2020-16012.svg)
+
+- [https://github.com/helidem/CVE-2020-16012-PoC](https://github.com/helidem/CVE-2020-16012-PoC) :  ![starts](https://img.shields.io/github/stars/helidem/CVE-2020-16012-PoC.svg) ![forks](https://img.shields.io/github/forks/helidem/CVE-2020-16012-PoC.svg)
 
 ## CVE-2020-15999
  Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
@@ -4770,9 +4774,9 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/manrop2702/CVE-2020-7961](https://github.com/manrop2702/CVE-2020-7961) :  ![starts](https://img.shields.io/github/stars/manrop2702/CVE-2020-7961.svg) ![forks](https://img.shields.io/github/forks/manrop2702/CVE-2020-7961.svg)
 
-- [https://github.com/NMinhTrung/LIFERAY-CVE-2020-7961](https://github.com/NMinhTrung/LIFERAY-CVE-2020-7961) :  ![starts](https://img.shields.io/github/stars/NMinhTrung/LIFERAY-CVE-2020-7961.svg) ![forks](https://img.shields.io/github/forks/NMinhTrung/LIFERAY-CVE-2020-7961.svg)
-
 - [https://github.com/pashayogi/CVE-2020-7961-Mass](https://github.com/pashayogi/CVE-2020-7961-Mass) :  ![starts](https://img.shields.io/github/stars/pashayogi/CVE-2020-7961-Mass.svg) ![forks](https://img.shields.io/github/forks/pashayogi/CVE-2020-7961-Mass.svg)
+
+- [https://github.com/NMinhTrung/LIFERAY-CVE-2020-7961](https://github.com/NMinhTrung/LIFERAY-CVE-2020-7961) :  ![starts](https://img.shields.io/github/stars/NMinhTrung/LIFERAY-CVE-2020-7961.svg) ![forks](https://img.shields.io/github/forks/NMinhTrung/LIFERAY-CVE-2020-7961.svg)
 
 ## CVE-2020-7934
  In LifeRay Portal CE 7.1.0 through 7.2.1 GA2, the First Name, Middle Name, and Last Name fields for user accounts in MyAccountPortlet are all vulnerable to a persistent XSS issue. Any user can modify these fields with a particular XSS payload, and it will be stored in the database. The payload will then be rendered when a user utilizes the search feature to search for other users (i.e., if a user with modified fields occurs in the search results). This issue was fixed in Liferay Portal CE version 7.3.0 GA1.
@@ -5308,9 +5312,9 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/dnerzker/CVE-2020-5902](https://github.com/dnerzker/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/dnerzker/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/dnerzker/CVE-2020-5902.svg)
 
-- [https://github.com/ajdumanhug/CVE-2020-5902](https://github.com/ajdumanhug/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/ajdumanhug/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/ajdumanhug/CVE-2020-5902.svg)
-
 - [https://github.com/flyopenair/CVE-2020-5902](https://github.com/flyopenair/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/flyopenair/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/flyopenair/CVE-2020-5902.svg)
+
+- [https://github.com/ajdumanhug/CVE-2020-5902](https://github.com/ajdumanhug/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/ajdumanhug/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/ajdumanhug/CVE-2020-5902.svg)
 
 - [https://github.com/GoodiesHQ/F5-Patch](https://github.com/GoodiesHQ/F5-Patch) :  ![starts](https://img.shields.io/github/stars/GoodiesHQ/F5-Patch.svg) ![forks](https://img.shields.io/github/forks/GoodiesHQ/F5-Patch.svg)
 
@@ -5786,9 +5790,9 @@ The issue has been fixed in dropwizard-validation 1.3.19 and 2.0.2.
 
 - [https://github.com/FancyDoesSecurity/CVE-2020-2883](https://github.com/FancyDoesSecurity/CVE-2020-2883) :  ![starts](https://img.shields.io/github/stars/FancyDoesSecurity/CVE-2020-2883.svg) ![forks](https://img.shields.io/github/forks/FancyDoesSecurity/CVE-2020-2883.svg)
 
-- [https://github.com/ZZZWD/CVE-2020-2883](https://github.com/ZZZWD/CVE-2020-2883) :  ![starts](https://img.shields.io/github/stars/ZZZWD/CVE-2020-2883.svg) ![forks](https://img.shields.io/github/forks/ZZZWD/CVE-2020-2883.svg)
-
 - [https://github.com/Qynklee/POC_CVE-2020-2883](https://github.com/Qynklee/POC_CVE-2020-2883) :  ![starts](https://img.shields.io/github/stars/Qynklee/POC_CVE-2020-2883.svg) ![forks](https://img.shields.io/github/forks/Qynklee/POC_CVE-2020-2883.svg)
+
+- [https://github.com/ZZZWD/CVE-2020-2883](https://github.com/ZZZWD/CVE-2020-2883) :  ![starts](https://img.shields.io/github/stars/ZZZWD/CVE-2020-2883.svg) ![forks](https://img.shields.io/github/forks/ZZZWD/CVE-2020-2883.svg)
 
 ## CVE-2020-2814
  Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB). Supported versions that are affected are 5.6.47 and prior, 5.7.28 and prior and 8.0.18 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
@@ -6683,11 +6687,11 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 - [https://github.com/SEHandler/CVE-2020-0796](https://github.com/SEHandler/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/SEHandler/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/SEHandler/CVE-2020-0796.svg)
 
+- [https://github.com/arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/arzuozkan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/arzuozkan/CVE-2020-0796.svg)
+
 - [https://github.com/madanokr001/CVE-2020-0796](https://github.com/madanokr001/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/madanokr001/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/madanokr001/CVE-2020-0796.svg)
 
 - [https://github.com/datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/datntsec/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/datntsec/CVE-2020-0796.svg)
-
-- [https://github.com/arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/arzuozkan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/arzuozkan/CVE-2020-0796.svg)
 
 - [https://github.com/Kaizzzo1/CVE-2020-0796](https://github.com/Kaizzzo1/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/Kaizzzo1/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/Kaizzzo1/CVE-2020-0796.svg)
 
@@ -6737,9 +6741,9 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 - [https://github.com/TweatherQ/CVE-2020-0796](https://github.com/TweatherQ/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/TweatherQ/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/TweatherQ/CVE-2020-0796.svg)
 
-- [https://github.com/halsten/CVE-2020-0796](https://github.com/halsten/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/halsten/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/halsten/CVE-2020-0796.svg)
-
 - [https://github.com/monjheta/CVE-2020-0796](https://github.com/monjheta/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/monjheta/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/monjheta/CVE-2020-0796.svg)
+
+- [https://github.com/halsten/CVE-2020-0796](https://github.com/halsten/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/halsten/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/halsten/CVE-2020-0796.svg)
 
 - [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
 
@@ -7017,15 +7021,15 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 - [https://github.com/apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall) :  ![starts](https://img.shields.io/github/stars/apodlosky/PoC_CurveBall.svg) ![forks](https://img.shields.io/github/forks/apodlosky/PoC_CurveBall.svg)
 
-- [https://github.com/Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/Ash112121/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/Ash112121/CVE-2020-0601.svg)
-
 - [https://github.com/modubyk/CVE_2020_0601](https://github.com/modubyk/CVE_2020_0601) :  ![starts](https://img.shields.io/github/stars/modubyk/CVE_2020_0601.svg) ![forks](https://img.shields.io/github/forks/modubyk/CVE_2020_0601.svg)
+
+- [https://github.com/Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/Ash112121/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/Ash112121/CVE-2020-0601.svg)
 
 - [https://github.com/JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/JPurrier/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/JPurrier/CVE-2020-0601.svg)
 
-- [https://github.com/thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl) :  ![starts](https://img.shields.io/github/stars/thimelp/cve-2020-0601-Perl.svg) ![forks](https://img.shields.io/github/forks/thimelp/cve-2020-0601-Perl.svg)
-
 - [https://github.com/exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey) :  ![starts](https://img.shields.io/github/stars/exploitblizzard/CVE-2020-0601-spoofkey.svg) ![forks](https://img.shields.io/github/forks/exploitblizzard/CVE-2020-0601-spoofkey.svg)
+
+- [https://github.com/thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl) :  ![starts](https://img.shields.io/github/stars/thimelp/cve-2020-0601-Perl.svg) ![forks](https://img.shields.io/github/forks/thimelp/cve-2020-0601-Perl.svg)
 
 - [https://github.com/JoelBts/CVE-2020-0601_PoC](https://github.com/JoelBts/CVE-2020-0601_PoC) :  ![starts](https://img.shields.io/github/stars/JoelBts/CVE-2020-0601_PoC.svg) ![forks](https://img.shields.io/github/forks/JoelBts/CVE-2020-0601_PoC.svg)
 
@@ -7171,9 +7175,9 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 
 
-- [https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2020-0401](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2020-0401) :  ![starts](https://img.shields.io/github/stars/nanopathi/framework_base_AOSP10_r33_CVE-2020-0401.svg) ![forks](https://img.shields.io/github/forks/nanopathi/framework_base_AOSP10_r33_CVE-2020-0401.svg)
-
 - [https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2020-0401](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2020-0401) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2020-0401.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2020-0401.svg)
+
+- [https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2020-0401](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2020-0401) :  ![starts](https://img.shields.io/github/stars/nanopathi/framework_base_AOSP10_r33_CVE-2020-0401.svg) ![forks](https://img.shields.io/github/forks/nanopathi/framework_base_AOSP10_r33_CVE-2020-0401.svg)
 
 ## CVE-2020-0394
  In onCreate of BluetoothPairingDialog.java, there is a possible tapjacking vector due to an insecure default value. This could lead to local escalation of privilege and untrusted devices accessing contact lists with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10 Android-11Android ID: A-155648639
@@ -7329,9 +7333,9 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 
 
-- [https://github.com/uthrasri/Packages_app_settings_CVE-2020-0201](https://github.com/uthrasri/Packages_app_settings_CVE-2020-0201) :  ![starts](https://img.shields.io/github/stars/uthrasri/Packages_app_settings_CVE-2020-0201.svg) ![forks](https://img.shields.io/github/forks/uthrasri/Packages_app_settings_CVE-2020-0201.svg)
-
 - [https://github.com/Trinadh465/packages_apps_Settings_CVE-2020-0201](https://github.com/Trinadh465/packages_apps_Settings_CVE-2020-0201) :  ![starts](https://img.shields.io/github/stars/Trinadh465/packages_apps_Settings_CVE-2020-0201.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/packages_apps_Settings_CVE-2020-0201.svg)
+
+- [https://github.com/uthrasri/Packages_app_settings_CVE-2020-0201](https://github.com/uthrasri/Packages_app_settings_CVE-2020-0201) :  ![starts](https://img.shields.io/github/stars/uthrasri/Packages_app_settings_CVE-2020-0201.svg) ![forks](https://img.shields.io/github/forks/uthrasri/Packages_app_settings_CVE-2020-0201.svg)
 
 ## CVE-2020-0198
  In exif_data_load_data_content of exif-data.c, there is a possible UBSAN abort due to an integer overflow. This could lead to remote denial of service with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-146428941
