@@ -1,106 +1,79 @@
-# Update 2025-05-14
-## CVE-2025-31258
- This issue was addressed by removing the vulnerable code. This issue is fixed in macOS Sequoia 15.5. An app may be able to break out of its sandbox.
+# Update 2025-05-15
+## CVE-2025-46721
+ nosurf is cross-site request forgery (CSRF) protection middleware for Go. A vulnerability in versions prior to 1.2.0 allows an attacker who controls content on the target site, or on a subdomain of the target site (either via XSS, or otherwise) to bypass CSRF checks and issue requests on user's behalf. Due to misuse of the Go `net/http` library, nosurf categorizes all incoming requests as plain-text HTTP requests, in which case the `Referer` header is not checked to have the same origin as the target webpage. If the attacker has control over HTML contents on either the target website (e.g. `example.com`), or on a website hosted on a subdomain of the target (e.g. `attacker.example.com`), they will also be able to manipulate cookies set for the target website. By acquiring the secret CSRF token from the cookie, or overriding the cookie with a new token known to the attacker, `attacker.example.com` is able to craft cross-site requests to `example.com`. A patch for the issue was released in nosurf 1.2.0. In lieu of upgrading to a patched version of nosurf, users may additionally use another HTTP middleware to ensure that a non-safe HTTP request is coming from the same origin (e.g. by requiring a `Sec-Fetch-Site: same-origin` header in the request).
 
-- [https://github.com/wh1te4ever/CVE-2025-31258-PoC](https://github.com/wh1te4ever/CVE-2025-31258-PoC) :  ![starts](https://img.shields.io/github/stars/wh1te4ever/CVE-2025-31258-PoC.svg) ![forks](https://img.shields.io/github/forks/wh1te4ever/CVE-2025-31258-PoC.svg)
+- [https://github.com/justinas/nosurf-cve-2025-46721](https://github.com/justinas/nosurf-cve-2025-46721) :  ![starts](https://img.shields.io/github/stars/justinas/nosurf-cve-2025-46721.svg) ![forks](https://img.shields.io/github/forks/justinas/nosurf-cve-2025-46721.svg)
+
+
+## CVE-2025-44039
+ CP-XR-DE21-S -4G Router Firmware version 1.031.022 was discovered to contain insecure protections for its UART console. This vulnerability allows local attackers to connect to the UART port via a serial connection, read all boot sequence, and revealing internal system details and sensitive information without any authentication.
+
+- [https://github.com/Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities](https://github.com/Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities) :  ![starts](https://img.shields.io/github/stars/Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities.svg) ![forks](https://img.shields.io/github/forks/Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities.svg)
+
+
+## CVE-2025-31201
+ This issue was addressed by removing the vulnerable code. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.
+
+- [https://github.com/pxx917144686/12345](https://github.com/pxx917144686/12345) :  ![starts](https://img.shields.io/github/stars/pxx917144686/12345.svg) ![forks](https://img.shields.io/github/forks/pxx917144686/12345.svg)
+
+
+## CVE-2025-31200
+ A memory corruption issue was addressed with improved bounds checking. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. Processing an audio stream in a maliciously crafted media file may result in code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.
+
+- [https://github.com/pxx917144686/12345](https://github.com/pxx917144686/12345) :  ![starts](https://img.shields.io/github/stars/pxx917144686/12345.svg) ![forks](https://img.shields.io/github/forks/pxx917144686/12345.svg)
 
 
 ## CVE-2025-24203
  The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to modify protected parts of the file system.
 
-- [https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-in-Swift](https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-in-Swift) :  ![starts](https://img.shields.io/github/stars/GeoSn0w/CVE-2025-24203-iOS-Exploit-in-Swift.svg) ![forks](https://img.shields.io/github/forks/GeoSn0w/CVE-2025-24203-iOS-Exploit-in-Swift.svg)
+- [https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging](https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging) :  ![starts](https://img.shields.io/github/stars/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging.svg) ![forks](https://img.shields.io/github/forks/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging.svg)
+- [https://github.com/GeoSn0w/iDevice-Toolkit](https://github.com/GeoSn0w/iDevice-Toolkit) :  ![starts](https://img.shields.io/github/stars/GeoSn0w/iDevice-Toolkit.svg) ![forks](https://img.shields.io/github/forks/GeoSn0w/iDevice-Toolkit.svg)
 
 
-## CVE-2024-55466
- An arbitrary file upload vulnerability in the Image Gallery of ThingsBoard Community, ThingsBoard Cloud and ThingsBoard Professional v3.8.1 allows attackers to execute arbitrary code via uploading a crafted file.
+## CVE-2025-24085
+ A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
 
-- [https://github.com/cybsecsid/ThingsBoard-CVE-2024-55466](https://github.com/cybsecsid/ThingsBoard-CVE-2024-55466) :  ![starts](https://img.shields.io/github/stars/cybsecsid/ThingsBoard-CVE-2024-55466.svg) ![forks](https://img.shields.io/github/forks/cybsecsid/ThingsBoard-CVE-2024-55466.svg)
-- [https://github.com/cybsecsid/ThingsBoard-IoT-Platform-CVE-2024-55466](https://github.com/cybsecsid/ThingsBoard-IoT-Platform-CVE-2024-55466) :  ![starts](https://img.shields.io/github/stars/cybsecsid/ThingsBoard-IoT-Platform-CVE-2024-55466.svg) ![forks](https://img.shields.io/github/forks/cybsecsid/ThingsBoard-IoT-Platform-CVE-2024-55466.svg)
-
-
-## CVE-2024-43788
- Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset. The webpack developers have discovered a DOM Clobbering vulnerability in Webpack’s `AutoPublicPathRuntimeModule`. The DOM Clobbering gadget in the module can lead to cross-site scripting (XSS) in web pages where scriptless attacker-controlled HTML elements (e.g., an `img` tag with an unsanitized `name` attribute) are present. Real-world exploitation of this gadget has been observed in the Canvas LMS which allows a XSS attack to happen through a javascript code compiled by Webpack (the vulnerable part is from Webpack). DOM Clobbering is a type of code-reuse attack where the attacker first embeds a piece of non-script, seemingly benign HTML markups in the webpage (e.g. through a post or comment) and leverages the gadgets (pieces of js code) living in the existing javascript code to transform it into executable code. This vulnerability can lead to cross-site scripting (XSS) on websites that include Webpack-generated files and allow users to inject certain scriptless HTML tags with improperly sanitized name or id attributes. This issue has been addressed in release version 5.94.0. All users are advised to upgrade. There are no known workarounds for this issue.
-
-- [https://github.com/batzionb/webpack-cve-2024-43788](https://github.com/batzionb/webpack-cve-2024-43788) :  ![starts](https://img.shields.io/github/stars/batzionb/webpack-cve-2024-43788.svg) ![forks](https://img.shields.io/github/forks/batzionb/webpack-cve-2024-43788.svg)
+- [https://github.com/pxx917144686/12345](https://github.com/pxx917144686/12345) :  ![starts](https://img.shields.io/github/stars/pxx917144686/12345.svg) ![forks](https://img.shields.io/github/forks/pxx917144686/12345.svg)
 
 
-## CVE-2024-10220
- The Kubernetes kubelet component allows arbitrary command execution via specially crafted gitRepo volumes.This issue affects kubelet: through 1.28.11, from 1.29.0 through 1.29.6, from 1.30.0 through 1.30.2.
+## CVE-2025-3248
+code.
 
-- [https://github.com/orgC/CVE-2024-10220-demo](https://github.com/orgC/CVE-2024-10220-demo) :  ![starts](https://img.shields.io/github/stars/orgC/CVE-2024-10220-demo.svg) ![forks](https://img.shields.io/github/forks/orgC/CVE-2024-10220-demo.svg)
-
-
-## CVE-2024-4577
- In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use "Best-Fit" behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
-
-- [https://github.com/tntrock/CVE-2024-4577_PowerShell](https://github.com/tntrock/CVE-2024-4577_PowerShell) :  ![starts](https://img.shields.io/github/stars/tntrock/CVE-2024-4577_PowerShell.svg) ![forks](https://img.shields.io/github/forks/tntrock/CVE-2024-4577_PowerShell.svg)
+- [https://github.com/vigilante-1337/CVE-2025-3248](https://github.com/vigilante-1337/CVE-2025-3248) :  ![starts](https://img.shields.io/github/stars/vigilante-1337/CVE-2025-3248.svg) ![forks](https://img.shields.io/github/forks/vigilante-1337/CVE-2025-3248.svg)
 
 
-## CVE-2023-41992
- The issue was addressed with improved checks. This issue is fixed in macOS Monterey 12.7, iOS 16.7 and iPadOS 16.7, macOS Ventura 13.6. A local attacker may be able to elevate their privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
+## CVE-2025-2294
+ The Kubio AI Page Builder plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.5.1 via thekubio_hybrid_theme_load_template function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
 
-- [https://github.com/karzanWang/CVE-2023-41992](https://github.com/karzanWang/CVE-2023-41992) :  ![starts](https://img.shields.io/github/stars/karzanWang/CVE-2023-41992.svg) ![forks](https://img.shields.io/github/forks/karzanWang/CVE-2023-41992.svg)
-
-
-## CVE-2023-34732
- An issue in the userId parameter in the change password function of Flytxt NEON-dX v0.0.1-SNAPSHOT-6.9-qa-2-9-g5502a0c allows attackers to execute brute force attacks to discover user passwords.
-
-- [https://github.com/saykino/CVE-2023-34732](https://github.com/saykino/CVE-2023-34732) :  ![starts](https://img.shields.io/github/stars/saykino/CVE-2023-34732.svg) ![forks](https://img.shields.io/github/forks/saykino/CVE-2023-34732.svg)
+- [https://github.com/Yucaerin/CVE-2025-2294](https://github.com/Yucaerin/CVE-2025-2294) :  ![starts](https://img.shields.io/github/stars/Yucaerin/CVE-2025-2294.svg) ![forks](https://img.shields.io/github/forks/Yucaerin/CVE-2025-2294.svg)
 
 
-## CVE-2023-30800
- The web server used by MikroTik RouterOS version 6 is affected by a heap memory corruption issue. A remote and unauthenticated attacker can corrupt the server's heap memory by sending a crafted HTTP request. As a result, the web interface crashes and is immediately restarted. The issue was fixed in RouterOS 6.49.10 stable. RouterOS version 7 is not affected.
+## CVE-2024-23651
+ BuildKit is a toolkit for converting source code to build artifacts in an efficient, expressive and repeatable manner. Two malicious build steps running in parallel sharing the same cache mounts with subpaths could cause a race condition that can lead to files from the host system being accessible to the build container. The issue has been fixed in v0.12.5. Workarounds include, avoiding using BuildKit frontend from an untrusted source or building an untrusted Dockerfile containing cache mounts with --mount=type=cache,source=... options.
 
-- [https://github.com/diemaxxing/cve-2023-30800-multithread-doser](https://github.com/diemaxxing/cve-2023-30800-multithread-doser) :  ![starts](https://img.shields.io/github/stars/diemaxxing/cve-2023-30800-multithread-doser.svg) ![forks](https://img.shields.io/github/forks/diemaxxing/cve-2023-30800-multithread-doser.svg)
-
-
-## CVE-2022-21661
- WordPress is a free and open-source content management system written in PHP and paired with a MariaDB database. Due to improper sanitization in WP_Query, there can be cases where SQL injection is possible through plugins or themes that use it in a certain way. This has been patched in WordPress version 5.8.3. Older affected versions are also fixed via security release, that go back till 3.7.37. We strongly recommend that you keep auto-updates enabled. There are no known workarounds for this vulnerability.
-
-- [https://github.com/Fauzan-Aldi/CVE-2022-21661](https://github.com/Fauzan-Aldi/CVE-2022-21661) :  ![starts](https://img.shields.io/github/stars/Fauzan-Aldi/CVE-2022-21661.svg) ![forks](https://img.shields.io/github/forks/Fauzan-Aldi/CVE-2022-21661.svg)
+- [https://github.com/shkch02/eBPF_cve_2024_23651](https://github.com/shkch02/eBPF_cve_2024_23651) :  ![starts](https://img.shields.io/github/stars/shkch02/eBPF_cve_2024_23651.svg) ![forks](https://img.shields.io/github/forks/shkch02/eBPF_cve_2024_23651.svg)
 
 
-## CVE-2022-0847
- A flaw was found in the way the "flags" member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
+## CVE-2021-3560
+ It was found that polkit could be tricked into bypassing the credential checks for D-Bus requests, elevating the privileges of the requestor to the root user. This flaw could be used by an unprivileged local attacker to, for example, create a new local administrator. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
 
-- [https://github.com/cypherlobo/DirtyPipe-BSI](https://github.com/cypherlobo/DirtyPipe-BSI) :  ![starts](https://img.shields.io/github/stars/cypherlobo/DirtyPipe-BSI.svg) ![forks](https://img.shields.io/github/forks/cypherlobo/DirtyPipe-BSI.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2021-41773.svg)
-- [https://github.com/JIYUN02/cve-2021-41773](https://github.com/JIYUN02/cve-2021-41773) :  ![starts](https://img.shields.io/github/stars/JIYUN02/cve-2021-41773.svg) ![forks](https://img.shields.io/github/forks/JIYUN02/cve-2021-41773.svg)
-- [https://github.com/honypot/CVE-2021-41773](https://github.com/honypot/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/honypot/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/honypot/CVE-2021-41773.svg)
+- [https://github.com/MandipJoshi/CVE-2021-3560](https://github.com/MandipJoshi/CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/MandipJoshi/CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/MandipJoshi/CVE-2021-3560.svg)
 
 
-## CVE-2019-15107
- An issue was discovered in Webmin =1.920. The parameter old in password_change.cgi contains a command injection vulnerability.
+## CVE-2018-25031
+ Swagger UI 4.1.2 and earlier could allow a remote attacker to conduct spoofing attacks. By persuading a victim to open a crafted URL, an attacker could exploit this vulnerability to display remote OpenAPI definitions. Note: This was originally claimed to be resolved in 4.1.3. However, third parties have indicated this is not resolved in 4.1.3 and even occurs in that version and possibly others.
 
-- [https://github.com/ch4ko/webmin_CVE-2019-15107](https://github.com/ch4ko/webmin_CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/ch4ko/webmin_CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/ch4ko/webmin_CVE-2019-15107.svg)
+- [https://github.com/faccimatteo/CVE-2018-25031](https://github.com/faccimatteo/CVE-2018-25031) :  ![starts](https://img.shields.io/github/stars/faccimatteo/CVE-2018-25031.svg) ![forks](https://img.shields.io/github/forks/faccimatteo/CVE-2018-25031.svg)
 
 
 ## CVE-2018-14498
  get_8bit_row in rdbmp.c in libjpeg-turbo through 1.5.90 and MozJPEG through 3.3.1 allows attackers to cause a denial of service (heap-based buffer over-read and application crash) via a crafted 8-bit BMP in which one or more of the color indices is out of range for the number of palette entries.
 
-- [https://github.com/h31md4llr/libjpeg_cve-2018-14498](https://github.com/h31md4llr/libjpeg_cve-2018-14498) :  ![starts](https://img.shields.io/github/stars/h31md4llr/libjpeg_cve-2018-14498.svg) ![forks](https://img.shields.io/github/forks/h31md4llr/libjpeg_cve-2018-14498.svg)
+- [https://github.com/h31md4llr/libjpeg_cve-2018-14498_2](https://github.com/h31md4llr/libjpeg_cve-2018-14498_2) :  ![starts](https://img.shields.io/github/stars/h31md4llr/libjpeg_cve-2018-14498_2.svg) ![forks](https://img.shields.io/github/forks/h31md4llr/libjpeg_cve-2018-14498_2.svg)
 
 
-## CVE-2017-6736
- The Simple Network Management Protocol (SNMP) subsystem of Cisco IOS 12.0 through 12.4 and 15.0 through 15.6 and IOS XE 2.2 through 3.17 contains multiple vulnerabilities that could allow an authenticated, remote attacker to remotely execute code on an affected system or cause an affected system to reload. An attacker could exploit these vulnerabilities by sending a crafted SNMP packet to an affected system via IPv4 or IPv6. Only traffic directed to an affected system can be used to exploit these vulnerabilities. The vulnerabilities are due to a buffer overflow condition in the SNMP subsystem of the affected software. The vulnerabilities affect all versions of SNMP: Versions 1, 2c, and 3. To exploit these vulnerabilities via SNMP Version 2c or earlier, the attacker must know the SNMP read-only community string for the affected system. To exploit these vulnerabilities via SNMP Version 3, the attacker must have user credentials for the affected system. All devices that have enabled SNMP and have not explicitly excluded the affected MIBs or OIDs should be considered vulnerable. Cisco Bug IDs: CSCve57697.
+## CVE-2015-3306
+ The mod_copy module in ProFTPD 1.3.5 allows remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.
 
-- [https://github.com/garnetsunset/CiscoIOSSNMPToolkit](https://github.com/garnetsunset/CiscoIOSSNMPToolkit) :  ![starts](https://img.shields.io/github/stars/garnetsunset/CiscoIOSSNMPToolkit.svg) ![forks](https://img.shields.io/github/forks/garnetsunset/CiscoIOSSNMPToolkit.svg)
-- [https://github.com/garnetsunset/CiscoSpectreTakeover](https://github.com/garnetsunset/CiscoSpectreTakeover) :  ![starts](https://img.shields.io/github/stars/garnetsunset/CiscoSpectreTakeover.svg) ![forks](https://img.shields.io/github/forks/garnetsunset/CiscoSpectreTakeover.svg)
-
-
-## CVE-2017-5753
- Systems with microprocessors utilizing speculative execution and branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
-
-- [https://github.com/garnetsunset/CiscoSpectreTakeover](https://github.com/garnetsunset/CiscoSpectreTakeover) :  ![starts](https://img.shields.io/github/stars/garnetsunset/CiscoSpectreTakeover.svg) ![forks](https://img.shields.io/github/forks/garnetsunset/CiscoSpectreTakeover.svg)
-
-
-## CVE-2017-5715
- Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
-
-- [https://github.com/garnetsunset/CiscoSpectreTakeover](https://github.com/garnetsunset/CiscoSpectreTakeover) :  ![starts](https://img.shields.io/github/stars/garnetsunset/CiscoSpectreTakeover.svg) ![forks](https://img.shields.io/github/forks/garnetsunset/CiscoSpectreTakeover.svg)
+- [https://github.com/Z3R0-0x30/CVE-2015-3306](https://github.com/Z3R0-0x30/CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/Z3R0-0x30/CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/Z3R0-0x30/CVE-2015-3306.svg)
 
