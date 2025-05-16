@@ -1,79 +1,72 @@
-# Update 2025-05-15
-## CVE-2025-46721
- nosurf is cross-site request forgery (CSRF) protection middleware for Go. A vulnerability in versions prior to 1.2.0 allows an attacker who controls content on the target site, or on a subdomain of the target site (either via XSS, or otherwise) to bypass CSRF checks and issue requests on user's behalf. Due to misuse of the Go `net/http` library, nosurf categorizes all incoming requests as plain-text HTTP requests, in which case the `Referer` header is not checked to have the same origin as the target webpage. If the attacker has control over HTML contents on either the target website (e.g. `example.com`), or on a website hosted on a subdomain of the target (e.g. `attacker.example.com`), they will also be able to manipulate cookies set for the target website. By acquiring the secret CSRF token from the cookie, or overriding the cookie with a new token known to the attacker, `attacker.example.com` is able to craft cross-site requests to `example.com`. A patch for the issue was released in nosurf 1.2.0. In lieu of upgrading to a patched version of nosurf, users may additionally use another HTTP middleware to ensure that a non-safe HTTP request is coming from the same origin (e.g. by requiring a `Sec-Fetch-Site: same-origin` header in the request).
+# Update 2025-05-16
+## CVE-2025-32756
+ A stack-based buffer overflow vulnerability [CWE-121] in Fortinet FortiVoice versions 7.2.0, 7.0.0 through 7.0.6, 6.4.0 through 6.4.10, FortiRecorder versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.5, 6.4.0 through 6.4.5, FortiMail versions 7.6.0 through 7.6.2, 7.4.0 through 7.4.4, 7.2.0 through 7.2.7, 7.0.0 through 7.0.8, FortiNDR versions 7.6.0, 7.4.0 through 7.4.7, 7.2.0 through 7.2.4, 7.0.0 through 7.0.6, FortiCamera versions 2.1.0 through 2.1.3, 2.0 all versions, 1.1 all versions, allows a remote unauthenticated attacker to execute arbitrary code or commands via sending HTTP requests with specially crafted hash cookie.
 
-- [https://github.com/justinas/nosurf-cve-2025-46721](https://github.com/justinas/nosurf-cve-2025-46721) :  ![starts](https://img.shields.io/github/stars/justinas/nosurf-cve-2025-46721.svg) ![forks](https://img.shields.io/github/forks/justinas/nosurf-cve-2025-46721.svg)
-
-
-## CVE-2025-44039
- CP-XR-DE21-S -4G Router Firmware version 1.031.022 was discovered to contain insecure protections for its UART console. This vulnerability allows local attackers to connect to the UART port via a serial connection, read all boot sequence, and revealing internal system details and sensitive information without any authentication.
-
-- [https://github.com/Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities](https://github.com/Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities) :  ![starts](https://img.shields.io/github/stars/Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities.svg) ![forks](https://img.shields.io/github/forks/Yashodhanvivek/CP-XR-DE21-S--4G-Router-Vulnerabilities.svg)
+- [https://github.com/m4s1um/CVE-2025-32756-RCE-PoC](https://github.com/m4s1um/CVE-2025-32756-RCE-PoC) :  ![starts](https://img.shields.io/github/stars/m4s1um/CVE-2025-32756-RCE-PoC.svg) ![forks](https://img.shields.io/github/forks/m4s1um/CVE-2025-32756-RCE-PoC.svg)
 
 
-## CVE-2025-31201
- This issue was addressed by removing the vulnerable code. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.
+## CVE-2025-29824
+ Use after free in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally.
 
-- [https://github.com/pxx917144686/12345](https://github.com/pxx917144686/12345) :  ![starts](https://img.shields.io/github/stars/pxx917144686/12345.svg) ![forks](https://img.shields.io/github/forks/pxx917144686/12345.svg)
-
-
-## CVE-2025-31200
- A memory corruption issue was addressed with improved bounds checking. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. Processing an audio stream in a maliciously crafted media file may result in code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.
-
-- [https://github.com/pxx917144686/12345](https://github.com/pxx917144686/12345) :  ![starts](https://img.shields.io/github/stars/pxx917144686/12345.svg) ![forks](https://img.shields.io/github/forks/pxx917144686/12345.svg)
+- [https://github.com/encrypter15/CVE-2025-29824](https://github.com/encrypter15/CVE-2025-29824) :  ![starts](https://img.shields.io/github/stars/encrypter15/CVE-2025-29824.svg) ![forks](https://img.shields.io/github/forks/encrypter15/CVE-2025-29824.svg)
 
 
-## CVE-2025-24203
- The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to modify protected parts of the file system.
+## CVE-2025-27636
+Mitigation: You can easily work around this in your Camel applications by removing the headers in your Camel routes. There are many ways of doing this, also globally or per route. This means you could use the removeHeaders EIP, to filter out anything like "cAmel, cAMEL" etc, or in general everything not starting with "Camel", "camel" or "org.apache.camel.".
 
-- [https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging](https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging) :  ![starts](https://img.shields.io/github/stars/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging.svg) ![forks](https://img.shields.io/github/forks/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging.svg)
-- [https://github.com/GeoSn0w/iDevice-Toolkit](https://github.com/GeoSn0w/iDevice-Toolkit) :  ![starts](https://img.shields.io/github/stars/GeoSn0w/iDevice-Toolkit.svg) ![forks](https://img.shields.io/github/forks/GeoSn0w/iDevice-Toolkit.svg)
-
-
-## CVE-2025-24085
- A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.
-
-- [https://github.com/pxx917144686/12345](https://github.com/pxx917144686/12345) :  ![starts](https://img.shields.io/github/stars/pxx917144686/12345.svg) ![forks](https://img.shields.io/github/forks/pxx917144686/12345.svg)
+- [https://github.com/enochgitgamefied/CVE-2025-27636-Practical-Lab](https://github.com/enochgitgamefied/CVE-2025-27636-Practical-Lab) :  ![starts](https://img.shields.io/github/stars/enochgitgamefied/CVE-2025-27636-Practical-Lab.svg) ![forks](https://img.shields.io/github/forks/enochgitgamefied/CVE-2025-27636-Practical-Lab.svg)
 
 
-## CVE-2025-3248
-code.
+## CVE-2025-24132
+ The issue was addressed with improved memory handling. This issue is fixed in AirPlay audio SDK 2.7.1, AirPlay video SDK 3.6.0.126, CarPlay Communication Plug-in R18.1. An attacker on the local network may cause an unexpected app termination.
 
-- [https://github.com/vigilante-1337/CVE-2025-3248](https://github.com/vigilante-1337/CVE-2025-3248) :  ![starts](https://img.shields.io/github/stars/vigilante-1337/CVE-2025-3248.svg) ![forks](https://img.shields.io/github/forks/vigilante-1337/CVE-2025-3248.svg)
-
-
-## CVE-2025-2294
- The Kubio AI Page Builder plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.5.1 via thekubio_hybrid_theme_load_template function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
-
-- [https://github.com/Yucaerin/CVE-2025-2294](https://github.com/Yucaerin/CVE-2025-2294) :  ![starts](https://img.shields.io/github/stars/Yucaerin/CVE-2025-2294.svg) ![forks](https://img.shields.io/github/forks/Yucaerin/CVE-2025-2294.svg)
+- [https://github.com/Feralthedogg/CVE-2025-24132-Scanner](https://github.com/Feralthedogg/CVE-2025-24132-Scanner) :  ![starts](https://img.shields.io/github/stars/Feralthedogg/CVE-2025-24132-Scanner.svg) ![forks](https://img.shields.io/github/forks/Feralthedogg/CVE-2025-24132-Scanner.svg)
 
 
-## CVE-2024-23651
- BuildKit is a toolkit for converting source code to build artifacts in an efficient, expressive and repeatable manner. Two malicious build steps running in parallel sharing the same cache mounts with subpaths could cause a race condition that can lead to files from the host system being accessible to the build container. The issue has been fixed in v0.12.5. Workarounds include, avoiding using BuildKit frontend from an untrusted source or building an untrusted Dockerfile containing cache mounts with --mount=type=cache,source=... options.
+## CVE-2025-3240
+ A vulnerability, which was classified as critical, has been found in PHPGurukul Online Fire Reporting System 1.2. Affected by this issue is some unknown functionality of the file /admin/search.php. The manipulation of the argument searchdata leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
 
-- [https://github.com/shkch02/eBPF_cve_2024_23651](https://github.com/shkch02/eBPF_cve_2024_23651) :  ![starts](https://img.shields.io/github/stars/shkch02/eBPF_cve_2024_23651.svg) ![forks](https://img.shields.io/github/forks/shkch02/eBPF_cve_2024_23651.svg)
-
-
-## CVE-2021-3560
- It was found that polkit could be tricked into bypassing the credential checks for D-Bus requests, elevating the privileges of the requestor to the root user. This flaw could be used by an unprivileged local attacker to, for example, create a new local administrator. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
-
-- [https://github.com/MandipJoshi/CVE-2021-3560](https://github.com/MandipJoshi/CVE-2021-3560) :  ![starts](https://img.shields.io/github/stars/MandipJoshi/CVE-2021-3560.svg) ![forks](https://img.shields.io/github/forks/MandipJoshi/CVE-2021-3560.svg)
+- [https://github.com/diegovargasj/CVE-2025-32407](https://github.com/diegovargasj/CVE-2025-32407) :  ![starts](https://img.shields.io/github/stars/diegovargasj/CVE-2025-32407.svg) ![forks](https://img.shields.io/github/forks/diegovargasj/CVE-2025-32407.svg)
 
 
-## CVE-2018-25031
- Swagger UI 4.1.2 and earlier could allow a remote attacker to conduct spoofing attacks. By persuading a victim to open a crafted URL, an attacker could exploit this vulnerability to display remote OpenAPI definitions. Note: This was originally claimed to be resolved in 4.1.3. However, third parties have indicated this is not resolved in 4.1.3 and even occurs in that version and possibly others.
+## CVE-2024-25381
+ There is a Stored XSS Vulnerability in Emlog Pro 2.2.8 Article Publishing, due to non-filtering of quoted content.
 
-- [https://github.com/faccimatteo/CVE-2018-25031](https://github.com/faccimatteo/CVE-2018-25031) :  ![starts](https://img.shields.io/github/stars/faccimatteo/CVE-2018-25031.svg) ![forks](https://img.shields.io/github/forks/faccimatteo/CVE-2018-25031.svg)
-
-
-## CVE-2018-14498
- get_8bit_row in rdbmp.c in libjpeg-turbo through 1.5.90 and MozJPEG through 3.3.1 allows attackers to cause a denial of service (heap-based buffer over-read and application crash) via a crafted 8-bit BMP in which one or more of the color indices is out of range for the number of palette entries.
-
-- [https://github.com/h31md4llr/libjpeg_cve-2018-14498_2](https://github.com/h31md4llr/libjpeg_cve-2018-14498_2) :  ![starts](https://img.shields.io/github/stars/h31md4llr/libjpeg_cve-2018-14498_2.svg) ![forks](https://img.shields.io/github/forks/h31md4llr/libjpeg_cve-2018-14498_2.svg)
+- [https://github.com/OoO7ce/CVE-2024-25381](https://github.com/OoO7ce/CVE-2024-25381) :  ![starts](https://img.shields.io/github/stars/OoO7ce/CVE-2024-25381.svg) ![forks](https://img.shields.io/github/forks/OoO7ce/CVE-2024-25381.svg)
 
 
-## CVE-2015-3306
- The mod_copy module in ProFTPD 1.3.5 allows remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.
+## CVE-2024-3701
+ The system application (com.transsion.kolun.aiservice) component does not perform an authentication check, which allows attackers to perform malicious exploitations and affect system services.
 
-- [https://github.com/Z3R0-0x30/CVE-2015-3306](https://github.com/Z3R0-0x30/CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/Z3R0-0x30/CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/Z3R0-0x30/CVE-2015-3306.svg)
+- [https://github.com/SarpantKeltiek/CVE-2024-37010](https://github.com/SarpantKeltiek/CVE-2024-37010) :  ![starts](https://img.shields.io/github/stars/SarpantKeltiek/CVE-2024-37010.svg) ![forks](https://img.shields.io/github/forks/SarpantKeltiek/CVE-2024-37010.svg)
+
+
+## CVE-2021-42694
+ An issue was discovered in the character definitions of the Unicode Specification through 14.0. The specification allows an adversary to produce source code identifiers such as function names using homoglyphs that render visually identical to a target identifier. Adversaries can leverage this to inject code via adversarial identifier definitions in upstream software dependencies invoked deceptively in downstream software. NOTE: the Unicode Consortium offers the following alternative approach to presenting this concern. An issue is noted in the nature of international text that can affect applications that implement support for The Unicode Standard (all versions). Unless mitigated, an adversary could produce source code identifiers using homoglyph characters that render visually identical to but are distinct from a target identifier. In this way, an adversary could inject adversarial identifier definitions in upstream software that are not detected by human reviewers and are invoked deceptively in downstream software. The Unicode Consortium has documented this class of security vulnerability in its document, Unicode Technical Report #36, Unicode Security Considerations. The Unicode Consortium also provides guidance on mitigations for this class of issues in Unicode Technical Standard #39, Unicode Security Mechanisms.
+
+- [https://github.com/k271266/CVE-2021-42694](https://github.com/k271266/CVE-2021-42694) :  ![starts](https://img.shields.io/github/stars/k271266/CVE-2021-42694.svg) ![forks](https://img.shields.io/github/forks/k271266/CVE-2021-42694.svg)
+
+
+## CVE-2021-3156
+ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via "sudoedit -s" and a command-line argument that ends with a single backslash character.
+
+- [https://github.com/duongdz96/CVE-2021-3156-main](https://github.com/duongdz96/CVE-2021-3156-main) :  ![starts](https://img.shields.io/github/stars/duongdz96/CVE-2021-3156-main.svg) ![forks](https://img.shields.io/github/forks/duongdz96/CVE-2021-3156-main.svg)
+
+
+## CVE-2020-17530
+ Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution. Affected software : Apache Struts 2.0.0 - Struts 2.5.25.
+
+- [https://github.com/fatkz/CVE-2020-17530](https://github.com/fatkz/CVE-2020-17530) :  ![starts](https://img.shields.io/github/stars/fatkz/CVE-2020-17530.svg) ![forks](https://img.shields.io/github/forks/fatkz/CVE-2020-17530.svg)
+
+
+## CVE-2020-16012
+ Side-channel information leakage in graphics in Google Chrome prior to 87.0.4280.66 allowed a remote attacker to leak cross-origin data via a crafted HTML page.
+
+- [https://github.com/helidem/CVE-2020-16012-PoC](https://github.com/helidem/CVE-2020-16012-PoC) :  ![starts](https://img.shields.io/github/stars/helidem/CVE-2020-16012-PoC.svg) ![forks](https://img.shields.io/github/forks/helidem/CVE-2020-16012-PoC.svg)
+
+
+## CVE-2018-6389
+ In WordPress through 4.9.2, unauthenticated attackers can cause a denial of service (resource consumption) by using the large list of registered .js files (from wp-includes/script-loader.php) to construct a series of requests to load every file many times.
+
+- [https://github.com/NemesisCyberForce/WordPress-CVE-2018-6389](https://github.com/NemesisCyberForce/WordPress-CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/NemesisCyberForce/WordPress-CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/NemesisCyberForce/WordPress-CVE-2018-6389.svg)
 
