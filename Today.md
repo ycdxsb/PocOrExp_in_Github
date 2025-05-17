@@ -1,72 +1,104 @@
-# Update 2025-05-16
-## CVE-2025-32756
- A stack-based buffer overflow vulnerability [CWE-121] in Fortinet FortiVoice versions 7.2.0, 7.0.0 through 7.0.6, 6.4.0 through 6.4.10, FortiRecorder versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.5, 6.4.0 through 6.4.5, FortiMail versions 7.6.0 through 7.6.2, 7.4.0 through 7.4.4, 7.2.0 through 7.2.7, 7.0.0 through 7.0.8, FortiNDR versions 7.6.0, 7.4.0 through 7.4.7, 7.2.0 through 7.2.4, 7.0.0 through 7.0.6, FortiCamera versions 2.1.0 through 2.1.3, 2.0 all versions, 1.1 all versions, allows a remote unauthenticated attacker to execute arbitrary code or commands via sending HTTP requests with specially crafted hash cookie.
+# Update 2025-05-17
+## CVE-2025-42999
+ SAP NetWeaver Visual Composer Metadata Uploader is vulnerable when a privileged user can upload untrusted or malicious content which, when deserialized, could potentially lead to a compromise of confidentiality, integrity, and availability of the host system.
 
-- [https://github.com/m4s1um/CVE-2025-32756-RCE-PoC](https://github.com/m4s1um/CVE-2025-32756-RCE-PoC) :  ![starts](https://img.shields.io/github/stars/m4s1um/CVE-2025-32756-RCE-PoC.svg) ![forks](https://img.shields.io/github/forks/m4s1um/CVE-2025-32756-RCE-PoC.svg)
-
-
-## CVE-2025-29824
- Use after free in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally.
-
-- [https://github.com/encrypter15/CVE-2025-29824](https://github.com/encrypter15/CVE-2025-29824) :  ![starts](https://img.shields.io/github/stars/encrypter15/CVE-2025-29824.svg) ![forks](https://img.shields.io/github/forks/encrypter15/CVE-2025-29824.svg)
+- [https://github.com/Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment](https://github.com/Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment) :  ![starts](https://img.shields.io/github/stars/Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment.svg) ![forks](https://img.shields.io/github/forks/Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment.svg)
 
 
-## CVE-2025-27636
-Mitigation: You can easily work around this in your Camel applications by removing the headers in your Camel routes. There are many ways of doing this, also globally or per route. This means you could use the removeHeaders EIP, to filter out anything like "cAmel, cAMEL" etc, or in general everything not starting with "Camel", "camel" or "org.apache.camel.".
+## CVE-2025-31258
+ This issue was addressed by removing the vulnerable code. This issue is fixed in macOS Sequoia 15.5. An app may be able to break out of its sandbox.
 
-- [https://github.com/enochgitgamefied/CVE-2025-27636-Practical-Lab](https://github.com/enochgitgamefied/CVE-2025-27636-Practical-Lab) :  ![starts](https://img.shields.io/github/stars/enochgitgamefied/CVE-2025-27636-Practical-Lab.svg) ![forks](https://img.shields.io/github/forks/enochgitgamefied/CVE-2025-27636-Practical-Lab.svg)
-
-
-## CVE-2025-24132
- The issue was addressed with improved memory handling. This issue is fixed in AirPlay audio SDK 2.7.1, AirPlay video SDK 3.6.0.126, CarPlay Communication Plug-in R18.1. An attacker on the local network may cause an unexpected app termination.
-
-- [https://github.com/Feralthedogg/CVE-2025-24132-Scanner](https://github.com/Feralthedogg/CVE-2025-24132-Scanner) :  ![starts](https://img.shields.io/github/stars/Feralthedogg/CVE-2025-24132-Scanner.svg) ![forks](https://img.shields.io/github/forks/Feralthedogg/CVE-2025-24132-Scanner.svg)
+- [https://github.com/BODE987/CVE-2025-31258-PoC](https://github.com/BODE987/CVE-2025-31258-PoC) :  ![starts](https://img.shields.io/github/stars/BODE987/CVE-2025-31258-PoC.svg) ![forks](https://img.shields.io/github/forks/BODE987/CVE-2025-31258-PoC.svg)
 
 
-## CVE-2025-3240
- A vulnerability, which was classified as critical, has been found in PHPGurukul Online Fire Reporting System 1.2. Affected by this issue is some unknown functionality of the file /admin/search.php. The manipulation of the argument searchdata leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+## CVE-2025-30397
+ Access of resource using incompatible type ('type confusion') in Microsoft Scripting Engine allows an unauthorized attacker to execute code over a network.
 
-- [https://github.com/diegovargasj/CVE-2025-32407](https://github.com/diegovargasj/CVE-2025-32407) :  ![starts](https://img.shields.io/github/stars/diegovargasj/CVE-2025-32407.svg) ![forks](https://img.shields.io/github/forks/diegovargasj/CVE-2025-32407.svg)
-
-
-## CVE-2024-25381
- There is a Stored XSS Vulnerability in Emlog Pro 2.2.8 Article Publishing, due to non-filtering of quoted content.
-
-- [https://github.com/OoO7ce/CVE-2024-25381](https://github.com/OoO7ce/CVE-2024-25381) :  ![starts](https://img.shields.io/github/stars/OoO7ce/CVE-2024-25381.svg) ![forks](https://img.shields.io/github/forks/OoO7ce/CVE-2024-25381.svg)
+- [https://github.com/Sratet/CVE-2025-30397-RCE](https://github.com/Sratet/CVE-2025-30397-RCE) :  ![starts](https://img.shields.io/github/stars/Sratet/CVE-2025-30397-RCE.svg) ![forks](https://img.shields.io/github/forks/Sratet/CVE-2025-30397-RCE.svg)
 
 
-## CVE-2024-3701
- The system application (com.transsion.kolun.aiservice) component does not perform an authentication check, which allows attackers to perform malicious exploitations and affect system services.
+## CVE-2025-29927
+ Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
 
-- [https://github.com/SarpantKeltiek/CVE-2024-37010](https://github.com/SarpantKeltiek/CVE-2024-37010) :  ![starts](https://img.shields.io/github/stars/SarpantKeltiek/CVE-2024-37010.svg) ![forks](https://img.shields.io/github/forks/SarpantKeltiek/CVE-2024-37010.svg)
-
-
-## CVE-2021-42694
- An issue was discovered in the character definitions of the Unicode Specification through 14.0. The specification allows an adversary to produce source code identifiers such as function names using homoglyphs that render visually identical to a target identifier. Adversaries can leverage this to inject code via adversarial identifier definitions in upstream software dependencies invoked deceptively in downstream software. NOTE: the Unicode Consortium offers the following alternative approach to presenting this concern. An issue is noted in the nature of international text that can affect applications that implement support for The Unicode Standard (all versions). Unless mitigated, an adversary could produce source code identifiers using homoglyph characters that render visually identical to but are distinct from a target identifier. In this way, an adversary could inject adversarial identifier definitions in upstream software that are not detected by human reviewers and are invoked deceptively in downstream software. The Unicode Consortium has documented this class of security vulnerability in its document, Unicode Technical Report #36, Unicode Security Considerations. The Unicode Consortium also provides guidance on mitigations for this class of issues in Unicode Technical Standard #39, Unicode Security Mechanisms.
-
-- [https://github.com/k271266/CVE-2021-42694](https://github.com/k271266/CVE-2021-42694) :  ![starts](https://img.shields.io/github/stars/k271266/CVE-2021-42694.svg) ![forks](https://img.shields.io/github/forks/k271266/CVE-2021-42694.svg)
+- [https://github.com/luq0x/0xMiddleware](https://github.com/luq0x/0xMiddleware) :  ![starts](https://img.shields.io/github/stars/luq0x/0xMiddleware.svg) ![forks](https://img.shields.io/github/forks/luq0x/0xMiddleware.svg)
 
 
-## CVE-2021-3156
- Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via "sudoedit -s" and a command-line argument that ends with a single backslash character.
+## CVE-2025-24813
+Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
 
-- [https://github.com/duongdz96/CVE-2021-3156-main](https://github.com/duongdz96/CVE-2021-3156-main) :  ![starts](https://img.shields.io/github/stars/duongdz96/CVE-2021-3156-main.svg) ![forks](https://img.shields.io/github/forks/duongdz96/CVE-2021-3156-main.svg)
-
-
-## CVE-2020-17530
- Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution. Affected software : Apache Struts 2.0.0 - Struts 2.5.25.
-
-- [https://github.com/fatkz/CVE-2020-17530](https://github.com/fatkz/CVE-2020-17530) :  ![starts](https://img.shields.io/github/stars/fatkz/CVE-2020-17530.svg) ![forks](https://img.shields.io/github/forks/fatkz/CVE-2020-17530.svg)
+- [https://github.com/maliqto/PoC-CVE-2025-24813](https://github.com/maliqto/PoC-CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/maliqto/PoC-CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/maliqto/PoC-CVE-2025-24813.svg)
 
 
-## CVE-2020-16012
- Side-channel information leakage in graphics in Google Chrome prior to 87.0.4280.66 allowed a remote attacker to leak cross-origin data via a crafted HTML page.
+## CVE-2025-4428
+ Remote Code Execution in API component in Ivanti Endpoint Manager Mobile 12.5.0.0 and prior on unspecified platforms allows authenticated attackers to execute arbitrary code via crafted API requests.
 
-- [https://github.com/helidem/CVE-2020-16012-PoC](https://github.com/helidem/CVE-2020-16012-PoC) :  ![starts](https://img.shields.io/github/stars/helidem/CVE-2020-16012-PoC.svg) ![forks](https://img.shields.io/github/forks/helidem/CVE-2020-16012-PoC.svg)
+- [https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428](https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428) :  ![starts](https://img.shields.io/github/stars/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428.svg) ![forks](https://img.shields.io/github/forks/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428.svg)
+- [https://github.com/xie-22/CVE-2025-4428](https://github.com/xie-22/CVE-2025-4428) :  ![starts](https://img.shields.io/github/stars/xie-22/CVE-2025-4428.svg) ![forks](https://img.shields.io/github/forks/xie-22/CVE-2025-4428.svg)
 
 
-## CVE-2018-6389
- In WordPress through 4.9.2, unauthenticated attackers can cause a denial of service (resource consumption) by using the large list of registered .js files (from wp-includes/script-loader.php) to construct a series of requests to load every file many times.
+## CVE-2025-4427
+ An authentication bypass in the API component of Ivanti Endpoint Manager Mobile 12.5.0.0 and prior allows attackers to access protected resources without proper credentials via the API.
 
-- [https://github.com/NemesisCyberForce/WordPress-CVE-2018-6389](https://github.com/NemesisCyberForce/WordPress-CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/NemesisCyberForce/WordPress-CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/NemesisCyberForce/WordPress-CVE-2018-6389.svg)
+- [https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428](https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428) :  ![starts](https://img.shields.io/github/stars/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428.svg) ![forks](https://img.shields.io/github/forks/watchtowrlabs/watchTowr-vs-Ivanti-EPMM-CVE-2025-4427-CVE-2025-4428.svg)
+
+
+## CVE-2025-3605
+ The Frontend Login and Registration Blocks plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 1.0.7. This is due to the plugin not properly validating a user's identity prior to updating their details like email via the flr_blocks_user_settings_handle_ajax_callback() function. This makes it possible for unauthenticated attackers to change arbitrary user's email addresses, including administrators, and leverage that to reset the user's password and gain access to their account.
+
+- [https://github.com/GadaLuBau1337/CVE-2025-3605](https://github.com/GadaLuBau1337/CVE-2025-3605) :  ![starts](https://img.shields.io/github/stars/GadaLuBau1337/CVE-2025-3605.svg) ![forks](https://img.shields.io/github/forks/GadaLuBau1337/CVE-2025-3605.svg)
+
+
+## CVE-2025-2570
+ Mattermost versions 10.5.x = 10.5.3, 9.11.x = 9.11.11 fail to check `RestrictSystemAdmin` setting if user doesn't have access to `ExperimentalSettings` which allows a System Manager to access `ExperimentSettings` when `RestrictSystemAdmin` is true via System Console.
+
+- [https://github.com/Cotherm/CVE-2025-25706](https://github.com/Cotherm/CVE-2025-25706) :  ![starts](https://img.shields.io/github/stars/Cotherm/CVE-2025-25706.svg) ![forks](https://img.shields.io/github/forks/Cotherm/CVE-2025-25706.svg)
+- [https://github.com/Cotherm/CVE-2025-25705](https://github.com/Cotherm/CVE-2025-25705) :  ![starts](https://img.shields.io/github/stars/Cotherm/CVE-2025-25705.svg) ![forks](https://img.shields.io/github/forks/Cotherm/CVE-2025-25705.svg)
+
+
+## CVE-2024-51793
+ Unrestricted Upload of File with Dangerous Type vulnerability in Webful Creations Computer Repair Shop allows Upload a Web Shell to a Web Server.This issue affects Computer Repair Shop: from n/a through 3.8115.
+
+- [https://github.com/KTN1990/CVE-2024-51793](https://github.com/KTN1990/CVE-2024-51793) :  ![starts](https://img.shields.io/github/stars/KTN1990/CVE-2024-51793.svg) ![forks](https://img.shields.io/github/forks/KTN1990/CVE-2024-51793.svg)
+
+
+## CVE-2024-46310
+ Incorrect Access Control in Cfx.re FXServer v9601 and earlier allows unauthenticated users to modify and read arbitrary user data via exposed API endpoint
+
+- [https://github.com/PRX5Y/CVE-2024-46310](https://github.com/PRX5Y/CVE-2024-46310) :  ![starts](https://img.shields.io/github/stars/PRX5Y/CVE-2024-46310.svg) ![forks](https://img.shields.io/github/forks/PRX5Y/CVE-2024-46310.svg)
+
+
+## CVE-2023-21563
+ BitLocker Security Feature Bypass Vulnerability
+
+- [https://github.com/martanne/bitpixie](https://github.com/martanne/bitpixie) :  ![starts](https://img.shields.io/github/stars/martanne/bitpixie.svg) ![forks](https://img.shields.io/github/forks/martanne/bitpixie.svg)
+
+
+## CVE-2023-20198
+ Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.
+
+- [https://github.com/DOMINIC471/qub-network-security-cve-2023-20198](https://github.com/DOMINIC471/qub-network-security-cve-2023-20198) :  ![starts](https://img.shields.io/github/stars/DOMINIC471/qub-network-security-cve-2023-20198.svg) ![forks](https://img.shields.io/github/forks/DOMINIC471/qub-network-security-cve-2023-20198.svg)
+
+
+## CVE-2023-7231
+ The illi Link Party! WordPress plugin through 1.0 lacks proper access controls, allowing unauthenticated visitors to delete links.
+
+- [https://github.com/BBO513/CVE-2023-7231](https://github.com/BBO513/CVE-2023-7231) :  ![starts](https://img.shields.io/github/stars/BBO513/CVE-2023-7231.svg) ![forks](https://img.shields.io/github/forks/BBO513/CVE-2023-7231.svg)
+
+
+## CVE-2022-42889
+ Apache Commons Text performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is "${prefix:name}", where "prefix" is used to locate an instance of org.apache.commons.text.lookup.StringLookup that performs the interpolation. Starting with version 1.5 and continuing through 1.9, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: - "script" - execute expressions using the JVM script execution engine (javax.script) - "dns" - resolve dns records - "url" - load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used. Users are recommended to upgrade to Apache Commons Text 1.10.0, which disables the problematic interpolators by default.
+
+- [https://github.com/vickyaryan7/Text4shell-exploit](https://github.com/vickyaryan7/Text4shell-exploit) :  ![starts](https://img.shields.io/github/stars/vickyaryan7/Text4shell-exploit.svg) ![forks](https://img.shields.io/github/forks/vickyaryan7/Text4shell-exploit.svg)
+
+
+## CVE-2022-26809
+ Remote Procedure Call Runtime Remote Code Execution Vulnerability
+
+- [https://github.com/Lay0us/CVE-2022-26809-RCE](https://github.com/Lay0us/CVE-2022-26809-RCE) :  ![starts](https://img.shields.io/github/stars/Lay0us/CVE-2022-26809-RCE.svg) ![forks](https://img.shields.io/github/forks/Lay0us/CVE-2022-26809-RCE.svg)
+
+
+## CVE-2021-4428
+ A vulnerability has been found in what3words Autosuggest Plugin up to 4.0.0 on WordPress and classified as problematic. Affected by this vulnerability is the function enqueue_scripts of the file w3w-autosuggest/public/class-w3w-autosuggest-public.php of the component Setting Handler. The manipulation leads to information disclosure. The attack can be launched remotely. Upgrading to version 4.0.1 is able to address this issue. The patch is named dd59cbac5f86057d6a73b87007c08b8bfa0c32ac. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-234247.
+
+- [https://github.com/GianlucaSanfi/cve-2021-4428](https://github.com/GianlucaSanfi/cve-2021-4428) :  ![starts](https://img.shields.io/github/stars/GianlucaSanfi/cve-2021-4428.svg) ![forks](https://img.shields.io/github/forks/GianlucaSanfi/cve-2021-4428.svg)
 
