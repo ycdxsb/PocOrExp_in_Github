@@ -132,8 +132,6 @@
 
 - [https://github.com/Shubham-2k1/Exploit-CVE-2011-2523](https://github.com/Shubham-2k1/Exploit-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Shubham-2k1/Exploit-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Shubham-2k1/Exploit-CVE-2011-2523.svg)
 
-- [https://github.com/chleba124/vsftpd-exploit](https://github.com/chleba124/vsftpd-exploit) :  ![starts](https://img.shields.io/github/stars/chleba124/vsftpd-exploit.svg) ![forks](https://img.shields.io/github/forks/chleba124/vsftpd-exploit.svg)
-
 - [https://github.com/AnugiArrawwala/CVE-Research](https://github.com/AnugiArrawwala/CVE-Research) :  ![starts](https://img.shields.io/github/stars/AnugiArrawwala/CVE-Research.svg) ![forks](https://img.shields.io/github/forks/AnugiArrawwala/CVE-Research.svg)
 
 - [https://github.com/Lychi3/vsftpd-backdoor](https://github.com/Lychi3/vsftpd-backdoor) :  ![starts](https://img.shields.io/github/stars/Lychi3/vsftpd-backdoor.svg) ![forks](https://img.shields.io/github/forks/Lychi3/vsftpd-backdoor.svg)
