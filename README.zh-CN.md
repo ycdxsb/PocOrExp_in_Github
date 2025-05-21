@@ -106,10 +106,9 @@ optional arguments:
 git到最新版本，防止在windows下clone时被攻击[CVE-2020-27955](https://github.com/yhsung/cve-2020-27955-poc)。
 - 20210519: 发现一些用CVE在github钓鱼的人，比如[JamesGee](https://github.com/JamesGeee)，不打算特殊处理，大家注意安全
 
-## Stargazers
+## Star History
 
-[![Stargazers over time](https://starchart.cc/ycdxsb/PocOrExp_in_Github.svg)](https://starchart.cc/ycdxsb/PocOrExp_in_Github)
-
+[![Star History Chart](https://api.star-history.com/svg?repos=ycdxsb/PocOrExp_in_Github&type=Date)](https://www.star-history.com/#ycdxsb/PocOrExp_in_Github&Date)
 
 ## Reference
 - https://github.com/nomi-sec/PoC-in-GitHub

@@ -106,9 +106,8 @@ python3 exp.py -y all -i y
 - 2021-05-19: Found some phishing attempts using CVE on GitHub, like [JamesGee](https://github.com/JamesGeee). No special handling, please be cautious.
 - 2024-09-01: If you are unable to find the POC/EXP on GitHub, you can also check here: https://pocorexps.nsa.im/
 
-## Stargazers
-
-[![Stargazers over time](https://starchart.cc/ycdxsb/PocOrExp_in_Github.svg)](https://starchart.cc/ycdxsb/PocOrExp_in_Github)
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=ycdxsb/PocOrExp_in_Github&type=Date)](https://www.star-history.com/#ycdxsb/PocOrExp_in_Github&Date)
 
 ## Reference
 - https://github.com/nomi-sec/PoC-in-GitHub
