@@ -98,6 +98,8 @@
 
 - [https://github.com/fin3ss3g0d/CosmicRakp](https://github.com/fin3ss3g0d/CosmicRakp) :  ![starts](https://img.shields.io/github/stars/fin3ss3g0d/CosmicRakp.svg) ![forks](https://img.shields.io/github/forks/fin3ss3g0d/CosmicRakp.svg)
 
+- [https://github.com/tallperennial/CosmicRakp](https://github.com/tallperennial/CosmicRakp) :  ![starts](https://img.shields.io/github/stars/tallperennial/CosmicRakp.svg) ![forks](https://img.shields.io/github/forks/tallperennial/CosmicRakp.svg)
+
 ## CVE-2013-4784
  The HP Integrated Lights-Out (iLO) BMC implementation allows remote attackers to bypass authentication and execute arbitrary IPMI commands by using cipher suite 0 (aka cipher zero) and an arbitrary password.
 
