@@ -1,66 +1,97 @@
-# Update 2025-05-26
-## CVE-2025-29927
- Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
+# Update 2025-05-27
+## CVE-2025-48708
+ gs_lib_ctx_stash_sanitized_arg in base/gslibctx.c in Artifex Ghostscript before 10.05.1 lacks argument sanitization for the # case. A created PDF document includes its password in cleartext.
 
-- [https://github.com/hyperledger-web3j/CVE-2025-29927](https://github.com/hyperledger-web3j/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/hyperledger-web3j/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/hyperledger-web3j/CVE-2025-29927.svg)
-
-
-## CVE-2025-25014
- A Prototype pollution vulnerability in Kibana leads to arbitrary code execution via crafted HTTP requests to machine learning and reporting endpoints.
-
-- [https://github.com/davidxbors/CVE-2025-25014](https://github.com/davidxbors/CVE-2025-25014) :  ![starts](https://img.shields.io/github/stars/davidxbors/CVE-2025-25014.svg) ![forks](https://img.shields.io/github/forks/davidxbors/CVE-2025-25014.svg)
+- [https://github.com/B1tBreaker/CVE-2025-48708](https://github.com/B1tBreaker/CVE-2025-48708) :  ![starts](https://img.shields.io/github/stars/B1tBreaker/CVE-2025-48708.svg) ![forks](https://img.shields.io/github/forks/B1tBreaker/CVE-2025-48708.svg)
 
 
-## CVE-2025-5058
- The eMagicOne Store Manager for WooCommerce plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the set_image() function in all versions up to, and including, 1.2.5. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible. This is only exploitable by unauthenticated attackers in default configurations where the the default password is left as 1:1, or where the attacker gains access to the credentials.
+## CVE-2025-24813
+Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
 
-- [https://github.com/d0n601/CVE-2025-5058](https://github.com/d0n601/CVE-2025-5058) :  ![starts](https://img.shields.io/github/stars/d0n601/CVE-2025-5058.svg) ![forks](https://img.shields.io/github/forks/d0n601/CVE-2025-5058.svg)
-
-
-## CVE-2025-4603
- The eMagicOne Store Manager for WooCommerce plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the delete_file() function in all versions up to, and including, 1.2.5. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). This is only exploitable by unauthenticated attackers in default configurations where the the default password is left as 1:1, or where the attacker gains access to the credentials.
-
-- [https://github.com/d0n601/CVE-2025-4603](https://github.com/d0n601/CVE-2025-4603) :  ![starts](https://img.shields.io/github/stars/d0n601/CVE-2025-4603.svg) ![forks](https://img.shields.io/github/forks/d0n601/CVE-2025-4603.svg)
+- [https://github.com/mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-](https://github.com/mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-) :  ![starts](https://img.shields.io/github/stars/mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-.svg) ![forks](https://img.shields.io/github/forks/mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-.svg)
 
 
-## CVE-2025-4602
- The eMagicOne Store Manager for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Reads in all versions up to, and including, 1.2.5 via the get_file() function. This makes it possible for unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information. This is only exploitable by unauthenticated attackers in default configurations where the the default password is left as 1:1, or where the attacker gains access to the credentials.
+## CVE-2025-24203
+ The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to modify protected parts of the file system.
 
-- [https://github.com/d0n601/CVE-2025-4602](https://github.com/d0n601/CVE-2025-4602) :  ![starts](https://img.shields.io/github/stars/d0n601/CVE-2025-4602.svg) ![forks](https://img.shields.io/github/forks/d0n601/CVE-2025-4602.svg)
-
-
-## CVE-2025-4336
- The eMagicOne Store Manager for WooCommerce plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the set_file() function in all versions up to, and including, 1.2.5. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible. This is only exploitable by unauthenticated attackers in default configurations where the the default password is left as 1:1, or where the attacker gains access to the credentials.
-
-- [https://github.com/d0n601/CVE-2025-4336](https://github.com/d0n601/CVE-2025-4336) :  ![starts](https://img.shields.io/github/stars/d0n601/CVE-2025-4336.svg) ![forks](https://img.shields.io/github/forks/d0n601/CVE-2025-4336.svg)
+- [https://github.com/pxx917144686/iDevice_ZH](https://github.com/pxx917144686/iDevice_ZH) :  ![starts](https://img.shields.io/github/stars/pxx917144686/iDevice_ZH.svg) ![forks](https://img.shields.io/github/forks/pxx917144686/iDevice_ZH.svg)
 
 
-## CVE-2025-2294
- The Kubio AI Page Builder plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.5.1 via thekubio_hybrid_theme_load_template function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
+## CVE-2025-22457
+ A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6, Ivanti Policy Secure before version 22.7R1.4, and Ivanti ZTA Gateways before version 22.8R2.2 allows a remote unauthenticated attacker to achieve remote code execution.
 
-- [https://github.com/0xWhoami35/CVE-2025-2294](https://github.com/0xWhoami35/CVE-2025-2294) :  ![starts](https://img.shields.io/github/stars/0xWhoami35/CVE-2025-2294.svg) ![forks](https://img.shields.io/github/forks/0xWhoami35/CVE-2025-2294.svg)
+- [https://github.com/TRone-ux/CVE-2025-22457](https://github.com/TRone-ux/CVE-2025-22457) :  ![starts](https://img.shields.io/github/stars/TRone-ux/CVE-2025-22457.svg) ![forks](https://img.shields.io/github/forks/TRone-ux/CVE-2025-22457.svg)
+
+
+## CVE-2025-4664
+ Insufficient policy enforcement in Loader in Google Chrome prior to 136.0.7103.113 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)
+
+- [https://github.com/korden-c/CVE-2025-4664](https://github.com/korden-c/CVE-2025-4664) :  ![starts](https://img.shields.io/github/stars/korden-c/CVE-2025-4664.svg) ![forks](https://img.shields.io/github/forks/korden-c/CVE-2025-4664.svg)
+- [https://github.com/speinador/CVE-2025-4664-](https://github.com/speinador/CVE-2025-4664-) :  ![starts](https://img.shields.io/github/stars/speinador/CVE-2025-4664-.svg) ![forks](https://img.shields.io/github/forks/speinador/CVE-2025-4664-.svg)
+
+
+## CVE-2025-4322
+ The Motors theme for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 5.6.67. This is due to the theme not properly validating a user's identity prior to updating their password. This makes it possible for unauthenticated attackers to change arbitrary user passwords, including those of administrators, and leverage that to gain access to their account.
+
+- [https://github.com/darkDev-kirosky/CVE-2025-4322](https://github.com/darkDev-kirosky/CVE-2025-4322) :  ![starts](https://img.shields.io/github/stars/darkDev-kirosky/CVE-2025-4322.svg) ![forks](https://img.shields.io/github/forks/darkDev-kirosky/CVE-2025-4322.svg)
+
+
+## CVE-2025-0868
+This issue affects DocsGPT: from 0.8.1 through 0.12.0.
+
+- [https://github.com/aidana-gift/CVE-2025-0868](https://github.com/aidana-gift/CVE-2025-0868) :  ![starts](https://img.shields.io/github/stars/aidana-gift/CVE-2025-0868.svg) ![forks](https://img.shields.io/github/forks/aidana-gift/CVE-2025-0868.svg)
 
 
 ## CVE-2024-42009
  A Cross-Site Scripting vulnerability in Roundcube through 1.5.7 and 1.6.x through 1.6.7 allows a remote attacker to steal and send emails of a victim via a crafted e-mail message that abuses a Desanitization issue in message_body() in program/actions/mail/show.php.
 
-- [https://github.com/DaniTheHack3r/CVE-2024-42009-PoC](https://github.com/DaniTheHack3r/CVE-2024-42009-PoC) :  ![starts](https://img.shields.io/github/stars/DaniTheHack3r/CVE-2024-42009-PoC.svg) ![forks](https://img.shields.io/github/forks/DaniTheHack3r/CVE-2024-42009-PoC.svg)
+- [https://github.com/Foxer131/CVE-2024-42008-9-exploit](https://github.com/Foxer131/CVE-2024-42008-9-exploit) :  ![starts](https://img.shields.io/github/stars/Foxer131/CVE-2024-42008-9-exploit.svg) ![forks](https://img.shields.io/github/forks/Foxer131/CVE-2024-42008-9-exploit.svg)
 
 
-## CVE-2023-50564
- An arbitrary file upload vulnerability in the component /inc/modules_install.php of Pluck-CMS v4.7.18 allows attackers to execute arbitrary code via uploading a crafted ZIP file.
+## CVE-2024-42008
+ A Cross-Site Scripting vulnerability in rcmail_action_mail_get-run() in Roundcube through 1.5.7 and 1.6.x through 1.6.7 allows a remote attacker to steal and send emails of a victim via a malicious e-mail attachment served with a dangerous Content-Type header.
 
-- [https://github.com/glynzr/CVE-2023-50564](https://github.com/glynzr/CVE-2023-50564) :  ![starts](https://img.shields.io/github/stars/glynzr/CVE-2023-50564.svg) ![forks](https://img.shields.io/github/forks/glynzr/CVE-2023-50564.svg)
-
-
-## CVE-2022-26134
- In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are from 1.3.0 before 7.4.17, from 7.13.0 before 7.13.7, from 7.14.0 before 7.14.3, from 7.15.0 before 7.15.2, from 7.16.0 before 7.16.4, from 7.17.0 before 7.17.4, and from 7.18.0 before 7.18.1.
-
-- [https://github.com/Gilospy/CVE-2022-26134](https://github.com/Gilospy/CVE-2022-26134) :  ![starts](https://img.shields.io/github/stars/Gilospy/CVE-2022-26134.svg) ![forks](https://img.shields.io/github/forks/Gilospy/CVE-2022-26134.svg)
+- [https://github.com/Foxer131/CVE-2024-42008-9-exploit](https://github.com/Foxer131/CVE-2024-42008-9-exploit) :  ![starts](https://img.shields.io/github/stars/Foxer131/CVE-2024-42008-9-exploit.svg) ![forks](https://img.shields.io/github/forks/Foxer131/CVE-2024-42008-9-exploit.svg)
 
 
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+## CVE-2024-23346
+ Pymatgen (Python Materials Genomics) is an open-source Python library for materials analysis. A critical security vulnerability exists in the `JonesFaithfulTransformation.from_transformation_str()` method within the `pymatgen` library prior to version 2024.2.20. This method insecurely utilizes `eval()` for processing input, enabling execution of arbitrary code when parsing untrusted input. Version 2024.2.20 fixes this issue.
 
-- [https://github.com/BabyTeam1024/CVE-2021-41773](https://github.com/BabyTeam1024/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2021-41773.svg)
+- [https://github.com/mbanyamer/-Pymatgen-2024.1---Remote-Code-Execution-RCE-](https://github.com/mbanyamer/-Pymatgen-2024.1---Remote-Code-Execution-RCE-) :  ![starts](https://img.shields.io/github/stars/mbanyamer/-Pymatgen-2024.1---Remote-Code-Execution-RCE-.svg) ![forks](https://img.shields.io/github/forks/mbanyamer/-Pymatgen-2024.1---Remote-Code-Execution-RCE-.svg)
+
+
+## CVE-2024-0204
+ Authentication bypass in Fortra's GoAnywhere MFT prior to 7.4.1 allows an unauthorized user to create an admin user via the administration portal.
+
+- [https://github.com/ibrahimsql/CVE-2024-0204](https://github.com/ibrahimsql/CVE-2024-0204) :  ![starts](https://img.shields.io/github/stars/ibrahimsql/CVE-2024-0204.svg) ![forks](https://img.shields.io/github/forks/ibrahimsql/CVE-2024-0204.svg)
+
+
+## CVE-2023-23397
+ Microsoft Outlook Elevation of Privilege Vulnerability
+
+- [https://github.com/Gilospy/CVE-2023-23397](https://github.com/Gilospy/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/Gilospy/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/Gilospy/CVE-2023-23397.svg)
+
+
+## CVE-2023-20963
+ In WorkSource, there is a possible parcel mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-220302519
+
+- [https://github.com/black7024/BadParcel](https://github.com/black7024/BadParcel) :  ![starts](https://img.shields.io/github/stars/black7024/BadParcel.svg) ![forks](https://img.shields.io/github/forks/black7024/BadParcel.svg)
+
+
+## CVE-2021-24086
+ Windows TCP/IP Denial of Service Vulnerability
+
+- [https://github.com/personnumber3377/windows_tcpip_fuzz](https://github.com/personnumber3377/windows_tcpip_fuzz) :  ![starts](https://img.shields.io/github/stars/personnumber3377/windows_tcpip_fuzz.svg) ![forks](https://img.shields.io/github/forks/personnumber3377/windows_tcpip_fuzz.svg)
+
+
+## CVE-2020-13398
+ An issue was discovered in FreeRDP before 2.1.1. An out-of-bounds (OOB) write vulnerability has been detected in crypto_rsa_common in libfreerdp/crypto/crypto.c.
+
+- [https://github.com/SpiralBL0CK/PoC-crash-CVE-2020-13398-](https://github.com/SpiralBL0CK/PoC-crash-CVE-2020-13398-) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/PoC-crash-CVE-2020-13398-.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/PoC-crash-CVE-2020-13398-.svg)
+
+
+## CVE-2020-11097
+ In FreeRDP before version 2.1.2, an out of bounds read occurs resulting in accessing a memory location that is outside of the boundaries of the static array PRIMARY_DRAWING_ORDER_FIELD_BYTES. This is fixed in version 2.1.2.
+
+- [https://github.com/SpiralBL0CK/CVE-2020-11097-POC](https://github.com/SpiralBL0CK/CVE-2020-11097-POC) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/CVE-2020-11097-POC.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/CVE-2020-11097-POC.svg)
 
