@@ -1,97 +1,104 @@
-# Update 2025-05-27
-## CVE-2025-48708
- gs_lib_ctx_stash_sanitized_arg in base/gslibctx.c in Artifex Ghostscript before 10.05.1 lacks argument sanitization for the # case. A created PDF document includes its password in cleartext.
+# Update 2025-05-28
+## CVE-2025-32421
+ Next.js is a React framework for building full-stack web applications. Versions prior to 14.2.24 and 15.1.6 have a race-condition vulnerability. This issue only affects the Pages Router under certain misconfigurations, causing normal endpoints to serve `pageProps` data instead of standard HTML. This issue was patched in versions 15.1.6 and 14.2.24 by stripping the `x-now-route-matches` header from incoming requests. Applications hosted on Vercel's platform are not affected by this issue, as the platform does not cache responses based solely on `200 OK` status without explicit `cache-control` headers. Those who self-host Next.js deployments and are unable to upgrade immediately can mitigate this vulnerability by stripping the `x-now-route-matches` header from all incoming requests at the content development network and setting `cache-control: no-store` for all responses under risk. The maintainers of Next.js strongly recommend only caching responses with explicit cache-control headers.
 
-- [https://github.com/B1tBreaker/CVE-2025-48708](https://github.com/B1tBreaker/CVE-2025-48708) :  ![starts](https://img.shields.io/github/stars/B1tBreaker/CVE-2025-48708.svg) ![forks](https://img.shields.io/github/forks/B1tBreaker/CVE-2025-48708.svg)
-
-
-## CVE-2025-24813
-Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
-
-- [https://github.com/mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-](https://github.com/mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-) :  ![starts](https://img.shields.io/github/stars/mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-.svg) ![forks](https://img.shields.io/github/forks/mbanyamer/Apache-Tomcat---Remote-Code-Execution-via-Session-Deserialization-CVE-2025-24813-.svg)
+- [https://github.com/zeroc00I/CVE-2025-32421](https://github.com/zeroc00I/CVE-2025-32421) :  ![starts](https://img.shields.io/github/stars/zeroc00I/CVE-2025-32421.svg) ![forks](https://img.shields.io/github/forks/zeroc00I/CVE-2025-32421.svg)
 
 
-## CVE-2025-24203
- The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to modify protected parts of the file system.
+## CVE-2025-30397
+ Access of resource using incompatible type ('type confusion') in Microsoft Scripting Engine allows an unauthorized attacker to execute code over a network.
 
-- [https://github.com/pxx917144686/iDevice_ZH](https://github.com/pxx917144686/iDevice_ZH) :  ![starts](https://img.shields.io/github/stars/pxx917144686/iDevice_ZH.svg) ![forks](https://img.shields.io/github/forks/pxx917144686/iDevice_ZH.svg)
+- [https://github.com/Leviticus-Triage/ChromSploit-Framework](https://github.com/Leviticus-Triage/ChromSploit-Framework) :  ![starts](https://img.shields.io/github/stars/Leviticus-Triage/ChromSploit-Framework.svg) ![forks](https://img.shields.io/github/forks/Leviticus-Triage/ChromSploit-Framework.svg)
 
 
-## CVE-2025-22457
- A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6, Ivanti Policy Secure before version 22.7R1.4, and Ivanti ZTA Gateways before version 22.8R2.2 allows a remote unauthenticated attacker to achieve remote code execution.
+## CVE-2025-29927
+ Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
 
-- [https://github.com/TRone-ux/CVE-2025-22457](https://github.com/TRone-ux/CVE-2025-22457) :  ![starts](https://img.shields.io/github/stars/TRone-ux/CVE-2025-22457.svg) ![forks](https://img.shields.io/github/forks/TRone-ux/CVE-2025-22457.svg)
+- [https://github.com/sagsooz/CVE-2025-29927](https://github.com/sagsooz/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/sagsooz/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/sagsooz/CVE-2025-29927.svg)
+
+
+## CVE-2025-27363
+ An out of bounds write exists in FreeType versions 2.13.0 and below (newer versions of FreeType are not vulnerable) when attempting to parse font subglyph structures related to TrueType GX and variable font files. The vulnerable code assigns a signed short value to an unsigned long and then adds a static value causing it to wrap around and allocate too small of a heap buffer. The code then writes up to 6 signed long integers out of bounds relative to this buffer. This may result in arbitrary code execution. This vulnerability may have been exploited in the wild.
+
+- [https://github.com/ov3rf1ow/CVE-2025-27363](https://github.com/ov3rf1ow/CVE-2025-27363) :  ![starts](https://img.shields.io/github/stars/ov3rf1ow/CVE-2025-27363.svg) ![forks](https://img.shields.io/github/forks/ov3rf1ow/CVE-2025-27363.svg)
+
+
+## CVE-2025-24071
+ Exposure of sensitive information to an unauthorized actor in Windows File Explorer allows an unauthorized attacker to perform spoofing over a network.
+
+- [https://github.com/helidem/CVE-2025-24054_CVE-2025-24071-PoC](https://github.com/helidem/CVE-2025-24054_CVE-2025-24071-PoC) :  ![starts](https://img.shields.io/github/stars/helidem/CVE-2025-24054_CVE-2025-24071-PoC.svg) ![forks](https://img.shields.io/github/forks/helidem/CVE-2025-24054_CVE-2025-24071-PoC.svg)
+- [https://github.com/f4dee-backup/CVE-2025-24071](https://github.com/f4dee-backup/CVE-2025-24071) :  ![starts](https://img.shields.io/github/stars/f4dee-backup/CVE-2025-24071.svg) ![forks](https://img.shields.io/github/forks/f4dee-backup/CVE-2025-24071.svg)
+
+
+## CVE-2025-24054
+ External control of file name or path in Windows NTLM allows an unauthorized attacker to perform spoofing over a network.
+
+- [https://github.com/helidem/CVE-2025-24054_CVE-2025-24071-PoC](https://github.com/helidem/CVE-2025-24054_CVE-2025-24071-PoC) :  ![starts](https://img.shields.io/github/stars/helidem/CVE-2025-24054_CVE-2025-24071-PoC.svg) ![forks](https://img.shields.io/github/forks/helidem/CVE-2025-24054_CVE-2025-24071-PoC.svg)
+
+
+## CVE-2025-5196
+ A vulnerability has been found in Wing FTP Server up to 7.4.3 and classified as critical. Affected by this vulnerability is an unknown functionality of the component Lua Admin Console. The manipulation leads to execution with unnecessary privileges. The attack can be launched remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. Upgrading to version 7.4.4 is able to address this issue. It is recommended to upgrade the affected component. The vendor explains: "[W]e do not consider it as a security vulnerability, because the system admin in WingFTP has full permissions [...], but you can suggest the user run WingFTP service as Normal User rather than SYSTEM/Root, it will be safer."
+
+- [https://github.com/Nouvexr/Wing-FTP-Server-7.4.4-RCE-Authenticated](https://github.com/Nouvexr/Wing-FTP-Server-7.4.4-RCE-Authenticated) :  ![starts](https://img.shields.io/github/stars/Nouvexr/Wing-FTP-Server-7.4.4-RCE-Authenticated.svg) ![forks](https://img.shields.io/github/forks/Nouvexr/Wing-FTP-Server-7.4.4-RCE-Authenticated.svg)
 
 
 ## CVE-2025-4664
  Insufficient policy enforcement in Loader in Google Chrome prior to 136.0.7103.113 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)
 
-- [https://github.com/korden-c/CVE-2025-4664](https://github.com/korden-c/CVE-2025-4664) :  ![starts](https://img.shields.io/github/stars/korden-c/CVE-2025-4664.svg) ![forks](https://img.shields.io/github/forks/korden-c/CVE-2025-4664.svg)
-- [https://github.com/speinador/CVE-2025-4664-](https://github.com/speinador/CVE-2025-4664-) :  ![starts](https://img.shields.io/github/stars/speinador/CVE-2025-4664-.svg) ![forks](https://img.shields.io/github/forks/speinador/CVE-2025-4664-.svg)
+- [https://github.com/Leviticus-Triage/ChromSploit-Framework](https://github.com/Leviticus-Triage/ChromSploit-Framework) :  ![starts](https://img.shields.io/github/stars/Leviticus-Triage/ChromSploit-Framework.svg) ![forks](https://img.shields.io/github/forks/Leviticus-Triage/ChromSploit-Framework.svg)
 
 
-## CVE-2025-4322
- The Motors theme for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 5.6.67. This is due to the theme not properly validating a user's identity prior to updating their password. This makes it possible for unauthenticated attackers to change arbitrary user passwords, including those of administrators, and leverage that to gain access to their account.
+## CVE-2025-4389
+ The Crawlomatic Multipage Scraper Post Generator plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the crawlomatic_generate_featured_image() function in all versions up to, and including, 2.6.8.1. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
 
-- [https://github.com/darkDev-kirosky/CVE-2025-4322](https://github.com/darkDev-kirosky/CVE-2025-4322) :  ![starts](https://img.shields.io/github/stars/darkDev-kirosky/CVE-2025-4322.svg) ![forks](https://img.shields.io/github/forks/darkDev-kirosky/CVE-2025-4322.svg)
-
-
-## CVE-2025-0868
-This issue affects DocsGPT: from 0.8.1 through 0.12.0.
-
-- [https://github.com/aidana-gift/CVE-2025-0868](https://github.com/aidana-gift/CVE-2025-0868) :  ![starts](https://img.shields.io/github/stars/aidana-gift/CVE-2025-0868.svg) ![forks](https://img.shields.io/github/forks/aidana-gift/CVE-2025-0868.svg)
+- [https://github.com/Yucaerin/CVE-2025-4389](https://github.com/Yucaerin/CVE-2025-4389) :  ![starts](https://img.shields.io/github/stars/Yucaerin/CVE-2025-4389.svg) ![forks](https://img.shields.io/github/forks/Yucaerin/CVE-2025-4389.svg)
 
 
-## CVE-2024-42009
- A Cross-Site Scripting vulnerability in Roundcube through 1.5.7 and 1.6.x through 1.6.7 allows a remote attacker to steal and send emails of a victim via a crafted e-mail message that abuses a Desanitization issue in message_body() in program/actions/mail/show.php.
+## CVE-2025-2907
+ The Order Delivery Date WordPress plugin before 12.3.1 does not have authorization and CSRF checks when importing settings. Furthermore it also lacks proper checks to only update options relevant to the Order Delivery Date WordPress plugin before 12.3.1. This leads to attackers being able to modify the default_user_role to administrator and users_can_register, allowing them to register as an administrator of the site for complete site takeover.
 
-- [https://github.com/Foxer131/CVE-2024-42008-9-exploit](https://github.com/Foxer131/CVE-2024-42008-9-exploit) :  ![starts](https://img.shields.io/github/stars/Foxer131/CVE-2024-42008-9-exploit.svg) ![forks](https://img.shields.io/github/forks/Foxer131/CVE-2024-42008-9-exploit.svg)
-
-
-## CVE-2024-42008
- A Cross-Site Scripting vulnerability in rcmail_action_mail_get-run() in Roundcube through 1.5.7 and 1.6.x through 1.6.7 allows a remote attacker to steal and send emails of a victim via a malicious e-mail attachment served with a dangerous Content-Type header.
-
-- [https://github.com/Foxer131/CVE-2024-42008-9-exploit](https://github.com/Foxer131/CVE-2024-42008-9-exploit) :  ![starts](https://img.shields.io/github/stars/Foxer131/CVE-2024-42008-9-exploit.svg) ![forks](https://img.shields.io/github/forks/Foxer131/CVE-2024-42008-9-exploit.svg)
+- [https://github.com/Yucaerin/CVE-2025-2907](https://github.com/Yucaerin/CVE-2025-2907) :  ![starts](https://img.shields.io/github/stars/Yucaerin/CVE-2025-2907.svg) ![forks](https://img.shields.io/github/forks/Yucaerin/CVE-2025-2907.svg)
 
 
-## CVE-2024-23346
- Pymatgen (Python Materials Genomics) is an open-source Python library for materials analysis. A critical security vulnerability exists in the `JonesFaithfulTransformation.from_transformation_str()` method within the `pymatgen` library prior to version 2024.2.20. This method insecurely utilizes `eval()` for processing input, enabling execution of arbitrary code when parsing untrusted input. Version 2024.2.20 fixes this issue.
+## CVE-2025-2857
+*This only affects Firefox on Windows. Other operating systems are unaffected.* This vulnerability affects Firefox  136.0.4, Firefox ESR  128.8.1, and Firefox ESR  115.21.1.
 
-- [https://github.com/mbanyamer/-Pymatgen-2024.1---Remote-Code-Execution-RCE-](https://github.com/mbanyamer/-Pymatgen-2024.1---Remote-Code-Execution-RCE-) :  ![starts](https://img.shields.io/github/stars/mbanyamer/-Pymatgen-2024.1---Remote-Code-Execution-RCE-.svg) ![forks](https://img.shields.io/github/forks/mbanyamer/-Pymatgen-2024.1---Remote-Code-Execution-RCE-.svg)
-
-
-## CVE-2024-0204
- Authentication bypass in Fortra's GoAnywhere MFT prior to 7.4.1 allows an unauthorized user to create an admin user via the administration portal.
-
-- [https://github.com/ibrahimsql/CVE-2024-0204](https://github.com/ibrahimsql/CVE-2024-0204) :  ![starts](https://img.shields.io/github/stars/ibrahimsql/CVE-2024-0204.svg) ![forks](https://img.shields.io/github/forks/ibrahimsql/CVE-2024-0204.svg)
+- [https://github.com/Leviticus-Triage/ChromSploit-Framework](https://github.com/Leviticus-Triage/ChromSploit-Framework) :  ![starts](https://img.shields.io/github/stars/Leviticus-Triage/ChromSploit-Framework.svg) ![forks](https://img.shields.io/github/forks/Leviticus-Triage/ChromSploit-Framework.svg)
 
 
-## CVE-2023-23397
- Microsoft Outlook Elevation of Privilege Vulnerability
+## CVE-2025-2783
+ Incorrect handle provided in unspecified circumstances in Mojo in Google Chrome on Windows prior to 134.0.6998.177 allowed a remote attacker to perform a sandbox escape via a malicious file. (Chromium security severity: High)
 
-- [https://github.com/Gilospy/CVE-2023-23397](https://github.com/Gilospy/CVE-2023-23397) :  ![starts](https://img.shields.io/github/stars/Gilospy/CVE-2023-23397.svg) ![forks](https://img.shields.io/github/forks/Gilospy/CVE-2023-23397.svg)
-
-
-## CVE-2023-20963
- In WorkSource, there is a possible parcel mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-220302519
-
-- [https://github.com/black7024/BadParcel](https://github.com/black7024/BadParcel) :  ![starts](https://img.shields.io/github/stars/black7024/BadParcel.svg) ![forks](https://img.shields.io/github/forks/black7024/BadParcel.svg)
+- [https://github.com/Leviticus-Triage/ChromSploit-Framework](https://github.com/Leviticus-Triage/ChromSploit-Framework) :  ![starts](https://img.shields.io/github/stars/Leviticus-Triage/ChromSploit-Framework.svg) ![forks](https://img.shields.io/github/forks/Leviticus-Triage/ChromSploit-Framework.svg)
 
 
-## CVE-2021-24086
- Windows TCP/IP Denial of Service Vulnerability
+## CVE-2024-55591
+ An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0 through 7.0.19 and 7.2.0 through 7.2.12 allows a remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module.
 
-- [https://github.com/personnumber3377/windows_tcpip_fuzz](https://github.com/personnumber3377/windows_tcpip_fuzz) :  ![starts](https://img.shields.io/github/stars/personnumber3377/windows_tcpip_fuzz.svg) ![forks](https://img.shields.io/github/forks/personnumber3377/windows_tcpip_fuzz.svg)
-
-
-## CVE-2020-13398
- An issue was discovered in FreeRDP before 2.1.1. An out-of-bounds (OOB) write vulnerability has been detected in crypto_rsa_common in libfreerdp/crypto/crypto.c.
-
-- [https://github.com/SpiralBL0CK/PoC-crash-CVE-2020-13398-](https://github.com/SpiralBL0CK/PoC-crash-CVE-2020-13398-) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/PoC-crash-CVE-2020-13398-.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/PoC-crash-CVE-2020-13398-.svg)
+- [https://github.com/UMChacker/CVE-2024-55591-POC](https://github.com/UMChacker/CVE-2024-55591-POC) :  ![starts](https://img.shields.io/github/stars/UMChacker/CVE-2024-55591-POC.svg) ![forks](https://img.shields.io/github/forks/UMChacker/CVE-2024-55591-POC.svg)
 
 
-## CVE-2020-11097
- In FreeRDP before version 2.1.2, an out of bounds read occurs resulting in accessing a memory location that is outside of the boundaries of the static array PRIMARY_DRAWING_ORDER_FIELD_BYTES. This is fixed in version 2.1.2.
+## CVE-2024-38014
+ Windows Installer Elevation of Privilege Vulnerability
 
-- [https://github.com/SpiralBL0CK/CVE-2020-11097-POC](https://github.com/SpiralBL0CK/CVE-2020-11097-POC) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/CVE-2020-11097-POC.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/CVE-2020-11097-POC.svg)
+- [https://github.com/Naman2701B/CVE-2024-38014](https://github.com/Naman2701B/CVE-2024-38014) :  ![starts](https://img.shields.io/github/stars/Naman2701B/CVE-2024-38014.svg) ![forks](https://img.shields.io/github/forks/Naman2701B/CVE-2024-38014.svg)
+- [https://github.com/Naman2701B/DLL-for-2024-38014](https://github.com/Naman2701B/DLL-for-2024-38014) :  ![starts](https://img.shields.io/github/stars/Naman2701B/DLL-for-2024-38014.svg) ![forks](https://img.shields.io/github/forks/Naman2701B/DLL-for-2024-38014.svg)
+
+
+## CVE-2024-9465
+ An SQL injection vulnerability in Palo Alto Networks Expedition allows an unauthenticated attacker to reveal Expedition database contents, such as password hashes, usernames, device configurations, and device API keys. With this, attackers can also create and read arbitrary files on the Expedition system.
+
+- [https://github.com/0gitusername/CVE-2024-9465](https://github.com/0gitusername/CVE-2024-9465) :  ![starts](https://img.shields.io/github/stars/0gitusername/CVE-2024-9465.svg) ![forks](https://img.shields.io/github/forks/0gitusername/CVE-2024-9465.svg)
+
+
+## CVE-2020-14008
+ Zoho ManageEngine Applications Manager 14710 and before allows an authenticated admin user to upload a vulnerable jar in a specific location, which leads to remote code execution.
+
+- [https://github.com/JackHars/cve-2020-14008](https://github.com/JackHars/cve-2020-14008) :  ![starts](https://img.shields.io/github/stars/JackHars/cve-2020-14008.svg) ![forks](https://img.shields.io/github/forks/JackHars/cve-2020-14008.svg)
+
+
+## CVE-1999-0524
+ ICMP information such as (1) netmask and (2) timestamp is allowed from arbitrary hosts.
+
+- [https://github.com/Ransc0rp1on/ICMP-Timestamp-POC](https://github.com/Ransc0rp1on/ICMP-Timestamp-POC) :  ![starts](https://img.shields.io/github/stars/Ransc0rp1on/ICMP-Timestamp-POC.svg) ![forks](https://img.shields.io/github/forks/Ransc0rp1on/ICMP-Timestamp-POC.svg)
 
