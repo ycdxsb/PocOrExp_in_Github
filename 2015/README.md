@@ -23,6 +23,8 @@
 
 - [https://github.com/hackgiver/CVE-2015-9251](https://github.com/hackgiver/CVE-2015-9251) :  ![starts](https://img.shields.io/github/stars/hackgiver/CVE-2015-9251.svg) ![forks](https://img.shields.io/github/forks/hackgiver/CVE-2015-9251.svg)
 
+- [https://github.com/rox-11/xss](https://github.com/rox-11/xss) :  ![starts](https://img.shields.io/github/stars/rox-11/xss.svg) ![forks](https://img.shields.io/github/forks/rox-11/xss.svg)
+
 ## CVE-2015-9238
  secure-compare 3.0.0 and below do not actually compare two strings properly. compare was actually comparing the first argument with itself, meaning the check passed for any two strings of the same length.
 
