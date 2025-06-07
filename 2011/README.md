@@ -118,9 +118,9 @@
 
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
-- [https://github.com/madanokr001/CVE-2011-2523](https://github.com/madanokr001/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/madanokr001/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/madanokr001/CVE-2011-2523.svg)
-
 - [https://github.com/0xSojalSec/CVE-2011-2523](https://github.com/0xSojalSec/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/CVE-2011-2523.svg)
+
+- [https://github.com/madanokr001/CVE-2011-2523](https://github.com/madanokr001/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/madanokr001/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/madanokr001/CVE-2011-2523.svg)
 
 - [https://github.com/vaishnavucv/CVE-2011-2523](https://github.com/vaishnavucv/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/vaishnavucv/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/vaishnavucv/CVE-2011-2523.svg)
 
@@ -230,8 +230,6 @@
 
 
 - [https://github.com/s3mPr1linux/CVE-2011-0762](https://github.com/s3mPr1linux/CVE-2011-0762) :  ![starts](https://img.shields.io/github/stars/s3mPr1linux/CVE-2011-0762.svg) ![forks](https://img.shields.io/github/forks/s3mPr1linux/CVE-2011-0762.svg)
-
-- [https://github.com/Andreyfrtz/CVE-2011-0762](https://github.com/Andreyfrtz/CVE-2011-0762) :  ![starts](https://img.shields.io/github/stars/Andreyfrtz/CVE-2011-0762.svg) ![forks](https://img.shields.io/github/forks/Andreyfrtz/CVE-2011-0762.svg)
 
 ## CVE-2011-0228
  The Data Security component in Apple iOS before 4.2.10 and 4.3.x before 4.3.5 does not check the basicConstraints parameter during validation of X.509 certificate chains, which allows man-in-the-middle attackers to spoof an SSL server by using a non-CA certificate to sign a certificate for an arbitrary domain.
