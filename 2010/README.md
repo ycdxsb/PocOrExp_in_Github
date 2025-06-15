@@ -159,6 +159,13 @@
 
 - [https://github.com/Nexxus67/cve-2010-1938](https://github.com/Nexxus67/cve-2010-1938) :  ![starts](https://img.shields.io/github/stars/Nexxus67/cve-2010-1938.svg) ![forks](https://img.shields.io/github/forks/Nexxus67/cve-2010-1938.svg)
 
+## CVE-2010-1872
+ Cross-site scripting (XSS) vulnerability in cPlayer.php in FlashCard 2.6.5 and 3.0.1 allows remote attackers to inject arbitrary web script or HTML via the id parameter.  NOTE: some of these details are obtained from third party information.
+
+
+
+- [https://github.com/LipeOzyy/CVE-2010-1872-BlazeDVD-SEH-Exploit](https://github.com/LipeOzyy/CVE-2010-1872-BlazeDVD-SEH-Exploit) :  ![starts](https://img.shields.io/github/stars/LipeOzyy/CVE-2010-1872-BlazeDVD-SEH-Exploit.svg) ![forks](https://img.shields.io/github/forks/LipeOzyy/CVE-2010-1872-BlazeDVD-SEH-Exploit.svg)
+
 ## CVE-2010-1622
  SpringSource Spring Framework 2.5.x before 2.5.6.SEC02, 2.5.7 before 2.5.7.SR01, and 3.0.x before 3.0.3 allows remote attackers to execute arbitrary code via an HTTP request containing class.classLoader.URLs[0]=jar: followed by a URL of a crafted .jar file.
 
