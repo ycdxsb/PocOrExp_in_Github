@@ -1,133 +1,96 @@
-# Update 2025-06-17
-## CVE-2025-49619
- Skyvern through 0.1.85 has a Jinja runtime leak in sdk/workflow/models/block.py.
+# Update 2025-06-18
+## CVE-2025-49125
+Users are recommended to upgrade to version 11.0.8, 10.1.42 or 9.0.106, which fix the issue.
 
-- [https://github.com/cristibtz/CVE-2025-49619](https://github.com/cristibtz/CVE-2025-49619) :  ![starts](https://img.shields.io/github/stars/cristibtz/CVE-2025-49619.svg) ![forks](https://img.shields.io/github/forks/cristibtz/CVE-2025-49619.svg)
+- [https://github.com/detectrespondrepeat/CVE-2025-49125-Authentication-Bypass](https://github.com/detectrespondrepeat/CVE-2025-49125-Authentication-Bypass) :  ![starts](https://img.shields.io/github/stars/detectrespondrepeat/CVE-2025-49125-Authentication-Bypass.svg) ![forks](https://img.shields.io/github/forks/detectrespondrepeat/CVE-2025-49125-Authentication-Bypass.svg)
 
 
 ## CVE-2025-49113
  Roundcube Webmail before 1.5.10 and 1.6.x before 1.6.11 allows remote code execution by authenticated users because the _from parameter in a URL is not validated in program/actions/settings/upload.php, leading to PHP Object Deserialization.
 
-- [https://github.com/Yuri08loveElaina/CVE-2025-49113](https://github.com/Yuri08loveElaina/CVE-2025-49113) :  ![starts](https://img.shields.io/github/stars/Yuri08loveElaina/CVE-2025-49113.svg) ![forks](https://img.shields.io/github/forks/Yuri08loveElaina/CVE-2025-49113.svg)
+- [https://github.com/5kr1pt/WriteUp-Roundcube_CVE-2025-49113](https://github.com/5kr1pt/WriteUp-Roundcube_CVE-2025-49113) :  ![starts](https://img.shields.io/github/stars/5kr1pt/WriteUp-Roundcube_CVE-2025-49113.svg) ![forks](https://img.shields.io/github/forks/5kr1pt/WriteUp-Roundcube_CVE-2025-49113.svg)
 
 
-## CVE-2025-33073
- Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network.
+## CVE-2025-20125
+Note:&nbsp;To successfully exploit this vulnerability, the attacker must have valid read-only administrative credentials. In a single-node deployment, new devices will not be able to authenticate during the reload time.
 
-- [https://github.com/joaozixx/CVE-2025-33073](https://github.com/joaozixx/CVE-2025-33073) :  ![starts](https://img.shields.io/github/stars/joaozixx/CVE-2025-33073.svg) ![forks](https://img.shields.io/github/forks/joaozixx/CVE-2025-33073.svg)
-
-
-## CVE-2025-32433
- Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.
-
-- [https://github.com/Yuri08loveElaina/CVE_2025_32433_exploit](https://github.com/Yuri08loveElaina/CVE_2025_32433_exploit) :  ![starts](https://img.shields.io/github/stars/Yuri08loveElaina/CVE_2025_32433_exploit.svg) ![forks](https://img.shields.io/github/forks/Yuri08loveElaina/CVE_2025_32433_exploit.svg)
-- [https://github.com/Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit](https://github.com/Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit) :  ![starts](https://img.shields.io/github/stars/Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit.svg) ![forks](https://img.shields.io/github/forks/Yuri08loveElaina/CVE-2025-32433-Erlang-OTP-SSH-Pre-Auth-RCE-exploit.svg)
+- [https://github.com/Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125](https://github.com/Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125) :  ![starts](https://img.shields.io/github/stars/Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125.svg) ![forks](https://img.shields.io/github/forks/Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125.svg)
 
 
-## CVE-2025-31161
- CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as exploited in the wild in March and April 2025, aka "Unauthenticated HTTP(S) port access." A race condition exists in the AWS4-HMAC (compatible with S3) authorization method of the HTTP component of the FTP server. The server first verifies the existence of the user by performing a call to login_user_pass() with no password requirement. This will authenticate the session through the HMAC verification process and up until the server checks for user verification once more. The vulnerability can be further stabilized, eliminating the need for successfully triggering a race condition, by sending a mangled AWS4-HMAC header. By providing only the username and a following slash (/), the server will successfully find a username, which triggers the successful anypass authentication process, but the server will fail to find the expected SignedHeaders entry, resulting in an index-out-of-bounds error that stops the code from reaching the session cleanup. Together, these issues make it trivial to authenticate as any known or guessable user (e.g., crushadmin), and can lead to a full compromise of the system by obtaining an administrative account.
+## CVE-2025-20124
+Note:&nbsp;To successfully exploit this vulnerability, the attacker must have valid read-only administrative credentials. In a single-node deployment, new devices will not be able to authenticate during the reload time.
 
-- [https://github.com/ibrahmsql/CVE-2025-31161](https://github.com/ibrahmsql/CVE-2025-31161) :  ![starts](https://img.shields.io/github/stars/ibrahmsql/CVE-2025-31161.svg) ![forks](https://img.shields.io/github/forks/ibrahmsql/CVE-2025-31161.svg)
-
-
-## CVE-2025-29927
- Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
-
-- [https://github.com/KamalideenAK/poc-cve-2025-29927](https://github.com/KamalideenAK/poc-cve-2025-29927) :  ![starts](https://img.shields.io/github/stars/KamalideenAK/poc-cve-2025-29927.svg) ![forks](https://img.shields.io/github/forks/KamalideenAK/poc-cve-2025-29927.svg)
+- [https://github.com/Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125](https://github.com/Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125) :  ![starts](https://img.shields.io/github/stars/Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125.svg) ![forks](https://img.shields.io/github/forks/Yuri08loveElaina/CVE-2025-20124_and_CVE-2025-20125.svg)
 
 
-## CVE-2025-6083
- In ExtremeCloud Universal ZTNA, a syntax error in the 'searchKeyword' condition caused queries to bypass the owner_id filter. This issue may allow users to search data across the entire table instead of being restricted to their specific owner_id.
+## CVE-2025-6169
+ The WIMP website co-construction management platform from HAMASTAR Technology has a SQL Injection vulnerability, allowing unauthenticated remote attackers to inject arbitrary SQL commands to read, modify, and delete database contents.
 
-- [https://github.com/Yuri08loveElaina/CVE_2025_6083](https://github.com/Yuri08loveElaina/CVE_2025_6083) :  ![starts](https://img.shields.io/github/stars/Yuri08loveElaina/CVE_2025_6083.svg) ![forks](https://img.shields.io/github/forks/Yuri08loveElaina/CVE_2025_6083.svg)
-
-
-## CVE-2025-6070
- The Restrict File Access plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 1.1.2 via the output() function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to read the contents of arbitrary files on the server, which can contain sensitive information.
-
-- [https://github.com/Yuri08loveElaina/CVE_2025_6070](https://github.com/Yuri08loveElaina/CVE_2025_6070) :  ![starts](https://img.shields.io/github/stars/Yuri08loveElaina/CVE_2025_6070.svg) ![forks](https://img.shields.io/github/forks/Yuri08loveElaina/CVE_2025_6070.svg)
+- [https://github.com/Yuri08loveElaina/CVE_2025_6169](https://github.com/Yuri08loveElaina/CVE_2025_6169) :  ![starts](https://img.shields.io/github/stars/Yuri08loveElaina/CVE_2025_6169.svg) ![forks](https://img.shields.io/github/forks/Yuri08loveElaina/CVE_2025_6169.svg)
 
 
-## CVE-2025-6065
- The Image Resizer On The Fly plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the 'delete' task in all versions up to, and including, 1.1. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).
+## CVE-2025-5287
+ The Likes and Dislikes Plugin plugin for WordPress is vulnerable to SQL Injection via the 'post' parameter in all versions up to, and including, 1.0.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
 
-- [https://github.com/Yuri08loveElaina/CVE_2025_6065](https://github.com/Yuri08loveElaina/CVE_2025_6065) :  ![starts](https://img.shields.io/github/stars/Yuri08loveElaina/CVE_2025_6065.svg) ![forks](https://img.shields.io/github/forks/Yuri08loveElaina/CVE_2025_6065.svg)
-
-
-## CVE-2025-2783
- Incorrect handle provided in unspecified circumstances in Mojo in Google Chrome on Windows prior to 134.0.6998.177 allowed a remote attacker to perform a sandbox escape via a malicious file. (Chromium security severity: High)
-
-- [https://github.com/byteReaper77/CVE-2025-2783-SandboxEscape](https://github.com/byteReaper77/CVE-2025-2783-SandboxEscape) :  ![starts](https://img.shields.io/github/stars/byteReaper77/CVE-2025-2783-SandboxEscape.svg) ![forks](https://img.shields.io/github/forks/byteReaper77/CVE-2025-2783-SandboxEscape.svg)
+- [https://github.com/RootHarpy/CVE-2025-5287](https://github.com/RootHarpy/CVE-2025-5287) :  ![starts](https://img.shields.io/github/stars/RootHarpy/CVE-2025-5287.svg) ![forks](https://img.shields.io/github/forks/RootHarpy/CVE-2025-5287.svg)
 
 
-## CVE-2024-28995
-SolarWinds Serv-U was susceptible to a directory transversal vulnerability that would allow access to read sensitive files on the host machine.    
+## CVE-2024-23113
+ A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
 
-- [https://github.com/ibrahmsql/CVE-2024-28995](https://github.com/ibrahmsql/CVE-2024-28995) :  ![starts](https://img.shields.io/github/stars/ibrahmsql/CVE-2024-28995.svg) ![forks](https://img.shields.io/github/forks/ibrahmsql/CVE-2024-28995.svg)
-
-
-## CVE-2024-4577
- In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use "Best-Fit" behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
-
-- [https://github.com/ibrahmsql/CVE-2024-4577](https://github.com/ibrahmsql/CVE-2024-4577) :  ![starts](https://img.shields.io/github/stars/ibrahmsql/CVE-2024-4577.svg) ![forks](https://img.shields.io/github/forks/ibrahmsql/CVE-2024-4577.svg)
+- [https://github.com/zetzns/cve-2024-23113](https://github.com/zetzns/cve-2024-23113) :  ![starts](https://img.shields.io/github/stars/zetzns/cve-2024-23113.svg) ![forks](https://img.shields.io/github/forks/zetzns/cve-2024-23113.svg)
 
 
-## CVE-2024-3094
-Through a series of complex obfuscations, the liblzma build process extracts a prebuilt object file from a disguised test file existing in the source code, which is then used to modify specific functions in the liblzma code. This results in a modified liblzma library that can be used by any software linked against this library, intercepting and modifying the data interaction with this library.
+## CVE-2023-30333
+ An arbitrary file upload vulnerability in the component /admin/ThemeController.java of PerfreeBlog v3.1.2 allows attackers to execute arbitrary code via a crafted file.
 
-- [https://github.com/gensecaihq/CVE-2024-3094-Vulnerability-Checker-Fixer](https://github.com/gensecaihq/CVE-2024-3094-Vulnerability-Checker-Fixer) :  ![starts](https://img.shields.io/github/stars/gensecaihq/CVE-2024-3094-Vulnerability-Checker-Fixer.svg) ![forks](https://img.shields.io/github/forks/gensecaihq/CVE-2024-3094-Vulnerability-Checker-Fixer.svg)
-
-
-## CVE-2024-0204
- Authentication bypass in Fortra's GoAnywhere MFT prior to 7.4.1 allows an unauthorized user to create an admin user via the administration portal.
-
-- [https://github.com/ibrahmsql/CVE-2024-0204](https://github.com/ibrahmsql/CVE-2024-0204) :  ![starts](https://img.shields.io/github/stars/ibrahmsql/CVE-2024-0204.svg) ![forks](https://img.shields.io/github/forks/ibrahmsql/CVE-2024-0204.svg)
+- [https://github.com/tuaandatt/CVE-2023-30333---Zimbra-UnRAR](https://github.com/tuaandatt/CVE-2023-30333---Zimbra-UnRAR) :  ![starts](https://img.shields.io/github/stars/tuaandatt/CVE-2023-30333---Zimbra-UnRAR.svg) ![forks](https://img.shields.io/github/forks/tuaandatt/CVE-2023-30333---Zimbra-UnRAR.svg)
 
 
-## CVE-2023-1698
- In multiple products of WAGO a vulnerability allows an unauthenticated, remote attacker to create new users and change the device configuration which can result in unintended behaviour, Denial of Service and full system compromise.
+## CVE-2022-39299
+ Passport-SAML is a SAML 2.0 authentication provider for Passport, the Node.js authentication library. A remote attacker may be able to bypass SAML authentication on a website using passport-saml. A successful attack requires that the attacker is in possession of an arbitrary IDP signed XML element. Depending on the IDP used, fully unauthenticated attacks (e.g without access to a valid user) might also be feasible if generation of a signed message can be triggered. Users should upgrade to passport-saml version 3.2.2 or newer. The issue was also present in the beta releases of `node-saml` before version 4.0.0-beta.5. If you cannot upgrade, disabling SAML authentication may be done as a workaround.
 
-- [https://github.com/ibrahmsql/CVE-2023-1698](https://github.com/ibrahmsql/CVE-2023-1698) :  ![starts](https://img.shields.io/github/stars/ibrahmsql/CVE-2023-1698.svg) ![forks](https://img.shields.io/github/forks/ibrahmsql/CVE-2023-1698.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/RizqiSec/CVE-2021-41773](https://github.com/RizqiSec/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/RizqiSec/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/RizqiSec/CVE-2021-41773.svg)
+- [https://github.com/KaztoRay/CVE-2022-39299-Research](https://github.com/KaztoRay/CVE-2022-39299-Research) :  ![starts](https://img.shields.io/github/stars/KaztoRay/CVE-2022-39299-Research.svg) ![forks](https://img.shields.io/github/forks/KaztoRay/CVE-2022-39299-Research.svg)
 
 
-## CVE-2021-40724
- Acrobat Reader for Android versions 21.8.0 (and earlier) are affected by a Path traversal vulnerability. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+## CVE-2022-30333
+ RARLAB UnRAR before 6.12 on Linux and UNIX allows directory traversal to write to files during an extract (aka unpack) operation, as demonstrated by creating a ~/.ssh/authorized_keys file. NOTE: WinRAR and Android RAR are unaffected.
 
-- [https://github.com/tinopreter/DocViewerExploitApp](https://github.com/tinopreter/DocViewerExploitApp) :  ![starts](https://img.shields.io/github/stars/tinopreter/DocViewerExploitApp.svg) ![forks](https://img.shields.io/github/forks/tinopreter/DocViewerExploitApp.svg)
+- [https://github.com/tuaandatt/CVE-2022-30333---UnRAR](https://github.com/tuaandatt/CVE-2022-30333---UnRAR) :  ![starts](https://img.shields.io/github/stars/tuaandatt/CVE-2022-30333---UnRAR.svg) ![forks](https://img.shields.io/github/forks/tuaandatt/CVE-2022-30333---UnRAR.svg)
 
 
 ## CVE-2021-36934
 pAfter installing this security update, you emmust/em manually delete all shadow copies of system files, including the SAM database, to fully mitigate this vulnerabilty. strongSimply installing this security update will not fully mitigate this vulnerability./strong See a href="https://support.microsoft.com/topic/1ceaa637-aaa3-4b58-a48b-baf72a2fa9e7"KB5005357- Delete Volume Shadow Copies/a./p
 
-- [https://github.com/Blu3L33t/Nightmare](https://github.com/Blu3L33t/Nightmare) :  ![starts](https://img.shields.io/github/stars/Blu3L33t/Nightmare.svg) ![forks](https://img.shields.io/github/forks/Blu3L33t/Nightmare.svg)
+- [https://github.com/Blu3L33t/Blu3L33t](https://github.com/Blu3L33t/Blu3L33t) :  ![starts](https://img.shields.io/github/stars/Blu3L33t/Blu3L33t.svg) ![forks](https://img.shields.io/github/forks/Blu3L33t/Blu3L33t.svg)
 
 
-## CVE-2019-14811
- A flaw was found in, ghostscript versions prior to 9.50, in the .pdf_hook_DSC_Creator procedure where it did not properly secure its privileged calls, enabling scripts to bypass `-dSAFER` restrictions. A specially crafted PostScript file could disable security protection and then have access to the file system, or execute arbitrary commands.
+## CVE-2021-30047
+ VSFTPD 3.0.3 allows attackers to cause a denial of service due to limited number of connections allowed.
 
-- [https://github.com/matejsmycka/CVE-2019-14811-in-pdf-exploit](https://github.com/matejsmycka/CVE-2019-14811-in-pdf-exploit) :  ![starts](https://img.shields.io/github/stars/matejsmycka/CVE-2019-14811-in-pdf-exploit.svg) ![forks](https://img.shields.io/github/forks/matejsmycka/CVE-2019-14811-in-pdf-exploit.svg)
-
-
-## CVE-2016-3088
- The Fileserver web application in Apache ActiveMQ 5.x before 5.14.0 allows remote attackers to upload and execute arbitrary files via an HTTP PUT followed by an HTTP MOVE request.
-
-- [https://github.com/HeArtE4t3r/CVE-2016-3088](https://github.com/HeArtE4t3r/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/HeArtE4t3r/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/HeArtE4t3r/CVE-2016-3088.svg)
+- [https://github.com/Andreyft7/CVE-2021-30047](https://github.com/Andreyft7/CVE-2021-30047) :  ![starts](https://img.shields.io/github/stars/Andreyft7/CVE-2021-30047.svg) ![forks](https://img.shields.io/github/forks/Andreyft7/CVE-2021-30047.svg)
 
 
-## CVE-2015-9238
- secure-compare 3.0.0 and below do not actually compare two strings properly. compare was actually comparing the first argument with itself, meaning the check passed for any two strings of the same length.
+## CVE-2020-35730
+ An XSS issue was discovered in Roundcube Webmail before 1.2.13, 1.3.x before 1.3.16, and 1.4.x before 1.4.10. The attacker can send a plain text e-mail message, with JavaScript in a link reference element that is mishandled by linkref_addindex in rcube_string_replacer.php.
 
-- [https://github.com/m0d0ri205/wargame-turkey_in_2](https://github.com/m0d0ri205/wargame-turkey_in_2) :  ![starts](https://img.shields.io/github/stars/m0d0ri205/wargame-turkey_in_2.svg) ![forks](https://img.shields.io/github/forks/m0d0ri205/wargame-turkey_in_2.svg)
+- [https://github.com/Pbat6/CVE-2020-35730](https://github.com/Pbat6/CVE-2020-35730) :  ![starts](https://img.shields.io/github/stars/Pbat6/CVE-2020-35730.svg) ![forks](https://img.shields.io/github/forks/Pbat6/CVE-2020-35730.svg)
 
 
-## CVE-2007-4559
- Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.
+## CVE-2020-9483
+ **Resolved** When use H2/MySQL/TiDB as Apache SkyWalking storage, the metadata query through GraphQL protocol, there is a SQL injection vulnerability, which allows to access unpexcted data. Apache SkyWalking 6.0.0 to 6.6.0, 7.0.0 H2/MySQL/TiDB storage implementations don't use the appropriate way to set SQL parameters.
 
-- [https://github.com/m0d0ri205/wargame-tarpioka](https://github.com/m0d0ri205/wargame-tarpioka) :  ![starts](https://img.shields.io/github/stars/m0d0ri205/wargame-tarpioka.svg) ![forks](https://img.shields.io/github/forks/m0d0ri205/wargame-tarpioka.svg)
+- [https://github.com/tuaandatt/CVE-2020-9483---Apache-Skywalking-8.3.0](https://github.com/tuaandatt/CVE-2020-9483---Apache-Skywalking-8.3.0) :  ![starts](https://img.shields.io/github/stars/tuaandatt/CVE-2020-9483---Apache-Skywalking-8.3.0.svg) ![forks](https://img.shields.io/github/forks/tuaandatt/CVE-2020-9483---Apache-Skywalking-8.3.0.svg)
+
+
+## CVE-2019-15107
+ An issue was discovered in Webmin =1.920. The parameter old in password_change.cgi contains a command injection vulnerability.
+
+- [https://github.com/EdouardosStav/CVE-2019-15107-RCE-WebMin](https://github.com/EdouardosStav/CVE-2019-15107-RCE-WebMin) :  ![starts](https://img.shields.io/github/stars/EdouardosStav/CVE-2019-15107-RCE-WebMin.svg) ![forks](https://img.shields.io/github/forks/EdouardosStav/CVE-2019-15107-RCE-WebMin.svg)
+
+
+## CVE-2017-0143
+ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka "Windows SMB Remote Code Execution Vulnerability." This vulnerability is different from those described in CVE-2017-0144, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
+
+- [https://github.com/Mafiosohack/offensive-security-lab-1](https://github.com/Mafiosohack/offensive-security-lab-1) :  ![starts](https://img.shields.io/github/stars/Mafiosohack/offensive-security-lab-1.svg) ![forks](https://img.shields.io/github/forks/Mafiosohack/offensive-security-lab-1.svg)
 
