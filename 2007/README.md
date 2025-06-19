@@ -130,9 +130,9 @@
 
 - [https://github.com/bdunlap9/CVE-2007-2447_python](https://github.com/bdunlap9/CVE-2007-2447_python) :  ![starts](https://img.shields.io/github/stars/bdunlap9/CVE-2007-2447_python.svg) ![forks](https://img.shields.io/github/forks/bdunlap9/CVE-2007-2447_python.svg)
 
-- [https://github.com/elphon/CVE-2007-2447-Exploit](https://github.com/elphon/CVE-2007-2447-Exploit) :  ![starts](https://img.shields.io/github/stars/elphon/CVE-2007-2447-Exploit.svg) ![forks](https://img.shields.io/github/forks/elphon/CVE-2007-2447-Exploit.svg)
-
 - [https://github.com/IamLucif3r/CVE-2007-2447-Exploit](https://github.com/IamLucif3r/CVE-2007-2447-Exploit) :  ![starts](https://img.shields.io/github/stars/IamLucif3r/CVE-2007-2447-Exploit.svg) ![forks](https://img.shields.io/github/forks/IamLucif3r/CVE-2007-2447-Exploit.svg)
+
+- [https://github.com/elphon/CVE-2007-2447-Exploit](https://github.com/elphon/CVE-2007-2447-Exploit) :  ![starts](https://img.shields.io/github/stars/elphon/CVE-2007-2447-Exploit.svg) ![forks](https://img.shields.io/github/forks/elphon/CVE-2007-2447-Exploit.svg)
 
 - [https://github.com/MikeRega7/CVE-2007-2447-RCE](https://github.com/MikeRega7/CVE-2007-2447-RCE) :  ![starts](https://img.shields.io/github/stars/MikeRega7/CVE-2007-2447-RCE.svg) ![forks](https://img.shields.io/github/forks/MikeRega7/CVE-2007-2447-RCE.svg)
 
@@ -143,6 +143,8 @@
 - [https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-) :  ![starts](https://img.shields.io/github/stars/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-.svg) ![forks](https://img.shields.io/github/forks/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-.svg)
 
 - [https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3) :  ![starts](https://img.shields.io/github/stars/WildfootW/CVE-2007-2447_Samba_3.0.25rc3.svg) ![forks](https://img.shields.io/github/forks/WildfootW/CVE-2007-2447_Samba_3.0.25rc3.svg)
+
+- [https://github.com/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2](https://github.com/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2) :  ![starts](https://img.shields.io/github/stars/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2.svg) ![forks](https://img.shields.io/github/forks/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2.svg)
 
 ## CVE-2007-1858
  The default SSL cipher configuration in Apache Tomcat 4.1.28 through 4.1.31, 5.0.0 through 5.0.30, and 5.5.0 through 5.5.17 uses certain insecure ciphers, including the anonymous cipher, which allows remote attackers to obtain sensitive information or have other, unspecified impacts.
