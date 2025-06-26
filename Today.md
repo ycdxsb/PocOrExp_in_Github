@@ -1,93 +1,103 @@
-# Update 2025-06-25
+# Update 2025-06-26
+## CVE-2025-49144
+ Notepad++ is a free and open-source source code editor. In versions 8.8.1 and prior, a privilege escalation vulnerability exists in the Notepad++ v8.8.1 installer that allows unprivileged users to gain SYSTEM-level privileges through insecure executable search paths. An attacker could use social engineering or clickjacking to trick users into downloading both the legitimate installer and a malicious executable to the same directory (typically Downloads folder - which is known as Vulnerable directory). Upon running the installer, the attack executes automatically with SYSTEM privileges. This issue has been fixed and will be released in version 8.8.2.
+
+- [https://github.com/Vr00mm/CVE-2025-49144](https://github.com/Vr00mm/CVE-2025-49144) :  ![starts](https://img.shields.io/github/stars/Vr00mm/CVE-2025-49144.svg) ![forks](https://img.shields.io/github/forks/Vr00mm/CVE-2025-49144.svg)
+
+
 ## CVE-2025-49132
  Pterodactyl is a free, open-source game server management panel. Prior to version 1.11.11, using the /locales/locale.json with the locale and namespace query parameters, a malicious actor is able to execute arbitrary code without being authenticated. With the ability to execute arbitrary code it could be used to gain access to the Panel's server, read credentials from the Panel's config, extract sensitive information from the database, access files of servers managed by the panel, etc. This issue has been patched in version 1.11.11. There are no software workarounds for this vulnerability, but use of an external Web Application Firewall (WAF) could help mitigate this attack.
 
-- [https://github.com/qiaojojo/CVE-2025-49132_poc](https://github.com/qiaojojo/CVE-2025-49132_poc) :  ![starts](https://img.shields.io/github/stars/qiaojojo/CVE-2025-49132_poc.svg) ![forks](https://img.shields.io/github/forks/qiaojojo/CVE-2025-49132_poc.svg)
+- [https://github.com/63square/CVE-2025-49132](https://github.com/63square/CVE-2025-49132) :  ![starts](https://img.shields.io/github/stars/63square/CVE-2025-49132.svg) ![forks](https://img.shields.io/github/forks/63square/CVE-2025-49132.svg)
 
 
-## CVE-2025-48988
-Users are recommended to upgrade to version 11.0.8, 10.1.42 or 9.0.106, which fix the issue.
+## CVE-2025-48466
+ Successful exploitation of the vulnerability could allow an unauthenticated, remote attacker to send Modbus TCP packets to manipulate Digital Outputs, potentially allowing remote control of relay channel which may lead to operational or safety risks.
 
-- [https://github.com/nankuo/CVE-2025-48976_CVE-2025-48988](https://github.com/nankuo/CVE-2025-48976_CVE-2025-48988) :  ![starts](https://img.shields.io/github/stars/nankuo/CVE-2025-48976_CVE-2025-48988.svg) ![forks](https://img.shields.io/github/forks/nankuo/CVE-2025-48976_CVE-2025-48988.svg)
-
-
-## CVE-2025-48976
-Users are recommended to upgrade to versions 1.6 or 2.0.0-M4, which fix the issue.
-
-- [https://github.com/nankuo/CVE-2025-48976_CVE-2025-48988](https://github.com/nankuo/CVE-2025-48976_CVE-2025-48988) :  ![starts](https://img.shields.io/github/stars/nankuo/CVE-2025-48976_CVE-2025-48988.svg) ![forks](https://img.shields.io/github/forks/nankuo/CVE-2025-48976_CVE-2025-48988.svg)
+- [https://github.com/shipcod3/CVE-2025-48466](https://github.com/shipcod3/CVE-2025-48466) :  ![starts](https://img.shields.io/github/stars/shipcod3/CVE-2025-48466.svg) ![forks](https://img.shields.io/github/forks/shipcod3/CVE-2025-48466.svg)
 
 
-## CVE-2025-26466
- A flaw was found in the OpenSSH package. For each ping packet the SSH server receives, a pong packet is allocated in a memory buffer and stored in a queue of packages. It is only freed when the server/client key exchange has finished. A malicious client may keep sending such packages, leading to an uncontrolled increase in memory consumption on the server side. Consequently, the server may become unavailable, resulting in a denial of service attack.
+## CVE-2025-48461
+ Successful exploitation of the vulnerability could allow an unauthenticated attacker to conduct brute force guessing and account takeover as the session cookies are predictable, potentially allowing the attackers to gain root, admin or user access and reset passwords.
 
-- [https://github.com/mrowkoob/CVE-2025-26466-msf](https://github.com/mrowkoob/CVE-2025-26466-msf) :  ![starts](https://img.shields.io/github/stars/mrowkoob/CVE-2025-26466-msf.svg) ![forks](https://img.shields.io/github/forks/mrowkoob/CVE-2025-26466-msf.svg)
-
-
-## CVE-2025-4571
- The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to unauthorized view and modification of data due to an insufficient capability check on the permissionsCheck functions in all versions up to, and including, 4.3.0. This makes it possible for authenticated attackers, with Contributor-level access and above, to view or delete fundraising campaigns, view donors' data, modify campaign events, etc.
-
-- [https://github.com/partywavesec/CVE-2025-45710](https://github.com/partywavesec/CVE-2025-45710) :  ![starts](https://img.shields.io/github/stars/partywavesec/CVE-2025-45710.svg) ![forks](https://img.shields.io/github/forks/partywavesec/CVE-2025-45710.svg)
+- [https://github.com/joelczk/CVE-2025-48461](https://github.com/joelczk/CVE-2025-48461) :  ![starts](https://img.shields.io/github/stars/joelczk/CVE-2025-48461.svg) ![forks](https://img.shields.io/github/forks/joelczk/CVE-2025-48461.svg)
 
 
-## CVE-2025-4322
- The Motors theme for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 5.6.67. This is due to the theme not properly validating a user's identity prior to updating their password. This makes it possible for unauthenticated attackers to change arbitrary user passwords, including those of administrators, and leverage that to gain access to their account.
+## CVE-2025-5309
+ The chat feature within Remote Support (RS) and Privileged Remote Access (PRA) is vulnerable to a Server-Side Template Injection vulnerability which can lead to remote code execution.
 
-- [https://github.com/B1ack4sh/Blackash-CVE-2025-4322](https://github.com/B1ack4sh/Blackash-CVE-2025-4322) :  ![starts](https://img.shields.io/github/stars/B1ack4sh/Blackash-CVE-2025-4322.svg) ![forks](https://img.shields.io/github/forks/B1ack4sh/Blackash-CVE-2025-4322.svg)
-
-
-## CVE-2025-3248
-code.
-
-- [https://github.com/0-d3y/langflow-rce-exploit](https://github.com/0-d3y/langflow-rce-exploit) :  ![starts](https://img.shields.io/github/stars/0-d3y/langflow-rce-exploit.svg) ![forks](https://img.shields.io/github/forks/0-d3y/langflow-rce-exploit.svg)
-- [https://github.com/dennisec/Mass-CVE-2025-3248](https://github.com/dennisec/Mass-CVE-2025-3248) :  ![starts](https://img.shields.io/github/stars/dennisec/Mass-CVE-2025-3248.svg) ![forks](https://img.shields.io/github/forks/dennisec/Mass-CVE-2025-3248.svg)
-- [https://github.com/dennisec/CVE-2025-3248](https://github.com/dennisec/CVE-2025-3248) :  ![starts](https://img.shields.io/github/stars/dennisec/CVE-2025-3248.svg) ![forks](https://img.shields.io/github/forks/dennisec/CVE-2025-3248.svg)
+- [https://github.com/issamjr/CVE-2025-5309-Scanner](https://github.com/issamjr/CVE-2025-5309-Scanner) :  ![starts](https://img.shields.io/github/stars/issamjr/CVE-2025-5309-Scanner.svg) ![forks](https://img.shields.io/github/forks/issamjr/CVE-2025-5309-Scanner.svg)
 
 
-## CVE-2025-1094
- Improper neutralization of quoting syntax in PostgreSQL libpq functions PQescapeLiteral(), PQescapeIdentifier(), PQescapeString(), and PQescapeStringConn() allows a database input provider to achieve SQL injection in certain usage patterns.  Specifically, SQL injection requires the application to use the function result to construct input to psql, the PostgreSQL interactive terminal.  Similarly, improper neutralization of quoting syntax in PostgreSQL command line utility programs allows a source of command line arguments to achieve SQL injection when client_encoding is BIG5 and server_encoding is one of EUC_TW or MULE_INTERNAL.  Versions before PostgreSQL 17.3, 16.7, 15.11, 14.16, and 13.19 are affected.
+## CVE-2025-4546
+ A vulnerability was found in 1Panel-dev MaxKB up to 1.10.7. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the component Knowledge Base Module. The manipulation leads to csv injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 1.10.8 is able to address this issue. It is recommended to upgrade the affected component. The vendor was contacted early about this disclosure.
 
-- [https://github.com/B1ack4sh/Blackash-CVE-2025-1094](https://github.com/B1ack4sh/Blackash-CVE-2025-1094) :  ![starts](https://img.shields.io/github/stars/B1ack4sh/Blackash-CVE-2025-1094.svg) ![forks](https://img.shields.io/github/forks/B1ack4sh/Blackash-CVE-2025-1094.svg)
-
-
-## CVE-2024-32002
- Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
-
-- [https://github.com/O-Carneiro/cve_2024_32002_hook](https://github.com/O-Carneiro/cve_2024_32002_hook) :  ![starts](https://img.shields.io/github/stars/O-Carneiro/cve_2024_32002_hook.svg) ![forks](https://img.shields.io/github/forks/O-Carneiro/cve_2024_32002_hook.svg)
-- [https://github.com/O-Carneiro/cve_2024_32002_rce](https://github.com/O-Carneiro/cve_2024_32002_rce) :  ![starts](https://img.shields.io/github/stars/O-Carneiro/cve_2024_32002_rce.svg) ![forks](https://img.shields.io/github/forks/O-Carneiro/cve_2024_32002_rce.svg)
+- [https://github.com/zgsnj123/CVE-2025-45466](https://github.com/zgsnj123/CVE-2025-45466) :  ![starts](https://img.shields.io/github/stars/zgsnj123/CVE-2025-45466.svg) ![forks](https://img.shields.io/github/forks/zgsnj123/CVE-2025-45466.svg)
+- [https://github.com/zgsnj123/CVE-2025-45467](https://github.com/zgsnj123/CVE-2025-45467) :  ![starts](https://img.shields.io/github/stars/zgsnj123/CVE-2025-45467.svg) ![forks](https://img.shields.io/github/forks/zgsnj123/CVE-2025-45467.svg)
 
 
-## CVE-2024-4577
- In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use "Best-Fit" behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
+## CVE-2025-1718
+ An authenticated user with file access privilege via FTP access can cause the Relion 670/650 and SAM600-IO series device to reboot due to improper disk space management.
 
-- [https://github.com/byteReaper77/CVE-2024-4577](https://github.com/byteReaper77/CVE-2024-4577) :  ![starts](https://img.shields.io/github/stars/byteReaper77/CVE-2024-4577.svg) ![forks](https://img.shields.io/github/forks/byteReaper77/CVE-2024-4577.svg)
-
-
-## CVE-2023-37273
- Auto-GPT is an experimental open-source application showcasing the capabilities of the GPT-4 language model. Running Auto-GPT version prior to 0.4.3 by cloning the git repo and executing `docker compose run auto-gpt` in the repo root uses a different docker-compose.yml file from the one suggested in the official docker set up instructions. The docker-compose.yml file located in the repo root mounts itself into the docker container without write protection. This means that if malicious custom python code is executed via the `execute_python_file` and `execute_python_code` commands, it can overwrite the docker-compose.yml file and abuse it to gain control of the host system the next time Auto-GPT is started. The issue has been patched in version 0.4.3.
-
-- [https://github.com/gdesantis01/instructions-summarizing](https://github.com/gdesantis01/instructions-summarizing) :  ![starts](https://img.shields.io/github/stars/gdesantis01/instructions-summarizing.svg) ![forks](https://img.shields.io/github/forks/gdesantis01/instructions-summarizing.svg)
+- [https://github.com/issamjr/CVE-2025-1718-Scanner](https://github.com/issamjr/CVE-2025-1718-Scanner) :  ![starts](https://img.shields.io/github/stars/issamjr/CVE-2025-1718-Scanner.svg) ![forks](https://img.shields.io/github/forks/issamjr/CVE-2025-1718-Scanner.svg)
 
 
-## CVE-2023-33538
- TP-Link TL-WR940N V2/V4, TL-WR841N V8/V10, and TL-WR740N V1/V2 was discovered to contain a command injection vulnerability via the component /userRpm/WlanNetworkRpm .
+## CVE-2025-0133
+For GlobalProtect users with Clientless VPN enabled, there is a limited impact on confidentiality due to inherent risks of Clientless VPN that facilitate credential theft. You can read more about this risk in the informational bulletin  PAN-SA-2025-0005 https://security.paloaltonetworks.com/PAN-SA-2025-0005   https://security.paloaltonetworks.com/PAN-SA-2025-0005 . There is no impact to confidentiality for GlobalProtect users if you did not enable (or you disable) Clientless VPN.
 
-- [https://github.com/mrowkoob/CVE-2023-33538-msf](https://github.com/mrowkoob/CVE-2023-33538-msf) :  ![starts](https://img.shields.io/github/stars/mrowkoob/CVE-2023-33538-msf.svg) ![forks](https://img.shields.io/github/forks/mrowkoob/CVE-2023-33538-msf.svg)
-
-
-## CVE-2021-31630
- Command Injection in Open PLC Webserver v3 allows remote attackers to execute arbitrary code via the "Hardware Layer Code Box" component on the "/hardware" page of the application.
-
-- [https://github.com/machevalia/OpenPLC-CVE-2021-31630-RCE](https://github.com/machevalia/OpenPLC-CVE-2021-31630-RCE) :  ![starts](https://img.shields.io/github/stars/machevalia/OpenPLC-CVE-2021-31630-RCE.svg) ![forks](https://img.shields.io/github/forks/machevalia/OpenPLC-CVE-2021-31630-RCE.svg)
+- [https://github.com/INTELEON404/CVE-2025-0133](https://github.com/INTELEON404/CVE-2025-0133) :  ![starts](https://img.shields.io/github/stars/INTELEON404/CVE-2025-0133.svg) ![forks](https://img.shields.io/github/forks/INTELEON404/CVE-2025-0133.svg)
 
 
-## CVE-2020-1048
- An elevation of privilege vulnerability exists when the Windows Print Spooler service improperly allows arbitrary writing to the file system, aka 'Windows Print Spooler Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-1070.
+## CVE-2023-46818
+ An issue was discovered in ISPConfig before 3.2.11p1. PHP code injection can be achieved in the language file editor by an admin if admin_allow_langedit is enabled.
 
-- [https://github.com/talsim/printDemon2system](https://github.com/talsim/printDemon2system) :  ![starts](https://img.shields.io/github/stars/talsim/printDemon2system.svg) ![forks](https://img.shields.io/github/forks/talsim/printDemon2system.svg)
+- [https://github.com/SyFi/CVE-2023-46818](https://github.com/SyFi/CVE-2023-46818) :  ![starts](https://img.shields.io/github/stars/SyFi/CVE-2023-46818.svg) ![forks](https://img.shields.io/github/forks/SyFi/CVE-2023-46818.svg)
 
 
-## CVE-2015-6967
- Unrestricted file upload vulnerability in the My Image plugin in Nibbleblog before 4.0.5 allows remote administrators to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in content/private/plugins/my_image/image.php.
+## CVE-2022-25581
+ Classcms v2.5 and below contains an arbitrary file upload via the component \class\classupload. This vulnerability allows attackers to execute code injection via a crafted .txt file.
 
-- [https://github.com/cuerv0x/CVE-2015-6967](https://github.com/cuerv0x/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/cuerv0x/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/cuerv0x/CVE-2015-6967.svg)
+- [https://github.com/wooluo/CVE-2022-25581](https://github.com/wooluo/CVE-2022-25581) :  ![starts](https://img.shields.io/github/stars/wooluo/CVE-2022-25581.svg) ![forks](https://img.shields.io/github/forks/wooluo/CVE-2022-25581.svg)
+
+
+## CVE-2022-1257
+ Insecure storage of sensitive information vulnerability in MA for Linux, macOS, and Windows prior to 5.7.6 allows a local user to gain access to sensitive information through storage in ma.db. The sensitive information has been moved to encrypted database files.
+
+- [https://github.com/kayes817/CVE-2022-1257](https://github.com/kayes817/CVE-2022-1257) :  ![starts](https://img.shields.io/github/stars/kayes817/CVE-2022-1257.svg) ![forks](https://img.shields.io/github/forks/kayes817/CVE-2022-1257.svg)
+
+
+## CVE-2019-7304
+ Canonical snapd before version 2.37.1 incorrectly performed socket owner validation, allowing an attacker to run arbitrary commands as root. This issue affects: Canonical snapd versions prior to 2.37.1.
+
+- [https://github.com/coby-nguyen/Document-Linux-Privilege-Escalation](https://github.com/coby-nguyen/Document-Linux-Privilege-Escalation) :  ![starts](https://img.shields.io/github/stars/coby-nguyen/Document-Linux-Privilege-Escalation.svg) ![forks](https://img.shields.io/github/forks/coby-nguyen/Document-Linux-Privilege-Escalation.svg)
+
+
+## CVE-2019-5736
+ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allows attackers to overwrite the host runc binary (and consequently obtain host root access) by leveraging the ability to execute a command as root within one of these types of containers: (1) a new container with an attacker-controlled image, or (2) an existing container, to which the attacker previously had write access, that can be attached with docker exec. This occurs because of file-descriptor mishandling, related to /proc/self/exe.
+
+- [https://github.com/Perimora/cve_2019-5736-PoC](https://github.com/Perimora/cve_2019-5736-PoC) :  ![starts](https://img.shields.io/github/stars/Perimora/cve_2019-5736-PoC.svg) ![forks](https://img.shields.io/github/forks/Perimora/cve_2019-5736-PoC.svg)
+
+
+## CVE-2018-15473
+ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not delaying bailout for an invalid authenticating user until after the packet containing the request has been fully parsed, related to auth2-gss.c, auth2-hostbased.c, and auth2-pubkey.c.
+
+- [https://github.com/makmour/open-ssh-user-enumeration](https://github.com/makmour/open-ssh-user-enumeration) :  ![starts](https://img.shields.io/github/stars/makmour/open-ssh-user-enumeration.svg) ![forks](https://img.shields.io/github/forks/makmour/open-ssh-user-enumeration.svg)
+
+
+## CVE-2018-1273
+ Spring Data Commons, versions prior to 1.13 to 1.13.10, 2.0 to 2.0.5, and older unsupported versions, contain a property binder vulnerability caused by improper neutralization of special elements. An unauthenticated remote malicious user (or attacker) can supply specially crafted request parameters against Spring Data REST backed HTTP resources or using Spring Data's projection-based request payload binding hat can lead to a remote code execution attack.
+
+- [https://github.com/hdgokani/CVE-2018-1273](https://github.com/hdgokani/CVE-2018-1273) :  ![starts](https://img.shields.io/github/stars/hdgokani/CVE-2018-1273.svg) ![forks](https://img.shields.io/github/forks/hdgokani/CVE-2018-1273.svg)
+
+
+## CVE-2017-0144
+ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka "Windows SMB Remote Code Execution Vulnerability." This vulnerability is different from those described in CVE-2017-0143, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
+
+- [https://github.com/luckyman2907/SMB-Protocol-Vulnerability_CVE-2017-0144](https://github.com/luckyman2907/SMB-Protocol-Vulnerability_CVE-2017-0144) :  ![starts](https://img.shields.io/github/stars/luckyman2907/SMB-Protocol-Vulnerability_CVE-2017-0144.svg) ![forks](https://img.shields.io/github/forks/luckyman2907/SMB-Protocol-Vulnerability_CVE-2017-0144.svg)
+
+
+## CVE-2016-1000002
+ gdm3 3.14.2 and possibly later has an information leak before screen lock
+
+- [https://github.com/hdgokani/CVE2016-10000027](https://github.com/hdgokani/CVE2016-10000027) :  ![starts](https://img.shields.io/github/stars/hdgokani/CVE2016-10000027.svg) ![forks](https://img.shields.io/github/forks/hdgokani/CVE2016-10000027.svg)
 
