@@ -12,6 +12,13 @@
 
 - [https://github.com/otofoto/CVE-2010-5230](https://github.com/otofoto/CVE-2010-5230) :  ![starts](https://img.shields.io/github/stars/otofoto/CVE-2010-5230.svg) ![forks](https://img.shields.io/github/forks/otofoto/CVE-2010-5230.svg)
 
+## CVE-2010-5195
+ Untrusted search path vulnerability in Roxio MyDVD 9 allows local users to gain privileges via a Trojan horse HomeUtils9.dll file in the current working directory, as demonstrated by a directory that contains a .dmsd or .dmsm file.  NOTE: some of these details are obtained from third party information.
+
+
+
+- [https://github.com/CristinaPravata/dirtycaw-projet](https://github.com/CristinaPravata/dirtycaw-projet) :  ![starts](https://img.shields.io/github/stars/CristinaPravata/dirtycaw-projet.svg) ![forks](https://img.shields.io/github/forks/CristinaPravata/dirtycaw-projet.svg)
+
 ## CVE-2010-4804
  The Android browser in Android before 2.3.4 allows remote attackers to obtain SD card contents via crafted content:// URIs, related to (1) BrowserActivity.java and (2) BrowserSettings.java in com/android/browser/.
 
