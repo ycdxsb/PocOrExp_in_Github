@@ -345,9 +345,9 @@
 
 - [https://github.com/agkunkle/chocobo](https://github.com/agkunkle/chocobo) :  ![starts](https://img.shields.io/github/stars/agkunkle/chocobo.svg) ![forks](https://img.shields.io/github/forks/agkunkle/chocobo.svg)
 
-- [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) :  ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
-
 - [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
+
+- [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) :  ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
 
 ## CVE-2016-8636
  Integer overflow in the mem_check_range function in drivers/infiniband/sw/rxe/rxe_mr.c in the Linux kernel before 4.9.10 allows local users to cause a denial of service (memory corruption), obtain sensitive information from kernel memory, or possibly have unspecified other impact via a write or read request involving the "RDMA protocol over infiniband" (aka Soft RoCE) technology.
@@ -857,9 +857,9 @@
 
 - [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
 
-- [https://github.com/ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ASUKA39/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ASUKA39/CVE-2016-5195.svg)
-
 - [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
+
+- [https://github.com/ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ASUKA39/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ASUKA39/CVE-2016-5195.svg)
 
 - [https://github.com/ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ldenevi/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ldenevi/CVE-2016-5195.svg)
 
@@ -1571,6 +1571,13 @@
 
 
 - [https://github.com/Fullmetal5/FlashHax](https://github.com/Fullmetal5/FlashHax) :  ![starts](https://img.shields.io/github/stars/Fullmetal5/FlashHax.svg) ![forks](https://img.shields.io/github/forks/Fullmetal5/FlashHax.svg)
+
+## CVE-2016-0957
+ Dispatcher before 4.1.5 in Adobe Experience Manager 5.6.1, 6.0.0, and 6.1.0 does not properly implement a URL filter, which allows remote attackers to bypass dispatcher rules via unspecified vectors.
+
+
+
+- [https://github.com/fuckwbored/CVE-2016-0957-payloads](https://github.com/fuckwbored/CVE-2016-0957-payloads) :  ![starts](https://img.shields.io/github/stars/fuckwbored/CVE-2016-0957-payloads.svg) ![forks](https://img.shields.io/github/forks/fuckwbored/CVE-2016-0957-payloads.svg)
 
 ## CVE-2016-0856
  Multiple stack-based buffer overflows in Advantech WebAccess before 8.1 allow remote attackers to execute arbitrary code via unspecified vectors.
