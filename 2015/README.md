@@ -724,6 +724,8 @@
 
 - [https://github.com/n000xy/CVE-2015-3224-](https://github.com/n000xy/CVE-2015-3224-) :  ![starts](https://img.shields.io/github/stars/n000xy/CVE-2015-3224-.svg) ![forks](https://img.shields.io/github/forks/n000xy/CVE-2015-3224-.svg)
 
+- [https://github.com/Sic4rio/CVE-2015-3224](https://github.com/Sic4rio/CVE-2015-3224) :  ![starts](https://img.shields.io/github/stars/Sic4rio/CVE-2015-3224.svg) ![forks](https://img.shields.io/github/forks/Sic4rio/CVE-2015-3224.svg)
+
 ## CVE-2015-3197
  ssl/s2_srvr.c in OpenSSL 1.0.1 before 1.0.1r and 1.0.2 before 1.0.2f does not prevent use of disabled ciphers, which makes it easier for man-in-the-middle attackers to defeat cryptographic protection mechanisms by performing computations on SSLv2 traffic, related to the get_client_master_key and get_client_hello functions.
 
