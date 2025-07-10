@@ -69,9 +69,9 @@
 
 - [https://github.com/limkokholefork/CVE-2011-3192](https://github.com/limkokholefork/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/limkokholefork/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/CVE-2011-3192.svg)
 
-- [https://github.com/futurezayka/CVE-2011-3192](https://github.com/futurezayka/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/futurezayka/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/futurezayka/CVE-2011-3192.svg)
-
 - [https://github.com/stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192) :  ![starts](https://img.shields.io/github/stars/stcmjp/cve-2011-3192.svg) ![forks](https://img.shields.io/github/forks/stcmjp/cve-2011-3192.svg)
+
+- [https://github.com/futurezayka/CVE-2011-3192](https://github.com/futurezayka/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/futurezayka/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/futurezayka/CVE-2011-3192.svg)
 
 - [https://github.com/warmilk/http-Dos-Attack-Detection](https://github.com/warmilk/http-Dos-Attack-Detection) :  ![starts](https://img.shields.io/github/stars/warmilk/http-Dos-Attack-Detection.svg) ![forks](https://img.shields.io/github/forks/warmilk/http-Dos-Attack-Detection.svg)
 
@@ -120,9 +120,9 @@
 
 - [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
 
-- [https://github.com/0xSojalSec/CVE-2011-2523](https://github.com/0xSojalSec/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/CVE-2011-2523.svg)
-
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
+
+- [https://github.com/0xSojalSec/CVE-2011-2523](https://github.com/0xSojalSec/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/CVE-2011-2523.svg)
 
 - [https://github.com/hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/hklabCR/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/hklabCR/CVE-2011-2523.svg)
 
@@ -167,13 +167,6 @@
 
 
 - [https://github.com/hittlle/CVE-2011-1974-PoC](https://github.com/hittlle/CVE-2011-1974-PoC) :  ![starts](https://img.shields.io/github/stars/hittlle/CVE-2011-1974-PoC.svg) ![forks](https://img.shields.io/github/forks/hittlle/CVE-2011-1974-PoC.svg)
-
-## CVE-2011-1720
- The SMTP server in Postfix before 2.5.13, 2.6.x before 2.6.10, 2.7.x before 2.7.4, and 2.8.x before 2.8.3, when certain Cyrus SASL authentication methods are enabled, does not create a new server handle after client authentication fails, which allows remote attackers to cause a denial of service (heap memory corruption and daemon crash) or possibly execute arbitrary code via an invalid AUTH command with one method followed by an AUTH command with a different method.
-
-
-
-- [https://github.com/nbeguier/postfix_exploit](https://github.com/nbeguier/postfix_exploit) :  ![starts](https://img.shields.io/github/stars/nbeguier/postfix_exploit.svg) ![forks](https://img.shields.io/github/forks/nbeguier/postfix_exploit.svg)
 
 ## CVE-2011-1575
  The STARTTLS implementation in ftp_parser.c in Pure-FTPd before 1.0.30 does not properly restrict I/O buffering, which allows man-in-the-middle attackers to insert commands into encrypted FTP sessions by sending a cleartext command that is processed after TLS is in place, related to a "plaintext command injection" attack, a similar issue to CVE-2011-0411.
