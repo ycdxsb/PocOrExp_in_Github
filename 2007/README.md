@@ -131,6 +131,8 @@
 
 - [https://github.com/MikeRega7/CVE-2007-2447-RCE](https://github.com/MikeRega7/CVE-2007-2447-RCE) :  ![starts](https://img.shields.io/github/stars/MikeRega7/CVE-2007-2447-RCE.svg) ![forks](https://img.shields.io/github/forks/MikeRega7/CVE-2007-2447-RCE.svg)
 
+- [https://github.com/MrRoma577/exploit_cve-2007-2447_again](https://github.com/MrRoma577/exploit_cve-2007-2447_again) :  ![starts](https://img.shields.io/github/stars/MrRoma577/exploit_cve-2007-2447_again.svg) ![forks](https://img.shields.io/github/forks/MrRoma577/exploit_cve-2007-2447_again.svg)
+
 - [https://github.com/ShivamDey/Samba-CVE-2007-2447-Exploit](https://github.com/ShivamDey/Samba-CVE-2007-2447-Exploit) :  ![starts](https://img.shields.io/github/stars/ShivamDey/Samba-CVE-2007-2447-Exploit.svg) ![forks](https://img.shields.io/github/forks/ShivamDey/Samba-CVE-2007-2447-Exploit.svg)
 
 - [https://github.com/HerculesRD/PyUsernameMapScriptRCE](https://github.com/HerculesRD/PyUsernameMapScriptRCE) :  ![starts](https://img.shields.io/github/stars/HerculesRD/PyUsernameMapScriptRCE.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/PyUsernameMapScriptRCE.svg)
