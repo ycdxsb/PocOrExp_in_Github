@@ -1,84 +1,91 @@
-# Update 2025-07-15
-## CVE-2025-49113
- Roundcube Webmail before 1.5.10 and 1.6.x before 1.6.11 allows remote code execution by authenticated users because the _from parameter in a URL is not validated in program/actions/settings/upload.php, leading to PHP Object Deserialization.
+# Update 2025-07-16
+## CVE-2025-52488
+ DNN (formerly DotNetNuke) is an open-source web content management platform (CMS) in the Microsoft ecosystem. In versions 6.0.0 to before 10.0.1, DNN.PLATFORM allows a specially crafted series of malicious interaction to potentially expose NTLM hashes to a third party SMB server. This issue has been patched in version 10.0.1.
 
-- [https://github.com/hackmelocal/HML-CVE-2025-49113](https://github.com/hackmelocal/HML-CVE-2025-49113) :  ![starts](https://img.shields.io/github/stars/hackmelocal/HML-CVE-2025-49113.svg) ![forks](https://img.shields.io/github/forks/hackmelocal/HML-CVE-2025-49113.svg)
-
-
-## CVE-2025-47981
- Heap-based buffer overflow in Windows SPNEGO Extended Negotiation allows an unauthorized attacker to execute code over a network.
-
-- [https://github.com/barbaraogmgf/CVE-2025-47981-POC](https://github.com/barbaraogmgf/CVE-2025-47981-POC) :  ![starts](https://img.shields.io/github/stars/barbaraogmgf/CVE-2025-47981-POC.svg) ![forks](https://img.shields.io/github/forks/barbaraogmgf/CVE-2025-47981-POC.svg)
+- [https://github.com/SystemVll/CVE-2025-52488](https://github.com/SystemVll/CVE-2025-52488) :  ![starts](https://img.shields.io/github/stars/SystemVll/CVE-2025-52488.svg) ![forks](https://img.shields.io/github/forks/SystemVll/CVE-2025-52488.svg)
 
 
-## CVE-2025-34085
- An unrestricted file upload vulnerability in the WordPress Simple File List plugin prior to version 4.2.3 allows unauthenticated remote attackers to achieve remote code execution. The plugin's upload endpoint (ee-upload-engine.php) restricts file uploads based on extension, but lacks proper validation after file renaming. An attacker can first upload a PHP payload disguised as a .png file, then use the plugin’s ee-file-engine.php rename functionality to change the extension to .php. This bypasses upload restrictions and results in the uploaded payload being executable on the server.
+## CVE-2025-49493
+ Akamai CloudTest before 60 2025.06.02 (12988) allows file inclusion via XML External Entity (XXE) injection.
 
-- [https://github.com/ill-deed/CVE-2025-34085-Multi-target](https://github.com/ill-deed/CVE-2025-34085-Multi-target) :  ![starts](https://img.shields.io/github/stars/ill-deed/CVE-2025-34085-Multi-target.svg) ![forks](https://img.shields.io/github/forks/ill-deed/CVE-2025-34085-Multi-target.svg)
-
-
-## CVE-2025-31125
- Vite is a frontend tooling framework for javascript. Vite exposes content of non-allowed files using ?inline&import or ?raw?import. Only apps explicitly exposing the Vite dev server to the network (using --host or server.host config option) are affected. This vulnerability is fixed in 6.2.4, 6.1.3, 6.0.13, 5.4.16, and 4.5.11.
-
-- [https://github.com/harshgupptaa/Path-Transversal-CVE-2025-31125-](https://github.com/harshgupptaa/Path-Transversal-CVE-2025-31125-) :  ![starts](https://img.shields.io/github/stars/harshgupptaa/Path-Transversal-CVE-2025-31125-.svg) ![forks](https://img.shields.io/github/forks/harshgupptaa/Path-Transversal-CVE-2025-31125-.svg)
+- [https://github.com/SystemVll/CVE-2025-49493](https://github.com/SystemVll/CVE-2025-49493) :  ![starts](https://img.shields.io/github/stars/SystemVll/CVE-2025-49493.svg) ![forks](https://img.shields.io/github/forks/SystemVll/CVE-2025-49493.svg)
 
 
-## CVE-2025-27591
- A privilege escalation vulnerability existed in the Below service prior to v0.9.0 due to the creation of a world-writable directory at /var/log/below. This could have allowed local unprivileged users to escalate to root privileges through symlink attacks that manipulate files such as /etc/shadow.
+## CVE-2025-48827
+ vBulletin 5.0.0 through 5.7.5 and 6.0.0 through 6.0.3 allows unauthenticated users to invoke protected API controllers' methods when running on PHP 8.1 or later, as demonstrated by the /api.php?method=protectedMethod pattern, as exploited in the wild in May 2025.
 
-- [https://github.com/BridgerAlderson/CVE-2025-27591-PoC](https://github.com/BridgerAlderson/CVE-2025-27591-PoC) :  ![starts](https://img.shields.io/github/stars/BridgerAlderson/CVE-2025-27591-PoC.svg) ![forks](https://img.shields.io/github/forks/BridgerAlderson/CVE-2025-27591-PoC.svg)
-
-
-## CVE-2025-24016
- Wazuh is a free and open source platform used for threat prevention, detection, and response. Starting in version 4.4.0 and prior to version 4.9.1, an unsafe deserialization vulnerability allows for remote code execution on Wazuh servers. DistributedAPI parameters are a serialized as JSON and deserialized using `as_wazuh_object` (in `framework/wazuh/core/cluster/common.py`). If an attacker manages to inject an unsanitized dictionary in DAPI request/response, they can forge an unhandled exception (`__unhandled_exc__`) to evaluate arbitrary python code. The vulnerability can be triggered by anybody with API access (compromised dashboard or Wazuh servers in the cluster) or, in certain configurations, even by a compromised agent. Version 4.9.1 contains a fix.
-
-- [https://github.com/guinea-offensive-security/Wazuh-RCE](https://github.com/guinea-offensive-security/Wazuh-RCE) :  ![starts](https://img.shields.io/github/stars/guinea-offensive-security/Wazuh-RCE.svg) ![forks](https://img.shields.io/github/forks/guinea-offensive-security/Wazuh-RCE.svg)
+- [https://github.com/SystemVll/CVE-2025-48827](https://github.com/SystemVll/CVE-2025-48827) :  ![starts](https://img.shields.io/github/stars/SystemVll/CVE-2025-48827.svg) ![forks](https://img.shields.io/github/forks/SystemVll/CVE-2025-48827.svg)
 
 
-## CVE-2025-22457
- A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.6, Ivanti Policy Secure before version 22.7R1.4, and Ivanti ZTA Gateways before version 22.8R2.2 allows a remote unauthenticated attacker to achieve remote code execution.
+## CVE-2025-32463
+ Sudo before 1.9.17p1 allows local users to obtain root access because /etc/nsswitch.conf from a user-controlled directory is used with the --chroot option.
 
-- [https://github.com/B1ack4sh/Blackash-CVE-2025-22457](https://github.com/B1ack4sh/Blackash-CVE-2025-22457) :  ![starts](https://img.shields.io/github/stars/B1ack4sh/Blackash-CVE-2025-22457.svg) ![forks](https://img.shields.io/github/forks/B1ack4sh/Blackash-CVE-2025-22457.svg)
-
-
-## CVE-2025-6058
- The WPBookit plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the image_upload_handle() function hooked via the 'add_booking_type' route in all versions up to, and including, 1.0.4. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
-
-- [https://github.com/JayVillain/Scan-CVE-2025-6058](https://github.com/JayVillain/Scan-CVE-2025-6058) :  ![starts](https://img.shields.io/github/stars/JayVillain/Scan-CVE-2025-6058.svg) ![forks](https://img.shields.io/github/forks/JayVillain/Scan-CVE-2025-6058.svg)
+- [https://github.com/dbarquero/cve-2025-32463-lab](https://github.com/dbarquero/cve-2025-32463-lab) :  ![starts](https://img.shields.io/github/stars/dbarquero/cve-2025-32463-lab.svg) ![forks](https://img.shields.io/github/forks/dbarquero/cve-2025-32463-lab.svg)
 
 
-## CVE-2025-4593
- The WP Register Profile With Shortcode plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 3.6.2 via the 'rp_user_data' shortcode. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive data from user meta like hashed passwords, usernames, and more.
+## CVE-2025-29927
+ Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
 
-- [https://github.com/karenucqki/CVE-2025-4593](https://github.com/karenucqki/CVE-2025-4593) :  ![starts](https://img.shields.io/github/stars/karenucqki/CVE-2025-4593.svg) ![forks](https://img.shields.io/github/forks/karenucqki/CVE-2025-4593.svg)
-
-
-## CVE-2023-30258
- Command Injection vulnerability in MagnusSolution magnusbilling 6.x and 7.x allows remote attackers to run arbitrary commands via unauthenticated HTTP request.
-
-- [https://github.com/AdityaBhatt3010/TryHackMe-Room-Walkthrough-Billing](https://github.com/AdityaBhatt3010/TryHackMe-Room-Walkthrough-Billing) :  ![starts](https://img.shields.io/github/stars/AdityaBhatt3010/TryHackMe-Room-Walkthrough-Billing.svg) ![forks](https://img.shields.io/github/forks/AdityaBhatt3010/TryHackMe-Room-Walkthrough-Billing.svg)
+- [https://github.com/mickhacking/Thank-u-Next](https://github.com/mickhacking/Thank-u-Next) :  ![starts](https://img.shields.io/github/stars/mickhacking/Thank-u-Next.svg) ![forks](https://img.shields.io/github/forks/mickhacking/Thank-u-Next.svg)
 
 
-## CVE-2022-46689
- A race condition was addressed with additional validation. This issue is fixed in tvOS 16.2, macOS Monterey 12.6.2, macOS Ventura 13.1, macOS Big Sur 11.7.2, iOS 15.7.2 and iPadOS 15.7.2, iOS 16.2 and iPadOS 16.2, watchOS 9.2. An app may be able to execute arbitrary code with kernel privileges.
+## CVE-2025-27415
+ Nuxt is an open-source web development framework for Vue.js. Prior to 3.16.0, by sending a crafted HTTP request to a server behind an CDN, it is possible in some circumstances to poison the CDN cache and highly impacts the availability of a site. It is possible to craft a request, such as https://mysite.com/?/_payload.json which will be rendered as JSON. If the CDN in front of a Nuxt site ignores the query string when determining whether to cache a route, then this JSON response could be served to future visitors to the site. An attacker can perform this attack to a vulnerable site in order to make a site unavailable indefinitely. It is also possible in the case where the cache will be reset to make a small script to send a request each X seconds (=caching duration) so that the cache is permanently poisoned making the site completely unavailable. This vulnerability is fixed in 3.16.0.
 
-- [https://github.com/daviszhto/overwrite](https://github.com/daviszhto/overwrite) :  ![starts](https://img.shields.io/github/stars/daviszhto/overwrite.svg) ![forks](https://img.shields.io/github/forks/daviszhto/overwrite.svg)
-
-
-## CVE-2022-30190
-Please see the MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability.
-
-- [https://github.com/cyberdashy/CVE-2022-30190](https://github.com/cyberdashy/CVE-2022-30190) :  ![starts](https://img.shields.io/github/stars/cyberdashy/CVE-2022-30190.svg) ![forks](https://img.shields.io/github/forks/cyberdashy/CVE-2022-30190.svg)
+- [https://github.com/jiseoung/CVE-2025-27415-PoC](https://github.com/jiseoung/CVE-2025-27415-PoC) :  ![starts](https://img.shields.io/github/stars/jiseoung/CVE-2025-27415-PoC.svg) ![forks](https://img.shields.io/github/forks/jiseoung/CVE-2025-27415-PoC.svg)
 
 
-## CVE-2020-35848
- Agentejo Cockpit before 0.11.2 allows NoSQL injection via the Controller/Auth.php newpassword function.
+## CVE-2025-7620
+ The cross-browser document creation component produced by Digitware System Integration Corporation has a Remote Code Execution vulnerability. If a user visits a malicious website while the component is active, remote attackers can cause the system to download and execute arbitrary programs.
 
-- [https://github.com/sabbu143s/CVE_2020_35848](https://github.com/sabbu143s/CVE_2020_35848) :  ![starts](https://img.shields.io/github/stars/sabbu143s/CVE_2020_35848.svg) ![forks](https://img.shields.io/github/forks/sabbu143s/CVE_2020_35848.svg)
+- [https://github.com/Yuri08loveElaina/cve_2025_7620](https://github.com/Yuri08loveElaina/cve_2025_7620) :  ![starts](https://img.shields.io/github/stars/Yuri08loveElaina/cve_2025_7620.svg) ![forks](https://img.shields.io/github/forks/Yuri08loveElaina/cve_2025_7620.svg)
 
 
-## CVE-2017-0143
- The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka "Windows SMB Remote Code Execution Vulnerability." This vulnerability is different from those described in CVE-2017-0144, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
+## CVE-2025-7606
+ A vulnerability classified as critical has been found in code-projects AVL Rooms 1.0. This affects an unknown part of the file /city.php. The manipulation of the argument city leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 
-- [https://github.com/basimnawaz6/EternalBlue-Lab](https://github.com/basimnawaz6/EternalBlue-Lab) :  ![starts](https://img.shields.io/github/stars/basimnawaz6/EternalBlue-Lab.svg) ![forks](https://img.shields.io/github/forks/basimnawaz6/EternalBlue-Lab.svg)
+- [https://github.com/sunhuiHi666/CVE-2025-7606](https://github.com/sunhuiHi666/CVE-2025-7606) :  ![starts](https://img.shields.io/github/stars/sunhuiHi666/CVE-2025-7606.svg) ![forks](https://img.shields.io/github/forks/sunhuiHi666/CVE-2025-7606.svg)
+
+
+## CVE-2025-7605
+ A vulnerability was found in code-projects AVL Rooms 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /profile.php. The manipulation of the argument first_name leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+
+- [https://github.com/sunhuiHi666/CVE-2025-7605](https://github.com/sunhuiHi666/CVE-2025-7605) :  ![starts](https://img.shields.io/github/stars/sunhuiHi666/CVE-2025-7605.svg) ![forks](https://img.shields.io/github/forks/sunhuiHi666/CVE-2025-7605.svg)
+
+
+## CVE-2025-5755
+ A vulnerability was found in SourceCodester Open Source Clinic Management System 1.0. It has been classified as critical. Affected is an unknown function of the file /email_config.php. The manipulation of the argument email leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+
+- [https://github.com/cyberajju/cve-2025-5755](https://github.com/cyberajju/cve-2025-5755) :  ![starts](https://img.shields.io/github/stars/cyberajju/cve-2025-5755.svg) ![forks](https://img.shields.io/github/forks/cyberajju/cve-2025-5755.svg)
+
+
+## CVE-2025-4413
+ The Pixabay Images plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the pixabay_upload function in all versions up to, and including, 3.4. This makes it possible for authenticated attackers, with Author-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+
+- [https://github.com/mheranco/CVE-2025-44136](https://github.com/mheranco/CVE-2025-44136) :  ![starts](https://img.shields.io/github/stars/mheranco/CVE-2025-44136.svg) ![forks](https://img.shields.io/github/forks/mheranco/CVE-2025-44136.svg)
+- [https://github.com/mheranco/CVE-2025-44137](https://github.com/mheranco/CVE-2025-44137) :  ![starts](https://img.shields.io/github/stars/mheranco/CVE-2025-44137.svg) ![forks](https://img.shields.io/github/forks/mheranco/CVE-2025-44137.svg)
+
+
+## CVE-2025-2525
+ The Streamit theme for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'st_Authentication_Controller::edit_profile' function in all versions up to, and including, 4.0.1. This makes it possible for authenticated attackers, with subscriber-level and above permissions, to upload arbitrary files on the affected site's server which may make remote code execution possible.
+
+- [https://github.com/mtjanus106/CVE-2025-25257](https://github.com/mtjanus106/CVE-2025-25257) :  ![starts](https://img.shields.io/github/stars/mtjanus106/CVE-2025-25257.svg) ![forks](https://img.shields.io/github/forks/mtjanus106/CVE-2025-25257.svg)
+
+
+## CVE-2025-1974
+ A security issue was discovered in Kubernetes where under certain conditions, an unauthenticated attacker with access to the pod network can achieve arbitrary code execution in the context of the ingress-nginx controller. This can lead to disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)
+
+- [https://github.com/Armand2002/Exploit-CVE-2025-1974-Lab](https://github.com/Armand2002/Exploit-CVE-2025-1974-Lab) :  ![starts](https://img.shields.io/github/stars/Armand2002/Exploit-CVE-2025-1974-Lab.svg) ![forks](https://img.shields.io/github/forks/Armand2002/Exploit-CVE-2025-1974-Lab.svg)
+
+
+## CVE-2025-0316
+ The WP Directorybox Manager plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.5. This is due to incorrect authentication in the 'wp_dp_enquiry_agent_contact_form_submit_callback' function. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the username.
+
+- [https://github.com/MrPayloadC/CVE-2025-0316-Exploit](https://github.com/MrPayloadC/CVE-2025-0316-Exploit) :  ![starts](https://img.shields.io/github/stars/MrPayloadC/CVE-2025-0316-Exploit.svg) ![forks](https://img.shields.io/github/forks/MrPayloadC/CVE-2025-0316-Exploit.svg)
+
+
+## CVE-2023-5360
+ The Royal Elementor Addons and Templates WordPress plugin before 1.3.79 does not properly validate uploaded files, which could allow unauthenticated users to upload arbitrary files, such as PHP and achieve RCE.
+
+- [https://github.com/X3RX3SSec/CVE-2023-5360](https://github.com/X3RX3SSec/CVE-2023-5360) :  ![starts](https://img.shields.io/github/stars/X3RX3SSec/CVE-2023-5360.svg) ![forks](https://img.shields.io/github/forks/X3RX3SSec/CVE-2023-5360.svg)
 
