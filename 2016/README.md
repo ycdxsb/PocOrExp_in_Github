@@ -185,9 +185,9 @@
 
 - [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
 
-- [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
-
 - [https://github.com/ElnurBDa/CVE-2016-10033](https://github.com/ElnurBDa/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/ElnurBDa/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/ElnurBDa/CVE-2016-10033.svg)
+
+- [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
 
 - [https://github.com/CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/CAOlvchonger/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/CAOlvchonger/CVE-2016-10033.svg)
 
@@ -676,6 +676,8 @@
 
 - [https://github.com/bassitone/OpenSSH-User-Enumeration](https://github.com/bassitone/OpenSSH-User-Enumeration) :  ![starts](https://img.shields.io/github/stars/bassitone/OpenSSH-User-Enumeration.svg) ![forks](https://img.shields.io/github/forks/bassitone/OpenSSH-User-Enumeration.svg)
 
+- [https://github.com/KiPhuong/cve-2016-6210](https://github.com/KiPhuong/cve-2016-6210) :  ![starts](https://img.shields.io/github/stars/KiPhuong/cve-2016-6210.svg) ![forks](https://img.shields.io/github/forks/KiPhuong/cve-2016-6210.svg)
+
 - [https://github.com/coolbabayaga/CVE-2016-6210](https://github.com/coolbabayaga/CVE-2016-6210) :  ![starts](https://img.shields.io/github/stars/coolbabayaga/CVE-2016-6210.svg) ![forks](https://img.shields.io/github/forks/coolbabayaga/CVE-2016-6210.svg)
 
 - [https://github.com/nicoleman0/CVE-2016-6210-OpenSSHd-7.2p2](https://github.com/nicoleman0/CVE-2016-6210-OpenSSHd-7.2p2) :  ![starts](https://img.shields.io/github/stars/nicoleman0/CVE-2016-6210-OpenSSHd-7.2p2.svg) ![forks](https://img.shields.io/github/forks/nicoleman0/CVE-2016-6210-OpenSSHd-7.2p2.svg)
@@ -871,9 +873,9 @@
 
 - [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
 
-- [https://github.com/h1n4mx0/Research-CVE-2016-5195](https://github.com/h1n4mx0/Research-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/h1n4mx0/Research-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/h1n4mx0/Research-CVE-2016-5195.svg)
-
 - [https://github.com/EDLLT/CVE-2016-5195-master](https://github.com/EDLLT/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/EDLLT/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/EDLLT/CVE-2016-5195-master.svg)
+
+- [https://github.com/h1n4mx0/Research-CVE-2016-5195](https://github.com/h1n4mx0/Research-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/h1n4mx0/Research-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/h1n4mx0/Research-CVE-2016-5195.svg)
 
 - [https://github.com/xpcmdshell/derpyc0w](https://github.com/xpcmdshell/derpyc0w) :  ![starts](https://img.shields.io/github/stars/xpcmdshell/derpyc0w.svg) ![forks](https://img.shields.io/github/forks/xpcmdshell/derpyc0w.svg)
 
@@ -1139,6 +1141,13 @@
 
 
 - [https://github.com/kswzzl/CVE-2016-3861](https://github.com/kswzzl/CVE-2016-3861) :  ![starts](https://img.shields.io/github/stars/kswzzl/CVE-2016-3861.svg) ![forks](https://img.shields.io/github/forks/kswzzl/CVE-2016-3861.svg)
+
+## CVE-2016-3749
+ server/LockSettingsService.java in LockSettingsService in Android 6.x before 2016-07-01 allows attackers to modify the screen-lock password or pattern via a crafted application, aka internal bug 28163930.
+
+
+
+- [https://github.com/nirdev/CVE-2016-3749-PoC](https://github.com/nirdev/CVE-2016-3749-PoC) :  ![starts](https://img.shields.io/github/stars/nirdev/CVE-2016-3749-PoC.svg) ![forks](https://img.shields.io/github/forks/nirdev/CVE-2016-3749-PoC.svg)
 
 ## CVE-2016-3714
  The (1) EPHEMERAL, (2) HTTPS, (3) MVG, (4) MSL, (5) TEXT, (6) SHOW, (7) WIN, and (8) PLT coders in ImageMagick before 6.9.3-10 and 7.x before 7.0.1-1 allow remote attackers to execute arbitrary code via shell metacharacters in a crafted image, aka "ImageTragick."
