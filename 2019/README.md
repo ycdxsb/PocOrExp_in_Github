@@ -2753,9 +2753,9 @@ use after free.
 
 
 
-- [https://github.com/KISH84172/CVE-2019-11933](https://github.com/KISH84172/CVE-2019-11933) :  ![starts](https://img.shields.io/github/stars/KISH84172/CVE-2019-11933.svg) ![forks](https://img.shields.io/github/forks/KISH84172/CVE-2019-11933.svg)
-
 - [https://github.com/NatleoJ/CVE-2019-11933](https://github.com/NatleoJ/CVE-2019-11933) :  ![starts](https://img.shields.io/github/stars/NatleoJ/CVE-2019-11933.svg) ![forks](https://img.shields.io/github/forks/NatleoJ/CVE-2019-11933.svg)
+
+- [https://github.com/KISH84172/CVE-2019-11933](https://github.com/KISH84172/CVE-2019-11933) :  ![starts](https://img.shields.io/github/stars/KISH84172/CVE-2019-11933.svg) ![forks](https://img.shields.io/github/forks/KISH84172/CVE-2019-11933.svg)
 
 ## CVE-2019-11932
  A double free vulnerability in the DDGifSlurp function in decoding.c in the android-gif-drawable library before version 1.2.18, as used in WhatsApp for Android before version 2.19.244 and many other Android applications, allows remote attackers to execute arbitrary code or cause a denial of service when the library is used to parse a specially crafted GIF image.
@@ -3408,9 +3408,9 @@ use after free.
 
 - [https://github.com/VoyagerOnne/Exim-CVE-2019-10149](https://github.com/VoyagerOnne/Exim-CVE-2019-10149) :  ![starts](https://img.shields.io/github/stars/VoyagerOnne/Exim-CVE-2019-10149.svg) ![forks](https://img.shields.io/github/forks/VoyagerOnne/Exim-CVE-2019-10149.svg)
 
-- [https://github.com/uyerr/PoC_CVE-2019-10149--rce](https://github.com/uyerr/PoC_CVE-2019-10149--rce) :  ![starts](https://img.shields.io/github/stars/uyerr/PoC_CVE-2019-10149--rce.svg) ![forks](https://img.shields.io/github/forks/uyerr/PoC_CVE-2019-10149--rce.svg)
-
 - [https://github.com/rahmadsandy/EXIM-4.87-CVE-2019-10149](https://github.com/rahmadsandy/EXIM-4.87-CVE-2019-10149) :  ![starts](https://img.shields.io/github/stars/rahmadsandy/EXIM-4.87-CVE-2019-10149.svg) ![forks](https://img.shields.io/github/forks/rahmadsandy/EXIM-4.87-CVE-2019-10149.svg)
+
+- [https://github.com/uyerr/PoC_CVE-2019-10149--rce](https://github.com/uyerr/PoC_CVE-2019-10149--rce) :  ![starts](https://img.shields.io/github/stars/uyerr/PoC_CVE-2019-10149--rce.svg) ![forks](https://img.shields.io/github/forks/uyerr/PoC_CVE-2019-10149--rce.svg)
 
 ## CVE-2019-10092
  In Apache HTTP Server 2.4.0-2.4.39, a limited cross-site scripting issue was reported affecting the mod_proxy error page. An attacker could cause the link on the error page to be malformed and instead point to a page of their choice. This would only be exploitable where a server was set up with proxying enabled but was misconfigured in such a way that the Proxy Error page was displayed.
@@ -3795,9 +3795,9 @@ use after free.
 
 - [https://github.com/Kalidas-7/CVE-2019-9053](https://github.com/Kalidas-7/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/Kalidas-7/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/Kalidas-7/CVE-2019-9053.svg)
 
-- [https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3](https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3) :  ![starts](https://img.shields.io/github/stars/pedrojosenavasperez/CVE-2019-9053-Python3.svg) ![forks](https://img.shields.io/github/forks/pedrojosenavasperez/CVE-2019-9053-Python3.svg)
-
 - [https://github.com/kaizoku73/CVE-2019-9053](https://github.com/kaizoku73/CVE-2019-9053) :  ![starts](https://img.shields.io/github/stars/kaizoku73/CVE-2019-9053.svg) ![forks](https://img.shields.io/github/forks/kaizoku73/CVE-2019-9053.svg)
+
+- [https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3](https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3) :  ![starts](https://img.shields.io/github/stars/pedrojosenavasperez/CVE-2019-9053-Python3.svg) ![forks](https://img.shields.io/github/forks/pedrojosenavasperez/CVE-2019-9053-Python3.svg)
 
 - [https://github.com/Hackheart-tech/-exploit-lab](https://github.com/Hackheart-tech/-exploit-lab) :  ![starts](https://img.shields.io/github/stars/Hackheart-tech/-exploit-lab.svg) ![forks](https://img.shields.io/github/forks/Hackheart-tech/-exploit-lab.svg)
 
@@ -4247,6 +4247,13 @@ use after free.
 
 - [https://github.com/JinBean/CVE-Extension](https://github.com/JinBean/CVE-Extension) :  ![starts](https://img.shields.io/github/stars/JinBean/CVE-Extension.svg) ![forks](https://img.shields.io/github/forks/JinBean/CVE-Extension.svg)
 
+## CVE-2019-7139
+ An unauthenticated user can execute SQL statements that allow arbitrary read access to the underlying database, which causes sensitive data leakage. This issue is fixed in Magento 2.1 prior to 2.1.18, Magento 2.2 prior to 2.2.9, Magento 2.3 prior to 2.3.2.
+
+
+
+- [https://github.com/adhammedhat111/Magento-CVE-2019-7139-SQLi-PoC](https://github.com/adhammedhat111/Magento-CVE-2019-7139-SQLi-PoC) :  ![starts](https://img.shields.io/github/stars/adhammedhat111/Magento-CVE-2019-7139-SQLi-PoC.svg) ![forks](https://img.shields.io/github/forks/adhammedhat111/Magento-CVE-2019-7139-SQLi-PoC.svg)
+
 ## CVE-2019-6977
  gdImageColorMatch in gd_color_match.c in the GD Graphics Library (aka LibGD) 2.2.5, as used in the imagecolormatch function in PHP before 5.6.40, 7.x before 7.1.26, 7.2.x before 7.2.14, and 7.3.x before 7.3.1, has a heap-based buffer overflow. This can be exploited by an attacker who is able to trigger imagecolormatch calls with crafted image data.
 
@@ -4340,7 +4347,7 @@ use after free.
 - [https://github.com/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation](https://github.com/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/CVE-2019_6447-ES-File-Explorer-Exploitation.svg)
 
 ## CVE-2019-6446
- An issue was discovered in NumPy 1.16.0 and earlier. It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call. NOTE: third parties dispute this issue because it is  a behavior that might have legitimate applications in (for example)  loading serialized Python object arrays from trusted and authenticated  sources
+ An issue was discovered in NumPy before 1.16.3. It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call. NOTE: third parties dispute this issue because it is a behavior that might have legitimate applications in (for example) loading serialized Python object arrays from trusted and authenticated sources.
 
 
 
@@ -4591,9 +4598,9 @@ use after free.
 
 - [https://github.com/yyqs2008/CVE-2019-5736-PoC-2](https://github.com/yyqs2008/CVE-2019-5736-PoC-2) :  ![starts](https://img.shields.io/github/stars/yyqs2008/CVE-2019-5736-PoC-2.svg) ![forks](https://img.shields.io/github/forks/yyqs2008/CVE-2019-5736-PoC-2.svg)
 
-- [https://github.com/fahmifj/Docker-breakout-runc](https://github.com/fahmifj/Docker-breakout-runc) :  ![starts](https://img.shields.io/github/stars/fahmifj/Docker-breakout-runc.svg) ![forks](https://img.shields.io/github/forks/fahmifj/Docker-breakout-runc.svg)
-
 - [https://github.com/sonyavalo/CVE-2019-5736-Dockerattack-and-security-mechanism](https://github.com/sonyavalo/CVE-2019-5736-Dockerattack-and-security-mechanism) :  ![starts](https://img.shields.io/github/stars/sonyavalo/CVE-2019-5736-Dockerattack-and-security-mechanism.svg) ![forks](https://img.shields.io/github/forks/sonyavalo/CVE-2019-5736-Dockerattack-and-security-mechanism.svg)
+
+- [https://github.com/fahmifj/Docker-breakout-runc](https://github.com/fahmifj/Docker-breakout-runc) :  ![starts](https://img.shields.io/github/stars/fahmifj/Docker-breakout-runc.svg) ![forks](https://img.shields.io/github/forks/fahmifj/Docker-breakout-runc.svg)
 
 ## CVE-2019-5700
  NVIDIA Shield TV Experience prior to v8.0.1, NVIDIA Tegra software contains a vulnerability in the bootloader, where it does not validate the fields of the boot image, which may lead to code execution, denial of service, escalation of privileges, and information disclosure.
@@ -5097,9 +5104,9 @@ use after free.
 
 - [https://github.com/ianxtianxt/CVE-2019-2725](https://github.com/ianxtianxt/CVE-2019-2725) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2019-2725.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2019-2725.svg)
 
-- [https://github.com/leerina/CVE-2019-2725](https://github.com/leerina/CVE-2019-2725) :  ![starts](https://img.shields.io/github/stars/leerina/CVE-2019-2725.svg) ![forks](https://img.shields.io/github/forks/leerina/CVE-2019-2725.svg)
-
 - [https://github.com/welove88888/CVE-2019-2725](https://github.com/welove88888/CVE-2019-2725) :  ![starts](https://img.shields.io/github/stars/welove88888/CVE-2019-2725.svg) ![forks](https://img.shields.io/github/forks/welove88888/CVE-2019-2725.svg)
+
+- [https://github.com/leerina/CVE-2019-2725](https://github.com/leerina/CVE-2019-2725) :  ![starts](https://img.shields.io/github/stars/leerina/CVE-2019-2725.svg) ![forks](https://img.shields.io/github/forks/leerina/CVE-2019-2725.svg)
 
 - [https://github.com/GGyao/weblogic_2019_2725_wls_batch](https://github.com/GGyao/weblogic_2019_2725_wls_batch) :  ![starts](https://img.shields.io/github/stars/GGyao/weblogic_2019_2725_wls_batch.svg) ![forks](https://img.shields.io/github/forks/GGyao/weblogic_2019_2725_wls_batch.svg)
 
@@ -5301,9 +5308,9 @@ use after free.
 
 - [https://github.com/jra89/CVE-2019-19654](https://github.com/jra89/CVE-2019-19654) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19654.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19654.svg)
 
-- [https://github.com/jra89/CVE-2019-19652](https://github.com/jra89/CVE-2019-19652) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19652.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19652.svg)
-
 - [https://github.com/jra89/CVE-2019-19653](https://github.com/jra89/CVE-2019-19653) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19653.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19653.svg)
+
+- [https://github.com/jra89/CVE-2019-19652](https://github.com/jra89/CVE-2019-19652) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19652.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19652.svg)
 
 ## CVE-2019-1963
  A vulnerability in the Simple Network Management Protocol (SNMP) input packet processor of Cisco FXOS Software and Cisco NX-OS Software could allow an authenticated, remote attacker to cause the SNMP application on an affected device to restart unexpectedly. The vulnerability is due to improper validation of Abstract Syntax Notation One (ASN.1)-encoded variables in SNMP packets. An attacker could exploit this vulnerability by sending a crafted SNMP packet to the SNMP daemon on the affected device. A successful exploit could allow the attacker to cause the SNMP application to restart multiple times, leading to a system-level restart and a denial of service (DoS) condition.
@@ -5921,9 +5928,9 @@ The security update addresses the vulnerability by correcting how Hyper-V valida
 
 - [https://github.com/haishanzheng/CVE-2019-0708-generate-hosts](https://github.com/haishanzheng/CVE-2019-0708-generate-hosts) :  ![starts](https://img.shields.io/github/stars/haishanzheng/CVE-2019-0708-generate-hosts.svg) ![forks](https://img.shields.io/github/forks/haishanzheng/CVE-2019-0708-generate-hosts.svg)
 
-- [https://github.com/ttsite/CVE-2019-0708-](https://github.com/ttsite/CVE-2019-0708-) :  ![starts](https://img.shields.io/github/stars/ttsite/CVE-2019-0708-.svg) ![forks](https://img.shields.io/github/forks/ttsite/CVE-2019-0708-.svg)
-
 - [https://github.com/infenet/CVE-2019-0708](https://github.com/infenet/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/infenet/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/infenet/CVE-2019-0708.svg)
+
+- [https://github.com/ttsite/CVE-2019-0708-](https://github.com/ttsite/CVE-2019-0708-) :  ![starts](https://img.shields.io/github/stars/ttsite/CVE-2019-0708-.svg) ![forks](https://img.shields.io/github/forks/ttsite/CVE-2019-0708-.svg)
 
 - [https://github.com/ShadowBrokers-ExploitLeak/CVE-2019-0708](https://github.com/ShadowBrokers-ExploitLeak/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ShadowBrokers-ExploitLeak/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ShadowBrokers-ExploitLeak/CVE-2019-0708.svg)
 
@@ -5967,13 +5974,13 @@ The security update addresses the vulnerability by correcting how Hyper-V valida
 
 - [https://github.com/gildaaa/CVE-2019-0708](https://github.com/gildaaa/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/gildaaa/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/gildaaa/CVE-2019-0708.svg)
 
+- [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
+
 - [https://github.com/JasonLOU/CVE-2019-0708](https://github.com/JasonLOU/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/JasonLOU/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/JasonLOU/CVE-2019-0708.svg)
 
 - [https://github.com/ttsite/CVE-2019-0708](https://github.com/ttsite/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ttsite/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ttsite/CVE-2019-0708.svg)
 
 - [https://github.com/wdfcc/CVE-2019-0708](https://github.com/wdfcc/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/wdfcc/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/wdfcc/CVE-2019-0708.svg)
-
-- [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
 
 - [https://github.com/distance-vector/CVE-2019-0708](https://github.com/distance-vector/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/distance-vector/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/distance-vector/CVE-2019-0708.svg)
 
@@ -5981,9 +5988,9 @@ The security update addresses the vulnerability by correcting how Hyper-V valida
 
 - [https://github.com/sbkcbig/CVE-2019-0708-EXPloit](https://github.com/sbkcbig/CVE-2019-0708-EXPloit) :  ![starts](https://img.shields.io/github/stars/sbkcbig/CVE-2019-0708-EXPloit.svg) ![forks](https://img.shields.io/github/forks/sbkcbig/CVE-2019-0708-EXPloit.svg)
 
-- [https://github.com/0xFlag/CVE-2019-0708-test](https://github.com/0xFlag/CVE-2019-0708-test) :  ![starts](https://img.shields.io/github/stars/0xFlag/CVE-2019-0708-test.svg) ![forks](https://img.shields.io/github/forks/0xFlag/CVE-2019-0708-test.svg)
-
 - [https://github.com/herhe/CVE-2019-0708poc](https://github.com/herhe/CVE-2019-0708poc) :  ![starts](https://img.shields.io/github/stars/herhe/CVE-2019-0708poc.svg) ![forks](https://img.shields.io/github/forks/herhe/CVE-2019-0708poc.svg)
+
+- [https://github.com/0xFlag/CVE-2019-0708-test](https://github.com/0xFlag/CVE-2019-0708-test) :  ![starts](https://img.shields.io/github/stars/0xFlag/CVE-2019-0708-test.svg) ![forks](https://img.shields.io/github/forks/0xFlag/CVE-2019-0708-test.svg)
 
 - [https://github.com/nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI) :  ![starts](https://img.shields.io/github/stars/nochemax/bLuEkEeP-GUI.svg) ![forks](https://img.shields.io/github/forks/nochemax/bLuEkEeP-GUI.svg)
 
