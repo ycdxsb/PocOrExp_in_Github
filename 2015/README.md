@@ -5,6 +5,13 @@
 
 - [https://github.com/codeskipper/python-patrol](https://github.com/codeskipper/python-patrol) :  ![starts](https://img.shields.io/github/stars/codeskipper/python-patrol.svg) ![forks](https://img.shields.io/github/forks/codeskipper/python-patrol.svg)
 
+## CVE-2015-10137
+ The Website Contact Form With File Upload plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'upload_file()' function in versions up to, and including, 1.3.4. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.
+
+
+
+- [https://github.com/Kai-One001/-CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-File-Upload-1.3.4](https://github.com/Kai-One001/-CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-File-Upload-1.3.4) :  ![starts](https://img.shields.io/github/stars/Kai-One001/-CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-File-Upload-1.3.4.svg) ![forks](https://img.shields.io/github/forks/Kai-One001/-CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-File-Upload-1.3.4.svg)
+
 ## CVE-2015-10034
  A vulnerability has been found in j-nowak workout-organizer and classified as critical. This vulnerability affects unknown code. The manipulation leads to sql injection. The patch is identified as 13cd6c3d1210640bfdb39872b2bb3597aa991279. It is recommended to apply a patch to fix this issue. VDB-217714 is the identifier assigned to this vulnerability.
 
