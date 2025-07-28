@@ -5,6 +5,8 @@
 
 - [https://github.com/c0r0n3r/dheater](https://github.com/c0r0n3r/dheater) :  ![starts](https://img.shields.io/github/stars/c0r0n3r/dheater.svg) ![forks](https://img.shields.io/github/forks/c0r0n3r/dheater.svg)
 
+- [https://github.com/itmaniac/dheat_dos_attack_poc](https://github.com/itmaniac/dheat_dos_attack_poc) :  ![starts](https://img.shields.io/github/stars/itmaniac/dheat_dos_attack_poc.svg) ![forks](https://img.shields.io/github/forks/itmaniac/dheat_dos_attack_poc.svg)
+
 ## CVE-2002-2420
  site_searcher.cgi in Super Site Searcher allows remote attackers to execute arbitrary commands via shell metacharacters in the page parameter.
 
