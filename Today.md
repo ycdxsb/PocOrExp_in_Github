@@ -1,86 +1,116 @@
-# Update 2025-07-29
+# Update 2025-07-30
 ## CVE-2025-53770
 Microsoft is preparing and fully testing a comprehensive update to address this vulnerability.  In the meantime, please make sure that the mitigation provided in this CVE documentation is in place so that you are protected from exploitation.
 
-- [https://github.com/3a7/CVE-2025-53770](https://github.com/3a7/CVE-2025-53770) :  ![starts](https://img.shields.io/github/stars/3a7/CVE-2025-53770.svg) ![forks](https://img.shields.io/github/forks/3a7/CVE-2025-53770.svg)
-- [https://github.com/bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE](https://github.com/bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE) :  ![starts](https://img.shields.io/github/stars/bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE.svg) ![forks](https://img.shields.io/github/forks/bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE.svg)
+- [https://github.com/daryllundy/CVE-2025-53770](https://github.com/daryllundy/CVE-2025-53770) :  ![starts](https://img.shields.io/github/stars/daryllundy/CVE-2025-53770.svg) ![forks](https://img.shields.io/github/forks/daryllundy/CVE-2025-53770.svg)
+- [https://github.com/r3xbugbounty/CVE-2025-53770](https://github.com/r3xbugbounty/CVE-2025-53770) :  ![starts](https://img.shields.io/github/stars/r3xbugbounty/CVE-2025-53770.svg) ![forks](https://img.shields.io/github/forks/r3xbugbounty/CVE-2025-53770.svg)
+- [https://github.com/0x-crypt/CVE-2025-53770-Scanner](https://github.com/0x-crypt/CVE-2025-53770-Scanner) :  ![starts](https://img.shields.io/github/stars/0x-crypt/CVE-2025-53770-Scanner.svg) ![forks](https://img.shields.io/github/forks/0x-crypt/CVE-2025-53770-Scanner.svg)
 
 
-## CVE-2025-47812
- In Wing FTP Server before 7.4.4. the user and admin web interfaces mishandle '\0' bytes, ultimately allowing injection of arbitrary Lua code into user session files. This can be used to execute arbitrary system commands with the privileges of the FTP service (root or SYSTEM by default). This is thus a remote code execution vulnerability that guarantees a total server compromise. This is also exploitable via anonymous FTP accounts.
+## CVE-2025-48384
+ Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals. When reading a config value, Git strips any trailing carriage return and line feed (CRLF). When writing a config entry, values with a trailing CR are not quoted, causing the CR to be lost when the config is later read. When initializing a submodule, if the submodule path contains a trailing CR, the altered path is read resulting in the submodule being checked out to an incorrect location. If a symlink exists that points the altered path to the submodule hooks directory, and the submodule contains an executable post-checkout hook, the script may be unintentionally executed after checkout. This vulnerability is fixed in v2.43.7, v2.44.4, v2.45.4, v2.46.4, v2.47.3, v2.48.2, v2.49.1, and v2.50.1.
 
-- [https://github.com/r0otk3r/CVE-2025-47812](https://github.com/r0otk3r/CVE-2025-47812) :  ![starts](https://img.shields.io/github/stars/r0otk3r/CVE-2025-47812.svg) ![forks](https://img.shields.io/github/forks/r0otk3r/CVE-2025-47812.svg)
-
-
-## CVE-2025-32433
- Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.
-
-- [https://github.com/platsecurity/CVE-2025-32433](https://github.com/platsecurity/CVE-2025-32433) :  ![starts](https://img.shields.io/github/stars/platsecurity/CVE-2025-32433.svg) ![forks](https://img.shields.io/github/forks/platsecurity/CVE-2025-32433.svg)
+- [https://github.com/rtefx/CVE-2025-48384](https://github.com/rtefx/CVE-2025-48384) :  ![starts](https://img.shields.io/github/stars/rtefx/CVE-2025-48384.svg) ![forks](https://img.shields.io/github/forks/rtefx/CVE-2025-48384.svg)
 
 
-## CVE-2025-29927
- Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
+## CVE-2025-34077
+ An authentication bypass vulnerability exists in the WordPress Pie Register plugin ≤ 3.7.1.4 that allows unauthenticated attackers to impersonate arbitrary users by submitting a crafted POST request to the login endpoint. By setting social_site=true and manipulating the user_id_social_site parameter, an attacker can generate a valid WordPress session cookie for any user ID, including administrators. Once authenticated, the attacker may exploit plugin upload functionality to install a malicious plugin containing arbitrary PHP code, resulting in remote code execution on the underlying server.
 
-- [https://github.com/AventurineJun/CVE-2025-29927-Research](https://github.com/AventurineJun/CVE-2025-29927-Research) :  ![starts](https://img.shields.io/github/stars/AventurineJun/CVE-2025-29927-Research.svg) ![forks](https://img.shields.io/github/forks/AventurineJun/CVE-2025-29927-Research.svg)
-- [https://github.com/sahbaazansari/CVE-2025-29927](https://github.com/sahbaazansari/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/sahbaazansari/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/sahbaazansari/CVE-2025-29927.svg)
-
-
-## CVE-2025-8220
- A vulnerability classified as critical has been found in Engeman Web up to 12.0.0.1. Affected is an unknown function of the file /Login/RecoveryPass of the component Password Recovery Page. The manipulation of the argument LanguageCombobox leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
-
-- [https://github.com/m3m0o/engeman-web-language-combobox-sqli](https://github.com/m3m0o/engeman-web-language-combobox-sqli) :  ![starts](https://img.shields.io/github/stars/m3m0o/engeman-web-language-combobox-sqli.svg) ![forks](https://img.shields.io/github/forks/m3m0o/engeman-web-language-combobox-sqli.svg)
+- [https://github.com/0xgh057r3c0n/CVE-2025-34077](https://github.com/0xgh057r3c0n/CVE-2025-34077) :  ![starts](https://img.shields.io/github/stars/0xgh057r3c0n/CVE-2025-34077.svg) ![forks](https://img.shields.io/github/forks/0xgh057r3c0n/CVE-2025-34077.svg)
 
 
-## CVE-2025-7404
- Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in Calibre Web, Autocaliweb allows Blind OS Command Injection.This issue affects Calibre Web: 0.6.24 (Nicolette); Autocaliweb: from 0.7.0 before 0.7.1.
+## CVE-2025-32462
+ Sudo before 1.9.17p1, when used with a sudoers file that specifies a host that is neither the current host nor ALL, allows listed users to execute commands on unintended machines.
 
-- [https://github.com/mind2hex/CVE-2025-7404-CalibreWeb-0.6.24-BlindCommandInjection](https://github.com/mind2hex/CVE-2025-7404-CalibreWeb-0.6.24-BlindCommandInjection) :  ![starts](https://img.shields.io/github/stars/mind2hex/CVE-2025-7404-CalibreWeb-0.6.24-BlindCommandInjection.svg) ![forks](https://img.shields.io/github/forks/mind2hex/CVE-2025-7404-CalibreWeb-0.6.24-BlindCommandInjection.svg)
-
-
-## CVE-2025-6998
- ReDoS in strip_whitespaces() function in cps/string_helper.py in Calibre Web and Autocaliweb allows unauthenticated remote attackers to cause denial of service via specially crafted username parameter that triggers catastrophic backtracking during login. This issue affects Calibre Web: 0.6.24 (Nicolette); Autocaliweb: from 0.7.0 before 0.7.1.
-
-- [https://github.com/mind2hex/CVE-2025-6998-CalibreWeb-0.6.24-ReDoS](https://github.com/mind2hex/CVE-2025-6998-CalibreWeb-0.6.24-ReDoS) :  ![starts](https://img.shields.io/github/stars/mind2hex/CVE-2025-6998-CalibreWeb-0.6.24-ReDoS.svg) ![forks](https://img.shields.io/github/forks/mind2hex/CVE-2025-6998-CalibreWeb-0.6.24-ReDoS.svg)
+- [https://github.com/j3r1ch0123/CVE-2025-32462](https://github.com/j3r1ch0123/CVE-2025-32462) :  ![starts](https://img.shields.io/github/stars/j3r1ch0123/CVE-2025-32462.svg) ![forks](https://img.shields.io/github/forks/j3r1ch0123/CVE-2025-32462.svg)
 
 
-## CVE-2024-4301
- N-Reporter and N-Cloud, products of the N-Partner, have an OS Command Injection vulnerability. Remote attackers with normal user privilege can execute arbitrary system commands by manipulating user inputs on a specific page.
+## CVE-2025-32429
+ XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. In versions 9.4-rc-1 through 16.10.5 and 17.0.0-rc-1 through 17.2.2, it's possible for anyone to inject SQL using the parameter sort of the getdeleteddocuments.vm. It's injected as is as an ORDER BY value. This is fixed in versions 16.10.6 and 17.3.0-rc-1.
 
-- [https://github.com/joaosilva21/CVE-2024-43018](https://github.com/joaosilva21/CVE-2024-43018) :  ![starts](https://img.shields.io/github/stars/joaosilva21/CVE-2024-43018.svg) ![forks](https://img.shields.io/github/forks/joaosilva21/CVE-2024-43018.svg)
-
-
-## CVE-2023-42931
- The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.6.3, macOS Sonoma 14.2, macOS Monterey 12.7.2. A process may gain admin privileges without proper authentication.
-
-- [https://github.com/tageniu/CVE-2023-42931](https://github.com/tageniu/CVE-2023-42931) :  ![starts](https://img.shields.io/github/stars/tageniu/CVE-2023-42931.svg) ![forks](https://img.shields.io/github/forks/tageniu/CVE-2023-42931.svg)
+- [https://github.com/imbas007/CVE-2025-32429-Checker](https://github.com/imbas007/CVE-2025-32429-Checker) :  ![starts](https://img.shields.io/github/stars/imbas007/CVE-2025-32429-Checker.svg) ![forks](https://img.shields.io/github/forks/imbas007/CVE-2025-32429-Checker.svg)
 
 
-## CVE-2023-34362
- In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.4 (14.0.4), 2022.1.5 (14.1.5), and 2023.0.1 (15.0.1), a SQL injection vulnerability has been found in the MOVEit Transfer web application that could allow an unauthenticated attacker to gain access to MOVEit Transfer's database. Depending on the database engine being used (MySQL, Microsoft SQL Server, or Azure SQL), an attacker may be able to infer information about the structure and contents of the database, and execute SQL statements that alter or delete database elements. NOTE: this is exploited in the wild in May and June 2023; exploitation of unpatched systems can occur via HTTP or HTTPS. All versions (e.g., 2020.0 and 2019x) before the five explicitly mentioned versions are affected, including older unsupported versions.
+## CVE-2025-24813
+Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
 
-- [https://github.com/Naveenbana5250/CVE-2023-34362-Defense-Package](https://github.com/Naveenbana5250/CVE-2023-34362-Defense-Package) :  ![starts](https://img.shields.io/github/stars/Naveenbana5250/CVE-2023-34362-Defense-Package.svg) ![forks](https://img.shields.io/github/forks/Naveenbana5250/CVE-2023-34362-Defense-Package.svg)
-
-
-## CVE-2023-23752
- An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.
-
-- [https://github.com/revkami/CVE-2023-23752-Joomla-v4.2.8](https://github.com/revkami/CVE-2023-23752-Joomla-v4.2.8) :  ![starts](https://img.shields.io/github/stars/revkami/CVE-2023-23752-Joomla-v4.2.8.svg) ![forks](https://img.shields.io/github/forks/revkami/CVE-2023-23752-Joomla-v4.2.8.svg)
+- [https://github.com/Shivshantp/CVE-2025-24813](https://github.com/Shivshantp/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/Shivshantp/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/Shivshantp/CVE-2025-24813.svg)
 
 
-## CVE-2022-39299
- Passport-SAML is a SAML 2.0 authentication provider for Passport, the Node.js authentication library. A remote attacker may be able to bypass SAML authentication on a website using passport-saml. A successful attack requires that the attacker is in possession of an arbitrary IDP signed XML element. Depending on the IDP used, fully unauthenticated attacks (e.g without access to a valid user) might also be feasible if generation of a signed message can be triggered. Users should upgrade to passport-saml version 3.2.2 or newer. The issue was also present in the beta releases of `node-saml` before version 4.0.0-beta.5. If you cannot upgrade, disabling SAML authentication may be done as a workaround.
+## CVE-2025-8191
+ A vulnerability, which was classified as problematic, was found in macrozheng mall up to 1.0.3. Affected is an unknown function of the file /swagger-ui/index.html of the component Swagger UI. The manipulation of the argument configUrl leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor deleted the GitHub issue for this vulnerability without any explanation. Afterwards the vendor was contacted early about this disclosure via email but did not respond in any way.
 
-- [https://github.com/AventurineJun/CVE-2022-39299-Research](https://github.com/AventurineJun/CVE-2022-39299-Research) :  ![starts](https://img.shields.io/github/stars/AventurineJun/CVE-2022-39299-Research.svg) ![forks](https://img.shields.io/github/forks/AventurineJun/CVE-2022-39299-Research.svg)
-
-
-## CVE-2021-36260
- A command injection vulnerability in the web server of some Hikvision product. Due to the insufficient input validation, attacker can exploit the vulnerability to launch a command injection attack by sending some messages with malicious commands.
-
-- [https://github.com/tamim1089/HikvisionExploiter](https://github.com/tamim1089/HikvisionExploiter) :  ![starts](https://img.shields.io/github/stars/tamim1089/HikvisionExploiter.svg) ![forks](https://img.shields.io/github/forks/tamim1089/HikvisionExploiter.svg)
+- [https://github.com/byteReaper77/CVE-2025-8191](https://github.com/byteReaper77/CVE-2025-8191) :  ![starts](https://img.shields.io/github/stars/byteReaper77/CVE-2025-8191.svg) ![forks](https://img.shields.io/github/forks/byteReaper77/CVE-2025-8191.svg)
 
 
-## CVE-2002-20001
- The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the client side) to send arbitrary numbers that are actually not public keys, and trigger expensive server-side DHE modular-exponentiation calculations, aka a D(HE)at or D(HE)ater attack. The client needs very little CPU resources and network bandwidth. The attack may be more disruptive in cases where a client can require a server to select its largest supported key size. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE.
+## CVE-2025-5086
+ A deserialization of untrusted data vulnerability affecting DELMIA Apriso from Release 2020 through Release 2025 could lead to a remote code execution.
 
-- [https://github.com/itmaniac/dheat_dos_attack_poc](https://github.com/itmaniac/dheat_dos_attack_poc) :  ![starts](https://img.shields.io/github/stars/itmaniac/dheat_dos_attack_poc.svg) ![forks](https://img.shields.io/github/forks/itmaniac/dheat_dos_attack_poc.svg)
+- [https://github.com/SacX-7/CVE-2025-50866](https://github.com/SacX-7/CVE-2025-50866) :  ![starts](https://img.shields.io/github/stars/SacX-7/CVE-2025-50866.svg) ![forks](https://img.shields.io/github/forks/SacX-7/CVE-2025-50866.svg)
+
+
+## CVE-2025-2294
+ The Kubio AI Page Builder plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.5.1 via thekubio_hybrid_theme_load_template function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
+
+- [https://github.com/r0otk3r/CVE-2025-2294](https://github.com/r0otk3r/CVE-2025-2294) :  ![starts](https://img.shields.io/github/stars/r0otk3r/CVE-2025-2294.svg) ![forks](https://img.shields.io/github/forks/r0otk3r/CVE-2025-2294.svg)
+
+
+## CVE-2024-38475
+Substitutions in server context that use a backreferences or variables as the first segment of the substitution are affected.  Some unsafe RewiteRules will be broken by this change and the rewrite flag "UnsafePrefixStat" can be used to opt back in once ensuring the substitution is appropriately constrained.
+
+- [https://github.com/abrewer251/CVE-2024-38475_SonicBoom_Apache_URL_Traversal_PoC](https://github.com/abrewer251/CVE-2024-38475_SonicBoom_Apache_URL_Traversal_PoC) :  ![starts](https://img.shields.io/github/stars/abrewer251/CVE-2024-38475_SonicBoom_Apache_URL_Traversal_PoC.svg) ![forks](https://img.shields.io/github/forks/abrewer251/CVE-2024-38475_SonicBoom_Apache_URL_Traversal_PoC.svg)
+
+
+## CVE-2024-23897
+ Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
+
+- [https://github.com/revkami/CVE-2024-23897-Jenkins-4.441](https://github.com/revkami/CVE-2024-23897-Jenkins-4.441) :  ![starts](https://img.shields.io/github/stars/revkami/CVE-2024-23897-Jenkins-4.441.svg) ![forks](https://img.shields.io/github/forks/revkami/CVE-2024-23897-Jenkins-4.441.svg)
+
+
+## CVE-2024-4577
+ In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use "Best-Fit" behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
+
+- [https://github.com/Ra1n-60W/CVE-2024-4577](https://github.com/Ra1n-60W/CVE-2024-4577) :  ![starts](https://img.shields.io/github/stars/Ra1n-60W/CVE-2024-4577.svg) ![forks](https://img.shields.io/github/forks/Ra1n-60W/CVE-2024-4577.svg)
+
+
+## CVE-2023-26136
+ Versions of the package tough-cookie before 4.1.3 are vulnerable to Prototype Pollution due to improper handling of Cookies when using CookieJar in rejectPublicSuffixes=false mode. This issue arises from the manner in which the objects are initialized.
+
+- [https://github.com/guy2610/tough-cookie-patch-cve-2023-26136](https://github.com/guy2610/tough-cookie-patch-cve-2023-26136) :  ![starts](https://img.shields.io/github/stars/guy2610/tough-cookie-patch-cve-2023-26136.svg) ![forks](https://img.shields.io/github/forks/guy2610/tough-cookie-patch-cve-2023-26136.svg)
+
+
+## CVE-2022-35411
+ rpc.py through 0.6.0 allows Remote Code Execution because an unpickle occurs when the "serializer: pickle" HTTP header is sent. In other words, although JSON (not Pickle) is the default data format, an unauthenticated client can cause the data to be processed with unpickle.
+
+- [https://github.com/CSpanias/rpc-rce.py](https://github.com/CSpanias/rpc-rce.py) :  ![starts](https://img.shields.io/github/stars/CSpanias/rpc-rce.py.svg) ![forks](https://img.shields.io/github/forks/CSpanias/rpc-rce.py.svg)
+
+
+## CVE-2020-15778
+ scp in OpenSSH through 8.3p1 allows command injection in the scp.c toremote function, as demonstrated by backtick characters in the destination argument. NOTE: the vendor reportedly has stated that they intentionally omit validation of "anomalous argument transfers" because that could "stand a great chance of breaking existing workflows."
+
+- [https://github.com/drackyjr/CVE-2020-15778-SCP-Command-Injection-Check](https://github.com/drackyjr/CVE-2020-15778-SCP-Command-Injection-Check) :  ![starts](https://img.shields.io/github/stars/drackyjr/CVE-2020-15778-SCP-Command-Injection-Check.svg) ![forks](https://img.shields.io/github/forks/drackyjr/CVE-2020-15778-SCP-Command-Injection-Check.svg)
+
+
+## CVE-2017-6090
+ Unrestricted file upload vulnerability in clients/editclient.php in PhpCollab 2.5.1 and earlier allows remote authenticated users to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in logos_clients/.
+
+- [https://github.com/jlk/exploit-CVE-2017-6090](https://github.com/jlk/exploit-CVE-2017-6090) :  ![starts](https://img.shields.io/github/stars/jlk/exploit-CVE-2017-6090.svg) ![forks](https://img.shields.io/github/forks/jlk/exploit-CVE-2017-6090.svg)
+
+
+## CVE-2017-6079
+ The HTTP web-management application on Edgewater Networks Edgemarc appliances has a hidden page that allows for user-defined commands such as specific iptables routes, etc., to be set. You can use this page as a web shell essentially to execute commands, though you get no feedback client-side from the web application: if the command is valid, it executes. An example is the wget command. The page that allows this has been confirmed in firmware as old as 2006.
+
+- [https://github.com/MostafaSoliman/CVE-2017-6079-Blind-Command-Injection-In-Edgewater-Edgemarc-Devices-Exploit](https://github.com/MostafaSoliman/CVE-2017-6079-Blind-Command-Injection-In-Edgewater-Edgemarc-Devices-Exploit) :  ![starts](https://img.shields.io/github/stars/MostafaSoliman/CVE-2017-6079-Blind-Command-Injection-In-Edgewater-Edgemarc-Devices-Exploit.svg) ![forks](https://img.shields.io/github/forks/MostafaSoliman/CVE-2017-6079-Blind-Command-Injection-In-Edgewater-Edgemarc-Devices-Exploit.svg)
+
+
+## CVE-2012-1823
+ sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured as a CGI script (aka php-cgi), does not properly handle query strings that lack an = (equals sign) character, which allows remote attackers to execute arbitrary code by placing command-line options in the query string, related to lack of skipping a certain php_getopt for the 'd' case.
+
+- [https://github.com/AurelSugarek/CVE-2012-1823-exploit-for-https-user-password-web](https://github.com/AurelSugarek/CVE-2012-1823-exploit-for-https-user-password-web) :  ![starts](https://img.shields.io/github/stars/AurelSugarek/CVE-2012-1823-exploit-for-https-user-password-web.svg) ![forks](https://img.shields.io/github/forks/AurelSugarek/CVE-2012-1823-exploit-for-https-user-password-web.svg)
+
+
+## CVE-2001-1473
+ The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
+
+- [https://github.com/alexandermoro/cve-2001-1473](https://github.com/alexandermoro/cve-2001-1473) :  ![starts](https://img.shields.io/github/stars/alexandermoro/cve-2001-1473.svg) ![forks](https://img.shields.io/github/forks/alexandermoro/cve-2001-1473.svg)
 
