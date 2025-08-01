@@ -25,6 +25,13 @@
 
 - [https://github.com/Ransc0rp1on/ICMP-Timestamp-POC](https://github.com/Ransc0rp1on/ICMP-Timestamp-POC) :  ![starts](https://img.shields.io/github/stars/Ransc0rp1on/ICMP-Timestamp-POC.svg) ![forks](https://img.shields.io/github/forks/Ransc0rp1on/ICMP-Timestamp-POC.svg)
 
+## CVE-1999-0517
+ An SNMP community name is the default (e.g. public), null, or missing.
+
+
+
+- [https://github.com/ialejandrozalles/InvestigacionAplicacionCVE-1999-0517](https://github.com/ialejandrozalles/InvestigacionAplicacionCVE-1999-0517) :  ![starts](https://img.shields.io/github/stars/ialejandrozalles/InvestigacionAplicacionCVE-1999-0517.svg) ![forks](https://img.shields.io/github/forks/ialejandrozalles/InvestigacionAplicacionCVE-1999-0517.svg)
+
 ## CVE-1999-0016
  Land IP denial of service.
 
