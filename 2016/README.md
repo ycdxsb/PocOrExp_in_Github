@@ -875,9 +875,9 @@
 
 - [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
 
-- [https://github.com/h1n4mx0/Research-CVE-2016-5195](https://github.com/h1n4mx0/Research-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/h1n4mx0/Research-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/h1n4mx0/Research-CVE-2016-5195.svg)
-
 - [https://github.com/EDLLT/CVE-2016-5195-master](https://github.com/EDLLT/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/EDLLT/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/EDLLT/CVE-2016-5195-master.svg)
+
+- [https://github.com/h1n4mx0/Research-CVE-2016-5195](https://github.com/h1n4mx0/Research-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/h1n4mx0/Research-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/h1n4mx0/Research-CVE-2016-5195.svg)
 
 - [https://github.com/xpcmdshell/derpyc0w](https://github.com/xpcmdshell/derpyc0w) :  ![starts](https://img.shields.io/github/stars/xpcmdshell/derpyc0w.svg) ![forks](https://img.shields.io/github/forks/xpcmdshell/derpyc0w.svg)
 
@@ -906,6 +906,8 @@
 - [https://github.com/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195](https://github.com/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195) :  ![starts](https://img.shields.io/github/stars/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195.svg) ![forks](https://img.shields.io/github/forks/nazgul6092/2nd-Year-Project-01-Linux-Exploitation-using-CVE-20166-5195.svg)
 
 - [https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg)
+
+- [https://github.com/mohammadamin382/dirtycow-lab](https://github.com/mohammadamin382/dirtycow-lab) :  ![starts](https://img.shields.io/github/stars/mohammadamin382/dirtycow-lab.svg) ![forks](https://img.shields.io/github/forks/mohammadamin382/dirtycow-lab.svg)
 
 - [https://github.com/Samuel-G3/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow](https://github.com/Samuel-G3/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow) :  ![starts](https://img.shields.io/github/stars/Samuel-G3/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow.svg) ![forks](https://img.shields.io/github/forks/Samuel-G3/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow.svg)
 
@@ -1027,6 +1029,8 @@
 
 
 - [https://github.com/hansnielsen/tiffdisabler](https://github.com/hansnielsen/tiffdisabler) :  ![starts](https://img.shields.io/github/stars/hansnielsen/tiffdisabler.svg) ![forks](https://img.shields.io/github/forks/hansnielsen/tiffdisabler.svg)
+
+- [https://github.com/l3onkers/FuxiOS](https://github.com/l3onkers/FuxiOS) :  ![starts](https://img.shields.io/github/stars/l3onkers/FuxiOS.svg) ![forks](https://img.shields.io/github/forks/l3onkers/FuxiOS.svg)
 
 ## CVE-2016-4622
  WebKit in Apple iOS before 9.3.3, Safari before 9.1.2, and tvOS before 9.2.2 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, a different vulnerability than CVE-2016-4589, CVE-2016-4623, and CVE-2016-4624.
