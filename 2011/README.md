@@ -110,7 +110,7 @@
 
 - [https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit](https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit) :  ![starts](https://img.shields.io/github/stars/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit.svg) ![forks](https://img.shields.io/github/forks/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit.svg)
 
-- [https://github.com/madanokr001/CVE-2011-2523](https://github.com/madanokr001/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/madanokr001/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/madanokr001/CVE-2011-2523.svg)
+- [https://github.com/cybermads/CVE-2011-2523](https://github.com/cybermads/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/cybermads/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/cybermads/CVE-2011-2523.svg)
 
 - [https://github.com/krill-x7/CVE-2011-2523](https://github.com/krill-x7/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/krill-x7/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/krill-x7/CVE-2011-2523.svg)
 
