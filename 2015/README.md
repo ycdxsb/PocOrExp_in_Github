@@ -5,6 +5,13 @@
 
 - [https://github.com/codeskipper/python-patrol](https://github.com/codeskipper/python-patrol) :  ![starts](https://img.shields.io/github/stars/codeskipper/python-patrol.svg) ![forks](https://img.shields.io/github/forks/codeskipper/python-patrol.svg)
 
+## CVE-2015-10141
+ An unauthenticated OS command injection vulnerability exists within Xdebug versions 2.5.5 and earlier, a PHP debugging extension developed by Derick Rethans. When remote debugging is enabled, Xdebug listens on port 9000 and accepts debugger protocol commands without authentication. An attacker can send a crafted eval command over this interface to execute arbitrary PHP code, which may invoke system-level functions such as system() or passthru(). This results in full compromise of the host under the privileges of the web server user.
+
+
+
+- [https://github.com/D3Ext/CVE-2015-10141](https://github.com/D3Ext/CVE-2015-10141) :  ![starts](https://img.shields.io/github/stars/D3Ext/CVE-2015-10141.svg) ![forks](https://img.shields.io/github/forks/D3Ext/CVE-2015-10141.svg)
+
 ## CVE-2015-10137
  The Website Contact Form With File Upload plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'upload_file()' function in versions up to, and including, 1.3.4. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.
 
@@ -583,6 +590,8 @@
  Unrestricted file upload vulnerability in admin/scripts/FileUploader/php.php in the ReFlex Gallery plugin before 3.1.4 for WordPress allows remote attackers to execute arbitrary PHP code by uploading a file with a PHP extension, then accessing it via a direct request to the file in uploads/ directory.
 
 
+
+- [https://github.com/D3Ext/CVE-2015-4133](https://github.com/D3Ext/CVE-2015-4133) :  ![starts](https://img.shields.io/github/stars/D3Ext/CVE-2015-4133.svg) ![forks](https://img.shields.io/github/forks/D3Ext/CVE-2015-4133.svg)
 
 - [https://github.com/sug4r-wr41th/CVE-2015-4133](https://github.com/sug4r-wr41th/CVE-2015-4133) :  ![starts](https://img.shields.io/github/stars/sug4r-wr41th/CVE-2015-4133.svg) ![forks](https://img.shields.io/github/forks/sug4r-wr41th/CVE-2015-4133.svg)
 
@@ -1187,47 +1196,6 @@
 
 
 - [https://github.com/jr64/CVE-2015-0311](https://github.com/jr64/CVE-2015-0311) :  ![starts](https://img.shields.io/github/stars/jr64/CVE-2015-0311.svg) ![forks](https://img.shields.io/github/forks/jr64/CVE-2015-0311.svg)
-
-## CVE-2015-0235
- Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka "GHOST."
-
-
-
-- [https://github.com/aaronfay/CVE-2015-0235-test](https://github.com/aaronfay/CVE-2015-0235-test) :  ![starts](https://img.shields.io/github/stars/aaronfay/CVE-2015-0235-test.svg) ![forks](https://img.shields.io/github/forks/aaronfay/CVE-2015-0235-test.svg)
-
-- [https://github.com/makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround) :  ![starts](https://img.shields.io/github/stars/makelinux/CVE-2015-0235-workaround.svg) ![forks](https://img.shields.io/github/forks/makelinux/CVE-2015-0235-workaround.svg)
-
-- [https://github.com/fser/ghost-checker](https://github.com/fser/ghost-checker) :  ![starts](https://img.shields.io/github/stars/fser/ghost-checker.svg) ![forks](https://img.shields.io/github/forks/fser/ghost-checker.svg)
-
-- [https://github.com/arm13/ghost_exploit](https://github.com/arm13/ghost_exploit) :  ![starts](https://img.shields.io/github/stars/arm13/ghost_exploit.svg) ![forks](https://img.shields.io/github/forks/arm13/ghost_exploit.svg)
-
-- [https://github.com/gh-ost00/XMLRPC-Ghost](https://github.com/gh-ost00/XMLRPC-Ghost) :  ![starts](https://img.shields.io/github/stars/gh-ost00/XMLRPC-Ghost.svg) ![forks](https://img.shields.io/github/forks/gh-ost00/XMLRPC-Ghost.svg)
-
-- [https://github.com/mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook) :  ![starts](https://img.shields.io/github/stars/mikesplain/CVE-2015-0235-cookbook.svg) ![forks](https://img.shields.io/github/forks/mikesplain/CVE-2015-0235-cookbook.svg)
-
-- [https://github.com/nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE_2015_0235.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE_2015_0235.svg)
-
-- [https://github.com/furyutei/CVE-2015-0235_GHOST](https://github.com/furyutei/CVE-2015-0235_GHOST) :  ![starts](https://img.shields.io/github/stars/furyutei/CVE-2015-0235_GHOST.svg) ![forks](https://img.shields.io/github/forks/furyutei/CVE-2015-0235_GHOST.svg)
-
-- [https://github.com/adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST) :  ![starts](https://img.shields.io/github/stars/adherzog/ansible-CVE-2015-0235-GHOST.svg) ![forks](https://img.shields.io/github/forks/adherzog/ansible-CVE-2015-0235-GHOST.svg)
-
-- [https://github.com/sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/sUbc0ol/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/sUbc0ol/CVE-2015-0235.svg)
-
-- [https://github.com/alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc) :  ![starts](https://img.shields.io/github/stars/alanmeyer/CVE-glibc.svg) ![forks](https://img.shields.io/github/forks/alanmeyer/CVE-glibc.svg)
-
-- [https://github.com/tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/tobyzxj/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/tobyzxj/CVE-2015-0235.svg)
-
-- [https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235) :  ![starts](https://img.shields.io/github/stars/limkokholefork/GHOSTCHECK-cve-2015-0235.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/GHOSTCHECK-cve-2015-0235.svg)
-
-- [https://github.com/chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235) :  ![starts](https://img.shields.io/github/stars/chayim/GHOSTCHECK-cve-2015-0235.svg) ![forks](https://img.shields.io/github/forks/chayim/GHOSTCHECK-cve-2015-0235.svg)
-
-- [https://github.com/koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc) :  ![starts](https://img.shields.io/github/stars/koudaiii-archives/cookbook-update-glibc.svg) ![forks](https://img.shields.io/github/forks/koudaiii-archives/cookbook-update-glibc.svg)
-
-- [https://github.com/1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester) :  ![starts](https://img.shields.io/github/stars/1and1-serversupport/ghosttester.svg) ![forks](https://img.shields.io/github/forks/1and1-serversupport/ghosttester.svg)
-
-- [https://github.com/favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6) :  ![starts](https://img.shields.io/github/stars/favoretti/lenny-libc6.svg) ![forks](https://img.shields.io/github/forks/favoretti/lenny-libc6.svg)
-
-- [https://github.com/F88/ghostbusters15](https://github.com/F88/ghostbusters15) :  ![starts](https://img.shields.io/github/stars/F88/ghostbusters15.svg) ![forks](https://img.shields.io/github/forks/F88/ghostbusters15.svg)
 
 ## CVE-2015-0231
  Use-after-free vulnerability in the process_nested_data function in ext/standard/var_unserializer.re in PHP before 5.4.37, 5.5.x before 5.5.21, and 5.6.x before 5.6.5 allows remote attackers to execute arbitrary code via a crafted unserialize call that leverages improper handling of duplicate numerical keys within the serialized properties of an object.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-8142.
