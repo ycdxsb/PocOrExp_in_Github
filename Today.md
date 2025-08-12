@@ -1,55 +1,66 @@
-# Update 2025-08-11
-## CVE-2025-32463
- Sudo before 1.9.17p1 allows local users to obtain root access because /etc/nsswitch.conf from a user-controlled directory is used with the --chroot option.
+# Update 2025-08-12
+## CVE-2025-47178
+ Improper neutralization of special elements used in an sql command ('sql injection') in Microsoft Configuration Manager allows an authorized attacker to execute code over an adjacent network.
 
-- [https://github.com/behnamvanda/CVE-2025-32463](https://github.com/behnamvanda/CVE-2025-32463) :  ![starts](https://img.shields.io/github/stars/behnamvanda/CVE-2025-32463.svg) ![forks](https://img.shields.io/github/forks/behnamvanda/CVE-2025-32463.svg)
-
-
-## CVE-2025-29927
- Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
-
-- [https://github.com/AventurineJun/CVE-2025-29927-Research](https://github.com/AventurineJun/CVE-2025-29927-Research) :  ![starts](https://img.shields.io/github/stars/AventurineJun/CVE-2025-29927-Research.svg) ![forks](https://img.shields.io/github/forks/AventurineJun/CVE-2025-29927-Research.svg)
+- [https://github.com/synacktiv/CVE-2025-47178](https://github.com/synacktiv/CVE-2025-47178) :  ![starts](https://img.shields.io/github/stars/synacktiv/CVE-2025-47178.svg) ![forks](https://img.shields.io/github/forks/synacktiv/CVE-2025-47178.svg)
 
 
-## CVE-2025-24893
- XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution through a request to `SolrSearch`. This impacts the confidentiality, integrity and availability of the whole XWiki installation. To reproduce on an instance, without being logged in, go to `host/xwiki/bin/get/Main/SolrSearch?media=rss&text=%7D%7D%7D%7B%7Basync%20async%3Dfalse%7D%7D%7B%7Bgroovy%7D%7Dprintln%28"Hello%20from"%20%2B%20"%20search%20text%3A"%20%2B%20%2823%20%2B%2019%29%29%7B%7B%2Fgroovy%7D%7D%7B%7B%2Fasync%7D%7D%20`. If there is an output, and the title of the RSS feed contains `Hello from search text:42`, then the instance is vulnerable. This vulnerability has been patched in XWiki 15.10.11, 16.4.1 and 16.5.0RC1. Users are advised to upgrade. Users unable to upgrade may edit `Main.SolrSearchMacros` in `SolrSearchMacros.xml` on line 955 to match the `rawResponse` macro in `macros.vm#L2824` with a content type of `application/xml`, instead of simply outputting the content of the feed.
+## CVE-2025-1974
+ A security issue was discovered in Kubernetes where under certain conditions, an unauthenticated attacker with access to the pod network can achieve arbitrary code execution in the context of the ingress-nginx controller. This can lead to disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)
 
-- [https://github.com/D3Ext/CVE-2025-24893](https://github.com/D3Ext/CVE-2025-24893) :  ![starts](https://img.shields.io/github/stars/D3Ext/CVE-2025-24893.svg) ![forks](https://img.shields.io/github/forks/D3Ext/CVE-2025-24893.svg)
-- [https://github.com/Retro023/CVE-2025-24893-POC](https://github.com/Retro023/CVE-2025-24893-POC) :  ![starts](https://img.shields.io/github/stars/Retro023/CVE-2025-24893-POC.svg) ![forks](https://img.shields.io/github/forks/Retro023/CVE-2025-24893-POC.svg)
-
-
-## CVE-2025-21298
- Windows OLE Remote Code Execution Vulnerability
-
-- [https://github.com/B1ack4sh/Blackash-CVE-2025-21298](https://github.com/B1ack4sh/Blackash-CVE-2025-21298) :  ![starts](https://img.shields.io/github/stars/B1ack4sh/Blackash-CVE-2025-21298.svg) ![forks](https://img.shields.io/github/forks/B1ack4sh/Blackash-CVE-2025-21298.svg)
+- [https://github.com/BiiTts/POC-IngressNightmare-CVE-2025-1974](https://github.com/BiiTts/POC-IngressNightmare-CVE-2025-1974) :  ![starts](https://img.shields.io/github/stars/BiiTts/POC-IngressNightmare-CVE-2025-1974.svg) ![forks](https://img.shields.io/github/forks/BiiTts/POC-IngressNightmare-CVE-2025-1974.svg)
 
 
-## CVE-2025-4404
- A privilege escalation from host to domain vulnerability was found in the FreeIPA project. The FreeIPA package fails to validate the uniqueness of the `krbCanonicalName` for the admin account by default, allowing users to create services with the same canonical name as the REALM admin. When a successful attack happens, the user can retrieve a Kerberos ticket in the name of this service, containing the admin@REALM credential. This flaw allows an attacker to perform administrative tasks over the REALM, leading to access to sensitive data and sensitive data exfiltration.
+## CVE-2024-37388
+ An XML External Entity (XXE) vulnerability in the ebookmeta.get_metadata function of lxml before v4.9.1 allows attackers to access sensitive information or cause a Denial of Service (DoS) via crafted XML input.
 
-- [https://github.com/Cyxow/CVE-2025-4404-POC](https://github.com/Cyxow/CVE-2025-4404-POC) :  ![starts](https://img.shields.io/github/stars/Cyxow/CVE-2025-4404-POC.svg) ![forks](https://img.shields.io/github/forks/Cyxow/CVE-2025-4404-POC.svg)
-
-
-## CVE-2022-39299
- Passport-SAML is a SAML 2.0 authentication provider for Passport, the Node.js authentication library. A remote attacker may be able to bypass SAML authentication on a website using passport-saml. A successful attack requires that the attacker is in possession of an arbitrary IDP signed XML element. Depending on the IDP used, fully unauthenticated attacks (e.g without access to a valid user) might also be feasible if generation of a signed message can be triggered. Users should upgrade to passport-saml version 3.2.2 or newer. The issue was also present in the beta releases of `node-saml` before version 4.0.0-beta.5. If you cannot upgrade, disabling SAML authentication may be done as a workaround.
-
-- [https://github.com/AventurineJun/CVE-2022-39299-Research](https://github.com/AventurineJun/CVE-2022-39299-Research) :  ![starts](https://img.shields.io/github/stars/AventurineJun/CVE-2022-39299-Research.svg) ![forks](https://img.shields.io/github/forks/AventurineJun/CVE-2022-39299-Research.svg)
+- [https://github.com/Narsimhareddy28/cve-2024-37388](https://github.com/Narsimhareddy28/cve-2024-37388) :  ![starts](https://img.shields.io/github/stars/Narsimhareddy28/cve-2024-37388.svg) ![forks](https://img.shields.io/github/forks/Narsimhareddy28/cve-2024-37388.svg)
 
 
-## CVE-2021-30809
- A use after free issue was addressed with improved memory management. This issue is fixed in Safari 15, tvOS 15, watchOS 8, iOS 15 and iPadOS 15. Processing maliciously crafted web content may lead to arbitrary code execution.
+## CVE-2024-31317
+ In multiple functions of ZygoteProcess.java, there is a possible way to achieve code execution as any app via WRITE_SECURE_SETTINGS due to unsafe deserialization. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.
 
-- [https://github.com/seregonwar/CVE-2021-30809-UAF](https://github.com/seregonwar/CVE-2021-30809-UAF) :  ![starts](https://img.shields.io/github/stars/seregonwar/CVE-2021-30809-UAF.svg) ![forks](https://img.shields.io/github/forks/seregonwar/CVE-2021-30809-UAF.svg)
-
-
-## CVE-2019-13497
- One Identity Cloud Access Manager before 8.1.4 Hotfix 1 allows CSRF for logout requests.
-
-- [https://github.com/FurqanKhan1/CVE-2019-13497](https://github.com/FurqanKhan1/CVE-2019-13497) :  ![starts](https://img.shields.io/github/stars/FurqanKhan1/CVE-2019-13497.svg) ![forks](https://img.shields.io/github/forks/FurqanKhan1/CVE-2019-13497.svg)
+- [https://github.com/rifting/Zygotroller](https://github.com/rifting/Zygotroller) :  ![starts](https://img.shields.io/github/stars/rifting/Zygotroller.svg) ![forks](https://img.shields.io/github/forks/rifting/Zygotroller.svg)
 
 
-## CVE-2017-5941
- An issue was discovered in the node-serialize package 0.0.4 for Node.js. Untrusted data passed into the unserialize() function can be exploited to achieve arbitrary code execution by passing a JavaScript Object with an Immediately Invoked Function Expression (IIFE).
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/kylew1004/cve-2017-5941-poc-docker-lab](https://github.com/kylew1004/cve-2017-5941-poc-docker-lab) :  ![starts](https://img.shields.io/github/stars/kylew1004/cve-2017-5941-poc-docker-lab.svg) ![forks](https://img.shields.io/github/forks/kylew1004/cve-2017-5941-poc-docker-lab.svg)
+- [https://github.com/JIYUN02/cve-2021-41773](https://github.com/JIYUN02/cve-2021-41773) :  ![starts](https://img.shields.io/github/stars/JIYUN02/cve-2021-41773.svg) ![forks](https://img.shields.io/github/forks/JIYUN02/cve-2021-41773.svg)
+
+
+## CVE-2020-2950
+ Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Fusion Middleware (component: Analytics Web General). Supported versions that are affected are 5.5.0.0.0, 11.1.1.9.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Business Intelligence Enterprise Edition. Successful attacks of this vulnerability can result in takeover of Oracle Business Intelligence Enterprise Edition. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+
+- [https://github.com/tuo4n8/CVE-2020-2950](https://github.com/tuo4n8/CVE-2020-2950) :  ![starts](https://img.shields.io/github/stars/tuo4n8/CVE-2020-2950.svg) ![forks](https://img.shields.io/github/forks/tuo4n8/CVE-2020-2950.svg)
+
+
+## CVE-2018-8035
+ This vulnerability relates to the user's browser processing of DUCC webpage input data.The javascript comprising Apache UIMA DUCC (= 2.2.2) which runs in the user's browser does not sufficiently filter user supplied inputs, which may result in unintended execution of user supplied javascript code.
+
+- [https://github.com/ossf-cve-benchmark/CVE-2018-8035](https://github.com/ossf-cve-benchmark/CVE-2018-8035) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2018-8035.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2018-8035.svg)
+
+
+## CVE-2016-10033
+ The mailSend function in the isMail transport in PHPMailer before 5.2.18 might allow remote attackers to pass extra parameters to the mail command and consequently execute arbitrary code via a \" (backslash double quote) in a crafted Sender property.
+
+- [https://github.com/alexander47777/CVE-2016-10033](https://github.com/alexander47777/CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/alexander47777/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/alexander47777/CVE-2016-10033.svg)
+
+
+## CVE-2015-10141
+ An unauthenticated OS command injection vulnerability exists within Xdebug versions 2.5.5 and earlier, a PHP debugging extension developed by Derick Rethans. When remote debugging is enabled, Xdebug listens on port 9000 and accepts debugger protocol commands without authentication. An attacker can send a crafted eval command over this interface to execute arbitrary PHP code, which may invoke system-level functions such as system() or passthru(). This results in full compromise of the host under the privileges of the web server user.
+
+- [https://github.com/D3Ext/CVE-2015-10141](https://github.com/D3Ext/CVE-2015-10141) :  ![starts](https://img.shields.io/github/stars/D3Ext/CVE-2015-10141.svg) ![forks](https://img.shields.io/github/forks/D3Ext/CVE-2015-10141.svg)
+
+
+## CVE-2015-4133
+ Unrestricted file upload vulnerability in admin/scripts/FileUploader/php.php in the ReFlex Gallery plugin before 3.1.4 for WordPress allows remote attackers to execute arbitrary PHP code by uploading a file with a PHP extension, then accessing it via a direct request to the file in uploads/ directory.
+
+- [https://github.com/D3Ext/CVE-2015-4133](https://github.com/D3Ext/CVE-2015-4133) :  ![starts](https://img.shields.io/github/stars/D3Ext/CVE-2015-4133.svg) ![forks](https://img.shields.io/github/forks/D3Ext/CVE-2015-4133.svg)
+
+
+## CVE-2011-2523
+ vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which opens a shell on port 6200/tcp.
+
+- [https://github.com/BolivarJ/CVE-2011-2523](https://github.com/BolivarJ/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/BolivarJ/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/BolivarJ/CVE-2011-2523.svg)
 
