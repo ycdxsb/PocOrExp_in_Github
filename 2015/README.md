@@ -19,13 +19,6 @@
 
 - [https://github.com/Kai-One001/-CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-File-Upload-1.3.4](https://github.com/Kai-One001/-CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-File-Upload-1.3.4) :  ![starts](https://img.shields.io/github/stars/Kai-One001/-CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-File-Upload-1.3.4.svg) ![forks](https://img.shields.io/github/forks/Kai-One001/-CVE-2015-10137-WordPress-N-Media-Website-Contact-Form-with-File-Upload-1.3.4.svg)
 
-## CVE-2015-10034
- A vulnerability has been found in j-nowak workout-organizer and classified as critical. This vulnerability affects unknown code. The manipulation leads to sql injection. The patch is identified as 13cd6c3d1210640bfdb39872b2bb3597aa991279. It is recommended to apply a patch to fix this issue. VDB-217714 is the identifier assigned to this vulnerability.
-
-
-
-- [https://github.com/andrenasx/CVE-2015-10034](https://github.com/andrenasx/CVE-2015-10034) :  ![starts](https://img.shields.io/github/stars/andrenasx/CVE-2015-10034.svg) ![forks](https://img.shields.io/github/forks/andrenasx/CVE-2015-10034.svg)
-
 ## CVE-2015-9251
  jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed.
 
@@ -71,9 +64,9 @@
 
 - [https://github.com/whu-enjoy/CVE-2015-8660](https://github.com/whu-enjoy/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/whu-enjoy/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/whu-enjoy/CVE-2015-8660.svg)
 
-- [https://github.com/carradolly/CVE-2015-8660](https://github.com/carradolly/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/carradolly/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/carradolly/CVE-2015-8660.svg)
-
 - [https://github.com/nhamle2/CVE-2015-8660](https://github.com/nhamle2/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/nhamle2/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/nhamle2/CVE-2015-8660.svg)
+
+- [https://github.com/carradolly/CVE-2015-8660](https://github.com/carradolly/CVE-2015-8660) :  ![starts](https://img.shields.io/github/stars/carradolly/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/carradolly/CVE-2015-8660.svg)
 
 ## CVE-2015-8651
  Integer overflow in Adobe Flash Player before 18.0.0.324 and 19.x and 20.x before 20.0.0.267 on Windows and OS X and before 11.2.202.559 on Linux, Adobe AIR before 20.0.0.233, Adobe AIR SDK before 20.0.0.233, and Adobe AIR SDK & Compiler before 20.0.0.233 allows attackers to execute arbitrary code via unspecified vectors.
@@ -189,22 +182,6 @@
 
 - [https://github.com/Prajithp/CVE-2015-7808](https://github.com/Prajithp/CVE-2015-7808) :  ![starts](https://img.shields.io/github/stars/Prajithp/CVE-2015-7808.svg) ![forks](https://img.shields.io/github/forks/Prajithp/CVE-2015-7808.svg)
 
-## CVE-2015-7756
- The encryption implementation in Juniper ScreenOS 6.2.0r15 through 6.2.0r18, 6.3.0r12 before 6.3.0r12b, 6.3.0r13 before 6.3.0r13b, 6.3.0r14 before 6.3.0r14b, 6.3.0r15 before 6.3.0r15b, 6.3.0r16 before 6.3.0r16b, 6.3.0r17 before 6.3.0r17b, 6.3.0r18 before 6.3.0r18b, 6.3.0r19 before 6.3.0r19b, and 6.3.0r20 before 6.3.0r21 makes it easier for remote attackers to discover the plaintext content of VPN sessions by sniffing the network for ciphertext data and conducting an unspecified decryption attack.
-
-
-
-- [https://github.com/hdm/juniper-cve-2015-7755](https://github.com/hdm/juniper-cve-2015-7755) :  ![starts](https://img.shields.io/github/stars/hdm/juniper-cve-2015-7755.svg) ![forks](https://img.shields.io/github/forks/hdm/juniper-cve-2015-7755.svg)
-
-## CVE-2015-7755
- Juniper ScreenOS 6.2.0r15 through 6.2.0r18, 6.3.0r12 before 6.3.0r12b, 6.3.0r13 before 6.3.0r13b, 6.3.0r14 before 6.3.0r14b, 6.3.0r15 before 6.3.0r15b, 6.3.0r16 before 6.3.0r16b, 6.3.0r17 before 6.3.0r17b, 6.3.0r18 before 6.3.0r18b, 6.3.0r19 before 6.3.0r19b, and 6.3.0r20 before 6.3.0r21 allows remote attackers to obtain administrative access by entering an unspecified password during a (1) SSH or (2) TELNET session.
-
-
-
-- [https://github.com/hdm/juniper-cve-2015-7755](https://github.com/hdm/juniper-cve-2015-7755) :  ![starts](https://img.shields.io/github/stars/hdm/juniper-cve-2015-7755.svg) ![forks](https://img.shields.io/github/forks/hdm/juniper-cve-2015-7755.svg)
-
-- [https://github.com/cinno/CVE-2015-7755-POC](https://github.com/cinno/CVE-2015-7755-POC) :  ![starts](https://img.shields.io/github/stars/cinno/CVE-2015-7755-POC.svg) ![forks](https://img.shields.io/github/forks/cinno/CVE-2015-7755-POC.svg)
-
 ## CVE-2015-7576
  The http_basic_authenticate_with method in actionpack/lib/action_controller/metal/http_authentication.rb in the Basic Authentication implementation in Action Controller in Ruby on Rails before 3.2.22.1, 4.0.x and 4.1.x before 4.1.14.1, 4.2.x before 4.2.5.1, and 5.x before 5.0.0.beta1.1 does not use a constant-time algorithm for verifying credentials, which makes it easier for remote attackers to bypass authentication by measuring timing differences.
 
@@ -293,13 +270,6 @@
 
 - [https://github.com/ockeghem/CVE-2015-6835-checker](https://github.com/ockeghem/CVE-2015-6835-checker) :  ![starts](https://img.shields.io/github/stars/ockeghem/CVE-2015-6835-checker.svg) ![forks](https://img.shields.io/github/forks/ockeghem/CVE-2015-6835-checker.svg)
 
-## CVE-2015-6748
- Cross-site scripting (XSS) vulnerability in jsoup before 1.8.3.
-
-
-
-- [https://github.com/epicosy/VUL4J-59](https://github.com/epicosy/VUL4J-59) :  ![starts](https://img.shields.io/github/stars/epicosy/VUL4J-59.svg) ![forks](https://img.shields.io/github/forks/epicosy/VUL4J-59.svg)
-
 ## CVE-2015-6668
  The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary CV files via a brute force attack to the WordPress upload directory structure, related to an insecure direct object reference.
 
@@ -312,13 +282,6 @@
 - [https://github.com/jimdiroffii/CVE-2015-6668](https://github.com/jimdiroffii/CVE-2015-6668) :  ![starts](https://img.shields.io/github/stars/jimdiroffii/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/jimdiroffii/CVE-2015-6668.svg)
 
 - [https://github.com/NoTrustedx/Job-Manager-Disclosure](https://github.com/NoTrustedx/Job-Manager-Disclosure) :  ![starts](https://img.shields.io/github/stars/NoTrustedx/Job-Manager-Disclosure.svg) ![forks](https://img.shields.io/github/forks/NoTrustedx/Job-Manager-Disclosure.svg)
-
-## CVE-2015-6640
- The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 does not ensure that only one vma is accessed in a certain update action, which allows attackers to gain privileges or cause a denial of service (vma list corruption) via a crafted application, aka internal bug 20017123.
-
-
-
-- [https://github.com/betalphafai/CVE-2015-6640](https://github.com/betalphafai/CVE-2015-6640) :  ![starts](https://img.shields.io/github/stars/betalphafai/CVE-2015-6640.svg) ![forks](https://img.shields.io/github/forks/betalphafai/CVE-2015-6640.svg)
 
 ## CVE-2015-6639
  The Widevine QSEE TrustZone application in Android 5.x before 5.1.1 LMY49F and 6.0 before 2016-01-01 allows attackers to gain privileges via a crafted application that leverages QSEECOM access, aka internal bug 24446875.
@@ -353,13 +316,6 @@
 - [https://github.com/secmob/CVE-2015-6612](https://github.com/secmob/CVE-2015-6612) :  ![starts](https://img.shields.io/github/stars/secmob/CVE-2015-6612.svg) ![forks](https://img.shields.io/github/forks/secmob/CVE-2015-6612.svg)
 
 - [https://github.com/flankerhqd/cve-2015-6612poc-forM](https://github.com/flankerhqd/cve-2015-6612poc-forM) :  ![starts](https://img.shields.io/github/stars/flankerhqd/cve-2015-6612poc-forM.svg) ![forks](https://img.shields.io/github/forks/flankerhqd/cve-2015-6612poc-forM.svg)
-
-## CVE-2015-6606
- The Secure Element Evaluation Kit (aka SEEK or SmartCard API) plugin in Android before 5.1.1 LMY48T allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bug 22301786.
-
-
-
-- [https://github.com/michaelroland/omapi-cve-2015-6606-exploit](https://github.com/michaelroland/omapi-cve-2015-6606-exploit) :  ![starts](https://img.shields.io/github/stars/michaelroland/omapi-cve-2015-6606-exploit.svg) ![forks](https://img.shields.io/github/forks/michaelroland/omapi-cve-2015-6606-exploit.svg)
 
 ## CVE-2015-6576
  Bamboo 2.2 before 5.8.5 and 5.9.x before 5.9.7 allows remote attackers with access to the Bamboo web interface to execute arbitrary Java code via an unspecified resource.
@@ -402,13 +358,6 @@
 
 
 - [https://github.com/payatu/CVE-2015-6086](https://github.com/payatu/CVE-2015-6086) :  ![starts](https://img.shields.io/github/stars/payatu/CVE-2015-6086.svg) ![forks](https://img.shields.io/github/forks/payatu/CVE-2015-6086.svg)
-
-## CVE-2015-5995
- Mediabridge Medialink MWN-WAPR300N devices with firmware 5.07.50 and Tenda N3 Wireless N150 devices allow remote attackers to obtain administrative access via a certain admin substring in an HTTP Cookie header.
-
-
-
-- [https://github.com/shaheemirza/TendaSpill](https://github.com/shaheemirza/TendaSpill) :  ![starts](https://img.shields.io/github/stars/shaheemirza/TendaSpill.svg) ![forks](https://img.shields.io/github/forks/shaheemirza/TendaSpill.svg)
 
 ## CVE-2015-5932
  The kernel in Apple OS X before 10.11.1 allows local users to gain privileges by leveraging an unspecified "type confusion" during Mach task processing.
@@ -611,21 +560,6 @@
 
 - [https://github.com/anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/anthophilee/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/anthophilee/A2SV--SSL-VUL-Scan.svg)
 
-## CVE-2015-3864
- Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.cpp in libstagefright in mediaserver in Android before 5.1.1 LMY48M allows remote attackers to execute arbitrary code via crafted MPEG-4 data, aka internal bug 23034759.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-3824.
-
-
-
-- [https://github.com/eudemonics/scaredycat](https://github.com/eudemonics/scaredycat) :  ![starts](https://img.shields.io/github/stars/eudemonics/scaredycat.svg) ![forks](https://img.shields.io/github/forks/eudemonics/scaredycat.svg)
-
-- [https://github.com/pwnaccelerator/stagefright-cve-2015-3864](https://github.com/pwnaccelerator/stagefright-cve-2015-3864) :  ![starts](https://img.shields.io/github/stars/pwnaccelerator/stagefright-cve-2015-3864.svg) ![forks](https://img.shields.io/github/forks/pwnaccelerator/stagefright-cve-2015-3864.svg)
-
-- [https://github.com/Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864](https://github.com/Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864) :  ![starts](https://img.shields.io/github/stars/Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864.svg) ![forks](https://img.shields.io/github/forks/Bhathiya404/Exploiting-Stagefright-Vulnerability-CVE-2015-3864.svg)
-
-- [https://github.com/HenryVHuang/CVE-2015-3864](https://github.com/HenryVHuang/CVE-2015-3864) :  ![starts](https://img.shields.io/github/stars/HenryVHuang/CVE-2015-3864.svg) ![forks](https://img.shields.io/github/forks/HenryVHuang/CVE-2015-3864.svg)
-
-- [https://github.com/Cmadhushanka/CVE-2015-3864-Exploitation](https://github.com/Cmadhushanka/CVE-2015-3864-Exploitation) :  ![starts](https://img.shields.io/github/stars/Cmadhushanka/CVE-2015-3864-Exploitation.svg) ![forks](https://img.shields.io/github/forks/Cmadhushanka/CVE-2015-3864-Exploitation.svg)
-
 ## CVE-2015-3839
  The updateMessageStatus function in Android 5.1.1 and earlier allows local users to cause a denial of service (NULL pointer exception and process crash).
 
@@ -733,26 +667,6 @@
 
 - [https://github.com/RenukaSelvar/libunwind_CVE-2015-3239_AfterPatch](https://github.com/RenukaSelvar/libunwind_CVE-2015-3239_AfterPatch) :  ![starts](https://img.shields.io/github/stars/RenukaSelvar/libunwind_CVE-2015-3239_AfterPatch.svg) ![forks](https://img.shields.io/github/forks/RenukaSelvar/libunwind_CVE-2015-3239_AfterPatch.svg)
 
-## CVE-2015-3224
- request.rb in Web Console before 2.1.3, as used with Ruby on Rails 3.x and 4.x, does not properly restrict the use of X-Forwarded-For headers in determining a client's IP address, which allows remote attackers to bypass the whitelisted_ips protection mechanism via a crafted request.
-
-
-
-- [https://github.com/0xEval/cve-2015-3224](https://github.com/0xEval/cve-2015-3224) :  ![starts](https://img.shields.io/github/stars/0xEval/cve-2015-3224.svg) ![forks](https://img.shields.io/github/forks/0xEval/cve-2015-3224.svg)
-
-- [https://github.com/0x00-0x00/CVE-2015-3224](https://github.com/0x00-0x00/CVE-2015-3224) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2015-3224.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2015-3224.svg)
-
-- [https://github.com/n000xy/CVE-2015-3224-](https://github.com/n000xy/CVE-2015-3224-) :  ![starts](https://img.shields.io/github/stars/n000xy/CVE-2015-3224-.svg) ![forks](https://img.shields.io/github/forks/n000xy/CVE-2015-3224-.svg)
-
-- [https://github.com/Sic4rio/CVE-2015-3224](https://github.com/Sic4rio/CVE-2015-3224) :  ![starts](https://img.shields.io/github/stars/Sic4rio/CVE-2015-3224.svg) ![forks](https://img.shields.io/github/forks/Sic4rio/CVE-2015-3224.svg)
-
-## CVE-2015-3197
- ssl/s2_srvr.c in OpenSSL 1.0.1 before 1.0.1r and 1.0.2 before 1.0.2f does not prevent use of disabled ciphers, which makes it easier for man-in-the-middle attackers to defeat cryptographic protection mechanisms by performing computations on SSLv2 traffic, related to the get_client_master_key and get_client_hello functions.
-
-
-
-- [https://github.com/Trinadh465/OpenSSL-1_0_1g_CVE-2015-3197](https://github.com/Trinadh465/OpenSSL-1_0_1g_CVE-2015-3197) :  ![starts](https://img.shields.io/github/stars/Trinadh465/OpenSSL-1_0_1g_CVE-2015-3197.svg) ![forks](https://img.shields.io/github/forks/Trinadh465/OpenSSL-1_0_1g_CVE-2015-3197.svg)
-
 ## CVE-2015-3195
  The ASN1_TFLG_COMBINE implementation in crypto/asn1/tasn_dec.c in OpenSSL before 0.9.8zh, 1.0.0 before 1.0.0t, 1.0.1 before 1.0.1q, and 1.0.2 before 1.0.2e mishandles errors caused by malformed X509_ATTRIBUTE data, which allows remote attackers to obtain sensitive information from process memory by triggering a decoding failure in a PKCS#7 or CMS application.
 
@@ -774,22 +688,8 @@
 
 - [https://github.com/duo-labs/mysslstrip](https://github.com/duo-labs/mysslstrip) :  ![starts](https://img.shields.io/github/stars/duo-labs/mysslstrip.svg) ![forks](https://img.shields.io/github/forks/duo-labs/mysslstrip.svg)
 
-## CVE-2015-3145
- The sanitize_cookie_path function in cURL and libcurl 7.31.0 through 7.41.0 does not properly calculate an index, which allows remote attackers to cause a denial of service (out-of-bounds write and crash) or possibly have other unspecified impact via a cookie path containing only a double-quote character.
-
-
-
-- [https://github.com/serz999/CVE-2015-3145](https://github.com/serz999/CVE-2015-3145) :  ![starts](https://img.shields.io/github/stars/serz999/CVE-2015-3145.svg) ![forks](https://img.shields.io/github/forks/serz999/CVE-2015-3145.svg)
-
 ## CVE-2015-3105
  Adobe Flash Player before 13.0.0.292 and 14.x through 18.x before 18.0.0.160 on Windows and OS X and before 11.2.202.466 on Linux, Adobe AIR before 18.0.0.144 on Windows and before 18.0.0.143 on OS X and Android, Adobe AIR SDK before 18.0.0.144 on Windows and before 18.0.0.143 on OS X, and Adobe AIR SDK & Compiler before 18.0.0.144 on Windows and before 18.0.0.143 on OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors.
-
-
-
-- [https://github.com/Xattam1/Adobe-Flash-Exploits_17-18](https://github.com/Xattam1/Adobe-Flash-Exploits_17-18) :  ![starts](https://img.shields.io/github/stars/Xattam1/Adobe-Flash-Exploits_17-18.svg) ![forks](https://img.shields.io/github/forks/Xattam1/Adobe-Flash-Exploits_17-18.svg)
-
-## CVE-2015-3090
- Adobe Flash Player before 13.0.0.289 and 14.x through 17.x before 17.0.0.188 on Windows and OS X and before 11.2.202.460 on Linux, Adobe AIR before 17.0.0.172, Adobe AIR SDK before 17.0.0.172, and Adobe AIR SDK & Compiler before 17.0.0.172 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2015-3078, CVE-2015-3089, and CVE-2015-3093.
 
 
 
@@ -829,22 +729,6 @@
 
 
 - [https://github.com/Bariskizilkaya/CVE-2015-2797-PoC](https://github.com/Bariskizilkaya/CVE-2015-2797-PoC) :  ![starts](https://img.shields.io/github/stars/Bariskizilkaya/CVE-2015-2797-PoC.svg) ![forks](https://img.shields.io/github/forks/Bariskizilkaya/CVE-2015-2797-PoC.svg)
-
-## CVE-2015-2794
- The installation wizard in DotNetNuke (DNN) before 7.4.1 allows remote attackers to reinstall the application and gain SuperUser access via a direct request to Install/InstallWizard.aspx.
-
-
-
-- [https://github.com/styx00/DNN_CVE-2015-2794](https://github.com/styx00/DNN_CVE-2015-2794) :  ![starts](https://img.shields.io/github/stars/styx00/DNN_CVE-2015-2794.svg) ![forks](https://img.shields.io/github/forks/styx00/DNN_CVE-2015-2794.svg)
-
-- [https://github.com/wilsc0w/CVE-2015-2794-finder](https://github.com/wilsc0w/CVE-2015-2794-finder) :  ![starts](https://img.shields.io/github/stars/wilsc0w/CVE-2015-2794-finder.svg) ![forks](https://img.shields.io/github/forks/wilsc0w/CVE-2015-2794-finder.svg)
-
-## CVE-2015-2546
- The kernel-mode driver in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 allows local users to gain privileges via a crafted application, aka "Win32k Memory Corruption Elevation of Privilege Vulnerability," a different vulnerability than CVE-2015-2511, CVE-2015-2517, and CVE-2015-2518.
-
-
-
-- [https://github.com/k0keoyo/CVE-2015-2546-Exploit](https://github.com/k0keoyo/CVE-2015-2546-Exploit) :  ![starts](https://img.shields.io/github/stars/k0keoyo/CVE-2015-2546-Exploit.svg) ![forks](https://img.shields.io/github/forks/k0keoyo/CVE-2015-2546-Exploit.svg)
 
 ## CVE-2015-2523
  Microsoft Excel 2007 SP3, Excel 2010 SP2, Excel 2013 SP1, Excel 2013 RT SP1, Excel for Mac 2011 and 2016, Office Compatibility Pack SP3, and Excel Viewer allow remote attackers to execute arbitrary code via a crafted Office document, aka "Microsoft Office Memory Corruption Vulnerability."
@@ -1043,13 +927,6 @@
 
 - [https://github.com/yaldobaoth/CVE-2015-1578-PoC-Metasploit](https://github.com/yaldobaoth/CVE-2015-1578-PoC-Metasploit) :  ![starts](https://img.shields.io/github/stars/yaldobaoth/CVE-2015-1578-PoC-Metasploit.svg) ![forks](https://img.shields.io/github/forks/yaldobaoth/CVE-2015-1578-PoC-Metasploit.svg)
 
-## CVE-2015-1561
- The escape_command function in include/Administration/corePerformance/getStats.php in Centreon (formerly Merethis Centreon) 2.5.4 and earlier (fixed in Centreon 19.10.0) uses an incorrect regular expression, which allows remote authenticated users to execute arbitrary commands via shell metacharacters in the ns_id parameter.
-
-
-
-- [https://github.com/Iansus/Centreon-CVE-2015-1560_1561](https://github.com/Iansus/Centreon-CVE-2015-1560_1561) :  ![starts](https://img.shields.io/github/stars/Iansus/Centreon-CVE-2015-1560_1561.svg) ![forks](https://img.shields.io/github/forks/Iansus/Centreon-CVE-2015-1560_1561.svg)
-
 ## CVE-2015-1560
  SQL injection vulnerability in the isUserAdmin function in include/common/common-Func.php in Centreon (formerly Merethis Centreon) 2.5.4 and earlier (fixed in Centreon web 2.7.0) allows remote attackers to execute arbitrary SQL commands via the sid parameter to include/common/XmlTree/GetXmlTree.php.
 
@@ -1160,28 +1037,12 @@
 
 - [https://github.com/kpwn/vpwn](https://github.com/kpwn/vpwn) :  ![starts](https://img.shields.io/github/stars/kpwn/vpwn.svg) ![forks](https://img.shields.io/github/forks/kpwn/vpwn.svg)
 
-## CVE-2015-1130
- The XPC implementation in Admin Framework in Apple OS X before 10.10.3 allows local users to bypass authentication and obtain admin privileges via unspecified vectors.
-
-
-
-- [https://github.com/sideeffect42/RootPipeTester](https://github.com/sideeffect42/RootPipeTester) :  ![starts](https://img.shields.io/github/stars/sideeffect42/RootPipeTester.svg) ![forks](https://img.shields.io/github/forks/sideeffect42/RootPipeTester.svg)
-
-- [https://github.com/Shmoopi/RootPipe-Demo](https://github.com/Shmoopi/RootPipe-Demo) :  ![starts](https://img.shields.io/github/stars/Shmoopi/RootPipe-Demo.svg) ![forks](https://img.shields.io/github/forks/Shmoopi/RootPipe-Demo.svg)
-
 ## CVE-2015-0568
  Use-after-free vulnerability in the msm_set_crop function in drivers/media/video/msm/msm_camera.c in the MSM-Camera driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allows attackers to gain privileges or cause a denial of service (memory corruption) via an application that makes a crafted ioctl call.
 
 
 
 - [https://github.com/betalphafai/CVE-2015-0568](https://github.com/betalphafai/CVE-2015-0568) :  ![starts](https://img.shields.io/github/stars/betalphafai/CVE-2015-0568.svg) ![forks](https://img.shields.io/github/forks/betalphafai/CVE-2015-0568.svg)
-
-## CVE-2015-0345
- Cross-site scripting (XSS) vulnerability in Adobe ColdFusion 10 before Update 16 and 11 before Update 5 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
-
-
-
-- [https://github.com/BishopFox/coldfusion-10-11-xss](https://github.com/BishopFox/coldfusion-10-11-xss) :  ![starts](https://img.shields.io/github/stars/BishopFox/coldfusion-10-11-xss.svg) ![forks](https://img.shields.io/github/forks/BishopFox/coldfusion-10-11-xss.svg)
 
 ## CVE-2015-0313
  Use-after-free vulnerability in Adobe Flash Player before 13.0.0.269 and 14.x through 16.x before 16.0.0.305 on Windows and OS X and before 11.2.202.442 on Linux allows remote attackers to execute arbitrary code via unspecified vectors, as exploited in the wild in February 2015, a different vulnerability than CVE-2015-0315, CVE-2015-0320, and CVE-2015-0322.
@@ -1197,19 +1058,53 @@
 
 - [https://github.com/jr64/CVE-2015-0311](https://github.com/jr64/CVE-2015-0311) :  ![starts](https://img.shields.io/github/stars/jr64/CVE-2015-0311.svg) ![forks](https://img.shields.io/github/forks/jr64/CVE-2015-0311.svg)
 
+## CVE-2015-0235
+ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka "GHOST."
+
+
+
+- [https://github.com/aaronfay/CVE-2015-0235-test](https://github.com/aaronfay/CVE-2015-0235-test) :  ![starts](https://img.shields.io/github/stars/aaronfay/CVE-2015-0235-test.svg) ![forks](https://img.shields.io/github/forks/aaronfay/CVE-2015-0235-test.svg)
+
+- [https://github.com/makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround) :  ![starts](https://img.shields.io/github/stars/makelinux/CVE-2015-0235-workaround.svg) ![forks](https://img.shields.io/github/forks/makelinux/CVE-2015-0235-workaround.svg)
+
+- [https://github.com/fser/ghost-checker](https://github.com/fser/ghost-checker) :  ![starts](https://img.shields.io/github/stars/fser/ghost-checker.svg) ![forks](https://img.shields.io/github/forks/fser/ghost-checker.svg)
+
+- [https://github.com/arm13/ghost_exploit](https://github.com/arm13/ghost_exploit) :  ![starts](https://img.shields.io/github/stars/arm13/ghost_exploit.svg) ![forks](https://img.shields.io/github/forks/arm13/ghost_exploit.svg)
+
+- [https://github.com/gh-ost00/XMLRPC-Ghost](https://github.com/gh-ost00/XMLRPC-Ghost) :  ![starts](https://img.shields.io/github/stars/gh-ost00/XMLRPC-Ghost.svg) ![forks](https://img.shields.io/github/forks/gh-ost00/XMLRPC-Ghost.svg)
+
+- [https://github.com/mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook) :  ![starts](https://img.shields.io/github/stars/mikesplain/CVE-2015-0235-cookbook.svg) ![forks](https://img.shields.io/github/forks/mikesplain/CVE-2015-0235-cookbook.svg)
+
+- [https://github.com/nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE_2015_0235.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE_2015_0235.svg)
+
+- [https://github.com/furyutei/CVE-2015-0235_GHOST](https://github.com/furyutei/CVE-2015-0235_GHOST) :  ![starts](https://img.shields.io/github/stars/furyutei/CVE-2015-0235_GHOST.svg) ![forks](https://img.shields.io/github/forks/furyutei/CVE-2015-0235_GHOST.svg)
+
+- [https://github.com/adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST) :  ![starts](https://img.shields.io/github/stars/adherzog/ansible-CVE-2015-0235-GHOST.svg) ![forks](https://img.shields.io/github/forks/adherzog/ansible-CVE-2015-0235-GHOST.svg)
+
+- [https://github.com/sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/sUbc0ol/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/sUbc0ol/CVE-2015-0235.svg)
+
+- [https://github.com/alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc) :  ![starts](https://img.shields.io/github/stars/alanmeyer/CVE-glibc.svg) ![forks](https://img.shields.io/github/forks/alanmeyer/CVE-glibc.svg)
+
+- [https://github.com/tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/tobyzxj/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/tobyzxj/CVE-2015-0235.svg)
+
+- [https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235) :  ![starts](https://img.shields.io/github/stars/limkokholefork/GHOSTCHECK-cve-2015-0235.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/GHOSTCHECK-cve-2015-0235.svg)
+
+- [https://github.com/chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235) :  ![starts](https://img.shields.io/github/stars/chayim/GHOSTCHECK-cve-2015-0235.svg) ![forks](https://img.shields.io/github/forks/chayim/GHOSTCHECK-cve-2015-0235.svg)
+
+- [https://github.com/koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc) :  ![starts](https://img.shields.io/github/stars/koudaiii-archives/cookbook-update-glibc.svg) ![forks](https://img.shields.io/github/forks/koudaiii-archives/cookbook-update-glibc.svg)
+
+- [https://github.com/1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester) :  ![starts](https://img.shields.io/github/stars/1and1-serversupport/ghosttester.svg) ![forks](https://img.shields.io/github/forks/1and1-serversupport/ghosttester.svg)
+
+- [https://github.com/favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6) :  ![starts](https://img.shields.io/github/stars/favoretti/lenny-libc6.svg) ![forks](https://img.shields.io/github/forks/favoretti/lenny-libc6.svg)
+
+- [https://github.com/F88/ghostbusters15](https://github.com/F88/ghostbusters15) :  ![starts](https://img.shields.io/github/stars/F88/ghostbusters15.svg) ![forks](https://img.shields.io/github/forks/F88/ghostbusters15.svg)
+
 ## CVE-2015-0231
  Use-after-free vulnerability in the process_nested_data function in ext/standard/var_unserializer.re in PHP before 5.4.37, 5.5.x before 5.5.21, and 5.6.x before 5.6.5 allows remote attackers to execute arbitrary code via a crafted unserialize call that leverages improper handling of duplicate numerical keys within the serialized properties of an object.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-8142.
 
 
 
 - [https://github.com/3xp10it/php_cve-2014-8142_cve-2015-0231](https://github.com/3xp10it/php_cve-2014-8142_cve-2015-0231) :  ![starts](https://img.shields.io/github/stars/3xp10it/php_cve-2014-8142_cve-2015-0231.svg) ![forks](https://img.shields.io/github/forks/3xp10it/php_cve-2014-8142_cve-2015-0231.svg)
-
-## CVE-2015-0205
- The ssl3_get_cert_verify function in s3_srvr.c in OpenSSL 1.0.0 before 1.0.0p and 1.0.1 before 1.0.1k accepts client authentication with a Diffie-Hellman (DH) certificate without requiring a CertificateVerify message, which allows remote attackers to obtain access without knowledge of a private key via crafted TLS Handshake Protocol traffic to a server that recognizes a Certification Authority with DH support.
-
-
-
-- [https://github.com/saurabh2088/OpenSSL_1_0_1g_CVE-2015-0205](https://github.com/saurabh2088/OpenSSL_1_0_1g_CVE-2015-0205) :  ![starts](https://img.shields.io/github/stars/saurabh2088/OpenSSL_1_0_1g_CVE-2015-0205.svg) ![forks](https://img.shields.io/github/forks/saurabh2088/OpenSSL_1_0_1g_CVE-2015-0205.svg)
 
 ## CVE-2015-0204
  The ssl3_get_key_exchange function in s3_clnt.c in OpenSSL before 0.9.8zd, 1.0.0 before 1.0.0p, and 1.0.1 before 1.0.1k allows remote SSL servers to conduct RSA-to-EXPORT_RSA downgrade attacks and facilitate brute-force decryption by offering a weak ephemeral RSA key in a noncompliant role, related to the "FREAK" issue.  NOTE: the scope of this CVE is only client code based on OpenSSL, not EXPORT_RSA issues associated with servers or other TLS implementations.
