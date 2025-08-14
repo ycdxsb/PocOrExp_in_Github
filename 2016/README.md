@@ -39,6 +39,15 @@
 
 - [https://github.com/0xc4t/CVE-2016-10993](https://github.com/0xc4t/CVE-2016-10993) :  ![starts](https://img.shields.io/github/stars/0xc4t/CVE-2016-10993.svg) ![forks](https://img.shields.io/github/forks/0xc4t/CVE-2016-10993.svg)
 
+## CVE-2016-10956
+ The mail-masta plugin 1.0 for WordPress has local file inclusion in count_of_send.php and csvexport.php.
+
+
+
+- [https://github.com/p0dalirius/CVE-2016-10956-mail-masta](https://github.com/p0dalirius/CVE-2016-10956-mail-masta) :  ![starts](https://img.shields.io/github/stars/p0dalirius/CVE-2016-10956-mail-masta.svg) ![forks](https://img.shields.io/github/forks/p0dalirius/CVE-2016-10956-mail-masta.svg)
+
+- [https://github.com/Hackhoven/wp-mail-masta-exploit](https://github.com/Hackhoven/wp-mail-masta-exploit) :  ![starts](https://img.shields.io/github/stars/Hackhoven/wp-mail-masta-exploit.svg) ![forks](https://img.shields.io/github/forks/Hackhoven/wp-mail-masta-exploit.svg)
+
 ## CVE-2016-10924
  The ebook-download plugin before 1.2 for WordPress has directory traversal.
 
@@ -49,6 +58,13 @@
 - [https://github.com/808ale/cve-2016-10924-POC](https://github.com/808ale/cve-2016-10924-POC) :  ![starts](https://img.shields.io/github/stars/808ale/cve-2016-10924-POC.svg) ![forks](https://img.shields.io/github/forks/808ale/cve-2016-10924-POC.svg)
 
 - [https://github.com/LGenAgul/Wordpress-ebook-CVE-2016-10924](https://github.com/LGenAgul/Wordpress-ebook-CVE-2016-10924) :  ![starts](https://img.shields.io/github/stars/LGenAgul/Wordpress-ebook-CVE-2016-10924.svg) ![forks](https://img.shields.io/github/forks/LGenAgul/Wordpress-ebook-CVE-2016-10924.svg)
+
+## CVE-2016-10761
+ Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing encryption, aka MouseJack.
+
+
+
+- [https://github.com/ISSAPolska/CVE-2016-10761](https://github.com/ISSAPolska/CVE-2016-10761) :  ![starts](https://img.shields.io/github/stars/ISSAPolska/CVE-2016-10761.svg) ![forks](https://img.shields.io/github/forks/ISSAPolska/CVE-2016-10761.svg)
 
 ## CVE-2016-10735
  In Bootstrap 3.x before 3.4.0 and 4.x-beta before 4.0.0-beta.2, XSS is possible in the data-target attribute, a different vulnerability than CVE-2018-14041.
@@ -91,12 +107,14 @@
 
 - [https://github.com/scent2d/PoC-CVE-2016-10555](https://github.com/scent2d/PoC-CVE-2016-10555) :  ![starts](https://img.shields.io/github/stars/scent2d/PoC-CVE-2016-10555.svg) ![forks](https://img.shields.io/github/forks/scent2d/PoC-CVE-2016-10555.svg)
 
-## CVE-2016-10401
- ZyXEL PK5001Z devices have zyad5001 as the su password, which makes it easier for remote attackers to obtain root access if a non-root account password is known (or a non-root default account exists within an ISP's deployment of these devices).
+## CVE-2016-10277
+ An elevation of privilege vulnerability in the Motorola bootloader could enable a local malicious application to execute arbitrary code within the context of the bootloader. This issue is rated as Critical due to the possibility of a local permanent device compromise, which may require reflashing the operating system to repair the device. Product: Android. Versions: Kernel-3.10, Kernel-3.18. Android ID: A-33840490.
 
 
 
-- [https://github.com/oxagast/oxasploits](https://github.com/oxagast/oxasploits) :  ![starts](https://img.shields.io/github/stars/oxagast/oxasploits.svg) ![forks](https://img.shields.io/github/forks/oxagast/oxasploits.svg)
+- [https://github.com/alephsecurity/initroot](https://github.com/alephsecurity/initroot) :  ![starts](https://img.shields.io/github/stars/alephsecurity/initroot.svg) ![forks](https://img.shields.io/github/forks/alephsecurity/initroot.svg)
+
+- [https://github.com/leosol/initroot](https://github.com/leosol/initroot) :  ![starts](https://img.shields.io/github/stars/leosol/initroot.svg) ![forks](https://img.shields.io/github/forks/leosol/initroot.svg)
 
 ## CVE-2016-10191
  Heap-based buffer overflow in libavformat/rtmppkt.c in FFmpeg before 2.8.10, 3.0.x before 3.0.5, 3.1.x before 3.1.6, and 3.2.x before 3.2.2 allows remote attackers to execute arbitrary code by leveraging failure to check for RTMP packet size mismatches.
@@ -222,6 +240,13 @@
 
 - [https://github.com/glestel/minion-ticket-bleed-plugin](https://github.com/glestel/minion-ticket-bleed-plugin) :  ![starts](https://img.shields.io/github/stars/glestel/minion-ticket-bleed-plugin.svg) ![forks](https://img.shields.io/github/forks/glestel/minion-ticket-bleed-plugin.svg)
 
+## CVE-2016-9192
+ A vulnerability in Cisco AnyConnect Secure Mobility Client for Windows could allow an authenticated, local attacker to install and execute an arbitrary executable file with privileges equivalent to the Microsoft Windows operating system SYSTEM account. More Information: CSCvb68043. Known Affected Releases: 4.3(2039) 4.3(748). Known Fixed Releases: 4.3(4019) 4.4(225).
+
+
+
+- [https://github.com/serializingme/cve-2016-9192](https://github.com/serializingme/cve-2016-9192) :  ![starts](https://img.shields.io/github/stars/serializingme/cve-2016-9192.svg) ![forks](https://img.shields.io/github/forks/serializingme/cve-2016-9192.svg)
+
 ## CVE-2016-9079
  A use-after-free vulnerability in SVG Animation has been discovered. An exploit built on this vulnerability has been discovered in the wild targeting Firefox and Tor Browser users on Windows. This vulnerability affects Firefox  50.0.2, Firefox ESR  45.5.1, and Thunderbird  45.5.1.
 
@@ -262,6 +287,13 @@
 
 - [https://github.com/zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870](https://github.com/zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870) :  ![starts](https://img.shields.io/github/stars/zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870.svg) ![forks](https://img.shields.io/github/forks/zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870.svg)
 
+## CVE-2016-8863
+ Heap-based buffer overflow in the create_url_list function in gena/gena_device.c in Portable UPnP SDK (aka libupnp) before 1.6.21 allows remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via a valid URI followed by an invalid one in the CALLBACK header of an SUBSCRIBE request.
+
+
+
+- [https://github.com/mephi42/CVE-2016-8863](https://github.com/mephi42/CVE-2016-8863) :  ![starts](https://img.shields.io/github/stars/mephi42/CVE-2016-8863.svg) ![forks](https://img.shields.io/github/forks/mephi42/CVE-2016-8863.svg)
+
 ## CVE-2016-8858
  The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that "OpenSSH upstream does not consider this as a security issue."
 
@@ -275,6 +307,13 @@
 
 
 - [https://github.com/SpiralBL0CK/NDAY_CVE_2016_8823](https://github.com/SpiralBL0CK/NDAY_CVE_2016_8823) :  ![starts](https://img.shields.io/github/stars/SpiralBL0CK/NDAY_CVE_2016_8823.svg) ![forks](https://img.shields.io/github/forks/SpiralBL0CK/NDAY_CVE_2016_8823.svg)
+
+## CVE-2016-8776
+ Huawei P9 phones with software EVA-AL10C00,EVA-CL10C00,EVA-DL10C00,EVA-TL10C00 and P9 Lite phones with software VNS-L21C185 allow attackers to bypass the factory reset protection (FRP) to enter some functional modules without authorization and perform operations to update the Google account.
+
+
+
+- [https://github.com/akzedevops/CVE-2016-8776](https://github.com/akzedevops/CVE-2016-8776) :  ![starts](https://img.shields.io/github/stars/akzedevops/CVE-2016-8776.svg) ![forks](https://img.shields.io/github/forks/akzedevops/CVE-2016-8776.svg)
 
 ## CVE-2016-8740
  The mod_http2 module in the Apache HTTP Server 2.4.17 through 2.4.23, when the Protocols configuration includes h2 or h2c, does not restrict request-header length, which allows remote attackers to cause a denial of service (memory consumption) via crafted CONTINUATION frames in an HTTP/2 request.
@@ -365,6 +404,13 @@
 
 ## CVE-2016-8023
  Authentication bypass by assumed-immutable data vulnerability in Intel Security VirusScan Enterprise Linux (VSEL) 2.0.3 (and earlier) allows remote unauthenticated attacker to bypass server authentication via a crafted authentication cookie.
+
+
+
+- [https://github.com/opsxcq/exploit-CVE-2016-8016-25](https://github.com/opsxcq/exploit-CVE-2016-8016-25) :  ![starts](https://img.shields.io/github/stars/opsxcq/exploit-CVE-2016-8016-25.svg) ![forks](https://img.shields.io/github/forks/opsxcq/exploit-CVE-2016-8016-25.svg)
+
+## CVE-2016-8022
+ Authentication bypass by spoofing vulnerability in Intel Security VirusScan Enterprise Linux (VSEL) 2.0.3 (and earlier) allows remote unauthenticated attacker to execute arbitrary code or cause a denial of service via a crafted authentication cookie.
 
 
 
@@ -501,6 +547,13 @@
 
 - [https://github.com/CybermonkX/CVE-2016-6914-UniFiVideo-LPE](https://github.com/CybermonkX/CVE-2016-6914-UniFiVideo-LPE) :  ![starts](https://img.shields.io/github/stars/CybermonkX/CVE-2016-6914-UniFiVideo-LPE.svg) ![forks](https://img.shields.io/github/forks/CybermonkX/CVE-2016-6914-UniFiVideo-LPE.svg)
 
+## CVE-2016-6801
+ Cross-site request forgery (CSRF) vulnerability in the CSRF content-type check in Jackrabbit-Webdav in Apache Jackrabbit 2.4.x before 2.4.6, 2.6.x before 2.6.6, 2.8.x before 2.8.3, 2.10.x before 2.10.4, 2.12.x before 2.12.4, and 2.13.x before 2.13.3 allows remote attackers to hijack the authentication of unspecified victims for requests that create a resource via an HTTP POST request with a (1) missing or (2) crafted Content-Type header.
+
+
+
+- [https://github.com/TSNGL21/CVE-2016-6801](https://github.com/TSNGL21/CVE-2016-6801) :  ![starts](https://img.shields.io/github/stars/TSNGL21/CVE-2016-6801.svg) ![forks](https://img.shields.io/github/forks/TSNGL21/CVE-2016-6801.svg)
+
 ## CVE-2016-6798
  In the XSS Protection API module before 1.0.12 in Apache Sling, the method XSS.getValidXML() uses an insecure SAX parser to validate the input string, which allows for XXE attacks in all scripts which use this method to validate user input, potentially allowing an attacker to read sensitive data on the filesystem, perform same-site-request-forgery (SSRF), port-scanning behind the firewall or DoS the application.
 
@@ -634,6 +687,13 @@
 - [https://github.com/Milo-D/CVE-2016-6187_LPE](https://github.com/Milo-D/CVE-2016-6187_LPE) :  ![starts](https://img.shields.io/github/stars/Milo-D/CVE-2016-6187_LPE.svg) ![forks](https://img.shields.io/github/forks/Milo-D/CVE-2016-6187_LPE.svg)
 
 - [https://github.com/vnik5287/cve-2016-6187-poc](https://github.com/vnik5287/cve-2016-6187-poc) :  ![starts](https://img.shields.io/github/stars/vnik5287/cve-2016-6187-poc.svg) ![forks](https://img.shields.io/github/forks/vnik5287/cve-2016-6187-poc.svg)
+
+## CVE-2016-5983
+ IBM WebSphere Application Server (WAS) 7.0 before 7.0.0.43, 8.0 before 8.0.0.13, 8.5 before 8.5.5.11, 9.0 before 9.0.0.2, and Liberty before 16.0.0.4 allows remote authenticated users to execute arbitrary Java code via a crafted serialized object.
+
+
+
+- [https://github.com/BitWrecker/CVE-2016-5983](https://github.com/BitWrecker/CVE-2016-5983) :  ![starts](https://img.shields.io/github/stars/BitWrecker/CVE-2016-5983.svg) ![forks](https://img.shields.io/github/forks/BitWrecker/CVE-2016-5983.svg)
 
 ## CVE-2016-5734
  phpMyAdmin 4.0.x before 4.0.10.16, 4.4.x before 4.4.15.7, and 4.6.x before 4.6.3 does not properly choose delimiters to prevent use of the preg_replace e (aka eval) modifier, which might allow remote attackers to execute arbitrary PHP code via a crafted string, as demonstrated by the table search-and-replace implementation.
@@ -893,6 +953,20 @@
 
 - [https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-](https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-) :  ![starts](https://img.shields.io/github/stars/dinidhu96/IT19013756_-CVE-2016-4971-.svg) ![forks](https://img.shields.io/github/forks/dinidhu96/IT19013756_-CVE-2016-4971-.svg)
 
+## CVE-2016-4861
+ The (1) order and (2) group methods in Zend_Db_Select in the Zend Framework before 1.12.20 might allow remote attackers to conduct SQL injection attacks by leveraging failure to remove comments from an SQL statement before validation.
+
+
+
+- [https://github.com/KosukeShimofuji/CVE-2016-4861](https://github.com/KosukeShimofuji/CVE-2016-4861) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-4861.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-4861.svg)
+
+## CVE-2016-4845
+ Cross-site request forgery (CSRF) vulnerability on I-O DATA DEVICE HVL-A2.0, HVL-A3.0, HVL-A4.0, HVL-AT1.0S, HVL-AT2.0, HVL-AT3.0, HVL-AT4.0, HVL-AT2.0A, HVL-AT3.0A, and HVL-AT4.0A devices with firmware before 2.04 allows remote attackers to hijack the authentication of arbitrary users for requests that delete content.
+
+
+
+- [https://github.com/kaito834/cve-2016-4845_csrf](https://github.com/kaito834/cve-2016-4845_csrf) :  ![starts](https://img.shields.io/github/stars/kaito834/cve-2016-4845_csrf.svg) ![forks](https://img.shields.io/github/forks/kaito834/cve-2016-4845_csrf.svg)
+
 ## CVE-2016-4825
  The Collne Welcart e-Commerce plugin before 1.8.3 for WordPress allows remote attackers to conduct PHP object injection attacks and execute arbitrary PHP code via crafted serialized data.
 
@@ -931,6 +1005,19 @@
 
 - [https://github.com/liangle1986126z/jndok](https://github.com/liangle1986126z/jndok) :  ![starts](https://img.shields.io/github/stars/liangle1986126z/jndok.svg) ![forks](https://img.shields.io/github/forks/liangle1986126z/jndok.svg)
 
+## CVE-2016-4655
+ The kernel in Apple iOS before 9.3.5 allows attackers to obtain sensitive information from memory via a crafted app.
+
+
+
+- [https://github.com/jndok/PegasusX](https://github.com/jndok/PegasusX) :  ![starts](https://img.shields.io/github/stars/jndok/PegasusX.svg) ![forks](https://img.shields.io/github/forks/jndok/PegasusX.svg)
+
+- [https://github.com/tomitokics/br0ke](https://github.com/tomitokics/br0ke) :  ![starts](https://img.shields.io/github/stars/tomitokics/br0ke.svg) ![forks](https://img.shields.io/github/forks/tomitokics/br0ke.svg)
+
+- [https://github.com/Cryptiiiic/skybreak](https://github.com/Cryptiiiic/skybreak) :  ![starts](https://img.shields.io/github/stars/Cryptiiiic/skybreak.svg) ![forks](https://img.shields.io/github/forks/Cryptiiiic/skybreak.svg)
+
+- [https://github.com/liangle1986126z/jndok](https://github.com/liangle1986126z/jndok) :  ![starts](https://img.shields.io/github/stars/liangle1986126z/jndok.svg) ![forks](https://img.shields.io/github/forks/liangle1986126z/jndok.svg)
+
 ## CVE-2016-4631
  ImageIO in Apple iOS before 9.3.3, OS X before 10.11.6, tvOS before 9.2.2, and watchOS before 2.2.2 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted TIFF file.
 
@@ -949,12 +1036,28 @@
 
 - [https://github.com/hdbreaker/WebKit-CVE-2016-4622](https://github.com/hdbreaker/WebKit-CVE-2016-4622) :  ![starts](https://img.shields.io/github/stars/hdbreaker/WebKit-CVE-2016-4622.svg) ![forks](https://img.shields.io/github/forks/hdbreaker/WebKit-CVE-2016-4622.svg)
 
+## CVE-2016-4468
+ SQL injection vulnerability in Pivotal Cloud Foundry (PCF) before 238; UAA 2.x before 2.7.4.4, 3.x before 3.3.0.2, and 3.4.x before 3.4.1; UAA BOSH before 11.2 and 12.x before 12.2; Elastic Runtime before 1.6.29 and 1.7.x before 1.7.7; and Ops Manager 1.7.x before 1.7.8 allows remote authenticated users to execute arbitrary SQL commands via unspecified vectors.
+
+
+
+- [https://github.com/shanika04/cloudfoundry_uaa](https://github.com/shanika04/cloudfoundry_uaa) :  ![starts](https://img.shields.io/github/stars/shanika04/cloudfoundry_uaa.svg) ![forks](https://img.shields.io/github/forks/shanika04/cloudfoundry_uaa.svg)
+
 ## CVE-2016-4463
  Stack-based buffer overflow in Apache Xerces-C++ before 3.1.4 allows context-dependent attackers to cause a denial of service via a deeply nested DTD.
 
 
 
 - [https://github.com/arntsonl/CVE-2016-4463](https://github.com/arntsonl/CVE-2016-4463) :  ![starts](https://img.shields.io/github/stars/arntsonl/CVE-2016-4463.svg) ![forks](https://img.shields.io/github/forks/arntsonl/CVE-2016-4463.svg)
+
+## CVE-2016-4438
+ The REST plugin in Apache Struts 2 2.3.19 through 2.3.28.1 allows remote attackers to execute arbitrary code via a crafted expression.
+
+
+
+- [https://github.com/jason3e7/CVE-2016-4438](https://github.com/jason3e7/CVE-2016-4438) :  ![starts](https://img.shields.io/github/stars/jason3e7/CVE-2016-4438.svg) ![forks](https://img.shields.io/github/forks/jason3e7/CVE-2016-4438.svg)
+
+- [https://github.com/tafamace/CVE-2016-4438](https://github.com/tafamace/CVE-2016-4438) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2016-4438.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2016-4438.svg)
 
 ## CVE-2016-4437
  Apache Shiro before 1.2.5, when a cipher key has not been configured for the "remember me" feature, allows remote attackers to execute arbitrary code or bypass intended access restrictions via an unspecified request parameter.
@@ -1171,6 +1274,15 @@
 
 - [https://github.com/iknowjason/spb](https://github.com/iknowjason/spb) :  ![starts](https://img.shields.io/github/stars/iknowjason/spb.svg) ![forks](https://img.shields.io/github/forks/iknowjason/spb.svg)
 
+## CVE-2016-2776
+ buffer.c in named in ISC BIND 9 before 9.9.9-P3, 9.10.x before 9.10.4-P3, and 9.11.x before 9.11.0rc3 does not properly construct responses, which allows remote attackers to cause a denial of service (assertion failure and daemon exit) via a crafted query.
+
+
+
+- [https://github.com/infobyte/CVE-2016-2776](https://github.com/infobyte/CVE-2016-2776) :  ![starts](https://img.shields.io/github/stars/infobyte/CVE-2016-2776.svg) ![forks](https://img.shields.io/github/forks/infobyte/CVE-2016-2776.svg)
+
+- [https://github.com/KosukeShimofuji/CVE-2016-2776](https://github.com/KosukeShimofuji/CVE-2016-2776) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-2776.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-2776.svg)
+
 ## CVE-2016-2569
  Squid 3.x before 3.5.15 and 4.x before 4.0.7 does not properly append data to String objects, which allows remote servers to cause a denial of service (assertion failure and daemon exit) via a long string, as demonstrated by a crafted HTTP Vary header.
 
@@ -1271,6 +1383,13 @@
 
 
 - [https://github.com/HaToan/CVE-2016-2173](https://github.com/HaToan/CVE-2016-2173) :  ![starts](https://img.shields.io/github/stars/HaToan/CVE-2016-2173.svg) ![forks](https://img.shields.io/github/forks/HaToan/CVE-2016-2173.svg)
+
+## CVE-2016-2118
+ The MS-SAMR and MS-LSAD protocol implementations in Samba 3.x and 4.x before 4.2.11, 4.3.x before 4.3.8, and 4.4.x before 4.4.2 mishandle DCERPC connections, which allows man-in-the-middle attackers to perform protocol-downgrade attacks and impersonate users by modifying the client-server data stream, aka "BADLOCK."
+
+
+
+- [https://github.com/nickanderson/cfengine-CVE-2016-2118](https://github.com/nickanderson/cfengine-CVE-2016-2118) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE-2016-2118.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE-2016-2118.svg)
 
 ## CVE-2016-2107
  The AES-NI implementation in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h does not consider memory allocation during a certain padding check, which allows remote attackers to obtain sensitive cleartext information via a padding-oracle attack against an AES CBC session. NOTE: this vulnerability exists because of an incorrect fix for CVE-2013-0169.
@@ -1501,6 +1620,13 @@
 
 
 - [https://github.com/anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan) :  ![starts](https://img.shields.io/github/stars/anthophilee/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/anthophilee/A2SV--SSL-VUL-Scan.svg)
+
+## CVE-2016-0793
+ Incomplete blacklist vulnerability in the servlet filter restriction mechanism in WildFly (formerly JBoss Application Server) before 10.0.0.Final on Windows allows remote attackers to read the sensitive files in the (1) WEB-INF or (2) META-INF directory via a request that contains (a) lowercase or (b) "meaningless" characters.
+
+
+
+- [https://github.com/tafamace/CVE-2016-0793](https://github.com/tafamace/CVE-2016-0793) :  ![starts](https://img.shields.io/github/stars/tafamace/CVE-2016-0793.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2016-0793.svg)
 
 ## CVE-2016-0792
  Multiple unspecified API endpoints in Jenkins before 1.650 and LTS before 1.642.2 allow remote authenticated users to execute arbitrary code via serialized data in an XML file, related to XStream and groovy.util.Expando.
