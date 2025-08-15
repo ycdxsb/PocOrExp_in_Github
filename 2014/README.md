@@ -364,9 +364,9 @@
 
 - [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
 
-- [https://github.com/RadYio/CVE-2014-6271](https://github.com/RadYio/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/RadYio/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/RadYio/CVE-2014-6271.svg)
-
 - [https://github.com/woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/woltage/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/woltage/CVE-2014-6271.svg)
+
+- [https://github.com/RadYio/CVE-2014-6271](https://github.com/RadYio/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/RadYio/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/RadYio/CVE-2014-6271.svg)
 
 - [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
 
@@ -386,9 +386,9 @@
 
 - [https://github.com/dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes) :  ![starts](https://img.shields.io/github/stars/dlitz/bash-cve-2014-6271-fixes.svg) ![forks](https://img.shields.io/github/forks/dlitz/bash-cve-2014-6271-fixes.svg)
 
-- [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
-
 - [https://github.com/cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Shellbash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Shellbash-CVE-2014-6271.svg)
+
+- [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
 
 - [https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-](https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-) :  ![starts](https://img.shields.io/github/stars/rashmikadileeshara/CVE-2014-6271-Shellshock-.svg) ![forks](https://img.shields.io/github/forks/rashmikadileeshara/CVE-2014-6271-Shellshock-.svg)
 
@@ -489,6 +489,13 @@
 
 
 - [https://github.com/0x3a/CVE-2014-4936](https://github.com/0x3a/CVE-2014-4936) :  ![starts](https://img.shields.io/github/stars/0x3a/CVE-2014-4936.svg) ![forks](https://img.shields.io/github/forks/0x3a/CVE-2014-4936.svg)
+
+## CVE-2014-4725
+ The MailPoet Newsletters (wysija-newsletters) plugin before 2.6.7 for WordPress allows remote attackers to bypass authentication and execute arbitrary PHP code by uploading a crafted theme using wp-admin/admin-post.php and accessing the theme in wp-content/uploads/wysija/themes/mailp/.
+
+
+
+- [https://github.com/Pwdnx1337/MASS-CVE-2014-4725](https://github.com/Pwdnx1337/MASS-CVE-2014-4725) :  ![starts](https://img.shields.io/github/stars/Pwdnx1337/MASS-CVE-2014-4725.svg) ![forks](https://img.shields.io/github/forks/Pwdnx1337/MASS-CVE-2014-4725.svg)
 
 ## CVE-2014-4699
  The Linux kernel before 3.15.4 on Intel processors does not properly restrict use of a non-canonical value for the saved RIP address in the case of a system call that does not use IRET, which allows local users to leverage a race condition and gain privileges, or cause a denial of service (double fault), via a crafted application that makes ptrace and fork system calls.
@@ -647,6 +654,13 @@
 - [https://github.com/Neldeborg/Drupalgeddon-Python3](https://github.com/Neldeborg/Drupalgeddon-Python3) :  ![starts](https://img.shields.io/github/stars/Neldeborg/Drupalgeddon-Python3.svg) ![forks](https://img.shields.io/github/forks/Neldeborg/Drupalgeddon-Python3.svg)
 
 - [https://github.com/AleDiBen/Drupalgeddon](https://github.com/AleDiBen/Drupalgeddon) :  ![starts](https://img.shields.io/github/stars/AleDiBen/Drupalgeddon.svg) ![forks](https://img.shields.io/github/forks/AleDiBen/Drupalgeddon.svg)
+
+## CVE-2014-3656
+ JBoss KeyCloak: XSS in login-status-iframe.html
+
+
+
+- [https://github.com/shoucheng3/keycloak__keycloak_CVE-2014-3656_1-0-5-Final](https://github.com/shoucheng3/keycloak__keycloak_CVE-2014-3656_1-0-5-Final) :  ![starts](https://img.shields.io/github/stars/shoucheng3/keycloak__keycloak_CVE-2014-3656_1-0-5-Final.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/keycloak__keycloak_CVE-2014-3656_1-0-5-Final.svg)
 
 ## CVE-2014-3625
  Directory traversal vulnerability in Pivotal Spring Framework 3.0.4 through 3.2.x before 3.2.12, 4.0.x before 4.0.8, and 4.1.x before 4.1.2 allows remote attackers to read arbitrary files via unspecified vectors, related to static resource handling.
