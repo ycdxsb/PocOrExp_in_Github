@@ -12,6 +12,8 @@
 
 - [https://github.com/D3Ext/CVE-2015-10141](https://github.com/D3Ext/CVE-2015-10141) :  ![starts](https://img.shields.io/github/stars/D3Ext/CVE-2015-10141.svg) ![forks](https://img.shields.io/github/forks/D3Ext/CVE-2015-10141.svg)
 
+- [https://github.com/n0m4d22/PoC-CVE-2015-10141-Xdebug](https://github.com/n0m4d22/PoC-CVE-2015-10141-Xdebug) :  ![starts](https://img.shields.io/github/stars/n0m4d22/PoC-CVE-2015-10141-Xdebug.svg) ![forks](https://img.shields.io/github/forks/n0m4d22/PoC-CVE-2015-10141-Xdebug.svg)
+
 ## CVE-2015-10137
  The Website Contact Form With File Upload plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'upload_file()' function in versions up to, and including, 1.3.4. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.
 
@@ -721,6 +723,8 @@
 - [https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit](https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit) :  ![starts](https://img.shields.io/github/stars/cdedmondson/Modified-CVE-2015-3306-Exploit.svg) ![forks](https://img.shields.io/github/forks/cdedmondson/Modified-CVE-2015-3306-Exploit.svg)
 
 - [https://github.com/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution](https://github.com/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution) :  ![starts](https://img.shields.io/github/stars/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution.svg)
+
+- [https://github.com/HariCyber-Sec/hackviser-cve-labs](https://github.com/HariCyber-Sec/hackviser-cve-labs) :  ![starts](https://img.shields.io/github/stars/HariCyber-Sec/hackviser-cve-labs.svg) ![forks](https://img.shields.io/github/forks/HariCyber-Sec/hackviser-cve-labs.svg)
 
 ## CVE-2015-3239
  Off-by-one error in the dwarf_to_unw_regnum function in include/dwarf_i.h in libunwind 1.1 allows local users to have unspecified impact via invalid dwarf opcodes.
