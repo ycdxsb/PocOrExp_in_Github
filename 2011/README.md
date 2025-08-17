@@ -98,6 +98,13 @@
 
 - [https://github.com/pwntester/SpringBreaker](https://github.com/pwntester/SpringBreaker) :  ![starts](https://img.shields.io/github/stars/pwntester/SpringBreaker.svg) ![forks](https://img.shields.io/github/forks/pwntester/SpringBreaker.svg)
 
+## CVE-2011-2732
+ CRLF injection vulnerability in the logout functionality in VMware SpringSource Spring Security before 2.0.7 and 3.0.x before 3.0.6 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the spring-security-redirect parameter.
+
+
+
+- [https://github.com/shoucheng3/spring-projects__spring-security_CVE-2011-2732_2-0-6-RELEASE](https://github.com/shoucheng3/spring-projects__spring-security_CVE-2011-2732_2-0-6-RELEASE) :  ![starts](https://img.shields.io/github/stars/shoucheng3/spring-projects__spring-security_CVE-2011-2732_2-0-6-RELEASE.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/spring-projects__spring-security_CVE-2011-2732_2-0-6-RELEASE.svg)
+
 ## CVE-2011-2523
  vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which opens a shell on port 6200/tcp.
 
