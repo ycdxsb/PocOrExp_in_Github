@@ -197,9 +197,9 @@
 
 - [https://github.com/Astrowmist/POC-CVE-2016-10033](https://github.com/Astrowmist/POC-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/Astrowmist/POC-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Astrowmist/POC-CVE-2016-10033.svg)
 
-- [https://github.com/liusec/WP-CVE-2016-10033](https://github.com/liusec/WP-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/liusec/WP-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/liusec/WP-CVE-2016-10033.svg)
-
 - [https://github.com/zeeshanbhattined/exploit-CVE-2016-10033](https://github.com/zeeshanbhattined/exploit-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/zeeshanbhattined/exploit-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/zeeshanbhattined/exploit-CVE-2016-10033.svg)
+
+- [https://github.com/liusec/WP-CVE-2016-10033](https://github.com/liusec/WP-CVE-2016-10033) :  ![starts](https://img.shields.io/github/stars/liusec/WP-CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/liusec/WP-CVE-2016-10033.svg)
 
 - [https://github.com/sealldeveloper/CVE-2016-10033-PoC](https://github.com/sealldeveloper/CVE-2016-10033-PoC) :  ![starts](https://img.shields.io/github/stars/sealldeveloper/CVE-2016-10033-PoC.svg) ![forks](https://img.shields.io/github/forks/sealldeveloper/CVE-2016-10033-PoC.svg)
 
@@ -253,6 +253,13 @@
 
 
 - [https://github.com/serializingme/cve-2016-9192](https://github.com/serializingme/cve-2016-9192) :  ![starts](https://img.shields.io/github/stars/serializingme/cve-2016-9192.svg) ![forks](https://img.shields.io/github/forks/serializingme/cve-2016-9192.svg)
+
+## CVE-2016-9177
+ Directory traversal vulnerability in Spark 2.5 allows remote attackers to read arbitrary files via a .. (dot dot) in the URI.
+
+
+
+- [https://github.com/shoucheng3/perwendel__spark_CVE-2016-9177_2-5-1](https://github.com/shoucheng3/perwendel__spark_CVE-2016-9177_2-5-1) :  ![starts](https://img.shields.io/github/stars/shoucheng3/perwendel__spark_CVE-2016-9177_2-5-1.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/perwendel__spark_CVE-2016-9177_2-5-1.svg)
 
 ## CVE-2016-9079
  A use-after-free vulnerability in SVG Animation has been discovered. An exploit built on this vulnerability has been discovered in the wild targeting Firefox and Tor Browser users on Windows. This vulnerability affects Firefox  50.0.2, Firefox ESR  45.5.1, and Thunderbird  45.5.1.
@@ -553,6 +560,13 @@
 
 
 - [https://github.com/CybermonkX/CVE-2016-6914-UniFiVideo-LPE](https://github.com/CybermonkX/CVE-2016-6914-UniFiVideo-LPE) :  ![starts](https://img.shields.io/github/stars/CybermonkX/CVE-2016-6914-UniFiVideo-LPE.svg) ![forks](https://img.shields.io/github/forks/CybermonkX/CVE-2016-6914-UniFiVideo-LPE.svg)
+
+## CVE-2016-6812
+ The HTTP transport module in Apache CXF prior to 3.0.12 and 3.1.x prior to 3.1.9 uses FormattedServiceListWriter to provide an HTML page which lists the names and absolute URL addresses of the available service endpoints. The module calculates the base URL using the current HttpServletRequest. The calculated base URL is used by FormattedServiceListWriter to build the service endpoint absolute URLs. If the unexpected matrix parameters have been injected into the request URL then these matrix parameters will find their way back to the client in the services list page which represents an XSS risk to the client.
+
+
+
+- [https://github.com/shoucheng3/asf__cxf_CVE-2016-6812_3-0-11](https://github.com/shoucheng3/asf__cxf_CVE-2016-6812_3-0-11) :  ![starts](https://img.shields.io/github/stars/shoucheng3/asf__cxf_CVE-2016-6812_3-0-11.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/asf__cxf_CVE-2016-6812_3-0-11.svg)
 
 ## CVE-2016-6801
  Cross-site request forgery (CSRF) vulnerability in the CSRF content-type check in Jackrabbit-Webdav in Apache Jackrabbit 2.4.x before 2.4.6, 2.6.x before 2.6.6, 2.8.x before 2.8.3, 2.10.x before 2.10.4, 2.12.x before 2.12.4, and 2.13.x before 2.13.3 allows remote attackers to hijack the authentication of unspecified victims for requests that create a resource via an HTTP POST request with a (1) missing or (2) crafted Content-Type header.
@@ -873,11 +887,11 @@
 
 - [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
 
-- [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
-
 - [https://github.com/h1n4mx0/Research-CVE-2016-5195](https://github.com/h1n4mx0/Research-CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/h1n4mx0/Research-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/h1n4mx0/Research-CVE-2016-5195.svg)
 
 - [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
+
+- [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
 
 - [https://github.com/EDLLT/CVE-2016-5195-master](https://github.com/EDLLT/CVE-2016-5195-master) :  ![starts](https://img.shields.io/github/stars/EDLLT/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/EDLLT/CVE-2016-5195-master.svg)
 
