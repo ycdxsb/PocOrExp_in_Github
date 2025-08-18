@@ -199,6 +199,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/piranhap/CVE-2013-3900_Remediation_PowerShell](https://github.com/piranhap/CVE-2013-3900_Remediation_PowerShell) :  ![starts](https://img.shields.io/github/stars/piranhap/CVE-2013-3900_Remediation_PowerShell.svg) ![forks](https://img.shields.io/github/forks/piranhap/CVE-2013-3900_Remediation_PowerShell.svg)
 
+- [https://github.com/PREN0MEN/CVE-2013-3900-PowerShell-PoC](https://github.com/PREN0MEN/CVE-2013-3900-PowerShell-PoC) :  ![starts](https://img.shields.io/github/stars/PREN0MEN/CVE-2013-3900-PowerShell-PoC.svg) ![forks](https://img.shields.io/github/forks/PREN0MEN/CVE-2013-3900-PowerShell-PoC.svg)
+
 - [https://github.com/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-](https://github.com/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-) :  ![starts](https://img.shields.io/github/stars/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-.svg) ![forks](https://img.shields.io/github/forks/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-.svg)
 
 ## CVE-2013-3893
