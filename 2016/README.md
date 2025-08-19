@@ -210,6 +210,8 @@
 
 - [https://github.com/epicosy/VUL4J-60](https://github.com/epicosy/VUL4J-60) :  ![starts](https://img.shields.io/github/stars/epicosy/VUL4J-60.svg) ![forks](https://img.shields.io/github/forks/epicosy/VUL4J-60.svg)
 
+- [https://github.com/shoucheng3/nahsra__antisamy_CVE-2016-10006_1-5-3](https://github.com/shoucheng3/nahsra__antisamy_CVE-2016-10006_1-5-3) :  ![starts](https://img.shields.io/github/stars/shoucheng3/nahsra__antisamy_CVE-2016-10006_1-5-3.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/nahsra__antisamy_CVE-2016-10006_1-5-3.svg)
+
 ## CVE-2016-9920
  steps/mail/sendmail.inc in Roundcube before 1.1.7 and 1.2.x before 1.2.3, when no SMTP server is configured and the sendmail program is enabled, does not properly restrict the use of custom envelope-from addresses on the sendmail command line, which allows remote authenticated users to execute arbitrary code via a modified HTTP request that sends a crafted e-mail message.
 
