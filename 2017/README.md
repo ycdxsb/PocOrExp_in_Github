@@ -294,13 +294,6 @@
 
 - [https://github.com/h0cksr/Fastjson--CVE-2017-18349-](https://github.com/h0cksr/Fastjson--CVE-2017-18349-) :  ![starts](https://img.shields.io/github/stars/h0cksr/Fastjson--CVE-2017-18349-.svg) ![forks](https://img.shields.io/github/forks/h0cksr/Fastjson--CVE-2017-18349-.svg)
 
-## CVE-2017-18345
- The Joomanager component through 2.0.0 for Joomla! has an arbitrary file download issue, resulting in exposing the credentials of the database via an index.php?option=com_joomanager&controller=details&task=download&path=configuration.php request.
-
-
-
-- [https://github.com/Luth1er/CVE-2017-18345-COM_JOOMANAGER-ARBITRARY-FILE-DOWNLOAD](https://github.com/Luth1er/CVE-2017-18345-COM_JOOMANAGER-ARBITRARY-FILE-DOWNLOAD) :  ![starts](https://img.shields.io/github/stars/Luth1er/CVE-2017-18345-COM_JOOMANAGER-ARBITRARY-FILE-DOWNLOAD.svg) ![forks](https://img.shields.io/github/forks/Luth1er/CVE-2017-18345-COM_JOOMANAGER-ARBITRARY-FILE-DOWNLOAD.svg)
-
 ## CVE-2017-18344
  The timer_create syscall implementation in kernel/time/posix-timers.c in the Linux kernel before 4.14.8 doesn't properly validate the sigevent-sigev_notify field, which leads to out-of-bounds access in the show_timer function (called when /proc/$PID/timers is read). This allows userspace applications to read arbitrary kernel memory (on a kernel built with CONFIG_POSIX_TIMERS and CONFIG_CHECKPOINT_RESTORE).
 
@@ -2108,13 +2101,6 @@
 
 - [https://github.com/7043mcgeep/cve-2017-8890-msf](https://github.com/7043mcgeep/cve-2017-8890-msf) :  ![starts](https://img.shields.io/github/stars/7043mcgeep/cve-2017-8890-msf.svg) ![forks](https://img.shields.io/github/forks/7043mcgeep/cve-2017-8890-msf.svg)
 
-## CVE-2017-8869
- Buffer overflow in MediaCoder 0.8.48.5888 allows remote attackers to execute arbitrary code via a crafted .m3u file.
-
-
-
-- [https://github.com/tankist0x01/CVE-2017-8869](https://github.com/tankist0x01/CVE-2017-8869) :  ![starts](https://img.shields.io/github/stars/tankist0x01/CVE-2017-8869.svg) ![forks](https://img.shields.io/github/forks/tankist0x01/CVE-2017-8869.svg)
-
 ## CVE-2017-8809
  api.php in MediaWiki before 1.27.4, 1.28.x before 1.28.3, and 1.29.x before 1.29.2 has a Reflected File Download vulnerability.
 
@@ -2128,13 +2114,6 @@
 
 
 - [https://github.com/ozzi-/Zimbra-CVE-2017-8802-Hotifx](https://github.com/ozzi-/Zimbra-CVE-2017-8802-Hotifx) :  ![starts](https://img.shields.io/github/stars/ozzi-/Zimbra-CVE-2017-8802-Hotifx.svg) ![forks](https://img.shields.io/github/forks/ozzi-/Zimbra-CVE-2017-8802-Hotifx.svg)
-
-## CVE-2017-8798
- Integer signedness error in MiniUPnP MiniUPnPc v1.4.20101221 through v2.0 allows remote attackers to cause a denial of service or possibly have unspecified other impact.
-
-
-
-- [https://github.com/tintinweb/pub](https://github.com/tintinweb/pub) :  ![starts](https://img.shields.io/github/stars/tintinweb/pub.svg) ![forks](https://img.shields.io/github/forks/tintinweb/pub.svg)
 
 ## CVE-2017-8779
  rpcbind through 0.2.4, LIBTIRPC through 1.0.1 and 1.0.2-rc through 1.0.2-rc3, and NTIRPC through 1.4.3 do not consider the maximum RPC data size during memory allocation for XDR strings, which allows remote attackers to cause a denial of service (memory consumption with no subsequent free) via a crafted UDP packet to port 111, aka rpcbomb.
@@ -2471,6 +2450,8 @@
 
 - [https://github.com/SirEagIe/CVE-2017-7529](https://github.com/SirEagIe/CVE-2017-7529) :  ![starts](https://img.shields.io/github/stars/SirEagIe/CVE-2017-7529.svg) ![forks](https://img.shields.io/github/forks/SirEagIe/CVE-2017-7529.svg)
 
+- [https://github.com/coolman6942o/-Exploit-CVE-2017-7529](https://github.com/coolman6942o/-Exploit-CVE-2017-7529) :  ![starts](https://img.shields.io/github/stars/coolman6942o/-Exploit-CVE-2017-7529.svg) ![forks](https://img.shields.io/github/forks/coolman6942o/-Exploit-CVE-2017-7529.svg)
+
 - [https://github.com/portfolio10/nginx](https://github.com/portfolio10/nginx) :  ![starts](https://img.shields.io/github/stars/portfolio10/nginx.svg) ![forks](https://img.shields.io/github/forks/portfolio10/nginx.svg)
 
 - [https://github.com/cved-sources/cve-2017-7529](https://github.com/cved-sources/cve-2017-7529) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2017-7529.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2017-7529.svg)
@@ -2482,8 +2463,6 @@
 - [https://github.com/cyberk1w1/CVE-2017-7529](https://github.com/cyberk1w1/CVE-2017-7529) :  ![starts](https://img.shields.io/github/stars/cyberk1w1/CVE-2017-7529.svg) ![forks](https://img.shields.io/github/forks/cyberk1w1/CVE-2017-7529.svg)
 
 - [https://github.com/youngmin0104/CVE-2017-7529-](https://github.com/youngmin0104/CVE-2017-7529-) :  ![starts](https://img.shields.io/github/stars/youngmin0104/CVE-2017-7529-.svg) ![forks](https://img.shields.io/github/forks/youngmin0104/CVE-2017-7529-.svg)
-
-- [https://github.com/coolman6942o/-Exploit-CVE-2017-7529](https://github.com/coolman6942o/-Exploit-CVE-2017-7529) :  ![starts](https://img.shields.io/github/stars/coolman6942o/-Exploit-CVE-2017-7529.svg) ![forks](https://img.shields.io/github/forks/coolman6942o/-Exploit-CVE-2017-7529.svg)
 
 - [https://github.com/daehee/nginx-overflow](https://github.com/daehee/nginx-overflow) :  ![starts](https://img.shields.io/github/stars/daehee/nginx-overflow.svg) ![forks](https://img.shields.io/github/forks/daehee/nginx-overflow.svg)
 
@@ -3109,33 +3088,33 @@
 
 - [https://github.com/colorblindpentester/CVE-2017-5638](https://github.com/colorblindpentester/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/colorblindpentester/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/colorblindpentester/CVE-2017-5638.svg)
 
-- [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
-
-- [https://github.com/QHxDr-dz/CVE-2017-5638](https://github.com/QHxDr-dz/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/QHxDr-dz/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/QHxDr-dz/CVE-2017-5638.svg)
-
 - [https://github.com/eeehit/CVE-2017-5638](https://github.com/eeehit/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/eeehit/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/eeehit/CVE-2017-5638.svg)
 
 - [https://github.com/AndreasKl/CVE-2017-5638](https://github.com/AndreasKl/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/AndreasKl/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/AndreasKl/CVE-2017-5638.svg)
 
+- [https://github.com/random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/random-robbie/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/random-robbie/CVE-2017-5638.svg)
+
+- [https://github.com/QHxDr-dz/CVE-2017-5638](https://github.com/QHxDr-dz/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/QHxDr-dz/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/QHxDr-dz/CVE-2017-5638.svg)
+
 - [https://github.com/Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Badbird3/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Badbird3/CVE-2017-5638.svg)
+
+- [https://github.com/homjxi0e/CVE-2017-5638](https://github.com/homjxi0e/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-5638.svg)
 
 - [https://github.com/Tankirat/CVE-2017-5638](https://github.com/Tankirat/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Tankirat/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Tankirat/CVE-2017-5638.svg)
 
 - [https://github.com/jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/jrrombaldo/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jrrombaldo/CVE-2017-5638.svg)
 
-- [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
-
-- [https://github.com/bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/bhagdave/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bhagdave/CVE-2017-5638.svg)
+- [https://github.com/readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/readloud/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/readloud/CVE-2017-5638.svg)
 
 - [https://github.com/toothbrushsoapflannelbiscuits/cve-2017-5638](https://github.com/toothbrushsoapflannelbiscuits/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/toothbrushsoapflannelbiscuits/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/toothbrushsoapflannelbiscuits/cve-2017-5638.svg)
 
-- [https://github.com/readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/readloud/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/readloud/CVE-2017-5638.svg)
-
-- [https://github.com/homjxi0e/CVE-2017-5638](https://github.com/homjxi0e/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-5638.svg)
+- [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
 
 - [https://github.com/mritunjay-k/CVE-2017-5638](https://github.com/mritunjay-k/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2017-5638.svg)
 
 - [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
+
+- [https://github.com/bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/bhagdave/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bhagdave/CVE-2017-5638.svg)
 
 - [https://github.com/bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/bongbongco/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/bongbongco/cve-2017-5638.svg)
 
@@ -3155,9 +3134,9 @@
 
 - [https://github.com/joidiego/Detection-struts-cve-2017-5638-detector](https://github.com/joidiego/Detection-struts-cve-2017-5638-detector) :  ![starts](https://img.shields.io/github/stars/joidiego/Detection-struts-cve-2017-5638-detector.svg) ![forks](https://img.shields.io/github/forks/joidiego/Detection-struts-cve-2017-5638-detector.svg)
 
-- [https://github.com/c002/Apache-Struts](https://github.com/c002/Apache-Struts) :  ![starts](https://img.shields.io/github/stars/c002/Apache-Struts.svg) ![forks](https://img.shields.io/github/forks/c002/Apache-Struts.svg)
-
 - [https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638](https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/sjitech/test_struts2_vulnerability_CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/sjitech/test_struts2_vulnerability_CVE-2017-5638.svg)
+
+- [https://github.com/c002/Apache-Struts](https://github.com/c002/Apache-Struts) :  ![starts](https://img.shields.io/github/stars/c002/Apache-Struts.svg) ![forks](https://img.shields.io/github/forks/c002/Apache-Struts.svg)
 
 - [https://github.com/FredBrave/CVE-2017-5638-ApacheStruts2.3.5](https://github.com/FredBrave/CVE-2017-5638-ApacheStruts2.3.5) :  ![starts](https://img.shields.io/github/stars/FredBrave/CVE-2017-5638-ApacheStruts2.3.5.svg) ![forks](https://img.shields.io/github/forks/FredBrave/CVE-2017-5638-ApacheStruts2.3.5.svg)
 
@@ -3260,6 +3239,13 @@
 
 
 - [https://github.com/Ang-YC/CVE-2017-5007](https://github.com/Ang-YC/CVE-2017-5007) :  ![starts](https://img.shields.io/github/stars/Ang-YC/CVE-2017-5007.svg) ![forks](https://img.shields.io/github/forks/Ang-YC/CVE-2017-5007.svg)
+
+## CVE-2017-5005
+ Stack-based buffer overflow in Quick Heal Internet Security 10.1.0.316 and earlier, Total Security 10.1.0.316 and earlier, and AntiVirus Pro 10.1.0.316 and earlier on OS X allows remote attackers to execute arbitrary code via a crafted LC_UNIXTHREAD.cmdsize field in a Mach-O file that is mishandled during a Security Scan (aka Custom Scan) operation.
+
+
+
+- [https://github.com/payatu/QuickHeal](https://github.com/payatu/QuickHeal) :  ![starts](https://img.shields.io/github/stars/payatu/QuickHeal.svg) ![forks](https://img.shields.io/github/forks/payatu/QuickHeal.svg)
 
 ## CVE-2017-4971
  An issue was discovered in Pivotal Spring Web Flow through 2.4.4. Applications that do not change the value of the MvcViewFactoryCreator useSpringBinding property which is disabled by default (i.e., set to 'false') can be vulnerable to malicious EL expressions in view states that process form submissions but do not have a sub-element to declare explicit data binding property mappings.
@@ -3482,40 +3468,12 @@
 
 - [https://github.com/bcdannyboy/cve-2017-1635-PoC](https://github.com/bcdannyboy/cve-2017-1635-PoC) :  ![starts](https://img.shields.io/github/stars/bcdannyboy/cve-2017-1635-PoC.svg) ![forks](https://img.shields.io/github/forks/bcdannyboy/cve-2017-1635-PoC.svg)
 
-## CVE-2017-1624
- IBM QRadar 7.3 and 7.3.1 specifies permissions for a security-critical resource in a way that allows that resource to be read or modified by unintended actors. IBM X-Force ID: 133122.
-
-
-
-- [https://github.com/AOCorsaire/CVE-2017-16245](https://github.com/AOCorsaire/CVE-2017-16245) :  ![starts](https://img.shields.io/github/stars/AOCorsaire/CVE-2017-16245.svg) ![forks](https://img.shields.io/github/forks/AOCorsaire/CVE-2017-16245.svg)
-
-## CVE-2017-1608
- IBM Rational Quality Manager and IBM Rational Collaborative Lifecycle Management 5.0 through 5.0.2 and 6.0 through 6.0.5 are vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 132928.
-
-
-
-- [https://github.com/ossf-cve-benchmark/CVE-2017-16087](https://github.com/ossf-cve-benchmark/CVE-2017-16087) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-16087.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-16087.svg)
-
-## CVE-2017-1235
- IBM WebSphere MQ 8.0 could allow an authenticated user to cause a premature termination of a client application thread which could potentially cause denial of service. IBM X-Force ID: 123914.
-
-
-
-- [https://github.com/11k4r/CVE-2017-1235_exploit](https://github.com/11k4r/CVE-2017-1235_exploit) :  ![starts](https://img.shields.io/github/stars/11k4r/CVE-2017-1235_exploit.svg) ![forks](https://img.shields.io/github/forks/11k4r/CVE-2017-1235_exploit.svg)
-
 ## CVE-2017-1182
  IBM Tivoli Monitoring Portal v6 could allow a local (network adjacent) attacker to execute arbitrary commands on the system, when default client-server default communications, HTTP, are being used. IBM X-Force ID: 123493.
 
 
 
 - [https://github.com/Morfeen01/cve-2017-1182-TN](https://github.com/Morfeen01/cve-2017-1182-TN) :  ![starts](https://img.shields.io/github/stars/Morfeen01/cve-2017-1182-TN.svg) ![forks](https://img.shields.io/github/forks/Morfeen01/cve-2017-1182-TN.svg)
-
-## CVE-2017-1079
- DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017. Notes: none
-
-
-
-- [https://github.com/n4xh4ck5/CVE-2017-10797](https://github.com/n4xh4ck5/CVE-2017-10797) :  ![starts](https://img.shields.io/github/stars/n4xh4ck5/CVE-2017-10797.svg) ![forks](https://img.shields.io/github/forks/n4xh4ck5/CVE-2017-10797.svg)
 
 ## CVE-2017-0931
  html-janitor node module suffers from a Cross-Site Scripting (XSS) vulnerability via clean() accepting user-controlled values.
@@ -3567,9 +3525,9 @@
 
 - [https://github.com/aymankhalfatni/CVE-2017-0785](https://github.com/aymankhalfatni/CVE-2017-0785) :  ![starts](https://img.shields.io/github/stars/aymankhalfatni/CVE-2017-0785.svg) ![forks](https://img.shields.io/github/forks/aymankhalfatni/CVE-2017-0785.svg)
 
-- [https://github.com/sigbitsadmin/diff](https://github.com/sigbitsadmin/diff) :  ![starts](https://img.shields.io/github/stars/sigbitsadmin/diff.svg) ![forks](https://img.shields.io/github/forks/sigbitsadmin/diff.svg)
-
 - [https://github.com/Joanmei/CVE-2017-0785](https://github.com/Joanmei/CVE-2017-0785) :  ![starts](https://img.shields.io/github/stars/Joanmei/CVE-2017-0785.svg) ![forks](https://img.shields.io/github/forks/Joanmei/CVE-2017-0785.svg)
+
+- [https://github.com/sigbitsadmin/diff](https://github.com/sigbitsadmin/diff) :  ![starts](https://img.shields.io/github/stars/sigbitsadmin/diff.svg) ![forks](https://img.shields.io/github/forks/sigbitsadmin/diff.svg)
 
 ## CVE-2017-0781
  A remote code execution vulnerability in the Android system (bluetooth). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2, 8.0. Android ID: A-63146105.
