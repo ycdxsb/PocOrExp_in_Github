@@ -1,3 +1,10 @@
+## CVE-2013-7285
+ Xstream API versions up to 1.4.6 and version 1.4.10, if the security framework has not been initialized, may allow a remote attacker to run arbitrary shell commands by manipulating the processed input stream when unmarshaling XML or any supported format. e.g. JSON.
+
+
+
+- [https://github.com/shoucheng3/x-stream__xstream_CVE-2013-7285_1-4-6](https://github.com/shoucheng3/x-stream__xstream_CVE-2013-7285_1-4-6) :  ![starts](https://img.shields.io/github/stars/shoucheng3/x-stream__xstream_CVE-2013-7285_1-4-6.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/x-stream__xstream_CVE-2013-7285_1-4-6.svg)
+
 ## CVE-2013-6987
  Multiple directory traversal vulnerabilities in the FileBrowser components in Synology DiskStation Manager (DSM) before 4.3-3810 Update 3 allow remote attackers to read, write, and delete arbitrary files via a .. (dot dot) in the (1) path parameter to file_delete.cgi or (2) folder_path parameter to file_share.cgi in webapi/FileStation/; (3) dlink parameter to fbdownload/; or unspecified parameters to (4) html5_upload.cgi, (5) file_download.cgi, (6) file_sharing.cgi, (7) file_MVCP.cgi, or (8) file_rename.cgi in webapi/FileStation/.
 
@@ -183,6 +190,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln](https://github.com/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln) :  ![starts](https://img.shields.io/github/stars/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln.svg) ![forks](https://img.shields.io/github/forks/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln.svg)
 
+- [https://github.com/PREN0MEN/CVE-2013-3900-PowerShell-PoC](https://github.com/PREN0MEN/CVE-2013-3900-PowerShell-PoC) :  ![starts](https://img.shields.io/github/stars/PREN0MEN/CVE-2013-3900-PowerShell-PoC.svg) ![forks](https://img.shields.io/github/forks/PREN0MEN/CVE-2013-3900-PowerShell-PoC.svg)
+
 - [https://github.com/snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/snoopopsec/vulnerability-CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/snoopopsec/vulnerability-CVE-2013-3900.svg)
 
 - [https://github.com/Sabecomoeh/CVE-2013-3900](https://github.com/Sabecomoeh/CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/Sabecomoeh/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Sabecomoeh/CVE-2013-3900.svg)
@@ -198,8 +207,6 @@ Exploitation of this vulnerability requires that a user or application run or in
 - [https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify](https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify) :  ![starts](https://img.shields.io/github/stars/OtisSymbos/CVE-2013-3900-WinTrustVerify.svg) ![forks](https://img.shields.io/github/forks/OtisSymbos/CVE-2013-3900-WinTrustVerify.svg)
 
 - [https://github.com/piranhap/CVE-2013-3900_Remediation_PowerShell](https://github.com/piranhap/CVE-2013-3900_Remediation_PowerShell) :  ![starts](https://img.shields.io/github/stars/piranhap/CVE-2013-3900_Remediation_PowerShell.svg) ![forks](https://img.shields.io/github/forks/piranhap/CVE-2013-3900_Remediation_PowerShell.svg)
-
-- [https://github.com/PREN0MEN/CVE-2013-3900-PowerShell-PoC](https://github.com/PREN0MEN/CVE-2013-3900-PowerShell-PoC) :  ![starts](https://img.shields.io/github/stars/PREN0MEN/CVE-2013-3900-PowerShell-PoC.svg) ![forks](https://img.shields.io/github/forks/PREN0MEN/CVE-2013-3900-PowerShell-PoC.svg)
 
 - [https://github.com/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-](https://github.com/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-) :  ![starts](https://img.shields.io/github/stars/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-.svg) ![forks](https://img.shields.io/github/forks/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-.svg)
 
