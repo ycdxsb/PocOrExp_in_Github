@@ -178,6 +178,13 @@
 
 - [https://github.com/koozxcv/CVE-2014-7911](https://github.com/koozxcv/CVE-2014-7911) :  ![starts](https://img.shields.io/github/stars/koozxcv/CVE-2014-7911.svg) ![forks](https://img.shields.io/github/forks/koozxcv/CVE-2014-7911.svg)
 
+## CVE-2014-7816
+ Directory traversal vulnerability in JBoss Undertow 1.0.x before 1.0.17, 1.1.x before 1.1.0.CR5, and 1.2.x before 1.2.0.Beta3, when running on Windows, allows remote attackers to read arbitrary files via a .. (dot dot) in a resource URI.
+
+
+
+- [https://github.com/shoucheng3/undertow-io__undertow_CVE-2014-7816_1-0-16-Final](https://github.com/shoucheng3/undertow-io__undertow_CVE-2014-7816_1-0-16-Final) :  ![starts](https://img.shields.io/github/stars/shoucheng3/undertow-io__undertow_CVE-2014-7816_1-0-16-Final.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/undertow-io__undertow_CVE-2014-7816_1-0-16-Final.svg)
+
 ## CVE-2014-7236
  Eval injection vulnerability in lib/TWiki/Plugins.pm in TWiki before 6.0.1 allows remote attackers to execute arbitrary Perl code via the debugenableplugins parameter to do/view/Main/WebHome.
 
@@ -502,7 +509,7 @@
 
 
 
-- [https://github.com/Pwdnx1337/CVE-2014-4725](https://github.com/Pwdnx1337/CVE-2014-4725) :  ![starts](https://img.shields.io/github/stars/Pwdnx1337/CVE-2014-4725.svg) ![forks](https://img.shields.io/github/forks/Pwdnx1337/CVE-2014-4725.svg)
+- [https://github.com/pwdnx337/CVE-2014-4725](https://github.com/pwdnx337/CVE-2014-4725) :  ![starts](https://img.shields.io/github/stars/pwdnx337/CVE-2014-4725.svg) ![forks](https://img.shields.io/github/forks/pwdnx337/CVE-2014-4725.svg)
 
 ## CVE-2014-4699
  The Linux kernel before 3.15.4 on Intel processors does not properly restrict use of a non-canonical value for the saved RIP address in the case of a system call that does not use IRET, which allows local users to leverage a race condition and gain privileges, or cause a denial of service (double fault), via a crafted application that makes ptrace and fork system calls.
