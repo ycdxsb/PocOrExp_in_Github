@@ -168,6 +168,8 @@
 
 - [https://github.com/vedpakhare/vsftpd-234-vuln-report](https://github.com/vedpakhare/vsftpd-234-vuln-report) :  ![starts](https://img.shields.io/github/stars/vedpakhare/vsftpd-234-vuln-report.svg) ![forks](https://img.shields.io/github/forks/vedpakhare/vsftpd-234-vuln-report.svg)
 
+- [https://github.com/seerat-fatima21/vsftpd-exploit](https://github.com/seerat-fatima21/vsftpd-exploit) :  ![starts](https://img.shields.io/github/stars/seerat-fatima21/vsftpd-exploit.svg) ![forks](https://img.shields.io/github/forks/seerat-fatima21/vsftpd-exploit.svg)
+
 - [https://github.com/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1](https://github.com/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1) :  ![starts](https://img.shields.io/github/stars/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1.svg) ![forks](https://img.shields.io/github/forks/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1.svg)
 
 - [https://github.com/Daniel1234mata/vsftpd-backdoor-exploit](https://github.com/Daniel1234mata/vsftpd-backdoor-exploit) :  ![starts](https://img.shields.io/github/stars/Daniel1234mata/vsftpd-backdoor-exploit.svg) ![forks](https://img.shields.io/github/forks/Daniel1234mata/vsftpd-backdoor-exploit.svg)
