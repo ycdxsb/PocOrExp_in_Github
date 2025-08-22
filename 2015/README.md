@@ -129,6 +129,8 @@
 
 - [https://github.com/G01d3nW01f/CVE-2015-8351](https://github.com/G01d3nW01f/CVE-2015-8351) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2015-8351.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2015-8351.svg)
 
+- [https://github.com/Philip-Otter/CVE-2015-8351_Otter_Remix](https://github.com/Philip-Otter/CVE-2015-8351_Otter_Remix) :  ![starts](https://img.shields.io/github/stars/Philip-Otter/CVE-2015-8351_Otter_Remix.svg) ![forks](https://img.shields.io/github/forks/Philip-Otter/CVE-2015-8351_Otter_Remix.svg)
+
 ## CVE-2015-8299
  Buffer overflow in the Group messages monitor (Falcon) in KNX ETS 4.1.5 (Build 3246) allows remote attackers to execute arbitrary code via a crafted KNXnet/IP UDP packet.
 
@@ -284,9 +286,9 @@
 
 - [https://github.com/innocentx0/CVE-2015-6967-EXPLOIT](https://github.com/innocentx0/CVE-2015-6967-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/innocentx0/CVE-2015-6967-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/innocentx0/CVE-2015-6967-EXPLOIT.svg)
 
-- [https://github.com/FredBrave/CVE-2015-6967](https://github.com/FredBrave/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/FredBrave/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/FredBrave/CVE-2015-6967.svg)
-
 - [https://github.com/cuerv0x/CVE-2015-6967](https://github.com/cuerv0x/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/cuerv0x/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/cuerv0x/CVE-2015-6967.svg)
+
+- [https://github.com/FredBrave/CVE-2015-6967](https://github.com/FredBrave/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/FredBrave/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/FredBrave/CVE-2015-6967.svg)
 
 - [https://github.com/3mpir3Albert/HTB_Nibbles](https://github.com/3mpir3Albert/HTB_Nibbles) :  ![starts](https://img.shields.io/github/stars/3mpir3Albert/HTB_Nibbles.svg) ![forks](https://img.shields.io/github/forks/3mpir3Albert/HTB_Nibbles.svg)
 
