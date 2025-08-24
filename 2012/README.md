@@ -113,8 +113,6 @@
 
 - [https://github.com/cyberdesu/Elastix-2.2.0-CVE-2012-4869](https://github.com/cyberdesu/Elastix-2.2.0-CVE-2012-4869) :  ![starts](https://img.shields.io/github/stars/cyberdesu/Elastix-2.2.0-CVE-2012-4869.svg) ![forks](https://img.shields.io/github/forks/cyberdesu/Elastix-2.2.0-CVE-2012-4869.svg)
 
-- [https://github.com/bitc0de/Elastix-Remote-Code-Execution](https://github.com/bitc0de/Elastix-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/bitc0de/Elastix-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/bitc0de/Elastix-Remote-Code-Execution.svg)
-
 ## CVE-2012-4792
  Use-after-free vulnerability in Microsoft Internet Explorer 6 through 8 allows remote attackers to execute arbitrary code via a crafted web site that triggers access to an object that (1) was not properly allocated or (2) is deleted, as demonstrated by a CDwnBindInfo object, and exploited in the wild in December 2012.
 
