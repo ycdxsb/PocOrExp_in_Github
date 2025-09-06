@@ -210,6 +210,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-](https://github.com/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-) :  ![starts](https://img.shields.io/github/stars/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-.svg) ![forks](https://img.shields.io/github/forks/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-.svg)
 
+- [https://github.com/oukridrig772/-WinVerifyTrust-Signature-Validation-CVE-2013-3900-Mitigation](https://github.com/oukridrig772/-WinVerifyTrust-Signature-Validation-CVE-2013-3900-Mitigation) :  ![starts](https://img.shields.io/github/stars/oukridrig772/-WinVerifyTrust-Signature-Validation-CVE-2013-3900-Mitigation.svg) ![forks](https://img.shields.io/github/forks/oukridrig772/-WinVerifyTrust-Signature-Validation-CVE-2013-3900-Mitigation.svg)
+
 ## CVE-2013-3893
  Use-after-free vulnerability in the SetMouseCapture implementation in mshtml.dll in Microsoft Internet Explorer 6 through 11 allows remote attackers to execute arbitrary code via crafted JavaScript strings, as demonstrated by use of an ms-help: URL that triggers loading of hxds.dll.
 
