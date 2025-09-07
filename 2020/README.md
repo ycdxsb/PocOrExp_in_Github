@@ -634,9 +634,9 @@
 
 - [https://github.com/NeoDarwin/CVE-2020-27955](https://github.com/NeoDarwin/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/NeoDarwin/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/NeoDarwin/CVE-2020-27955.svg)
 
-- [https://github.com/shubham0d/CVE-2020-27955](https://github.com/shubham0d/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/shubham0d/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/shubham0d/CVE-2020-27955.svg)
-
 - [https://github.com/FrostsaberX/CVE-2020-27955](https://github.com/FrostsaberX/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/FrostsaberX/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/FrostsaberX/CVE-2020-27955.svg)
+
+- [https://github.com/shubham0d/CVE-2020-27955](https://github.com/shubham0d/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/shubham0d/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/shubham0d/CVE-2020-27955.svg)
 
 - [https://github.com/Arnoldqqq/CVE-2020-27955](https://github.com/Arnoldqqq/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/Arnoldqqq/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/Arnoldqqq/CVE-2020-27955.svg)
 
@@ -1500,9 +1500,9 @@ vulnerable to a race condition in the MCL Smart Patient Reader software update s
 
 
 
-- [https://github.com/underprotection/CVE-2020-24030](https://github.com/underprotection/CVE-2020-24030) :  ![starts](https://img.shields.io/github/stars/underprotection/CVE-2020-24030.svg) ![forks](https://img.shields.io/github/forks/underprotection/CVE-2020-24030.svg)
-
 - [https://github.com/redteambrasil/CVE-2020-24030](https://github.com/redteambrasil/CVE-2020-24030) :  ![starts](https://img.shields.io/github/stars/redteambrasil/CVE-2020-24030.svg) ![forks](https://img.shields.io/github/forks/redteambrasil/CVE-2020-24030.svg)
+
+- [https://github.com/underprotection/CVE-2020-24030](https://github.com/underprotection/CVE-2020-24030) :  ![starts](https://img.shields.io/github/stars/underprotection/CVE-2020-24030.svg) ![forks](https://img.shields.io/github/forks/underprotection/CVE-2020-24030.svg)
 
 ## CVE-2020-24029
  Because of unauthenticated password changes in ForLogic Qualiex v1 and v3, customer and admin permissions and data can be accessed via a simple request.
@@ -4209,9 +4209,9 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/savsch/PoC_CVE-2020-9484](https://github.com/savsch/PoC_CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/savsch/PoC_CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/savsch/PoC_CVE-2020-9484.svg)
 
-- [https://github.com/seanachao/CVE-2020-9484](https://github.com/seanachao/CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/seanachao/CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/seanachao/CVE-2020-9484.svg)
-
 - [https://github.com/Disturbante/CVE-2020-9484](https://github.com/Disturbante/CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/Disturbante/CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/Disturbante/CVE-2020-9484.svg)
+
+- [https://github.com/seanachao/CVE-2020-9484](https://github.com/seanachao/CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/seanachao/CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/seanachao/CVE-2020-9484.svg)
 
 - [https://github.com/DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/DXY0411/CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/DXY0411/CVE-2020-9484.svg)
 
@@ -4547,6 +4547,8 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 
 - [https://github.com/shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9-0-1](https://github.com/shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9-0-1) :  ![starts](https://img.shields.io/github/stars/shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9-0-1.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9-0-1.svg)
+
+- [https://github.com/shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9_0_2_fixed](https://github.com/shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9_0_2_fixed) :  ![starts](https://img.shields.io/github/stars/shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9_0_2_fixed.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/kubernetes-client__java_CVE-2020-8570_client-java-parent-9_0_2_fixed.svg)
 
 ## CVE-2020-8559
  The Kubernetes kube-apiserver in versions v1.6-v1.15, and versions prior to v1.16.13, v1.17.9 and v1.18.6 are vulnerable to an unvalidated redirect on proxied upgrade requests that could allow an attacker to escalate privileges from a node compromise to a full cluster compromise.
@@ -5427,9 +5429,9 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/superzerosec/cve-2020-5902](https://github.com/superzerosec/cve-2020-5902) :  ![starts](https://img.shields.io/github/stars/superzerosec/cve-2020-5902.svg) ![forks](https://img.shields.io/github/forks/superzerosec/cve-2020-5902.svg)
 
-- [https://github.com/dnerzker/CVE-2020-5902](https://github.com/dnerzker/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/dnerzker/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/dnerzker/CVE-2020-5902.svg)
-
 - [https://github.com/flyopenair/CVE-2020-5902](https://github.com/flyopenair/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/flyopenair/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/flyopenair/CVE-2020-5902.svg)
+
+- [https://github.com/dnerzker/CVE-2020-5902](https://github.com/dnerzker/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/dnerzker/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/dnerzker/CVE-2020-5902.svg)
 
 - [https://github.com/ajdumanhug/CVE-2020-5902](https://github.com/ajdumanhug/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/ajdumanhug/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/ajdumanhug/CVE-2020-5902.svg)
 
@@ -5794,9 +5796,9 @@ The issue has been fixed in dropwizard-validation 1.3.19 and 2.0.2.
 
 - [https://github.com/Cappricio-Securities/CVE-2020-3452](https://github.com/Cappricio-Securities/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2020-3452.svg)
 
-- [https://github.com/sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/sujaygr8/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/sujaygr8/CVE-2020-3452.svg)
-
 - [https://github.com/iveresk/cve-2020-3452](https://github.com/iveresk/cve-2020-3452) :  ![starts](https://img.shields.io/github/stars/iveresk/cve-2020-3452.svg) ![forks](https://img.shields.io/github/forks/iveresk/cve-2020-3452.svg)
+
+- [https://github.com/sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452) :  ![starts](https://img.shields.io/github/stars/sujaygr8/CVE-2020-3452.svg) ![forks](https://img.shields.io/github/forks/sujaygr8/CVE-2020-3452.svg)
 
 - [https://github.com/toy0756428/CVE_2020_3452_Detect](https://github.com/toy0756428/CVE_2020_3452_Detect) :  ![starts](https://img.shields.io/github/stars/toy0756428/CVE_2020_3452_Detect.svg) ![forks](https://img.shields.io/github/forks/toy0756428/CVE_2020_3452_Detect.svg)
 
@@ -6210,9 +6212,9 @@ The issue has been fixed in dropwizard-validation 1.3.19 and 2.0.2.
 
 - [https://github.com/Just1ceP4rtn3r/CVE-2020-1938-Tool](https://github.com/Just1ceP4rtn3r/CVE-2020-1938-Tool) :  ![starts](https://img.shields.io/github/stars/Just1ceP4rtn3r/CVE-2020-1938-Tool.svg) ![forks](https://img.shields.io/github/forks/Just1ceP4rtn3r/CVE-2020-1938-Tool.svg)
 
-- [https://github.com/YounesTasra-R4z3rSw0rd/CVE-2020-1938](https://github.com/YounesTasra-R4z3rSw0rd/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/YounesTasra-R4z3rSw0rd/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/YounesTasra-R4z3rSw0rd/CVE-2020-1938.svg)
-
 - [https://github.com/delsadan/CNVD-2020-10487-Bulk-verification](https://github.com/delsadan/CNVD-2020-10487-Bulk-verification) :  ![starts](https://img.shields.io/github/stars/delsadan/CNVD-2020-10487-Bulk-verification.svg) ![forks](https://img.shields.io/github/forks/delsadan/CNVD-2020-10487-Bulk-verification.svg)
+
+- [https://github.com/YounesTasra-R4z3rSw0rd/CVE-2020-1938](https://github.com/YounesTasra-R4z3rSw0rd/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/YounesTasra-R4z3rSw0rd/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/YounesTasra-R4z3rSw0rd/CVE-2020-1938.svg)
 
 - [https://github.com/sgdream/CVE-2020-1938](https://github.com/sgdream/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/sgdream/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/sgdream/CVE-2020-1938.svg)
 
@@ -6238,9 +6240,9 @@ The issue has been fixed in dropwizard-validation 1.3.19 and 2.0.2.
 
 - [https://github.com/haerin7427/CVE_2020_1938](https://github.com/haerin7427/CVE_2020_1938) :  ![starts](https://img.shields.io/github/stars/haerin7427/CVE_2020_1938.svg) ![forks](https://img.shields.io/github/forks/haerin7427/CVE_2020_1938.svg)
 
-- [https://github.com/I-Runtime-Error/CVE-2020-1938](https://github.com/I-Runtime-Error/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/I-Runtime-Error/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/I-Runtime-Error/CVE-2020-1938.svg)
-
 - [https://github.com/WHtig3r/CVE-2020-1938](https://github.com/WHtig3r/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/WHtig3r/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/WHtig3r/CVE-2020-1938.svg)
+
+- [https://github.com/I-Runtime-Error/CVE-2020-1938](https://github.com/I-Runtime-Error/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/I-Runtime-Error/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/I-Runtime-Error/CVE-2020-1938.svg)
 
 - [https://github.com/hopsypopsy8/CVE-2020-1938-Exploitation](https://github.com/hopsypopsy8/CVE-2020-1938-Exploitation) :  ![starts](https://img.shields.io/github/stars/hopsypopsy8/CVE-2020-1938-Exploitation.svg) ![forks](https://img.shields.io/github/forks/hopsypopsy8/CVE-2020-1938-Exploitation.svg)
 
@@ -6429,9 +6431,9 @@ When the second phase of Windows updates become available in Q1 2021, customers 
 
 - [https://github.com/dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/dr4g0n23/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/dr4g0n23/CVE-2020-1472.svg)
 
-- [https://github.com/victim10wq3/CVE-2020-1472](https://github.com/victim10wq3/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/victim10wq3/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/victim10wq3/CVE-2020-1472.svg)
-
 - [https://github.com/Fa1c0n35/CVE-2020-1472](https://github.com/Fa1c0n35/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472.svg)
+
+- [https://github.com/victim10wq3/CVE-2020-1472](https://github.com/victim10wq3/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/victim10wq3/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/victim10wq3/CVE-2020-1472.svg)
 
 - [https://github.com/t31m0/CVE-2020-1472](https://github.com/t31m0/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/t31m0/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/t31m0/CVE-2020-1472.svg)
 
@@ -6443,9 +6445,9 @@ When the second phase of Windows updates become available in Q1 2021, customers 
 
 - [https://github.com/Tobey123/CVE-2020-1472-visualizer](https://github.com/Tobey123/CVE-2020-1472-visualizer) :  ![starts](https://img.shields.io/github/stars/Tobey123/CVE-2020-1472-visualizer.svg) ![forks](https://img.shields.io/github/forks/Tobey123/CVE-2020-1472-visualizer.svg)
 
-- [https://github.com/Fa1c0n35/CVE-2020-1472-02-](https://github.com/Fa1c0n35/CVE-2020-1472-02-) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472-02-.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472-02-.svg)
-
 - [https://github.com/blackh00d/zerologon-poc](https://github.com/blackh00d/zerologon-poc) :  ![starts](https://img.shields.io/github/stars/blackh00d/zerologon-poc.svg) ![forks](https://img.shields.io/github/forks/blackh00d/zerologon-poc.svg)
+
+- [https://github.com/Fa1c0n35/CVE-2020-1472-02-](https://github.com/Fa1c0n35/CVE-2020-1472-02-) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472-02-.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472-02-.svg)
 
 - [https://github.com/TheJoyOfHacking/SecuraBV-CVE-2020-1472](https://github.com/TheJoyOfHacking/SecuraBV-CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/TheJoyOfHacking/SecuraBV-CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/TheJoyOfHacking/SecuraBV-CVE-2020-1472.svg)
 
@@ -6879,11 +6881,11 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 - [https://github.com/maqeel-git/CVE-2020-0796](https://github.com/maqeel-git/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/maqeel-git/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/maqeel-git/CVE-2020-0796.svg)
 
-- [https://github.com/abdullah098/CVE_2020_0796](https://github.com/abdullah098/CVE_2020_0796) :  ![starts](https://img.shields.io/github/stars/abdullah098/CVE_2020_0796.svg) ![forks](https://img.shields.io/github/forks/abdullah098/CVE_2020_0796.svg)
+- [https://github.com/krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/krizzz07/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/krizzz07/CVE-2020-0796.svg)
 
 - [https://github.com/kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/kn6869610/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/kn6869610/CVE-2020-0796.svg)
 
-- [https://github.com/krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/krizzz07/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/krizzz07/CVE-2020-0796.svg)
+- [https://github.com/abdullah098/CVE_2020_0796](https://github.com/abdullah098/CVE_2020_0796) :  ![starts](https://img.shields.io/github/stars/abdullah098/CVE_2020_0796.svg) ![forks](https://img.shields.io/github/forks/abdullah098/CVE_2020_0796.svg)
 
 - [https://github.com/halsten/CVE-2020-0796](https://github.com/halsten/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/halsten/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/halsten/CVE-2020-0796.svg)
 
