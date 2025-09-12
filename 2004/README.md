@@ -52,8 +52,6 @@
 
 - [https://github.com/sinkaroid/shiguresh](https://github.com/sinkaroid/shiguresh) :  ![starts](https://img.shields.io/github/stars/sinkaroid/shiguresh.svg) ![forks](https://img.shields.io/github/forks/sinkaroid/shiguresh.svg)
 
-- [https://github.com/Redsplit/shiguresh](https://github.com/Redsplit/shiguresh) :  ![starts](https://img.shields.io/github/stars/Redsplit/shiguresh.svg) ![forks](https://img.shields.io/github/forks/Redsplit/shiguresh.svg)
-
 ## CVE-2004-1561
  Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute arbitrary code via an HTTP request with a large number of headers.
 
@@ -64,8 +62,6 @@
 - [https://github.com/thel1nus/CVE-2004-1561-Notes](https://github.com/thel1nus/CVE-2004-1561-Notes) :  ![starts](https://img.shields.io/github/stars/thel1nus/CVE-2004-1561-Notes.svg) ![forks](https://img.shields.io/github/forks/thel1nus/CVE-2004-1561-Notes.svg)
 
 - [https://github.com/darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/darrynb89/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/darrynb89/CVE-2004-1561.svg)
-
-- [https://github.com/ratiros01/CVE-2004-1561](https://github.com/ratiros01/CVE-2004-1561) :  ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2004-1561.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2004-1561.svg)
 
 - [https://github.com/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-](https://github.com/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-) :  ![starts](https://img.shields.io/github/stars/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-.svg) ![forks](https://img.shields.io/github/forks/Danyw24/CVE-2004-1561-Icecast-Header-Overwrite-buffer-overflow-RCE-2.0.1-Win32-.svg)
 
