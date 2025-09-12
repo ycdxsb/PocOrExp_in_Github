@@ -7,13 +7,6 @@
 
 - [https://github.com/gmh5225/CVE-2003-0358](https://github.com/gmh5225/CVE-2003-0358) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2003-0358.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2003-0358.svg)
 
-## CVE-2003-0282
- Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a ".." sequence.
-
-
-
-- [https://github.com/sion-codin/cve-2003-0282](https://github.com/sion-codin/cve-2003-0282) :  ![starts](https://img.shields.io/github/stars/sion-codin/cve-2003-0282.svg) ![forks](https://img.shields.io/github/forks/sion-codin/cve-2003-0282.svg)
-
 ## CVE-2003-0264
  Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execute arbitrary code via (1) a long EHLO argument to slmail.exe, (2) a long XTRN argument to slmail.exe, (3) a long string to POPPASSWD, or (4) a long password to the POP3 server.
 
