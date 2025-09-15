@@ -78,6 +78,10 @@
 
 - [https://github.com/NoTrustedx/Exploit_MS08-067](https://github.com/NoTrustedx/Exploit_MS08-067) :  ![starts](https://img.shields.io/github/stars/NoTrustedx/Exploit_MS08-067.svg) ![forks](https://img.shields.io/github/forks/NoTrustedx/Exploit_MS08-067.svg)
 
+- [https://github.com/BinRacer/ms08-067.py](https://github.com/BinRacer/ms08-067.py) :  ![starts](https://img.shields.io/github/stars/BinRacer/ms08-067.py.svg) ![forks](https://img.shields.io/github/forks/BinRacer/ms08-067.py.svg)
+
+- [https://github.com/BinRacer/ms08-067](https://github.com/BinRacer/ms08-067) :  ![starts](https://img.shields.io/github/stars/BinRacer/ms08-067.svg) ![forks](https://img.shields.io/github/forks/BinRacer/ms08-067.svg)
+
 ## CVE-2008-4109
  A certain Debian patch for OpenSSH before 4.3p2-9etch3 on etch; before 4.6p1-1 on sid and lenny; and on other distributions such as SUSE uses functions that are not async-signal-safe in the signal handler for login timeouts, which allows remote attackers to cause a denial of service (connection slot exhaustion) via multiple login attempts. NOTE: this issue exists because of an incorrect fix for CVE-2006-5051.
 
