@@ -76,9 +76,9 @@
 
 - [https://github.com/limkokholefork/CVE-2011-3192](https://github.com/limkokholefork/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/limkokholefork/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/limkokholefork/CVE-2011-3192.svg)
 
-- [https://github.com/stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192) :  ![starts](https://img.shields.io/github/stars/stcmjp/cve-2011-3192.svg) ![forks](https://img.shields.io/github/forks/stcmjp/cve-2011-3192.svg)
-
 - [https://github.com/futurezayka/CVE-2011-3192](https://github.com/futurezayka/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/futurezayka/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/futurezayka/CVE-2011-3192.svg)
+
+- [https://github.com/stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192) :  ![starts](https://img.shields.io/github/stars/stcmjp/cve-2011-3192.svg) ![forks](https://img.shields.io/github/forks/stcmjp/cve-2011-3192.svg)
 
 - [https://github.com/Xinjis/Apache_ByteRange_DoS_cve_2011_3192](https://github.com/Xinjis/Apache_ByteRange_DoS_cve_2011_3192) :  ![starts](https://img.shields.io/github/stars/Xinjis/Apache_ByteRange_DoS_cve_2011_3192.svg) ![forks](https://img.shields.io/github/forks/Xinjis/Apache_ByteRange_DoS_cve_2011_3192.svg)
 
@@ -133,8 +133,6 @@
 - [https://github.com/krill-x7/CVE-2011-2523](https://github.com/krill-x7/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/krill-x7/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/krill-x7/CVE-2011-2523.svg)
 
 - [https://github.com/As9xm/BrokenDoor-CVE-2011-2523-](https://github.com/As9xm/BrokenDoor-CVE-2011-2523-) :  ![starts](https://img.shields.io/github/stars/As9xm/BrokenDoor-CVE-2011-2523-.svg) ![forks](https://img.shields.io/github/forks/As9xm/BrokenDoor-CVE-2011-2523-.svg)
-
-- [https://github.com/everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-](https://github.com/everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-) :  ![starts](https://img.shields.io/github/stars/everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-.svg) ![forks](https://img.shields.io/github/forks/everythingBlackkk/vsFTPd-Backdoor-Exploit-CVE-2011-2523-.svg)
 
 - [https://github.com/0xB0y426/CVE-2011-2523-PoC](https://github.com/0xB0y426/CVE-2011-2523-PoC) :  ![starts](https://img.shields.io/github/stars/0xB0y426/CVE-2011-2523-PoC.svg) ![forks](https://img.shields.io/github/forks/0xB0y426/CVE-2011-2523-PoC.svg)
 
