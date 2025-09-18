@@ -9,8 +9,6 @@
 
 - [https://github.com/angelpimentell/distcc_cve_2004-2687_exploit](https://github.com/angelpimentell/distcc_cve_2004-2687_exploit) :  ![starts](https://img.shields.io/github/stars/angelpimentell/distcc_cve_2004-2687_exploit.svg) ![forks](https://img.shields.io/github/forks/angelpimentell/distcc_cve_2004-2687_exploit.svg)
 
-- [https://github.com/ss0wl/CVE-2004-2687_distcc_v1](https://github.com/ss0wl/CVE-2004-2687_distcc_v1) :  ![starts](https://img.shields.io/github/stars/ss0wl/CVE-2004-2687_distcc_v1.svg) ![forks](https://img.shields.io/github/forks/ss0wl/CVE-2004-2687_distcc_v1.svg)
-
 ## CVE-2004-2549
  Nortel Wireless LAN (WLAN) Access Point (AP) 2220, 2221, and 2225 allow remote attackers to cause a denial of service (service crash) via a TCP request with a large string, followed by 8 newline characters, to (1) the Telnet service on TCP port 23 and (2) the HTTP service on TCP port 80, possibly due to a buffer overflow.
 
