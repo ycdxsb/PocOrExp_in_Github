@@ -39,6 +39,8 @@
 
 - [https://github.com/moften/CVE-2015-9251](https://github.com/moften/CVE-2015-9251) :  ![starts](https://img.shields.io/github/stars/moften/CVE-2015-9251.svg) ![forks](https://img.shields.io/github/forks/moften/CVE-2015-9251.svg)
 
+- [https://github.com/rox-11/xss](https://github.com/rox-11/xss) :  ![starts](https://img.shields.io/github/stars/rox-11/xss.svg) ![forks](https://img.shields.io/github/forks/rox-11/xss.svg)
+
 - [https://github.com/wakefulblock262/CVE-2015-9251](https://github.com/wakefulblock262/CVE-2015-9251) :  ![starts](https://img.shields.io/github/stars/wakefulblock262/CVE-2015-9251.svg) ![forks](https://img.shields.io/github/forks/wakefulblock262/CVE-2015-9251.svg)
 
 ## CVE-2015-9238
@@ -283,6 +285,8 @@
 - [https://github.com/hadrian3689/nibbleblog_4.0.3](https://github.com/hadrian3689/nibbleblog_4.0.3) :  ![starts](https://img.shields.io/github/stars/hadrian3689/nibbleblog_4.0.3.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/nibbleblog_4.0.3.svg)
 
 - [https://github.com/innocentx0/CVE-2015-6967-EXPLOIT](https://github.com/innocentx0/CVE-2015-6967-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/innocentx0/CVE-2015-6967-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/innocentx0/CVE-2015-6967-EXPLOIT.svg)
+
+- [https://github.com/cuerv0x/CVE-2015-6967](https://github.com/cuerv0x/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/cuerv0x/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/cuerv0x/CVE-2015-6967.svg)
 
 - [https://github.com/FredBrave/CVE-2015-6967](https://github.com/FredBrave/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/FredBrave/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/FredBrave/CVE-2015-6967.svg)
 
@@ -725,9 +729,9 @@
 
 - [https://github.com/hackarada/cve-2015-3306](https://github.com/hackarada/cve-2015-3306) :  ![starts](https://img.shields.io/github/stars/hackarada/cve-2015-3306.svg) ![forks](https://img.shields.io/github/forks/hackarada/cve-2015-3306.svg)
 
-- [https://github.com/Z3R0-0x30/CVE-2015-3306](https://github.com/Z3R0-0x30/CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/Z3R0-0x30/CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/Z3R0-0x30/CVE-2015-3306.svg)
-
 - [https://github.com/donmedfor/CVE-2015-3306](https://github.com/donmedfor/CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/donmedfor/CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/donmedfor/CVE-2015-3306.svg)
+
+- [https://github.com/Z3R0-0x30/CVE-2015-3306](https://github.com/Z3R0-0x30/CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/Z3R0-0x30/CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/Z3R0-0x30/CVE-2015-3306.svg)
 
 - [https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit](https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit) :  ![starts](https://img.shields.io/github/stars/cdedmondson/Modified-CVE-2015-3306-Exploit.svg) ![forks](https://img.shields.io/github/forks/cdedmondson/Modified-CVE-2015-3306-Exploit.svg)
 
@@ -1049,6 +1053,10 @@
 
 
 - [https://github.com/Zeppperoni/CVE-2015-1578](https://github.com/Zeppperoni/CVE-2015-1578) :  ![starts](https://img.shields.io/github/stars/Zeppperoni/CVE-2015-1578.svg) ![forks](https://img.shields.io/github/forks/Zeppperoni/CVE-2015-1578.svg)
+
+- [https://github.com/yaldobaoth/CVE-2015-1578-PoC](https://github.com/yaldobaoth/CVE-2015-1578-PoC) :  ![starts](https://img.shields.io/github/stars/yaldobaoth/CVE-2015-1578-PoC.svg) ![forks](https://img.shields.io/github/forks/yaldobaoth/CVE-2015-1578-PoC.svg)
+
+- [https://github.com/yaldobaoth/CVE-2015-1578-PoC-Metasploit](https://github.com/yaldobaoth/CVE-2015-1578-PoC-Metasploit) :  ![starts](https://img.shields.io/github/stars/yaldobaoth/CVE-2015-1578-PoC-Metasploit.svg) ![forks](https://img.shields.io/github/forks/yaldobaoth/CVE-2015-1578-PoC-Metasploit.svg)
 
 ## CVE-2015-1561
  The escape_command function in include/Administration/corePerformance/getStats.php in Centreon (formerly Merethis Centreon) 2.5.4 and earlier (fixed in Centreon 19.10.0) uses an incorrect regular expression, which allows remote authenticated users to execute arbitrary commands via shell metacharacters in the ns_id parameter.
