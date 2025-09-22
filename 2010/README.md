@@ -12,6 +12,13 @@
 
 - [https://github.com/otofoto/CVE-2010-5230](https://github.com/otofoto/CVE-2010-5230) :  ![starts](https://img.shields.io/github/stars/otofoto/CVE-2010-5230.svg) ![forks](https://img.shields.io/github/forks/otofoto/CVE-2010-5230.svg)
 
+## CVE-2010-5195
+ Untrusted search path vulnerability in Roxio MyDVD 9 allows local users to gain privileges via a Trojan horse HomeUtils9.dll file in the current working directory, as demonstrated by a directory that contains a .dmsd or .dmsm file.  NOTE: some of these details are obtained from third party information.
+
+
+
+- [https://github.com/CristinaPravata/dirtycaw-projet](https://github.com/CristinaPravata/dirtycaw-projet) :  ![starts](https://img.shields.io/github/stars/CristinaPravata/dirtycaw-projet.svg) ![forks](https://img.shields.io/github/forks/CristinaPravata/dirtycaw-projet.svg)
+
 ## CVE-2010-4804
  The Android browser in Android before 2.3.4 allows remote attackers to obtain SD card contents via crafted content:// URIs, related to (1) BrowserActivity.java and (2) BrowserSettings.java in com/android/browser/.
 
@@ -116,6 +123,13 @@
 
 - [https://github.com/Nhom6KTLT/CVE-2010-3124](https://github.com/Nhom6KTLT/CVE-2010-3124) :  ![starts](https://img.shields.io/github/stars/Nhom6KTLT/CVE-2010-3124.svg) ![forks](https://img.shields.io/github/forks/Nhom6KTLT/CVE-2010-3124.svg)
 
+## CVE-2010-2883
+ Stack-based buffer overflow in CoolType.dll in Adobe Reader and Acrobat 9.x before 9.4, and 8.x before 8.2.5 on Windows and Mac OS X, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a PDF document with a long field in a Smart INdependent Glyphlets (SING) table in a TTF font, as exploited in the wild in September 2010. NOTE: some of these details are obtained from third party information.
+
+
+
+- [https://github.com/avielzecharia/CVE-2010-2883](https://github.com/avielzecharia/CVE-2010-2883) :  ![starts](https://img.shields.io/github/stars/avielzecharia/CVE-2010-2883.svg) ![forks](https://img.shields.io/github/forks/avielzecharia/CVE-2010-2883.svg)
+
 ## CVE-2010-2553
  The Cinepak codec in Microsoft Windows XP SP2 and SP3, Windows Vista SP1 and SP2, and Windows 7 does not properly decompress media files, which allows remote attackers to execute arbitrary code via a crafted file, aka "Cinepak Codec Decompression Vulnerability."
 
@@ -151,6 +165,13 @@
 
 
 - [https://github.com/Nexxus67/cve-2010-1938](https://github.com/Nexxus67/cve-2010-1938) :  ![starts](https://img.shields.io/github/stars/Nexxus67/cve-2010-1938.svg) ![forks](https://img.shields.io/github/forks/Nexxus67/cve-2010-1938.svg)
+
+## CVE-2010-1872
+ Cross-site scripting (XSS) vulnerability in cPlayer.php in FlashCard 2.6.5 and 3.0.1 allows remote attackers to inject arbitrary web script or HTML via the id parameter.  NOTE: some of these details are obtained from third party information.
+
+
+
+- [https://github.com/LipeOzyy/CVE-2010-1872-BlazeDVD-SEH-Exploit](https://github.com/LipeOzyy/CVE-2010-1872-BlazeDVD-SEH-Exploit) :  ![starts](https://img.shields.io/github/stars/LipeOzyy/CVE-2010-1872-BlazeDVD-SEH-Exploit.svg) ![forks](https://img.shields.io/github/forks/LipeOzyy/CVE-2010-1872-BlazeDVD-SEH-Exploit.svg)
 
 ## CVE-2010-1622
  SpringSource Spring Framework 2.5.x before 2.5.6.SEC02, 2.5.7 before 2.5.7.SR01, and 3.0.x before 3.0.3 allows remote attackers to execute arbitrary code via an HTTP request containing class.classLoader.URLs[0]=jar: followed by a URL of a crafted .jar file.
