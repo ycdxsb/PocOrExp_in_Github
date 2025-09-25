@@ -160,6 +160,8 @@
 
 - [https://github.com/avarx/vulnkeys](https://github.com/avarx/vulnkeys) :  ![starts](https://img.shields.io/github/stars/avarx/vulnkeys.svg) ![forks](https://img.shields.io/github/forks/avarx/vulnkeys.svg)
 
+- [https://github.com/AhegaoPsyops/sslWeakness](https://github.com/AhegaoPsyops/sslWeakness) :  ![starts](https://img.shields.io/github/stars/AhegaoPsyops/sslWeakness.svg) ![forks](https://img.shields.io/github/forks/AhegaoPsyops/sslWeakness.svg)
+
 ## CVE-2008-0128
  The SingleSignOn Valve (org.apache.catalina.authenticator.SingleSignOn) in Apache Tomcat before 5.5.21 does not set the secure flag for the JSESSIONIDSSO cookie in an https session, which can cause the cookie to be sent in http requests and make it easier for remote attackers to capture this cookie.
 
