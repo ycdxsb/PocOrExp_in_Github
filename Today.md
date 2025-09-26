@@ -1,140 +1,134 @@
-# Update 2025-09-25
-## CVE-2025-56311
- In Shenzhen C-Data Technology Co. FD602GW-DX-R410 (firmware v2.2.14), the web management interface contains an authenticated CSRF vulnerability on the reboot endpoint (/boaform/admin/formReboot). An attacker can craft a malicious webpage that, when visited by an authenticated administrator, causes the router to reboot without explicit user consent. This lack of CSRF protection on a sensitive administrative function can lead to denial of service by disrupting network availability.
+# Update 2025-09-26
+## CVE-2025-57176
+ The rfpiped service on TCP port 555 in Ceragon Networks / Siklu Communication EtherHaul series (8010TX and 1200FX tested) Firmware 7.4.0 through 10.7.3 allows unauthenticated file uploads to any writable location on the device. File upload packets use weak encryption (metadata only) with file contents transmitted in cleartext. No authentication or path validation is performed.
 
-- [https://github.com/wrathfulDiety/CVE-2025-56311](https://github.com/wrathfulDiety/CVE-2025-56311) :  ![starts](https://img.shields.io/github/stars/wrathfulDiety/CVE-2025-56311.svg) ![forks](https://img.shields.io/github/forks/wrathfulDiety/CVE-2025-56311.svg)
-
-
-## CVE-2025-54424
- 1Panel is a web interface and MCP Server that manages websites, files, containers, databases, and LLMs on a Linux server. In versions 2.0.5 and below, the HTTPS protocol used for communication between the Core and Agent endpoints has incomplete certificate verification during certificate validation, leading to unauthorized interface access. Due to the presence of numerous command execution or high-privilege interfaces in 1Panel, this results in Remote Code Execution (RCE). This is fixed in version 2.0.6. The CVE has been translated from Simplified Chinese using GitHub Copilot.
-
-- [https://github.com/bejbitoilet5125521/CVE-2025-54424](https://github.com/bejbitoilet5125521/CVE-2025-54424) :  ![starts](https://img.shields.io/github/stars/bejbitoilet5125521/CVE-2025-54424.svg) ![forks](https://img.shields.io/github/forks/bejbitoilet5125521/CVE-2025-54424.svg)
+- [https://github.com/semaja22/CVE-2025-57176](https://github.com/semaja22/CVE-2025-57176) :  ![starts](https://img.shields.io/github/stars/semaja22/CVE-2025-57176.svg) ![forks](https://img.shields.io/github/forks/semaja22/CVE-2025-57176.svg)
 
 
-## CVE-2025-54253
- Adobe Experience Manager versions 6.5.23 and earlier are affected by a Misconfiguration vulnerability that could result in arbitrary code execution. An attacker could leverage this vulnerability to bypass security mechanisms and execute code. Exploitation of this issue does not require user interaction and scope is changed.
+## CVE-2025-57174
+ An issue was discovered in Siklu Communications Etherhaul 8010TX and 1200FX devices, Firmware 7.4.0 through 10.7.3 and possibly other previous versions. The rfpiped service listening on TCP port 555 which uses static AES encryption keys hardcoded in the binary. These keys are identical across all devices, allowing attackers to craft encrypted packets that execute arbitrary commands without authentication. This is a failed patch for CVE-2017-7318. This issue may affect other Etherhaul series devices with shared firmware.
 
-- [https://github.com/akujedanjedon/CVE-2025-54253-Exploit-Demo](https://github.com/akujedanjedon/CVE-2025-54253-Exploit-Demo) :  ![starts](https://img.shields.io/github/stars/akujedanjedon/CVE-2025-54253-Exploit-Demo.svg) ![forks](https://img.shields.io/github/forks/akujedanjedon/CVE-2025-54253-Exploit-Demo.svg)
+- [https://github.com/semaja22/CVE-2025-57174](https://github.com/semaja22/CVE-2025-57174) :  ![starts](https://img.shields.io/github/stars/semaja22/CVE-2025-57174.svg) ![forks](https://img.shields.io/github/forks/semaja22/CVE-2025-57174.svg)
+
+
+## CVE-2025-56819
+ An issue in Datart v.1.0.0-rc.3 allows a remote attacker to execute arbitrary code via the INIT connection parameter.
+
+- [https://github.com/xyyzxc/CVE-2025-56819](https://github.com/xyyzxc/CVE-2025-56819) :  ![starts](https://img.shields.io/github/stars/xyyzxc/CVE-2025-56819.svg) ![forks](https://img.shields.io/github/forks/xyyzxc/CVE-2025-56819.svg)
+
+
+## CVE-2025-56815
+ Datart 1.0.0-rc.3 is vulnerable to Directory Traversal in the POST /viz/image interface, since the server directly uses MultipartFile.transferTo() to save the uploaded file to a path controllable by the user, and lacks strict verification of the file name.
+
+- [https://github.com/xiaoxiaoranxxx/CVE-2025-56815](https://github.com/xiaoxiaoranxxx/CVE-2025-56815) :  ![starts](https://img.shields.io/github/stars/xiaoxiaoranxxx/CVE-2025-56815.svg) ![forks](https://img.shields.io/github/forks/xiaoxiaoranxxx/CVE-2025-56815.svg)
+
+
+## CVE-2025-55780
+ A null pointer dereference occurs in the function break_word_for_overflow_wrap() in MuPDF 1.26.4 when rendering a malformed EPUB document. Specifically, the function calls fz_html_split_flow() to split a FLOW_WORD node, but does not check if node-next is valid before accessing node-next-overflow_wrap, resulting in a crash if the split fails or returns a partial node chain.
+
+- [https://github.com/ISH2YU/CVE-2025-55780](https://github.com/ISH2YU/CVE-2025-55780) :  ![starts](https://img.shields.io/github/stars/ISH2YU/CVE-2025-55780.svg) ![forks](https://img.shields.io/github/forks/ISH2YU/CVE-2025-55780.svg)
+
+
+## CVE-2025-55188
+ 7-Zip before 25.01 does not always properly handle symbolic links during extraction.
+
+- [https://github.com/Sh3ruman/CVE-2025-55188-7z-exploit](https://github.com/Sh3ruman/CVE-2025-55188-7z-exploit) :  ![starts](https://img.shields.io/github/stars/Sh3ruman/CVE-2025-55188-7z-exploit.svg) ![forks](https://img.shields.io/github/forks/Sh3ruman/CVE-2025-55188-7z-exploit.svg)
 
 
 ## CVE-2025-53770
 Microsoft is preparing and fully testing a comprehensive update to address this vulnerability.  In the meantime, please make sure that the mitigation provided in this CVE documentation is in place so that you are protected from exploitation.
 
-- [https://github.com/taqiaferdianshah/CVE-2025-53770](https://github.com/taqiaferdianshah/CVE-2025-53770) :  ![starts](https://img.shields.io/github/stars/taqiaferdianshah/CVE-2025-53770.svg) ![forks](https://img.shields.io/github/forks/taqiaferdianshah/CVE-2025-53770.svg)
-- [https://github.com/fentnttntnt/CVE-2025-53770](https://github.com/fentnttntnt/CVE-2025-53770) :  ![starts](https://img.shields.io/github/stars/fentnttntnt/CVE-2025-53770.svg) ![forks](https://img.shields.io/github/forks/fentnttntnt/CVE-2025-53770.svg)
-- [https://github.com/yashz0007/CVE-2025-53770-Exploit](https://github.com/yashz0007/CVE-2025-53770-Exploit) :  ![starts](https://img.shields.io/github/stars/yashz0007/CVE-2025-53770-Exploit.svg) ![forks](https://img.shields.io/github/forks/yashz0007/CVE-2025-53770-Exploit.svg)
-- [https://github.com/ziisenpai/CVE-2025-53770-Scanner](https://github.com/ziisenpai/CVE-2025-53770-Scanner) :  ![starts](https://img.shields.io/github/stars/ziisenpai/CVE-2025-53770-Scanner.svg) ![forks](https://img.shields.io/github/forks/ziisenpai/CVE-2025-53770-Scanner.svg)
-- [https://github.com/Michaael01/LetsDefend--SOC-342-CVE-2025-53770-SharePoint-Exploit-ToolShell](https://github.com/Michaael01/LetsDefend--SOC-342-CVE-2025-53770-SharePoint-Exploit-ToolShell) :  ![starts](https://img.shields.io/github/stars/Michaael01/LetsDefend--SOC-342-CVE-2025-53770-SharePoint-Exploit-ToolShell.svg) ![forks](https://img.shields.io/github/forks/Michaael01/LetsDefend--SOC-342-CVE-2025-53770-SharePoint-Exploit-ToolShell.svg)
-
-
-## CVE-2025-51005
- A heap-buffer-overflow vulnerability exists in the tcpliveplay utility of the tcpreplay-4.5.1. When a crafted pcap file is processed, the program incorrectly handles memory in the checksum calculation logic at do_checksum_math_liveplay in tcpliveplay.c, leading to a possible denial of service.
-
-- [https://github.com/sy460129/CVE-2025-51005](https://github.com/sy460129/CVE-2025-51005) :  ![starts](https://img.shields.io/github/stars/sy460129/CVE-2025-51005.svg) ![forks](https://img.shields.io/github/forks/sy460129/CVE-2025-51005.svg)
-
-
-## CVE-2025-49706
- Improper authentication in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network.
-
-- [https://github.com/yashz0007/CVE-2025-53770-Exploit](https://github.com/yashz0007/CVE-2025-53770-Exploit) :  ![starts](https://img.shields.io/github/stars/yashz0007/CVE-2025-53770-Exploit.svg) ![forks](https://img.shields.io/github/forks/yashz0007/CVE-2025-53770-Exploit.svg)
-- [https://github.com/fentnttntnt/CVE-2025-53770](https://github.com/fentnttntnt/CVE-2025-53770) :  ![starts](https://img.shields.io/github/stars/fentnttntnt/CVE-2025-53770.svg) ![forks](https://img.shields.io/github/forks/fentnttntnt/CVE-2025-53770.svg)
-- [https://github.com/taqiaferdianshah/CVE-2025-53770](https://github.com/taqiaferdianshah/CVE-2025-53770) :  ![starts](https://img.shields.io/github/stars/taqiaferdianshah/CVE-2025-53770.svg) ![forks](https://img.shields.io/github/forks/taqiaferdianshah/CVE-2025-53770.svg)
-
-
-## CVE-2025-48384
- Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals. When reading a config value, Git strips any trailing carriage return and line feed (CRLF). When writing a config entry, values with a trailing CR are not quoted, causing the CR to be lost when the config is later read. When initializing a submodule, if the submodule path contains a trailing CR, the altered path is read resulting in the submodule being checked out to an incorrect location. If a symlink exists that points the altered path to the submodule hooks directory, and the submodule contains an executable post-checkout hook, the script may be unintentionally executed after checkout. This vulnerability is fixed in v2.43.7, v2.44.4, v2.45.4, v2.46.4, v2.47.3, v2.48.2, v2.49.1, and v2.50.1.
-
-- [https://github.com/butyraldehyde/CVE-2025-48384-PoC](https://github.com/butyraldehyde/CVE-2025-48384-PoC) :  ![starts](https://img.shields.io/github/stars/butyraldehyde/CVE-2025-48384-PoC.svg) ![forks](https://img.shields.io/github/forks/butyraldehyde/CVE-2025-48384-PoC.svg)
-
-
-## CVE-2025-43372
- The issue was addressed with improved input validation. This issue is fixed in tvOS 26, watchOS 26, visionOS 26, macOS Tahoe 26, iOS 26 and iPadOS 26. Processing a maliciously crafted media file may lead to unexpected app termination or corrupt process memory.
-
-- [https://github.com/allinsthon/CVE-2025-43372](https://github.com/allinsthon/CVE-2025-43372) :  ![starts](https://img.shields.io/github/stars/allinsthon/CVE-2025-43372.svg) ![forks](https://img.shields.io/github/forks/allinsthon/CVE-2025-43372.svg)
-
-
-## CVE-2025-34100
- An unrestricted file upload vulnerability exists in BuilderEngine 3.5.0 via the integration of the elFinder 2.0 file manager and its use of the jQuery File Upload plugin. The plugin fails to properly validate or restrict file types or locations during upload operations, allowing an attacker to upload a malicious .php file and subsequently execute arbitrary PHP code on the server under the context of the web server process. While the root vulnerability lies within the jQuery File Upload component, BuilderEngine’s improper integration and lack of access controls expose this functionality to unauthenticated users, resulting in full remote code execution.
-
-- [https://github.com/hyeonyeonglee/CVE-2025-34100](https://github.com/hyeonyeonglee/CVE-2025-34100) :  ![starts](https://img.shields.io/github/stars/hyeonyeonglee/CVE-2025-34100.svg) ![forks](https://img.shields.io/github/forks/hyeonyeonglee/CVE-2025-34100.svg)
+- [https://github.com/0xh3g4z1/CVE-2025-53770-SharePoint-RCE](https://github.com/0xh3g4z1/CVE-2025-53770-SharePoint-RCE) :  ![starts](https://img.shields.io/github/stars/0xh3g4z1/CVE-2025-53770-SharePoint-RCE.svg) ![forks](https://img.shields.io/github/forks/0xh3g4z1/CVE-2025-53770-SharePoint-RCE.svg)
 
 
 ## CVE-2025-32463
  Sudo before 1.9.17p1 allows local users to obtain root access because /etc/nsswitch.conf from a user-controlled directory is used with the --chroot option.
 
-- [https://github.com/no-speech-to-text/CVE-2025-32463](https://github.com/no-speech-to-text/CVE-2025-32463) :  ![starts](https://img.shields.io/github/stars/no-speech-to-text/CVE-2025-32463.svg) ![forks](https://img.shields.io/github/forks/no-speech-to-text/CVE-2025-32463.svg)
-- [https://github.com/DaadaAyoze/CVE-2025-32463-lab](https://github.com/DaadaAyoze/CVE-2025-32463-lab) :  ![starts](https://img.shields.io/github/stars/DaadaAyoze/CVE-2025-32463-lab.svg) ![forks](https://img.shields.io/github/forks/DaadaAyoze/CVE-2025-32463-lab.svg)
+- [https://github.com/nelissandro/CVE-2025-32463-Sudo-Chroot-Escape](https://github.com/nelissandro/CVE-2025-32463-Sudo-Chroot-Escape) :  ![starts](https://img.shields.io/github/stars/nelissandro/CVE-2025-32463-Sudo-Chroot-Escape.svg) ![forks](https://img.shields.io/github/forks/nelissandro/CVE-2025-32463-Sudo-Chroot-Escape.svg)
 
 
-## CVE-2025-32462
- Sudo before 1.9.17p1, when used with a sudoers file that specifies a host that is neither the current host nor ALL, allows listed users to execute commands on unintended machines.
+## CVE-2025-32433
+ Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.
 
-- [https://github.com/DaadaAyoze/CVE-2025-32463-lab](https://github.com/DaadaAyoze/CVE-2025-32463-lab) :  ![starts](https://img.shields.io/github/stars/DaadaAyoze/CVE-2025-32463-lab.svg) ![forks](https://img.shields.io/github/forks/DaadaAyoze/CVE-2025-32463-lab.svg)
-
-
-## CVE-2025-32432
- Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.
-
-- [https://github.com/bambooqj/CVE-2025-32432](https://github.com/bambooqj/CVE-2025-32432) :  ![starts](https://img.shields.io/github/stars/bambooqj/CVE-2025-32432.svg) ![forks](https://img.shields.io/github/forks/bambooqj/CVE-2025-32432.svg)
-
-
-## CVE-2025-30406
- Gladinet CentreStack through 16.1.10296.56315 (fixed in 16.4.10315.56368) has a deserialization vulnerability due to the CentreStack portal's hardcoded machineKey use, as exploited in the wild in March 2025. This enables threat actors (who know the machineKey) to serialize a payload for server-side deserialization to achieve remote code execution. NOTE: a CentreStack admin can manually delete the machineKey defined in portal\web.config.
-
-- [https://github.com/jaydenb546/CVE-2025-30406](https://github.com/jaydenb546/CVE-2025-30406) :  ![starts](https://img.shields.io/github/stars/jaydenb546/CVE-2025-30406.svg) ![forks](https://img.shields.io/github/forks/jaydenb546/CVE-2025-30406.svg)
+- [https://github.com/mirmeweu/cve-2025-32433](https://github.com/mirmeweu/cve-2025-32433) :  ![starts](https://img.shields.io/github/stars/mirmeweu/cve-2025-32433.svg) ![forks](https://img.shields.io/github/forks/mirmeweu/cve-2025-32433.svg)
 
 
 ## CVE-2025-29927
  Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
 
-- [https://github.com/sermikr0/nextjs-middleware-auth-bypass](https://github.com/sermikr0/nextjs-middleware-auth-bypass) :  ![starts](https://img.shields.io/github/stars/sermikr0/nextjs-middleware-auth-bypass.svg) ![forks](https://img.shields.io/github/forks/sermikr0/nextjs-middleware-auth-bypass.svg)
+- [https://github.com/0xh3g4z1/CVE-2025-29927-Next.js-Middleware-Authorization-Bypass](https://github.com/0xh3g4z1/CVE-2025-29927-Next.js-Middleware-Authorization-Bypass) :  ![starts](https://img.shields.io/github/stars/0xh3g4z1/CVE-2025-29927-Next.js-Middleware-Authorization-Bypass.svg) ![forks](https://img.shields.io/github/forks/0xh3g4z1/CVE-2025-29927-Next.js-Middleware-Authorization-Bypass.svg)
 
 
-## CVE-2025-26399
- SolarWinds Web Help Desk was found to be susceptible to an unauthenticated AjaxProxy deserialization remote code execution vulnerability that, if exploited, would allow an attacker to run commands on the host machine. This vulnerability is a patch bypass of CVE-2024-28988, which in turn is a patch bypass of CVE-2024-28986.
+## CVE-2025-24893
+ XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution through a request to `SolrSearch`. This impacts the confidentiality, integrity and availability of the whole XWiki installation. To reproduce on an instance, without being logged in, go to `host/xwiki/bin/get/Main/SolrSearch?media=rss&text=%7D%7D%7D%7B%7Basync%20async%3Dfalse%7D%7D%7B%7Bgroovy%7D%7Dprintln%28"Hello%20from"%20%2B%20"%20search%20text%3A"%20%2B%20%2823%20%2B%2019%29%29%7B%7B%2Fgroovy%7D%7D%7B%7B%2Fasync%7D%7D%20`. If there is an output, and the title of the RSS feed contains `Hello from search text:42`, then the instance is vulnerable. This vulnerability has been patched in XWiki 15.10.11, 16.4.1 and 16.5.0RC1. Users are advised to upgrade. Users unable to upgrade may edit `Main.SolrSearchMacros` in `SolrSearchMacros.xml` on line 955 to match the `rawResponse` macro in `macros.vm#L2824` with a content type of `application/xml`, instead of simply outputting the content of the feed.
 
-- [https://github.com/rxerium/CVE-2025-26399](https://github.com/rxerium/CVE-2025-26399) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2025-26399.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2025-26399.svg)
-- [https://github.com/h4xnz/CVE-2025-26399-Exploit](https://github.com/h4xnz/CVE-2025-26399-Exploit) :  ![starts](https://img.shields.io/github/stars/h4xnz/CVE-2025-26399-Exploit.svg) ![forks](https://img.shields.io/github/forks/h4xnz/CVE-2025-26399-Exploit.svg)
-
-
-## CVE-2025-2825
- DO NOT USE THIS CVE RECORD. ConsultIDs: CVE-2025-31161. Reason: This Record is a reservation duplicate of CVE-2025-31161. Notes: All CVE users should reference CVE-2025-31161 instead of this Record. All references and descriptions in this Record have been removed to prevent accidental usage.
-
-- [https://github.com/iteride/CVE-2025-2825](https://github.com/iteride/CVE-2025-2825) :  ![starts](https://img.shields.io/github/stars/iteride/CVE-2025-2825.svg) ![forks](https://img.shields.io/github/forks/iteride/CVE-2025-2825.svg)
+- [https://github.com/AliAmouz/CVE2025-24893](https://github.com/AliAmouz/CVE2025-24893) :  ![starts](https://img.shields.io/github/stars/AliAmouz/CVE2025-24893.svg) ![forks](https://img.shields.io/github/forks/AliAmouz/CVE2025-24893.svg)
 
 
-## CVE-2025-1974
- A security issue was discovered in Kubernetes where under certain conditions, an unauthenticated attacker with access to the pod network can achieve arbitrary code execution in the context of the ingress-nginx controller. This can lead to disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)
+## CVE-2025-10585
+ Type confusion in V8 in Google Chrome prior to 140.0.7339.185 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
 
-- [https://github.com/iteride/CVE-2025-1974](https://github.com/iteride/CVE-2025-1974) :  ![starts](https://img.shields.io/github/stars/iteride/CVE-2025-1974.svg) ![forks](https://img.shields.io/github/forks/iteride/CVE-2025-1974.svg)
-
-
-## CVE-2025-0133
-For GlobalProtect users with Clientless VPN enabled, there is a limited impact on confidentiality due to inherent risks of Clientless VPN that facilitate credential theft. You can read more about this risk in the informational bulletin  PAN-SA-2025-0005 https://security.paloaltonetworks.com/PAN-SA-2025-0005   https://security.paloaltonetworks.com/PAN-SA-2025-0005 . There is no impact to confidentiality for GlobalProtect users if you did not enable (or you disable) Clientless VPN.
-
-- [https://github.com/adhamelhansye/CVE-2025-0133](https://github.com/adhamelhansye/CVE-2025-0133) :  ![starts](https://img.shields.io/github/stars/adhamelhansye/CVE-2025-0133.svg) ![forks](https://img.shields.io/github/forks/adhamelhansye/CVE-2025-0133.svg)
+- [https://github.com/AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day](https://github.com/AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day) :  ![starts](https://img.shields.io/github/stars/AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day.svg) ![forks](https://img.shields.io/github/forks/AdityaBhatt3010/CVE-2025-10585-The-Chrome-V8-Zero-Day.svg)
+- [https://github.com/callinston/CVE-2025-10585](https://github.com/callinston/CVE-2025-10585) :  ![starts](https://img.shields.io/github/stars/callinston/CVE-2025-10585.svg) ![forks](https://img.shields.io/github/forks/callinston/CVE-2025-10585.svg)
 
 
-## CVE-2024-4577
- In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use "Best-Fit" behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
+## CVE-2025-10184
+The root cause is a combination of missing permissions for write operations in several content providers (com.android.providers.telephony.PushMessageProvider, com.android.providers.telephony.PushShopProvider, com.android.providers.telephony.ServiceNumberProvider), and a blind SQL injection in the update method of those providers.
 
-- [https://github.com/wilss0n/CVE-2024-4577](https://github.com/wilss0n/CVE-2024-4577) :  ![starts](https://img.shields.io/github/stars/wilss0n/CVE-2024-4577.svg) ![forks](https://img.shields.io/github/forks/wilss0n/CVE-2024-4577.svg)
-
-
-## CVE-2023-6933
- The Better Search Replace plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.4.4 via deserialization of untrusted input. This makes it possible for unauthenticated attackers to inject a PHP Object. No POP chain is present in the vulnerable plugin. If a POP chain is present via an additional plugin or theme installed on the target system, it could allow the attacker to delete arbitrary files, retrieve sensitive data, or execute code.
-
-- [https://github.com/Trex96/vulnerable-bsr-lab-CVE-2023-6933](https://github.com/Trex96/vulnerable-bsr-lab-CVE-2023-6933) :  ![starts](https://img.shields.io/github/stars/Trex96/vulnerable-bsr-lab-CVE-2023-6933.svg) ![forks](https://img.shields.io/github/forks/Trex96/vulnerable-bsr-lab-CVE-2023-6933.svg)
+- [https://github.com/yuuouu/ColorOS-CVE-2025-10184](https://github.com/yuuouu/ColorOS-CVE-2025-10184) :  ![starts](https://img.shields.io/github/stars/yuuouu/ColorOS-CVE-2025-10184.svg) ![forks](https://img.shields.io/github/forks/yuuouu/ColorOS-CVE-2025-10184.svg)
+- [https://github.com/People-11/CVE-2025-10184_PoC](https://github.com/People-11/CVE-2025-10184_PoC) :  ![starts](https://img.shields.io/github/stars/People-11/CVE-2025-10184_PoC.svg) ![forks](https://img.shields.io/github/forks/People-11/CVE-2025-10184_PoC.svg)
 
 
-## CVE-2020-3452
- A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct directory traversal attacks and read sensitive files on a targeted system. The vulnerability is due to a lack of proper input validation of URLs in HTTP requests processed by an affected device. An attacker could exploit this vulnerability by sending a crafted HTTP request containing directory traversal character sequences to an affected device. A successful exploit could allow the attacker to view arbitrary files within the web services file system on the targeted device. The web services file system is enabled when the affected device is configured with either WebVPN or AnyConnect features. This vulnerability cannot be used to obtain access to ASA or FTD system files or underlying operating system (OS) files.
+## CVE-2025-8088
+     from ESET.
 
-- [https://github.com/abrewer251/CVE-2020-3452_Cisco_ASA_PathTraversal](https://github.com/abrewer251/CVE-2020-3452_Cisco_ASA_PathTraversal) :  ![starts](https://img.shields.io/github/stars/abrewer251/CVE-2020-3452_Cisco_ASA_PathTraversal.svg) ![forks](https://img.shields.io/github/forks/abrewer251/CVE-2020-3452_Cisco_ASA_PathTraversal.svg)
+- [https://github.com/pablo388/WinRAR-CVE-2025-8088-PoC-RAR](https://github.com/pablo388/WinRAR-CVE-2025-8088-PoC-RAR) :  ![starts](https://img.shields.io/github/stars/pablo388/WinRAR-CVE-2025-8088-PoC-RAR.svg) ![forks](https://img.shields.io/github/forks/pablo388/WinRAR-CVE-2025-8088-PoC-RAR.svg)
 
 
-## CVE-2017-12611
- In Apache Struts 2.0.0 through 2.3.33 and 2.5 through 2.5.10.1, using an unintentional expression in a Freemarker tag instead of string literals can lead to a RCE attack.
+## CVE-2025-2294
+ The Kubio AI Page Builder plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.5.1 via thekubio_hybrid_theme_load_template function. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
 
-- [https://github.com/zeynepsilao/CVE-2017-12611_Exploit](https://github.com/zeynepsilao/CVE-2017-12611_Exploit) :  ![starts](https://img.shields.io/github/stars/zeynepsilao/CVE-2017-12611_Exploit.svg) ![forks](https://img.shields.io/github/forks/zeynepsilao/CVE-2017-12611_Exploit.svg)
+- [https://github.com/iteride/CVE-2025-2294](https://github.com/iteride/CVE-2025-2294) :  ![starts](https://img.shields.io/github/stars/iteride/CVE-2025-2294.svg) ![forks](https://img.shields.io/github/forks/iteride/CVE-2025-2294.svg)
+
+
+## CVE-2024-32002
+ Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
+
+- [https://github.com/JoaoLeonello/cve-2024-32002-poc](https://github.com/JoaoLeonello/cve-2024-32002-poc) :  ![starts](https://img.shields.io/github/stars/JoaoLeonello/cve-2024-32002-poc.svg) ![forks](https://img.shields.io/github/forks/JoaoLeonello/cve-2024-32002-poc.svg)
+
+
+## CVE-2023-34233
+ The Snowflake Connector for Python provides an interface for developing Python applications that can connect to Snowflake and perform all standard operations. Versions prior to 3.0.2 are vulnerable to command injection via single sign-on(SSO) browser URL authentication. In order to exploit the potential for command injection, an attacker would need to be successful in (1) establishing a malicious resource and (2) redirecting users to utilize the resource. The attacker could set up a malicious, publicly accessible server which responds to the SSO URL with an attack payload. If the attacker then tricked a user into visiting the maliciously crafted connection URL, the user’s local machine would render the malicious payload, leading to a remote code execution. This attack scenario can be mitigated through URL whitelisting as well as common anti-phishing resources. Version 3.0.2 contains a patch for this issue.
+
+- [https://github.com/nayankadamm/CVE-2023-34233_Proof_OF_Concept](https://github.com/nayankadamm/CVE-2023-34233_Proof_OF_Concept) :  ![starts](https://img.shields.io/github/stars/nayankadamm/CVE-2023-34233_Proof_OF_Concept.svg) ![forks](https://img.shields.io/github/forks/nayankadamm/CVE-2023-34233_Proof_OF_Concept.svg)
+
+
+## CVE-2022-35583
+ wkhtmlTOpdf 0.12.6 is vulnerable to SSRF which allows an attacker to get initial access into the target's system by injecting iframe tag with initial asset IP address on it's source. This allows the attacker to takeover the whole infrastructure by accessing their internal assets.
+
+- [https://github.com/Malayke/CVE-2022-35583-Pandoc-SSRF-POC](https://github.com/Malayke/CVE-2022-35583-Pandoc-SSRF-POC) :  ![starts](https://img.shields.io/github/stars/Malayke/CVE-2022-35583-Pandoc-SSRF-POC.svg) ![forks](https://img.shields.io/github/forks/Malayke/CVE-2022-35583-Pandoc-SSRF-POC.svg)
+
+
+## CVE-2022-24434
+ This affects all versions of package dicer. A malicious attacker can send a modified form to server, and crash the nodejs service. An attacker could sent the payload again and again so that the service continuously crashes.
+
+- [https://github.com/nayankadamm/CVE-2022-24434_POC](https://github.com/nayankadamm/CVE-2022-24434_POC) :  ![starts](https://img.shields.io/github/stars/nayankadamm/CVE-2022-24434_POC.svg) ![forks](https://img.shields.io/github/forks/nayankadamm/CVE-2022-24434_POC.svg)
+
+
+## CVE-2018-7600
+ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1 allows remote attackers to execute arbitrary code because of an issue affecting multiple subsystems with default or common module configurations.
+
+- [https://github.com/tea-celikik/Drupal-Exploit-Lab](https://github.com/tea-celikik/Drupal-Exploit-Lab) :  ![starts](https://img.shields.io/github/stars/tea-celikik/Drupal-Exploit-Lab.svg) ![forks](https://img.shields.io/github/forks/tea-celikik/Drupal-Exploit-Lab.svg)
+
+
+## CVE-2017-5638
+ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
+
+- [https://github.com/FozilCV/Apache-Struts2-CVE-2017-5638](https://github.com/FozilCV/Apache-Struts2-CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/FozilCV/Apache-Struts2-CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/FozilCV/Apache-Struts2-CVE-2017-5638.svg)
+
+
+## CVE-2008-0166
+ OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
+
+- [https://github.com/AhegaoPsyops/sslWeakness](https://github.com/AhegaoPsyops/sslWeakness) :  ![starts](https://img.shields.io/github/stars/AhegaoPsyops/sslWeakness.svg) ![forks](https://img.shields.io/github/forks/AhegaoPsyops/sslWeakness.svg)
 
