@@ -1,126 +1,78 @@
-# Update 2025-09-28
-## CVE-2025-56383
- Notepad++ v8.8.3 has a DLL hijacking vulnerability, which can replace the original DLL file to execute malicious code.
+# Update 2025-09-29
+## CVE-2025-59932
+ Flag Forge is a Capture The Flag (CTF) platform. From versions 2.0.0 to before 2.3.1, the /api/resources endpoint previously allowed POST and DELETE requests without proper authentication or authorization. This could have enabled unauthorized users to create, modify, or delete resources on the platform. The issue has been fixed in FlagForge version 2.3.1.
 
-- [https://github.com/zer0t0/CVE-2025-56383-Proof-of-Concept](https://github.com/zer0t0/CVE-2025-56383-Proof-of-Concept) :  ![starts](https://img.shields.io/github/stars/zer0t0/CVE-2025-56383-Proof-of-Concept.svg) ![forks](https://img.shields.io/github/forks/zer0t0/CVE-2025-56383-Proof-of-Concept.svg)
+- [https://github.com/At0mXploit/CVE-2025-59843-CVE-2025-59932](https://github.com/At0mXploit/CVE-2025-59843-CVE-2025-59932) :  ![starts](https://img.shields.io/github/stars/At0mXploit/CVE-2025-59843-CVE-2025-59932.svg) ![forks](https://img.shields.io/github/forks/At0mXploit/CVE-2025-59843-CVE-2025-59932.svg)
 
 
-## CVE-2025-39866
-wb_wakeup_delayed() finished.
+## CVE-2025-59843
+ Flag Forge is a Capture The Flag (CTF) platform. From versions 2.0.0 to before 2.3.1, the public endpoint /api/user/[username] returns user email addresses in its JSON response. The problem has been patched in FlagForge version 2.3.1. The fix removes email addresses from public API responses while keeping the endpoint publicly accessible. Users should upgrade to version 2.3.1 or later to eliminate exposure. There are no workarounds for this vulnerability.
 
-- [https://github.com/byteReaper77/CVE-2025-39866](https://github.com/byteReaper77/CVE-2025-39866) :  ![starts](https://img.shields.io/github/stars/byteReaper77/CVE-2025-39866.svg) ![forks](https://img.shields.io/github/forks/byteReaper77/CVE-2025-39866.svg)
+- [https://github.com/At0mXploit/CVE-2025-59843-CVE-2025-59932](https://github.com/At0mXploit/CVE-2025-59843-CVE-2025-59932) :  ![starts](https://img.shields.io/github/stars/At0mXploit/CVE-2025-59843-CVE-2025-59932.svg) ![forks](https://img.shields.io/github/forks/At0mXploit/CVE-2025-59843-CVE-2025-59932.svg)
+
+
+## CVE-2025-39596
+ Weak Authentication vulnerability in Quentn.com GmbH Quentn WP allows Privilege Escalation. This issue affects Quentn WP: from n/a through 1.2.8.
+
+- [https://github.com/Nxploited/CVE-2025-39596](https://github.com/Nxploited/CVE-2025-39596) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-39596.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-39596.svg)
 
 
 ## CVE-2025-31161
  CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as exploited in the wild in March and April 2025, aka "Unauthenticated HTTP(S) port access." A race condition exists in the AWS4-HMAC (compatible with S3) authorization method of the HTTP component of the FTP server. The server first verifies the existence of the user by performing a call to login_user_pass() with no password requirement. This will authenticate the session through the HMAC verification process and up until the server checks for user verification once more. The vulnerability can be further stabilized, eliminating the need for successfully triggering a race condition, by sending a mangled AWS4-HMAC header. By providing only the username and a following slash (/), the server will successfully find a username, which triggers the successful anypass authentication process, but the server will fail to find the expected SignedHeaders entry, resulting in an index-out-of-bounds error that stops the code from reaching the session cleanup. Together, these issues make it trivial to authenticate as any known or guessable user (e.g., crushadmin), and can lead to a full compromise of the system by obtaining an administrative account.
 
-- [https://github.com/Teexo/CVE-2025-31161](https://github.com/Teexo/CVE-2025-31161) :  ![starts](https://img.shields.io/github/stars/Teexo/CVE-2025-31161.svg) ![forks](https://img.shields.io/github/forks/Teexo/CVE-2025-31161.svg)
+- [https://github.com/0xDTC/CrushFTP-auth-bypass-CVE-2025-31161](https://github.com/0xDTC/CrushFTP-auth-bypass-CVE-2025-31161) :  ![starts](https://img.shields.io/github/stars/0xDTC/CrushFTP-auth-bypass-CVE-2025-31161.svg) ![forks](https://img.shields.io/github/forks/0xDTC/CrushFTP-auth-bypass-CVE-2025-31161.svg)
 
 
-## CVE-2025-29927
- Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
+## CVE-2025-20333
+ This vulnerability is due to improper validation of user-supplied input in HTTP(S) requests. An attacker with valid VPN user credentials could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute arbitrary code as root, possibly resulting in the complete compromise of the affected device.
 
-- [https://github.com/Viperazor/CVE-2025-29927-Research](https://github.com/Viperazor/CVE-2025-29927-Research) :  ![starts](https://img.shields.io/github/stars/Viperazor/CVE-2025-29927-Research.svg) ![forks](https://img.shields.io/github/forks/Viperazor/CVE-2025-29927-Research.svg)
-
-
-## CVE-2025-22777
- Deserialization of Untrusted Data vulnerability in GiveWP GiveWP allows Object Injection.This issue affects GiveWP: from n/a through 3.19.3.
-
-- [https://github.com/RandomRobbieBF/CVE-2025-22777](https://github.com/RandomRobbieBF/CVE-2025-22777) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2025-22777.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2025-22777.svg)
+- [https://github.com/callinston/CVE-2025-20333](https://github.com/callinston/CVE-2025-20333) :  ![starts](https://img.shields.io/github/stars/callinston/CVE-2025-20333.svg) ![forks](https://img.shields.io/github/forks/callinston/CVE-2025-20333.svg)
 
 
-## CVE-2025-8422
- The Propovoice: All-in-One Client Management System plugin for WordPress is vulnerable to Arbitrary File Read in all versions up to, and including, 1.7.6.7 via the send_email() function. This makes it possible for unauthenticated attackers to read the contents of arbitrary files on the server, which can contain sensitive information.
+## CVE-2025-10035
+ A deserialization vulnerability in the License Servlet of Fortra's GoAnywhere MFT allows an actor with a validly forged license response signature to deserialize an arbitrary actor-controlled object, possibly leading to command injection.
 
-- [https://github.com/RandomRobbieBF/CVE-2025-8422](https://github.com/RandomRobbieBF/CVE-2025-8422) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2025-8422.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2025-8422.svg)
-
-
-## CVE-2025-8088
-     from ESET.
-
-- [https://github.com/kyomber/CVE-2025-8088](https://github.com/kyomber/CVE-2025-8088) :  ![starts](https://img.shields.io/github/stars/kyomber/CVE-2025-8088.svg) ![forks](https://img.shields.io/github/forks/kyomber/CVE-2025-8088.svg)
+- [https://github.com/orange0Mint/CVE-2025-10035_GoAnywhere](https://github.com/orange0Mint/CVE-2025-10035_GoAnywhere) :  ![starts](https://img.shields.io/github/stars/orange0Mint/CVE-2025-10035_GoAnywhere.svg) ![forks](https://img.shields.io/github/forks/orange0Mint/CVE-2025-10035_GoAnywhere.svg)
 
 
-## CVE-2025-7771
- ThrottleStop.sys, a legitimate driver, exposes two IOCTL interfaces that allow arbitrary read and write access to physical memory via the MmMapIoSpace function. This insecure implementation can be exploited by a malicious user-mode application to patch the running Windows kernel and invoke arbitrary kernel functions with ring-0 privileges. The vulnerability enables local attackers to execute arbitrary code in kernel context, resulting in privilege escalation and potential follow-on attacks, such as disabling security software or bypassing kernel-level protections. ThrottleStop.sys version 3.0.0.0 and possibly others are affected. Apply updates per vendor instructions.
+## CVE-2025-9999
+ Some payload elements of the messages sent between two stations in a networking architecture are not properly checked on the receiving station allowing an attacker to execute unauthorized commands in the application.
 
-- [https://github.com/fxrstor/ThrottleStopPoC](https://github.com/fxrstor/ThrottleStopPoC) :  ![starts](https://img.shields.io/github/stars/fxrstor/ThrottleStopPoC.svg) ![forks](https://img.shields.io/github/forks/fxrstor/ThrottleStopPoC.svg)
-
-
-## CVE-2025-6384
-This issue affects CrafterCMS: from 4.0.0 through 4.2.2.
-
-- [https://github.com/maestro-ant/CrafterCMS-CVE-2025-6384](https://github.com/maestro-ant/CrafterCMS-CVE-2025-6384) :  ![starts](https://img.shields.io/github/stars/maestro-ant/CrafterCMS-CVE-2025-6384.svg) ![forks](https://img.shields.io/github/forks/maestro-ant/CrafterCMS-CVE-2025-6384.svg)
+- [https://github.com/umxr286/ExploitScript](https://github.com/umxr286/ExploitScript) :  ![starts](https://img.shields.io/github/stars/umxr286/ExploitScript.svg) ![forks](https://img.shields.io/github/forks/umxr286/ExploitScript.svg)
 
 
-## CVE-2025-5679
- A vulnerability classified as critical has been found in Shenzhen Dashi Tongzhou Information Technology AgileBPM up to 2.5.0. Affected is the function parseStrByFreeMarker of the file /src/main/java/com/dstz/sys/rest/controller/SysToolsController.java. The manipulation of the argument str leads to deserialization. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+## CVE-2025-5676
+ A vulnerability was found in Campcodes Online Recruitment Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /admin/ajax.php?action=login. The manipulation of the argument Username leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 
-- [https://github.com/B1tBreaker/CVE-2025-56795](https://github.com/B1tBreaker/CVE-2025-56795) :  ![starts](https://img.shields.io/github/stars/B1tBreaker/CVE-2025-56795.svg) ![forks](https://img.shields.io/github/forks/B1tBreaker/CVE-2025-56795.svg)
-
-
-## CVE-2025-5581
- A vulnerability was found in CodeAstro Real Estate Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /admin/index.php. The manipulation of the argument User leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
-
-- [https://github.com/5qu1n7/CVE-2025-55817](https://github.com/5qu1n7/CVE-2025-55817) :  ![starts](https://img.shields.io/github/stars/5qu1n7/CVE-2025-55817.svg) ![forks](https://img.shields.io/github/forks/5qu1n7/CVE-2025-55817.svg)
+- [https://github.com/Remenis/CVE-2025-56764-trivision-nc227wf](https://github.com/Remenis/CVE-2025-56764-trivision-nc227wf) :  ![starts](https://img.shields.io/github/stars/Remenis/CVE-2025-56764-trivision-nc227wf.svg) ![forks](https://img.shields.io/github/forks/Remenis/CVE-2025-56764-trivision-nc227wf.svg)
 
 
-## CVE-2025-5419
- Out of bounds read and write in V8 in Google Chrome prior to 137.0.7151.68 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+## CVE-2025-5304
+ The PT Project Notebooks plugin for WordPress is vulnerable to Privilege Escalation due to missing authorization in the wpnb_pto_new_users_add() function in versions 1.0.0 through 1.1.3. This makes it possible for unauthenticated attackers to elevate their privileges to that of an administrator.
 
-- [https://github.com/somprasong-tukman/CVE-2025-5419](https://github.com/somprasong-tukman/CVE-2025-5419) :  ![starts](https://img.shields.io/github/stars/somprasong-tukman/CVE-2025-5419.svg) ![forks](https://img.shields.io/github/forks/somprasong-tukman/CVE-2025-5419.svg)
-
-
-## CVE-2025-4840
- The inprosysmedia-likes-dislikes-post WordPress plugin through 1.0.0 does not properly sanitise and escape a parameter before using it in a SQL statement via an AJAX action available to unauthenticated users, leading to a SQL injection
-
-- [https://github.com/RandomRobbieBF/CVE-2025-4840](https://github.com/RandomRobbieBF/CVE-2025-4840) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2025-4840.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2025-4840.svg)
+- [https://github.com/Nxploited/CVE-2025-5304](https://github.com/Nxploited/CVE-2025-5304) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-5304.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-5304.svg)
 
 
-## CVE-2025-3515
- The Drag and Drop Multiple File Upload for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file uploads due to insufficient file type validation in all versions up to, and including, 1.3.8.9. This makes it possible for unauthenticated attackers to bypass the plugin's blacklist and upload .phar or other dangerous file types on the affected site's server, which may make remote code execution possible on the servers that are configured to handle .phar files as executable PHP scripts, particularly in default Apache+mod_php configurations where the file extension is not strictly validated before being passed to the PHP interpreter.
+## CVE-2025-4606
+ The Sala - Startup & SaaS WordPress Theme theme for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 1.1.4. This is due to the theme not properly validating a user's identity prior to updating their details like password. This makes it possible for unauthenticated attackers to change arbitrary user's passwords, including administrators, and leverage that to gain access to their account.
 
-- [https://github.com/robertskimengote/lab-cve-2025-3515](https://github.com/robertskimengote/lab-cve-2025-3515) :  ![starts](https://img.shields.io/github/stars/robertskimengote/lab-cve-2025-3515.svg) ![forks](https://img.shields.io/github/forks/robertskimengote/lab-cve-2025-3515.svg)
-
-
-## CVE-2024-13184
- The The Ultimate WordPress Toolkit – WP Extended plugin for WordPress is vulnerable to time-based SQL Injection via the Login Attempts module in all versions up to, and including, 3.0.12 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
-
-- [https://github.com/RandomRobbieBF/CVE-2024-13184](https://github.com/RandomRobbieBF/CVE-2024-13184) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-13184.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-13184.svg)
+- [https://github.com/UcenHaxor07/CVE-2025-4606](https://github.com/UcenHaxor07/CVE-2025-4606) :  ![starts](https://img.shields.io/github/stars/UcenHaxor07/CVE-2025-4606.svg) ![forks](https://img.shields.io/github/forks/UcenHaxor07/CVE-2025-4606.svg)
 
 
-## CVE-2024-12877
- The GiveWP – Donation Plugin and Fundraising Platform plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.19.2 via deserialization of untrusted input from the donation form like 'firstName'. This makes it possible for unauthenticated attackers to inject a PHP Object. The additional presence of a POP chain allows attackers to delete arbitrary files on the server that makes remote code execution possible. Please note this was only partially patched in 3.19.3, a fully sufficient patch was not released until 3.19.4. However, another CVE was assigned by another CNA for version 3.19.3 so we will leave this as affecting 3.19.2 and before. We have recommended the vendor use JSON encoding to prevent any further deserialization vulnerabilities from being present.
+## CVE-2023-38408
+ The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Code in /usr/lib is not necessarily safe for loading into ssh-agent.) NOTE: this issue exists because of an incomplete fix for CVE-2016-10009.
 
-- [https://github.com/RandomRobbieBF/CVE-2024-12877](https://github.com/RandomRobbieBF/CVE-2024-12877) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2024-12877.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2024-12877.svg)
-
-
-## CVE-2024-0582
- A memory leak flaw was found in the Linux kernel’s io_uring functionality in how a user registers a buffer ring with IORING_REGISTER_PBUF_RING, mmap() it, and then frees it. This flaw allows a local user to crash or potentially escalate their privileges on the system.
-
-- [https://github.com/pwnmonk/io_uring-n-day](https://github.com/pwnmonk/io_uring-n-day) :  ![starts](https://img.shields.io/github/stars/pwnmonk/io_uring-n-day.svg) ![forks](https://img.shields.io/github/forks/pwnmonk/io_uring-n-day.svg)
+- [https://github.com/Adel2411/cve-2023-38408](https://github.com/Adel2411/cve-2023-38408) :  ![starts](https://img.shields.io/github/stars/Adel2411/cve-2023-38408.svg) ![forks](https://img.shields.io/github/forks/Adel2411/cve-2023-38408.svg)
 
 
-## CVE-2023-45612
- In JetBrains Ktor before 2.3.5 default configuration of ContentNegotiation with XML format was vulnerable to XXE
+## CVE-2022-36537
+ ZK Framework v9.6.1, 9.6.0.1, 9.5.1.3, 9.0.1.2 and 8.6.4.1 allows attackers to access sensitive information via a crafted POST request sent to the component AuUploader.
 
-- [https://github.com/bbugdigger/ktor-xxe-poc](https://github.com/bbugdigger/ktor-xxe-poc) :  ![starts](https://img.shields.io/github/stars/bbugdigger/ktor-xxe-poc.svg) ![forks](https://img.shields.io/github/forks/bbugdigger/ktor-xxe-poc.svg)
-
-
-## CVE-2023-36802
- Microsoft Streaming Service Proxy Elevation of Privilege Vulnerability
-
-- [https://github.com/rahul0xkr/Reproducing-CVE-2023-36802](https://github.com/rahul0xkr/Reproducing-CVE-2023-36802) :  ![starts](https://img.shields.io/github/stars/rahul0xkr/Reproducing-CVE-2023-36802.svg) ![forks](https://img.shields.io/github/forks/rahul0xkr/Reproducing-CVE-2023-36802.svg)
+- [https://github.com/ethan-repo-lab4b6/CVE-2022-36537](https://github.com/ethan-repo-lab4b6/CVE-2022-36537) :  ![starts](https://img.shields.io/github/stars/ethan-repo-lab4b6/CVE-2022-36537.svg) ![forks](https://img.shields.io/github/forks/ethan-repo-lab4b6/CVE-2022-36537.svg)
 
 
-## CVE-2023-1405
- The Formidable Forms WordPress plugin before 6.2 unserializes user input, which could allow anonymous users to perform PHP Object Injection when a suitable gadget is present.
+## CVE-2009-2265
+ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow remote attackers to create executable files in arbitrary directories via directory traversal sequences in the input to unspecified connector modules, as exploited in the wild for remote code execution in July 2009, related to the file browser and the editor/filemanager/connectors/ directory.
 
-- [https://github.com/RandomRobbieBF/CVE-2023-1405](https://github.com/RandomRobbieBF/CVE-2023-1405) :  ![starts](https://img.shields.io/github/stars/RandomRobbieBF/CVE-2023-1405.svg) ![forks](https://img.shields.io/github/forks/RandomRobbieBF/CVE-2023-1405.svg)
-
-
-## CVE-2022-39299
- Passport-SAML is a SAML 2.0 authentication provider for Passport, the Node.js authentication library. A remote attacker may be able to bypass SAML authentication on a website using passport-saml. A successful attack requires that the attacker is in possession of an arbitrary IDP signed XML element. Depending on the IDP used, fully unauthenticated attacks (e.g without access to a valid user) might also be feasible if generation of a signed message can be triggered. Users should upgrade to passport-saml version 3.2.2 or newer. The issue was also present in the beta releases of `node-saml` before version 4.0.0-beta.5. If you cannot upgrade, disabling SAML authentication may be done as a workaround.
-
-- [https://github.com/Viperazor/CVE-2022-39299-Research](https://github.com/Viperazor/CVE-2022-39299-Research) :  ![starts](https://img.shields.io/github/stars/Viperazor/CVE-2022-39299-Research.svg) ![forks](https://img.shields.io/github/forks/Viperazor/CVE-2022-39299-Research.svg)
+- [https://github.com/nika0x38/CVE-2009-2265](https://github.com/nika0x38/CVE-2009-2265) :  ![starts](https://img.shields.io/github/stars/nika0x38/CVE-2009-2265.svg) ![forks](https://img.shields.io/github/forks/nika0x38/CVE-2009-2265.svg)
 
