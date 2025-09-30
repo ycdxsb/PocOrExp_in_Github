@@ -112,6 +112,13 @@
 
 - [https://github.com/wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development) :  ![starts](https://img.shields.io/github/stars/wetw0rk/Exploit-Development.svg) ![forks](https://img.shields.io/github/forks/wetw0rk/Exploit-Development.svg)
 
+## CVE-2016-10708
+ sshd in OpenSSH before 7.4 allows remote attackers to cause a denial of service (NULL pointer dereference and daemon crash) via an out-of-sequence NEWKEYS message, as demonstrated by Honggfuzz, related to kex.c and packet.c.
+
+
+
+- [https://github.com/lggcs/CVE-2016-10708](https://github.com/lggcs/CVE-2016-10708) :  ![starts](https://img.shields.io/github/stars/lggcs/CVE-2016-10708.svg) ![forks](https://img.shields.io/github/forks/lggcs/CVE-2016-10708.svg)
+
 ## CVE-2016-10555
  Since "algorithm" isn't enforced in jwt.decode()in jwt-simple 0.3.0 and earlier, a malicious user could choose what algorithm is sent sent to the server. If the server is expecting RSA but is sent HMAC-SHA with RSA's public key, the server will think the public key is actually an HMAC private key. This could be used to forge any data an attacker wants.
 
