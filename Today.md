@@ -1,129 +1,90 @@
-# Update 2025-10-04
-## CVE-2025-59713
- Snipe-IT before 8.1.18 allows unsafe deserialization.
+# Update 2025-10-05
+## CVE-2025-61622
+Users are recommended to upgrade to pyfory version 0.12.3 or later, which has removed pickle fallback serializer and thus fixes this issue.
 
-- [https://github.com/synacktiv/CVE-2025-59712_CVE-2025-59713](https://github.com/synacktiv/CVE-2025-59712_CVE-2025-59713) :  ![starts](https://img.shields.io/github/stars/synacktiv/CVE-2025-59712_CVE-2025-59713.svg) ![forks](https://img.shields.io/github/forks/synacktiv/CVE-2025-59712_CVE-2025-59713.svg)
-
-
-## CVE-2025-59712
- Snipe-IT before 8.1.18 allows XSS.
-
-- [https://github.com/synacktiv/CVE-2025-59712_CVE-2025-59713](https://github.com/synacktiv/CVE-2025-59712_CVE-2025-59713) :  ![starts](https://img.shields.io/github/stars/synacktiv/CVE-2025-59712_CVE-2025-59713.svg) ![forks](https://img.shields.io/github/forks/synacktiv/CVE-2025-59712_CVE-2025-59713.svg)
+- [https://github.com/fa1consec/cve_2025_61622_poc](https://github.com/fa1consec/cve_2025_61622_poc) :  ![starts](https://img.shields.io/github/stars/fa1consec/cve_2025_61622_poc.svg) ![forks](https://img.shields.io/github/forks/fa1consec/cve_2025_61622_poc.svg)
 
 
-## CVE-2025-56381
- ERPNEXT v15.67.0 was discovered to contain multiple SQL injection vulnerabilities in the /api/method/frappe.desk.reportview.get endpoint via the order_by and group_by parameters.
+## CVE-2025-60787
+ MotionEye v0.43.1b4 and before is vulnerable to OS Command Injection in configuration parameters such as image_file_name. Unsanitized user input is written to Motion configuration files, allowing remote authenticated attackers with admin access to achieve code execution when Motion is restarted.
 
-- [https://github.com/MoAlali/CVE-2025-56381](https://github.com/MoAlali/CVE-2025-56381) :  ![starts](https://img.shields.io/github/stars/MoAlali/CVE-2025-56381.svg) ![forks](https://img.shields.io/github/forks/MoAlali/CVE-2025-56381.svg)
-
-
-## CVE-2025-56380
- Frappe Framework v15.72.4 was discovered to contain a SQL injection vulnerability via the fieldname parameter in the frappe.client.get_value API endpoint and a crafted script to the fieldname parameter
-
-- [https://github.com/MoAlali/CVE-2025-56380](https://github.com/MoAlali/CVE-2025-56380) :  ![starts](https://img.shields.io/github/stars/MoAlali/CVE-2025-56380.svg) ![forks](https://img.shields.io/github/forks/MoAlali/CVE-2025-56380.svg)
+- [https://github.com/prabhatverma47/CVE-2025-60787](https://github.com/prabhatverma47/CVE-2025-60787) :  ![starts](https://img.shields.io/github/stars/prabhatverma47/CVE-2025-60787.svg) ![forks](https://img.shields.io/github/forks/prabhatverma47/CVE-2025-60787.svg)
 
 
-## CVE-2025-56379
- A stored cross-site scripting (XSS) vulnerability in the blog post feature of ERPNEXT v15.67.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the content field.
+## CVE-2025-59489
+ Unity Runtime before 2025-10-02 on Android, Windows, macOS, and Linux allows argument injection that can result in loading of library code from an unintended location. If an application was built with a version of Unity Editor that had the vulnerable Unity Runtime code, then an adversary may be able to execute code on, and exfiltrate confidential information from, the machine on which that application is running. NOTE: product status is provided for Unity Editor because that is the information available from the Supplier. However, updating Unity Editor typically does not address the effects of the vulnerability; instead, it is necessary to rebuild and redeploy all affected applications.
 
-- [https://github.com/MoAlali/CVE-2025-56379](https://github.com/MoAlali/CVE-2025-56379) :  ![starts](https://img.shields.io/github/stars/MoAlali/CVE-2025-56379.svg) ![forks](https://img.shields.io/github/forks/MoAlali/CVE-2025-56379.svg)
-
-
-## CVE-2025-56019
- An insecure permission vulnerability exists in the Agasta Easytouch+ version 9.3.97 The device allows unauthorized mobile applications to connect via Bluetooth Low Energy (BLE) without authentication. Once an unauthorized connection is established, legitimate applications are unable to connect, causing a denial of service. The attack requires proximity to the device, making it exploitable from an adjacent network location.
-
-- [https://github.com/Yashodhanvivek/Agatsa-EasyTouch-Plus---CVE-2025-56019](https://github.com/Yashodhanvivek/Agatsa-EasyTouch-Plus---CVE-2025-56019) :  ![starts](https://img.shields.io/github/stars/Yashodhanvivek/Agatsa-EasyTouch-Plus---CVE-2025-56019.svg) ![forks](https://img.shields.io/github/forks/Yashodhanvivek/Agatsa-EasyTouch-Plus---CVE-2025-56019.svg)
+- [https://github.com/RealtekDotSys/Meteor](https://github.com/RealtekDotSys/Meteor) :  ![starts](https://img.shields.io/github/stars/RealtekDotSys/Meteor.svg) ![forks](https://img.shields.io/github/forks/RealtekDotSys/Meteor.svg)
 
 
-## CVE-2025-32942
- SSH Tectia Server before 6.6.6 sometimes allows attackers to read and alter a user's session traffic.
+## CVE-2025-55972
+ A TCL Smart TV running a vulnerable UPnP/DLNA MediaRenderer implementation is affected by a remote, unauthenticated Denial of Service (DoS) condition. By sending a flood of malformed or oversized SetAVTransportURI SOAP requests to the UPnP control endpoint, an attacker can cause the device to become unresponsive. This denial persists as long as the attack continues and affects all forms of TV operation. Manual user control and even reboots do not restore functionality unless the flood stops.
 
-- [https://github.com/RUB-NDS/SSH-Strict-Kex-Violations-State-Learning-Artifacts](https://github.com/RUB-NDS/SSH-Strict-Kex-Violations-State-Learning-Artifacts) :  ![starts](https://img.shields.io/github/stars/RUB-NDS/SSH-Strict-Kex-Violations-State-Learning-Artifacts.svg) ![forks](https://img.shields.io/github/forks/RUB-NDS/SSH-Strict-Kex-Violations-State-Learning-Artifacts.svg)
-
-
-## CVE-2025-32463
- Sudo before 1.9.17p1 allows local users to obtain root access because /etc/nsswitch.conf from a user-controlled directory is used with the --chroot option.
-
-- [https://github.com/khoazero123/CVE-2025-32463](https://github.com/khoazero123/CVE-2025-32463) :  ![starts](https://img.shields.io/github/stars/khoazero123/CVE-2025-32463.svg) ![forks](https://img.shields.io/github/forks/khoazero123/CVE-2025-32463.svg)
-
-
-## CVE-2025-24893
- XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution through a request to `SolrSearch`. This impacts the confidentiality, integrity and availability of the whole XWiki installation. To reproduce on an instance, without being logged in, go to `host/xwiki/bin/get/Main/SolrSearch?media=rss&text=%7D%7D%7D%7B%7Basync%20async%3Dfalse%7D%7D%7B%7Bgroovy%7D%7Dprintln%28"Hello%20from"%20%2B%20"%20search%20text%3A"%20%2B%20%2823%20%2B%2019%29%29%7B%7B%2Fgroovy%7D%7D%7B%7B%2Fasync%7D%7D%20`. If there is an output, and the title of the RSS feed contains `Hello from search text:42`, then the instance is vulnerable. This vulnerability has been patched in XWiki 15.10.11, 16.4.1 and 16.5.0RC1. Users are advised to upgrade. Users unable to upgrade may edit `Main.SolrSearchMacros` in `SolrSearchMacros.xml` on line 955 to match the `rawResponse` macro in `macros.vm#L2824` with a content type of `application/xml`, instead of simply outputting the content of the feed.
-
-- [https://github.com/ibrahmsql/CVE-2025-24893](https://github.com/ibrahmsql/CVE-2025-24893) :  ![starts](https://img.shields.io/github/stars/ibrahmsql/CVE-2025-24893.svg) ![forks](https://img.shields.io/github/forks/ibrahmsql/CVE-2025-24893.svg)
-- [https://github.com/gotr00t0day/CVE-2025-24893](https://github.com/gotr00t0day/CVE-2025-24893) :  ![starts](https://img.shields.io/github/stars/gotr00t0day/CVE-2025-24893.svg) ![forks](https://img.shields.io/github/forks/gotr00t0day/CVE-2025-24893.svg)
-
-
-## CVE-2025-8359
- The AdForest theme for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 6.0.9. This is due to the plugin not properly verifying a user's identity prior to authenticating them. This makes it possible for unauthenticated attackers to log in as other users, including administrators, without access to a password.
-
-- [https://github.com/Nxploited/CVE-2025-8359](https://github.com/Nxploited/CVE-2025-8359) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-8359.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-8359.svg)
-
-
-## CVE-2025-5745
- The strncmp implementation optimized for the Power10 processor in the GNU C Library version 2.40 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
-
-- [https://github.com/restdone/CVE-2025-57457](https://github.com/restdone/CVE-2025-57457) :  ![starts](https://img.shields.io/github/stars/restdone/CVE-2025-57457.svg) ![forks](https://img.shields.io/github/forks/restdone/CVE-2025-57457.svg)
-
-
-## CVE-2025-5597
- Improper Authentication vulnerability in WF Steuerungstechnik GmbH airleader MASTER allows Authentication Bypass.This issue affects airleader MASTER: 3.00571.
-
-- [https://github.com/Szym0n13k/CVE-2025-55971-Blind-Unauthenticated-SSRF-in-TCL-Smart-TV-UPnP-DLNA-AVTransport](https://github.com/Szym0n13k/CVE-2025-55971-Blind-Unauthenticated-SSRF-in-TCL-Smart-TV-UPnP-DLNA-AVTransport) :  ![starts](https://img.shields.io/github/stars/Szym0n13k/CVE-2025-55971-Blind-Unauthenticated-SSRF-in-TCL-Smart-TV-UPnP-DLNA-AVTransport.svg) ![forks](https://img.shields.io/github/forks/Szym0n13k/CVE-2025-55971-Blind-Unauthenticated-SSRF-in-TCL-Smart-TV-UPnP-DLNA-AVTransport.svg)
 - [https://github.com/Szym0n13k/CVE-2025-55972-Remote-Unauthenticated-Denial-of-Service-DoS-in-TCL-Smart-TV-UPnP-DLNA-AVTransport](https://github.com/Szym0n13k/CVE-2025-55972-Remote-Unauthenticated-Denial-of-Service-DoS-in-TCL-Smart-TV-UPnP-DLNA-AVTransport) :  ![starts](https://img.shields.io/github/stars/Szym0n13k/CVE-2025-55972-Remote-Unauthenticated-Denial-of-Service-DoS-in-TCL-Smart-TV-UPnP-DLNA-AVTransport.svg) ![forks](https://img.shields.io/github/forks/Szym0n13k/CVE-2025-55972-Remote-Unauthenticated-Denial-of-Service-DoS-in-TCL-Smart-TV-UPnP-DLNA-AVTransport.svg)
 
 
-## CVE-2024-24919
- Potentially allowing an attacker to read certain information on Check Point Security Gateways once connected to the internet and enabled with remote Access VPN or Mobile Access Software Blades. A Security fix that mitigates this vulnerability is available.
+## CVE-2025-55971
+ TCL 65C655 Smart TV, running firmware version V8-R75PT01-LF1V269.001116 (Android TV, Kernel 5.4.242+), is vulnerable to a blind, unauthenticated Server-Side Request Forgery (SSRF) vulnerability via the UPnP MediaRenderer service (AVTransport:1). The device accepts unauthenticated SetAVTransportURI SOAP requests over TCP/16398 and attempts to retrieve externally referenced URIs, including attacker-controlled payloads. The blind SSRF allows for sending requests on behalf of the TV, which can be leveraged to probe for other internal or external services accessible by the device (e.g., 127.0.0.1:16XXX, LAN services, or internet targets), potentially enabling additional exploit chains.
 
-- [https://github.com/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-](https://github.com/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-) :  ![starts](https://img.shields.io/github/stars/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-.svg) ![forks](https://img.shields.io/github/forks/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-.svg)
-
-
-## CVE-2024-4577
- In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use "Best-Fit" behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
-
-- [https://github.com/AhmedMansour93/Event-ID-268-Rule-Name-SOC292-Possible-PHP-Injection-Detected-CVE-2024-4577-](https://github.com/AhmedMansour93/Event-ID-268-Rule-Name-SOC292-Possible-PHP-Injection-Detected-CVE-2024-4577-) :  ![starts](https://img.shields.io/github/stars/AhmedMansour93/Event-ID-268-Rule-Name-SOC292-Possible-PHP-Injection-Detected-CVE-2024-4577-.svg) ![forks](https://img.shields.io/github/forks/AhmedMansour93/Event-ID-268-Rule-Name-SOC292-Possible-PHP-Injection-Detected-CVE-2024-4577-.svg)
+- [https://github.com/Szym0n13k/CVE-2025-55971-Blind-Unauthenticated-SSRF-in-TCL-Smart-TV-UPnP-DLNA-AVTransport](https://github.com/Szym0n13k/CVE-2025-55971-Blind-Unauthenticated-SSRF-in-TCL-Smart-TV-UPnP-DLNA-AVTransport) :  ![starts](https://img.shields.io/github/stars/Szym0n13k/CVE-2025-55971-Blind-Unauthenticated-SSRF-in-TCL-Smart-TV-UPnP-DLNA-AVTransport.svg) ![forks](https://img.shields.io/github/forks/Szym0n13k/CVE-2025-55971-Blind-Unauthenticated-SSRF-in-TCL-Smart-TV-UPnP-DLNA-AVTransport.svg)
 
 
-## CVE-2024-2528
- A vulnerability was found in MAGESH-K21 Online-College-Event-Hall-Reservation-System 1.0. It has been classified as critical. This affects an unknown part of the file /admin/update-rooms.php. The manipulation of the argument room_id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-256965 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+## CVE-2025-36604
+ Dell Unity, version(s) 5.5 and prior, contain(s) an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to arbitrary command execution.
 
-- [https://github.com/sajaljat/CVE-2024-25280](https://github.com/sajaljat/CVE-2024-25280) :  ![starts](https://img.shields.io/github/stars/sajaljat/CVE-2024-25280.svg) ![forks](https://img.shields.io/github/forks/sajaljat/CVE-2024-25280.svg)
-- [https://github.com/sajaljat/CVE-2024-25281](https://github.com/sajaljat/CVE-2024-25281) :  ![starts](https://img.shields.io/github/stars/sajaljat/CVE-2024-25281.svg) ![forks](https://img.shields.io/github/forks/sajaljat/CVE-2024-25281.svg)
-
-
-## CVE-2024-1709
-critical systems.
-
-- [https://github.com/AhmedMansour93/Event-ID-229-Rule-Name-SOC262-CVE-2024-1709-](https://github.com/AhmedMansour93/Event-ID-229-Rule-Name-SOC262-CVE-2024-1709-) :  ![starts](https://img.shields.io/github/stars/AhmedMansour93/Event-ID-229-Rule-Name-SOC262-CVE-2024-1709-.svg) ![forks](https://img.shields.io/github/forks/AhmedMansour93/Event-ID-229-Rule-Name-SOC262-CVE-2024-1709-.svg)
+- [https://github.com/watchtowrlabs/watchTowr-vs-Dell-UnityVSA-PreAuth-CVE-2025-36604](https://github.com/watchtowrlabs/watchTowr-vs-Dell-UnityVSA-PreAuth-CVE-2025-36604) :  ![starts](https://img.shields.io/github/stars/watchtowrlabs/watchTowr-vs-Dell-UnityVSA-PreAuth-CVE-2025-36604.svg) ![forks](https://img.shields.io/github/forks/watchtowrlabs/watchTowr-vs-Dell-UnityVSA-PreAuth-CVE-2025-36604.svg)
 
 
-## CVE-2023-51467
- The vulnerability permits attackers to circumvent authentication processes, enabling them to remotely execute arbitrary code
+## CVE-2025-34226
+ OpenPLC Runtime v3 contains an input validation flaw in the /upload-program-action endpoint: the epoch_time field supplied during program uploads is not validated and can be crafted to induce corruption of the programs database. After a successful malformed upload the runtime continues to operate until a restart; on restart the runtime can fail to start because of corrupted database entries, resulting in persistent denial of service requiring complete rebase of the product to recover. This vulnerability was remediated by commit 095ee09623dd229b64ad3a1db38a901a3772f6fc.
 
-- [https://github.com/AhmedMansour93/Event-ID-217-Rule-Name-SOC254-Apache-OFBiz-Auth-Bypass-and-Code-Injection-0Day-CVE-2023-51467-](https://github.com/AhmedMansour93/Event-ID-217-Rule-Name-SOC254-Apache-OFBiz-Auth-Bypass-and-Code-Injection-0Day-CVE-2023-51467-) :  ![starts](https://img.shields.io/github/stars/AhmedMansour93/Event-ID-217-Rule-Name-SOC254-Apache-OFBiz-Auth-Bypass-and-Code-Injection-0Day-CVE-2023-51467-.svg) ![forks](https://img.shields.io/github/forks/AhmedMansour93/Event-ID-217-Rule-Name-SOC254-Apache-OFBiz-Auth-Bypass-and-Code-Injection-0Day-CVE-2023-51467-.svg)
-
-
-## CVE-2023-29357
- Microsoft SharePoint Server Elevation of Privilege Vulnerability
-
-- [https://github.com/AhmedMansour93/Event-ID-189-Rule-Name-SOC227-CVE-2023-29357](https://github.com/AhmedMansour93/Event-ID-189-Rule-Name-SOC227-CVE-2023-29357) :  ![starts](https://img.shields.io/github/stars/AhmedMansour93/Event-ID-189-Rule-Name-SOC227-CVE-2023-29357.svg) ![forks](https://img.shields.io/github/forks/AhmedMansour93/Event-ID-189-Rule-Name-SOC227-CVE-2023-29357.svg)
+- [https://github.com/Eyodav/CVE-2025-34226](https://github.com/Eyodav/CVE-2025-34226) :  ![starts](https://img.shields.io/github/stars/Eyodav/CVE-2025-34226.svg) ![forks](https://img.shields.io/github/forks/Eyodav/CVE-2025-34226.svg)
 
 
-## CVE-2023-20198
- Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.
+## CVE-2025-9286
+ The Appy Pie Connect for WooCommerce plugin for WordPress is vulnerable to Privilege Escalation due to missing authorization within the reset_user_password() REST handler in all versions up to, and including, 1.1.2. This makes it possible for unauthenticated attackers to to reset the password of arbitrary users, including administrators, thereby gaining administrative access.
 
-- [https://github.com/AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-](https://github.com/AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-) :  ![starts](https://img.shields.io/github/stars/AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-.svg) ![forks](https://img.shields.io/github/forks/AhmedMansour93/Event-ID-193-Rule-Name-SOC231-Cisco-IOS-XE-Web-UI-ZeroDay-CVE-2023-20198-.svg)
-
-
-## CVE-2022-39299
- Passport-SAML is a SAML 2.0 authentication provider for Passport, the Node.js authentication library. A remote attacker may be able to bypass SAML authentication on a website using passport-saml. A successful attack requires that the attacker is in possession of an arbitrary IDP signed XML element. Depending on the IDP used, fully unauthenticated attacks (e.g without access to a valid user) might also be feasible if generation of a signed message can be triggered. Users should upgrade to passport-saml version 3.2.2 or newer. The issue was also present in the beta releases of `node-saml` before version 4.0.0-beta.5. If you cannot upgrade, disabling SAML authentication may be done as a workaround.
-
-- [https://github.com/KaztoJun/CVE-2022-39299-Research](https://github.com/KaztoJun/CVE-2022-39299-Research) :  ![starts](https://img.shields.io/github/stars/KaztoJun/CVE-2022-39299-Research.svg) ![forks](https://img.shields.io/github/forks/KaztoJun/CVE-2022-39299-Research.svg)
+- [https://github.com/Nxploited/CVE-2025-9286](https://github.com/Nxploited/CVE-2025-9286) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-9286.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-9286.svg)
 
 
-## CVE-2020-11023
- In jQuery versions greater than or equal to 1.0.3 and before 3.5.0, passing HTML containing option elements from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.
+## CVE-2025-8625
+ The Copypress Rest API plugin for WordPress is vulnerable to Remote Code Execution via copyreap_handle_image() Function in versions 1.1 to 1.2. The plugin falls back to a hard-coded JWT signing key when no secret is defined and does not restrict which file types can be fetched and saved as attachments. As a result, unauthenticated attackers can forge a valid token to gain elevated privileges and upload an arbitrary file (e.g. a PHP script) through the image handler, leading to remote code execution.
 
-- [https://github.com/paktiko1986/pocpoc_bypass_cve_2020-11023](https://github.com/paktiko1986/pocpoc_bypass_cve_2020-11023) :  ![starts](https://img.shields.io/github/stars/paktiko1986/pocpoc_bypass_cve_2020-11023.svg) ![forks](https://img.shields.io/github/forks/paktiko1986/pocpoc_bypass_cve_2020-11023.svg)
+- [https://github.com/Nxploited/CVE-2025-8625](https://github.com/Nxploited/CVE-2025-8625) :  ![starts](https://img.shields.io/github/stars/Nxploited/CVE-2025-8625.svg) ![forks](https://img.shields.io/github/forks/Nxploited/CVE-2025-8625.svg)
+
+
+## CVE-2025-7771
+ ThrottleStop.sys, a legitimate driver, exposes two IOCTL interfaces that allow arbitrary read and write access to physical memory via the MmMapIoSpace function. This insecure implementation can be exploited by a malicious user-mode application to patch the running Windows kernel and invoke arbitrary kernel functions with ring-0 privileges. The vulnerability enables local attackers to execute arbitrary code in kernel context, resulting in privilege escalation and potential follow-on attacks, such as disabling security software or bypassing kernel-level protections. ThrottleStop.sys version 3.0.0.0 and possibly others are affected. Apply updates per vendor instructions.
+
+- [https://github.com/Gabriel-Lacorte/CVE-2025-7771](https://github.com/Gabriel-Lacorte/CVE-2025-7771) :  ![starts](https://img.shields.io/github/stars/Gabriel-Lacorte/CVE-2025-7771.svg) ![forks](https://img.shields.io/github/forks/Gabriel-Lacorte/CVE-2025-7771.svg)
+
+
+## CVE-2025-7558
+ A vulnerability was found in code-projects Voting System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /admin/positions_add.php. The manipulation of the argument description leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.
+
+- [https://github.com/rundas-r00t/CVE-2025-7558-PoC](https://github.com/rundas-r00t/CVE-2025-7558-PoC) :  ![starts](https://img.shields.io/github/stars/rundas-r00t/CVE-2025-7558-PoC.svg) ![forks](https://img.shields.io/github/forks/rundas-r00t/CVE-2025-7558-PoC.svg)
+
+
+## CVE-2025-6073
+This issue affects RMC-100: from 2105457-043 through 2105457-045; RMC-100 LITE: from 2106229-015 through 2106229-016.
+
+- [https://github.com/WinDyAlphA/CVE-2025-60736](https://github.com/WinDyAlphA/CVE-2025-60736) :  ![starts](https://img.shields.io/github/stars/WinDyAlphA/CVE-2025-60736.svg) ![forks](https://img.shields.io/github/forks/WinDyAlphA/CVE-2025-60736.svg)
+
+
+## CVE-2023-49968
+ Customer Support System v1 was discovered to contain a SQL injection vulnerability via the id parameter at /customer_support/manage_department.php.
+
+- [https://github.com/geraldoalcantara/CVE-2023-49968](https://github.com/geraldoalcantara/CVE-2023-49968) :  ![starts](https://img.shields.io/github/stars/geraldoalcantara/CVE-2023-49968.svg) ![forks](https://img.shields.io/github/forks/geraldoalcantara/CVE-2023-49968.svg)
+
+
+## CVE-2017-0144
+ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka "Windows SMB Remote Code Execution Vulnerability." This vulnerability is different from those described in CVE-2017-0143, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
+
+- [https://github.com/nivedh-j/EternalBlue-Explained](https://github.com/nivedh-j/EternalBlue-Explained) :  ![starts](https://img.shields.io/github/stars/nivedh-j/EternalBlue-Explained.svg) ![forks](https://img.shields.io/github/forks/nivedh-j/EternalBlue-Explained.svg)
+
+
+## CVE-2016-0792
+ Multiple unspecified API endpoints in Jenkins before 1.650 and LTS before 1.642.2 allow remote authenticated users to execute arbitrary code via serialized data in an XML file, related to XStream and groovy.util.Expando.
+
+- [https://github.com/bugdotexe/CVE-2016-0792](https://github.com/bugdotexe/CVE-2016-0792) :  ![starts](https://img.shields.io/github/stars/bugdotexe/CVE-2016-0792.svg) ![forks](https://img.shields.io/github/forks/bugdotexe/CVE-2016-0792.svg)
 
