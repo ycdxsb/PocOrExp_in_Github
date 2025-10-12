@@ -1,118 +1,138 @@
-# Update 2025-10-11
+# Update 2025-10-12
+## CVE-2025-61882
+ Vulnerability in the Oracle Concurrent Processing product of Oracle E-Business Suite (component: BI Publisher Integration).  Supported versions that are affected are 12.2.3-12.2.14. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Concurrent Processing.  Successful attacks of this vulnerability can result in takeover of Oracle Concurrent Processing. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+
+- [https://github.com/zerozenxlabs/CVE-2025-61882-Oracle-EBS](https://github.com/zerozenxlabs/CVE-2025-61882-Oracle-EBS) :  ![starts](https://img.shields.io/github/stars/zerozenxlabs/CVE-2025-61882-Oracle-EBS.svg) ![forks](https://img.shields.io/github/forks/zerozenxlabs/CVE-2025-61882-Oracle-EBS.svg)
+
+
+## CVE-2025-61319
+ ReNgine thru 2.2.0 is vulnerable to a Stored Cross-Site Scripting (XSS) vulnerability in the Vulnerabilities module. When scanning a target with an XSS payload, the unsanitized payload is rendered in the ReNgine web UI, resulting in arbitrary JavaScript execution in the victim's browser. This can be abused to steal session cookies, perform unauthorized actions, or compromise the ReNgine administrator's account.
+
+- [https://github.com/AmalJafarzade/CVE-2025-61319](https://github.com/AmalJafarzade/CVE-2025-61319) :  ![starts](https://img.shields.io/github/stars/AmalJafarzade/CVE-2025-61319.svg) ![forks](https://img.shields.io/github/forks/AmalJafarzade/CVE-2025-61319.svg)
+
+
+## CVE-2025-60880
+ An authenticated stored XSS vulnerability exists in the Bagisto 2.3.6 admin panel's product creation path, allowing an attacker to upload a crafted SVG file containing malicious JavaScript code. This vulnerability can be exploited by an authenticated admin user to execute arbitrary JavaScript in the browser, potentially leading to session hijacking, data theft, or unauthorized actions.
+
+- [https://github.com/Shenal01/CVE-2025-60880](https://github.com/Shenal01/CVE-2025-60880) :  ![starts](https://img.shields.io/github/stars/Shenal01/CVE-2025-60880.svg) ![forks](https://img.shields.io/github/forks/Shenal01/CVE-2025-60880.svg)
+
+
+## CVE-2025-60378
+ Stored HTML injection in RISE Ultimate Project Manager & CRM allows authenticated users to inject arbitrary HTML into invoices and messages. Injected content renders in emails, PDFs, and messaging/chat modules sent to clients or team members, enabling phishing, credential theft, and business email compromise. Automated recurring invoices and messaging amplify the risk by distributing malicious content to multiple recipients.
+
+- [https://github.com/ajansha/CVE-2025-60378](https://github.com/ajansha/CVE-2025-60378) :  ![starts](https://img.shields.io/github/stars/ajansha/CVE-2025-60378.svg) ![forks](https://img.shields.io/github/forks/ajansha/CVE-2025-60378.svg)
+
+
 ## CVE-2025-60375
  The authentication mechanism in Perfex CRM before 3.3.1 allows attackers to bypass login credentials due to insufficient server-side validation. By sending empty username and password parameters in the login request, an attacker can gain unauthorized access to user accounts, including administrative accounts, without providing valid credentials.
 
-- [https://github.com/AhamedYaseen03/CVE-2025-60375](https://github.com/AhamedYaseen03/CVE-2025-60375) :  ![starts](https://img.shields.io/github/stars/AhamedYaseen03/CVE-2025-60375.svg) ![forks](https://img.shields.io/github/forks/AhamedYaseen03/CVE-2025-60375.svg)
+- [https://github.com/ajansha/CVE-2025-60375](https://github.com/ajansha/CVE-2025-60375) :  ![starts](https://img.shields.io/github/stars/ajansha/CVE-2025-60375.svg) ![forks](https://img.shields.io/github/forks/ajansha/CVE-2025-60375.svg)
 
 
-## CVE-2025-54135
- Cursor is a code editor built for programming with AI. Cursor allows writing in-workspace files with no user approval in versions below 1.3.9, If the file is a dotfile, editing it requires approval but creating a new one doesn't. Hence, if sensitive MCP files, such as the .cursor/mcp.json file don't already exist in the workspace, an attacker can chain a indirect prompt injection vulnerability to hijack the context to write to the settings file and trigger RCE on the victim without user approval. This is fixed in version 1.3.9.
+## CVE-2025-59246
+ Azure Entra ID Elevation of Privilege Vulnerability
 
-- [https://github.com/hn1e13/test-mcp](https://github.com/hn1e13/test-mcp) :  ![starts](https://img.shields.io/github/stars/hn1e13/test-mcp.svg) ![forks](https://img.shields.io/github/forks/hn1e13/test-mcp.svg)
-
-
-## CVE-2025-49844
- Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted Lua script to manipulate the garbage collector, trigger a use-after-free and potentially lead to remote code execution. The problem exists in all versions of Redis with Lua scripting. This issue is fixed in version 8.2.2. To workaround this issue without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.
-
-- [https://github.com/Yuri08loveElaina/CVE-2025-49844](https://github.com/Yuri08loveElaina/CVE-2025-49844) :  ![starts](https://img.shields.io/github/stars/Yuri08loveElaina/CVE-2025-49844.svg) ![forks](https://img.shields.io/github/forks/Yuri08loveElaina/CVE-2025-49844.svg)
-- [https://github.com/YuanBenSir/CVE-2025-49844_POC](https://github.com/YuanBenSir/CVE-2025-49844_POC) :  ![starts](https://img.shields.io/github/stars/YuanBenSir/CVE-2025-49844_POC.svg) ![forks](https://img.shields.io/github/forks/YuanBenSir/CVE-2025-49844_POC.svg)
-- [https://github.com/Mufti22/CVE-2025-49844-RediShell-Vulnerability-Scanner](https://github.com/Mufti22/CVE-2025-49844-RediShell-Vulnerability-Scanner) :  ![starts](https://img.shields.io/github/stars/Mufti22/CVE-2025-49844-RediShell-Vulnerability-Scanner.svg) ![forks](https://img.shields.io/github/forks/Mufti22/CVE-2025-49844-RediShell-Vulnerability-Scanner.svg)
+- [https://github.com/Mpokes/CVE-2025-59246-Exploit](https://github.com/Mpokes/CVE-2025-59246-Exploit) :  ![starts](https://img.shields.io/github/stars/Mpokes/CVE-2025-59246-Exploit.svg) ![forks](https://img.shields.io/github/forks/Mpokes/CVE-2025-59246-Exploit.svg)
 
 
-## CVE-2025-32463
- Sudo before 1.9.17p1 allows local users to obtain root access because /etc/nsswitch.conf from a user-controlled directory is used with the --chroot option.
+## CVE-2025-55903
+ A HTML injection vulnerability exists in Perfex CRM v3.3.1. The application fails to sanitize user input in the "Bill To" address field within the estimate module. As a result, arbitrary HTML can be injected and rendered unescaped in client-facing documents.
 
-- [https://github.com/shazed-x/CVE-2025-32463](https://github.com/shazed-x/CVE-2025-32463) :  ![starts](https://img.shields.io/github/stars/shazed-x/CVE-2025-32463.svg) ![forks](https://img.shields.io/github/forks/shazed-x/CVE-2025-32463.svg)
-- [https://github.com/ricardomaia/CVE-2025-32463](https://github.com/ricardomaia/CVE-2025-32463) :  ![starts](https://img.shields.io/github/stars/ricardomaia/CVE-2025-32463.svg) ![forks](https://img.shields.io/github/forks/ricardomaia/CVE-2025-32463.svg)
+- [https://github.com/ajansha/CVE-2025-55903](https://github.com/ajansha/CVE-2025-55903) :  ![starts](https://img.shields.io/github/stars/ajansha/CVE-2025-55903.svg) ![forks](https://img.shields.io/github/forks/ajansha/CVE-2025-55903.svg)
+
+
+## CVE-2025-41089
+ Reflected Cross-Site Scripting (XSS) in Xibo CMS v4.1.2 from Xibo Signage, due to a lack of proper validation of user input. To exploit the vulnerability, the attacker must create a template in the 'Templates' section, then add an element that has the 'Configuration Name' field, such as the 'Clock' widget. Next, modify the 'Configuration Name' field in the left-hand section.
+
+- [https://github.com/Marinafabregat/CVE-2025-41089](https://github.com/Marinafabregat/CVE-2025-41089) :  ![starts](https://img.shields.io/github/stars/Marinafabregat/CVE-2025-41089.svg) ![forks](https://img.shields.io/github/forks/Marinafabregat/CVE-2025-41089.svg)
+
+
+## CVE-2025-41088
+ Stored Cross-Site Scripting (XSS) in Xibo Signage's Xibo CMS v4.1.2, due to a lack of proper validation of user input. To exploit the vulnerability, the attacker must create a template in the 'Templates' section, then add a text element in the 'Global Elements' section, and finally modify the 'Text' field in the section with the malicious payload.
+
+- [https://github.com/Marinafabregat/CVE-2025-41088](https://github.com/Marinafabregat/CVE-2025-41088) :  ![starts](https://img.shields.io/github/stars/Marinafabregat/CVE-2025-41088.svg) ![forks](https://img.shields.io/github/forks/Marinafabregat/CVE-2025-41088.svg)
+
+
+## CVE-2025-38001
+[5] https://lore.kernel.org/netdev/8DuRWwfqjoRDLDmBMlIfbrsZg9Gx50DHJc1ilxsEBNe2D6NMoigR_eIRIG0LOjMc3r10nUUZtArXx4oZBIdUfZQrwjcQhdinnMis_0G7VEk=@willsroot.io/T/#u
+
+- [https://github.com/ngobao2002/CVE-2025-38001-test](https://github.com/ngobao2002/CVE-2025-38001-test) :  ![starts](https://img.shields.io/github/stars/ngobao2002/CVE-2025-38001-test.svg) ![forks](https://img.shields.io/github/forks/ngobao2002/CVE-2025-38001-test.svg)
 
 
 ## CVE-2025-29927
  Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
 
-- [https://github.com/adjscent/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/adjscent/vulnerable-nextjs-14-CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/adjscent/vulnerable-nextjs-14-CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/adjscent/vulnerable-nextjs-14-CVE-2025-29927.svg)
-- [https://github.com/pickovven/vulnerable-nextjs-14-CVE-2025-29927](https://github.com/pickovven/vulnerable-nextjs-14-CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/pickovven/vulnerable-nextjs-14-CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/pickovven/vulnerable-nextjs-14-CVE-2025-29927.svg)
+- [https://github.com/diogolourencodev/middleforce](https://github.com/diogolourencodev/middleforce) :  ![starts](https://img.shields.io/github/stars/diogolourencodev/middleforce.svg) ![forks](https://img.shields.io/github/forks/diogolourencodev/middleforce.svg)
 
 
-## CVE-2025-8088
-     from ESET.
+## CVE-2025-11554
+ A security vulnerability has been detected in Portabilis i-Educar up to 2.9.10. Affected by this issue is some unknown functionality of the file app/Http/Controllers/AccessLevelController.php of the component User Type Handler. The manipulation leads to insecure inherited permissions. The attack may be initiated remotely. The exploit has been disclosed publicly and may be used.
 
-- [https://github.com/tookATE/CVE-2025-8088](https://github.com/tookATE/CVE-2025-8088) :  ![starts](https://img.shields.io/github/stars/tookATE/CVE-2025-8088.svg) ![forks](https://img.shields.io/github/forks/tookATE/CVE-2025-8088.svg)
+- [https://github.com/m3m0o/portabilis-ieducar-user-type-privilege-escalation](https://github.com/m3m0o/portabilis-ieducar-user-type-privilege-escalation) :  ![starts](https://img.shields.io/github/stars/m3m0o/portabilis-ieducar-user-type-privilege-escalation.svg) ![forks](https://img.shields.io/github/forks/m3m0o/portabilis-ieducar-user-type-privilege-escalation.svg)
 
 
-## CVE-2025-6131
- A vulnerability, which was classified as problematic, was found in CodeAstro Food Ordering System 1.0. Affected is an unknown function of the file /admin/store/edit/ of the component POST Request Parameter Handler. The manipulation of the argument Restaurant Name/Address leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
+## CVE-2025-11450
+ServiceNow has addressed this vulnerability by deploying a relevant security update to the majority of hosted instances.  Relevant security updates also have been provided to ServiceNow self-hosted customers, partners, and hosted customers with unique configurations. Further, the vulnerability is addressed in the listed patches and hot fixes. We recommend customers promptly apply appropriate updates or upgrade if they have not already done so.
 
-- [https://github.com/AmalJafarzade/CVE-2025-61319](https://github.com/AmalJafarzade/CVE-2025-61319) :  ![starts](https://img.shields.io/github/stars/AmalJafarzade/CVE-2025-61319.svg) ![forks](https://img.shields.io/github/forks/AmalJafarzade/CVE-2025-61319.svg)
+- [https://github.com/DanielMadsenDK/ServiceNow-CVE-2025-11449-CVE-2025-11450-Mitigation-Script](https://github.com/DanielMadsenDK/ServiceNow-CVE-2025-11449-CVE-2025-11450-Mitigation-Script) :  ![starts](https://img.shields.io/github/stars/DanielMadsenDK/ServiceNow-CVE-2025-11449-CVE-2025-11450-Mitigation-Script.svg) ![forks](https://img.shields.io/github/forks/DanielMadsenDK/ServiceNow-CVE-2025-11449-CVE-2025-11450-Mitigation-Script.svg)
+
+
+## CVE-2025-11449
+ServiceNow has addressed this vulnerability by deploying a relevant security update to the majority of hosted instances.  Relevant security updates also have been provided to ServiceNow self-hosted customers, partners, and hosted customers with unique configuration. Further, the vulnerability is addressed in the listed patches and hot fixes. We recommend customers promptly apply appropriate updates or upgrade if they have not already done so.
+
+- [https://github.com/DanielMadsenDK/ServiceNow-CVE-2025-11449-CVE-2025-11450-Mitigation-Script](https://github.com/DanielMadsenDK/ServiceNow-CVE-2025-11449-CVE-2025-11450-Mitigation-Script) :  ![starts](https://img.shields.io/github/stars/DanielMadsenDK/ServiceNow-CVE-2025-11449-CVE-2025-11450-Mitigation-Script.svg) ![forks](https://img.shields.io/github/forks/DanielMadsenDK/ServiceNow-CVE-2025-11449-CVE-2025-11450-Mitigation-Script.svg)
+
+
+## CVE-2025-11371
+This issue impacts Gladinet CentreStack and Triofox: All versions prior to and including 16.7.10368.56560
+
+- [https://github.com/rxerium/CVE-2025-11371](https://github.com/rxerium/CVE-2025-11371) :  ![starts](https://img.shields.io/github/stars/rxerium/CVE-2025-11371.svg) ![forks](https://img.shields.io/github/forks/rxerium/CVE-2025-11371.svg)
 
 
 ## CVE-2025-6037
  Vault and Vault Enterprise (“Vault”) TLS certificate auth method did not correctly validate client certificates when configured with a non-CA certificate as [+trusted certificate+|https://developer.hashicorp.com/vault/api-docs/auth/cert#certificate]. In this configuration, an attacker may be able to craft a malicious certificate that could be used to impersonate another user. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.
 
-- [https://github.com/ajansha/CVE-2025-60378](https://github.com/ajansha/CVE-2025-60378) :  ![starts](https://img.shields.io/github/stars/ajansha/CVE-2025-60378.svg) ![forks](https://img.shields.io/github/forks/ajansha/CVE-2025-60378.svg)
+- [https://github.com/ajansha/CVE-2025-60374](https://github.com/ajansha/CVE-2025-60374) :  ![starts](https://img.shields.io/github/stars/ajansha/CVE-2025-60374.svg) ![forks](https://img.shields.io/github/forks/ajansha/CVE-2025-60374.svg)
 
 
-## CVE-2025-5590
- The Owl carousel responsive plugin for WordPress is vulnerable to time-based SQL Injection via the ‘id’ parameter in all versions up to, and including, 1.9 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Contributor-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+## CVE-2025-5947
+ The Service Finder Bookings plugin for WordPress is vulnerable to privilege escalation via authentication bypass in all versions up to, and including, 6.0. This is due to the plugin not properly validating a user's cookie value prior to logging them in through the service_finder_switch_back() function. This makes it possible for unauthenticated attackers to login as any user including admins.
 
-- [https://github.com/ajansha/CVE-2025-55903](https://github.com/ajansha/CVE-2025-55903) :  ![starts](https://img.shields.io/github/stars/ajansha/CVE-2025-55903.svg) ![forks](https://img.shields.io/github/forks/ajansha/CVE-2025-55903.svg)
-
-
-## CVE-2025-4614
-Cloud NGFW and Prisma® Access are not affected by this vulnerability.
-
-- [https://github.com/AugustusSploits/CVE-2025-46142](https://github.com/AugustusSploits/CVE-2025-46142) :  ![starts](https://img.shields.io/github/stars/AugustusSploits/CVE-2025-46142.svg) ![forks](https://img.shields.io/github/forks/AugustusSploits/CVE-2025-46142.svg)
+- [https://github.com/M4rgs/CVE-2025-5947_Exploit](https://github.com/M4rgs/CVE-2025-5947_Exploit) :  ![starts](https://img.shields.io/github/stars/M4rgs/CVE-2025-5947_Exploit.svg) ![forks](https://img.shields.io/github/forks/M4rgs/CVE-2025-5947_Exploit.svg)
 
 
-## CVE-2025-4476
- A denial-of-service vulnerability has been identified in the libsoup HTTP client library. This flaw can be triggered when a libsoup client receives a 401 (Unauthorized) HTTP response containing a specifically crafted domain parameter within the WWW-Authenticate header. Processing this malformed header can lead to a crash of the client application using libsoup. An attacker could exploit this by setting up a malicious HTTP server. If a user's application using the vulnerable libsoup library connects to this malicious server, it could result in a denial-of-service. Successful exploitation requires tricking a user's client application into connecting to the attacker's malicious server.
+## CVE-2025-2539
+ The File Away plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the ajax() function in all versions up to, and including, 3.9.9.0.1. This makes it possible for unauthenticated attackers, leveraging the use of a reversible weak algorithm,  to read the contents of arbitrary files on the server, which can contain sensitive information.
 
-- [https://github.com/soltanali0/CVE-2025-4476-Exploit](https://github.com/soltanali0/CVE-2025-4476-Exploit) :  ![starts](https://img.shields.io/github/stars/soltanali0/CVE-2025-4476-Exploit.svg) ![forks](https://img.shields.io/github/forks/soltanali0/CVE-2025-4476-Exploit.svg)
-
-
-## CVE-2024-38856
-Unauthenticated endpoints could allow execution of screen rendering code of screens if some preconditions are met (such as when the screen definitions don't explicitly check user's permissions because they rely on the configuration of their endpoints).
-
-- [https://github.com/Hex00-0x4/CVE-2024-38856-Apache-OFBiz](https://github.com/Hex00-0x4/CVE-2024-38856-Apache-OFBiz) :  ![starts](https://img.shields.io/github/stars/Hex00-0x4/CVE-2024-38856-Apache-OFBiz.svg) ![forks](https://img.shields.io/github/forks/Hex00-0x4/CVE-2024-38856-Apache-OFBiz.svg)
+- [https://github.com/AlvaXPloit/CVE-2025-2539](https://github.com/AlvaXPloit/CVE-2025-2539) :  ![starts](https://img.shields.io/github/stars/AlvaXPloit/CVE-2025-2539.svg) ![forks](https://img.shields.io/github/forks/AlvaXPloit/CVE-2025-2539.svg)
 
 
-## CVE-2024-32113
-Users are recommended to upgrade to version 18.12.13, which fixes the issue.
+## CVE-2024-28397
+ An issue in the component js2py.disable_pyimport() of js2py up to v0.74 allows attackers to execute arbitrary code via a crafted API call.
 
-- [https://github.com/luizgaf/CVE-2024-32113-Exploit](https://github.com/luizgaf/CVE-2024-32113-Exploit) :  ![starts](https://img.shields.io/github/stars/luizgaf/CVE-2024-32113-Exploit.svg) ![forks](https://img.shields.io/github/forks/luizgaf/CVE-2024-32113-Exploit.svg)
+- [https://github.com/Ghost-Overflow/CVE-2024-28397-command-execution-poc](https://github.com/Ghost-Overflow/CVE-2024-28397-command-execution-poc) :  ![starts](https://img.shields.io/github/stars/Ghost-Overflow/CVE-2024-28397-command-execution-poc.svg) ![forks](https://img.shields.io/github/forks/Ghost-Overflow/CVE-2024-28397-command-execution-poc.svg)
+
+
+## CVE-2024-21262
+ Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connector/ODBC).  Supported versions that are affected are 9.0.0 and prior. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Connectors.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of MySQL Connectors accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Connectors. CVSS 3.1 Base Score 6.5 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L).
+
+- [https://github.com/Noah4Puppy/CVE-2024-21262](https://github.com/Noah4Puppy/CVE-2024-21262) :  ![starts](https://img.shields.io/github/stars/Noah4Puppy/CVE-2024-21262.svg) ![forks](https://img.shields.io/github/forks/Noah4Puppy/CVE-2024-21262.svg)
 
 
 ## CVE-2024-0044
  In createSessionInternal of PackageInstallerService.java, there is a possible run-as any app due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
 
-- [https://github.com/l1ackerronin/CVE-2024-0044](https://github.com/l1ackerronin/CVE-2024-0044) :  ![starts](https://img.shields.io/github/stars/l1ackerronin/CVE-2024-0044.svg) ![forks](https://img.shields.io/github/forks/l1ackerronin/CVE-2024-0044.svg)
+- [https://github.com/Athexhacker/EXPLOITER](https://github.com/Athexhacker/EXPLOITER) :  ![starts](https://img.shields.io/github/stars/Athexhacker/EXPLOITER.svg) ![forks](https://img.shields.io/github/forks/Athexhacker/EXPLOITER.svg)
 
 
-## CVE-2023-50164
-Users are recommended to upgrade to versions Struts 2.5.33 or Struts 6.3.0.2 or greater to fix this issue.
+## CVE-2023-29386
+ Unrestricted Upload of File with Dangerous Type vulnerability in Julien Crego Manager for Icomoon.This issue affects Manager for Icomoon: from n/a through 2.0.
 
-- [https://github.com/hybinn/CVE-2023-50164](https://github.com/hybinn/CVE-2023-50164) :  ![starts](https://img.shields.io/github/stars/hybinn/CVE-2023-50164.svg) ![forks](https://img.shields.io/github/forks/hybinn/CVE-2023-50164.svg)
-
-
-## CVE-2023-42793
- In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible
-
-- [https://github.com/syorik/CVE-2023-42793](https://github.com/syorik/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/syorik/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/syorik/CVE-2023-42793.svg)
+- [https://github.com/vigilante-1337/CVE-2023-29386](https://github.com/vigilante-1337/CVE-2023-29386) :  ![starts](https://img.shields.io/github/stars/vigilante-1337/CVE-2023-29386.svg) ![forks](https://img.shields.io/github/forks/vigilante-1337/CVE-2023-29386.svg)
 
 
-## CVE-2023-21554
- Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
+## CVE-2021-43798
+ Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `grafana_host_url/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
 
-- [https://github.com/shootweb/CVE-2023-21554](https://github.com/shootweb/CVE-2023-21554) :  ![starts](https://img.shields.io/github/stars/shootweb/CVE-2023-21554.svg) ![forks](https://img.shields.io/github/forks/shootweb/CVE-2023-21554.svg)
-
-
-## CVE-2019-2215
- A use-after-free in binder.c allows an elevation of privilege from an application to the Linux Kernel. No user interaction is required to exploit this vulnerability, however exploitation does require either the installation of a malicious local application or a separate vulnerability in a network facing application.Product: AndroidAndroid ID: A-141720095
-
-- [https://github.com/Enceka/cve-2019-2215-3.18](https://github.com/Enceka/cve-2019-2215-3.18) :  ![starts](https://img.shields.io/github/stars/Enceka/cve-2019-2215-3.18.svg) ![forks](https://img.shields.io/github/forks/Enceka/cve-2019-2215-3.18.svg)
-
-
-## CVE-2017-10412
- Vulnerability in the Oracle Knowledge Management component of Oracle E-Business Suite (subcomponent: User Interface). Supported versions that are affected are 12.1.1, 12.1.2, 12.1.3, 12.2.3, 12.2.4, 12.2.5, 12.2.6 and 12.2.7. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Knowledge Management. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Knowledge Management, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle Knowledge Management accessible data as well as unauthorized update, insert or delete access to some of Oracle Knowledge Management accessible data. CVSS 3.0 Base Score 8.2 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N).
-
-- [https://github.com/vah13/OracleCVE](https://github.com/vah13/OracleCVE) :  ![starts](https://img.shields.io/github/stars/vah13/OracleCVE.svg) ![forks](https://img.shields.io/github/forks/vah13/OracleCVE.svg)
+- [https://github.com/dav1dsec/Grafana-8.3-Directory-Traversal](https://github.com/dav1dsec/Grafana-8.3-Directory-Traversal) :  ![starts](https://img.shields.io/github/stars/dav1dsec/Grafana-8.3-Directory-Traversal.svg) ![forks](https://img.shields.io/github/forks/dav1dsec/Grafana-8.3-Directory-Traversal.svg)
 
