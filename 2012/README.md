@@ -224,18 +224,9 @@
 
 - [https://github.com/Shadow-Spinner/CVE-2012-2982_python](https://github.com/Shadow-Spinner/CVE-2012-2982_python) :  ![starts](https://img.shields.io/github/stars/Shadow-Spinner/CVE-2012-2982_python.svg) ![forks](https://img.shields.io/github/forks/Shadow-Spinner/CVE-2012-2982_python.svg)
 
-- [https://github.com/SieGer05/CVE-2012-2982-Webmin-Exploit](https://github.com/SieGer05/CVE-2012-2982-Webmin-Exploit) :  ![starts](https://img.shields.io/github/stars/SieGer05/CVE-2012-2982-Webmin-Exploit.svg) ![forks](https://img.shields.io/github/forks/SieGer05/CVE-2012-2982-Webmin-Exploit.svg)
-
 - [https://github.com/SincIDK/CVE-2012-2982-Exploit-Script](https://github.com/SincIDK/CVE-2012-2982-Exploit-Script) :  ![starts](https://img.shields.io/github/stars/SincIDK/CVE-2012-2982-Exploit-Script.svg) ![forks](https://img.shields.io/github/forks/SincIDK/CVE-2012-2982-Exploit-Script.svg)
 
 - [https://github.com/danielvilaca/PoC_Webmin](https://github.com/danielvilaca/PoC_Webmin) :  ![starts](https://img.shields.io/github/stars/danielvilaca/PoC_Webmin.svg) ![forks](https://img.shields.io/github/forks/danielvilaca/PoC_Webmin.svg)
-
-## CVE-2012-2688
- Unspecified vulnerability in the _php_stream_scandir function in the stream implementation in PHP before 5.3.15 and 5.4.x before 5.4.5 has unknown impact and remote attack vectors, related to an "overflow."
-
-
-
-- [https://github.com/shelld3v/CVE-2012-2688](https://github.com/shelld3v/CVE-2012-2688) :  ![starts](https://img.shields.io/github/stars/shelld3v/CVE-2012-2688.svg) ![forks](https://img.shields.io/github/forks/shelld3v/CVE-2012-2688.svg)
 
 ## CVE-2012-2661
  The Active Record component in Ruby on Rails 3.0.x before 3.0.13, 3.1.x before 3.1.5, and 3.2.x before 3.2.4 does not properly implement the passing of request data to a where method in an ActiveRecord class, which allows remote attackers to conduct certain SQL injection attacks via nested query parameters that leverage unintended recursion, a related issue to CVE-2012-2695.
@@ -243,13 +234,6 @@
 
 
 - [https://github.com/r4x0r1337/-CVE-2012-2661-ActiveRecord-SQL-injection-](https://github.com/r4x0r1337/-CVE-2012-2661-ActiveRecord-SQL-injection-) :  ![starts](https://img.shields.io/github/stars/r4x0r1337/-CVE-2012-2661-ActiveRecord-SQL-injection-.svg) ![forks](https://img.shields.io/github/forks/r4x0r1337/-CVE-2012-2661-ActiveRecord-SQL-injection-.svg)
-
-## CVE-2012-2593
- Cross-site scripting (XSS) vulnerability in the administrative interface in Atmail Webmail Server 6.4 allows remote attackers to inject arbitrary web script or HTML via the Date field of an email.
-
-
-
-- [https://github.com/AndrewTrube/CVE-2012-2593](https://github.com/AndrewTrube/CVE-2012-2593) :  ![starts](https://img.shields.io/github/stars/AndrewTrube/CVE-2012-2593.svg) ![forks](https://img.shields.io/github/forks/AndrewTrube/CVE-2012-2593.svg)
 
 ## CVE-2012-2122
  sql/password.c in Oracle MySQL 5.1.x before 5.1.63, 5.5.x before 5.5.24, and 5.6.x before 5.6.6, and MariaDB 5.1.x before 5.1.62, 5.2.x before 5.2.12, 5.3.x before 5.3.6, and 5.5.x before 5.5.23, when running in certain environments with certain implementations of the memcmp function, allows remote attackers to bypass authentication by repeatedly authenticating with the same incorrect password, which eventually causes a token comparison to succeed due to an improperly-checked return value.
@@ -281,20 +265,6 @@
 - [https://github.com/WizardVan/CVE-2012-1876](https://github.com/WizardVan/CVE-2012-1876) :  ![starts](https://img.shields.io/github/stars/WizardVan/CVE-2012-1876.svg) ![forks](https://img.shields.io/github/forks/WizardVan/CVE-2012-1876.svg)
 
 - [https://github.com/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64](https://github.com/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64) :  ![starts](https://img.shields.io/github/stars/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64.svg) ![forks](https://img.shields.io/github/forks/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64.svg)
-
-## CVE-2012-1870
- The CBC mode in the TLS protocol, as used in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2, R2, and R2 SP1, Windows 7 Gold and SP1, and other products, allows remote web servers to obtain plaintext data by triggering multiple requests to a third-party HTTPS server and sniffing the network during the resulting HTTPS session, aka "TLS Protocol Vulnerability."
-
-
-
-- [https://github.com/dja2TaqkGEEfA45/CVE-2012-1870](https://github.com/dja2TaqkGEEfA45/CVE-2012-1870) :  ![starts](https://img.shields.io/github/stars/dja2TaqkGEEfA45/CVE-2012-1870.svg) ![forks](https://img.shields.io/github/forks/dja2TaqkGEEfA45/CVE-2012-1870.svg)
-
-## CVE-2012-1831
- Heap-based buffer overflow in WellinTech KingView 6.53 allows remote attackers to execute arbitrary code via a crafted packet to TCP port 555.
-
-
-
-- [https://github.com/Astrowmist/POC-CVE-2012-1831](https://github.com/Astrowmist/POC-CVE-2012-1831) :  ![starts](https://img.shields.io/github/stars/Astrowmist/POC-CVE-2012-1831.svg) ![forks](https://img.shields.io/github/forks/Astrowmist/POC-CVE-2012-1831.svg)
 
 ## CVE-2012-1823
  sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured as a CGI script (aka php-cgi), does not properly handle query strings that lack an = (equals sign) character, which allows remote attackers to execute arbitrary code by placing command-line options in the query string, related to lack of skipping a certain php_getopt for the 'd' case.
