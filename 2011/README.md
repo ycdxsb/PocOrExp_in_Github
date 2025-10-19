@@ -136,9 +136,9 @@
 
 - [https://github.com/lghost256/vsftpd234-exploit](https://github.com/lghost256/vsftpd234-exploit) :  ![starts](https://img.shields.io/github/stars/lghost256/vsftpd234-exploit.svg) ![forks](https://img.shields.io/github/forks/lghost256/vsftpd234-exploit.svg)
 
-- [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
-
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
+
+- [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
 
 - [https://github.com/hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/hklabCR/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/hklabCR/CVE-2011-2523.svg)
 
