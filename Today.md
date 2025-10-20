@@ -1,146 +1,93 @@
-# Update 2025-10-19
-## CVE-2025-58718
- Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.
+# Update 2025-10-20
+## CVE-2025-54253
+ Adobe Experience Manager versions 6.5.23 and earlier are affected by a Misconfiguration vulnerability that could result in arbitrary code execution. An attacker could leverage this vulnerability to bypass security mechanisms and execute code. Exploitation of this issue does not require user interaction and scope is changed.
 
-- [https://github.com/callinston/CVE-2025-58718](https://github.com/callinston/CVE-2025-58718) :  ![starts](https://img.shields.io/github/stars/callinston/CVE-2025-58718.svg) ![forks](https://img.shields.io/github/forks/callinston/CVE-2025-58718.svg)
+- [https://github.com/25145hg654511135gfhfkr8488r8r8r8r8r/test2](https://github.com/25145hg654511135gfhfkr8488r8r8r8r8r/test2) :  ![starts](https://img.shields.io/github/stars/25145hg654511135gfhfkr8488r8r8r8r8r/test2.svg) ![forks](https://img.shields.io/github/forks/25145hg654511135gfhfkr8488r8r8r8r8r/test2.svg)
+- [https://github.com/25145hg654511135gfhfkr8488r8r8r8r8r/test](https://github.com/25145hg654511135gfhfkr8488r8r8r8r8r/test) :  ![starts](https://img.shields.io/github/stars/25145hg654511135gfhfkr8488r8r8r8r8r/test.svg) ![forks](https://img.shields.io/github/forks/25145hg654511135gfhfkr8488r8r8r8r8r/test.svg)
 
 
-## CVE-2025-56221
- A lack of rate limiting in the login mechanism of SigningHub v8.6.8 allows attackers to bypass authentication via a brute force attack.
+## CVE-2025-33073
+ Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network.
 
-- [https://github.com/saykino/CVE-2025-56221](https://github.com/saykino/CVE-2025-56221) :  ![starts](https://img.shields.io/github/stars/saykino/CVE-2025-56221.svg) ![forks](https://img.shields.io/github/forks/saykino/CVE-2025-56221.svg)
+- [https://github.com/SellMeFish/windows-smb-vulnerability-framework-cve-2025-33073](https://github.com/SellMeFish/windows-smb-vulnerability-framework-cve-2025-33073) :  ![starts](https://img.shields.io/github/stars/SellMeFish/windows-smb-vulnerability-framework-cve-2025-33073.svg) ![forks](https://img.shields.io/github/forks/SellMeFish/windows-smb-vulnerability-framework-cve-2025-33073.svg)
 
 
-## CVE-2025-56218
- An arbitrary file upload vulnerability in SigningHub v8.6.8 allows attackers to execute arbitrary code via uploading a crafted PDF file.
+## CVE-2025-27591
+ A privilege escalation vulnerability existed in the Below service prior to v0.9.0 due to the creation of a world-writable directory at /var/log/below. This could have allowed local unprivileged users to escalate to root privileges through symlink attacks that manipulate files such as /etc/shadow.
 
-- [https://github.com/saykino/CVE-2025-56218](https://github.com/saykino/CVE-2025-56218) :  ![starts](https://img.shields.io/github/stars/saykino/CVE-2025-56218.svg) ![forks](https://img.shields.io/github/forks/saykino/CVE-2025-56218.svg)
+- [https://github.com/krn966/CVE-2025-27591](https://github.com/krn966/CVE-2025-27591) :  ![starts](https://img.shields.io/github/stars/krn966/CVE-2025-27591.svg) ![forks](https://img.shields.io/github/forks/krn966/CVE-2025-27591.svg)
 
 
-## CVE-2025-55315
- Inconsistent interpretation of http requests ('http request/response smuggling') in ASP.NET Core allows an authorized attacker to bypass a security feature over a network.
+## CVE-2025-25257
+ An improper neutralization of special elements used in an SQL command ('SQL Injection') vulnerability [CWE-89] in Fortinet FortiWeb version 7.6.0 through 7.6.3, 7.4.0 through 7.4.7, 7.2.0 through 7.2.10 and below 7.0.10 allows an unauthenticated attacker to execute unauthorized SQL code or commands via crafted HTTP or HTTPs requests.
 
-- [https://github.com/RootAid/CVE-2025-55315](https://github.com/RootAid/CVE-2025-55315) :  ![starts](https://img.shields.io/github/stars/RootAid/CVE-2025-55315.svg) ![forks](https://img.shields.io/github/forks/RootAid/CVE-2025-55315.svg)
-- [https://github.com/digitalsnemesis/CVE-2025-55315](https://github.com/digitalsnemesis/CVE-2025-55315) :  ![starts](https://img.shields.io/github/stars/digitalsnemesis/CVE-2025-55315.svg) ![forks](https://img.shields.io/github/forks/digitalsnemesis/CVE-2025-55315.svg)
+- [https://github.com/silentexploitexe/CVE-2025-25257](https://github.com/silentexploitexe/CVE-2025-25257) :  ![starts](https://img.shields.io/github/stars/silentexploitexe/CVE-2025-25257.svg) ![forks](https://img.shields.io/github/forks/silentexploitexe/CVE-2025-25257.svg)
 
 
-## CVE-2025-52136
- In EMQX before 5.8.6, administrators can install arbitrary novel plugins via the Dashboard web interface. NOTE: the Supplier's position is that this is the intended behavior; however, 5.8.6 adds a defense-in-depth feature in which a plugin's acceptability (for later Dashboard installation) is set by the "emqx ctl plugins allow" CLI command.
+## CVE-2025-5680
+ A vulnerability classified as critical was found in Shenzhen Dashi Tongzhou Information Technology AgileBPM up to 2.5.0. Affected by this vulnerability is the function executeScript of the file /src/main/java/com/dstz/sys/rest/controller/SysScriptController.java of the component Groovy Script Handler. The manipulation of the argument script leads to deserialization. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
 
-- [https://github.com/f1r3K0/CVE-2025-52136](https://github.com/f1r3K0/CVE-2025-52136) :  ![starts](https://img.shields.io/github/stars/f1r3K0/CVE-2025-52136.svg) ![forks](https://img.shields.io/github/forks/f1r3K0/CVE-2025-52136.svg)
+- [https://github.com/shinyColumn/CVE-2025-56801](https://github.com/shinyColumn/CVE-2025-56801) :  ![starts](https://img.shields.io/github/stars/shinyColumn/CVE-2025-56801.svg) ![forks](https://img.shields.io/github/forks/shinyColumn/CVE-2025-56801.svg)
+- [https://github.com/shinyColumn/CVE-2025-56800](https://github.com/shinyColumn/CVE-2025-56800) :  ![starts](https://img.shields.io/github/stars/shinyColumn/CVE-2025-56800.svg) ![forks](https://img.shields.io/github/forks/shinyColumn/CVE-2025-56800.svg)
+- [https://github.com/shinyColumn/CVE-2025-56802](https://github.com/shinyColumn/CVE-2025-56802) :  ![starts](https://img.shields.io/github/stars/shinyColumn/CVE-2025-56802.svg) ![forks](https://img.shields.io/github/forks/shinyColumn/CVE-2025-56802.svg)
 
 
-## CVE-2025-50165
- Untrusted pointer dereference in Microsoft Graphics Component allows an unauthorized attacker to execute code over a network.
+## CVE-2025-5679
+ A vulnerability classified as critical has been found in Shenzhen Dashi Tongzhou Information Technology AgileBPM up to 2.5.0. Affected is the function parseStrByFreeMarker of the file /src/main/java/com/dstz/sys/rest/controller/SysToolsController.java. The manipulation of the argument str leads to deserialization. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.
 
-- [https://github.com/allinsthon/CVE-2025-50165](https://github.com/allinsthon/CVE-2025-50165) :  ![starts](https://img.shields.io/github/stars/allinsthon/CVE-2025-50165.svg) ![forks](https://img.shields.io/github/forks/allinsthon/CVE-2025-50165.svg)
+- [https://github.com/shinyColumn/CVE-2025-56799](https://github.com/shinyColumn/CVE-2025-56799) :  ![starts](https://img.shields.io/github/stars/shinyColumn/CVE-2025-56799.svg) ![forks](https://img.shields.io/github/forks/shinyColumn/CVE-2025-56799.svg)
 
 
-## CVE-2025-32463
- Sudo before 1.9.17p1 allows local users to obtain root access because /etc/nsswitch.conf from a user-controlled directory is used with the --chroot option.
+## CVE-2025-5555
+ A vulnerability has been found in Nixdorf Wincor PORT IO Driver up to 1.0.0.1. This affects the function sub_11100 in the library wnport.sys of the component IOCTL Handler. Such manipulation leads to stack-based buffer overflow. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used. Upgrading to version 3.0.0.1 is able to mitigate this issue. Upgrading the affected component is recommended. The vendor was contacted beforehand and was able to provide a patch very early.
 
-- [https://github.com/dr4x-c0d3r/sudo-chroot](https://github.com/dr4x-c0d3r/sudo-chroot) :  ![starts](https://img.shields.io/github/stars/dr4x-c0d3r/sudo-chroot.svg) ![forks](https://img.shields.io/github/forks/dr4x-c0d3r/sudo-chroot.svg)
-- [https://github.com/dr4xp/sudo-chroot](https://github.com/dr4xp/sudo-chroot) :  ![starts](https://img.shields.io/github/stars/dr4xp/sudo-chroot.svg) ![forks](https://img.shields.io/github/forks/dr4xp/sudo-chroot.svg)
+- [https://github.com/aydin5245/CVE-2025-55555-CVE](https://github.com/aydin5245/CVE-2025-55555-CVE) :  ![starts](https://img.shields.io/github/stars/aydin5245/CVE-2025-55555-CVE.svg) ![forks](https://img.shields.io/github/forks/aydin5245/CVE-2025-55555-CVE.svg)
 
 
-## CVE-2025-25198
- mailcow: dockerized is an open source groupware/email suite based on docker. Prior to version 2025-01a, a vulnerability in mailcow's password reset functionality allows an attacker to manipulate the `Host HTTP` header to generate a password reset link pointing to an attacker-controlled domain. This can lead to account takeover if a user clicks the poisoned link. Version 2025-01a contains a patch. As a workaround, deactivate the password reset functionality by clearing `Notification email sender` and `Notification email subject` under System - Configuration - Options - Password Settings.
+## CVE-2024-11392
+The specific flaw exists within the handling of configuration files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user. Was ZDI-CAN-24322.
 
-- [https://github.com/enzocipher/CVE-2025-25198](https://github.com/enzocipher/CVE-2025-25198) :  ![starts](https://img.shields.io/github/stars/enzocipher/CVE-2025-25198.svg) ![forks](https://img.shields.io/github/forks/enzocipher/CVE-2025-25198.svg)
+- [https://github.com/stuxbench/vllm-cve-2024-11392](https://github.com/stuxbench/vllm-cve-2024-11392) :  ![starts](https://img.shields.io/github/stars/stuxbench/vllm-cve-2024-11392.svg) ![forks](https://img.shields.io/github/forks/stuxbench/vllm-cve-2024-11392.svg)
 
 
-## CVE-2025-24893
- XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution through a request to `SolrSearch`. This impacts the confidentiality, integrity and availability of the whole XWiki installation. To reproduce on an instance, without being logged in, go to `host/xwiki/bin/get/Main/SolrSearch?media=rss&text=%7D%7D%7D%7B%7Basync%20async%3Dfalse%7D%7D%7B%7Bgroovy%7D%7Dprintln%28"Hello%20from"%20%2B%20"%20search%20text%3A"%20%2B%20%2823%20%2B%2019%29%29%7B%7B%2Fgroovy%7D%7D%7B%7B%2Fasync%7D%7D%20`. If there is an output, and the title of the RSS feed contains `Hello from search text:42`, then the instance is vulnerable. This vulnerability has been patched in XWiki 15.10.11, 16.4.1 and 16.5.0RC1. Users are advised to upgrade. Users unable to upgrade may edit `Main.SolrSearchMacros` in `SolrSearchMacros.xml` on line 955 to match the `rawResponse` macro in `macros.vm#L2824` with a content type of `application/xml`, instead of simply outputting the content of the feed.
+## CVE-2023-30799
+ MikroTik RouterOS stable before 6.49.7 and long-term through 6.48.6 are vulnerable to a privilege escalation issue. A remote and authenticated attacker can escalate privileges from admin to super-admin on the Winbox or HTTP interface. The attacker can abuse this vulnerability to execute arbitrary code on the system.
 
-- [https://github.com/Yukik4z3/CVE-2025-24893](https://github.com/Yukik4z3/CVE-2025-24893) :  ![starts](https://img.shields.io/github/stars/Yukik4z3/CVE-2025-24893.svg) ![forks](https://img.shields.io/github/forks/Yukik4z3/CVE-2025-24893.svg)
+- [https://github.com/alzeer711/MikroTik-RouterOS-6.49.18-Exploit-Kit](https://github.com/alzeer711/MikroTik-RouterOS-6.49.18-Exploit-Kit) :  ![starts](https://img.shields.io/github/stars/alzeer711/MikroTik-RouterOS-6.49.18-Exploit-Kit.svg) ![forks](https://img.shields.io/github/forks/alzeer711/MikroTik-RouterOS-6.49.18-Exploit-Kit.svg)
 
 
-## CVE-2025-11371
-This issue impacts Gladinet CentreStack and Triofox: All versions prior to and including 16.7.10368.56560
+## CVE-2022-30190
+Please see the MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability.
 
-- [https://github.com/lap1nou/CVE-2025-11371](https://github.com/lap1nou/CVE-2025-11371) :  ![starts](https://img.shields.io/github/stars/lap1nou/CVE-2025-11371.svg) ![forks](https://img.shields.io/github/forks/lap1nou/CVE-2025-11371.svg)
+- [https://github.com/Arkha-Corvus/LetsDefend-SOC173-Follina-0-Day-Detected](https://github.com/Arkha-Corvus/LetsDefend-SOC173-Follina-0-Day-Detected) :  ![starts](https://img.shields.io/github/stars/Arkha-Corvus/LetsDefend-SOC173-Follina-0-Day-Detected.svg) ![forks](https://img.shields.io/github/forks/Arkha-Corvus/LetsDefend-SOC173-Follina-0-Day-Detected.svg)
 
 
-## CVE-2025-10742
- The Truelysell Core plugin for WordPress is vulnerable to Arbitrary User Password Change in versions up to, and including, 1.8.6. This is due to the plugin providing user-controlled access to objects, letting a user bypass authorization and access system resources. This makes it possible for unauthenticated attackers to change user passwords and potentially take over administrator accounts. Note: This can only be exploited unauthenticated if the attacker knows which page contains the 'truelysell_edit_staff' shortcode.
+## CVE-2021-27905
+ The ReplicationHandler (normally registered at "/replication" under a Solr core) in Apache Solr has a "masterUrl" (also "leaderUrl" alias) parameter that is used to designate another ReplicationHandler on another Solr core to replicate index data into the local core. To prevent a SSRF vulnerability, Solr ought to check these parameters against a similar configuration it uses for the "shards" parameter. Prior to this bug getting fixed, it did not. This problem affects essentially all Solr versions prior to it getting fixed in 8.8.2.
 
-- [https://github.com/netspecters/CVE-2025-10742](https://github.com/netspecters/CVE-2025-10742) :  ![starts](https://img.shields.io/github/stars/netspecters/CVE-2025-10742.svg) ![forks](https://img.shields.io/github/forks/netspecters/CVE-2025-10742.svg)
+- [https://github.com/RIZZZIOM/CVE-2021-27905](https://github.com/RIZZZIOM/CVE-2021-27905) :  ![starts](https://img.shields.io/github/stars/RIZZZIOM/CVE-2021-27905.svg) ![forks](https://img.shields.io/github/forks/RIZZZIOM/CVE-2021-27905.svg)
 
 
-## CVE-2025-10041
- The Flex QR Code Generator plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in thesave_qr_code_to_db() function in all versions up to, and including, 1.2.5. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+## CVE-2020-1472
+When the second phase of Windows updates become available in Q1 2021, customers will be notified via a revision to this security vulnerability. If you wish to be notified when these updates are released, we recommend that you register for the security notifications mailer to be alerted of content changes to this advisory. See Microsoft Technical Security Notifications.
 
-- [https://github.com/Kai-One001/WordPress-Flex-QR-Code-Generator---CVE-2025-10041](https://github.com/Kai-One001/WordPress-Flex-QR-Code-Generator---CVE-2025-10041) :  ![starts](https://img.shields.io/github/stars/Kai-One001/WordPress-Flex-QR-Code-Generator---CVE-2025-10041.svg) ![forks](https://img.shields.io/github/forks/Kai-One001/WordPress-Flex-QR-Code-Generator---CVE-2025-10041.svg)
+- [https://github.com/nyambiblaise/Domain-Controller-DC-Exploitation-with-Metasploit-Impacket](https://github.com/nyambiblaise/Domain-Controller-DC-Exploitation-with-Metasploit-Impacket) :  ![starts](https://img.shields.io/github/stars/nyambiblaise/Domain-Controller-DC-Exploitation-with-Metasploit-Impacket.svg) ![forks](https://img.shields.io/github/forks/nyambiblaise/Domain-Controller-DC-Exploitation-with-Metasploit-Impacket.svg)
 
 
-## CVE-2025-9242
- An Out-of-bounds Write vulnerability in WatchGuard Fireware OS may allow a remote unauthenticated attacker to execute arbitrary code. This vulnerability affects both the Mobile User VPN with IKEv2 and the Branch Office VPN using IKEv2 when configured with a dynamic gateway peer.This vulnerability affects Fireware OS 11.10.2 up to and including 11.12.4_Update1, 12.0 up to and including 12.11.3 and 2025.1.
+## CVE-2019-9053
+ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News module, through a crafted URL, to achieve unauthenticated blind time-based SQL injection via the m1_idlist parameter.
 
-- [https://github.com/pulsecipher/CVE-2025-9242](https://github.com/pulsecipher/CVE-2025-9242) :  ![starts](https://img.shields.io/github/stars/pulsecipher/CVE-2025-9242.svg) ![forks](https://img.shields.io/github/forks/pulsecipher/CVE-2025-9242.svg)
+- [https://github.com/CaelumIsMe/CVE-2019-9053-POC](https://github.com/CaelumIsMe/CVE-2019-9053-POC) :  ![starts](https://img.shields.io/github/stars/CaelumIsMe/CVE-2019-9053-POC.svg) ![forks](https://img.shields.io/github/forks/CaelumIsMe/CVE-2019-9053-POC.svg)
 
 
-## CVE-2025-8088
-     from ESET.
+## CVE-2016-10033
+ The mailSend function in the isMail transport in PHPMailer before 5.2.18 might allow remote attackers to pass extra parameters to the mail command and consequently execute arbitrary code via a \" (backslash double quote) in a crafted Sender property.
 
-- [https://github.com/blowrrr/cve-2025-8088](https://github.com/blowrrr/cve-2025-8088) :  ![starts](https://img.shields.io/github/stars/blowrrr/cve-2025-8088.svg) ![forks](https://img.shields.io/github/forks/blowrrr/cve-2025-8088.svg)
+- [https://github.com/Mr-Anonym/PHPMailer](https://github.com/Mr-Anonym/PHPMailer) :  ![starts](https://img.shields.io/github/stars/Mr-Anonym/PHPMailer.svg) ![forks](https://img.shields.io/github/forks/Mr-Anonym/PHPMailer.svg)
 
 
-## CVE-2025-8081
- The Elementor plugin for WordPress is vulnerable to Arbitrary File Read in all versions up to, and including, 3.30.2 via the Import_Images::import() function due to insufficient controls on the filename specified. This makes it possible for authenticated attackers, with administrator-level access and above, to read the contents of arbitrary files on the server, which can contain sensitive information.
+## CVE-2016-3627
+ The xmlStringGetNodeList function in tree.c in libxml2 2.9.3 and earlier, when used in recovery mode, allows context-dependent attackers to cause a denial of service (infinite recursion, stack consumption, and application crash) via a crafted XML document.
 
-- [https://github.com/LyesH4ck/CVE-2025-8081-Elementor](https://github.com/LyesH4ck/CVE-2025-8081-Elementor) :  ![starts](https://img.shields.io/github/stars/LyesH4ck/CVE-2025-8081-Elementor.svg) ![forks](https://img.shields.io/github/forks/LyesH4ck/CVE-2025-8081-Elementor.svg)
-
-
-## CVE-2025-6050
- Mezzanine CMS, in versions prior to 6.1.1, contains a Stored Cross-Site Scripting (XSS) vulnerability in the admin interface. The vulnerability exists in the "displayable_links_js" function, which fails to properly sanitize blog post titles before including them in JSON responses served via "/admin/displayable_links.js". An authenticated admin user can create a blog post with a malicious JavaScript payload in the title field, then trick another admin user into clicking a direct link to the "/admin/displayable_links.js" endpoint, causing the malicious script to execute in their browser.
-
-- [https://github.com/H4zaz/CVE-2025-60500](https://github.com/H4zaz/CVE-2025-60500) :  ![starts](https://img.shields.io/github/stars/H4zaz/CVE-2025-60500.svg) ![forks](https://img.shields.io/github/forks/H4zaz/CVE-2025-60500.svg)
-
-
-## CVE-2024-51793
- Unrestricted Upload of File with Dangerous Type vulnerability in Webful Creations Computer Repair Shop allows Upload a Web Shell to a Web Server.This issue affects Computer Repair Shop: from n/a through 3.8115.
-
-- [https://github.com/0axz-tools/CVE-2024-51793](https://github.com/0axz-tools/CVE-2024-51793) :  ![starts](https://img.shields.io/github/stars/0axz-tools/CVE-2024-51793.svg) ![forks](https://img.shields.io/github/forks/0axz-tools/CVE-2024-51793.svg)
-
-
-## CVE-2024-50849
- A Stored Cross-Site Scripting (XSS) vulnerability in the "Rules" functionality of WorldServer v11.8.2 allows a remote authenticated attacker to execute arbitrary JavaScript code.
-
-- [https://github.com/1mhr4b/CVE-2024-50849](https://github.com/1mhr4b/CVE-2024-50849) :  ![starts](https://img.shields.io/github/stars/1mhr4b/CVE-2024-50849.svg) ![forks](https://img.shields.io/github/forks/1mhr4b/CVE-2024-50849.svg)
-
-
-## CVE-2024-50848
- An XML External Entity (XXE) vulnerability in the Import object and Translation Memory import functionalities of WorldServer v11.8.2 to access sensitive information and execute arbitrary commands via supplying a crafted .tmx file.
-
-- [https://github.com/1mhr4b/CVE-2024-50848](https://github.com/1mhr4b/CVE-2024-50848) :  ![starts](https://img.shields.io/github/stars/1mhr4b/CVE-2024-50848.svg) ![forks](https://img.shields.io/github/forks/1mhr4b/CVE-2024-50848.svg)
-
-
-## CVE-2024-27956
- Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ValvePress Automatic allows SQL Injection.This issue affects Automatic: from n/a through 3.92.0.
-
-- [https://github.com/0axz-tools/CVE-2024-27956](https://github.com/0axz-tools/CVE-2024-27956) :  ![starts](https://img.shields.io/github/stars/0axz-tools/CVE-2024-27956.svg) ![forks](https://img.shields.io/github/forks/0axz-tools/CVE-2024-27956.svg)
-
-
-## CVE-2024-21754
- A use of password hash with insufficient computational effort vulnerability [CWE-916] affecting FortiOS version 7.4.3 and below, 7.2 all versions, 7.0 all versions, 6.4 all versions and FortiProxy version 7.4.2 and below, 7.2 all versions, 7.0 all versions, 2.0 all versions may allow a privileged attacker with super-admin profile and CLI access to decrypting the backup file.
-
-- [https://github.com/hacktidexp/CVE-2024-21754-FORTI-RCE](https://github.com/hacktidexp/CVE-2024-21754-FORTI-RCE) :  ![starts](https://img.shields.io/github/stars/hacktidexp/CVE-2024-21754-FORTI-RCE.svg) ![forks](https://img.shields.io/github/forks/hacktidexp/CVE-2024-21754-FORTI-RCE.svg)
-
-
-## CVE-2024-13513
- The Oliver POS – A WooCommerce Point of Sale (POS) plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.4.2.3 via the logging functionality. This makes it possible for unauthenticated attackers to extract sensitive data including the plugin's clientToken, which in turn can be used to change user account information including emails and account type. This allows attackers to then change account passwords resulting in a complete site takeover. Version 2.4.2.3 disabled logging but left sites with existing log files vulnerable.
-
-- [https://github.com/0axz-tools/CVE-2024-13513.py](https://github.com/0axz-tools/CVE-2024-13513.py) :  ![starts](https://img.shields.io/github/stars/0axz-tools/CVE-2024-13513.py.svg) ![forks](https://img.shields.io/github/forks/0axz-tools/CVE-2024-13513.py.svg)
-
-
-## CVE-2022-1386
- The Fusion Builder WordPress plugin before 3.6.2, used in the Avada theme, does not validate a parameter in its forms which could be used to initiate arbitrary HTTP requests. The data returned is then reflected back in the application's response. This could be used to interact with hosts on the server's local network bypassing firewalls and access control measures.
-
-- [https://github.com/kreeksec/CVE-2022-1386](https://github.com/kreeksec/CVE-2022-1386) :  ![starts](https://img.shields.io/github/stars/kreeksec/CVE-2022-1386.svg) ![forks](https://img.shields.io/github/forks/kreeksec/CVE-2022-1386.svg)
-
-
-## CVE-2015-1328
- The overlayfs implementation in the linux (aka Linux kernel) package before 3.19.0-21.21 in Ubuntu through 15.04 does not properly check permissions for file creation in the upper filesystem directory, which allows local users to obtain root access by leveraging a configuration in which overlayfs is permitted in an arbitrary mount namespace.
-
-- [https://github.com/thieveshkar/RootQuest-CTF-Box-Multi-Stage-Exploitation-VM](https://github.com/thieveshkar/RootQuest-CTF-Box-Multi-Stage-Exploitation-VM) :  ![starts](https://img.shields.io/github/stars/thieveshkar/RootQuest-CTF-Box-Multi-Stage-Exploitation-VM.svg) ![forks](https://img.shields.io/github/forks/thieveshkar/RootQuest-CTF-Box-Multi-Stage-Exploitation-VM.svg)
+- [https://github.com/Oneton429/CVE-2016-3627](https://github.com/Oneton429/CVE-2016-3627) :  ![starts](https://img.shields.io/github/stars/Oneton429/CVE-2016-3627.svg) ![forks](https://img.shields.io/github/forks/Oneton429/CVE-2016-3627.svg)
 
