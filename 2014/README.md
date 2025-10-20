@@ -1094,7 +1094,7 @@
 
 - [https://github.com/DominikTo/bleed](https://github.com/DominikTo/bleed) :  ![starts](https://img.shields.io/github/stars/DominikTo/bleed.svg) ![forks](https://img.shields.io/github/forks/DominikTo/bleed.svg)
 
-- [https://github.com/wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions) :  ![starts](https://img.shields.io/github/stars/wwwiretap/bleeding_onions.svg) ![forks](https://img.shields.io/github/forks/wwwiretap/bleeding_onions.svg)
+- [https://github.com/0xinf0/bleeding_onions](https://github.com/0xinf0/bleeding_onions) :  ![starts](https://img.shields.io/github/stars/0xinf0/bleeding_onions.svg) ![forks](https://img.shields.io/github/forks/0xinf0/bleeding_onions.svg)
 
 - [https://github.com/hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls) :  ![starts](https://img.shields.io/github/stars/hreese/heartbleed-dtls.svg) ![forks](https://img.shields.io/github/forks/hreese/heartbleed-dtls.svg)
 
