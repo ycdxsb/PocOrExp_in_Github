@@ -446,6 +446,8 @@
 
 - [https://github.com/avielzecharia/CVE-2015-5736](https://github.com/avielzecharia/CVE-2015-5736) :  ![starts](https://img.shields.io/github/stars/avielzecharia/CVE-2015-5736.svg) ![forks](https://img.shields.io/github/forks/avielzecharia/CVE-2015-5736.svg)
 
+- [https://github.com/ApexPredator-InfoSec/forti_shield](https://github.com/ApexPredator-InfoSec/forti_shield) :  ![starts](https://img.shields.io/github/stars/ApexPredator-InfoSec/forti_shield.svg) ![forks](https://img.shields.io/github/forks/ApexPredator-InfoSec/forti_shield.svg)
+
 ## CVE-2015-5711
  TIBCO Managed File Transfer Internet Server before 7.2.5, Managed File Transfer Command Center before 7.2.5, Slingshot before 1.9.4, and Vault before 2.0.1 allow remote authenticated users to obtain sensitive information via a crafted HTTP request.
 
@@ -467,7 +469,7 @@
 
 
 
-- [https://github.com/M0ge/CVE-2015-5531-POC](https://github.com/M0ge/CVE-2015-5531-POC) :  ![starts](https://img.shields.io/github/stars/M0ge/CVE-2015-5531-POC.svg) ![forks](https://img.shields.io/github/forks/M0ge/CVE-2015-5531-POC.svg)
+- [https://github.com/MoCh3n/CVE-2015-5531-POC](https://github.com/MoCh3n/CVE-2015-5531-POC) :  ![starts](https://img.shields.io/github/stars/MoCh3n/CVE-2015-5531-POC.svg) ![forks](https://img.shields.io/github/forks/MoCh3n/CVE-2015-5531-POC.svg)
 
 - [https://github.com/xpgdgit/CVE-2015-5531](https://github.com/xpgdgit/CVE-2015-5531) :  ![starts](https://img.shields.io/github/stars/xpgdgit/CVE-2015-5531.svg) ![forks](https://img.shields.io/github/forks/xpgdgit/CVE-2015-5531.svg)
 
@@ -609,6 +611,13 @@
 - [https://github.com/D3Ext/CVE-2015-4133](https://github.com/D3Ext/CVE-2015-4133) :  ![starts](https://img.shields.io/github/stars/D3Ext/CVE-2015-4133.svg) ![forks](https://img.shields.io/github/forks/D3Ext/CVE-2015-4133.svg)
 
 - [https://github.com/sug4r-wr41th/CVE-2015-4133](https://github.com/sug4r-wr41th/CVE-2015-4133) :  ![starts](https://img.shields.io/github/stars/sug4r-wr41th/CVE-2015-4133.svg) ![forks](https://img.shields.io/github/forks/sug4r-wr41th/CVE-2015-4133.svg)
+
+## CVE-2015-4077
+ The (1) mdare64_48.sys, (2) mdare32_48.sys, (3) mdare32_52.sys, and (4) mdare64_52.sys drivers in Fortinet FortiClient before 5.2.4 allow local users to read arbitrary kernel memory via a 0x22608C ioctl call.
+
+
+
+- [https://github.com/ApexPredator-InfoSec/forti_shield](https://github.com/ApexPredator-InfoSec/forti_shield) :  ![starts](https://img.shields.io/github/stars/ApexPredator-InfoSec/forti_shield.svg) ![forks](https://img.shields.io/github/forks/ApexPredator-InfoSec/forti_shield.svg)
 
 ## CVE-2015-4024
  Algorithmic complexity vulnerability in the multipart_buffer_headers function in main/rfc1867.c in PHP before 5.4.41, 5.5.x before 5.5.25, and 5.6.x before 5.6.9 allows remote attackers to cause a denial of service (CPU consumption) via crafted form data that triggers an improper order-of-growth outcome.
