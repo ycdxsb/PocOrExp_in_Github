@@ -68,6 +68,13 @@
 
 - [https://github.com/redhatkaty/-cve-2010-3904-report](https://github.com/redhatkaty/-cve-2010-3904-report) :  ![starts](https://img.shields.io/github/stars/redhatkaty/-cve-2010-3904-report.svg) ![forks](https://img.shields.io/github/forks/redhatkaty/-cve-2010-3904-report.svg)
 
+## CVE-2010-3863
+ Apache Shiro before 1.1.0, and JSecurity 0.9.x, does not canonicalize URI paths before comparing them to entries in the shiro.ini file, which allows remote attackers to bypass intended access restrictions via a crafted request, as demonstrated by the /./account/index.jsp URI.
+
+
+
+- [https://github.com/sh1inroot-alt/shiro-cve-2010-3863](https://github.com/sh1inroot-alt/shiro-cve-2010-3863) :  ![starts](https://img.shields.io/github/stars/sh1inroot-alt/shiro-cve-2010-3863.svg) ![forks](https://img.shields.io/github/forks/sh1inroot-alt/shiro-cve-2010-3863.svg)
+
 ## CVE-2010-3847
  elf/dl-load.c in ld.so in the GNU C Library (aka glibc or libc6) through 2.11.2, and 2.12.x through 2.12.1, does not properly handle a value of $ORIGIN for the LD_AUDIT environment variable, which allows local users to gain privileges via a crafted dynamic shared object (DSO) located in an arbitrary directory.
 
