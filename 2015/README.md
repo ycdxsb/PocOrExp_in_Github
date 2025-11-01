@@ -1159,6 +1159,8 @@
 
 - [https://github.com/YastrebX/CVE-2015-1328](https://github.com/YastrebX/CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/YastrebX/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/YastrebX/CVE-2015-1328.svg)
 
+- [https://github.com/0xf1d0/CVE-2015-1328](https://github.com/0xf1d0/CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/0xf1d0/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/0xf1d0/CVE-2015-1328.svg)
+
 - [https://github.com/BlackFrog-hub/cve-2015-1328](https://github.com/BlackFrog-hub/cve-2015-1328) :  ![starts](https://img.shields.io/github/stars/BlackFrog-hub/cve-2015-1328.svg) ![forks](https://img.shields.io/github/forks/BlackFrog-hub/cve-2015-1328.svg)
 
 - [https://github.com/1mgR00T/CVE-2015-1328](https://github.com/1mgR00T/CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/1mgR00T/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/1mgR00T/CVE-2015-1328.svg)
