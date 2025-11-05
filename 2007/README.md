@@ -76,7 +76,7 @@
 
 
 
-- [https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports](https://github.com/DenuwanJayasekara/CVE-Exploitation-Reports) :  ![starts](https://img.shields.io/github/stars/DenuwanJayasekara/CVE-Exploitation-Reports.svg) ![forks](https://img.shields.io/github/forks/DenuwanJayasekara/CVE-Exploitation-Reports.svg)
+- [https://github.com/denuwanjayasekara/CVE-Exploitation-Reports](https://github.com/denuwanjayasekara/CVE-Exploitation-Reports) :  ![starts](https://img.shields.io/github/stars/denuwanjayasekara/CVE-Exploitation-Reports.svg) ![forks](https://img.shields.io/github/forks/denuwanjayasekara/CVE-Exploitation-Reports.svg)
 
 ## CVE-2007-2447
  The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the "username map script" smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
@@ -115,15 +115,15 @@
 
 - [https://github.com/JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/JoseBarrios/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/JoseBarrios/CVE-2007-2447.svg)
 
-- [https://github.com/0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xKn/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xKn/CVE-2007-2447.svg)
-
 - [https://github.com/nika0x38/CVE-2007-2447](https://github.com/nika0x38/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/nika0x38/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/nika0x38/CVE-2007-2447.svg)
-
-- [https://github.com/Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447) :  ![starts](https://img.shields.io/github/stars/Juantos/cve-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Juantos/cve-2007-2447.svg)
 
 - [https://github.com/G01d3nW01f/CVE-2007-2447](https://github.com/G01d3nW01f/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2007-2447.svg)
 
 - [https://github.com/foudadev/CVE-2007-2447](https://github.com/foudadev/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/foudadev/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/foudadev/CVE-2007-2447.svg)
+
+- [https://github.com/Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447) :  ![starts](https://img.shields.io/github/stars/Juantos/cve-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Juantos/cve-2007-2447.svg)
+
+- [https://github.com/0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xKn/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xKn/CVE-2007-2447.svg)
 
 - [https://github.com/IamLucif3r/CVE-2007-2447-Exploit](https://github.com/IamLucif3r/CVE-2007-2447-Exploit) :  ![starts](https://img.shields.io/github/stars/IamLucif3r/CVE-2007-2447-Exploit.svg) ![forks](https://img.shields.io/github/forks/IamLucif3r/CVE-2007-2447-Exploit.svg)
 
