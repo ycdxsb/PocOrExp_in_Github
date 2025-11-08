@@ -5,6 +5,13 @@
 
 - [https://github.com/aimoda/hitron-cfg-decrypter](https://github.com/aimoda/hitron-cfg-decrypter) :  ![starts](https://img.shields.io/github/stars/aimoda/hitron-cfg-decrypter.svg) ![forks](https://img.shields.io/github/forks/aimoda/hitron-cfg-decrypter.svg)
 
+## CVE-2014-9495
+ Heap-based buffer overflow in the png_combine_row function in libpng before 1.5.21 and 1.6.x before 1.6.16, when running on 64-bit systems, might allow context-dependent attackers to execute arbitrary code via a "very wide interlaced" PNG image.
+
+
+
+- [https://github.com/Enessar/LibPNG_OSS-Fuzz](https://github.com/Enessar/LibPNG_OSS-Fuzz) :  ![starts](https://img.shields.io/github/stars/Enessar/LibPNG_OSS-Fuzz.svg) ![forks](https://img.shields.io/github/forks/Enessar/LibPNG_OSS-Fuzz.svg)
+
 ## CVE-2014-9390
  Git before 1.8.5.6, 1.9.x before 1.9.5, 2.0.x before 2.0.5, 2.1.x before 2.1.4, and 2.2.x before 2.2.1 on Windows and OS X; Mercurial before 3.2.3 on Windows and OS X; Apple Xcode before 6.2 beta 3; mine all versions before 08-12-2014; libgit2 all versions up to 0.21.2; Egit all versions before 08-12-2014; and JGit all versions before 08-12-2014 allow remote Git servers to execute arbitrary commands via a tree containing a crafted .git/config file with (1) an ignorable Unicode codepoint, (2) a git~1/config representation, or (3) mixed case that is improperly handled on a case-insensitive filesystem.
 
@@ -265,9 +272,9 @@
 
 - [https://github.com/roughiz/cve-2014-6287.py](https://github.com/roughiz/cve-2014-6287.py) :  ![starts](https://img.shields.io/github/stars/roughiz/cve-2014-6287.py.svg) ![forks](https://img.shields.io/github/forks/roughiz/cve-2014-6287.py.svg)
 
-- [https://github.com/nika0x38/CVE-2014-6287](https://github.com/nika0x38/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/nika0x38/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/nika0x38/CVE-2014-6287.svg)
-
 - [https://github.com/10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2014-6287.svg)
+
+- [https://github.com/nika0x38/CVE-2014-6287](https://github.com/nika0x38/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/nika0x38/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/nika0x38/CVE-2014-6287.svg)
 
 - [https://github.com/zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/zhsh9/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/zhsh9/CVE-2014-6287.svg)
 
@@ -1157,19 +1164,19 @@
 
 - [https://github.com/cbk914/heartbleed-checker](https://github.com/cbk914/heartbleed-checker) :  ![starts](https://img.shields.io/github/stars/cbk914/heartbleed-checker.svg) ![forks](https://img.shields.io/github/forks/cbk914/heartbleed-checker.svg)
 
-- [https://github.com/fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/fb1h2s/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/fb1h2s/CVE-2014-0160.svg)
-
 - [https://github.com/ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/ice-security88/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/ice-security88/CVE-2014-0160.svg)
 
-- [https://github.com/timsonner/cve-2014-0160-heartbleed](https://github.com/timsonner/cve-2014-0160-heartbleed) :  ![starts](https://img.shields.io/github/stars/timsonner/cve-2014-0160-heartbleed.svg) ![forks](https://img.shields.io/github/forks/timsonner/cve-2014-0160-heartbleed.svg)
+- [https://github.com/fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160) :  ![starts](https://img.shields.io/github/stars/fb1h2s/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/fb1h2s/CVE-2014-0160.svg)
 
 - [https://github.com/h3x0v3rl0rd/CVE-2014-0160_Heartbleed](https://github.com/h3x0v3rl0rd/CVE-2014-0160_Heartbleed) :  ![starts](https://img.shields.io/github/stars/h3x0v3rl0rd/CVE-2014-0160_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/h3x0v3rl0rd/CVE-2014-0160_Heartbleed.svg)
 
+- [https://github.com/timsonner/cve-2014-0160-heartbleed](https://github.com/timsonner/cve-2014-0160-heartbleed) :  ![starts](https://img.shields.io/github/stars/timsonner/cve-2014-0160-heartbleed.svg) ![forks](https://img.shields.io/github/forks/timsonner/cve-2014-0160-heartbleed.svg)
+
 - [https://github.com/obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner) :  ![starts](https://img.shields.io/github/stars/obayesshelton/CVE-2014-0160-Scanner.svg) ![forks](https://img.shields.io/github/forks/obayesshelton/CVE-2014-0160-Scanner.svg)
 
-- [https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang) :  ![starts](https://img.shields.io/github/stars/marstornado/cve-2014-0160-Yunfeng-Jiang.svg) ![forks](https://img.shields.io/github/forks/marstornado/cve-2014-0160-Yunfeng-Jiang.svg)
-
 - [https://github.com/MrE-Fog/CVE-2014-0160-Chrome-Plugin](https://github.com/MrE-Fog/CVE-2014-0160-Chrome-Plugin) :  ![starts](https://img.shields.io/github/stars/MrE-Fog/CVE-2014-0160-Chrome-Plugin.svg) ![forks](https://img.shields.io/github/forks/MrE-Fog/CVE-2014-0160-Chrome-Plugin.svg)
+
+- [https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang) :  ![starts](https://img.shields.io/github/stars/marstornado/cve-2014-0160-Yunfeng-Jiang.svg) ![forks](https://img.shields.io/github/forks/marstornado/cve-2014-0160-Yunfeng-Jiang.svg)
 
 - [https://github.com/yashfren/CVE-2014-0160-HeartBleed](https://github.com/yashfren/CVE-2014-0160-HeartBleed) :  ![starts](https://img.shields.io/github/stars/yashfren/CVE-2014-0160-HeartBleed.svg) ![forks](https://img.shields.io/github/forks/yashfren/CVE-2014-0160-HeartBleed.svg)
 
