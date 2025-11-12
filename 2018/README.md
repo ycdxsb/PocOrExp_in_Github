@@ -636,6 +636,8 @@
 
 - [https://github.com/aeroot/WP-GDPR-Compliance-Plugin-Exploit](https://github.com/aeroot/WP-GDPR-Compliance-Plugin-Exploit) :  ![starts](https://img.shields.io/github/stars/aeroot/WP-GDPR-Compliance-Plugin-Exploit.svg) ![forks](https://img.shields.io/github/forks/aeroot/WP-GDPR-Compliance-Plugin-Exploit.svg)
 
+- [https://github.com/Pwdnx1337/CVE-2018-19207](https://github.com/Pwdnx1337/CVE-2018-19207) :  ![starts](https://img.shields.io/github/stars/Pwdnx1337/CVE-2018-19207.svg) ![forks](https://img.shields.io/github/forks/Pwdnx1337/CVE-2018-19207.svg)
+
 - [https://github.com/cved-sources/cve-2018-19207](https://github.com/cved-sources/cve-2018-19207) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2018-19207.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2018-19207.svg)
 
 ## CVE-2018-19131
@@ -834,9 +836,9 @@
 
 - [https://github.com/jiahuiLeee/test](https://github.com/jiahuiLeee/test) :  ![starts](https://img.shields.io/github/stars/jiahuiLeee/test.svg) ![forks](https://img.shields.io/github/forks/jiahuiLeee/test.svg)
 
-- [https://github.com/KKkai0315/CVE-2018-17456](https://github.com/KKkai0315/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/KKkai0315/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/KKkai0315/CVE-2018-17456.svg)
-
 - [https://github.com/799600966/CVE-2018-17456](https://github.com/799600966/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/799600966/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/799600966/CVE-2018-17456.svg)
+
+- [https://github.com/KKkai0315/CVE-2018-17456](https://github.com/KKkai0315/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/KKkai0315/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/KKkai0315/CVE-2018-17456.svg)
 
 - [https://github.com/shpik-kr/CVE-2018-17456](https://github.com/shpik-kr/CVE-2018-17456) :  ![starts](https://img.shields.io/github/stars/shpik-kr/CVE-2018-17456.svg) ![forks](https://img.shields.io/github/forks/shpik-kr/CVE-2018-17456.svg)
 
@@ -2550,11 +2552,11 @@
 
 - [https://github.com/A-Alabdoo/CVE-DVr](https://github.com/A-Alabdoo/CVE-DVr) :  ![starts](https://img.shields.io/github/stars/A-Alabdoo/CVE-DVr.svg) ![forks](https://img.shields.io/github/forks/A-Alabdoo/CVE-DVr.svg)
 
-- [https://github.com/arminarab1999/CVE-2018-9995](https://github.com/arminarab1999/CVE-2018-9995) :  ![starts](https://img.shields.io/github/stars/arminarab1999/CVE-2018-9995.svg) ![forks](https://img.shields.io/github/forks/arminarab1999/CVE-2018-9995.svg)
-
 - [https://github.com/jameseyes/DVRC](https://github.com/jameseyes/DVRC) :  ![starts](https://img.shields.io/github/stars/jameseyes/DVRC.svg) ![forks](https://img.shields.io/github/forks/jameseyes/DVRC.svg)
 
 - [https://github.com/dearpan/cve-2018-9995](https://github.com/dearpan/cve-2018-9995) :  ![starts](https://img.shields.io/github/stars/dearpan/cve-2018-9995.svg) ![forks](https://img.shields.io/github/forks/dearpan/cve-2018-9995.svg)
+
+- [https://github.com/arminarab1999/CVE-2018-9995](https://github.com/arminarab1999/CVE-2018-9995) :  ![starts](https://img.shields.io/github/stars/arminarab1999/CVE-2018-9995.svg) ![forks](https://img.shields.io/github/forks/arminarab1999/CVE-2018-9995.svg)
 
 - [https://github.com/ABIZCHI/CVE-2018-9995_dvr_credentials](https://github.com/ABIZCHI/CVE-2018-9995_dvr_credentials) :  ![starts](https://img.shields.io/github/stars/ABIZCHI/CVE-2018-9995_dvr_credentials.svg) ![forks](https://img.shields.io/github/forks/ABIZCHI/CVE-2018-9995_dvr_credentials.svg)
 
@@ -3329,9 +3331,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/SyedGhufranRaza/CVE-2018-7600-Remote-Code-Execution](https://github.com/SyedGhufranRaza/CVE-2018-7600-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/SyedGhufranRaza/CVE-2018-7600-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/SyedGhufranRaza/CVE-2018-7600-Remote-Code-Execution.svg)
 
-- [https://github.com/rajaabdullahnasir/CVE-2018-7600-Remote-Code-Execution](https://github.com/rajaabdullahnasir/CVE-2018-7600-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/rajaabdullahnasir/CVE-2018-7600-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/rajaabdullahnasir/CVE-2018-7600-Remote-Code-Execution.svg)
-
 - [https://github.com/madneal/codeql-scanner](https://github.com/madneal/codeql-scanner) :  ![starts](https://img.shields.io/github/stars/madneal/codeql-scanner.svg) ![forks](https://img.shields.io/github/forks/madneal/codeql-scanner.svg)
+
+- [https://github.com/rajaabdullahnasir/CVE-2018-7600-Remote-Code-Execution](https://github.com/rajaabdullahnasir/CVE-2018-7600-Remote-Code-Execution) :  ![starts](https://img.shields.io/github/stars/rajaabdullahnasir/CVE-2018-7600-Remote-Code-Execution.svg) ![forks](https://img.shields.io/github/forks/rajaabdullahnasir/CVE-2018-7600-Remote-Code-Execution.svg)
 
 - [https://github.com/ynsmroztas/drupalhunter](https://github.com/ynsmroztas/drupalhunter) :  ![starts](https://img.shields.io/github/stars/ynsmroztas/drupalhunter.svg) ![forks](https://img.shields.io/github/forks/ynsmroztas/drupalhunter.svg)
 
@@ -3555,11 +3557,11 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/zur250/Zur-Go-GET-RCE-Solution](https://github.com/zur250/Zur-Go-GET-RCE-Solution) :  ![starts](https://img.shields.io/github/stars/zur250/Zur-Go-GET-RCE-Solution.svg) ![forks](https://img.shields.io/github/forks/zur250/Zur-Go-GET-RCE-Solution.svg)
 
-- [https://github.com/veter069/go-get-rce](https://github.com/veter069/go-get-rce) :  ![starts](https://img.shields.io/github/stars/veter069/go-get-rce.svg) ![forks](https://img.shields.io/github/forks/veter069/go-get-rce.svg)
-
 - [https://github.com/twseptian/cve-2018-6574](https://github.com/twseptian/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/twseptian/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/twseptian/cve-2018-6574.svg)
 
 - [https://github.com/darthvader-htb/CVE-2018-6574](https://github.com/darthvader-htb/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/darthvader-htb/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/darthvader-htb/CVE-2018-6574.svg)
+
+- [https://github.com/veter069/go-get-rce](https://github.com/veter069/go-get-rce) :  ![starts](https://img.shields.io/github/stars/veter069/go-get-rce.svg) ![forks](https://img.shields.io/github/forks/veter069/go-get-rce.svg)
 
 - [https://github.com/steefn/cve2018-6574](https://github.com/steefn/cve2018-6574) :  ![starts](https://img.shields.io/github/stars/steefn/cve2018-6574.svg) ![forks](https://img.shields.io/github/forks/steefn/cve2018-6574.svg)
 
@@ -3607,6 +3609,10 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/markisback/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/markisback/CVE-2018-6574.svg)
 
+- [https://github.com/NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/NikolaT3sla/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/NikolaT3sla/cve-2018-6574.svg)
+
+- [https://github.com/it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/it3x55/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/it3x55/CVE-2018-6574.svg)
+
 - [https://github.com/paulogmota/CVE-2018-6574](https://github.com/paulogmota/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/paulogmota/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/paulogmota/CVE-2018-6574.svg)
 
 - [https://github.com/jahwni/CVE-2018-6574](https://github.com/jahwni/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/jahwni/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/jahwni/CVE-2018-6574.svg)
@@ -3616,10 +3622,6 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 - [https://github.com/purgedemo/CVE-2018-6574](https://github.com/purgedemo/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/purgedemo/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/purgedemo/CVE-2018-6574.svg)
 
 - [https://github.com/tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/tjcim/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/tjcim/cve-2018-6574.svg)
-
-- [https://github.com/NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/NikolaT3sla/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/NikolaT3sla/cve-2018-6574.svg)
-
-- [https://github.com/it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/it3x55/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/it3x55/CVE-2018-6574.svg)
 
 - [https://github.com/faiqu3/cve-2018-6574](https://github.com/faiqu3/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/faiqu3/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/faiqu3/cve-2018-6574.svg)
 
@@ -3643,13 +3645,13 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/chr1sM/CVE-2018-6574](https://github.com/chr1sM/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/chr1sM/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/chr1sM/CVE-2018-6574.svg)
 
-- [https://github.com/kawkab101/cve-2018-6574](https://github.com/kawkab101/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/kawkab101/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/kawkab101/cve-2018-6574.svg)
-
 - [https://github.com/dollyptm/cve-2018-6574](https://github.com/dollyptm/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/dollyptm/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/dollyptm/cve-2018-6574.svg)
 
 - [https://github.com/ErnestZiemkowski/cve-2018-6574](https://github.com/ErnestZiemkowski/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/ErnestZiemkowski/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/ErnestZiemkowski/cve-2018-6574.svg)
 
 - [https://github.com/yavolo/CVE-2018-6574](https://github.com/yavolo/CVE-2018-6574) :  ![starts](https://img.shields.io/github/stars/yavolo/CVE-2018-6574.svg) ![forks](https://img.shields.io/github/forks/yavolo/CVE-2018-6574.svg)
+
+- [https://github.com/kawkab101/cve-2018-6574](https://github.com/kawkab101/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/kawkab101/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/kawkab101/cve-2018-6574.svg)
 
 - [https://github.com/redirected/cve-2018-6574](https://github.com/redirected/cve-2018-6574) :  ![starts](https://img.shields.io/github/stars/redirected/cve-2018-6574.svg) ![forks](https://img.shields.io/github/forks/redirected/cve-2018-6574.svg)
 
@@ -3685,9 +3687,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/jftierno/CVE-2018-6574-2](https://github.com/jftierno/CVE-2018-6574-2) :  ![starts](https://img.shields.io/github/stars/jftierno/CVE-2018-6574-2.svg) ![forks](https://img.shields.io/github/forks/jftierno/CVE-2018-6574-2.svg)
 
-- [https://github.com/20matan/CVE-2018-6574-POC](https://github.com/20matan/CVE-2018-6574-POC) :  ![starts](https://img.shields.io/github/stars/20matan/CVE-2018-6574-POC.svg) ![forks](https://img.shields.io/github/forks/20matan/CVE-2018-6574-POC.svg)
-
 - [https://github.com/yitingfan/CVE-2018-6574_demo](https://github.com/yitingfan/CVE-2018-6574_demo) :  ![starts](https://img.shields.io/github/stars/yitingfan/CVE-2018-6574_demo.svg) ![forks](https://img.shields.io/github/forks/yitingfan/CVE-2018-6574_demo.svg)
+
+- [https://github.com/20matan/CVE-2018-6574-POC](https://github.com/20matan/CVE-2018-6574-POC) :  ![starts](https://img.shields.io/github/stars/20matan/CVE-2018-6574-POC.svg) ![forks](https://img.shields.io/github/forks/20matan/CVE-2018-6574-POC.svg)
 
 - [https://github.com/amil-ptl-test/ptl_cve_2018_6574](https://github.com/amil-ptl-test/ptl_cve_2018_6574) :  ![starts](https://img.shields.io/github/stars/amil-ptl-test/ptl_cve_2018_6574.svg) ![forks](https://img.shields.io/github/forks/amil-ptl-test/ptl_cve_2018_6574.svg)
 
@@ -3784,9 +3786,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/ianxtianxt/CVE-2018-6389](https://github.com/ianxtianxt/CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2018-6389.svg)
 
-- [https://github.com/dsfau/wordpress-CVE-2018-6389](https://github.com/dsfau/wordpress-CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/dsfau/wordpress-CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/dsfau/wordpress-CVE-2018-6389.svg)
-
 - [https://github.com/m3ssap0/wordpress_cve-2018-6389](https://github.com/m3ssap0/wordpress_cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/m3ssap0/wordpress_cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/m3ssap0/wordpress_cve-2018-6389.svg)
+
+- [https://github.com/dsfau/wordpress-CVE-2018-6389](https://github.com/dsfau/wordpress-CVE-2018-6389) :  ![starts](https://img.shields.io/github/stars/dsfau/wordpress-CVE-2018-6389.svg) ![forks](https://img.shields.io/github/forks/dsfau/wordpress-CVE-2018-6389.svg)
 
 - [https://github.com/JavierOlmedo/wordpress-cve-2018-6389](https://github.com/JavierOlmedo/wordpress-cve-2018-6389) :  ![starts](https://img.shields.io/github/stars/JavierOlmedo/wordpress-cve-2018-6389.svg) ![forks](https://img.shields.io/github/forks/JavierOlmedo/wordpress-cve-2018-6389.svg)
 
