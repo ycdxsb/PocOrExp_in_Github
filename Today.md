@@ -1,62 +1,86 @@
-# Update 2025-11-24
-## CVE-2025-48561
- In multiple locations, there is a possible way to access data displayed on the screen due to side channel information disclosure. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.
+# Update 2025-11-25
+## CVE-2025-50165
+ Untrusted pointer dereference in Microsoft Graphics Component allows an unauthorized attacker to execute code over a network.
 
-- [https://github.com/combustible-trojan672/Pixnapping-Attack-on-Android](https://github.com/combustible-trojan672/Pixnapping-Attack-on-Android) :  ![starts](https://img.shields.io/github/stars/combustible-trojan672/Pixnapping-Attack-on-Android.svg) ![forks](https://img.shields.io/github/forks/combustible-trojan672/Pixnapping-Attack-on-Android.svg)
+- [https://github.com/callinston/CVE-2025-50165](https://github.com/callinston/CVE-2025-50165) :  ![starts](https://img.shields.io/github/stars/callinston/CVE-2025-50165.svg) ![forks](https://img.shields.io/github/forks/callinston/CVE-2025-50165.svg)
+- [https://github.com/blintray/CVE-2025-50165](https://github.com/blintray/CVE-2025-50165) :  ![starts](https://img.shields.io/github/stars/blintray/CVE-2025-50165.svg) ![forks](https://img.shields.io/github/forks/blintray/CVE-2025-50165.svg)
+
+
+## CVE-2025-48507
+ The security state of the calling processor into Arm® Trusted Firmware (TF-A) is not used and could potentially allow non-secure processors access to secure memories, access to crypto operations, and the ability to turn on and off subsystems within the SOC.
+
+- [https://github.com/jdbonfils/PoC_CVE-2025-48507](https://github.com/jdbonfils/PoC_CVE-2025-48507) :  ![starts](https://img.shields.io/github/stars/jdbonfils/PoC_CVE-2025-48507.svg) ![forks](https://img.shields.io/github/forks/jdbonfils/PoC_CVE-2025-48507.svg)
+
+
+## CVE-2025-30749
+ Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u451, 8u451-perf, 11.0.27, 17.0.15, 21.0.7, 24.0.1; Oracle GraalVM for JDK: 17.0.15, 21.0.7 and  24.0.1; Oracle GraalVM Enterprise Edition: 21.3.14. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H).
+
+- [https://github.com/rashedhasan090/AegisJava](https://github.com/rashedhasan090/AegisJava) :  ![starts](https://img.shields.io/github/stars/rashedhasan090/AegisJava.svg) ![forks](https://img.shields.io/github/forks/rashedhasan090/AegisJava.svg)
 
 
 ## CVE-2025-29927
  Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
 
-- [https://github.com/R3verseIN/Nextjs-middleware-vulnerable-appdemo-CVE-2025-29927](https://github.com/R3verseIN/Nextjs-middleware-vulnerable-appdemo-CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/R3verseIN/Nextjs-middleware-vulnerable-appdemo-CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/R3verseIN/Nextjs-middleware-vulnerable-appdemo-CVE-2025-29927.svg)
+- [https://github.com/jmbowes/NextSecureScan](https://github.com/jmbowes/NextSecureScan) :  ![starts](https://img.shields.io/github/stars/jmbowes/NextSecureScan.svg) ![forks](https://img.shields.io/github/forks/jmbowes/NextSecureScan.svg)
+- [https://github.com/rgvillanueva28/vulnbox-easy-CVE-2025-29927](https://github.com/rgvillanueva28/vulnbox-easy-CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/rgvillanueva28/vulnbox-easy-CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/rgvillanueva28/vulnbox-easy-CVE-2025-29927.svg)
 
 
-## CVE-2025-26633
- Improper neutralization in Microsoft Management Console allows an unauthorized attacker to bypass a security feature locally.
+## CVE-2025-24054
+ External control of file name or path in Windows NTLM allows an unauthorized attacker to perform spoofing over a network.
 
-- [https://github.com/mbanyamer/MSC-EvilTwin-Local-Privilege-Escalation](https://github.com/mbanyamer/MSC-EvilTwin-Local-Privilege-Escalation) :  ![starts](https://img.shields.io/github/stars/mbanyamer/MSC-EvilTwin-Local-Privilege-Escalation.svg) ![forks](https://img.shields.io/github/forks/mbanyamer/MSC-EvilTwin-Local-Privilege-Escalation.svg)
-
-
-## CVE-2025-11001
-The specific flaw exists within the handling of symbolic links in ZIP files. Crafted data in a ZIP file can cause the process to traverse to unintended directories. An attacker can leverage this vulnerability to execute code in the context of a service account. Was ZDI-CAN-26753.
-
-- [https://github.com/ranasen-rat/CVE-2025-11001](https://github.com/ranasen-rat/CVE-2025-11001) :  ![starts](https://img.shields.io/github/stars/ranasen-rat/CVE-2025-11001.svg) ![forks](https://img.shields.io/github/forks/ranasen-rat/CVE-2025-11001.svg)
-- [https://github.com/mbanyamer/CVE-2025-11001---7-Zip](https://github.com/mbanyamer/CVE-2025-11001---7-Zip) :  ![starts](https://img.shields.io/github/stars/mbanyamer/CVE-2025-11001---7-Zip.svg) ![forks](https://img.shields.io/github/forks/mbanyamer/CVE-2025-11001---7-Zip.svg)
+- [https://github.com/Untouchable17/CVE-2025-24054](https://github.com/Untouchable17/CVE-2025-24054) :  ![starts](https://img.shields.io/github/stars/Untouchable17/CVE-2025-24054.svg) ![forks](https://img.shields.io/github/forks/Untouchable17/CVE-2025-24054.svg)
 
 
-## CVE-2025-10230
- A flaw was found in Samba, in the front-end WINS hook handling: NetBIOS names from registration packets are passed to a shell without proper validation or escaping. Unsanitized NetBIOS name data from WINS registration packets are inserted into a shell command and executed by the Samba Active Directory Domain Controller’s wins hook, allowing an unauthenticated network attacker to achieve remote command execution as the Samba process.
+## CVE-2025-8943
+ The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP Servers. However, Flowise's inherent authentication and authorization model is minimal and lacks role-based access controls (RBAC). Furthermore, in Flowise versions before 3.0.1 the default installation operates without authentication unless explicitly configured. This combination allows unauthenticated network attackers to execute unsandboxed OS commands.
 
-- [https://github.com/nehkark/CVE-2025-10230](https://github.com/nehkark/CVE-2025-10230) :  ![starts](https://img.shields.io/github/stars/nehkark/CVE-2025-10230.svg) ![forks](https://img.shields.io/github/forks/nehkark/CVE-2025-10230.svg)
-
-
-## CVE-2024-1071
- The Ultimate Member – User Profile, Registration, Login, Member Directory, Content Restriction & Membership Plugin plugin for WordPress is vulnerable to SQL Injection via the 'sorting' parameter in versions 2.1.3 to 2.8.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
-
-- [https://github.com/dogucyber/WordPress-Exploit-CVE-2024-1071](https://github.com/dogucyber/WordPress-Exploit-CVE-2024-1071) :  ![starts](https://img.shields.io/github/stars/dogucyber/WordPress-Exploit-CVE-2024-1071.svg) ![forks](https://img.shields.io/github/forks/dogucyber/WordPress-Exploit-CVE-2024-1071.svg)
+- [https://github.com/B1ack4sh/Blackash-CVE-2025-8943](https://github.com/B1ack4sh/Blackash-CVE-2025-8943) :  ![starts](https://img.shields.io/github/stars/B1ack4sh/Blackash-CVE-2025-8943.svg) ![forks](https://img.shields.io/github/forks/B1ack4sh/Blackash-CVE-2025-8943.svg)
 
 
-## CVE-2021-43267
- An issue was discovered in net/tipc/crypto.c in the Linux kernel before 5.14.16. The Transparent Inter-Process Communication (TIPC) functionality allows remote attackers to exploit insufficient validation of user-supplied sizes for the MSG_CRYPTO message type.
+## CVE-2025-8088
+     from ESET.
 
-- [https://github.com/YunchoHang/CVE-2021-43267](https://github.com/YunchoHang/CVE-2021-43267) :  ![starts](https://img.shields.io/github/stars/YunchoHang/CVE-2021-43267.svg) ![forks](https://img.shields.io/github/forks/YunchoHang/CVE-2021-43267.svg)
-
-
-## CVE-2021-41773
- A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
-
-- [https://github.com/ch4os443/CVE-2021-41773](https://github.com/ch4os443/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/ch4os443/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/ch4os443/CVE-2021-41773.svg)
-- [https://github.com/RizqiSec/CVE-2021-41773](https://github.com/RizqiSec/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/RizqiSec/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/RizqiSec/CVE-2021-41773.svg)
+- [https://github.com/h0melike/cve-2025-8088](https://github.com/h0melike/cve-2025-8088) :  ![starts](https://img.shields.io/github/stars/h0melike/cve-2025-8088.svg) ![forks](https://img.shields.io/github/forks/h0melike/cve-2025-8088.svg)
 
 
-## CVE-2017-16744
- A path traversal vulnerability in Tridium Niagara AX Versions 3.8 and prior and Niagara 4 systems Versions 4.4 and prior installed on Microsoft Windows Systems can be exploited by leveraging valid platform (administrator) credentials.
+## CVE-2025-6501
+ A vulnerability, which was classified as critical, was found in code-projects Inventory Management System 1.0. This affects an unknown part of the file /php_action/createCategories.php. The manipulation of the argument categoriesStatus leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 
-- [https://github.com/GainSec/CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara](https://github.com/GainSec/CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara) :  ![starts](https://img.shields.io/github/stars/GainSec/CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara.svg) ![forks](https://img.shields.io/github/forks/GainSec/CVE-2017-16744-and-CVE-2017-16748-Tridium-Niagara.svg)
+- [https://github.com/Neo-Neo6/CVE-2025-65018-Heap-buffer-overflow-in-libpng-ps4-ps5-](https://github.com/Neo-Neo6/CVE-2025-65018-Heap-buffer-overflow-in-libpng-ps4-ps5-) :  ![starts](https://img.shields.io/github/stars/Neo-Neo6/CVE-2025-65018-Heap-buffer-overflow-in-libpng-ps4-ps5-.svg) ![forks](https://img.shields.io/github/forks/Neo-Neo6/CVE-2025-65018-Heap-buffer-overflow-in-libpng-ps4-ps5-.svg)
 
 
-## CVE-2017-7494
- Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to remote code execution vulnerability, allowing a malicious client to upload a shared library to a writable share, and then cause the server to load and execute it.
+## CVE-2025-6408
+ A vulnerability has been found in Campcodes Online Hospital Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /doctor/search.php. The manipulation of the argument searchdata leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.
 
-- [https://github.com/FelipeR-UFBA/cve-2017-7494-fixed](https://github.com/FelipeR-UFBA/cve-2017-7494-fixed) :  ![starts](https://img.shields.io/github/stars/FelipeR-UFBA/cve-2017-7494-fixed.svg) ![forks](https://img.shields.io/github/forks/FelipeR-UFBA/cve-2017-7494-fixed.svg)
+- [https://github.com/AT190510-Cuong/CVE-2025-64087-SSTI-](https://github.com/AT190510-Cuong/CVE-2025-64087-SSTI-) :  ![starts](https://img.shields.io/github/stars/AT190510-Cuong/CVE-2025-64087-SSTI-.svg) ![forks](https://img.shields.io/github/forks/AT190510-Cuong/CVE-2025-64087-SSTI-.svg)
+
+
+## CVE-2025-5777
+ Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server
+
+- [https://github.com/rashedhasan090/CVE-2025-5777](https://github.com/rashedhasan090/CVE-2025-5777) :  ![starts](https://img.shields.io/github/stars/rashedhasan090/CVE-2025-5777.svg) ![forks](https://img.shields.io/github/forks/rashedhasan090/CVE-2025-5777.svg)
+
+
+## CVE-2025-2598
+ When the AWS Cloud Development Kit (AWS CDK) Command Line Interface (AWS CDK CLI) is used with a credential plugin which returns an expiration property with the retrieved AWS credentials, the credentials are printed to the console output. To mitigate this issue, users should upgrade to version 2.178.2 or later and ensure any forked or derivative code is patched to incorporate the new fixes.
+
+- [https://github.com/Catnip-Express-Maxim/AWSTESTEXPLOIT](https://github.com/Catnip-Express-Maxim/AWSTESTEXPLOIT) :  ![starts](https://img.shields.io/github/stars/Catnip-Express-Maxim/AWSTESTEXPLOIT.svg) ![forks](https://img.shields.io/github/forks/Catnip-Express-Maxim/AWSTESTEXPLOIT.svg)
+
+
+## CVE-2024-10220
+ The Kubernetes kubelet component allows arbitrary command execution via specially crafted gitRepo volumes.This issue affects kubelet: through 1.28.11, from 1.29.0 through 1.29.6, from 1.30.0 through 1.30.2.
+
+- [https://github.com/saleha-muzammil/cve-2024-10220-git-on-git](https://github.com/saleha-muzammil/cve-2024-10220-git-on-git) :  ![starts](https://img.shields.io/github/stars/saleha-muzammil/cve-2024-10220-git-on-git.svg) ![forks](https://img.shields.io/github/forks/saleha-muzammil/cve-2024-10220-git-on-git.svg)
+
+
+## CVE-2023-39910
+ The cryptocurrency wallet entropy seeding mechanism used in Libbitcoin Explorer 3.0.0 through 3.6.0 is weak, aka the Milk Sad issue. The use of an mt19937 Mersenne Twister PRNG restricts the internal entropy to 32 bits regardless of settings. This allows remote attackers to recover any wallet private keys generated from "bx seed" entropy output and steal funds. (Affected users need to move funds to a secure new cryptocurrency wallet.) NOTE: the vendor's position is that there was sufficient documentation advising against "bx seed" but others disagree. NOTE: this was exploited in the wild in June and July 2023.
+
+- [https://github.com/zoeir/BTCDetect-Scientific-Methodology](https://github.com/zoeir/BTCDetect-Scientific-Methodology) :  ![starts](https://img.shields.io/github/stars/zoeir/BTCDetect-Scientific-Methodology.svg) ![forks](https://img.shields.io/github/forks/zoeir/BTCDetect-Scientific-Methodology.svg)
+
+
+## CVE-2017-0144
+ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka "Windows SMB Remote Code Execution Vulnerability." This vulnerability is different from those described in CVE-2017-0143, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
+
+- [https://github.com/AbbeAlthany/Windows-7_och_CVE-2017-0144_Exploit](https://github.com/AbbeAlthany/Windows-7_och_CVE-2017-0144_Exploit) :  ![starts](https://img.shields.io/github/stars/AbbeAlthany/Windows-7_och_CVE-2017-0144_Exploit.svg) ![forks](https://img.shields.io/github/forks/AbbeAlthany/Windows-7_och_CVE-2017-0144_Exploit.svg)
 
