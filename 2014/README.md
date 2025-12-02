@@ -123,9 +123,9 @@
 
 
 
-- [https://github.com/uthrasri/CVE-2014-8275_openssl_g2.5](https://github.com/uthrasri/CVE-2014-8275_openssl_g2.5) :  ![starts](https://img.shields.io/github/stars/uthrasri/CVE-2014-8275_openssl_g2.5.svg) ![forks](https://img.shields.io/github/forks/uthrasri/CVE-2014-8275_openssl_g2.5.svg)
-
 - [https://github.com/uthrasri/Openssl_G2.5_CVE-2014-8275](https://github.com/uthrasri/Openssl_G2.5_CVE-2014-8275) :  ![starts](https://img.shields.io/github/stars/uthrasri/Openssl_G2.5_CVE-2014-8275.svg) ![forks](https://img.shields.io/github/forks/uthrasri/Openssl_G2.5_CVE-2014-8275.svg)
+
+- [https://github.com/uthrasri/CVE-2014-8275_openssl_g2.5](https://github.com/uthrasri/CVE-2014-8275_openssl_g2.5) :  ![starts](https://img.shields.io/github/stars/uthrasri/CVE-2014-8275_openssl_g2.5.svg) ![forks](https://img.shields.io/github/forks/uthrasri/CVE-2014-8275_openssl_g2.5.svg)
 
 ## CVE-2014-8244
  Linksys SMART WiFi firmware on EA2700 and EA3500 devices; before 2.1.41 build 162351 on E4200v2 and EA4500 devices; before 1.1.41 build 162599 on EA6200 devices; before 1.1.40 build 160989 on EA6300, EA6400, EA6500, and EA6700 devices; and before 1.1.42 build 161129 on EA6900 devices allows remote attackers to obtain sensitive information or modify data via a JNAP action in a JNAP/ HTTP request.
