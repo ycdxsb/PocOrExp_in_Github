@@ -375,6 +375,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/tarunyadav/fix-cve-2013-2094](https://github.com/tarunyadav/fix-cve-2013-2094) :  ![starts](https://img.shields.io/github/stars/tarunyadav/fix-cve-2013-2094.svg) ![forks](https://img.shields.io/github/forks/tarunyadav/fix-cve-2013-2094.svg)
 
+- [https://github.com/letsr00t/CVE-2013-2094](https://github.com/letsr00t/CVE-2013-2094) :  ![starts](https://img.shields.io/github/stars/letsr00t/CVE-2013-2094.svg) ![forks](https://img.shields.io/github/forks/letsr00t/CVE-2013-2094.svg)
+
 ## CVE-2013-2072
  Buffer overflow in the Python bindings for the xc_vcpu_setaffinity call in Xen 4.0.x, 4.1.x, and 4.2.x allows local administrators with permissions to configure VCPU affinity to cause a denial of service (memory corruption and xend toolstack crash) and possibly gain privileges via a crafted cpumap.
 
