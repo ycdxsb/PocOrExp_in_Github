@@ -54,6 +54,8 @@
 
 - [https://github.com/M41doror/cve-2010-4221](https://github.com/M41doror/cve-2010-4221) :  ![starts](https://img.shields.io/github/stars/M41doror/cve-2010-4221.svg) ![forks](https://img.shields.io/github/forks/M41doror/cve-2010-4221.svg)
 
+- [https://github.com/Mafiosohack/Offensive-lab-2](https://github.com/Mafiosohack/Offensive-lab-2) :  ![starts](https://img.shields.io/github/stars/Mafiosohack/Offensive-lab-2.svg) ![forks](https://img.shields.io/github/forks/Mafiosohack/Offensive-lab-2.svg)
+
 ## CVE-2010-3971
  Use-after-free vulnerability in the CSharedStyleSheet::Notify function in the Cascading Style Sheets (CSS) parser in mshtml.dll, as used in Microsoft Internet Explorer 6 through 8 and other products, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a self-referential @import rule in a stylesheet, aka "CSS Memory Corruption Vulnerability."
 
