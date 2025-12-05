@@ -112,11 +112,11 @@
 
 - [https://github.com/4m3rr0r/CVE-2011-2523-poc](https://github.com/4m3rr0r/CVE-2011-2523-poc) :  ![starts](https://img.shields.io/github/stars/4m3rr0r/CVE-2011-2523-poc.svg) ![forks](https://img.shields.io/github/forks/4m3rr0r/CVE-2011-2523-poc.svg)
 
-- [https://github.com/Lynk4/CVE-2011-2523](https://github.com/Lynk4/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Lynk4/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Lynk4/CVE-2011-2523.svg)
+- [https://github.com/BolivarJ/CVE-2011-2523](https://github.com/BolivarJ/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/BolivarJ/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/BolivarJ/CVE-2011-2523.svg)
 
 - [https://github.com/nobodyatall648/CVE-2011-2523](https://github.com/nobodyatall648/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/nobodyatall648/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/nobodyatall648/CVE-2011-2523.svg)
 
-- [https://github.com/BolivarJ/CVE-2011-2523](https://github.com/BolivarJ/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/BolivarJ/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/BolivarJ/CVE-2011-2523.svg)
+- [https://github.com/Lynk4/CVE-2011-2523](https://github.com/Lynk4/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Lynk4/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Lynk4/CVE-2011-2523.svg)
 
 - [https://github.com/NullBrunk/CVE-2011-2523](https://github.com/NullBrunk/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/NullBrunk/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/NullBrunk/CVE-2011-2523.svg)
 
@@ -126,9 +126,9 @@
 
 - [https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit](https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit) :  ![starts](https://img.shields.io/github/stars/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit.svg) ![forks](https://img.shields.io/github/forks/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit.svg)
 
-- [https://github.com/krill-x7/CVE-2011-2523](https://github.com/krill-x7/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/krill-x7/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/krill-x7/CVE-2011-2523.svg)
-
 - [https://github.com/cybermads/CVE-2011-2523](https://github.com/cybermads/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/cybermads/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/cybermads/CVE-2011-2523.svg)
+
+- [https://github.com/krill-x7/CVE-2011-2523](https://github.com/krill-x7/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/krill-x7/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/krill-x7/CVE-2011-2523.svg)
 
 - [https://github.com/Daniel1234mata/vsftpd-backdoor-exploit](https://github.com/Daniel1234mata/vsftpd-backdoor-exploit) :  ![starts](https://img.shields.io/github/stars/Daniel1234mata/vsftpd-backdoor-exploit.svg) ![forks](https://img.shields.io/github/forks/Daniel1234mata/vsftpd-backdoor-exploit.svg)
 
@@ -136,9 +136,9 @@
 
 - [https://github.com/lghost256/vsftpd234-exploit](https://github.com/lghost256/vsftpd234-exploit) :  ![starts](https://img.shields.io/github/stars/lghost256/vsftpd234-exploit.svg) ![forks](https://img.shields.io/github/forks/lghost256/vsftpd234-exploit.svg)
 
-- [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
-
 - [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
+
+- [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
 - [https://github.com/avivyap/CVE-2011-2523](https://github.com/avivyap/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/avivyap/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/avivyap/CVE-2011-2523.svg)
 
