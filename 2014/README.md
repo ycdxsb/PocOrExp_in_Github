@@ -274,15 +274,17 @@
 
 - [https://github.com/zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/zhsh9/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/zhsh9/CVE-2014-6287.svg)
 
-- [https://github.com/10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2014-6287.svg)
-
 - [https://github.com/nika0x38/CVE-2014-6287](https://github.com/nika0x38/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/nika0x38/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/nika0x38/CVE-2014-6287.svg)
+
+- [https://github.com/10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2014-6287.svg)
 
 - [https://github.com/Z3R0-0x30/CVE-2014-6287](https://github.com/Z3R0-0x30/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/Z3R0-0x30/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/Z3R0-0x30/CVE-2014-6287.svg)
 
 - [https://github.com/francescobrina/hfs-cve-2014-6287-exploit](https://github.com/francescobrina/hfs-cve-2014-6287-exploit) :  ![starts](https://img.shields.io/github/stars/francescobrina/hfs-cve-2014-6287-exploit.svg) ![forks](https://img.shields.io/github/forks/francescobrina/hfs-cve-2014-6287-exploit.svg)
 
 - [https://github.com/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287](https://github.com/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287.svg)
+
+- [https://github.com/JoaZ94/rejjeto_hfs-rce-exploit-cve-2014-6287](https://github.com/JoaZ94/rejjeto_hfs-rce-exploit-cve-2014-6287) :  ![starts](https://img.shields.io/github/stars/JoaZ94/rejjeto_hfs-rce-exploit-cve-2014-6287.svg) ![forks](https://img.shields.io/github/forks/JoaZ94/rejjeto_hfs-rce-exploit-cve-2014-6287.svg)
 
 - [https://github.com/rahisec/rejetto-http-file-server-2.3.x-RCE-exploit-CVE-2014-6287](https://github.com/rahisec/rejetto-http-file-server-2.3.x-RCE-exploit-CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/rahisec/rejetto-http-file-server-2.3.x-RCE-exploit-CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/rahisec/rejetto-http-file-server-2.3.x-RCE-exploit-CVE-2014-6287.svg)
 
@@ -379,13 +381,13 @@
 
 - [https://github.com/moften/CVE-2014-6271](https://github.com/moften/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/moften/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/moften/CVE-2014-6271.svg)
 
-- [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
-
 - [https://github.com/mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2014-6271.svg)
 
 - [https://github.com/rsherstnev/CVE-2014-6271](https://github.com/rsherstnev/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/rsherstnev/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/rsherstnev/CVE-2014-6271.svg)
 
 - [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
+
+- [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
 
 - [https://github.com/knightc0de/Shellshock_vuln_Exploit](https://github.com/knightc0de/Shellshock_vuln_Exploit) :  ![starts](https://img.shields.io/github/stars/knightc0de/Shellshock_vuln_Exploit.svg) ![forks](https://img.shields.io/github/forks/knightc0de/Shellshock_vuln_Exploit.svg)
 
@@ -407,11 +409,11 @@
 
 - [https://github.com/cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Shellbash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Shellbash-CVE-2014-6271.svg)
 
-- [https://github.com/dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes) :  ![starts](https://img.shields.io/github/stars/dlitz/bash-cve-2014-6271-fixes.svg) ![forks](https://img.shields.io/github/forks/dlitz/bash-cve-2014-6271-fixes.svg)
-
 - [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
 
 - [https://github.com/hanmin0512/CVE-2014-6271_pwnable](https://github.com/hanmin0512/CVE-2014-6271_pwnable) :  ![starts](https://img.shields.io/github/stars/hanmin0512/CVE-2014-6271_pwnable.svg) ![forks](https://img.shields.io/github/forks/hanmin0512/CVE-2014-6271_pwnable.svg)
+
+- [https://github.com/dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes) :  ![starts](https://img.shields.io/github/stars/dlitz/bash-cve-2014-6271-fixes.svg) ![forks](https://img.shields.io/github/forks/dlitz/bash-cve-2014-6271-fixes.svg)
 
 - [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
 
