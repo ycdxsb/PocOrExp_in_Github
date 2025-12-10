@@ -74,9 +74,9 @@
 
 - [https://github.com/tkisason/KillApachePy](https://github.com/tkisason/KillApachePy) :  ![starts](https://img.shields.io/github/stars/tkisason/KillApachePy.svg) ![forks](https://img.shields.io/github/forks/tkisason/KillApachePy.svg)
 
-- [https://github.com/stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192) :  ![starts](https://img.shields.io/github/stars/stcmjp/cve-2011-3192.svg) ![forks](https://img.shields.io/github/forks/stcmjp/cve-2011-3192.svg)
-
 - [https://github.com/futurezayka/CVE-2011-3192](https://github.com/futurezayka/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/futurezayka/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/futurezayka/CVE-2011-3192.svg)
+
+- [https://github.com/stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192) :  ![starts](https://img.shields.io/github/stars/stcmjp/cve-2011-3192.svg) ![forks](https://img.shields.io/github/forks/stcmjp/cve-2011-3192.svg)
 
 - [https://github.com/Xinjis/Apache_ByteRange_DoS_cve_2011_3192](https://github.com/Xinjis/Apache_ByteRange_DoS_cve_2011_3192) :  ![starts](https://img.shields.io/github/stars/Xinjis/Apache_ByteRange_DoS_cve_2011_3192.svg) ![forks](https://img.shields.io/github/forks/Xinjis/Apache_ByteRange_DoS_cve_2011_3192.svg)
 
@@ -126,9 +126,9 @@
 
 - [https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit](https://github.com/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit) :  ![starts](https://img.shields.io/github/stars/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit.svg) ![forks](https://img.shields.io/github/forks/Gill-Singh-A/vsFTP-2.3.4-Remote-Root-Shell-Exploit.svg)
 
-- [https://github.com/krill-x7/CVE-2011-2523](https://github.com/krill-x7/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/krill-x7/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/krill-x7/CVE-2011-2523.svg)
-
 - [https://github.com/cybermads/CVE-2011-2523](https://github.com/cybermads/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/cybermads/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/cybermads/CVE-2011-2523.svg)
+
+- [https://github.com/krill-x7/CVE-2011-2523](https://github.com/krill-x7/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/krill-x7/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/krill-x7/CVE-2011-2523.svg)
 
 - [https://github.com/Daniel1234mata/vsftpd-backdoor-exploit](https://github.com/Daniel1234mata/vsftpd-backdoor-exploit) :  ![starts](https://img.shields.io/github/stars/Daniel1234mata/vsftpd-backdoor-exploit.svg) ![forks](https://img.shields.io/github/forks/Daniel1234mata/vsftpd-backdoor-exploit.svg)
 
