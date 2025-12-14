@@ -194,9 +194,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln](https://github.com/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln) :  ![starts](https://img.shields.io/github/stars/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln.svg) ![forks](https://img.shields.io/github/forks/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln.svg)
 
-- [https://github.com/snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/snoopopsec/vulnerability-CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/snoopopsec/vulnerability-CVE-2013-3900.svg)
-
 - [https://github.com/Sabecomoeh/CVE-2013-3900](https://github.com/Sabecomoeh/CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/Sabecomoeh/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Sabecomoeh/CVE-2013-3900.svg)
+
+- [https://github.com/snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/snoopopsec/vulnerability-CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/snoopopsec/vulnerability-CVE-2013-3900.svg)
 
 - [https://github.com/Securenetology/CVE-2013-3900](https://github.com/Securenetology/CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/Securenetology/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Securenetology/CVE-2013-3900.svg)
 
