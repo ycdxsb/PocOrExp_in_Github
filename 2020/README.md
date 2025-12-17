@@ -1486,9 +1486,9 @@ vulnerable to a race condition in the MCL Smart Patient Reader software update s
 
 - [https://github.com/GazettEl/CVE-2020-24186](https://github.com/GazettEl/CVE-2020-24186) :  ![starts](https://img.shields.io/github/stars/GazettEl/CVE-2020-24186.svg) ![forks](https://img.shields.io/github/forks/GazettEl/CVE-2020-24186.svg)
 
-- [https://github.com/meicookies/CVE-2020-24186](https://github.com/meicookies/CVE-2020-24186) :  ![starts](https://img.shields.io/github/stars/meicookies/CVE-2020-24186.svg) ![forks](https://img.shields.io/github/forks/meicookies/CVE-2020-24186.svg)
-
 - [https://github.com/sec-dojo-com/CVE-2020-24186](https://github.com/sec-dojo-com/CVE-2020-24186) :  ![starts](https://img.shields.io/github/stars/sec-dojo-com/CVE-2020-24186.svg) ![forks](https://img.shields.io/github/forks/sec-dojo-com/CVE-2020-24186.svg)
+
+- [https://github.com/meicookies/CVE-2020-24186](https://github.com/meicookies/CVE-2020-24186) :  ![starts](https://img.shields.io/github/stars/meicookies/CVE-2020-24186.svg) ![forks](https://img.shields.io/github/forks/meicookies/CVE-2020-24186.svg)
 
 ## CVE-2020-24148
  Server-side request forgery (SSRF) in the Import XML and RSS Feeds (import-xml-feed) plugin 2.0.1 for WordPress via the data parameter in a moove_read_xml action.
@@ -1539,9 +1539,9 @@ vulnerable to a race condition in the MCL Smart Patient Reader software update s
 
 
 
-- [https://github.com/redteambrasil/CVE-2020-24029](https://github.com/redteambrasil/CVE-2020-24029) :  ![starts](https://img.shields.io/github/stars/redteambrasil/CVE-2020-24029.svg) ![forks](https://img.shields.io/github/forks/redteambrasil/CVE-2020-24029.svg)
-
 - [https://github.com/underprotection/CVE-2020-24029](https://github.com/underprotection/CVE-2020-24029) :  ![starts](https://img.shields.io/github/stars/underprotection/CVE-2020-24029.svg) ![forks](https://img.shields.io/github/forks/underprotection/CVE-2020-24029.svg)
+
+- [https://github.com/redteambrasil/CVE-2020-24029](https://github.com/redteambrasil/CVE-2020-24029) :  ![starts](https://img.shields.io/github/stars/redteambrasil/CVE-2020-24029.svg) ![forks](https://img.shields.io/github/forks/redteambrasil/CVE-2020-24029.svg)
 
 ## CVE-2020-24028
  ForLogic Qualiex v1 and v3 allows any authenticated customer to achieve privilege escalation via user creations, password changes, or user permission updates. NOTE: as of 2025-10-14, the Supplier's perspective is that this "does not allow administrative privilege gain. Authorization is enforced server-side, restricting actions to the user’s own permission scope."
@@ -2612,11 +2612,11 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/nik0nz7/CVE-2020-14882](https://github.com/nik0nz7/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/nik0nz7/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/nik0nz7/CVE-2020-14882.svg)
 
+- [https://github.com/b1g-b33f/CVE-2020-14882](https://github.com/b1g-b33f/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/b1g-b33f/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/b1g-b33f/CVE-2020-14882.svg)
+
 - [https://github.com/BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/BabyTeam1024/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/BabyTeam1024/CVE-2020-14882.svg)
 
 - [https://github.com/LucasPDiniz/CVE-2020-14882](https://github.com/LucasPDiniz/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/LucasPDiniz/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/LucasPDiniz/CVE-2020-14882.svg)
-
-- [https://github.com/b1g-b33f/CVE-2020-14882](https://github.com/b1g-b33f/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/b1g-b33f/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/b1g-b33f/CVE-2020-14882.svg)
 
 - [https://github.com/xMr110/CVE-2020-14882](https://github.com/xMr110/CVE-2020-14882) :  ![starts](https://img.shields.io/github/stars/xMr110/CVE-2020-14882.svg) ![forks](https://img.shields.io/github/forks/xMr110/CVE-2020-14882.svg)
 
@@ -6105,9 +6105,9 @@ The issue has been fixed in dropwizard-validation 1.3.19 and 2.0.2.
 
 - [https://github.com/ar2o3/CVE-Exploit](https://github.com/ar2o3/CVE-Exploit) :  ![starts](https://img.shields.io/github/stars/ar2o3/CVE-Exploit.svg) ![forks](https://img.shields.io/github/forks/ar2o3/CVE-Exploit.svg)
 
-- [https://github.com/DaMinGshidashi/CVE-2020-2551](https://github.com/DaMinGshidashi/CVE-2020-2551) :  ![starts](https://img.shields.io/github/stars/DaMinGshidashi/CVE-2020-2551.svg) ![forks](https://img.shields.io/github/forks/DaMinGshidashi/CVE-2020-2551.svg)
-
 - [https://github.com/LTiDi2000/CVE-2020-2551](https://github.com/LTiDi2000/CVE-2020-2551) :  ![starts](https://img.shields.io/github/stars/LTiDi2000/CVE-2020-2551.svg) ![forks](https://img.shields.io/github/forks/LTiDi2000/CVE-2020-2551.svg)
+
+- [https://github.com/DaMinGshidashi/CVE-2020-2551](https://github.com/DaMinGshidashi/CVE-2020-2551) :  ![starts](https://img.shields.io/github/stars/DaMinGshidashi/CVE-2020-2551.svg) ![forks](https://img.shields.io/github/forks/DaMinGshidashi/CVE-2020-2551.svg)
 
 ## CVE-2020-2548
  Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: WLS Core Components). The supported version that is affected is 10.3.6.0.0. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle WebLogic Server, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle WebLogic Server accessible data as well as unauthorized read access to a subset of Oracle WebLogic Server accessible data. CVSS 3.0 Base Score 4.8 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N).
@@ -6503,13 +6503,13 @@ When the second phase of Windows updates become available in Q1 2021, customers 
 
 - [https://github.com/grupooruss/CVE-2020-1472](https://github.com/grupooruss/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/grupooruss/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/grupooruss/CVE-2020-1472.svg)
 
-- [https://github.com/victim10wq3/CVE-2020-1472](https://github.com/victim10wq3/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/victim10wq3/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/victim10wq3/CVE-2020-1472.svg)
-
-- [https://github.com/Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve-2020-1472.svg)
+- [https://github.com/Fa1c0n35/CVE-2020-1472](https://github.com/Fa1c0n35/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472.svg)
 
 - [https://github.com/puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/puckiestyle/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/puckiestyle/CVE-2020-1472.svg)
 
-- [https://github.com/Fa1c0n35/CVE-2020-1472](https://github.com/Fa1c0n35/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472.svg)
+- [https://github.com/Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve-2020-1472.svg)
+
+- [https://github.com/victim10wq3/CVE-2020-1472](https://github.com/victim10wq3/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/victim10wq3/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/victim10wq3/CVE-2020-1472.svg)
 
 - [https://github.com/dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/dr4g0n23/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/dr4g0n23/CVE-2020-1472.svg)
 
@@ -6537,9 +6537,9 @@ When the second phase of Windows updates become available in Q1 2021, customers 
 
 - [https://github.com/logg-1/0logon](https://github.com/logg-1/0logon) :  ![starts](https://img.shields.io/github/stars/logg-1/0logon.svg) ![forks](https://img.shields.io/github/forks/logg-1/0logon.svg)
 
-- [https://github.com/technion/ZeroLogonAssess](https://github.com/technion/ZeroLogonAssess) :  ![starts](https://img.shields.io/github/stars/technion/ZeroLogonAssess.svg) ![forks](https://img.shields.io/github/forks/technion/ZeroLogonAssess.svg)
-
 - [https://github.com/100HnoMeuNome/ZeroLogon-CVE-2020-1472-lab](https://github.com/100HnoMeuNome/ZeroLogon-CVE-2020-1472-lab) :  ![starts](https://img.shields.io/github/stars/100HnoMeuNome/ZeroLogon-CVE-2020-1472-lab.svg) ![forks](https://img.shields.io/github/forks/100HnoMeuNome/ZeroLogon-CVE-2020-1472-lab.svg)
+
+- [https://github.com/technion/ZeroLogonAssess](https://github.com/technion/ZeroLogonAssess) :  ![starts](https://img.shields.io/github/stars/technion/ZeroLogonAssess.svg) ![forks](https://img.shields.io/github/forks/technion/ZeroLogonAssess.svg)
 
 - [https://github.com/likeww/MassZeroLogon](https://github.com/likeww/MassZeroLogon) :  ![starts](https://img.shields.io/github/stars/likeww/MassZeroLogon.svg) ![forks](https://img.shields.io/github/forks/likeww/MassZeroLogon.svg)
 
@@ -6971,23 +6971,23 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 - [https://github.com/kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/kn6869610/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/kn6869610/CVE-2020-0796.svg)
 
-- [https://github.com/krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/krizzz07/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/krizzz07/CVE-2020-0796.svg)
-
 - [https://github.com/TweatherQ/CVE-2020-0796](https://github.com/TweatherQ/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/TweatherQ/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/TweatherQ/CVE-2020-0796.svg)
+
+- [https://github.com/krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/krizzz07/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/krizzz07/CVE-2020-0796.svg)
 
 - [https://github.com/monjheta/CVE-2020-0796](https://github.com/monjheta/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/monjheta/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/monjheta/CVE-2020-0796.svg)
 
-- [https://github.com/halsten/CVE-2020-0796](https://github.com/halsten/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/halsten/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/halsten/CVE-2020-0796.svg)
-
 - [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
+
+- [https://github.com/halsten/CVE-2020-0796](https://github.com/halsten/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/halsten/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/halsten/CVE-2020-0796.svg)
 
 - [https://github.com/abdullah098/CVE_2020_0796](https://github.com/abdullah098/CVE_2020_0796) :  ![starts](https://img.shields.io/github/stars/abdullah098/CVE_2020_0796.svg) ![forks](https://img.shields.io/github/forks/abdullah098/CVE_2020_0796.svg)
 
 - [https://github.com/hungdnvp/POC-CVE-2020-0796](https://github.com/hungdnvp/POC-CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/hungdnvp/POC-CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/hungdnvp/POC-CVE-2020-0796.svg)
 
-- [https://github.com/lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2020-0796-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2020-0796-exp.svg)
-
 - [https://github.com/intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner) :  ![starts](https://img.shields.io/github/stars/intelliroot-tech/cve-2020-0796-Scanner.svg) ![forks](https://img.shields.io/github/forks/intelliroot-tech/cve-2020-0796-Scanner.svg)
+
+- [https://github.com/lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp) :  ![starts](https://img.shields.io/github/stars/lisinan988/CVE-2020-0796-exp.svg) ![forks](https://img.shields.io/github/forks/lisinan988/CVE-2020-0796-exp.svg)
 
 - [https://github.com/tripledd/cve-2020-0796-vuln](https://github.com/tripledd/cve-2020-0796-vuln) :  ![starts](https://img.shields.io/github/stars/tripledd/cve-2020-0796-vuln.svg) ![forks](https://img.shields.io/github/forks/tripledd/cve-2020-0796-vuln.svg)
 
@@ -7096,9 +7096,9 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 - [https://github.com/truongtn/cve-2020-0688](https://github.com/truongtn/cve-2020-0688) :  ![starts](https://img.shields.io/github/stars/truongtn/cve-2020-0688.svg) ![forks](https://img.shields.io/github/forks/truongtn/cve-2020-0688.svg)
 
-- [https://github.com/7heKnight/CVE-2020-0688](https://github.com/7heKnight/CVE-2020-0688) :  ![starts](https://img.shields.io/github/stars/7heKnight/CVE-2020-0688.svg) ![forks](https://img.shields.io/github/forks/7heKnight/CVE-2020-0688.svg)
-
 - [https://github.com/tvdat20004/CVE-2020-0688](https://github.com/tvdat20004/CVE-2020-0688) :  ![starts](https://img.shields.io/github/stars/tvdat20004/CVE-2020-0688.svg) ![forks](https://img.shields.io/github/forks/tvdat20004/CVE-2020-0688.svg)
+
+- [https://github.com/7heKnight/CVE-2020-0688](https://github.com/7heKnight/CVE-2020-0688) :  ![starts](https://img.shields.io/github/stars/7heKnight/CVE-2020-0688.svg) ![forks](https://img.shields.io/github/forks/7heKnight/CVE-2020-0688.svg)
 
 - [https://github.com/Ken-Abruzzi/cve_2020_0688](https://github.com/Ken-Abruzzi/cve_2020_0688) :  ![starts](https://img.shields.io/github/stars/Ken-Abruzzi/cve_2020_0688.svg) ![forks](https://img.shields.io/github/forks/Ken-Abruzzi/cve_2020_0688.svg)
 
@@ -7650,9 +7650,9 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 
 
-- [https://github.com/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2020-0137](https://github.com/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2020-0137) :  ![starts](https://img.shields.io/github/stars/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2020-0137.svg) ![forks](https://img.shields.io/github/forks/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2020-0137.svg)
-
 - [https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2020-0137](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2020-0137) :  ![starts](https://img.shields.io/github/stars/nanopathi/framework_base_AOSP10_r33_CVE-2020-0137.svg) ![forks](https://img.shields.io/github/forks/nanopathi/framework_base_AOSP10_r33_CVE-2020-0137.svg)
+
+- [https://github.com/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2020-0137](https://github.com/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2020-0137) :  ![starts](https://img.shields.io/github/stars/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2020-0137.svg) ![forks](https://img.shields.io/github/forks/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2020-0137.svg)
 
 ## CVE-2020-0136
  In multiple locations of Parcel.cpp, there is a possible out-of-bounds write due to an integer overflow. This could lead to local escalation of privilege in the system server with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-120078455
