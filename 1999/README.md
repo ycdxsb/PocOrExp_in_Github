@@ -5,6 +5,13 @@
 
 - [https://github.com/siunam321/CVE-1999-1053-PoC](https://github.com/siunam321/CVE-1999-1053-PoC) :  ![starts](https://img.shields.io/github/stars/siunam321/CVE-1999-1053-PoC.svg) ![forks](https://img.shields.io/github/forks/siunam321/CVE-1999-1053-PoC.svg)
 
+## CVE-1999-0678
+ A default configuration of Apache on Debian GNU/Linux sets the ServerRoot to /usr/doc, which allows remote users to read documentation files for the entire server.
+
+
+
+- [https://github.com/lto7777777/CVE-1999-0678](https://github.com/lto7777777/CVE-1999-0678) :  ![starts](https://img.shields.io/github/stars/lto7777777/CVE-1999-0678.svg) ![forks](https://img.shields.io/github/forks/lto7777777/CVE-1999-0678.svg)
+
 ## CVE-1999-0532
  A DNS server allows zone transfers.
 
