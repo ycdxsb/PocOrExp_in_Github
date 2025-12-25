@@ -179,9 +179,9 @@
 
 - [https://github.com/ieee0824/CVE-2017-1000117-sl](https://github.com/ieee0824/CVE-2017-1000117-sl) :  ![starts](https://img.shields.io/github/stars/ieee0824/CVE-2017-1000117-sl.svg) ![forks](https://img.shields.io/github/forks/ieee0824/CVE-2017-1000117-sl.svg)
 
-- [https://github.com/alilangtest/CVE-2017-1000117](https://github.com/alilangtest/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/alilangtest/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/alilangtest/CVE-2017-1000117.svg)
-
 - [https://github.com/takehaya/CVE-2017-1000117](https://github.com/takehaya/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/takehaya/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/takehaya/CVE-2017-1000117.svg)
+
+- [https://github.com/alilangtest/CVE-2017-1000117](https://github.com/alilangtest/CVE-2017-1000117) :  ![starts](https://img.shields.io/github/stars/alilangtest/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/alilangtest/CVE-2017-1000117.svg)
 
 - [https://github.com/Shadow5523/CVE-2017-1000117-test](https://github.com/Shadow5523/CVE-2017-1000117-test) :  ![starts](https://img.shields.io/github/stars/Shadow5523/CVE-2017-1000117-test.svg) ![forks](https://img.shields.io/github/forks/Shadow5523/CVE-2017-1000117-test.svg)
 
@@ -1566,9 +1566,9 @@
 
 - [https://github.com/0xr2r/CVE-2017-11317-auto-exploit-](https://github.com/0xr2r/CVE-2017-11317-auto-exploit-) :  ![starts](https://img.shields.io/github/stars/0xr2r/CVE-2017-11317-auto-exploit-.svg) ![forks](https://img.shields.io/github/forks/0xr2r/CVE-2017-11317-auto-exploit-.svg)
 
-- [https://github.com/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut](https://github.com/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut.svg)
-
 - [https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation](https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation.svg)
+
+- [https://github.com/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut](https://github.com/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut.svg)
 
 ## CVE-2017-11176
  The mq_notify function in the Linux kernel through 4.11.9 does not set the sock pointer to NULL upon entry into the retry logic. During a user-space close of a Netlink socket, it allows attackers to cause a denial of service (use-after-free) or possibly have unspecified other impact.
@@ -2550,9 +2550,9 @@
 
 - [https://github.com/daehee/nginx-overflow](https://github.com/daehee/nginx-overflow) :  ![starts](https://img.shields.io/github/stars/daehee/nginx-overflow.svg) ![forks](https://img.shields.io/github/forks/daehee/nginx-overflow.svg)
 
-- [https://github.com/insecrez/Remote-Integer-Overflow-Vulnerability](https://github.com/insecrez/Remote-Integer-Overflow-Vulnerability) :  ![starts](https://img.shields.io/github/stars/insecrez/Remote-Integer-Overflow-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/insecrez/Remote-Integer-Overflow-Vulnerability.svg)
-
 - [https://github.com/fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit](https://github.com/fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit) :  ![starts](https://img.shields.io/github/stars/fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit.svg) ![forks](https://img.shields.io/github/forks/fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit.svg)
+
+- [https://github.com/insecrez/Remote-Integer-Overflow-Vulnerability](https://github.com/insecrez/Remote-Integer-Overflow-Vulnerability) :  ![starts](https://img.shields.io/github/stars/insecrez/Remote-Integer-Overflow-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/insecrez/Remote-Integer-Overflow-Vulnerability.svg)
 
 - [https://github.com/devansh3008/Cve_Finder_2017-7529](https://github.com/devansh3008/Cve_Finder_2017-7529) :  ![starts](https://img.shields.io/github/stars/devansh3008/Cve_Finder_2017-7529.svg) ![forks](https://img.shields.io/github/forks/devansh3008/Cve_Finder_2017-7529.svg)
 
@@ -2702,9 +2702,9 @@
 
 - [https://github.com/M1a0rz/CVE-2017-7269](https://github.com/M1a0rz/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/M1a0rz/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/M1a0rz/CVE-2017-7269.svg)
 
-- [https://github.com/VanishedPeople/CVE-2017-7269](https://github.com/VanishedPeople/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/VanishedPeople/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/VanishedPeople/CVE-2017-7269.svg)
-
 - [https://github.com/mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/mirrorblack/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/mirrorblack/CVE-2017-7269.svg)
+
+- [https://github.com/VanishedPeople/CVE-2017-7269](https://github.com/VanishedPeople/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/VanishedPeople/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/VanishedPeople/CVE-2017-7269.svg)
 
 - [https://github.com/ThanHuuTuan/CVE-2017-7269](https://github.com/ThanHuuTuan/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/ThanHuuTuan/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/ThanHuuTuan/CVE-2017-7269.svg)
 
