@@ -230,6 +230,13 @@
 
 - [https://github.com/danielvilaca/PoC_Webmin](https://github.com/danielvilaca/PoC_Webmin) :  ![starts](https://img.shields.io/github/stars/danielvilaca/PoC_Webmin.svg) ![forks](https://img.shields.io/github/forks/danielvilaca/PoC_Webmin.svg)
 
+## CVE-2012-2836
+ The exif_data_load_data function in exif-data.c in the EXIF Tag Parsing Library (aka libexif) before 0.6.21 allows remote attackers to cause a denial of service (out-of-bounds read) or possibly obtain sensitive information from process memory via crafted EXIF tags in an image.
+
+
+
+- [https://github.com/ngtuonghung/CVE-2009-3895-CVE-2012-2836](https://github.com/ngtuonghung/CVE-2009-3895-CVE-2012-2836) :  ![starts](https://img.shields.io/github/stars/ngtuonghung/CVE-2009-3895-CVE-2012-2836.svg) ![forks](https://img.shields.io/github/forks/ngtuonghung/CVE-2009-3895-CVE-2012-2836.svg)
+
 ## CVE-2012-2688
  Unspecified vulnerability in the _php_stream_scandir function in the stream implementation in PHP before 5.3.15 and 5.4.x before 5.4.5 has unknown impact and remote attack vectors, related to an "overflow."
 
