@@ -60,6 +60,13 @@
 
 - [https://github.com/fengjixuchui/CVE-2009-4049](https://github.com/fengjixuchui/CVE-2009-4049) :  ![starts](https://img.shields.io/github/stars/fengjixuchui/CVE-2009-4049.svg) ![forks](https://img.shields.io/github/forks/fengjixuchui/CVE-2009-4049.svg)
 
+## CVE-2009-3895
+ Heap-based buffer overflow in the exif_entry_fix function (aka the tag fixup routine) in libexif/exif-entry.c in libexif 0.6.18 allows remote attackers to cause a denial of service or possibly execute arbitrary code via an invalid EXIF image.  NOTE: some of these details are obtained from third party information.
+
+
+
+- [https://github.com/ngtuonghung/CVE-2009-3895-CVE-2012-2836](https://github.com/ngtuonghung/CVE-2009-3895-CVE-2012-2836) :  ![starts](https://img.shields.io/github/stars/ngtuonghung/CVE-2009-3895-CVE-2012-2836.svg) ![forks](https://img.shields.io/github/forks/ngtuonghung/CVE-2009-3895-CVE-2012-2836.svg)
+
 ## CVE-2009-3555
  The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a "plaintext injection" attack, aka the "Project Mogul" issue.
 
