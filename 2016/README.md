@@ -1597,6 +1597,13 @@
 
 - [https://github.com/Manouchehri/CVE-2016-1734](https://github.com/Manouchehri/CVE-2016-1734) :  ![starts](https://img.shields.io/github/stars/Manouchehri/CVE-2016-1734.svg) ![forks](https://img.shields.io/github/forks/Manouchehri/CVE-2016-1734.svg)
 
+## CVE-2016-1611
+ Novell Filr 1.2 before Hot Patch 6 and 2.0 before Hot Patch 2 uses world-writable permissions for /etc/profile.d/vainit.sh, which allows local users to gain privileges by replacing this file's content with arbitrary shell commands.
+
+
+
+- [https://github.com/d3vn0mi/cve-2016-16113](https://github.com/d3vn0mi/cve-2016-16113) :  ![starts](https://img.shields.io/github/stars/d3vn0mi/cve-2016-16113.svg) ![forks](https://img.shields.io/github/forks/d3vn0mi/cve-2016-16113.svg)
+
 ## CVE-2016-1555
  (1) boardData102.php, (2) boardData103.php, (3) boardDataJP.php, (4) boardDataNA.php, and (5) boardDataWW.php in Netgear WN604 before 3.3.3 and WN802Tv2, WNAP210v2, WNAP320, WNDAP350, WNDAP360, and WNDAP660 before 3.5.5.0 allow remote attackers to execute arbitrary commands.
 
