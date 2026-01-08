@@ -164,6 +164,13 @@
 
 - [https://github.com/Vinc3nt4H/cve-2014-7920-7921_update](https://github.com/Vinc3nt4H/cve-2014-7920-7921_update) :  ![starts](https://img.shields.io/github/stars/Vinc3nt4H/cve-2014-7920-7921_update.svg) ![forks](https://img.shields.io/github/forks/Vinc3nt4H/cve-2014-7920-7921_update.svg)
 
+## CVE-2014-7912
+ The get_option function in dhcp.c in dhcpcd before 6.2.0, as used in dhcpcd 5.x in Android before 5.1 and other products, does not validate the relationship between length fields and the amount of data, which allows remote DHCP servers to execute arbitrary code or cause a denial of service (memory corruption) via a large length value of an option in a DHCPACK message.
+
+
+
+- [https://github.com/vaginessa/cve-2014-7912](https://github.com/vaginessa/cve-2014-7912) :  ![starts](https://img.shields.io/github/stars/vaginessa/cve-2014-7912.svg) ![forks](https://img.shields.io/github/forks/vaginessa/cve-2014-7912.svg)
+
 ## CVE-2014-7911
  luni/src/main/java/java/io/ObjectInputStream.java in the java.io.ObjectInputStream implementation in Android before 5.0.0 does not verify that deserialization will result in an object that met the requirements for serialization, which allows attackers to execute arbitrary code via a crafted finalize method for a serialized object in an ArrayMap Parcel within an intent sent to system_service, as demonstrated by the finalize method of android.os.BinderProxy, aka Bug 15874291.
 
@@ -181,9 +188,9 @@
 
 - [https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege](https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege) :  ![starts](https://img.shields.io/github/stars/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege.svg) ![forks](https://img.shields.io/github/forks/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege.svg)
 
-- [https://github.com/mabin004/cve-2014-7911](https://github.com/mabin004/cve-2014-7911) :  ![starts](https://img.shields.io/github/stars/mabin004/cve-2014-7911.svg) ![forks](https://img.shields.io/github/forks/mabin004/cve-2014-7911.svg)
-
 - [https://github.com/koozxcv/CVE-2014-7911](https://github.com/koozxcv/CVE-2014-7911) :  ![starts](https://img.shields.io/github/stars/koozxcv/CVE-2014-7911.svg) ![forks](https://img.shields.io/github/forks/koozxcv/CVE-2014-7911.svg)
+
+- [https://github.com/vaginessa/cve-2014-7912](https://github.com/vaginessa/cve-2014-7912) :  ![starts](https://img.shields.io/github/stars/vaginessa/cve-2014-7912.svg) ![forks](https://img.shields.io/github/forks/vaginessa/cve-2014-7912.svg)
 
 ## CVE-2014-7816
  Directory traversal vulnerability in JBoss Undertow 1.0.x before 1.0.17, 1.1.x before 1.1.0.CR5, and 1.2.x before 1.2.0.Beta3, when running on Windows, allows remote attackers to read arbitrary files via a .. (dot dot) in a resource URI.
@@ -313,9 +320,9 @@
 
 - [https://github.com/P0cL4bs/ShellShock-CGI-Scan](https://github.com/P0cL4bs/ShellShock-CGI-Scan) :  ![starts](https://img.shields.io/github/stars/P0cL4bs/ShellShock-CGI-Scan.svg) ![forks](https://img.shields.io/github/forks/P0cL4bs/ShellShock-CGI-Scan.svg)
 
-- [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
-
 - [https://github.com/zalalov/CVE-2014-6271](https://github.com/zalalov/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/zalalov/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/zalalov/CVE-2014-6271.svg)
+
+- [https://github.com/akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/akr3ch/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/akr3ch/CVE-2014-6271.svg)
 
 - [https://github.com/J0hnTh3Kn1ght/CVE-2014-6271](https://github.com/J0hnTh3Kn1ght/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/J0hnTh3Kn1ght/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/J0hnTh3Kn1ght/CVE-2014-6271.svg)
 
@@ -379,19 +386,19 @@
 
 - [https://github.com/AlissonFaoli/Shellshock](https://github.com/AlissonFaoli/Shellshock) :  ![starts](https://img.shields.io/github/stars/AlissonFaoli/Shellshock.svg) ![forks](https://img.shields.io/github/forks/AlissonFaoli/Shellshock.svg)
 
+- [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
+
 - [https://github.com/mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2014-6271.svg)
 
 - [https://github.com/rsherstnev/CVE-2014-6271](https://github.com/rsherstnev/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/rsherstnev/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/rsherstnev/CVE-2014-6271.svg)
-
-- [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
 
 - [https://github.com/moften/CVE-2014-6271](https://github.com/moften/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/moften/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/moften/CVE-2014-6271.svg)
 
 - [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
 
-- [https://github.com/knightc0de/Shellshock_vuln_Exploit](https://github.com/knightc0de/Shellshock_vuln_Exploit) :  ![starts](https://img.shields.io/github/stars/knightc0de/Shellshock_vuln_Exploit.svg) ![forks](https://img.shields.io/github/forks/knightc0de/Shellshock_vuln_Exploit.svg)
-
 - [https://github.com/woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/woltage/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/woltage/CVE-2014-6271.svg)
+
+- [https://github.com/knightc0de/Shellshock_vuln_Exploit](https://github.com/knightc0de/Shellshock_vuln_Exploit) :  ![starts](https://img.shields.io/github/stars/knightc0de/Shellshock_vuln_Exploit.svg) ![forks](https://img.shields.io/github/forks/knightc0de/Shellshock_vuln_Exploit.svg)
 
 - [https://github.com/hackintoanetwork/shellshock](https://github.com/hackintoanetwork/shellshock) :  ![starts](https://img.shields.io/github/stars/hackintoanetwork/shellshock.svg) ![forks](https://img.shields.io/github/forks/hackintoanetwork/shellshock.svg)
 
