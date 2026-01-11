@@ -132,13 +132,6 @@
 
 - [https://github.com/Nhom6KTLT/CVE-2010-3124](https://github.com/Nhom6KTLT/CVE-2010-3124) :  ![starts](https://img.shields.io/github/stars/Nhom6KTLT/CVE-2010-3124.svg) ![forks](https://img.shields.io/github/forks/Nhom6KTLT/CVE-2010-3124.svg)
 
-## CVE-2010-2883
- Stack-based buffer overflow in CoolType.dll in Adobe Reader and Acrobat 9.x before 9.4, and 8.x before 8.2.5 on Windows and Mac OS X, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a PDF document with a long field in a Smart INdependent Glyphlets (SING) table in a TTF font, as exploited in the wild in September 2010. NOTE: some of these details are obtained from third party information.
-
-
-
-- [https://github.com/avielzecharia/CVE-2010-2883](https://github.com/avielzecharia/CVE-2010-2883) :  ![starts](https://img.shields.io/github/stars/avielzecharia/CVE-2010-2883.svg) ![forks](https://img.shields.io/github/forks/avielzecharia/CVE-2010-2883.svg)
-
 ## CVE-2010-2861
  Multiple directory traversal vulnerabilities in the administrator console in Adobe ColdFusion 9.0.1 and earlier allow remote attackers to read arbitrary files via the locale parameter to (1) CFIDE/administrator/settings/mappings.cfm, (2) logging/settings.cfm, (3) datasources/index.cfm, (4) j2eepackaging/editarchive.cfm, and (5) enter.cfm in CFIDE/administrator/.
 
