@@ -295,6 +295,8 @@
 
 - [https://github.com/cuerv0x/CVE-2015-6967](https://github.com/cuerv0x/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/cuerv0x/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/cuerv0x/CVE-2015-6967.svg)
 
+- [https://github.com/declanmiddleton/nibbleblog_4.0.3_rce](https://github.com/declanmiddleton/nibbleblog_4.0.3_rce) :  ![starts](https://img.shields.io/github/stars/declanmiddleton/nibbleblog_4.0.3_rce.svg) ![forks](https://img.shields.io/github/forks/declanmiddleton/nibbleblog_4.0.3_rce.svg)
+
 - [https://github.com/3mpir3Albert/HTB_Nibbles](https://github.com/3mpir3Albert/HTB_Nibbles) :  ![starts](https://img.shields.io/github/stars/3mpir3Albert/HTB_Nibbles.svg) ![forks](https://img.shields.io/github/forks/3mpir3Albert/HTB_Nibbles.svg)
 
 ## CVE-2015-6835
@@ -787,6 +789,8 @@
 - [https://github.com/n000xy/CVE-2015-3224-](https://github.com/n000xy/CVE-2015-3224-) :  ![starts](https://img.shields.io/github/stars/n000xy/CVE-2015-3224-.svg) ![forks](https://img.shields.io/github/forks/n000xy/CVE-2015-3224-.svg)
 
 - [https://github.com/Sic4rio/CVE-2015-3224](https://github.com/Sic4rio/CVE-2015-3224) :  ![starts](https://img.shields.io/github/stars/Sic4rio/CVE-2015-3224.svg) ![forks](https://img.shields.io/github/forks/Sic4rio/CVE-2015-3224.svg)
+
+- [https://github.com/SQU4NCH/CVE-2015-3224](https://github.com/SQU4NCH/CVE-2015-3224) :  ![starts](https://img.shields.io/github/stars/SQU4NCH/CVE-2015-3224.svg) ![forks](https://img.shields.io/github/forks/SQU4NCH/CVE-2015-3224.svg)
 
 ## CVE-2015-3197
  ssl/s2_srvr.c in OpenSSL 1.0.1 before 1.0.1r and 1.0.2 before 1.0.2f does not prevent use of disabled ciphers, which makes it easier for man-in-the-middle attackers to defeat cryptographic protection mechanisms by performing computations on SSLv2 traffic, related to the get_client_master_key and get_client_hello functions.
