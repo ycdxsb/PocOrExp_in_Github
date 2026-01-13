@@ -295,8 +295,6 @@
 
 - [https://github.com/cuerv0x/CVE-2015-6967](https://github.com/cuerv0x/CVE-2015-6967) :  ![starts](https://img.shields.io/github/stars/cuerv0x/CVE-2015-6967.svg) ![forks](https://img.shields.io/github/forks/cuerv0x/CVE-2015-6967.svg)
 
-- [https://github.com/declanmiddleton/nibbleblog_4.0.3_rce](https://github.com/declanmiddleton/nibbleblog_4.0.3_rce) :  ![starts](https://img.shields.io/github/stars/declanmiddleton/nibbleblog_4.0.3_rce.svg) ![forks](https://img.shields.io/github/forks/declanmiddleton/nibbleblog_4.0.3_rce.svg)
-
 - [https://github.com/3mpir3Albert/HTB_Nibbles](https://github.com/3mpir3Albert/HTB_Nibbles) :  ![starts](https://img.shields.io/github/stars/3mpir3Albert/HTB_Nibbles.svg) ![forks](https://img.shields.io/github/forks/3mpir3Albert/HTB_Nibbles.svg)
 
 ## CVE-2015-6835
