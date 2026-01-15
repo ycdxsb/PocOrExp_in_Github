@@ -85,6 +85,20 @@
 
 - [https://github.com/osmancanvural/CVE-2026-21436](https://github.com/osmancanvural/CVE-2026-21436) :  ![starts](https://img.shields.io/github/stars/osmancanvural/CVE-2026-21436.svg) ![forks](https://img.shields.io/github/forks/osmancanvural/CVE-2026-21436.svg)
 
+## CVE-2026-20856
+ Improper input validation in Windows Server Update Service allows an unauthorized attacker to execute code over a network.
+
+
+
+- [https://github.com/b1gchoi/poc-CVE-2026-20856](https://github.com/b1gchoi/poc-CVE-2026-20856) :  ![starts](https://img.shields.io/github/stars/b1gchoi/poc-CVE-2026-20856.svg) ![forks](https://img.shields.io/github/forks/b1gchoi/poc-CVE-2026-20856.svg)
+
+## CVE-2026-20805
+ Exposure of sensitive information to an unauthorized actor in Desktop Windows Manager allows an authorized attacker to disclose information locally.
+
+
+
+- [https://github.com/fevar54/CVE-2026-20805-POC](https://github.com/fevar54/CVE-2026-20805-POC) :  ![starts](https://img.shields.io/github/stars/fevar54/CVE-2026-20805-POC.svg) ![forks](https://img.shields.io/github/forks/fevar54/CVE-2026-20805-POC.svg)
+
 ## CVE-2026-0842
  A flaw has been found in Flycatcher Toys smART Sketcher up to 2.0. This affects an unknown part of the component Bluetooth Low Energy Interface. This manipulation causes missing authentication. The attack can only be done within the local network. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
 
