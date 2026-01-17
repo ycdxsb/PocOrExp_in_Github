@@ -214,9 +214,9 @@
 
 - [https://github.com/wizardy0ga/CVE_2012-2982](https://github.com/wizardy0ga/CVE_2012-2982) :  ![starts](https://img.shields.io/github/stars/wizardy0ga/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/CVE_2012-2982.svg)
 
-- [https://github.com/elliotosama/CVE-2012-2982](https://github.com/elliotosama/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/elliotosama/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/elliotosama/CVE-2012-2982.svg)
-
 - [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
+
+- [https://github.com/elliotosama/CVE-2012-2982](https://github.com/elliotosama/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/elliotosama/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/elliotosama/CVE-2012-2982.svg)
 
 - [https://github.com/varppi/CVE-2012-2982](https://github.com/varppi/CVE-2012-2982) :  ![starts](https://img.shields.io/github/stars/varppi/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/varppi/CVE-2012-2982.svg)
 
@@ -231,13 +231,6 @@
 - [https://github.com/SincIDK/CVE-2012-2982-Exploit-Script](https://github.com/SincIDK/CVE-2012-2982-Exploit-Script) :  ![starts](https://img.shields.io/github/stars/SincIDK/CVE-2012-2982-Exploit-Script.svg) ![forks](https://img.shields.io/github/forks/SincIDK/CVE-2012-2982-Exploit-Script.svg)
 
 - [https://github.com/danielvilaca/PoC_Webmin](https://github.com/danielvilaca/PoC_Webmin) :  ![starts](https://img.shields.io/github/stars/danielvilaca/PoC_Webmin.svg) ![forks](https://img.shields.io/github/forks/danielvilaca/PoC_Webmin.svg)
-
-## CVE-2012-2836
- The exif_data_load_data function in exif-data.c in the EXIF Tag Parsing Library (aka libexif) before 0.6.21 allows remote attackers to cause a denial of service (out-of-bounds read) or possibly obtain sensitive information from process memory via crafted EXIF tags in an image.
-
-
-
-- [https://github.com/ngtuonghung/CVE-2009-3895-CVE-2012-2836](https://github.com/ngtuonghung/CVE-2009-3895-CVE-2012-2836) :  ![starts](https://img.shields.io/github/stars/ngtuonghung/CVE-2009-3895-CVE-2012-2836.svg) ![forks](https://img.shields.io/github/forks/ngtuonghung/CVE-2009-3895-CVE-2012-2836.svg)
 
 ## CVE-2012-2688
  Unspecified vulnerability in the _php_stream_scandir function in the stream implementation in PHP before 5.3.15 and 5.4.x before 5.4.5 has unknown impact and remote attack vectors, related to an "overflow."
