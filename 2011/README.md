@@ -74,9 +74,9 @@
 
 - [https://github.com/tkisason/KillApachePy](https://github.com/tkisason/KillApachePy) :  ![starts](https://img.shields.io/github/stars/tkisason/KillApachePy.svg) ![forks](https://img.shields.io/github/forks/tkisason/KillApachePy.svg)
 
-- [https://github.com/futurezayka/CVE-2011-3192](https://github.com/futurezayka/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/futurezayka/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/futurezayka/CVE-2011-3192.svg)
-
 - [https://github.com/stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192) :  ![starts](https://img.shields.io/github/stars/stcmjp/cve-2011-3192.svg) ![forks](https://img.shields.io/github/forks/stcmjp/cve-2011-3192.svg)
+
+- [https://github.com/futurezayka/CVE-2011-3192](https://github.com/futurezayka/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/futurezayka/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/futurezayka/CVE-2011-3192.svg)
 
 - [https://github.com/Xinjis/Apache_ByteRange_DoS_cve_2011_3192](https://github.com/Xinjis/Apache_ByteRange_DoS_cve_2011_3192) :  ![starts](https://img.shields.io/github/stars/Xinjis/Apache_ByteRange_DoS_cve_2011_3192.svg) ![forks](https://img.shields.io/github/forks/Xinjis/Apache_ByteRange_DoS_cve_2011_3192.svg)
 
