@@ -32,13 +32,6 @@
 
 - [https://github.com/arturo-b-cmu/cve-2016-20012](https://github.com/arturo-b-cmu/cve-2016-20012) :  ![starts](https://img.shields.io/github/stars/arturo-b-cmu/cve-2016-20012.svg) ![forks](https://img.shields.io/github/forks/arturo-b-cmu/cve-2016-20012.svg)
 
-## CVE-2016-15048
- AMTT Hotel Broadband Operation System (HiBOS) contains an unauthenticated command injection vulnerability in the /manager/radius/server_ping.php endpoint. The application constructs a shell command that includes the user-supplied ip parameter and executes it without proper validation or escaping. An attacker can insert shell metacharacters into the ip parameter to inject and execute arbitrary system commands as the web server user. The initial third-party disclosure in 2016 recommended contacting the vendor for remediation guidance. Additionally, this product may have been rebranded under a different name. VulnCheck has observed this vulnerability being exploited in the wild as of 2025-10-14 at 04:45:53.510819 UTC.
-
-
-
-- [https://github.com/Pranjal6955/test_CVE-2016-15048](https://github.com/Pranjal6955/test_CVE-2016-15048) :  ![starts](https://img.shields.io/github/stars/Pranjal6955/test_CVE-2016-15048.svg) ![forks](https://img.shields.io/github/forks/Pranjal6955/test_CVE-2016-15048.svg)
-
 ## CVE-2016-15042
  The Frontend File Manager (versions  4.0), N-Media Post Front-end Form (versions  1.1) plugins for WordPress are vulnerable to arbitrary file uploads due to missing file type validation via the `nm_filemanager_upload_file` and `nm_postfront_upload_file` AJAX actions. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.
 
