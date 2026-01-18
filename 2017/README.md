@@ -1280,9 +1280,9 @@
 
 - [https://github.com/qiantu88/CVE-2017-12617](https://github.com/qiantu88/CVE-2017-12617) :  ![starts](https://img.shields.io/github/stars/qiantu88/CVE-2017-12617.svg) ![forks](https://img.shields.io/github/forks/qiantu88/CVE-2017-12617.svg)
 
-- [https://github.com/DevaDJ/CVE-2017-12617](https://github.com/DevaDJ/CVE-2017-12617) :  ![starts](https://img.shields.io/github/stars/DevaDJ/CVE-2017-12617.svg) ![forks](https://img.shields.io/github/forks/DevaDJ/CVE-2017-12617.svg)
-
 - [https://github.com/devcoinfet/CVE-2017-12617](https://github.com/devcoinfet/CVE-2017-12617) :  ![starts](https://img.shields.io/github/stars/devcoinfet/CVE-2017-12617.svg) ![forks](https://img.shields.io/github/forks/devcoinfet/CVE-2017-12617.svg)
+
+- [https://github.com/DevaDJ/CVE-2017-12617](https://github.com/DevaDJ/CVE-2017-12617) :  ![starts](https://img.shields.io/github/stars/DevaDJ/CVE-2017-12617.svg) ![forks](https://img.shields.io/github/forks/DevaDJ/CVE-2017-12617.svg)
 
 - [https://github.com/scirusvulgaris/CVE-2017-12617](https://github.com/scirusvulgaris/CVE-2017-12617) :  ![starts](https://img.shields.io/github/stars/scirusvulgaris/CVE-2017-12617.svg) ![forks](https://img.shields.io/github/forks/scirusvulgaris/CVE-2017-12617.svg)
 
@@ -1884,9 +1884,9 @@
 
 - [https://github.com/murataydemir/CVE-2017-9822](https://github.com/murataydemir/CVE-2017-9822) :  ![starts](https://img.shields.io/github/stars/murataydemir/CVE-2017-9822.svg) ![forks](https://img.shields.io/github/forks/murataydemir/CVE-2017-9822.svg)
 
-- [https://github.com/tranphuc2005/CVE-2017-9822](https://github.com/tranphuc2005/CVE-2017-9822) :  ![starts](https://img.shields.io/github/stars/tranphuc2005/CVE-2017-9822.svg) ![forks](https://img.shields.io/github/forks/tranphuc2005/CVE-2017-9822.svg)
-
 - [https://github.com/Tnot123/cve-2017-9822](https://github.com/Tnot123/cve-2017-9822) :  ![starts](https://img.shields.io/github/stars/Tnot123/cve-2017-9822.svg) ![forks](https://img.shields.io/github/forks/Tnot123/cve-2017-9822.svg)
+
+- [https://github.com/tranphuc2005/CVE-2017-9822](https://github.com/tranphuc2005/CVE-2017-9822) :  ![starts](https://img.shields.io/github/stars/tranphuc2005/CVE-2017-9822.svg) ![forks](https://img.shields.io/github/forks/tranphuc2005/CVE-2017-9822.svg)
 
 ## CVE-2017-9805
  The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x before 2.5.13 uses an XStreamHandler with an instance of XStream for deserialization without any type filtering, which can lead to Remote Code Execution when deserializing XML payloads.
@@ -2228,9 +2228,9 @@
 
 - [https://github.com/adeljck/CVE-2017-8759](https://github.com/adeljck/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/adeljck/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/adeljck/CVE-2017-8759.svg)
 
-- [https://github.com/l0n3rs/CVE-2017-8759](https://github.com/l0n3rs/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/l0n3rs/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/l0n3rs/CVE-2017-8759.svg)
-
 - [https://github.com/Winter3un/cve_2017_8759](https://github.com/Winter3un/cve_2017_8759) :  ![starts](https://img.shields.io/github/stars/Winter3un/cve_2017_8759.svg) ![forks](https://img.shields.io/github/forks/Winter3un/cve_2017_8759.svg)
+
+- [https://github.com/l0n3rs/CVE-2017-8759](https://github.com/l0n3rs/CVE-2017-8759) :  ![starts](https://img.shields.io/github/stars/l0n3rs/CVE-2017-8759.svg) ![forks](https://img.shields.io/github/forks/l0n3rs/CVE-2017-8759.svg)
 
 - [https://github.com/smashinu/CVE-2017-8759Expoit](https://github.com/smashinu/CVE-2017-8759Expoit) :  ![starts](https://img.shields.io/github/stars/smashinu/CVE-2017-8759Expoit.svg) ![forks](https://img.shields.io/github/forks/smashinu/CVE-2017-8759Expoit.svg)
 
@@ -2796,6 +2796,21 @@
 
 - [https://github.com/gquere/CVE-2017-6913](https://github.com/gquere/CVE-2017-6913) :  ![starts](https://img.shields.io/github/stars/gquere/CVE-2017-6913.svg) ![forks](https://img.shields.io/github/forks/gquere/CVE-2017-6913.svg)
 
+## CVE-2017-6742
+ A vulnerability in the SNMP implementation of could allow an authenticated, remote attacker to cause a reload of the affected system or to remotely execute code. An attacker could exploit this vulnerability by sending a crafted SNMP packet to the affected device.&nbsp;
+
+
+
+The vulnerability is due to a buffer overflow in the affected code area. The vulnerability affects all versions of SNMP (versions 1, 2c, and 3). The attacker must know the SNMP read only community string (SNMP version 2c or earlier) or the user credentials (SNMPv3). An exploit could allow the attacker to execute arbitrary code and obtain full control of the system or to cause a reload of the affected system.
+
+
+
+Only traffic directed to the affected system can be used to exploit this vulnerability.
+
+
+
+- [https://github.com/sastraadiwiguna-purpleeliteteaming/Cisco-IOS-Exploitation-JAGUAR_TOOTH-CVE-2017-6742-Reconstruction](https://github.com/sastraadiwiguna-purpleeliteteaming/Cisco-IOS-Exploitation-JAGUAR_TOOTH-CVE-2017-6742-Reconstruction) :  ![starts](https://img.shields.io/github/stars/sastraadiwiguna-purpleeliteteaming/Cisco-IOS-Exploitation-JAGUAR_TOOTH-CVE-2017-6742-Reconstruction.svg) ![forks](https://img.shields.io/github/forks/sastraadiwiguna-purpleeliteteaming/Cisco-IOS-Exploitation-JAGUAR_TOOTH-CVE-2017-6742-Reconstruction.svg)
+
 ## CVE-2017-6736
  The Simple Network Management Protocol (SNMP) subsystem of Cisco IOS and IOS XE Software contains multiple vulnerabilities that could allow an authenticated, remote attacker to remotely execute code on an affected system or cause an affected system to reload. An attacker could exploit these vulnerabilities by sending a crafted SNMP packet to an affected system via IPv4 or IPv6. Only traffic directed to an affected system can be used to exploit these vulnerabilities.
  The vulnerabilities are due to a buffer overflow condition in the SNMP subsystem of the affected software. The vulnerabilities affect all versions of SNMP - Versions 1, 2c, and 3. To exploit these vulnerabilities via SNMP Version 2c or earlier, the attacker must know the SNMP read-only community string for the affected system. To exploit these vulnerabilities via SNMP Version 3, the attacker must have user credentials for the affected system. A successful exploit could allow the attacker to execute arbitrary code and obtain full control of the affected system or cause the affected system to reload.
@@ -3204,9 +3219,9 @@
 
 - [https://github.com/Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/Badbird3/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Badbird3/CVE-2017-5638.svg)
 
-- [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
-
 - [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
+
+- [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) :  ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
 
 - [https://github.com/smancke/CVE-2017-5638](https://github.com/smancke/CVE-2017-5638) :  ![starts](https://img.shields.io/github/stars/smancke/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/smancke/CVE-2017-5638.svg)
 
