@@ -165,6 +165,13 @@
 
 - [https://github.com/bl4ck5un/cve-2013-4348](https://github.com/bl4ck5un/cve-2013-4348) :  ![starts](https://img.shields.io/github/stars/bl4ck5un/cve-2013-4348.svg) ![forks](https://img.shields.io/github/forks/bl4ck5un/cve-2013-4348.svg)
 
+## CVE-2013-4322
+ Apache Tomcat before 6.0.39, 7.x before 7.0.50, and 8.x before 8.0.0-RC10 processes chunked transfer coding without properly handling (1) a large total amount of chunked data or (2) whitespace characters in an HTTP header value within a trailer field, which allows remote attackers to cause a denial of service by streaming data.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2012-3544.
+
+
+
+- [https://github.com/LiviuPtr/CVE-2013-4322_PoC](https://github.com/LiviuPtr/CVE-2013-4322_PoC) :  ![starts](https://img.shields.io/github/stars/LiviuPtr/CVE-2013-4322_PoC.svg) ![forks](https://img.shields.io/github/forks/LiviuPtr/CVE-2013-4322_PoC.svg)
+
 ## CVE-2013-4175
  MySecureShell 1.31 has a Local Denial of Service Vulnerability
 
@@ -235,9 +242,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 
 
-- [https://github.com/defrancescojp/CVE-2013-3664_MAC](https://github.com/defrancescojp/CVE-2013-3664_MAC) :  ![starts](https://img.shields.io/github/stars/defrancescojp/CVE-2013-3664_MAC.svg) ![forks](https://img.shields.io/github/forks/defrancescojp/CVE-2013-3664_MAC.svg)
-
 - [https://github.com/defrancescojp/CVE-2013-3664_BMP](https://github.com/defrancescojp/CVE-2013-3664_BMP) :  ![starts](https://img.shields.io/github/stars/defrancescojp/CVE-2013-3664_BMP.svg) ![forks](https://img.shields.io/github/forks/defrancescojp/CVE-2013-3664_BMP.svg)
+
+- [https://github.com/defrancescojp/CVE-2013-3664_MAC](https://github.com/defrancescojp/CVE-2013-3664_MAC) :  ![starts](https://img.shields.io/github/stars/defrancescojp/CVE-2013-3664_MAC.svg) ![forks](https://img.shields.io/github/forks/defrancescojp/CVE-2013-3664_MAC.svg)
 
 ## CVE-2013-3660
  The EPATHOBJ::pprFlattenRec function in win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, and Windows Server 2012 does not properly initialize a pointer for the next object in a certain list, which allows local users to obtain write access to the PATHRECORD chain, and consequently gain privileges, by triggering excessive consumption of paged memory and then making many FlattenPath function calls, aka "Win32k Read AV Vulnerability."
