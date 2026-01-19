@@ -762,6 +762,8 @@
 
 - [https://github.com/netw0rk7/CVE-2015-3306-Home-Lab](https://github.com/netw0rk7/CVE-2015-3306-Home-Lab) :  ![starts](https://img.shields.io/github/stars/netw0rk7/CVE-2015-3306-Home-Lab.svg) ![forks](https://img.shields.io/github/forks/netw0rk7/CVE-2015-3306-Home-Lab.svg)
 
+- [https://github.com/canpilayda/proftpd-mod_copy-cve-2015-3306](https://github.com/canpilayda/proftpd-mod_copy-cve-2015-3306) :  ![starts](https://img.shields.io/github/stars/canpilayda/proftpd-mod_copy-cve-2015-3306.svg) ![forks](https://img.shields.io/github/forks/canpilayda/proftpd-mod_copy-cve-2015-3306.svg)
+
 - [https://github.com/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution](https://github.com/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution) :  ![starts](https://img.shields.io/github/stars/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution.svg)
 
 ## CVE-2015-3239
@@ -912,6 +914,8 @@
 - [https://github.com/Tare05/Intel-CVE-2015-2291](https://github.com/Tare05/Intel-CVE-2015-2291) :  ![starts](https://img.shields.io/github/stars/Tare05/Intel-CVE-2015-2291.svg) ![forks](https://img.shields.io/github/forks/Tare05/Intel-CVE-2015-2291.svg)
 
 - [https://github.com/gmh5225/CVE-2015-2291](https://github.com/gmh5225/CVE-2015-2291) :  ![starts](https://img.shields.io/github/stars/gmh5225/CVE-2015-2291.svg) ![forks](https://img.shields.io/github/forks/gmh5225/CVE-2015-2291.svg)
+
+- [https://github.com/paysonism/CVE-2015-2291-Spoofer-Analysis](https://github.com/paysonism/CVE-2015-2291-Spoofer-Analysis) :  ![starts](https://img.shields.io/github/stars/paysonism/CVE-2015-2291-Spoofer-Analysis.svg) ![forks](https://img.shields.io/github/forks/paysonism/CVE-2015-2291-Spoofer-Analysis.svg)
 
 ## CVE-2015-2231
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided.
@@ -1276,9 +1280,9 @@
 
 - [https://github.com/tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235) :  ![starts](https://img.shields.io/github/stars/tobyzxj/CVE-2015-0235.svg) ![forks](https://img.shields.io/github/forks/tobyzxj/CVE-2015-0235.svg)
 
-- [https://github.com/koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc) :  ![starts](https://img.shields.io/github/stars/koudaiii-archives/cookbook-update-glibc.svg) ![forks](https://img.shields.io/github/forks/koudaiii-archives/cookbook-update-glibc.svg)
-
 - [https://github.com/chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235) :  ![starts](https://img.shields.io/github/stars/chayim/GHOSTCHECK-cve-2015-0235.svg) ![forks](https://img.shields.io/github/forks/chayim/GHOSTCHECK-cve-2015-0235.svg)
+
+- [https://github.com/koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc) :  ![starts](https://img.shields.io/github/stars/koudaiii-archives/cookbook-update-glibc.svg) ![forks](https://img.shields.io/github/forks/koudaiii-archives/cookbook-update-glibc.svg)
 
 - [https://github.com/1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester) :  ![starts](https://img.shields.io/github/stars/1and1-serversupport/ghosttester.svg) ![forks](https://img.shields.io/github/forks/1and1-serversupport/ghosttester.svg)
 
