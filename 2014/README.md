@@ -390,17 +390,15 @@
 
 - [https://github.com/moften/CVE-2014-6271](https://github.com/moften/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/moften/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/moften/CVE-2014-6271.svg)
 
-- [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
-
 - [https://github.com/mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2014-6271.svg)
 
 - [https://github.com/rsherstnev/CVE-2014-6271](https://github.com/rsherstnev/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/rsherstnev/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/rsherstnev/CVE-2014-6271.svg)
 
+- [https://github.com/Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Dilith006/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Dilith006/CVE-2014-6271.svg)
+
 - [https://github.com/woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/woltage/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/woltage/CVE-2014-6271.svg)
 
 - [https://github.com/knightc0de/Shellshock_vuln_Exploit](https://github.com/knightc0de/Shellshock_vuln_Exploit) :  ![starts](https://img.shields.io/github/stars/knightc0de/Shellshock_vuln_Exploit.svg) ![forks](https://img.shields.io/github/forks/knightc0de/Shellshock_vuln_Exploit.svg)
-
-- [https://github.com/hackintoanetwork/shellshock](https://github.com/hackintoanetwork/shellshock) :  ![starts](https://img.shields.io/github/stars/hackintoanetwork/shellshock.svg) ![forks](https://img.shields.io/github/forks/hackintoanetwork/shellshock.svg)
 
 - [https://github.com/kowshik-sundararajan/CVE-2014-6271](https://github.com/kowshik-sundararajan/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/kowshik-sundararajan/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kowshik-sundararajan/CVE-2014-6271.svg)
 
@@ -1257,6 +1255,13 @@
 - [https://github.com/y0d3n/CVE-2014-0094](https://github.com/y0d3n/CVE-2014-0094) :  ![starts](https://img.shields.io/github/stars/y0d3n/CVE-2014-0094.svg) ![forks](https://img.shields.io/github/forks/y0d3n/CVE-2014-0094.svg)
 
 - [https://github.com/HasegawaTadamitsu/CVE-2014-0094-test-program-for-struts1](https://github.com/HasegawaTadamitsu/CVE-2014-0094-test-program-for-struts1) :  ![starts](https://img.shields.io/github/stars/HasegawaTadamitsu/CVE-2014-0094-test-program-for-struts1.svg) ![forks](https://img.shields.io/github/forks/HasegawaTadamitsu/CVE-2014-0094-test-program-for-struts1.svg)
+
+## CVE-2014-0075
+ Integer overflow in the parseChunkHeader function in java/org/apache/coyote/http11/filters/ChunkedInputFilter.java in Apache Tomcat before 6.0.40, 7.x before 7.0.53, and 8.x before 8.0.4 allows remote attackers to cause a denial of service (resource consumption) via a malformed chunk size in chunked transfer coding of a request during the streaming of data.
+
+
+
+- [https://github.com/LiviuPtr/CVE-2014-0075_PoC](https://github.com/LiviuPtr/CVE-2014-0075_PoC) :  ![starts](https://img.shields.io/github/stars/LiviuPtr/CVE-2014-0075_PoC.svg) ![forks](https://img.shields.io/github/forks/LiviuPtr/CVE-2014-0075_PoC.svg)
 
 ## CVE-2014-0050
  MultipartStream.java in Apache Commons FileUpload before 1.3.1, as used in Apache Tomcat, JBoss Web, and other products, allows remote attackers to cause a denial of service (infinite loop and CPU consumption) via a crafted Content-Type header that bypasses a loop's intended exit conditions.
