@@ -21,6 +21,13 @@
 
 - [https://github.com/Ashwesker/Ashwesker-CVE-2026-23478](https://github.com/Ashwesker/Ashwesker-CVE-2026-23478) :  ![starts](https://img.shields.io/github/stars/Ashwesker/Ashwesker-CVE-2026-23478.svg) ![forks](https://img.shields.io/github/forks/Ashwesker/Ashwesker-CVE-2026-23478.svg)
 
+## CVE-2026-22862
+ go-ethereum (geth) is a golang execution layer implementation of the Ethereum protocol. A vulnerable node can be forced to shutdown/crash using a specially crafted message. This vulnerability is fixed in 1.16.8.
+
+
+
+- [https://github.com/qzhodl/CVE-2026-22862](https://github.com/qzhodl/CVE-2026-22862) :  ![starts](https://img.shields.io/github/stars/qzhodl/CVE-2026-22862.svg) ![forks](https://img.shields.io/github/forks/qzhodl/CVE-2026-22862.svg)
+
 ## CVE-2026-22812
  OpenCode is an open source AI coding agent. Prior to 1.0.216, OpenCode automatically starts an unauthenticated HTTP server that allows any local process (or any website via permissive CORS) to execute arbitrary shell commands with the user's privileges. This vulnerability is fixed in 1.0.216.
 
@@ -33,6 +40,10 @@
 - [https://github.com/Ashwesker/Ashwesker-CVE-2026-22812](https://github.com/Ashwesker/Ashwesker-CVE-2026-22812) :  ![starts](https://img.shields.io/github/stars/Ashwesker/Ashwesker-CVE-2026-22812.svg) ![forks](https://img.shields.io/github/forks/Ashwesker/Ashwesker-CVE-2026-22812.svg)
 
 - [https://github.com/mad12wader/CVE-2026-22812](https://github.com/mad12wader/CVE-2026-22812) :  ![starts](https://img.shields.io/github/stars/mad12wader/CVE-2026-22812.svg) ![forks](https://img.shields.io/github/forks/mad12wader/CVE-2026-22812.svg)
+
+- [https://github.com/0xgh057r3c0n/CVE-2026-22812](https://github.com/0xgh057r3c0n/CVE-2026-22812) :  ![starts](https://img.shields.io/github/stars/0xgh057r3c0n/CVE-2026-22812.svg) ![forks](https://img.shields.io/github/forks/0xgh057r3c0n/CVE-2026-22812.svg)
+
+- [https://github.com/barrersoftware/opencode-secure](https://github.com/barrersoftware/opencode-secure) :  ![starts](https://img.shields.io/github/stars/barrersoftware/opencode-secure.svg) ![forks](https://img.shields.io/github/forks/barrersoftware/opencode-secure.svg)
 
 ## CVE-2026-22804
  Termix is a web-based server management platform with SSH terminal, tunneling, and file editing capabilities. From 1.7.0 to 1.9.0, Stored Cross-Site Scripting (XSS) vulnerability exists in the Termix File Manager component. The application fails to sanitize SVG file content before rendering it. This allows an attacker who has compromised a managed SSH server to plant a malicious file, which, when previewed by the Termix user, executes arbitrary JavaScript in the context of the application. The vulnerability is located in src/ui/desktop/apps/file-manager/components/FileViewer.tsx. This vulnerability is fixed in 1.10.0.
@@ -91,8 +102,6 @@
 - [https://github.com/Chocapikk/CVE-2026-21858](https://github.com/Chocapikk/CVE-2026-21858) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2026-21858.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2026-21858.svg)
 
 - [https://github.com/Ashwesker/Ashwesker-CVE-2026-21858](https://github.com/Ashwesker/Ashwesker-CVE-2026-21858) :  ![starts](https://img.shields.io/github/stars/Ashwesker/Ashwesker-CVE-2026-21858.svg) ![forks](https://img.shields.io/github/forks/Ashwesker/Ashwesker-CVE-2026-21858.svg)
-
-- [https://github.com/eduardorossi84/CVE-2026-21858-POC](https://github.com/eduardorossi84/CVE-2026-21858-POC) :  ![starts](https://img.shields.io/github/stars/eduardorossi84/CVE-2026-21858-POC.svg) ![forks](https://img.shields.io/github/forks/eduardorossi84/CVE-2026-21858-POC.svg)
 
 - [https://github.com/sastraadiwiguna-purpleeliteteaming/SASTRA-ADI-WIGUNA-CVE-2026-21858-Holistic-Audit](https://github.com/sastraadiwiguna-purpleeliteteaming/SASTRA-ADI-WIGUNA-CVE-2026-21858-Holistic-Audit) :  ![starts](https://img.shields.io/github/stars/sastraadiwiguna-purpleeliteteaming/SASTRA-ADI-WIGUNA-CVE-2026-21858-Holistic-Audit.svg) ![forks](https://img.shields.io/github/forks/sastraadiwiguna-purpleeliteteaming/SASTRA-ADI-WIGUNA-CVE-2026-21858-Holistic-Audit.svg)
 
@@ -157,6 +166,8 @@
 
 
 - [https://github.com/fevar54/CVE-2026-20805-POC](https://github.com/fevar54/CVE-2026-20805-POC) :  ![starts](https://img.shields.io/github/stars/fevar54/CVE-2026-20805-POC.svg) ![forks](https://img.shields.io/github/forks/fevar54/CVE-2026-20805-POC.svg)
+
+- [https://github.com/Uzair-Baig0900/CVE-2026-20805-PoC](https://github.com/Uzair-Baig0900/CVE-2026-20805-PoC) :  ![starts](https://img.shields.io/github/stars/Uzair-Baig0900/CVE-2026-20805-PoC.svg) ![forks](https://img.shields.io/github/forks/Uzair-Baig0900/CVE-2026-20805-PoC.svg)
 
 ## CVE-2026-1107
  A weakness has been identified in EyouCMS up to 1.7.1/5.0. Impacted is the function check_userinfo of the file Diyajax.php of the component Member Avatar Handler. Executing a manipulation of the argument viewfile can lead to unrestricted upload. The attack may be performed from remote. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.
