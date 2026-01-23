@@ -989,8 +989,6 @@
 
 - [https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability) :  ![starts](https://img.shields.io/github/stars/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability.svg)
 
-- [https://github.com/arturomartinvegue/escalada-privilegios-kernel-exploit-dirty-cow](https://github.com/arturomartinvegue/escalada-privilegios-kernel-exploit-dirty-cow) :  ![starts](https://img.shields.io/github/stars/arturomartinvegue/escalada-privilegios-kernel-exploit-dirty-cow.svg) ![forks](https://img.shields.io/github/forks/arturomartinvegue/escalada-privilegios-kernel-exploit-dirty-cow.svg)
-
 - [https://github.com/Samuel-G3/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow](https://github.com/Samuel-G3/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow) :  ![starts](https://img.shields.io/github/stars/Samuel-G3/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow.svg) ![forks](https://img.shields.io/github/forks/Samuel-G3/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow.svg)
 
 ## CVE-2016-5180
