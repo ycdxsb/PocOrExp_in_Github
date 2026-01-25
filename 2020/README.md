@@ -5479,9 +5479,9 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/0xAbdullah/CVE-2020-5902](https://github.com/0xAbdullah/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/0xAbdullah/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/0xAbdullah/CVE-2020-5902.svg)
 
-- [https://github.com/JSec1337/RCE-CVE-2020-5902](https://github.com/JSec1337/RCE-CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/JSec1337/RCE-CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/JSec1337/RCE-CVE-2020-5902.svg)
-
 - [https://github.com/qlkwej/poc-CVE-2020-5902](https://github.com/qlkwej/poc-CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/qlkwej/poc-CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/qlkwej/poc-CVE-2020-5902.svg)
+
+- [https://github.com/JSec1337/RCE-CVE-2020-5902](https://github.com/JSec1337/RCE-CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/JSec1337/RCE-CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/JSec1337/RCE-CVE-2020-5902.svg)
 
 - [https://github.com/Shu1L/CVE-2020-5902-fofa-scan](https://github.com/Shu1L/CVE-2020-5902-fofa-scan) :  ![starts](https://img.shields.io/github/stars/Shu1L/CVE-2020-5902-fofa-scan.svg) ![forks](https://img.shields.io/github/forks/Shu1L/CVE-2020-5902-fofa-scan.svg)
 
@@ -5505,9 +5505,9 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/dnerzker/CVE-2020-5902](https://github.com/dnerzker/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/dnerzker/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/dnerzker/CVE-2020-5902.svg)
 
-- [https://github.com/ajdumanhug/CVE-2020-5902](https://github.com/ajdumanhug/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/ajdumanhug/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/ajdumanhug/CVE-2020-5902.svg)
-
 - [https://github.com/GoodiesHQ/F5-Patch](https://github.com/GoodiesHQ/F5-Patch) :  ![starts](https://img.shields.io/github/stars/GoodiesHQ/F5-Patch.svg) ![forks](https://img.shields.io/github/forks/GoodiesHQ/F5-Patch.svg)
+
+- [https://github.com/ajdumanhug/CVE-2020-5902](https://github.com/ajdumanhug/CVE-2020-5902) :  ![starts](https://img.shields.io/github/stars/ajdumanhug/CVE-2020-5902.svg) ![forks](https://img.shields.io/github/forks/ajdumanhug/CVE-2020-5902.svg)
 
 - [https://github.com/TheCyberViking/CVE-2020-5902-Vuln-Checker](https://github.com/TheCyberViking/CVE-2020-5902-Vuln-Checker) :  ![starts](https://img.shields.io/github/stars/TheCyberViking/CVE-2020-5902-Vuln-Checker.svg) ![forks](https://img.shields.io/github/forks/TheCyberViking/CVE-2020-5902-Vuln-Checker.svg)
 
@@ -6312,9 +6312,9 @@ The issue has been fixed in dropwizard-validation 1.3.19 and 2.0.2.
 
 - [https://github.com/I-Runtime-Error/CVE-2020-1938](https://github.com/I-Runtime-Error/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/I-Runtime-Error/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/I-Runtime-Error/CVE-2020-1938.svg)
 
-- [https://github.com/haerin7427/CVE_2020_1938](https://github.com/haerin7427/CVE_2020_1938) :  ![starts](https://img.shields.io/github/stars/haerin7427/CVE_2020_1938.svg) ![forks](https://img.shields.io/github/forks/haerin7427/CVE_2020_1938.svg)
-
 - [https://github.com/RedTeam-Rediron/CVE-2020-1938](https://github.com/RedTeam-Rediron/CVE-2020-1938) :  ![starts](https://img.shields.io/github/stars/RedTeam-Rediron/CVE-2020-1938.svg) ![forks](https://img.shields.io/github/forks/RedTeam-Rediron/CVE-2020-1938.svg)
+
+- [https://github.com/haerin7427/CVE_2020_1938](https://github.com/haerin7427/CVE_2020_1938) :  ![starts](https://img.shields.io/github/stars/haerin7427/CVE_2020_1938.svg) ![forks](https://img.shields.io/github/forks/haerin7427/CVE_2020_1938.svg)
 
 - [https://github.com/hopsypopsy8/CVE-2020-1938-Exploitation](https://github.com/hopsypopsy8/CVE-2020-1938-Exploitation) :  ![starts](https://img.shields.io/github/stars/hopsypopsy8/CVE-2020-1938-Exploitation.svg) ![forks](https://img.shields.io/github/forks/hopsypopsy8/CVE-2020-1938-Exploitation.svg)
 
@@ -6961,9 +6961,9 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 - [https://github.com/Opensitoo/cve-2020-0796](https://github.com/Opensitoo/cve-2020-0796) :  ![starts](https://img.shields.io/github/stars/Opensitoo/cve-2020-0796.svg) ![forks](https://img.shields.io/github/forks/Opensitoo/cve-2020-0796.svg)
 
-- [https://github.com/maqeel-git/CVE-2020-0796](https://github.com/maqeel-git/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/maqeel-git/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/maqeel-git/CVE-2020-0796.svg)
-
 - [https://github.com/kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/kn6869610/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/kn6869610/CVE-2020-0796.svg)
+
+- [https://github.com/maqeel-git/CVE-2020-0796](https://github.com/maqeel-git/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/maqeel-git/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/maqeel-git/CVE-2020-0796.svg)
 
 - [https://github.com/TweatherQ/CVE-2020-0796](https://github.com/TweatherQ/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/TweatherQ/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/TweatherQ/CVE-2020-0796.svg)
 
