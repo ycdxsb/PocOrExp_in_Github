@@ -555,3 +555,10 @@ Exploitation of this vulnerability requires that a user or application run or in
 - [https://github.com/mitaku/rails_cve_2013_0156_patch](https://github.com/mitaku/rails_cve_2013_0156_patch) :  ![starts](https://img.shields.io/github/stars/mitaku/rails_cve_2013_0156_patch.svg) ![forks](https://img.shields.io/github/forks/mitaku/rails_cve_2013_0156_patch.svg)
 
 - [https://github.com/josal/crack-0.1.8-fixed](https://github.com/josal/crack-0.1.8-fixed) :  ![starts](https://img.shields.io/github/stars/josal/crack-0.1.8-fixed.svg) ![forks](https://img.shields.io/github/forks/josal/crack-0.1.8-fixed.svg)
+
+## CVE-2013-0007
+ Microsoft XML Core Services (aka MSXML) 4.0, 5.0, and 6.0 does not properly parse XML content, which allows remote attackers to execute arbitrary code via a crafted web page, aka "MSXML XSLT Vulnerability."
+
+
+
+- [https://github.com/jyyjw/msxml4-remediation](https://github.com/jyyjw/msxml4-remediation) :  ![starts](https://img.shields.io/github/stars/jyyjw/msxml4-remediation.svg) ![forks](https://img.shields.io/github/forks/jyyjw/msxml4-remediation.svg)
