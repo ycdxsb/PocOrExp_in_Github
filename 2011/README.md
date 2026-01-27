@@ -74,9 +74,9 @@
 
 - [https://github.com/tkisason/KillApachePy](https://github.com/tkisason/KillApachePy) :  ![starts](https://img.shields.io/github/stars/tkisason/KillApachePy.svg) ![forks](https://img.shields.io/github/forks/tkisason/KillApachePy.svg)
 
-- [https://github.com/stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192) :  ![starts](https://img.shields.io/github/stars/stcmjp/cve-2011-3192.svg) ![forks](https://img.shields.io/github/forks/stcmjp/cve-2011-3192.svg)
-
 - [https://github.com/futurezayka/CVE-2011-3192](https://github.com/futurezayka/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/futurezayka/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/futurezayka/CVE-2011-3192.svg)
+
+- [https://github.com/stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192) :  ![starts](https://img.shields.io/github/stars/stcmjp/cve-2011-3192.svg) ![forks](https://img.shields.io/github/forks/stcmjp/cve-2011-3192.svg)
 
 - [https://github.com/Xinjis/Apache_ByteRange_DoS_cve_2011_3192](https://github.com/Xinjis/Apache_ByteRange_DoS_cve_2011_3192) :  ![starts](https://img.shields.io/github/stars/Xinjis/Apache_ByteRange_DoS_cve_2011_3192.svg) ![forks](https://img.shields.io/github/forks/Xinjis/Apache_ByteRange_DoS_cve_2011_3192.svg)
 
@@ -171,6 +171,8 @@
 - [https://github.com/Mirza-22144/Vulnerability-Assessment-Exploitation-Lab](https://github.com/Mirza-22144/Vulnerability-Assessment-Exploitation-Lab) :  ![starts](https://img.shields.io/github/stars/Mirza-22144/Vulnerability-Assessment-Exploitation-Lab.svg) ![forks](https://img.shields.io/github/forks/Mirza-22144/Vulnerability-Assessment-Exploitation-Lab.svg)
 
 - [https://github.com/seerat-fatima21/vsftpd-exploit](https://github.com/seerat-fatima21/vsftpd-exploit) :  ![starts](https://img.shields.io/github/stars/seerat-fatima21/vsftpd-exploit.svg) ![forks](https://img.shields.io/github/forks/seerat-fatima21/vsftpd-exploit.svg)
+
+- [https://github.com/tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution](https://github.com/tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution) :  ![starts](https://img.shields.io/github/stars/tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution.svg)
 
 - [https://github.com/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1](https://github.com/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1) :  ![starts](https://img.shields.io/github/stars/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1.svg) ![forks](https://img.shields.io/github/forks/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1.svg)
 
