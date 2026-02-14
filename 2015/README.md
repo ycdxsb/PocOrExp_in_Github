@@ -758,9 +758,9 @@
 
 - [https://github.com/Z3R0-0x30/CVE-2015-3306](https://github.com/Z3R0-0x30/CVE-2015-3306) :  ![starts](https://img.shields.io/github/stars/Z3R0-0x30/CVE-2015-3306.svg) ![forks](https://img.shields.io/github/forks/Z3R0-0x30/CVE-2015-3306.svg)
 
-- [https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit](https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit) :  ![starts](https://img.shields.io/github/stars/cdedmondson/Modified-CVE-2015-3306-Exploit.svg) ![forks](https://img.shields.io/github/forks/cdedmondson/Modified-CVE-2015-3306-Exploit.svg)
-
 - [https://github.com/netw0rk7/CVE-2015-3306-Home-Lab](https://github.com/netw0rk7/CVE-2015-3306-Home-Lab) :  ![starts](https://img.shields.io/github/stars/netw0rk7/CVE-2015-3306-Home-Lab.svg) ![forks](https://img.shields.io/github/forks/netw0rk7/CVE-2015-3306-Home-Lab.svg)
+
+- [https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit](https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit) :  ![starts](https://img.shields.io/github/stars/cdedmondson/Modified-CVE-2015-3306-Exploit.svg) ![forks](https://img.shields.io/github/forks/cdedmondson/Modified-CVE-2015-3306-Exploit.svg)
 
 - [https://github.com/canpilayda/proftpd-mod_copy-cve-2015-3306](https://github.com/canpilayda/proftpd-mod_copy-cve-2015-3306) :  ![starts](https://img.shields.io/github/stars/canpilayda/proftpd-mod_copy-cve-2015-3306.svg) ![forks](https://img.shields.io/github/forks/canpilayda/proftpd-mod_copy-cve-2015-3306.svg)
 
@@ -1040,8 +1040,6 @@
 
 
 
-- [https://github.com/xPaw/HTTPsys](https://github.com/xPaw/HTTPsys) :  ![starts](https://img.shields.io/github/stars/xPaw/HTTPsys.svg) ![forks](https://img.shields.io/github/forks/xPaw/HTTPsys.svg)
-
 - [https://github.com/technion/erlvulnscan](https://github.com/technion/erlvulnscan) :  ![starts](https://img.shields.io/github/stars/technion/erlvulnscan.svg) ![forks](https://img.shields.io/github/forks/technion/erlvulnscan.svg)
 
 - [https://github.com/aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC) :  ![starts](https://img.shields.io/github/stars/aedoo/CVE-2015-1635-POC.svg) ![forks](https://img.shields.io/github/forks/aedoo/CVE-2015-1635-POC.svg)
@@ -1063,6 +1061,8 @@
 - [https://github.com/h3x0v3rl0rd/CVE-2015-1635](https://github.com/h3x0v3rl0rd/CVE-2015-1635) :  ![starts](https://img.shields.io/github/stars/h3x0v3rl0rd/CVE-2015-1635.svg) ![forks](https://img.shields.io/github/forks/h3x0v3rl0rd/CVE-2015-1635.svg)
 
 - [https://github.com/moeinmiadi/CVE-2015-1635_PoC](https://github.com/moeinmiadi/CVE-2015-1635_PoC) :  ![starts](https://img.shields.io/github/stars/moeinmiadi/CVE-2015-1635_PoC.svg) ![forks](https://img.shields.io/github/forks/moeinmiadi/CVE-2015-1635_PoC.svg)
+
+- [https://github.com/hedgecore/HTTPsys](https://github.com/hedgecore/HTTPsys) :  ![starts](https://img.shields.io/github/stars/hedgecore/HTTPsys.svg) ![forks](https://img.shields.io/github/forks/hedgecore/HTTPsys.svg)
 
 - [https://github.com/SkinAir/ms15-034-Scan](https://github.com/SkinAir/ms15-034-Scan) :  ![starts](https://img.shields.io/github/stars/SkinAir/ms15-034-Scan.svg) ![forks](https://img.shields.io/github/forks/SkinAir/ms15-034-Scan.svg)
 
@@ -1183,11 +1183,11 @@
 
 - [https://github.com/elit3pwner/CVE-2015-1328-GoldenEye](https://github.com/elit3pwner/CVE-2015-1328-GoldenEye) :  ![starts](https://img.shields.io/github/stars/elit3pwner/CVE-2015-1328-GoldenEye.svg) ![forks](https://img.shields.io/github/forks/elit3pwner/CVE-2015-1328-GoldenEye.svg)
 
-- [https://github.com/0xf1d0/CVE-2015-1328](https://github.com/0xf1d0/CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/0xf1d0/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/0xf1d0/CVE-2015-1328.svg)
-
 - [https://github.com/notlikethis/CVE-2015-1328](https://github.com/notlikethis/CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/notlikethis/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/notlikethis/CVE-2015-1328.svg)
 
 - [https://github.com/YastrebX/CVE-2015-1328](https://github.com/YastrebX/CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/YastrebX/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/YastrebX/CVE-2015-1328.svg)
+
+- [https://github.com/0xf1d0/CVE-2015-1328](https://github.com/0xf1d0/CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/0xf1d0/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/0xf1d0/CVE-2015-1328.svg)
 
 - [https://github.com/BlackFrog-hub/cve-2015-1328](https://github.com/BlackFrog-hub/cve-2015-1328) :  ![starts](https://img.shields.io/github/stars/BlackFrog-hub/cve-2015-1328.svg) ![forks](https://img.shields.io/github/forks/BlackFrog-hub/cve-2015-1328.svg)
 
