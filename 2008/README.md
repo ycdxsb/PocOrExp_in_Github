@@ -140,6 +140,13 @@
 
 - [https://github.com/hackingyseguridad/dnspoison](https://github.com/hackingyseguridad/dnspoison) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/dnspoison.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/dnspoison.svg)
 
+## CVE-2008-0600
+ The vmsplice_to_pipe function in Linux kernel 2.6.17 through 2.6.24.1 does not validate a certain userspace pointer before dereference, which allows local users to gain root privileges via crafted arguments in a vmsplice system call, a different vulnerability than CVE-2008-0009 and CVE-2008-0010.
+
+
+
+- [https://github.com/hackingyseguridad/root](https://github.com/hackingyseguridad/root) :  ![starts](https://img.shields.io/github/stars/hackingyseguridad/root.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/root.svg)
+
 ## CVE-2008-0244
  SAP MaxDB 7.6.03 build 007 and earlier allows remote attackers to execute arbitrary commands via "&&" and other shell metacharacters in exec_sdbinfo and other unspecified commands, which are executed when MaxDB invokes cons.exe.
 
