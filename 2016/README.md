@@ -7,6 +7,13 @@
 
 - [https://github.com/ossf-cve-benchmark/CVE-2016-1000229](https://github.com/ossf-cve-benchmark/CVE-2016-1000229) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2016-1000229.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2016-1000229.svg)
 
+## CVE-2016-1000031
+ Apache Commons FileUpload before 1.3.3 DiskFileItem File Manipulation Remote Code Execution
+
+
+
+- [https://github.com/andikahilmy/CVE-2016-1000031-commons-fileupload-vulnerable](https://github.com/andikahilmy/CVE-2016-1000031-commons-fileupload-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2016-1000031-commons-fileupload-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2016-1000031-commons-fileupload-vulnerable.svg)
+
 ## CVE-2016-1000027
  Pivotal Spring Framework through 5.3.16 suffers from a potential remote code execution (RCE) issue if used for Java deserialization of untrusted data. Depending on how the library is implemented within a product, this issue may or not occur, and authentication may be required. NOTE: the vendor's position is that untrusted data is not an intended use case. The product's behavior will not be changed because some users rely on deserialization of trusted data.
 
@@ -281,6 +288,20 @@
 
 - [https://github.com/blogresponder/CA-Common-Services-privilege-escalation-cve-2016-9795-revisited](https://github.com/blogresponder/CA-Common-Services-privilege-escalation-cve-2016-9795-revisited) :  ![starts](https://img.shields.io/github/stars/blogresponder/CA-Common-Services-privilege-escalation-cve-2016-9795-revisited.svg) ![forks](https://img.shields.io/github/forks/blogresponder/CA-Common-Services-privilege-escalation-cve-2016-9795-revisited.svg)
 
+## CVE-2016-9606
+ JBoss RESTEasy before version 3.1.2 could be forced into parsing a request with YamlProvider, resulting in unmarshalling of potentially untrusted data which could allow an attacker to execute arbitrary code with RESTEasy application permissions.
+
+
+
+- [https://github.com/andikahilmy/CVE-2016-9606-Resteasy-vulnerable](https://github.com/andikahilmy/CVE-2016-9606-Resteasy-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2016-9606-Resteasy-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2016-9606-Resteasy-vulnerable.svg)
+
+## CVE-2016-9589
+ Undertow in Red Hat wildfly before version 11.0.0.Beta1 is vulnerable to a resource exhaustion resulting in a denial of service. Undertow keeps a cache of seen HTTP headers in persistent connections. It was found that this cache can easily exploited to fill memory with garbage, up to "max-headers" (default 200) * "max-header-size" (default 1MB) per active TCP connection.
+
+
+
+- [https://github.com/andikahilmy/CVE-2016-9589-undertow-vulnerable](https://github.com/andikahilmy/CVE-2016-9589-undertow-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2016-9589-undertow-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2016-9589-undertow-vulnerable.svg)
+
 ## CVE-2016-9299
  The remoting module in Jenkins before 2.32 and LTS before 2.19.3 allows remote attackers to execute arbitrary code via a crafted serialized Java object, which triggers an LDAP query to a third-party server.
 
@@ -308,6 +329,8 @@
  Directory traversal vulnerability in Spark 2.5 allows remote attackers to read arbitrary files via a .. (dot dot) in the URI.
 
 
+
+- [https://github.com/andikahilmy/CVE-2016-9177-perwendel-spark-vulnerable](https://github.com/andikahilmy/CVE-2016-9177-perwendel-spark-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2016-9177-perwendel-spark-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2016-9177-perwendel-spark-vulnerable.svg)
 
 - [https://github.com/shoucheng3/perwendel__spark_CVE-2016-9177_2-5-1](https://github.com/shoucheng3/perwendel__spark_CVE-2016-9177_2-5-1) :  ![starts](https://img.shields.io/github/stars/shoucheng3/perwendel__spark_CVE-2016-9177_2-5-1.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/perwendel__spark_CVE-2016-9177_2-5-1.svg)
 
@@ -380,6 +403,20 @@
 
 
 - [https://github.com/akzedevops/CVE-2016-8776](https://github.com/akzedevops/CVE-2016-8776) :  ![starts](https://img.shields.io/github/stars/akzedevops/CVE-2016-8776.svg) ![forks](https://img.shields.io/github/forks/akzedevops/CVE-2016-8776.svg)
+
+## CVE-2016-8744
+ Apache Brooklyn uses the SnakeYAML library for parsing YAML inputs. SnakeYAML allows the use of YAML tags to indicate that SnakeYAML should unmarshal data to a Java type. In the default configuration in Brooklyn before 0.10.0, SnakeYAML will allow unmarshalling to any Java type available on the classpath. This could provide an authenticated user with a means to cause the JVM running Brooklyn to load and run Java code without detection by Brooklyn. Such code would have the privileges of the Java process running Brooklyn, including the ability to open files and network connections, and execute system commands. There is known to be a proof-of-concept exploit using this vulnerability.
+
+
+
+- [https://github.com/andikahilmy/CVE-2016-8744-brooklyn-server-vulnerable](https://github.com/andikahilmy/CVE-2016-8744-brooklyn-server-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2016-8744-brooklyn-server-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2016-8744-brooklyn-server-vulnerable.svg)
+
+## CVE-2016-8741
+ The Apache Qpid Broker for Java can be configured to use different so called AuthenticationProviders to handle user authentication. Among the choices are the SCRAM-SHA-1 and SCRAM-SHA-256 AuthenticationProvider types. It was discovered that these AuthenticationProviders in Apache Qpid Broker for Java 6.0.x before 6.0.6 and 6.1.x before 6.1.1 prematurely terminate the SCRAM SASL negotiation if the provided user name does not exist thus allowing remote attacker to determine the existence of user accounts. The Vulnerability does not apply to AuthenticationProviders other than SCRAM-SHA-1 and SCRAM-SHA-256.
+
+
+
+- [https://github.com/andikahilmy/CVE-2016-8741-qpid-broker-j-vulnerable](https://github.com/andikahilmy/CVE-2016-8741-qpid-broker-j-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2016-8741-qpid-broker-j-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2016-8741-qpid-broker-j-vulnerable.svg)
 
 ## CVE-2016-8740
  The mod_http2 module in the Apache HTTP Server 2.4.17 through 2.4.23, when the Protocols configuration includes h2 or h2c, does not restrict request-header length, which allows remote attackers to cause a denial of service (memory consumption) via crafted CONTINUATION frames in an HTTP/2 request.
@@ -615,6 +652,13 @@
 
 - [https://github.com/KosukeShimofuji/CVE-2016-7117](https://github.com/KosukeShimofuji/CVE-2016-7117) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-7117.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-7117.svg)
 
+## CVE-2016-7051
+ XmlMapper in the Jackson XML dataformat component (aka jackson-dataformat-xml) before 2.7.8 and 2.8.x before 2.8.4 allows remote attackers to conduct server-side request forgery (SSRF) attacks via vectors related to a DTD.
+
+
+
+- [https://github.com/andikahilmy/CVE-2016-7051-jackson-dataformat-xml-vulnerable](https://github.com/andikahilmy/CVE-2016-7051-jackson-dataformat-xml-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2016-7051-jackson-dataformat-xml-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2016-7051-jackson-dataformat-xml-vulnerable.svg)
+
 ## CVE-2016-6914
  Ubiquiti UniFi Video before 3.8.0 for Windows uses weak permissions for the installation directory, which allows local users to gain SYSTEM privileges via a Trojan horse taskkill.exe file.
 
@@ -629,12 +673,28 @@
 
 - [https://github.com/shoucheng3/asf__cxf_CVE-2016-6812_3-0-11](https://github.com/shoucheng3/asf__cxf_CVE-2016-6812_3-0-11) :  ![starts](https://img.shields.io/github/stars/shoucheng3/asf__cxf_CVE-2016-6812_3-0-11.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/asf__cxf_CVE-2016-6812_3-0-11.svg)
 
+## CVE-2016-6809
+ Apache Tika before 1.14 allows Java code execution for serialized objects embedded in MATLAB files. The issue exists because Tika invokes JMatIO to do native deserialization.
+
+
+
+- [https://github.com/andikahilmy/CVE-2016-6809-tika-vulnerable](https://github.com/andikahilmy/CVE-2016-6809-tika-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2016-6809-tika-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2016-6809-tika-vulnerable.svg)
+
+## CVE-2016-6802
+ Apache Shiro before 1.3.2 allows attackers to bypass intended servlet filters and gain access by leveraging use of a non-root servlet context path.
+
+
+
+- [https://github.com/andikahilmy/CVE-2016-6802-shiro-vulnerable](https://github.com/andikahilmy/CVE-2016-6802-shiro-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2016-6802-shiro-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2016-6802-shiro-vulnerable.svg)
+
 ## CVE-2016-6801
  Cross-site request forgery (CSRF) vulnerability in the CSRF content-type check in Jackrabbit-Webdav in Apache Jackrabbit 2.4.x before 2.4.6, 2.6.x before 2.6.6, 2.8.x before 2.8.3, 2.10.x before 2.10.4, 2.12.x before 2.12.4, and 2.13.x before 2.13.3 allows remote attackers to hijack the authentication of unspecified victims for requests that create a resource via an HTTP POST request with a (1) missing or (2) crafted Content-Type header.
 
 
 
 - [https://github.com/TSNGL21/CVE-2016-6801](https://github.com/TSNGL21/CVE-2016-6801) :  ![starts](https://img.shields.io/github/stars/TSNGL21/CVE-2016-6801.svg) ![forks](https://img.shields.io/github/forks/TSNGL21/CVE-2016-6801.svg)
+
+- [https://github.com/andikahilmy/CVE-2016-6801-jackrabbit-vulnerable](https://github.com/andikahilmy/CVE-2016-6801-jackrabbit-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2016-6801-jackrabbit-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2016-6801-jackrabbit-vulnerable.svg)
 
 ## CVE-2016-6798
  In the XSS Protection API module before 1.0.12 in Apache Sling, the method XSS.getValidXML() uses an insecure SAX parser to validate the input string, which allows for XXE attacks in all scripts which use this method to validate user input, potentially allowing an attacker to read sensitive data on the filesystem, perform same-site-request-forgery (SSRF), port-scanning behind the firewall or DoS the application.
@@ -1049,6 +1109,13 @@
 
 - [https://github.com/N0b1e6/CVE-2016-4977-POC](https://github.com/N0b1e6/CVE-2016-4977-POC) :  ![starts](https://img.shields.io/github/stars/N0b1e6/CVE-2016-4977-POC.svg) ![forks](https://img.shields.io/github/forks/N0b1e6/CVE-2016-4977-POC.svg)
 
+## CVE-2016-4974
+ Apache Qpid AMQP 0-x JMS client before 6.0.4 and JMS (AMQP 1.0) before 0.10.0 does not restrict the use of classes available on the classpath, which might allow remote authenticated users with permission to send messages to deserialize arbitrary objects and execute arbitrary code by leveraging a crafted serialized object in a JMS ObjectMessage that is handled by the getObject function.
+
+
+
+- [https://github.com/andikahilmy/CVE-2016-4974-qpid-broker-j-vulnerable](https://github.com/andikahilmy/CVE-2016-4974-qpid-broker-j-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2016-4974-qpid-broker-j-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2016-4974-qpid-broker-j-vulnerable.svg)
+
 ## CVE-2016-4971
  GNU wget before 1.18 allows remote servers to write to arbitrary files by redirecting a request from HTTP to a crafted FTP resource.
 
@@ -1149,6 +1216,13 @@
 
 
 - [https://github.com/shanika04/cloudfoundry_uaa](https://github.com/shanika04/cloudfoundry_uaa) :  ![starts](https://img.shields.io/github/stars/shanika04/cloudfoundry_uaa.svg) ![forks](https://img.shields.io/github/forks/shanika04/cloudfoundry_uaa.svg)
+
+## CVE-2016-4464
+ The application plugins in Apache CXF Fediz 1.2.x before 1.2.3 and 1.3.x before 1.3.1 do not match SAML AudienceRestriction values against configured audience URIs, which might allow remote attackers to have bypass intended restrictions and have unspecified other impact via a crafted SAML token with a trusted signature.
+
+
+
+- [https://github.com/andikahilmy/CVE-2016-4464-cxf-fediz-vulnerable](https://github.com/andikahilmy/CVE-2016-4464-cxf-fediz-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2016-4464-cxf-fediz-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2016-4464-cxf-fediz-vulnerable.svg)
 
 ## CVE-2016-4463
  Stack-based buffer overflow in Apache Xerces-C++ before 3.1.4 allows context-dependent attackers to cause a denial of service via a deeply nested DTD.
@@ -1361,6 +1435,13 @@
 
 
 - [https://github.com/0xEmanuel/CVE-2016-3113](https://github.com/0xEmanuel/CVE-2016-3113) :  ![starts](https://img.shields.io/github/stars/0xEmanuel/CVE-2016-3113.svg) ![forks](https://img.shields.io/github/forks/0xEmanuel/CVE-2016-3113.svg)
+
+## CVE-2016-3092
+ The MultipartStream class in Apache Commons Fileupload before 1.3.2, as used in Apache Tomcat 7.x before 7.0.70, 8.x before 8.0.36, 8.5.x before 8.5.3, and 9.x before 9.0.0.M7 and other products, allows remote attackers to cause a denial of service (CPU consumption) via a long boundary string.
+
+
+
+- [https://github.com/andikahilmy/CVE-2016-3092-commons-fileupload-vulnerable](https://github.com/andikahilmy/CVE-2016-3092-commons-fileupload-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2016-3092-commons-fileupload-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2016-3092-commons-fileupload-vulnerable.svg)
 
 ## CVE-2016-3088
  The Fileserver web application in Apache ActiveMQ 5.x before 5.14.0 allows remote attackers to upload and execute arbitrary files via an HTTP PUT followed by an HTTP MOVE request.
@@ -1815,9 +1896,9 @@
 
 - [https://github.com/kennetham/cve_2016_0728](https://github.com/kennetham/cve_2016_0728) :  ![starts](https://img.shields.io/github/stars/kennetham/cve_2016_0728.svg) ![forks](https://img.shields.io/github/forks/kennetham/cve_2016_0728.svg)
 
-- [https://github.com/idl3r/cve-2016-0728](https://github.com/idl3r/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/idl3r/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/idl3r/cve-2016-0728.svg)
-
 - [https://github.com/mfer/cve_2016_0728](https://github.com/mfer/cve_2016_0728) :  ![starts](https://img.shields.io/github/stars/mfer/cve_2016_0728.svg) ![forks](https://img.shields.io/github/forks/mfer/cve_2016_0728.svg)
+
+- [https://github.com/idl3r/cve-2016-0728](https://github.com/idl3r/cve-2016-0728) :  ![starts](https://img.shields.io/github/stars/idl3r/cve-2016-0728.svg) ![forks](https://img.shields.io/github/forks/idl3r/cve-2016-0728.svg)
 
 - [https://github.com/sugarvillela/CVE](https://github.com/sugarvillela/CVE) :  ![starts](https://img.shields.io/github/stars/sugarvillela/CVE.svg) ![forks](https://img.shields.io/github/forks/sugarvillela/CVE.svg)
 
