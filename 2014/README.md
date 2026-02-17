@@ -204,6 +204,8 @@
 
 
 
+- [https://github.com/andikahilmy/CVE-2014-7816-undertow-vulnerable](https://github.com/andikahilmy/CVE-2014-7816-undertow-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2014-7816-undertow-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2014-7816-undertow-vulnerable.svg)
+
 - [https://github.com/shoucheng3/undertow-io__undertow_CVE-2014-7816_1-0-16-Final](https://github.com/shoucheng3/undertow-io__undertow_CVE-2014-7816_1-0-16-Final) :  ![starts](https://img.shields.io/github/stars/shoucheng3/undertow-io__undertow_CVE-2014-7816_1-0-16-Final.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/undertow-io__undertow_CVE-2014-7816_1-0-16-Final.svg)
 
 ## CVE-2014-7236
@@ -290,9 +292,9 @@
 
 - [https://github.com/10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2014-6287.svg)
 
-- [https://github.com/nika0x38/CVE-2014-6287](https://github.com/nika0x38/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/nika0x38/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/nika0x38/CVE-2014-6287.svg)
-
 - [https://github.com/jagg3rsec/CVE-2014-6287](https://github.com/jagg3rsec/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/jagg3rsec/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/jagg3rsec/CVE-2014-6287.svg)
+
+- [https://github.com/nika0x38/CVE-2014-6287](https://github.com/nika0x38/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/nika0x38/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/nika0x38/CVE-2014-6287.svg)
 
 - [https://github.com/Z3R0-0x30/CVE-2014-6287](https://github.com/Z3R0-0x30/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/Z3R0-0x30/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/Z3R0-0x30/CVE-2014-6287.svg)
 
@@ -433,6 +435,8 @@
 
 - [https://github.com/YunchoHang/CVE-2014-6271-SHELLSHOCK](https://github.com/YunchoHang/CVE-2014-6271-SHELLSHOCK) :  ![starts](https://img.shields.io/github/stars/YunchoHang/CVE-2014-6271-SHELLSHOCK.svg) ![forks](https://img.shields.io/github/forks/YunchoHang/CVE-2014-6271-SHELLSHOCK.svg)
 
+- [https://github.com/andres101c/Shellshock-CVE-2014-6271](https://github.com/andres101c/Shellshock-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/andres101c/Shellshock-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/andres101c/Shellshock-CVE-2014-6271.svg)
+
 - [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) :  ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
 
 - [https://github.com/jblaine/cookbook-bash-CVE-2014-6271](https://github.com/jblaine/cookbook-bash-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/jblaine/cookbook-bash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/jblaine/cookbook-bash-CVE-2014-6271.svg)
@@ -467,9 +471,9 @@
 
 - [https://github.com/teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit) :  ![starts](https://img.shields.io/github/stars/teedeedubya/bash-fix-exploit.svg) ![forks](https://img.shields.io/github/forks/teedeedubya/bash-fix-exploit.svg)
 
-- [https://github.com/justzx2011/bash-up](https://github.com/justzx2011/bash-up) :  ![starts](https://img.shields.io/github/stars/justzx2011/bash-up.svg) ![forks](https://img.shields.io/github/forks/justzx2011/bash-up.svg)
-
 - [https://github.com/ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock) :  ![starts](https://img.shields.io/github/stars/ariarijp/vagrant-shellshock.svg) ![forks](https://img.shields.io/github/forks/ariarijp/vagrant-shellshock.svg)
+
+- [https://github.com/justzx2011/bash-up](https://github.com/justzx2011/bash-up) :  ![starts](https://img.shields.io/github/stars/justzx2011/bash-up.svg) ![forks](https://img.shields.io/github/forks/justzx2011/bash-up.svg)
 
 - [https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271](https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/internero/debian-lenny-bash_3.2.52-cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/internero/debian-lenny-bash_3.2.52-cve-2014-6271.svg)
 
@@ -711,6 +715,13 @@
 
 - [https://github.com/shoucheng3/keycloak__keycloak_CVE-2014-3656_1-0-5-Final](https://github.com/shoucheng3/keycloak__keycloak_CVE-2014-3656_1-0-5-Final) :  ![starts](https://img.shields.io/github/stars/shoucheng3/keycloak__keycloak_CVE-2014-3656_1-0-5-Final.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/keycloak__keycloak_CVE-2014-3656_1-0-5-Final.svg)
 
+## CVE-2014-3651
+ JBoss KeyCloak before 1.0.3.Final allows remote attackers to cause a denial of service (resource consumption) via a large value in the size parameter to auth/qrcode, related to QR code generation.
+
+
+
+- [https://github.com/andikahilmy/CVE-2014-3651-keycloak-vulnerable](https://github.com/andikahilmy/CVE-2014-3651-keycloak-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2014-3651-keycloak-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2014-3651-keycloak-vulnerable.svg)
+
 ## CVE-2014-3625
  Directory traversal vulnerability in Pivotal Spring Framework 3.0.4 through 3.2.x before 3.2.12, 4.0.x before 4.0.8, and 4.1.x before 4.1.2 allows remote attackers to read arbitrary files via unspecified vectors, related to static resource handling.
 
@@ -777,6 +788,13 @@
 
 
 - [https://github.com/Satheesh575555/openSSL_1.0.1g_CVE-2014-3507](https://github.com/Satheesh575555/openSSL_1.0.1g_CVE-2014-3507) :  ![starts](https://img.shields.io/github/stars/Satheesh575555/openSSL_1.0.1g_CVE-2014-3507.svg) ![forks](https://img.shields.io/github/forks/Satheesh575555/openSSL_1.0.1g_CVE-2014-3507.svg)
+
+## CVE-2014-3488
+ The SslHandler in Netty before 3.9.2 allows remote attackers to cause a denial of service (infinite loop and CPU consumption) via a crafted SSLv2Hello message.
+
+
+
+- [https://github.com/andikahilmy/CVE-2014-3488-netty-vulnerable](https://github.com/andikahilmy/CVE-2014-3488-netty-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2014-3488-netty-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2014-3488-netty-vulnerable.svg)
 
 ## CVE-2014-3466
  Buffer overflow in the read_server_hello function in lib/gnutls_handshake.c in GnuTLS before 3.1.25, 3.2.x before 3.2.15, and 3.3.x before 3.3.4 allows remote servers to cause a denial of service (memory corruption) or possibly execute arbitrary code via a long session id in a ServerHello message.
@@ -1284,6 +1302,8 @@
 
 
 - [https://github.com/jrrdev/cve-2014-0050](https://github.com/jrrdev/cve-2014-0050) :  ![starts](https://img.shields.io/github/stars/jrrdev/cve-2014-0050.svg) ![forks](https://img.shields.io/github/forks/jrrdev/cve-2014-0050.svg)
+
+- [https://github.com/andikahilmy/CVE-2014-0050-commons-fileupload-vulnerable](https://github.com/andikahilmy/CVE-2014-0050-commons-fileupload-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2014-0050-commons-fileupload-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2014-0050-commons-fileupload-vulnerable.svg)
 
 ## CVE-2014-0043
  In Apache Wicket 1.5.10 or 6.13.0, by issuing requests to special urls handled by Wicket, it is possible to check for the existence of particular classes in the classpath and thus check whether a third party library with a known security vulnerability is in use.
