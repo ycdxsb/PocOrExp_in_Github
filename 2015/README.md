@@ -311,6 +311,8 @@
 
 - [https://github.com/epicosy/VUL4J-59](https://github.com/epicosy/VUL4J-59) :  ![starts](https://img.shields.io/github/stars/epicosy/VUL4J-59.svg) ![forks](https://img.shields.io/github/forks/epicosy/VUL4J-59.svg)
 
+- [https://github.com/andikahilmy/CVE-2015-6748-jsoup-vulnerable](https://github.com/andikahilmy/CVE-2015-6748-jsoup-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2015-6748-jsoup-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2015-6748-jsoup-vulnerable.svg)
+
 ## CVE-2015-6668
  The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary CV files via a brute force attack to the WordPress upload directory structure, related to an insecure direct object reference.
 
@@ -394,6 +396,13 @@
 
 
 - [https://github.com/mattimustang/firepwner](https://github.com/mattimustang/firepwner) :  ![starts](https://img.shields.io/github/stars/mattimustang/firepwner.svg) ![forks](https://img.shields.io/github/forks/mattimustang/firepwner.svg)
+
+## CVE-2015-6254
+ The (1) Service Provider (SP) and (2) Identity Provider (IdP) in PicketLink before 2.7.0 does not ensure that the Destination attribute in a Response element in a SAML assertion matches the location from which the message was received, which allows remote attackers to have unspecified impact via unknown vectors.  NOTE: this identifier was SPLIT from CVE-2015-0277 per ADT2 due to different vulnerability types.
+
+
+
+- [https://github.com/andikahilmy/CVE-2015-6254-picketlink-bindings-vulnerable](https://github.com/andikahilmy/CVE-2015-6254-picketlink-bindings-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2015-6254-picketlink-bindings-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2015-6254-picketlink-bindings-vulnerable.svg)
 
 ## CVE-2015-6132
  Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 Gold and 1511 mishandle library loading, which allows local users to gain privileges via a crafted application, aka "Windows Library Loading Remote Code Execution Vulnerability."
@@ -551,6 +560,13 @@
 - [https://github.com/Ma1Dong/ActiveMQ_CVE-2015-5254](https://github.com/Ma1Dong/ActiveMQ_CVE-2015-5254) :  ![starts](https://img.shields.io/github/stars/Ma1Dong/ActiveMQ_CVE-2015-5254.svg) ![forks](https://img.shields.io/github/forks/Ma1Dong/ActiveMQ_CVE-2015-5254.svg)
 
 - [https://github.com/guigui237/Exploitation-de-la-vuln-rabilit-CVE-2015-5254-](https://github.com/guigui237/Exploitation-de-la-vuln-rabilit-CVE-2015-5254-) :  ![starts](https://img.shields.io/github/stars/guigui237/Exploitation-de-la-vuln-rabilit-CVE-2015-5254-.svg) ![forks](https://img.shields.io/github/forks/guigui237/Exploitation-de-la-vuln-rabilit-CVE-2015-5254-.svg)
+
+## CVE-2015-5253
+ The SAML Web SSO module in Apache CXF before 2.7.18, 3.0.x before 3.0.7, and 3.1.x before 3.1.3 allows remote authenticated users to bypass authentication via a crafted SAML response with a valid signed assertion, related to a "wrapping attack."
+
+
+
+- [https://github.com/andikahilmy/CVE-2015-5253-cxf-vulnerable](https://github.com/andikahilmy/CVE-2015-5253-cxf-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2015-5253-cxf-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2015-5253-cxf-vulnerable.svg)
 
 ## CVE-2015-5195
  ntp_openssl.m4 in ntpd in NTP before 4.2.7p112 allows remote attackers to cause a denial of service (segmentation fault) via a crafted statistics or filegen configuration command that is not enabled during compilation.
@@ -766,6 +782,13 @@
 
 - [https://github.com/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution](https://github.com/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution) :  ![starts](https://img.shields.io/github/stars/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution.svg)
 
+## CVE-2015-3271
+ Apache Tika server (aka tika-server) in Apache Tika 1.9 might allow remote attackers to read arbitrary files via the HTTP fileUrl header.
+
+
+
+- [https://github.com/andikahilmy/CVE-2015-3271-tika-vulnerable](https://github.com/andikahilmy/CVE-2015-3271-tika-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2015-3271-tika-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2015-3271-tika-vulnerable.svg)
+
 ## CVE-2015-3239
  Off-by-one error in the dwarf_to_unw_regnum function in include/dwarf_i.h in libunwind 1.1 allows local users to have unspecified impact via invalid dwarf opcodes.
 
@@ -864,6 +887,20 @@
 
 - [https://github.com/Kagami/docker_cve-2015-2925](https://github.com/Kagami/docker_cve-2015-2925) :  ![starts](https://img.shields.io/github/stars/Kagami/docker_cve-2015-2925.svg) ![forks](https://img.shields.io/github/forks/Kagami/docker_cve-2015-2925.svg)
 
+## CVE-2015-2913
+ server/network/protocol/http/OHttpSessionManager.java in the Studio component in OrientDB Server Community Edition before 2.0.15 and 2.1.x before 2.1.1 improperly relies on the java.util.Random class for generation of random Session ID values, which makes it easier for remote attackers to predict a value by determining the internal state of the PRNG in this class.
+
+
+
+- [https://github.com/andikahilmy/CVE-2015-2913-orientdb-vulnerable](https://github.com/andikahilmy/CVE-2015-2913-orientdb-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2015-2913-orientdb-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2015-2913-orientdb-vulnerable.svg)
+
+## CVE-2015-2912
+ The JSONP endpoint in the Studio component in OrientDB Server Community Edition before 2.0.15 and 2.1.x before 2.1.1 does not properly restrict callback values, which allows remote attackers to conduct cross-site request forgery (CSRF) attacks, and obtain sensitive information, via a crafted HTTP request.
+
+
+
+- [https://github.com/andikahilmy/CVE-2015-2912-orientdb-vulnerable](https://github.com/andikahilmy/CVE-2015-2912-orientdb-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2015-2912-orientdb-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2015-2912-orientdb-vulnerable.svg)
+
 ## CVE-2015-2900
  The AddUserFinding add_userfinding2 function in Medicomp MEDCIN Engine before 2.22.20153.226 allows remote attackers to cause a denial of service (out-of-bounds write) or possibly have unspecified other impact via a crafted packet on port 8190.
 
@@ -941,6 +978,13 @@
 
 
 - [https://github.com/K3ysTr0K3R/CVE-2015-2166-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2015-2166-EXPLOIT) :  ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2015-2166-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2015-2166-EXPLOIT.svg)
+
+## CVE-2015-2156
+ Netty before 3.9.8.Final, 3.10.x before 3.10.3.Final, 4.0.x before 4.0.28.Final, and 4.1.x before 4.1.0.Beta5 and Play Framework 2.x before 2.3.9 might allow remote attackers to bypass the httpOnly flag on cookies and obtain sensitive information by leveraging improper validation of cookie name and value characters.
+
+
+
+- [https://github.com/andikahilmy/CVE-2015-2156-netty-vulnerable](https://github.com/andikahilmy/CVE-2015-2156-netty-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2015-2156-netty-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2015-2156-netty-vulnerable.svg)
 
 ## CVE-2015-2153
  The rpki_rtr_pdu_print function in print-rpki-rtr.c in the TCP printer in tcpdump before 4.7.2 allows remote attackers to cause a denial of service (out-of-bounds read or write and crash) via a crafted header length in an RPKI-RTR Protocol Data Unit (PDU).
@@ -1272,9 +1316,9 @@
 
 - [https://github.com/mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook) :  ![starts](https://img.shields.io/github/stars/mikesplain/CVE-2015-0235-cookbook.svg) ![forks](https://img.shields.io/github/forks/mikesplain/CVE-2015-0235-cookbook.svg)
 
-- [https://github.com/nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE_2015_0235.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE_2015_0235.svg)
-
 - [https://github.com/furyutei/CVE-2015-0235_GHOST](https://github.com/furyutei/CVE-2015-0235_GHOST) :  ![starts](https://img.shields.io/github/stars/furyutei/CVE-2015-0235_GHOST.svg) ![forks](https://img.shields.io/github/forks/furyutei/CVE-2015-0235_GHOST.svg)
+
+- [https://github.com/nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235) :  ![starts](https://img.shields.io/github/stars/nickanderson/cfengine-CVE_2015_0235.svg) ![forks](https://img.shields.io/github/forks/nickanderson/cfengine-CVE_2015_0235.svg)
 
 - [https://github.com/adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST) :  ![starts](https://img.shields.io/github/stars/adherzog/ansible-CVE-2015-0235-GHOST.svg) ![forks](https://img.shields.io/github/forks/adherzog/ansible-CVE-2015-0235-GHOST.svg)
 
