@@ -33,6 +33,13 @@
 
 - [https://github.com/Everdoh/CVE-2013-6490](https://github.com/Everdoh/CVE-2013-6490) :  ![starts](https://img.shields.io/github/stars/Everdoh/CVE-2013-6490.svg) ![forks](https://img.shields.io/github/forks/Everdoh/CVE-2013-6490.svg)
 
+## CVE-2013-6465
+ Multiple cross-site scripting (XSS) vulnerabilities in JBPM KIE Workbench 6.0.x allow remote authenticated users to inject arbitrary web script or HTML via vectors related to task name html inputs.
+
+
+
+- [https://github.com/andikahilmy/CVE-2013-6465-jjbpm-wbbpm-vulnerable](https://github.com/andikahilmy/CVE-2013-6465-jjbpm-wbbpm-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2013-6465-jjbpm-wbbpm-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2013-6465-jjbpm-wbbpm-vulnerable.svg)
+
 ## CVE-2013-6375
  Xen 4.2.x and 4.3.x, when using Intel VT-d for PCI passthrough, does not properly flush the TLB after clearing a present translation table entry, which allows local guest administrators to cause a denial of service or gain privileges via unspecified vectors related to an "inverted boolean parameter."
 
@@ -60,12 +67,26 @@
 
 - [https://github.com/milo2012/CVE-2013-6117](https://github.com/milo2012/CVE-2013-6117) :  ![starts](https://img.shields.io/github/stars/milo2012/CVE-2013-6117.svg) ![forks](https://img.shields.io/github/forks/milo2012/CVE-2013-6117.svg)
 
+## CVE-2013-5960
+ The authenticated-encryption feature in the symmetric-encryption implementation in the OWASP Enterprise Security API (ESAPI) for Java 2.x before 2.1.0.1 does not properly resist tampering with serialized ciphertext, which makes it easier for remote attackers to bypass intended cryptographic protection mechanisms via an attack against the intended cipher mode in a non-default configuration, a different vulnerability than CVE-2013-5679.
+
+
+
+- [https://github.com/andikahilmy/CVE-2013-5960-esapi-java-legacy-vulnerable](https://github.com/andikahilmy/CVE-2013-5960-esapi-java-legacy-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2013-5960-esapi-java-legacy-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2013-5960-esapi-java-legacy-vulnerable.svg)
+
 ## CVE-2013-5842
  Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries, a different vulnerability than CVE-2013-5850.
 
 
 
 - [https://github.com/guhe120/CVE-2013-5842](https://github.com/guhe120/CVE-2013-5842) :  ![starts](https://img.shields.io/github/stars/guhe120/CVE-2013-5842.svg) ![forks](https://img.shields.io/github/forks/guhe120/CVE-2013-5842.svg)
+
+## CVE-2013-5679
+ The authenticated-encryption feature in the symmetric-encryption implementation in the OWASP Enterprise Security API (ESAPI) for Java 2.x before 2.1.0 does not properly resist tampering with serialized ciphertext, which makes it easier for remote attackers to bypass intended cryptographic protection mechanisms via an attack against authenticity in the default configuration, involving a null MAC and a zero MAC length.
+
+
+
+- [https://github.com/andikahilmy/CVE-2013-5679-esapi-java-legacy-vulnerable](https://github.com/andikahilmy/CVE-2013-5679-esapi-java-legacy-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2013-5679-esapi-java-legacy-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2013-5679-esapi-java-legacy-vulnerable.svg)
 
 ## CVE-2013-5664
  Cross-site scripting (XSS) vulnerability in the web-based device-management API browser in Palo Alto Networks PAN-OS before 4.1.13 and 5.0.x before 5.0.6 allows remote attackers to inject arbitrary web script or HTML via crafted data, aka Ref ID 50908.
@@ -134,6 +155,13 @@
 - [https://github.com/cyberharsh/Nginx-CVE-2013-4547](https://github.com/cyberharsh/Nginx-CVE-2013-4547) :  ![starts](https://img.shields.io/github/stars/cyberharsh/Nginx-CVE-2013-4547.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Nginx-CVE-2013-4547.svg)
 
 - [https://github.com/rsp243/fix_nginx_CVE-2013-4547_IB](https://github.com/rsp243/fix_nginx_CVE-2013-4547_IB) :  ![starts](https://img.shields.io/github/stars/rsp243/fix_nginx_CVE-2013-4547_IB.svg) ![forks](https://img.shields.io/github/forks/rsp243/fix_nginx_CVE-2013-4547_IB.svg)
+
+## CVE-2013-4517
+ Apache Santuario XML Security for Java before 1.5.6, when applying Transforms, allows remote attackers to cause a denial of service (memory consumption) via crafted Document Type Definitions (DTDs), related to signatures.
+
+
+
+- [https://github.com/andikahilmy/CVE-2013-4517-santuario-java-vulnerable](https://github.com/andikahilmy/CVE-2013-4517-santuario-java-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2013-4517-santuario-java-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2013-4517-santuario-java-vulnerable.svg)
 
 ## CVE-2013-4434
  Dropbear SSH Server before 2013.59 generates error messages for a failed logon attempt with different time delays depending on whether the user account exists, which allows remote attackers to discover valid usernames.
@@ -356,6 +384,15 @@ Exploitation of this vulnerability requires that a user or application run or in
 - [https://github.com/sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/CVE_2013_2186.svg)
 
 - [https://github.com/sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186) :  ![starts](https://img.shields.io/github/stars/sa1g0n1337/Payload_CVE_2013_2186.svg) ![forks](https://img.shields.io/github/forks/sa1g0n1337/Payload_CVE_2013_2186.svg)
+
+- [https://github.com/andikahilmy/CVE-2013-2186-commons-fileupload-vulnerable](https://github.com/andikahilmy/CVE-2013-2186-commons-fileupload-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2013-2186-commons-fileupload-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2013-2186-commons-fileupload-vulnerable.svg)
+
+## CVE-2013-2172
+ jcp/xml/dsig/internal/dom/DOMCanonicalizationMethod.java in Apache Santuario XML Security for Java 1.4.x before 1.4.8 and 1.5.x before 1.5.5 allows context-dependent attackers to spoof an XML Signature by using the CanonicalizationMethod parameter to specify an arbitrary weak "canonicalization algorithm to apply to the SignedInfo part of the Signature."
+
+
+
+- [https://github.com/andikahilmy/CVE-2013-2172-santuario-java-vulnerable](https://github.com/andikahilmy/CVE-2013-2172-santuario-java-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2013-2172-santuario-java-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2013-2172-santuario-java-vulnerable.svg)
 
 ## CVE-2013-2171
  The vm_map_lookup function in sys/vm/vm_map.c in the mmap implementation in the kernel in FreeBSD 9.0 through 9.1-RELEASE-p4 does not properly determine whether a task should have write access to a memory location, which allows local users to bypass filesystem write permissions and consequently gain privileges via a crafted application that leverages read permissions, and makes mmap and ptrace system calls.
