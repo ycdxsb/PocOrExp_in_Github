@@ -226,9 +226,9 @@
 
 - [https://github.com/SieGer05/CVE-2012-2982-Webmin-Exploit](https://github.com/SieGer05/CVE-2012-2982-Webmin-Exploit) :  ![starts](https://img.shields.io/github/stars/SieGer05/CVE-2012-2982-Webmin-Exploit.svg) ![forks](https://img.shields.io/github/forks/SieGer05/CVE-2012-2982-Webmin-Exploit.svg)
 
-- [https://github.com/JRrooot/CVE-2012-2982-Webmin-RCE](https://github.com/JRrooot/CVE-2012-2982-Webmin-RCE) :  ![starts](https://img.shields.io/github/stars/JRrooot/CVE-2012-2982-Webmin-RCE.svg) ![forks](https://img.shields.io/github/forks/JRrooot/CVE-2012-2982-Webmin-RCE.svg)
-
 - [https://github.com/SincIDK/CVE-2012-2982-Exploit-Script](https://github.com/SincIDK/CVE-2012-2982-Exploit-Script) :  ![starts](https://img.shields.io/github/stars/SincIDK/CVE-2012-2982-Exploit-Script.svg) ![forks](https://img.shields.io/github/forks/SincIDK/CVE-2012-2982-Exploit-Script.svg)
+
+- [https://github.com/JRrooot/CVE-2012-2982-Webmin-RCE](https://github.com/JRrooot/CVE-2012-2982-Webmin-RCE) :  ![starts](https://img.shields.io/github/stars/JRrooot/CVE-2012-2982-Webmin-RCE.svg) ![forks](https://img.shields.io/github/forks/JRrooot/CVE-2012-2982-Webmin-RCE.svg)
 
 - [https://github.com/danielvilaca/PoC_Webmin](https://github.com/danielvilaca/PoC_Webmin) :  ![starts](https://img.shields.io/github/stars/danielvilaca/PoC_Webmin.svg) ![forks](https://img.shields.io/github/forks/danielvilaca/PoC_Webmin.svg)
 
