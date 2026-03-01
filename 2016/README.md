@@ -1009,11 +1009,11 @@
 
 - [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
 
-- [https://github.com/ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ldenevi/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ldenevi/CVE-2016-5195.svg)
+- [https://github.com/ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ASUKA39/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ASUKA39/CVE-2016-5195.svg)
 
 - [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
 
-- [https://github.com/ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ASUKA39/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ASUKA39/CVE-2016-5195.svg)
+- [https://github.com/ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195) :  ![starts](https://img.shields.io/github/stars/ldenevi/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ldenevi/CVE-2016-5195.svg)
 
 - [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) :  ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
 
@@ -1804,7 +1804,13 @@
 
 - [https://github.com/readloud/PoC](https://github.com/readloud/PoC) :  ![starts](https://img.shields.io/github/stars/readloud/PoC.svg) ![forks](https://img.shields.io/github/forks/readloud/PoC.svg)
 
+- [https://github.com/mamon9022/poc-fls-node-epicronicles](https://github.com/mamon9022/poc-fls-node-epicronicles) :  ![starts](https://img.shields.io/github/stars/mamon9022/poc-fls-node-epicronicles.svg) ![forks](https://img.shields.io/github/forks/mamon9022/poc-fls-node-epicronicles.svg)
+
+- [https://github.com/hamzamalik3461/CVE-2026-20841](https://github.com/hamzamalik3461/CVE-2026-20841) :  ![starts](https://img.shields.io/github/stars/hamzamalik3461/CVE-2026-20841.svg) ![forks](https://img.shields.io/github/forks/hamzamalik3461/CVE-2026-20841.svg)
+
 - [https://github.com/mzuhair9933/PoPE-pytorch](https://github.com/mzuhair9933/PoPE-pytorch) :  ![starts](https://img.shields.io/github/stars/mzuhair9933/PoPE-pytorch.svg) ![forks](https://img.shields.io/github/forks/mzuhair9933/PoPE-pytorch.svg)
+
+- [https://github.com/404godd/CVE-2026-20841-PoC](https://github.com/404godd/CVE-2026-20841-PoC) :  ![starts](https://img.shields.io/github/stars/404godd/CVE-2026-20841-PoC.svg) ![forks](https://img.shields.io/github/forks/404godd/CVE-2026-20841-PoC.svg)
 
 ## CVE-2016-0846
  libs/binder/IMemory.cpp in the IMemory Native Interface in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, and 6.x before 2016-04-01 does not properly consider the heap size, which allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bug 26877992.
