@@ -1007,6 +1007,13 @@
 
 - [https://github.com/damariion/CVE-2015-1925](https://github.com/damariion/CVE-2015-1925) :  ![starts](https://img.shields.io/github/stars/damariion/CVE-2015-1925.svg) ![forks](https://img.shields.io/github/forks/damariion/CVE-2015-1925.svg)
 
+## CVE-2015-1855
+ verify_certificate_identity in the OpenSSL extension in Ruby before 2.0.0 patchlevel 645, 2.1.x before 2.1.6, and 2.2.x before 2.2.2 does not properly validate hostnames, which allows remote attackers to spoof servers via vectors related to (1) multiple wildcards, (1) wildcards in IDNA names, (3) case sensitivity, and (4) non-ASCII characters.
+
+
+
+- [https://github.com/vpereira/CVE-2015-1855](https://github.com/vpereira/CVE-2015-1855) :  ![starts](https://img.shields.io/github/stars/vpereira/CVE-2015-1855.svg) ![forks](https://img.shields.io/github/forks/vpereira/CVE-2015-1855.svg)
+
 ## CVE-2015-1805
  The (1) pipe_read and (2) pipe_write implementations in fs/pipe.c in the Linux kernel before 3.16 do not properly consider the side effects of failed __copy_to_user_inatomic and __copy_from_user_inatomic calls, which allows local users to cause a denial of service (system crash) or possibly gain privileges via a crafted application, aka an "I/O vector array overrun."
 
@@ -1141,6 +1148,13 @@
 
 ## CVE-2015-1561
  The escape_command function in include/Administration/corePerformance/getStats.php in Centreon (formerly Merethis Centreon) 2.5.4 and earlier (fixed in Centreon 19.10.0) uses an incorrect regular expression, which allows remote authenticated users to execute arbitrary commands via shell metacharacters in the ns_id parameter.
+
+
+
+- [https://github.com/Iansus/Centreon-CVE-2015-1560_1561](https://github.com/Iansus/Centreon-CVE-2015-1560_1561) :  ![starts](https://img.shields.io/github/stars/Iansus/Centreon-CVE-2015-1560_1561.svg) ![forks](https://img.shields.io/github/forks/Iansus/Centreon-CVE-2015-1560_1561.svg)
+
+## CVE-2015-1560
+ SQL injection vulnerability in the isUserAdmin function in include/common/common-Func.php in Centreon (formerly Merethis Centreon) 2.5.4 and earlier (fixed in Centreon web 2.7.0) allows remote attackers to execute arbitrary SQL commands via the sid parameter to include/common/XmlTree/GetXmlTree.php.
 
 
 
