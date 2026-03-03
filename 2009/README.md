@@ -126,6 +126,8 @@
 
 - [https://github.com/n4xh4ck5/CVE2009-2585_HP_Power_Manager_BoF](https://github.com/n4xh4ck5/CVE2009-2585_HP_Power_Manager_BoF) :  ![starts](https://img.shields.io/github/stars/n4xh4ck5/CVE2009-2585_HP_Power_Manager_BoF.svg) ![forks](https://img.shields.io/github/forks/n4xh4ck5/CVE2009-2585_HP_Power_Manager_BoF.svg)
 
+- [https://github.com/securityforge/CVE2009-2585_HP_Power_Manager_BoF](https://github.com/securityforge/CVE2009-2585_HP_Power_Manager_BoF) :  ![starts](https://img.shields.io/github/stars/securityforge/CVE2009-2585_HP_Power_Manager_BoF.svg) ![forks](https://img.shields.io/github/forks/securityforge/CVE2009-2585_HP_Power_Manager_BoF.svg)
+
 ## CVE-2009-2265
  Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow remote attackers to create executable files in arbitrary directories via directory traversal sequences in the input to unspecified connector modules, as exploited in the wild for remote code execution in July 2009, related to the file browser and the editor/filemanager/connectors/ directory.
 
