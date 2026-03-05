@@ -225,7 +225,7 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 
 
-- [https://github.com/PREN0MEN/CVE-2013-3900-PowerShell-PoC](https://github.com/PREN0MEN/CVE-2013-3900-PowerShell-PoC) :  ![starts](https://img.shields.io/github/stars/PREN0MEN/CVE-2013-3900-PowerShell-PoC.svg) ![forks](https://img.shields.io/github/forks/PREN0MEN/CVE-2013-3900-PowerShell-PoC.svg)
+- [https://github.com/norvethil/CVE-2013-3900-PowerShell-PoC](https://github.com/norvethil/CVE-2013-3900-PowerShell-PoC) :  ![starts](https://img.shields.io/github/stars/norvethil/CVE-2013-3900-PowerShell-PoC.svg) ![forks](https://img.shields.io/github/forks/norvethil/CVE-2013-3900-PowerShell-PoC.svg)
 
 - [https://github.com/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln](https://github.com/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln) :  ![starts](https://img.shields.io/github/stars/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln.svg) ![forks](https://img.shields.io/github/forks/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln.svg)
 
@@ -239,9 +239,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/DavidBr27/CVE-2013-3900-Remediation-Script](https://github.com/DavidBr27/CVE-2013-3900-Remediation-Script) :  ![starts](https://img.shields.io/github/stars/DavidBr27/CVE-2013-3900-Remediation-Script.svg) ![forks](https://img.shields.io/github/forks/DavidBr27/CVE-2013-3900-Remediation-Script.svg)
 
-- [https://github.com/SDimitri05/cve-2013-3900-winverifytrust-mitigation](https://github.com/SDimitri05/cve-2013-3900-winverifytrust-mitigation) :  ![starts](https://img.shields.io/github/stars/SDimitri05/cve-2013-3900-winverifytrust-mitigation.svg) ![forks](https://img.shields.io/github/forks/SDimitri05/cve-2013-3900-winverifytrust-mitigation.svg)
-
 - [https://github.com/malaya-m/cve-2013-3900-remediation-report](https://github.com/malaya-m/cve-2013-3900-remediation-report) :  ![starts](https://img.shields.io/github/stars/malaya-m/cve-2013-3900-remediation-report.svg) ![forks](https://img.shields.io/github/forks/malaya-m/cve-2013-3900-remediation-report.svg)
+
+- [https://github.com/SDimitri05/cve-2013-3900-winverifytrust-mitigation](https://github.com/SDimitri05/cve-2013-3900-winverifytrust-mitigation) :  ![starts](https://img.shields.io/github/stars/SDimitri05/cve-2013-3900-winverifytrust-mitigation.svg) ![forks](https://img.shields.io/github/forks/SDimitri05/cve-2013-3900-winverifytrust-mitigation.svg)
 
 - [https://github.com/AdenilsonSantos/WinVerifyTrust](https://github.com/AdenilsonSantos/WinVerifyTrust) :  ![starts](https://img.shields.io/github/stars/AdenilsonSantos/WinVerifyTrust.svg) ![forks](https://img.shields.io/github/forks/AdenilsonSantos/WinVerifyTrust.svg)
 
@@ -583,11 +583,11 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/Jjdt12/kuang_grade_mk11](https://github.com/Jjdt12/kuang_grade_mk11) :  ![starts](https://img.shields.io/github/stars/Jjdt12/kuang_grade_mk11.svg) ![forks](https://img.shields.io/github/forks/Jjdt12/kuang_grade_mk11.svg)
 
+- [https://github.com/7s26simon/CVE-2013-0156](https://github.com/7s26simon/CVE-2013-0156) :  ![starts](https://img.shields.io/github/stars/7s26simon/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/7s26simon/CVE-2013-0156.svg)
+
 - [https://github.com/R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156) :  ![starts](https://img.shields.io/github/stars/R3dKn33-zz/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/R3dKn33-zz/CVE-2013-0156.svg)
 
 - [https://github.com/oxben10/CVE-2013-0156](https://github.com/oxben10/CVE-2013-0156) :  ![starts](https://img.shields.io/github/stars/oxben10/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/oxben10/CVE-2013-0156.svg)
-
-- [https://github.com/7s26simon/CVE-2013-0156](https://github.com/7s26simon/CVE-2013-0156) :  ![starts](https://img.shields.io/github/stars/7s26simon/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/7s26simon/CVE-2013-0156.svg)
 
 - [https://github.com/terracatta/name_reverser](https://github.com/terracatta/name_reverser) :  ![starts](https://img.shields.io/github/stars/terracatta/name_reverser.svg) ![forks](https://img.shields.io/github/forks/terracatta/name_reverser.svg)
 
