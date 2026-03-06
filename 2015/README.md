@@ -62,7 +62,7 @@
 
 - [https://github.com/z-bool/Venom-JWT](https://github.com/z-bool/Venom-JWT) :  ![starts](https://img.shields.io/github/stars/z-bool/Venom-JWT.svg) ![forks](https://img.shields.io/github/forks/z-bool/Venom-JWT.svg)
 
-- [https://github.com/WinDyAlphA/CVE-2015-9235_JWT_key_confusion](https://github.com/WinDyAlphA/CVE-2015-9235_JWT_key_confusion) :  ![starts](https://img.shields.io/github/stars/WinDyAlphA/CVE-2015-9235_JWT_key_confusion.svg) ![forks](https://img.shields.io/github/forks/WinDyAlphA/CVE-2015-9235_JWT_key_confusion.svg)
+- [https://github.com/Nxvh1337/CVE-2015-9235_JWT_key_confusion](https://github.com/Nxvh1337/CVE-2015-9235_JWT_key_confusion) :  ![starts](https://img.shields.io/github/stars/Nxvh1337/CVE-2015-9235_JWT_key_confusion.svg) ![forks](https://img.shields.io/github/forks/Nxvh1337/CVE-2015-9235_JWT_key_confusion.svg)
 
 - [https://github.com/aalex954/jwt-key-confusion-poc](https://github.com/aalex954/jwt-key-confusion-poc) :  ![starts](https://img.shields.io/github/stars/aalex954/jwt-key-confusion-poc.svg) ![forks](https://img.shields.io/github/forks/aalex954/jwt-key-confusion-poc.svg)
 
