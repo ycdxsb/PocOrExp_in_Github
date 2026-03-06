@@ -391,6 +391,8 @@
 
 - [https://github.com/cved-sources/cve-2014-6271](https://github.com/cved-sources/cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/cved-sources/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2014-6271.svg)
 
+- [https://github.com/0xAshwesker/CVE-2014-6271](https://github.com/0xAshwesker/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/0xAshwesker/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/0xAshwesker/CVE-2014-6271.svg)
+
 - [https://github.com/hadrian3689/shellshock](https://github.com/hadrian3689/shellshock) :  ![starts](https://img.shields.io/github/stars/hadrian3689/shellshock.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/shellshock.svg)
 
 - [https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock) :  ![starts](https://img.shields.io/github/stars/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock.svg) ![forks](https://img.shields.io/github/forks/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock.svg)
