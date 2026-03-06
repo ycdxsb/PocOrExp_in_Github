@@ -235,9 +235,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/Securenetology/CVE-2013-3900](https://github.com/Securenetology/CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/Securenetology/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Securenetology/CVE-2013-3900.svg)
 
-- [https://github.com/ksgassama-lab/vulnerability-remediation-cve-2013-3900](https://github.com/ksgassama-lab/vulnerability-remediation-cve-2013-3900) :  ![starts](https://img.shields.io/github/stars/ksgassama-lab/vulnerability-remediation-cve-2013-3900.svg) ![forks](https://img.shields.io/github/forks/ksgassama-lab/vulnerability-remediation-cve-2013-3900.svg)
-
 - [https://github.com/DavidBr27/CVE-2013-3900-Remediation-Script](https://github.com/DavidBr27/CVE-2013-3900-Remediation-Script) :  ![starts](https://img.shields.io/github/stars/DavidBr27/CVE-2013-3900-Remediation-Script.svg) ![forks](https://img.shields.io/github/forks/DavidBr27/CVE-2013-3900-Remediation-Script.svg)
+
+- [https://github.com/ksgassama-lab/vulnerability-remediation-cve-2013-3900](https://github.com/ksgassama-lab/vulnerability-remediation-cve-2013-3900) :  ![starts](https://img.shields.io/github/stars/ksgassama-lab/vulnerability-remediation-cve-2013-3900.svg) ![forks](https://img.shields.io/github/forks/ksgassama-lab/vulnerability-remediation-cve-2013-3900.svg)
 
 - [https://github.com/malaya-m/cve-2013-3900-remediation-report](https://github.com/malaya-m/cve-2013-3900-remediation-report) :  ![starts](https://img.shields.io/github/stars/malaya-m/cve-2013-3900-remediation-report.svg) ![forks](https://img.shields.io/github/forks/malaya-m/cve-2013-3900-remediation-report.svg)
 
@@ -583,9 +583,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/Jjdt12/kuang_grade_mk11](https://github.com/Jjdt12/kuang_grade_mk11) :  ![starts](https://img.shields.io/github/stars/Jjdt12/kuang_grade_mk11.svg) ![forks](https://img.shields.io/github/forks/Jjdt12/kuang_grade_mk11.svg)
 
-- [https://github.com/7s26simon/CVE-2013-0156](https://github.com/7s26simon/CVE-2013-0156) :  ![starts](https://img.shields.io/github/stars/7s26simon/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/7s26simon/CVE-2013-0156.svg)
-
 - [https://github.com/R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156) :  ![starts](https://img.shields.io/github/stars/R3dKn33-zz/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/R3dKn33-zz/CVE-2013-0156.svg)
+
+- [https://github.com/7s26simon/CVE-2013-0156](https://github.com/7s26simon/CVE-2013-0156) :  ![starts](https://img.shields.io/github/stars/7s26simon/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/7s26simon/CVE-2013-0156.svg)
 
 - [https://github.com/oxben10/CVE-2013-0156](https://github.com/oxben10/CVE-2013-0156) :  ![starts](https://img.shields.io/github/stars/oxben10/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/oxben10/CVE-2013-0156.svg)
 
