@@ -83,6 +83,13 @@ This issue affects Apache HTTP Server 2.4.54 and earlier.
 
 - [https://github.com/karthi-the-hacker/CVE-2006-2842](https://github.com/karthi-the-hacker/CVE-2006-2842) :  ![starts](https://img.shields.io/github/stars/karthi-the-hacker/CVE-2006-2842.svg) ![forks](https://img.shields.io/github/forks/karthi-the-hacker/CVE-2006-2842.svg)
 
+## CVE-2006-2369
+ RealVNC 4.1.1, and other products that use RealVNC such as AdderLink IP and Cisco CallManager, allows remote attackers to bypass authentication via a request in which the client specifies an insecure security type such as "Type 1 - None", which is accepted even if it is not offered by the server, as originally demonstrated using a long password.
+
+
+
+- [https://github.com/hacker1337itme/CVE-2006-2369](https://github.com/hacker1337itme/CVE-2006-2369) :  ![starts](https://img.shields.io/github/stars/hacker1337itme/CVE-2006-2369.svg) ![forks](https://img.shields.io/github/forks/hacker1337itme/CVE-2006-2369.svg)
+
 ## CVE-2006-1236
  Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
 
