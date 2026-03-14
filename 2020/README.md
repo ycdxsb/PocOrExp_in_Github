@@ -38,7 +38,7 @@
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-36518-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-36518-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-36518-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-36518-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-36518-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-36518-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-36518-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-36518-jackson-databind-vulnerable.svg)
 
 - [https://github.com/ghillert/boot-jackson-cve](https://github.com/ghillert/boot-jackson-cve) :  ![starts](https://img.shields.io/github/stars/ghillert/boot-jackson-cve.svg) ![forks](https://img.shields.io/github/forks/ghillert/boot-jackson-cve.svg)
 
@@ -54,7 +54,7 @@
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-36189-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-36189-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-36189-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-36189-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-36189-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-36189-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-36189-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-36189-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-36188
  FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.JNDIConnectionSource.
@@ -63,28 +63,28 @@
 
 - [https://github.com/Al1ex/CVE-2020-36188](https://github.com/Al1ex/CVE-2020-36188) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2020-36188.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2020-36188.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-36188-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-36188-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-36188-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-36188-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-36188-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-36188-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-36188-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-36188-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-36187
  FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.datasources.SharedPoolDataSource.
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-36187-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-36187-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-36187-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-36187-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-36187-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-36187-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-36187-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-36187-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-36186
  FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.datasources.PerUserPoolDataSource.
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-36186-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-36186-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-36186-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-36186-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-36186-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-36186-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-36186-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-36186-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-36185
  FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.SharedPoolDataSource.
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-36185-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-36185-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-36185-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-36185-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-36185-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-36185-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-36185-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-36185-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-36184
  FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.PerUserPoolDataSource.
@@ -93,28 +93,28 @@
 
 - [https://github.com/Al1ex/CVE-2020-36184](https://github.com/Al1ex/CVE-2020-36184) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2020-36184.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2020-36184.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-36184-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-36184-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-36184-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-36184-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-36184-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-36184-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-36184-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-36184-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-36183
  FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.docx4j.org.apache.xalan.lib.sql.JNDIConnectionPool.
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-36183-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-36183-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-36183-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-36183-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-36183-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-36183-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-36183-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-36183-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-36182
  FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.cpdsadapter.DriverAdapterCPDS.
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-36182-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-36182-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-36182-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-36182-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-36182-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-36182-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-36182-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-36182-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-36181
  FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.cpdsadapter.DriverAdapterCPDS.
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-36181-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-36181-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-36181-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-36181-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-36181-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-36181-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-36181-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-36181-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-36180
  FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.cpdsadapter.DriverAdapterCPDS.
@@ -123,7 +123,7 @@
 
 - [https://github.com/cuijiung/jackson-CVE-2020-36180](https://github.com/cuijiung/jackson-CVE-2020-36180) :  ![starts](https://img.shields.io/github/stars/cuijiung/jackson-CVE-2020-36180.svg) ![forks](https://img.shields.io/github/forks/cuijiung/jackson-CVE-2020-36180.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-36180-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-36180-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-36180-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-36180-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-36180-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-36180-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-36180-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-36180-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-36179
  FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to oadd.org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS.
@@ -132,7 +132,7 @@
 
 - [https://github.com/Al1ex/CVE-2020-36179](https://github.com/Al1ex/CVE-2020-36179) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2020-36179.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2020-36179.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-36179-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-36179-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-36179-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-36179-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-36179-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-36179-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-36179-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-36179-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-36109
  ASUS RT-AX86U router firmware below version under 9.0.0.4_386 has a buffer overflow in the blocking_request.cgi function of the httpd module that can cause code execution when an attacker constructs malicious data.
@@ -214,7 +214,7 @@
 
 - [https://github.com/Al1ex/CVE-2020-35728](https://github.com/Al1ex/CVE-2020-35728) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2020-35728.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2020-35728.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-35728-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-35728-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-35728-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-35728-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-35728-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-35728-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-35728-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-35728-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-35717
  zonote through 0.4.0 allows XSS via a crafted note, with resultant Remote Code Execution (because nodeIntegration in webPreferences is true).
@@ -302,14 +302,14 @@
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-35491-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-35491-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-35491-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-35491-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-35491-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-35491-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-35491-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-35491-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-35490
  FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.PerUserPoolDataSource.
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-35490-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-35490-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-35490-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-35490-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-35490-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-35490-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-35490-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-35490-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-35489
  The contact-form-7 (aka Contact Form 7) plugin before 5.3.2 for WordPress allows Unrestricted File Upload and remote code execution because a filename may contain special characters.
@@ -381,7 +381,7 @@
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-35217-vertx-web-vulnerable](https://github.com/andikahilmy/CVE-2020-35217-vertx-web-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-35217-vertx-web-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-35217-vertx-web-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-35217-vertx-web-vulnerable](https://github.com/dawetmaster/CVE-2020-35217-vertx-web-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-35217-vertx-web-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-35217-vertx-web-vulnerable.svg)
 
 ## CVE-2020-35191
  The official drupal docker images before 8.5.10-fpm-alpine (Alpine specific) contain a blank password for a root user. System using the drupal docker container deployed by affected versions of the docker image may allow a remote attacker to achieve root access with a blank password.
@@ -599,7 +599,7 @@
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-28491-jackson-dataformats-binary-vulnerable](https://github.com/andikahilmy/CVE-2020-28491-jackson-dataformats-binary-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-28491-jackson-dataformats-binary-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-28491-jackson-dataformats-binary-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-28491-jackson-dataformats-binary-vulnerable](https://github.com/dawetmaster/CVE-2020-28491-jackson-dataformats-binary-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-28491-jackson-dataformats-binary-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-28491-jackson-dataformats-binary-vulnerable.svg)
 
 ## CVE-2020-28488
  DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none
@@ -1011,7 +1011,7 @@ vulnerable to a race condition in the MCL Smart Patient Reader software update s
 
 - [https://github.com/cuijiung/xstream-CVE-2020-26259](https://github.com/cuijiung/xstream-CVE-2020-26259) :  ![starts](https://img.shields.io/github/stars/cuijiung/xstream-CVE-2020-26259.svg) ![forks](https://img.shields.io/github/forks/cuijiung/xstream-CVE-2020-26259.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-26259-xstream-vulnerable](https://github.com/andikahilmy/CVE-2020-26259-xstream-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-26259-xstream-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-26259-xstream-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-26259-xstream-vulnerable](https://github.com/dawetmaster/CVE-2020-26259-xstream-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-26259-xstream-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-26259-xstream-vulnerable.svg)
 
 ## CVE-2020-26258
  XStream is a Java library to serialize objects to XML and back again. In XStream before version 1.4.15, a Server-Side Forgery Request vulnerability can be activated when unmarshalling. The vulnerability may allow a remote attacker to request data from internal resources that are not publicly available only by manipulating the processed input stream. If you rely on XStream's default blacklist of the Security Framework, you will have to use at least version 1.4.15. The reported vulnerability does not exist if running Java 15 or higher. No user is affected who followed the recommendation to setup XStream's Security Framework with a whitelist! Anyone relying on XStream's default blacklist can immediately switch to a whilelist for the allowed types to avoid the vulnerability. Users of XStream 1.4.14 or below who still want to use XStream default blacklist can use a workaround described in more detailed in the referenced advisories.
@@ -1022,7 +1022,7 @@ vulnerable to a race condition in the MCL Smart Patient Reader software update s
 
 - [https://github.com/cuijiung/xstream-CVE-2020-26258](https://github.com/cuijiung/xstream-CVE-2020-26258) :  ![starts](https://img.shields.io/github/stars/cuijiung/xstream-CVE-2020-26258.svg) ![forks](https://img.shields.io/github/forks/cuijiung/xstream-CVE-2020-26258.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-26258-xstream-vulnerable](https://github.com/andikahilmy/CVE-2020-26258-xstream-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-26258-xstream-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-26258-xstream-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-26258-xstream-vulnerable](https://github.com/dawetmaster/CVE-2020-26258-xstream-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-26258-xstream-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-26258-xstream-vulnerable.svg)
 
 ## CVE-2020-26256
  Fast-csv is an npm package for parsing and formatting CSVs or any other delimited value file in node. In fast-cvs before version 4.3.6 there is a possible ReDoS vulnerability (Regular Expression Denial of Service) when using ignoreEmpty option when parsing. This has been patched in `v4.3.6` You will only be affected by this if you use the `ignoreEmpty` parsing option. If you do use this option it is recommended that you upgrade to the latest version `v4.3.6` This vulnerability was found using a CodeQL query which identified `EMPTY_ROW_REGEXP` regular expression as vulnerable.
@@ -1070,7 +1070,7 @@ vulnerable to a race condition in the MCL Smart Patient Reader software update s
 
 - [https://github.com/cuijiung/xstream-CVE-2020-26217](https://github.com/cuijiung/xstream-CVE-2020-26217) :  ![starts](https://img.shields.io/github/stars/cuijiung/xstream-CVE-2020-26217.svg) ![forks](https://img.shields.io/github/forks/cuijiung/xstream-CVE-2020-26217.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-26217-xstream-vulnerable](https://github.com/andikahilmy/CVE-2020-26217-xstream-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-26217-xstream-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-26217-xstream-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-26217-xstream-vulnerable](https://github.com/dawetmaster/CVE-2020-26217-xstream-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-26217-xstream-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-26217-xstream-vulnerable.svg)
 
 - [https://github.com/shoucheng3/x-stream__xstream_CVE-2020-26217_1-4-14-java77](https://github.com/shoucheng3/x-stream__xstream_CVE-2020-26217_1-4-14-java77) :  ![starts](https://img.shields.io/github/stars/shoucheng3/x-stream__xstream_CVE-2020-26217_1-4-14-java77.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/x-stream__xstream_CVE-2020-26217_1-4-14-java77.svg)
 
@@ -1209,7 +1209,7 @@ vulnerable to a race condition in the MCL Smart Patient Reader software update s
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-25649-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-25649-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-25649-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-25649-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-25649-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-25649-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-25649-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-25649-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-25637
  A double free memory issue was found to occur in the libvirt API, in versions before 6.8.0, responsible for requesting information about network interfaces of a running QEMU domain. This flaw affects the polkit access control driver. Specifically, clients connecting to the read-write socket with limited ACL permissions could use this flaw to crash the libvirt daemon, resulting in a denial of service, or potentially escalate their privileges on the system. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
@@ -1516,7 +1516,7 @@ vulnerable to a race condition in the MCL Smart Patient Reader software update s
 
 - [https://github.com/Al1ex/CVE-2020-24750](https://github.com/Al1ex/CVE-2020-24750) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2020-24750.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2020-24750.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-24750-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-24750-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-24750-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-24750-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-24750-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-24750-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-24750-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-24750-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-24656
  Maltego before 4.2.12 allows XXE attacks.
@@ -1532,7 +1532,7 @@ vulnerable to a race condition in the MCL Smart Patient Reader software update s
 
 - [https://github.com/0xkami/cve-2020-24616-poc](https://github.com/0xkami/cve-2020-24616-poc) :  ![starts](https://img.shields.io/github/stars/0xkami/cve-2020-24616-poc.svg) ![forks](https://img.shields.io/github/forks/0xkami/cve-2020-24616-poc.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-24616-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-24616-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-24616-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-24616-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-24616-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-24616-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-24616-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-24616-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-24597
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -2200,9 +2200,9 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/esnet-security/cve-2020-16898](https://github.com/esnet-security/cve-2020-16898) :  ![starts](https://img.shields.io/github/stars/esnet-security/cve-2020-16898.svg) ![forks](https://img.shields.io/github/forks/esnet-security/cve-2020-16898.svg)
 
-- [https://github.com/CPO-EH/CVE-2020-16898_Checker](https://github.com/CPO-EH/CVE-2020-16898_Checker) :  ![starts](https://img.shields.io/github/stars/CPO-EH/CVE-2020-16898_Checker.svg) ![forks](https://img.shields.io/github/forks/CPO-EH/CVE-2020-16898_Checker.svg)
-
 - [https://github.com/CPO-EH/CVE-2020-16898_Workaround](https://github.com/CPO-EH/CVE-2020-16898_Workaround) :  ![starts](https://img.shields.io/github/stars/CPO-EH/CVE-2020-16898_Workaround.svg) ![forks](https://img.shields.io/github/forks/CPO-EH/CVE-2020-16898_Workaround.svg)
+
+- [https://github.com/CPO-EH/CVE-2020-16898_Checker](https://github.com/CPO-EH/CVE-2020-16898_Checker) :  ![starts](https://img.shields.io/github/stars/CPO-EH/CVE-2020-16898_Checker.svg) ![forks](https://img.shields.io/github/forks/CPO-EH/CVE-2020-16898_Checker.svg)
 
 ## CVE-2020-16846
  An issue was discovered in SaltStack Salt through 3002. Sending crafted web requests to the Salt API, with the SSH client enabled, can result in shell injection.
@@ -2476,7 +2476,7 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-15250-junit4-vulnerable](https://github.com/andikahilmy/CVE-2020-15250-junit4-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-15250-junit4-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-15250-junit4-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-15250-junit4-vulnerable](https://github.com/dawetmaster/CVE-2020-15250-junit4-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-15250-junit4-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-15250-junit4-vulnerable.svg)
 
 ## CVE-2020-15228
  In the `@actions/core` npm module before version 1.2.6,`addPath` and `exportVariable` functions communicate with the Actions Runner over stdout by generating a string in a specific format. Workflows that log untrusted data to stdout may invoke these commands, resulting in the path or environment variables being modified without the intention of the workflow or action author. The runner will release an update that disables the `set-env` and `add-path` workflow commands in the near future. For now, users should upgrade to `@actions/core v1.2.6` or later, and replace any instance of the `set-env` or `add-path` commands in their workflows with the new Environment File Syntax. Workflows and actions using the old commands or older versions of the toolkit will start to warn, then error out during workflow execution.
@@ -2936,7 +2936,7 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/Al1ex/CVE-2020-14195](https://github.com/Al1ex/CVE-2020-14195) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2020-14195.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2020-14195.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-14195-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-14195-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-14195-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-14195-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-14195-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-14195-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-14195-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-14195-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-14181
  Affected versions of Atlassian Jira Server and Data Center allow an unauthenticated user to enumerate users via an Information Disclosure vulnerability in the /ViewUserHover.jspa endpoint. The affected versions are before version 7.13.6, from version 8.0.0 before 8.5.7, and from version 8.6.0 before 8.12.0.
@@ -2997,21 +2997,21 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-14062-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-14062-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-14062-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-14062-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-14062-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-14062-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-14062-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-14062-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-14061
  FasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to oracle.jms.AQjmsQueueConnectionFactory, oracle.jms.AQjmsXATopicConnectionFactory, oracle.jms.AQjmsTopicConnectionFactory, oracle.jms.AQjmsXAQueueConnectionFactory, and oracle.jms.AQjmsXAConnectionFactory (aka weblogic/oracle-aqjms).
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-14061-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-14061-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-14061-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-14061-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-14061-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-14061-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-14061-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-14061-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-14060
  FasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to oadd.org.apache.xalan.lib.sql.JNDIConnectionPool (aka apache/drill).
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-14060-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-14060-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-14060-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-14060-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-14060-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-14060-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-14060-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-14060-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-14008
  Zoho ManageEngine Applications Manager 14710 and before allows an authenticated admin user to upload a vulnerable jar in a specific location, which leads to remote code execution.
@@ -3062,7 +3062,7 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-13959-velocity-tools-vulnerable](https://github.com/andikahilmy/CVE-2020-13959-velocity-tools-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-13959-velocity-tools-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-13959-velocity-tools-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-13959-velocity-tools-vulnerable](https://github.com/dawetmaster/CVE-2020-13959-velocity-tools-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-13959-velocity-tools-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-13959-velocity-tools-vulnerable.svg)
 
 ## CVE-2020-13958
  A vulnerability in Apache OpenOffice scripting events allows an attacker to construct documents containing hyperlinks pointing to an executable on the target users file system. These hyperlinks can be triggered unconditionally. In fixed versions no internal protocol may be called from the document event handler and other hyperlinks require a control-click.
@@ -3785,14 +3785,14 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-11620-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-11620-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-11620-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-11620-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-11620-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-11620-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-11620-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-11620-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-11619
  FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.springframework.aop.config.MethodLocatingFactoryBean (aka spring-aop).
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-11619-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-11619-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-11619-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-11619-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-11619-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-11619-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-11619-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-11619-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-11579
  An issue was discovered in Chadha PHPKB 9.0 Enterprise Edition. installer/test-connection.php (part of the installation process) allows a remote unauthenticated attacker to disclose local files on hosts running PHP before 7.2.16, or on hosts where the MySQL ALLOW LOCAL DATA INFILE option is enabled.
@@ -3879,21 +3879,21 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/Al1ex/CVE-2020-11113](https://github.com/Al1ex/CVE-2020-11113) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2020-11113.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2020-11113.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-11113-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-11113-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-11113-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-11113-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-11113-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-11113-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-11113-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-11113-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-11112
  FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.proxy.provider.remoting.RmiProvider (aka apache/commons-proxy).
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-11112-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-11112-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-11112-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-11112-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-11112-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-11112-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-11112-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-11112-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-11111
  FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.activemq.* (aka activemq-jms, activemq-core, activemq-pool, and activemq-pool-jms).
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-11111-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-11111-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-11111-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-11111-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-11111-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-11111-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-11111-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-11111-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-11110
  Grafana through 6.7.1 allows stored XSS due to insufficient input protection in the originalUrl field, which allows an attacker to inject JavaScript code that will be executed after clicking on Open Original Dashboard after visiting the snapshot.
@@ -4057,14 +4057,14 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-10969-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-10969-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-10969-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-10969-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-10969-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-10969-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-10969-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-10969-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-10968
  FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.aoju.bus.proxy.provider.remoting.RmiProvider (aka bus-proxy).
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-10968-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-10968-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-10968-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-10968-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-10968-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-10968-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-10968-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-10968-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-10963
  FrozenNode Laravel-Administrator through 5.0.12 allows unrestricted file upload (and consequently Remote Code Execution) via admin/tips_image/image/file_upload image upload with PHP content within a GIF image that has the .php extension. NOTE: this product is discontinued.
@@ -4397,7 +4397,7 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/fairyming/CVE-2020-9548](https://github.com/fairyming/CVE-2020-9548) :  ![starts](https://img.shields.io/github/stars/fairyming/CVE-2020-9548.svg) ![forks](https://img.shields.io/github/forks/fairyming/CVE-2020-9548.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-9548-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-9548-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-9548-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-9548-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-9548-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-9548-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-9548-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-9548-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-9547
  FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to com.ibatis.sqlmap.engine.transaction.jta.JtaTransactionConfig (aka ibatis-sqlmap).
@@ -4406,14 +4406,14 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/fairyming/CVE-2020-9547](https://github.com/fairyming/CVE-2020-9547) :  ![starts](https://img.shields.io/github/stars/fairyming/CVE-2020-9547.svg) ![forks](https://img.shields.io/github/forks/fairyming/CVE-2020-9547.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-9547-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-9547-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-9547-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-9547-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-9547-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-9547-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-9547-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-9547-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-9546
  FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.hadoop.shaded.com.zaxxer.hikari.HikariConfig (aka shaded hikari-config).
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-9546-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-9546-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-9546-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-9546-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-9546-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-9546-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-9546-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-9546-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-9529
  Firmware developed by Shenzhen Hichip Vision Technology (V6 through V20), as used by many different vendors in millions of Internet of Things devices, suffers from a privilege escalation vulnerability that allows attackers on the local network to reset the device's administrator password. This affects products marketed under the following brand names: Accfly, Alptop, Anlink, Besdersec, BOAVISION, COOAU, CPVAN, Ctronics, D3D Security, Dericam, Elex System, Elite Security, ENSTER, ePGes, Escam, FLOUREON, GENBOLT, Hongjingtian (HJT), ICAMI, Iegeek, Jecurity, Jennov, KKMoon, LEFTEK, Loosafe, Luowice, Nesuniq, Nettoly, ProElite, QZT, Royallite, SDETER, SV3C, SY2L, Tenvis, ThinkValue, TOMLOV, TPTEK, WGCC, and ZILINK.
@@ -4496,9 +4496,9 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/Disturbante/CVE-2020-9484](https://github.com/Disturbante/CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/Disturbante/CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/Disturbante/CVE-2020-9484.svg)
 
-- [https://github.com/DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/DXY0411/CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/DXY0411/CVE-2020-9484.svg)
-
 - [https://github.com/seanachao/CVE-2020-9484](https://github.com/seanachao/CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/seanachao/CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/seanachao/CVE-2020-9484.svg)
+
+- [https://github.com/DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484) :  ![starts](https://img.shields.io/github/stars/DXY0411/CVE-2020-9484.svg) ![forks](https://img.shields.io/github/forks/DXY0411/CVE-2020-9484.svg)
 
 - [https://github.com/DanQMoo/CVE-2020-9484-Scanner](https://github.com/DanQMoo/CVE-2020-9484-Scanner) :  ![starts](https://img.shields.io/github/stars/DanQMoo/CVE-2020-9484-Scanner.svg) ![forks](https://img.shields.io/github/forks/DanQMoo/CVE-2020-9484-Scanner.svg)
 
@@ -4697,7 +4697,7 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 - [https://github.com/dpredrag/CVE-2020-8840](https://github.com/dpredrag/CVE-2020-8840) :  ![starts](https://img.shields.io/github/stars/dpredrag/CVE-2020-8840.svg) ![forks](https://img.shields.io/github/forks/dpredrag/CVE-2020-8840.svg)
 
-- [https://github.com/andikahilmy/CVE-2020-8840-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2020-8840-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-8840-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-8840-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-8840-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2020-8840-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-8840-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-8840-jackson-databind-vulnerable.svg)
 
 ## CVE-2020-8835
  In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) did not properly restrict the register bounds for 32-bit operations, leading to out-of-bounds reads and writes in kernel memory. The vulnerability also affects the Linux 5.4 stable series, starting with v5.4.7, as the introducing commit was backported to that branch. This vulnerability was fixed in 5.6.1, 5.5.14, and 5.4.29. (issue is aka ZDI-CAN-10780)
@@ -5309,7 +5309,7 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-7692-google-oauth-java-client-vulnerable](https://github.com/andikahilmy/CVE-2020-7692-google-oauth-java-client-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-7692-google-oauth-java-client-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-7692-google-oauth-java-client-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-7692-google-oauth-java-client-vulnerable](https://github.com/dawetmaster/CVE-2020-7692-google-oauth-java-client-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-7692-google-oauth-java-client-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-7692-google-oauth-java-client-vulnerable.svg)
 
 ## CVE-2020-7676
  angular.js prior to 1.8.0 allows cross site scripting. The regex-based input HTML replacement may turn sanitized code into unsanitized one. Wrapping "option" elements in "select" ones changes parsing behavior, leading to possibly unsanitizing code.
@@ -5824,6 +5824,15 @@ pThe update addresses the vulnerability by correcting how the Windows TCP/IP sta
 
 
 - [https://github.com/RedyOpsResearchLabs/SEP-14.2-Arbitrary-Write](https://github.com/RedyOpsResearchLabs/SEP-14.2-Arbitrary-Write) :  ![starts](https://img.shields.io/github/stars/RedyOpsResearchLabs/SEP-14.2-Arbitrary-Write.svg) ![forks](https://img.shields.io/github/forks/RedyOpsResearchLabs/SEP-14.2-Arbitrary-Write.svg)
+
+## CVE-2020-5752
+ Relative path traversal in Druva inSync Windows Client 6.6.3 allows a local, unauthenticated attacker to execute arbitrary operating system commands with SYSTEM privileges.
+
+
+
+- [https://github.com/yevh/CVE-2020-5752-Druva-inSync-Windows-Client-6.6.3---Local-Privilege-Escalation-PowerShell-](https://github.com/yevh/CVE-2020-5752-Druva-inSync-Windows-Client-6.6.3---Local-Privilege-Escalation-PowerShell-) :  ![starts](https://img.shields.io/github/stars/yevh/CVE-2020-5752-Druva-inSync-Windows-Client-6.6.3---Local-Privilege-Escalation-PowerShell-.svg) ![forks](https://img.shields.io/github/forks/yevh/CVE-2020-5752-Druva-inSync-Windows-Client-6.6.3---Local-Privilege-Escalation-PowerShell-.svg)
+
+- [https://github.com/x0rbeexd/CVE-2020-5752](https://github.com/x0rbeexd/CVE-2020-5752) :  ![starts](https://img.shields.io/github/stars/x0rbeexd/CVE-2020-5752.svg) ![forks](https://img.shields.io/github/forks/x0rbeexd/CVE-2020-5752.svg)
 
 ## CVE-2020-5504
  In phpMyAdmin 4 before 4.9.4 and 5 before 5.0.1, SQL injection exists in the user accounts page. A malicious user could inject custom SQL in place of their own username when creating queries to this page. An attacker must have a valid MySQL account to access the server.
@@ -6625,7 +6634,7 @@ The issue has been fixed in dropwizard-validation 1.3.19 and 2.0.2.
 
 
 
-- [https://github.com/andikahilmy/CVE-2020-1695-Resteasy-vulnerable](https://github.com/andikahilmy/CVE-2020-1695-Resteasy-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2020-1695-Resteasy-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2020-1695-Resteasy-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2020-1695-Resteasy-vulnerable](https://github.com/dawetmaster/CVE-2020-1695-Resteasy-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2020-1695-Resteasy-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2020-1695-Resteasy-vulnerable.svg)
 
 ## CVE-2020-1611
  A Local File Inclusion vulnerability in Juniper Networks Junos Space allows an attacker to view all files on the target when the device receives malicious HTTP packets. This issue affects: Juniper Networks Junos Space versions prior to 19.4R1.
@@ -6773,15 +6782,15 @@ When the second phase of Windows updates become available in Q1 2021, customers 
 
 - [https://github.com/grupooruss/CVE-2020-1472](https://github.com/grupooruss/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/grupooruss/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/grupooruss/CVE-2020-1472.svg)
 
+- [https://github.com/dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/dr4g0n23/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/dr4g0n23/CVE-2020-1472.svg)
+
 - [https://github.com/hectorgie/CVE-2020-1472](https://github.com/hectorgie/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/hectorgie/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/hectorgie/CVE-2020-1472.svg)
 
 - [https://github.com/itssmikefm/CVE-2020-1472](https://github.com/itssmikefm/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/itssmikefm/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/itssmikefm/CVE-2020-1472.svg)
 
-- [https://github.com/dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/dr4g0n23/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/dr4g0n23/CVE-2020-1472.svg)
+- [https://github.com/victim10wq3/CVE-2020-1472](https://github.com/victim10wq3/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/victim10wq3/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/victim10wq3/CVE-2020-1472.svg)
 
 - [https://github.com/Fa1c0n35/CVE-2020-1472](https://github.com/Fa1c0n35/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/Fa1c0n35/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/Fa1c0n35/CVE-2020-1472.svg)
-
-- [https://github.com/victim10wq3/CVE-2020-1472](https://github.com/victim10wq3/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/victim10wq3/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/victim10wq3/CVE-2020-1472.svg)
 
 - [https://github.com/t31m0/CVE-2020-1472](https://github.com/t31m0/CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/t31m0/CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/t31m0/CVE-2020-1472.svg)
 
@@ -7115,13 +7124,13 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 - [https://github.com/Almorabea/SMBGhost-LPE-Metasploit-Module](https://github.com/Almorabea/SMBGhost-LPE-Metasploit-Module) :  ![starts](https://img.shields.io/github/stars/Almorabea/SMBGhost-LPE-Metasploit-Module.svg) ![forks](https://img.shields.io/github/forks/Almorabea/SMBGhost-LPE-Metasploit-Module.svg)
 
-- [https://github.com/0x25bit/CVE-2020-0796-PoC](https://github.com/0x25bit/CVE-2020-0796-PoC) :  ![starts](https://img.shields.io/github/stars/0x25bit/CVE-2020-0796-PoC.svg) ![forks](https://img.shields.io/github/forks/0x25bit/CVE-2020-0796-PoC.svg)
-
 - [https://github.com/gabimarti/SMBScanner](https://github.com/gabimarti/SMBScanner) :  ![starts](https://img.shields.io/github/stars/gabimarti/SMBScanner.svg) ![forks](https://img.shields.io/github/forks/gabimarti/SMBScanner.svg)
 
 - [https://github.com/Aurum2008/CVE2020-0796](https://github.com/Aurum2008/CVE2020-0796) :  ![starts](https://img.shields.io/github/stars/Aurum2008/CVE2020-0796.svg) ![forks](https://img.shields.io/github/forks/Aurum2008/CVE2020-0796.svg)
 
 - [https://github.com/ButrintKomoni/cve-2020-0796](https://github.com/ButrintKomoni/cve-2020-0796) :  ![starts](https://img.shields.io/github/stars/ButrintKomoni/cve-2020-0796.svg) ![forks](https://img.shields.io/github/forks/ButrintKomoni/cve-2020-0796.svg)
+
+- [https://github.com/0x25bit/CVE-2020-0796-PoC](https://github.com/0x25bit/CVE-2020-0796-PoC) :  ![starts](https://img.shields.io/github/stars/0x25bit/CVE-2020-0796-PoC.svg) ![forks](https://img.shields.io/github/forks/0x25bit/CVE-2020-0796-PoC.svg)
 
 - [https://github.com/f1tz/CVE-2020-0796-LPE-EXP](https://github.com/f1tz/CVE-2020-0796-LPE-EXP) :  ![starts](https://img.shields.io/github/stars/f1tz/CVE-2020-0796-LPE-EXP.svg) ![forks](https://img.shields.io/github/forks/f1tz/CVE-2020-0796-LPE-EXP.svg)
 
@@ -7521,9 +7530,9 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 - [https://github.com/amlweems/gringotts](https://github.com/amlweems/gringotts) :  ![starts](https://img.shields.io/github/stars/amlweems/gringotts.svg) ![forks](https://img.shields.io/github/forks/amlweems/gringotts.svg)
 
-- [https://github.com/SherlockSec/CVE-2020-0601](https://github.com/SherlockSec/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/SherlockSec/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/SherlockSec/CVE-2020-0601.svg)
-
 - [https://github.com/Hans-MartinHannibalLauridsen/CurveBall](https://github.com/Hans-MartinHannibalLauridsen/CurveBall) :  ![starts](https://img.shields.io/github/stars/Hans-MartinHannibalLauridsen/CurveBall.svg) ![forks](https://img.shields.io/github/forks/Hans-MartinHannibalLauridsen/CurveBall.svg)
+
+- [https://github.com/SherlockSec/CVE-2020-0601](https://github.com/SherlockSec/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/SherlockSec/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/SherlockSec/CVE-2020-0601.svg)
 
 - [https://github.com/Doug-Moody/Windows10_Cumulative_Updates_PowerShell](https://github.com/Doug-Moody/Windows10_Cumulative_Updates_PowerShell) :  ![starts](https://img.shields.io/github/stars/Doug-Moody/Windows10_Cumulative_Updates_PowerShell.svg) ![forks](https://img.shields.io/github/forks/Doug-Moody/Windows10_Cumulative_Updates_PowerShell.svg)
 
@@ -7537,11 +7546,11 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 - [https://github.com/apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall) :  ![starts](https://img.shields.io/github/stars/apodlosky/PoC_CurveBall.svg) ![forks](https://img.shields.io/github/forks/apodlosky/PoC_CurveBall.svg)
 
-- [https://github.com/Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/Ash112121/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/Ash112121/CVE-2020-0601.svg)
+- [https://github.com/modubyk/CVE_2020_0601](https://github.com/modubyk/CVE_2020_0601) :  ![starts](https://img.shields.io/github/stars/modubyk/CVE_2020_0601.svg) ![forks](https://img.shields.io/github/forks/modubyk/CVE_2020_0601.svg)
 
 - [https://github.com/JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/JPurrier/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/JPurrier/CVE-2020-0601.svg)
 
-- [https://github.com/modubyk/CVE_2020_0601](https://github.com/modubyk/CVE_2020_0601) :  ![starts](https://img.shields.io/github/stars/modubyk/CVE_2020_0601.svg) ![forks](https://img.shields.io/github/forks/modubyk/CVE_2020_0601.svg)
+- [https://github.com/Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601) :  ![starts](https://img.shields.io/github/stars/Ash112121/CVE-2020-0601.svg) ![forks](https://img.shields.io/github/forks/Ash112121/CVE-2020-0601.svg)
 
 - [https://github.com/thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl) :  ![starts](https://img.shields.io/github/stars/thimelp/cve-2020-0601-Perl.svg) ![forks](https://img.shields.io/github/forks/thimelp/cve-2020-0601-Perl.svg)
 
