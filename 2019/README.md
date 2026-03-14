@@ -45,9 +45,9 @@
 
 
 
-- [https://github.com/CQ-Tools/CVE-2019-1010091-fixed](https://github.com/CQ-Tools/CVE-2019-1010091-fixed) :  ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2019-1010091-fixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2019-1010091-fixed.svg)
-
 - [https://github.com/CQ-Tools/CVE-2019-1010091-unfixed](https://github.com/CQ-Tools/CVE-2019-1010091-unfixed) :  ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2019-1010091-unfixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2019-1010091-unfixed.svg)
+
+- [https://github.com/CQ-Tools/CVE-2019-1010091-fixed](https://github.com/CQ-Tools/CVE-2019-1010091-fixed) :  ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2019-1010091-fixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2019-1010091-fixed.svg)
 
 - [https://github.com/ossf-cve-benchmark/CVE-2019-1010091](https://github.com/ossf-cve-benchmark/CVE-2019-1010091) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-1010091.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-1010091.svg)
 
@@ -72,7 +72,7 @@
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-1003010-Prasanna-vulnerable](https://github.com/andikahilmy/CVE-2019-1003010-Prasanna-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-1003010-Prasanna-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-1003010-Prasanna-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-1003010-Prasanna-vulnerable](https://github.com/dawetmaster/CVE-2019-1003010-Prasanna-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-1003010-Prasanna-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-1003010-Prasanna-vulnerable.svg)
 
 ## CVE-2019-1003002
  A sandbox bypass vulnerability exists in Pipeline: Declarative Plugin 1.3.3 and earlier in pipeline-model-definition/src/main/groovy/org/jenkinsci/plugins/pipeline/modeldefinition/parser/Converter.groovy that allows attackers with Overall/Read permission to provide a pipeline script to an HTTP endpoint that can result in arbitrary code execution on the Jenkins master JVM.
@@ -103,7 +103,7 @@
 
 - [https://github.com/slowmistio/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins](https://github.com/slowmistio/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins) :  ![starts](https://img.shields.io/github/stars/slowmistio/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins.svg) ![forks](https://img.shields.io/github/forks/slowmistio/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins.svg)
 
-- [https://github.com/andikahilmy/CVE-2019-1003000-script-security-plugin-vulnerable](https://github.com/andikahilmy/CVE-2019-1003000-script-security-plugin-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-1003000-script-security-plugin-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-1003000-script-security-plugin-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-1003000-script-security-plugin-vulnerable](https://github.com/dawetmaster/CVE-2019-1003000-script-security-plugin-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-1003000-script-security-plugin-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-1003000-script-security-plugin-vulnerable.svg)
 
 ## CVE-2019-1002101
  The kubectl cp command allows copying files between containers and the user machine. To copy files from a container, Kubernetes creates a tar inside the container, copies it over the network, and kubectl unpacks it on the user’s machine. If the tar binary in the container is malicious, it could run any code and output unexpected, malicious results. An attacker could use this to write files to any path on the user’s machine when kubectl cp is called, limited only by the system permissions of the local user. The untar function can both create and follow symbolic links. The issue is resolved in kubectl v1.11.9, v1.12.7, v1.13.5, and v1.14.0.
@@ -182,7 +182,7 @@ use after free.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-20330-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-20330-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-20330-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-20330-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-20330-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-20330-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-20330-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-20330-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-20326
  A heap-based buffer overflow in _cairo_image_surface_create_from_jpeg() in extensions/cairo_io/cairo-image-surface-jpeg.c in GNOME gThumb before 3.8.3 and Linux Mint Pix before 2.4.5 allows attackers to cause a crash and potentially execute arbitrary code via a crafted JPEG file.
@@ -371,9 +371,9 @@ use after free.
 
 - [https://github.com/hyunjin0334/CVE-2019-19781](https://github.com/hyunjin0334/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/hyunjin0334/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/hyunjin0334/CVE-2019-19781.svg)
 
-- [https://github.com/tpdlshdmlrkfmcla/CVE-2019-19781](https://github.com/tpdlshdmlrkfmcla/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/tpdlshdmlrkfmcla/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/tpdlshdmlrkfmcla/CVE-2019-19781.svg)
-
 - [https://github.com/zerobytesecure/CVE-2019-19781](https://github.com/zerobytesecure/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/zerobytesecure/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/zerobytesecure/CVE-2019-19781.svg)
+
+- [https://github.com/tpdlshdmlrkfmcla/CVE-2019-19781](https://github.com/tpdlshdmlrkfmcla/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/tpdlshdmlrkfmcla/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/tpdlshdmlrkfmcla/CVE-2019-19781.svg)
 
 - [https://github.com/b510/CVE-2019-19781](https://github.com/b510/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/b510/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/b510/CVE-2019-19781.svg)
 
@@ -385,9 +385,9 @@ use after free.
 
 - [https://github.com/zgelici/CVE-2019-19781-Checker](https://github.com/zgelici/CVE-2019-19781-Checker) :  ![starts](https://img.shields.io/github/stars/zgelici/CVE-2019-19781-Checker.svg) ![forks](https://img.shields.io/github/forks/zgelici/CVE-2019-19781-Checker.svg)
 
-- [https://github.com/Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Castaldio86/Detect-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Castaldio86/Detect-CVE-2019-19781.svg)
-
 - [https://github.com/darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC) :  ![starts](https://img.shields.io/github/stars/darren646/CVE-2019-19781POC.svg) ![forks](https://img.shields.io/github/forks/darren646/CVE-2019-19781POC.svg)
+
+- [https://github.com/Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/Castaldio86/Detect-CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/Castaldio86/Detect-CVE-2019-19781.svg)
 
 - [https://github.com/qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc) :  ![starts](https://img.shields.io/github/stars/qiong-qi/CVE-2019-19781-poc.svg) ![forks](https://img.shields.io/github/forks/qiong-qi/CVE-2019-19781-poc.svg)
 
@@ -837,14 +837,14 @@ use after free.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-18394-Openfire-vulnerable](https://github.com/andikahilmy/CVE-2019-18394-Openfire-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-18394-Openfire-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-18394-Openfire-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-18394-Openfire-vulnerable](https://github.com/dawetmaster/CVE-2019-18394-Openfire-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-18394-Openfire-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-18394-Openfire-vulnerable.svg)
 
 ## CVE-2019-18393
  PluginServlet.java in Ignite Realtime Openfire through 4.4.2 does not ensure that retrieved files are located under the Openfire home directory, aka a directory traversal vulnerability.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-18393-Openfire-vulnerable](https://github.com/andikahilmy/CVE-2019-18393-Openfire-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-18393-Openfire-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-18393-Openfire-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-18393-Openfire-vulnerable](https://github.com/dawetmaster/CVE-2019-18393-Openfire-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-18393-Openfire-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-18393-Openfire-vulnerable.svg)
 
 ## CVE-2019-18371
  An issue was discovered on Xiaomi Mi WiFi R3G devices before 2.28.23-stable. There is a directory traversal vulnerability to read arbitrary files via a misconfigured NGINX alias, as demonstrated by api-third-party/download/extdisks../etc/config/account. With this vulnerability, the attacker can bypass authentication.
@@ -1058,7 +1058,7 @@ use after free.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-17531-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-17531-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-17531-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-17531-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-17531-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-17531-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-17531-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-17531-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-17525
  The login page on D-Link DIR-615 T1 20.10 devices allows remote attackers to bypass the CAPTCHA protection mechanism and conduct brute-force attacks.
@@ -1130,7 +1130,7 @@ use after free.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-17267-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-17267-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-17267-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-17267-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-17267-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-17267-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-17267-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-17267-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-17240
  bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-force protection mechanism by using many different forged X-Forwarded-For or Client-IP HTTP headers.
@@ -1244,14 +1244,14 @@ use after free.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-16943-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-16943-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-16943-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-16943-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-16943-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-16943-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-16943-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-16943-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-16942
  A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the commons-dbcp (1.4) jar in the classpath, and an attacker can find an RMI service endpoint to access, it is possible to make the service execute a malicious payload. This issue exists because of org.apache.commons.dbcp.datasources.SharedPoolDataSource and org.apache.commons.dbcp.datasources.PerUserPoolDataSource mishandling.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-16942-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-16942-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-16942-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-16942-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-16942-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-16942-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-16942-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-16942-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-16941
  NSA Ghidra through 9.0.4, when experimental mode is enabled, allows arbitrary code execution if the Read XML Files feature of Bit Patterns Explorer is used with a modified XML document. This occurs in Features/BytePatterns/src/main/java/ghidra/bitpatterns/info/FileBitPatternInfoReader.java. An attack could start with an XML document that was originally created by DumpFunctionPatternInfoScript but then directly modified by an attacker (for example, to make a java.lang.Runtime.exec call).
@@ -1421,7 +1421,7 @@ use after free.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-16335-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-16335-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-16335-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-16335-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-16335-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-16335-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-16335-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-16335-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-16279
  A memory error in the function SSL_accept in nostromo nhttpd through 1.9.6 allows an attacker to trigger a denial of service via a crafted HTTP request.
@@ -1898,14 +1898,14 @@ use after free.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-14893-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-14893-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-14893-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-14893-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-14893-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-14893-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-14893-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-14893-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-14892
  A flaw was discovered in jackson-databind in versions before 2.9.10, 2.8.11.5 and 2.6.7.3, where it would permit polymorphic deserialization of a malicious object using commons-configuration 1 and 2 JNDI classes. An attacker could use this flaw to execute arbitrary code.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-14892-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-14892-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-14892-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-14892-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-14892-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-14892-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-14892-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-14892-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-14862
  There is a vulnerability in knockout before version 3.5.0-beta, where after escaping the context of the web application, the web application delivers data to its users along with other trusted dynamic content, without validating it.
@@ -1970,7 +1970,7 @@ use after free.
 
 - [https://github.com/LeadroyaL/cve-2019-14540-exploit](https://github.com/LeadroyaL/cve-2019-14540-exploit) :  ![starts](https://img.shields.io/github/stars/LeadroyaL/cve-2019-14540-exploit.svg) ![forks](https://img.shields.io/github/forks/LeadroyaL/cve-2019-14540-exploit.svg)
 
-- [https://github.com/andikahilmy/CVE-2019-14540-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-14540-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-14540-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-14540-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-14540-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-14540-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-14540-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-14540-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-14537
  YOURLS through 1.7.3 is affected by a type juggling vulnerability in the api component that can result in login bypass.
@@ -2023,14 +2023,14 @@ use after free.
 
 - [https://github.com/jas502n/CVE-2019-14439](https://github.com/jas502n/CVE-2019-14439) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-14439.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-14439.svg)
 
-- [https://github.com/andikahilmy/CVE-2019-14439-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-14439-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-14439-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-14439-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-14439-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-14439-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-14439-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-14439-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-14379
  SubTypeValidator.java in FasterXML jackson-databind before 2.9.9.2 mishandles default typing when ehcache is used (because of net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup), leading to remote code execution.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-14379-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-14379-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-14379-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-14379-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-14379-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-14379-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-14379-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-14379-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-14339
  The ContentProvider in the Canon PRINT jp.co.canon.bsd.ad.pixmaprint 2.5.5 application for Android does not properly restrict canon.ij.printer.capability.data data access. This allows an attacker's malicious application to obtain sensitive information including factory passwords for the administrator web interface and WPA2-PSK key.
@@ -2286,9 +2286,9 @@ use after free.
 
 
 
-- [https://github.com/CQ-Tools/CVE-2019-13506-unfixed](https://github.com/CQ-Tools/CVE-2019-13506-unfixed) :  ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2019-13506-unfixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2019-13506-unfixed.svg)
-
 - [https://github.com/CQ-Tools/CVE-2019-13506-fixed](https://github.com/CQ-Tools/CVE-2019-13506-fixed) :  ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2019-13506-fixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2019-13506-fixed.svg)
+
+- [https://github.com/CQ-Tools/CVE-2019-13506-unfixed](https://github.com/CQ-Tools/CVE-2019-13506-unfixed) :  ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2019-13506-unfixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2019-13506-unfixed.svg)
 
 - [https://github.com/ossf-cve-benchmark/CVE-2019-13506](https://github.com/ossf-cve-benchmark/CVE-2019-13506) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-13506.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-13506.svg)
 
@@ -2622,7 +2622,7 @@ use after free.
 
 - [https://github.com/Al1ex/CVE-2019-12814](https://github.com/Al1ex/CVE-2019-12814) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2019-12814.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2019-12814.svg)
 
-- [https://github.com/andikahilmy/CVE-2019-12814-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-12814-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-12814-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-12814-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-12814-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-12814-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-12814-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-12814-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-12796
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
@@ -2833,7 +2833,7 @@ use after free.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-12402-commons-compress-vulnerable](https://github.com/andikahilmy/CVE-2019-12402-commons-compress-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-12402-commons-compress-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-12402-commons-compress-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-12402-commons-compress-vulnerable](https://github.com/dawetmaster/CVE-2019-12402-commons-compress-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-12402-commons-compress-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-12402-commons-compress-vulnerable.svg)
 
 ## CVE-2019-12401
  Solr versions 1.3.0 to 1.4.1, 3.1.0 to 3.6.2 and 4.0.0 to 4.10.4 are vulnerable to an XML resource consumption attack (a.k.a. Lol Bomb) via it’s update handler.?By leveraging XML DOCTYPE and ENTITY type elements, the attacker can create a pattern that will expand when the server parses the XML causing OOMs.
@@ -2847,7 +2847,7 @@ use after free.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-12400-santuario-java-vulnerable](https://github.com/andikahilmy/CVE-2019-12400-santuario-java-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-12400-santuario-java-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-12400-santuario-java-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-12400-santuario-java-vulnerable](https://github.com/dawetmaster/CVE-2019-12400-santuario-java-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-12400-santuario-java-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-12400-santuario-java-vulnerable.svg)
 
 ## CVE-2019-12384
  FasterXML jackson-databind 2.x before 2.9.9.1 might allow attackers to have a variety of impacts by leveraging failure to block the logback-core class from polymorphic deserialization. Depending on the classpath content, remote code execution may be possible.
@@ -2858,7 +2858,7 @@ use after free.
 
 - [https://github.com/MagicZer0/Jackson_RCE-CVE-2019-12384](https://github.com/MagicZer0/Jackson_RCE-CVE-2019-12384) :  ![starts](https://img.shields.io/github/stars/MagicZer0/Jackson_RCE-CVE-2019-12384.svg) ![forks](https://img.shields.io/github/forks/MagicZer0/Jackson_RCE-CVE-2019-12384.svg)
 
-- [https://github.com/andikahilmy/CVE-2019-12384-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-12384-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-12384-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-12384-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-12384-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-12384-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-12384-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-12384-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-12314
  Deltek Maconomy 2.2.5 is prone to local file inclusion via absolute path traversal in the WS.macx1.W_MCS/ PATH_INFO, as demonstrated by a cgi-bin/Maconomy/MaconomyWS.macx1.W_MCS/etc/passwd URI.
@@ -2971,7 +2971,7 @@ use after free.
 
 - [https://github.com/Al1ex/CVE-2019-12086](https://github.com/Al1ex/CVE-2019-12086) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2019-12086.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2019-12086.svg)
 
-- [https://github.com/andikahilmy/CVE-2019-12086-jackson-databind-vulnerable](https://github.com/andikahilmy/CVE-2019-12086-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-12086-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-12086-jackson-databind-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-12086-jackson-databind-vulnerable](https://github.com/dawetmaster/CVE-2019-12086-jackson-databind-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-12086-jackson-databind-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-12086-jackson-databind-vulnerable.svg)
 
 ## CVE-2019-12043
  In remarkable 1.7.1, lib/parser_inline.js mishandles URL filtering, which allows attackers to trigger XSS via unprintable characters, as demonstrated by a \x0ejavascript: URL.
@@ -3411,9 +3411,9 @@ use after free.
 
 
 
-- [https://github.com/CQ-Tools/CVE-2019-10785-fixed](https://github.com/CQ-Tools/CVE-2019-10785-fixed) :  ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2019-10785-fixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2019-10785-fixed.svg)
-
 - [https://github.com/CQ-Tools/CVE-2019-10785-unfixed](https://github.com/CQ-Tools/CVE-2019-10785-unfixed) :  ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2019-10785-unfixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2019-10785-unfixed.svg)
+
+- [https://github.com/CQ-Tools/CVE-2019-10785-fixed](https://github.com/CQ-Tools/CVE-2019-10785-fixed) :  ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2019-10785-fixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2019-10785-fixed.svg)
 
 - [https://github.com/ossf-cve-benchmark/CVE-2019-10785](https://github.com/ossf-cve-benchmark/CVE-2019-10785) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2019-10785.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2019-10785.svg)
 
@@ -3653,7 +3653,7 @@ use after free.
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-10219-hibernate-validator-vulnerable](https://github.com/andikahilmy/CVE-2019-10219-hibernate-validator-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-10219-hibernate-validator-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-10219-hibernate-validator-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-10219-hibernate-validator-vulnerable](https://github.com/dawetmaster/CVE-2019-10219-hibernate-validator-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-10219-hibernate-validator-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-10219-hibernate-validator-vulnerable.svg)
 
 - [https://github.com/shoucheng3/hibernate__hibernate-validator_CVE-2019-10219_6-0-17-Final](https://github.com/shoucheng3/hibernate__hibernate-validator_CVE-2019-10219_6-0-17-Final) :  ![starts](https://img.shields.io/github/stars/shoucheng3/hibernate__hibernate-validator_CVE-2019-10219_6-0-17-Final.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/hibernate__hibernate-validator_CVE-2019-10219_6-0-17-Final.svg)
 
@@ -3925,9 +3925,9 @@ use after free.
 
 - [https://github.com/recozone/HyperSine](https://github.com/recozone/HyperSine) :  ![starts](https://img.shields.io/github/stars/recozone/HyperSine.svg) ![forks](https://img.shields.io/github/forks/recozone/HyperSine.svg)
 
-- [https://github.com/huangyutange0uywlcn/HyperSine](https://github.com/huangyutange0uywlcn/HyperSine) :  ![starts](https://img.shields.io/github/stars/huangyutange0uywlcn/HyperSine.svg) ![forks](https://img.shields.io/github/forks/huangyutange0uywlcn/HyperSine.svg)
-
 - [https://github.com/timeowilliamsq/HyperSine](https://github.com/timeowilliamsq/HyperSine) :  ![starts](https://img.shields.io/github/stars/timeowilliamsq/HyperSine.svg) ![forks](https://img.shields.io/github/forks/timeowilliamsq/HyperSine.svg)
+
+- [https://github.com/huangyutange0uywlcn/HyperSine](https://github.com/huangyutange0uywlcn/HyperSine) :  ![starts](https://img.shields.io/github/stars/huangyutange0uywlcn/HyperSine.svg) ![forks](https://img.shields.io/github/forks/huangyutange0uywlcn/HyperSine.svg)
 
 ## CVE-2019-9673
  Freenet 1483 has a MIME type bypass that allows arbitrary JavaScript execution via a crafted Freenet URI.
@@ -4963,9 +4963,9 @@ use after free.
 
 - [https://github.com/likekabin/CVE-2019-5736](https://github.com/likekabin/CVE-2019-5736) :  ![starts](https://img.shields.io/github/stars/likekabin/CVE-2019-5736.svg) ![forks](https://img.shields.io/github/forks/likekabin/CVE-2019-5736.svg)
 
-- [https://github.com/b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736) :  ![starts](https://img.shields.io/github/stars/b3d3c/poc-cve-2019-5736.svg) ![forks](https://img.shields.io/github/forks/b3d3c/poc-cve-2019-5736.svg)
-
 - [https://github.com/panzouh/Docker-Runc-Exploit](https://github.com/panzouh/Docker-Runc-Exploit) :  ![starts](https://img.shields.io/github/stars/panzouh/Docker-Runc-Exploit.svg) ![forks](https://img.shields.io/github/forks/panzouh/Docker-Runc-Exploit.svg)
+
+- [https://github.com/b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736) :  ![starts](https://img.shields.io/github/stars/b3d3c/poc-cve-2019-5736.svg) ![forks](https://img.shields.io/github/forks/b3d3c/poc-cve-2019-5736.svg)
 
 - [https://github.com/GiverOfGifts/CVE-2019-5736-Custom-Runtime](https://github.com/GiverOfGifts/CVE-2019-5736-Custom-Runtime) :  ![starts](https://img.shields.io/github/stars/GiverOfGifts/CVE-2019-5736-Custom-Runtime.svg) ![forks](https://img.shields.io/github/forks/GiverOfGifts/CVE-2019-5736-Custom-Runtime.svg)
 
@@ -5960,21 +5960,6 @@ use after free.
 
 - [https://github.com/PeterUpfold/CVE-2019-12796](https://github.com/PeterUpfold/CVE-2019-12796) :  ![starts](https://img.shields.io/github/stars/PeterUpfold/CVE-2019-12796.svg) ![forks](https://img.shields.io/github/forks/PeterUpfold/CVE-2019-12796.svg)
 
-## CVE-2019-1253
- An elevation of privilege vulnerability exists when the Windows AppX Deployment Server improperly handles junctions.To exploit this vulnerability, an attacker would first have to gain execution on the victim system, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1215, CVE-2019-1278, CVE-2019-1303.
-
-
-
-- [https://github.com/padovah4ck/CVE-2019-1253](https://github.com/padovah4ck/CVE-2019-1253) :  ![starts](https://img.shields.io/github/stars/padovah4ck/CVE-2019-1253.svg) ![forks](https://img.shields.io/github/forks/padovah4ck/CVE-2019-1253.svg)
-
-- [https://github.com/rogue-kdc/CVE-2019-1253](https://github.com/rogue-kdc/CVE-2019-1253) :  ![starts](https://img.shields.io/github/stars/rogue-kdc/CVE-2019-1253.svg) ![forks](https://img.shields.io/github/forks/rogue-kdc/CVE-2019-1253.svg)
-
-- [https://github.com/sgabe/CVE-2019-1253](https://github.com/sgabe/CVE-2019-1253) :  ![starts](https://img.shields.io/github/stars/sgabe/CVE-2019-1253.svg) ![forks](https://img.shields.io/github/forks/sgabe/CVE-2019-1253.svg)
-
-- [https://github.com/offsec-ttps/CVE2019-1253-Compiled](https://github.com/offsec-ttps/CVE2019-1253-Compiled) :  ![starts](https://img.shields.io/github/stars/offsec-ttps/CVE2019-1253-Compiled.svg) ![forks](https://img.shields.io/github/forks/offsec-ttps/CVE2019-1253-Compiled.svg)
-
-- [https://github.com/likekabin/CVE-2019-1253](https://github.com/likekabin/CVE-2019-1253) :  ![starts](https://img.shields.io/github/stars/likekabin/CVE-2019-1253.svg) ![forks](https://img.shields.io/github/forks/likekabin/CVE-2019-1253.svg)
-
 ## CVE-2019-1221
  A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'.
 
@@ -6434,11 +6419,11 @@ The security update addresses the vulnerability by correcting how Hyper-V valida
 
 - [https://github.com/JasonLOU/CVE-2019-0708](https://github.com/JasonLOU/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/JasonLOU/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/JasonLOU/CVE-2019-0708.svg)
 
+- [https://github.com/wdfcc/CVE-2019-0708](https://github.com/wdfcc/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/wdfcc/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/wdfcc/CVE-2019-0708.svg)
+
 - [https://github.com/gildaaa/CVE-2019-0708](https://github.com/gildaaa/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/gildaaa/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/gildaaa/CVE-2019-0708.svg)
 
 - [https://github.com/1aa87148377/CVE-2019-0708](https://github.com/1aa87148377/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/1aa87148377/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/1aa87148377/CVE-2019-0708.svg)
-
-- [https://github.com/wdfcc/CVE-2019-0708](https://github.com/wdfcc/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/wdfcc/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/wdfcc/CVE-2019-0708.svg)
 
 - [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
 
@@ -6646,7 +6631,7 @@ The security update addresses the vulnerability by correcting how Hyper-V valida
 
 
 
-- [https://github.com/andikahilmy/CVE-2019-0201-zookeeper-vulnerable](https://github.com/andikahilmy/CVE-2019-0201-zookeeper-vulnerable) :  ![starts](https://img.shields.io/github/stars/andikahilmy/CVE-2019-0201-zookeeper-vulnerable.svg) ![forks](https://img.shields.io/github/forks/andikahilmy/CVE-2019-0201-zookeeper-vulnerable.svg)
+- [https://github.com/dawetmaster/CVE-2019-0201-zookeeper-vulnerable](https://github.com/dawetmaster/CVE-2019-0201-zookeeper-vulnerable) :  ![starts](https://img.shields.io/github/stars/dawetmaster/CVE-2019-0201-zookeeper-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dawetmaster/CVE-2019-0201-zookeeper-vulnerable.svg)
 
 ## CVE-2019-0194
  Apache Camel's File is vulnerable to directory traversal. Camel 2.21.0 to 2.21.3, 2.22.0 to 2.22.2, 2.23.0 and the unsupported Camel 2.x (2.19 and earlier) versions may be also affected.
