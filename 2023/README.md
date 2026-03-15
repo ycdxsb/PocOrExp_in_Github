@@ -270,13 +270,13 @@ We recommend users to:
 
 - [https://github.com/c0deur/CVE-2023-51385](https://github.com/c0deur/CVE-2023-51385) :  ![starts](https://img.shields.io/github/stars/c0deur/CVE-2023-51385.svg) ![forks](https://img.shields.io/github/forks/c0deur/CVE-2023-51385.svg)
 
+- [https://github.com/endasugrue/CVE-2023-51385_poc](https://github.com/endasugrue/CVE-2023-51385_poc) :  ![starts](https://img.shields.io/github/stars/endasugrue/CVE-2023-51385_poc.svg) ![forks](https://img.shields.io/github/forks/endasugrue/CVE-2023-51385_poc.svg)
+
 - [https://github.com/watarium/poc-cve-2023-51385](https://github.com/watarium/poc-cve-2023-51385) :  ![starts](https://img.shields.io/github/stars/watarium/poc-cve-2023-51385.svg) ![forks](https://img.shields.io/github/forks/watarium/poc-cve-2023-51385.svg)
 
 - [https://github.com/GroundCTL2MajorTom/CVE-2023-51385POC](https://github.com/GroundCTL2MajorTom/CVE-2023-51385POC) :  ![starts](https://img.shields.io/github/stars/GroundCTL2MajorTom/CVE-2023-51385POC.svg) ![forks](https://img.shields.io/github/forks/GroundCTL2MajorTom/CVE-2023-51385POC.svg)
 
 - [https://github.com/MiningBot-eth/CVE-2023-51385-exploit](https://github.com/MiningBot-eth/CVE-2023-51385-exploit) :  ![starts](https://img.shields.io/github/stars/MiningBot-eth/CVE-2023-51385-exploit.svg) ![forks](https://img.shields.io/github/forks/MiningBot-eth/CVE-2023-51385-exploit.svg)
-
-- [https://github.com/endasugrue/CVE-2023-51385_poc](https://github.com/endasugrue/CVE-2023-51385_poc) :  ![starts](https://img.shields.io/github/stars/endasugrue/CVE-2023-51385_poc.svg) ![forks](https://img.shields.io/github/forks/endasugrue/CVE-2023-51385_poc.svg)
 
 - [https://github.com/power1314520/CVE-2023-51385_test](https://github.com/power1314520/CVE-2023-51385_test) :  ![starts](https://img.shields.io/github/stars/power1314520/CVE-2023-51385_test.svg) ![forks](https://img.shields.io/github/forks/power1314520/CVE-2023-51385_test.svg)
 
@@ -1532,9 +1532,9 @@ which fixes this issue.
 
 - [https://github.com/ImuSpirit/ActiveMQ_RCE_Pro_Max](https://github.com/ImuSpirit/ActiveMQ_RCE_Pro_Max) :  ![starts](https://img.shields.io/github/stars/ImuSpirit/ActiveMQ_RCE_Pro_Max.svg) ![forks](https://img.shields.io/github/forks/ImuSpirit/ActiveMQ_RCE_Pro_Max.svg)
 
-- [https://github.com/evkl1d/CVE-2023-46604](https://github.com/evkl1d/CVE-2023-46604) :  ![starts](https://img.shields.io/github/stars/evkl1d/CVE-2023-46604.svg) ![forks](https://img.shields.io/github/forks/evkl1d/CVE-2023-46604.svg)
-
 - [https://github.com/Arlenhiack/ActiveMQ-RCE-Exploit](https://github.com/Arlenhiack/ActiveMQ-RCE-Exploit) :  ![starts](https://img.shields.io/github/stars/Arlenhiack/ActiveMQ-RCE-Exploit.svg) ![forks](https://img.shields.io/github/forks/Arlenhiack/ActiveMQ-RCE-Exploit.svg)
+
+- [https://github.com/evkl1d/CVE-2023-46604](https://github.com/evkl1d/CVE-2023-46604) :  ![starts](https://img.shields.io/github/stars/evkl1d/CVE-2023-46604.svg) ![forks](https://img.shields.io/github/forks/evkl1d/CVE-2023-46604.svg)
 
 - [https://github.com/trganda/ActiveMQ-RCE](https://github.com/trganda/ActiveMQ-RCE) :  ![starts](https://img.shields.io/github/stars/trganda/ActiveMQ-RCE.svg) ![forks](https://img.shields.io/github/forks/trganda/ActiveMQ-RCE.svg)
 
@@ -1581,6 +1581,8 @@ which fixes this issue.
 - [https://github.com/dcm2406/CVE-2023-46604](https://github.com/dcm2406/CVE-2023-46604) :  ![starts](https://img.shields.io/github/stars/dcm2406/CVE-2023-46604.svg) ![forks](https://img.shields.io/github/forks/dcm2406/CVE-2023-46604.svg)
 
 - [https://github.com/hh-hunter/cve-2023-46604](https://github.com/hh-hunter/cve-2023-46604) :  ![starts](https://img.shields.io/github/stars/hh-hunter/cve-2023-46604.svg) ![forks](https://img.shields.io/github/forks/hh-hunter/cve-2023-46604.svg)
+
+- [https://github.com/sangrok-jeon/CVE-2023-46604-Analysis](https://github.com/sangrok-jeon/CVE-2023-46604-Analysis) :  ![starts](https://img.shields.io/github/stars/sangrok-jeon/CVE-2023-46604-Analysis.svg) ![forks](https://img.shields.io/github/forks/sangrok-jeon/CVE-2023-46604-Analysis.svg)
 
 - [https://github.com/vjayant93/CVE-2023-46604-POC](https://github.com/vjayant93/CVE-2023-46604-POC) :  ![starts](https://img.shields.io/github/stars/vjayant93/CVE-2023-46604-POC.svg) ![forks](https://img.shields.io/github/forks/vjayant93/CVE-2023-46604-POC.svg)
 
@@ -2783,9 +2785,9 @@ Users are recommended to upgrade to version 2.4.58, which fixes the issue.
 
 - [https://github.com/DDestinys/CVE-2023-42793](https://github.com/DDestinys/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/DDestinys/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/DDestinys/CVE-2023-42793.svg)
 
-- [https://github.com/syorik/CVE-2023-42793](https://github.com/syorik/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/syorik/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/syorik/CVE-2023-42793.svg)
-
 - [https://github.com/cxdxnt/CVE-2023-42793](https://github.com/cxdxnt/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/cxdxnt/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/cxdxnt/CVE-2023-42793.svg)
+
+- [https://github.com/syorik/CVE-2023-42793](https://github.com/syorik/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/syorik/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/syorik/CVE-2023-42793.svg)
 
 - [https://github.com/whoamins/CVE-2023-42793](https://github.com/whoamins/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/whoamins/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/whoamins/CVE-2023-42793.svg)
 
@@ -3912,9 +3914,9 @@ AMI AptioV contains a vulnerability in BIOS where a User may cause an unrestrict
 
 - [https://github.com/kehrijksen/CVE-2023-38831](https://github.com/kehrijksen/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/kehrijksen/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/kehrijksen/CVE-2023-38831.svg)
 
-- [https://github.com/ngothienan/CVE-2023-38831](https://github.com/ngothienan/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/ngothienan/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/ngothienan/CVE-2023-38831.svg)
-
 - [https://github.com/FirFirdaus/CVE-2023-38831](https://github.com/FirFirdaus/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/FirFirdaus/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/FirFirdaus/CVE-2023-38831.svg)
+
+- [https://github.com/ngothienan/CVE-2023-38831](https://github.com/ngothienan/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/ngothienan/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/ngothienan/CVE-2023-38831.svg)
 
 - [https://github.com/idkwastaken/CVE-2023-38831](https://github.com/idkwastaken/CVE-2023-38831) :  ![starts](https://img.shields.io/github/stars/idkwastaken/CVE-2023-38831.svg) ![forks](https://img.shields.io/github/forks/idkwastaken/CVE-2023-38831.svg)
 
@@ -4798,9 +4800,9 @@ prior to
 
 - [https://github.com/kopfjager007/CVE-2023-36845](https://github.com/kopfjager007/CVE-2023-36845) :  ![starts](https://img.shields.io/github/stars/kopfjager007/CVE-2023-36845.svg) ![forks](https://img.shields.io/github/forks/kopfjager007/CVE-2023-36845.svg)
 
-- [https://github.com/P4x1s/ansible-cve-2023-36845](https://github.com/P4x1s/ansible-cve-2023-36845) :  ![starts](https://img.shields.io/github/stars/P4x1s/ansible-cve-2023-36845.svg) ![forks](https://img.shields.io/github/forks/P4x1s/ansible-cve-2023-36845.svg)
-
 - [https://github.com/iveresk/CVE-2023-36845-6-](https://github.com/iveresk/CVE-2023-36845-6-) :  ![starts](https://img.shields.io/github/stars/iveresk/CVE-2023-36845-6-.svg) ![forks](https://img.shields.io/github/forks/iveresk/CVE-2023-36845-6-.svg)
+
+- [https://github.com/P4x1s/ansible-cve-2023-36845](https://github.com/P4x1s/ansible-cve-2023-36845) :  ![starts](https://img.shields.io/github/stars/P4x1s/ansible-cve-2023-36845.svg) ![forks](https://img.shields.io/github/forks/P4x1s/ansible-cve-2023-36845.svg)
 
 - [https://github.com/CharonDefalt/Juniper-exploit-CVE-2023-36845](https://github.com/CharonDefalt/Juniper-exploit-CVE-2023-36845) :  ![starts](https://img.shields.io/github/stars/CharonDefalt/Juniper-exploit-CVE-2023-36845.svg) ![forks](https://img.shields.io/github/forks/CharonDefalt/Juniper-exploit-CVE-2023-36845.svg)
 
@@ -7274,9 +7276,9 @@ Upgrade deployments to release v2.43.0 or higher to receive a patch. This releas
 
 - [https://github.com/md-thalal/CVE-2023-29489](https://github.com/md-thalal/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/md-thalal/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/md-thalal/CVE-2023-29489.svg)
 
-- [https://github.com/SynixCyberCrimeMy/CVE-2023-29489](https://github.com/SynixCyberCrimeMy/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/SynixCyberCrimeMy/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/SynixCyberCrimeMy/CVE-2023-29489.svg)
-
 - [https://github.com/tucommenceapousser/CVE-2023-29489](https://github.com/tucommenceapousser/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/tucommenceapousser/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/tucommenceapousser/CVE-2023-29489.svg)
+
+- [https://github.com/SynixCyberCrimeMy/CVE-2023-29489](https://github.com/SynixCyberCrimeMy/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/SynixCyberCrimeMy/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/SynixCyberCrimeMy/CVE-2023-29489.svg)
 
 - [https://github.com/Cappricio-Securities/CVE-2023-29489](https://github.com/Cappricio-Securities/CVE-2023-29489) :  ![starts](https://img.shields.io/github/stars/Cappricio-Securities/CVE-2023-29489.svg) ![forks](https://img.shields.io/github/forks/Cappricio-Securities/CVE-2023-29489.svg)
 
@@ -7906,6 +7908,8 @@ Alternatively you can set it with `SUPERSET_SECRET_KEY` environment variable.
 
 - [https://github.com/h1n4mx0/Research-CVE-2023-27524](https://github.com/h1n4mx0/Research-CVE-2023-27524) :  ![starts](https://img.shields.io/github/stars/h1n4mx0/Research-CVE-2023-27524.svg) ![forks](https://img.shields.io/github/forks/h1n4mx0/Research-CVE-2023-27524.svg)
 
+- [https://github.com/sumaiyafathima-code/CVE-2023-27524](https://github.com/sumaiyafathima-code/CVE-2023-27524) :  ![starts](https://img.shields.io/github/stars/sumaiyafathima-code/CVE-2023-27524.svg) ![forks](https://img.shields.io/github/forks/sumaiyafathima-code/CVE-2023-27524.svg)
+
 - [https://github.com/MaanVader/CVE-2023-27524-POC](https://github.com/MaanVader/CVE-2023-27524-POC) :  ![starts](https://img.shields.io/github/stars/MaanVader/CVE-2023-27524-POC.svg) ![forks](https://img.shields.io/github/forks/MaanVader/CVE-2023-27524-POC.svg)
 
 - [https://github.com/CN016/Apache-Superset-SECRET_KEY-CVE-2023-27524-](https://github.com/CN016/Apache-Superset-SECRET_KEY-CVE-2023-27524-) :  ![starts](https://img.shields.io/github/stars/CN016/Apache-Superset-SECRET_KEY-CVE-2023-27524-.svg) ![forks](https://img.shields.io/github/forks/CN016/Apache-Superset-SECRET_KEY-CVE-2023-27524-.svg)
@@ -8066,9 +8070,9 @@ The specific flaw exists within the Toolgate component. The issue results from t
 
 - [https://github.com/overgrowncarrot1/CVE-2023-27163](https://github.com/overgrowncarrot1/CVE-2023-27163) :  ![starts](https://img.shields.io/github/stars/overgrowncarrot1/CVE-2023-27163.svg) ![forks](https://img.shields.io/github/forks/overgrowncarrot1/CVE-2023-27163.svg)
 
-- [https://github.com/cowsecurity/CVE-2023-27163](https://github.com/cowsecurity/CVE-2023-27163) :  ![starts](https://img.shields.io/github/stars/cowsecurity/CVE-2023-27163.svg) ![forks](https://img.shields.io/github/forks/cowsecurity/CVE-2023-27163.svg)
-
 - [https://github.com/Hamibubu/CVE-2023-27163](https://github.com/Hamibubu/CVE-2023-27163) :  ![starts](https://img.shields.io/github/stars/Hamibubu/CVE-2023-27163.svg) ![forks](https://img.shields.io/github/forks/Hamibubu/CVE-2023-27163.svg)
+
+- [https://github.com/cowsecurity/CVE-2023-27163](https://github.com/cowsecurity/CVE-2023-27163) :  ![starts](https://img.shields.io/github/stars/cowsecurity/CVE-2023-27163.svg) ![forks](https://img.shields.io/github/forks/cowsecurity/CVE-2023-27163.svg)
 
 - [https://github.com/madhavmehndiratta/CVE-2023-27163](https://github.com/madhavmehndiratta/CVE-2023-27163) :  ![starts](https://img.shields.io/github/stars/madhavmehndiratta/CVE-2023-27163.svg) ![forks](https://img.shields.io/github/forks/madhavmehndiratta/CVE-2023-27163.svg)
 
@@ -8714,9 +8718,9 @@ Note that, like all of the file upload limits, the
 
 
 
-- [https://github.com/skulkarni-mv/goIssue_kirkstone](https://github.com/skulkarni-mv/goIssue_kirkstone) :  ![starts](https://img.shields.io/github/stars/skulkarni-mv/goIssue_kirkstone.svg) ![forks](https://img.shields.io/github/forks/skulkarni-mv/goIssue_kirkstone.svg)
-
 - [https://github.com/skulkarni-mv/goIssue_dunfell](https://github.com/skulkarni-mv/goIssue_dunfell) :  ![starts](https://img.shields.io/github/stars/skulkarni-mv/goIssue_dunfell.svg) ![forks](https://img.shields.io/github/forks/skulkarni-mv/goIssue_dunfell.svg)
+
+- [https://github.com/skulkarni-mv/goIssue_kirkstone](https://github.com/skulkarni-mv/goIssue_kirkstone) :  ![starts](https://img.shields.io/github/stars/skulkarni-mv/goIssue_kirkstone.svg) ![forks](https://img.shields.io/github/forks/skulkarni-mv/goIssue_kirkstone.svg)
 
 ## CVE-2023-24517
  Unrestricted Upload of File with Dangerous Type vulnerability in the Pandora FMS File Manager component, allows an attacker to make make use of this issue ( unrestricted file upload ) to execute arbitrary system commands. This issue affects Pandora FMS v767 version and prior versions on all platforms.
@@ -8935,8 +8939,6 @@ Note that, like all of the file upload limits, the
 
 - [https://github.com/Vulnmachines/joomla_CVE-2023-23752](https://github.com/Vulnmachines/joomla_CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Vulnmachines/joomla_CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Vulnmachines/joomla_CVE-2023-23752.svg)
 
-- [https://github.com/mil4ne/CVE-2023-23752-Joomla-v4.2.8](https://github.com/mil4ne/CVE-2023-23752-Joomla-v4.2.8) :  ![starts](https://img.shields.io/github/stars/mil4ne/CVE-2023-23752-Joomla-v4.2.8.svg) ![forks](https://img.shields.io/github/forks/mil4ne/CVE-2023-23752-Joomla-v4.2.8.svg)
-
 - [https://github.com/JohnDoeAnonITA/CVE-2023-23752](https://github.com/JohnDoeAnonITA/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/JohnDoeAnonITA/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/JohnDoeAnonITA/CVE-2023-23752.svg)
 
 - [https://github.com/blacks1ph0n/CVE-2023-23752](https://github.com/blacks1ph0n/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/blacks1ph0n/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/blacks1ph0n/CVE-2023-23752.svg)
@@ -8985,17 +8987,17 @@ Note that, like all of the file upload limits, the
 
 - [https://github.com/0xx01/CVE-2023-23752](https://github.com/0xx01/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/0xx01/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/0xx01/CVE-2023-23752.svg)
 
+- [https://github.com/sw0rd1ight/CVE-2023-23752](https://github.com/sw0rd1ight/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/sw0rd1ight/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/sw0rd1ight/CVE-2023-23752.svg)
+
 - [https://github.com/shellvik/CVE-2023-23752](https://github.com/shellvik/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/shellvik/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/shellvik/CVE-2023-23752.svg)
 
 - [https://github.com/MrP4nda1337/CVE-2023-23752](https://github.com/MrP4nda1337/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/MrP4nda1337/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/MrP4nda1337/CVE-2023-23752.svg)
 
-- [https://github.com/sw0rd1ight/CVE-2023-23752](https://github.com/sw0rd1ight/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/sw0rd1ight/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/sw0rd1ight/CVE-2023-23752.svg)
-
 - [https://github.com/yTxZx/CVE-2023-23752](https://github.com/yTxZx/CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/yTxZx/CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/yTxZx/CVE-2023-23752.svg)
 
-- [https://github.com/Ge-Per/Scanner-CVE-2023-23752](https://github.com/Ge-Per/Scanner-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Ge-Per/Scanner-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Ge-Per/Scanner-CVE-2023-23752.svg)
-
 - [https://github.com/hadrian3689/CVE-2023-23752_Joomla](https://github.com/hadrian3689/CVE-2023-23752_Joomla) :  ![starts](https://img.shields.io/github/stars/hadrian3689/CVE-2023-23752_Joomla.svg) ![forks](https://img.shields.io/github/forks/hadrian3689/CVE-2023-23752_Joomla.svg)
+
+- [https://github.com/Ge-Per/Scanner-CVE-2023-23752](https://github.com/Ge-Per/Scanner-CVE-2023-23752) :  ![starts](https://img.shields.io/github/stars/Ge-Per/Scanner-CVE-2023-23752.svg) ![forks](https://img.shields.io/github/forks/Ge-Per/Scanner-CVE-2023-23752.svg)
 
 - [https://github.com/mariovata/CVE-2023-23752-Python](https://github.com/mariovata/CVE-2023-23752-Python) :  ![starts](https://img.shields.io/github/stars/mariovata/CVE-2023-23752-Python.svg) ![forks](https://img.shields.io/github/forks/mariovata/CVE-2023-23752-Python.svg)
 
@@ -10233,11 +10235,11 @@ Insufficient validation in the IOCTL (Input Output Control) input buffer in AMD 
 
 - [https://github.com/emomeni/Simple-Ansible-for-CVE-2023-20198](https://github.com/emomeni/Simple-Ansible-for-CVE-2023-20198) :  ![starts](https://img.shields.io/github/stars/emomeni/Simple-Ansible-for-CVE-2023-20198.svg) ![forks](https://img.shields.io/github/forks/emomeni/Simple-Ansible-for-CVE-2023-20198.svg)
 
-- [https://github.com/Religan/CVE-2023-20198](https://github.com/Religan/CVE-2023-20198) :  ![starts](https://img.shields.io/github/stars/Religan/CVE-2023-20198.svg) ![forks](https://img.shields.io/github/forks/Religan/CVE-2023-20198.svg)
+- [https://github.com/ohlawd/CVE-2023-20198](https://github.com/ohlawd/CVE-2023-20198) :  ![starts](https://img.shields.io/github/stars/ohlawd/CVE-2023-20198.svg) ![forks](https://img.shields.io/github/forks/ohlawd/CVE-2023-20198.svg)
 
 - [https://github.com/sanan2004/CVE-2023-20198](https://github.com/sanan2004/CVE-2023-20198) :  ![starts](https://img.shields.io/github/stars/sanan2004/CVE-2023-20198.svg) ![forks](https://img.shields.io/github/forks/sanan2004/CVE-2023-20198.svg)
 
-- [https://github.com/ohlawd/CVE-2023-20198](https://github.com/ohlawd/CVE-2023-20198) :  ![starts](https://img.shields.io/github/stars/ohlawd/CVE-2023-20198.svg) ![forks](https://img.shields.io/github/forks/ohlawd/CVE-2023-20198.svg)
+- [https://github.com/Religan/CVE-2023-20198](https://github.com/Religan/CVE-2023-20198) :  ![starts](https://img.shields.io/github/stars/Religan/CVE-2023-20198.svg) ![forks](https://img.shields.io/github/forks/Religan/CVE-2023-20198.svg)
 
 - [https://github.com/JoyGhoshs/CVE-2023-20198](https://github.com/JoyGhoshs/CVE-2023-20198) :  ![starts](https://img.shields.io/github/stars/JoyGhoshs/CVE-2023-20198.svg) ![forks](https://img.shields.io/github/forks/JoyGhoshs/CVE-2023-20198.svg)
 
@@ -11442,9 +11444,9 @@ We recommend upgrading past commit 790c2f9d15b594350ae9bca7b236f2b1859de02c.
 
 
 
-- [https://github.com/Sh33talUmath/CVE-2023-41535](https://github.com/Sh33talUmath/CVE-2023-41535) :  ![starts](https://img.shields.io/github/stars/Sh33talUmath/CVE-2023-41535.svg) ![forks](https://img.shields.io/github/forks/Sh33talUmath/CVE-2023-41535.svg)
-
 - [https://github.com/Sh33talUmath/CVE-2023-41534](https://github.com/Sh33talUmath/CVE-2023-41534) :  ![starts](https://img.shields.io/github/stars/Sh33talUmath/CVE-2023-41534.svg) ![forks](https://img.shields.io/github/forks/Sh33talUmath/CVE-2023-41534.svg)
+
+- [https://github.com/Sh33talUmath/CVE-2023-41535](https://github.com/Sh33talUmath/CVE-2023-41535) :  ![starts](https://img.shields.io/github/stars/Sh33talUmath/CVE-2023-41535.svg) ![forks](https://img.shields.io/github/forks/Sh33talUmath/CVE-2023-41535.svg)
 
 - [https://github.com/Sh33talUmath/CVE-2023-41533](https://github.com/Sh33talUmath/CVE-2023-41533) :  ![starts](https://img.shields.io/github/stars/Sh33talUmath/CVE-2023-41533.svg) ![forks](https://img.shields.io/github/forks/Sh33talUmath/CVE-2023-41533.svg)
 
@@ -11673,9 +11675,9 @@ All versions of GE Digital CIMPLICITY that are not adhering to SDG guidance and 
 
 - [https://github.com/ollie-blue/CVE_2023_3460](https://github.com/ollie-blue/CVE_2023_3460) :  ![starts](https://img.shields.io/github/stars/ollie-blue/CVE_2023_3460.svg) ![forks](https://img.shields.io/github/forks/ollie-blue/CVE_2023_3460.svg)
 
-- [https://github.com/DiMarcoSK/CVE-2023-3460_POC](https://github.com/DiMarcoSK/CVE-2023-3460_POC) :  ![starts](https://img.shields.io/github/stars/DiMarcoSK/CVE-2023-3460_POC.svg) ![forks](https://img.shields.io/github/forks/DiMarcoSK/CVE-2023-3460_POC.svg)
-
 - [https://github.com/rizqimaulanaa/CVE-2023-3460](https://github.com/rizqimaulanaa/CVE-2023-3460) :  ![starts](https://img.shields.io/github/stars/rizqimaulanaa/CVE-2023-3460.svg) ![forks](https://img.shields.io/github/forks/rizqimaulanaa/CVE-2023-3460.svg)
+
+- [https://github.com/DiMarcoSK/CVE-2023-3460_POC](https://github.com/DiMarcoSK/CVE-2023-3460_POC) :  ![starts](https://img.shields.io/github/stars/DiMarcoSK/CVE-2023-3460_POC.svg) ![forks](https://img.shields.io/github/forks/DiMarcoSK/CVE-2023-3460_POC.svg)
 
 - [https://github.com/julienbrs/exploit-CVE-2023-3460](https://github.com/julienbrs/exploit-CVE-2023-3460) :  ![starts](https://img.shields.io/github/stars/julienbrs/exploit-CVE-2023-3460.svg) ![forks](https://img.shields.io/github/forks/julienbrs/exploit-CVE-2023-3460.svg)
 
