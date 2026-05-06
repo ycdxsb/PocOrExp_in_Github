@@ -138,15 +138,15 @@
 
 - [https://github.com/lghost256/vsftpd234-exploit](https://github.com/lghost256/vsftpd234-exploit) :  ![starts](https://img.shields.io/github/stars/lghost256/vsftpd234-exploit.svg) ![forks](https://img.shields.io/github/forks/lghost256/vsftpd234-exploit.svg)
 
-- [https://github.com/avivyap/CVE-2011-2523](https://github.com/avivyap/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/avivyap/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/avivyap/CVE-2011-2523.svg)
-
 - [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
+
+- [https://github.com/avivyap/CVE-2011-2523](https://github.com/avivyap/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/avivyap/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/avivyap/CVE-2011-2523.svg)
 
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
-- [https://github.com/hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/hklabCR/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/hklabCR/CVE-2011-2523.svg)
-
 - [https://github.com/0xSojalSec/CVE-2011-2523](https://github.com/0xSojalSec/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/CVE-2011-2523.svg)
+
+- [https://github.com/hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/hklabCR/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/hklabCR/CVE-2011-2523.svg)
 
 - [https://github.com/sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/sug4r-wr41th/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/sug4r-wr41th/CVE-2011-2523.svg)
 
@@ -261,6 +261,8 @@
 - [https://github.com/h3x0v3rl0rd/CVE-2011-1249](https://github.com/h3x0v3rl0rd/CVE-2011-1249) :  ![starts](https://img.shields.io/github/stars/h3x0v3rl0rd/CVE-2011-1249.svg) ![forks](https://img.shields.io/github/forks/h3x0v3rl0rd/CVE-2011-1249.svg)
 
 - [https://github.com/Madusanka99/OHTS](https://github.com/Madusanka99/OHTS) :  ![starts](https://img.shields.io/github/stars/Madusanka99/OHTS.svg) ![forks](https://img.shields.io/github/forks/Madusanka99/OHTS.svg)
+
+- [https://github.com/appl3b0y/edb-40564-mingw-fix](https://github.com/appl3b0y/edb-40564-mingw-fix) :  ![starts](https://img.shields.io/github/stars/appl3b0y/edb-40564-mingw-fix.svg) ![forks](https://img.shields.io/github/forks/appl3b0y/edb-40564-mingw-fix.svg)
 
 ## CVE-2011-1237
  Use-after-free vulnerability in win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 allows local users to gain privileges via a crafted application that leverages incorrect driver object management, a different vulnerability than other "Vulnerability Type 1" CVEs listed in MS11-034, aka "Win32k Use After Free Vulnerability."
