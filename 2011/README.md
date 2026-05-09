@@ -138,9 +138,9 @@
 
 - [https://github.com/lghost256/vsftpd234-exploit](https://github.com/lghost256/vsftpd234-exploit) :  ![starts](https://img.shields.io/github/stars/lghost256/vsftpd234-exploit.svg) ![forks](https://img.shields.io/github/forks/lghost256/vsftpd234-exploit.svg)
 
-- [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
-
 - [https://github.com/avivyap/CVE-2011-2523](https://github.com/avivyap/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/avivyap/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/avivyap/CVE-2011-2523.svg)
+
+- [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
 
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
@@ -181,6 +181,8 @@
 - [https://github.com/Mithileshan/soc-investigation-lab](https://github.com/Mithileshan/soc-investigation-lab) :  ![starts](https://img.shields.io/github/stars/Mithileshan/soc-investigation-lab.svg) ![forks](https://img.shields.io/github/forks/Mithileshan/soc-investigation-lab.svg)
 
 - [https://github.com/IvoAlbacete/Kali-Metasploitable](https://github.com/IvoAlbacete/Kali-Metasploitable) :  ![starts](https://img.shields.io/github/stars/IvoAlbacete/Kali-Metasploitable.svg) ![forks](https://img.shields.io/github/forks/IvoAlbacete/Kali-Metasploitable.svg)
+
+- [https://github.com/Prafullya-Shandilya/metasploitable-pentest-report](https://github.com/Prafullya-Shandilya/metasploitable-pentest-report) :  ![starts](https://img.shields.io/github/stars/Prafullya-Shandilya/metasploitable-pentest-report.svg) ![forks](https://img.shields.io/github/forks/Prafullya-Shandilya/metasploitable-pentest-report.svg)
 
 - [https://github.com/Tr00jan99/PwnTillDawn-Portal-Walkthrough](https://github.com/Tr00jan99/PwnTillDawn-Portal-Walkthrough) :  ![starts](https://img.shields.io/github/stars/Tr00jan99/PwnTillDawn-Portal-Walkthrough.svg) ![forks](https://img.shields.io/github/forks/Tr00jan99/PwnTillDawn-Portal-Walkthrough.svg)
 
