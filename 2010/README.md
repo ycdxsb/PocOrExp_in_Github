@@ -107,7 +107,7 @@
 
 - [https://github.com/whiteHat001/cve-2010-3333](https://github.com/whiteHat001/cve-2010-3333) :  ![starts](https://img.shields.io/github/stars/whiteHat001/cve-2010-3333.svg) ![forks](https://img.shields.io/github/forks/whiteHat001/cve-2010-3333.svg)
 
-- [https://github.com/chefphenix25/vuln-rabilit-windows7](https://github.com/chefphenix25/vuln-rabilit-windows7) :  ![starts](https://img.shields.io/github/stars/chefphenix25/vuln-rabilit-windows7.svg) ![forks](https://img.shields.io/github/forks/chefphenix25/vuln-rabilit-windows7.svg)
+- [https://github.com/gousseine-systems/vuln-rabilit-windows7](https://github.com/gousseine-systems/vuln-rabilit-windows7) :  ![starts](https://img.shields.io/github/stars/gousseine-systems/vuln-rabilit-windows7.svg) ![forks](https://img.shields.io/github/forks/gousseine-systems/vuln-rabilit-windows7.svg)
 
 ## CVE-2010-3332
  Microsoft .NET Framework 1.1 SP1, 2.0 SP1 and SP2, 3.5, 3.5 SP1, 3.5.1, and 4.0, as used for ASP.NET in Microsoft Internet Information Services (IIS), provides detailed error codes during decryption attempts, which allows remote attackers to decrypt and modify encrypted View State (aka __VIEWSTATE) form data, and possibly forge cookies or read application files, via a padding oracle attack, aka "ASP.NET Padding Oracle Vulnerability."
@@ -185,6 +185,13 @@
 - [https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution) :  ![starts](https://img.shields.io/github/stars/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg)
 
 - [https://github.com/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report](https://github.com/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report) :  ![starts](https://img.shields.io/github/stars/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report.svg) ![forks](https://img.shields.io/github/forks/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report.svg)
+
+## CVE-2010-2039
+ Cross-site request forgery (CSRF) vulnerability in gpEasy CMS 1.6.2, 1.6.1, and earlier allows remote attackers to hijack the authentication of administrators for requests that create new administrative users via an Admin_Users action to index.php.  NOTE: some of these details are obtained from third party information.
+
+
+
+- [https://github.com/RajeshTiwiva/CVE-2010-2039](https://github.com/RajeshTiwiva/CVE-2010-2039) :  ![starts](https://img.shields.io/github/stars/RajeshTiwiva/CVE-2010-2039.svg) ![forks](https://img.shields.io/github/forks/RajeshTiwiva/CVE-2010-2039.svg)
 
 ## CVE-2010-1938
  Off-by-one error in the __opiereadrec function in readrec.c in libopie in OPIE 2.4.1-test1 and earlier, as used on FreeBSD 6.4 through 8.1-PRERELEASE and other platforms, allows remote attackers to cause a denial of service (daemon crash) or possibly execute arbitrary code via a long username, as demonstrated by a long USER command to the FreeBSD 8.0 ftpd.
