@@ -777,6 +777,13 @@
 
 - [https://github.com/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution](https://github.com/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution) :  ![starts](https://img.shields.io/github/stars/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution.svg)
 
+## CVE-2015-3256
+ PolicyKit (aka polkit) before 0.113 allows local users to cause a denial of service (memory corruption and polkitd daemon crash) and possibly gain privileges via unspecified vectors, related to "javascript rule evaluation."
+
+
+
+- [https://github.com/puglia-ryan/S-V-Project-Implementation-of-CVE-2015-3256](https://github.com/puglia-ryan/S-V-Project-Implementation-of-CVE-2015-3256) :  ![starts](https://img.shields.io/github/stars/puglia-ryan/S-V-Project-Implementation-of-CVE-2015-3256.svg) ![forks](https://img.shields.io/github/forks/puglia-ryan/S-V-Project-Implementation-of-CVE-2015-3256.svg)
+
 ## CVE-2015-3239
  Off-by-one error in the dwarf_to_unw_regnum function in include/dwarf_i.h in libunwind 1.1 allows local users to have unspecified impact via invalid dwarf opcodes.
 
