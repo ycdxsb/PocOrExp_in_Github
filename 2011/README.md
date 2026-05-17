@@ -176,9 +176,9 @@
 
 - [https://github.com/HerculesRD/vsftpd2.3.4PyExploit](https://github.com/HerculesRD/vsftpd2.3.4PyExploit) :  ![starts](https://img.shields.io/github/stars/HerculesRD/vsftpd2.3.4PyExploit.svg) ![forks](https://img.shields.io/github/forks/HerculesRD/vsftpd2.3.4PyExploit.svg)
 
-- [https://github.com/Efehamzaa/Metasploit-Red-Pentest-Lab](https://github.com/Efehamzaa/Metasploit-Red-Pentest-Lab) :  ![starts](https://img.shields.io/github/stars/Efehamzaa/Metasploit-Red-Pentest-Lab.svg) ![forks](https://img.shields.io/github/forks/Efehamzaa/Metasploit-Red-Pentest-Lab.svg)
-
 - [https://github.com/Mithileshan/soc-investigation-lab](https://github.com/Mithileshan/soc-investigation-lab) :  ![starts](https://img.shields.io/github/stars/Mithileshan/soc-investigation-lab.svg) ![forks](https://img.shields.io/github/forks/Mithileshan/soc-investigation-lab.svg)
+
+- [https://github.com/Efehamzaa/Metasploit-Red-Pentest-Lab](https://github.com/Efehamzaa/Metasploit-Red-Pentest-Lab) :  ![starts](https://img.shields.io/github/stars/Efehamzaa/Metasploit-Red-Pentest-Lab.svg) ![forks](https://img.shields.io/github/forks/Efehamzaa/Metasploit-Red-Pentest-Lab.svg)
 
 - [https://github.com/IvoAlbacete/Kali-Metasploitable](https://github.com/IvoAlbacete/Kali-Metasploitable) :  ![starts](https://img.shields.io/github/stars/IvoAlbacete/Kali-Metasploitable.svg) ![forks](https://img.shields.io/github/forks/IvoAlbacete/Kali-Metasploitable.svg)
 
@@ -193,6 +193,8 @@
 - [https://github.com/tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution](https://github.com/tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution) :  ![starts](https://img.shields.io/github/stars/tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/tshaq17/vsftpd-2.3.4---Backdoor-Command-Execution.svg)
 
 - [https://github.com/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report](https://github.com/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report) :  ![starts](https://img.shields.io/github/stars/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report.svg) ![forks](https://img.shields.io/github/forks/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report.svg)
+
+- [https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-001](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-001) :  ![starts](https://img.shields.io/github/stars/Jhatchi/NexaCorp-DFIR-INC-2026-001.svg) ![forks](https://img.shields.io/github/forks/Jhatchi/NexaCorp-DFIR-INC-2026-001.svg)
 
 - [https://github.com/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1](https://github.com/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1) :  ![starts](https://img.shields.io/github/stars/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1.svg) ![forks](https://img.shields.io/github/forks/JohanMV/explotacion-vsftpd-nmap_Laboratorio_1.svg)
 
