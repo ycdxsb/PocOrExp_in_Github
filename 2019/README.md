@@ -332,9 +332,9 @@ use after free.
 
 - [https://github.com/j81blog/ADC-19781](https://github.com/j81blog/ADC-19781) :  ![starts](https://img.shields.io/github/stars/j81blog/ADC-19781.svg) ![forks](https://img.shields.io/github/forks/j81blog/ADC-19781.svg)
 
-- [https://github.com/34zY/APT-Backpack](https://github.com/34zY/APT-Backpack) :  ![starts](https://img.shields.io/github/stars/34zY/APT-Backpack.svg) ![forks](https://img.shields.io/github/forks/34zY/APT-Backpack.svg)
-
 - [https://github.com/L4r1k/CitrixNetscalerTriageScript](https://github.com/L4r1k/CitrixNetscalerTriageScript) :  ![starts](https://img.shields.io/github/stars/L4r1k/CitrixNetscalerTriageScript.svg) ![forks](https://img.shields.io/github/forks/L4r1k/CitrixNetscalerTriageScript.svg)
+
+- [https://github.com/34zY/APT-Backpack](https://github.com/34zY/APT-Backpack) :  ![starts](https://img.shields.io/github/stars/34zY/APT-Backpack.svg) ![forks](https://img.shields.io/github/forks/34zY/APT-Backpack.svg)
 
 - [https://github.com/oways/CVE-2019-19781](https://github.com/oways/CVE-2019-19781) :  ![starts](https://img.shields.io/github/stars/oways/CVE-2019-19781.svg) ![forks](https://img.shields.io/github/forks/oways/CVE-2019-19781.svg)
 
@@ -1757,9 +1757,9 @@ use after free.
 
 - [https://github.com/adampawelczyk/cve-2019-15107](https://github.com/adampawelczyk/cve-2019-15107) :  ![starts](https://img.shields.io/github/stars/adampawelczyk/cve-2019-15107.svg) ![forks](https://img.shields.io/github/forks/adampawelczyk/cve-2019-15107.svg)
 
-- [https://github.com/g1vi/CVE-2019-15107](https://github.com/g1vi/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/g1vi/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/g1vi/CVE-2019-15107.svg)
-
 - [https://github.com/h4ck0rman/CVE-2019-15107](https://github.com/h4ck0rman/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/h4ck0rman/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/h4ck0rman/CVE-2019-15107.svg)
+
+- [https://github.com/g1vi/CVE-2019-15107](https://github.com/g1vi/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/g1vi/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/g1vi/CVE-2019-15107.svg)
 
 - [https://github.com/olingo99/CVE-2019-15107](https://github.com/olingo99/CVE-2019-15107) :  ![starts](https://img.shields.io/github/stars/olingo99/CVE-2019-15107.svg) ![forks](https://img.shields.io/github/forks/olingo99/CVE-2019-15107.svg)
 
@@ -5676,11 +5676,11 @@ use after free.
 
 - [https://github.com/jra89/CVE-2019-19658](https://github.com/jra89/CVE-2019-19658) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19658.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19658.svg)
 
-- [https://github.com/jra89/CVE-2019-19654](https://github.com/jra89/CVE-2019-19654) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19654.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19654.svg)
+- [https://github.com/jra89/CVE-2019-19652](https://github.com/jra89/CVE-2019-19652) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19652.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19652.svg)
 
 - [https://github.com/jra89/CVE-2019-19653](https://github.com/jra89/CVE-2019-19653) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19653.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19653.svg)
 
-- [https://github.com/jra89/CVE-2019-19652](https://github.com/jra89/CVE-2019-19652) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19652.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19652.svg)
+- [https://github.com/jra89/CVE-2019-19654](https://github.com/jra89/CVE-2019-19654) :  ![starts](https://img.shields.io/github/stars/jra89/CVE-2019-19654.svg) ![forks](https://img.shields.io/github/forks/jra89/CVE-2019-19654.svg)
 
 ## CVE-2019-1963
  A vulnerability in the Simple Network Management Protocol (SNMP) input packet processor of Cisco FXOS Software and Cisco NX-OS Software could allow an authenticated, remote attacker to cause the SNMP application on an affected device to restart unexpectedly. The vulnerability is due to improper validation of Abstract Syntax Notation One (ASN.1)-encoded variables in SNMP packets. An attacker could exploit this vulnerability by sending a crafted SNMP packet to the SNMP daemon on the affected device. A successful exploit could allow the attacker to cause the SNMP application to restart multiple times, leading to a system-level restart and a denial of service (DoS) condition.
@@ -6320,9 +6320,9 @@ The security update addresses the vulnerability by correcting how Hyper-V valida
 
 - [https://github.com/JSec1337/Scanner-CVE-2019-0708](https://github.com/JSec1337/Scanner-CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/JSec1337/Scanner-CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/JSec1337/Scanner-CVE-2019-0708.svg)
 
-- [https://github.com/AdministratorGithub/CVE-2019-0708](https://github.com/AdministratorGithub/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/AdministratorGithub/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/AdministratorGithub/CVE-2019-0708.svg)
-
 - [https://github.com/Barry-McCockiner/CVE-2019-0708](https://github.com/Barry-McCockiner/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/Barry-McCockiner/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/Barry-McCockiner/CVE-2019-0708.svg)
+
+- [https://github.com/AdministratorGithub/CVE-2019-0708](https://github.com/AdministratorGithub/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/AdministratorGithub/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/AdministratorGithub/CVE-2019-0708.svg)
 
 - [https://github.com/freeide/CVE-2019-0708](https://github.com/freeide/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/freeide/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/freeide/CVE-2019-0708.svg)
 
@@ -6358,9 +6358,9 @@ The security update addresses the vulnerability by correcting how Hyper-V valida
 
 - [https://github.com/1aa87148377/CVE-2019-0708](https://github.com/1aa87148377/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/1aa87148377/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/1aa87148377/CVE-2019-0708.svg)
 
-- [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
-
 - [https://github.com/distance-vector/CVE-2019-0708](https://github.com/distance-vector/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/distance-vector/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/distance-vector/CVE-2019-0708.svg)
+
+- [https://github.com/HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/HackerJ0e/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/HackerJ0e/CVE-2019-0708.svg)
 
 - [https://github.com/ttsite/CVE-2019-0708](https://github.com/ttsite/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/ttsite/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/ttsite/CVE-2019-0708.svg)
 
@@ -6368,9 +6368,9 @@ The security update addresses the vulnerability by correcting how Hyper-V valida
 
 - [https://github.com/sbkcbig/CVE-2019-0708-EXPloit](https://github.com/sbkcbig/CVE-2019-0708-EXPloit) :  ![starts](https://img.shields.io/github/stars/sbkcbig/CVE-2019-0708-EXPloit.svg) ![forks](https://img.shields.io/github/forks/sbkcbig/CVE-2019-0708-EXPloit.svg)
 
-- [https://github.com/0xFlag/CVE-2019-0708-test](https://github.com/0xFlag/CVE-2019-0708-test) :  ![starts](https://img.shields.io/github/stars/0xFlag/CVE-2019-0708-test.svg) ![forks](https://img.shields.io/github/forks/0xFlag/CVE-2019-0708-test.svg)
-
 - [https://github.com/herhe/CVE-2019-0708poc](https://github.com/herhe/CVE-2019-0708poc) :  ![starts](https://img.shields.io/github/stars/herhe/CVE-2019-0708poc.svg) ![forks](https://img.shields.io/github/forks/herhe/CVE-2019-0708poc.svg)
+
+- [https://github.com/0xFlag/CVE-2019-0708-test](https://github.com/0xFlag/CVE-2019-0708-test) :  ![starts](https://img.shields.io/github/stars/0xFlag/CVE-2019-0708-test.svg) ![forks](https://img.shields.io/github/forks/0xFlag/CVE-2019-0708-test.svg)
 
 - [https://github.com/nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI) :  ![starts](https://img.shields.io/github/stars/nochemax/bLuEkEeP-GUI.svg) ![forks](https://img.shields.io/github/forks/nochemax/bLuEkEeP-GUI.svg)
 
