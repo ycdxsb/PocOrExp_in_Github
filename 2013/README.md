@@ -437,6 +437,13 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/cinno/CVE-2013-1965](https://github.com/cinno/CVE-2013-1965) :  ![starts](https://img.shields.io/github/stars/cinno/CVE-2013-1965.svg) ![forks](https://img.shields.io/github/forks/cinno/CVE-2013-1965.svg)
 
+## CVE-2013-1814
+ The users/get program in the User RPC API in Apache Rave 0.11 through 0.20 allows remote authenticated users to obtain sensitive information about all user accounts via the offset parameter, as demonstrated by discovering password hashes in the password field of a response.
+
+
+
+- [https://github.com/dannyEndorTest/java-vulnerable](https://github.com/dannyEndorTest/java-vulnerable) :  ![starts](https://img.shields.io/github/stars/dannyEndorTest/java-vulnerable.svg) ![forks](https://img.shields.io/github/forks/dannyEndorTest/java-vulnerable.svg)
+
 ## CVE-2013-1775
  sudo 1.6.0 through 1.7.10p6 and sudo 1.8.0 through 1.8.6p6 allows local users or physically proximate attackers to bypass intended time restrictions and retain privileges without re-authenticating by setting the system clock and sudo user timestamp to the epoch.
 
