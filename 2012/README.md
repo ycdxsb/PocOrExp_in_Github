@@ -236,6 +236,8 @@
 
 - [https://github.com/SincIDK/CVE-2012-2982-Exploit-Script](https://github.com/SincIDK/CVE-2012-2982-Exploit-Script) :  ![starts](https://img.shields.io/github/stars/SincIDK/CVE-2012-2982-Exploit-Script.svg) ![forks](https://img.shields.io/github/forks/SincIDK/CVE-2012-2982-Exploit-Script.svg)
 
+- [https://github.com/marinovharisan/Webmin-1.580---file-show.cgi-Manual-Remote-Command-Execution-Non-Metasploit-](https://github.com/marinovharisan/Webmin-1.580---file-show.cgi-Manual-Remote-Command-Execution-Non-Metasploit-) :  ![starts](https://img.shields.io/github/stars/marinovharisan/Webmin-1.580---file-show.cgi-Manual-Remote-Command-Execution-Non-Metasploit-.svg) ![forks](https://img.shields.io/github/forks/marinovharisan/Webmin-1.580---file-show.cgi-Manual-Remote-Command-Execution-Non-Metasploit-.svg)
+
 - [https://github.com/danielvilaca/PoC_Webmin](https://github.com/danielvilaca/PoC_Webmin) :  ![starts](https://img.shields.io/github/stars/danielvilaca/PoC_Webmin.svg) ![forks](https://img.shields.io/github/forks/danielvilaca/PoC_Webmin.svg)
 
 ## CVE-2012-2688
@@ -332,6 +334,13 @@
 - [https://github.com/nulltrace1336/PHP-CGI-Argument-Injection-Exploit](https://github.com/nulltrace1336/PHP-CGI-Argument-Injection-Exploit) :  ![starts](https://img.shields.io/github/stars/nulltrace1336/PHP-CGI-Argument-Injection-Exploit.svg) ![forks](https://img.shields.io/github/forks/nulltrace1336/PHP-CGI-Argument-Injection-Exploit.svg)
 
 - [https://github.com/waburig/Open-Worldwide-Application-Security-Project-OWASP-](https://github.com/waburig/Open-Worldwide-Application-Security-Project-OWASP-) :  ![starts](https://img.shields.io/github/stars/waburig/Open-Worldwide-Application-Security-Project-OWASP-.svg) ![forks](https://img.shields.io/github/forks/waburig/Open-Worldwide-Application-Security-Project-OWASP-.svg)
+
+## CVE-2012-1803
+ RuggedCom Rugged Operating System (ROS) 3.10.x and earlier has a factory account with a password derived from the MAC Address field in the banner, which makes it easier for remote attackers to obtain access by performing a calculation on this address value, and then establishing a (1) TELNET, (2) remote shell (aka rsh), or (3) serial-console session.
+
+
+
+- [https://github.com/x3roxismygood/CVE-2012-1803](https://github.com/x3roxismygood/CVE-2012-1803) :  ![starts](https://img.shields.io/github/stars/x3roxismygood/CVE-2012-1803.svg) ![forks](https://img.shields.io/github/forks/x3roxismygood/CVE-2012-1803.svg)
 
 ## CVE-2012-1723
  Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 update 4 and earlier, 6 update 32 and earlier, 5 update 35 and earlier, and 1.4.2_37 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Hotspot.
