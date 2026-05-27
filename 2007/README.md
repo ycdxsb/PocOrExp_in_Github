@@ -127,9 +127,9 @@
 
 - [https://github.com/Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447) :  ![starts](https://img.shields.io/github/stars/Juantos/cve-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Juantos/cve-2007-2447.svg)
 
-- [https://github.com/0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xKn/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xKn/CVE-2007-2447.svg)
-
 - [https://github.com/testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/testaross4/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/testaross4/CVE-2007-2447.svg)
+
+- [https://github.com/0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/0xKn/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/0xKn/CVE-2007-2447.svg)
 
 - [https://github.com/r3vpwnx/CVE-2007-2447](https://github.com/r3vpwnx/CVE-2007-2447) :  ![starts](https://img.shields.io/github/stars/r3vpwnx/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/r3vpwnx/CVE-2007-2447.svg)
 
@@ -160,6 +160,8 @@
 - [https://github.com/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2](https://github.com/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2) :  ![starts](https://img.shields.io/github/stars/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2.svg) ![forks](https://img.shields.io/github/forks/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2.svg)
 
 - [https://github.com/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-](https://github.com/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-) :  ![starts](https://img.shields.io/github/stars/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-.svg) ![forks](https://img.shields.io/github/forks/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-.svg)
+
+- [https://github.com/jaden-mas1010/Metasploitable2-Vulnerability-Assessment](https://github.com/jaden-mas1010/Metasploitable2-Vulnerability-Assessment) :  ![starts](https://img.shields.io/github/stars/jaden-mas1010/Metasploitable2-Vulnerability-Assessment.svg) ![forks](https://img.shields.io/github/forks/jaden-mas1010/Metasploitable2-Vulnerability-Assessment.svg)
 
 - [https://github.com/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report](https://github.com/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report) :  ![starts](https://img.shields.io/github/stars/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report.svg) ![forks](https://img.shields.io/github/forks/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report.svg)
 
