@@ -41,6 +41,13 @@ This issue affects Apache HTTP Server 2.4.54 and earlier.
 
 - [https://github.com/Mario1234/js-driveby-download-CVE-2006-4777](https://github.com/Mario1234/js-driveby-download-CVE-2006-4777) :  ![starts](https://img.shields.io/github/stars/Mario1234/js-driveby-download-CVE-2006-4777.svg) ![forks](https://img.shields.io/github/forks/Mario1234/js-driveby-download-CVE-2006-4777.svg)
 
+## CVE-2006-3918
+ http_protocol.c in (1) IBM HTTP Server 6.0 before 6.0.2.13 and 6.1 before 6.1.0.1, and (2) Apache HTTP Server 1.3 before 1.3.35, 2.0 before 2.0.58, and 2.2 before 2.2.2, does not sanitize the Expect header from an HTTP request when it is reflected back in an error message, which might allow cross-site scripting (XSS) style attacks using web client components that can send arbitrary headers in requests, as demonstrated using a Flash SWF file.
+
+
+
+- [https://github.com/reallyngb/badstore-webapp-pentest](https://github.com/reallyngb/badstore-webapp-pentest) :  ![starts](https://img.shields.io/github/stars/reallyngb/badstore-webapp-pentest.svg) ![forks](https://img.shields.io/github/forks/reallyngb/badstore-webapp-pentest.svg)
+
 ## CVE-2006-3747
  Off-by-one error in the ldap scheme handling in the Rewrite module (mod_rewrite) in Apache 1.3 from 1.3.28, 2.0.46 and other versions before 2.0.59, and 2.2, when RewriteEngine is enabled, allows remote attackers to cause a denial of service (application crash) and possibly execute arbitrary code via crafted URLs that are not properly handled using certain rewrite rules.
 
