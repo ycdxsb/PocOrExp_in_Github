@@ -167,6 +167,13 @@
 
 - [https://github.com/LogSec/CVE-2010-2387](https://github.com/LogSec/CVE-2010-2387) :  ![starts](https://img.shields.io/github/stars/LogSec/CVE-2010-2387.svg) ![forks](https://img.shields.io/github/forks/LogSec/CVE-2010-2387.svg)
 
+## CVE-2010-2333
+ LiteSpeed Technologies LiteSpeed Web Server 4.0.x before 4.0.15 allows remote attackers to read the source code of scripts via an HTTP request with a null byte followed by a .txt file extension.
+
+
+
+- [https://github.com/jmonge12/Home-Network-Vulnerability-Assessment](https://github.com/jmonge12/Home-Network-Vulnerability-Assessment) :  ![starts](https://img.shields.io/github/stars/jmonge12/Home-Network-Vulnerability-Assessment.svg) ![forks](https://img.shields.io/github/forks/jmonge12/Home-Network-Vulnerability-Assessment.svg)
+
 ## CVE-2010-2075
  UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 through June 2010, contains an externally introduced modification (Trojan Horse) in the DEBUG3_DOLOG_SYSTEM macro, which allows remote attackers to execute arbitrary commands.
 
