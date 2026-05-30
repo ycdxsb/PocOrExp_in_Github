@@ -399,11 +399,11 @@
 
 - [https://github.com/moften/CVE-2014-6271](https://github.com/moften/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/moften/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/moften/CVE-2014-6271.svg)
 
-- [https://github.com/knightc0de/Shellshock_vuln_Exploit](https://github.com/knightc0de/Shellshock_vuln_Exploit) :  ![starts](https://img.shields.io/github/stars/knightc0de/Shellshock_vuln_Exploit.svg) ![forks](https://img.shields.io/github/forks/knightc0de/Shellshock_vuln_Exploit.svg)
+- [https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock) :  ![starts](https://img.shields.io/github/stars/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock.svg) ![forks](https://img.shields.io/github/forks/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock.svg)
 
 - [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
 
-- [https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock) :  ![starts](https://img.shields.io/github/stars/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock.svg) ![forks](https://img.shields.io/github/forks/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock.svg)
+- [https://github.com/knightc0de/Shellshock_vuln_Exploit](https://github.com/knightc0de/Shellshock_vuln_Exploit) :  ![starts](https://img.shields.io/github/stars/knightc0de/Shellshock_vuln_Exploit.svg) ![forks](https://img.shields.io/github/forks/knightc0de/Shellshock_vuln_Exploit.svg)
 
 - [https://github.com/mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2014-6271.svg)
 
@@ -776,6 +776,8 @@
 - [https://github.com/josecl200/VC-PoodlePOC](https://github.com/josecl200/VC-PoodlePOC) :  ![starts](https://img.shields.io/github/stars/josecl200/VC-PoodlePOC.svg) ![forks](https://img.shields.io/github/forks/josecl200/VC-PoodlePOC.svg)
 
 - [https://github.com/cloudpassage/mangy-beast](https://github.com/cloudpassage/mangy-beast) :  ![starts](https://img.shields.io/github/stars/cloudpassage/mangy-beast.svg) ![forks](https://img.shields.io/github/forks/cloudpassage/mangy-beast.svg)
+
+- [https://github.com/jmonge12/Home-Network-Vulnerability-Assessment](https://github.com/jmonge12/Home-Network-Vulnerability-Assessment) :  ![starts](https://img.shields.io/github/stars/jmonge12/Home-Network-Vulnerability-Assessment.svg) ![forks](https://img.shields.io/github/forks/jmonge12/Home-Network-Vulnerability-Assessment.svg)
 
 ## CVE-2014-3551
  Multiple cross-site scripting (XSS) vulnerabilities in the advanced-grading implementation in Moodle through 2.3.11, 2.4.x before 2.4.11, 2.5.x before 2.5.7, 2.6.x before 2.6.4, and 2.7.x before 2.7.1 allow remote authenticated users to inject arbitrary web script or HTML via a crafted (1) qualification or (2) rating field in a rubric.
