@@ -71,7 +71,7 @@
 
 
 
-- [https://github.com/rvizx/CVE-2016-10924](https://github.com/rvizx/CVE-2016-10924) :  ![starts](https://img.shields.io/github/stars/rvizx/CVE-2016-10924.svg) ![forks](https://img.shields.io/github/forks/rvizx/CVE-2016-10924.svg)
+- [https://github.com/rvzsec/CVE-2016-10924](https://github.com/rvzsec/CVE-2016-10924) :  ![starts](https://img.shields.io/github/stars/rvzsec/CVE-2016-10924.svg) ![forks](https://img.shields.io/github/forks/rvzsec/CVE-2016-10924.svg)
 
 - [https://github.com/alealeluyah/cve-2016-10924-POC](https://github.com/alealeluyah/cve-2016-10924-POC) :  ![starts](https://img.shields.io/github/stars/alealeluyah/cve-2016-10924-POC.svg) ![forks](https://img.shields.io/github/forks/alealeluyah/cve-2016-10924-POC.svg)
 
@@ -1704,9 +1704,9 @@
 
 - [https://github.com/mzuhair9933/PoPE-pytorch](https://github.com/mzuhair9933/PoPE-pytorch) :  ![starts](https://img.shields.io/github/stars/mzuhair9933/PoPE-pytorch.svg) ![forks](https://img.shields.io/github/forks/mzuhair9933/PoPE-pytorch.svg)
 
-- [https://github.com/hamzamalik3461/CVE-2026-20841](https://github.com/hamzamalik3461/CVE-2026-20841) :  ![starts](https://img.shields.io/github/stars/hamzamalik3461/CVE-2026-20841.svg) ![forks](https://img.shields.io/github/forks/hamzamalik3461/CVE-2026-20841.svg)
-
 - [https://github.com/mamon9022/poc-fls-node-epicronicles](https://github.com/mamon9022/poc-fls-node-epicronicles) :  ![starts](https://img.shields.io/github/stars/mamon9022/poc-fls-node-epicronicles.svg) ![forks](https://img.shields.io/github/forks/mamon9022/poc-fls-node-epicronicles.svg)
+
+- [https://github.com/hamzamalik3461/CVE-2026-20841](https://github.com/hamzamalik3461/CVE-2026-20841) :  ![starts](https://img.shields.io/github/stars/hamzamalik3461/CVE-2026-20841.svg) ![forks](https://img.shields.io/github/forks/hamzamalik3461/CVE-2026-20841.svg)
 
 - [https://github.com/readloud/PoC](https://github.com/readloud/PoC) :  ![starts](https://img.shields.io/github/stars/readloud/PoC.svg) ![forks](https://img.shields.io/github/forks/readloud/PoC.svg)
 
