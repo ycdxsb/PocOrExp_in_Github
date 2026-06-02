@@ -493,6 +493,8 @@
 
 - [https://github.com/mtaha-sec/bash-apocalypse](https://github.com/mtaha-sec/bash-apocalypse) :  ![starts](https://img.shields.io/github/stars/mtaha-sec/bash-apocalypse.svg) ![forks](https://img.shields.io/github/forks/mtaha-sec/bash-apocalypse.svg)
 
+- [https://github.com/R3fr4kt/Shocker-TJNULL-OSCP-](https://github.com/R3fr4kt/Shocker-TJNULL-OSCP-) :  ![starts](https://img.shields.io/github/stars/R3fr4kt/Shocker-TJNULL-OSCP-.svg) ![forks](https://img.shields.io/github/forks/R3fr4kt/Shocker-TJNULL-OSCP-.svg)
+
 - [https://github.com/ambjlou/it355-lab4-enterprise-lan-security](https://github.com/ambjlou/it355-lab4-enterprise-lan-security) :  ![starts](https://img.shields.io/github/stars/ambjlou/it355-lab4-enterprise-lan-security.svg) ![forks](https://img.shields.io/github/forks/ambjlou/it355-lab4-enterprise-lan-security.svg)
 
 - [https://github.com/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor](https://github.com/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor) :  ![starts](https://img.shields.io/github/stars/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor.svg) ![forks](https://img.shields.io/github/forks/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor.svg)
