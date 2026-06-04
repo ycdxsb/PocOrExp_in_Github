@@ -138,9 +138,9 @@
 
 - [https://github.com/lghost256/vsftpd234-exploit](https://github.com/lghost256/vsftpd234-exploit) :  ![starts](https://img.shields.io/github/stars/lghost256/vsftpd234-exploit.svg) ![forks](https://img.shields.io/github/forks/lghost256/vsftpd234-exploit.svg)
 
-- [https://github.com/avivyap/CVE-2011-2523](https://github.com/avivyap/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/avivyap/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/avivyap/CVE-2011-2523.svg)
-
 - [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
+
+- [https://github.com/avivyap/CVE-2011-2523](https://github.com/avivyap/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/avivyap/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/avivyap/CVE-2011-2523.svg)
 
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
@@ -190,9 +190,9 @@
 
 - [https://github.com/Prafullya-Shandilya/metasploitable-pentest-report](https://github.com/Prafullya-Shandilya/metasploitable-pentest-report) :  ![starts](https://img.shields.io/github/stars/Prafullya-Shandilya/metasploitable-pentest-report.svg) ![forks](https://img.shields.io/github/forks/Prafullya-Shandilya/metasploitable-pentest-report.svg)
 
-- [https://github.com/Tr00jan99/PwnTillDawn-Portal-Walkthrough](https://github.com/Tr00jan99/PwnTillDawn-Portal-Walkthrough) :  ![starts](https://img.shields.io/github/stars/Tr00jan99/PwnTillDawn-Portal-Walkthrough.svg) ![forks](https://img.shields.io/github/forks/Tr00jan99/PwnTillDawn-Portal-Walkthrough.svg)
-
 - [https://github.com/nitinsukthe/OpenVAS-Vulnerability-Assessment-Incident-Response](https://github.com/nitinsukthe/OpenVAS-Vulnerability-Assessment-Incident-Response) :  ![starts](https://img.shields.io/github/stars/nitinsukthe/OpenVAS-Vulnerability-Assessment-Incident-Response.svg) ![forks](https://img.shields.io/github/forks/nitinsukthe/OpenVAS-Vulnerability-Assessment-Incident-Response.svg)
+
+- [https://github.com/Tr00jan99/PwnTillDawn-Portal-Walkthrough](https://github.com/Tr00jan99/PwnTillDawn-Portal-Walkthrough) :  ![starts](https://img.shields.io/github/stars/Tr00jan99/PwnTillDawn-Portal-Walkthrough.svg) ![forks](https://img.shields.io/github/forks/Tr00jan99/PwnTillDawn-Portal-Walkthrough.svg)
 
 - [https://github.com/Mirza-22144/Vulnerability-Assessment-Exploitation-Lab](https://github.com/Mirza-22144/Vulnerability-Assessment-Exploitation-Lab) :  ![starts](https://img.shields.io/github/stars/Mirza-22144/Vulnerability-Assessment-Exploitation-Lab.svg) ![forks](https://img.shields.io/github/forks/Mirza-22144/Vulnerability-Assessment-Exploitation-Lab.svg)
 
