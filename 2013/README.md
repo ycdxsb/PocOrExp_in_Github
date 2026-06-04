@@ -60,6 +60,8 @@
 
 - [https://github.com/milo2012/CVE-2013-6117](https://github.com/milo2012/CVE-2013-6117) :  ![starts](https://img.shields.io/github/stars/milo2012/CVE-2013-6117.svg) ![forks](https://img.shields.io/github/forks/milo2012/CVE-2013-6117.svg)
 
+- [https://github.com/fsn4k3/dahua-dvr-metasploit](https://github.com/fsn4k3/dahua-dvr-metasploit) :  ![starts](https://img.shields.io/github/stars/fsn4k3/dahua-dvr-metasploit.svg) ![forks](https://img.shields.io/github/forks/fsn4k3/dahua-dvr-metasploit.svg)
+
 ## CVE-2013-5842
  Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries, a different vulnerability than CVE-2013-5850.
 
