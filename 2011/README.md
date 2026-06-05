@@ -74,8 +74,6 @@
 
 - [https://github.com/tkisason/KillApachePy](https://github.com/tkisason/KillApachePy) :  ![starts](https://img.shields.io/github/stars/tkisason/KillApachePy.svg) ![forks](https://img.shields.io/github/forks/tkisason/KillApachePy.svg)
 
-- [https://github.com/Karma4488/cve-2011-3192](https://github.com/Karma4488/cve-2011-3192) :  ![starts](https://img.shields.io/github/stars/Karma4488/cve-2011-3192.svg) ![forks](https://img.shields.io/github/forks/Karma4488/cve-2011-3192.svg)
-
 - [https://github.com/futurezayka/CVE-2011-3192](https://github.com/futurezayka/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/futurezayka/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/futurezayka/CVE-2011-3192.svg)
 
 - [https://github.com/stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192) :  ![starts](https://img.shields.io/github/stars/stcmjp/cve-2011-3192.svg) ![forks](https://img.shields.io/github/forks/stcmjp/cve-2011-3192.svg)
@@ -175,6 +173,8 @@
 - [https://github.com/davidlares/vsftpd-exploitation](https://github.com/davidlares/vsftpd-exploitation) :  ![starts](https://img.shields.io/github/stars/davidlares/vsftpd-exploitation.svg) ![forks](https://img.shields.io/github/forks/davidlares/vsftpd-exploitation.svg)
 
 - [https://github.com/RinAliyeva/metasploitable2-vsftpd-exploitation](https://github.com/RinAliyeva/metasploitable2-vsftpd-exploitation) :  ![starts](https://img.shields.io/github/stars/RinAliyeva/metasploitable2-vsftpd-exploitation.svg) ![forks](https://img.shields.io/github/forks/RinAliyeva/metasploitable2-vsftpd-exploitation.svg)
+
+- [https://github.com/H4R335HR/vsftpd-234-backdoor](https://github.com/H4R335HR/vsftpd-234-backdoor) :  ![starts](https://img.shields.io/github/stars/H4R335HR/vsftpd-234-backdoor.svg) ![forks](https://img.shields.io/github/forks/H4R335HR/vsftpd-234-backdoor.svg)
 
 - [https://github.com/KlyneZyro/Metasploitable2-VAPT-Report](https://github.com/KlyneZyro/Metasploitable2-VAPT-Report) :  ![starts](https://img.shields.io/github/stars/KlyneZyro/Metasploitable2-VAPT-Report.svg) ![forks](https://img.shields.io/github/forks/KlyneZyro/Metasploitable2-VAPT-Report.svg)
 
