@@ -187,6 +187,8 @@
 
 - [https://github.com/earthbendergara/unrealircd3.2.8.1-local-exploit](https://github.com/earthbendergara/unrealircd3.2.8.1-local-exploit) :  ![starts](https://img.shields.io/github/stars/earthbendergara/unrealircd3.2.8.1-local-exploit.svg) ![forks](https://img.shields.io/github/forks/earthbendergara/unrealircd3.2.8.1-local-exploit.svg)
 
+- [https://github.com/mishaqdev/cve-2010-2075-analysis](https://github.com/mishaqdev/cve-2010-2075-analysis) :  ![starts](https://img.shields.io/github/stars/mishaqdev/cve-2010-2075-analysis.svg) ![forks](https://img.shields.io/github/forks/mishaqdev/cve-2010-2075-analysis.svg)
+
 - [https://github.com/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution) :  ![starts](https://img.shields.io/github/stars/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg)
 
 - [https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution) :  ![starts](https://img.shields.io/github/stars/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg)
@@ -260,6 +262,13 @@
 
 
 - [https://github.com/mk219533/CVE-2010-1205](https://github.com/mk219533/CVE-2010-1205) :  ![starts](https://img.shields.io/github/stars/mk219533/CVE-2010-1205.svg) ![forks](https://img.shields.io/github/forks/mk219533/CVE-2010-1205.svg)
+
+## CVE-2010-0832
+ pam_motd (aka the MOTD module) in libpam-modules before 1.1.0-2ubuntu1.1 in PAM on Ubuntu 9.10 and libpam-modules before 1.1.1-2ubuntu5 in PAM on Ubuntu 10.04 LTS allows local users to change the ownership of arbitrary files via a symlink attack on .cache in a user's home directory, related to "user file stamps" and the motd.legal-notice file.
+
+
+
+- [https://github.com/R3fr4kt/Popcorn-TJNULL-OSCP-](https://github.com/R3fr4kt/Popcorn-TJNULL-OSCP-) :  ![starts](https://img.shields.io/github/stars/R3fr4kt/Popcorn-TJNULL-OSCP-.svg) ![forks](https://img.shields.io/github/forks/R3fr4kt/Popcorn-TJNULL-OSCP-.svg)
 
 ## CVE-2010-0738
  The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to send requests to this application's GET handler by using a different method.
