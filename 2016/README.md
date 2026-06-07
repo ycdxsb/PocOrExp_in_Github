@@ -306,6 +306,13 @@
 
 - [https://github.com/shoucheng3/perwendel__spark_CVE-2016-9177_2_5_2_fixed](https://github.com/shoucheng3/perwendel__spark_CVE-2016-9177_2_5_2_fixed) :  ![starts](https://img.shields.io/github/stars/shoucheng3/perwendel__spark_CVE-2016-9177_2_5_2_fixed.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/perwendel__spark_CVE-2016-9177_2_5_2_fixed.svg)
 
+## CVE-2016-9086
+ GitLab versions 8.9.x and above contain a critical security flaw in the "import/export project" feature of GitLab. Added in GitLab 8.9, this feature allows a user to export and then re-import their projects as tape archive files (tar). All GitLab versions prior to 8.13.0 restricted this feature to administrators only. Starting with version 8.13.0 this feature was made available to all users. This feature did not properly check for symbolic links in user-provided archives and therefore it was possible for an authenticated user to retrieve the contents of any file accessible to the GitLab service account. This included sensitive files such as those that contain secret tokens used by the GitLab service to authenticate users. GitLab CE and EE versions 8.13.0 through 8.13.2, 8.12.0 through 8.12.7, 8.11.0 through 8.11.10, 8.10.0 through 8.10.12, and 8.9.0 through 8.9.11 are affected.
+
+
+
+- [https://github.com/JulesPress/GitLab-Arbitrary-File-Disclosure](https://github.com/JulesPress/GitLab-Arbitrary-File-Disclosure) :  ![starts](https://img.shields.io/github/stars/JulesPress/GitLab-Arbitrary-File-Disclosure.svg) ![forks](https://img.shields.io/github/forks/JulesPress/GitLab-Arbitrary-File-Disclosure.svg)
+
 ## CVE-2016-9079
  A use-after-free vulnerability in SVG Animation has been discovered. An exploit built on this vulnerability has been discovered in the wild targeting Firefox and Tor Browser users on Windows. This vulnerability affects Firefox  50.0.2, Firefox ESR  45.5.1, and Thunderbird  45.5.1.
 
@@ -1371,7 +1378,7 @@
 
 - [https://github.com/HeArtE4t3r/CVE-2016-3088](https://github.com/HeArtE4t3r/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/HeArtE4t3r/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/HeArtE4t3r/CVE-2016-3088.svg)
 
-- [https://github.com/pudiding/CVE-2016-3088](https://github.com/pudiding/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/pudiding/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/pudiding/CVE-2016-3088.svg)
+- [https://github.com/wood03mm/CVE-2016-3088](https://github.com/wood03mm/CVE-2016-3088) :  ![starts](https://img.shields.io/github/stars/wood03mm/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/wood03mm/CVE-2016-3088.svg)
 
 ## CVE-2016-2783
  Avaya Fabric Connect Virtual Services Platform (VSP) Operating System Software (VOSS) before 4.2.3.0 and 5.x before 5.0.1.0 does not properly handle VLAN and I-SIS indexes, which allows remote attackers to obtain unauthorized access via crafted Ethernet frames.
