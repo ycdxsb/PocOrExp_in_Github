@@ -124,6 +124,13 @@
 
 - [https://github.com/TheRook/AudioCaptchaBypass-CVE-2008-2019](https://github.com/TheRook/AudioCaptchaBypass-CVE-2008-2019) :  ![starts](https://img.shields.io/github/stars/TheRook/AudioCaptchaBypass-CVE-2008-2019.svg) ![forks](https://img.shields.io/github/forks/TheRook/AudioCaptchaBypass-CVE-2008-2019.svg)
 
+## CVE-2008-1930
+ The cookie authentication method in WordPress 2.5 relies on a hash of a concatenated string containing USERNAME and EXPIRY_TIME, which allows remote attackers to forge cookies by registering a username that results in the same concatenated string, as demonstrated by registering usernames beginning with "admin" to obtain administrator privileges, aka a "cryptographic splicing" issue.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2007-6013.
+
+
+
+- [https://github.com/HeisenbergH4X/CVE-2008-1930](https://github.com/HeisenbergH4X/CVE-2008-1930) :  ![starts](https://img.shields.io/github/stars/HeisenbergH4X/CVE-2008-1930.svg) ![forks](https://img.shields.io/github/forks/HeisenbergH4X/CVE-2008-1930.svg)
+
 ## CVE-2008-1657
  OpenSSH 4.4 up to versions before 4.9 allows remote authenticated users to bypass the sshd_config ForceCommand directive by modifying the .ssh/rc session file.
 
