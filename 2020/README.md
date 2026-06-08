@@ -660,9 +660,9 @@
 
 - [https://github.com/FrostsaberX/CVE-2020-27955](https://github.com/FrostsaberX/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/FrostsaberX/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/FrostsaberX/CVE-2020-27955.svg)
 
-- [https://github.com/Arnoldqqq/CVE-2020-27955](https://github.com/Arnoldqqq/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/Arnoldqqq/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/Arnoldqqq/CVE-2020-27955.svg)
-
 - [https://github.com/z50913/CVE-2020-27955](https://github.com/z50913/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/z50913/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/z50913/CVE-2020-27955.svg)
+
+- [https://github.com/Arnoldqqq/CVE-2020-27955](https://github.com/Arnoldqqq/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/Arnoldqqq/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/Arnoldqqq/CVE-2020-27955.svg)
 
 - [https://github.com/nob0dy-3389/CVE-2020-27955](https://github.com/nob0dy-3389/CVE-2020-27955) :  ![starts](https://img.shields.io/github/stars/nob0dy-3389/CVE-2020-27955.svg) ![forks](https://img.shields.io/github/forks/nob0dy-3389/CVE-2020-27955.svg)
 
@@ -950,9 +950,9 @@
 
 
 
-- [https://github.com/CQ-Tools/CVE-2020-26226-fixed](https://github.com/CQ-Tools/CVE-2020-26226-fixed) :  ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2020-26226-fixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2020-26226-fixed.svg)
-
 - [https://github.com/CQ-Tools/CVE-2020-26226-unfixed](https://github.com/CQ-Tools/CVE-2020-26226-unfixed) :  ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2020-26226-unfixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2020-26226-unfixed.svg)
+
+- [https://github.com/CQ-Tools/CVE-2020-26226-fixed](https://github.com/CQ-Tools/CVE-2020-26226-fixed) :  ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2020-26226-fixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2020-26226-fixed.svg)
 
 - [https://github.com/ossf-cve-benchmark/CVE-2020-26226](https://github.com/ossf-cve-benchmark/CVE-2020-26226) :  ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2020-26226.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2020-26226.svg)
 
@@ -2017,6 +2017,8 @@
 - [https://github.com/CaptainChicky/MiniPlasma](https://github.com/CaptainChicky/MiniPlasma) :  ![starts](https://img.shields.io/github/stars/CaptainChicky/MiniPlasma.svg) ![forks](https://img.shields.io/github/forks/CaptainChicky/MiniPlasma.svg)
 
 - [https://github.com/arch1m3d/MiniPlasma-Detection](https://github.com/arch1m3d/MiniPlasma-Detection) :  ![starts](https://img.shields.io/github/stars/arch1m3d/MiniPlasma-Detection.svg) ![forks](https://img.shields.io/github/forks/arch1m3d/MiniPlasma-Detection.svg)
+
+- [https://github.com/0xBlackash/CVE-2020-17103](https://github.com/0xBlackash/CVE-2020-17103) :  ![starts](https://img.shields.io/github/stars/0xBlackash/CVE-2020-17103.svg) ![forks](https://img.shields.io/github/forks/0xBlackash/CVE-2020-17103.svg)
 
 - [https://github.com/rfranca777/miniplasma-advisory](https://github.com/rfranca777/miniplasma-advisory) :  ![starts](https://img.shields.io/github/stars/rfranca777/miniplasma-advisory.svg) ![forks](https://img.shields.io/github/forks/rfranca777/miniplasma-advisory.svg)
 
@@ -6723,9 +6725,9 @@ When the second phase of Windows updates become available in Q1 2021, customers 
 
 - [https://github.com/TheJoyOfHacking/SecuraBV-CVE-2020-1472](https://github.com/TheJoyOfHacking/SecuraBV-CVE-2020-1472) :  ![starts](https://img.shields.io/github/stars/TheJoyOfHacking/SecuraBV-CVE-2020-1472.svg) ![forks](https://img.shields.io/github/forks/TheJoyOfHacking/SecuraBV-CVE-2020-1472.svg)
 
-- [https://github.com/logg-1/0logon](https://github.com/logg-1/0logon) :  ![starts](https://img.shields.io/github/stars/logg-1/0logon.svg) ![forks](https://img.shields.io/github/forks/logg-1/0logon.svg)
-
 - [https://github.com/johnpathe/zerologon-cve-2020-1472-notes](https://github.com/johnpathe/zerologon-cve-2020-1472-notes) :  ![starts](https://img.shields.io/github/stars/johnpathe/zerologon-cve-2020-1472-notes.svg) ![forks](https://img.shields.io/github/forks/johnpathe/zerologon-cve-2020-1472-notes.svg)
+
+- [https://github.com/logg-1/0logon](https://github.com/logg-1/0logon) :  ![starts](https://img.shields.io/github/stars/logg-1/0logon.svg) ![forks](https://img.shields.io/github/forks/logg-1/0logon.svg)
 
 - [https://github.com/technion/ZeroLogonAssess](https://github.com/technion/ZeroLogonAssess) :  ![starts](https://img.shields.io/github/stars/technion/ZeroLogonAssess.svg) ![forks](https://img.shields.io/github/forks/technion/ZeroLogonAssess.svg)
 
@@ -7158,9 +7160,9 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 - [https://github.com/kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/kn6869610/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/kn6869610/CVE-2020-0796.svg)
 
-- [https://github.com/krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/krizzz07/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/krizzz07/CVE-2020-0796.svg)
-
 - [https://github.com/halsten/CVE-2020-0796](https://github.com/halsten/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/halsten/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/halsten/CVE-2020-0796.svg)
+
+- [https://github.com/krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/krizzz07/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/krizzz07/CVE-2020-0796.svg)
 
 - [https://github.com/wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796) :  ![starts](https://img.shields.io/github/stars/wsfengfan/CVE-2020-0796.svg) ![forks](https://img.shields.io/github/forks/wsfengfan/CVE-2020-0796.svg)
 
@@ -7464,9 +7466,9 @@ pThe security update addresses the vulnerability by resolving the conditions whe
 
 - [https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC](https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC) :  ![starts](https://img.shields.io/github/stars/okanulkr/CurveBall-CVE-2020-0601-PoC.svg) ![forks](https://img.shields.io/github/forks/okanulkr/CurveBall-CVE-2020-0601-PoC.svg)
 
-- [https://github.com/dlee35/curveball_lua](https://github.com/dlee35/curveball_lua) :  ![starts](https://img.shields.io/github/stars/dlee35/curveball_lua.svg) ![forks](https://img.shields.io/github/forks/dlee35/curveball_lua.svg)
-
 - [https://github.com/tyj956413282/curveball-plus](https://github.com/tyj956413282/curveball-plus) :  ![starts](https://img.shields.io/github/stars/tyj956413282/curveball-plus.svg) ![forks](https://img.shields.io/github/forks/tyj956413282/curveball-plus.svg)
+
+- [https://github.com/dlee35/curveball_lua](https://github.com/dlee35/curveball_lua) :  ![starts](https://img.shields.io/github/stars/dlee35/curveball_lua.svg) ![forks](https://img.shields.io/github/forks/dlee35/curveball_lua.svg)
 
 - [https://github.com/bsides-rijeka/meetup-2-curveball](https://github.com/bsides-rijeka/meetup-2-curveball) :  ![starts](https://img.shields.io/github/stars/bsides-rijeka/meetup-2-curveball.svg) ![forks](https://img.shields.io/github/forks/bsides-rijeka/meetup-2-curveball.svg)
 
