@@ -65,9 +65,9 @@
 
 
 
-- [https://github.com/afifudinmtop/CVE-2009-3999](https://github.com/afifudinmtop/CVE-2009-3999) :  ![starts](https://img.shields.io/github/stars/afifudinmtop/CVE-2009-3999.svg) ![forks](https://img.shields.io/github/forks/afifudinmtop/CVE-2009-3999.svg)
-
 - [https://github.com/AC8999/CVE-2009-3999-HP-Power-Manager-4.2-Build-7-Buffer-Overflow](https://github.com/AC8999/CVE-2009-3999-HP-Power-Manager-4.2-Build-7-Buffer-Overflow) :  ![starts](https://img.shields.io/github/stars/AC8999/CVE-2009-3999-HP-Power-Manager-4.2-Build-7-Buffer-Overflow.svg) ![forks](https://img.shields.io/github/forks/AC8999/CVE-2009-3999-HP-Power-Manager-4.2-Build-7-Buffer-Overflow.svg)
+
+- [https://github.com/afifudinmtop/CVE-2009-3999](https://github.com/afifudinmtop/CVE-2009-3999) :  ![starts](https://img.shields.io/github/stars/afifudinmtop/CVE-2009-3999.svg) ![forks](https://img.shields.io/github/forks/afifudinmtop/CVE-2009-3999.svg)
 
 ## CVE-2009-3555
  The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a "plaintext injection" attack, aka the "Project Mogul" issue.
