@@ -105467,9 +105467,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify](https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify) :  ![starts](https://img.shields.io/github/stars/OtisSymbos/CVE-2013-3900-WinTrustVerify.svg) ![forks](https://img.shields.io/github/forks/OtisSymbos/CVE-2013-3900-WinTrustVerify.svg)
 
-- [https://github.com/Sabecomoeh/CVE-2013-3900](https://github.com/Sabecomoeh/CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/Sabecomoeh/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Sabecomoeh/CVE-2013-3900.svg)
-
 - [https://github.com/snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/snoopopsec/vulnerability-CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/snoopopsec/vulnerability-CVE-2013-3900.svg)
+
+- [https://github.com/Sabecomoeh/CVE-2013-3900](https://github.com/Sabecomoeh/CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/Sabecomoeh/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Sabecomoeh/CVE-2013-3900.svg)
 
 - [https://github.com/Securenetology/CVE-2013-3900](https://github.com/Securenetology/CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/Securenetology/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Securenetology/CVE-2013-3900.svg)
 
@@ -105805,6 +105805,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 
 - [https://github.com/wearohat/lucky13](https://github.com/wearohat/lucky13) :  ![starts](https://img.shields.io/github/stars/wearohat/lucky13.svg) ![forks](https://img.shields.io/github/forks/wearohat/lucky13.svg)
+
+- [https://github.com/SwitdnSec/Lucky13-Exploit-Script](https://github.com/SwitdnSec/Lucky13-Exploit-Script) :  ![starts](https://img.shields.io/github/stars/SwitdnSec/Lucky13-Exploit-Script.svg) ![forks](https://img.shields.io/github/forks/SwitdnSec/Lucky13-Exploit-Script.svg)
 
 ## CVE-2013-0156
  active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.x before 3.0.19, 3.1.x before 3.1.10, and 3.2.x before 3.2.11 does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code, or cause a denial of service (memory and CPU consumption) involving nested XML entity references, by leveraging Action Pack support for (1) YAML type conversion or (2) Symbol type conversion.
