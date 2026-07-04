@@ -106735,6 +106735,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/davidlares/vsftpd-exploitation](https://github.com/davidlares/vsftpd-exploitation) :  ![starts](https://img.shields.io/github/stars/davidlares/vsftpd-exploitation.svg) ![forks](https://img.shields.io/github/forks/davidlares/vsftpd-exploitation.svg)
 
+- [https://github.com/kn9annihilator/CVE-2011-2523-vsFTPd-2.3.4-Writeup](https://github.com/kn9annihilator/CVE-2011-2523-vsFTPd-2.3.4-Writeup) :  ![starts](https://img.shields.io/github/stars/kn9annihilator/CVE-2011-2523-vsFTPd-2.3.4-Writeup.svg) ![forks](https://img.shields.io/github/forks/kn9annihilator/CVE-2011-2523-vsFTPd-2.3.4-Writeup.svg)
+
 - [https://github.com/RinAliyeva/metasploitable2-vsftpd-exploitation](https://github.com/RinAliyeva/metasploitable2-vsftpd-exploitation) :  ![starts](https://img.shields.io/github/stars/RinAliyeva/metasploitable2-vsftpd-exploitation.svg) ![forks](https://img.shields.io/github/forks/RinAliyeva/metasploitable2-vsftpd-exploitation.svg)
 
 - [https://github.com/H4R335HR/vsftpd-234-backdoor](https://github.com/H4R335HR/vsftpd-234-backdoor) :  ![starts](https://img.shields.io/github/stars/H4R335HR/vsftpd-234-backdoor.svg) ![forks](https://img.shields.io/github/forks/H4R335HR/vsftpd-234-backdoor.svg)
