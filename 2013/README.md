@@ -212,9 +212,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify](https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify) :  ![starts](https://img.shields.io/github/stars/OtisSymbos/CVE-2013-3900-WinTrustVerify.svg) ![forks](https://img.shields.io/github/forks/OtisSymbos/CVE-2013-3900-WinTrustVerify.svg)
 
-- [https://github.com/Sabecomoeh/CVE-2013-3900](https://github.com/Sabecomoeh/CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/Sabecomoeh/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Sabecomoeh/CVE-2013-3900.svg)
-
 - [https://github.com/snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/snoopopsec/vulnerability-CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/snoopopsec/vulnerability-CVE-2013-3900.svg)
+
+- [https://github.com/Sabecomoeh/CVE-2013-3900](https://github.com/Sabecomoeh/CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/Sabecomoeh/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Sabecomoeh/CVE-2013-3900.svg)
 
 - [https://github.com/Securenetology/CVE-2013-3900](https://github.com/Securenetology/CVE-2013-3900) :  ![starts](https://img.shields.io/github/stars/Securenetology/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Securenetology/CVE-2013-3900.svg)
 
