@@ -30,6 +30,13 @@
 
 - [https://github.com/andrenasx/CVE-2015-10034](https://github.com/andrenasx/CVE-2015-10034) :  ![starts](https://img.shields.io/github/stars/andrenasx/CVE-2015-10034.svg) ![forks](https://img.shields.io/github/forks/andrenasx/CVE-2015-10034.svg)
 
+## CVE-2015-9357
+ The akismet plugin before 3.1.5 for WordPress has XSS.
+
+
+
+- [https://github.com/saretawa/CVE-2015-9357-POC](https://github.com/saretawa/CVE-2015-9357-POC) :  ![starts](https://img.shields.io/github/stars/saretawa/CVE-2015-9357-POC.svg) ![forks](https://img.shields.io/github/forks/saretawa/CVE-2015-9357-POC.svg)
+
 ## CVE-2015-9331
  The wp-all-import plugin before 3.2.4 for WordPress has no prevention of unauthenticated requests to adminInit.
 
