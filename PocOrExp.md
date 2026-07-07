@@ -108422,6 +108422,8 @@ This issue affects Apache HTTP Server 2.4.54 and earlier.
 
 
 
+- [https://github.com/bluedragonsecurity/CVE-2005-0575-knet-exploit](https://github.com/bluedragonsecurity/CVE-2005-0575-knet-exploit) :  ![starts](https://img.shields.io/github/stars/bluedragonsecurity/CVE-2005-0575-knet-exploit.svg) ![forks](https://img.shields.io/github/forks/bluedragonsecurity/CVE-2005-0575-knet-exploit.svg)
+
 - [https://github.com/MayaOfVeil/CVE-2005-0575](https://github.com/MayaOfVeil/CVE-2005-0575) :  ![starts](https://img.shields.io/github/stars/MayaOfVeil/CVE-2005-0575.svg) ![forks](https://img.shields.io/github/forks/MayaOfVeil/CVE-2005-0575.svg)
 
 ## CVE-2005-0452
