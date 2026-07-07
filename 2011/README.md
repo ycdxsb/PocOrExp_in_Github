@@ -74,6 +74,8 @@
 
 - [https://github.com/tkisason/KillApachePy](https://github.com/tkisason/KillApachePy) :  ![starts](https://img.shields.io/github/stars/tkisason/KillApachePy.svg) ![forks](https://img.shields.io/github/forks/tkisason/KillApachePy.svg)
 
+- [https://github.com/bluedragonsecurity/CVE-2011-3192-apache-exploit](https://github.com/bluedragonsecurity/CVE-2011-3192-apache-exploit) :  ![starts](https://img.shields.io/github/stars/bluedragonsecurity/CVE-2011-3192-apache-exploit.svg) ![forks](https://img.shields.io/github/forks/bluedragonsecurity/CVE-2011-3192-apache-exploit.svg)
+
 - [https://github.com/futurezayka/CVE-2011-3192](https://github.com/futurezayka/CVE-2011-3192) :  ![starts](https://img.shields.io/github/stars/futurezayka/CVE-2011-3192.svg) ![forks](https://img.shields.io/github/forks/futurezayka/CVE-2011-3192.svg)
 
 - [https://github.com/stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192) :  ![starts](https://img.shields.io/github/stars/stcmjp/cve-2011-3192.svg) ![forks](https://img.shields.io/github/forks/stcmjp/cve-2011-3192.svg)
@@ -140,9 +142,9 @@
 
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
-- [https://github.com/hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/hklabCR/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/hklabCR/CVE-2011-2523.svg)
-
 - [https://github.com/0xSojalSec/CVE-2011-2523](https://github.com/0xSojalSec/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/0xSojalSec/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/CVE-2011-2523.svg)
+
+- [https://github.com/hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/hklabCR/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/hklabCR/CVE-2011-2523.svg)
 
 - [https://github.com/sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523) :  ![starts](https://img.shields.io/github/stars/sug4r-wr41th/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/sug4r-wr41th/CVE-2011-2523.svg)
 
@@ -246,6 +248,8 @@
  Race condition in the pkexec utility and polkitd daemon in PolicyKit (aka polkit) 0.96 allows local users to gain privileges by executing a setuid program from pkexec, related to the use of the effective user ID instead of the real user ID.
 
 
+
+- [https://github.com/bluedragonsecurity/CVE-2011-1485-pkexec-exploit](https://github.com/bluedragonsecurity/CVE-2011-1485-pkexec-exploit) :  ![starts](https://img.shields.io/github/stars/bluedragonsecurity/CVE-2011-1485-pkexec-exploit.svg) ![forks](https://img.shields.io/github/forks/bluedragonsecurity/CVE-2011-1485-pkexec-exploit.svg)
 
 - [https://github.com/Pashkela/CVE-2011-1485](https://github.com/Pashkela/CVE-2011-1485) :  ![starts](https://img.shields.io/github/stars/Pashkela/CVE-2011-1485.svg) ![forks](https://img.shields.io/github/forks/Pashkela/CVE-2011-1485.svg)
 
