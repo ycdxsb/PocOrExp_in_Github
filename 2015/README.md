@@ -1233,7 +1233,7 @@
 
 
 
-- [https://github.com/Flanbox/cve-2015-1187-dir820l-reproduction](https://github.com/Flanbox/cve-2015-1187-dir820l-reproduction) :  ![starts](https://img.shields.io/github/stars/Flanbox/cve-2015-1187-dir820l-reproduction.svg) ![forks](https://img.shields.io/github/forks/Flanbox/cve-2015-1187-dir820l-reproduction.svg)
+- [https://github.com/christopher-leese/cve-2015-1187-dir820l-firmware-reverse-engineering](https://github.com/christopher-leese/cve-2015-1187-dir820l-firmware-reverse-engineering) :  ![starts](https://img.shields.io/github/stars/christopher-leese/cve-2015-1187-dir820l-firmware-reverse-engineering.svg) ![forks](https://img.shields.io/github/forks/christopher-leese/cve-2015-1187-dir820l-firmware-reverse-engineering.svg)
 
 ## CVE-2015-1157
  CoreText in Apple iOS 8.x through 8.3 allows remote attackers to cause a denial of service (reboot and messaging disruption) via crafted Unicode text that is not properly handled during display truncation in the Notifications feature, as demonstrated by Arabic characters in (1) an SMS message or (2) a WhatsApp message.
