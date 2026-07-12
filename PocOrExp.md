@@ -105600,15 +105600,6 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/laginimaineb/cve-2014-7920-7921](https://github.com/laginimaineb/cve-2014-7920-7921) :  ![starts](https://img.shields.io/github/stars/laginimaineb/cve-2014-7920-7921.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/cve-2014-7920-7921.svg)
 
-## CVE-2014-7920
- mediaserver in Android 2.2 through 5.x before 5.1 allows attackers to gain privileges.  NOTE: This is a different vulnerability than CVE-2014-7921.
-
-
-
-- [https://github.com/laginimaineb/cve-2014-7920-7921](https://github.com/laginimaineb/cve-2014-7920-7921) :  ![starts](https://img.shields.io/github/stars/laginimaineb/cve-2014-7920-7921.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/cve-2014-7920-7921.svg)
-
-- [https://github.com/Vinc3nt4H/cve-2014-7920-7921_update](https://github.com/Vinc3nt4H/cve-2014-7920-7921_update) :  ![starts](https://img.shields.io/github/stars/Vinc3nt4H/cve-2014-7920-7921_update.svg) ![forks](https://img.shields.io/github/forks/Vinc3nt4H/cve-2014-7920-7921_update.svg)
-
 ## CVE-2014-7912
  The get_option function in dhcp.c in dhcpcd before 6.2.0, as used in dhcpcd 5.x in Android before 5.1 and other products, does not validate the relationship between length fields and the amount of data, which allows remote DHCP servers to execute arbitrary code or cause a denial of service (memory corruption) via a large length value of an option in a DHCPACK message.
 
@@ -105722,9 +105713,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/roughiz/cve-2014-6287.py](https://github.com/roughiz/cve-2014-6287.py) :  ![starts](https://img.shields.io/github/stars/roughiz/cve-2014-6287.py.svg) ![forks](https://img.shields.io/github/forks/roughiz/cve-2014-6287.py.svg)
 
-- [https://github.com/jagg3rsec/CVE-2014-6287](https://github.com/jagg3rsec/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/jagg3rsec/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/jagg3rsec/CVE-2014-6287.svg)
-
 - [https://github.com/zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/zhsh9/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/zhsh9/CVE-2014-6287.svg)
+
+- [https://github.com/jagg3rsec/CVE-2014-6287](https://github.com/jagg3rsec/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/jagg3rsec/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/jagg3rsec/CVE-2014-6287.svg)
 
 - [https://github.com/10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287) :  ![starts](https://img.shields.io/github/stars/10cks/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2014-6287.svg)
 
@@ -105815,7 +105806,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/Gurguii/cgi-bin-shellshock](https://github.com/Gurguii/cgi-bin-shellshock) :  ![starts](https://img.shields.io/github/stars/Gurguii/cgi-bin-shellshock.svg) ![forks](https://img.shields.io/github/forks/Gurguii/cgi-bin-shellshock.svg)
 
-- [https://github.com/TheRealCiscoo/Shellshock-Exploit](https://github.com/TheRealCiscoo/Shellshock-Exploit) :  ![starts](https://img.shields.io/github/stars/TheRealCiscoo/Shellshock-Exploit.svg) ![forks](https://img.shields.io/github/forks/TheRealCiscoo/Shellshock-Exploit.svg)
+- [https://github.com/TheRealCiscoo/shellshock-manual-exploitation](https://github.com/TheRealCiscoo/shellshock-manual-exploitation) :  ![starts](https://img.shields.io/github/stars/TheRealCiscoo/shellshock-manual-exploitation.svg) ![forks](https://img.shields.io/github/forks/TheRealCiscoo/shellshock-manual-exploitation.svg)
+
+- [https://github.com/TheRealCiscoo/shellshock-poc](https://github.com/TheRealCiscoo/shellshock-poc) :  ![starts](https://img.shields.io/github/stars/TheRealCiscoo/shellshock-poc.svg) ![forks](https://img.shields.io/github/forks/TheRealCiscoo/shellshock-poc.svg)
 
 - [https://github.com/themson/shellshock](https://github.com/themson/shellshock) :  ![starts](https://img.shields.io/github/stars/themson/shellshock.svg) ![forks](https://img.shields.io/github/forks/themson/shellshock.svg)
 
@@ -105855,9 +105848,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/kowshik-sundararajan/CVE-2014-6271](https://github.com/kowshik-sundararajan/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/kowshik-sundararajan/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kowshik-sundararajan/CVE-2014-6271.svg)
 
-- [https://github.com/kaleth4/-CVE-2014-6271](https://github.com/kaleth4/-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/kaleth4/-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kaleth4/-CVE-2014-6271.svg)
-
 - [https://github.com/woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/woltage/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/woltage/CVE-2014-6271.svg)
+
+- [https://github.com/kaleth4/-CVE-2014-6271](https://github.com/kaleth4/-CVE-2014-6271) :  ![starts](https://img.shields.io/github/stars/kaleth4/-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kaleth4/-CVE-2014-6271.svg)
 
 - [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) :  ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
 
@@ -105941,9 +105934,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor](https://github.com/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor) :  ![starts](https://img.shields.io/github/stars/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor.svg) ![forks](https://img.shields.io/github/forks/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor.svg)
 
-- [https://github.com/JohnRyk/ICMPShock3](https://github.com/JohnRyk/ICMPShock3) :  ![starts](https://img.shields.io/github/stars/JohnRyk/ICMPShock3.svg) ![forks](https://img.shields.io/github/forks/JohnRyk/ICMPShock3.svg)
-
 - [https://github.com/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report](https://github.com/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report) :  ![starts](https://img.shields.io/github/stars/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report.svg) ![forks](https://img.shields.io/github/forks/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report.svg)
+
+- [https://github.com/JohnRyk/ICMPShock3](https://github.com/JohnRyk/ICMPShock3) :  ![starts](https://img.shields.io/github/stars/JohnRyk/ICMPShock3.svg) ![forks](https://img.shields.io/github/forks/JohnRyk/ICMPShock3.svg)
 
 ## CVE-2014-5460
  Unrestricted file upload vulnerability in the Tribulant Slideshow Gallery plugin before 1.4.7 for WordPress allows remote authenticated users to execute arbitrary code by uploading a PHP file, then accessing it via a direct request to the file in wp-content/uploads/slideshow-gallery/.
