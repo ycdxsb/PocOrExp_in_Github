@@ -104602,8 +104602,6 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/tierChampion/POC_CVE-2015-9235](https://github.com/tierChampion/POC_CVE-2015-9235) :  ![starts](https://img.shields.io/github/stars/tierChampion/POC_CVE-2015-9235.svg) ![forks](https://img.shields.io/github/forks/tierChampion/POC_CVE-2015-9235.svg)
 
-- [https://github.com/alisster00/blueHarbor-VulnLab](https://github.com/alisster00/blueHarbor-VulnLab) :  ![starts](https://img.shields.io/github/stars/alisster00/blueHarbor-VulnLab.svg) ![forks](https://img.shields.io/github/forks/alisster00/blueHarbor-VulnLab.svg)
-
 ## CVE-2015-8710
  The htmlParseComment function in HTMLparser.c in libxml2 allows attackers to obtain sensitive information, cause a denial of service (out-of-bounds heap memory access and application crash), or possibly have unspecified other impact via an unclosed HTML comment.
 
@@ -104657,6 +104655,13 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 - [https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562](https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562) :  ![starts](https://img.shields.io/github/stars/thejackerz/scanner-exploit-joomla-CVE-2015-8562.svg) ![forks](https://img.shields.io/github/forks/thejackerz/scanner-exploit-joomla-CVE-2015-8562.svg)
 
 - [https://github.com/drolley919/joomla-cve-2015-8562-exploit-and-linux-forensic-analysis](https://github.com/drolley919/joomla-cve-2015-8562-exploit-and-linux-forensic-analysis) :  ![starts](https://img.shields.io/github/stars/drolley919/joomla-cve-2015-8562-exploit-and-linux-forensic-analysis.svg) ![forks](https://img.shields.io/github/forks/drolley919/joomla-cve-2015-8562-exploit-and-linux-forensic-analysis.svg)
+
+## CVE-2015-8550
+ Xen, when used on a system providing PV backends, allows local guest OS administrators to cause a denial of service (host OS crash) or gain privileges by writing to memory shared between the frontend and backend, aka a double fetch vulnerability.
+
+
+
+- [https://github.com/WhatsWrongAndWhy/CVE-2015-8550](https://github.com/WhatsWrongAndWhy/CVE-2015-8550) :  ![starts](https://img.shields.io/github/stars/WhatsWrongAndWhy/CVE-2015-8550.svg) ![forks](https://img.shields.io/github/forks/WhatsWrongAndWhy/CVE-2015-8550.svg)
 
 ## CVE-2015-8543
  The networking implementation in the Linux kernel through 4.3.3, as used in Android and other products, does not validate protocol identifiers for certain protocol families, which allows local users to cause a denial of service (NULL function pointer dereference and system crash) or possibly gain privileges by leveraging CLONE_NEWUSER support to execute a crafted SOCK_RAW application.
@@ -105739,6 +105744,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 - [https://github.com/YastrebX/CVE-2015-1328](https://github.com/YastrebX/CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/YastrebX/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/YastrebX/CVE-2015-1328.svg)
 
 - [https://github.com/BlackFrog-hub/cve-2015-1328](https://github.com/BlackFrog-hub/cve-2015-1328) :  ![starts](https://img.shields.io/github/stars/BlackFrog-hub/cve-2015-1328.svg) ![forks](https://img.shields.io/github/forks/BlackFrog-hub/cve-2015-1328.svg)
+
+- [https://github.com/WhatsWrongAndWhy/CVE-2015-1328](https://github.com/WhatsWrongAndWhy/CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/WhatsWrongAndWhy/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/WhatsWrongAndWhy/CVE-2015-1328.svg)
 
 - [https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328](https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328) :  ![starts](https://img.shields.io/github/stars/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328.svg)
 
