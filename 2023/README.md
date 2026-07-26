@@ -1912,9 +1912,9 @@ which fixes this issue.
 
 - [https://github.com/pentestfunctions/BlueDucky](https://github.com/pentestfunctions/BlueDucky) :  ![starts](https://img.shields.io/github/stars/pentestfunctions/BlueDucky.svg) ![forks](https://img.shields.io/github/forks/pentestfunctions/BlueDucky.svg)
 
-- [https://github.com/Danyw24/blueXploit](https://github.com/Danyw24/blueXploit) :  ![starts](https://img.shields.io/github/stars/Danyw24/blueXploit.svg) ![forks](https://img.shields.io/github/forks/Danyw24/blueXploit.svg)
-
 - [https://github.com/Eason-zz/BluetoothDucky](https://github.com/Eason-zz/BluetoothDucky) :  ![starts](https://img.shields.io/github/stars/Eason-zz/BluetoothDucky.svg) ![forks](https://img.shields.io/github/forks/Eason-zz/BluetoothDucky.svg)
+
+- [https://github.com/Danyw24/blueXploit](https://github.com/Danyw24/blueXploit) :  ![starts](https://img.shields.io/github/stars/Danyw24/blueXploit.svg) ![forks](https://img.shields.io/github/forks/Danyw24/blueXploit.svg)
 
 - [https://github.com/AvishekDhakal/CVE-2023-45866_EXPLOITS](https://github.com/AvishekDhakal/CVE-2023-45866_EXPLOITS) :  ![starts](https://img.shields.io/github/stars/AvishekDhakal/CVE-2023-45866_EXPLOITS.svg) ![forks](https://img.shields.io/github/forks/AvishekDhakal/CVE-2023-45866_EXPLOITS.svg)
 
@@ -6616,6 +6616,13 @@ The specific flaw exists within the handling of the WacomInstallI.txt file by th
 
 
 - [https://github.com/Avento/CVE-2023-32031](https://github.com/Avento/CVE-2023-32031) :  ![starts](https://img.shields.io/github/stars/Avento/CVE-2023-32031.svg) ![forks](https://img.shields.io/github/forks/Avento/CVE-2023-32031.svg)
+
+## CVE-2023-31903
+ GuppY CMS 6.00.10 is vulnerable to Unrestricted File Upload which allows remote attackers to execute arbitrary code by uploading a php file.
+
+
+
+- [https://github.com/blue0x1/GuppY-exploit-rce](https://github.com/blue0x1/GuppY-exploit-rce) :  ![starts](https://img.shields.io/github/stars/blue0x1/GuppY-exploit-rce.svg) ![forks](https://img.shields.io/github/forks/blue0x1/GuppY-exploit-rce.svg)
 
 ## CVE-2023-31902
  RPA Technology Mobile Mouse 3.6.0.4 is vulnerable to Remote Code Execution (RCE).
