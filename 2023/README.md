@@ -2835,9 +2835,9 @@ Users are recommended to upgrade to version 2.4.58, which fixes the issue.
 
 - [https://github.com/whoamins/CVE-2023-42793](https://github.com/whoamins/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/whoamins/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/whoamins/CVE-2023-42793.svg)
 
-- [https://github.com/jakehomb/cve-2023-42793](https://github.com/jakehomb/cve-2023-42793) :  ![starts](https://img.shields.io/github/stars/jakehomb/cve-2023-42793.svg) ![forks](https://img.shields.io/github/forks/jakehomb/cve-2023-42793.svg)
-
 - [https://github.com/cxdxnt/CVE-2023-42793](https://github.com/cxdxnt/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/cxdxnt/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/cxdxnt/CVE-2023-42793.svg)
+
+- [https://github.com/jakehomb/cve-2023-42793](https://github.com/jakehomb/cve-2023-42793) :  ![starts](https://img.shields.io/github/stars/jakehomb/cve-2023-42793.svg) ![forks](https://img.shields.io/github/forks/jakehomb/cve-2023-42793.svg)
 
 - [https://github.com/becrevex/CVE-2023-42793](https://github.com/becrevex/CVE-2023-42793) :  ![starts](https://img.shields.io/github/stars/becrevex/CVE-2023-42793.svg) ![forks](https://img.shields.io/github/forks/becrevex/CVE-2023-42793.svg)
 
@@ -6978,8 +6978,6 @@ from other guests.
 
 - [https://github.com/d0rb/CVE-2023-30943](https://github.com/d0rb/CVE-2023-30943) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2023-30943.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2023-30943.svg)
 
-- [https://github.com/Chocapikk/CVE-2023-30943](https://github.com/Chocapikk/CVE-2023-30943) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-30943.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-30943.svg)
-
 - [https://github.com/RubyCat1337/CVE-2023-30943](https://github.com/RubyCat1337/CVE-2023-30943) :  ![starts](https://img.shields.io/github/stars/RubyCat1337/CVE-2023-30943.svg) ![forks](https://img.shields.io/github/forks/RubyCat1337/CVE-2023-30943.svg)
 
 ## CVE-2023-30861
@@ -7137,11 +7135,7 @@ Upgrade deployments to release v2.43.0 or higher to receive a patch. This releas
 
 - [https://github.com/tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit](https://github.com/tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit) :  ![starts](https://img.shields.io/github/stars/tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit.svg) ![forks](https://img.shields.io/github/forks/tinashelorenzi/CVE-2023-30258-magnus-billing-v7-exploit.svg)
 
-- [https://github.com/Chocapikk/CVE-2023-30258](https://github.com/Chocapikk/CVE-2023-30258) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-30258.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-30258.svg)
-
 - [https://github.com/n00o00b/CVE-2023-30258-RCE-POC](https://github.com/n00o00b/CVE-2023-30258-RCE-POC) :  ![starts](https://img.shields.io/github/stars/n00o00b/CVE-2023-30258-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/n00o00b/CVE-2023-30258-RCE-POC.svg)
-
-- [https://github.com/kayl22/magnus_billing_7.3.0_RCE_CVE-2023-30258](https://github.com/kayl22/magnus_billing_7.3.0_RCE_CVE-2023-30258) :  ![starts](https://img.shields.io/github/stars/kayl22/magnus_billing_7.3.0_RCE_CVE-2023-30258.svg) ![forks](https://img.shields.io/github/forks/kayl22/magnus_billing_7.3.0_RCE_CVE-2023-30258.svg)
 
 - [https://github.com/estebanzarate/CVE-2023-30258-Magnus-Billing-v7-Command-Injection-PoC](https://github.com/estebanzarate/CVE-2023-30258-Magnus-Billing-v7-Command-Injection-PoC) :  ![starts](https://img.shields.io/github/stars/estebanzarate/CVE-2023-30258-Magnus-Billing-v7-Command-Injection-PoC.svg) ![forks](https://img.shields.io/github/forks/estebanzarate/CVE-2023-30258-Magnus-Billing-v7-Command-Injection-PoC.svg)
 
@@ -7154,6 +7148,8 @@ Upgrade deployments to release v2.43.0 or higher to receive a patch. This releas
 - [https://github.com/cyb3rk0ala/THM-MagnusBilling-CVE-2023-30258-Exploit](https://github.com/cyb3rk0ala/THM-MagnusBilling-CVE-2023-30258-Exploit) :  ![starts](https://img.shields.io/github/stars/cyb3rk0ala/THM-MagnusBilling-CVE-2023-30258-Exploit.svg) ![forks](https://img.shields.io/github/forks/cyb3rk0ala/THM-MagnusBilling-CVE-2023-30258-Exploit.svg)
 
 - [https://github.com/abdullohqurbon0v/CVE-2023-30258-Exploit-For-Magnus-Billing-System](https://github.com/abdullohqurbon0v/CVE-2023-30258-Exploit-For-Magnus-Billing-System) :  ![starts](https://img.shields.io/github/stars/abdullohqurbon0v/CVE-2023-30258-Exploit-For-Magnus-Billing-System.svg) ![forks](https://img.shields.io/github/forks/abdullohqurbon0v/CVE-2023-30258-Exploit-For-Magnus-Billing-System.svg)
+
+- [https://github.com/kayl22/magnus_billing_7.3.0_RCE_CVE-2023-30258](https://github.com/kayl22/magnus_billing_7.3.0_RCE_CVE-2023-30258) :  ![starts](https://img.shields.io/github/stars/kayl22/magnus_billing_7.3.0_RCE_CVE-2023-30258.svg) ![forks](https://img.shields.io/github/forks/kayl22/magnus_billing_7.3.0_RCE_CVE-2023-30258.svg)
 
 ## CVE-2023-30256
  Cross Site Scripting vulnerability found in Webkil QloApps v.1.5.2 allows a remote attacker to obtain sensitive information via the back and email_create parameters in the AuthController.php file.
@@ -12605,8 +12601,6 @@ Improper file stream access in /desktop_app/file.ajax.php?action=uploadfile in B
 
 
 
-- [https://github.com/Chocapikk/CVE-2023-1698](https://github.com/Chocapikk/CVE-2023-1698) :  ![starts](https://img.shields.io/github/stars/Chocapikk/CVE-2023-1698.svg) ![forks](https://img.shields.io/github/forks/Chocapikk/CVE-2023-1698.svg)
-
 - [https://github.com/X3RX3SSec/CVE-2023-1698](https://github.com/X3RX3SSec/CVE-2023-1698) :  ![starts](https://img.shields.io/github/stars/X3RX3SSec/CVE-2023-1698.svg) ![forks](https://img.shields.io/github/forks/X3RX3SSec/CVE-2023-1698.svg)
 
 - [https://github.com/ibrahmsql/CVE-2023-1698](https://github.com/ibrahmsql/CVE-2023-1698) :  ![starts](https://img.shields.io/github/stars/ibrahmsql/CVE-2023-1698.svg) ![forks](https://img.shields.io/github/forks/ibrahmsql/CVE-2023-1698.svg)
@@ -12930,19 +12924,21 @@ The protection bypass vulnerability in DLP for Windows 11.9.x is addressed in ve
 
 - [https://github.com/orilevy8/cve-2023-0386](https://github.com/orilevy8/cve-2023-0386) :  ![starts](https://img.shields.io/github/stars/orilevy8/cve-2023-0386.svg) ![forks](https://img.shields.io/github/forks/orilevy8/cve-2023-0386.svg)
 
-- [https://github.com/churamanib/CVE-2023-0386](https://github.com/churamanib/CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/churamanib/CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/churamanib/CVE-2023-0386.svg)
-
 - [https://github.com/letsr00t/CVE-2023-0386](https://github.com/letsr00t/CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/letsr00t/CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/letsr00t/CVE-2023-0386.svg)
 
-- [https://github.com/julianertle/CVE-2023-0386-CTF](https://github.com/julianertle/CVE-2023-0386-CTF) :  ![starts](https://img.shields.io/github/stars/julianertle/CVE-2023-0386-CTF.svg) ![forks](https://img.shields.io/github/forks/julianertle/CVE-2023-0386-CTF.svg)
+- [https://github.com/churamanib/CVE-2023-0386](https://github.com/churamanib/CVE-2023-0386) :  ![starts](https://img.shields.io/github/stars/churamanib/CVE-2023-0386.svg) ![forks](https://img.shields.io/github/forks/churamanib/CVE-2023-0386.svg)
 
 - [https://github.com/dragosbanica/CVE-2023-0386_POC](https://github.com/dragosbanica/CVE-2023-0386_POC) :  ![starts](https://img.shields.io/github/stars/dragosbanica/CVE-2023-0386_POC.svg) ![forks](https://img.shields.io/github/forks/dragosbanica/CVE-2023-0386_POC.svg)
 
+- [https://github.com/julianertle/CVE-2023-0386-CTF](https://github.com/julianertle/CVE-2023-0386-CTF) :  ![starts](https://img.shields.io/github/stars/julianertle/CVE-2023-0386-CTF.svg) ![forks](https://img.shields.io/github/forks/julianertle/CVE-2023-0386-CTF.svg)
+
 - [https://github.com/EstamelGG/CVE-2023-0386-libs](https://github.com/EstamelGG/CVE-2023-0386-libs) :  ![starts](https://img.shields.io/github/stars/EstamelGG/CVE-2023-0386-libs.svg) ![forks](https://img.shields.io/github/forks/EstamelGG/CVE-2023-0386-libs.svg)
+
+- [https://github.com/huovnn/CVE-2023-0386-go-poc](https://github.com/huovnn/CVE-2023-0386-go-poc) :  ![starts](https://img.shields.io/github/stars/huovnn/CVE-2023-0386-go-poc.svg) ![forks](https://img.shields.io/github/forks/huovnn/CVE-2023-0386-go-poc.svg)
 
 - [https://github.com/pwncone/CVE-2023-0386-OverlayFS](https://github.com/pwncone/CVE-2023-0386-OverlayFS) :  ![starts](https://img.shields.io/github/stars/pwncone/CVE-2023-0386-OverlayFS.svg) ![forks](https://img.shields.io/github/forks/pwncone/CVE-2023-0386-OverlayFS.svg)
 
-- [https://github.com/anxs3c/TwoMillion-Machine](https://github.com/anxs3c/TwoMillion-Machine) :  ![starts](https://img.shields.io/github/stars/anxs3c/TwoMillion-Machine.svg) ![forks](https://img.shields.io/github/forks/anxs3c/TwoMillion-Machine.svg)
+- [https://github.com/anxs3c/TwoMillion-Machine-Writeup](https://github.com/anxs3c/TwoMillion-Machine-Writeup) :  ![starts](https://img.shields.io/github/stars/anxs3c/TwoMillion-Machine-Writeup.svg) ![forks](https://img.shields.io/github/forks/anxs3c/TwoMillion-Machine-Writeup.svg)
 
 - [https://github.com/karimelsheikh1/HTB-TwoMillion-Writeup](https://github.com/karimelsheikh1/HTB-TwoMillion-Writeup) :  ![starts](https://img.shields.io/github/stars/karimelsheikh1/HTB-TwoMillion-Writeup.svg) ![forks](https://img.shields.io/github/forks/karimelsheikh1/HTB-TwoMillion-Writeup.svg)
 
