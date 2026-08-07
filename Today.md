@@ -1,370 +1,326 @@
-# Update 2026-08-06
-## CVE-2026-70481
- Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform. From 0.5.0 until 0.11.0, the standard channel message update and delete handlers accepted any caller holding write access on the channel without checking that the caller wrote the message. Because write access is the same grant a member needs to post, any ordinary participant in a shared standard channel could rewrite or permanently delete another participant message, while group and direct message handlers enforced authorship. This issue is fixed in 0.11.0.
+# Update 2026-08-07
+## CVE-2026-71211
+ MLflow's AI Gateway accepts an auth_config.api_base value when creating a gateway secret (mlflow/server/handlers.py, _create_gateway_secret) with no validation of scheme, host, or IP range; the value is stored verbatim. The gateway proxy endpoint (mlflow/server/gateway_api.py, raw_proxy) subsequently issues an HTTP request to that stored api_base plus a caller-supplied path and returns the full response body. MLflow's existing SSRF guard, _validate_webhook_url (which blocks non-global and metadata IPs), is never invoked anywhere in this gateway secret/proxy code path. The CreateGatewaySecret action additionally has no entry in the permission-validator map, so it requires only basic authentication rather than any specific scope, meaning any authenticated user — including read-only accounts — can create a secret pointing at an internal address and reach it via the proxy endpoint, potentially exposing cloud-instance IAM credentials via metadata services. This is related to CVE-2026-4035, which addresses a distinct mechanism in the same gateway-secret feature (server-side $ENV_VAR resolution inside the api_key field leaking credentials to the configured upstream); the finding here is an independent missing-validation gap in the api_base destination itself, unaffected by that fix.
 
-- [https://github.com/Foxer131/CVE-2026-70481](https://github.com/Foxer131/CVE-2026-70481) :  ![starts](https://img.shields.io/github/stars/Foxer131/CVE-2026-70481.svg) ![forks](https://img.shields.io/github/forks/Foxer131/CVE-2026-70481.svg)
-
-
-## CVE-2026-69243
- AIOHTTP is an asynchronous HTTP client/server framework for asyncio and Python. Prior to 3.14.2, the HTTP parsers were vulnerable to a request smuggling attack relating to WebSocket upgrades. If using the server-side component, an attacker may be able to execute a request smuggling vulnerability using an edge case in the WebSocket upgrade procedure. A WebSocket upgrade request with a body could cause the parser to switch protocols before the complete request body was received, leaving trailing bytes to be handled as upgraded-protocol or pipelined data rather than normal HTTP body data. This issue is fixed in version 3.14.2.
-
-- [https://github.com/JVBotelho/cve-2026-69243-poc-aiohttp-smuggling](https://github.com/JVBotelho/cve-2026-69243-poc-aiohttp-smuggling) :  ![starts](https://img.shields.io/github/stars/JVBotelho/cve-2026-69243-poc-aiohttp-smuggling.svg) ![forks](https://img.shields.io/github/forks/JVBotelho/cve-2026-69243-poc-aiohttp-smuggling.svg)
+- [https://github.com/Abdivasiyev2008/CVE-2026-71211-exploit](https://github.com/Abdivasiyev2008/CVE-2026-71211-exploit) :  ![starts](https://img.shields.io/github/stars/Abdivasiyev2008/CVE-2026-71211-exploit.svg) ![forks](https://img.shields.io/github/forks/Abdivasiyev2008/CVE-2026-71211-exploit.svg)
 
 
-## CVE-2026-67340
- ArcadeDB before 26.7.2 (arcadedb-engine) allows trigger scripts to look up host classes in java.lang.* (via Java.type) because ScriptTriggerExecutor adds java.lang.* to the allowed packages. An authenticated user with UPDATE_SCHEMA permission can create a JavaScript trigger that invokes java.lang.Runtime.getRuntime().exec() (or ProcessBuilder), achieving OS command execution when the trigger fires.
+## CVE-2026-65058
+ Trezor Safe 3, Safe 5, and Safe 7 firmware contains a confirmation-binding flaw in the Ethereum sign_tx / sign_tx_eip1559 flow. For contract interactions, the device confirms only the initial calldata chunk while the signature commits to the full streamed calldata. An attacker could present calldata to a victim then supply a different tail that changes the signed transaction. Fixed in 70c9b0c.
 
-- [https://github.com/0xdak/CVE-2026-67340_exploit](https://github.com/0xdak/CVE-2026-67340_exploit) :  ![starts](https://img.shields.io/github/stars/0xdak/CVE-2026-67340_exploit.svg) ![forks](https://img.shields.io/github/forks/0xdak/CVE-2026-67340_exploit.svg)
-
-
-## CVE-2026-66066
- Action Pack is a framework for handling and responding to web requests. In versions prior to 7.2.3.2, 8.0.5.1 and 8.1.3.1, Active Storage does not disable libvips operations marked unsafe for untrusted content, allowing a crafted upload to invoke such an operation. Consuming applications are affected when configured to use libvips and accept image uploads from untrusted users. An unauthenticated attacker may exploit this behavior to read arbitrary files accessible to the Rails process, including environment variables and application secrets. Exposure of credentials such as secret_key_base or external-service tokens may enable remote code execution or lateral movement. This issue has been fixed in versions 7.2.3.2, 8.0.5.1 and 8.1.3.1.
-
-- [https://github.com/HackSpeak/CVE-2026-66066](https://github.com/HackSpeak/CVE-2026-66066) :  ![starts](https://img.shields.io/github/stars/HackSpeak/CVE-2026-66066.svg) ![forks](https://img.shields.io/github/forks/HackSpeak/CVE-2026-66066.svg)
-- [https://github.com/shinthink/CVE-2026-66066](https://github.com/shinthink/CVE-2026-66066) :  ![starts](https://img.shields.io/github/stars/shinthink/CVE-2026-66066.svg) ![forks](https://img.shields.io/github/forks/shinthink/CVE-2026-66066.svg)
-
-
-## CVE-2026-64531
-ownership and truncates on close failure.
-
-- [https://github.com/HackSpeak/CVE-2026-64531](https://github.com/HackSpeak/CVE-2026-64531) :  ![starts](https://img.shields.io/github/stars/HackSpeak/CVE-2026-64531.svg) ![forks](https://img.shields.io/github/forks/HackSpeak/CVE-2026-64531.svg)
-
-
-## CVE-2026-63223
- CodeIgniter is a PHP full-stack web framework. Prior to 4.7.4, the is_image and mime_in upload validation rules do not independently enforce a safe client filename extension, allowing a remote attacker to upload executable content when an application preserves the client filename and stores uploads in a web-accessible script-enabled directory. Applications are impacted when they validate uploads using is_image or mime_in without an independent safe extension check (such as ext_in on patched versions), save uploaded files using the client-supplied filename, and place uploads in a web-accessible directory where PHP files can execute. This issue is fixed in version 4.7.4.
-
-- [https://github.com/shinthink/CVE-2026-63223](https://github.com/shinthink/CVE-2026-63223) :  ![starts](https://img.shields.io/github/stars/shinthink/CVE-2026-63223.svg) ![forks](https://img.shields.io/github/forks/shinthink/CVE-2026-63223.svg)
+- [https://github.com/helper-beeps/trezor-cve-2026-65058](https://github.com/helper-beeps/trezor-cve-2026-65058) :  ![starts](https://img.shields.io/github/stars/helper-beeps/trezor-cve-2026-65058.svg) ![forks](https://img.shields.io/github/forks/helper-beeps/trezor-cve-2026-65058.svg)
 
 
 ## CVE-2026-63030
  WordPress 6.9.x before 6.9.5 and 7.0.x before 7.0.2 is affected by a REST API batch endpoint route confusion issue which, combined with the author__not_in WP_Query SQL Injection (CVE-2026-60137), could allow an attacker to perform SQL Injection and achieve Remote Code Execution.
 
-- [https://github.com/johnlodan/wp2shell-rce](https://github.com/johnlodan/wp2shell-rce) :  ![starts](https://img.shields.io/github/stars/johnlodan/wp2shell-rce.svg) ![forks](https://img.shields.io/github/forks/johnlodan/wp2shell-rce.svg)
-- [https://github.com/rechandra/wp2exp-2026](https://github.com/rechandra/wp2exp-2026) :  ![starts](https://img.shields.io/github/stars/rechandra/wp2exp-2026.svg) ![forks](https://img.shields.io/github/forks/rechandra/wp2exp-2026.svg)
-- [https://github.com/x-znn/CVE-2026-63030](https://github.com/x-znn/CVE-2026-63030) :  ![starts](https://img.shields.io/github/stars/x-znn/CVE-2026-63030.svg) ![forks](https://img.shields.io/github/forks/x-znn/CVE-2026-63030.svg)
+- [https://github.com/AnggaTechI/CVE-2026-63030](https://github.com/AnggaTechI/CVE-2026-63030) :  ![starts](https://img.shields.io/github/stars/AnggaTechI/CVE-2026-63030.svg) ![forks](https://img.shields.io/github/forks/AnggaTechI/CVE-2026-63030.svg)
+- [https://github.com/minwunn/wp2shell-CVE-2026-63030](https://github.com/minwunn/wp2shell-CVE-2026-63030) :  ![starts](https://img.shields.io/github/stars/minwunn/wp2shell-CVE-2026-63030.svg) ![forks](https://img.shields.io/github/forks/minwunn/wp2shell-CVE-2026-63030.svg)
+- [https://github.com/sowarma/wp2shell-PoC](https://github.com/sowarma/wp2shell-PoC) :  ![starts](https://img.shields.io/github/stars/sowarma/wp2shell-PoC.svg) ![forks](https://img.shields.io/github/forks/sowarma/wp2shell-PoC.svg)
 
 
 ## CVE-2026-60137
  WordPress 6.8.x before 6.8.6, 6.9.x before 6.9.5, and 7.0.x before 7.0.2 does not properly sanitise the author__not_in parameter of WP_Query, which could allow SQL Injection when a plugin or theme passes untrusted input to the parameter.
 
-- [https://github.com/johnlodan/wp2shell-rce](https://github.com/johnlodan/wp2shell-rce) :  ![starts](https://img.shields.io/github/stars/johnlodan/wp2shell-rce.svg) ![forks](https://img.shields.io/github/forks/johnlodan/wp2shell-rce.svg)
-- [https://github.com/AbdullahMaqbool22/CVE-2026-60137-WordPress-Core-SQL-Injection-PoC](https://github.com/AbdullahMaqbool22/CVE-2026-60137-WordPress-Core-SQL-Injection-PoC) :  ![starts](https://img.shields.io/github/stars/AbdullahMaqbool22/CVE-2026-60137-WordPress-Core-SQL-Injection-PoC.svg) ![forks](https://img.shields.io/github/forks/AbdullahMaqbool22/CVE-2026-60137-WordPress-Core-SQL-Injection-PoC.svg)
+- [https://github.com/sowarma/wp2shell-PoC](https://github.com/sowarma/wp2shell-PoC) :  ![starts](https://img.shields.io/github/stars/sowarma/wp2shell-PoC.svg) ![forks](https://img.shields.io/github/forks/sowarma/wp2shell-PoC.svg)
 
 
-## CVE-2026-59243
- The FAB auth manager's Azure AD OAuth login defaulted `verify_signature=False` when decoding the ID token, so an attacker able to present a forged or unsigned (`alg:none`) ID token to the OAuth callback could bypass authentication and log in as an arbitrary user, including one holding the Admin role (CWE-347). Deployments running the FAB auth manager with the Azure AD OAuth login path under its default configuration are affected; the Authentik path already defaulted to `True`. This issue affects `apache-airflow-providers-fab` before 3.7.3. Users are advised to upgrade to `apache-airflow-providers-fab` 3.7.3, which defaults `verify_signature=True`.
+## CVE-2026-59650
+ In Bouncy Castle for Java before 1.85, MTI/A0 DH agreement exponentiates unvalidated peer value. This issue also affects Bouncy Castle for Java LTS before 2.73.12.
 
-- [https://github.com/0xdak/CVE-2026-59243_exploit](https://github.com/0xdak/CVE-2026-59243_exploit) :  ![starts](https://img.shields.io/github/stars/0xdak/CVE-2026-59243_exploit.svg) ![forks](https://img.shields.io/github/forks/0xdak/CVE-2026-59243_exploit.svg)
+- [https://github.com/xiaoqiMikko/bc-check](https://github.com/xiaoqiMikko/bc-check) :  ![starts](https://img.shields.io/github/stars/xiaoqiMikko/bc-check.svg) ![forks](https://img.shields.io/github/forks/xiaoqiMikko/bc-check.svg)
 
 
-## CVE-2026-54917
- SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables. Prior to 4.30, the S3 API gateway and the Iceberg REST catalog gateway construct their routers with mux.NewRouter().SkipClean(true). With path cleaning disabled, a .. segment inside the URL survives routing, so a request such as `GET /bucket-A/../evil-bucket/key`, is matched as bucket=bucket-A, object=../evil-bucket/key. The captured object key is then joined into a filer path with util.JoinPath (S3) / path.Join (Iceberg), which collapse the .. server-side, so the actual read or write lands in evil-bucket. This vulnerability is fixed in 4.30.
+## CVE-2026-59638
+ In Bouncy Castle for Java before 1.85, JSSE hostname verifier CN-fallback enabled by default despite documented opt-in. This issue also affects Bouncy Castle for Java LTS before 2.73.12, and Bouncy Castle for Java FIPS (BC-FJA) before bctls-fips 1.0.24 (1.0.X series), 2.0.24 (2.0.X series) and 2.1.24 (2.1.X series).
 
-- [https://github.com/BiiTts/CVE-2026-54917-SeaweedFS-Cross-Bucket-Traversal](https://github.com/BiiTts/CVE-2026-54917-SeaweedFS-Cross-Bucket-Traversal) :  ![starts](https://img.shields.io/github/stars/BiiTts/CVE-2026-54917-SeaweedFS-Cross-Bucket-Traversal.svg) ![forks](https://img.shields.io/github/forks/BiiTts/CVE-2026-54917-SeaweedFS-Cross-Bucket-Traversal.svg)
+- [https://github.com/xiaoqiMikko/bc-check](https://github.com/xiaoqiMikko/bc-check) :  ![starts](https://img.shields.io/github/stars/xiaoqiMikko/bc-check.svg) ![forks](https://img.shields.io/github/forks/xiaoqiMikko/bc-check.svg)
 
 
-## CVE-2026-52680
-Users are recommended to upgrade to version 1.12.0, which fixes the issue.
+## CVE-2026-58062
+ In Bouncy Castle for Java before 1.85, Stapled OCSP response accepted without binding to the checked certificate. This issue also affects Bouncy Castle for Java LTS before 2.73.12, and Bouncy Castle for Java FIPS (BC-FJA) before bc-fips 2.0.2 (2.0.X series) and 2.1.3 (2.1.X series).
 
-- [https://github.com/0xdak/CVE-2026-52680_exploit](https://github.com/0xdak/CVE-2026-52680_exploit) :  ![starts](https://img.shields.io/github/stars/0xdak/CVE-2026-52680_exploit.svg) ![forks](https://img.shields.io/github/forks/0xdak/CVE-2026-52680_exploit.svg)
+- [https://github.com/xiaoqiMikko/bc-check](https://github.com/xiaoqiMikko/bc-check) :  ![starts](https://img.shields.io/github/stars/xiaoqiMikko/bc-check.svg) ![forks](https://img.shields.io/github/forks/xiaoqiMikko/bc-check.svg)
 
 
-## CVE-2026-52370
- A reflected cross-site scripting (XSS) vulnerability in the Forum posting function of O2OA v10 allows attackers to execute arbitrary Javascript in the context of the victim's browser via a crafted URL.
+## CVE-2026-55276
+Users are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119 which fixes the issue.
 
-- [https://github.com/RichardKabuto/CVE-2026-52370](https://github.com/RichardKabuto/CVE-2026-52370) :  ![starts](https://img.shields.io/github/stars/RichardKabuto/CVE-2026-52370.svg) ![forks](https://img.shields.io/github/forks/RichardKabuto/CVE-2026-52370.svg)
+- [https://github.com/xiaoqiMikko/tomcat-check](https://github.com/xiaoqiMikko/tomcat-check) :  ![starts](https://img.shields.io/github/stars/xiaoqiMikko/tomcat-check.svg) ![forks](https://img.shields.io/github/forks/xiaoqiMikko/tomcat-check.svg)
 
 
-## CVE-2026-52102
- An OS command injection vulnerability in the openmediavault-md plugin of OpenMediaVault v8.0.4-1 allows attackers to execute arbitrary commands as root via injecting shell metacharacters.
+## CVE-2026-50130
+ Pi-hole is a DNS sinkhole that protects devices from unwanted content without installing any client-side software. From 6.0 to 6.4.2, a user with code execution as the unprivileged pihole user can escalate to root by replacing /etc/pihole/logrotate. The replacement is laundered to root:root ownership by pihole-FTL-prestart.sh and then parsed as root by the daily pihole flush cron, executing firstaction shell as uid 0. This issue is fixed in version 6.4.3.
 
-- [https://github.com/showmeyourhands/CVE-2026-52102-PoC](https://github.com/showmeyourhands/CVE-2026-52102-PoC) :  ![starts](https://img.shields.io/github/stars/showmeyourhands/CVE-2026-52102-PoC.svg) ![forks](https://img.shields.io/github/forks/showmeyourhands/CVE-2026-52102-PoC.svg)
+- [https://github.com/linnemanlabs/advisories](https://github.com/linnemanlabs/advisories) :  ![starts](https://img.shields.io/github/stars/linnemanlabs/advisories.svg) ![forks](https://img.shields.io/github/forks/linnemanlabs/advisories.svg)
 
 
-## CVE-2026-45033
- GitHub Copilot CLI brings AI-powered coding assistance directly to your command line. Prior to 1.0.43, a  security vulnerability has been identified in GitHub Copilot CLI where a malicious bare git repository nested inside a project directory can achieve arbitrary code execution when the agent performs git operations. By exploiting git's automatic bare repository discovery during directory traversal, an attacker can set core.fsmonitor or other executable config keys to run arbitrary commands without user awareness or approval. The vulnerability arises because git's core.fsmonitor config key (and 15+ similar keys such as core.hookspath, diff.external, merge.tool, etc.) can specify arbitrary shell commands that git will execute as part of normal operations like status, diff, or rev-parse. This vulnerability is fixed in 1.0.43.
+## CVE-2026-44024
+ Fluentd collects events from various data sources and writes them to files, RDBMS, NoSQL, IaaS, SaaS, Hadoop and so on. Prior to 1.19.3, Fluentd allows dynamically constructing file paths using the ${tag} placeholder, and insufficient validation of ${tag} in file configurations such as the path parameter of the out_file plugin allows attackers sending untrusted tags containing path traversal characters to write or overwrite arbitrary files and potentially achieve remote code execution. This issue is fixed in version 1.19.3.
 
-- [https://github.com/grassplatypus/cve-2026-45033-class](https://github.com/grassplatypus/cve-2026-45033-class) :  ![starts](https://img.shields.io/github/stars/grassplatypus/cve-2026-45033-class.svg) ![forks](https://img.shields.io/github/forks/grassplatypus/cve-2026-45033-class.svg)
+- [https://github.com/0xdak/CVE-2026-44024_exploit](https://github.com/0xdak/CVE-2026-44024_exploit) :  ![starts](https://img.shields.io/github/stars/0xdak/CVE-2026-44024_exploit.svg) ![forks](https://img.shields.io/github/forks/0xdak/CVE-2026-44024_exploit.svg)
 
 
-## CVE-2026-43499
-  	changelog ]
+## CVE-2026-43500
+page_pool RX, GRO).  The OOM/trace handling already in place is reused.
 
-- [https://github.com/taoubi1/ghostlock-sm-a155f](https://github.com/taoubi1/ghostlock-sm-a155f) :  ![starts](https://img.shields.io/github/stars/taoubi1/ghostlock-sm-a155f.svg) ![forks](https://img.shields.io/github/forks/taoubi1/ghostlock-sm-a155f.svg)
-- [https://github.com/oopnv70-lab/ghostlock-honor-aak](https://github.com/oopnv70-lab/ghostlock-honor-aak) :  ![starts](https://img.shields.io/github/stars/oopnv70-lab/ghostlock-honor-aak.svg) ![forks](https://img.shields.io/github/forks/oopnv70-lab/ghostlock-honor-aak.svg)
-- [https://github.com/eroorvbsyes-hotmail/CVE-2026-43499_x86_Exploit](https://github.com/eroorvbsyes-hotmail/CVE-2026-43499_x86_Exploit) :  ![starts](https://img.shields.io/github/stars/eroorvbsyes-hotmail/CVE-2026-43499_x86_Exploit.svg) ![forks](https://img.shields.io/github/forks/eroorvbsyes-hotmail/CVE-2026-43499_x86_Exploit.svg)
+- [https://github.com/millikanjohnl-blip/dirtyfrag-detection-rules](https://github.com/millikanjohnl-blip/dirtyfrag-detection-rules) :  ![starts](https://img.shields.io/github/stars/millikanjohnl-blip/dirtyfrag-detection-rules.svg) ![forks](https://img.shields.io/github/forks/millikanjohnl-blip/dirtyfrag-detection-rules.svg)
 
 
-## CVE-2026-39363
- Vite is a frontend tooling framework for JavaScript. From 6.0.0 to before 6.4.2, 7.3.2, and 8.0.5, if it is possible to connect to the Vite dev server’s WebSocket without an Origin header, an attacker can invoke fetchModule via the custom WebSocket event vite:invoke and combine file://... with ?raw (or ?inline) to retrieve the contents of arbitrary files on the server as a JavaScript string (e.g., export default "..."). The access control enforced in the HTTP request path (such as server.fs.allow) is not applied to this WebSocket-based execution path. This vulnerability is fixed in 6.4.2, 7.3.2, and 8.0.5.
+## CVE-2026-43284
+destination-frag path or fall back to skb_cow_data().
 
-- [https://github.com/sunynov/CVE-2026-39363](https://github.com/sunynov/CVE-2026-39363) :  ![starts](https://img.shields.io/github/stars/sunynov/CVE-2026-39363.svg) ![forks](https://img.shields.io/github/forks/sunynov/CVE-2026-39363.svg)
+- [https://github.com/millikanjohnl-blip/dirtyfrag-detection-rules](https://github.com/millikanjohnl-blip/dirtyfrag-detection-rules) :  ![starts](https://img.shields.io/github/stars/millikanjohnl-blip/dirtyfrag-detection-rules.svg) ![forks](https://img.shields.io/github/forks/millikanjohnl-blip/dirtyfrag-detection-rules.svg)
 
 
-## CVE-2026-26190
- Milvus is an open-source vector database built for generative AI applications. Prior to 2.5.27 and 2.6.10, Milvus exposes TCP port 9091 by default, which enables authentication bypasses. The /expr debug endpoint uses a weak, predictable default authentication token derived from etcd.rootPath (default: by-dev), enabling arbitrary expression evaluation. The full REST API (/api/v1/*) is registered on the metrics/management port without any authentication, allowing unauthenticated access to all business operations including data manipulation and credential management. This vulnerability is fixed in 2.5.27 and 2.6.10.
+## CVE-2026-42533
+ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
 
-- [https://github.com/qianlijaingshan/milvus-auth-audit](https://github.com/qianlijaingshan/milvus-auth-audit) :  ![starts](https://img.shields.io/github/stars/qianlijaingshan/milvus-auth-audit.svg) ![forks](https://img.shields.io/github/forks/qianlijaingshan/milvus-auth-audit.svg)
+- [https://github.com/0xCyberstan/CVE-2026-42533-POC](https://github.com/0xCyberstan/CVE-2026-42533-POC) :  ![starts](https://img.shields.io/github/stars/0xCyberstan/CVE-2026-42533-POC.svg) ![forks](https://img.shields.io/github/forks/0xCyberstan/CVE-2026-42533-POC.svg)
 
 
-## CVE-2026-24060
-updates from the PLC can also be sniffed and reverse engineered.
+## CVE-2026-40982
+Spring Cloud Config 3.1.x: affected from 3.1.0 through 3.1.13 (inclusive); upgrade to 3.1.14 or greater (Enterprise Support Only). Spring Cloud Config 4.1.x: affected from 4.1.0 through 4.1.9 (inclusive); upgrade to 4.1.10 or greater (Enterprise Support Only). Spring Cloud Config 4.2.x: affected from 4.2.0 through 4.2.6 (inclusive); upgrade to 4.2.7 or greater (Enterprise Support Only). Spring Cloud Config 4.3.x: affected from 4.3.0 through 4.3.2 (inclusive); upgrade to 4.3.3 or greater. Spring Cloud Config 5.0.x: affected from 5.0.0 through 5.0.2 (inclusive); upgrade to 5.0.3 or greater.
 
-- [https://github.com/spinfosecurity/BAS-Guardian](https://github.com/spinfosecurity/BAS-Guardian) :  ![starts](https://img.shields.io/github/stars/spinfosecurity/BAS-Guardian.svg) ![forks](https://img.shields.io/github/forks/spinfosecurity/BAS-Guardian.svg)
+- [https://github.com/xiaoqiMikko/scc-check](https://github.com/xiaoqiMikko/scc-check) :  ![starts](https://img.shields.io/github/stars/xiaoqiMikko/scc-check.svg) ![forks](https://img.shields.io/github/forks/xiaoqiMikko/scc-check.svg)
 
 
-## CVE-2026-23479
- Redis is an in-memory data structure store. In redis-server from 7.2.0 until 8.6.3, the unblock client flow does not handle an error return from `processCommandAndResetClient` when re-executing a blocked command. If a blocked client is evicted during this flow, an authenticated attacker can trigger a use-after-free that may lead to remote code execution. This has been patched in version 8.6.3.
+## CVE-2026-34990
+ OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.16 and prior, a local unprivileged user can coerce cupsd into authenticating to an attacker-controlled localhost IPP service with a reusable Authorization: Local ... token. That token is enough to drive /admin/ requests on localhost, and the attacker can combine CUPS-Create-Local-Printer with printer-is-shared=true to persist a file:///... queue even though the normal FileDevice policy rejects such URIs. Printing to that queue gives an arbitrary root file overwrite; the PoC below uses that primitive to drop a sudoers fragment and demonstrate root command execution. At time of publication, there are no publicly available patches.
 
-- [https://github.com/rizlmaulanaa/CVE-2026-23479-Redis-UAF-Proof-of-Concept](https://github.com/rizlmaulanaa/CVE-2026-23479-Redis-UAF-Proof-of-Concept) :  ![starts](https://img.shields.io/github/stars/rizlmaulanaa/CVE-2026-23479-Redis-UAF-Proof-of-Concept.svg) ![forks](https://img.shields.io/github/forks/rizlmaulanaa/CVE-2026-23479-Redis-UAF-Proof-of-Concept.svg)
+- [https://github.com/HORKimhab/CVE-2026-34990](https://github.com/HORKimhab/CVE-2026-34990) :  ![starts](https://img.shields.io/github/stars/HORKimhab/CVE-2026-34990.svg) ![forks](https://img.shields.io/github/forks/HORKimhab/CVE-2026-34990.svg)
 
 
-## CVE-2026-22019
- Vulnerability in the PeopleSoft Enterprise HCM Shared Components product of Oracle PeopleSoft (component: Person Search).   The supported version that is affected is 9.2. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise HCM Shared Components.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in PeopleSoft Enterprise HCM Shared Components, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of PeopleSoft Enterprise HCM Shared Components accessible data as well as  unauthorized read access to a subset of PeopleSoft Enterprise HCM Shared Components accessible data. CVSS 3.1 Base Score 5.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N).
+## CVE-2026-34980
+ OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.16 and prior, in a network-exposed cupsd with a shared target queue, an unauthorized client can send a Print-Job to that shared PostScript queue without authentication. The server accepts a page-border value supplied as textWithoutLanguage, preserves an embedded newline through option escaping and reparse, and then reparses the resulting second-line PPD: text as a trusted scheduler control record. A follow-up raw print job can therefore make the server execute an attacker-chosen existing binary such as /usr/bin/vim as lp. At time of publication, there are no publicly available patches.
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22019-libcurl-HTTP-2-CONNECT-Tunnel-Mixup](https://github.com/George0Papasotiriou/CVE-2026-22019-libcurl-HTTP-2-CONNECT-Tunnel-Mixup) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22019-libcurl-HTTP-2-CONNECT-Tunnel-Mixup.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22019-libcurl-HTTP-2-CONNECT-Tunnel-Mixup.svg)
+- [https://github.com/HORKimhab/CVE-2026-34980](https://github.com/HORKimhab/CVE-2026-34980) :  ![starts](https://img.shields.io/github/stars/HORKimhab/CVE-2026-34980.svg) ![forks](https://img.shields.io/github/forks/HORKimhab/CVE-2026-34980.svg)
 
 
-## CVE-2026-22018
- Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u481, 8u481-b50, 8u481-perf, 11.0.30, 17.0.18, 21.0.10, 25.0.2, 26; Oracle GraalVM for JDK: 17.0.18 and  21.0.10; Oracle GraalVM Enterprise Edition: 21.3.17. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).
+## CVE-2026-33017
+ Langflow is a tool for building and deploying AI-powered agents and workflows. In versions prior to 1.9.0, the POST /api/v1/build_public_tmp/{flow_id}/flow endpoint allows building public flows without requiring authentication. When the optional data parameter is supplied, the endpoint uses attacker-controlled flow data (containing arbitrary Python code in node definitions) instead of the stored flow data from the database. This code is passed to exec() with zero sandboxing, resulting in unauthenticated remote code execution. This is distinct from CVE-2025-3248, which fixed /api/v1/validate/code by adding authentication. The build_public_tmp endpoint is designed to be unauthenticated (for public flows) but incorrectly accepts attacker-supplied flow data containing arbitrary executable code. This issue has been fixed in version 1.9.0.
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22018-Jenkins-Pipeline-Shared-Library-Code-Execution-via-Grab-](https://github.com/George0Papasotiriou/CVE-2026-22018-Jenkins-Pipeline-Shared-Library-Code-Execution-via-Grab-) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22018-Jenkins-Pipeline-Shared-Library-Code-Execution-via-Grab-.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22018-Jenkins-Pipeline-Shared-Library-Code-Execution-via-Grab-.svg)
+- [https://github.com/TatoSec/CVE-2026-33017-Langflop](https://github.com/TatoSec/CVE-2026-33017-Langflop) :  ![starts](https://img.shields.io/github/stars/TatoSec/CVE-2026-33017-Langflop.svg) ![forks](https://img.shields.io/github/forks/TatoSec/CVE-2026-33017-Langflop.svg)
 
 
-## CVE-2026-22017
- Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).
+## CVE-2026-28372
+ telnetd in GNU inetutils through 2.7 allows privilege escalation that can be exploited by abusing systemd service credentials support added to the login(1) implementation of util-linux in release 2.40. This is related to client control over the CREDENTIALS_DIRECTORY environment variable, and requires an unprivileged local user to create a login.noauth file.
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22017-Firmware-Update-via-BLE-Without-Authentication](https://github.com/George0Papasotiriou/CVE-2026-22017-Firmware-Update-via-BLE-Without-Authentication) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22017-Firmware-Update-via-BLE-Without-Authentication.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22017-Firmware-Update-via-BLE-Without-Authentication.svg)
+- [https://github.com/SafeBreach-Labs/ForgottenButNotGone](https://github.com/SafeBreach-Labs/ForgottenButNotGone) :  ![starts](https://img.shields.io/github/stars/SafeBreach-Labs/ForgottenButNotGone.svg) ![forks](https://img.shields.io/github/forks/SafeBreach-Labs/ForgottenButNotGone.svg)
 
 
-## CVE-2026-22016
- Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP).  Supported versions that are affected are Oracle Java SE: 8u481, 8u481-b50, 8u481-perf, 11.0.30, 17.0.18, 21.0.10, 25.0.2, 26; Oracle GraalVM for JDK: 17.0.18 and  21.0.10; Oracle GraalVM Enterprise Edition: 21.3.17. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+## CVE-2026-27912
+ Improper authorization in Windows Kerberos allows an authorized attacker to elevate privileges over an adjacent network.
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22016-IPFS-CID-Spoofing-via-Multihash-Length-Extension](https://github.com/George0Papasotiriou/CVE-2026-22016-IPFS-CID-Spoofing-via-Multihash-Length-Extension) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22016-IPFS-CID-Spoofing-via-Multihash-Length-Extension.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22016-IPFS-CID-Spoofing-via-Multihash-Length-Extension.svg)
+- [https://github.com/Semperis-Community/ResetNightmare](https://github.com/Semperis-Community/ResetNightmare) :  ![starts](https://img.shields.io/github/stars/Semperis-Community/ResetNightmare.svg) ![forks](https://img.shields.io/github/forks/Semperis-Community/ResetNightmare.svg)
 
 
-## CVE-2026-22015
- Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Information Schema).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of MySQL Server accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).
+## CVE-2026-23489
+ Fields is a GLPI plugin that allows users to add custom fields on GLPI items forms. Prior to version 1.23.3, it is possible to execute arbitrary PHP code from users that are allowed to create dropdowns. This issue has been patched in version 1.23.3.
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22015-Serverless-Function-Environment-Variable-Injection-via-Event](https://github.com/George0Papasotiriou/CVE-2026-22015-Serverless-Function-Environment-Variable-Injection-via-Event) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22015-Serverless-Function-Environment-Variable-Injection-via-Event.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22015-Serverless-Function-Environment-Variable-Injection-via-Event.svg)
+- [https://github.com/eorll-lgtm/poc-CVE-2026-23489](https://github.com/eorll-lgtm/poc-CVE-2026-23489) :  ![starts](https://img.shields.io/github/stars/eorll-lgtm/poc-CVE-2026-23489.svg) ![forks](https://img.shields.io/github/forks/eorll-lgtm/poc-CVE-2026-23489.svg)
 
 
-## CVE-2026-22014
- Vulnerability in the Oracle User Management product of Oracle E-Business Suite (component: Workflow and Business Events).  Supported versions that are affected are 12.2.7-12.2.15. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle User Management.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle User Management accessible data as well as  unauthorized read access to a subset of Oracle User Management accessible data. CVSS 3.1 Base Score 3.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N).
+## CVE-2026-23010
+---truncated---
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22014-GraphQL-Persisted-Queries-Injection-via-ID-Manipulation](https://github.com/George0Papasotiriou/CVE-2026-22014-GraphQL-Persisted-Queries-Injection-via-ID-Manipulation) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22014-GraphQL-Persisted-Queries-Injection-via-ID-Manipulation.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22014-GraphQL-Persisted-Queries-Injection-via-ID-Manipulation.svg)
+- [https://github.com/George0Papasotiriou/CVE-2026-23010-CCSDS-Telecommand-Replay-Without-Sequence-Number](https://github.com/George0Papasotiriou/CVE-2026-23010-CCSDS-Telecommand-Replay-Without-Sequence-Number) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-23010-CCSDS-Telecommand-Replay-Without-Sequence-Number.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-23010-CCSDS-Telecommand-Replay-Without-Sequence-Number.svg)
 
 
-## CVE-2026-22013
- Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JGSS).  Supported versions that are affected are Oracle Java SE: 8u481, 8u481-b50, 8u481-perf, 11.0.30, 17.0.18, 21.0.10, 25.0.2, 26; Oracle GraalVM for JDK: 17.0.18 and  21.0.10; Oracle GraalVM Enterprise Edition: 21.3.17. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 5.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N).
+## CVE-2026-23009
+then it is up to the class driver to ensure endpoint is properly set up.
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22013-Hardware-Wallet-USB-Descriptor-Buffer-Overflow](https://github.com/George0Papasotiriou/CVE-2026-22013-Hardware-Wallet-USB-Descriptor-Buffer-Overflow) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22013-Hardware-Wallet-USB-Descriptor-Buffer-Overflow.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22013-Hardware-Wallet-USB-Descriptor-Buffer-Overflow.svg)
+- [https://github.com/George0Papasotiriou/CVE-2026-23009-DICOM-Network-Image-Injection-Without-Authentication](https://github.com/George0Papasotiriou/CVE-2026-23009-DICOM-Network-Image-Injection-Without-Authentication) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-23009-DICOM-Network-Image-Injection-Without-Authentication.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-23009-DICOM-Network-Image-Injection-Without-Authentication.svg)
 
 
-## CVE-2026-22011
- Vulnerability in the Oracle Applications DBA product of Oracle E-Business Suite (component: ADPatch).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle Applications DBA.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Applications DBA, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in takeover of Oracle Applications DBA. CVSS 3.1 Base Score 7.6 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H).
+## CVE-2026-23008
+the driver causing a black screen.
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22011-iOS-MDM-Profile-Delivery-over-HTTP](https://github.com/George0Papasotiriou/CVE-2026-22011-iOS-MDM-Profile-Delivery-over-HTTP) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22011-iOS-MDM-Profile-Delivery-over-HTTP.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22011-iOS-MDM-Profile-Delivery-over-HTTP.svg)
+- [https://github.com/George0Papasotiriou/CVE-2026-23008-Solidity-Assembly-Return-Data-Size-Confusion](https://github.com/George0Papasotiriou/CVE-2026-23008-Solidity-Assembly-Return-Data-Size-Confusion) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-23008-Solidity-Assembly-Return-Data-Size-Confusion.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-23008-Solidity-Assembly-Return-Data-Size-Confusion.svg)
 
 
-## CVE-2026-22010
- Vulnerability in the Oracle Financial Services Analytical Applications Infrastructure product of Oracle Financial Services Applications (component: Platform).  Supported versions that are affected are 8.0.7.9, 8.0.8.7 and  8.1.2.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Financial Services Analytical Applications Infrastructure.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Financial Services Analytical Applications Infrastructure accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+## CVE-2026-23007
+metadata is larger than just the PI tuple.
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22010-Android-Intent-Redirection-to-Exported-Component](https://github.com/George0Papasotiriou/CVE-2026-22010-Android-Intent-Redirection-to-Exported-Component) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22010-Android-Intent-Redirection-to-Exported-Component.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22010-Android-Intent-Redirection-to-Exported-Component.svg)
+- [https://github.com/George0Papasotiriou/CVE-2026-23007-Serverless-Cold-Start-Memory-Remanence-Data-Leakage-](https://github.com/George0Papasotiriou/CVE-2026-23007-Serverless-Cold-Start-Memory-Remanence-Data-Leakage-) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-23007-Serverless-Cold-Start-Memory-Remanence-Data-Leakage-.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-23007-Serverless-Cold-Start-Memory-Remanence-Data-Leakage-.svg)
 
 
-## CVE-2026-22009
- Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).
+## CVE-2026-23006
+"adcx140_priv".
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22009-Linux-eBPF-Map-Locking-Race-Use-After-Free](https://github.com/George0Papasotiriou/CVE-2026-22009-Linux-eBPF-Map-Locking-Race-Use-After-Free) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22009-Linux-eBPF-Map-Locking-Race-Use-After-Free.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22009-Linux-eBPF-Map-Locking-Race-Use-After-Free.svg)
+- [https://github.com/George0Papasotiriou/CVE-2026-23006-Kyber-Ciphertext-Length-Side-Channel](https://github.com/George0Papasotiriou/CVE-2026-23006-Kyber-Ciphertext-Length-Side-Channel) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-23006-Kyber-Ciphertext-Length-Side-Channel.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-23006-Kyber-Ciphertext-Length-Side-Channel.svg)
 
 
-## CVE-2026-22008
- Vulnerability in Oracle Java SE (component: Libraries).   The supported version that is affected is Oracle Java SE: 25.0.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).
+## CVE-2026-23005
+---truncated---
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22008-AWS-Lambda-Layer-Injection-via-Shared-Layer-ARN](https://github.com/George0Papasotiriou/CVE-2026-22008-AWS-Lambda-Layer-Injection-via-Shared-Layer-ARN) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22008-AWS-Lambda-Layer-Injection-via-Shared-Layer-ARN.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22008-AWS-Lambda-Layer-Injection-via-Shared-Layer-ARN.svg)
+- [https://github.com/George0Papasotiriou/CVE-2026-23005-Matter-Commissioning-Code-Brute-Force-Without-Rate-Limit](https://github.com/George0Papasotiriou/CVE-2026-23005-Matter-Commissioning-Code-Brute-Force-Without-Rate-Limit) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-23005-Matter-Commissioning-Code-Brute-Force-Without-Rate-Limit.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-23005-Matter-Commissioning-Code-Brute-Force-Without-Rate-Limit.svg)
 
 
-## CVE-2026-22007
- Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u481, 8u481-b50, 8u481-perf, 11.0.30, 17.0.18, 21.0.10, 25.0.2, 26; Oracle GraalVM for JDK: 17.0.18 and  21.0.10; Oracle GraalVM Enterprise Edition: 21.3.17. Difficult to exploit vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition executes to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 2.9 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N).
+## CVE-2026-23004
+---truncated---
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22007-NTP-monlist-Amplification-over-IPv6](https://github.com/George0Papasotiriou/CVE-2026-22007-NTP-monlist-Amplification-over-IPv6) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22007-NTP-monlist-Amplification-over-IPv6.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22007-NTP-monlist-Amplification-over-IPv6.svg)
+- [https://github.com/George0Papasotiriou/CVE-2026-23004-Automotive-UDS-Authentication-Bypass-via-Replay-Attack](https://github.com/George0Papasotiriou/CVE-2026-23004-Automotive-UDS-Authentication-Bypass-via-Replay-Attack) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-23004-Automotive-UDS-Authentication-Bypass-via-Replay-Attack.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-23004-Automotive-UDS-Authentication-Bypass-via-Replay-Attack.svg)
 
 
-## CVE-2026-22006
- Vulnerability in the PeopleSoft Enterprise HCM Human Resources product of Oracle PeopleSoft (component: Employee Snapshot).   The supported version that is affected is 9.2. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise HCM Human Resources.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in PeopleSoft Enterprise HCM Human Resources, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of PeopleSoft Enterprise HCM Human Resources accessible data as well as  unauthorized read access to a subset of PeopleSoft Enterprise HCM Human Resources accessible data. CVSS 3.1 Base Score 5.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N).
+## CVE-2026-23003
+Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 10/25/2025
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22006-XSLT-Server-Side-Injection-via-xsl-script-](https://github.com/George0Papasotiriou/CVE-2026-22006-XSLT-Server-Side-Injection-via-xsl-script-) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22006-XSLT-Server-Side-Injection-via-xsl-script-.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22006-XSLT-Server-Side-Injection-via-xsl-script-.svg)
+- [https://github.com/George0Papasotiriou/CVE-2026-23003-Cross-Chain-Bridge-Message-Forging-via-Missing-Origin-Chain-ID](https://github.com/George0Papasotiriou/CVE-2026-23003-Cross-Chain-Bridge-Message-Forging-via-Missing-Origin-Chain-ID) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-23003-Cross-Chain-Bridge-Message-Forging-via-Missing-Origin-Chain-ID.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-23003-Cross-Chain-Bridge-Message-Forging-via-Missing-Origin-Chain-ID.svg)
 
 
-## CVE-2026-22005
- Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+## CVE-2026-23002
+buildid code.
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22005-OAuth-2.0-Device-Code-Phishing-Short-Interval-](https://github.com/George0Papasotiriou/CVE-2026-22005-OAuth-2.0-Device-Code-Phishing-Short-Interval-) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22005-OAuth-2.0-Device-Code-Phishing-Short-Interval-.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22005-OAuth-2.0-Device-Code-Phishing-Short-Interval-.svg)
+- [https://github.com/George0Papasotiriou/CVE-2026-23002-5G-NAS-Message-Buffer-Overflow-in-gNodeB](https://github.com/George0Papasotiriou/CVE-2026-23002-5G-NAS-Message-Buffer-Overflow-in-gNodeB) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-23002-5G-NAS-Message-Buffer-Overflow-in-gNodeB.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-23002-5G-NAS-Message-Buffer-Overflow-in-gNodeB.svg)
 
 
-## CVE-2026-22004
- Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+## CVE-2026-23001
+https: //lore.kernel.org/netdev/695fb1e8.050a0220.1c677c.039f.GAE@google.com/T/#u
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22004-Git-LFS-Pointer-Poisoning-Supply-Chain-](https://github.com/George0Papasotiriou/CVE-2026-22004-Git-LFS-Pointer-Poisoning-Supply-Chain-) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22004-Git-LFS-Pointer-Poisoning-Supply-Chain-.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22004-Git-LFS-Pointer-Poisoning-Supply-Chain-.svg)
+- [https://github.com/George0Papasotiriou/CVE-2026-23001-Hugging-Face-Transformers-Model-Deserialization-Arbitrary-Code-via-Pickle-](https://github.com/George0Papasotiriou/CVE-2026-23001-Hugging-Face-Transformers-Model-Deserialization-Arbitrary-Code-via-Pickle-) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-23001-Hugging-Face-Transformers-Model-Deserialization-Arbitrary-Code-via-Pickle-.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-23001-Hugging-Face-Transformers-Model-Deserialization-Arbitrary-Code-via-Pickle-.svg)
 
 
-## CVE-2026-22003
- Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u481 and  8u481-b50; Oracle GraalVM Enterprise Edition: 21.3.17. Difficult to exploit vulnerability allows low privileged attacker with logon to the infrastructure where Oracle Java SE, Oracle GraalVM Enterprise Edition executes to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data and unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 6.0 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:H).
+## CVE-2026-20200
+This vulnerability is due to improper validation of user-supplied input. An attacker could exploit this vulnerability by entering crafted inputs to the web-based management interface of the affected software. A successful exploit could allow the attacker to execute arbitrary commands on the underlying operating system as the root user.&nbsp;
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22003-Redis-Lua-Sandbox-Escape-via-debug.sethook-](https://github.com/George0Papasotiriou/CVE-2026-22003-Redis-Lua-Sandbox-Escape-via-debug.sethook-) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22003-Redis-Lua-Sandbox-Escape-via-debug.sethook-.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22003-Redis-Lua-Sandbox-Escape-via-debug.sethook-.svg)
-
-
-## CVE-2026-22002
- Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-
-- [https://github.com/George0Papasotiriou/CVE-2026-22002-VNC-Authentication-Bypass-via-Protocol-Version-Confusion](https://github.com/George0Papasotiriou/CVE-2026-22002-VNC-Authentication-Bypass-via-Protocol-Version-Confusion) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22002-VNC-Authentication-Bypass-via-Protocol-Version-Confusion.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22002-VNC-Authentication-Bypass-via-Protocol-Version-Confusion.svg)
-
-
-## CVE-2026-22001
- Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Information Schema).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of MySQL Server accessible data. CVSS 3.1 Base Score 2.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N).
-
-- [https://github.com/George0Papasotiriou/CVE-2026-22001-SPHINCS-WOTS-Weak-Randomness-Forgeable-Signature](https://github.com/George0Papasotiriou/CVE-2026-22001-SPHINCS-WOTS-Weak-Randomness-Forgeable-Signature) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22001-SPHINCS-WOTS-Weak-Randomness-Forgeable-Signature.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22001-SPHINCS-WOTS-Weak-Randomness-Forgeable-Signature.svg)
+- [https://github.com/NSIDE-ATTACK-LOGIC/CIMCown](https://github.com/NSIDE-ATTACK-LOGIC/CIMCown) :  ![starts](https://img.shields.io/github/stars/NSIDE-ATTACK-LOGIC/CIMCown.svg) ![forks](https://img.shields.io/github/forks/NSIDE-ATTACK-LOGIC/CIMCown.svg)
 
 
 ## CVE-2026-18577
  An incomplete patch for CVE-2026-18556 allows for authentication bypass and account takeover in N-central Versions through 2026.3.1
 
-- [https://github.com/HORKimhab/CVE-2026-18577](https://github.com/HORKimhab/CVE-2026-18577) :  ![starts](https://img.shields.io/github/stars/HORKimhab/CVE-2026-18577.svg) ![forks](https://img.shields.io/github/forks/HORKimhab/CVE-2026-18577.svg)
+- [https://github.com/CreamyG31337/ncentral-compromise-ioc-triage](https://github.com/CreamyG31337/ncentral-compromise-ioc-triage) :  ![starts](https://img.shields.io/github/stars/CreamyG31337/ncentral-compromise-ioc-triage.svg) ![forks](https://img.shields.io/github/forks/CreamyG31337/ncentral-compromise-ioc-triage.svg)
 
 
-## CVE-2026-17566
-This issue affects pgAdmin 4: from the introduction of _is_query_parens_balanced() before 9.18.
+## CVE-2026-18556
+This issue affects N-central: through 2026.1.
 
-- [https://github.com/HackSpeak/CVE-2026-17566](https://github.com/HackSpeak/CVE-2026-17566) :  ![starts](https://img.shields.io/github/stars/HackSpeak/CVE-2026-17566.svg) ![forks](https://img.shields.io/github/forks/HackSpeak/CVE-2026-17566.svg)
-
-
-## CVE-2026-17543
- Improper escaping of backslashes in attacker-provided parameters would allow for trivial SQL injection in PHP versions from 8.2.* before 8.2.33, from 8.3.* before 8.3.33, from 8.4.* before 8.4.24, and from 8.5.* before 8.5.9.
-
-- [https://github.com/pratham220/CVE-2026-17543-PHP-Exposure-Validator](https://github.com/pratham220/CVE-2026-17543-PHP-Exposure-Validator) :  ![starts](https://img.shields.io/github/stars/pratham220/CVE-2026-17543-PHP-Exposure-Validator.svg) ![forks](https://img.shields.io/github/forks/pratham220/CVE-2026-17543-PHP-Exposure-Validator.svg)
+- [https://github.com/CreamyG31337/ncentral-compromise-ioc-triage](https://github.com/CreamyG31337/ncentral-compromise-ioc-triage) :  ![starts](https://img.shields.io/github/stars/CreamyG31337/ncentral-compromise-ioc-triage.svg) ![forks](https://img.shields.io/github/forks/CreamyG31337/ncentral-compromise-ioc-triage.svg)
 
 
-## CVE-2026-16232
- An authentication bypass vulnerability in the Check Point SmartConsole login process allows an unauthenticated remote attacker to obtain an application login token and use it to authenticate with full administrative privileges. Successful exploitation allows the attacker to modify security policies and security configurations. Remote exploitation requires internet access to the Management Server IP address and a configuration that does not restrict Trusted Clients. Check Point is aware that this vulnerability is being exploited and has affected a very small number of customers.
+## CVE-2026-17583
+Thermo Fisher Applied Biosystems Genetic Analyzers are vulnerable because .fsa/.hid output files can be edited. An attacker could tamper with these files, altering DNA data and resulting in inaccurate DNA test outcomes.
 
-- [https://github.com/HackSpeak/CVE-2026-16232](https://github.com/HackSpeak/CVE-2026-16232) :  ![starts](https://img.shields.io/github/stars/HackSpeak/CVE-2026-16232.svg) ![forks](https://img.shields.io/github/forks/HackSpeak/CVE-2026-16232.svg)
-
-
-## CVE-2026-14483
- The Realtyna Organic IDX plugin + WPL Real Estate plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 5.2.0 via the upload function. This is due to missing file type validation in the upload function, combined with a publicly accessible I/O endpoint authenticated solely by static, plugin-seeded API credentials that are identical across all installations. This makes it possible for unauthenticated attackers to upload files that may be executable, which makes remote code execution possible. The WPL I/O service endpoint is registered on the public WordPress init hook with no WordPress capability check, and the required api_key and api_secret values are static defaults seeded by the plugin's own SQL migration files, meaning any unauthenticated attacker who knows these publicly documented defaults can reach and exploit the vulnerable upload path.
-
-- [https://github.com/0xdak/CVE-2026-14483_exploit](https://github.com/0xdak/CVE-2026-14483_exploit) :  ![starts](https://img.shields.io/github/stars/0xdak/CVE-2026-14483_exploit.svg) ![forks](https://img.shields.io/github/forks/0xdak/CVE-2026-14483_exploit.svg)
+- [https://github.com/HORKimhab/CVE-2026-17583](https://github.com/HORKimhab/CVE-2026-17583) :  ![starts](https://img.shields.io/github/stars/HORKimhab/CVE-2026-17583.svg) ![forks](https://img.shields.io/github/forks/HORKimhab/CVE-2026-17583.svg)
 
 
-## CVE-2026-12720
- The Kirki  WordPress plugin before 6.0.13 does not restrict which classes may be instantiated when it deserialises data that unauthenticated users can store, leading to PHP Object Injection that is triggered when an administrator later reviews the stored data. With a suitable gadget chain present on the site (via another installed Kirki  WordPress plugin before 6.0.13, , or an outdated WordPress version), this could be leveraged to perform a variety of attacks, such as remote code execution.
+## CVE-2026-17532
+ The Seraphinite Accelerator plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'seraph_accel_prep' parameter in versions up to, and including, 2.29.15. This is due to the CacheExtractPreparePageParams() function using PHP's loose inequality operator (!=) to compare the expected HMAC string against the JSON-decoded 'nonce' value — supplying the JSON boolean true causes any non-empty HMAC string to compare as loosely equal, bypassing the signature check — combined with insufficient output escaping in the _CbContentFinishSkip() function, which concatenates the attacker-controlled 'selfTest' field directly into the HTML response body. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a specially crafted link.
 
-- [https://github.com/webshellseo8/CVE-2026-12720-Proof-of-Concept](https://github.com/webshellseo8/CVE-2026-12720-Proof-of-Concept) :  ![starts](https://img.shields.io/github/stars/webshellseo8/CVE-2026-12720-Proof-of-Concept.svg) ![forks](https://img.shields.io/github/forks/webshellseo8/CVE-2026-12720-Proof-of-Concept.svg)
-
-
-## CVE-2026-6768
- Mitigation bypass in the Networking: Cookies component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.
-
-- [https://github.com/qflksheep/CVE-2026-67689-FineAdmin.Mvc-vulnerability](https://github.com/qflksheep/CVE-2026-67689-FineAdmin.Mvc-vulnerability) :  ![starts](https://img.shields.io/github/stars/qflksheep/CVE-2026-67689-FineAdmin.Mvc-vulnerability.svg) ![forks](https://img.shields.io/github/forks/qflksheep/CVE-2026-67689-FineAdmin.Mvc-vulnerability.svg)
-- [https://github.com/qflksheep/CVE-2026-67687-ICS-Park-Smart-Park-Management-System-v2.0](https://github.com/qflksheep/CVE-2026-67687-ICS-Park-Smart-Park-Management-System-v2.0) :  ![starts](https://img.shields.io/github/stars/qflksheep/CVE-2026-67687-ICS-Park-Smart-Park-Management-System-v2.0.svg) ![forks](https://img.shields.io/github/forks/qflksheep/CVE-2026-67687-ICS-Park-Smart-Park-Management-System-v2.0.svg)
+- [https://github.com/kalhoralireza/CVE-2026-17532](https://github.com/kalhoralireza/CVE-2026-17532) :  ![starts](https://img.shields.io/github/stars/kalhoralireza/CVE-2026-17532.svg) ![forks](https://img.shields.io/github/forks/kalhoralireza/CVE-2026-17532.svg)
 
 
-## CVE-2026-6762
- Spoofing issue in the DOM: Core & HTML component. This vulnerability was fixed in Firefox 150, Firefox ESR 115.35, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.
+## CVE-2026-16723
+ A remote code execution (RCE) vulnerability exists in fastjson 1.2.68 through 1.2.83. This vulnerability is exploitable under fastjson's stock default configuration — no AutoType enablement required, no classpath gadget required.
 
-- [https://github.com/abdugafforov-bobur/CVE-2026-67620-poc](https://github.com/abdugafforov-bobur/CVE-2026-67620-poc) :  ![starts](https://img.shields.io/github/stars/abdugafforov-bobur/CVE-2026-67620-poc.svg) ![forks](https://img.shields.io/github/forks/abdugafforov-bobur/CVE-2026-67620-poc.svg)
-
-
-## CVE-2026-6000
- A vulnerability was found in code-projects Online Library Management System 1.0. Affected is an unknown function of the file /sql/library.sql of the component SQL Database Backup File Handler. Performing a manipulation results in information disclosure. The attack may be initiated remotely. The exploit has been made public and could be used.
-
-- [https://github.com/HackSpeak/CVE-2026-60004](https://github.com/HackSpeak/CVE-2026-60004) :  ![starts](https://img.shields.io/github/stars/HackSpeak/CVE-2026-60004.svg) ![forks](https://img.shields.io/github/forks/HackSpeak/CVE-2026-60004.svg)
-- [https://github.com/Sachinart/CVE-2026-60004-gitea-0day](https://github.com/Sachinart/CVE-2026-60004-gitea-0day) :  ![starts](https://img.shields.io/github/stars/Sachinart/CVE-2026-60004-gitea-0day.svg) ![forks](https://img.shields.io/github/forks/Sachinart/CVE-2026-60004-gitea-0day.svg)
+- [https://github.com/learner330/fastjson-cve-2026-16723](https://github.com/learner330/fastjson-cve-2026-16723) :  ![starts](https://img.shields.io/github/stars/learner330/fastjson-cve-2026-16723.svg) ![forks](https://img.shields.io/github/forks/learner330/fastjson-cve-2026-16723.svg)
 
 
-## CVE-2026-2525
- A vulnerability has been found in Free5GC up to 4.1.0. This affects an unknown function of the component PFCP UDP Endpoint. Such manipulation leads to denial of service. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+## CVE-2026-15430
+lsass.exe, and terminate PPL-protected security processes.
 
-- [https://github.com/TheMalwareGuardian/CVE-2026-25250](https://github.com/TheMalwareGuardian/CVE-2026-25250) :  ![starts](https://img.shields.io/github/stars/TheMalwareGuardian/CVE-2026-25250.svg) ![forks](https://img.shields.io/github/forks/TheMalwareGuardian/CVE-2026-25250.svg)
-
-
-## CVE-2026-2202
- A vulnerability was detected in Tenda AC8 16.03.33.05. Affected is the function fromSetWifiGusetBasic of the file /goform/WifiGuestSet of the component httpd. The manipulation of the argument shareSpeed results in buffer overflow. The attack may be launched remotely. The exploit is now public and may be used.
-
-- [https://github.com/George0Papasotiriou/CVE-2026-22020-Weak-Seed-in-Quantum-Key-Distribution-Error-Correction](https://github.com/George0Papasotiriou/CVE-2026-22020-Weak-Seed-in-Quantum-Key-Distribution-Error-Correction) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22020-Weak-Seed-in-Quantum-Key-Distribution-Error-Correction.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22020-Weak-Seed-in-Quantum-Key-Distribution-Error-Correction.svg)
+- [https://github.com/BlackSnufkin/AxHunter](https://github.com/BlackSnufkin/AxHunter) :  ![starts](https://img.shields.io/github/stars/BlackSnufkin/AxHunter.svg) ![forks](https://img.shields.io/github/forks/BlackSnufkin/AxHunter.svg)
 
 
-## CVE-2026-2201
- A security vulnerability has been detected in ZeroWdd studentmanager up to 2151560fc0a50ec00426785ec1e01a3763b380d9. This impacts the function addLeave of the file src/main/java/com/wdd/studentmanager/controller/LeaveController.java. The manipulation of the argument Reason for Leave leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed publicly and may be used. This product uses a rolling release model to deliver continuous updates. As a result, specific version information for affected or updated releases is not available. The code repository of the project has not been active for many years.
+## CVE-2026-13934
+ Insufficient validation of untrusted input in Dawn in Google Chrome on Android prior to 150.0.7871.47 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Medium)
 
-- [https://github.com/George0Papasotiriou/CVE-2026-22012-Diameter-Protocol-Credit-Control-Bypass-in-5G](https://github.com/George0Papasotiriou/CVE-2026-22012-Diameter-Protocol-Credit-Control-Bypass-in-5G) :  ![starts](https://img.shields.io/github/stars/George0Papasotiriou/CVE-2026-22012-Diameter-Protocol-Credit-Control-Bypass-in-5G.svg) ![forks](https://img.shields.io/github/forks/George0Papasotiriou/CVE-2026-22012-Diameter-Protocol-Credit-Control-Bypass-in-5G.svg)
-
-
-## CVE-2025-64513
- Milvus is an open-source vector database built for generative AI applications. An unauthenticated attacker can exploit a vulnerability in versions prior to 2.4.24, 2.5.21, and 2.6.5 to bypass all authentication mechanisms in the Milvus Proxy component, gaining full administrative access to the Milvus cluster. This grants the attacker the ability to read, modify, or delete data, and to perform privileged administrative operations such as database or collection management. This issue has been fixed in Milvus 2.4.24, 2.5.21, and 2.6.5. If immediate upgrade is not possible, a temporary mitigation can be applied by removing the sourceID header from all incoming requests at the gateway, API gateway, or load balancer level before they reach the Milvus Proxy. This prevents attackers from exploiting the authentication bypass behavior.
-
-- [https://github.com/qianlijaingshan/milvus-auth-audit](https://github.com/qianlijaingshan/milvus-auth-audit) :  ![starts](https://img.shields.io/github/stars/qianlijaingshan/milvus-auth-audit.svg) ![forks](https://img.shields.io/github/forks/qianlijaingshan/milvus-auth-audit.svg)
+- [https://github.com/ArtWide/cve-2026-13934](https://github.com/ArtWide/cve-2026-13934) :  ![starts](https://img.shields.io/github/stars/ArtWide/cve-2026-13934.svg) ![forks](https://img.shields.io/github/forks/ArtWide/cve-2026-13934.svg)
 
 
-## CVE-2025-59528
- Flowise is a drag & drop user interface to build a customized large language model flow. In version 3.0.5, Flowise is vulnerable to remote code execution. The CustomMCP node allows users to input configuration settings for connecting to an external MCP server. This node parses the user-provided mcpServerConfig string to build the MCP server configuration. However, during this process, it executes JavaScript code without any security validation. Specifically, inside the convertToValidJSONString function, user input is directly passed to the Function() constructor, which evaluates and executes the input as JavaScript code. Since this runs with full Node.js runtime privileges, it can access dangerous modules such as child_process and fs. This issue has been patched in version 3.0.6.
+## CVE-2026-9198
+ IBM Langflow OSS 1.0.0 through 1.10.0 allows unauthenticated attackers to chain /api/v1/auto_login (mints SUPERUSER tokens to any network caller) with /api/v1/validate/code (executes user code via exec()) to achieve full RCE on default Langflow deployments
 
-- [https://github.com/Twappz/HTB-Silentium-Writeup](https://github.com/Twappz/HTB-Silentium-Writeup) :  ![starts](https://img.shields.io/github/stars/Twappz/HTB-Silentium-Writeup.svg) ![forks](https://img.shields.io/github/forks/Twappz/HTB-Silentium-Writeup.svg)
-
-
-## CVE-2025-58434
- Flowise is a drag & drop user interface to build a customized large language model flow. In version 3.0.5 and earlier, the `forgot-password` endpoint in Flowise returns sensitive information including a valid password reset `tempToken` without authentication or verification. This enables any attacker to generate a reset token for arbitrary users and directly reset their password, leading to a complete account takeover (ATO). This vulnerability applies to both the cloud service (`cloud.flowiseai.com`) and self-hosted/local Flowise deployments that expose the same API. Commit 9e178d68873eb876073846433a596590d3d9c863 in version 3.0.6 secures password reset endpoints. Several recommended remediation steps are available. Do not return reset tokens or sensitive account details in API responses. Tokens must only be delivered securely via the registered email channel. Ensure `forgot-password` responds with a generic success message regardless of input, to avoid user enumeration. Require strong validation of the `tempToken` (e.g., single-use, short expiry, tied to request origin, validated against email delivery). Apply the same fixes to both cloud and self-hosted/local deployments. Log and monitor password reset requests for suspicious activity. Consider multi-factor verification for sensitive accounts.
-
-- [https://github.com/Twappz/HTB-Silentium-Writeup](https://github.com/Twappz/HTB-Silentium-Writeup) :  ![starts](https://img.shields.io/github/stars/Twappz/HTB-Silentium-Writeup.svg) ![forks](https://img.shields.io/github/forks/Twappz/HTB-Silentium-Writeup.svg)
+- [https://github.com/rmhowe425/PoC-CVE-2026-9198](https://github.com/rmhowe425/PoC-CVE-2026-9198) :  ![starts](https://img.shields.io/github/stars/rmhowe425/PoC-CVE-2026-9198.svg) ![forks](https://img.shields.io/github/forks/rmhowe425/PoC-CVE-2026-9198.svg)
 
 
-## CVE-2025-53770
-Microsoft is preparing and fully testing a comprehensive update to address this vulnerability.  In the meantime, please make sure that the mitigation provided in this CVE documentation is in place so that you are protected from exploitation.
+## CVE-2026-8763
+ In Bouncy Castle for Java before 1.85, Name Constraints bypass via trailing dot in rfc822Name and URI. This issue also affects Bouncy Castle for Java LTS before 2.73.12, and Bouncy Castle for Java FIPS (BC-FJA) before bc-fips 1.0.2.7 (1.0.X series), 2.0.2 (2.0.X series) and 2.1.3 (2.1.X series).
 
-- [https://github.com/0xKr1x/CVE-2025-53770-Scanner](https://github.com/0xKr1x/CVE-2025-53770-Scanner) :  ![starts](https://img.shields.io/github/stars/0xKr1x/CVE-2025-53770-Scanner.svg) ![forks](https://img.shields.io/github/forks/0xKr1x/CVE-2025-53770-Scanner.svg)
-- [https://github.com/mfarshad-abdullah-khan/cve-2025-53770-research](https://github.com/mfarshad-abdullah-khan/cve-2025-53770-research) :  ![starts](https://img.shields.io/github/stars/mfarshad-abdullah-khan/cve-2025-53770-research.svg) ![forks](https://img.shields.io/github/forks/mfarshad-abdullah-khan/cve-2025-53770-research.svg)
-
-
-## CVE-2025-32463
- Sudo before 1.9.17p1 allows local users to obtain root access because /etc/nsswitch.conf from a user-controlled directory is used with the --chroot option.
-
-- [https://github.com/0xdak/CVE-2025-32463_exploit](https://github.com/0xdak/CVE-2025-32463_exploit) :  ![starts](https://img.shields.io/github/stars/0xdak/CVE-2025-32463_exploit.svg) ![forks](https://img.shields.io/github/forks/0xdak/CVE-2025-32463_exploit.svg)
+- [https://github.com/xiaoqiMikko/bc-check](https://github.com/xiaoqiMikko/bc-check) :  ![starts](https://img.shields.io/github/stars/xiaoqiMikko/bc-check.svg) ![forks](https://img.shields.io/github/forks/xiaoqiMikko/bc-check.svg)
 
 
-## CVE-2025-27840
- Espressif ESP32 chips allow 29 hidden HCI commands, such as 0xFC02 (Write memory).
+## CVE-2026-8149
+This issue affects BC-LTS: from 2.73.0 before 2.73.11; BC-FJA: from 2.1.0 before 2.1.3.
 
-- [https://github.com/JasonW88/esp32-cve-2025-27840-power-trace-experiment](https://github.com/JasonW88/esp32-cve-2025-27840-power-trace-experiment) :  ![starts](https://img.shields.io/github/stars/JasonW88/esp32-cve-2025-27840-power-trace-experiment.svg) ![forks](https://img.shields.io/github/forks/JasonW88/esp32-cve-2025-27840-power-trace-experiment.svg)
+- [https://github.com/xiaoqiMikko/bc-check](https://github.com/xiaoqiMikko/bc-check) :  ![starts](https://img.shields.io/github/stars/xiaoqiMikko/bc-check.svg) ![forks](https://img.shields.io/github/forks/xiaoqiMikko/bc-check.svg)
+
+
+## CVE-2026-6800
+ The FastBots plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 1.0.12 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
+
+- [https://github.com/xuwu-xuwu/CVE-2026-68004](https://github.com/xuwu-xuwu/CVE-2026-68004) :  ![starts](https://img.shields.io/github/stars/xuwu-xuwu/CVE-2026-68004.svg) ![forks](https://img.shields.io/github/forks/xuwu-xuwu/CVE-2026-68004.svg)
+
+
+## CVE-2026-5027
+ The 'POST /api/v2/files' endpoint does not sanitize the 'filename' parameter from the multipart form data, allowing an attacker to write files to arbitrary locations on the filesystem using path traversal sequences ('../').
+
+- [https://github.com/HORKimhab/CVE-2026-5027](https://github.com/HORKimhab/CVE-2026-5027) :  ![starts](https://img.shields.io/github/stars/HORKimhab/CVE-2026-5027.svg) ![forks](https://img.shields.io/github/forks/HORKimhab/CVE-2026-5027.svg)
+
+
+## CVE-2026-4480
+substitution character without escaping shell meta characters. A remote attacker could exploit this vulnerability by sending a specially crafted print job description that contains unescaped shell characters. This could lead to remote code execution on the affected system.
+
+- [https://github.com/SafeBreach-Labs/ForgottenButNotGone](https://github.com/SafeBreach-Labs/ForgottenButNotGone) :  ![starts](https://img.shields.io/github/stars/SafeBreach-Labs/ForgottenButNotGone.svg) ![forks](https://img.shields.io/github/forks/SafeBreach-Labs/ForgottenButNotGone.svg)
+
+
+## CVE-2026-4408
+ A flaw was found in Samba. A remote attacker can exploit a misconfiguration in Samba file servers and classic domain controllers that use the "check password script" feature. If this script is configured with the %u substitution character, the client-controlled username is passed without proper escaping of shell meta-characters. This vulnerability allows an attacker to achieve remote command execution on the affected system. This issue primarily affects non-standard configurations where the "check password script" is used with %u and the samba-dcerpcd service is started as a system service.
+
+- [https://github.com/SafeBreach-Labs/ForgottenButNotGone](https://github.com/SafeBreach-Labs/ForgottenButNotGone) :  ![starts](https://img.shields.io/github/stars/SafeBreach-Labs/ForgottenButNotGone.svg) ![forks](https://img.shields.io/github/forks/SafeBreach-Labs/ForgottenButNotGone.svg)
+
+
+## CVE-2026-0092
+ In Package Manager, there is a possible device lock controller bypass due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+
+- [https://github.com/Majorjayyy1/CVE-2026-0092](https://github.com/Majorjayyy1/CVE-2026-0092) :  ![starts](https://img.shields.io/github/stars/Majorjayyy1/CVE-2026-0092.svg) ![forks](https://img.shields.io/github/forks/Majorjayyy1/CVE-2026-0092.svg)
+
+
+## CVE-2025-70962
+ Zosi C519M V4.2.8.823C01450BA is vulnerable to Incorrect Access Control. The application contains hardcoded credentials in the RTSP authentication mechanism. An attacker with network access can use the unchangeable default credentials to access the RTSP video stream, resulting in unauthorized viewing of camera footage.
+
+- [https://github.com/namaek2/CVE-2025-70962](https://github.com/namaek2/CVE-2025-70962) :  ![starts](https://img.shields.io/github/stars/namaek2/CVE-2025-70962.svg) ![forks](https://img.shields.io/github/forks/namaek2/CVE-2025-70962.svg)
+
+
+## CVE-2025-66390
+ In Microsoft Azure API Management through 2025-10-17, when self-service signup (username/password Basic Authentication) is enabled in Tenant A, an attacker can reuse the registration flow by changing the hostname or tenant identifier to Tenant B, even when Tenant B has signup disabled at the UI level. In other words, disabling signup in the UI does not disable the underlying API endpoint (which still accepts cross-tenant requests based on the Host header). NOTE: The supplier states that they evaluated the report and determined it did not cross a security boundary (i.e., the observed behavior was a configuration/state issue rather than an exploitable product vulnerability affecting tenant isolation). NOTE: The supplier evaluated this report and determined that it did not cross a security boundary (i.e., the observed behavior was a configuration/state issue rather than an exploitable product vulnerability affecting tenant isolation).
+
+- [https://github.com/dz-y/Azure-APIM-Dev-Portal-Signup-Bypass](https://github.com/dz-y/Azure-APIM-Dev-Portal-Signup-Bypass) :  ![starts](https://img.shields.io/github/stars/dz-y/Azure-APIM-Dev-Portal-Signup-Bypass.svg) ![forks](https://img.shields.io/github/forks/dz-y/Azure-APIM-Dev-Portal-Signup-Bypass.svg)
+
+
+## CVE-2025-32432
+ Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.
+
+- [https://github.com/PsyGuy007-sys/craftcms-cve-2025-32432-rce](https://github.com/PsyGuy007-sys/craftcms-cve-2025-32432-rce) :  ![starts](https://img.shields.io/github/stars/PsyGuy007-sys/craftcms-cve-2025-32432-rce.svg) ![forks](https://img.shields.io/github/forks/PsyGuy007-sys/craftcms-cve-2025-32432-rce.svg)
+
+
+## CVE-2025-32375
+ BentoML is a Python library for building online serving systems optimized for AI apps and model inference. Prior to 1.4.8, there was an insecure deserialization in BentoML's runner server. By setting specific headers and parameters in the POST request, it is possible to execute any unauthorized arbitrary code on the server, which will grant the attackers to have the initial access and information disclosure on the server. This vulnerability is fixed in 1.4.8.
+
+- [https://github.com/SevdaKhidirova/CVE-2025-32375-PoC](https://github.com/SevdaKhidirova/CVE-2025-32375-PoC) :  ![starts](https://img.shields.io/github/stars/SevdaKhidirova/CVE-2025-32375-PoC.svg) ![forks](https://img.shields.io/github/forks/SevdaKhidirova/CVE-2025-32375-PoC.svg)
+
+
+## CVE-2025-24813
+Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
+
+- [https://github.com/NamelessSaint8/CVE-2025-24813-POC](https://github.com/NamelessSaint8/CVE-2025-24813-POC) :  ![starts](https://img.shields.io/github/stars/NamelessSaint8/CVE-2025-24813-POC.svg) ![forks](https://img.shields.io/github/forks/NamelessSaint8/CVE-2025-24813-POC.svg)
 
 
 ## CVE-2025-8110
  Improper Symbolic link handling in the PutContents API in Gogs allows Local Execution of Code.
 
-- [https://github.com/Twappz/HTB-Silentium-Writeup](https://github.com/Twappz/HTB-Silentium-Writeup) :  ![starts](https://img.shields.io/github/stars/Twappz/HTB-Silentium-Writeup.svg) ![forks](https://img.shields.io/github/forks/Twappz/HTB-Silentium-Writeup.svg)
+- [https://github.com/9xh4kv/CVE-2025-8110](https://github.com/9xh4kv/CVE-2025-8110) :  ![starts](https://img.shields.io/github/stars/9xh4kv/CVE-2025-8110.svg) ![forks](https://img.shields.io/github/forks/9xh4kv/CVE-2025-8110.svg)
 
 
-## CVE-2025-4275
- A vulnerability in the digital signature verification process does not properly validate variable attributes which allows an attacker to bypass signature verification by creating a non-authenticated NVRAM variable. An attacker may to execute arbitrary signed UEFI code and bypass Secure Boot.
+## CVE-2025-3037
+ A vulnerability has been found in yzk2356911358 StudentServlet-JSP cc0cdce25fbe43b6c58b60a77a2c85f52d2102f5/d4d7a0643f1dae908a4831206f2714b21820f991 and classified as problematic. This vulnerability affects unknown code. The manipulation leads to cross-site request forgery. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available.
 
-- [https://github.com/TheMalwareGuardian/CVE-2025-4275](https://github.com/TheMalwareGuardian/CVE-2025-4275) :  ![starts](https://img.shields.io/github/stars/TheMalwareGuardian/CVE-2025-4275.svg) ![forks](https://img.shields.io/github/forks/TheMalwareGuardian/CVE-2025-4275.svg)
-
-
-## CVE-2025-3052
- An arbitrary write vulnerability in Microsoft signed UEFI firmware allows for code execution of untrusted software. This allows an attacker to control its value, leading to arbitrary memory writes, including modification of critical firmware settings stored in NVRAM. Exploiting this vulnerability could enable security bypasses, persistence mechanisms, or full system compromise.
-
-- [https://github.com/TheMalwareGuardian/CVE-2025-3052](https://github.com/TheMalwareGuardian/CVE-2025-3052) :  ![starts](https://img.shields.io/github/stars/TheMalwareGuardian/CVE-2025-3052.svg) ![forks](https://img.shields.io/github/forks/TheMalwareGuardian/CVE-2025-3052.svg)
+- [https://github.com/jackfromeast/CVE-2025-30374](https://github.com/jackfromeast/CVE-2025-30374) :  ![starts](https://img.shields.io/github/stars/jackfromeast/CVE-2025-30374.svg) ![forks](https://img.shields.io/github/forks/jackfromeast/CVE-2025-30374.svg)
 
 
-## CVE-2024-21413
- Microsoft Outlook Remote Code Execution Vulnerability
+## CVE-2024-2961
+ The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.
 
-- [https://github.com/h4cknain/CVE-2024-21413-Microsoft-Outlook-Moniker-Link-Vulnerability](https://github.com/h4cknain/CVE-2024-21413-Microsoft-Outlook-Moniker-Link-Vulnerability) :  ![starts](https://img.shields.io/github/stars/h4cknain/CVE-2024-21413-Microsoft-Outlook-Moniker-Link-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/h4cknain/CVE-2024-21413-Microsoft-Outlook-Moniker-Link-Vulnerability.svg)
-- [https://github.com/OmarMahmoud1024/tryhackme-monikerlink-writeup](https://github.com/OmarMahmoud1024/tryhackme-monikerlink-writeup) :  ![starts](https://img.shields.io/github/stars/OmarMahmoud1024/tryhackme-monikerlink-writeup.svg) ![forks](https://img.shields.io/github/forks/OmarMahmoud1024/tryhackme-monikerlink-writeup.svg)
-
-
-## CVE-2023-31902
- RPA Technology Mobile Mouse 3.6.0.4 is vulnerable to Remote Code Execution (RCE).
-
-- [https://github.com/lypd0/mouseserver-exploit](https://github.com/lypd0/mouseserver-exploit) :  ![starts](https://img.shields.io/github/stars/lypd0/mouseserver-exploit.svg) ![forks](https://img.shields.io/github/forks/lypd0/mouseserver-exploit.svg)
+- [https://github.com/HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977](https://github.com/HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977) :  ![starts](https://img.shields.io/github/stars/HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977.svg) ![forks](https://img.shields.io/github/forks/HORKimhab/CVE-2022-31626-CVE-2024-2961-CVE-2019-6977.svg)
 
