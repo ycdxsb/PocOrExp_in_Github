@@ -6955,6 +6955,13 @@ from other guests.
 
 - [https://github.com/mbanyamer/CVE-2023-31059-Repetier-Server-1.4.10-Unauthenticated-Path-Traversal](https://github.com/mbanyamer/CVE-2023-31059-Repetier-Server-1.4.10-Unauthenticated-Path-Traversal) :  ![starts](https://img.shields.io/github/stars/mbanyamer/CVE-2023-31059-Repetier-Server-1.4.10-Unauthenticated-Path-Traversal.svg) ![forks](https://img.shields.io/github/forks/mbanyamer/CVE-2023-31059-Repetier-Server-1.4.10-Unauthenticated-Path-Traversal.svg)
 
+## CVE-2023-31014
+ NVIDIA GeForce Now for Android contains a vulnerability in the game launcher component, where a malicious application on the same device can process the implicit intent meant for the streamer component. A successful exploit of this vulnerability may lead to limited information disclosure, denial of service, and code execution.
+
+
+
+- [https://github.com/LazyBear8372/CVE-2023-31014_Lab](https://github.com/LazyBear8372/CVE-2023-31014_Lab) :  ![starts](https://img.shields.io/github/stars/LazyBear8372/CVE-2023-31014_Lab.svg) ![forks](https://img.shields.io/github/forks/LazyBear8372/CVE-2023-31014_Lab.svg)
+
 ## CVE-2023-30990
  IBM i 7.2, 7.3, 7.4, and 7.5 could allow a remote attacker to execute CL commands as QUSER, caused by an exploitation of DDM architecture.  IBM X-Force ID:  254036.
 
