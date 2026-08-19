@@ -785,6 +785,8 @@
 
 - [https://github.com/FloatingGuy/cve-2015-1805](https://github.com/FloatingGuy/cve-2015-1805) : ![starts](https://img.shields.io/github/stars/FloatingGuy/cve-2015-1805.svg) ![forks](https://img.shields.io/github/forks/FloatingGuy/cve-2015-1805.svg)
 
+- [https://github.com/valentineus/hp-slate7-root-kit](https://github.com/valentineus/hp-slate7-root-kit) : ![starts](https://img.shields.io/github/stars/valentineus/hp-slate7-root-kit.svg) ![forks](https://img.shields.io/github/forks/valentineus/hp-slate7-root-kit.svg)
+
 - [https://github.com/mobilelinux/iovy_root_research](https://github.com/mobilelinux/iovy_root_research) : ![starts](https://img.shields.io/github/stars/mobilelinux/iovy_root_research.svg) ![forks](https://img.shields.io/github/forks/mobilelinux/iovy_root_research.svg)
 
 ## CVE-2015-1792
