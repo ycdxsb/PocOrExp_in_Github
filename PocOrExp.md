@@ -94406,9 +94406,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2](https://github.com/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2) : ![starts](https://img.shields.io/github/stars/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2.svg) ![forks](https://img.shields.io/github/forks/DevinLiggins14/SMB-PenTest-Exploiting-CVE-2007-2447-on-Metasploitable-2.svg)
 
-- [https://github.com/Mboatella25/metasploitable-pentest-lab](https://github.com/Mboatella25/metasploitable-pentest-lab) : ![starts](https://img.shields.io/github/stars/Mboatella25/metasploitable-pentest-lab.svg) ![forks](https://img.shields.io/github/forks/Mboatella25/metasploitable-pentest-lab.svg)
-
 - [https://github.com/EthicalHackingLabs/metasploitable2-exploitation-metasploit](https://github.com/EthicalHackingLabs/metasploitable2-exploitation-metasploit) : ![starts](https://img.shields.io/github/stars/EthicalHackingLabs/metasploitable2-exploitation-metasploit.svg) ![forks](https://img.shields.io/github/forks/EthicalHackingLabs/metasploitable2-exploitation-metasploit.svg)
+
+- [https://github.com/Mboatella25/metasploitable-pentest-lab](https://github.com/Mboatella25/metasploitable-pentest-lab) : ![starts](https://img.shields.io/github/stars/Mboatella25/metasploitable-pentest-lab.svg) ![forks](https://img.shields.io/github/forks/Mboatella25/metasploitable-pentest-lab.svg)
 
 - [https://github.com/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-](https://github.com/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-) : ![starts](https://img.shields.io/github/stars/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-.svg) ![forks](https://img.shields.io/github/forks/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-.svg)
 
