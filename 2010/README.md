@@ -143,6 +143,8 @@
 
 - [https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution) : ![starts](https://img.shields.io/github/stars/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg)
 
+- [https://github.com/Elazab2005/unrealircd-backdoor-pentest-report](https://github.com/Elazab2005/unrealircd-backdoor-pentest-report) : ![starts](https://img.shields.io/github/stars/Elazab2005/unrealircd-backdoor-pentest-report.svg) ![forks](https://img.shields.io/github/forks/Elazab2005/unrealircd-backdoor-pentest-report.svg)
+
 - [https://github.com/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report](https://github.com/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report) : ![starts](https://img.shields.io/github/stars/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report.svg) ![forks](https://img.shields.io/github/forks/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report.svg)
 
 ## CVE-2010-2039
