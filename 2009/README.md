@@ -149,6 +149,11 @@
 
 - [https://github.com/piotrbania/vmware_exploit_pack_CVE-2009-1244](https://github.com/piotrbania/vmware_exploit_pack_CVE-2009-1244) : ![starts](https://img.shields.io/github/stars/piotrbania/vmware_exploit_pack_CVE-2009-1244.svg) ![forks](https://img.shields.io/github/forks/piotrbania/vmware_exploit_pack_CVE-2009-1244.svg)
 
+## CVE-2009-1185
+ udev before 1.4.1 does not verify whether a NETLINK message originates from kernel space, which allows local users to gain privileges by sending a NETLINK message from user space.
+
+- [https://github.com/aish19siddiqua-commits/mtechweek_04](https://github.com/aish19siddiqua-commits/mtechweek_04) : ![starts](https://img.shields.io/github/stars/aish19siddiqua-commits/mtechweek_04.svg) ![forks](https://img.shields.io/github/forks/aish19siddiqua-commits/mtechweek_04.svg)
+
 ## CVE-2009-1151
  Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.11.9.5 and 3.x before 3.1.3.1 allows remote attackers to inject arbitrary PHP code into a configuration file via the save action.
 
