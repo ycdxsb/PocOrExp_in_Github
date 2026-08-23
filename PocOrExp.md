@@ -94902,6 +94902,8 @@ This issue affects Apache HTTP Server 2.4.54 and earlier.
 
 - [https://github.com/nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687](https://github.com/nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687) : ![starts](https://img.shields.io/github/stars/nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687.svg)
 
+- [https://github.com/aish19siddiqua-commits/mtechweek_04](https://github.com/aish19siddiqua-commits/mtechweek_04) : ![starts](https://img.shields.io/github/stars/aish19siddiqua-commits/mtechweek_04.svg) ![forks](https://img.shields.io/github/forks/aish19siddiqua-commits/mtechweek_04.svg)
+
 ## CVE-2004-2549
  Nortel Wireless LAN (WLAN) Access Point (AP) 2220, 2221, and 2225 allow remote attackers to cause a denial of service (service crash) via a TCP request with a large string, followed by 8 newline characters, to (1) the Telnet service on TCP port 23 and (2) the HTTP service on TCP port 80, possibly due to a buffer overflow.
 
