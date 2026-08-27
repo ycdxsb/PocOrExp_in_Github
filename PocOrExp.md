@@ -93918,6 +93918,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify](https://github.com/OtisSymbos/CVE-2013-3900-WinTrustVerify) : ![starts](https://img.shields.io/github/stars/OtisSymbos/CVE-2013-3900-WinTrustVerify.svg) ![forks](https://img.shields.io/github/forks/OtisSymbos/CVE-2013-3900-WinTrustVerify.svg)
 
+- [https://github.com/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-](https://github.com/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-) : ![starts](https://img.shields.io/github/stars/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-.svg) ![forks](https://img.shields.io/github/forks/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-.svg)
+
 - [https://github.com/Sabecomoeh/CVE-2013-3900](https://github.com/Sabecomoeh/CVE-2013-3900) : ![starts](https://img.shields.io/github/stars/Sabecomoeh/CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/Sabecomoeh/CVE-2013-3900.svg)
 
 - [https://github.com/snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900) : ![starts](https://img.shields.io/github/stars/snoopopsec/vulnerability-CVE-2013-3900.svg) ![forks](https://img.shields.io/github/forks/snoopopsec/vulnerability-CVE-2013-3900.svg)
@@ -93935,8 +93937,6 @@ Exploitation of this vulnerability requires that a user or application run or in
 - [https://github.com/AdenilsonSantos/WinVerifyTrust](https://github.com/AdenilsonSantos/WinVerifyTrust) : ![starts](https://img.shields.io/github/stars/AdenilsonSantos/WinVerifyTrust.svg) ![forks](https://img.shields.io/github/forks/AdenilsonSantos/WinVerifyTrust.svg)
 
 - [https://github.com/piranhap/CVE-2013-3900_Remediation_PowerShell](https://github.com/piranhap/CVE-2013-3900_Remediation_PowerShell) : ![starts](https://img.shields.io/github/stars/piranhap/CVE-2013-3900_Remediation_PowerShell.svg) ![forks](https://img.shields.io/github/forks/piranhap/CVE-2013-3900_Remediation_PowerShell.svg)
-
-- [https://github.com/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-](https://github.com/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-) : ![starts](https://img.shields.io/github/stars/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-.svg) ![forks](https://img.shields.io/github/forks/pkblanks/Remediating-CVE-2013-3900-EnableCertPaddingCheck-.svg)
 
 - [https://github.com/oukridrig772/-WinVerifyTrust-Signature-Validation-CVE-2013-3900-Mitigation](https://github.com/oukridrig772/-WinVerifyTrust-Signature-Validation-CVE-2013-3900-Mitigation) : ![starts](https://img.shields.io/github/stars/oukridrig772/-WinVerifyTrust-Signature-Validation-CVE-2013-3900-Mitigation.svg) ![forks](https://img.shields.io/github/forks/oukridrig772/-WinVerifyTrust-Signature-Validation-CVE-2013-3900-Mitigation.svg)
 
