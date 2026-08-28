@@ -92207,6 +92207,11 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/alexanderkjall/wicker-cve-2015-5347](https://github.com/alexanderkjall/wicker-cve-2015-5347) : ![starts](https://img.shields.io/github/stars/alexanderkjall/wicker-cve-2015-5347.svg) ![forks](https://img.shields.io/github/forks/alexanderkjall/wicker-cve-2015-5347.svg)
 
+## CVE-2015-5287
+ The abrt-hook-ccpp help program in Automatic Bug Reporting Tool (ABRT) before 2.7.1 allows local users with certain permissions to gain privileges via a symlink attack on a file with a predictable name, as demonstrated by /var/tmp/abrt/abrt-hax-coredump or /var/spool/abrt/abrt-hax-coredump.
+
+- [https://github.com/HORKimhab/CVE-2015-5287](https://github.com/HORKimhab/CVE-2015-5287) : ![starts](https://img.shields.io/github/stars/HORKimhab/CVE-2015-5287.svg) ![forks](https://img.shields.io/github/forks/HORKimhab/CVE-2015-5287.svg)
+
 ## CVE-2015-5254
  Apache ActiveMQ 5.x before 5.13.0 does not restrict the classes that can be serialized in the broker, which allows remote attackers to execute arbitrary code via a crafted serialized Java Message Service (JMS) ObjectMessage object.
 
@@ -92398,6 +92403,11 @@ Only traffic directed to the affected system can be used to exploit this vulnera
  PolicyKit (aka polkit) before 0.113 allows local users to cause a denial of service (memory corruption and polkitd daemon crash) and possibly gain privileges via unspecified vectors, related to "javascript rule evaluation."
 
 - [https://github.com/puglia-ryan/S-V-Project-Implementation-of-CVE-2015-3256](https://github.com/puglia-ryan/S-V-Project-Implementation-of-CVE-2015-3256) : ![starts](https://img.shields.io/github/stars/puglia-ryan/S-V-Project-Implementation-of-CVE-2015-3256.svg) ![forks](https://img.shields.io/github/forks/puglia-ryan/S-V-Project-Implementation-of-CVE-2015-3256.svg)
+
+## CVE-2015-3246
+ libuser before 0.56.13-8 and 0.60 before 0.60-7, as used in the userhelper program in the usermode package, directly modifies /etc/passwd, which allows local users to cause a denial of service (inconsistent file state) by causing an error during the modification. NOTE: this issue can be combined with CVE-2015-3245 to gain privileges.
+
+- [https://github.com/HORKimhab/CVE-2015-3246](https://github.com/HORKimhab/CVE-2015-3246) : ![starts](https://img.shields.io/github/stars/HORKimhab/CVE-2015-3246.svg) ![forks](https://img.shields.io/github/forks/HORKimhab/CVE-2015-3246.svg)
 
 ## CVE-2015-3239
  Off-by-one error in the dwarf_to_unw_regnum function in include/dwarf_i.h in libunwind 1.1 allows local users to have unspecified impact via invalid dwarf opcodes.
@@ -92727,9 +92737,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/YastrebX/CVE-2015-1328](https://github.com/YastrebX/CVE-2015-1328) : ![starts](https://img.shields.io/github/stars/YastrebX/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/YastrebX/CVE-2015-1328.svg)
 
-- [https://github.com/BlackFrog-hub/cve-2015-1328](https://github.com/BlackFrog-hub/cve-2015-1328) : ![starts](https://img.shields.io/github/stars/BlackFrog-hub/cve-2015-1328.svg) ![forks](https://img.shields.io/github/forks/BlackFrog-hub/cve-2015-1328.svg)
-
 - [https://github.com/FernandoCassioDev/CVE-2015-1328](https://github.com/FernandoCassioDev/CVE-2015-1328) : ![starts](https://img.shields.io/github/stars/FernandoCassioDev/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/FernandoCassioDev/CVE-2015-1328.svg)
+
+- [https://github.com/BlackFrog-hub/cve-2015-1328](https://github.com/BlackFrog-hub/cve-2015-1328) : ![starts](https://img.shields.io/github/stars/BlackFrog-hub/cve-2015-1328.svg) ![forks](https://img.shields.io/github/forks/BlackFrog-hub/cve-2015-1328.svg)
 
 - [https://github.com/WhatsWrongAndWhy/CVE-2015-1328](https://github.com/WhatsWrongAndWhy/CVE-2015-1328) : ![starts](https://img.shields.io/github/stars/WhatsWrongAndWhy/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/WhatsWrongAndWhy/CVE-2015-1328.svg)
 
