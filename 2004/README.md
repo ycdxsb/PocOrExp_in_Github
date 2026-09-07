@@ -63,6 +63,11 @@
 
 - [https://github.com/MonseigneurPatas/thm-ice-icecast-rce-privesc](https://github.com/MonseigneurPatas/thm-ice-icecast-rce-privesc) : ![starts](https://img.shields.io/github/stars/MonseigneurPatas/thm-ice-icecast-rce-privesc.svg) ![forks](https://img.shields.io/github/forks/MonseigneurPatas/thm-ice-icecast-rce-privesc.svg)
 
+## CVE-2004-1235
+ Race condition in the (1) load_elf_library and (2) binfmt_aout function calls for uselib in Linux kernel 2.4 through 2.429-rc2 and 2.6 through 2.6.10 allows local users to execute arbitrary code by manipulating the VMA descriptor.
+
+- [https://github.com/0b0111100/2004](https://github.com/0b0111100/2004) : ![starts](https://img.shields.io/github/stars/0b0111100/2004.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2004.svg)
+
 ## CVE-2004-1151
  Multiple buffer overflows in the (1) sys32_ni_syscall and (2) sys32_vm86_warning functions in sys_ia32.c for Linux 2.6.x may allow local attackers to modify kernel memory and gain privileges.
 
@@ -79,3 +84,8 @@
  The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows remote attackers to cause a denial of service (service hang) via a certain UDP packet to the IPP port.
 
 - [https://github.com/fibonascii/CVE-2004-0558](https://github.com/fibonascii/CVE-2004-0558) : ![starts](https://img.shields.io/github/stars/fibonascii/CVE-2004-0558.svg) ![forks](https://img.shields.io/github/forks/fibonascii/CVE-2004-0558.svg)
+
+## CVE-2004-0077
+ The do_mremap function for the mremap system call in Linux 2.2 to 2.2.25, 2.4 to 2.4.24, and 2.6 to 2.6.2, does not properly check the return value from the do_munmap function when the maximum number of VMA descriptors is exceeded, which allows local users to gain root privileges, a different vulnerability than CAN-2003-0985.
+
+- [https://github.com/0b0111100/2004](https://github.com/0b0111100/2004) : ![starts](https://img.shields.io/github/stars/0b0111100/2004.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2004.svg)
