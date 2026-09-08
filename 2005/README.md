@@ -15,10 +15,20 @@
 
 - [https://github.com/InitRoot/CVE-2005-1794Scanner](https://github.com/InitRoot/CVE-2005-1794Scanner) : ![starts](https://img.shields.io/github/stars/InitRoot/CVE-2005-1794Scanner.svg) ![forks](https://img.shields.io/github/forks/InitRoot/CVE-2005-1794Scanner.svg)
 
+## CVE-2005-1263
+ The elf_core_dump function in binfmt_elf.c for Linux kernel 2.x.x to 2.2.27-rc2, 2.4.x to 2.4.31-pre1, and 2.6.x to 2.6.12-rc4 allows local users to execute arbitrary code via an ELF binary that, in certain conditions involving the create_elf_tables function, causes a negative length argument to pass a signed integer comparison, leading to a buffer overflow.
+
+- [https://github.com/0b0111100/2005](https://github.com/0b0111100/2005) : ![starts](https://img.shields.io/github/stars/0b0111100/2005.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2005.svg)
+
 ## CVE-2005-1125
  Race condition in libsafe 2.0.16 and earlier, when running in multi-threaded applications, allows attackers to bypass libsafe protection and exploit other vulnerabilities before the _libsafe_die function call is completed.
 
 - [https://github.com/tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125) : ![starts](https://img.shields.io/github/stars/tagatac/libsafe-CVE-2005-1125.svg) ![forks](https://img.shields.io/github/forks/tagatac/libsafe-CVE-2005-1125.svg)
+
+## CVE-2005-0736
+ Integer overflow in sys_epoll_wait in eventpoll.c for Linux kernel 2.6 to 2.6.11 allows local users to overwrite kernel memory via a large number of events.
+
+- [https://github.com/0b0111100/2005](https://github.com/0b0111100/2005) : ![starts](https://img.shields.io/github/stars/0b0111100/2005.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2005.svg)
 
 ## CVE-2005-0603
  viewtopic.php in phpBB 2.0.12 and earlier allows remote attackers to obtain sensitive information via a highlight parameter containing invalid regular expression syntax, which reveals the path in a PHP error message.
