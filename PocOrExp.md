@@ -97119,6 +97119,11 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/cocomelonc/vulnexipy](https://github.com/cocomelonc/vulnexipy) : ![starts](https://img.shields.io/github/stars/cocomelonc/vulnexipy.svg) ![forks](https://img.shields.io/github/forks/cocomelonc/vulnexipy.svg)
 
+## CVE-2009-3547
+ Multiple race conditions in fs/pipe.c in the Linux kernel before 2.6.32-rc6 allow local users to cause a denial of service (NULL pointer dereference and system crash) or gain privileges by attempting to open an anonymous pipe via a /proc/*/fd/ pathname.
+
+- [https://github.com/0b0111100/2009](https://github.com/0b0111100/2009) : ![starts](https://img.shields.io/github/stars/0b0111100/2009.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2009.svg)
+
 ## CVE-2009-3103
  Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a denial of service (system crash) via an & (ampersand) character in a Process ID High header field in a NEGOTIATE PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location, aka "SMBv2 Negotiation Vulnerability." NOTE: some of these details are obtained from third party information.
 
@@ -97144,10 +97149,14 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698) : ![starts](https://img.shields.io/github/stars/xiaoxiaoleo/CVE-2009-2698.svg) ![forks](https://img.shields.io/github/forks/xiaoxiaoleo/CVE-2009-2698.svg)
 
+- [https://github.com/0b0111100/2009](https://github.com/0b0111100/2009) : ![starts](https://img.shields.io/github/stars/0b0111100/2009.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2009.svg)
+
 ## CVE-2009-2692
  The Linux kernel 2.6.0 through 2.6.30.4, and 2.4.4 through 2.4.37.4, does not initialize all function pointers for socket operations in proto_ops structures, which allows local users to trigger a NULL pointer dereference and gain privileges by using mmap to map page zero, placing arbitrary code on this page, and then invoking an unavailable operation, as demonstrated by the sendpage operation (sock_sendpage function) on a PF_PPPOX socket.
 
 - [https://github.com/jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692) : ![starts](https://img.shields.io/github/stars/jdvalentini/CVE-2009-2692.svg) ![forks](https://img.shields.io/github/forks/jdvalentini/CVE-2009-2692.svg)
+
+- [https://github.com/0b0111100/2009](https://github.com/0b0111100/2009) : ![starts](https://img.shields.io/github/stars/0b0111100/2009.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2009.svg)
 
 ## CVE-2009-2585
  SQL injection vulnerability in index.php in Mlffat 2.2 allows remote attackers to execute arbitrary SQL commands via a member cookie in an account editprofile action, a different vector than CVE-2009-1731.
@@ -97183,6 +97192,11 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/HanseSecure/CVE-2009-1437](https://github.com/HanseSecure/CVE-2009-1437) : ![starts](https://img.shields.io/github/stars/HanseSecure/CVE-2009-1437.svg) ![forks](https://img.shields.io/github/forks/HanseSecure/CVE-2009-1437.svg)
 
+## CVE-2009-1337
+ The exit_notify function in kernel/exit.c in the Linux kernel before 2.6.30-rc1 does not restrict exit signals when the CAP_KILL capability is held, which allows local users to send an arbitrary signal to a process by running a program that modifies the exit_signal field and then uses an exec system call to launch a setuid application.
+
+- [https://github.com/0b0111100/2009](https://github.com/0b0111100/2009) : ![starts](https://img.shields.io/github/stars/0b0111100/2009.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2009.svg)
+
 ## CVE-2009-1330
  Stack-based buffer overflow in Easy RM to MP3 Converter allows remote attackers to execute arbitrary code via a long filename in a playlist (.pls) file.
 
@@ -97204,6 +97218,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 ## CVE-2009-1185
  udev before 1.4.1 does not verify whether a NETLINK message originates from kernel space, which allows local users to gain privileges by sending a NETLINK message from user space.
+
+- [https://github.com/0b0111100/2009](https://github.com/0b0111100/2009) : ![starts](https://img.shields.io/github/stars/0b0111100/2009.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2009.svg)
 
 - [https://github.com/aish19siddiqua-commits/mtechweek_04](https://github.com/aish19siddiqua-commits/mtechweek_04) : ![starts](https://img.shields.io/github/stars/aish19siddiqua-commits/mtechweek_04.svg) ![forks](https://img.shields.io/github/forks/aish19siddiqua-commits/mtechweek_04.svg)
 
