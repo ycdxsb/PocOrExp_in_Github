@@ -36,6 +36,11 @@ This issue affects Apache HTTP Server 2.4.54 and earlier.
 
 - [https://github.com/defensahacker/CVE-2006-3747](https://github.com/defensahacker/CVE-2006-3747) : ![starts](https://img.shields.io/github/stars/defensahacker/CVE-2006-3747.svg) ![forks](https://img.shields.io/github/forks/defensahacker/CVE-2006-3747.svg)
 
+## CVE-2006-3626
+ Race condition in Linux kernel 2.6.17.4 and earlier allows local users to gain root privileges by using prctl with PR_SET_DUMPABLE in a way that causes /proc/self/environ to become setuid root.
+
+- [https://github.com/0b0111100/2006](https://github.com/0b0111100/2006) : ![starts](https://img.shields.io/github/stars/0b0111100/2006.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2006.svg)
+
 ## CVE-2006-3592
  Unspecified vulnerability in the command line interface (CLI) in Cisco Unified CallManager (CUCM) 5.0(1) through 5.0(3a) allows local users to execute arbitrary commands with elevated privileges via unspecified vectors, involving "certain CLI commands," aka bug CSCse11005.
 
@@ -64,6 +69,11 @@ This issue affects Apache HTTP Server 2.4.54 and earlier.
  PHP remote file inclusion vulnerability in functions/plugin.php in SquirrelMail 1.4.6 and earlier, if register_globals is enabled and magic_quotes_gpc is disabled, allows remote attackers to execute arbitrary PHP code via a URL in the plugins array parameter.  NOTE: this issue has been disputed by third parties, who state that Squirrelmail provides prominent warnings to the administrator when register_globals is enabled.  Since the varieties of administrator negligence are uncountable, perhaps this type of issue should not be included in CVE.  However, the original developer has posted a security advisory, so there might be relevant real-world environments under which this vulnerability is applicable
 
 - [https://github.com/karthi-the-hacker/CVE-2006-2842](https://github.com/karthi-the-hacker/CVE-2006-2842) : ![starts](https://img.shields.io/github/stars/karthi-the-hacker/CVE-2006-2842.svg) ![forks](https://img.shields.io/github/forks/karthi-the-hacker/CVE-2006-2842.svg)
+
+## CVE-2006-2451
+ The suid_dumpable support in Linux kernel 2.6.13 up to versions before 2.6.17.4, and 2.6.16 before 2.6.16.24, allows a local user to cause a denial of service (disk consumption) and possibly gain privileges via the PR_SET_DUMPABLE argument of the prctl function and a program that causes a core dump file to be created in a directory for which the user does not have permissions.
+
+- [https://github.com/0b0111100/2006](https://github.com/0b0111100/2006) : ![starts](https://img.shields.io/github/stars/0b0111100/2006.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2006.svg)
 
 ## CVE-2006-1236
  Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
