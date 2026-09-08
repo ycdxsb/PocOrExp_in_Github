@@ -97332,6 +97332,11 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/BinRacer/ms08-067](https://github.com/BinRacer/ms08-067) : ![starts](https://img.shields.io/github/stars/BinRacer/ms08-067.svg) ![forks](https://img.shields.io/github/forks/BinRacer/ms08-067.svg)
 
+## CVE-2008-4210
+ fs/open.c in the Linux kernel before 2.6.22 does not properly strip setuid and setgid bits when there is a write to a file, which allows local users to gain the privileges of a different group, and obtain sensitive information or possibly have unspecified other impact, by creating an executable file in a setgid directory through the (1) truncate or (2) ftruncate function in conjunction with memory-mapped I/O.
+
+- [https://github.com/0b0111100/2008](https://github.com/0b0111100/2008) : ![starts](https://img.shields.io/github/stars/0b0111100/2008.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2008.svg)
+
 ## CVE-2008-4109
  A certain Debian patch for OpenSSH before 4.3p2-9etch3 on etch; before 4.6p1-1 on sid and lenny; and on other distributions such as SUSE uses functions that are not async-signal-safe in the signal handler for login timeouts, which allows remote attackers to cause a denial of service (connection slot exhaustion) via multiple login attempts. NOTE: this issue exists because of an incorrect fix for CVE-2006-5051.
 
@@ -97386,10 +97391,17 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/hackingyseguridad/dnspoison](https://github.com/hackingyseguridad/dnspoison) : ![starts](https://img.shields.io/github/stars/hackingyseguridad/dnspoison.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/dnspoison.svg)
 
+## CVE-2008-0900
+ Session fixation vulnerability in BEA WebLogic Server and Express 8.1 SP4 through SP6, 9.2 through MP1, and 10.0 allows remote authenticated users to hijack web sessions via unknown vectors.
+
+- [https://github.com/0b0111100/2008](https://github.com/0b0111100/2008) : ![starts](https://img.shields.io/github/stars/0b0111100/2008.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2008.svg)
+
 ## CVE-2008-0600
  The vmsplice_to_pipe function in Linux kernel 2.6.17 through 2.6.24.1 does not validate a certain userspace pointer before dereference, which allows local users to gain root privileges via crafted arguments in a vmsplice system call, a different vulnerability than CVE-2008-0009 and CVE-2008-0010.
 
 - [https://github.com/hackingyseguridad/root](https://github.com/hackingyseguridad/root) : ![starts](https://img.shields.io/github/stars/hackingyseguridad/root.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/root.svg)
+
+- [https://github.com/0b0111100/2008](https://github.com/0b0111100/2008) : ![starts](https://img.shields.io/github/stars/0b0111100/2008.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2008.svg)
 
 ## CVE-2008-0244
  SAP MaxDB 7.6.03 build 007 and earlier allows remote attackers to execute arbitrary commands via "&&" and other shell metacharacters in exec_sdbinfo and other unspecified commands, which are executed when MaxDB invokes cons.exe.
