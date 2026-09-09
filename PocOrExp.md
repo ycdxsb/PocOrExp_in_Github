@@ -97071,6 +97071,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/M41doror/cve-2010-4221](https://github.com/M41doror/cve-2010-4221) : ![starts](https://img.shields.io/github/stars/M41doror/cve-2010-4221.svg) ![forks](https://img.shields.io/github/forks/M41doror/cve-2010-4221.svg)
 
+- [https://github.com/diegslva/cve-2010-4221-lab](https://github.com/diegslva/cve-2010-4221-lab) : ![starts](https://img.shields.io/github/stars/diegslva/cve-2010-4221-lab.svg) ![forks](https://img.shields.io/github/forks/diegslva/cve-2010-4221-lab.svg)
+
 - [https://github.com/Mafiosohack/Offensive-lab-2](https://github.com/Mafiosohack/Offensive-lab-2) : ![starts](https://img.shields.io/github/stars/Mafiosohack/Offensive-lab-2.svg) ![forks](https://img.shields.io/github/forks/Mafiosohack/Offensive-lab-2.svg)
 
 ## CVE-2010-3971
