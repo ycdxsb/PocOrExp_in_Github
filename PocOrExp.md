@@ -97830,6 +97830,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/AhegaoPsyops/sslWeakness](https://github.com/AhegaoPsyops/sslWeakness) : ![starts](https://img.shields.io/github/stars/AhegaoPsyops/sslWeakness.svg) ![forks](https://img.shields.io/github/forks/AhegaoPsyops/sslWeakness.svg)
 
+- [https://github.com/ethicbrudhack/CVE-2008-0166-BTC-satoshi-mining-wallets](https://github.com/ethicbrudhack/CVE-2008-0166-BTC-satoshi-mining-wallets) : ![starts](https://img.shields.io/github/stars/ethicbrudhack/CVE-2008-0166-BTC-satoshi-mining-wallets.svg) ![forks](https://img.shields.io/github/forks/ethicbrudhack/CVE-2008-0166-BTC-satoshi-mining-wallets.svg)
+
 - [https://github.com/Faizan8232403/CVE-Exploit-Research-Development](https://github.com/Faizan8232403/CVE-Exploit-Research-Development) : ![starts](https://img.shields.io/github/stars/Faizan8232403/CVE-Exploit-Research-Development.svg) ![forks](https://img.shields.io/github/forks/Faizan8232403/CVE-Exploit-Research-Development.svg)
 
 - [https://github.com/QasimShahbaz21/CVE-Exploit-Research-Development](https://github.com/QasimShahbaz21/CVE-Exploit-Research-Development) : ![starts](https://img.shields.io/github/stars/QasimShahbaz21/CVE-Exploit-Research-Development.svg) ![forks](https://img.shields.io/github/forks/QasimShahbaz21/CVE-Exploit-Research-Development.svg)
