@@ -9,6 +9,8 @@
 
 - [https://github.com/micheaol/distccd_rce_CVE-2004-2687](https://github.com/micheaol/distccd_rce_CVE-2004-2687) : ![starts](https://img.shields.io/github/stars/micheaol/distccd_rce_CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/micheaol/distccd_rce_CVE-2004-2687.svg)
 
+- [https://github.com/germarr93/CyberSecurity-Pentest-Lab](https://github.com/germarr93/CyberSecurity-Pentest-Lab) : ![starts](https://img.shields.io/github/stars/germarr93/CyberSecurity-Pentest-Lab.svg) ![forks](https://img.shields.io/github/forks/germarr93/CyberSecurity-Pentest-Lab.svg)
+
 - [https://github.com/nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687](https://github.com/nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687) : ![starts](https://img.shields.io/github/stars/nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687.svg) ![forks](https://img.shields.io/github/forks/nulltrace1336/Metasploitable-2-Distcc-Exploit-via-Kali-Linux-CVE-2004-2687.svg)
 
 - [https://github.com/ocfagb/hacktivity-vulns-exploits-lab](https://github.com/ocfagb/hacktivity-vulns-exploits-lab) : ![starts](https://img.shields.io/github/stars/ocfagb/hacktivity-vulns-exploits-lab.svg) ![forks](https://img.shields.io/github/forks/ocfagb/hacktivity-vulns-exploits-lab.svg)
