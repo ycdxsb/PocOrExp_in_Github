@@ -98490,6 +98490,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-](https://github.com/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-) : ![starts](https://img.shields.io/github/stars/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-.svg) ![forks](https://img.shields.io/github/forks/Youneskc/SMB-Penetration-Testing-NTLM-Relay-Version-2-.svg)
 
+- [https://github.com/ronankongala/metasploit-pentest-report](https://github.com/ronankongala/metasploit-pentest-report) : ![starts](https://img.shields.io/github/stars/ronankongala/metasploit-pentest-report.svg) ![forks](https://img.shields.io/github/forks/ronankongala/metasploit-pentest-report.svg)
+
 - [https://github.com/jaden-mas1010/Metasploitable2-Vulnerability-Assessment](https://github.com/jaden-mas1010/Metasploitable2-Vulnerability-Assessment) : ![starts](https://img.shields.io/github/stars/jaden-mas1010/Metasploitable2-Vulnerability-Assessment.svg) ![forks](https://img.shields.io/github/forks/jaden-mas1010/Metasploitable2-Vulnerability-Assessment.svg)
 
 - [https://github.com/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report](https://github.com/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report) : ![starts](https://img.shields.io/github/stars/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report.svg) ![forks](https://img.shields.io/github/forks/Nyabayo/flatiron-pentest-nmap-enum4linux-smb-ftp-samba-metasploitable2-kali-healthcare-report.svg)
