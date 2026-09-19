@@ -95904,9 +95904,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/YastrebX/CVE-2015-1328](https://github.com/YastrebX/CVE-2015-1328) : ![starts](https://img.shields.io/github/stars/YastrebX/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/YastrebX/CVE-2015-1328.svg)
 
-- [https://github.com/FernandoCassioDev/CVE-2015-1328](https://github.com/FernandoCassioDev/CVE-2015-1328) : ![starts](https://img.shields.io/github/stars/FernandoCassioDev/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/FernandoCassioDev/CVE-2015-1328.svg)
-
 - [https://github.com/BlackFrog-hub/cve-2015-1328](https://github.com/BlackFrog-hub/cve-2015-1328) : ![starts](https://img.shields.io/github/stars/BlackFrog-hub/cve-2015-1328.svg) ![forks](https://img.shields.io/github/forks/BlackFrog-hub/cve-2015-1328.svg)
+
+- [https://github.com/FernandoCassioDev/CVE-2015-1328](https://github.com/FernandoCassioDev/CVE-2015-1328) : ![starts](https://img.shields.io/github/stars/FernandoCassioDev/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/FernandoCassioDev/CVE-2015-1328.svg)
 
 - [https://github.com/WhatsWrongAndWhy/CVE-2015-1328](https://github.com/WhatsWrongAndWhy/CVE-2015-1328) : ![starts](https://img.shields.io/github/stars/WhatsWrongAndWhy/CVE-2015-1328.svg) ![forks](https://img.shields.io/github/forks/WhatsWrongAndWhy/CVE-2015-1328.svg)
 
@@ -95974,9 +95974,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/fser/ghost-checker](https://github.com/fser/ghost-checker) : ![starts](https://img.shields.io/github/stars/fser/ghost-checker.svg) ![forks](https://img.shields.io/github/forks/fser/ghost-checker.svg)
 
-- [https://github.com/arm13/ghost_exploit](https://github.com/arm13/ghost_exploit) : ![starts](https://img.shields.io/github/stars/arm13/ghost_exploit.svg) ![forks](https://img.shields.io/github/forks/arm13/ghost_exploit.svg)
-
 - [https://github.com/gh-ost00/XMLRPC-Ghost](https://github.com/gh-ost00/XMLRPC-Ghost) : ![starts](https://img.shields.io/github/stars/gh-ost00/XMLRPC-Ghost.svg) ![forks](https://img.shields.io/github/forks/gh-ost00/XMLRPC-Ghost.svg)
+
+- [https://github.com/arm13/ghost_exploit](https://github.com/arm13/ghost_exploit) : ![starts](https://img.shields.io/github/stars/arm13/ghost_exploit.svg) ![forks](https://img.shields.io/github/forks/arm13/ghost_exploit.svg)
 
 - [https://github.com/mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook) : ![starts](https://img.shields.io/github/stars/mikesplain/CVE-2015-0235-cookbook.svg) ![forks](https://img.shields.io/github/forks/mikesplain/CVE-2015-0235-cookbook.svg)
 
