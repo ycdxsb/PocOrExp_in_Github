@@ -105,7 +105,7 @@
 ## CVE-2008-1657
  OpenSSH 4.4 up to versions before 4.9 allows remote authenticated users to bypass the sshd_config ForceCommand directive by modifying the .ssh/rc session file.
 
-- [https://github.com/Faizan8232403/CVE-Exploit-Research-Development](https://github.com/Faizan8232403/CVE-Exploit-Research-Development) : ![starts](https://img.shields.io/github/stars/Faizan8232403/CVE-Exploit-Research-Development.svg) ![forks](https://img.shields.io/github/forks/Faizan8232403/CVE-Exploit-Research-Development.svg)
+- [https://github.com/FaizanAli8232/CVE-Exploit-Research-Development](https://github.com/FaizanAli8232/CVE-Exploit-Research-Development) : ![starts](https://img.shields.io/github/stars/FaizanAli8232/CVE-Exploit-Research-Development.svg) ![forks](https://img.shields.io/github/forks/FaizanAli8232/CVE-Exploit-Research-Development.svg)
 
 - [https://github.com/QasimShahbaz21/CVE-Exploit-Research-Development](https://github.com/QasimShahbaz21/CVE-Exploit-Research-Development) : ![starts](https://img.shields.io/github/stars/QasimShahbaz21/CVE-Exploit-Research-Development.svg) ![forks](https://img.shields.io/github/forks/QasimShahbaz21/CVE-Exploit-Research-Development.svg)
 
@@ -161,7 +161,7 @@
 
 - [https://github.com/AhegaoPsyops/sslWeakness](https://github.com/AhegaoPsyops/sslWeakness) : ![starts](https://img.shields.io/github/stars/AhegaoPsyops/sslWeakness.svg) ![forks](https://img.shields.io/github/forks/AhegaoPsyops/sslWeakness.svg)
 
-- [https://github.com/Faizan8232403/CVE-Exploit-Research-Development](https://github.com/Faizan8232403/CVE-Exploit-Research-Development) : ![starts](https://img.shields.io/github/stars/Faizan8232403/CVE-Exploit-Research-Development.svg) ![forks](https://img.shields.io/github/forks/Faizan8232403/CVE-Exploit-Research-Development.svg)
+- [https://github.com/FaizanAli8232/CVE-Exploit-Research-Development](https://github.com/FaizanAli8232/CVE-Exploit-Research-Development) : ![starts](https://img.shields.io/github/stars/FaizanAli8232/CVE-Exploit-Research-Development.svg) ![forks](https://img.shields.io/github/forks/FaizanAli8232/CVE-Exploit-Research-Development.svg)
 
 - [https://github.com/QasimShahbaz21/CVE-Exploit-Research-Development](https://github.com/QasimShahbaz21/CVE-Exploit-Research-Development) : ![starts](https://img.shields.io/github/stars/QasimShahbaz21/CVE-Exploit-Research-Development.svg) ![forks](https://img.shields.io/github/forks/QasimShahbaz21/CVE-Exploit-Research-Development.svg)
 
