@@ -96543,7 +96543,7 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/cved-sources/cve-2015-1427](https://github.com/cved-sources/cve-2015-1427) : ![starts](https://img.shields.io/github/stars/cved-sources/cve-2015-1427.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2015-1427.svg)
 
-- [https://github.com/h3inzzz/cve2015_1427](https://github.com/h3inzzz/cve2015_1427) : ![starts](https://img.shields.io/github/stars/h3inzzz/cve2015_1427.svg) ![forks](https://img.shields.io/github/forks/h3inzzz/cve2015_1427.svg)
+- [https://github.com/shavchen/cve2015_1427](https://github.com/shavchen/cve2015_1427) : ![starts](https://img.shields.io/github/stars/shavchen/cve2015_1427.svg) ![forks](https://img.shields.io/github/forks/shavchen/cve2015_1427.svg)
 
 - [https://github.com/xpgdgit/CVE-2015-1427](https://github.com/xpgdgit/CVE-2015-1427) : ![starts](https://img.shields.io/github/stars/xpgdgit/CVE-2015-1427.svg) ![forks](https://img.shields.io/github/forks/xpgdgit/CVE-2015-1427.svg)
 
