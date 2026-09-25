@@ -99225,6 +99225,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/earthbendergara/unrealircd3.2.8.1-local-exploit](https://github.com/earthbendergara/unrealircd3.2.8.1-local-exploit) : ![starts](https://img.shields.io/github/stars/earthbendergara/unrealircd3.2.8.1-local-exploit.svg) ![forks](https://img.shields.io/github/forks/earthbendergara/unrealircd3.2.8.1-local-exploit.svg)
 
+- [https://github.com/rushikesh-a-bhujbal/CVE-2010-2075](https://github.com/rushikesh-a-bhujbal/CVE-2010-2075) : ![starts](https://img.shields.io/github/stars/rushikesh-a-bhujbal/CVE-2010-2075.svg) ![forks](https://img.shields.io/github/forks/rushikesh-a-bhujbal/CVE-2010-2075.svg)
+
 - [https://github.com/mishaqdev/cve-2010-2075-analysis](https://github.com/mishaqdev/cve-2010-2075-analysis) : ![starts](https://img.shields.io/github/stars/mishaqdev/cve-2010-2075-analysis.svg) ![forks](https://img.shields.io/github/forks/mishaqdev/cve-2010-2075-analysis.svg)
 
 - [https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution) : ![starts](https://img.shields.io/github/stars/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg) ![forks](https://img.shields.io/github/forks/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution.svg)
