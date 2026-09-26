@@ -108,7 +108,7 @@ python3 exp.py -y all -i y
 - 2024-09-01: If you are unable to find the POC/EXP on GitHub, you can also check here: https://pocorexps.nsa.im/
 
 ## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=ycdxsb/PocOrExp_in_Github&type=Date)](https://www.star-history.com/#ycdxsb/PocOrExp_in_Github&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=ycdxsb/PocOrExp_in_Github&type=Date)](https://star-history.dera.page/#ycdxsb/PocOrExp_in_Github&Date)
 
 ## Reference
 - https://github.com/nomi-sec/PoC-in-GitHub
