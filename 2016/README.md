@@ -328,9 +328,9 @@
 
 - [https://github.com/agkunkle/chocobo](https://github.com/agkunkle/chocobo) : ![starts](https://img.shields.io/github/stars/agkunkle/chocobo.svg) ![forks](https://img.shields.io/github/forks/agkunkle/chocobo.svg)
 
-- [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) : ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
-
 - [https://github.com/WhatsWrongAndWhy/CVE-2016-8655](https://github.com/WhatsWrongAndWhy/CVE-2016-8655) : ![starts](https://img.shields.io/github/stars/WhatsWrongAndWhy/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/WhatsWrongAndWhy/CVE-2016-8655.svg)
+
+- [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) : ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
 
 - [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) : ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
 
@@ -770,9 +770,9 @@
 
 - [https://github.com/ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/ASUKA39/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ASUKA39/CVE-2016-5195.svg)
 
-- [https://github.com/xpcmdshell/derpyc0w](https://github.com/xpcmdshell/derpyc0w) : ![starts](https://img.shields.io/github/stars/xpcmdshell/derpyc0w.svg) ![forks](https://img.shields.io/github/forks/xpcmdshell/derpyc0w.svg)
-
 - [https://github.com/ramahmdr/dirtycow](https://github.com/ramahmdr/dirtycow) : ![starts](https://img.shields.io/github/stars/ramahmdr/dirtycow.svg) ![forks](https://img.shields.io/github/forks/ramahmdr/dirtycow.svg)
+
+- [https://github.com/xpcmdshell/derpyc0w](https://github.com/xpcmdshell/derpyc0w) : ![starts](https://img.shields.io/github/stars/xpcmdshell/derpyc0w.svg) ![forks](https://img.shields.io/github/forks/xpcmdshell/derpyc0w.svg)
 
 - [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) : ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
 
@@ -784,9 +784,9 @@
 
 - [https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB](https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB) : ![starts](https://img.shields.io/github/stars/sakilahamed/Linux-Kernel-Exploit-LAB.svg) ![forks](https://img.shields.io/github/forks/sakilahamed/Linux-Kernel-Exploit-LAB.svg)
 
-- [https://github.com/vinspiert/scumjrs](https://github.com/vinspiert/scumjrs) : ![starts](https://img.shields.io/github/stars/vinspiert/scumjrs.svg) ![forks](https://img.shields.io/github/forks/vinspiert/scumjrs.svg)
-
 - [https://github.com/passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs) : ![starts](https://img.shields.io/github/stars/passionchenjianyegmail8/scumjrs.svg) ![forks](https://img.shields.io/github/forks/passionchenjianyegmail8/scumjrs.svg)
+
+- [https://github.com/vinspiert/scumjrs](https://github.com/vinspiert/scumjrs) : ![starts](https://img.shields.io/github/stars/vinspiert/scumjrs.svg) ![forks](https://img.shields.io/github/forks/vinspiert/scumjrs.svg)
 
 - [https://github.com/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm](https://github.com/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm) : ![starts](https://img.shields.io/github/stars/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm.svg) ![forks](https://img.shields.io/github/forks/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm.svg)
 
