@@ -39,8 +39,6 @@
 
 - [https://github.com/KernelPan1k/trans2open-CVE-2003-0201](https://github.com/KernelPan1k/trans2open-CVE-2003-0201) : ![starts](https://img.shields.io/github/stars/KernelPan1k/trans2open-CVE-2003-0201.svg) ![forks](https://img.shields.io/github/forks/KernelPan1k/trans2open-CVE-2003-0201.svg)
 
-- [https://github.com/Bakr-Ht/samba-trans2open-exploit-report](https://github.com/Bakr-Ht/samba-trans2open-exploit-report) : ![starts](https://img.shields.io/github/stars/Bakr-Ht/samba-trans2open-exploit-report.svg) ![forks](https://img.shields.io/github/forks/Bakr-Ht/samba-trans2open-exploit-report.svg)
-
 - [https://github.com/americooo/pentest-writeups](https://github.com/americooo/pentest-writeups) : ![starts](https://img.shields.io/github/stars/americooo/pentest-writeups.svg) ![forks](https://img.shields.io/github/forks/americooo/pentest-writeups.svg)
 
 - [https://github.com/deepakkcybersec-eng/Kioptrix-Level1-Vulnerability-Analysis](https://github.com/deepakkcybersec-eng/Kioptrix-Level1-Vulnerability-Analysis) : ![starts](https://img.shields.io/github/stars/deepakkcybersec-eng/Kioptrix-Level1-Vulnerability-Analysis.svg) ![forks](https://img.shields.io/github/forks/deepakkcybersec-eng/Kioptrix-Level1-Vulnerability-Analysis.svg)
