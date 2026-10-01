@@ -167,9 +167,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/ksgassama-lab/vulnerability-remediation-cve-2013-3900](https://github.com/ksgassama-lab/vulnerability-remediation-cve-2013-3900) : ![starts](https://img.shields.io/github/stars/ksgassama-lab/vulnerability-remediation-cve-2013-3900.svg) ![forks](https://img.shields.io/github/forks/ksgassama-lab/vulnerability-remediation-cve-2013-3900.svg)
 
-- [https://github.com/SDimitri05/cve-2013-3900-winverifytrust-mitigation](https://github.com/SDimitri05/cve-2013-3900-winverifytrust-mitigation) : ![starts](https://img.shields.io/github/stars/SDimitri05/cve-2013-3900-winverifytrust-mitigation.svg) ![forks](https://img.shields.io/github/forks/SDimitri05/cve-2013-3900-winverifytrust-mitigation.svg)
-
 - [https://github.com/malaya-m/cve-2013-3900-remediation-report](https://github.com/malaya-m/cve-2013-3900-remediation-report) : ![starts](https://img.shields.io/github/stars/malaya-m/cve-2013-3900-remediation-report.svg) ![forks](https://img.shields.io/github/forks/malaya-m/cve-2013-3900-remediation-report.svg)
+
+- [https://github.com/SDimitri05/cve-2013-3900-winverifytrust-mitigation](https://github.com/SDimitri05/cve-2013-3900-winverifytrust-mitigation) : ![starts](https://img.shields.io/github/stars/SDimitri05/cve-2013-3900-winverifytrust-mitigation.svg) ![forks](https://img.shields.io/github/forks/SDimitri05/cve-2013-3900-winverifytrust-mitigation.svg)
 
 - [https://github.com/AdenilsonSantos/WinVerifyTrust](https://github.com/AdenilsonSantos/WinVerifyTrust) : ![starts](https://img.shields.io/github/stars/AdenilsonSantos/WinVerifyTrust.svg) ![forks](https://img.shields.io/github/forks/AdenilsonSantos/WinVerifyTrust.svg)
 
@@ -259,7 +259,7 @@ Exploitation of this vulnerability requires that a user or application run or in
 ## CVE-2013-2251
  Apache Struts 2.0.0 through 2.3.15 allows remote attackers to execute arbitrary OGNL expressions via a parameter with a crafted (1) action:, (2) redirect:, or (3) redirectAction: prefix.
 
-- [https://github.com/nth347/CVE-2013-2251](https://github.com/nth347/CVE-2013-2251) : ![starts](https://img.shields.io/github/stars/nth347/CVE-2013-2251.svg) ![forks](https://img.shields.io/github/forks/nth347/CVE-2013-2251.svg)
+- [https://github.com/nth347/struts2-CVE-2013-2251](https://github.com/nth347/struts2-CVE-2013-2251) : ![starts](https://img.shields.io/github/stars/nth347/struts2-CVE-2013-2251.svg) ![forks](https://img.shields.io/github/forks/nth347/struts2-CVE-2013-2251.svg)
 
 ## CVE-2013-2217
  cache.py in Suds 0.4, when tempdir is set to None, allows local users to redirect SOAP queries and possibly have other unspecified impact via a symlink attack on a cache file with a predictable name in /tmp/suds/.
