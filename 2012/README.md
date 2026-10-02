@@ -222,8 +222,6 @@
 
 - [https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122) : ![starts](https://img.shields.io/github/stars/cyberharsh/Oracle-mysql-CVE-2012-2122.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Oracle-mysql-CVE-2012-2122.svg)
 
-- [https://github.com/K3ysTr0K3R/CVE-2012-2122](https://github.com/K3ysTr0K3R/CVE-2012-2122) : ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2012-2122.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2012-2122.svg)
-
 - [https://github.com/zhangkaibin0921/CVE-2012-2122](https://github.com/zhangkaibin0921/CVE-2012-2122) : ![starts](https://img.shields.io/github/stars/zhangkaibin0921/CVE-2012-2122.svg) ![forks](https://img.shields.io/github/forks/zhangkaibin0921/CVE-2012-2122.svg)
 
 - [https://github.com/subinyy/docker_CVE_2012_2122](https://github.com/subinyy/docker_CVE_2012_2122) : ![starts](https://img.shields.io/github/stars/subinyy/docker_CVE_2012_2122.svg) ![forks](https://img.shields.io/github/forks/subinyy/docker_CVE_2012_2122.svg)
@@ -270,8 +268,6 @@
 - [https://github.com/Dmitri131313/CVE-2012-1823-exploit-for-https-user-password-web](https://github.com/Dmitri131313/CVE-2012-1823-exploit-for-https-user-password-web) : ![starts](https://img.shields.io/github/stars/Dmitri131313/CVE-2012-1823-exploit-for-https-user-password-web.svg) ![forks](https://img.shields.io/github/forks/Dmitri131313/CVE-2012-1823-exploit-for-https-user-password-web.svg)
 
 - [https://github.com/hackherMind-Pixel/Vulnerable-Lab-Exploitation](https://github.com/hackherMind-Pixel/Vulnerable-Lab-Exploitation) : ![starts](https://img.shields.io/github/stars/hackherMind-Pixel/Vulnerable-Lab-Exploitation.svg) ![forks](https://img.shields.io/github/forks/hackherMind-Pixel/Vulnerable-Lab-Exploitation.svg)
-
-- [https://github.com/K3ysTr0K3R/CVE-2012-1823](https://github.com/K3ysTr0K3R/CVE-2012-1823) : ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2012-1823.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2012-1823.svg)
 
 - [https://github.com/Jimmy01240397/CVE-2012-1823-Analyze](https://github.com/Jimmy01240397/CVE-2012-1823-Analyze) : ![starts](https://img.shields.io/github/stars/Jimmy01240397/CVE-2012-1823-Analyze.svg) ![forks](https://img.shields.io/github/forks/Jimmy01240397/CVE-2012-1823-Analyze.svg)
 
