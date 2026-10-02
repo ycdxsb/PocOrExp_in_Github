@@ -28,11 +28,6 @@
 
 - [https://github.com/grzegorzblaszczyk/CVE-2010-4476-check](https://github.com/grzegorzblaszczyk/CVE-2010-4476-check) : ![starts](https://img.shields.io/github/stars/grzegorzblaszczyk/CVE-2010-4476-check.svg) ![forks](https://img.shields.io/github/forks/grzegorzblaszczyk/CVE-2010-4476-check.svg)
 
-## CVE-2010-4231
- Directory traversal vulnerability in the web-based administration interface on the Camtron CMNC-200 Full HD IP Camera and TecVoz CMNC-200 Megapixel IP Camera with firmware 1.102A-008 allows remote attackers to read arbitrary files via a .. (dot dot) in the URI.
-
-- [https://github.com/K3ysTr0K3R/CVE-2010-4231-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2010-4231-EXPLOIT) : ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2010-4231-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2010-4231-EXPLOIT.svg)
-
 ## CVE-2010-4221
  Multiple stack-based buffer overflows in the pr_netio_telnet_gets function in netio.c in ProFTPD before 1.3.3c allow remote attackers to execute arbitrary code via vectors involving a TELNET IAC escape character to a (1) FTP or (2) FTPS server.
 
