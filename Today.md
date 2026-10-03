@@ -1,344 +1,332 @@
-# Update 2026-10-02
-## CVE-2026-103446
-This issue affects MediaWiki WikiLambda extension: 1.46.
+# Update 2026-10-03
+## CVE-2026-104286
+ An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9 may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.
 
-- [https://github.com/BomboBombone/CVE-2026-103446](https://github.com/BomboBombone/CVE-2026-103446) :  ![starts](https://img.shields.io/github/stars/BomboBombone/CVE-2026-103446.svg) ![forks](https://img.shields.io/github/forks/BomboBombone/CVE-2026-103446.svg)
-
-
-## CVE-2026-103445
-This issue affects MediaWiki Page_Forms extension: 1.46, 1.45, and 1.43.
-
-- [https://github.com/BomboBombone/CVE-2026-103445](https://github.com/BomboBombone/CVE-2026-103445) :  ![starts](https://img.shields.io/github/stars/BomboBombone/CVE-2026-103445.svg) ![forks](https://img.shields.io/github/forks/BomboBombone/CVE-2026-103445.svg)
+- [https://github.com/ShadowForge-Cyber/CVE-2026-104286-POC](https://github.com/ShadowForge-Cyber/CVE-2026-104286-POC) :  ![starts](https://img.shields.io/github/stars/ShadowForge-Cyber/CVE-2026-104286-POC.svg) ![forks](https://img.shields.io/github/forks/ShadowForge-Cyber/CVE-2026-104286-POC.svg)
 
 
-## CVE-2026-103442
-This issue affects MediaWiki CentralAuth extension: 1.46, 1.45, and 1.43.
+## CVE-2026-103585
+This issue affects MediaWiki MediaSearch extension: 1.46, 1.45, and 1.43.
 
-- [https://github.com/BomboBombone/CVE-2026-103442](https://github.com/BomboBombone/CVE-2026-103442) :  ![starts](https://img.shields.io/github/stars/BomboBombone/CVE-2026-103442.svg) ![forks](https://img.shields.io/github/forks/BomboBombone/CVE-2026-103442.svg)
-
-
-## CVE-2026-103441
-This issue affects MediaWiki Wikibase extension: 1.46, 1.45, and 1.43.
-
-- [https://github.com/BomboBombone/CVE-2026-103441](https://github.com/BomboBombone/CVE-2026-103441) :  ![starts](https://img.shields.io/github/stars/BomboBombone/CVE-2026-103441.svg) ![forks](https://img.shields.io/github/forks/BomboBombone/CVE-2026-103441.svg)
+- [https://github.com/BomboBombone/CVE-2026-103585](https://github.com/BomboBombone/CVE-2026-103585) :  ![starts](https://img.shields.io/github/stars/BomboBombone/CVE-2026-103585.svg) ![forks](https://img.shields.io/github/forks/BomboBombone/CVE-2026-103585.svg)
 
 
-## CVE-2026-103440
-This issue affects MediaWiki PageTriage extension: 1.46, 1.45, and 1.43.
+## CVE-2026-103584
+This issue affects MediaWiki CommonsMetadata extension: 1.46, 1.45, and 1.43.
 
-- [https://github.com/BomboBombone/CVE-2026-103440](https://github.com/BomboBombone/CVE-2026-103440) :  ![starts](https://img.shields.io/github/stars/BomboBombone/CVE-2026-103440.svg) ![forks](https://img.shields.io/github/forks/BomboBombone/CVE-2026-103440.svg)
-
-
-## CVE-2026-103437
-This issue affects MediaWiki ReadingLists extension: 1.46 and 1.45.
-
-- [https://github.com/BomboBombone/CVE-2026-103437](https://github.com/BomboBombone/CVE-2026-103437) :  ![starts](https://img.shields.io/github/stars/BomboBombone/CVE-2026-103437.svg) ![forks](https://img.shields.io/github/forks/BomboBombone/CVE-2026-103437.svg)
-
-
-## CVE-2026-102427
- Joomla Extension - ordasoft.com - Unauthenticated Remote Code Execution in OrdaSoft Joomla CCK  8.3.16 - site/uploader.php is reached through the component’s normal frontend routing (task=getContent), a task with no authentication or ACL check anywhere in the dispatch chain. The handler validates the uploaded file’s content with a real magic-byte MIME check, but the extension allow-list that would otherwise restrict the saved file’s extension was present in the source and commented out. The saved file’s extension was taken directly from the attacker-supplied filename with no validation, and the file was written to a path directly under the Joomla web root that is executed by the PHP handler. An image/PHP polyglot, a file whose header bytes satisfy the MIME check with PHP source appended after, passed the content check while carrying a .php extension of the attacker’s choosing.
-
-- [https://github.com/murrez/CVE-2026-102427](https://github.com/murrez/CVE-2026-102427) :  ![starts](https://img.shields.io/github/stars/murrez/CVE-2026-102427.svg) ![forks](https://img.shields.io/github/forks/murrez/CVE-2026-102427.svg)
+- [https://github.com/BomboBombone/CVE-2026-103584](https://github.com/BomboBombone/CVE-2026-103584) :  ![starts](https://img.shields.io/github/stars/BomboBombone/CVE-2026-103584.svg) ![forks](https://img.shields.io/github/forks/BomboBombone/CVE-2026-103584.svg)
 
 
 ## CVE-2026-102425
  Joomla Extension - balbooa.com - Unauthenticated RCE via field shortcode injection in Balbooa Forms  2.4.3.4 - Balbooa Forms supports administrator-defined PHP code which runs after a public form submission. The feature also supports form-field shortcodes inside that PHP. Before calling `eval()`, the component replaces each shortcode with the raw value submitted by the visitor, leading to an RCE vector. A public form must use the product's optional PHP-after-submission action and interpolate an attacker-controlled field shortcode inside a double-quoted PHP string to be vulnerable.
 
-- [https://github.com/murrez/CVE-2026-102425](https://github.com/murrez/CVE-2026-102425) :  ![starts](https://img.shields.io/github/stars/murrez/CVE-2026-102425.svg) ![forks](https://img.shields.io/github/forks/murrez/CVE-2026-102425.svg)
+- [https://github.com/tonydelouvre/CVE-2026-102425](https://github.com/tonydelouvre/CVE-2026-102425) :  ![starts](https://img.shields.io/github/stars/tonydelouvre/CVE-2026-102425.svg) ![forks](https://img.shields.io/github/forks/tonydelouvre/CVE-2026-102425.svg)
 
 
-## CVE-2026-97347
- The Post Views Stats Counter plugin for WordPress is vulnerable to Stored Cross-Site Scripting via User-Agent Header in all versions up to, and including, 1.1.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The plugin's only input filter is a substring blacklist for known bot signatures (e.g. 'bot', 'spider', 'crawler'), which can be trivially bypassed by crafting a User-Agent payload that omits those strings.
+## CVE-2026-100671
+ Grav is a flat-file CMS. In versions 2.0.19 through 2.0.24 — and in 2.0.0 through 2.0.18 and 1.7.x only where content Twig has been explicitly enabled — page content authored by a user holding only page-write permission is rendered through a Twig sandbox that allowlists get_cookie(), which returns any cookie sent with the current request, including the visitor's session cookie. Because the read occurs server-side via filter_input(INPUT_COOKIE, ...), the HttpOnly, Secure and SameSite attributes offer no protection. Grav then stores the finished post-Twig output in a page-content cache keyed only on page identity and the configuration checksum, with no session, user or request dimension and no bypass for authenticated visitors. A page published by a page-write user can therefore capture the session identifier of the next administrator who views it, after which the cached output serves that identifier to unauthenticated visitors, who can replay the cookie to authenticate as that administrator. Since 2.0.19, security.twig_content.process_enabled defaults to true and Security::applyTwigContentDefault() derives each page's process.twig flag from that gate, so content Twig runs on every page with no frontmatter or operator action. Fixed in 2.0.25; 1.7.x is outside the backport scope.
 
-- [https://github.com/JailBr3ak/CVE-2026-97347](https://github.com/JailBr3ak/CVE-2026-97347) :  ![starts](https://img.shields.io/github/stars/JailBr3ak/CVE-2026-97347.svg) ![forks](https://img.shields.io/github/forks/JailBr3ak/CVE-2026-97347.svg)
-
-
-## CVE-2026-96760
- Authlib (v1.7.2 and below) contains a signature verification bypass vulnerability. The JsonWebSignature.deserialize_json() method accepts a JSON Serialization JWS object and returns the payload as successfully verified without checking for a signature and without requiring a cryptographic key.
-
-- [https://github.com/uziii2208/CVE-2026-96760](https://github.com/uziii2208/CVE-2026-96760) :  ![starts](https://img.shields.io/github/stars/uziii2208/CVE-2026-96760.svg) ![forks](https://img.shields.io/github/forks/uziii2208/CVE-2026-96760.svg)
+- [https://github.com/canhieu/cve-2026-100671-poc](https://github.com/canhieu/cve-2026-100671-poc) :  ![starts](https://img.shields.io/github/stars/canhieu/cve-2026-100671-poc.svg) ![forks](https://img.shields.io/github/forks/canhieu/cve-2026-100671-poc.svg)
 
 
-## CVE-2026-94545
- Satori is a library to convert HTML and CSS to SVG. Starting in version 0.0.27 and prior to version 0.33.5, Satori does not properly escape certain values before including them in generated SVG output. This can allow crafted values to be interpreted as SVG markup. The impact depends on how the generated SVG is consumed. Version 0.33.5 contains a patch. No complete workaround exists besides upgrading. Applications that cannot immediately upgrade should not render attacker-controlled content with Satori.
+## CVE-2026-97163
+ Joomla Extension - lomart.fr - Unauthenticated remote code installation in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29
 
-- [https://github.com/EQSTLab/CVE-2026-94545](https://github.com/EQSTLab/CVE-2026-94545) :  ![starts](https://img.shields.io/github/stars/EQSTLab/CVE-2026-94545.svg) ![forks](https://img.shields.io/github/forks/EQSTLab/CVE-2026-94545.svg)
-- [https://github.com/MRdark-ops/CVE-2026-94545-](https://github.com/MRdark-ops/CVE-2026-94545-) :  ![starts](https://img.shields.io/github/stars/MRdark-ops/CVE-2026-94545-.svg) ![forks](https://img.shields.io/github/forks/MRdark-ops/CVE-2026-94545-.svg)
-- [https://github.com/HORKimhab/CVE-2026-94545](https://github.com/HORKimhab/CVE-2026-94545) :  ![starts](https://img.shields.io/github/stars/HORKimhab/CVE-2026-94545.svg) ![forks](https://img.shields.io/github/forks/HORKimhab/CVE-2026-94545.svg)
-- [https://github.com/Hassham1/CVE-2026-94545-nextjs-og-poc](https://github.com/Hassham1/CVE-2026-94545-nextjs-og-poc) :  ![starts](https://img.shields.io/github/stars/Hassham1/CVE-2026-94545-nextjs-og-poc.svg) ![forks](https://img.shields.io/github/forks/Hassham1/CVE-2026-94545-nextjs-og-poc.svg)
-- [https://github.com/mhtsec/CVE-2026-94545](https://github.com/mhtsec/CVE-2026-94545) :  ![starts](https://img.shields.io/github/stars/mhtsec/CVE-2026-94545.svg) ![forks](https://img.shields.io/github/forks/mhtsec/CVE-2026-94545.svg)
+- [https://github.com/kize7/cve-2026-97163-payload](https://github.com/kize7/cve-2026-97163-payload) :  ![starts](https://img.shields.io/github/stars/kize7/cve-2026-97163-payload.svg) ![forks](https://img.shields.io/github/forks/kize7/cve-2026-97163-payload.svg)
+
+
+## CVE-2026-96349
+ Unauthenticated Remote Code Execution (RCE) in SiteSkite = 2.1.8 versions.
+
+- [https://github.com/murrez/CVE-2026-96349](https://github.com/murrez/CVE-2026-96349) :  ![starts](https://img.shields.io/github/stars/murrez/CVE-2026-96349.svg) ![forks](https://img.shields.io/github/forks/murrez/CVE-2026-96349.svg)
+
+
+## CVE-2026-93616
+ A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute arbitrary scripts on Check Point Management Server.
+
+- [https://github.com/BishopFox/CVE-2026-93616-check](https://github.com/BishopFox/CVE-2026-93616-check) :  ![starts](https://img.shields.io/github/stars/BishopFox/CVE-2026-93616-check.svg) ![forks](https://img.shields.io/github/forks/BishopFox/CVE-2026-93616-check.svg)
+
+
+## CVE-2026-92966
+ The The Appointment Booking Plugin – LatePoint | Calendar & Scheduling for WordPress plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 5.7.0. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes. The payload is planted during the unauthenticated booking flow and triggered when the Customer Cabinet block rendered by render_customer_dashboard() outputs the stored name into the content stream, where WordPress core's do_shortcode filter at priority 11 re-parses and executes it.
+
+- [https://github.com/murrez/CVE-2026-92966](https://github.com/murrez/CVE-2026-92966) :  ![starts](https://img.shields.io/github/stars/murrez/CVE-2026-92966.svg) ![forks](https://img.shields.io/github/forks/murrez/CVE-2026-92966.svg)
+
+
+## CVE-2026-92099
+ The WPGraphQL Smart Cache WordPress plugin before 2.3.2 does not require authorisation or validate a caller-supplied query identifier before storing a persisted query from a request, allowing unauthenticated users to publish arbitrary query documents and claim query aliases before a site's own frontend registers them.
+
+- [https://github.com/MS-0x404/CVE-2026-92099](https://github.com/MS-0x404/CVE-2026-92099) :  ![starts](https://img.shields.io/github/stars/MS-0x404/CVE-2026-92099.svg) ![forks](https://img.shields.io/github/forks/MS-0x404/CVE-2026-92099.svg)
+
+
+## CVE-2026-90907
+ Joomla! Core - [20260902] - Core - Unauthorized user account creation via profile.save controller in Joomla 1.5.0-5.4.8, 6.0.0-6.1.3 - The profile.save controller did not check the login state of a user, allowing the creation of guest-level users on sites without active user registration.
+
+- [https://github.com/aorozco-sys/CVE-2026-90907](https://github.com/aorozco-sys/CVE-2026-90907) :  ![starts](https://img.shields.io/github/stars/aorozco-sys/CVE-2026-90907.svg) ![forks](https://img.shields.io/github/forks/aorozco-sys/CVE-2026-90907.svg)
+
+
+## CVE-2026-90817
+ An unauthenticated Remote Code Execution vulnerability was found in the survey passthrough routing and Data Import processing logic, in which a malicious user could potentially exploit it by manipulating HTTP requests to access an unintended controller route from a public survey context and by supplying a crafted file-path/stream parameter during import handling. If successfully exploited, this could allow the attacker to remotely execute arbitrary code on the REDCap server. The attacker does not have to be authenticated in order to exploit this, but exploitation requires knowledge of a valid public survey hash. This vulnerability exists in REDCap 13.3.0 and higher.
+
+- [https://github.com/securifera/CVE-2026-90817](https://github.com/securifera/CVE-2026-90817) :  ![starts](https://img.shields.io/github/stars/securifera/CVE-2026-90817.svg) ![forks](https://img.shields.io/github/forks/securifera/CVE-2026-90817.svg)
+
+
+## CVE-2026-88996
+ The WPForms – AI Form Builder for WordPress – Contact Forms, Payment Forms, Survey Form, Quiz & More plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via 'page_title' POST Parameter via {page_title} Smart Tag in all versions up to, and including, 2.0.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link. This is only exploitable on forms whose admin-authored confirmation message places the {page_title} Smart Tag inside an HTML attribute context.
+
+- [https://github.com/dorkerdevil/wpforms-xss-fix-bypass](https://github.com/dorkerdevil/wpforms-xss-fix-bypass) :  ![starts](https://img.shields.io/github/stars/dorkerdevil/wpforms-xss-fix-bypass.svg) ![forks](https://img.shields.io/github/forks/dorkerdevil/wpforms-xss-fix-bypass.svg)
+
+
+## CVE-2026-88789
+Users are recommended to upgrade to version 3.33.3 or 3.40.0, which fixes this issue.
+
+- [https://github.com/oscerd/CVE-2026-88789](https://github.com/oscerd/CVE-2026-88789) :  ![starts](https://img.shields.io/github/stars/oscerd/CVE-2026-88789.svg) ![forks](https://img.shields.io/github/forks/oscerd/CVE-2026-88789.svg)
+
+
+## CVE-2026-88778
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23.
+
+- [https://github.com/bkchaudhari/NetScaler-CTX697096-Assessment-Script](https://github.com/bkchaudhari/NetScaler-CTX697096-Assessment-Script) :  ![starts](https://img.shields.io/github/stars/bkchaudhari/NetScaler-CTX697096-Assessment-Script.svg) ![forks](https://img.shields.io/github/forks/bkchaudhari/NetScaler-CTX697096-Assessment-Script.svg)
+
+
+## CVE-2026-88772
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to Remote Code Execution or Denial of Service
+
+- [https://github.com/emilstahl/pitscaler](https://github.com/emilstahl/pitscaler) :  ![starts](https://img.shields.io/github/stars/emilstahl/pitscaler.svg) ![forks](https://img.shields.io/github/forks/emilstahl/pitscaler.svg)
 
 
 ## CVE-2026-88771
 This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.
 
-- [https://github.com/craigsblackie/cve-2026-88771-netscaler](https://github.com/craigsblackie/cve-2026-88771-netscaler) :  ![starts](https://img.shields.io/github/stars/craigsblackie/cve-2026-88771-netscaler.svg) ![forks](https://img.shields.io/github/forks/craigsblackie/cve-2026-88771-netscaler.svg)
+- [https://github.com/emilstahl/pitscaler](https://github.com/emilstahl/pitscaler) :  ![starts](https://img.shields.io/github/stars/emilstahl/pitscaler.svg) ![forks](https://img.shields.io/github/forks/emilstahl/pitscaler.svg)
+- [https://github.com/bkchaudhari/NetScaler-CTX697096-Assessment-Script](https://github.com/bkchaudhari/NetScaler-CTX697096-Assessment-Script) :  ![starts](https://img.shields.io/github/stars/bkchaudhari/NetScaler-CTX697096-Assessment-Script.svg) ![forks](https://img.shields.io/github/forks/bkchaudhari/NetScaler-CTX697096-Assessment-Script.svg)
 
 
-## CVE-2026-87004
- Tugtainer is a self-hosted app for automating updates of Docker containers. Prior to version 1.31.3, when the OIDC login flow completes, backend/modules/auth/providers/auth_oidc_provider.py decodes the id_token returned by the identity provider's token endpoint using jose.jwt.get_unverified_claims() instead of jwt.decode(). This skips signature verification, audience (aud) validation, issuer (iss) validation, and expiry (exp) checking entirely. The extracted claims (email/sub/preferred_username) are then used directly as the user_id for the resulting Tugtainer session. This issue has been patched in version 1.31.3.
+## CVE-2026-86950
+ An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 26.7.1 and iPadOS 26.7.1, macOS Sequoia 15.8.1, macOS Tahoe 26.7.1. Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27.
 
-- [https://github.com/squeeze440/tugtainer-PoC](https://github.com/squeeze440/tugtainer-PoC) :  ![starts](https://img.shields.io/github/stars/squeeze440/tugtainer-PoC.svg) ![forks](https://img.shields.io/github/forks/squeeze440/tugtainer-PoC.svg)
-
-
-## CVE-2026-86595
-This issue affects enVision: before 260655.
-
-- [https://github.com/Hasanuyarrr/CVE-2026-86595-Iron-Mountain-enVision-EBYSde-Kimlik-Dogrulamal-SQL-Enjeksiyonu-Zafiyeti](https://github.com/Hasanuyarrr/CVE-2026-86595-Iron-Mountain-enVision-EBYSde-Kimlik-Dogrulamal-SQL-Enjeksiyonu-Zafiyeti) :  ![starts](https://img.shields.io/github/stars/Hasanuyarrr/CVE-2026-86595-Iron-Mountain-enVision-EBYSde-Kimlik-Dogrulamal-SQL-Enjeksiyonu-Zafiyeti.svg) ![forks](https://img.shields.io/github/forks/Hasanuyarrr/CVE-2026-86595-Iron-Mountain-enVision-EBYSde-Kimlik-Dogrulamal-SQL-Enjeksiyonu-Zafiyeti.svg)
+- [https://github.com/msuiche/hotcell](https://github.com/msuiche/hotcell) :  ![starts](https://img.shields.io/github/stars/msuiche/hotcell.svg) ![forks](https://img.shields.io/github/forks/msuiche/hotcell.svg)
 
 
-## CVE-2026-85706
- GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 18.11.12, 19.0 before 19.0.9, 19.1 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that, under certain conditions, an unauthenticated user could have read arbitrary files from the GitLab server due to improper path confinement and missing authentication enforcement in the repository commits API.
+## CVE-2026-62146
+ A trust-boundary flaw in CRI-O's sandbox state persistence allows attacker-influenced pod metadata to overwrite CRI-O's own reserved sandbox bookkeeping; once reloaded as trusted after a restart, a later container recreate in that sandbox can expose a host-side runtime-management resource inside the container, enabling container escape.
 
-- [https://github.com/wuyou6956-glitch/cve-2026-85706](https://github.com/wuyou6956-glitch/cve-2026-85706) :  ![starts](https://img.shields.io/github/stars/wuyou6956-glitch/cve-2026-85706.svg) ![forks](https://img.shields.io/github/forks/wuyou6956-glitch/cve-2026-85706.svg)
-
-
-## CVE-2026-80444
-This issue affects AVESİS: from 202608201331 before 202608240351.
-
-- [https://github.com/Hasanuyarrr/CVE-2026-80444-Avesis-Uygulamasinda-Open-Redirect-Zafiyeti](https://github.com/Hasanuyarrr/CVE-2026-80444-Avesis-Uygulamasinda-Open-Redirect-Zafiyeti) :  ![starts](https://img.shields.io/github/stars/Hasanuyarrr/CVE-2026-80444-Avesis-Uygulamasinda-Open-Redirect-Zafiyeti.svg) ![forks](https://img.shields.io/github/forks/Hasanuyarrr/CVE-2026-80444-Avesis-Uygulamasinda-Open-Redirect-Zafiyeti.svg)
+- [https://github.com/TeamN4C/SG-2026-0026](https://github.com/TeamN4C/SG-2026-0026) :  ![starts](https://img.shields.io/github/stars/TeamN4C/SG-2026-0026.svg) ![forks](https://img.shields.io/github/forks/TeamN4C/SG-2026-0026.svg)
 
 
-## CVE-2026-76570
- Joomla Extension - joomcode.com - Unauthenticated SQL injection in read and write queries in JCTables  1.21.1 - The front-end CRUD API controller performs no Joomla token validation and no authentication check on any task. Table names, column names, and values are taken directly from request parameters and concatenated into SQL queries, allowing SQLi for reading and writing queries.
+## CVE-2026-62059
+ Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Ultimate Member Ultimate Member ultimate-member allows Blind SQL Injection.This issue affects Ultimate Member: from n/a through 2.13.1.
 
-- [https://github.com/murrez/CVE-2026-76570](https://github.com/murrez/CVE-2026-76570) :  ![starts](https://img.shields.io/github/stars/murrez/CVE-2026-76570.svg) ![forks](https://img.shields.io/github/forks/murrez/CVE-2026-76570.svg)
-
-
-## CVE-2026-76504
-This vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user.
-
-- [https://github.com/ShadowForge-Cyber/CVE-2026-76504-Proof-of-concept](https://github.com/ShadowForge-Cyber/CVE-2026-76504-Proof-of-concept) :  ![starts](https://img.shields.io/github/stars/ShadowForge-Cyber/CVE-2026-76504-Proof-of-concept.svg) ![forks](https://img.shields.io/github/forks/ShadowForge-Cyber/CVE-2026-76504-Proof-of-concept.svg)
+- [https://github.com/Hassham1/CVE-2026-62059-ultimate-member-sqli-poc](https://github.com/Hassham1/CVE-2026-62059-ultimate-member-sqli-poc) :  ![starts](https://img.shields.io/github/stars/Hassham1/CVE-2026-62059-ultimate-member-sqli-poc.svg) ![forks](https://img.shields.io/github/forks/Hassham1/CVE-2026-62059-ultimate-member-sqli-poc.svg)
 
 
-## CVE-2026-73570
- A remote code execution vulnerability exists in Zimbra Collaboration (ZCS) before 10.1.20 when the optional zimbra-snmp package is installed and SNMP notifications are enabled. Due to improper sanitization of untrusted input during SNMP notification processing, an unauthenticated attacker can send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra user.
+## CVE-2026-59310
+ VMware vCenter contains a directory traversal vulnerability in the Syslog server. A malicious actor with network access to vCenter may exploit this issue to execute arbitrary code.
 
-- [https://github.com/0xBlackash/CVE-2026-73570](https://github.com/0xBlackash/CVE-2026-73570) :  ![starts](https://img.shields.io/github/stars/0xBlackash/CVE-2026-73570.svg) ![forks](https://img.shields.io/github/forks/0xBlackash/CVE-2026-73570.svg)
-
-
-## CVE-2026-72018
-check before the memcpy to reject such requests with -EINVAL.
-
-- [https://github.com/0xBlackash/CVE-2026-72018](https://github.com/0xBlackash/CVE-2026-72018) :  ![starts](https://img.shields.io/github/stars/0xBlackash/CVE-2026-72018.svg) ![forks](https://img.shields.io/github/forks/0xBlackash/CVE-2026-72018.svg)
+- [https://github.com/chu0119/vc-strike](https://github.com/chu0119/vc-strike) :  ![starts](https://img.shields.io/github/stars/chu0119/vc-strike.svg) ![forks](https://img.shields.io/github/forks/chu0119/vc-strike.svg)
 
 
-## CVE-2026-62308
- Tugtainer is a self-hosted app for automating updates of Docker containers. Prior to version 1.30.6, Tugtainer allows an authenticated user to make the backend server send outbound HTTP requests to arbitrary user-supplied URLs through the notification test endpoint. The /settings/test_notification endpoint accepts a urls field and passes it directly to Apprise without restricting protocols, hostnames, localhost addresses, private IP ranges, or cloud metadata addresses. This can be abused as an authenticated blind server-side request forgery (SSRF). This issue has been patched in version 1.30.6.
+## CVE-2026-59309
+ VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. A malicious actor with network access to vCenter may exploit this issue to bypass authentication and gain unauthorized access to the system.
 
-- [https://github.com/4qu4r1um/tugtainer-1.30.2-CVE-2026-55494-and-CVE-2026-62308-to-RCE](https://github.com/4qu4r1um/tugtainer-1.30.2-CVE-2026-55494-and-CVE-2026-62308-to-RCE) :  ![starts](https://img.shields.io/github/stars/4qu4r1um/tugtainer-1.30.2-CVE-2026-55494-and-CVE-2026-62308-to-RCE.svg) ![forks](https://img.shields.io/github/forks/4qu4r1um/tugtainer-1.30.2-CVE-2026-55494-and-CVE-2026-62308-to-RCE.svg)
-
-
-## CVE-2026-55494
- Tugtainer is a self-hosted app for automating updates of Docker containers. Prior to version 1.30.4, Tugtainer Agent allows unauthenticated access to Docker management APIs when AGENT_SECRET is not configured. The Agent uses request signatures to protect its API routes. However, in agent/auth.py, the signature verification function returns successfully if Config.AGENT_SECRET is empty. This causes protected Agent APIs to become accessible without authentication. This issue has been patched in version 1.30.4.
-
-- [https://github.com/4qu4r1um/tugtainer-1.30.2-CVE-2026-55494-and-CVE-2026-62308-to-RCE](https://github.com/4qu4r1um/tugtainer-1.30.2-CVE-2026-55494-and-CVE-2026-62308-to-RCE) :  ![starts](https://img.shields.io/github/stars/4qu4r1um/tugtainer-1.30.2-CVE-2026-55494-and-CVE-2026-62308-to-RCE.svg) ![forks](https://img.shields.io/github/forks/4qu4r1um/tugtainer-1.30.2-CVE-2026-55494-and-CVE-2026-62308-to-RCE.svg)
+- [https://github.com/chu0119/vc-strike](https://github.com/chu0119/vc-strike) :  ![starts](https://img.shields.io/github/stars/chu0119/vc-strike.svg) ![forks](https://img.shields.io/github/forks/chu0119/vc-strike.svg)
 
 
-## CVE-2026-52993
-skb.  If it does, reassign *headbuf for later freeing operations.
+## CVE-2026-58138
+ Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that allows remote attackers to execute arbitrary OS commands by submitting inline workflow definitions containing malicious JavaScript or Python expressions to the workflow API endpoint prior to authentication. Attackers can exploit unsandboxed GraalVM evaluators configured with HostAccess.ALL or allowAllAccess(true) through INLINE, LAMBDA, DO_WHILE, and SWITCH task types to invoke arbitrary system commands via Java reflection or direct subprocess calls.
 
-- [https://github.com/CaptainAI-Labs/CaptainAI-LPE-CVE-2026-52993](https://github.com/CaptainAI-Labs/CaptainAI-LPE-CVE-2026-52993) :  ![starts](https://img.shields.io/github/stars/CaptainAI-Labs/CaptainAI-LPE-CVE-2026-52993.svg) ![forks](https://img.shields.io/github/forks/CaptainAI-Labs/CaptainAI-LPE-CVE-2026-52993.svg)
-
-
-## CVE-2026-48611
- Improper authentication checks in the OAuth implementation allow account hijacking even when OAuth is not configured or enabled leading to unauthorized access in default installations.
-
-- [https://github.com/lxdwnpiper/CVE-2026-48611-phpBB](https://github.com/lxdwnpiper/CVE-2026-48611-phpBB) :  ![starts](https://img.shields.io/github/stars/lxdwnpiper/CVE-2026-48611-phpBB.svg) ![forks](https://img.shields.io/github/forks/lxdwnpiper/CVE-2026-48611-phpBB.svg)
+- [https://github.com/Ez4rd1x1/CVE-2026-58138-Research](https://github.com/Ez4rd1x1/CVE-2026-58138-Research) :  ![starts](https://img.shields.io/github/stars/Ez4rd1x1/CVE-2026-58138-Research.svg) ![forks](https://img.shields.io/github/forks/Ez4rd1x1/CVE-2026-58138-Research.svg)
 
 
-## CVE-2026-48121
- @langchain/langgraph-checkpoint-mongodb provides a LangGraph.js CheckpointSaver implementation that uses MongoDB for storage. Versions 1.3.0 and below are vulnerable to NoSQL injection: checkpoint identifiers (thread_id, checkpoint_ns, checkpoint_id) from config.configurable are passed into MongoDB find() queries in MongoDBSaver.getTuple() without type enforcement. If an attacker supplies an object payload (such as MongoDB operators $gt or $ne) instead of a string, it can be interpreted as a query operator, bypassing thread scoping and leaking checkpoints, including pending writes, across tenants. Applications are at risk if they forward untrusted input into config.configurable without coercing it to strings or validating it against a schema, particularly in multi-tenant or user-isolated setups. Apps that only use server-issued, string-typed identifiers with schema validation rejecting non-string fields are not affected. This issue has been fixed in version 1.3.1.
+## CVE-2026-52824
+ Kimai is an open-source time tracking application. Prior to 2.58.0, the official Docker image sets APP_SECRET to the public value change_this_to_something_unique in Dockerfile, and .docker/entrypoint.sh neither replaces nor rejects that value before Symfony uses it as kernel.secret. An unauthenticated attacker who reaches a deployment that did not override APP_SECRET, knows a username, correctly guesses the account ID associated with that username, and targets an account without active two-factor authentication can forge HMAC-protected authentication artifacts, including KIMAI_REMEMBER cookies and login links, to access the account without its password. The updated entrypoint generates and persists a random secret when no safe operator-provided value exists. This issue is fixed in version 2.58.0.
 
-- [https://github.com/decker757/cs440-langgraph-nosql-demo](https://github.com/decker757/cs440-langgraph-nosql-demo) :  ![starts](https://img.shields.io/github/stars/decker757/cs440-langgraph-nosql-demo.svg) ![forks](https://img.shields.io/github/forks/decker757/cs440-langgraph-nosql-demo.svg)
-
-
-## CVE-2026-43499
-  	changelog ]
-
-- [https://github.com/shubhampathak65/CVE-2026-43499](https://github.com/shubhampathak65/CVE-2026-43499) :  ![starts](https://img.shields.io/github/stars/shubhampathak65/CVE-2026-43499.svg) ![forks](https://img.shields.io/github/forks/shubhampathak65/CVE-2026-43499.svg)
+- [https://github.com/cyeezy08/Kimai-CVE-2026-52824-POC](https://github.com/cyeezy08/Kimai-CVE-2026-52824-POC) :  ![starts](https://img.shields.io/github/stars/cyeezy08/Kimai-CVE-2026-52824-POC.svg) ![forks](https://img.shields.io/github/forks/cyeezy08/Kimai-CVE-2026-52824-POC.svg)
 
 
-## CVE-2026-41096
- Heap-based buffer overflow in Microsoft Windows DNS allows an unauthorized attacker to execute code over a network.
+## CVE-2026-48500
+ Filament is a collection of full-stack components for accelerated Laravel development. From 3.0.0 until 3.3.52, 4.11.5, and 5.6.5, any schema can contain a file upload form field, so Filament applies Livewire's WithFileUploads trait to the Livewire component the schema is embedded in. However, some schemas, such as the panel login form, do not require file uploads, and exposing unauthenticated temporary file uploads on these components is not an acceptable risk. On these components, an unauthenticated attacker could upload arbitrary files to the application's temporary storage, which could be abused to exhaust disk space or inflate storage costs. This vulnerability is fixed in 3.3.52, 4.11.5, and 5.6.5.
 
-- [https://github.com/wuyou6956-glitch/CVE-2026-41096-POC](https://github.com/wuyou6956-glitch/CVE-2026-41096-POC) :  ![starts](https://img.shields.io/github/stars/wuyou6956-glitch/CVE-2026-41096-POC.svg) ![forks](https://img.shields.io/github/forks/wuyou6956-glitch/CVE-2026-41096-POC.svg)
+- [https://github.com/rimbadirgantara/CVE-2026-48500](https://github.com/rimbadirgantara/CVE-2026-48500) :  ![starts](https://img.shields.io/github/stars/rimbadirgantara/CVE-2026-48500.svg) ![forks](https://img.shields.io/github/forks/rimbadirgantara/CVE-2026-48500.svg)
 
 
-## CVE-2026-31857
- Craft is a content management system (CMS). Prior to 5.9.9 and 4.17.4, a Remote Code Execution vulnerability exists in the Craft CMS 5 conditions system. The BaseElementSelectConditionRule::getElementIds() method passes user-controlled string input through renderObjectTemplate() -- an unsandboxed Twig rendering function with escaping disabled. Any authenticated Control Panel user (including non-admin roles such as Author or Editor) can achieve full RCE by sending a crafted condition rule via standard element listing endpoints. This vulnerability requires no admin privileges, no special permissions beyond basic control panel access, and bypasses all production hardening settings (allowAdminChanges: false, devMode: false, enableTwigSandbox: true). Users should update to the patched 5.9.9 or 4.17.4 release to mitigate the issue.
+## CVE-2026-43500
+page_pool RX, GRO).  The OOM/trace handling already in place is reused.
 
-- [https://github.com/0Asylum/CVE-2026-31857](https://github.com/0Asylum/CVE-2026-31857) :  ![starts](https://img.shields.io/github/stars/0Asylum/CVE-2026-31857.svg) ![forks](https://img.shields.io/github/forks/0Asylum/CVE-2026-31857.svg)
+- [https://github.com/Quaerendir/dirtyfrag-audit](https://github.com/Quaerendir/dirtyfrag-audit) :  ![starts](https://img.shields.io/github/stars/Quaerendir/dirtyfrag-audit.svg) ![forks](https://img.shields.io/github/forks/Quaerendir/dirtyfrag-audit.svg)
+
+
+## CVE-2026-43284
+destination-frag path or fall back to skb_cow_data().
+
+- [https://github.com/Quaerendir/dirtyfrag-audit](https://github.com/Quaerendir/dirtyfrag-audit) :  ![starts](https://img.shields.io/github/stars/Quaerendir/dirtyfrag-audit.svg) ![forks](https://img.shields.io/github/forks/Quaerendir/dirtyfrag-audit.svg)
+
+
+## CVE-2026-40281
+ Gotenberg is a Docker-powered stateless API for PDF files. In versions 8.30.1 and earlier, the metadata write endpoint validates metadata keys for control characters but leaves metadata values unsanitized. A newline character in a metadata value splits the ExifTool stdin line into two separate arguments, allowing injection of arbitrary ExifTool pseudo-tags such as -FileName, -Directory, -SymLink, and -HardLink. This is a bypass of the incomplete key-sanitization fix introduced in v8.30.1. An unauthenticated attacker can rename or move any PDF being processed to an arbitrary path in the container filesystem, overwrite arbitrary files, or create symlinks and hard links at arbitrary paths.
+
+- [https://github.com/0xgh057r3c0n/CVE-2026-40281](https://github.com/0xgh057r3c0n/CVE-2026-40281) :  ![starts](https://img.shields.io/github/stars/0xgh057r3c0n/CVE-2026-40281.svg) ![forks](https://img.shields.io/github/forks/0xgh057r3c0n/CVE-2026-40281.svg)
+
+
+## CVE-2026-33825
+ Insufficient granularity of access control in Microsoft Defender allows an authorized attacker to elevate privileges locally.
+
+- [https://github.com/anasabugaddara-ux/defender-bluehammer-audit](https://github.com/anasabugaddara-ux/defender-bluehammer-audit) :  ![starts](https://img.shields.io/github/stars/anasabugaddara-ux/defender-bluehammer-audit.svg) ![forks](https://img.shields.io/github/forks/anasabugaddara-ux/defender-bluehammer-audit.svg)
+
+
+## CVE-2026-32475
+This issue affects Elementor Pro: from n/a through 4.2.1.
+
+- [https://github.com/cyeezy08/WordPress_Exploit_Directory](https://github.com/cyeezy08/WordPress_Exploit_Directory) :  ![starts](https://img.shields.io/github/stars/cyeezy08/WordPress_Exploit_Directory.svg) ![forks](https://img.shields.io/github/forks/cyeezy08/WordPress_Exploit_Directory.svg)
 
 
 ## CVE-2026-26026
  GLPI is a free asset and IT management software package. From 11.0.0 to before 11.0.6, template injection by an administrator lead to RCE. This vulnerability is fixed in 11.0.6.
 
-- [https://github.com/wuyou6956-glitch/CVE-2026-26026-PoC](https://github.com/wuyou6956-glitch/CVE-2026-26026-PoC) :  ![starts](https://img.shields.io/github/stars/wuyou6956-glitch/CVE-2026-26026-PoC.svg) ![forks](https://img.shields.io/github/forks/wuyou6956-glitch/CVE-2026-26026-PoC.svg)
+- [https://github.com/petriQore/CVE-2026-26026_PoC](https://github.com/petriQore/CVE-2026-26026_PoC) :  ![starts](https://img.shields.io/github/stars/petriQore/CVE-2026-26026_PoC.svg) ![forks](https://img.shields.io/github/forks/petriQore/CVE-2026-26026_PoC.svg)
 
 
-## CVE-2026-18783
-This issue affects Trex MES: through 2026-09-29.
+## CVE-2026-22777
+ ComfyUI-Manager is an extension designed to enhance the usability of ComfyUI. Prior to versions 3.39.2 and 4.0.5, an attacker can inject special characters into HTTP query parameters to add arbitrary configuration values to the config.ini file. This can lead to security setting tampering or modification of application behavior. This issue has been patched in versions 3.39.2 and 4.0.5.
 
-- [https://github.com/Hasanuyarrr/CVE-2026-18783-TREX-MES-Uygulamalarinda-Yetkisiz-Nesne-Erisimi](https://github.com/Hasanuyarrr/CVE-2026-18783-TREX-MES-Uygulamalarinda-Yetkisiz-Nesne-Erisimi) :  ![starts](https://img.shields.io/github/stars/Hasanuyarrr/CVE-2026-18783-TREX-MES-Uygulamalarinda-Yetkisiz-Nesne-Erisimi.svg) ![forks](https://img.shields.io/github/forks/Hasanuyarrr/CVE-2026-18783-TREX-MES-Uygulamalarinda-Yetkisiz-Nesne-Erisimi.svg)
-
-
-## CVE-2026-18782
-This issue affects Trex MES: through 2026-09-29.
-
-- [https://github.com/Hasanuyarrr/CVE-2026-18782-TREX-MES-Uygulamalarinda-SQL-Zafiyeti](https://github.com/Hasanuyarrr/CVE-2026-18782-TREX-MES-Uygulamalarinda-SQL-Zafiyeti) :  ![starts](https://img.shields.io/github/stars/Hasanuyarrr/CVE-2026-18782-TREX-MES-Uygulamalarinda-SQL-Zafiyeti.svg) ![forks](https://img.shields.io/github/forks/Hasanuyarrr/CVE-2026-18782-TREX-MES-Uygulamalarinda-SQL-Zafiyeti.svg)
+- [https://github.com/Si13NTTT/CVE-2026-22777](https://github.com/Si13NTTT/CVE-2026-22777) :  ![starts](https://img.shields.io/github/stars/Si13NTTT/CVE-2026-22777.svg) ![forks](https://img.shields.io/github/forks/Si13NTTT/CVE-2026-22777.svg)
 
 
-## CVE-2026-18143
- The Request a Quote for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.9.2 via the `afrfq_submit_quote_via_popup()` function. This is due to missing file extension and MIME type validation in the popup upload handler, which uses the raw attacker-supplied filename directly as the destination for `move_uploaded_file()`. This makes it possible for unauthenticated attackers to upload executable files, such as PHP files, to a web-accessible temporary RFQ upload directory when a public quote rule with the multi-page popup flow is enabled.
+## CVE-2026-1131
+ A vulnerability has been found in Yonyou KSOA 9.0. Impacted is an unknown function of the file /kmc/save_catalog.jsp of the component HTTP GET Parameter Handler. Such manipulation of the argument catalogid leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
 
-- [https://github.com/ghannyxploit404/CVE-2026-18143](https://github.com/ghannyxploit404/CVE-2026-18143) :  ![starts](https://img.shields.io/github/stars/ghannyxploit404/CVE-2026-18143.svg) ![forks](https://img.shields.io/github/forks/ghannyxploit404/CVE-2026-18143.svg)
-
-
-## CVE-2026-12227
- The Visual Composer Website Builder plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 45.16.0 via the `vcv-template` parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
-
-- [https://github.com/MRdark-ops/CVE-2026-12227](https://github.com/MRdark-ops/CVE-2026-12227) :  ![starts](https://img.shields.io/github/stars/MRdark-ops/CVE-2026-12227.svg) ![forks](https://img.shields.io/github/forks/MRdark-ops/CVE-2026-12227.svg)
+- [https://github.com/Cr0wld3r/CVE-2026-11318](https://github.com/Cr0wld3r/CVE-2026-11318) :  ![starts](https://img.shields.io/github/stars/Cr0wld3r/CVE-2026-11318.svg) ![forks](https://img.shields.io/github/forks/Cr0wld3r/CVE-2026-11318.svg)
 
 
-## CVE-2026-10297
- A vulnerability was identified in itsourcecode Fees Management System 1.0. This affects an unknown part of the file /manage_course.php. The manipulation of the argument ID leads to sql injection. It is possible to initiate the attack remotely. The exploit is publicly available and might be used.
+## CVE-2025-67303
+ An issue in ComfyUI-Manager prior to version 3.38 allowed remote attackers to potentially manipulate its configuration and critical data. This was due to the application storing its files in an insufficiently protected location that was accessible via the web interface
 
-- [https://github.com/BomboBombone/CVE-2026-102973](https://github.com/BomboBombone/CVE-2026-102973) :  ![starts](https://img.shields.io/github/stars/BomboBombone/CVE-2026-102973.svg) ![forks](https://img.shields.io/github/forks/BomboBombone/CVE-2026-102973.svg)
-- [https://github.com/BomboBombone/CVE-2026-102975](https://github.com/BomboBombone/CVE-2026-102975) :  ![starts](https://img.shields.io/github/stars/BomboBombone/CVE-2026-102975.svg) ![forks](https://img.shields.io/github/forks/BomboBombone/CVE-2026-102975.svg)
-- [https://github.com/BomboBombone/CVE-2026-102971](https://github.com/BomboBombone/CVE-2026-102971) :  ![starts](https://img.shields.io/github/stars/BomboBombone/CVE-2026-102971.svg) ![forks](https://img.shields.io/github/forks/BomboBombone/CVE-2026-102971.svg)
-
-
-## CVE-2026-10260
- A vulnerability was detected in CodeAstro Online Job Portal 1.0. The impacted element is an unknown function of the file /admin/jobs-admins/delete-jobs.php. Performing a manipulation of the argument ID results in sql injection. It is possible to initiate the attack remotely. The exploit is now public and may be used.
-
-- [https://github.com/d4kw1n/CVE-2026-102607-ZoneMinder](https://github.com/d4kw1n/CVE-2026-102607-ZoneMinder) :  ![starts](https://img.shields.io/github/stars/d4kw1n/CVE-2026-102607-ZoneMinder.svg) ![forks](https://img.shields.io/github/forks/d4kw1n/CVE-2026-102607-ZoneMinder.svg)
-
-
-## CVE-2026-9115
- Insufficient policy enforcement in Service Worker in Google Chrome on prior to 148.0.7778.179 allowed a remote attacker to bypass same origin policy via a crafted HTML page. (Chromium security severity: High)
-
-- [https://github.com/sl4x0/autheo-cve-2026-91159-poc](https://github.com/sl4x0/autheo-cve-2026-91159-poc) :  ![starts](https://img.shields.io/github/stars/sl4x0/autheo-cve-2026-91159-poc.svg) ![forks](https://img.shields.io/github/forks/sl4x0/autheo-cve-2026-91159-poc.svg)
-
-
-## CVE-2026-4349
- A vulnerability was determined in Duende IdentityServer4 up to 4.1.2. The affected element is an unknown function of the file /connect/authorize of the component Token Renewal Endpoint. This manipulation of the argument id_token_hint causes improper authentication. It is possible to initiate the attack remotely. The attack is considered to have high complexity. The exploitability is described as difficult. This vulnerability only affects products that are no longer supported by the maintainer.
-
-- [https://github.com/accessmodifier364/cve-2026-43499-firetv-sheldonp-writeup](https://github.com/accessmodifier364/cve-2026-43499-firetv-sheldonp-writeup) :  ![starts](https://img.shields.io/github/stars/accessmodifier364/cve-2026-43499-firetv-sheldonp-writeup.svg) ![forks](https://img.shields.io/github/forks/accessmodifier364/cve-2026-43499-firetv-sheldonp-writeup.svg)
-
-
-## CVE-2026-1668
- The web interface on multiple Omada switches does not adequately validate certain external inputs, which may lead to out-of-bound memory access when processing crafted requests.  Under specific conditions, this flaw may result in unintended command execution.brAn unauthenticated attacker with network access to the affected interface may cause memory corruption, service instability, or information disclosure.  Successful exploitation may allow remote code execution or denial-of-service.
-
-- [https://github.com/wuyou6956-glitch/cve-2026-1668-poc](https://github.com/wuyou6956-glitch/cve-2026-1668-poc) :  ![starts](https://img.shields.io/github/stars/wuyou6956-glitch/cve-2026-1668-poc.svg) ![forks](https://img.shields.io/github/forks/wuyou6956-glitch/cve-2026-1668-poc.svg)
+- [https://github.com/Si13NTTT/CVE-2026-22777](https://github.com/Si13NTTT/CVE-2026-22777) :  ![starts](https://img.shields.io/github/stars/Si13NTTT/CVE-2026-22777.svg) ![forks](https://img.shields.io/github/forks/Si13NTTT/CVE-2026-22777.svg)
 
 
 ## CVE-2025-66478
  This CVE is a duplicate of CVE-2025-55182.
 
-- [https://github.com/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-npm-peer-conflict](https://github.com/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-npm-peer-conflict) :  ![starts](https://img.shields.io/github/stars/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-npm-peer-conflict.svg) ![forks](https://img.shields.io/github/forks/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-npm-peer-conflict.svg)
+- [https://github.com/react2shell-repo-menagerie/CVE-2025-66478-monorepo-nextjs-npm-nested-versions](https://github.com/react2shell-repo-menagerie/CVE-2025-66478-monorepo-nextjs-npm-nested-versions) :  ![starts](https://img.shields.io/github/stars/react2shell-repo-menagerie/CVE-2025-66478-monorepo-nextjs-npm-nested-versions.svg) ![forks](https://img.shields.io/github/forks/react2shell-repo-menagerie/CVE-2025-66478-monorepo-nextjs-npm-nested-versions.svg)
+- [https://github.com/react2shell-repo-menagerie/CVE-2025-66478-monorepo-nextjs-pnpm](https://github.com/react2shell-repo-menagerie/CVE-2025-66478-monorepo-nextjs-pnpm) :  ![starts](https://img.shields.io/github/stars/react2shell-repo-menagerie/CVE-2025-66478-monorepo-nextjs-pnpm.svg) ![forks](https://img.shields.io/github/forks/react2shell-repo-menagerie/CVE-2025-66478-monorepo-nextjs-pnpm.svg)
+- [https://github.com/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-bun](https://github.com/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-bun) :  ![starts](https://img.shields.io/github/stars/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-bun.svg) ![forks](https://img.shields.io/github/forks/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-bun.svg)
 
 
-## CVE-2025-59528
- Flowise is a drag & drop user interface to build a customized large language model flow. In version 3.0.5, Flowise is vulnerable to remote code execution. The CustomMCP node allows users to input configuration settings for connecting to an external MCP server. This node parses the user-provided mcpServerConfig string to build the MCP server configuration. However, during this process, it executes JavaScript code without any security validation. Specifically, inside the convertToValidJSONString function, user input is directly passed to the Function() constructor, which evaluates and executes the input as JavaScript code. Since this runs with full Node.js runtime privileges, it can access dangerous modules such as child_process and fs. This issue has been patched in version 3.0.6.
+## CVE-2025-57819
+ FreePBX is an open-source web-based graphical user interface. FreePBX 15, 16, and 17 endpoints are vulnerable due to insufficiently sanitized user-supplied data allowing unauthenticated access to FreePBX Administrator leading to arbitrary database manipulation and remote code execution. This issue has been patched in endpoint versions 15.0.66, 16.0.89, and 17.0.3.
 
-- [https://github.com/Amoru-Bek/CVE-2025-59528-Poc](https://github.com/Amoru-Bek/CVE-2025-59528-Poc) :  ![starts](https://img.shields.io/github/stars/Amoru-Bek/CVE-2025-59528-Poc.svg) ![forks](https://img.shields.io/github/forks/Amoru-Bek/CVE-2025-59528-Poc.svg)
-
-
-## CVE-2025-49132
- Pterodactyl is a free, open-source game server management panel. Prior to version 1.11.11, using the /locales/locale.json with the locale and namespace query parameters, a malicious actor is able to execute arbitrary code without being authenticated. With the ability to execute arbitrary code it could be used to gain access to the Panel's server, read credentials from the Panel's config, extract sensitive information from the database, access files of servers managed by the panel, etc. This issue has been patched in version 1.11.11. There are no software workarounds for this vulnerability, but use of an external Web Application Firewall (WAF) could help mitigate this attack.
-
-- [https://github.com/2t8a/CVE-2025-49132](https://github.com/2t8a/CVE-2025-49132) :  ![starts](https://img.shields.io/github/stars/2t8a/CVE-2025-49132.svg) ![forks](https://img.shields.io/github/forks/2t8a/CVE-2025-49132.svg)
+- [https://github.com/TheScriptKiddoz/FreePBX-SQLi-RCE](https://github.com/TheScriptKiddoz/FreePBX-SQLi-RCE) :  ![starts](https://img.shields.io/github/stars/TheScriptKiddoz/FreePBX-SQLi-RCE.svg) ![forks](https://img.shields.io/github/forks/TheScriptKiddoz/FreePBX-SQLi-RCE.svg)
 
 
-## CVE-2025-30208
- Vite, a provider of frontend development tooling, has a vulnerability in versions prior to 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10. `@fs` denies access to files outside of Vite serving allow list. Adding `?raw??` or `?import&raw??` to the URL bypasses this limitation and returns the file content if it exists. This bypass exists because trailing separators such as `?` are removed in several places, but are not accounted for in query string regexes. The contents of arbitrary files can be returned to the browser. Only apps explicitly exposing the Vite dev server to the network (using `--host` or `server.host` config option) are affected. Versions 6.2.3, 6.1.2, 6.0.12, 5.4.15, and 4.5.10 fix the issue.
+## CVE-2025-47947
+ ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx. Versions up to and including 2.9.8 are vulnerable to denial of service in one special case (in stable released versions): when the payload's content type is `application/json`, and there is at least one rule which does a `sanitiseMatchedBytes` action. A patch is available at pull request 3389 and expected to be part of version 2.9.9. No known workarounds are available.
 
-- [https://github.com/Minseo9503/cve-2025-30208](https://github.com/Minseo9503/cve-2025-30208) :  ![starts](https://img.shields.io/github/stars/Minseo9503/cve-2025-30208.svg) ![forks](https://img.shields.io/github/forks/Minseo9503/cve-2025-30208.svg)
+- [https://github.com/yel1337/CVE-2025-47947](https://github.com/yel1337/CVE-2025-47947) :  ![starts](https://img.shields.io/github/stars/yel1337/CVE-2025-47947.svg) ![forks](https://img.shields.io/github/forks/yel1337/CVE-2025-47947.svg)
 
 
-## CVE-2025-29927
- Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.
+## CVE-2025-32432
+ Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.
 
-- [https://github.com/vulnace/CVE-2025-29927](https://github.com/vulnace/CVE-2025-29927) :  ![starts](https://img.shields.io/github/stars/vulnace/CVE-2025-29927.svg) ![forks](https://img.shields.io/github/forks/vulnace/CVE-2025-29927.svg)
+- [https://github.com/Si13NTTT/CVE-2025-32432](https://github.com/Si13NTTT/CVE-2025-32432) :  ![starts](https://img.shields.io/github/stars/Si13NTTT/CVE-2025-32432.svg) ![forks](https://img.shields.io/github/forks/Si13NTTT/CVE-2025-32432.svg)
+
+
+## CVE-2025-24813
+Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.
+
+- [https://github.com/Si13NTTT/CVE-2025-24813](https://github.com/Si13NTTT/CVE-2025-24813) :  ![starts](https://img.shields.io/github/stars/Si13NTTT/CVE-2025-24813.svg) ![forks](https://img.shields.io/github/forks/Si13NTTT/CVE-2025-24813.svg)
+- [https://github.com/HwangEojin/CVE-2025-24813-Tomcat11-Lab](https://github.com/HwangEojin/CVE-2025-24813-Tomcat11-Lab) :  ![starts](https://img.shields.io/github/stars/HwangEojin/CVE-2025-24813-Tomcat11-Lab.svg) ![forks](https://img.shields.io/github/forks/HwangEojin/CVE-2025-24813-Tomcat11-Lab.svg)
+
+
+## CVE-2025-21479
+ Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of commands.
+
+- [https://github.com/diyiqiuye/CVE-2025-21479-FX3](https://github.com/diyiqiuye/CVE-2025-21479-FX3) :  ![starts](https://img.shields.io/github/stars/diyiqiuye/CVE-2025-21479-FX3.svg) ![forks](https://img.shields.io/github/forks/diyiqiuye/CVE-2025-21479-FX3.svg)
+
+
+## CVE-2025-8110
+ Improper Symbolic link handling in the PutContents API in Gogs allows Local Execution of Code.
+
+- [https://github.com/Makis6/CVE-2025-8110](https://github.com/Makis6/CVE-2025-8110) :  ![starts](https://img.shields.io/github/stars/Makis6/CVE-2025-8110.svg) ![forks](https://img.shields.io/github/forks/Makis6/CVE-2025-8110.svg)
+- [https://github.com/Waynehck8/CVE-2025-8110-POC](https://github.com/Waynehck8/CVE-2025-8110-POC) :  ![starts](https://img.shields.io/github/stars/Waynehck8/CVE-2025-8110-POC.svg) ![forks](https://img.shields.io/github/forks/Waynehck8/CVE-2025-8110-POC.svg)
 
 
 ## CVE-2025-6647
 The specific flaw exists within the parsing of U3D files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-26644.
 
-- [https://github.com/react2shell-repo-menagerie/CVE-2025-66478-realworld-calcom-yarn-monorepo](https://github.com/react2shell-repo-menagerie/CVE-2025-66478-realworld-calcom-yarn-monorepo) :  ![starts](https://img.shields.io/github/stars/react2shell-repo-menagerie/CVE-2025-66478-realworld-calcom-yarn-monorepo.svg) ![forks](https://img.shields.io/github/forks/react2shell-repo-menagerie/CVE-2025-66478-realworld-calcom-yarn-monorepo.svg)
+- [https://github.com/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-yarn-resolutions](https://github.com/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-yarn-resolutions) :  ![starts](https://img.shields.io/github/stars/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-yarn-resolutions.svg) ![forks](https://img.shields.io/github/forks/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-yarn-resolutions.svg)
+- [https://github.com/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-npm-packagemanager-field](https://github.com/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-npm-packagemanager-field) :  ![starts](https://img.shields.io/github/stars/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-npm-packagemanager-field.svg) ![forks](https://img.shields.io/github/forks/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-npm-packagemanager-field.svg)
+- [https://github.com/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-npm-patch-package](https://github.com/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-npm-patch-package) :  ![starts](https://img.shields.io/github/stars/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-npm-patch-package.svg) ![forks](https://img.shields.io/github/forks/react2shell-repo-menagerie/CVE-2025-66478-single-nextjs-npm-patch-package.svg)
 
 
-## CVE-2025-2992
- A vulnerability classified as critical was found in Tenda FH1202 1.2.0.14(408). Affected by this vulnerability is an unknown functionality of the file /goform/AdvSetWrlsafeset of the component Web Management Interface. The manipulation leads to improper access controls. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.
+## CVE-2024-55591
+ An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0 through 7.0.19 and 7.2.0 through 7.2.12 allows a remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module.
 
-- [https://github.com/Heimd411/CVE-2025-29927-PoC](https://github.com/Heimd411/CVE-2025-29927-PoC) :  ![starts](https://img.shields.io/github/stars/Heimd411/CVE-2025-29927-PoC.svg) ![forks](https://img.shields.io/github/forks/Heimd411/CVE-2025-29927-PoC.svg)
+- [https://github.com/gotr00t0day/CVE-2024-55591](https://github.com/gotr00t0day/CVE-2024-55591) :  ![starts](https://img.shields.io/github/stars/gotr00t0day/CVE-2024-55591.svg) ![forks](https://img.shields.io/github/forks/gotr00t0day/CVE-2024-55591.svg)
 
 
-## CVE-2023-3776
-We recommend upgrading past commit 0323bce598eea038714f941ce2b22541c46d488f.
+## CVE-2024-23334
+ aiohttp is an asynchronous HTTP client/server framework for asyncio and Python. When using aiohttp as a web server and configuring static routes, it is necessary to specify the root path for static files. Additionally, the option 'follow_symlinks' can be used to determine whether to follow symbolic links outside the static root directory. When 'follow_symlinks' is set to True, there is no validation to check if reading a file is within the root directory. This can lead to directory traversal vulnerabilities, resulting in unauthorized access to arbitrary files on the system, even when symlinks are not present.  Disabling follow_symlinks and using a reverse proxy are encouraged mitigations.  Version 3.9.2 fixes this issue.
 
-- [https://github.com/Sakura999999999/CVE-2023-3776_repro](https://github.com/Sakura999999999/CVE-2023-3776_repro) :  ![starts](https://img.shields.io/github/stars/Sakura999999999/CVE-2023-3776_repro.svg) ![forks](https://img.shields.io/github/forks/Sakura999999999/CVE-2023-3776_repro.svg)
+- [https://github.com/dhtfish-98/PathHarbor](https://github.com/dhtfish-98/PathHarbor) :  ![starts](https://img.shields.io/github/stars/dhtfish-98/PathHarbor.svg) ![forks](https://img.shields.io/github/forks/dhtfish-98/PathHarbor.svg)
+
+
+## CVE-2024-21626
+ runc is a CLI tool for spawning and running containers on Linux according to the OCI specification. In runc 1.1.11 and earlier, due to an internal file descriptor leak, an attacker could cause a newly-spawned container process (from runc exec) to have a working directory in the host filesystem namespace, allowing for a container escape by giving access to the host filesystem ("attack 2"). The same attack could be used by a malicious image to allow a container process to gain access to the host filesystem through runc run ("attack 1"). Variants of attacks 1 and 2 could be also be used to overwrite semi-arbitrary host binaries, allowing for complete container escapes ("attack 3a" and "attack 3b"). runc 1.1.12 includes patches for this issue.
+
+- [https://github.com/MutagomaRaissa/container-security-lab-cve-2024-21626](https://github.com/MutagomaRaissa/container-security-lab-cve-2024-21626) :  ![starts](https://img.shields.io/github/stars/MutagomaRaissa/container-security-lab-cve-2024-21626.svg) ![forks](https://img.shields.io/github/forks/MutagomaRaissa/container-security-lab-cve-2024-21626.svg)
+
+
+## CVE-2023-28432
+and `MINIO_ROOT_PASSWORD`, resulting in information disclosure. All users of distributed deployment are impacted. All users are advised to upgrade to RELEASE.2023-03-20T20-16-18Z.
+
+- [https://github.com/cgi-italy-insula-processing/minio](https://github.com/cgi-italy-insula-processing/minio) :  ![starts](https://img.shields.io/github/stars/cgi-italy-insula-processing/minio.svg) ![forks](https://img.shields.io/github/forks/cgi-italy-insula-processing/minio.svg)
 
 
 ## CVE-2022-22965
  A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.
 
-- [https://github.com/Shakur1314/CVE-2022-22965-Spring4Shell-Security-Operations-Analysis](https://github.com/Shakur1314/CVE-2022-22965-Spring4Shell-Security-Operations-Analysis) :  ![starts](https://img.shields.io/github/stars/Shakur1314/CVE-2022-22965-Spring4Shell-Security-Operations-Analysis.svg) ![forks](https://img.shields.io/github/forks/Shakur1314/CVE-2022-22965-Spring4Shell-Security-Operations-Analysis.svg)
+- [https://github.com/shoucheng3/spring-projects__spring-framework_CVE-2022-22965_5-2-19-RELEASE](https://github.com/shoucheng3/spring-projects__spring-framework_CVE-2022-22965_5-2-19-RELEASE) :  ![starts](https://img.shields.io/github/stars/shoucheng3/spring-projects__spring-framework_CVE-2022-22965_5-2-19-RELEASE.svg) ![forks](https://img.shields.io/github/forks/shoucheng3/spring-projects__spring-framework_CVE-2022-22965_5-2-19-RELEASE.svg)
 
 
 ## CVE-2022-0847
  A flaw was found in the way the "flags" member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.
 
-- [https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-](https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-) :  ![starts](https://img.shields.io/github/stars/Greetdawn/CVE-2022-0847-DirtyPipe-.svg) ![forks](https://img.shields.io/github/forks/Greetdawn/CVE-2022-0847-DirtyPipe-.svg)
-- [https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe](https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe) :  ![starts](https://img.shields.io/github/stars/Greetdawn/CVE-2022-0847-DirtyPipe.svg) ![forks](https://img.shields.io/github/forks/Greetdawn/CVE-2022-0847-DirtyPipe.svg)
+- [https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847](https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847) :  ![starts](https://img.shields.io/github/stars/pmihsan/Dirty-Pipe-CVE-2022-0847.svg) ![forks](https://img.shields.io/github/forks/pmihsan/Dirty-Pipe-CVE-2022-0847.svg)
 
 
 ## CVE-2021-41773
  A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 
-- [https://github.com/mightysai1997/cve-2021-41773](https://github.com/mightysai1997/cve-2021-41773) :  ![starts](https://img.shields.io/github/stars/mightysai1997/cve-2021-41773.svg) ![forks](https://img.shields.io/github/forks/mightysai1997/cve-2021-41773.svg)
-
-
-## CVE-2021-31805
- The fix issued for CVE-2020-17530 was incomplete. So from Apache Struts 2.0.0 to 2.5.29, still some of the tag’s attributes could perform a double evaluation if a developer applied forced OGNL evaluation by using the %{...} syntax. Using forced OGNL evaluation on untrusted user input can lead to a Remote Code Execution and security degradation.
-
-- [https://github.com/nth347/struts2-CVE-2021-31805](https://github.com/nth347/struts2-CVE-2021-31805) :  ![starts](https://img.shields.io/github/stars/nth347/struts2-CVE-2021-31805.svg) ![forks](https://img.shields.io/github/forks/nth347/struts2-CVE-2021-31805.svg)
-
-
-## CVE-2021-26085
- Affected versions of Atlassian Confluence Server allow remote attackers to view restricted resources via a Pre-Authorization Arbitrary File Read vulnerability in the /s/ endpoint. The affected versions are before version 7.4.10, and from version 7.5.0 before 7.12.3.
-
-- [https://github.com/heidarodarkfire158/Confluence-Desktop-2026](https://github.com/heidarodarkfire158/Confluence-Desktop-2026) :  ![starts](https://img.shields.io/github/stars/heidarodarkfire158/Confluence-Desktop-2026.svg) ![forks](https://img.shields.io/github/forks/heidarodarkfire158/Confluence-Desktop-2026.svg)
+- [https://github.com/r0otk3r/CVE-2021-41773](https://github.com/r0otk3r/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/r0otk3r/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/r0otk3r/CVE-2021-41773.svg)
 
 
 ## CVE-2021-4177
  livehelperchat is vulnerable to Generation of Error Message Containing Sensitive Information
 
-- [https://github.com/0xrogg/CVE-2021-41773](https://github.com/0xrogg/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/0xrogg/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/0xrogg/CVE-2021-41773.svg)
-- [https://github.com/sixpacksecurity/CVE-2021-41773](https://github.com/sixpacksecurity/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/sixpacksecurity/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/sixpacksecurity/CVE-2021-41773.svg)
+- [https://github.com/mah4nzfr/CVE-2021-41773](https://github.com/mah4nzfr/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/mah4nzfr/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/mah4nzfr/CVE-2021-41773.svg)
+- [https://github.com/Park123r/CVE-2021-41773](https://github.com/Park123r/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/Park123r/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/Park123r/CVE-2021-41773.svg)
 
 
-## CVE-2021-3129
- Ignition before 2.5.2, as used in Laravel and other products, allows unauthenticated remote attackers to execute arbitrary code because of insecure usage of file_get_contents() and file_put_contents(). This is exploitable on sites using debug mode with Laravel before 8.4.2.
+## CVE-2020-1472
+When the second phase of Windows updates become available in Q1 2021, customers will be notified via a revision to this security vulnerability. If you wish to be notified when these updates are released, we recommend that you register for the security notifications mailer to be alerted of content changes to this advisory. See Microsoft Technical Security Notifications.
 
-- [https://github.com/cchiaravalentini/CVE-2021-3129](https://github.com/cchiaravalentini/CVE-2021-3129) :  ![starts](https://img.shields.io/github/stars/cchiaravalentini/CVE-2021-3129.svg) ![forks](https://img.shields.io/github/forks/cchiaravalentini/CVE-2021-3129.svg)
-
-
-## CVE-2020-17530
- Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution. Affected software : Apache Struts 2.0.0 - Struts 2.5.25.
-
-- [https://github.com/nth347/struts2-CVE-2020-17530](https://github.com/nth347/struts2-CVE-2020-17530) :  ![starts](https://img.shields.io/github/stars/nth347/struts2-CVE-2020-17530.svg) ![forks](https://img.shields.io/github/forks/nth347/struts2-CVE-2020-17530.svg)
+- [https://github.com/erk3/zeroscan](https://github.com/erk3/zeroscan) :  ![starts](https://img.shields.io/github/stars/erk3/zeroscan.svg) ![forks](https://img.shields.io/github/forks/erk3/zeroscan.svg)
 
 
-## CVE-2020-14008
- Zoho ManageEngine Applications Manager 14710 and before allows an authenticated admin user to upload a vulnerable jar in a specific location, which leads to remote code execution.
+## CVE-2018-12533
+ JBoss RichFaces 3.1.0 through 3.3.4 allows unauthenticated remote attackers to inject expression language (EL) expressions and execute arbitrary Java code via a /DATA/ substring in a path with an org.richfaces.renderkit.html.Paint2DResource$ImageData object, aka RF-14310.
 
-- [https://github.com/raflesiait/CVE-2020-14008_ManageEngine](https://github.com/raflesiait/CVE-2020-14008_ManageEngine) :  ![starts](https://img.shields.io/github/stars/raflesiait/CVE-2020-14008_ManageEngine.svg) ![forks](https://img.shields.io/github/forks/raflesiait/CVE-2020-14008_ManageEngine.svg)
+- [https://github.com/arslanben/richfaces-paint2d-lab](https://github.com/arslanben/richfaces-paint2d-lab) :  ![starts](https://img.shields.io/github/stars/arslanben/richfaces-paint2d-lab.svg) ![forks](https://img.shields.io/github/forks/arslanben/richfaces-paint2d-lab.svg)
 
 
-## CVE-2013-2251
- Apache Struts 2.0.0 through 2.3.15 allows remote attackers to execute arbitrary OGNL expressions via a parameter with a crafted (1) action:, (2) redirect:, or (3) redirectAction: prefix.
+## CVE-2017-9841
+ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows remote attackers to execute arbitrary PHP code via HTTP POST data beginning with a "?php " substring, as demonstrated by an attack on a site with an exposed /vendor folder, i.e., external access to the /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php URI.
 
-- [https://github.com/nth347/struts2-CVE-2013-2251](https://github.com/nth347/struts2-CVE-2013-2251) :  ![starts](https://img.shields.io/github/stars/nth347/struts2-CVE-2013-2251.svg) ![forks](https://img.shields.io/github/forks/nth347/struts2-CVE-2013-2251.svg)
+- [https://github.com/CheLover86/CVE-2017-9841](https://github.com/CheLover86/CVE-2017-9841) :  ![starts](https://img.shields.io/github/stars/CheLover86/CVE-2017-9841.svg) ![forks](https://img.shields.io/github/forks/CheLover86/CVE-2017-9841.svg)
+
+
+## CVE-2014-6271
+ GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka "ShellShock."  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
+
+- [https://github.com/JohnRyk/ICMPShock3](https://github.com/JohnRyk/ICMPShock3) :  ![starts](https://img.shields.io/github/stars/JohnRyk/ICMPShock3.svg) ![forks](https://img.shields.io/github/forks/JohnRyk/ICMPShock3.svg)
 
