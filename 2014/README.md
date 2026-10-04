@@ -376,8 +376,6 @@
 
 - [https://github.com/DrHaitham/CVE-2014-6271-Shellshock-](https://github.com/DrHaitham/CVE-2014-6271-Shellshock-) : ![starts](https://img.shields.io/github/stars/DrHaitham/CVE-2014-6271-Shellshock-.svg) ![forks](https://img.shields.io/github/forks/DrHaitham/CVE-2014-6271-Shellshock-.svg)
 
-- [https://github.com/Vaibhav91one/shellshock-cve-lab](https://github.com/Vaibhav91one/shellshock-cve-lab) : ![starts](https://img.shields.io/github/stars/Vaibhav91one/shellshock-cve-lab.svg) ![forks](https://img.shields.io/github/forks/Vaibhav91one/shellshock-cve-lab.svg)
-
 - [https://github.com/shawntns/exploit-CVE-2014-6271](https://github.com/shawntns/exploit-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/shawntns/exploit-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/shawntns/exploit-CVE-2014-6271.svg)
 
 - [https://github.com/hanmin0512/CVE-2014-6271_pwnable](https://github.com/hanmin0512/CVE-2014-6271_pwnable) : ![starts](https://img.shields.io/github/stars/hanmin0512/CVE-2014-6271_pwnable.svg) ![forks](https://img.shields.io/github/forks/hanmin0512/CVE-2014-6271_pwnable.svg)
@@ -398,9 +396,9 @@
 
 - [https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271](https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/w4fz5uck5/ShockZaum-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/w4fz5uck5/ShockZaum-CVE-2014-6271.svg)
 
-- [https://github.com/alexgar207/Shellshock-Attack-CVE--2014-6271-](https://github.com/alexgar207/Shellshock-Attack-CVE--2014-6271-) : ![starts](https://img.shields.io/github/stars/alexgar207/Shellshock-Attack-CVE--2014-6271-.svg) ![forks](https://img.shields.io/github/forks/alexgar207/Shellshock-Attack-CVE--2014-6271-.svg)
-
 - [https://github.com/jblaine/cookbook-bash-CVE-2014-6271](https://github.com/jblaine/cookbook-bash-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/jblaine/cookbook-bash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/jblaine/cookbook-bash-CVE-2014-6271.svg)
+
+- [https://github.com/alexgar207/Shellshock-Attack-CVE--2014-6271-](https://github.com/alexgar207/Shellshock-Attack-CVE--2014-6271-) : ![starts](https://img.shields.io/github/stars/alexgar207/Shellshock-Attack-CVE--2014-6271-.svg) ![forks](https://img.shields.io/github/forks/alexgar207/Shellshock-Attack-CVE--2014-6271-.svg)
 
 - [https://github.com/ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check) : ![starts](https://img.shields.io/github/stars/ilismal/Nessus_CVE-2014-6271_check.svg) ![forks](https://img.shields.io/github/forks/ilismal/Nessus_CVE-2014-6271_check.svg)
 
@@ -449,6 +447,8 @@
 - [https://github.com/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor](https://github.com/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor) : ![starts](https://img.shields.io/github/stars/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor.svg) ![forks](https://img.shields.io/github/forks/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor.svg)
 
 - [https://github.com/JohnRyk/ICMPShock3](https://github.com/JohnRyk/ICMPShock3) : ![starts](https://img.shields.io/github/stars/JohnRyk/ICMPShock3.svg) ![forks](https://img.shields.io/github/forks/JohnRyk/ICMPShock3.svg)
+
+- [https://github.com/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report](https://github.com/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report) : ![starts](https://img.shields.io/github/stars/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report.svg) ![forks](https://img.shields.io/github/forks/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report.svg)
 
 ## CVE-2014-5460
  Unrestricted file upload vulnerability in the Tribulant Slideshow Gallery plugin before 1.4.7 for WordPress allows remote authenticated users to execute arbitrary code by uploading a PHP file, then accessing it via a direct request to the file in wp-content/uploads/slideshow-gallery/.
@@ -997,9 +997,9 @@
 
 - [https://github.com/vortextube/ssl_scanner](https://github.com/vortextube/ssl_scanner) : ![starts](https://img.shields.io/github/stars/vortextube/ssl_scanner.svg) ![forks](https://img.shields.io/github/forks/vortextube/ssl_scanner.svg)
 
-- [https://github.com/Xyl2k/CVE-2014-0160-Chrome-Plugin](https://github.com/Xyl2k/CVE-2014-0160-Chrome-Plugin) : ![starts](https://img.shields.io/github/stars/Xyl2k/CVE-2014-0160-Chrome-Plugin.svg) ![forks](https://img.shields.io/github/forks/Xyl2k/CVE-2014-0160-Chrome-Plugin.svg)
-
 - [https://github.com/sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix) : ![starts](https://img.shields.io/github/stars/sammyfung/openssl-heartbleed-fix.svg) ![forks](https://img.shields.io/github/forks/sammyfung/openssl-heartbleed-fix.svg)
+
+- [https://github.com/Xyl2k/CVE-2014-0160-Chrome-Plugin](https://github.com/Xyl2k/CVE-2014-0160-Chrome-Plugin) : ![starts](https://img.shields.io/github/stars/Xyl2k/CVE-2014-0160-Chrome-Plugin.svg) ![forks](https://img.shields.io/github/forks/Xyl2k/CVE-2014-0160-Chrome-Plugin.svg)
 
 - [https://github.com/proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention) : ![starts](https://img.shields.io/github/stars/proactiveRISK/heartbleed-extention.svg) ![forks](https://img.shields.io/github/forks/proactiveRISK/heartbleed-extention.svg)
 
