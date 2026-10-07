@@ -17,6 +17,11 @@
 
 - [https://github.com/lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862) : ![starts](https://img.shields.io/github/stars/lol-fi/cve-2011-4862.svg) ![forks](https://img.shields.io/github/forks/lol-fi/cve-2011-4862.svg)
 
+## CVE-2011-4825
+ Static code injection vulnerability in inc/function.base.php in Ajax File and Image Manager before 1.1, as used in tinymce before 1.4.2, phpMyFAQ 2.6 before 2.6.19 and 2.7 before 2.7.1, and possibly other products, allows remote attackers to inject arbitrary PHP code into data.php via crafted parameters.
+
+- [https://github.com/XavLimSG/Zenphoto-1.4.1.4-CVE-2011-4825-RCE](https://github.com/XavLimSG/Zenphoto-1.4.1.4-CVE-2011-4825-RCE) : ![starts](https://img.shields.io/github/stars/XavLimSG/Zenphoto-1.4.1.4-CVE-2011-4825-RCE.svg) ![forks](https://img.shields.io/github/forks/XavLimSG/Zenphoto-1.4.1.4-CVE-2011-4825-RCE.svg)
+
 ## CVE-2011-4367
  Multiple directory traversal vulnerabilities in MyFaces JavaServer Faces (JSF) in Apache MyFaces Core 2.0.x before 2.0.12 and 2.1.x before 2.1.6 allow remote attackers to read arbitrary files via a .. (dot dot) in the (1) ln parameter to faces/javax.faces.resource/web.xml or (2) the PATH_INFO to faces/javax.faces.resource/.
 
@@ -86,6 +91,8 @@
 
 - [https://github.com/Lynk4/CVE-2011-2523](https://github.com/Lynk4/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/Lynk4/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Lynk4/CVE-2011-2523.svg)
 
+- [https://github.com/Maalfer/vsftpd-2.3.4-exploit](https://github.com/Maalfer/vsftpd-2.3.4-exploit) : ![starts](https://img.shields.io/github/stars/Maalfer/vsftpd-2.3.4-exploit.svg) ![forks](https://img.shields.io/github/forks/Maalfer/vsftpd-2.3.4-exploit.svg)
+
 - [https://github.com/BolivarJ/CVE-2011-2523](https://github.com/BolivarJ/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/BolivarJ/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/BolivarJ/CVE-2011-2523.svg)
 
 - [https://github.com/4m3rr0r/CVE-2011-2523-poc](https://github.com/4m3rr0r/CVE-2011-2523-poc) : ![starts](https://img.shields.io/github/stars/4m3rr0r/CVE-2011-2523-poc.svg) ![forks](https://img.shields.io/github/forks/4m3rr0r/CVE-2011-2523-poc.svg)
@@ -120,9 +127,9 @@
 
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
-- [https://github.com/hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/hklabCR/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/hklabCR/CVE-2011-2523.svg)
-
 - [https://github.com/0xSojalSec/CVE-2011-2523](https://github.com/0xSojalSec/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/0xSojalSec/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/CVE-2011-2523.svg)
+
+- [https://github.com/hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/hklabCR/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/hklabCR/CVE-2011-2523.svg)
 
 - [https://github.com/sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/sug4r-wr41th/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/sug4r-wr41th/CVE-2011-2523.svg)
 
