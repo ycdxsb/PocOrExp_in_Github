@@ -99803,6 +99803,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/ExploitCN/CVE-2013-3660-x64-WIN7](https://github.com/ExploitCN/CVE-2013-3660-x64-WIN7) : ![starts](https://img.shields.io/github/stars/ExploitCN/CVE-2013-3660-x64-WIN7.svg) ![forks](https://img.shields.io/github/forks/ExploitCN/CVE-2013-3660-x64-WIN7.svg)
 
+- [https://github.com/kikozz/CVE-2013-3660-win32k.sys](https://github.com/kikozz/CVE-2013-3660-win32k.sys) : ![starts](https://img.shields.io/github/stars/kikozz/CVE-2013-3660-win32k.sys.svg) ![forks](https://img.shields.io/github/forks/kikozz/CVE-2013-3660-win32k.sys.svg)
+
 ## CVE-2013-3651
  LOCKON EC-CUBE 2.11.2 through 2.12.4 allows remote attackers to conduct unspecified PHP code-injection attacks via a crafted string, related to data/class/SC_CheckError.php and data/class/SC_FormParam.php.
 
