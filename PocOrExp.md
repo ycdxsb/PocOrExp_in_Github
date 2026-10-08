@@ -102097,11 +102097,6 @@ This issue affects Apache HTTP Server 2.4.54 and earlier.
 - [https://github.com/gilberto47831/Network-Filesystem-Forensics](https://github.com/gilberto47831/Network-Filesystem-Forensics) : ![starts](https://img.shields.io/github/stars/gilberto47831/Network-Filesystem-Forensics.svg) ![forks](https://img.shields.io/github/forks/gilberto47831/Network-Filesystem-Forensics.svg)
 
 ## 2000
-## CVE-2000-0979
- File and Print Sharing service in Windows 95, Windows 98, and Windows Me does not properly check the password for a file share, which allows remote attackers to bypass share access controls by sending a 1-byte password that matches the first character of the real password, aka the "Share Level Password" vulnerability.
-
-- [https://github.com/Z6543/CVE-2000-0979](https://github.com/Z6543/CVE-2000-0979) : ![starts](https://img.shields.io/github/stars/Z6543/CVE-2000-0979.svg) ![forks](https://img.shields.io/github/forks/Z6543/CVE-2000-0979.svg)
-
 ## CVE-2000-0649
  IIS 4.0 allows remote attackers to obtain the internal IP address of the server via an HTTP 1.0 request for a web page which is protected by basic authentication and has no realm defined.
 
