@@ -98914,9 +98914,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/Gobinath-B/SHELL-SCHOCK](https://github.com/Gobinath-B/SHELL-SCHOCK) : ![starts](https://img.shields.io/github/stars/Gobinath-B/SHELL-SCHOCK.svg) ![forks](https://img.shields.io/github/forks/Gobinath-B/SHELL-SCHOCK.svg)
 
-- [https://github.com/gina-alaska/bash-cve-2014-7169-cookbook](https://github.com/gina-alaska/bash-cve-2014-7169-cookbook) : ![starts](https://img.shields.io/github/stars/gina-alaska/bash-cve-2014-7169-cookbook.svg) ![forks](https://img.shields.io/github/forks/gina-alaska/bash-cve-2014-7169-cookbook.svg)
-
 - [https://github.com/Kushiro45/shellshock-poc-cve-2014-7169](https://github.com/Kushiro45/shellshock-poc-cve-2014-7169) : ![starts](https://img.shields.io/github/stars/Kushiro45/shellshock-poc-cve-2014-7169.svg) ![forks](https://img.shields.io/github/forks/Kushiro45/shellshock-poc-cve-2014-7169.svg)
+
+- [https://github.com/gina-alaska/bash-cve-2014-7169-cookbook](https://github.com/gina-alaska/bash-cve-2014-7169-cookbook) : ![starts](https://img.shields.io/github/stars/gina-alaska/bash-cve-2014-7169-cookbook.svg) ![forks](https://img.shields.io/github/forks/gina-alaska/bash-cve-2014-7169-cookbook.svg)
 
 - [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) : ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
 
@@ -98961,9 +98961,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/zhsh9/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/zhsh9/CVE-2014-6287.svg)
 
-- [https://github.com/10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/10cks/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2014-6287.svg)
-
 - [https://github.com/jagg3rsec/CVE-2014-6287](https://github.com/jagg3rsec/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/jagg3rsec/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/jagg3rsec/CVE-2014-6287.svg)
+
+- [https://github.com/10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/10cks/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2014-6287.svg)
 
 - [https://github.com/nika0x38/CVE-2014-6287](https://github.com/nika0x38/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/nika0x38/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/nika0x38/CVE-2014-6287.svg)
 
@@ -99076,9 +99076,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/AlissonFaoli/Shellshock](https://github.com/AlissonFaoli/Shellshock) : ![starts](https://img.shields.io/github/stars/AlissonFaoli/Shellshock.svg) ![forks](https://img.shields.io/github/forks/AlissonFaoli/Shellshock.svg)
 
-- [https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock) : ![starts](https://img.shields.io/github/stars/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock.svg) ![forks](https://img.shields.io/github/forks/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock.svg)
-
 - [https://github.com/knightc0de/Shellshock_vuln_Exploit](https://github.com/knightc0de/Shellshock_vuln_Exploit) : ![starts](https://img.shields.io/github/stars/knightc0de/Shellshock_vuln_Exploit.svg) ![forks](https://img.shields.io/github/forks/knightc0de/Shellshock_vuln_Exploit.svg)
+
+- [https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock](https://github.com/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock) : ![starts](https://img.shields.io/github/stars/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock.svg) ![forks](https://img.shields.io/github/forks/Industri4l-H3ll-Xpl0it3rs/CVE-2014-6271-Shellshock.svg)
 
 - [https://github.com/moften/CVE-2014-6271](https://github.com/moften/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/moften/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/moften/CVE-2014-6271.svg)
 
@@ -99090,19 +99090,19 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/kaleth4/-CVE-2014-6271](https://github.com/kaleth4/-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/kaleth4/-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kaleth4/-CVE-2014-6271.svg)
 
+- [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) : ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
+
 - [https://github.com/mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/mattclegg/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mattclegg/CVE-2014-6271.svg)
 
 - [https://github.com/kaleth4/CVE-2014-6271](https://github.com/kaleth4/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/kaleth4/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kaleth4/CVE-2014-6271.svg)
 
-- [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) : ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
-
-- [https://github.com/woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/woltage/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/woltage/CVE-2014-6271.svg)
-
-- [https://github.com/Aruthw/CVE-2014-6271](https://github.com/Aruthw/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Aruthw/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Aruthw/CVE-2014-6271.svg)
+- [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
 
 - [https://github.com/kowshik-sundararajan/CVE-2014-6271](https://github.com/kowshik-sundararajan/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/kowshik-sundararajan/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kowshik-sundararajan/CVE-2014-6271.svg)
 
-- [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
+- [https://github.com/Aruthw/CVE-2014-6271](https://github.com/Aruthw/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Aruthw/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Aruthw/CVE-2014-6271.svg)
+
+- [https://github.com/woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/woltage/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/woltage/CVE-2014-6271.svg)
 
 - [https://github.com/dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes) : ![starts](https://img.shields.io/github/stars/dlitz/bash-cve-2014-6271-fixes.svg) ![forks](https://img.shields.io/github/forks/dlitz/bash-cve-2014-6271-fixes.svg)
 
@@ -99138,13 +99138,15 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/huanlu/cve-2014-6271-huan-lu](https://github.com/huanlu/cve-2014-6271-huan-lu) : ![starts](https://img.shields.io/github/stars/huanlu/cve-2014-6271-huan-lu.svg) ![forks](https://img.shields.io/github/forks/huanlu/cve-2014-6271-huan-lu.svg)
 
+- [https://github.com/CyberCTF/vulhub-bash-cve-2014-6271](https://github.com/CyberCTF/vulhub-bash-cve-2014-6271) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-bash-cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-bash-cve-2014-6271.svg)
+
 - [https://github.com/ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3) : ![starts](https://img.shields.io/github/stars/ryancnelson/patched-bash-4.3.svg) ![forks](https://img.shields.io/github/forks/ryancnelson/patched-bash-4.3.svg)
 
 - [https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg)
 
-- [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) : ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
-
 - [https://github.com/anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host) : ![starts](https://img.shields.io/github/stars/anujbhan/shellshock-victim-host.svg) ![forks](https://img.shields.io/github/forks/anujbhan/shellshock-victim-host.svg)
+
+- [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) : ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
 
 - [https://github.com/teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit) : ![starts](https://img.shields.io/github/stars/teedeedubya/bash-fix-exploit.svg) ![forks](https://img.shields.io/github/forks/teedeedubya/bash-fix-exploit.svg)
 
@@ -99181,8 +99183,6 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 - [https://github.com/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor](https://github.com/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor) : ![starts](https://img.shields.io/github/stars/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor.svg) ![forks](https://img.shields.io/github/forks/HevenTafese/Penetration-Testing-Walkthrough-Hacksudo-Thor.svg)
 
 - [https://github.com/JohnRyk/ICMPShock3](https://github.com/JohnRyk/ICMPShock3) : ![starts](https://img.shields.io/github/stars/JohnRyk/ICMPShock3.svg) ![forks](https://img.shields.io/github/forks/JohnRyk/ICMPShock3.svg)
-
-- [https://github.com/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report](https://github.com/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report) : ![starts](https://img.shields.io/github/stars/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report.svg) ![forks](https://img.shields.io/github/forks/cyberexpert111/Blind-SSRF-to-Remote-Code-Execution-Shellshock-Professional-Bug-Bounty-Report.svg)
 
 ## CVE-2014-5460
  Unrestricted file upload vulnerability in the Tribulant Slideshow Gallery plugin before 1.4.7 for WordPress allows remote authenticated users to execute arbitrary code by uploading a PHP file, then accessing it via a direct request to the file in wp-content/uploads/slideshow-gallery/.
@@ -99349,6 +99349,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/joaomorenorf/CVE-2014-3704](https://github.com/joaomorenorf/CVE-2014-3704) : ![starts](https://img.shields.io/github/stars/joaomorenorf/CVE-2014-3704.svg) ![forks](https://img.shields.io/github/forks/joaomorenorf/CVE-2014-3704.svg)
 
+- [https://github.com/CyberCTF/vulhub-drupal-cve-2014-3704](https://github.com/CyberCTF/vulhub-drupal-cve-2014-3704) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-drupal-cve-2014-3704.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-drupal-cve-2014-3704.svg)
+
 - [https://github.com/AleDiBen/Drupalgeddon](https://github.com/AleDiBen/Drupalgeddon) : ![starts](https://img.shields.io/github/stars/AleDiBen/Drupalgeddon.svg) ![forks](https://img.shields.io/github/forks/AleDiBen/Drupalgeddon.svg)
 
 - [https://github.com/adfortunato/metasploitable3-pentest-writeup](https://github.com/adfortunato/metasploitable3-pentest-writeup) : ![starts](https://img.shields.io/github/stars/adfortunato/metasploitable3-pentest-writeup.svg) ![forks](https://img.shields.io/github/forks/adfortunato/metasploitable3-pentest-writeup.svg)
@@ -99456,6 +99458,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 - [https://github.com/echohtp/ElasticSearch-CVE-2014-3120](https://github.com/echohtp/ElasticSearch-CVE-2014-3120) : ![starts](https://img.shields.io/github/stars/echohtp/ElasticSearch-CVE-2014-3120.svg) ![forks](https://img.shields.io/github/forks/echohtp/ElasticSearch-CVE-2014-3120.svg)
 
 - [https://github.com/jeffgeiger/es_inject](https://github.com/jeffgeiger/es_inject) : ![starts](https://img.shields.io/github/stars/jeffgeiger/es_inject.svg) ![forks](https://img.shields.io/github/forks/jeffgeiger/es_inject.svg)
+
+- [https://github.com/CyberCTF/vulhub-elasticsearch-cve-2014-3120](https://github.com/CyberCTF/vulhub-elasticsearch-cve-2014-3120) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-elasticsearch-cve-2014-3120.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-elasticsearch-cve-2014-3120.svg)
 
 - [https://github.com/xpgdgit/CVE-2014-3120](https://github.com/xpgdgit/CVE-2014-3120) : ![starts](https://img.shields.io/github/stars/xpgdgit/CVE-2014-3120.svg) ![forks](https://img.shields.io/github/forks/xpgdgit/CVE-2014-3120.svg)
 
@@ -99767,6 +99771,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 - [https://github.com/siddolo/knockbleed](https://github.com/siddolo/knockbleed) : ![starts](https://img.shields.io/github/stars/siddolo/knockbleed.svg) ![forks](https://img.shields.io/github/forks/siddolo/knockbleed.svg)
 
 - [https://github.com/MrE-Fog/CVE-2014-0160-Chrome-Plugin](https://github.com/MrE-Fog/CVE-2014-0160-Chrome-Plugin) : ![starts](https://img.shields.io/github/stars/MrE-Fog/CVE-2014-0160-Chrome-Plugin.svg) ![forks](https://img.shields.io/github/forks/MrE-Fog/CVE-2014-0160-Chrome-Plugin.svg)
+
+- [https://github.com/CyberCTF/vulhub-openssl-cve-2014-0160](https://github.com/CyberCTF/vulhub-openssl-cve-2014-0160) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-openssl-cve-2014-0160.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-openssl-cve-2014-0160.svg)
 
 - [https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang) : ![starts](https://img.shields.io/github/stars/marstornado/cve-2014-0160-Yunfeng-Jiang.svg) ![forks](https://img.shields.io/github/forks/marstornado/cve-2014-0160-Yunfeng-Jiang.svg)
 
