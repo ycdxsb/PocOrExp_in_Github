@@ -96193,6 +96193,11 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/asaotomo/CVE-2016-10140-Zoneminder-Poc](https://github.com/asaotomo/CVE-2016-10140-Zoneminder-Poc) : ![starts](https://img.shields.io/github/stars/asaotomo/CVE-2016-10140-Zoneminder-Poc.svg) ![forks](https://img.shields.io/github/forks/asaotomo/CVE-2016-10140-Zoneminder-Poc.svg)
 
+## CVE-2016-10134
+ SQL injection vulnerability in Zabbix before 2.2.14 and 3.0 before 3.0.4 allows remote attackers to execute arbitrary SQL commands via the toggle_ids array parameter in latest.php.
+
+- [https://github.com/CyberCTF/vulhub-zabbix-cve-2016-10134](https://github.com/CyberCTF/vulhub-zabbix-cve-2016-10134) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-zabbix-cve-2016-10134.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-zabbix-cve-2016-10134.svg)
+
 ## CVE-2016-10045
  The isMail transport in PHPMailer before 5.2.20 might allow remote attackers to pass extra parameters to the mail command and consequently execute arbitrary code by leveraging improper interaction between the escapeshellarg function and internal escaping performed in the mail function in PHP. NOTE: this vulnerability exists because of an incorrect fix for CVE-2016-10033.
 
@@ -96230,11 +96235,11 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/cved-sources/cve-2016-10033](https://github.com/cved-sources/cve-2016-10033) : ![starts](https://img.shields.io/github/stars/cved-sources/cve-2016-10033.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2016-10033.svg)
 
+- [https://github.com/ElnurBDa/CVE-2016-10033](https://github.com/ElnurBDa/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/ElnurBDa/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/ElnurBDa/CVE-2016-10033.svg)
+
 - [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
 
 - [https://github.com/blue-chocolates/CVE-2016-10033](https://github.com/blue-chocolates/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/blue-chocolates/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/blue-chocolates/CVE-2016-10033.svg)
-
-- [https://github.com/ElnurBDa/CVE-2016-10033](https://github.com/ElnurBDa/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/ElnurBDa/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/ElnurBDa/CVE-2016-10033.svg)
 
 - [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
 
@@ -96826,9 +96831,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/ASUKA39/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ASUKA39/CVE-2016-5195.svg)
 
-- [https://github.com/xpcmdshell/derpyc0w](https://github.com/xpcmdshell/derpyc0w) : ![starts](https://img.shields.io/github/stars/xpcmdshell/derpyc0w.svg) ![forks](https://img.shields.io/github/forks/xpcmdshell/derpyc0w.svg)
-
 - [https://github.com/ramahmdr/dirtycow](https://github.com/ramahmdr/dirtycow) : ![starts](https://img.shields.io/github/stars/ramahmdr/dirtycow.svg) ![forks](https://img.shields.io/github/forks/ramahmdr/dirtycow.svg)
+
+- [https://github.com/xpcmdshell/derpyc0w](https://github.com/xpcmdshell/derpyc0w) : ![starts](https://img.shields.io/github/stars/xpcmdshell/derpyc0w.svg) ![forks](https://img.shields.io/github/forks/xpcmdshell/derpyc0w.svg)
 
 - [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) : ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
 
@@ -96842,9 +96847,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs) : ![starts](https://img.shields.io/github/stars/passionchenjianyegmail8/scumjrs.svg) ![forks](https://img.shields.io/github/forks/passionchenjianyegmail8/scumjrs.svg)
 
-- [https://github.com/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm](https://github.com/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm) : ![starts](https://img.shields.io/github/stars/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm.svg) ![forks](https://img.shields.io/github/forks/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm.svg)
-
 - [https://github.com/vinspiert/scumjrs](https://github.com/vinspiert/scumjrs) : ![starts](https://img.shields.io/github/stars/vinspiert/scumjrs.svg) ![forks](https://img.shields.io/github/forks/vinspiert/scumjrs.svg)
+
+- [https://github.com/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm](https://github.com/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm) : ![starts](https://img.shields.io/github/stars/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm.svg) ![forks](https://img.shields.io/github/forks/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm.svg)
 
 - [https://github.com/1equeneRise/scumjr9](https://github.com/1equeneRise/scumjr9) : ![starts](https://img.shields.io/github/stars/1equeneRise/scumjr9.svg) ![forks](https://img.shields.io/github/forks/1equeneRise/scumjr9.svg)
 
@@ -96909,6 +96914,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
  When processing authorization requests using the whitelabel views in Spring Security OAuth 2.0.0 to 2.0.9 and 1.0.0 to 1.0.5, the response_type parameter value was executed as Spring SpEL which enabled a malicious user to trigger remote code execution via the crafting of the value for response_type.
 
 - [https://github.com/tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan) : ![starts](https://img.shields.io/github/stars/tpt11fb/SpringVulScan.svg) ![forks](https://img.shields.io/github/forks/tpt11fb/SpringVulScan.svg)
+
+- [https://github.com/CyberCTF/vulhub-spring-cve-2016-4977](https://github.com/CyberCTF/vulhub-spring-cve-2016-4977) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-spring-cve-2016-4977.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-spring-cve-2016-4977.svg)
 
 - [https://github.com/N0b1e6/CVE-2016-4977-POC](https://github.com/N0b1e6/CVE-2016-4977-POC) : ![starts](https://img.shields.io/github/stars/N0b1e6/CVE-2016-4977-POC.svg) ![forks](https://img.shields.io/github/forks/N0b1e6/CVE-2016-4977-POC.svg)
 
@@ -97022,6 +97029,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/m3terpreter/CVE-2016-4437](https://github.com/m3terpreter/CVE-2016-4437) : ![starts](https://img.shields.io/github/stars/m3terpreter/CVE-2016-4437.svg) ![forks](https://img.shields.io/github/forks/m3terpreter/CVE-2016-4437.svg)
 
+- [https://github.com/CyberCTF/vulhub-shiro-cve-2016-4437](https://github.com/CyberCTF/vulhub-shiro-cve-2016-4437) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-shiro-cve-2016-4437.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-shiro-cve-2016-4437.svg)
+
 - [https://github.com/xiaoqiMikko/shiro-check](https://github.com/xiaoqiMikko/shiro-check) : ![starts](https://img.shields.io/github/stars/xiaoqiMikko/shiro-check.svg) ![forks](https://img.shields.io/github/forks/xiaoqiMikko/shiro-check.svg)
 
 ## CVE-2016-4117
@@ -97096,6 +97105,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 - [https://github.com/PandH4cker/pandagik](https://github.com/PandH4cker/pandagik) : ![starts](https://img.shields.io/github/stars/PandH4cker/pandagik.svg) ![forks](https://img.shields.io/github/forks/PandH4cker/pandagik.svg)
 
 - [https://github.com/tommiionfire/CVE-2016-3714](https://github.com/tommiionfire/CVE-2016-3714) : ![starts](https://img.shields.io/github/stars/tommiionfire/CVE-2016-3714.svg) ![forks](https://img.shields.io/github/forks/tommiionfire/CVE-2016-3714.svg)
+
+- [https://github.com/CyberCTF/vulhub-imagemagick-cve-2016-3714](https://github.com/CyberCTF/vulhub-imagemagick-cve-2016-3714) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-imagemagick-cve-2016-3714.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-imagemagick-cve-2016-3714.svg)
 
 - [https://github.com/jackdpeterson/imagick_secure_puppet](https://github.com/jackdpeterson/imagick_secure_puppet) : ![starts](https://img.shields.io/github/stars/jackdpeterson/imagick_secure_puppet.svg) ![forks](https://img.shields.io/github/forks/jackdpeterson/imagick_secure_puppet.svg)
 
@@ -97176,6 +97187,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 - [https://github.com/cyberaguiar/CVE-2016-3088](https://github.com/cyberaguiar/CVE-2016-3088) : ![starts](https://img.shields.io/github/stars/cyberaguiar/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/cyberaguiar/CVE-2016-3088.svg)
 
 - [https://github.com/cl4ym0re/CVE-2016-3088](https://github.com/cl4ym0re/CVE-2016-3088) : ![starts](https://img.shields.io/github/stars/cl4ym0re/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/cl4ym0re/CVE-2016-3088.svg)
+
+- [https://github.com/CyberCTF/vulhub-activemq-cve-2016-3088](https://github.com/CyberCTF/vulhub-activemq-cve-2016-3088) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-activemq-cve-2016-3088.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-activemq-cve-2016-3088.svg)
 
 - [https://github.com/vonderchild/CVE-2016-3088](https://github.com/vonderchild/CVE-2016-3088) : ![starts](https://img.shields.io/github/stars/vonderchild/CVE-2016-3088.svg) ![forks](https://img.shields.io/github/forks/vonderchild/CVE-2016-3088.svg)
 
