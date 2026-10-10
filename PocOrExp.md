@@ -92876,11 +92876,11 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/ieee0824/CVE-2017-1000117-sl](https://github.com/ieee0824/CVE-2017-1000117-sl) : ![starts](https://img.shields.io/github/stars/ieee0824/CVE-2017-1000117-sl.svg) ![forks](https://img.shields.io/github/forks/ieee0824/CVE-2017-1000117-sl.svg)
 
-- [https://github.com/takehaya/CVE-2017-1000117](https://github.com/takehaya/CVE-2017-1000117) : ![starts](https://img.shields.io/github/stars/takehaya/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/takehaya/CVE-2017-1000117.svg)
-
 - [https://github.com/chu1337/CVE-2017-1000117](https://github.com/chu1337/CVE-2017-1000117) : ![starts](https://img.shields.io/github/stars/chu1337/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/chu1337/CVE-2017-1000117.svg)
 
 - [https://github.com/Jerry-zhuang/CVE-2017-1000117](https://github.com/Jerry-zhuang/CVE-2017-1000117) : ![starts](https://img.shields.io/github/stars/Jerry-zhuang/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/Jerry-zhuang/CVE-2017-1000117.svg)
+
+- [https://github.com/takehaya/CVE-2017-1000117](https://github.com/takehaya/CVE-2017-1000117) : ![starts](https://img.shields.io/github/stars/takehaya/CVE-2017-1000117.svg) ![forks](https://img.shields.io/github/forks/takehaya/CVE-2017-1000117.svg)
 
 - [https://github.com/Shadow5523/CVE-2017-1000117-test](https://github.com/Shadow5523/CVE-2017-1000117-test) : ![starts](https://img.shields.io/github/stars/Shadow5523/CVE-2017-1000117-test.svg) ![forks](https://img.shields.io/github/forks/Shadow5523/CVE-2017-1000117-test.svg)
 
@@ -93148,9 +93148,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/anldori/CVE-2017-16995](https://github.com/anldori/CVE-2017-16995) : ![starts](https://img.shields.io/github/stars/anldori/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/anldori/CVE-2017-16995.svg)
 
-- [https://github.com/mareks1007/cve-2017-16995](https://github.com/mareks1007/cve-2017-16995) : ![starts](https://img.shields.io/github/stars/mareks1007/cve-2017-16995.svg) ![forks](https://img.shields.io/github/forks/mareks1007/cve-2017-16995.svg)
-
 - [https://github.com/WhatsWrongAndWhy/CVE-2017-16995](https://github.com/WhatsWrongAndWhy/CVE-2017-16995) : ![starts](https://img.shields.io/github/stars/WhatsWrongAndWhy/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/WhatsWrongAndWhy/CVE-2017-16995.svg)
+
+- [https://github.com/mareks1007/cve-2017-16995](https://github.com/mareks1007/cve-2017-16995) : ![starts](https://img.shields.io/github/stars/mareks1007/cve-2017-16995.svg) ![forks](https://img.shields.io/github/forks/mareks1007/cve-2017-16995.svg)
 
 - [https://github.com/fei9747/CVE-2017-16995](https://github.com/fei9747/CVE-2017-16995) : ![starts](https://img.shields.io/github/stars/fei9747/CVE-2017-16995.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2017-16995.svg)
 
@@ -93274,9 +93274,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 ## CVE-2017-16224
  st is a module for serving static files. An attacker is able to craft a request that results in an HTTP 301 (redirect) to an entirely different domain. A request for: http://some.server.com//nodesecurity.org/%2e%2e would result in a 301 to //nodesecurity.org/%2e%2e which most browsers treat as a proper redirect as // is translated into the current schema being used. Mitigating factor: In order for this to work, st must be serving from the root of a server (/) rather than the typical sub directory (/static/) and the redirect URL will end with some form of URL encoded .. ("%2e%2e", "%2e.", ".%2e").
 
-- [https://github.com/CQ-Tools/CVE-2017-16224-unfixed](https://github.com/CQ-Tools/CVE-2017-16224-unfixed) : ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2017-16224-unfixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2017-16224-unfixed.svg)
-
 - [https://github.com/CQ-Tools/CVE-2017-16224-fixed](https://github.com/CQ-Tools/CVE-2017-16224-fixed) : ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2017-16224-fixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2017-16224-fixed.svg)
+
+- [https://github.com/CQ-Tools/CVE-2017-16224-unfixed](https://github.com/CQ-Tools/CVE-2017-16224-unfixed) : ![starts](https://img.shields.io/github/stars/CQ-Tools/CVE-2017-16224-unfixed.svg) ![forks](https://img.shields.io/github/forks/CQ-Tools/CVE-2017-16224-unfixed.svg)
 
 - [https://github.com/ossf-cve-benchmark/CVE-2017-16224](https://github.com/ossf-cve-benchmark/CVE-2017-16224) : ![starts](https://img.shields.io/github/stars/ossf-cve-benchmark/CVE-2017-16224.svg) ![forks](https://img.shields.io/github/forks/ossf-cve-benchmark/CVE-2017-16224.svg)
 
@@ -93500,9 +93500,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/whisp1830/CVE-2017-15715](https://github.com/whisp1830/CVE-2017-15715) : ![starts](https://img.shields.io/github/stars/whisp1830/CVE-2017-15715.svg) ![forks](https://img.shields.io/github/forks/whisp1830/CVE-2017-15715.svg)
 
-- [https://github.com/CyberCTF/vulhub-httpd-cve-2017-15715](https://github.com/CyberCTF/vulhub-httpd-cve-2017-15715) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-httpd-cve-2017-15715.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-httpd-cve-2017-15715.svg)
-
 - [https://github.com/ehsehs5652/CVE-2017-15715-httpd](https://github.com/ehsehs5652/CVE-2017-15715-httpd) : ![starts](https://img.shields.io/github/stars/ehsehs5652/CVE-2017-15715-httpd.svg) ![forks](https://img.shields.io/github/forks/ehsehs5652/CVE-2017-15715-httpd.svg)
+
+- [https://github.com/CyberCTF/vulhub-httpd-cve-2017-15715](https://github.com/CyberCTF/vulhub-httpd-cve-2017-15715) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-httpd-cve-2017-15715.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-httpd-cve-2017-15715.svg)
 
 ## CVE-2017-15708
  In Apache Synapse, by default no authentication is required for Java Remote Method Invocation (RMI). So Apache Synapse 3.0.1 or all previous releases (3.0.0, 2.1.0, 2.0.0, 1.2, 1.1.2, 1.1.1) allows remote code execution attacks that can be performed by injecting specially crafted serialized objects. And the presence of Apache Commons Collections 3.2.1 (commons-collections-3.2.1.jar) or previous versions in Synapse distribution makes this exploitable. To mitigate the issue, we need to limit RMI access to trusted users only. Further upgrading to 3.0.1 version will eliminate the risk of having said Commons Collection version. In Synapse 3.0.1, Commons Collection has been updated to 3.2.2 version.
@@ -93582,11 +93582,11 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/0xkr3pt0n/CVE-2017-14980](https://github.com/0xkr3pt0n/CVE-2017-14980) : ![starts](https://img.shields.io/github/stars/0xkr3pt0n/CVE-2017-14980.svg) ![forks](https://img.shields.io/github/forks/0xkr3pt0n/CVE-2017-14980.svg)
 
-- [https://github.com/DaviGSantana/CVE-2017-14980](https://github.com/DaviGSantana/CVE-2017-14980) : ![starts](https://img.shields.io/github/stars/DaviGSantana/CVE-2017-14980.svg) ![forks](https://img.shields.io/github/forks/DaviGSantana/CVE-2017-14980.svg)
+- [https://github.com/ahmedmamdouh6/CVE-2017-14980](https://github.com/ahmedmamdouh6/CVE-2017-14980) : ![starts](https://img.shields.io/github/stars/ahmedmamdouh6/CVE-2017-14980.svg) ![forks](https://img.shields.io/github/forks/ahmedmamdouh6/CVE-2017-14980.svg)
 
 - [https://github.com/TheDarthMole/CVE-2017-14980](https://github.com/TheDarthMole/CVE-2017-14980) : ![starts](https://img.shields.io/github/stars/TheDarthMole/CVE-2017-14980.svg) ![forks](https://img.shields.io/github/forks/TheDarthMole/CVE-2017-14980.svg)
 
-- [https://github.com/ahmedmamdouh6/CVE-2017-14980](https://github.com/ahmedmamdouh6/CVE-2017-14980) : ![starts](https://img.shields.io/github/stars/ahmedmamdouh6/CVE-2017-14980.svg) ![forks](https://img.shields.io/github/forks/ahmedmamdouh6/CVE-2017-14980.svg)
+- [https://github.com/DaviGSantana/CVE-2017-14980](https://github.com/DaviGSantana/CVE-2017-14980) : ![starts](https://img.shields.io/github/stars/DaviGSantana/CVE-2017-14980.svg) ![forks](https://img.shields.io/github/forks/DaviGSantana/CVE-2017-14980.svg)
 
 - [https://github.com/damariion/CVE-2017-14980.RCE](https://github.com/damariion/CVE-2017-14980.RCE) : ![starts](https://img.shields.io/github/stars/damariion/CVE-2017-14980.RCE.svg) ![forks](https://img.shields.io/github/forks/damariion/CVE-2017-14980.RCE.svg)
 
@@ -93861,6 +93861,8 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 - [https://github.com/edyekomu/CVE-2017-12615-PoC](https://github.com/edyekomu/CVE-2017-12615-PoC) : ![starts](https://img.shields.io/github/stars/edyekomu/CVE-2017-12615-PoC.svg) ![forks](https://img.shields.io/github/forks/edyekomu/CVE-2017-12615-PoC.svg)
 
 - [https://github.com/CyberCTF/vulhub-tomcat-cve-2017-12615](https://github.com/CyberCTF/vulhub-tomcat-cve-2017-12615) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-tomcat-cve-2017-12615.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-tomcat-cve-2017-12615.svg)
+
+- [https://github.com/nouhaila2030/apache-tomcat-security-audit](https://github.com/nouhaila2030/apache-tomcat-security-audit) : ![starts](https://img.shields.io/github/stars/nouhaila2030/apache-tomcat-security-audit.svg) ![forks](https://img.shields.io/github/forks/nouhaila2030/apache-tomcat-security-audit.svg)
 
 ## CVE-2017-12611
  In Apache Struts 2.0.0 through 2.3.33 and 2.5 through 2.5.10.1, using an unintentional expression in a Freemarker tag instead of string literals can lead to a RCE attack.
@@ -94365,9 +94367,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/7s26simon/CVE-2017-9805-S2-052](https://github.com/7s26simon/CVE-2017-9805-S2-052) : ![starts](https://img.shields.io/github/stars/7s26simon/CVE-2017-9805-S2-052.svg) ![forks](https://img.shields.io/github/forks/7s26simon/CVE-2017-9805-S2-052.svg)
 
-- [https://github.com/z3bd/CVE-2017-9805](https://github.com/z3bd/CVE-2017-9805) : ![starts](https://img.shields.io/github/stars/z3bd/CVE-2017-9805.svg) ![forks](https://img.shields.io/github/forks/z3bd/CVE-2017-9805.svg)
-
 - [https://github.com/Fl5xia/CVE-2017-9805](https://github.com/Fl5xia/CVE-2017-9805) : ![starts](https://img.shields.io/github/stars/Fl5xia/CVE-2017-9805.svg) ![forks](https://img.shields.io/github/forks/Fl5xia/CVE-2017-9805.svg)
+
+- [https://github.com/z3bd/CVE-2017-9805](https://github.com/z3bd/CVE-2017-9805) : ![starts](https://img.shields.io/github/stars/z3bd/CVE-2017-9805.svg) ![forks](https://img.shields.io/github/forks/z3bd/CVE-2017-9805.svg)
 
 - [https://github.com/wifido/CVE-2017-9805-Exploit](https://github.com/wifido/CVE-2017-9805-Exploit) : ![starts](https://img.shields.io/github/stars/wifido/CVE-2017-9805-Exploit.svg) ![forks](https://img.shields.io/github/forks/wifido/CVE-2017-9805-Exploit.svg)
 
@@ -95051,9 +95053,9 @@ There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote a
 
 - [https://github.com/M1a0rz/CVE-2017-7269](https://github.com/M1a0rz/CVE-2017-7269) : ![starts](https://img.shields.io/github/stars/M1a0rz/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/M1a0rz/CVE-2017-7269.svg)
 
-- [https://github.com/VanishedPeople/CVE-2017-7269](https://github.com/VanishedPeople/CVE-2017-7269) : ![starts](https://img.shields.io/github/stars/VanishedPeople/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/VanishedPeople/CVE-2017-7269.svg)
-
 - [https://github.com/mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269) : ![starts](https://img.shields.io/github/stars/mirrorblack/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/mirrorblack/CVE-2017-7269.svg)
+
+- [https://github.com/VanishedPeople/CVE-2017-7269](https://github.com/VanishedPeople/CVE-2017-7269) : ![starts](https://img.shields.io/github/stars/VanishedPeople/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/VanishedPeople/CVE-2017-7269.svg)
 
 - [https://github.com/ThanHuuTuan/CVE-2017-7269](https://github.com/ThanHuuTuan/CVE-2017-7269) : ![starts](https://img.shields.io/github/stars/ThanHuuTuan/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/ThanHuuTuan/CVE-2017-7269.svg)
 
@@ -95224,9 +95226,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/kylew1004/cve-2017-5941-poc-docker-lab](https://github.com/kylew1004/cve-2017-5941-poc-docker-lab) : ![starts](https://img.shields.io/github/stars/kylew1004/cve-2017-5941-poc-docker-lab.svg) ![forks](https://img.shields.io/github/forks/kylew1004/cve-2017-5941-poc-docker-lab.svg)
 
-- [https://github.com/f41k0n/RCE-NodeJs](https://github.com/f41k0n/RCE-NodeJs) : ![starts](https://img.shields.io/github/stars/f41k0n/RCE-NodeJs.svg) ![forks](https://img.shields.io/github/forks/f41k0n/RCE-NodeJs.svg)
-
 - [https://github.com/jimahub/scenario-c-block](https://github.com/jimahub/scenario-c-block) : ![starts](https://img.shields.io/github/stars/jimahub/scenario-c-block.svg) ![forks](https://img.shields.io/github/forks/jimahub/scenario-c-block.svg)
+
+- [https://github.com/f41k0n/RCE-NodeJs](https://github.com/f41k0n/RCE-NodeJs) : ![starts](https://img.shields.io/github/stars/f41k0n/RCE-NodeJs.svg) ![forks](https://img.shields.io/github/forks/f41k0n/RCE-NodeJs.svg)
 
 ## CVE-2017-5871
  Odoo Version = 8.0-20160726 and Version 9 is affected by: CWE-601: Open redirection. The impact is: obtain sensitive information (remote).
@@ -95511,11 +95513,11 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638) : ![starts](https://img.shields.io/github/stars/Xhendos/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Xhendos/CVE-2017-5638.svg)
 
-- [https://github.com/Dungsocool/CVE-2017-5638](https://github.com/Dungsocool/CVE-2017-5638) : ![starts](https://img.shields.io/github/stars/Dungsocool/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Dungsocool/CVE-2017-5638.svg)
-
 - [https://github.com/injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638) : ![starts](https://img.shields.io/github/stars/injcristianrojas/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/injcristianrojas/cve-2017-5638.svg)
 
 - [https://github.com/mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638) : ![starts](https://img.shields.io/github/stars/mcassano/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mcassano/cve-2017-5638.svg)
+
+- [https://github.com/Dungsocool/CVE-2017-5638](https://github.com/Dungsocool/CVE-2017-5638) : ![starts](https://img.shields.io/github/stars/Dungsocool/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/Dungsocool/CVE-2017-5638.svg)
 
 - [https://github.com/jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638) : ![starts](https://img.shields.io/github/stars/jrrombaldo/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/jrrombaldo/CVE-2017-5638.svg)
 
@@ -95531,9 +95533,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/mritunjay-k/CVE-2017-5638](https://github.com/mritunjay-k/CVE-2017-5638) : ![starts](https://img.shields.io/github/stars/mritunjay-k/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/mritunjay-k/CVE-2017-5638.svg)
 
-- [https://github.com/readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638) : ![starts](https://img.shields.io/github/stars/readloud/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/readloud/CVE-2017-5638.svg)
-
 - [https://github.com/toothbrushsoapflannelbiscuits/cve-2017-5638](https://github.com/toothbrushsoapflannelbiscuits/cve-2017-5638) : ![starts](https://img.shields.io/github/stars/toothbrushsoapflannelbiscuits/cve-2017-5638.svg) ![forks](https://img.shields.io/github/forks/toothbrushsoapflannelbiscuits/cve-2017-5638.svg)
+
+- [https://github.com/readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638) : ![starts](https://img.shields.io/github/stars/readloud/CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/readloud/CVE-2017-5638.svg)
 
 - [https://github.com/cafnet/apache-struts-v2-CVE-2017-5638](https://github.com/cafnet/apache-struts-v2-CVE-2017-5638) : ![starts](https://img.shields.io/github/stars/cafnet/apache-struts-v2-CVE-2017-5638.svg) ![forks](https://img.shields.io/github/forks/cafnet/apache-struts-v2-CVE-2017-5638.svg)
 
@@ -95544,6 +95546,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 - [https://github.com/invisiblethreat/strutser](https://github.com/invisiblethreat/strutser) : ![starts](https://img.shields.io/github/stars/invisiblethreat/strutser.svg) ![forks](https://img.shields.io/github/forks/invisiblethreat/strutser.svg)
 
 - [https://github.com/leandrocamposcardoso/CVE-2017-5638-Mass-Exploit](https://github.com/leandrocamposcardoso/CVE-2017-5638-Mass-Exploit) : ![starts](https://img.shields.io/github/stars/leandrocamposcardoso/CVE-2017-5638-Mass-Exploit.svg) ![forks](https://img.shields.io/github/forks/leandrocamposcardoso/CVE-2017-5638-Mass-Exploit.svg)
+
+- [https://github.com/NAIRBS/SC3010-Grp-33](https://github.com/NAIRBS/SC3010-Grp-33) : ![starts](https://img.shields.io/github/stars/NAIRBS/SC3010-Grp-33.svg) ![forks](https://img.shields.io/github/forks/NAIRBS/SC3010-Grp-33.svg)
 
 - [https://github.com/Majaktech/apache-struts-cve-2017-5638-project](https://github.com/Majaktech/apache-struts-cve-2017-5638-project) : ![starts](https://img.shields.io/github/stars/Majaktech/apache-struts-cve-2017-5638-project.svg) ![forks](https://img.shields.io/github/forks/Majaktech/apache-struts-cve-2017-5638-project.svg)
 
