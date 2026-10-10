@@ -100124,6 +100124,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/cyberharsh/Nginx-CVE-2013-4547](https://github.com/cyberharsh/Nginx-CVE-2013-4547) : ![starts](https://img.shields.io/github/stars/cyberharsh/Nginx-CVE-2013-4547.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Nginx-CVE-2013-4547.svg)
 
+- [https://github.com/CyberCTF/vulhub-nginx-cve-2013-4547](https://github.com/CyberCTF/vulhub-nginx-cve-2013-4547) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-nginx-cve-2013-4547.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-nginx-cve-2013-4547.svg)
+
 - [https://github.com/rsp243/fix_nginx_CVE-2013-4547_IB](https://github.com/rsp243/fix_nginx_CVE-2013-4547_IB) : ![starts](https://img.shields.io/github/stars/rsp243/fix_nginx_CVE-2013-4547_IB.svg) ![forks](https://img.shields.io/github/forks/rsp243/fix_nginx_CVE-2013-4547_IB.svg)
 
 ## CVE-2013-4434
@@ -100452,9 +100454,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/oxben10/CVE-2013-0156](https://github.com/oxben10/CVE-2013-0156) : ![starts](https://img.shields.io/github/stars/oxben10/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/oxben10/CVE-2013-0156.svg)
 
-- [https://github.com/R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156) : ![starts](https://img.shields.io/github/stars/R3dKn33-zz/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/R3dKn33-zz/CVE-2013-0156.svg)
-
 - [https://github.com/7s26simon/CVE-2013-0156](https://github.com/7s26simon/CVE-2013-0156) : ![starts](https://img.shields.io/github/stars/7s26simon/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/7s26simon/CVE-2013-0156.svg)
+
+- [https://github.com/R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156) : ![starts](https://img.shields.io/github/stars/R3dKn33-zz/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/R3dKn33-zz/CVE-2013-0156.svg)
 
 - [https://github.com/terracatta/name_reverser](https://github.com/terracatta/name_reverser) : ![starts](https://img.shields.io/github/stars/terracatta/name_reverser.svg) ![forks](https://img.shields.io/github/forks/terracatta/name_reverser.svg)
 
