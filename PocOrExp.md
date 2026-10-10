@@ -100645,13 +100645,13 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) : ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
 
-- [https://github.com/varppi/CVE-2012-2982](https://github.com/varppi/CVE-2012-2982) : ![starts](https://img.shields.io/github/stars/varppi/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/varppi/CVE-2012-2982.svg)
-
 - [https://github.com/CpyRe/CVE-2012-2982](https://github.com/CpyRe/CVE-2012-2982) : ![starts](https://img.shields.io/github/stars/CpyRe/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/CpyRe/CVE-2012-2982.svg)
 
-- [https://github.com/wizardy0ga/CVE_2012-2982](https://github.com/wizardy0ga/CVE_2012-2982) : ![starts](https://img.shields.io/github/stars/wizardy0ga/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/CVE_2012-2982.svg)
+- [https://github.com/varppi/CVE-2012-2982](https://github.com/varppi/CVE-2012-2982) : ![starts](https://img.shields.io/github/stars/varppi/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/varppi/CVE-2012-2982.svg)
 
 - [https://github.com/elliotosama/CVE-2012-2982](https://github.com/elliotosama/CVE-2012-2982) : ![starts](https://img.shields.io/github/stars/elliotosama/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/elliotosama/CVE-2012-2982.svg)
+
+- [https://github.com/wizardy0ga/CVE_2012-2982](https://github.com/wizardy0ga/CVE_2012-2982) : ![starts](https://img.shields.io/github/stars/wizardy0ga/CVE_2012-2982.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/CVE_2012-2982.svg)
 
 - [https://github.com/boriitoo/CVE-2012-2982](https://github.com/boriitoo/CVE-2012-2982) : ![starts](https://img.shields.io/github/stars/boriitoo/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/boriitoo/CVE-2012-2982.svg)
 
@@ -100693,6 +100693,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 - [https://github.com/Avinza/CVE-2012-2122-scanner](https://github.com/Avinza/CVE-2012-2122-scanner) : ![starts](https://img.shields.io/github/stars/Avinza/CVE-2012-2122-scanner.svg) ![forks](https://img.shields.io/github/forks/Avinza/CVE-2012-2122-scanner.svg)
 
 - [https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122) : ![starts](https://img.shields.io/github/stars/cyberharsh/Oracle-mysql-CVE-2012-2122.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Oracle-mysql-CVE-2012-2122.svg)
+
+- [https://github.com/CyberCTF/vulhub-mysql-cve-2012-2122](https://github.com/CyberCTF/vulhub-mysql-cve-2012-2122) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-mysql-cve-2012-2122.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-mysql-cve-2012-2122.svg)
 
 - [https://github.com/zhangkaibin0921/CVE-2012-2122](https://github.com/zhangkaibin0921/CVE-2012-2122) : ![starts](https://img.shields.io/github/stars/zhangkaibin0921/CVE-2012-2122.svg) ![forks](https://img.shields.io/github/forks/zhangkaibin0921/CVE-2012-2122.svg)
 
@@ -100742,6 +100744,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 - [https://github.com/hackherMind-Pixel/Vulnerable-Lab-Exploitation](https://github.com/hackherMind-Pixel/Vulnerable-Lab-Exploitation) : ![starts](https://img.shields.io/github/stars/hackherMind-Pixel/Vulnerable-Lab-Exploitation.svg) ![forks](https://img.shields.io/github/forks/hackherMind-Pixel/Vulnerable-Lab-Exploitation.svg)
 
 - [https://github.com/mujtaba815/metasploitable2-php-cgi-exploit](https://github.com/mujtaba815/metasploitable2-php-cgi-exploit) : ![starts](https://img.shields.io/github/stars/mujtaba815/metasploitable2-php-cgi-exploit.svg) ![forks](https://img.shields.io/github/forks/mujtaba815/metasploitable2-php-cgi-exploit.svg)
+
+- [https://github.com/CyberCTF/vulhub-php-cve-2012-1823](https://github.com/CyberCTF/vulhub-php-cve-2012-1823) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-php-cve-2012-1823.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-php-cve-2012-1823.svg)
 
 - [https://github.com/Jimmy01240397/CVE-2012-1823-Analyze](https://github.com/Jimmy01240397/CVE-2012-1823-Analyze) : ![starts](https://img.shields.io/github/stars/Jimmy01240397/CVE-2012-1823-Analyze.svg) ![forks](https://img.shields.io/github/forks/Jimmy01240397/CVE-2012-1823-Analyze.svg)
 
