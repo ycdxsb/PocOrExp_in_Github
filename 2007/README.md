@@ -112,9 +112,9 @@
 
 - [https://github.com/foudadev/CVE-2007-2447](https://github.com/foudadev/CVE-2007-2447) : ![starts](https://img.shields.io/github/stars/foudadev/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/foudadev/CVE-2007-2447.svg)
 
-- [https://github.com/Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447) : ![starts](https://img.shields.io/github/stars/Juantos/cve-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Juantos/cve-2007-2447.svg)
-
 - [https://github.com/r3vpwnx/CVE-2007-2447](https://github.com/r3vpwnx/CVE-2007-2447) : ![starts](https://img.shields.io/github/stars/r3vpwnx/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/r3vpwnx/CVE-2007-2447.svg)
+
+- [https://github.com/Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447) : ![starts](https://img.shields.io/github/stars/Juantos/cve-2007-2447.svg) ![forks](https://img.shields.io/github/forks/Juantos/cve-2007-2447.svg)
 
 - [https://github.com/rushikesh-a-bhujbal/CVE-2007-2447](https://github.com/rushikesh-a-bhujbal/CVE-2007-2447) : ![starts](https://img.shields.io/github/stars/rushikesh-a-bhujbal/CVE-2007-2447.svg) ![forks](https://img.shields.io/github/forks/rushikesh-a-bhujbal/CVE-2007-2447.svg)
 
