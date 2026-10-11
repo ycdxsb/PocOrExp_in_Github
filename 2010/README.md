@@ -101,9 +101,9 @@
 ## CVE-2010-2861
  Multiple directory traversal vulnerabilities in the administrator console in Adobe ColdFusion 9.0.1 and earlier allow remote attackers to read arbitrary files via the locale parameter to (1) CFIDE/administrator/settings/mappings.cfm, (2) logging/settings.cfm, (3) datasources/index.cfm, (4) j2eepackaging/editarchive.cfm, and (5) enter.cfm in CFIDE/administrator/.
 
-- [https://github.com/greysneakthief/14641-v2](https://github.com/greysneakthief/14641-v2) : ![starts](https://img.shields.io/github/stars/greysneakthief/14641-v2.svg) ![forks](https://img.shields.io/github/forks/greysneakthief/14641-v2.svg)
-
 - [https://github.com/CyberCTF/vulhub-coldfusion-cve-2010-2861](https://github.com/CyberCTF/vulhub-coldfusion-cve-2010-2861) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-coldfusion-cve-2010-2861.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-coldfusion-cve-2010-2861.svg)
+
+- [https://github.com/greysneakthief/14641-v2](https://github.com/greysneakthief/14641-v2) : ![starts](https://img.shields.io/github/stars/greysneakthief/14641-v2.svg) ![forks](https://img.shields.io/github/forks/greysneakthief/14641-v2.svg)
 
 ## CVE-2010-2626
  index.pl in Miyabi CGI Tools SEO Links 1.02 allows remote attackers to execute arbitrary commands via shell metacharacters in the fn command. NOTE: some of these details are obtained from third party information.
