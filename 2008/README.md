@@ -40,9 +40,9 @@
 
 - [https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit) : ![starts](https://img.shields.io/github/stars/KernelErr/VLC-CVE-2008-4654-Exploit.svg) ![forks](https://img.shields.io/github/forks/KernelErr/VLC-CVE-2008-4654-Exploit.svg)
 
-- [https://github.com/rnnsz/CVE-2008-4654](https://github.com/rnnsz/CVE-2008-4654) : ![starts](https://img.shields.io/github/stars/rnnsz/CVE-2008-4654.svg) ![forks](https://img.shields.io/github/forks/rnnsz/CVE-2008-4654.svg)
-
 - [https://github.com/bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654) : ![starts](https://img.shields.io/github/stars/bongbongco/CVE-2008-4654.svg) ![forks](https://img.shields.io/github/forks/bongbongco/CVE-2008-4654.svg)
+
+- [https://github.com/rnnsz/CVE-2008-4654](https://github.com/rnnsz/CVE-2008-4654) : ![starts](https://img.shields.io/github/stars/rnnsz/CVE-2008-4654.svg) ![forks](https://img.shields.io/github/forks/rnnsz/CVE-2008-4654.svg)
 
 - [https://github.com/Hexastrike/CVE-2008-4654](https://github.com/Hexastrike/CVE-2008-4654) : ![starts](https://img.shields.io/github/stars/Hexastrike/CVE-2008-4654.svg) ![forks](https://img.shields.io/github/forks/Hexastrike/CVE-2008-4654.svg)
 
@@ -132,8 +132,6 @@
 - [https://github.com/hackingyseguridad/root](https://github.com/hackingyseguridad/root) : ![starts](https://img.shields.io/github/stars/hackingyseguridad/root.svg) ![forks](https://img.shields.io/github/forks/hackingyseguridad/root.svg)
 
 - [https://github.com/0b0111100/2008](https://github.com/0b0111100/2008) : ![starts](https://img.shields.io/github/stars/0b0111100/2008.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2008.svg)
-
-- [https://github.com/yilmaz8596/metasploitable-vulnerability-assessment](https://github.com/yilmaz8596/metasploitable-vulnerability-assessment) : ![starts](https://img.shields.io/github/stars/yilmaz8596/metasploitable-vulnerability-assessment.svg) ![forks](https://img.shields.io/github/forks/yilmaz8596/metasploitable-vulnerability-assessment.svg)
 
 ## CVE-2008-0244
  SAP MaxDB 7.6.03 build 007 and earlier allows remote attackers to execute arbitrary commands via "&&" and other shell metacharacters in exec_sdbinfo and other unspecified commands, which are executed when MaxDB invokes cons.exe.
