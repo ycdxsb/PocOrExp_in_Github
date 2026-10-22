@@ -36,6 +36,11 @@ This issue affects Apache HTTP Server 2.4.54 and earlier.
 
 - [https://github.com/defensahacker/CVE-2006-3747](https://github.com/defensahacker/CVE-2006-3747) : ![starts](https://img.shields.io/github/stars/defensahacker/CVE-2006-3747.svg) ![forks](https://img.shields.io/github/forks/defensahacker/CVE-2006-3747.svg)
 
+## CVE-2006-3685
+ PHP remote file inclusion vulnerability in CzarNews 1.12 through 1.14 allows remote attackers to execute arbitrary PHP code via a URL in the tpath parameter to cn_config.php.  NOTE: the news.php vector is already covered by CVE-2005-0859.
+
+- [https://github.com/rubo77/czarnews](https://github.com/rubo77/czarnews) : ![starts](https://img.shields.io/github/stars/rubo77/czarnews.svg) ![forks](https://img.shields.io/github/forks/rubo77/czarnews.svg)
+
 ## CVE-2006-3626
  Race condition in Linux kernel 2.6.17.4 and earlier allows local users to gain root privileges by using prctl with PR_SET_DUMPABLE in a way that causes /proc/self/environ to become setuid root.
 
@@ -74,6 +79,16 @@ This issue affects Apache HTTP Server 2.4.54 and earlier.
  The suid_dumpable support in Linux kernel 2.6.13 up to versions before 2.6.17.4, and 2.6.16 before 2.6.16.24, allows a local user to cause a denial of service (disk consumption) and possibly gain privileges via the PR_SET_DUMPABLE argument of the prctl function and a program that causes a core dump file to be created in a directory for which the user does not have permissions.
 
 - [https://github.com/0b0111100/2006](https://github.com/0b0111100/2006) : ![starts](https://img.shields.io/github/stars/0b0111100/2006.svg) ![forks](https://img.shields.io/github/forks/0b0111100/2006.svg)
+
+## CVE-2006-1641
+ Multiple SQL injection vulnerabilities in CzarNews 1.14 allow remote attackers to execute arbitrary SQL commands via the (1) usern or (2) passw parameters to (a) cn_auth.php, (3) s parameter to (b) news.php, or (4) a parameter to (c) dpost.php.
+
+- [https://github.com/rubo77/czarnews](https://github.com/rubo77/czarnews) : ![starts](https://img.shields.io/github/stars/rubo77/czarnews.svg) ![forks](https://img.shields.io/github/forks/rubo77/czarnews.svg)
+
+## CVE-2006-1640
+ Cross-site scripting (XSS) vulnerability in news.php in CzarNews 1.14 allows remote attackers to inject arbitrary web script or HTML via the email parameter.
+
+- [https://github.com/rubo77/czarnews](https://github.com/rubo77/czarnews) : ![starts](https://img.shields.io/github/stars/rubo77/czarnews.svg) ![forks](https://img.shields.io/github/forks/rubo77/czarnews.svg)
 
 ## CVE-2006-1236
  Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
