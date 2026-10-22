@@ -105053,6 +105053,11 @@ This issue affects Apache HTTP Server 2.4.54 and earlier.
 
 - [https://github.com/tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125) : ![starts](https://img.shields.io/github/stars/tagatac/libsafe-CVE-2005-1125.svg) ![forks](https://img.shields.io/github/forks/tagatac/libsafe-CVE-2005-1125.svg)
 
+## CVE-2005-0859
+ PHP remote file inclusion vulnerability in CzarNews 1.13b allows remote attackers to execute arbitrary PHP code via the tpath parameter to (1) headlines.php or (2) news.php.  NOTE: some sources have reported the "dir" parameter as being affected; however, this is likely a cut-and-paste error from the wrong section of the original vulnerability report.  Also, the news.php version was later reported to be in 1.12 through 1.14.
+
+- [https://github.com/rubo77/czarnews](https://github.com/rubo77/czarnews) : ![starts](https://img.shields.io/github/stars/rubo77/czarnews.svg) ![forks](https://img.shields.io/github/forks/rubo77/czarnews.svg)
+
 ## CVE-2005-0736
  Integer overflow in sys_epoll_wait in eventpoll.c for Linux kernel 2.6 to 2.6.11 allows local users to overwrite kernel memory via a large number of events.
 
