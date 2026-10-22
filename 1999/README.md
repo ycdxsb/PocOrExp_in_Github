@@ -26,8 +26,6 @@
 
 - [https://github.com/biontdv/CVE-1999-0524-POC](https://github.com/biontdv/CVE-1999-0524-POC) : ![starts](https://img.shields.io/github/stars/biontdv/CVE-1999-0524-POC.svg) ![forks](https://img.shields.io/github/forks/biontdv/CVE-1999-0524-POC.svg)
 
-- [https://github.com/b1tsec/CVE-1999-0524](https://github.com/b1tsec/CVE-1999-0524) : ![starts](https://img.shields.io/github/stars/b1tsec/CVE-1999-0524.svg) ![forks](https://img.shields.io/github/forks/b1tsec/CVE-1999-0524.svg)
-
 - [https://github.com/Ransc0rp1on/ICMP-Timestamp-POC](https://github.com/Ransc0rp1on/ICMP-Timestamp-POC) : ![starts](https://img.shields.io/github/stars/Ransc0rp1on/ICMP-Timestamp-POC.svg) ![forks](https://img.shields.io/github/forks/Ransc0rp1on/ICMP-Timestamp-POC.svg)
 
 ## CVE-1999-0517
