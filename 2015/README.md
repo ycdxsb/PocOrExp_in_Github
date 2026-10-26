@@ -802,6 +802,8 @@
 
 - [https://github.com/mobilelinux/iovy_root_research](https://github.com/mobilelinux/iovy_root_research) : ![starts](https://img.shields.io/github/stars/mobilelinux/iovy_root_research.svg) ![forks](https://img.shields.io/github/forks/mobilelinux/iovy_root_research.svg)
 
+- [https://github.com/cjn304/Root-My-Galaxy-S4](https://github.com/cjn304/Root-My-Galaxy-S4) : ![starts](https://img.shields.io/github/stars/cjn304/Root-My-Galaxy-S4.svg) ![forks](https://img.shields.io/github/forks/cjn304/Root-My-Galaxy-S4.svg)
+
 ## CVE-2015-1792
  The do_free_upto function in crypto/cms/cms_smime.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b allows remote attackers to cause a denial of service (infinite loop) via vectors that trigger a NULL value of a BIO data structure, as demonstrated by an unrecognized X.660 OID for a hash function.
 
