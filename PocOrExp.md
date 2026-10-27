@@ -103113,11 +103113,6 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/Primus27/WordPress-Long-Password-Denial-of-Service](https://github.com/Primus27/WordPress-Long-Password-Denial-of-Service) : ![starts](https://img.shields.io/github/stars/Primus27/WordPress-Long-Password-Denial-of-Service.svg) ![forks](https://img.shields.io/github/forks/Primus27/WordPress-Long-Password-Denial-of-Service.svg)
 
-## CVE-2014-8757
- LG On-Screen Phone (OSP) before 4.3.010 allows remote attackers to bypass authorization via a crafted request.
-
-- [https://github.com/irsl/lgosp-poc](https://github.com/irsl/lgosp-poc) : ![starts](https://img.shields.io/github/stars/irsl/lgosp-poc.svg) ![forks](https://img.shields.io/github/forks/irsl/lgosp-poc.svg)
-
 ## CVE-2014-8731
  PHPMemcachedAdmin 1.2.2 and earlier allows remote attackers to execute arbitrary PHP code via vectors related "serialized data and the last part of the concatenated filename," which creates a file in webroot.
 
@@ -103241,11 +103236,6 @@ Only traffic directed to the affected system can be used to exploit this vulnera
  The Pharmaguideline (aka com.pharmaguideline) application 1.2.0 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
 
 - [https://github.com/sagisar1/CVE-2014-6721-exploit-Shellshock](https://github.com/sagisar1/CVE-2014-6721-exploit-Shellshock) : ![starts](https://img.shields.io/github/stars/sagisar1/CVE-2014-6721-exploit-Shellshock.svg) ![forks](https://img.shields.io/github/forks/sagisar1/CVE-2014-6721-exploit-Shellshock.svg)
-
-## CVE-2014-6598
- Unspecified vulnerability in the Oracle Communications Diameter Signaling Router component in Oracle Communications Applications 3.x, 4.x, and 5.0 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to Signaling - DPI.
-
-- [https://github.com/KPN-CISO/DRA_writeup](https://github.com/KPN-CISO/DRA_writeup) : ![starts](https://img.shields.io/github/stars/KPN-CISO/DRA_writeup.svg) ![forks](https://img.shields.io/github/forks/KPN-CISO/DRA_writeup.svg)
 
 ## CVE-2014-6577
  Unspecified vulnerability in the XML Developer's Kit for C component in Oracle Database Server 11.2.0.3, 11.2.0.4, 12.1.0.1, and 12.1.0.2 allows remote authenticated users to affect confidentiality via unknown vectors.  NOTE: the previous information is from the January 2015 CPU. Oracle has not commented on the original researcher's claim that this is an XML external entity (XXE) vulnerability in the XML parser, which allows attackers to conduct internal port scanning, perform SSRF attacks, or cause a denial of service via a crafted (1) http: or (2) ftp: URI.
@@ -103403,11 +103393,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/kaleth4/-CVE-2014-6271](https://github.com/kaleth4/-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/kaleth4/-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kaleth4/-CVE-2014-6271.svg)
 
+- [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
+
 - [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) : ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
-
-- [https://github.com/kowshik-sundararajan/CVE-2014-6271](https://github.com/kowshik-sundararajan/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/kowshik-sundararajan/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kowshik-sundararajan/CVE-2014-6271.svg)
-
-- [https://github.com/Aruthw/CVE-2014-6271](https://github.com/Aruthw/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Aruthw/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Aruthw/CVE-2014-6271.svg)
 
 - [https://github.com/mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/mattclegg/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/mattclegg/CVE-2014-6271.svg)
 
@@ -103415,7 +103403,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/woltage/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/woltage/CVE-2014-6271.svg)
 
-- [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
+- [https://github.com/Aruthw/CVE-2014-6271](https://github.com/Aruthw/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Aruthw/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Aruthw/CVE-2014-6271.svg)
+
+- [https://github.com/kowshik-sundararajan/CVE-2014-6271](https://github.com/kowshik-sundararajan/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/kowshik-sundararajan/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kowshik-sundararajan/CVE-2014-6271.svg)
 
 - [https://github.com/dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes) : ![starts](https://img.shields.io/github/stars/dlitz/bash-cve-2014-6271-fixes.svg) ![forks](https://img.shields.io/github/forks/dlitz/bash-cve-2014-6271-fixes.svg)
 
@@ -103433,9 +103423,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/caverm/Shellshock_CVE-2014-6271](https://github.com/caverm/Shellshock_CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/caverm/Shellshock_CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/caverm/Shellshock_CVE-2014-6271.svg)
 
-- [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) : ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
-
 - [https://github.com/cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/cyberharsh/Shellbash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Shellbash-CVE-2014-6271.svg)
+
+- [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) : ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
 
 - [https://github.com/andres101c/Shellshock-CVE-2014-6271](https://github.com/andres101c/Shellshock-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/andres101c/Shellshock-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/andres101c/Shellshock-CVE-2014-6271.svg)
 
@@ -103451,9 +103441,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3) : ![starts](https://img.shields.io/github/stars/ryancnelson/patched-bash-4.3.svg) ![forks](https://img.shields.io/github/forks/ryancnelson/patched-bash-4.3.svg)
 
-- [https://github.com/huanlu/cve-2014-6271-huan-lu](https://github.com/huanlu/cve-2014-6271-huan-lu) : ![starts](https://img.shields.io/github/stars/huanlu/cve-2014-6271-huan-lu.svg) ![forks](https://img.shields.io/github/forks/huanlu/cve-2014-6271-huan-lu.svg)
-
 - [https://github.com/CyberCTF/vulhub-bash-cve-2014-6271](https://github.com/CyberCTF/vulhub-bash-cve-2014-6271) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-bash-cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-bash-cve-2014-6271.svg)
+
+- [https://github.com/huanlu/cve-2014-6271-huan-lu](https://github.com/huanlu/cve-2014-6271-huan-lu) : ![starts](https://img.shields.io/github/stars/huanlu/cve-2014-6271-huan-lu.svg) ![forks](https://img.shields.io/github/forks/huanlu/cve-2014-6271-huan-lu.svg)
 
 - [https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg)
 
@@ -103871,11 +103861,6 @@ Only traffic directed to the affected system can be used to exploit this vulnera
  The kernel in Apple OS X through 10.9.2 places a kernel pointer into an XNU object data structure accessible from user space, which makes it easier for local users to bypass the ASLR protection mechanism by reading an unspecified attribute of the object.
 
 - [https://github.com/raymondpittman/IPC-Memory-Mac-OSX-Exploit](https://github.com/raymondpittman/IPC-Memory-Mac-OSX-Exploit) : ![starts](https://img.shields.io/github/stars/raymondpittman/IPC-Memory-Mac-OSX-Exploit.svg) ![forks](https://img.shields.io/github/forks/raymondpittman/IPC-Memory-Mac-OSX-Exploit.svg)
-
-## CVE-2014-1303
- Heap-based buffer overflow in Apple Safari 7.0.2 allows remote attackers to execute arbitrary code and bypass a sandbox protection mechanism via unspecified vectors, as demonstrated by Liang Chen during a Pwn2Own competition at CanSecWest 2014.
-
-- [https://github.com/RKX1209/CVE-2014-1303](https://github.com/RKX1209/CVE-2014-1303) : ![starts](https://img.shields.io/github/stars/RKX1209/CVE-2014-1303.svg) ![forks](https://img.shields.io/github/forks/RKX1209/CVE-2014-1303.svg)
 
 ## CVE-2014-1266
  The SSLVerifySignedServerKeyExchange function in libsecurity_ssl/lib/sslKeyExchange.c in the Secure Transport feature in the Data Security component in Apple iOS 6.x before 6.1.6 and 7.x before 7.0.6, Apple TV 6.x before 6.0.2, and Apple OS X 10.9.x before 10.9.2 does not check the signature in a TLS Server Key Exchange message, which allows man-in-the-middle attackers to spoof SSL servers by (1) using an arbitrary private key for the signing step or (2) omitting the signing step.
