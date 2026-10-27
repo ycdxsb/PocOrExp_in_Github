@@ -40,9 +40,9 @@
 
 - [https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit) : ![starts](https://img.shields.io/github/stars/KernelErr/VLC-CVE-2008-4654-Exploit.svg) ![forks](https://img.shields.io/github/forks/KernelErr/VLC-CVE-2008-4654-Exploit.svg)
 
-- [https://github.com/rnnsz/CVE-2008-4654](https://github.com/rnnsz/CVE-2008-4654) : ![starts](https://img.shields.io/github/stars/rnnsz/CVE-2008-4654.svg) ![forks](https://img.shields.io/github/forks/rnnsz/CVE-2008-4654.svg)
-
 - [https://github.com/bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654) : ![starts](https://img.shields.io/github/stars/bongbongco/CVE-2008-4654.svg) ![forks](https://img.shields.io/github/forks/bongbongco/CVE-2008-4654.svg)
+
+- [https://github.com/rnnsz/CVE-2008-4654](https://github.com/rnnsz/CVE-2008-4654) : ![starts](https://img.shields.io/github/stars/rnnsz/CVE-2008-4654.svg) ![forks](https://img.shields.io/github/forks/rnnsz/CVE-2008-4654.svg)
 
 - [https://github.com/Hexastrike/CVE-2008-4654](https://github.com/Hexastrike/CVE-2008-4654) : ![starts](https://img.shields.io/github/stars/Hexastrike/CVE-2008-4654.svg) ![forks](https://img.shields.io/github/forks/Hexastrike/CVE-2008-4654.svg)
 
@@ -81,11 +81,6 @@
  Stack-based buffer overflow in Adobe Acrobat and Reader 8.1.2 and earlier allows remote attackers to execute arbitrary code via a PDF file that calls the util.printf JavaScript function with a crafted format string argument, a related issue to CVE-2008-1104.
 
 - [https://github.com/Jonas-Holmberg/CVE-2008-2992](https://github.com/Jonas-Holmberg/CVE-2008-2992) : ![starts](https://img.shields.io/github/stars/Jonas-Holmberg/CVE-2008-2992.svg) ![forks](https://img.shields.io/github/forks/Jonas-Holmberg/CVE-2008-2992.svg)
-
-## CVE-2008-2938
- Directory traversal vulnerability in Apache Tomcat 4.1.0 through 4.1.37, 5.5.0 through 5.5.26, and 6.0.0 through 6.0.16, when allowLinking and UTF-8 are enabled, allows remote attackers to read arbitrary files via encoded directory traversal sequences in the URI, a different vulnerability than CVE-2008-2370.  NOTE: versions earlier than 6.0.18 were reported affected, but the vendor advisory lists 6.0.16 as the last affected version.
-
-- [https://github.com/Naramsim/Offensive](https://github.com/Naramsim/Offensive) : ![starts](https://img.shields.io/github/stars/Naramsim/Offensive.svg) ![forks](https://img.shields.io/github/forks/Naramsim/Offensive.svg)
 
 ## CVE-2008-2019
  Simple Machines Forum (SMF), probably 1.1.4, relies on "randomly generated static" to hinder brute-force attacks on the WAV file (aka audio) CAPTCHA, which allows remote attackers to pass the CAPTCHA test via an automated attack that considers Hamming distances.  NOTE: this issue reportedly exists because of an insufficient fix for CVE-2007-3308.
