@@ -42,11 +42,6 @@
 
 - [https://github.com/sk4la/cve_2011_3556](https://github.com/sk4la/cve_2011_3556) : ![starts](https://img.shields.io/github/stars/sk4la/cve_2011_3556.svg) ![forks](https://img.shields.io/github/forks/sk4la/cve_2011_3556.svg)
 
-## CVE-2011-3389
- The SSL protocol, as used in certain configurations in Microsoft Windows and Microsoft Internet Explorer, Mozilla Firefox, Google Chrome, Opera, and other products, encrypts data by using CBC mode with chained initialization vectors, which allows man-in-the-middle attackers to obtain plaintext HTTP headers via a blockwise chosen-boundary attack (BCBA) on an HTTPS session, in conjunction with JavaScript code that uses (1) the HTML5 WebSocket API, (2) the Java URLConnection API, or (3) the Silverlight WebClient API, aka a "BEAST" attack.
-
-- [https://github.com/mpgn/BEAST-PoC](https://github.com/mpgn/BEAST-PoC) : ![starts](https://img.shields.io/github/stars/mpgn/BEAST-PoC.svg) ![forks](https://img.shields.io/github/forks/mpgn/BEAST-PoC.svg)
-
 ## CVE-2011-3368
  The mod_proxy module in the Apache HTTP Server 1.3.x through 1.3.42, 2.0.x through 2.0.64, and 2.2.x through 2.2.21 does not properly interact with use of (1) RewriteRule and (2) ProxyPassMatch pattern matches for configuration of a reverse proxy, which allows remote attackers to send requests to intranet servers via a malformed URI containing an initial @ (at sign) character.
 
@@ -129,9 +124,11 @@
 
 - [https://github.com/0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/0xSojalSec/-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/-CVE-2011-2523.svg)
 
+- [https://github.com/sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/sug4r-wr41th/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/sug4r-wr41th/CVE-2011-2523.svg)
+
 - [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
-- [https://github.com/sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/sug4r-wr41th/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/sug4r-wr41th/CVE-2011-2523.svg)
+- [https://github.com/hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/hklabCR/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/hklabCR/CVE-2011-2523.svg)
 
 - [https://github.com/0xSojalSec/CVE-2011-2523](https://github.com/0xSojalSec/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/0xSojalSec/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/CVE-2011-2523.svg)
 
@@ -139,21 +136,19 @@
 
 - [https://github.com/vaishnavucv/CVE-2011-2523](https://github.com/vaishnavucv/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/vaishnavucv/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/vaishnavucv/CVE-2011-2523.svg)
 
-- [https://github.com/hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/hklabCR/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/hklabCR/CVE-2011-2523.svg)
-
 - [https://github.com/rushikesh-a-bhujbal/CVE-2011-2523](https://github.com/rushikesh-a-bhujbal/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/rushikesh-a-bhujbal/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/rushikesh-a-bhujbal/CVE-2011-2523.svg)
 
-- [https://github.com/Tenor-Z/SmileySploit](https://github.com/Tenor-Z/SmileySploit) : ![starts](https://img.shields.io/github/stars/Tenor-Z/SmileySploit.svg) ![forks](https://img.shields.io/github/forks/Tenor-Z/SmileySploit.svg)
-
 - [https://github.com/Dahalsamir/CVE-2011-2523-exploit](https://github.com/Dahalsamir/CVE-2011-2523-exploit) : ![starts](https://img.shields.io/github/stars/Dahalsamir/CVE-2011-2523-exploit.svg) ![forks](https://img.shields.io/github/forks/Dahalsamir/CVE-2011-2523-exploit.svg)
+
+- [https://github.com/Tenor-Z/SmileySploit](https://github.com/Tenor-Z/SmileySploit) : ![starts](https://img.shields.io/github/stars/Tenor-Z/SmileySploit.svg) ![forks](https://img.shields.io/github/forks/Tenor-Z/SmileySploit.svg)
 
 - [https://github.com/XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/XiangSi-Howard/CTF---CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/XiangSi-Howard/CTF---CVE-2011-2523.svg)
 
 - [https://github.com/Shubham-2k1/Exploit-CVE-2011-2523](https://github.com/Shubham-2k1/Exploit-CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/Shubham-2k1/Exploit-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Shubham-2k1/Exploit-CVE-2011-2523.svg)
 
-- [https://github.com/Chathura123git/ethical-hacking-CVE-2011-2523](https://github.com/Chathura123git/ethical-hacking-CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/Chathura123git/ethical-hacking-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Chathura123git/ethical-hacking-CVE-2011-2523.svg)
-
 - [https://github.com/IndiQuarks/vsftpd-cve-2011-2523-lab](https://github.com/IndiQuarks/vsftpd-cve-2011-2523-lab) : ![starts](https://img.shields.io/github/stars/IndiQuarks/vsftpd-cve-2011-2523-lab.svg) ![forks](https://img.shields.io/github/forks/IndiQuarks/vsftpd-cve-2011-2523-lab.svg)
+
+- [https://github.com/Chathura123git/ethical-hacking-CVE-2011-2523](https://github.com/Chathura123git/ethical-hacking-CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/Chathura123git/ethical-hacking-CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Chathura123git/ethical-hacking-CVE-2011-2523.svg)
 
 - [https://github.com/brettsm/vsftpd2.3.4-backdoor-exploit](https://github.com/brettsm/vsftpd2.3.4-backdoor-exploit) : ![starts](https://img.shields.io/github/stars/brettsm/vsftpd2.3.4-backdoor-exploit.svg) ![forks](https://img.shields.io/github/forks/brettsm/vsftpd2.3.4-backdoor-exploit.svg)
 
@@ -165,9 +160,9 @@
 
 - [https://github.com/sonalisarkar-2003/FTP-vsFTPD-CVE-2011-2523-VAPT-Report](https://github.com/sonalisarkar-2003/FTP-vsFTPD-CVE-2011-2523-VAPT-Report) : ![starts](https://img.shields.io/github/stars/sonalisarkar-2003/FTP-vsFTPD-CVE-2011-2523-VAPT-Report.svg) ![forks](https://img.shields.io/github/forks/sonalisarkar-2003/FTP-vsFTPD-CVE-2011-2523-VAPT-Report.svg)
 
-- [https://github.com/Lychi3/vsftpd-backdoor](https://github.com/Lychi3/vsftpd-backdoor) : ![starts](https://img.shields.io/github/stars/Lychi3/vsftpd-backdoor.svg) ![forks](https://img.shields.io/github/forks/Lychi3/vsftpd-backdoor.svg)
-
 - [https://github.com/yagnikkrish/metasploitable-penetration-testing-lab](https://github.com/yagnikkrish/metasploitable-penetration-testing-lab) : ![starts](https://img.shields.io/github/stars/yagnikkrish/metasploitable-penetration-testing-lab.svg) ![forks](https://img.shields.io/github/forks/yagnikkrish/metasploitable-penetration-testing-lab.svg)
+
+- [https://github.com/Lychi3/vsftpd-backdoor](https://github.com/Lychi3/vsftpd-backdoor) : ![starts](https://img.shields.io/github/stars/Lychi3/vsftpd-backdoor.svg) ![forks](https://img.shields.io/github/forks/Lychi3/vsftpd-backdoor.svg)
 
 - [https://github.com/davidlares/vsftpd-exploitation](https://github.com/davidlares/vsftpd-exploitation) : ![starts](https://img.shields.io/github/stars/davidlares/vsftpd-exploitation.svg) ![forks](https://img.shields.io/github/forks/davidlares/vsftpd-exploitation.svg)
 
@@ -307,3 +302,8 @@
 - [https://github.com/jan0/isslfix](https://github.com/jan0/isslfix) : ![starts](https://img.shields.io/github/stars/jan0/isslfix.svg) ![forks](https://img.shields.io/github/forks/jan0/isslfix.svg)
 
 - [https://github.com/amil-ptl-test/ptl_cve_2011_0228](https://github.com/amil-ptl-test/ptl_cve_2011_0228) : ![starts](https://img.shields.io/github/stars/amil-ptl-test/ptl_cve_2011_0228.svg) ![forks](https://img.shields.io/github/forks/amil-ptl-test/ptl_cve_2011_0228.svg)
+
+## CVE-2011-0104
+ Microsoft Excel 2002 SP3 and 2003 SP3, Office 2004 and 2008 for Mac, and Open XML File Format Converter for Mac allow remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted HLink record in an Excel file, aka "Excel Buffer Overwrite Vulnerability."
+
+- [https://github.com/Sunqiz/CVE-2011-0104-reproduction](https://github.com/Sunqiz/CVE-2011-0104-reproduction) : ![starts](https://img.shields.io/github/stars/Sunqiz/CVE-2011-0104-reproduction.svg) ![forks](https://img.shields.io/github/forks/Sunqiz/CVE-2011-0104-reproduction.svg)
