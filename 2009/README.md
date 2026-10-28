@@ -39,6 +39,11 @@
 
 - [https://github.com/alt3kx/CVE-2009-4118](https://github.com/alt3kx/CVE-2009-4118) : ![starts](https://img.shields.io/github/stars/alt3kx/CVE-2009-4118.svg) ![forks](https://img.shields.io/github/forks/alt3kx/CVE-2009-4118.svg)
 
+## CVE-2009-4092
+ Cross-site request forgery (CSRF) vulnerability in user.php in Simplog 0.9.3.2, and possibly earlier, allows remote attackers to hijack the authentication of administrators and users for requests that change passwords.
+
+- [https://github.com/xiaoyu-iid/Simplog-Exploit](https://github.com/xiaoyu-iid/Simplog-Exploit) : ![starts](https://img.shields.io/github/stars/xiaoyu-iid/Simplog-Exploit.svg) ![forks](https://img.shields.io/github/forks/xiaoyu-iid/Simplog-Exploit.svg)
+
 ## CVE-2009-4049
  Heap-based buffer overflow in aswRdr.sys (aka the TDI RDR driver) in avast! Home and Professional 4.8.1356.0 allows local users to cause a denial of service (memory corruption) or possibly gain privileges via crafted arguments to IOCTL 0x80002024.
 
@@ -50,6 +55,11 @@
 - [https://github.com/AC8999/CVE-2009-3999-HP-Power-Manager-4.2-Build-7-Buffer-Overflow](https://github.com/AC8999/CVE-2009-3999-HP-Power-Manager-4.2-Build-7-Buffer-Overflow) : ![starts](https://img.shields.io/github/stars/AC8999/CVE-2009-3999-HP-Power-Manager-4.2-Build-7-Buffer-Overflow.svg) ![forks](https://img.shields.io/github/forks/AC8999/CVE-2009-3999-HP-Power-Manager-4.2-Build-7-Buffer-Overflow.svg)
 
 - [https://github.com/afifudinmtop/CVE-2009-3999](https://github.com/afifudinmtop/CVE-2009-3999) : ![starts](https://img.shields.io/github/stars/afifudinmtop/CVE-2009-3999.svg) ![forks](https://img.shields.io/github/forks/afifudinmtop/CVE-2009-3999.svg)
+
+## CVE-2009-3555
+ The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a "plaintext injection" attack, aka the "Project Mogul" issue.
+
+- [https://github.com/johnwchadwick/cve-2009-3555-test-server](https://github.com/johnwchadwick/cve-2009-3555-test-server) : ![starts](https://img.shields.io/github/stars/johnwchadwick/cve-2009-3555-test-server.svg) ![forks](https://img.shields.io/github/forks/johnwchadwick/cve-2009-3555-test-server.svg)
 
 ## CVE-2009-3548
  The Windows installer for Apache Tomcat 6.0.0 through 6.0.20, 5.5.0 through 5.5.28, and possibly earlier versions uses a blank default password for the administrative user, which allows remote attackers to gain privileges.
