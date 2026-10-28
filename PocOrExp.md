@@ -106190,6 +106190,11 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/Jonas-Holmberg/CVE-2008-2992](https://github.com/Jonas-Holmberg/CVE-2008-2992) : ![starts](https://img.shields.io/github/stars/Jonas-Holmberg/CVE-2008-2992.svg) ![forks](https://img.shields.io/github/forks/Jonas-Holmberg/CVE-2008-2992.svg)
 
+## CVE-2008-2938
+ Directory traversal vulnerability in Apache Tomcat 4.1.0 through 4.1.37, 5.5.0 through 5.5.26, and 6.0.0 through 6.0.16, when allowLinking and UTF-8 are enabled, allows remote attackers to read arbitrary files via encoded directory traversal sequences in the URI, a different vulnerability than CVE-2008-2370.  NOTE: versions earlier than 6.0.18 were reported affected, but the vendor advisory lists 6.0.16 as the last affected version.
+
+- [https://github.com/Naramsim/Offensive](https://github.com/Naramsim/Offensive) : ![starts](https://img.shields.io/github/stars/Naramsim/Offensive.svg) ![forks](https://img.shields.io/github/forks/Naramsim/Offensive.svg)
+
 ## CVE-2008-2019
  Simple Machines Forum (SMF), probably 1.1.4, relies on "randomly generated static" to hinder brute-force attacks on the WAV file (aka audio) CAPTCHA, which allows remote attackers to pass the CAPTCHA test via an automated attack that considers Hamming distances.  NOTE: this issue reportedly exists because of an insufficient fix for CVE-2007-3308.
 
