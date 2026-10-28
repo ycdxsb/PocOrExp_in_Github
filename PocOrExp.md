@@ -105378,6 +105378,11 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/sk4la/cve_2011_3556](https://github.com/sk4la/cve_2011_3556) : ![starts](https://img.shields.io/github/stars/sk4la/cve_2011_3556.svg) ![forks](https://img.shields.io/github/forks/sk4la/cve_2011_3556.svg)
 
+## CVE-2011-3389
+ The SSL protocol, as used in certain configurations in Microsoft Windows and Microsoft Internet Explorer, Mozilla Firefox, Google Chrome, Opera, and other products, encrypts data by using CBC mode with chained initialization vectors, which allows man-in-the-middle attackers to obtain plaintext HTTP headers via a blockwise chosen-boundary attack (BCBA) on an HTTPS session, in conjunction with JavaScript code that uses (1) the HTML5 WebSocket API, (2) the Java URLConnection API, or (3) the Silverlight WebClient API, aka a "BEAST" attack.
+
+- [https://github.com/mpgn/BEAST-PoC](https://github.com/mpgn/BEAST-PoC) : ![starts](https://img.shields.io/github/stars/mpgn/BEAST-PoC.svg) ![forks](https://img.shields.io/github/forks/mpgn/BEAST-PoC.svg)
+
 ## CVE-2011-3368
  The mod_proxy module in the Apache HTTP Server 1.3.x through 1.3.42, 2.0.x through 2.0.64, and 2.2.x through 2.2.21 does not properly interact with use of (1) RewriteRule and (2) ProxyPassMatch pattern matches for configuration of a reverse proxy, which allows remote attackers to send requests to intranet servers via a malformed URI containing an initial @ (at sign) character.
 
@@ -105462,9 +105467,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/sug4r-wr41th/CVE-2011-2523](https://github.com/sug4r-wr41th/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/sug4r-wr41th/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/sug4r-wr41th/CVE-2011-2523.svg)
 
-- [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
-
 - [https://github.com/hklabCR/CVE-2011-2523](https://github.com/hklabCR/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/hklabCR/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/hklabCR/CVE-2011-2523.svg)
+
+- [https://github.com/Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/Gr4ykt/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/Gr4ykt/CVE-2011-2523.svg)
 
 - [https://github.com/0xSojalSec/CVE-2011-2523](https://github.com/0xSojalSec/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/0xSojalSec/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/0xSojalSec/CVE-2011-2523.svg)
 
@@ -105474,9 +105479,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/rushikesh-a-bhujbal/CVE-2011-2523](https://github.com/rushikesh-a-bhujbal/CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/rushikesh-a-bhujbal/CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/rushikesh-a-bhujbal/CVE-2011-2523.svg)
 
-- [https://github.com/Dahalsamir/CVE-2011-2523-exploit](https://github.com/Dahalsamir/CVE-2011-2523-exploit) : ![starts](https://img.shields.io/github/stars/Dahalsamir/CVE-2011-2523-exploit.svg) ![forks](https://img.shields.io/github/forks/Dahalsamir/CVE-2011-2523-exploit.svg)
-
 - [https://github.com/Tenor-Z/SmileySploit](https://github.com/Tenor-Z/SmileySploit) : ![starts](https://img.shields.io/github/stars/Tenor-Z/SmileySploit.svg) ![forks](https://img.shields.io/github/forks/Tenor-Z/SmileySploit.svg)
+
+- [https://github.com/Dahalsamir/CVE-2011-2523-exploit](https://github.com/Dahalsamir/CVE-2011-2523-exploit) : ![starts](https://img.shields.io/github/stars/Dahalsamir/CVE-2011-2523-exploit.svg) ![forks](https://img.shields.io/github/forks/Dahalsamir/CVE-2011-2523-exploit.svg)
 
 - [https://github.com/XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523) : ![starts](https://img.shields.io/github/stars/XiangSi-Howard/CTF---CVE-2011-2523.svg) ![forks](https://img.shields.io/github/forks/XiangSi-Howard/CTF---CVE-2011-2523.svg)
 
