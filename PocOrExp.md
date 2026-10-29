@@ -103370,11 +103370,11 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 ## CVE-2014-8609
  The addAccount method in src/com/android/settings/accounts/AddAccountSettings.java in the Settings application in Android before 5.0.0 does not properly create a PendingIntent, which allows attackers to use the SYSTEM uid for broadcasting an intent with arbitrary component, action, or category information via a third-party authenticator in a crafted application, aka Bug 17356824.
 
-- [https://github.com/ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit) : ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2014-8609-exploit.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2014-8609-exploit.svg)
-
 - [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) : ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
 
 - [https://github.com/MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC) : ![starts](https://img.shields.io/github/stars/MazX0p/CVE-2014-8609-POC.svg) ![forks](https://img.shields.io/github/forks/MazX0p/CVE-2014-8609-POC.svg)
+
+- [https://github.com/ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit) : ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2014-8609-exploit.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2014-8609-exploit.svg)
 
 ## CVE-2014-8275
  OpenSSL before 0.9.8zd, 1.0.0 before 1.0.0p, and 1.0.1 before 1.0.1k does not enforce certain constraints on certificate data, which allows remote attackers to defeat a fingerprint-based certificate-blacklist protection mechanism by including crafted data within a certificate's unsigned portion, related to crypto/asn1/a_verify.c, crypto/dsa/dsa_asn1.c, crypto/ecdsa/ecs_vrf.c, and crypto/x509/x_all.c.
@@ -103397,18 +103397,6 @@ Only traffic directed to the affected system can be used to exploit this vulnera
  Multiple cross-site scripting (XSS) vulnerabilities in the web based administration console in Apache ActiveMQ 5.x before 5.10.1 allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.
 
 - [https://github.com/tafamace/CVE-2014-8110](https://github.com/tafamace/CVE-2014-8110) : ![starts](https://img.shields.io/github/stars/tafamace/CVE-2014-8110.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2014-8110.svg)
-
-## CVE-2014-7921
- mediaserver in Android 4.0.3 through 5.x before 5.1 allows attackers to gain privileges.  NOTE: This is a different vulnerability than CVE-2014-7920.
-
-- [https://github.com/laginimaineb/cve-2014-7920-7921](https://github.com/laginimaineb/cve-2014-7920-7921) : ![starts](https://img.shields.io/github/stars/laginimaineb/cve-2014-7920-7921.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/cve-2014-7920-7921.svg)
-
-## CVE-2014-7920
- mediaserver in Android 2.2 through 5.x before 5.1 allows attackers to gain privileges.  NOTE: This is a different vulnerability than CVE-2014-7921.
-
-- [https://github.com/laginimaineb/cve-2014-7920-7921](https://github.com/laginimaineb/cve-2014-7920-7921) : ![starts](https://img.shields.io/github/stars/laginimaineb/cve-2014-7920-7921.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/cve-2014-7920-7921.svg)
-
-- [https://github.com/Vinc3nt4H/cve-2014-7920-7921_update](https://github.com/Vinc3nt4H/cve-2014-7920-7921_update) : ![starts](https://img.shields.io/github/stars/Vinc3nt4H/cve-2014-7920-7921_update.svg) ![forks](https://img.shields.io/github/forks/Vinc3nt4H/cve-2014-7920-7921_update.svg)
 
 ## CVE-2014-7912
  The get_option function in dhcp.c in dhcpcd before 6.2.0, as used in dhcpcd 5.x in Android before 5.1 and other products, does not validate the relationship between length fields and the amount of data, which allows remote DHCP servers to execute arbitrary code or cause a denial of service (memory corruption) via a large length value of an option in a DHCPACK message.
@@ -103612,7 +103600,7 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/cved-sources/cve-2014-6271](https://github.com/cved-sources/cve-2014-6271) : ![starts](https://img.shields.io/github/stars/cved-sources/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2014-6271.svg)
 
-- [https://github.com/0xBlackash/CVE-2014-6271](https://github.com/0xBlackash/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/0xBlackash/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/0xBlackash/CVE-2014-6271.svg)
+- [https://github.com/0xredash/CVE-2014-6271](https://github.com/0xredash/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/0xredash/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/0xredash/CVE-2014-6271.svg)
 
 - [https://github.com/villadora/CVE-2014-6271](https://github.com/villadora/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/villadora/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/villadora/CVE-2014-6271.svg)
 
@@ -103634,11 +103622,11 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
 
-- [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) : ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
+- [https://github.com/Aruthw/CVE-2014-6271](https://github.com/Aruthw/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Aruthw/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Aruthw/CVE-2014-6271.svg)
 
 - [https://github.com/kowshik-sundararajan/CVE-2014-6271](https://github.com/kowshik-sundararajan/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/kowshik-sundararajan/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kowshik-sundararajan/CVE-2014-6271.svg)
 
-- [https://github.com/Aruthw/CVE-2014-6271](https://github.com/Aruthw/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Aruthw/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Aruthw/CVE-2014-6271.svg)
+- [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) : ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
 
 - [https://github.com/woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/woltage/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/woltage/CVE-2014-6271.svg)
 
@@ -103686,9 +103674,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg)
 
-- [https://github.com/anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host) : ![starts](https://img.shields.io/github/stars/anujbhan/shellshock-victim-host.svg) ![forks](https://img.shields.io/github/forks/anujbhan/shellshock-victim-host.svg)
-
 - [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) : ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
+
+- [https://github.com/anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host) : ![starts](https://img.shields.io/github/stars/anujbhan/shellshock-victim-host.svg) ![forks](https://img.shields.io/github/forks/anujbhan/shellshock-victim-host.svg)
 
 - [https://github.com/teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit) : ![starts](https://img.shields.io/github/stars/teedeedubya/bash-fix-exploit.svg) ![forks](https://img.shields.io/github/forks/teedeedubya/bash-fix-exploit.svg)
 
@@ -103990,11 +103978,11 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/sin4ts/CVE2014-3153](https://github.com/sin4ts/CVE2014-3153) : ![starts](https://img.shields.io/github/stars/sin4ts/CVE2014-3153.svg) ![forks](https://img.shields.io/github/forks/sin4ts/CVE2014-3153.svg)
 
+- [https://github.com/lastowl/lg-webos2-root](https://github.com/lastowl/lg-webos2-root) : ![starts](https://img.shields.io/github/stars/lastowl/lg-webos2-root.svg) ![forks](https://img.shields.io/github/forks/lastowl/lg-webos2-root.svg)
+
 - [https://github.com/c3c/CVE-2014-3153](https://github.com/c3c/CVE-2014-3153) : ![starts](https://img.shields.io/github/stars/c3c/CVE-2014-3153.svg) ![forks](https://img.shields.io/github/forks/c3c/CVE-2014-3153.svg)
 
 - [https://github.com/c4mx/Linux-kernel-code-injection_CVE-2014-3153](https://github.com/c4mx/Linux-kernel-code-injection_CVE-2014-3153) : ![starts](https://img.shields.io/github/stars/c4mx/Linux-kernel-code-injection_CVE-2014-3153.svg) ![forks](https://img.shields.io/github/forks/c4mx/Linux-kernel-code-injection_CVE-2014-3153.svg)
-
-- [https://github.com/lastowl/lg-webos2-root](https://github.com/lastowl/lg-webos2-root) : ![starts](https://img.shields.io/github/stars/lastowl/lg-webos2-root.svg) ![forks](https://img.shields.io/github/forks/lastowl/lg-webos2-root.svg)
 
 ## CVE-2014-3120
  The default configuration in Elasticsearch before 1.2 enables dynamic scripting, which allows remote attackers to execute arbitrary MVEL expressions and Java code via the source parameter to _search.  NOTE: this only violates the vendor's intended security policy if the user does not run Elasticsearch in its own independent virtual machine.
@@ -104030,11 +104018,6 @@ Only traffic directed to the affected system can be used to exploit this vulnera
  dompdf.php in dompdf before 0.6.1, when DOMPDF_ENABLE_PHP is enabled, allows context-dependent attackers to bypass chroot protections and read arbitrary files via a PHP protocol and wrappers in the input_file parameter, as demonstrated by a php://filter/read=convert.base64-encode/resource in the input_file parameter.
 
 - [https://github.com/Relativ3Pa1n/CVE-2014-2383-LFI-to-RCE-Escalation](https://github.com/Relativ3Pa1n/CVE-2014-2383-LFI-to-RCE-Escalation) : ![starts](https://img.shields.io/github/stars/Relativ3Pa1n/CVE-2014-2383-LFI-to-RCE-Escalation.svg) ![forks](https://img.shields.io/github/forks/Relativ3Pa1n/CVE-2014-2383-LFI-to-RCE-Escalation.svg)
-
-## CVE-2014-2324
- Multiple directory traversal vulnerabilities in (1) mod_evhost and (2) mod_simple_vhost in lighttpd before 1.4.35 allow remote attackers to read arbitrary files via a .. (dot dot) in the host name, related to request_check_hostname.
-
-- [https://github.com/sp4c30x1/uc_httpd_exploit](https://github.com/sp4c30x1/uc_httpd_exploit) : ![starts](https://img.shields.io/github/stars/sp4c30x1/uc_httpd_exploit.svg) ![forks](https://img.shields.io/github/forks/sp4c30x1/uc_httpd_exploit.svg)
 
 ## CVE-2014-2323
  SQL injection vulnerability in mod_mysql_vhost.c in lighttpd before 1.4.35 allows remote attackers to execute arbitrary SQL commands via the host name, related to request_check_hostname.
@@ -104292,7 +104275,7 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/cved-sources/cve-2014-0160](https://github.com/cved-sources/cve-2014-0160) : ![starts](https://img.shields.io/github/stars/cved-sources/cve-2014-0160.svg) ![forks](https://img.shields.io/github/forks/cved-sources/cve-2014-0160.svg)
 
-- [https://github.com/0xBlackash/CVE-2014-0160](https://github.com/0xBlackash/CVE-2014-0160) : ![starts](https://img.shields.io/github/stars/0xBlackash/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/0xBlackash/CVE-2014-0160.svg)
+- [https://github.com/0xredash/CVE-2014-0160](https://github.com/0xredash/CVE-2014-0160) : ![starts](https://img.shields.io/github/stars/0xredash/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/0xredash/CVE-2014-0160.svg)
 
 - [https://github.com/a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test) : ![starts](https://img.shields.io/github/stars/a0726h77/heartbleed-test.svg) ![forks](https://img.shields.io/github/forks/a0726h77/heartbleed-test.svg)
 
@@ -104314,9 +104297,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/siddolo/knockbleed](https://github.com/siddolo/knockbleed) : ![starts](https://img.shields.io/github/stars/siddolo/knockbleed.svg) ![forks](https://img.shields.io/github/forks/siddolo/knockbleed.svg)
 
-- [https://github.com/CyberCTF/vulhub-openssl-cve-2014-0160](https://github.com/CyberCTF/vulhub-openssl-cve-2014-0160) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-openssl-cve-2014-0160.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-openssl-cve-2014-0160.svg)
-
 - [https://github.com/MrE-Fog/CVE-2014-0160-Chrome-Plugin](https://github.com/MrE-Fog/CVE-2014-0160-Chrome-Plugin) : ![starts](https://img.shields.io/github/stars/MrE-Fog/CVE-2014-0160-Chrome-Plugin.svg) ![forks](https://img.shields.io/github/forks/MrE-Fog/CVE-2014-0160-Chrome-Plugin.svg)
+
+- [https://github.com/CyberCTF/vulhub-openssl-cve-2014-0160](https://github.com/CyberCTF/vulhub-openssl-cve-2014-0160) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-openssl-cve-2014-0160.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-openssl-cve-2014-0160.svg)
 
 - [https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang) : ![starts](https://img.shields.io/github/stars/marstornado/cve-2014-0160-Yunfeng-Jiang.svg) ![forks](https://img.shields.io/github/forks/marstornado/cve-2014-0160-Yunfeng-Jiang.svg)
 
@@ -104332,9 +104315,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS) : ![starts](https://img.shields.io/github/stars/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg) ![forks](https://img.shields.io/github/forks/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS.svg)
 
-- [https://github.com/takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse) : ![starts](https://img.shields.io/github/stars/takeshixx/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/takeshixx/ssl-heartbleed.nse.svg)
-
 - [https://github.com/L1LF1NG3R/heartbleed-vulnerability-exploitation](https://github.com/L1LF1NG3R/heartbleed-vulnerability-exploitation) : ![starts](https://img.shields.io/github/stars/L1LF1NG3R/heartbleed-vulnerability-exploitation.svg) ![forks](https://img.shields.io/github/forks/L1LF1NG3R/heartbleed-vulnerability-exploitation.svg)
+
+- [https://github.com/takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse) : ![starts](https://img.shields.io/github/stars/takeshixx/ssl-heartbleed.nse.svg) ![forks](https://img.shields.io/github/forks/takeshixx/ssl-heartbleed.nse.svg)
 
 - [https://github.com/0xTaoZ/Heartbleed-CSP-project](https://github.com/0xTaoZ/Heartbleed-CSP-project) : ![starts](https://img.shields.io/github/stars/0xTaoZ/Heartbleed-CSP-project.svg) ![forks](https://img.shields.io/github/forks/0xTaoZ/Heartbleed-CSP-project.svg)
 
