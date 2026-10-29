@@ -69,9 +69,9 @@
 
 - [https://github.com/whu-enjoy/CVE-2015-8660](https://github.com/whu-enjoy/CVE-2015-8660) : ![starts](https://img.shields.io/github/stars/whu-enjoy/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/whu-enjoy/CVE-2015-8660.svg)
 
-- [https://github.com/carradolly/CVE-2015-8660](https://github.com/carradolly/CVE-2015-8660) : ![starts](https://img.shields.io/github/stars/carradolly/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/carradolly/CVE-2015-8660.svg)
-
 - [https://github.com/nhamle2/CVE-2015-8660](https://github.com/nhamle2/CVE-2015-8660) : ![starts](https://img.shields.io/github/stars/nhamle2/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/nhamle2/CVE-2015-8660.svg)
+
+- [https://github.com/carradolly/CVE-2015-8660](https://github.com/carradolly/CVE-2015-8660) : ![starts](https://img.shields.io/github/stars/carradolly/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/carradolly/CVE-2015-8660.svg)
 
 ## CVE-2015-8651
  Integer overflow in Adobe Flash Player before 18.0.0.324 and 19.x and 20.x before 20.0.0.267 on Windows and OS X and before 11.2.202.559 on Linux, Adobe AIR before 20.0.0.233, Adobe AIR SDK before 20.0.0.233, and Adobe AIR SDK & Compiler before 20.0.0.233 allows attackers to execute arbitrary code via unspecified vectors.
@@ -118,7 +118,7 @@
 ## CVE-2015-8522
  Buffer overflow in the server in IBM Tivoli Storage Manager FastBack 5.5.x and 6.x before 6.1.12.2 allows remote attackers to execute arbitrary code via a crafted command, a different vulnerability than CVE-2015-8519, CVE-2015-8520, and CVE-2015-8521.
 
-- [https://github.com/damariion/CVE-2015-8522.RCE](https://github.com/damariion/CVE-2015-8522.RCE) : ![starts](https://img.shields.io/github/stars/damariion/CVE-2015-8522.RCE.svg) ![forks](https://img.shields.io/github/forks/damariion/CVE-2015-8522.RCE.svg)
+- [https://github.com/damariion/CVE-2015-8522-RCE](https://github.com/damariion/CVE-2015-8522-RCE) : ![starts](https://img.shields.io/github/stars/damariion/CVE-2015-8522-RCE.svg) ![forks](https://img.shields.io/github/forks/damariion/CVE-2015-8522-RCE.svg)
 
 ## CVE-2015-8351
  PHP remote file inclusion vulnerability in the Gwolle Guestbook plugin before 1.5.4 for WordPress, when allow_url_include is enabled, allows remote authenticated users to execute arbitrary PHP code via a URL in the abspath parameter to frontend/captcha/ajaxresponse.php.  NOTE: this can also be leveraged to include and execute arbitrary local files via directory traversal sequences regardless of whether allow_url_include is enabled.
@@ -774,11 +774,6 @@
  The server in IBM Tivoli Storage Manager FastBack 6.1 before 6.1.12 allows remote attackers to execute arbitrary commands via unspecified vectors, a different vulnerability than CVE-2015-1938.
 
 - [https://github.com/MayaOfVeil/CVE-2015-1986](https://github.com/MayaOfVeil/CVE-2015-1986) : ![starts](https://img.shields.io/github/stars/MayaOfVeil/CVE-2015-1986.svg) ![forks](https://img.shields.io/github/forks/MayaOfVeil/CVE-2015-1986.svg)
-
-## CVE-2015-1925
- Stack-based buffer overflow in the server in IBM Tivoli Storage Manager FastBack 6.1 before 6.1.12 allows remote attackers to cause a denial of service (daemon crash) via unspecified vectors, a different vulnerability than CVE-2015-1924, CVE-2015-1929, CVE-2015-1930, CVE-2015-1948, CVE-2015-1953, CVE-2015-1954, CVE-2015-1962, CVE-2015-1963, CVE-2015-1964, and CVE-2015-1965.
-
-- [https://github.com/damariion/CVE-2015-1925.RCE](https://github.com/damariion/CVE-2015-1925.RCE) : ![starts](https://img.shields.io/github/stars/damariion/CVE-2015-1925.RCE.svg) ![forks](https://img.shields.io/github/forks/damariion/CVE-2015-1925.RCE.svg)
 
 ## CVE-2015-1855
  verify_certificate_identity in the OpenSSL extension in Ruby before 2.0.0 patchlevel 645, 2.1.x before 2.1.6, and 2.2.x before 2.2.2 does not properly validate hostnames, which allows remote attackers to spoof servers via vectors related to (1) multiple wildcards, (1) wildcards in IDNA names, (3) case sensitivity, and (4) non-ASCII characters.
