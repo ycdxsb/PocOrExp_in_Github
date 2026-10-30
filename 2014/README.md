@@ -92,9 +92,9 @@
 ## CVE-2014-8609
  The addAccount method in src/com/android/settings/accounts/AddAccountSettings.java in the Settings application in Android before 5.0.0 does not properly create a PendingIntent, which allows attackers to use the SYSTEM uid for broadcasting an intent with arbitrary component, action, or category information via a third-party authenticator in a crafted application, aka Bug 17356824.
 
-- [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) : ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
-
 - [https://github.com/MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC) : ![starts](https://img.shields.io/github/stars/MazX0p/CVE-2014-8609-POC.svg) ![forks](https://img.shields.io/github/forks/MazX0p/CVE-2014-8609-POC.svg)
+
+- [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) : ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
 
 - [https://github.com/ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit) : ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2014-8609-exploit.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2014-8609-exploit.svg)
 
@@ -119,6 +119,18 @@
  Multiple cross-site scripting (XSS) vulnerabilities in the web based administration console in Apache ActiveMQ 5.x before 5.10.1 allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.
 
 - [https://github.com/tafamace/CVE-2014-8110](https://github.com/tafamace/CVE-2014-8110) : ![starts](https://img.shields.io/github/stars/tafamace/CVE-2014-8110.svg) ![forks](https://img.shields.io/github/forks/tafamace/CVE-2014-8110.svg)
+
+## CVE-2014-7921
+ mediaserver in Android 4.0.3 through 5.x before 5.1 allows attackers to gain privileges.  NOTE: This is a different vulnerability than CVE-2014-7920.
+
+- [https://github.com/laginimaineb/cve-2014-7920-7921](https://github.com/laginimaineb/cve-2014-7920-7921) : ![starts](https://img.shields.io/github/stars/laginimaineb/cve-2014-7920-7921.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/cve-2014-7920-7921.svg)
+
+## CVE-2014-7920
+ mediaserver in Android 2.2 through 5.x before 5.1 allows attackers to gain privileges.  NOTE: This is a different vulnerability than CVE-2014-7921.
+
+- [https://github.com/laginimaineb/cve-2014-7920-7921](https://github.com/laginimaineb/cve-2014-7920-7921) : ![starts](https://img.shields.io/github/stars/laginimaineb/cve-2014-7920-7921.svg) ![forks](https://img.shields.io/github/forks/laginimaineb/cve-2014-7920-7921.svg)
+
+- [https://github.com/Vinc3nt4H/cve-2014-7920-7921_update](https://github.com/Vinc3nt4H/cve-2014-7920-7921_update) : ![starts](https://img.shields.io/github/stars/Vinc3nt4H/cve-2014-7920-7921_update.svg) ![forks](https://img.shields.io/github/forks/Vinc3nt4H/cve-2014-7920-7921_update.svg)
 
 ## CVE-2014-7912
  The get_option function in dhcp.c in dhcpcd before 6.2.0, as used in dhcpcd 5.x in Android before 5.1 and other products, does not validate the relationship between length fields and the amount of data, which allows remote DHCP servers to execute arbitrary code or cause a denial of service (memory corruption) via a large length value of an option in a DHCPACK message.
@@ -217,9 +229,9 @@
 
 - [https://github.com/10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/10cks/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2014-6287.svg)
 
-- [https://github.com/nika0x38/CVE-2014-6287](https://github.com/nika0x38/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/nika0x38/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/nika0x38/CVE-2014-6287.svg)
-
 - [https://github.com/jagg3rsec/CVE-2014-6287](https://github.com/jagg3rsec/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/jagg3rsec/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/jagg3rsec/CVE-2014-6287.svg)
+
+- [https://github.com/nika0x38/CVE-2014-6287](https://github.com/nika0x38/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/nika0x38/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/nika0x38/CVE-2014-6287.svg)
 
 - [https://github.com/Z3R0space/CVE-2014-6287](https://github.com/Z3R0space/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/Z3R0space/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/Z3R0space/CVE-2014-6287.svg)
 
@@ -342,13 +354,13 @@
 
 - [https://github.com/kaleth4/-CVE-2014-6271](https://github.com/kaleth4/-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/kaleth4/-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kaleth4/-CVE-2014-6271.svg)
 
-- [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
+- [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) : ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
 
-- [https://github.com/Aruthw/CVE-2014-6271](https://github.com/Aruthw/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Aruthw/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Aruthw/CVE-2014-6271.svg)
+- [https://github.com/Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Brandaoo/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Brandaoo/CVE-2014-6271.svg)
 
 - [https://github.com/kowshik-sundararajan/CVE-2014-6271](https://github.com/kowshik-sundararajan/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/kowshik-sundararajan/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/kowshik-sundararajan/CVE-2014-6271.svg)
 
-- [https://github.com/Sindadziy/cve-2014-6271](https://github.com/Sindadziy/cve-2014-6271) : ![starts](https://img.shields.io/github/stars/Sindadziy/cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindadziy/cve-2014-6271.svg)
+- [https://github.com/Aruthw/CVE-2014-6271](https://github.com/Aruthw/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Aruthw/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Aruthw/CVE-2014-6271.svg)
 
 - [https://github.com/woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/woltage/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/woltage/CVE-2014-6271.svg)
 
@@ -372,9 +384,9 @@
 
 - [https://github.com/caverm/Shellshock_CVE-2014-6271](https://github.com/caverm/Shellshock_CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/caverm/Shellshock_CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/caverm/Shellshock_CVE-2014-6271.svg)
 
-- [https://github.com/cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/cyberharsh/Shellbash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Shellbash-CVE-2014-6271.svg)
-
 - [https://github.com/rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec) : ![starts](https://img.shields.io/github/stars/rrreeeyyy/cve-2014-6271-spec.svg) ![forks](https://img.shields.io/github/forks/rrreeeyyy/cve-2014-6271-spec.svg)
+
+- [https://github.com/cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/cyberharsh/Shellbash-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/cyberharsh/Shellbash-CVE-2014-6271.svg)
 
 - [https://github.com/andres101c/Shellshock-CVE-2014-6271](https://github.com/andres101c/Shellshock-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/andres101c/Shellshock-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/andres101c/Shellshock-CVE-2014-6271.svg)
 
@@ -388,17 +400,17 @@
 
 - [https://github.com/ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check) : ![starts](https://img.shields.io/github/stars/ilismal/Nessus_CVE-2014-6271_check.svg) ![forks](https://img.shields.io/github/forks/ilismal/Nessus_CVE-2014-6271_check.svg)
 
-- [https://github.com/ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3) : ![starts](https://img.shields.io/github/stars/ryancnelson/patched-bash-4.3.svg) ![forks](https://img.shields.io/github/forks/ryancnelson/patched-bash-4.3.svg)
-
 - [https://github.com/huanlu/cve-2014-6271-huan-lu](https://github.com/huanlu/cve-2014-6271-huan-lu) : ![starts](https://img.shields.io/github/stars/huanlu/cve-2014-6271-huan-lu.svg) ![forks](https://img.shields.io/github/forks/huanlu/cve-2014-6271-huan-lu.svg)
+
+- [https://github.com/ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3) : ![starts](https://img.shields.io/github/stars/ryancnelson/patched-bash-4.3.svg) ![forks](https://img.shields.io/github/forks/ryancnelson/patched-bash-4.3.svg)
 
 - [https://github.com/CyberCTF/vulhub-bash-cve-2014-6271](https://github.com/CyberCTF/vulhub-bash-cve-2014-6271) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-bash-cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-bash-cve-2014-6271.svg)
 
 - [https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Sindayifu/CVE-2019-14287-CVE-2014-6271.svg)
 
-- [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) : ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
-
 - [https://github.com/anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host) : ![starts](https://img.shields.io/github/stars/anujbhan/shellshock-victim-host.svg) ![forks](https://img.shields.io/github/forks/anujbhan/shellshock-victim-host.svg)
+
+- [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) : ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
 
 - [https://github.com/teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit) : ![starts](https://img.shields.io/github/stars/teedeedubya/bash-fix-exploit.svg) ![forks](https://img.shields.io/github/forks/teedeedubya/bash-fix-exploit.svg)
 
@@ -741,6 +753,11 @@
 
 - [https://github.com/Relativ3Pa1n/CVE-2014-2383-LFI-to-RCE-Escalation](https://github.com/Relativ3Pa1n/CVE-2014-2383-LFI-to-RCE-Escalation) : ![starts](https://img.shields.io/github/stars/Relativ3Pa1n/CVE-2014-2383-LFI-to-RCE-Escalation.svg) ![forks](https://img.shields.io/github/forks/Relativ3Pa1n/CVE-2014-2383-LFI-to-RCE-Escalation.svg)
 
+## CVE-2014-2324
+ Multiple directory traversal vulnerabilities in (1) mod_evhost and (2) mod_simple_vhost in lighttpd before 1.4.35 allow remote attackers to read arbitrary files via a .. (dot dot) in the host name, related to request_check_hostname.
+
+- [https://github.com/sp4c30x1/uc_httpd_exploit](https://github.com/sp4c30x1/uc_httpd_exploit) : ![starts](https://img.shields.io/github/stars/sp4c30x1/uc_httpd_exploit.svg) ![forks](https://img.shields.io/github/forks/sp4c30x1/uc_httpd_exploit.svg)
+
 ## CVE-2014-2323
  SQL injection vulnerability in mod_mysql_vhost.c in lighttpd before 1.4.35 allows remote attackers to execute arbitrary SQL commands via the host name, related to request_check_hostname.
 
@@ -880,9 +897,9 @@
 
 - [https://github.com/anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan) : ![starts](https://img.shields.io/github/stars/anthophilee/A2SV--SSL-VUL-Scan.svg) ![forks](https://img.shields.io/github/forks/anthophilee/A2SV--SSL-VUL-Scan.svg)
 
-- [https://github.com/iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224) : ![starts](https://img.shields.io/github/stars/iph0n3/CVE-2014-0224.svg) ![forks](https://img.shields.io/github/forks/iph0n3/CVE-2014-0224.svg)
-
 - [https://github.com/droptables/ccs-eval](https://github.com/droptables/ccs-eval) : ![starts](https://img.shields.io/github/stars/droptables/ccs-eval.svg) ![forks](https://img.shields.io/github/forks/droptables/ccs-eval.svg)
+
+- [https://github.com/iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224) : ![starts](https://img.shields.io/github/stars/iph0n3/CVE-2014-0224.svg) ![forks](https://img.shields.io/github/forks/iph0n3/CVE-2014-0224.svg)
 
 ## CVE-2014-0221
  The dtls1_get_message_fragment function in d1_both.c in OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h allows remote attackers to cause a denial of service (recursion and client crash) via a DTLS hello message in an invalid DTLS handshake.
