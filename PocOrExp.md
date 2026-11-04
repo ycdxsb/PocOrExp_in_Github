@@ -107008,7 +107008,7 @@ Exploitation of this vulnerability requires that a user or application run or in
 ## CVE-2009-4496
  Boa 0.94.14rc21 writes data to a log file without sanitizing non-printable characters, which might allow remote attackers to modify a window's title, or possibly execute arbitrary commands or overwrite files, via an HTTP request containing an escape sequence for a terminal emulator.
 
-- [https://github.com/enriquenegri-cyberlaw/boa-cve-2009-4496-analysis](https://github.com/enriquenegri-cyberlaw/boa-cve-2009-4496-analysis) : ![starts](https://img.shields.io/github/stars/enriquenegri-cyberlaw/boa-cve-2009-4496-analysis.svg) ![forks](https://img.shields.io/github/forks/enriquenegri-cyberlaw/boa-cve-2009-4496-analysis.svg)
+- [https://github.com/enriquenegri-cyberlaw/boa-webserver-log-escape-injection-cve-2009-4496](https://github.com/enriquenegri-cyberlaw/boa-webserver-log-escape-injection-cve-2009-4496) : ![starts](https://img.shields.io/github/stars/enriquenegri-cyberlaw/boa-webserver-log-escape-injection-cve-2009-4496.svg) ![forks](https://img.shields.io/github/forks/enriquenegri-cyberlaw/boa-webserver-log-escape-injection-cve-2009-4496.svg)
 
 ## CVE-2009-4140
  Unrestricted file upload vulnerability in ofc_upload_image.php in Open Flash Chart v2 Beta 1 through v2 Lug Wyrm Charmer, as used in Piwik 0.2.35 through 0.4.3, Woopra Analytics Plugin before 1.4.3.2, and possibly other products, when register_globals is enabled, allows remote authenticated users to execute arbitrary code by uploading a file with an executable extension through the name parameter with the code in the HTTP_RAW_POST_DATA parameter, then accessing it via a direct request to the file in tmp-upload-images/.
