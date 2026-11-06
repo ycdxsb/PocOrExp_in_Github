@@ -103505,11 +103505,6 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/saretawa/CVE-2015-9357-POC](https://github.com/saretawa/CVE-2015-9357-POC) : ![starts](https://img.shields.io/github/stars/saretawa/CVE-2015-9357-POC.svg) ![forks](https://img.shields.io/github/forks/saretawa/CVE-2015-9357-POC.svg)
 
-## CVE-2015-9331
- The wp-all-import plugin before 3.2.4 for WordPress has no prevention of unauthenticated requests to adminInit.
-
-- [https://github.com/Kairo-one/CVE-2015-9331](https://github.com/Kairo-one/CVE-2015-9331) : ![starts](https://img.shields.io/github/stars/Kairo-one/CVE-2015-9331.svg) ![forks](https://img.shields.io/github/forks/Kairo-one/CVE-2015-9331.svg)
-
 ## CVE-2015-9251
  jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed.
 
@@ -103549,9 +103544,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/whu-enjoy/CVE-2015-8660](https://github.com/whu-enjoy/CVE-2015-8660) : ![starts](https://img.shields.io/github/stars/whu-enjoy/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/whu-enjoy/CVE-2015-8660.svg)
 
-- [https://github.com/carradolly/CVE-2015-8660](https://github.com/carradolly/CVE-2015-8660) : ![starts](https://img.shields.io/github/stars/carradolly/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/carradolly/CVE-2015-8660.svg)
-
 - [https://github.com/nhamle2/CVE-2015-8660](https://github.com/nhamle2/CVE-2015-8660) : ![starts](https://img.shields.io/github/stars/nhamle2/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/nhamle2/CVE-2015-8660.svg)
+
+- [https://github.com/carradolly/CVE-2015-8660](https://github.com/carradolly/CVE-2015-8660) : ![starts](https://img.shields.io/github/stars/carradolly/CVE-2015-8660.svg) ![forks](https://img.shields.io/github/forks/carradolly/CVE-2015-8660.svg)
 
 ## CVE-2015-8651
  Integer overflow in Adobe Flash Player before 18.0.0.324 and 19.x and 20.x before 20.0.0.267 on Windows and OS X and before 11.2.202.559 on Linux, Adobe AIR before 20.0.0.233, Adobe AIR SDK before 20.0.0.233, and Adobe AIR SDK & Compiler before 20.0.0.233 allows attackers to execute arbitrary code via unspecified vectors.
