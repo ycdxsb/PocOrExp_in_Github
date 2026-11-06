@@ -107891,8 +107891,6 @@ This issue affects Apache HTTP Server 2.4.54 and earlier.
 
 - [https://github.com/sinkaroid/shiguresh](https://github.com/sinkaroid/shiguresh) : ![starts](https://img.shields.io/github/stars/sinkaroid/shiguresh.svg) ![forks](https://img.shields.io/github/forks/sinkaroid/shiguresh.svg)
 
-- [https://github.com/Redsplit/shiguresh](https://github.com/Redsplit/shiguresh) : ![starts](https://img.shields.io/github/stars/Redsplit/shiguresh.svg) ![forks](https://img.shields.io/github/forks/Redsplit/shiguresh.svg)
-
 ## CVE-2004-1561
  Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute arbitrary code via an HTTP request with a large number of headers.
 
