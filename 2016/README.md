@@ -183,11 +183,11 @@
 
 - [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
 
+- [https://github.com/CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/CAOlvchonger/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/CAOlvchonger/CVE-2016-10033.svg)
+
 - [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
 
 - [https://github.com/blue-chocolates/CVE-2016-10033](https://github.com/blue-chocolates/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/blue-chocolates/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/blue-chocolates/CVE-2016-10033.svg)
-
-- [https://github.com/CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/CAOlvchonger/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/CAOlvchonger/CVE-2016-10033.svg)
 
 - [https://github.com/alexander47777/CVE-2016-10033](https://github.com/alexander47777/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/alexander47777/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/alexander47777/CVE-2016-10033.svg)
 
@@ -759,6 +759,8 @@
 
 - [https://github.com/cbry-96/Dirty-Cow-Ubuntu-Server-16.04.1](https://github.com/cbry-96/Dirty-Cow-Ubuntu-Server-16.04.1) : ![starts](https://img.shields.io/github/stars/cbry-96/Dirty-Cow-Ubuntu-Server-16.04.1.svg) ![forks](https://img.shields.io/github/forks/cbry-96/Dirty-Cow-Ubuntu-Server-16.04.1.svg)
 
+- [https://github.com/clrs520/letv-tv-ad-free](https://github.com/clrs520/letv-tv-ad-free) : ![starts](https://img.shields.io/github/stars/clrs520/letv-tv-ad-free.svg) ![forks](https://img.shields.io/github/forks/clrs520/letv-tv-ad-free.svg)
+
 - [https://github.com/sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/sribaba/android-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/sribaba/android-CVE-2016-5195.svg)
 
 - [https://github.com/ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/ndobson/inspec_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ndobson/inspec_CVE-2016-5195.svg)
@@ -769,13 +771,13 @@
 
 - [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
 
-- [https://github.com/vudangducminh/CVE-2016-5195](https://github.com/vudangducminh/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/vudangducminh/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/vudangducminh/CVE-2016-5195.svg)
-
 - [https://github.com/KongQBin/CVE-2016-5195](https://github.com/KongQBin/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/KongQBin/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KongQBin/CVE-2016-5195.svg)
 
 - [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
 
 - [https://github.com/gogooma125732/CVE-2016-5195](https://github.com/gogooma125732/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/gogooma125732/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/gogooma125732/CVE-2016-5195.svg)
+
+- [https://github.com/vudangducminh/CVE-2016-5195](https://github.com/vudangducminh/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/vudangducminh/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/vudangducminh/CVE-2016-5195.svg)
 
 - [https://github.com/ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/ASUKA39/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ASUKA39/CVE-2016-5195.svg)
 
@@ -830,6 +832,8 @@
 - [https://github.com/AlonsoJuan1994/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow](https://github.com/AlonsoJuan1994/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow) : ![starts](https://img.shields.io/github/stars/AlonsoJuan1994/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow.svg) ![forks](https://img.shields.io/github/forks/AlonsoJuan1994/Escalamiento-de-Privilegios-usando-el-Kernel-Exploit-Dirty-Cow.svg)
 
 - [https://github.com/voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195](https://github.com/voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195) : ![starts](https://img.shields.io/github/stars/voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195.svg) ![forks](https://img.shields.io/github/forks/voidgguy/lenovo-a1000g-mt8317-A412_01_09_130907-kernel-3.4.0-root-cve-2016-5195.svg)
+
+- [https://github.com/federiconbaez/cortex9-dirtycow-gup-cow-state-model](https://github.com/federiconbaez/cortex9-dirtycow-gup-cow-state-model) : ![starts](https://img.shields.io/github/stars/federiconbaez/cortex9-dirtycow-gup-cow-state-model.svg) ![forks](https://img.shields.io/github/forks/federiconbaez/cortex9-dirtycow-gup-cow-state-model.svg)
 
 - [https://github.com/rauljvc8/Exploit-Dirty-Cow](https://github.com/rauljvc8/Exploit-Dirty-Cow) : ![starts](https://img.shields.io/github/stars/rauljvc8/Exploit-Dirty-Cow.svg) ![forks](https://img.shields.io/github/forks/rauljvc8/Exploit-Dirty-Cow.svg)
 
