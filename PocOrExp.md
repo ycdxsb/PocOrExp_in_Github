@@ -104083,6 +104083,11 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/ockeghem/CVE-2015-6835-checker](https://github.com/ockeghem/CVE-2015-6835-checker) : ![starts](https://img.shields.io/github/stars/ockeghem/CVE-2015-6835-checker.svg) ![forks](https://img.shields.io/github/forks/ockeghem/CVE-2015-6835-checker.svg)
 
+## CVE-2015-6831
+ Multiple use-after-free vulnerabilities in SPL in PHP before 5.4.44, 5.5.x before 5.5.28, and 5.6.x before 5.6.12 allow remote attackers to execute arbitrary code via vectors involving (1) ArrayObject, (2) SplObjectStorage, and (3) SplDoublyLinkedList, which are mishandled during unserialization.
+
+- [https://github.com/wjdekq113/php54-spl-uaf-rce-chain](https://github.com/wjdekq113/php54-spl-uaf-rce-chain) : ![starts](https://img.shields.io/github/stars/wjdekq113/php54-spl-uaf-rce-chain.svg) ![forks](https://img.shields.io/github/forks/wjdekq113/php54-spl-uaf-rce-chain.svg)
+
 ## CVE-2015-6748
  Cross-site scripting (XSS) vulnerability in jsoup before 1.8.3.
 
@@ -104452,9 +104457,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/diegslva/cve-2015-3306-lab](https://github.com/diegslva/cve-2015-3306-lab) : ![starts](https://img.shields.io/github/stars/diegslva/cve-2015-3306-lab.svg) ![forks](https://img.shields.io/github/forks/diegslva/cve-2015-3306-lab.svg)
 
-- [https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit](https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit) : ![starts](https://img.shields.io/github/stars/cdedmondson/Modified-CVE-2015-3306-Exploit.svg) ![forks](https://img.shields.io/github/forks/cdedmondson/Modified-CVE-2015-3306-Exploit.svg)
-
 - [https://github.com/netw0rk7/CVE-2015-3306-Home-Lab](https://github.com/netw0rk7/CVE-2015-3306-Home-Lab) : ![starts](https://img.shields.io/github/stars/netw0rk7/CVE-2015-3306-Home-Lab.svg) ![forks](https://img.shields.io/github/forks/netw0rk7/CVE-2015-3306-Home-Lab.svg)
+
+- [https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit](https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit) : ![starts](https://img.shields.io/github/stars/cdedmondson/Modified-CVE-2015-3306-Exploit.svg) ![forks](https://img.shields.io/github/forks/cdedmondson/Modified-CVE-2015-3306-Exploit.svg)
 
 - [https://github.com/canpilayda/proftpd-mod_copy-cve-2015-3306](https://github.com/canpilayda/proftpd-mod_copy-cve-2015-3306) : ![starts](https://img.shields.io/github/stars/canpilayda/proftpd-mod_copy-cve-2015-3306.svg) ![forks](https://img.shields.io/github/forks/canpilayda/proftpd-mod_copy-cve-2015-3306.svg)
 
@@ -104814,6 +104819,11 @@ Only traffic directed to the affected system can be used to exploit this vulnera
  The crash reporting feature in Apport 2.13 through 2.17.x before 2.17.1 allows local users to gain privileges via a crafted usr/share/apport/apport file in a namespace (container).
 
 - [https://github.com/ScottyBauer/CVE-2015-1318](https://github.com/ScottyBauer/CVE-2015-1318) : ![starts](https://img.shields.io/github/stars/ScottyBauer/CVE-2015-1318.svg) ![forks](https://img.shields.io/github/forks/ScottyBauer/CVE-2015-1318.svg)
+
+## CVE-2015-1201
+ Privoxy before 3.0.22 allows remote attackers to cause a denial of service (file descriptor consumption) via unspecified vectors.  NOTE: the provenance of this information is unknown; the details are obtained solely from third party information.
+
+- [https://github.com/Akshit0203/CVE-2015-1201-wordpress-Reflex-Gallery-plugin-RCE-PoC](https://github.com/Akshit0203/CVE-2015-1201-wordpress-Reflex-Gallery-plugin-RCE-PoC) : ![starts](https://img.shields.io/github/stars/Akshit0203/CVE-2015-1201-wordpress-Reflex-Gallery-plugin-RCE-PoC.svg) ![forks](https://img.shields.io/github/forks/Akshit0203/CVE-2015-1201-wordpress-Reflex-Gallery-plugin-RCE-PoC.svg)
 
 ## CVE-2015-1187
  The ping tool in multiple D-Link and TRENDnet devices allow remote attackers to execute arbitrary code via the ping_addr parameter to ping.ccp.
