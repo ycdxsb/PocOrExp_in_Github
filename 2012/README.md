@@ -173,9 +173,9 @@
 
 - [https://github.com/0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982) : ![starts](https://img.shields.io/github/stars/0xF331-D3AD/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/0xF331-D3AD/CVE-2012-2982.svg)
 
-- [https://github.com/elliotosama/CVE-2012-2982](https://github.com/elliotosama/CVE-2012-2982) : ![starts](https://img.shields.io/github/stars/elliotosama/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/elliotosama/CVE-2012-2982.svg)
-
 - [https://github.com/CpyRe/CVE-2012-2982](https://github.com/CpyRe/CVE-2012-2982) : ![starts](https://img.shields.io/github/stars/CpyRe/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/CpyRe/CVE-2012-2982.svg)
+
+- [https://github.com/elliotosama/CVE-2012-2982](https://github.com/elliotosama/CVE-2012-2982) : ![starts](https://img.shields.io/github/stars/elliotosama/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/elliotosama/CVE-2012-2982.svg)
 
 - [https://github.com/varppi/CVE-2012-2982](https://github.com/varppi/CVE-2012-2982) : ![starts](https://img.shields.io/github/stars/varppi/CVE-2012-2982.svg) ![forks](https://img.shields.io/github/forks/varppi/CVE-2012-2982.svg)
 
@@ -313,6 +313,11 @@
  Adobe Flash Player before 10.3.183.15 and 11.x before 11.1.102.62 on Windows, Mac OS X, Linux, and Solaris; before 11.1.111.6 on Android 2.x and 3.x; and before 11.1.115.6 on Android 4.x allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors.
 
 - [https://github.com/mbeweoo/flash-exploit-defense-system](https://github.com/mbeweoo/flash-exploit-defense-system) : ![starts](https://img.shields.io/github/stars/mbeweoo/flash-exploit-defense-system.svg) ![forks](https://img.shields.io/github/forks/mbeweoo/flash-exploit-defense-system.svg)
+
+## CVE-2012-0694
+ SugarCRM CE = 6.3.1 contains scripts that use "unserialize()" with user controlled input which allows remote attackers to execute arbitrary PHP code.
+
+- [https://github.com/marinovharisan/CVE-2012-0694-SugarCRM-PoC](https://github.com/marinovharisan/CVE-2012-0694-SugarCRM-PoC) : ![starts](https://img.shields.io/github/stars/marinovharisan/CVE-2012-0694-SugarCRM-PoC.svg) ![forks](https://img.shields.io/github/forks/marinovharisan/CVE-2012-0694-SugarCRM-PoC.svg)
 
 ## CVE-2012-0507
  Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, and 5.0 Update 33 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Concurrency.  NOTE: the previous information was obtained from the February 2012 Oracle CPU. Oracle has not commented on claims from a downstream vendor and third party researchers that this issue occurs because the AtomicReferenceArray class implementation does not ensure that the array is of the Object[] type, which allows attackers to cause a denial of service (JVM crash) or bypass Java sandbox restrictions.  NOTE: this issue was originally mapped to CVE-2011-3571, but that identifier was already assigned to a different issue.
