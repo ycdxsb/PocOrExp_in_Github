@@ -104677,6 +104677,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/rexifiles/rex-sec-glibc](https://github.com/rexifiles/rex-sec-glibc) : ![starts](https://img.shields.io/github/stars/rexifiles/rex-sec-glibc.svg) ![forks](https://img.shields.io/github/forks/rexifiles/rex-sec-glibc.svg)
 
+- [https://github.com/federiconbaez/cortex9-glibc-getaddrinfo-dual-buffer-state-model](https://github.com/federiconbaez/cortex9-glibc-getaddrinfo-dual-buffer-state-model) : ![starts](https://img.shields.io/github/stars/federiconbaez/cortex9-glibc-getaddrinfo-dual-buffer-state-model.svg) ![forks](https://img.shields.io/github/forks/federiconbaez/cortex9-glibc-getaddrinfo-dual-buffer-state-model.svg)
+
 ## CVE-2015-7545
  The (1) git-remote-ext and (2) unspecified other remote helper programs in Git before 2.3.10, 2.4.x before 2.4.10, 2.5.x before 2.5.4, and 2.6.x before 2.6.1 do not properly restrict the allowed protocols, which might allow remote attackers to execute arbitrary code via a URL in a (a) .gitmodules file or (b) unknown other sources in a submodule.
 
