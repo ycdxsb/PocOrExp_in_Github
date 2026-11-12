@@ -167,11 +167,11 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/DavidBr27/CVE-2013-3900-Remediation-Script](https://github.com/DavidBr27/CVE-2013-3900-Remediation-Script) : ![starts](https://img.shields.io/github/stars/DavidBr27/CVE-2013-3900-Remediation-Script.svg) ![forks](https://img.shields.io/github/forks/DavidBr27/CVE-2013-3900-Remediation-Script.svg)
 
-- [https://github.com/malaya-m/cve-2013-3900-remediation-report](https://github.com/malaya-m/cve-2013-3900-remediation-report) : ![starts](https://img.shields.io/github/stars/malaya-m/cve-2013-3900-remediation-report.svg) ![forks](https://img.shields.io/github/forks/malaya-m/cve-2013-3900-remediation-report.svg)
-
 - [https://github.com/ksgassama-lab/vulnerability-remediation-cve-2013-3900](https://github.com/ksgassama-lab/vulnerability-remediation-cve-2013-3900) : ![starts](https://img.shields.io/github/stars/ksgassama-lab/vulnerability-remediation-cve-2013-3900.svg) ![forks](https://img.shields.io/github/forks/ksgassama-lab/vulnerability-remediation-cve-2013-3900.svg)
 
 - [https://github.com/SDimitri05/cve-2013-3900-winverifytrust-mitigation](https://github.com/SDimitri05/cve-2013-3900-winverifytrust-mitigation) : ![starts](https://img.shields.io/github/stars/SDimitri05/cve-2013-3900-winverifytrust-mitigation.svg) ![forks](https://img.shields.io/github/forks/SDimitri05/cve-2013-3900-winverifytrust-mitigation.svg)
+
+- [https://github.com/malaya-m/cve-2013-3900-remediation-report](https://github.com/malaya-m/cve-2013-3900-remediation-report) : ![starts](https://img.shields.io/github/stars/malaya-m/cve-2013-3900-remediation-report.svg) ![forks](https://img.shields.io/github/forks/malaya-m/cve-2013-3900-remediation-report.svg)
 
 - [https://github.com/AdenilsonSantos/WinVerifyTrust](https://github.com/AdenilsonSantos/WinVerifyTrust) : ![starts](https://img.shields.io/github/stars/AdenilsonSantos/WinVerifyTrust.svg) ![forks](https://img.shields.io/github/forks/AdenilsonSantos/WinVerifyTrust.svg)
 
@@ -375,6 +375,11 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/v-p-b/buherablog-cve-2013-1488](https://github.com/v-p-b/buherablog-cve-2013-1488) : ![starts](https://img.shields.io/github/stars/v-p-b/buherablog-cve-2013-1488.svg) ![forks](https://img.shields.io/github/forks/v-p-b/buherablog-cve-2013-1488.svg)
 
+## CVE-2013-1453
+ plugins/system/highlight/highlight.php in Joomla! 3.0.x through 3.0.2 and 2.5.x through 2.5.8 allows attackers to unserialize arbitrary PHP objects to obtain sensitive information, delete arbitrary directories, conduct SQL injection attacks, and possibly have other impacts via the highlight parameter.  Note: it was originally reported that this issue only allowed attackers to obtain sensitive information, but later analysis demonstrated that other attacks exist.
+
+- [https://github.com/stupazz/joomla-cve-2013-1453](https://github.com/stupazz/joomla-cve-2013-1453) : ![starts](https://img.shields.io/github/stars/stupazz/joomla-cve-2013-1453.svg) ![forks](https://img.shields.io/github/forks/stupazz/joomla-cve-2013-1453.svg)
+
 ## CVE-2013-1300
  win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows Server 2012, and Windows RT does not properly handle objects in memory, which allows local users to gain privileges via a crafted application, aka "Win32k Memory Allocation Vulnerability."
 
@@ -431,9 +436,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/oxben10/CVE-2013-0156](https://github.com/oxben10/CVE-2013-0156) : ![starts](https://img.shields.io/github/stars/oxben10/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/oxben10/CVE-2013-0156.svg)
 
-- [https://github.com/R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156) : ![starts](https://img.shields.io/github/stars/R3dKn33-zz/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/R3dKn33-zz/CVE-2013-0156.svg)
-
 - [https://github.com/7s26simon/CVE-2013-0156](https://github.com/7s26simon/CVE-2013-0156) : ![starts](https://img.shields.io/github/stars/7s26simon/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/7s26simon/CVE-2013-0156.svg)
+
+- [https://github.com/R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156) : ![starts](https://img.shields.io/github/stars/R3dKn33-zz/CVE-2013-0156.svg) ![forks](https://img.shields.io/github/forks/R3dKn33-zz/CVE-2013-0156.svg)
 
 - [https://github.com/terracatta/name_reverser](https://github.com/terracatta/name_reverser) : ![starts](https://img.shields.io/github/stars/terracatta/name_reverser.svg) ![forks](https://img.shields.io/github/forks/terracatta/name_reverser.svg)
 
