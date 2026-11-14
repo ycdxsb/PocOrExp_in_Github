@@ -183,11 +183,11 @@
 
 - [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
 
+- [https://github.com/CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/CAOlvchonger/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/CAOlvchonger/CVE-2016-10033.svg)
+
 - [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
 
 - [https://github.com/blue-chocolates/CVE-2016-10033](https://github.com/blue-chocolates/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/blue-chocolates/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/blue-chocolates/CVE-2016-10033.svg)
-
-- [https://github.com/CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/CAOlvchonger/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/CAOlvchonger/CVE-2016-10033.svg)
 
 - [https://github.com/alexander47777/CVE-2016-10033](https://github.com/alexander47777/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/alexander47777/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/alexander47777/CVE-2016-10033.svg)
 
@@ -333,9 +333,9 @@
 
 - [https://github.com/agkunkle/chocobo](https://github.com/agkunkle/chocobo) : ![starts](https://img.shields.io/github/stars/agkunkle/chocobo.svg) ![forks](https://img.shields.io/github/forks/agkunkle/chocobo.svg)
 
-- [https://github.com/WhatsWrongAndWhy/CVE-2016-8655](https://github.com/WhatsWrongAndWhy/CVE-2016-8655) : ![starts](https://img.shields.io/github/stars/WhatsWrongAndWhy/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/WhatsWrongAndWhy/CVE-2016-8655.svg)
-
 - [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) : ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
+
+- [https://github.com/WhatsWrongAndWhy/CVE-2016-8655](https://github.com/WhatsWrongAndWhy/CVE-2016-8655) : ![starts](https://img.shields.io/github/stars/WhatsWrongAndWhy/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/WhatsWrongAndWhy/CVE-2016-8655.svg)
 
 - [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) : ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
 
@@ -767,15 +767,15 @@
 
 - [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) : ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
 
+- [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
+
 - [https://github.com/ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/ldenevi/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ldenevi/CVE-2016-5195.svg)
 
-- [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
+- [https://github.com/vudangducminh/CVE-2016-5195](https://github.com/vudangducminh/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/vudangducminh/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/vudangducminh/CVE-2016-5195.svg)
 
 - [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
 
 - [https://github.com/gogooma125732/CVE-2016-5195](https://github.com/gogooma125732/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/gogooma125732/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/gogooma125732/CVE-2016-5195.svg)
-
-- [https://github.com/vudangducminh/CVE-2016-5195](https://github.com/vudangducminh/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/vudangducminh/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/vudangducminh/CVE-2016-5195.svg)
 
 - [https://github.com/KongQBin/CVE-2016-5195](https://github.com/KongQBin/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/KongQBin/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KongQBin/CVE-2016-5195.svg)
 
@@ -799,11 +799,13 @@
 
 - [https://github.com/passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs) : ![starts](https://img.shields.io/github/stars/passionchenjianyegmail8/scumjrs.svg) ![forks](https://img.shields.io/github/forks/passionchenjianyegmail8/scumjrs.svg)
 
-- [https://github.com/1equeneRise/scumjr9](https://github.com/1equeneRise/scumjr9) : ![starts](https://img.shields.io/github/stars/1equeneRise/scumjr9.svg) ![forks](https://img.shields.io/github/forks/1equeneRise/scumjr9.svg)
-
 - [https://github.com/vinspiert/scumjrs](https://github.com/vinspiert/scumjrs) : ![starts](https://img.shields.io/github/stars/vinspiert/scumjrs.svg) ![forks](https://img.shields.io/github/forks/vinspiert/scumjrs.svg)
 
+- [https://github.com/1equeneRise/scumjr9](https://github.com/1equeneRise/scumjr9) : ![starts](https://img.shields.io/github/stars/1equeneRise/scumjr9.svg) ![forks](https://img.shields.io/github/forks/1equeneRise/scumjr9.svg)
+
 - [https://github.com/theo543/OSDS_Paper_CVE-2016-5195](https://github.com/theo543/OSDS_Paper_CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/theo543/OSDS_Paper_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/theo543/OSDS_Paper_CVE-2016-5195.svg)
+
+- [https://github.com/mlucianoeze/linux-backport-CVE-2016-5195](https://github.com/mlucianoeze/linux-backport-CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/mlucianoeze/linux-backport-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/mlucianoeze/linux-backport-CVE-2016-5195.svg)
 
 - [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) : ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
 
@@ -1412,8 +1414,6 @@
 - [https://github.com/mamon9022/poc-fls-node-epicronicles](https://github.com/mamon9022/poc-fls-node-epicronicles) : ![starts](https://img.shields.io/github/stars/mamon9022/poc-fls-node-epicronicles.svg) ![forks](https://img.shields.io/github/forks/mamon9022/poc-fls-node-epicronicles.svg)
 
 - [https://github.com/readloud/PoC](https://github.com/readloud/PoC) : ![starts](https://img.shields.io/github/stars/readloud/PoC.svg) ![forks](https://img.shields.io/github/forks/readloud/PoC.svg)
-
-- [https://github.com/404godd/CVE-2026-20841-PoC](https://github.com/404godd/CVE-2026-20841-PoC) : ![starts](https://img.shields.io/github/stars/404godd/CVE-2026-20841-PoC.svg) ![forks](https://img.shields.io/github/forks/404godd/CVE-2026-20841-PoC.svg)
 
 ## CVE-2016-0846
  libs/binder/IMemory.cpp in the IMemory Native Interface in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, and 6.x before 2016-04-01 does not properly consider the heap size, which allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bug 26877992.
