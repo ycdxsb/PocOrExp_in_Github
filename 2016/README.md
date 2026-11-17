@@ -789,9 +789,9 @@
 
 - [https://github.com/acidburnmi/CVE-2016-5195-master](https://github.com/acidburnmi/CVE-2016-5195-master) : ![starts](https://img.shields.io/github/stars/acidburnmi/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/acidburnmi/CVE-2016-5195-master.svg)
 
-- [https://github.com/h1n4mx0z/Research-CVE-2016-5195](https://github.com/h1n4mx0z/Research-CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/h1n4mx0z/Research-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/h1n4mx0z/Research-CVE-2016-5195.svg)
-
 - [https://github.com/EDLLT/CVE-2016-5195-master](https://github.com/EDLLT/CVE-2016-5195-master) : ![starts](https://img.shields.io/github/stars/EDLLT/CVE-2016-5195-master.svg) ![forks](https://img.shields.io/github/forks/EDLLT/CVE-2016-5195-master.svg)
+
+- [https://github.com/h1n4mx0z/Research-CVE-2016-5195](https://github.com/h1n4mx0z/Research-CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/h1n4mx0z/Research-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/h1n4mx0z/Research-CVE-2016-5195.svg)
 
 - [https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB](https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB) : ![starts](https://img.shields.io/github/stars/sakilahamed/Linux-Kernel-Exploit-LAB.svg) ![forks](https://img.shields.io/github/forks/sakilahamed/Linux-Kernel-Exploit-LAB.svg)
 
@@ -807,9 +807,9 @@
 
 - [https://github.com/mlucianoeze/linux-backport-CVE-2016-5195](https://github.com/mlucianoeze/linux-backport-CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/mlucianoeze/linux-backport-CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/mlucianoeze/linux-backport-CVE-2016-5195.svg)
 
-- [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) : ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
-
 - [https://github.com/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195](https://github.com/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ZhiQiAnSecFork/DirtyCOW_CVE-2016-5195.svg)
+
+- [https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-) : ![starts](https://img.shields.io/github/stars/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/dulanjaya23/Dirty-Cow-CVE-2016-5195-.svg)
 
 - [https://github.com/KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow) : ![starts](https://img.shields.io/github/stars/KaviDk/dirtyCow.svg) ![forks](https://img.shields.io/github/forks/KaviDk/dirtyCow.svg)
 
