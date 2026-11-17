@@ -63,6 +63,8 @@
 
 - [https://github.com/MonseigneurPatas/thm-ice-icecast-rce-privesc](https://github.com/MonseigneurPatas/thm-ice-icecast-rce-privesc) : ![starts](https://img.shields.io/github/stars/MonseigneurPatas/thm-ice-icecast-rce-privesc.svg) ![forks](https://img.shields.io/github/forks/MonseigneurPatas/thm-ice-icecast-rce-privesc.svg)
 
+- [https://github.com/anway8090/Tryhackme-ice-lab-](https://github.com/anway8090/Tryhackme-ice-lab-) : ![starts](https://img.shields.io/github/stars/anway8090/Tryhackme-ice-lab-.svg) ![forks](https://img.shields.io/github/forks/anway8090/Tryhackme-ice-lab-.svg)
+
 ## CVE-2004-1235
  Race condition in the (1) load_elf_library and (2) binfmt_aout function calls for uselib in Linux kernel 2.4 through 2.429-rc2 and 2.6 through 2.6.10 allows local users to execute arbitrary code by manipulating the VMA descriptor.
 
