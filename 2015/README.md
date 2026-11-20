@@ -769,6 +769,11 @@
 
 - [https://github.com/arntsonl/CVE-2015-2153](https://github.com/arntsonl/CVE-2015-2153) : ![starts](https://img.shields.io/github/stars/arntsonl/CVE-2015-2153.svg) ![forks](https://img.shields.io/github/forks/arntsonl/CVE-2015-2153.svg)
 
+## CVE-2015-2025
+ IBM WebSphere eXtreme Scale 7.1.0 before 7.1.0.3 and 7.1.1 before 7.1.1.1 does not set the secure flag for the session cookie in an https session, which makes it easier for remote attackers to capture this cookie by intercepting its transmission within an http session.
+
+- [https://github.com/Ethanpr05/cve-2015-2025-analisis](https://github.com/Ethanpr05/cve-2015-2025-analisis) : ![starts](https://img.shields.io/github/stars/Ethanpr05/cve-2015-2025-analisis.svg) ![forks](https://img.shields.io/github/forks/Ethanpr05/cve-2015-2025-analisis.svg)
+
 ## CVE-2015-1986
  The server in IBM Tivoli Storage Manager FastBack 6.1 before 6.1.12 allows remote attackers to execute arbitrary commands via unspecified vectors, a different vulnerability than CVE-2015-1938.
 
@@ -1066,9 +1071,9 @@
 
 - [https://github.com/chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235) : ![starts](https://img.shields.io/github/stars/chayim/GHOSTCHECK-cve-2015-0235.svg) ![forks](https://img.shields.io/github/forks/chayim/GHOSTCHECK-cve-2015-0235.svg)
 
-- [https://github.com/koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc) : ![starts](https://img.shields.io/github/stars/koudaiii-archives/cookbook-update-glibc.svg) ![forks](https://img.shields.io/github/forks/koudaiii-archives/cookbook-update-glibc.svg)
-
 - [https://github.com/1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester) : ![starts](https://img.shields.io/github/stars/1and1-serversupport/ghosttester.svg) ![forks](https://img.shields.io/github/forks/1and1-serversupport/ghosttester.svg)
+
+- [https://github.com/koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc) : ![starts](https://img.shields.io/github/stars/koudaiii-archives/cookbook-update-glibc.svg) ![forks](https://img.shields.io/github/forks/koudaiii-archives/cookbook-update-glibc.svg)
 
 - [https://github.com/favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6) : ![starts](https://img.shields.io/github/stars/favoretti/lenny-libc6.svg) ![forks](https://img.shields.io/github/forks/favoretti/lenny-libc6.svg)
 
