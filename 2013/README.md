@@ -169,9 +169,9 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/ksgassama-lab/vulnerability-remediation-cve-2013-3900](https://github.com/ksgassama-lab/vulnerability-remediation-cve-2013-3900) : ![starts](https://img.shields.io/github/stars/ksgassama-lab/vulnerability-remediation-cve-2013-3900.svg) ![forks](https://img.shields.io/github/forks/ksgassama-lab/vulnerability-remediation-cve-2013-3900.svg)
 
-- [https://github.com/malaya-m/cve-2013-3900-remediation-report](https://github.com/malaya-m/cve-2013-3900-remediation-report) : ![starts](https://img.shields.io/github/stars/malaya-m/cve-2013-3900-remediation-report.svg) ![forks](https://img.shields.io/github/forks/malaya-m/cve-2013-3900-remediation-report.svg)
-
 - [https://github.com/SDimitri05/cve-2013-3900-winverifytrust-mitigation](https://github.com/SDimitri05/cve-2013-3900-winverifytrust-mitigation) : ![starts](https://img.shields.io/github/stars/SDimitri05/cve-2013-3900-winverifytrust-mitigation.svg) ![forks](https://img.shields.io/github/forks/SDimitri05/cve-2013-3900-winverifytrust-mitigation.svg)
+
+- [https://github.com/malaya-m/cve-2013-3900-remediation-report](https://github.com/malaya-m/cve-2013-3900-remediation-report) : ![starts](https://img.shields.io/github/stars/malaya-m/cve-2013-3900-remediation-report.svg) ![forks](https://img.shields.io/github/forks/malaya-m/cve-2013-3900-remediation-report.svg)
 
 - [https://github.com/AdenilsonSantos/WinVerifyTrust](https://github.com/AdenilsonSantos/WinVerifyTrust) : ![starts](https://img.shields.io/github/stars/AdenilsonSantos/WinVerifyTrust.svg) ![forks](https://img.shields.io/github/forks/AdenilsonSantos/WinVerifyTrust.svg)
 
@@ -327,6 +327,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 - [https://github.com/xiw1ll/CVE-2013-2028_Checker](https://github.com/xiw1ll/CVE-2013-2028_Checker) : ![starts](https://img.shields.io/github/stars/xiw1ll/CVE-2013-2028_Checker.svg) ![forks](https://img.shields.io/github/forks/xiw1ll/CVE-2013-2028_Checker.svg)
 
 - [https://github.com/vanivamshi/CVE-2013-2028-Exploit](https://github.com/vanivamshi/CVE-2013-2028-Exploit) : ![starts](https://img.shields.io/github/stars/vanivamshi/CVE-2013-2028-Exploit.svg) ![forks](https://img.shields.io/github/forks/vanivamshi/CVE-2013-2028-Exploit.svg)
+
+- [https://github.com/XiXinping/367-nginx-chunked-size](https://github.com/XiXinping/367-nginx-chunked-size) : ![starts](https://img.shields.io/github/stars/XiXinping/367-nginx-chunked-size.svg) ![forks](https://img.shields.io/github/forks/XiXinping/367-nginx-chunked-size.svg)
 
 ## CVE-2013-2010
  WordPress W3 Total Cache Plugin 0.9.2.8 has a Remote PHP Code Execution Vulnerability
