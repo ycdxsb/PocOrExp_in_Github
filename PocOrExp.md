@@ -107852,6 +107852,11 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/arntsonl/CVE-2015-2153](https://github.com/arntsonl/CVE-2015-2153) : ![starts](https://img.shields.io/github/stars/arntsonl/CVE-2015-2153.svg) ![forks](https://img.shields.io/github/forks/arntsonl/CVE-2015-2153.svg)
 
+## CVE-2015-2050
+ D-Link DAP-1320 Rev Ax with firmware before 1.21b05 allows attackers to execute arbitrary commands via unspecified vectors.
+
+- [https://github.com/nightscry/CVE-2015-2050-DAP-1320](https://github.com/nightscry/CVE-2015-2050-DAP-1320) : ![starts](https://img.shields.io/github/stars/nightscry/CVE-2015-2050-DAP-1320.svg) ![forks](https://img.shields.io/github/forks/nightscry/CVE-2015-2050-DAP-1320.svg)
+
 ## CVE-2015-2025
  IBM WebSphere eXtreme Scale 7.1.0 before 7.1.0.3 and 7.1.1 before 7.1.1.1 does not set the secure flag for the session cookie in an https session, which makes it easier for remote attackers to capture this cookie by intercepting its transmission within an http session.
 
@@ -108154,9 +108159,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235) : ![starts](https://img.shields.io/github/stars/chayim/GHOSTCHECK-cve-2015-0235.svg) ![forks](https://img.shields.io/github/forks/chayim/GHOSTCHECK-cve-2015-0235.svg)
 
-- [https://github.com/1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester) : ![starts](https://img.shields.io/github/stars/1and1-serversupport/ghosttester.svg) ![forks](https://img.shields.io/github/forks/1and1-serversupport/ghosttester.svg)
-
 - [https://github.com/koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc) : ![starts](https://img.shields.io/github/stars/koudaiii-archives/cookbook-update-glibc.svg) ![forks](https://img.shields.io/github/forks/koudaiii-archives/cookbook-update-glibc.svg)
+
+- [https://github.com/1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester) : ![starts](https://img.shields.io/github/stars/1and1-serversupport/ghosttester.svg) ![forks](https://img.shields.io/github/forks/1and1-serversupport/ghosttester.svg)
 
 - [https://github.com/favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6) : ![starts](https://img.shields.io/github/stars/favoretti/lenny-libc6.svg) ![forks](https://img.shields.io/github/forks/favoretti/lenny-libc6.svg)
 
