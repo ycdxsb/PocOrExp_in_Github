@@ -110827,6 +110827,8 @@ Exploitation of this vulnerability requires that a user or application run or in
 
 - [https://github.com/afifudinmtop/CVE-2009-3103](https://github.com/afifudinmtop/CVE-2009-3103) : ![starts](https://img.shields.io/github/stars/afifudinmtop/CVE-2009-3103.svg) ![forks](https://img.shields.io/github/forks/afifudinmtop/CVE-2009-3103.svg)
 
+- [https://github.com/Zhaoyi-Fan/ms09-050-smb2-manual](https://github.com/Zhaoyi-Fan/ms09-050-smb2-manual) : ![starts](https://img.shields.io/github/stars/Zhaoyi-Fan/ms09-050-smb2-manual.svg) ![forks](https://img.shields.io/github/forks/Zhaoyi-Fan/ms09-050-smb2-manual.svg)
+
 - [https://github.com/nicolasdamians/ms09-050-CVE-2009-3103-exploit](https://github.com/nicolasdamians/ms09-050-CVE-2009-3103-exploit) : ![starts](https://img.shields.io/github/stars/nicolasdamians/ms09-050-CVE-2009-3103-exploit.svg) ![forks](https://img.shields.io/github/forks/nicolasdamians/ms09-050-CVE-2009-3103-exploit.svg)
 
 - [https://github.com/bytejmp/MS09-050](https://github.com/bytejmp/MS09-050) : ![starts](https://img.shields.io/github/stars/bytejmp/MS09-050.svg) ![forks](https://img.shields.io/github/forks/bytejmp/MS09-050.svg)
