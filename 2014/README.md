@@ -99,9 +99,9 @@
 
 - [https://github.com/MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC) : ![starts](https://img.shields.io/github/stars/MazX0p/CVE-2014-8609-POC.svg) ![forks](https://img.shields.io/github/forks/MazX0p/CVE-2014-8609-POC.svg)
 
-- [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) : ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
-
 - [https://github.com/ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit) : ![starts](https://img.shields.io/github/stars/ratiros01/CVE-2014-8609-exploit.svg) ![forks](https://img.shields.io/github/forks/ratiros01/CVE-2014-8609-exploit.svg)
+
+- [https://github.com/locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609) : ![starts](https://img.shields.io/github/stars/locisvv/Vulnerable-CVE-2014-8609.svg) ![forks](https://img.shields.io/github/forks/locisvv/Vulnerable-CVE-2014-8609.svg)
 
 ## CVE-2014-8361
  The miniigd SOAP service in Realtek SDK allows remote attackers to execute arbitrary code via a crafted NewInternalClient request, as exploited in the wild through 2023.
@@ -190,9 +190,9 @@
 
 - [https://github.com/Gobinath-B/SHELL-SCHOCK](https://github.com/Gobinath-B/SHELL-SCHOCK) : ![starts](https://img.shields.io/github/stars/Gobinath-B/SHELL-SCHOCK.svg) ![forks](https://img.shields.io/github/forks/Gobinath-B/SHELL-SCHOCK.svg)
 
-- [https://github.com/gina-alaska/bash-cve-2014-7169-cookbook](https://github.com/gina-alaska/bash-cve-2014-7169-cookbook) : ![starts](https://img.shields.io/github/stars/gina-alaska/bash-cve-2014-7169-cookbook.svg) ![forks](https://img.shields.io/github/forks/gina-alaska/bash-cve-2014-7169-cookbook.svg)
-
 - [https://github.com/Kushiro45/shellshock-poc-cve-2014-7169](https://github.com/Kushiro45/shellshock-poc-cve-2014-7169) : ![starts](https://img.shields.io/github/stars/Kushiro45/shellshock-poc-cve-2014-7169.svg) ![forks](https://img.shields.io/github/forks/Kushiro45/shellshock-poc-cve-2014-7169.svg)
+
+- [https://github.com/gina-alaska/bash-cve-2014-7169-cookbook](https://github.com/gina-alaska/bash-cve-2014-7169-cookbook) : ![starts](https://img.shields.io/github/stars/gina-alaska/bash-cve-2014-7169-cookbook.svg) ![forks](https://img.shields.io/github/forks/gina-alaska/bash-cve-2014-7169-cookbook.svg)
 
 - [https://github.com/renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock) : ![starts](https://img.shields.io/github/stars/renanvicente/puppet-shellshock.svg) ![forks](https://img.shields.io/github/forks/renanvicente/puppet-shellshock.svg)
 
@@ -239,9 +239,9 @@
 
 - [https://github.com/jagg3rsec/CVE-2014-6287](https://github.com/jagg3rsec/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/jagg3rsec/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/jagg3rsec/CVE-2014-6287.svg)
 
-- [https://github.com/10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/10cks/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2014-6287.svg)
-
 - [https://github.com/nika0x38/CVE-2014-6287](https://github.com/nika0x38/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/nika0x38/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/nika0x38/CVE-2014-6287.svg)
+
+- [https://github.com/10cks/CVE-2014-6287](https://github.com/10cks/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/10cks/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/10cks/CVE-2014-6287.svg)
 
 - [https://github.com/Z3R0space/CVE-2014-6287](https://github.com/Z3R0space/CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/Z3R0space/CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/Z3R0space/CVE-2014-6287.svg)
 
@@ -290,6 +290,8 @@
 
 - [https://github.com/securusglobal/BadBash](https://github.com/securusglobal/BadBash) : ![starts](https://img.shields.io/github/stars/securusglobal/BadBash.svg) ![forks](https://img.shields.io/github/forks/securusglobal/BadBash.svg)
 
+- [https://github.com/K3ysTr0K3R/CVE-2014-6271-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2014-6271-EXPLOIT) : ![starts](https://img.shields.io/github/stars/K3ysTr0K3R/CVE-2014-6271-EXPLOIT.svg) ![forks](https://img.shields.io/github/forks/K3ysTr0K3R/CVE-2014-6271-EXPLOIT.svg)
+
 - [https://github.com/0x00-0x00/CVE-2014-6271](https://github.com/0x00-0x00/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2014-6271.svg)
 
 - [https://github.com/akiraaisha/shellshocker-python](https://github.com/akiraaisha/shellshocker-python) : ![starts](https://img.shields.io/github/stars/akiraaisha/shellshocker-python.svg) ![forks](https://img.shields.io/github/forks/akiraaisha/shellshocker-python.svg)
@@ -310,9 +312,9 @@
 
 - [https://github.com/sunnyjiang/shellshocker-android](https://github.com/sunnyjiang/shellshocker-android) : ![starts](https://img.shields.io/github/stars/sunnyjiang/shellshocker-android.svg) ![forks](https://img.shields.io/github/forks/sunnyjiang/shellshocker-android.svg)
 
-- [https://github.com/Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2014-6271.svg)
-
 - [https://github.com/im2sinister/CVE-2014-6271](https://github.com/im2sinister/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/im2sinister/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/im2sinister/CVE-2014-6271.svg)
+
+- [https://github.com/Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/Any3ite/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/Any3ite/CVE-2014-6271.svg)
 
 - [https://github.com/RadYio/CVE-2014-6271](https://github.com/RadYio/CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/RadYio/CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/RadYio/CVE-2014-6271.svg)
 
@@ -436,9 +438,9 @@
 
 - [https://github.com/u20024804/bash-4.3-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.3-fixed-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/u20024804/bash-4.3-fixed-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/u20024804/bash-4.3-fixed-CVE-2014-6271.svg)
 
-- [https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/u20024804/bash-3.2-fixed-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/u20024804/bash-3.2-fixed-CVE-2014-6271.svg)
-
 - [https://github.com/ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock) : ![starts](https://img.shields.io/github/stars/ariarijp/vagrant-shellshock.svg) ![forks](https://img.shields.io/github/forks/ariarijp/vagrant-shellshock.svg)
+
+- [https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271) : ![starts](https://img.shields.io/github/stars/u20024804/bash-3.2-fixed-CVE-2014-6271.svg) ![forks](https://img.shields.io/github/forks/u20024804/bash-3.2-fixed-CVE-2014-6271.svg)
 
 - [https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271](https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271) : ![starts](https://img.shields.io/github/stars/internero/debian-lenny-bash_3.2.52-cve-2014-6271.svg) ![forks](https://img.shields.io/github/forks/internero/debian-lenny-bash_3.2.52-cve-2014-6271.svg)
 
@@ -457,8 +459,6 @@
 - [https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics](https://github.com/mcpmark-eval-liuhezi/security-digest-modern-classics) : ![starts](https://img.shields.io/github/stars/mcpmark-eval-liuhezi/security-digest-modern-classics.svg) ![forks](https://img.shields.io/github/forks/mcpmark-eval-liuhezi/security-digest-modern-classics.svg)
 
 - [https://github.com/R3fr4kt/Shocker-TJNULL-OSCP-](https://github.com/R3fr4kt/Shocker-TJNULL-OSCP-) : ![starts](https://img.shields.io/github/stars/R3fr4kt/Shocker-TJNULL-OSCP-.svg) ![forks](https://img.shields.io/github/forks/R3fr4kt/Shocker-TJNULL-OSCP-.svg)
-
-- [https://github.com/ambjlou/it355-lab4-enterprise-lan-security](https://github.com/ambjlou/it355-lab4-enterprise-lan-security) : ![starts](https://img.shields.io/github/stars/ambjlou/it355-lab4-enterprise-lan-security.svg) ![forks](https://img.shields.io/github/forks/ambjlou/it355-lab4-enterprise-lan-security.svg)
 
 ## CVE-2014-5460
  Unrestricted file upload vulnerability in the Tribulant Slideshow Gallery plugin before 1.4.7 for WordPress allows remote authenticated users to execute arbitrary code by uploading a PHP file, then accessing it via a direct request to the file in wp-content/uploads/slideshow-gallery/.
@@ -1036,9 +1036,9 @@
 
 - [https://github.com/22imer/CVE-2014-0160](https://github.com/22imer/CVE-2014-0160) : ![starts](https://img.shields.io/github/stars/22imer/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/22imer/CVE-2014-0160.svg)
 
-- [https://github.com/ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160) : ![starts](https://img.shields.io/github/stars/ice-security88/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/ice-security88/CVE-2014-0160.svg)
-
 - [https://github.com/fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160) : ![starts](https://img.shields.io/github/stars/fb1h2s/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/fb1h2s/CVE-2014-0160.svg)
+
+- [https://github.com/ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160) : ![starts](https://img.shields.io/github/stars/ice-security88/CVE-2014-0160.svg) ![forks](https://img.shields.io/github/forks/ice-security88/CVE-2014-0160.svg)
 
 - [https://github.com/tungduongNT/CVE-2014-0160.](https://github.com/tungduongNT/CVE-2014-0160.) : ![starts](https://img.shields.io/github/stars/tungduongNT/CVE-2014-0160..svg) ![forks](https://img.shields.io/github/forks/tungduongNT/CVE-2014-0160..svg)
 
@@ -1046,9 +1046,9 @@
 
 - [https://github.com/obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner) : ![starts](https://img.shields.io/github/stars/obayesshelton/CVE-2014-0160-Scanner.svg) ![forks](https://img.shields.io/github/forks/obayesshelton/CVE-2014-0160-Scanner.svg)
 
-- [https://github.com/timsonner/cve-2014-0160-heartbleed](https://github.com/timsonner/cve-2014-0160-heartbleed) : ![starts](https://img.shields.io/github/stars/timsonner/cve-2014-0160-heartbleed.svg) ![forks](https://img.shields.io/github/forks/timsonner/cve-2014-0160-heartbleed.svg)
-
 - [https://github.com/h3x0v3rl0rd/CVE-2014-0160_Heartbleed](https://github.com/h3x0v3rl0rd/CVE-2014-0160_Heartbleed) : ![starts](https://img.shields.io/github/stars/h3x0v3rl0rd/CVE-2014-0160_Heartbleed.svg) ![forks](https://img.shields.io/github/forks/h3x0v3rl0rd/CVE-2014-0160_Heartbleed.svg)
+
+- [https://github.com/timsonner/cve-2014-0160-heartbleed](https://github.com/timsonner/cve-2014-0160-heartbleed) : ![starts](https://img.shields.io/github/stars/timsonner/cve-2014-0160-heartbleed.svg) ![forks](https://img.shields.io/github/forks/timsonner/cve-2014-0160-heartbleed.svg)
 
 - [https://github.com/siddolo/knockbleed](https://github.com/siddolo/knockbleed) : ![starts](https://img.shields.io/github/stars/siddolo/knockbleed.svg) ![forks](https://img.shields.io/github/forks/siddolo/knockbleed.svg)
 
